@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7dfa6353653c41330dba179331ccbd2373aef774
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
+ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651947"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3801448"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.8 (فبراير 2020)
 
@@ -41,10 +41,10 @@ ms.locfileid: "3651947"
 - [مناطق مواقع إضافية](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 - [إدارة الأصول](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة الأصول](../asset-management/index.md).
 - [إلغاء العمل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - لمزيد من المعلومات، راجع [إلغاء عمل المستودع لمعالجة الاستثناء](../warehousing/cancel-warehouse-work.md).
-- [تغيير وعاء العمل في العمل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
-- [منصب نظام المجموعة ممتلئ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
-- [التأكيد والتحويل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)
-- [تقادم انتقاء مخزون لتوجيه الموقع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)
+- [تغيير وعاء العمل في العمل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - لمزيد من المعلومات، راجع [تغيير وعاء العمل في العمل‬](../warehousing/change-work-pool-on-work.md).
+- [موضع المجموعة ممتلئ‬](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - لمزيد من المعلومات، راجع [موضع المجموعة ممتلئ](../warehousing/cluster-position-full.md).
+- [التأكيد والتحويل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - لمزيد من المعلومات ، راجع [التأكيد والتحويل](../warehousing/confirm-and-transfer.md).
+- [تقادم انتقاء مخزون لتوجيه الموقع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - لمزيد من المعلومات ، راجع [تقادم انتقاء مخزون لتوجيه الموقع‬](../warehousing/location-directive-inventory-picking-aging.md).
 - [حالة الموقع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
 - [تجميع بنود الانتقاء](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - لمزيد من المعلومات، راجع [تجميع بنود الانتقاء](../warehousing/pick-line-grouping.md).
 - [التحديث التلقائي للشحنات](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - لمزيد من المعلومات، راجع [التحديثات التلقائية للشحنات](../warehousing/auto-update-shipment.md).
@@ -54,9 +54,9 @@ ms.locfileid: "3651947"
 - [التحقق من صحة مهمة التطبيق Warehouse باستخدام RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [قاعدة الإصدار إلى المستودع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [مرئيات حالة الموجة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [تجميع قوالب الموجات](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
-- [تفاصيل بنود العمل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - لمزيد من المعلومات، راجع [تفاصيل بنود العمل](https://www.microsoft.com/videoplayer/embed/RE4fcYN) video.
-- [تزويد حد المنطقة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)
+- [تجميع قوالب الموجات](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - لمزيد من المعلومات، راجع [تجميع قوالب الموجات‬](../warehousing/wave-template-grouping.md).
+- [تفاصيل بنود العمل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - لمزيد من المعلومات، راجع [تفاصيل بنود العمل](../warehousing/work-line-details.md) والفيديو [تفاصيل بنود العمل](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
+- [تزويد حد المنطقة](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - لمزيد من المعلومات، راجع [تزويد حد المنطقة‬](../warehousing/zone-threshold-replenishment.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

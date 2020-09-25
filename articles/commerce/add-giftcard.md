@@ -3,7 +3,7 @@ title: وحدة بطاقة الهدايا
 description: يتناول هذا الموضوع وحدات بطاقة الهدايا ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,24 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 4cc947b9d6f3cfa51bce2155170c49e9529d0f7d
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661232"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761071"
 ---
 # <a name="gift-card-module"></a>وحدة بطاقة الهدايا
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 يتناول هذا الموضوع وحدات بطاقة الهدايا ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>نظرة عامة
 
-تعتبر بطاقات الهدايا طريقة دفع شائعة، ويمكن استخدام وحدة بطاقة الهدايا في وحدة السداد مع الخروج لقبول بطاقات الهدايا. تدعم وحدة بطاقة الهدايا بطاقات هدايا Dynamics 365 وSVS وGivex. يتم استرداد بطاقات الهدايا من SVS وGivex من خلال موفر الدفع Adyen.
+يمكن استخدام وحدات بطاقات الهدايا في وحدات السداد مع الخروج لقبول بطاقات الهدايا، وهي عبارة عن طريقة دفع شائعة الاستخدام في حركات التجارة الإلكترونية. تدعم وحدة بطاقة الهدايا بطاقات هدايا Dynamics 365 وSVS وGivex. يتم استرداد بطاقات الهدايا من SVS وGivex من خلال موفر الدفع Adyen. لمزيد من المعلومات جول دعم بطاقات الهدايا الخارجية مثل SVS وGivex، راجع [دعم بطاقات الهدايا الخارجية](./dev-itpro/gift-card.md)
 
-لمزيد من المعلومات عن دعم بطاقات الهدايا الخارجية مثل SVS وGivex، راجع [و دعم بطاقات الهدايا الخارجية](./dev-itpro/gift-card.md)
+هناك وحدتان لبطاقة الهدايا:
+
+- **بطاقة الهدايا** - يمكن استخدام هذه الوحدة على صفحة السداد مع الخروج‬ لاسترداد بطاقة الهدايا كطريقة دفع. 
+- **فحص رصيد بطاقة الهدايا** - يمكن استخدام هذه الوحدة على أي صفحة لفحص الرصيد على بطاقة الهدايا. تتوفر هذه الوحدة في الإصدار 10.0.14 من Commerce والإصدارات اللاحقة.
 
 تعرض الصورة التالية مثالاً عن وحدة بطاقة هدايا في صفحة السداد مع الخروج.
 

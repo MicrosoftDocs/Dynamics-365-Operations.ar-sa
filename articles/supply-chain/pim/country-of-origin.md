@@ -15,18 +15,26 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fd234c57bf9893e9b8bcfa5ada7439a642f7a288
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: d0d93a02817bab8e188818862c1bb7f84b498fc1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596198"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802787"
 ---
 # <a name="country-of-origin"></a>بلد المنشأ
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 تصدر العديد من المؤسسات شهادات إلى الموردين الخاصين بهم لضمان أن المنتجات تفي بمعايير الشهادة المحددة. وغالبًا ما تعتمد هذه الشهادات على بلد المنشأ. تتيح لك ميزة "بلد المنشأ" ربط منتج ببلد المنشأ الخاص به وتعقب شهادات المنتج الخاصة به.
+
+## <a name="turn-on-the-country-of-origin-feature"></a>تشغيل ميزة بلد المنشأ
+
+قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+
+- **الوحدة النمطية** *إدارة معلومات المنتج*
+- **اسم الميزة:** *ميزة إدارة بلد المنشأ*
 
 ## <a name="configure-source-and-destination-countries"></a>تكوين البلدان المصدر والوجهة
 

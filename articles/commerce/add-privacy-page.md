@@ -3,7 +3,7 @@ title: إضافة صفحة سياسة الخصوصية
 description: يصف هذا الموضوع كيفية إضافة صفحة سياسة الخصوصية إلى موقعك في Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686685"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761263"
 ---
 # <a name="add-a-privacy-policy-page"></a>إضافة صفحة سياسة الخصوصية
 
@@ -89,8 +89,8 @@ ms.locfileid: "3686685"
 لإضافة ارتباط إلى جزء تذييل الصفحة، اتبع هذه الخطوات.
 
 1. انتقل إلى **الجديدة**، ثم حدد **جديد** لإنشاء جزء صفحة.
-1. في مربع الحوار **جزء صفحة جديد**، حدد وحدة **التذييل**.
-1. ضمن **اسم جزء الصفحة**، أدخل اسمًا لهذا الجزء، ثم حدد **موافق**.
+1. في مربع الحوار **جزء جديد**، حدد وحدة **التذييل**.
+1. ضمن **اسم الجزء**، أدخل اسمًا لهذا الجزء، ثم حدد **موافق**.
 1. في فتحه **فئة التذييل**، أضف الوحدة النمطية **عنصر التذييل** .
 1. في جزء الخصائص على اليمين، حدد **نص الارتباط**.
 1. في مربع الحوار **نص الارتباط**، أدخل نص الارتباط وهدف الارتباط الخاص بصفحة سياسة الخصوصية، ثم انقر فوق **موافق**.
