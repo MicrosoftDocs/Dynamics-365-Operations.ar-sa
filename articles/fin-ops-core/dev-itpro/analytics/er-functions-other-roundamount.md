@@ -18,77 +18,77 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5903f562b5f266572f999756539fa7b9ef145023
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 31a28279037ee6bfecd69b9d1e816afbd0de7894
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041321"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743965"
 ---
-# <span data-ttu-id="2edef-103"><a name="ROUNDAMOUNT">وظيفة ROUNDAMOUNT ER </a></span><span class="sxs-lookup"><span data-stu-id="2edef-103"><a name="ROUNDAMOUNT">ROUNDAMOUNT ER function</a></span></span>
+# <a name="roundamount-er-function"></a><span data-ttu-id="fb845-103">وظيفة ROUNDAMOUNT ER </span><span class="sxs-lookup"><span data-stu-id="fb845-103">ROUNDAMOUNT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2edef-104">تُرجع الوظيفة `ROUNDAMOUNT` قيمة *حقيقية* كنتيجة لتقريب الرقم المُحدد إلى أقرب مضاعف لرقم آخر وفقًا لقاعدة التقريب المُحددة.</span><span class="sxs-lookup"><span data-stu-id="2edef-104">The `ROUNDAMOUNT` function returns a *Real* value as the result of the rounding of the specified number to the nearest multiple of another number according to the specified rounding rule.</span></span>
+<span data-ttu-id="fb845-104">تُرجع الوظيفة `ROUNDAMOUNT` قيمة *حقيقية* كنتيجة لتقريب الرقم المُحدد إلى أقرب مضاعف لرقم آخر وفقًا لقاعدة التقريب المُحددة.</span><span class="sxs-lookup"><span data-stu-id="fb845-104">The `ROUNDAMOUNT` function returns a *Real* value as the result of the rounding of the specified number to the nearest multiple of another number according to the specified rounding rule.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2edef-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="2edef-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fb845-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="fb845-105">Syntax</span></span>
 
 ```vb
 ROUNDAMOUNT (number, decimals, round rule)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="2edef-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="2edef-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="fb845-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="fb845-106">Arguments</span></span>
 
-<span data-ttu-id="2edef-107">`number`: *عدد صحيح* أو *حقيقي*</span><span class="sxs-lookup"><span data-stu-id="2edef-107">`number`: *Int* or *Real*</span></span>
+<span data-ttu-id="fb845-107">`number`: *عدد صحيح* أو *حقيقي*</span><span class="sxs-lookup"><span data-stu-id="fb845-107">`number`: *Int* or *Real*</span></span>
 
-<span data-ttu-id="2edef-108">قيمة رقمية يجب تقريبها.</span><span class="sxs-lookup"><span data-stu-id="2edef-108">A numeric value that must be rounded.</span></span>
+<span data-ttu-id="fb845-108">قيمة رقمية يجب تقريبها.</span><span class="sxs-lookup"><span data-stu-id="fb845-108">A numeric value that must be rounded.</span></span>
 
-<span data-ttu-id="2edef-109">`decimals`: *عدد صحيح* أو *حقيقي*</span><span class="sxs-lookup"><span data-stu-id="2edef-109">`decimals`: *Int* or *Real*</span></span>
+<span data-ttu-id="fb845-109">`decimals`: *عدد صحيح* أو *حقيقي*</span><span class="sxs-lookup"><span data-stu-id="fb845-109">`decimals`: *Int* or *Real*</span></span>
 
-<span data-ttu-id="2edef-110">الرقم الذي يجب تقريب قيمة مُعلمة `number` إلى مضاعفه.</span><span class="sxs-lookup"><span data-stu-id="2edef-110">The number that the value of the `number` parameter must be rounded to a multiple of.</span></span>
+<span data-ttu-id="fb845-110">الرقم الذي يجب تقريب قيمة مُعلمة `number` إلى مضاعفه.</span><span class="sxs-lookup"><span data-stu-id="fb845-110">The number that the value of the `number` parameter must be rounded to a multiple of.</span></span>
 
-<span data-ttu-id="2edef-111">`round rule`: *قيمة التعداد*</span><span class="sxs-lookup"><span data-stu-id="2edef-111">`round rule`: *Enum value*</span></span>
+<span data-ttu-id="fb845-111">`round rule`: *قيمة التعداد*</span><span class="sxs-lookup"><span data-stu-id="fb845-111">`round rule`: *Enum value*</span></span>
 
-<span data-ttu-id="2edef-112">قيمة التعداد لتعداد **RoundOffType** التي تُعرف قاعدة التقريب.</span><span class="sxs-lookup"><span data-stu-id="2edef-112">An enumeration value of the **RoundOffType** enumeration that defines the rounding rule.</span></span> <span data-ttu-id="2edef-113">يعرض هذا التعداد القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="2edef-113">This enumeration offers the following values:</span></span>
+<span data-ttu-id="fb845-112">قيمة التعداد لتعداد **RoundOffType** التي تُعرف قاعدة التقريب.</span><span class="sxs-lookup"><span data-stu-id="fb845-112">An enumeration value of the **RoundOffType** enumeration that defines the rounding rule.</span></span> <span data-ttu-id="fb845-113">يعرض هذا التعداد القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="fb845-113">This enumeration offers the following values:</span></span>
 
-- <span data-ttu-id="2edef-114">عادي (عادي)</span><span class="sxs-lookup"><span data-stu-id="2edef-114">Normal (Ordinary)</span></span>
-- <span data-ttu-id="2edef-115">انحداري (انحداري)</span><span class="sxs-lookup"><span data-stu-id="2edef-115">Downward (RoundDown)</span></span>
-- <span data-ttu-id="2edef-116">التقريب (التقريب)</span><span class="sxs-lookup"><span data-stu-id="2edef-116">Rounding-up (RoundUp)</span></span>
+- <span data-ttu-id="fb845-114">عادي (عادي)</span><span class="sxs-lookup"><span data-stu-id="fb845-114">Normal (Ordinary)</span></span>
+- <span data-ttu-id="fb845-115">انحداري (انحداري)</span><span class="sxs-lookup"><span data-stu-id="fb845-115">Downward (RoundDown)</span></span>
+- <span data-ttu-id="fb845-116">التقريب (التقريب)</span><span class="sxs-lookup"><span data-stu-id="fb845-116">Rounding-up (RoundUp)</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="2edef-117">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="2edef-117">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="fb845-117">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="fb845-117">Return values</span></span>
 
-<span data-ttu-id="2edef-118">*حقيقي*</span><span class="sxs-lookup"><span data-stu-id="2edef-118">*Real*</span></span>
+<span data-ttu-id="fb845-118">*حقيقي*</span><span class="sxs-lookup"><span data-stu-id="fb845-118">*Real*</span></span>
 
-<span data-ttu-id="2edef-119">القيمة الرقمية الناتجة هي مضاعف للقيمة المُحدد بواسطة المُعلمة `decimals` وهي الأقرب إلى القيمة المُحددة بواسطة المُعلمة `number`.</span><span class="sxs-lookup"><span data-stu-id="2edef-119">The resulting numeric value is a multiple of the value specified by the `decimals` parameter and is closest to the value specified by the `number` parameter.</span></span>
+<span data-ttu-id="fb845-119">القيمة الرقمية الناتجة هي مضاعف للقيمة المُحدد بواسطة المُعلمة `decimals` وهي الأقرب إلى القيمة المُحددة بواسطة المُعلمة `number`.</span><span class="sxs-lookup"><span data-stu-id="fb845-119">The resulting numeric value is a multiple of the value specified by the `decimals` parameter and is closest to the value specified by the `number` parameter.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="2edef-120">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="2edef-120">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="fb845-120">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="fb845-120">Usage notes</span></span>
 
-<span data-ttu-id="2edef-121">عندما تكون المُعلمة `number` صفر، تُرجع هذه الوظيفة دومًا صفر.</span><span class="sxs-lookup"><span data-stu-id="2edef-121">When the `number` parameter is zero, this function always returns zero.</span></span>
+<span data-ttu-id="fb845-121">عندما تكون المُعلمة `number` صفر، تُرجع هذه الوظيفة دومًا صفر.</span><span class="sxs-lookup"><span data-stu-id="fb845-121">When the `number` parameter is zero, this function always returns zero.</span></span>
 
-<span data-ttu-id="2edef-122">عندما تكون المُعلمة `decimals` صفر، تُقرب هذه الوظيفة إلى قيمة التقريب الافتراضية.</span><span class="sxs-lookup"><span data-stu-id="2edef-122">When the `decimals` parameter is zero, this function rounds to the default round-off value.</span></span> <span data-ttu-id="2edef-123">عندما يتم تعيين مُعلمة `round rule` إلى **RoundOffType.Ordinary** ، تكون قيمة التقريب الافتراضية هي **0.01**. </span><span class="sxs-lookup"><span data-stu-id="2edef-123">When the `round rule` parameter is set to **RoundOffType.Ordinary**, the default round-off value is **0.01**.</span></span> <span data-ttu-id="2edef-124">وبخلاف ذلك، تكون قيمة التقريب الافتراضية هي **1.0**.</span><span class="sxs-lookup"><span data-stu-id="2edef-124">Otherwise, the default round-off value is **1.0**.</span></span>
+<span data-ttu-id="fb845-122">عندما تكون المُعلمة `decimals` صفر، تُقرب هذه الوظيفة إلى قيمة التقريب الافتراضية.</span><span class="sxs-lookup"><span data-stu-id="fb845-122">When the `decimals` parameter is zero, this function rounds to the default round-off value.</span></span> <span data-ttu-id="fb845-123">عندما يتم تعيين مُعلمة `round rule` إلى **RoundOffType.Ordinary** ، تكون قيمة التقريب الافتراضية هي **0.01**. </span><span class="sxs-lookup"><span data-stu-id="fb845-123">When the `round rule` parameter is set to **RoundOffType.Ordinary**, the default round-off value is **0.01**.</span></span> <span data-ttu-id="fb845-124">وبخلاف ذلك، تكون قيمة التقريب الافتراضية هي **1.0**.</span><span class="sxs-lookup"><span data-stu-id="fb845-124">Otherwise, the default round-off value is **1.0**.</span></span>
 
-<span data-ttu-id="2edef-125">عند تعيين المُعلمة `round rule` إلى **RoundOffType.Ordinary** ، تُقرب هذه الوظيفة إلى أقرب مبلغ تقريب. </span><span class="sxs-lookup"><span data-stu-id="2edef-125">When the `round rule` parameter is set to **RoundOffType.Ordinary**, this function rounds to the nearest round-off amount.</span></span>
+<span data-ttu-id="fb845-125">عند تعيين المُعلمة `round rule` إلى **RoundOffType.Ordinary** ، تُقرب هذه الوظيفة إلى أقرب مبلغ تقريب. </span><span class="sxs-lookup"><span data-stu-id="fb845-125">When the `round rule` parameter is set to **RoundOffType.Ordinary**, this function rounds to the nearest round-off amount.</span></span>
 
-<span data-ttu-id="2edef-126">عند تعيين المُعلمة `round rule` إلى **RoundOffType.RoundDown** ، تُقرب هذه الوظيفة في اتجاه الصفر إلى أقرب مبلغ تقريب.</span><span class="sxs-lookup"><span data-stu-id="2edef-126">When the `round rule` parameter is set to **RoundOffType.RoundDown**, this function rounds towards zero to the nearest round-off amount.</span></span>
+<span data-ttu-id="fb845-126">عند تعيين المُعلمة `round rule` إلى **RoundOffType.RoundDown** ، تُقرب هذه الوظيفة في اتجاه الصفر إلى أقرب مبلغ تقريب.</span><span class="sxs-lookup"><span data-stu-id="fb845-126">When the `round rule` parameter is set to **RoundOffType.RoundDown**, this function rounds towards zero to the nearest round-off amount.</span></span>
 
-<span data-ttu-id="2edef-127">عند تعيين المُعلمة `round rule` إلى **RoundOffType.RoundUp** ، تُقرب هذه الوظيفة بعيدًا عن اتجاه الصفر إلى أقرب مبلغ تقريب.</span><span class="sxs-lookup"><span data-stu-id="2edef-127">When the `round rule` parameter is set to **RoundOffType.RoundUp**, this function rounds away from zero to the nearest round-off amount.</span></span>
+<span data-ttu-id="fb845-127">عند تعيين المُعلمة `round rule` إلى **RoundOffType.RoundUp** ، تُقرب هذه الوظيفة بعيدًا عن اتجاه الصفر إلى أقرب مبلغ تقريب.</span><span class="sxs-lookup"><span data-stu-id="fb845-127">When the `round rule` parameter is set to **RoundOffType.RoundUp**, this function rounds away from zero to the nearest round-off amount.</span></span>
 
-<span data-ttu-id="2edef-128">عند تعيين المُعلمة `round rule` إلى **RoundOffType.Ordinary** ، تتصرف هذه الوظيفة مثل وظيفة Excel [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) ووظيفة X++ [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round).</span><span class="sxs-lookup"><span data-stu-id="2edef-128">When the `round rule` parameter is set to **RoundOffType.Ordinary**, this function behaves like the [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel function and the [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round) X++ function.</span></span>
+<span data-ttu-id="fb845-128">عند تعيين المُعلمة `round rule` إلى **RoundOffType.Ordinary** ، تتصرف هذه الوظيفة مثل وظيفة Excel [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) ووظيفة X++ [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round).</span><span class="sxs-lookup"><span data-stu-id="fb845-128">When the `round rule` parameter is set to **RoundOffType.Ordinary**, this function behaves like the [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel function and the [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round) X++ function.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2edef-129">ملاحظات</span><span class="sxs-lookup"><span data-stu-id="2edef-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fb845-129">ملاحظات</span><span class="sxs-lookup"><span data-stu-id="fb845-129">Remarks</span></span>
 
-<span data-ttu-id="2edef-130">لتقريب قيمة رقمية إلى رقم محدد من المنازل العشرية، استخدم وظيفة [ROUND](er-functions-mathematical-round.md).</span><span class="sxs-lookup"><span data-stu-id="2edef-130">To round a numeric value to a specified number of decimal places, use the [ROUND](er-functions-mathematical-round.md) function.</span></span>
+<span data-ttu-id="fb845-130">لتقريب قيمة رقمية إلى رقم محدد من المنازل العشرية، استخدم وظيفة [ROUND](er-functions-mathematical-round.md).</span><span class="sxs-lookup"><span data-stu-id="fb845-130">To round a numeric value to a specified number of decimal places, use the [ROUND](er-functions-mathematical-round.md) function.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2edef-131">مثال</span><span class="sxs-lookup"><span data-stu-id="2edef-131">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fb845-131">مثال</span><span class="sxs-lookup"><span data-stu-id="fb845-131">Example</span></span>
 
-<span data-ttu-id="2edef-132">إذا تم تعيين المعلمة **model.RoundOff** إلى **RoundOffType.Ordinary** ، تٌرجع `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 7.35. </span><span class="sxs-lookup"><span data-stu-id="2edef-132">If the **model.RoundOff** parameter is set to **RoundOffType.Ordinary**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 7.35.</span></span> 
+<span data-ttu-id="fb845-132">إذا تم تعيين المعلمة **model.RoundOff** إلى **RoundOffType.Ordinary** ، تٌرجع `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 7.35. </span><span class="sxs-lookup"><span data-stu-id="fb845-132">If the **model.RoundOff** parameter is set to **RoundOffType.Ordinary**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 7.35.</span></span> 
 
-<span data-ttu-id="2edef-133">إذا تم تعيين المعلمة **model.RoundOff** إلى **RoundOffType.RoundDown** ، تٌرجع `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 7.35. </span><span class="sxs-lookup"><span data-stu-id="2edef-133">If the **model.RoundOff** parameter is set to **RoundOffType.RoundDown**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 7.35.</span></span> 
+<span data-ttu-id="fb845-133">إذا تم تعيين المعلمة **model.RoundOff** إلى **RoundOffType.RoundDown** ، تٌرجع `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 7.35. </span><span class="sxs-lookup"><span data-stu-id="fb845-133">If the **model.RoundOff** parameter is set to **RoundOffType.RoundDown**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 7.35.</span></span> 
 
-<span data-ttu-id="2edef-134">إذا تم تعيين المعلمة **model.RoundOff** إلى **RoundOffType.RoundUp** ، تٌرجع `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 8.4. </span><span class="sxs-lookup"><span data-stu-id="2edef-134">If the **model.RoundOff** parameter is set to **RoundOffType.RoundUp**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 8.4.</span></span>
+<span data-ttu-id="fb845-134">إذا تم تعيين المعلمة **model.RoundOff** إلى **RoundOffType.RoundUp** ، تٌرجع `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` 8.4. </span><span class="sxs-lookup"><span data-stu-id="fb845-134">If the **model.RoundOff** parameter is set to **RoundOffType.RoundUp**, `ROUNDAMOUNT (7.45, 1.05, model.RoundOff)` returns 8.4.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="2edef-135">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="2edef-135">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="fb845-135">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="fb845-135">Additional resources</span></span>
 
-[<span data-ttu-id="2edef-136">دالات أخرى (خاصة بمجال الأعمال)</span><span class="sxs-lookup"><span data-stu-id="2edef-136">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="fb845-136">دالات أخرى (خاصة بمجال الأعمال)</span><span class="sxs-lookup"><span data-stu-id="fb845-136">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
 
-[<span data-ttu-id="2edef-137">الدالات الحسابية</span><span class="sxs-lookup"><span data-stu-id="2edef-137">Mathematical functions</span></span>](er-functions-category-mathematical.md)
+[<span data-ttu-id="fb845-137">الدالات الحسابية</span><span class="sxs-lookup"><span data-stu-id="fb845-137">Mathematical functions</span></span>](er-functions-category-mathematical.md)

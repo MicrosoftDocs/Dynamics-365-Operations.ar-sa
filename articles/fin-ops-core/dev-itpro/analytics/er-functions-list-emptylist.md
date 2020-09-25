@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fb991eb9ee08aeb418313eb782dbde7fa22b763
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 747b661d0dee4e9c27741e167c89f9ef7eefa470
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042172"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745311"
 ---
-# <span data-ttu-id="2928d-103"><a name="EMPTYLIST">EMPTYLIST ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="2928d-103"><a name="EMPTYLIST">EMPTYLIST ER function</a></span></span>
+# <a name="emptylist-er-function"></a><span data-ttu-id="0f7d6-103">EMPTYLIST ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="0f7d6-103">EMPTYLIST ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2928d-104">تُرجع الوظيفة `EMPTYLIST` قيمة *قائمة سجلات* فارغة باستخدام القائمة المُحددة كمصدر لبنية القائمة.</span><span class="sxs-lookup"><span data-stu-id="2928d-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
+<span data-ttu-id="0f7d6-104">تُرجع الوظيفة `EMPTYLIST` قيمة *قائمة سجلات* فارغة باستخدام القائمة المُحددة كمصدر لبنية القائمة.</span><span class="sxs-lookup"><span data-stu-id="0f7d6-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2928d-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="2928d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0f7d6-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="0f7d6-105">Syntax</span></span>
 
 ```vb
 EMPTYLIST (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="2928d-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="2928d-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="0f7d6-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="0f7d6-106">Arguments</span></span>
 
-<span data-ttu-id="2928d-107">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="2928d-107">`list`: *Record list*</span></span>
+<span data-ttu-id="0f7d6-107">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="0f7d6-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="2928d-108">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="2928d-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="0f7d6-108">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="0f7d6-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="2928d-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="2928d-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="0f7d6-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="0f7d6-109">Return values</span></span>
 
-<span data-ttu-id="2928d-110">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="2928d-110">*Record list*</span></span>
+<span data-ttu-id="0f7d6-110">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="0f7d6-110">*Record list*</span></span>
 
-<span data-ttu-id="2928d-111">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="2928d-111">The resulting list of records.</span></span>
+<span data-ttu-id="0f7d6-111">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="0f7d6-111">The resulting list of records.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2928d-112">مثال</span><span class="sxs-lookup"><span data-stu-id="2928d-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0f7d6-112">مثال</span><span class="sxs-lookup"><span data-stu-id="0f7d6-112">Example</span></span>
 
-<span data-ttu-id="2928d-113">يُرجع التعبير `EMPTYLIST (SPLIT ("abc", 1))` قائمة فارغة جديدة لها نفس بنية القائمة المُرتجعة بواسطة وظيفة `SPLIT` المستخدمة.</span><span class="sxs-lookup"><span data-stu-id="2928d-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
+<span data-ttu-id="0f7d6-113">يُرجع التعبير `EMPTYLIST (SPLIT ("abc", 1))` قائمة فارغة جديدة لها نفس بنية القائمة المُرتجعة بواسطة وظيفة `SPLIT` المستخدمة.</span><span class="sxs-lookup"><span data-stu-id="0f7d6-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="2928d-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="2928d-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0f7d6-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="0f7d6-114">Additional resources</span></span>
 
-[<span data-ttu-id="2928d-115">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="2928d-115">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="0f7d6-115">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="0f7d6-115">List functions</span></span>](er-functions-category-list.md)

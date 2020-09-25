@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 808e328bfcc35c96091da9a69850429b82a71070
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: c18a7f96096fbc6bbc7b6d15135c11bd70960d26
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070565"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744460"
 ---
-# <span data-ttu-id="6a646-103"><a name="CH_BANK_MOD_10">CH_BANK_MOD_10 ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="6a646-103"><a name="CH_BANK_MOD_10">CH_BANK_MOD_10 ER function</a></span></span>
+# <a name="ch_bank_mod_10-er-function"></a><span data-ttu-id="e526b-103">CH_BANK_MOD_10 ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="e526b-103">CH_BANK_MOD_10 ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6a646-104">تُرجع الوظيفة `CH_BANK_MOD_10` قيمة *سلسلة* تُمثل مرجع دائن كتعبير MOD10، بناءً على أرقام رقم الفاتورة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="6a646-104">The `CH_BANK_MOD_10` function returns a *String* value that represents a creditor reference as an MOD10 expression, based on the digits of the specified invoice number.</span></span>
+<span data-ttu-id="e526b-104">تُرجع الوظيفة `CH_BANK_MOD_10` قيمة *سلسلة* تُمثل مرجع دائن كتعبير MOD10، بناءً على أرقام رقم الفاتورة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="e526b-104">The `CH_BANK_MOD_10` function returns a *String* value that represents a creditor reference as an MOD10 expression, based on the digits of the specified invoice number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6a646-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="6a646-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e526b-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="e526b-105">Syntax</span></span>
 
 ```vb
 CH_BANK_MOD_10 (invoice number digits)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="6a646-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="6a646-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="e526b-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="e526b-106">Arguments</span></span>
 
-<span data-ttu-id="6a646-107">`invoice number digits`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="6a646-107">`invoice number digits`: *String*</span></span>
+<span data-ttu-id="e526b-107">`invoice number digits`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="e526b-107">`invoice number digits`: *String*</span></span>
 
-<span data-ttu-id="6a646-108">قيمة نصية تمثل الأرقام الخاصة برقم الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="6a646-108">A text value that represents the digits of an invoice number.</span></span>
+<span data-ttu-id="e526b-108">قيمة نصية تمثل الأرقام الخاصة برقم الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="e526b-108">A text value that represents the digits of an invoice number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="6a646-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="6a646-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="e526b-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="e526b-109">Return values</span></span>
 
-<span data-ttu-id="6a646-110">*السلسلة*</span><span class="sxs-lookup"><span data-stu-id="6a646-110">*String*</span></span>
+<span data-ttu-id="e526b-110">*السلسلة*</span><span class="sxs-lookup"><span data-stu-id="e526b-110">*String*</span></span>
 
-<span data-ttu-id="6a646-111">القيمة النصية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="6a646-111">The resulting text value.</span></span>
+<span data-ttu-id="e526b-111">القيمة النصية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="e526b-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="6a646-112">مثال</span><span class="sxs-lookup"><span data-stu-id="6a646-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e526b-112">مثال</span><span class="sxs-lookup"><span data-stu-id="e526b-112">Example</span></span>
 
-<span data-ttu-id="6a646-113">يُرجع التعبير `CH_BANK_MOD_10 ("VEND-200002")` **3**.</span><span class="sxs-lookup"><span data-stu-id="6a646-113">`CH_BANK_MOD_10 ("VEND-200002")` returns **3**.</span></span>
+<span data-ttu-id="e526b-113">يُرجع التعبير `CH_BANK_MOD_10 ("VEND-200002")` **3**.</span><span class="sxs-lookup"><span data-stu-id="e526b-113">`CH_BANK_MOD_10 ("VEND-200002")` returns **3**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6a646-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="6a646-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e526b-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="e526b-114">Additional resources</span></span>
 
-[<span data-ttu-id="6a646-115">دالات أخرى (خاصة بمجال الأعمال)</span><span class="sxs-lookup"><span data-stu-id="6a646-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="e526b-115">دالات أخرى (خاصة بمجال الأعمال)</span><span class="sxs-lookup"><span data-stu-id="e526b-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)

@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45e95751e3adfe6aa208daaba774a349216e1f1f
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 051e22daa3fe2d6c328e36403201d940f724bd29
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042057"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745167"
 ---
-# <span data-ttu-id="6c7fc-103"><a name="INDEX">INDEX ER الوظيفة</a></span><span class="sxs-lookup"><span data-stu-id="6c7fc-103"><a name="INDEX">INDEX ER function</a></span></span>
+# <a name="index-er-function"></a><span data-ttu-id="583ef-103">INDEX ER الوظيفة</span><span class="sxs-lookup"><span data-stu-id="583ef-103">INDEX ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6c7fc-104">تقوم الوظيفة `INDEX` بإرجاع قيمة *الحاوية (سجل)* المُحددة باستخدام الفهرس الرقمي المُحدد في القائمة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="6c7fc-104">The `INDEX` function returns a *Container (record)* value that is selected by using the specified numeric index in the specified list.</span></span> <span data-ttu-id="6c7fc-105">إذا كان هذا الفهرس خارج النطاق للسجلات في القائمة المُحددة، يتم طرح استثناء.</span><span class="sxs-lookup"><span data-stu-id="6c7fc-105">If the index is out of range for the records in the specified list, an exception is thrown.</span></span>
+<span data-ttu-id="583ef-104">تقوم الوظيفة `INDEX` بإرجاع قيمة *الحاوية (سجل)* المُحددة باستخدام الفهرس الرقمي المُحدد في القائمة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="583ef-104">The `INDEX` function returns a *Container (record)* value that is selected by using the specified numeric index in the specified list.</span></span> <span data-ttu-id="583ef-105">إذا كان هذا الفهرس خارج النطاق للسجلات في القائمة المُحددة، يتم طرح استثناء.</span><span class="sxs-lookup"><span data-stu-id="583ef-105">If the index is out of range for the records in the specified list, an exception is thrown.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6c7fc-106">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="6c7fc-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="583ef-106">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="583ef-106">Syntax</span></span>
 
 ```vb
 INDEX (list, index)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="6c7fc-107">الوسائط</span><span class="sxs-lookup"><span data-stu-id="6c7fc-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="583ef-107">الوسائط</span><span class="sxs-lookup"><span data-stu-id="583ef-107">Arguments</span></span>
 
-<span data-ttu-id="6c7fc-108">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="6c7fc-108">`list`: *Record list*</span></span>
+<span data-ttu-id="583ef-108">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="583ef-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="6c7fc-109">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="6c7fc-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="583ef-109">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="583ef-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="6c7fc-110">`index`: *عدد صحيح*</span><span class="sxs-lookup"><span data-stu-id="6c7fc-110">`index`: *Integer*</span></span>
+<span data-ttu-id="583ef-110">`index`: *عدد صحيح*</span><span class="sxs-lookup"><span data-stu-id="583ef-110">`index`: *Integer*</span></span>
 
-<span data-ttu-id="6c7fc-111">فهرس رقمي يشير إلى موضع السجل المطلوب في القائمة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="6c7fc-111">A numeric index that indicates the position of the desired record in the specified list.</span></span>
+<span data-ttu-id="583ef-111">فهرس رقمي يشير إلى موضع السجل المطلوب في القائمة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="583ef-111">A numeric index that indicates the position of the desired record in the specified list.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="6c7fc-112">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="6c7fc-112">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="583ef-112">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="583ef-112">Return values</span></span>
 
-<span data-ttu-id="6c7fc-113">*حاوية (سجل)*</span><span class="sxs-lookup"><span data-stu-id="6c7fc-113">*Container (record)*</span></span>
+<span data-ttu-id="583ef-113">*حاوية (سجل)*</span><span class="sxs-lookup"><span data-stu-id="583ef-113">*Container (record)*</span></span>
 
-<span data-ttu-id="6c7fc-114">قيمة السجل الناتجة.</span><span class="sxs-lookup"><span data-stu-id="6c7fc-114">The resulting record value.</span></span>
+<span data-ttu-id="583ef-114">قيمة السجل الناتجة.</span><span class="sxs-lookup"><span data-stu-id="583ef-114">The resulting record value.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="6c7fc-115">مثال1</span><span class="sxs-lookup"><span data-stu-id="6c7fc-115">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="583ef-115">مثال1</span><span class="sxs-lookup"><span data-stu-id="583ef-115">Example 1</span></span>
 
-<span data-ttu-id="6c7fc-116">إذا أدخلت مصدر البيانات **DS** من النوع *حقل محتسب* ، يحتوي على التعبير `SPLIT ("A|B|C", "|")` ، يُرجع التعبير `DS.Value` القيمة النصية **"B"** للسجل الثاني من قائمة النص هذه.</span><span class="sxs-lookup"><span data-stu-id="6c7fc-116">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `DS.Value` returns the text value **"B"** for the second record of this record list.</span></span> <span data-ttu-id="6c7fc-117">يُرجع التعبير `INDEX (SPLIT ("A|B|C", "|"), 2).Value` القيمة النصية **"B"** أيضًا.</span><span class="sxs-lookup"><span data-stu-id="6c7fc-117">The expression `INDEX (SPLIT ("A|B|C", "|"), 2).Value` also returns the text value **"B"**.</span></span>
+<span data-ttu-id="583ef-116">إذا أدخلت مصدر البيانات **DS** من النوع *حقل محتسب* ، يحتوي على التعبير `SPLIT ("A|B|C", "|")` ، يُرجع التعبير `DS.Value` القيمة النصية **"B"** للسجل الثاني من قائمة النص هذه.</span><span class="sxs-lookup"><span data-stu-id="583ef-116">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `DS.Value` returns the text value **"B"** for the second record of this record list.</span></span> <span data-ttu-id="583ef-117">يُرجع التعبير `INDEX (SPLIT ("A|B|C", "|"), 2).Value` القيمة النصية **"B"** أيضًا.</span><span class="sxs-lookup"><span data-stu-id="583ef-117">The expression `INDEX (SPLIT ("A|B|C", "|"), 2).Value` also returns the text value **"B"**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="6c7fc-118">مثال2</span><span class="sxs-lookup"><span data-stu-id="6c7fc-118">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="583ef-118">مثال2</span><span class="sxs-lookup"><span data-stu-id="583ef-118">Example 2</span></span>
 
-<span data-ttu-id="6c7fc-119">إذا قمت بإدخال مصدر البيانات **DS** من النوع *الحقل المحسوب* ، ويحتوي على التعبير `SPLIT ("A|B|C", "|")` ، يطرح التعبير `INDEX (SPLIT ("A|B|C", "|"), 4).Value` استثناءً في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="6c7fc-119">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `INDEX (SPLIT ("A|B|C", "|"), 4).Value` throws an exception at runtime.</span></span>
+<span data-ttu-id="583ef-119">إذا قمت بإدخال مصدر البيانات **DS** من النوع *الحقل المحسوب* ، ويحتوي على التعبير `SPLIT ("A|B|C", "|")` ، يطرح التعبير `INDEX (SPLIT ("A|B|C", "|"), 4).Value` استثناءً في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="583ef-119">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `INDEX (SPLIT ("A|B|C", "|"), 4).Value` throws an exception at runtime.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6c7fc-120">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="6c7fc-120">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="583ef-120">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="583ef-120">Additional resources</span></span>
 
-[<span data-ttu-id="6c7fc-121">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="6c7fc-121">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="583ef-121">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="583ef-121">List functions</span></span>](er-functions-category-list.md)

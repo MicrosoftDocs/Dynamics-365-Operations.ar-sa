@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cd48732280c9af0b89129a32b42285207f97fb7
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 069ec0c6d5578ca6ab68814adf325bd79e73b9e8
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041965"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745047"
 ---
-# <span data-ttu-id="75297-103"><a name="LISTOFFIRSTITEM">LISTOFFIRSTITEM ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="75297-103"><a name="LISTOFFIRSTITEM">LISTOFFIRSTITEM ER function</a></span></span>
+# <a name="listoffirstitem-er-function"></a><span data-ttu-id="ec996-103">LISTOFFIRSTITEM ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="ec996-103">LISTOFFIRSTITEM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="75297-104">تُرجع الوظيفة `LISTOFFIRSTITEM` قيمة *قائمة السجلات* التي تتكون فقط من السجل الأول للقائمة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="75297-104">The `LISTOFFIRSTITEM` function returns a *Record list* value that consists of only the first record of the specified list.</span></span>
+<span data-ttu-id="ec996-104">تُرجع الوظيفة `LISTOFFIRSTITEM` قيمة *قائمة السجلات* التي تتكون فقط من السجل الأول للقائمة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="ec996-104">The `LISTOFFIRSTITEM` function returns a *Record list* value that consists of only the first record of the specified list.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="75297-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="75297-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ec996-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="ec996-105">Syntax</span></span>
 
 ```vb
 LISTOFFIRSTITEM (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="75297-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="75297-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="ec996-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="ec996-106">Arguments</span></span>
 
-<span data-ttu-id="75297-107">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="75297-107">`list`: *Record list*</span></span>
+<span data-ttu-id="ec996-107">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="ec996-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="75297-108">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="75297-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="ec996-108">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="ec996-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="75297-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="75297-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ec996-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="ec996-109">Return values</span></span>
 
-<span data-ttu-id="75297-110">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="75297-110">*Record list*</span></span>
+<span data-ttu-id="ec996-110">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="ec996-110">*Record list*</span></span>
 
-<span data-ttu-id="75297-111">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="75297-111">The resulting list of records.</span></span>
+<span data-ttu-id="ec996-111">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="ec996-111">The resulting list of records.</span></span>
 
-## <a name="example"></a><span data-ttu-id="75297-112">مثال</span><span class="sxs-lookup"><span data-stu-id="75297-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ec996-112">مثال</span><span class="sxs-lookup"><span data-stu-id="ec996-112">Example</span></span>
 
-<span data-ttu-id="75297-113">يُرجع التعبير `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` القيمة النصية **"A"**.</span><span class="sxs-lookup"><span data-stu-id="75297-113">The expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` returns the text value **"A"**.</span></span>
+<span data-ttu-id="ec996-113">يُرجع التعبير `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` القيمة النصية **"A"**.</span><span class="sxs-lookup"><span data-stu-id="ec996-113">The expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` returns the text value **"A"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="75297-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="75297-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ec996-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="ec996-114">Additional resources</span></span>
 
-[<span data-ttu-id="75297-115">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="75297-115">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="ec996-115">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="ec996-115">List functions</span></span>](er-functions-category-list.md)

@@ -18,55 +18,55 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 392cf7acebd7ad95bcc0f5d4b7a67500a412a795
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 94326986791c95eac7b0f5771f779014d865d3bb
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041818"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743414"
 ---
-# <span data-ttu-id="30253-103"><a name="WHERE">WHERE ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="30253-103"><a name="WHERE">WHERE ER function</a></span></span>
+# <a name="where-er-function"></a><span data-ttu-id="36d7c-103">WHERE ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="36d7c-103">WHERE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="30253-104">تُرجع الوظيفة `WHERE` القائمة المُحددة كقيمة *قائمة السجلات* بعد أن تمت تصفيتها وفقًا للشرط المُحدد.</span><span class="sxs-lookup"><span data-stu-id="30253-104">The `WHERE` function returns the specified list as a *Record list* value after it has been filtered according to the specified condition.</span></span>
+<span data-ttu-id="36d7c-104">تُرجع الوظيفة `WHERE` القائمة المُحددة كقيمة *قائمة السجلات* بعد أن تمت تصفيتها وفقًا للشرط المُحدد.</span><span class="sxs-lookup"><span data-stu-id="36d7c-104">The `WHERE` function returns the specified list as a *Record list* value after it has been filtered according to the specified condition.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="30253-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="30253-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="36d7c-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="36d7c-105">Syntax</span></span>
 
 ```vb
 WHERE (list, condition)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="30253-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="30253-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="36d7c-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="36d7c-106">Arguments</span></span>
 
-<span data-ttu-id="30253-107">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="30253-107">`list`: *Record list*</span></span>
+<span data-ttu-id="36d7c-107">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="36d7c-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="30253-108">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="30253-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="36d7c-108">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="36d7c-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="30253-109">`condition`: *منطقي*</span><span class="sxs-lookup"><span data-stu-id="30253-109">`condition`: *Boolean*</span></span>
+<span data-ttu-id="36d7c-109">`condition`: *منطقي*</span><span class="sxs-lookup"><span data-stu-id="36d7c-109">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="30253-110">تعبير شرطي صالح يُستخدم لتصفية سجلات القائمة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="30253-110">A valid conditional expression that is used to filter records of the specified list.</span></span>
+<span data-ttu-id="36d7c-110">تعبير شرطي صالح يُستخدم لتصفية سجلات القائمة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="36d7c-110">A valid conditional expression that is used to filter records of the specified list.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="30253-111">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="30253-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="36d7c-111">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="36d7c-111">Return values</span></span>
 
-<span data-ttu-id="30253-112">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="30253-112">*Record list*</span></span>
+<span data-ttu-id="36d7c-112">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="36d7c-112">*Record list*</span></span>
 
-<span data-ttu-id="30253-113">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="30253-113">The resulting list of records.</span></span>
+<span data-ttu-id="36d7c-113">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="36d7c-113">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="30253-114">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="30253-114">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="36d7c-114">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="36d7c-114">Usage notes</span></span>
 
-<span data-ttu-id="30253-115">تختلف هذه الوظيفة عن وظيفة [FILTER](er-functions-list-filter.md) ، لأن يتم تطبيق الشرط المُحدد على أي من مصادر بيانات التقارير الإلكترونية (ER) لنوع *قائمة السجلات* الموجودة في الذاكرة.</span><span class="sxs-lookup"><span data-stu-id="30253-115">This function differs from the [FILTER](er-functions-list-filter.md) function, because the specified condition is applied to any Electronic reporting (ER) data source of the *Record list* type that is present in memory.</span></span>
+<span data-ttu-id="36d7c-115">تختلف هذه الوظيفة عن وظيفة [FILTER](er-functions-list-filter.md) ، لأن يتم تطبيق الشرط المُحدد على أي من مصادر بيانات التقارير الإلكترونية (ER) لنوع *قائمة السجلات* الموجودة في الذاكرة.</span><span class="sxs-lookup"><span data-stu-id="36d7c-115">This function differs from the [FILTER](er-functions-list-filter.md) function, because the specified condition is applied to any Electronic reporting (ER) data source of the *Record list* type that is present in memory.</span></span>
 
-<span data-ttu-id="30253-116">إذا كانت هذه الوسيطات المكونة لهذه الوظيفة (`list` و`condition`) تسمح بترجمة هذا الطلب للاستدعاء المباشر لـ SQL، يتم طرح رسالة تحذيرية في وقت التصميم.</span><span class="sxs-lookup"><span data-stu-id="30253-116">If the arguments that are configured for this function (`list` and `condition`) allow this request to be translated to the direct SQL call, a warning message is thrown at design time.</span></span> <span data-ttu-id="30253-117">تُعلم هذه الرسالة المستخدم أنه يُمكنه تحسين الأداء إذا تم استخدام الوظيفة [FILTER](er-functions-list-filter.md) بدلًا من `WHERE`.</span><span class="sxs-lookup"><span data-stu-id="30253-117">This message informs the user that performance might be improved if the [FILTER](er-functions-list-filter.md) function is used instead of `WHERE`.</span></span>
+<span data-ttu-id="36d7c-116">إذا كانت هذه الوسيطات المكونة لهذه الوظيفة (`list` و`condition`) تسمح بترجمة هذا الطلب للاستدعاء المباشر لـ SQL، يتم طرح رسالة تحذيرية في وقت التصميم.</span><span class="sxs-lookup"><span data-stu-id="36d7c-116">If the arguments that are configured for this function (`list` and `condition`) allow this request to be translated to the direct SQL call, a warning message is thrown at design time.</span></span> <span data-ttu-id="36d7c-117">تُعلم هذه الرسالة المستخدم أنه يُمكنه تحسين الأداء إذا تم استخدام الوظيفة [FILTER](er-functions-list-filter.md) بدلًا من `WHERE`.</span><span class="sxs-lookup"><span data-stu-id="36d7c-117">This message informs the user that performance might be improved if the [FILTER](er-functions-list-filter.md) function is used instead of `WHERE`.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="30253-118">مثال1</span><span class="sxs-lookup"><span data-stu-id="30253-118">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="36d7c-118">مثال1</span><span class="sxs-lookup"><span data-stu-id="36d7c-118">Example 1</span></span>
 
-<span data-ttu-id="30253-119">إذا تم تكوين **Vendor** كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، يُرجع التعبير `WHERE (Vendors, Vendors.VendGroup = "40")` قائمة المورّدين التي تنتمي إلى مجموعة الموردين 40.</span><span class="sxs-lookup"><span data-stu-id="30253-119">If **Vendor** is configured as an ER data source that refers to the VendTable table, the expression `WHERE (Vendors, Vendors.VendGroup = "40")` returns a list of only vendors that belong to vendor group 40.</span></span>
+<span data-ttu-id="36d7c-119">إذا تم تكوين **Vendor** كمصدر بيانات تقارير إلكترونية يشير إلى جدول VendTable، يُرجع التعبير `WHERE (Vendors, Vendors.VendGroup = "40")` قائمة المورّدين التي تنتمي إلى مجموعة الموردين 40.</span><span class="sxs-lookup"><span data-stu-id="36d7c-119">If **Vendor** is configured as an ER data source that refers to the VendTable table, the expression `WHERE (Vendors, Vendors.VendGroup = "40")` returns a list of only vendors that belong to vendor group 40.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="30253-120">مثال2</span><span class="sxs-lookup"><span data-stu-id="30253-120">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="36d7c-120">مثال2</span><span class="sxs-lookup"><span data-stu-id="36d7c-120">Example 2</span></span>
 
-<span data-ttu-id="30253-121">إذا أدخلت مصدر البيانات **DS** من النوع *الحقل المحسوب* ، ويحتوي على التعبير `SPLIT ("A|B|C", "|")` ، يُرجع التعبير `WHERE( DS, DS.Value = "B")` قائمة بسجل واحد فقط يحتوي على النص **"B"** في حقل **القيمة**.</span><span class="sxs-lookup"><span data-stu-id="30253-121">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `WHERE( DS, DS.Value = "B")` returns a list of only one record that contains the text **"B"** in the **Value** field.</span></span>
+<span data-ttu-id="36d7c-121">إذا أدخلت مصدر البيانات **DS** من النوع *الحقل المحسوب* ، ويحتوي على التعبير `SPLIT ("A|B|C", "|")` ، يُرجع التعبير `WHERE( DS, DS.Value = "B")` قائمة بسجل واحد فقط يحتوي على النص **"B"** في حقل **القيمة**.</span><span class="sxs-lookup"><span data-stu-id="36d7c-121">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `WHERE( DS, DS.Value = "B")` returns a list of only one record that contains the text **"B"** in the **Value** field.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="30253-122">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="30253-122">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="36d7c-122">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="36d7c-122">Additional resources</span></span>
 
-[<span data-ttu-id="30253-123">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="30253-123">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="36d7c-123">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="36d7c-123">List functions</span></span>](er-functions-category-list.md)
