@@ -18,55 +18,55 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 198210f15e75de761dbb03e5087ba7c77a95721a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 87e252a2751beeecb51e512cae38b271c1456fae
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041735"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744685"
 ---
-# <span data-ttu-id="bb9af-103"><a name="IF">IF ER وظيفة</a></span><span class="sxs-lookup"><span data-stu-id="bb9af-103"><a name="IF">IF ER function</a></span></span>
+# <a name="if-er-function"></a><span data-ttu-id="0129f-103">IF ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="0129f-103">IF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="bb9af-104">تُرجع الوظيفة `IF` القيمة المُحددة الأولى عند تحقق الشرط المُحدد.</span><span class="sxs-lookup"><span data-stu-id="bb9af-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="bb9af-105">وإلا، تُرجع القيمة المحددة الثانية.</span><span class="sxs-lookup"><span data-stu-id="bb9af-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="bb9af-106">يُمكن أن تكون القيمة التي يتم إرجاعها قيمة من أي أنواع بيانات مدعومة.</span><span class="sxs-lookup"><span data-stu-id="bb9af-106">The value that is returned can be a value of any of the supported data types.</span></span>
+<span data-ttu-id="0129f-104">تُرجع الوظيفة `IF` القيمة المُحددة الأولى عند تحقق الشرط المُحدد.</span><span class="sxs-lookup"><span data-stu-id="0129f-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="0129f-105">وإلا، تُرجع القيمة المحددة الثانية.</span><span class="sxs-lookup"><span data-stu-id="0129f-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="0129f-106">يُمكن أن تكون القيمة التي يتم إرجاعها قيمة من أي أنواع بيانات مدعومة.</span><span class="sxs-lookup"><span data-stu-id="0129f-106">The value that is returned can be a value of any of the supported data types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bb9af-107">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="bb9af-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0129f-107">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="0129f-107">Syntax</span></span>
 
 ```vb
 IF (condition, first value, second value) as any of the supported data types
 ```
 
-## <a name="arguments"></a><span data-ttu-id="bb9af-108">الوسائط</span><span class="sxs-lookup"><span data-stu-id="bb9af-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="0129f-108">الوسائط</span><span class="sxs-lookup"><span data-stu-id="0129f-108">Arguments</span></span>
 
-<span data-ttu-id="bb9af-109">`condition`: *منطقي*</span><span class="sxs-lookup"><span data-stu-id="bb9af-109">`condition`: *Boolean*</span></span>
+<span data-ttu-id="0129f-109">`condition`: *منطقي*</span><span class="sxs-lookup"><span data-stu-id="0129f-109">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="bb9af-110">تعبير شرطي صالح يجب اختباره.</span><span class="sxs-lookup"><span data-stu-id="bb9af-110">A valid conditional expression that must be tested.</span></span>
+<span data-ttu-id="0129f-110">تعبير شرطي صالح يجب اختباره.</span><span class="sxs-lookup"><span data-stu-id="0129f-110">A valid conditional expression that must be tested.</span></span>
 
-<span data-ttu-id="bb9af-111">`first value`: *أي من أنواع البيانات المعتمدة*</span><span class="sxs-lookup"><span data-stu-id="bb9af-111">`first value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="0129f-111">`first value`: *أي من أنواع البيانات المعتمدة*</span><span class="sxs-lookup"><span data-stu-id="0129f-111">`first value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="bb9af-112">النتيجة التي يتم إرجاعها إذا تحقق الشرط.</span><span class="sxs-lookup"><span data-stu-id="bb9af-112">The result that is returned if the condition is met.</span></span>
+<span data-ttu-id="0129f-112">النتيجة التي يتم إرجاعها إذا تحقق الشرط.</span><span class="sxs-lookup"><span data-stu-id="0129f-112">The result that is returned if the condition is met.</span></span>
 
-<span data-ttu-id="bb9af-113">`second value`: *أي من أنواع البيانات المعتمدة*</span><span class="sxs-lookup"><span data-stu-id="bb9af-113">`second value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="0129f-113">`second value`: *أي من أنواع البيانات المعتمدة*</span><span class="sxs-lookup"><span data-stu-id="0129f-113">`second value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="bb9af-114">النتيجة التي يتم إرجاعها إذا لم يتحقق الشرط.</span><span class="sxs-lookup"><span data-stu-id="bb9af-114">The result that is returned if the condition isn't met.</span></span>
+<span data-ttu-id="0129f-114">النتيجة التي يتم إرجاعها إذا لم يتحقق الشرط.</span><span class="sxs-lookup"><span data-stu-id="0129f-114">The result that is returned if the condition isn't met.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="bb9af-115">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="bb9af-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="0129f-115">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="0129f-115">Return values</span></span>
 
-<span data-ttu-id="bb9af-116">*أي من أنواع البيانات المدعومة*</span><span class="sxs-lookup"><span data-stu-id="bb9af-116">*Any of the supported data types*</span></span>
+<span data-ttu-id="0129f-116">*أي من أنواع البيانات المدعومة*</span><span class="sxs-lookup"><span data-stu-id="0129f-116">*Any of the supported data types*</span></span>
 
-<span data-ttu-id="bb9af-117">القيمة الناتجة لأي من أنواع البيانات المدعومة.</span><span class="sxs-lookup"><span data-stu-id="bb9af-117">The resulting value of any of the supported data types.</span></span>
+<span data-ttu-id="0129f-117">القيمة الناتجة لأي من أنواع البيانات المدعومة.</span><span class="sxs-lookup"><span data-stu-id="0129f-117">The resulting value of any of the supported data types.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="bb9af-118">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="bb9af-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="0129f-118">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="0129f-118">Usage notes</span></span>
 
-<span data-ttu-id="bb9af-119">يجب تحديد الوسيطات `first value` و `second value` باستخدام نفس نوع البيانات.</span><span class="sxs-lookup"><span data-stu-id="bb9af-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="bb9af-120">يتم طرح استثناء في وقت التصميم إذا لم تتطابق أنواع بيانات القيم المكونة.</span><span class="sxs-lookup"><span data-stu-id="bb9af-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
+<span data-ttu-id="0129f-119">يجب تحديد الوسيطات `first value` و `second value` باستخدام نفس نوع البيانات.</span><span class="sxs-lookup"><span data-stu-id="0129f-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="0129f-120">يتم طرح استثناء في وقت التصميم إذا لم تتطابق أنواع بيانات القيم المكونة.</span><span class="sxs-lookup"><span data-stu-id="0129f-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
 
-<span data-ttu-id="bb9af-121">إذا كانت قيمة النتيجة الأولى وقيمة النتيجة الثانية هي قيم أنواع البيانات *الحاوية (السجل)* أو *قوائم السجلات* ، فإن النتيجة تحتوي فقط على الحقول الموجودة في كلا القيمتين.</span><span class="sxs-lookup"><span data-stu-id="bb9af-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+<span data-ttu-id="0129f-121">إذا كانت قيمة النتيجة الأولى وقيمة النتيجة الثانية هي قيم أنواع البيانات *الحاوية (السجل)* أو *قوائم السجلات* ، فإن النتيجة تحتوي فقط على الحقول الموجودة في كلا القيمتين.</span><span class="sxs-lookup"><span data-stu-id="0129f-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
 
-## <a name="example"></a><span data-ttu-id="bb9af-122">مثال</span><span class="sxs-lookup"><span data-stu-id="bb9af-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0129f-122">مثال</span><span class="sxs-lookup"><span data-stu-id="0129f-122">Example</span></span>
 
-<span data-ttu-id="bb9af-123">يُرجع التعبير `IF (1=2, "condition is met", "condition is not met")` السلسلة **عدم تحقق الشرط**.</span><span class="sxs-lookup"><span data-stu-id="bb9af-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
+<span data-ttu-id="0129f-123">يُرجع التعبير `IF (1=2, "condition is met", "condition is not met")` السلسلة **عدم تحقق الشرط**.</span><span class="sxs-lookup"><span data-stu-id="0129f-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="bb9af-124">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="bb9af-124">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0129f-124">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="0129f-124">Additional resources</span></span>
 
-[<span data-ttu-id="bb9af-125">الوظائف المنطقية</span><span class="sxs-lookup"><span data-stu-id="bb9af-125">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="0129f-125">الوظائف المنطقية</span><span class="sxs-lookup"><span data-stu-id="0129f-125">Logical functions</span></span>](er-functions-category-logical.md)
