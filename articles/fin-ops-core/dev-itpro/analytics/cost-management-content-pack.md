@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771507"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759246"
 ---
 # <a name="cost-management-power-bi-content"></a>محتوى "إدارة التكلفة‬" في Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "2771507"
 > [!NOTE]
 > ينطبق محتوى **إدارة التكلفة** في Power BI الذي ورد وصفه في هذا الموضوع على الإصدار 8.0 من Dynamics 365 Finance and Operations.
 > 
-> تم إهلاك حزمة محتوى **إدارة التكلفة** في Power BI، المتوفرة في موقع AppSource. لمزيد من المعلومات حول هذا الإهمال، راجع [الميزات التي تمت إزالتها أو إهمالها لـ Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> تم إهلاك حزمة محتوى **إدارة التكلفة** في Power BI، المتوفرة في موقع AppSource. لمزيد من المعلومات حول هذا الإهمال، راجع [الميزات التي تمت إزالتها أو إهمالها في Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 يوفر محتوى Power BI هذا تنسيقًا مصنفًا يساعدك على مراقبة أداء عمليات الجرد وتصور كيفية تدفق التكاليف من خلالها. يمكنك الحصول على رؤى إدارية مثل نسبة معدل الدوران، وعدد الأيام التي يتوفر فيها المخزون، والدقة و"تصنيف ABC" بالمستوى المفضل لديك (الشركة أو الصنف أو مجموعة الأصناف أو الموقع). يمكن استخدام المعلومات التي تم توفيرها أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
 
@@ -176,7 +176,7 @@ ms.locfileid: "2771507"
 
 يتم استخدام القياسات المجمعة الرئيسية للكائنات التالية كأساس لمحتوى Power BI.
 
-| كائن                          | القياسات التجميعية الرئيسية | بيانات المصدر لـ Finance and Operations | الحقل               |
+| كائن                          | القياسات التجميعية الرئيسية | مصدر بيانات لـ Finance and Operations | الحقل               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | ‏‏المقدار                     | CostObjectStatementCache               | ‏‏المقدار              |
 | CostObjectStatementCacheMonthly | الكمية                   | CostObjectStatementCache               | الكمية                 |
@@ -193,10 +193,10 @@ ms.locfileid: "2771507"
 | كمية الرصيد الختامي                | كمية الرصيد الختامي. = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | صافي التغيير                         | صافي التغيير = SUM(\[AMOUNT\]) |
 | كمية صافي التغيير                    | كمية صافي التغيير = SUM(\[QTY\]) |
-| نسبة دوران المخزون حسب المبلغ | نسبة دوران المخزون حسب المبلغ = if(OR(\[متوسط رصيد المخزون\] \<= 0, \[المخزون المباع أو الإصدارات المستهلكة\] \>= 0), 0, ABS(\[المخزون المباع أو الإصدارات المستهلكة\])/\[متوسط رصيد المخزون\]) |
+| نسبة دوران المخزون حسب المبلغ | نسبة دوران المخزون حسب المبلغ = if(OR(\[متوسط رصيد المخزون\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[المخزون المباع أو الإصدارات المستهلكة\])/\[متوسط رصيد المخزون\]) |
 | رصيد متوسط المخزون          | متوسط رصيد المخزون = ((\[الرصيد الختامي\] + \[الرصيد الافتتاحي\]) / 2) |
 | أيام المخزون المتاحة             | أيام المخزون المتاحة = 365 / CostObjectStatementEntries\[نسبة دوران المخزون حسب المبلغ\] |
-| دقة المخزون                 | دقة المخزون حسب المبلغ = IF(\[الرصيد الختامي\] \<= 0, IF(OR(\[المبلغ المحسوب للمخزون\] \<\> 0, \[الرصيد الختامي\] \< 0), 0, 1), MAX(0, (\[الرصيد الختامي\] - ABS(\[المبلغ المحسوب للمخزون\]))/\[الرصيد الختامي\])) |
+| دقة المخزون                 | دقة المخزون حسب المبلغ = IF(\[الرصيد الختامي\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[الرصيد الختامي\] \< 0), 0, 1), MAX(0, (\[الرصيد الختامي\] - ABS(\[المبلغ المحسوب للمخزون\]))/\[الرصيد الختامي\])) |
 
 يتم استخدام الأبعاد الرئيسية التالية كعوامل تصفية لتقسيم القياسات التجميعية، لتتمكن من تحقيق مستوى أكبر من الدقة وتوفير نظرة تحليلية أعمق.
 

@@ -90,8 +90,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: المزايا الجديدة أو المتغيرة في Commerce
                   items:
-                    - name: الجديد أو المتغير‬ في صفحة Commerce الرئيسية
+                    - name: المزايا الجديدة أو المتغيرة‬ في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.14 (نوفمبر 2020)
+                      href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (أكتوبر 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (أغسطس 2020)
@@ -238,11 +240,11 @@
                   href: dev-itpro/retail-device-activation.md
                 - name: المساعدة في تأمين نقطة البيع السحابية‬ في بيئات مشتركة
                   href: dev-itpro/secure-retail-cloud-pos.md
-                - name: تكوين وتثبيت Retail Hardware Station
+                - name: تكوين Retail Hardware Station وتثبيته
                   href: retail-hardware-station-configuration-installation.md
-                - name: التوزيع الجماعي لمكونات الخدمة الذاتية
+                - name: النشر الجماعي لمكونات الخدمة الذاتية
                   href: dev-itpro/retail-mass-deployment.md
-                - name: أحداث مكونات Retail لأدوات التشخيص واستكشاف الأخطاء وإصلاحها
+                - name: أحداث مكونات Commerce للتشخيصات واستكشاف الأخطاء وإصلاحها
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: تطبيق حزمة قابلة للنشر
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -524,9 +526,11 @@
                       href: duplicate-payment-protection.md
                     - name: نظرة عامة على مدفوعات القنوات متعددة الاتجاهات
                       href: omni-channel-payments.md
-                    - name: مدفوعات أمر تجارة القناة متعددة الاتجاهات
+                    - name: مدفوعات أمر Commerce بالقناة متعددة الاتجاهات
                       href: dev-itpro/commerce-payments.md
-                    - name: الأسئلة المتداولة حول الدفعات
+                    - name: بطاقات ائتمان العملية دون محطة الأجهزة
+                      href: dev-itpro/cnp-pos.md
+                    - name: الأسئلة الشائعة حول المدفوعات
                       href: dev-itpro/payments-retail.md
                 - name: إدارة خرائط Bing لمؤسستك
                   href: dev-itpro/manage-bing-maps.md
@@ -700,13 +704,13 @@
           items:
             - name: أوامر العميل
               items:
-                - name: أوامر العميل في نقطة البيع الحديثة
+                - name: أوامر العميل في نقطة البيع (POS)
                   href: customer-orders-overview.md
                 - name: أوامر العملاء المختلطة
                   href: hybrid-customer-orders.md
             - name: أوامر المبيعات
               items:
-                - name: إنشاء أمر مركز الاتصال
+                - name: إنشاء أمر مركز اتصال
                   href: tasks/create-call-center-orders.md
                 - name: تغيير ‏‫وضع التسليم‬ في نقطة البيع
                   href: POS-change-delivery-mode.md
@@ -822,13 +826,15 @@
                   href: upload-bulk-redirects.md
                 - name: إعداد مستأجر متاجرة عمل-مستهلك في Commerce
                   href: set-up-B2C-tenant.md
-                - name: إعداد صفحات مخصصه لعمليات تسجيل دخول المستخدمين
+                - name: إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين
                   href: custom-pages-user-logins.md
-                - name: تكوين مستأجرين متعددين لمتاجرة عمل-مستهلك في بيئة Commerce
+                - name: تكوين العديد من مستأجرين شركة إلى عميل في بيئة Commerce
                   href: configure-multi-B2C-tenants.md
+                - name: النطاقات في Dynamics 365 Commerce
+                  href: domains-commerce.md
                 - name: إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
                   href: add-cdn-support.md
-                - name: تمكين اكتشاف المتجر استنادًا إلى الموقع
+                - name: تمكين الكشف عن المتجر استنادًا إلى الموقع
                   href: enable-store-detection.md
             - name: نظرة عامة على عينة موقع
               items:
@@ -986,15 +992,17 @@
                   items:
                     - name: الوحدة النمطية لصندوق الشراء
                       href: add-buy-box.md
-                    - name: وحدة معرض الوسائط
+                    - name: الوحدة النمطية لمعرض الوسائط
                       href: media-gallery-module.md
                     - name: الوحدات النمطية للتقييمات والمراجعات
                       href: ratings-reviews-modules.md
+                    - name: الوحدة النمطية للمشاركة الاجتماعية
+                      href: social-share-module.md
                 - name: الوحدات النمطية للشراء
                   items:
                     - name: الوحدة النمطية لعربة التسوق
                       href: add-cart-module.md
-                    - name: الوحدة النمطية لأيقونة عربة التسوق
+                    - name: الوحدة النمطية لرمز عربة التسوق
                       href: cart-icon-module.md
                     - name: الوحدة النمطية للسداد مع الخروج
                       href: add-checkout-module.md
@@ -1018,14 +1026,20 @@
                   items:
                     - name: صفحات ووحدات إدارة الحسابات
                       href: account-management.md
-                - name: وحدات مجموعة المنتجات
+                - name: الوحدات النمطية لمجموعة المنتجات
                   items:
-                    - name: وحدات مجموعة المنتجات
+                    - name: الوحدات النمطية لمجموعة المنتجات
                       href: product-collection-module-overview.md
-                - name: وحدات التنقل
+                - name: الوحدات النمطية للتنقل
                   items:
-                    - name: وحدة شريط العناوين
+                    - name: الوحدة النمطية لمسار التنقل
                       href: add-breadcrumb.md
+                    - name: الوحدة النمطية لقائمة التنقل
+                      href: nav-menu-module.md
+                - name: الوحدات النمطية للتوافق
+                  items:
+                    - name: الوحدة النمطية للموافقة على ملف تعريف الارتباط
+                      href: cookie-consent-module.md
             - name: بحث
               items:
                 - name: نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
@@ -1652,9 +1666,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: تأجيل تنفيذ عناصر تنسيق التقارير الإلكترونية
                   items:
-                    - name: تأجيل تنفيذ عنصر تسلسلي
+                    - name: تأجيل تنفيذ عناصر التسلسل في تنسيقات إعداد التقارير الإلكترونية
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: تأجيل تنفيذ عنصر XML
+                    - name: تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: استخدام حلول التقارير الإلكترونية في Finance and Operations
               items:

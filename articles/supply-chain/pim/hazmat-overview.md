@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699581"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802739"
 ---
 # <a name="hazardous-materials-overview"></a>نظرة عامة على المواد الخطرة
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 لتظل المؤسسات ملتزمة بلوائح الشحن والنقل، يتعين على المؤسسات التي تقوم بشحن مواد مصنفة على أنها بضائع خطرة تضمين أعمال ورقية إضافية مع شحناتهم. تتيح ميزة المواد الخطرة للعملاء تخزين المعلومات المرتبطة بالأصناف المُصدرة. ويمكن بعد ذلك استخدام هذه المعلومات للمساعدة في تحضير وثائق الشحن. يجب أن تمتلك المؤسسة التي تقوم بشحن بضائع خطرة عملياتها وإجراءتها الخاصة المتبعة لإدارة عملية الشحن. يمثل Microsoft Dynamics 365 Supply Chain Management أداة تُساعد في إنشاء المستندات المطلوبة.
 

@@ -1,6 +1,6 @@
 ---
-title: وقت تعطل الصيانة
-description: يشرح هذا الموضوع وقت تعطل الصيانة في إدارة الأصول.
+title: أنشطة وقت تعطل الصيانة
+description: يشرح هذا الموضع كيفية استخدام وقت تعطل الصيانة للحصول على نظرة عامة حول القدرة المطلوبة لتنفيذ مهام الصيانة على أصول محددة خلال فترة محددة.
 author: josaw1
 manager: tfehr
 ms.date: 08/27/2019
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f864e7fe0129f8487cddadc99b32f75a2b6d9ca
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383517"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802811"
 ---
-# <a name="maintenance-downtime"></a>وقت تعطل الصيانة
+# <a name="maintenance-downtime-activities"></a>أنشطة وقت تعطل الصيانة
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 يتم استخدام وقت تعطل الصيانة للحصول على نظرة عامة حول القدرة المطلوبة لتنفيذ مهام الصيانة على أصول محددة خلال فترة محددة. على سبيل المثال، يمكنك إنشاء تسجيل وقت تعطل الصيانة لبند الإنتاج 10 في قاعه الإنتاج 29-A في موقع الإنتاج 02. يشتمل تسجيل وقت تعطل الصيانة على وقت بدء ووقت انتهاء للإشارة إلى الفترة التي لا تكون خلالها الأصول ذات الصلة بتوقف الصيانة متوفرة للإنتاج.
 

@@ -3,7 +3,7 @@ title: توافق ملفات تعريف الارتباط
 description: يصف هذا الموضوع اعتبارات توافق ملفات تعريف الارتباط والسياسات الافتراضية المضمنة في Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 06/12/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
-ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3446903"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761311"
 ---
 # <a name="cookie-compliance"></a>توافق ملفات تعريف الارتباط
 
@@ -56,6 +56,10 @@ ms.locfileid: "3446903"
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | مستخدم في الحفاظ على جلسة SSO.                        |
 | x-ms-cpim-trans                             | مستخدم لتعقب الحركات (عدد علامات التبويب المفتوحة التي يتم مصادقتها مقابل موقع العمل إلى المستهلك (B2C))، بما في ذلك الحركة الحالية. |
 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>الموافقة على ملفات تعريف ارتباط مستخدم الموقع في موقع التجارة الإلكترونية 
+
+إذا كانت ميزة أو وحدة نمطية لموقع تجارة إلكترونية تستخدم ملف تعريف ارتباط غير أساسي، فيجب الحصول على موافقة مستخدم الموقع قبل تعقب ملف تعريف الارتباط. للسماح لمستخدمي الموقع بتوفير الموافقة على ملفات تعريف الارتباط في موقع تجارة إلكترونية، يجب ان يقوم كاتب الموقع بإضافة الوحدة النمطية للموافقة على ملفات تعريف الارتباط وتكوينها في الوحدة النمطية للرأس لضمان طلب الموافقة واستلامها. يجب إعطاء موافقة مستخدم الموقع قبل أن يتم عرض ميزة أو وحدة نمطية تستخدم ملف تعريف ارتباط غير أساسي في صفحة موقع.
+
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [ميزات وقدرات إمكانية الوصول](accessibility.md)
@@ -64,4 +68,8 @@ ms.locfileid: "3446903"
 
 [إضافة صفحة سياسة الخصوصية](add-privacy-page.md)
 
-[استبدال معرفات المستخدمين المرتبطة بتغييرات المحتوى المتعقبة](replace-IDs-tracked-changes.md)
+[استبدال معرفات المستخدم المقترنة بتغييرات المحتوى المتعقبة](replace-IDs-tracked-changes.md)
+
+[الوحدة النمطية للموافقة على ملف تعريف الارتباط](cookie-consent-module.md) 
+ 
+[الوحدة النمطية للرؤوس](author-header-module.md)

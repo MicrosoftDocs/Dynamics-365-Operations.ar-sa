@@ -18,17 +18,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a0f5d902289c5867095e34a135c50d342f3c4f13
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
+ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646850"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3811174"
 ---
 # <a name="map-module"></a>وحدة الخريطة
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 يتناول هذا الموضوع الوحدات النمطية للخريطة ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 
@@ -57,7 +57,7 @@ ms.locfileid: "3646850"
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>إضافة عناوين URL مواقع للتعيين المسموح بها إلى توجيهات سياسة أمان محتوى الموقع
 
-لكي تتفاعل الوحدة النمطية للخريطة مع خرائط Bing، يجب عليك التأكد من أن عناوين URL للتعيين التالية مسموحة (ما يعرف أيضًا بأنها "مدرجة في قائمة بيضاء") وفق سياسة أمان محتوى الموقع (CSP).‬ يتم اجراء هذا الإعداد في منشئ مواقع Commerce، عن طريق إضافة عناوين URL مسموح بها إلى توجيهات CSP متعددة للموقع (على سبيل المثال، **img-src**). لمزيد من المعلومات، راجع [سياسة أمان المحتوى](manage-csp.md). 
+لكي تتفاعل الوحدة النمطية للخريطة مع خرائط Bing، يجب عليك التأكد من أن عناوين URL للتعيين التالية مسموحة (ما يعرف أيضًا بأنها "مدرجة في قائمة بيضاء") وفق سياسة أمان محتوى الموقع (CSP).‬ يتم إجراء هذا الإعداد في منشئ مواقع Commerce، عن طريق إضافة عناوين URL مسموح بها إلى توجيهات CSP متعددة للموقع (على سبيل المثال، **img-src**). لمزيد من المعلومات، راجع [سياسة أمان المحتوى](manage-csp.md). 
 
 - إلى التوجيه **connect-src**، أضف **&#42;.bing.com**.
 - إلى التوجيه **img-src**، أضف **&#42;.virtualearth.net**.

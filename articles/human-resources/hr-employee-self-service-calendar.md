@@ -3,7 +3,7 @@ title: إنشاء تقويم فريق
 description: عرض تقويمات الفريق وإنشاءها في Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712198"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796459"
 ---
 # <a name="view-team-and-company-calendars"></a>عرض تقويمات الفريق والشركة
 
@@ -50,6 +50,22 @@ ms.locfileid: "3712198"
 2. حدد **تقويم ‏‫الإجازة والغياب‬**.
 
 بإمكان أدوار الموارد البشرية أيضًا الوصول إلى تقويم الشركة من **طلبات الإجازة والغياب** و**الإجازات الموافق عليها‬‏‫** و**طلبات الإجازات**. 
+
+[!include [banner](includes/preview-feature.md)]
+
+تحتوي التقويمات الآن على عوامل تصفية وخيارات إضافية. تتضمن كافة التقويمات خيارات عرض للعناصر التالية:
+
+- الطلبات الموافق عليها
+- الطلبات المعلقة
+- الموظفون الذين لديهم طلبات إجازات
+- الموظفون الذين ليس لديهم طلبات إجازات
+- أعياد ميلاد الموظفين
+- طلبات الإجازة 
+- طلبات أذونات الغياب
+
+يحدد تكوين التقويم في معلمات الإجازة والغياب خيارات العرض المتوفرة.
+
+يمكنك أيضًا تصفية التقويمات حسب المدير أو القسم. يحدد تعيين المنصب الأساسي الموظفين الذين يتم عرضهم عند تعيين عوامل التصفية هذه. 
 
 للحصول على معلومات حول إعدادات التقويم، راجع [تكوين معلمات التقويم](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
