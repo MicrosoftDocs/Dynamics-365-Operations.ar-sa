@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء حقول مخصصة والعمل باستخدامها
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تضمين Microsoft Power Apps
+                - name: تضمين تطبيقات اللوحة من Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: البحث عن المعلومات باستخدام عمليات البحث
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: سير عمل التدبير وتحديد الموارد
               href: procurement/procurement-sourcing-workflows.md
+            - name: استكشاف الأخطاء وإصلاحها في عمليات سير العمل للتدبير وتحديد الموارد
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: كتالوجات التدبير
               items:
                 - name: نظرة عامة على كتالوجات التدبير
@@ -1691,10 +1693,12 @@
                   href: procurement/purchase-order-overview.md
                 - name: اعتماد أوامر الشراء وتأكيدها
                   href: procurement/purchase-order-approval-confirmation.md
-                - name: مساحة العمل المحمولة "الموافقة على أمر الشراء​"
+                - name: مساحة العمل المحمولة "الموافقة على أمر الشراء"
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: تسجيل استلام البضائع في أمر الشراء
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: استكشاف أخطاء أوامر الشراء وإصلاحها
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: إنشاء أمر شراء
               items:
                 - name: إنشاء أوامر شراء يدويًا
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: خصومات المورد
                   href: procurement/vendor-rebates.md
+                - name: استكشاف أخطاء الأسعار والخصومات والاتفاقيات والحسومات وإصلاحها
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: نُهُج الشراء
               items:
                 - name: نظرة عامة على سياسات الشراء
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: نظرة عامة على فواتير المورّدين
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: استكشاف الأخطاء وإصلاحها في إيصالات استلام المنتجات والفوترة
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: إدارة وتعاون المورد‬
               items:
                 - name: إعداد تعاون المورد والمحافظة عليه
@@ -1763,9 +1771,11 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: استيراد كتالوجات المورِّد
                   href: procurement/vendor-catalogs-import.md
-                - name: إعداد كتالوج خارجي لـ PunchOut eProcurement
+                - name: إعداد كتالوج خارجي لـ PunchOut e-procurement
                   href: procurement/set-up-external-catalog-for-punchout.md
-                - name: استخدام الكتالوجات الخارجية لـ PunchOut eProcurement
+                - name: شراء تحسينات في cXML
+                  href: procurement/purchasing-cxml-enhancements.md
+                - name: استخدام الكتالوجات الخارجية لـ PunchOut e-procurement
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: مساحة العمل المحمولة لتعاون المورد
                   href: procurement/vendor-collaboration-mobile-workspace.md
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: تأكيد أوامر المبيعات
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: استكشاف أخطاء أوامر المبيعات وإصلاحها
+                  href: sales-marketing/troubleshooting-sales.md
             - name: اتفاقيات البيع
               items:
                 - name: نظرة عامة على اتفاقيات البيع
@@ -2283,6 +2295,8 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: إنشاء عروض أسعار المبيعات وتحريرها
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: استكشاف أخطاء عروض أسعار المبيعات وإصلاحها
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: المرتجعات
               items:
                 - name: عمليات إرجاع المبيعات
@@ -2807,18 +2821,20 @@
                   items:
                     - name: تثبيت تطبيق المستودع وتوصيله
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق المستودع
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: تكوين أسماء الحقول في تطبيق المستودع
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: إعداد الأجهزة المحمولة لعمل المستودع
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق المستودع
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: استلام لوحة الترخيص‬ بواسطة تطبيق المستودع
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: إعداد صنف قائمة الأجهزة المحمولة لتسجيل الأصناف المستلمة
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: إعداد عنصر قائمة جهاز محمول لتوفير نظرة عامة على بند الانتقاء
+                      href: warehousing/pick-line-overview.md
                     - name: إنشاء عنصر في قائمة الجهاز المحمول لدمج لوحة الترخيص
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: استلام لوحة الترخيص‬ المختلطة على جهاز محمول
