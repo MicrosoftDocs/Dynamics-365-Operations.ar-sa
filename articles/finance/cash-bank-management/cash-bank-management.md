@@ -1,7 +1,7 @@
 ---
 title: الصفحة الرئيسية لإدارة البنك والنقد
 description: يمكنك استخدام إدارة البنك والنقد للاحتفاظ بالحسابات البنكية الخاصة بالكيان القانوني والمستندات المالية المقترنة بتلك الحسابات البنكية.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: shylaw
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27811fc900cb497f62780a5185b20d4efbbbdba
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026281"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899608"
 ---
 # <a name="cash-and-bank-management-home-page"></a>الصفحة الرئيسية لإدارة البنك والنقد
 
@@ -92,7 +92,7 @@ ms.locfileid: "3026281"
 
 يمكنك العثور على آراء وأخبار ومعلومات أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) و[Microsoft Dynamics 365 Finance and Operations - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
 #### <a name="task-guides"></a>دلائل المهام
 تتوفر تعليمات إضافية كدلائل مهام داخل Finance. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.

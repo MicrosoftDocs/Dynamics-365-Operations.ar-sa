@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d210e234e9004422913ac76bf4c9b720806cbece
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 00af26a9f41a6908fd0010ec9eac37e41ad9c2b6
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175820"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888098"
 ---
 # <a name="accounts-receivable-home-page"></a>الصفحة الرئيسية للحسابات المدينة
 
@@ -102,7 +102,7 @@ ms.locfileid: "2175820"
 
 يمكنك العثور على آراء وخبار ومعلومات أخرى حول الحسابات المدينة‬ والحلول الأخرى الموجودة على مدونة [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ومدونة الماليات [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
 #### <a name="task-guides"></a>دلائل المهام
 تتوفر تعليمات إضافية كدلائل مهام داخل التطبيق. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
