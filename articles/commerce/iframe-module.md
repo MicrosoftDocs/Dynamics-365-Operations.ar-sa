@@ -3,7 +3,7 @@ title: وحدة Iframe
 description: يتناول هذا الموضوع الوحدة iframe ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0616a772a416a7c9d9756a840c93b8601c08c3d0
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646851"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818188"
 ---
 # <a name="iframe-module"></a>وحدة Iframe
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يتناول هذا الموضوع الوحدة iframe ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
@@ -37,6 +36,9 @@ ms.locfileid: "3646851"
 وحدة iframe توفر iframe (اطار مضمن) يستضيف المحتوى الخارجي في موقع. على سبيل المثال، يمكن استخدامه لاستضافة فيديو YouTube أو عارض ملفات PDF على أي صفحة موقع. 
 
 تتطلب وحدة iframe عنوان URL مستهدف. ثم تستضيف محتوى الصفحة المستهدفة داخل عنصر **iframe‎** HTML. يجب أن تكون عناوين URL الخارجية مسموحة (ما يعرف أيضًا بأنها "مدرجة في قائمة بيضاء") وفق سياسة أمان محتوى الموقع (CSP).‬ بالنسبة لمحتوى iframe، يجب أن تكون عناوين URL مسموحة وفقًا لتوجيه **frame-ancestor**. لمزيد من المعلومات، راجع [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md).
+
+> [!NOTE]
+> تتوفر الوحدة النمطية iframe في Dynamics 365 Commerce الإصدار 10.0.13.
 
 تعرض الصورة التالية أمثلة عن وحدات iframe التي تعرض مقاطع فيديو خارجية على صفحات الموقع.
 
@@ -48,7 +50,7 @@ ms.locfileid: "3646851"
 |---------------------------|-----------------------|-------------|
 | العنوان | النص | عنوان الوحدة النمطية. |
 | URL هدف | URL | عنوان URL المستضاف في الوحدة. |
-| الارتفاع | الرقم أو النسبة المئوية | ارتفاع الوحدة، بالبكسل أو كنسبة مئوية. علي سبيل المثال، ستتم معاملة القيمة **100** كعدد وحدات البكسل والقيمة **100%** كنسبة مئوية. |
+| الارتفاع | الرقم أو النسبة المئوية | ارتفاع الوحدة، بالبكسل أو كنسبة مئوية. على سبيل المثال، ستتم معاملة القيمة **100** كعدد وحدات البكسل والقيمة **100%** كنسبة مئوية. |
 | تسمية المنطقة | النص | يمكن تحديد تسمية تطبيقات الإنترنت الغنية القابلة للوصول (ARIA) لأغراض إمكانية الوصول. |
 
 ## <a name="add-an-iframe-module-to-a-page"></a>إضافة وحدة iframe إلى صفحة
@@ -72,6 +74,6 @@ ms.locfileid: "3646851"
  
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md)

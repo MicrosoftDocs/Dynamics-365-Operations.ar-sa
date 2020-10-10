@@ -3,7 +3,7 @@ title: الأسئلة المتداولة حول سير العمل
 description: يجيب هذا الموضوع عن الأسئلة المتداولة حول نظام سير العمل.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076076"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826180"
 ---
 # <a name="workflow-faq"></a>الأسئلة المتداولة حول سير العمل
 
@@ -48,7 +48,7 @@ ms.locfileid: "3076076"
     - في أحد التحديثات المستقبلية ستتم إضافة رسالة مركز الإجراءات حتى يتم تعيين عنصر عمل سير العمل إلى المستخدم. 
 - إضافة إخطارات لمهام سير العمل
     - يمكن إنشاء رسائل مركز الإجراءات لمستخدمين محددين، مثل رسالة تم إنشاؤها من سير عمل في X++.
-    - [تحتوي مهام سير العمل علي أحداث أعمال](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) يمكن للعميل استخدامها لتشغيل المهام ذات الإشعارات التي يبحث عنها.   
+    - [تحتوي مهام سير العمل على أحداث أعمال](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) يمكن للعميل استخدامها لتشغيل المهام ذات الإشعارات التي يبحث عنها.   
 
 وفي الملخص، في حالة عدم حصول المستخدم على الإخطار المناسب من مركز الإجراءات عند تعيين عنصر عمل لسير العمل، قم بزيادة [أحداث أعمال سير العمل](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) مع Microsoft Power Automate لتوفير إخطارات إضافية أو مختلفة.
 
@@ -58,3 +58,5 @@ ms.locfileid: "3076076"
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>لماذا أواجه ‏‫إخفاقات الوصول لـ SQL عند معالجة سير العمل؟ 
 قيمة الحقل الافتراضية لـ **عدد عناصر سير العمل لكل مهمة دُفعة** على صفحة **‏‫محددات سير العمل‬** هي 0. تؤدي القيمة 0 إلى تغيير الافتراضي إلى 20 عنصرًا لكل دفعة. كن حذرًا عند ضبط هذه القيمة لان العدد الكبير من الأصناف لكل مجموعة (> 40) يمكن أن يتسبب في ‏‫إخفاقات الوصول لـ SQL.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>ما هي ميزة الخطأ المحسنة لسير العمل؟
+تضيف ميزة الخطأ المحسنة لسير العمل في الإصدار 10.0.13 رموز الخطأ لتمييز فئات مختلفة من أخطاء سير العمل. ستكون رسائل الخطأ التي تم الاعلام عنها مماثلة مع اختلافات ثانية لجعلها أكثر وضوحًا.

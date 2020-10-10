@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventOnhandItem, InventOnHandItemListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 537595e23cd48dd7ba7d0f28bd4dfe39768fe9ac
-ms.sourcegitcommit: 7be450990ba04a6c118dda01b40d7306b180fcb8
+ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
+ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "3638993"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829839"
 ---
 # <a name="inventory-on-hand-list"></a>قائمة المخزون الفعلي
 
@@ -66,7 +67,7 @@ ms.locfileid: "3638993"
 > [!IMPORTANT]
 > يتم تجميع صفحة **قائمة المخزون الفعلي** من جدول المخزون الفعلي الذي يتضمن جميع الأبعاد المتوفرة. ومع ذلك، القائمة الموجودة في هذه الصفحة هي ملخص. وبالتالي، فقد تجمع الصفوف من الجدول المصدر عن طريق تجميع القيم وفقًا للأبعاد المعروضة.
 >
-> تنطبق عوامل التصفية التي تقوم بتعريفها في جزء **عوامل التصفية** على الجدول المصدر ، وليس علي القائمة المجمعة. قد يُنتج هذا السلوك في بعض الأحيان نتائج غير متوقعة. للحصول على معلومات حول كيفية تأثير هذا السلوك هلة النتائج، راجع [الأمثلة](#examples) لاحقًا في هذا الموضوع.
+> تنطبق عوامل التصفية التي تقوم بتعريفها في جزء **عوامل التصفية** على الجدول المصدر ، وليس على القائمة المجمعة. قد يُنتج هذا السلوك في بعض الأحيان نتائج غير متوقعة. للحصول على معلومات حول كيفية تأثير هذا السلوك هلة النتائج، راجع [الأمثلة](#examples) لاحقًا في هذا الموضوع.
 > 
 > ومع ذلك، فإن [عوامل التصفية المتوفرة في الشبكة](#grid-filters) *تنطبق* على القائمة المجمعة. تتضمن عوامل التصفية هذه QuickFilter في الجزء العلوي من الشبكة بالإضافة إلى عامل التصفية لكل عنوان عمود.
 

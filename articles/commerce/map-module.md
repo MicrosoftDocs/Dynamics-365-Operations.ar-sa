@@ -3,7 +3,7 @@ title: وحدة الخريطة
 description: يتناول هذا الموضوع الوحدات النمطية للخريطة ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811174"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817196"
 ---
 # <a name="map-module"></a>وحدة الخريطة
 
@@ -38,7 +38,8 @@ ms.locfileid: "3811174"
 
 تعمل الوحدة النمطية للخريطة بالتزامن مع الوحدة النمطية لمحدد المتجر لتحديد المواقع الجغرافية للمتاجر التي يجب عرضها على الخريطة. ويتفاعل محدد المتجر والوحدات النمطية للخريطة عندما يقوم المستخدم بتحديد أحد المتاجر في إحدى هذه الوحدات في صفحة موقع. يمكن توسيع الوحدات النمطية للخريطة لسيناريوهات أخرى، تتجاوز التفاعل مع وحدات محدد المتجر. ومع ذلك، يلزم تخصيص الوحدة النمطية.
 
-تم تقديم الوحدة النمطية للخريط في الإصدار 10.0.13 من Commerce.
+> [!NOTE]
+> تتوفر الوحدة النمطية للخريطة في Dynamics 365 Commerce الإصدار 10.0.13.
 
 تعرض الصورة التالية مثالاً عن وحدة الخريطة المستخدمة في صفحة مواقع المتجر.
 
@@ -66,11 +67,11 @@ ms.locfileid: "3811174"
 
 ## <a name="add-a-map-module-to-a-page"></a>إضافة وحدة خريطة إلى صفحة
 
-للحصول علي معلومات مفصلة حول كيفيه تكوين وحدة نمطية للخريطة على صفحة، راجع [الوحدة النمطية لمحدد المتجر](store-selector.md). 
+للحصول على معلومات مفصلة حول كيفيه تكوين وحدة نمطية للخريطة على صفحة، راجع [الوحدة النمطية لمحدد المتجر](store-selector.md). 
  
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [الوحدة النمطية لصندوق الشراء](add-buy-box.md)
 
