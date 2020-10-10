@@ -14,16 +14,16 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a6a1fc294bb212481dd2a2d24c108cf7a665a546
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: ed7ac72d47d5efd60b8a705e7ab0fa7e4edd96a4
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793191"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821122"
 ---
-# <a name="dynamics-365-commerce-learning-catalog"></a><span data-ttu-id="c550d-103">كتالوج تعلّم Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="c550d-103">Dynamics 365 Commerce Learning catalog</span></span> 
+# <a name="dynamics-365-commerce-learning-catalog"></a><span data-ttu-id="a4503-103">كتالوج تعلّم Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="a4503-103">Dynamics 365 Commerce Learning catalog</span></span> 
 
-<span data-ttu-id="c550d-104">البحث عن التدريب الصحيح على الإنترنت، في ورش العمل الشخصية والأحداث الخاصة بدورك كمستخدم لتطبيقات Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="c550d-104">Find the right online training, in person workshops, and events for your role as a user of Dynamics 365 Commerce applications.</span></span>
+<span data-ttu-id="a4503-104">البحث عن التدريب الصحيح على الإنترنت، في ورش العمل الشخصية والأحداث الخاصة بدورك كمستخدم لتطبيقات Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="a4503-104">Find the right online training, in person workshops, and events for your role as a user of Dynamics 365 Commerce applications.</span></span>
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
@@ -31,117 +31,113 @@ ms.locfileid: "3793191"
     :::column:::
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
-    ### <a name="business-and-technical-decision-makers"></a><span data-ttu-id="c550d-105">صناع قرارات الأعمال والقرارات الفنية</span><span class="sxs-lookup"><span data-stu-id="c550d-105">Business and Technical Decision Makers</span></span>
+    ### <a name="business-and-technical-decision-makers"></a><span data-ttu-id="a4503-105">صناع قرارات الأعمال والقرارات الفنية</span><span class="sxs-lookup"><span data-stu-id="a4503-105">Business and Technical Decision Makers</span></span>
 
-    <span data-ttu-id="c550d-106">هل تقرر ما إذا كنت ترغب في الاستثمار في تكنولوجيات جديدة؟</span><span class="sxs-lookup"><span data-stu-id="c550d-106">Do you decide whether to invest in new technologies?</span></span> 
+    <span data-ttu-id="a4503-106">هل تقرر ما إذا كنت ترغب في الاستثمار في تكنولوجيات جديدة؟</span><span class="sxs-lookup"><span data-stu-id="a4503-106">Do you decide whether to invest in new technologies?</span></span> 
 
-    [<span data-ttu-id="c550d-107">كتالوج تعلّم صناع قرارات الأعمال والقرارات الفنية</span><span class="sxs-lookup"><span data-stu-id="c550d-107">Business and Technical Decision Makers Learning Catalog</span></span>](learning-catalog-bdm.md#)
+    [<span data-ttu-id="a4503-107">كتالوج تعلّم صناع قرارات الأعمال والقرارات الفنية</span><span class="sxs-lookup"><span data-stu-id="a4503-107">Business and Technical Decision Makers Learning Catalog</span></span>](learning-catalog-bdm.md#)
 
-    [<span data-ttu-id="c550d-108">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="c550d-108">Get started</span></span>](learning-catalog-bdm.md#get-started)
+    [<span data-ttu-id="a4503-108">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="a4503-108">Get started</span></span>](learning-catalog-bdm.md#get-started)
 
     :::column-end:::
     :::column:::
 
-    ### <a name="business-users"></a><span data-ttu-id="c550d-109">المستخدمون المهنيون</span><span class="sxs-lookup"><span data-stu-id="c550d-109">Business users</span></span>
+    ### <a name="business-users"></a><span data-ttu-id="a4503-109">المستخدمون المهنيون</span><span class="sxs-lookup"><span data-stu-id="a4503-109">Business users</span></span>
 
-    <span data-ttu-id="c550d-110">هل حصلت للتو على تطبيق جديد لاستخدامه؟</span><span class="sxs-lookup"><span data-stu-id="c550d-110">Did you just get a new application to use?</span></span> 
+    <span data-ttu-id="a4503-110">هل حصلت للتو على تطبيق جديد لاستخدامه؟</span><span class="sxs-lookup"><span data-stu-id="a4503-110">Did you just get a new application to use?</span></span> 
 
-    [<span data-ttu-id="c550d-111">كتالوج تعلّم مستخدمي الأعمال</span><span class="sxs-lookup"><span data-stu-id="c550d-111">Business Users Learning Catalog</span></span>](learning-catalog-business-user.md)
+    [<span data-ttu-id="a4503-111">كتالوج تعلّم مستخدمي الأعمال</span><span class="sxs-lookup"><span data-stu-id="a4503-111">Business Users Learning Catalog</span></span>](learning-catalog-business-user.md)
 
-    [<span data-ttu-id="c550d-112">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="c550d-112">Get Started</span></span>](learning-catalog-business-user.md#get-started)
+    [<span data-ttu-id="a4503-112">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="a4503-112">Get Started</span></span>](learning-catalog-business-user.md#get-started)
 
-    [<span data-ttu-id="c550d-113">Commerce</span><span class="sxs-lookup"><span data-stu-id="c550d-113">Commerce</span></span>](learning-catalog-business-user.md#commerce)
+    [<span data-ttu-id="a4503-113">Commerce</span><span class="sxs-lookup"><span data-stu-id="a4503-113">Commerce</span></span>](learning-catalog-business-user.md#commerce)
 
-    [<span data-ttu-id="c550d-114">التجارة الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="c550d-114">e-Commerce</span></span>](learning-catalog-business-user.md#e-commerce)
+    [<span data-ttu-id="a4503-114">التجارة الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="a4503-114">e-Commerce</span></span>](learning-catalog-business-user.md#e-commerce)
 
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-    ### <a name="implementation-project-managers"></a><span data-ttu-id="c550d-115">مدراء مشاريع التنفيذ</span><span class="sxs-lookup"><span data-stu-id="c550d-115">Implementation Project Managers</span></span>
+    ### <a name="implementation-project-managers"></a><span data-ttu-id="a4503-115">مدراء مشاريع التنفيذ</span><span class="sxs-lookup"><span data-stu-id="a4503-115">Implementation Project Managers</span></span>
 
-    <span data-ttu-id="c550d-116">هل أنت المسؤول عن التأكد من أن تنفيذ شركتك يسير بسلاسة؟</span><span class="sxs-lookup"><span data-stu-id="c550d-116">Are you in charge of making sure your company’s implementation goes smoothly?</span></span>
+    <span data-ttu-id="a4503-116">هل أنت المسؤول عن التأكد من أن تنفيذ شركتك يسير بسلاسة؟</span><span class="sxs-lookup"><span data-stu-id="a4503-116">Are you in charge of making sure your company’s implementation goes smoothly?</span></span>
 
-    [<span data-ttu-id="c550d-117">كتالوج تعليم مُدير مشروع التنفيذ</span><span class="sxs-lookup"><span data-stu-id="c550d-117">Implementation Project Manager Learning Catalog</span></span>](learning-catalog-project-manager.md)
+    [<span data-ttu-id="a4503-117">كتالوج تعليم مُدير مشروع التنفيذ</span><span class="sxs-lookup"><span data-stu-id="a4503-117">Implementation Project Manager Learning Catalog</span></span>](learning-catalog-project-manager.md)
 
-    [<span data-ttu-id="c550d-118">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="c550d-118">Get started</span></span>](learning-catalog-project-manager.md#get-started)
+    [<span data-ttu-id="a4503-118">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="a4503-118">Get started</span></span>](learning-catalog-project-manager.md#get-started)
 
     :::column-end:::
     :::column:::
 
-    ### <a name="administrators"></a><span data-ttu-id="c550d-119">المسؤولون</span><span class="sxs-lookup"><span data-stu-id="c550d-119">Administrators</span></span>
+    ### <a name="administrators"></a><span data-ttu-id="a4503-119">المسؤولون</span><span class="sxs-lookup"><span data-stu-id="a4503-119">Administrators</span></span>
 
-    <span data-ttu-id="c550d-120">هل تحتاج إلى الاحتفاظ بالأنظمة والبيانات في حالة تدفق وتوافر ومؤمنة طوال الوقت؟</span><span class="sxs-lookup"><span data-stu-id="c550d-120">Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?</span></span>
+    <span data-ttu-id="a4503-120">هل تحتاج إلى الاحتفاظ بالأنظمة والبيانات في حالة تدفق وتوافر ومؤمنة طوال الوقت؟</span><span class="sxs-lookup"><span data-stu-id="a4503-120">Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?</span></span>
 
-    [<span data-ttu-id="c550d-121">كتالوج تعلم المسؤولين</span><span class="sxs-lookup"><span data-stu-id="c550d-121">Administrators Learning Catalog</span></span>](learning-catalog-administrator.md)
+    [<span data-ttu-id="a4503-121">كتالوج تعلم المسؤولين</span><span class="sxs-lookup"><span data-stu-id="a4503-121">Administrators Learning Catalog</span></span>](learning-catalog-administrator.md)
 
-    [<span data-ttu-id="c550d-122">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="c550d-122">Get started</span></span>](learning-catalog-administrator.md#get-started)
+    [<span data-ttu-id="a4503-122">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="a4503-122">Get started</span></span>](learning-catalog-administrator.md#get-started)
 
-    [<span data-ttu-id="c550d-123">Commerce</span><span class="sxs-lookup"><span data-stu-id="c550d-123">Commerce</span></span>](learning-catalog-administrator.md#commerce)
+    [<span data-ttu-id="a4503-123">Commerce</span><span class="sxs-lookup"><span data-stu-id="a4503-123">Commerce</span></span>](learning-catalog-administrator.md#commerce)
 
-    [<span data-ttu-id="c550d-124">التجارة الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="c550d-124">e-Commerce</span></span>](learning-catalog-administrator.md#e-commerce)
+    [<span data-ttu-id="a4503-124">التجارة الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="a4503-124">e-Commerce</span></span>](learning-catalog-administrator.md#e-commerce)
 
   :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-    ### <a name="developers"></a><span data-ttu-id="c550d-125">المطورون</span><span class="sxs-lookup"><span data-stu-id="c550d-125">Developers</span></span>
+    ### <a name="developers"></a><span data-ttu-id="a4503-125">المطورون</span><span class="sxs-lookup"><span data-stu-id="a4503-125">Developers</span></span>
 
-    <span data-ttu-id="c550d-126">هل تحتاج إلى كتابة كود للتكامل مع مصادر البيانات الأخرى أو توسيع وظيفة النظام الأساسية أو بناء تطبيق معقد؟</span><span class="sxs-lookup"><span data-stu-id="c550d-126">Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?</span></span>
+    <span data-ttu-id="a4503-126">هل تحتاج إلى كتابة كود للتكامل مع مصادر البيانات الأخرى أو توسيع وظيفة النظام الأساسية أو بناء تطبيق معقد؟</span><span class="sxs-lookup"><span data-stu-id="a4503-126">Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?</span></span>
 
-    [<span data-ttu-id="c550d-127">كتالوج تعليم المطور</span><span class="sxs-lookup"><span data-stu-id="c550d-127">Developer Learning Catalog</span></span>](learning-catalog-developer.md)
+    [<span data-ttu-id="a4503-127">كتالوج تعليم المطور</span><span class="sxs-lookup"><span data-stu-id="a4503-127">Developer Learning Catalog</span></span>](learning-catalog-developer.md)
 
-    [<span data-ttu-id="c550d-128">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="c550d-128">Get started</span></span>](learning-catalog-developer.md#get-started)
+    [<span data-ttu-id="a4503-128">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="a4503-128">Get started</span></span>](learning-catalog-developer.md#get-started)
 
-    [<span data-ttu-id="c550d-129">Commerce</span><span class="sxs-lookup"><span data-stu-id="c550d-129">Commerce</span></span>](learning-catalog-developer.md#commerce)
+    [<span data-ttu-id="a4503-129">Commerce</span><span class="sxs-lookup"><span data-stu-id="a4503-129">Commerce</span></span>](learning-catalog-developer.md#commerce)
 
     :::column-end:::
     :::column:::
 
-    ### <a name="functional-consultants"></a><span data-ttu-id="c550d-130">مستشارون وظيفيون</span><span class="sxs-lookup"><span data-stu-id="c550d-130">Functional consultants</span></span>
+    ### <a name="functional-consultants"></a><span data-ttu-id="a4503-130">مستشارون وظيفيون</span><span class="sxs-lookup"><span data-stu-id="a4503-130">Functional consultants</span></span>
 
-    <span data-ttu-id="c550d-131">هل أنت خبير تنفيذ لمجال أعمال مُعين؟ </span><span class="sxs-lookup"><span data-stu-id="c550d-131">Are you an implementation expert for a business domain?</span></span> 
+    <span data-ttu-id="a4503-131">هل أنت خبير تنفيذ لمجال أعمال مُعين؟ </span><span class="sxs-lookup"><span data-stu-id="a4503-131">Are you an implementation expert for a business domain?</span></span> 
 
-    [<span data-ttu-id="c550d-132">كتالوج تعلّم مستشار التطبيق الوظيفي</span><span class="sxs-lookup"><span data-stu-id="c550d-132">Functional Application Consultant Learning Catalog</span></span>](learning-catalog-functional-consultant.md)
+    [<span data-ttu-id="a4503-132">كتالوج تعلّم مستشار التطبيق الوظيفي</span><span class="sxs-lookup"><span data-stu-id="a4503-132">Functional Application Consultant Learning Catalog</span></span>](learning-catalog-functional-consultant.md)
 
-    [<span data-ttu-id="c550d-133">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="c550d-133">Get started</span></span>](learning-catalog-functional-consultant.md#get-started)
+    [<span data-ttu-id="a4503-133">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="a4503-133">Get started</span></span>](learning-catalog-functional-consultant.md#get-started)
 
-    [<span data-ttu-id="c550d-134">Commerce</span><span class="sxs-lookup"><span data-stu-id="c550d-134">Commerce</span></span>](learning-catalog-functional-consultant.md#commerce)
+    [<span data-ttu-id="a4503-134">Commerce</span><span class="sxs-lookup"><span data-stu-id="a4503-134">Commerce</span></span>](learning-catalog-functional-consultant.md#commerce)
 
-    [<span data-ttu-id="c550d-135">التجارة الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="c550d-135">e-Commerce</span></span>](learning-catalog-functional-consultant.md#e-commerce)
+    [<span data-ttu-id="a4503-135">التجارة الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="a4503-135">e-Commerce</span></span>](learning-catalog-functional-consultant.md#e-commerce)
 
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-    ### <a name="partner-sales-and-marketing"></a><span data-ttu-id="c550d-136">التسويق ومبيعات الشريك</span><span class="sxs-lookup"><span data-stu-id="c550d-136">Partner Sales and Marketing</span></span>
+    ### <a name="partner-sales-and-marketing"></a><span data-ttu-id="a4503-136">التسويق ومبيعات الشريك</span><span class="sxs-lookup"><span data-stu-id="a4503-136">Partner Sales and Marketing</span></span>
 
-    <span data-ttu-id="c550d-137">هل أنت مسؤول عن مساعدة عملائك على شراء الحل المناسب؟</span><span class="sxs-lookup"><span data-stu-id="c550d-137">Are you responsible for helping your customers buy the right solution?</span></span> 
+    <span data-ttu-id="a4503-137">هل أنت مسؤول عن مساعدة عملائك على شراء الحل المناسب؟</span><span class="sxs-lookup"><span data-stu-id="a4503-137">Are you responsible for helping your customers buy the right solution?</span></span> 
 
-    [<span data-ttu-id="c550d-138">كتالوج تعلّم التسويق والمبيعات لشريك Microsoft</span><span class="sxs-lookup"><span data-stu-id="c550d-138">Microsoft Partner Sales and Marketing Learning Catalog</span></span>](learning-catalog-partner-sales.md)
+    [<span data-ttu-id="a4503-138">كتالوج تعلّم التسويق والمبيعات لشريك Microsoft</span><span class="sxs-lookup"><span data-stu-id="a4503-138">Microsoft Partner Sales and Marketing Learning Catalog</span></span>](learning-catalog-partner-sales.md)
 
-    [<span data-ttu-id="c550d-139">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="c550d-139">Get started</span></span>](learning-catalog-partner-sales.md#get-started)
-
-    [<span data-ttu-id="c550d-140">Commerce</span><span class="sxs-lookup"><span data-stu-id="c550d-140">Commerce</span></span>](learning-catalog-partner-sales.md#commerce)
-
-    [<span data-ttu-id="c550d-141">التجارة الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="c550d-141">e-Commerce</span></span>](learning-catalog-partner-sales.md#e-commerce)
+    [<span data-ttu-id="a4503-139">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="a4503-139">Get started</span></span>](learning-catalog-partner-sales.md#get-started)
 
     :::column-end:::
 
     :::column:::
 
-    ### <a name="solution-architects"></a><span data-ttu-id="c550d-142">مهندسون معماريون للحلول</span><span class="sxs-lookup"><span data-stu-id="c550d-142">Solution architects</span></span>
+    ### <a name="solution-architects"></a><span data-ttu-id="a4503-140">مهندسون معماريون للحلول</span><span class="sxs-lookup"><span data-stu-id="a4503-140">Solution architects</span></span>
 
-    <span data-ttu-id="c550d-143">هل تصمم الحلول التي تُلبي احتياجات وميزانيات عملائك؟</span><span class="sxs-lookup"><span data-stu-id="c550d-143">Do you design solutions that meet your customers' needs and budgets?</span></span>
+    <span data-ttu-id="a4503-141">هل تصمم الحلول التي تُلبي احتياجات وميزانيات عملائك؟</span><span class="sxs-lookup"><span data-stu-id="a4503-141">Do you design solutions that meet your customers' needs and budgets?</span></span>
 
-    [<span data-ttu-id="c550d-144">كتالوح تعلّم مهندسي الحلول</span><span class="sxs-lookup"><span data-stu-id="c550d-144">Solution Architects Learning Catalog</span></span>](learning-catalog-solution-architect.md)
+    [<span data-ttu-id="a4503-142">كتالوح تعلّم مهندسي الحلول</span><span class="sxs-lookup"><span data-stu-id="a4503-142">Solution Architects Learning Catalog</span></span>](learning-catalog-solution-architect.md)
 
-    [<span data-ttu-id="c550d-145">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="c550d-145">Get started</span></span>](learning-catalog-solution-architect.md#get-started)
+    [<span data-ttu-id="a4503-143">بدء الاستخدام</span><span class="sxs-lookup"><span data-stu-id="a4503-143">Get started</span></span>](learning-catalog-solution-architect.md#get-started)
 
-    [<span data-ttu-id="c550d-146">Commerce</span><span class="sxs-lookup"><span data-stu-id="c550d-146">Commerce</span></span>](learning-catalog-solution-architect.md#commerce)
+    [<span data-ttu-id="a4503-144">Commerce</span><span class="sxs-lookup"><span data-stu-id="a4503-144">Commerce</span></span>](learning-catalog-solution-architect.md#commerce)
 
     :::column-end:::
 :::row-end:::
