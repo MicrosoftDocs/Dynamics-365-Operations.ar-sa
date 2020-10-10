@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectAttributeOverview
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,25 +18,25 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc7b6c5a415e233993b3cf14e499a2296b31e7fe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b91e88292acf8e67de924a746b02858664ae9ec6
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209163"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889999"
 ---
-# <a name="asset-attribute-overview"></a><span data-ttu-id="27c23-103">نظرة عامة على سمات الأصول</span><span class="sxs-lookup"><span data-stu-id="27c23-103">Asset attribute overview</span></span>
+# <a name="asset-attribute-overview"></a><span data-ttu-id="bc557-103">نظرة عامة على سمات الأصول</span><span class="sxs-lookup"><span data-stu-id="bc557-103">Asset attribute overview</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="27c23-104">يوفر هذا الموضوع نظرة عامة على سمات الأصول في إدارة الأصول.</span><span class="sxs-lookup"><span data-stu-id="27c23-104">This topic provides an overview of asset attributes in Asset Management.</span></span> <span data-ttu-id="27c23-105">سمات الأصول هي خصائص مرتبطة بنوع أصل أو أصل.</span><span class="sxs-lookup"><span data-stu-id="27c23-105">Asset attributes are properties that are related to an asset type or an asset.</span></span> <span data-ttu-id="27c23-106">إذا قمت بإعداد [أنواع السمات](../setup-for-functional-locations/specification-types.md) واستخدمتها على الأصول، فيمكنك الحصول على نظرة عامة على قيم السمات التي تم إعدادها في الأصول.</span><span class="sxs-lookup"><span data-stu-id="27c23-106">If you've set up [attribute types](../setup-for-functional-locations/specification-types.md) and used them on assets, you can get an overview of the attribute values that are set up on the assets.</span></span> <span data-ttu-id="27c23-107">تظهر هذه النظرة العامة على صفحتين‏‎ في إدارة الأصول: **نظرة عامة على سمات الأصول** و**سمة الأصل**.</span><span class="sxs-lookup"><span data-stu-id="27c23-107">This overview is shown on two pages in Asset Management: **Asset attribute overview** and **Asset attribute**.</span></span>
+<span data-ttu-id="bc557-104">يوفر هذا الموضوع نظرة عامة على سمات الأصول في إدارة الأصول.</span><span class="sxs-lookup"><span data-stu-id="bc557-104">This topic provides an overview of asset attributes in Asset Management.</span></span> <span data-ttu-id="bc557-105">سمات الأصول هي خصائص مرتبطة بنوع أصل أو أصل.</span><span class="sxs-lookup"><span data-stu-id="bc557-105">Asset attributes are properties that are related to an asset type or an asset.</span></span> <span data-ttu-id="bc557-106">إذا قمت بإعداد [أنواع السمات](../setup-for-functional-locations/specification-types.md) واستخدمتها على الأصول، فيمكنك الحصول على نظرة عامة على قيم السمات التي تم إعدادها في الأصول.</span><span class="sxs-lookup"><span data-stu-id="bc557-106">If you've set up [attribute types](../setup-for-functional-locations/specification-types.md) and used them on assets, you can get an overview of the attribute values that are set up on the assets.</span></span> <span data-ttu-id="bc557-107">تظهر هذه النظرة العامة على صفحتين‏‎ في إدارة الأصول: **نظرة عامة على سمات الأصول** و**سمة الأصل**.</span><span class="sxs-lookup"><span data-stu-id="bc557-107">This overview is shown on two pages in Asset Management: **Asset attribute overview** and **Asset attribute**.</span></span>
 
-<span data-ttu-id="27c23-108">تعرض الصفحة **نظرة عامة على سمات الأصول** سطرًا منفصلاً لكل أصل.</span><span class="sxs-lookup"><span data-stu-id="27c23-108">The **Asset attribute overview** page shows a separate line for each asset.</span></span> <span data-ttu-id="27c23-109">ويعرض السطر جميع أنواع السمات المرتبطة بهذا الأصل.</span><span class="sxs-lookup"><span data-stu-id="27c23-109">The line shows all attribute types that are related to that asset.</span></span> <span data-ttu-id="27c23-110">اتبع الخطوات التالية لفتح الصفحة **نظرة عامة على سمات الأصول** واستخدامها.</span><span class="sxs-lookup"><span data-stu-id="27c23-110">Follow these steps to open and use the **Asset attribute overview** page.</span></span>
+<span data-ttu-id="bc557-108">تعرض الصفحة **نظرة عامة على سمات الأصول** سطرًا منفصلاً لكل أصل.</span><span class="sxs-lookup"><span data-stu-id="bc557-108">The **Asset attribute overview** page shows a separate line for each asset.</span></span> <span data-ttu-id="bc557-109">ويعرض السطر جميع أنواع السمات المرتبطة بهذا الأصل.</span><span class="sxs-lookup"><span data-stu-id="bc557-109">The line shows all attribute types that are related to that asset.</span></span> <span data-ttu-id="bc557-110">اتبع الخطوات التالية لفتح الصفحة **نظرة عامة على سمات الأصول** واستخدامها.</span><span class="sxs-lookup"><span data-stu-id="bc557-110">Follow these steps to open and use the **Asset attribute overview** page.</span></span>
 
-1. <span data-ttu-id="27c23-111">حدد **إدارة الأصول** \> **استعلامات** \> **الأصول‏‎** \> **نظرة عامة على سمات الأصول‏‎**.</span><span class="sxs-lookup"><span data-stu-id="27c23-111">Select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute overview**.</span></span>
-2. <span data-ttu-id="27c23-112">في حقل **نوع الأصل**، حدد معرف نوع أصل.</span><span class="sxs-lookup"><span data-stu-id="27c23-112">In the **Asset type** field, select an asset type.</span></span>
-3. <span data-ttu-id="27c23-113">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="27c23-113">Select **OK**.</span></span> <span data-ttu-id="27c23-114">تعرض قائمة جميع الأصول التي تستخدم نوع الأصل المحدد.</span><span class="sxs-lookup"><span data-stu-id="27c23-114">A list shows all the assets that use the selected asset type.</span></span> <span data-ttu-id="27c23-115">لكل أصل، تظهر جميع أنواع سمات الأصول ذات الصلة في نفس السطر.</span><span class="sxs-lookup"><span data-stu-id="27c23-115">For each asset, all related asset attribute types are shown on the same line.</span></span>
+1. <span data-ttu-id="bc557-111">حدد **إدارة الأصول** \> **استعلامات** \> **الأصول‏‎** \> **نظرة عامة على سمات الأصول‏‎**.</span><span class="sxs-lookup"><span data-stu-id="bc557-111">Select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute overview**.</span></span>
+2. <span data-ttu-id="bc557-112">في حقل **نوع الأصل**، حدد معرف نوع أصل.</span><span class="sxs-lookup"><span data-stu-id="bc557-112">In the **Asset type** field, select an asset type.</span></span>
+3. <span data-ttu-id="bc557-113">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="bc557-113">Select **OK**.</span></span> <span data-ttu-id="bc557-114">تعرض قائمة جميع الأصول التي تستخدم نوع الأصل المحدد.</span><span class="sxs-lookup"><span data-stu-id="bc557-114">A list shows all the assets that use the selected asset type.</span></span> <span data-ttu-id="bc557-115">لكل أصل، تظهر جميع أنواع سمات الأصول ذات الصلة في نفس السطر.</span><span class="sxs-lookup"><span data-stu-id="bc557-115">For each asset, all related asset attribute types are shown on the same line.</span></span>
 
-<span data-ttu-id="27c23-116">تعرض صفحة **سمة الأصل** سطرًا منفصلاً لكل نوع سمة يتم استخدامه على أصل.</span><span class="sxs-lookup"><span data-stu-id="27c23-116">The **Asset attribute** page shows a separate line for each attribute type that is used on an asset.</span></span> <span data-ttu-id="27c23-117">لفتح هذه الصفحة، حدد **إدارة الأصول** \> **استعلامات** \> **الأصول‏‎** \> **نظرة عامة على سمات الأصول‏‎**.</span><span class="sxs-lookup"><span data-stu-id="27c23-117">To open this page, select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute**.</span></span>
+<span data-ttu-id="bc557-116">تعرض صفحة **سمة الأصل** سطرًا منفصلاً لكل نوع سمة يتم استخدامه على أصل.</span><span class="sxs-lookup"><span data-stu-id="bc557-116">The **Asset attribute** page shows a separate line for each attribute type that is used on an asset.</span></span> <span data-ttu-id="bc557-117">لفتح هذه الصفحة، حدد **إدارة الأصول** \> **استعلامات** \> **الأصول‏‎** \> **نظرة عامة على سمات الأصول‏‎**.</span><span class="sxs-lookup"><span data-stu-id="bc557-117">To open this page, select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute**.</span></span>
