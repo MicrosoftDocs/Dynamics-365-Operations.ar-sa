@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766750"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828934"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-يتيح لك تطبيق Microsoft Dynamics 365 Human Resources في Microsoft Teams طلب إجازة بسرعة وعرض معلومات رصيد إجازاتك مباشرة في Microsoft Teams. ويمكنك التفاعل مع روبوت لطلب المعلومات. توفر علامة التبويب **إجازة** مزيدًا من المعلومات التفصيلية.
+يتيح لك تطبيق Microsoft Dynamics 365 Human Resources في Microsoft Teams طلب إجازة بسرعة وعرض معلومات رصيد إجازاتك مباشرة في Microsoft Teams. يمكنك التفاعل مع الروبوت لطلب معلومات وبدء طلب إجازة. توفر علامة التبويب **إجازة** مزيدًا من المعلومات التفصيلية. علاوةً على ذلك، يمكنك إرسال معلومات الأشخاص حول وقت الإجازة القادم في الفرق والدردشات خارج تطبيق Human Resources.
 
 ## <a name="install-the-app"></a>تثبيت التطبيق
 
@@ -56,8 +56,8 @@ ms.locfileid: "3766750"
 
 إذا كان لديك حق الوصول إلى أكثر من مثيل واحد من Human Resources، فيمكنك تحديد البيئة التي ترغب في الاتصال بها في علامة تبويب **إعدادات**.
 
-> [!WARNING]
-> لا يدعم التطبيق حاليًا دور أمان مسؤول النظام، وسيعرض رسالة خطأ إذا قمت بتسجيل الدخول باستخدام حساب مسؤول نظام. لتسجيل الدخول باستخدام حساب مختلف، في علامة تبويب **الإعدادات**، حدد زر **تبديل الحسابات**، ثم قم بتسجيل الدخول باستخدام حساب مستخدم ليس لديه امتيازات مسؤول النظام.
+> [!NOTE]
+> يدعم التطبيق الآن دور أمان مسؤول النظام.
  
 ## <a name="use-the-bot"></a>استخدام الروبوت
 
@@ -130,13 +130,33 @@ ms.locfileid: "3766750"
 
    ![تحرير مسودة في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
-### <a name="teams-notifications"></a>إعلامات Teams
+### <a name="respond-to-teams-notifications"></a>الاستجابة لإخطارات Teams
 
 عندما تقوم أنت أو عامل أنت القائم بالموافقة بالنسبة له بإرسال طلب إجازة، ستتلقى إعلامًا في تطبيق Human Resources في Teams. يمكنك تحديد الإعلام لعرضه. تظهر الإعلامات أيضًا في منطقة **الدردشة**.
 
 إذا كنت القائم بالموافقة، فيمكنك تحديد **موافقة** أو **رفض** في الإعلام. يمكنك أيضًا توفير رسالة اختيارية.
 
 ![إعلام طلب إجازة في تطبيق Human Resources Teams](./media/hr-teams-leave-app-notification.png)
+
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>إرسال معلومات وقت الإجازة القادم إلى الزملاء
+
+بعد تثبيت تطبيق Human Resources لـ Teams، يمكنك بسهولة إرسال معلومات حول وقت الإجازة القادم إلى الزملاء في الفرق أو الدردشات.
+
+1. في فريق أو دردشة في Teams، حدد الزر Human Resources أسفل نافذة الدردشة.
+
+   ![الزر Human Resources أسفل نافذة الدردشة](./media/hr-teams-leave-app-chat-button.png)
+
+2. حدد طلب الإجازة الذي ترغب في مشاركته. إذا أردت مشاركة طلب إجازة تمهيدي، فحدد **المسودات** أولاً.
+
+   ![تحديد طلب إجازة قادم لمشاركته](./media/hr-teams-leave-app-chat-search.png)
+
+سيظهر طلب إجازتك في الدردشة.
+
+![بطاقة طلب إجازة في Human Resources](./media/hr-teams-leave-app-chat-card.png)
+
+إذا كنت قد شاركت طلبًا تمهيديًا، فسيظهر كمسودة:
+
+![بطاقة طلب إجازة تمهيدي في Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>عرض تقويم الإجازات لفريقك
 
@@ -164,9 +184,15 @@ ms.locfileid: "3766750"
 
 لإدارة إعدادات المسؤول للتطبيقات في Microsoft Teams، انتقل إلى [مركز إدارة Microsoft Teams](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>شبكة الأحداث في Microsoft Azure وMicrosoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams وشبكة أحداث Azure وAzure Cosmos DB
 
-عند استخدام ميزة الإعلامات لتطبيق Dynamics 365 Human Resources في Teams، ستتدفق بعض بيانات العملاء خارج المنطقة الجغرافية التي يتم فيها توزيع خدمة Human Resources للمستأجر. يرسل Dynamics 365 Human Resources تفاصيل طلب الإجازة الخاص بالموظف وتفاصيل سير العمل إلى شبكة الأحداث في Microsoft Azure وMicrosoft Teams قد يتم تخزين هذه البيانات لمدة تصل إلى 24 ساعة وتتم معالجتها في الولايات المتحدة، ويتم تشفيرها أثناء نقلها وتخزينها، ولا تستخدم من قبل Microsoft أو الشركات المعالجة الفرعية لأغراض التدريب أو إدخال تحسينات على الخدمة.
+عند استخدام تطبيق Dynamics 365 Human Resources في Microsoft Teams، قد تتدفق بعض بيانات العملاء خارج المنطقة الجغرافية التي يتم فيها توزيع خدمة Human Resources للمستأجر.
+
+يرسل Dynamics 365 Human Resources تفاصيل طلب الإجازة الخاص بالموظف وتفاصيل سير العمل إلى شبكة الأحداث في Microsoft Azure وMicrosoft Teams قد يتم تخزين هذه البيانات لمدة تصل إلى 24 ساعة في شبكة أحداث Microsoft Azure وستتم معالجتها في الولايات المتحدة، ويتم تشفيرها أثناء نقلها وتخزينها، ولا تستخدم من قبل Microsoft أو الشركات المعالجة الفرعية لأغراض التدريب أو إدخال تحسينات على الخدمة. لمعرفة مكان تخزين البيانات في Teams، الرجاء مراجعة: [موقع البيانات في Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true)
+
+اثناء التحدث مع روبوت الدردشة في تطبيق Human Resources، قد يتم تخزين محتوى المحادثة في Azure Cosmos DB وإرساله إلى Microsoft Teams. قد يتم تخزين هذه البيانات في Azure Cosmos DB لمدة 24 ساعة وقد تتم معالجتها خارج المنطقة الجغرافية التي يتم فيها توزيع خدمة Human Resources للمستأجر، ويتم تشفيرها أثناء نقلها وتخزينها، ولا تستخدم من قبل Microsoft أو الشركات المعالجة الفرعية لأغراض التدريب أو إدخال تحسينات على الخدمة.‬ لمعرفة مكان تخزين البيانات في Teams، الرجاء مراجعة: [موقع البيانات في Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true)
+ 
+لتقييد الوصول إلى تطبيق Human Resources في Microsoft Teams لمؤسستك أو المستخدمين في مؤسستك، راجع [إدارة سياسات أذونات التطبيق في Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>راجع أيضًا
 

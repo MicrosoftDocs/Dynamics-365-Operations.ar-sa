@@ -3,7 +3,7 @@ title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803129"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819879"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -34,6 +34,22 @@ ms.locfileid: "3803129"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.14 من تطبيقات Finance and Operations
+
+> [!NOTE]
+> الإصدار 10.0.14 هو إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [توافر تحديث الخدمة‬](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+
+### <a name="online-users-page"></a>صفحة "المستخدمون عبر الإنترنت" 
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | هذه صفحة قديمة تم إنشاؤها لهندسة العميل/الخادم السابقة. المعلومات الموجودة في هذه الصفحة ليست دقيقة دائمًا، الأمر الذي قد يكون مربكًا ومضللاً. |
+| **هل تم الاستبدال بميزة أخرى؟**   | سنوفر صفحة جديدة في تحديث مستقبلي.|
+| **مناطق المنتجات المتأثرة**         | إدارة النظام |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | بحلول أكتوبر 2021، ستتم إزالة هذا النموذج.   |
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.13 من تطبيقات Finance and Operations
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772548"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893269"
 ---
 # <a name="document-printing-overview"></a>نظرة عامة على طباعة المستند
 
@@ -52,7 +52,7 @@ ms.locfileid: "2772548"
 نظراً لأن الحل يختلف، استنادًا التي السيناريو، توفر التطبيقات الخدمات المضمنة والأدوات لمساعدة المستخدمين على تحقيق الأهداف الخاصة بها:
 
 - **السيناريو 1** مدعوم بواسطة عرض المستعرض لعميل HTML5.
-- **السيناريو 2** يستخدم تطبيقات العميل وخدمات Microsoft Office 365.
+- **السيناريو 2** يستخدم تطبيقات العميل وخدمات Microsoft 365.
 - **السيناريو 3** يحتاج إلى الدعم من تطبيقات العميل ومن الخدمات المستضافة في Microsoft Azure.
 
 بالإضافة إلى النظام الأساسي الذي يتم نشره لاشتراك Azure، تزود تطبيقات Finance and Operations العملاء بتطبيق Azure متكامل وأصيل يساعدهم على استخدام الأجهزة المستضافة من قِبل المجال لطباعة المستندات بسهولة أكبر.

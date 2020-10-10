@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216058"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893151"
 ---
 # <a name="set-up-vendor-accounts"></a>إعداد حسابات المورد‬
 
@@ -66,7 +66,7 @@ ms.locfileid: "3216058"
 
 لا يمكنك حذف السجل الشخصي لجهة اتصال إذا تمت الإشارة إلى جهة الاتصال على مستند. بدلاً من ذلك، يمكنك إلغاء تنشيط جهة الاتصال.  
 
-يمكنك إضافة جهات اتصال المورّدين إلى جهات الاتصال الشخصية الخاصة بك في Microsoft Office 365. ومع ذلك، يجب أولاً إعداد المزامنة بين Supply Chain Management وOffice 365 في مزامنة كل من Microsoft Exchange Server ومعالج إعداد Microsoft Outlook.‬
+يمكنك إضافة جهات اتصال المورّدين إلى جهات الاتصال الشخصية في Microsoft 365. ومع ذلك، يجب أولاً إعداد المزامنة بين Supply Chain Management وMicrosoft 365 في مزامنة Microsoft Exchange Server ومعالج إعداد Microsoft Outlook.‬
 
 ## <a name="vendors-in-different-legal-entities"></a>المورّدون في كيانات قانونية مختلفة
 إذا كان أحد المورّدين مسجلاً لكيان قانوني واحد فقط في مؤسستك، وكان يتعين على الكيانات القانونية الأخرى تسجيل المورّد نفسه، فيمكنك استخدام صفحة **إضافة مورّد لكيان قانوني آخر‬** لتكوين المورّد للقيام بأعمال تجارية مع كيان قانوني آخر. يجب تحديد مجموعة مورّدين وعملة وحالة تقييد المورّد‬ في الكيان القانوني المحدد.  

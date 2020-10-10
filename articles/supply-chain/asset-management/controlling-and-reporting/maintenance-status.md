@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetStatusCalculate, EntAssetStatus
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fbe2b3fd9ce63c34aedb790583dea572d3d9b079
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 43389db93032ec29adb805f86ae04a686803176f
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205450"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889567"
 ---
 # <a name="maintenance-status"></a>حالة الصيانة
 
@@ -60,11 +60,11 @@ ms.locfileid: "3205450"
 
 في لقطة الشاشة أدناه، تم تنشيط الزرين **السنة** و **الشهر**. من خلال الخيارات **تجميع حسب** المحددة، يمكنك الحصول على نظرة عامة على أساس شهري لحمل العمل والإنتاجية المرتبطة بطلبات الصيانة وأوامر العمل. 
 
-![مثال علي حمل العمل الشهري](media/13-controlling-and-reporting.png)
+![مثال على حمل العمل الشهري](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>مثال2
 
 في لقطة الشاشة أدناه، تمت إضافة معلومات حول مواقع العمل. يمكنك الآن مقارنة حمل العمل والإنتاجية عبر مواقع العمل، التي قد تمثل مواقع جغرافية أو مصانع أو مناطق عمل. 
 
-![مثال علي حمل العمل الشهري مع مواقع العمل](media/14-controlling-and-reporting.png)
+![مثال على حمل العمل الشهري مع مواقع العمل](media/14-controlling-and-reporting.png)
 

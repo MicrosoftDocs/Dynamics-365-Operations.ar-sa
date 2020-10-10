@@ -3,7 +3,7 @@ title: وحدة كتلة النص‏‎
 description: يتناول هذا الموضوع وحدات كتل النص ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411125"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817368"
 ---
 # <a name="text-block-module"></a>وحدة كتلة النص‏‎
-
 
 [!include [banner](includes/banner.md)]
 
@@ -80,11 +79,11 @@ ms.locfileid: "3411125"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [وحدة الشعار الترويجي](add-alert.md)
 
-[وحدة نمطية دوارة](add-carousel.md)
+[وحدة دوارة](add-carousel.md)
 
 [وحدة كتلة المحتوى](add-hero-module.md)
 

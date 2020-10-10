@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771273"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893353"
 ---
 # <a name="generate-printable-fti-forms"></a>إنشاء نماذج فاتورة نص حر (FTI) قابلة للطباعة
 
@@ -111,7 +111,7 @@ ms.locfileid: "2771273"
 يدعم إطار عمل التقارير الإلكترونية في الوقت الحالي الوجهات التالية للمستندات التي تم إنشاؤها:
 
 - **الملف الذي تم تنزيله** – يتم تقديم النماذج المُنشأة كتنزيلات يمكنك حفظها باستخدام المستعرض.
-- **الشاشة** – يُستخدم Microsoft Office 365 Excel لمعاينة نماذج FTI التي تم إنشاؤها بتنسيق Excel.
+- **الشاشة** – يُستخدم Microsoft 365 Excel لمعاينة نماذج FTI التي تم إنشاؤها بتنسيق Excel.
 - **مجلد SharePoint** – يتم تخزين النماذج المُنشأة استنادًا إلى الإعدادات الخاصة بإطار عمل إدارة المستندات.
 - **أرشيف التطبيق** – يتم تخزين النماذج المُنشأة كمرفقات لسجلات التنفيذ في Microsoft Azure Storage.
 - **البريد الإلكتروني** – يتم إرسال النماذج المُنشأة كمرفقات بريد إلكتروني.

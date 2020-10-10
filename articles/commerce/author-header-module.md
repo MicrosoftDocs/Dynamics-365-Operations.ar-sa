@@ -1,9 +1,9 @@
 ---
 title: وحدة الرأس
 description: يتناول هذا الموضوع وحدات الرأس ويصف كيفية إنشاء رؤوس الصفحات في Microsoft Dynamics 365 Commerce.
-author: anupamar
+author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: eb440a8fb67888c9411ad5998fead4d00982b436
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 99457b2c98eae0ddd898f852630d690140a5a4c5
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761209"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817000"
 ---
 # <a name="header-module"></a>وحدة الرأس
 
@@ -35,7 +35,7 @@ ms.locfileid: "3761209"
 
 في Dynamics 365 Commerce، يتم تكوين رأس الصفحة كجزء صفحة يتضمن الوحدات النمطية للرأس والشعار الترويجي والموافقة على ملفات تعريف الارتباط‬. 
 
-تتضمن وحدة الرأس شعار الموقع وارتباطات إلى التدرج الهرمي للتنقل وارتباطات إلى صفحات أخرى في الموقع ووحدة نمطية لأيقونة سلة التسوق ورمز قائمة الأمنيات وخيارات تسجيل الدخول وشريط البحث. يتم تحسين وحدة الرأس بشكل تلقائي للجهاز الذي يتم عرض الموقع عليه (بمعنىً آخر لجهاز سطح المكتب أو جهاز محمول). على سبيل المثال، علي جهاز المحمول، يتم طي شريط التنقل إلى زر **القائمة** (والذي يُشار إليه أحيانًا بـ *قائمة هامبورجير*).
+تتضمن وحدة الرأس شعار الموقع وارتباطات إلى التدرج الهرمي للتنقل وارتباطات إلى صفحات أخرى في الموقع ووحدة نمطية لأيقونة سلة التسوق ورمز قائمة الأمنيات وخيارات تسجيل الدخول وشريط البحث. يتم تحسين وحدة الرأس بشكل تلقائي للجهاز الذي يتم عرض الموقع عليه (بمعنىً آخر لجهاز سطح المكتب أو جهاز محمول). على سبيل المثال، على جهاز المحمول، يتم طي شريط التنقل إلى زر **القائمة** (والذي يُشار إليه أحيانًا بـ *قائمة هامبورجير*).
 
 تعرض الصورة التالية مثالاً عن وحدة الرأس في صفحة رئيسية.
 
@@ -94,11 +94,11 @@ ms.locfileid: "3761209"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [وحدة الحاوية](add-container-module.md)
 
-[الوحدة النمطية لأيقونة عربة التسوق](cart-icon-module.md)
+[الوحدة النمطية لرمز عربة التسوق](cart-icon-module.md)
 
 [وحدة الشعار الترويجي](add-alert.md)
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc3b4d22f5ce9a7e14b3834c299fa5a86d8d2868
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18373ff16b63ea61a3a4bc38ee7fa0b5e33154b5
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205496"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889663"
 ---
 # <a name="cost-and-date-control"></a>مراقبة التكلفة والتاريخ
 
@@ -76,7 +76,7 @@ ms.locfileid: "3205496"
 - يعرض حقل **التكلفة الإلزامية المفتوحة** التزامات السداد للأصناف والساعات والخدمات التي طلبتها أو استلمتها ولكن لم يتم دفعها بعد. 
 - يعرض حقل **التكلفة الفعلية** التكاليف ذات الصلة بعد ترحيل كافة تسجيلات الاستهلاك.
 
-![مثال علي نتائج الحساب في مراقبة تكلفة الأصول](media/02-controlling-and-reporting.png)
+![مثال على نتائج الحساب في مراقبة تكلفة الأصول](media/02-controlling-and-reporting.png)
 
 ثمة طريقة أخرى لحساب التكلفة وهي إجراء تحديدات متعددة للأصول في **كل الأصول** أو **الأصول‏‎ النشطة**. انقر بعد ذلك فوق زر **مراقبة التكاليف‬** على علامة التبويب **عام**. في مربع الحوار‏‎ **مراقبة تكلفة الأصول**، يتم إدراج الأصول المحددة بشكل تلقائي في حقل **الأصل** على علامة التبويب السريعة **السجلات المطلوب تضمينها‬**. انقر فوق **موافق**، فيظهر حساب التكلفة للأصول المحددة. يمكن تنفيذ الإجراء نفسه لمواقع العمل في **جميع مواقع العمل** أو **مواقع العمل النشطة** ولأوامر العمل في **جميع أوامر العمل** أو **أوامر العمل النشطة**.
 
@@ -105,6 +105,6 @@ ms.locfileid: "3205496"
 - يظهر الحقل **متوسط تأخير الانتهاء** الفرق بالأيام بين تاريخ الانتهاء‏‎ المجدول لأمر عمل مقارنةً بتاريخ الانتهاء‏‎ الفعلي. على سبيل المثال، إذا كان تاريخ الانتهاء‏‎ الفعلي ثلاثة أيام بعد تاريخ الانتهاء‏‎ المجدول، فسيظهر "3" في هذا الحقل.  
 - تعرض حقول **مرات الحدوث‬** عدد المرات التي تحدث فيها انحرافات الوقت بالنسبة إلى تاريخ البدء الفعلي وتاريخ البدء المجدول، وتاريخ الانتهاء الفعلي وتاريخ الانتهاء المجدول على أمر العمل.
 
-![مثال علي نتائج الحساب في مراقبة تاريخ أمر العمل](media/03-controlling-and-reporting.png)
+![مثال على نتائج الحساب في مراقبة تاريخ أمر العمل](media/03-controlling-and-reporting.png)
 
 

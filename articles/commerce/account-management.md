@@ -3,7 +3,7 @@ title: صفحات إدارة الحساب والوحدات النمطية
 description: يُغطي هذا الموضوع صفحات إدارة الحساب والوحدات النمطية في Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025651"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817148"
 ---
 # <a name="account-management-pages-and-modules"></a>صفحات إدارة الحساب والوحدات النمطية
-
 
 [!include [banner](includes/banner.md)]
 
@@ -75,13 +74,13 @@ ms.locfileid: "3025651"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [وحدة الحاوية](add-container-module.md)
 
-[الوحدة النمطية لمربع شراء](add-buy-box.md)
+[الوحدة النمطية لصندوق الشراء](add-buy-box.md)
 
-[الوحدة النمطية لسلة التسوق](add-cart-module.md)
+[الوحدة النمطية لعربة التسوق](add-cart-module.md)
 
 [الوحدة النمطية للسداد مع الخروج](add-checkout-module.md)
 
