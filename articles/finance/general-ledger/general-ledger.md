@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68fee44fdc18cada99e3c7e2cba021036e869db
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: 53d37d0a02b6771957e2516ef7e3b0bb277014a6
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696654"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888122"
 ---
 # <a name="general-ledger-home-page"></a>الصفحة الرئيسية لدفتر الأستاذ العام
 
@@ -64,9 +64,9 @@ ms.locfileid: "3696654"
 
 يمكنك العثور على آراء وأخبار ومعلومات أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) و[Microsoft Dynamics 365 Finance and Operations - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في MBS Operations.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والمتداولة في Dynamics 365.
 
-### <a name="videos"></a>مقاطع فيديو
+### <a name="videos"></a>ملفات الفيديو
 
 راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

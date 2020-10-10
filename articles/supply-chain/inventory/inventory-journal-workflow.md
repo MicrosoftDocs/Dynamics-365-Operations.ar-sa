@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1feef1beb1fb3091b84f1601a65c3018063ddd5f
-ms.sourcegitcommit: bd89ac6d0b214ce8d7b1314f27111e96713dbd7f
+ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
+ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628363"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829815"
 ---
 # <a name="inventory-journal-approval-workflows"></a>عمليات سير عمل الموافقة على دفتر يومية المخزون
 
@@ -56,7 +57,7 @@ ms.locfileid: "3628363"
 1. بعد حفظ تطبيق محرر سير العمل وإغلاقه، يجب أن تختار تنشيط إصدار سير العمل هذا أو إبقاءه نشطًا.
 
 > [!NOTE]
-> توفر عمليات سير العمل التحكم في الإصدار، مما يعني انه يمكنك عرض قائمة بالإصدارات التي أنشأتها واختيار الإصدار النشط. لعرض قائمة بالإصدارات المتاحة واختيار الإصدار الذي تريد تنشيطه، حدد سير عمل مدرج في صفحة **عمليات سير عمل إدارة المخزون**. في جزء الاجراءات، افتح علامة تبويب **سير العمل**، وحدد **الإصدارات**. يمكن الحصول على إصدار واحد نشط فقط في كل مرة لكل معرف سير عمل.
+> توفر عمليات سير العمل التحكم في الإصدار، مما يعني انه يمكنك عرض قائمة بالإصدارات التي أنشأتها واختيار الإصدار النشط. لعرض قائمة بالإصدارات المتاحة واختيار الإصدار الذي تريد تنشيطه، حدد سير عمل مدرج في صفحة **عمليات سير عمل إدارة المخزون**. في جزء الإجراءات، افتح علامة تبويب **سير العمل**، وحدد **الإصدارات**. يمكن الحصول على إصدار واحد نشط فقط في كل مرة لكل معرف سير عمل.
 
 ## <a name="assign-approval-workflows-to-inventory-journal-names"></a>تعيين عمليات سير عمل الموافقة إلى أسماء دفاتر يومية المخزون
 
