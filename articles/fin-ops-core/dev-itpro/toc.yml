@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: التحكم المستند إلى الأولوية
               hreF: data-entities/priority-based-throttling.md
+            - name: الأسئلة المتداولة حول التحكم المستند إلى الأولوية
+              href: data-entities/throttling-faq.md
             - name: واجهات برمجة تطبيقات تكامل البيانات
               items:
                 - name: واجهة برمجة تطبيقات REST لحزمة إدارة البيانات
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: ترحيل نوع بيانات "العملة" للكتابة المزدوجة
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: إعداد التعيين لحقول حالة أمر المبيعات
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: إدارة الكتابة المزدوجة
                           items:
                             - name: تخصيص تعيينات الكيانات والحقول
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: وكيل محلي
                   items:
-                    - name: توافق AD FS Office 365
+                    - name: توافق AD FS Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
                     - name: البرامج النصية لما قبل النشر وما بعد النشر للوكيل المحلي
                       href: lifecycle-services/pre-post-scripts.md
@@ -627,9 +631,7 @@
                 - name: برنامج تعليمي لأدوات التطوير
                   href: dev-tools/introduction-visual-studio.md
                 - name: مدقق التطبيق
-                  items:
-                    - name: تثبيت BaseX لمدقق التطبيق
-                      href: dev-tools/install-basex.md
+                  href: dev-tools/application-checker.md
                 - name: مستكشف التطبيق
                   href: dev-tools/application-explorer.md
                 - name: إنشاء المشاريع وتصحيحها
@@ -860,7 +862,7 @@
                       href: extensibility/customize-model-elements-extensions.md
                     - name: تخصيص من خلال الملحق وتراكب الطبقات
                       href: extensibility/customization-overlayering-extensions.md
-                - name: الميزات الجديدة
+                - name: الجديد
                   items:
                     - name: الجديد أو المتغير‬ في قابلية التوسعة
                       href: extensibility/extensibility-new.md
@@ -1368,6 +1370,24 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: نوع ValueMetadata
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: إطار عمل التنفيذ التلقائي للعمليات
+          items:
+            - name: تطوير إطار عمل التنفيذ التلقائي للعمليات
+              href: process-automation/process-automation-framework.md
+            - name: ‏‏تسجيل النوع
+              href: process-automation/type-registration.md
+            - name: تسجيل السلسلة
+              href: process-automation/series-registration.md
+            - name: محددات المعالجة
+              href: process-automation/process-parameters.md
+            - name: استعلامات قابلة للتكوين من قِبل المستخدم
+              href: process-automation/user-queries.md
+            - name: تشغيل العملية
+              href: process-automation/run-process.md
+            - name: تسجيل النتائج والرسائل
+              href: process-automation/log-results.md
+            - name: تخصيص واجهة المستخدم
+              href: process-automation/ui-customization.md
         - name: Regression suite automation tool
           items:
             - name: نظرة عامة على Regression suite automation tool
@@ -1395,7 +1415,7 @@
             - name: تطوير وإصدار
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: تجهيز ونشر
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: إضافة منهجيات
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: إعداد مكتبات أداة تكوين عمليات الأعمال

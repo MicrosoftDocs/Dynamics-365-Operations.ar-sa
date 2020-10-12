@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (أغسطس 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
-                    - name: Commerce 10.0.11 (يوليو 2020)
-                      href: get-started/whats-new-commerce-10-0-11.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Finance and Operations
@@ -182,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: إنشاء حقول مخصصة والعمل باستخدامها
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: تضمين Microsoft Power Apps
+                - name: تضمين تطبيقات اللوحة من Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: البحث عن المعلومات باستخدام عمليات البحث
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -956,9 +954,9 @@
                   href: add-privacy-page.md
                 - name: استبدال معرفات المستخدم المقترنة بتغييرات المحتوى المتعقبة
                   href: replace-IDs-tracked-changes.md
-            - name: أدوات البداية
+            - name: مكتبة الوحدات
               items:
-                - name: نظرة عامة حول أدوات البداية
+                - name: نظرة عامة على مكتبة الوحدات
                   href: starter-kit-overview.md
                 - name: وحدات الحاوية
                   items:
@@ -1976,7 +1974,7 @@
                   items:
                     - name: إنشاء وحدة نمطية جديدة
                       href: e-commerce-extensibility/create-new-module.md
-                    - name: استنساخ وحده أدوات البداية النمطية
+                    - name: استنساخ وحدة مكتبة الوحدات
                       href: e-commerce-extensibility/clone-starter-module.md
                     - name: إضافة حقول تكوين الوحدة النمطية
                       href: e-commerce-extensibility/add-module-config-fields.md
@@ -2070,7 +2068,7 @@
                   items:
                     - name: تكوينات الحزم وتوزيعها على بيئة عبر الإنترنت
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK وتخزين تحديثات مجموعة أدوات البداية‬
+                    - name: تحديثات SDK ومكتبة الوحدات
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2146,8 +2144,10 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: إرشادات تطبيق إدارة الأجهزة
                   href: implementation-considerations-devices.md
-                - name: أحداث ومعالجات عرض سلة التسوق
+                - name: أحداث ومعالجات عرض سلة نقطة البيع
                   href: dev-itpro/cart-view-handlers.md
+                - name: إضافة أزرار مخصصة إلى شريط رأس نقطة البيع
+                  href: dev-itpro/pos-header-bar.md
             - name: قابلية توسعة Hardware Station
               items:
                 - name: Hardware Station وقابلية التوسعة

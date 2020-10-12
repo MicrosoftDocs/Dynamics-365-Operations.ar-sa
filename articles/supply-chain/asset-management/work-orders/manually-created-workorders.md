@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80593ddaaa5f327513781dbdd4e3163de4212ced
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4a4b148d9ac5d032d2caa5fcea0398a5a3726f0e
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208099"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888967"
 ---
 # <a name="manually-created-work-orders"></a>أوامر العمل التي تم إنشاؤها يدويًا
 
@@ -52,7 +52,7 @@ ms.locfileid: "3208099"
 
 - **الأصول النشطة** - تحتوي علامة التبويب هذه على قائمة بكافة الأصول التي تكون حالة دورة حياة الأصل فيها "نشطة". 
 - **طريقة عرض الأصول** - تعرض علامة التبويب هذه طريقة عرض الشجرة لمواقع العمل والأصول المثبتة على تلك المواقع.
-- **الأصول الخاصة بي** - تحتوي علامة التبويب هذه علي الأصول المرتبطة بمواقع العمل التي يمكن تخصيصها (العامل الذي تم تسجيل دخوله إلى النظام). (لمزيد من المعلومات حول الإعداد، راجع [عمال الصيانة ومجموعات العاملين](../setup-for-objects/workers-and-worker-groups.md).) في حالة عدم إعداد أية مواقع عمل علي عامل في [عاملو ومجموعات عاملي الصيانة](../setup-for-objects/workers-and-worker-groups.md)، فلن تكون علامة التبويب **الأصول الخاصة بي** متاحة. 
+- **الأصول الخاصة بي** - تحتوي علامة التبويب هذه على الأصول المرتبطة بمواقع العمل التي يمكن تخصيصها (العامل الذي تم تسجيل دخوله إلى النظام). (لمزيد من المعلومات حول الإعداد، راجع [عمال الصيانة ومجموعات العاملين](../setup-for-objects/workers-and-worker-groups.md).) في حالة عدم إعداد أية مواقع عمل على عامل في [عاملو ومجموعات عاملي الصيانة](../setup-for-objects/workers-and-worker-groups.md)، فلن تكون علامة التبويب **الأصول الخاصة بي** متاحة. 
 
 6. حدد نوع مهمة الصيانة لأمر العمل في الحقل **نوع مهمة الصيانة** .
 
@@ -78,7 +78,7 @@ ms.locfileid: "3208099"
 
 - من صفحة [حالة الصيانة](../controlling-and-reporting/maintenance-status.md) ، يمكنك إجراء عملية حسابية للحصول على نظرة عامة حول حمل العمل فيما يتعلق بأوامر العمل الواردة والمكتملة.  
 
-- في طريقه عرض التفاصيل لصفحة **جميع أوامر العمل** ، علي علامة التبويب السريعة **تفاصيل البند** ، يمكنك استخدام حقلي **الطول** و **العرض** لإضافة الإحداثيات الجغرافية للأصل المحدد في وظيفة أمر العمل.  
+- في طريقه عرض التفاصيل لصفحة **جميع أوامر العمل** ، على علامة التبويب السريعة **تفاصيل البند** ، يمكنك استخدام حقلي **الطول** و **العرض** لإضافة الإحداثيات الجغرافية للأصل المحدد في وظيفة أمر العمل.  
 
 
 ## <a name="create-related-work-order"></a>إنشاء أمر عمل ذي صلة

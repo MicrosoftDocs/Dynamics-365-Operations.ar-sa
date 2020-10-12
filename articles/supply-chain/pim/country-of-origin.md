@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: d0d93a02817bab8e188818862c1bb7f84b498fc1
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0471785991a307de11147e9773d9abe1e02941d6
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802787"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895538"
 ---
 # <a name="country-of-origin"></a>بلد المنشأ
 
@@ -50,7 +51,7 @@ ms.locfileid: "3802787"
     | بلد الوجهة | حدد البلد الذي تقوم بإرسال المنتج إليه. |
     | بلد المنشأ | حدد البلد الذي تقوم بإرسال المنتج منه. |
 
-والغرض من هذا الإعداد هو مساعدتك في إنشاء تقرير شجره المواد (BOM) حيث يمكنك تضمين البلد الخاص بالأصل لكل جزء من الأجزاء التي يتم تحديد المصدر والوجهة لها. يساعدك هذا التقرير في الحصول علي صوره شاملة للمكان الذي تأتي إليه الأجزاء والمكان التي سيتم نقلها إليه.
+والغرض من هذا الإعداد هو مساعدتك في إنشاء تقرير شجره المواد (BOM) حيث يمكنك تضمين البلد الخاص بالأصل لكل جزء من الأجزاء التي يتم تحديد المصدر والوجهة لها. يساعدك هذا التقرير في الحصول على صوره شاملة للمكان الذي تأتي إليه الأجزاء والمكان التي سيتم نقلها إليه.
 
 ## <a name="keep-track-of-vendor-certificates"></a>تتبع شهادات الموردين
 

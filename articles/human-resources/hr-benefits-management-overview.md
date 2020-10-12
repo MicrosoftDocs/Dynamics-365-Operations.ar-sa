@@ -3,7 +3,7 @@ title: نظرة عامة على إدارة المزايا
 description: نظرة عامة على ميزة إدارة المزايا في Dynamics 365 Human Resources. يمكنك تزويد موظفيك بخيارات المزايا الممتدة مع تجربة سهلة الاستخدام عبر الإنترنت.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599370"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819755"
 ---
 # <a name="benefits-management-overview"></a>نظرة عامة على إدارة المزايا
 
@@ -41,15 +41,9 @@ ms.locfileid: "3599370"
 
 إذا كنت ترغب في الوصول إلى بيانات العرض التوضيحي‬، فستحتاج إلى إعادة نشر بيئة الحماية.
 
-## <a name="benefits-management-known-issues"></a>المشكلات المعروفة في إدارة المزايا
-
-### <a name="flex-credit-programs"></a>برامج الائتمان المرنة
-
-لا تظهر قيمة الائتمان الإجمالية المحددة لبرنامج ائتمان مرن‬ في نموذج **خطط المزايا الخاصة بالعامل**. كذلك الأمر، إذا قمت بتعيين برنامج ائتمان كي تكون له قاعدة تناسب بقيمة **بلا**، ستحصل على خطأ في نموذج **خطط المزايا الخاصة بالعامل‬‏‫** عند تحديد الخطط وتأكيدها.
-
 ## <a name="enable-benefits-management"></a>تمكين إدارة المزايا
 
-توضح هذه المقالة كيفية تشغيل ميزات Human Resources. كما أنها تحدد المزايا الموجودة في Human Resources والتي تستبدلها إدارة المزايا أو تقوم بتعطيلها بمجرد تشغيل إدارة المزايا.
+يصف هذا الموضوع كيفية تشغيل ميزات Human Resources. كما أنها تحدد المزايا الموجودة في Human Resources والتي تستبدلها إدارة المزايا أو تقوم بتعطيلها بمجرد تشغيل إدارة المزايا.
 
 > [!IMPORTANT]
 > بعد تمكين إدارة المزايا في بيئة **الإنتاج**، لا يمكنك تعطيلها. نوصي بتمكين إدارة المزايا واختبارها في **بيئة اختبار معزولة** قبل تمكينها في بيئة **الإنتاج**. توجد اختلافات كبيرة بين وظيفة المزايا القديمة ووظيفة إدارة المزايا الجديدة التي تتطلب عملية إعداد إضافية ويجب اختبارها قبل وضعها في بيئة الإنتاج.

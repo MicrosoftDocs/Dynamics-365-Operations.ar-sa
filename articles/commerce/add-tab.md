@@ -3,7 +3,7 @@ title: وحدة علامة التبويب
 description: يغطي هذا الموضوع وحدات علامة التبويب ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b4187dfd704c78d506d7840b04c986687fe807a3
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621002"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817024"
 ---
 # <a name="tab-module"></a>وحدة علامة التبويب
 
@@ -77,10 +77,10 @@ ms.locfileid: "3621002"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [وحدة الحاوية](add-container-module.md)
 
-[وحدة الأكورديون](add-accordion.md)
+[وحدة أككورديون](add-accordion.md)
 
 [وحدة كتلة النص](add-content-rich-block.md)

@@ -1,10 +1,12 @@
 - name: Dynamics 365 Human Resources
   href: hr-welcome.md
   items:
-    - name: الميزات الجديدة
+    - name: الجديد
       items:
-        - name: الميزات الجديدة أو المتغيرة في Human Resources
+        - name: الجديد أو المتغير في Human Resources
           href: hr-admin-whats-new.md
+        - name: 16 سبتمبر 2020
+          href: hr-whats-new-2020-09-16.md
         - name: 3 سبتمبر 2020
           href: hr-whats-new-2020-09-03.md
         - name: 20 أغسطس 2020
@@ -201,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: إنشاء حقول مخصصة والعمل باستخدامها
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: تضمين تطبيقات PowerApps
+            - name: تضمين تطبيقات اللوحة من Power Apps
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: البحث عن المعلومات باستخدام عمليات البحث
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json

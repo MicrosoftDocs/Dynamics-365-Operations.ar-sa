@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210147"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887230"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>مخطط "جانت" لجدولة الوظائف
 
@@ -38,7 +38,7 @@ ms.locfileid: "3210147"
 -   الوظائف من أوامر الإنتاج المخططة.
 -   أنشطة المشروع المجدولة الوظائف من نوع التنبؤات بالساعات.
 
-‏‫يمكن فتح مخطط جانت في طريقتي عرض مختلفتين، **نظرة عامة على الأوامر** و**‬‏‫نظرة عامة على الموارد**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). في **النظرة العامة على الأوامر**، يتم تجميع الأنشطة تحت أوامر الإنتاج. يمكن أن يكون ذلك مفيدًا، على سبيل المثال، إذا كنت ترغب في الاحتفاظ بنظرة عامة حول جميع الوظائف التي تنتمي إلى نفس الأوامر. في **طريقة عرض الموارد**، يتم تجميع كافة الوظائف تحت الموارد الفردية. قد يكون هذا العرض مفيدًا عند تحسين الخطة على مستوى المورد، على سبيل المثال، جهاز أو مجموعة من الأجهزة. تُظهر مخططات جانت في الرسوم التوضيحية أدناه **طريقة عرض الأوامر** و**طريقة عرض الموارد** مع هذه العناصر الأساسية:
+‏‫يمكن فتح مخطط جانت في طريقتي عرض مختلفتين، **نظرة عامة على الأوامر**و **‬‏‫نظرة عامة على الموارد**. في **النظرة العامة على الأوامر**، يتم تجميع الأنشطة تحت أوامر الإنتاج. يمكن أن يكون ذلك مفيدًا، على سبيل المثال، إذا كنت ترغب في الاحتفاظ بنظرة عامة حول جميع الوظائف التي تنتمي إلى نفس الأوامر. في **طريقة عرض الموارد**، يتم تجميع كافة الوظائف تحت الموارد الفردية. قد يكون هذا العرض مفيدًا عند تحسين الخطة على مستوى المورد، على سبيل المثال، جهاز أو مجموعة من الأجهزة. تُظهر مخططات جانت في الرسوم التوضيحية أدناه **طريقة عرض الأوامر** و**طريقة عرض الموارد** مع هذه العناصر الأساسية:
 
 1.  نشاط مخطط جانت
 2.  أيقونة النقص في المواد

@@ -3,12 +3,12 @@ title: ‏‫إعدادات الأوامر الافتراضية‬ للأبعا�
 description: تحدد إعدادات الأوامر الافتراضية الموقع والمستودع من حيث تؤخذ الأصناف أو حيث يتم تخزينها، والحد الأدنى من الكميات وحدها الأقصى ومضاعفاتها والكميات القياسية التي سيتم استخدامها للتجارة أو إدارة المخزون وزمن وصول البضاعة وعلامة الإيقاف وأسلوب التعهد بالأمر‬.
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657330"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895586"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات
 
@@ -51,8 +51,11 @@ ms.locfileid: "3657330"
 - سطور اتفاقية الشراء
 - سطور طلب عرض الأسعار
 - سطور طلبات الشراء
-- بنود تزويد الشحن
+- بنود تزويد الشحن (مدعومة جزئيًا، راجع الملاحظة)
 - أوامر شراء مخططة
+
+> [!NOTE]
+> بالنسبة إلى بنود أوامر تزويد الشحن، الإعدادات الوحيدة التي تنطبق من علامة التبويب السريعة **أمر الشراء** في صفحة **إعدادات الأوامر الافتراضية** هي حقل **الموقع الافتراضي** وحقل **المستودع الافتراضي** وحقل **متوقف‬‏‫‬‏‫**.
 
 يتم استخدام إعدادات الأوامر الافتراضية للمبيعات عند إنشاء:
 

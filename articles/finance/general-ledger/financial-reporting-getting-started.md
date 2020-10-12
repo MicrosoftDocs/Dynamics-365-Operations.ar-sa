@@ -3,7 +3,7 @@ title: نظرة عامة على التقارير المالية
 description: يصف هذا الموضوع المكان الذي يمكن منه الوصول إلى التقارير المالية في Microsoft Dynamics 365 Finance وكيفية استخدام إمكانيات إعداد التقارير المالية.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696678"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835100"
 ---
 # <a name="get-started-with-financial-reporting"></a>الشروع في العمل مع التقارير المالية 
 
@@ -148,9 +148,7 @@ ms.locfileid: "3696678"
 * في Internet Explorer، حدد **الإعدادات**، ثم حدد **خيارات الإنترنت**. حدد علامة التبويب **الأمان**. حدد المواقع الموثوق بها ثم حدد **المواقع**. في **إضافة موقع ويب هذا إلى منطقة**، أدخل "\*\.dynamics.com" (دون علامات الاقتباس)، ثم حدد **إضافة**. 
 * في Internet Explorer، حدد **الإعدادات**، ثم حدد **خيارات الإنترنت**. حدد علامة التبويب **الأمان**، ثم حدد المواقع الموثوق بها. في المنطقة المسماة مستوى الأمان لهذه المنطقة، غيِّر الخيار إلى **متوسط منخفض**.
 * عطَّل أداة منع الإطارات المنبثقة في المستعرض.
-* يجب توافر محطات العمل لتثبيت Visual Studio .net 4.6.2 أو إصدار أحدث منه.
-
-ويمكن تنزيل هذا الإصدار من Microsoft .NET ويمكن تنزيل هذا الإصدار من [مركز التنزيل لـ Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* يجب أن تكون محطات العمل متوفرة لتثبيت Microsoft .NET Framework 4.6.2 أو إصدار أحدث منه. ويمكن تنزيل هذا الإصدار من Microsoft .NET ويمكن تنزيل هذا الإصدار من [مركز التنزيل لـ Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
 * إذا كنت تستخدم مستعرض Chrome، يجب تثبيت ملحق ClickOnce لتتمكن من تنزيل عميل مصمم التقارير. إذا كنت تستخدم وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي. إذا لم تتمكن من تسجيل الدخول باستخدام Chrome، فحاول اتباع خطوات الإعداد الموضحة في المشكلة 1 باستخدام Internet Explorer أو Edge. 
 
 المشكلة 2: لم يتم تعيين الأذونات المطلوبة للمستخدم لاستخدام Financial Reporting. 

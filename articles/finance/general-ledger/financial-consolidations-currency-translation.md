@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771835"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823445"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>نظرة عامة حول تحويل العملة وعمليات الدمج المالية
 
@@ -103,8 +103,9 @@ ms.locfileid: "2771835"
     ![حركات التوحيد في صفحة عمليات التوحيد](./media/managing-consolidation-transactions.png "حركات التوحيد في صفحة عمليات التوحيد")
 
 لتشغيل الدمج مرة أخرى، يمكنك فقط معالجة الدمج. بدلاً من ذلك، يمكنك أولاً تحديد **إزالة الحركات** في صفحة **عمليات الدمج**.
+في الحدث، لا تكون الأرصدة على حسابك الموحد دقيقة، ويمكن تصحيح هذه الأرصدة باستخدام الصفحة **تسويات فترة الإقفال**.
 
-## <a name="consolidate-with-import"></a>الدمج مع الاستيراد
+## <a name="consolidate-with-import"></a>تجميع مع استيراد
 تعمل وظيفة الدمج مع الاستيراد كوظيفة الدمج عبر الإنترنت. عندما تحدد الكيانات القانونية، سوف تستعرض وصولاً إلى الملف المصدر الذي يحتوي على البيانات.
 
 ## <a name="export-company-balances"></a>تصدير أرصدة الشركة
@@ -156,6 +157,7 @@ ms.locfileid: "2771835"
 - يمكن ترحيل دفاتر يومية الاستبعاد إلى الطبقة الحالية فقط.
 - يتم دمج الأرصدة التشغيلية فقط. وبالتالي، لعرض الأرصدة الافتتاحية، يجب تشغيل إقفال نهاية السنة في شركة الدمج.
 - يمكنك ترحيل دفتر يومية بشكل يومي في شركة استبعاد، ولكن لا يمكنك ترحيله في شركة دمج.
+- يمكن إجراء تسويات الأرصدة في شركة دمج‬ باستخدام الصفحة **تسويات فترة الإقفال**. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>فوائد استخدام التقارير المالية لعمليات الدمج المالية وتحويل العملة، أو لتكملة الدمج عبر الإنترنت لإعداد التقارير المدمجة
 سيتمكن العملاء الذين يستخدمون التقارير المالية لعمليات الدمج المالية وتحويل العملة، أو لتكملة الدمج عبر الإنترنت لإعداد التقارير المدمجة، من الحصول على فوائد متنوعة.

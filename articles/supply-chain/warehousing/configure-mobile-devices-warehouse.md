@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383080"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837253"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>إعداد الأجهزة المحمولة لعمل المستودع
 
@@ -399,6 +399,9 @@ ms.locfileid: "3383080"
 <tr class="odd">
 <td>كود قالب العمل</td>
 <td>حدد قالب العمل الذي سيقوم بإنشاء العمل للعملية. ‏‫على سبيل المثال، إذا تلقيت صنف لأمر شراء، فسيتم إنشاء عمل الإبعاد استناداً إلى قالب العمل. إذا لم تحدد قالب عمل، يعيّن Supply Chain Management قالبًا استنادًا إلى معايير الاستعلام. لمزيد من المعلومات حول قوالب العمل، راجع <a href="control-warehouse-location-directives.md">مراقبة عمل المستودع باستخدام قوالب العمل والتوجيهات المتعلقة بالموقع</a>.</td>
+<tr class="even">
+<td>إظهار قائمة بند العمل</td>
+<td>حدد خيارًا حول كيفية تمكن العاملين من عرض البنود الخاصة بعمل الانتقاء المحدد حاليًا والتعامل معها. لمزيد من المعلومات حول هذا الخيار، راجع <a href="pick-line-overview.md">إعداد عنصر قائمة جهاز محمول لتوفير نظره عامة على بند الانتقاء</a>.</td>
 </tr>
 </tbody>
 </table>

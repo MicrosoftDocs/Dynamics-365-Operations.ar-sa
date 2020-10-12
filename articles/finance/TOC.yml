@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (أغسطس 2020)
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: Finance 10.0.11 (يوليو 2020)
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
@@ -160,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: إنشاء حقول مخصصة والعمل باستخدامها
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: تضمين Microsoft Power Apps
+                - name: تضمين تطبيقات اللوحة من Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: البحث عن المعلومات باستخدام عمليات البحث
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -1228,6 +1226,22 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: تحديثات تنظيمية
               href: localizations/regulatory-updates.md
+            - name: الوظيفة الإضافية للفوترة الإلكترونية
+              items:
+                - name: نظرة عامة على الوظيفة الإضافية للفوترة الإلكترونية
+                  href: localizations/e-invoicing-service-overview.md
+                - name: إنشاء حساب تخزين Azure وKey Vault
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: بدء استخدام الوظيفة الإضافية للفوترة الإلكترونية
+                  href: localizations/e-invoicing-get-started.md
+                - name: بدء استخدام الوظيفة الإضافية للفوترة الإلكترونية للبرازيل
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: بدء استخدام الوظيفة الإضافية للفوترة الإلكترونية لإيطاليا
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: بدء استخدام الوظيفة الإضافية للفوترة الإلكترونية للمكسيك
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: إعداد الوظيفة الإضافية للفوترة الإلكترونية
+                  href: localizations/e-invoicing-setup.md
             - name: أستراليا
               items:
                 - name: نظرة عامة على أستراليا
@@ -1268,6 +1282,8 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: إنشاء حركات وتحويلها إلى BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: تصدير حركات دفتر الأستاذ
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: إقرار ضريبة INTERVAT
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: تقارير التسوية​
@@ -2036,6 +2052,8 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: إنشاء بيانات تقرير GSTR لعمليات إرجاع الضرائب
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: تمكين معالجة الدفعات المتعددة لتقارير GSTR
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: الاستعلام عن الضرائب
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: محرك الضريبة
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: تصميم تقارير متعددة اللغات
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: ضغط المستندات الصادرة الكبيرة
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: المسار النسبي في عمليات ربط البيانات
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: استخدام حلول التقارير الإلكترونية في Finance and Operations

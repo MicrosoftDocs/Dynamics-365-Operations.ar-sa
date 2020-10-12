@@ -3,7 +3,7 @@ title: وحدة بطاقة الهدايا
 description: يتناول هذا الموضوع وحدات بطاقة الهدايا ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4cc947b9d6f3cfa51bce2155170c49e9529d0f7d
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: fc47d590789c79c08af7555222aa7cc9409da23c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761071"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817416"
 ---
 # <a name="gift-card-module"></a>وحدة بطاقة الهدايا
 
@@ -35,10 +35,16 @@ ms.locfileid: "3761071"
 
 يمكن استخدام وحدات بطاقات الهدايا في وحدات السداد مع الخروج لقبول بطاقات الهدايا، وهي عبارة عن طريقة دفع شائعة الاستخدام في حركات التجارة الإلكترونية. تدعم وحدة بطاقة الهدايا بطاقات هدايا Dynamics 365 وSVS وGivex. يتم استرداد بطاقات الهدايا من SVS وGivex من خلال موفر الدفع Adyen. لمزيد من المعلومات جول دعم بطاقات الهدايا الخارجية مثل SVS وGivex، راجع [دعم بطاقات الهدايا الخارجية](./dev-itpro/gift-card.md)
 
+> [!NOTE]
+> يتوفر دعم استرداد بطاقات الهدايا SVS وGivex اثناء سير عمل السداد مع الخروج في Dynamics 365 Commerce الإصدار 10.0.11. 
+
 هناك وحدتان لبطاقة الهدايا:
 
 - **بطاقة الهدايا** - يمكن استخدام هذه الوحدة على صفحة السداد مع الخروج‬ لاسترداد بطاقة الهدايا كطريقة دفع. 
 - **فحص رصيد بطاقة الهدايا** - يمكن استخدام هذه الوحدة على أي صفحة لفحص الرصيد على بطاقة الهدايا. تتوفر هذه الوحدة في الإصدار 10.0.14 من Commerce والإصدارات اللاحقة.
+
+> [!NOTE]
+> يتوفر دعم الوحدة النمطية فحص رصيد بطاقة الهدايا‬‏‫ في Dynamics 365 Commerce الإصدار 10.0.14.
 
 تعرض الصورة التالية مثالاً عن وحدة بطاقة هدايا في صفحة السداد مع الخروج.
 
@@ -61,9 +67,12 @@ ms.locfileid: "3761071"
 - **بطاقات هدايا SVS وGivex** - عند تطبيق هذا الإعداد، تسمح وحدة بطاقة الهدايا باسترداد بطاقات هدايا SVS وGivex فقط. هذا الإعداد مدعوم للمستخدمين الذين سجلوا دخولهم في موقع التجارة الإلكترونية بالإضافة إلى المستخدمين المجهولي الهوية.
 - **بطاقات هدايا Dynamics 365 وSVS وGivex** - عند تطبيق هذا الإعداد، تسمح وحدة بطاقة الهدايا باسترداد بطاقات هدايا Dynamics 365 وSVS وGivex. هذا الإعداد مدعوم فقط للمستخدمين الذين سجلوا دخولهم في موقع التجارة الإلكترونية.
 
+> [!IMPORTANT]
+> تتوفر هذه الإعدادات في Dynamics 365 Commerce الإصدار 10.0.11، وهي مطلوبة فقط إذا احتجت إلى دعم بطاقات الهدايا SVS أو Givex. إذا كنت تقوم بالتحديث من إصدار قديم من Dynamics 365 Commerce، فيجب عليك تحديث ملف appsettings.json يدويًا. للحصول على تعليمات حول تحديث ملف appsettings.json، راجع [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+
 ## <a name="add-a-gift-card-module-to-a-page"></a>إضافة وحدة بطاقة هدايا إلى صفحة
 
-للحصول علي إرشادات حول كيفية إضافة وحدة بطاقة هدايا إلى صفحة السداد مع الخروج‬ وتعيين الخصائص المطلوبة، راجع [وحدة السداد مع الخروج](add-checkout-module.md).
+للحصول على إرشادات حول كيفية إضافة وحدة بطاقة هدايا إلى صفحة السداد مع الخروج‬ وتعيين الخصائص المطلوبة، راجع [وحدة السداد مع الخروج](add-checkout-module.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -79,6 +88,8 @@ ms.locfileid: "3761071"
 
 [الوحدة النمطية لخيارات التسليم](delivery-options-module.md)
 
-[وحدة تفاصيل الأوامر](order-confirmation-module.md)
+[الوحدة النمطية لتفاصيل الأوامر](order-confirmation-module.md)
 
 [دعم بطاقات الهدايا الخارجية](./dev-itpro/gift-card.md)
+
+[تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md)

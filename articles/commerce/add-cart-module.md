@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761119"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818265"
 ---
 # <a name="cart-module"></a>الوحدة النمطية لسلة التسوق
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يتناول هذا الموضوع وحدات سلة التسوق ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
@@ -41,11 +40,11 @@ ms.locfileid: "3761119"
 
 تعرض الصورة التالية مثالاً عن صفحة سلة التسوق في موقع Fabrikam.
 
-![مثال عن وحدة سلة التسوق](./media/cart2.PNG)
+![مثال عن وحدة نمطية لسلة التسوق‬ في موقع Fabrikam](./media/cart2.PNG)
 
 تعرض الصورة التالية مثالاً عن صفحة سلة التسوق في موقع Fabrikam. في هذا المثال، يوجد رسم معالجة لصنف بند.
 
-![مثال عن وحدة سلة التسوق](./media/ecommerce-handling-fee.png)
+![مثال عن وحدة نمطية لسلة التسوق‬ مع رسوم معالجة لصنف بند](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>خصائص الوحدة النمطية لسلة التسوق وفتحات التشغيل
 

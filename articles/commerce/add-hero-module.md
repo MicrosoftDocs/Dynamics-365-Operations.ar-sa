@@ -3,7 +3,7 @@ title: وحدة كتلة المحتوى
 description: يتناول هذا الموضوع وحدات كتل المحتوى ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269672"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817344"
 ---
 # <a name="content-block-module"></a>وحدة كتلة المحتوى
 
@@ -46,7 +46,7 @@ ms.locfileid: "3269672"
 
 ## <a name="content-block-modules-and-themes"></a>وحدات كتل المحتوى النمطية والنُسق
 
-بإمكان وحدات كتل المحتوى أن تدعم تخطيطات وأنماط متنوعة بالاستناد إلى نسق. على سبيل المثال، يدعم النسق Fabrikam ثلاثة أشكال مختلفة لتخطيط وحدة كتلة المحتوى: التخطيط الرئيسي والميزة والإطار المتجانب. يعرض التخطيط الرئيسي صورة علي الخلفية مع تراكب نصي. يعرض تخطيط الميزة صورة ونصًا جنبًا إلى جنب. يسمح تخطيط الإطار المتجانب بكتل محتوى متعددة في تنسيق إطار متجانب.
+بإمكان وحدات كتل المحتوى أن تدعم تخطيطات وأنماط متنوعة بالاستناد إلى نسق. على سبيل المثال، يدعم النسق Fabrikam ثلاثة أشكال مختلفة لتخطيط وحدة كتلة المحتوى: التخطيط الرئيسي والميزة والإطار المتجانب. يعرض التخطيط الرئيسي صورة على الخلفية مع تراكب نصي. يعرض تخطيط الميزة صورة ونصًا جنبًا إلى جنب. يسمح تخطيط الإطار المتجانب بكتل محتوى متعددة في تنسيق إطار متجانب.
 
 علاوةً على ذلك، بإمكان النسق عرض خصائص مختلفة لكل تخطيط. بإمكان مطور النسق إنشاء المزيد من التخطيطات باستخدام مزيد من الأنماط باستخدام وحدة كتلة المحتوى.
 
@@ -98,12 +98,12 @@ ms.locfileid: "3269672"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [وحدة الشعار الترويجي](add-alert.md)
 
-[وحدة نمطية دوارة](add-carousel.md)
+[وحدة دوارة](add-carousel.md)
 
-[وحدة كتلة النص‏‎](add-content-rich-block.md)
+[وحدة كتلة النص](add-content-rich-block.md)
 
 [وحدة نمطية لمشغل الفيديو](add-video-player.md)

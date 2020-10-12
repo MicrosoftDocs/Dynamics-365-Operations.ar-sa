@@ -3,7 +3,7 @@ title: تطبيق إعدادات المخزون
 description: يتناول هذا الموضوع إعدادات المخزون ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621211"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817599"
 ---
 # <a name="apply-inventory-settings"></a>تطبيق إعدادات المخزون
 
@@ -38,6 +38,9 @@ ms.locfileid: "3621211"
 يوفر Dynamics 365 Commerce تقديرات عن التوفر الفعلي للمنتجات. للحصول على معلومات حول كيفية حساب التوفر الفعلي، راجع [حساب توفر المخزون لقنوات البيع بالتجزئة](calculated-inventory-retail-channels.md).
 
 في منشئ الموقع في Commerce، يمكن تعريف حدود ونطاقات المخزون لمنتج أو فئة. وهي تحدد ما إذا كان من الممكن تصنيف المخزون في حالة "في المخزون" أو "نفد من المخزون" أو "مخزون قليل". للاطلاع على التفاصيل، راجع [تكوين المخازن المؤقتة للمخزون ومستويات المخزون](inventory-buffers-levels.md).
+
+> [!NOTE]
+> يتوفر دعم حدود ونطاقات في Dynamics 365 Commerce الإصدار 10.0.12.
 
 ## <a name="inventory-settings"></a>إعدادات المخزون
 
@@ -55,6 +58,9 @@ ms.locfileid: "3621211"
     - عند تحديد **نفد من المخزون**، ستظهر الرسالة "نفد من المخزون" فقط.
 
 - **حد النفاد من المخزون** – سيصبح الإعداد الرقمي القديم ساري المفعول فقط عند تحديد قيمة **حد النفاد من المخزون** للإعداد **مستوى المخزون استنادًا إلى**.
+
+> [!IMPORTANT] 
+> تتوفر هذه الإعدادات في Dynamics 365 Commerce الإصدار 10.0.12. إذا كنت تقوم بالتحديث من إصدار قديم من Dynamics 365 Commerce، فيجب عليك تحديث ملف appsettings.json يدويًا. للحصول على تعليمات حول تحديث ملف appsettings.json، راجع [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>الوحدات النمطية التي تستخدم إعدادات المخزون
 
@@ -74,7 +80,7 @@ ms.locfileid: "3621211"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [تكوين المخازن المؤقتة للمخزون ومستويات المخزون](inventory-buffers-levels.md)
 
@@ -85,3 +91,5 @@ ms.locfileid: "3621211"
 [صفحات ووحدات إدارة الحسابات](account-management.md)
 
 [الوحدة النمطية لمحدد المتجر](store-selector.md)
+
+[تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md)

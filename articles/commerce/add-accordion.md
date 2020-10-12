@@ -3,7 +3,7 @@ title: وحدة الأكورديون
 description: يتناول هذا الموضوع وحدات الأكورديون ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1097289d339b84aa477752934afe8192e56c5ce5
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621074"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817124"
 ---
 # <a name="accordion-module"></a>وحدة الأكورديون
 
@@ -80,10 +80,10 @@ ms.locfileid: "3621074"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [وحدة الحاوية](add-container-module.md)
 
-[وحدة علامة التبويب](add-tab.md)
+[وحدة علامة تبويب](add-tab.md)
 
 [وحدة كتلة النص](add-content-rich-block.md)

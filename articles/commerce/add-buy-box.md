@@ -3,7 +3,7 @@ title: الوحدة النمطية لمربع شراء
 description: يتناول هذا الموضوع وحدات مربع الشراء ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761287"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817075"
 ---
 # <a name="buy-box-module"></a>الوحدة النمطية لمربع شراء
 
@@ -75,9 +75,12 @@ ms.locfileid: "3761287"
 - **المخزون** – لمزيد من المعلومات حول كيفيه تطبيق إعدادات المخزون، راجع  [تطبيق إعدادات المخزون](inventory-settings.md).
 - **إضافة إلى عربة التسويق** - تستخدم هذه الخاصية لتحديد السلوك بعد إضافة صنف إلى عربة التسوق. القيم المحتملة هي **الانتقال إلى عربة التسوق** و**الانتقال إلى عربة التسوق** و**إظهار الإعلامات**. عند تعيين القيمة إلى **الانتقال إلى عربة التسوق**، يتم إرسال المستخدمين إلى صفحة عربة التسوق بعد إضافة صنف. عند تعيين القيمة إلى **عدم الانتقال إلى عربة التسوق**، لا يتم إرسال المستخدمين إلى صفحة عربة التسوق بعد إضافة صنف. عند تعيين القيمة إلى **إظهار الاعلامات**، يظهر إعلام تأكيد للمستخدمين ويمكنهم متابعة الاستعراض في صفحة تفاصيل المنتج. 
 
-    تعرض الصورة التالية مثالاً لإعلام التأكيد "تمت الإضافة إلى عربة التسوق" في موقع شركه Fabrikam.
+> [!IMPORTANT]
+> تتوفر إعدادات **إضافة إلى سلة التسوق** في Dynamics 365 Commerce الإصدار 10.0.11. إذا كنت تقوم بالتحديث من إصدار قديم من Dynamics 365 Commerce، فيجب عليك تحديث ملف appsettings.json يدويًا. للحصول على تعليمات حول تحديث ملف appsettings.json، راجع [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
-    ![مثال عن وحدة نمطية للإعلام](./media/ecommerce-addtocart-notifications.PNG)
+تعرض الصورة التالية مثالاً لإعلام التأكيد "تمت الإضافة إلى عربة التسوق" في موقع شركه Fabrikam.
+
+![مثال عن وحدة نمطية للإعلام](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>تفاعل Commerce Scale Unit
 
@@ -111,11 +114,11 @@ ms.locfileid: "3761287"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [الوحدة النمطية لمحدد المتجر](store-selector.md)
 
-[وحدة معرض الوسائط](media-gallery-module.md)
+[الوحدة النمطية لمعرض الوسائط](media-gallery-module.md)
 
 [وحدة الحاوية](add-container-module.md)
 
@@ -132,3 +135,5 @@ ms.locfileid: "3761287"
 [الوحدة النمطية للمشاركة الاجتماعية](social-share-module.md)
 
 [حساب توفر المخزون لقنوات البيع بالتجزئة](calculated-inventory-retail-channels.md)
+
+[تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md)

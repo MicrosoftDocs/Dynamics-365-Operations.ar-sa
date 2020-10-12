@@ -3,7 +3,7 @@ title: تحديد سمة الموقع
 description: يصف هذا الموضوع كيفية تعيين أو تغيير سمة خاصة بموقعك في Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002741"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817696"
 ---
 # <a name="select-a-site-theme"></a>تحديد سمة الموقع
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ ms.locfileid: "3002741"
 
 يتم تحديد تخطيط الموقع ونمطه (على سبيل المثال، الخطوط والأحجام والألوان) بواسطة السمة التي تحددها ويتم تطبيقها على الموقع. يتم إنشاء السمة ونشرها من قبل مطور يعمل في شركتك. للحصول على نظرة عامة حول السمات، راجع [نظرة عامة حول السمات](http://). لمزيد من المعلومات حول كيفية إنشاء السمات ونشرها، راجع [إنشاء سمة جديدة](http://).
 
-بشكل افتراضي، عندما تقوم بإنشاء موقع للمرة الأولى، فإنه يستخدم سمة تُسمى **Fabrikam**. يتم توفير هذه السمة الافتراضية كجزء من أدوات البداية. بعد قيامك بتوزيع سمات إضافية للموقع الخاص بك، فإنه يمكنك تكوين الموقع بحيث يستخدم إحدى السمتين بدلاً من ذلك.
+بشكل افتراضي، عندما تقوم بإنشاء موقع للمرة الأولى، فإنه يستخدم سمة تُسمى **Fabrikam**. يتم توفير هذا النسق الافتراضي كجزء من مكتبة الوحدات النمطية في Commerce. بعد قيامك بتوزيع سمات إضافية للموقع الخاص بك، فإنه يمكنك تكوين الموقع بحيث يستخدم إحدى السمتين بدلاً من ذلك.
 
 ## <a name="select-the-site-theme"></a>تحديد سمة الموقع
 

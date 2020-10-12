@@ -3,7 +3,7 @@ title: الوحدات النمطية لمجموعة المنتجات
 description: يقدم هذا الموضوع نظرة عامة حول الوحدات النمطية لمجموعة المنتجات في Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464943"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817563"
 ---
 # <a name="product-collection-modules"></a>الوحدات النمطية لمجموعة المنتجات
 
@@ -42,7 +42,7 @@ ms.locfileid: "3464943"
 - قوائم تحريرية للمنتجات التي يتم تحديدها يدويًا في Dynamics 365 Commerce في صورة منتجات مرتبطة لأحد المنتجات أو قوائم المنتجات
 - القوائم الحسابية، مثل قوائم المنتجات الجديدة أو الأكثر مبيعًا أو المتداولة
 - قوائم التوصيات التي تستند إلى التعلم الآلي
-- قوائم التخصيص التي تدعم النتائج المخصصة للعميل. يجب على العملاء تسجيل الدخول إلى موقع التجارة الإكترونية للاطلاع على النتائج المخصصة. لا يرى المستخدمون الضيوف النتائج المخصصة. يمكن للعملاء تعطيل التخصيص من [صفحة إدارة الحساب](account-management.md).
+- قوائم التخصيص التي تدعم النتائج المخصصة للعميل. يجب على العملاء تسجيل الدخول إلى موقع التجارة الإلكترونية للاطلاع على النتائج المخصصة. لا يرى المستخدمون الضيوف النتائج المخصصة. يمكن للعملاء تعطيل التخصيص من [صفحة إدارة الحساب](account-management.md).
 
 يبين الرسم التوضيحي التالي أنواعاً مختلفة من مجموعات المنتجات التي يتم استخدامها في موقع التجارة الإلكترونية.
 
@@ -98,9 +98,9 @@ ms.locfileid: "3464943"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول أدوات البداية](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
-[وحدة نمطية دوارة](add-carousel.md)
+[وحدة دوارة](add-carousel.md)
 
 [وحدة نمطية لكتلة منسقة للمحتوى](add-content-rich-block.md)
 

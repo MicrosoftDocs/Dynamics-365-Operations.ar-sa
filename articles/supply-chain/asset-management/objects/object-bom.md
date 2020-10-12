@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetStandardSparePartsItemGroup, EntAssetObjectBOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32bb95445a31c1de949c6aa1821bf84d42198acb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f42646ae865cd530203c997fd10c8ccd59e7fa2b
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214786"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3890047"
 ---
 # <a name="asset-boms"></a>BOM الأصل
 
@@ -67,7 +67,7 @@ ms.locfileid: "3214786"
 
 2. حدد **تحديث BOM الأصل**. يمكنك إضافة الأصول وأنواع الأصول والموارد إلى التحديث كما هو مطلوب من خلال تحديد **تحديد**. حدد **موافق** لبدء التحديث. يمكنك أيضًا إعداد وظيفة التحديث كوظيفة دفعية.
 3. إذا كنت ترغب في عرض مزيد من المعلومات المرتبطة بالأصناف، فيمكنك إضافة أبعاد المخزون. حدد **المخزون** \> **عرض الأبعاد‬**، ثم حدد خانات الاختيار للمتغيرات التي تريد استخدامها. للاحتفاظ بهذا الإعداد لجميع الأصول في صفحة **BOM الأصل**، عيّن الخيار **حفظ الإعداد** إلى **نعم**.
-4. للحصول علي نظرة عامة حول المكان في إدارة الأصول حيث يتم استخدام الصنف على البند المحدد، بالنسبة إلى الأصول والإعدادات الافتراضية لنوع الوظيفة وقطع الغيار وأوامر العمل، حدد **مكان استخدام الصنف**. 
+4. للحصول على نظرة عامة حول المكان في إدارة الأصول حيث يتم استخدام الصنف على البند المحدد، بالنسبة إلى الأصول والإعدادات الافتراضية لنوع الوظيفة وقطع الغيار وأوامر العمل، حدد **مكان استخدام الصنف**. 
 5. إذا أردت رؤية بنود الصنف النشطة فقط، فحدد **عرض** \> **الحالي**. لعرض كافة بنود الأصناف، بما في ذلك البنود التي لديها تاريخ انتهاء صلاحية أبكر من التاريخ الحالي، حدد **عرض** \> **الكل**.
 
 > [!NOTE]
