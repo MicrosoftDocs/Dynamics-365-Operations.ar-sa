@@ -66,10 +66,12 @@
               items:
                 - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: المزايا الجديدة أو المتغيرة في Finance
+                - name: الجديد أو المتغير في Finance
                   items:
                     - name: المزايا الجديدة أو المتغيرة‬ في صفحة Finance الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.15 (يناير 2021)
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: Finance 10.0.14 (نوفمبر 2020)
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (أكتوبر 2020)
@@ -194,6 +196,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: نقل مشروعات تنفيذ LCS إلى مستأجري Azure AD مختلفين
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: نقل مشاريع تنفيذ LCS من المواقع المحلية إلى السحابة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: مشروعات LCS وبيئات إنتاج متعددة على مستأجر Azure AD واحد
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: الحسابات الدائنة
@@ -226,6 +230,16 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: إعداد التحقق من صحة مطابقة فاتورة‬ الحسابات الدائنة
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: التنفيذ التلقائي لفاتورة المورد
+              items:
+                - name: نظرة عامة على عمليات فوترة المورد التلقائية
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: خيارات الإعداد للتنفيذ التلقائي لفاتورة المورد
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: إرسال الفواتير إلى نظام سير العمل ومطابقة بنود إيصال استلام المنتجات
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: عرض نتائج التنفيذ التلقائي لفاتورة المورد
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: مطابقة الفاتورة وأوامر الشراء المشتركة بين الشركات الشقيقة
@@ -254,11 +268,11 @@
               href: accounts-payable/vendor-posting-profiles.md
             - name: إعادة تقييم العملة الأجنبية للحسابات الدائنة والحسابات المدينة
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
-            - name: الموافقة على فاتورة المحمول
+            - name: عمليات الموافقة على فاتورة الجهاز المحمول
               href: accounts-payable/mobile-invoice-approvals.md
             - name: مساحة عمل فوترة تعاون المورد
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: التشغيل التلقائي لفاتورة المورّد
+            - name: التنفيذ التلقائي للفاتورة للمستندات الممسوحة ضوئيا
               href: accounts-payable/vendor-invoice-automation.md
             - name: إدارة عقد الوسيط
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: إعداد وإنشاء معلومات تقادم الحسابات المدينة
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: تقرير تقادم العميل
+              href: accounts-receivable/customer-aging.md
             - name: إنشاء دفتر يومية شطب لعميل
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: إدارة إشعارات متقدمة
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: إهلاك مدة خدمة القسط الثابت
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: تأجير الأصول
+          items:
+            - name: بدء تأجير الأصول
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: دفتر الأستاذ العام
           items:
             - name: نظرة عامة حول دفتر الأستاذ العام
@@ -1884,7 +1904,7 @@
                   items:
                     - name: نظرة عامة على ضريبة السلع والخدمات (GST) في الهند
                       href: localizations/apac-ind-gst.md
-                    - name: الجديد أو المتغير‬ في ترجمة ‏‫ضريبة السلع والخدمات (GST) للهند‬ وآسيا والمحيط الهادئ
+                    - name: الجديد أو المتغير‬ في ترجمة ‏‫ضريبة السلع والخدمات (GST) للهند‬
                       items:
                         - name: الجديد أو المتغير‬ في 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: الجديد أو المتغير‬ في 10.0.12
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: الجديد أو المتغير‬ في 10.0.13
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: المجموعات المرجعية لضريبة السلع والخدمات (GST) في الهند
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: تكامل ضريبة السلع والخدمات (GST) لآلات تسجيلات المدفوعات النقدية
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: حركة المخزون
                       items:
+                        - name: طلبات تحويلات الأسهم
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: أوامر تحويل المخزون التي تخضع لضريبة على سعر التحويل
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: حركة دفع العميل
@@ -2076,8 +2100,6 @@
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: الأسئلة المتداولة حول حدود الضريبة
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: تحويلات الأسهم
-                  href: localizations/apac-ind-stock-transfer.md
             - name: إيطاليا
               items:
                 - name: نظرة عامة على إيطاليا

@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: تطبيقات Finance and Operations في فرنسا
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: الحصول على الدعم لتطبيق Dynamics 365 Commerce
-              href: retail-support.md
+            - name: الحصول على الدعم
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: الترقية ودعم N-1
               items:
                 - name: الترقية ودعم N-1 لـ Commerce
@@ -92,6 +92,8 @@
                   items:
                     - name: المزايا الجديدة أو المتغيرة‬ في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.15 (يناير 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14 (نوفمبر 2020)
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (أكتوبر 2020)
@@ -274,6 +276,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: نقل مشروعات تنفيذ LCS إلى مستأجري Azure AD مختلفين
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: نقل مشاريع تنفيذ LCS من المواقع المحلية إلى السحابة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: مشروعات LCS وبيئات إنتاج متعددة على مستأجر Azure AD واحد
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: تنفيذ مشاريع Finance and Operations Commerce
@@ -706,6 +710,8 @@
                   href: customer-orders-overview.md
                 - name: أوامر العملاء المختلطة
                   href: hybrid-customer-orders.md
+                - name: إعادة استدعاء عملية الأمر في نقطة البيع
+                  href: enhancedorderrecall.md
             - name: أوامر المبيعات
               items:
                 - name: إنشاء أمر مركز اتصال
@@ -780,8 +786,6 @@
               href: statement-posting-eod.md
             - name: معالجة محسنة للأصناف المتعقبة بطريقة دُفعية
               href: batch.md
-            - name: تكوين معلمات Commerce التي تؤثر على كشوف الحساب
-              href: tasks/parameter-configurations-retail-statements.md
             - name: تكوين إعدادات طريقة الدفع التي تؤثر على كشوف حساب البيع بالتجزئة
               href: tasks/payment-configurations-retail-statements.md
             - name: تكوين وتشغيل وظيفة لحساب كشوف الحساب
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: العمل مع مجموعات النشر
                   href: publish-groups.md
+                - name: تمكين المشاركة عبر القنوات واستخدامها
+                  href: cross-channel-sharing.md
                 - name: وضع علامة تجارية لموقعك وإضافة تفاصيل المتجر
                   items:
                     - name: إضافة شعار
@@ -1048,6 +1054,24 @@
               items:
                 - name: إنشاء تقارير القناة عبر الإنترنت
                   href: generate-reports.md
+            - name: الاختبار
+              items:
+                - name: الاختبار في Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: تحديد الفرضية وتحديد المقاييس الخاصة بتجربة
+                  href: experimentation-identify.md
+                - name: إعداد تجربة
+                  href: experimentation-setup.md
+                - name: الاتصال بتجربة وتحريرها
+                  href: experimentation-connect-edit.md
+                - name: معاينه التجربة ونشرها
+                  href: experimentation-preview-publish.md
+                - name: تشغيل تجربة ومراقبتها
+                  href: experimentation-run-monitor.md
+                - name: ترقية التباين وإكمال تجربة
+                  href: experimentation-review-complete.md
+                - name: مراجعة حالة التجربة
+                  href: experimentation-status.md
             - name: معالجة الأخطاء
               items:
                 - name: إنشاء صفحات استجابة مخصصة لأخطاء رمز الحالة 4xx/5xx
@@ -1076,10 +1100,16 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: إعداد التكامل المالي لقناة Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: ملفات تعريف الشهادات المعرفة من قِبل المستخدمين لمتاجر البيع بالتجزئة
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: النمسا
               items:
                 - name: عينة تكامل خدمة التسجيل المالي للنمسا
                   href: localizations/emea-aut-fi-sample.md
+            - name: البرازيل
+              items:
+                - name: تعريب Commerce للبرازيل
+                  href: localizations/latam-bra-commerce-localization.md
             - name: أوروبا الشرقية
               items:
                 - name: عام
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: توسيع نسق من نسق أساسي
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: إضافة موارد مخصصة إلى كود التخصيص الخاص بك
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: إدخال برنامج نصي
                   items:
                     - name: مدخلات برنامج نصي
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: وكلاء Retail Typescript وC#
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: استهلاك واجهات برمجة تطبيقات Retail Server في تطبيقات خارجية
+                  href: dev-itpro/consume-retail-server-api
             - name: قابلية توسعة Commerce Runtime (CRT)
               items:
                 - name: هندسة وتكوين CRT
