@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6e5c2c3650a889040ec70abfaff013292a427eb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0e83e7008c2547ba0d9e7061772db825e69469a0
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206417"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985058"
 ---
 # <a name="view-dispatch-teams"></a>عرض فرق إرسال   
 
@@ -32,11 +32,11 @@ ms.locfileid: "3206417"
 
 يتم تجميع أوامر الخدمة الموجودة في النموذج **لوحة الإرسال** بواسطة فريق الإرسال.
 
-1.  انقر فوق **إدارة الخدمة** \> **دوري** \> **لوحة الإرسال‬**.
+1.  انقر فوق **إدارة الخدمة** \> **دوري** \> **لوحة الإرسال‬** .
 
-2.  حدد نطاق تاريخ، ثم انقر فوق **موافق**.
+2.  حدد نطاق تاريخ، ثم انقر فوق **موافق** .
 
-3.  في النموذج **لوحة الإرسال**، في مخطط Gantt في أعلى النموذج، قم بتوسيع قائمة الفريق لمراجعة أسماء العمال في الفريق. يمكنك أيضًا عرض التفاصيل حول أنشطة الخدمة التي تم تعيينها لكل عامل.
+3.  في النموذج **لوحة الإرسال** ، في مخطط Gantt في أعلى النموذج، قم بتوسيع قائمة الفريق لمراجعة أسماء العمال في الفريق. يمكنك أيضًا عرض التفاصيل حول أنشطة الخدمة التي تم تعيينها لكل عامل.
 
 للحصول على مزيد من المعلومات حول كيفية تعيين عامل في الفريق، راجع [‏‫إعداد فني مفضل‬](set-up-preferred-technician.md).
 

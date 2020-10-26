@@ -16,15 +16,15 @@ ms.custom: 223174
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7a871eef822140f028832aa1be39372f07668d79
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: fc6f655d17a83db54aa99c834980bf7666e8100d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759582"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977757"
 ---
 # <a name="allocation-bases"></a>أسس التوزيع 
 
@@ -333,7 +333,7 @@ ms.locfileid: "3759582"
 |-------------------|------------------------|-----------------------|---------|
 | الكهرباء ثابتة |                        | العناصر الإحصائية  |         |
 
-قبل ملء حقل **المعادلة**، يجب تحديد الاسم المستعار الذي يجب استخدامه في المعادلة.
+قبل ملء حقل **المعادلة** ، يجب تحديد الاسم المستعار الذي يجب استخدامه في المعادلة.
 
 **عوامل أساس توزيع المعادلة**
 
@@ -386,7 +386,7 @@ ms.locfileid: "3759582"
 |-------------------|------------------------|-----------------------|---------|
 | استخدام الكهرباء |                        | العناصر الإحصائية  |         |
 
-قبل ملء حقل **المعادلة**، يجب تحديد الاسم المستعار الذي يجب استخدامه في المعادلة.
+قبل ملء حقل **المعادلة** ، يجب تحديد الاسم المستعار الذي يجب استخدامه في المعادلة.
 
 **عوامل أساس توزيع المعادلة**
 

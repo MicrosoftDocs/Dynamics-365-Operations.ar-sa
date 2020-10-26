@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 19761
 ms.assetid: e4c6622d-1e2d-4a4d-8047-c553a25d4f87
 ms.search.region: Global
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0eb925253962df6c85e935b8d8e53d93af38c16
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e70713fb25584e26f97bcb7c769da6954aa36b81
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208560"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984791"
 ---
 # <a name="configuration-rules"></a>قواعد التكوين
 
@@ -37,7 +37,7 @@ ms.locfileid: "3208560"
 
 ولا تتأثر عمليات التكوين الحالية بالتغييرات المتتابعة على قواعد التكوين. ومع ذلك، يُعد من المهم تعيين القواعد قبل تحديد تكوين جديد، أو فحص هذه القواعد إذا كنت تعتقد أنه قد تم تغيير القواعد.  
 
-**ملاحظة:** بالنسبة إلى طريقة **التحديد**، يتم تحديد مجموعة التكوين المشتق ورقم الصنف والتكوين تلقائيًا. وفي طريقة **إلغاء التحديد** لا يمكن تحديد مجموعة التكوين المشتق ورقم الصنف بالإضافة إلى التكوين.
+**ملاحظة:** بالنسبة إلى طريقة **التحديد** ، يتم تحديد مجموعة التكوين المشتق ورقم الصنف والتكوين تلقائيًا. وفي طريقة **إلغاء التحديد** لا يمكن تحديد مجموعة التكوين المشتق ورقم الصنف بالإضافة إلى التكوين.
 
 <a name="additional-resources"></a>الموارد الإضافية
 --------

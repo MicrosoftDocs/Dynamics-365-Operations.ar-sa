@@ -15,22 +15,22 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa85bf4262216c780c3da523f65baf980fdc200f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bdc42f9c5ece8e2c2570cadf623f52648b7b174e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206555"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985757"
 ---
 # <a name="take-returned-items-through-inspection"></a>أخذ الأصناف المرتجعة عبر الفحص 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  ‏‫انقر فوق **‏‫إدارة المخزون‬** \> **دوري** \> **إدارة الجودة** \>‏‫ **أوامر إدخال مخزن الفحص**.
+1.  ‏‫انقر فوق **‏‫إدارة المخزون‬** \> **دوري** \> **إدارة الجودة** \>‏‫ **أوامر إدخال مخزن الفحص** .
 
 2.  تحديد موقع بند الأمر المطابق للصنف المرجع الجاري فحصه.
 
@@ -47,7 +47,7 @@ ms.locfileid: "3206555"
     
     –أو –
     
-    قم بإنهاء أمر الإدخال ونقل الأصناف إلى المخزن مباشرةً باستخدام أحد وظائف **المخزون**.
+    قم بإنهاء أمر الإدخال ونقل الأصناف إلى المخزن مباشرةً باستخدام أحد وظائف **المخزون** .
 
 5.  أغلق النموذج لحفظ التغييرات.
 

@@ -15,28 +15,28 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d210f5fd863a491b8f5e294f215ccdb75e25b795
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b2012f48ec6450ca4fc9e42cd7cfba0ced13ed15
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202435"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984096"
 ---
 # <a name="delete-service-orders"></a>حذف أوامر الخدمة 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  انقر فوق **إدارة الخدمة** \> **دوري** \> **أوامر الخدمات** \> **حذف أوامر الخدمات**.
+1.  انقر فوق **إدارة الخدمة** \> **دوري** \> **أوامر الخدمات** \> **حذف أوامر الخدمات** .
 
-2.  في النموذج **حذف أوامر الخدمات**، انقر فوق **تحديد** لتحديد معايير تحديد أوامر الخدمة المراد حذفها، ثم انقر فوق **موافق**.
+2.  في النموذج **حذف أوامر الخدمات** ، انقر فوق **تحديد** لتحديد معايير تحديد أوامر الخدمة المراد حذفها، ثم انقر فوق **موافق** .
 
 3.  حدد خانة الاختيار **إظهار سجل المعلومات** لإنشاء سجل معلومات يعرض أوامر الخدمة المحذوفة.
 
-4.  وانقر فوق **موافق**.
+4.  وانقر فوق **موافق** .
 
 
 > [!NOTE]
