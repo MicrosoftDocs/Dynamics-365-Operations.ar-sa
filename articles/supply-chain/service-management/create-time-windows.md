@@ -15,28 +15,28 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 466d9f3559f723b5502c6befbf2f8a195aea85a6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 37a16eed6c5a73eb8166ac5ea2469860424aaafd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202527"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981736"
 ---
-# <a name="create-time-windows"></a><span data-ttu-id="188db-103">إنشاء الإطارات الزمنية</span><span class="sxs-lookup"><span data-stu-id="188db-103">Create time windows</span></span>   
+# <a name="create-time-windows"></a><span data-ttu-id="24358-103">إنشاء الإطارات الزمنية</span><span class="sxs-lookup"><span data-stu-id="24358-103">Create time windows</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="188db-104">يمكنك استخدام الإطارات الزمنية لتحسين جدولة بنود أمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="188db-104">You can use time windows to optimize the scheduling of service order lines.</span></span>
+<span data-ttu-id="24358-104">يمكنك استخدام الإطارات الزمنية لتحسين جدولة بنود أمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="24358-104">You can use time windows to optimize the scheduling of service order lines.</span></span>
 
-1. <span data-ttu-id="188db-105">انقر فوق **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **الإطار الزمني**.</span><span class="sxs-lookup"><span data-stu-id="188db-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Time window**.</span></span>
-2. <span data-ttu-id="188db-106">اضغط على **Alt+N** لإنشاء إطار زمني جديد.</span><span class="sxs-lookup"><span data-stu-id="188db-106">Press **Alt+N** to create a new time window.</span></span>
-3. <span data-ttu-id="188db-107">في حقل **الإطار الزمني**، أدخل اسمًا للإطار الزمني.</span><span class="sxs-lookup"><span data-stu-id="188db-107">In the **Time window** field, enter a name for the time window.</span></span>
-4. <span data-ttu-id="188db-108">في حقل **الوصف**، أدخل وصفًا للإطار الزمني.</span><span class="sxs-lookup"><span data-stu-id="188db-108">In the **Description** field, enter a description for the time window.</span></span>
-5. <span data-ttu-id="188db-109">في حقل **الأسلوب**، حدد أسلوب الإنشاء التلقائي.</span><span class="sxs-lookup"><span data-stu-id="188db-109">In the **Method** field, select the method to be autocreated.</span></span> <span data-ttu-id="188db-110">إذا كان الأسلوب من النوع **يدوي**، فحدد عدد الأيام التي تقع قبل التاريخ المحسوب أو بعده الذي يمكن أن ينتقل إليه بند أمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="188db-110">If the method is of the **Manual** type, specify the number of days before or after the calculated date that the service order line can be moved.</span></span>
+1. <span data-ttu-id="24358-105">انقر فوق **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **الإطار الزمني** .</span><span class="sxs-lookup"><span data-stu-id="24358-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Time window** .</span></span>
+2. <span data-ttu-id="24358-106">اضغط على **Alt+N** لإنشاء إطار زمني جديد.</span><span class="sxs-lookup"><span data-stu-id="24358-106">Press **Alt+N** to create a new time window.</span></span>
+3. <span data-ttu-id="24358-107">في حقل **الإطار الزمني** ، أدخل اسمًا للإطار الزمني.</span><span class="sxs-lookup"><span data-stu-id="24358-107">In the **Time window** field, enter a name for the time window.</span></span>
+4. <span data-ttu-id="24358-108">في حقل **الوصف** ، أدخل وصفًا للإطار الزمني.</span><span class="sxs-lookup"><span data-stu-id="24358-108">In the **Description** field, enter a description for the time window.</span></span>
+5. <span data-ttu-id="24358-109">في حقل **الأسلوب** ، حدد أسلوب الإنشاء التلقائي.</span><span class="sxs-lookup"><span data-stu-id="24358-109">In the **Method** field, select the method to be autocreated.</span></span> <span data-ttu-id="24358-110">إذا كان الأسلوب من النوع **يدوي** ، فحدد عدد الأيام التي تقع قبل التاريخ المحسوب أو بعده الذي يمكن أن ينتقل إليه بند أمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="24358-110">If the method is of the **Manual** type, specify the number of days before or after the calculated date that the service order line can be moved.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="188db-111">مواضيع مرتبطة</span><span class="sxs-lookup"><span data-stu-id="188db-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="24358-111">مواضيع مرتبطة</span><span class="sxs-lookup"><span data-stu-id="24358-111">Related topics</span></span>
 
-[<span data-ttu-id="188db-112">إطارات الوقت</span><span class="sxs-lookup"><span data-stu-id="188db-112">Time windows</span></span>](time-windows.md)
+[<span data-ttu-id="24358-112">إطارات الوقت</span><span class="sxs-lookup"><span data-stu-id="24358-112">Time windows</span></span>](time-windows.md)

@@ -16,29 +16,29 @@ ms.custom: 2534
 ms.assetid: a5b64301-a011-4469-afaf-e4c9164ef9c6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efc980e3a3dfff6d163812396613a1493f4428a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 766c857cca603f84bb7fcef2c7eea3bc76620c19
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213781"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976882"
 ---
-# <a name="determine-the-bom-version"></a><span data-ttu-id="8a890-103">تحديد إصدار قائمة مكونات الصنف</span><span class="sxs-lookup"><span data-stu-id="8a890-103">Determine the BOM version</span></span>
+# <a name="determine-the-bom-version"></a><span data-ttu-id="2cc3e-103">تحديد إصدار قائمة مكونات الصنف</span><span class="sxs-lookup"><span data-stu-id="2cc3e-103">Determine the BOM version</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8a890-104">أثناء تحديد إجمالي المكونات المطلوبة للطلب، إذا تم تعيين نوع الأمر الافتراضي لصنف على الإنتاج، فإن محرك التخطيط يقوم بإيجاد إصدار قائمة مكونات صنف صالح يستند إلى الموقع.</span><span class="sxs-lookup"><span data-stu-id="8a890-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
+<span data-ttu-id="2cc3e-104">أثناء تحديد إجمالي المكونات المطلوبة للطلب، إذا تم تعيين نوع الأمر الافتراضي لصنف على الإنتاج، فإن محرك التخطيط يقوم بإيجاد إصدار قائمة مكونات صنف صالح يستند إلى الموقع.</span><span class="sxs-lookup"><span data-stu-id="2cc3e-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
 
-<span data-ttu-id="8a890-105">يكون بُعد الموقع معروفًا دائمًا ويتم تحديده في حركة الطلب.</span><span class="sxs-lookup"><span data-stu-id="8a890-105">The site dimension is always known and is stated on the demand transaction.</span></span> <span data-ttu-id="8a890-106">ويتم استخدام العملية التالية تحديد إصدار قائمة مكونات الصنف المراد استخدامه:</span><span class="sxs-lookup"><span data-stu-id="8a890-106">The following process is used to determine the BOM version to use:</span></span>
+<span data-ttu-id="2cc3e-105">يكون بُعد الموقع معروفًا دائمًا ويتم تحديده في حركة الطلب.</span><span class="sxs-lookup"><span data-stu-id="2cc3e-105">The site dimension is always known and is stated on the demand transaction.</span></span> <span data-ttu-id="2cc3e-106">ويتم استخدام العملية التالية تحديد إصدار قائمة مكونات الصنف المراد استخدامه:</span><span class="sxs-lookup"><span data-stu-id="2cc3e-106">The following process is used to determine the BOM version to use:</span></span>
 
--   <span data-ttu-id="8a890-107">إذا تم تحديد إصدار قائمة مكونات الصنف للصنف في موقع الطلب، فإنه يتم استخدام قائمة مكونات الصنف الخاصة بالموقع.</span><span class="sxs-lookup"><span data-stu-id="8a890-107">If there is a BOM version defined for the item at the demand site, the site-specific BOM is used.</span></span>
--   <span data-ttu-id="8a890-108">وإذا لم يتم تحديد أي إصدار لقائمة مكونات الصنف الخاصة بالموقع لأي صنف في موقع الطلب، فإنه يتم استخدام قائمة مكونات صنف عامة.</span><span class="sxs-lookup"><span data-stu-id="8a890-108">If there is no site-specific BOM version defined for an item at the demand site, a general BOM is used.</span></span> <span data-ttu-id="8a890-109">لا تحدد شجرة المواد العامة موقعًا، وهي صالحة للعديد من المواقع.</span><span class="sxs-lookup"><span data-stu-id="8a890-109">A general BOM does not state a site, and it is valid for multiple sites.</span></span> <span data-ttu-id="8a890-110">وإذا كانت هناك قائمة مكونات صنف عامة، فإنه يتم استخدامها.</span><span class="sxs-lookup"><span data-stu-id="8a890-110">If there is a general BOM, it is used.</span></span>
--   <span data-ttu-id="8a890-111">في حالة عدم وجود إصدار شجرة مواد عامة لاستخدامها، فإن تحديد إجمالي المكونات المطلوبة للطلب يتوقف عند هذه النقطة.</span><span class="sxs-lookup"><span data-stu-id="8a890-111">If there is no general BOM version to use, the demand explosion stops at this point.</span></span>
+-   <span data-ttu-id="2cc3e-107">إذا تم تحديد إصدار قائمة مكونات الصنف للصنف في موقع الطلب، فإنه يتم استخدام قائمة مكونات الصنف الخاصة بالموقع.</span><span class="sxs-lookup"><span data-stu-id="2cc3e-107">If there is a BOM version defined for the item at the demand site, the site-specific BOM is used.</span></span>
+-   <span data-ttu-id="2cc3e-108">وإذا لم يتم تحديد أي إصدار لقائمة مكونات الصنف الخاصة بالموقع لأي صنف في موقع الطلب، فإنه يتم استخدام قائمة مكونات صنف عامة.</span><span class="sxs-lookup"><span data-stu-id="2cc3e-108">If there is no site-specific BOM version defined for an item at the demand site, a general BOM is used.</span></span> <span data-ttu-id="2cc3e-109">لا تحدد شجرة المواد العامة موقعًا، وهي صالحة للعديد من المواقع.</span><span class="sxs-lookup"><span data-stu-id="2cc3e-109">A general BOM does not state a site, and it is valid for multiple sites.</span></span> <span data-ttu-id="2cc3e-110">وإذا كانت هناك قائمة مكونات صنف عامة، فإنه يتم استخدامها.</span><span class="sxs-lookup"><span data-stu-id="2cc3e-110">If there is a general BOM, it is used.</span></span>
+-   <span data-ttu-id="2cc3e-111">في حالة عدم وجود إصدار شجرة مواد عامة لاستخدامها، فإن تحديد إجمالي المكونات المطلوبة للطلب يتوقف عند هذه النقطة.</span><span class="sxs-lookup"><span data-stu-id="2cc3e-111">If there is no general BOM version to use, the demand explosion stops at this point.</span></span>
 
-<span data-ttu-id="8a890-112">يجب أن يتوافق إصدار شجرة المواد الصالح مع المعايير المطلوبة للتاريخ والكمية، سواءً كان لموقع بعينه أو عامًا.</span><span class="sxs-lookup"><span data-stu-id="8a890-112">A valid BOM version, whether site-specific or general, must meet the required criteria for date and quantity.</span></span>
+<span data-ttu-id="2cc3e-112">يجب أن يتوافق إصدار شجرة المواد الصالح مع المعايير المطلوبة للتاريخ والكمية، سواءً كان لموقع بعينه أو عامًا.</span><span class="sxs-lookup"><span data-stu-id="2cc3e-112">A valid BOM version, whether site-specific or general, must meet the required criteria for date and quantity.</span></span>
 
 
 

@@ -13,49 +13,49 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11e1edc435cac100bfef15299251c1863103b568
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: ca05f6174541a6e97ec94db209a99424a87550eb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759198"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976273"
 ---
-# <a name="configure-cost-control-workspace-parameters"></a><span data-ttu-id="b6f11-103">تكوين معلمات مساحة عمل مراقبة التكلفة</span><span class="sxs-lookup"><span data-stu-id="b6f11-103">Configure cost control workspace parameters</span></span>
+# <a name="configure-cost-control-workspace-parameters"></a><span data-ttu-id="44318-103">تكوين معلمات مساحة عمل مراقبة التكلفة</span><span class="sxs-lookup"><span data-stu-id="44318-103">Configure cost control workspace parameters</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="b6f11-104">استخدم هذا الإجراء لتكوين مساحة عمل التحكم في التكلفة لتمكين المدراء من مستويات مختلفة في المؤسسة من الحصول على نظرة أعمق على كائنات التكلفة، مثل مراكز التكلفة ومجموعات المنتجات.</span><span class="sxs-lookup"><span data-stu-id="b6f11-104">Use this procedure to configure the Cost control workspace so that managers at various levels in an organization can gain insight into their cost objects, such as cost centers and product groups.</span></span> <span data-ttu-id="b6f11-105">تم استخدام شركة العرض التوضيحي USP2 لإنشاء هذا التسجيل.</span><span class="sxs-lookup"><span data-stu-id="b6f11-105">The USP2 demo company was used to create this recording.</span></span>
+<span data-ttu-id="44318-104">استخدم هذا الإجراء لتكوين مساحة عمل التحكم في التكلفة لتمكين المدراء من مستويات مختلفة في المؤسسة من الحصول على نظرة أعمق على كائنات التكلفة، مثل مراكز التكلفة ومجموعات المنتجات.</span><span class="sxs-lookup"><span data-stu-id="44318-104">Use this procedure to configure the Cost control workspace so that managers at various levels in an organization can gain insight into their cost objects, such as cost centers and product groups.</span></span> <span data-ttu-id="44318-105">تم استخدام شركة العرض التوضيحي USP2 لإنشاء هذا التسجيل.</span><span class="sxs-lookup"><span data-stu-id="44318-105">The USP2 demo company was used to create this recording.</span></span>
 
-1. <span data-ttu-id="b6f11-106">انتقل إلى محاسبة التكاليف > الإعداد > تكوين مساحة عمل مراقبة التكلفة.</span><span class="sxs-lookup"><span data-stu-id="b6f11-106">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
-2. <span data-ttu-id="b6f11-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="b6f11-107">Click New.</span></span>
-3. <span data-ttu-id="b6f11-108">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="b6f11-108">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="b6f11-109">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="b6f11-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="b6f11-110">حدد "نعم" في الحقل "منشور".</span><span class="sxs-lookup"><span data-stu-id="b6f11-110">Select Yes in the Published field.</span></span>
-    * <span data-ttu-id="b6f11-111">إذا قمت بتعيين هذا الخيار إلى "نعم"، سيتمكن المستخدمون الذين تم تعيين أحد هذه الأدوار لهم من مشاهدة التقرير في مساحة عمل التحكم في التكلفة: مدير محاسبة التكاليف أو محاسب التكاليف أو موظف محاسبة التكاليف أو مراقب كائن التكلفة‬.</span><span class="sxs-lookup"><span data-stu-id="b6f11-111">If you set this option to Yes, users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, or cost object controller.</span></span> <span data-ttu-id="b6f11-112">إذا قمت بتعيين هذا الخيار إلى "لا"، فلن يتمكن من مشاهدة التقرير في مساحة عمل التحكم في التكلفة‬ سوى الموظفين الذين تم تعيين أحد هذه الأدوار لهم‬: مدير محاسبة التكاليف أو محاسب التكاليف أو موظف محاسبة التكاليف أو مراقب كائن التكلفة‬.</span><span class="sxs-lookup"><span data-stu-id="b6f11-112">If you set this option to No, only users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, or cost accountant clerk.</span></span>  
-6. <span data-ttu-id="b6f11-113">قم بتوسيع مقطع "تصفية البيانات‬".</span><span class="sxs-lookup"><span data-stu-id="b6f11-113">Expand the Data filtering section.</span></span>
-7. <span data-ttu-id="b6f11-114">في الحقل "وحدة التحكم بالتكاليف‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="b6f11-114">In the Cost control unit field, enter or select a value.</span></span>
-8. <span data-ttu-id="b6f11-115">في حقل "الإصدار الأصلي للموازنة‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="b6f11-115">In the Budget original version field, enter or select a value.</span></span>
-9. <span data-ttu-id="b6f11-116">في الحقل "تدرج بُعد عنصر التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="b6f11-116">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-10. <span data-ttu-id="b6f11-117">في الحقل "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="b6f11-117">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-11. <span data-ttu-id="b6f11-118">قم بتوسيع المقطع "تعيين سجلات الحساب".</span><span class="sxs-lookup"><span data-stu-id="b6f11-118">Expand the Assign calculation records section.</span></span>
-12. <span data-ttu-id="b6f11-119">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="b6f11-119">Click New.</span></span>
-13. <span data-ttu-id="b6f11-120">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b6f11-120">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="b6f11-121">في حقل "فترة التقويم المالي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="b6f11-121">In the Fiscal calendar period field, enter or select a value.</span></span>
-15. <span data-ttu-id="b6f11-122">في حقل "الإصدار الفعلي‬"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="b6f11-122">In the Actual version field, enter or select a value.</span></span>
-16. <span data-ttu-id="b6f11-123">قم بتوسيع المقطع "الفترات المالية لكل عمود‬".</span><span class="sxs-lookup"><span data-stu-id="b6f11-123">Expand the Fiscal periods per column section.</span></span>
-17. <span data-ttu-id="b6f11-124">حدد "نعم" في حقل "الفترة الحالية‬‬".</span><span class="sxs-lookup"><span data-stu-id="b6f11-124">Select Yes in the Current period field.</span></span>
-18. <span data-ttu-id="b6f11-125">قم بتوسيع المقطع "الأعمدة المراد عرضها للتكاليف".</span><span class="sxs-lookup"><span data-stu-id="b6f11-125">Expand the Columns to display for costs section.</span></span>
-19. <span data-ttu-id="b6f11-126">حدد "نعم" في حقل "التكلفة الثابتة".</span><span class="sxs-lookup"><span data-stu-id="b6f11-126">Select Yes in the Fixed cost field.</span></span>
-20. <span data-ttu-id="b6f11-127">حدد "نعم" في حقل "التكلفة المتغيرة".</span><span class="sxs-lookup"><span data-stu-id="b6f11-127">Select Yes in the Variable cost field.</span></span>
-21. <span data-ttu-id="b6f11-128">حدد "نعم" في حقل "إجمالي التكلفة".</span><span class="sxs-lookup"><span data-stu-id="b6f11-128">Select Yes in the Total cost field.</span></span>
-22. <span data-ttu-id="b6f11-129">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="b6f11-129">Click Save.</span></span>
-23. <span data-ttu-id="b6f11-130">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="b6f11-130">Close the page.</span></span>
-24. <span data-ttu-id="b6f11-131">انتقل إلى محاسبة التكاليف > مساحات العمل > مراقبة التكاليف‬.</span><span class="sxs-lookup"><span data-stu-id="b6f11-131">Go to Cost accounting > Workspaces > Cost control.</span></span>
-25. <span data-ttu-id="b6f11-132">حدد كشف حساب لمعرفة التكاليف الثابتة والمتغيرة والإجمالية وغير المصنف للفترات المالية المحددة.</span><span class="sxs-lookup"><span data-stu-id="b6f11-132">Select a statement to see fixed, variable, total, and unclassified costs for the selected fiscal periods.</span></span>
-26. <span data-ttu-id="b6f11-133">في حقل "فترة التقويم المالي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="b6f11-133">In the Fiscal calendar period field, enter or select a value.</span></span>
-27. <span data-ttu-id="b6f11-134">في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="b6f11-134">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="b6f11-135">بعد تحديد التدرج الهرمي لبعد كائن تكلفة، قم بتوسيع التدرج الهرمي لبعد عنصر التكلفة لعرض قيم التكلفة المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="b6f11-135">After you've selected a Cost object dimension hierarchy, expand the Cost element dimension hierarchy to see the desired cost values.</span></span> <span data-ttu-id="b6f11-136">على سبيل المثال، يمكنك توسيع التدرج الهرمي إلى تكاليف التصنيع لرؤية القيمة.</span><span class="sxs-lookup"><span data-stu-id="b6f11-136">For example, you can expand the hierarchy to Manufacturing overhead to see the value.</span></span>  
+1. <span data-ttu-id="44318-106">انتقل إلى محاسبة التكاليف > الإعداد > تكوين مساحة عمل مراقبة التكلفة.</span><span class="sxs-lookup"><span data-stu-id="44318-106">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+2. <span data-ttu-id="44318-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="44318-107">Click New.</span></span>
+3. <span data-ttu-id="44318-108">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="44318-108">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="44318-109">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="44318-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="44318-110">حدد "نعم" في الحقل "منشور".</span><span class="sxs-lookup"><span data-stu-id="44318-110">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="44318-111">إذا قمت بتعيين هذا الخيار إلى "نعم"، سيتمكن المستخدمون الذين تم تعيين أحد هذه الأدوار لهم من مشاهدة التقرير في مساحة عمل التحكم في التكلفة: مدير محاسبة التكاليف أو محاسب التكاليف أو موظف محاسبة التكاليف أو مراقب كائن التكلفة‬.</span><span class="sxs-lookup"><span data-stu-id="44318-111">If you set this option to Yes, users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, or cost object controller.</span></span> <span data-ttu-id="44318-112">إذا قمت بتعيين هذا الخيار إلى "لا"، فلن يتمكن من مشاهدة التقرير في مساحة عمل التحكم في التكلفة‬ سوى الموظفين الذين تم تعيين أحد هذه الأدوار لهم‬: مدير محاسبة التكاليف أو محاسب التكاليف أو موظف محاسبة التكاليف أو مراقب كائن التكلفة‬.</span><span class="sxs-lookup"><span data-stu-id="44318-112">If you set this option to No, only users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, or cost accountant clerk.</span></span>  
+6. <span data-ttu-id="44318-113">قم بتوسيع مقطع "تصفية البيانات‬".</span><span class="sxs-lookup"><span data-stu-id="44318-113">Expand the Data filtering section.</span></span>
+7. <span data-ttu-id="44318-114">في الحقل "وحدة التحكم بالتكاليف‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="44318-114">In the Cost control unit field, enter or select a value.</span></span>
+8. <span data-ttu-id="44318-115">في حقل "الإصدار الأصلي للموازنة‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="44318-115">In the Budget original version field, enter or select a value.</span></span>
+9. <span data-ttu-id="44318-116">في الحقل "تدرج بُعد عنصر التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="44318-116">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+10. <span data-ttu-id="44318-117">في الحقل "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="44318-117">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+11. <span data-ttu-id="44318-118">قم بتوسيع المقطع "تعيين سجلات الحساب".</span><span class="sxs-lookup"><span data-stu-id="44318-118">Expand the Assign calculation records section.</span></span>
+12. <span data-ttu-id="44318-119">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="44318-119">Click New.</span></span>
+13. <span data-ttu-id="44318-120">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="44318-120">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="44318-121">في حقل "فترة التقويم المالي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="44318-121">In the Fiscal calendar period field, enter or select a value.</span></span>
+15. <span data-ttu-id="44318-122">في حقل "الإصدار الفعلي‬"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="44318-122">In the Actual version field, enter or select a value.</span></span>
+16. <span data-ttu-id="44318-123">قم بتوسيع المقطع "الفترات المالية لكل عمود‬".</span><span class="sxs-lookup"><span data-stu-id="44318-123">Expand the Fiscal periods per column section.</span></span>
+17. <span data-ttu-id="44318-124">حدد "نعم" في حقل "الفترة الحالية‬‬".</span><span class="sxs-lookup"><span data-stu-id="44318-124">Select Yes in the Current period field.</span></span>
+18. <span data-ttu-id="44318-125">قم بتوسيع المقطع "الأعمدة المراد عرضها للتكاليف".</span><span class="sxs-lookup"><span data-stu-id="44318-125">Expand the Columns to display for costs section.</span></span>
+19. <span data-ttu-id="44318-126">حدد "نعم" في حقل "التكلفة الثابتة".</span><span class="sxs-lookup"><span data-stu-id="44318-126">Select Yes in the Fixed cost field.</span></span>
+20. <span data-ttu-id="44318-127">حدد "نعم" في حقل "التكلفة المتغيرة".</span><span class="sxs-lookup"><span data-stu-id="44318-127">Select Yes in the Variable cost field.</span></span>
+21. <span data-ttu-id="44318-128">حدد "نعم" في حقل "إجمالي التكلفة".</span><span class="sxs-lookup"><span data-stu-id="44318-128">Select Yes in the Total cost field.</span></span>
+22. <span data-ttu-id="44318-129">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="44318-129">Click Save.</span></span>
+23. <span data-ttu-id="44318-130">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="44318-130">Close the page.</span></span>
+24. <span data-ttu-id="44318-131">انتقل إلى محاسبة التكاليف > مساحات العمل > مراقبة التكاليف‬.</span><span class="sxs-lookup"><span data-stu-id="44318-131">Go to Cost accounting > Workspaces > Cost control.</span></span>
+25. <span data-ttu-id="44318-132">حدد كشف حساب لمعرفة التكاليف الثابتة والمتغيرة والإجمالية وغير المصنف للفترات المالية المحددة.</span><span class="sxs-lookup"><span data-stu-id="44318-132">Select a statement to see fixed, variable, total, and unclassified costs for the selected fiscal periods.</span></span>
+26. <span data-ttu-id="44318-133">في حقل "فترة التقويم المالي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="44318-133">In the Fiscal calendar period field, enter or select a value.</span></span>
+27. <span data-ttu-id="44318-134">في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="44318-134">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="44318-135">بعد تحديد التدرج الهرمي لبعد كائن تكلفة، قم بتوسيع التدرج الهرمي لبعد عنصر التكلفة لعرض قيم التكلفة المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="44318-135">After you've selected a Cost object dimension hierarchy, expand the Cost element dimension hierarchy to see the desired cost values.</span></span> <span data-ttu-id="44318-136">على سبيل المثال، يمكنك توسيع التدرج الهرمي إلى تكاليف التصنيع لرؤية القيمة.</span><span class="sxs-lookup"><span data-stu-id="44318-136">For example, you can expand the hierarchy to Manufacturing overhead to see the value.</span></span>  
 

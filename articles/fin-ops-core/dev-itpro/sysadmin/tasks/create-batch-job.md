@@ -13,45 +13,45 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: maertenm
+ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6eee5c6dd7daf2b0c79dd34d15a7dde919bdd60
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4903724adc9deaa40b6cd04c215273dd4b0522d4
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143663"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982516"
 ---
-# <a name="create-a-batch-job"></a><span data-ttu-id="54a67-103">إنشاء مهمة مجموعة</span><span class="sxs-lookup"><span data-stu-id="54a67-103">Create a batch job</span></span>
+# <a name="create-a-batch-job"></a><span data-ttu-id="e1d1d-103">إنشاء مهمة مجموعة</span><span class="sxs-lookup"><span data-stu-id="e1d1d-103">Create a batch job</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="54a67-104">إن الوظيفة الدفعية عبارة عن مجموعة من المهام التي يتم إرسالها إلى مثيل خادم كائنات التطبيق‬ (AOS) للمعالجة التلقائية.</span><span class="sxs-lookup"><span data-stu-id="54a67-104">A batch job is a group of tasks that are submitted to an Application Object Server (AOS) instance for automatic processing.</span></span> <span data-ttu-id="54a67-105">ويتم تشغيل الوظائف الدفعية باستخدام بيانات اعتماد الأمان للمستخدم الذي قام بإنشاء الوظيفة.</span><span class="sxs-lookup"><span data-stu-id="54a67-105">Batch jobs are run by using the security credentials of the user who created the job.</span></span> <span data-ttu-id="54a67-106">استخدم الإجراء التالي لإنشاء وظيفة دفعية.</span><span class="sxs-lookup"><span data-stu-id="54a67-106">Use the following procedure to create a batch job.</span></span> <span data-ttu-id="54a67-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="54a67-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="e1d1d-104">إن الوظيفة الدفعية عبارة عن مجموعة من المهام التي يتم إرسالها إلى مثيل خادم كائنات التطبيق‬ (AOS) للمعالجة التلقائية.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-104">A batch job is a group of tasks that are submitted to an Application Object Server (AOS) instance for automatic processing.</span></span> <span data-ttu-id="e1d1d-105">ويتم تشغيل الوظائف الدفعية باستخدام بيانات اعتماد الأمان للمستخدم الذي قام بإنشاء الوظيفة.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-105">Batch jobs are run by using the security credentials of the user who created the job.</span></span> <span data-ttu-id="e1d1d-106">استخدم الإجراء التالي لإنشاء وظيفة دفعية.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-106">Use the following procedure to create a batch job.</span></span> <span data-ttu-id="e1d1d-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-the-batch-job"></a><span data-ttu-id="54a67-108">إنشاء الوظيفة الدفعية</span><span class="sxs-lookup"><span data-stu-id="54a67-108">Create the batch job</span></span>
-1. <span data-ttu-id="54a67-109">انتقل إلى **جزء التنقل > الوحدات > إدارة النظام > الاستعلامات > الوظائف الدفعية**.</span><span class="sxs-lookup"><span data-stu-id="54a67-109">Go to **Navigation pane > Modules > System administration > Inquiries > Batch jobs**.</span></span>
-2. <span data-ttu-id="54a67-110">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="54a67-110">Click **New**.</span></span>
-3. <span data-ttu-id="54a67-111">في حقل **وصف الوظيفة**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="54a67-111">In the **Job description** field, type a value.</span></span>
-4. <span data-ttu-id="54a67-112">في حقل **تاريخ/وقت البدء المجدول‬**، أدخل الوقت والتاريخ.</span><span class="sxs-lookup"><span data-stu-id="54a67-112">In the **Scheduled start date/time** field, enter a date and time.</span></span>
-5. <span data-ttu-id="54a67-113">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="54a67-113">Click **Save**.</span></span>
+## <a name="create-the-batch-job"></a><span data-ttu-id="e1d1d-108">إنشاء الوظيفة الدفعية</span><span class="sxs-lookup"><span data-stu-id="e1d1d-108">Create the batch job</span></span>
+1. <span data-ttu-id="e1d1d-109">انتقل إلى **جزء التنقل > الوحدات > إدارة النظام > الاستعلامات > الوظائف الدفعية** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-109">Go to **Navigation pane > Modules > System administration > Inquiries > Batch jobs** .</span></span>
+2. <span data-ttu-id="e1d1d-110">انقر فوق **جديد** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-110">Click **New** .</span></span>
+3. <span data-ttu-id="e1d1d-111">في حقل **وصف الوظيفة** ، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-111">In the **Job description** field, type a value.</span></span>
+4. <span data-ttu-id="e1d1d-112">في حقل **تاريخ/وقت البدء المجدول‬** ، أدخل الوقت والتاريخ.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-112">In the **Scheduled start date/time** field, enter a date and time.</span></span>
+5. <span data-ttu-id="e1d1d-113">انقر فوق **حفظ** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-113">Click **Save** .</span></span>
 
-## <a name="create-a-recurrence"></a><span data-ttu-id="54a67-114">إنشاء تكرار</span><span class="sxs-lookup"><span data-stu-id="54a67-114">Create a recurrence</span></span>
-1. <span data-ttu-id="54a67-115">في جزء الإجراءات، انقر فوق **وظيفة دفعية**.</span><span class="sxs-lookup"><span data-stu-id="54a67-115">On the Action Pane, click **Batch job**.</span></span>
-2. <span data-ttu-id="54a67-116">انقر فوق **التكرار**.</span><span class="sxs-lookup"><span data-stu-id="54a67-116">Click **Recurrence**.</span></span> <span data-ttu-id="54a67-117">استخدم هذه الخيارات لإدخال نطاق ونمط للتكرار.</span><span class="sxs-lookup"><span data-stu-id="54a67-117">Use these options to enter a range and pattern for the recurrence.</span></span>  
-3. <span data-ttu-id="54a67-118">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="54a67-118">Click **OK**.</span></span>
+## <a name="create-a-recurrence"></a><span data-ttu-id="e1d1d-114">إنشاء تكرار</span><span class="sxs-lookup"><span data-stu-id="e1d1d-114">Create a recurrence</span></span>
+1. <span data-ttu-id="e1d1d-115">في جزء الإجراءات، انقر فوق **وظيفة دفعية** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-115">On the Action Pane, click **Batch job** .</span></span>
+2. <span data-ttu-id="e1d1d-116">انقر فوق **التكرار** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-116">Click **Recurrence** .</span></span> <span data-ttu-id="e1d1d-117">استخدم هذه الخيارات لإدخال نطاق ونمط للتكرار.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-117">Use these options to enter a range and pattern for the recurrence.</span></span>  
+3. <span data-ttu-id="e1d1d-118">انقر فوق **موافق** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-118">Click **OK** .</span></span>
 
-## <a name="add-alerts"></a><span data-ttu-id="54a67-119">إضافة تنبيهات</span><span class="sxs-lookup"><span data-stu-id="54a67-119">Add alerts</span></span>
-1. <span data-ttu-id="54a67-120">في جزء الإجراءات، انقر فوق **وظيفة دفعية**.</span><span class="sxs-lookup"><span data-stu-id="54a67-120">On the Action Pane, click **Batch job**.</span></span>
-2. <span data-ttu-id="54a67-121">انقر فوق **تنبيهات**.</span><span class="sxs-lookup"><span data-stu-id="54a67-121">Click **Alerts**.</span></span> <span data-ttu-id="54a67-122">حدد إن كنت تريد إرسال رسائل تنبيه عند انتهاء الوظيفة الدفعية‬، أو إذا احتوت الوظيفة الدفعية على خطأ أو إذا تم إلغاؤها.</span><span class="sxs-lookup"><span data-stu-id="54a67-122">Indicate if you want alert messages sent when the batch job ends, has an error, or is canceled.</span></span> <span data-ttu-id="54a67-123">ثم حدد إذا كنت تريد عرض التنبيهات كرسائل منبثقة.</span><span class="sxs-lookup"><span data-stu-id="54a67-123">Then specify if you want the alerts to be displayed as pop-up messages.</span></span>   
-3. <span data-ttu-id="54a67-124">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="54a67-124">Click **OK**.</span></span>
+## <a name="add-alerts"></a><span data-ttu-id="e1d1d-119">إضافة تنبيهات</span><span class="sxs-lookup"><span data-stu-id="e1d1d-119">Add alerts</span></span>
+1. <span data-ttu-id="e1d1d-120">في جزء الإجراءات، انقر فوق **وظيفة دفعية** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-120">On the Action Pane, click **Batch job** .</span></span>
+2. <span data-ttu-id="e1d1d-121">انقر فوق **تنبيهات** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-121">Click **Alerts** .</span></span> <span data-ttu-id="e1d1d-122">حدد إن كنت تريد إرسال رسائل تنبيه عند انتهاء الوظيفة الدفعية‬، أو إذا احتوت الوظيفة الدفعية على خطأ أو إذا تم إلغاؤها.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-122">Indicate if you want alert messages sent when the batch job ends, has an error, or is canceled.</span></span> <span data-ttu-id="e1d1d-123">ثم حدد إذا كنت تريد عرض التنبيهات كرسائل منبثقة.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-123">Then specify if you want the alerts to be displayed as pop-up messages.</span></span>   
+3. <span data-ttu-id="e1d1d-124">انقر فوق **موافق** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-124">Click **OK** .</span></span>
 
-## <a name="adjust-batch-job-status"></a><span data-ttu-id="54a67-125">ضبط حالة الوظيفة الدفعية</span><span class="sxs-lookup"><span data-stu-id="54a67-125">Adjust batch job status</span></span>
-1. <span data-ttu-id="54a67-126">انتقل إلى **إدارة النظام > الاستعلامات > الوظائف الدفعية**.</span><span class="sxs-lookup"><span data-stu-id="54a67-126">Go to **System administration > Inquiries > Batch jobs**.</span></span>
-2. <span data-ttu-id="54a67-127">حدد الوظيفة الدفعية المناسبة.</span><span class="sxs-lookup"><span data-stu-id="54a67-127">Select the appropriate batch job.</span></span>
-3. <span data-ttu-id="54a67-128">في جزء الإجراءات، انقر فوق **وظيفة دفعية > الوظائف > حالة التغيير**.</span><span class="sxs-lookup"><span data-stu-id="54a67-128">On the Action Pane, click **Batch job > Functions > Change status**.</span></span>
-4. <span data-ttu-id="54a67-129">حدد الحالة المناسبة:</span><span class="sxs-lookup"><span data-stu-id="54a67-129">Select the appropriate status:</span></span>
-    - <span data-ttu-id="54a67-130">**اقتطاع**: تعيين وظيفة دفعية كـ **اقتطاع** لكي يتم اقتطاعها من جدوله وظائف الدفعية.</span><span class="sxs-lookup"><span data-stu-id="54a67-130">**Withhold**: Set the batch job as **withhold** so it is withheld from the batch job scheduler.</span></span> <span data-ttu-id="54a67-131">يكافئ *إيقاف*.</span><span class="sxs-lookup"><span data-stu-id="54a67-131">Equivalent to *stop*.</span></span>
-    - <span data-ttu-id="54a67-132">**انتظار**: تعيين وظيفة دفعية كـ **انتظار** بحيث تكون قيد انتظار الالتقاط بواسطة جدولة الوظائف الدفعية.</span><span class="sxs-lookup"><span data-stu-id="54a67-132">**Waiting**: Set the batch job as **waiting** so it is waiting to be picked up by the batch job scheduler.</span></span> <span data-ttu-id="54a67-133">يكافئ *انطلاق*.</span><span class="sxs-lookup"><span data-stu-id="54a67-133">Equivalent to *go*.</span></span>
-5. <span data-ttu-id="54a67-134">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="54a67-134">Click **OK**.</span></span>
+## <a name="adjust-batch-job-status"></a><span data-ttu-id="e1d1d-125">ضبط حالة الوظيفة الدفعية</span><span class="sxs-lookup"><span data-stu-id="e1d1d-125">Adjust batch job status</span></span>
+1. <span data-ttu-id="e1d1d-126">انتقل إلى **إدارة النظام > الاستعلامات > الوظائف الدفعية** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-126">Go to **System administration > Inquiries > Batch jobs** .</span></span>
+2. <span data-ttu-id="e1d1d-127">حدد الوظيفة الدفعية المناسبة.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-127">Select the appropriate batch job.</span></span>
+3. <span data-ttu-id="e1d1d-128">في جزء الإجراءات، انقر فوق **وظيفة دفعية > الوظائف > حالة التغيير** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-128">On the Action Pane, click **Batch job > Functions > Change status** .</span></span>
+4. <span data-ttu-id="e1d1d-129">حدد الحالة المناسبة:</span><span class="sxs-lookup"><span data-stu-id="e1d1d-129">Select the appropriate status:</span></span>
+    - <span data-ttu-id="e1d1d-130">**اقتطاع** : تعيين وظيفة دفعية كـ **اقتطاع** لكي يتم اقتطاعها من جدوله وظائف الدفعية.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-130">**Withhold** : Set the batch job as **withhold** so it is withheld from the batch job scheduler.</span></span> <span data-ttu-id="e1d1d-131">يكافئ *إيقاف* .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-131">Equivalent to *stop* .</span></span>
+    - <span data-ttu-id="e1d1d-132">**انتظار** : تعيين وظيفة دفعية كـ **انتظار** بحيث تكون قيد انتظار الالتقاط بواسطة جدولة الوظائف الدفعية.</span><span class="sxs-lookup"><span data-stu-id="e1d1d-132">**Waiting** : Set the batch job as **waiting** so it is waiting to be picked up by the batch job scheduler.</span></span> <span data-ttu-id="e1d1d-133">يكافئ *انطلاق* .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-133">Equivalent to *go* .</span></span>
+5. <span data-ttu-id="e1d1d-134">انقر فوق **موافق** .</span><span class="sxs-lookup"><span data-stu-id="e1d1d-134">Click **OK** .</span></span>

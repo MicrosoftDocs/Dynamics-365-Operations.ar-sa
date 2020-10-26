@@ -13,80 +13,80 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b489add43bb523a7684115b942395b0d830f3c4a
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 7d3a35c7140b886f931df48e583b1582201b6547
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830199"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982007"
 ---
-# <a name="fulfill-sales-agreements"></a><span data-ttu-id="ba9fe-103">استيفاء اتفاقيات البيع</span><span class="sxs-lookup"><span data-stu-id="ba9fe-103">Fulfill sales agreements</span></span>
+# <a name="fulfill-sales-agreements"></a><span data-ttu-id="bd876-103">استيفاء اتفاقيات البيع</span><span class="sxs-lookup"><span data-stu-id="bd876-103">Fulfill sales agreements</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ba9fe-104">يوضح هذا الإجراء كيفية تنفيذ اتفاقية بيع عن طريق إقران أوامر المبيعات بها.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-104">This procedure shows you how to fulfill a sales agreement by associating sales orders with it.</span></span> <span data-ttu-id="ba9fe-105">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="ba9fe-106">قبل تشغيل هذا الدليل، تأكد أن لديك اتفاقية بيع فعالة من نوع "التزام قيمة المنتج".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-106">Before starting this guide, make sure you have an effective sales agreement of type "Product value commitment".</span></span> <span data-ttu-id="ba9fe-107">وبدلاً من ذلك، يمكنك تشغيل دليل مهمة يسمى "إنشاء اتفاقيات البيع".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-107">Alternatively, you can run the task guide called "Create sales agreements".</span></span>  
+<span data-ttu-id="bd876-104">يوضح هذا الإجراء كيفية تنفيذ اتفاقية بيع عن طريق إقران أوامر المبيعات بها.</span><span class="sxs-lookup"><span data-stu-id="bd876-104">This procedure shows you how to fulfill a sales agreement by associating sales orders with it.</span></span> <span data-ttu-id="bd876-105">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="bd876-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="bd876-106">قبل تشغيل هذا الدليل، تأكد أن لديك اتفاقية بيع فعالة من نوع "التزام قيمة المنتج".</span><span class="sxs-lookup"><span data-stu-id="bd876-106">Before starting this guide, make sure you have an effective sales agreement of type "Product value commitment".</span></span> <span data-ttu-id="bd876-107">وبدلاً من ذلك، يمكنك تشغيل دليل مهمة يسمى "إنشاء اتفاقيات البيع".</span><span class="sxs-lookup"><span data-stu-id="bd876-107">Alternatively, you can run the task guide called "Create sales agreements".</span></span>  
 
 
 
 
-## <a name="release-a-sales-order-from-the-agreement"></a><span data-ttu-id="ba9fe-108">إصدار أمر مبيعات من الاتفاقية</span><span class="sxs-lookup"><span data-stu-id="ba9fe-108">Release a sales order from the agreement</span></span>
-1. <span data-ttu-id="ba9fe-109">انتقل إلى المبيعات والتسويق > اتفاقيات المبيعات > اتفاقية البيع.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-109">Go to Sales and marketing > Sales agreements > Sales agreements.</span></span>
-2. <span data-ttu-id="ba9fe-110">في القائمة، حدد الاتفاقية التي تريد إصدار البند مقابلها.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-110">In the list, open the agreement against which you want to release the order.</span></span>
-3. <span data-ttu-id="ba9fe-111">في جزء الإجراءات، انقر فوق "اتفاقيات المبيعات".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-111">On the Action Pane, click Sales agreement.</span></span>
-4. <span data-ttu-id="ba9fe-112">انقر فوق "إصدار الأمر".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-112">Click Release order.</span></span>
-    * <span data-ttu-id="ba9fe-113">وكما يشير النص برأس صفحة "إنشاء أمر إصدار"، ستختلف التفاصيل المطلوبة لبنود أمر المبيعات تبعاً لما إذا كانت الاتفاقية على أساس الكمية أو القيمة.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-113">As the text on top of the  Create release order page points out, the details required for the sales order lines will differ depending on whether the agreement is quantity- or value-based.</span></span>  
-    * <span data-ttu-id="ba9fe-114">الاتفاقية الواردة في هذا الدليل من النوع "الالتزام بقيمة المنتج".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-114">The agreement in this guide is of type "Product value commitment".</span></span> <span data-ttu-id="ba9fe-115">وهذا سبب فراغ قسم البنود بهذه الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-115">This is why the Lines section of this page is blank.</span></span> <span data-ttu-id="ba9fe-116">إذا كان الالتزام استند إلى كمية، فقد يتم نسخ معلومات البنود من الاتفاقية.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-116">If the commitment was based on quantity, the line information would be copied from the agreement.</span></span>  
-5. <span data-ttu-id="ba9fe-117">انقر فوق "إنشاء".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-117">Click Create.</span></span>
-    * <span data-ttu-id="ba9fe-118">تُعلمك الرسالة أنه تم إنشاء أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-118">The message informs you that a sales order has been created.</span></span> <span data-ttu-id="ba9fe-119">وحيث إن الأمر لا يتضمن أية بنود، يجب إضافة تفاصيل بند أمر لإكمال عملية الإصدار.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-119">Since the order does not contain any lines, you must add order line details to complete the release process.</span></span>   
-6. <span data-ttu-id="ba9fe-120">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-120">Close the page.</span></span>
-7. <span data-ttu-id="ba9fe-121">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-121">Close the page.</span></span>
-8. <span data-ttu-id="ba9fe-122">انتقل إلى المبيعات والتسويق > أوامر المبيعات > كافة أوامر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-122">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-9. <span data-ttu-id="ba9fe-123">في القائمة، ابحث عن الأمر الذي تم إنشاؤه كنتيجة إصدار أمر بالمهمة السابقة ثم افتحه.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-123">In the list, find and open the order that was created as the result of the order release in the previous task.</span></span>
-10. <span data-ttu-id="ba9fe-124">انقر فوق "إضافة بند".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-124">Click Add line.</span></span>
-11. <span data-ttu-id="ba9fe-125">في الحقل "رقم الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-125">In the Item number field, click the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="ba9fe-126">في الحقل "رقم الصنف"، اكتب الصنف المحدد في اتفاقية البيع المقترنة أو حدده.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-126">In the Item number field, type or select the item that is specified on the associated sales agreement.</span></span>
-13. <span data-ttu-id="ba9fe-127">في حقل الكمية، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-127">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="ba9fe-128">تأكد من إدخال كمية الذي تضع المبلغ الصافي أقل من قيمة اتفاقية البيع المرتبطة به.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-128">Make sure that you enter a quantity that brings the Net amount under the value of the associated sales agreement.</span></span>  
-    * <span data-ttu-id="ba9fe-129">لاحظ أنه بسبب ربط أمر المبيعات بالاتفاقية، يتم تطبيق النسبة المئوية للخصم على بند الأمر.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-129">Notice that because the sales order is linked to the agreement, the negotiated discount percent is applied to the order line.</span></span>  
-14. <span data-ttu-id="ba9fe-130">انقر فوق "تحديث البند".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-130">Click Update line.</span></span>
-15. <span data-ttu-id="ba9fe-131">انقر فوق "تم الإرفاق".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-131">Click Attached.</span></span>
-    * <span data-ttu-id="ba9fe-132">تعرض الصفحة "الاتفاقية المرفقة" معرف وشروط الاتفاقية التي يتم إصدار البنود منها.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-132">The Attached agreement page shows the ID and terms of the agreement from which the line is released.</span></span>  
-16. <span data-ttu-id="ba9fe-133">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-133">Close the page.</span></span>
-17. <span data-ttu-id="ba9fe-134">في جزء "الإجراءات"، انقر فوق "عام".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-134">On the Action Pane, click General.</span></span>
-18. <span data-ttu-id="ba9fe-135">انقر فوق "اتفاقية البيع المرفقة".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-135">Click Attached sales agreement.</span></span>
-19. <span data-ttu-id="ba9fe-136">قم بتوسيع قسم "تفاصيل البند".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-136">Expand the Line details section.</span></span>
-20. <span data-ttu-id="ba9fe-137">انقر فوق علامة التبويب "التنفيذ".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-137">Click the Fulfillment tab.</span></span>
-    * <span data-ttu-id="ba9fe-138">تعرض علامة التبويب "التنفيذ" ملخصاً لجميع بنود أمر المبيعات المقترنة بهذا الالتزام وحالة التنفيذ لها بالإضافة إلى المبلغ أو الكمية التي لم يتم إصدارها بعد.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-138">The Fulfillment tab shows a summary of all the sales order lines that are associated with this commitment, and their fulfillment state, as well as the amount or quantity that has not yet been released.</span></span>   
-21. <span data-ttu-id="ba9fe-139">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-139">Close the page.</span></span>
-22. <span data-ttu-id="ba9fe-140">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-140">Close the page.</span></span>
-23. <span data-ttu-id="ba9fe-141">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-141">Close the page.</span></span>
+## <a name="release-a-sales-order-from-the-agreement"></a><span data-ttu-id="bd876-108">إصدار أمر مبيعات من الاتفاقية</span><span class="sxs-lookup"><span data-stu-id="bd876-108">Release a sales order from the agreement</span></span>
+1. <span data-ttu-id="bd876-109">انتقل إلى المبيعات والتسويق > اتفاقيات المبيعات > اتفاقية البيع.</span><span class="sxs-lookup"><span data-stu-id="bd876-109">Go to Sales and marketing > Sales agreements > Sales agreements.</span></span>
+2. <span data-ttu-id="bd876-110">في القائمة، حدد الاتفاقية التي تريد إصدار البند مقابلها.</span><span class="sxs-lookup"><span data-stu-id="bd876-110">In the list, open the agreement against which you want to release the order.</span></span>
+3. <span data-ttu-id="bd876-111">في جزء الإجراءات، انقر فوق "اتفاقيات المبيعات".</span><span class="sxs-lookup"><span data-stu-id="bd876-111">On the Action Pane, click Sales agreement.</span></span>
+4. <span data-ttu-id="bd876-112">انقر فوق "إصدار الأمر".</span><span class="sxs-lookup"><span data-stu-id="bd876-112">Click Release order.</span></span>
+    * <span data-ttu-id="bd876-113">وكما يشير النص برأس صفحة "إنشاء أمر إصدار"، ستختلف التفاصيل المطلوبة لبنود أمر المبيعات تبعاً لما إذا كانت الاتفاقية على أساس الكمية أو القيمة.</span><span class="sxs-lookup"><span data-stu-id="bd876-113">As the text on top of the  Create release order page points out, the details required for the sales order lines will differ depending on whether the agreement is quantity- or value-based.</span></span>  
+    * <span data-ttu-id="bd876-114">الاتفاقية الواردة في هذا الدليل من النوع "الالتزام بقيمة المنتج".</span><span class="sxs-lookup"><span data-stu-id="bd876-114">The agreement in this guide is of type "Product value commitment".</span></span> <span data-ttu-id="bd876-115">وهذا سبب فراغ قسم البنود بهذه الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bd876-115">This is why the Lines section of this page is blank.</span></span> <span data-ttu-id="bd876-116">إذا كان الالتزام استند إلى كمية، فقد يتم نسخ معلومات البنود من الاتفاقية.</span><span class="sxs-lookup"><span data-stu-id="bd876-116">If the commitment was based on quantity, the line information would be copied from the agreement.</span></span>  
+5. <span data-ttu-id="bd876-117">انقر فوق "إنشاء".</span><span class="sxs-lookup"><span data-stu-id="bd876-117">Click Create.</span></span>
+    * <span data-ttu-id="bd876-118">تُعلمك الرسالة أنه تم إنشاء أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="bd876-118">The message informs you that a sales order has been created.</span></span> <span data-ttu-id="bd876-119">وحيث إن الأمر لا يتضمن أية بنود، يجب إضافة تفاصيل بند أمر لإكمال عملية الإصدار.</span><span class="sxs-lookup"><span data-stu-id="bd876-119">Since the order does not contain any lines, you must add order line details to complete the release process.</span></span>   
+6. <span data-ttu-id="bd876-120">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bd876-120">Close the page.</span></span>
+7. <span data-ttu-id="bd876-121">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bd876-121">Close the page.</span></span>
+8. <span data-ttu-id="bd876-122">انتقل إلى المبيعات والتسويق > أوامر المبيعات > كافة أوامر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="bd876-122">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+9. <span data-ttu-id="bd876-123">في القائمة، ابحث عن الأمر الذي تم إنشاؤه كنتيجة إصدار أمر بالمهمة السابقة ثم افتحه.</span><span class="sxs-lookup"><span data-stu-id="bd876-123">In the list, find and open the order that was created as the result of the order release in the previous task.</span></span>
+10. <span data-ttu-id="bd876-124">انقر فوق "إضافة بند".</span><span class="sxs-lookup"><span data-stu-id="bd876-124">Click Add line.</span></span>
+11. <span data-ttu-id="bd876-125">في الحقل "رقم الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="bd876-125">In the Item number field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="bd876-126">في الحقل "رقم الصنف"، اكتب الصنف المحدد في اتفاقية البيع المقترنة أو حدده.</span><span class="sxs-lookup"><span data-stu-id="bd876-126">In the Item number field, type or select the item that is specified on the associated sales agreement.</span></span>
+13. <span data-ttu-id="bd876-127">في حقل الكمية، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="bd876-127">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="bd876-128">تأكد من إدخال كمية الذي تضع المبلغ الصافي أقل من قيمة اتفاقية البيع المرتبطة به.</span><span class="sxs-lookup"><span data-stu-id="bd876-128">Make sure that you enter a quantity that brings the Net amount under the value of the associated sales agreement.</span></span>  
+    * <span data-ttu-id="bd876-129">لاحظ أنه بسبب ربط أمر المبيعات بالاتفاقية، يتم تطبيق النسبة المئوية للخصم على بند الأمر.</span><span class="sxs-lookup"><span data-stu-id="bd876-129">Notice that because the sales order is linked to the agreement, the negotiated discount percent is applied to the order line.</span></span>  
+14. <span data-ttu-id="bd876-130">انقر فوق "تحديث البند".</span><span class="sxs-lookup"><span data-stu-id="bd876-130">Click Update line.</span></span>
+15. <span data-ttu-id="bd876-131">انقر فوق "تم الإرفاق".</span><span class="sxs-lookup"><span data-stu-id="bd876-131">Click Attached.</span></span>
+    * <span data-ttu-id="bd876-132">تعرض الصفحة "الاتفاقية المرفقة" معرف وشروط الاتفاقية التي يتم إصدار البنود منها.</span><span class="sxs-lookup"><span data-stu-id="bd876-132">The Attached agreement page shows the ID and terms of the agreement from which the line is released.</span></span>  
+16. <span data-ttu-id="bd876-133">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bd876-133">Close the page.</span></span>
+17. <span data-ttu-id="bd876-134">في جزء "الإجراءات"، انقر فوق "عام".</span><span class="sxs-lookup"><span data-stu-id="bd876-134">On the Action Pane, click General.</span></span>
+18. <span data-ttu-id="bd876-135">انقر فوق "اتفاقية البيع المرفقة".</span><span class="sxs-lookup"><span data-stu-id="bd876-135">Click Attached sales agreement.</span></span>
+19. <span data-ttu-id="bd876-136">قم بتوسيع قسم "تفاصيل البند".</span><span class="sxs-lookup"><span data-stu-id="bd876-136">Expand the Line details section.</span></span>
+20. <span data-ttu-id="bd876-137">انقر فوق علامة التبويب "التنفيذ".</span><span class="sxs-lookup"><span data-stu-id="bd876-137">Click the Fulfillment tab.</span></span>
+    * <span data-ttu-id="bd876-138">تعرض علامة التبويب "التنفيذ" ملخصاً لجميع بنود أمر المبيعات المقترنة بهذا الالتزام وحالة التنفيذ لها بالإضافة إلى المبلغ أو الكمية التي لم يتم إصدارها بعد.</span><span class="sxs-lookup"><span data-stu-id="bd876-138">The Fulfillment tab shows a summary of all the sales order lines that are associated with this commitment, and their fulfillment state, as well as the amount or quantity that has not yet been released.</span></span>   
+21. <span data-ttu-id="bd876-139">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bd876-139">Close the page.</span></span>
+22. <span data-ttu-id="bd876-140">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bd876-140">Close the page.</span></span>
+23. <span data-ttu-id="bd876-141">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="bd876-141">Close the page.</span></span>
 
-## <a name="apply-sales-agreement-in-the-order-process"></a><span data-ttu-id="ba9fe-142">تطبيق اتفاقيات البيع في عملية الطلب</span><span class="sxs-lookup"><span data-stu-id="ba9fe-142">Apply sales agreement in the order process</span></span>
-1. <span data-ttu-id="ba9fe-143">انتقل إلى المبيعات والتسويق > أوامر المبيعات > كافة أوامر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-143">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-2. <span data-ttu-id="ba9fe-144">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-144">Click New.</span></span>
-3. <span data-ttu-id="ba9fe-145">في الحقل "حساب العميل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-145">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="ba9fe-146">في القائمة، ابحث عن العميل المحدد في اتفاقية البيع وحدده.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-146">In the list, find and select the customer specified on the sales agreement.</span></span>
-5. <span data-ttu-id="ba9fe-147">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-147">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="ba9fe-148">قم بتوسيع القسم "عام".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-148">Expand the General section.</span></span>
-7. <span data-ttu-id="ba9fe-149">في الحقل "معرف اتفاقية البيع"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-149">In the Sales agreement ID field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="ba9fe-150">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-150">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="ba9fe-151">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-151">Click Yes.</span></span>
-10. <span data-ttu-id="ba9fe-152">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-152">Click OK.</span></span>
-11. <span data-ttu-id="ba9fe-153">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-153">In the list, mark the selected row.</span></span>
-12. <span data-ttu-id="ba9fe-154">في الحقل "رقم الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-154">In the Item number field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="ba9fe-155">في الحقل "رقم الصنف"، اكتب الصنف المحدد في اتفاقية البيع المقترنة أو حدده.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-155">In the Item number field, type or select the item that is specified on the associated sales agreement.</span></span>
-14. <span data-ttu-id="ba9fe-156">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-156">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="ba9fe-157">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="ba9fe-157">Click Save.</span></span>
-16. <span data-ttu-id="ba9fe-158">في "جزء الإجراءات"، انقر فوق "انتقاء وتعبئة‬".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-158">On the Action Pane, click Pick and pack.</span></span>
-17. <span data-ttu-id="ba9fe-159">انقر فوق "ترحيل إيصال التعبئة".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-159">Click Post packing slip.</span></span>
-18. <span data-ttu-id="ba9fe-160">وسّع مقطع "المحددات".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-160">Expand the Parameters section.</span></span>
-19. <span data-ttu-id="ba9fe-161">حدد "نعم" في الحقل "الترحيل".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-161">Select Yes in the Posting field.</span></span>
-20. <span data-ttu-id="ba9fe-162">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-162">Click OK.</span></span>
-21. <span data-ttu-id="ba9fe-163">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-163">Click OK.</span></span>
-22. <span data-ttu-id="ba9fe-164">في جزء "الإجراءات"، انقر فوق "عام".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-164">On the Action Pane, click General.</span></span>
-23. <span data-ttu-id="ba9fe-165">انقر فوق "اتفاقية البيع المرفقة".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-165">Click Attached sales agreement.</span></span>
-24. <span data-ttu-id="ba9fe-166">انقر فوق علامة التبويب "التنفيذ".</span><span class="sxs-lookup"><span data-stu-id="ba9fe-166">Click the Fulfillment tab.</span></span>
+## <a name="apply-sales-agreement-in-the-order-process"></a><span data-ttu-id="bd876-142">تطبيق اتفاقيات البيع في عملية الطلب</span><span class="sxs-lookup"><span data-stu-id="bd876-142">Apply sales agreement in the order process</span></span>
+1. <span data-ttu-id="bd876-143">انتقل إلى المبيعات والتسويق > أوامر المبيعات > كافة أوامر المبيعات.</span><span class="sxs-lookup"><span data-stu-id="bd876-143">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="bd876-144">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="bd876-144">Click New.</span></span>
+3. <span data-ttu-id="bd876-145">في الحقل "حساب العميل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="bd876-145">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="bd876-146">في القائمة، ابحث عن العميل المحدد في اتفاقية البيع وحدده.</span><span class="sxs-lookup"><span data-stu-id="bd876-146">In the list, find and select the customer specified on the sales agreement.</span></span>
+5. <span data-ttu-id="bd876-147">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="bd876-147">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="bd876-148">قم بتوسيع القسم "عام".</span><span class="sxs-lookup"><span data-stu-id="bd876-148">Expand the General section.</span></span>
+7. <span data-ttu-id="bd876-149">في الحقل "معرف اتفاقية البيع"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="bd876-149">In the Sales agreement ID field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="bd876-150">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="bd876-150">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="bd876-151">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="bd876-151">Click Yes.</span></span>
+10. <span data-ttu-id="bd876-152">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="bd876-152">Click OK.</span></span>
+11. <span data-ttu-id="bd876-153">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="bd876-153">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="bd876-154">في الحقل "رقم الصنف"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="bd876-154">In the Item number field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="bd876-155">في الحقل "رقم الصنف"، اكتب الصنف المحدد في اتفاقية البيع المقترنة أو حدده.</span><span class="sxs-lookup"><span data-stu-id="bd876-155">In the Item number field, type or select the item that is specified on the associated sales agreement.</span></span>
+14. <span data-ttu-id="bd876-156">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="bd876-156">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="bd876-157">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="bd876-157">Click Save.</span></span>
+16. <span data-ttu-id="bd876-158">في "جزء الإجراءات"، انقر فوق "انتقاء وتعبئة‬".</span><span class="sxs-lookup"><span data-stu-id="bd876-158">On the Action Pane, click Pick and pack.</span></span>
+17. <span data-ttu-id="bd876-159">انقر فوق "ترحيل إيصال التعبئة".</span><span class="sxs-lookup"><span data-stu-id="bd876-159">Click Post packing slip.</span></span>
+18. <span data-ttu-id="bd876-160">وسّع مقطع "المحددات".</span><span class="sxs-lookup"><span data-stu-id="bd876-160">Expand the Parameters section.</span></span>
+19. <span data-ttu-id="bd876-161">حدد "نعم" في الحقل "الترحيل".</span><span class="sxs-lookup"><span data-stu-id="bd876-161">Select Yes in the Posting field.</span></span>
+20. <span data-ttu-id="bd876-162">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="bd876-162">Click OK.</span></span>
+21. <span data-ttu-id="bd876-163">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="bd876-163">Click OK.</span></span>
+22. <span data-ttu-id="bd876-164">في جزء "الإجراءات"، انقر فوق "عام".</span><span class="sxs-lookup"><span data-stu-id="bd876-164">On the Action Pane, click General.</span></span>
+23. <span data-ttu-id="bd876-165">انقر فوق "اتفاقية البيع المرفقة".</span><span class="sxs-lookup"><span data-stu-id="bd876-165">Click Attached sales agreement.</span></span>
+24. <span data-ttu-id="bd876-166">انقر فوق علامة التبويب "التنفيذ".</span><span class="sxs-lookup"><span data-stu-id="bd876-166">Click the Fulfillment tab.</span></span>
 

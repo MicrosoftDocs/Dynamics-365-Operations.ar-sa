@@ -13,31 +13,31 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efb08c60121fa0210003ea92c8cfa27b2882450b
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: 698989d55994660fa7566cf473cf3fa1ae1d9a83
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759174"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977613"
 ---
-# <a name="define-cost-control-units"></a><span data-ttu-id="07510-103">تحديد وحدات التحكم بالتكلفة</span><span class="sxs-lookup"><span data-stu-id="07510-103">Define cost control units</span></span>
+# <a name="define-cost-control-units"></a><span data-ttu-id="3b20a-103">تحديد وحدات التحكم بالتكلفة</span><span class="sxs-lookup"><span data-stu-id="3b20a-103">Define cost control units</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="07510-104">يظهر هذا الإجراء كيفية تحديد وحدات التحكم بالتكاليف في دفتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="07510-104">This procedure shows how to define cost control units in the cost accounting ledger.</span></span> <span data-ttu-id="07510-105">يمكنك تحديد بعد كائن التكلفة الذي تريد مراقبة تكاليفه في دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="07510-105">You select the cost object dimension for which you want to control costs in the ledger.</span></span> <span data-ttu-id="07510-106">يتم تحويل أعضاء بعد كائن التكلفة إلى كائنات تكلفة لوحدات التحكم بالتكاليف.</span><span class="sxs-lookup"><span data-stu-id="07510-106">The cost object dimension members are transformed into cost objects of the cost control units.</span></span> <span data-ttu-id="07510-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USP2.</span><span class="sxs-lookup"><span data-stu-id="07510-107">The demo data company used to create this procedure is USP2.</span></span>
+<span data-ttu-id="3b20a-104">يظهر هذا الإجراء كيفية تحديد وحدات التحكم بالتكاليف في دفتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="3b20a-104">This procedure shows how to define cost control units in the cost accounting ledger.</span></span> <span data-ttu-id="3b20a-105">يمكنك تحديد بعد كائن التكلفة الذي تريد مراقبة تكاليفه في دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="3b20a-105">You select the cost object dimension for which you want to control costs in the ledger.</span></span> <span data-ttu-id="3b20a-106">يتم تحويل أعضاء بعد كائن التكلفة إلى كائنات تكلفة لوحدات التحكم بالتكاليف.</span><span class="sxs-lookup"><span data-stu-id="3b20a-106">The cost object dimension members are transformed into cost objects of the cost control units.</span></span> <span data-ttu-id="3b20a-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USP2.</span><span class="sxs-lookup"><span data-stu-id="3b20a-107">The demo data company used to create this procedure is USP2.</span></span>
 
-1. <span data-ttu-id="07510-108">انتقل إلى محاسبة التكاليف > إعداد دفتر الأستاذ > دفاتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="07510-108">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="07510-109">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="07510-109">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="07510-110">انقر فوق "وحدات التحكم".</span><span class="sxs-lookup"><span data-stu-id="07510-110">Click Control units.</span></span>
-4. <span data-ttu-id="07510-111">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="07510-111">Click New.</span></span>
-5. <span data-ttu-id="07510-112">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="07510-112">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="07510-113">في حقل "البعد"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="07510-113">In the Dimension field, enter or select a value.</span></span>
-7. <span data-ttu-id="07510-114">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="07510-114">Click Save.</span></span>
-8. <span data-ttu-id="07510-115">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="07510-115">Click New.</span></span>
-9. <span data-ttu-id="07510-116">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="07510-116">In the Name field, type a value.</span></span>
-10. <span data-ttu-id="07510-117">في حقل "البعد"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="07510-117">In the Dimension field, enter or select a value.</span></span>
-11. <span data-ttu-id="07510-118">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="07510-118">Click Save.</span></span>
+1. <span data-ttu-id="3b20a-108">انتقل إلى محاسبة التكاليف > إعداد دفتر الأستاذ > دفاتر أستاذ محاسبة التكاليف.</span><span class="sxs-lookup"><span data-stu-id="3b20a-108">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="3b20a-109">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="3b20a-109">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="3b20a-110">انقر فوق "وحدات التحكم".</span><span class="sxs-lookup"><span data-stu-id="3b20a-110">Click Control units.</span></span>
+4. <span data-ttu-id="3b20a-111">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3b20a-111">Click New.</span></span>
+5. <span data-ttu-id="3b20a-112">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3b20a-112">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="3b20a-113">في حقل "البعد"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="3b20a-113">In the Dimension field, enter or select a value.</span></span>
+7. <span data-ttu-id="3b20a-114">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3b20a-114">Click Save.</span></span>
+8. <span data-ttu-id="3b20a-115">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3b20a-115">Click New.</span></span>
+9. <span data-ttu-id="3b20a-116">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3b20a-116">In the Name field, type a value.</span></span>
+10. <span data-ttu-id="3b20a-117">في حقل "البعد"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="3b20a-117">In the Dimension field, enter or select a value.</span></span>
+11. <span data-ttu-id="3b20a-118">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3b20a-118">Click Save.</span></span>
 

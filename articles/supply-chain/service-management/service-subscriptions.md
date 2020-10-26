@@ -15,26 +15,26 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4618ea82744b5967cfce8258412e53a7d8aa67f3
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215000"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975430"
 ---
-# <a name="service-subscriptions"></a><span data-ttu-id="23414-104">اشتراكات الخدمة</span><span class="sxs-lookup"><span data-stu-id="23414-104">Service subscriptions</span></span>
+# <a name="service-subscriptions"></a><span data-ttu-id="601ab-104">اشتراكات الخدمة</span><span class="sxs-lookup"><span data-stu-id="601ab-104">Service subscriptions</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="23414-105">تستند الاشتراكات إلى مشروع وقت ومواد.</span><span class="sxs-lookup"><span data-stu-id="23414-105">Subscriptions are based on a time-and-materials project.</span></span> <span data-ttu-id="23414-106">يمكنك إنشاء الاشتراكات من مشروع أو من صفحة **اشتراكات الخدمة** أو باستخدام مجموعة اشتراكات الخدمة.</span><span class="sxs-lookup"><span data-stu-id="23414-106">You can create subscriptions from a project, from the **Service subscriptions** page, or by using a service subscription group.</span></span>
+<span data-ttu-id="601ab-105">تستند الاشتراكات إلى مشروع وقت ومواد.</span><span class="sxs-lookup"><span data-stu-id="601ab-105">Subscriptions are based on a time-and-materials project.</span></span> <span data-ttu-id="601ab-106">يمكنك إنشاء الاشتراكات من مشروع أو من صفحة **اشتراكات الخدمة** أو باستخدام مجموعة اشتراكات الخدمة.</span><span class="sxs-lookup"><span data-stu-id="601ab-106">You can create subscriptions from a project, from the **Service subscriptions** page, or by using a service subscription group.</span></span>
 
-<span data-ttu-id="23414-107">يمكن إنشاء عدد اختياري من رسوم الاشتراكات لكل اشتراك.</span><span class="sxs-lookup"><span data-stu-id="23414-107">For each subscription, you can create an optional number of subscription fees.</span></span> <span data-ttu-id="23414-108">وتكون رسوم الاشتراك هي الحركات التي تتم فوترتها للعميل.</span><span class="sxs-lookup"><span data-stu-id="23414-108">The subscription fees are the transactions that you invoice to the customer.</span></span>
+<span data-ttu-id="601ab-107">يمكن إنشاء عدد اختياري من رسوم الاشتراكات لكل اشتراك.</span><span class="sxs-lookup"><span data-stu-id="601ab-107">For each subscription, you can create an optional number of subscription fees.</span></span> <span data-ttu-id="601ab-108">وتكون رسوم الاشتراك هي الحركات التي تتم فوترتها للعميل.</span><span class="sxs-lookup"><span data-stu-id="601ab-108">The subscription fees are the transactions that you invoice to the customer.</span></span>
 
-<span data-ttu-id="23414-109">يوضح كود الفترة مدى فترة رسوم الاشتراك، أو الفترات التي ينبغي خلالها فوترة الاشتراكات.</span><span class="sxs-lookup"><span data-stu-id="23414-109">A period code indicates the extent of the subscription fee period, or the intervals at which the subscription should be invoiced.</span></span>
+<span data-ttu-id="601ab-109">يوضح كود الفترة مدى فترة رسوم الاشتراك، أو الفترات التي ينبغي خلالها فوترة الاشتراكات.</span><span class="sxs-lookup"><span data-stu-id="601ab-109">A period code indicates the extent of the subscription fee period, or the intervals at which the subscription should be invoiced.</span></span>
 
-<span data-ttu-id="23414-110">يتم تحديد كود الفترة في مجموعة اشتراكات الخدمة.</span><span class="sxs-lookup"><span data-stu-id="23414-110">The period code is defined in the service subscription group.</span></span> <span data-ttu-id="23414-111">ويتم تحديده للاشتراكات من خلال مجموعة اشتراكات الخدمة.</span><span class="sxs-lookup"><span data-stu-id="23414-111">It is defined for the subscriptions through the service subscription group.</span></span> <span data-ttu-id="23414-112">هناك تاريخ بدء مقترح لأي رسم اشتراك جديد تقوم بإنشائه.</span><span class="sxs-lookup"><span data-stu-id="23414-112">Any new subscription fee that you create has a suggested start date.</span></span> <span data-ttu-id="23414-113">هذا هو تاريخ بدء الفترة، إذا كانت الفترة الأولى التي يتم إنشاؤها، أو نهاية الفترة السابقة، إذا كانت الفترة الثانية أو اللاحقة.</span><span class="sxs-lookup"><span data-stu-id="23414-113">This is the start date of the period, if it is the first period that is created, or the end of the previous period, if it is the second or later period.</span></span>
+<span data-ttu-id="601ab-110">يتم تحديد كود الفترة في مجموعة اشتراكات الخدمة.</span><span class="sxs-lookup"><span data-stu-id="601ab-110">The period code is defined in the service subscription group.</span></span> <span data-ttu-id="601ab-111">ويتم تحديده للاشتراكات من خلال مجموعة اشتراكات الخدمة.</span><span class="sxs-lookup"><span data-stu-id="601ab-111">It is defined for the subscriptions through the service subscription group.</span></span> <span data-ttu-id="601ab-112">هناك تاريخ بدء مقترح لأي رسم اشتراك جديد تقوم بإنشائه.</span><span class="sxs-lookup"><span data-stu-id="601ab-112">Any new subscription fee that you create has a suggested start date.</span></span> <span data-ttu-id="601ab-113">هذا هو تاريخ بدء الفترة، إذا كانت الفترة الأولى التي يتم إنشاؤها، أو نهاية الفترة السابقة، إذا كانت الفترة الثانية أو اللاحقة.</span><span class="sxs-lookup"><span data-stu-id="601ab-113">This is the start date of the period, if it is the first period that is created, or the end of the previous period, if it is the second or later period.</span></span>
 
 

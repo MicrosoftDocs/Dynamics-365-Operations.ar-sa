@@ -15,36 +15,36 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cfaee379f45c2516598089f29ed6235f9c5d11a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6df9f7cb6c5062841d5c9855833a58e11be690a4
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206440"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987428"
 ---
-# <a name="view-compliance-with-service-level-agreements"></a><span data-ttu-id="d9777-103">عرض التوافق مع اتفاقيات مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="d9777-103">View compliance with service level agreements</span></span>    
+# <a name="view-compliance-with-service-level-agreements"></a><span data-ttu-id="4d6d2-103">عرض التوافق مع اتفاقيات مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="4d6d2-103">View compliance with service level agreements</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="view-compliance-with-a-service-level-agreement"></a><span data-ttu-id="d9777-104">عرض التوافق مع اتفاقيات مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="d9777-104">View compliance with a service level agreement</span></span>
+## <a name="view-compliance-with-a-service-level-agreement"></a><span data-ttu-id="4d6d2-104">عرض التوافق مع اتفاقيات مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="4d6d2-104">View compliance with a service level agreement</span></span>
 
-1.  <span data-ttu-id="d9777-105">انقر فوق **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات**.</span><span class="sxs-lookup"><span data-stu-id="d9777-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="d9777-106">حدد أمر خدمة، ثم انقر نقرًا مزدوجًا فوقه لفتح نموذج التفاصيل الخاص بهذا الأمر.</span><span class="sxs-lookup"><span data-stu-id="d9777-106">Select a service order and double-click to open the details form for the order.</span></span>
+1.  <span data-ttu-id="4d6d2-105">انقر فوق **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات** .</span><span class="sxs-lookup"><span data-stu-id="4d6d2-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders** .</span></span> <span data-ttu-id="4d6d2-106">حدد أمر خدمة، ثم انقر نقرًا مزدوجًا فوقه لفتح نموذج التفاصيل الخاص بهذا الأمر.</span><span class="sxs-lookup"><span data-stu-id="4d6d2-106">Select a service order and double-click to open the details form for the order.</span></span>
 
-2.  <span data-ttu-id="d9777-107">في علامة التبويب **عام**، في الحقل **توافق**، اعرض النسبة المئوية للوقت المستغرق في أمر الخدمة بالمقارنة إلى الإطار الزمني المحدد في اتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="d9777-107">On the **General** tab, in the **Compliance** field, view the percentage of time that was spent on the service order compared to the time frame specified in the service level agreement.</span></span>
+2.  <span data-ttu-id="4d6d2-107">في علامة التبويب **عام** ، في الحقل **توافق** ، اعرض النسبة المئوية للوقت المستغرق في أمر الخدمة بالمقارنة إلى الإطار الزمني المحدد في اتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="4d6d2-107">On the **General** tab, in the **Compliance** field, view the percentage of time that was spent on the service order compared to the time frame specified in the service level agreement.</span></span>
 
 
 > [!TIP]
-> <span data-ttu-id="d9777-108">إذا زادت القيمة في الحقل <STRONG>توافق</STRONG> عن 100، فإن ذلك يعني تجاوز الحد الزمني لاتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="d9777-108">If the value in the <STRONG>Compliance</STRONG> field is larger than 100, the time limit of the service level agreement has been exceeded.</span></span>
+> <span data-ttu-id="4d6d2-108">إذا زادت القيمة في الحقل <STRONG>توافق</STRONG> عن 100، فإن ذلك يعني تجاوز الحد الزمني لاتفاقية مستوى الخدمة.</span><span class="sxs-lookup"><span data-stu-id="4d6d2-108">If the value in the <STRONG>Compliance</STRONG> field is larger than 100, the time limit of the service level agreement has been exceeded.</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="d9777-109">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="d9777-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4d6d2-109">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="4d6d2-109">See also</span></span>
 
-[<span data-ttu-id="d9777-110">نظرة عامة على اتفاقيات مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="d9777-110">Service level agreements overview</span></span>](service-level-agreements.md)
+[<span data-ttu-id="4d6d2-110">نظرة عامة على اتفاقيات مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="4d6d2-110">Service level agreements overview</span></span>](service-level-agreements.md)
 
   
 

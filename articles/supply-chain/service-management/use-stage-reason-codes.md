@@ -15,60 +15,60 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54dae6edb6681e1ba29709ebeeea2e5094262257
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 74594871e9eeed86ae2914d1e5a08c0af28ab643
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206463"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985084"
 ---
-# <a name="use-stage-reason-codes"></a><span data-ttu-id="2d3d4-103">استخدام أكواد السبب</span><span class="sxs-lookup"><span data-stu-id="2d3d4-103">Use stage reason codes</span></span> 
+# <a name="use-stage-reason-codes"></a><span data-ttu-id="e281a-103">استخدام أكواد السبب</span><span class="sxs-lookup"><span data-stu-id="e281a-103">Use stage reason codes</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="2d3d4-104">يمكنك استخدام كود سبب لتوضيح سبب إلغاء اتفاقية مستوى الخدمة (SLA)، أو سبب تجاوز أمر خدمة لحدود الوقت التي قمت بتحديدها في SLA.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-104">You use a reason code to indicate why a service level agreement (SLA) has been canceled, or why a service order has exceeded the time limit that is you define in the SLA.</span></span>
+<span data-ttu-id="e281a-104">يمكنك استخدام كود سبب لتوضيح سبب إلغاء اتفاقية مستوى الخدمة (SLA)، أو سبب تجاوز أمر خدمة لحدود الوقت التي قمت بتحديدها في SLA.</span><span class="sxs-lookup"><span data-stu-id="e281a-104">You use a reason code to indicate why a service level agreement (SLA) has been canceled, or why a service order has exceeded the time limit that is you define in the SLA.</span></span>
 
-<span data-ttu-id="2d3d4-105">ويمكنك أيضًا تحديد أن أحد أكواد السبب مطلوب عند إلغاء SLA، أو عندما يتجاوز حد الوقت المدة المحددة في SLA لأمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-105">You can also specify that a reason code is required when an SLA is canceled, or when the time limit exceeds the time that is specified in the SLA for the service order.</span></span>
+<span data-ttu-id="e281a-105">ويمكنك أيضًا تحديد أن أحد أكواد السبب مطلوب عند إلغاء SLA، أو عندما يتجاوز حد الوقت المدة المحددة في SLA لأمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="e281a-105">You can also specify that a reason code is required when an SLA is canceled, or when the time limit exceeds the time that is specified in the SLA for the service order.</span></span>
 
-<span data-ttu-id="2d3d4-106">إذا قمت بتحديد أن أحد أكواد السبب مطلوب، فيجب عليك إدخال كود سبب في المواقف التالية:</span><span class="sxs-lookup"><span data-stu-id="2d3d4-106">If you have specified that a reason code is required, you must enter a reason code in the following situations:</span></span>
+<span data-ttu-id="e281a-106">إذا قمت بتحديد أن أحد أكواد السبب مطلوب، فيجب عليك إدخال كود سبب في المواقف التالية:</span><span class="sxs-lookup"><span data-stu-id="e281a-106">If you have specified that a reason code is required, you must enter a reason code in the following situations:</span></span>
 
-  - <span data-ttu-id="2d3d4-107">عندما يتم نقل أمر خدمة إلى مرحلة تقوم بإيقاف تسجيل الوقت في مقابل SLA لأمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-107">When a service order is moved to a stage that stops time recording against the SLA for the service order.</span></span>
+  - <span data-ttu-id="e281a-107">عندما يتم نقل أمر خدمة إلى مرحلة تقوم بإيقاف تسجيل الوقت في مقابل SLA لأمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="e281a-107">When a service order is moved to a stage that stops time recording against the SLA for the service order.</span></span>
 
-  - <span data-ttu-id="2d3d4-108">وقت اعتماد أمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-108">When the service order is signed off.</span></span>
+  - <span data-ttu-id="e281a-108">وقت اعتماد أمر الخدمة.</span><span class="sxs-lookup"><span data-stu-id="e281a-108">When the service order is signed off.</span></span>
 
-  - <span data-ttu-id="2d3d4-109">عندما يتم إيقاف تسجيل الوقت يدويًا.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-109">When time recording is manually stopped.</span></span>
+  - <span data-ttu-id="e281a-109">عندما يتم إيقاف تسجيل الوقت يدويًا.</span><span class="sxs-lookup"><span data-stu-id="e281a-109">When time recording is manually stopped.</span></span>
 
-## <a name="set-up-reason-codes"></a><span data-ttu-id="2d3d4-110">إعداد أكواد السبب</span><span class="sxs-lookup"><span data-stu-id="2d3d4-110">Set up reason codes</span></span>
+## <a name="set-up-reason-codes"></a><span data-ttu-id="e281a-110">إعداد أكواد السبب</span><span class="sxs-lookup"><span data-stu-id="e281a-110">Set up reason codes</span></span>
 
-1.  <span data-ttu-id="2d3d4-111">انقر فوق **إدارة الخدمة** \> **الإعداد** \> **أوامر الخدمة** \> **أكواد سبب المرحلة**.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-111">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes**.</span></span>
+1.  <span data-ttu-id="e281a-111">انقر فوق **إدارة الخدمة** \> **الإعداد** \> **أوامر الخدمة** \> **أكواد سبب المرحلة** .</span><span class="sxs-lookup"><span data-stu-id="e281a-111">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes** .</span></span>
 
-2.  <span data-ttu-id="2d3d4-112">في النموذج **‏‫رموز السبب للمرحلة**، انقر فوق **جديد** لإنشاء رمز سبب جديد.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-112">In the **Stage reason codes** form, click **New** to create a new reason code.</span></span>
+2.  <span data-ttu-id="e281a-112">في النموذج **‏‫رموز السبب للمرحلة** ، انقر فوق **جديد** لإنشاء رمز سبب جديد.</span><span class="sxs-lookup"><span data-stu-id="e281a-112">In the **Stage reason codes** form, click **New** to create a new reason code.</span></span>
 
-3.  <span data-ttu-id="2d3d4-113">في الحقل **‏‫رموز السبب للمرحلة**، أدخل رمز سبب فريد خاص بالمرحلة.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-113">In the **Stage reason code** field, enter a unique stage reason code.</span></span>
+3.  <span data-ttu-id="e281a-113">في الحقل **‏‫رموز السبب للمرحلة** ، أدخل رمز سبب فريد خاص بالمرحلة.</span><span class="sxs-lookup"><span data-stu-id="e281a-113">In the **Stage reason code** field, enter a unique stage reason code.</span></span>
 
-4.  <span data-ttu-id="2d3d4-114">في الحقل **الوصف**، أخل وصفًا لرمز السبب الخاص بالمرحلة.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-114">In the **Description** field, enter a description of the stage reason code.</span></span>
+4.  <span data-ttu-id="e281a-114">في الحقل **الوصف** ، أخل وصفًا لرمز السبب الخاص بالمرحلة.</span><span class="sxs-lookup"><span data-stu-id="e281a-114">In the **Description** field, enter a description of the stage reason code.</span></span>
 
-5.  <span data-ttu-id="2d3d4-115">أغلق النموذج لحفظ التغييرات.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-115">Close the form to save your changes.</span></span>
+5.  <span data-ttu-id="e281a-115">أغلق النموذج لحفظ التغييرات.</span><span class="sxs-lookup"><span data-stu-id="e281a-115">Close the form to save your changes.</span></span>
 
-## <a name="require-reason-codes-when-a-service-level-agreement-is-canceled"></a><span data-ttu-id="2d3d4-116">طلب أكواد سبب عند إلغاء اتفاقية مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="2d3d4-116">Require reason codes when a service level agreement is canceled</span></span>
+## <a name="require-reason-codes-when-a-service-level-agreement-is-canceled"></a><span data-ttu-id="e281a-116">طلب أكواد سبب عند إلغاء اتفاقية مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="e281a-116">Require reason codes when a service level agreement is canceled</span></span>
 
-1.  <span data-ttu-id="2d3d4-117">انقر فوق **إدارة الخدمة‬** \> **الإعداد** \> **محددات إدارة الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-117">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
+1.  <span data-ttu-id="e281a-117">انقر فوق **إدارة الخدمة‬** \> **الإعداد** \> **محددات إدارة الخدمة** .</span><span class="sxs-lookup"><span data-stu-id="e281a-117">Click **Service management** \> **Setup** \> **Service management parameters** .</span></span>
 
-2.  <span data-ttu-id="2d3d4-118">في نموذج **محددات إدارة الخدمة** ، انقر فوق الارتباط **عام** ثم قم بتحديد خانة الاختيار **‏‫رمز سبب الإلغاء‬** .</span><span class="sxs-lookup"><span data-stu-id="2d3d4-118">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on canceling** check box.</span></span>
+2.  <span data-ttu-id="e281a-118">في نموذج **محددات إدارة الخدمة** ، انقر فوق الارتباط **عام** ثم قم بتحديد خانة الاختيار **‏‫رمز سبب الإلغاء‬** .</span><span class="sxs-lookup"><span data-stu-id="e281a-118">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on canceling** check box.</span></span>
 
-## <a name="require-reason-codes-when-the-a-service-order-exceeds-the-time-limit-that-is-set-by-the-service-level-agreement"></a><span data-ttu-id="2d3d4-119">تقديم أكواد السبب عندما يتجاوز أمر الخدمة حد الوقت المعين بواسطة اتفاقية مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="2d3d4-119">Require reason codes when the a service order exceeds the time limit that is set by the service level agreement</span></span>
+## <a name="require-reason-codes-when-the-a-service-order-exceeds-the-time-limit-that-is-set-by-the-service-level-agreement"></a><span data-ttu-id="e281a-119">تقديم أكواد السبب عندما يتجاوز أمر الخدمة حد الوقت المعين بواسطة اتفاقية مستوى الخدمة</span><span class="sxs-lookup"><span data-stu-id="e281a-119">Require reason codes when the a service order exceeds the time limit that is set by the service level agreement</span></span>
 
-1.  <span data-ttu-id="2d3d4-120">انقر فوق **إدارة الخدمة‬** \> **الإعداد** \> **محددات إدارة الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="2d3d4-120">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
+1.  <span data-ttu-id="e281a-120">انقر فوق **إدارة الخدمة‬** \> **الإعداد** \> **محددات إدارة الخدمة** .</span><span class="sxs-lookup"><span data-stu-id="e281a-120">Click **Service management** \> **Setup** \> **Service management parameters** .</span></span>
 
-2.  <span data-ttu-id="2d3d4-121">في نموذج **محددات إدارة الخدمة** ، انقر فوق الارتباط **عام** ثم قم بتحديد خانة الاختيار **‏‫رمز سبب ‏‫تجاوز الوقت‬** .</span><span class="sxs-lookup"><span data-stu-id="2d3d4-121">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on exceeding time** check box.</span></span>
+2.  <span data-ttu-id="e281a-121">في نموذج **محددات إدارة الخدمة** ، انقر فوق الارتباط **عام** ثم قم بتحديد خانة الاختيار **‏‫رمز سبب ‏‫تجاوز الوقت‬** .</span><span class="sxs-lookup"><span data-stu-id="e281a-121">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on exceeding time** check box.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2d3d4-122">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="2d3d4-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e281a-122">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="e281a-122">See also</span></span>
 
-[<span data-ttu-id="2d3d4-123">تسجيل وقت البدء والتوقف على أمر خدمة</span><span class="sxs-lookup"><span data-stu-id="2d3d4-123">Start and stop time recording on a service order</span></span>](start-and-stop-time-recording-on-a-service-order.md)
+[<span data-ttu-id="e281a-123">تسجيل وقت البدء والتوقف على أمر خدمة</span><span class="sxs-lookup"><span data-stu-id="e281a-123">Start and stop time recording on a service order</span></span>](start-and-stop-time-recording-on-a-service-order.md)
 
   
 
