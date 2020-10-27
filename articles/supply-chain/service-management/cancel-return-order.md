@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 904d0e026cf05ab70a245546e41977de0a42a721
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 496608dc0175dd9f396b6b135cc8f7d692b4d6c7
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202987"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978046"
 ---
 # <a name="cancel-a-return-order"></a>إلغاء أمر إرجاع 
 
@@ -37,15 +37,15 @@ ms.locfileid: "3202987"
 > <P>يمكن فقط إلغاء أوامر الإرجاع بالحالة <STRONG>تم الإنشاء</STRONG>. ولا يمكن حذف أوامر الإرجاع التي تكون حالتها <STRONG>"مفتوح"</STRONG> أو <STRONG>"مغلق"</STRONG>.</P>
 
 
-1.  انقر فوق **المبيعات والتسويق** \> **عام** \> **أوامر الإرجاع** \> **كل أوامر الإرجاع**.
+1.  انقر فوق **المبيعات والتسويق** \> **عام** \> **أوامر الإرجاع** \> **كل أوامر الإرجاع** .
     
     –أو –
     
-    انقر فوق **المبيعات والتسويق** \> **عام** \> **أوامر الإرجاع** \> **أوامر الإرجاع التي تم إنشاؤها**.
+    انقر فوق **المبيعات والتسويق** \> **عام** \> **أوامر الإرجاع** \> **أوامر الإرجاع التي تم إنشاؤها** .
 
 2.  حدد أمر الإرجاع الذي تريد إلغاؤه.
 
-3.  وانقر فوق **إلغاء الأمر**.
+3.  وانقر فوق **إلغاء الأمر** .
 
 
 

@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64863b8c19c756cffab94adeaa9c38a0a3388d70
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 3b049b166edf2b5a318a4b1af85e7f74cfe433f2
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215023"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975454"
 ---
 # <a name="service-orders"></a>أوامر الخدمة   
 
@@ -48,7 +48,7 @@ ms.locfileid: "3215023"
 
 يوضح السيناريو التالي موقفًا آخر حيث يكون من المفيد إنشاء أمر خدمة غير مرتبط باتفاقية خدمة.
 
-يستلم مرسِل الشركة مكالمة لطلب خدمة طوارئ لأحد المصاعد. لا يوجد وقت لإعداد اتفاقية خدمة ومشروع للخدمة. لذلك، أنشأ المرسل أمر خدمة مباشرة في النموذج **أوامر الخدمة**، وأرفق أمر الخدمة بمشروع موجود، ثم أنشأ بنود أمر الخدمة. أنشأ المرسل أيضًا مهمة أو علاقة كائن لأمر خدمة موجود بالفعل، لتسجيل عمل غير مرتبط باتفاقية الخدمة. للحصول على مزيد من المعلومات، راجع [إنشاء أوامر خدمة يدوياً](create-service-orders-manually.md) و [إنشاء علاقات مهام الخدمة](create-service-task-relations.md).
+يستلم مرسِل الشركة مكالمة لطلب خدمة طوارئ لأحد المصاعد. لا يوجد وقت لإعداد اتفاقية خدمة ومشروع للخدمة. لذلك، أنشأ المرسل أمر خدمة مباشرة في النموذج **أوامر الخدمة** ، وأرفق أمر الخدمة بمشروع موجود، ثم أنشأ بنود أمر الخدمة. أنشأ المرسل أيضًا مهمة أو علاقة كائن لأمر خدمة موجود بالفعل، لتسجيل عمل غير مرتبط باتفاقية الخدمة. للحصول على مزيد من المعلومات، راجع [إنشاء أوامر خدمة يدوياً](create-service-orders-manually.md) و [إنشاء علاقات مهام الخدمة](create-service-task-relations.md).
 
 ## <a name="monitor-the-progress-of-service-orders"></a>مراقبة تقدم أوامر الخدمة
 

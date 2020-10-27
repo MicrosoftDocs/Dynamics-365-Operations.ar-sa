@@ -3,7 +3,7 @@ title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819879"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971435"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -34,6 +34,22 @@ ms.locfileid: "3819879"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.15 من تطبيقات Finance and Operations
+
+> [!NOTE]
+> الإصدار 10.0.15 هو إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>وظيفة Visual Studio اضافيه لتطبيق إصلاحات بيانات التعريف
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | ولم تعد الإصلاحات الضرورية لبيانات التعريف معتمده مع تحديثات خدمه [إصدار واحد](../../fin-ops/get-started/one-version.md) تم تقديمها في 2018 يوليو مع الإصدار 8.1. |
+| **هل تم الاستبدال بميزة أخرى؟**   | إصلاحات بيانات التعريف الفردية غير متوفرة للإصدارات المعتمدة. يتم تطبيق تحديثات الجودة التراكمية بدلا من ذلك. |
+| **مناطق المنتجات المتأثرة**         | وظائف Visual Studio الإضافية |
+| **خيارات النشر**              | الاجهزه الظاهرية للتطوير |
+| **الحالة**                         | مع الإصدار 10.0.15، فان الوظيفة الاضافيه لم تعد مضمنه في أدوات Visual Studio. |
+
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.14 من تطبيقات Finance and Operations
 
@@ -50,6 +66,7 @@ ms.locfileid: "3819879"
 | **مناطق المنتجات المتأثرة**         | إدارة النظام |
 | **خيارات النشر**              | ‏‏الكل |
 | **الحالة**                         | بحلول أكتوبر 2021، ستتم إزالة هذا النموذج.   |
+
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.13 من تطبيقات Finance and Operations
 
@@ -82,7 +99,7 @@ ms.locfileid: "3819879"
 | **هل تم الاستبدال بميزة أخرى؟**   | [عنصر تحكم الشبكة الجديدة](../..//fin-ops/get-started/grid-capabilities.md) |
 | **مناطق المنتجات المتأثرة**         | عميل الويب |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | في الإصدار 10.0.13، يتوفر عنصر تحكم الشبكة الجديدة بشكل عام، ويمكن للعملاء تشغيل هذه الميزة بشكل اختياري. سيصبح عنصر تحكم الشبكة الجديدة إلزاميًا في إصدار أكتوبر 2021. عندما يصبح عنصر تحكم الشبكة الجديدة إلزاميًا، لن تتم مراعاة واجهة API **forceLegacyGrid()**. |
+| **الحالة**                         | في الإصدار 10.0.13، يتوفر عنصر تحكم الشبكة الجديدة بشكل عام، ويمكن للعملاء تشغيل هذه الميزة بشكل اختياري. سيصبح عنصر تحكم الشبكة الجديدة إلزاميًا في إصدار أكتوبر 2021. عندما يصبح عنصر تحكم الشبكة الجديدة إلزاميًا، لن تتم مراعاة واجهة API **forceLegacyGrid()** . |
 
 ### <a name="personalization-without-saved-views"></a>تخصيص بدون طرق عرض محفوظة 
 

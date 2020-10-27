@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8842a293a50efb24590784cc52ef0254eca10e3a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 88e732f64b389acafee23427594225dfacda71cc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206532"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985758"
 ---
 # <a name="template-boms"></a>قوائم مكونات الصنف القالب    
 
@@ -109,11 +109,11 @@ ms.locfileid: "3206532"
 
 ## <a name="set-up-number-sequences"></a>إعداد التسلسلات الرقمية
 
-1.  في صفحة قائمة **التسلسلات الرقمية**، قم بإنشاء تسلسلات رقمية لقائمة مكونات الصنف القالب ورقم بند سجل قائمة مكونات الصنف. 
+1.  في صفحة قائمة **التسلسلات الرقمية** ، قم بإنشاء تسلسلات رقمية لقائمة مكونات الصنف القالب ورقم بند سجل قائمة مكونات الصنف. 
 
-2.  انقر فوق **إدارة الخدمة‬** \> **الإعداد** \> **محددات إدارة الخدمة**.
+2.  انقر فوق **إدارة الخدمة‬** \> **الإعداد** \> **محددات إدارة الخدمة** .
 
-3.  انقر فوق **التسلسلات الرقمية**، ثم حدد كود تسلسل رقمي لمراجع التسلسل الرقمي التي قمت بإنشائها في نموذج **التسلسلات الرقمية**.
+3.  انقر فوق **التسلسلات الرقمية** ، ثم حدد كود تسلسل رقمي لمراجع التسلسل الرقمي التي قمت بإنشائها في نموذج **التسلسلات الرقمية** .
 
 4.  أغلق النموذج لحفظ التغييرات.
 

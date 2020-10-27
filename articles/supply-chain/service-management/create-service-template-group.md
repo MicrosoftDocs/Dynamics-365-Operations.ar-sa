@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 736eaba0c62b7347ed7db0abfb5a77f68f989400
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 58af71c56d1db3f5856a0104da9ac1435dd8e7ae
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202619"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978599"
 ---
 # <a name="create-a-service-template-group"></a>إنشاء مجموعة قوالب خدمة  
 
@@ -31,7 +31,7 @@ ms.locfileid: "3202619"
 
 يمكن استخدام مجموعات قوالب الخدمة لفرز وتصفية قوالب الخدمة.
 
-1. انقر فوق **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **مجموعات اتفاقيات الخدمة**.
+1. انقر فوق **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **مجموعات اتفاقيات الخدمة** .
 2. قم بإنشاء مجموعة قوالب خدمة جديدة.
 3. أدخل معرف المجموعة والوصف ومجموعة قوالب الخدمة الأصلية، في حال وجودها.
 4. احفظ مجموعة قوالب الخدمة.

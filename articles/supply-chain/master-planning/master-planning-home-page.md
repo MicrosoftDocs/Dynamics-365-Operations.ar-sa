@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdf83c3595691937a3c0f3863cf28753f12b957
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ec7203506d7fa3e71211bd1547dc8474f5d17dc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209825"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984216"
 ---
 # <a name="master-planning-home-page"></a>الصفحة الرئيسية للتخطيط الرئيسي
 
@@ -39,7 +39,7 @@ ms.locfileid: "3209825"
 
 فيما يلي عمليات التخطيط الرئيسي الثلاث:
 
--  **التخطيط الرئيسي** - تحسب الخطة الرئيسية صافي المتطلبات. يعتمد على الأوامر الحالية الفعلية ويتيح للشركات إمكانية التحكم في تزويد المخزون على أساس فترة قصيرة أو بصفة يومية. هناك مصطلح آخر لوصفه ألا وهو *خطة صافي المتطلبات*. لمزيد من المعلومات، راجع [نظرة عامة على الخطط الرئيسية](master-plans.md). 
+-  **التخطيط الرئيسي** - تحسب الخطة الرئيسية صافي المتطلبات. يعتمد على الأوامر الحالية الفعلية ويتيح للشركات إمكانية التحكم في تزويد المخزون على أساس فترة قصيرة أو بصفة يومية. هناك مصطلح آخر لوصفه ألا وهو *خطة صافي المتطلبات* . لمزيد من المعلومات، راجع [نظرة عامة على الخطط الرئيسية](master-plans.md). 
 
 -  **تخطيط التنبؤ** - يحسب جدول التنبؤ إجمالي المتطلبات. يعتمد على التوقعات المستقبلية (أو التنبؤات)، ويتيح للشركات إمكانية إجراء التخطيط طويل الأمد للمواد والقدرة. لمزيد من المعلومات، راجع [نظرة عامة على التنبؤ بالطلب](introduction-demand-forecasting.md). 
 

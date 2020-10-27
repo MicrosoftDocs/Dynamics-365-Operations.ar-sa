@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c58cd8002f6bb80ebcbd8c552e4e3509d7528ea
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 451aeebd46d60251eed940016486509c4aa3f458
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215161"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987452"
 ---
 # <a name="service-management-overview"></a>نظرة عامة على إدارة الخدمة
 
@@ -48,7 +48,7 @@ ms.locfileid: "3215161"
 
 ## <a name="business-processes"></a>‏‏العمليات التجارية
 
-يوضح الرسم التخطيطي التالي العمليات التجارية عالية المستوى في **إدارة الخدمة‬**، ويُظهر أماكن تكامل عمليات الخدمة مع وحدات أخرى.
+يوضح الرسم التخطيطي التالي العمليات التجارية عالية المستوى في **إدارة الخدمة‬** ، ويُظهر أماكن تكامل عمليات الخدمة مع وحدات أخرى.
 
 [![مخطط العمليات التجارية لإدارة الخدمات](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 

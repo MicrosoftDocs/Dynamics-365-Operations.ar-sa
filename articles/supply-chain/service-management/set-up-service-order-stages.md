@@ -15,26 +15,26 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c7b632ea9c4574de8f9b0a128976429b2e2e786
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86d60a67b60b1bd3a13666b35f729f88ecfee3d3
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206739"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984861"
 ---
 # <a name="set-up-service-order-stages"></a>إعداد مراحل أمر الخدمة 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  انقر فوق **إدارة الخدمة** \> **الإعداد** \> **أوامر الخدمة** \> **مراحل الخدمة**.
+1.  انقر فوق **إدارة الخدمة** \> **الإعداد** \> **أوامر الخدمة** \> **مراحل الخدمة** .
 
 2.  اضغط CTRL+N لإنشاء سجل جديد.
 
-3.  في حقلي **مرحلة الخدمة** و**الوصف**، حدد معرف مرحلة الخدمة والوصف.
+3.  في حقلي **مرحلة الخدمة** و **الوصف** ، حدد معرف مرحلة الخدمة والوصف.
 
 4.  حدد المحددات المناسبة للمرحلة.
 

@@ -16,15 +16,15 @@ ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cc6ad48ef80aa01739129b59cc1133d0a1930f24
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759462"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976465"
 ---
 # <a name="overhead-calculation"></a>عملية حساب المصروفات الزائدة
 
@@ -80,7 +80,7 @@ ms.locfileid: "3759462"
 
 ### <a name="step-1-process-the-cost-behavior-calculation"></a>الخطوة 1: معالجة حساب سلوك التكلفة
 
-بشكل افتراضي، عندما يتم استيراد إدخالات التكلفة من البيانات المصدر، تظهر **غير مصنف‬ة** في تصنيف سلوك التكلفة في محاسبة التكاليف. من خلال تطبيق قواعد سياسة سلوك التكلفة، يمكنك إعادة تصنيف إدخالات التكلفة على أنها **تكلفة ثابتة** أو **تكلفة متغيرة**.
+بشكل افتراضي، عندما يتم استيراد إدخالات التكلفة من البيانات المصدر، تظهر **غير مصنف‬ة** في تصنيف سلوك التكلفة في محاسبة التكاليف. من خلال تطبيق قواعد سياسة سلوك التكلفة، يمكنك إعادة تصنيف إدخالات التكلفة على أنها **تكلفة ثابتة** أو **تكلفة متغيرة** .
 
 #### <a name="define-the-cost-behavior-rule"></a>تعريف قاعدة سلوك التكلفة
 

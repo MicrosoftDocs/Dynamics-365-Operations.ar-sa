@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ade723a41428a01d0e4afe7b556a752b1f22f3d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540c0079a9fca8158ed507ce2bc50839bd585fc1
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211987"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986661"
 ---
 # <a name="view-undispatched-service-orders"></a>عرض أوامر الخدمة غير المرسلة 
 
@@ -32,9 +32,9 @@ ms.locfileid: "3211987"
 
 يصف هذا الموضوع كيفية عرض الأنشطة في أمر خدمة لم يتم تعيين عامل إليهم من فريق الإرسال.
 
-1.  انقر فوق **إدارة الخدمة** \> **دوري** \> **لوحة الإرسال‬**.
+1.  انقر فوق **إدارة الخدمة** \> **دوري** \> **لوحة الإرسال‬** .
 
-2.  في النافذة **لوحة الإرسال**، أدخل تاريخ البدء وتاريخ الانتهاء للفترة التي تريد عرض نشاط الإرسال لها.
+2.  في النافذة **لوحة الإرسال** ، أدخل تاريخ البدء وتاريخ الانتهاء للفترة التي تريد عرض نشاط الإرسال لها.
 
 3.  اختياري: حدد ما إذا كان سيتم تضمين الأنشطة المقفلة وفرق العمل ذات الصلة في النتائج.
 
@@ -46,7 +46,7 @@ ms.locfileid: "3211987"
 
 
 
-5.  لعرض قائمة بأوامر الخدمة التي لم يتم تعيين فريق إرسال لها، انقر فوق علامة التبويب **غير مرسل**.
+5.  لعرض قائمة بأوامر الخدمة التي لم يتم تعيين فريق إرسال لها، انقر فوق علامة التبويب **غير مرسل** .
 
 ## <a name="see-also"></a>راجع أيضًا
 

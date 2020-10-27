@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45d4533211e7f64635c9523c177aa569b6a2f8a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 52a4082f6e201bcd2820f3d11a61929d8f906840
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202941"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977014"
 ---
 # <a name="change-the-service-order-stage"></a>تغيير مرحلة أمر الخدمة 
 
@@ -32,12 +32,12 @@ ms.locfileid: "3202941"
 
 اتبع هذه الخطوات لنقل أمر خدمة إلى المرحلة التالية في سير العمل الخدمة أو إعادته إلى مرحلة سابقة.
 
-1.  انقر فوق **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات**.
+1.  انقر فوق **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات** .
 
-2.  حدد أمر الخدمة، ثم انقر فوق علامة التبويب **إرسال**.
+2.  حدد أمر الخدمة، ثم انقر فوق علامة التبويب **إرسال** .
 
-3.  في **"جزء الإجراءات"**، انقر فوق **المرحلة التالية** أو **المرحلة السابقة**.
+3.  في **"جزء الإجراءات"** ، انقر فوق **المرحلة التالية** أو **المرحلة السابقة** .
 
-4.  في النموذج **تغيير مرحلة الخدمة**، حدد المرحلة المناسبة.
+4.  في النموذج **تغيير مرحلة الخدمة** ، حدد المرحلة المناسبة.
 
 

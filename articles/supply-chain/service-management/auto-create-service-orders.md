@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33de4746b8011f4e7fc0ce2929c967870eeebae9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08fb7363ab87fd6a7f3d38406e72b1f542dc2c2a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203010"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978739"
 ---
 # <a name="automatically-create-service-orders"></a>إنشاء أوامر الخدمة تلقائيًا 
 
@@ -38,7 +38,7 @@ ms.locfileid: "3203010"
 
   - فترة اتفاقية الخدمة التي يتم إعدادها في بنود اتفاقية الخدمة. تشير فترة اتفاقية الخدمة إلى تكرار إنشاء بنود أمر الخدمة. لمزيد من المعلومات، راجع [فترات الخدمة](service-intervals.md).
 
-  - الفترة التي تحددها للخدمة في حقول **من تاريخ** و **إلى تاريخ** في نموذج **إنشاء أوامر خدمة**. لمزيد من المعلومات، راجع [إنشاء أوامر الخدمة تلقائيًا](create-service-orders-automatically.md).
+  - الفترة التي تحددها للخدمة في حقول **من تاريخ** و **إلى تاريخ** في نموذج **إنشاء أوامر خدمة** . لمزيد من المعلومات، راجع [إنشاء أوامر الخدمة تلقائيًا](create-service-orders-automatically.md).
 
   - خيار **تجميع أوامر الخدمة** في رأس اتفاقية الخدمة. يحدد هذا الخيار ما إذا كان سيتم إنشاء بنود أمر الخدمة من اتفاقية الخدمة، ويجمع أوامر الخدمة حسب الموظف أو مهمة الخدمة أو كائن الخدمة أو اتفاقية الخدمة. لمزيد من المعلومات، راجع [تجميع أوامر الخدمة](combine-service-orders.md).
 

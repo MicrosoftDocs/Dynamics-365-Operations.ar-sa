@@ -16,15 +16,15 @@ ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e9f0608c9afc25e7ca6657f6a2e87d088d4cbad
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3283980"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980648"
 ---
 # <a name="inventory-close"></a>إغلاق المخزون
 
@@ -51,8 +51,8 @@ ms.locfileid: "3283980"
 
 بعد اكتمال التحديث، يمكنك مراجعة إيصال دفتر الأستاذ الذي تم ترحيله كنتيجة لواحدة من تلك المهام.
 
-1.  في صفحة **إغلاق وتعديل**، على علامة التبويب **نظرة عامة**، حدد التحديث للمراجعة.
-2.  انقر فوق **تفاصيل**، ثم قم بتحديد **الإيصال**.
+1.  في صفحة **إغلاق وتعديل** ، على علامة التبويب **نظرة عامة** ، حدد التحديث للمراجعة.
+2.  انقر فوق **تفاصيل** ، ثم قم بتحديد **الإيصال** .
 
 ## <a name="effects-of-the-inventory-close-process-on-the-general-ledger"></a>تأثيرات عملية إغلاق المخزون على دفتر الأستاذ العام
 بإمكان الكثير من المهام التي يمكنك تنفيذها في صفحة **إغلاق وتعديل‬** أن تتسبب في حدوث تحديث في دفتر الأستاذ العام. على سبيل المثال، يتم تحديث دفتر الأستاذ العام عند إجراء تعديلات فعلية في المخزون وتعديلات في حركة المخزون وعند تشغيل إعادة حساب المخزون وإغلاق المخزون. 

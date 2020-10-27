@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mikefalkner
+ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 2aaccd7c09d6daf8a237a433cc22ac1bfc3c1541
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 28abef376e8462c9a69dbd8e5033ea799b6a4b3a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551235"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977805"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN)
 
@@ -32,16 +32,16 @@ ms.locfileid: "2551235"
 
 ## <a name="set-up-iban-structures"></a>إعداد بنى IBAN‬
 
-1. انتقل إلى **إدارة النقد والبنك \> الإعداد \> بنى IBAN**.
+1. انتقل إلى **إدارة النقد والبنك \> الإعداد \> بنى IBAN** .
 2. لاحظ أن إعداد بنى IBAN لكل بلد أو منطقة قم تم بشكل تلقائي.
 3. إذا أردت تخصيص البنى لبلد أو منطقة معينة، فيمكنك تحريرها.
 4. ستكون تعريفات البنية جزءًا من كل إصدار جديد. يمكنك استخدام القائمة **إعادة تعيين البنى‬** لتحميل أحدث التعريفات بعد كل تحديث.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>التحقق من صحة IBAN في بنية الحساب
 
-1. انتقل إلى **إدارة النقد والبنوك \> الحسابات البنكية \> الحسابات البنكية**.
+1. انتقل إلى **إدارة النقد والبنوك \> الحسابات البنكية \> الحسابات البنكية** .
 2. أنشئ حسابًا بنكيًا.
-3. على علامة التبويب السريعة **معلومات إضافية**، أدخل IBAN.
+3. على علامة التبويب السريعة **معلومات إضافية** ، أدخل IBAN.
 
     إذا لم يتطابق طول IBAN الطول المحدد لكل بلد أو منطقة، فستتلقى رسالة تحذير. لا يمكنك المتابعة إذا لم يتطابق طول IBAN غير مع الطول المحدد في بنية IBAN.
 

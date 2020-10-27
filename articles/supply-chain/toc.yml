@@ -70,12 +70,12 @@
                   items:
                     - name: الميزات الجديدة أو المتغيرة في صفحة Supply Chain Management الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: الإصدار 10.0.15 من Supply Chain Management (ديسمبر 2020)
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: الإصدار 10.0.14 من Supply Chain Management (نوفمبر 2020)
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: الإصدار 10.0.13 من Supply Chain Management (أكتوبر 2020)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: الإصدار 10.0.12 من Supply Chain Management (أغسطس 2020)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
@@ -194,6 +194,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: نقل مشروعات تنفيذ LCS إلى مستأجري Azure AD مختلفين
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: نقل مشاريع تنفيذ LCS من المواقع المحلية إلى السحابة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: مشروعات LCS وبيئات إنتاج متعددة على مستأجر Azure AD واحد
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: العولمة
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: تحديثات تنظيمية
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: الهند
+              items:
+                - name: طلبات تحويلات الأسهم
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: روسيا
               items:
                 - name: نظرة عامة على روسيا
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: تحسين أداء التخطيط الرئيسي
                   href: master-planning/master-planning-performance.md
+                - name: تحسين أداء محرك الجدولة
+                  href: master-planning/scheduling-engine-performance.md
                 - name: الخطط الرئيسية ووظائف المواقع المتعددة
                   items:
                     - name: نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: الاحتفاظ بمسار لطراز المنتج
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: أسعار المبيعات المستندة إلى السمات لتكوين منتج مستند إلى قيد
+                      href: pim/attribute-based-product-configurator.md
                     - name: الموافقة على نموذج تكوين المنتج
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: نقل البيانات لنماذج المنتجات
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: الإبلاغ عن الانتهاء من جهاز بطاقة الوظيفة
                       href: production-control/report-finished-job-device.md
+                    - name: توفير إرشادات الواقع المختلط للعمال العاملين في الإنتاج
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: عكس حالة أمر الإنتاج
                       href: production-control/reverse-production-order-status.md
                     - name: إمكانية رؤية استثناءات المواد
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: تمكين طباعة بطاقة لوحة الترخيص
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: إنشاء أوامر تحويل من تطبيق المستودع
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: معالجة حدث المستودع للتطبيق
+                      href: warehousing/warehouse-app-events.md
                     - name: تأكيد انتقاء الأجزاء
                       href: warehousing/piece-picking-confirmation.md
                     - name: رسوم ومواد التعبئة
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: إطار عمل دليل العملية
                       href: warehousing/process-guide-framework.md
+                    - name: استكشاف مشكلات الاتصال بتطبيق المستودع وإصلاحها
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: الترقية والترحيل
                   items:
                     - name: ترقية عمليات إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations

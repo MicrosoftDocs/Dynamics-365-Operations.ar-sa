@@ -3,7 +3,7 @@ title: إدارة طلبات الإجازة في Teams
 description: يوضح هذا الموضوع كيفية طلب إجازة في تطبيقات Dynamics 365 Human Resources في Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828934"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3929983"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "3828934"
 
    ![علامة القطع لتطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-ellipses.png)
  
-2. ابحث عن Dynamics 365 Human Resources، ثم حدد تجانب **Human Resources**.
+2. ابحث عن Dynamics 365 Human Resources، ثم حدد تجانب **Human Resources** .
 
    ![تجانب HR لتطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-human-resources-tile.png)
 
@@ -54,7 +54,7 @@ ms.locfileid: "3828934"
 > [!NOTE]
 > إذا كنت لا ترى مربع حوار تسجيل الدخول، فتحقق من إعدادات المستعرض للسماح بالإطارات المنبثقة. 
 
-إذا كان لديك حق الوصول إلى أكثر من مثيل واحد من Human Resources، فيمكنك تحديد البيئة التي ترغب في الاتصال بها في علامة تبويب **إعدادات**.
+إذا كان لديك حق الوصول إلى أكثر من مثيل واحد من Human Resources، فيمكنك تحديد البيئة التي ترغب في الاتصال بها في علامة تبويب **إعدادات** .
 
 > [!NOTE]
 > يدعم التطبيق الآن دور أمان مسؤول النظام.
@@ -106,11 +106,11 @@ ms.locfileid: "3828934"
  
 ### <a name="create-a-new-request"></a>إنشاء طلب جديد
 
-1. لإنشاء طلب إجازة جديد، حدد **طلب جديد**.
+1. لإنشاء طلب إجازة جديد، حدد **طلب جديد** .
 
    ![طلب جديد في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-timeoff-tab-new.png)
 
-2. أدخل اليوم أو الأيام التي تريد أخذها إجازة، ثم حدد **إضافة**.
+2. أدخل اليوم أو الأيام التي تريد أخذها إجازة، ثم حدد **إضافة** .
 
    ![إضافة إجازة في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-timeoff-tab-add.png)
 
@@ -120,7 +120,7 @@ ms.locfileid: "3828934"
 
 ### <a name="manage-draft-requests"></a>إدارة مسودات الطلبات
 
-1. حدد علامة التبويب **المسودات**.
+1. حدد علامة التبويب **المسودات** .
 
    ![علامة تبويب المسودات في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-drafts-tab.png)
 
@@ -132,7 +132,7 @@ ms.locfileid: "3828934"
    
 ### <a name="respond-to-teams-notifications"></a>الاستجابة لإخطارات Teams
 
-عندما تقوم أنت أو عامل أنت القائم بالموافقة بالنسبة له بإرسال طلب إجازة، ستتلقى إعلامًا في تطبيق Human Resources في Teams. يمكنك تحديد الإعلام لعرضه. تظهر الإعلامات أيضًا في منطقة **الدردشة**.
+عندما تقوم أنت أو عامل أنت القائم بالموافقة بالنسبة له بإرسال طلب إجازة، ستتلقى إعلامًا في تطبيق Human Resources في Teams. يمكنك تحديد الإعلام لعرضه. تظهر الإعلامات أيضًا في منطقة **الدردشة** .
 
 إذا كنت القائم بالموافقة، فيمكنك تحديد **موافقة** أو **رفض** في الإعلام. يمكنك أيضًا توفير رسالة اختيارية.
 
@@ -162,15 +162,31 @@ ms.locfileid: "3828934"
 
 إذا كنت مديرًا مسؤولاً عن مرؤوسين مباشرين، فيمكنك عرض إجازات الفريق الموافق عليها والمعلقة.
 
-1. في تطبيق Human Resources في Teams، حدد **إجازة**.
+1. في تطبيق Human Resources في Teams، حدد **إجازة** .
 
-2. حدد **تقويم الفريق**.
+2. حدد **تقويم الفريق** .
 
    ![عرض التقويم في تطبيق Human Resources Teams](./media/hr-teams-leave-app-view-calendar.png)
 
 يعرض التقويم إجازات المرؤوسين المباشرين الموافق عليها والمعلقة.
 
 ![تقويم الإجازات في تطبيق Human Resources Teams](./media/hr-teams-leave-app-calendar.png)
+
+## <a name="troubleshooting"></a>استكشاف الأخطاء وإصلاحها
+
+إذا كنت تواجه مشكله في تسجيل الدخول أو باستخدام تطبيق فرق الموارد البشرية، حاول اتباع إرشادات استكشاف الأخطاء وإصلاحها. إذا كنت لا تزال تواجه مشاكل بعد استكشاف الأخطاء وإصلاحها، اتصل بالدعم. لمزيد من المعلومات، راجع [الحصول على الدعم](hr-admin-troubleshooting-support.md).
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>لا يمكن التسجيل في تطبيق الموارد البشرية في الفرق
+
+إذا لم تتمكن من تسجيل الدخول إلى التطبيق ، فمن الممكن ان يكون الحساب الذي تستخدمه لتسجيل الدخول إلى Microsoft Teams غير مقترن بسجل موظف في Dynamics 365 Human Resources. اتصل بمسؤول النظام لضمان ربط سجل الموظف بشكل صحيح.
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>حدث خطا عند اعتماد طلبات المغادرة في تطبيق الموارد البشرية في الفرق
+
+في حاله تلقي خطا اثناء محاولة الموافقة علي طلبات الإجازات في تطبيق الفرق ، قم باجراء خطوات استكشاف الأخطاء وإصلاحها التالية:
+
+1. تحقق من ان الحساب الذي تستخدمه لتسجيل الدخول إلى Microsoft Teams هو نفس الحساب الذي تستخدمه للوصول اليه Dynamics 365 Human Resources.
+
+2. تحقق من انك أنت موافق صالح للطلب من خلال التحقق من إعدادات سير العمل للموافقة على المغادرة. لمزيد من المعلومات حول إنهاء مهام سير العمل، راجع [إنشاء سير عمل لطلب أجازه](hr-leave-and-absence-workflow.md).
 
 ## <a name="privacy-notice"></a>إشعار الخصوصية
 

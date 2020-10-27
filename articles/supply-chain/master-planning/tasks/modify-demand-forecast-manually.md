@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ddb14968bee06dd26b6584fab3d88445cd926cbe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 105cf50698889e81804155cdac3a8b484cbf87d7
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209572"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987156"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>تعديل التنبؤ بالطلب يدوياً
 
@@ -31,12 +31,12 @@ ms.locfileid: "3209572"
 
 
 ## <a name="modify-the-forecast-for-an-item"></a>تعديل التنبؤ لصنف
-1. ‏‫في **جزء التنقل**، انتقل إلى **الوحدات النمطية > إدارة معلومات المنتج > المنتجات > المنتجات الصادرة**‬‏‎.
+1. ‏‫في **جزء التنقل** ، انتقل إلى **الوحدات النمطية > إدارة معلومات المنتج > المنتجات > المنتجات الصادرة** ‬‏‎.
 2. في القائمة، قم بالبحث عن السجل المطلوب وحدده. حدد الصنف الذي تريد تعديل التنبؤ الخاص به. على سبيل المثال، يمكنك تحديد الصنف D0001.  
-3. في **جزء الإجراءات**، انقر فوق **الخطة**.
-4. انقر فوق **التنبؤ بالطلب**.
+3. في **جزء الإجراءات** ، انقر فوق **الخطة** .
+4. انقر فوق **التنبؤ بالطلب** .
 5. في القائمة، قم بوضع علامة للصف المحدد. إذا لم يكن هناك أي بنود تنبؤ، فيمكنك إنشاء بند جديد بالنقر فوق "جديد" في شريط التطبيق.  
-6. في الحقل **كمية المبيعات**، أدخل رقمًا. يمثل هذا الرقم الكمية المتوقعة للصنف.  
+6. في الحقل **كمية المبيعات** ، أدخل رقمًا. يمثل هذا الرقم الكمية المتوقعة للصنف.  
 7. انقر فوق "حفظ".
 
 ## <a name="modify-the-forecast-in-excel"></a>تعديل التنبؤ في Excel
