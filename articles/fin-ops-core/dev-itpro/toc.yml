@@ -142,8 +142,10 @@
                           items:
                             - name: متطلبات النظام للكتابة المزدوجة
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: السيناريوهات المدعومة لإعداد الكتابة المزدوجة
+                            - name: إرشادات حول كيفية إعداد الكتابة المزدوجة
                               href: data-entities/dual-write/connection-setup.md
+                            - name: اعتبارات المزامنة الأولية
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: إعداد الكتابة المزدوجة من Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
                             - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: استعادة النقطة الزمنية لقاعدة بيانات الإنتاج إلى بيئة الاختبار المعزولة
                   href: database/database-pitr-prod-sandbox.md
+                - name: تمكين الوصول إلى قاعدة البيانات في الوقت المحدد
+                  href: database/database-just-in-time-jit-access.md
             - name: البرامج التعليمية
               items:
                 - name: تحديث لأغراض التدريب
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: تهيئة Commerce Scale Unit (السحابة)
                   href: deployment/Initialize-Retail-Channels.md
+                - name: ترحيل القنوات إلى وحدة Commerce Scale Unit مختلفة
+                  href: deployment/Reassign-CSU.md
                 - name: موقع إقامة بيانات Retail
                   href: deployment/retail-data-residency.md
             - name: النشر المحلي
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: الحصول على دعم لـ Finance and Operations الذي تديره 21Vianet في الصين
               href: lifecycle-services/21vianet-support.md
-            - name: إعداد الدعم الفني لـ Finance and Operations
+            - name: إعداد الدعم الفني لتطبيقات Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: إدارة تجارب دعم Finance and Operations
+            - name: إدارة تجارب دعم لتطبيقات Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: إدارة النظام
           items:
