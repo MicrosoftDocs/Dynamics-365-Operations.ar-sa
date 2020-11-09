@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 82bdcc71196c22689cc65601f98187aaa9e5e9d6
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275407"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997292"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>استكشاف المشاكل وإصلاحها في المزامنة المباشرة
 
@@ -82,7 +81,7 @@ ms.locfileid: "3275407"
 
     ![تعيين المؤسسة](media/mapped_business_unit.png)
 
-2. قم بتسجيل الدخول إلى البيئة الموجودة في التطبيق المستند إلى النموذج في Dynamics 365، وانتقل إلى **الإعداد \>الأمان**، وابحث عن فريق وحدة الأعمال المعيّنة.
+2. قم بتسجيل الدخول إلى البيئة الموجودة في التطبيق المستند إلى النموذج في Dynamics 365، وانتقل إلى **الإعداد \>الأمان** ، وابحث عن فريق وحدة الأعمال المعيّنة.
 
     ![فريق وحدة الأعمال المعيّنة](media/setting_security_page.png)
 
@@ -98,7 +97,7 @@ ms.locfileid: "3275407"
 
 قد تظهر رسالة الخطأ التالية عند إنشاء البيانات في تطبيق Finance and Operations:
 
-*{"entityName":"CustCustomerV3Entity"،"executionStatus":2,"fieldResponses":\[\]،"recordResponses":\[{"errorMessage":"**يتعذر إنشاء الحمولة للكيان CustCustomerV3Entity**فشل إنشاء logDateTime":"2019-08-27T18:51:52.5843124Z"،"verboseError":"Payload"،" مع ظهور الخطأ عنوان URL غير صالح: عنوان URI فارغ."}\]،"isErrorCountUpdated":true}*
+*{"entityName":"CustCustomerV3Entity"،"executionStatus":2,"fieldResponses":\[\]،"recordResponses":\[{"errorMessage":" **يتعذر إنشاء الحمولة للكيان CustCustomerV3Entity** فشل إنشاء logDateTime":"2019-08-27T18:51:52.5843124Z"،"verboseError":"Payload"،" مع ظهور الخطأ عنوان URL غير صالح: عنوان URI فارغ."}\]،"isErrorCountUpdated":true}*
 
 فيما يلي النمط الذي يبدو عليه الخطأ في التطبيق المستند إلى النموذج في Dynamics 365:
 
@@ -108,7 +107,7 @@ ms.locfileid: "3275407"
 
 لإصلاح المشكلة، اتبع هذه الخطوات.
 
-1. قم بتسجيل الدخول إلى الجهاز الظاهري لـ Finance and Operations، وافتح SQL Server Management STUDIO (ssms) ، وابحث عن السجلات في الجدول DUALWRITEPROJECTCONFIGURATIONENTITY حيث **internalentityname** يساوي **العملاء V3** و**externalentityname** يساوي **الحسابات**. فيما يلي الشكل الذي يبدو عليه الاستعلام.
+1. قم بتسجيل الدخول إلى الجهاز الظاهري لـ Finance and Operations، وافتح SQL Server Management STUDIO (ssms) ، وابحث عن السجلات في الجدول DUALWRITEPROJECTCONFIGURATIONENTITY حيث **internalentityname** يساوي **العملاء V3** و **externalentityname** يساوي **الحسابات**. فيما يلي الشكل الذي يبدو عليه الاستعلام.
 
     ```sql
     select projectname, externalenvironmentURL ,\* 

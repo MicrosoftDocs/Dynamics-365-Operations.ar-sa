@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b3445157efce6349b3febafb6c860260052f7d6c
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835895"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039736"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>نظرة عامة على الوظيفة الإضافية الفوترة الإلكترونية
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 تُعد الوظيفة الإضافية الفوترة الإلكترونية لكل من Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management خدمة متعددة المستأجرين قابلة للتوسعة بشكل كبير. وهي تمكّن المعالجة القابلة للتكوين لمستندات الفواتير الإلكترونية ومبادلة المستندات القابلة للتكوين. قواعد المعالجة والتكامل قابلة للتكوين بشكل كامل، ويتم تشغيل المنطق خارج Finance وSupply Chain Management. تستهدف الخدمة بشكل أساسي معالجة الفواتير الإلكترونية في سيناريوهات الأعمال إلى الحكومة، ولكن يمكن تكوينها بشكل مخصص لأغراض أخرى.
 
