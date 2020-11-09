@@ -455,7 +455,7 @@
               href: ../finance/general-ledger/CFO-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: إنشاء بُنى الحساب‬
               href: ../finance/general-ledger/tasks/create-account-structures.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 'نظرة عامة على إعداد الموازنة '
+            - name: نظرة عامة على إعداد الموازنة
               href: ../finance/budgeting/basic-budgeting-overview-configuration.md?toc=/dynamics365/supply-chain/toc.json
             - name: إنشاء الأبعاد واستيراد أعضاء الأبعاد
               href: ../finance/cost-accounting/cost-dimension.md?toc=/dynamics365/supply-chain/toc.json
@@ -475,7 +475,7 @@
               href: ../finance/cost-accounting/dimension-hierarchy.md?toc=/dynamics365/supply-chain/toc.json
             - name: إنشاء تدرج هرمي لتقارير المنظمة
               href: ../finance/cost-accounting/tasks/create-an-organization-report-hierarchy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: حقوق الوصول لمراقب كائن التكلفة​
+            - name: حقوق الوصول لمراقب كائن التكلفة
               href: ../finance/cost-accounting/access-rights-cost-object-controller.md?toc=/dynamics365/supply-chain/toc.json
             - name: تكوين حقوق الوصول لمراقب كائن التكلفة
               href: ../finance/cost-accounting/tasks/configure-access-rights-cost-object-controller.md?toc=/dynamics365/supply-chain/toc.json
@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: إنشاء اتفاقية شراء
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: التوزيع التلقائي للمصاريف
+                  href: procurement/automatic-charges-allocation.md
                 - name: خصومات المورد
                   href: procurement/vendor-rebates.md
                 - name: استكشاف أخطاء الأسعار والخصومات والاتفاقيات والحسومات وإصلاحها
@@ -2041,6 +2043,14 @@
                       href: production-control/release-production-orders.md
                     - name: الإبلاغ عن أوامر الإنتاج كمنتهية
                       href: production-control/report-production-orders-as-finished.md
+                    - name: إعداد واجهة تنفيذ صالة الإنتاج‬ واستخدامها
+                      items:
+                        - name: تكوين واجهة تنفيذ صالة الإنتاج‬ واستخدامها
+                          href: production-control/production-floor-execution-configure.md
+                        - name: إعداد جهاز لتشغيل واجهة تنفيذ صالة الإنتاج‬ واستخدامها
+                          href: production-control/production-floor-execution-setup.md
+                        - name: طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬ واستخدامها
+                          href: production-control/production-floor-execution-use.md
                     - name: تكوين بطاقة وظيفة للأجهزة
                       href: production-control/config-job-card-device.md
                     - name: الإبلاغ عن الانتهاء من جهاز بطاقة الوظيفة
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: شحن أوامر المبيعات دون تخزينها
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: التوزيع التلقائي للمصاريف
+                  href: procurement/automatic-charges-allocation.md
                 - name: إنشاء أمر شراء من أمر مبيعات
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: إنشاء أوامر المبيعات
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: إنشاء أوامر تحويل من تطبيق المستودع
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: معالجة حدث المستودع للتطبيق
-                      href: warehousing/warehouse-app-events.md
                     - name: تأكيد انتقاء الأجزاء
                       href: warehousing/piece-picking-confirmation.md
                     - name: رسوم ومواد التعبئة
@@ -2843,6 +2853,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: إعداد الأجهزة المحمولة لعمل المستودع
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: معالجة حدث المستودع للتطبيق
+                      href: warehousing/warehouse-app-events.md
                     - name: استلام لوحة الترخيص‬ بواسطة تطبيق المستودع
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء

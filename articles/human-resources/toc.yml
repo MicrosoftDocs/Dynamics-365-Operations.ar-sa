@@ -3,8 +3,14 @@
   items:
     - name: الجديد
       items:
-        - name: الجديد أو المتغير في Human Resources
+        - name: الميزات الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 أكتوبر 2002
+          href: hr-whats-new-2020-10-22.md
+        - name: 6 أكتوبر 2020
+          href: hr-whats-new-2020-10-06.md
+        - name: 26 سبتمبر 2020
+          href: hr-whats-new-2020-09-26.md
         - name: 16 سبتمبر 2020
           href: hr-whats-new-2020-09-16.md
         - name: 3 سبتمبر 2020
@@ -83,6 +89,8 @@
               href: hr-admin-integration-dayforce.md
             - name: إنشاء تطبيق تصدير البيانات المتكررة
               href: hr-admin-integration-recurring-data-export.md
+            - name: التكامل مع LinkedIn Talent Hub
+              href: hr-admin-integration-linkedin.md
             - name: التكامل مع Office
               items:
                 - name: برنامج تعليمي لتكامل Office
@@ -217,6 +225,10 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: تطبيق Human Resources في Teams
           href: hr-admin-teams-leave-app.md
+        - name: الإعداد للعرض المباشر
+          href: hr-admin-go-live-prepare.md
+        - name: الأسئلة المتداولة حول العرض المباشر
+          href: hr-admin-go-live-faq.md
         - name: موارد الوثائق
           items:
             - name: نظام التعليمات
@@ -669,6 +681,8 @@
           items:
             - name: نظرة عامة على إعداد الخدمة الذاتية للموظف والمدير
               href: hr-employee-manager-self-service-overview.md
+            - name: إنشاء ارتباطات مخصصة في الخدمة الذاتية للمدير
+              href: hr-employee-manager-self-service-custom-links.md
             - name: تغيير اسم مساحة عمل الخدمة الذاتية للموظف
               href: hr-employee-self-service-workspace-name.md
             - name: تحرير المعلومات الشخصية

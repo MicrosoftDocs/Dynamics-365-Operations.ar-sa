@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (أكتوبر 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: Commerce 10.0.12 (أغسطس 2020)
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Finance and Operations
@@ -1040,6 +1038,8 @@
                       href: add-breadcrumb.md
                     - name: الوحدة النمطية لقائمة التنقل
                       href: nav-menu-module.md
+                    - name: الوحدة النمطية لمحدد الموقع
+                      href: site-selector.md
                 - name: الوحدات النمطية للتوافق
                   items:
                     - name: الوحدة النمطية للموافقة على ملف تعريف الارتباط
@@ -1986,6 +1986,8 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: تحليل وحدة نمطية
                   items:
+                    - name: نظرة عامة على الوحدات النمطية
+                      href: e-commerce-extensibility/modules-overview.md
                     - name: ملف التعريف الوحدة النمطية
                       href: e-commerce-extensibility/module-definition-file.md
                     - name: ملف مكون لتفاعل الوحدة النمطية
@@ -2034,12 +2036,18 @@
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: نظرة عامة حول المكونات التفاعلية
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: التلاعب بحالة تسجيل الدخول أثناء التطوير المحلي
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: عولمة الوحدات النمطية باستخدام الفئة CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: إعداد Azure Key Vault لإدارة المفاتيح الآمنة
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: تطوير إجراءات البيانات
                   items:
                     - name: نظرة عامة حول إجراءات البيانات
                       href: e-commerce-extensibility/data-actions.md
+                    - name: خيارات ذاكرة التخزين المؤقت لإجراءات البيانات
+                      href: e-commerce-extensibility/data-action-cache.md
                     - name: اختبار إجراءات البيانات باستخدام عناصر وهمية
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: إجراءات بيانات تحميل الصفحة
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: توسيع نسق لإضافة ملحقات الوحدة
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: تجاوز مكون مكتبة وحدات في نسق
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: توسيع نسق من نسق أساسي
                       href: e-commerce-extensibility/extend-theme.md
                     - name: إضافة موارد مخصصة إلى كود التخصيص الخاص بك
@@ -2102,6 +2112,10 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: تحديثات SDK ومكتبة الوحدات
                       href: e-commerce-extensibility/sdk-updates.md
+                - name: أفضل الممارسات
+                  items:
+                    - name: أفضل الممارسات لتطوير Dynamics 365 Commerce
+                      href: e-commerce-extensibility/best-practices-dev.md
             - name: Retail SDK
               items:
                 - name: بنية Retail SDK
@@ -2197,7 +2211,7 @@
                 - name: وكلاء Retail Typescript وC#
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: استهلاك واجهات برمجة تطبيقات Retail Server في تطبيقات خارجية
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: قابلية توسعة Commerce Runtime (CRT)
               items:
                 - name: هندسة وتكوين CRT

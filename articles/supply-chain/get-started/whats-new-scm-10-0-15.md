@@ -1,9 +1,9 @@
 ---
-title: ما الجديد في معاينة الإصدار 10.0.15 (ديسمبر 2020) من Dynamics 365 Supply Chain Management
+title: معاينة Dynamics 365 Supply Chain Management 10.0.15 (يناير 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.15 من Dynamics 365 Supply Chain Management.
 author: kamaybac
 manager: tfehr
-ms.date: 10/09/2020
+ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,35 +17,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7c7ac0e795ec085584be9cfdef65333969255ed6
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 0b8e69261563f61de022a626dd12d15d81535392
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989301"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012265"
 ---
-# <a name="whats-new-in-the-dynamics-365-supply-chain-management-preview-of-release-10015-december-2020"></a>ما الجديد في معاينة الإصدار 10.0.15 (ديسمبر 2020) من Dynamics 365 Supply Chain Management
+# <a name="preview-of-dynamics-365-supply-chain-management-10015-january-2021"></a>معاينة Dynamics 365 Supply Chain Management 10.0.15 (يناير 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.15 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.644، وهو يتوفر كما يلي
 
-- **معاينه الإصدار 10.0.15:** أكتوبر 2020
-- **التوفر العام للإصدار 10.0.15 (التحديث اليدوي):** نوفمبر 2020
-- **التوفر العام للإصدار 10.0.15 (التحديث التلقائي):** ديسمبر 2020
+- **معاينه الإصدار:** أكتوبر 2020
+- **التوفر العام للإصدار (تحديث ذاتي):** نوفمبر 2020
+- **التوفر العام للإصدار (تحديث تلقائي):** يناير 2020
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق إضافية تتوفر حاليًا لهذه الميزة. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. اتبع الارتباطات الخاصة بخطه الإصدار للاطلاع علي تواريخ الإصدار، أو انتقل إلى [الجديد والمخطط لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للحصول علي نظره عامه علي التواريخ التي تم إصدارها وتخطيطها لموجه الإصدار الحالي. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
+يتضمن هذا الإصدار الميزات التالية. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
-- أداره وحده مقياس السحابة والحافة باستخدام أحمال التصنيع وتنفيذ المستودع
+- أداره وحده مقياس السحابة والحافة باستخدام أحمال التصنيع وتنفيذ المستودع<!-- <br> - For more information, see [Cloud and edge scale units for manufacturing and warehouse management workloads](../cloud-edge/cloud-edge-landing-page.md).-->
+
 - [إنشاء أوامر تحويل ومعالجتها من تطبيق المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - لمزيد من المعلومات، راجع [إنشاء أوامر تحويل من تطبيق المستودع](../warehousing/create-transfer-order-from-warehouse-app.md).
+
 - [حقول رد RFQ الافتراضية لعروض أسعار المورد](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - لمزيد من المعلومات، راجع [نظرة عامة على طلبات عروض الأسعار (RFQ)](../procurement/request-quotations.md).
+
 - [الوظيفة الاضافيه لأداره التغييرات للهندسة لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<!-- <br> - For more information, see [Engineering change management overview](../engineering-change-management/product-engineering-overview.md).-->
+
 - [دلائل الحقيقة مختلطة للتصنيع](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - للحصول على مزيد من المعلومات، راجع [توفير إرشادات الحقيقة المختلطة للعمال العاملين في الإنتاج](../production-control/instruction-guides-in-production-overview.md).
-- [تجربة مستخدم جديدة لتنفيذ صالة الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<!-- <br> - For more information, see [How workers use the production floor execution interface](../production-control/production-floor-execution-use.md).-->
+
+- [تجربة مستخدم جديدة لتنفيذ صالة الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - لمزيد من المعلومات، راجع [‏‫طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬ واستخدامها‬](../production-control/production-floor-execution-use.md).
+
 - [معالجة أحداث تطبيق المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - لمزيد من المعلومات، راجع [معالجه حدث تطبيق المستودع](../warehousing/warehouse-app-events.md).
+
+يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 406ff268eede4a9d448b3b9c1729a00fcec8f21e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016783"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>دمج الشحنات عند تجاوز سياسة دمج الشحنات من صفحة الإصدار إلى المستودع
 
@@ -56,27 +56,27 @@ ms.locfileid: "3986734"
 
 اتبع الخطوات التالية لتجاوز نهج دمج الشحنات أثناء الإصدار إلى المستودع.
 
-1. انتقل إلى **إدارة المستودعات \> الإصدار إلى المستودع \> الإصدار إلى المستودع** .
+1. انتقل إلى **إدارة المستودعات \> الإصدار إلى المستودع \> الإصدار إلى المستودع**.
 1. في الجزء العلوي، حدد أمر المبيعات الأول الذي قمت بإنشائه لهذا السيناريو.
 1. حدد **إضافة** لإضافة البند إلى الإصدار إلى المستودع. لاحظ أنه تم تطبيق نهج دمج الشحنات *الافتراضي* في الجزء السفلي.
-1. في الجزء السفلي، حدد **تحديد نهج دمج شحنات جديد** .
-1. حدد نهجًا يسمح بالدمج مع الشحنات المفتوحة الأخرى لنفس النهج. على سبيل المثال، حدد نهج *CustomerOrderNo* .
-1. حدد **الإصدار إلى المستودع** .
+1. في الجزء السفلي، حدد **تحديد نهج دمج شحنات جديد**.
+1. حدد نهجًا يسمح بالدمج مع الشحنات المفتوحة الأخرى لنفس النهج. على سبيل المثال، حدد نهج *CustomerOrderNo*.
+1. حدد **الإصدار إلى المستودع**.
 1. حدد أمر المبيعات الثاني والثالث الذي قمت بإنشائه لهذا السيناريو.
 1. حدد **إضافة** لإضافة البنود إلى الإصدار إلى المستودع. لاحظ أنه تم تطبيق النهج *الافتراضي* في الجزء السفلي.
-1. حدد البند الثاني، ثم في حقل **تحديد نهج دمج الشحنات الجديد** ، حدد نهج *CustomerOrderNo* .
+1. حدد البند الثاني، ثم في حقل **تحديد نهج دمج الشحنات الجديد** ، حدد نهج *CustomerOrderNo*.
 1. حدد **الإصدار إلى المستودع** لكل من البندين.
 
 ## <a name="verify-the-shipments"></a>التحقق من الشحنات
 
 ينبغي أن يتم إنشاء شحنتين:
 
-- تحتوي الشحنة الأولى على بندين وتم إنشاؤها باستخدام نهج دمج الشحنات *CustomerOrderNo* .
-- تحتوي الشحنة الثاني على بند واحد وتم إنشاؤها باستخدام نهج دمج الشحنات *الافتراضي* .
+- تحتوي الشحنة الأولى على بندين وتم إنشاؤها باستخدام نهج دمج الشحنات *CustomerOrderNo*.
+- تحتوي الشحنة الثاني على بند واحد وتم إنشاؤها باستخدام نهج دمج الشحنات *الافتراضي*.
 
 اتبع هذه الخطوات لمراجعة الشحنات التي تم إنشاؤها.
 
-1. انتقل إلى **إدارة المستودعات \> الشحنات \> جميع الشحنات** .
+1. انتقل إلى **إدارة المستودعات \> الشحنات \> جميع الشحنات**.
 1. ابحث عن الشحنة المطلوبة وحددها.
 1. في حقل **نهج دمج الشحنات** ، رجع نهج الدمج الذي تم استخدامه عند إنشاء الشحنة.
 

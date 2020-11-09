@@ -1,5 +1,5 @@
 ---
-title: ميزات المعاينة في الإصدار 10.0.14 من Dynamics 365 Supply Chain Management (أكتوبر 2020)
+title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.14 (أكتوبر 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.14 من Dynamics 365 Supply Chain Management.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22d0dfb44bb999f466eca216e7390488fef33618
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: de159549da9ff8cbcdb69ae0e3131cd1726bc323
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763563"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4038099"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10014-november-2020"></a>ميزات المعاينة في Dynamics 365 Supply Chain Management الإصدار 10.0.14 (نوفمبر 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>ما الجديد أو المتغير في الإصدار 10.0.14 من Dynamics 365 Supply Chain Management (نوفمبر 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار المعاينة 10.0.14 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.605، وهو يتوفر كما يلي
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.14 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.605، وهو يتوفر كما يلي
 
 - **إصدار المعاينة:** سبتمبر 2020
 - **التوفر العام (تحديث ذاتي):** أكتوبر 2020

@@ -3,7 +3,7 @@ title: مراجعة حالة التجربة
 description: يشرح هذا الموضوع الحالة التي تحتوي عليها التجربة في دوره حياه التجربة في Dynamics 365 Commerce.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 097206c0aa487e14499bdf3907465e17b7d337e2
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: eea67ddc1718902198b74614ee1a910fc6e29c1d
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930129"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097060"
 ---
 # <a name="review-the-status-of-an-experiment"></a>مراجعة حالة التجربة
 هناك العديد من الخطوات المتضمنة في اعداد وتشغيل تجربه في Dynamics 365 Commerce. للحصول علي معلومات حول دوره حياه التجربة، راجع [التجربة في Dynamics 365 Commerce](experimentation-overview.md).
 
-لمعرفه المكان الذي توجد فيه التجارب في دوره الحياة، انتقل إلى علامة التبويب **التجارب** في منشئ الموقع. يتم عرض قائمه بالتجارب مع حاله كل تجربه في كل من التجارة وخدمه الجهة الخارجية المستخدمة لتمكين إنشاء التجارب، وتعيين التباينات، وتحليل البيانات.
+لمعرفة المكان الذي توجد فيه التجارب في دورة الحياة، في منشئ موقع Commerce، حدد **التجارب** في جزء التنقل الأيسر. يتم عرض قائمه بالتجارب مع حاله كل تجربه في كل من التجارة وخدمه الجهة الخارجية المستخدمة لتمكين إنشاء التجارب، وتعيين التباينات، وتحليل البيانات.
 
 في العمود **حاله التجارة** ، قد يتم عرض القيم التالية. 
 - **مسودة** - التجربة متصلة بصفحه أو جزء منها في التجارة ويتم تحريرها.

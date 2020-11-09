@@ -240,6 +240,8 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: عرض نتائج التنفيذ التلقائي لفاتورة المورد
                   href: accounts-payable/view-automated-vendor-invoice.md
+                - name: مساحة عمل إدخال فاتورة المورد
+                  href: accounts-payable/vendor-invoices-workspace.md
             - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: مطابقة الفاتورة وأوامر الشراء المشتركة بين الشركات الشقيقة
@@ -922,6 +924,8 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: عرض إدخالات دفاتر اليومية والحركات
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: ميزان المراجعة مع تقرير تفاصيل الحركات
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: إعادة تقييم العملة في شركة تجميع​
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: إنشاء إدخال دفتر أستاذ متقدم في القطاع العام
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: ميزان المراجعة مع تقرير تفاصيل الحركات
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: استخدام حدود التحكم النقدي
                   href: public-sector/cash-control.md
                 - name: معالجة نهاية السنة في القطاع العام
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: شهادات NF-e
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: التحقق من صحة الشهادة NF-e مخصصة
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: إعداد واستيراد والتحقق من صحة مستندات NF-e XML وDANFE
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: إعداد معلمات فيدرالية لـ NF-e
@@ -2080,6 +2084,8 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: الاستعلام عن الضرائب
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: تنظيف جدول TaxDocumentJSON
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: محرك الضريبة
                   items:
                     - name: نظرة عامة على محرك الضريبة
@@ -2651,7 +2657,7 @@
                         - name: نظرة عامة على ملف تعريف المخزون
                           href: localizations/rus-inventory-profile-overview.md
                         - name: إعداد ملف تعريف المخزون
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: استخدام ملف تعريف المخزون في المستندات والاستعلامات
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: التقارير

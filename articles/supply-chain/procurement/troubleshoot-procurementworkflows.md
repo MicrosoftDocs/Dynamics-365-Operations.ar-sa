@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 940a6c39ac83e7388d4e1a08b656b75df81ed801
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834306"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018527"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>استكشاف أخطاء عمليات سير عمل التدبير والتوريد وإصلاحها
 
@@ -32,7 +32,7 @@ ms.locfileid: "3834306"
 
 ## <a name="error-when-re-submitting-a-purchase-order-to-the-workflow-after-a-change-changes-to-purchase-order-x-are-allowed-only-in-a-draft-state-when-change-management-is-activated"></a>حدث خطأ عند إعادة إرسال أمر شراء إلى سير العمل بعد التغيير: "يُسمح بإجراء تغييرات على أمر الشراء X فقط في حالة المسودة عند تنشيط إدارة التغييرات"
 
-تحدث هذه المشكلة فقط إذا كانت حالة أمر الشراء *مؤكد* قبل إجراء التغييرات المطلوبة. إذا طلبت تغييرات بينما حالة أمر الشراء *موافق عليه*، فيمكن معالجة سير العمل بنجاح.
+تحدث هذه المشكلة فقط إذا كانت حالة أمر الشراء *مؤكد* قبل إجراء التغييرات المطلوبة. إذا طلبت تغييرات بينما حالة أمر الشراء *موافق عليه* ، فيمكن معالجة سير العمل بنجاح.
 
 ### <a name="error-description"></a>وصف الخطأ
 
@@ -48,7 +48,7 @@ SysWorkflowQueue-resume
 
 قد تحدث هذه المشكلة بسبب عدم الاتساق في توزيعات أمر الشراء.
 
-لحل هذه المشكلة وإعادة تعيين أمر الشراء إلى الحالة *مسودة*، انتقل إلى **التدبير والتوريد \> المهام الدورية \> تنظيف \> إعادة تعيين توزيع أمر الشراء**. لمزيد من المعلومات، راجع منشور المدونة التالي: [حل أخطاء توزيع أمر الشراء في Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+لحل هذه المشكلة وإعادة تعيين أمر الشراء إلى الحالة *مسودة* ، انتقل إلى **التدبير والتوريد \> المهام الدورية \> تنظيف \> إعادة تعيين توزيع أمر الشراء**. لمزيد من المعلومات، راجع منشور المدونة التالي: [حل أخطاء توزيع أمر الشراء في Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 سيتم حل هذه المشكلة من خلال [مقالة قاعدة معارف (KB)‏ Microsoft هذه](https://msdyneng.visualstudio.com/FinOps/_workitems/edit/467138).
 
@@ -56,7 +56,7 @@ SysWorkflowQueue-resume
 
 قد تحدث هذه المشكلة بسبب عدم الاتساق في توزيعات أمر الشراء.
 
-لحل هذه المشكلة وإعادة تعيين أمر الشراء إلى الحالة *مسودة*، انتقل إلى **التدبير والتوريد \> المهام الدورية \> تنظيف \> إعادة تعيين توزيع أمر الشراء**. لمزيد من المعلومات، راجع منشور المدونة التالي: [حل أخطاء توزيع أمر الشراء في Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+لحل هذه المشكلة وإعادة تعيين أمر الشراء إلى الحالة *مسودة* ، انتقل إلى **التدبير والتوريد \> المهام الدورية \> تنظيف \> إعادة تعيين توزيع أمر الشراء**. لمزيد من المعلومات، راجع منشور المدونة التالي: [حل أخطاء توزيع أمر الشراء في Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="if-a-delivery-remainder-is-canceled-on-a-purchase-order-where-change-management-is-turned-on-the-purchase-order-goes-to-a-confirmed-state"></a>إذا تم إلغاء كمية متبقية من التسليم على أمر شراء تم فيه تشغيل إدارة التغييرات، ينتقل أمر الشراء إلى الحالة "مؤكد".
 
@@ -74,7 +74,7 @@ SysWorkflowQueue-resume
 
 ### <a name="issue-description"></a>وصف المشكلة
 
-بعد إلغاء أوامر الشراء التي كانت في الحالة *مؤكد*، يستمر ظهور أوامر الشراء الملغاة في قائمة أوامر الشراء في حالة المسودة في مساحة عمل **تجهيز أمر الشراء**.
+بعد إلغاء أوامر الشراء التي كانت في الحالة *مؤكد* ، يستمر ظهور أوامر الشراء الملغاة في قائمة أوامر الشراء في حالة المسودة في مساحة عمل **تجهيز أمر الشراء**.
 
 ### <a name="issue-resolution"></a>حل المشكلة
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3801448"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012311"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.8 (فبراير 2020)
 
@@ -39,10 +39,11 @@ ms.locfileid: "3801448"
 يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. قد تكون بعض هذه الميزات مضمنة أيضًا في إصدار تزايدي سابق، ولكن لم يتم الإعلان عنها في الموضوع *ما الجديد* السابق، لذا نقوم بإضافتها هنا. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
 - [مناطق مواقع إضافية](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+
 - [إدارة الأصول](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة الأصول](../asset-management/index.md).
 - [إلغاء العمل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - لمزيد من المعلومات، راجع [إلغاء عمل المستودع لمعالجة الاستثناء](../warehousing/cancel-warehouse-work.md).
 - [تغيير وعاء العمل في العمل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - لمزيد من المعلومات، راجع [تغيير وعاء العمل في العمل‬](../warehousing/change-work-pool-on-work.md).
-- [موضع المجموعة ممتلئ‬](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - لمزيد من المعلومات، راجع [موضع المجموعة ممتلئ](../warehousing/cluster-position-full.md).
+- [منصب نظام المجموعة ممتلئ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - لمزيد من المعلومات، راجع [‏‫منصب نظام المجموعة ممتلئ‬](../warehousing/cluster-position-full.md).
 - [التأكيد والتحويل](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - لمزيد من المعلومات ، راجع [التأكيد والتحويل](../warehousing/confirm-and-transfer.md).
 - [تقادم انتقاء مخزون لتوجيه الموقع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - لمزيد من المعلومات ، راجع [تقادم انتقاء مخزون لتوجيه الموقع‬](../warehousing/location-directive-inventory-picking-aging.md).
 - [حالة الموقع](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)

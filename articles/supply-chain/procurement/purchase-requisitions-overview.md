@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
+ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e09c4ebd3ee978076ac4f1d0b71041e7c1e954be
-ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
+ms.openlocfilehash: a14ae2771890085308b560cea59240556c6a55a3
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018665"
 ---
 # <a name="purchase-requisition-overview"></a>نظرة عامة على طلب الشراء
 
@@ -36,7 +36,7 @@ ms.locfileid: "3826890"
 بعد الموافقة على طلب شراء، يمكن استخدامه لإنشاء أمر شراء. تعتبر أوامر الشراء مستندات خارجية حيث يقدمها قسم الشراء إلى الموردين.
 
 ## <a name="creating-purchase-requisitions"></a>إنشاء طلبات الشراء
-ويمكنك إنشاء طلب شراء في صفحة **طلبات الشراء الخاصة بي**، وتحديد الأصناف والخدمات التي تحتاجها. ويمكنك تحديد الأصناف من كتالوج التدبير الذي قامت بإنشائه المؤسسة الخاصة بك، أو يمكنك طلب الأصناف غير الموجودة في كتالوج عن طريق تحديد فئة تدبير وإدخال تفاصيل المنتج.  
+ويمكنك إنشاء طلب شراء في صفحة **طلبات الشراء الخاصة بي** ، وتحديد الأصناف والخدمات التي تحتاجها. ويمكنك تحديد الأصناف من كتالوج التدبير الذي قامت بإنشائه المؤسسة الخاصة بك، أو يمكنك طلب الأصناف غير الموجودة في كتالوج عن طريق تحديد فئة تدبير وإدخال تفاصيل المنتج.  
 
 وقبل تقديم طلب شراء للمراجعة، يجب تكوين مهام سير العمل. يمكنك استخدام سير العمل لنقل طلب شراء من خلال عملية المراجعة، من الحالة الأولية **مسودة** إلى الحالة النهائية **معتمدة**.
 

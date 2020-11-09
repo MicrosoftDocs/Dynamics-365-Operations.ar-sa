@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cdca0b790131c6d30987ca9651b61ceef82d95ba
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 1818ae569d1d29bf4d02ab8cbc481180531449b9
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141050"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107128"
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> تكوين ملف تعريف الوظائف لمندوب مبيعات
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الإجراء كيفية تكوين إعدادات ملف تعريف الوظائف في المخزن التي تنطبق على مندوبي المبيعات. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USRT.
+يوضح هذا الإجراء كيفية تكوين إعدادات ملف تعريف الوظائف في المخزن التي تنطبق على مندوبي المبيعات باستخدام شركة بيانات العرض التوضيحي USRT.
 
 1. انتقل إلى البيع بالتجزئة والتجارة > إعداد القناة > إعداد نقطة البيع > ‏‫ملفات تعريف نقطة البيع‬ > ‏‫ملفات تعريف الوظائف‬.
 2. انقر فوق "تحرير".

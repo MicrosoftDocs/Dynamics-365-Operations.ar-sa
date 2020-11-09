@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
-ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
+ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3962510"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013170"
 ---
 # <a name="keyboard-shortcuts"></a>اختصارات لوحة المفاتيح
 
@@ -37,7 +37,7 @@ ms.locfileid: "3962510"
 
 ## <a name="finding-a-shortcut"></a>البحث عن اختصار
 
-اعتبارًا من تحديث النظام الأساسي 11، يمكن لمستخدمين اكتشاف الاختصارات المتوفرة حاليًا مباشرةً من واجهة المستخدم. ما عليك سوى النقر بزر الماوس الأيمن فوق عنصر تحكم وتحديد **عرض الاختصارات** . سوف يؤدي ذلك إلى فتح مربع حوار يُظهر اختصارات يمكنك استخدامها حسب مكان وجودك في الصفحة.
+اعتبارًا من تحديث النظام الأساسي 11، يمكن لمستخدمين اكتشاف الاختصارات المتوفرة حاليًا مباشرةً من واجهة المستخدم. ما عليك سوى النقر بزر الماوس الأيمن فوق عنصر تحكم وتحديد **عرض الاختصارات**. سوف يؤدي ذلك إلى فتح مربع حوار يُظهر اختصارات يمكنك استخدامها حسب مكان وجودك في الصفحة.
 
 ## <a name="action-shortcuts"></a>اختصارات الإجراء
 
@@ -239,7 +239,7 @@ ms.locfileid: "3962510"
 | تحريك صفحة لأعلى/لأسفل في البحث                                                                                       | Page up / Page down              |
 | تحريك لأعلى/لأسفل البحث                                                                                    | Home / End                       |
 
-## <a name="task-recordershortcuts"></a>[اختصارات مسجل المهام](../../dev-itpro/user-interface/task-recorder.md) 
+## <a name="task-recorder-shortcuts"></a>اختصارات [مسجل المهام](../../dev-itpro/user-interface/task-recorder.md) 
 
 | للقيام بهذا الإجراء                                                                    | اضغط على                      |
 |-------------------------------------------------------------------------------|----------------------------|
