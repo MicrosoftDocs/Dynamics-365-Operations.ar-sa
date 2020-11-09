@@ -16,28 +16,28 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2098ffed81ab3c18855363f0c3ef43dc1d11a77d
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: e1764f31c98039e9ea6f665dcb04a1cfd23c31dc
+ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138057"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998838"
 ---
-# <a name="set-up-a-ledger-account-alias"></a><span data-ttu-id="98548-103">إعداد اسم مستعار لحساب دفتر الأستاذ‬</span><span class="sxs-lookup"><span data-stu-id="98548-103">Set up a ledger account alias</span></span>
+# <a name="set-up-a-ledger-account-alias"></a><span data-ttu-id="c9561-103">إعداد اسم مستعار لحساب دفتر الأستاذ‬</span><span class="sxs-lookup"><span data-stu-id="c9561-103">Set up a ledger account alias</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="98548-104">يوضح هذا الإجراء كيفية إنشاء اسم مستعار لحساب يوفر اختصارًا لإدخال رقم حساب.</span><span class="sxs-lookup"><span data-stu-id="98548-104">This procedure shows how to create an account alias that provides a shortcut for entering an account number.</span></span> <span data-ttu-id="98548-105">يستخدم هذا الحساب شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="98548-105">This procedure users demo data company USMF.</span></span>
+<span data-ttu-id="c9561-104">يوضح هذا الإجراء كيفية إنشاء اسم مستعار لحساب يوفر اختصارًا لإدخال رقم حساب.</span><span class="sxs-lookup"><span data-stu-id="c9561-104">This procedure shows how to create an account alias that provides a shortcut for entering an account number.</span></span> <span data-ttu-id="c9561-105">يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="c9561-105">This procedure uses demo data company USMF.</span></span>
 
-1. <span data-ttu-id="98548-106">انتقل إلى دفتر الأستاذ العام > دليل الحسابات > الحسابات > الاسم المستعار لحساب دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="98548-106">Go to General ledger > Chart of accounts > Accounts > Ledger account alias.</span></span>
-2. <span data-ttu-id="98548-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="98548-107">Click New.</span></span>
-3. <span data-ttu-id="98548-108">في الحقل "الاسم المستعار لحساب دفتر الأستاذ"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="98548-108">In the Ledger account alias field, type a value.</span></span>
-4. <span data-ttu-id="98548-109">في الحقل "بنية الحساب"، حدد بنية الحساب والأبعاد التي تنتمي إليها.</span><span class="sxs-lookup"><span data-stu-id="98548-109">In the Account structure field, select the structure the account and dimensions belong to.</span></span>
-5. <span data-ttu-id="98548-110">في الحقل "الشركة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="98548-110">In the Company field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="98548-111">في القائمة، ابحث عن الشركة التي ينطبق عليها الاسم المستعار وحددها.</span><span class="sxs-lookup"><span data-stu-id="98548-111">In the list, find and select the company that the alias applies to.</span></span>
-7. <span data-ttu-id="98548-112">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="98548-112">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="98548-113">في الحقل "تعريف الاسم المستعار لحساب دفتر الأستاذ"، حدد الحساب والأبعاد.</span><span class="sxs-lookup"><span data-stu-id="98548-113">In the Ledger account alias definition field, specify the account and dimensions.</span></span>
-    * <span data-ttu-id="98548-114">سيتم ملء الحساب والأبعاد عند استخدام الاختصار.</span><span class="sxs-lookup"><span data-stu-id="98548-114">The account and dimensions will be populated when using the shortcut.</span></span>  
-9. <span data-ttu-id="98548-115">في الحقل "التركيز الأولي"، حدد البُعد الذي سيتم التركيز عليه عند استخدام الاسم المستعار.</span><span class="sxs-lookup"><span data-stu-id="98548-115">In the Initial focus field, select the dimension that will have focus when the alias is used.</span></span>
-    * <span data-ttu-id="98548-116">بعد كتابة الاختصار وملء الحساب والأبعاد، سيكون مجال التركيز الأولى حيث يتحرك المؤشر أو حيث سيتحرك التركيز.</span><span class="sxs-lookup"><span data-stu-id="98548-116">After you type the shortcut, and the account and dimensions are populated, the Initial focus field is where the cursor or focus will move to.</span></span>  
+1. <span data-ttu-id="c9561-106">انتقل إلى دفتر الأستاذ العام > دليل الحسابات > الحسابات > الاسم المستعار لحساب دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="c9561-106">Go to General ledger > Chart of accounts > Accounts > Ledger account alias.</span></span>
+2. <span data-ttu-id="c9561-107">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="c9561-107">Click New.</span></span>
+3. <span data-ttu-id="c9561-108">في الحقل "الاسم المستعار لحساب دفتر الأستاذ"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="c9561-108">In the Ledger account alias field, type a value.</span></span>
+4. <span data-ttu-id="c9561-109">في الحقل "بنية الحساب"، حدد بنية الحساب والأبعاد التي تنتمي إليها.</span><span class="sxs-lookup"><span data-stu-id="c9561-109">In the Account structure field, select the structure the account and dimensions belong to.</span></span>
+5. <span data-ttu-id="c9561-110">في الحقل "الشركة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="c9561-110">In the Company field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="c9561-111">في القائمة، ابحث عن الشركة التي ينطبق عليها الاسم المستعار وحددها.</span><span class="sxs-lookup"><span data-stu-id="c9561-111">In the list, find and select the company that the alias applies to.</span></span>
+7. <span data-ttu-id="c9561-112">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="c9561-112">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="c9561-113">في الحقل "تعريف الاسم المستعار لحساب دفتر الأستاذ"، حدد الحساب والأبعاد.</span><span class="sxs-lookup"><span data-stu-id="c9561-113">In the Ledger account alias definition field, specify the account and dimensions.</span></span>
+    * <span data-ttu-id="c9561-114">سيتم ملء الحساب والأبعاد عند استخدام الاختصار.</span><span class="sxs-lookup"><span data-stu-id="c9561-114">The account and dimensions will be populated when using the shortcut.</span></span>  
+9. <span data-ttu-id="c9561-115">في الحقل "التركيز الأولي"، حدد البُعد الذي سيتم التركيز عليه عند استخدام الاسم المستعار.</span><span class="sxs-lookup"><span data-stu-id="c9561-115">In the Initial focus field, select the dimension that will have focus when the alias is used.</span></span>
+    * <span data-ttu-id="c9561-116">بعد كتابة الاختصار وملء الحساب والأبعاد، سيكون مجال التركيز الأولى حيث يتحرك المؤشر أو حيث سيتحرك التركيز.</span><span class="sxs-lookup"><span data-stu-id="c9561-116">After you type the shortcut, and the account and dimensions are populated, the Initial focus field is where the cursor or focus will move to.</span></span>  
 
