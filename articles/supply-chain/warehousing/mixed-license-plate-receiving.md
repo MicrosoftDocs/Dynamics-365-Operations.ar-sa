@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSRFAutoConfirm
+ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,35 +17,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15c058887da33b522c5d9a1a8d2c45a5d1566a5d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cc87da5fefde33832fc0be1cfef3aa44b155c0d0
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215759"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015839"
 ---
-# <a name="mixed-license-plate-receiving"></a><span data-ttu-id="c60bf-103">استلام لوحة ترخيص مختلطة</span><span class="sxs-lookup"><span data-stu-id="c60bf-103">Mixed license plate receiving</span></span>
+# <a name="mixed-license-plate-receiving"></a><span data-ttu-id="f0706-103">استلام لوحة ترخيص مختلطة</span><span class="sxs-lookup"><span data-stu-id="f0706-103">Mixed license plate receiving</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c60bf-104">يسمح لك استلام لوحة ترخيص مختلطة بإنشاء لوحة ترخيص تتكون من العديد من الأصناف قبل أن تقوم بالتسجيل وإنشاء عمل تخزين.</span><span class="sxs-lookup"><span data-stu-id="c60bf-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
+<span data-ttu-id="f0706-104">يسمح لك استلام لوحة ترخيص مختلطة بإنشاء لوحة ترخيص تتكون من العديد من الأصناف قبل أن تقوم بالتسجيل وإنشاء عمل تخزين.</span><span class="sxs-lookup"><span data-stu-id="f0706-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
 
-<span data-ttu-id="c60bf-105">لا تحتاج لوحة الترخيص المكونة من عدة أصناف إلى تقسيمها في رصيف الاستلام لكي تتمكن من تسجيل كل صنف.</span><span class="sxs-lookup"><span data-stu-id="c60bf-105">A license plate that consists of multiple items does not have to be split at the receiving dock for you to register each item.</span></span> 
+<span data-ttu-id="f0706-105">لا تحتاج لوحة الترخيص المكونة من عدة أصناف إلى تقسيمها في رصيف الاستلام لكي تتمكن من تسجيل كل صنف.</span><span class="sxs-lookup"><span data-stu-id="f0706-105">A license plate that consists of multiple items does not have to be split at the receiving dock for you to register each item.</span></span> 
 
-<span data-ttu-id="c60bf-106">عند استخدام تدفق ذي صلة بالأصناف لتحديد بنود المستند المصدر، يمكنك فحص الأكواد الشريطية في عنصر تحكم الصنف.</span><span class="sxs-lookup"><span data-stu-id="c60bf-106">When using an item-related flow to identify the source document lines, you can scan bar codes on the item control.</span></span> <span data-ttu-id="c60bf-107">إذا تضمن الكود الشريطي كمية ووحدة قياس تم تكوينهما عليه، فسيضاف الصنف والكمية تلقائيًا إلى لوحة الترخيص المختلطة، وسيعاد توجيهك إلى الشاشة لمسح صنف آخر.</span><span class="sxs-lookup"><span data-stu-id="c60bf-107">If the bar code has a quantity and a unit of measure (UOM) configured on it, the item and quantity will automatically be added to the mixed license plate, and you will be returned to the screen to scan another item.</span></span> <span data-ttu-id="c60bf-108">سيسمح لك ذلك بفحص كافة الأصناف من دون الحاجة إلى إجراء تأكيد في كل خطوة.</span><span class="sxs-lookup"><span data-stu-id="c60bf-108">This allows you to quickly scan all the items without having to make a confirmation at each step.</span></span> 
+<span data-ttu-id="f0706-106">عند استخدام تدفق ذي صلة بالأصناف لتحديد بنود المستند المصدر، يمكنك فحص الأكواد الشريطية في عنصر تحكم الصنف.</span><span class="sxs-lookup"><span data-stu-id="f0706-106">When using an item-related flow to identify the source document lines, you can scan bar codes on the item control.</span></span> <span data-ttu-id="f0706-107">إذا تضمن الكود الشريطي كمية ووحدة قياس تم تكوينهما عليه، فسيضاف الصنف والكمية تلقائيًا إلى لوحة الترخيص المختلطة، وسيعاد توجيهك إلى الشاشة لمسح صنف آخر.</span><span class="sxs-lookup"><span data-stu-id="f0706-107">If the bar code has a quantity and a unit of measure (UOM) configured on it, the item and quantity will automatically be added to the mixed license plate, and you will be returned to the screen to scan another item.</span></span> <span data-ttu-id="f0706-108">سيسمح لك ذلك بفحص كافة الأصناف من دون الحاجة إلى إجراء تأكيد في كل خطوة.</span><span class="sxs-lookup"><span data-stu-id="f0706-108">This allows you to quickly scan all the items without having to make a confirmation at each step.</span></span> 
 
-<span data-ttu-id="c60bf-109">في التدفق الخاص باستلام لوحة الترخيص المختلطة، يمكنك عرض قائمة بالأصناف التي تم فحصها على لوحة الترخيص، ومن هنا يمكنك تعديل أو تصحيح كمية أحد الأصناف.</span><span class="sxs-lookup"><span data-stu-id="c60bf-109">In the flow for mixed license plate receiving, you can display the list of items that are already scanned to the license plate and from here you can modify or correct the quantity of an item.</span></span>
+<span data-ttu-id="f0706-109">في التدفق الخاص باستلام لوحة الترخيص المختلطة، يمكنك عرض قائمة بالأصناف التي تم فحصها على لوحة الترخيص، ومن هنا يمكنك تعديل أو تصحيح كمية أحد الأصناف.</span><span class="sxs-lookup"><span data-stu-id="f0706-109">In the flow for mixed license plate receiving, you can display the list of items that are already scanned to the license plate and from here you can modify or correct the quantity of an item.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="c60bf-110">أين يتم التطبيق</span><span class="sxs-lookup"><span data-stu-id="c60bf-110">Where it applies</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="f0706-110">أين يتم التطبيق</span><span class="sxs-lookup"><span data-stu-id="f0706-110">Where it applies</span></span>
 
-<span data-ttu-id="c60bf-111">إن استلام لوحة الترخيص المختلطة‬ عبارة عن تدفق استلام على جهاز محمول لتسجيل وانشاء عمل لأصناف/بنود متعددة في الوقت نفسه.</span><span class="sxs-lookup"><span data-stu-id="c60bf-111">Mixed license plate receiving is a mobile device receiving flow to register and create work for multiple lines/items at the same time.</span></span> <span data-ttu-id="c60bf-112">يعتبر هذا الأمر مفيدًا إذا كنت تتلقى لوحات ترخيص واردة ذات أصناف متعددة.</span><span class="sxs-lookup"><span data-stu-id="c60bf-112">This is useful if you receive inbound license plates with multiple items.</span></span> 
+<span data-ttu-id="f0706-111">إن استلام لوحة الترخيص المختلطة‬ عبارة عن تدفق استلام على جهاز محمول لتسجيل وانشاء عمل لأصناف/بنود متعددة في الوقت نفسه.</span><span class="sxs-lookup"><span data-stu-id="f0706-111">Mixed license plate receiving is a mobile device receiving flow to register and create work for multiple lines/items at the same time.</span></span> <span data-ttu-id="f0706-112">يعتبر هذا الأمر مفيدًا إذا كنت تتلقى لوحات ترخيص واردة ذات أصناف متعددة.</span><span class="sxs-lookup"><span data-stu-id="f0706-112">This is useful if you receive inbound license plates with multiple items.</span></span> 
 
-## <a name="how-to-set-up-mixed-license-plate-receiving"></a><span data-ttu-id="c60bf-113">كيفية إعداد استلام ‏‫لوحة الترخيص‬ المختلطة</span><span class="sxs-lookup"><span data-stu-id="c60bf-113">How to set up mixed license plate receiving</span></span>
-<span data-ttu-id="c60bf-114">يتم إعداد استلام ‏‫لوحة الترخيص‬ المختلطة وتخزينها كعنصر قائمة جهاز محمول.</span><span class="sxs-lookup"><span data-stu-id="c60bf-114">Mixed license plate receiving is set up as a mobile device menu item.</span></span>
+## <a name="how-to-set-up-mixed-license-plate-receiving"></a><span data-ttu-id="f0706-113">كيفية إعداد استلام ‏‫لوحة الترخيص‬ المختلطة</span><span class="sxs-lookup"><span data-stu-id="f0706-113">How to set up mixed license plate receiving</span></span>
+<span data-ttu-id="f0706-114">يتم إعداد استلام ‏‫لوحة الترخيص‬ المختلطة وتخزينها كعنصر قائمة جهاز محمول.</span><span class="sxs-lookup"><span data-stu-id="f0706-114">Mixed license plate receiving is set up as a mobile device menu item.</span></span>
 
-<span data-ttu-id="c60bf-115">تحتاج إلى إنشاء عنصر قائمة جديد باستخدام وضع العمل الذي لا يستخدم العمل الموجود واستخدام إحدى الطريقتين التاليتين:</span><span class="sxs-lookup"><span data-stu-id="c60bf-115">You need to create a new menu item with mode work that does not use existing work and use one of the following methods:</span></span>
+<span data-ttu-id="f0706-115">تحتاج إلى إنشاء عنصر قائمة جديد باستخدام وضع العمل الذي لا يستخدم العمل الموجود واستخدام إحدى الطريقتين التاليتين:</span><span class="sxs-lookup"><span data-stu-id="f0706-115">You need to create a new menu item with mode work that does not use existing work and use one of the following methods:</span></span>
 
-- <span data-ttu-id="c60bf-116">استلام لوحة ترخيص مختلطة</span><span class="sxs-lookup"><span data-stu-id="c60bf-116">Mixed license plate receiving</span></span>
-- <span data-ttu-id="c60bf-117">استلام ‏‫لوحة الترخيص‬ المختلطة وتخزينها</span><span class="sxs-lookup"><span data-stu-id="c60bf-117">Mixed license plate receiving and put away</span></span>
+- <span data-ttu-id="f0706-116">استلام لوحة ترخيص مختلطة</span><span class="sxs-lookup"><span data-stu-id="f0706-116">Mixed license plate receiving</span></span>
+- <span data-ttu-id="f0706-117">استلام ‏‫لوحة الترخيص‬ المختلطة وتخزينها</span><span class="sxs-lookup"><span data-stu-id="f0706-117">Mixed license plate receiving and put away</span></span>
 
-<span data-ttu-id="c60bf-118">هناك خيارات للتعرف على بنود المستند المصدر وهي صنف أمر الشراء وبند أمر الشراء وأمر الإرجاع‬ وصنف أمر التحويل‬ وبند أمر التحويل.</span><span class="sxs-lookup"><span data-stu-id="c60bf-118">The options to identify the source document lines are purchase order item, purchase order line, return order, transfer order item, and transfer order line.</span></span> <span data-ttu-id="c60bf-119">باستطاعة هذه الخيارات تغيير أمر الاستلام على لوحة ترخيص واحدة.</span><span class="sxs-lookup"><span data-stu-id="c60bf-119">These options can change the receiving order on a single license plate.</span></span> <span data-ttu-id="c60bf-120">الخيار الأخير يتعلق بصنف حمل العمل.</span><span class="sxs-lookup"><span data-stu-id="c60bf-120">The last option is by load item.</span></span> <span data-ttu-id="c60bf-121">يمكنك إضافة عدة عناصر إلى لوحة الترخيص، ولكن لا يمكنك التبديل بين أحمال عمل متعددة.</span><span class="sxs-lookup"><span data-stu-id="c60bf-121">You can add multiple items to a license plate, but you cannot switch between multiple loads.</span></span>
+<span data-ttu-id="f0706-118">هناك خيارات للتعرف على بنود المستند المصدر وهي صنف أمر الشراء وبند أمر الشراء وأمر الإرجاع‬ وصنف أمر التحويل‬ وبند أمر التحويل.</span><span class="sxs-lookup"><span data-stu-id="f0706-118">The options to identify the source document lines are purchase order item, purchase order line, return order, transfer order item, and transfer order line.</span></span> <span data-ttu-id="f0706-119">باستطاعة هذه الخيارات تغيير أمر الاستلام على لوحة ترخيص واحدة.</span><span class="sxs-lookup"><span data-stu-id="f0706-119">These options can change the receiving order on a single license plate.</span></span> <span data-ttu-id="f0706-120">الخيار الأخير يتعلق بصنف حمل العمل.</span><span class="sxs-lookup"><span data-stu-id="f0706-120">The last option is by load item.</span></span> <span data-ttu-id="f0706-121">يمكنك إضافة عدة عناصر إلى لوحة الترخيص، ولكن لا يمكنك التبديل بين أحمال عمل متعددة.</span><span class="sxs-lookup"><span data-stu-id="f0706-121">You can add multiple items to a license plate, but you cannot switch between multiple loads.</span></span>
