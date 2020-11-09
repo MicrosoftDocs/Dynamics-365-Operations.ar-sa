@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974851"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013043"
 ---
 # <a name="customer-aging-report"></a>تقرير تقادم العميل 
 
@@ -115,8 +115,9 @@ ms.locfileid: "3974851"
 <tr class="even">
 <td><p><strong>اتجاه الطباعة</strong></p></td>
 <td><p>حدد ما إذا كان سيتم حساب الارصده وطباعه تقرير فتره التقادم للفترات الماضية أو المستقبلية. يتم تقييم التواريخ بالنسبة إلى التاريخ المحدد في الحقل <strong>الرصيد بداية من</strong>. حدد، بعد ذلك، <strong>للخلف</strong> لعرض معلومات عن الفترات الماضية. وحدد <strong>للأمام</strong> لعرض معلومات عن الفترات المستقبلية.</p>
-
-**ملاحظة:** يتم استخدام المعلومات التي تقوم بإدخالها في هذا الحقل فقط إذا لم تحدد فترة التقادم.</P>
+<div class="alert">
+  
+<STRONG>ملاحظة:</STRONG> يتم استخدام المعلومات التي تقوم بإدخالها في هذا الحقل فقط إذا لم تحدد فترة التقادم.</P>
 
 
 </div></td>

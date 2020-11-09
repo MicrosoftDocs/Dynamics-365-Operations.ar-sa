@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays
+ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29fd7afdd032e5d3afbe90a1883783b0f2dd83e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982151"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017266"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>حجز نفس الدُفعة لأمر مبيعات
 
@@ -36,11 +36,11 @@ ms.locfileid: "3982151"
 
 - **مجموعات نموذج الصنف** – يجب أن يتم لمجموعة نموذج الصنف تحديد حقلي **تحديد نفس الدُفعة** و **متطلبات التجميع** في مجموعة حقل **الحجز** لسياسات المخزون.
 - **تعقب مجموعات الأبعاد** - يجب أن يتم لمجموعة تعقب الأبعاد تحديد حقل **خطة التغطية حسب البعد** لرقم الدُفعة.
-- **مجموعات أبعاد التخزين** – يجب أن يتم لمجموعة أبعاد التخزين تحديد حقل **خطة التغطية حسب البعد** لـ **الموقع** و **المستودع** .
+- **مجموعات أبعاد التخزين** – يجب أن يتم لمجموعة أبعاد التخزين تحديد حقل **خطة التغطية حسب البعد** لـ **الموقع** و **المستودع**.
 
-وعند قيامك بحجز المخزون الخاص بمنتج في بند أمر مبيعات تم إعداده لتحديد الدفعة ذاتها، يحاول النظام حجز الكمية المطلوبة من دُفعة مخزون واحدة. كما يُوضع في الحسبان أي متطلبات سمة دُفعة محددة. وإذا كان لا يمكن تعبئة الكمية من دُفعة واحدة، تظهر صفحة **تعارض حجز نفس الدُفعة** . وتصف هذه الصفحة المشاكل وكذلك الإجراءات التي يمكنك اتخاذها لمتابعة الحجز. وقد تمنع الحالات التالية حجز الدُفعة:
+وعند قيامك بحجز المخزون الخاص بمنتج في بند أمر مبيعات تم إعداده لتحديد الدفعة ذاتها، يحاول النظام حجز الكمية المطلوبة من دُفعة مخزون واحدة. كما يُوضع في الحسبان أي متطلبات سمة دُفعة محددة. وإذا كان لا يمكن تعبئة الكمية من دُفعة واحدة، تظهر صفحة **تعارض حجز نفس الدُفعة**. وتصف هذه الصفحة المشاكل وكذلك الإجراءات التي يمكنك اتخاذها لمتابعة الحجز. وقد تمنع الحالات التالية حجز الدُفعة:
 
-- يحتوي كود إرجاع الدُفعة على **حظر الحجز** للمبيعات مميزًا بعلامة **محظورة** .
+- يحتوي كود إرجاع الدُفعة على **حظر الحجز** للمبيعات مميزًا بعلامة **محظورة**.
 - انتهت مدة صلاحية الدُفعة، استناداً إلى تاريخ انتهاء الصلاحية وأي أيام البيع للعميل متاحة. ولا يزال يمكن وضع الصنف في الاعتبار للحجز في حالة التحكم في مجموعة نماذج الصنف للصنف بواسطة التحكم في تاريخ ‏‫‏‫ما تنتهي صلاحيته أولاً يصرف أولاً (FEFO)، وإذا تم تحديد تاريخ الأفضلية كمعيار انتقاء.
 - لا تشتمل الدُفعة على أيام عمر متبقية كافية، استناداً إلى تاريخ انتهاء الصلاحية وتاريخ الأفضلية، بالإضافة إلى أية أيام بيع للعملاء.
 

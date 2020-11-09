@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSTroubIeshootingSeIfService
+ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88c94306eda4eb462f6b3fae73e0cdb05ed647a1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984024"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016230"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>إلغاء عمل المستودع لمعالجه الاستثناء
 
@@ -29,7 +29,7 @@ ms.locfileid: "3984024"
 
 تتيح وظيفة إلغاء العمل في Dynamics 365 Supply Chain Management Microsoft للمستخدم المسؤول إلغاء عمل مستودع مُعين قيد التقدم حاليًا، ولكن يتم حظره بواسطة النظام أو لا يمكن إكماله بسبب الظروف الاستثنائية. وتعتبر هذه الوظيفة بديلاً مُغريًا وأمنًا للبرامج النصية التصحيحية في SQL التي تقوم بإصلاح البيانات غير المتناسقة. ومع ذلك، بينما يتم طلب هذه البرامج النصية عادةً من متخصصي تكنولوجيا المعلومات، يمكن استخدام وظيفة إلغاء العمل من قبل المستخدمين الموجودين في الشركة والذين لديهم حقوق/صلاحيات المسؤول.
 
-يمكنك الوصول إلى وظيفة إلغاء العمل في **إدارة المستودع** \> **المهام الدورية** \> **تنظيف \> إلغاء العمل** . في مربع الحوار **إلغاء العمل** ، حدد معرف العمل الخاص بالعمل المراد إلغاءه، ثم حدد **موافق** .
+يمكنك الوصول إلى وظيفة إلغاء العمل في **إدارة المستودع** \> **المهام الدورية** \> **تنظيف \> إلغاء العمل**. في مربع الحوار **إلغاء العمل** ، حدد معرف العمل الخاص بالعمل المراد إلغاءه، ثم حدد **موافق**.
 
 ## <a name="warehouse-work-that-can-be-canceled"></a>عمل المستودع الذي يمكن إلغاؤه
 

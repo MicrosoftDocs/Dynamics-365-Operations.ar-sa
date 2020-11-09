@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172982"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998098"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>إعداد الكتابة المزدوجة من Lifecycle Services
 
@@ -50,12 +49,12 @@ ms.locfileid: "3172982"
 3. حدد الإصدار. 
 4. حدد المخطط. إذا توفر مخطط واحد فقط، فسيتم تحديده بشكل تلقائي.
 5. أكمل الخطوات الأولى في معالج **إعدادات النشر**.
-6. على علامة التبويب **Common Data Service**، اتبع إحدى الخطوات التالية:
+6. على علامة التبويب **Common Data Service** ، اتبع إحدى الخطوات التالية:
 
     - إذا تم تزويد بيئة Common Data Service للمستأجر، فيمكنك تحديدها.
 
         1. عيّن الخيار **تكوين Common Data Service** إلى **نعم**.
-        2. في حقل **البيئات المتوفرة**، حدد البيئة التي تريد دمجها مع بيانات Finance and Operations. تتضمن القائمة كافة البيئات حيث تملك امتيازات إدارية.
+        2. في حقل **البيئات المتوفرة** ، حدد البيئة التي تريد دمجها مع بيانات Finance and Operations. تتضمن القائمة كافة البيئات حيث تملك امتيازات إدارية.
         3. حدد خانة الاختيار **أوافق** للإشارة إلى موافقتك على الأحكام والشروط.
 
         ![علامة التبويب Common Data Service عند تزويد بيئة Common Data Service للمستأجر](../dual-write/media/lcs_setup_1.png)
@@ -75,7 +74,7 @@ ms.locfileid: "3172982"
         ![علامة التبويب Common Data Service عندما لا تتوفر بيئة Common Data Service لدى المستأجر](../dual-write/media/lcs_setup_2.png)
 
 7. أكمل الخطوات المتبقية في معالج **إعدادات النشر**.
-8. بعد ان تصبح حالة البيئة **منشورة**، افتح صفحة تفاصيل البيئة. يعرض القسم **معلومات بيئة Common Data Service** أسماء بيئة Finance and Operations وبيئة Common Data Service المرتبطتين.
+8. بعد ان تصبح حالة البيئة **منشورة** ، افتح صفحة تفاصيل البيئة. يعرض القسم **معلومات بيئة Common Data Service** أسماء بيئة Finance and Operations وبيئة Common Data Service المرتبطتين.
 
     ![قسم معلومات بيئة Common Data Service](../dual-write/media/lcs_setup_3.png)
 

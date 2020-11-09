@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f6d1f8a4c85c2161d1b79246d437bb3b4d223d1d
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015931"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>مهمة تنظيف الإدخالات المتاحة في إدارة المستودع‬‏‫
 
@@ -53,7 +54,7 @@ ms.locfileid: "3410923"
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>جعل إعداد الحد الأقصى لوقت التنفيذ متوفرًا
 
-بشكل افتراضي، لا يتوفر إعداد **الحد الأقصى لوقت التنفيذ**. إذا أردت استخدامه، يجب استخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزة ذات الصلة في النظام. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+بشكل افتراضي، لا يتوفر إعداد **الحد الأقصى لوقت التنفيذ**. إذا أردت استخدامه، يجب استخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزة ذات الصلة في النظام. في مساحة عمل **إدارة الميزات** ، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة:** *إدارة المستودعات*
 - **اسم الميزة:** *الحد الأقصى لوقت تنفيذ مهمة تنظيف الإدخالات المتاحة في إدارة المستودع‬‏‫‬*

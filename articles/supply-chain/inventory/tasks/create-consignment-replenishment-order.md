@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple, ConsignmentProductReceiptJournal, ConsignmentReplenishmentOrderLineQuantity
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66611e2d8a88269fe727c46ef4aa6aa809cc7836
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214034"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018343"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>إنشاء أمر تزويد شحن
 
@@ -33,16 +33,16 @@ ms.locfileid: "3214034"
 ## <a name="create-a-consignment-replenishment-order"></a>إنشاء أمر تزويد شحن
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > التدبير والتوريد > الشحن > أوامر تزويد الشحن‬**.
 2. حدد **جديد**.
-3. في الحقل **حساب المورّد**، حدد المورّد **US-104** (يجب تحديد مورّد غير مسجل كمالك في صفحة **ملاك المخزون**). 
+3. في الحقل **حساب المورّد** ، حدد المورّد **US-104** (يجب تحديد مورّد غير مسجل كمالك في صفحة **ملاك المخزون** ). 
 4. حدد **موافق**.
 5. حدد **إضافة بند**.
-6. في الحقل **رقم الصنف**، اكتب `M9211CI` (يجب تحديد صنف تم إعداده لمخزون الشحن).
-7. في الحقل **الكمية**، أدخل رقمًا.
-8. في حقل **‏‫تاريخ التسليم المطلوب‬‬**، أدخل تاريخًا. يتم استخدام التواريخ المطلوبة والمؤكدة بواسطة محرك MRP لوصول البضائع المنتظر.  
-9. في حقل **‏‫تاريخ التسليم المؤكد‬**، أدخل تاريخًا.
+6. في الحقل **رقم الصنف** ، اكتب `M9211CI` (يجب تحديد صنف تم إعداده لمخزون الشحن).
+7. في الحقل **الكمية** ، أدخل رقمًا.
+8. في حقل **‏‫تاريخ التسليم المطلوب‬‬** ، أدخل تاريخًا. يتم استخدام التواريخ المطلوبة والمؤكدة بواسطة محرك MRP لوصول البضائع المنتظر.  
+9. في حقل **‏‫تاريخ التسليم المؤكد‬** ، أدخل تاريخًا.
 10. قم بتوسيع قسم **تفاصيل البند**.
 11. حدد علامة التبويب **أبعاد المخزون**.
-12. لإظهار المالك في الحقل **مالك أبعاد المخزون**، قم بتحديث الصفحة. تم الآن إدراج المورّد US-104 كالمالك.  
+12. لإظهار المالك في الحقل **مالك أبعاد المخزون** ، قم بتحديث الصفحة. تم الآن إدراج المورّد US-104 كالمالك.  
 
 ## <a name="check-the-inventory-transaction-status"></a>التحقق من حالة حركة المخزون
 1. حدد **المخزون**.
@@ -52,8 +52,8 @@ ms.locfileid: "3214034"
 
 ## <a name="receive-items"></a>استلام الأصناف
 1. حدد **إيصال استلام المنتجات**.
-2. في الحقل **إيصال استلام المنتجات الخارجي‬**، اكتب قيمة.
-3. في حقل **الكمية**، أدخل رقمًا أقل من الرقم الذي يظهر هناك. 
+2. في الحقل **إيصال استلام المنتجات الخارجي‬** ، اكتب قيمة.
+3. في حقل **الكمية** ، أدخل رقمًا أقل من الرقم الذي يظهر هناك. 
 4. حدد **موافق**.
 
 ## <a name="check-the-on-hand-inventory"></a>التحقق من المخزون الفعلي

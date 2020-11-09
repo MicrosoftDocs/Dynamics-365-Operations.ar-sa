@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
-ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
+ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "3270326"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997136"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>المزامنة مع محرك التسعير عند الطلب في Dynamics 365 Supply Chain Management
 
@@ -61,7 +60,7 @@ ms.locfileid: "3270326"
 
 عند تحديد **أمر السعر** في Sales، يتم استدعاء وظيفة **الإجماليات** في علامة التبويب **أمر المبيعات\> عرض** في Supply Chain Management لأمر المبيعات المقترن. يتم استخدام القيم في إجمالي الأمر في Sales لملء الحقول المقابلة في Supply Chain Management.
 
-عند حساب إجمالي أمر المبيعات في Supply Chain Management، يقيّم الحساب اتفاقيات التجارة واتفاقيات المبيعات الحالية للعميل والمنتجات المدرجة في أمر المبيعات. يتم استخدام هذه المعلومات لحساب الإجماليات. عند تحديد **أمر السعر**، يعكس Sales تلقائيًا كل الإعداد الذي تم إجراؤه في Supply Chain Management.
+عند حساب إجمالي أمر المبيعات في Supply Chain Management، يقيّم الحساب اتفاقيات التجارة واتفاقيات المبيعات الحالية للعميل والمنتجات المدرجة في أمر المبيعات. يتم استخدام هذه المعلومات لحساب الإجماليات. عند تحديد **أمر السعر** ، يعكس Sales تلقائيًا كل الإعداد الذي تم إجراؤه في Supply Chain Management.
 
 ## <a name="limitations"></a>قيود
 
