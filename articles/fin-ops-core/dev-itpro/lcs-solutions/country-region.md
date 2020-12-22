@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979294"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685043"
 ---
 # <a name="globalization-resources"></a>موارد العولمة
 
 ## <a name="local-and-regional-deployments"></a>عمليات النشر المحلية والإقليمية
 إذا تطلبت القوانين الحكومية تخزين البيانات أو صيانتها بشكل مختلف عما هو مطلوب في البلدان/المناطق الأخرى، فقد تكون هناك متطلبات خاصة بالبلد/المنطقة يجب وضعها في الاعتبار عند النشر. ضع الموارد التالية في الاعتبار والتي قد تكون ملائمة لك:
 
-[تطبيقات Finance and Operations المشعلة بواسطة 21Vianet في الصين](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>ميزات الترجمة والميزات التنظيمية
 

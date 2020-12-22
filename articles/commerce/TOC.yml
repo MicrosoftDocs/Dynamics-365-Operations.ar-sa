@@ -10,10 +10,12 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: تحديثات خدمة One Version
               items:
-                - name: نظرة عامة حول تحديثات خدمة One Version
+                - name: الأسئلة المتداولة حول تحديثات خدمة إصدار واحد
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: الأسئلة المتداولة حول تحديثات خدمة One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
+                - name: إدارة التحديثات ودورة حياة الكود المخصص، بما في ذلك Dynamics 365 Commerce
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/commerce/toc.json
                 - name: سياسة دورة حياة البرامج - إصدارات على السحابة
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
                 - name: سياسة دورة حياة البرامج - إصدارات محلية
@@ -70,7 +72,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: إرشادات تطبيق Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
+                - name: تطبيقاتFinance and Operations المشغّلة بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: تطبيقات Finance and Operations في فرنسا
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -92,12 +94,12 @@
                   items:
                     - name: المزايا الجديدة أو المتغيرة‬ في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.16 (فبراير 2021)
+                      href: get-started/whats-new-commerce-10-0-16.md
                     - name: Commerce 10.0.15 (يناير 2021)
                       href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14 (نوفمبر 2020)
                       href: get-started/whats-new-commerce-10-0-14.md
-                    - name: Commerce 10.0.13 (أكتوبر 2020)
-                      href: get-started/whats-new-commerce-10-0-13.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Finance and Operations
@@ -106,8 +108,6 @@
                       href: get-started/removed-deprecated-features-commerce.md
                 - name: ميزات AX 2012 التي تم تأجيلها
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
-                - name: ميزات لم يتم تنفيذها في عمليات النشر المحلية‬
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
             - name: موارد الوثائق
@@ -164,7 +164,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/commerce/toc.json
                 - name: تكوين مساحات العمل وتصفيتها
                   href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/commerce/toc.json
-                - name: عرض الصفحات بجوار بعضها باستخدام ميزة فتح في نافذة جديدة
+                - name: عرض الصفحات بجوار بعضها البعض باستخدام ميزة فتح في نافذة جديدة
                   href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/commerce/toc.json
                 - name: اختصارات لوحة المفاتيح
                   href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/commerce/toc.json
@@ -324,6 +324,8 @@
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
                         - name: حساب الإعفاء الضريبي
                           href: tax-exempt-price-inclusive.md
+                        - name: تكوين ضريبة المبيعات للأوامر عبر الإنترنت
+                          href: sales-tax-config.md
                     - name: إنشاء ملف تعريف الإخطار بالبريد الإلكتروني
                       href: email-notification-profiles.md
                     - name: التسلسلات الرقمية
@@ -362,12 +364,10 @@
                       href: MPOS-or-CPOS.md
                     - name: عمليات نقطة البيع أثناء الاتصال وعدم الاتصال
                       href: pos-operations.md
-                    - name: تنشيط جهاز نقطة بيع حديثة مخصصة
+                    - name: تنشيط جهاز Modern POS مخصصة
                       href: dev-itpro/retail-POS-activation-changes.md
                     - name: تمكين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
                       href: aad-pos-logon.md
-                    - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة ونقطة البيع السحابية
-                      href: demo-data.md
                     - name: البحث عن المنتج والعميل في نقطة البيع
                       href: POS-search-improvements.md
                     - name: البحث عن المنتجات ومتغيرات المنتجات أثناء إدخال الأمر
@@ -510,6 +510,8 @@
                       href: cash-denominations.md
                     - name: تكوين معالجة بطاقة الائتمان
                       href: tasks/configure-credit-card-processing.md
+                    - name: تخطي مربع الحوار "التغيير المستحق" في نقطه البيع
+                      href: dev-itpro/skip-change-due.md
                     - name: موصل مدفوعات Adyen
                       href: dev-itpro/adyen-connector.md
                     - name: حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen
@@ -530,10 +532,16 @@
                       href: dev-itpro/commerce-payments.md
                     - name: بطاقات ائتمان العملية دون محطة الأجهزة
                       href: dev-itpro/cnp-pos.md
+                    - name: Dynamics 365 Payment Connector لـ PayPal
+                      href: paypal.md
+                    - name: دعم دفع المحفظة
+                      href: wallets.md
                     - name: الأسئلة الشائعة حول المدفوعات
                       href: dev-itpro/payments-retail.md
                 - name: إدارة خرائط Bing لمؤسستك
                   href: dev-itpro/manage-bing-maps.md
+                - name: إنشاء فترات زمنية لاستلام العميل المنتج وتحديثها
+                  href: dev-itpro/pickup-timeslots.md
         - name: الترويج التجاري لمنتجاتك وخدماتك
           items:
             - name: المنتجات والفئات والفرز
@@ -710,13 +718,17 @@
                   href: hybrid-customer-orders.md
                 - name: إعادة استدعاء عملية الأمر في نقطة البيع
                   href: enhancedorderrecall.md
+                - name: تمكين أوضاع تسليم متعددة
+                  href: multiple-pickup-modes.md
             - name: أوامر المبيعات
               items:
-                - name: إنشاء أمر مركز اتصال
+                - name: إنشاء أوامر مركز الاتصال
                   href: tasks/create-call-center-orders.md
+                - name: تخصيص رسائل البريد الكتروني للحركات بحسب وضع التسليم
+                  href: customize-email-delivery-mode.md
                 - name: تغيير ‏‫وضع التسليم‬ في نقطة البيع
                   href: POS-change-delivery-mode.md
-            - name: إدارة الأوامر الموزعة
+            - name: إدارة الأمر الموزع
               items:
                 - name: نظرة عامة على DOM
                   href: dom.md
@@ -773,7 +785,17 @@
             - name: تعطيل القواعد في مدقق التناسق لحركات البيع بالتجزئة
               href: disable-consistency-check-rule.md
             - name: تحرير حركات متجر البيع بالتجزئة والتدقيق فيها
-              href: edit-audit-retail-transactions.md
+              items:
+                - name: تحرير وتدقيق حركات الدفع نقدًا والاستلام فورًا وإدارة النقد
+                  href: edit-cash-trans.md
+                - name: تحرير وتدقيق الأوامر عبر الإنترنت وحركات أمر العميل غير المتزامنة
+                  href: edit-order-trans.md
+                - name: تحرير الابعاد المالية لحركات البيع بالتجزئة
+                  href: edit-financial-dim.md
+                - name: إنشاء مصنف Excel لتحرير حركات البيع بالتجزئة
+                  href: create-excel-edit.md
+                - name: إضافة حقول إلى مصنف Excel لتحرير حركات البيع بالتجزئة
+                  href: add-fields-excel.md
             - name: إنشاء أوامر تستند إلى التغذية المستمرة لحركات متجر البيع بالتجزئة
               href: trickle-feed.md
             - name: إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
@@ -808,7 +830,7 @@
               href: task-mgmt-pos.md
         - name: إدارة موقع التجارة الإلكترونية الخاص بك
           items:
-            - name: نظرة عامة على المتجر على الإنترنت
+            - name: نظره عامه حول موقع التجارة الإلكترونية
               href: online-store-overview.md
             - name: إنشاء موقع تجارة إلكترونية
               items:
@@ -818,7 +840,7 @@
                   href: deploy-ecommerce-site.md
                 - name: إنشاء موقع تجارة إلكترونية
                   href: create-ecommerce-site.md
-                - name: إقران موقع تجارة إلكترونية بقناة عبر الإنترنت
+                - name: إقران موقع Dynamics 365 Commerce بقناة عبر الإنترنت
                   href: associate-site-online-store.md
                 - name: إدارة ملفات robots.txt
                   href: manage-robots-txt-files.md
@@ -946,6 +968,8 @@
                   href: dam-crop-images.md
                 - name: تخصيص نقاط تركيز الصورة
                   href: dam-custom-focal-point.md
+                - name: تحميل الملفات الثابتة وخدمتها
+                  href: upload-serve-static-files.md
             - name: جعل موقعك متوافقًا
               items:
                 - name: نظرة عامة على الامتثال
@@ -1014,6 +1038,8 @@
                       href: ship-address-module.md
                     - name: الوحدة النمطية لخيارات التسليم
                       href: delivery-options-module.md
+                    - name: الوحدة النمطية لمعلومات الاستلام
+                      href: pickup-info-module.md
                     - name: الوحدة النمطية لتفاصيل الأوامر
                       href: order-confirmation-module.md
                     - name: الوحدة النمطية لبطاقة الهدايا
@@ -1966,21 +1992,23 @@
                   href: e-commerce-extensibility/overview.md
                 - name: البدء
                   items:
+                    - name: ‏‫بدء تطوير قابلية التوسع عبر الإنترنت للتجارة الإلكترونية
+                      href: e-commerce-extensibility/sdk-getting-started.md
                     - name: متطلبات النظام
                       href: e-commerce-extensibility/system-requirements.md
                     - name: إعداد بيئة تطوير
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: تكوين ملف بيئة تطوير (env.)
                       href: e-commerce-extensibility/configure-env-file.md
-                    - name: تصحيح الأخطاء مقابل بيئة تطوير Commerce المستوى 1
+                    - name: تكوين بيئة تطوير للتجارة الكترونيه مقابل بيئة Commerce السحابية
                       href: e-commerce-extensibility/debug-tier-1.md
                     - name: إعداد مشاركة التعليمات البرمجية في Azure DevOps وإنشاء مسار بناء
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: نظرة عامة حول النظام الأساسي
                   items:
-                    - name: نظرة عامة هندسية
+                    - name: نظره عامه حول هندسة التجارة الإلكترونية
                       href: e-commerce-extensibility/architectural-overview.md
-                    - name: المكونات عبر الإنترنت
+                    - name: مكونات التجارة الإلكترونية
                       href: e-commerce-extensibility/ecommerce-components.md
                     - name: مرجع الأمر CLI
                       href: e-commerce-extensibility/cli-command-reference.md
@@ -2112,10 +2140,12 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: تحديثات SDK ومكتبة الوحدات
                       href: e-commerce-extensibility/sdk-updates.md
-                - name: أفضل الممارسات
+                - name: أفضل ممارسات و‏‫الأسئلة المتداولة
                   items:
                     - name: أفضل الممارسات لتطوير Dynamics 365 Commerce
                       href: e-commerce-extensibility/best-practices-dev.md
+                    - name: ‏‫الأسئلة المتداولة حولDynamics 365 Commerce online SDK
+                      href: e-commerce-extensibility/sdk-faq.md
             - name: Retail SDK
               items:
                 - name: بنية Retail SDK
@@ -2136,6 +2166,8 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: إعداد مسار بناء Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: قم بتنزيل نماذج وحزم من GitHub و NuGet
+                  href: dev-itpro/retail-sdk/sdk-github.md
                 - name: الأسئلة الشائعة حول Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: قابلية توسعة نقطة البيع
@@ -2156,6 +2188,8 @@
                   href: dev-itpro/POS-APIs.md
                 - name: ملحق دفع نقطة البيع
                   href: dev-itpro/pos-payment-extension.md
+                - name: دعم تقديم البقشيش في SDK لمدفوعات نقاط البيع
+                  href: dev-itpro/tipping.md
                 - name: دعم بطاقات الهدايا الخارجية
                   href: dev-itpro/gift-card.md
                 - name: إنشاء العلامة التجارية وتطبيقها على تطبيق Retail Experience
@@ -2218,7 +2252,7 @@
                   href: dev-itpro/commerce-runtime-overview.md
                 - name: خدمات CRT
                   href: dev-itpro/crt-services.md
-                - name: CRT وقابلية توسعة Retail Server
+                - name: نمط ملحقCRT
                   href: dev-itpro/commerce-runtime-extensibility.md
                 - name: إدارة الأسرار لقنوات Retail
                   href: dev-itpro/manage-secrets.md

@@ -14,14 +14,12 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي لـ 10.0.16 (فبراير 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: تحديثات النظام الأساسي لـ 10.0.15 (يناير 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.14 (نوفمبر 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.13 (أكتوبر 2020)
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.12 (أغسطس 2020)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: ميزات AX 2012 التي تم تأجيلها
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: ميزات لم يتم تنفيذها في عمليات النشر المحلية‬
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: أحداث الأعمال
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: إعداد التعيين لحقول حالة أمر المبيعات
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: تصفية أوامر الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: إدارة الكتابة المزدوجة
                           items:
                             - name: تخصيص تعيينات الكيانات والحقول
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: أصل الضريبة المتكاملة
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: المزامنة مع محرك التسعير عند الطلب في Dynamics 365 Supply Chain Management
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: العميل المتوقع إلى النقدية في الكتابة المزدوجة
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: المزامنة مع محرك التسعير عند الطلب في Dynamics 365 Supply Chain Management
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: استخدام محرك التسعير لـ Dynamics 365 Commerce مع Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: أصول داخلية لإخضاعها للصيانة
                               href: data-entities/dual-write/in-house-assets.md
                             - name: العامل والوظيفة والمنصب المتكامل
@@ -500,6 +500,8 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: متطلبات تغيير حجم الأجهزة
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: المصادقة في Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/authentication-onprem.md
                 - name: إعداد بيئات محلية ونشرها
                   items:
                     - name: إعداد المشاريع المحلية في LCS
@@ -630,6 +632,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: إنشاء اتصال Lifecycle Services (LCS) في Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: تحديث تدفق قديم في Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: التطبيق النموذجي لإدارة الأسطول
               items:
                 - name: السيناريو الشامل ‏‫للتطبيق النموذجي لإدارة الأسطول
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: الوصول إلى البيانات باستخدام SysDa API
                           href: dev-ref/sysda.md
+                        - name: تقليل الهجوم على إدخالات SQL
+                          href: dev-ref/query-with-parameters.md
                     - name: وحدات ماكرو X++
                       href: dev-ref/xpp-macros.md
                     - name: فئات سمات X++
@@ -1462,7 +1468,7 @@
               href: lifecycle-services/lcs-support.md
             - name: نظرة عامة على دعم Dynamics 365
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: الحصول على دعم لـ Finance and Operations الذي تديره 21Vianet في الصين
+            - name: الحصول على دعم لـ Finance and Operations المُشغل بواسطة 21Vianet في الصين
               href: lifecycle-services/21vianet-support.md
             - name: إعداد الدعم الفني لتطبيقات Finance and Operations
               href: lifecycle-services/support-experience.md
@@ -1498,6 +1504,8 @@
                   href: sysadmin/security-reports.md
                 - name: إنشاء مستخدمين جدد
                   href: sysadmin/tasks/create-new-users.md
+                - name: إدارة جلسات عمل المستخدم
+                  href: sysadmin/user-session-management.md
                 - name: استيراد المستخدمين بشكل مجمع
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: إعداد الفصل بين المهام
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: إعداد عميل المخزن الرئيسي لـ Azure
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: إجراءات التنظيف
+              href: sysadmin/cleanuproutines.md
         - name: الترقيات والتحديثات والإصلاحات العاجلة
           items:
             - name: موارد الترقيات والتحديثات والإصلاحات العاجلة
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: إنشاء التنقل
                   href: user-interface/build-navigation.md
-                - name: إنشاء مساحات عمل
+                - name: تعديل مساحة عمل
                   href: user-interface/build-workspace.md
             - name: النماذج
               items:

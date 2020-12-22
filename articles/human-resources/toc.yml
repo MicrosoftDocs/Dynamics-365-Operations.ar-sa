@@ -3,9 +3,11 @@
   items:
     - name: الجديد
       items:
-        - name: الميزات الجديدة أو المتغيرة في Human Resources
+        - name: ما الجديد أو المتغير في Human Resources
           href: hr-admin-whats-new.md
-        - name: 22 أكتوبر 2002
+        - name: 2 ديسمبر 2020
+          href: hr-whats-new-2020-12-02.md
+        - name: 22 أكتوبر 2020
           href: hr-whats-new-2020-10-22.md
         - name: 6 أكتوبر 2020
           href: hr-whats-new-2020-10-06.md
@@ -199,7 +201,7 @@
               href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
             - name: تكوين مساحات العمل وتصفيتها
               href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
-            - name: عرض الصفحات بجوار بعضها باستخدام ميزة فتح في نافذة جديدة
+            - name: عرض الصفحات بجوار بعضها البعض باستخدام ميزة فتح في نافذة جديدة
               href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
             - name: اختصارات لوحة المفاتيح
               href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
@@ -477,6 +479,8 @@
               href: hr-personnel-define-jobs.md
             - name: إنشاء تقويم مواعيد العمل
               href: hr-personnel-create-working-time-calendar.md
+            - name: تعيين المرشحين للوظائف
+              href: hr-personnel-recruit.md
             - name: الأسئلة المتداولة حول إجراءات العاملين
               href: hr-personnel-actions-faq.md
             - name: استخدام عمليات سير العمل لإدارة معلومات الموظفين
@@ -533,7 +537,9 @@
                   href: hr-benefits-management-overview.md
                 - name: تكوين إدارة المزايا
                   items:
-                    - name: تعيين معلمات إدارة المزايا
+                    - name: تكوين محددات إدارة المزايا لكل شركة
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: تعيين محددات إدارة المزايا والخدمة الذاتية للموظفين لجميع الشركات
                       href: hr-benefits-setup-parameters.md
                     - name: تكوين قواعد الأهلية وخياراتها
                       href: hr-benefits-setup-eligibility-rules.md

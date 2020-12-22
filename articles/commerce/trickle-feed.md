@@ -19,11 +19,11 @@ ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766726"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458392"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>إنشاء أوامر تستند إلى التغذية المستمرة لحركات متجر البيع بالتجزئة
 
@@ -52,6 +52,6 @@ ms.locfileid: "3766726"
 4. لحساب القائمة المالية، انتقل إلى **Retail وCommerce > تكنولوجيا معلومات Retail وCommerce > ترحيل نقطة البيع > حساب القوائم المالية على دُفعات**. لترحيل القوائم المالية، انتقل إلى **Retail وCommerce > تكنولوجيا معلومات Retail وCommerce > ترحيل نقطة البيع > ترحيل القوائم المالية على دُفعات**.
 
 > [!NOTE]
-> تمت إزالة عناصر القائمة **Retail وCommerce > تكنولوجيا معلومات Retail وCommerce > ترحيل نقطة البيع > حساب الكشوف على دُفعات‬** و**Retail وCommerce > تكنولوجيا معلومات Retail وCommerce > ترحيل نقطة البيع > ترحيل الكشوف على دُفعات‬** مع هذه الميزة.
+> تمت إزالة عناصر القائمة **Retail وCommerce > تكنولوجيا معلومات Retail وCommerce > ترحيل نقطة البيع > حساب الكشوف على دُفعات‬** و **Retail وCommerce > تكنولوجيا معلومات Retail وCommerce > ترحيل نقطة البيع > ترحيل الكشوف على دُفعات‬** مع هذه الميزة.
 
 كطريقة بديلة، يمكن إنشاء أنواع كشوف الحسابات والقوائم المالية يدويًا. انتقل إلى **Retail وCommerce > القنوات > المتاجر‏‎** وانقر فوق **كشوف الحساب**. انقر فوق **جديد**، ثم اختر نوع الكشف الذي ترغب في إنشائه. ستعرض الحقول في صفحة **كشوف الحساب** والإجراءات تحت **مجموعة كشوف الحسابات** في الصفحة البيانات والإجراءات ذات الصلة استنادًا إلى نوع الكشف المحدد.

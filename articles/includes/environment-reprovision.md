@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458358"
+---
 عند نسخ قاعدة بيانات بين البيئات، ستحتاج إلى تشغيل أداة إعادة تزويد البيئة قبل أن تصبح قاعدة البيانات المنسوخة قادرة على أداء وظائفها بشكل كامل، لكي تتأكد من أن جميع مكونات Commerce محدّثة.
 
 > [!IMPORTANT]

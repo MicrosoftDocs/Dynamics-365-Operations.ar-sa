@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570346"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458379"
 ---
 # <a name="recognize-deferred-revenue"></a>إقرار الإيرادات المؤجلة
 
@@ -47,7 +47,7 @@ ms.locfileid: "2570346"
 
 يمكنك إقرار الإيرادات بتشغيل عملية **إنشاء دفتر يومية** من صفحة **إقرار الإيرادات**. يمكنك فتح هذه الصفحة من أمر المبيعات أو **المهام الدورية**. في حالة تشغيل العملية من أمر المبيعات، تقوم بإقرار الإيرادات لأمر المبيعات المحدد فقط. وعادة ما يتم تشغيل العملية من **المهام الدورية** بدلاً من ذلك، بحيث يتم إقرار الإيرادات لكافة فواتير أوامر المبيعات المرحلة.
 
-لتحديد المعايير الخاصة بتحديد الإيرادات وترحيلها، حدد **إنشاء دفتر اليومية** لفتح مربع الحوار**إنشاء دفتر يومية**.
+لتحديد المعايير الخاصة بتحديد الإيرادات وترحيلها، حدد **إنشاء دفتر اليومية** لفتح مربع الحوار **إنشاء دفتر يومية**.
 
 [![إنشاء خيارات معلمات دفتر اليومية](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
 

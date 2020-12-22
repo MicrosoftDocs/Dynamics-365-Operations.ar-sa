@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: 6e2eafc6785aaf9bc7421bc80c90fa4a7f98a2d4
-ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2693010"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458352"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>إقرار الإيرادات في أوامر المبيعات
 
@@ -89,7 +89,7 @@ ms.locfileid: "2693010"
 
 [![حركات الإيصال](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
-بعد إنشاء الفاتورة، تصبح الأزرار **توزيع سعر الإيرادات** و**إعادة توزيع السعر ببنود أمر جديدة** و**جدول إقرار الإيرادات** متاحة، ولكن تكون الأزرار **تحديث توزيع سعر الإيرادات** و**جدول إقرار الإيرادات المتوقع** غير متاحة.
+بعد إنشاء الفاتورة، تصبح الأزرار **توزيع سعر الإيرادات** و **إعادة توزيع السعر ببنود أمر جديدة** و **جدول إقرار الإيرادات** متاحة، ولكن تكون الأزرار **تحديث توزيع سعر الإيرادات** و **جدول إقرار الإيرادات المتوقع** غير متاحة.
 
 [![إتاحة زر إقرار الإيرادات المتاحة](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
 
