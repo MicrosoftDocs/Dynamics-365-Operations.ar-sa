@@ -1,0 +1,256 @@
+- name: Dynamics 365 for Talent
+  href: talent-welcome.md
+  items:
+    - name: البدء
+      items:
+        - name: بدء استخدام Talent
+          href: talent-get-started.md
+        - name: الميزات الجديدة أو المتغيرة في Talent
+          href: whats-new.md
+          items:
+            - name: 1 سبتمبر 2020
+              href: whats-new-talent-september-01-2020.md
+            - name: 21 يناير 2020
+              href: whats-new-talent-january-21-2020.md
+            - name: 14 يناير 2020
+              href: whats-new-talent-january-14-2020.md
+            - name: 7 يناير 2020
+              href: whats-new-talent-january-7-2020.md
+            - name: 17 ديسمبر 2019
+              href: whats-new-talent-december-17-2019.md
+            - name: 12 ديسمبر 2019
+              href: whats-new-talent-december-12-2019.md
+            - name: 3 ديسمبر 2019
+              href: whats-new-talent-december-3-2019.md
+            - name: 19 نوفمبر 2019
+              href: whats-new-talent-november-19-2019.md
+            - name: 12 نوفمبر 2019
+              href: whats-new-talent-november-12-2019.md
+            - name: 5 نوفمبر 2019
+              href: whats-new-talent-november-5-2019.md
+            - name: 29 أكتوبر 2019
+              href: whats-new-talent-oct-29-2019.md
+            - name: 23 أكتوبر 2019
+              href: whats-new-talent-october-23-2019.md
+            - name: 8 أكتوبر 2019
+              href: whats-new-talent-october-8-2019.md
+            - name: 1 أكتوبر 2019
+              href: whats-new-talent-october-1-2019.md
+            - name: الجديد في أرشيفات 2019
+              items:
+                - name: 17 سبتمبر 2019
+                  href: whats-new-talent-september-17-2019.md
+                - name: 10 سبتمبر 2019
+                  href: whats-new-talent-september-12-2019.md
+                - name: 27 أغسطس 2019
+                  href: whats-new-talent-august-28-2019.md
+                - name: 22 أغسطس 2019
+                  href: whats-new-talent-august-21-2019.md
+                - name: 13 أغسطس 2019
+                  href: whats-new-talent-august-15-2019.md
+                - name: 6 أغسطس 2019
+                  href: whats-new-talent-august-7-2019.md
+                - name: 30 يوليو 2019
+                  href: whats-new-talent-july-31-2019.md
+                - name: 23 يوليو 2019
+                  href: whats-new-talent-july-24-2019.md
+                - name: 16 يوليو 2019
+                  href: whats-new-talent-july-16-2019.md
+                - name: 9 يوليو 2019
+                  href: whats-new-talent-july-9-2019.md
+                - name: 2 يوليو 2019
+                  href: whats-new-talent-july-2-2019.md
+                - name: 25 يونيو 2019
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18 يونيو 2019
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11 يونيو 2019
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4 يونيو 2019
+                  href: whats-new-talent-june-4-2019.md
+                - name: 28 مايو 2019
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21 مايو 2019
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13 مايو 2019
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6 مايو 2019
+                  href: whats-new-talent-may-6-2019.md
+                - name: 30 أبريل 2019
+                  href: whats-new-talent-april-30-2019.md
+                - name: 25 أبريل 2019
+                  href: whats-new-talent-april-25-2019.md
+                - name: 16 أبريل 2019
+                  href: whats-new-talent-april-16-2019.md
+                - name: 9 أبريل 2019
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2 أبريل 2019
+                  href: whats-new-talent-april-2-2019.md
+                - name: 26 مارس 2019
+                  href: whats-new-talent-march-26-2019.md
+                - name: 20 مارس 2019
+                  href: whats-new-talent-march-20.md
+                - name: 14 مارس 2019
+                  href: whats-new-talent-march-14.md
+                - name: 5 مارس 2019
+                  href: whats-new-talent-march-5.md
+                - name: 27 فبراير 2019
+                  href: whats-new-talent-feb-27.md
+                - name: 14 فبراير 2019
+                  href: whats-new-talent-feb14.md
+                - name: 7 فبراير 2019
+                  href: whats-new-talent-february-7.md
+                - name: 31 يناير 2019
+                  href: whats-new-talent-january-29.md
+                - name: 23 يناير 2019
+                  href: whats-new-talent-january-23.md
+                - name: 17 يناير 2019
+                  href: whats-new-talent-january-17.md
+                - name: 11 يناير 2019
+                  href: whats-new-talent-january-11.md
+            - name: الجديد في أرشيفات 2018
+              items:
+                - name: 14 ديسمبر 2018
+                  href: whats-new-talent-december-14.md
+                - name: 6 ديسمبر 2018
+                  href: whats-new-talent-december-6.md
+                - name: 27 نوفمبر 2018
+                  href: whats-new-talent-november-27.md
+                - name: 15 نوفمبر 2018
+                  href: whats-new-talent-november-15.md
+                - name: 31 أكتوبر 2018
+                  href: whats-new-talent-october-31.md
+                - name: 19 أكتوبر 2018
+                  href: whats-new-talent-october-19.md
+                - name: 15 أكتوبر 2018
+                  href: whats-new-talent-october-11.md
+                - name: 8 أكتوبر 2018
+                  href: whats-new-talent-october-8.md
+                - name: 1 أكتوبر 2018
+                  href: whats-new-talent-october-01.md
+                - name: 24 سبتمبر 2018
+                  href: whats-new-talent-september-24.md
+                - name: 17 سبتمبر 2018
+                  href: whats-new-talent-september-17-2018.md
+                - name: 10 سبتمبر 2018
+                  href: whats-new-talent-september-10.md
+                - name: أغسطس 2018
+                  href: whats-new-talent-august2018.md
+                - name: يوليو 2018
+                  href: whats-new-talent-july2018.md
+        - name: متطلبات النظام
+          href: talent-versions-update-policy.md
+        - name: تحديثات Talent
+          href: talent-updates.md
+        - name: تزويد Talent
+          href: provisioning-talent.md
+        - name: إدارة الميزات
+          href: access-preview-feature.md
+        - name: تزويد Onboard
+          href: modular-app-tech-faq.md
+        - name: تصدير البيانات من Attract وOnboard
+          href: attract-onboard-export-data.md
+        - name: تضمين تطبيقات اللوحة من Power Apps
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: الحصول على دعم لـ Talent
+          href: talent-support.md
+    - name: تعيين الموظفين لمؤسستك‬ باستخدام Attract
+      items:
+        - name: اختيار إصدار Attract
+          href: attract-comprehensive-hiring.md
+        - name: ميزات وقدرات Attract
+          href: attract-overview.md
+        - name: تكوين إعدادات النظام
+          items:
+            - name: تكوين معلومات الشركة
+              href: admin-settings-attract.md
+            - name: تعيين أذونات المستخدم
+              href: security-attract.md
+            - name: اعداد موقع الوظائف
+              href: career-site.md
+            - name: تمكين تكامل Broadbean
+              href: attract-admin-job-board-settings.md
+            - name: تكوين إعدادات البريد الإلكتروني
+              href: attract-configure-email-settings.md
+            - name: إعداد تكامل LinkedIn
+              href: attract-admin-linkedin.md
+            - name: الأسئلة المتداولة حول تكامل LinkedIn
+              href: attract-linkedin-faq.md
+        - name: إنشاء عملية توظيف
+          items:
+            - name: إنشاء قالب عملية توظيف
+              href: process-templates-attract.md
+            - name: إضافة الأنشطة إلى عملية توظيف
+              href: activities-attract.md
+            - name: إنشاء قوالب بريد إلكتروني
+              href: email-templates.md
+            - name: استخدام التقارير التحليلية
+              href: analytic-reports.md
+        - name: إنشاء وظائف ونشرها
+          items:
+            - name: إنشاء وظيفة
+              href: creating-jobs-attract.md
+            - name: نشر وظائف في LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: نشر وظائف في Broadbean
+              href: posting-jobs-external.md
+            - name: إغلاق وظيفة
+              href: attract-close-job.md
+        - name: توريد المرشحين
+          items:
+            - name: اختيار المرشحين باستخدام مجموعات المواهب‬
+              href: attract-talent-pools.md
+            - name: توريد المرشحين باستخدام LinkedIn Recruiter
+              href: attract-linkedin-recruiter.md
+            - name: تعقب مصادر المرشحين
+              href: source-tracking.md
+            - name: التوصيات الذكية
+              href: intelligent-recommendations.md
+        - name: إعداد المقابلات
+          items:
+            - name: جدولة المقابلات
+              href: interview-scheduling-feedback.md
+        - name: تقديم عرض
+          items:
+            - name: إعداد إدارة العروض
+              href: offer-setup.md
+            - name: إنشاء العروض والموافقة والتوقيع عليها
+              href: creating-offers.md
+        - name: قابلية التوسعة‬ في Attract
+          href: extensibility-attract.md
+    - name: الترحيب بالموظفين الجدد بواسطة Onboard
+      items:
+        - name: بدء استخدام Onboard
+          href: create-onboarding-experience.md
+        - name: الحصول على تطبيق Onboard
+          href: onboard-get-app.md
+        - name: إنشاء دليل الإعداد وإرساله
+          href: onboard-create-guide.md
+        - name: إنشاء قالب إعداد
+          href: onboard-create-template.md
+        - name: تحرير الأدلة والقوالب
+          href: onboard-edit-guides-templates.md
+        - name: مشاركة المحتوى
+          href: onboard-share-template.md
+        - name: عرض الحالة
+          href: onboard-view-status.md
+        - name: إنشاء فريق توظيف
+          href: onboard-create-team.md
+    - name: قابلية التوسعة
+      items:
+        - name: تتبع التغييرات في بيانات التوظيف
+          href: process-auditing.md
+        - name: قابلية التوسعة في Attract
+          href: extensibility-attract.md
+        - name: توسيع Talent باستخدام Power Apps وPower Automate
+          href: extensibility-examples.md
+    - name: استكشاف أخطاء Attract وOnboard
+      items:
+        - name: استكشاف أخطاء نشر الوظائف في LinkedIn وإصلاحها
+          href: attract-troubleshoot-linkedin.md
+        - name: بإمكان المستخدم الوصول إلى Human Resources ولكن ليس إلى تطبيق Onboard أو Attract
+          href: user-access-core-hr.md
+        - name: لم يتم العثور على مستخدمي Azure Active Directory في منتقي الأشخاص
+          href: people-picker-user-not-found.md
+        - name: لا يستطيع مستخدمو Attract التقدم للوظائف من مدخل المهن
+          href: attract-troubleshoot-career-portal.md

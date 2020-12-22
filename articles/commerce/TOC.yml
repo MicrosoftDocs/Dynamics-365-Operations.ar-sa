@@ -1,0 +1,2320 @@
+- name: Dynamics 365 Commerce
+  items:
+    - name: Dynamics 365 Commerce
+      items:
+        - name: صفحة Dynamics 365 Commerce الرئيسية
+          href: index.md
+        - name: البدء
+          items:
+            - name: قبل الشراء
+              href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
+            - name: تحديثات خدمة One Version
+              items:
+                - name: الأسئلة المتداولة حول تحديثات خدمة إصدار واحد
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: الأسئلة المتداولة حول تحديثات خدمة One Version
+                  href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
+                - name: إدارة التحديثات ودورة حياة الكود المخصص، بما في ذلك Dynamics 365 Commerce
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/commerce/toc.json
+                - name: سياسة دورة حياة البرامج - إصدارات على السحابة
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
+                - name: سياسة دورة حياة البرامج - إصدارات محلية
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/commerce/toc.json
+                - name: توافر تحديث الخدمة
+                  href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
+                - name: تطبيق التحديثات على بيئات السحابة
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: تطبيق التحديثات على عمليات النشر المحلية
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين تحديثات الخدمة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: إيقاف تحديثات الخدمة مؤقتًا
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: تلقي إعلامات حول تحديثات الخدمة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: أتمتة مهمة البيانات
+                  href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
+                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة One Version
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
+            - name: إعداد بيئة تقييم Dynamics 365 Commerce
+              items:
+                - name: نظرة عامة على بيئة تقييم Dynamics 365 Commerce
+                  href: cpe-overview.md
+                - name: تزويد بيئة تقييم Dynamics 365 Commerce
+                  href: provisioning-guide.md
+                - name: تكوين بيئة تقييم Dynamics 365 Commerce
+                  href: cpe-post-provisioning.md
+                - name: تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة تقييم Dynamics 365 Commerce
+                  href: cpe-bopis.md
+                - name: تكوين ميزات اختيارية في بيئة تقييم Dynamics 365 Commerce
+                  href: cpe-optional-features.md
+                - name: الأسئلة المتداولة حول بيئة تقييم Dynamics 365 Commerce
+                  href: cpe-faq.md
+            - name: اعتبارات النشر
+              items:
+                - name: خيارات النشر
+                  href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/commerce/toc.json
+                - name: مقارنة بين الميزات في السحابة وفي الموقع المحلي
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/finance/toc.json
+                - name: النشر عبر السحابة
+                  href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: متطلبات النظام لعمليات النشر عبر السحابة
+                  href: get-started/system-requirements.md
+                - name: النشر المحلي
+                  href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
+                - name: متطلبات النظام لعمليات النشر المحلي
+                  href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
+                - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
+                  href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
+                - name: شراء Finance + Operations ‏(on-premises)
+                  href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: إرشادات تطبيق Commerce Data Exchange
+                  href: dev-itpro/implementation-considerations-cdx.md
+                - name: تطبيقاتFinance and Operations المشغّلة بواسطة 21Vianet في الصين
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
+                - name: تطبيقات Finance and Operations في فرنسا
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: الحصول على الدعم
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
+            - name: الترقية ودعم N-1
+              items:
+                - name: الترقية ودعم N-1 لـ Commerce
+                  href: dev-itpro/overview-upgrade-n-minus1.md
+                - name: تثبيت التطوير التدريجي (N-1) والتكوين والتكوين المرحلي
+                  href: dev-itpro/n-1-installation-configuration.md
+                - name: ترقية ملحق قناة البيع بالتجزئة إلى أحدث Retail SDK
+                  href: dev-itpro/RetailSDK-update.md
+            - name: الجديد أو المتغير
+              items:
+                - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
+                - name: المزايا الجديدة أو المتغيرة في Commerce
+                  items:
+                    - name: المزايا الجديدة أو المتغيرة‬ في صفحة Commerce الرئيسية
+                      href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.16 (فبراير 2021)
+                      href: get-started/whats-new-commerce-10-0-16.md
+                    - name: Commerce 10.0.15 (يناير 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
+                    - name: Commerce 10.0.14 (نوفمبر 2020)
+                      href: get-started/whats-new-commerce-10-0-14.md
+                - name: الميزات التي تمت إزالتها أو إهمالها
+                  items:
+                    - name: الميزات التي تمت إزالتها أو إهمالها في Finance and Operations
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                    - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
+                      href: get-started/removed-deprecated-features-commerce.md
+                - name: ميزات AX 2012 التي تم تأجيلها
+                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
+                - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
+                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
+            - name: موارد الوثائق
+              items:
+                - name: نظام التعليمات
+                  href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: الاتصال بنظام التعليمات
+                  href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
+                - name: نظرة عامة حول التعليمات المخصصة
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: عرض أوصاف الحقول وتصديرها
+                  href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
+                - name: مسجل المهام
+                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء الوثائق أو التدريب بمسجل المهام
+                  href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
+                - name: ملفات فيديو
+                  href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
+                - name: المصطلحات
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
+            - name: كتالوج التعليم
+              items:
+                - name: الصفحة الرئيسية لكتالوج التعليم
+                  href: ./get-started/learning-catalog.md
+                - name: صناع قرار الأعمال
+                  href: ./get-started/learning-catalog-bdm.md?
+                - name: المستخدمون المهنيون
+                  href: ./get-started/learning-catalog-business-user.md
+                - name: مدراء مشاريع التنفيذ
+                  href: ./get-started/learning-catalog-project-manager.md
+                - name: المسؤولون
+                  href: ./get-started/learning-catalog-administrator.md
+                - name: المطورون
+                  href: ./get-started/learning-catalog-developer.md
+                - name: التسويق ومبيعات الشريك
+                  href: ./get-started/learning-catalog-partner-sales.md
+                - name: مستشارون وظيفيون
+                  href: ./get-started/learning-catalog-functional-consultant.md
+                - name: مهندسون معماريون للحلول
+                  href: ./get-started/learning-catalog-solution-architect.md
+            - name: استكشاف واجهة المستخدم
+              items:
+                - name: عناصر واجهة المستخدم
+                  href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/commerce/toc.json
+                - name: ميزات إمكانية الوصول
+                  href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/commerce/toc.json
+                - name: نظرة على إدارة الميزات
+                  href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: الأسئلة الشائعة حول العميل
+                  href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: البحث عن إجراء
+                  href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/commerce/toc.json
+                - name: التصفية المتقدمة وبنية الاستعلام
+                  href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين مساحات العمل وتصفيتها
+                  href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: عرض الصفحات بجوار بعضها البعض باستخدام ميزة فتح في نافذة جديدة
+                  href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/commerce/toc.json
+                - name: اختصارات لوحة المفاتيح
+                  href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/commerce/toc.json
+                - name: تغيير اللوحات أو صور الشعارات للكيانات القانونية
+                  href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/commerce/toc.json
+                - name: بحث التنقل
+                  href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/commerce/toc.json
+                - name: تخصيص تجربة المستخدم
+                  href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
+                - name: طرق العرض المحفوظة
+                  href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: قدرات الشبكة
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء حقول مخصصة والعمل باستخدامها
+                  href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
+                - name: تضمين تطبيقات اللوحة من Power Apps
+                  href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: البحث عن المعلومات باستخدام عمليات البحث
+                  href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
+                - name: تغيير تاريخ جلسة
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/commerce/toc.json
+                - name: تعيين منطقة زمنية مفضلة لمستخدم
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
+                - name: فهم Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+        - name: نظرة عامة هندسية
+          items:
+            - name: الهندسة
+              items:
+                - name: نظرة عامة على هندسة Dynamics 365 Commerce
+                  href: commerce-architecture.md
+                - name: سير مهام مصادقة Dynamics 365 Commerce
+                  href: arch-auth-flow.md
+                - name: متطلبات تعيين إصدار مكونات Dynamics 365 Commerce
+                  href: arch-component-versioning.md
+                - name: هندسة Commerce Scale Unit
+                  href: dev-itpro/retail-server-architecture.md
+                - name: تحديد مخطط‬ في المتجر
+                  href: dev-itpro/retail-in-store-topology.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: أفضل ممارسات Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: اتصالات قناة Commerce Data Exchange والتجارة
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: استكشاف الأخطاء وإصلاحها في Commerce Data Exchange
+                      href: dev-itpro/CDX-Troubleshooting.md
+                - name: هندسة نقطة البيع الحديثة
+                  href: dev-itpro/retail-modern-pos-architecture.md
+                - name: هندسة نشر متجر على الإنترنت
+                  href: dev-itpro/retail-online-store-publishing-architecture.md
+                - name: محتوى Retail Channel Performance Power BI
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
+                - name: شهادة معايير أمان بيانات تطبيق الدفع (PA-DSS)
+                  href: dev-itpro/PA-DSS-Certification.md
+                - name: إمكانات Commerce المتوفرة في عمليات النشر المحلي
+                  href: retail-onprem.md
+            - name: النشر والإصلاحات العاجلة
+              items:
+                - name: مزامنة مثبتات الخدمة الذاتية في Dynamics 365 Commerce
+                  href: dev-itpro/Synchronize-installers.md
+                - name: Commerce Scale Unit (المستضافة ذاتيًا)
+                  href: dev-itpro/retail-store-system-begin.md
+                - name: تكوين وتثبيت Commerce Scale Unit (المستضافة ذاتيًا)
+                  href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+                - name: تكوين وتثبيت نقطة بيع حديثة
+                  href: retail-modern-pos-device-activation.md
+                - name: إدارة الحسابات والأجهزة من المركز الرئيسي
+                  href: set-up-activation-accounts-validate-devices-hq.md
+                - name: تنشيط جهاز نقطة البيع
+                  href: dev-itpro/retail-device-activation.md
+                - name: المساعدة في تأمين نقطة البيع السحابية‬ في بيئات مشتركة
+                  href: dev-itpro/secure-retail-cloud-pos.md
+                - name: تكوين Retail Hardware Station وتثبيته
+                  href: retail-hardware-station-configuration-installation.md
+                - name: النشر الجماعي لمكونات الخدمة الذاتية
+                  href: dev-itpro/retail-mass-deployment.md
+                - name: أحداث مكونات Commerce للتشخيصات واستكشاف الأخطاء وإصلاحها
+                  href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+                - name: تطبيق حزمة قابلة للنشر
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: تهيئة بيانات أولية في بيئات Commerce الجديدة
+                  href: enable-configure-retail-functionality.md
+            - name: إدارة دورة حياة التنفيذ
+              items:
+                - name: الصفحة الرئيسية لإدارة دورة حياة التنفيذ
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: هندسة تطبيقات Finance and Operations
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack for Finance and Operations
+                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: إعداد مشروع تنفيذ
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: تخطيط البيئة
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: الإعداد للعرض المباشر
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: الأسئلة المتداولة حول العرض المباشر
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: إرسال طلب خدمة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: الأسئلة المتداولة حول الاشتراكات ومشاريع LCS والمستأجرين في Azure AD
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: نقل البيئات بين مراكز البيانات
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: أنقل التراخيص بين أنواع الاتفاقيات
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: نقل مشروعات تنفيذ LCS إلى مستأجري Azure AD مختلفين
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: نقل مشاريع تنفيذ LCS من المواقع المحلية إلى السحابة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: مشروعات LCS وبيئات إنتاج متعددة على مستأجر Azure AD واحد
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: تنفيذ مشاريع Finance and Operations Commerce
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: إعداد بيئات جديدة وAzure DevOps وفروع لمشروعات Commerce
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: تحديث الكود والبيئات لمشاريع Commerce
+                  href: dev-itpro/updating-environments.md
+                - name: مشكلات الاختبار والأداء
+                  href: dev-itpro/retail-implementation-testing-performance.md
+        - name: إعداد القنوات الخاصة بك
+          items:
+            - name: نظره عامة حول القنوات
+              href: channels-overview.md
+            - name: المتطلبات الأساسية للقناة
+              items:
+                - name: المتطلبات الأساسية لإعداد القناة
+                  href: channels-prerequisites.md
+                - name: المتطلبات الأساسية العامة
+                  items:
+                    - name: المؤسسات والتدرجات الهرمية للمؤسسات
+                      items:
+                        - name: نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات
+                          href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
+                        - name: تخطيط التدرج الهرمي للمؤسسات
+                          href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                        - name: إنشاء كيانات قانونية
+                          href: channels-legal-entities.md
+                        - name: إعداد التدرجات الهرمية للمؤسسات
+                          href: channels-org-hierarchies.md
+                        - name: إنشاء وحدة تشغيل
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json
+                        - name: تحديد العلاقات بين الوحدات التنظيمية
+                          href: tasks/design-relationships-between-organizational-units.md
+                    - name: إعداد المستودع
+                      href: channels-setup-warehouse.md
+                    - name: إعداد ضرائب المبيعات
+                      items:
+                        - name: نظرة عامة على ضريبة المبيعات
+                          href: ../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json
+                        - name: أساليب حساب ضريبة المبيعات
+                          href: ../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=/dynamics365/commerce/toc.json
+                        - name: تعيين ضريبة المبيعات والتجاوزات
+                          href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
+                        - name: خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
+                          href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: حساب الإعفاء الضريبي
+                          href: tax-exempt-price-inclusive.md
+                        - name: تكوين ضريبة المبيعات للأوامر عبر الإنترنت
+                          href: sales-tax-config.md
+                    - name: إنشاء ملف تعريف الإخطار بالبريد الإلكتروني
+                      href: email-notification-profiles.md
+                    - name: التسلسلات الرقمية
+                      items:
+                        - name: نظرة عامة على التسلسل الرقمي
+                          href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/retail/toc.json
+                        - name: إعداد التسلسلات الرقمية على أساس فردي
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/retail/toc.json
+                        - name: إعداد التسلسل الرقمية باستخدام معالج
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/retail/toc.json
+                    - name: إعداد عميل افتراضي ودفتر عناوين
+                      href: default-customer.md
+                - name: المتطلبات الأساسية لقناة Retail
+                  items:
+                    - name: أكواد المعلومات ومجموعات أكواد المعلومات
+                      href: info-codes-retail.md
+                    - name: إنشاء ملف تعريف وظائف البيع بالتجزئة
+                      href: retail-functionality-profile.md
+                    - name: إنشاء دفتر عناوين جديد
+                      href: new-address-book.md
+                    - name: نظرة عامة على تخطيط الشاشة
+                      href: pos-screen-layouts.md
+                - name: المتطلبات الأساسية لقناة على الإنترنت
+                  items:
+                    - name: إنشاء ملف تعريف وظائف على الإنترنت
+                      href: online-functionality-profile.md
+            - name: إعداد قناة البيع بالتجزئة
+              items:
+                - name: إعداد قناة البيع بالتجزئة
+                  href: channel-setup-retail.md
+                - name: تكوين عمال البيع بالتجزئة
+                  href: tasks/worker.md
+                - name: نقطة البيع الحديثة ونقطة البيع السحابية
+                  items:
+                    - name: الاختيار بين نقطة البيع الحديثة ونقطة البيع السحابية
+                      href: MPOS-or-CPOS.md
+                    - name: عمليات نقطة البيع أثناء الاتصال وعدم الاتصال
+                      href: pos-operations.md
+                    - name: تنشيط جهاز Modern POS مخصصة
+                      href: dev-itpro/retail-POS-activation-changes.md
+                    - name: تمكين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
+                      href: aad-pos-logon.md
+                    - name: البحث عن المنتج والعميل في نقطة البيع
+                      href: POS-search-improvements.md
+                    - name: البحث عن المنتجات ومتغيرات المنتجات أثناء إدخال الأمر
+                      href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
+                    - name: تحسينات إدارة النقد
+                      href: cash-mgmt.md
+                    - name: البحث عن المخزون في نقطة البيع
+                      href: product-variants-POS.md
+                    - name: تعليق الحركات واستئنافها في نقطة البيع
+                      href: pos-suspend-recall-transactions.md
+                    - name: وظائف نقطة البيع دون اتصال
+                      href: pos-offline-functionality.md
+                    - name: إدارة الورديات وأدراج النقد
+                      href: shift-drawer-management.md
+                    - name: صرف رصيد بطاقة الهدايا
+                      href: dev-itpro/gift-card-cash-out.md
+                    - name: شحن الطلبات من متجر آخر
+                      href: charge-send.md
+                    - name: إخفاء أوضاع التسليم غير التابعة للناقل من مربع حوار شحنة نقطة البيع
+                      href: hide-non-carrier-modes.md
+                    - name: مسجل المهام والتعليمات لنقطة البيع الحديثة ونقطة البيع السحابية
+                      href: task-recorder-retail-pos.md
+                    - name: الأجهزة والأجهزة الطرفية
+                      items:
+                        - name: الأجهزة الطرفية
+                          href: retail-peripherals-overview.md
+                        - name: محاكي الأجهزة الطرفية
+                          href: dev-itpro/retail-peripheral-simulator.md
+                        - name: توصيل الأجهزة الطرفية بنقطة البيع
+                          href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: التحقق من سلامة الأجهزة الطرفية وخدمات نقطة البيع
+                          href: pos-healthcheck.md
+                        - name: دعم الأجهزه الطرفية الخاصة بالشبكة
+                          href: dev-itpro/network-peripherals.md
+                    - name: تخطيطات الشاشة
+                      items:
+                        - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة/نقطة البيع السحابية
+                          href: demo-data.md
+                        - name: التكوينات المرئية لواجهة مستخدم نقطة البيع
+                          href: pos-screen-layouts.md
+                        - name: تثبيت مصمم تخطيط نقطة البيع
+                          href: install-pos-layout-designer.md
+                        - name: اختيار إعدادات الإخطارات
+                          href: Notifications-POS.md
+                        - name: تطبيق نقطة البيع وإعدادات لغة المستخدم
+                          href: pos-application-user-language-settings.md
+                        - name: إعداد الصور لنقطة البيع الحديثة وإدارتها
+                          href: set-up-manage-images-retail-mpos.md
+                        - name: صور العميل في نقطة البيع
+                          href: pos-image.md
+                    - name: شركاء المبيعات
+                      items:
+                        - name: تعقب العمولات في نقطة البيع باستخدام مجموعات المبيعات
+                          href: pos-sales-groups-track-commissions.md
+                    - name: تنشيط الجهاز
+                      items:
+                        - name: تكوين نقطة البيع الحديثة وتثبيتها وتنشيطها
+                          href: retail-modern-pos-device-activation.md
+                        - name: إعداد وظيفة تسجيل الدخول الموسع لنقطة البيع الحديثة ونقطة البيع السحابية
+                          href: extended-logon.md
+                        - name: إدارة حسابات التنشيط والتحقق من صحة الأجهزة
+                          href: set-up-activation-accounts-validate-devices-hq.md
+                    - name: إنشاء الأبعاد المالية لسجلات نقاط البيع وتكوين قيم الأبعاد في السجلات
+                      href: tasks/create-financial-dimensions-pos.md
+                    - name: إنشاء مجموعات أذونات نقطة البيع
+                      href: tasks/create-pos-permission-groups.md
+                    - name: إنشاء ملفات تعريف مرئية لنقطة البيع
+                      href: tasks/create-pos-visual-profile-2016-02.md
+                - name: تكوين Retail Hardware Station وتثبيتها
+                  href: retail-hardware-station-configuration-installation.md
+                - name: عمليات الاستلام
+                  items:
+                    - name: إعداد تنسيقات إيصالات الاستلام وتصميمها
+                      href: receipt-templates-printing.md
+                    - name: إرسال إيصالات الاستلام عبر البريد الإلكتروني من نقطة البيع الحديثة
+                      href: email-receipts.md
+                    - name: إعادة تعيين أرقام الإيصالات
+                      href: reset_receipt_number_sequence.md
+                    - name: تضمين إيصالات بطاقة ائتمان المعالج في إيصالات استلام العملاء
+                      href: dev-itpro/embed-cc-receipt.md
+                - name: إنشاء ملفات تعريف الوظائف لمندوبي المبيعات
+                  href: tasks/configure-functionality-profile-sales-representative.md
+                - name: إنشاء الأبعاد المالية لقنوات البيع بالتجزئة وتكوين القيم في المتاجر
+                  href: tasks/create-financial-dimensions-retail-channels.md
+            - name: إعداد قناة على الإنترنت
+              items:
+                - name: إعداد قناة على الإنترنت
+                  href: channel-setup-online.md
+            - name: إعداد قناة مركز الاتصال
+              items:
+                - name: وظيفة مبيعات مركز الاتصال
+                  href: call-center-functionality.md
+                - name: إعداد قناة مركز الاتصال
+                  href: channel-setup-callcenter.md
+                - name: كتالوجات مركز الاتصال
+                  href: call-center-catalogs.md
+                - name: إعداد خيارات معالجة أوامر مركز الاتصال
+                  href: set-up-order-processing-options.md
+                - name: تكوين أوضاع تسليم مركز الاتصال والمصاريف
+                  href: configure-call-center-delivery.md
+                - name: إعداد تنبيهات الاحتيال والعمل باستخدامها
+                  href: set-up-fraud-alerts.md
+            - name: تكوين القناة الإضافية
+              items:
+                - name: إضافة قناة إلى تدرج هرمي للمؤسسات
+                  href: channel-add-to-org-hierarchy.md
+                - name: التكاليف التلقائية المتقدمة
+                  items:
+                    - name: تكوين التكاليف التلقائية المتقدمة واستخدامها
+                      href: omni-auto-charges.md
+                    - name: تمكين التكاليف التلقائية وتكوينها حسب القناة
+                      href: auto-charges-by-channel.md
+                    - name: توزيع تكاليف الرأس لمطابقة بنود المبيعات
+                      href: pro-rate-charges-matching-lines.md
+                - name: إدارة برامج الاستمرارية
+                  items:
+                    - name: إعداد برامج الاستمرارية لمراكز الاتصال
+                      href: set-up-continuity-program.md
+                    - name: تحديد جداول الاستمرارية
+                      href: tasks/define-continuity-schedules.md
+                - name: إدارة متجر Retail
+                  items:
+                    - name: إنشاء ساعات المتجر وتغييرها
+                      href: dev-itpro/store-hours.md
+                    - name: Commerce Scale Unit
+                      href: dev-itpro/retail-store-system-begin.md
+                - name: إدارة مركز الاتصال
+                  items:
+                    - name: تكوين ‏‫تعليقات أوامر مركز الاتصال‬ والعمل باستخدامها
+                      href: work-with-order-holds.md
+                - name: المدفوعات
+                  items:
+                    - name: طرق الدفع
+                      href: payment-methods.md
+                    - name: طرق الدفع في مراكز الاتصال
+                      href: work-with-payments.md
+                    - name: إعداد بطاقة الائتمان وتفويضها والتقاطها
+                      href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين الفئات النقدية لنقطة البيع
+                      href: cash-denominations.md
+                    - name: تكوين معالجة بطاقة الائتمان
+                      href: tasks/configure-credit-card-processing.md
+                    - name: تخطي مربع الحوار "التغيير المستحق" في نقطه البيع
+                      href: dev-itpro/skip-change-due.md
+                    - name: موصل مدفوعات Adyen
+                      href: dev-itpro/adyen-connector.md
+                    - name: حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: مصادقة العملاء القوية (SCA) باستخدام موصل Adyen
+                      href: adyen_redirect.md
+                    - name: وحدات دفع طرفية مخصصة ومطالبات لطابعة ودرج الأوراق النقدية
+                      href: pos-multi-hws.md
+                    - name: التبديل السلس دون اتصال لعمليات بطاقة الهدايا وإشعار الدائن
+                      href: dev-itpro/seamless-offline-improvements.md
+                    - name: إعداد سيناريوهات دفع الفواتير
+                      href: payinvoice.md
+                    - name: منع الدفعات المكررة
+                      href: duplicate-payment-protection.md
+                    - name: نظرة عامة على مدفوعات القنوات متعددة الاتجاهات
+                      href: omni-channel-payments.md
+                    - name: مدفوعات أمر Commerce بالقناة متعددة الاتجاهات
+                      href: dev-itpro/commerce-payments.md
+                    - name: بطاقات ائتمان العملية دون محطة الأجهزة
+                      href: dev-itpro/cnp-pos.md
+                    - name: Dynamics 365 Payment Connector لـ PayPal
+                      href: paypal.md
+                    - name: دعم دفع المحفظة
+                      href: wallets.md
+                    - name: الأسئلة الشائعة حول المدفوعات
+                      href: dev-itpro/payments-retail.md
+                - name: إدارة خرائط Bing لمؤسستك
+                  href: dev-itpro/manage-bing-maps.md
+                - name: إنشاء فترات زمنية لاستلام العميل المنتج وتحديثها
+                  href: dev-itpro/pickup-timeslots.md
+        - name: الترويج التجاري لمنتجاتك وخدماتك
+          items:
+            - name: المنتجات والفئات والفرز
+              items:
+                - name: نظرة عامة على معلومات المنتجات
+                  href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
+                - name: إعداد منتجات البيع بالتجزئة
+                  href: set-up-retail-products.md
+                - name: التدرج الهرمي للمنتجات
+                  items:
+                    - name: التدرجات الهرمية لـ Commerce
+                      href: retail-hierarchies.md
+                    - name: إنشاء تدرج هرمي لمنتج جديد
+                      href: create-product-hierarchy.md
+                    - name: إدارة فئات المنتجات والمنتجات
+                      href: category-management-product-creation.md
+                    - name: تغيير ترتيب الفرز لكيانات ترويج البضائع
+                      href: custom-order-categories-nav-retail-prod-hierarchy.md
+                - name: أبعاد المنتجات
+                  items:
+                    - name: أبعاد المنتجات
+                      href: ../supply-chain/pim/product-dimensions.md?toc=/dynamics365/retail/toc.json
+                    - name: إنشاء مجموعة متغيرات
+                      href: create-variant-group.md
+                - name: إنشاء منتج جديد
+                  items:
+                    - name: إنشاء منتج جديد في Commerce
+                      href: create-new-product-commerce.md
+                    - name: إدارة فئات المنتجات والمنتجات
+                      href: category-management-product-creation.md
+                - name: سمات المنتج
+                  items:
+                    - name: السمات ومجموعات السمات
+                      href: attribute-attributegroups-lifecycle.md
+                    - name: تحديد سمات القناة
+                      href: tasks/define-channel-attributes.md
+                - name: التدرجات الهرمية للقناة
+                  items:
+                    - name: إنشاء تدرج هرمي للتنقل في القناة
+                      href: create-channel-hierarchy.md
+                    - name: تكوين قناه لاستخدام تدرج هرمي للتنقل في القناة
+                      href: configure-channel-hierarchy.md
+                - name: عمليات الفرز
+                  items:
+                    - name: إدارة الفرز
+                      href: assortments.md
+                    - name: إعداد عمليات الفرز
+                      href: set-up-assortments.md
+                    - name: إدارة عمليات الفرز
+                      href: tasks/manage-assortments-2016-11.md
+                - name: الأكواد الشريطية
+                  items:
+                    - name: إعداد الأكواد الشريطية
+                      href: set-up-bar-codes.md
+                    - name: إعداد أقنعة الأكواد الشريطية
+                      href: set-up-bar-code-masks.md
+                - name: الضمانات
+                  items:
+                    - name: إنشاء الضمانات الموسعة وتكوينها
+                      href: extended-warranty.md
+            - name: التسعير والخصومات
+              items:
+                - name: الخصومات
+                  href: retail-discounts-overview.md
+                - name: إدارة أسعار المبيعات
+                  href: price-management.md
+                - name: تعديلات الأسعار والخصومات
+                  href: price-adjustments-discounts.md
+                - name: تطبيق خصومات متعددة على منتج
+                  href: apply-multiple-retail-discounts.md
+                - name: تحديد المجموعة المثلى من الخصومات المتداخلة
+                  href: optimal-combination-overlapping-discounts.md
+                - name: تحديد الخصومات الخاصة بالقناة
+                  href: define-channel-specific-discounts.md
+                - name: خيارات لمنع الخصومات لمنتجات البيع بالتجزئة
+                  href: prevent-discounts.md
+                - name: الخصومات المستندة إلى طريقة الدفع‬
+                  href: tender_based_discounts.md
+                - name: نظرة عامة حول خصم الشحن
+                  href: retail-shipping-discount.md
+                - name: إعداد الكوبونات
+                  href: retail-coupons.md
+                - name: عرض الخصومات في نقطة البيع
+                  href: discounts-pos.md
+                - name: تقارير السعر
+                  href: price-report.md
+                - name: إنشاء اتفاقيات تجارية خاصة بالقناة
+                  href: tasks/base-price-trade-agreements.md
+                - name: إنشاء اتفاقيات تجارية باستخدام قواعد تسعير الفئات
+                  href: tasks/category-pricing-rules-trade-agreements.md
+            - name: التوصيات
+              items:
+                - name: نظرة عامة على توصيات المنتجات
+                  href: product-recommendations.md
+                - name: تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce
+                  href: enable-ADLS-environment.md
+                - name: تمكين توصيات المنتجات
+                  href: enable-product-recommendations.md
+                - name: التوصيات المخصصة
+                  items:
+                    - name: تمكين التوصيات المخصصة
+                      href: personalized-recommendations.md
+                    - name: إلغاء الاشتراك في التوصيات المخصصة
+                      href: personalization-gdpr.md
+                - name: تمكين توصيات "تسوق أشكال مماثلة"
+                  href: shop-similar-looks.md
+                - name: تجارب نقطة البيع
+                  items:
+                    - name: إضافة توصيات المنتجات على نقطة البيع
+                      href: product.md
+                    - name: إضافة توصيات إلى شاشة المعاملة
+                      href: add-recommendations-control-pos-screen.md
+                - name: إدارة نتائج توصيات المنتجات المستندة إلى الذكاء الاصطناعي والتعلم الآلي (AI-ML)
+                  href: modify-product-recommendation-results.md
+                - name: إنشاء توصيات منتجات مختارة يدويًا
+                  href: create-editorial-recommendation-lists.md
+                - name: إنشاء توصيات باستخدام بيانات العرض التوضيحي
+                  href: product-recommendations-demo-data.md
+                - name: الأسئلة المتداولة حول توصيات المنتجات
+                  href: faq-recommendations.md
+            - name: التقييمات والمراجعات
+              items:
+                - name: نظرة عامة على التقييمات والمراجعات
+                  href: ratings-reviews-overview.md
+                - name: الموافقة على استخدام التقييمات والمراجعات
+                  href: opt-in-ratings-reviews.md
+                - name: إدارة التقييمات والمراجعات
+                  href: manage-reviews.md
+                - name: تكوين التقييمات والمراجعات
+                  href: configure-ratings-reviews.md
+                - name: مزامنة تقييمات المنتجات
+                  href: sync-product-ratings.md
+            - name: إدارة المخزون الخاص بك
+              items:
+                - name: المخزون
+                  items:
+                    - name: إدارة مخزون المتجر
+                      href: work-with-store-inventory.md
+                    - name: تكوين المخازن المؤقتة للمخزون ومستويات المخزون
+                      href: inventory-buffers-levels.md
+                    - name: العمل مع العناصر المتسلسلة في نقطة بيع
+                      href: pos-serialized-items.md
+                    - name: دفع المنتجات من مركز توزيع إلى متجر باستخدام دفع المشتري
+                      href: tasks/push-products-distribution-center-store-buyers-push.md
+                    - name: إعداد قواعد ومعلمات لتوزيع البضائع ودفع المشتري
+                      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: عملية المخزون الداخلية في نقطة البيع
+                      href: pos-inbound-inventory-operation.md
+                    - name: عملية المخزون الخارجية في نقطة البيع
+                      href: pos-outbound-inventory-operation.md
+                    - name: حساب توفر المخزون لقنوات البيع بالتجزئة
+                      href: calculated-inventory-retail-channels.md
+                - name: أوامر الشراء
+                  items:
+                    - name: نظرة عامة على أمر الشراء
+                      href: ../supply-chain/procurement/purchase-order-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء أوامر شراء
+                      href: ../supply-chain/procurement/purchase-order-creation.md?toc=/dynamics365/commerce/toc.json
+                    - name: إيصال استلام المنتجات في مقابل أوامر الشراء
+                      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?toc=/dynamics365/commerce/toc.json
+                    - name: اعتماد أوامر الشراء وتأكيدها
+                      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?toc=/dynamics365/commerce/toc.json
+                    - name: مساحة العمل المحمولة "الموافقة على أمر الشراء"
+                      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء حزم المنتجات لأوامر الشراء
+                      href: tasks/create-product-packages-purchase-orders.md
+        - name: إدارة أوامرك
+          items:
+            - name: أوامر العميل
+              items:
+                - name: أوامر العميل في نقطة البيع (POS)
+                  href: customer-orders-overview.md
+                - name: أوامر العملاء المختلطة
+                  href: hybrid-customer-orders.md
+                - name: إعادة استدعاء عملية الأمر في نقطة البيع
+                  href: enhancedorderrecall.md
+                - name: تمكين أوضاع تسليم متعددة
+                  href: multiple-pickup-modes.md
+            - name: أوامر المبيعات
+              items:
+                - name: إنشاء أوامر مركز الاتصال
+                  href: tasks/create-call-center-orders.md
+                - name: تخصيص رسائل البريد الكتروني للحركات بحسب وضع التسليم
+                  href: customize-email-delivery-mode.md
+                - name: تغيير ‏‫وضع التسليم‬ في نقطة البيع
+                  href: POS-change-delivery-mode.md
+            - name: إدارة الأمر الموزع
+              items:
+                - name: نظرة عامة على DOM
+                  href: dom.md
+                - name: تكوين التكلفة
+                  href: cost.md
+            - name: تنفيذ الأوامر ومعالجتها
+              items:
+                - name: تنفيذ أمر للمتجر
+                  href: order-fulfillment-overview.md
+                - name: إعداد تنفيذ أمر للمتاجر
+                  href: order-fulfillment-pos-setup.md
+                - name: إظهار إخطارات الأوامر في نقطة البيع
+                  href: notifications-pos.md
+                - name: بيع برامج الاستمرارية ومعالجة أوامر المبيعات
+                  href: tasks/use-continuity-program.md
+            - name: المرتجعات
+              items:
+                - name: المبالغ المستردة المرتبطة
+                  href: dev-itpro/linked-refunds.md
+                - name: بيع المنتجات غير المضمنة في مجموعة المتجر وإرجاعها
+                  href: sell-return-outside-assortments.md
+                - name: تكوين ومعالجة عملية استبدال في أمر إرجاع
+                  href: orderexchanges.md
+                - name: تقييد طرق الدفع للمرتجعات من دون إيصال
+                  href: payment-methods-restrictions.md
+                - name: إرجاع أصناف عبر عدة فواتير وأوامر مبيعات للعملاء
+                  href: multireturn.md
+                - name: إنشاء وتحديث سياسة للمرتجعات والمبالغ المستردة لقناة
+                  href: refund_policy_returns.md
+        - name: إدارة عملائك
+          items:
+            - name: قاعدة العملاء
+              items:
+                - name: نظرة عامة حول العملاء
+                  href: clienteling-overview.md
+            - name: الولاء
+              items:
+                - name: نظرة عامة حول الولاء
+                  href: set-up-customer-loyalty-program.md
+                - name: تحديد برامج الولاء
+                  href: tasks/define-loyalty-programs.md
+                - name: تحديد نقاط مكافآت الولاء
+                  href: tasks/define-loyalty-reward-points.md
+                - name: تحديد أنظمة الولاء
+                  href: tasks/define-loyalty-schemes.md
+                - name: معالجة تسويات نقاط مكافأة الولاء
+                  href: tasks/process-loyalty-reward-point-adjustments.md
+        - name: إدارة مالياتك
+          items:
+            - name: نظرة عامة على كشوف الحساب
+              href: retail-statements.md
+            - name: مدقق تناسق الحركات
+              href: valid-checker.md
+            - name: تعطيل القواعد في مدقق التناسق لحركات البيع بالتجزئة
+              href: disable-consistency-check-rule.md
+            - name: تحرير حركات متجر البيع بالتجزئة والتدقيق فيها
+              items:
+                - name: تحرير وتدقيق حركات الدفع نقدًا والاستلام فورًا وإدارة النقد
+                  href: edit-cash-trans.md
+                - name: تحرير وتدقيق الأوامر عبر الإنترنت وحركات أمر العميل غير المتزامنة
+                  href: edit-order-trans.md
+                - name: تحرير الابعاد المالية لحركات البيع بالتجزئة
+                  href: edit-financial-dim.md
+                - name: إنشاء مصنف Excel لتحرير حركات البيع بالتجزئة
+                  href: create-excel-edit.md
+                - name: إضافة حقول إلى مصنف Excel لتحرير حركات البيع بالتجزئة
+                  href: add-fields-excel.md
+            - name: إنشاء أوامر تستند إلى التغذية المستمرة لحركات متجر البيع بالتجزئة
+              href: trickle-feed.md
+            - name: إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
+              href: tasks/create-calculate-post-statement-retail-store.md
+            - name: التسوية المالية في متاجر البيع بالتجزئة
+              href: fin-recon.md
+            - name: تحسينات على وظيفة ترحيل كشف الحساب
+              href: statement-posting-eod.md
+            - name: معالجة محسنة للأصناف المتعقبة بطريقة دُفعية
+              href: batch.md
+            - name: تكوين إعدادات طريقة الدفع التي تؤثر على كشوف حساب البيع بالتجزئة
+              href: tasks/payment-configurations-retail-statements.md
+            - name: تكوين وتشغيل وظيفة لحساب كشوف الحساب
+              href: tasks/run-job-calculate-statements.md
+            - name: تكوين وظيفة لترحيل كشوف الحسابات وتشغيلها
+              href: tasks/run-job-post-statements.md
+            - name: تكوين إعدادات المتجر التي تؤثر على كشوف حسابات البيع بالتجزئة
+              href: tasks/store-configurations-retail-statements.md
+            - name: ترحيل الدفعات والمبيعات على الإنترنت
+              href: tasks/posting-online-sales-payments.md
+        - name: إدارة مهام العامل
+          items:
+            - name: نظرة عامة حول إدارة المهام
+              href: task-mgmt-overview.md
+            - name: تكوين إدارة المهام
+              href: task-mgmt-configure.md
+            - name: إنشاء قوائم مهام وإضافة مهام
+              href: task-mgmt-create-lists.md
+            - name: تعيين قوائم المهام إلى المتاجر أو الموظفين
+              href: task-mgmt-assign-lists.md
+            - name: إدارة المهام في نقطة البيع
+              href: task-mgmt-pos.md
+        - name: إدارة موقع التجارة الإلكترونية الخاص بك
+          items:
+            - name: نظره عامه حول موقع التجارة الإلكترونية
+              href: online-store-overview.md
+            - name: إنشاء موقع تجارة إلكترونية
+              items:
+                - name: تكوين اسم مجالك
+                  href: configure-your-domain-name.md
+                - name: نشر مستأجر تجارة إلكترونية جديد
+                  href: deploy-ecommerce-site.md
+                - name: إنشاء موقع تجارة إلكترونية
+                  href: create-ecommerce-site.md
+                - name: إقران موقع Dynamics 365 Commerce بقناة عبر الإنترنت
+                  href: associate-site-online-store.md
+                - name: إدارة ملفات robots.txt
+                  href: manage-robots-txt-files.md
+                - name: تحميل عناوين URL لإعادة التوجيه‬ بشكل مجمع
+                  href: upload-bulk-redirects.md
+                - name: إعداد مستأجر متاجرة عمل-مستهلك في Commerce
+                  href: set-up-B2C-tenant.md
+                - name: إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين
+                  href: custom-pages-user-logins.md
+                - name: تكوين العديد من مستأجرين شركة إلى عميل في بيئة Commerce
+                  href: configure-multi-B2C-tenants.md
+                - name: النطاقات في Dynamics 365 Commerce
+                  href: domains-commerce.md
+                - name: إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
+                  href: add-cdn-support.md
+                - name: تمكين الكشف عن المتجر استنادًا إلى الموقع
+                  href: enable-store-detection.md
+            - name: نظرة عامة على عينة موقع
+              items:
+                - name: نظرة عامة على الصفحة الرئيسية
+                  href: quick-tour-home-page.md
+                - name: نظرة عامة على صفحات تفاصيل المنتج
+                  href: quick-tour-pdp.md
+                - name: نظرة عامة على صفحات سلة التسوق والسداد مع الخروج
+                  href: quick-tour-cart-checkout.md
+                - name: نظرة عامة على صفحات إدارة الحسابات
+                  href: quick-tour-account-management.md
+            - name: إدارة إعدادات موقعك
+              items:
+                - name: نظرة عامة على صفحة التأليف
+                  href: authoring-home-overview.md
+                - name: إدارة المستخدمين والأدوار
+                  href: manage-ecommerce-users-roles.md
+                - name: تطبيق إعدادات المخزون
+                  href: inventory-settings.md
+                - name: اعتبارات تحسين محرك البحث (SEO) لموقعك
+                  href: search-engine-optimization-considerations.md
+                - name: إدارة سياسة أمان المحتوى (CSP)
+                  href: manage-csp.md
+                - name: الانسحاب من مجموعة أحداث نشاط الويب
+                  href: web-activity-opt-out.md
+            - name: إدارة محتوى موقعك
+              items:
+                - name: طرق إضافة المحتوى
+                  href: add-manage-content.md
+                - name: مصطلحات نموذج الصفحة
+                  href: page-elements-overview.md
+                - name: حالات المستند ودورة الحياة
+                  href: document-states-overview.md
+                - name: العمل مع مجموعات النشر
+                  href: publish-groups.md
+                - name: تمكين المشاركة عبر القنوات واستخدامها
+                  href: cross-channel-sharing.md
+                - name: وضع علامة تجارية لموقعك وإضافة تفاصيل المتجر
+                  items:
+                    - name: إضافة شعار
+                      href: add-logo.md
+                    - name: تحديد سمة الموقع
+                      href: select-site-theme.md
+                    - name: العمل مع ملفات تجاوز CSS
+                      href: css-override-files.md
+                    - name: العمل باستخدام نمط الإعدادات المسبقة
+                      href: style-presets.md
+                    - name: إضافة أيقونة المفضلة
+                      href: add-favicon.md
+                    - name: إضافة رسالة ترحيب
+                      href: add-welcome-message.md
+                    - name: إضافة إشعار لحقوق النشر
+                      href: add-copyright-notice.md
+                    - name: إضافة لغات
+                      href: add-languages-to-site.md
+                    - name: إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام
+                      href: add-telemetry.md
+                - name: الوحدات النمطية
+                  items:
+                    - name: العمل باستخدام الوحدات النمطية
+                      href: work-with-modules.md
+                - name: الأجزاء
+                  items:
+                    - name: العمل باستخدام الأجزاء
+                      href: work-with-fragments.md
+                - name: القوالب
+                  items:
+                    - name: نظرة عامة على القوالب والتخطيطات
+                      href: templates-layouts-overview.md
+                    - name: العمل مع القوالب
+                      href: work-with-templates.md
+                    - name: العمل مع التخطيطات سابقة الإعداد
+                      href: work-with-layouts.md
+                - name: الصفحات
+                  items:
+                    - name: تعديل صفحة موقع موجودة
+                      href: modify-existing-page.md
+                    - name: إضافة صفحة موقع جديدة
+                      href: add-new-page.md
+                    - name: تحديد تخطيطات الصفحة
+                      href: select-page-layouts.md
+                    - name: إدارة بيانات تعريف SEO
+                      href: manage-seo-metadata.md
+                    - name: حفظ صفحة ومعاينتها ونشرها
+                      href: save-preview-publish-page.md
+                    - name: إثراء صفحة منتج
+                      href: enrich-product-page.md
+                    - name: إثراء الصفحة المنتقل إليها‬ لفئة
+                      href: enrich-category-page.md
+                    - name: التحقق من إمكانية الوصول إلى محتوى الصفحة
+                      href: verify-accessibility.md
+                - name: التنقل في الموقع
+                  items:
+                    - name: تخصيص التنقل في الموقع
+                      href: customize-site-navigation.md
+                    - name: إنشاء عنوان URL لصفحة
+                      href: create-page-URL.md
+            - name: إدارة الأصول الرقمية
+              items:
+                - name: نظرة عامة على إدارة الأصول الرقمية
+                  href: dam-overview.md
+                - name: تحميل صور
+                  href: dam-upload-images.md
+                - name: تحميل فيديو
+                  href: dam-upload-video.md
+                - name: تحميل ملفات غير الصور ومقاطع الفيديو
+                  href: dam-upload-files.md
+                - name: اقتصاص الصور
+                  href: dam-crop-images.md
+                - name: تخصيص نقاط تركيز الصورة
+                  href: dam-custom-focal-point.md
+                - name: تحميل الملفات الثابتة وخدمتها
+                  href: upload-serve-static-files.md
+            - name: جعل موقعك متوافقًا
+              items:
+                - name: نظرة عامة على الامتثال
+                  href: compliance-overview.md
+                - name: ميزات وقدرات إمكانية الوصول
+                  href: accessibility.md
+                - name: توافق ملفات تعريف الارتباط
+                  href: cookie-compliance.md
+                - name: إضافة صفحة سياسة الخصوصية
+                  href: add-privacy-page.md
+                - name: استبدال معرفات المستخدم المقترنة بتغييرات المحتوى المتعقبة
+                  href: replace-IDs-tracked-changes.md
+            - name: مكتبة الوحدات
+              items:
+                - name: نظرة عامة على مكتبة الوحدات
+                  href: starter-kit-overview.md
+                - name: وحدات الحاوية
+                  items:
+                    - name: وحدة الحاوية
+                      href: add-container-module.md
+                    - name: وحدة أككورديون
+                      href: add-accordion.md
+                    - name: وحدة علامة تبويب
+                      href: add-tab.md
+                    - name: وحدة Iframe
+                      href: iframe-module.md
+                - name: وحدات التسويق
+                  items:
+                    - name: وحدة الشعار الترويجي
+                      href: add-alert.md
+                    - name: وحدة دوارة
+                      href: add-carousel.md
+                    - name: وحدة كتلة النص
+                      href: add-content-rich-block.md
+                    - name: وحدة كتلة المحتوى
+                      href: add-hero-module.md
+                    - name: وحدة مشغل الفيديو
+                      href: add-video-player.md
+                - name: وحدات الرؤوس والتذييلات
+                  items:
+                    - name: وحدة الرؤوس
+                      href: author-header-module.md
+                    - name: وحدة التذييلات‬
+                      href: author-footer-module.md
+                - name: الوحدات النمطية لصفحة تفاصيل المنتج
+                  items:
+                    - name: الوحدة النمطية لصندوق الشراء
+                      href: add-buy-box.md
+                    - name: الوحدة النمطية لمعرض الوسائط
+                      href: media-gallery-module.md
+                    - name: الوحدات النمطية للتقييمات والمراجعات
+                      href: ratings-reviews-modules.md
+                    - name: الوحدة النمطية للمشاركة الاجتماعية
+                      href: social-share-module.md
+                - name: الوحدات النمطية للشراء
+                  items:
+                    - name: الوحدة النمطية لعربة التسوق
+                      href: add-cart-module.md
+                    - name: الوحدة النمطية لرمز عربة التسوق
+                      href: cart-icon-module.md
+                    - name: الوحدة النمطية للسداد مع الخروج
+                      href: add-checkout-module.md
+                    - name: الوحدة النمطية للدفع
+                      href: payment-module.md
+                    - name: الوحدة النمطية لعنوان الشحن
+                      href: ship-address-module.md
+                    - name: الوحدة النمطية لخيارات التسليم
+                      href: delivery-options-module.md
+                    - name: الوحدة النمطية لمعلومات الاستلام
+                      href: pickup-info-module.md
+                    - name: الوحدة النمطية لتفاصيل الأوامر
+                      href: order-confirmation-module.md
+                    - name: الوحدة النمطية لبطاقة الهدايا
+                      href: add-giftcard.md
+                - name: الوحدات النمطية للباحث عن المتجر
+                  items:
+                    - name: وحدة الخريطة
+                      href: map-module.md
+                    - name: الوحدة النمطية لمحدد المتجر
+                      href: store-selector.md
+                - name: الوحدات النمطية لإدارة الحسابات
+                  items:
+                    - name: صفحات ووحدات إدارة الحسابات
+                      href: account-management.md
+                - name: الوحدات النمطية لمجموعة المنتجات
+                  items:
+                    - name: الوحدات النمطية لمجموعة المنتجات
+                      href: product-collection-module-overview.md
+                - name: الوحدات النمطية للتنقل
+                  items:
+                    - name: الوحدة النمطية لمسار التنقل
+                      href: add-breadcrumb.md
+                    - name: الوحدة النمطية لقائمة التنقل
+                      href: nav-menu-module.md
+                    - name: الوحدة النمطية لمحدد الموقع
+                      href: site-selector.md
+                - name: الوحدات النمطية للتوافق
+                  items:
+                    - name: الوحدة النمطية للموافقة على ملف تعريف الارتباط
+                      href: cookie-consent-module.md
+            - name: بحث
+              items:
+                - name: نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
+                  href: category-search-page-overview.md
+                - name: نظرة عامة على البحث المشغل في السحابة
+                  href: cloud-powered-search-overview.md
+            - name: التقارير
+              items:
+                - name: إنشاء تقارير القناة عبر الإنترنت
+                  href: generate-reports.md
+            - name: الاختبار
+              items:
+                - name: الاختبار في Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: تحديد الفرضية وتحديد المقاييس الخاصة بتجربة
+                  href: experimentation-identify.md
+                - name: إعداد تجربة
+                  href: experimentation-setup.md
+                - name: الاتصال بتجربة وتحريرها
+                  href: experimentation-connect-edit.md
+                - name: معاينه التجربة ونشرها
+                  href: experimentation-preview-publish.md
+                - name: تشغيل تجربة ومراقبتها
+                  href: experimentation-run-monitor.md
+                - name: ترقية التباين وإكمال تجربة
+                  href: experimentation-review-complete.md
+                - name: مراجعة حالة التجربة
+                  href: experimentation-status.md
+            - name: معالجة الأخطاء
+              items:
+                - name: إنشاء صفحات استجابة مخصصة لأخطاء رمز الحالة 4xx/5xx
+                  href: build-pages-400-500-errors.md
+        - name: Fraud protection
+          items:
+            - name: تكامل Dynamics 365 Fraud Protection مع Dynamics 365 Commerce
+              href: dev-itpro/DFP.md
+        - name: الرصد والتحليل
+          items:
+            - name: رصد أداء المبيعات والهامش
+              href: monitor-sales-margin-performance.md
+            - name: تحليل أنماط واتجاهات المبيعات
+              href: analyze-sales-trends-patterns.md
+            - name: تقييم أداء المبيعات حسب المنتج
+              href: sales-performance-products.md
+            - name: تقييم العميل وربحية المنتج
+              href: assess-customer-product-profitability.md
+            - name: تحليل أداء المتجر
+              href: store-performance-information.md
+            - name: ‏‫إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM)‬
+              href: set-up-rfm-analysis.md
+        - name: العولمة
+          items:
+            - name: نظرة عامة على التكامل المالي لقناة Commerce
+              href: localizations/fiscal-integration-for-retail-channel.md
+            - name: إعداد التكامل المالي لقناة Commerce
+              href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: ملفات تعريف الشهادات المعرفة من قِبل المستخدمين لمتاجر البيع بالتجزئة
+              href: localizations/certificate-profiles-for-retail-stores.md
+            - name: النمسا
+              items:
+                - name: عينة تكامل خدمة التسجيل المالي للنمسا
+                  href: localizations/emea-aut-fi-sample.md
+            - name: البرازيل
+              items:
+                - name: تعريب Commerce للبرازيل
+                  href: localizations/latam-bra-commerce-localization.md
+            - name: أوروبا الشرقية
+              items:
+                - name: عام
+                  items:
+                    - name: فواتير السُلف‬‬‬ لـ Commerce لأوروبا الشرقية
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: إدارة المصروفات النثرية لـ Commerce لأوروبا الشرقية
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: فواتير عملاء Commerce وأوامر المبيعات المرتجعة في دول أوروبا الشرقية
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية لجمهورية التشيك وهنغاريا وبولندا
+                      href: localizations/emea-eeu-deployment.md
+                - name: جمهورية التشيك
+                  items:
+                    - name: عينة تكامل خدمة التسجيل المالي لجمهورية التشيك‬
+                      href: localizations/emea-cze-fi-sample.md
+                - name: بولندا
+                  items:
+                    - name: عينة تكامل طابعة الضرائب المحصلة لبولندا
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: إدارة معلومات العميل لبولندا
+                      href: localizations/emea-pol-customer-information.md
+            - name: فرنسا
+              items:
+                - name: وظيفة آلة تسجيل المدفوعات النقدية
+                  href: localizations/emea-fra-cash-registers.md
+                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
+                  href: localizations/emea-fra-deployment.md
+            - name: ألمانيا
+              items:
+                - name: عينة تكامل خدمة التسجيل المالي لألمانيا
+                  href: localizations/emea-deu-fi-sample.md
+            - name: الهند
+              items:
+                - name: تكامل ضريبة السلع والخدمات (GST) لآلات تسجيل المدفوعات النقدية
+                  href: localizations/apac-ind-cash-registers.md
+                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
+                  href: localizations/apac-ind-loc-deployment-guidelines.md
+                - name: دعم الترقية وN-1 للهند
+                  href: localizations/apac-ind-n-1-for-india.md
+            - name: إيطاليا
+              items:
+                - name: عينة تكامل طابعة الضرائب المحصلة لإيطاليا
+                  href: localizations/emea-ita-fpi-sample.md
+                - name: إدارة معلومات العميل لإيطاليا
+                  href: localizations/emea-ita-customer-information.md
+            - name: المكسيك
+              items:
+                - name: الفواتير الإلكترونية CFDI للمكسيك‬
+                  href: ../finance/localizations/latam-mex-global-cfdi-3-3.md?toc=/dynamics365/commerce/toc.json
+            - name: النرويج
+              items:
+                - name: وظيفة آلة تسجيل المدفوعات النقدية
+                  href: localizations/emea-nor-cash-registers.md
+                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
+                  href: localizations/emea-nor-loc-deployment-guidelines.md
+            - name: السويد
+              items:
+                - name: وظيفة آلة تسجيل المدفوعات النقدية
+                  href: localizations/emea-swe-cash-registers.md
+                - name: نموذج تكامل وحدة التحكم للسويد
+                  href: localizations/emea-swe-fi-sample.md
+                - name: عينة لتكامل نقطة بيع Retail مع وحدات التحكم (قديمة)
+                  href: localizations/retail-sdk-control-unit-sample.md
+        - name: إعداد التقارير وعمليات تكامل Power BI
+          items:
+            - name: إعداد التقارير والتحليلات مع Power BI
+              href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
+            - name: الوصول إلى المعلومات وإعداد التقارير
+              href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: خيارات التخصيص‬ مع Power BI
+              items:
+                - name: الميزات المتوفرة من خلال تكامل Power BI
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: تثبيت محتوى Power BI
+                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
+                - name: تحديد مساحات عمل تحليلية من Power BI
+                  href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
+            - name: محتوى Power BI
+              items:
+                - name: الصفحة الرئيسية لمحتوى Power BI
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/commerce/toc.json
+                - name: التعلم
+                  href: ../fin-ops-core/dev-itpro/analytics/learning-power-bi.md?toc=/dynamics365/commerce/toc.json
+                - name: التدريب المؤسسي
+                  href: ../fin-ops-core/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
+                - name: Retail Channel Performance
+                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
+            - name: مساحات العمل التحليلية
+              items:
+                - name: مساحات العمل التحليلية (استخدام Power BI Embedded)
+                  href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: تكامل Power BI Embedded
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: تخصيص التقارير المضمنة في مساحات العمل التحليلية
+                  href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
+            - name: إعداد تقارير المستندات وطباعتها
+              items:
+                - name: نظرة عامة على خدمات تقارير المستندات
+                  href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: الخطوط المدعومة
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين SSRS لعمليات نشر محلية
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: طباعة
+                  items:
+                    - name: نظرة عامة على طباعة المستند
+                      href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/commerce/toc.json
+                    - name: تثبيت "وكيل توجيه المستند" لتمكين طباعة الشبكة
+                      href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
+                    - name: ترقية ‏‫وكيل توجيه المستند
+                      href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
+                    - name: تثبيت أجهزة طابعات الشبكة في البيئات المحلية
+                      href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء المستندات ونشرها وطباعتها في عمليات النشر المحلي
+                      href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/commerce/toc.json
+                    - name: تشغيل وكيل توجيه المستند كخدمة Windows
+                      href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/commerce/toc.json
+                - name: تقارير خدمات تقارير SQL Server المتاحة
+                  href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/commerce/toc.json
+                - name: تثبيت قوالب تصميم التقارير
+                  href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/commerce/toc.json
+            - name: أدوات إدارة المستخدمين المحترفين
+              items:
+                - name: تكامل Power BI مع مخزن الكيانات
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
+                - name: حل المشكلات بعد صيانة مخزن الكيان
+                  href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
+                - name: تكوين تكامل Power BI
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: إحضار قاعدة بياناتك الخاصة
+                  href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
+                - name: معاينة مستندات PDF باستخدام عارض PDF
+                  href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/commerce/toc.json
+            - name: أدوات المطور لإنشاء الحلول وتوسيعها
+              items:
+                - name: التحليلات والقياسات التجميعية وتصميم نماذج KPI
+                  href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/commerce/toc.json
+                - name: البيانات المجمعة للنموذج
+                  href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
+                - name: إضافة الأبعاد المالية لتجميع القياسات
+                  href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء تقارير تحليلية باستخدام Power BI Desktop
+                  href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
+                - name: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
+                  href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: المساعدة في حماية مساحات العمل والتقارير التحليلية باستخدام Power BI Embedded
+                  href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء حلول إعداد التقارير
+                  href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/commerce/toc.json
+                - name: تخصيص تقارير مجموعة التطبيقات باستخدام الملحقات
+                  href: ../fin-ops-core/dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/dynamics365/commerce/toc.json
+                - name: توسيع مجموعات بيانات تقارير مجموعة التطبيقات
+                  href: ../fin-ops-core/dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/dynamics365/commerce/toc.json
+                - name: توسيع عناصر قائمة التقرير لإعادة توجيه تنقل المستخدم
+                  href: ../fin-ops-core/dev-itpro/analytics/extend-report-menu-items.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء تصاميم مخصصة لمستندات الأعمال
+                  href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/commerce/toc.json
+                - name: المساعدة في تفادي انتهاء مهلة التقارير التي تعمل لفترة طويلة
+                  href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/commerce/toc.json
+        - name: إعداد التقارير الإلكترونية
+          items:
+            - name: نظرة عامة على التقارير الإلكترونية
+              href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: تكوينات
+              items:
+                - name: إنشاء التكوينات
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/commerce/toc.json
+                - name: إعداد المكونات لحل إعداد التقارير الإلكترونية
+                  items:
+                    - name: تصميم نموذج بيانات خاص بالمجال
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: إعداد بيانات تعريف خاصة بالتطبيق
+                      items:
+                        - name: (التقارير الإلكترونية) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
+                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين التقارير الإلكترونية
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
+                        - name: تعريف تعيينات النماذج وتحديد مصادر البيانات
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/commerce/toc.json
+                        - name: تعيين نموذج البيانات إلى مصادر بيانات محددة
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/dynamics365/commerce/toc.json
+                        - name: إنشاء تكوين التنسيق
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/commerce/toc.json
+                        - name: تعيين مكونات التنسيق المنشأ لعناصر نموذج البيانات
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: اختبار حل التقارير الإلكترونية الذي تم إعداده في التطبيق الهدف
+                      items:
+                        - name: (التقارير الإلكترونية) استيراد التكوينات من RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                        - name: إنشاء مستندات إلكترونية للمدفوعات باستخدام تكوين تنسيق
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/commerce/toc.json
+                    - name: ترقية التنسيق من خلال اعتماد إصدار أساسي جديد من ذلك التنسيق
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/commerce/toc.json
+            - name: مصممو المعادلات في التقارير الإلكترونية
+              items:
+                - name: مصمم المعادلة
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/commerce/toc.json
+                - name: مصمم المعادلة المتقدم
+                  href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/commerce/toc.json
+            - name: لغة المعادلة ووظائفها
+              items:
+                - name: لغة المعادلة
+                  href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: الوظائف
+                  items:
+                    - name: التاريخ والوقت
+                      items:
+                        - name: دالات التاريخ والوقت
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: AddDays
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateTimeFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateTimeValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateToDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: DayOfYear
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dayofyear.md?toc=/dynamics365/commerce/toc.json
+                        - name: Days
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-days.md?toc=/dynamics365/commerce/toc.json
+                        - name: Now
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-now.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullDate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldate.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: SessionNow
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/commerce/toc.json
+                        - name: SessionToday
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
+                    - name: قائمة
+                      items:
+                        - name: دالات القائمة
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: AllItems
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitems.md?toc=/dynamics365/commerce/toc.json
+                        - name: AllItemsQuery
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitemsquery.md?toc=/dynamics365/commerce/toc.json
+                        - name: Count
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/commerce/toc.json
+                        - name: EmptyList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/commerce/toc.json
+                        - name: تعداد
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/commerce/toc.json
+                        - name: تصفية
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/commerce/toc.json
+                        - name: الأول
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/commerce/toc.json
+                        - name: FirstOrNull
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/commerce/toc.json
+                        - name: الفهرس
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/commerce/toc.json
+                        - name: IsEmpty
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
+                        - name: قائمة
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListOfFields
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListOfFirstItem
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/commerce/toc.json
+                        - name: OrderBy
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/commerce/toc.json
+                        - name: عكس
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/commerce/toc.json
+                        - name: تقسيم
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
+                        - name: SplitList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/commerce/toc.json
+                        - name: SplitListByLimit
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/commerce/toc.json
+                        - name: StringJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: Where
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/commerce/toc.json
+                    - name: منطقي
+                      items:
+                        - name: الوظائف المنطقية
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/commerce/toc.json
+                        - name: And
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/commerce/toc.json
+                        - name: Case
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/commerce/toc.json
+                        - name: If
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/commerce/toc.json
+                        - name: Not
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/commerce/toc.json
+                        - name: Or
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/commerce/toc.json
+                        - name: ValueIn
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/commerce/toc.json
+                    - name: الحسابية
+                      items:
+                        - name: الدالات الحسابية
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/commerce/toc.json
+                        - name: Abs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/commerce/toc.json
+                        - name: Power
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/commerce/toc.json
+                        - name: Round
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundDown
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundUp
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-roundup.md?toc=/dynamics365/commerce/toc.json
+                    - name: السجلات
+                      items:
+                        - name: وظائف السجلات
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/commerce/toc.json
+                        - name: EmptyRecord
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/commerce/toc.json
+                    - name: النص
+                      items:
+                        - name: الدالات النصية
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/commerce/toc.json
+                        - name: Char
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
+                        - name: Concatenate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/commerce/toc.json
+                        - name: التنسيق
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/commerce/toc.json
+                        - name: GetEnumValueByName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/commerce/toc.json
+                        - name: GuidValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: JsonValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-jsonvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: Left
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-left.md?toc=/dynamics365/commerce/toc.json
+                        - name: Len
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-len.md?toc=/dynamics365/commerce/toc.json
+                        - name: Lower
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
+                        - name: Mid
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumberFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumeralsToText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numeralstotext.md?toc=/dynamics365/commerce/toc.json
+                        - name: PadLeft
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/commerce/toc.json
+                        - name: QrCode
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
+                        - name: Replace
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/commerce/toc.json
+                        - name: Right
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/commerce/toc.json
+                        - name: Text
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
+                        - name: Translate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Trim
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-trim.md?toc=/dynamics365/commerce/toc.json
+                        - name: Upper
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-upper.md?toc=/dynamics365/commerce/toc.json
+                    - name: تجميع البيانات
+                      items:
+                        - name: وظائف تجميع البيانات
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-data-collection.md?toc=/dynamics365/commerce/toc.json
+                        - name: CollectedList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-collectedlist.md?toc=/dynamics365/commerce/toc.json
+                        - name: CountIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countif.md?toc=/dynamics365/commerce/toc.json
+                        - name: CountIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countifs.md?toc=/dynamics365/commerce/toc.json
+                        - name: FormatElementName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-formatelementname.md?toc=/dynamics365/commerce/toc.json
+                        - name: SumIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumif.md?toc=/dynamics365/commerce/toc.json
+                        - name: SumIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumifs.md?toc=/dynamics365/commerce/toc.json
+                    - name: ‏‏غير ذلك
+                      items:
+                        - name: دالات أخرى (خاصة بمجال الأعمال)
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-other.md?toc=/dynamics365/commerce/toc.json
+                        - name: CH_Bank_Mod_10
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/commerce/toc.json
+                        - name: CN_GBT_AdditionalDimensionID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-cngbtadditionaldimensionid.md?toc=/dynamics365/commerce/toc.json
+                        - name: ConvertCurrency
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-convertcurrency.md?toc=/dynamics365/commerce/toc.json
+                        - name: CurCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/commerce/toc.json
+                        - name: FA_Balance
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/commerce/toc.json
+                        - name: FA_Sum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/commerce/toc.json
+                        - name: GetCurrentCompany
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-getcurrentcompany.md?toc=/dynamics365/commerce/toc.json
+                        - name: ISOCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isocredref.md?toc=/dynamics365/commerce/toc.json
+                        - name: IsValidCharacterISO7064
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isvalidchariso7064.md?toc=/dynamics365/commerce/toc.json
+                        - name: Mod_97
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-mod97.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumSeqValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-numseqvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundAmount
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/commerce/toc.json
+                        - name: TableName2ID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/commerce/toc.json
+                    - name: نوع التحويل
+                      items:
+                        - name: دالات نوع التحويل
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'النوع: Int64Value'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'النوع: IntValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'النوع: NumberValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'النوع: قيمة'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'التاريخ والوقت: DateTimeValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'التاريخ والوقت: DateToDateTime'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'التاريخ والوقت: DateValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'قائمة: List'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'قائمة: ListOfFields'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'قائمة: Split'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'قائمة: StringJoin'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'نص: Char'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'نص: GuidValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'نص: NumberFormat'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'نص: QrCode'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'نص: Text'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
+            - name: إدارة تعيين نموذج التقارير الإلكترونية في تكوينات تقارير إلكترونية منفصلة
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: تحديد تعريفات نماذج البيانات عندما تنشئ التنسيقات
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: خيارات التصفية المحسنة للبحث عن التكوينات في المستودع العمومي
+              href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+            - name: إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
+              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
+            - name: (التقارير الإلكترونية) مصادر البيانات عبر الشركات في التقارير الإلكترونية
+              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
+            - name: تصميم تنسيقات التقارير الإلكترونية لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
+              items:
+                - name: (التقارير الإلكترونية) تصميم تكوين لإنشاء التقارير بتنسيق OPENXML
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: (التقارير الإلكترونية) تصميم تكوينات لإنشاء تقارير بتنسيق Word
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: تصميم تكوينات لملء قوالب PDF
+                  href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/commerce/toc.json
+            - name: تضمين الصور والأشكال
+              items:
+                - name: (التقارير الإلكترونية) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/commerce/toc.json
+                - name: مثال عن تضمين الصور والأشكال
+                  items:
+                    - name: تصميم تكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/commerce/toc.json
+                    - name: مراجعة التكوينات لإنشاء تقارير بتنسيقات Office ذات صور مضمنة
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء تقارير بتنسيقات Office ذات صور مضمنة
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
+            - name: تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel
+              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
+            - name: تحديد تبعية تكوينات التقارير الإلكترونية في المكونات الأخرى
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: تصميم حل التقارير الإلكترونية لاستخدام الأبعاد المالية
+              items:
+                - name: تصميم نماذج بيانات لاستخدام الأبعاد المالية كمصادر بيانات
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/commerce/toc.json
+                - name: تعيين النماذج لاستخدام الأبعاد المالية كمصادر بيانات
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/commerce/toc.json
+                - name: تصميم تقارير لاستخدام الأبعاد المالية كمصادر بيانات
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
+                - name: تشغيل تقارير تستخدم الأبعاد المالية كمصادر بيانات
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
+            - name: تصميم تنسيقات التقارير الإلكترونية لتنفيذ عمليات العد والجمع باستخدام معلومات من المخرجات المنشأة
+              items:
+                - name: إنشاء تنسيقات لتنفيذ عمليات العد والجمع
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين تنسيق لتنفيذ عمليات العد والجمع
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/commerce/toc.json
+                - name: استخدام عمليات حسابية لإنشاء مخرجات للعد والجمع
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/commerce/toc.json
+                - name: تشغيل تنسيقات لتنفيذ عمليات العد والجمع
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/commerce/toc.json
+            - name: إضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+              items:
+                - name: تصميم تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
+                - name: تشغيل تنسيقات لإضافة أعمدة بشكل ديناميكي إلى تقارير Excel كنطاقات قابلة للتوسع أفقيًا
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
+            - name: استخدام ملفات إدارة المستندات في مخرجات التنسيقات
+              items:
+                - name: إعداد نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/commerce/toc.json
+                - name: توسيع نماذج بيانات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commerce/toc.json
+                - name: تشغيل تنسيقات لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
+                - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+            - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية
+              items:
+                - name: إنشاء مستندات إلكترونية وتحديث بيانات التطبيق
+                  href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/commerce/toc.json
+                - name: استيراد تكوينات لإنشاء مستندات مع بيانات التطبيق
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: تصميم تكوينات لإنشاء مستندات مع بيانات التطبيق
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/commerce/toc.json
+                - name: تعديل النماذج والتعيينات لإنشاء مستندات مع بيانات التطبيق
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/dynamics365/commerce/toc.json
+                - name: تعديل التنسيقات لإنشاء مستندات مع بيانات التطبيق
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء مستندات تتضمن بيانات التطبيق
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/commerce/toc.json
+            - name: استيراد بيانات من ملفات واردة باستخدام حلول التقارير الإلكترونية
+              items:
+                - name: توزيع المستندات الواردة بتنسيقات مختلفة
+                  href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين استيراد البيانات من ملفات محددة يدويًا
+                  items:
+                    - name: إنشاء تكوينات لاستيراد البيانات من ملف XML خارجي
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين استيراد البيانات في الوضع الدفعي من ملفات موجودة في SharePoint
+                  href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
+                - name: استيراد ملفات بتنسيق XML
+                  items:
+                    - name: استيراد ملفات بتنسيق XML مع سمات اختيارية
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين تنسيقات التقارير الإلكترونية لاستيراد ملفات بتنسيق XML مع سمات اختيارية
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
+            - name: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
+              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
+            - name: اعتماد استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب
+              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/commerce/toc.json
+            - name: دورة حياة التكوين
+              items:
+                - name: إدارة دورة حياة التكوينات
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: تحميل التكوينات إلى Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                - name: استيراد التكوينات من Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                - name: تنزيل التكوينات من Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
+                - name: استيراد التكوينات
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: تنزيل تكوينات التقارير الإلكترونية من مستودع RCS
+                  items:
+                    - name: تنزيل تكوينات من مستودع التقارير الإلكترونية من النوع RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: استيراد التكوينات من RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+            - name: البرامج التعليمية
+              items:
+                - name: استخدام "ضمّ" مصادر بيانات للحصول على البيانات من جداول التطبيقات المتعددة
+                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين تعيينات نماذج التقارير الإلكترونية التي تعتمد على سياق البلد
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
+                - name: إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
+                - name: تأجيل تنفيذ عناصر تنسيق التقارير الإلكترونية
+                  items:
+                    - name: تأجيل تنفيذ عناصر التسلسل في تنسيقات إعداد التقارير الإلكترونية
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                    - name: تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
+            - name: استخدام حلول التقارير الإلكترونية في Finance and Operations
+              items:
+                - name: تكوين إطار العمل
+                  items:
+                    - name: تكوين إطار عمل إعداد التقارير الإلكتروني
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/commerce/toc.json
+                    - name: النسخ الاحتياطي لقوالب التقارير الإلكترونية واستردادها
+                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء موفري التكوين ووضع علامة نشط عليهم
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: الوجهات
+                  items:
+                    - name: نظرة عامة على الوجهات
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: أنواع الوجهات
+                      items:
+                        - name: وجهة الأرشيف
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/commerce/toc.json
+                        - name: وجهة البريد الإلكتروني
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/commerce/toc.json
+                        - name: وجهة ملف
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/commerce/toc.json
+                        - name: وجهة Power BI
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/commerce/toc.json
+                        - name: وجهة الطابعة
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/commerce/toc.json
+                        - name: وجهة الشاشة
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين الوجهات
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: إعداد مرجع لتنسيق التقارير الإلكترونية
+                  href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
+                - name: التحقق التلقائي من صحة التقارير المنشاة
+                  items:
+                    - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commerce/toc.json
+                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية المنشأة والمقارنات مع القيم الأساسية
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
+                    - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
+                      href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
+                - name: التشغيل التلقائي لعمليات الأعمال باستخدام تكوينات التقارير الإلكترونية
+                  items:
+                    - name: تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
+                - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: إدارة مستندات الأعمال
+                  items:
+                    - name: نظرة عامة على إدارة مستندات الأعمال
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
+                    - name: واجهة مستخدم مستندات جديدة في إدارة مستندات الأعمال
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/commerce/toc.json
+                    - name: إضافة حقول جديدة إلى قالب مستند أعمال في Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
+            - name: API إطار عمل التقارير الإلكترونية
+              items:
+                - name: توسيع قائمة وظائف التقارير الإلكترونية
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3
+                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
+                - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
+        - name: تطبيقات Finance and Operations (Dynamics 365) للأجهزة المحمولة
+          items:
+            - name: الصفحة الرئيسية لتطبيق الجوال
+              href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
+            - name: مساحات العمل المحمولة
+              items:
+                - name: مساحات العمل المحمولة المتاحة
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/dynamics365/commerce/toc.json
+                - name: إدارة الأصول
+                  href: ../supply-chain/asset-management/asset-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: دليل الشركة
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: التحكم في التكاليف
+                  href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: إدارة المصروفات
+                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: المخزون المتاح
+                  href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: الموافقات على الفواتير
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: فريقي
+                  href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: نظرة عامة على تطبيقات المحمول للمشاريع
+                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: إدخال وقت المشروع
+                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: Project Timesheet
+                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/commerce/toc.json
+                - name: اعتماد أمر الشراء
+                  href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: أوامر المبيعات
+                  href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                - name: تعاون المورّد
+                  href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+            - name: نشر مساحات العمل المحمولة
+              href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+        - name: تكامل Office‬‏‫
+          items:
+            - name: نظرة عامة على تكامل Office
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/commerce/toc.json
+            - name: برنامج تعليمي لتكامل Office
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
+            - name: فتح بيانات الكيان في Excel وتحديثه باستخدام الوظيفة الإضافية لـ Excel
+              href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
+            - name: إنشاء خبرات فتح في Excel
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
+            - name: إضافة قوالب إلى قائمة فتح السطور في Excel
+              href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
+            - name: تخصيص قائمة فتح في Microsoft Office
+              href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
+            - name: تكوين وإرسال البريد الإلكتروني
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: إنشاء قوالب بريد إلكتروني لأحداث المعاملات
+              href: email-templates-transactions.md
+            - name: تطوير تجارب البريد الإلكتروني
+              href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
+            - name: استكشاف أخطاء تكامل Office وإصلاحها
+              href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/commerce/toc.json
+        - name: إدارة المؤسسة
+          items:
+            - name: الصفحة الرئيسية لإدارة المؤسسة
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/commerce/toc.json
+            - name: التسلسلات الرقمية
+              items:
+                - name: نظرة عامة على التسلسل الرقمي
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: إعداد التسلسلات الرقمية على أساس فردي
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/commerce/toc.json
+                - name: إعداد التسلسلات الرقمية باستخدام معالج
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/commerce/toc.json
+            - name: المؤسسات والتدرجات الهرمية للمؤسسات
+              items:
+                - name: نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
+                - name: تخطيط التدرج الهرمي للمؤسسات
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء تدرج هرمي لمؤسسة
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء كيانات قانونية
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء وحدات تشغيل
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json
+            - name: دفتر العناوين العمومي
+              items:
+                - name: نظرة عامة على دفتر العناوين العمومي
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: التخطيط لدفتر عناوين عمومي ودفاتر العناوين الأخرى
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين دفتر العناوين العمومي
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: الأسئلة المتداولة حول دفاتر العناوين
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين دفاتر العناوين
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/commerce/toc.json
+            - name: نظام سير العمل
+              items:
+                - name: نظرة عامة على نظام سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/commerce/toc.json
+                - name: بنية نظام سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/commerce/toc.json
+                - name: عناصر سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/commerce/toc.json
+                - name: إجراءات سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء عمليات سير عمل
+                  items:
+                    - name: نظرة عامة حول إنشاء عمليات سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين خصائص سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين مهام يدوية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين مهام مؤتمتة
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين عمليات اعتماد
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين خطوات اعتماد
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين قرارات يدوية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين قرارات شرطية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين أنشطة موازية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين فروع موازية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: تكوين عمليات سير عمل لعنصر بند
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين الوظيفة الدفعية لمعالجة رسائل سير العمل كحرجة
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/commerce/toc.json
+                - name: تفويض عناصر العمل في سير عمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/commerce/toc.json
+                - name: عرض محفوظات سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين النظام لإرسال رسائل بريد إلكتروني مرتبطة بسير العمل إلى المستخدمين
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/commerce/toc.json
+                - name: أنوع سير العمل
+                  items:
+                    - name: إنشاء نوع سير عمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/commerce/toc.json
+                    - name: قائمة تحقق نوع سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء فئة سير عمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء استعلام لنوع سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء نوع سير عمل جديد
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء فئة مستندات سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/commerce/toc.json
+                    - name: إنشاء فئة SubmitToWorkflow
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: إقران فئة مستندات سير العمل بنوع سير عمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/commerce/toc.json
+                - name: تقرير أنواع سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/commerce/toc.json
+                - name: الأسئلة المتداولة حول سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/commerce/toc.json
+            - name: التنبيهات
+              items:
+                - name: نظرة عامة على التنبيهات
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء قواعد تنبيه
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/commerce/toc.json
+                - name: المعالجة الدُفعية للتنبيهات
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/commerce/toc.json
+                - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/commerce/toc.json
+            - name: التوقيعات الإلكترونية
+              items:
+                - name: نظرة عامة على التوقيعات الإلكترونية
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: إعداد التوقيعات الإلكترونية
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/commerce/toc.json
+            - name: إدارة الحالات
+              items:
+                - name: نظرة عامة على إدارة الحالات
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/commerce/toc.json
+                - name: التخطيط لأمان الحالة والعمليات والفئات
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/commerce/toc.json
+            - name: قوالب السجل
+              items:
+                - name: نظرة عامة على قوالب السجلات
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء قالب سجل
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/commerce/toc.json
+                - name: استخدام قالب سجل لإنشاء سجل جديد
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/commerce/toc.json
+            - name: تكوين إدارة المستندات
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/commerce/toc.json
+            - name: تكوين وإرسال البريد الإلكتروني
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: بيانات التاريخ/الوقت والمناطق الزمنية
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
+        - name: قابلية التوسعة
+          items:
+            - name: التطوير التجاري وقابلية التوسعة
+              href: dev-itpro/dev-retail-home-page.md
+            - name: قابلية توسعة القناة عبر الإنترنت
+              items:
+                - name: نظرة عامة على قابلية توسعة القناة عبر الإنترنت
+                  href: e-commerce-extensibility/overview.md
+                - name: البدء
+                  items:
+                    - name: ‏‫بدء تطوير قابلية التوسع عبر الإنترنت للتجارة الإلكترونية
+                      href: e-commerce-extensibility/sdk-getting-started.md
+                    - name: متطلبات النظام
+                      href: e-commerce-extensibility/system-requirements.md
+                    - name: إعداد بيئة تطوير
+                      href: e-commerce-extensibility/setup-dev-environment.md
+                    - name: تكوين ملف بيئة تطوير (env.)
+                      href: e-commerce-extensibility/configure-env-file.md
+                    - name: تكوين بيئة تطوير للتجارة الكترونيه مقابل بيئة Commerce السحابية
+                      href: e-commerce-extensibility/debug-tier-1.md
+                    - name: إعداد مشاركة التعليمات البرمجية في Azure DevOps وإنشاء مسار بناء
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
+                - name: نظرة عامة حول النظام الأساسي
+                  items:
+                    - name: نظره عامه حول هندسة التجارة الإلكترونية
+                      href: e-commerce-extensibility/architectural-overview.md
+                    - name: مكونات التجارة الإلكترونية
+                      href: e-commerce-extensibility/ecommerce-components.md
+                    - name: مرجع الأمر CLI
+                      href: e-commerce-extensibility/cli-command-reference.md
+                - name: تحليل وحدة نمطية
+                  items:
+                    - name: نظرة عامة على الوحدات النمطية
+                      href: e-commerce-extensibility/modules-overview.md
+                    - name: ملف التعريف الوحدة النمطية
+                      href: e-commerce-extensibility/module-definition-file.md
+                    - name: ملف مكون لتفاعل الوحدة النمطية
+                      href: e-commerce-extensibility/module-react-file.md
+                    - name: ملف عرض الوحدة النمطية
+                      href: e-commerce-extensibility/module-view-file.md
+                    - name: ملف بيانات الوحدة النمطية
+                      href: e-commerce-extensibility/module-data-file.md
+                    - name: ملف الوحدة النمطية الوهمي
+                      href: e-commerce-extensibility/module-mock-file.md
+                    - name: ملف اختبار الوحدة النمطية
+                      href: e-commerce-extensibility/module-test-file.md
+                    - name: ملف الوحدة النمطية props.autogenerated.ts
+                      href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                - name: تطوير الوحدات النمطية
+                  items:
+                    - name: إنشاء وحدة نمطية جديدة
+                      href: e-commerce-extensibility/create-new-module.md
+                    - name: استنساخ وحدة مكتبة الوحدات
+                      href: e-commerce-extensibility/clone-starter-module.md
+                    - name: إضافة حقول تكوين الوحدة النمطية
+                      href: e-commerce-extensibility/add-module-config-fields.md
+                    - name: معاينة الوحدات النمطية وتصحيحها
+                      href: e-commerce-extensibility/test-module.md
+                    - name: وحدات الاختبار مع عناصر وهمية للوحدات
+                      href: e-commerce-extensibility/test-module-mock.md
+                    - name: اختبار الوحدات النمطية باستخدام عناصر صفحة وهمية
+                      href: e-commerce-extensibility/test-page-mock.md
+                    - name: وحدات الحاوية
+                      href: e-commerce-extensibility/container-modules.md
+                    - name: إنشاء وحدة نمطية لحاوية تخطيط
+                      href: e-commerce-extensibility/create-layout-container.md
+                    - name: إنشاء وحدة نمطية لحاوية صفحة
+                      href: e-commerce-extensibility/create-page-containers.md
+                    - name: ترجمة وحدة نمطية
+                      href: e-commerce-extensibility/localize-module.md
+                - name: مواضيع الوحدات النمطية المتقدمة
+                  items:
+                    - name: كائن خصائص الطلب
+                      href: e-commerce-extensibility/request-properties-object.md
+                    - name: إعدادات التطبيقات
+                      href: e-commerce-extensibility/app-settings.md
+                    - name: توسيع تعريف الوحدة النمطية
+                      href: e-commerce-extensibility/extend-module-definition.md
+                    - name: نظرة عامة حول API ملفات تعريف الارتباط
+                      href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: نظرة عامة حول المكونات التفاعلية
+                      href: e-commerce-extensibility/interactive-components.md
+                    - name: التلاعب بحالة تسجيل الدخول أثناء التطوير المحلي
+                      href: e-commerce-extensibility/mock-sign-in.md
+                    - name: عولمة الوحدات النمطية باستخدام الفئة CultureInfoFormatter
+                      href: e-commerce-extensibility/globalize-modules.md
+                    - name: إعداد Azure Key Vault لإدارة المفاتيح الآمنة
+                      href: e-commerce-extensibility/set-up-key-vault.md
+                - name: تطوير إجراءات البيانات
+                  items:
+                    - name: نظرة عامة حول إجراءات البيانات
+                      href: e-commerce-extensibility/data-actions.md
+                    - name: خيارات ذاكرة التخزين المؤقت لإجراءات البيانات
+                      href: e-commerce-extensibility/data-action-cache.md
+                    - name: اختبار إجراءات البيانات باستخدام عناصر وهمية
+                      href: e-commerce-extensibility/test-data-action-mocks.md
+                    - name: إجراءات بيانات تحميل الصفحة
+                      href: e-commerce-extensibility/page-load-data-action.md
+                    - name: إجراءات البيانات المستندة إلى حدث
+                      href: e-commerce-extensibility/event-based-data-actions.md
+                    - name: إجراءات البيانات الأساسية
+                      href: e-commerce-extensibility/core-data-actions.md
+                    - name: استدعاء واجهات Retail Server API
+                      href: e-commerce-extensibility/call-retail-server-apis.md
+                    - name: استدعاء واجهات API لملحق Retail Server
+                      href: e-commerce-extensibility/call-retail-extension-api.md
+                - name: مواضيع إجراءات البيانات المتقدمة
+                  items:
+                    - name: إجراءات بيانات السلسلة
+                      href: e-commerce-extensibility/chain-data-actions.md
+                    - name: إجراءات بيانات الدُفعة
+                      href: e-commerce-extensibility/batch-data-actions.md
+                    - name: إجراءات البيانات التي يمكن ملاحظتها
+                      href: e-commerce-extensibility/create-observable-data-action.md
+                    - name: مشاركة الحالة عبر الوحدات النمطية
+                      href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: إعدادات ذاكرة التخزين المؤقت لإجراءات البيانات
+                      href: e-commerce-extensibility/data-action-cache-settings.md
+                    - name: عمليات تجاوز إجراءات البيانات
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: ربط إجراءات البيانات
+                      href: e-commerce-extensibility/data-action-hooks.md
+                - name: تطوير النُسق
+                  items:
+                    - name: نظرة عامة على النُسق
+                      href: e-commerce-extensibility/theming.md
+                    - name: إنشاء نسق
+                      href: e-commerce-extensibility/create-theme.md
+                    - name: تكوين إعدادات النسق
+                      href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: تكوين الإعدادات المسبقة لنمط النسق
+                      href: e-commerce-extensibility/theme-style-presets.md
+                    - name: توسيع نسق لإضافة ملحقات الوحدة
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: تجاوز مكون مكتبة وحدات في نسق
+                      href: e-commerce-extensibility/override-theme-component.md
+                    - name: توسيع نسق من نسق أساسي
+                      href: e-commerce-extensibility/extend-theme.md
+                    - name: إضافة موارد مخصصة إلى كود التخصيص الخاص بك
+                      href: e-commerce-extensibility/add-custom-resources.md
+                - name: إدخال برنامج نصي
+                  items:
+                    - name: مدخلات برنامج نصي
+                      href: e-commerce-extensibility/script-injector.md
+                - name: الموصلات
+                  items:
+                    - name: تكوين الموصلات وتمكينها
+                      href: e-commerce-extensibility/connectors.md
+                - name: بيانات تتبع الاستخدام والتحليلات
+                  items:
+                    - name: مسجل بيانات تتبع الاستخدام
+                      href: e-commerce-extensibility/telemetry-logger.md
+                - name: النشر والصيانة
+                  items:
+                    - name: تكوينات الحزم وتوزيعها على بيئة عبر الإنترنت
+                      href: e-commerce-extensibility/package-deploy.md
+                    - name: تحديثات SDK ومكتبة الوحدات
+                      href: e-commerce-extensibility/sdk-updates.md
+                - name: أفضل ممارسات و‏‫الأسئلة المتداولة
+                  items:
+                    - name: أفضل الممارسات لتطوير Dynamics 365 Commerce
+                      href: e-commerce-extensibility/best-practices-dev.md
+                    - name: ‏‫الأسئلة المتداولة حولDynamics 365 Commerce online SDK
+                      href: e-commerce-extensibility/sdk-faq.md
+            - name: Retail SDK
+              items:
+                - name: بنية Retail SDK
+                  href: dev-itpro/retail-sdk/retail-sdk-overview.md
+                - name: التغييرات القادمة في Retail SDK
+                  href: dev-itpro/UpcomingSDKChanges.md
+                - name: التطوير الهام وتغييرات ALM الهامة من الإصدار 10.0.10 إلى 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
+                - name: دمج أنظمة البناء لـ Commerce وFinance and Operations
+                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: ترحيل Retail SDK من Visual Studio 2015 إلى Visual Studio 2017
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
+                - name: نماذج قابلية توسعة Retail SDK
+                  href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                - name: إنشاء حزم قابلة للنشر
+                  href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+                - name: التطوير في بيئات التطوير المستضافة على الشبكة السحابية من دون حق وصول المسؤول
+                  href: dev-itpro/cloud-dev-box.md
+                - name: إعداد مسار بناء Commerce SDK
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: قم بتنزيل نماذج وحزم من GitHub و NuGet
+                  href: dev-itpro/retail-sdk/sdk-github.md
+                - name: الأسئلة الشائعة حول Retail SDK
+                  href: dev-itpro/retail-sdk/sdk-faq.md
+            - name: قابلية توسعة نقطة البيع
+              items:
+                - name: تخطيطات شاشة نقطة البيع
+                  href: pos-screen-layouts.md
+                - name: فتح عنوان URL في نقطة البيع
+                  href: Open-URL-in-POS.md
+                - name: تثبيت مصمم تخطيط نقطة البيع
+                  href: install-pos-layout-designer.md
+                - name: "توسيع طريقة عرض الشاشة\_الثنائية لنقطة البيع"
+                  href: dev-itpro/pos-dual-display-extension.md
+                - name: إضافة عناصر تحكم مخصصة لطرق عرض نقطة البيع
+                  href: dev-itpro/pos-custom-control.md
+                - name: إضافة عمليات نقطة البيع إلى مخططات نقطة البيع باستخدام مصمم شبكة الأزرار
+                  href: dev-itpro/add-POS-operations.md
+                - name: واجهات API لنقطة البيع
+                  href: dev-itpro/POS-APIs.md
+                - name: ملحق دفع نقطة البيع
+                  href: dev-itpro/pos-payment-extension.md
+                - name: دعم تقديم البقشيش في SDK لمدفوعات نقاط البيع
+                  href: dev-itpro/tipping.md
+                - name: دعم بطاقات الهدايا الخارجية
+                  href: dev-itpro/gift-card.md
+                - name: إنشاء العلامة التجارية وتطبيقها على تطبيق Retail Experience
+                  href: dev-itpro/create-retail-experience-app.md
+                - name: إعداد تطبيق POS Hybrid على Android وiOS
+                  href: dev-itpro/hybridApp.md
+                - name: تجاوز معالج طلب نقطة بيع
+                  href: dev-itpro/pos-handler.md
+                - name: عرض معلومات حزمة ملحق نقطة بيع
+                  href: dev-itpro/view-pos-extension-package-details.md
+                - name: مسجل الاختبار وRegression Suite Automation Tool لنقطة البيع السحابية‬
+                  href: dev-itpro/pos-rsat.md
+                - name: إضافة حقول مخصصة إلى لوحة إجمالي نقاط البيع
+                  href: dev-itpro/custom-field-pos-totals.md
+                - name: إظهار إخطارات مخصصة في نقطة البيع
+                  href: dev-itpro/extend-pos-notification.md
+                - name: توقيع نقطة البيع الحديثة بشهادة توقيع الكود
+                  href: dev-itpro/pos-app-signing-certificate.md
+                - name: توسيع طرق عرض نقاط البيع لإضافة أعمدة مخصصة وأزرار أشرطة التطبيق
+                  href: dev-itpro/pos-view-extension.md
+                - name: إضافة عناصر تحكم مخصصة إلى صفحات حركات نقطة البيع الحديثة
+                  href: dev-itpro/pos-custom-transaction.md
+                - name: إضافة أعمدة مخصصة إلى شبكة حركة نقطة البيع
+                  href: dev-itpro/pos-custom-transaction-column.md
+                - name: استدعاء واجهات API لنقطة البيع أو العمليات من ملحقات نقطة البيع
+                  href: dev-itpro/pos-api-extension.md
+                - name: المشغلات والطباعة في نقطة البيع الحديثة (MPOS)
+                  href: dev-itpro/pos-trigger-printing.md
+                - name: ‏‫إضافة عناصر تحكم مخصصة إلى طرق عرض نقطة البيع التي تستند إلى مصمم خارج الشاشة
+                  href: dev-itpro/pos-control-non-screen.md
+                - name: تشغيل نماذج نقطة البيع
+                  href: dev-itpro/pos-run-samples.md
+                - name: إرشادات تطبيق إدارة الأجهزة
+                  href: implementation-considerations-devices.md
+                - name: أحداث ومعالجات عرض سلة نقطة البيع
+                  href: dev-itpro/cart-view-handlers.md
+                - name: إضافة أزرار مخصصة إلى شريط رأس نقطة البيع
+                  href: dev-itpro/pos-header-bar.md
+            - name: قابلية توسعة Hardware Station
+              items:
+                - name: Hardware Station وقابلية التوسعة
+                  href: dev-itpro/hardware-station-extensibility.md
+                - name: دمج نقطة بيع مع جهاز جديد
+                  href: dev-itpro/hardware-device-extension.md
+            - name: قابلية توسعة Retail Server
+              items:
+                - name: عميل Commerce Scale Unit وواجهات API للمستهلكين
+                  href: dev-itpro/retail-server-customer-consumer-api.md
+                - name: إنشاء واجهة API جديدة لملحق Retail Server (الإصدار 10.0.11 والإصدارات اللاحقة من Retail SDK)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: إنشاء واجهة API جديدة لملحق Retail Server (الإصدار 10.0.11 والإصدارات السابقة من Retail SDK)
+                  href: dev-itpro/retail-server-extension.md
+                - name: وكلاء Retail Typescript وC#
+                  href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: استهلاك واجهات برمجة تطبيقات Retail Server في تطبيقات خارجية
+                  href: dev-itpro/consume-retail-server-api.md
+            - name: قابلية توسعة Commerce Runtime (CRT)
+              items:
+                - name: هندسة وتكوين CRT
+                  href: dev-itpro/commerce-runtime-overview.md
+                - name: خدمات CRT
+                  href: dev-itpro/crt-services.md
+                - name: نمط ملحقCRT
+                  href: dev-itpro/commerce-runtime-extensibility.md
+                - name: إدارة الأسرار لقنوات Retail
+                  href: dev-itpro/manage-secrets.md
+                - name: قابلية توسعة CRT والمشغلات
+                  href: dev-itpro/commerce-runtime-extensibility-trigger.md
+                - name: حظر الحركات باستخدام المشغلات
+                  href: dev-itpro/trigger-example-blocking-transaction.md
+                - name: ملحق الولاء
+                  href: dev-itpro/retail-sdk/loyalty-extension-sample.md
+                - name: نقاط الملحق لإيصالات التعبئة
+                  href: dev-itpro/extensions-shipping-carrier-integration.md
+                - name: ملحقات قاعدة بيانات القنوات
+                  href: dev-itpro/channel-db-extensions.md
+                - name: تمكين مزامنة CDX مخصص عبر ملحق
+                  href: dev-itpro/cdx-extensibility.md
+                - name: تحديد سمات أمر وتعيينها
+                  href: dev-itpro/order-attributes.md
+                - name: سمات العميل
+                  href: dev-itpro/customer-attributes.md
+                - name: عينات CRT ‏SDK
+                  href: dev-itpro/retail-sdk/retail-sdk-samples.md
+                - name: تسجيل أحداث الملحق في Application Insights
+                  href: dev-itpro/commerce-application-insights.md
+                - name: إنشاء واجهات API غير متزامنة لـ Commerce (CRT) في منطق أعمالك
+                  href: dev-itpro/async-commerce-extension.md
+                - name: الأعمدة الموسعة مسبقًا في قاعدة بيانات القناة
+                  href: dev-itpro/extended-columns.md
+                - name: توسيع Commerce Data Exchange - Real-time Service
+                  href: dev-itpro/extend-commerce-data-exchange.md
+            - name: قابلية توسعة موصل المدفوعات
+              items:
+                - name: إنشاء تكامل الدفع للوحدة الطرفية للدفع
+                  href: dev-itpro/end-to-end-payment-extension.md
+                - name: تنفيذ موصل المدفوعات وجهاز الدفع (مستند تقني)
+                  href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
+                - name: نشر موصلات المدفوعات
+                  href: dev-itpro/deploy-payment-connector.md
+                - name: التقاط تزايدي لفوترة المكتب الخلفي
+                  href: dev-itpro/incremental-capture.md
+                - name: إنشاء رسائل خطأ مترجمة مخصصة لملحقات الوحدات الطرفية للدفع
+                  href: dev-itpro/payment-custom-error-messages.md
+                - name: إنشاء Windows installer لموصلات المدفوعات
+                  href: dev-itpro/create-windows-installer-payment-connector.md
+                - name: استخدام بيانات الدفع
+                  href: payment-connector-data-fields.md
+                - name: تمكين الحماية من الدفعات المكررة لموصل الدفع
+                  href: dev-itpro/duplicate-payments-protection.md
+                - name: إنشاء حزمة دفع ‏‫لمستكشف التطبيق‬ في عمليات نشر Service Fabric
+                  href: dev-itpro/payment-connector-package.md
+            - name: قابلية توسعة التجارة الإلكترونية لجهة خارجية
+              items:
+                - name: تكوين متاجر عبر الإنترنت
+                  href: dev-itpro/configure-online-store.md
+                - name: تكوين موفري المصادقة
+                  href: dev-itpro/configure-authentication-providers.md
+                - name: النظام الأساسي للتجارة الإلكترونية SDK
+                  href: dev-itpro/ecommerce-platform-sdk.md
+            - name: ترجمة موارد ملحقات Commerce وملفات التسمية
+              href: dev-itpro/extension-resource-localization.md
+    - name: تطوير وإدارة تطبيقات Finance and Operations
+      href: ../fin-ops-core/dev-itpro/index.md
+    - name: Dynamics 365 Finance
+      href: ../finance/index.md
+    - name: Dynamics 365 Supply Chain Management
+      href: ../supply-chain/index.md
