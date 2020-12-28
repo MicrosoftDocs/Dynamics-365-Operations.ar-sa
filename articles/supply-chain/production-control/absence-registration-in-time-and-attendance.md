@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 16b338010662f8c2115fcc38f6830b58c49259e2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826204"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421107"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>‏‫تسجيل الغياب في الوقت والحضور
 
@@ -50,7 +50,7 @@ ms.locfileid: "3826204"
 
 ### <a name="set-up-standard-time-and-flex-time"></a>إعداد الوقت القياسي والوقت المرن
 
-- يمكنك تكوين المعلمات للوقت القياسي والوقت المرن باستخدام الخيارات **‏‫إدخال الغياب تلقائيًا‬** و**‏‫إدخال الرصيد المرن تلقائيًا‬** الموجودة بصفحة **معلمات الوقت والحضور**.
+- يمكنك تكوين المعلمات للوقت القياسي والوقت المرن باستخدام الخيارات **‏‫إدخال الغياب تلقائيًا‬** و **‏‫إدخال الرصيد المرن تلقائيًا‬** الموجودة بصفحة **معلمات الوقت والحضور**.
 
 ## <a name="absence-groups"></a>مجموعات الغياب
 

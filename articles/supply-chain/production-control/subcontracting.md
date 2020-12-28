@@ -16,11 +16,11 @@ ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 1cc1040393d843f39ca8c741a7c51435c7169c00
-ms.sourcegitcommit: edb46dce498df42b09e8f5ad6de00f86c8022dfa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3346412"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421104"
 ---
 # <a name="subcontracting"></a>التعاقد من الباطن
 
@@ -87,7 +87,7 @@ ms.locfileid: "3346412"
     ![ثلاثة موارد مناسبة في مربع حوار الموارد القابلة للتطبيق.](./media/subcontract07_applicable-resources-dialog.png)
 
 9. حدد **موافق** لإغلاق مربع حوار **الموارد القابلة للتطبيق** والعودة إلى صفحة **المسار**.
-10. قم بإغلاق صفحة **المسار**للرجوع إلى صفحة **تفاصيل المنتج المُصدر**.
+10. قم بإغلاق صفحة **المسار** للرجوع إلى صفحة **تفاصيل المنتج المُصدر**.
 
     ![صفحة تفاصيل المنتج المُصدر](./media/subcontract08_released-product-details-page.png)
 
@@ -162,7 +162,7 @@ ms.locfileid: "3346412"
 
     ![مربع حوار التقدير](./media/subcontract16_estimate-dialog.png)
 
-11. حدد **موافق** لتأكيد التقدير والعودة إلى صفحة**كافة أوامر الإنتاج** .
+11. حدد **موافق** لتأكيد التقدير والعودة إلى صفحة **كافة أوامر الإنتاج** .
 
     > [!NOTE]
     > عندما يتم تقدير أمر الإنتاج، يتم إنشاء أمر الشراء لصنف الخدمة S8050 للمورد US-801.

@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015931"
+ms.locfileid: "4421753"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>مهمة تنظيف الإدخالات المتاحة في إدارة المستودع‬‏‫
 
@@ -54,7 +54,7 @@ ms.locfileid: "4015931"
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>جعل إعداد الحد الأقصى لوقت التنفيذ متوفرًا
 
-بشكل افتراضي، لا يتوفر إعداد **الحد الأقصى لوقت التنفيذ**. إذا أردت استخدامه، يجب استخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزة ذات الصلة في النظام. في مساحة عمل **إدارة الميزات** ، تكون هذه الميزة مدرجة بالطريقة التالية:
+بشكل افتراضي، لا يتوفر إعداد **الحد الأقصى لوقت التنفيذ**. إذا أردت استخدامه، يجب استخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزة ذات الصلة في النظام. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة:** *إدارة المستودعات*
 - **اسم الميزة:** *الحد الأقصى لوقت تنفيذ مهمة تنظيف الإدخالات المتاحة في إدارة المستودع‬‏‫‬*

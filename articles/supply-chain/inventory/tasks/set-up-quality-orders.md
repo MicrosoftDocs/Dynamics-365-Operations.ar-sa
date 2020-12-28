@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4577b8b189403b3d71eb634e159d51d2fa53ce12
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268783"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421623"
 ---
 # <a name="set-up-quality-orders"></a>إعداد أوامر الجودة
 
@@ -84,7 +84,7 @@ ms.locfileid: "3268783"
 ## <a name="create-a-quality-group"></a>إنشاء مجموعة جودة
 1. انتقل إلى **إدارة المخزون > الإعداد > مراقبة الجودة > مجموعات الجودة**.
 2. انقر فوق **جديد**.
-3. في الحقل **مجموعة الجودة**، اكتب قيمة. استخدم اسمًا وصفيًا للتعرف على نوع الأصناف التي ستحتوي عليها المجموعة معايير العينات).  
+3. في الحقل **مجموعة الجودة**، اكتب قيمة. استخدم اسمًا وصفيًا للتعرف على نوع الأصناف التي ستحتوي عليها المجموعة مع(ايير العينات).  
 4. في حقل **الوصف**، اكتب قيمة.
 5. انقر فوق **حفظ**.
 6. انقر فوق **إضافة أصناف**.

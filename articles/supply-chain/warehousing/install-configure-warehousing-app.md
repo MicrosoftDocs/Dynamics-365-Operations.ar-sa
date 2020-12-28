@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530065"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421584"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>تثبيت تطبيق المستودع وتوصيله
 
@@ -238,7 +238,7 @@ ms.locfileid: "3530065"
 
 1. أدخل المعلومات التالية:
 
-    - **استخدام سر العميل** – قم بتعيين هذا الخيار على _نعم_ لاستخدام سر عميل للمصادقة مع Supply Chain Management. قم بتعيينه إلى _لا_ لاستخدام شهادة للمصادقة. (لمزيد من المعلومات، راجع [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service).
+    - **استخدام سر العميل** – قم بتعيين هذا الخيار على _نعم_ لاستخدام سر عميل للمصادقة مع Supply Chain Management. قم بتعيينه إلى _لا_ لاستخدام شهادة للمصادقة. (لمزيد من المعلومات، راجع [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service).)
     - **اسم الاتصال** – ادخل اسمًا للاتصال الجديد. يظهر هذا الاسم في حقل **تحديد الاتصال** في المرة التالية التي تقوم فيها بفتح إعدادات الاتصال. يجب أن يكون الاسم الذي تقوم بإدخاله فريدًا. (بمعنى آخر، يجب أن يختلف هذا الاسم عن كافة أسماء الاتصالات الأخرى التي تم تخزينها على جهازك، وذلك في حالة تخزين أسماء اتصالات أخرى هناك.).
     - **معرف عميل Active Directory** – أدخل معرف العميل الذي قمت بتدوينه أثناء قيامك بإعداد Azure AD في قسم [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service).
     - **سر عميل Active Directory** – يتوفر هذا الحقل فقط عند تعيين الخيار **استخدام سر العميل** إلى _نعم_. أدخل سر العميل الذي قمت بتدوينه أثناء قيامك بإعداد Azure AD في قسم [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service).

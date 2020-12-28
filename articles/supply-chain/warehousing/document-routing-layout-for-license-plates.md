@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017703"
+ms.locfileid: "4421705"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>تخطيط توجيه المستند لتسميات لوحات الترخيص
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 فيما يلي شرح هذا التنسيق:
 
-- `FieldName` هو اسم حقل البيانات (مثل **الكمية** ).
+- `FieldName` هو اسم حقل البيانات (مثل **الكمية**).
 - `FormatString` يحدد كيفية طباعة البيانات.
 
-تبين الأمثلة التالية كيف يمكنك تخصيص حقل كمية العمل ( **الكمية** ):
+تبين الأمثلة التالية كيف يمكنك تخصيص حقل كمية العمل (**الكمية**):
 
 - لإظهار أربعة خانات دائمًا (باستخدام الأصفار كعناصر نائبة)، استخدم `$Qty:0000$`. على سبيل المثال، إذا كانت الكمية 10، فسوف تُظهر التسمية "0010".
 - لإظهار منزلتين عشريتين دائمًا، استخدم `$Qty:0.00$` على سبيل المثال، إذا كانت الكمية 10، فسوف تُظهر التسمية "10.00".

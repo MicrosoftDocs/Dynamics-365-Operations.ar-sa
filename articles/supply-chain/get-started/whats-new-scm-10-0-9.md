@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 163c2e00bd0363303596a48199a833369e51b232
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012334"
+ms.locfileid: "4421676"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.9 (أبريل 2020)
 
@@ -32,7 +32,7 @@ ms.locfileid: "4012334"
 
 - **إصدار المعاينة:** فبراير 2020
 - **التوفر العام (تحديث ذاتي):** مارس 2020
-- **تحديث تلقائي:** : أبريل 2020
+- **تحديث تلقائي:**: أبريل 2020
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 

@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323636"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421586"
 ---
 # <a name="improve-master-planning-performance"></a>تحسين أداء التخطيط الرئيسي
 
@@ -123,7 +123,7 @@ ms.locfileid: "3323636"
 - يستغرق **التأكيد التلقائي** عادة حوالي 30 دقيقة. ومع ذلك، قد يستغرق الأمر عده ساعات، اعتمادا على عدد الطلبات ومدى تعقيد الأصناف.
 - يجب أن يستغرق **التأكيد التلقائي** أقل من **التغطية**.
 - يجب أن تستغرق **التغطية** مدة أطول مقارنة بالبقية.
-- يمكن أن يستغرق **الإجراء** و**رسالة مستقبلية** فترة أطول، تبعًا للبيانات وعدد قوائم مكونات الصنف.
+- يمكن أن يستغرق **الإجراء** و **رسالة مستقبلية** فترة أطول، تبعًا للبيانات وعدد قوائم مكونات الصنف.
 
 ## <a name="filtering-of-items"></a>تصفية الأصناف
 

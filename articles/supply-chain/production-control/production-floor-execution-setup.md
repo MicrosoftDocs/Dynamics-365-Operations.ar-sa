@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012451"
+ms.locfileid: "4421677"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>إعداد جهاز لتشغيل واجهة تنفيذ صالة الإنتاج‬
 
@@ -62,7 +62,7 @@ ms.locfileid: "4012451"
 
 1. انتقل إلى **الوقت والحضور \> الإعداد \> عاملو التسجيل الزمني**.
 1. حدد عاملاً في القائمة لفتح الصفحة **عاملو التسجيل الزمني**.
-1. من علامة التبويب **التسجيل الزمني** ، قم بتعيين الخيار **تعيين عوامل التصفية** إلى *نعم*.
+1. من علامة التبويب **التسجيل الزمني**، قم بتعيين الخيار **تعيين عوامل التصفية** إلى *نعم*.
 
 ## <a name="run-the-interface-in-full-screen-mode"></a>تشغيل الواجهة بوضع ملء الشاشة
 

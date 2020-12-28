@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5ea79bd9c6561c4e4f6fad2c177f44fe62bdea5b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214632"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421554"
 ---
 # <a name="physical-and-financial-updates"></a>التحديثات المادية والمالية
 
@@ -35,7 +35,7 @@ ms.locfileid: "3214632"
 يمكن تحديث حركات المخزون فعليًا وتحديثها ماليًا في Dynamics 365 Supply Chain Management. وتزيد بعض أنواع الحركات الفعلية والمالية من كميات المخزون، بينما البعض الآخر يعمل على تقليل الكمية.
 
 ## <a name="physical-increases"></a>الزيادات الفعلية
-عند ترحيل حركة فعلية، تصبح حالة سجل الحركة**مستلم**. وتعتبر الحركات التالية زيادات فعلية:
+عند ترحيل حركة فعلية، تصبح حالة سجل الحركة **مستلم**. وتعتبر الحركات التالية زيادات فعلية:
 
 -   عملية استلام أوامر الشراء
 -   إرجاع كشف تعبئة أوامر التوريد

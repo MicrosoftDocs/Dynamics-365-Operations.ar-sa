@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212907"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421442"
 ---
 # <a name="arrival-overview"></a>نظرة عامة على الوصول
 
@@ -71,7 +71,7 @@ ms.locfileid: "3212907"
 
 [![تحديد اسم دفتر اليومية](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
--   إذا حددت القيم الموجودة في حقلي **المستودع** و**الموقع**، فسيتم تطبيق هذه القيم على بنود دفتر اليومية. إذا لم تحدد القيم، فإن النظام يستخدم القيم من البُعد الذي تم تحديده في حركات المخزون.
+-   إذا حددت القيم الموجودة في حقلي **المستودع** و **الموقع**، فسيتم تطبيق هذه القيم على بنود دفتر اليومية. إذا لم تحدد القيم، فإن النظام يستخدم القيم من البُعد الذي تم تحديده في حركات المخزون.
 
 #### <a name="items-that-are-received-from-one-expected-receipt-order"></a>الأصناف التي تم استلامها من أمر استلام متوقع
 

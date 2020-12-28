@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017496"
+ms.locfileid: "4421760"
 ---
 # <a name="immediate-replenishment"></a>تزويد فوري
 
@@ -47,7 +47,7 @@ ms.locfileid: "4017496"
 
 ## <a name="set-up-immediate-replenishment"></a>إعداد التزويد الفوري
 
-- انتقل إلى **إدارة المستودعات**\>**الإعداد**\>**توجيهات موقع** ، ثم في علامة التبويب **بنود** ، في قائمة **قالب التزويد الفوري** ، حدد قالب تزويد لطلب الموجة.
+- انتقل إلى **إدارة المستودعات**\>**الإعداد**\>**توجيهات موقع**، ثم في علامة التبويب **بنود**، في قائمة **قالب التزويد الفوري**، حدد قالب تزويد لطلب الموجة.
 
 يتم استخدام قالب التزويد في حالة فشل بند توجيه الموقع في تخصيص وحدة قياس مخصصة.
 
