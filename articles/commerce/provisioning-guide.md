@@ -3,7 +3,7 @@ title: توفير بيئة تقييم Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية توفير بيئة تقييم Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 07/16/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
+ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599840"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4410047"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>توفير بيئة تقييم Dynamics 365 Commerce
 
@@ -48,6 +48,7 @@ ms.locfileid: "3599840"
 
 يجب توفر المتطلبات الأساسية التالية قبل توفير بيئة تقييم Commerce لك:
 
+- لقد تم ضمك إلى برنامج التقييم ولديك الآن إمكانيات بيئة التقييم.
 - يمكنك الوصول إلى مدخل Microsoft Dynamics Lifecycle Services (LCS).
 - أنت أحد شركاء 365 Microsoft Dynamics الموجودين أو أحد العملاء ويمكنك إنشاء مشروع Dynamics 365 Commerce.
 - لديك حق الوصول كمسؤول لاشتراك Microsoft Azure، أو أنت على اتصال بمسؤول الاشتراك الذي يمكنه مساعدتك إذا لزم الأمر.
@@ -91,7 +92,7 @@ ms.locfileid: "3599840"
 
 1. في القائمة العلوية، حدد **البيئات المستضافة على السحابة**.
 1. حدد **إضافة** لإضافة بيئة.
-1. في حقل **إصدار التطبيق**، حدد الإصدار الأحدث. إذا كانت هناك حاجه محدده لتحديد إصدار تطبيق مختلف عن الإصدار الأحدث، فلا تقم بتحديد إصدار أقدم من **10.0.8**.
+1. في حقل **إصدار التطبيق**، حدد الإصدار الأحدث. إذا كانت هناك حاجه محدده لتحديد إصدار تطبيق مختلف عن الإصدار الأحدث، فلا تقم بتحديد إصدار أقدم من **10.0.14**.
 1. في الحقل **إصدار النظام الأساسي**، استخدم إصدار النظام الأساسي الذي يتم اختياره تلقائيا لإصدار التطبيق الذي قمت بتحديده. 
 
     ![تحديد إصدارات التطبيق والنظام الأساسي](./media/project1.png)

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 0d2f4e86b5dec84d4a24db6a4f9f9f16f6a765bd
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889184"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421262"
 ---
 # <a name="work-hour-control"></a>مراقبة ساعات العمل
 
@@ -41,7 +41,7 @@ ms.locfileid: "3889184"
 
 2. في مربع الحوار **مراقبة ساعات الأصول**.
 
-3. في مربع الحوار **مراقبة ساعات الأصول** / **مراقبة ساعات مواقع العمل** / **مراقبة ساعات أوامر العمل**، حدد فترة ليتم حسابها في الحقلين **من تاريخ** و**إلى تاريخ**.
+3. في مربع الحوار **مراقبة ساعات الأصول** / **مراقبة ساعات مواقع العمل** / **مراقبة ساعات أوامر العمل**، حدد فترة ليتم حسابها في الحقلين **من تاريخ** و **إلى تاريخ**.
 
 4. إذا لزم الأمر، حدد **مجموعة أبعاد مالية** لتضمينها في الحساب.
 

@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9ab7d28469b7b5218b3aaa62449279ebf9b8ea9b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985403"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421355"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>إدخال كود GTIN لمنتج
 

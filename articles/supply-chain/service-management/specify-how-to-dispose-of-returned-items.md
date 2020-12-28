@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b2b1468328433a67253bafc21ac9c9b3a2398872
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981656"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421037"
 ---
 # <a name="specify-how-to-dispose-of-returned-items"></a>تحديد كيفية التخلص من الأصناف المرتجعة 
 
@@ -168,9 +168,9 @@ ms.locfileid: "3981656"
 
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>تحديد كود توزيع لأمر إدخال مخزن الفحص
 
-1.  ‏‫انقر فوق **‏‫إدارة المخزون‬** \> **دوري** \> **إدارة الجودة** \>‏‫ **أوامر إدخال مخزن الفحص** .
+1.  ‏‫انقر فوق **‏‫إدارة المخزون‬** \> **دوري** \> **إدارة الجودة** \>‏‫ **أوامر إدخال مخزن الفحص**.
 
-2.  بالنسبة لأمر إدخال مخزن الفحص الموجود، حدد إجراءً من الحقل **رمز الإرجاع** من علامة التبويب **نظرة عامة** .
+2.  بالنسبة لأمر إدخال مخزن الفحص الموجود، حدد إجراءً من الحقل **رمز الإرجاع** من علامة التبويب **نظرة عامة**.
 
 
 

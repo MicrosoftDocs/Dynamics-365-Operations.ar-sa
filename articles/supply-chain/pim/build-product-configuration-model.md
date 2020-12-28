@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8b7d1186b4141a18e1283505713e67018927672d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982916"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421029"
 ---
 # <a name="product-configuration-overview"></a>نظرة عامة على تكوين المنتج
 
@@ -112,7 +112,7 @@ ms.locfileid: "3982916"
 
 ### <a name="the-configuration-page"></a>صفحة التكوين
 
-للتنقل بين المكونات، انقر فوق **التالي** ، أو انقر فوق مكون في شجرة نموذج تكوين المنتج لتعيين التركيز عليها.
+للتنقل بين المكونات، انقر فوق **التالي**، أو انقر فوق مكون في شجرة نموذج تكوين المنتج لتعيين التركيز عليها.
 
 ## <a name="finalizing-a-model-for-configuration"></a>وضع الصيغة النهائية لنموذج تكوين
 عندما يكون نموذج تكوين منتج جاهزًا للاستخدام في سيناريوهات التكوين لأمر، يجب إنشاء إصدار. ومع ذلك، هناك العديد من الخيارات التي يمكن أن تعزز خبرة التصميم.

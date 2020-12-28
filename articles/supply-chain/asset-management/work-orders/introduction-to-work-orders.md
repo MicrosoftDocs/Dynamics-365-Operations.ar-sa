@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 7997b4b9521b43e1e00cfa22f9df12a29582455a
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889735"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421189"
 ---
 # <a name="introduction-to-work-orders"></a>مقدمة لأوامر العمل
 
@@ -56,7 +56,7 @@ ms.locfileid: "3889735"
 
 ![الشكل 1](media/01-work-orders.png)
 
-حدد **إدارة الأصول** > **مشترك‏‎** > **أوامر العمل** > **أوامر العمل النشطة**لعرض قائمة بأوامر العمل النشطة فقط. 
+حدد **إدارة الأصول** > **مشترك‏‎** > **أوامر العمل** > **أوامر العمل النشطة** لعرض قائمة بأوامر العمل النشطة فقط. 
 
 لعرض قائمة تتضمن وظائف أمر العمل التي تحتوي على أصول مثبتة في مواقع العمل، التي ترتبط بها أنت كعامل، حدد **إدارة الأصول** > **مشترك** > **أوامر العمل** > **مهام صيانة أوامر العمل الخاصة بموقع العمل لدي**. (يتم إعداد العلاقة بين العاملين ومواقع العمل على صفحة **العاملين** . لمزيد من المعلومات، راجع [عاملو الصيانة ومجموعات عاملي الصيانة](../setup-for-objects/workers-and-worker-groups.md).)
 

@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7d28e041b8adc828a2447ab09a0c1d28cc2aec0
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4021995"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4410056"
 ---
 # <a name="gift-card-module"></a>وحدة بطاقة الهدايا
 
@@ -61,7 +61,7 @@ ms.locfileid: "4021995"
 
 ## <a name="site-settings-for-gift-card-modules"></a>إعدادات الموقع لوحدات بطاقة الهدايا
 
-في منشئ موقع Commerce، ضمن **إعدادات الموقع \> Extensions** ، هناك إعداد لوحدة بطاقة هدايا يسمى **نوع بطاقة الهدايا المدعومة**. يدعم هذا الإعداد ثلاث قيم:
+في منشئ موقع Commerce، ضمن **إعدادات الموقع \> Extensions**، هناك إعداد لوحدة بطاقة هدايا يسمى **نوع بطاقة الهدايا المدعومة**. يدعم هذا الإعداد ثلاث قيم:
 - **بطاقة هدايا Dynamics 365** - عند تطبيق هذا الإعداد، تسمح وحدة بطاقة الهدايا باسترداد بطاقات هدايا Dynamics 365 فقط. هذا الإعداد مدعوم فقط للمستخدمين الذين سجلوا دخولهم في موقع التجارة الإلكترونية.
 - **بطاقات هدايا SVS وGivex** - عند تطبيق هذا الإعداد، تسمح وحدة بطاقة الهدايا باسترداد بطاقات هدايا SVS وGivex فقط. هذا الإعداد مدعوم للمستخدمين الذين سجلوا دخولهم في موقع التجارة الإلكترونية بالإضافة إلى المستخدمين المجهولي الهوية.
 - **بطاقات هدايا Dynamics 365 وSVS وGivex** - عند تطبيق هذا الإعداد، تسمح وحدة بطاقة الهدايا باسترداد بطاقات هدايا Dynamics 365 وSVS وGivex. هذا الإعداد مدعوم فقط للمستخدمين الذين سجلوا دخولهم في موقع التجارة الإلكترونية.
@@ -86,6 +86,8 @@ ms.locfileid: "4021995"
 [الوحدة النمطية لعنوان الشحن](ship-address-module.md)
 
 [الوحدة النمطية لخيارات التسليم](delivery-options-module.md)
+
+[الوحدة النمطية لمعلومات الانتقاء](pickup-info-module.md)
 
 [الوحدة النمطية لتفاصيل الأوامر](order-confirmation-module.md)
 
