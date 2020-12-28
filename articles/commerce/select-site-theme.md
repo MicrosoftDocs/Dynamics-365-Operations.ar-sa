@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817696"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556419"
 ---
 # <a name="select-a-site-theme"></a>تحديد سمة الموقع
 
@@ -32,7 +32,7 @@ ms.locfileid: "3817696"
 
 ## <a name="overview"></a>نظرة عامة
 
-يتم تحديد تخطيط الموقع ونمطه (على سبيل المثال، الخطوط والأحجام والألوان) بواسطة السمة التي تحددها ويتم تطبيقها على الموقع. يتم إنشاء السمة ونشرها من قبل مطور يعمل في شركتك. للحصول على نظرة عامة حول السمات، راجع [نظرة عامة حول السمات](http://). لمزيد من المعلومات حول كيفية إنشاء السمات ونشرها، راجع [إنشاء سمة جديدة](http://).
+يتم تحديد تخطيط الموقع ونمطه (على سبيل المثال، الخطوط والأحجام والألوان) بواسطة السمة التي تحددها ويتم تطبيقها على الموقع. يتم إنشاء السمة ونشرها من قبل مطور يعمل في شركتك. للحصول على نظرة عامة حول السمات، راجع [نظرة عامة حول السمات](e-commerce-extensibility/theming.md). لمزيد من المعلومات حول كيفية إنشاء السمات ونشرها، راجع [إنشاء سمة جديدة](e-commerce-extensibility/create-theme.md).
 
 بشكل افتراضي، عندما تقوم بإنشاء موقع للمرة الأولى، فإنه يستخدم سمة تُسمى **Fabrikam**. يتم توفير هذا النسق الافتراضي كجزء من مكتبة الوحدات النمطية في Commerce. بعد قيامك بتوزيع سمات إضافية للموقع الخاص بك، فإنه يمكنك تكوين الموقع بحيث يستخدم إحدى السمتين بدلاً من ذلك.
 
@@ -63,3 +63,8 @@ ms.locfileid: "3817696"
 [إضافة لغات إلى الموقع الخاص بك](add-languages-to-site.md)
 
 [إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام](add-telemetry.md)
+
+[نظرة عامة على النُسق](e-commerce-extensibility/theming.md)
+
+[إنشاء سمة جديدة](e-commerce-extensibility/create-theme.md)
+

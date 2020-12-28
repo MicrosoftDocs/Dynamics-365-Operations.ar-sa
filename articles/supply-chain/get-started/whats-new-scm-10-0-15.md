@@ -1,5 +1,5 @@
 ---
-title: معاينة Dynamics 365 Supply Chain Management 10.0.15 (يناير 2021)
+title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.15 (يناير 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.15 من Dynamics 365 Supply Chain Management.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0b8e69261563f61de022a626dd12d15d81535392
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: 02f343c5351168375eca38893b9d8eef4549dc5a
+ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012265"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4700947"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10015-january-2021"></a>معاينة Dynamics 365 Supply Chain Management 10.0.15 (يناير 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.15 (يناير 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.15 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.644، وهو يتوفر كما يلي
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.15 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.644، وهو يتوفر كما يلي
 
 - **معاينه الإصدار:** أكتوبر 2020
 - **التوفر العام للإصدار (تحديث ذاتي):** نوفمبر 2020
@@ -39,19 +38,23 @@ ms.locfileid: "4012265"
 
 يتضمن هذا الإصدار الميزات التالية. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
-- أداره وحده مقياس السحابة والحافة باستخدام أحمال التصنيع وتنفيذ المستودع<!-- <br> - For more information, see [Cloud and edge scale units for manufacturing and warehouse management workloads](../cloud-edge/cloud-edge-landing-page.md).-->
+- أداره وحده مقياس السحابة والحافة باستخدام أحمال التصنيع وتنفيذ المستودع<br> - للحصول على مزيد من المعلومات، راجع [وحدات نطاق السحابة والحافة لأحمال التصنيع وإدارة المستودعات](../cloud-edge/cloud-edge-landing-page.md).
 
 - [إنشاء أوامر تحويل ومعالجتها من تطبيق المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - لمزيد من المعلومات، راجع [إنشاء أوامر تحويل من تطبيق المستودع](../warehousing/create-transfer-order-from-warehouse-app.md).
 
 - [حقول رد RFQ الافتراضية لعروض أسعار المورد](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - لمزيد من المعلومات، راجع [نظرة عامة على طلبات عروض الأسعار (RFQ)](../procurement/request-quotations.md).
 
-- [الوظيفة الاضافيه لأداره التغييرات للهندسة لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<!-- <br> - For more information, see [Engineering change management overview](../engineering-change-management/product-engineering-overview.md).-->
+- [الوظيفة الاضافيه لأداره التغييرات للهندسة لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - لمزيد من المعلومات ، راجع [نظرة عامة على أداره التغييرات الهندسية](../engineering-change-management/product-engineering-overview.md).
 
 - [دلائل الحقيقة مختلطة للتصنيع](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - للحصول على مزيد من المعلومات، راجع [توفير إرشادات الحقيقة المختلطة للعمال العاملين في الإنتاج](../production-control/instruction-guides-in-production-overview.md).
 
 - [تجربة مستخدم جديدة لتنفيذ صالة الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - لمزيد من المعلومات، راجع [‏‫طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬ واستخدامها‬](../production-control/production-floor-execution-use.md).
 
 - [معالجة أحداث تطبيق المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - لمزيد من المعلومات، راجع [معالجه حدث تطبيق المستودع](../warehousing/warehouse-app-events.md).
+
+- [طرق العرض المحفوظة لصفحه المنتجات التي تم إصدارها](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - لمزيد من المعلومات، راجع [طرق العرض المحفوظة](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+
+- مستند شهادة المنشأ USMCA<br> - لمزيد من المعلومات، راجع [شهادة الأصل USMCA](../transportation/usmca-certification-of-origin.md).
 
 يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 

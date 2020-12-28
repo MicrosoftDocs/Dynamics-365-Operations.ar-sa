@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456916"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529568"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>نظرة عامة على مدخل العميل في Dynamics 365 Supply Chain Management
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="what-is-the-customer-portal"></a>ما هو مدخل العميل؟
 
@@ -36,7 +38,7 @@ ms.locfileid: "3456916"
 > من غير المتوقع أن يكون القالب قادرًا على العمل بحد ذاته. فهو يعمل فقط كأداة تمكين للعملاء الراغبين في إنشاء موقع خارجي على الويب لتمكين عملاء المؤسسة المشاركة مع البيانات من Supply Chain Management.
 
 > [!NOTE]
-> تتوجه وثائق مدخل العميل للمسؤولين والمخصصين والعاملين في مؤسسات تكامل الأنظمة الذين سيعملون على إعداد مدخل العميل لتثبيت Supply Chain Management. وهي تستخدم مصطلحات _العميل_ و_المستخدم_ لوصف الأشخاص الذين هم من عملاء المؤسسة التي تقوم بتشغيل Supply Chain Management والذين سيستخدمون المدخل النهائي بحد ذاته.
+> تتوجه وثائق مدخل العميل للمسؤولين والمخصصين والعاملين في مؤسسات تكامل الأنظمة الذين سيعملون على إعداد مدخل العميل لتثبيت Supply Chain Management. وهي تستخدم مصطلحات _العميل_ و _المستخدم_ لوصف الأشخاص الذين هم من عملاء المؤسسة التي تقوم بتشغيل Supply Chain Management والذين سيستخدمون المدخل النهائي بحد ذاته.
 
 ## <a name="video"></a>الفيديو
 

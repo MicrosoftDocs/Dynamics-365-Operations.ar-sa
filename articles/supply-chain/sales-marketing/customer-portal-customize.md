@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413932"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527353"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>تخصيص مدخل العميل واستخدامه
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يشرح هذا الموضوع مختلف الصفحات الجاهزة المتوفرة في مدخل العميل. وهو يشرح العمل الذي تقوم به الصفحات وكيف يمكن تخصيصها.
 
 يقدم مدخل العميل بعض صفحات الويب والإجراءات الجاهزة. يوفر مخطط الموقع التالي نظرة عامة على صفحات الويب والإجراءات هذه، والأدوار التي يمكنها تنفيذ الإجراءات.
 
-![![مخطط موقع مدخل العميل](media/customer-portal-site-map.png "مخطط موقع مدخل العميل")](media/customer-portal-site-map.png "Customer portal site map")
+![مخطط موقع مدخل العميل](media/customer-portal-site-map.png "مخطط موقع مدخل العميل")
 
 ## <a name="typical-customizations"></a>عمليات التخصيص النموذجية
 
@@ -62,12 +64,12 @@ ms.locfileid: "3413932"
     - **رقم الطلب** – أدخل رقم طلب الأمر. هذا الحقل غير مطلوب.
     - **شحن إلى البلد/المنطقة** – أدخل البلد أو المنطقة حيث سيتم تسليم الأصناف. يتم تعيين هذا الحقل بشكل تلقائي إلى المستخدمين من غير المسؤولين.
 
-    ![![صفحة معلومات الأمر](media/customer-portal-order-information.png "صفحة معلومات الأمر")](media/customer-portal-order-information.png "Order Information page")
+    ![صفحة معلومات الأمر](media/customer-portal-order-information.png "صفحة معلومات الأمر")
 
 1. حدد **التالي**.
 1. في صفحة **الأصناف**، حدد **إضافة صنف**.
 
-    ![![صفحة الأصناف](media/customer-portal-items.png "صفحة الأصناف")](media/customer-portal-items.png "Items page")
+    ![صفحة الأصناف](media/customer-portal-items.png "صفحة الأصناف")
 
 1. في مربع الحوار **معلومات الصنف**، قم بتعيين الحقول التالية:
 
@@ -76,14 +78,14 @@ ms.locfileid: "3413932"
     - **الوحدة** – حدد وحدة القياس (على سبيل المثال، **كل واحد** أو **كجم** أو **صندوق**).
     - **المبلغ الصافي المقدّر** – يتم حساب القيمة كالسعر المقدّر للصنف × الكمية للوحدة المحددة.
 
-    ![![مربع الحوار "معلومات الصنف"](media/customer-portal-item-information.png "مربع الحوار "معلومات الصنف"")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![مربع الحوار "معلومات الصنف"](media/customer-portal-item-information.png "مربع الحوار "معلومات الصنف"")
 
 1. حدد **إرسال** لإضافة الصنف إلى الأمر.
 1. كرر الخطوات من 4 إلى 6 حتى إضافة جميع الأصناف التي تريد طلبها.
 1. عند الانتهاء من إضافة الأصناف، حدد **التالي** على صفحة **الأصناف**.
 1. توفر صفحة **معلومات الأمر** ملخصًا للأمر. راجع محتويات الأمر وتفاصيل التسليم. إذا بدا كل شيء صحيحًا، فحدد **إرسال** لإرسال الأمر.
 
-    ![![صفحة معلومات الأمر](media/customer-portal-order-submit.png "صفحة معلومات الأمر")](media/customer-portal-order-submit.png "Order Information page")
+    ![صفحة معلومات الأمر](media/customer-portal-order-submit.png "صفحة معلومات الأمر")
 
 ### <a name="standard-data-setup"></a>إعداد البيانات القياسية
 
@@ -148,19 +150,19 @@ ms.locfileid: "3413932"
 
 يتم استخدام عنصر التحكم المخصص الوحيد المضمن في قالب مدخل العميل لإنشاء اللوحات في الصفحة الرئيسية.
 
-![![لوحات في الصفحة الرئيسية](media/customer-portal-home-page-tiles.png "لوحات في الصفحة الرئيسية")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![لوحات في الصفحة الرئيسية](media/customer-portal-home-page-tiles.png "لوحات في الصفحة الرئيسية")
 
 لتعديل اللوحات، اتبع الخطوات التالية:
 
 1. افتح [تطبيق إدارة المدخل](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 1. في جزء التنقل إلى اليمين، حدد **قوالب الصفحة**.
 
-    ![![جزء التنقل في إدارة المدخل](media/customer-portal-nav.png "جزء التنقل في إدارة المدخل")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![جزء التنقل في إدارة المدخل](media/customer-portal-nav.png "جزء التنقل في إدارة المدخل")
 
 1. حدد قالب الصفحة باسم **الصفحة الرئيسية**.
 1. في حقل **قالب ويب**، حدد ارتباط **الصفحة الرئيسية** لفتح التعليمات البرمجية المصدر لهذه الصفحة.
 
-    ![![حقل قالب ويب](media/customer-portal-web-template.png "حقل قالب ويب")](media/customer-portal-web-template.png "Web Template field")
+    ![حقل قالب ويب](media/customer-portal-web-template.png "حقل قالب ويب")
 
 1. يجب أن ترى الآن كل التعليمات البرمجية المصدر للصفحة الرئيسية ويمكنك تعديلها وفق الحاجة.
 

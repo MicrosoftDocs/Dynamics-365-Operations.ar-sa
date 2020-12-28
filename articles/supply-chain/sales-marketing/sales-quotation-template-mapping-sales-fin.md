@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b6b4384e1b5f712c08de55195a738295a36b75e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204460"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527328"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>مزامنة رؤوس وبنود عروض أسعار المبيعات مباشرةً من Sales إلى Supply Chain Management.
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة رؤوس وبنود عروض أسعار المبيعات مباشرةً من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
 
@@ -83,7 +85,7 @@ ms.locfileid: "3204460"
 
 في Sales، يجعل الحل الحقول التالية للقراءة فقط، نظرًا لعدم مزامنة القيم إلى Supply Chain Management:
 
-- حقول للقراءة فقط في رأس عرض أسعار المبيعات: **% الخصم‬**، و**الخصم‬**، و**مبلغ الشحن**
+- حقول للقراءة فقط في رأس عرض أسعار المبيعات: **% الخصم‬**، و **الخصم‬**، و **مبلغ الشحن**
 - حقول للقراءة فقط على منتجات عرض الأسعار: **الضريبة**
 
 ## <a name="preconditions-and-mapping-setup"></a>الشروط المسبقة وإعداد التعيين
@@ -125,7 +127,7 @@ ms.locfileid: "3204460"
 
 > [!NOTE]
 > - تخضع حقول **الخصم** و **التكاليف** و **الضريبة** للإعداد المعقد في Supply Chain Management. لا يدعم هذا الإعداد حاليًا تعيين التكامل. في التصميم الحالي، يتولى Supply Chain Management إدارة حقول **السعر** و **الخصم** و **التكاليف**، و **الضريبة**.
-> - لا تشكل الحقول **شروط الدفع** و**شروط الشحن** و**شروط التسليم** و**أسلوب الشحن** و**وضع التسليم** جزءًا من التعيينات الافتراضية. لتعيين هذه الحقول، يجب إعداد تعيين قيمة خاصة بالبيانات الموجودة في المؤسسات التي تتم مزامنة الكيان بينها.
+> - لا تشكل الحقول **شروط الدفع** و **شروط الشحن** و **شروط التسليم** و **أسلوب الشحن** و **وضع التسليم** جزءًا من التعيينات الافتراضية. لتعيين هذه الحقول، يجب إعداد تعيين قيمة خاصة بالبيانات الموجودة في المؤسسات التي تتم مزامنة الكيان بينها.
 
 تبين الأشكال التوضيحية التالية مثالاً لتعيين قالب في موحد البيانات.
 

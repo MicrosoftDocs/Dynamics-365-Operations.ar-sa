@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 741c8af7eaabe23c03546daddd0a9a422146f575
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: c3fc8cf49b62515f41712e594076c31ae5d7654b
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793553"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668971"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>كتالوج التعلّم لمستخدمي Dynamics 365 Supply Chain Management
 
@@ -50,6 +50,7 @@ ms.locfileid: "3793553"
 | [تكوين المنتجات والمخزون وإدارتها في Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | تُعتبر معلومات المنتج بمثابة الركيزة لتطبيقات سلسلة التوريد والبيع بالتجزئة عبر كل الصناعات. في مختلف وحدات حل الأعمال، تكون المعلومات والتكوينات الخاصة بالمنتج مطلوبة لإدارة عمليات الأعمال ذات الصلة بمنتجات أو عائلات منتجات أو قوائم مكونات الصنف أو فئات منتجات. تُظهر لك تقارير المخزون مقدار المخزون الموجود لديك بعدة طرق مختلفة وتوضح كيف تُصبح أكثر كفاءة في استثماراتك للمخزون. يساعدك التخطيط الرئيسي في تسهيل عملية التخطيط استنادًا إلى عوامل محددة مسبقًا، لكي تتمكن من أن تخطط بفعالية المواد التي تحتاج إلى شرائها أو نقلها أو تصنيعها. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 14 ساعات |
 | [تكوين التدبير والموردين وإدارتهم في Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | تمثل عملية البحث عن الموردين والعمل معهم وشراء المنتجات والتأكدة من جودة البضائع والخدمات كافة العوامل الهامة التي تؤثر على سمعة الشركة ونجاحها. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 14 ساعات |
 | [تكوين وإدارة المبيعات والعملاء في Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) | يعتبر التعامل مع العملاء، وفهم دورة حياة عملية المبيعات، وإعداد اتفاقيات البيع جميعًا من العوامل المهمة التي تؤثر على نجاح الشركة. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 7 ساعات |
+| [التخطيط الرئيسي في Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/master-planning-supply-chain-management/) | يتيح التخطيط الرئيسي للشركات إمكانية تحديد وموازنة للمواد الخام والقدرة المطلوبة لتلبية الأهداف المستقبلية. التخطيط الرئيسي أسيسيس المواد الخام والقدرات المتوفرة حاليا ، والمواد الخام والقدرات المطلوبة لإكمال الإنتاج. على سبيل المثال، ما الذي يجب أن يتم تصنيع أو شراؤه أو نقله أو طرحه جانبًا كمخزون احتياطي قبل أن يمكنك إكمال الإنتاج. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | خمس ساعات |
 | [تكوين والعمل باستخدام إدارة المستودع في Dynamics 365 for Finance and Operations](https://docs.microsoft.com/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | تساعد إدارة المستودعات في Dynamics 365 Supply Chain Management في تحسين وتبسيط عمليات المستودع وفقًا لاحتياجاتك الفردية وتوفر معلومات تفصيلية حول مخزونك والأدوات للمساعدة في زيادة رضا العملاء وتقليل التكاليف. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 8.5 ساعات |
 | [تكوين والعمل باستخدام إدارة النقل في Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | تساعد وحدة إدارة النقل في Dynamics 365 Supply Chain Management للعثور على أفضل طريقة فعالة لتسليم البضائع إلى العملاء. تحسب إدارة النقل الطريقة الأسرع والأقل تكلفة لتسليم البضائع وتتيح لك التعرف على حلول الموردين والتوجيه للأوامر الواردة والصادرة. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | ثلاث ساعات |
 | [التعامل مع إدارة الأصول لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | أداره الأصول هي وظيفة إضافية في Dynamics 365 Supply Chain Management، والتي تُستخدم لإدارة الأصول المستخدمة في التشغيل اليومي لشركك. وتشمل بعض الأمثلة على هذه الأنواع من الأصول الماكينات ومعدات الإنتاج والرافعات الشوكية. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 12.5 ساعات |

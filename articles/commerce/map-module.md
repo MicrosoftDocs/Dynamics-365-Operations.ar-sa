@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817196"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665410"
 ---
 # <a name="map-module"></a>وحدة الخريطة
 
@@ -58,7 +58,7 @@ ms.locfileid: "3817196"
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>إضافة عناوين URL مواقع للتعيين المسموح بها إلى توجيهات سياسة أمان محتوى الموقع
 
-لكي تتفاعل الوحدة النمطية للخريطة مع خرائط Bing، يجب عليك التأكد من أن عناوين URL للتعيين التالية مسموحة (ما يعرف أيضًا بأنها "مدرجة في قائمة بيضاء") وفق سياسة أمان محتوى الموقع (CSP).‬ يتم إجراء هذا الإعداد في منشئ مواقع Commerce، عن طريق إضافة عناوين URL مسموح بها إلى توجيهات CSP متعددة للموقع (على سبيل المثال، **img-src**). لمزيد من المعلومات، راجع [سياسة أمان المحتوى](manage-csp.md). 
+لكي تتفاعل الوحدة النمطية للخريطة مع خرائط Bing، يجب عليك التأكد من أن عناوين URL للتعيين التالية مسموح بها وفقًا لسياسة أمان محتوى الموقع (CSP) الخاص بك.‬ يتم إجراء هذا الإعداد في منشئ مواقع Commerce، عن طريق إضافة عناوين URL مسموح بها إلى توجيهات CSP متعددة للموقع (على سبيل المثال، **img-src**). لمزيد من المعلومات، راجع [سياسة أمان المحتوى](manage-csp.md). 
 
 - إلى التوجيه **connect-src**، أضف **&#42;.bing.com**.
 - إلى التوجيه **img-src**، أضف **&#42;.virtualearth.net**.
