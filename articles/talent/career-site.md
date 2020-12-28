@@ -19,11 +19,11 @@ ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.openlocfilehash: d4a1e7c19ccec6ae32e46ec7d58604b162418953
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832944"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460174"
 ---
 # <a name="set-up-your-career-site-in-attract"></a>إعداد موقع الوظيفة في Attract
 
@@ -62,7 +62,7 @@ ms.locfileid: "2832944"
 
 -   **عنوان URL‎ للصفحة الرئيسية لموقع الوظائف** - لعرض عنوان URL‎ للصفحة الرئيسية لموقع الوظائف، سجل دخولك إلى Attract كمسؤول، وحدد **مركز الإدارة** في قائمة **الإعدادات**، ثم حدد علامة التبويب **إدارة موقع الوظائف**.
 
--   **عنوان URL‎ لتقديم الطلب لإعلان وظيفة فردية** - عند [نشر وظيفة خارجية](Creating-jobs-Attract.md#postings) للمرة الأولى، يمكنك نسخ الارتباط **تقديم طلب** من Attract. سيكون عنوان URL لهذا الارتباط بالتنسيق التالي: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **عنوان URL‎ لتقديم الطلب لإعلان وظيفة فردية** - عند [نشر وظيفة خارجية](Creating-jobs-Attract.md#postings) للمرة الأولى، يمكنك نسخ الارتباط **تقديم طلب** من Attract. سيكون عنوان URL لهذا الارتباط بالتنسيق التالي: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/تطبيق](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **عنوان URL‎ لإعلان وظيفة فردية** - عنوان URL لإعلان الوظيفة هو سلسلة فرعية من عنوان URL لتقديم الطلب. وهو يتكوّن من كل شيء وصولاً إلى رقم الوظيفة. وبالتالي، فيما يتعلق بعنوان URL السابق لتقديم الطلب، سيكون عنوان URL لإعلان الوظيفة [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

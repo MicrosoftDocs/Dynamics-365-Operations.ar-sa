@@ -16,12 +16,12 @@ ms.search.region: Saudi Arabia
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2da3818a0cf0a81816a8854496442393d56cdd95
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: dc3085fc73516aaf1621972e26cd574d574fbc08
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981465"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645416"
 ---
 # <a name="saudi-arabia-overview"></a>نظرة عامة على المملكة العربية السعودية
 
@@ -31,9 +31,10 @@ ms.locfileid: "3981465"
 
 - [ضريبة المبيعات](apac-sau-sales-tax.md)
 - [تقارير الزكاة](emea-sau-zakat-reporting.md)
+- [تخصيص رسوم المستندات البنكية لشحنة](apac-sau-allocate-bank-document-charges-shipment.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-- [نظرة عامة على إعداد التقارير الإلكتروني](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [نظرة عامة على إعداد التقارير الإلكترونية](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [مدخل الترجمة في Microsoft Dynamics: تقرير أستراليا (يتطلب حساب CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/saudiarabia.html)

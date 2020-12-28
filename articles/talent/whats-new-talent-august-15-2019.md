@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: cfefc6ea654a3012137a1135db5696da39a19048
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005999"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460264"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (13 أغسطس 2019)
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 48de07178acfaccf11e0a02b2848bf24e6ccc117
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c4068cf81782d2f9559179b91da31e049c006059
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896763"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527110"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-5-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (5 نوفمبر 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
@@ -69,7 +71,7 @@ ms.locfileid: "2896763"
 
 وبهذا التغيير، سيتم تحديث أكواد السبب التي تحتوي على أكثر من 30 حرفًا في Common Data Service. سيتم أيضًا عكس التغييرات التي تم إجراؤها في Common Data Service في Talent.
 
-### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>تكامل العنوان من Talent مع Finance and Operations (351961)
+### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>تكامل العنوان من Talent إلى Finance and Operations ‏(351961)
 
 يعمل هذا الإصدار على إصلاح مشكلة عدم تحديث العناوين التي تم تحديثها في Talent في Finance and Operations. سيتم تحديث التغييرات التي تتم على كتل العناوين.
 

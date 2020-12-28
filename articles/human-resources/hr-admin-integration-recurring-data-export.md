@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007916"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417150"
 ---
 # <a name="create-a-recurring-data-export-app"></a>إنشاء تطبيق تصدير بيانات متكررة
 
@@ -122,7 +122,7 @@ ms.locfileid: "3007916"
     > [!TIP]
     > قد تحتاج إلى إعادة تسمية كل خطوة بحيث تكون أكثر نفعًا من الاسم الافتراضي، **استدعاء طلب HTTP**. على سبيل المثال، يُمكن إعادة تسمية هذه الخطوة **ExportToPackage**.
 
-5. [تهيئة ](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) متغير لتخزين حالة تخزين طلب **ExportToPackage**.
+5. [تهيئة](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) متغير لتخزين حالة تخزين طلب **ExportToPackage**.
 
     ![تهيئة إجراء متغير](media/integration-logic-app-initialize-variable-step.png)
 
@@ -159,7 +159,7 @@ ms.locfileid: "3007916"
     - قم بإضافة إجراء **استدعاء طلب HTTP** لاستدعاء واجهة برمجة تطبيقات DMF REST [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
 
         - **الأسلوب:** POST
-        - **عنوان Url للطلب:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
+        - **عنوان URL للطلب:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **نص الطلب:** {"executionId": body('GetExportedPackageURL')?['value']}
 
         ![إجراء GetExportedPackageURL ](media/integration-logic-app-get-exported-package-step.png)

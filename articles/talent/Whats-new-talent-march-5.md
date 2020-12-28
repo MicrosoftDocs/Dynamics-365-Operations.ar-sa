@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898909"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527280"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (5 مارس 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Talent.
 
@@ -36,7 +38,7 @@ ms.locfileid: "2898909"
 في Attract، توجد حقول متعددة هي عبارة عن مجموعات خيارات ضمن Common Data Service. تم تقديم قدرات جديدة لتوسيع مجموعات الخيارات، بدءًا من حقل سبب **الرفض**، وحقل **نوع التوظيف** وحقل **نوع الأقدمية**.
 
 > [!IMPORTANT]
-> يتطلب نشر إعلانات الوظائف في وظيفة LinkedIn استخدام الحقلين **نوع التوظيف** و**نوع الأقدمية** في صفحة **تفاصيل الوظيفة**. تلقى القيم الافتراضية في هذه الحقول دعم LinkedIn القيم وتظهر عند نشر الوظيفة. إذا كنت تنشر إعلانات الوظائف في LinkedIn وقمت بتعديل قيم مجموعة الخيارات الحالية لهذه الحقول، فسيستمر نشر إعلان الوظيفة، ولكن LinkedIn لن يعرض القيم المخصصة **نوع التوظيف** و**نوع الأقدمية**.
+> يتطلب نشر إعلانات الوظائف في وظيفة LinkedIn استخدام الحقلين **نوع التوظيف** و **نوع الأقدمية** في صفحة **تفاصيل الوظيفة**. تلقى القيم الافتراضية في هذه الحقول دعم LinkedIn القيم وتظهر عند نشر الوظيفة. إذا كنت تنشر إعلانات الوظائف في LinkedIn وقمت بتعديل قيم مجموعة الخيارات الحالية لهذه الحقول، فسيستمر نشر إعلان الوظيفة، ولكن LinkedIn لن يعرض القيم المخصصة **نوع التوظيف** و **نوع الأقدمية**.
 
 ## <a name="changes-in-onboarding"></a>التغييرات في Onboarding
 
@@ -76,5 +78,5 @@ ms.locfileid: "2898909"
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>أمان التعويض المتقدم (التعويض الثابت والمتغير)
 في عدد كبير من المؤسسات، بإمكان مدراء التعويضات والمزايا فقط الوصول إلى سجلات تعويض معينة، مثل سجلات المدراء التنفيذيين أو الموظفين في الأقاليم. سيسمح لك هذا التغيير بإدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. يمكن تعيين أدوار أمان إلى خطط التعويض الثابت والمتغير، مما يحدد حق الوصول إلى الخطط وبيانات الموظفين ذات الصلة بها، على سبيل المثال، معلومات حول الرواتب وسجلات المكافآت. الأدوار التي ستتمكن من الوصول لمعالجة تعويضات هؤلاء الموظفين هي فقط الأدوار التي تملك حق الوصول المحدد.
 
-###  <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 لـ Finance and Operations
-للحصول على تفاصيل إضافية حول Platform update 24 لـ Finance and Operations، راجع [الميزات الجديدة أو المتغيرة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>تحديث النظام الأساسي 24 لـ Finance and Operations
+للحصول على تفاصيل إضافية حول النظام الأساسي 24 لـ Finance and Operations، راجع [الجديد أو المتغير في تحديث النظام الأساسي 24 لـ Finance and Operations (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

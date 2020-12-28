@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
-ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
+ms.openlocfilehash: 97385da9d258cc169a9976be7c7798faa41661c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078033"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527683"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>اختيار المرشحين باستخدام مجموعات المواهب في Attract‬
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 بإمكان مسؤولي التعيين ومدراء التوظيف تنظيم المرشحين باستخدام وظيفة مجموعات المواهب في Attract. بإمكان مجموعات المواهب أن تساعدك على تعقب جميع المرشحين الذين يتقدمون بطلبات الحصول على الوظائف في شركتك والتفاعل معهم.
 
@@ -113,7 +115,7 @@ ms.locfileid: "3078033"
 
 - تعرض علامة التبويب **المستندات** أية مستندات أضافها المرشح من ملف تعريفه أو أثناء إعداد تقديم طلبات الحصول على الوظيفة. يمكنك استخدام علامة التبويب هذه لإدارة السير الذاتية للمرشح بالإضافة إلى رسائل الغلاف وقائمة مشاريع العمل وغير ذلك. يمكنك أيضًا استخدام علامة التبويب هذه لإضافة مستندات.
 
-    لعرض مستند، حدد اسم المستند في قائمة المستندات. يمكنك عرض مستندات Microsoft Word الموجودة في التطبيق باستخدام Microsoft Office 365. يمكنك أيضًا تنزيل المستندات إلى الكمبيوتر المحلي باستخدام الخيار **تنزيل** لكل مستند.
+    لعرض مستند، حدد اسم المستند في قائمة المستندات. يمكنك عرض مستندات Microsoft Word في التطبيق باستخدام Microsoft 365. يمكنك أيضًا تنزيل المستندات إلى الكمبيوتر المحلي باستخدام الخيار **تنزيل** لكل مستند.
 
 - تعرض علامة التبويب **LinkedIn** بيانات LinkedIn للمرشح. لاستخدام علامة التبويب هذه، يجب توصيل حسابك في LinkedIn في إعدادات المستخدم، ويجب إنشاء اتصال LinkedIn Recruiter لبيئتك. لمزيد من المعلومات، راجع [توريد المرشحين باستخدام LinkedIn Recruiter في Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 

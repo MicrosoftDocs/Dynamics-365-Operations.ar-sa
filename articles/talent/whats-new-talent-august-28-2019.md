@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1f19049b362070e2573db769bf7070ace0028406
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 8965636e539345be5ef0ad591f7017938efd322d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005930"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529794"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-27-2019"></a>ما الجديد أو المتغير في Dynamics 365 for Talent (27 أغسطس 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 for Talent.
 
@@ -65,7 +67,7 @@ ms.locfileid: "3005930"
 
 ### <a name="the-cdsjobposition-entity-displays-an-error-when-valid-to-date-is-set-349387"></a>يعرض الكيان CDSJobPosition رسالة خطأ عندما يتم تعيين التاريخ "صالح حتى" (349387)
 
-في هذا الإصدار، تسمح مصادر البيانات **تفاصيل المنصب‬** و**مدة المنصب** في الكيان **CDSJobPosition** بعمليات التحرير من Common Data Service في حقول **تاريخ السريان‬**. 
+في هذا الإصدار، تسمح مصادر البيانات **تفاصيل المنصب‬** و **مدة المنصب** في الكيان **CDSJobPosition** بعمليات التحرير من Common Data Service في حقول **تاريخ السريان‬**. 
 
 ### <a name="for-employee-termination-the-last-day-worked-is-populated-on-assignment-end-date-332496"></a>فيما يتعلق بانتهاء خدمات الموظف، تتم تعبئة آخر يوم عمل في تاريخ انتهاء التعيين (332496)
 

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551946"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460257"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>تحديث أدلة الإعداد في Dynamics 365 Talent - Onboard
+# <a name="update-onboarding-guides"></a>تحديث أدلة الإعداد 
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "2551946"
 2. حدد الدليل الذي تريد تحريره.
 3. أدخل جميع التغييرات المطلوبة، ثم حدد الزر **حفظ** (رمز القرص).
 
-    ![[حفظ التغييرات إلى دليل إعداد](./media/onboard-save.png)](./media/onboard-save.png)
+    ![[حفظ التغييرات إلى دليل الإعداد](./media/onboard-save.png)](./media/onboard-save.png)
 
 يرسل Onboard بشكل تلقائي إلى الموظف الجديد رسالة إلكترونية تشرح التغييرات. تظهر علامة حمراء **جديد** إلى جانب كل تغيير لتسهيل التعرف عليه.
 

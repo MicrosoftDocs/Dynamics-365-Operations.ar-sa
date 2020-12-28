@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431258"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527899"
 ---
 # <a name="configure-integration-with-finance"></a>تكوين التكامل مع Finance
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 لاجراء تكامل Dynamics 365 Human Resources مع Dynamics 365 Finance، يمكنك استخدام Human Resources في قالب Finance في [مكامل بيانات ](https://docs.microsoft.com/powerapps/administrator/data-integrator). تتيح Human Resources لقالب Finance تدفق البيانات للوظائف والمناصب والعاملين. يسمح القالب بتدفق البيانات من Human Resources إلى Finance، لكنه لا يسمح بتدفق البيانات من Finance إلى Human Resources.
 
@@ -244,7 +246,7 @@ ms.locfileid: "3431258"
 
 يحاول التكامل من Human Resources إلى Finance مطابقة السجلات بناءً على المُعرف. في حالة تطابق السجلات، يستبدل مكامل البيانات البيانات الموجودة في Finance بالقيم الموجودة في Human Resources. ومع ذلك، قد تحدث مشكلة إذا كانت هذه سجلات مختلفة منطقيًا وتم إنشاء نفس المعرّف في أي من Human Resources أو Finance استنادًا إلى تسلسل الأرقام المعني.
 
-قد تحدث هذه المشكلة لدى **العامل**، الذي يستخدم **رقم الموظف** لإجراء المطابقة، و**المناصب**. لا تستخدم الوظائف التسلسلات الرقمية. ونتيجة لذلك، إذا كان نفس مُعرف الوظيفة موجودًا في كل من Human Resources و Finance، تقوم معلومات Human Resources باستبدال معلومات Dynamics 365 Finance. 
+قد تحدث هذه المشكلة لدى **العامل**، الذي يستخدم **رقم الموظف** لإجراء المطابقة، و **المناصب**. لا تستخدم الوظائف التسلسلات الرقمية. ونتيجة لذلك، إذا كان نفس مُعرف الوظيفة موجودًا في كل من Human Resources و Finance، تقوم معلومات Human Resources باستبدال معلومات Dynamics 365 Finance. 
 
 لمنع حدوث مشكلات مع مُعرفات مُكررة، يُمكنك إما إضافة بادئة على [تسلسل الرقم](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json)، أو تعيين رقم بداية على التسلسل الرقمي الموجود خارج نطاق النظام الآخر. 
 

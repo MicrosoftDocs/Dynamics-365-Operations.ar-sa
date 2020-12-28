@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006277"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460244"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>ما الجديد والمتغير في Dynamics 365 Talent (30 يوليو 2019)
 
@@ -47,7 +47,7 @@ ms.locfileid: "3006277"
 
 ### <a name="new-active-positions-list-page"></a>صفحة قائمة المناصب النشطة الجديدة
 
-تتضمن الآن الخيارات الخاصة بالقوائم المستندة إلى المناصب: **جميع المناصب** و**المناصب النشطة** و**المناصب الشاغرة** و**المناصب غير النشطة**. تعرض صفحة قائمة **المناصب النشطة** الجديدة فقط تلك المناصب، الشاغرة أو المشغولة، التي تكون نشطة اعتبارًا من التاريخ الحالي. 
+تتضمن الآن الخيارات الخاصة بالقوائم المستندة إلى المناصب: **جميع المناصب** و **المناصب النشطة** و **المناصب الشاغرة** و **المناصب غير النشطة**. تعرض صفحة قائمة **المناصب النشطة** الجديدة فقط تلك المناصب، الشاغرة أو المشغولة، التي تكون نشطة اعتبارًا من التاريخ الحالي. 
 
 ### <a name="allow-course-participants-to-be-added-to-open-courses"></a>السماح بإضافة المشاركين في الدورة التدريبية إلى دورات تدريبية مفتوحة
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f06d989ea4e927111729dfbd4bb7700745a16a54
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c04af27bcc446b516f14125e71fb707bfd1d7708
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897501"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529698"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (6‏ مايو 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
@@ -43,9 +45,9 @@ ms.locfileid: "2897501"
 
 تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2282. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام الدعم في Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26-for-finance-and-operations"></a>Platform update 26 لـ Finance and Operations
+### <a name="platform-update-26-for-finance-and-operations"></a>تحديث النظام الأساسي 26 لـ Finance and Operations
 
-للحصول على مزيد من التفاصيل حول Platform update 26 لـ Finance and Operations، راجع [ميزات المعاينة في Dynamics 365 Finance and Operations platform update 26 (مايو 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+للحصول على مزيد من التفاصيل حول تحديث النظام الأساسي 26 لـ Finance and Operations، راجع [ميزات المعاينة في تحديث النظام الأساسي 26 لـ Dynamics 365 Finance and Operations (مايو 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>دعم كيان Common Data Service للحقول المخصصة
 

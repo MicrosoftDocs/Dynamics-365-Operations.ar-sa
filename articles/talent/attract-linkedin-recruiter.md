@@ -3,7 +3,7 @@ title: توريد المرشحين باستخدام LinkedIn Recruiter في Attr
 description: استخدم تكامل LinkedIn الذي يوفره Microsoft Dynamics 365 Talent - Attract للبحث عن المرشحين للوظائف عبر LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 96e4660c4958bf5f2a0910bfad770e1e713f800f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833036"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528259"
 ---
 # <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>توريد المرشحين باستخدام LinkedIn Recruiter في Attract
 
@@ -34,6 +34,9 @@ ms.locfileid: "2833036"
 
 إذا بدا أن هذه الإمكانية غير متوفرة لديك، فاتصل بالمسؤول. قبل أن تتمكن من الاستفادة من LinkedIn Recruiter من Attract، يجب على المسؤول [إعداد التكامل مع LinkedIn](./attract-admin-linkedin.md). يمكنك بعد ذلك إعداد الاتصال مع LinkedIn Recruiter وبدء البحث عن المرشحين.
 
+>[!IMPORTANT]
+>اعتبارًا من 1 يوليو 2020، لم يعد LinkedIn يدعم Internet Explorer ‏11. لا يزال بإمكان المستخدمين الوصول إلى LinkedIn مع Internet Explorer ‏11، ولكن ستتم مطالبتهم بالترقية أو استخدام مستعرض مختلف. لمزيد من المعلومات ، راجع [مستعرضات الإنترنت المدعومة لـ LinkedIn](https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin).
+
 ## <a name="set-up-your-connection-with-linkedin-recruiter"></a>إعداد الاتصال مع LinkedIn Recruiter
 
 قبل أن تتمكن من بدء العمل مع LinkedIn Recruiter عبر Attract، يجب إعداد الاتصال مع LinkedIn Recruiter. لتنفيذ هذه الخطوة، تحتاج إلى بيانات اعتمادك مع LinkedIn Recruiter.
@@ -42,19 +45,35 @@ ms.locfileid: "2833036"
 2. حدد **إعدادات المستخدم**.
 3. في علامة التبويب‏‎ **الاتصالات‏‎**، حدد **اتصال** إلى جانب **LinkedIn‎**. اتبع الإرشادات التي يتم توفيرها بواسطة LinkedIn.
 
-    ![[إعداد الاتصال مع LinkedIn Recruiter من Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[إعداد الاتصال بـ LinkedIn Recruiter من Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>عرض مرشحي LinkedIn في Attract
 
 بعد الاتصال بـ LinkedIn Recruiter، يمكنك عرض ملفات تعريف مرشحي LinkedIn في Attract.
 
+>[!NOTE]
+>إذا كان لديك مقعد مسؤول تعيين مخصص لك، فيمكنك الاطلاع على المعلومات الكاملة للمرشحين.<br><br>
+>إذا كان لديك مقعد مدير التوظيف أو لم يتم تخصيص مقعد لك، فتأكد من تسجيل الخروج من LinkedIn أو LinkedIn Recruiter قبل الانتقال إلى علامة التبويب LinkedIn لمرشح في Attract. ستتمكن من رؤية بيانات ملف التعريف العام الأساسي للمرشح، مثل الاسم الأول واسم العائلة.
+
 1. في Attract، حدد **الوظائف** أو **مجموعات المواهب** إلى اليمين، ثم حدد أحد مقدمي الطلبات.
 
     ![[عرض مرشحي LinkedIn في Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
-2. في ملف تعريف المرشح، حدد علامة التبويب **LinkedIn**. يمكنك عرض ملف تعريف المرشح، مع محفوظات InMail ومحفوظات ملاحظات LinkedIn.
+2. في ملف تعريف المرشح، حدد علامة التبويب **LinkedIn**. يمكنك عرض ملف تعريف المرشح ومحفوظات InMail.
 
-من هنا، يمكنك حفظ المرشح في مشروع LinkedIn Recruiter أو إرساله في inMail أو استخدام "تحديثي" لتعيين تنبيه في LinkedIn Recruiter.
+   ![عرض معلومات LinkedIn للمرشح](./media/attract-candidate-linkedin-tab.png)
+
+من هنا، يمكنك تنفيذ الإجراءات التالية:
+
+- حدد علامة التبويب **أنشطة التعيين** لعرض:
+   
+   - ملاحظات مسؤولي التعيين (كلُّ من العامة والخاصة). بشكل افتراضي، تكون الملاحظات خاصة ومرئية فقط لمالك الملاحظات.
+   - نشاط InMail activity (لكن ليس محتوى InMail). قم بالتمرير إلى أسفل الصفحة لعرض تبادل InMail مع عميلك المتوقع واعرض المستخدمين الآخرين في مؤسستك الذين يتفاعلون مع العميل المتوقع.
+   - نشاط رفض المرشح
+
+- حدد **إرسال InMail** لإرسال InMail دون الحاجة إلى مغادرة Attract.
+
+- حدد **حفظ إلى وظيفة** لحفظ المهمة دون مغادرة Attract.
 
 > [!NOTE]
 > سيظهر ملف تعريف مرشح LinkedIn في Attract عندما تتطابق معلومات المرشح في Attract مع معلومات LinkedIn. فيما يلي قواعد التطابق المستخدمة:
@@ -87,7 +106,7 @@ ms.locfileid: "2833036"
     - **ملاحظات المقابلة** راجع الملاحظات التي أرسلها المحاورون في Attract.
     - **الملاحظات** – راجع أي ملاحظات تم إدخالها لهذا المرشح في Attract.
 
-    ![[عرض معلومات Attract من LinkedIn Recruiter] (/media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[عرض معلومات Attract من LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > لن تتم مزامنة بيانات المرشح واستمارة التقديم مع LinkedIn Recruiter إذا لم يتجاوز المرشح مرحلة الموظف المحتمل.

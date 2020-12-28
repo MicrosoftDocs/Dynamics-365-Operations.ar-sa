@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
 ms.openlocfilehash: 1b59fdbdd9ed46f42afd3e7310d2cd3f076edd95
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006369"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460259"
 ---
 # <a name="get-the-onboard-app"></a>الحصول على تطبيق Onboard
 
@@ -75,7 +75,7 @@ ms.locfileid: "3006369"
 
 1. افتح [صفحة تسجيل الدخول إلى Microsoft](https://portal.office.com/).
 2. أدخل عنوان البريد الإلكتروني وكلمة المرور لـ Microsoft 365، عند مطالبتك بذلك.
-3. إذا رأيت توصية بإضافة مجالك الخاص ضمن **موصى به لك**، فحدد **عرض التوصية**، واتبع المطالبات. إذا لم تظهر التوصية، فحدد **إظهار الكل** على القائمة إلى اليمين، وحدد **الإعداد** و**المجالات**، ثم حدد **إضافة مجال** أو **شراء مجال‏‎**. ثم اتبع المطالبات.
+3. إذا رأيت توصية بإضافة مجالك الخاص ضمن **موصى به لك**، فحدد **عرض التوصية**، واتبع المطالبات. إذا لم تظهر التوصية، فحدد **إظهار الكل** على القائمة إلى اليمين، وحدد **الإعداد** و **المجالات**، ثم حدد **إضافة مجال** أو **شراء مجال‏‎**. ثم اتبع المطالبات.
 
 ## <a name="next-steps"></a>الخطوات التالية
 

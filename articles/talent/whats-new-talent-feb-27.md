@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897662"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529128"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (27 فبراير 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 
@@ -75,9 +77,9 @@ ms.locfileid: "2897662"
 
 في الكثير من المؤسسات، قد يتوفر لدى مدراء التعويضات والمزايا حق الوصول إلى سجلات تعويض معينة فقط. وقد تكون هذه السجلات مخصصة للمدراء التنفيذيين أو الموظفين الإقليميين. سيسمح هذا التغيير لإدارة الموارد البشرية (HR) بإدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. ستحدد أدوار الأمان التي يمكن تعيينها إلى خطط التعويض الثابت والمتغير حق الوصول إلى هذه الخطط وبيانات الموظفين ذات الصلة بها (على سبيل المثال، معلومات حول الرواتب وسجلات المكافآت). الأدوار التي ستتمكن من الوصول لمعالجة تعويضات هؤلاء الموظفين هي فقط الأدوار التي تملك حق الوصول المحدد.
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 لـ Finance and Operations
+### <a name="platform-update-24-for-finance-and-operations"></a>تحديث النظام الأساسي 24 لـ Finance and Operations
 
-للحصول على مزيد من المعلومات حول Platform update 24 for Microsoft Dynamics 365 Finance and Operations (مارس 2019)، راجع [ميزات المعاينة في Finance and Operations platform update 24 (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+للحصول على مزيد من المعلومات حول تحديث النظام الأساسي 24 لـ Microsoft Dynamics 365 Finance and Operations (مارس 2019)، راجع [ميزات المعاينة في تحديث النظام الأساسي 24 لـ Finance and Operations (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>جعل التعويض الثابت للموظف متوفرًا لتعيينات المناصب المستقبلية
 
@@ -98,19 +100,19 @@ ms.locfileid: "2897662"
 
     - **مناصب الوظيفة إلى الوظيفة:** أزل هذا التعيين.
     - **تعيين مناصب الوظيفة إلى الوظيفة الرئيسية للمناصب:** أزل هذا التعيين.
-    - **مناصب الوظيفة إلى المنصب الأساسي:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service إلى كيان **المنصب الأساسي** في Finance and Operations. انقله إلى الموضع 7 في التسلسل.
+    - **مناصب الوظيفة إلى المنصب الأساسي:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** Common Data Service إلى كيان **المنصب الأساسي** Finance and Operations. انقله إلى الموضع 7 في التسلسل.
 
         [![تعيين مناصب الوظيفة إلى المنصب الأساسي](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **مناصب الوظيفة إلى تفاصيل المنصب:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service إلى كيان **تفاصيل المنصب** في Finance and Operations. انقله إلى الموضع 8 في التسلسل.
+    - **مناصب الوظيفة إلى تفاصيل المنصب:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** Common Data Service إلى كيان **تفاصيل المنصب** Finance and Operations. انقله إلى الموضع 8 في التسلسل.
 
         [![تعيين مناصب الوظيفة إلى تفاصيل المناصب](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **مناصب الوظيفة إلى مدد المنصب‬:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service إلى كيان **مدد المنصب‬** في Finance and Operations.
+    - **مناصب الوظيفة إلى مدد المناصب:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** Common Data Service إلى كيان **مدد المناصب** Finance and Operations.
 
         [![تعيين مناصب الوظيفة إلى مدد المنصب‬](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **مناصب الوظيفة إلى التدرجات الهرمية للمناصب‬‬:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** إلى Common Data Service إلى كيان **التدرجات الهرمية للمناصب‬‬** في Finance and Operations. حدد **استعلام متقدم** لجعل الاستعلام المتقدم متوفرًا لمشروعك.
+    - **مناصب الوظيفة إلى التدرجات الهرمية للمناصب:** أضف تعيينًا جديدًا من كيان **مناصب الوظيفة** Common Data Service إلى كيان **التدرجات الهرمية للمناصب** Finance and Operations. حدد **استعلام متقدم** لجعل الاستعلام المتقدم متوفرًا لمشروعك.
 
        [![الزر "استعلام متقدم"](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ ms.locfileid: "2897662"
         [![الأمر "إضافة عمود شرطي"](./media/Add-column.png)](./media/Add-column.png)
 
     6. في مربع الحوار **إضافة عمود شرطي**، أدخل **HIERARCHYTYPENAME** كاسم للعمود الجديد.
-    7. في الجزء **If** من الشرط، حدد أي حقل، واستخدم **equal to** كالعلاقة، وأدخل أي قيمة. في الجزأين الآخرين ***Then‎** و**Otherwise** من الشرط، حدد ما يجب أن تكون القيمة الافتراضية. في هذه الحالة، أدخل **Line** في الجزأين.
+    7. في الجزء **If** من الشرط، حدد أي حقل، واستخدم **equal to** كالعلاقة، وأدخل أي قيمة. في الجزأين الآخرين **_إذن_* و **إلا** من الشرط، حدد ما يجب أن تكون القيمة الافتراضية. في هذه الحالة، أدخل **Line** في الجزأين.
 
         [![مربع الحوار "إضافة عمود شرطي"](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

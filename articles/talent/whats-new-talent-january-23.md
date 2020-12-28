@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f97462f088fc1a3cb94f2a34204fc09f1cd66fb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899118"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460158"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-23-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent - Core HR‏ (23 يناير 2019)
 
@@ -49,7 +49,7 @@ ms.locfileid: "2899118"
 عند تغيير الوظيفة في أحد المناصب، يتم تعيين قيم حقول الوظائف إلى المنصب بشكل افتراضي. سوف تظهر رسالة تنبيه توفر خيارًا يسمح بقبول القيم الافتراضية أو الاحتفاظ بالقيم الموجودة الخاصة بهذه الحقول.
 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>عدم ظهور فترة وضع الاختبار والتقويم للموظفين الذين سيتم تعيينهم في المستقبلي.
-مع هذا التغيير، تمت إضافة الحقلين **فترة الاختبار** و**التقويم** إلى صفحة **إدارة التغييرات** للسماح بإدخال البيانات للموظفين السابقين واللاحقين.
+مع هذا التغيير، تمت إضافة الحقلين **فترة الاختبار** و **التقويم** إلى صفحة **إدارة التغييرات** للسماح بإدخال البيانات للموظفين السابقين واللاحقين.
 
-### <a name="platform-update-23-for-finance-and-operations"></a>Platform update 23 لـ Finance and Operations
-تم تضمين إصلاحات أخطاء ثانوية كجزء من Platform update 23 لـ Finance and Operations. للحصول على مزيد من المعلومات، راجع [ما الجديد أو المتغير في Dynamics 365 Finance and Operations platform update 23 (يناير 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>تحديث النظام الأساسي 23 لـ Finance and Operations
+تم تضمين إصلاحات أخطاء ثانوية كجزء من تحديث النظام الأساسي 23 لـ Finance and Operations. للحصول على مزيد من المعلومات، راجع [ما الجديد أو المتغير في Dynamics 365 Finance and Operations platform update 23 (يناير 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

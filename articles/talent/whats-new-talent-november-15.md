@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 1a7598db1dc4c11864cf5f5a73d00672ceb66e8c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897455"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460204"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-november-15-2018"></a>ما الجديد أو المتغير في Dynamics 365 Talent - Core HR (15نوفمبر 2018)
 
@@ -52,5 +52,5 @@ ms.locfileid: "2897455"
 
 ## <a name="known-issue"></a>مشكلات معروفة​
 
-- **المشكلة**: عند إضافة مرفق جديد إلى عامل، يظهر الزران **جديد** و**تحرير** بلون رمادي. 
+- **المشكلة**: عند إضافة مرفق جديد إلى عامل، يظهر الزران **جديد** و **تحرير** بلون رمادي. 
 - **الحل البديل:** قبل فتح صفحة المرفق، تأكد من أن مربعات الحقائق في صفحة **العامل** مغلقة. إذا كانت مربعات الحقائق مغلقة عند تحميل صفحة **العامل**، سيتم تمكين زر المرفقات (سوف يتم إصلاح هذه المشكلة في التحديث التالي للنظام الأساسي.)

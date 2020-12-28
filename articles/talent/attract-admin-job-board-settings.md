@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 10b612711e81b2b368ed23fdd95ab6a66451f0ca
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833198"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460270"
 ---
 # <a name="enable-broadbean-integration-in-attract"></a>تمكين تكامل Broadbean في Attract
 
@@ -42,7 +42,7 @@ ms.locfileid: "2833198"
 
 2. حدد زر **الإعدادات** (رمز الترس) في الزاوية العلوية اليسرى من الصفحة، ثم حدد **مركز الإدارة**.
 
-3. اتصل بموقع Broadbean، وأدخل معلوماتك في حقول **اسم المستخدم** و**معرف العميل** و**رمز التشفير**.
+3. اتصل بموقع Broadbean، وأدخل معلوماتك في حقول **اسم المستخدم** و **معرف العميل** و **رمز التشفير**.
 
 4. حدد **حفظ**.
 

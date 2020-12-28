@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 0a4d4de6cf28e24d1265395d6440df85edf71a0d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897846"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460265"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (9 أبريل 2019)
 
@@ -89,4 +89,4 @@ ms.locfileid: "2897846"
 مع هذا التغيير، يتم الكشف عن التكرارات عند إدخال حقول الأسماء، وتعرض الحالة عدد التكرارات التي تم العثور عليها. يمكنك تحديد الارتباط المتوفر لفتح صفحة جديدة لتقييم ما إذا كان يجب استخدام المطابقة التي تم الكشف عنها. لتجنب مقاطعة إدخال البيانات، لا يفتح نموذج التكرارات بشكل تلقائي.
 
 ###  <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
-في إصدار Platform update 25 لـ Finance and Operations بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيل الإعلامات بواسطة حدث. 
+مع إصدار Platform update 25 لـ Finance and Operations، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث. 

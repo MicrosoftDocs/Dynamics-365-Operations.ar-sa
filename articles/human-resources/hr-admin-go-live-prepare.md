@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011399"
+ms.locfileid: "4417185"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>التحضير لعرض Human Resources المباشر
 
@@ -55,7 +55,7 @@ ms.locfileid: "4011399"
 
 يُعد الحدث الرئيسي الأساسي في كل مشروع تنفيذ هو المرحلية لبيئة التشغيل. 
 
-للمساعدة في التأكد من استخدام بيئة التشغيل للعمليات المباشرة، تقوم Microsoft بتوفير مثيل الإنتاج فقط عندما يقترب التطبيق من مرحلة **التشغيل** ، وذلك بعد إكمال الأنشطة المطلوبة في منهجية LCS. لمزيد من المعلومات حول البيئات الموجودة في الاشتراك، راجع  [دليل الترخيص Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
+للمساعدة في التأكد من استخدام بيئة التشغيل للعمليات المباشرة، تقوم Microsoft بتوفير مثيل الإنتاج فقط عندما يقترب التطبيق من مرحلة **التشغيل**، وذلك بعد إكمال الأنشطة المطلوبة في منهجية LCS. لمزيد من المعلومات حول البيئات الموجودة في الاشتراك، راجع  [دليل الترخيص Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
 يجب أن يقوم العملاء بإكمال المراحل **التحليل** و **التصميم والتطوير** و **الاختبار** في منهجية LCS قبل الزر **تكوين** لطلب أن تصبح بيئة الإنتاج متوفرة. لإكمال مرحلة في LCS، يجب أولاً إكمال كل خطوة مطلوبة في تلك المرحلة. عندما يتم إكمال كافة الخطوات الموجودة في إحدى المراحل، فإنه يمكنك إكمال المرحلة بأكملها. يمكنك دائمًا إعادة فتح مرحلة لاحقًا إذا كان يجب إجراء تغييرات. لمزيد من المعلومات، راجع [Lifecycle Services (LCS) لعملاء تطبيقات Finance and Operations ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 

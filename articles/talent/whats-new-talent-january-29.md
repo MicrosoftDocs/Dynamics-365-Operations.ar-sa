@@ -1,7 +1,7 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Talent‏ (31‏ يناير 2019)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/31/2019
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2019-01-29
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fbbecd4e0f205c2f09ec30548756ff1a43872644
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8e8c11e460a4678efea81f8d3d1eec96b673d329
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899095"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690042"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-31-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (31‏ يناير 2019)
 
@@ -34,7 +34,7 @@ ms.locfileid: "2899095"
 ## <a name="core-hr-changes"></a>التغييرات الرئيسية Core HR
 
 ### <a name="time-off-taken-on-leave-people-card-doesnt-consider-leave-plan-dates"></a>وقت الإجازة المأخوذ على بطاقة الأفراد لا يأخذ في الاعتبار تواريخ خطة الإجازة
-بالنسبة إلى أولئك الأشخاص الذين ليس لديهم أي خطط للإجازة على سنة التقويم، تعرض الآن بطاقة **مأخوذ** الإجازات المأخوذة في سنة الإجازة المحددة بواسطة خطة. على سبيل المثال، إذا كانت فترة سنة الإجازة في المؤسسة تمتد من 1 يونيو إلى 30 مايو، وأخذ أحد الموظفين إجازة لمدة ثلاثة أيام في شهر ديسمبر، فستعرض البطاقة **مأخوذ** ثلاثة أيام في 15 يناير. 
+بالنسبة إلى خطط الإجازة التي ليس لديها سنة تقويم، تعرض الآن بطاقة **مأخوذ** الإجازات المأخوذة في سنة الإجازة المحددة بواسطة خطة. على سبيل المثال، إذا كانت فترة سنة الإجازة في المؤسسة تمتد من 1 يونيو إلى 30 مايو، وأخذ أحد الموظفين إجازة لمدة 3 أيام في شهر ديسمبر، فستعرض البطاقة **مأخوذ** 3 أيام في 15 يناير. 
 
 ### <a name="accrual-amounts-not-matching-tier-date-basis"></a>مقادير الاستحقاق غير متطابقة مع أساس تاريخ المستوى
 تمت إضافة خيارات جديدة إلى الإجازة أو الغياب (معلمات **الموارد البشرية**) لتمكين العملاء من تحديد الوقت الذي يكون فيه تاريخ أشهر خدمة الموظف ساري المفعول. بالنسبة إلى بعض المؤسسات، التاريخ هو نهاية الشهر، وقد يكون بداية الشهر التالي بالنسبة إلى البعض الآخر. على سبيل المثال، قد تمنح إحدى المؤسسات إجازة يوم 31 ديسمبر، في حين أن مؤسسة أخرى قد تمنح إجازة يوم 1 يناير. سيسمح لك هذا الخيار بتحديد وقت منح هذه الإجازة. 

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832617"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460197"
 ---
 # <a name="track-candidate-sources-in-attract"></a>تعقب مصادر المرشحين في Attract
 
@@ -41,7 +41,7 @@ ms.locfileid: "2832617"
 
 ## <a name="pre-configured-sources"></a>المصادر المكوّنة مسبقًا
 
-تحتوي قائمة المصادر الافتراضية على مصادر استمارات التقديم الشائعة. تتضمن بعض أنواع المصادر، مثل **لوحة الوظائف** و**الشبكة الاجتماعية** تفاصيل مصادر إضافية. على سبيل المثال، تتضمن **الشبكة الاجتماعية** Facebook وTwitter. يسمح لك نوع المصدر**إحالة‬** بتحديد موظف داخلي كمحيل. تتضمن قائمة المصادر الافتراضية المصادر التالية المعرفة مسبقًا:
+تحتوي قائمة المصادر الافتراضية على مصادر استمارات التقديم الشائعة. تتضمن بعض أنواع المصادر، مثل **لوحة الوظائف** و **الشبكة الاجتماعية** تفاصيل مصادر إضافية. على سبيل المثال، تتضمن **الشبكة الاجتماعية** Facebook وTwitter. يسمح لك نوع المصدر **إحالة‬** بتحديد موظف داخلي كمحيل. تتضمن قائمة المصادر الافتراضية المصادر التالية المعرفة مسبقًا:
 
 -   موقع وظائف Attract
 

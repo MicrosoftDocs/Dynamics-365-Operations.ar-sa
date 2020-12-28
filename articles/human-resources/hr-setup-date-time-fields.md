@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be1e28d0b842184ce3c4f7bd9748f5e76ac67489
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 027e46d53fd9704f5483e90409be53c1510e8cd4
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430085"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529842"
 ---
 # <a name="understand-date-and-time-fields"></a>فهم حقول التاريخ والوقت
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 تعد حقول **التاريخ والوقت** مفهومًا أساسيًا في Dynamics 365 Human Resources. من الضروري فهم كيفية التعامل مع بيانات **التاريخ والوقت** في نماذج Dynamics 365 Human Resources، وCommon Data Service، والمصادر الخارجية.
 
@@ -45,7 +47,7 @@ ms.locfileid: "3430085"
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>فهم حقول التاريخ والوقت في قاعدة البيانات 
 
-عندما يقوم Human Resources بكتابة قيمة **التاريخ والوقت** في قاعدة البيانات، فإنه يُخزّن البيانات بالتوقيت العالمي UTC. ويسمح ذلك للمستخدمين برؤية أي بيانات في حقل**التاريخ والوقت** بالنسبة إلى المنطقة الزمنية المحددة في خيارات المستخدم الخاصة بهم.
+عندما يقوم Human Resources بكتابة قيمة **التاريخ والوقت** في قاعدة البيانات، فإنه يُخزّن البيانات بالتوقيت العالمي UTC. ويسمح ذلك للمستخدمين برؤية أي بيانات في حقل **التاريخ والوقت** بالنسبة إلى المنطقة الزمنية المحددة في خيارات المستخدم الخاصة بهم.
  
 في المثال المبين أعلاه، وقت البدء هو نقطة زمنية، وليس تاريخًا محددًا. بتغيير المنطقة الزمنية للمستخدم المسجل دخوله من GMT + 12:00 إلى GMT UTC، يعرض نفس السجل الذي تم إنشاؤه 04/30/2019 12:00:00 بدلا من 05/01/2019 12:00:00.
   

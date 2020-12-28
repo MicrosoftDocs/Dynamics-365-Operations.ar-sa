@@ -17,11 +17,11 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7f5e16897bb013157f9449266e1fa5c238fe49f6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175682"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407580"
 ---
 # <a name="zakat-reporting"></a>الإبلاغ عن الزكاة
 

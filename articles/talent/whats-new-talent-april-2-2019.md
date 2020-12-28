@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68dc73b7316a3ceb7129c9ea46bc60669ed2be95
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 04b5a006d4580fe419d81986a90851bc8d611722
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896902"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528209"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (2 أبريل 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
@@ -54,8 +56,8 @@ ms.locfileid: "2896902"
 ## <a name="changes-in-core-hr"></a>التغييرات في Core HR
 تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2216.
 
-### <a name="platform-update-25-for-finance-and-operations"></a>Platform update 25 لـ Finance and Operations
-للحصول على مزيد من المعلومات حول Platform update 25 لـ Finance and Operations، راجع [ميزات المعاينة في Dynamics 365 for Finance and Operations platform update 25 (أبريل 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>تحديث النظام الأساسي 25 لـ Finance and Operations
+للحصول على مزيد من المعلومات حول تحديث النظام الأساسي 25 لـ Finance and Operations، راجع [معاينة الميزات في تحديث النظام الأساسي 25 لـ Dynamics 365 for Finance and Operations (أبريل 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>أمان التعويض المتقدم (التعويض الثابت والمتغير)
 في الكثير من المؤسسات، قد يتوفر لدى مدراء التعويضات والمزايا حق الوصول إلى سجلات تعويض معينة فقط. هذه السجلات قد تتضمن سجلات مخصصة للمدراء التنفيذيين أو الموظفين الإقليميين. يسمح هذا التغيير لقسم الموارد البشرية بإدارة خطط التعويض لمجموعات مختلفة من الموظفين في المؤسسة والمحافظة عليها. يمكن تعيين أدوار أمان للخطط الثابتة والمتغيرة. وتحدد أدوار الأمان هذه حق الوصول إلى الخطط وبيانات الموظفين ذات الصلة، مثل السجلات الرواتب أو مكافآت، بحيث تتمكن هذه الأدوار فقط من معالجة التعويض لمجموعات الموظفين.
@@ -77,4 +79,4 @@ ms.locfileid: "2896902"
 مع هذا التغيير، يتم الكشف عن التكرارات عند إدخال حقول الأسماء، وتعرض الحالة عدد التكرارات التي تم العثور عليها. يمكنك تحديد الارتباط المتوفر لفتح صفحة جديدة لتقييم ما إذا كان يجب استخدام المطابقة التي تم الكشف عنها. لتجنب مقاطعة إدخال البيانات، لا يفتح نموذج التكرارات بشكل تلقائي.
 
 ###  <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
-في إصدار Platform update 25 لـ Finance and Operations بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيل الإعلامات بواسطة حدث. 
+مع إصدار Platform update 25 لـ Finance and Operations، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث. 

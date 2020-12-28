@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f67b4b4c20345297f186c792fe2766c686e2ddbf
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: 452a87cf5ba6c1ac73636584d75b2ec2ac555e02
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500495"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527755"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>تحسين الأداء من خلال جدولة وظائف دفعية بعد ساعات العمل
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="issue"></a>المشكلة
 
@@ -52,7 +54,7 @@ ms.locfileid: "3500495"
 
    ![تعيين التكرار](media/talent-batch-history-cleanup-recurrence.png)
 
-4. تحت **تعريف التكرار**، قم بتعيين **تاريخ البدء** و**وقت البدء** بحيث يقعان خلال ساعات التوقف عن العمل أو عطلة نهاية الأسبوع. حدد **بلا تاريخ انتهاء**. 
+4. تحت **تعريف التكرار**، قم بتعيين **تاريخ البدء** و **وقت البدء** بحيث يقعان خلال ساعات التوقف عن العمل أو عطلة نهاية الأسبوع. حدد **بلا تاريخ انتهاء**. 
 
    ![تعيين تاريخ بدء التكرار ووقته](media/talent-batch-history-cleanup-define-recurrence.png)
 

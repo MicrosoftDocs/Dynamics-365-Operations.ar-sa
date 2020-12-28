@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cbafea9063844dd3f19e5828ab37632e04591f18
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 53faf972759c8f770017fcd3a87920410988e626
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897870"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527161"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent (23 أبريل 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
@@ -77,4 +79,4 @@ ms.locfileid: "2897870"
 ## <a name="known-issues"></a>مشكلات معروفة
 
 ### <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
-في إصدار Platform update 26 لـ Finance and Operations بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيل الإعلامات بواسطة حدث.
+مع إصدار Platform update 26 لـ Finance and Operations، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث.

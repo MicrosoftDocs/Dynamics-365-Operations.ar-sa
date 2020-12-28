@@ -3,7 +3,7 @@ title: تكوين كيانات Common Data Service الظاهرية
 description: يوضح هذا الموضوع كيفيه تكوين الكيانات الظاهرية لـ Dynamics 365 Human Resources. إنشاء كيانات ظاهريه موجودة وتحديثها، وتحليل الكيانات التي تم إنشاؤها والمتاحة.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/05/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
-ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
+ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4058144"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645591"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>تكوين كيانات Common Data Service الظاهرية
 
-[!include [banner](includes/preview-feature.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common Data Service. وهو يوفر عمليات إنشاء وقراءه وتحديث وحذف (CRUD) كامله من Common Data Service وMicrosoft Power Platform لم يتم تخزين البيانات الخاصة بالكيانات الظاهرية في Common Data Service، ولكن في قاعده بيانات التطبيق. 
 
@@ -50,11 +50,23 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common D
 
 ## <a name="setup"></a>الإعداد
 
-اتبع خطوات الاعداد هذه لتمكين الكيانات الظاهرية في البيئة الخاصة بك. 
+اتبع خطوات الاعداد هذه لتمكين الكيانات الظاهرية في البيئة الخاصة بك.
+
+### <a name="enable-virtual-entities-in-human-resources"></a>تمكين الكيانات الظاهرية في Human Resources
+
+أولاً، يجب عليك تمكين الكيانات الظاهرية في مساحة عمل **إدارة الميزات**.
+
+1. في Human Resources، حدد **إدارة النظام**.
+
+2. حدد الإطار المتجانب **إدارة الميزات**.
+
+3. حدد **دعم الكيان الظاهري في HR/CDS**، ثم حدد **تمكين**.
+
+لمزيد من المعلومات حول تمكين الميزات وتعطيلها، راجع [إدارة الميزات](hr-admin-manage-features.md).
 
 ### <a name="register-the-app-in-microsoft-azure"></a>قم بتسجيل التطبيق في Microsoft Azure
 
-أولا، يجب تسجيل التطبيق في مدخل Azure حتى يتمكن النظام الأساسي لهويه Microsoft من توفير خدمات المصادقة والتخويل للتطبيق والمستخدمين. لمزيد من المعلومات حول تسجيل التطبيقات في Azure، راجع [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهويه Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+يجب عليك تسجيل مثيل Human Resources الخاص بك في مدخل Azure حتى يتمكن النظام الأساسي لهويه Microsoft من توفير خدمات المصادقة والتخويل للتطبيق والمستخدمين. لمزيد من المعلومات حول تسجيل التطبيقات في Azure، راجع [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهويه Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. افتح [مدخل Microsoft Azure](https://portal.azure.com).
 
@@ -62,9 +74,9 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common D
 
 3. حدد **تسجيل جديد**.
 
-4. في حقل **الاسم** ، أدخل اسمًا وصفيًا للتطبيق. علي سبيل المثال، **كيانات Dynamics 365 Human Resources الظاهرية**.
+4. في حقل **الاسم**، أدخل اسمًا وصفيًا للتطبيق. علي سبيل المثال، **كيانات Dynamics 365 Human Resources الظاهرية**.
 
-5. في الحقل **أعاده توجيه URI** ، ادخل URL الخاص بمساحة الاسم لمثيل الموارد البشرية.
+5. في الحقل **أعاده توجيه URI**، ادخل URL الخاص بمساحة الاسم لمثيل الموارد البشرية.
 
 6. حدد **السجل**.
 
@@ -87,13 +99,13 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common D
 
 1. افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).
 
-2. في قائمه **البيئات** ، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.
+2. في قائمه **البيئات**، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.
 
 3. في القسم **الموارد** في الصفحة، حدد **تطبيقات Dynamics 365**.
 
 4. حدد اجراء **تثبيت التطبيق**.
 
-5. حدد **Dynamics 365 HR Virtual Entity** ، ثم حدد **التالي**.
+5. حدد **Dynamics 365 HR Virtual Entity**، ثم حدد **التالي**.
 
 6. مراجعه ووضع علامة علي الموافقة علي شروط الخدمة.
 
@@ -109,28 +121,40 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common D
 
 1. افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).
 
-2. في قائمه **البيئات** ، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.
+2. في قائمه **البيئات**، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.
 
 3. حدد **عنوان URL للبيئة** في قسم **التفاصيل** من الصفحة.
 
-4. في **مركز حماية الحل** ، حدد الرمز **بحث متقدم** في الجزء العلوي الأيسر من صفحة التطبيق.
+4. في **مركز حماية الحل**، حدد الرمز **بحث متقدم** في الجزء العلوي الأيسر من صفحة التطبيق.
 
-5. في صفحه **بحث متقدم** ، وفي القائمة المنسدلة **البحث عن** ، حدد **تكوينات مصدر البيانات الظاهري Finance and Operations**.
+5. في صفحه **بحث متقدم**، وفي القائمة المنسدلة **البحث عن**، حدد **تكوينات مصدر البيانات الظاهري Finance and Operations**.
 
 6. حدد **النتائج**.
 
 7. حدد سجل **مصدر بيانات الموارد البشرية من Microsoft**.
 
-8. ادخل المعلومات المطلوبة لتكوين مصدر البيانات.
+8. أدخل المعلومات المطلوبة لتكوين مصدر البيانات:
 
-   - **URL الهدف** : عنوان URL لمساحة اسم الموارد البشرية الخاصة بك.
-   - **معرف المستاجر** : معرف المستاجر في Azure Active Directory ( Azure AD).
-   - **معرف تطبيق AAD** : معرف التطبيق (العميل) الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure. لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **سر تطبيق AAD** : سر التطبيق الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure. لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **URL الهدف**: عنوان URL لمساحة اسم الموارد البشرية الخاصة بك. تنسيق عنوان URL الهدف هو:
+     
+     https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/
 
-9. حدد **حفظ وإغلاق**.
+     على سبيل المثال:
+     
+     `https://aos.rts-sf-5ea54e35c68-westus2.hr.talent.dynamics.com/namespaces/49d24c565-8f4d-4891-b174-bf83d948ed0c/`
+
+     >[!NOTE]
+     >تأكد من تضمين الحرف "**/**" في نهاية عنوان URL لتجنب تلقي خطأ ما.
+
+   - **معرف المستاجر**: معرف المستاجر في Azure Active Directory ( Azure AD).
+
+   - **معرف تطبيق AAD**: معرف التطبيق (العميل) الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure. لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+
+   - **سر تطبيق AAD**: سر التطبيق الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure. لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    ![مصدر بيانات الموارد البشرية في Microsoft](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+
+9. حدد **حفظ وإغلاق**.
 
 ### <a name="grant-app-permissions-in-human-resources"></a>منح أذونات التطبيق في الموارد البشرية
 
@@ -143,14 +167,14 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common D
 
 2. حدد **جديد** لإنشاء سجل تطبيق جديد:
 
-    - في الحقل **معرف العميل** ، ادخل معرف العميل الخاص بالتطبيق الذي قمت بتسجيله في مدخل Microsoft Azure.
-    - في الحقل **معرف العميل** ، ادخل معرف العميل الخاص بالتطبيق الذي قمت بتسجيله في مدخل Microsoft Azure.
+    - في الحقل **معرف العميل**، ادخل معرف العميل الخاص بالتطبيق الذي قمت بتسجيله في مدخل Microsoft Azure.
+    - في الحقل **معرف العميل**، ادخل معرف العميل الخاص بالتطبيق الذي قمت بتسجيله في مدخل Microsoft Azure.
     - في الحقل **معرف المستخدم** ، حدد معرف المستخدم الخاص بمستخدم لديه أذونات المسؤول في الموارد البشرية وبيئة Power Apps.
 
 3. حدد **جديد** لإنشاء سجل تطبيق ثانٍ:
 
-    - **معرف العميل** : f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **الاسم** : Dynamics 365 HR Virtual Entity
+    - **معرف العميل**: f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **الاسم**: Dynamics 365 HR Virtual Entity
     - في الحقل **معرف المستخدم** ، حدد معرف المستخدم الخاص بمستخدم لديه أذونات المسؤول في الموارد البشرية وبيئة Power Apps.
 
 ## <a name="generate-virtual-entities"></a>إنشاء كيانات ظاهرية
@@ -162,7 +186,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common D
 2. حدد علامة التبويب **الكيانات الظاهرية**.
 
 > [!NOTE]
-> سيتم تعيين زر التبديل **تمكين الكيان الظاهري** إلى **نعم** تلقائيًا عندما تم إكمال كافة الإعدادات المطلوبة. إذا تم تعيين زر التبديل إلى **لا** ، فراجع الخطوات الموجودة في الأقسام السابقة من هذا المستند لضمان إكمال كافة إعدادات المتطلبات الأساسية.
+> سيتم تعيين زر التبديل **تمكين الكيان الظاهري** إلى **نعم** تلقائيًا عندما تم إكمال كافة الإعدادات المطلوبة. إذا تم تعيين زر التبديل إلى **لا**، فراجع الخطوات الموجودة في الأقسام السابقة من هذا المستند لضمان إكمال كافة إعدادات المتطلبات الأساسية.
 
 3. حدد الكيان أو الكيانات التي ترغب في إنشائها في Common Data Service.
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 06758ff5eb1c00ae299b1b8849fcabb0cd9593e8
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 40898ca7f54089337180def964b8942e8653663b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896625"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529470"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (8 أكتوبر 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 
@@ -93,7 +95,7 @@ ms.locfileid: "2896625"
 
 ### <a name="workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>WorkCalendarEntity وWorkCalendarDayEntity غير معروضين خلال OData (376329)
 
-في هذا الإصدار، يتوفر كل من **WorkCalendarEntity‎**و **WorkCalendarDayEntity‎** حاليًا من خلال بروتوكول البيانات المفتوحة (OData).
+في هذا الإصدار، يتوفر كل من **WorkCalendarEntity‎** و **WorkCalendarDayEntity‎** حاليًا من خلال بروتوكول البيانات المفتوحة (OData).
 
 ### <a name="hcmworkerentity-is-slow-when-odata-is-used-375221"></a>HCMWorkerEntity بطيء عند استخدام OData (375221)
 

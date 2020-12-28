@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833174"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460233"
 ---
 # <a name="set-up-linkedin-integration-with-attract"></a>إعداد تكامل LinkedIn مع Attract
 
@@ -84,7 +84,7 @@ ms.locfileid: "2833174"
 
 7. لإكمال الخطوات التالية، تحتاج إلى امتيازات المسؤول على عقد LinkedIn Recruiter.
 
-    1. سجل دخولك إلى LinkedIn باستخدام حساب المسؤول، ثم حدد **LinkedIn Recruiter**في الجزء العلوي الأيسر. 
+    1. سجل دخولك إلى LinkedIn باستخدام حساب المسؤول، ثم حدد **LinkedIn Recruiter** في الجزء العلوي الأيسر. 
     2. في قائمة **المزيد** في أعلى الشاشة، حدد **إعدادات المسؤول**، ثم حدد علامة التبويب **ATS**.
     3. لتمكين التصدير بنقرة واحدة لعقد واحد فقط، قم بتشغيل الخيار **الوصول على مستوي العقد (لكل مقعد على هذا العقد)**. لتمكينه للشركة بكاملها، قم بتشغيل الخيار **الوصول على مستوى الشركة‬‏‫ (لكل عقد في شركتك)**.
 

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.1.0, Talent
 ms.openlocfilehash: d818e9e04ce88e5ab285ef8176334809447fb477
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124786"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460261"
 ---
 # <a name="manage-features"></a>إدارة الميزات
 
@@ -44,7 +44,7 @@ ms.locfileid: "3124786"
 
 1. تسجيل الدخول إلى Microsoft Dynamics 365 Talent: Attract.
 2. في قائمة **الإعداد** (رمز الترس) في الزاوية العلوية اليسرى، حدد **مركز الإدارة**.
-3. في علامة التبويب **إدارة الميزات**، حدد الخيار بجانب **ميزات المعاينة** بحيث يتحول إلى الأزرق ويقول**تشغيل**.
+3. في علامة التبويب **إدارة الميزات**، حدد الخيار بجانب **ميزات المعاينة** بحيث يتحول إلى الأزرق ويقول **تشغيل**.
 
     ![تمكين ميزات المعاينة في Attract](./media/attract-enable-preview-features.png)
 

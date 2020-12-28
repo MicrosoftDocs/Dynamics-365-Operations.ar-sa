@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e67882c47ad37805c6f6ce8051fb58363c4bcdcf
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091981"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528307"
 ---
 # <a name="overview"></a>نظرة عامة
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يوفر دليل المطور هذا واجهة برمجة تطبيقات (API) ومرجع للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
 

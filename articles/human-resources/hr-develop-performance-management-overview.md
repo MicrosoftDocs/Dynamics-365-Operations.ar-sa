@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628443"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417120"
 ---
 # <a name="performance-management"></a>إدارة الأداء
 
@@ -154,7 +154,7 @@ ms.locfileid: "3628443"
 
 ### <a name="measurements"></a>القياسات
 
-من خلال صفحة القياسات يمكنك إنشاء القياسات القياسية التي سيتم استخدامها في الصفحتين **أهداف الأداء** و**المراجعات**. يمكنك إنشاء القياسات وهي عبارة عن التواريخ أو المبالغ أو الكميات أو النسب المئوية أو القياسات التي تستند إلى نظام تقييم.
+من خلال صفحة القياسات يمكنك إنشاء القياسات القياسية التي سيتم استخدامها في الصفحتين **أهداف الأداء** و **المراجعات**. يمكنك إنشاء القياسات وهي عبارة عن التواريخ أو المبالغ أو الكميات أو النسب المئوية أو القياسات التي تستند إلى نظام تقييم.
 
 ### <a name="performance-journal-source-types"></a>أنواع مصدر دفتر يومية الأداء
 

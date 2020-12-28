@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24799e304c27b57375640a5bf6a024a22b757bec
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: ddffff18e1d6d16bd5a5f7e7021f9a34651307fa
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3765015"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527448"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (3 سبتمبر 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3504. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم المرجع في  Lifecycle Services (LCS).
 
@@ -46,7 +48,7 @@ ms.locfileid: "3765015"
 
 ### <a name="benefitplanemployeeentity-issue-467597"></a>مشكلة BenefitPlanEmployeeEntity (467597)
 
-يعمل هذا الإصدار على تصحيح مشكلة في الكيان **BenefitsPlanEmployee**. عند استيراد تسجيلات العاملين، يتم الآن تعيين **كود التغطية** و **كود نوع الخطة** بشكل صحيح. تؤدي هذه المشكلة إلى عرض خطط مزايا الموظف بشكل غير صحيح في نموذج **خطة ميزات العامل**وفي نموذج **تسجيل مفتوح** في الخدمة الذاتية للموظف.
+يعمل هذا الإصدار على تصحيح مشكلة في الكيان **BenefitsPlanEmployee**. عند استيراد تسجيلات العاملين، يتم الآن تعيين **كود التغطية** و **كود نوع الخطة** بشكل صحيح. تؤدي هذه المشكلة إلى عرض خطط مزايا الموظف بشكل غير صحيح في نموذج **خطة ميزات العامل** وفي نموذج **تسجيل مفتوح** في الخدمة الذاتية للموظف.
 
 ### <a name="electronic-file-1094-c-output-missing-letter-in-xml-435190"></a>إخراج 1094-C للملف الإلكتروني يفتقد حرفًا بتنسيق XML (435190)
 

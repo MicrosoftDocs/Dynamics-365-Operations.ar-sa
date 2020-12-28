@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
-ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
+ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "3166488"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529996"
 ---
 # <a name="common-data-service-entities"></a>كيانات Common Data Service .
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 تستخدم Microsoft Dynamics 365 Human Resources خدمة Common Data Service لتمكين سيناريوهات ‏‫قابلية التوسعة والتكامل.
 
@@ -93,7 +95,7 @@ ms.locfileid: "3166488"
 | المسمى الوظيفي | cdm_title |
 
 > [!NOTE]
-> توفر الأبعاد المالية لـ **نوع المنصب **، و**تعيين عامل المنصب**، و**التوظيف** تكاملاً من اتجاه واحد لـ Common Data Service. في الوقت الحالي، لا يمكن مزامنة تحديثات الأبعاد المالية من Common Data Service إلى Human Resources. 
+> توفر الأبعاد المالية لـ **نوع المنصب**، و **تعيين عامل المنصب**، و **التوظيف** تكاملاً من اتجاه واحد لـ Common Data Service. في الوقت الحالي، لا يمكن مزامنة تحديثات الأبعاد المالية من Common Data Service إلى Human Resources. 
 
 ## <a name="leave-and-absence-entities"></a>كيانات الإجازة والغياب
 

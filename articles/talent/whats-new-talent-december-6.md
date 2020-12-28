@@ -18,21 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897685"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529152"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>ما الجديد أو المتغير في Dynamics 365 Talent - Core HR‏ (6 ديسمبر 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **الإصدار 8.1.2071**
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Core HR.
 
 
-## <a name="platform-update-22-for-finance-and-operations"></a>Platform update 22 لـ Finance and Operations
+## <a name="platform-update-22-for-finance-and-operations"></a>تحديث النظام الأساسي 22 لـ Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>تصدير ما يصل إلى مليون صف إلى Excel
 
@@ -40,7 +42,7 @@ ms.locfileid: "2897685"
 
 ### <a name="restyled-personalization-toolbar"></a>إعادة ترتيب شريط أدوات التخصيص
 
-أعيد ترتيب شريط أدوات التخصيص في Platform update 22 لمساعدة المستخدمين على إضفاء طابع شخصي على تجاربهم الخاصة في Finance and Operations بسهولة أكبر. تم إدخال التغييرات التالية: 
+أعيد ترتيب شريط أدوات التخصيص في تحديث النظام الأساسي 22 لـ Finance and Operations لمساعدة المستخدمين على إضفاء طابع شخصي على تجاربهم الخاصة في Talent بسهولة أكبر. تم إدخال التغييرات التالية: 
 
 -  يظهر الآن اسم كل أداة تخصيص مع أيقونة، مما يساعد المستخدمين في التعرف بسرعة على الأداة التي يريدون استخدامها.
 -  يظهر الآن أيضًا وصف يشير إلى كيفية استخدام الأداة الحالية، مما يساعد المستخدمين على فهم كيفية إجراء التخصيصات المطلوبة.  
@@ -48,13 +50,13 @@ ms.locfileid: "2897685"
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>تحسين تجربة التصفية "أحد مما يلي"
 
-يتوفر عامل التصفية "أحد مما يلي" لمعظم الحقول عند استخدام جزء عامل التصفية‬ والقوائم المنسدلة في رأس الشبكة. يسمح عامل التصفية هذا للمستخدم بتصفية حقل استنادًا إلى قيم متعددة. تتوفر تجربة جديدة ومحسنة لعامل التصفية "أحد مما يلي" في Platform update 22 لـ Finance and Operations. لمعرفة المزيد، رادع [تحسين تجربة التصفية "أحد مما يلي"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+يتوفر عامل التصفية "أحد مما يلي" لمعظم الحقول عند استخدام جزء عامل التصفية‬ والقوائم المنسدلة في رأس الشبكة. يسمح عامل التصفية هذا للمستخدم بتصفية حقل استنادًا إلى قيم متعددة. تتوفر تجربة جديدة ومحسنة لعامل التصفية "أحد مما يلي" في تحديث النظام الأساسي 22 لـ Finance and Operations. لمعرفة المزيد، رادع [تحسين تجربة التصفية "أحد مما يلي"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>لصق القوائم من Excel إلى حقول التصفية باستخدام عامل التصفية "أحد مما يلي"
 
 فيما يتعلق بتنفيذ بعض المهام، قد تتوفر لدى المستخدمين قائمة قيم في Excel يرغبون في استخدامها لتصفية البيانات في Talent. على سبيل المثال، من المحتمل أن يقوم أحد مستخدمي الموارد البشرية بتحديد مجموعة من الموظفين من تقرير يحتاجون إلى أبحاث إضافية في النظام، ويمكن اعتبار قدرة المستخدم على نسخ القائمة مباشرةً من Excel إلى حقل تصفية أمرًا مثاليًا.
 
-اعتبارًا من Platform update 22 لـ Finance and Operations يتعرف الآن عامل التصفية "أحد مما يلي" في جزء التصفية وتصفية عمود الشبكة على القوائم التي تم نسخها من Excel بحيث يمكن لصقها مباشرة في حقل عامل تصفية. وهذا يشمل مجموعة من القيم المنسوخة من صفوف وأعمدة مختلفة في Excel. لمزيد من المعلومات حول هذه الميزة، راجع [لصق القوائم من Excel إلى حقول التصفية باستخدام عامل التصفية "أحد مما يلي"‬](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+اعتبارًا من تحديث النظام الأساسي 22 لـ Finance and Operations، يتعرف الآن عامل التصفية "أحد مما يلي" في جزء التصفية وتصفية عمود الشبكة على القوائم التي تم نسخها من Excel بحيث يمكن لصقها مباشرة في حقل عامل تصفية. وهذا يشمل مجموعة من القيم المنسوخة من صفوف وأعمدة مختلفة في Excel. لمزيد من المعلومات حول هذه الميزة، راجع [لصق القوائم من Excel إلى حقول التصفية باستخدام عامل التصفية "أحد مما يلي"‬](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>قيد المعاينة
 
@@ -84,7 +86,7 @@ ms.locfileid: "2897685"
  
 ### <a name="attachments-buttons-not-available-for-workers"></a>عدم توفر أزرار المرفقات للعاملين
 
-تم إدخال تغييرات لتصحيح المرفقات. عند إضافة مرفق جديد إلى عامل، يتوفر الآن الزران **جديد** و**تحرير** عندما تكون مربعات الحقائق مفتوحة في نافذة العامل. 
+تم إدخال تغييرات لتصحيح المرفقات. عند إضافة مرفق جديد إلى عامل، يتوفر الآن الزران **جديد** و **تحرير** عندما تكون مربعات الحقائق مفتوحة في نافذة العامل. 
 
 ## <a name="known-issues"></a>مشكلات معروفة
 
@@ -133,7 +135,7 @@ ms.locfileid: "2897685"
 
 يجب أيضًا تحديث حقل النوع. حدد نوع التعيين **fn** (وظيفة) للنوع وحدّث تعيينات القيم التالية.
 
-| قيمة Common Data Service   | قيمة Finance and Operations | | ------------|------------------ -----------| | 75440000    | ذكر                         | | 75440001    | أنثى                       | | 75440002    | بلا                         | | 75440003    | غير محدد                  |
+| Common Data Service قيمة   | Finance and Operations قيمة | | ------------|------------------ -----------| | 75440000    | ذكر                         | | 75440001    | أنثى                       | | 75440002    | لا شيء                         | | 75440003    | غير محدد                  |
 
 يجب أن تبدو التعيينات المحدّثة مماثلة لما يلي.
 

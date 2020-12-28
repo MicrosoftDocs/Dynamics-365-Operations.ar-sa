@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9787df5f36c1f08ade40e3e8fc5d5189e3bd5b0
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711930"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528707"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>ما الجديد والمتغير في Dynamics 365 Human Resources (23 يونيو 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3347. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم LCS للحصول على مرجع.
 
 ## <a name="when-an-enrollment-is-expired-for-a-terminated-employee-the-leave-type-balance-and-amount-are-all-cleared-in-the-leave-enrollment-form-444867"></a>عند انتهاء صلاحية التسجيل لموظف تم إنهاؤه، يتم مسح نوع الإجازة والرصيد والمبلغ في نموذج ترك التسجيل (444867)
 
-يتم الآن الاحتفاظ بالقيم الموجودة في **نوع الإجازة** و**الرصيد** و**المبلغ** بدلا من المسح عند القيام بهذا التحديد.
+يتم الآن الاحتفاظ بالقيم الموجودة في **نوع الإجازة** و **الرصيد** و **المبلغ** بدلا من المسح عند القيام بهذا التحديد.
 
 ## <a name="incorrect-forecasted-balance-when-new-feature-leave-accrual-for-a-single-company-or-a-single-plan-is-enabled-456553"></a>الرصيد المتوقع غير صحيح عند تمكين ميزة جديدة (استحقاق المغادرة لشركة فردية أو خطة واحدة) (456553)
 

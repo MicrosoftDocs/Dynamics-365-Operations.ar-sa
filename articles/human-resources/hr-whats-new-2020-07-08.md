@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2f542195693e825391b85efc4a7e91fdfea3944
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711882"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528463"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>ما الجديد والمتغير في Dynamics 365 Human Resources (8 يوليو 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3382. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم LCS للحصول على مرجع.
 
@@ -59,7 +61,7 @@ ms.locfileid: "3711882"
  
 ## <a name="confusing-translations-in-czech-language-in-personnel-management-and-employee-self-service-400276"></a>الترجمات المحيرة في اللغة التشيكية لإدارة العاملين والخدمة الذاتية للموظف (400276)
 
-يصحح هذا الإصدار الترجمات **لدليل الشركة** و**الدورة التدريبية المسجلة التالية** و**الوظيفة** و**المنصب**.
+يصحح هذا الإصدار الترجمات **لدليل الشركة** و **الدورة التدريبية المسجلة التالية** و **الوظيفة** و **المنصب**.
  
 ## <a name="the-workcalendaremployment-table-doesnt-have-the-created-and-modified-system-fields-enabled-460171"></a>لا يحتوي الجدول WorkCalendarEmployment على حقول النظام المُمكَّنة التي تم إنشاؤها وتعديلها (460171)
 
@@ -80,7 +82,7 @@ ms.locfileid: "3711882"
 
 ## <a name="correct-compensation-level-doesnt-default-based-on-the-job-assigned-to-the-position-394136"></a>لا يعتمد مستوى التعويض الصحيح افتراضيًا على الوظيفة المعينة للمنصب (394136)
 
-وبهذا التغيير، تعتمد القيم الافتراضية لمستويات التعويضات الصحيحة على سجلات **تاريخ السريان** **لتفاصيل المنصب** و**تاريخ بدء** **تعيين خطة التعويض**.
+وبهذا التغيير، تعتمد القيم الافتراضية لمستويات التعويضات الصحيحة على سجلات **تاريخ السريان** **لتفاصيل المنصب** و **تاريخ بدء** **تعيين خطة التعويض**.
 
 ## <a name="in-preview"></a>قيد المعاينة
 

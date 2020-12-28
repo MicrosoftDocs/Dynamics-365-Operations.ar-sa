@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832781"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460164"
 ---
 # <a name="intelligent-recommendations-in-attract"></a>التوصيات الذكية في Attract
 
@@ -33,7 +33,7 @@ ms.locfileid: "2832781"
 
 > [!NOTE] 
 > - تتوفر ميزة التوصيات الذكية فقط مع [المكون الإضافي "التوظيف الشامل"](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - تتوفر الوظيفة المذكورة في هذا الموضوع كجزء من إصدار مراجعة المعاينة. المحتوى والوظيفة عرضة للتغيير. لاستخدام هذه الميزة، اطلب من مسؤول تمكينها باستخدام **مركز الإدارة** في Attract. عيّن **توصيات المرشحين** و**توصيات الوظائف**، و **توصيات الموظفين المحتملين** إلى **تشغيل**. للحصول على مزيد من المعلومات، راجع [الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
+> - تتوفر الوظيفة المذكورة في هذا الموضوع كجزء من إصدار مراجعة المعاينة. المحتوى والوظيفة عرضة للتغيير. لاستخدام هذه الميزة، اطلب من مسؤول تمكينها باستخدام **مركز الإدارة** في Attract. عيّن **توصيات المرشحين** و **توصيات الوظائف**، و **توصيات الموظفين المحتملين** إلى **تشغيل**. للحصول على مزيد من المعلومات، راجع [الوصول إلى ميزات المعاينة في Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>توصيات المرشحين

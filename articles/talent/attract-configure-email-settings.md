@@ -20,11 +20,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: e641e3f0d1873d91be1a1dc9bc22eb734a2b21d5
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124717"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460180"
 ---
 # <a name="configure-email-settings-in-attract"></a>تكوين إعدادات البريد الإلكتروني في Attract
 
@@ -34,7 +34,7 @@ ms.locfileid: "3124717"
 
 يتيح لك تطبيق Attract تنفيذ الإجراءات التالية:
 
-- تكوين إعدادات البريد الإلكتروني بحيث يتم استخدام حساب خدمة البريد الإلكتروني الخاص بـ Microsoft Exchange. بهذه الطريقة، يعرف المرشحون أن رسائل البريد الإلكتروني قادمة من شركتك. على سبيل المثال، يمكنك تكوين الإعدادات بحيث يتلقى المرشحون رسائل بريد إلكتروني من `recruiting@contoso.com` بدلا من `contoso@microsoft.com`.
+- تكوين إعدادات البريد الإلكتروني بحيث يتم استخدام حساب خدمة البريد الإلكتروني لـ Microsoft Exchange الخاص بالشركة. بهذه الطريقة، يعرف المرشحون أن رسائل البريد الإلكتروني قادمة من شركتك. على سبيل المثال، يمكنك تكوين الإعدادات بحيث يتلقى المرشحون رسائل بريد إلكتروني من `recruiting@contoso.com` بدلا من `contoso@microsoft.com`.
 - قم بإنشاء علامة تجارية متسقة لجميع مراسلات البريد الإلكتروني الخاصة بك بتعيين الرأس والتذييل العموميين لقوالب البريد الإلكتروني. 
 
 > [!NOTE]

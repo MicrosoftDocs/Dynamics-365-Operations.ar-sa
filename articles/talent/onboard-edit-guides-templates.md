@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460227"
 ---
 # <a name="edit-onboarding-guides-and-templates"></a>تحرير أدلة وقوالب الإعداد
 
@@ -123,7 +123,7 @@ ms.locfileid: "2897110"
 4. أضافه محتوى غني إلى دليل الإعداد:
 
     - لإضافة مقطع فيديو YouTube، اسحب عنصر **YouTube** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، ثم أدخل عنوان URL لفيديو YouTube.
-    - لإضافة رسالة إخبارية أو عرض تقديمي من Sway، اسحب عنصر**Sway** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL المضمن للرسالة الإخبارية أو العرض التقديمي من Sway.
+    - لإضافة رسالة إخبارية أو عرض تقديمي من Sway، اسحب عنصر **Sway** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL المضمن للرسالة الإخبارية أو العرض التقديمي من Sway.
     - لإضافة تطبيق Microsoft Power Apps، اسحب عنصر **Power Apps** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وحدد تطبيق Power Apps أو أدخل مُعرف تطبيق Power Apps.
     - لإضافة مقطع فيديو Microsoft Stream، اسحب عنصر **Microsoft Stream** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، ثم أدخل عنوان URL لفيديو Microsoft Stream.
     - لإضافة نموذج Microsoft Forms، اسحب عنصر **Microsoft Forms** إلى منطقة التحرير، وأدخل اسمًا ووصفًا للنشاط، وأدخل عنوان URL لنموذج Microsoft Forms، وحدد حجم منطقة الشاشة.

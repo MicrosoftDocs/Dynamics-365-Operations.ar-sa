@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897570"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528659"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>ما الجديد والمتغير في Dynamics 365 Talent (11 يونيو 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Talent.
 
@@ -54,9 +56,9 @@ ms.locfileid: "2897570"
 
 تنطبق التغييرات التي ورد وصفها في هذا القسم على الإصدار رقم 8.1.2337.
 
-### <a name="platform-update-27-for-finance-and-operations"></a>Platform update 27 لـ Finance and Operations
+### <a name="platform-update-27-for-finance-and-operations"></a>تحديث النظام الأساسي 27 لـ Finance and Operations
 
-للحصول على مزيد من التفاصيل حول Platform update 27 لـ Finance and Operations راجع [ميزات المعاينة في Dynamics 365 Finance and Operations platform update 27 (يونيو 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+للحصول على مزيد من التفاصيل حول تحديث النظام الأساسي 27 لـ Finance and Operations، راجع [ميزات المعاينة في تحديث النظام الأساسي 27 لـ Dynamics 365 Finance and Operations (يونيو 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>مساحة عمل إدارة الميزات في Talent
 

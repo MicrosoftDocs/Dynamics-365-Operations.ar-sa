@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f872b0907e0f48e0b734c87f0b8fb1a4cfe20cb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896671"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460157"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-1-2018"></a>ما الجديد أو المتغير في Dynamics 365 Talent: Core HR‏ (1 أكتوبر 2018)
 
@@ -55,4 +55,4 @@ ms.locfileid: "2896671"
 
 ## <a name="known-issue"></a>مشكلات معروفة​
 
--   **مشكلة:** عند إضافة مرفق جديد لعامل، تتحول الأزرار **جديد** و **تحرير** إلى اللون الرمادي. **حل بديل:** قبل فتح صفحة المرفق، تأكد أن FactBoxes في صفحة **العامل** مغلق. إذا تم إغلاق FactBoxes عندما يتم تحميل صفحة**العامل**، سوف يتم تمكين أزرار **المرفقات** . (سوف يتم إصلاح هذه المشكلة في التحديث التالي للنظام الأساسي.)
+-   **مشكلة:** عند إضافة مرفق جديد لعامل، تتحول الأزرار **جديد** و **تحرير** إلى اللون الرمادي. **حل بديل:** قبل فتح صفحة المرفق، تأكد أن FactBoxes في صفحة **العامل** مغلق. إذا تم إغلاق FactBoxes عندما يتم تحميل صفحة **العامل**، سوف يتم تمكين أزرار **المرفقات** . (سوف يتم إصلاح هذه المشكلة في التحديث التالي للنظام الأساسي.)

@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
 ms.openlocfilehash: ff5d21a8a71b068a276bedaf6e4b9964adcb4027
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896740"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460249"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-10-2018"></a>ما الجديد أو المتغير في Dynamics 365 Talent - Core HR(10 سبتمبر 2018)
 
@@ -89,12 +89,12 @@ ms.locfileid: "2896740"
 
 ## <a name="navigation-to-attract-from-personnel-management"></a>الانتقال إلى Attract من إدارة الموظفين
 
-في إدارة الموظفين، إذا لم يتم إعداد Attract، فمن ثم يوجه قسم**المرشحون المُراد توظيفهم** البدء باستخدام Attract بدلًا من عرض الرسالة "لم يتم العثور على أي شئ لعرضه هنا."
+في إدارة الموظفين، إذا لم يتم إعداد Attract، فمن ثم يوجه قسم **المرشحون المُراد توظيفهم** البدء باستخدام Attract بدلًا من عرض الرسالة "لم يتم العثور على أي شئ لعرضه هنا."
 
 ## <a name="other-changes"></a>التغييرات الأخرى
 
 يشمل هذا الإصدار عددًا من إصلاحات الأخطاء الإضافية:
 
-- عند توظيف مقاول، يجب ألا تتوافر علامة تبويب**التعويض** على صفحة الطلب/الإجراء.
+- عند توظيف مقاول، يجب ألا تتوافر علامة تبويب **التعويض** على صفحة الطلب/الإجراء.
 - أثناء عملية إنهاء لطلب، لا يمكنك المتابعة حتى تحتوي كافة الحقول المطلوبة على بيانات.
 - تمت معالجة مشاكل ترتيب الفرز وعرض التاريخ في تحليلات إدارة الموظفين.

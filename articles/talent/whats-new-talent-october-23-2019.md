@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 27cb4a7c125cb2b330dff083c8ed0c1ee89c0e7e
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006254"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527993"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>ما الجديد أو المتغير في Dynamics 365 Talent‏ (23 أكتوبر 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Talent.
 
@@ -57,7 +59,7 @@ ms.locfileid: "3006254"
 
 ### <a name="new-relationship-types-should-be-added-to-relationship-lookup-in-the-personal-contacts-form-347691"></a>يجب إضافة أنواع علاقات جديدة إلى البحث في العلاقة في نموذج جهات الاتصال الشخصية (347691)
 
-يتضمن هذا الإصدار قدرات جديدة لإضافة أنواع علاقات جديدة في جدول **أنواع العلاقات**وتطبيق هذه التغييرات في بحث العلاقة عن جهات الاتصال الشخصية.
+يتضمن هذا الإصدار قدرات جديدة لإضافة أنواع علاقات جديدة في جدول **أنواع العلاقات** وتطبيق هذه التغييرات في بحث العلاقة عن جهات الاتصال الشخصية.
 
 ### <a name="additional-list-values-in-custom-fields-arent-reflected-in-common-data-service-379599"></a>لا تنعكس قيم القائمة الإضافية في الحقول المخصصة في Common Data Service (379599)
 
