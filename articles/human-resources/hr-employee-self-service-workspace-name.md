@@ -1,0 +1,47 @@
+---
+title: تغيير اسم مساحة عمل الخدمة الذاتية للموظف
+description: يوضح هذا الموضوع كيفية تغيير اسم عرض مساحة عمل الخدمة الذاتية للموظف في Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 07/09/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: EssWorkspace
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-07-09
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 2ce008c44ba84c919f4538be4d8e4ff95be018e7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417181"
+---
+# <a name="change-employee-self-service-workspace-name"></a><span data-ttu-id="a17b6-103">تغيير اسم مساحة عمل الخدمة الذاتية للموظف</span><span class="sxs-lookup"><span data-stu-id="a17b6-103">Change Employee self service workspace name</span></span>
+
+<span data-ttu-id="a17b6-104">في حالة وجود متطوعين أو آخرين من غير الموظفين، قد ترغب في تغيير اسم مساحة عمل **الخدمة الذاتية للموظف**.</span><span class="sxs-lookup"><span data-stu-id="a17b6-104">If you have volunteers or other non-employees, you might want to change the name of the **Employee self-service** workspace.</span></span> <span data-ttu-id="a17b6-105">يمكنك تغيير مساحة العمل هذه إلى **خدمه ذاتية** بدلاً من ذلك.</span><span class="sxs-lookup"><span data-stu-id="a17b6-105">You can change this workspace to **Self service** instead.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a17b6-106">يؤدي تغيير اسم مساحة عمل **الخدمة الذاتية للموظف** أيضًا إلى تغيير عنصر القائمة المُستخدم داخليا بواسطة Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="a17b6-106">Changing the name of the **Employee self-service** workspace also changes the menu item that is used internally by Dynamics 365 Human Resources.</span></span> <span data-ttu-id="a17b6-107">في حالة تطبيق تخصيصات الأمان مسبقًا على عنصر قائمة **HcmEmployeeSelfServiceWorkspace**، يستحسن تطبيق نفس التغييرات على **HcmSelfServiceWorkspace** للحفاظ على التماثل.</span><span class="sxs-lookup"><span data-stu-id="a17b6-107">If you previously applied security customizations to the **HcmEmployeeSelfServiceWorkspace** menu item, we recommend applying the same changes to **HcmSelfServiceWorkspace** to maintain parity.</span></span>
+
+1. <span data-ttu-id="a17b6-108">في الموارد البشرية، حدد **إدارة العاملين**، وحدد **الارتباطات**، ثم حدد **معلمات الموارد البشرية**.</span><span class="sxs-lookup"><span data-stu-id="a17b6-108">In Human Resources, select **Personnel management**, select **Links**, and then select **Human resources parameters**.</span></span>
+
+2. <span data-ttu-id="a17b6-109">حدد علامة التبويب **الخدمة الذاتية للموظف**.</span><span class="sxs-lookup"><span data-stu-id="a17b6-109">Select the **Employee self-service** tab.</span></span>
+
+3. <span data-ttu-id="a17b6-110">ضمن **اسم العرض**، حدد **الخدمة الذاتية**.</span><span class="sxs-lookup"><span data-stu-id="a17b6-110">Under **Display name**, select **Self service**.</span></span>
+
+   ![تغيير اسم مساحة عمل الخدمة الذاتية للموظف إلى الخدمة الذاتية](./media/hr-employee-self-service-workspace-name.png)
+
+4. <span data-ttu-id="a17b6-112">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="a17b6-112">Select **Save**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="a17b6-113">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="a17b6-113">Additional resources</span></span>
+
+- [<span data-ttu-id="a17b6-114">نظرة عامة على إعداد الخدمة الذاتية للموظف والمدير</span><span class="sxs-lookup"><span data-stu-id="a17b6-114">Employee and Manager self-service overview</span></span>](hr-employee-manager-self-service-overview.md)

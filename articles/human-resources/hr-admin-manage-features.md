@@ -1,0 +1,96 @@
+---
+title: إدارة الميزات
+description: التعرف على كيفية تشغيل الميزات الجديدة أو إيقاف تشغيلها في Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: FeatureManagementWorkspace
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417149"
+---
+# <a name="manage-features"></a><span data-ttu-id="ec214-103">إدارة الميزات</span><span class="sxs-lookup"><span data-stu-id="ec214-103">Manage features</span></span>
+
+<span data-ttu-id="ec214-104">كجزء من عملية النشر المستمر لإمكانات جديدة لـ Microsoft Dynamics 365 Human Resources، نحن نريد السماح للعملاء بتجربة الميزات الجديدة في أقرب وقت ممكن.</span><span class="sxs-lookup"><span data-stu-id="ec214-104">As part of our continuous rollout of new capabilities for Microsoft Dynamics 365 Human Resources, we want to let customers experience new features as soon as possible.</span></span> <span data-ttu-id="ec214-105">نوفر ميزات المعاينة، والتي تكون جاهزة تقريبًا للتوفر العام وقد خضعت للاختبارات الشاملة.</span><span class="sxs-lookup"><span data-stu-id="ec214-105">We provide preview features, which are almost ready for general availability and have gone through extensive testing.</span></span> <span data-ttu-id="ec214-106">ونحن فقط نبحث عن جولة نهائية من ملاحظات العملاء والتحقق من الصحة قبل أن نقوم بشكل عام بتحرير الميزات.</span><span class="sxs-lookup"><span data-stu-id="ec214-106">We're just looking for a final round of customer feedback and validation before we release them for general availability.</span></span>
+
+<span data-ttu-id="ec214-107">لمزيد من المعلومات حول الميزات الجديدة في Human Resources، راجع [ما الجديد في Human Resources](hr-admin-whats-new.md) و[Dynamics 365 وخطة إصدار Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).</span><span class="sxs-lookup"><span data-stu-id="ec214-107">For more information about new features in Human Resources, see [What's new in Human Resources](hr-admin-whats-new.md) and [Dynamics 365 and Power Platform Release Plan](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).</span></span>
+
+<span data-ttu-id="ec214-108">توفر مساحة عمل **إدارة الميزات** قائمة بالميزات التي يتم تسليمها في كل إصدار.</span><span class="sxs-lookup"><span data-stu-id="ec214-108">The **Feature management** workspace provides a list of features delivered in each release.</span></span> <span data-ttu-id="ec214-109">بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل.</span><span class="sxs-lookup"><span data-stu-id="ec214-109">By default, new features are turned off.</span></span> <span data-ttu-id="ec214-110">ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها.</span><span class="sxs-lookup"><span data-stu-id="ec214-110">You can use the workspace to turn them on and view the documentation for them.</span></span> <span data-ttu-id="ec214-111">لمزيد من المعلومات حول إدارة الميزات، راجع [نظرة عامة على إدارة الميزات](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).</span><span class="sxs-lookup"><span data-stu-id="ec214-111">For more information about Feature management, see [Feature management overview](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).</span></span>
+
+<span data-ttu-id="ec214-112">تبقي كافة الميزات الجديدة في معاينه لمده 30 يوما علي الأقل ، وبشكل نموذجي 30-60 يوما.</span><span class="sxs-lookup"><span data-stu-id="ec214-112">All new features remain in preview for at least 30 days, and typically 30-60 days.</span></span> <span data-ttu-id="ec214-113">تتوفر الميزات الرئيسية بشكل عام في أكتوبر و ابريل من كل عام يتبع فتره المعاينة.</span><span class="sxs-lookup"><span data-stu-id="ec214-113">Major features are generally available in October and April of each year following the preview period.</span></span> <span data-ttu-id="ec214-114">بمجرد أن تشاهد إمكانيات جديده في مساحة عمل **إدارة الميزات**، يمكنك تشغيلها.</span><span class="sxs-lookup"><span data-stu-id="ec214-114">As soon as you see new capabilities in the **Feature management** workspace, you can turn them on.</span></span> <span data-ttu-id="ec214-115">قد تكون بعض الميزات قيد التشغيل بشكل افتراضي.</span><span class="sxs-lookup"><span data-stu-id="ec214-115">Some features may be on by default.</span></span>
+
+<span data-ttu-id="ec214-116">وبمجرد توفر إحدى الميزات بصفه عامه ، قد يتم تشغيلها أو إيقاف تشغيلها في بيئات الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="ec214-116">Once a feature is generally available, it may be turned on or off in production environments.</span></span> <span data-ttu-id="ec214-117">وتشير مساحة عمل **إدارة الميزات** إلى أن ميزه المعاينة ستصبح إلزاميه.</span><span class="sxs-lookup"><span data-stu-id="ec214-117">The **Feature management** workspace indicates when a preview feature will become mandatory.</span></span> <span data-ttu-id="ec214-118">وعاده ما يكون هذا التاريخ في يوم 1 أكتوبر أو 1 إبريل لكي تتم محاذاته مع خطط الإصدار نصف السنوية.</span><span class="sxs-lookup"><span data-stu-id="ec214-118">This date is usually on October 1 or April 1 to align with the semiannual release plans.</span></span> <span data-ttu-id="ec214-119">لا يمكنك إيقاف تشغيل الميزات الإلزامية.</span><span class="sxs-lookup"><span data-stu-id="ec214-119">You can't turn off mandatory features.</span></span> <span data-ttu-id="ec214-120">وحتى تصبح إلزاميا، يمكنك تشغيل أحدي الميزات وإيقاف تشغيلها في كافة البيئات.</span><span class="sxs-lookup"><span data-stu-id="ec214-120">Until it becomes mandatory, you can turn a feature on and off in all environments.</span></span>
+
+## <a name="enable-or-disable-preview-features"></a><span data-ttu-id="ec214-121">تمكين أو تعطيل ميزات المعاينة</span><span class="sxs-lookup"><span data-stu-id="ec214-121">Enable or disable preview features</span></span>
+
+<span data-ttu-id="ec214-122">للوصول إلى ميزات المعاينة، يجب عليك أولاً تمكينها في البيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="ec214-122">To access preview features, you must first enable them in your environment.</span></span> <span data-ttu-id="ec214-123">تمكين أو تعطيل ميزات المعاينة يكون خاصًا بالبيئة.</span><span class="sxs-lookup"><span data-stu-id="ec214-123">Enabling or disabling preview features is environment-specific.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="ec214-124">ستتوافر ميزات المعاينة في بيئات **الاختبار المعزولة** فقط.</span><span class="sxs-lookup"><span data-stu-id="ec214-124">Preview features are only available in **Sandbox** environments.</span></span> <span data-ttu-id="ec214-125">عند قيامك بتشغيل ميزة معاينة، تقوم بتمكينها لجميع المستخدمين في مؤسستك الموجودين في هذه البيئة.</span><span class="sxs-lookup"><span data-stu-id="ec214-125">When you turn on a preview feature, you enable it for all users in your organization who are in that environment.</span></span> <span data-ttu-id="ec214-126">عند إيقاف تشغيل ميزة المعاينة، يمكنك تعطيلها وجعلها غير قابلة للوصول إلى المستخدمين.</span><span class="sxs-lookup"><span data-stu-id="ec214-126">When you turn off the preview feature, you disable it and make it inaccessible to your users.</span></span> <span data-ttu-id="ec214-127">يكون دعم ميزات المعاينة محدودًا في Human Resources.</span><span class="sxs-lookup"><span data-stu-id="ec214-127">Preview features have limited support in Human Resources.</span></span> <span data-ttu-id="ec214-128">كما أنها تستخدم القليل من إجراءات الخصوصية والأمان، ولا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لبرنامج Human Resources.</span><span class="sxs-lookup"><span data-stu-id="ec214-128">They might use fewer privacy and security measures, and they aren't included in the Human Resources service level agreement (SLA).</span></span> <span data-ttu-id="ec214-129">يجب عدم استخدام ميزات المعاينة لمعالجة البيانات الشخصية (بمعنى، أية معلومات يمكن من خلالها التعرف عليك)، أو لمعالجة البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية.</span><span class="sxs-lookup"><span data-stu-id="ec214-129">You should not use preview features to process personal data (that is, any information that could identify you), or to process other data that is subject to legal or regulatory compliance requirements.</span></span>
+
+1. <span data-ttu-id="ec214-130">في Human Resources، حدد **إدارة النظام**.</span><span class="sxs-lookup"><span data-stu-id="ec214-130">In Human Resources, select **System administration**.</span></span>
+
+2. <span data-ttu-id="ec214-131">حدد الإطار المتجانب **إدارة الميزات**.</span><span class="sxs-lookup"><span data-stu-id="ec214-131">Select the **Feature management** tile.</span></span>
+
+3. <span data-ttu-id="ec214-132">لتمكين ميزة معاينة، حددها من القائمة، ثم حدد **تمكين**.</span><span class="sxs-lookup"><span data-stu-id="ec214-132">To enable a preview feature, select it from the list, and then select **Enable**.</span></span> <span data-ttu-id="ec214-133">لتعطيل ميزة معاينة، حددها من القائمة، ثم حدد **تعطيل**.</span><span class="sxs-lookup"><span data-stu-id="ec214-133">To disable a preview feature, select it from the list, and then select **Disable**.</span></span>
+
+## <a name="enable-or-disable-benefits-management"></a><span data-ttu-id="ec214-134">تمكين إدارة المزايا أو تعطيلها</span><span class="sxs-lookup"><span data-stu-id="ec214-134">Enable or disable Benefits management</span></span>
+
+<span data-ttu-id="ec214-135">لتمكين إدارة الميزات، استخدم الإجراء نفسه في [تمكين أو تعطيل ميزات المعاينة‬](hr-admin-manage-features.md?enable-or-disable-preview-features).</span><span class="sxs-lookup"><span data-stu-id="ec214-135">To enable Benefits management, use the same procedure in [Enable or disable preview features](hr-admin-manage-features.md?enable-or-disable-preview-features).</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="ec214-136">لا يمكنك تعطيل إدارة المزايا في بيئة **الإنتاج** بعد تمكينها.</span><span class="sxs-lookup"><span data-stu-id="ec214-136">You can't disable Benefits management in a **Production** environment after you enable it.</span></span> <span data-ttu-id="ec214-137">ومع ذلك، يمكنك تعطيل إدارة المزايا في **بيئة الاختبار المعزولة**.</span><span class="sxs-lookup"><span data-stu-id="ec214-137">You can disable Benefits management in **Sandbox** environments, however.</span></span>
+
+<span data-ttu-id="ec214-138">لمزيد من المعلومات حول تكوين إدارة الميزات واستخدامها، راجع [نظرة عامة على إدارة المزايا](hr-benefits-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="ec214-138">For more information about Benefits management configuration and use, see [Benefits management overview](hr-benefits-management-overview.md).</span></span>
+
+<span data-ttu-id="ec214-139">تستبدل إدارة المزايا الوظيفة في مساحة عمل **المزايا**.</span><span class="sxs-lookup"><span data-stu-id="ec214-139">Benefits management replaces functionality in the **Benefits** workspace.</span></span> <span data-ttu-id="ec214-140">عند تمكين ميزة مُعاينة إدارة المزايا، فلن تعد قادرًا على الوصول إلى النماذج التالية في مساحة عمل **المزايا**.</span><span class="sxs-lookup"><span data-stu-id="ec214-140">When you enable the Benefits management preview feature, you can no longer access the following forms in the **Benefits** workspace:</span></span>
+
+- <span data-ttu-id="ec214-141">**المزايا**</span><span class="sxs-lookup"><span data-stu-id="ec214-141">**Benefits**</span></span>
+- <span data-ttu-id="ec214-142">**عناصر المزايا**</span><span class="sxs-lookup"><span data-stu-id="ec214-142">**Benefit elements**</span></span>
+- <span data-ttu-id="ec214-143">**نسب حساب المساهمة**</span><span class="sxs-lookup"><span data-stu-id="ec214-143">**Contribution calculation rates**</span></span>
+- <span data-ttu-id="ec214-144">**نتائج تسجيل الميزات**</span><span class="sxs-lookup"><span data-stu-id="ec214-144">**Benefit enrollment results**</span></span>
+- <span data-ttu-id="ec214-145">**نتائج التمديد أو انتهاء صلاحية الميزات**</span><span class="sxs-lookup"><span data-stu-id="ec214-145">**Benefit expiration and extension results**</span></span>
+- <span data-ttu-id="ec214-146">**أنواع قواعد سياسات استحقاق المزايا**</span><span class="sxs-lookup"><span data-stu-id="ec214-146">**Benefit eligibility policy rule types**</span></span>
+- <span data-ttu-id="ec214-147">**سياسات استحقاق المزايا**</span><span class="sxs-lookup"><span data-stu-id="ec214-147">**Benefit eligibility policies**</span></span>
+- <span data-ttu-id="ec214-148">**أحداث الاستحقاق**</span><span class="sxs-lookup"><span data-stu-id="ec214-148">**Eligibility events**</span></span>
+
+<span data-ttu-id="ec214-149">يُمكنك عرض المعلومات الموجودة في هذه النماذج في وضع القراءة فقط.</span><span class="sxs-lookup"><span data-stu-id="ec214-149">You can view the information in these forms in read-only mode.</span></span> <span data-ttu-id="ec214-150">إذا كنت ترغب في تحرير المعلومات، فيجب أولاً تعطيل إدارة المزايا (ينطبق ذلك على **بيئات الاختبار المعزولة** فقط).</span><span class="sxs-lookup"><span data-stu-id="ec214-150">If you want to edit the information, you must first disable Benefits management (applicable to **Sandbox** environments only).</span></span>
+
+## <a name="enable-or-disable-leave-and-absence"></a><span data-ttu-id="ec214-151">تمكين أو تعطيل الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="ec214-151">Enable or disable Leave and absence</span></span>
+
+<span data-ttu-id="ec214-152">لتمكين الإجازة والغياب، استخدم الإجراء نفسه في [تمكين أو تعطيل ميزات المعاينة‬](hr-admin-manage-features.md?enable-or-disable-preview-features).</span><span class="sxs-lookup"><span data-stu-id="ec214-152">To enable Leave and absence, use the same procedure in [Enable or disable preview features](hr-admin-manage-features.md?enable-or-disable-preview-features).</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="ec214-153">لا يمكنك تعطيل ميزة **أنواع الإجازات المتعددة** في الإجازة والغياب بعد تمكينها.</span><span class="sxs-lookup"><span data-stu-id="ec214-153">You can’t disable the **Multiple leave types** feature in Leave and absence after you enable it.</span></span> <span data-ttu-id="ec214-154">ينطبق هذا الأمر على **بيئات الاختبار المعزولة** وعلى بيئات **الإنتاج**.</span><span class="sxs-lookup"><span data-stu-id="ec214-154">This applies to both **Sandbox** and **Production** environments.</span></span>
+
+<span data-ttu-id="ec214-155">لمزيد من المعلومات حول ميزات المعاينة في الإجازة والغياب، راجع [ميزات مُعاينة الإجازة والغياب‬](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).</span><span class="sxs-lookup"><span data-stu-id="ec214-155">For more information about preview features in Leave and absence, see [Leave and absence preview features](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).</span></span>
+
+## <a name="send-us-feedback"></a><span data-ttu-id="ec214-156">أرسل إلينا تعليقاتك</span><span class="sxs-lookup"><span data-stu-id="ec214-156">Send us feedback</span></span>
+
+<span data-ttu-id="ec214-157">نريد أن نسمع منك عن تجربتك مع ميزات المعاينة.</span><span class="sxs-lookup"><span data-stu-id="ec214-157">We want to hear from you about your experience with preview features.</span></span> <span data-ttu-id="ec214-158">ونحن نشجعك على نشر الملاحظات الخاصة بك بشكل منتظم على المواقع التالية أثناء استخدامك لهذه الميزات أو أية ميزات أخرى:</span><span class="sxs-lookup"><span data-stu-id="ec214-158">We encourage you to regularly post your feedback on the following sites as you use these or any other features:</span></span>
+
+- <span data-ttu-id="ec214-159">[المجتمع](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) -يعد هذا الموقع مصدرا رائعًا حيث يمكن للمستخدمين مناقشة حالات الاستخدام، وطرح الأسئلة، والحصول على تعليمات من المجتمع.</span><span class="sxs-lookup"><span data-stu-id="ec214-159">[Community](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) – This site is a great resource where users can discuss use cases, ask questions, and get community help.</span></span>
+- <span data-ttu-id="ec214-160">أخبرنا عن الميزات التي ترغب في رؤيتها في المنتج، أو أخبرنا عن أي تغييرات تعتقد أننا يجب أن نجريها على الميزات الحالية.</span><span class="sxs-lookup"><span data-stu-id="ec214-160">Let us know about features that you want to see in the product, or let us know about any changes you think we should make to existing features.</span></span> <span data-ttu-id="ec214-161">اقترح أفكارًا حول المنتجات على [أفكار Human Resources](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources).</span><span class="sxs-lookup"><span data-stu-id="ec214-161">Suggest product ideas on [Human Resources ideas](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources).</span></span>
+    
+<span data-ttu-id="ec214-162">رجاءً لا تقم بتضمين البيانات الشخصية (أي معلومات يمكن التعرف منه عليك) في تقديمات مراجعة الملاحظات أو المنتج.</span><span class="sxs-lookup"><span data-stu-id="ec214-162">Please don't include personal data (any information that could identify you) in your feedback or product review submissions.</span></span> <span data-ttu-id="ec214-163">قد يتم تحليل المعلومات التي تم تجميعها بشكل أكبر، ولا يتم استخدامها للرد على الطلبات بموجب قوانين الخصوصية القابلة للتطبيق.</span><span class="sxs-lookup"><span data-stu-id="ec214-163">Collected information might be analyzed further and isn't used to answer requests under applicable privacy laws.</span></span> <span data-ttu-id="ec214-164">البيانات الشخصية التي يتم تجميعها بشكل منفصل عن هذه البرامج تخضع لـ [بيان خصوصية Microsoft ](https://privacy.microsoft.com/privacystatement).</span><span class="sxs-lookup"><span data-stu-id="ec214-164">Personal data that is collected separately under these programs is subject to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="ec214-165">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="ec214-165">See also</span></span>
+
+- [<span data-ttu-id="ec214-166">ما الجديد في Human Resources</span><span class="sxs-lookup"><span data-stu-id="ec214-166">What's new in Human Resources</span></span>](hr-admin-whats-new.md)
+- [<span data-ttu-id="ec214-167">خطة إصدار Dynamics 365 و Power Platform</span><span class="sxs-lookup"><span data-stu-id="ec214-167">Dynamics 365 and Power Platform Release Plan</span></span>](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
