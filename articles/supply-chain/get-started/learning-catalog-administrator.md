@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b0c8a265971c4a3f0b83ac1d6404b7d4aa82660
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: ba93bdcb64237af627c5a6d5adb834583f08f768
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793793"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516609"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>كتالوج التعلم لمسؤولي Dynamics 365 Supply Chain Management
 
@@ -46,7 +46,7 @@ ms.locfileid: "3793793"
 | [إدارة مشروع تنفيذ لـ Finance and Operations](https://docs.microsoft.com/learn/paths/implement-finance-operations/) | تعرف على أهم العناصر وأفضل الممارسات لإدارة مشروع تنفيذ Finance and Operations بنجاح. من الخطوة الأولى التي تقوم فيها بتخطيط وتصميم منهجية المشروع الخاصة بك، استخدم خدمات FastTrack واستراتيجية التطوير وإدارة البيانات وغيرها، لتحظى بأفضل الطرق لصيانة العمليات ومراقبتها بعد الانتقال للعرض المباشر. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 11.5 ساعات |
 | [الصفحة الرئيسية لإدارة النظام](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | يُشير هذا الموضوع إلى المحتوى الخاص بمسؤولي النظام لـ Microsoft Dynamics 365 for Finance and Operations. سوف يساعدك هذا المحتوى على تكوين النظام بحيث يعمل بطريقة سلسة وفعالة لمؤسستك. | الوثائق | |
 | [Finance and Operations: الإعداد لاستخدام Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | يوفر FastTrack خدمة إعداد لكل مشروع من مشاريع Dynamics 365 for Finance and Operations. في هذا الحديث التقني، سوف نشرح عملية الإعداد ونستعرض محتوى جلسة الإعداد معك، ونكشف لك عن كيفية جعل عملية الإعداد أكثر فعالية وملائمة في المستقبل القريب؟. تُعد هذه الجلسة وثيقة الصلة بكل شخص يعمل مع العملاء في المراحل المبكرة لمشروع، ما بين مرحلة إنهاء موضوع الترخيص وبدء مشروع التنفيذ. | التسجيل المجاني لمؤتمر ويب | 62 دقائق |
-| [النشر المحلي (بيانات الأعمال المحلية) (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | الرجاء الانضمام لهذا الحديث التقني للحصول على نظرة عامة بخصوص خيار النشر المحلي لـ Dynamics 365 for Finance and Operations، enterprise Edition. في هذه الجلسة، سوف نستعرض هندسة الحل الخاص بالنشر المحلي وأوجه ALM ومتطلبات النظام وكيفية توفير مشروع Life Cycle Services. | التسجيل المجاني لمؤتمر ويب | 48 دقائق |
+| [النشر المحلي (بيانات الأعمال المحلية) (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | الرجاء الانضمام لهذا الحديث التقني للحصول على نظرة عامة بخصوص خيار النشر المحلي لـ Dynamics 365 for Finance and Operations، Enterprise Edition. في هذه الجلسة، سوف نستعرض هندسة الحل الخاص بالنشر المحلي وأوجه ALM ومتطلبات النظام وكيفية توفير مشروع Life Cycle Services. | التسجيل المجاني لمؤتمر ويب | 48 دقائق |
 | [نسخ إلى الكيان القانوني (DYN383PAL)](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | في هذه الجلسة، سوف نناقش الميزة الجديدة في إطار عمل إدارة البيانات والنسخ إلى كيان قانوني. سوف نستعرض أولًا بإيجاز الميزات الجديدة المُضافة إلى إطار عمل إدارة البيانات والنظام الأساسي 8 لمساحة العمل والقوالب ومشاريع البيانات، ثم ننتقل إلى مناقشة الوظيفة الإضافة المضافة للنسخ إلى كيان قانوني. | التسجيل المجاني لمؤتمر ويب | 54 دقيقة |
 
 ## <a name="core-development"></a>التطوير الأساسي<a name="core-development"></a>

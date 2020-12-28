@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817296"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517222"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>إعداد صفحات مخصصه لعمليات تسجيل دخول المستخدمين
 
@@ -50,7 +50,7 @@ ms.locfileid: "3817296"
 لتكوين سياسة "تسجيل الاشتراك وتسجيل الدخول"، اتبع الخطوات التالية.
 
 1. حدد **تدفق مستخدم جديد**، ثم في علامة التبويب **الموصي به** ، حدد سياسة **تسجيل الاشتراك وتسجيل الدخول** .
-1. أدخل اسمًا للسياسة (على سبيل المثال، **B2C\_1\_1**تسجيل الاشتراك وتسجيل الدخول).
+1. أدخل اسمًا للسياسة (على سبيل المثال، **B2C\_1\_1** تسجيل الاشتراك وتسجيل الدخول).
 1. في المقطع **موفري الهوية** ، حدد موفرو الهوية المراد استخدامهم للسياسة. يجب تحديد على الأقل **تسجيل الاشتراك بالبريد الإلكتروني** .
 1. في العمود **سمة التجميع** ، حدد خانات الاختيار لـ **عنوان البريد الكتروني**،و **الاسم المحدد**، و **اللقب**.
 1. في العمود **إرجاع مطالبة** ، حدد خانات الاختيار لـ **عناوين البريد الإلكتروني**، و **الاسم المحدد**، و **موفر الهوية**، و **اللقب**، و **معرف الكائن الخاص بالمستخدم**.
@@ -197,11 +197,11 @@ ms.locfileid: "3817296"
 
 [تكوين اسم مجالك](configure-your-domain-name.md)
 
-[نشر موقع تجارة إلكترونية جديد](deploy-ecommerce-site.md)
+[نشر مستأجر التجارة الإلكترونية الجديد](deploy-ecommerce-site.md)
 
 [إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
 
-[إقران موقع عبر الإنترنت بقناة](associate-site-online-store.md)
+[إقران موقع Dynamics 365 Commerce بقناة عبر الإنترنت](associate-site-online-store.md)
 
 [إدارة ملفات robots.txt](manage-robots-txt-files.md)
 

@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 80d52fa59f2f0e31595aefd7e18956f14e2c29a8
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: 73662929f116ce6128c57a71037298f208c3c16b
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793119"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516659"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>كتالوج التعلّم لمدراء مشاريع التنفيذ الذين يستخدمون Dynamics 365 Supply Chain Management
 
@@ -47,7 +47,7 @@ ms.locfileid: "3793119"
 | [ترحيل البيانات والانتقال للعرض المباشر باستخدام تطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/migrate-data-go-live-finance-operations/) | بصفتك مستشارًا وظيفيًا، يجب عليك فهم كيفية إعداد بيانات عميلك للترحيل والعمل باستخدام إدارة البيانات وتنفيذ اختبارات قبول المستخدم للانتقال للعرض المباشر باستخدام تطبيقات Finance and Operations. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 4 ساعات |
 | [تكوين التحليلات والتقارير والعمل بها في تطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/configure-analytics-reporting-finance-operations/) | يُمكن لقادة الأعمال اتخاذ قرارات هامة في شركتهم إذا كانت لديهم رؤية دقيقة وواضحة بالبيانات المالية والتشغيلية الأساسية. يمكن أيضًا لمستخدم الأعمال تكوين واستخدام أداة إعداد تقارير إلكترونية بدون سطر واحد من التعليمات البرمجية، لتبني المتطلبات التنظيمية الجديدة وإنشاء مستندات الأعمال بالتنسيق المطلوب لتبادل المعلومات إلكترونيًا مع الهيئات الحكومية والبنوك والجهات الأخرى. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 4 ساعات |
 | [Finance and Operations: الإعداد لاستخدام Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | يوفر FastTrack خدمة إعداد لكل مشروع من مشاريع Dynamics 365 for Finance and Operations. في هذا الحديث التقني، سوف نشرح عملية الإعداد ونستعرض محتوى جلسة الإعداد معك، ونكشف لك عن كيفية جعل عملية الإعداد أكثر فعالية وملائمة في المستقبل القريب؟. تُعد هذه الجلسة وثيقة الصلة بكل شخص يعمل مع العملاء في المراحل المبكرة لمشروع، ما بين مرحلة إنهاء موضوع الترخيص وبدء مشروع التنفيذ. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 62 دقائق |
-| [النشر المحلي (بيانات الأعمال المحلية) (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | الرجاء الانضمام لهذا الحديث التقني للحصول على نظرة عامة بخصوص خيار النشر المحلي لـ Dynamics 365 for Finance and Operations، enterprise Edition. في هذه الجلسة، سوف نستعرض هندسة الحل الخاص بالنشر المحلي وأوجه ALM ومتطلبات النظام وكيفية توفير مشروع Life Cycle Services. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 48 دقائق |
+| [النشر المحلي (بيانات الأعمال المحلية) (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | الرجاء الانضمام لهذا الحديث التقني للحصول على نظرة عامة بخصوص خيار النشر المحلي لـ Dynamics 365 for Finance and Operations، Enterprise Edition. في هذه الجلسة، سوف نستعرض هندسة الحل الخاص بالنشر المحلي وأوجه ALM ومتطلبات النظام وكيفية توفير مشروع Life Cycle Services. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 48 دقائق |
 | [تخطيط العرض المباشر (DYN458PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/go-live-planning-8-9-18) | سوف نناقش عملية العرض المباشر بالتفصيل والوضع الأمثل للإعداد لها من أجل جعلها سلسلة بقدر المستطاع للعميل والشريك و Microsoft. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 60 دقائق |
 | [تخطيط بيئة (DYN450PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/environment-planning-may-23-2018) | الرجاء الانضمام إلينا في هذا الحديث التقني المتعلق بتخطيط البيئة. تعرف على البيئات القياسية وما هي البيئات الأخرى التي قد تحتاجها وخيارات وتوقيت الحصول عليها ونشرها، والكود المتوقع وتدفق البيانات بين البيئات. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 53 دقيقة |
 | [Finance and Operations: إدارة الميزات (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | الحديث التقني المتعلق بتجربة إدارة الميزات. يوفر مساحة عمل يُمكن من خلال عرض الميزات التي تم تسليمها في كل إصدار وكيفية تمكينها وتعطيلها وجدولتها. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها. سوف يُساعدك حضور هذا الاجتماع لمعرفة ما تم تسليمه في 10.0.3 وخططنا للإصدارات المستقبلية. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 47 دقائق |
