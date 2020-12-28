@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7233b23020e6c82f39981d530095642902461807
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818388"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4410053"
 ---
 # <a name="shipping-address-module"></a>الوحدة النمطية لعنوان الشحن
 
@@ -59,7 +59,7 @@ ms.locfileid: "3818388"
 
 [الوحدة النمطية لعربة التسوق](add-cart-module.md)
 
-[وحدة أيقونة عربة التسوق](cart-icon-module.md)
+[الوحدة النمطية لرمز عربة التسوق](cart-icon-module.md)
 
 [الوحدة النمطية للسداد مع الخروج](add-checkout-module.md)
 
@@ -67,6 +67,8 @@ ms.locfileid: "3818388"
 
 [الوحدة النمطية لخيارات التسليم](delivery-options-module.md)
 
-[وحدة تفاصيل الأوامر](order-confirmation-module.md)
+[وحده معلومات الانتقاء](pickup-info-module.md)
 
-[وحدة بطاقة الهدايا](add-giftcard.md)
+[الوحدة النمطية لتفاصيل الأوامر](order-confirmation-module.md)
+
+[الوحدة النمطية لبطاقة الهدايا](add-giftcard.md)

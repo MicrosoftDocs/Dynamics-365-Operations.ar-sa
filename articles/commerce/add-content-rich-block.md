@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817368"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409827"
 ---
 # <a name="text-block-module"></a>وحدة كتلة النص‏‎
 
@@ -55,7 +55,7 @@ ms.locfileid: "3817368"
 |-------------------|--------------------------------------------------|-------------|
 | نص منسق         | نص منسق                                        | نص الفقرة. يتم دعم بعض إمكانيات النص المنسق الأساسية، مثل النص الغامق والمُسطر والمائل. |
 | اسم فئة مخصصة | اسم فئة أوراق الأنماط المتتالية (CSS)        | اسم فئة CSS مخصصة CSS يوفرها المطور لتنسيق هذه الوحدة. يجب تعريف اسم الفئة في حزمة النسق. |
-| حجم الخط         | **صغير**أو **متوسط** أو **كبير** أو **كبير‏‎ جدًا** | حجم خط المحتوى. |
+| حجم الخط         | **صغير** أو **متوسط** أو **كبير** أو **كبير‏‎ جدًا** | حجم خط المحتوى. |
 
 ## <a name="add-a-text-block-module-to-a-page"></a>إضافة وحدة كتلة نص إلى صفحة
 

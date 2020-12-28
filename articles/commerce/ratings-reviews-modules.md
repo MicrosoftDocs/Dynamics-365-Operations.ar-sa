@@ -18,11 +18,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
 ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817720"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409993"
 ---
 # <a name="ratings-and-reviews-modules"></a>وحدات التقييمات والمراجعات
 
@@ -77,7 +77,7 @@ ms.locfileid: "3817720"
 
 | اسم الخاصية              | القيمة | وصف الخاصية |
 |----------------------------|-------| ---------------------|
-| تظهر المراجعات في كل صفحة | 10    | عدد المراجعات التي يجب أن تظهر في وقت واحد على PDP. يتم تضمين الزرين**التالي** و **السابق** ، بحيث يمكن للمستخدمين التنقل من خلال صفحات الاستعراضات. |
+| تظهر المراجعات في كل صفحة | 10    | عدد المراجعات التي يجب أن تظهر في وقت واحد على PDP. يتم تضمين الزرين **التالي** و **السابق** ، بحيث يمكن للمستخدمين التنقل من خلال صفحات الاستعراضات. |
 
 #### <a name="ratings-histogram--summary-view"></a>المدرج التكراري للتقييمات -عرض ملخص
 
