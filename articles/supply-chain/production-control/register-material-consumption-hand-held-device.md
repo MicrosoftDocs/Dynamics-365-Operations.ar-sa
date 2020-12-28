@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211251"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421649"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>تسجيل استهلاك المواد باستخدام جهاز محمول
 
@@ -68,7 +68,7 @@ ms.locfileid: "3211251"
 
 بعد بدء أمر الإنتاج، يمكنك تسجيل استهلاك المواد مع سير العمل للجهاز المحمول باليد. لنبدأ بتسجيل استهلاك 25 رطلاً من الدُفعة B1.
 
-6.  حدد عنصر القائمة **تسجيل استهلاك** **المواد** في قائمة الجهاز المحمول باليد، وأدخل التفاصيل التالية: 
+6.  حدد عنصر القائمة  **تسجيل استهلاك** **المواد** في قائمة الجهاز المحمول باليد، وأدخل التفاصيل التالية: 
 
 -    رقم أمر الإنتاج. 
 -    الموقع حيث سيتم استهلاك المواد، في هذه الحالة PIL-01. 

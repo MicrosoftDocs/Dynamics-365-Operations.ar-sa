@@ -20,11 +20,11 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9caea2d41e6d3ba74e4d156d8aeae6c4693ce7e2
-ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3813848"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421510"
 ---
 # <a name="cost-management-home-page"></a>الصفحة الرئيسية لإدارة التكلفة
 
@@ -42,7 +42,7 @@ ms.locfileid: "3813848"
 
 على سبيل المثال، يمكنك تحديد أي من أساليب تقييم المخزون، مثل [FIFO](fifo-physical-value-marking.md)، أو [المتوسط المرجح‬](weighted-average-physical-value-marking.md)، أو [التكلفة القياسية‬](prerequisites-standard-costs.md)، أو [المتوسط المتحرك‬](moving-average.md) الذي تريد تطبيقه على المنتجات في [مجموعة نماذج الصنف‬](../inventory/reserve-inventory-quantities.md) في محاسبة المخزون.
 
-يمكنك الوصول إلى محاسبة المخزون ومحاسبة التصنيع من مساحتي العمل **إدارة التكلفة** و**تحليل التكلفة**. توفر مساحات العمل هذه نظرة عامة شاملة حول الحالة الحالية ومؤشرات الأداء الرئيسية (KPI) ز الكشف عن الانحرافات. 
+يمكنك الوصول إلى محاسبة المخزون ومحاسبة التصنيع من مساحتي العمل **إدارة التكلفة** و **تحليل التكلفة**. توفر مساحات العمل هذه نظرة عامة شاملة حول الحالة الحالية ومؤشرات الأداء الرئيسية (KPI) ز الكشف عن الانحرافات. 
 
 تسمح لك محاسبة التصنيع بالتعامل مع [تحديد تكلفة أمر الشغل](production-order-cost-analysis.md) في أوامر الإنتاج والأوامر الدفعية، بالإضافة إلى [تحديد تكاليف الإصدار التلقائي](backflush-costing.md) في Lean Manufacturing.
 
