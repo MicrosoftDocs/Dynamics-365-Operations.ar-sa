@@ -1,0 +1,54 @@
+---
+title: إعداد سياسات للتدرج الهرمي لفئات التدبير
+description: استخدم هذا الإجراء لإعداد قواعد طلب المنتجات الموجودة في إحدى الفئات.
+author: mkirknel
+manager: tfehr
+ms.date: 07/22/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d113181b5c78c0f35292b5f14cedd12bacdc7364
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421307"
+---
+# <a name="set-up-policies-for-procurement-category-hierarchies"></a><span data-ttu-id="3cce0-103">إعداد سياسات للتدرج الهرمي لفئات التدبير</span><span class="sxs-lookup"><span data-stu-id="3cce0-103">Set up policies for procurement category hierarchies</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="3cce0-104">استخدم هذا الإجراء لإعداد قواعد طلب المنتجات الموجودة في إحدى الفئات.</span><span class="sxs-lookup"><span data-stu-id="3cce0-104">Use this procedure to set up rules for ordering products in a category.</span></span> <span data-ttu-id="3cce0-105">تم تحديد القواعد لسياسة شراء معينة.</span><span class="sxs-lookup"><span data-stu-id="3cce0-105">The rules are defined for a specific purchasing policy.</span></span> <span data-ttu-id="3cce0-106">تحدد قاعدة الوصول إلى الفئة فئات التدبير التي يستطيع الموظفون الوصول إليها عندما يقومون بإنشاء طلب.</span><span class="sxs-lookup"><span data-stu-id="3cce0-106">The category access rule controls which procurement categories employees have access to when they create a requisition.</span></span> <span data-ttu-id="3cce0-107">عند إنشاء طلب، تتحدد سياسة الشراء وقاعدة الوصول إلى الفئة التي يجب تطبيقها استنادًا إلى الكيان القانوني والوحدة التشغيلية التي ينتمي الموظف إليها.</span><span class="sxs-lookup"><span data-stu-id="3cce0-107">When a requisition is being created, the purchasing policy and category access rule that should be applied are determined by the legal entity and the operational unit that the employee belongs to.</span></span> <span data-ttu-id="3cce0-108">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="3cce0-108">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="3cce0-109">يقوم مدير المشتريات عادةً بتنفيذ هذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="3cce0-109">This task would typically be carried out by a purchasing manager.</span></span>
+
+
+## <a name="find-the-procurement-policy"></a><span data-ttu-id="3cce0-110">البحث عن سياسة التدبير</span><span class="sxs-lookup"><span data-stu-id="3cce0-110">Find the procurement policy</span></span>
+1. <span data-ttu-id="3cce0-111">في جزء التنقل ، انتقل إلى **الوحدات النمطية > التدبير والتوريد‬ > الإعداد > السياسات > سياسات الشراء**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-111">In the Navigation pane, go to **Modules > Procurement and sourcing > Setup > Policies > Purchasing policies**.</span></span>
+2. <span data-ttu-id="3cce0-112">انقر فوق الارتباط الموجود في سياسة "USMF لسياسة التدبير".</span><span class="sxs-lookup"><span data-stu-id="3cce0-112">Click the link on the 'Procurement Policy USMF' policy.</span></span> <span data-ttu-id="3cce0-113">هذه هي السياسة التي ستضيف قاعدة إليها.</span><span class="sxs-lookup"><span data-stu-id="3cce0-113">This is the policy that you'll add a rule to.</span></span> <span data-ttu-id="3cce0-114">يجب أن تكون سياسة نشطة.</span><span class="sxs-lookup"><span data-stu-id="3cce0-114">It must be an Active policy.</span></span>  
+
+## <a name="create-a-category-access-rule"></a><span data-ttu-id="3cce0-115">إنشاء قاعدة وصول إلى الفئة</span><span class="sxs-lookup"><span data-stu-id="3cce0-115">Create a category access rule</span></span>
+1. <span data-ttu-id="3cce0-116">وسّع علامة التبويب السريعة **قواعد السياسة**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-116">Expand the **Policy rules** fastTab.</span></span>
+2. <span data-ttu-id="3cce0-117">في القائمة **نوع قاعدة السياسة**، حدد **قاعدة سياسة الوصول إلى الفئة‬**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-117">In the **Policy rule type** list, select the **Category access policy rule**.</span></span> <span data-ttu-id="3cce0-118">إذا كان الزر **إنشاء قاعدة السياسة** خافتًا، فيعود سبب ذلك إلى وجود قاعدة سياسة نشطة للوصول إلى الفئة.</span><span class="sxs-lookup"><span data-stu-id="3cce0-118">If the **Create policy rule** button is dimmed, it's because there's already an active policy rule for Category access.</span></span> <span data-ttu-id="3cce0-119">تحقق من حقلي **تاريخ السريان** و **تاريخ انتهاء الصلاحية** لتحديد السياسة النشطة، ثم حددها، وانقر فوق **إيقاف قاعدة السياسة‬**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-119">Check the **Effective** and **Expiration** fields to determine which it is, then select it, and click **Retire policy rule**.</span></span> <span data-ttu-id="3cce0-120">إذا توفر الزر **إنشاء قاعدة السياسة**، فلا يلزم القيام بأي شيء.</span><span class="sxs-lookup"><span data-stu-id="3cce0-120">If the **Create policy rule** button is available, you don't need to do anything.</span></span>  
+3. <span data-ttu-id="3cce0-121">انقر فوق **إنشاء قاعدة السياسة**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-121">Click **Create policy rule**.</span></span>
+4. <span data-ttu-id="3cce0-122">في الحقل **تاريخ السريان**، أدخل تاريخًا ووقتًا.</span><span class="sxs-lookup"><span data-stu-id="3cce0-122">In the **Effective date** field, enter a date and time.</span></span> <span data-ttu-id="3cce0-123">يجب أن لا يتداخل الوقت مع قاعدة أخرى نشطة بالفعل.</span><span class="sxs-lookup"><span data-stu-id="3cce0-123">The time must not overlap with another rule that's already active.</span></span>  
+5. <span data-ttu-id="3cce0-124">حدد فئة ستنطبق القاعدة عليها.</span><span class="sxs-lookup"><span data-stu-id="3cce0-124">Select a category that the rule will apply to.</span></span> <span data-ttu-id="3cce0-125">قم بتدوين هذه الفئة – ستحتاجها فيما بعد.</span><span class="sxs-lookup"><span data-stu-id="3cce0-125">Make a note of which category this is – you'll need it later.</span></span> <span data-ttu-id="3cce0-126">وعند تحديد فئة، تتم أيضًا إضافة الفئة (الفئات) الأصلية الخاصة بها إلى قائمة "الفئات المحددة".</span><span class="sxs-lookup"><span data-stu-id="3cce0-126">When you select a category, its parent category or categories will also be added to the Selected categories list.</span></span> <span data-ttu-id="3cce0-127">إذا أردت تطبيق القاعدة على كافة الفئات الفرعية للفئة المحددة، فحدد خانة الاختيار **تضمين الفئات الفرعية**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-127">If you want the rule to apply to all subcategories of the selected category, select the **Include subcategories** check box.</span></span>
+6. <span data-ttu-id="3cce0-128">انقر فوق السهم الأيمن للإضافة إلى قائمة **الفئات المحددة**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-128">Click the right arrow to add to the **Selected categories** list.</span></span>  
+4. <span data-ttu-id="3cce0-129">انقر فوق **موافق**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-129">Click **OK**.</span></span> <span data-ttu-id="3cce0-130">إذا قمت بتعيين الخيار **تضمين قاعدة الأصل** إلى "نعم"، فسيتم أيضًا تعيين قاعدة السياسة التي حددتها لفئة رئيسية إلى فئاتها الفرعية، إذا لم يتم تحديد قاعدة سياسة للفئات الفرعية.</span><span class="sxs-lookup"><span data-stu-id="3cce0-130">If you set the **Include parent rule** option to Yes, the policy rule that you define for a parent category is also assigned to its child categories, if no policy rule has been defined for the child categories.</span></span>
+
+## <a name="create-a-category-policy-rule"></a><span data-ttu-id="3cce0-131">إنشاء قاعدة سياسة الفئة</span><span class="sxs-lookup"><span data-stu-id="3cce0-131">Create a category policy rule</span></span>
+1. <span data-ttu-id="3cce0-132">في القائمة **نوع قاعدة السياسة**، حدد **قاعدة سياسة الفئة‬**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-132">In the **Policy rule type** list, select the **Category policy rule**.</span></span> <span data-ttu-id="3cce0-133">إذا كان الزر **إنشاء قاعدة السياسة‬** خافتًا، فحدد قاعدة السياسة النشطة، ثم انقر فوق **إيقاف قاعدة السياسة**".</span><span class="sxs-lookup"><span data-stu-id="3cce0-133">If the **Create policy rule** button is dimmed, select the active policy rule, and then click **Retire policy rule**.</span></span>  
+2. <span data-ttu-id="3cce0-134">انقر فوق **إنشاء قاعدة السياسة**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-134">Click **Create policy rule**.</span></span>
+3. <span data-ttu-id="3cce0-135">في الحقل **تاريخ السريان**، أدخل تاريخًا ووقتًا.</span><span class="sxs-lookup"><span data-stu-id="3cce0-135">In the **Effective date** field, enter a date and time.</span></span>
+4. <span data-ttu-id="3cce0-136">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-136">Click **Add**.</span></span>
+5. <span data-ttu-id="3cce0-137">في حقل **الفئة** حدد نفس الفئة التي استخدمتها في **قاعدة الوصول إلى الفئة**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-137">In the **Category** field, select the same category that you used for the **Category access rule**.</span></span>
+6. <span data-ttu-id="3cce0-138">في الحقل **تحديد المورِّد**، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="3cce0-138">In the **Vendor selection** field, select an option.</span></span> <span data-ttu-id="3cce0-139">حدد قاعدة للتحكم في أنواع المورّدين الذين يمكن اختيارهم للفئة عند إنشاء طلبات الشراء.</span><span class="sxs-lookup"><span data-stu-id="3cce0-139">Select a rule to control which kind of vendors can be selected for the category when requisitions are created.</span></span>  
+7. <span data-ttu-id="3cce0-140">انقر فوق **إغلاق**.</span><span class="sxs-lookup"><span data-stu-id="3cce0-140">Click **Close**.</span></span> <span data-ttu-id="3cce0-141">تتعلق قواعد السياسة التي حددتها بطلبات من النوع "استهلاك".</span><span class="sxs-lookup"><span data-stu-id="3cce0-141">The policy rules that you have defined have been for requisitions of type Consumption.</span></span> <span data-ttu-id="3cce0-142">إذا أردت تحديد سياسات لطلبات من النوع "تزويد"، فيمكنك إنشاء قاعدة لنوع قاعدة السياسة المسمى "قاعدة سياسة الوصول لفئة التزويد‬".</span><span class="sxs-lookup"><span data-stu-id="3cce0-142">If you wanted to define policies for requisitions of type Replenishment, you would create a rule for the Policy rule type called "Replenishment category access policy rule".</span></span>  
+
