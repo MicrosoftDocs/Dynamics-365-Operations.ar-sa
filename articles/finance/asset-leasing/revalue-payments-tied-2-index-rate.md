@@ -1,0 +1,70 @@
+---
+title: إعادة تقييم دفعات الإيجار المرتبطة بسعر الفائدة المرتبط بمؤشر
+description: يصف هذا الموضوع التسوية التي يتم إجراؤها لالتزام عقد الإيجار بحق استخدام الأصل عند تغيير دفعات الإيجار المتغيرة بسبب حدوث تغيير في سعر الفائدة المرتبط بمؤشر.
+author: moaamer
+manager: Ann Beebe
+ms.date: 10/28/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
+ms.custom: 4464
+ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
+ms.search.region: Global
+ms.author: moaamer
+ms.search.validFrom: 2020-10-28
+ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: 83684afbd5e11b890a59bc1469ddefffd1777c4e
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440139"
+---
+# <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a><span data-ttu-id="73c0c-103">إعادة تقييم دفعات الإيجار المرتبطة بسعر الفائدة المرتبط بمؤشر</span><span class="sxs-lookup"><span data-stu-id="73c0c-103">Revalue lease payments that are linked to an index rate</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="73c0c-104">يصف هذا الموضوع التسوية التي يتم إجراؤها لالتزام عقد الإيجار بحق استخدام الأصل عند تغيير دفعات الإيجار المتغيرة بسبب حدوث تغيير في سعر الفائدة المرتبط بمؤشر.</span><span class="sxs-lookup"><span data-stu-id="73c0c-104">This topic describes the adjustment that is made to the lease liability for a right-of-use (ROU) asset when variable lease payments change because of a change in the index rate.</span></span> <span data-ttu-id="73c0c-105">سيتم تعديل التزام الإيجار وحق استخدام الأصل لحساب المبالغ المدفوعة الجديدة.</span><span class="sxs-lookup"><span data-stu-id="73c0c-105">The lease liability and ROU asset will be adjusted to account for the new payment amounts.</span></span> <span data-ttu-id="73c0c-106">ضمن موضوع صياغة مقاييس المحاسبة 842 (ASC 842)، وهو المقياس في المبادئ المحاسبية المقبولة بشكل عام في الولايات المتحدة (US GAAP)، تتغير فقط الدفعات المتغيرة عند زيادة المدفوعات أو تقليلها بسبب حدوث تغيير في سعر الفائدة المرتبط بمؤشر.</span><span class="sxs-lookup"><span data-stu-id="73c0c-106">Under Accounting Standards Codification Topic 842 (ASC 842), which is the standard in Generally Accepted Accounting Principles in the US (US GAAP), only the variable payments change when payments increase or decrease because of a change in the index rate, unless there are additional changes to cash flows.</span></span> <span data-ttu-id="73c0c-107">قد تتضمن هذه التغييرات الإضافية تغييرًا في فترات الإيجار المرتبطة بأسعار الفائدة.</span><span class="sxs-lookup"><span data-stu-id="73c0c-107">These additional changes might include a change in lease terms that is related to interest rates.</span></span> <span data-ttu-id="73c0c-108">لمزيد من المعلومات، راجع ASC 842-10-55-225 والفقرة 42 (ب) من مقياس Financial Reporting الدولي 16 (IFRS 16).</span><span class="sxs-lookup"><span data-stu-id="73c0c-108">For more information, see ASC 842-10-55-225 and paragraph 42(b) of International Financial Reporting Standard 16 (IFRS 16).</span></span>
+
+## <a name="adjust-lease-payments"></a><span data-ttu-id="73c0c-109">تعديل دفعات الإيجار</span><span class="sxs-lookup"><span data-stu-id="73c0c-109">Adjust lease payments</span></span>
+
+<span data-ttu-id="73c0c-110">اتبع الخطوات التالية لإعادة تقييم دفعات الإيجار المرتبطة بسعر الفائدة المرتبط بمؤشر.</span><span class="sxs-lookup"><span data-stu-id="73c0c-110">Follow these steps to revalue lease payments that are linked to an index rate.</span></span>
+
+1. <span data-ttu-id="73c0c-111">لتشغيل عملية إعادة تقييم مؤشر الإيجار، انتقل إلى **تأجير الأصل \> دوري \> إعادة تقييم سعر الفائدة المرتبط بمؤشر**.</span><span class="sxs-lookup"><span data-stu-id="73c0c-111">To run the lease index revaluation process, go to **Asset leasing \> Periodic \> Index rate revaluation**.</span></span>
+
+    <span data-ttu-id="73c0c-112">تظهر الصفحة **إعادة تقييم سعر الفائدة المرتبط بمؤشر** وتعرض كافة عمليات إعادة تقييم مؤشر الإيجار السابق التي تم تشغيلها.</span><span class="sxs-lookup"><span data-stu-id="73c0c-112">The **Index rate revaluation** page appears and shows all previous lease index revaluation processes that have been run.</span></span> <span data-ttu-id="73c0c-113">تشتمل المعلومات الموجودة في هذه الصفحة على معرف العملية الذي تم إنشاؤه من إعداد التسلسل الرقمي والكيان القانوني ورقم دفاتر الإيجار التي تمت تسويتها وتسويات الالتزام الإجمالية لإيجارات IFRS 16 وإجمالي الدفعات المتغيرة التي تمت تسويتها لعقود الإيجار ASC 842.</span><span class="sxs-lookup"><span data-stu-id="73c0c-113">The information on this page includes the process ID that was generated from the number sequence setup, the legal entity, the number of lease books that were adjusted, the total liability adjustment for IFRS 16 leases, and the total variable payments that were adjusted for ASC 842 leases.</span></span>
+
+2. <span data-ttu-id="73c0c-114">لتشغيل إعادة التقييم، في جزء الإجراء، حدد **إعادة تقييم مؤشر الإيجار**.</span><span class="sxs-lookup"><span data-stu-id="73c0c-114">To run the revaluation, on the Action Pane, select **Lease index revaluation**.</span></span>
+
+    <span data-ttu-id="73c0c-115">يظهر مربع الحوار **معلمات إعادة تقييم المؤشر**.</span><span class="sxs-lookup"><span data-stu-id="73c0c-115">The **Index revaluation parameters** dialog box appears.</span></span> <span data-ttu-id="73c0c-116">هنا، يمكنك تصفية وتحديد أية عقود إيجار أو مجموعات إيجار أو معايير الأخرى يجب استخدامها عند تحديد عقود الإيجار لإعادة التقييم.</span><span class="sxs-lookup"><span data-stu-id="73c0c-116">Here, you can filter and select which leases, lease groups, or other criteria should be used when you select the leases to revalue.</span></span> <span data-ttu-id="73c0c-117">بالإضافة إلى ذلك، في علامة التبويب **التشغيل في الخلفية**، يمكنك إعداد عملية إعادة تقييم المؤشر بحيث يتم تشغيلها في دُفعة.</span><span class="sxs-lookup"><span data-stu-id="73c0c-117">Additionally, on the **Run in the background** tab, you can set up the index revaluation process so that it runs in a batch.</span></span>
+
+4. <span data-ttu-id="73c0c-118">حدد عوامل التصفية لتحديد عقود الإيجار التي يجب تضمينها في معالجة الخلفية، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="73c0c-118">Select the filters for selecting leases that should be included in the background processing, and then select **OK**.</span></span>
+
+    <span data-ttu-id="73c0c-119">يظهر مربع الحوار **معاينة إعادة تقييم سعر الفائدة المرتبط بمؤشر** ويعرض عقود الإيجار التي سيتم إعادة تقييمها.</span><span class="sxs-lookup"><span data-stu-id="73c0c-119">The **Index Rate revaluation preview** dialog box appears and shows the leases that will be revalued.</span></span> <span data-ttu-id="73c0c-120">ويوضح أيضًا تسويات الأصل والالتزام أو تسويات الدفعات المتغيرة.</span><span class="sxs-lookup"><span data-stu-id="73c0c-120">It also shows the asset and liability adjustments or the variable payment adjustments.</span></span>
+    
+5. <span data-ttu-id="73c0c-121">لمنع إعادة تقييم عقود الإيجار، حدد عقود الإيجار التي **يجب** إعادة تقييمها.</span><span class="sxs-lookup"><span data-stu-id="73c0c-121">To prevent leases from being revalued, select the leases that **should** be revalued.</span></span> <span data-ttu-id="73c0c-122">إذا لم تقم بتحديد أية عقود إيجار، فإنه سيتم إعادة تقييم كافة عقود الإيجار.</span><span class="sxs-lookup"><span data-stu-id="73c0c-122">If you don't select any leases, all leases will be revalued.</span></span> <span data-ttu-id="73c0c-123">عند الانتهاء، حدد **موافق** لإعادة تقييم دفعات الإيجار.</span><span class="sxs-lookup"><span data-stu-id="73c0c-123">When you've finished, select **OK** to revalue the lease payments.</span></span>
+6. <span data-ttu-id="73c0c-124">لعرض الحركات التي تم إنشاؤها لعملية إعادة تقييم المؤشر المحدد، حدد معرف العملية، ثم حدد **الحركات**.</span><span class="sxs-lookup"><span data-stu-id="73c0c-124">To view the transactions that were created for a specific index revaluation process, select the process ID, and then select **Transactions**.</span></span>
+
+    <span data-ttu-id="73c0c-125">يظهر مربع الحوار ويعرض تفاصيل الحركات التي تم إنشاؤها أثناء المعالجة.</span><span class="sxs-lookup"><span data-stu-id="73c0c-125">A dialog box appears and shows the details of the transactions that were created during processing.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="73c0c-126">يمكن إعادة تقييم عقود الإيجار التي لها تاريخ إعادة تقييم في أو قبل تاريخ النظام فقط.</span><span class="sxs-lookup"><span data-stu-id="73c0c-126">Only leases that have a revaluation date that is on or before the system date can be revalued.</span></span> <span data-ttu-id="73c0c-127">يتجاهل النظام تلقائيًا كافة عقود الإيجار التي لها تاريخ إعادة تقييم بعد تاريخ النظام.</span><span class="sxs-lookup"><span data-stu-id="73c0c-127">The system automatically ignores all leases that have a revaluation date that is later than the system date.</span></span>
+
+## <a name="asc-842-leases--index-revaluation"></a><span data-ttu-id="73c0c-128">عقود إيجار ASC 842 – إعادة تقييم المؤشر</span><span class="sxs-lookup"><span data-stu-id="73c0c-128">ASC 842 leases – Index revaluation</span></span>
+
+<span data-ttu-id="73c0c-129">لعرض تأثيرات عملية إعادة تقييم عقد الإيجار في عقود الإيجار ASC 842، افتح جدول الدفع الخاص بعقد الإيجار.</span><span class="sxs-lookup"><span data-stu-id="73c0c-129">To view the effects of the lease revaluation process on ASC 842 leases, open the payment schedule for a lease.</span></span> <span data-ttu-id="73c0c-130">تعرض الصفحة الدفعات المتغيرة التي تم إجراؤها في أو بعد تاريخ إعادة التقييم الذي تم تغييره فقط بسبب إعادة تقييم المؤشر.</span><span class="sxs-lookup"><span data-stu-id="73c0c-130">The page shows only the variable payments that have been made on or after the revaluation date was changed because of the index revaluation.</span></span> <span data-ttu-id="73c0c-131">وتظل جداول إطفاء الدين والإهلاك بدون تغيير.</span><span class="sxs-lookup"><span data-stu-id="73c0c-131">The amortization and depreciation schedules remain unchanged.</span></span> <span data-ttu-id="73c0c-132">عند إنشاء فاتورة بالدفع المتغير، فإنه يتم خصم الدفع المتغير لحساب ترحيل الدفع المتغير.</span><span class="sxs-lookup"><span data-stu-id="73c0c-132">When you create an invoice that has a variable payment, the variable payment is debited to the Variable payment posting account.</span></span> <span data-ttu-id="73c0c-133">كما تتم إضافة مبلغ الدفع المتغير إلى إدخال الدائن الذي تم ترحيله مباشرة إلى المورد، أو ترحيله إلى حساب الدائن الخاص بالإشعارات، وفقًا لإعداد دفتر الإيجار.</span><span class="sxs-lookup"><span data-stu-id="73c0c-133">Also the variable payment amount is added to the credit entry that's posted directly to the vendor, or posted to Notes payable account, depending on the lease book setup.</span></span>
+
+<span data-ttu-id="73c0c-134">يتم تحديث بنود جدول الدفع في الصفحة تفاصيل عقد الإيجار تلقائيًا ببند جديد يشير إلى سعر الفائدة المرتبط بمؤشر.</span><span class="sxs-lookup"><span data-stu-id="73c0c-134">The payment schedule lines on the lease details page are automatically updated with a new line that indicates the new index rate.</span></span> <span data-ttu-id="73c0c-135">بالإضافة إلى ذلك، يوضح العمود ما إذا كان قد تم إنشاء البند يدويًا أم لا من خلال عملية إعادة تقييم المؤشر.</span><span class="sxs-lookup"><span data-stu-id="73c0c-135">Additionally, a column shows whether the line was created manually or through the index revaluation process.</span></span>
+
+## <a name="ifrs-16-leases--index-revaluation"></a><span data-ttu-id="73c0c-136">عقود إيجار IFRS 16 – إعادة تقييم المؤشر</span><span class="sxs-lookup"><span data-stu-id="73c0c-136">IFRS 16 leases – Index revaluation</span></span>
+
+<span data-ttu-id="73c0c-137">لعرض تأثيرات عملية إعادة تقييم عقد الإيجار في عقود الإيجار IFRS 16، افتح تفاصيل عقد الإيجار لعقد إيجار تمت تسويته.</span><span class="sxs-lookup"><span data-stu-id="73c0c-137">To view the effects of the lease revaluation process on IFRS 16 leases, open the lease details for an adjusted lease.</span></span> <span data-ttu-id="73c0c-138">تم تحديث الحقل **تم تحديث فترة الإيجار** والحقل **العمر الإنتاجي للأصل** لعكس مرور الوقت من تاريخ البدء أو تاريخ التعديل لتاريخ إعادة التقييم.</span><span class="sxs-lookup"><span data-stu-id="73c0c-138">The **Lease term** and **Asset useful life** fields have been updated to reflect the passage of time from the commencement date or modification date to the revaluation date.</span></span> <span data-ttu-id="73c0c-139">بالإضافة إلى ذلك، تم تحديث بنود جدول الدفع لتعكس المدفوعات الجديدة في عقد الإيجار وسعر فائدة مرتبط بمؤشر وكيفية إنشاء البند.</span><span class="sxs-lookup"><span data-stu-id="73c0c-139">Additionally, the payment schedule lines have updated to reflect the new payments on the lease, the new index rate, and how the line was created.</span></span>
+
+<span data-ttu-id="73c0c-140">يمكنك عرض جدول الدفع الذي تم إنشاؤه حديثًا والذي يبدأ في تاريخ إعادة التقييم ويوضح إجمالي مبلغ الدفع المحدث.</span><span class="sxs-lookup"><span data-stu-id="73c0c-140">You can view the newly generated payment schedule that starts on the revaluation date and show the total updated payment amount.</span></span> <span data-ttu-id="73c0c-141">كما تم إنشاء جدول إطفاء الدين لالتزامات الإيجار وجدول إهلاك الأصل لعكس جدول الدفع الذي يتم تعديله.</span><span class="sxs-lookup"><span data-stu-id="73c0c-141">A new lease liability amortization schedule and an asset depreciation schedule have also been created to reflect the adjusted payment schedule.</span></span>
+
+<span data-ttu-id="73c0c-142">عمل إدخال دفتر اليومية تلقائيًا على ترحيل إدخال دفتر يومية التسوية إلى الحساب للتغيير في دفعات الإيجار المرتبطة بإعادة تقييم المؤشر.</span><span class="sxs-lookup"><span data-stu-id="73c0c-142">The journal entry has automatically posted the adjustment journal entry to the account for the change in lease payments that are related to the index revaluation.</span></span>
