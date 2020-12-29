@@ -3,7 +3,7 @@ title: الميزات التي تمت إزالتها أو إهمالها في Dy
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
-ms.date: 03/13/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175098"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689484"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -35,6 +35,40 @@ ms.locfileid: "3175098"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.16 من Finance
+
+### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"تنسيق تصدير حركة دفتر الأستاذ (BE)" تنسيق التقارير الإلكترونية ونموذج تصدير حركة دفتر الأستاذ (BE) "الخاص ببلجيكا
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بتنسيق جديد للتقارير الإلكترونية ضمن النموذج "ملف مراجعة قياسي (SAF-T)".  |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: بحلول 1 ديسمبر، 2021، إننا نخطط إلى عدم دعم "تنسيق تصدير حركة دفتر الأستاذ (BE)" وتنسيق التقارير الإلكترونية (ER) والنموذج المعني "تصدير حركة دفتر الأستاذ (BE)". يتم تقديم تنسيق "تصدير بيانات دفتر الأستاذ العام (BE)" الجديد مع "تعيين نموذج بيانات دفتر الأستاذ العام" بدلاً من النموذج "ملف مراجعة قياسي (SAF-T)". |
+
+### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>تقرير "ضريبة القيمة المضافة 100" للمملكة المتحدة بتنسيق SSRS.
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بتنسيق ER الجديد - تنسيق Excel لإقرار ضريبة القيمة المضافة (المملكة المتحدة)" ضمن "نموذج إقرار الضريبة".  |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: بحلول 1 ديسمبر، 2021، لن نقوم بعد الآن بتقديم الدعم لإصدار "تقرير ضريبة القيمة المضافة 100" بتنسيق SSRS. تم تقديم التنسيق الجديد " Excel لإقرار بضريبة القيمة المضافة (المملكة المتحدة) ضمن "نموذج إقرار الضريبة" في [ميزة ضريبة القيمة المضافة لرقمنة الضرائب MTD](../localizations/emea-gbr-mtd-vat-integration.md). |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.15 من Finance
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>تم إهمال دعم Internet Explorer 11 لـ Dynamics 365
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | اعتبارًا من ديسمبر 2020، تم إهمال دعم Microsoft Internet Explorer 11 لجميع منتجات Dynamics 365، ولن يتم دعم Internet Explorer 11 بعد أغسطس 2021.<br><br>سيؤثر هذا الاجراء علي العملاء الذين يستخدمون منتجات Dynamics 365 التي تم تصميمها ليتم استخدامها من خلال واجهة Internet Explorer 11. بعد أغسطس 2021، لن يتم دعم Internet Explorer 11 لمنتجات Dynamics 365. |
+| **هل تم الاستبدال بميزة أخرى؟**   | نوصي العملاء بالانتقال إلى Microsoft Edge.|
+| **مناطق المنتجات المتأثرة**         | كافة منتجات Dynamics 365 |
+| **خيارات النشر**              | ‏‏الكل|
+| **الحالة**                         | مهملة. لن يتم دعم Internet Explorer 11 بعد (أغسطس) 2021.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.12 من Finance
 
