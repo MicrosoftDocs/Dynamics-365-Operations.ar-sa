@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: cb18b96d6d7db84262f8fcfadb15afa80e2fa3d8
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145113"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439830"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>إنشاء بُنى القواعد المتقدمة وتعيينها
 
@@ -50,7 +50,7 @@ ms.locfileid: "3145113"
 8. حدد **إنشاء**.
 9. حدد **إضافة معايير جديدة**.
 10. في حقل **المكان**، حدد الحساب الرئيسي أو بُعدًا ماليًا.
-11. في حقل **عامل التشغيل**، حدد أحد الخيارات، مثل **بين** و**يتضمن**.
+11. في حقل **عامل التشغيل**، حدد أحد الخيارات، مثل **بين** و **يتضمن**.
 12. في حقل **القيمة**، اكتب قيمة.
 13. في الحقل **خلال**، اكتب قيمة.
 14. حدد **إضافة** لفتح مربع الحوار المنسدل.

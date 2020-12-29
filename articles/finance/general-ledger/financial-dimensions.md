@@ -18,11 +18,11 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0715d3e4e4cb167c55d9c7d98cdf599187bf3b43
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176186"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440063"
 ---
 # <a name="financial-dimensions"></a>الأبعاد المالية
 
@@ -103,7 +103,7 @@ ms.locfileid: "2176186"
 
 1. حدد أحد الأبعاد، ثم حدد **الأبعاد المشتقة**.
 
-    تحتوي صفحة**الأبعاد المشتقة** على شبكة. تمثل شريحة البعد المُحدد العمود الأول في هذه الشبكة.
+    تحتوي صفحة **الأبعاد المشتقة** على شبكة. تمثل شريحة البعد المُحدد العمود الأول في هذه الشبكة.
 
 2. أضف الشرايح التي يجب أن تكون مشتقة. تظهر كل شريحة كعمود.
 

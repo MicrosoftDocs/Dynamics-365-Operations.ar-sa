@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006156"
+ms.locfileid: "4440112"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>سياسة زيادة التكلفة وحساب المصروفات الزائدة 
 
@@ -250,7 +250,7 @@ ms.locfileid: "4006156"
 | CC003       | التجميع     | SC-CC002 | المالية         | 11.527,75   | 31-01-2017 |
 | CC004       | التعبئة    | SC-CC002 | المالية         | 6.207,25    | 31-01-2017 |
 
-بعد إتمام **حساب المصروفات الزائدة** ، يمكنك الإبلاغ عن النتائج باستخدام أدوات مثل مساحة عمل Microsoft SharePoint أو Excel أو Power BI.
+بعد إتمام **حساب المصروفات الزائدة**، يمكنك الإبلاغ عن النتائج باستخدام أدوات مثل مساحة عمل Microsoft SharePoint أو Excel أو Power BI.
 
 ## <a name="view-reporting-in-excel"></a>عرض التقارير في Excel 
 

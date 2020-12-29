@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899363"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439888"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>الاستيراد المتقدم للتسوية البنكية MT940 - ترقية كيان بيانات مركب
 
@@ -55,7 +55,7 @@ ms.locfileid: "3899363"
             3.  تحميل ملف البيانات = إصدار SampleBankCompositeEntity.xml الجديد.
             4.  انقر فوق **نعم** للكتابة فوق الملف الموجود.
             5.  انقر فوق **نعم** لإنشاء تعيين جديد.
-            6.  تأكد من تعيين**SequenceNumber**.
+            6.  تأكد من تعيين **SequenceNumber**.
                 -   انقر فوق **عرض الخريطة** على كيان كشف الحساب.
                 -   تأكد من تعيين **SequenceNumber** من المصدر إلى التشغيل المرحلي‬.
 

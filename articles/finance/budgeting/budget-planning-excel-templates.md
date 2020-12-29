@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772089"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440074"
 ---
 # <a name="budget-planning-templates-for-excel"></a>قوالب تخطيط الموازنة لـ Excel
 
@@ -67,7 +67,7 @@ ms.locfileid: "2772089"
 
 وجّه المؤشر إلى الموقع المطلوب في ملف Excel. انقر فوق **إضافة تسمية** لإضافة تسمية الحقل إلى الموقع المحدد. حدد **"إضافة قيمة"** لإضافة قيمة الحقل إلى الموضع المحدد. انقر فوق **تم** لإغلاق المصمم.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![تحديد إضافة قيمة](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![تحديد إضافة قيمة](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>إضافة عمود محسوب إلى جدول قالب مستند خطة الموازنة
 --------------------------------------------------------------
@@ -83,7 +83,7 @@ ms.locfileid: "2772089"
 [![إضافة عمود وإدراجه](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**. عادة ما يتم تسمية جدول العمليات المرتبطة لـ Finance and Operations باسم "AXTable1" على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].
+> لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**. عادة ما يتم تسمية جدول العمليات المرتبطة لـ Finance and Operations باسم "AXTable1". على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].
 
 كرر هذه الخطوات لإدراج عمود **تسوية**. استخدم المعادلة= AxTable1\[طلب إجمالي\]\*$I$1 لهذا العمود. وسوف تأخذ هذه القيمة في الخلية 1 ومضاعفة القيم في عمود **الطلب الإجمالي** لحساب مبالغ التسوية.
 
@@ -120,7 +120,7 @@ ms.locfileid: "2772089"
 
 انقر فوق السهم لقائمة إضافية. حدد **تأمين**.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![تحديد تأمين](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![تحديد تأمين](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>هل يمكنني استخدام ميزات Excel الأخرى، مثل تنسيق الخلايا، والألوان والتنسيق الشرطي والمخططات مع قوالب خطة الموازنة؟
 
