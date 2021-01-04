@@ -1,0 +1,77 @@
+---
+title: أصل المورّد المتكامل
+description: يوضح هذا الموضوع تكامل بيانات المورد بين تطبيقات Finance and Operations وDataverse.
+author: RamaKrishnamoorthy
+manager: AnnBe
+ms.date: 07/15/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User, IT Pro
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: ''
+ms.author: ramasri
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2019-07-15
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685475"
+---
+# <a name="integrated-vendor-master"></a><span data-ttu-id="430d8-103">أصل المورّد المتكامل</span><span class="sxs-lookup"><span data-stu-id="430d8-103">Integrated vendor master</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+
+
+<span data-ttu-id="430d8-104">يشير مصطلح *المورد* إلى مؤسسة مورد أو مالك وحيد يقدم بضائع أو خدمات لشركة.</span><span class="sxs-lookup"><span data-stu-id="430d8-104">The term *vendor* refers to a supplier organization, or a sole proprietor who supplies goods or services to a business.</span></span> <span data-ttu-id="430d8-105">وعلى الرغم من أن *المورّد* عبارة عن مفهوم تم إنشاؤه في Microsoft Dynamics 365 Supply Chain Management، إلا أن مفهوم المورّد غير موجود في التطبيقات المستندة إلى النماذج في Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="430d8-105">Although *vendor* is an established concept in Microsoft Dynamics 365 Supply Chain Management, no vendor concept exists in model-driven apps in Dynamics 365.</span></span> <span data-ttu-id="430d8-106">ومع ذلك، يمكنك زيادة تحميل كيان **الحساب/جهة الاتصال** لتخزين معلومات المورد.</span><span class="sxs-lookup"><span data-stu-id="430d8-106">However, you can overload the **Account/Contact** entity to store vendor information.</span></span> <span data-ttu-id="430d8-107">يقدم أصل المورد المتكامل مفهوم مورد صريحًا في التطبيقات المستندة إلى النماذج في Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="430d8-107">The integrated vendor master introduces an explicit vendor concept in model-driven apps in Dynamics 365.</span></span> <span data-ttu-id="430d8-108">يمكنك إما استخدام بيانات تصميم المورد الجديد أو مورد المتجر في كيان **الحساب/جهة الاتصال**.</span><span class="sxs-lookup"><span data-stu-id="430d8-108">You can either use the new vendor design or store vendor data in the **Account/Contact** entity.</span></span> <span data-ttu-id="430d8-109">تدعم الكتابة الثنائية كلا الأسلوبين.</span><span class="sxs-lookup"><span data-stu-id="430d8-109">Dual-write supports both approaches.</span></span>
+
+<span data-ttu-id="430d8-110">وفي كلتا الحالتين، يتم دمج بيانات المورد بين Dynamics 365 Supply Chain Management، وDynamics 365 Sales، وDynamics 365 Field Service، ومداخل Power Apps.</span><span class="sxs-lookup"><span data-stu-id="430d8-110">In both approaches, the vendor data is integrated between Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service, and Power Apps portals.</span></span> <span data-ttu-id="430d8-111">في Supply Chain Management، تتوفر البيانات لمهام سير العمل مثل طلبات الشراء وأوامر الشراء.</span><span class="sxs-lookup"><span data-stu-id="430d8-111">In Supply Chain Management, the data is available for workflows such as purchase requisitions and purchase orders.</span></span>
+
+## <a name="vendor-data-flow"></a><span data-ttu-id="430d8-112">تدفق بيانات المورّد</span><span class="sxs-lookup"><span data-stu-id="430d8-112">Vendor data flow</span></span>
+
+<span data-ttu-id="430d8-113">إذا كنت ترغب في تخزين بيانات المورد في كيان **الحساب/جهة الاتصال** في Dataverse، يمكنك استخدام تصميم المورد الجديد.</span><span class="sxs-lookup"><span data-stu-id="430d8-113">If you don't want to store vendor data in the **Account/Contact** entity in Dataverse, you can use the new vendor design.</span></span>
+
+![تدفق بيانات المورّد](media/dual-write-vendor-data-flow.png)
+
+<span data-ttu-id="430d8-115">إذا كنت ترغب في مواصلة تخزين بيانات المورد في كيان **الحساب/جهة الاتصال**، يمكنك استخدام تصميم المورد الموسع.</span><span class="sxs-lookup"><span data-stu-id="430d8-115">If you want to continue to store vendor data in the **Account/Contact** entity, you can use the extended vendor design.</span></span> <span data-ttu-id="430d8-116">لاستخدام تصميم المورد الموسع، يجب تكوين عمليات سير عمل المورد في حزمة حلول الكتابة الثنائية.</span><span class="sxs-lookup"><span data-stu-id="430d8-116">To use the extended vendor design, you must configure the vendor workflows in the dual-write solution package.</span></span> <span data-ttu-id="430d8-117">لمزيد من المعلومات، راجع [التبديل بين تصميمات الموردين](vendor-switch.md).</span><span class="sxs-lookup"><span data-stu-id="430d8-117">For more information, see [Switch between vendor designs](vendor-switch.md).</span></span>
+
+![تدفق بيانات المورّد الموسّعة](media/dual-write-vendor-detail.jpg)
+
+> [!TIP]
+> <span data-ttu-id="430d8-119">إذا كنت تستخدم مداخل Power Apps لموردي الخدمة الذاتية، فيمكن لمعلومات المورد التدفق مباشرةً إلى تطبيقات Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="430d8-119">If you're using Power Apps portals for self-service vendors, the vendor information can flow directly to Finance and Operations apps.</span></span>
+
+## <a name="templates"></a><span data-ttu-id="430d8-120">القوالب</span><span class="sxs-lookup"><span data-stu-id="430d8-120">Templates</span></span>
+
+<span data-ttu-id="430d8-121">تتضمن بيانات المورّد كافة المعلومات المتعلقة بالمورّد، مثل مجموعة المورّدين والعناوين ومعلومات الاتصال وملف تعريف الدفع وملف تعريف الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="430d8-121">Vendor data includes all information about the vendor, such as the vendor group, addresses, contact information, payment profile, and invoice profile.</span></span> <span data-ttu-id="430d8-122">تعمل مجموعة من مخططات الجداول معًا أثناء تفاعل بيانات المورّد، كما هو موضح في الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="430d8-122">A collection of table maps work together during vendor data interaction, as shown in the following table.</span></span>
+
+<span data-ttu-id="430d8-123">تطبيقات Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="430d8-123">Finance and Operations apps</span></span> | <span data-ttu-id="430d8-124">تطبيقات Dynamics 365 الأخرى</span><span class="sxs-lookup"><span data-stu-id="430d8-124">Other Dynamics 365 apps</span></span>     | <span data-ttu-id="430d8-125">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="430d8-125">Description</span></span>
+----------------------------|-----------------------------|------------
+<span data-ttu-id="430d8-126">المورّد V2</span><span class="sxs-lookup"><span data-stu-id="430d8-126">Vendor V2</span></span>                   | <span data-ttu-id="430d8-127">الحساب</span><span class="sxs-lookup"><span data-stu-id="430d8-127">Account</span></span>                     | <span data-ttu-id="430d8-128">بإمكان الشركات التي تستخدم كيان الحساب لتخزين معلومات المورّد متابعة استخدامها بالطريقة نفسها.</span><span class="sxs-lookup"><span data-stu-id="430d8-128">Businesses that use the Account entity to store vendor information can continue to use it in the same way.</span></span> <span data-ttu-id="430d8-129">ويمكنها أيضًا الاستفادة من وظيفة المورّد الصريحة التي تأتي بسبب تكامل تطبيقات Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="430d8-129">They can also take advantage of the explicit vendor functionality that is coming because of Finance and Operations apps integration.</span></span>
+<span data-ttu-id="430d8-130">المورّد V2</span><span class="sxs-lookup"><span data-stu-id="430d8-130">Vendor V2</span></span>                   | <span data-ttu-id="430d8-131">Msdyn\_vendors</span><span class="sxs-lookup"><span data-stu-id="430d8-131">Msdyn\_vendors</span></span>              | <span data-ttu-id="430d8-132">بإمكان الشركات التي تستخدم حلاً مخصصًا للمورّدين الاستفادة من مفهوم المورّد المبتكر الذي تم تقديمه في Dataverse بسبب تكامل تطبيقات Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="430d8-132">Businesses that use a custom solution for vendors can take advantage of the out-of-box vendor concept that is being introduced in Dataverse because of Finance and Operations apps integration.</span></span> 
+<span data-ttu-id="430d8-133">مجموعات الموردين</span><span class="sxs-lookup"><span data-stu-id="430d8-133">Vendor groups</span></span>               | <span data-ttu-id="430d8-134">msdyn\_vendorgroups</span><span class="sxs-lookup"><span data-stu-id="430d8-134">msdyn\_vendorgroups</span></span>         | <span data-ttu-id="430d8-135">يقوم هذا القالب بمزامنة معلومات مجموعة الموردين.</span><span class="sxs-lookup"><span data-stu-id="430d8-135">This template synchronizes vendor group information.</span></span>
+<span data-ttu-id="430d8-136">طريقة دفع المورّد</span><span class="sxs-lookup"><span data-stu-id="430d8-136">Vendor payment method</span></span>       | <span data-ttu-id="430d8-137">msdyn\_vendorpaymentmethods</span><span class="sxs-lookup"><span data-stu-id="430d8-137">msdyn\_vendorpaymentmethods</span></span> | <span data-ttu-id="430d8-138">يقوم هذا القالب بمزامنة معلومات طرق دفع الموردين.</span><span class="sxs-lookup"><span data-stu-id="430d8-138">This template synchronizes vendor payment method information.</span></span>
+<span data-ttu-id="430d8-139">جهات اتصال CDS V2</span><span class="sxs-lookup"><span data-stu-id="430d8-139">CDS Contacts V2</span></span>             | <span data-ttu-id="430d8-140">جهات الاتصال</span><span class="sxs-lookup"><span data-stu-id="430d8-140">contacts</span></span>                    | <span data-ttu-id="430d8-141">يقوم قالب [جهات الاتصال](customer-mapping.md#cds-contacts-v2-to-contacts) بمزامنة كافة معلومات جهات الاتصال الاساسيه والثانوية والثلاثية لكل من العملاء والموردين.</span><span class="sxs-lookup"><span data-stu-id="430d8-141">The [contacts](customer-mapping.md#cds-contacts-v2-to-contacts) template synchronizes all primary, secondary, and tertiary contact information, for both customers and vendors.</span></span>
+<span data-ttu-id="430d8-142">بنود جدول الدفع</span><span class="sxs-lookup"><span data-stu-id="430d8-142">Payment schedule lines</span></span>      | <span data-ttu-id="430d8-143">msdyn\_paymentschedulelines</span><span class="sxs-lookup"><span data-stu-id="430d8-143">msdyn\_paymentschedulelines</span></span> | <span data-ttu-id="430d8-144">يقوم قالب [أسطر جدول الدفع](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines) بمزامنة البيانات المرجعية للعملاء والموردين.</span><span class="sxs-lookup"><span data-stu-id="430d8-144">The [payment schedule lines](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines) template synchronizes reference data for customers and vendors.</span></span>
+<span data-ttu-id="430d8-145">جدول الدفع</span><span class="sxs-lookup"><span data-stu-id="430d8-145">Payment schedule</span></span>            | <span data-ttu-id="430d8-146">msdyn\_paymentschedules</span><span class="sxs-lookup"><span data-stu-id="430d8-146">msdyn\_paymentschedules</span></span>     | <span data-ttu-id="430d8-147">يقوم قالب [جداول الدفع](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules) بمزامنة البيانات المرجعية لجدول الدفع للعملاء والموردين.</span><span class="sxs-lookup"><span data-stu-id="430d8-147">The [payment schedules](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules) template synchronizes payment schedule reference data, for both customers and vendors.</span></span>
+<span data-ttu-id="430d8-148">بنود يوم الدفع CDS V2</span><span class="sxs-lookup"><span data-stu-id="430d8-148">Payment day lines CDS V2</span></span>    | <span data-ttu-id="430d8-149">msdyn\_paymentdaylines</span><span class="sxs-lookup"><span data-stu-id="430d8-149">msdyn\_paymentdaylines</span></span>      | <span data-ttu-id="430d8-150">يقوم قالب [أسطر أيام الدفع](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) بمزامنة البيانات المرجعية لأسطر أيام الدفع للعملاء والموردين.</span><span class="sxs-lookup"><span data-stu-id="430d8-150">The [payment day lines](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) template synchronizes payment day lines reference data for customers and vendors.</span></span>
+<span data-ttu-id="430d8-151">أيام الدفع CDS</span><span class="sxs-lookup"><span data-stu-id="430d8-151">Payment days CDS</span></span>            | <span data-ttu-id="430d8-152">msdyn\_paymentdays</span><span class="sxs-lookup"><span data-stu-id="430d8-152">msdyn\_paymentdays</span></span>          | <span data-ttu-id="430d8-153">يقوم قالب [أيام الدفع](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays) بمزامنة البيانات المرجعية لأيام الدفع، لكلٍّ من العملاء والموردين.</span><span class="sxs-lookup"><span data-stu-id="430d8-153">The [payment days](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays) template synchronizes payment days reference data, for both customers and vendors.</span></span>
+<span data-ttu-id="430d8-154">شروط الدفع</span><span class="sxs-lookup"><span data-stu-id="430d8-154">Terms of payment</span></span>            | <span data-ttu-id="430d8-155">msdyn\_paymentterms</span><span class="sxs-lookup"><span data-stu-id="430d8-155">msdyn\_paymentterms</span></span>         | <span data-ttu-id="430d8-156">يقوم قالب [مدد الدفع](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms) بمزامنة البيانات المرجعية لمدد الدفع لكلٍّ من العملاء والموردين.</span><span class="sxs-lookup"><span data-stu-id="430d8-156">The [terms of payment](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms) template synchronizes payment terms reference data, for both customers and vendors.</span></span>
+<span data-ttu-id="430d8-157">ملحقات الاسم</span><span class="sxs-lookup"><span data-stu-id="430d8-157">Name affixes</span></span>                | <span data-ttu-id="430d8-158">msdyn\_nameaffixes</span><span class="sxs-lookup"><span data-stu-id="430d8-158">msdyn\_nameaffixes</span></span>          | <span data-ttu-id="430d8-159">يقوم قالب [ملصقات الأسماء](customer-mapping.md#name-affixes-to-msdyn_nameaffixes) بمزامنة البيانات المرجعية لملصقات الأسماء، لكلٍّ من العملاء والموردين.</span><span class="sxs-lookup"><span data-stu-id="430d8-159">The [name affixes](customer-mapping.md#name-affixes-to-msdyn_nameaffixes) template synchronizes name affixes reference data, for both customers and vendors.</span></span>
+
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [Vendors](includes/VendorsV2-msdyn-vendors.md)]
+
+[!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
+
+[!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
