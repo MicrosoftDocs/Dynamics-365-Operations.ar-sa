@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb1f026b6a83aa8c1de0dc5088940d7377867a8b
-ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
+ms.openlocfilehash: b3f11e91d06f20d1c384c3c2c5cf9326214331ee
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3331337"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686259"
 ---
 # <a name="electronic-reporting-formula-language"></a>لغة تركيبة التقارير الإلكترونية
 
@@ -114,7 +113,7 @@ ms.locfileid: "3331337"
 
 ## <a name=""></a><a name="Paths">المسارات</a>
 
-عندما يشير تعبير إلى مصدر بيانات مصنف، يمكنك استخدام تعريف المسار لتحديد عنصر أساسي معينة من مصدر البيانات هذا. يتم استخدام حرف النقطة (.) لفصل العناصر الفردية في مصدر بيانات مصنف. على سبيل المثال، يحتوي تعيين نموذج التقارير الإلكترونية الحالي على مصدر بيانات **InvoiceTransactions** ، ويُرجع مصدر البيانات هذا قائمة بالسجلات. تحتوي بنية السجل **InvoiceTransactions** على الحقلين **AmountDebit** و**AmountCredit**، اللذين يرجعان قيمًا رقمية. لذلك، يمكنك تصميم التعبير التالي لحساب المبلغ المفوتر: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. البناء `InvoiceTransactions.AmountDebit` في هذا التعبير هو المسار الذي يتم استخدامه للوصول إلى حقل **AmountDebit** لمصدر بيانات **InvoiceTransactions** من نوع *قائمه السجلات* .
+عندما يشير تعبير إلى مصدر بيانات مصنف، يمكنك استخدام تعريف المسار لتحديد عنصر أساسي معينة من مصدر البيانات هذا. يتم استخدام حرف النقطة (.) لفصل العناصر الفردية في مصدر بيانات مصنف. على سبيل المثال، يحتوي تعيين نموذج التقارير الإلكترونية الحالي على مصدر بيانات **InvoiceTransactions** ، ويُرجع مصدر البيانات هذا قائمة بالسجلات. تحتوي بنية السجل **InvoiceTransactions** على الحقلين **AmountDebit** و **AmountCredit**، اللذين يرجعان قيمًا رقمية. لذلك، يمكنك تصميم التعبير التالي لحساب المبلغ المفوتر: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. البناء `InvoiceTransactions.AmountDebit` في هذا التعبير هو المسار الذي يتم استخدامه للوصول إلى حقل **AmountDebit** لمصدر بيانات **InvoiceTransactions** من نوع *قائمه السجلات* .
 
 ### <a name="relative-path"></a>مسار نسبي
 
@@ -134,7 +133,7 @@ ms.locfileid: "3331337"
 
 ## <a name=""></a><a name="Functions">الوظائف</a>
 
-يمكن استخدام وظائف التقارير الإلكترونية المُضمنة في تعبيرات التقارير الإلكترونية. ويمكن استخدام جميع مصادر البيانات لسياق التعبير (أي، تعيين نموذج التقارير الإلكترونية الحالية أو تنسيق التقارير الإلكترونية) كمعلمات لوظائف الاتصال، وفقًا لقائمة الوسائط لوظائف الاتصال. يمكن أيضًا استخدام الثوابت كمعلمات لدالات الاستدعاء. على سبيل المثال، يحتوي تعيين نموذج التقارير الإلكترونية الحالي على مصدر بيانات **InvoiceTransactions** ، ويُرجع مصدر البيانات هذا قائمة بالسجلات. تحتوي بنية السجل **InvoiceTransactions** على الحقلين **AmountDebit** و**AmountCredit**، اللذين يرجعان قيمًا رقمية. وبالتالي، لحساب المبلغ الذي تم تحرير فواتير به، يمكنك تصميم التعبير التالي الذي يستخدم توظيف تقريبي للتقارير الإلكترونية المُضمنة: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
+يمكن استخدام وظائف التقارير الإلكترونية المُضمنة في تعبيرات التقارير الإلكترونية. ويمكن استخدام جميع مصادر البيانات لسياق التعبير (أي، تعيين نموذج التقارير الإلكترونية الحالية أو تنسيق التقارير الإلكترونية) كمعلمات لوظائف الاتصال، وفقًا لقائمة الوسائط لوظائف الاتصال. يمكن أيضًا استخدام الثوابت كمعلمات لدالات الاستدعاء. على سبيل المثال، يحتوي تعيين نموذج التقارير الإلكترونية الحالي على مصدر بيانات **InvoiceTransactions** ، ويُرجع مصدر البيانات هذا قائمة بالسجلات. تحتوي بنية السجل **InvoiceTransactions** على الحقلين **AmountDebit** و **AmountCredit**، اللذين يرجعان قيمًا رقمية. وبالتالي، لحساب المبلغ الذي تم تحرير فواتير به، يمكنك تصميم التعبير التالي الذي يستخدم توظيف تقريبي للتقارير الإلكترونية المُضمنة: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
 عندما تقوم بتصميم تعيينات نموذج التقارير الإلكترونية وإعداد تقارير التقارير الإلكترونية، ويمكنك استخدام وظائف التقارير الإلكترونية من الفئات التالية:
 

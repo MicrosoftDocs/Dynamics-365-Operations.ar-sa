@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 210231bb442928674b490d83f50bf787d7bfa60c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181003"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688457"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>فتح كيان بيانات في Excel وتحديثه باستخدام الوظيفة الإضافية لبرنامج Excel
 
@@ -33,14 +32,14 @@ ms.locfileid: "2181003"
 من خلال فتح بيانات الكيان في Excel، يمكنك أن تقوم بسرعة وسهولة بعرض وتحرير البيانات باستخدام وظيفة Excel الإضافية. هذه الوظيفة الإضافية برنامج Microsoft Excel 2016.
 
 > [!NOTE]
-> إذا تم تكوين مستأجر Microsoft Azure Active Directory (Azure AD) لاستخدام خدمات الأمان المشترك لـ Active Directory‬ (أو AD FS)، فيجب التأكد من تطبيق تحديث مايو 2016 لـ Office، لتمكين وظيفة Excel الإضافية من تسجيل دخولك بشكل صحيح.
+> إذا تم تكوين مستأجر Microsoft Azure Active Directory (Azure AD) لاستخدام خدمات الأمان المشترك لـ Active Directory‬ (أو AD FS)، فيجب التأكد من تطبيق تحديث مايو 2016 لـ Office، لتمكين وظيفة Excel الإضافية من تسجيل دخولك بشكل صحيح.
 
 لمزيد من المعلومات حول استخدام أداة Excel الإضافية، شاهد الفيديو القصير [إنشاء قالب Excel لأنماط الرؤوس والبنود في Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>فتح بيانات الكيان في Excel عند بدء التشغيل من Finance and Operations
-1. على صفحة في Finance and Operations، حدد **فتح في Microsoft Office**.
+1. في صفحة في Finance and Operations، حدد **فتح في Microsoft Office**.
 
-    إذا كان مصدر البيانات الجذر (الجدول) للصفحة هو نفسه مصدر البيانات الجذر لأي كيانات، فسيتم إنشاء خيارات **فتح في Excel** الافتراضية للصفحة. يمكن العثور على خيارات **فتح في Excel** على الصفحات المستخدمة بشكل متكرر، مثل **كافة الموردين** و**كافة العملاء**.
+    إذا كان مصدر البيانات الجذر (الجدول) للصفحة هو نفسه مصدر البيانات الجذر لأي كيانات، فسيتم إنشاء خيارات **فتح في Excel** الافتراضية للصفحة. يمكن العثور على خيارات **فتح في Excel** على الصفحات المستخدمة بشكل متكرر، مثل **كافة الموردين** و **كافة العملاء**.
  
 2. حدد أحد خيارات **فتح في Excel**، وافتح المصنف الذي يتم إنشاؤه. يحتوي هذا المصنف على معلومات ربط للكيان ومؤشر إلى بيئتك ومؤشر إلى وظيفة Excel الإضافية.
 3. في Excel، حدد **تمكين التحرير** لتمكين تشغيل وظيفة Excel الإضافية. يتم تشغيل وظيفة Excel الإضافية في جزء يقع على الجانب الأيسر من نافذة Excel.
@@ -54,7 +53,7 @@ ms.locfileid: "2181003"
 2. في متجر Office، ابحث عن الكلمة الأساسية **Dynamics**، ثم حدد **إضافة‏‎** إلى جانب **وظيفة Microsoft Dynamics Office الإضافية** (وظيفة Excel الإضافية).
 3. إذا كنت تقوم بتشغيل وظيفة Excel الإضافية للمرة الأولى، فحدد **الثقة بهذه الوظيفة الإضافية** لتمكين تشغيل وظيفة Excel الإضافية. يتم تشغيل وظيفة Excel الإضافية في جزء يقع على الجانب الأيسر من نافذة Excel.
 4. حدد **إضافة معلومات الخادم** لفتح الجزء **خيارات**.
-5. في المستعرض، انسخ عنوان URL لمثيل Finance and Operations الهدف، والصقه في حقل **URL‏‎ الخادم**، ثم احذف كل شيء بعد اسم المضيف. يجب أن يتضمن عنوان URL الناتج فقط اسم المضيف.
+5. في المستعرض، انسخ عنوان URL لمثيل Finance and Operations الهدف، والصقه في حقل **عنوان URL للخادم**، ثم احذف كل شيء بعد اسم المضيف. يجب أن يتضمن عنوان URL الناتج فقط اسم المضيف.
 
     على سبيل المثال، إذا كان عنوان URL `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`، فاحذف كل شيء باستثناء `https://xxx.dynamics.com`.
 

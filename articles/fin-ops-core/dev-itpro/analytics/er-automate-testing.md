@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771434"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681438"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
 
@@ -60,7 +59,7 @@ ms.locfileid: "2771434"
 قبل أن تتمكن من استكمال المهام في هذا الموضوع، يجب إتمام المهام اللازمة التالية:
 
 - نشر مخطط يدعم التنفيذ التلقائي للاختبار. يجب أن يكون لديك حق الوصول إلى مثيل هذا المخطط لدور **مسؤول النظام**. يجب أن يحتوي هذا المخطط على بيانات العرض التوضيحي التي سيتم استخدامها في هذا المثال. لمزيد من المعلومات، راجع [نشر واستخدام بيئة تدعم البناء المستمر والتنفيذ التلقائي للاختبار‬ات](../perf-test/continuous-build-test-automation.md).
-- لتشغيل اختبارات قبول المستخدم والتكامل تلقائيا، يجب عليك تثبيت RSAT في المخطط الذي تستخدمه وتكوينه بالطريقة المناسبة. للحصول على معلومات حول كيفية تثبيت وتكوين RSAT للعمل مع تطبيقات Finance and Operations وAzure DevOps، راجع [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). انتبه إلى المتطلبات الأساسية لاستخدام الأداة. يبين الرسم التوضيحي التالي مثالاً لإعدادات RSAT. المستطيل الأزرق يحيط بالمعلمات التي تحدد الوصول إلى Azure DevOps. المستطيل الأخضر يحيط بالمعلمات التي تحدد الوصول إلى المثيل.
+- لتشغيل اختبارات قبول المستخدم والتكامل تلقائيا، يجب عليك تثبيت RSAT في المخطط الذي تستخدمه وتكوينه بالطريقة المناسبة. للحصول على معلومات حول كيفية تثبيت وتكوين RSAT وتكوينه للعمل مع تطبيقات Finance and Operations وAzure DevOps، راجع [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). انتبه إلى المتطلبات الأساسية لاستخدام الأداة. يبين الرسم التوضيحي التالي مثالاً لإعدادات RSAT. المستطيل الأزرق يحيط بالمعلمات التي تحدد الوصول إلى Azure DevOps. المستطيل الأخضر يحيط بالمعلمات التي تحدد الوصول إلى المثيل.
 
     ![إعدادات RSAT](media/GER-Configure.png "لقطة شاشة لمربع حوار إعدادات RSAT")
 

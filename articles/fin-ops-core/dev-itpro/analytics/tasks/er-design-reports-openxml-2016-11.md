@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142122"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681891"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML (نوفمبر 2016)
 
@@ -92,29 +91,29 @@ ms.locfileid: "3142122"
 18. حدد **موافق**.
 
 ## <a name="map-format-components-to-data-sources"></a>تعيين مكونات التنسيق بمصادر البيانات
-1. في الشجرة، حدد **النموذج\المدفوعات‏‎‏‎\الطرف البادئ‬(InitiatingParty)\الاسم** و**Excel\ReportHeader\CompanyName**.
+1. في الشجرة، حدد **النموذج\المدفوعات‏‎‏‎\الطرف البادئ‬(InitiatingParty)\الاسم** و **Excel\ReportHeader\CompanyName**.
 2. حدد **ربط**.
-3. في الشجرة، حدد **النموذج\المدفوعات‏‎‏‎\الدائن‬\التعريف\معرف المصدر‬(SourceID)** و**Excel\PaymLines\VendAccountName**.
+3. في الشجرة، حدد **النموذج\المدفوعات‏‎‏‎\الدائن‬\التعريف\معرف المصدر‬(SourceID)** و **Excel\PaymLines\VendAccountName**.
 4. حدد **ربط**.
-5. في الشجرة، حدد **النموذج\المدفوعات\الدائن‬\الاسم** و**Excel\PaymLines\VendName**.
+5. في الشجرة، حدد **النموذج\المدفوعات\الدائن‬\الاسم** و **Excel\PaymLines\VendName**.
 6. حدد **ربط**.
-7. في الشجرة، حدد **النموذج\المدفوعات\وكيل دائن‬(CreditorAgent)‬\الاسم** و**Excel\PaymLines\Bank**.
+7. في الشجرة، حدد **النموذج\المدفوعات\وكيل دائن‬(CreditorAgent)‬\الاسم** و **Excel\PaymLines\Bank**.
 8. حدد **ربط**.
-9. في الشجرة، حدد **النموذج\المدفوعات\وكيل دائن‬(CreditorAgent)‬\رقم التوجيه(RoutingNumber)** و**Excel\PaymLines\RoutingNumber**.
+9. في الشجرة، حدد **النموذج\المدفوعات\وكيل دائن‬(CreditorAgent)‬\رقم التوجيه(RoutingNumber)** و **Excel\PaymLines\RoutingNumber**.
 10. حدد **ربط**.
-11. في الشجرة، حدد **النموذج\المدفوعات\حساب الدائن(CreditorAccount)\تعريف\رقم** و**Excel\PaymLines\AccountNumber**.
+11. في الشجرة، حدد **النموذج\المدفوعات\حساب الدائن(CreditorAccount)\تعريف\رقم** و **Excel\PaymLines\AccountNumber**.
 12. حدد **ربط**.
-13. في الشجرة، حدد **النموذج\المدفوعات\المبلغ المحدد في الإرشادات(InstructedAmount)** و**Excel\PaymLines\Debit**.
+13. في الشجرة، حدد **النموذج\المدفوعات\المبلغ المحدد في الإرشادات(InstructedAmount)** و **Excel\PaymLines\Debit**.
 14. حدد **ربط**.
-15. في الشجرة، حدد **النموذج\المدفوعات\العملة** و**Excel\PaymLines\Currency‎**.
+15. في الشجرة، حدد **النموذج\المدفوعات\العملة** و **Excel\PaymLines\Currency‎**.
 16. حدد **ربط**.
-17. في الشجرة، حدد **PaymentByCurrency\مجمعة\العملة** و**Excel\SummaryLines\SummaryCurrency**.
+17. في الشجرة، حدد **PaymentByCurrency\مجمعة\العملة** و **Excel\SummaryLines\SummaryCurrency**.
 18. حدد **ربط**.
-19. في الشجرة، حدد **PaymentByCurrency\مجمعة\TotalInstructuredAmount** و**Excel\SummaryLines\SummaryAmount**.
+19. في الشجرة، حدد **PaymentByCurrency\مجمعة\TotalInstructuredAmount** و **Excel\SummaryLines\SummaryAmount**.
 20. حدد **ربط**.
-21. في الشجرة، حدد **PaymentByCurrency** و**Excel\SummaryLines**.
+21. في الشجرة، حدد **PaymentByCurrency** و **Excel\SummaryLines**.
 22. حدد **ربط**.
-23. في الشجرة، حدد **النموذج\المدفوعات** و**Excel\PaymLines‎**.
+23. في الشجرة، حدد **النموذج\المدفوعات** و **Excel\PaymLines‎**.
 24. حدد **ربط**.
 25. حدد **حفظ** ثم قم بإغلاق الصفحة.
 

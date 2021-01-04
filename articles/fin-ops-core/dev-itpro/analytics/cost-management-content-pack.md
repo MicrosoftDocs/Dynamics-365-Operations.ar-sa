@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4e12abceeef59d05fa21cb030b8aa738842cafb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982787"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683885"
 ---
 # <a name="cost-management-power-bi-content"></a>محتوى "إدارة التكلفة‬" في Power BI
 
@@ -41,13 +40,13 @@ ms.locfileid: "3982787"
 
 يوفر محتوى Power BI هذا تنسيقًا مصنفًا يساعدك على مراقبة أداء عمليات الجرد وتصور كيفية تدفق التكاليف من خلالها. يمكنك الحصول على رؤى إدارية مثل نسبة معدل الدوران، وعدد الأيام التي يتوفر فيها المخزون، والدقة و"تصنيف ABC" بالمستوى المفضل لديك (الشركة أو الصنف أو مجموعة الأصناف أو الموقع). يمكن استخدام المعلومات التي تم توفيرها أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
 
-تم بناء محتوى Power BI على القياس المجمع **CostObjectStatementCacheMonthly** الذي يتضمن الجدول **CostObjectStatementCache** كمصدر بيانات رئيسي له. يُدار هذا الجدول من خلال إطار عمل ذاكرة التخزين المؤقت لمجموعة البيانات. وبشكل افتراضي، يتم تحديث الجدول كل 24 ساعة، ولكن يمكنك تغيير تكرار التحديث أو تمكين التحديثات اليدوية في تكوين ذاكرة التخزين المؤقت للبيانات. يمكن تشغيل التحديثات اليدوية إما في مساحة عمل **إدارة التكاليف** أو مساحة عمل **تحليل التكاليف** .
+تم بناء محتوى Power BI على القياس المجمع **CostObjectStatementCacheMonthly** الذي يتضمن الجدول **CostObjectStatementCache** كمصدر بيانات رئيسي له. يُدار هذا الجدول من خلال إطار عمل ذاكرة التخزين المؤقت لمجموعة البيانات. وبشكل افتراضي، يتم تحديث الجدول كل 24 ساعة، ولكن يمكنك تغيير تكرار التحديث أو تمكين التحديثات اليدوية في تكوين ذاكرة التخزين المؤقت للبيانات. يمكن تشغيل التحديثات اليدوية إما في مساحة عمل **إدارة التكاليف** أو مساحة عمل **تحليل التكاليف**.
 
-بعد كل عملية تحديث لجدول **CostObjectStatementCache** ، يجب تحديث القياس المجمع **CostObjectStatementCacheMonthly** قبل تحديث البيانات في مرئيات Power BI.
+بعد كل عملية تحديث لجدول **CostObjectStatementCache**، يجب تحديث القياس المجمع **CostObjectStatementCacheMonthly** قبل تحديث البيانات في مرئيات Power BI.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 
-يظهر محتوى **إدارة التكلفة** في Power BI في مساحتي العمل **إدارة التكلفة** و **تحليل التكلفة‬** .
+يظهر محتوى **إدارة التكلفة** في Power BI في مساحتي العمل **إدارة التكلفة** و **تحليل التكلفة‬**.
 
 تحتوي مساحة عمل **إدارة التكاليف** على علامات التبويب التالية:
 

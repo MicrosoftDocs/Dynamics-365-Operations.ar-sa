@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 56545e56201180bf73420bf73f9a9f6e7a426b33
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811591"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695027"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)‬
 
@@ -30,7 +29,7 @@ ms.locfileid: "2811591"
 
 يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (نوفمبر 2016 – كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة.
 
-تحتوي المكتبة الموحدة APQC (نوفمبر 2016 - كل اللغات) على دلائل المهام المخصصة لاستخدامها لنظام التعليمات مع Microsoft Dynamics 365 for Operations وMicrosoft Dynamics 365 for Operations platform update 3 وMicrosoft Dynamics AX Platform update 2 وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 من تطبيق Microsoft Dynamics AX . لمزيد من المعلومات حول هذه الإصدارات، راجع [ما الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [نظام التعليمات](help-overview.md).
+تحتوي المكتبة الموحدة APQC (نوفمبر 2016 - كل اللغات) على دلائل المهام المخصصة لاستخدامها لنظام التعليمات مع Microsoft Dynamics 365 for Operations وMicrosoft Dynamics 365 for Operations platform update 3 وMicrosoft Dynamics AX Platform update 2 وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 من تطبيق Microsoft Dynamics AX . لمزيد من المعلومات حول هذه الإصدارات، راجع [الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [نظام التعليمات](help-overview.md).
 
 > [!NOTE]
 > تشير العلامة النجمية (\*) إلى جانب عنوان بند أداة تكوين عمليات الأعمال إلى إنشاء دليل المهام لعملية الأعمال هذه لتحديث نوفمبر 2016 لتطبيق Dynamics 365 for Operations وهو غير معتمد في الإصدارات السابقة من Microsoft Dynamics AX.

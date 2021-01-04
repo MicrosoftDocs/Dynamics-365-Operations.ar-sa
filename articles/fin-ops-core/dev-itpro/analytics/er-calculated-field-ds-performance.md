@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a87098e82284a4951f3a4de050f6ba3f587fd20a
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760072"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681270"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>تحسين أداء حلول التقارير الإلكترونية‬ عن طريق إضافة مصادر بيانات الحقول المحسوبة ذات معلمات
 
@@ -89,7 +88,7 @@ ms.locfileid: "3760072"
 1. في صفحة **التكوينات**، في شجرة التكوين، وسَّع **نموذج تحسين الأداء**، ثم حدد **تنسيق تحسين الأداء**.
 2. في جزء الإجراءات، حدد **المصمم**.
 3. في الصفحة **مصمم التنسيق**، على علامة التبويب **التعيين**، حدد **توسيع/طي**.
-4. قم بتوسيع عناصر **النموذج**، و**البيانات**، و**الحركة**.
+4. قم بتوسيع عناصر **النموذج**، و **البيانات**، و **الحركة**.
 
     تم تصميم تنسيق التقارير الإلكترونية هذا لإنشاء تقرير حركات المورّد بتنسيق XML.
 
@@ -263,7 +262,7 @@ ms.locfileid: "3760072"
 4. في علامة التبويب **المرفقات**، عيّن المعلمات التالية:
 
     - في حقل **التكوينات**، حدد نوع **الملف** لشركة **DEMF**.
-    - في حقول **أرشيف الوظيفة** و**المؤقت** و**الأساس** و**أخرى**، حدد نوع **الملف**.
+    - في حقول **أرشيف الوظيفة** و **المؤقت** و **الأساس** و **أخرى**، حدد نوع **الملف**.
 
 لمزيد من المعلومات حول معلمات ER ، راجع [تكوين إطار عمل ER](electronic-reporting-er-configure-parameters.md).
 

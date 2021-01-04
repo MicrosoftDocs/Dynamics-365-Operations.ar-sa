@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859e74b869fcf9b8a886f27f67f51bdf28819979
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: 1c9cecabb7923e86e8aa09eed7bd3b1ba5ee0bd8
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698233"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694851"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>تكوين القرارات اليدوية في سير عمل
 
@@ -80,7 +79,7 @@ ms.locfileid: "3698233"
 
 ## <a name="specify-the-possible-outcomes-of-a-decision"></a>تحديد النتائج المحتملة لقرار
 
-بشكل عام، عند تعيين مستند إلى صانع قرار، يُطرح سؤال على صانع القرار. تكون الإجابة على السؤال عادةً **نعم**أو **لا**، أو **صحيح** أو **خطأ**. اتبع هذه الخطوات لتحديد النتائج المحتملة للقرار اليدوي.
+بشكل عام، عند تعيين مستند إلى صانع قرار، يُطرح سؤال على صانع القرار. تكون الإجابة على السؤال عادةً **نعم** أو **لا**، أو **صحيح** أو **خطأ**. اتبع هذه الخطوات لتحديد النتائج المحتملة للقرار اليدوي.
 
 1. في الجزء الأيمن، انقر فوق **الإعدادات الأساسية‬**.
 2. على علامة تبويب **النتائج**، في حقل **الناتج 1**، أدخل اسم الناتج أو الخيار.
@@ -338,7 +337,7 @@ ms.locfileid: "3698233"
 اتبع الخطوات التالية إذا كان يجب اتخاذ القرار في وقت معين.
 
 > [!NOTE]
-> ستقوم الخيارات التي تحددها هنا بتجاوز الخيارات التي حددتها في ناحيتي **التعيين** و**التصعيد** على الصفحة.
+> ستقوم الخيارات التي تحددها هنا بتجاوز الخيارات التي حددتها في ناحيتي **التعيين** و **التصعيد** على الصفحة.
 
 1. في الجزء الأيمن، انقر فوق **إعدادات متقدمة‬**.
 2. حدد خانة الاختيار **تعيين حد زمني لعنصر سير العمل**.

@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248703"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695105"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>إعداد البرنامج التعليمي للأداة Regression Suite Automation Tool وتثبيته
 هذا الموضوع هو برنامج تعليمي يساعدك على الحصول على الإعداد والبدء باستخدام RSAT والأدوات المقترنة باستخدام RSAT. 
@@ -247,7 +246,7 @@ ms.locfileid: "3248703"
 
     ![زر إنشاء تسجيل](./media/setup_rsa_tool_28.png)
 
-4. املأ حقلي **اسم التسجيل** و**وصف التسجيل**، ثم حدد **بدء**.
+4. املأ حقلي **اسم التسجيل** و **وصف التسجيل**، ثم حدد **بدء**.
 
     ![حقلي ‏‎اسم التسجيل‏‎ و‎وصف التسجيل‏‎](./media/setup_rsa_tool_29.png)
 
@@ -387,7 +386,7 @@ ms.locfileid: "3248703"
 
     ![AOSService في قائمة المواقع](./media/setup_rsa_tool_49.png)
 
-3. انقر بزر الماوس الأيمن فوق **استكشاف** لفتح المجلد **\<Drive\>: \\AosService\\WebRoot**: ابحث عن المجلد **wif.config**.
+3. انقر بزر الماوس الأيمن فوق **استكشاف** لفتح المجلد **\<Drive\>: \\AosService\\WebRoot**. ابحث عن المجلد **wif.config**.
 
     ![ملف Wif.config في المجلد WebRoot](./media/setup_rsa_tool_50.png)
 
@@ -501,7 +500,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     - **رمز الوصول المميز** - أدخل رمز الوصول المميز الذي يتيح للأداة الاتصال بـ Azure DevOps. واستخدم رمز الوصول المميز الشخصي الذي قمت بإنشائه مسبقًا في هذا البرنامج التعليمي. وللحصول على المزيد من المعلومات، راجع [مصادقة الوصول باستخدام رموز الوصول المميزة الشخصية](https://www.visualstudio.com/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate).
     - **اسم المشروع** - حدد اسم مشروع Azure DevOps الخاص بك.
     - **خطة الاختبار** - حدد خطة اختبار Azure DevOps التي تتضمن حالات الاختبار الخاصة بك. للحصول على المزيد من المعلومات، راجع [إنشاء خطط اختبار ومجموعات اختبار](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). وبعد تحديد خطة اختبار، حدد **اختبار الاتصال** لاختبار اتصالك بـ Azure DevOps.
-    - **اسم المضيف** - أدخل اسم المضيف لبيئة الاختبار، مثل **\<myaos\>.cloudax.dynamics.com**. لا تقم بتضمين البادئة **https://** أو **http://**
+    - **اسم المضيف** – أدخل اسم المضيف لبيئة الاختبار، مثل **\<myaos\>.cloudax.dynamics.com**. لا تقم بتضمين البادئة **https://** أو **http://**
     - **اسم مضيف SOAP** - أدخل اسم مضيف SOAP لبيئة الاختبار. وعادةً ما يكون اسم مضيف SOAP هو اسم المضيف نفسه، ولكنه يحتوي على لاحقة **soap**. وفيما يلي مثال: **\<myaos\>soap.cloudax.dynamics.com**. لا تقم بتضمين البادئة **https://** أو **http://**
 
         > [!NOTE]
@@ -563,7 +562,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![يتم تعيين دقة سطح المكتب إلى 100%](./media/setup_rsa_tool_68.png)
 
-6. إذا لم يتم تثبيت برامج تشغيل المستعرض في النظام، فستتلقى رسالة تحذير تنص على أن "هذه العملية تتطلب برنامج التشغيل \<اسم المستعرض\>. هل تريد تنزيله وتثبيته تلقائيًا الآن؟ " حدد **نعم**.
+6. إذا لم يتم تثبيت برامج تشغيل المستعرض في النظام، فستتلقى رسالة تحذير تنص على أن "هذه العملية تتطلب برنامج تشغيل \<browser name\>. هل تريد تنزيله وتثبيته تلقائيًا الآن؟ " حدد **نعم**.
 
     ![رسالة تحذير من أجل Internet Explorer](./media/setup_rsa_tool_69.png)
 

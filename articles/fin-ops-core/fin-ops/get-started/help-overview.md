@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367328"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695129"
 ---
 # <a name="help-system"></a>نظام التعليمات
 
@@ -49,7 +48,7 @@ ms.locfileid: "3367328"
 
 يمكنك العثور على محتوى docs.microsoft.com باستخدام أي محرك بحث. للحصول على أفضل النتائج، ننصحك باستخدام البحث في الموقع، مثل **مصطلح البحث site:docs.microsoft.com dynamics 365**.
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>الحصول على إعلام بشأن التغييرات من خلال موجز RSS
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>الحصول على إعلام بشأن التغييرات من خلال موجز RSS
 
 للاشتراك في موجز المشاركة البسيطة للغاية (RSS) لكافة التحديثات الخاصة بالمحتوى الموجود على docs.microsoft.com، استخدم الارتباط التالي:
 
@@ -59,7 +58,7 @@ ms.locfileid: "3367328"
 
 إذا كانت لديك ملاحظات أو أسئلة حول أحد الموضوعات، فأرسل لنا تعليق في أسفل الصفحة.
 
-1. حدد **الملاحظة** للحصول على الملاحظات في أسفل الصفحة. بعد ذلك ، حدد **ملاحظات المنتج**أو **قم بتسجيل الدخول لتقديم ملاحظات الوثائق**.
+1. حدد **الملاحظة** للحصول على الملاحظات في أسفل الصفحة. بعد ذلك ، حدد **ملاحظات المنتج** أو **قم بتسجيل الدخول لتقديم ملاحظات الوثائق**.
 
 2. ابدأ كتابة تعليقاتك، ثم حدد **إرسال الملاحظات**.
 
@@ -68,7 +67,7 @@ ms.locfileid: "3367328"
 > [!NOTE]
 > إذا كنت ترغب في إرسال ملاحظات الوثائق، فيجب عليك تسجيل الدخول باستخدام حساب GitHub. لمزيد من المعلومات، راجع [إعداد ملف تعريف GitHub وإدارته](https://help.github.com/github/setting-up-and-managing-your-github-profile).
 
-### <a name="contribute-to-the-documentation"></a>المساهمة في الوثائق
+## <a name="contribute-to-the-documentation"></a>المساهمة في الوثائق
 
 يمكنك المساهمة وإجراء عمليات تحرير على الوثائق. للشروع في العمل، حدد زر **تحرير** (القلم الرصاص) في أحد الموضوعات. يوضح الفيديو التالي كيف يمكنك المساهمة في وثائقنا.
 

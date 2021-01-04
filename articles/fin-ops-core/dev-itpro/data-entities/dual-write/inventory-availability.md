@@ -19,11 +19,11 @@ ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
 ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997882"
+ms.locfileid: "4449363"
 ---
 # <a name="inventory-availability-in-dual-write"></a>توفر المخزون في الكتابة المزدوجة
 

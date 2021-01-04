@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: ca837026f18034cddb34d7a2d5a62002ed69106a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: b51a7ae8587a3cbb65efc4af574929efcbc8fbf8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042747"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681462"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
 
@@ -141,7 +140,7 @@ ms.locfileid: "3042747"
 3.  في مربع الحوار الذي يظهر، حدد **موافق**.
 4.  تنزيل كشف الحساب الذي تم إنشاؤه وتخزينه محليا.
 
-    في العبارة التي تم إنشاؤها، لاحظ أنه تم وضع كود الضريبة **InVAT7** في المستوى **المخفض**، وتم وضع ملخصات أكواد الضرائب **VAT19** و**InVA19** في المستوى **العادي**. يتم تحديد هذا السلوك بواسطة التكوين في مجموعه القواعد التابعة للكيان القانوني.
+    في العبارة التي تم إنشاؤها، لاحظ أنه تم وضع كود الضريبة **InVAT7** في المستوى **المخفض**، وتم وضع ملخصات أكواد الضرائب **VAT19** و **InVA19** في المستوى **العادي**. يتم تحديد هذا السلوك بواسطة التكوين في مجموعه القواعد التابعة للكيان القانوني.
     
 5.  انتقل إلى **الضريبة \> الضرائب غير المباشرة \> ضريبة المبيعات \> أكواد ضرائب المبيعات**.
 6.  حدد كود الضريبة **InVAT7**.

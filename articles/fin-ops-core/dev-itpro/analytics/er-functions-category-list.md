@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
-ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
+ms.openlocfilehash: e2e708c59bceebf845ee78c98057133bb2892cf9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3687948"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686161"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>قائمة وظائف التقارير الإلكترونية في فئة القائمة
 
 [!include [banner](../includes/banner.md)]
 
-يُمكن استخدام وظائف قائمة التقارير الإلكترونية (ER) لاستخراج المعلومات من وتنفيذ العمليات علي مصادر البيانات من نوع البيانات *قائمة السجلات* و*حاوية (سجل)*. يعرض هذا الموضوع ملخصًا لهذه الوظائف.
+يُمكن استخدام وظائف قائمة التقارير الإلكترونية (ER) لاستخراج المعلومات من وتنفيذ العمليات علي مصادر البيانات من نوع البيانات *قائمة السجلات* و *حاوية (سجل)*. يعرض هذا الموضوع ملخصًا لهذه الوظائف.
 
 ## <a name="list-of-supported-functions"></a>قائمة الوظائف المدعومة
 

@@ -10,31 +10,30 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cbecf178d0588c51b831fbd55b536d3e4e41c27
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771109"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682735"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>حل محتوى PowerBI.com للأداء المالي
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> تم إهمال حل PowerBI.com هذا كما هو موثق في [الميزات التي تمت ازالتها أو إهمالها لـ Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> تم إهمال حل PowerBI.com هذا كما هو موثق في [الميزات المزالة أو المهملة لـ Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 يصف هذا الموضوع حل PowerBI.com **للأداء المالي**  إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء الحل.
 
 ## <a name="main-account-setup"></a>إعداد الحساب الرئيسي
-لأن المؤسسات تريد أن تظهر التزاماتها ومبالغ الإيراد كمبالغ موجبة في التقارير، يُعد إعداد الحسابات الرئيسية أمرًا بالغ الأهمية. بالنسبة لهذه الحسابات الرئيسية لتظهر كمبالغ موجبه، يجب تعيين نوع الحساب الرئيسي على **الالتزام** أو **الإيراد**. عند استخدام أنواع الحسابات هذه، سوف يقوم الإبلاغ من خلال Power BI بعكس العلامات، وإظهار المبالغ كمبالغ موجبة.
+لأن المؤسسات تريد أن تظهر التزاماتها ومبالغ الإيراد كمبالغ موجبة في التقارير، يُعد إعداد الحسابات الرئيسية أمرًا بالغ الأهمية. بالنسبة لهذه الحسابات الرئيسية لتظهر كمبالغ موجبه، يجب تعيين نوع الحساب الرئيسي على **الالتزام** أو **الإيراد**. عند استخدام أنواع الحسابات هذه، سوف يقوم الإبلاغ من خلال Power BI بعكس العلامات، وإظهار المبالغ كمبالغ موجبة.
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>لوحة المعلومات والتقارير المضمنة في حل PowerBI.com
 تحتوي لوحة المعلومات على إطارات متجانبة ملخصة للبيانات تستند إلى التقارير الأساسية. ويحتوي كل إطار متجانب على معلومات ملخصة للسنة الحالية في كافة الشركات في مؤسسة. فيما يلي بعض التجانبات:

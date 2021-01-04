@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e2eb131db8e167868913f036149779133c1d46ed
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812426"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694928"
 ---
 # <a name="human-resources-overview"></a>نظرة عامة على الموارد البشرية
 
@@ -64,7 +63,7 @@ ms.locfileid: "2812426"
 
 ## <a name="develop-and-train-employees"></a>تطوير الموظفين وتدريبهم
 
-لمساعدة الموظفين لديك على بلوغ أهدافهم الوظيفية مع تلبية احتياجات العمل الهامة، يمكنك إعداد أهداف، وإنشاء مراجعات أداء، وتعقب الملاحظات. لمساعدة الموظفين على تطوير المهارات اللازمة، يمكنك أيضًا إعداد بيانات الموجهين‬ وأنواع الدورات التدريبية وأسمائها، وأوصافها، وجداول أعمالها ومساراتها وجلسات العمل الخاصة بها قبل تعيين أي موجه للدورة التدريبية أو تسجيل أي شخص لحضور الدورة التدريبية. يحب وجود المعلمين بالفعل كعمال أو مقدمي طلبات أو كجهات اتصال.
+لمساعدة الموظفين لديك على بلوغ أهدافهم الوظيفية مع تلبية احتياجات العمل الهامة، يمكنك إعداد أهداف، وإنشاء مراجعات أداء، وتعقب الملاحظات. لمساعدة الموظفين على تطوير المهارات اللازمة، يمكنك أيضًا إعداد بيانات الموجهين‬ وأنواع الدورات التدريبية وأسمائها، وأوصافها، وجداول أعمالها ومساراتها وجلسات العمل الخاصة بها قبل تعيين أي موجه للدورة التدريبية أو تسجيل أي شخص لحضور الدورة التدريبية. من الضروري وجود المعلمين كعاملين أو مقدمي طلبات أو كجهات اتصال.
 
 - [إدارة الأداء](../../../talent/performance-management-overview.md)
 - [مواءمة احتياجات العمل مع مهارات العاملين](../../../talent/skills.md)

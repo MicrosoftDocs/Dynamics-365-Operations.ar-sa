@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perahlff
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: e3acd96e686260da3ed67b8ac823be45b8ea870f
-ms.sourcegitcommit: 708b3966b1c2bd4999f528d4a03a89d9bb530616
+ms.openlocfilehash: 2577705b04beef1f8b03f83ed8536be2e6ab6e83
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100488"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683911"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>تكوين خدمات SQL Server Reporting Services لعمليات النشر المحلي
 
@@ -31,7 +30,7 @@ ms.locfileid: "3100488"
 استخدم الخطوات في هذا الموضوع لتكوين SQL Server Reporting Services (SSRS) لعملية نشر Microsoft Dynamics 365 Finance + Operations (محلي).
 
 1. افتح تطبيق إدارة تكوين خدمات التقارير.
-2. اترك **اسم الخادم** الافتراضي، الذي يجب أن يكون اسم الجهاز الحالي، و**مثيل خادم التقارير**، **MSSQLSERVER**.
+2. اترك **اسم الخادم** الافتراضي، الذي يجب أن يكون اسم الجهاز الحالي، و **مثيل خادم التقارير**، **MSSQLSERVER**.
 3. انقر فوق **اتصال**.
 
     [![اتصال تكوين خدمات التقارير](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)
@@ -44,7 +43,7 @@ ms.locfileid: "3100488"
 
     [![علامة تبويب عنوان URL لخدمة الويب](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)
 
-6. انقر فوق علامة تبويب **قاعدة البيانات** وتأكد من تطابق **اسم قاعدة البيانات** و**إعدادات بيانات الاعتماد** مع الصورة التالية.
+6. انقر فوق علامة تبويب **قاعدة البيانات** وتأكد من تطابق **اسم قاعدة البيانات** و **إعدادات بيانات الاعتماد** مع الصورة التالية.
 
     > [!NOTE]
     > ستحتاج إلى إنشاء قاعدة بيانات جديدة. للقيام بذلك، انقر فوق **تغيير قاعدة البيانات**، ثم تحقق من أن اسم قاعدة البيانات الجديدة هو: **DynamicsAxReportServer‎**.

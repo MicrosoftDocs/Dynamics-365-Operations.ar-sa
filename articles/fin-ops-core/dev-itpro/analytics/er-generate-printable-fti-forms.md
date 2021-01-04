@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: 168cef1b5f5d48cb739b08fa395c1bcd62089494
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893353"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686704"
 ---
 # <a name="generate-printable-fti-forms"></a>إنشاء نماذج فاتورة نص حر (FTI) قابلة للطباعة
 
@@ -179,7 +178,7 @@ ms.locfileid: "3893353"
 #### <a name="finland"></a>فنلندا
 بالإضافة إلى نموذج الفاتورة المُنشأة، يمكن إنشاء قسائم الحوالة النقدية بنظام giro‬ كما يلي:
 
-- للكيان القانوني الذي يستخدم سياق البلد/المنطقة لفنلندا، وله حساب بنكي واحد على الأقل وضعت عليه علامة **حساب Giro** و**الرمز الشريطي للبنك‬**. 
+- للكيان القانوني الذي يستخدم سياق البلد/المنطقة لفنلندا، وله حساب بنكي واحد على الأقل وضعت عليه علامة **حساب Giro** و **الرمز الشريطي للبنك‬**. 
 - بالنسبة إلى فاتورة تم وضع علامة عليها على أنها مطلوبة لمرفق الدفع المقترن **الفنلندي**.
 
 ![قسيمة Giro](media/FTIbyGER-GiroSlip.PNG)

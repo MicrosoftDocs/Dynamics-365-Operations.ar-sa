@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 927a41f39e9ba9c05a7af0b962972168afa7a1ea
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: b6f4f6a3fdf07ae267f92eedd312c6c721f18429
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698281"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692882"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>تكوين عمليات الاعتماد في سير عمل
 
@@ -150,7 +149,7 @@ ms.locfileid: "3698281"
 اتبع الخطوات التالية إذا كان يجب إكمال عملية الاعتماد في وقت معين.
 
 > [!NOTE]
-> ستقوم الخيارات التي تحددها هنا بإبطال الخيارات التي حددتها في الناحيتين  **تعيين** و**تصعيد** لكل خطوة اعتماد.
+> ستقوم الخيارات التي تحددها هنا بإبطال الخيارات التي حددتها في الناحيتين  **تعيين** و **تصعيد** لكل خطوة اعتماد.
 
 1. في الجزء الأيمن، انقر فوق **إعدادات متقدمة‬**.
 2. حدد خانة الاختيار **تعيين حد زمني** **لعنصر سير العمل**.

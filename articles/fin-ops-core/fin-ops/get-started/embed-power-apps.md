@@ -3,7 +3,7 @@ title: تضمين تطبيقات اللوحة من Power Apps
 description: يصف هذا الموضوع كيفية تضمين تطبيقات اللوحة من Microsoft Power Apps في العميل لزيادة الأداء الوظيفي للمنتج.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: ba3b736aeae8540349309ddd82bd431720b9701c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893097"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693473"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>تضمين تطبيقات اللوحة من Power Apps
 
@@ -57,9 +56,9 @@ ms.locfileid: "3893097"
 3. تكوين التطبيق المضمن:
 
     - يشير الحقل **الاسم** إلى النص الذي يظهر للزر أو علامة التبويب التي سوف تحتوي على الطبيق المضمن. قد تحتاج في كثير من الأحيان إلى تكرار اسم التطبيق في هذا الحقل.
-    - يشير الحقل **معرف التطبيق** المعرف الفريد العمومي (GUID) لتطبيق اللوحة الذي تريد تضمينه. لاسترداد هذه القيمة، ابحث عن التطبيق في [web.powerapps.com](https://web.powerapps.com)، ثم ابحث عن حقل **معرف التطبيق** تحت **التفاصيل‏‎**.
+    - يشير الحقل **معرف التطبيق** المعرف الفريد العمومي (GUID) لتطبيق اللوحة الذي تريد تضمينه. لاسترداد هذه القيمة، ابحث عن التطبيق في [make.powerapps.com](https://make.powerapps.com)، ثم ابحث عن حقل **معرف التطبيق** تحت **التفاصيل‏‎**.
     - بالنسبة إلى **سياق الإدخال للتطبيق**، يمكنك اختياريًا تحديد الحقل الذي يحتوي على البيانات التي تريد تمريرها إلى التطبيق كإدخال. راجع القسم اللاحق في هذا الموضوع بعنوان [إنشاء تطبيق يستفيد من البيانات من تطبيقات Finance and Operations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) للحصول على تفاصيل حول كيفية وصول التطبيق إلى البيانات المرسلة من تطبيقات Finance and Operations.
-    - اختر **حجم التطبيق** المطابق لنوع التطبيق الذي تقوم بتضمينه. حدد **رفيع** للتطبيقات التي يتم إنشاؤها للأجهزة المحمولة، و**عريض** للتطبيقات التي يتم إنشاؤها لأجهزة الكمبيوتر اللوحية. يضمن تخصيص مساحة كافية للتطبيق المضمن.
+    - اختر **حجم التطبيق** المطابق لنوع التطبيق الذي تقوم بتضمينه. حدد **رفيع** للتطبيقات التي يتم إنشاؤها للأجهزة المحمولة، و **عريض** للتطبيقات التي يتم إنشاؤها لأجهزة الكمبيوتر اللوحية. يضمن تخصيص مساحة كافية للتطبيق المضمن.
     - توفر علامة التبويب السريعة **الكيانات القانونية** القدرة على اختيار الكيانات القانونية التي يتوفر لها التطبيق. الإعداد الافتراضي هو إمكانية وصول جميع الكيانات القانونية للتطبيق. لا يتوفر هذا الخيار إلا عند تعطيل ميزة [طرق العرض المحفوظة](saved-views.md). 
 
 4. بعد التأكد من أن إعدادات التكوين صحيحة، انقر فوق **إدراج** لتضمين Power App في الصفحة. ستكون مطالبًا بتحديث المستعرض لرؤية التطبيق المضمن.

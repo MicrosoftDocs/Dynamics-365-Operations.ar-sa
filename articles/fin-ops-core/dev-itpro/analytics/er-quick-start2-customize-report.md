@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67763b29744c4262249ef1ec04e7df490b31fe5b
-ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
+ms.openlocfilehash: 20e7a32ac5f6ab21f89ed3c11c64458286864c9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3498077"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680160"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ضبط تنسيق ER لإنشاء مستند إلكتروني مخصص
 
@@ -99,7 +98,7 @@ ms.locfileid: "3498077"
 4. في علامة التبويب **المرفقات**، عيّن المعلمات التالية:
 
     - في حقل **التكوينات**، حدد نوع **الملف** لشركة **USMF**.
-    - في حقول **أرشيف الوظيفة** و**المؤقت** و**الأساس** و**أخرى**، حدد نوع **الملف**.
+    - في حقول **أرشيف الوظيفة** و **المؤقت** و **الأساس** و **أخرى**، حدد نوع **الملف**.
 
 لمزيد من المعلومات حول معلمات ER ، راجع [تكوين إطار عمل ER](electronic-reporting-er-configure-parameters.md).
 
@@ -114,7 +113,7 @@ ms.locfileid: "3498077"
 
 1. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 2. في الصفحة **تكوينات الترجمة**، في قسم **الارتباطات المتعلقة**، حدد **موفري التكوين** .
-3. في صفحة **جدول موفري التكوين**، يتضمن كل سجل موفر اسمًا وعنوان URL فريدين. راجع محتويات هذه الصفحة. في حالة وجود سجل لـ**Litware, Inc.** (`https://www.litware.com`) بالفعل، فتخطي الإجراء التالي، [إضافة موفر تكوين ER جديد](#ActivateProvider).
+3. في صفحة **جدول موفري التكوين**، يتضمن كل سجل موفر اسمًا وعنوان URL فريدين. راجع محتويات هذه الصفحة. في حالة وجود سجل لـ **Litware, Inc.** (`https://www.litware.com`) بالفعل، فتخطي الإجراء التالي، [إضافة موفر تكوين ER جديد](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="ActivateProvider"></a>إضافة موفر تكوين ER جديد
 

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 45c0e3b569ca733ae3b70187633d2e84db5ecd87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771156"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682837"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنة مع القيم الأساسية
 
@@ -90,7 +89,7 @@ ms.locfileid: "2771156"
 
 ## <a name="configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>تكوين الأساس بحيث يتجاهل الأجزاء المتغيرة باستمرار في إخراج ER
 
-عندما يتم تصميم تنسيق ER ليحتوي على المعلومات التي تغيرت عند تشغيل التنسيق، عندئذ يلزم أن يستخدم التنسيق ميزة ER الأساسية لمقارنه النتائج التي تم إنشاؤها بقيم الأساس. علي سبيل المثال، قد تكون المعلومات هي تاريخ المعالجة ووقتها أو المعرف الفريد للمستند الذي تم إنشاؤه بتنسيقات مختلفة (المعرف الفريد العمومي \[ (GUID\]، وهكذا). تسمح لك إمكانات ER الجديدة بتكوين قاعدة الأساس بحيث تتجاهل العناصر القابلة للتغيير الخاصة بتنسيق ER عند تشغيل التنسيق بغرض مقارنة قيم الأساس بنتائج تنفيذ التنسيق. لتعلم المزيد حول هذه الميزة، أكمل المثال التالي.
+عندما يتم تصميم تنسيق ER ليحتوي على المعلومات التي تغيرت عند تشغيل التنسيق، عندئذ يلزم أن يستخدم التنسيق ميزة ER الأساسية لمقارنه النتائج التي تم إنشاؤها بقيم الأساس. علي سبيل المثال، قد تكون المعلومات هي تاريخ المعالجة ووقتها أو المعرف الفريد للمستند الذي تم إنشاؤه بتنسيقات مختلفة (المعرف الفريد العمومي \[GUID\]، وهكذا). تسمح لك إمكانات ER الجديدة بتكوين قاعدة الأساس بحيث تتجاهل العناصر القابلة للتغيير الخاصة بتنسيق ER عند تشغيل التنسيق بغرض مقارنة قيم الأساس بنتائج تنفيذ التنسيق. لتعلم المزيد حول هذه الميزة، أكمل المثال التالي.
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>مثال: تكوين الأساس بحيث يتجاهل الأجزاء المتغيرة باستمرار في إخراج ER
 
@@ -107,7 +106,7 @@ ms.locfileid: "2771156"
 7. في مربع الحوار المنسدل، في الشجرة، حدد **XML\\سمة**.
 8. في حقل **الاسم**، أدخل **ProcessingDateTime**.
 9. حدد **موافق**.
-10. في علامة تبويب **التعيين**في الشرجة، حدد **إخراج\\مستند\\ProcessingDateTime**.
+10. في علامة تبويب **التعيين** في الشرجة، حدد **إخراج\\مستند\\ProcessingDateTime**.
 11. حدد **تحرير المعادلة**.
 12. في حقل **المعادلة**، أدخل العبارة التالية: **DATETIMEFORMAT(NOW(), "O")**
 13. حدد **حفظ**، ثم قم بتحديد **اختبار**.
@@ -164,7 +163,7 @@ ms.locfileid: "2771156"
     > [!NOTE]
     > يحتوي الملف الذي تم إنشاؤه على نص تاريخ ووقت المعالجة (**"#"**) من الربط الذي تم تكوينه في قاعدة الأساس المضافة، وليس من ربط التنسيق.
     
-4. أغلق صفحة**المرفقات**.
+4. أغلق صفحة **المرفقات**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>تشغيل تنسيق ER المصمم ومراجعة السجل لتحليل النتائج
 

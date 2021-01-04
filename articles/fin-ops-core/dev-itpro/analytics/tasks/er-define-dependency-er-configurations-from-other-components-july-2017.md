@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142215"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681963"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>تحديد تبعية تكوينات التقارير الإلكترونية على مكونات أخرى
 
@@ -47,7 +46,7 @@ ms.locfileid: "3142215"
 5. انقر فوق "جديد".
 6. حدد مكون المتطلبات الأساسية للمنتج.
 7. حدد Microsoft Dynamics 365 for Operations (1611).
-8. في حقل "الإصدار"، اكتب '[7.1.1541.3036,8)'.
+8. في حقل الإصدار، اكتب '[7.1.1541.3036,8)'.
     * [7.1.1541.3036,8)  
     * يتم تقييم التبعيات التي تقوم بإدخالها عندما يتم تنزيل هذا التكوين من مستودع التقارير الإلكترونية. سيتم تنزيل إصدار التكوين هذا من مستودع التقارير الإلكترونية عندما يكون الإصدار 1 من "عينة نموذج البيانات" إما موجودًا في مكانه أو تم تنزيله بشكل مسبق. عند تنزيله بشكل مسبق، يجب إكماله في Finance and Operations، الإصدار 7.1.1541.3036 أو إصدار لاحق، ولكن دون تجاوز الإصدار الرئيسي 8.   
 9. انقر فوق "حفظ".
@@ -60,7 +59,7 @@ ms.locfileid: "3142215"
 16. انقر فوق "جديد".
 17. حدد مكون المتطلبات الأساسية للمنتج.
 18. حدد Microsoft Dynamics AX 7.0 RTW.
-19. في حقل "الإصدار"، اكتب '[7.0.1265.3015,7.1)'.
+19. في حقل الإصدار، اكتب '[7.0.1265.3015,7.1)'.
     * [7.0.1265.3015,7.1)  
     * سيتم تقييم التبعيات عندما يتم تنزيل هذا التكوين من مستودع التقارير الإلكترونية. سيتم تنزيل إصدار التكوين هذا من مستودع التقارير الإلكترونية عندما يكون الإصدار 1 من "عينة نموذج البيانات" إما موجودًا في مكانه أو تم تنزيله بشكل مسبق. إذا تم تنزيله بشكل مسبق، فيجب إكماله في Microsoft Dynamics 365 for Finance and Operations Enterprise edition، في الإصدار 7.0.1265.3015 أو إصدار لاحق، ولكن دون تجاوز الإصدار الثانوي 1.   
 20. انقر فوق "حفظ".

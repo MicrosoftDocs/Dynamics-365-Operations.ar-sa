@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec21415158ad611d0ad55778e76aa128f53561bd
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 68d3c7dd2f042617a7e2fcc8bee05fae6a82bde9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143374"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685206"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>إنشاء قالب سجل لتسهيل إدخال البيانات
 
@@ -35,7 +34,7 @@ ms.locfileid: "3143374"
 4. في الحقل **الاسم**، اكتب قيمة. على سبيل المثال، أدخل **كمبيوتر محمول لمسؤول في الشركة**.  
 5. في الحقل **اسم البحث‬**، اكتب قيمة. على سبيل المثال، أدخل **كمبيوتر محمول**.  
 6. قم بتوسيع قسم **المعلومات التقنية**.
-7. في الحقول **النوع‬** و**الطراز** و**سنة الطراز‬**، اكتب قيمًا.
+7. في الحقول **النوع‬** و **الطراز** و **سنة الطراز‬**، اكتب قيمًا.
 8. في جزء الإجراءات، حدد **خيارات**.
 9. حدد **معلومات السجل‬**.
 10. حدد **قالب المستخدم**.

@@ -3,26 +3,25 @@ title: مقارنة بين الميزات في السحابة والميزات �
 description: يُظهر الموضوع الميزات المعتمدة في السحابة وفي الموقع المحلي.
 author: sericks007
 manager: AnnBe
-ms.date: 10/04/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040089"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694557"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>مقارنة بين ميزات السحابة والمحلي
 
@@ -167,9 +166,12 @@ ms.locfileid: "4040089"
 | توافق النظام الأساسي     |                                           | نعم       | نعم             |
 | الخدمة                  |                                           | نعم       | نعم             |
 |                            | بيئات الخدمة                    | نعم       | لا              |
-| Trace Parser وPerfTimer |                                           | نعم       | لا              |
+| Trace Parser               |                                           | نعم       | نعم             |
+| PerfTimer                  |                                           | نعم       | نعم\*           |
 | ترقية                    |                                           | نعم       | نعم             |
-|                            | ترقية                                   | ‏‏نعم       | لا              |
-|                            | الترقية ودعم الإصدارات السابقة | ‏‏نعم       | لا              |
-| تطوير Visual Studio  |                                           | ‏‏نعم       | ‏‏نعم             |
+|                            | ترقية                                   | نعم       | لا              |
+|                            | الترقية ودعم الإصدارات السابقة | نعم       | لا              |
+| تطوير Visual Studio  |                                           | نعم       | نعم             |
+
+\* في البيئات المحلية، يعرض PerfTimer النتائج الخاصة بالعميل فقط.
 

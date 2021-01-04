@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142147"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682107"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>تحديد تعيينات نماذج التقارير الإلكترونية وتحديد مصادر بيانات لها
 
@@ -43,7 +42,7 @@ ms.locfileid: "3142147"
 5. في الحقل "الاسم"، اكتب "تعيين CT".
     * تعيين CT  
 6. في حقل الوصف، اكتب "تعيين نموذج الدفع CT".
-    * ***تعيين نموذج الدفع  
+    * تعيين نموذج الدفع  
 7. في حقل التعريف، اكتب 'CustomerCreditTransferInitiation'.
     * CustomerCreditTransferInitiation  
 8. حل تغييرات التعريف.
@@ -78,14 +77,14 @@ ms.locfileid: "3142147"
 17. في الشجرة، حدد "الحركات/الإيصال".
 18. انقر فوق "إضافة مصدر بيانات".
 19. في حقل الصيغة، أدخل 'CONCATENATE(Transactions.Voucher, "-", '.
-    * النوع [، "-"،] في نهاية المعادلة.  
+    * اكتب [ , "-", ] في نهاية المعادلة.  
 20. في الشجرة، حدد "السلسلة/النص".
 21. انقر فوق "إضافة دالة".
 22. في الشجرة، حدد 'Transactions\Record-ID(RecId)'.
 23. انقر فوق "إضافة مصدر بيانات".
 24. في حقل الصيغة، أدخل 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.
-    * النوع [))] في نهاية المعادلة.  
-25. انقر فوق "حفظ".
+    * اكتب [))] في نهاية المعادلة.  
+25. انقر فوق حفظ.
     * تأكد من أنه لم يتم اكتشاف أية أخطاء للمعادلة التي تم إنشاؤها. راجع علامة التبويب "أخطاء" أسفل عنصر التحكم في محرر المعادلة.  
 26. قم بإغلاق الصفحة.
 27. انقر فوق "موافق".
@@ -99,7 +98,7 @@ ms.locfileid: "3142147"
 32. في الشجرة، حدد "Transactions\Debit(AmountCurDebit)".
 33. انقر فوق "إضافة مصدر بيانات".
 34. في حقل الصيغة، أدخل 'Transactions.AmountCurDebit - '.
-    * النوع [ - ] في نهاية المعادلة.  
+    * اكتب [ - ] في نهاية المعادلة.  
 35. في الشجرة، حدد "الحركات/Credit(AmountCurCredit)".
 36. انقر فوق "إضافة مصدر بيانات".
 37. انقر فوق "حفظ".
@@ -152,7 +151,7 @@ ms.locfileid: "3142147"
 66. انقر فوق "حفظ".
 67. قم بإغلاق الصفحة.
 68. انقر فوق "موافق".
-    * أضف الحقل المحسوب ProcessingDateTime ***كمصدر بيانات لنموذج البيانات الحالي.  
+    * أضف الحقل المحسوب ProcessingDateTime كمصدر بيانات لنموذج البيانات الحالي.  
 69. انقر فوق "حفظ".
 70. قم بإغلاق الصفحة.
 71. قم بإغلاق الصفحة.

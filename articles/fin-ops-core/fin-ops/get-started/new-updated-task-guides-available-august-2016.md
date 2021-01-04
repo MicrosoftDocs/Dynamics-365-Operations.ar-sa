@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 252754
 ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fb43be5e57758664c5e17e48db5b9c38630b2ded
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812521"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694979"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>دلائل المهام الجديدة أو المحدثة (أغسطس 2016)
 
@@ -32,7 +31,7 @@ ms.locfileid: "2812521"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) لتطبيق Microsoft Dynamics AX
 
-تحتوي المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) على دلائل المهام المخصصة لاستخدامها لنظام التعليمات مع Microsoft Dynamics AX platform update 2 (أغسطس 2016) وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 من تطبيق Microsoft Dynamics AX. لمزيد من المعلومات حول هذه الإصدارات، راجع [ما الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [نظام التعليمات](help-overview.md).
+تحتوي المكتبة الموحدة APQC (أغسطس 2016 - كل اللغات) على دلائل المهام المخصصة لاستخدامها لنظام التعليمات مع Microsoft Dynamics AX platform update 2 (أغسطس 2016) وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 من تطبيق Microsoft Dynamics AX. لمزيد من المعلومات حول هذه الإصدارات، راجع [الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [نظام التعليمات](help-overview.md).
 
 ### <a name="data-access"></a>الوصول إلى البيانات
 

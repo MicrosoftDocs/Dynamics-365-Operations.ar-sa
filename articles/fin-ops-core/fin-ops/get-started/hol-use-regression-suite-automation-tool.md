@@ -10,18 +10,17 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: 798717b276e68949a9425350720bf683a37d6fb5
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410140"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692980"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>البرنامج التعليمي للأداة Regression Suite Automation Tool
 
@@ -126,7 +125,7 @@ ms.locfileid: "3410140"
 - تأكد أن لديك وحدات تخزين بيانات تمثيلية (نسخة من بيانات الإنتاج/التكوين الذهبي بالإضافة إلى بيانات تم ترحيلها).
 - عند إنشاء البيانات الجديدة عبر مسجل المهام، قم بإنشاء أسماء الاختبارات التي لا تتعارض مع الأسماء الموجودة (على سبيل المثال، استخدم بادئة مثل **RSATxxx**).
 - استخدم استعادة النقطة الزمنية في Azure لإعادة تشغيل الاختبارات في بيئات ليست من المستوي 1.
-- على الرغم من أنه يمكنك استخدام دالتي Excel **RANDOM** و**NOW** لإنشاء مجموعة فريدة، فإن الجهد يكون مرتفعا بشكل كبير. فيما يلي مثال على ذلك.
+- على الرغم من أنه يمكنك استخدام دالتي Excel **RANDOM** و **NOW** لإنشاء مجموعة فريدة، فإن الجهد يكون مرتفعا بشكل كبير. فيما يلي مثال على ذلك.
 
     ```Excel
     product = "AT" &TEXT(NOW(),"yyymmddhhmm")
@@ -454,7 +453,7 @@ playback e:\temp\test.xlsx
 - اسم العميل
 - عنوان العميل
 
-سيكون معرف العميل بالتنسيق *ATCUS\<number\>*، حيث \<number\> عبارة عن قيمة بين **000000001** و**999999999**.
+سيكون معرف العميل بالتنسيق *ATCUS\<number\>*، حيث \<number\> عبارة عن قيمة بين **000000001** و **999999999**.
 
 يستخدم المثال التالي معلمة واحدة **البدء**، لتعريف الرقم الأول المستخدم. يستخدم معلمة ثانية، **nr**، لتحديد عدد العملاء الذين يجب إنشاؤهم. بالنسبة لكل تكرار، يتم تغيير المعلمات الموجودة في ملف معلمة Excel باستخدام دالة UpdateCustomer. بعد ذلك يتم استدعاء سطر أوامر RSAT في دالة RunTestCase.
 

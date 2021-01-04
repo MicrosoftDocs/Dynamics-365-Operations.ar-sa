@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 27a6745be62185b23a7e81c9aed78879e36b3a9d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181716"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682711"
 ---
 # <a name="financial-report-components"></a>مكونات التقرير المالي
 
@@ -81,7 +80,7 @@ ms.locfileid: "2181716"
 
 ### <a name="export-a-building-block-group"></a>تصدير مجموعة كتل إنشاء
 
-يمكنك تصدير مجموعة كتل الإنشاء أو كتل إنشاء تقارير محددة في مجموعة كتل إنشاء. يمكنك استخدام مجموعة كتل الإنشاء التي تم تصديرها كنسخة احتياطية. يمكنك أيضًا نسخ البيانات المصدّرة بين عمليات التثبيت. يتضمن مصمم التقارير مجموعات أنماط الخطوط والأبعاد المشار إليها مع مجموعة كتل الإنشاء.
+يمكنك تصدير مجموعة كتل الإنشاء أو كتل إنشاء تقارير محددة في مجموعة كتل إنشاء. يمكنك استخدام مجموعة كتل الإنشاء التي تم تصديرها كنسخة احتياطية. يمكنك أيضًا نسخ البيانات المصدّرة بين عمليات التثبيت. يتضمن مصمم التقارير مجموعات أنماط الخطوط والأبعاد المشار إليها مع مجموعة كتل الإنشاء.
 
 1. في مصمم التقارير، في قائمة **الشركة**، انقر فوق **مجموعات كتل الإنشاء**.
 2. في مربع حوار **مجموعات كتل الإنشاء**، حدد مجموعة كتل الإنشاء المطلوب تصديرها، ثم انقر فوق **تصدير**.

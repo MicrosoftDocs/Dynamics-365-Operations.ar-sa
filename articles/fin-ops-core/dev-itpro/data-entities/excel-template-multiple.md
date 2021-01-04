@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: e27b657d3d38ace158bcf4481d1445195147816b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181946"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688069"
 ---
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>استيراد بيانات من قوالب كيانات بيانات Excel تتضمن أوراق عمل متعددة
 
@@ -31,7 +30,7 @@ ms.locfileid: "2181946"
 تدعم إدارة البيانات في التطبيق القوالب التي تستند إلى Microsoft Excel لكيانات البيانات. يمكن أن تحتوي هذه القوالب على ورقة عمل واحدة أو أكثر. تستخدم عادة قوالب أوراق العمل المتعددة عندما يكون ذلك مناسبًا لإدارة البيانات في ملف واحد واستيرادها في كيانات بيانات متعددة. على سبيل المثال ستكون المواقع والمستودعات.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>تحميل ملف في المرة الواحدة وتعيينه إلى كافة الكيانات
-لنأخذ مثالاً حيث يتضمن ملف Excel ورقتي عمل باسم **المواقع‏‎** و**المستودعات**. لإعداد مشروع استيراد البيانات، يجب عليك إضافة كيان البيانات الأول، **المواقع** ثم تحميل الملف. ستكون قادراً على تحديد **المواقع** كورقة عمل يتم استخدامها لهذا الكيان.
+لنأخذ مثالاً حيث يتضمن ملف Excel ورقتي عمل باسم **المواقع‏‎** و **المستودعات**. لإعداد مشروع استيراد البيانات، يجب عليك إضافة كيان البيانات الأول، **المواقع** ثم تحميل الملف. ستكون قادراً على تحديد **المواقع** كورقة عمل يتم استخدامها لهذا الكيان.
 
 إذا قمت بإضافة الكيان الثاني **المستودعات** دون مغادرة نموذج **إضافة ملف**، فسوف تسمح لك عمليات البحث في أوراق العمل بتحديد ورقة عمل **المستودعات** دون الحاجة إلى تحميل الملف مرة أخرى. قد يكون السبب الوحيد لتحميل ملف جديد إذا كانت بيانات **المستودعات** في ملف مختلف.
 

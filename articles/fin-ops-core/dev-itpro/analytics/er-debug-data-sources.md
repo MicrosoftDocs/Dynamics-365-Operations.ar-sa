@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 5b51c4beac0ddf1e2b53fe300e10c0f608e5d1e1
-ms.sourcegitcommit: 153bb33722c02501bf7bcfd56ac887602d5dfbd3
+ms.openlocfilehash: 3a486800f37dda7829aeeaa56a30285a92a61b9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3318656"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680772"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>تصحيح مصادر البيانات لتنسيق ER الذي تم تنفيذه لتحليل تدفق البيانات وتحويلها
 
@@ -142,7 +141,7 @@ ms.locfileid: "3318656"
 1. في صفحة **تصحيح مصادر البيانات** ، في جزء الإجراءاتء، حدد **التنسيق** لبدء التصحيح من مكون ER هذا.
 2. قم بتوسيع عناصر التنسيق لتحديد **ISO20022CTReports** \> **XMLHeader** \> **مستند** \> **CstmrCdtTrfInitn** \> **PmtInf** ثم حدد **قراءة كافة السجلات**.
 3. قم بتوسيع عناصر التنسيق لتحديد **ISO20022CTReports** \> **XMLHeader** \> **مستند** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf**، ثم حدد **قراءة كافة السجلات**.
-4. قم بتوسيع عناصر التنسيق لتحديد **ISO20022CTReports** \> **XMLHeader** \> **مستند** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **معرّف** \> **IBAN** \> **BankIBAN**ثم حدد **الحصول على قيمة**.
+4. قم بتوسيع عناصر التنسيق لتحديد **ISO20022CTReports** \> **XMLHeader** \> **مستند** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **معرّف** \> **IBAN** \> **BankIBAN** ثم حدد **الحصول على قيمة**.
 5. حدد **توسيع الكل‬**.
 
     ![قيمه حقل IBAN في التنسيق](./media/er-data-debugger-debugging-format.png)

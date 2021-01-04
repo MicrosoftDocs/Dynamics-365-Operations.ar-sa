@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f01580117b22191976400b2e2ba1a5dde8ad559d
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802981"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693222"
 ---
 # <a name="personalize-the-user-experience"></a>تخصيص تجربة المستخدم
 
@@ -97,7 +96,7 @@ ms.locfileid: "3802981"
 - قم بتضمين المعلومات الموجودة في قسم ملخص علامة التبويب السريعة (إذا كان العنصر في علامة تبويب سريعة).
 - يمكنك تخطي الحقل حتى لا يتلقى التركيز إطلاقًا عندما تتنقل داخل الصفحة.
 - منع تحرير البيانات في الحقل (لأي سجل).
-- تعيين حقل ليكون مطلوبًا لإدخال البيانات. إذا لم يتم إدخال قيمة في هذا الحقل، فسيظهر مع حد بلون أحمر وعلامة نجمية للإشارة إلى هذه الحالة. يتوفر هذا الخيار فقط بدءًا من الإصدار 10.0.11 عند تشغيل ميزتي [طرق العرض المحفوظة](saved-views.md) و**تعيين الحقول كمطلوبة باستخدام التخصيص**.
+- تعيين حقل ليكون مطلوبًا لإدخال البيانات. إذا لم يتم إدخال قيمة في هذا الحقل، فسيظهر مع حد بلون أحمر وعلامة نجمية للإشارة إلى هذه الحالة. يتوفر هذا الخيار فقط بدءًا من الإصدار 10.0.11 عند تشغيل ميزتي [طرق العرض المحفوظة](saved-views.md) و **تعيين الحقول كمطلوبة باستخدام التخصيص**.
 
 قد تتضمن نافذة الخصائص إمكانيات تخصيص أخرى، استنادًا إلى العنصر. على سبيل المثال، قد تسمح لك نافذة الخصائص لإطار متجانب بترقية هذا الإطار المتجانب إلى لوحة معلومات، وقد تسمح لك نوافذ الخصائص للعناصر على لوحة المعلومات الافتراضية بإنشاء مساحة عمل مخصصة جديدة.
 

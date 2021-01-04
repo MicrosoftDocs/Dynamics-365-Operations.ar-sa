@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: d89922bd10b6db17d3fee22409137d6ec966858b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771227"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682813"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>تتبع نتائج التقارير المنشأة ومقارنتها بقيم الأساس
 
@@ -66,7 +65,7 @@ ms.locfileid: "2771227"
 
     ![مساحة عمل إعداد التقارير الإلكترونية](media/GER-BaselineSample-ERWorkspace.PNG "لقطة شاشة لمساحة عمل التقارير الإلكترونية")
 
-2. من علامة تبويب **المرفقات**في حقل **الأساس**، أدخل أو حدد نوع المستند الذي أنشأته للتو.
+2. من علامة تبويب **المرفقات** في حقل **الأساس**، أدخل أو حدد نوع المستند الذي أنشأته للتو.
 
     ![علامة التبويب المرفقات في صفحة معلمات التقارير الإلكترونية](media/GER-BaselineSample-ERParameters.PNG "لقطة شاشة لمعلمات التقارير الإلكترونية")
 
@@ -176,7 +175,7 @@ ms.locfileid: "2771227"
     ![زر الأساسات في صفحة التكوينات](media/GER-BaselineSample-OpenBaselinePage.PNG "لقطة شاشة لزر الأساسات في صفحة التكوينات")
 
 3. في جزء الإجراء، حدد **جديد**.
-4. حدد تنسيق ER لـ**تعلم أسس ER** الذي قمت بتصميمه سابقا.
+4. حدد تنسيق ER لـ **تعلم أسس ER** الذي قمت بتصميمه سابقا.
 5. حدد **حفظ**.
 
 ![صفحة أساسيات تنسيق التقارير الإلكترونية](media/GER-BaselineSample-AddBaseline.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
@@ -191,7 +190,7 @@ ms.locfileid: "2771227"
 
     ![صفحة المرفقات](media/GER-BaselineSample-UploadBaselineFile.PNG "لقطة شاشة لصفحة المرفقات")
 
-4. أغلق صفحة**المرفقات**.
+4. أغلق صفحة **المرفقات**.
 5. في علامة التبويب السريع **الأسس**، حدد **جديد**.
 6. في حقل **الاسم**، أدخل **الأساس 1**.
 7. في حقل **اسم مكون الملف**، أدخل أو حدد **الإخراج**. وتشير هذه القيمة إلى أن الأساس المكون ستتم مقارنته بملف تم إنشاؤه باستخدام عنصر تنسيق **الإخراج**.

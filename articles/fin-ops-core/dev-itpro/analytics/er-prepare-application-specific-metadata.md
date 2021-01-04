@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771250"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680184"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>إعداد بيانات تعريف خاصة بالتطبيق لـ RCS وER
 
@@ -201,7 +200,7 @@ ms.locfileid: "2771250"
 
 يوضح الإجراء التالي كيف يمكن لمستخدم RCS الذي يؤدي بدور **مسؤول النظام** أو **مطور التقارير الإلكترونية** تصميم تعيين نموذج تقارير إلكترونية جديد باستخدام بيانات تعريف التطبيق. سيتم الوصول إلى بيانات تعريف التطبيق عبر الإنترنت باستخدام التطبيق المتصل بـ RCS. سيتم تكوين مثال لتعيين نموذج ER للوصول إلى حركات التجارة الخارجية.
 
-لإكمال هذا الإجراء، يجب أولاً إكمال الإجراء [‏‫إنشاء موفري التكوين ووضع علامة عليهم على أنهم نشيطون](tasks/er-configuration-provider-mark-it-active-2016-11.md) في RCS. في حالة عدم إكمال الإجراء [الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER‬](#access-application-metadata-by-using-an-er-configuration) الموضح سابقًا في هذا الموضوع، اذهب إلى  صفحة [إرشادات مهام إعداد التقارير لـ Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) لتنزيل ملفات تكوين ER التالية مقدمًا وحفظها محليًا: **Foreign trade metadata.xml** و**Foreign trade model.xml** و**Foreign trade mapping.xml**.
+لإكمال هذا الإجراء، يجب أولاً إكمال الإجراء [‏‫إنشاء موفري التكوين ووضع علامة عليهم على أنهم نشيطون](tasks/er-configuration-provider-mark-it-active-2016-11.md) في RCS. في حالة عدم إكمال الإجراء [الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER‬](#access-application-metadata-by-using-an-er-configuration) الموضح سابقًا في هذا الموضوع، اذهب إلى  صفحة [إرشادات مهام إعداد التقارير لـ Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) لتنزيل ملفات تكوين ER التالية مقدمًا وحفظها محليًا: **Foreign trade metadata.xml** و **Foreign trade model.xml** و **Foreign trade mapping.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>الحصول على تكوينات ER المطلوبة
@@ -238,7 +237,7 @@ ms.locfileid: "2771250"
 1. انتقل إلى **كافة مساحات العمل \> التقارير الإلكترونية**.
 2. حدد **تكوينات إعداد التقارير‬**.
 3. في الشجرة، حدد **نموذج التجارة الخارجية \> تعيين التجارة الخارجية**.
-4. حدد علامة التبويب السريعة**المتطلبات الأساسية**.
+4. حدد علامة التبويب السريعة **المتطلبات الأساسية**.
 
     > [!NOTE]
     > حاليًا، يشير هذا التعيين إلى تكوين بيانات التعريف. سيتم توفير بيانات تعريف التطبيق من هذا التكوين بينما سيتم تصميم تعيين هذا النموذج.
@@ -280,4 +279,4 @@ ms.locfileid: "2771250"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-بدلا من ذلك، يمكنك تشغيل دليل المهمة **تحضير بيانات تعريف التطبيق التي يمكن استخدامها في RCS** في التطبيق بالإضافة إلى دلائل مهام **الوصول إلى بيانات تعريف التطبيق باستخدام تكوين التقارير الإلكترونية** و**الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة**. يمكن تحميل دلائل المهام هذه من صفحة [دلائل مهام التقارير الإلكترونية لـ Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
+بدلا من ذلك، يمكنك تشغيل دليل المهمة **تحضير بيانات تعريف التطبيق التي يمكن استخدامها في RCS** في التطبيق بالإضافة إلى دلائل مهام **الوصول إلى بيانات تعريف التطبيق باستخدام تكوين التقارير الإلكترونية** و **الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة**. يمكن تحميل دلائل المهام هذه من صفحة [دلائل مهام التقارير الإلكترونية لـ Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).

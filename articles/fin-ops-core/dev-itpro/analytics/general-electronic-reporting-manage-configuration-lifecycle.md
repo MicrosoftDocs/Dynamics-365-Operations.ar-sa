@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 1a4741784103817c270c4c7f730753ba59a327d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771086"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682613"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>إدارة دورة حياة تكوين إعداد التقارير الإلكترونية
 
@@ -76,7 +75,7 @@ ms.locfileid: "2771086"
 | موظف مدفوعات الحسابات الدائنة            | استخدام نتائج التقارير الإلكترونية في عملية تجارية معينة:                | على سبيل المثال، دور **موظف مدفوعات الحسابات الدائنة** الذي يسمح بإنشاء رسائل دفع إلكترونية لمعالجة الفواتير، استنادًا إلى تنسيق التقارير الإلكترونية الذي تم تكوينه لطريقة دفع محددة. |
 
 ## <a name="er-configuration-development-lifecycle"></a>دورة حياة تطوير تكوين التقارير الإلكترونية
-للأسباب التالية المتعلقة بإعداد التقارير الإلكترونية، ننصحك بأن تقوم بتصميم تكوينات التقارير الإلكترونية في بيئة تطوير، كمثيل Finance and Operations منفصل:
+للأسباب التالية المتعلقة بتكوين التقارير الإلكترونية، ننصحك بأن تقوم بتصميم تكوينات التقارير الإلكترونية في بيئة تطوير، كمثيل Finance and Operations منفصل:
 
 - باستطاعة المستخدمين الذين يؤدون دور **مطور إعداد التقارير الإلكتروني** أو **مستشار وظيفي لإعداد التقارير الإلكتروني‬** تحرير التكوينات وتشغيلها لأغراض الاختبار. باستطاعة هذا السيناريو أن يؤدي إلى استدعاءات أساليب الفئات والجداول التي يمكن أن تكون ضارة لبيانات الأعمال وأداء المثيل.
 - لا تتقيد استدعاءات أساليب الفئات والجداول كمصادر بيانات التقارير الإلكترونية لتكوينات التقارير الإلكترونية بنقاط دخول ومحتوى الشركة المسجل. وبالتالي، يستطيع المستخدمون الذين يؤدون دور **مطور إعداد التقارير الإلكتروني‬** أو **مستشار وظيفي لإعداد التقارير الإلكتروني‬** الوصول إلى بيانات الأعمال الحساسة.

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 9a5f943a507483bb4c1bd7fe87c0d65353194a6e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760021"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687417"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
 
@@ -319,7 +318,7 @@ ms.locfileid: "3760021"
 
 ![تتبع معلومات مصدر بيانات VendTable في صفحة مصمم تعيين النموذج في خدمات التكوين التنظيمية](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
-في معلومات التتبع، تشير القيمة **\[12\]** الخاصة بمصدر بيانات VendTable إلى أن مصدر البيانات هذا تم استدعاؤه 12 مرة. تشير القيمة**\[Q:6\]** إلى أنه تمت ترجمة ست استدعاءات إلى استدعاءات قاعدة البيانات لجدول VendTable. تشير القيمة **\[C:6\]** إلى أنه تم تخزين السجلات التي تم إحضارها من قاعده البيانات مؤقتًا، وتمت معالجة ست استدعاءات أخرى باستخدام ذاكرة التخزين المؤقت.
+في معلومات التتبع، تشير القيمة **\[12\]** الخاصة بمصدر بيانات VendTable إلى أن مصدر البيانات هذا تم استدعاؤه 12 مرة. تشير القيمة **\[Q:6\]** إلى أنه تمت ترجمة ست استدعاءات إلى استدعاءات قاعدة البيانات لجدول VendTable. تشير القيمة **\[C:6\]** إلى أنه تم تخزين السجلات التي تم إحضارها من قاعده البيانات مؤقتًا، وتمت معالجة ست استدعاءات أخرى باستخدام ذاكرة التخزين المؤقت.
 
 لاحظ أنه تم تقليل عدد الاستدعاءات إلى مصدر بيانات LedgerTransTypeList من 9,027 إلى 240.
 
