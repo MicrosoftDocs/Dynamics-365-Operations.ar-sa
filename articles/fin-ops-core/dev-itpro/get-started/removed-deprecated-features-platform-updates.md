@@ -3,24 +3,23 @@ title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/24/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971435"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689556"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -37,8 +36,16 @@ ms.locfileid: "3971435"
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.15 من تطبيقات Finance and Operations
 
-> [!NOTE]
-> الإصدار 10.0.15 هو إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>تم إهمال دعم Internet Explorer 11 لـ Dynamics 365
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | اعتبارًا من ديسمبر 2020، تم إهمال دعم Microsoft Internet Explorer 11 لجميع منتجات Dynamics 365، ولن يتم دعم Internet Explorer 11 بعد أغسطس 2021.<br><br>سيؤثر هذا الاجراء علي العملاء الذين يستخدمون منتجات Dynamics 365 التي تم تصميمها ليتم استخدامها من خلال واجهة Internet Explorer 11. بعد أغسطس 2021، لن يتم دعم Internet Explorer 11 لمنتجات Dynamics 365. |
+| **هل تم الاستبدال بميزة أخرى؟**   | نوصي العملاء بالانتقال إلى Microsoft Edge.|
+| **مناطق المنتجات المتأثرة**         | كافة منتجات Dynamics 365 |
+| **خيارات النشر**              | ‏‏الكل|
+| **الحالة**                         | مهملة. لن يتم دعم Internet Explorer 11 بعد (أغسطس) 2021.|
+
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>وظيفة Visual Studio اضافيه لتطبيق إصلاحات بيانات التعريف
 
@@ -52,10 +59,6 @@ ms.locfileid: "3971435"
 
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.14 من تطبيقات Finance and Operations
-
-> [!NOTE]
-> الإصدار 10.0.14 هو إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [توافر تحديث الخدمة‬](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
-
 
 ### <a name="online-users-page"></a>صفحة "المستخدمون عبر الإنترنت" 
 
@@ -99,7 +102,7 @@ ms.locfileid: "3971435"
 | **هل تم الاستبدال بميزة أخرى؟**   | [عنصر تحكم الشبكة الجديدة](../..//fin-ops/get-started/grid-capabilities.md) |
 | **مناطق المنتجات المتأثرة**         | عميل الويب |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | في الإصدار 10.0.13، يتوفر عنصر تحكم الشبكة الجديدة بشكل عام، ويمكن للعملاء تشغيل هذه الميزة بشكل اختياري. سيصبح عنصر تحكم الشبكة الجديدة إلزاميًا في إصدار أكتوبر 2021. عندما يصبح عنصر تحكم الشبكة الجديدة إلزاميًا، لن تتم مراعاة واجهة API **forceLegacyGrid()** . |
+| **الحالة**                         | في الإصدار 10.0.13، يتوفر عنصر تحكم الشبكة الجديدة بشكل عام، ويمكن للعملاء تشغيل هذه الميزة بشكل اختياري. سيصبح عنصر تحكم الشبكة الجديدة إلزاميًا في إصدار أكتوبر 2021. عندما يصبح عنصر تحكم الشبكة الجديدة إلزاميًا، لن تتم مراعاة واجهة API **forceLegacyGrid()**. |
 
 ### <a name="personalization-without-saved-views"></a>تخصيص بدون طرق عرض محفوظة 
 
@@ -144,7 +147,7 @@ ms.locfileid: "3971435"
 | **هل تم الاستبدال بميزة أخرى؟**   | سيحل Visual Studio 2017 محل Visual Studio 2015 كإصدار منشور ومطلوب. |
 | **مناطق المنتجات المتأثرة**         | أدوات تطوير Visual Studio |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | فور الإعلان عن توفر أجهزة ظاهرية مع Visual Studio 2017، يجب أن يعاد نشر الأجهزة الظاهرية الموجودة مع Visual Studio 2015 فقط بواسطة إصدار الموجة من 2021. |
+| **الحالة**                         | تحتوي الأجهزة الظاهرية التي تم نشرها على الإصدار 10.0.13 (تحديث النظام الأساسي 37) أو الأحدث على Visual Studio 2017. الإصدار 10.0.16 (تحديث النظام الأساسي 40) هو الإصدار الأخير مع دعم لـ Visual Studio 2015. لن تتمكن الأجهزة الظاهرية التي تعمل على Visual Studio 2015 فقط من تحديث إصدار 10.0.17 (تحديث النظام الأساسي 41). |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>مجموعات الحقول التي تحتوي على مراجع حقول غير صالحة
 
