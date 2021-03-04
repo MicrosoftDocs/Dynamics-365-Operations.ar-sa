@@ -60,3 +60,6 @@ ms.locfileid: "4439811"
 
 
 للحصول على مزيد من المعلومات، راجع [إيداع مدفوعات العميل‬](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

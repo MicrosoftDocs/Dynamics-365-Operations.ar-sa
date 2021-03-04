@@ -53,3 +53,6 @@ ms.locfileid: "4409956"
 [تعيين قوائم المهام إلى المتاجر أو الموظفين](task-mgmt-assign-lists.md)
 
 [إدارة المهام في نقطة البيع](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

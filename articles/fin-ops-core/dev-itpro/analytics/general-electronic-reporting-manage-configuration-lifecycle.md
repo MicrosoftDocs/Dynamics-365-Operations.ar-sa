@@ -87,3 +87,6 @@ ms.locfileid: "4682613"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

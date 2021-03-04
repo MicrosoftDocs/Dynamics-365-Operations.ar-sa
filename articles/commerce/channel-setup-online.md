@@ -134,3 +134,6 @@ ms.locfileid: "4410043"
 [إعداد قناة مركز اتصال](channel-setup-callcenter.md)
 
 [موصل دفع Dynamics 365 لـ Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

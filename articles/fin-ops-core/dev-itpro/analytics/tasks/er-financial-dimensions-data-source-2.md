@@ -147,3 +147,6 @@ ms.locfileid: "4681675"
 4. انقر فوق "مكتمل".
 5. انقر فوق موافق.
 ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

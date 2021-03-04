@@ -48,3 +48,6 @@ ms.locfileid: "4439794"
 10. في الحقل "حساب الدفع"، حدد القيم "DEMF OPER".
 11. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

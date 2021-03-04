@@ -110,3 +110,6 @@ ms.locfileid: "4694016"
     </table>
 
 8. كرر الخطوات من 3 إلى 7 لكل الأحداث التي قمت بتحديدها في الخطوة 2.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

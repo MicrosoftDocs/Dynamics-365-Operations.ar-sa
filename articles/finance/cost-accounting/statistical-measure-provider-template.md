@@ -346,3 +346,6 @@ ms.locfileid: "4440057"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [أسس التوزيع](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

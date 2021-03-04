@@ -46,3 +46,6 @@ ms.locfileid: "4409891"
 [إضافة صفحة سياسة الخصوصية](add-privacy-page.md)
 
 [استبدال معرفات المستخدمين المرتبطة بتغييرات المحتوى المتعقبة](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

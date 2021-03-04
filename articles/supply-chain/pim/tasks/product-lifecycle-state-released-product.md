@@ -37,3 +37,6 @@ ms.locfileid: "4421220"
 5. في الحقل "حالة دورة حياة المنتج"، أدخل قيمة أو حددها.
 6. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

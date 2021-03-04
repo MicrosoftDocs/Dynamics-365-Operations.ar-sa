@@ -96,3 +96,6 @@ ms.locfileid: "4421293"
 17. في القائمة، حدد مجموعة العمولات التي أنشأتَها سابقًا.
 18. حدد **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ ms.locfileid: "4694411"
 [موارد مسجل المهام](../../dev-itpro/user-interface/task-recorder.md)  
 [إنشاء الوثائق أو التدريب بمسجل المهام](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [مستودع GitHub للتعليمات المخصصة](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -206,3 +206,6 @@ ms.locfileid: "4680892"
 
 [التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

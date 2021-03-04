@@ -39,3 +39,6 @@ ms.locfileid: "4439800"
 8. في الحقل **قواعد الإهلاك‬‬**، حدد خيارًا.
 9. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

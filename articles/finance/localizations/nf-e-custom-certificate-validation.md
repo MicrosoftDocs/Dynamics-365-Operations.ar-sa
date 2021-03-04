@@ -36,3 +36,6 @@ ms.locfileid: "4439882"
 يسمح هذا التحديث بحل بديل للتحقق من صحة الشهادة، مما يعني انه من الممكن تاسيس اتصال آمن.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

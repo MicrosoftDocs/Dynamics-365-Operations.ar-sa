@@ -60,3 +60,6 @@ ms.locfileid: "4594322"
 [اقتصاص الصور](dam-crop-images.md)
 
 [تحميل الملفات الثابتة وخدمتها](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

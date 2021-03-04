@@ -102,3 +102,6 @@ ms.locfileid: "4421395"
 
 [إنشاء أوامر خدمات (نموذج الفئة)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

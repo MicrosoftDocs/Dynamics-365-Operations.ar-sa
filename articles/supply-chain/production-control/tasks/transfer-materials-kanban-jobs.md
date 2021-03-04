@@ -66,3 +66,6 @@ ms.locfileid: "4421469"
 2. انقر فوق "مكتمل".
     * سيؤدي ذلك إلى إكمال تحويل الوظيفتين.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

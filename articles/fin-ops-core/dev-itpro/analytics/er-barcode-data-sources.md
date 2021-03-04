@@ -303,3 +303,6 @@ ms.locfileid: "4681414"
 - [وجهات إعداد التقارير الإلكترونية‬](electronic-reporting-destinations.md)
 - [لغة تركيبة التقارير الإلكترونية](er-formula-language.md)
 - [وظيفة NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4421270"
 >[!NOTE]
 >من أجل جدولة عامل صيانة لأمر العمل، يجب أن يكون عامل الصاينة هذا متوفرًا في وقت وتاريخ البدء المتوقعين. يتم إعداد توافر العاملين في [تقويم العمل](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

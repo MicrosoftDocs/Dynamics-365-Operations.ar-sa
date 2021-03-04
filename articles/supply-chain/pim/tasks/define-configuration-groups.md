@@ -40,3 +40,6 @@ ms.locfileid: "4421356"
 7. في حقل "الاسم"، اكتب قيمة.
 8. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

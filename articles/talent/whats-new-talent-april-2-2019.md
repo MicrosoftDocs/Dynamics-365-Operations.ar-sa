@@ -80,3 +80,6 @@ ms.locfileid: "4528209"
 
 ###  <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
 مع إصدار Platform update 25 لـ Finance and Operations، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

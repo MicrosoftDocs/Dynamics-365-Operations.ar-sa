@@ -95,3 +95,6 @@ ms.locfileid: "4409794"
 [تكوين الوحدات النمطية للتصنيفات والمراجعات في صفحات تفاصيل المنتج](ratings-reviews-modules.md)
 
 [مزامنة تقييمات المنتجات في Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

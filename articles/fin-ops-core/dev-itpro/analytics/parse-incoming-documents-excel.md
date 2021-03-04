@@ -46,3 +46,6 @@ ms.locfileid: "4685777"
 | وصف المحتوى    | ملف                                                            |
 |------------------------|-----------------------------------------------------------------|
 | تكوين نموذج تقارير إلكترونية | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

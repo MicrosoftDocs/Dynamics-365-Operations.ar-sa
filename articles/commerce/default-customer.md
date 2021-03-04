@@ -113,3 +113,6 @@ ms.locfileid: "4409806"
 [نظرة عامة على القنوات](channels-overview.md)
 
 [المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

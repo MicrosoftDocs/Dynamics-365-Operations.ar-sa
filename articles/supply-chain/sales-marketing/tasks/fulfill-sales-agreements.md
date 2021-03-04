@@ -90,3 +90,6 @@ ms.locfileid: "4421170"
 23. انقر فوق "اتفاقية البيع المرفقة".
 24. انقر فوق علامة التبويب "التنفيذ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -252,3 +252,6 @@ ms.locfileid: "4439856"
 10. حدد **نشر** لنشر البيئة.
 
     ![بيئة منشورة](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

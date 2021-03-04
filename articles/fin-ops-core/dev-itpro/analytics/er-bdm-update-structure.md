@@ -106,3 +106,6 @@ ms.locfileid: "4681318"
 [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 
 [نظرة عامة على إدارة مستندات الأعمال](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

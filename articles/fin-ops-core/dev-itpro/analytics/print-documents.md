@@ -74,3 +74,6 @@ ms.locfileid: "4680086"
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 لاحظ أنه يمكن تسجيل طابعة واحدة مع عدة وكلاء توجيه مستندات. لحل تفضيلات الطابعة، تستخدم الخدمة المستضافة مسار الشبكة الذي يحدد كل طابعة شبكة بشكل فريد. وكنتيجة لذلك، حتى في حالة تسجيل طابعة بواسطة العديد من العملاء، فإنها تظهر كتحديد واحد في قائمة الطابعات المتوفرة في التطبيقات.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

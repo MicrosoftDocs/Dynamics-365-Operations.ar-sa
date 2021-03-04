@@ -196,3 +196,6 @@ ms.locfileid: "4680110"
 [وجهات التقارير الإلكترونية‬](electronic-reporting-destinations.md)
 
 [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

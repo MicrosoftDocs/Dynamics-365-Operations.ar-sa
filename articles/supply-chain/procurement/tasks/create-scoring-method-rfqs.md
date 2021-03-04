@@ -47,3 +47,6 @@ ms.locfileid: "4421474"
 14. في الحقل "بداية النطاق‬‬"، أدخل رقمًا.
 15. في الحقل "نهاية النطاق‬‬"، أدخل رقمًا.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

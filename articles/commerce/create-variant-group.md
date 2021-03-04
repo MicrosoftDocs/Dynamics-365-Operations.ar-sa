@@ -73,3 +73,6 @@ ms.locfileid: "4409890"
 [إعداد منتجات البيع بالتجزئة](set-up-retail-products.md)
 
 [أبعاد المنتجات](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

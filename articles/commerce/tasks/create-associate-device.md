@@ -41,3 +41,6 @@ ms.locfileid: "4409947"
 9. في القائمة، انقر فوق الارتباط في الصف المحدد.
 10. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ ms.locfileid: "4421217"
 8. في حقل **التعبير**، اكتب قيمة. على سبيل المثال، اكتب `50`. 
 9. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

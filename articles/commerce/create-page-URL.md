@@ -107,3 +107,6 @@ ms.locfileid: "4409849"
 [تكوين اسم مجالك](configure-your-domain-name.md)
 
 [إضافة لغات إلى الموقع الخاص بك](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

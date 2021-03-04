@@ -68,3 +68,6 @@ ms.locfileid: "4692687"
 3. حدد **حفظ**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

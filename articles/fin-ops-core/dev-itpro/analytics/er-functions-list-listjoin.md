@@ -83,3 +83,6 @@ LIST (list 1 [, list 2, …, list N])
 [دالات القائمة](er-functions-category-list.md)
 
 [تصحيح مصادر البيانات لتنسيق ER الذي تم تنفيذه لتحليل تدفق البيانات وتحويلها](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

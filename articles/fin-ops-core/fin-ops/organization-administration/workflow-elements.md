@@ -89,3 +89,6 @@ ms.locfileid: "4694229"
 ### <a name="subworkflow"></a>سير العمل الفرعي
 
 *سير العمل الفرعي* هو سير عمل يتم تشغيله داخل سياق سير عمل آخر.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

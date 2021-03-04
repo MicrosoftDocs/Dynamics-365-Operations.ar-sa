@@ -67,3 +67,6 @@ ms.locfileid: "4460229"
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>كود سبب الإنهاء‬ يحدّث سجل تعيين المنصب‬
 سيحدّث كود سبب الإنهاء‬ الآن سجل تعيين المنصب‬ عند إنهاء عمل أحد الموظفين وإنهاء المنصب. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

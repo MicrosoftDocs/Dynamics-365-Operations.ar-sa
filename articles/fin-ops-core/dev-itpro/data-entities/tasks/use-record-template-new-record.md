@@ -35,3 +35,6 @@ ms.locfileid: "4685159"
 3. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 4. انقر فوق **موافق**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

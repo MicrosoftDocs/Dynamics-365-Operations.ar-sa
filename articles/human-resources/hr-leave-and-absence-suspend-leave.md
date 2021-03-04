@@ -49,3 +49,6 @@ ms.locfileid: "4417162"
 - [تكوين أنواع الإجازة والغياب](hr-leave-and-absence-types.md)
 - [خطط استحقاق الإجازات والغياب](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

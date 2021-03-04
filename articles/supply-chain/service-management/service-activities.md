@@ -40,3 +40,6 @@ ms.locfileid: "4421459"
 
 [‏‏لوحة الإرسال (نموذج)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

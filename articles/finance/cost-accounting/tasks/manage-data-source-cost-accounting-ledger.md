@@ -48,3 +48,6 @@ ms.locfileid: "4440081"
 14. في حقل "طبقة الترحيل"، حدد "حالي".
 15. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

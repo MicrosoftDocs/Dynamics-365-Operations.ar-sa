@@ -81,3 +81,6 @@ REPLACE (text, pattern, replacement, regular expression flag)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الدالات النصية](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

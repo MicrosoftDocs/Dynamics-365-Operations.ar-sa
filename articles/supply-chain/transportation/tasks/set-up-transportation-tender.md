@@ -48,3 +48,6 @@ ms.locfileid: "4421150"
 7. انقر فوق تقديم.
 8. حدد مسارًا.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

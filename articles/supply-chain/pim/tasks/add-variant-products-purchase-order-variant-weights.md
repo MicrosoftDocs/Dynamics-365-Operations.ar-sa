@@ -48,3 +48,6 @@ ms.locfileid: "4421772"
 17. تعيين الكمية إلى "1000".
 18. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

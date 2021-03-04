@@ -86,3 +86,6 @@ ms.locfileid: "4409851"
 [إعداد قناة بيع بالتجزئة](channel-setup-retail.md)
     
 [إعداد قناة عبر الإنترنت](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

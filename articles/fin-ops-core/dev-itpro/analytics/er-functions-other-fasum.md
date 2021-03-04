@@ -67,3 +67,6 @@ FA_SUM (fixed asset code, value model code, start date, end date)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دالات أخرى (خاصة بمجال الأعمال)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ ms.locfileid: "4440053"
 | [الاختبار MB-300: Microsoft Dynamics 365 Unified Operations الأساسي](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | يقوم هذا الاختبار بقياس قدرتك على إنجاز المهام الفنية التالية: استخدام أدوات التنفيذ والوظائف الشائعة وتكوين الأمان والعمليات والخيارات والقيام بترحيل البيانات والتحقق من صحة الحل ودعمه. | الاختبار، تختلف التكلفة حسب المنطقة | |
 | [الاختبار MB-310: Microsoft Dynamics 365 for Finance and Operations، الماليات](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | يقيس هذا الاختبار قدرتك على إنجاز المهام التقنية التالية: إعداد وتكوين الإدارة المالية وإدارة وتطبيق العمليات الشائعة وتنفيذ وإدارة الحسابات الدائنة والمدينة وإدارة إعداد الموازنة والأصول الثابتة. | الاختبار، تختلف التكلفة حسب المنطقة | |
 | [Microsoft Certified: Dynamics 365 for Finance and Operations، إقران مستشار الوظائف المالية ](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Certified: Dynamics 365 for Finance and Operations، يقوم المستشارون الوظيفيون الماليون بتوحيد الماليات العمومية والعمليات وأتمتة المهام وعمليات سير العمل وتبسيط إجراءات طلب العميل والبيع والفوترة وإعداد التقارير. | الشهادة، تختلف التكلفة حسب المنطقة |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

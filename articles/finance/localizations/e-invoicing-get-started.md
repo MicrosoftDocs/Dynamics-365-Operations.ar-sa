@@ -344,3 +344,6 @@ ms.locfileid: "4440130"
 - [بدء استخدام الوظيفة الإضافية الفوترة الإلكترونية في المكسيك](e-invoicing-mex-get-started.md)
 - [بدء استخدام الوظيفة الإضافية الفوترة الإلكترونية في إيطاليا](e-invoicing-ita-get-started.md)
 - [إعداد الوظيفة الإضافية الفوترة الإلكترونية](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

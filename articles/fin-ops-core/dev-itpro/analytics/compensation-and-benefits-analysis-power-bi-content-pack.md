@@ -66,3 +66,6 @@ ms.locfileid: "4687196"
 | Workforce\_WorkerName             | الاسم الأول والاسم الأخير والاسم بالكامل                                                                       | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTitle            | المسمى الوظيفي وتاريخ الأقدمية                                                                                   | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTrend            | الوقت الإضافي للعمال، وعدد الأشخاص، والشركة، والمنصب                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job, Workforce\_WorkerBenefit |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

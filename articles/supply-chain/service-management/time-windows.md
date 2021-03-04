@@ -45,3 +45,6 @@ ms.locfileid: "4421528"
 
 [إنشاء الإطارات الزمنية](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

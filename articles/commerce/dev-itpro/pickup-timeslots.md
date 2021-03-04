@@ -123,3 +123,6 @@ ms.locfileid: "4681532"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الوحدة النمطية لمعلومات الالتقاط](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

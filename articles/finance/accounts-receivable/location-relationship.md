@@ -74,3 +74,6 @@ ms.locfileid: "4439977"
     3.  لاختبار ملء نوع العلاقة الجديد، يمكنك إنشاء فئة قابلة للتشغيل، واستدعاء DirDataPopulation::insertDirRelationshipTypes() في Main(). ينبغي عليك رؤية نوع العلاقة الجديد في **DirRelationshipTypeTable**، ثم سيتوافر نوع العلاقة الجديد على صفحة **أنواع العلاقات**.
 
         ![فئة قابلة للتشغيل](media/Runnable.PNG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

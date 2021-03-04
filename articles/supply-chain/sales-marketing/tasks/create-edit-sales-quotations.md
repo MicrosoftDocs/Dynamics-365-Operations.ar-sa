@@ -70,3 +70,6 @@ ms.locfileid: "4421174"
 13. انقر فوق **أوامر المبيعات**.
 14. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

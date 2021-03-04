@@ -68,3 +68,6 @@ ms.locfileid: "4417174"
 5. في الحقل "مجموعة الإجابات"، أدخل قيمة أو حددها.
 6. في الحقل "نص"، اكتب قيمة.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ ms.locfileid: "4421147"
 ## <a name="financial-dimensions"></a>الأبعاد المالية
 
 يمكنك تحديد الأبعاد المالية للأصل.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

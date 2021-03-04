@@ -64,3 +64,6 @@ ms.locfileid: "4417056"
 
 8. قم بتغيير إية معلمات أخرى ضمن **تشغيل في الخلفية** عند الضرورة، ثم حدد **موافق**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

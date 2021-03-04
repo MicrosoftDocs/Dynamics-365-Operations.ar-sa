@@ -239,3 +239,6 @@ ms.locfileid: "4409783"
 [إعداد عمليات الفرز](set-up-assortments.md)
 
 [نظرة عامة على التسلسل الرقمي](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

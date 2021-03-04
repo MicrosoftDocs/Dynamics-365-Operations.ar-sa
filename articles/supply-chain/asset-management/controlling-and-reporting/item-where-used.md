@@ -71,3 +71,6 @@ ms.locfileid: "4421265"
 
 ![مثال حساب الصنف المُستخدم](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

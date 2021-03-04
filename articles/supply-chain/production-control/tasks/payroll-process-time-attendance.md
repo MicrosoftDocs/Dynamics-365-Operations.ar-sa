@@ -70,3 +70,6 @@ ms.locfileid: "4421334"
 7. انقر فوق "تحرير".
 8. في الحقل "اتفاقية الدفع"، أدخل قيمة أو حددها.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4421389"
 3. حدد **موافق**.
 4. حدد **الأوامر المخططة‬**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

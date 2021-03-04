@@ -93,3 +93,6 @@ ms.locfileid: "4683911"
 13. انقر فوق **إنهاء** لإغلاق **إدارة تكوين خدمات التقارير**.
 
     [![إغلاق إدارة تكوين خدمات التقارير](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

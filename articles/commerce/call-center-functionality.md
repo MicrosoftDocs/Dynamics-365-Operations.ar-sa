@@ -69,3 +69,6 @@ ms.locfileid: "4410038"
 ## <a name="configure-continuity-programs"></a>تكوين برامج الاستمرارية
 
 [إعداد برامج الاستمرارية لمراكز الاتصال](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ ms.locfileid: "4527707"
 **حل طويل الأجل**
 
 ستتوفر خيارات Power BI إضافية، وسيصبح المزيد من البيانات والكيانات جزءًا من Common Data Service.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

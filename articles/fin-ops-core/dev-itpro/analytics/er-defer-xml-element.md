@@ -243,3 +243,6 @@ ms.locfileid: "4680700"
 - [تكوين التنسيق لتنفيذ عمليات الجرد والتجميع](./tasks/er-format-counting-summing-1.md)
 - [تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها](trace-execution-er-troubleshoot-perf.md)
 - [تأجيل تنفيذ عناصر التسلسل في تنسيقات إعداد التقارير الإلكترونية](er-defer-sequence-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

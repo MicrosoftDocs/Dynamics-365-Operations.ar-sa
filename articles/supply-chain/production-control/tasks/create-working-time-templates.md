@@ -79,3 +79,6 @@ ms.locfileid: "4421075"
 3. قم بتوسيع القسم "الأحد".
 4. حدد "نعم" في القسم "مُغلق للانتقاء".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

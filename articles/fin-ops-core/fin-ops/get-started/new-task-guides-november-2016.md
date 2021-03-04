@@ -547,3 +547,6 @@ ms.locfileid: "4695027"
 [دلائل المهام الجديدة أو المحدثة (مايو 2016)](new-updated-task-guides-available-may-2016.md)
 
 [دلائل المهام الجديدة أو المحدثة (أغسطس 2016)](new-updated-task-guides-available-august-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

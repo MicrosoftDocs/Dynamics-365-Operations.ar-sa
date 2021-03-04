@@ -131,3 +131,6 @@ ms.locfileid: "4440117"
 - [الدالة round](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

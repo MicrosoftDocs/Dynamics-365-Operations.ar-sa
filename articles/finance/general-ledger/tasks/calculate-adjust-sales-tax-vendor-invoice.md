@@ -44,3 +44,6 @@ ms.locfileid: "4439775"
 13. حدد **موافق**.
 14. حدد **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

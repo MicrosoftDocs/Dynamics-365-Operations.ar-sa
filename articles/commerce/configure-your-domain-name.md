@@ -62,3 +62,6 @@ ms.locfileid: "4517102"
 [إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
 
 [تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

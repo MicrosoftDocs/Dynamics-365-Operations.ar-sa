@@ -67,3 +67,6 @@ ORDERBY (list , expression 1[, expression 2, …, expression N])
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دالات القائمة](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

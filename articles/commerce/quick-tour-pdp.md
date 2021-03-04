@@ -88,3 +88,6 @@ ms.locfileid: "4409997"
 [نظرة عامة على صفحات إدارة الحسابات](quick-tour-account-management.md)
 
 [صفحة إثراء تفاصيل منتج](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

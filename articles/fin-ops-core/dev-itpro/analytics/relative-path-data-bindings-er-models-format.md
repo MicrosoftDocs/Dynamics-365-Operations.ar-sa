@@ -57,3 +57,6 @@ ms.locfileid: "4687443"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [لغة معادلة ER](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

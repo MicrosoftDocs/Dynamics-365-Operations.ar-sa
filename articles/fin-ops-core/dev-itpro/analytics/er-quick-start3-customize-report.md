@@ -671,3 +671,6 @@ ms.locfileid: "4683005"
 - [تنزيل تكوينات ER من المستودع العمومي لخدمة التكوين](er-download-configurations-global-repo.md)
 - [إنشاء فاتورة نص حر](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [إنشاء حقول مخصصة والعمل باستخدامها](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "4439960"
     * راجع النتائج قبل نقل نماذج دفاتر الأصول الثابتة.  
 10. انقر فوق **التحويل**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

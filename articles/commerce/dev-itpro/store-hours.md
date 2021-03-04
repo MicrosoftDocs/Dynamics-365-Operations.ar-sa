@@ -78,3 +78,6 @@ ms.locfileid: "4687501"
 تتضمن إيصالات نقطة البيع الآن ساعات المتجر. إذا تم تضمين أي أيام عطل في القالب، فستظهر على الإيصال.
 
 ![مثال على الإيصال](../dev-itpro/media/Storehours3.png "مثال على الإيصال")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.locfileid: "4409980"
 | Dynamics 365 for Retail - 7.3.2.5 | 7.3.21971.64091 | 2018 يونيو | [KB 4342134Microsoft Dynamics 365 for Retail - الإصدار 7.3.2.5 - حزمة BugFix 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 
 \*يشير الارتباط إلى مقالة قاعدة معارف (KB). يجب عليك تسجيل الدخول إلى Lifecycle Services ‏(LCS) لعرض مقالة قاعدة المعارف.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

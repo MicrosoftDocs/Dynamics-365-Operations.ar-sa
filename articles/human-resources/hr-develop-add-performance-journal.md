@@ -54,3 +54,6 @@ ms.locfileid: "4417050"
 20. في حقل "الوصف"، أدخل "شكرًا على كل المساعدة التي قدمتها في المؤتمر!".
 21. انقر فوق "إرسال".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

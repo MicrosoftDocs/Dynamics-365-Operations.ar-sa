@@ -514,3 +514,6 @@ ms.locfileid: "4680160"
 - [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 - [تنزيل تكوينات ER من Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [تنزيل تكوينات ER من المستودع العمومي لخدمة التكوين](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

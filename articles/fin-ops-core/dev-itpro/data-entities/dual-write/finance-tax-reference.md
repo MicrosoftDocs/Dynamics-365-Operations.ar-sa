@@ -37,3 +37,6 @@ ms.locfileid: "4684021"
 
 + [دفتر الأستاذ المتكامل](ledger-mapping.md)
 + [أصل الضريبة المتكاملة](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

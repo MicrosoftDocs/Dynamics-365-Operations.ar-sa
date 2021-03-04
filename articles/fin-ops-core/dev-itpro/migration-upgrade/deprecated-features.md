@@ -1373,3 +1373,6 @@ ms.locfileid: "4679946"
 |     <strong>مناطق المنتجات المتأثرة</strong>     |                                              دفتر الأستاذ العام                                              |
 |             <strong>الحالة</strong>             |                                      تمت إزالتها اعتبارًا من Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4421371"
     * حدد تقنية التكوين المستند إلى بُعد.  
 9. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

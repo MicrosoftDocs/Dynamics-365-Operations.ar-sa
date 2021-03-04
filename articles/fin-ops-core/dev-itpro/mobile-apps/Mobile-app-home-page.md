@@ -151,3 +151,6 @@ ms.locfileid: "4683448"
 
 ## <a name="troubleshooting"></a>استكشاف الأخطاء وإصلاحها
 [موارد النظام الأساسي للجوال](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -131,3 +131,6 @@ ms.locfileid: "4417171"
 يمكن توفير الاستبيانات لمستخدمين أو مجموعات مستخدمين محددة أو لجميع الموظفين في شبكة.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

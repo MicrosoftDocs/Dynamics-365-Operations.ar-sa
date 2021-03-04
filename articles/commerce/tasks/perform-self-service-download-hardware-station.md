@@ -37,3 +37,6 @@ ms.locfileid: "4409929"
 5. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 6. انقر فوق تنزيل.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

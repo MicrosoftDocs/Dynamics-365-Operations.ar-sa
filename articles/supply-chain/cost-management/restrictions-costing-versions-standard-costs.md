@@ -51,3 +51,6 @@ ms.locfileid: "4421451"
 
 [الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

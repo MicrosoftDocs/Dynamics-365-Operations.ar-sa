@@ -35,3 +35,6 @@ ms.locfileid: "4694583"
 5. في الحقل **المنطقة الزمنية**، حدد خيارًا من القائمة المنسدلة.
 6. حدد **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

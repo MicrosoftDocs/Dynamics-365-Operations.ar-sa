@@ -176,3 +176,6 @@ ms.locfileid: "4409831"
 [إضافة إشعار لحقوق النشر](add-copyright-notice.md)
 
 [إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "4969643"
 > لتوفير سياق حول سبب عرض هذه العناصر الإضافية، يمكنك إضافة أعمدة أخرى إلى الشبكة، مثل **معرف إعادة التوزيع** و **أمر المبيعات**.
 > 
 > [![أعمدة إضافية في صفحة توزيعات أسعار الإيرادات](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4439823"
 [![تطبيق عامل التصفية والاستيراد لنوع مستند الاعمال](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 يمكن استيراد النتائج المصفاة إلى مستودع RCS للمستخدمين أو بيئة Dynamics 365 Finance، سواء بشكل فردي أو كمجموعة. للقيام بذلك، حدد مجموعة التكوينات، وانقر فوق **استيراد**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

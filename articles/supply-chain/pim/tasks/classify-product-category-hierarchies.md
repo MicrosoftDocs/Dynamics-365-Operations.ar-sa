@@ -43,3 +43,6 @@ ms.locfileid: "4421378"
 11. في حقل **الفئة**، أدخل قيمة أو حددها.
 12. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

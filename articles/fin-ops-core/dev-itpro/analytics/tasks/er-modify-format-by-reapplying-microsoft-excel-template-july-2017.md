@@ -83,3 +83,6 @@ ms.locfileid: "4684225"
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>استخدام إصدار المسودة‬ المعدل لتنسيق التقارير الإلكترونية لاستخدامه في معالجة دفتر يومية المدفوعات
 
 قم بمراجعة ورقة العمل التي تم إنشاؤها، بما في ذلك التفاصيل الجديدة لبنود الدفع – تاريخ الدفع.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

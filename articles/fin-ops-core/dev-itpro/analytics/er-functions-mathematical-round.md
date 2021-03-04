@@ -75,3 +75,6 @@ ROUND (number, decimals)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الدالات الحسابية](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

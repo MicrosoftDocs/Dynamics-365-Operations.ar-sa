@@ -119,3 +119,6 @@ ms.locfileid: "4409776"
 [إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

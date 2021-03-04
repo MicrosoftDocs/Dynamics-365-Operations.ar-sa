@@ -73,3 +73,6 @@ ms.locfileid: "4975417"
 
 تغطي وظيفة إدارة سلسلة التوريد أجزاء من عملية الشراء إلى الدفع التي تتضمن الطلب وإرسال الأمر والاستلام والفوترة والدفع مقابل البضائع والخدمات التي تشتريها مؤسستك. لمزيد من المعلومات حول قدرات إدارة عمليات الشراء والفواتير والتصنيع، يمكنك مراجعة [الصفحة الرئيسية لـ Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

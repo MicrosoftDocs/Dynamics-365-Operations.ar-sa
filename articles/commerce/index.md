@@ -56,3 +56,6 @@ ms.locfileid: "4410040"
 - [إدارة موقع التجارة الإلكترونية](online-store-overview.md)
 - [Fraud protection](dev-itpro/DFP.md)
 - [التطوير التجاري وقابلية التوسعة](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

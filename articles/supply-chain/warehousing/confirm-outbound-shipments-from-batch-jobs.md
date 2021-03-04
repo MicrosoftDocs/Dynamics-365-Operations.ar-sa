@@ -54,3 +54,6 @@ ms.locfileid: "4421133"
 1. حدد **موافق** في مربع الحوار **تأكيد الشحن** لإضافة الوظيفة الدُفعية إلى قائمة الدُفعات.
 
 لمزيد من المعلومات، راجع [نظرة عامة على المعالجة الدُفعية](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

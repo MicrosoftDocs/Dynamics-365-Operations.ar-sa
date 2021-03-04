@@ -81,3 +81,6 @@ ms.locfileid: "4529496"
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>المستودعات (Supply Chain Management إلى Field Service): المستودع
 
 [![تعيين القالب في تكامل البيانات](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

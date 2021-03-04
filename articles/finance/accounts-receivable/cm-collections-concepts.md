@@ -122,3 +122,6 @@ ms.locfileid: "4439914"
 [تعليقات الائتمان لأوامر المبيعات](./cm-sales-order-credit-holds.md)
 
 [المهام الدورية لإدارة ائتمان العملاء](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

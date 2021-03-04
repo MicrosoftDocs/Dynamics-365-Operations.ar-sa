@@ -255,3 +255,6 @@ ms.locfileid: "4693715"
 
 [اختصارات لوحة المفاتيح لتحليل الحسابات المفقودة](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

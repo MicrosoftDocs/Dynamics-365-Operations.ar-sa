@@ -50,3 +50,6 @@ ms.locfileid: "4679310"
 
 [!include [warehouses](includes/InventWarehouseEntity-msdyn-warehouse.md)]
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

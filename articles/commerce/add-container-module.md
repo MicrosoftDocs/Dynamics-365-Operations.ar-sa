@@ -142,3 +142,6 @@ ms.locfileid: "4409828"
 [وحدة نمطية للرؤوس](author-header-module.md)
 
 [وحدة التذييل](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

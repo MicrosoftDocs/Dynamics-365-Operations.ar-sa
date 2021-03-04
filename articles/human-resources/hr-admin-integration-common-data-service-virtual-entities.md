@@ -216,3 +216,6 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common D
 [إنشاء كيانات ظاهريه تحتوي علي بيانات من مصدر بيانات خارجي وتحريرها](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [ما المقصود بمداخل Power Apps؟](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [نظره عامه حول إنشاء التطبيقات في Power Apps](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

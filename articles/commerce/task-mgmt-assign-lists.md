@@ -92,3 +92,6 @@ ms.locfileid: "4409958"
 [إنشاء قوائم مهام وإضافة مهام](task-mgmt-create-lists.md)
 
 [إدارة المهام في نقطة البيع](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

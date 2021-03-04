@@ -89,3 +89,6 @@ ms.locfileid: "4409827"
 
 [وحدة نمطية لمشغل الفيديو](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

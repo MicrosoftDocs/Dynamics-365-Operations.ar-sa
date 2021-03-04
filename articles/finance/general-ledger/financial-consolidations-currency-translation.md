@@ -182,3 +182,6 @@ ms.locfileid: "4440065"
 
 ## <a name="generating-consolidated-financial-statements"></a>إنشاء قوائم مالية مدمجة
 لمزيد من المعلومات حول السيناريوهات حيث قد تنشئ قوائم مالية مدمجة، راجع [إنشاء قوائم مالية مدمجة‬](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

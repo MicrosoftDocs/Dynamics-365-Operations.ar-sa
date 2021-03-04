@@ -117,3 +117,6 @@ ms.locfileid: "4460179"
 [بحث عن المرشحين باستخدام LinkedIn Recruiter في Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 [استكشاف أخطاء التكامل وإصلاحها مع LinkedIn وMicrosoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

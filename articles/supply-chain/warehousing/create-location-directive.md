@@ -258,3 +258,6 @@ ms.locfileid: "4517466"
 
 - الفيديو: [نظرة عميقة على تكوين أداره المستودعات](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - موضوع المساعدة: [مراقبة عمل المستودع باستخدام قوالب العمل والتوجيهات المتعلقة بالموقع](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

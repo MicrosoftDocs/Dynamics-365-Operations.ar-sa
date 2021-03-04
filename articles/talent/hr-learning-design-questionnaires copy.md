@@ -246,3 +246,6 @@ ms.locfileid: "4460165"
 
 [عرض وتقييم نتائج الاستبيانات](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

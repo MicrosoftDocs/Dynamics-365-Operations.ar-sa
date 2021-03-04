@@ -94,3 +94,5 @@ ms.locfileid: "4417149"
 
 - [ما الجديد في Human Resources](hr-admin-whats-new.md)
 - [خطة إصدار Dynamics 365 و Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ ms.locfileid: "4460240"
 ## <a name="export-to-excel"></a>تصدير إلى Excel
 
 لعرض بيانات التقرير في Excel، يمكنك النقر فوق القائمة "خيارات" (ثلاث نقاط) على رسم مرئي وتحديد **تصدير البيانات الأساسية**. سيتم تصدير البيانات المصدّرة كبيانات تمت تصفيتها، مما يسمح بمراعاة أذونات المستخدم في Attract. لمزيد من المعلومات، راجع [تصدير بيانات من الرسوم المرئية](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

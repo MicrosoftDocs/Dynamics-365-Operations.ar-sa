@@ -127,3 +127,6 @@ ms.locfileid: "4439910"
 [تعيين البُعد الافتراضي في التوزيعات المحاسبية](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [تعيين البُعد الافتراضي في إطار عمل الأبعاد](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

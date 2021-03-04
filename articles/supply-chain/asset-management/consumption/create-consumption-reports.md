@@ -78,3 +78,6 @@ ms.locfileid: "4421484"
 >[!NOTE]
 >يمكنك أيضًا إنشاء [تقرير أمر عمل](../work-orders/work-order-report.md)، يحتوي على مزيد من التفاصيل المتعلقة بأمر العمل.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

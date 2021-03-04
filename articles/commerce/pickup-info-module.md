@@ -70,3 +70,6 @@ ms.locfileid: "4665338"
 [الوحدة النمطية لتأكيد الأمر](order-confirmation-module.md)
 
 [الوحدة النمطية لتفاصيل الأوامر](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

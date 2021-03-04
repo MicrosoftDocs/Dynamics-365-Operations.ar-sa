@@ -48,3 +48,6 @@ ms.locfileid: "4409944"
 17. في القائمة، ابحث عن قيمة البُعد وحددها للسجل الذي يتم تحديثه.
 18. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

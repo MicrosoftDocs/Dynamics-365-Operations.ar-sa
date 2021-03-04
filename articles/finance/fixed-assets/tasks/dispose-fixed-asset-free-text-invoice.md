@@ -41,3 +41,6 @@ ms.locfileid: "4439944"
 10. في حقل **الأصل الثابت**، أدخل قيمة أو حددها.
 11. حدد **ترحيل**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "4421559"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [نظرة عامة على اتفاقية الخدمة](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

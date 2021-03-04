@@ -41,3 +41,6 @@ ms.locfileid: "4440082"
 10. في حقل "البعد"، أدخل أو حدد قيمة.
 11. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

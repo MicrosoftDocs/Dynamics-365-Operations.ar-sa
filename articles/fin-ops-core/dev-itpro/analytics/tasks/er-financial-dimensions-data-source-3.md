@@ -145,3 +145,6 @@ ms.locfileid: "4684777"
 46. قم بإغلاق الصفحة.
 ![صفحة مصمم عمليات التقارير الإلكترونية](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

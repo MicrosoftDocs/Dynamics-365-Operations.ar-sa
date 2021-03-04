@@ -68,3 +68,6 @@ ms.locfileid: "4556419"
 
 [إنشاء سمة جديدة](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

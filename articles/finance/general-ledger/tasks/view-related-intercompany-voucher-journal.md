@@ -54,3 +54,6 @@ ms.locfileid: "4440048"
 3. في القائمة، قم بوضع علامة للصف المحدد.
 4. انقر فوق "الإيصال".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

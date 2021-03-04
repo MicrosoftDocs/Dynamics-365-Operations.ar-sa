@@ -65,3 +65,6 @@ ms.locfileid: "4440050"
 4. على علامة التبويب **إعداد** ، قم بتعيين خيار **حساب الضريبة المؤجل** إلى **نعم**.
 
 ![صورة صفحة دفتر اليومية العام](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

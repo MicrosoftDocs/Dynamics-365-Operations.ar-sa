@@ -71,3 +71,6 @@ ms.locfileid: "4692832"
 + [تكوين فروع موازٍية في سير عمل](configure-parallel-branch-workflow.md)
 + [تكوين عمليات سير عمل لعنصر بند](configure-line-item-workflow.md)
 + [الأسئلة المتداولة حول سير العمل](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

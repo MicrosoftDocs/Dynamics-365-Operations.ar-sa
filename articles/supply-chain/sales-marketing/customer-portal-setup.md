@@ -86,3 +86,6 @@ ms.locfileid: "4529520"
 - [ترقية مدخل](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [ترحيل تكوين المدخل](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [إدارة دورة حياة الحل: تطبيقات Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

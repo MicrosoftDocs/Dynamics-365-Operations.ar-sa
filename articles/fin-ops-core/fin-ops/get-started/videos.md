@@ -167,3 +167,6 @@ ms.locfileid: "4693559"
 تركز [الأحاديث التقنية لـ FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) على توفير عمق تقني وأفضل الممارسات ما يوفر للعملاء والشركاء المعرفة المفصلة بنواحي الموضوع.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

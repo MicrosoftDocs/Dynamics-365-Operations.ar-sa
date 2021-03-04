@@ -90,3 +90,6 @@ ms.locfileid: "4421050"
 2. على علامة تبويب **الإعداد**، حدد **حسب مهمة الخدمة‬** في الحقل **تجميع أوامر الخدمة‬**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

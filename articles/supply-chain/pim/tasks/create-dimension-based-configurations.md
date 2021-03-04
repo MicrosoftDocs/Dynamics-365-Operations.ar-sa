@@ -53,3 +53,6 @@ ms.locfileid: "4421373"
     * أدخل وصف التكوين لشرح محتواه.  
 11. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

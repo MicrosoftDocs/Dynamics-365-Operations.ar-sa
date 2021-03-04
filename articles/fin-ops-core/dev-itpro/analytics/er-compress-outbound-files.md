@@ -94,3 +94,6 @@ ms.locfileid: "4680844"
 [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
 
 [تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

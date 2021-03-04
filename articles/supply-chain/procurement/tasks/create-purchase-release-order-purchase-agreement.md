@@ -59,3 +59,6 @@ ms.locfileid: "4421309"
 3. قم بإغلاق الصفحة.
 4. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

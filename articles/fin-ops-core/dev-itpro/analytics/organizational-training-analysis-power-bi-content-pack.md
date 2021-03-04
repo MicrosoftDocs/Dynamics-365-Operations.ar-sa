@@ -57,3 +57,6 @@ ms.locfileid: "4685825"
 | Training\_Position        | المنصب، والمسمى الوظيفي، ومكافئ الدوام الكامل‬                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | الاسم الأول والاسم الأخير والاسم بالكامل                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | المسمى الوظيفي وتاريخ الأقدمية                                         | Training\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

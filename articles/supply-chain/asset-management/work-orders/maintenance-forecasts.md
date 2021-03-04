@@ -124,3 +124,6 @@ ms.locfileid: "4421818"
 يوضح الرسم التوضيحي المبين أدناه مثال لمربع حوار **تحديث تنبؤ أمر العمل‬** .
 
 ![الشكل 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

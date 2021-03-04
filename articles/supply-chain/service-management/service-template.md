@@ -58,3 +58,6 @@ ms.locfileid: "4421049"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [نسخ بنود قوالب خدمة](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

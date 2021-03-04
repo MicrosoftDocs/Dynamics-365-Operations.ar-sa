@@ -107,3 +107,6 @@ ms.locfileid: "4409830"
 [وحدة كتلة النص](add-content-rich-block.md)
 
 [وحدة نمطية لمشغل الفيديو](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

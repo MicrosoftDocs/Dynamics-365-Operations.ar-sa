@@ -78,3 +78,6 @@ ms.locfileid: "4421611"
 - [القيام بتسويات يدوية في التنبؤ الأساسي](manual-adjustments-baseline-forecast.md)
 
 - [تخويل ‏‫التنبؤ الذي تمت تسويته](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

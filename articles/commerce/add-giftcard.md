@@ -94,3 +94,6 @@ ms.locfileid: "4410056"
 [دعم بطاقات الهدايا الخارجية](./dev-itpro/gift-card.md)
 
 [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

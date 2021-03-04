@@ -65,3 +65,6 @@ ms.locfileid: "4645962"
 1. استلام زائد لكميات حمل العمل
 
 لمزيد من المعلومات ، راجع [ترحيل كميات المنتج المسجلة مقابل أوامر الشراء](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ ms.locfileid: "4439969"
 5. انقر فوق **موافق**.
 6. في الحقل **الحالة**، حدد "‏‫مرحّل‬".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

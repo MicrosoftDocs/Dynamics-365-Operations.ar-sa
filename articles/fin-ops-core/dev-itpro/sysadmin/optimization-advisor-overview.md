@@ -94,3 +94,6 @@ ms.locfileid: "4682527"
 [إنشاء قواعد مرشد التحسين](./create-rules-optimization-advisor.md)
 
 [مرشد التحسين في Dynamics 365 for Finance and Operations (فيديو)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

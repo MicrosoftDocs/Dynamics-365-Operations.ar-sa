@@ -113,3 +113,6 @@ ms.locfileid: "4682083"
     * حدد "استعراض" وحدد ملف Response4.xml.
 16. حدد موافق.
     * اعمل على مراجعة المخرجات المنشأة. تم الآن التعرف بشكل صحيح على نوع الاستجابة على أنه مساو للملف Response1.xml.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

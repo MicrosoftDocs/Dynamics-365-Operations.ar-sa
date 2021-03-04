@@ -69,3 +69,6 @@ ms.locfileid: "4529568"
 ![تبعيات مدخل العميل](media/customer-portal-elements.png "تبعيات مدخل العميل")
 
 يعمل مدخل العميل كنقطة بداية للمؤسسات التي ترغب في استخدام مداخل Power Apps لإنشاء موقع ويب خارجي يستخدم البيانات من تثبيت Supply Chain Management. وهو يساعد المؤسسات على توصيل الكتابة المزدوجة وSupply Chain Management ومداخل Power Apps.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

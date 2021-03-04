@@ -109,3 +109,6 @@ ms.locfileid: "4409910"
 [نظرة عامة على القوالب والتخطيطات](templates-layouts-overview.md)
 
 [العمل مع القوالب](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

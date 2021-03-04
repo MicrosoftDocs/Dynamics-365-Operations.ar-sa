@@ -101,3 +101,6 @@ ms.locfileid: "4693992"
 - [تكوين إدارة المستندات](configure-document-management.md)
 - [تكوين البريد الإلكتروني وإرساله](configure-email.md)
 - [بيانات التاريخ/الوقت والمناطق الزمنية](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

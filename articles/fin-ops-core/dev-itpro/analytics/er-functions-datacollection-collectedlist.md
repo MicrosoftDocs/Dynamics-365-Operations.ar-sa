@@ -77,3 +77,6 @@ COLLECTEDLIST (condition 1 range, condition 1 value[, condition 2 range, conditi
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [وظائف تجميع البيانات](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

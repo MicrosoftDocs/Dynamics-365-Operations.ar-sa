@@ -143,3 +143,6 @@ ms.locfileid: "4527328"
 
 [العميل المتوقع إلى النقدية](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

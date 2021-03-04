@@ -41,3 +41,6 @@ ms.locfileid: "4417069"
    | **‏‏الوصف** | وصف نوع التوظيف. |
 
 4. حدد **حفظ**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ ms.locfileid: "4460233"
 [إنشاء الوظائف والموافقة عليها ونشرها في Attract](./creating-jobs-attract.md)
 
 [استكشاف أخطاء التكامل وإصلاحها مع LinkedIn وMicrosoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ ms.locfileid: "2180773"
 يمكن العثور على وصف لكيفية إنشاء مخططات علاقة الكيان (ERD) في: [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)
 
 يوجد الحل في جذر مجلد AxErd [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

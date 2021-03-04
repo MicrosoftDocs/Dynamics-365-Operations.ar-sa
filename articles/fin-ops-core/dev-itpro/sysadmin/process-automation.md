@@ -47,3 +47,6 @@ ms.locfileid: "4682499"
 ## <a name="developer-documentation"></a>وثائق المطور
 
 يسمح إطار عمل أتمتة العملية للمطورين بتوسيع إطار عمل أتمتة العملية. توفر وثائق [إطار عمل أتمتة العملية](../process-automation/process-automation-framework.md) معلومات حول كيفية إنشاء عمليات مخصصة تطالب بتشغيلها بواسطة خادم الدُفعة المجدولة باستخدام معالج أتمتة العملية وتظهر في طريقة عرض التقويم تلقائيًا.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

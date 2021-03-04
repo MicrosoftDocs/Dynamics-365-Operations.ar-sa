@@ -78,3 +78,6 @@ ms.locfileid: "4976530"
 
 > [!NOTE]
 > سنضيف المزيد من قواعد التحقق من الصحة لدعم سيناريوهات إضافية في إصدار مستقبلي.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "4421210"
 
 للحصول على وصف مختصر للأزرار في صفحة قائمة **مهام صيانة أوامر العمل النشطة‬** ، يمكنك الرجوع إلى [مقدمة إلى أوامر العمل](../work-orders/introduction-to-work-orders.md) حيث يتم وصف أزرار مماثلة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

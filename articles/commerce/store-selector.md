@@ -146,3 +146,6 @@ ms.locfileid: "4665262"
 [واجهات REST API لخرائط Bing](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [وحدة الخرائط](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

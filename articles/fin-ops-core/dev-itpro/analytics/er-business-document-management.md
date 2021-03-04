@@ -423,3 +423,6 @@ ms.locfileid: "4681294"
 
 [تكوين التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

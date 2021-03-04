@@ -227,3 +227,6 @@ ms.locfileid: "4687442"
 [التقارير المالية](financial-reporting-intro.md)
 
 [إنشاء التقارير المالية](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

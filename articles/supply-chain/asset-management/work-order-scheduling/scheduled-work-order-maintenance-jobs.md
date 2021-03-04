@@ -52,3 +52,6 @@ ms.locfileid: "4421290"
 
 ![الشكل 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

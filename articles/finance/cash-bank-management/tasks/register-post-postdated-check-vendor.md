@@ -56,3 +56,6 @@ ms.locfileid: "4439982"
 16. قم بإغلاق الصفحة.
 17. انقر فوق علامة التبويب "الشيكات التي تم تأخير تواريخها".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

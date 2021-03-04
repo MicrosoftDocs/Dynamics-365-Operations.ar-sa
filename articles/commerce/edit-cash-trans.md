@@ -120,3 +120,6 @@ ms.locfileid: "5010190"
 [إنشاء دفتر عمل Excel لتحرير معاملات البيع بالتجزئة](create-excel-edit.md)
 
 [إضافة الحقول إلى دفتر عمل Excel لتحرير معاملات البيع بالتجزئة](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

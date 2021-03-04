@@ -61,3 +61,6 @@ ms.locfileid: "4440026"
 29. في **جزء الإجراءات**، انقر فوق **التحقق من الصحة**.
 30. انقر فوق **تنشيط**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

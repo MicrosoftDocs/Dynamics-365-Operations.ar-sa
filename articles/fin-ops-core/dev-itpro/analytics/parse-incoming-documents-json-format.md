@@ -50,3 +50,6 @@ ms.locfileid: "4685753"
 | المسمى الوظيفي                  | اسم الملف |
 |------------------------|-----------|
 | تكوين نموذج تقارير إلكترونية | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

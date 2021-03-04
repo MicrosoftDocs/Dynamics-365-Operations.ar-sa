@@ -221,3 +221,6 @@ ms.locfileid: "4409919"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [عملية المخزون الخارجية في نقطة البيع](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

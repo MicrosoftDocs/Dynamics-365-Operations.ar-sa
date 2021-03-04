@@ -44,3 +44,6 @@ ms.locfileid: "4417087"
 
 1. الانتقال إلى [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
 2. إنشاء البيئات باتباع الإرشادات الموجودة في [توفير Human Resources](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

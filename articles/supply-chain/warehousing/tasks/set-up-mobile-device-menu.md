@@ -69,3 +69,6 @@ ms.locfileid: "4421580"
 5. حدد السهم المتجه لليمين.
 6. حدد **حفظ**.
 7. قم بإغلاق الصفحة.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

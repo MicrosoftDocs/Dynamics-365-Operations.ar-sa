@@ -65,3 +65,5 @@ ms.locfileid: "4421510"
 #### <a name="task-guides"></a>دلائل المهام
 
 تتوفر تعليمات إضافية كدلائل مهام. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

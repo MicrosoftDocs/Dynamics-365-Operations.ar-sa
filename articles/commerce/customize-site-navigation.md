@@ -110,3 +110,6 @@ ms.locfileid: "4409877"
 [إنشاء عنوان URL لصفحة](create-page-url.md)
 
 [العمل مع مجموعات النشر](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

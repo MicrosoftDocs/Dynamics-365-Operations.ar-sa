@@ -62,3 +62,6 @@ ms.locfileid: "4417180"
 ## <a name="see-also"></a>راجع أيضًا
 
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

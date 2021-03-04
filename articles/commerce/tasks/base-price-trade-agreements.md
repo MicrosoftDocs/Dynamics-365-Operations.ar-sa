@@ -70,3 +70,6 @@ ms.locfileid: "4409952"
 38. في **جزء الإجراءات**، انقر فوق "بيع‬".
 39. انقر فوق **سعر المبيعات**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

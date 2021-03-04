@@ -334,3 +334,6 @@ ms.locfileid: "4421151"
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>هل يمكنني استخدام لوحه ترخيص لها مخزون سلبي مادي؟
 
 تدعم هذه الميزة الكميات الفعلية الإيجابية فقط. تاكد من وجود كميات فعليه إيجابية فعليا علي مستوي المستودع ومستوي حاله المخزون قبل تعيين لوحات الترخيص إلى أمر تحويل.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

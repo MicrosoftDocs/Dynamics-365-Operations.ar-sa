@@ -105,3 +105,6 @@ ms.locfileid: "4527208"
 ## <a name="grant-access-to-the-environment"></a>منح الوصول إلى البيئة
 
 بشكل افتراضي، يتمتع المسؤول العمومي الذي أنشأ البيئة بحق الوصول إليها. ومع ذلك، يجب منح حق الوصول بشكل واضح إلى مستخدمين إضافيين للتطبيق. لمنح حق الوصول، يجب إضافة مستخدمين وتعيين الأدوار المناسبة لهم في بيئة Human Resources. يجب أيضًا على المسؤول العمومي الذي نشر Talent تشغيل تطبيقات Attract وOnboard لإكمال التهيئة وتمكين الوصول لمستخدمي شبكة الاتصال المستأجرة الآخرين.  وحتى حدوث ذلك، لن يتمكن المستخدمون الآخرون من الوصول إلى تطبيقات Attract وOnboard وسوف يحصلون على خطأ مخالفة الوصول. للحصول على مزيد من المعلومات، راجع [إنشاء مستخدمين جدد](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) و[تعيين مستخدمين إلى أدوار أمان](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ ms.locfileid: "4409999"
 [نظرة عامة على صفحات سلة التسوق والسداد مع الخروج](quick-tour-cart-checkout.md)
 
 [نظرة عامة على صفحات إدارة الحسابات](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

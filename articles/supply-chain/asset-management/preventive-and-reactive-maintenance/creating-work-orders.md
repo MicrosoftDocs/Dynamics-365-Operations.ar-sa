@@ -52,3 +52,6 @@ ms.locfileid: "4421408"
 
 5. انقر فوق **موافق**. يتم إنشاء أمر عمل واحد أو أكثر.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

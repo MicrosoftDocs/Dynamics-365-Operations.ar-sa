@@ -504,3 +504,6 @@ ms.locfileid: "4421440"
 [إدارة عدم المطابقة](enable-nonconformance-management.md)
 
 [إدارة الجودة لعمليات المستودعات](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

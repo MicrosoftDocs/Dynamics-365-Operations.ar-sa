@@ -67,3 +67,6 @@ ms.locfileid: "4417119"
 30. في الحقل "القسم"، أدخل قيمة أو حددها.
 31. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

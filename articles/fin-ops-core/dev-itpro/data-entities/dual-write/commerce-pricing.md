@@ -53,3 +53,6 @@ ms.locfileid: "4594908"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [العميل المتوقع إلى النقدية في الكتابة المزدوجة](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

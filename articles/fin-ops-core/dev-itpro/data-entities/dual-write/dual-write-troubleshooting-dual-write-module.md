@@ -87,3 +87,6 @@ ms.locfileid: "4683613"
 
 + إذا كان التعيين يتضمن تعيينات تابعة، فتأكد من تمكين التعيينات التابعة لتعيين هذا الجدول.
 + قد يكون التعيين مفتقدًا لحقول المصدر أو الوجهة. في حالة فقدان حقل في تطبيق Finance and Operations، اتبع الخطوات الموجودة في القسم [مشكلة فقدان حقول الكيان في التعيينات](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). في حالة فقدان حقل في Dataverse، عندئذ انقر فوق **تحديث الجداول** على التعيين بحيث يتم ملء الحقول تلقائيًا إلى التعيين.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

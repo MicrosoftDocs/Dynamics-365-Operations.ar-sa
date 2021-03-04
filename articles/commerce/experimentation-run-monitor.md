@@ -53,3 +53,6 @@ ms.locfileid: "4410036"
 
 ## <a name="next-step"></a>الخطوة التالية
 [ترقية التباين وإكمال تجربة](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

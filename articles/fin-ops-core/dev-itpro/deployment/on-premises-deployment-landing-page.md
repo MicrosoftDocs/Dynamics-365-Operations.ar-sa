@@ -72,3 +72,6 @@ ms.locfileid: "4679334"
 - [الميزات التي تمت إزالتها أو إهمالها لـ Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [سياسة دورة حياة البرامج والإصدارات المحلية](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

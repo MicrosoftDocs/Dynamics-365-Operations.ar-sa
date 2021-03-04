@@ -61,3 +61,6 @@ ms.locfileid: "4410035"
 
 ## <a name="previous-step"></a>الخطوة السابقة
 [تشغيل تجربة ومراقبتها](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

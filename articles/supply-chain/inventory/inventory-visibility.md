@@ -500,3 +500,6 @@ ms.locfileid: "4625055"
 ```
 
 لاحظ انه يتم بناء حقول الكميات كقاموس للمقاييس والقيم المقترنة بها.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

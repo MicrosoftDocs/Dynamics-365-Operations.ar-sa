@@ -88,3 +88,6 @@ ms.locfileid: "4440029"
 57. وسّع القسم **اقترانات‬‬‬**.
 58. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

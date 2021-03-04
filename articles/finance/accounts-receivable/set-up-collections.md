@@ -115,3 +115,6 @@ ms.locfileid: "4440168"
 
  - [مراجعة معلومات التحصيلات](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

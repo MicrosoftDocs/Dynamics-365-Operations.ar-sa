@@ -523,3 +523,6 @@ ms.locfileid: "4440134"
 | 11         | مجمع الإهلاك |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ ms.locfileid: "4409835"
 [إضافة إشعار لحقوق النشر](add-copyright-notice.md)
 
 [إضافة لغات إلى الموقع الخاص بك](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

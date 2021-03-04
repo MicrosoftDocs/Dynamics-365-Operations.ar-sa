@@ -227,3 +227,5 @@ ms.locfileid: "4669151"
 [تكوين كيانات Common Data Service الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [تنظيم القوى العاملة](hr-personnel-departments-jobs-positions.md)<br>
 [إعداد مكونات وظيفة](hr-personnel-jobs.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

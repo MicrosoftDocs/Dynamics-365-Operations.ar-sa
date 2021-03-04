@@ -189,3 +189,6 @@ ms.locfileid: "4686528"
 [تضمين الصور والأشكال في المستندات التي تقوم بإنشائها باستخدام التقارير الإلكترونية](electronic-reporting-embed-images-shapes.md)
 
 [تكوين التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

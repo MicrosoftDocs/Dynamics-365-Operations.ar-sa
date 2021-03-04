@@ -56,3 +56,6 @@ ms.locfileid: "4421102"
 3. في حقل "النشاط"، أدخل قيمة أو حددها.
 4. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

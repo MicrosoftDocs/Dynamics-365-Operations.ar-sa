@@ -57,3 +57,6 @@ ms.locfileid: "4409771"
 [نظرة عامة على تخطيط الشاشة](pos-screen-layouts.md)       
 
 [تكوين Retail Hardware Station وتثبيتها](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

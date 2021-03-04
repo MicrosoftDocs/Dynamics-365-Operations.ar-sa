@@ -158,3 +158,6 @@ ms.locfileid: "4440171"
 [تحديد حقوق الوصول لمراقبي كائن التكلفة](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

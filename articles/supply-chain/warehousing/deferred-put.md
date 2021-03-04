@@ -110,3 +110,6 @@ ms.locfileid: "4421706"
 ## <a name="deleting-completed-tasks"></a>حذف المهام المكتملة
 
 يمكنك حذف مهام معالجة الوضع المؤجل المكتملة وذلك عن طريق تحديدها وحذفها من الصفحة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

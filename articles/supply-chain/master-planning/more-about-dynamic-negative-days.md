@@ -251,3 +251,6 @@ ms.locfileid: "4421343"
 ## <a name="see-also"></a>راجع أيضًا
 
 لمزيد من المناقشات، راجع منشور المدونة الأصلي [المزيد من التفاصيل حول الأيام السالبة (الديناميكية)](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

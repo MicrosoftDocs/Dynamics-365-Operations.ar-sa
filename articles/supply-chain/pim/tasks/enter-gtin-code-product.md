@@ -42,3 +42,6 @@ ms.locfileid: "4421355"
 11. في الحقل "GTIN‬"، اكتب قيمة.
 12. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

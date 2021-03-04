@@ -257,3 +257,6 @@ ms.locfileid: "4409873"
 
     > [!NOTE]
     > إذا تم إنشاء مشاركة وسائط المنتج ومشاركة سمات المنتج، فستنطبق على جميع المنتجات.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

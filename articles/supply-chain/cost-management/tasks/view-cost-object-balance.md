@@ -40,3 +40,6 @@ ms.locfileid: "4421500"
 8. قم بإلغاء تحديد خانة الاختيار "الموقع".
 9. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

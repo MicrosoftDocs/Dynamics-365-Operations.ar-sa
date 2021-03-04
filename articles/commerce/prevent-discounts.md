@@ -41,3 +41,6 @@ ms.locfileid: "4409822"
 > لا تقيد هذه الإعدادات عملية تجاوز السعر، حيث تقوم بتعيين السعر الأساسي ولا تتم معاملتها على أنها خصم.
 
 [![حقل منع الخصومات](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

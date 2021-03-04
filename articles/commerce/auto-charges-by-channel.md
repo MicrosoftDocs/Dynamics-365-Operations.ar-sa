@@ -128,3 +128,6 @@ ms.locfileid: "4409870"
 [التكاليف التلقائية المتقدمة ‬للقناة متعددة الاتجاهات](omni-auto-charges.md)
 
 [توزيع تكاليف الرأس لمطابقة بنود المبيعات](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

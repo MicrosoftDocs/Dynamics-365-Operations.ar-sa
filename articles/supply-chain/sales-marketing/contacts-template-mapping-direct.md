@@ -142,3 +142,6 @@ ms.locfileid: "4528939"
 [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-invoice-template-mapping-direct.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

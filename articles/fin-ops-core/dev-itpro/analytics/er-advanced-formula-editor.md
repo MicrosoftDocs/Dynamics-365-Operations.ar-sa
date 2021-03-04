@@ -171,3 +171,6 @@ ms.locfileid: "4685372"
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
 - [محرر موناكو](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

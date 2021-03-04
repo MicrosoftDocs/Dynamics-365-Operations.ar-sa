@@ -45,3 +45,6 @@ ms.locfileid: "4683128"
 - [مساحة عمل دفعات المورد](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [محتوى "أداء المستودع" في Power BI](warehouse-power-bi-content.md)
 - [محتوى "مقاييس القوى العاملة" في Power BI](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

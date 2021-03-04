@@ -130,3 +130,6 @@ ms.locfileid: "4686651"
 3. انقر فوق **استعراض** وحدد الملف، **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. انقر فوق **موافق**.
 5. راجع الملف المنشأ. لاحظ أنه تم استيراد نفس الملف نظرًا لمراعاة تصميم التنسيق لسمة "المعرف" لعنصر "المستند" باعتبارها اختيارية.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

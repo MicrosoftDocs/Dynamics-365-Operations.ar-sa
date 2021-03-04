@@ -57,3 +57,6 @@ ms.locfileid: "4449363"
 - كمية الإيصال
 - كمية الإصدار
 - الكمية المتاحة
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

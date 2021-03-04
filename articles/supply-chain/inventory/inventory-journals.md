@@ -117,3 +117,6 @@ ms.locfileid: "4421127"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [كيانات البيانات](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

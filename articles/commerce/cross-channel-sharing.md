@@ -137,3 +137,6 @@ ms.locfileid: "4410021"
 [حالات المستند ودورة الحياة](document-states-overview.md)
 
 [العمل مع مجموعات النشر](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

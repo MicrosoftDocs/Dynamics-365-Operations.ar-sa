@@ -78,3 +78,6 @@ ms.locfileid: "4965368"
 [تحرير الأبعاد المالية لحركات البيع بالتجزئة](edit-financial-dim.md)
 
 [إضافة الحقول إلى دفتر عمل Excel لتحرير حركات البيع بالتجزئة](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

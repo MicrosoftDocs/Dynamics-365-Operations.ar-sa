@@ -52,3 +52,6 @@ ms.locfileid: "4439870"
 4. في الحقل "الحساب البنكي‬‬"، أدخل قيمة أو حددها.
 5. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ ms.locfileid: "4439878"
 8. في الحقل "البعد الإحصائي"، أدخل قيمة أو حددها.
 9. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

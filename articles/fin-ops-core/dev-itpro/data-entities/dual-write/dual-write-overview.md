@@ -109,3 +109,6 @@ ms.locfileid: "4685603"
 
 لمزيد من المعلومات حول التغييرات القادمة، راجع [الميزات الجديدة أو المتغيرة في الكتابة المزدوجة](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

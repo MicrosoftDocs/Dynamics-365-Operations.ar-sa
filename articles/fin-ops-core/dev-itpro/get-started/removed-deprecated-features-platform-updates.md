@@ -192,3 +192,6 @@ ms.locfileid: "4689556"
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>الإعلانات السابقة حول الميزات التي تمت إزالتها أو إهمالها
 لمعرفه المزيد حول الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة، راجع [‏‫الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة‬](../migration-upgrade/deprecated-features.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

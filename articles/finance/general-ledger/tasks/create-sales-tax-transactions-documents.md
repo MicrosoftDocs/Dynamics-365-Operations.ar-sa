@@ -60,3 +60,6 @@ ms.locfileid: "4440032"
 29. انقر فوق "ضريبة المبيعات".
 30. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

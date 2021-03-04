@@ -65,3 +65,6 @@ ms.locfileid: "4526989"
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

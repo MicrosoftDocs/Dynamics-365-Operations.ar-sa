@@ -83,3 +83,6 @@ ms.locfileid: "4421367"
 17. في الحقل "حسب السلسلة"، ادخل اسمًا.
 18. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ ms.locfileid: "4407577"
 
 - [إنشاء دفع ضريبة مبيعات](../general-ledger/tasks/create-sales-tax-payment.md)
 - [الأسئلة الشائعة: إرجاع ضريبة القيمة المضافة (موقع ويب الحكومة)](https://www.vat.gov.sa/en/e-services/vat-returns)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

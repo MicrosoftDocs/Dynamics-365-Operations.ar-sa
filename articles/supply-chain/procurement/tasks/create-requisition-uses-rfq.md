@@ -99,3 +99,6 @@ ms.locfileid: "4421237"
 8. حدد الصفحة .
 9. حدد "مكتمل".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

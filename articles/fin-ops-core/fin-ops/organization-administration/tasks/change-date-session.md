@@ -32,3 +32,6 @@ ms.locfileid: "4694607"
 2. في حقل **التاريخ**، أدخل تاريخًا.
 3. حدد **موافق**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

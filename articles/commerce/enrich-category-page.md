@@ -65,3 +65,6 @@ ms.locfileid: "4409892"
 [إثراء صفحة منتج](enrich-product-page.md)
 
 [التحقق من إمكانية الوصول إلى محتوي الصفحة](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ ms.locfileid: "4528065"
 ### <a name="print-performance-reviews"></a>طباعة مراجعات الأداء
 
 سيتمكن الموظفون والمديرون وموظفي الموارد البشرية من طباعة مراجعة أداء الموظف.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

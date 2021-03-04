@@ -44,3 +44,6 @@ ms.locfileid: "4440080"
     * لهذا المثال، حدد عضو البعد 6001004 Telefono.  
 11. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

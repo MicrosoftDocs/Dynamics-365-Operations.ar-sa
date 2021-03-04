@@ -380,3 +380,6 @@ ms.locfileid: "4681438"
 - [تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية](er-trace-reports-compare-baseline.md)
 - [ترقية التنسيق باعتماد إصدار أساسي جديد لهذا التنسيق في ER](tasks/er-upgrade-format.md)
 - [تعمل التقارير الإلكترونية على الاستيراد من Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

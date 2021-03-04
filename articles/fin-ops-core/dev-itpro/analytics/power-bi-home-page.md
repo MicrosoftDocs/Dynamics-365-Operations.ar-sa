@@ -65,3 +65,6 @@ ms.locfileid: "4685723"
 - إدارة التكلفة
 - [الأداء المالي](financial-performance-power-bi-content-pack.md)
 - [أداء قناة البيع بالتجزئة ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

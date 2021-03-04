@@ -139,3 +139,6 @@ ms.locfileid: "4410010"
 - تسجيل الغياب
 
 للحصول على مزيد من المعلومات حول كيفية معالجة تسجيلات الوقت والحضور، راجع [معالجة تسجيلات الوقت والحضور](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

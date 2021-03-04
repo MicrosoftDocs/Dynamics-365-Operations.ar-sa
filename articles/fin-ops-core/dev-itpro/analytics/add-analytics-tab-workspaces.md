@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء عامل التصفية (**true**) أو إخفاؤه (**false**).     |
 | showNavPane      | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء التنقل (**true**) أو إخفاؤه (**false**). |
 | defaultFilters   | عوامل التصفية الافتراضية لتقرير Power BI.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "4417100"
    | **‏‏الوصف** | وصف موجز لكود طبقة الميزة. |
 
 4. حدد **حفظ**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

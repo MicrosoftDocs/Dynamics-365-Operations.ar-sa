@@ -46,3 +46,6 @@ ms.locfileid: "4439937"
 6. انقر فوق "ترحيل".
     * رحّل الفواتير المحددة.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

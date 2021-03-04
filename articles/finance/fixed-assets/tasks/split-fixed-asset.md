@@ -63,3 +63,6 @@ ms.locfileid: "4514316"
     - يتم إنشاء حركة استحواذ للأصل الجديد بالمبلغ نفسه.
 
 4. حدد **ترحيل**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

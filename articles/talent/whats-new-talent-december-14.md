@@ -151,3 +151,6 @@ ms.locfileid: "4529746"
 ![مهمة "العاملون إلى العامل"](./media/WorkerMapping.png)
 
 ![تحويل حقل النوع](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -134,3 +134,6 @@ ms.locfileid: "4476067"
 [مركز تعليمات Microsoft Teams](https://support.office.com/teams)</br>
 [إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

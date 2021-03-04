@@ -63,3 +63,6 @@ NUMBERVALUE (text, decimal separator, digit grouping separator)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [وظائف تحويل النوع](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -837,3 +837,6 @@ Modern POS لـ Android عبارة عن إصدار يستند إلى Android م�
 [محاكي الأجهزة الطرفية لـ Commerce‎](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

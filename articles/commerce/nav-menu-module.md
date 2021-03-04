@@ -72,3 +72,6 @@ ms.locfileid: "4410028"
 [توافق ملفات تعريف الارتباط](cookie-compliance.md)
 
 [الوحدة النمطية للرؤوس](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

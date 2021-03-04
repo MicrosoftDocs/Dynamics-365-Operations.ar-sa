@@ -65,3 +65,6 @@ ms.locfileid: "4527755"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [تحسين الأداء باستخدام مهام التنظيف التلقائية](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

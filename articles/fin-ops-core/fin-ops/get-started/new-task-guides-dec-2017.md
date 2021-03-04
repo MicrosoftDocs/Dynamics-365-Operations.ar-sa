@@ -368,3 +368,6 @@ ms.locfileid: "4695003"
 **بند قائمة مكونات الصنف الذي تم حذفه**
 
 - نقل وظائف كانبان المجدولة
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

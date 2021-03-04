@@ -49,3 +49,6 @@ NULLDATETIME ()
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دلات التاريخ والوقت](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ ms.locfileid: "4439971"
 ‏‫لمزيد من المعلومات، راجع [‬‏‫أمثلة تعريفات الترحيل](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

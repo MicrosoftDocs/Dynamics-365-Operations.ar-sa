@@ -309,3 +309,6 @@ ms.locfileid: "4440129"
 - [نظرة عامة على الوظيفة الإضافية الفوترة الإلكترونية](e-invoicing-service-overview.md)
 - [بدء استخدام الوظيفة الإضافية "الفوترة الإلكترونية"](e-invoicing-get-started.md)
 - [إعداد الوظيفة الإضافية الفوترة الإلكترونية](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

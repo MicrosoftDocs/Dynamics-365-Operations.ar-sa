@@ -62,3 +62,6 @@ ms.locfileid: "4409949"
 24. انقر فوق المعالج الافتراضي لخانة الاختيار بطاقات الائتمان الجديدة.
 25. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

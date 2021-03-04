@@ -109,3 +109,6 @@ ms.locfileid: "4409763"
 [الوحدة النمطية لصندوق الشراء](add-buy-box.md)
 
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

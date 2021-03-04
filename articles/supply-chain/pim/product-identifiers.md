@@ -190,3 +190,6 @@ ms.locfileid: "4529176"
 ## <a name="related-topic"></a>مواضيع مرتبطة
 
 [البحث عن المنتجات ومتغيرات المنتجات أثناء إدخال الأمر](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

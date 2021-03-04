@@ -95,3 +95,6 @@ ms.locfileid: "4683713"
 ### <a name="tables-currency-field"></a>الجداول: حقل العملة
 
 يتم تحديد عدد المنازل العشرية التي يمكن تكوينها لحقول عملة معينة على أربعة.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ ms.locfileid: "4666736"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الجرد الدوري](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

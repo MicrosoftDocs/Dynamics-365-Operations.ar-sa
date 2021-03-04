@@ -197,3 +197,6 @@ ms.locfileid: "4686235"
 [عرض التقارير المالية](../../../finance/general-ledger/view-financial-reports.md)
 
 [مدونة Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

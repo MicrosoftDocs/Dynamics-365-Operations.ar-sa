@@ -60,3 +60,6 @@ ms.locfileid: "4421340"
 [عرض سجل محفوظات الخطط والتخطيط](plan-history-logs.md)
 
 [تطبيق عوامل تصفية على خطة](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

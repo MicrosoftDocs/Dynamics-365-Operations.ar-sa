@@ -145,3 +145,6 @@ ms.locfileid: "4440170"
 11. عرض أداء عناصر تكاليف الفردية.
 12. يمكنك أيضا البحث عن عناصر تكلفة معينة.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

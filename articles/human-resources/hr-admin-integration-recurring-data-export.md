@@ -205,3 +205,6 @@ ms.locfileid: "4417150"
 في هذا البرنامج التعليمي، تعلمنا كيفية استخدام تطبيق logic لتصدير البيانات من Human Resources وحفظ البيانات المُصدرة إلى مُجلد OneDrive for Business. يمكنك تعديل خطوات هذا البرنامج التعليمي حسب الحاجة ليناسب احتياجات الأعمال الخاصة بك.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

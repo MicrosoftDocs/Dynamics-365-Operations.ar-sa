@@ -63,3 +63,6 @@ ms.locfileid: "4421101"
 8. في القائمة، انقر فوق الارتباط في الصف المحدد.
     * حدد السياسة Speaker2016 التي أنشأتها في المهمة الفرعية السابقة.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

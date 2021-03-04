@@ -74,3 +74,6 @@ ms.locfileid: "4529674"
 تتم إضافة ميزات وتحديثها في كل إصدار. وتوفر تجربة إدارة الميزات مساحة عمل حيث يمكنك عرض قائمه بالميزات التي تم تقديمها في كل إصدار. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها.
 
 لمعرفة المزيد حول التغييرات المصاحبة لإدارة الميزات، راجع [نظرة على إدارة الميزات‬](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

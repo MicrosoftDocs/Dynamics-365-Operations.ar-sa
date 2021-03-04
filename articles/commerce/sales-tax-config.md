@@ -83,3 +83,6 @@ ms.locfileid: "4530187"
 
 [حساب الإعفاء الضريبي](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

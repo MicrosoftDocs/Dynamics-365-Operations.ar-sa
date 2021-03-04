@@ -73,3 +73,6 @@ ms.locfileid: "4421599"
 [الأساليب البحثية](https://techterms.com/definition/heuristic)
 
 [مشكلة الرضا عن القيود](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

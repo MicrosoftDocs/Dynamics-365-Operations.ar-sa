@@ -106,3 +106,6 @@ ms.locfileid: "5154269"
 ## <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
 
 للحصول على الدورات التدريبية والتدريب عبر الإنترنت، تحقق من [Dynamics 365 Supply Chain Management على Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

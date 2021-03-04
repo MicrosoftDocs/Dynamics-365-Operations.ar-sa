@@ -61,3 +61,6 @@ ms.locfileid: "4421486"
 >[!NOTE]
 >إذا أردت التركيز فقط على تخطيط القدرة الإنتاجية فيما يتعلق بأوامر العمل المجدولة، راجع [حساب القدرة الإنتاجية على أوامر العمل المجدولة](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

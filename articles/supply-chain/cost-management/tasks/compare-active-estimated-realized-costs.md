@@ -40,3 +40,6 @@ ms.locfileid: "4421445"
 6. انقر فوق "عرض مقارنة التكلفة".
 7. انقر فوق "إغلاق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

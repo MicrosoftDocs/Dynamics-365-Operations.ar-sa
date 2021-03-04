@@ -100,3 +100,6 @@ ms.locfileid: "4409984"
 [إثراء الصفحة المنتقل إليها‬ لفئة](enrich-category-page.md)
 
 [التحقق من إمكانية الوصول إلى محتوي الصفحة](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

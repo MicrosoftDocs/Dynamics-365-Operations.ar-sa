@@ -342,3 +342,6 @@ ms.locfileid: "4681246"
 - [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
 - [تحسين أداء حلول التقارير الإلكتروني عن طريق إضافة مصادر بيانات الحقول المحسوبة ذات معلمات](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -190,3 +190,6 @@ ms.locfileid: "4527875"
 
 [تكوين كيانات Common Data Service الظاهرية](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [ما هو Common Data Service؟](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

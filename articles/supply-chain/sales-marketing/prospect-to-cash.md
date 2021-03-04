@@ -82,3 +82,6 @@ ms.locfileid: "4421296"
 
 - Dynamics 365 Sales الإصدار 1612 (8.2.1.207) (DB 8.2.1.207) عبر الإنترنت أو إصدار لاحق
 - حل العميل المتوقع إلى النقدية لـ Dynamics 365 Sales، الإصدار 1.15.0.0 أو إصدار أحدث. الحل متوفر للتنزيل من AppSource. [تنزيل Dynamics 365، عميل متوقع إلى النقد](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

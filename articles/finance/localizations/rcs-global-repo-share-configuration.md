@@ -75,3 +75,6 @@ ms.locfileid: "4440008"
 ![مشاركة التكوين مع مؤسسة خارجية](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. لإلغاء مشاركة تكوين تمت مشاركته مسبقًا مع مؤسسة خارجية، حدد التكوين وانقر فوق **إلغاء المشاركة**، ثم حدد **موافق**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

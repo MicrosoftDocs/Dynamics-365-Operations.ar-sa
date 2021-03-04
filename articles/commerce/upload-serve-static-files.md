@@ -107,3 +107,6 @@ ms.locfileid: "4594940"
 [اقتصاص الصور](dam-crop-images.md)
 
 [تخصيص نقاط تركيز الصورة](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

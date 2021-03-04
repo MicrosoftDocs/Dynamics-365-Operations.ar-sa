@@ -59,3 +59,6 @@ ms.locfileid: "4421332"
 تم أيضًا إجراء تحميل عكسي لهذه الميزة إلى Microsoft Dynamics AX 2012 R3 وسيتكون متوفرة كجزء من CU12.
 يمكن أيضًا تنزيلها بشكل فردي من خلال رقم قاعدة المعارف 3192548. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

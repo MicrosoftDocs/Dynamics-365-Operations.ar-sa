@@ -52,3 +52,6 @@ ms.locfileid: "4439774"
 4. في القائمة، انقر فوق الارتباط في الصف سيبا CT.
 5. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

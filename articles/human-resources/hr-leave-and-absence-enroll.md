@@ -60,3 +60,5 @@ ms.locfileid: "4417164"
 
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
 - [إنشاء خطة إجازة وغياب](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

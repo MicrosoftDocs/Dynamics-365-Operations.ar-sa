@@ -54,3 +54,6 @@ ms.locfileid: "4417043"
 
 ## <a name="steps-for-creating-a-department"></a>خطوات إنشاء قسم
 ارجع إلى مقالة [تحديد الأقسام الجديدة](../fin-and-ops/hr/tasks/define-new-departments.md) للاطلاع على الإجراء التفصيلي لإنشاء قسم جديد. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

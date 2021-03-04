@@ -439,3 +439,6 @@ ms.locfileid: "4421733"
 [حالات المخزون](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

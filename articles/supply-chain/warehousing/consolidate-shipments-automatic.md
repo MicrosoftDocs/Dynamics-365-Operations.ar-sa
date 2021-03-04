@@ -318,3 +318,6 @@ ms.locfileid: "4421711"
 
 - [سياسات دمج الشحنات](about-shipment-consolidation-policies.md)
 - [تكوين نُهج دمج الشحنات](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

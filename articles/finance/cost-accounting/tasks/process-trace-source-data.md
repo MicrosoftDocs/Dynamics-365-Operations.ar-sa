@@ -45,3 +45,6 @@ ms.locfileid: "4440079"
     * لهذا المثال، حدد المالية 2017 الفترة 9.  
 14. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

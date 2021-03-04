@@ -77,3 +77,6 @@ ms.locfileid: "4421177"
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>أوامر العمل مع المشروع (Field Service إلى Supply Chain Management): WorkOrderService
 
 [![تعيين القالب في تكامل البيانات](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4460158"
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>تحديث النظام الأساسي 23 لـ Finance and Operations
 تم تضمين إصلاحات أخطاء ثانوية كجزء من تحديث النظام الأساسي 23 لـ Finance and Operations. للحصول على مزيد من المعلومات، راجع [ما الجديد أو المتغير في Dynamics 365 Finance and Operations platform update 23 (يناير 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

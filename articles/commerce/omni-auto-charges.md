@@ -222,3 +222,6 @@ ms.locfileid: "4410042"
 
 [توزيع تكاليف الرأس لمطابقة بنود المبيعات](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

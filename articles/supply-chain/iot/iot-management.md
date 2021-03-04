@@ -62,3 +62,6 @@ ms.locfileid: "4421619"
 + [توصيل IoT DevKit AZ3166 بمركز Azure IoT](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [توصيل وحدة محاكاة Raspberry Pi على الإنترنت بمركز Azure IoT (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [نظرة عامة حول مسرع حل محاكاة الأجهزة](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

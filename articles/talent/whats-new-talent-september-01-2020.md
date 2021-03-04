@@ -44,3 +44,5 @@ ms.locfileid: "4460182"
 - تحديثات لدعم المستعرض (لم يعد LinkedIn يدعم Internet Explorer ‏11 بدءًا من 1 يوليو 2020)
 
 لمزيد من المعلومات، راجع [توريد المرشحين باستخدام LinkedIn Recruiter في Attract](attract-linkedin-recruiter.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

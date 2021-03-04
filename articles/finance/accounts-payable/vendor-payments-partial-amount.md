@@ -54,3 +54,6 @@ ms.locfileid: "4439782"
 
 
 للحصول على مزيد من المعلومات، راجع [نظرة عامة على دفع المورّد‬](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

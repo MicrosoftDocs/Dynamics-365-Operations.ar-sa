@@ -62,3 +62,6 @@ ms.locfileid: "4421267"
     ![الشكل 1](media/05-controlling-and-reporting.png)
 
 للحصول على معلومات حول كيفية إعداد الأخطاء، راجع موضوع [إدارة الأخطاء](../setup-for-work-orders/fault-management.md) .
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ ms.locfileid: "4683295"
 [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 
 [تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

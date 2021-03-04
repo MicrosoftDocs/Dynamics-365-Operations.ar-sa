@@ -73,3 +73,6 @@ ms.locfileid: "4421738"
 9. في الحقل **محرك وقت الانتقال‬**، حدد خيارًا من القائمة المنسدلة.
 10. حدد **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

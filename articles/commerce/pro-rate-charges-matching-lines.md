@@ -175,3 +175,6 @@ ms.locfileid: "4409766"
 [التكاليف التلقائية المتقدمة ‬للقناة متعددة الاتجاهات](omni-auto-charges.md)
 
 [تمكين التكاليف التلقائية وتكوينها حسب القناة](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

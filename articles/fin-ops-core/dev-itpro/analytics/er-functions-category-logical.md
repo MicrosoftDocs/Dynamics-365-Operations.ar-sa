@@ -50,3 +50,6 @@ ms.locfileid: "4686162"
 [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
 
 [لغة تركيبة التقارير الإلكترونية](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

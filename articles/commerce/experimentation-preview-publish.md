@@ -60,3 +60,6 @@ ms.locfileid: "4410030"
 
 ## <a name="next-step"></a>الخطوة التالية
 [تشغيل تجربة ومراقبتها](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4417065"
    | البند | رقم البند الخاص بالحدث الحياتي المستقبلي. |
 
 4. حدد **حفظ**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

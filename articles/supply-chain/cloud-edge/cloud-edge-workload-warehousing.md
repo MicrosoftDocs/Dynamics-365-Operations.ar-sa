@@ -245,3 +245,6 @@ ms.locfileid: "4516718"
 
 - معالجة سجلات جدول الموجات
 - معالجة أحداث نقل مراقبة تنفيذ الموجة
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

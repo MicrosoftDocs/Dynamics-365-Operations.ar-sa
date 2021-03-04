@@ -66,3 +66,6 @@ ms.locfileid: "4460194"
 
 إذا كنت مطور برامج تهتم بإنشاء تخصيصات خاصة ببلد أو منطقة، أو في إنشاء حل لبلد أو منطقة لا تدعمها حاليًا Microsoft، فراجع [العولمة](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

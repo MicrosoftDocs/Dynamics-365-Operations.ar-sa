@@ -91,3 +91,6 @@ ms.locfileid: "4421032"
 ويتم إنشاء تقرير يعرض معلومات حول بلد المنشأ لكل جزء ويتم إظهاره. فيما يلي مثال التقرير.
 
 ![تقرير بلد المنشأ](media/country-of-origin-report.png "تقرير بلد المنشأ")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

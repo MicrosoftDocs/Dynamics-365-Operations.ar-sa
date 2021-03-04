@@ -83,3 +83,6 @@ ms.locfileid: "4693631"
 بعد تطبيق عامل التصفية (أنظر الصورة أدناه)، يمكن للمستخدم العثور على وتحديد الصف كالمعتاد.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

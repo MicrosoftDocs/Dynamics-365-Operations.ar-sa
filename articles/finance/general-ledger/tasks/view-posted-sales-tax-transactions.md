@@ -49,3 +49,6 @@ ms.locfileid: "4440049"
 2. في جزء الإجراءات، حدد **كود ضريبة المبيعات**.
 3. حدد **ضريبة المبيعات المرحّلة**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

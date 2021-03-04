@@ -58,3 +58,6 @@ ms.locfileid: "4421700"
 2. انقر فوق "إيصال استلام المنتجات".
 3. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

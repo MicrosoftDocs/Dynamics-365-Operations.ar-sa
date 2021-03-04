@@ -76,3 +76,6 @@ FILTER (MyTable,
 
 - [‏‫تكوين نموذج تقارير إلكترونية‬ - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [‏‫تكوين تنسيق تقارير إلكترونية‬‬ - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

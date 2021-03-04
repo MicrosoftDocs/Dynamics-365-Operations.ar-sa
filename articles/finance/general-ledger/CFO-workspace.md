@@ -56,3 +56,6 @@ ms.locfileid: "4439926"
 16. أنشئ مشروعك، ثم افتح التطبيق لعرض النتائج.
 
     [![مساحة عمل مكتملة](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ ms.locfileid: "4681390"
 [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 
 [تكوين إطار عمل إعداد التقارير الإلكترونية (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

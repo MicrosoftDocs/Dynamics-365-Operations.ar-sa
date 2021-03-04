@@ -67,3 +67,6 @@ FA_BALANCE (fixed asset code, value model code, reporting year, reporting date)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دالات أخرى (خاصة بمجال الأعمال)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

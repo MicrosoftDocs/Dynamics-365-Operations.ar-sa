@@ -281,3 +281,6 @@ ms.locfileid: "4421690"
     ![الموضع 1](media/LocationLicensePlatePositioning.png "الموضع 1")
 
 1. أدخل معرف لوحة الترخيص الذي قمت بإنشائه للموقع، ثم اتبع المطالبات لانتقاء أمر المبيعات.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

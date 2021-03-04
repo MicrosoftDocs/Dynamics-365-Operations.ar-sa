@@ -289,3 +289,6 @@ ms.locfileid: "4686406"
 [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
 
 [تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها](trace-execution-er-troubleshoot-perf.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

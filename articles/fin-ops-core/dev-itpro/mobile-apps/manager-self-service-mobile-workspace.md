@@ -97,3 +97,6 @@ ms.locfileid: "4680960"
 1.  حدد **إرسال ثناء**. 
 1. أدخل نص الثناء الذي تريد إرساله. 
 1. حدد **تم**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

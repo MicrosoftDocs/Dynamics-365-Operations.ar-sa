@@ -55,3 +55,6 @@ CH_BANK_MOD_10 (invoice number digits)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دالات أخرى (خاصة بمجال الأعمال)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

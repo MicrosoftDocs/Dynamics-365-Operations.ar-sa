@@ -63,3 +63,6 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 ### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>منتجات Field Service مع وحدة المخزون (Supply Chain Management إلى Field Service): المنتجات
 
 [![تعيين القالب في تكامل البيانات](./media/FSProduct1.png)](./media/FSProduct1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

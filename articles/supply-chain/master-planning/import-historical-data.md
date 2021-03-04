@@ -59,3 +59,6 @@ ms.locfileid: "4421609"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [إنشاء تنبؤ أساسي إحصائي](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ ms.locfileid: "4409858"
 
 [نظرة عامة على صفحات إدارة الحسابات](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

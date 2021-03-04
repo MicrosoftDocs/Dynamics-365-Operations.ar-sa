@@ -1033,3 +1033,6 @@ u<td>أكواد السلع لنظام جمع المعلومات التجارية
 [الصفحة الرئيسية للجديد أو المتغير‬ في Finance and Operations](whats-new-changed.md)
 
 [دلائل المهام الجديدة (فبراير 2016)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

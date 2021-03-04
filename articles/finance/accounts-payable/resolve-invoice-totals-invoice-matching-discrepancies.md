@@ -44,3 +44,6 @@ ms.locfileid: "4439899"
 للحصول على مزيد من المعلومات، راجع [البحث عن/حل الاستثناءات](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

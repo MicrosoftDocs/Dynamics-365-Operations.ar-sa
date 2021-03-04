@@ -171,3 +171,6 @@ ms.locfileid: "5001040"
 
 > [!IMPORTANT]
 > لكي تأخذ DOM هذه التكاليف في الاعتبار عند تشغيلها، يجب إضافة عامل التكلفة إلى ملف تعريف التنفيذ ذي الصلة.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

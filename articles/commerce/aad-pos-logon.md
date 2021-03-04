@@ -74,3 +74,6 @@ ms.locfileid: "4409814"
 [إنشاء ملف تعريف وظائف البيع بالتجزئة](retail-functionality-profile.md)
 
 [ تكوين عامل](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

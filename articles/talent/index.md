@@ -35,3 +35,6 @@ ms.locfileid: "5129217"
 > [!IMPORTANT]
 > الوظيفة في Dynamics 365 Talent: Core HR أصبح الآن جزء من Dynamics 365 Human Resources. يمكنك عرض وثائق Human Resources في قسم [مرحبًا بكم في Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

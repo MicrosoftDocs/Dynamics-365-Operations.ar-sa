@@ -82,3 +82,6 @@ ms.locfileid: "4409769"
 [نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث](category-search-page-overview.md)
 
 [إدارة بيانات تعريف SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

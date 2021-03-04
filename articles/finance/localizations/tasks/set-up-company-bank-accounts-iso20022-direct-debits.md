@@ -60,3 +60,6 @@ ms.locfileid: "4439869"
     * على سبيل المثال، حدد الحساب البنكي "DEMF OPER".  
 6. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

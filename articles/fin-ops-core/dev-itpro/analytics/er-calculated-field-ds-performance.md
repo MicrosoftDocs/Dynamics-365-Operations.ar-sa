@@ -300,3 +300,6 @@ ms.locfileid: "4681270"
 - [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 - [تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها](trace-execution-er-troubleshoot-perf.md)
 - [دعم استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب‬](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

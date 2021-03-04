@@ -46,3 +46,6 @@ ms.locfileid: "4409935"
 10. في حقل "‏‫‏‫وحدة وقت انتهاء الصلاحية‬"، حدد خيارًا.
 11. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

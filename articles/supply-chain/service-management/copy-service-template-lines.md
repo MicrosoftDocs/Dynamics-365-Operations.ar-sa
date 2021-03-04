@@ -60,3 +60,6 @@ ms.locfileid: "4421155"
 [قوالب الخدمة](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

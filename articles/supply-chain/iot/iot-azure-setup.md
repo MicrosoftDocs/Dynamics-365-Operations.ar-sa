@@ -162,3 +162,6 @@ ms.locfileid: "4421682"
 > كلما قمت بتحديث أحد سلاسل الاتصال، يجب عليك أيضا تحديث قيم الأسرار.
 
 لقد انتهيت الآن من توفير موارد Azure المطلوبة. والخطوة التالية هي [تثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

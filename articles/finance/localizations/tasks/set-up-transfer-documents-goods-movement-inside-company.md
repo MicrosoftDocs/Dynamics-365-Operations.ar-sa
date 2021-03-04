@@ -74,3 +74,6 @@ ms.locfileid: "4439990"
 10. انقر فوق "إيصال التعبئة".
 11. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

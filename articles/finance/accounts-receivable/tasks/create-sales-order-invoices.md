@@ -68,3 +68,6 @@ ms.locfileid: "4440076"
 10. وانقر فوق **إلغاء الأمر**.
 11. انقر فوق **نعم**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

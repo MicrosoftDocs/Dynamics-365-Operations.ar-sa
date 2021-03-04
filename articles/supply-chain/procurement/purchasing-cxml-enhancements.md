@@ -277,3 +277,6 @@ ms.locfileid: "4421799"
 
 - [إعداد كتالوج خارجي للتدبير الإلكتروني PunchOut‬](set-up-external-catalog-for-punchout.md)
 - [استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut‬‬](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

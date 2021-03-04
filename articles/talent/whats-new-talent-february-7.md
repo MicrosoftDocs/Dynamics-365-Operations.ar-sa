@@ -58,3 +58,6 @@ ms.locfileid: "4460230"
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>تحسينات الأداء عند عرض مساحات العمل
 سيتم الآن تحميل علامات تبويب "التحليلات" في مساحات العمل فقط عند الوصول إلى هذه الصفحات. سيظهر مؤشر أثناء العرض الأولي للصفحة في الزاوية العلوية اليمنى من الصفحة.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

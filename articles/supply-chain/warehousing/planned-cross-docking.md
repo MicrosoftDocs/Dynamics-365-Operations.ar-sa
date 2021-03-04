@@ -316,3 +316,6 @@ ms.locfileid: "4421768"
 يبين الرسم التوضيحي التالي كيف يظهر عمل توزيع البضائع المكتمل في Microsoft Dynamics 365 Supply Chain Management.
 
 ![اكتمال عمل توزيع البضائع](media/PlannedCrossDockingWork.png "اكتمال عمل توزيع البضائع")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

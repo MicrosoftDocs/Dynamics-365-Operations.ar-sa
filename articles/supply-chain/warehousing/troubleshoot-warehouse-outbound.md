@@ -62,3 +62,6 @@ ms.locfileid: "4645417"
 ### <a name="issue-resolution"></a>حل المشكلة
 
 قامت Microsoft بتقييم هذه المشكلة وقامت بتحديد انها قيد ميزه. حاليا ، لا يدعم WMS التسليم المباشر. التالي ، لاستخدام التسليم المباشر ، يجب تحديد صنف ومستودع غير WMS.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

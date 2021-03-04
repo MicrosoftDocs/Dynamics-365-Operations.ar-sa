@@ -80,3 +80,6 @@ ms.locfileid: "4417163"
 [استحقاق خطط الإجازة والغياب](hr-leave-and-absence-accrue.md)</br>
 [شراء الإجازة وبيعها](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

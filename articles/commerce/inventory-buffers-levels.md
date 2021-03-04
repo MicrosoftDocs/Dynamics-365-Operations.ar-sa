@@ -149,3 +149,6 @@ ms.locfileid: "4409920"
 [تطبيق إعدادات المخزون](inventory-settings.md)
 
 [حساب توفر المخزون لقنوات البيع بالتجزئة](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

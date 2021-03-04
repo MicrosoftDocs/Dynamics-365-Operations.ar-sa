@@ -92,3 +92,6 @@ ms.locfileid: "4417094"
 29. في القائمة، قم بوضع علامة أو إلغاء علامة كل الصفوف.
 30. انقر فوق "تطبيق على الشبكة".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

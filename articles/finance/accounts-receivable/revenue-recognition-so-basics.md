@@ -97,3 +97,6 @@ ms.locfileid: "4995533"
 تتم إزاله جدول إقرار الإيرادات المتوقع واستبداله بجدول إقرار الإيرادات النهائي. ويتم الاحتفاظ بتفاصيل جدول الإيرادات لكل بند من بنود أمر المبيعات وتُستخدم لإصدار الإيرادات المؤجلة للإيرادات الفعلية عند استيفاء الالتزامات التعاقدية.
 
 [![جدول إقرار الإيرادات المتوقع](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ ms.locfileid: "4409861"
 [إضافة صفحة موقع جديدة](add-new-page.md)
 
 [إنشاء عنوان URL لصفحة](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

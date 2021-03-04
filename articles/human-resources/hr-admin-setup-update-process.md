@@ -105,3 +105,6 @@ ms.locfileid: "4527782"
 [ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
 [سياسة دورة حياة البرامج](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

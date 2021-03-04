@@ -83,3 +83,6 @@ ms.locfileid: "4409799"
 5. حدد **فتح URL** كإجراء.
 6. أدخل عنوان URL الذي ترغب في استخدامه.
 7. قم بتكوين ما إذا كنت تريد فتح عنوان URL في نافذة جديدة أو لا.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

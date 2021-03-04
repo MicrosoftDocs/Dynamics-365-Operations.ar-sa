@@ -54,3 +54,6 @@ ms.locfileid: "4439848"
 
 [إنشاء تفويض خصم مباشر لعميل](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

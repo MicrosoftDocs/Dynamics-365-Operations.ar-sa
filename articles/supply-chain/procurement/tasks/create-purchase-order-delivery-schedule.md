@@ -74,3 +74,6 @@ ms.locfileid: "4421765"
 6. قم بطي قسم **البنود**.
 7. انقر فوق **موافق** لترحيل إيصال الاستلام.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

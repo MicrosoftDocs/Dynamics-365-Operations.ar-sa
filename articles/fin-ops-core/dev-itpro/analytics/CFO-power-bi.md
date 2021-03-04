@@ -43,3 +43,6 @@ ms.locfileid: "4688139"
 | [الربحية والمبيعات](sales-profitability-performance-content-pack.md) | <ul><li>الإيراد حسب المنطقة</li><li>أفضل 10 عملاء حسب الإيراد</li><li>أفضل 10 منتجات حسب الإيراد</li></ul> |
 | [إدارة التحصيلات والائتمان](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>العميل الذي تجاوز تاريخ الاستحقاق</li><li>الحد الائتماني الزائد للعملاء</li><li>الأرصدة القديمة</li></ul> |
 | [تحليل الإنفاق على الشراء](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>عمليات الشراء حسب الشهر/اليوم</li><li>أهم 10 موردين بحسب المشتريات</li><li>أهم 10 منتجات بحسب المشتريات</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ ms.locfileid: "4681867"
 21. في الحقل "الموضوع"، اكتب قيمة.
 22. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

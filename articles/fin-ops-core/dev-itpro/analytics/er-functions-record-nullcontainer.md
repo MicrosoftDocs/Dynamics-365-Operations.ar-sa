@@ -60,3 +60,6 @@ NULLCONTAINER (list)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [وظائف السجلات](er-functions-category-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

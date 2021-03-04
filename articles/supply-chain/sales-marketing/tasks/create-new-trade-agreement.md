@@ -73,3 +73,6 @@ ms.locfileid: "4421173"
 ## <a name="additional-resources"></a>الموارد الإضافية
 ### <a name="community-blogs"></a>مدونات المجتمعات
 - [أسعار المبيعات في Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

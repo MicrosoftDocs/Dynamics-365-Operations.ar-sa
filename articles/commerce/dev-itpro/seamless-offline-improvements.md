@@ -56,3 +56,6 @@ ms.locfileid: "4687527"
 
 - [وظيفة نقطة البيع دون اتصال](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [عمليات نقاط البيع (POS) أثناء الاتصال وعدم الاتصال بالإنترنت](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

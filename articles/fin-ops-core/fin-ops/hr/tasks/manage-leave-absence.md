@@ -46,3 +46,6 @@ ms.locfileid: "4693006"
     * على سبيل المثال: إجازة للتبني  
 12. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

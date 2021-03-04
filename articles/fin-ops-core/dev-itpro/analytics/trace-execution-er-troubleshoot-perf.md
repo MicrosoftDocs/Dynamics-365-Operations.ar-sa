@@ -376,3 +376,6 @@ ms.locfileid: "4687417"
 
 - [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 - [تحسين أداء حلول التقارير الإلكتروني عن طريق إضافة مصادر بيانات الحقول المحسوبة ذات معلمات](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

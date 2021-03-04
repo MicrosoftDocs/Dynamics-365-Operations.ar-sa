@@ -89,3 +89,6 @@ ms.locfileid: "4687251"
 - [تقرير أكواد التراخيص ومفاتيح التكوين](../sysadmin/license-codes-configuration-keys-report.md)
 - [تقارير SQL Server Reporting Services (SSRS) المتاحة](SSRS-report.md)
 - [تقرير أنواع سير العمل](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

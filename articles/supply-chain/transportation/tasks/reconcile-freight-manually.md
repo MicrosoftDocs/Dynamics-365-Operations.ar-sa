@@ -61,3 +61,6 @@ ms.locfileid: "4421742"
 5. انقر لمتابعة الارتباط الوارد في الحقل "رقم دفتر يومية المرجع‬".
 6. انقر فوق البنود.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

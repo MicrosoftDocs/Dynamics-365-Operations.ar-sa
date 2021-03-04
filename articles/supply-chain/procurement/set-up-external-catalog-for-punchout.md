@@ -114,3 +114,5 @@ ms.locfileid: "4421745"
 
 - [شراء تحسينات في cXML](purchasing-cxml-enhancements.md)
 - [استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut‬‬](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

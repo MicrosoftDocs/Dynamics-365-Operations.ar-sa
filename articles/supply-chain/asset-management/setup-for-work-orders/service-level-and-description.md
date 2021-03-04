@@ -56,3 +56,6 @@ ms.locfileid: "4421419"
 2. حدد **جديد**.
 3. في الحقل **الوصف**، أدخل الوصف.
 4. حدد **حفظ**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

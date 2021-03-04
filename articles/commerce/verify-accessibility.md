@@ -85,3 +85,6 @@ ms.locfileid: "4410018"
 [إثراء صفحة منتج](enrich-product-page.md)
 
 [إثراء الصفحة المتنقل إليها‬ لفئة](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

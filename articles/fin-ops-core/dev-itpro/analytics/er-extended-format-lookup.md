@@ -91,3 +91,6 @@ ms.locfileid: "4679476"
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [API إطار عمل ‏‫إعداد التقارير الإلكترونية (ER)](er-apis-app73.md)
 - [إدارة دورة حياة تكوينات إعداد التقارير الإلكترونية (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

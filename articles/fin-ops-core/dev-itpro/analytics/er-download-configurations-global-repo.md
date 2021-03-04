@@ -90,3 +90,6 @@ ms.locfileid: "4679548"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

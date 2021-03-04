@@ -91,3 +91,6 @@ ms.locfileid: "4527232"
 
 > [!NOTE]
 > يتوفر نشاط محتوى الويب فقط مع المكون الإضافي Comprehensive hiring.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

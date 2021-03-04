@@ -101,3 +101,6 @@ ms.locfileid: "4439907"
 [تحديد سياسات التدقيق‬ للمستندات المصدر](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

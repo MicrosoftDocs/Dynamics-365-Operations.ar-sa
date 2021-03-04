@@ -115,3 +115,6 @@ ms.locfileid: "4528017"
 - **نوع الإجازة**
 - **الحساب البنكي للعامل**
 - **تقويم العمل**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

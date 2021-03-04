@@ -198,3 +198,6 @@ ms.locfileid: "4421138"
 
 [إنشاء كود nomenclature لرقم المنتج لمتغيرات المنتج المكوّنة](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

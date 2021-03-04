@@ -45,3 +45,6 @@ ms.locfileid: "4683541"
 *لم يتم العثور على الكيان باسم 'msdyn\_dualwriteentitymap' with namemapping='Logical' في MetadataCache.*
 
 لإصلاح المشكلة، تأكد من تثبيت الحل الأساسي للكتابة الثنائية في Dataverse. يُعد الحل الأساسي للكتابة الثنائية متطلبًا أساسيًا لمعرفة الحلول.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ ms.locfileid: "4421087"
     * لاحظ وجود وظيفتي معالجة لكانبان من تدفق الإنتاج. الوظيفة الأولى هي SpeakerAssemblyAndPolish، والثانية هي SpeakerTestAndPackaging.  
     * هذه هي الخطوة الأخيرة!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

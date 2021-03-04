@@ -115,3 +115,6 @@ ms.locfileid: "4409850"
 [إنشاء كيانات قانونية](channels-legal-entities.md)
 
 [إنشاء مجموعة متغير](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

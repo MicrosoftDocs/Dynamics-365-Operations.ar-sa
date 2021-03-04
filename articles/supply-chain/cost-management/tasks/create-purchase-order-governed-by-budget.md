@@ -62,3 +62,6 @@ ms.locfileid: "4421444"
 4. انقر فوق "أخطاء فحص الموازنة أو التحذيرات".
 5. انقر فوق "إغلاق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

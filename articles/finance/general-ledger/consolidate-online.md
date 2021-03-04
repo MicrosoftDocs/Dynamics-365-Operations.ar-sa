@@ -96,3 +96,6 @@ ms.locfileid: "4439942"
 لمزيد من المعلومات حول الدمج وتحويل العملة‬، راجع الموضوع الأصل لهذا الموضوع، [نظرة عامة على عمليات الدمج المالية وتحويل العملات‬](./financial-consolidations-currency-translation.md).
 
 لمزيد من المعلومات حول السيناريوهات حيث قد تنشئ قوائم مالية مدمجة، راجع [إنشاء قوائم مالية مدمجة‬](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

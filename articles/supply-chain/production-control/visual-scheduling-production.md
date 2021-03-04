@@ -160,3 +160,6 @@ ms.locfileid: "4421468"
 
 [الجدولة الظاهرية للإنتاج (برنامج نصي للعرض التوضيحي)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

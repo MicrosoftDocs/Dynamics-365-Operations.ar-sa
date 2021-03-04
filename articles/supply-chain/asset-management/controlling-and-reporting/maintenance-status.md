@@ -68,3 +68,6 @@ ms.locfileid: "4421264"
 
 ![مثال على حمل العمل الشهري مع مواقع العمل](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

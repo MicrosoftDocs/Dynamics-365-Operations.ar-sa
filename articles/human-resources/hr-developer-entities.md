@@ -180,3 +180,6 @@ ms.locfileid: "4529996"
 
 [اختيار تقنية تكامل بيانات](hr-admin-integration-choose-technology.md)</br>
 [تكوين تكامل Common Data Service ](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

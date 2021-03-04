@@ -73,3 +73,6 @@ ms.locfileid: "4439879"
 5. في الحقل "وحدة التحكم بالتكاليف‬"، أدخل قيمة أو حددها.
 6. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

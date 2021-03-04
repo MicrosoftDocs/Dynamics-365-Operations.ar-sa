@@ -156,3 +156,6 @@ ms.locfileid: "4688307"
 [التقارير المالية](financial-reporting-intro.md)
 
 [واجهة مصمم التقارير](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

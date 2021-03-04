@@ -49,3 +49,6 @@ ms.locfileid: "4439852"
 17. انقر فوق "موافق".
 18. انقر فوق "ترحيل".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

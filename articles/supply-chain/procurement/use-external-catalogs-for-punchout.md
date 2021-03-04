@@ -55,3 +55,5 @@ ms.locfileid: "4421790"
 
 - [إعداد كتالوج خارجي للتدبير الإلكتروني PunchOut‬](set-up-external-catalog-for-punchout.md)
 - [شراء تحسينات في cXML](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

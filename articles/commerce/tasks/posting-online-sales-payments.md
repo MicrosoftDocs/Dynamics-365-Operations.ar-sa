@@ -109,3 +109,6 @@ ms.locfileid: "4409934"
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

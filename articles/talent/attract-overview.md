@@ -49,3 +49,6 @@ ms.locfileid: "4460154"
 
 ## <a name="analytic-reports"></a>التقارير التحليلية
 بإمكان فرق التوظيف عرض المقاييس الأساسية لعملية التوظيف لوظيفة واحدة أو مقاييس مجمعة عبر جميع الوظائف باستخدام [التقارير التحليلية في Attract](analytic-reports.md). هذه الميزة موجودة حاليًا في [المعاينة](access-preview-feature.md) للعملاء الذين لديهم [إصدار Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -141,3 +141,6 @@ ms.locfileid: "4694459"
 ## <a name="virtualization-and-oversubscription"></a>المحاكاة الافتراضية والاشتراك الزائد
 
 يجب أن تتم استضافة الخدمات ذات المهام الحرجة مثل AOS على الأجهزة الظاهرية المضيفة التي تم تخصيص موارد لها - المراكز والذاكرة والقرص.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

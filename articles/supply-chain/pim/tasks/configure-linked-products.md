@@ -40,3 +40,6 @@ ms.locfileid: "4421377"
 10. في حقل الكمية، أدخل رقمًا.
 11. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

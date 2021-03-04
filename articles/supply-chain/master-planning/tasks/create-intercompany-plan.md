@@ -54,3 +54,6 @@ ms.locfileid: "4421228"
 2. في القائمة، انقر فوق الارتباط في الصف المحدد. انقر فوق ارتباط StaticPlan. عليك أن تكون في شركة USMF.  
 3. انقر فوق **الأوامر المخططة**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

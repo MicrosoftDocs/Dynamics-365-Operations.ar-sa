@@ -74,3 +74,6 @@ ms.locfileid: "4681801"
 3. في الحقل "الاسم، اكتب "نموذج فاتورة العميل (مخصص)".
 4. وانقر فوق إنشاء تكوين.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -187,3 +187,6 @@ ms.locfileid: "4688273"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [Financial reporting](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ ms.locfileid: "4410000"
 
 [نظرة عامة على صفحات سلة التسوق والسداد مع الخروج](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

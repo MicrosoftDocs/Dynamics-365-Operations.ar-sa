@@ -85,3 +85,6 @@ ms.locfileid: "4527400"
 [نظرة عامة على Dynamics 365 Human Resources الإصدار 2020، الموجة 2 wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [عملية التحديث](hr-admin-setup-update-process.md)
 [إدارة الميزات](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

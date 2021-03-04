@@ -45,3 +45,6 @@ ms.locfileid: "4417181"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [نظرة عامة على إعداد الخدمة الذاتية للموظف والمدير](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

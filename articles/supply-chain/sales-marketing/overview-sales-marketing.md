@@ -125,3 +125,6 @@ ms.locfileid: "4421164"
 #### <a name="blogs"></a>المدونات
 
 يمكنك الاطلاع على نظرة عامة حول عمليات المبيعات في المنشور [طريقة عمل المبيعات في Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

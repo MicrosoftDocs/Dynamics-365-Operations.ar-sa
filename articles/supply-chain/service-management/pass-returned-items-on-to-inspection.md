@@ -56,3 +56,6 @@ ms.locfileid: "4421393"
 
 [تحديد كيفية التخلص من الأصناف المرتجعة](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

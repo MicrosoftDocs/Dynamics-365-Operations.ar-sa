@@ -89,3 +89,6 @@ ms.locfileid: "4645055"
 
 > [!NOTE]
 > سيؤدي ذلك إلى الحد من الفترة لنظر المنجزة لهذه الخطة الرئيسية إلى يوم واحد.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

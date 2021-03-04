@@ -86,3 +86,6 @@ ms.locfileid: "4594938"
 ## <a name="considerations-for-distributed-order-management"></a>اعتبارات لإدارة الأوامر الموزعة
 
 تتجاهل ميزات [إدارة الطلبات الموزعة (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) في Commerce أي بنود مبيعات تم تمييزها لالتقاطها من المتجر. تم تحديث هذه الميزات للتأكد من أن بنود المبيعات المرتبطة بأوضاع تسليم الانتقاء المكونة تتجاوز منطق إدارة الطلبات الموزعة ولن تتم إعادة تخصيصها إلى مستودع تنفيذ جديد.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

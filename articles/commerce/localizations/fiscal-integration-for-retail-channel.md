@@ -150,3 +150,6 @@ ms.locfileid: "4409986"
 لا تستخدم وظيفة التكامل المالي القديمة التالية المتاحة في Retail SDK إطار عمل التكامل المالي، وسوف تُهمل في التحديثات اللاحقة:
 
 - [نموذج تكامل وحدة التحكم للسويد (قديم)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

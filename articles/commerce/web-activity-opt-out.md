@@ -56,3 +56,6 @@ ms.locfileid: "4409911"
 ### <a name="custom-extensions"></a>الملحقات المخصصة
 
 يمكن للمسؤولين إنشاء الملحقات الخاصة بهم لإدارة تجربة إلغاء الاشتراك للمستخدمين. لمزيد من المعلومات، راجع [استدعاء واجهات برمجة تطبيقات Retail Server](e-commerce-extensibility/call-retail-server-apis.md) و[توسعة القنوات على الإنترنت](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

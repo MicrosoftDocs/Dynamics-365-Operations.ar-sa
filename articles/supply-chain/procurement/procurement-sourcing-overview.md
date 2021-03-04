@@ -93,3 +93,6 @@ ms.locfileid: "4421695"
 ## <a name="vendor-performance"></a>أداء المورد
 
 ويتم دعم الأداء ومراجعة للشراء من خلال *تقارير حسابات الدائنة والتدبير*، التي تتضمن تحليل النفقات وتحليل أداء المورد.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

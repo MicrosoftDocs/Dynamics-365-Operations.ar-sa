@@ -41,3 +41,6 @@ ms.locfileid: "4417139"
    | **‏‏الوصف** | وصف كود السبب. |
 
 4. حدد **حفظ**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

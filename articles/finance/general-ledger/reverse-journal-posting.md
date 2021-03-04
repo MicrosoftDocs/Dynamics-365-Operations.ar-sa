@@ -70,3 +70,6 @@ ms.locfileid: "4439957"
 
 يمكن عكس الحركات فقط إذا كانت تفي بقواعد الأعمال لعكسها. يتعذر عكس مدفوعات المورد باستخدام القدرة الموضحة في هذا الموضوع. يجب أن يتم عكس مدفوعات المورد باتباع الخطوات المذكورة في [إلغاء دفعة مورد](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

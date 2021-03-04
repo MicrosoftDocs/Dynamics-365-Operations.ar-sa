@@ -91,3 +91,6 @@ ROUNDAMOUNT (number, decimals, round rule)
 [دالات أخرى (خاصة بمجال الأعمال)](er-functions-category-other.md)
 
 [الدالات الحسابية](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

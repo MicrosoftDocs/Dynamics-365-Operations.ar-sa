@@ -139,3 +139,6 @@ ms.locfileid: "4421423"
 9. احفظ نموذج دورة حياة أمر العمل.
 
 ![صفحة نماذج دورة حياة أمر العمل](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

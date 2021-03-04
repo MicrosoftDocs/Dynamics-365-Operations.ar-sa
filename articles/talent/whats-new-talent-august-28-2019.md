@@ -90,3 +90,6 @@ ms.locfileid: "4529794"
 ### <a name="platform-update-29"></a>update 29 للنظام الأساسي
 
 للحصول على مزيد من التفاصيل حول Platform update 29، راجع [ميزات المعاينة في Dynamics 365 for Finance and Operations platform update 29 (أكتوبر 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

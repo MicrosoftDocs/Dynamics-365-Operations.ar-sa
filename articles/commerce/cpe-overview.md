@@ -64,3 +64,6 @@ ms.locfileid: "4409786"
 [تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce](cpe-optional-features.md)
 
 [الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

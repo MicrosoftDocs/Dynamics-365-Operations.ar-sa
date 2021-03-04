@@ -119,3 +119,6 @@ ms.locfileid: "4410027"
 [الوحدة النمطية لمحدد الموقع](site-selector.md)
 
 [الوحدة النمطية لمحدد المتجر](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

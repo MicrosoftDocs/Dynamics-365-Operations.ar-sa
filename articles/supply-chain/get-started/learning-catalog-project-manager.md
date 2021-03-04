@@ -107,3 +107,6 @@ ms.locfileid: "4516659"
 | [الاختبار MB-300: Microsoft Dynamics 365 Unified Operations الأساسي](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | يقوم هذا الاختبار بقياس قدرتك على إنجاز المهام الفنية التالية: استخدام أدوات التنفيذ والوظائف الشائعة وتكوين الأمان والعمليات والخيارات والقيام بترحيل البيانات والتحقق من صحة الحل ودعمه. | الاختبار، تختلف التكلفة حسب المنطقة |
 | [الاختبار MB-320: Microsoft Dynamics 365 for Finance and Operations, التصنيع](https://docs.microsoft.com/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | يقيس هذا الاختبار قدرتك على إنجاز المهام التقنية التالية: إعداد التصنيع وتكوينه؛ إنشاء وإدارة الإنتاج والأوامر محدودة الفاقد والعمليات وإدارة الأوامر الدفعية للإنتاج.  | الاختبار، تختلف التكلفة حسب المنطقة |
 | [اختبار MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | يقيس هذا الاختبار قدرتك على إنجاز المهام التقنية التالية: تنفيذ إدارة معلومات المنتج؛ تنفيذ إدارة المخزون؛ تنفيذ وإدارة عمليات سلسلة التوريد؛ تنفيذ إدارة المستودع وإدارة النقل وإجراء عمليات تجارية. | الاختبار، تختلف التكلفة حسب المنطقة |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

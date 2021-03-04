@@ -50,3 +50,6 @@ ms.locfileid: "4421641"
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>تعاون المورد في عمليات الشحن
 عندما يستخدم الموردون واجهة تعاون المورد، يمكنهم استخدامها لمراقبة استهلاك المخزون في موقعك. لمزيد من المعلومات حول إعداد الموردين لاستخدام تعاون المورِّد‏‎، راجع [أمان مستخدمي مدخل الموردين](../procurement/configure-security-vendor-portal-users.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

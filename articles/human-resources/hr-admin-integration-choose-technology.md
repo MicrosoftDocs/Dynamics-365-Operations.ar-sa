@@ -144,3 +144,6 @@ ms.locfileid: "4528331"
 <sup>2</sup>تستثمر Microsoft بشكل كبير في زيادة تغطية البيانات لكيانات Common Data Service. نوصي باستخدام Common Data Service عندما تصبح التغطية متاحة. حاليًا، تُعد تغطية البيانات في Common Data Service منخفضة مقارنة بـ DMF والكيانات الممكّنة لـ OData.
 
 <sup>3</sup> يُمكن الوصول إلى قاعدة بيانات SQL برمجيًا.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

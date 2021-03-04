@@ -68,3 +68,6 @@ ms.locfileid: "4440046"
 11. انقر فوق موافق.
 12. انقر فوق موافق.
 13. انقر فوق "إنشاء مدفوعات".
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

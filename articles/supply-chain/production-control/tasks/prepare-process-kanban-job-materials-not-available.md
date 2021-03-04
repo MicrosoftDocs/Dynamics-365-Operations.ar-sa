@@ -52,3 +52,6 @@ ms.locfileid: "4421065"
 6. انقر فوق "تحضير‬".
     * لاحظ أن الأيقونة في حالة الوظيفة تشير إلى أن الوظيفة جاهزة الآن.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ ms.locfileid: "4679620"
 
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

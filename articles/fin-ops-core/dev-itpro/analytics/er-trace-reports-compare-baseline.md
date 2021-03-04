@@ -243,3 +243,6 @@ ms.locfileid: "4682813"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [تكوين إطار عمل إعداد التقارير الإلكترونية (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "4679804"
 ## <a name="run-in-a-sandbox-environment"></a>التشغيل في بيئة وضع الحماية
 1. حدد **استيراد الدُفعات**.
 2. حدد **موافق**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

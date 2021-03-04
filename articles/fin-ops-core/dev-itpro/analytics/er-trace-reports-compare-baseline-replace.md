@@ -207,3 +207,6 @@ ms.locfileid: "4682837"
 
 - [تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية](er-trace-reports-compare-baseline.md)
 - [موارد مسجل المهام](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

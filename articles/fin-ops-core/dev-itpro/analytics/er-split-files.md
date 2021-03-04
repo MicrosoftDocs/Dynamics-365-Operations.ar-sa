@@ -47,3 +47,6 @@ ms.locfileid: "4682861"
 [وجهات التقارير الإلكترونية‬](electronic-reporting-destinations.md)
 
 [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

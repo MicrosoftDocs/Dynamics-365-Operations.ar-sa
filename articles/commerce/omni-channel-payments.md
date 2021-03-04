@@ -238,3 +238,6 @@ ms.locfileid: "4410013"
 - [موصل دفع Dynamics 365 لـ Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

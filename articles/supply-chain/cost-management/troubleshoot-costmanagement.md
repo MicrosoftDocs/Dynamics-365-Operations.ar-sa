@@ -62,3 +62,6 @@ ms.locfileid: "4421813"
 ## <a name="inventory-aging-report-discrepancies"></a>تباينات تقرير تقادم المخزون
 
 يعرض **تقرير تقادم المخزون** قيما مختلفه عند عرضها علي ابعاد تخزين مختلفه (مثل الموقع أو المستودع). لمزيد من المعلومات حول منطق التقرير ، راجع [أمثله تقرير فتره تاخر المخزون ومنطقه](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

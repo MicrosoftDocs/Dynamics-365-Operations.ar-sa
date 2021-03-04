@@ -135,3 +135,6 @@ ms.locfileid: "4409959"
 [إدارة التقييمات والمراجعات](manage-reviews.md)
 
 [تكوين التقييمات والمراجعات](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

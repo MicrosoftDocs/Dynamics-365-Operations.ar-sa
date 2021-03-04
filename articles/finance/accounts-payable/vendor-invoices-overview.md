@@ -128,3 +128,6 @@ ms.locfileid: "4701666"
 - [بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام ‏‫دفتر يومية الموافقة](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام ‏‫وعاء الفواتير‬](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [تسجيل فاتورة مورّد في دفتر يومية الفواتير](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

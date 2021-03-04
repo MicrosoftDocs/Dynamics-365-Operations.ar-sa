@@ -82,3 +82,6 @@ ms.locfileid: "4665410"
 [إدارة خرائط Bing لمؤسستك](./dev-itpro/manage-bing-maps.md)
 
 [عنصر تحكم ويب V8 لخرائط Bing](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

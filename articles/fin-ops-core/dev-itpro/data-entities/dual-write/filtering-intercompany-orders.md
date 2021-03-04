@@ -65,3 +65,6 @@ ms.locfileid: "4701023"
 7. بعد قيامك بتوسيع كيان **عروض الأسعار**، قم بتطبيق عامل تصفية باستخدام `CUSTGROUP !=  "<company>"` باعتباره سلسلة الاستعلام.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="رأس عرض أسعار المبيعات، تحرير الاستعلام":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

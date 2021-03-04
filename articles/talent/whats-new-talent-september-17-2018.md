@@ -54,3 +54,6 @@ ms.locfileid: "4460235"
 ## <a name="bug-fixes"></a>إصلاح الأخطاء
 
 يشمل هذا الإصدار العديد من إصلاحات الأخطاء الإضافية، ويشمل ذلك مراجع لـ ACA و ADA و I9 سوف يتم تمكينها فقط في الشركات الأمريكية.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

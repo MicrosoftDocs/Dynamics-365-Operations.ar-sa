@@ -122,3 +122,6 @@ ms.locfileid: "4409871"
 [اعتبارات تحسين محرك البحث (SEO) لموقعك](search-engine-optimization-considerations.md)
 
 [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

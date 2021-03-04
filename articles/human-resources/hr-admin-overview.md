@@ -102,3 +102,5 @@ ms.locfileid: "4527851"
 - [ما هو الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)
 - [دليل المطور](hr-developer-overview.md)
 - [دليل المستخدم](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

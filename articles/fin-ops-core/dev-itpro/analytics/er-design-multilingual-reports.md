@@ -210,3 +210,6 @@ ms.locfileid: "4679692"
 
 - [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 - [وظائف التقارير الإلكترونية](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

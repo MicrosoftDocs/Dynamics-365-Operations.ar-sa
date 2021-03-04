@@ -46,3 +46,6 @@ ms.locfileid: "4421304"
 12. في الحقل "التعليق"، اكتب قيمة.
 13. انقر فوق تقديم.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

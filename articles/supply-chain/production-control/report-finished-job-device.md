@@ -239,3 +239,6 @@ ms.locfileid: "4421300"
 
 > [!NOTE]
 > لتكوين البطاقة، انتقل إلى **إدارة المستودعات \> إعداد \> توجيه المستند \> توجيه المستند**. لمزيد من المعلومات، راجع [تمكين طباعة بطاقة لوحة الترخيص](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ ms.locfileid: "4460180"
     ![إضافة ارتباطات إلى سياسة الخصوصية وشروط الاستخدام الخاصة بالشركة في تذييل البريد الإلكتروني](./media/attract-admin-email-footer.png)
 
 4. حدد **حفظ** لحفظ إعدادات قوالب البريد الإلكتروني الخاصة بك.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

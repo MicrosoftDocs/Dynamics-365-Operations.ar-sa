@@ -57,3 +57,6 @@ ms.locfileid: "4693920"
 **القرار:**
 
 - كم عدد دفاتر عناوين الإضافية التي ستقوم بإنشائها؟
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ ms.locfileid: "4679286"
 
 [!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

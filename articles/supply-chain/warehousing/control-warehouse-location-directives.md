@@ -77,3 +77,6 @@ ms.locfileid: "4517418"
 
 - الفيديو: [نظرة عميقة على تكوين أداره المستودعات](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - موضوع المساعدة: [إنشاء توجيهات الموقع](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

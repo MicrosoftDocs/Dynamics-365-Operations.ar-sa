@@ -145,3 +145,6 @@ ms.locfileid: "4439905"
 - [العملة المزدوجة](dual-currency.md)
 - [نظرة عامة على ضريبة المبيعات](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

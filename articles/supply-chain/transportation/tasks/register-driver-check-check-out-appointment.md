@@ -46,3 +46,6 @@ ms.locfileid: "4421741"
 1. انقر فوق "تسجيل خروج السائق".
 2. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

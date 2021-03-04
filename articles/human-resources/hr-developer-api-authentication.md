@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 بمجرد استرداد رمز وصول مميز، ستقوم بتمرير الرمز المميز في رأس التخويل كرمز مميز لحامل مع كل طلب تقوم بإرساله إلى واجهة API للبيانات، كما هو موضح أعلاه.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

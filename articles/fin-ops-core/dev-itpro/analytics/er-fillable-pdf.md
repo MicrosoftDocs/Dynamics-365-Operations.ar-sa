@@ -301,3 +301,6 @@ ms.locfileid: "4688115"
 
 - [التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML (نوفمبر 2016)](tasks/er-design-reports-openxml-2016-11.md)
 - [تصميم تكوينات التقارير الإلكترونية لإنشاء تقارير بتنسيق Word](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

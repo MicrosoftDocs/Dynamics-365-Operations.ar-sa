@@ -45,3 +45,6 @@ ms.locfileid: "4972648"
 
 > [!NOTE]
 > دفع المبالغ الجزئية أو تسويتها غير مدعوم بعد.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

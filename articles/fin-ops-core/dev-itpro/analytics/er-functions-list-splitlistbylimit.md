@@ -100,3 +100,6 @@ SPLITLISTBYLIMIT (list, limit value, limit source)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دالات القائمة](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ ms.locfileid: "4581902"
 [Dynamics 365 Payment Connector لـ PayPal](paypal.md)
 
 [مصادقة العملاء القوية باستخدام Adyen](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

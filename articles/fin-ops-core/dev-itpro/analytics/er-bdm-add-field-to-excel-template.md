@@ -169,3 +169,6 @@ ms.locfileid: "4681365"
 [نظرة عامة على إدارة مستندات الأعمال](er-business-document-management.md)
 
 [تصميم تكوين لإنشاء التقارير بتنسيق OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

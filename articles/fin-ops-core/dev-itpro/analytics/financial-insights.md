@@ -247,3 +247,6 @@ ms.locfileid: "4682761"
 - [الوصول إلى مساحات العمل التحليلية والتقارير عن بيئة الصندوق الواحد](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

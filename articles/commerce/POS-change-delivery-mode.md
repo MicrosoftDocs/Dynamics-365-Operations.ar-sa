@@ -47,3 +47,6 @@ ms.locfileid: "4594127"
 [إنشاء أوامر مركز الاتصال](tasks/create-call-center-orders.md)
 
 [تخصيص رسائل البريد الكتروني للمعاملات حسب وضع التسليم](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

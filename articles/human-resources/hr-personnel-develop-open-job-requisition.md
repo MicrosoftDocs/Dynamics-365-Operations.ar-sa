@@ -66,3 +66,6 @@ ms.locfileid: "4417046"
     * تعني حالة البدء أن المشروع جاهز لتلقي الطلبات.  
 33. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ ms.locfileid: "4439970"
 7. انقر فوق "تسويات دفتر الأستاذ".
 8. في القائمة، قم بوضع علامة للصف المحدد.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

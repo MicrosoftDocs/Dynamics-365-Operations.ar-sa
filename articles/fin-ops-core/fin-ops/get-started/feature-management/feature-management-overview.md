@@ -203,3 +203,6 @@ IFeatureLifecycle آلي داخلية من Microsoft لتوضيح مرحله د�
 - PublicPreview - يظهر بشكل افتراضي لكن مع تحذير ان الميزة في المعاينة.
 - Released - تم إصداره بشكل كامل.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ ms.locfileid: "4409807"
 [وحدة كتلة المحتوى](add-hero-module.md)
 
 [وحدة نمطية لمشغل الفيديو](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

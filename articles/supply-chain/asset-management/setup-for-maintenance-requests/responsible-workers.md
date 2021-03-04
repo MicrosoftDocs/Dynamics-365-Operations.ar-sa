@@ -54,3 +54,6 @@ ms.locfileid: "4421478"
 يبين الرسم التوضيحي التالي مثالاً لصفحة **عاملو الصيانة المسؤولون**.
 
 ![صفحة عاملي الصيانة المسؤولين](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

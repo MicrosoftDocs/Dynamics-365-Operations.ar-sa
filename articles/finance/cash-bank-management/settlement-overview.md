@@ -78,3 +78,6 @@ ms.locfileid: "4439935"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [تسوية المبلغ المتبقي](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

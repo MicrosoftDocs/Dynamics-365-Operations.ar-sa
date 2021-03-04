@@ -94,3 +94,6 @@ ms.locfileid: "4421456"
 
 [إعداد الفواصل الزمنية لخدمة](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

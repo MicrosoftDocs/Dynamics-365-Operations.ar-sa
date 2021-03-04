@@ -39,3 +39,6 @@ ms.locfileid: "4417086"
 3. حدد **حفظ**.
 
 ![صفحة محددات دفتر عناوين عمومي](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

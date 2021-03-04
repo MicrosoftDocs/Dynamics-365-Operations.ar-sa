@@ -57,3 +57,6 @@ ms.locfileid: "4421415"
 6. في الحقل "كمية البضائع"، أدخل رقمًا.
 7. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

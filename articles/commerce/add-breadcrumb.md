@@ -95,3 +95,6 @@ ms.locfileid: "4517150"
 [الوحدة النمطية لصندوق الشراء](add-buy-box.md)
 
 [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

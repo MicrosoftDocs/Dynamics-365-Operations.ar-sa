@@ -175,3 +175,6 @@ public DocuRef insertFile(
 
 - [وجهات التقارير الإلكترونية‬](electronic-reporting-destinations.md)
 - [الصفحة الرئيسية لقابلية للتوسعة](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

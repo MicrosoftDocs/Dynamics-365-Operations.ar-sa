@@ -57,3 +57,6 @@ ms.locfileid: "4421181"
 21. في الحقل **التعليق**، اكتب قيمة.
 22. انقر فوق **تقديم**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

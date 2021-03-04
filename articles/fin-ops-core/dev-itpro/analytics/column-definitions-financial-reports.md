@@ -599,3 +599,6 @@ ms.locfileid: "4687220"
 [تعريفات الصفوف في مصمم التقارير المالية](row-definitions-financial-reporting.md)
 
 [خيارات التنسيق المتقدمة في التقارير المالية](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

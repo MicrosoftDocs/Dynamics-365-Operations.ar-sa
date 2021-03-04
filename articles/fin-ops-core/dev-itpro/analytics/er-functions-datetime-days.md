@@ -63,3 +63,6 @@ DAYS (date 1, date 2) as Integer
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دلات التاريخ والوقت](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

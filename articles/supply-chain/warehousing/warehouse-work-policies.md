@@ -301,3 +301,6 @@ ms.locfileid: "4421779"
 للحصول على مزيد من المعلومات حول استلام لوحة الترخيص وسياسات العمل، راجع [استلام لوحة الترخيص من خلال تطبيق المستودع](warehousing-mobile-device-app-license-plate-receiving.md).
 
 للحصول على معلومات حول إدارة الأحمال الواردة، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -309,3 +309,6 @@ ms.locfileid: "4679716"
 [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
 
 [إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ IF (condition, first value, second value) as any of the supported data types
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الوظائف المنطقية](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

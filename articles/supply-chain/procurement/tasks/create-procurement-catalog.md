@@ -66,3 +66,6 @@ ms.locfileid: "4421312"
 7. حدد **إضافة إلى البنود**.
 8. حدد **موافق**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

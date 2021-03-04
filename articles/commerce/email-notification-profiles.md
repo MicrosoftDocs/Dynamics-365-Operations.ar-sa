@@ -96,3 +96,6 @@ ms.locfileid: "4409805"
 [المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
 
 [نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
