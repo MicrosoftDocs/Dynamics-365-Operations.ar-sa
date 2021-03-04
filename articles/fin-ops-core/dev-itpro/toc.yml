@@ -14,12 +14,12 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.17 (أبريل 2021)
+                  href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: تحديثات النظام الأساسي لـ 10.0.16 (فبراير 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: تحديثات النظام الأساسي لـ 10.0.15 (يناير 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.14 (نوفمبر 2020)
-                  href: get-started/whats-new-platform-updates-10-0-14.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
@@ -122,9 +122,9 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: إنشاء سجلات باستخدام قوالب السجل
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: تكامل البيانات باستخدام Common Data Service
+                - name: تكامل البيانات باستخدام Dataverse
                   items:
-                    - name: نظرة عامة حول تكامل البيانات باستخدام Common Data Service
+                    - name: نظرة عامة حول تكامل البيانات باستخدام Dataverse
                       href: data-entities/data-integration-cds.md
                     - name: تكامل الكتابة المزدوجة
                       items:
@@ -192,11 +192,11 @@
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
                             - name: تكامل الشركة
                               items:
-                                - name: مفهوم الشركة في Common Data Services
+                                - name: مفهوم الشركة في Dataverse
                                   href: data-entities/dual-write/company-data.md
-                                - name: التمهيد باستخدام بيانات الشركة
+                                - name: تهيئة بيانات الشركة
                                   href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: التدرج الهرمي للمؤسسات في Common Data Service
+                            - name: التدرج الهرمي للمؤسسات في Dataverse
                               href: data-entities/dual-write/organization-mapping.md
                             - name: البيانات المالية وبيانات الضرائب
                               items:
@@ -206,41 +206,45 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: أصل الضريبة المتكاملة
                                   href: data-entities/dual-write/tax-mapping.md
+                            - name: تكامل المشتريات في Supply Chain Management مع Field Service
+                              href: data-entities/dual-write/scm-field-service-procurement.md
+                            - name: المزامنة عند الطلب مع محرك تسعير Supply Chain Management
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: العميل المتوقع إلى النقدية في الكتابة المزدوجة
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: المزامنة مع محرك التسعير عند الطلب في Dynamics 365 Supply Chain Management
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: استخدام محرك التسعير لـ Dynamics 365 Commerce مع Dynamics 365 Sales
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: أصول داخلية لإخضاعها للصيانة
                               href: data-entities/dual-write/in-house-assets.md
                             - name: العامل والوظيفة والمنصب المتكامل
                               href: data-entities/dual-write/integrated-hr.md
-                            - name: توفر المخزون
+                            - name: توافر المخزون
                               href: data-entities/dual-write/inventory-availability.md
                         - name: دعم الكتابة المزدوجة
                           items:
-                            - name: دعم حلول Field Service وحلول Project Service Automation
+                            - name: دعم حلول Field Service وProject Service Automation
                               href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: ترحيل العميل المتوقع إلى بيانات النقدية من Data Integrator إلى الكتابة المزدوجة
+                              href: data-entities/dual-write/migrate-prospect-to-cash.md
                             - name: استكشاف الأخطاء وإصلاحها
                               items:
-                                - name: التحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وCommon Data Service
+                                - name: التحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations و Dataverse
                                   href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                                 - name: استكشاف المشاكل وإصلاحها أثناء الإعداد الأولي
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                                 - name: استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: استكشاف المشاكل وإصلاحها مع وحدة الكتابة المزدوجة في تطبيقات Finance and Operations
+                                - name: استكشاف مشاكل الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
                                   href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                                 - name: استكشاف المشاكل وإصلاحها في المزامنة المباشرة
                                   href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
                                 - name: استكشاف المشاكل ذات الصلة بإدراك الحلول وإصلاحها
                                   href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: استكشاف المشاكل ذات الصلة بترقيات تطبيقات Finance and Operations
+                                - name: استكشاف المشاكل من ترقيات تطبيقات Finance and Operations وإصلاحها
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: استكشاف المشاكل العامة وإصلاحها
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: الكتابة المزدوجة للأسئلة المتداولة
+                        - name: الأسئلة المتداولة عن الكتابة المزدوجة
                           href: data-entities/dual-write/dual-write-faq.md
                     - name: التكامل مع Power Platform
                       items:
@@ -338,8 +342,12 @@
               items:
                 - name: نظرة عامة حول مهام استيراد البيانات وتصديرها
                   href: data-entities/data-import-export-job.md
-                - name: أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
+                - name: مزامنة التاريخ والوقت في مهام الاستيراد
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: استيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
                   href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: تحسين ترحيل البيانات لتطبيقات Finance and Operations
+                  href: sysadmin/optimize-data-migration.md
             - name: التطوير لكيانات البيانات
               items:
                 - name: مبادئ التصميم وأفضل الممارسات لكيانات البيانات
@@ -442,6 +450,8 @@
                       href: database/api/v1/reference-create-export.md
                     - name: الحصول على حالة نشاط العملية
                       href: database/api/v1/reference-get-status.md
+                    - name: بدء البيئات وإيقافها
+                      href: database/api/v1/reference-start-stop-environments.md
         - name: بيانات العرض التوضيحي
           items:
             - name: نظرة عامة على بيانات العرض التوضيحي
@@ -808,60 +818,6 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: جداول النظام
                   href: dev-ref/system-tables.md
-                - name: فئات النظام
-                  items:
-                    - name: قائمه فئات النظام
-                      href: dev-ref/system-classes/toc.yml
-                    - name: فئات النظام المجمعة أبجديًا
-                      items:
-                        - name: فئات A
-                          href: dev-ref/a-classes.md
-                        - name: فئات B
-                          href: dev-ref/b-classes.md
-                        - name: فئات C
-                          href: dev-ref/c-classes.md
-                        - name: فئات D
-                          href: dev-ref/d-classes.md
-                        - name: فئات E
-                          href: dev-ref/e-classes.md
-                        - name: فئات F
-                          href: dev-ref/f-classes.md
-                        - name: فئات G
-                          href: dev-ref/g-classes.md
-                        - name: فئات H
-                          href: dev-ref/h-classes.md
-                        - name: فئات I
-                          href: dev-ref/i-classes.md
-                        - name: فئات J
-                          href: dev-ref/j-classes.md
-                        - name: فئات K
-                          href: dev-ref/k-classes.md
-                        - name: فئات L
-                          href: dev-ref/l-classes.md
-                        - name: فئات M
-                          href: dev-ref/m-classes.md
-                        - name: فئات N
-                          href: dev-ref/n-classes.md
-                        - name: فئات O
-                          href: dev-ref/o-classes.md
-                        - name: فئات P
-                          href: dev-ref/p-classes.md
-                        - name: فئات Q
-                          href: dev-ref/q-classes.md
-                        - name: فئات R
-                          href: dev-ref/r-classes.md
-                        - name: فئات S
-                          href: dev-ref/s-classes.md
-                        - name: فئات T
-                          href: dev-ref/t-classes.md
-                        - name: فئات U
-                          href: dev-ref/u-classes.md
-                        - name: فئات V
-                          href: dev-ref/v-classes.md
-                        - name: فئات W
-                          href: dev-ref/w-classes.md
-                        - name: فئات X
-                          href: dev-ref/x-classes.md
             - name: قابلية التوسعة
               items:
                 - name: الصفحة الرئيسية لقابلية للتوسعة
@@ -1004,11 +960,11 @@
                   href: perf-test/trace-trace-tutorial.md
                 - name: اختبارات أحادية المستخدم مع مسجل المهام وPerformance SDK
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: اختبارات متعددة المستخدمين مع Performance SDK ووحده تحكم اختبارات محلية
+                - name: اختبار Performance SDK متعدد المستخدمين باستخدام وحدة تحكم اختبار محلية
                   href: perf-test/multi-user-testing-local-test-controller.md
                 - name: اختبارات متعددة المستخدمين مع Performance SDK وAzure DevOps
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: دليل استكشاف الأخطاء وإصلاحها لاختبارات أحادية المستخدم أو متعددة المستخدمين مع Performance SDK
+                - name: دليل استكشاف الأخطاء للاختبار مع Performance SDK وإصلاحها
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: ‏‫Performance SDK والاختبارات متعددة المستخدمين‬ في البيئات المحلية
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1022,7 +978,7 @@
                   href: perf-test/testing-validation.md
                 - name: اختبار المشروعات في Visual Studio
                   href: perf-test/testing-support.md
-                - name: نشر بيئات تدعم البناء المستمر والتنفيذ التلقائي للاختبار‬ات
+                - name: نشر بيئة التنفيذ التلقائي المستمرة للبناء والاختبار واستخدمها
                   href: perf-test/continuous-build-test-automation.md
                 - name: تصفية SysTest باستخدام سمات الفئات والأساليب
                   href: perf-test/systest-filtering.md
@@ -1172,11 +1128,13 @@
           items:
             - name: تكامل Microsoft Power Platform مع Finance and Operations
               href: power-platform/overview.md
+            - name: نظرة عامة حول الوظائف الإضافية
+              href: power-platform/add-ins-overview.md
             - name: تصميم الكيان
               href: power-platform/entity-modeling.md
             - name: إدارة دورة حياة التطبيق
               href: power-platform/application-lifecycle-management.md
-            - name: مرجع مسؤول Finance and Operations وCommon Data Service
+            - name: مرجع مسؤول Finance and Operations وDataverse
               href: power-platform/admin-reference.md
             - name: مداخل Power Apps مع Finance and Operations
               href: power-platform/power-portal-reference.md
@@ -1420,8 +1378,8 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: حالات الاختبار المشتقة
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: برنامج Regression suite automation tool التعليمي والميزات الأخرى
-              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: البرنامج التعليمي لـ Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-tutorial.md
             - name: أفضل الممارسات
               href: perf-test/rsat/rsat-best-practices.md
             - name: اختبار عدم تحديد البيانات باستخدام Regression Suite Automation Tool
@@ -1467,7 +1425,7 @@
             - name: الحصول على دعم لـ Finance and Operations وLifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: نظرة عامة على دعم Dynamics 365
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: الحصول على دعم لـ Finance and Operations المُشغل بواسطة 21Vianet في الصين
               href: lifecycle-services/21vianet-support.md
             - name: إعداد الدعم الفني لتطبيقات Finance and Operations
@@ -1506,6 +1464,8 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: إدارة جلسات عمل المستخدم
                   href: sysadmin/user-session-management.md
+                - name: حظر الوصول حسب الموقع مع Conditional Access Azure AD
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: استيراد المستخدمين بشكل مجمع
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: إعداد الفصل بين المهام
@@ -1524,11 +1484,13 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: الحفاظ على التوافق مع متطلبات ترخيص المستخدم
               href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: عرض حالة ترخيص ‏‫مورِّد برامج مستقل
+              href: sysadmin/view-isv-license-status.md
             - name: أتمته العملية
               href: sysadmin/process-automation.md
             - name: معالجة الدُفعات
               items:
-                - name: نظرة عامة على معالجة الدُفعات
+                - name: نظرة عامة على المعالجة الدُفعية
                   href: sysadmin/batch-processing-overview.md
                 - name: مُعالجة الدُفعات وخوادم الدُفعات
                   href: sysadmin/batch-server-overview.md
@@ -1542,15 +1504,13 @@
                   href: sysadmin/batch-active-period-dst.md
                 - name: دور أمان مدير الدُفعة
                   href: sysadmin/runby.md
-                - name: وظيفة دُفعية للتعامل مع إلغاء تجزئة فهرس SQL
-                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: تكوين تنبيهات دُفعية
                   href: sysadmin/alerts.md
                 - name: نماذج دُفعية محسّنة
                   href: sysadmin/enhanced-forms.md
-                - name: تنظيف المحفوظات الدُفعية
+                - name: مسح المحفوظات الدُفعية
                   href: sysadmin/batch-history-cleanup.md
-                - name: إيقاف تنفيذ وظيفة دُفعية قبل اكتمالها
+                - name: إلغاء تنفيذ وظيفة دُفعية قبل اكتمالها
                   href: sysadmin/batch-abort.md
             - name: مرشد التحسين
               items:
