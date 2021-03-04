@@ -70,14 +70,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: الجديد أو المتغير في Supply Chain Management
                   items:
-                    - name: الميزات الجديدة أو المتغيرة في صفحة Supply Chain Management الرئيسية
+                    - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.17 (أبريل 2021)
+                      href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (فبراير 2021)
                       href: get-started/whats-new-scm-10-0-16.md
                     - name: Supply Chain Management 10.0.15 (يناير 2021)
                       href: get-started/whats-new-scm-10-0-15.md
-                    - name: الإصدار 10.0.14 من Supply Chain Management (نوفمبر 2020)
-                      href: get-started/whats-new-scm-10-0-14.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
@@ -154,6 +154,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: طرق العرض المحفوظة
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: طرق العرض القياسية المحفوظة لـ Supply Chain Management
+                  href: get-started/saved-views-scm.md
                 - name: قدرات الشبكة
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء حقول مخصصة والعمل باستخدامها
@@ -174,8 +176,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: هندسة تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
                 - name: إعداد مشروع تنفيذ
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تخطيط البيئة
@@ -224,6 +226,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: أحمال عمل إدارة المستودعات لوحدات نطاق السحابة والحافة
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: أوامر المستودعات لوحدات المجموعة والحافة
+              href: cloud-edge/cloud-edge-warehouse-order.md
         - name: إدارة الأصول
           items:
             - name: نظرة عامة على إدارة الأصول
@@ -363,6 +367,8 @@
               items:
                 - name: التنبؤات وأوامر العمل والمشاريع
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+                - name: فاتورة لصيانة الأصول المملوكة للعملاء
+                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: تكامل إدارة الأصول مع الأصول الثابتة
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: الصيانة الوقائية والتفاعلية
@@ -433,19 +439,23 @@
                   href: asset-management/controlling-and-reporting/asset-fault-cost-control.md
                 - name: تحليل خطأ الأصل
                   href: asset-management/controlling-and-reporting/asset-fault-analysis.md
-                - name: ‏‫مؤشرات KPI للأصول
+                - name: ‏‫مؤشرات الأداء الرئيسية‬ الخاصة بالأصل
                   href: asset-management/controlling-and-reporting/asset-kpis.md
-                - name: عنصر موجود في المكان المحدد لاستخدامه لاحقًا
+                - name: صنف موجود في المكان المحدد لاستخدامه لاحقاً
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: حالة الصيانة
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: إدارة الأصول من تطبيق الأجهزة المحمولة
+              items:
+                - name: إعداد مساحة العمل المحمولة للأصل
+                  href: asset-management/set-up-asset-management-mobile.md
+                - name: استخدام مساحة العمل المحمولة للأصل
+                  href: asset-management/asset-management-mobile-workspace.md
             - name: تكامل إدارة الأصول مع Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-            - name: مساحة العمل المحمولة للأصل
-              href: asset-management/asset-management-mobile-workspace.md
         - name: إدارة البيانات
           items:
-            - name: كيانات هدف
+            - name: ‏‫الكيانات الهدف
               href: asset-management/data-management/target-entities.md
         - name: محاسبة التكاليف
           items:
@@ -1319,9 +1329,11 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: مساحة عمل محمولة للمخزون الفعلي
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: استكشاف أخطاء عمليات المخزون وإصلاحها
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: العملية الصادرة
               items:
-                - name: نظرة عامة على لعملية الصادرة
+                - name: نظرة عامة على العملية الصادرة
                   href: inventory/outbound-process.md
                 - name: حجز كميات المخزون
                   href: inventory/reserve-inventory-quantities.md
@@ -1377,12 +1389,18 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: حدود الأمان
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: طلبات الشراء
+                  href: master-planning/planning-optimization/purchase-requisitions.md
+                - name: تخطيط الإنتاج
+                  href: master-planning/planning-optimization/production-planning.md
                 - name: علامات المخزون مع تحسين التخطيط
                   href: master-planning/planning-optimization/marking.md
-                - name: تخطيط بين الشركات الشقيقة
+                - name: التخطيط بين الشركات الشقيقة
                   href: master-planning/planning-optimization/Intercompany-planning.md
-                - name: استبعاد المنتجات التي لها حالات دورة حياة منتج معينه
+                - name: استبعاد المنتجات التي لها حالات دورة حياة منتج معينة
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: حدود وقت التغطية
+                  href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: الموافقة على الأوامر المخططة
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: التأكيد التلقائي مع تحسين التخطيط
@@ -1909,6 +1927,8 @@
                   href: production-control/bom-designer-functionality.md
                 - name: استخدام مصمم المعادلة
                   href: production-control/formula-designer.md
+                - name: تجاوز مبدأ الحجز الافتراضي للمواد في الإنتاج
+                  href: production-control/override-default-reservation-principle.md
                 - name: إضافة منتجات متغيرة إلى أوامر شراء باستخدام أوزان متغيرة
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: إنشاء أمر مبيعات لمنتج قابل للتكوين
@@ -2025,11 +2045,13 @@
                       href: production-control/production-set-up-requirements.md
                     - name: قوائم مكونات الصنف والمعادلات
                       href: production-control/bill-of-material-bom.md
-                    - name: وظيفة مصمم BOM
+                    - name: وظيفة مصمم قائمة مكونات الصنف
                       href: production-control/bom-designer-functionality.md
+                    - name: تجاوز مبدأ الحجز الافتراضي للمواد في الإنتاج
+                      href: production-control/override-default-reservation-principle.md
                     - name: أصناف وهمية
                       href: production-control/phantom-items.md
-                    - name: عمليات حساب BOM
+                    - name: العمليات الحسابية لقائمة مكونات الصنف
                       href: cost-management/bom-calculations.md
                     - name: إدارة وحدة القياس
                       href: pim/tasks/manage-unit-measure.md
@@ -2753,10 +2775,12 @@
                   items:
                     - name: إعداد انتقاء نظام المجموعة
                       href: warehousing/set-up-cluster-picking.md
-                    - name: منصب نظام المجموعة ممتلئ
+                    - name: وضع نظام المجموعة ممتلئ
                       href: warehousing/cluster-position-full.md
                     - name: انتقاء نظام مجموعة بتوجيه من النظام
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: تعيين أبعاد مختلفة للتعبئة والتخزين
+                      href: warehousing/packing-vs-storage-dimensions.md
                     - name: إعداد التعبئة في حاويات
                       href: warehousing/tasks/set-up-containerization.md
                     - name: تأكيد لوحة الترخيص والدُفعة
@@ -2823,6 +2847,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: إعادة طباعة تسميات الموجات وإلغاؤها
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: شحن طرد صغير
+                      href: warehousing/small-parcel-shipping.md
                     - name: استكشاف أخطاء تحميل الإنشاء والشحنات وإصلاحها
                       href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: سياسات دمج الشحنات
@@ -2915,12 +2941,16 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: ‏‫العمل باستخدام توجيهات الموقع
                       href: warehousing/create-location-directive.md
+                    - name: تكوين عوامل تصفية المنتج لحركات المستودع
+                      href: warehousing/filters-and-filter-codes.md
                     - name: حدود مخزون الموقع
                       href: warehousing/location-stocking-limits.md
                     - name: رموز خطوة الموجة
                       href: warehousing/wave-step-codes.md
                     - name: تكوين معالجة الموجة
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: جدولة إنشاء العمل أثناء الموجة
+                      href: warehousing/configure-wave-schedule-work-creation.md
                     - name: إعداد طباعة تسميات الموجات واستخدامها
                       href: warehousing/configure-wave-label-printing.md
                     - name: التحديث التلقائي للشحنات
@@ -2955,6 +2985,8 @@
                       href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: تثبيت تطبيق المستودع وتكوينه
                   items:
+                    - name: تثبيت تطبيق إدارة المستودع للأجهزة المحمولة والاتصال به
+                      href: warehousing/install-configure-warehouse-management-app.md
                     - name: تثبيت تطبيق المستودع وتوصيله
                       href: warehousing/install-configure-warehousing-app.md
                     - name: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق المستودع

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458379"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115910"
 ---
 # <a name="recognize-deferred-revenue"></a>إقرار الإيرادات المؤجلة
 
@@ -39,7 +38,7 @@ ms.locfileid: "4458379"
 - يمكنك فتح جدول إقرار الإيرادات مباشرة من أمر مبيعات مفوتر. وفي هذه الحالة تتم تصفية المعلومات الموجودة في جدول الإيرادات لعرض تفاصيل أمر المبيعات المحدد فقط. يكون هذا الأسلوب مفيدًا عند التحقق من صحة تفاصيل جدول أمر مبيعات.
 - يمكنك فتح جدول إقرار الإيرادات من صفحة **إقرار الإيرادات\> المهام الدورية**. غالبًا ما يُستخدم هذا الأسلوب عند إقرار الإيرادات في نهاية الفترة. عند فتح الصفحة لأول مرة، لا يتم عرض أي معلومات. استخدم عوامل التصفية الموجودة أعلى الشبكة لتحديد معايير لتفاصيل الجدول التي يجب عرضها. يمكنك إجراء التصفية من خلال تواريخ الفواتير بإدخال نطاق التاريخ أو أمر المبيعات أو العميل أو معرف المشروع أو المنطقة.
 
-[![صفحة جداول الإيرادات](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![رسم توضيحي لصفحة جداول الإيرادات](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 وتعرض علامة التبويب السريعة **البعد المالي‬** الموجودة أسفل الشبكة الأبعاد المالية لبند أمر المبيعات. كانت تتم مراعاة هذه الأبعاد اثناء الترحيل إلى الإيرادات المؤجلة. وتتم مراعاتها أيضًا عند إقرار الإيرادات. تعتمد قيم الأبعاد المستخدمة على بنية الحساب التي يتم تعيينها إلى الحسابات الرئيسية للإيرادات والإيرادات المؤجلة.
 

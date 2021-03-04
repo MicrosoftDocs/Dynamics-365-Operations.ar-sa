@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21901
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6a6f53007f8bd04724c43c518c5a9b10856b68d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a0195c6776b5065d98b6b1d4d9795248c6bf4c74
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458380"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972146"
 ---
 # <a name="accounts-payable-home-page"></a>الصفحة الرئيسية للحسابات الدائنة
 
@@ -31,7 +30,7 @@ ms.locfileid: "4458380"
 
 يقدم هذا الموضوع نظرة عامة على الحسابات الدائنة. 
 
-ويمكنك إدخال فواتير المورد يدويًا أو استلامها إلكترونيًا عن طريق كيان بيانات. بعد إدخال الفاتورة أو استلامها، يمكنك مراجعة والفواتير والموافقة عليها باستخدام دفتر يومية الموافقة على الفاتورة أو صفحة **فاتورة المورد**. يمكنك استخدام سياسات مطابقة الفواتير‬ وفواتير المورّدين وسير العمل لأتمتة عملية المراجعة بحيث تتم الموافقة تلقائيًا على الفواتير التي تلبي معايير معينة، ويتم تعليم الفواتير المتبقية كي تتم مراجعتها بواسطة مستخدم مخول.
+يمكنك إدخال فواتير المورد يدويًا أو استلامها إلكترونيًا عن طريق هيئة بيانات. بعد إدخال الفاتورة أو استلامها، يمكنك مراجعة والفواتير والموافقة عليها باستخدام دفتر يومية الموافقة على الفاتورة أو صفحة **فاتورة المورد**. يمكنك استخدام سياسات مطابقة الفواتير‬ وفواتير المورّدين وسير العمل لأتمتة عملية المراجعة بحيث تتم الموافقة تلقائيًا على الفواتير التي تلبي معايير معينة، ويتم وضع علامات على الفواتير المتبقية كي تتم مراجعتها بواسطة مستخدم معتمد.
 
 **عمليات الأعمال**
 
@@ -49,7 +48,7 @@ ms.locfileid: "4458380"
 
 ## <a name="configure-vendor-invoices"></a>تكوين فواتير المورِّدين
 
-استخدم الحسابات الدائنة لتعقب الفواتير والنفقات الصادرة إلى المورِّدين.
+استخدام الحسابات الدائنة لتعقب الفواتير والنفقات الصادرة إلى المورِّدين.
 
 [نظرة عامة حول مطابقة فاتورة الحسابات الدائنة](accounts-payable-invoice-matching.md)
 
@@ -57,7 +56,7 @@ ms.locfileid: "4458380"
 
 [إعداد التحقق من صحة مطابقة فاتورة‬ الحسابات الدائنة](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
-[سياسات المطابقة الثلاثية](three-way-matching-policies.md)
+[سياسات المطابقة ثلاثية الاتجاه](three-way-matching-policies.md)
 
 [مطابقة الفاتورة وأوامر الشراء المشتركة بين الشركات الشقيقة](invoice-matching-intercompany-purchase-orders.md)
 
@@ -77,15 +76,15 @@ ms.locfileid: "4458380"
 
 [مساحة عمل دفعات المورد](vendor-payments-workspace.md)
 
-[‏‫تحديد رسوم دفع المورّد‬](tasks/define-vendor-payment-fees.md)
+[‏‫تحديد رسوم دفعات المورّد‬](tasks/define-vendor-payment-fees.md)
 
-[‏‫تحديد شروط دفع المورّد‬](tasks/define-vendor-payment-terms.md)
+[‏‫تحديد شروط دفعات المورّد‬](tasks/define-vendor-payment-terms.md)
 
 [نظرة عامة على الدفع الإيجابي](positive-pay-overview.md)
 
 [إعداد ملفات الدفع الإيجابي وإنشاؤها](set-up-generate-positive-pay-files.md)
 
-[إنشاء دفعات المورد باستخدام مقترح دفع](create-vendor-payments-payment-proposal.md)
+[إنشاء دفعات المورد باستخدام عرض دفع](create-vendor-payments-payment-proposal.md)
 
 [دفعات المورد لمبلغ جزئي](vendor-payments-partial-amount.md)
 
@@ -103,7 +102,7 @@ ms.locfileid: "4458380"
 
 ## <a name="settlements"></a>تسويات
 
-توفر المواضيع التالية معلومات حول التسويات: التسوية عبارة عن عملية تسوية المدفوعات مع الفواتير. 
+تقدم المواضيع التالية معلومات حول التسويات: التسوية عبارة عن عملية تسوية المدفوعات مع الفواتير. 
 
 [تكوين التسوية](../cash-bank-management/configure-settlement.md)
 
@@ -123,24 +122,24 @@ ms.locfileid: "4458380"
 
 #### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [خطط إصدار Microsoft Dynamics 365‏‎](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي يتم التخطيط لإصدارها.‬ 
+انتقل إلى [خطط إصدارMicrosoft Dynamics 365‏‎](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي يتم التخطيط لإصدارها.‬ 
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)و [Microsoft Dynamics 365 Finance - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على [مدونةMicrosoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)و [Microsoft Dynamics 365 Finance - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
+تقدم [مدونة مجتمع شركاءMicrosoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
 #### <a name="community-blogs"></a>مدونات المجتمعات
 
 [كيفية إدارة الحسابات الدائنة في Dynamics 365 Finance](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
-#### <a name="task-guides"></a>دلائل المهام
-تتوفر تعليمات إضافية كدلائل مهام داخل التطبيق. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+#### <a name="task-guides"></a>أدلة المهام
+تتوفر تعليمات إضافية كأدلة مهام داخل التطبيق. وللوصول إلى أدلة المهام، انقر فوق زر "مساعدة" في أي صفحة.
 
 #### <a name="videos"></a>ملفات فيديو
 
-راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن على قناة [Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

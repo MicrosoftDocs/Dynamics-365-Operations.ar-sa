@@ -92,14 +92,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: المزايا الجديدة أو المتغيرة في Commerce
                   items:
-                    - name: المزايا الجديدة أو المتغيرة‬ في صفحة Commerce الرئيسية
+                    - name: الجديد أو المتغير في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.17 (أبريل 2021)
+                      href: get-started/whats-new-commerce-10-0-17.md
                     - name: Commerce 10.0.16 (فبراير 2021)
                       href: get-started/whats-new-commerce-10-0-16.md
                     - name: Commerce 10.0.15 (يناير 2021)
                       href: get-started/whats-new-commerce-10-0-15.md
-                    - name: Commerce 10.0.14 (نوفمبر 2020)
-                      href: get-started/whats-new-commerce-10-0-14.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الميزات التي تمت إزالتها أو إهمالها في Finance and Operations
@@ -190,6 +190,44 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: فهم Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+            - name: إدارة دورة حياة التنفيذ
+              items:
+                - name: الصفحة الرئيسية لإدارة دورة حياة التنفيذ
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: هندسة تطبيقات Finance and Operations
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                - name: إعداد مشروع تنفيذ
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: تخطيط البيئة
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: الإعداد للعرض المباشر
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: الأسئلة المتداولة حول العرض المباشر
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: إرسال طلب خدمة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: الأسئلة المتداولة حول الاشتراكات ومشاريع LCS والمستأجرين في Azure AD
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: نقل البيئات بين مراكز البيانات
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: أنقل التراخيص بين أنواع الاتفاقيات
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: نقل مشروعات تنفيذ LCS إلى مستأجري Azure AD مختلفين
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: نقل مشاريع تنفيذ LCS من المواقع المحلية إلى السحابة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: مشروعات LCS وبيئات إنتاج متعددة على مستأجر Azure AD واحد
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: تنفيذ مشاريع Finance and Operations Commerce
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: إعداد بيئات جديدة وAzure DevOps وفروع للمشاريع
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: تحديث الكود والبيئات لمشاريع Commerce
+                  href: dev-itpro/updating-environments.md
+                - name: مشكلات الاختبار والأداء
+                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: نظرة عامة هندسية
           items:
             - name: الهندسة
@@ -248,44 +286,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: تهيئة بيانات أولية في بيئات Commerce الجديدة
                   href: enable-configure-retail-functionality.md
-            - name: إدارة دورة حياة التنفيذ
-              items:
-                - name: الصفحة الرئيسية لإدارة دورة حياة التنفيذ
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: هندسة تطبيقات Finance and Operations
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: إعداد مشروع تنفيذ
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
-                - name: تخطيط البيئة
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: الإعداد للعرض المباشر
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: الأسئلة المتداولة حول العرض المباشر
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: إرسال طلب خدمة
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
-                - name: الأسئلة المتداولة حول الاشتراكات ومشاريع LCS والمستأجرين في Azure AD
-                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: نقل البيئات بين مراكز البيانات
-                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
-                - name: أنقل التراخيص بين أنواع الاتفاقيات
-                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: نقل مشروعات تنفيذ LCS إلى مستأجري Azure AD مختلفين
-                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: نقل مشاريع تنفيذ LCS من المواقع المحلية إلى السحابة
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
-                - name: مشروعات LCS وبيئات إنتاج متعددة على مستأجر Azure AD واحد
-                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: تنفيذ مشاريع Finance and Operations Commerce
-                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: إعداد بيئات جديدة وAzure DevOps وفروع لمشروعات Commerce
-                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-                - name: تحديث الكود والبيئات لمشاريع Commerce
-                  href: dev-itpro/updating-environments.md
-                - name: مشكلات الاختبار والأداء
-                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: إعداد القنوات الخاصة بك
           items:
             - name: نظره عامة حول القنوات
@@ -504,6 +504,8 @@
                       href: payment-methods.md
                     - name: طرق الدفع في مراكز الاتصال
                       href: work-with-payments.md
+                    - name: معالجة سداد المبالغ المستردة في مراكز الاتصال
+                      href: call-center-refund-payments.md
                     - name: إعداد بطاقة الائتمان وتفويضها والتقاطها
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: تكوين الفئات النقدية لنقطة البيع
@@ -648,6 +650,8 @@
                       href: personalization-gdpr.md
                 - name: تمكين توصيات "تسوق أشكال مماثلة"
                   href: shop-similar-looks.md
+                - name: تمكين توصيات "تسوق وصف مماثل"
+                  href: shop-similar-description.md
                 - name: تجارب نقطة البيع
                   items:
                     - name: إضافة توصيات المنتجات على نقطة البيع
@@ -712,7 +716,7 @@
           items:
             - name: أوامر العميل
               items:
-                - name: أوامر العميل في نقطة البيع (POS)
+                - name: أوامر العميل في POS
                   href: customer-orders-overview.md
                 - name: أوامر العملاء المختلطة
                   href: hybrid-customer-orders.md
@@ -720,6 +724,8 @@
                   href: enhancedorderrecall.md
                 - name: تمكين أوضاع تسليم متعددة
                   href: multiple-pickup-modes.md
+                - name: معالجة أمر العميل الذي تم التقاطه في نقطة البيع
+                  href: process-order-pickup-POS.md
             - name: أوامر المبيعات
               items:
                 - name: إنشاء أوامر مركز الاتصال
@@ -858,6 +864,10 @@
                   href: add-cdn-support.md
                 - name: تمكين الكشف عن المتجر استنادًا إلى الموقع
                   href: enable-store-detection.md
+                - name: بطاقات الهدايا الرقمية للتجارة الإلكترونية
+                  href: digital-gift-cards.md
+                - name: متطلبات المستعرض لمواقع Dynamics 365 Commerce
+                  href: browser-requirements.md
             - name: نظرة عامة على عينة موقع
               items:
                 - name: نظرة عامة على الصفحة الرئيسية
@@ -944,10 +954,12 @@
                       href: save-preview-publish-page.md
                     - name: إثراء صفحة منتج
                       href: enrich-product-page.md
-                    - name: إثراء الصفحة المنتقل إليها‬ لفئة
+                    - name: إثراء صفحة فئة منتقل إليها‬
                       href: enrich-category-page.md
                     - name: التحقق من إمكانية الوصول إلى محتوى الصفحة
                       href: verify-accessibility.md
+                    - name: إنشاء صفحات التجارة الإلكترونية الديناميكية استنادًا إلى معلمات عنوان URL
+                      href: create-dynamic-pages.md
                 - name: التنقل في الموقع
                   items:
                     - name: تخصيص التنقل في الموقع
@@ -1052,12 +1064,14 @@
                       href: store-selector.md
                 - name: الوحدات النمطية لإدارة الحسابات
                   items:
-                    - name: صفحات ووحدات إدارة الحسابات
+                    - name: صفحات والوحدات النمطية لإدارة الحساب
                       href: account-management.md
                 - name: الوحدات النمطية لمجموعة المنتجات
                   items:
                     - name: الوحدات النمطية لمجموعة المنتجات
                       href: product-collection-module-overview.md
+                    - name: الوحدة النمطية للعرض السريع
+                      href: quick-view-module.md
                 - name: الوحدات النمطية للتنقل
                   items:
                     - name: الوحدة النمطية لمسار التنقل
@@ -1066,6 +1080,10 @@
                       href: nav-menu-module.md
                     - name: الوحدة النمطية لمحدد الموقع
                       href: site-selector.md
+                - name: الوحدات النمطية للبحث
+                  items:
+                    - name: الوحدة النمطية لنتائج البحث
+                      href: search-result-module.md
                 - name: الوحدات النمطية للتوافق
                   items:
                     - name: الوحدة النمطية للموافقة على ملف تعريف الارتباط
@@ -1106,6 +1124,18 @@
           items:
             - name: تكامل Dynamics 365 Fraud Protection مع Dynamics 365 Commerce
               href: dev-itpro/DFP.md
+        - name: التجارة الإلكترونية بين الشركات
+          items:
+            - name: إعداد موقع التجارة الإلكترونية بين الشركات
+              href: b2b/set-up-b2b-site.md
+            - name: إنشاء تدرجات هرمية لتصميم المؤسسة لمؤسسات B2B
+              href: b2b/org-model.md
+            - name: إدارة مستخدمي شركاء الأعمال على مواقع التجارة الإلكترونية بين الشركات
+              href: b2b/manage-b2b-users.md
+            - name: تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية بين الشركات
+              href: b2b/payment-method.md
+            - name: تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات
+              href: b2b/quantity-limits.md
         - name: الرصد والتحليل
           items:
             - name: رصد أداء المبيعات والهامش
@@ -2066,6 +2096,8 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: التلاعب بحالة تسجيل الدخول أثناء التطوير المحلي
                       href: e-commerce-extensibility/mock-sign-in.md
+                    - name: تكوين خصائص الوحدة النمطية التي سيتم عرضها استنادًا إلى السياق
+                      href: e-commerce-extensibility/configure-properties-context.md
                     - name: عولمة الوحدات النمطية باستخدام الفئة CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: إعداد Azure Key Vault لإدارة المفاتيح الآمنة
@@ -2152,7 +2184,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: التغييرات القادمة في Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: التطوير الهام وتغييرات ALM الهامة من الإصدار 10.0.10 إلى 10.0.13
+                - name: تغييرات التطوير وALM من الإصدار 10.0.10 إلى 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
                 - name: دمج أنظمة البناء لـ Commerce وFinance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -2162,7 +2194,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: إنشاء حزم قابلة للنشر
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                - name: التطوير في بيئات التطوير المستضافة على الشبكة السحابية من دون حق وصول المسؤول
+                - name: التطوير في البيئات المستضافة على الشبكة السحابية بدون حق وصول المسؤول
                   href: dev-itpro/cloud-dev-box.md
                 - name: إعداد مسار بناء Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
@@ -2300,7 +2332,7 @@
                   href: payment-connector-data-fields.md
                 - name: تمكين الحماية من الدفعات المكررة لموصل الدفع
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: إنشاء حزمة دفع ‏‫لمستكشف التطبيق‬ في عمليات نشر Service Fabric
+                - name: إنشاء عبوة مدفوعات Commerce لنشر Finance and Operations
                   href: dev-itpro/payment-connector-package.md
             - name: قابلية توسعة التجارة الإلكترونية لجهة خارجية
               items:

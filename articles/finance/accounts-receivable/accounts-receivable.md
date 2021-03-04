@@ -11,27 +11,26 @@ ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69d2d320434baab21fb7e7c57ce1f043e4946d69
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89c47fc9e3627e5ecb41ecba6854729ef340493c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458337"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993129"
 ---
 # <a name="accounts-receivable-home-page"></a>الصفحة الرئيسية للحسابات المدينة
 
 [!include [banner](../includes/banner.md)]
 
-استخدم حسابات مدينة لتعقب فواتير العملاء والمدفوعات الواردة. 
+استخدام حسابات مدينة لتعقب فواتير العملاء والمدفوعات الواردة. 
 
-يمكنك إنشاء فواتير العملاء التي تعتمد على أوامر المبيعات أو إيصالات التعبئة. يمكنك أيضا إنشاء فواتير بنص حر لا تتعلق بأوامر المبيعات. يُمكنك استلام المدفوعات باستخدام عدة أنوع دفع مختلفة. وهذا يشمل الكمبيالات والنقد والشيكات وبطاقات الائتمان والدفع الإلكتروني. إذا كانت مؤسستك تشمل عدة كيانات قانونية، فيمكنك استخدام مدفوعات مركزية لتسجيل المدفوعات في كيان قانوني واحد بالنيابة عن الكيانات القانونية الأخرى.
+يمكنك إنشاء فواتير العملاء التي تعتمد على أوامر المبيعات أو إيصالات التعبئة. يمكنك أيضًا إنشاء فواتير بنص حر لا تتعلق بأوامر المبيعات. يُمكنك استلام المدفوعات باستخدام عدة أنوع دفع مختلفة. وهذا يشمل الكمبيالات والنقد والشيكات وبطاقات الائتمان والدفع الإلكتروني. إذا كانت مؤسستك تشمل عدة كيانات قانونية، فيمكنك استخدام مدفوعات مركزية لتسجيل المدفوعات في كيان قانوني واحد بالنيابة عن الكيانات القانونية الأخرى.
 
 
 **‏‏العمليات التجارية**
@@ -74,7 +73,7 @@ ms.locfileid: "4458337"
 
 ## <a name="set-up-payments-and-settlements"></a>إعداد الدفعات والتسويات
 
-قم بقبول أنواع المدفوعات المختلفة من العملاء مثل الكمبيالات والنقدية والشيكات وبطاقات الائتمان والمدفوعات الإلكترونية. 
+قبول أنواع المدفوعات المختلفة من العملاء مثل الكمبيالات والنقدية والشيكات وبطاقات الائتمان والمدفوعات الإلكترونية. 
 
 :::row:::
     :::column:::
@@ -104,12 +103,12 @@ ms.locfileid: "4458337"
 
 تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
-#### <a name="task-guides"></a>دلائل المهام
-تتوفر تعليمات إضافية كدلائل مهام داخل التطبيق. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+#### <a name="task-guides"></a>أدلة المهام
+تتوفر تعليمات إضافية كأدلة مهام داخل التطبيق. وللوصول إلى أدلة المهام، انقر فوق زر "مساعدة" في أي صفحة.
 
 #### <a name="videos"></a>ملفات فيديو
 
-راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

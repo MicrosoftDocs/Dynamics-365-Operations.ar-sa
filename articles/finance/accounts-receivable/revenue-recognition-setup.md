@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b90c98628fef2006addb64a6b880ab4020edb8cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458364"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995557"
 ---
 # <a name="revenue-recognition-setup"></a>إعداد إقرار الإيرادات
 [!include [banner](../includes/banner.md)]
@@ -30,6 +29,8 @@ ms.locfileid: "4458364"
 
 > [!NOTE]
 > لا يمكن تشغيل ميزة إقرار الإيرادات عبر إدارة الميزات. في الوقت الحالي، يجب استخدام مفاتيح التكوين لتشغيلها.
+
+> لا يتم دعم إقرار الإيرادات‬، بما في ذلك وظيفة الحزمة، للاستخدام في قنوات Commerce (التجارة الإلكترونية، نقاط البيع، مركز الاتصال). لا يجب إضافة الأصناف المكونة مع إقرار الإيرادات إلى الأوامر أو الحركات التي تم إنشاؤها في قنوات Commerce.
 
 تحتوي وحدة **إقرار الإيرادات** على خيارات الإعداد التالية:
 

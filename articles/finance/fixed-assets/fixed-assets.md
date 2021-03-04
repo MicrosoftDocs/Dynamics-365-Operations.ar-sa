@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21481
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ac2ba5dca7b2607a754a64a25ea079ac961300
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cf6f0bc27121e6c1a0b4bba2ad1ca31909423c92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458393"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969054"
 ---
 # <a name="fixed-assets-home-page"></a>الصفحة الرئيسية للأصول الثابتة
 
@@ -49,8 +48,8 @@ ms.locfileid: "4458393"
 
 تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
-#### <a name="task-guides"></a>دلائل المهام
-تتوفر تعليمات إضافية كدلائل مهام. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+#### <a name="task-guides"></a>أدلة المهام
+تتوفر تعليمات إضافية كأدلة مهام. وللوصول إلى أدلة المهام، انقر فوق زر "مساعدة" في أي صفحة.
 
 #### <a name="videos"></a>ملفات فيديو
 

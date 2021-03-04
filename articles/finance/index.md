@@ -1,5 +1,5 @@
 ---
-title: الصفحة الرئيسية لـ Finance
+title: الصفحة الرئيسية للمالية
 description: يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات الإدارة المالية في Microsoft Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
@@ -10,21 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c39d8ea92b5482b32e27d433b745151373553120
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 592808651037cb68c26d4c32307c8162efebc125
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458391"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975417"
 ---
-# <a name="finance-home-page"></a>الصفحة الرئيسية لـ Finance
+# <a name="finance-home-page"></a>الصفحة الرئيسية للمالية
 
 [!include [banner](includes/banner.md)]
 
@@ -59,8 +58,8 @@ ms.locfileid: "4458391"
 - [مدونة Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
-### <a name="task-guides"></a>دلائل المهام
-تتوفر تعليمات إضافية كدلائل مهام داخل Finance and Operations. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+### <a name="task-guides"></a>أدلة المهام
+تتوفر تعليمات إضافية كأدلة مهام داخل Finance and Operations. وللوصول إلى أدلة المهام، انقر فوق الزر "تعليمات" في أي صفحة.
 
 ### <a name="videos"></a>ملفات فيديو
 

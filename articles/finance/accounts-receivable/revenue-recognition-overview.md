@@ -11,26 +11,27 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 92af567499c1a8a23cd4d51e5bab48eaab2d8422
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: a7e37a0800ec7909f79e5a2354f59c7450995641
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4458404"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995605"
 ---
 # <a name="revenue-recognition-overview"></a>نظرة عامة على ميزة إقرار الإيرادات
 
 [!include [banner](../includes/banner.md)]
 
+يجب أن تكون الشركات في المجالات التي تبيع عناصر متعددة، مثل المنتجات والخدمات والاشتراكات وغير ذلك، قادرة على تقسيم الأوامر متعددة العناصر بحيث يمكن التعرف على الإيرادات استنادًا إلى مجموعة من الإرشادات الخاصة بالشركة والمجال.
+
 > [!NOTE]
 > لا يمكن تشغيل ميزة إقرار الإيرادات عبر إدارة الميزات. في الوقت الحالي، يجب استخدام مفاتيح التكوين لتشغيلها.
 
-يجب أن تكون الشركات في المجالات التي تبيع عناصر متعددة، مثل المنتجات والخدمات والاشتراكات وغير ذلك، قادرة على تقسيم الأوامر متعددة العناصر بحيث يمكن التعرف على الإيرادات استنادًا إلى مجموعة من الإرشادات الخاصة بالشركة والمجال.
+> لا يتم دعم إقرار الإيرادات‬، بما في ذلك وظيفة الحزمة، للاستخدام في قنوات Commerce (التجارة الإلكترونية، نقاط البيع، مركز الاتصال). لا يجب إضافة الأصناف المكونة مع إقرار الإيرادات إلى الأوامر أو الحركات التي تم إنشاؤها في قنوات Commerce.
 
 بشكل عام، يمكن استخدام عملية إقرار الإيرادات لتنفيذ هذه المهام:
 

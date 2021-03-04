@@ -5,6 +5,10 @@
       items:
         - name: ما الجديد أو المتغير في Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 يناير 2021
+          href: hr-whats-new-2021-01-28.md
+        - name: 21 يناير 2021
+          href: hr-whats-new-2021-01-21.md
         - name: 2 ديسمبر 2020
           href: hr-whats-new-2020-12-02.md
         - name: 22 أكتوبر 2020
@@ -79,12 +83,16 @@
           items:
             - name: اختيار تقنية تكامل بيانات
               href: hr-admin-integration-choose-technology.md
-            - name: تكوين تكامل Common Data Service
+            - name: ‏‫الأسئلة المتداولة حول التقييد
+              href: hr-admin-integration-throttling-faq.md
+            - name: تكوين تكامل Dataverse
               href: hr-admin-integration-common-data-service.md
-            - name: كيانات Common Data Service
+            - name: جداول Dataverse
               href: hr-developer-entities.md
-            - name: تكوين كيانات Common Data Service الظاهرية
+            - name: تكوين كيانات Dataverse الظاهرية
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: ‏‫الأسئلة المتداولة حول كيانات ‬‏‫Human Resources‬‏‫ الافتراضية‬
+              href: hr-admin-virtual-entity-faq.md
             - name: تكوين التكامل مع Finance
               href: hr-admin-integration-finance.md
             - name: تكوين التكامل مع Dayforce
@@ -279,7 +287,7 @@
           href: hr-developer-overview.md
         - name: توسيع باستخدام Power Apps وPower Automate
           href: hr-developer-power-apps.md
-        - name: كيانات Common Data Service
+        - name: جداول Dataverse
           href: hr-developer-entities.md
         - name: الحقول المخصصة
           href: hr-developer-custom-fields.md
@@ -287,7 +295,7 @@
           items:
             - name: اختيار تقنية تكامل بيانات
               href: hr-admin-integration-choose-technology.md
-            - name: تكوين تكامل Common Data Service
+            - name: تكوين تكامل Dataverse
               href: hr-admin-integration-common-data-service.md
             - name: تكوين التكامل مع Finance
               href: hr-admin-integration-finance.md
@@ -317,6 +325,92 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: إرسال طلب إجازة إلى سير العمل
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: واجهة API لتكامل ATS
+          items:
+            - name: مقدمة
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: طلب التعيين والكيانات ذات الصلة
+              items:
+                - name: طلب التعيين
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: تعليم طلب التعيين
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: موقع طلب التعيين
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: منصب طلب التعيين
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: مهارة طلب التعيين
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: مثال لاستعلام عن طلب تعيين
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: مجموعات خيار طلب التعيين
+              items:
+                - name: حالة الإعفاء من الوظيفة
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: حالة منصب طلب التعيين
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: حالة طلب التعيين
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: فئة الوظيفة التنظيمية
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: المرشح المُراد توظيفه والكيانات ذات الصلة
+              items:
+                - name: المرشح المُراد توظيفه
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: نوع الشهادة
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: جهة اتصال الطرف
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: الشخص
+                  href: hr-admin-integration-ats-api-person.md
+                - name: عنوان الشخص
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: شهادة الشخص
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: تعليم الشخص
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: رقم تعريف الشخص
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: الخبرة المهنية للشخص
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: مراقبة الأشخاص
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: مهارة الشخص
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: مستوى التقييم
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: أنواع المراقبة
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: مثال للاستعلام عن المرشح المُراد توظيفه
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: مجموعات خيار المرشح
+              items:
+                - name: نتيجة تكامل مقدم الطلب
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: فارغ نعم لا
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: حالة الإكمال
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: نوع جهة الاتصال
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: أساس الائتمان التعليمي
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: الجنس
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: الحالة الاجتماعية
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: شهور السنة
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: لا     نعم
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: وحدة الفترة
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: تكرار الفحص
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: إنشاء تكرار الفحص من
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: نوع مستوي المهارة
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: دليل المستخدم
       items:
         - name: نظرة عامة
@@ -439,12 +533,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: التوقيعات الإلكترونية
-              items:
-                - name: نظرة عامة على التوقيعات الإلكترونية
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: إعداد التوقيعات الإلكترونية
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: إدارة الحالات
               items:
                 - name: نظرة عامة على إدارة الحالات
@@ -591,6 +679,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: معالجة تغييرات المعدلات
                       href: hr-benefits-process-rate-changes.md
+                - name: تقارير ACA
+                  href: hr-benefits-management-aca-reports.md
             - name: تحديد وإدارة برنامج مزايا
               href: hr-benefits-manage-program.md
             - name: سياسات استحقاق المزايا

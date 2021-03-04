@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f889a95884027eaa1c02794fd7258cd802942555
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458397"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985377"
 ---
 # <a name="cash-and-bank-management-home-page"></a>الصفحة الرئيسية لإدارة البنك والنقد
 
@@ -57,7 +56,7 @@ ms.locfileid: "4458397"
 
 ## <a name="accounts-payable-payments-and-settlements"></a>دفعات وتسويات الحسابات الدائنة
 -   [الدفعات المركزية للحسابات الدائنة](../accounts-payable/centralized-payments-accounts-payable.md)
--   [إنشاء دفعات المورد باستخدام مقترح دفع](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [إنشاء دفعات المورد باستخدام عرض دفع](../accounts-payable/create-vendor-payments-payment-proposal.md)
 -   [إلغاء دفعة مورد](../accounts-payable/reverse-vendor-payment.md)
 -   [دفعات المورد لمبلغ جزئي](../accounts-payable/vendor-payments-partial-amount.md)
 -   [فواتير الدفع المسبق مقابل الدفعات المقدمة](../accounts-payable/prepayments-invoices-vs-prepayments.md)
@@ -94,9 +93,9 @@ ms.locfileid: "4458397"
 
 تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
-#### <a name="task-guides"></a>دلائل المهام
-تتوفر تعليمات إضافية كدلائل مهام داخل Finance. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+#### <a name="task-guides"></a>أدلة المهام
+تتوفر تعليمات إضافية كأدلة مهام داخل المالية. وللوصول إلى أدلة المهام، انقر فوق زر "مساعدة" في أي صفحة.
 
 #### <a name="videos"></a>ملفات فيديو
 
-راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن على [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685043"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154109"
 ---
 # <a name="globalization-resources"></a>موارد العولمة
 
@@ -30,7 +30,7 @@ ms.locfileid: "4685043"
 
 [تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
-## <a name="localization-and-regulatory-features"></a>ميزات الترجمة والميزات التنظيمية
+## <a name="localization-and-regulatory-features"></a>ميزات التعريب والميزات التنظيمية
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +55,7 @@ ms.locfileid: "4685043"
 
 #### <a name="regulatory-updates"></a>تحديثات تنظيمية
 -   [تحديثات تنظيمية](../../../finance/localizations/regulatory-updates.md)
--   [مدخل الترجمة](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (يتم تحديثه أسبوعيًا)
+-   [مدخل الترجمة](https://docs.microsoft.com/dynamics/s-e/) (يتم تحديثه أسبوعيًا)
 -   [بحث عن المشاكل في Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (Updated daily)
 
 #### <a name="communication-and-alerts"></a>الاتصال والتنبيهات
@@ -80,10 +80,10 @@ ms.locfileid: "4685043"
 -   [تكوين إعداد التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [إنشاء مستندات إلكترونية وتحديث بيانات التطبيق باستخدام ER‎](../analytics/generate-electronic-documents-update-application-data.md)
 
-### <a name="task-guides"></a>دلائل المهام
-تتوافر دلائل المهام من جزء التعليمات في المنتج وتوفر معاينة إرشادية للعمليات التجارية الرئيسية. يمكنك فتح دليل المهام وقراءة خطوات عملية تجارية أو يمكنك تشغيل دليل المهام لمعاينة عملية تجارية وإدخال البيانات.
+### <a name="task-guides"></a>أدلة المهام
+تتوافر أدلة المهام من جزء التعليمات في المنتج وتوفر معاينة إرشادية للعمليات التجارية الرئيسية. يمكنك فتح دليل المهام وقراءة خطوات عملية تجارية أو يمكنك تشغيل دليل المهام لمعاينة عملية تجارية وإدخال البيانات.
 
-للعثور على دلائل المهام، انتقل إلى أي صفحة في التطبيق وانقر فوق "التعليمات". يتم سرد دلائل المهام التي تستخدم الصفحة في جزء التعليمات. يمكنك أيضًا استخدام جزء التعليمات للبحث عن دلائل المهام حسب العنوان.
+للعثور على أدلة المهام، انتقل إلى أي صفحة في التطبيق وانقر فوق "مساعدة". يتم سرد أدلة المهام التي تستخدم الصفحة في جزء التعليمات. يمكنك أيضًا استخدام جزء التعليمات للبحث عن أدلة المهام حسب العنوان.
 
 لمعرفة المزيد، راجع [نظام التعليمات](../../fin-ops/get-started/help-overview.md#task-guides).
 
