@@ -3,7 +3,7 @@ title: وظيفة DATEFORMAT ER
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية DATEFORMAT (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/03/2019
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,63 +17,66 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa6bdef2168112aeb17e0edb9f9a6d1b3bd45c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684921"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826001"
 ---
-# <a name="dateformat-er-function"></a><span data-ttu-id="da204-103">وظيفة DATEFORMAT ER</span><span class="sxs-lookup"><span data-stu-id="da204-103">DATEFORMAT ER function</span></span>
+# <a name="dateformat-er-function"></a><span data-ttu-id="d563c-103">وظيفة DATEFORMAT ER</span><span class="sxs-lookup"><span data-stu-id="d563c-103">DATEFORMAT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="da204-104">تُرجع الوظيفة `DATEFORMAT` قيمة *السلسلة* التي تمثل قيمة تاريخ مُعيّن كنص في التنسيق المُحدد وفي [الثقافة](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) المُحددة بشكل اختياري.</span><span class="sxs-lookup"><span data-stu-id="da204-104">The `DATEFORMAT` function returns a *String* value that presents a given date value as text in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).</span></span> <span data-ttu-id="da204-105">لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) و [مخصص](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="da204-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
+<span data-ttu-id="d563c-104">تُرجع الوظيفة `DATEFORMAT` قيمة *السلسلة* التي تمثل قيمة تاريخ مُعيّن كنص في التنسيق المُحدد وفي [الثقافة](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) المُحددة بشكل اختياري.</span><span class="sxs-lookup"><span data-stu-id="d563c-104">The `DATEFORMAT` function returns a *String* value that presents a given date value as text in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).</span></span> <span data-ttu-id="d563c-105">لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) و [مخصص](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="d563c-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="da204-106">بناء الجملة 1</span><span class="sxs-lookup"><span data-stu-id="da204-106">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="d563c-106">بناء الجملة 1</span><span class="sxs-lookup"><span data-stu-id="d563c-106">Syntax 1</span></span>
 
 ```vb
 DATEFORMAT (date, format)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="da204-107">بناء الجملة 2</span><span class="sxs-lookup"><span data-stu-id="da204-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="d563c-107">بناء الجملة 2</span><span class="sxs-lookup"><span data-stu-id="d563c-107">Syntax 2</span></span>
 
 ```vb
 DATEFORMAT (date, format, culture)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="da204-108">الوسائط</span><span class="sxs-lookup"><span data-stu-id="da204-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="d563c-108">الوسائط</span><span class="sxs-lookup"><span data-stu-id="d563c-108">Arguments</span></span>
 
-<span data-ttu-id="da204-109">`date`: *التاريخ*</span><span class="sxs-lookup"><span data-stu-id="da204-109">`date`: *Date*</span></span>
+<span data-ttu-id="d563c-109">`date`: *التاريخ*</span><span class="sxs-lookup"><span data-stu-id="d563c-109">`date`: *Date*</span></span>
 
-<span data-ttu-id="da204-110">قيمة التاريخ التي تمثل تاريخ التنسيق.</span><span class="sxs-lookup"><span data-stu-id="da204-110">A date value that represents the date to format.</span></span>
+<span data-ttu-id="d563c-110">قيمة التاريخ التي تمثل تاريخ التنسيق.</span><span class="sxs-lookup"><span data-stu-id="d563c-110">A date value that represents the date to format.</span></span>
 
-<span data-ttu-id="da204-111">`format`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="da204-111">`format`: *String*</span></span>
+<span data-ttu-id="d563c-111">`format`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="d563c-111">`format`: *String*</span></span>
 
-<span data-ttu-id="da204-112">تنسيق سلسلة الإخراج.</span><span class="sxs-lookup"><span data-stu-id="da204-112">The format of the output string.</span></span>
+<span data-ttu-id="d563c-112">تنسيق سلسلة الإخراج.</span><span class="sxs-lookup"><span data-stu-id="d563c-112">The format of the output string.</span></span>
 
-<span data-ttu-id="da204-113">`culture`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="da204-113">`culture`: *String*</span></span>
+> [!NOTE]
+> <span data-ttu-id="d563c-113">تكون سلسله التنسيق حساسة لحاله الأحرف عند استخدام اما تنسيق قياسي أو تنسيق مخصص.</span><span class="sxs-lookup"><span data-stu-id="d563c-113">The format string is case-sensitive when you use either a standard format or a custom format.</span></span> <span data-ttu-id="d563c-114">علي سبيل المثال، يقوم محدد التنسيق [القياسي](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) "d" بإرجاع التاريخ باستخدام نمط التاريخ القصير، بينما يقوم محدد التنسيق القياسي "d" بإرجاع التاريخ باستخدام نمط التاريخ الطويل.</span><span class="sxs-lookup"><span data-stu-id="d563c-114">For example, the [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) "d" format specifier returns the date by using the short date pattern, whereas the standard "D" format specifier returns the date by using the long date pattern.</span></span> <span data-ttu-id="d563c-115">بالاضافه إلى ذلك ، يقوم محدد التنسيق [المخصص](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) "m" بإرجاع الشهر من 1 إلى 12، بينما يقوم محدد التنسيق المخصص "m" بإرجاع الدقيقة من 0 إلى 59.</span><span class="sxs-lookup"><span data-stu-id="d563c-115">Additionally, the [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) "M" format specifier returns the month from 1 through 12, whereas the custom "m" format specifier returns the minute from 0 through 59.</span></span>
 
-<span data-ttu-id="da204-114">الثقافة التي سيتم استخدامها للتنسيق.</span><span class="sxs-lookup"><span data-stu-id="da204-114">The culture to use for formatting.</span></span>
+<span data-ttu-id="d563c-116">`culture`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="d563c-116">`culture`: *String*</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="da204-115">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="da204-115">Return values</span></span>
+<span data-ttu-id="d563c-117">الثقافة التي سيتم استخدامها للتنسيق.</span><span class="sxs-lookup"><span data-stu-id="d563c-117">The culture to use for formatting.</span></span>
 
-<span data-ttu-id="da204-116">*السلسلة*</span><span class="sxs-lookup"><span data-stu-id="da204-116">*String*</span></span>
+## <a name="return-values"></a><span data-ttu-id="d563c-118">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="d563c-118">Return values</span></span>
 
-<span data-ttu-id="da204-117">قيمة السلسلة الناتجة.</span><span class="sxs-lookup"><span data-stu-id="da204-117">The resulting string value.</span></span>
+<span data-ttu-id="d563c-119">*سلسلة*</span><span class="sxs-lookup"><span data-stu-id="d563c-119">*String*</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="da204-118">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="da204-118">Usage notes</span></span>
+<span data-ttu-id="d563c-120">قيمة السلسلة الناتجة.</span><span class="sxs-lookup"><span data-stu-id="d563c-120">The resulting string value.</span></span>
 
-<span data-ttu-id="da204-119">عندما لا يتم تعريف الثقافة كوسيطة للوظيفة التي تم استدعائها، يتم تعريف قيمة `culture` عن طريق سياق الاستدعاء.</span><span class="sxs-lookup"><span data-stu-id="da204-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="da204-120">على سبيل المثال، إذا تم استدعاء الوظيفة `DATEFORMAT` باستخدام بناء الجملة 1 في تنسيق التقارير الإلكترونية (ER) لعنصر **FILE** تم تكوينه لاستخدام الثقافة الألمانية، فسوف يتم التحويل باستخدام الثقافة الألمانية.</span><span class="sxs-lookup"><span data-stu-id="da204-120">For example, if the `DATEFORMAT` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="da204-121">قيمة `culture` الافتراضية هي **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="da204-121">The default `culture` value is **EN-US**.</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="d563c-121">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="d563c-121">Usage notes</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="da204-122">مثال1</span><span class="sxs-lookup"><span data-stu-id="da204-122">Example 1</span></span>
+<span data-ttu-id="d563c-122">إذا لم يتم تعريف الثقافة كوسيطة للوظيفة التي تم استدعائها، يتم تعريف قيمة `culture` عن طريق سياق الاستدعاء.</span><span class="sxs-lookup"><span data-stu-id="d563c-122">If the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="d563c-123">على سبيل المثال، إذا تم استدعاء الوظيفة `DATEFORMAT` باستخدام بناء الجملة 1 في تنسيق التقارير الإلكترونية (ER) لعنصر **FILE** تم تكوينه لاستخدام الثقافة الألمانية، فسوف يتم التحويل باستخدام الثقافة الألمانية.</span><span class="sxs-lookup"><span data-stu-id="d563c-123">For example, if the `DATEFORMAT` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="d563c-124">قيمة `culture` الافتراضية هي **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="d563c-124">The default `culture` value is **EN-US**.</span></span>
 
-<span data-ttu-id="da204-123">تُرجع وظيفة `DATEFORMAT (TODAY (), "dd-MM-yyyy")` تاريخ خادم التطبيق الحالي، 24 ديسمبر 2015، كسلسلة **"24-12-2015"**، بناءً على التنسيق المخصص المُحدد. </span><span class="sxs-lookup"><span data-stu-id="da204-123">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` returns the current application server date, December 24, 2015, as the string **"24-12-2015"**, based on the specified custom format.</span></span>
+## <a name="example-1"></a><span data-ttu-id="d563c-125">مثال1</span><span class="sxs-lookup"><span data-stu-id="d563c-125">Example 1</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="da204-124">مثال2</span><span class="sxs-lookup"><span data-stu-id="da204-124">Example 2</span></span>
+<span data-ttu-id="d563c-126">تُرجع وظيفة `DATEFORMAT (TODAY (), "dd-MM-yyyy")` تاريخ خادم التطبيق الحالي، 24 ديسمبر 2015، كسلسلة **"24-12-2015"**، بناءً على التنسيق المخصص المُحدد. </span><span class="sxs-lookup"><span data-stu-id="d563c-126">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` returns the current application server date, December 24, 2015, as the string **"24-12-2015"**, based on the specified custom format.</span></span>
 
-<span data-ttu-id="da204-125">تُرجع الوظيفة `DATEFORMAT (SESSIONTODAY (), "d", "DE")` تاريخ جلسة التطبيق الحالية، 24 ديسمبر 2015، كسلسلة **"24-12-2015"**، بناءً على الثقافة الألمانية المُحددة والتنسيق المُحدد.</span><span class="sxs-lookup"><span data-stu-id="da204-125">`DATEFORMAT (SESSIONTODAY (), "d", "DE")` returns the current application session date, December 24, 2015, as the string  **"24-12-2015"**, based on the selected German culture and the specified format.</span></span>
+## <a name="example-2"></a><span data-ttu-id="d563c-127">مثال2</span><span class="sxs-lookup"><span data-stu-id="d563c-127">Example 2</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="da204-126">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="da204-126">Additional resources</span></span>
+<span data-ttu-id="d563c-128">تُرجع وظيفة `DATEFORMAT (SESSIONTODAY (), "d", "DE")` قيمة تاريخ جلسة التطبيق الحالية، 24 ديسمبر 2015، كسلسلة **"24-12-2015"**، بناءً على الثقافة الألمانية المُحددة والتنسيق المُحدد. </span><span class="sxs-lookup"><span data-stu-id="d563c-128">`DATEFORMAT (SESSIONTODAY (), "d", "DE")` returns the current application session date, December 24, 2015, as the string **"24-12-2015"**, based on the selected German culture and the specified format.</span></span>
 
-[<span data-ttu-id="da204-127">دلات التاريخ والوقت</span><span class="sxs-lookup"><span data-stu-id="da204-127">Date and time functions</span></span>](er-functions-category-datetime.md)
+## <a name="additional-resources"></a><span data-ttu-id="d563c-129">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="d563c-129">Additional resources</span></span>
+
+[<span data-ttu-id="d563c-130">دلات التاريخ والوقت</span><span class="sxs-lookup"><span data-stu-id="d563c-130">Date and time functions</span></span>](er-functions-category-datetime.md)
