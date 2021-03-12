@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ebc6fcfe20082f76007eabb86d5e33dbfc900dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440087"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976431"
 ---
 # <a name="configure-settlement"></a>تكوين التسوية
 
@@ -67,6 +66,3 @@ ms.locfileid: "4440087"
 
 -   غالبًا ما تستخدم المؤسسات الأبعاد الثابتة حتى الصفر ولا يتم طلب بُعد مالي. وتشيع هذ الحالة مع حسابات الميزانية العمومية، مثل الحسابات المدينة/الحسابات الدائنة. يمكن استخدام بنيات الحساب في غير تتبع الأبعاد المالية التي يتم ملئها بصفر بشكل نموذجي.  يمكنك إزالة البُعد المالي لحسابات الميزانية العمومية، مما يعمل على تقليل الحاجة إلى استخدام أبعاد ثابتة.
 -   إذا طلبت مؤسستك الأبعاد الثابتة على الحساب الرئيسي للحسابات المدينة/الحسابات الدائنة، فابحث عن طريقة لتعيين البُعد الثابت افتراضيًا على الدفعة، لذلك فإنه يتم تخزين قيمة البُعد الثابتة على معاملة البائع للدفعة. وهذا سيسمح للنظام بإعادة إنشاء حساب رئيسي للحسابات المدينة/الحسابات الدائنة لتضمين قيم الأبعاد الثابتة. يمكن تحديد قيمة البُعد الثابت كقيمة افتراضية سواء على اسم البائعين أو دفتر اليومية لدفتر يومية الدفعة.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

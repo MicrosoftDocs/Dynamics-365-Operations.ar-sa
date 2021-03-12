@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421167"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977478"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>الإفراج التلقائي عن الشحنة لتوزيع البضائع
 
@@ -179,6 +178,3 @@ ms.locfileid: "4421167"
 - يتم تشغيل الإصدار إلى المستودع لأمر المبيعات المرتبط.
 - وبناءً على الإصدار، فإنه يتم إنشاء الشحن وعمل توزيع البضائع. ويُرشد هذا العمل مُشغل المستودع لانتقاء الكميات المطلوبة لاستيفاء بند أمر المبيعات ووضعها في موقع الصادر المُحدد في توجيه موقع توزيع البضائع.
 - إذا كانت كميه أمر الإنتاج أكبر من الكمية المطلوبة لأمر المبيعات، فسوف يتم إنشاء عمل الإبعاد العادي. يُرشد هذا العمل عامل المستودع لانتقاء كمية البضائع المنتهية المتبقية بعد توزيع البضائع ونقلها إلى التخزين العادي، وفقًا للتوجيه الخاص بالموقع.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

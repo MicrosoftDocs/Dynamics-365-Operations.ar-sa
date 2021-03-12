@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters, whswavetablecreatenew, WHSWaveTable, WHSWaveAttributes, WHSKanbanWaveTable, WHSWaveTableListPage, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa193f6d62613893f9d5da4351d43a810dbf1596
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e22816b33739141fbcd188d631a07313db415959
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421756"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977278"
 ---
 # <a name="configure-wave-processing"></a>تكوين معالجة الموجة
 
@@ -61,6 +60,3 @@ ms.locfileid: "4421756"
 لأوامر المبيعات وأوامر كانبان، يجب حجز المخزون قبل إصدار الأمر إلى المستودع. وإلا، لا يمكن معالجة أصناف أو سطور توزيع في موجة. بالنسبة لأوامر الإنتاج، يكون لديك أيضًا خيار اختيار السماح بالحجز الجزئي. على سبيل المثال، هذا مفيد إذا كان لديك المواد التي تحتاجها لبدء عملية إنتاج، ويمكنك الانتظار حتى تتوفر مواد إضافية لإنهاء العملية. إذا قمت بتحديد هذا الخيار، يجب أن تقوم يدوياً بتكرار الإصدار لمعالجة المستودع عند توفر المواد الإضافية.  
 25. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

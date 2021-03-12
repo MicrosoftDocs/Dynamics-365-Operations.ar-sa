@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWorkClass
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed9b72d891df4d40213d4854da6b09bd9876effa
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c0e06cd5fc6dc27f79eb39bbd78932a166e9d442
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421726"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977203"
 ---
 # <a name="create-a-work-class"></a>إنشاء درجة عمل
 
@@ -40,6 +39,3 @@ ms.locfileid: "4421726"
     * إذا قمت بتحديد نوع موقع، سيؤدي هذا إلى تعيين قيد على المواقع التي يمكن وضع العناصر بها بعد اختيارها. يُستخدم هذا الإعداد عندما يحاول توجيه موقع حل الموقع أو عندما يوفر عامل مستودع الموقع لعنصر قائمة الجهاز المحمول يدوياً.  
 8. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

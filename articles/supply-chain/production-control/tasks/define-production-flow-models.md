@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421069"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977853"
 ---
 # <a name="define-production-flow-models"></a>تحديد نماذج تدفق الإنتاج
 
@@ -46,6 +45,3 @@ ms.locfileid: "4421069"
 8. في الحقل "التفاعل مع العجز في القدرة"، حدد خيارًا.
     * تتضمن الخيارات: تأجيل - تأجيل الطلب الكامل لحدث الجدولة في يوم الإنتاج التالي المتوفر، مع الإنتاجية المتوفرة. إلغاء - إنهاء التخطيط التلقائي لحدث الجدولة وترك الوظائف المرتبطة من دون تخطيط.   إضافة إلى اليوم المطلوب - تخطيط الوظائف المطلوبة للفترة المطلوبة. يؤدي هذا إلى تحميل الخلية بشكل زائد لهذا اليوم ويتطلب من المخطط إجراء مراجعة وتدخل يدوي.   التوزيع على الفترات المتاحة - توزيع الوظائف المختلفة لحدث الجدولة على جميع أيام الإنتاج المتاحة، بدءًا من اليوم الأول المتاح. التوزيع على الفترات المتاحة - توزيع الوظائف المختلفة لحدث الجدولة على جميع أيام الإنتاج المتاحة، بدءًا من اليوم الأول المتاح.‬ الحد الأدنى لكمية التوزيع هو كمية وظيفة كانبان. يعين التوزيع الحد الأدنى لكمية التخطيط (كمية كانبان) لكل يوم بإنتاجية كافية متوفرة.‬‬  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
