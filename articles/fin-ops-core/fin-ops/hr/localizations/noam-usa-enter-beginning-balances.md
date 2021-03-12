@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693392"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797774"
 ---
 # <a name="enter-payroll-beginning-balances"></a>إدخال أرصدة البداية لكشف الرواتب
 
@@ -166,6 +166,3 @@ ms.locfileid: "4693392"
 2. انقر فوق **نعم** عند ظهور الرسالة "عندما تقوم بعكس قائمة الأجور هذه، سيتم إنشاء قائمة أجور معكوسة لمقاصة قائمة الأجور هذه. لا يمكن تحرير أي قائمة أجور منهما. هل تريد عكس قائمة الأجور هذه؟" . 
 
 بعد قيامك بعكس قائمة الأجور، يمكنك إنشاء كشف حساب دفع جديد للعامل من كشف الأرباح الذي أنشأته في وقت سابق. يجب عليك إصلاح أية بنود غير صحيحة في كشف الأرباح قبل إنشاء قائمة أجور جديدة، ثم إنشاء قوائم أجور جديدة بالمبالغ الصحيحة. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

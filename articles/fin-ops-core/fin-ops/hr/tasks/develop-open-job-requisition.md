@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20ee5d1bb624943d1ee67bbf2e7b5ecef1d59e9d
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 22437599ce8643de67c922f6f2392a0c8da94648
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693078"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797961"
 ---
 # <a name="develop-and-open-job-requisition"></a> تطوير طلبات الموظفين وفتحها 
 
@@ -65,6 +65,3 @@ ms.locfileid: "4693078"
     * تعني حالة البدء أن المشروع جاهز لتلقي الطلبات.  
 33. انقر فوق "موافق".
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694126"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798539"
 ---
 # <a name="before-you-buy"></a>قبل الشراء
 
@@ -30,7 +30,7 @@ ms.locfileid: "4694126"
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>الخطوة الأولى: جرّب Finance and Operations مجانًا لمدة 30 يومًا
 
-يمكنك تجربة Dynamics 365 for Finance أو Dynamics 365 Supply Chain Management أو Dynamics 365 Commerce لمدة 30 يومًا من خلال عملية تسجيل بسيطة عبر البريد إلكتروني.. يتضمن الإصدار التجريبي من تطبيقات Finance and Operations دلائل المهام لبدء الاستخدام التي توفر إرشادات خطوة بخطوة تسمح لك بعرض سيناريوهات معينة أثناء عملها. يتوفر المنتج لاستكشاف واختبار السيناريوهات، ولكن لا يمكن تخصيصه. تم تضمين بيانات العرض التوضيحي لتسهيل استخدام المنتج ولجعل التجربة أكثر نفعًا. سيتم إرسال بريد إلكتروني للتذكير قبل 3 أيام من انتهاء صلاحية الإصدار التجريبي. احصل على التفاصيل في [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+يمكنك تجربة Dynamics 365 for Finance أو Dynamics 365 Supply Chain Management أو Dynamics 365 Commerce لمدة 30 يومًا من خلال عملية تسجيل بسيطة عبر البريد إلكتروني.. يتضمن الإصدار التجريبي من تطبيقات Finance and Operations دلائل المهام لبدء الاستخدام التي توفر إرشادات خطوة بخطوة تسمح لك بعرض سيناريوهات معينة أثناء عملها. يتوفر المنتج لاستكشاف واختبار السيناريوهات، ولكن لا يمكن تخصيصه. تم تضمين بيانات العرض التوضيحي لتسهيل استخدام المنتج ولجعل التجربة أكثر نفعًا. سيتم إرسال بريد إلكتروني للتذكير قبل 3 أيام من انتهاء صلاحية الإصدار التجريبي. احصل على تفاصيل في [التسجيل لاشتراكات المعاينة](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>الخطوة الثانية: انتقاء خيار النشر
 
@@ -93,6 +93,3 @@ ms.locfileid: "4694126"
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>إذا كنت تقوم بالترقية من Dynamics AX 2012 أو الترحيل من AX 2009
 
 إذا كنت عميلاً يقوم بالترقية من Microsoft Dynamics AX 2012 أو الترحيل من Microsoft Dynamics AX 2009، فقد تكون مؤهلاً للحصول على فترة تجريبية أطول. تواصل مع <daxcf@microsoft.com> لمزيد من المعلومات.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

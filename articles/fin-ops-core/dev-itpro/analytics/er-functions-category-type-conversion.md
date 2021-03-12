@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686064"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740798"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>قائمة وظائف التقارير الإلكترونية في فئة تحويل النوع
 
@@ -38,6 +38,14 @@ ms.locfileid: "4686064"
 | [IntValue](er-functions-conversion-intvalue.md)       | تُرجع هذه الوظيفة قيمة *Int* التي تمثل السلسلة المُحددة. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | تُرجع هذه الوظيفة قيمة *حقيقة* يتم تحويلها من قيمة *السلسلة* المُحددة. في أثناء التحويل، يوضع في الاعتبار فواصل التجميع العشرية والرقمية المُحددة. |
 | [القيمة](er-functions-conversion-value.md)             | تُرجع هذه الوظيفة قيمة *حقيقة* يتم تحويلها من قيمة *السلسلة* المُحددة. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>وظائف تحويل النوع في فئة الحاوية
+
+يوضح الجدول التالي وظائف تحويل النوع في فئة [الحاوية](er-functions-category-container.md).
+
+| الوظيفة | الوصف |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | تقوم دالة بتحويل الإدخال المُحدد لنوع *السلسلة* إلى عنصر بيانات من النوع *الحاوية*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>وظائف تحويل النوع في فئة التاريخ والوقت
 
@@ -79,6 +87,3 @@ ms.locfileid: "4686064"
 [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
 
 [لغة تركيبة التقارير الإلكترونية](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

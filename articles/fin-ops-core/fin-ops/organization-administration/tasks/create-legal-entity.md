@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54e3176ccf4bc3218afdf085f910e6d2a9c1b9ff
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694827"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796744"
 ---
 # <a name="create-a-legal-entity"></a>إنشاء كيان قانوني
 
@@ -45,6 +45,3 @@ ms.locfileid: "4694827"
 15. قم بتوسيع القسم **التسجيل الضريبي**. في القسم **التسجيل الضريبي**، أدخل أرقام التسجيل التي يتم استخدامها لإبلاغ هيئات الضرائب.
 16. قم بتوسيع القسم **ضريبة 1099**. في القسم **ضريبة 1099**، أدخل معلومات ضريبة 1099 للكيان القانوني.  
 17. انقر فوق **حفظ**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

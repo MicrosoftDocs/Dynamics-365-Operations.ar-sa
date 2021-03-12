@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 332306abbd4eedb725efbf6022940c59419e1747
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693836"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798685"
 ---
 # <a name="accessibility-features"></a>ميزات إمكانية الوصول
 
@@ -97,6 +97,3 @@ ms.locfileid: "4693836"
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>تشمل إرشادات مساعدة المطورين والعملاء تفكير يمكن الوصول إليه في تخصيصاتهم
 
 لمزيد من المعلومات حول أفضل ممارسات Microsoft لتمكين الوصول، راجع [إمكانية الوصول في النماذج والمنتجات وعناصر التحكم](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 23fe13f7e3c7e8138b690c96fafc075c4700a60f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d1402019dbaaa60827499fcb6b93ee31440cfc3d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693296"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797642"
 ---
 # <a name="create-workflows-overview"></a>نظرة عامة حول إنشاء عمليات سير العمل
 
@@ -83,6 +83,3 @@ ms.locfileid: "4693296"
 
     - لتنشيط هذا الإصدار من سير العمل، انقر فوق **تنشيط الإصدار الجديد**. عندما يكون سير عمل ما نشطًا، يمكن للمستخدمين إرسال المستندات إليه للمعالجة.
     - إذا لم ترغب في تنشيط هذا الإصدار، فانقر فوق **عدم تنشيط الإصدار الجديد‬**. يمكنك تنشيط سير العمل في وقت لاحق.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

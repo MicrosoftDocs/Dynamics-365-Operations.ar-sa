@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694178"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798637"
 ---
 # <a name="action-search"></a>البحث عن إجراء
 
@@ -75,6 +75,3 @@ ms.locfileid: "4694178"
 ## <a name="action-search-vs-navigation-search"></a>البحث عن إجراء بحث مقابل البحث عن تنقل
 
 وعلى الرغم من أنه يتم استخدام البحث عن إجراء للبحث عن الإجراءات في الصفحة وتشغيلها، إلا أن هناك آلية بحث منفصلة للبحث والتنقل في الصفحات. للمزيد من المعلومات حول هذه الميزة، راجع مقالة [‏‫بحث التنقل‬](navigation-search.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

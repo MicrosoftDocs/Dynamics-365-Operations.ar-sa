@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf06046c772cd128f5600ed319cc3d0d4457b07f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694705"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796620"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>إعداد التسلسلات الرقمية على أساس فردي
 
@@ -40,6 +40,3 @@ ms.locfileid: "4694705"
 8. قم بتوسيع القسم **عام**. من علامة التبويب السريعة "عام"، حدد ما إذا كان التسلسل الرقمي يدويًا أم مستمرًا أم غير مستمر. بالإضافة إلى ذلك، أدخل أدنى أرقام وأعلاها التي يمكن استخدامها في التسلسل الرقمي. ولا نوصي بتغيير تسلسل رقمي غير مستمر إلى تسلسل رقمي مستمر. نظرًا لأن التسلسل الرقمي لا يكون مستمرًا فعلاً. كما أن هذا التغيير قد يسبب في اختراقات المفاتيح المكررة في قاعدة البيانات. بالإضافة إلى أن التسلسلات الرقمية المستمرة لها تأثير أكبر على الأداء.   
 9. انقر فوق **حفظ**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

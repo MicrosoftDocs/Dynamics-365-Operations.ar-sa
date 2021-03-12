@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685553"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744603"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>استكشاف المشاكل وإصلاحها في المزامنة المباشرة
 
@@ -46,11 +46,11 @@ ms.locfileid: "4685553"
 
 لإصلاح هذه المشكلة، اتبع الخطوات الموجودة في [متطلبات النظام والمتطلبات الأساسية](requirements-and-prerequisites.md). لإكمال هذه الخطوات، يجب أن يكون لدى مستخدمي تطبيق الكتابة الثنائية الذين تم إنشاؤهم في Dataverse دور مسؤول النظام. يجب أن يكون لدى الفريق المالك الافتراضي دور مسؤول النظام أيضًا.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>تطرح المزامنة المباشرة لأي كيان باستمرار خطأ مشابهًا عند إنشاء صف في تطبيق Finance and Operations
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>تطرح المزامنة المباشرة لأي جدول باستمرار خطأ مشابهًا عند إنشاء صف في تطبيق Finance and Operations
 
 **الدور المطلوب لإصلاح المشكلة:** مسؤول النظام
 
-قد تتلقى رسالة خطأ مثل الرسالة التالية في كل مرة تحاول فيها حفظ بيانات الكيان في تطبيق Finance and Operations:
+قد تتلقى رسالة خطأ مثل الرسالة التالية في كل مرة تحاول فيها حفظ بيانات الجدول في تطبيق Finance and Operations:
 
 *لا يمكن حفظ التغييرات التي تم اجراؤها علي قاعده البيانات. ولا يمكن لوحدة العمل تنفيذ الحركة. وتتعذر كتابة البيانات إلى وحدات قياس الكيانات. وفشلت عمليات الكتابة إلى UnitOfMeasureEntity مع ظهور رسالة الخطأ "تتعذر المزامنة مع وحدات قياس الكيانات.*
 
@@ -58,8 +58,8 @@ ms.locfileid: "4685553"
 
 في حالة وجود بيانات على كلا الجانبين، وقمت بالتأكد من أن المشكلة غير مرتبطة بالبيانات، فاتبع الخطوات التالية.
 
-1. أوقف الكيان المرتبط.
-2. قم بتسجيل الدخول إلى تطبيق Finance and Operations، وتأكد من أن الصفوف الخاصة بالكيان الفاشل موجودة في الجدولين DualWriteProjectConfiguration وDualWriteProjectFieldConfiguration. على سبيل المثال، فيما يلي ما يبدو عليه الاستعلام في حالة فشل كيان **العملاء**.
+1. أوقف الجدول المرتبط.
+2. قم بتسجيل الدخول إلى تطبيق Finance and Operations، وتأكد من أن الصفوف الخاصة بالجدول الفاشل موجودة في الجدولين DualWriteProjectConfiguration وDualWriteProjectFieldConfiguration. على سبيل المثال، فيما يلي ما يبدو عليه الاستعلام في حالة فشل جدول **العملاء**.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ ms.locfileid: "4685553"
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. في حالة وجود صفوف للكيان الفاشل حتى بعد إيقاف تعيين الجدول، فاحذف الصفوف المرتبطة بالكيان الفاشل. دوّن ملاحظm عن العمود **projectname** في جدول DualWriteProjectConfiguration، ثم قم بإحضار السجل في الجدول DualWriteProjectFieldConfiguration باستخدام اسم المشروع لحذف الصف.
+3. في حالة وجود صفوف للجدول الفاشل حتى بعد إيقاف تعيين الجدول، فاحذف الصفوف المرتبطة بالجدول الفاشل. دوّن ملاحظة عن العمود **projectname** في جدول DualWriteProjectConfiguration، ثم قم بإحضار صف في الجدول DualWriteProjectFieldConfiguration باستخدام اسم المشروع لحذف الصف.
 4. ابدأ تعيين الجدول. تحقق مما إذا كانت ستتم مزامنة البيانات دون أي مشكلات.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>معالجة أخطاء امتيازات القراءة أو الكتابة عند إنشاء بيانات في تطبيق Finance and Operations
@@ -127,6 +127,3 @@ ms.locfileid: "4685553"
 
 3. تأكد من أن العمود **externalenvironmentURL** على عنوان URL الصحيح للتطبيق أو Dataverse. احذف أي صفوف مكررة تشير إلى عنوان URL غير الصحيح لـ Dataverse. احذف الصفوف المقابلة في جدولي DUALWRITEPROJECTFIELDCONFIGURATION وDUALWRITEPROJECTCONFIGURATION.
 4. أوقف تعيين الجدول، ثم أعد تشغيله
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

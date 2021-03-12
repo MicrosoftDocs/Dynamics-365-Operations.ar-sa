@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692956"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798342"
 ---
 # <a name="feature-management-overview"></a>نظرة على إدارة الميزات
 
@@ -101,8 +101,8 @@ ms.locfileid: "4692956"
 
 بشكل افتراضي، يتم إيقاف تشغيل جميع الميزات التي تمت إضافتها إلى بيئتك، ما لم تكن ميزات إلزامية. ومع ذلك، إذا كنت تريد تشغيل جميع الميزات الجديدة تلقائيًا، يمكنك استخدام القائمة المنسدلة تحت عنوان مساحة العمل لتغيير ما يحدث عند إضافة ميزات جديدة.
 
-- حدد **تمكين الميزات الجديدة تلقائيًا** لتشغيل جميع الميزات الجديدة تلقائيًا عند إضافتها إلى بيئتك.
-- حدد **عدم تمكين الميزات الجديدة تلقائيًا** لإيقاف تشغيل جميع الميزات الجديدة بشكل افتراضي عند إضافتها إلى بيئتك.
+- حدد تمكين `Enable new features automatically` تلقائيًا لتشغيل جميع الميزات الجديدة تلقائيًا عند إضافتها إلى بيئتك.
+- حدد تمكين `Do not enable new features automatically` تلقائيًا لتشغيل جميع الميزات الجديدة تلقائيًا عند إضافتها إلى بيئتك.
 
 
 عند تمكين جميع الميزات تلقائيًا، سيتم تمكين جميع الميزات التي قد يتم تمكينها عندما تنقر فوق الزر **تمكين الكل**. ولن يتم تمكين الميزات التي تتطلب تأكيدًا أو الميزات التي لا يمكن تمكينها حتى يتم اتخاذ إجراء.
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>ما هي IFeatureLifecycle المطبقة من قبل بعض فئات الميزات؟
 IFeatureLifecycle آلي داخلية من Microsoft لتوضيح مرحله دوره حياه الميزة. يمكن ان تكون الميزات:
-- PrivatePreview - يحتاج لرحله طيران لتكون مرئية.
-- PublicPreview - يظهر بشكل افتراضي لكن مع تحذير ان الميزة في المعاينة.
-- Released - تم إصداره بشكل كامل.
+- `PrivatePreview` - يحتاج لرحله طيران لتكون مرئية.
+- `PublicPreview` - يظهر بشكل افتراضي لكن مع تحذير ان الميزة في المعاينة.
+- `Released` - تم إصداره بالكامل.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: إعداد التعيين  لحقول حالات أمر المبيعات
-description: يوضح هذا الموضوع كيفية إعداد حقول حالات أمر المبيعات للكتابة المزدوجة.
+title: إعداد التعيين أعمدة حالة أمر المبيعات
+description: يوضح هذا الموضوع كيفية إعداد أعمدة حالات أمر المبيعات للكتابة المزدوجة.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4449325"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744289"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>إعداد التعيين  لحقول حالات أمر المبيعات
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>إعداد التعيين أعمدة حالة أمر المبيعات
 
 [!include [banner](../../includes/banner.md)]
 
-تحتوي الحقول التي تشير إلى حالة أمر المبيعات على قيم تعداد مختلفة في Microsoft Dynamics 365 Supply Chain Management وDynamics 365 Sales. هناك حاجة إلى إعداد إضافي لتعيين هذه الحقول في الكتابة المزدوجة.
+تحتوي الأعمدة التي تشير إلى حالة أمر المبيعات على قيم تعداد مختلفة في Microsoft Dynamics 365 Supply Chain Management وDynamics 365 Sales. هناك حاجة إلى إعداد إضافي لتعيين هذه الأعمدة في الكتابة المزدوجة.
 
-## <a name="fields-in-supply-chain-management"></a>الحقول في Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>الأعمدة في Supply Chain Management
 
-في Supply Chain Management، يعكس حقلان حالة أمر المبيعات. الحقلان اللذان يجب عليكما تعيينهما هما **الحالة** و **حالة المستند**.
+في Supply Chain Management، يعكس العمودان حالة أمر المبيعات. العمودان اللذان يجب عليكما تعيينهما هما **الحالة** و **حالة المستند**.
 
 يحدد تعداد **الحالة** الحالة الإجمالية  للأمر. تظهر هذه الحالة على رأس الأمر.
 
@@ -53,9 +53,9 @@ ms.locfileid: "4449325"
 - كشف التعبئة
 - الفاتورة
 
-## <a name="fields-in-sales"></a>الحقول في Sales
+## <a name="columns-in-sales"></a>أعمده في المبيعات
 
-في Sales، يشير حقلان إلى حالة الأمر. الحقلان اللذان يجب عليكما تعيينهما هما **الحالة** و **حالة المعالجة‬**.
+في Sales، يشير العمودان إلى حالة الأمر. العمودان اللذان يجب عليكما تعيينهما هما **الحالة** و **حالة المعالجة‬**.
 
 يحدد تعداد **الحالة** الحالة الإجمالية  للأمر. لديه القيم التالية:
 
@@ -91,11 +91,11 @@ ms.locfileid: "4449325"
 | مفوتر جزئيًا  | نشط          | أمر مفتوح                        |
 | مفوتر جزئيًا  | تم الاستيفاء       | تم التسليم                         |
 | مفوتر            | مفوتر        | مفوتر                          |
-| تم الإلغاء           | تم الإلغاء       | تم الإلغاء                         |
+| تم الإلغاء           | تم الإلغاء       | مُلغاة                         |
 
 ## <a name="setup"></a>الإعداد
 
-لإعداد التعيين لحقول حالات أمر المبيعات، يجب تمكين السمتين **IsSOPIntegrationEnabled** و **isIntegrationUser**.
+لإعداد التعيين لأعمدة حالات أمر المبيعات، يجب تمكين السمتين **IsSOPIntegrationEnabled** و **isIntegrationUser**.
 
 لتمكين السمة **IsSOPIntegrationEnabled**‎، اتبع الخطوات التالية:
 
@@ -110,14 +110,14 @@ ms.locfileid: "4449325"
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ ms.locfileid: "4449325"
 
 لتمكين السمة **isIntegrationUser‎**‎، اتبع الخطوات التالية:
 
-1. في Sales، انتقل إلى **إعداد \> التخصيص \> تخصيص النظام**، حدد **كيان المستخدم**، ثم افتح  **النموذج \> المستخدم**.
+1. في Sales، انتقل إلى **إعداد \> التخصيص \> تخصيص النظام**، حدد **جدول المستخدم**، ثم افتح  **النموذج \> المستخدم**.
 
     ![فتح نموذج المستخدم](media/sales-map-user.png)
 
 2. في "مستكشف الحقول"، ابحث عن **وضع مستخدم التكامل**، ثم انقر نقرًا مزدوجًا فوقه لإضافته إلى النموذج. احفظ التغيير.
 
-    ![إضافة حقل وضع مستخدم التكامل إلى النموذج](media/sales-map-field-explorer.png)
+    ![إضافة عمود وضع مستخدم التكامل إلى النموذج](media/sales-map-field-explorer.png)
 
 3. في Sales، انتقل إلى **الإعداد \> الأمان \> المستخدمون**، وقم بتغيير طريقة العرض من **المستخدمون الممكّنون** إلى **مستخدمو التطبيق**.
 
@@ -145,11 +145,8 @@ ms.locfileid: "4449325"
 
     ![قائمة مستخدمي التطبيق](media/sales-map-user-mode.png)
 
-5. قم بتغيير قيمة **وضع مستخدم التكامل** إلى **نعم**.
+5. قم بتغيير قيمة عمود **وضع مستخدم التكامل** إلى **نعم**.
 
-    ![تغيير قيمة وضع مستخدم التكامل](media/sales-map-user-mode-yes.png)
+    ![تغيير قيمة عمود وضع مستخدم التكامل](media/sales-map-user-mode-yes.png)
 
 أصبحت الآن أوامر مبيعاتك معيّنة.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

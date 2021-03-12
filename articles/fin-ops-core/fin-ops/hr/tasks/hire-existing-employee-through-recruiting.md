@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df30e403c4b1c7d3abc88ae98c73d797bceef02
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 42a6fbdad19db3c85509078c9f7549a6397f93fc
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693102"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797249"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>تعيين موظفين موجودين من خلال التوظيف
 
@@ -40,6 +40,3 @@ ms.locfileid: "4693102"
 9. انقر فوق "تغيير المنصب".
     * يمكنك أيضًا تغيير التعويض في هذا الوقت. إذا لم تقم بتعيين التعويض في هذا الوقت، فيمكنك تغييره بالانتقال إلى نموذج العامل وتحديد علامة التبويب "التعويض" واختيار "خطة ثابتة‬". بعد تحديد "تغيير المنصب"، سيتم تحديث حالة استمارة التقديم إلى "موظف".  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

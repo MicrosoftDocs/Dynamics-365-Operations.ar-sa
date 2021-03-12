@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ea39e86ace40cd8e3ad2733b7f7f7a873a963e7
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a1039acd53f493e810b11aafd85116d034b7d323
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693030"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797303"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>إدخال بيانات مقدم الطلب والطلب يدوياً
 
@@ -61,6 +61,3 @@ ms.locfileid: "4693030"
 6. انقر فوق "حفظ".
     * بعد حفظ استمارة التقديم، يمكنك إرفاق مستندات بها، بما في ذلك خبرة مقدم الطلب والمكافآت التي حصل عليها ورسالة غلاف.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

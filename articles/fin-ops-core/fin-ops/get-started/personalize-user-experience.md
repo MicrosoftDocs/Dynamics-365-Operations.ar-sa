@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693222"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797480"
 ---
 # <a name="personalize-the-user-experience"></a>تخصيص تجربة المستخدم
 
@@ -195,6 +195,3 @@ ms.locfileid: "4693222"
 عند تخصيص إعداد أبعاد المخزون في صفحة، خذ بعين الاعتبار الإعدادات التي تم إنشاؤها باستخدام الخيار **بُعد العرض**. على سبيل المثال، تستخدم التخصيص لإخفاء عمود لبعد مخزون رقم الدفعة، ولكن يظهر العمود في المرة التالية التي يتم فتح الصفحة فيها. يحدث هذا السلوك نظرًا لأن إعدادات **عرض البُعد** تتحكم في أعمدة بعد المخزون المعروضة. يتم تطبيق إعدادات **عرض البُعد** على جميع الصفحات، وستبطل هذه الإعدادات أي إعداد مخصص لحقول أبعاد المخزون في الصفحات الفردية.
 
 وبالتالي، في المثال السابق، إذا كنت لا تريد ظهور العمود الذي يحتوي على بُعد مخزون رقم الدفعة في صفحة، يجب مسح هذا البُعد كجزء من خيار **عرض الأبعاد** لتلك الصفحة.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

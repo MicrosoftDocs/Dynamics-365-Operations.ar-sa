@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680062"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744683"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>التدرج الهرمي للمؤسسات في Dataverse
 
@@ -49,9 +49,9 @@ ms.locfileid: "4680062"
 
 تطبيقات Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الوصف
 -----------------------|--------------------------------|---
-أغراض التدرج الهرمي للمؤسسات | msdyn_internalorganizationhierarchypurposes | يقدم هذا القالب مزامنة أحادية الاتجاه لكيان غرض التدرج الهرمي للمؤسسات.
-نوع التدرج الهرمي للمؤسسات | msdyn_internalorganizationhierarchytypes | يقدم هذا القالب مزامنة أحادية الاتجاه لكيان نوع التدرج الهرمي للمؤسسات.
-التدرج الهرمي للمؤسسات - منشور | msdyn_internalorganizationhierarchies | يقدم هذا القالب مزامنة أحادية الاتجاه للكيان المنشور للتدرج الهرمي للمؤسسات.
+أغراض التدرج الهرمي للمؤسسات | msdyn_internalorganizationhierarchypurposes | يقدم هذا القالب مزامنة أحادية الاتجاه لجدول غرض التدرج الهرمي للمؤسسات.
+نوع التدرج الهرمي للمؤسسات | msdyn_internalorganizationhierarchytypes | يقدم هذا القالب مزامنة أحادية الاتجاه لجدول نوع التدرج الهرمي للمؤسسات.
+التدرج الهرمي للمؤسسات - منشور | msdyn_internalorganizationhierarchies | يقدم هذا القالب مزامنة أحادية الاتجاه لجدول المنشور للتدرج الهرمي للمؤسسات.
 وحدة التشغيل | msdyn_internalorganizations |
 الكيانات القانونية | msdyn_internalorganizations |
 الكيانات القانونية | cdm_companies | يوفر مزامنة ثنائيه الاتجاه لمعلومات الكيان القانوني (الشركة).
@@ -73,6 +73,3 @@ ms.locfileid: "4680062"
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

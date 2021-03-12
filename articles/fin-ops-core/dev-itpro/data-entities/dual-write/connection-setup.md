@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685655"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744843"
 ---
 # <a name="guidance-for-dual-write-setup"></a>إرشادات حول إعداد الكتابة المزدوجة
 
@@ -36,7 +36,7 @@ ms.locfileid: "4685655"
 يمكنك إعداد اتصال الكتابة المزدوجة بين بيئة Finance and Operations وبيئة Dataverse.
 
 + توفر **بيئة Finance and Operations** النظام الاساسي **لتطبيقات Finance and Operations** (على سبيل المثال Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management وDynamics 365 Commerce وDynamics 365 Human Resources).
-+ توفر **بيئة Dataverse** النظام الأساسي لـ **تطبيقات customer engagement** (Dynamics 365 Sales و Dynamics 365 Customer Service و Dynamics 365 Field Service و Dynamics 365 Marketing و Dynamics 365 Project Service Automation).
++ توفر **بيئة Dataverse** النظام الأساسي **لتطبيقات customer engagement** ‏(Dynamics 365 Sales وDynamics 365 Customer Service وDynamics 365 column Service وDynamics 365 Marketing وDynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
 > تدعم وحدة Human Resources في Dynamics 365 Finance  اتصالات الكتابة المزدوجة، ولكن لا يدعمها تطبيق Dynamics 365 Human Resources.
@@ -138,6 +138,3 @@ ms.locfileid: "4685655"
 على سبيل المثال، راجع [تمكين Customers الإصدار 3—تعيين جدول جهات الاتصال](enable-entity-map.md#enable-table-map)
 
 للحصول على أسلوب بديل يستند إلى وحدات تخزين البيانات في كل كيان التي يجب تشغيل المزامنة الأولية بها، راجع [اعتبارات المزامنة الأولية](initial-sync-guidance.md).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

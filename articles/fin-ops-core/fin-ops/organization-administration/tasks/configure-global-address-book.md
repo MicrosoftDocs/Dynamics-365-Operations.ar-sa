@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4dcee425fc1225dcfcf8ba4282f4176acfeaa268
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694655"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796792"
 ---
 # <a name="configure-the-global-address-book"></a>تكوين دفتر العناوين العمومي
 
@@ -45,6 +45,3 @@ ms.locfileid: "4694655"
 13. في القائمة، قم بالبحث عن السجل المطلوب وحدده. اضغط على المفتاح Shift لتحديد الأدوار المتعددة المطلوب إضافتها لجزء **الأدوار المحددة** ثم انقر فوق السهم لإضافة الأدوار المحددة.  
 14. انقر فوق **حفظ**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

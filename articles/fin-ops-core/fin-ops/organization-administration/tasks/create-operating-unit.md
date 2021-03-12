@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0157e7e080f6b65dc6b3bb8f01ace5b521bb3dca
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694803"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796720"
 ---
 # <a name="create-an-operating-unit"></a>إنشاء وحدة تشغيل
 
@@ -41,6 +41,3 @@ ms.locfileid: "4694803"
     + أدخل معلومات عن طرق الاتصال، مثل عناوين البريد الإلكتروني وعناوين URL وأرقام الهاتف. لإدخال سجل اتصال جديد، انقر فوق "جديد". لتعديل سجل اتصال موجود، انقر فوق **مزيد من الخيارات > خيارات متقدمة**.   
 6. بشكل اختياري، قم بتغيير **رقم وحدة التشغيل‬** حسب الحاجة. لاحظ أن هذا الرقم عبارة عن معرف فريد لسجل **Party** الطرف المناظر ولا يمكن أن يكون هو نفسه كأي وحدة تشغيل أخرى.
 7. حدد **حفظ**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
