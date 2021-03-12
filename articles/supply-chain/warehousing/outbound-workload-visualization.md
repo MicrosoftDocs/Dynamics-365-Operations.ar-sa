@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: cbfb395c9103ff31979bfd57333f689e38915652
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645418"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965542"
 ---
 # <a name="outbound-workload-visualization"></a>مرئيات حمل العمل الصادر
 
@@ -98,6 +97,3 @@ ms.locfileid: "4645418"
 ![المنطقة مقابل مرئيات حاله العمل](media/work-viz-chart.png "المنطقة مقابل مرئيات حاله العمل")
 
 يعرض هذا المخطط منطقتين تسميان **الارضيه** و **مجمع**، بالاضافه إلى منطقه تسمي **فارغه**. وتمثل المنطقة **الفارغة** كافة بنود العمل التي لا أعضاء في إيه مناطق. يعرض المخطط دائما كافة البيانات التي تمت تصفيتها بشكل غير مرتبط باعتبارها **فارغة**، لتوفير أكبر قدر ممكن من الرؤية. في منطقه **الارضيه**، يعرض المخطط ثلاثه خطوط مغلقه وأربعه خطوط مفتوحة. في منطقه **الارضيه**، يعرض المخطط ثلاثه خطوط مغلقه وأربعه خطوط مفتوحة و24 خطًا تم إلغاؤها. وأخيرا ، يعرض المخطط ثمانيه خطوط مغلقه وليست جزءا من اي منطقه التالي يتم سردها علي انها **فارغه**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

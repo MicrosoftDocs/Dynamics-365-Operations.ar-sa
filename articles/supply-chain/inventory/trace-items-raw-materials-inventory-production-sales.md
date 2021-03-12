@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa1be4970f1106bf4b87eeaa428bac07c645b4f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9293578144c51baef34204a2b592d517baa3b0dd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421622"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967170"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>تتبع الأصناف والمواد الخام في المخزون والإنتاج والمبيعات
 
@@ -140,6 +139,3 @@ ms.locfileid: "4421622"
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>هل يمكنني تتبع المنتجات المساعدة والمنتجات الثانوية؟
 يمكنك تتبع المنتجات المساعدة، ولكن لا يمكن تتبع منتج ثانوي إذ لا يتم عادةً تعيين أبعاد التعقب للمنتجات الثانوية. عند تتبع أحد الأصناف، فإن تفاصيل التتبع تتضمن أيضًا أي منتجات مساعدة ذات صلة. تتضمن عقدة التي تحتوي على منتج مساعد على كلمة "المنتج المساعد" في التفاصيل. يمكنك أيضا عرض تفاصيل حول منتج المساعد بتحديد العقدة في تفاصيل التتبع، ثم النقر فوق علامة التبويب السريعة **الإنتاج**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

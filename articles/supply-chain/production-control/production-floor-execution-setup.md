@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4421677"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966255"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>إعداد جهاز لتشغيل واجهة تنفيذ صالة الإنتاج‬
 
@@ -80,6 +79,3 @@ ms.locfileid: "4421677"
 وبشكل افتراضي، تقوم واجهة تنفيذ صالة الإنتاج‬ بتسجيل الخروج تلقائيًا إذا لم يتم استخدامها لكدة 12 ساعة. ويجب على مستخدم Supply Chain Management تسجيل الدخول مرة أخرى. ومع ذلك، يمكنك زيادة حد المهلة إلى ما يصل إلى 90 يومًا.
 
 لزيادة حد المهلة، قم بتسجيل الدخول إلى Supply Chain Management، ثم انتقل إلى **إدارة النظام \> المستخدمين \> امتدادات الجلسات**. حدد حساب مستخدم Supply Chain Management المستخدم لتسجيل الدخول إلى الجهاز، وعدد الساعات التي يجب أن تظل الجلسة نشطة فيها.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

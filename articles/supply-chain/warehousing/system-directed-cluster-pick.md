@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421759"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965667"
 ---
 # <a name="system-directed-cluster-picking"></a>انتقاء نظام مجموعة بتوجيه من النظام
 
@@ -207,6 +206,3 @@ ms.locfileid: "4421759"
 1. الخطوة الأخيرة على الجهاز المحمول هي **وضع** نظام المجموعة في الموقع النهائي. حدد **موافق**.
     - عند تأكيد عملية الوضع، يتم إغلاق نظام المجموعة وتقسيمه، استنادًا إلى القيمة التي قمت بتعيينها للحقل **تقسيم نظام المجموعة في** في ملف تعريف نظام المجموعة. يتم أيضًا إغلاق معرفات العمل.
 1. يتم عرض رسالة "اكتمل نظام المجموعة" على الجهاز المحمول.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421824"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967248"
 ---
 # <a name="product-readiness"></a>جاهزية المنتج
 
@@ -148,6 +147,3 @@ ms.locfileid: "4421824"
 | الاستبيان | حدد الاستبيان الذي ينبغي استخدامه لقائمه الاختيار. تعد قائمه الاختيار بمثابه قائمه اختيار محليه في الشركة التي يتم فيها اجراء فحص الاستعداد. يجب ان يكون النظام قادرا علي تقييم ما إذا كان قد تم الرد علي قائمه الاختيار بشكل صحيح ام لا. التالي ، يجب اعداد قائمه الاختيار بحيث يتم اجراء تقييم استنادا إلى الإجابات الصحيحة. لمزيد من المعلومات حول كيفيه إنشاء استبيانات ، راجع [استخدام الاستبيانات](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) والموضوعات ذات الصلة. |
 | اعتماد تلقائي | تتضمن سجلات التحقق من الاستعداد خانه اختيار **معتمده** تشير إلى حاله الاعتماد. حدد خانه الاختيار **الاعتماد التلقائي** عمليات الفحص التي يجب تعيينها ليتم قبولها فورا بعد قيام المستخدم المعين بإكمالها. قم بإلغاء تحديد خانه الاختيار هذه لطلب اعتماد صريح كخطوه اضافيه. |
 | إلزامي | حدد خانه الاختيار هذه للشيكات التي يجب إكمالها بواسطة المستخدم المعين. لا يمكن تخطي عمليات الفحص الإلزاميه. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

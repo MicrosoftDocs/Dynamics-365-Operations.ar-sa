@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421783"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966095"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>شحن الأوامر كعمليات تسليم مباشرة
 
@@ -82,6 +81,3 @@ ms.locfileid: "4421783"
     - تعمل صفحة التسليم المباشر كمنضدة عمل توفر نظرة عامة لوكيل الشراء بجميع بنود أوامر المبيعات التي سيتم تسليمها بشكل مباشر وتتيح له إنشاء أوامر الشراء المعنية. علاوة على ذلك، يمكنها عرض أوامر التسليم المفتوحة والأوامر المؤكدة في علامتي التبويب التأكيد والتسليم.  
     - بعد إنشاء أمر تسليم مباشر، يتم نقله تلقائيًا إلى علامة التبويب "تأكيد". يمكنك اختيار تأكيد الأمر مباشرة من هذه الصفحة. عندما يتم تأكيد الشراء, ستنتقل الصفحة تلقائياً إلى علامة التبويب "التسليم"، التي يمكنك تسجيل الاستلام منها.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

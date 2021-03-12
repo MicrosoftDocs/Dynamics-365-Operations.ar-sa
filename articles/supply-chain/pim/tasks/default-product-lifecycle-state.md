@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8766208f0dff0cf24db7335ef00c42749811f8fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16f604d5e06859b15c6f610e7a5c822ef2089ea3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421358"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966895"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>إنشاء حالة دورة حياة منتج افتراضية
 
@@ -62,6 +61,3 @@ ms.locfileid: "4421358"
 > [!NOTE]
 > لنفترض أنك قمت بإعداد حالة نشطة، يمكنك الآن تحديد الحالة النشطة للسماح بأن يتم استخدام المنتج في الحساب على مستوى التخطيط الرئيسي وقائمة مكونات الصنف. من الواضح أن هذا الأمر يعتبر منطقيًا إذا كانت جميع تفاصيل المنتج المطلوبة للتخطيط المتناسق محددة.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409783"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965101"
 ---
 # <a name="create-and-configure-extended-warranties"></a>إنشاء الضمانات الموسعة وتكوينها
 
@@ -142,7 +141,7 @@ ms.locfileid: "4409783"
 
 لإعداد مجموعة ضمان في Commerce، اتبع هذه الخطوات.
 
-1. انتقل إلى **Retail and Commerce \> المنتجات والفئات \> الضمان \> إعدادات الضمان**.
+1. انتقل إلى **البيع بالتجزئة والتجارة \> المنتجات والفئات \> الضمان \> إعدادات الضمان**.
 1. حدد **جديد** لإنشاء مجموعة ضمان.
 1. في الحقل **السم** أدخل اسمًا للمجموعة الجديد.
 1. في علامة التبويب السريعة **عام** في الحقل **الوصف** اكتب وصفًا للمجموعة.
@@ -239,6 +238,3 @@ ms.locfileid: "4409783"
 [إعداد عمليات الفرز](set-up-assortments.md)
 
 [نظرة عامة على التسلسل الرقمي](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
