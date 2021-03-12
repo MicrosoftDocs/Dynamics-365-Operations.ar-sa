@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae589f81811c1586e0e24de94eaf5f467f19debb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d68087afd1a0c9b675e4ac1ef2118e6aab5213d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421082"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998643"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>إنشاء قاعدة كانبان للاستبدال‬
 
@@ -56,6 +55,3 @@ ms.locfileid: "4421082"
 1. قم بتعيين الحد الأقصى للكمية إلى "100".
     * قم بتوسيع علامة التبويب السريعة "الكميات" لرؤية حقل "الحد الأقصى للكمية". سيسمح تغيير الحد الأقصى للكمية 100 بوصول كانبان إلى 100 كانبان تتم معالجتها.    وهذه هي الخطوة الأخيرة في هذه المهمة.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528913"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998493"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>مزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management
 
@@ -62,13 +61,13 @@ ms.locfileid: "4528913"
 
 | **Field Service** | **Supply Chain Management** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | رؤوس أوامر مبيعات CDS |
-| msdyn_workorderservices | بنود أمر مبيعات CDS   |
-| msdyn_workorderproducts | بنود أمر مبيعات CDS   |
+| msdyn_workorders        | Dataverse رؤوس أوامر المبيعات V2 |
+| msdyn_workorderservices | Dataverse بنود أمر مبيعات   |
+| msdyn_workorderproducts | Dataverse بنود أمر مبيعات   |
 
 ## <a name="entity-flow"></a>تدفق الكيان
 
-يتم إنشاء أوامر العمل في Field Service. إذا كانت أوامر العمل تتضمن المنتجات التي تم الاحتفاظ بها خارجيًا فقط، وإذا اختلفت قيمة **حالة أمر العمل** عن **مفتوح - غير مجدول**‬ و **مقفل - ملغى**، فيمكن مزامنة أوامر العمل إلى Supply Chain Management عبر مشروع تكامل بيانات Common Data Service. ستتم مزامنة تحديثات أوامر العمل كأوامر مبيعات في Supply Chain Management. تتضمن هذه التحديثات معلومات حول نوع الأصل وحالته.
+يتم إنشاء أوامر العمل في Field Service. إذا كانت أوامر العمل تتضمن المنتجات التي تم الاحتفاظ بها خارجيًا فقط، وإذا اختلفت قيمة **حالة أمر العمل** عن **مفتوح - غير مجدول**‬ و **مقفل - ملغى**، فيمكن مزامنة أوامر العمل إلى Supply Chain Management عبر مشروع تكامل بيانات Microsoft Dataverse. ستتم مزامنة تحديثات أوامر العمل كأوامر مبيعات في Supply Chain Management. تتضمن هذه التحديثات معلومات حول نوع الأصل وحالته.
 
 ## <a name="estimated-versus-used"></a>المقدَّرة مقابل المستخدمة
 
@@ -273,6 +272,3 @@ ms.locfileid: "4528913"
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و((msdyn_linestatus eq 690970001) أو (msdynce_headersystemstatus eq 690970004) أو (msdyn_allocated ne true))
 
 [![تعيين القالب في تكامل البيانات](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

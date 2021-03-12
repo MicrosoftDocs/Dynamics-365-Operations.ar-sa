@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421135"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996316"
 ---
 # <a name="confirm-and-transfer"></a>التأكيد والتحويل
 
@@ -230,6 +229,3 @@ ms.locfileid: "4421135"
 - يعمل خيار **تقسيم الكمية إلى حمل جديد** أيضا عندما تكون بعض رؤوس العمل المتبقية بالحالة *قيد التنفيذ*. بالتالي، ما يزال بإمكانك استخدام الوظيفة حتى إذا كان العمال يقومون بالفعل بتشغيل أوامر الانتقاء.
 - إذا قمت بتحديد **إلغاء الكمية غير المستوفاة** بينما هناك عمل متبقي بالحالة *مفتوح* أو *قيد التقدم*، فسوف تتلقي رسالة الخطأ التالية: تعذر إلغاء الكمية المتبقية للحمل. العمل موجود للحمل."
 - إذا قمت بتحديد **إلغاء الكمية غير المستوفاة** في حالة عدم وجود عمل متبقي ولكن توجد بنود حمل غير مصدّرة على الحمل، ستتلقى رسالة الخطأ التالية: "تعذر تأكيد الشحنة للحمل لأن كمية الصنف تتجاوز النسبة المئوية المحددة للتسليم بالنقص." لتجنب الخطأ، يمكنك تعيين النسبة المئوية **للتسليم بالنقص** في بند الحمل غير المصَّدر إلى 100 بالمائة. لن يتم نقل البنود غير المصدرة إلى حمل جديد، ولكن سيتم تأكيد الحمل الحالي باستخدام التسليم بالنقص. في هذه الحالة، لن تتمكن من إعادة إصدار الأمر الأصلي. لذلك، يجب عليك معالجته بطريقة أخرى.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

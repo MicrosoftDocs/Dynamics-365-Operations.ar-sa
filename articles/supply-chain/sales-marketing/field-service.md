@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1b1f88c77ed891839adb57c2ba5e2f72f35fda6d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528889"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998468"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>نظرة عامة على التكامل مع Microsoft Dynamics 365 Field Service
 
@@ -32,14 +31,14 @@ ms.locfileid: "4528889"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يتيح Supply Chain Management مزامنة عمليات الأعمال بين Dynamics 365 Supply Chain Management وDynamics 365 Field Service. تم تكوين سيناريوهات التكامل باستخدام قوالب "موحد البيانات" القابلة للتوسعة وCommon Data Service لتمكين مزامنة عمليات الأعمال.
-يمكن استخدام القوالب القياسية لإنشاء مشاريع تكامل مخصصة، حيث يمكن تعيين حقول وكيانات مخصصة وقياسية إضافية لضبط التكامل والوفاء بمتطلبات أعمال معينة. 
+يتيح Supply Chain Management مزامنة عمليات الأعمال بين Dynamics 365 Supply Chain Management وDynamics 365 Field Service. تم تكوين سيناريوهات التكامل باستخدام قوالب "موحد البيانات" القابلة للتوسعة وMicrosoft Dataverse لتمكين مزامنة عمليات الأعمال.
+يمكن استخدام القوالب القياسية لإنشاء مشاريع تكامل مخصصة، حيث يمكن تعيين أعمدة وحداول مخصصة وقياسية إضافية لضبط التكامل والوفاء بمتطلبات أعمال معينة. 
 
 يستند تكامل Field Service إلى الوظيفة الموجودة "العميل المتوقع إلى النقدية‬".
 
 ![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/field-service-integration.png)
 
-تركز المرحلة الأولى من التكامل بين Field Service وSupply Chain Management على تمكين أوامر العمل والاتفاقيات في Field Service لفوترتها في Supply Chain Management. يبدأ التدفق المدعوم في Field Service، حيث تتم مزامنة المعلومات من أوامر العمل إلى Supply Chain Management كأوامر مبيعات. في Supply Chain Management، تتم فوترة أوامر المبيعات لإنشاء مستندات الفواتير. بالإضافة إلى ذلك، تتم مزامنة المعلومات من فواتير اتفاقيات Field Service إلى Supply Chain Management. يقوم موحد البيانات في Microsoft Dynamics 365 بمزامنة البيانات من خلال استخدام المشاريع القابلة للتخصيص. يمكن استخدام القوالب القياسية لإنشاء مشاريع تكامل مخصصة حيث يمكن تعيين الحقول المخصصة والقياسية الإضافية، وكذلك الكيانات، لتعديل التكامل والوفاء بالمتطلبات المحددة.
+تركز المرحلة الأولى من التكامل بين Field Service وSupply Chain Management على تمكين أوامر العمل والاتفاقيات في Field Service لفوترتها في Supply Chain Management. يبدأ التدفق المدعوم في Field Service، حيث تتم مزامنة المعلومات من أوامر العمل إلى Supply Chain Management كأوامر مبيعات. في Supply Chain Management، تتم فوترة أوامر المبيعات لإنشاء مستندات الفواتير. بالإضافة إلى ذلك، تتم مزامنة المعلومات من فواتير اتفاقيات Field Service إلى Supply Chain Management. يقوم موحد البيانات في Microsoft Dynamics 365 بمزامنة البيانات من خلال استخدام المشاريع القابلة للتخصيص. يمكن استخدام القوالب القياسية لإنشاء مشاريع تكامل مخصصة حيث يمكن تعيين الأعمدة المخصصة والقياسية الإضافية، وكذلك الجداول، لتعديل التكامل والوفاء بالمتطلبات المحددة.
 
 تعمل المرحلة الأولى من التكامل بين Field Service وSupply Chain Management على تمكين مزامنة العناصر التالية:
 
@@ -85,6 +84,3 @@ ms.locfileid: "4528889"
 - Field Service (الإصدار 8.2.0.286) أو إصدار لاحق على Dynamics 365 9.1.x - تم إطلاقه في شهر نوفمبر 2018
 - حل العميل المتوقع إلى النقدية (P2C) لتطبيق Dynamics 365، الإصدار 1.15.0.1 أو إصدار أحدث. الحل متوفر للتنزيل من [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - حل 'تكامل Field Service، والمشروع والمخزون' لبرنامج Dynamics 365، الإصدار 2.0.0.0 أو إصدار لاحق. الحل متوفر للتنزيل من [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
