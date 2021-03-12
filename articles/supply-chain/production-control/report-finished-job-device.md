@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6ba5d8bc0c22f97e6d2ce61c636090e04fae5abd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e9258d0a2f2006f404b24f15605af5a2ad1b281
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421300"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986494"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>إبلاغ عن الانتهاء من جهاز بطاقة الوظيفة
 
@@ -239,6 +238,3 @@ ms.locfileid: "4421300"
 
 > [!NOTE]
 > لتكوين البطاقة، انتقل إلى **إدارة المستودعات \> إعداد \> توجيه المستند \> توجيه المستند**. لمزيد من المعلومات، راجع [تمكين طباعة بطاقة لوحة الترخيص](../warehousing/tasks/license-plate-label-printing.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

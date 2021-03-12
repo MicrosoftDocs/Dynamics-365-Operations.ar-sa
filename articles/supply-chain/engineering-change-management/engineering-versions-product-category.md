@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421815"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987469"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>الإصدارات الهندسية وفئات المنتجات الهندسية
 
@@ -162,6 +161,3 @@ ms.locfileid: "4421815"
 بالنسبة للمنتجات التي تستخدم فيها بعد منتج *الإصدار* (مع التاثير اللوجيستي علي الحركات) ، يتم أضافه الإصدار أيضا إلى شجره المواد والمسارات. يساعد هذا السلوك علي تمييز قائمة مكونات الصنف والمسارات الخاصة بالإصدارات المتتالية ، بغض النظر عن **اعداد فرض السريان**.
 
 بالنسبة للمنتجات التي تستخدم فيها بعد منتج *الإصدار* (بدون تاثير لوجيستي علي الحركات) ، تتم أضافه الإصدار أيضا إلى قائمة مكونات الصنف والمسارات. التالي ، لن يكون هناك فرق بين قائمة مكونات الصنف والمسارات الخاصة بالإصدارات المتتالية. في هذه الحالة ، نوصي بشده بتعيين الخيار **فرض السريان** علي *نعم*. وبهذه الطريقة ، فانك تساعد علي منع الإصدارات الهندسية من التداخل ، كما يمكنك أيضا تنشيط قائمة مكونات الصنف والمسار الخاص بإصدار أحدث دون الحاجة أولا إلى إلغاء تنشيط قائمة مكونات الصنف والمسار الخاص بالإصدار السابق. إذا قمت بتعيين الخيار **فرض السريان** إلى *نعم* في هذه الحالة ، يجب إلغاء تنشيط قائمة مكونات الصنف والمسارات الخاصة بالإصدارات الأقدم يدويا قبل ان تتمكن من تنشيط أحدث إصدار.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

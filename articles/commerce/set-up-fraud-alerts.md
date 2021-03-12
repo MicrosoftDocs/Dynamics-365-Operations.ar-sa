@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15950edd142b222a90bee7876718f4fc5c607468
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409971"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985776"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>إعداد مركز اتصال تنبيهات الاحتيال والعمل باستخدامه
 
@@ -69,6 +68,3 @@ ms.locfileid: "4409971"
 لعرض وإدارة الأوامر الموجودة قيد الانتظار لمراجعة الاحتيال، انتقل إلى **البيع بالتجزئة والتجارة** \> **العملاء** \> **تعليقات الأوامر**. في صفحة **تعليقات الأوامر** ، حدد إدخال في في القائمة، ثم انقر فوق **تعليق الأمر** لمشاهدة طريقة عرض أكثر تفصيلًا تشمل معلومات حول سبب التعليق. على علامة التبويب السريعة **تفاصيل الاحتيال** ، يمكنك عرض معايير الاحتيال النظامية التي تم العثور عليها وتكون مطابقة للأمر، والدرجات التي تم تطبيقها. إذا تم وضع الأمر قيد الانتظار يدويًا، يمكنك مراجعة أي تعليقات تم إدخالها بواسطة المستخدمين الذين قاموا بوضع الأمر قيد الانتظار عن طريق البحث في قسم **ملاحظات الاحتيال** في علامة التبويب السريعة **الملاحظات** .
 
 للحصول على مزيد من المعلومات حول كيفية العمل باستخدام ميزة تعليقات الأوامر، راجع[ ، تعليقات الأوامر](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab5624423c3e463d673e91bd056e5e80d9bb9944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fce5d708f3ac4b7dc9c2048538b53c42334e0ecc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421223"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986819"
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>إنشاء حالة دورة حياة منتج جديدة
 
@@ -35,6 +34,3 @@ ms.locfileid: "4421223"
 3. في حقل "الحالة"، اكتب قيمة.
 4. في وصف الحقل، اكتب قيمة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: الوحدة النمطية لسلة التسوق
 description: يتناول هذا الموضوع وحدات سلة التسوق ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: abb9909c03577763ff7e6242c9395a58159df6ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985969"
 ---
 # <a name="cart-module"></a>الوحدة النمطية لسلة التسوق
 
@@ -53,6 +52,7 @@ ms.locfileid: "4410049"
 | العنوان | نص العنوان وعلامة العنوان (**H1** أو **H2** أو **H3** أو **H4** أو **H5**  أو **H6**) | عنوان لسلة التسوق، مثل "حقيبة التسوق" أو أصناف في سلتك". |
 | عرض أخطاء نفاد المخزون | **صحيح** أم **خطأ** | إذا تم تعيين هذه الخاصية إلى **صواب**، ستعرض صفحة السلة الأخطاء المتعلقة بالمخزون. ونوصي بتعيين هذه الخاصية إلى **صواب** إذا تم تطبيق عمليات فحص المخزون على الموقع. |
 | عرض تكاليف الشحن لأصناف البند | **صحيح** أم **خطأ** | في حالة تعيين هذه الخاصية إلى **خطأ**، ستعرض أصناف بنود السلة تكاليف الشحن، إذا توفرت هذه المعلومات. هذه الميزة غير مدعومة في نسق Fabrikam، بسبب قيام المستخدمين بتحديد الشحن فقط في سير مهام السداد مع الخروج. ومع ذلك، يمكن تشغيل هذه الميزة في مهام سير العمل الأخرى إذا كانت قابلة للتطبيق. |
+| إظهار العروض المتوفرة| **صحيح** أم **خطأ** | إذا تم تعيين هذه الخاصية على **صحيح**، ستعرض السلة العروض الترويجية المتوفرة، استنادا إلى الأصناف الموجودة في سلة التسوق. تتوفر هذه الإمكانية في الإصدار 10.0.16 من Dynamics 365 Commerce. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>الوحدات التي يُمكن استخدامها في الوحدة النمطية لسلة التسوق
 
@@ -117,6 +117,3 @@ ms.locfileid: "4410049"
 [حساب توفر المخزون لقنوات البيع بالتجزئة](calculated-inventory-retail-channels.md)
 
 [إنشاء ملف تعريف وظائف على الإنترنت](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

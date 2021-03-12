@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 18b371494248c8b8f395996c786bb6bf7a54a6de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527352"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987194"
 ---
 # <a name="product-information-overview"></a>نظرة عامة على معلومات المنتجات
 
@@ -59,7 +58,7 @@ ms.locfileid: "4527352"
 
 يمكن إنشاء تعريف المنتج في Supply Chain Management. ويمكن أيضًا استيراده من إدارة دورة حياة المنتج (PLM) أو إدارة بيانات المنتج (PDM) أو أنظمة إدارة معلومات المنتج (PIM). عند استخدام أكثر من مثيل واحد من Supply Chain Management، يتم استخدام مثيل عادةً كأصل بيانات المنتج لكل المثيلات الأخرى. هناك مجموعة كبيرة من كيانات البيانات التي تدعم هذا المنتج، وهي تمكّن تصدير واستيراد بيانات تعريف المنتج من مثيل إلى آخر.
 
-لدعم توزيع بيانات المنتج على عدد كبير من المثيلات، يسمح لك Supply Chain Management باستخدام Common Data Service. يمكن تصدير تعريفات المنتج من مثيل Supply Chain Management إلى Common Data Service. بعد ذلك، يمكن استخدام تعريفات المنتج لتزويد تطبيقات الأعمال الأخرى، مثل Dynamics 365 Sales، ببيانات المنتج.
+لدعم توزيع بيانات المنتج على عدد كبير من المثيلات، يسمح لك Supply Chain Management باستخدام Microsoft Dataverse. يمكن تصدير تعريفات المنتج من مثيل Supply Chain Management إلى Microsoft Dataverse. بعد ذلك، يمكن استخدام تعريفات المنتج لتزويد تطبيقات الأعمال الأخرى، مثل Dynamics 365 Sales، ببيانات المنتج.
 
 لاحظ أنه في المؤسسات الديناميكية ومنخفضة التكلفة، تتغير معلومات المنتج كل يوم. وبالتالي، يعتبر الحفاظ على بيانات المنتج الفعلية والدقيقة عملية أعمال دقيقة بحد ذاتها.
 
@@ -96,6 +95,3 @@ ms.locfileid: "4527352"
 ### <a name="manually-creating-a-new-released-product"></a>إنشاء منتج صادر جديد يدويًا
 
 يمكنك إنشاء منتج صادر يدويًا في جولة واحدة، استنادًا إلى عمليات أعمال المؤسسة الإضافة إلى أية قواعد حول ما إذا كان يجب استخدام هذه الوظيفة. تنشئ هذه الوظيفة منتجًا جديدًا وتصدره تلقائيًا في الكيان القانوني الحالي. لإنشاء منتج جديد، انقر فوق **المنتجات الصادرة** في مساحة عمل **صيانة المنتج الذي تم إصداره‬** أو في صفحة قائمة **المنتجات الصادرة**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
