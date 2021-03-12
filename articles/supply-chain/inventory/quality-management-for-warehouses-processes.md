@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fd6b4b0c30a8a4cb36955e9b131c937c4db80772
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421644"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983715"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>إدارة الجودة لعمليات المستودعات
 
@@ -622,6 +621,3 @@ ms.locfileid: "4421644"
 
 > [!NOTE]
 > ضع في اعتبارك إضافة الإدخال الخاص بإخراج الجودة إلى عنصر قائمة الجهاز المحمول حيث كود النشاط *عرض قائمة الأعمال المفتوحة*. على سبيل المثال، راجع عنصر قائمة الجهاز المحمول المسمى **قائمة الأعمال** في البيانات التجريبية. أولا أضف فئة عمل *أمر الجودة* إلى عنصر القائمة بتوجيه من المستخدم، لأن فئة العمل هذه مطلوبة لكي يظهر العمل في قائمة الأعمال. ثم أضف فئة عمل *أمر الجودة* إلى عنصر القائمة لـ **قائمة الأعمال**. بعد ذلك سيتمكن المستخدمون الذين لديهم حق الوصول إلى قائمة الأعمال من انتقاء ومعالجة العمل الذي يتم إنشاؤه تلقائيًا عن طريق التحقق من أمر الجودة.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
-ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
+ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692735"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "4984590"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>تكوين معلمات إدارة المزايا لكل شركة
 
@@ -42,5 +42,3 @@ ms.locfileid: "4692735"
    | **عنوان مرسل البريد الإلكتروني الافتراضي** | عنوان البريد الإلكتروني المراد استخدامه عند إرسال رسالة التأكيد عبر البريد الإلكتروني. |
 
 3. حدد **حفظ**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

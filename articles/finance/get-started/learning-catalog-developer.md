@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e57c51011f1d93a6f62eb88c9cc45a38f2d0a5f3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528734"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984974"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>كتالوج التعلّم لمطوري Dynamics 365 Finance
 
@@ -49,8 +48,8 @@ ms.locfileid: "4528734"
 | [Finance and Operations: توسيع Dynamics 365 for Finance and Operations باستخدام PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | افهم بساطة Microsoft PowerApps وكيف يمكن تعامله مع Dynamics 365 for Finance and Operations لإجراء تحويل رقمي لشركات الأعمال وزيادة إنتاجية المستخدم. | التسجيل المجاني لمؤتمر ويب | 43 دقيقة |
 | [Finance and Operations: قابلية التوسعة (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | سنوفر نظرة عامة وتحديث لخطط قابلية التوسعة لـ Microsoft. سوف نناقش بالتفصيل الطرق المتنوعة لتوسيع الحل والتعمق بشكل أكبر في ميزات قابلية توسيع بيانات التعريف بالإضافة إلى القدرة على زيادة وتوسيع التعليمات البرمجية، يشمل ما يتم عن طريق ميزة سلسلة الأوامر القوية. | التسجيل المجاني لمؤتمر ويب | 50 دقيقة |
 | [Visual Studio Team Services (VSTS) إعداد (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | وسوف يستعرض هذا الحديث التقني الخطوات اللازمة لتهيئة مثيل VSTS والمشروع للاتصال بمشروع تنفيذ LCS لتكون بيئة التطوير/الاختبار. | التسجيل المجاني لمؤتمر ويب | 41 دقيقة |
-| [أداة تكامل بيانات CDS (DYN451PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | الرجاء الانضمام إلينا في هذا الحديث التقني حول قدرات أداة تكامل البيانات Common Data Service (CDS). سوف نناقش خيارات التكامل بين تطبيقات Dynamics 365 Customer Engagement وDynamics 365 Finance and Operations، بالإضافة إلى التكامل مع الحلول الأخرى التابعة لجهات خارجية. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
-| [التكامل بين Dynamics 365 for Sales و Dynamics 365 for Finance & Operations عبر CDS (DYN340PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | في هذا الحديث التقني، سوف نعرض سيناريو التكامل المعروف باسم العميل المتوقع إلى النقدية وأنشطة التسويق في Dynamics 365 for Sales والتنفيذ في Dynamics 365 for Finance and Operations. وسوف نستعرض أيضًا موحد البيانات وكيفية تعديل التكامل. | التسجيل المجاني لمؤتمر ويب | 54 دقيقة |
+| [أداة تكامل بيانات Dataverse (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | الرجاء الانضمام إلينا في هذا الحديث التقني حول إمكانات أداة تكامل بيانات Dataverse. سوف نناقش خيارات التكامل بين تطبيقات Dynamics 365 Customer Engagement وDynamics 365 Finance and Operations، بالإضافة إلى التكامل مع الحلول الأخرى التابعة لجهات خارجية. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
+| [التكامل بين Between Dynamics 365 for Sales وDynamics 365 for Finance & Operations عن طريق Dataverse (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | في هذا الحديث التقني، سوف نعرض سيناريو التكامل المعروف باسم العميل المتوقع إلى النقدية وأنشطة التسويق في Dynamics 365 for Sales والتنفيذ في Dynamics 365 for Finance and Operations. وسوف نستعرض أيضًا موحد البيانات وكيفية تعديل التكامل. | التسجيل المجاني لمؤتمر ويب | 54 دقيقة |
 | [إدارة البيانات (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | الرجاء الانضمام إلينا في هذا الحديث التقني المتعلق بإدارة البيانات. تعرف على الخيارات المُتاحة والسيناريوهات الموصى باستخدامها. سوف نتناول في هذا الحديث إطار عمل إدارة البيانات والقوالب ونسخ قاعدة البيانات ومشاركة البيانات عبر الشركة واعتبارات الأداء. | التسجيل المجاني لمؤتمر ويب | 58 دقائق |
 | [أدوات تكامل Azure في Dynamics 365 for Finance and Operations (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | سوف يتناول هذا الحديث التقني أنواع الأدوات التي قد توضع في الاعتبار عن التكامل مع Dynamics 365 for Finance & Operations وعند اختيار أداة التكامل المناسبة.  وسوف تتناول الجلسة ايضًا معاينة إرشادية لسيناريوهات التكامل المُنظمة باستخدام خدمات تكامل Azure. | التسجيل المجاني لمؤتمر ويب | 63 دقيقة |
 | [أُطر عمل التكامل داخل Dynamics 365 for Finance & Operations (DYN385PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-frameworks-within-dynamics-365-for-finance-amp-operations-october-31-2017) | سوف تعرض هذه الجلسة نظرة عامة على إطارات عمل التكامل داخل Dynamics 365 for Finance & Operations  وتُناقش الاعتبارات  التي يُمكن استخدام أُطر العمل هذه فيها. | التسجيل المجاني لمؤتمر ويب | 64 دقيقة |
@@ -94,6 +93,3 @@ ms.locfileid: "4528734"
 | المحتوى | ‏‏الوصف  | التنسيق  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[الاختبار MB-500: Microsoft Dynamics 365: مطور تطبيقات Finance and Operations](https://docs.microsoft.com/learn/certifications/exams/mb-500) | يقوم هذا الاختبار بقياس قدرتك على إنجاز المهام التقنية التالية: هندسة الخطة وتصميم الحل؛ تطبيق أدوات المطورين؛ تصميم عناصر AOT وتطويرها؛ تطوير التعليمات البرمجية واختبارها؛ تنفيذ إعداد التقارير؛ تكامل وإدارة حلول البيانات؛ وتنفيذ الأمان وتحسين الأداء. | الاختبار، تختلف التكلفة حسب المنطقة |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

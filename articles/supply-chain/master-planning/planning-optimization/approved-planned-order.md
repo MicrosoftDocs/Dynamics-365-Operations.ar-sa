@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c29ede7ad8916a97b4a04b68f41961f79810e0c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421341"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983559"
 ---
 # <a name="approve-planned-orders"></a>الموافقة على أوامر مخططة
 
@@ -43,6 +42,3 @@ ms.locfileid: "4421341"
 - **موافق عليه‬‬:** إذا أردت الاحتفاظ بعمليات التحرير أو كنت تخطط لتأكيد أمر مخطط، فعليك تغيير الحالة إلى *موافق عليه‬‬*. تُعتبر الأوامر المُخططة التي لها حالة *موافق عليه* بمثابة توريد ثابت ومتوقع من قبل التخطيط الرئيسي، بحيث لا يتم تعديلها أو حذفها أثناء عملية تشغيل لاحقة للتخطيط الرئيسي. لتحقيق هذا، ينسخ منطق التخطيط الأوامر المخططة *المعتمدة* من إصدار الخطة القديمة إلى إصدار الخطة الجديدة أثناء التخطيط الرئيسي. لاحظ أن الأمر المخطط بالحالة *موافق عليه* يعتبر بمثابة توريد فقط ضمن الخطة الرئيسية المحددة.
 
 يمكنك إدارة الأوامر المخططة من مساحة عمل **التخطيط الرئيسي**، أو قائمة **الأمر المخطط**، أو قوائم **أوامر الإنتاج المخططة**، و **أوامر الشراء المخططة**، و **التحويل المخطط**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

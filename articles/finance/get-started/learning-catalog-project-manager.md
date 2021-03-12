@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a0c8dabc91d4d69d3f7098672611610a4ec73ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09f7efbfa0b4b96b52350afb961710057d6a2f92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440053"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984899"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>كتالوج التعلّم لمدراء مشاريع التنفيذ الذين يستخدمون Dynamics 365 Finance
 
@@ -95,6 +94,3 @@ ms.locfileid: "4440053"
 | [الاختبار MB-300: Microsoft Dynamics 365 Unified Operations الأساسي](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | يقوم هذا الاختبار بقياس قدرتك على إنجاز المهام الفنية التالية: استخدام أدوات التنفيذ والوظائف الشائعة وتكوين الأمان والعمليات والخيارات والقيام بترحيل البيانات والتحقق من صحة الحل ودعمه. | الاختبار، تختلف التكلفة حسب المنطقة | |
 | [الاختبار MB-310: Microsoft Dynamics 365 for Finance and Operations، الماليات](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | يقيس هذا الاختبار قدرتك على إنجاز المهام التقنية التالية: إعداد وتكوين الإدارة المالية وإدارة وتطبيق العمليات الشائعة وتنفيذ وإدارة الحسابات الدائنة والمدينة وإدارة إعداد الموازنة والأصول الثابتة. | الاختبار، تختلف التكلفة حسب المنطقة | |
 | [Microsoft Certified: Dynamics 365 for Finance and Operations، إقران مستشار الوظائف المالية ](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Certified: Dynamics 365 for Finance and Operations، يقوم المستشارون الوظيفيون الماليون بتوحيد الماليات العمومية والعمليات وأتمتة المهام وعمليات سير العمل وتبسيط إجراءات طلب العميل والبيع والفوترة وإعداد التقارير. | الشهادة، تختلف التكلفة حسب المنطقة |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
