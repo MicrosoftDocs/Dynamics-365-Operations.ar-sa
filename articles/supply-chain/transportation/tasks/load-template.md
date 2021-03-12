@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1ea7f5244b483a1b9d6c55227c676a3878a71d83
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 0a4070a1dd5d53bb502ba2ab0c91dbdc90ded34d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646356"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005042"
 ---
 # <a name="load-templates"></a>قوالب حمل العمل
 
@@ -54,6 +53,3 @@ ms.locfileid: "4646356"
 1. في جزء الإجراءات، في علامة التبويب **العرض والطلب**، في مجموعة **إضافة**، حدد **إلى حمل جديد**.
 1. في مربع الحوار **قالب الحمل**، في الحقل **معرف قالب الحمل** حدد القالب المطلوب تطبيقه.
 1. حدد **موافق** لتطبيق القالب.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c4e42864bfde9ed0650a88961b5a71b33b34c89d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421691"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004592"
 ---
 # <a name="location-product-dimension-mixing"></a>خلط أبعاد المنتج في الموقع
 
@@ -239,5 +238,3 @@ ms.locfileid: "4421691"
 
 > [!TIP]
 > يمكنك تكرار هذا السيناريو، ولكن في هذه المرة، قم بتعيين **الحجم** - *لا* ضمن علامة التبويب السريعة **السماح بمزج أبعاد المنتج** في *BULK* **ملفات تعريف الموقع**، بحيث لا يمكن مزج أي أبعاد للمنتج. في هذه الحالة، عند استلام أمر الشراء، سيتم وضع كل متغير منتج في موقع جديد.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

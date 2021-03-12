@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421696"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004792"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>سياسة مرنة لحجز البعد على مستوى المستودع
 
@@ -854,6 +853,3 @@ ms.locfileid: "4421696"
     - أوامر التحويل وانتقاء المادة الخام
 
 - تشتمل قاعده دمج الحاوية للتعبئة حسب الوحدة الموجهة عليها علي قيود. بالنسبة لعمليات الحجز المرتبطة بالطلبات ، نوصي بعدم استخدام قوالب بنيه الحاوية حيث تم تمكين الحزم حسب حقل **الوحدة الموجهة**. في التصميم الحالي ، لا يتم استخدام توجيهات المواقع عند إنشاء عمل المستودع. وبالتالي، يتم تطبيق أدنى وحدة في مجموعة تسلسل الوحدة (وحدة المخزون) اثناء خطوة الموجة التعبئة في الحاويات.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

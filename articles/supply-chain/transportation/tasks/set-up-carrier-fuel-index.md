@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSFuelIndexRegion,TMSCarrierFuelIndexTable,TMSFuelIndex
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12ade30b63454dfd997aa47a62cde21b066140fa
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: 772468fa73e18a02331f877a375a5bd089ece6be
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421834"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004917"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>إعداد مؤشر وقود الناقل‬
 
@@ -67,6 +66,3 @@ ms.locfileid: "4421834"
 12. في القائمة، انقر فوق الارتباط في الصف المحدد.
 13. انقر فوق "حفظ".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

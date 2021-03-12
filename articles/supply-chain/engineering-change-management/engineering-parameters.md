@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: dee5429c31bfc872afedfa76ced89633b4b72c96
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421821"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005367"
 ---
 # <a name="engineering-change-management-parameters"></a>معلمات إدارة التغيير الهندسي‬
 
@@ -57,6 +56,3 @@ ms.locfileid: "4421821"
 | قاعدة الأهمية | حدد الكيفية التي يجب بها تاسيس خطورة أمر التغيير الهندسي. حدد *يدويا* إذا كان المستخدم من المتوقع إدخال قيمه في حقل **الخطورة**. حدد *حساب* لجعل النظام يقوم بحساب قيمه حقل **الخطورة** عندما تقوم بتحديد **حساب الخطورة** في جزء الإجراءات الخاص بأمر التغيير الهندسي. في هذه الحالة ، سيقوم النظام باستخدام قواعد الخطورة التي تم تعريفها في الصفحة **ضبط قاعده الخطورة**. حدد *الحساب تلقائيا* لكي يتم تلقائيا حساب قيمه حقل **الخطورة** وملؤها وفقا لمجموعات قواعد الخطورة. |
 | إعادة إصدار المنتجات المتأثرة | ينطبق هذا الحقل عندما تقوم باعاده إصدار المنتجات من خلال أمر التغيير الهندسي. يمكنك تحديد ما إذا كان يجب اقتراح كافة المنتجات أو المنتجات المتاثره فقط في مربع الحوار **إصدارات**. |
 | مستويات قائمة مكونات الصنف المطلوب إصدارها | عمق مستوي قائمه مكونات الصنف المراد إصداره. إذا كانت قائمة مكونات الصنف تحتوي علي مستويات أكثر (مثلا ، إذا كانت أعمق) من القيمة التي تم تحديدها هنا ، سيتم إصدار المستويات حتى خلال القيمة المحددة فقط. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

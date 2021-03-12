@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 94e54220a68889fd31ac3b269f7a7f6f8dd98c8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421784"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005192"
 ---
 # <a name="inventory-on-hand-list"></a>قائمة المخزون الفعلي
 
@@ -146,6 +145,3 @@ ms.locfileid: "4421784"
 | IA0001 | 1 | 2 | 2 |
 
 لاحظ أن الإعدادات الموجودة في جزء **عوامل التصفية** تنطبق على الجدول المفصل (غير المجمع) للمخزون الذي يظهر في بداية هذا القسم. وبالتالي، فإن المعيار **الفعلي المتاح** \| **أقل من أو يساوي** \| _1_ يبحث عن صفين من الجدول (الصف الأول والثالث، يعرض كل واحد منهما قيمة **الفعلي المتاح** من _1_). ومع ذلك، في هذا السيناريو ، لم يتم إعداد صفحة **قائمة المخزون الفعلي** لإظهار **بُعد المستودع**. وهي بالتالي تقوم بتجميع الصفين الأصليين في صف ناتج واحد، لأن الصفين لهما قيم مماثلة في جميع الأبعاد التي تظهر. يبدو هذا الصف وكأنه يخرق معيار التصفية، لأن قيمة **الفعلي المتاح** تظهر على أنها _2_. ومع ذلك، فالنتيجة صحيحة، لأن الإعدادات الموجودة في جزء **عوامل التصفية** تنطبق على الجدول المصدر، وليس على الجدول المجمع الذي يظهر في صفحة **قائمة المخزون الفعلي**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

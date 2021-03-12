@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f1aa04b472eaef7ed398f08a05d46bac2d589561
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514340"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001938"
 ---
 # <a name="engineering-change-management-overview"></a>نظرة عامة حول إدارة التغيير الهندسي
 
@@ -59,6 +58,3 @@ ms.locfileid: "4514340"
 1. انتقل إلى **إدارة النظام \> الإعداد \> تكوين الترخيص**.
 1. قم بتوسيع عقده **التجارة**، ثم حدد خانه الاختيار **أداره التغييرات الهندسية**.
 1. إيقاف تشغيل وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

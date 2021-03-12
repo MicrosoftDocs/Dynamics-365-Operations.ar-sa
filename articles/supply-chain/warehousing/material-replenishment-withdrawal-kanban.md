@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9de46acd8e568be08518d9bf93067748e0541023
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421684"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004449"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>التزويد بحلول كانبان للسحب
 
@@ -87,6 +86,3 @@ ms.locfileid: "4421684"
 
 بعد استهلاك كانبان في موقع إدخال الإنتاج، يتم الإعلام عن كانبان على أنه فارغ، وتتم إضافة كانبان جديد من نفس النوع إلى الدفق. عند إنشاء الكانبان، تتم إضافة بند موجة إلى موجة كانبان. عندما تتم معالجة موجة كانبان، يتم إنشاء عمل المستودع لانتقاء كانبان. يقوم عامل المستودع بمعالجة عمل انتقاء كانبان ويتم توجيهه بواسطة عمل انتقاء المواد لكانبان في موقع المستودع. عندما يؤكد عامل المستودع هذا عملية الانتقاء، يتم إكمال كانبان بشكل تلقائي ويتم توجيه عامل المستودع لوضع المواد في موقع إدخال الإنتاج.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89f885cbbe6a5001b507cd9fb1516733f8faee0f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421442"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005267"
 ---
 # <a name="arrival-overview"></a>نظرة عامة على الوصول
 
@@ -121,6 +120,3 @@ ms.locfileid: "4421442"
 
 ## <a name="summary"></a>ملخص
 باستطاعة الصفحة **نظرة عامة على الوصول** مساعدة مدير المستودع والعاملين فيه على تحقيق نظرة عامة على العمل المتوقع الذي يجب تنفيذه كجزء من عملية واردة. ويمكن استخدام الصفحة أيضًا لبدء عملية وصول الصنف، للمساعدة في ضمان تعقب هذه العناصر عند الدخول الأول إلى المستودع.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

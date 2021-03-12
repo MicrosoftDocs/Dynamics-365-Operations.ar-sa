@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 380329cbeaa1fc2a2691c8165bc57483d1420aa1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421586"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005067"
 ---
 # <a name="improve-master-planning-performance"></a>تحسين أداء التخطيط الرئيسي
 
@@ -162,6 +161,3 @@ ms.locfileid: "4421586"
 - **روتين واحد كثيف في المرة** – لا تقم بتشغيل التخطيط الرئيسي مع أي روتين ثقيل آخر.
 - **مراجعة سجل الجلسة.**
 - **تصفيه الأصناف** – استخدم حالة دورة الحياة لاستبعاد أصناف من تشغيل التخطيط الرئيسي. (لا تستخدم أرقام الأصناف.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

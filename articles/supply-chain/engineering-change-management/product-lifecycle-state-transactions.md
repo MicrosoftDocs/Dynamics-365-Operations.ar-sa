@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421820"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005317"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>حالات دوره حياه المنتج وحركاتها
 
@@ -76,6 +75,3 @@ ms.locfileid: "4421820"
 | وثيقة تأمين | حدد أحدي القيم التالية للتحكم في ما إذا كان سيتم السماح بالعملية الحالية للمنتجات الموجودة في حاله دوره الحياة هذه ام لا:<ul><li>**ممكن** – العملية التجارية مسموح بها.</li><li>**محظور** - غير مسموح بالعملية. إذا حاول أحد المستخدمين استخدام العملية في منتج في حاله دوره الحياة هذه، سيقوم النظام بحظر المحاولة وإظهار خطا بدلا من ذلك. علي سبيل المثال ، قد تمنع شراء منتجات نهاية المنتج.</li><li>**ممكن مع تحذير** – يتم السماح بالعملية ، ولكن سيتم عرض تحذير. علي سبيل المثال ، قد ترغب في وضع منتج اولي في أمر إنتاج تم إنشاؤه بواسطة البحث وقسم التطوير. ومع ذلك ، يجب ان تكون الأقسام الأخرى علي علم بأنه يجب الا ينتج عنها المنتج بعد.</li></ul> |
 
 إذا كنت تقوم باضافه قواعد حاله دوره حياه أكثر كتخصيص ، فيمكنك عرض هذه القواعد في واجهه المستخدم (UI) من خلال تحديد **تحديث العمليات** في الجزء العلوي. يتوفر الزر **تحديث العمليات** فقط للمسؤولين.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

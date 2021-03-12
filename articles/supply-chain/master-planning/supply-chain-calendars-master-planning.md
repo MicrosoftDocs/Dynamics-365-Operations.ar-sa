@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421391"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001789"
 ---
 # <a name="calendars-and-master-planning"></a>التقويمات والتخطيط الرئيسي
 
@@ -143,6 +142,3 @@ ms.locfileid: "4421391"
 
 ### <a name="updating-scm-related-calendars"></a>تحديث التقويمات ذات الصلة SCM
 على الرغم من أهمية تعيين كافة التقويمات ذات الصلة في المكان المناسب لها (المورّد أو العميل أو المستودع أو وضع التسليم أو مجموعة التغطية)، فإن تحديثها هو على قدر الأهمية نفسه بحيث تعكس التغييرات. سيحدد النظام تواريخ الإنتاج والشراء والتحويل وأوامر المبيعات استنادًا إلى مجموعة التقويمات المعينة. من المستحسن توضيح من هي الجهة التي تتحمل مسؤولية تعيين التقويمات وتحديثها في المجالات الخاصة بها. عند حدوث عطل أو تغيير غير اعتيادي في أيام العمل، من الضروري تحديث التقويمات وفقًا لذلك. يجب إعادة تشغيل كافة المهام التي تعتمد على التقويمات، مثل التخطيط الرئيسي وجدولة الإنتاج، عند تحديث التقويمات. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
