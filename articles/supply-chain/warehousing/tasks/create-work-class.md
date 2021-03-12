@@ -11,32 +11,31 @@ ms.technology: ''
 ms.search.form: WHSWorkClass
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed9b72d891df4d40213d4854da6b09bd9876effa
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c0e06cd5fc6dc27f79eb39bbd78932a166e9d442
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421726"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977203"
 ---
-# <a name="create-a-work-class"></a><span data-ttu-id="2b003-103">إنشاء درجة عمل</span><span class="sxs-lookup"><span data-stu-id="2b003-103">Create a work class</span></span>
+# <a name="create-a-work-class"></a><span data-ttu-id="a162a-103">إنشاء درجة عمل</span><span class="sxs-lookup"><span data-stu-id="a162a-103">Create a work class</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2b003-104">يوضح هذا الإجراء كيفية إعداد فئة عمل.</span><span class="sxs-lookup"><span data-stu-id="2b003-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="2b003-105">تُستخدم فئات العمل لتوجيه و/أو الحد من نوع بنود أوامر العمل التي يستطيع عامل مستودع معالجتها على جهاز محمول.</span><span class="sxs-lookup"><span data-stu-id="2b003-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="2b003-106">وتُحدد البنود التي يستطيع عامل معالجتها من فئات العمل بعناصر قائمة الجهاز المحمول التي يحق لعامل المستودع الوصول إليها وفئة العمل المحددة ببنود العمل.</span><span class="sxs-lookup"><span data-stu-id="2b003-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="2b003-107">ويمكن استخدام فئات العمل أيضًا للتحقق من صحة موقع وضع بند أمر عمل.</span><span class="sxs-lookup"><span data-stu-id="2b003-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="2b003-108">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="2b003-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="2b003-109">هذا الإجراء مخصص لمدير المستودعات.</span><span class="sxs-lookup"><span data-stu-id="2b003-109">This procedure is intended for the warehouse manager.</span></span>
+<span data-ttu-id="a162a-104">يوضح هذا الإجراء كيفية إعداد فئة عمل.</span><span class="sxs-lookup"><span data-stu-id="a162a-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="a162a-105">تُستخدم فئات العمل لتوجيه و/أو الحد من نوع بنود أوامر العمل التي يستطيع عامل مستودع معالجتها على جهاز محمول.</span><span class="sxs-lookup"><span data-stu-id="a162a-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="a162a-106">وتُحدد البنود التي يستطيع عامل معالجتها من فئات العمل بعناصر قائمة الجهاز المحمول التي يحق لعامل المستودع الوصول إليها وفئة العمل المحددة ببنود العمل.</span><span class="sxs-lookup"><span data-stu-id="a162a-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="a162a-107">ويمكن استخدام فئات العمل أيضًا للتحقق من صحة موقع وضع بند أمر عمل.</span><span class="sxs-lookup"><span data-stu-id="a162a-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="a162a-108">يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="a162a-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="a162a-109">هذا الإجراء مخصص لمدير المستودعات.</span><span class="sxs-lookup"><span data-stu-id="a162a-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. <span data-ttu-id="2b003-110">انتقل إلى إدارة المستودعات > الإعداد > العمل > فئات العمل.</span><span class="sxs-lookup"><span data-stu-id="2b003-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
-2. <span data-ttu-id="2b003-111">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="2b003-111">Click New.</span></span>
-3. <span data-ttu-id="2b003-112">في الحقل "معرف فئة العمل"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="2b003-112">In the Work class ID field, type a value.</span></span>
-4. <span data-ttu-id="2b003-113">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="2b003-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="2b003-114">في الحقل "نوع أمر العمل‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="2b003-114">In the Work order type field, select an option.</span></span>
-6. <span data-ttu-id="2b003-115">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="2b003-115">Click New.</span></span>
-7. <span data-ttu-id="2b003-116">في الحقل "نوع الموقع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="2b003-116">In the Location type field, type a value.</span></span>
-    * <span data-ttu-id="2b003-117">إذا قمت بتحديد نوع موقع، سيؤدي هذا إلى تعيين قيد على المواقع التي يمكن وضع العناصر بها بعد اختيارها.</span><span class="sxs-lookup"><span data-stu-id="2b003-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="2b003-118">يُستخدم هذا الإعداد عندما يحاول توجيه موقع حل الموقع أو عندما يوفر عامل مستودع الموقع لعنصر قائمة الجهاز المحمول يدوياً.</span><span class="sxs-lookup"><span data-stu-id="2b003-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
-8. <span data-ttu-id="2b003-119">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="2b003-119">Close the page.</span></span>
+1. <span data-ttu-id="a162a-110">انتقل إلى إدارة المستودعات > الإعداد > العمل > فئات العمل.</span><span class="sxs-lookup"><span data-stu-id="a162a-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
+2. <span data-ttu-id="a162a-111">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a162a-111">Click New.</span></span>
+3. <span data-ttu-id="a162a-112">في الحقل "معرف فئة العمل"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a162a-112">In the Work class ID field, type a value.</span></span>
+4. <span data-ttu-id="a162a-113">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a162a-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="a162a-114">في الحقل "نوع أمر العمل‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="a162a-114">In the Work order type field, select an option.</span></span>
+6. <span data-ttu-id="a162a-115">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a162a-115">Click New.</span></span>
+7. <span data-ttu-id="a162a-116">في الحقل "نوع الموقع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a162a-116">In the Location type field, type a value.</span></span>
+    * <span data-ttu-id="a162a-117">إذا قمت بتحديد نوع موقع، سيؤدي هذا إلى تعيين قيد على المواقع التي يمكن وضع العناصر بها بعد اختيارها.</span><span class="sxs-lookup"><span data-stu-id="a162a-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="a162a-118">يُستخدم هذا الإعداد عندما يحاول توجيه موقع حل الموقع أو عندما يوفر عامل مستودع الموقع لعنصر قائمة الجهاز المحمول يدوياً.</span><span class="sxs-lookup"><span data-stu-id="a162a-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
+8. <span data-ttu-id="a162a-119">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="a162a-119">Close the page.</span></span>
 
