@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
-ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
+ms.openlocfilehash: 24d57982981ca7b72e43c086ace381e420acb06c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672434"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975676"
 ---
 # <a name="get-started-with-financial-reporting"></a>الشروع في العمل مع التقارير المالية 
 
@@ -47,7 +46,9 @@ ms.locfileid: "4672434"
 -   التقويم المالي
 -   دفتر الأستاذ
 -   دليل الحسابات
--   العملة
+-   عملة
+-   ترحيل حركة إلى حساب واحد على الأقل
+-   يتم سرد MainAccount في العمود المحدد في **دفتر الأستاذ العام > إعداد دفتر الأستاذ > إعداد التقارير المالية**
 
 ## <a name="granting-security-access-to-financial-reporting"></a>منح الوصول الآمن إلى Financial Reporting
 تتوفر مهام التقارير المالية للمستخدمين الذين تم تعيين الامتيازات والواجبات المناسبة لهم من خلال أدوار الأمان الخاصة بهم. تسرد الأقسام التالية هذه الامتيازات والواجبات، جنبًا إلى جنب مع الأدوار المرتبطة بها.
@@ -173,6 +174,3 @@ ms.locfileid: "4672434"
 ## <a name="additional-resources"></a>الموارد الإضافية
 - [عرض التقارير المالية](view-financial-reports.md)
 - [تعريفات شجرة التقارير في التقارير المالية](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

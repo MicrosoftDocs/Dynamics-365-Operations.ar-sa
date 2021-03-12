@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440065"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975754"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>نظرة عامة حول تحويل العملة وعمليات الدمج المالية
 
@@ -125,7 +124,7 @@ ms.locfileid: "4440065"
 
 بعد تعريف الخصائص الأساسية، حدد **البنود** لتعريف قواعد المعالجة الفعلية. هناك خياران للاستبعاد: يمكنك استبعاد مبلغ صافي التغيير أو تحديد مبلغ ثابت.
 
-حدد الحسابات المصدر. يمكنك استخدام علامة النجمة (\*) كحرف بدل. على سبيل المثال، يحدد الرقم **1\*** جميع الحسابات التي تبدأ بالرقم **1** كمصدر للتوزيع.
+حدد الحسابات المصدر. يمكنك استخدام علامة النجمة (\*) كحرف بدل. على سبيل المثال، يحدد الرقم **1\**_ جميع الحسابات التي تبدأ بالرقم _* 1** كمصدر للتوزيع.
 
 بعد تحديد الحسابات المصدر، استخدم الحقل **مواصفات الحساب** لتحديد الحساب المستخدم من قبل الشركة الوجهة. حدد **المصدر** لاستخدام الحساب الرئيسي نفسه المحدد في الحساب المصدر. إذا قمت بتحديد **مُعرّف من قبل المستخدم**، فيجب تحديد حساب وجهة.
 
@@ -182,6 +181,3 @@ ms.locfileid: "4440065"
 
 ## <a name="generating-consolidated-financial-statements"></a>إنشاء قوائم مالية مدمجة
 لمزيد من المعلومات حول السيناريوهات حيث قد تنشئ قوائم مالية مدمجة، راجع [إنشاء قوائم مالية مدمجة‬](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

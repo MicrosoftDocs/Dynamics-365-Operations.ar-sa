@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: 75938e6fdf5fd8f10ac9719fc449a586c08d06b8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514316"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975931"
 ---
 # <a name="split-a-fixed-asset"></a>تقسيم أصل ثابت
 
@@ -63,6 +62,3 @@ ms.locfileid: "4514316"
     - يتم إنشاء حركة استحواذ للأصل الجديد بالمبلغ نفسه.
 
 4. حدد **ترحيل**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -8,21 +8,20 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: d1ed91adba5c7accf9a18d7a754d33b2b35b848f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646357"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974203"
 ---
 # <a name="load-building-workbench"></a>منضدة عمل إنشاء الحِمل
 
@@ -67,6 +66,3 @@ ms.locfileid: "4646357"
 1. راجع التحميلات المقترحة وخطوط التحميل المقترحة.
 1. في جزء الاجراء ، حدد **إنشاء تحميلات** لإنشاء تحميلات تستند إلى سطور المستند المصدر في علامة التبويب السريعة **بنود التحميل المقترحة**.
 1. قم بإغلاق الصفحة **منضدة بناء التحميل**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

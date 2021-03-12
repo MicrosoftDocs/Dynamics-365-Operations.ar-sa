@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: de9328f69938151c5558d41263d36b873d117e4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645159"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975472"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>تحويل دفتر الأستاذ الفرعي إلى دفتر الأستاذ العام
 
@@ -42,6 +41,3 @@ ms.locfileid: "4645159"
 في إصدار 10.0.8، تم اجراء تحسينات لتحسين أداء الخيار غير المتزامن. يتم تمكين هذه الميزة ضمن اسم الميزة **تحسين أداء تحويل دفتر الأستاذ الفرعي إلى دفتر الأستاذ العام**. 
  
 تعمل هذه الوظيفة علي تحسين نقل البيانات من دفتر الأستاذ الفرعي إلى دفتر الأستاذ العام. وهو يسمح بان تكون العملية أكثر فعاليه ، كما انها تقوم بتجميع مجموعات من الحركات الأصغر لنقلها. وهذا يسمح باستخدام خادم المجموعة بكفاءة أكبر. تتطلب هذه الوظيفة اعداد خادم المجموعة والاتصال بالإنترنت لكي يعمل خيار التحويل غير المتزامن. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

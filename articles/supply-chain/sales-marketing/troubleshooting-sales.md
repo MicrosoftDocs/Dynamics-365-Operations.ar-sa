@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421325"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974775"
 ---
 # <a name="troubleshoot-sales-orders"></a>استكشاف أخطاء أوامر المبيعات وإصلاحها
 
@@ -59,6 +58,8 @@ ms.locfileid: "4421325"
 يمكنك إلغاء أوامر الشراء وأوامر الإرجاع فقط عندما تكون حالتها *مُنشأة*. لمزيد من المعلومات، راجع [إلغاء أمر إرجاع](../service-management/cancel-return-order.md).
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>عندما أحاول إلغاء أمر مبيعات أتلقى رسالة الخطأ " لا يمكن إزالة الحجوزات نظرًا لوجود عمل مُنشأ يعتمد على الحجوزات".‬
+
+رمز الخطأ: WAX4661
 
 إذا كان العمل يقترن بأمر مبيعات، فلا يمكنك إلغاء أمر المبيعات حتى يتم إلغاء العمل وعكسه. ينطبق هذا المتطلب حتى لون كان العمل المرتبط  بأمر  المبيعات مغلقا.
 
@@ -108,9 +109,6 @@ ms.locfileid: "4421325"
 
 ## <a name="a-bundle-item-isnt-supported-in-an-intercompany-process"></a>صنف المجموعة غير مدعوم في عملية بين الشركات الشقيقة.
 
-لا يتوفر صنف المجموعة لأمر الشراء لأنك، إذا قمت بفحص بنود أمر المبيعات لصنف المجموعة، ستلاحظ أن الكمية هي *0* (صفر) والحالة هي *ملغى*.. يتم هذا السلوك بسبب التصميم. يشتري أمر المبيعات مكونات صنف المجموعة فقط. ولا يشتري صنف المجموعة بحد ذاته.
+لا يتوفر صنف المجموعة لأمر الشراء لأنك، إذا قمت بفحص بنود أمر المبيعات لصنف المجموعة، ستلاحظ أن الكمية هي *0* (صفر) والحالة هي *ملغى*. يتم هذا السلوك بسبب التصميم. يشتري أمر المبيعات مكونات صنف المجموعة فقط. ولا يشتري صنف المجموعة بحد ذاته.
 
 إذا كان من الضروري شراء مجموعة، فعليك أن تأخذ في الاعتبار ما إذا كان يجب وضع علامة عليه كصنف مجموعة، لأن هذه الوظيفة مصممة بالفعل لسيناريوهات التعرف على الإيرادات. لمزيد من المعلومات حول أصناف المجموعة، راجع [المجموعات](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

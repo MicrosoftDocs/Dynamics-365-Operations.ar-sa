@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55c3d6c0f2cddb4da8fd82f26ca3184b194e174b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440018"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975881"
 ---
 # <a name="configure-account-structures"></a>تكوين بنيات حساب
 
@@ -107,6 +106,3 @@ ms.locfileid: "4440018"
 عندما تكون راضيًا بالإعداد الجديد أو بالتغيير إلى بنية الحساب، فإنه يجب تنشيطه. إذا تم تعيين بنية حساب إلى دفتر الأستاذ، يمكن أن يكون هذا التنشيط عملية طويلة المدة، لأن كل المعاملات غير المنشورة في النظام يجب مزامنتها للبنية الجديدة. لن تتأثر المعاملات المنشورة بتغييرات بنية الحساب.
 
 للحصول على المزيد من المعلومات، راجع [خطط دليل الحسابات الخاص بك‬‏‫](plan-chart-of-accounts.md)، و [الأبعاد المالية](financial-dimensions.md) و [‬‏‫إدخال مجموعات الحسابات والأبعاد (عنصر تحكم في الإدخال المقسم)](enter-account-dimension-combinations-segmented-entry-control.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
