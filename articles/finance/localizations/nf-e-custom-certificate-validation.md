@@ -11,28 +11,27 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 26ffed1f49d9087ca767aab1b8cac41b099f73cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f13e8b8229bbd9e174e5bde7858a468048ba309b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439882"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990076"
 ---
-# <a name="nf-e-custom-certificate-validation"></a><span data-ttu-id="e74b6-103">التحقق من صحة الشهادة NF-e مخصصة</span><span class="sxs-lookup"><span data-stu-id="e74b6-103">NF-e custom certificate validation</span></span>
+# <a name="nf-e-custom-certificate-validation"></a><span data-ttu-id="29264-103">التحقق من صحة الشهادة NF-e مخصصة</span><span class="sxs-lookup"><span data-stu-id="29264-103">NF-e custom certificate validation</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e74b6-104">عند تشغيل ميزه التحقق من صحة شهادة NF-e مخصصة، يسمح التحقق المخصص من الصحة بالاتصال بخدمات الويب.</span><span class="sxs-lookup"><span data-stu-id="e74b6-104">When you turn the NF-e custom certificate verification feature, custom validation allows a connection with the web services.</span></span> <span data-ttu-id="e74b6-105">هذا الاتصال مطلوب لإرسال NF-e واستلام التخويل من SEFAZ.</span><span class="sxs-lookup"><span data-stu-id="e74b6-105">This connection is required to transmit NF-e and receive authorization from SEFAZ.</span></span>
+<span data-ttu-id="29264-104">عند تشغيل ميزه التحقق من صحة شهادة NF-e مخصصة، يسمح التحقق المخصص من الصحة بالاتصال بخدمات الويب.</span><span class="sxs-lookup"><span data-stu-id="29264-104">When you turn the NF-e custom certificate verification feature, custom validation allows a connection with the web services.</span></span> <span data-ttu-id="29264-105">هذا الاتصال مطلوب لإرسال NF-e واستلام التخويل من SEFAZ.</span><span class="sxs-lookup"><span data-stu-id="29264-105">This connection is required to transmit NF-e and receive authorization from SEFAZ.</span></span>
 
-<span data-ttu-id="e74b6-106">يتم إصدار خاصيه **غرض مصادقه الخادم** من الشهادة V5 من قبل هيئه Brazilian Root Certificate Authority.</span><span class="sxs-lookup"><span data-stu-id="e74b6-106">The **Server authentication purpose** property from the certificate V5 is issued by the Brazilian Root Certificate Authority.</span></span> <span data-ttu-id="e74b6-107">يتم إيقاف تشغيل هذه الخاصية افتراضيا ويجب تمكينها يدويا.</span><span class="sxs-lookup"><span data-stu-id="e74b6-107">This property is turned off by default and must be manually enabled.</span></span> <span data-ttu-id="e74b6-108">في بعض الحالات، يمكن لتحديث الشهادة التلقائي تبديل هذه الخاصية إلى لم يعد ممكنا.</span><span class="sxs-lookup"><span data-stu-id="e74b6-108">In some circumstances, the automatic certificate update can switch this property to no longer be enabled.</span></span> <span data-ttu-id="e74b6-109">إذا حدث ذلك، فان اتصال TLS متأثر ولا يعد موثوقا به.</span><span class="sxs-lookup"><span data-stu-id="e74b6-109">If this happens, the TLS connection is affected and is no longer trusted.</span></span> <span data-ttu-id="e74b6-110">وتتاثر القدرة علي إصدار NF-e في بيئات الإنتاج لولايات ميناس جريس (MG) وولايات بارانا (PR) أيضا.</span><span class="sxs-lookup"><span data-stu-id="e74b6-110">The ability to issue NF-e on production environments for states of Minas Gerais (MG) and Paraná (PR) states is also impacted.</span></span>
+<span data-ttu-id="29264-106">يتم إصدار خاصيه **غرض مصادقه الخادم** من الشهادة V5 من قبل هيئه Brazilian Root Certificate Authority.</span><span class="sxs-lookup"><span data-stu-id="29264-106">The **Server authentication purpose** property from the certificate V5 is issued by the Brazilian Root Certificate Authority.</span></span> <span data-ttu-id="29264-107">يتم إيقاف تشغيل هذه الخاصية افتراضيا ويجب تمكينها يدويا.</span><span class="sxs-lookup"><span data-stu-id="29264-107">This property is turned off by default and must be manually enabled.</span></span> <span data-ttu-id="29264-108">في بعض الحالات، يمكن لتحديث الشهادة التلقائي تبديل هذه الخاصية إلى لم يعد ممكنا.</span><span class="sxs-lookup"><span data-stu-id="29264-108">In some circumstances, the automatic certificate update can switch this property to no longer be enabled.</span></span> <span data-ttu-id="29264-109">إذا حدث ذلك، فان اتصال TLS متأثر ولا يعد موثوقا به.</span><span class="sxs-lookup"><span data-stu-id="29264-109">If this happens, the TLS connection is affected and is no longer trusted.</span></span> <span data-ttu-id="29264-110">وتتاثر القدرة علي إصدار NF-e في بيئات الإنتاج لولايات ميناس جريس (MG) وولايات بارانا (PR) أيضا.</span><span class="sxs-lookup"><span data-stu-id="29264-110">The ability to issue NF-e on production environments for states of Minas Gerais (MG) and Paraná (PR) states is also impacted.</span></span>
 
-<span data-ttu-id="e74b6-111">يسمح هذا التحديث بحل بديل للتحقق من صحة الشهادة، مما يعني انه من الممكن تاسيس اتصال آمن.</span><span class="sxs-lookup"><span data-stu-id="e74b6-111">This update allows for an alternative solution for certificate validation, which means that it’s possible to establish a secure communication.</span></span>
+<span data-ttu-id="29264-111">يسمح هذا التحديث بحل بديل للتحقق من صحة الشهادة، مما يعني انه من الممكن تاسيس اتصال آمن.</span><span class="sxs-lookup"><span data-stu-id="29264-111">This update allows for an alternative solution for certificate validation, which means that it’s possible to establish a secure communication.</span></span>
 
 
