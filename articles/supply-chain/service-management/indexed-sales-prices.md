@@ -11,34 +11,33 @@ ms.technology: ''
 ms.search.form: SMASubscriptionCreateDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f8c466df0b877c3f664acff2b431b3098fe2e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2103bc79e2a9671a059657838245e2d60455e168
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421589"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965870"
 ---
-# <a name="indexed-sales-prices"></a><span data-ttu-id="9e252-103">أسعار المبيعات المفهرسة</span><span class="sxs-lookup"><span data-stu-id="9e252-103">Indexed sales prices</span></span>  
+# <a name="indexed-sales-prices"></a><span data-ttu-id="fec76-103">أسعار المبيعات المفهرسة</span><span class="sxs-lookup"><span data-stu-id="fec76-103">Indexed sales prices</span></span>  
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="9e252-104">يتم إعداد فهرس لأسعار مبيعات الاشتراك عند إنشاء رسوم الاشتراك.</span><span class="sxs-lookup"><span data-stu-id="9e252-104">You set up the index for a subscription sales price when you create a subscription fee.</span></span>
+<span data-ttu-id="fec76-104">يتم إعداد فهرس لأسعار مبيعات الاشتراك عند إنشاء رسوم الاشتراك.</span><span class="sxs-lookup"><span data-stu-id="fec76-104">You set up the index for a subscription sales price when you create a subscription fee.</span></span>
 
-<span data-ttu-id="9e252-105">في نموذج **إنشاء رسوم اشتراك**، قم يتعيين حقل **الحصول على التسعير من** إلى **السعر الأساسي المفهرس**، وبعد ذلك اضرب السعر الأساسي في النسبة المئوية في حقل **تغيير سعر النسبة** للحصول على سعر المبيعات الخاص بحركة الاشتراك.</span><span class="sxs-lookup"><span data-stu-id="9e252-105">In the **Create subscription fee** form, set the **Get pricing from** field to **Indexed base price**, and then multiply the base price by the percentage in the **Percent price change** field to get the sales price of the subscription transaction.</span></span>
+<span data-ttu-id="fec76-105">في نموذج **إنشاء رسوم اشتراك**، قم يتعيين حقل **الحصول على التسعير من** إلى **السعر الأساسي المفهرس**، وبعد ذلك اضرب السعر الأساسي في النسبة المئوية في حقل **تغيير سعر النسبة** للحصول على سعر المبيعات الخاص بحركة الاشتراك.</span><span class="sxs-lookup"><span data-stu-id="fec76-105">In the **Create subscription fee** form, set the **Get pricing from** field to **Indexed base price**, and then multiply the base price by the percentage in the **Percent price change** field to get the sales price of the subscription transaction.</span></span>
 
-<span data-ttu-id="9e252-106">على سبيل المثال، إذا كان السعر الأساسي هو 1000 يورو وكان الفهرس يساوي 110، فإن سعر المبيعات يكون 1100 يورو.</span><span class="sxs-lookup"><span data-stu-id="9e252-106">For example, if the base price is EUR 1,000, and the index is 110, the sales price is EUR 1,100.</span></span>
+<span data-ttu-id="fec76-106">على سبيل المثال، إذا كان السعر الأساسي هو 1000 يورو وكان الفهرس يساوي 110، فإن سعر المبيعات يكون 1100 يورو.</span><span class="sxs-lookup"><span data-stu-id="fec76-106">For example, if the base price is EUR 1,000, and the index is 110, the sales price is EUR 1,100.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9e252-107">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="9e252-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fec76-107">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="fec76-107">See also</span></span>
 
-[<span data-ttu-id="9e252-108">إنشاء حركات رسوم الاشتراك</span><span class="sxs-lookup"><span data-stu-id="9e252-108">Create subscription fee transactions</span></span>](create-subscription-fee-transactions.md)
+[<span data-ttu-id="fec76-108">إنشاء حركات رسوم الاشتراك</span><span class="sxs-lookup"><span data-stu-id="fec76-108">Create subscription fee transactions</span></span>](create-subscription-fee-transactions.md)
 
   
 
