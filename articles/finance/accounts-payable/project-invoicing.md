@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439900"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979574"
 ---
 # <a name="project-invoicing"></a>فوترة المشروع
 
@@ -75,7 +74,7 @@ ms.locfileid: "4439900"
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>عرض معلومات المنح في صفحات قوائم فواتير المشروع
 
-بإمكان مستخدمي القطاع العام إضافة **معرف المنحة** و **اسم المنحة** إلى صفحات القائمتين **مقترحات فاتورة المشروع** و **فواتير المشروع**. يتم تمكين هذه الأعمدة باستخدام الميزة **إضافة معلومات المنح في صفحات قوائم فواتير المشروع**. تكون هذه الميزة متوقفة عن التشغيل بشكل افتراضي ويمكن تمكينها في **مساحات العمل > إدارة لميزات**. اتصل بمسؤول النظام للمساعدة في تمكين هذه الميزة.
+بإمكان مستخدمي القطاع العام إضافة **معرف المنحة** و **اسم المنحة** إلى صفحات القائمتين **مقترحات فاتورة المشروع** و **فواتير المشروع**. يتم تمكين هذه الأعمدة باستخدام الميزة **إضافة معلومات المنح في صفحات قوائم فواتير المشروع**. تكون هذه الميزة متوقفة عن التشغيل بشكل افتراضي ويمكن تمكينها في **مساحات العمل > إدارة لميزات**. اتصل بمسؤول النظام للمساعدة في تمكين هذه الميزة.
 
 ## <a name="on-account-invoicing"></a>فوترة على الحساب
 يستند المبلغ الذي قمت بإدخاله في فاتورة على الحساب لمشروع إلى التوقيت والنسبة المئوية للاكتمال وغيرها من شروط الفوترة الأخرى المحددة في عقد المشروع المرتبط. لا يتم احتساب المبلغ على أساس عدد الساعات أو الأصناف أو المصروفات أو الرسوم أو الحركات الأخرى التي تم ترحيلها إلى مشروع. 
@@ -132,6 +131,3 @@ ms.locfileid: "4439900"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

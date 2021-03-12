@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1ddf41d88d085b102a7d69eeeff0ec463d8b4137
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fb17a94cd4a472ad609a0c2f688c4a700f072072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439912"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979104"
 ---
 # <a name="customer-credit-groups"></a>مجموعات الائتمان للعميل
 
@@ -39,6 +38,3 @@ ms.locfileid: "4439912"
 بعد الانتهاء من إعداد مجموعة ائتمان العملاء، يمكنك إضافة العملاء إليها عن طريق تحديد كيانهم القانوني ومعرف حساب العميل الخاص بكل واحد منهم. عند إضافة عميل جديد إلى مجموعة ائتمان العملاء، يبحث النظام عن العميل نفسه عبر جميع الكيانات القانونية ويطالبك بإضافته إلى مجموعة ائتمان العملاء.
 
 استخدم قائمة **الأرصدة القديمة‬** لعرض تفاصيل رصيد قديم لجميع فواتير العملاء في مجموعة ائتمان العملاء. تعرض صفحة‏‎ **رصيد التقادم** ملخصًا للأرصدة القديمة الخاصة بحسابات عملاء الفواتير.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

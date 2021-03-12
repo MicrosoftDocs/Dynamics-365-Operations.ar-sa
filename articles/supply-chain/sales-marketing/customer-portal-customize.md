@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527353"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980846"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>تخصيص مدخل العميل واستخدامه
 
@@ -40,9 +39,9 @@ ms.locfileid: "4527353"
 - [إدارة محتوى المدخل](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – يشرح هذا الموضوع كيفية إدارة وتخصيص المحتوى الذي تعرضه في مدخلك.
 - [تحرير CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – يساعدك هذا الموضوع على اجراء المزيد من عمليات التخصيص المعقدة لواجهة المستخدم (UI) في مدخلك.
 - [إنشاء نسق لمدخلك](https://docs.microsoft.com/dynamics365/portals/create-theme) – يساعدك هذا الموضوع على إنشاء نسق لواجهة المستخدم في مدخلك.
-- [إنشاء محتوى المدخل وعرضه بسهولة](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – يساعدك هذا الموضوع على إدارة البيانات والكيانات الأساسية التي تستخدمها لمدخلك.
+- [إنشاء محتوى المدخل وعرضه بسهولة](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – يساعدك هذا الموضوع على إدارة البيانات والجداول الأساسية التي تستخدمها لمدخلك.
 - [تكوين جهة اتصال لاستخدامها على مدخل](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – يشرح هذا الموضوع كيفية إنشاء أدوار المستخدمين وتخصيصها، وكيفية عمل الأمان والمصادقة في مداخل Power Apps.
-- [تكوين الملاحظات لنماذج الكيانات ونماذج الويب على المداخل](https://docs.microsoft.com/powerapps/maker/portals/configure-notes)– يشرح هذا الموضوع كيفية إضافة مستندات ومساحة تخزين إضافية إلى مدخلك.
+- [تكوين الملاحظات لنماذج الجدول ونماذج الويب على المداخل](https://docs.microsoft.com/powerapps/maker/portals/configure-notes)– يشرح هذا الموضوع كيفية إضافة مستندات ومساحة تخزين إضافية إلى مدخلك.
 - [معالجة الأخطاء لموقع ويب للدخل](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – يشرح هذا الموضوع كيفية عرض سجلات أخطاء المدخل وتخزينها في حساب مخزن البيانات الثنائية كبيرة الحجم في Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>تخصيص عملية إنشاء الأوامر
@@ -91,7 +90,7 @@ ms.locfileid: "4527353"
 
 للمساعدة في ضمان تجربة سلسلة للمستخدم، يقوم مدخل العميل بملء القيم لعدة حقول مطلوبة بشكل تلقائي. تستند هذه القيم إلى المعلومات الموجودة في سجل جهة الاتصال الخاصة بالعميل الذي يرسل الأمر.
 
-بالنسبة إلى كل [سجل جهة اتصال](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ينتمي إلى عميل سيقوم باستخدام مدخل العميل لإرسال الأوامر، يجب تحديد القيم للحقول المطلوبة التالية. والا، ستحدث أخطاء.
+بالنسبة إلى كل [صف جهة اتصال](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ينتمي إلى عميل سيقوم باستخدام مدخل العميل لإرسال الأوامر، يجب تحديد القيم للحقول المطلوبة التالية. والا، ستحدث أخطاء.
 
 - **الشركة** – الكيان القانوني الذي ينتمي إليه الأمر
 - **العميل المحتمل** – حساب العميل المرتبط بالأمر.
@@ -99,7 +98,7 @@ ms.locfileid: "4527353"
 - **العملة** – عملة السعر
 - **شحن إلى البلد/المنطقة** – البلد أو المنطقة حيث سيتم تسليم الأصناف.
 
-يتم تعيين الحقول التالية بشكل تلقائي إلى كيان أمر المبيعات:
+يتم تعيين الحقول التالية بشكل تلقائي إلى جدول أمر المبيعات:
 
 - **اللغة** – لغة الأمر (افتراضيًا، تؤخذ القيمة من سجل جهة الاتصال.)
 - **شحن إلى البلد/المنطقة** – البلد أو المنطقة حيث سيتم تسليم الأصناف (بشكل افتراضي، تؤخذ القيمة من سجل جهة الاتصال.)
@@ -116,7 +115,7 @@ ms.locfileid: "4527353"
 
 يمكنك تعديل مظهر واجهة المستخدم ومدخل العميل إذا لم تقم بتغيير عملية إنشاء الأوامر الأساسية. إذا أردت تغيير عملية إنشاء الأوامر الأساسية، ثمة نقاط قليلة يجب أخذها في الاعتبار.
 
-لا تقم بإزالة الحقول التالية من كيان أمر العمل في Common Data Service، لأنها مطلوبة لإنشاء أمر مبيعات في الكتابة المزدوجة:
+لا تقم بإزالة الأعمدة التالية من جدول أمر العمل في Microsoft Dataverse، لأنها مطلوبة لإنشاء أمر مبيعات في الكتابة المزدوجة:
 
 - **الشركة** – الكيان القانوني الذي ينتمي إليه الأمر
 - **الاسم‏‎** – اسم أمر المبيعات
@@ -127,7 +126,7 @@ ms.locfileid: "4527353"
 - **اللغة** – لغة الأمر (عادةً ما تكون هذه اللغة لغة العميل المحتمل.)
 - **وصف عنوان التسليم** – عنوان التسليم الخاص بأمر المبيعات
 
-بالنسبة للأصناف، الحقول التالية مطلوبة:
+بالنسبة للأصناف، الأعمدة التالية مطلوبة:
 
 - **المنتج** – المنتج المطلوب طلبه
 - **الكمية** – كمية المنتج المحدد.
@@ -135,11 +134,11 @@ ms.locfileid: "4527353"
 - **شحن إلى بلد/منطقة** – بلد أو منطقة التسليم
 - **وصف عنوان التسليم** – عنوان التسليم الخاص بالأمر
 
-يجب أن تتأكد من أن مدخل العميل يرسل القيم لجميع هذه الحقول.
+يجب أن تتأكد من أن مدخل العميل يرسل القيم لجميع هذه الأعمدة.
 
-إذا أردت إضافة حقول إلى الصفحة، أو إزالة حقول، راجع [إنشاء نماذج إنشاء سريعة أو تحريرها للحصول على تجربة إدخال بيانات مبسطة](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+إذا أردت إضافة الأعمدة إلى الصفحة، أو إزالة الأعمدة، راجع [إنشاء نماذج إنشاء سريعة أو تحريرها للحصول على تجربة إدخال بيانات مبسطة](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
-إذا أردت تغيير طريقة الإعداد المسبق للحقول وكيفية تعيين القيم عند حفظ الصفحة، راجع المعلومات التالية في وثائق مداخل Power Apps:
+إذا أردت تغيير طريقة الإعداد المسبق للأعمدة وكيفية تعيين القيم عند حفظ الصفحة، راجع المعلومات التالية في وثائق مداخل Power Apps:
 
 - [ملء الحق بشكل مسبق](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [تعيين القيمة عند الحفظ](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,6 +175,3 @@ ms.locfileid: "4527353"
 - [ترقية مدخل](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [ترحيل تكوين المدخل](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [إدارة دورة حياة الحل: تطبيقات Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

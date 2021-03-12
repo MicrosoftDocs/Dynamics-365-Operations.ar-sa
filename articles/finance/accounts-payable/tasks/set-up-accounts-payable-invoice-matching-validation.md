@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 662b080a0e87ae6ce7d89ffa848579517dd9b6a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439889"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979228"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>إعداد التحقق من صحة مطابقة فاتورة الحسابات الدائنة
 
@@ -98,6 +97,3 @@ ms.locfileid: "4439889"
 
 1. لتحديد قيم التفاوت لمورّدين مفردين يتجاوزون التفاوت الافتراضي، حدد **حساب المورد**.
 2. أدخل نسبة الاختلاف التي ستقبلها لهذا المورّد.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

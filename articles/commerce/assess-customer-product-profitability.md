@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysOperationsTemplateForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3218a29995791ce0d9a42d5b6d898d6e548f0f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3770832cb8eee96931d8f8e68c726d5e09d3fceb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409869"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980044"
 ---
 # <a name="assess-customer-and-product-profitability"></a>تقييم العميل وربحية المنتج
 
@@ -56,6 +55,3 @@ ms.locfileid: "4409869"
 - مساحة عمل **إدارة المتجر** &gt; **البيع بالتجزئة والتجارة** &gt; **القنوات** &gt; **إدارة المتجر** &gt; **التقارير** &gt; **تقرير أهم المنتجات**
 - مساحة عمل **إدارة الفئات والمنتجات** &gt; **البيع بالتجزئة والتجارة** &gt; **المنتجات والفئات** &gt; **إدارة المتجر** &gt; **التقارير** &gt; **تقرير أهم المنتجات**
 - قسم **الاستعلامات والتقارير** &gt; **البيع بالتجزئة والتجارة** &gt; **الاستعلامات والتقارير** &gt; **تقارير المبيعات** &gt; **تقرير أهم المنتجات‬**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529568"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980796"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>نظرة عامة على مدخل العميل في Dynamics 365 Supply Chain Management
 
@@ -64,11 +63,8 @@ ms.locfileid: "4529568"
 
 [إن مداخل Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) عبارة عن ميزه تتيح للمستخدمين إنشاء موقع خارجي يستطيع الأشخاص من خارج المؤسسة تسجيل الدخول اليه. لإنشاء المداخل، تحتاج إلى تعليمات برمجية قليلة أو لا تحتاجها إطلاقًا. يعد مدخل العميل واحدًا من ضمن [قوالب مداخل Dynamics 365](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) المتعددة المتوفرة من Microsoft.
 
-[الكتابة المزدوجة](https://docs.microsoft.com/powerapps/maker/portals/overview) هي بنية أساسية جاهزة توفر تفاعلاً قريبًا من الوقت الفعلي بين التطبيقات مستندة إلى النموذج في Dynamics 365 وتطبيقات Finance and Operations. وتوفر الكتابة المزدوجة تكاملاً ثنائي الاتجاه بين تطبيقات Finance and Operations وCommon Data Service. وهي بالتالي توفر تجربة متكاملة للمستخدم عبر التطبيقات. يعتمد مدخل العميل على الكيانات التي تتم مزامنتها مع الكتابة المزدوجة. قبل التمكن من إظهار البيانات من Supply Chain Management في مدخل العميل، يجب تمكين الكتابة المزدوجة لكافة الكيانات المناسبة.
+[الكتابة المزدوجة](https://docs.microsoft.com/powerapps/maker/portals/overview)‬ هي بنية أساسية جاهزة توفر تفاعلاً قريبًا من الوقت الفعلي بين تطبيقات Customer Engagement وتطبيقات Finance and Operations. وتوفر الكتابة المزدوجة تكاملاً ثنائي الاتجاه بين تطبيقات Finance and Operations وMicrosoft Dataverse. وهي بالتالي توفر تجربة متكاملة للمستخدم عبر التطبيقات. يعتمد مدخل العميل على الجداول التي تتم مزامنتها مع الكتابة المزدوجة. قبل التمكن من إظهار البيانات من Supply Chain Management في مدخل العميل، يجب تمكين الكتابة المزدوجة لكافة الجداول المناسبة.
 
 ![تبعيات مدخل العميل](media/customer-portal-elements.png "تبعيات مدخل العميل")
 
 يعمل مدخل العميل كنقطة بداية للمؤسسات التي ترغب في استخدام مداخل Power Apps لإنشاء موقع ويب خارجي يستخدم البيانات من تثبيت Supply Chain Management. وهو يساعد المؤسسات على توصيل الكتابة المزدوجة وSupply Chain Management ومداخل Power Apps.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

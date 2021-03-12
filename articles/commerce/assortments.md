@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409818"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979988"
 ---
 # <a name="assortment-management"></a>إدارة الفرز
 
@@ -107,6 +106,3 @@ ms.locfileid: "4409818"
 - **المبيعات والعائدات خارج عمليات الفرز** – تساعد هذه الإمكانية تجار التجزئة في الإدارة الفعّالة لعمليات الفرز الخاصة بهم عن طريق السماح لهم بتحديد عدد المنتجات المتوفرة بالنسبة للمنتجات التي تنتمي إلى خليط المنتج الأساسي الخاص بالمتجر. كما تساعد هذه الإمكانية تجار التجزئة على التعامل مع المواقف التي يتم فيها حذف منتج عن طريق الخطأ من عملية الفرز، أو عندما يتم إرجاع منتج خارج نطاق التواريخ الفعّالة لعملية الفرز.
 
 في حالة عدم وجود بيانات المنتج في قواعد بيانات القناة، فمن ثم تقوم نقطة البيع باستدعاءات في الوقت الفعلي للمركز الرئيسي لاسترداد المعلومات المطلوبة، وبذلك يُمكن بيع المنتج أو إعادته أو وضعه في طلب عميل. تتوافر معلومات المنتج التي يتم استردادها بهذه الطريقة فقط في أثناء نطاق هذه الحركة. لا تتم إضافة المنتج إلى تعريف الفرز. لذلك، سوف يتم إجراء الاستدعاءات اللاحقة في الوقت الفعلي على النحو المطلوب.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

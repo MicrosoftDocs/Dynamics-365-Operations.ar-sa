@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f7242ed830d09a29a4b01e20ce5070c3aaeca62b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409824"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979702"
 ---
 # <a name="reset-receipt-numbers"></a>إعادة تعيين أرقام الإيصالات 
 
@@ -68,6 +67,3 @@ ms.locfileid: "4409824"
 
 > [!NOTE]
 > وفقا لتاريخ أعاده التعيين الذي قمت بتحديده وتنسيق الإيصال ، فقد يكون لديك أرقام إيصالات مكرره. علي الرغم من ان نظام نقطه البيع (POS) يمكنه معالجه هذه المواقف ، الا انه يزيد من مقدار الوقت المطلوب لمعالجه المرتجعات ، وذلك لأنه يجب على اقترانات المبيعات تحديد بين الإيصالات المكررة. يمكن ان تحدث المضاعفات الأخرى المرتبطة بتنظيف البيانات إذا كانت الإيصالات المكررة لم تكن عبارة عن نتيجة مخططه. ولذلك، نوصي باستخدام أحرف التاريخ الديناميكية (على سبيل المثال **ddd**، و **MM**، و **DD**، و **YY**) للمساعدة في منع أرقام الإيصالات المكررة بعد أعاده التعيين.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

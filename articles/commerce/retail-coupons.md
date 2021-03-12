@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409821"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979665"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>إعداد القسائم لمبيعات البيع بالتجزئة
 
@@ -82,6 +81,3 @@ ms.locfileid: "4409821"
 - **يتم تحديث HQ بشكل جزئي، ولكن لا يتم تحديث Commerce Scale Unit ونقطة البيع.** في تحديث HQ، يتم تحديث القسيمة وصفحات الخصم، ويتم أيضًا تحديث محرك سعر التجارة. إذا تم تحديث أحد هذين المكونين فقط، فلن تتطابق بعض الصفحات في Commerce مع بيانات حساب السعر. وبالتالي، قد تحدث بعض الحسابات أو الأخطاء غير المتوقعة للخصومات أثناء حساب الخصومات.
 - **يتم تحديث HQ، ولكن لا يتم تحديث Commerce Scale Unit ونقطة البيع (N-1).** نظراً لتعذر تحديث جميع المتاجر في نفس الوقت، من المستحسن أن تقوم بتحديث HQ قبل أن تقوم بتحديث المتاجر. في السيناريو N-1، لن تتوفر الوظيفة الجديدة المتعلقة بالقسائم في المتاجر التي لم يتم تحديثها بعد. على سبيل المثال، تقدم وظيفة القسيمة بنود "استثناء". إذا كنت تستخدم بنود استثناء على الخصم، فلن يتم تطبيقها في متجر يستخدم إصدارًا سابقًا.
 - **لم يتم تحديث HQ، ولكن يتم تحديث Commerce Scale Unit ونقطة البيع (N+1).** نظرًا لقدرة مشغل السعر المحدّث في Commerce Scale Unit على التعامل مع أكواد الخصم القديمة أثناء حسابات الأسعار، يجب ألا يكون للتحديث أي تأثير وظيفي هذا السيناريو.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

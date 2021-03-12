@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 00cdc657fa075e84e62682e33ed3c1bace3f4ad0
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 1fad41fa4fb3562ab94adde522d3899271c85467
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440174"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979154"
 ---
 # <a name="vendor-workflow"></a>سير عمل المورّد
 
@@ -61,6 +60,3 @@ ms.locfileid: "4440174"
     تم تغيير الحالة على الصفحة إلى **الموافقة على التغييرات المعلقة**.
 
 يتبع سير العمل عملية سير العمل القياسية. يتم توجيه القائم بالموافقة إلى صفحة **المورد**، حيث يمكنه مراجعة التغييرات في صفحة **التغييرات المقترحة** ثم تحديد **سير العمل \> موافقة** للموافقة على سير العمل. بعد إكمال جميع الموافقات، يتم تحديث الحقول بالقيم التي اقترحتها.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
