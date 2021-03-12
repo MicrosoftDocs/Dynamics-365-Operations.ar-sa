@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421729"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001164"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>معالجة منتج وزن التعبئة‬ باستخدام إدارة المستودعات
 
@@ -210,6 +209,3 @@ ms.locfileid: "4421729"
 
 > [!NOTE]
 > تعتبر المعلومات السابقة حول علامات وزن التعبئة صالحة فقط إذا كان منتج وزن التعبئة يتضمن أسلوب تعقب بُعد علامة وزن التعبئة‬‏‫ الذي يتم تعقبه بشكل تام (أي إذا كانت المعلمة **أسلوب تعقب بُعد علامة وزن التعبئة‬‏‫** في سياسة معالجة صنف وزن التعبئة‬ معينة إلى **أبعاد المنتج، وأبعاد التعقب، وجميع أبعاد التخزين**). إذا كان تعقب صنف وزن التعبئة يتم حسب العلامات بشكل جزئي (أي إذا كانت المعلمة **أسلوب تعقب بُعد علامة وزن التعبئة‬‏‫** في سياسة معالجة صنف وزن التعبئة‬ معينة إلى **أبعاد المنتج وأبعاد التعقب وحالة المخزون**)، تنطبق قيود إضافية. بسبب فقدان الرؤية بين العلامة والمخزون في هذه الحالة، هناك سيناريوهات إضافية غير مدعومة.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

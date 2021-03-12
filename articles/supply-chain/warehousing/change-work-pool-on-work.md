@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66d110c3235e8a87b64bf160bdad8524fad6abe5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421406"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001139"
 ---
 # <a name="change-work-pool-on-work"></a>تغيير وعاء العمل في العمل
 
@@ -149,6 +148,3 @@ ms.locfileid: "4421406"
 > عند ظهور مربع الحوار **تغيير وعاء العمل**، قد يكون الحقل **معرف وعاء العمل** فارغا بشكل افتراضي. إذا كان الحقل فارغا عندما تقوم بتحديد **موافق** لتطبيق التغييرات، فإنك ستقوم بازالة وعاء العمل بالكامل من العمل.
 >
 > بالإضافة إلى تبديل أوعية العمل، يمكنك استخدام هذا الإجراء لإضافة وعاء عمل إلى أي عنصر عمل لا يحتوي علي واحد، أو لإزالة وعاء عمل من أي عنصر عمل يحتوي علي واحد.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

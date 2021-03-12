@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable, InventSerial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 989dcca499f6d27ae9680f184978d5500397fa57
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6e4f5a04e85d3cc34111b7421fbff6cbde413b7c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421295"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001514"
 ---
 # <a name="working-with-serialized-items"></a>العمل مع العناصر المتسلسلة
 
@@ -55,8 +54,8 @@ ms.locfileid: "4421295"
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>هل يمكنني تصحيح الأرقام المسلسلة التي سجلتها لأمر مبيعات أو تغييرها؟
 نعم، يمكنك تصحيح الأرقام المسلسلة إذا تحققت الشروط التالية:
--   **الفواتير‏‎** – يمكنك تغيير الأرقام المسلسلة للأصناف التي لم تقم بفوترتها حتى الآن. كما يتم تحديث إيصال التعبئة أيضًا. ومع ذلك، إذا تم تصحيح سطر أمر مبيعات عن طريق تسجيل كمية سالبة، فلا يمكنك تغيير الأرقام المسلسلة لسطر أمر المبيعات.
--   **إيصالات التعبئة** – لا يمكنك إجراء تصحيح جزئي لبند إيصال التعبئة الذي يحتوي على أصناف مسلسلة. يجب إلغاء الكمية الكاملة للبند. إذا تم إلغاء إيصال تعبئة أو تصحيحه، فلن يلزمك تسجيل الأرقام المسلسلة المُلغاة مرة أخرى عند إنشاء إيصال تعبئة جديد للأصناف المسلسلة نفسها. سيتم استخدام الأرقام التي تم تسجيلها.
+-   **الفواتير** - يمكنك تغيير الأرقام المسلسلة للأصناف التي لم تقم بفوترتها حتى الآن. كما يتم تحديث إيصال التعبئة أيضًا. ومع ذلك، إذا تم تصحيح سطر أمر مبيعات عن طريق تسجيل كمية سالبة، فلا يمكنك تغيير الأرقام المسلسلة لسطر أمر المبيعات.
+-   **إيصالات التعبئة** - لا يمكنك تصحيح سطر إيصال التعبئة جزئيًا والذي يحتوي على أصناف مسلسلة. يجب إلغاء الكمية الكاملة للبند. إذا تم إلغاء إيصال تعبئة أو تصحيحه، فلن يلزمك تسجيل الأرقام المسلسلة المُلغاة مرة أخرى عند إنشاء إيصال تعبئة جديد للأصناف المسلسلة نفسها. سيتم استخدام الأرقام التي تم تسجيلها.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>هل يمكنني عرض الأرقام المسلسلة التي تم شحنها بإيصال تعبئة معين، أو تم تضمينها بفاتورة؟
 نعم، يمكنك تشغيل استعلام لبند دفتر يومية إيصال تعبئة أو بند دفتر يومية فاتورة لعرض قائمة بجميع الأرقام المسلسلة التي تم تضمينها في المستند.
@@ -80,6 +79,3 @@ ms.locfileid: "4421295"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

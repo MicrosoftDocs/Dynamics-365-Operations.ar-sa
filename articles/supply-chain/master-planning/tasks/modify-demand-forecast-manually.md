@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 105cf50698889e81804155cdac3a8b484cbf87d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd931a378b057026eff57b34c9f5740df8adacef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421200"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999821"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>تعديل التنبؤ بالطلب يدوياً
 
@@ -43,6 +42,3 @@ ms.locfileid: "4421200"
 1. انقر فوق **فتح** في Microsoft Office.
 2. انقر فوق **تحرير التنبؤ بالطلب** في Excel. في Excel، يمكنك إضافة بنود التنبؤ بالطلب وحذفها وتحريرها. إذا لم تتمكن من رؤية البيانات في Excel، فستحتاج إلى تسجيل الدخول مع تمكين خيار "الاستمرار في تسجيل الدخول" وتحتاج إلى الثقة بتطبيق اتصال بيانات.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
