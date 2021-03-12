@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 19c7de1436b2fe4a859ac20d3db1fefa445a115f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527328"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991855"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>مزامنة رؤوس وبنود عروض أسعار المبيعات مباشرةً من Sales إلى Supply Chain Management.
 
@@ -35,7 +34,7 @@ ms.locfileid: "4527328"
 يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة رؤوس وبنود عروض أسعار المبيعات مباشرةً من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Common Data Service للتطبيقات‏‎](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Microsoft Dataverse للتطبيقات‏‎](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>تدفق البيانات في حل العميل المتوقع إلى النقدية
 
@@ -63,8 +62,8 @@ ms.locfileid: "4527328"
 
 | ال‏‏مبيعات        | Supply Chain Management     |
 |--------------|----------------------------|
-| الاقتباسات       | رأس عرض أسعار مبيعات CDS |
-| QuoteDetails | بنود عروض أسعار مبيعات CDS  |
+| الاقتباسات       | رأس عرض أسعار مبيعات Dataverse |
+| QuoteDetails | بنود عروض أسعار مبيعات Dataverse  |
 
 ## <a name="entity-flow"></a>تدفق الكيان
 
@@ -143,6 +142,3 @@ ms.locfileid: "4527328"
 
 [العميل المتوقع إلى النقدية](prospect-to-cash.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

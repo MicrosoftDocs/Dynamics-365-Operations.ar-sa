@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0e5c08fc09439ce3889ade4f1da44120275ee075
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439890"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993281"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>أتمتة الفاتورة للمستندات الممسوحة ضوئيا
 
@@ -232,6 +231,3 @@ ms.locfileid: "4439890"
 + **موظف الحسابات الدائنة‬** و **مدير الحسابات الدائنة** - يتم تعيين مهمة "الاحتفاظ بفواتير المورّد" لهذه الأدوار.
 
 بشكل افتراضي، إذا وفر دور المستخدم حقوق التحرير في أية صفحة، فستتوفر أيضًا للمستخدم حقوق التحرير في عارض المرفقات لإجراءات التمييز والحظر وإدخال التعليقات التوضيحية. ومع ذلك، إذا كان هناك سيناريوهات حيث يجب أن تتوفر لدور معين حقوق التحرير في الصفحة ولكن ليس في عارض المرفقات، يمكن استخدام الامتيازات المناسبة من القائمة السابقة لتلبية حالة الاستخدام.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

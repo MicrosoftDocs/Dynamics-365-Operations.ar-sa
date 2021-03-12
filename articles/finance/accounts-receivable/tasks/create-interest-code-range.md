@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 56f063e24e2c332889191638b4f6ffcb2c08500d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439840"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990982"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>إنشاء رمز فائدة مع نطاق
 
@@ -51,6 +50,3 @@ ms.locfileid: "4439840"
 21. أدخل النسبة المئوية للفائدة في الشهر والتي سيتم استخدامها لحساب الفائدة بدءًا من الشهر 7. بالنسبة لهذا المثال، ستكون 2.5.
 22. انقر فوق "إغلاق" لإكمال الإعداد.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
