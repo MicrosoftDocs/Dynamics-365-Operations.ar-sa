@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 957246ac9a758de9f420b9c672520dcb07c43a69
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3a880d4be461ea9b2caa61b7d038f9b24486a919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693944"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798868"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>تكوين القرارات الشرطية في سير عمل‬
 
@@ -52,6 +52,3 @@ ms.locfileid: "4693944"
     2. حدد سجلاً في المنطقة **‏‏التحقق من الشرط** من النموذج.
     3. انقر فوق **اختبار**. سيقوم النظام بتقييم السجل لمعرفة ما إذا كان يستوفي الشروط التي قمت بتحديدها أم لا.
     4. انقر فوق **موافق** أو **إلغاء الأمر** للعودة إلى النموذج **خصائص**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

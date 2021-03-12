@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: ''
-ms.search.scope: Core, Operations
 ms.search.region: Saudi Arabia
 ms.author: v-oloski
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4b4f62dea839a996a1e8ac38fbf6762f0f47026e
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 4b3c955b53c2624006534f61643a9cd26a1a58b7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645879"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962875"
 ---
 # <a name="allocate-bank-document-charges-to-a-shipment"></a>تخصيص رسوم المستندات البنكية لشحنة
 
@@ -76,6 +75,3 @@ ms.locfileid: "4645879"
     > يمكنك التحقق من صحة التوزيع عن طريق تحديد **حركات مصاريف الشحن** في علامة التبويب السريعة **البنود**.
 
 8. لتخصيص حركات مصاريف الشحن لبنود أمر الشراء ، في جزء الاجراء ، ضمن علامة التبويب **شراء**، في المجموعة **المصاريف**، حدد **الاحتفاظ بالمصاريف**، ثم حدد **توزيع** يجب ان تظهر مصاريف المستندات البنكية التي قمت بتخصيصها لخطابات الاعتماد أو بنود تحصيل الاستيراد في القائمة.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

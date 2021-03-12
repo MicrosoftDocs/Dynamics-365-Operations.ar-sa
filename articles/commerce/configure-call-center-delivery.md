@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409797"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963100"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>تكوين أوضاع تسليم مركز الاتصال والمصاريف
 
@@ -95,6 +94,3 @@ ms.locfileid: "4409797"
 على سبيل المثال، بالنسبة للأوامر التي سوف يتم شحنها جوًا في اليوم التالي، يجب أن يتم تحميل الأمر في المستودع بحلول الواحدة ظهرًا يوميًا. في هذه الحالة، يمكن إنشاء كود تعجيل، ويمكن ربط هذا الكود بأي وضع من أوضاع التسليم في اليوم التالي التي تم تكوينها في النظام. عندما يقوم المستود بإنشاء موجة الانتقاء الخاصة به، يمكن استخدام كود التعجيل المناسب في حقل **تعجيل** كعامل تصفية، بحيث يتم تشغيل الانتقاء فقط للأوامر التي تحتوي على أوضاع تسليم مرتبطة بهذا الكود.
 
 بالإضافة إلى ذلك، عندما يتم إدخال أمر مركز اتصال، يمكن تطبيق كود التعجيل يدويًا سواءً على رأس أمر المبيعات أو على بند أمر مبيعات فردي. مرة أخرى، يمكن استخدام الكود لأغراض الفرز أو إعداد التقارير. في بعض الأحيان، يجب معالجة الأمر بعناية بسبب مشكلة في خدمة العميل. في هذه الحالة، يمكن تطبيق كود التعجيل على رأس الأمر أو البنود للمساعدة في تعريف الأمر وتحديد أولويته أثناء عملية التنفيذ.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

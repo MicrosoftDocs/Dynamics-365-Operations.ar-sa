@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5a4f31af3f76c1af6a0f5546955e810bd1cca375
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 32cd2c6d0915df1e48973a22a7d391eb8d62a072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421826"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963678"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>البحث عن السمات الهندسية والسمات الهندسية
 
@@ -94,6 +93,3 @@ ms.locfileid: "4421826"
 يمكنك استخدام ميزه البحث عن السمات الهندسية للعثور علي المنتجات من خلال البحث عن قيم السمات الهندسية الخاصة بها. لذلك ، يمكنك بسهوله العثور علي المنتجات الهندسية ، استنادا إلى خصائصها. يمكنك البحث في المنتجات التي تنتمي إلى فئة منتج هندسي ، أو يمكنك البحث عبر كافة المنتجات الهندسية.
 
 يتوفر البحث في صفحات البيانات الرئيسية للمنتجات ومن عناصر الحركات في النظام ، مثل أوامر المبيعات. بالنسبة لعنصر خاص بالمعاملات ، يمكنك استخدام صفحه **البحث عن السمات الهندسية** للبحث عن منتج. ويمكنك بعد ذلك استخدام الزر **أضافه كبند جديد** لأضافه المنتج إلى بنود أمر المبيعات. كما يمكن أضافه المنتجات الموجودة في نتائج البحث مباشره إلى الأمر.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

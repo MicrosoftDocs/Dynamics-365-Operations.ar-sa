@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e3a5f9a73bdee50e3e7c68125144c3b43305efa8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409860"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961549"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>تكوين الفئات النقدية‬ لنقطة البيع (POS)
 
@@ -52,6 +51,3 @@ ms.locfileid: "4409860"
 
 - **أكبر من أو يساوي المبلغ المستحق** – بشكل افتراضي، سوف تعرض نقطة البيع فقط فئات الأوراق النقدية الأكبر من المبلغ المستحق، مما يسمح بالدفع بلمسة واحدة. على سبيل المثال، إذا كان المبلغ المستحق 7.50 دولار، فستعرض نقطة البيع الفئات التالية: 10 دولارات و20 دولارًا و50 دولارًا و100 دولار. سيؤدي لمس أي واحد من هذه المبالغ إلى دفع قيمة البيع بهذا المبلغ. لا تظهر الأوراق النقدية من دولار وخمس دولارات لأن هذه المبالغ هي أقل من المبلغ المستحق.
 - **جميع الفئات** – حدد هذا الخيار لإظهار دومًا كافة فئات الأوراق النقدية في نقطة البيع، بغض النظر عن المبلغ المستحق. وهذا يعني أنه باستطاعة المستخدم استخدام مجموعة من الأوراق النقدية للوصول إلى المبلغ المستحق. على سبيل المثال، إذا كان المبلغ المستحق 25 دولارًا، يستطيع المستخدم اختيار 20 دولارًا و5 دولارات لإكمال عملية البيع.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

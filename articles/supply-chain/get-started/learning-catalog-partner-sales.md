@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ad6e051694bb96018ac81769fb5320c5bf511cb9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 172fc6f2f284a67a32b80e2f72c3e5b9c8e44b70
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421203"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963575"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>كتالوج التعلّم لأدوار التسويق والمبيعات لشريك Microsoft في Dynamics 365 Supply Chain Management
 
@@ -41,6 +40,3 @@ ms.locfileid: "4421203"
 | المحتوى  | ‏‏الوصف  | التنسيق |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [القواعد الأسساية لـ Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)  | اثبت فهمك لـ Microsoft Dynamics365؛ Power Platform; مفاهيم السحابة؛ خيارات الترخيص وخيارات النشر والإصدار. | الاختبار، تختلف التكلفة حسب المنطقة |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

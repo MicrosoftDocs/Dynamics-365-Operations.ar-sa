@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c9cecabb7923e86e8aa09eed7bd3b1ba5ee0bd8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694851"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798835"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>تكوين القرارات اليدوية في سير عمل
 
@@ -350,6 +350,3 @@ ms.locfileid: "4694851"
     - **السنوات** - حدد اليوم والأسبوع والشهر الذي يتعين اتخاذ القرار خلالها. على سبيل المثال، قد ترغب في أن يتم اتخاذ القرار بحلول يوم الجمعة من الأسبوع الثالث من شهر ديسمبر.
 
 4. إذا تم تجاوز الحد الزمني فسيقوم النظام باتخاذ القرار. من القائمة **إجراء**، حدد الخيار الذي يجب أن يقوم النظام بتحديده.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

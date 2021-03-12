@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b7a953ea54286a7e48b392728d2cc9bb2902072
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 221e38cbe31e2ad24a56cb2e71206a1ebcdd619e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692808"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798993"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>قم بتمكين المستخدمين من تلقي رسائل البريد الإلكتروني المرتبطة بسير العمل
 
@@ -41,6 +41,3 @@ ms.locfileid: "4692808"
 
 > [!NOTE]
 > يتم توريد قوالب البريد الإلكتروني لسير العمل من قوالب البريد الإلكتروني للنظام أو قوالب البريد الإلكتروني للمؤسسة استنادًا إلى ما إذا كان سير العمل هو سير عمل على مستوى النظام (غير خاص بالشركة) أو سير عمل على مستوي مستوى (خاص بالشركة).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

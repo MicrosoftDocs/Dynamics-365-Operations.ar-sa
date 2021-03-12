@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421183"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963728"
 ---
 # <a name="weighted-average-date"></a>تاريخ المتوسط المرجح
 
@@ -38,7 +37,7 @@ ms.locfileid: "4421183"
 
 تُستخدم المعادلة التالية لحساب أسلوب تكلفة تاريخ المتوسط المرجح: 
 
-المتوسط المرجح = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
+المتوسط المرجح = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 أثناء إغلاق مخزون، يتم تنفيذ الحساب بشكل يومي عبر فترة الإقفال، كما يظهر في الرسم التوضيحي التالي: 
 
@@ -51,7 +50,7 @@ ms.locfileid: "4421183"
 
 التسويات هي ترحيلات إقفال المخزون التي تعمل على ضبط الإصدارات إلى المتوسط المرجح الصحيح بدءًا من تاريخ الإقفال. 
 
-**ملاحظة:** لمزيد من المعلومات حول التسويات، راجع المقال المتعلق بإقفال المخزون. توضح الأمثلة التالية تأثير استخدام المتوسط المرجح مع خمسة تكوينات:
+**ملاحظة:** لمزيد من المعلومات حول التسويات، راجع المقال المتعلق بإقفال المخزون. توضح الأمثلة التالية تأثير استخدام المتوسط المرجح مع خمسة تكوينات:
 
 -   التسوية المباشرة لتاريخ المتوسط المرجح عند عدم استخدام خيار **تضمين القيمة الفعلية**
 -   التسوية المُلخصة لتاريخ المتوسط المرجح عند عدم استخدام خيار **تضمين القيمة الافتراضية**
@@ -196,6 +195,3 @@ ms.locfileid: "4421183"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4449363"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839539"
 ---
 # <a name="inventory-availability-in-dual-write"></a>توفر المخزون في الكتابة المزدوجة
 
@@ -56,7 +56,65 @@ ms.locfileid: "4449363"
 - كمية ATP
 - كمية الإيصال
 - كمية الإصدار
-- الكمية المتاحة
+- كمية المخزون الفعلي
+
+## <a name="how-it-works"></a>كيف يعمل
+
+عند تحديد الزر **المخزون الفعلي** في الصفحة **عروض الأسعار** أو **الأوامر** أو **الفواتير**، يتم اجراء استدعاء ثنائي الكتابة واجهة API **المخزون الفعلي**. تقوم واجهه برمجه التطبيقات بحساب المخزون الفعلي للمنتج المحدد. يتم تخزين النتيجة في الجدولين **InventCDSInventoryOnHandRequestEntity** و **InventCDSInventoryOnHandEntryEntity**، ثم تتم كتابتها علي Dataverse حسب الكتابة الثنائية. لاستخدام هذه الوظيفة، يجب تشغيل التعيينات ثنائيه الكتابة التالية. يستخدم هذا الحقل لتخطي المزامنة الاوليه عند تشغيل الخرائط.
+
+- الإدخالات الفعلية لمخزون الاقراص المضغوطة (msdyn_inventoryonhandentries)
+- الطلبات المخزون الفعلي CDS (msdyn_inventoryonhandrequests)
+
+## <a name="templates"></a>القوالب
+تتوفر القوالب التالية لعرض بيانات المخزون الفعلي.
+
+تطبيقات Finance and Operations | تطبيق Customer Engagement | الوصف 
+---|---|---
+[إدخالات المخزون الفعلي في CDS](#145) | msdyn_inventoryonhandentries |
+[طلبات المخزون الفعلي في CDS](#147) | msdyn_inventoryonhandrequests |
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>الإدخالات الفعلية لمخزون الاقراص المضغوطة (msdyn_inventoryonhandentries)
+
+يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وDataverse.
+
+حقل Finance and Operations | نوع التعيين | حقل Customer Engagement | قيمة افتراضية
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>الطلبات المخزون الفعلي CDS (msdyn_inventoryonhandrequests)
+
+يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وDataverse.
+
+حقل Finance and Operations | نوع التعيين | حقل Customer Engagement | قيمة افتراضية
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+
+

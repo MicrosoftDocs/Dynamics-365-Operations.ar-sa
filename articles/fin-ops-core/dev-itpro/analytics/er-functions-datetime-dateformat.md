@@ -3,7 +3,7 @@ title: وظيفة DATEFORMAT ER
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية DATEFORMAT (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/03/2019
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa6bdef2168112aeb17e0edb9f9a6d1b3bd45c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684921"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826001"
 ---
 # <a name="dateformat-er-function"></a>وظيفة DATEFORMAT ER
 
@@ -52,19 +52,22 @@ DATEFORMAT (date, format, culture)
 
 تنسيق سلسلة الإخراج.
 
+> [!NOTE]
+> تكون سلسله التنسيق حساسة لحاله الأحرف عند استخدام اما تنسيق قياسي أو تنسيق مخصص. علي سبيل المثال، يقوم محدد التنسيق [القياسي](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) "d" بإرجاع التاريخ باستخدام نمط التاريخ القصير، بينما يقوم محدد التنسيق القياسي "d" بإرجاع التاريخ باستخدام نمط التاريخ الطويل. بالاضافه إلى ذلك ، يقوم محدد التنسيق [المخصص](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) "m" بإرجاع الشهر من 1 إلى 12، بينما يقوم محدد التنسيق المخصص "m" بإرجاع الدقيقة من 0 إلى 59.
+
 `culture`: *السلسلة*
 
 الثقافة التي سيتم استخدامها للتنسيق.
 
 ## <a name="return-values"></a>إرجاع القيم
 
-*السلسلة*
+*سلسلة*
 
 قيمة السلسلة الناتجة.
 
 ## <a name="usage-notes"></a>ملاحظات الاستخدام
 
-عندما لا يتم تعريف الثقافة كوسيطة للوظيفة التي تم استدعائها، يتم تعريف قيمة `culture` عن طريق سياق الاستدعاء. على سبيل المثال، إذا تم استدعاء الوظيفة `DATEFORMAT` باستخدام بناء الجملة 1 في تنسيق التقارير الإلكترونية (ER) لعنصر **FILE** تم تكوينه لاستخدام الثقافة الألمانية، فسوف يتم التحويل باستخدام الثقافة الألمانية. قيمة `culture` الافتراضية هي **EN-US**.
+إذا لم يتم تعريف الثقافة كوسيطة للوظيفة التي تم استدعائها، يتم تعريف قيمة `culture` عن طريق سياق الاستدعاء. على سبيل المثال، إذا تم استدعاء الوظيفة `DATEFORMAT` باستخدام بناء الجملة 1 في تنسيق التقارير الإلكترونية (ER) لعنصر **FILE** تم تكوينه لاستخدام الثقافة الألمانية، فسوف يتم التحويل باستخدام الثقافة الألمانية. قيمة `culture` الافتراضية هي **EN-US**.
 
 ## <a name="example-1"></a>مثال1
 
@@ -72,11 +75,8 @@ DATEFORMAT (date, format, culture)
 
 ## <a name="example-2"></a>مثال2
 
-تُرجع الوظيفة `DATEFORMAT (SESSIONTODAY (), "d", "DE")` تاريخ جلسة التطبيق الحالية، 24 ديسمبر 2015، كسلسلة **"24-12-2015"**، بناءً على الثقافة الألمانية المُحددة والتنسيق المُحدد.
+تُرجع وظيفة `DATEFORMAT (SESSIONTODAY (), "d", "DE")` قيمة تاريخ جلسة التطبيق الحالية، 24 ديسمبر 2015، كسلسلة **"24-12-2015"**، بناءً على الثقافة الألمانية المُحددة والتنسيق المُحدد. 
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دلات التاريخ والوقت](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

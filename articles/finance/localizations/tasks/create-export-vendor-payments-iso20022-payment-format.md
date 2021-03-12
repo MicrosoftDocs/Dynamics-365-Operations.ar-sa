@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ff8a2858bfa96eb1d4b0afa1e48ebd1b578a4431
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1df738e3925dc23e7723d93f33acf6a9d811b113
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440047"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964531"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>إنشاء وتصدير دفعات المورّد باستخدام تنسيق الدفع ISO20022
 
@@ -50,6 +49,3 @@ ms.locfileid: "4440047"
     3.    في الحقل **اسم الملف**، اكتب قيمة. بالنسبة إلى هذا المثال، نظراً للدفع باليورو، سيكون الملف الذي تم إنشاؤه متوافقًا مع SEPA. يمكن أيضًا استخدام تحويل الائتمان ISO20022 بالإضافة إلى تنسيقات دفع أخرى خاصة بالمورّد لإنشاء مدفوعات بعملات أخرى.
     4.    في الحقل **الحساب البنكي**، أدخل قيمة أو حددها.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

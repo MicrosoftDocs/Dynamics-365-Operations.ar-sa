@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9d0a2671e18603f701d343a4150128a04c626952
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421710"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963375"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>دمج الشحنات باستخدام منضدة عمل دمج الشحنات
 
@@ -267,6 +266,3 @@ ms.locfileid: "4421710"
 
 - [سياسات دمج الشحنات](about-shipment-consolidation-policies.md)
 - [تكوين نُهج دمج الشحنات](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
