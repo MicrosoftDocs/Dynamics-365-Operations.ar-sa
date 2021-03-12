@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fede81aa8c61eddba72b9ba2e780d61731f8253
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409907"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989242"
 ---
 # <a name="payment-methods-in-call-centers"></a>طرق الدفع في مراكز الاتصال
 
@@ -53,6 +52,3 @@ ms.locfileid: "4409907"
 بالنسبة لسيناريوهات معالجة المبالغ المستردة، يستخدم مركز الاتصال أيضًا بعض طرق الدفع المحددة في الحسابات المدينة. لتكوين طرق الدفع هذه، انتقل إلى **البيع بالتجزئة والتجارة**\>**إعداد القناة**\>**إعداد مركز الاتصال**\>**طرق الاسترداد لمركز الاتصال**. يجب عليك إكمال هذا التكوين لمعالجة شيكات المبالغ المستردة للعملاء. على سبيل المثال، إذا دفع عميل أصلاً لأمر باستخدام نقد أو شيك، فقد يحتاج المستخدم إلى إرسال استرداد إلى العميل من خلال الحسابات المدينة. في هذه الحالة، يجب تعيين أنواع الدفع نقدًا أو بشيك في مركز الاتصال لطريقة الدفع الصحيحة في الحسابات المدينة للمساعدة في ضمان أن تتم معالجة المبلغ المسترد بشكل صحيح.
 
 بالإضافة إلى ذلك، إذا كان مستخدم يقوم بمعالجة أمر إرجاع كمستخدم مركز اتصال في Commerce، ولكن لا يمكنه ربط الإرجاع بعملية بيع أصلية، يجب تحديد طريقة دفع **الإرجاع** في محددات مركز الاتصال. انتقل إلى **البيع بالتجزئة والتجارة**\>**إعداد القناة**\>**إعداد مركز الاتصال**\>**محددات مركز الاتصال**، ثم، في علامة التبويب **تفويض المواد المرتجعة/الإرجاع‬**، في حقل **طريقة الدفع**، تأكد من أنه تم تحديد طريقة دفع. ستكون طريقة الدفع طريقة الدفع المستخدمة للمبالغ المستردة. بشكل عام، سيتم تحديدها كطريقة شيك أو طريقة حساب عميل.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
