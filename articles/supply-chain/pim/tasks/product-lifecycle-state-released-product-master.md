@@ -10,47 +10,46 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c644f118e0bdb46b296cec7e4a3ea89031f2d52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8a9f8f519c54ffe4f1a2a44da51ac5d97c56182a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421221"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992209"
 ---
-# <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a><span data-ttu-id="88860-103">تعيين حالة دورة حياة منتج لأصل منتج صادر</span><span class="sxs-lookup"><span data-stu-id="88860-103">Assign a product lifecycle state to a released product master</span></span>
+# <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a><span data-ttu-id="046c8-103">تعيين حالة دورة حياة منتج لأصل منتج صادر</span><span class="sxs-lookup"><span data-stu-id="046c8-103">Assign a product lifecycle state to a released product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="88860-104">يُظهر هذا الإجراء كيفية تعيين حالة دورة حياة منتج إلى أصل منتج صادر ومتغيراته.</span><span class="sxs-lookup"><span data-stu-id="88860-104">This procedure shows how to assign a product lifecycle state to a released product master and its variants.</span></span> <span data-ttu-id="88860-105">المتطلبات الأساسية: يجب أولاً تشغيل دليل المهام "إنشاء حالة دورة حياة منتج جديدة" للتأكد من أن لديك حالة دورة حياة منتج واحدة على الأقل تم إنشاؤها قبل تشغيل دليل المهام هذا.</span><span class="sxs-lookup"><span data-stu-id="88860-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that you have at least one product lifecycle state created before you can play this task guide.</span></span>
+<span data-ttu-id="046c8-104">يُظهر هذا الإجراء كيفية تعيين حالة دورة حياة منتج إلى أصل منتج صادر ومتغيراته.</span><span class="sxs-lookup"><span data-stu-id="046c8-104">This procedure shows how to assign a product lifecycle state to a released product master and its variants.</span></span> <span data-ttu-id="046c8-105">المتطلبات الأساسية: يجب أولاً تشغيل دليل المهام "إنشاء حالة دورة حياة منتج جديدة" للتأكد من أن لديك حالة دورة حياة منتج واحدة على الأقل تم إنشاؤها قبل تشغيل دليل المهام هذا.</span><span class="sxs-lookup"><span data-stu-id="046c8-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that you have at least one product lifecycle state created before you can play this task guide.</span></span>
 
 
-## <a name="find-a-released-product-master"></a><span data-ttu-id="88860-106">البحث عن أصل منتج صادر</span><span class="sxs-lookup"><span data-stu-id="88860-106">Find a released product master</span></span>
-1. <span data-ttu-id="88860-107">انتقل إلى إدارة معلومات المنتج > المنتجات > المنتجات الصادرة.</span><span class="sxs-lookup"><span data-stu-id="88860-107">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="88860-108">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="88860-108">In the list, find and select the desired record.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="88860-109">أصل المنتج يتضمن أصل المنتج للنوع الفرعي للمنتج.</span><span class="sxs-lookup"><span data-stu-id="88860-109">A product master has the Product subtype Product master.</span></span>  
-
-## <a name="update-the-lifecycle-state"></a><span data-ttu-id="88860-110">تحديث حالة دورة الحياة</span><span class="sxs-lookup"><span data-stu-id="88860-110">Update the lifecycle state</span></span>
-1. <span data-ttu-id="88860-111">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="88860-111">Click Edit.</span></span>
-2. <span data-ttu-id="88860-112">في الحقل "حالة دورة حياة المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="88860-112">In the Product lifecycle state field, enter or select a value.</span></span>
-3. <span data-ttu-id="88860-113">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="88860-113">Click Save.</span></span>
-4. <span data-ttu-id="88860-114">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="88860-114">Click Yes.</span></span>
+## <a name="find-a-released-product-master"></a><span data-ttu-id="046c8-106">البحث عن أصل منتج صادر</span><span class="sxs-lookup"><span data-stu-id="046c8-106">Find a released product master</span></span>
+1. <span data-ttu-id="046c8-107">انتقل إلى إدارة معلومات المنتج > المنتجات > المنتجات الصادرة.</span><span class="sxs-lookup"><span data-stu-id="046c8-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="046c8-108">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="046c8-108">In the list, find and select the desired record.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="88860-115">إذا تم تحديد "نعم"، فسيتم أيضًا تحديث كافة متغيرات المنتجات الصادرة ذات الحالة الأصلية نفسها لأصل المنتج الصادر إلى حالة دورة حياة المنتج الجديدة.</span><span class="sxs-lookup"><span data-stu-id="88860-115">If Yes is selected, all the related released product variants that have the same original status as the released product master are also updated to the new product lifecycle state.</span></span> <span data-ttu-id="88860-116">أما إذا تم تحديد "لا"، فستحافظ كافة المتغيرات على حالتها الفعلية.</span><span class="sxs-lookup"><span data-stu-id="88860-116">If No is selected, all variants keep their actual state.</span></span> <span data-ttu-id="88860-117">لن يتم تحديث المتغيرات ذات حالة دورة حياة منتج مختلفة عن أصل المنتج الصادر.</span><span class="sxs-lookup"><span data-stu-id="88860-117">Variants that have a different product lifecycle state from the released product master are not updated.</span></span>  
+> <span data-ttu-id="046c8-109">أصل المنتج يتضمن أصل المنتج للنوع الفرعي للمنتج.</span><span class="sxs-lookup"><span data-stu-id="046c8-109">A product master has the Product subtype Product master.</span></span>  
 
-## <a name="verify-the-lifecycle-state-of-the-variants"></a><span data-ttu-id="88860-118">التحقق من حالة دورة الحياة للمتغيرات</span><span class="sxs-lookup"><span data-stu-id="88860-118">Verify the lifecycle state of the variants</span></span>
-1. <span data-ttu-id="88860-119">انقر فوق "متغيرات المنتج الذي تم إصداره".</span><span class="sxs-lookup"><span data-stu-id="88860-119">Click Released product variants.</span></span>
+## <a name="update-the-lifecycle-state"></a><span data-ttu-id="046c8-110">تحديث حالة دورة الحياة</span><span class="sxs-lookup"><span data-stu-id="046c8-110">Update the lifecycle state</span></span>
+1. <span data-ttu-id="046c8-111">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="046c8-111">Click Edit.</span></span>
+2. <span data-ttu-id="046c8-112">في الحقل "حالة دورة حياة المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="046c8-112">In the Product lifecycle state field, enter or select a value.</span></span>
+3. <span data-ttu-id="046c8-113">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="046c8-113">Click Save.</span></span>
+4. <span data-ttu-id="046c8-114">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="046c8-114">Click Yes.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="88860-120">لاحظ أن كافة المتغيرات قد ورثت حالة دورة الحياة المحددة من أصل المنتج الصادر.</span><span class="sxs-lookup"><span data-stu-id="88860-120">Note that all variants have inherited the selected lifecycle state from the released product master.</span></span>  
+> <span data-ttu-id="046c8-115">إذا تم تحديد "نعم"، فسيتم أيضًا تحديث كافة متغيرات المنتجات الصادرة ذات الحالة الأصلية نفسها لأصل المنتج الصادر إلى حالة دورة حياة المنتج الجديدة.</span><span class="sxs-lookup"><span data-stu-id="046c8-115">If Yes is selected, all the related released product variants that have the same original status as the released product master are also updated to the new product lifecycle state.</span></span> <span data-ttu-id="046c8-116">أما إذا تم تحديد "لا"، فستحافظ كافة المتغيرات على حالتها الفعلية.</span><span class="sxs-lookup"><span data-stu-id="046c8-116">If No is selected, all variants keep their actual state.</span></span> <span data-ttu-id="046c8-117">لن يتم تحديث المتغيرات ذات حالة دورة حياة منتج مختلفة عن أصل المنتج الصادر.</span><span class="sxs-lookup"><span data-stu-id="046c8-117">Variants that have a different product lifecycle state from the released product master are not updated.</span></span>  
 
-2. <span data-ttu-id="88860-121">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="88860-121">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="88860-122">في الحقل "حالة دورة حياة المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="88860-122">In the Product lifecycle state field, enter or select a value.</span></span>
+## <a name="verify-the-lifecycle-state-of-the-variants"></a><span data-ttu-id="046c8-118">التحقق من حالة دورة الحياة للمتغيرات</span><span class="sxs-lookup"><span data-stu-id="046c8-118">Verify the lifecycle state of the variants</span></span>
+1. <span data-ttu-id="046c8-119">انقر فوق "متغيرات المنتج الذي تم إصداره".</span><span class="sxs-lookup"><span data-stu-id="046c8-119">Click Released product variants.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="046c8-120">لاحظ أن كافة المتغيرات قد ورثت حالة دورة الحياة المحددة من أصل المنتج الصادر.</span><span class="sxs-lookup"><span data-stu-id="046c8-120">Note that all variants have inherited the selected lifecycle state from the released product master.</span></span>  
+
+2. <span data-ttu-id="046c8-121">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="046c8-121">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="046c8-122">في الحقل "حالة دورة حياة المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="046c8-122">In the Product lifecycle state field, enter or select a value.</span></span>
 
