@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2158c097fafb6c35bce7dc28a29c175f458cde1b
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6f26144b03fb4d2130c1ed7fe3db2411384b9ff6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645831"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970171"
 ---
 # <a name="troubleshoot-warehouse-setup"></a>استكشاف أخطاء إعداد المستودع وإصلاحها
 
@@ -40,6 +39,3 @@ ms.locfileid: "4645831"
 ### <a name="issue-resolution"></a>حل المشكلة
 
 يتم تعيين محاكي تطبيق الجهاز المحمول للعمل فقط مع حساب المسؤول. بالنسبة لكافة أغراض الاختبار والمعالجة المباشرة ، نوصي باستخدام تطبيق المستودع نفسه.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

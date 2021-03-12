@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMCostBehaviorRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cfdff9b1af9183d21e988dd53559e749eed077eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 110ab87586c926d719537d2c30225d1630ce7710
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439881"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969293"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>إنشاء وتعيين سياسة سلوك التكلفة إلى وحدة التحكم في التكلفة
 
@@ -86,6 +85,3 @@ ms.locfileid: "4439881"
 15. في الحقل "وحدة التحكم بالتكاليف‬"، أدخل قيمة أو حددها.
 16. انقر فوق "حفظ".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

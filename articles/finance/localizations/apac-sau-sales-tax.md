@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Saudi Arabia
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80d9f2525df591a65cf5cd78ac02a8c9ee72537d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 546c614cffec03e0371cb9269063b209d4aaa5ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407577"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968346"
 ---
 # <a name="sales-tax-for-saudi-arabia"></a>ضريبة المبيعات للمملكة العربية السعودية
 
@@ -116,6 +115,3 @@ ms.locfileid: "4407577"
 
 - [إنشاء دفع ضريبة مبيعات](../general-ledger/tasks/create-sales-tax-payment.md)
 - [الأسئلة الشائعة: إرجاع ضريبة القيمة المضافة (موقع ويب الحكومة)](https://www.vat.gov.sa/en/e-services/vat-returns)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

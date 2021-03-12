@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16081
 ms.assetid: 426a9be7-a931-4780-b372-e06f6083dd60
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 738841407b63ef604da092b7c8f4d0f2064d3886
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 941685c9bad3b8f288e2acdf31bb25c7bcaa7cba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409770"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969741"
 ---
 # <a name="set-up-continuity-programs-for-call-centers"></a>إعداد برامج الاستمرارية لمراكز الاتصال
 
@@ -50,6 +49,3 @@ ms.locfileid: "4409770"
 - **توسيع بنود الاستمرارية** (عند اللزوم) – توسيع عدد المرات التي يمكن تكرارها حدثاً استمرارية. ويمكن لتكرار الشحنات فيما بعد تجاوز الحد الذي تم تعيينه في حقل **حد تكرار الاستمرارية** في معلمات مركز الاتصالات.
 - **تنفيذ عملية تحديث استمرارية** (عند اللزوم) – مزامنة التغييرات بين برنامج الاستمرارية وأوامر المبيعات الأصلية الاستمرارية.
 - **إغلاق بنود وأوامر الاستمرارية الأصلية** – إغلاق أوامر الاستمرارية.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db59bad2ed3caf38f22bd4d6059e57747d1d983f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439818"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969691"
 ---
 # <a name="collections-process-automation"></a>التنفيذ التلقائي لعمليات التحصيل
 
@@ -118,6 +117,3 @@ ms.locfileid: "4439818"
 |     معلمات الحسابات المدينة > التنفيذ التلقائي لعمليات التحصيل     |     ترحيل خطابات التحصيل تلقائيًا           |     ستقوم أنواع إجراءات خطاب التحصيل بترحيل الخطاب أثناء التنفيذ التلقائي.                                      |
 |     معلمات الحسابات المدينة > التنفيذ التلقائي لعمليات التحصيل     |     إنشاء أنشطة لتنفيذها تلقائيًا                |     إنشاء أنشطه وإغلاقها لأنواع الإجراءات غير الأنشطة لعرض كافة الخطوات التلقائية المتخذة على حساب.        |
 |     معلمات الحسابات المدينة > التنفيذ التلقائي لعمليات التحصيل     |     عدد الأيام للاحتفاظ بالتنفيذ التلقائي لعمليات التحصيل     |     تحديد عدد الأيام التي يتم فيها تخزين محفوظات التحصيلات.                                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

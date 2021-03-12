@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a149b35c6964166207effc799a02cd4c59bbb843
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439875"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968719"
 ---
 # <a name="mass-financial-period-close"></a>إقفال شامل للفترة المالية
 
@@ -42,6 +41,3 @@ ms.locfileid: "4439875"
 11. حدد **تحديث حالة الفترة‬**، وعيّن الحالة إلى **قيد الانتظار** أو **مفتوح‬** أو **تم الإقفال بشكل دائم**. تشير الحالة **مفتوح** إلى أنه يمكن الترحيل إلى الفترة، بشرط توفر الوصول للمستخدم. تشير الحالة **قيد الانتظار** إلى أنه يتعذر الترحيل إلى الفترة، ولكن يمكن إعادة فتح الفترة. تشير الحالة **تم الإقفال بشكل دائم** أن الفترة مقفلة ولا يمكن إعادة فتحها إطلاقًا. لا يمكن ترحيل التسويات. لا يوصَى بتعيين فترة إلى **تم الإقفال بشكل دائم‬** إلا عند اكتمال جميع التسويات والمراجعات.  
 12. حدد **تحديث**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

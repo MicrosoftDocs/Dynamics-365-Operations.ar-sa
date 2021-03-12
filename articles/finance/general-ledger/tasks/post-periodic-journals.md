@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f721a05c8b74f1cfcf43177b73129751483650e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 99d157e82f8451e2c8f0bc7946ba30ca48e99add
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439974"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968494"
 ---
 # <a name="post-periodic-journals"></a>ترحيل دفاتر اليومية الدورية
 
@@ -58,6 +57,3 @@ ms.locfileid: "4439974"
 27. في الحقل **رقم دفتر اليومية الدوري** ، أدخل قيمة أو حددها.
 28. في القائمة، انقر فوق الارتباط في الصف المحدد.
 29. انقر فوق **موافق**. يمكن الآن مراجعة دفتر يومية الفترة‬ أو الموافقة عليه أو ترحيله تبعًا للمتطلبات والإعداد.   
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

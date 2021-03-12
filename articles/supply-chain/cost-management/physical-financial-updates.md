@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 75023
 ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ea79bd9c6561c4e4f6fad2c177f44fe62bdea5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b29c1c0727487992a478552d94b5bbe8684d0550
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421554"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967448"
 ---
 # <a name="physical-and-financial-updates"></a>التحديثات المادية والمالية
 
@@ -74,6 +73,3 @@ ms.locfileid: "4421554"
 -   دفاتر يومية مخزون الكميات ذات القيمة السالبة، مثل النقل والأرباح والخسائر والجرد وقائمة مكونات الصنف والتحويل
 
 يتم ترحيل الحركات التي تؤدي إلى تقليل الكمية في تشغيل متوسط سعر التكلفة. ولذلك، يتم من خلال إجراء إغلاق المخزون لتسوية حركات إصدار إلى حركات الإيصال وفقًا لنموذج المخزون الذي تم تعيينه لكل صنف.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
