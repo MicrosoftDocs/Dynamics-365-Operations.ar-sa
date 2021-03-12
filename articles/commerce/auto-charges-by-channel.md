@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409870"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993718"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>تمكين التكاليف التلقائية وتكوينها حسب القناة
 
@@ -77,7 +76,7 @@ ms.locfileid: "4409870"
 
 لتحديد التكاليف التلقائية حسب القناة في Commerce، اتبع هذه الخطوات.
 
-1. انتقل إلى  **الحسابات المدينة \> إعداد التكاليف \> التكاليف التلقائية**.
+1. انتقل إلى **الحسابات المدينة \> إعداد التكاليف \> التكاليف التلقائية**.
 1. في الجزء الأيمن، في حقل **المستوي**، حدد إما **رأس** أو **بند**، وفقًا لمتطلبات العمل.
 1. في الحقل **كود قناة البيع بالتجزئة**، حدد كود القناة المناسب (على سبيل المثال، **جدول** أو **مجموعة**). في حال استخدام الإعداد الافتراضي **الكل**، يتم تطبيق قواعد التكلفة على كافة القنوات.
 
@@ -128,6 +127,3 @@ ms.locfileid: "4409870"
 [التكاليف التلقائية المتقدمة ‬للقناة متعددة الاتجاهات](omni-auto-charges.md)
 
 [توزيع تكاليف الرأس لمطابقة بنود المبيعات](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

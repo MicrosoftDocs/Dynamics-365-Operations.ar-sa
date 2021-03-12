@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 31216c24f54f22ec928eb143d4a913aabcd50cf8
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 29815abc2892aecb080a9b673f2336f5368821ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421749"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993768"
 ---
 # <a name="warehouse-location-status"></a>حالة موقع المستودع
 
@@ -169,6 +168,3 @@ ms.locfileid: "4421749"
 
 > [!NOTE]
 > يتم تحديث حقول الموقع فقط من خلال حركات المستودع. إذا قمت بنقل المخزون باستخدام دفتر اليومية أو عمليات أخرى خلاف WHS، فلن يتم تحديث الحقول.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

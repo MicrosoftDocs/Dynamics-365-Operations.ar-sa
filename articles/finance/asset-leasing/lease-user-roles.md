@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b31d0880d4f2cd2b8ad2dffcfe279421f935ed35
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: df23e219f5bd859b0072785dfd5f7a0ec63f540e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440156"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995383"
 ---
 # <a name="assign-lease-user-roles"></a>تعيين أدوار مستخدم عقد الإيجار
 
@@ -44,6 +43,3 @@ ms.locfileid: "4440156"
 1. انتقل إلى **إدارة النظام \> الأمان \> تعيين مستخدمين للأدوار**.
 2. حدد الدور **المحافظة على عقد الإيجار** أو **موظف الإيجار** أو **عرض عقد الإيجار**، ثم حدد **تعيين/استبعاد المستخدمين يدويًا**.
 3. حدد المستخدم المراد تعيينه للدور، ثم حدد **تعيين إلى دور**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

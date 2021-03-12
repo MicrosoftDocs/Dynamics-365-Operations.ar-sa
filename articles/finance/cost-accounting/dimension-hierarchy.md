@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fde19ad1a58616672de72fb5e5cbeea39138b46
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439865"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995180"
 ---
 # <a name="dimension-hierarchy"></a>التدرج الهرمي للأبعاد
 
@@ -333,6 +332,3 @@ ms.locfileid: "4439865"
 > [!NOTE] 
 > - قبل أن يؤثر التدرج الهرمي لقائمة الوصول على البيانات في Power BI، يجب أن يتم إقران التدرج الهرمي لقائمة الوصول والأمان على مستوى الصف في Power BI. للحصول على مزيد من المعلومات، راجع [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - لا يساعد التدرج الهرمي لقائمة الوصول في تأمين تصدير البيانات إلى Excel. لذلك، يجب استخدام أداة التقارير تلك فقط من خلال المحاسبين والمديرين الذين يجب أن يكون لديهم حق الوصول الكامل لاستعراض البيانات.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

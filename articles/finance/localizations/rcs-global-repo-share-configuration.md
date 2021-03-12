@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 04c46824123906eccbfff18a03974c8043729e0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0973d36a8fddd16d02776ac6567d424ac6ebc3ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440008"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994282"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>مشاركة تكوينات التقارير الإلكترونية (ER) في خدمات Regulatory Configuration Services (RCS)/المستودع العمومي مع مؤسسات خارجية.
 
@@ -50,7 +49,7 @@ ms.locfileid: "4440008"
 
 1. في مساحة عمل **التقارير الإلكترونية**، حدد **المستودعات** الخاصة بموفر التكوين.
 
-    ![موفرو التكوين](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_config_provider.JPG)
+    ![موفرو التكوين](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. حدد **المستودع االعمومي** \> **فتح**.
 3. ابحث عن التكوين الذي تريد مشاركته. يمكن استخدام حقل عامل التصفية لتضييق البحث. إذا لم تتمكن من العثور على التكوين في المستودع العمومي، فاتبع الخطوات الواردة في [إنشاء إصدار جديد من تكوين التقارير الإلكترونية (ER) وتحميله](rcs-global-repo-upload.md).
@@ -64,17 +63,12 @@ ms.locfileid: "4440008"
 3. تحديد التكوين الذي تريد مشاركته
 4. في علامة التبويب السريعة **مشاركة مع**، حدد **المؤسسة**.
 
-    ![علامة التبويب السريعة مشاركة مع](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![علامة التبويب السريعة مشاركة مع](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. في مربع الحوار، أدخل اسم المجال للمؤسسة الخارجية، ثم حدد **موافق**.
 
-    ![مربع الحوار "مشاركة إصدار التكوين مع مؤسسة خارجية"](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![مربع الحوار "مشاركة إصدار التكوين مع مؤسسة خارجية"](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 تتم مشاركة التكوين مع المؤسسة الخارجية ويكون متوفرا لهذه المؤسسة في المستودع العمومي. ومن هناك، يمكن استيرادها إلى مثيل المؤسسة لـ RCS أو إلى مثيلات تطبيقات Finance and Operations.
 
-![مشاركة التكوين مع مؤسسة خارجية](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
-
 6. لإلغاء مشاركة تكوين تمت مشاركته مسبقًا مع مؤسسة خارجية، حدد التكوين وانقر فوق **إلغاء المشاركة**، ثم حدد **موافق**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

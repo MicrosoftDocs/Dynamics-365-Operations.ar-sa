@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxTrans, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b4e35d6a07ef4220bdd883eb3384a1c800ecd9e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 686ddd27f9dbeb2febef9134a0f3755c9f438c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994330"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>عرض حركات ضرائب المبيعات المُرَّحلة
 
@@ -49,6 +48,3 @@ ms.locfileid: "4440049"
 2. في جزء الإجراءات، حدد **كود ضريبة المبيعات**.
 3. حدد **ضريبة المبيعات المرحّلة**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

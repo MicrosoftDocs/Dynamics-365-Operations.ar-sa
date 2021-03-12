@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 297792e90b3d2da0d738f5cbaa14779bc17ea3c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512320"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996188"
 ---
 # <a name="putaway-clusters"></a>مجموعات التخزين
 
@@ -296,6 +295,3 @@ ms.locfileid: "4512320"
 ## <a name="notes-and-tips"></a>ملاحظات وتلميحات
 
 بالنسبة للحالات التي يصبح فيها معرف نظام المجموعة هو لوحه الترخيص الرئيسية لبالته متداخلة ، يتم تعيين موضع التخزين تلقائيا عند فحص معرف نظام المجموعة. لا يجب مسح لوحة الترخيص الأخرى ، حتى إذا تم تعيين إنشاء لوحه الترخيص علي يدوي.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

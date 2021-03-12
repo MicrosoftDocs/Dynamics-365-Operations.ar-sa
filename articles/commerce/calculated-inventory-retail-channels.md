@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409879"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995810"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>حساب توفر المخزون لقنوات البيع بالتجزئة
 
@@ -114,6 +113,3 @@ ms.locfileid: "4409879"
 > لأسباب تتعلق بالأداء، عند استخدام حسابات توفر مخزون جانب القناة لإصدار طلب توفر المخزون باستخدام واجهة برمجة التطبيقات بالتجارة الإلكترونية أو منطق المخزون الخاص بقناة نقطة البيع الجديدة، يستخدم الحساب ذاكرة تخزين مؤقت لتحديد ما إذا كان قد مر وقت كاف لضبط تشغيل منطق الحساب مرة أخرى. يتم تعيين ذاكرة التخزين المؤقتة الافتراضية على 60 ثانية. على سبيل المثال، إذا قمت بتشغيل حساب جانب القناة للمتجر الخاص بك وقمت بعرض المخزون الحالي لأحد المنتجات في الصفحة **البحث عن المخزون**. إذا تم بيع إحدى وحدات المنتج بعد ذلك، فلن تعرض الصفحة **البحث عن المخزون** المخزون المخفض حتى يتم مسح ذاكرة التخزين المؤقت. بعد قيام المستخدمون بترحيل الحركات في نقطة البيع، فإنه يجب عليهم الانتظار 60 ثانية قبل التحقق من أن المخزون الحالي قد تم خفضه.
 
 إذا تطلب السيناريو التجاري الخاص بك وقتًا أقل في ذاكرة التخزين المؤقت، فاتصل بممثل دعم المنتج للحصول على المساعدة.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

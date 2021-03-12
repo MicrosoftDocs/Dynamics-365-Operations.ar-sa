@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 362d30e56fe35b85d50bfa2df57364733b366fef
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 821d4abcffbca624382aa7709c02b857fcb6e349
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646171"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994505"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>إعداد أكواد تقارير ضريبة المبيعات
 
@@ -39,6 +38,3 @@ ms.locfileid: "4646171"
 6. في الحقل **وصف مختصر**، أدخل وصفًا لأغراض داخلية.
 7. انقر فوق **حفظ**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
