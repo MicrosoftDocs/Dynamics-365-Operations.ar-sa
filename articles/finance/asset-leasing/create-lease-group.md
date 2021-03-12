@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f8512a59d0e9935090f97a0f0237bfefc8473955
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 2c06f6f943c8a47fbe650a67017b95d799914a0e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440147"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971343"
 ---
 # <a name="create-a-lease-group"></a>إنشاء مجموعة عقد الإيجار
 
@@ -50,6 +49,3 @@ ms.locfileid: "4440147"
 1. انتقل إلى **تأجير الأصول \> الضبط \> مجموعة عقد الإيجار**.
 2. حدد مجموعة عقد الإيجار، ثم حدد **الدفاتر**.
 3. حدد **جديد**، ثم في الحقل **نوع الدفتر**، حدد الدفتر الذي تريد تعيينه لمجموعة عقد الإيجار. يمكنك تعيين عدة دفاتر لمجموعة عقد إيجار إذا كان من الضروري حساب عقد إيجار لكل منها بطرق مختلفة.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: تسوية دفع جزئي لمورد قبل تاريخ الخصم بدفعة نهائية بعد تاريخ الخصم
+title: تسوية دفع جزئي لمورد قبل تاريخ الخصم ودفعة نهائية بعد تاريخ الخصم
 description: ترشدك هذه المقالة من خلال سيناريو حيث يتم تسديد دفعات جزئية متعددة، بعضها ضمن فترة الخصم النقدي والبعض الآخر خارج فترة الخصم النقدي.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a30bd1c032d27405c17388465eb813d6c87c270
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439793"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971968"
 ---
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>تسوية دفع جزئي لمورد قبل تاريخ الخصم بدفعة نهائية بعد تاريخ الخصم
+# <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>تسوية دفع جزئي لمورد قبل تاريخ الخصم ودفعة نهائية بعد تاريخ الخصم
 
 [!include [banner](../includes/banner.md)]
 
@@ -122,6 +121,3 @@ ms.locfileid: "4439793"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

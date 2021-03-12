@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 4bc4bac1a422a7505ef4c66b9c3b79a3d754cc4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440151"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971468"
 ---
 # <a name="asset-leasing-reports"></a>تقارير تأجير الأصول
 
@@ -165,6 +164,3 @@ ms.locfileid: "4440151"
 |     عملة                          |     اختصار العملة المستخدمة في الحركة. ستقوم كافة التقارير بتحويل عملة الحركة إلى عملة التقارير.  |
 |     دفعات الإيجار المتبقية          |     المبلغ الإجمالي لدفعات الإيجار غير المدفوع من جدول الدفع المتبقي من **تاريخ بدء الدفع**.            |
 |     الدفعات المرجحة المتبقية       |     ويتم ضرب دفعات الإيجار المتبقية في معدل الخصم المستخدم.   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

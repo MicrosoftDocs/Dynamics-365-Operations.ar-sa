@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 17b4b2f487fdeb9f1aa7d77bf87197885ba60e47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b41b87cd3e2e80b87318c5c771d45a4d0e5d4b85
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439911"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971693"
 ---
 # <a name="periodic-credit-management-tasks"></a>مهام إدارة الائتمان الدورية
 
@@ -44,6 +43,3 @@ ms.locfileid: "4439911"
 يمكنك تشغيل عملية **تحديث إحصاءات رصيد العميل‬** لتحديث حساب إحصاءات الرصيد التي تظهر في صفحة‬ **استعلام حول إحصاءات الرصيد**. يتم استخدام هذه المعلومات لحساب معدلات المخاطرة والقيم التي تظهر في مربعات حقائق إحصاءات الائتمان في صفحة **العميل**.
 
 عند تشغيل العملية، يقوم بتحديث إحصاءات رصيد العميل لعميل واحد. لإعداد مهمة دفعية لتشغيل العملية لعدة عملاء، يمكنك استخدام الصفحة **حساب إحصاءات الرصيد** (**إدارة الائتمان \> المهام الدورية \> حساب إحصاءات الرصيد**).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

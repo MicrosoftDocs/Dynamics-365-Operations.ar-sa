@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: fa4074c23baa74983f4922d2d09d7da81c943bfe
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4421810"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973825"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>تكوين التسلسلات الرقمية لتدفقات المستودع
 
@@ -92,6 +91,3 @@ ms.locfileid: "4421810"
     | رقم الفحص | يقوم نوع الشريحة هذا بإضافة رقم شيك، والذي هو حساب الرقم 10. (يتطابق هذا السلوك مع المنطق الموجود لمعرفات لوحات الترخيص.) بالنسبة لهذا النوع من الشرائح، يتم تعيين حقل **القيمة** دائمًا إلى علامة إقحام ( *^*)، ويتم دائما تعيين الحقل **الطول** إلى *1*. |
 
 1. لعرض مثال لتنسيق الرقم النهائي، افحص حقل **التنسيق** في أسفل علامة التبويب السريعة **الشرائح**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

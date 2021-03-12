@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 91c0a96abdd7df9e85e63ca6b1b47a57f3f401eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e14b029a1420eda6af6e83392f295a071a29842a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409767"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972420"
 ---
 # <a name="retail-price-reports"></a>تقارير أسعار البيع بالتجزئة
 
@@ -44,6 +43,3 @@ ms.locfileid: "4409767"
 | عرض منتجات مع تغييرات الأسعار | يؤدي تعيين هذا الخيار إلى **نعم** إلى عرض الأسعار فقط للتواريخ التي تم فيها تغيير السعر. سيكون السعر *قبل يوم واحد* من **التاريخ "من"** المحدد معروضًا بشكل دائم، لتمكين مدير المتجر من التعرف بسهولة على المنتجات التي لم تتغير أسعارها خلال المدة المحددة، ولتمكينه أيضًا من عرض السعر الحالي. |
 
 بعد إنشاء التقرير، يمكن تنزيل ملف Excel لإجراء أي عمليات تصفية إضافية مطلوبة. يمكن استخدام تقرير الأسعار أيضًا للتحقق من الأسعار القديمة للمنتجات للتواريخ السابقة.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
