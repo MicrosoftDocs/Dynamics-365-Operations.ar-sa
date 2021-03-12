@@ -1,6 +1,6 @@
 ---
 title: تصفية أوامر الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر
-description: يصف هذا الموضوع كيفية تصفية الطلبات بين الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر.
+description: يوضح هذا الموضوع كيفيه تصفيه الأوامر بين الشركات الشقيقة بحيث لا تتم مزامنة الأوامر والكيانات الأورديرلينيسه.
 author: negudava
 manager: tfehr
 ms.date: 11/09/2020
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,49 +18,51 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 6c5e1e2467673badd20366d3bd8e1b93b8078b26
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4701023"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796596"
 ---
-# <a name="filter-intercompany-orders-to-avoid-synchronizing-orders-and-orderlines"></a><span data-ttu-id="e87ce-103">تصفية أوامر الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر</span><span class="sxs-lookup"><span data-stu-id="e87ce-103">Filter intercompany orders to avoid synchronizing Orders and OrderLines</span></span>
+# <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a><span data-ttu-id="80b60-103">تصفية أوامر الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر</span><span class="sxs-lookup"><span data-stu-id="80b60-103">Filter intercompany orders to avoid syncing Orders and OrderLines</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e87ce-104">يمكنك تصفية أوامر الشركات الشقيقة لتجنب مزامنة كياني **الأوامر** و **بنود الأوامر**.</span><span class="sxs-lookup"><span data-stu-id="e87ce-104">You can filter intercompany orders to avoid synchronizing the **Orders** and **OrderLines** entities.</span></span> <span data-ttu-id="e87ce-105">في بعض السيناريوهات ، لا تكون تفاصيل الطلب بين الشركات الشقيقة ضرورية في تطبيق Customer Engagement.</span><span class="sxs-lookup"><span data-stu-id="e87ce-105">In some scenarios, the intercompany order details are not necessary in customer engagement app.</span></span>
+<span data-ttu-id="80b60-104">يمكنك تصفية أوامر الشركات الشقيقة لتجنب مزامنة كياني **الأوامر** و **بنود الأوامر**.</span><span class="sxs-lookup"><span data-stu-id="80b60-104">You can filter intercompany orders so that the **Orders** and **OrderLines** tables aren't synced.</span></span> <span data-ttu-id="80b60-105">في بعض السيناريوهات ، لا تكون تفاصيل الطلب بين الشركات الشقيقة ضرورية في تطبيق Customer Engagement.</span><span class="sxs-lookup"><span data-stu-id="80b60-105">In some scenarios, the intercompany order details aren't required in a customer engagement app.</span></span>
 
-<span data-ttu-id="e87ce-106">يتم توسيع كل كيان من كيانات Common Data Service القياسية بمراجع إلى حقل **IntercompanyOrder**، ويتم تعديل التعيينات ثنائيه الكتابة للاشاره إلى الحقول الاضافيه في عوامل التصفية.</span><span class="sxs-lookup"><span data-stu-id="e87ce-106">Each of the standard Common Data Service entities is extended with references to the **IntercompanyOrder** field, and the dual-write maps are modified to refer to the additional fields in the filters.</span></span> <span data-ttu-id="e87ce-107">وتكون النتيجة هي عدم مزامنة الأوامر بين الشركات الشقيقة بعد ذلك.</span><span class="sxs-lookup"><span data-stu-id="e87ce-107">The result is that the intercompany orders are no longer synchronized.</span></span> <span data-ttu-id="e87ce-108">يتجنب هذا الاجراء البيانات غير الضرورية في تطبيق Customer Engagement.</span><span class="sxs-lookup"><span data-stu-id="e87ce-108">This process avoids unnecessary data in the customer engagement app.</span></span>
+<span data-ttu-id="80b60-106">يتم توسيع كل جدول من جداول Dataverse القياسية بمراجع إلى عمود **IntercompanyOrder**، ويتم تعديل التعيينات ثنائيه الكتابة للاشاره إلى الحقول الاضافيه في عوامل التصفية.</span><span class="sxs-lookup"><span data-stu-id="80b60-106">Each standard Dataverse table is extended through references to the **IntercompanyOrder** column, and the dual-write maps are modified so that they refer to the additional columns in the filters.</span></span> <span data-ttu-id="80b60-107">ولذلك، لا تتم مزامنة الأوامر بين الشركات الشقيقة بعد ذلك.</span><span class="sxs-lookup"><span data-stu-id="80b60-107">Therefore, the intercompany orders are no longer synced.</span></span> <span data-ttu-id="80b60-108">يتجنب هذا الاجراء البيانات غير الضرورية في تطبيق Customer Engagement.</span><span class="sxs-lookup"><span data-stu-id="80b60-108">This process helps prevent unnecessary data in the customer engagement app.</span></span>
 
-1. <span data-ttu-id="e87ce-109">أضف مرجعًا إلى **IntercompanyOrder** إلى **رؤوس أوامر المبيعات CDS‬**.</span><span class="sxs-lookup"><span data-stu-id="e87ce-109">Add a reference to **IntercompanyOrder** to **CDS Sales Order Headers**.</span></span> <span data-ttu-id="e87ce-110">ويتم ملؤها في الأوامر بين الشركات الشقيقة فقط.</span><span class="sxs-lookup"><span data-stu-id="e87ce-110">It is populated on only intercompany orders.</span></span> <span data-ttu-id="e87ce-111">حقل **IntercompanyOrder** متوفر في **SalesTable**.</span><span class="sxs-lookup"><span data-stu-id="e87ce-111">The field **IntercompanyOrder** is available in **SalesTable**.</span></span>
+1. <span data-ttu-id="80b60-109">توسيع جدول **رؤوس أوامر التوريد CDS** عن طريق أضافه مرجع إلى العمود **IntercompanyOrder**.</span><span class="sxs-lookup"><span data-stu-id="80b60-109">Extend the **CDS Sales Order Headers** table by adding a reference to the **IntercompanyOrder** column.</span></span> <span data-ttu-id="80b60-110">يتم ملء هذا العمود فقط في الأوامر بين الشركات الشقيقة.</span><span class="sxs-lookup"><span data-stu-id="80b60-110">This column is filled in only on intercompany orders.</span></span> <span data-ttu-id="80b60-111">عمود **IntercompanyOrder** متوفر في جدول **SalesTable**.</span><span class="sxs-lookup"><span data-stu-id="80b60-111">The **IntercompanyOrder** column is available in the **SalesTable** table.</span></span>
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="تعيين التقسيم المرحلي للاستهداف، SalesOrderHeader":::
-    
-2. <span data-ttu-id="e87ce-113">بعد توسيع **رؤوس أوامر المبيعات CDS‬**، يتوفر حقل **IntercompanyOrder** في التعيين.</span><span class="sxs-lookup"><span data-stu-id="e87ce-113">After **CDS Sales Order Headers** is extended, the **IntercompanyOrder** field is available in the mapping.</span></span> <span data-ttu-id="e87ce-114">استخدم عامل تصفية `INTERCOMPANYORDER == ""` باعتباره سلسلة الاستعلام.</span><span class="sxs-lookup"><span data-stu-id="e87ce-114">Apply a filter with `INTERCOMPANYORDER == ""` as the query string.</span></span>
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="تعيين الاعداد المرحلي للصفحة الهدف لـ CDS التي تكون رؤوس أوامر التوريد":::
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="رؤوس أوامر المبيعات، تحرير الاستعلام":::
+2. <span data-ttu-id="80b60-113">بعد توسيع **رؤوس أوامر المبيعات CDS‬**، يتوفر عمود **IntercompanyOrder** في التعيين.</span><span class="sxs-lookup"><span data-stu-id="80b60-113">After **CDS Sales Order Headers** is extended, the **IntercompanyOrder** column is available in the mapping.</span></span> <span data-ttu-id="80b60-114">استخدم عامل تصفية `INTERCOMPANYORDER == ""` باعتباره سلسلة الاستعلام.</span><span class="sxs-lookup"><span data-stu-id="80b60-114">Apply a filter that has `INTERCOMPANYORDER == ""` as the query string.</span></span>
 
-3. <span data-ttu-id="e87ce-116">أضف مرجعًا إلى **IntercompanyInventTransId** إلى **‏‫بنود أمر مبيعات CDS‬**.</span><span class="sxs-lookup"><span data-stu-id="e87ce-116">Add a reference to **IntercompanyInventTransId** to **CDS Sales Order Lines**.</span></span>  <span data-ttu-id="e87ce-117">ويتم ملؤها في الأوامر بين الشركات الشقيقة فقط.</span><span class="sxs-lookup"><span data-stu-id="e87ce-117">It is populated on only intercompany orders.</span></span> <span data-ttu-id="e87ce-118">حقل **InterCompanyInventTransID** متوفر في **SalesLine**.</span><span class="sxs-lookup"><span data-stu-id="e87ce-118">The field **InterCompanyInventTransID** is available in **SalesLine**.</span></span>
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="مربع الحوار تحرير الاستعلام لـ CDS لرؤوس أوامر التوريد":::
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="تعيين التقسيم المرحلي للاستهداف، SalesOrderLine":::
+3. <span data-ttu-id="80b60-116">توسيع جدول **بنود أوامر التوريد CDS** عن طريق أضافه مرجع إلى العمود **IntercompanyInventTransId**.</span><span class="sxs-lookup"><span data-stu-id="80b60-116">Extend the **CDS Sales Order Lines** table by adding a reference to the **IntercompanyInventTransId** column.</span></span> <span data-ttu-id="80b60-117">يتم ملء هذا العمود فقط في الأوامر بين الشركات الشقيقة.</span><span class="sxs-lookup"><span data-stu-id="80b60-117">This column is filled in only on intercompany orders.</span></span> <span data-ttu-id="80b60-118">عمود **InterCompanyInventTransId** متوفر في جدول **SalesLine**.</span><span class="sxs-lookup"><span data-stu-id="80b60-118">The **InterCompanyInventTransId** column is available in the **SalesLine** table.</span></span>
 
-4. <span data-ttu-id="e87ce-120">بعد توسيع **بنود أوامر مبيعات CDS‬**، يتوفر حقل **IntercompanyInventTransId** في التعيين.</span><span class="sxs-lookup"><span data-stu-id="e87ce-120">After **CDS Sales Order Lines** is extended, the **IntercompanyInventTransId** field is available in the mapping.</span></span> <span data-ttu-id="e87ce-121">استخدم عامل تصفية `INTERCOMPANYINVENTTRANSID == ""` باعتباره سلسلة الاستعلام.</span><span class="sxs-lookup"><span data-stu-id="e87ce-121">Apply a filter with `INTERCOMPANYINVENTTRANSID == ""` as the query string.</span></span>
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="تعيين الاعداد المرحلي للصفحة الهدف لبنود أوامر مبيعات CDS":::
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="بنود أوامر المبيعات، تحرير الاستعلام":::
+4. <span data-ttu-id="80b60-120">بعد توسيع **بنود أوامر مبيعات CDS‬**، يتوفر عمود **IntercompanyInventTransId** في التعيين.</span><span class="sxs-lookup"><span data-stu-id="80b60-120">After **CDS Sales Order Lines** is extended, the **IntercompanyInventTransId** column is available in the mapping.</span></span> <span data-ttu-id="80b60-121">استخدم عامل تصفية `INTERCOMPANYINVENTTRANSID == ""` باعتباره سلسلة الاستعلام.</span><span class="sxs-lookup"><span data-stu-id="80b60-121">Apply a filter that has `INTERCOMPANYINVENTTRANSID == ""` as the query string.</span></span>
 
-5. <span data-ttu-id="e87ce-123">قم بتوسيع **رأس فاتورة المبيعات V2‬** و **بنود فواتير المبيعات V2** بنفس الطريقة التي قمت بها بتوسيع كيانات Common Data Service في الكيانين 1 و2.</span><span class="sxs-lookup"><span data-stu-id="e87ce-123">Extend **Sales Invoice Header V2** and **Sales Invoice Lines V2** in the same way you extended the Common Data Service entities in steps 1 and 2.</span></span> <span data-ttu-id="e87ce-124">أضف بعد ذلك استعلامات التصفية.</span><span class="sxs-lookup"><span data-stu-id="e87ce-124">Then add the filter queries.</span></span> <span data-ttu-id="e87ce-125">سلسلة عامل التصفية لـ **رأس فاتورة المبيعات V2** هي `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`.</span><span class="sxs-lookup"><span data-stu-id="e87ce-125">The filter string for **Sales Invoice Header V2** is `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`.</span></span> <span data-ttu-id="e87ce-126">سلسلة عامل التصفية لـ **بنود فواتير المبيعات V2** هي `INTERCOMPANYINVENTTRANSID == ""`.</span><span class="sxs-lookup"><span data-stu-id="e87ce-126">The filter string for **Sales Invoice Lines V2** is `INTERCOMPANYINVENTTRANSID == ""`.</span></span>
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="مربع الحوار تحرير الاستعلام لبنود أوامر مبيعات CDS":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="تعيين التقسيم المرحلي للاستهداف، رؤوس فواتير المبيعات":::
+5. <span data-ttu-id="80b60-123">كرر الخطوتين 1 و2 لتوسيع جدول **راس فاتورة المبيعات V2** وأضافه استعلام تصفيه.</span><span class="sxs-lookup"><span data-stu-id="80b60-123">Repeat steps 1 and 2 to extend the **Sales Invoice Header V2** table and add a filter query.</span></span> <span data-ttu-id="80b60-124">في هذه الحالة، استخدم `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` كسلسلة استعلام لعامل التصفية.</span><span class="sxs-lookup"><span data-stu-id="80b60-124">In this case, use `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` as the query string for the filter.</span></span>
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="رؤوس فواتير المبيعات، تحرير الاستعلام":::
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="تعيين الاعداد المرحلي للصفحة الهدف لرأس فاتورة المبيعات V2":::
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="بنود فواتير المبيعات، تحرير الاستعلام":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="مربع الحوار تحرير الاستعلام لرأس فاتورة المبيعات V2":::
 
-6. <span data-ttu-id="e87ce-130">لا يشتمل كيان **عروض الأسعار** على علاقة بين الشركات الشقيقة.</span><span class="sxs-lookup"><span data-stu-id="e87ce-130">The **Quotations** entity doesn't have an intercompany relationship.</span></span> <span data-ttu-id="e87ce-131">إذا قام شخص ما بإنشاء عرض أسعار لأحد العملاء بين الشركات الشقيقة الخاصة بك، فيمكنك وضع كافة هؤلاء العملاء في مجموعة عملاء واحدة باستخدام حقل **CustGroup**.</span><span class="sxs-lookup"><span data-stu-id="e87ce-131">If someone creates a quote for one of your intercompany customers, you can put all of these customers in one customer group by using the **CustGroup** field.</span></span>  <span data-ttu-id="e87ce-132">يمكن توسيع الرأس والبنود لإضافة حقل **CustGroup** ثم التصفية لاستبعاد هذه المجموعة.</span><span class="sxs-lookup"><span data-stu-id="e87ce-132">Header and lines can be extended to add the **CustGroup** field and then filter to not include this group.</span></span>
+6. <span data-ttu-id="80b60-127">كرر الخطوتين 3 و2 لتوسيع جدول **بنود فاتورة المبيعات V2** وأضافه استعلام تصفيه.</span><span class="sxs-lookup"><span data-stu-id="80b60-127">Repeat steps 3 and 4 to extend the **Sales Invoice Lines V2** table and add a filter query.</span></span> <span data-ttu-id="80b60-128">في هذه الحالة، استخدم `INTERCOMPANYINVENTTRANSID == ""` كسلسلة استعلام لعامل التصفية.</span><span class="sxs-lookup"><span data-stu-id="80b60-128">In this case, use `INTERCOMPANYINVENTTRANSID == ""` as the query string for the filter.</span></span>
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="تعيين التقسيم المرحلي للاستهداف، رأس عرض أسعار المبيعات":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="مربع الحوار تحرير الاستعلام لبنود فاتورة المبيعات V2":::
 
-7. <span data-ttu-id="e87ce-134">بعد قيامك بتوسيع كيان **عروض الأسعار**، قم بتطبيق عامل تصفية باستخدام `CUSTGROUP !=  "<company>"` باعتباره سلسلة الاستعلام.</span><span class="sxs-lookup"><span data-stu-id="e87ce-134">After you extent the **Quotations** entity, apply a filter with `CUSTGROUP !=  "<company>"` as the query string.</span></span>
+7. <span data-ttu-id="80b60-130">لا يشتمل جدول **عروض الأسعار** على علاقة بين الشركات الشقيقة.</span><span class="sxs-lookup"><span data-stu-id="80b60-130">The **Quotations** table doesn't have an intercompany relationship.</span></span> <span data-ttu-id="80b60-131">إذا قام شخص ما بإنشاء عرض أسعار لأحد العملاء بين الشركات الشقيقة الخاصة بك، فيمكنك وضع كافة هؤلاء العملاء في مجموعة عملاء واحدة باستخدام حقل **CustGroup**.</span><span class="sxs-lookup"><span data-stu-id="80b60-131">If someone creates a quotation for one of your intercompany customers, you can use the **CustGroup** column to put all those customers into one customer group.</span></span> <span data-ttu-id="80b60-132">يمكنك توسيع الراس والخطوط عن طريق أضافه العمود **CustGroup**، ثم التصفية بحيث لا يتم تضمين المجموعة.</span><span class="sxs-lookup"><span data-stu-id="80b60-132">You can extend the header and lines by adding the **CustGroup** column, and then filter so that the group isn't included.</span></span>
 
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="رأس عرض أسعار المبيعات، تحرير الاستعلام":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="تعيين الاعداد المرحلي للصفحة الهدف لرأس عرض أسعار مبيعات CDS":::
+
+8. <span data-ttu-id="80b60-134">بعد قيامك بتوسيع **عروض الأسعار**، قم بتطبيق عامل تصفية باستخدام `CUSTGROUP != "<company>"` باعتباره سلسلة الاستعلام.</span><span class="sxs-lookup"><span data-stu-id="80b60-134">After **Quotations** is extended, apply a filter that has `CUSTGROUP != "<company>"` as the query string.</span></span>
+
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="مربع الحوار تحرير الاستعلام لرأس عروض أسعار المبيعات CDS":::
