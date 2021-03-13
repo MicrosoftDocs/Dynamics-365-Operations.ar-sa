@@ -1,7 +1,7 @@
 ---
 title: تكوينات طلب المورّد
 description: يصف هذا الموضوع الحقول المطلوبة تعبئتها في طلب مورد جديد.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d78aa7c14ed2a2a5097f6f80c946c6ae4ed8bb94
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 987b9cefef395b3bf3e915f41232fe0daba213b9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421582"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021149"
 ---
 # <a name="vendor-request-configurations"></a>تكوينات طلب المورّد
 [!include [banner](../includes/banner.md)]
@@ -54,6 +53,3 @@ ms.locfileid: "4421582"
 4.  افتح علامة التبويب **البلاد/المناطق** لتحديد البلد/المنطقة التي ستستخدم في التكوين.
 5.  أكمل التكوين باتباع الإرشادات الخاصة بالتكوين الافتراضي.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

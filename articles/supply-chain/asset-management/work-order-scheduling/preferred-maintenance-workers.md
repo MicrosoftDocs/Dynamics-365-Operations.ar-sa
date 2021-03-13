@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c0637609a34890360a3b81355a8d21ef1b9faf8c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421317"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021394"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>إعداد عمال الصيانة المفضلين
 
@@ -68,6 +67,3 @@ ms.locfileid: "4421317"
 
 أثناء جدولة أمر عمل، يتم حساب نقاط مختلفة لتحديد العاملين الذين يجب عليهم إكمال وظائف ذات صلة بأمر عمل (يتم إعداد هذه النقاط في **محددات إدارة الأصول‬** > الارتباط **جدولة أمر العمل‬**). في حال حصول عاملي صيانة مفضلين أو أكثر أو عاملي صيانة مسؤولين أو أكثر على النقاط نفسها أثناء جدولة أمر العمل، فسيتم اختيار عامل واحد بشكل عشوائي. والا، فسيتم دائمًا تعيين العامل الذي يحظى بأعلى مجموع نقاط لإكمال أمر العمل.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
