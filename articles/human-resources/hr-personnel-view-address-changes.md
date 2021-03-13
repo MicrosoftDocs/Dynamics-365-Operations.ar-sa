@@ -2,7 +2,7 @@
 title: عرض تغييرات العناوين وإدارتها
 description: يوضح هذا الموضوع كيف يمكنك عرض تغييرات العناوين وإدارتها في Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a69d723b45e834b022491c8eaf2a7fb580e54f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417054"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152043"
 ---
 # <a name="view-and-manage-address-changes"></a>عرض تغييرات العناوين وإدارتها
 
@@ -125,9 +125,6 @@ ms.locfileid: "4417054"
 عند تحديد تجانب **تغييرات العناوين**، تعرض صفحة جديدة تفاصيل أي تغييرات في العناوين. يمكنك بشكل اختياري تحديد **تضمين تغييرات العناوين المستقبلية** في الزاوية العلوية اليمني لعرض تغييرات العناوين مع تاريخ في المستقبل.
 
 > [!NOTE]
-> إذا كنت ترغب في تلقي تنبيه أو بريد إلكتروني حول تغييرات العناوين هذه، فيمكنك إنشاء قاعدة تنبيه جديدة في علامة التبويب **خيارات** في جزء الإجراءات. لمزيد من المعلومات حول قواعد التنبيه، راجع [إنشاء قواعد تنبيه](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
+> إذا كنت ترغب في تلقي تنبيه أو بريد إلكتروني حول تغييرات العناوين هذه، فيمكنك إنشاء قاعدة تنبيه جديدة في علامة التبويب **خيارات** في جزء الإجراءات. لمزيد من المعلومات حول قواعد التنبيه، راجع [إنشاء قواعد تنبيه](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
-> إذا كنت ترغب في تكوين سير عمل لتغييرات العناوين، فيمكنك تحديد الخيار **الإرسال خارجيًا‬‏‫** على قاعدة التنبيه، ثم استخدام Power Automate لتشغيل حدث الأعمال وتكوين سير عمل. لمزيد من المعلومات، راجع [التنبيهات كأحداث أعمال](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> إذا كنت ترغب في تكوين سير عمل لتغييرات العناوين، فيمكنك تحديد الخيار **الإرسال خارجيًا‬‏‫** على قاعدة التنبيه، ثم استخدام Power Automate لتشغيل حدث الأعمال وتكوين سير عمل. لمزيد من المعلومات، راجع [التنبيهات كأحداث أعمال](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).

@@ -2,7 +2,7 @@
 title: إنشاء أقسام وتضمينها في التدرج الهرمي للأقسام
 description: القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab9d16c8b8596f0890e0256f33608fda99a5312f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417043"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130363"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>إنشاء أقسام وتضمينها في التدرج الهرمي للأقسام
 
@@ -54,6 +54,3 @@ ms.locfileid: "4417043"
 
 ## <a name="steps-for-creating-a-department"></a>خطوات إنشاء قسم
 ارجع إلى مقالة [تحديد الأقسام الجديدة](../fin-and-ops/hr/tasks/define-new-departments.md) للاطلاع على الإجراء التفصيلي لإنشاء قسم جديد. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

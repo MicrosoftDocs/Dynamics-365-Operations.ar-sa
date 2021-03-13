@@ -2,7 +2,7 @@
 title: استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف
 description: تشرح هذه المقالة كيف يمكن استخدام إمكانات سير العمل للموارد البشرية لإدارة معلومات الموظف. على سبيل المثال، يمكنك إقران سير عمل مع موضع وتكوين سير عمل موافقة يتم تشغيله عندما يقوم الموظفون بتغيير سجلهم.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 250b214372a12f99d2ababc97c5edf4456cadcad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c5bb0a363a3094626d81af3d5ffea38d9a1b12a8
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417157"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129793"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف
 
@@ -73,6 +73,3 @@ ms.locfileid: "4417157"
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

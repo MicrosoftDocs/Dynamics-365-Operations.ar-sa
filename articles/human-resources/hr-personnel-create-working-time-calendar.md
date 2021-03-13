@@ -2,7 +2,7 @@
 title: إنشاء تقويمات وإنشاء أوقات عمل
 description: وتصف التقويمات القدرة وأوقات العمل لموارد العمليات. تشرح هذه المقالة كيفية تعريف تقويم عمل استنادًا إلى قالب وقت عمل.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace, WrkCtrGroupDateCalendar, WrkCtrDateCalendar
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5c630297a8962d1bb383110881b2acdc872b9cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2fd297d9368472138fbe2db5a2133719cb1a9f18
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417035"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130291"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>إنشاء تقويمات وإنشاء أوقات عمل
 
@@ -43,6 +43,3 @@ ms.locfileid: "4417035"
 12. حدد **موافق**.
 13. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

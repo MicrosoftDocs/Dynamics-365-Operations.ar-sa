@@ -1,8 +1,8 @@
 ---
 title: ما الجديد والمتغير في Dynamics 365 Human Resources (08 يوليو 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 8 يوليو 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 14dfd925009cb2a9d40044e27f28521ff4d331b7
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528463"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130387"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>ما الجديد والمتغير في Dynamics 365 Human Resources (8 يوليو 2020)
 
@@ -71,9 +71,9 @@ ms.locfileid: "4528463"
 
 يعمل هذا الإصدار على تصحيح خطأ (مرجع فارغ) في إدخال الموظف بشكل مبسط عند تعيين موظف باستخدام الخيار **للتعيين وإضافة تفاصيل**.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>لا يتم عرض التغييرات التي يتم إجراؤها على كيان عامل Common Data Service في الموارد البشرية (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>لا يتم عرض التغييرات التي يتم إجراؤها على كيان عامل Dataverse في الموارد البشرية (455652)
 
-ستظهر الآن التغييرات التي تم إجراؤها على الحقول التالية في كيان **العامل** في Common Data Service في الموارد البشرية:
+ستظهر الآن التغييرات التي تم إجراؤها على الحقول التالية في كيان **العامل** في Dataverse في الموارد البشرية:
 
 - **العمل من المنزل**
 - **تاريخ الأقدمية**
@@ -131,9 +131,9 @@ ms.locfileid: "4528463"
 
 ## <a name="coming-soon"></a>قريبًا
 
-## <a name="checklist-entities-included-in-common-data-service"></a>تضمين كيانات قائمة الاختيار في Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>تضمين كيانات قائمة الاختيار في Dataverse
 
-ستتوفر كيانات قائمة الاختيار لعمليات الإلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبًا في Common Data Service.
+ستتوفر كيانات قائمة الاختيار لعمليات الإلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبًا في Dataverse.
 
 ## <a name="see-also"></a>راجع أيضًا
 
@@ -141,6 +141,3 @@ ms.locfileid: "4528463"
 [نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

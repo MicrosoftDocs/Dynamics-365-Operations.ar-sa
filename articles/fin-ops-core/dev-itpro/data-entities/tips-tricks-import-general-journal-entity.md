@@ -1,5 +1,5 @@
 ---
-title: أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
+title: استيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
 description: يوفر هذا الموضوع تلميحات حول استيراد البيانات إلى دفتر اليومية العام باستخدام كيان دفتر اليومية العام.
 author: rcarlson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687633"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129589"
 ---
-# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
+# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>استيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,6 +65,3 @@ ms.locfileid: "4687633"
 - إذا تم تعيين حقل **رقم الإيصال** إلى **مُنشأ تلقائيًا**، فلن تنجح عملية الاستيراد. فالإعداد **مُنشأ تلقائيًا** المتعلق **برقم الإيصال** غير معتمد.
 
 بشكل افتراضي، يستخدم كيان دفتر اليومية العام المعالجة المستندة إلى مجموعات. بعد تقييم متطلبات العمل لمؤسستك، يمكنك تغيير إعداد **المعالجة المستندة إلى مجموعات** بالنقر فوق **كيانات البيانات** في مساحة عمل **إدارة البيانات**. يُستخدم إعداد "المعالجة المستندة إلى مجموعات" لتسريع عملية الاستيراد. وإذا لم تستخدم إعداد "المعالجة المستندة إلى مجموعات"، فستتم عملية استيراد كيان دفتر اليومية العام ببطء.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

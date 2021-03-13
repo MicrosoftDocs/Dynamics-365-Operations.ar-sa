@@ -2,7 +2,7 @@
 title: مرحبًا بك في Dynamics 365 Human Resources
 description: يوفر Dynamics 365 Human Resources رؤى العاملين التي تحتاجها لإنشاء تجارب الموظفين المستندة إلى البيانات عبر مناطق متعددة.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65100ba5798ac5731d510c8f6f112bb7a33b4e65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1136d4c811f819665202f5f93e54b63b98188970
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529770"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129533"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>مرحبًا بك في Dynamics 365 Human Resources
 
@@ -61,7 +61,7 @@ ms.locfileid: "4529770"
 
 [نظرة عامة](hr-developer-overview.md)</br>
 [توسيع باستخدام Power Apps وPower Automate](hr-developer-power-apps.md)</br>
-[كيانات الموارد البشرية في Common Data Service](hr-developer-entities.md)</br>
+[كيانات الموارد البشرية في Dataverse](hr-developer-entities.md)</br>
 [الحقول المخصصة](hr-developer-custom-fields.md)</br>
 [إعداد تكامل البيانات](hr-admin-integration-choose-technology.md)</br>
 [مرجع API الكيان](hr-developer-api-authentication.md)
@@ -78,6 +78,3 @@ ms.locfileid: "4529770"
 [إدارة الإجازة والغياب](hr-leave-and-absence-overview.md)</br>
 [تطوير الموظفين](hr-develop-performance-management-overview.md)</br>
 [إنشاء دورات تدريبية](hr-learning-courses.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

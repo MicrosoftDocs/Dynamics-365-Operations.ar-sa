@@ -1,5 +1,5 @@
 ---
-title: استكشاف المشاكل وإصلاحها مع وحدة الكتابة المزدوجة في تطبيقات Finance and Operations
+title: استكشاف المشاكل وإصلاحها في تطبيقات Finance and Operations
 description: يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح المشكلات ذات الصلة بوحدة الكتابة الثنائية في تطبيقات Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683613"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131235"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>استكشاف المشاكل وإصلاحها مع وحدة الكتابة المزدوجة في تطبيقات Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>استكشاف المشاكل وإصلاحها في تطبيقات Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ ms.locfileid: "4683613"
 
 **بيانات الاعتماد المطلوبة لإصلاح المشكلة**: نفس المستخدم الذي قام بإعداد الكتابة المزدوجة.
 
-قد تتلقى رسالة الخطأ التالية عند محاولة تكوين كيان جديد للكتابة المزدوجة. المستخدم الوحيد الذي يمكنه إنشاء خريطة هو المستخدم الذي قام بإعداد اتصال الكتابة المزدوجة.
+قد تتلقى رسالة الخطأ التالية عند محاولة تكوين جدول جديد للكتابة المزدوجة. المستخدم الوحيد الذي يمكنه إنشاء خريطة هو المستخدم الذي قام بإعداد اتصال الكتابة المزدوجة.
 
 *لا يشير رمز حالة الاستجابة إلى النجاح: 401 (غير مرخص)*
 
@@ -77,7 +77,7 @@ ms.locfileid: "4683613"
 
 لإصلاح المشكلة، أنشئ تذكرة لفريق تكامل البيانات. قم بإرفاق تتبع الشبكة حتى يتمكن فريق تكامل البيانات من وضع علامة على المخططات باعتبارها **ليست قيد التشغيل** في النهاية الخلفية.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>حدث خطأ أثناء محاولة بدء تعيين جدول
+## <a name="error-while-trying-to-start-a-table-mapping"></a>حدث خطأ أثناء محاولة بدء تعيين جدول
 
 قد تتلقي خطأ مثل التالي عند محاولة تعيين تلك الحالة من التعيين إلى **قيد التشغيل:**
 
@@ -86,7 +86,4 @@ ms.locfileid: "4683613"
 يعتمد إصلاح هذا الخطأ على سبب الخطأ:
 
 + إذا كان التعيين يتضمن تعيينات تابعة، فتأكد من تمكين التعيينات التابعة لتعيين هذا الجدول.
-+ قد يكون التعيين مفتقدًا لحقول المصدر أو الوجهة. في حالة فقدان حقل في تطبيق Finance and Operations، اتبع الخطوات الموجودة في القسم [مشكلة فقدان حقول الكيان في التعيينات](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). في حالة فقدان حقل في Dataverse، عندئذ انقر فوق **تحديث الجداول** على التعيين بحيث يتم ملء الحقول تلقائيًا إلى التعيين.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ قد يكون التعيين مفتقدًا لأعمدة المصدر أو الوجهة. في حالة فقدان عمود في تطبيق Finance and Operations، اتبع الخطوات الموجودة في القسم [مشكلة فقدان أعمدة الجدول في التعيينات](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). في حالة فقدان عمود في Dataverse، عندئذ انقر فوق **تحديث الجداول** على التعيين بحيث يتم ملء الحقول تلقائيًا إلى التعيين.

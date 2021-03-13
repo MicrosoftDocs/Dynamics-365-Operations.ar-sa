@@ -1,5 +1,5 @@
 ---
-title: المزامنة مع محرك التسعير عند الطلب في Dynamics 365 Supply Chain Management
+title: المزامنة عند الطلب باستخدام محرك تسعير Supply Chain Management
 description: يصف هذا الموضوع كيفية استخدام محرك التسعير في  Microsoft Dynamics 365 Supply Chain Management من Dynamics 365 Sales.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4449391"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130643"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>المزامنة مع محرك التسعير عند الطلب في Dynamics 365 Supply Chain Management
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>المزامنة عند الطلب باستخدام محرك تسعير Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "4449391"
 3. أضف بند أمر جديدًا.
 4. إذا كنت تقوم بإنشاء أمر جديد، فحدد **أمر سعر** في جزء الإجراء. إذا كنت تقوم بتحديث أمر موجود، فحدد **إعادة حساب** في جزء الإجراء.
 
-    يتم ملء الحقول التالية تلقائيًا:
+    يتم ملء الأعمدة التالية تلقائيًا:
 
     + تفاصيل المبلغ
     + النسبة المئوية للخصم
@@ -58,17 +58,14 @@ ms.locfileid: "4449391"
 
 ## <a name="how-it-works"></a>كيف يعمل
 
-عند تحديد **أمر السعر** في Sales، يتم استدعاء وظيفة **الإجماليات** في علامة التبويب **أمر المبيعات\> عرض** في Supply Chain Management لأمر المبيعات المقترن. يتم استخدام القيم في إجمالي الأمر في Sales لملء الحقول المقابلة في Supply Chain Management.
+عند تحديد **أمر السعر** في Sales، يتم استدعاء وظيفة **الإجماليات** في علامة التبويب **أمر المبيعات\> عرض** في Supply Chain Management لأمر المبيعات المقترن. يتم استخدام القيم في إجمالي الأمر في Sales لملء الأعمدة المقابلة في Supply Chain Management.
 
 عند حساب إجمالي أمر المبيعات في Supply Chain Management، يقيّم الحساب اتفاقيات التجارة واتفاقيات المبيعات الحالية للعميل والمنتجات المدرجة في أمر المبيعات. يتم استخدام هذه المعلومات لحساب الإجماليات. عند تحديد **أمر السعر**، يعكس Sales تلقائيًا كل الإعداد الذي تم إجراؤه في Supply Chain Management.
 
 ## <a name="limitations"></a>قيود
 
-عند ملء الحقول في Sales، يتم تطبيق القيود التالية:
+عند ملء الأعمدة في Sales، يتم تطبيق القيود التالية:
 
 + لا يتم تكرار إعداد الرسوم ومخصصات الرسوم في Supply Chain Management في Sales.
-+ لا يأخذ التشعير بعين الاعتبار تسعير البيع بالتجزئة الخاص المحدد في حقل **قناة البيع بالتجزئة** في صفحة بند أمر المبيعات في Supply Chain Management.
++ لا يأخذ التشعير بعين الاعتبار تسعير البيع بالتجزئة الخاص المحدد في عمود **قناة البيع بالتجزئة** في صفحة بند أمر المبيعات في Supply Chain Management.
 + لا يتم الأخذ بعين الاعتبار الخصومات المحددة في قسم **إدارة البدل التجاري‬** في Supply Chain Management.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

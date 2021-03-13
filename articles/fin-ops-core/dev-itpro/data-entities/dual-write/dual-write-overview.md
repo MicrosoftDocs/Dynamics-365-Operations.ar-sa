@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على الكتابة المزدوجة
-description: يوفر هذا الموضوع نظرة عامة على الكتابة الثنائية. الكتابة الثنائية هي بنية أساسية توفر تفاعلاً قريبًا من الوقت الفعلي بين تطبيقات Microsoft Dynamics 365 المستندة إلى النموذج وتطبيقات Finance and Operations.
+description: يوفر هذا الموضوع نظرة عامة على الكتابة المزدوجة التي توفر تفاعلاً قريبًا من الوقت الفعلي بين تطبيقات Customer Engagement وتطبيقات Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 02/06/2020
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3937850a9df716113591e49b25373beb48e3acdd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685603"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129995"
 ---
-# <a name="dual-write-overview"></a>نظرة عامة على الكتابة الثنائية
+# <a name="dual-write-overview"></a>نظرة عامة على الكتابة المزدوجة
 
 [!include [banner](../../includes/banner.md)]
 
@@ -53,7 +53,7 @@ ms.locfileid: "4685603"
 + طريقة عرض مدمجة لسجلات النشاط والأخطاء لمسؤولي البيانات
 + القدرة على تكوين التنبيهات والحدود المخصصة، وللاشتراك في الإخطارات
 + واجهة مستخدم بديهية (UI) للتصفية والتحويلات
-+ القدرة على تعيين تبعيات الكيانات والعلاقات وعرضها
++ القدرة على تعيين تبعيات الجداول والعلاقات وعرضها
 + قابلية التوسعة لكل من الجداول والخرائط القياسية والمخصصة
 + إدارة دورة حياة التطبيق الموثوق
 + تجربة الإعداد الجاهز للعملاء الجدد
@@ -93,7 +93,7 @@ ms.locfileid: "4685603"
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>ما الذي تعنيه الكتابة المزدوجة لمطوري ومهندسي تطبيقات Customer Engagement؟
 
-تعمل الكتابة المزدوجة على أتمتة تدفق البيانات بين تطبيقات Finance and Operations وتطبيقات Customer Engagement. تتكون الكتابة المزدوجة من حلين من AppSource تم تثبيتهما على Dataverse. تقوم الحلول بتوسيع مخطط الكيان والمكونات الإضافية وعمليات سير العمل على Dataverse بحيث يمكن تغيير حجمها إلى حجم ERP. للحصول على تنفيذ ناجح، يجب على مطوري ومهندسي تطبيقات Customer Engagement فهم هذه التغييرات والتعاون مع نظرائهم في تطبيقات Finance and Operations.
+تعمل الكتابة المزدوجة على أتمتة تدفق البيانات بين تطبيقات Finance and Operations وتطبيقات Customer Engagement. تتكون الكتابة المزدوجة من حلين من AppSource تم تثبيتهما على Dataverse. تقوم الحلول بتوسيع مخطط الجدول والمكونات الإضافية وعمليات سير العمل على Dataverse بحيث يمكن تغيير حجمها إلى حجم ERP. للحصول على تنفيذ ناجح، يجب على مطوري ومهندسي تطبيقات Customer Engagement فهم هذه التغييرات والتعاون مع نظرائهم في تطبيقات Finance and Operations.
 
 لإنشاء تماثل مع تطبيقات Finance and Operations، تنشئ الكتابة المزدوجة بعض التغييرات الهامة في مخطط Dataverse. إذا كنت على دراية بالخطة، فيمكنك تجنب بعض الإصلاحات في التصميم والتطوير في المستقبل.
 
@@ -103,12 +103,9 @@ ms.locfileid: "4685603"
 
 + لمنع فقدان البيانات أثنا إرسال العملات بين تطبيقات Finance and Operations وDataverse، ستتمكن من توسيع عدد المنازل العشرية في نوع بيانات العملة لتطبيقات Customer Engagement. تقوم هذه الميزة بإجراء ترجمة تلقائية للصفوف الموجودة إلى الحالة الموسعة الجديدة عند طبقة بيانات التعريف. أثناء هذه العملية، يتم تحويل قيمة العملة إلى بيانات عشرية بدلا من بيانات خاصة بالأموال، وتدعم قيمة العملة 10 منازل عشرية. هذه الميزة اختيارية ولا تحتاج المؤسسات التي لا تتطلب أكثر من 4 منازل عشرية من الدقة إلى الاشتراك فيها. لمزيد من المعلومات، راجع [ترحيل نوع بيانات العملة للكتابة المزدوجة](currrency-decimal-places.md).
 
-+ [سيُضاف سريان التاريخ](../../dev-tools/date-effectivity.md) إلى Dataverse. وسيدعم البيانات السابقة والحالية والمستقبلية على الكيان نفسه.
++ [سيُضاف سريان التاريخ](../../dev-tools/date-effectivity.md) إلى Dataverse. وسيدعم البيانات السابقة والحالية والمستقبلية على الجدول نفسه.
 
 + يتم دعم [تحويلات وحدة](../../../../supply-chain/pim/tasks/manage-unit-measure.md) المنتج للمنتجات وعروض الأسعار والأوامر والفواتير.
 
 لمزيد من المعلومات حول التغييرات القادمة، راجع [الميزات الجديدة أو المتغيرة في الكتابة المزدوجة](whats-new-dual-write.md).
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

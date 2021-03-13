@@ -1,5 +1,5 @@
 ---
-title: استيراد بيانات من قوالب كيانات بيانات Excel تتضمن أوراق عمل متعددة
+title: قوالب بيانات مع أوراق عمل متعددة
 description: يصف هذا الموضوع كيفية استيراد البيانات باستخدام قوالب كيانات البيانات من Excel إلى Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688069"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130571"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>استيراد بيانات من قوالب كيانات بيانات Excel تتضمن أوراق عمل متعددة
+# <a name="data-templates-with-multiple-worksheets"></a>قوالب بيانات مع أوراق عمل متعددة
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ ms.locfileid: "4688069"
 ## <a name="upload-a-file-using-run-project"></a>تحميل ملف باستخدام مشروع التشغيل
 
 يمكنك تحميل ملف Excel أثناء استخدام خيار **تشغيل المشروع** لتنفيذ استيراد مشروع. يجب أن تكون حذرًا لتحميل الملفات التي لها نفس أوراق العمل فقط كالتعيينات الموجودة في وحدات البيانات في مشروع البيانات. إذا لم يتم العثور على ورقة عمل في الملف الذي تم تحميله مؤخرا، يعرض النظام رسالة خطأ وستتوقف عملية الاستيراد. إذا كان يجب تغيير التعيين إلى ورقة العمل لأحد الكيانات، فيجب أولًا تحديث التعيينات في مشروع البيانات من ضمن مشروع البيانات قبل استخدام الملف في تجربة **تشغيل المشروع**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

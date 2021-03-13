@@ -2,7 +2,7 @@
 title: تكوين معلومات الموارد البشرية
 description: تتم مشاركة إعدادات بعض محددات الموارد البشرية بين الشركات، بينما تكون إعدادات المحددات الأخرى خاصة بكل شركة. توضح هذه المقالة كيفية إعداد محددات الموارد البشرية الخاصة بكل شركة.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bac50c5f302797e28df2bc792893c8a682899a93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 131606ebaff49a2c63d22bcfdb5e523f4df87ec6
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417053"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129115"
 ---
 # <a name="configure-human-resources-parameters"></a>تكوين معلومات الموارد البشرية
 
@@ -50,6 +50,3 @@ ms.locfileid: "4417053"
 
 > [!NOTE]
 > لا يمكن أن يتجاوز عدد الساعات التي يتم العمل خلالها 1,250، ولا يمكن أن تتجاوز مدة العمل 12 شهرًا. وتكون هذه القيم القصوى وفقًا للقانون الفيدرالي في الولايات المتحدة. وأخيرًا، تحدد الإعدادات الموجودة في علامة التبويب **الخدمة الذاتية للموظف** المعلومات التي يمكن للمديرين إدخالها بالنيابة عن الموظفين التابعين لهم.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
