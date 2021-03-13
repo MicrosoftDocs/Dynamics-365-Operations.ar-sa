@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689484"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154167"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -34,9 +33,19 @@ ms.locfileid: "4689484"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 > [!NOTE]
-> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.16 من Finance
+
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>تنسيقات التقارير الإلكترونية "إقرار ضريبة القيمة المضافة (CZ)" و"تصدير كشف حساب المراقبة (CZ)" لجمهورية التشيك
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبدالها بتنسيقات جديدة |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: بحلول 22 يناير، 2022 ، فإننا نخطط لم دعم تنسيقات التقارير الإلكترونية (ER) لـ "إقرار ضريبة القيمة المضافة (CZ)" أو "تصدير كشف حساب المراقبة (CZ)". يتم تقديم تنسيقات إقرار XML لضريبة القيمة المضافة (CZ) ، وإقرار XML لضريبة القيمة المضافة Excel (CZ) ، وكشف التحكم XML لضريبة القيمة المضافة (CZ) بدلا من ذلك تحت نموذج "إقرار الضريبة". |
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"تنسيق تصدير حركة دفتر الأستاذ (BE)" تنسيق التقارير الإلكترونية ونموذج تصدير حركة دفتر الأستاذ (BE) "الخاص ببلجيكا
 
@@ -107,6 +116,3 @@ ms.locfileid: "4689484"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>الإعلانات السابقة حول الميزات التي تمت إزالتها أو إهمالها
 لمعرفه المزيد حول الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة، راجع [‏‫الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة‬](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689556"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154077"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -32,7 +32,55 @@ ms.locfileid: "4689556"
 
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
-يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="feature-removed-effective-january-28-2021"></a>الميزة التي تمت ازالتها تاريخ السريان 28 يناير ، 2021
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>وظيفة دُفعية للتعامل مع إلغاء تجزئة فهرس SQL
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | لتقليل الحمل الزائد لأداره الفهارس ومراقبتها وصيانتها بواسطة العملاء، تمت أزاله هذه الميزة. |
+| **هل تم الاستبدال بميزة أخرى؟**   | سيتم اجراء صيانة الفهرس بواسطة خدمات Microsoft للانتقال إلى الامام. سيحدث هذا باستمرار دون التاثير علي أحمال المستخدمين. |
+| **مناطق المنتجات المتأثرة**         | تطبيقات Finance and Operations|
+| **خيارات النشر**              | توزيع السحابة - يؤثر علي بيئات الإنتاج التي تتم ادارتها من قبل Microsoft والمستويات من المستوي 2 إلى بيئات اليه تحديد الصلاحيات. |
+| **الحالة**                         | هذه الميزة تمت إزالتها. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.17 من تطبيقات Finance and Operations
+
+> [!IMPORTANT]
+> يتوفر الإصدار 10.0.17 كجزء من إصدار المعاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | لدعم الإصدارات الأخيرة من Visual Studio، يجب إجراء بعض التغييرات على ملحقات X++ في Visual Studio. هذه التغييرات غير متوافقة مع Visual Studio 2015. |
+| **هل تم الاستبدال بميزة أخرى؟**   | سيحل Visual Studio 2017 محل Visual Studio 2015 كإصدار منشور ومطلوب. |
+| **مناطق المنتجات المتأثرة**         | أدوات تطوير Visual Studio |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهملة. بعد التحديث، سيتم أزاله أدوات X + + السابقة من Visual Studio 2015، ولن يتم تثبيت الادوات المحدثة علي Visual Studio2015. لا يوجد تاثير علي البناءات المستضافة. للحصول علي إنشاء أجهزه ظاهريه، يجب تحديث تدفقات البناء (تعريف البنية) يدويا لتغيير التبعية من MSBuild 14.0 (Visual Studio2015) إلى msbuild 15.0 ( Visual Studio2017) كما هو موضح في [تحديث تدفقات قديمه في أنابيب Azure](../dev-tools/pipeline-msbuild-update.md). |
+
+### <a name="user-avatar"></a>تجسيد المستخدم 
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استرداد تجسيد المستخدم الذي يعرض علي الجانب الأيسر من شريط التنقل باستخدام API من عنصر تحكم راس Dynamics 365، والذي تم إهماله. |
+| **هل تم الاستبدال بميزة أخرى؟**   | سيشاهد المستخدمون الأحرف الاولي في دائره في شريط التنقل بدلا من ذلك. هذا هو نفس المرئيات المستخدمة حاليا في أجهزه التطوير. |
+| **مناطق المنتجات المتأثرة**         | عميل الويب |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | تمت إزالتها اعتبارًا من الإصدار 10.0.17. |
+
+### <a name="enterprise-portal-ep-deprecation"></a>إهلاك مدخل الشركة علي الإنترنت (EP)  
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم إهمال نتائج بيانات التعريف المقترنة بـ Dynamics AX2012 مدخل الشركة على الإنترنت (EP) نظرا لعدم اعتماد EP في التطبيقات Finance and Operations. |
+| **هل تم الاستبدال بميزة أخرى؟**   | لا |
+| **مناطق المنتجات المتأثرة**         | عميل الويب |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهملة. تتم جدوله كافة أكواد EP لتتم ازالتها في إصدار 2021 أكتوبر. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.15 من تطبيقات Finance and Operations
 
@@ -192,6 +240,3 @@ ms.locfileid: "4689556"
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>الإعلانات السابقة حول الميزات التي تمت إزالتها أو إهمالها
 لمعرفه المزيد حول الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة، راجع [‏‫الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة‬](../migration-upgrade/deprecated-features.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

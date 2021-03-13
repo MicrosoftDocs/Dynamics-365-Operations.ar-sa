@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527400"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152187"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 26 سبتمبر، 2020
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527400"
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources. لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
-لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>في هذا الإصدار
 
@@ -58,7 +57,7 @@ ms.locfileid: "4527400"
 | 481401 | يتم تعليق معالجة الاستحقاق عندما يكون أساس تاريخ الاستحقاق بعد تاريخ بدء الاستحقاق وفي نهاية الشهر | يتم تحديث معالجة الاستحقاق بحيث لا يكون بها تأخير عندما يكون أساس تاريخ الاستحقاق بعد تاريخ بدء الاستحقاق وفي نهاية الشهر. |
 | 447167 | تتضمن قوائم السجلات منتهية الصلاحية العاملين غير النشطين | تضم علامة التبويب **السجلات منتهية الصلاحية** في **إدارة العاملين** العاملين غير النشطين. والآن تحتوي على العاملين النشطين فقط. |
 | 486840 | يتم فتح طلب إجازة أو غياب خاطئ من **‏‫عناصر عمل تم تعيينها إلي‬** | يعمل تحديد طلب إجازة بغياب من **عناصر العمل المعينة إليّ** على عدم فتح أحدث طلب إجازة بغياب تم تعيينه للمستخدم الحالي. |
-| 506868 | Common Data Service الحقل **العنوان** لم يتم تعيينه للكيان **منصب الوظيفة**. | لا يُعرض الحقل **العنوان** في الكيانات **الوظيفة** و **منصب الوظيفة** على أنه غير محدد. يتم الآن عرض الحقل **العنوان**. |
+| 506868 | Dataverse الحقل **العنوان** لم يتم تعيينه للكيان **منصب الوظيفة**. | لا يُعرض الحقل **العنوان** في الكيانات **الوظيفة** و **منصب الوظيفة** على أنه غير محدد. يتم الآن عرض الحقل **العنوان**. |
 | 430359 | يتعذر الوصول إلى مهام قائمة اختيار إلغاء الإعداد باستخدام أدوار المدير والموظف المعينة | يتعذر على العاملين الذين لديهم تاريخ إنهاء مستقبلي الوصول إلى مهام قوائم الاختيار الخاصة بهم إذا كان لديهم دور "موظف" أو "مدير" فقط. يمكن الآن للمستخدمين الذين لديهم دور "موظف" أو "مدير" الوصول إلى مهام إلغاء الإعداد بتاريخ إنهاء مستقبلي. |
 | 458102 | لا يظهر الموظف الجديد على الكيان **معلومات كشف رواتب العاملين** عندما تم إنشاؤه | يتم تضمين الموظفين الجدد في الكيان "معلومات كشف الرواتب للعامل" دون الحاجة إلى فتح معلومات كشف الرواتب للموظف قبل تصدير الكيان. |
 
@@ -85,6 +84,3 @@ ms.locfileid: "4527400"
 [نظرة عامة على Dynamics 365 Human Resources الإصدار 2020، الموجة 2 wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [عملية التحديث](hr-admin-setup-update-process.md)
 [إدارة الميزات](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

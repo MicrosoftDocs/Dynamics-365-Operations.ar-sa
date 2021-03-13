@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695129"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154143"
 ---
 # <a name="help-system"></a>نظام التعليمات
 
@@ -163,7 +163,4 @@ On the **System parameters** page, follow these steps:
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | يستضيف هذا الموقع محتوى من الإصدارات السابقة. |
 | [مجتمع Dynamics](https://community.dynamics.com/) | يستضيف هذا الموقع المدونات والمنتديات ومقاطع الفيديو. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | يوفر هذا الموقع معلومات التقييم والمبيعات. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | يستضيف هذا الموقع الموارد التدريبية والتقارير القابلة للتنزيل، والمستندات التقنية، وهو موقع الدعم الأساسي لأصحاب خطة الخدمة. قد يتطلب الوصول إلى بعض الموارد على هذا الموقع خطة خدمة. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | يستضيف هذا الموقع الموارد التدريبية والتقارير القابلة للتنزيل، والمستندات التقنية، وهو موقع الدعم الأساسي لأصحاب خطة الخدمة. قد يتطلب الوصول إلى بعض الموارد على هذا الموقع خطة خدمة. |

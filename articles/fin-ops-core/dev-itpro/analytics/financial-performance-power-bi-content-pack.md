@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 53dbf90b09ce532731ecaabc45418926da6083d5
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682735"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154351"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>حل محتوى PowerBI.com للأداء المالي
 
@@ -87,7 +87,4 @@ ms.locfileid: "4682735"
 - دفاتر الأستاذ
 - ChartofAccounts
 
-استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. تُستخدم القياسات المحسوبة لإنشاء مؤشرات الأداء الرئيسية والتقارير المستخدمة في المحتوى. بشكل افتراضي، يحضر المحتوى بيانات للسنوات الثلاث الماضية وسنة واحدة مستقبلية. لتضمين عمليات حسابية إضافية على لوحة المعلومات والتقارير، يمكنك تعديل [مصنف Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). هذا المصنف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء المحتوى.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+استخدمت هذه الكيانات لإنشاء القياسات المحسوبة في نموذج البيانات. تُستخدم القياسات المحسوبة لإنشاء مؤشرات الأداء الرئيسية والتقارير المستخدمة في المحتوى. بشكل افتراضي، يحضر المحتوى بيانات للسنوات الثلاث الماضية وسنة واحدة مستقبلية. لتضمين عمليات حسابية إضافية على لوحة المعلومات والتقارير، يمكنك تعديل [مصنف Microsoft Excel](https://docs.microsoft.com/dynamics/s-e/). هذا المصنف هو نموذج البيانات الافتراضي الذي تم استخدامه لإنشاء المحتوى.

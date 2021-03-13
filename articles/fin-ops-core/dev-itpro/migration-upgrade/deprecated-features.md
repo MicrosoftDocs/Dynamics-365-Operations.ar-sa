@@ -1,6 +1,6 @@
 ---
 title: الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
-description: يصف هذا الموضوع الميزات التي تمت ازالتها أو التي تم التخطيط لإزالتها من Dynamics 365 for Finance and Operations والإصدارات السابقة لهذا المنتج.
+description: يصف هذا الموضوع الميزات التي تمت ازالتها أو التي تم التخطيط لإزالتها من Dynamics 365 for Finance and Operations والإصدارات السابقة.
 author: sericks007
 manager: AnnBe
 ms.date: 09/21/2020
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679946"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154375"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
 
@@ -39,7 +39,7 @@ ms.locfileid: "4679946"
 
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
-يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance الإصدار 10.0.7 مع Platform update 31
 
@@ -970,7 +970,7 @@ ms.locfileid: "4679946"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم استبدال هذه الوظيفة بميزة أخرى. |
-| **هل تم الاستبدال بميزة أخرى؟**   | Common data service                                      |
+| **هل تم الاستبدال بميزة أخرى؟**   | Dataverse                                      |
 | **مناطق المنتجات المتأثرة**         | Connector لـ Dynamics                         |
 | **الحالة**                         | تمت إزالتها اعتبارًا من Dynamics AX 7.0.                           |
 
@@ -1373,6 +1373,3 @@ ms.locfileid: "4679946"
 |     <strong>مناطق المنتجات المتأثرة</strong>     |                                              دفتر الأستاذ العام                                              |
 |             <strong>الحالة</strong>             |                                      تمت إزالتها اعتبارًا من Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

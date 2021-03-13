@@ -3,24 +3,23 @@ title: الميزات التي تمت إزالتها أو إهمالها في Dy
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 01/11/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 37b541ff5037a38b60dbfd6a6c071f55afcc1304
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: dd982ae60da1c2958d6d759bb5dd256a71fabf6c
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689509"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154191"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 
@@ -34,7 +33,22 @@ ms.locfileid: "4689509"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 > [!NOTE]
-> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.17 من Commerce
+
+> [!Important]
+> يتوفر الإصدار 10.0.17 كجزء من إصدار المعاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="full-dataset-generation-interval-is-deprecated"></a>تم إهمال الفاصل الزمني لإنشاء مجموعة بيانات كاملة
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | بدءا من هذا الإصدار، في نموذج **معلمات مجدول Commerce** في المركز الرئيسي لـ Dynamics 365، سيتم إهمال حقل **الفاصل الزمني بالأيام لإنشاء مجموعة البيانات بأكملها**. بدءًا من هذا الإصدار أيضًا، ستتم إزالة الحقل بشكل مرئي بحيث لا يمكن تحرير القيمة. سيبقي هذا حيث ستكون القيمة **0**. |
+| **هل تم الاستبدال بميزة أخرى؟**   | لا |
+| **مناطق المنتجات المتأثرة**         | Dynamics 365 Commerce |
+| **خيارات النشر**              | ‏‏الكل|
+| **الحالة**                         | مهملة. لا تستخدم هذا الحقل أو تغيير القيمة الموجودة فيه.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.15 من Commerce
 
@@ -108,6 +122,3 @@ ms.locfileid: "4689509"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>الإعلانات السابقة حول الميزات التي تمت إزالتها أو إهمالها
 لمعرفه المزيد حول الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة، راجع [‏‫الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة‬](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
