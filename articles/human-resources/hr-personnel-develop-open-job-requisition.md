@@ -1,68 +1,68 @@
 ---
-title: " تطوير طلبات الموظفين وفتحها "
-description: مشاريع التعيين تساعد في إدارة عملية التعيين.
+title: إنشاء طلبات الموظفين وفتحها
+description: تساعدك مشاريع التعيين في إدارة عملية التعيين.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+manager: tfehr
+ms.date: 02/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
+ms.service: human-resources
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3207d61536422255b574fd126f16075fcddc2c93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da6f9caaabcba81549eddf5cafcf02dc2b0dc2cd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417046"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129536"
 ---
-# <a name="develop-and-open-job-requisition"></a><span data-ttu-id="b38e9-103"> تطوير طلبات الموظفين وفتحها </span><span class="sxs-lookup"><span data-stu-id="b38e9-103">Develop and open job requisition</span></span>
+# <a name="create-and-open-job-requisition"></a><span data-ttu-id="eed18-103">إنشاء طلبات الموظفين وفتحها</span><span class="sxs-lookup"><span data-stu-id="eed18-103">Create and open job requisition</span></span>
 
+<span data-ttu-id="eed18-104">تساعدك مشاريع التعيين في إدارة عملية التعيين.</span><span class="sxs-lookup"><span data-stu-id="eed18-104">Recruitment projects help you manage your recruiting process.</span></span> <span data-ttu-id="eed18-105">بعد إنشاء مشروع توظيف، يمكنك القيام بالمهام التالية:</span><span class="sxs-lookup"><span data-stu-id="eed18-105">After creating a recruitment project, you can do the following tasks:</span></span>
 
+- <span data-ttu-id="eed18-106">كتابه إعلان وظيفة للمشروع.</span><span class="sxs-lookup"><span data-stu-id="eed18-106">Write a job advertisement for the project.</span></span>
+- <span data-ttu-id="eed18-107">نشر الإعلان على صفحات الخدمة الذاتية للموظف.</span><span class="sxs-lookup"><span data-stu-id="eed18-107">Publish the ad on Employee self-service pages.</span></span>
+- <span data-ttu-id="eed18-108">اقران الاستمارات للتوظيف بالمشروع.</span><span class="sxs-lookup"><span data-stu-id="eed18-108">Associate applications for employment with the project.</span></span>
+- <span data-ttu-id="eed18-109">تتبع الأنشطة الخاصة بذلك المشروع.</span><span class="sxs-lookup"><span data-stu-id="eed18-109">Track activities for that project.</span></span> 
 
-<span data-ttu-id="b38e9-104">مشاريع التعيين تساعد في إدارة عملية التعيين.</span><span class="sxs-lookup"><span data-stu-id="b38e9-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="b38e9-105">لكل مشروع تعيين، يمكنك إعداد معلومات، مثل الوظيفة التي يتم تعيين موظفين لها واسم مسؤول التعيين‬ وحالة المشروع والقسم الذي توجد الوظيفة فيه.</span><span class="sxs-lookup"><span data-stu-id="b38e9-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="b38e9-106">بعد إنشاء مشروع تعيين، يمكنك كتابة إعلان عن وظيفة للمشروع، ونشر الإعلان على صفحات الخدمة الذاتية للموظف، وربط طلبات التوظيف بالمشروع، وتعقب أنشطة هذا المشروع.</span><span class="sxs-lookup"><span data-stu-id="b38e9-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="b38e9-107">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="b38e9-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b38e9-108">لبدء الإجراء، انتقل إلى الموارد البشرية > التعيين > مشاريع التعيين > مشاريع التعيين</span><span class="sxs-lookup"><span data-stu-id="b38e9-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
-
-1. <span data-ttu-id="b38e9-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="b38e9-109">Click New.</span></span>
-2. <span data-ttu-id="b38e9-110">في الحقل "مشروع التعيين"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="b38e9-110">In the Recruitment project field, type a value.</span></span>
-3. <span data-ttu-id="b38e9-111">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="b38e9-111">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="b38e9-112">في الحقل "مسؤول التعيين"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b38e9-112">In the Recruiter field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="b38e9-113">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="b38e9-113">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="b38e9-114">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b38e9-114">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="b38e9-115">انقر فوق تحديد.</span><span class="sxs-lookup"><span data-stu-id="b38e9-115">Click Select.</span></span>
-8. <span data-ttu-id="b38e9-116">في الحقل "القسم"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b38e9-116">In the Department field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="b38e9-117">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b38e9-117">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="b38e9-118">في الحقل "الوظيفة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b38e9-118">In the Job field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="b38e9-119">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="b38e9-119">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="b38e9-120">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b38e9-120">In the list, click the link in the selected row.</span></span>
-13. <span data-ttu-id="b38e9-121">في الحقل "عدد فرص العمل‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="b38e9-121">In the Number of openings field, enter a number.</span></span>
-14. <span data-ttu-id="b38e9-122">في الحقل "مدير التوظيف‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b38e9-122">In the Hiring manager field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="b38e9-123">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="b38e9-123">In the list, find and select the desired record.</span></span>
-16. <span data-ttu-id="b38e9-124">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b38e9-124">In the list, click the link in the selected row.</span></span>
-17. <span data-ttu-id="b38e9-125">انقر فوق تحديد.</span><span class="sxs-lookup"><span data-stu-id="b38e9-125">Click Select.</span></span>
-18. <span data-ttu-id="b38e9-126">في الحقل "الموعد النهائي لاستمارات التقديم‬"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="b38e9-126">In the Application deadline field, enter a date.</span></span>
-19. <span data-ttu-id="b38e9-127">انقر فوق "الوسائط‬".</span><span class="sxs-lookup"><span data-stu-id="b38e9-127">Click Media.</span></span>
-    * <span data-ttu-id="b38e9-128">تتضمن مشاريع التعيين خيارًا لتحديد المنافذ الإعلامية لاستخدامها للإعلان عن مناصب مفتوحة.</span><span class="sxs-lookup"><span data-stu-id="b38e9-128">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
-20. <span data-ttu-id="b38e9-129">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="b38e9-129">Click New.</span></span>
-21. <span data-ttu-id="b38e9-130">في الحقل "الوسائط"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="b38e9-130">In the Media field, click the drop-down button to open the lookup.</span></span>
-22. <span data-ttu-id="b38e9-131">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="b38e9-131">In the list, click the link in the selected row.</span></span>
-23. <span data-ttu-id="b38e9-132">في الحقل "تاريخ البدء"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="b38e9-132">In the Start date field, enter a date.</span></span>
-24. <span data-ttu-id="b38e9-133">في الحقل "تاريخ الانتهاء"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="b38e9-133">In the End date field, enter a date.</span></span>
-25. <span data-ttu-id="b38e9-134">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="b38e9-134">Click Save.</span></span>
-26. <span data-ttu-id="b38e9-135">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="b38e9-135">Close the page.</span></span>
-27. <span data-ttu-id="b38e9-136">انقر فوق "إعلانات الوظيفة".</span><span class="sxs-lookup"><span data-stu-id="b38e9-136">Click Job ads.</span></span>
-28. <span data-ttu-id="b38e9-137">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="b38e9-137">Click Save.</span></span>
-29. <span data-ttu-id="b38e9-138">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="b38e9-138">Close the page.</span></span>
-30. <span data-ttu-id="b38e9-139">حدد خانة الاختيار "العرض على خدمة الموظف الذاتية‬" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="b38e9-139">Check or uncheck the Display on employee self service checkbox.</span></span>
-    * <span data-ttu-id="b38e9-140">حدد خانة الاختيار "العرض على خدمة الموظف الذاتية‬" لجعل مشروع التعيين مرئيًا للموظفين في صفحات خدمة الموظف الذاتية‬.</span><span class="sxs-lookup"><span data-stu-id="b38e9-140">Select the Display on employee self service check box to make the recruitment project visible to employees on their Employee self-service pages.</span></span>  
-31. <span data-ttu-id="b38e9-141">انقر فوق حالة "مشروع التعيين".</span><span class="sxs-lookup"><span data-stu-id="b38e9-141">Click Recruitment project status.</span></span>
-32. <span data-ttu-id="b38e9-142">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="b38e9-142">Click Start.</span></span>
-    * <span data-ttu-id="b38e9-143">تعني حالة البدء أن المشروع جاهز لتلقي الطلبات.</span><span class="sxs-lookup"><span data-stu-id="b38e9-143">The Started status means that the project is ready to receive applications.</span></span>  
-33. <span data-ttu-id="b38e9-144">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="b38e9-144">Click OK.</span></span>
-
+1. <span data-ttu-id="eed18-110">انتقل إلى **الموارد البشرية > التعيين > مشاريع التعيين > مشاريع التعيين**.</span><span class="sxs-lookup"><span data-stu-id="eed18-110">Go to **Human resources > Recruitment > Recruitment projects > Recruitment projects**.</span></span>
+2. <span data-ttu-id="eed18-111">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="eed18-111">Select **New**.</span></span>
+3. <span data-ttu-id="eed18-112">في الحقل **مشروع التعيين**، أدخل قيمة.</span><span class="sxs-lookup"><span data-stu-id="eed18-112">In the **Recruitment project** field, enter a value.</span></span>
+4. <span data-ttu-id="eed18-113">في حقل **الوصف**، أدخل قيمة.</span><span class="sxs-lookup"><span data-stu-id="eed18-113">In the **Description** field, enter a value.</span></span>
+5. <span data-ttu-id="eed18-114">في الحقل **مسؤول التعيين**، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="eed18-114">In the **Recruiter** field, select the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="eed18-115">في القائمة، قم بالبحث عن السجل الخاص بك وحدده.</span><span class="sxs-lookup"><span data-stu-id="eed18-115">In the list, find and select your record.</span></span>
+7. <span data-ttu-id="eed18-116">في القائمة، حدد الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="eed18-116">In the list, select the link in the selected row.</span></span>
+8. <span data-ttu-id="eed18-117">اختر **تحديد**.</span><span class="sxs-lookup"><span data-stu-id="eed18-117">Choose **Select**.</span></span>
+9. <span data-ttu-id="eed18-118">في الحقل "القسم"، حدد زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="eed18-118">In the Department field, select the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="eed18-119">في القائمة، حدد الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="eed18-119">In the list, select the link in the selected row.</span></span>
+11. <span data-ttu-id="eed18-120">في الحقل **الوظيفة**، حدد زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="eed18-120">In the **Job** field, select the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="eed18-121">في القائمة، قم بالبحث عن السجل الخاص بك وحدده.</span><span class="sxs-lookup"><span data-stu-id="eed18-121">In the list, find and select your record.</span></span>
+13. <span data-ttu-id="eed18-122">في القائمة، حدد الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="eed18-122">In the list, select the link in the selected row.</span></span>
+14. <span data-ttu-id="eed18-123">في **الحقل عدد فرص العمل‬**، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="eed18-123">In the **Number of openings field**, enter a number.</span></span>
+15. <span data-ttu-id="eed18-124">في الحقل **مدير التوظيف‬**، حدد زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="eed18-124">In the **Hiring manager** field, select the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="eed18-125">في القائمة، قم بالبحث عن السجل الخاص بك وحدده.</span><span class="sxs-lookup"><span data-stu-id="eed18-125">In the list, find and select your record.</span></span>
+17. <span data-ttu-id="eed18-126">في القائمة، حدد الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="eed18-126">In the list, select the link in the selected row.</span></span>
+18. <span data-ttu-id="eed18-127">اختر **تحديد**.</span><span class="sxs-lookup"><span data-stu-id="eed18-127">Choose **Select**.</span></span>
+19. <span data-ttu-id="eed18-128">في الحقل **الموعد النهائي لاستمارات التقديم‬**، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="eed18-128">In the **Application deadline** field, enter a date.</span></span>
+20. <span data-ttu-id="eed18-129">حدد **الوسائط**.</span><span class="sxs-lookup"><span data-stu-id="eed18-129">Select **Media**.</span></span> <span data-ttu-id="eed18-130">تتضمن مشاريع التعيين خيارًا لتحديد المنافذ الإعلامية لاستخدامها للإعلان عن مناصب مفتوحة.</span><span class="sxs-lookup"><span data-stu-id="eed18-130">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
+21. <span data-ttu-id="eed18-131">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="eed18-131">Select **New**.</span></span>
+22. <span data-ttu-id="eed18-132">في الحقل **الوسائط**، حدد زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="eed18-132">In the **Media** field, select the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="eed18-133">في القائمة، حدد الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="eed18-133">In the list, select the link in the selected row.</span></span>
+24. <span data-ttu-id="eed18-134">في حقل **تاريخ البدء**، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="eed18-134">In the **Start date** field, enter a date.</span></span>
+25. <span data-ttu-id="eed18-135">في حقل **تاريخ الانتهاء**، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="eed18-135">In the **End date** field, enter a date.</span></span>
+26. <span data-ttu-id="eed18-136">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="eed18-136">Select **Save**.</span></span>
+27. <span data-ttu-id="eed18-137">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="eed18-137">Close the page.</span></span>
+28. <span data-ttu-id="eed18-138">حدد إعلانات الوظيفة.</span><span class="sxs-lookup"><span data-stu-id="eed18-138">Select Job ads.</span></span>
+29. <span data-ttu-id="eed18-139">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="eed18-139">Select **Save**.</span></span>
+30. <span data-ttu-id="eed18-140">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="eed18-140">Close the page.</span></span>
+31. <span data-ttu-id="eed18-141">حدد خانة الاختيار **العرض على الخدمة الذاتية للموظف** أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="eed18-141">Check or uncheck the **Display on employee self-service** checkbox.</span></span> <span data-ttu-id="eed18-142">حدد خانة الاختيار **العرض على الخدمة الذاتية للموظف**.</span><span class="sxs-lookup"><span data-stu-id="eed18-142">Select the **Display on employee self-service** check box.</span></span> <span data-ttu-id="eed18-143">يجعل هذا التحديد مشروع التوظيف مرئيًا للموظفين في صفحات الخدمة الذاتية للموظفين الخاصة بهم.</span><span class="sxs-lookup"><span data-stu-id="eed18-143">This selection makes the recruitment project visible to employees on their Employee self-service pages.</span></span>
+32. <span data-ttu-id="eed18-144">حدد **حالة مشروع التعيين**.</span><span class="sxs-lookup"><span data-stu-id="eed18-144">Select **Recruitment project status**.</span></span>
+33. <span data-ttu-id="eed18-145">حدد **بدء**.</span><span class="sxs-lookup"><span data-stu-id="eed18-145">Select **Start**.</span></span> <span data-ttu-id="eed18-146">تعني الحالة **بدء** أن المشروع جاهز لتلقي الاستمارات.</span><span class="sxs-lookup"><span data-stu-id="eed18-146">The **Started** status means that the project is ready to receive applications.</span></span>  
+34. <span data-ttu-id="eed18-147">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="eed18-147">Select **OK**.</span></span>
