@@ -1,6 +1,6 @@
 ---
 title: تفضيلات المستخدم في مصمم التقارير المالية
-description: يشرح هذا المقال كيفية تعيين تفضيلات المستخدم لتخصيص تفاعلات المستخدم في مصمم التقارير المالية والتحكم في تجربة تسجيل الدخول الأولى. يمكنك أيضًا التحكم في كيفية عرض التقارير الفردية ومكتبة التقارير ومواقع الملفات الافتراضية.
+description: يشرح هذا الموضوع كيفية تعيين تفضيلات المستخدم لتخصيص تفاعلات المستخدم في مصمم التقارير المالية والتحكم في تجربة تسجيل الدخول الأولى.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a7d7124da3d0e9596f364c17065c95610384a8ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 46a681b3a783b4f76946d2a972d73a11254ec56c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687367"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093177"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>تفضيلات المستخدم في مصمم التقارير المالية
 
@@ -72,6 +72,3 @@ ms.locfileid: "4687367"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [التقارير المالية](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

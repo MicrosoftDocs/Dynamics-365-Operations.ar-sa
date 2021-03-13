@@ -2,7 +2,7 @@
 title: اختيار تقنية تكامل بيانات
 description: يقدم هذا المقال معلومات حول التكامل مع البيانات المدارة بواسطة Human Resources. وهو يصف تقنيات تكامل مختلفة لمساعدتك على تحديد أفضل التقنيات التي تناسب احتياجاتك.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e6eeac66cff24d193e30aa942039707fc0aed52
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ee394172fb531e7aecc1be411f9adf2dd184d15e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528331"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111384"
 ---
 # <a name="choose-a-data-integration-technology"></a>اختيار تقنية تكامل بيانات
 
@@ -36,42 +36,48 @@ ms.locfileid: "4528331"
 تعتبر بيانات العمل بمثابة أصل أساسي يجعل شركتك فريدة. بيانات أعمالك ذات قيمة عالية. يمكنك استخدام العلاقات بين البيانات التي تم جمعها من خلال أعمالك لتحسين العمليات التجارية والمعلومات المهنية عبر مؤسستك. نحن نبذل جهودًا كثيرة لتوفير وصول سهل وآمن ومستقر إلى بيانات عملك بصرف النظر عن النظام الذي تأتي منه هذه البيانات.
 
 قديمًا، كان تكامل البيانات بين الأنظمة المتعددة صعبًا.
-تتخذ Microsoft خطوات لتسهيل تكامل البيانات، ولقد تحققت خطوة كبيرة نحو هذا الهدف من خلال [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+تتخذ Microsoft خطوات لتسهيل تكامل البيانات، ولقد تحققت خطوة كبيرة نحو هذا الهدف من خلال [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 
-يعمل Human Resources على جعل Common Data Service الواجهة العامة المفضلة لبيانات Human Resources. وبمرور الوقت، فإننا نتوقع أن أهم البيانات التي تتم إدارتها بواسطة Human Resources سوف يتم عرضها في Common Data Service. نوصي بأن يكون Common Data Service هو التقنية الخاصة بالاختيار لمعظم تطبيقات التكامل.
+يعمل Human Resources على جعل Dataverse الواجهة العامة المفضلة لبيانات Human Resources. وبمرور الوقت، فإننا نتوقع أن أهم البيانات التي تتم إدارتها بواسطة Human Resources سوف يتم عرضها في Dataverse. نوصي بأن يكون Dataverse هو التقنية الخاصة بالاختيار لمعظم تطبيقات التكامل.
 
-نحن ندرك أن Common Data Service قد لا يتضمن جميع البيانات التي يحتاج إليها تطبيقك. كما ندرك أن المخطط الزمني لمشروعك قد يتطلب تقنية بديلة. احرص على إعلامنا عند يتبين لك أن Common Data Service لا يلبي متطلبات التكامل.
+نحن ندرك أن Dataverse قد لا يتضمن جميع البيانات التي يحتاج إليها تطبيقك. كما ندرك أن المخطط الزمني لمشروعك قد يتطلب تقنية بديلة. احرص على إعلامنا عند يتبين لك أن Dataverse لا يلبي متطلبات التكامل.
 
 ## <a name="integration-technologies"></a>تقنيات التكامل
 
 تصف الأقسام التالية تقنيات تكامل البيانات المختلفة المتوفرة للاستخدام مع Human Resources.
 
-### <a name="common-data-service-entities"></a>كيانات Common Data Service
+### <a name="dataverse-tables"></a>جداول Dataverse
 
-تُعد Common Data Service هي واجهة البيانات العامة المفضلة لـ Human Resources. وقد تطور من النظام الأساسي Dynamics 365 XRM، الذي تستخدمه حلول [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement).
+تُعد Dataverse هي واجهة البيانات العامة المفضلة لـ Human Resources. وقد تطور من النظام الأساسي Dynamics 365 XRM، الذي تستخدمه حلول [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement).
 
-يوفر Common Data Service نظامًا أساسيًا وواجهات API لكيانات البيانات. سوف يتصل Human Resources بمثيل Common Data Service عندما تنشره. وتنتشر كيانات بيانات Human Resources في مثيل Common Data Service هذا. تتوفر الكيانات وبياناتها لأي تطبيق يمكنه الاتصال بمثيل Common Data Service. يقوم Human Resources بمزامنة البيانات إلى كيانات Common Data Service ومنها.
-
-عندما تكون وحدات البيانات المطلوبة من قبل تطبيقاتك التي تتكامل في Common Data Service، يمكنك أن تستخدم بشكل كامل [Common Data Service وواجهات API التي يدعمها](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). يُعد [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)من بين واجهات برمجة التطبيقات المدعومة، والتي توفر تطبيق OData للوصول إلى بيانات Common Data Service .
-
-تعد كيانات Common Data Service وواجهات برمجة التطبيقات المرتبطة بها أفضل خيار للوصول إلى بيانات Human Resources من تطبيقات الويب وخدمات الويب / واجهات برمجة التطبيقات ومن أي تطبيق آخر يتصل بموجزات OData.
+يوفر Dataverse نظامًا أساسيًا وواجهات API لجداول البيانات. سوف يتصل Human Resources بمثيل Dataverse عندما تنشره. وتنتشر كيانات بيانات Human Resources في مثيل Dataverse هذا. تتوفر الجداول وبياناتها لأي تطبيق يمكنه الاتصال بمثيل Dataverse. تقوم Human Resources بمزامنة البيانات إلى جداول Dataverse ومنها.
 
 > [!NOTE]
-> مع قرار جعل Common Data Service واجهة البيانات المُفضلة لـ Human Resources الحديثة نسبيًا، قد تجد أن كيانات بيانات Human Resources التي تحتاجها للتكامل غير متاحة بعد في Common Data Service.
-</br>
-> للحصول على قائمة بكيانات Human Resources المتاحة في Common Data Service، راجع [Human Resources وCommon Data Service](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
+> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+عندما تكون جداول البيانات المطلوبة من قبل تطبيقاتك التي تتكامل في Dataverse، يمكنك أن تستخدم بشكل كامل [Dataverse وواجهات API التي يدعمها](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). يُعد [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)من بين واجهات برمجة التطبيقات المدعومة، والتي توفر تطبيق OData للوصول إلى بيانات Dataverse .
+
+تعد جداول Dataverse وواجهات برمجة التطبيقات المرتبطة بها أفضل خيار للوصول إلى بيانات Human Resources من تطبيقات الويب وخدمات الويب / واجهات برمجة التطبيقات ومن أي تطبيق آخر يتصل بموجزات OData.
+
+> [!NOTE]
+> مع قرار جعل Dataverse واجهة البيانات المُفضلة لـ Human Resources الحديثة نسبيًا، قد تجد أن كيانات بيانات Human Resources التي تحتاجها للتكامل غير متاحة بعد في Dataverse.
+> </br>
+> للحصول على قائمة بكيانات Human Resources المتاحة في Dataverse، راجع [Human Resources وDataverse](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
 > </br>
 > إذا لم تكن كيانات Human Resources المطلوبة للتكامل متاحة بعد، فسوف تحتاج إلى انتظار إتاحة كيانات البيانات أو استخدام إحدى تقنيات التكامل الأخرى الموضحة أعلاه.
 > </br>
-> بشكل افتراضي، يكون تكامل Common Data Service متوقفًا عن التشغيل في البيئات الجديدة التي لا تتضمن بيانات العرض التوضيحي المتوفرة. يتم تشغيله في بيئات جديدة تتضمن بيانات العرض التوضيحي، وتبدأ البيئات في مزامنة البيانات عند توفيرها. بعد تجهيز البيئة الخاصة بك لمزامنة البيانات، يمكنك تشغيل التكامل.
+> بشكل افتراضي، يكون تكامل Dataverse متوقفًا عن التشغيل في البيئات الجديدة التي لا تتضمن بيانات العرض التوضيحي المتوفرة. يتم تشغيله في بيئات جديدة تتضمن بيانات العرض التوضيحي، وتبدأ البيئات في مزامنة البيانات عند توفيرها. بعد تجهيز البيئة الخاصة بك لمزامنة البيانات، يمكنك تشغيل التكامل.
 
 ### <a name="dmfdixf-entities"></a>كيانات DMF/DIXF
 
-تم بناء Human Resources بشكل أساسي بالاستناد إلى النظام الأساسي نفسه لتطبيقات Finance and Operations، وهو يوفر [إطار عمل إدارة البيانات (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). ويعرف DMF أيضًا باسم إطار عمل استيراد/تصدير البيانات (DIXF). يوفر Human Resources مجموعة من كيانات البيانات التي يمكنك استخدامها لاستيراد بيانات Human Resources وتصديرها. في حين تعتبر كيانات Common Data Service واجهة تكامل البيانات المفضلة لـ Human Resources، ما زالت كيانات DMF مفيدة في بعض الحالات، مثل:
+تم بناء Human Resources بشكل أساسي بالاستناد إلى النظام الأساسي نفسه لتطبيقات Finance and Operations، وهو يوفر [إطار عمل إدارة البيانات (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). ويعرف DMF أيضًا باسم إطار عمل استيراد/تصدير البيانات (DIXF). يوفر Human Resources مجموعة من كيانات البيانات التي يمكنك استخدامها لاستيراد بيانات Human Resources وتصديرها. في حين تعتبر جداول Dataverse واجهة تكامل البيانات المفضلة لـ Human Resources، ما زالت كيانات DMF مفيدة في بعض الحالات، مثل:
 
-- كيانات Common Data Service غير متوفرة بعد.
+- جداول Dataverse غير متوفرة بعد.
 
 - يتطلب التكامل قدرات استيراد/تصدير بيانات مجمعة عالية الأداء.
+
+> [!NOTE]
+> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
 توفر كيانات DMF حاليًا تغطية البيانات الأكثر اكتمالًا لبيانات Human Resources.
 
@@ -109,7 +115,7 @@ ms.locfileid: "4528331"
 
 يتم أيضًا تمكين معظم كيانات DMF للوصول من خلال خدمة بيانات Human Resources (OData). تنطبق الوثائق المتوفرة [Finance and Operations لخدمة OData](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) على Human Resources، باستثناء ما يتعلق بإنشاء كياناتك الخاصة المكشوفة على OData.‬
 
-في أثناء تنفيذ Common Data Service وOData الموفرة بواسطة Common Data Service (على الرغم من أن[ Web API لـ Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) مُفضلة على خدمة بيانات Human Resources، وتحتوي خدمة بيانات Human Resources حاليًا على أكثر تغطية كيان كاملة لبيانات Human Resources.
+في أثناء تنفيذ Dataverse وOData الموفرة بواسطة Dataverse (على الرغم من أن[ Web API لـ Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) مُفضلة على خدمة بيانات Human Resources، وتحتوي خدمة بيانات Human Resources حاليًا على أكثر تغطية كيان كاملة لبيانات Human Resources.
 
 ### <a name="excel-add-in"></a>‏‫الوظيفة الإضافية لـ Excel
 
@@ -119,9 +125,9 @@ ms.locfileid: "4528331"
 
 ### <a name="data-integrator"></a>موحد البيانات
 
-يمكنك استخدام [خدمة موحد البيانات](https://docs.microsoft.com/powerapps/administrator/data-integrator) لدمج البيانات إلى ومن Common Data Service. تسمح لك خدمة موحد البيانات بتحديد مشاريع التكامل ، غالبًا ما تستند إلى قوالب محددة مسبقًا صممها مطورو التطبيقات خصيصًا لتكاملات محددة. يمكن جدولة مشاريع التكامل لتعمل تلقائيًا وفقًا لجدول زمني متكرر أو تشغيلها يدويًا.
+يمكنك استخدام [خدمة موحد البيانات](https://docs.microsoft.com/powerapps/administrator/data-integrator) لدمج البيانات إلى ومن Dataverse. تسمح لك خدمة موحد البيانات بتحديد مشاريع التكامل ، غالبًا ما تستند إلى قوالب محددة مسبقًا صممها مطورو التطبيقات خصيصًا لتكاملات محددة. يمكن جدولة مشاريع التكامل لتعمل تلقائيًا وفقًا لجدول زمني متكرر أو تشغيلها يدويًا.
 
-تكون مشاريع موحد البيانات مناسبة لعمليات تكامل دُفعات Common Data Service. وهي تُمثل خيارًا ممتازًا للتكاملات بين مجموعة تطبيقات Dynamics 365.‬ على سبيل المثال، توفر Microsoft قالب موحد بيانات يمكن استخدامه لدمج البيانات من Human Resources إلى Dynamics 365 Finance. يمكنك معرفة المزيد حول القالب في تكامل [من Dynamics 365 Human Resources إلى Dynamics 365 Finance](hr-admin-integration-finance.md).
+تكون مشاريع موحد البيانات مناسبة لعمليات تكامل دُفعات Dataverse. وهي تُمثل خيارًا ممتازًا للتكاملات بين مجموعة تطبيقات Dynamics 365.‬ على سبيل المثال، توفر Microsoft قالب موحد بيانات يمكن استخدامه لدمج البيانات من Human Resources إلى Dynamics 365 Finance. يمكنك معرفة المزيد حول القالب في تكامل [من Dynamics 365 Human Resources إلى Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 
@@ -129,21 +135,18 @@ ms.locfileid: "4528331"
 
 ## <a name="deciding-on-an-integration-technology"></a>اتخاذ قرار بشأن تقنية التكامل
 
-ومع توافر العديد من تقنيات التكامل المختلفة، يُشكل أحيانًا اتخاذ قرار بشأن نهج التكامل المٌستخدم ضغطًا. مع اكتمال تغطية البيانات في Common Data Service، سيصبح القرار أسهل، عندما تصبح Common Data Service واجهة البيانات المفضلة في معظم الحالات. ولكن حتى ذلك الحين، قد تجد أن Common Data Service لا يلبي احتياجاتك بعد. يلخص الجدول التالي بعض الصفات المميزة الأساسية لخيارات تقنية التكامل.
+ومع توافر العديد من تقنيات التكامل المختلفة، يُشكل أحيانًا اتخاذ قرار بشأن نهج التكامل المٌستخدم ضغطًا. مع اكتمال تغطية البيانات في Dataverse، سيصبح القرار أسهل، عندما تصبح Dataverse واجهة البيانات المفضلة في معظم الحالات. ولكن حتى ذلك الحين، قد تجد أن Dataverse لا يلبي احتياجاتك بعد. يلخص الجدول التالي بعض الصفات المميزة الأساسية لخيارات تقنية التكامل.
 
 | التقنية/الأداة/API    | عمليات تكامل متكررة                   | متزامن/غير متزامن                    | الوصول المبرمج من خلال API        | وحدات تخزين البيانات المناسبة                                   | تغطية البيانات                       |
 |------------------------|------------------------------------------|---------------------------------------------|-------------------------------------------|------------------------------------------------------------|-------------------------------------|
-| كيانات Common Data Service .           | نعم ، باستخدام موحد البيانات أو البرنامج الوسيط | مزامنة دفعة Async (من خلال موحد البيانات) | نعم، من خلال واجهة API الويب لـ Dynamics 365 (OData) | تختلف بناءً على حالة الاستخدام (تدعم الترحيل للاستخدام التفاعلي) | تحسين<sup>2</sup>                       |
+| جداول Dataverse           | نعم ، باستخدام موحد البيانات أو البرنامج الوسيط | مزامنة دفعة Async (من خلال موحد البيانات) | نعم، من خلال واجهة API الويب لـ Dynamics 365 (OData) | تختلف بناءً على حالة الاستخدام (تدعم الترحيل للاستخدام التفاعلي) | تحسين<sup>2</sup>                       |
 | كيانات DMF           | نعم ، مجدول من خلال برنامج وسيط        | Async، دفعة                                | نعم ، خلال واجهة برمجة تطبيق REST لحزمة DMF         | عالي (مئات الآلاف من السجلات)                    | قصوى                                |
 | واجهة تطبيق البرمجيات REST لحزمة DMF   | نعم ، مجدول من خلال برنامج وسيط        | Async، دفعة                                | ‏‏نعم                                       | عالي (مئات الآلاف من السجلات)                    | API تدعم كافة كيانات DMF       |
 | BYOD                   | نعم، مجدولة بواسطة المسؤول في Human Resources        | Async، دفعة                                | لا<sup>3</sup>                                    | عالي (مئات الآلاف من السجلات)                    | تدعم كافة كيانات DMF           |
 | كيانات OData الممكنة | نعم ، باستخدام برنامج وسيط                    | مزامنة                                        | نعم ، من خلال خدمة بيانات Human Resources (OData)  | تختلف بناءً على حالة الاستخدام (تدعم الترحيل للاستخدام التفاعلي) | قصوى                                |
 | ‏‫الوظيفة الإضافية لـ Excel           | لا                                       | مزامنة                                        | لا                                        | متوسط (عشرات الآلاف من السجلات)                      | يدعم كافة كيانات OData الممكنة |
-| موحد البيانات        | نعم ، مجدول في موحد البيانات        | Async، دفعة                                | لا                                        | يختلف بناءً على حالة الاستخدام                                       | يدعم كافة كيانات Common Data Service           |
+| موحد البيانات        | نعم ، مجدول في موحد البيانات        | Async، دفعة                                | لا                                        | يختلف بناءً على حالة الاستخدام                                       | دعم كافة جداول Dataverse           |
 
-<sup>2</sup>تستثمر Microsoft بشكل كبير في زيادة تغطية البيانات لكيانات Common Data Service. نوصي باستخدام Common Data Service عندما تصبح التغطية متاحة. حاليًا، تُعد تغطية البيانات في Common Data Service منخفضة مقارنة بـ DMF والكيانات الممكّنة لـ OData.
+<sup>2</sup>تستثمر Microsoft بشكل كبير في زيادة تغطية البيانات لجداول Dataverse. نوصي باستخدام Dataverse عندما تصبح التغطية متاحة. حاليًا، تُعد تغطية البيانات في Dataverse منخفضة مقارنة بـ DMF والكيانات الممكّنة لـ OData.
 
 <sup>3</sup> يُمكن الوصول إلى قاعدة بيانات SQL برمجيًا.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

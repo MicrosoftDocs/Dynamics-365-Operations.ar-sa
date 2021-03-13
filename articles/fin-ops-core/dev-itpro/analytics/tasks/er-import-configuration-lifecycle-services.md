@@ -1,6 +1,6 @@
 ---
 title: استيراد تكوين من Lifecycle Services
-description: يشرح هذا الموضوع كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية استيراد إصدار جديد من تكوين التقارير الإلكترونية من Microsoft Dynamics Lifecycle Services (LCS).
+description: يوضح هذا الموضوع كيفيه استيراد إصدار جديد من تكوين التقارير الكترونيه (ER) من Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684441"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093685"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>استيراد تكوين من Lifecycle Services
 
@@ -103,6 +103,3 @@ ms.locfileid: "4684441"
     لهذا المثال، حدد إصدار التكوين بالحالة **مشترك**.
 
     لاحظ أن الإصدار المشترك 1 من تكوين نموذج البيانات المحدد متوفر الآن أيضًا.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

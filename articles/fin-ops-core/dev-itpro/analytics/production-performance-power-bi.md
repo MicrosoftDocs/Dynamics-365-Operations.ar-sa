@@ -1,6 +1,6 @@
 ---
 title: محتوى "أداء الإنتاج" في Power BI
-description: يصف هذا الموضوع العناصر المضمنة في محتوى "أداء الإنتاج" في Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+description: يصف هذا الموضوع العناصر المضمنة في محتوى "أداء الإنتاج" في Power BI.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 661617ea7e51ac5cacdd5a08ee52f6a6e43b44be
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c815a2e37f9882d695bf170a806301a3145d0f06
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686676"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094202"
 ---
 # <a name="production-performance-power-bi-content"></a>محتوى "أداء الإنتاج" في Power BI
 
@@ -128,6 +128,3 @@ ms.locfileid: "4686676"
 | الكيانات                  | المعرف والاسم                                                   |
 | الموارد                 | معرف المورد واسم المورد ونوع المورد ومجموعة الموارد |
 | المنتجات                  | رقم المنتج واسم المنتج ومعرف الصنف ومجموعة الأصناف         |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

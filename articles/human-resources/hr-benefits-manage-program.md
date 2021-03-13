@@ -2,7 +2,7 @@
 title: تحديد وإدارة برنامج ميزات
 description: توفر الموارد البشرية مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. وتوفر هذه المقالة معلومات حول كيفية إعداد ميزات إدارة.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a7fe99d4982b8f35871b15e8049c39eb806e315c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 60264d246e1173c25e4383cc79836126126fcba5
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417073"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111400"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>تحديد وإدارة برنامج مزايا
 
@@ -64,6 +64,3 @@ ms.locfileid: "4417073"
 وبالمثل، يتيح لك تمديد الميزات الجماعي إمكانية تمديد تاريخ انتهاء صلاحية لكلٍّ من الميزة وعمليات تسجيل العمال لهذه الميزة، إذا قررت تقديم ميزة لمدة أطول من المدة المخطط لها في الأصل.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

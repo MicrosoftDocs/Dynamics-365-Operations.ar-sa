@@ -1,8 +1,8 @@
 ---
-title: إدارة الميزات
+title: إدارة الميزات في الموارد البشرية
 description: التعرف على كيفية تشغيل الميزات الجديدة أو إيقاف تشغيلها في Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d400604bf1b044de52457b3f7a6eb858220a1972
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417149"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111386"
 ---
-# <a name="manage-features"></a>إدارة الميزات
+# <a name="manage-features-in-human-resources"></a>إدارة الميزات في الموارد البشرية
 
 كجزء من عملية النشر المستمر لإمكانات جديدة لـ Microsoft Dynamics 365 Human Resources، نحن نريد السماح للعملاء بتجربة الميزات الجديدة في أقرب وقت ممكن. نوفر ميزات المعاينة، والتي تكون جاهزة تقريبًا للتوفر العام وقد خضعت للاختبارات الشاملة. ونحن فقط نبحث عن جولة نهائية من ملاحظات العملاء والتحقق من الصحة قبل أن نقوم بشكل عام بتحرير الميزات.
 
@@ -94,5 +94,3 @@ ms.locfileid: "4417149"
 
 - [ما الجديد في Human Resources](hr-admin-whats-new.md)
 - [خطة إصدار Dynamics 365 و Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

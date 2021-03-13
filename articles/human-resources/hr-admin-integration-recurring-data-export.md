@@ -2,7 +2,7 @@
 title: إنشاء تطبيق تصدير بيانات متكررة
 description: يوضح هذا المقال كيفية إنشاء تطبيق Microsoft Azure Logic الذي يقوم بتصدير البيانات من Microsoft Dynamics 365 Human Resources على جدول متكرر.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 97972d2179c42e9d2d672cbebb75643ef0a02a62
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417150"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111312"
 ---
 # <a name="create-a-recurring-data-export-app"></a>إنشاء تطبيق تصدير بيانات متكررة
 
@@ -205,6 +205,3 @@ ms.locfileid: "4417150"
 في هذا البرنامج التعليمي، تعلمنا كيفية استخدام تطبيق logic لتصدير البيانات من Human Resources وحفظ البيانات المُصدرة إلى مُجلد OneDrive for Business. يمكنك تعديل خطوات هذا البرنامج التعليمي حسب الحاجة ليناسب احتياجات الأعمال الخاصة بك.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

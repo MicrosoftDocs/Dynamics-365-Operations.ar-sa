@@ -2,7 +2,7 @@
 title: خيارات إعداد التقارير
 description: يتناول هذا المقال كيفية حل المشكلة التي يريد فيها العميل تخصيص تقارير Microsoft Dynamics 365 Human Resources أو إنشاء تقارير جديدة.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51d84df5c3c29510e2742148b8c260a2cf402639
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 830c8c32128a8dfc1b009557afb272e48ae3a1ff
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527707"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111308"
 ---
 # <a name="reporting-options"></a>خيارات إعداد التقارير
 
@@ -42,13 +42,10 @@ ms.locfileid: "4527707"
 
 **الحل**
 
-- يمكن الإبلاغ عن بيانات Human Resources التي تتدفق إلى Common Data Service عبر موصل Power Apps Common Data Service إلى Power BI Desktop. لاحظ أن Common Data Service تحتوي على مجموعة فرعية من بيانات Human Resources. لمزيد من المعلومات حول Power BI ولوحات المعلومات، راجع [إنشاء تقارير Power BI ولوحات معلومات Power Apps باستخدام Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi) .
+- يمكن الإبلاغ عن بيانات Human Resources التي تتدفق إلى Dataverse عبر موصل Power Apps Dataverse إلى Power BI Desktop. لاحظ أن Dataverse تحتوي على مجموعة فرعية من بيانات Human Resources. لمزيد من المعلومات حول Power BI ولوحات المعلومات، راجع [إنشاء تقارير Power BI ولوحات معلومات Power Apps باستخدام Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi) .
 - يتوفر إعداد التقارير الإلكترونية (ER) لبعض التقارير في Human Resources. يمكن إجراء التخصيصات القائمة على العميل من خلال خيارات تكوين ER.
 - يمكن تصدير البيانات إلى Microsoft Excel أو Microsoft Word باستخدام كيانات البيانات المختلفة التي يوفرها Human Resources من خلال تكامل Microsoft Office.
 
 **حل طويل الأجل**
 
-ستتوفر خيارات Power BI إضافية، وسيصبح المزيد من البيانات والكيانات جزءًا من Common Data Service.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ستتوفر خيارات Power BI إضافية، وسيصبح المزيد من البيانات والكيانات جزءًا من Dataverse.

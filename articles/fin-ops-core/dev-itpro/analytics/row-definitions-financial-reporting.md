@@ -1,6 +1,6 @@
 ---
 title: تعريفات الصفوف في مصمم التقارير المالية
-description: يُعد تعريف الصف مكون تقرير، أو كتلة إنشاء، يحدد محتويات كل صف في تقرير مالي. ويمكن دمج تعريف الصف مع تعريفات الأعمدة وتعريفات شجرة التقارير وتعريفات التقارير لإنشاء مجموعة من كتل الإنشاء التي يمكن استخدامها من قِبل العديد من الشركات.
+description: يُعد تعريف الصف مكون تقرير، أو كتلة إنشاء، يحدد محتويات كل صف في تقرير مالي.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 274fa4bd137407c504f74335291e4c8e7999625b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688273"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093255"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>تعريفات الصفوف في مصمم التقارير المالية
 
@@ -187,6 +187,3 @@ ms.locfileid: "4688273"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [Financial reporting](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcb8eda188a6796282a7a800b87a68dfef9d7d62
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409816"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097328"
 ---
 # <a name="enrich-a-product-page"></a>إثراء صفحة منتج
 
@@ -72,7 +71,6 @@ ms.locfileid: "4409816"
 
 [إثراء الصفحة المنتقل إليها‬ لفئة](enrich-category-page.md)
 
-[التحقق من إمكانية الوصول إلى محتوي الصفحة](verify-accessibility.md)
+[التحقق من إمكانية الوصول إلى محتوى الصفحة](verify-accessibility.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[إنشاء صفحات التجارة الإلكترونية الديناميكية استنادا إلى معلمات URL](create-dynamic-pages.md)

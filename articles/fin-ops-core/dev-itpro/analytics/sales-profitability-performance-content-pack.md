@@ -1,6 +1,6 @@
 ---
 title: محتوى "أداء الربحية والمبيعات" في Power BI
-description: يصف هذا الموضوع العناصر المضمنة في محتوى "أداء الربحية والمبيعات" في Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+description: يصف هذا الموضوع العناصر المضمنة في محتوى "أداء الربحية والمبيعات" في Power BI.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b5ad461c86f44d880f57c940f6e3a5cb325f7e08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7aafaa4c974f6b72e78f870eceb266fd0ef71900
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688224"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093553"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>محتوى "أداء الربحية والمبيعات" في Power BI
 
@@ -107,6 +107,3 @@ ms.locfileid: "4688224"
 | التواريخ            | التواريخ                                                |
 
 بشكل افتراضي، يعرض المحتوى البيانات للسنة التقويمية الجارية. ولكن يمكنك تغيير عامل تصفية البيانات في قسم عوامل تصفية التقارير. يمكنك أيضا تغيير عامل تصفية الشركة.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

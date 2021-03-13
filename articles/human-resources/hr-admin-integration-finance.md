@@ -2,7 +2,7 @@
 title: 'تكوين التكامل مع Finance '
 description: توضح هذه المقاولة الوظيفة المتاحة للتكامل من Dynamics 365 Human Resources و Dynamics 365 Finance.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6587b2ced1fdd7a16c6b3f28a34d4a303af9cee5
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527899"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111350"
 ---
 # <a name="configure-integration-with-finance"></a>تكوين التكامل مع Finance
 
@@ -44,7 +44,7 @@ ms.locfileid: "4527899"
 
 يتطلب حل التكامل الإصدارات التالية من Human Resources و Finance: 
 
-- Dynamics 365 Human Resources في Common Data Service
+- Dynamics 365 Human Resources في Dataverse
 - الإصدار 7.2 من Dynamics 365 Finance والإصدار اللاحق
 
 ## <a name="template-and-tasks"></a>القوالب والمهام
@@ -55,7 +55,7 @@ ms.locfileid: "4527899"
 
 2. حدد **المشاريع**، ثم حدد **مشروع جديد** في الركن الأيمن العلوي. أنشئ مشروع جديد لكل كيان قانوني ترغب في تكامله في Finance.
 
-3. حدد **Human Resources (Human Resources Common Data Service إلى Finance)** لمزامنة السجلات من Human Resources إلى Finance.
+3. حدد **Human Resources (Human Resources Dataverse إلى Finance)** لمزامنة السجلات من Human Resources إلى Finance.
 
 يستخدم القالب المهام الأساسية التالية لمزامنة السجلات من Human Resources إلى Finance:
 
@@ -81,14 +81,14 @@ ms.locfileid: "4527899"
 
 ### <a name="job-functions-to-compensation-job-function"></a>مهام الوظائف إلى مهمة وظيفة التعويض
 
-| كيان Common Data Service (المصدر) | كيان Finance (الوجهة) |
+| جدول Dataverse (المصدر) | كيان Finance (الوجهة) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   اسم الوظيفة)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | الوصف   (الوصف)                 |
 
 ### <a name="departments-to-operating-unit"></a>الأقسام إلى وحدة التشغيل
 
-| كيان Common Data Service (المصدر)           | كيان Finance (الوجهة) |
+| جدول Dataverse (المصدر)           | كيان Finance (الوجهة) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | الاسم (الاسم)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -97,7 +97,7 @@ ms.locfileid: "4527899"
 
 ### <a name="job-types-to-compensation-job-type"></a>أنواع الوظائف لنوع وظيفة التعويض
 
-| كيان Common Data Service (المصدر)   | كيان Finance (الوجهة) |
+| جدول Dataverse (المصدر)   | كيان Finance (الوجهة) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | الوصف   (الوصف)                 |
@@ -105,7 +105,7 @@ ms.locfileid: "4527899"
 
 ### <a name="jobs-to-jobs"></a>وظائف للوظائف
 
-| كيان Common Data Service (المصدر)                           | كيان Finance (الوجهة)           |
+| جدول Dataverse (المصدر)                           | كيان Finance (الوجهة)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -115,7 +115,7 @@ ms.locfileid: "4527899"
 
 ### <a name="jobs-to-job-detail"></a>وظائف لتفاصيل الوظيفة
 
-| كيان Common Data Service (المصدر)                             | كيان Finance (الوجهة) |
+| جدول Dataverse (المصدر)                             | كيان Finance (الوجهة) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (Job Type (Job Type Name))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -126,7 +126,7 @@ ms.locfileid: "4527899"
 
 ### <a name="position-types-to-position-type"></a>أنواع المناصب لنوع المنصب
 
-| كيان Common Data Service (المصدر)       | كيان Finance (الوجهة) |
+| جدول Dataverse (المصدر)       | كيان Finance (الوجهة) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | الوصف   (الوصف)                 |
@@ -134,13 +134,13 @@ ms.locfileid: "4527899"
 
 ### <a name="job-positions-to-base-position"></a>المناصب الوظيفية إلى المنصب الأساسي
 
-| كيان Common Data Service (المصدر)           | كيان Finance (الوجهة) |
+| جدول Dataverse (المصدر)           | كيان Finance (الوجهة) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (رقم منصب الوظيفة) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>مناصب الوظيفة إلى تفاصيل المناصب
 
-| كيان Common Data Service (المصدر)              | كيان Finance (الوجهة)       |
+| جدول Dataverse (المصدر)              | كيان Finance (الوجهة)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber (رقم منصب الوظيفة)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (الوظيفة (الاسم))                                        | JOBID (JOBID)                                    |
@@ -154,7 +154,7 @@ ms.locfileid: "4527899"
 
 ### <a name="job-positions-to-position-durations"></a>المناصب الوظيفية إلى مُدد المنصب
 
-| كيان Common Data Service (المصدر)             | كيان Finance (الوجهة) |
+| جدول Dataverse (المصدر)             | كيان Finance (الوجهة) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (رقم منصب الوظيفة)   | POSITIONID (POSITIONID)                      |
 | التنشيط المحسوب (التنشيط المحسوب) | VALIDFROM (VALIDFROM)                        |
@@ -162,7 +162,7 @@ ms.locfileid: "4527899"
 
 ### <a name="job-positions-to-position-hierarchies"></a>المناصب الوظيفية إلى التدرجات الهرمية للمناصب
 
-| كيان Common Data Service (المصدر)        | كيان Finance (الوجهة) |
+| جدول Dataverse (المصدر)        | كيان Finance (الوجهة) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (رقم منصب الوظيفة)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -172,7 +172,7 @@ ms.locfileid: "4527899"
 
 
 ### <a name="workers-to-worker"></a>العاملون إلى العامل
-| كيان Common Data Service (المصدر)           | كيان Finance (الوجهة)       |
+| جدول Dataverse (المصدر)           | كيان Finance (الوجهة)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -191,7 +191,7 @@ ms.locfileid: "4527899"
 
 ### <a name="employments-to-employment"></a>عمليات التوظيف إلى التوظيف
 
-| كيان Common Data Service (المصدر)                             | كيان Finance (الوجهة) |
+| جدول Dataverse (المصدر)                             | كيان Finance (الوجهة) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -201,7 +201,7 @@ ms.locfileid: "4527899"
 
 ### <a name="employments-to-employment-detail"></a>عمليات التوظيف إلى تفاصيل التوظيف
 
-| كيان Common Data Service (المصدر)                             | كيان Finance (الوجهة)   |
+| جدول Dataverse (المصدر)                             | كيان Finance (الوجهة)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -219,7 +219,7 @@ ms.locfileid: "4527899"
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>تعيين العامل بالمنصب إلى تعيينات العاملين بالمناصب
 
-| كيان Common Data Service (المصدر)                             | كيان Finance (الوجهة)   |
+| جدول Dataverse (المصدر)                             | كيان Finance (الوجهة)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (رقم منصب الوظيفة)                   | POSITIONID(POSITIONID)                        |
@@ -228,7 +228,7 @@ ms.locfileid: "4527899"
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>عناوين العاملين إلى العنوان البريدي للعامل V2
 
-| كيان Common Data Service (المصدر)                             | كيان Finance (الوجهة)   |
+| جدول Dataverse (المصدر)                             | كيان Finance (الوجهة)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -255,5 +255,3 @@ ms.locfileid: "4527899"
 يبين الشكل التوضيحي التالي مثالاً لتعيين قالب في موحد البيانات. 
 
 ![تعيين القالب](./media/IntegrationMapping.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

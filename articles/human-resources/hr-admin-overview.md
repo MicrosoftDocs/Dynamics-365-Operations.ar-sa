@@ -1,8 +1,8 @@
 ---
-title: نظرة عامة
+title: نظرة عامة على الإدارة
 description: يساعدك دليل المسؤول علي إعداد وإدارة واستكشاف الأخطاء وإصلاحها في Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527851"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111396"
 ---
-# <a name="overview"></a>نظرة عامة
+# <a name="administration-overview"></a>نظرة عامة على الإدارة
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ ms.locfileid: "4527851"
 
 - إعداد تكامل البينات
   - [اختر تكنولوجيا تكامل البيانات](hr-admin-integration-choose-technology.md)
-  - [تكوين تكامل Common Data Service ](hr-admin-integration-common-data-service.md)
+  - [تكوين تكامل Dataverse ](hr-admin-integration-common-data-service.md)
   - [تكوين التكامل مع Finance](hr-admin-integration-finance.md)
   - [تكوين التكامل مع Dayforce](hr-admin-integration-dayforce.md)
   - [إنشاء تطبيق تصدير البيانات المتكررة](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ ms.locfileid: "4527851"
 - [ما هو الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)
 - [دليل المطور](hr-developer-overview.md)
 - [دليل المستخدم](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

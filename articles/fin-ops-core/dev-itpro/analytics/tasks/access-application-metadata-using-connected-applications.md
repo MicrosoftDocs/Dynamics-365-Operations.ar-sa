@@ -1,6 +1,6 @@
 ---
 title: الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
-description: توضح الخطوات الواردة في هذا الموضوع كيف يمكن لمستخدم Regulatory configuration service ‎‎(RCS) تصميم تعيين جديد لنموذج التقارير الإلكترونية (ER) باستخدام بيانات التعريف في Finance and Operations.
+description: توضح الخطوات الواردة في هذا الموضوع كيف يمكن لمستخدم Regulatory configuration service ‎‎ تصميم تعيين جديد لنموذج التقارير الإلكترونية باستخدام بيانات التعريف.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 457d5760fb704b7a93ce16c081b7c5e6d0ff19c1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682131"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093320"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
 
@@ -113,6 +113,3 @@ ms.locfileid: "4682131"
 11. قم بإغلاق الصفحة. 
 
 عندما تحتاج إلى تقييم تعيين هذا النموذج باستخدام بيانات التعريف الخاصة بتطبيق من إصدار مختلف، قم بتسجيل تطبيق متصل آخر، قم تخصيصه إلى تعيين النموذج هذا وتحقق منه مقابل بيانات التعريف الجديدة.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

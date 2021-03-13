@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: c5041d515b261bb3e4b14885e0ec0ce788edf729
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668935"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111319"
 ---
 # <a name="go-live-faq"></a>الأسئلة المتداولة حول العرض المباشر 
 
@@ -66,7 +66,7 @@ ms.locfileid: "4668935"
 
 - يمكنك نشر قاعدة بيانات Azure SQL في مستأجر Azure الخاص بك واستخدام ميزة "‏‫إحضار قاعدة بياناتك الخاصة" (BYOD) لمزامنة البيانات. لمزيد من المعلومات، راجع [إحضار قاعدة بياناتك الخاصة‬ (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- يمكنك استخدام تكامل Common Data Service لمزامنة تحديد الكيانات في قاعدة بيانات Common Data Service. لمزيد من المعلومات، راجع [Common Data Service كيانات](hr-developer-entities.md). 
+- يمكنك استخدام تكامل Dataverse لمزامنة تحديد الكيانات في قاعدة بيانات Dataverse. لمزيد من المعلومات، راجع [جداول Dataverse](hr-developer-entities.md). 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>كم مرة يتم نسخ قاعدة بيانات الإنتاج احتياطيًا؟ 
 
@@ -99,6 +99,3 @@ ms.locfileid: "4668935"
  ## <a name="see-also"></a>راجع أيضًا
 
  [الإعداد للعرض المباشر](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

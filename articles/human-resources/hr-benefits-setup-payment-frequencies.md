@@ -2,7 +2,7 @@
 title: إعداد تكرارات المدفوعات
 description: يستخدم Microsoft Dynamics 365 Human Resources تكرارات الدفع لحساب راتب الميزة السنوي وتحديد مبلغ قسط الميزة الذي يدفعه الموظف كل فترة دفع ومدى تكرار عمليات دفع الموفرين.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a5d562b64a161891bf34b0dfa94fbf68325e21b5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f5a2ad19d9f9f3a6afa2574d9fdb8841c70d6e6e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417135"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111361"
 ---
 # <a name="set-up-payment-frequencies"></a>إعداد تكرارات المدفوعات
 
@@ -56,6 +56,3 @@ ms.locfileid: "4417135"
    | **معامل التحويل في الساعة** | عامل التحويل السنوي لتكرار الدفع. على سبيل المثال، عامل التحويل السنوي لتكرار الدفع شهريًا هو: </br></br>(12 دفعة شهرية / 2080 ساعة) = 0.005769
 
 4. حدد **حفظ**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

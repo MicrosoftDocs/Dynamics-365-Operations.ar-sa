@@ -2,7 +2,7 @@
 title: تحديث العملية
 description: إن Microsoft Dynamics 365 Human Resources عبارة عن خدمة تأجير برامج (SaaS) حقيقية توفر تحديثات خدمة مستمرة بدون لمس للتغييرات في التطبيق والنظام الأساسي.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4bb5f7dc17c8f4f3a54bd285cb55088f2176db4a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527782"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111311"
 ---
 # <a name="update-process"></a>تحديث العملية
 
@@ -43,7 +43,7 @@ ms.locfileid: "4527782"
 
     يتم تحديث كافة مراكز بيانات المدعومة كل أسبوعين، ما لم يرد خلاف ذلك. يتم تضمين مناطق الولايات المتحدة الأمريكية وأوروبا والمملكة المتحدة وآسيا وكندا في التحديثات كل أسبوعين. 
 
-- **تحديثات حل Common Data Service**: تُجرى هذه التحديثات كل ستة أسابيع تقريبًا، حسب الحاجة. وهي تتضمن كيانات جديدة وتغييرات للكيانات الموجودة في Common Data Service. وتصدر هذه التحديثات لنفس المناطق بوصفها التحديثات كل أسبوعين، وتستغرق حوالي ستة أسابيع للنسخ المتماثل عبر كافة مراكز البيانات. قد تتوافق أو لا تتوافق تحديثات الحلول مع تحديثات الخدمة كل أسبوعين.
+- **تحديثات حل Dataverse**: تُجرى هذه التحديثات كل ستة أسابيع تقريبًا، حسب الحاجة. وهي تتضمن كيانات جديدة وتغييرات للكيانات الموجودة في Dataverse. وتصدر هذه التحديثات لنفس المناطق بوصفها التحديثات كل أسبوعين، وتستغرق حوالي ستة أسابيع للنسخ المتماثل عبر كافة مراكز البيانات. قد تتوافق أو لا تتوافق تحديثات الحلول مع تحديثات الخدمة كل أسبوعين.
 
 > [!NOTE]
 > تتوفر تحديثات الحلول في كافة مراكز البيانات بمجرد إصدارها. إذا كنت لا ترغب في انتظار التحديثات للنسخ المتماثل تلقائيًا، يُمكن تطبيق هذه التحديثات يدويًا على أي بيئة في أي مركز بيانات.
@@ -105,6 +105,3 @@ ms.locfileid: "4527782"
 [ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
 [سياسة دورة حياة البرامج](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

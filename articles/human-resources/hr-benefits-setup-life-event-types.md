@@ -2,7 +2,7 @@
 title: تكوين أنواع أحداث الحياة
 description: تستخدم Microsoft Dynamics 365 Human Resources أنواع الأحداث الحياتية لتحديد الأحداث التي تكون صالحة لتحديث تسجيل ميزات الموظفين.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417096"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111362"
 ---
 # <a name="configure-life-event-types"></a>تكوين أنواع أحداث الحياة
 
@@ -88,6 +88,3 @@ ms.locfileid: "4417096"
 | **انتهاء صلاحية تجاوز قاعدة الأهلية (غير خاص بالولايات المتحدة)** | الموارد البشرية المتقدمة> ميزات > خطط > ميزات > تجاوز قاعدة الأهلية | استخدام معالجة تغيير حدث حياتي. على سبيل المثال، إذا قمت بتحرير تاريخ انتهاء صلاحية قاعدة أهلية الخطة ليكون اليوم عند الساعة 5:00 مساءً أو في أي وقت بعد الساعة 5:00 مساءً أو في الأيام التالية، ثم إجراء معالجة تغيير الحدث الحياتي، تظهر سالة تذكر أنه قد تم انتهاء صلاحية قاعدة الأهلية. |
 | **خطة الميزة الجديدة (غير خاص بالولايات المتحدة)** | الموارد البشرية المتقدمة > ميزات > خطط > جديد | <ul><li>تتم إضافة خيارات الأهلية إلى خطة حالية</li><li>تتم إضافة خطة جديدة بخيارات أهلية مرفقة</li></ul></br></br>يجب أن يقوم موظفو الموارد البشرية بتشغيل معالجة أهليه الحدث الحياتي في هذا المثيل. |
 | **تغيير قاعدة الأهلية (غير خاص بالولايات المتحدة)** | الموارد البشرية المتقدمة> ميزات > قواعد/خيارات > قواعد الأهلية | استخدام معالجة أهلية حدث حياتي. يتم التسجيل عندما تحتوي سجلات **EhrBenefitEligibilityRule** على القواعد التالية المتغيرة: **UseEmplCategory** أو **UseEmplStatus** أو **UseEmplType**. يقوم فقط بتحديث حركات الحدث الحياتي الموجود بالفعل لقاعدة أو معايير أهلية تم تغييرها. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

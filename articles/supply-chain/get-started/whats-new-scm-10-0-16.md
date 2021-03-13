@@ -1,5 +1,5 @@
 ---
-title: معاينة Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
+title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.16 من Dynamics 365 Supply Chain Management.
 author: kamaybac
 manager: annbe
@@ -10,26 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 1ffd98a94b9ed3201be3c4530b8fba7e2820c268
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626792"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104979"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>معاينة Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.16 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.689، وهو يتوفر كما يلي
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.16 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.689، وهو يتوفر كما يلي
 
 - **معاينه الإصدار:** نوفمبر 2020
 - **التوفر العام للإصدار (تحديث ذاتي):** يناير 2021
@@ -40,8 +38,11 @@ ms.locfileid: "4626792"
 يتضمن هذا الإصدار الميزات التالية. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
 - [واجهه تنفيذ حاله العمل القابلة للتخصيص](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - لمزيد من المعلومات، راجع [إعداد جهاز لتشغيل واجهة تنفيذ صالة الإنتاج‬](../production-control/production-floor-execution-setup.md).
+
 - [الوظيفة الاضافيه لرؤية المخزون لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - لمزيد من المعلومات ، راجع [الوظيفة الاضافيه لرؤية المخزون](../inventory/inventory-visibility.md)
+
 - [التحقق من صحة لوحات الترخيص علي سطور المستند المصدر](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - لمزيد من المعلومات، راجع [نظرة عامة على تكوين المستودع](../warehousing/warehouse-configuration.md).
+
 - [مرئيات حمل العمل الصادر لأداره المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - لمزيد من المعلومات، راجع [مرئيات حمل العمل الصادر](../warehousing/outbound-workload-visualization.md).
 
 يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
@@ -88,7 +89,7 @@ ms.locfileid: "4626792"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>تحديث النظام الأساسي لتطبيقات Finance and Operations
 
-يتضمن الإصدار 10.0.16 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.16 من تطبيقات Finance and Operations (أكتوبر 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+يتضمن الإصدار 10.0.16 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.16 من تطبيقات Finance and Operations (فبراير 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
 
@@ -110,6 +111,3 @@ ms.locfileid: "4626792"
 قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

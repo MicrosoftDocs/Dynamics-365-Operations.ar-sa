@@ -1,6 +1,6 @@
 ---
 title: إنشاء مستندات إلكترونية وتحديث بيانات التطبيق باستخدام التقارير الإلكترونية​
-description: يمكنك تصميم تنسيقات التقارير الإلكترونية التي يمكن استخدامها في التطبيق لإنشاء مستندات إلكترونية صادرة. يمكنك أيضًا تصميم تنسيقات التقارير الإلكترونية التي تحلل المستندات الإلكترونية الواردة وتستخدم المحتوى في هذه المستندات لتحديث بيانات التطبيق.
+description: يمكنك تصميم تنسيقات التقارير الإلكترونية التي يمكن استخدامها في التطبيق لإنشاء مستندات إلكترونية صادرة.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b9e17d67c437d384ab941d28b8d5ce2b0e3738f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ae3405a882ac37fd9758d8ff0902896562fa06b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688363"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093863"
 ---
-# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>إنشاء مستندات إلكترونية وتحديث بيانات التطبيق باستخدام التقارير الإلكترونية​
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>إنشاء مستندات إلكترونية وتحديث بيانات التطبيق باستخدام ER‎
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,6 +40,3 @@ ms.locfileid: "4688363"
 - [تكوين نموذج بيانات التقارير الإلكترونية: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (نموذج)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [تكوين تعيين نموذج التقارير الإلكترونية: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (التعيين)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [تكوين تنسيق التقارير الإلكترونية: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (التنسيق)](https://go.microsoft.com/fwlink/?linkid=849038)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: نسخ مثيل
 description: يمكنك استخدام Microsoft Dynamics Lifecycle Services (LCS) لنسخ قاعدة بيانات Microsoft Dynamics 365 Human Resources إلى بيئة وضع الحماية.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a62cee979fc8d986102c3b774cd937a24bdd7439
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527827"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111327"
 ---
 # <a name="copy-an-instance"></a>نسخ مثيل
 
@@ -41,7 +41,7 @@ ms.locfileid: "4527827"
 
 - عند نسخ قاعدة Human Resources، لا تقوم بنسخ العناصر (التطبيقات أو البيانات) المُضمنة في بيئة Microsoft Power Apps. للحصول على معلومات حول كيفية نسخ العناصر في بيئة Power Apps، راجع [نسخ بيئة ](https://docs.microsoft.com/power-platform/admin/copy-environment). يجب أن تكون بيئة Power Apps التي تريد استبدالها بيئة وضع الحماية. يجب أن تكون مسؤول مستأجر عمومي لتغيير بيئة انتاج Power Apps إلى بيئة حماية. لمزيد من المعلومات حول تغيير بيئة Power Apps، راجع [تبديل مثيل](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- إذا قمت بنسخ مثيل إلى بيئة الحماية الخاصة بك وترغب في دمج بيئة الحماية مع Common Data Service ، فمن ثم يجب عليك إعادة تطبيق الحقول المخصصة على كيانات Common Data Service. راجع [تطبيق الحقول المخصصة علي Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- إذا قمت بنسخ مثيل إلى بيئة الحماية الخاصة بك وترغب في دمج بيئة الحماية مع Dataverse ، فمن ثم يجب عليك إعادة تطبيق الحقول المخصصة على جداول Dataverse. راجع [تطبيق الحقول المخصصة علي Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>تأثيرات نسخ قاعدة بيانات Human Resources
 
@@ -72,15 +72,15 @@ ms.locfileid: "4527827"
 
 4. في جزء المهام **نسخ مثيل**، حدد المثيل المراد استبداله، ثم حدد **نسخ**. انتظر حتي يتم تحديث قيمة حقل **نسخ الحالة** إلى **مكتمل**.
 
-   ![[حدد مثيلًا لاستبداله](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[تحديد مثيل لاستبداله](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. حدد **Power Platform**، وقم بتسجيل الدخول إلى مركز مسؤول Microsoft Power Platform.
 
-   ![[حدد Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[تحديد Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. حدد بيئة Power Apps المراد نسخها، ثم حدد **نسخ**.
 
-7. عند اكتمال عمليه النسخ ، قم بتسجيل الدخول إلى المثيل الهدف، وتمكين تكامل Common Data Service. لمزيد من المعلومات والتعليمات، راجع [تكوين تكامل Common Data Service ](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. عند اكتمال عمليه النسخ، قم بتسجيل الدخول إلى المثيل الهدف، وتمكين تكامل Dataverse. لمزيد من المعلومات والتعليمات، راجع [تكوين تكامل Dataverse ](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>عناصر البيانات والحالات
 
@@ -122,11 +122,11 @@ ms.locfileid: "4527827"
 
 يتم تعطيل كافة المستخدمين غير المسؤولين في بيئة الحماية الهدف لمنع تسجيلات الدخول غير المرعوب فيها في بيئة الحماية. يمكن للمسؤولين إعادة تمكين المستخدمين عند الحاجة.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>تطبيق الحقول المخصصة على Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>تطبيق الحقول المخصصة على Dataverse
 
-إذا قمت بنسخ مثيل إلى بيئة الحماية الخاصة بك وترغب في دمج بيئة الحماية مع Common Data Service ، فمن ثم يجب عليك إعادة تطبيق الحقول المخصصة على كيانات Common Data Service.
+إذا قمت بنسخ مثيل إلى بيئة الحماية الخاصة بك وترغب في دمج بيئة الحماية مع Dataverse ، فمن ثم يجب عليك إعادة تطبيق الحقول المخصصة على جداول Dataverse.
 
-بالنسبة لكل حقل مخصص معروض في كيانات Common Data Service ، قم بالخطوات التالية:
+بالنسبة لكل حقل مخصص معروض في جداول Dataverse، قم بالخطوات التالية:
 
 1. انتقل إلى الحقل المخصص، وحدد **تحرير**.
 
@@ -140,7 +140,7 @@ ms.locfileid: "4527827"
 
 6. حدد **تطبيق التغييرات** مرة أخرى.
 
-تطالبك عمليات إلغاء التحديد وتطبيق التغييرات وإعادة التحديد وإعادة تطبيق التغييرات تحديث المخطط في Common Data Service لتضمين الحقول المخصصة.
+تطالبك عمليات إلغاء التحديد وتطبيق التغييرات وإعادة التحديد وإعادة تطبيق التغييرات تحديث المخطط في Dataverse لتضمين الحقول المخصصة.
 
 لمزيد من المعلومات حول الحقول المخصصة، راجع [‏‫إنشاء حقول مخصصة والعمل باستخدامها‬](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
@@ -150,6 +150,3 @@ ms.locfileid: "4527827"
 [إزالة مثيل](hr-admin-setup-remove-instance.md)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

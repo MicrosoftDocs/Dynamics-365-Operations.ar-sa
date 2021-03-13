@@ -2,7 +2,7 @@
 title: تكوين خيارات أهلية جهة الاتصال الشخصية
 description: قم بتكوين خيارات الأهلية لجهات الاتصال الشخصية في Microsoft Dynamics 365 Human Resources. يمكن أن تكون جهات الاتصال الشخصية من المستفيدين أو التابعين.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 137416477928fd4d6b4438f25df5afea93972027
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417131"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111348"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>تكوين خيارات أهلية جهة الاتصال الشخصية
 
@@ -45,6 +45,3 @@ ms.locfileid: "4417131"
    | **العمر** | السن الأقصى لجهة اتصال شخصية مؤهلة لخطة الميزة. يكون هذا الحقل نشطًا فقط في حالة تحديد علاقة. تتم مقارنة هذا العمر بالسن المحسوب لجهة الاتصال الشخصية. السن المحسوب هو: (تاريخ التغطية – تاريخ ميلاد جهة اتصال شخصية / 365). ودائمًا ما يكون هذا الرقم عددًا صحيحًا. |
 
 4. حدد **حفظ**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

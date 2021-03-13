@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527875"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111403"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>التكامل مع LinkedIn Talent Hub
 
@@ -127,14 +127,14 @@ ms.locfileid: "4527875"
     - **الاسم**: أدخل اسم دور أمان Power Apps الذي قمت بإنشائه مسبقًا، مثل **تكامل LinkedIn Talent Hub HRIS**.
     - **معرف المستخدم**: حدد المستخدم الذي لديه الأذونات لكتابة البيانات في إدارة الموظفين.
 
-### <a name="create-the-entity-in-common-data-service"></a>قم بإنشاء الكيان في Common Data Service
+### <a name="create-the-table-in-dataverse"></a>إنشاء جدول في Dataverse
 
 > [!IMPORTANT]
-> يعتمد التكامل مع LinkedIn Talent Hub على الكيانات الظاهرية في Common Data Service لـ Human Resources. وكمتطلب أساسي لهذه الخطوة في الإعداد، يجب تكوين الكيانات الظاهرية. للحصول على معلومات عن كيفية تكوين الكيانات الظاهرية، راجع [تكوين كيانات Common Data Service الظاهرية](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> يعتمد التكامل مع LinkedIn Talent Hub على الجداول الظاهرية في Dataverse لـ Human Resources. وكمتطلب أساسي لهذه الخطوة في الإعداد، يجب تكوين الجداول الظاهرية. للحصول على معلومات عن كيفية تكوين الجداول الظاهرية، راجع [تكوين جداول Dataverse الظاهرية](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. في Human Resources، افتح صفحة **تكامل Common Data Service (CDS)**.
+1. في الموارد البشرية، افتح صفحة **تكامل Dataverse**.
 
-2. حدد علامة التبويب **الكيانات الظاهرية**.
+2. حدد علامة التبويب **الجداول الظاهرية**.
 
 3. قم بتصفية قائمة الكيانات حسب تسمية الكيان للعثور على **المرشح الذي تم تصديره من LinkedIn**.
 
@@ -188,8 +188,5 @@ ms.locfileid: "4527875"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[تكوين كيانات Common Data Service الظاهرية](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[ما هو Common Data Service؟](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[تكوين جداول Dataverse الظاهرية](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[ما هو Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

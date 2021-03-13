@@ -1,6 +1,6 @@
 ---
 title: التقارير الإلكترونية - إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي
-description: تشرح الخطوات التالية كيف يستطيع المستخدم الذي يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوينات تقارير إلكترونية لاستيراد البيانات إلى تطبيق Microsoft Dynamics 365 Finance من ملف خارجي.
+description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات إلى تطبيق Microsoft Dynamics 365 Finance من ملف خارجي.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0492fae6cfad505fc9fee5cd20f483c9c6d2a061
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684259"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093713"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>التقارير الإلكترونية - إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي
 
@@ -254,6 +254,3 @@ ms.locfileid: "4684259"
 27. قم بإغلاق الصفحة.
 28. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -3,35 +3,32 @@ title: الوحدات النمطية لمجموعة المنتجات
 description: يقدم هذا الموضوع نظرة عامة حول الوحدات النمطية لمجموعة المنتجات في Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409763"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097082"
 ---
 # <a name="product-collection-modules"></a>الوحدات النمطية لمجموعة المنتجات
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 يقدم هذا الموضوع نظرة عامة حول الوحدات النمطية لمجموعة المنتجات في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 اكتشاف المنتجات هي أداة أساسية يستخدمها بائعو التجزئة للتفاعل مع عملائهم على أحد مواقع التجارة الإلكترونية. تساعد الوحدات النمطية لمجموعة المنتجات بائعي التجزئة في إنشاء تجارب تسوق ملحة عن طريق توفير واجهة مرئية سهلة يمكن استخدامها لتأليف مجموعات المنتجات بسرعة.
 
@@ -67,6 +64,10 @@ ms.locfileid: "4409763"
 | منتجات يتكرر شراؤها معًا | الذكاء الاصطناعي/التعلّم الآلي | تستخدم هذه الوحدة النمطية قائمة تستخدم التعلم الآلي لتحليل أنماط الشراء الخاصة بالعملاء والتوصية بالأصناف ذات الصلة التي يتم شراؤها بشكلٍ متكرر مع منتج معين. يمكن لهذه القائمة إظهار النتائج المخصصة لمستخدم قام بتسجيل الدخول إذا اختار مؤلف الموقع هذا الخيار. |
 | أعجب الأشخاص أيضًا بـ           | الذكاء الاصطناعي/التعلّم الآلي | تستخدم هذه الوحدة النمطية التعلم الآلي لتحليل أنماط الشراء الخاصة بالعملاء والتوصية بالأصناف ذات الصلة بمنتج معين. يمكن لهذه القائمة إظهار النتائج المخصصة لمستخدم قام بتسجيل الدخول إذا اختار مؤلف الموقع هذا الخيار. |
 | العناصر المقترحة              | الذكاء الاصطناعي/التعلّم الآلي | تستخدم هذه الوحدة التعلم الآلي لتحليل أنماط الشراء للمستخدم الذي قام بتسجيل الدخول وتقديم توصيات مخصصة تستند إلى أنماط الشراء هذه. بالنسبة لمستخدم ضيف، سيتم طي هذه القائمة. |
+
+## <a name="supported-modules"></a>الوحدات المدعومة 
+
+تدعم الوحدة النمطية مجموعة المنتجات [الوحدة النمطية للعرض السريع](quick-view-module.md)، والتي تتيح للمستخدمين عرض معلومات المنتج وإضافة الأصناف إلى سلة التسوق من صفحة مجموعة المنتجات.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>إضافة وحدة نمطية لمجموعة منتجات إلى صفحة فئة
 
@@ -110,5 +111,4 @@ ms.locfileid: "4409763"
 
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[الوحدة النمطية للعرض السريع](quick-view-module.md)

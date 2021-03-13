@@ -1,6 +1,6 @@
 ---
 title: محتوى "الميزات" في Power BI
-description: يصف هذا الموضوع محتوى "الميزات" في Power BI. يوضح هذا الموضوع كيفية الوصول إلى التقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء حزمة المحتوى.
+description: يصف هذا الموضوع محتوى "الميزات" في Power BI.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687244"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093071"
 ---
 # <a name="benefits-power-bi-content"></a>محتوى "الميزات" في Power BI
 
@@ -69,6 +69,3 @@ ms.locfileid: "4687244"
 | اسم الموظف            | الاسم الأول والاسم الأخير والاسم بالكامل                                                                       | الموظف الحالي، الموظف الذي تم إنهاء خدمته، اتجاه الموظف |
 | المسمى الوظيفي للموظف           | المسمى الوظيفي وتاريخ الأقدمية                                                                                   | الموظف الحالي، الموظف الذي تم إنهاء خدمته، اتجاه الموظف |
 | اتجاه الموظف           | الوقت الإضافي للعمال، وعدد الأشخاص، والشركة، والمنصب                                                        | الشركة، التعويض، الموقع الجغرافي، اسم الموظف، تقارير إلى، مقاصة التقويم، التاريخ، المسمى الوظيفي للموظف، التوزيع الجغرافي، التوظيف، الوظيفة، الميزات |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

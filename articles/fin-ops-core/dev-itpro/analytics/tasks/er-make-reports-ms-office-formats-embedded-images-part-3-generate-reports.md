@@ -1,6 +1,6 @@
 ---
 title: إنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
-description: تشرح الخطوات التالية كيف يمكن لمستخدم يؤدي دور "مسؤول النظام" أو "مطور التقارير الإلكترونية" تصميم تكوينات تقارير إلكترونية لإنشاء مستندات إلكترونية بتنسيقات MS office (مستندات Excel وWord) تحتوي على صور مضمنة.
+description: يشرح هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية (ER) لإنشاء مستندات إلكترونية بتنسيقات Excel وWord تحتوي على صور مضمنة.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7e15162251e5d6fa91c5a938fd846ef5b5c8cd7f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684369"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093813"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>إنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
 
@@ -119,6 +119,3 @@ ms.locfileid: "4684369"
 23. انقر فوق موافق.
     * اعمل على مراجعة المخرجات المنشأة. قد تم إنشاء المخرجات كمستند Word مع صور مضمنة تقدم شعار الشركة وتوقيع شخص معتمد والنص المحدد للعلامة المائية.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

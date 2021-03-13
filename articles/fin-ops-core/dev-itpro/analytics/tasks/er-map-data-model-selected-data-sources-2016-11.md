@@ -1,6 +1,6 @@
 ---
 title: نموذج بيانات خريطة الإبلاغ الإلكتروني لمصادر البيانات المحددة
-description: تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين أحد نماذج بيانات التقارير الإلكترونية لمصادر بيانات Microsoft Dynamics 365 Finance محددة.
+description: يصف هذا الموضوع كيفيه تعيين نموذج بيانات "التقرير الكتروني" (ER) إلى مصادر بيانات Microsoft المحددة Dynamics 365 Finance.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3e2ba94c9ec3ecc33f0c697d9f18f763749e4ba1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684297"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093738"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>نموذج بيانات خريطة الإبلاغ الإلكتروني لمصادر البيانات المحددة
 
@@ -146,6 +146,3 @@ ms.locfileid: "4684297"
 5. حدد الإصدار المكتمل للتكوين الحالي.
     * لاحظ أنه يتم حفظ التكوين الذي يتم إنشاؤه باسم "الإصدار المكتمل 1".  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

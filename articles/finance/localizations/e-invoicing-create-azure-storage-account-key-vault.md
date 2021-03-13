@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4440125"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104198"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>إنشاء حساب تخزين ومخزن رئيسي في Azure
 
 [!include [banner](../includes/banner.md)]
-
-
-
-تتحمل خدمة الوظيفة الإضافية الفوترة الإلكترونية مسؤولين تخزين جميع بيانات الأعمال في موارد Microsoft Azure التي تملكها شركتك. لضمان عمل الخدمة بشكل صحيح، وأن الوصول إلى كافة بيانات الأعمال المطلوبة والمُنشأة من قِبل الوظيفة الإضافية الفوترة الإلكترونية يتم بواسطة هذه الوظيفة الإضافية فقط، يجب عليك إنشاء موردين أساسيين في Azure:
-
-- حساب تخزين Azure (مخزن بيانات ثنائية كبيرة الحجم) لتخزين الفواتير الإلكترونية
-- مخزن رئيسي في Azure لتخزين الشهادات ومعرف موقع منتظم (URI) لحساب التخزين
-
-> [!NOTE]
-> يجب تخصيص مورد مخزن رئيسي مخصص ومخزن بيانات ثنائية كبيرة الحجم للعميل لاستخدامهما خصيصًا مع الوظيفة الإضافية الفوترة الإلكترونية.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
@@ -91,6 +80,3 @@ ms.locfileid: "4440125"
 9. في مربع الحوار **كيان الخدمة**، حدد كياه الخدمة عن طريق إضافة **الوظيفة الإضافية الفوترة الإلكترونية**.
 10. حدد **إضافة**، ثم حدد **حفظ تغييرات المخزن الرئيسي**.
 11. في الصفحة **نظرة عامة**، انسخ قيمة **اسم DNS** للمخزن الرئيسي. سيتم استخدام هذه القيمة أثناء إعداد الخدمة في RCS وستتم الإشارة إليها على أنها *URI‏‎ المخزن الرئيسي*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

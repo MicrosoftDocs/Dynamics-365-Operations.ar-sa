@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669151"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111261"
 ---
 # <a name="recruit-job-candidates"></a>تعيين المرشحين للوظائف
 
@@ -38,7 +38,7 @@ ms.locfileid: "4669151"
 إذا كنت لا تستخدم طلب تعيين منفصلاً، يمكنك أيضًا إدارة المرشحين في Human Resources يدويًا.
 
 >[!NOTE]
->إذا كنت مسؤولاً أو مطورًا وترغب في دمج Human Resources مع تطبيق تعيين تابع لجهة خارجية، فراجع [تكوين تكامل Common Data Service](hr-admin-integration-common-data-service.md) و[تكوين الكيانات الظاهرية لـ Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)
+>إذا كنت مسؤولاً أو مطورًا وترغب في دمج Human Resources مع تطبيق تعيين تابع لجهة خارجية، فراجع [تكوين تكامل Dataverse](hr-admin-integration-common-data-service.md) و[تكوين الجداول الظاهرية لـ Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > يمكنك أيضًا العثور على تطبيقات تكامل التعيين في [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ ms.locfileid: "4669151"
 
 ## <a name="enable-recruiting-requests"></a>تمكين طلبات التعيين
 
-إذا كنت ترغب في إرسال طلبات التعيين في Human Resources، فيجب عليك أولاً تمكين الوظيفة في **معلمات Human Resources**.
+إذا كنت ترغب في إرسال طلبات التعيين في Human Resources، فيجب عليك أولاً تمكين الوظيفة في **معلمات Human Resources المشتركة**.
 
 1. في مساحة عمل **إدارة العاملين**، حدد **ارتباطات**.
 
-2. ضمن **الإعداد**، حدد **محددات الموارد البشرية**.
+2. ضمن **الإعداد**، حدد **معلمات Human Resources المشتركة**.
 
-3. في علامة التبويب **عام**، ضمن **التعيين**، قم بتعيين **تمكين طلبات التعيين** إلى **نعم**.
-
-   ![تمكين طلبات التعيين](./media/hr-recruit-0-enable-requests.png)
+3. في علامة التبويب **التوظيف**، ضمن **التعيين**، قم بتعيين **تمكين طلبات التعيين** إلى **نعم**.
 
 ## <a name="add-a-recruiting-request-location"></a>إضافة موقع طلب تعيين
 
@@ -224,8 +222,6 @@ ms.locfileid: "4669151"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[تكوين كيانات Common Data Service الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[تكوين جداول Dataverse الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [تنظيم القوى العاملة](hr-personnel-departments-jobs-positions.md)<br>
 [إعداد مكونات وظيفة](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

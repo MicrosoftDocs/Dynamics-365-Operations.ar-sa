@@ -1,6 +1,6 @@
 ---
 title: نوع البريد الإلكتروني لوجهة إعداد التقارير الإلكترونية
-description: يوضح هذا الموضوع معلومات كيفية تكوين وجهة بريد إلكتروني لكل مكون "ملف" أو "مجلد" لتنسيق إعداد التقارير الإلكترونية (ER) التي يتم تكوينها لإنشاء مستندات صادرة.
+description: يشرح هذا الموضوع معلومات حول كيفيه تكوين وجهه بريد إلكتروني لكل مجلد أو مكون ملف لتنسيق التقارير الكترونيه (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690116"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094094"
 ---
 # <a name="email-er-destination-type"></a>نوع البريد الإلكتروني لوجهة إعداد التقارير الإلكترونية
 
@@ -65,8 +65,6 @@ ms.locfileid: "4690116"
 - في حقل **مصدر البريد الإلكتروني**، حدد **لا شيء**.
 - في حقل **عناوين البريد الإلكتروني الإضافية، مفصولة بـ "؛"**، أدخل عناوين البريد الإلكتروني الثابتة.
 
-![تكوين عنوان بريد إلكتروني ثابت](./media/er_destinations-emailfixedaddress.png)
-
 بدلاً من ذلك، يمكنك الحصول على عناوين البريد الإلكتروني من تفاصيل الاتصال الخاصة بالطرف الذي تقوم بإنشاء مستند صادر له. لاستخدام عناوين البريد الإلكتروني التي لم يتم إصلاحها، في حقل **مصدر البريد الإلكتروني**، حدد [دور](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) الطرف لوجهة ملف. الأدوار التالية مدعومة:
 
 - العميل
@@ -92,8 +90,6 @@ ms.locfileid: "4690116"
 
 إذا كانت أرقام الحساب الخاصة بالدور الذي تم تكوينه فريدة للمثيل الكامل الخاص بـ Microsoft Dynamics 365 Finance، يمكن أن يبقى حقل **شركة مصدر البريد الإلكتروني** في مربع الحوار **بريد إلكتروني إلى** فارغًا.
 
-![حقل شركة مصدر البريد الإلكتروني الفارغ](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 وبدلاً من ذلك، ربما واجهت موقفًا حيث تم تسجيل أطراف مختلفة في [دفتر العناوين العمومي](../../fin-ops/organization-administration/overview-global-address-book.md) في شركات مختلفة ([الكيانات القانونية](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) بطريقة تجعلهم جميعًا يستخدمون نفس رقم الحساب لملء الدور الذي تم تكوينه. في هذه الحالة، فإن أرقام الحسابات للدور الذي تم تكوينه ليست فريدة لمثيل Finance بالكامل. لذلك، لتحديد مجموعة بشكل صريح، لا يمكنك تحديد رقم حساب فقط. يجب عليك أيضًا تحديد الشركة التي تم تسجيل الطرف في نطاقها لملء الدور الذي تم تكوينه. حدد الزر **ربط** (رمز السلسلة) بجوار حقل **شركة مصدر البريد الإلكتروني** في مربع الحوار **بريد إلكتروني إلى** لفتح صفحة [مصمم المعادلة](general-electronic-reporting-formula-designer.md). يمكنك بعد ذلك استخدام هذه الصفحة لتكوين صيغة تُرجع، في وقت التشغيل، رمز الشركة الذي يجب العثور على المصدر المطلوب في نطاقها.
 
 > [!TIP]
@@ -109,8 +105,6 @@ ms.locfileid: "4690116"
 
 > [!NOTE]
 > في حاله تحديد الأغراض في حقل **الغرض** وتعيين خيار **جهات الاتسصال الأساسية** إلى **نعم** في نفس الوقت، سيتم استخدام كل بريد إلكتروني يفي بمعيار مكون واحد على الأقل في وقت التشغيل.
-
-![تكوين حساب سمات مصدر البريد الإلكتروني](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>البريد الإلكتروني في التكوين
 
@@ -145,6 +139,3 @@ ms.locfileid: "4690116"
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
 - [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

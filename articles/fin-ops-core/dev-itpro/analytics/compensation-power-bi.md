@@ -1,6 +1,6 @@
 ---
 title: محتوى "التعويض" في Power BI
-description: يصف هذا الموضوع محتوى "التعويض" في Power BI. فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+description: يصف هذا الموضوع محتوى "التعويض" في Power BI. ويوضح كيفيه الوصول إلى التقارير وتوفر معلومات حول نموذج البيانات المستخدم.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64b4f27b4a1fa3762169a18746c6b0933bddf3ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b625ea7dcbb6bd8b80cbcdcc544c59b9839fc19d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687165"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093046"
 ---
 # <a name="compensation-power-bi-content"></a>محتوى "التعويض" في Power BI
 
@@ -71,6 +71,3 @@ ms.locfileid: "4687165"
 | اسم الموظف            | الاسم الأول والاسم الأخير والاسم بالكامل                                                                       | الموظف الحالي، الموظف الذي تم إنهاء خدمته، اتجاه الموظف |
 | المسمى الوظيفي للموظف           | المسمى الوظيفي وتاريخ الأقدمية                                                                                   | الموظف الحالي، الموظف الذي تم إنهاء خدمته، اتجاه الموظف |
 | اتجاه الموظف           | الوقت الإضافي للعمال، وعدد الأشخاص، والشركة، والمنصب                                                        | الشركة، التعويض، الموقع الجغرافي، اسم الموظف، تقارير إلى، مقاصة التقويم، التاريخ، المسمى الوظيفي للموظف، التوزيع الجغرافي، التوظيف، الوظيفة، الميزات |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

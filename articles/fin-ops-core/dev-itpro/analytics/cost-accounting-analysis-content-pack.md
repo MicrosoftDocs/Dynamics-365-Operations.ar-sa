@@ -1,6 +1,6 @@
 ---
 title: محتوى "تحليل محاسبة التكاليف‬" في Power BI
-description: يصف هذا الموضوع العناصر المضمنة في محتوى "تحليل محاسبة التكاليف‬" في Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+description: يصف هذا الموضوع العناصر المضمنة في محتوى "تحليل محاسبة التكاليف‬" في Power BI.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/02/2019
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c9a4741c1b09b8e68a9fe95d6f4effa328615d5
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683861"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093376"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>محتوى "تحليل محاسبة التكاليف‬" في Power BI
+# <a name="cost-accounting-analysis-power-bi-content"></a>محتوى Power BI لتحليل محاسبة التكاليف
 
 [!include [banner](../includes/banner.md)]
 
@@ -123,6 +123,3 @@ ms.locfileid: "4683861"
 | التقويمات المالية                   | التقويم، وصف التقويم                                                                                       |
 | السنوات المالية                       | سنة التقويم                                                                                                        |
 | الفترات المالية                     | فترات سنة التقويم                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: خيارات التنسيق المتقدمة في التقارير المالية
-description: عند إنشاء تقرير في التقارير المالية، تتوفر وظائف تنسيق إضافية، بما في ذلك عوامل التصفية للأبعاد، والقيود للأعمدة ووحدات إعداد التقارير‬ والصفوف غير القابلة للطباعة وعبارات IF/THEN/ELSE في العمليات الحسابية.
-author: ryansandness
+description: يصف هذا الموضوع وظائف التنسيق المتقدمة، بما في ذلك عوامل التصفية والقيود والصفوف غير المطبوعة والعبارات الشرطية في العمليات الحسابية.
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683153"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093152"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>خيارات التنسيق المتقدمة في التقارير المالية
 
@@ -310,6 +310,3 @@ ms.locfileid: "4683153"
 يمكنك تصميم التقارير باستخدام قيم الأبعاد التي تحتوي على علامة العطف (&).
 
 ضمن أي حقل **ربط بالبعد المالي**، يمكنك إدخال قيمة مثل **"الأرباح والخسائر"**. يشير تضمين علامات الاقتباس المفردة (' ') على جانبي قيمة البعد إلى انك تستخدم القيمة الحرفية، مثل تضمين علامة العطف (&).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

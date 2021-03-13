@@ -1,6 +1,6 @@
 ---
 title: إعداد التقارير المالية
-description: تسمح التقارير المالية في تطبيق للأخصائيين العاملين في مجالات المال والأعمال بإنشاء القوائم المالية وصيانتها ونشرها وعرضها. إنها تتجاوز قيود التقارير التقليدية لكي تقدم لك مساعدة فعالة على صعيد تصميم مختلف أنواع التقارير.
+description: تسمح التقارير المالية في تطبيق للأخصائيين العاملين في مجالات المال والأعمال بإنشاء القوائم المالية وصيانتها ونشرها وعرضها.
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7da0d1aa4bb10658c66fce996e00b5714125f100
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b1db953165bd745a00f68048767a2b19fcc2f38
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682678"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093941"
 ---
 # <a name="financial-reporting"></a>إعداد التقارير المالية
 
@@ -96,6 +96,3 @@ ms.locfileid: "4682678"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 [إنشاء التقارير المالية](generate-financial-report.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
