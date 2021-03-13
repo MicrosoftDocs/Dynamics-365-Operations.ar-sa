@@ -2,7 +2,7 @@
 title: إرسال طلب إجازة إلى سير العمل
 description: في Microsoft Dynamics 365 Human Resources، يمكنك استخدام واجهة برمجه التطبيقات MyLeaveRequests submit() لإرسال طلب الإجازة إلى سير العمل.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51be70edbe1439340377fd01b9760d49d3a75348
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417040"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115502"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>إرسال طلب إجازة إلى سير العمل
 
@@ -108,5 +108,3 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 
 - [نظره عامة على MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [المصادقة](hr-developer-api-authentication.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

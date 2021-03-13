@@ -1,7 +1,7 @@
 ---
 title: الوظيفة الاضافيه لرؤية المخزون
 description: يوضح هذا الموضوع كيفيه تثبيت الوظيفة الاضافيه لرؤية المخزون وتكوينها لـ Dynamics 365 Supply Chain Management.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625055"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114660"
 ---
 # <a name="inventory-visibility-add-in"></a>الوظيفة الاضافيه لرؤية المخزون
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 تعد الوظيفة الاضافيه لرؤية المخزون بمثابه خدمة صغيرة مستقله وقابله للتغيير بشكل كبير والتي تمكن تتبع المخزون الفعلي في الوقت الحقيقي ، مما يوفر عرضا شاملا لرؤية المخزون.
 
 يتم تصدير كافة المعلومات المرتبطة بالمخزون الفعلي إلى الخدمة بالقرب من الوقت الحقيقي خلال تكامل SQL في المستوي المنخفض. تقوم الانظمه الخارجية بالوصول إلى الخدمة من خلال واجهات RESTful API للاستعلام عن المعلومات الفعلية حول المجموعات المحددة من الابعاد ، ومن ثم استرداد قائمه بالمناصب الفعلية المتاحة.
 
-رؤية المخزون عبارة عن خدمة صغيرة مضمنة في Common Data Service، مما يعني انه يمكنك توسيعها بواسطة إنشاء Power Apps وتطبيق Power BI لتوفير وظيفة مخصصه لتلبيه متطلبات الاعمال الخاصة بك. من الممكن أيضا ترقيه الفهرس للقيام باستعلامات المخزون.
+رؤية المخزون عبارة عن خدمة صغيرة مضمنة في Microsoft Dataverse، مما يعني انه يمكنك توسيعها بواسطة إنشاء Power Apps وتطبيق Power BI لتوفير وظيفة مخصصه لتلبيه متطلبات الاعمال الخاصة بك. من الممكن أيضا ترقيه الفهرس للقيام باستعلامات المخزون.
 
 توفر امكانيه رؤية المخزون خيارات التكوين التي تتيح له التكامل مع أنظمه متعددة الجهات الخارجية. وهو يدعم بعد المخزون القياسي والقابلية للتوسعة المخصصة والكميات التي تم حسابها والقياسية القابلة للتكوين.
 
@@ -78,30 +78,57 @@ ms.locfileid: "4625055"
 
 ### <a name="get-a-security-service-token"></a>الحصول علي رمز خدمه أمان
 
-للحصول علي رمز خدمه أمان ، قم بما يلي:
+احصل علي رمز خدمه أمان بالقيام بما يلي:
 
-1. احصل علي `aadToken` واتصل بالنقطة النهائية: https://securityservice.operations365.dynamics.com/token.
-1. استبدل `client_assertion`في النص الأساسي بـ `aadToken`.
-1. قم باستبدال السياق في النص الأساسي بالبيئة التي ترغب في نشر الوظيفة الاضافيه بها.
-1. استبدل النطاق في النص الأساسي بالتالي:
+1. سجل دخولك إلى مدخل Azure واستخدمه للعثور علي `clientId`و`clientSecret` لتطبيق Supply Chain Management.
+1. إحضار Azure Active Directory رمز مميز (`aadToken`) عن طريق إرسال طلب HTTP بالخصائص التالية:
+    - **عنوان URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **الطريقة** - `GET`
+    - **محتوي النص الأساسي (بيانات النموذج)**:
 
-    - النطاق من أجل MCK -"https://inventoryservice.operations365.dynamics.cn/.default"  
-    (يمكنك العثور علي معرف تطبيق ومعرف مستاجر Azure Active Directory لـ MCK في `appsettings.mck.json` .)
-    - النطاق من أجل PROD -"https://inventoryservice.operations365.dynamics.com/.default"  
-    (يمكنك العثور علي معرف تطبيق ومعرف مستاجر Azure Active Directory لـ PROD في `appsettings.prod.json` .)
+        | المفتاح | القيمة |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | مورد | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. يجب ان تتلقي `aadToken` استجابه فيها، والتي تشبه المثال التالي.
 
-    تشبه النتيجة المثال التالي.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. المستقبل طلب JSON مشابها لما يلي:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    المكان:
+    - `client_assertion`يجب ان تكون القيمة هي `aadToken` التي استلمتها في الخطوة السابقة.
+    - `context`يجب ان تكون القيمة معرف البيئة حيث تريد توزيع الوظيفة الاضافيه.
+    - قم بتعيين كافة القيم الأخرى كما هو موضح في المثال.
+
+1. قم بإرسال طلب HTTP بالخصائص التالية:
+    - **عنوان URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **الطريقة** - `POST`
+    - **راس HTTP** - تضمين إصدار API (`Api-Version` المفتاح هو والقيمة هو `1.0`)
+    - **محتوي أساسي** - تضمين طلب JSON الذي قمت بإنشاءه في الخطوة السابقة.
 
 1. ستحصل علي `access_token` في الاستجابة. وهذا ما تحتاجه كرمز مميز في الحامل لاستدعاء امكانيه رؤية API للمخزون. فيما يلي مثال على ذلك.
 
@@ -500,6 +527,3 @@ ms.locfileid: "4625055"
 ```
 
 لاحظ انه يتم بناء حقول الكميات كقاموس للمقاييس والقيم المقترنة بها.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

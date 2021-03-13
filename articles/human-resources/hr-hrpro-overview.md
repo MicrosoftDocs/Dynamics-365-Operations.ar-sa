@@ -2,7 +2,7 @@
 title: نظرة عامة
 description: يزودك دليل مستخدم Dynamics 365 Human Resources بالتعليمات الخاصة بإعداد الموارد البشرية وإعداد التعويض والفوائد الخاصة بالموظفين وإدارة القوى العاملة.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417177"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115236"
 ---
 # <a name="overview"></a>نظرة عامة
 
@@ -57,10 +57,9 @@ ms.locfileid: "4417177"
 [تحديد الأقسام](hr-personnel-define-departments.md)</br>
 [تحديد الوظائف](hr-personnel-define-jobs.md)</br>
 [استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف](hr-workflow-manage-employee-information.md)</br>
-[تعديل علاقات التقارير لمنصب](hr-personnel-modify-reporting-relationships-position.md)</br>
+[تعديل العلاقات الهرمية لمنصب](hr-personnel-modify-reporting-relationships-position.md)</br>
 [إدخال معلومات العامل](hr-personnel-enter-worker-information.md)</br>
 [أصناف القرض للعمال](hr-personnel-loan-item-worker.md)</br>
-[إدخال الجداول الزمنية للمشروع‬](hr-personnel-enter-project-timesheets.md)</br>
 [مشاريع التوظيف الجماعي](hr-personnel-mass-hire-projects.md)</br>
 [إعداد المناصب](hr-personnel-set-up-positions.md)</br>
 [إعداد معلومات الإصابة والمرض](hr-personnel-set-up-injury-illness-information.md)</br>
@@ -128,6 +127,3 @@ ms.locfileid: "4417177"
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

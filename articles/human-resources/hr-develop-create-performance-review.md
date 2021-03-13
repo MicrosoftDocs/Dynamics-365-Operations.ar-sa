@@ -2,7 +2,7 @@
 title: إنشاء مراجعات الأداء
 description: يوضح هذا الموضوع كيفية إنشاء مراجعة الأداء ويصف الغرض لكل قسم من أقسام المراجعة.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417103"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115790"
 ---
 # <a name="create-performance-reviews"></a>إنشاء مراجعات الأداء
 
@@ -78,6 +78,3 @@ ms.locfileid: "4417103"
 34. حدد علامة التبويب **مراجعة**، بينما تتنقل المراجعة بين الحالات، يستطيع كل من الموظف والمدير إضافة التعليقات لكل هدف أو اختصاص.  
 35. حدد علامة تبويب **الاعتمادات**، يمكن أن يقوم العامل والمدير بالاعتماد على المراجعة. عند إكمال كافة الاعتمادات المطلوبة، تتغير الحالة إلى **مكتمل** ولا يمكن بعد ذلك إجراء أي تغييرات.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
