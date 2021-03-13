@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646069"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009358"
 ---
 # <a name="improve-the-prediction-model-preview"></a>تحسين نموذج التنبؤ (معاينة)
 
@@ -42,19 +41,19 @@ ms.locfileid: "4646069"
 
 ## <a name="select-fields"></a>تحديد الحقول
 
-عند تحديد الحقول التي سيتم تضمينها في النموذج، يجب الانتباه إلى أن القائمة تتضمن كافة الحقول المتوفرة في كيان Common Data Service الذي تم تعيينه إلى البيانات في Azure data lake. يجب **عدم** تحديد بعض هذه الحقول. تقع الحقول التي يجب عدم تحديدها ضمن واحدة من الفئات الثلاثة التالية:
+عند تحديد الحقول التي سيتم تضمينها في النموذج، يجب الانتباه إلى أن القائمة تتضمن كافة الحقول المتوفرة في جدول Microsoft Dataverse الذي تم تعيينه إلى البيانات في Azure data lake. يجب **عدم** تحديد بعض هذه الحقول. تقع الحقول التي يجب عدم تحديدها ضمن واحدة من الفئات الثلاثة التالية:
 
-- الحقل مطلوب للكيان Common Data Service، ولكن لا توجد بيانات احتياطية له في data lake.
+- الحقل مطلوب للجدول Dataverse، ولكن لا توجد بيانات احتياطية له في data lake.
 - يعتبر هذا الحقل معرف وبالتالي لا يكون له معنى لميزة "التعلم الآلي".
 - يمثل الحقل المعلومات التي لن تكون متوفرة أثناء التوقع.
 
 توضح الأقسام التالية الحقول المتاحة لكيانات الفاتورة والعميل، وتسرد الحقول التي يجب **عدم** تحديدها للتدريب. تشير الفئة المحددة لكل من هذه الحقول إلى الفئات الموجودة في القائمة السابقة.
  
-### <a name="invoice-common-data-model-entity"></a>كيان نموذج البيانات العامة للفاتورة
+### <a name="invoice-dataverse-table"></a>جدول فاتورة Dataverse
 
-يبين الرسم التوضيحي التالي الحقول المتوفرة لكيان الفاتورة.
+يبين الرسم التوضيحي التالي الحقول المتوفرة لجدول الفاتورة.
 
-[![الحقول المتوفرة لكيان الفاتورة](./media/available-fields.png)](./media/available-fields.png)
+[![الحقول المتوفرة لجدول الفاتورة](./media/available-fields.png)](./media/available-fields.png)
 
 يجب عدم تحديد الحقول التالية للتدريب:
 
@@ -65,11 +64,11 @@ ms.locfileid: "4646069"
 - **سجل المصدر** (الفئة 2)
 - **جدول المصدر** (الفئة 2)
 
-### <a name="customer-common-data-model-entity"></a>كيان نموذج البيانات العامة للعميل
+### <a name="customer-dataverse-table"></a>جدول عملاء Dataverse
 
-يبين الرسم التوضيحي التالي الحقول المتوفرة لكيان العميل.
+يبين الرسم التوضيحي التالي الحقول المتوفرة لجدول العملاء.
 
-[![الحقول المتوفرة لكيان العميل](./media/related-entities.png)](./media/related-entities.png)
+[![الحقول المتوفرة لجدول العملاء](./media/related-entities.png)](./media/related-entities.png)
 
 يجب عدم تحديد الحقل التالي للتدريب:
 
@@ -83,6 +82,3 @@ ms.locfileid: "4646069"
 
 #### <a name="privacy-notice"></a>إشعار الخصوصية
 إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

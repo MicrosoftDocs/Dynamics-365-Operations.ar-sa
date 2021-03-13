@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 84be2a4646cfc18cd1f25a4ec969acdb62cb2856
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421303"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007231"
 ---
 # <a name="flushing-principles"></a>مبادئ التفريغ
 
@@ -63,6 +62,3 @@ ms.locfileid: "4421303"
 
 ### <a name="available-at-location"></a>متوفر في الموقع
 يشير مبدأ التفريغ "متوفر في الموقع" إلى أن المواد ستُستهلك تلقائيًا عندما يتم تسجيلها كمواد منتقاة للإنتاج. يتم تسجيل المواد كمنتقاة من الموقع عند اكتمال العمل المتعلق بانتقاء المواد أو عندما تتوفر المواد في موقع إدخال الإنتاج ويتم إصدار بند المواد إلى المستودع. يتم ترحيل قائمة الانتقاء التي يتم إنشاؤها خلال العملية في وظيفة دفعية. يُعتبر هذا المبدأ مناسبًا، إذا، على سبيل المثال، كان لديك الكثير من أنشطة الانتقاء في مقابل أمر إنتاج واحد. في هذه الحالة، لا تحتاج إلى تحديث قائمة الانتقاء يدويًا، ويمكنك الحصول على طريقة عرض حالية لرصيد الأعمال تحت التنفيذ (WIP).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

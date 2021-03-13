@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 79878e2ffbf219f77f378997c277ced8bb41598c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16835d9e7402c42f852b058150ba8da2b4da3d8b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409848"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009839"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>إعداد وظيفة تسجيل الدخول الموسع لـ MPOS وCloud POS
 
@@ -67,6 +66,3 @@ ms.locfileid: "4409848"
 ## <a name="using-extended-logon"></a>استخدام تسجيل الدخول الموسع
 
 عندما يتم تكوين تسجيل الدخول الموسع، وقام عامل بتعيين الرمز الشريطي أو الشريط المغناطيسي، يجب على العامل أن يقوم بتمرير البطاقة أو مسحها بينما يتم عرض صفحة تسجيل دخول نقطة البيع. إذا كانت كلمة مرور مطلوبة أيضًا قبل إمكانية متابعة تسجيل الدخول، فإنه تتم مطالبة العامل بإدخال كلمة المرور الخاصة به.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

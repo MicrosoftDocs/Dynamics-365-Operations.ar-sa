@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2202b6b50d4b4b675759275379023a182b01af17
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421661"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007256"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات
 
@@ -204,6 +203,3 @@ ms.locfileid: "4421661"
 1. في علامة التبويب **عام**، قم بتعيين **التحقق من كميات الأوامر الافتراضية‬‏‫** إلى إحدى القيم التالية:
     - **صارم** - حدد هذا الخيار لضمان أن تكون جميع قيم **كمية الأمر القياسية** عبارة ع مضاعف لقيمة **المضاعف** لكل علامة تبويب سريعة (**أمر الشراء** و **المخزون** و **أمر المبيعات**).
     - **قياسي** - حدد هذا الخيار لاستخدام التحقق من الصحة (الذي يعمل بنفس الطريقة عندما لا تكون هذه الميزة ممكّنة).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

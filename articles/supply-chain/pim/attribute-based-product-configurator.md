@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cba4b1eac33ae53e214297728c1cdf2710ebd9d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421033"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007906"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>أسعار المبيعات المستندة إلى السمات لتكوين منتج مستند إلى قيد
 
@@ -141,6 +140,3 @@ ms.locfileid: "4421033"
 1. في جزء الاجراء، افتح علامة التبويب **النموذج** ومن المجموعة **تفاصيل طراز المنتج**، حدد **الإصدارات**.
 1. يتم فتح الصفحة **الإصدارات**. تاكد من تعيين **طريقه التسعير** علي **أساس السمة**.
     ![تعيين طريقة التسعير على أساس السمة](media/prod-config-versions.png "تعيين طريقة التسعير على أساس السمة")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

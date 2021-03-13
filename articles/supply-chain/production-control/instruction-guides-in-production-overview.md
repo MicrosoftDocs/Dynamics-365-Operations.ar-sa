@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 3e69f9007b6605a07c6bec189b596d36a26f6222
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645134"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007105"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>توفير دلائل الحقيقة المختلطة للعمال العاملين في الإنتاج
 
@@ -410,6 +409,3 @@ Dynamics 365 Guides من الممكن ان يساعد في زيادة الموظ
 - إذا قمت بتحديد العديد من علاقات مسارات العمليات التي تتضمن *جميع* دلائل العلاقة والتعيين، سيتم عرض الادله التي من أكثر علاقة محدده للوظيفة.  
 
 ![مخطط حول حل الدلائل ذات الصلة](media/instruction-guides-Resolve.png "مخطط حول حل الدلائل ذات الصلة")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aedfe7ef96d62401b1d0de0f2cd035036c68e51a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421595"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007056"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>دعم لوحة تحويل كانبان للماسحات الضوئية للرمز الشريطي
 
@@ -44,11 +43,11 @@ ms.locfileid: "4421595"
 | فارغ                 | تسجيل وحدة معالجة المواد المشار إليها ببطاقة كانبان على أنها وحدة فارغة.              |
 | تحديد                | تسجيل رقم بطاقة كانبان وتحديد الوظيفة المشار إليها تلقائيًا في قائمة كانبان. |
 
- 
-تحديد وضع التسجيل
+ 
+<a name="registration-mode-select"></a>تحديد وضع التسجيل
 ------------------------
 
-عند استخدام قارئ الرمز الشريطي لتحديد وظيفة، يتغير وضع عرض تغييرات لوحة كانبان. في هذا الوضع، تنطبق الشروط التالية:
+عند استخدام قارئ الرمز الشريطي لتحديد وظيفة، يتغير وضع عرض تغييرات لوحة كانبان. في هذا الوضع، تنطبق الشروط التالية:
 
 -   يتم عرض وظيفة كانبان التي تم مسحها ضوئياً فقط.
 -   يتم عرض تفاصيل الوظيفة المحددة في علامة التبويب السريع **تفاصيل**.
@@ -192,6 +191,3 @@ ms.locfileid: "4421595"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

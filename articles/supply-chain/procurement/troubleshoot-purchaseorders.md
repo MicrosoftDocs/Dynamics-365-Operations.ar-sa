@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421791"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007481"
 ---
 # <a name="troubleshoot-purchase-orders"></a>استكشاف أخطاء أوامر الشراء وإصلاحها
 
@@ -132,7 +131,7 @@ ms.locfileid: "4421791"
 
 بالنسبة لسيناريو المثال الموضح في وصف المشكلة، حيث للسجل تاريخ السريان *01/11/2018* وتاريخ انتهاء الصلاحية *إطلاقًا*، يمكنك استيراد سجل جديد لديه تاريخ السريان *01/10/2018* وتاريخ انتهاء الصلاحية *إطلاقًا‏‎*. ومع ذلك، لا يمكنك تقليل الفترة بحيث يتم تحديث تاريخ السريان إلى *01/12/2018* عبر إدارة البيانات. يجب إجراء هذا التغيير من خلال واجهة المستخدم.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>بعد قيامي بتغيير عنوان التسليم على رأس أمر الشراء، لا تتم مزامنة اسم التسليم.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>بعد قيامي بتغيير عنوان التسليم على رأس أمر الشراء، لا تتم مزامنة اسم التسليم.
 
 ### <a name="issue-description"></a>وصف المشكلة
 
@@ -145,6 +144,3 @@ ms.locfileid: "4421791"
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>هل يمكنني العثور على المستخدم الذي قام بإلغاء أمر الشراء؟
 
 يتم تعقب هذه المعلومات فقط إذا كان أمر الشراء يخضع لإدارة التغيير. إذا كنت تستخدم إدارة التغيير، فيمكنك معرفة من هي الجهة التي أرسلت التغيير (الإلغاء) ووافقت عليه.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

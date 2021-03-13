@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91df786ed2298e21e7a3018b915c9bd5458efc32
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439942"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009233"
 ---
 # <a name="online-financial-consolidations"></a>عمليات الدمج المالية عبر الإنترنت
 
@@ -31,7 +30,7 @@ ms.locfileid: "4439942"
 
 بعد إكمال عملية الإعداد، أدخل تفاصيل الدمج في صفحة **الدمج [عبر الإنترنت]**. عند الانتهاء من ذلك، يمكنك النقر فوق **موافق** أو **دُفعة** لمعالجة الدمج.
 
-## <a name="criteria"></a>المعايير
+## <a name="criteria"></a>معايير
 على علامة التبويب **معايير** في صفحة **الدمج [عبر الإنترنت]**، يمكنك تحديد الحسابات والفترات الزمنية ونوع البيانات الجاري دمجها.
 
 ![علامة التبويب المعايير](./media/criteria-consolidate-online.png "علامة التبويب المعايير")
@@ -96,6 +95,3 @@ ms.locfileid: "4439942"
 لمزيد من المعلومات حول الدمج وتحويل العملة‬، راجع الموضوع الأصل لهذا الموضوع، [نظرة عامة على عمليات الدمج المالية وتحويل العملات‬](./financial-consolidations-currency-translation.md).
 
 لمزيد من المعلومات حول السيناريوهات حيث قد تنشئ قوائم مالية مدمجة، راجع [إنشاء قوائم مالية مدمجة‬](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

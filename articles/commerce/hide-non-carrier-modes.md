@@ -10,19 +10,18 @@ ms.service: dynamics-ax-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 38d57ed5f8d2b8725cd11156f0135988bb76e047
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcacb4243e78607d19d2c57aff5debe04d85d6f2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409979"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009711"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>إخفاء أوضاع التسليم بدون ناقل من خيارات الشحن في نقطة البيع
 
@@ -36,6 +35,3 @@ ms.locfileid: "4409979"
 وبشكل افتراضي، يظهر مربع الحوار عند تحديد وضع التسليم كافة أوضاع التسليم الصالحة لمجموعة القناة والصنف وعنوان التسليم. يتم تحديد أوضاع التسليم هذه في صفحة **أوضاع التسليم** في المراكز الرئيسية (**المبيعات والتسويق \> الإعداد \> التوزيع \> أوضاع التسليم**). قد تظهر أيضًا أوضاع التسليم "بدون ناقل"، مثل **تنفيذ** أو **التقاط**، للتحديد في مربع الحوار.
 
 ومع ذلك، تمت إضافة ميزة تتيح لك إخفاء أوضاع التسليم بدون ناقل في مربع الحوار. لتشغيل هذه الميزة، في الصفحة **معلمات Commerc** ، في علامة التبويب **أوامر العميل** ، عيِّن الخيار **إظهار خيارات وضع الناقل لأوامر الشحن فقط** على **نعم**. بعد تشغيل هذه الميزة وتشغيل مهام التوزيع المناسبة لمزامنة المعلومات في قاعده بيانات القناة، لن تظهر أوضاع التسليم بدون ناقل للتحديد اثناء عملية إنشاء أوامر الشحن في نقطه البيع (POS).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
