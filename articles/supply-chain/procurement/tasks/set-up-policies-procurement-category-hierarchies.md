@@ -1,7 +1,7 @@
 ---
 title: إعداد سياسات للتدرج الهرمي لفئات التدبير
 description: استخدم هذا الإجراء لإعداد قواعد طلب المنتجات الموجودة في إحدى الفئات.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d113181b5c78c0f35292b5f14cedd12bacdc7364
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421307"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017075"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>إعداد سياسات للتدرج الهرمي لفئات التدبير
 
@@ -52,6 +51,3 @@ ms.locfileid: "4421307"
 6. في الحقل **تحديد المورِّد**، حدد خيارًا. حدد قاعدة للتحكم في أنواع المورّدين الذين يمكن اختيارهم للفئة عند إنشاء طلبات الشراء.  
 7. انقر فوق **إغلاق**. تتعلق قواعد السياسة التي حددتها بطلبات من النوع "استهلاك". إذا أردت تحديد سياسات لطلبات من النوع "تزويد"، فيمكنك إنشاء قاعدة لنوع قاعدة السياسة المسمى "قاعدة سياسة الوصول لفئة التزويد‬".  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

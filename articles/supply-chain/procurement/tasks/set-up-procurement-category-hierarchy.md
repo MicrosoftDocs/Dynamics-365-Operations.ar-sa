@@ -1,7 +1,7 @@
 ---
 title: إعداد التدرج الهرمي لفئات التدبير
 description: يوضح هذا الإجراء كيفية إنشاء عقد جديد في تدرج هرمي لفئات التدبير وكيفية تكوين فئة تدبير لاستخدامها في عملية تدبير.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/21/2019
 ms.topic: business-process
@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421662"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017306"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>إعداد التدرج الهرمي لفئات التدبير
 
@@ -45,6 +44,3 @@ ms.locfileid: "4421662"
 4. حدد المنتجات التي تريد إضافتها إلى فئة التدبير.
 5. حدد السهم لإضافة المنتجات إلى جدول **المحدد**.
 6. حدد **موافق**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

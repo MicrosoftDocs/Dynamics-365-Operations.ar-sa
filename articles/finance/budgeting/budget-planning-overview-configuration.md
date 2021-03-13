@@ -1,7 +1,7 @@
 ---
 title: نظرة عامة على تخطيط الموازنة
 description: يصف هذا الموضوع تخطيط الموازنة. وهو يحتوي على معلومات يمكنها المساعدة في تكوين تخطيط الموازنة وإعداد عمليات تخطيط الموازنة.
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3744fd823576b597b4550008338e3cc96cb585d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 847ae83102345a8005a8b2a630805d22ccfd736d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440073"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019218"
 ---
 # <a name="budget-planning-overview"></a>نظرة عامة على تخطيط الموازنة
 
@@ -205,6 +204,3 @@ ms.locfileid: "4440073"
 وهناك أمر مفيد آخر في قائمة **الإجراءات** هو **عرض حالة عملية الموازنة**. ويعرض هذا الأمر بطريقة رسومية خطط الموازنة داخل عملية، مع البيانات ذات الصلة، مثل حالة سير عمل الخطط، والملخصات حسب المبلغ والوحدة، والتنقل بنقرة واحدة إلى خطط الموازنة بحد ذاتها.
 
 [![حالة عملية تخطيط الموازنة](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

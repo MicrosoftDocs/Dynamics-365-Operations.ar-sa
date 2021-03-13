@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4b148d9ac5d032d2caa5fcea0398a5a3726f0e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421185"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017858"
 ---
 # <a name="manually-created-work-orders"></a>أوامر العمل التي تم إنشاؤها يدويًا
 
@@ -166,6 +165,3 @@ ms.locfileid: "4421185"
 >[!NOTE]
 >إذا كنت ترغب في إنشاء أوامر العمل تلقائيًا، يمكنك جدولة مهام خطط الصيانة، أو يمكنك إعداد "الإنشاء التلقائي" لـ [خطط الصيانة](../preventive-and-reactive-maintenance/maintenance-plans.md) أو [دورات الصيانة](../preventive-and-reactive-maintenance/maintenance-rounds.md) على أحد الأصول. يكون لأوامر العمل المنشأة من طلبات صيانة في صفحة القائمة **جدول الصيانة بكامله** أنواع مهام الصيانة المحددة في طلبات الصيانة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

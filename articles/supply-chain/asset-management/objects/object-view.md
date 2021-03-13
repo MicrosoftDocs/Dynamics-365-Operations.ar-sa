@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTree, EntAssetFunctionalLocationTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc4cd9ada9c1f64b434cd657eb5f5654c1328ef4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d0256cc86dc306c8addb37d2c8f335470b19177a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421503"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019394"
 ---
 # <a name="asset-view"></a>طريقة عرض الأصول
 
@@ -48,6 +47,3 @@ ms.locfileid: "4421503"
 إذا قمت بتحديد أصل في طريقة عرض الشجرة، فيمكنك تحديد **الطلبات النشطة** أو **أوامر العمل النشطة** لعرض طلبات الصيانة أو أوامر العمل المرتبطة بالأصل. يمكنك أيضًا تحديد **فتح** \> **موقع العمل** أو **الأصل** أو **BOM‏‎ الأصل** لفتح طريقة العرض ذات الصلة.
 
 يتوفر أيضًا خيار **مواقع عمل الأصل** الذي يمكنك تحديده في حقل **طريقة العرض** في أي بحث عن الأصول حيث يمكنك تحديد أصل. تظهر طريقة عرض الشجرة على علامة التبويب **طريقة عرض الأصول**، على سبيل المثال، حيث يمكنك [إنشاء أصل](../objects/create-an-object.md) أو إنشاء طلب صيانة أو إنشاء أمر عمل.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

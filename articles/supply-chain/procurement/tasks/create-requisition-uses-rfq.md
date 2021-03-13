@@ -1,7 +1,7 @@
 ---
 title: إنشاء طلب يستخدم طلب عرض أسعار
 description: يوضح هذا الموضوع كيفية إضافة معلومات السعر والمورّد إلى طلب شراء من عملية طلب عرض الأسعار.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqLineRelatedDocuments, EcoResCategorySingleLookup, PurchReqWorkflowDropDialog, WorkflowSubmitDialog, WorkflowStatus, WorkflowWorkItemActionDialog, WorkflowUserListLookup, PurchReqCopyRFQ, SysDataAreaSelectLookup, PurchRFQCaseTable, PurchRFQEditLines, PurchRFQReplyTable, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 205cba2325e76dae9572301e44e0e89cbcfd106e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 05ff98b5fd95fa345d344e54d9116c73434e5de5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421237"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018886"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>إنشاء طلب يستخدم طلب عرض أسعار
 
@@ -99,6 +98,3 @@ ms.locfileid: "4421237"
 8. حدد الصفحة .
 9. حدد "مكتمل".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
