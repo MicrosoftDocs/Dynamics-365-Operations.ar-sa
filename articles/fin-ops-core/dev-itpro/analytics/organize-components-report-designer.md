@@ -1,6 +1,6 @@
 ---
 title: تنظيم مكونات التقرير في مصمم التقارير
-description: بعد أن تنتهي من تصميم كتل الإنشاء والتقارير التي تم إنشاؤها، من المستحسن تنظيم هذه الكائنات لتمكين المستخدمين من تحديد موقعها بسهولة. تشرح هذه المقالة كيفية تنظيم التقارير وكتل الإنشاء والكائنات الموجودة في مصمم التقارير.
+description: يشرح هذا الموضوع كيفية تنظيم التقارير وكتل الإنشاء والكائنات الموجودة في مصمم التقارير.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685801"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092413"
 ---
 # <a name="organize-report-components-in-report-designer"></a>تنظيم مكونات التقرير في مصمم التقارير
 
@@ -148,6 +148,3 @@ ms.locfileid: "4685801"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [Financial reporting](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: محتوى "مقاييس القوى العاملة" في Power BI
-description: يصف هذا الموضوع محتوى "مقاييس القوى العاملة‬" في Power BI. فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+description: يصف هذا الموضوع محتوى "مقاييس القوى العاملة‬" في Power BI.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687341"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092781"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>محتوى "مقاييس القوى العاملة" في Power BI
 
@@ -86,6 +86,3 @@ ms.locfileid: "4687341"
 | اتجاه الموظف           | الوقت الإضافي للعمال، وعدد الأشخاص، والشركة، والمنصب                                 | الشركة، الموقع الجغرافي، اسم الموظف، يرجع إلى، مقاصة التقويم، التاريخ، المسمى الوظيفي للموظف، التوزيع الجغرافي، التوظيف، الوظيفة |
 | مشروع التوظيف الجماعي        | عدد مشاريع التوظيف الجماعي ومالك المشروع وحالة المشروع                     | الشركة، بند التوظيف الجماعي |
 | بند التوظيف الجماعي           | القسم ونوع التوظيف والمنصب                                           | التاريخ والوظيفة ومشروع التوظيف الجماعي |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

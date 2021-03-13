@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b92ef15fc9f3f6a5ebb6ba4ea4eae1a0f7488995
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1bc634a324e3cc12855a1b36b9a58a9cb38eb5d2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687782"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092859"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>إنشاء الوثائق أو التدريب حسب مسجل المهام
 
@@ -123,6 +123,3 @@ ms.locfileid: "4687782"
 [مسجل المهام](task-recorder.md)
 
 [إنشاء مواضيع تعليمات باستخدام مسجل المهام" (ارتباط خارجي)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

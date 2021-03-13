@@ -1,6 +1,6 @@
 ---
 title: محتوى "أداء المستودع" في Power BI
-description: يصف هذا الموضوع العناصر المضمنة في محتوى "أداء المستودع" في Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+description: يصف هذا الموضوع العناصر المضمنة في محتوى "أداء المستودع" في Power BI.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687391"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092806"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>محتوى "أداء المستودع" في Power BI
 
@@ -111,6 +111,3 @@ ms.locfileid: "4687391"
 | أداء الشحن        | الشحن حسب المنتج                       | CustPackingSlipOnTimeStatus           | مبكرًا‬ وفي الوقت المحدد ومتأخر (راجع الأوصاف سابقًا في هذا الجدول). |
 | أداء الشحن        | الشحن بواسطة العميل                      | CustPackingSlipOnTimeStatus           | مبكرًا‬ وفي الوقت المحدد ومتأخر (راجع الأوصاف سابقًا في هذا الجدول). |
 | أداء الشحن        | الشحن حسب الموقع/المستودع              | CustPackingSlipOnTimeStatus           | مبكرًا‬ وفي الوقت المحدد ومتأخر (راجع الأوصاف سابقًا في هذا الجدول). |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

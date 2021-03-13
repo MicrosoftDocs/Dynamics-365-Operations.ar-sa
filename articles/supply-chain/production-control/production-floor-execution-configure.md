@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
-ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
+ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664286"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077467"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>تكوين واجهة تنفيذ صالة الإنتاج‬
 
@@ -65,6 +64,12 @@ ms.locfileid: "4664286"
 
 - ميزة قفل جهاز بطاقة العمل ومحطة بطاقة العمل بحيث يمكن تنظيفهما.
 
+### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>وظيفة إدارة الأصول لواجهة التنفيذ في طابق الإنتاج
+
+تضيف هذه الميزة علامة تبويب أداره الأصول إلى واجهه تنفيذ صالة الإنتاج. يمكن للعاملين استخدام علامة التبويب هذه لتحديد أصل متصل بمورد جهاز يقع ضمن عامل التصفية المحدد لقائمه الوظائف. بالنسبة لأصل الجهاز المحدد، يمكن للعامل عرض حاله الأصل وسلامته من قيم العدادات حتى أربعه عدادات محدده. إذا كنت ترغب في استخدام هذه الميزة، قم بتشغيل الميزة التالي في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- وظيفة إدارة الأصول لواجهة التنفيذ في طابق الإنتاج
+
 ## <a name="work-with-production-floor-execution-configurations"></a>العمل باستخدام تكوينات تنفيذ صالة الإنتاج‬
 
 لإنشاء تكوينات الأجهزة والحفاظ عليها، انتقل إلى **التحكم بالإنتاج \> الإعداد \> تنفيذ التصنيع \> تكوين تنفيذ صالة الإنتاج**. تعرض الصفحة **تكوين تنفيذ صالة الإنتاج** قائمة بالتكوينات الموجودة. في هذه الصفحة، يمكنك أيضًا القيام بالإجراءات التالية:
@@ -94,6 +99,3 @@ ms.locfileid: "4664286"
 1. في جزء الإجراء، حدد **تنظيف تكوينات العميل**.
 1. في حوار **تنظيف تكوينات العميل**، قم بتعيين الحقل **عدد الأيام** على عدد أيام عدد النشاط (قبل اليوم) لوضعه في حالات الاعتبار. ستقوم بإزالة كافة التكوينات وسجلات تسجيل الدخول الخاصة بالأجهزة التي لم يتم تنشيطها أثناء ذلك الوقت.
 1. حدد **موافق** لتنظيف التكوينات ذات الصلة، استنادًا إلى الإعداد **عدد الأيام**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

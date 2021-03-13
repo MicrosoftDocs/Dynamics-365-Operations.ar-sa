@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681342"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092215"
 ---
-# <a name="new-document-user-interface-in-business-document-management"></a>واجهة مستخدم مستند جديد في إدارة مستندات الأعمال
+# <a name="new-document-user-interface-in-business-document-management"></a>واجهة مستخدم مستندات جديدة في إدارة مستندات الأعمال
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,3 @@ ms.locfileid: "4681342"
 يُستخدم زر **مستند جديد** لإنشاء قالب في تكوين تنسيق إعداد التقارير الإلكترونية الذي يوفره موفر آخر وتحريره. في هذا المثال، الموفر هو Microsoft. عند تحديد **مستند جديد**، يمكنك عرض جميع القوالب المملوكة للموفرين الحاليين والآخرين. بعد تحديد القالب، يتم فتحه للتحرير. يتم بعد ذلك تخزين القالب الذي تم تحريره في تكوين تنسيق تقارير إلكترونية جديد يتم إنشاؤه بشكل تلقائي.
 
 لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة مستندات الأعمال](er-business-document-management.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

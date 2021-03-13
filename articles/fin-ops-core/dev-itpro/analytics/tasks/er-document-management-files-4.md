@@ -1,6 +1,6 @@
 ---
 title: تستخدم التقارير الإلكترونية ملفات إدارة المستندات في مخرجات التنسيق‬ (الجزء 4 - تشغيل التنسيق)
-description: تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية لاستخدام ملفات إدارة المستندات في مخرجات التقارير الإلكترونية.
+description: يوضح هذا الموضوع كيفيه تكوين تنسيق التقارير الكترونيه لاستخدام ملفات أداره المستندات في إخراج ER. (جزء 4)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e09d79389dc2c883c429cfee3164632e0cdc0f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d437b31b8a55f345ebc3567bc8c6a2c5ecfd2eec
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681771"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092506"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>تستخدم التقارير الإلكترونية ملفات إدارة المستندات في مخرجات التنسيق‬ (الجزء 4 - تشغيل التنسيق)
 
@@ -69,6 +69,3 @@ ms.locfileid: "4681771"
 11. انقر فوق موافق.
     * اعمل على مراجعة المخرجات المنشأة. لاحظ أنه قد تم إنشاء عقده XML واحدة لكل مرفق. تتم تعبئة محتوى المرفقات في مخرجات XML بالتنسيق النصي MIME (base64).  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

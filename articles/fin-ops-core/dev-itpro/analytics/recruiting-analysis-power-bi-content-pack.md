@@ -1,6 +1,6 @@
 ---
 title: محتوى "التوظيف" في Power BI
-description: يصف هذا الموضوع محتوى "التوظيف" في Power BI.  فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+description: 'يصف هذا الموضوع محتوى "التوظيف" في Power BI. '
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 237af011229e3d84f54bc601753dc621f8335d2f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680552"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092731"
 ---
 # <a name="recruiting-power-bi-content"></a>محتوى "التوظيف" في Power BI
 
@@ -64,6 +64,3 @@ ms.locfileid: "4680552"
 | الأداء          | التقييم والوصف ونموذج التقييم                            | مقدم الطلب، مقدم الطلب الموظف، مقدم الطلب المفصول |
 | مشروع التوظيف  | وصف المشروع، وحالة المشروع، وفرص العمل الشاغرة                | مقدم الطلب، مقدم الطلب الموظف، مقدم الطلب المفصول |
 | مقدم الطلب المفصول | مقدمو الطلبات المفصولون، والسبب، والأداء، وتاريخ الفصل | الشركة، مقاصة التقويم‬، التاريخ، الموقع الجغرافي، الأداء، التوزيع الجغرافي، التوظيف، الوسائط، مشروع التوظيف، اسم مقدم الطلب |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

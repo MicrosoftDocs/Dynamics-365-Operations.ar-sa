@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e911f7ca3b67acd9d5a1b170d8c99135da730847
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421483"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022355"
 ---
 # <a name="asset-fault-analysis"></a>تحليل أخطأ الأصول
 
@@ -109,6 +108,3 @@ ms.locfileid: "4421483"
 >[!NOTE]
 >للحصول على نظرة عامة على كافة تسجيلات الأخطاء التي تم إنشاؤها على أوامر العمل وطلبات الصيانة، انقر فوق **إدارة الأصول** > **استعلامات** > **خطأ الأصل** > **أخطاء الأصول**. في صفحة **أخطاء‏‎ الأصول**، حدد تسجيل خطأ الأصل، وقم بتوسيع الجزء **معلومات ذات صلة** لعرض المعلومات المتعلقة بأمر العمل أو طلب الصيانة ذي الصلة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

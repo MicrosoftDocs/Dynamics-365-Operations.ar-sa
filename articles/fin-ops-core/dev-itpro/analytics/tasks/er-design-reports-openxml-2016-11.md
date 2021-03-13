@@ -1,6 +1,6 @@
 ---
 title: التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML (نوفمبر 2016)
-description: يشرح هذا الموضوع كيف يمكن لمستخدم يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء تكوين تقارير إلكترونية جديد يحتوي على قالب لإنشاء المستندات الإلكترونية بتنسيق OPENXML.
+description: يصف هذا الموضوع كيفيه إنشاء تكوين اعداد التقارير الكترونيه الجديد الذي يحتوي علي قالب لإنشاء مستندات إلكترونيه بتنسيق OPENXML.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/12/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b832961061d05e3f1ae046f820bc7a37baaf90c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681891"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092656"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML (نوفمبر 2016)
 
@@ -150,6 +150,3 @@ ms.locfileid: "4681891"
 17. في الحقل **حساب بنكي**، اكتب `GBSI OPER`.
 18. حدد **موافق**، ثم حدد **موافق** من جديد. قم بمراجعة ورقة العمل التي تم إنشاؤها، بما في ذلك تفاصيل بنود الدفع بالإضافة إلى الإجماليات لكل كود عملة مستخدم في رسالة الدفع هذه.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

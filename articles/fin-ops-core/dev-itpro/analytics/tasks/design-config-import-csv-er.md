@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fbae4570448a6bb1309ffe0092ff9b07825d717
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682035"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092756"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات من ملفات CSV خارجية
 
@@ -124,6 +124,3 @@ ms.locfileid: "4682035"
     * راجع المخرجات بتنسيق XML التي تمثل البيانات التي تم استيرادها من الملف المحدد ونقلها إلى نموذج البيانات. لاحظ أنه قد تمت معالجة كافة الأسطر 7 لملف CSV الذي تم استيراده. تم تخطي السطر 1 لعناوين الحقول الحاوية، وتم تحليل 4 حركات بشكل صحيح، وتم التعرف على حركتين 2 على أنهما غير صالحتين.
 3. قم بإغلاق الصفحة.
 4. قم بإغلاق الصفحة.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

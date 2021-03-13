@@ -10,23 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e805b9379c73f7b7eb2820662fad70e28181ebf
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421439"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5043383"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>توسيع كيانات بيانات المخزون الفعلي
 
 [!include [banner](../includes/banner.md)]
 
-يوفر Microsoft Dynamics 365 Supply Chain Management ميزات [قابلية التوسعة](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) التي تسمح لك [بإضافة حقول إلى الجداول عبر الملحق](../../fin-ops-core/dev-itpro/extensibility/add-field-extension). يقدم هذا الموضوع مثالاً يوضح كيفية إضافة حقول موسعة إلى طرق العرض `INVENTORSITEONHANDENTITY` و`INVENTWAREHOUSEONHANDENTITY`، بحيث يمكن لقدرات كيانات بيانات المخزون الفعلي العمل مع الملحقات. للحصول على مزيد من المعلومات حول كيانات البيانات، راجع [نظرة عامة حول إدارة البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+يوفر Microsoft Dynamics 365 Supply Chain Management ميزات [قابلية التوسعة](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) التي تسمح لك [بإضافة حقول إلى الجداول عبر الملحق](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). يقدم هذا الموضوع مثالاً يوضح كيفية إضافة حقول موسعة إلى طرق العرض `INVENTORSITEONHANDENTITY` و`INVENTWAREHOUSEONHANDENTITY`، بحيث يمكن لقدرات كيانات بيانات المخزون الفعلي العمل مع الملحقات. للحصول على مزيد من المعلومات حول كيانات البيانات، راجع [نظرة عامة حول إدارة البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > فيما يلي قائمة ببعض كيانات بيانات المخزون الفعلي:
@@ -69,6 +68,3 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 بعد إكمال هذه الخطوات، يمكنك توسيع كيانات بيانات المخزون الفعلي حسب الموقع والمخزون الفعلي حسب المستودع عن طريق إضافة الحقول الجديدة. وبهذه الطريقة، تتأكد من أن أنه يتم التعرف على الحقول الموسعة ويتم تضمينها أثناء ترحيل البيانات التي تستخدم كيانات البيانات هذه.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

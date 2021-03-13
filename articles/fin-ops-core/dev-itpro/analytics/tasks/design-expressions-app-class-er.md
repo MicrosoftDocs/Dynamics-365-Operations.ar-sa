@@ -1,6 +1,6 @@
 ---
 title: تصميم تعبيرات التقارير الإلكترونية لاستدعاء أساليب فئات التطبيقات
-description: يوفر هذا الدليل معلومات حول كيفية إعادة استخدام منطق التطبيق الموجود في تكوينات التقارير الإلكترونية عن طريق استدعاء أساليب فئات التطبيقات المطلوبة في تعبيرات التقارير الإلكترونية.
+description: يصف هذا الموضوع كيفية إعادة استخدام منطق التطبيق الموجود في تكوينات التقارير الإلكترونية عن طريق استدعاء أساليب فئات التطبيقات المطلوبة في تعبيرات التقارير الإلكترونية.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682011"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092075"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>تصميم تعبيرات التقارير الإلكترونية لاستدعاء أساليب فئات التطبيقات
 
@@ -157,6 +157,3 @@ ms.locfileid: "4682011"
 2. انقر فوق "موافق".
     * راجع المخرجات بتنسيق XML التي تمثل البيانات التي تم استيرادها من الملف المحدد ونقلها إلى نموذج البيانات. لاحظ أنه قد تمت معالجة 3 أسطر فقط من ملف TXT الذي تم استيراده. تم تخطي رمز IBAN غير الصالح على السطر 4 وتم توفير رسالة خطأ في سجل المعلومات.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

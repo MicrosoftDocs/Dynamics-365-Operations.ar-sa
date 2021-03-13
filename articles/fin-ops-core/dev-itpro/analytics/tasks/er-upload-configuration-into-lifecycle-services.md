@@ -1,6 +1,6 @@
 ---
 title: تحميل تكوين إلى Lifecycle Services
-description: يشرح هذا الموضوع كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء إصدار جديد من تكوين التقارير الإلكترونية وتحميله إلى Microsoft Dynamics Lifecycle Services (LCS).
+description: يوضح هذا الموضوع كيفية إنشاء تكوين التقارير الإلكترونية الجديد وتحميله إلى Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684153"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092531"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>تحميل تكوين إلى Lifecycle Services
 
@@ -145,6 +145,3 @@ ms.locfileid: "4684153"
     يجب أن يكون تكوين التقارير الإلكترونية الذي قمت بتحميله مدرجًا.
 
     لاحظ أنه يمكن استيراد تكوين LCS الذي تم تحميله إلى مثيل آخر إذا كان باستطاعة الموفرين الوصول إلى مشروع LCS هذا.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

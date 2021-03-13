@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594938"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053403"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>تمكين أوضاع تسليم الانتقاء المتعددة لأوامر العملاء
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 في Microsoft Dynamics 365 Commerce الإصدار 10.0.16 والإصدارات الأحدث، يمكن للمؤسسات تحديد أوضاع متعددة للتسليم يمكن للمتسوقين أو شركاء المبيعات الاختيار من بينها عند إنشاء أمر سيتم التقاطه من المتجر. وبهذه الطريقة، يمكن للمؤسسات توفير خيارات التقاط متعددة للمتسوقين. على سبيل المثال، يقدم العديد من بائعي التجزئة الآن للمتسوقين خيار الالتقاط من المتجر أو الالتقاط على الطريق لأوامرهم. يدعم Commerce تكوين أوضاع الالتقاط المختلفة لطرق التسليم. ويمكن للمستخدمين بعد ذلك الاستفادة منها عند إنشاء أوامر العملاء في أي قناة مدعومة لـ Commerce (التجارة الإلكترونية، أو مركز الاتصال، أو المتجر).
 
@@ -86,6 +85,3 @@ ms.locfileid: "4594938"
 ## <a name="considerations-for-distributed-order-management"></a>اعتبارات لإدارة الأوامر الموزعة
 
 تتجاهل ميزات [إدارة الطلبات الموزعة (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) في Commerce أي بنود مبيعات تم تمييزها لالتقاطها من المتجر. تم تحديث هذه الميزات للتأكد من أن بنود المبيعات المرتبطة بأوضاع تسليم الانتقاء المكونة تتجاوز منطق إدارة الطلبات الموزعة ولن تتم إعادة تخصيصها إلى مستودع تنفيذ جديد.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
