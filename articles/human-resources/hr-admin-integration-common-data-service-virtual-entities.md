@@ -1,9 +1,9 @@
 ---
-title: تكوين كيانات Common Data Service الظاهرية
-description: يوضح هذا الموضوع كيفيه تكوين الكيانات الظاهرية لـ Dynamics 365 Human Resources. إنشاء كيانات ظاهريه موجودة وتحديثها، وتحليل الكيانات التي تم إنشاؤها والمتاحة.
+title: تكوين جداول Dataverse الظاهرية
+description: يوضح هذا الموضوع كيفيه تكوين الجداول الظاهرية لـ Dynamics 365 Human Resources. قم إنشاء جداول ظاهريه موجودة وتحديثها، وتحليل الجداول التي تم إنشاؤها والمتاحة.
 author: andreabichsel
 manager: tfehr
-ms.date: 11/02/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,201 +18,206 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: cd299b51e38cc30c3e18f3ef9de1f43fa817b840
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645591"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111383"
 ---
-# <a name="configure-common-data-service-virtual-entities"></a><span data-ttu-id="935ee-104">تكوين كيانات Common Data Service الظاهرية</span><span class="sxs-lookup"><span data-stu-id="935ee-104">Configure Common Data Service virtual entities</span></span>
+# <a name="configure-dataverse-virtual-tables"></a><span data-ttu-id="7ab3f-104">تكوين جداول Dataverse الظاهرية</span><span class="sxs-lookup"><span data-stu-id="7ab3f-104">Configure Dataverse virtual tables</span></span>
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="935ee-105">Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="935ee-105">Dynamics 365 Human Resources is a virtual data source in Common Data Service.</span></span> <span data-ttu-id="935ee-106">وهو يوفر عمليات إنشاء وقراءه وتحديث وحذف (CRUD) كامله من Common Data Service وMicrosoft Power Platform</span><span class="sxs-lookup"><span data-stu-id="935ee-106">It provides full create, read, update, and delete (CRUD) operations from Common Data Service and Microsoft Power Platform.</span></span> <span data-ttu-id="935ee-107">لم يتم تخزين البيانات الخاصة بالكيانات الظاهرية في Common Data Service، ولكن في قاعده بيانات التطبيق.</span><span class="sxs-lookup"><span data-stu-id="935ee-107">The data for virtual entities isn't stored in Common Data Service, but in the application database.</span></span> 
+<span data-ttu-id="7ab3f-105">Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsoft Dataverse.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-105">Dynamics 365 Human Resources is a virtual data source in Microsoft Dataverse.</span></span> <span data-ttu-id="7ab3f-106">وهو يوفر عمليات إنشاء وقراءه وتحديث وحذف (CRUD) كامله من Dataverse وMicrosoft Power Platform</span><span class="sxs-lookup"><span data-stu-id="7ab3f-106">It provides full create, read, update, and delete (CRUD) operations from Dataverse and Microsoft Power Platform.</span></span> <span data-ttu-id="7ab3f-107">لا يتم تخزين البيانات الخاصة بالجداول الظاهرية في Dataverse، ولكن في قاعدة بيانات التطبيق.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-107">The data for virtual tables isn't stored in Dataverse, but in the application database.</span></span>
 
-<span data-ttu-id="935ee-108">لتمكين عمليات CRUD علي كيانات الموارد البشرية من Common Data Service، يجب توفير الكيانات ككيانات ظاهريه في Common Data Service</span><span class="sxs-lookup"><span data-stu-id="935ee-108">To enable CRUD operations on Human Resources entities from Common Data Service, you must make the entities available as virtual entities in Common Data Service.</span></span> <span data-ttu-id="935ee-109">يتيح هذا امكانيه اجراء عمليات CRUD من Common Data Service وMicrosoft Power Platform علي البيانات الموجودة في الموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="935ee-109">This lets you perform CRUD operations from Common Data Service and Microsoft Power Platform on data that's in Human Resources.</span></span> <span data-ttu-id="935ee-110">تدعم العمليات أيضا عمليات التحقق الكاملة من منطق العمل للموارد البشرية لضمان تكامل البيانات عند كتابه البيانات إلى الكيانات.</span><span class="sxs-lookup"><span data-stu-id="935ee-110">The operations also support the full business logic validations of Human Resources to ensure data integrity when writing data to the entities.</span></span>
-
-## <a name="available-virtual-entities-for-human-resources"></a><span data-ttu-id="935ee-111">الكيانات الظاهرية المتاحة للموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="935ee-111">Available virtual entities for Human Resources</span></span>
-
-<span data-ttu-id="935ee-112">تتوفر كافة كيانات بروتوكول البيانات المفتوحة (OData) في الموارد البشرية ككيانات ظاهريه في Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="935ee-112">All Open Data Protocol (OData) entities in Human Resources are available as virtual entities in Common Data Service.</span></span> <span data-ttu-id="935ee-113">وهي متوفرة أيضا في Power Platform.</span><span class="sxs-lookup"><span data-stu-id="935ee-113">They're also available in Power Platform.</span></span> <span data-ttu-id="935ee-114">يمكنك الآن إنشاء التطبيقات والخبرة بالبيانات مباشره من الموارد البشرية التي لها قدره CRUD كامله، دون نسخ البيانات أو مزامنتها إلى Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="935ee-114">You can now build apps and experiences with data directly from Human Resources with full CRUD capability, without copying or synchronizing data to Common Data Service.</span></span> <span data-ttu-id="935ee-115">يمكنك استخدام مداخل Power Apps لإنشاء مواقع ويب خارجيه تمكن سيناريوهات التعاون للعمليات التجارية في الموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="935ee-115">You can use Power Apps portals to build external-facing websites that enable collaboration scenarios for business processes in Human Resources.</span></span>
-
-<span data-ttu-id="935ee-116">يمكنك عرض قائمه بالكيانات الظاهرية الممكنة في البيئة، وبدء العمل مع الكيانات في [Power Apps](https://make.powerapps.com) في حل **كيانات HR الظاهرية لـ Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="935ee-116">You can view the list of virtual entities enabled in the environment, and begin working with the entities in [Power Apps](https://make.powerapps.com), in the **Dynamics 365 HR Virtual Entities** solution.</span></span>
-
-![كيانات HR الظاهرية لـ Dynamics 365 في Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
-
-## <a name="virtual-entities-versus-natural-entities"></a><span data-ttu-id="935ee-118">الكيانات الظاهرية مقابل الكيانات الطبيعية</span><span class="sxs-lookup"><span data-stu-id="935ee-118">Virtual entities versus natural entities</span></span>
-
-<span data-ttu-id="935ee-119">لا تكون الكيانات الظاهرية للموارد البشرية متماثلة مع كيانات Common Data Service الطبيعية التي تم إنشاؤها للموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="935ee-119">Virtual entities for Human Resources aren't the same as the natural Common Data Service entities created for Human Resources.</span></span> <span data-ttu-id="935ee-120">يتم إنشاء الكيانات الطبيعية للموارد البشرية بشكل منفصل وصيانتها في الحل الشائع لـ HCM في Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="935ee-120">The natural entities for Human Resources are generated separately and maintained in the HCM Common solution in Common Data Service.</span></span> <span data-ttu-id="935ee-121">باستخدام الكيانات الطبيعية، يتم تخزين البيانات في Common Data Service وتتطلب مزامنة مع قاعده بيانات التطبيق الخاصة بالموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="935ee-121">With natural entities, the data is stored in Common Data Service and requires synchronization with the Human Resources application database.</span></span>
+<span data-ttu-id="7ab3f-108">لتمكين عمليات CRUD على كيانات الموارد البشرية من Dataverse، يجب توفير الكيانات كجداول ظاهرية في Dataverse</span><span class="sxs-lookup"><span data-stu-id="7ab3f-108">To enable CRUD operations on Human Resources entities from Dataverse, you must make the entities available as virtual tables in Dataverse.</span></span> <span data-ttu-id="7ab3f-109">يتيح هذا امكانيه اجراء عمليات CRUD من Dataverse وMicrosoft Power Platform علي البيانات الموجودة في الموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-109">This lets you perform CRUD operations from Dataverse and Microsoft Power Platform on data that's in Human Resources.</span></span> <span data-ttu-id="7ab3f-110">تدعم العمليات أيضا عمليات التحقق الكاملة من منطق العمل للموارد البشرية لضمان تكامل البيانات عند كتابه البيانات إلى الكيانات.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-110">The operations also support the full business logic validations of Human Resources to ensure data integrity when writing data to the entities.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="935ee-122">للحصول علي قائمه بكيانات Common Data Service الطبيعية للموارد البشرية، راجع [كيانات Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span><span class="sxs-lookup"><span data-stu-id="935ee-122">For a list of the natural Common Data Service entities for Human Resources, see [Common Data Service entities](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span></span>
+> <span data-ttu-id="7ab3f-111">تتوافق كيانات Human Resources مع جداول Dataverse.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-111">Human Resources entities correspond to Dataverse tables.</span></span> <span data-ttu-id="7ab3f-112">لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)</span><span class="sxs-lookup"><span data-stu-id="7ab3f-112">For more information about Dataverse (formerly Common Data Service) and terminology updates, see [What is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)</span></span>
 
-## <a name="setup"></a><span data-ttu-id="935ee-123">الإعداد</span><span class="sxs-lookup"><span data-stu-id="935ee-123">Setup</span></span>
+## <a name="available-virtual-tables-for-human-resources"></a><span data-ttu-id="7ab3f-113">الجداول الظاهرية المتاحة للموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="7ab3f-113">Available virtual tables for Human Resources</span></span>
 
-<span data-ttu-id="935ee-124">اتبع خطوات الاعداد هذه لتمكين الكيانات الظاهرية في البيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="935ee-124">Follow these setup steps to enable virtual entities in your environment.</span></span>
+<span data-ttu-id="7ab3f-114">تتوفر كافة كيانات بروتوكول البيانات المفتوحة (OData) في الموارد البشرية كجداول ظاهرية في Dataverse.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-114">All Open Data Protocol (OData) entities in Human Resources are available as virtual tables in Dataverse.</span></span> <span data-ttu-id="7ab3f-115">وهي متوفرة أيضا في Power Platform.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-115">They're also available in Power Platform.</span></span> <span data-ttu-id="7ab3f-116">يمكنك الآن إنشاء التطبيقات والخبرة بالبيانات مباشره من الموارد البشرية التي لها قدره CRUD كامله، دون نسخ البيانات أو مزامنتها إلى Dataverse.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-116">You can now build apps and experiences with data directly from Human Resources with full CRUD capability, without copying or synchronizing data to Dataverse.</span></span> <span data-ttu-id="7ab3f-117">يمكنك استخدام مداخل Power Apps لإنشاء مواقع ويب خارجيه تمكن سيناريوهات التعاون للعمليات التجارية في الموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-117">You can use Power Apps portals to build external-facing websites that enable collaboration scenarios for business processes in Human Resources.</span></span>
 
-### <a name="enable-virtual-entities-in-human-resources"></a><span data-ttu-id="935ee-125">تمكين الكيانات الظاهرية في Human Resources</span><span class="sxs-lookup"><span data-stu-id="935ee-125">Enable virtual entities in Human Resources</span></span>
+<span data-ttu-id="7ab3f-118">يمكنك عرض قائمة بالجداول الظاهرية الممكنة في البيئة، وبدء العمل مع الجداول في [Power Apps](https://make.powerapps.com) في حل **جداول HR الظاهرية لـ Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-118">You can view the list of virtual tables enabled in the environment, and begin working with the tables in [Power Apps](https://make.powerapps.com), in the **Dynamics 365 HR Virtual Tables** solution.</span></span>
 
-<span data-ttu-id="935ee-126">أولاً، يجب عليك تمكين الكيانات الظاهرية في مساحة عمل **إدارة الميزات**.</span><span class="sxs-lookup"><span data-stu-id="935ee-126">First, you must enable virtual entities in the **Feature management** workspace.</span></span>
+![جداول HR الظاهرية لـ Dynamics 365 في Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
-1. <span data-ttu-id="935ee-127">في Human Resources، حدد **إدارة النظام**.</span><span class="sxs-lookup"><span data-stu-id="935ee-127">In Human Resources, select **System administration**.</span></span>
+## <a name="virtual-tables-versus-native-tables"></a><span data-ttu-id="7ab3f-120">الجداول الظاهرية مقابل الجداول الأصلية</span><span class="sxs-lookup"><span data-stu-id="7ab3f-120">Virtual tables versus native tables</span></span>
 
-2. <span data-ttu-id="935ee-128">حدد الإطار المتجانب **إدارة الميزات**.</span><span class="sxs-lookup"><span data-stu-id="935ee-128">Select the **Feature management** tile.</span></span>
+<span data-ttu-id="7ab3f-121">لا تكون الجداول الظاهرية للموارد البشرية متماثلة مع جداول Dataverse الأصلية التي تم إنشاؤها للموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-121">Virtual tables for Human Resources aren't the same as the native Dataverse tables created for Human Resources.</span></span> 
 
-3. <span data-ttu-id="935ee-129">حدد **دعم الكيان الظاهري في HR/CDS**، ثم حدد **تمكين**.</span><span class="sxs-lookup"><span data-stu-id="935ee-129">Select **Virtual Entity support in HR/CDS**, and then select **Enable**.</span></span>
+<span data-ttu-id="7ab3f-122">يتم إنشاء الجداول الأصلية للموارد البشرية بشكل منفصل وصيانتها في الحل الشائع HCM في Dataverse.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-122">The native tables for Human Resources are generated separately and maintained in the HCM Common solution in Dataverse.</span></span> <span data-ttu-id="7ab3f-123">باستخدام الجداول الأصلية، يتم تخزين البيانات في Dataverse وتتطلب مزامنة مع قاعدة بيانات التطبيق الخاصة بالموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-123">With native tables, the data is stored in Dataverse and requires synchronization with the Human Resources application database.</span></span>
 
-<span data-ttu-id="935ee-130">لمزيد من المعلومات حول تمكين الميزات وتعطيلها، راجع [إدارة الميزات](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="935ee-130">For more information about enabling and disabling features, see [Manage features](hr-admin-manage-features.md).</span></span>
+> [!NOTE]
+> <span data-ttu-id="7ab3f-124">للحصول على قائمة بجداول Dataverse الأصلية للموارد البشرية، راجع [جداول Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-124">For a list of the native Dataverse tables for Human Resources, see [Dataverse tables](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span></span>
 
-### <a name="register-the-app-in-microsoft-azure"></a><span data-ttu-id="935ee-131">قم بتسجيل التطبيق في Microsoft Azure</span><span class="sxs-lookup"><span data-stu-id="935ee-131">Register the app in Microsoft Azure</span></span>
+## <a name="setup"></a><span data-ttu-id="7ab3f-125">الإعداد</span><span class="sxs-lookup"><span data-stu-id="7ab3f-125">Setup</span></span>
 
-<span data-ttu-id="935ee-132">يجب عليك تسجيل مثيل Human Resources الخاص بك في مدخل Azure حتى يتمكن النظام الأساسي لهويه Microsoft من توفير خدمات المصادقة والتخويل للتطبيق والمستخدمين.</span><span class="sxs-lookup"><span data-stu-id="935ee-132">You must register your Human Resources instance in the Azure portal so the Microsoft identity platform can provide authentication and authorization services for the app and users.</span></span> <span data-ttu-id="935ee-133">لمزيد من المعلومات حول تسجيل التطبيقات في Azure، راجع [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهويه Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).</span><span class="sxs-lookup"><span data-stu-id="935ee-133">For more information about registering apps in Azure, see [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).</span></span>
+<span data-ttu-id="7ab3f-126">اتبع خطوات الإعداد هذه لتمكين الجداول الظاهرية في البيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-126">Follow these setup steps to enable virtual tables in your environment.</span></span>
 
-1. <span data-ttu-id="935ee-134">افتح [مدخل Microsoft Azure](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="935ee-134">Open the [Microsoft Azure portal](https://portal.azure.com).</span></span>
+### <a name="enable-virtual-tables-in-human-resources"></a><span data-ttu-id="7ab3f-127">تمكين الجداول الظاهرية في الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="7ab3f-127">Enable virtual tables in Human Resources</span></span>
 
-2. <span data-ttu-id="935ee-135">في قائمة خدمات Azure، حدد **عمليات تسجيل التطبيق**.</span><span class="sxs-lookup"><span data-stu-id="935ee-135">In the Azure services list, select **App registrations**.</span></span>
+<span data-ttu-id="7ab3f-128">أولاً، يجب عليك تمكين الجداول الظاهرية في مساحة عمل **إدارة الميزات**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-128">First, you must enable virtual tables in the **Feature management** workspace.</span></span>
 
-3. <span data-ttu-id="935ee-136">حدد **تسجيل جديد**.</span><span class="sxs-lookup"><span data-stu-id="935ee-136">Select **New registration**.</span></span>
+1. <span data-ttu-id="7ab3f-129">في Human Resources، حدد **إدارة النظام**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-129">In Human Resources, select **System administration**.</span></span>
 
-4. <span data-ttu-id="935ee-137">في حقل **الاسم**، أدخل اسمًا وصفيًا للتطبيق.</span><span class="sxs-lookup"><span data-stu-id="935ee-137">In the **Name** field, enter a descriptive name for the app.</span></span> <span data-ttu-id="935ee-138">علي سبيل المثال، **كيانات Dynamics 365 Human Resources الظاهرية**.</span><span class="sxs-lookup"><span data-stu-id="935ee-138">For example, **Dynamics 365 Human Resources Virtual Entities**.</span></span>
+2. <span data-ttu-id="7ab3f-130">حدد الإطار المتجانب **إدارة الميزات**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-130">Select the **Feature management** tile.</span></span>
 
-5. <span data-ttu-id="935ee-139">في الحقل **أعاده توجيه URI**، ادخل URL الخاص بمساحة الاسم لمثيل الموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="935ee-139">In the **Redirect URI** field, enter the namespace URL of your instance of Human Resources.</span></span>
+3. <span data-ttu-id="7ab3f-131">حدد **دعم الجدول الظاهري للموارد البشرية في Dataverse**، ثم حدد **تمكين**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-131">Select **Virtual table support for HR in Dataverse**, and then select **Enable**.</span></span>
 
-6. <span data-ttu-id="935ee-140">حدد **السجل**.</span><span class="sxs-lookup"><span data-stu-id="935ee-140">Select **Register**.</span></span>
+<span data-ttu-id="7ab3f-132">لمزيد من المعلومات حول تمكين الميزات وتعطيلها، راجع [إدارة الميزات](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-132">For more information about enabling and disabling features, see [Manage features](hr-admin-manage-features.md).</span></span>
 
-7. <span data-ttu-id="935ee-141">عند اكتمال التسجيل، يعرض مدخل Azure جزء **النظرة العامة** لتسجيل التطبيق الذي يتضمن **معرف التطبيق (العميل)**.</span><span class="sxs-lookup"><span data-stu-id="935ee-141">When registration completes, the Azure portal displays the app registration's **Overview** pane, which includes its **Application (client) ID**.</span></span> <span data-ttu-id="935ee-142">سجل **معرف التطبيق (العميل)** في هذا الوقت.</span><span class="sxs-lookup"><span data-stu-id="935ee-142">Take note of the **Application (client) ID** at this time.</span></span> <span data-ttu-id="935ee-143">ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الوحدة الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).</span><span class="sxs-lookup"><span data-stu-id="935ee-143">You'll enter this information when you [Configure the virtual entity data source](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).</span></span>
+### <a name="register-the-app-in-microsoft-azure"></a><span data-ttu-id="7ab3f-133">قم بتسجيل التطبيق في Microsoft Azure</span><span class="sxs-lookup"><span data-stu-id="7ab3f-133">Register the app in Microsoft Azure</span></span>
 
-8. <span data-ttu-id="935ee-144">في جزء التنقل الأيمن، حدد **الشهادات والاسرار**.</span><span class="sxs-lookup"><span data-stu-id="935ee-144">In the left navigation pane, select **Certificates and secrets**.</span></span>
+<span data-ttu-id="7ab3f-134">يجب عليك تسجيل مثيل Human Resources الخاص بك في مدخل Azure حتى يتمكن النظام الأساسي لهويه Microsoft من توفير خدمات المصادقة والتخويل للتطبيق والمستخدمين.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-134">You must register your Human Resources instance in the Azure portal so the Microsoft identity platform can provide authentication and authorization services for the app and users.</span></span> <span data-ttu-id="7ab3f-135">لمزيد من المعلومات حول تسجيل التطبيقات في Azure، راجع [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهويه Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-135">For more information about registering apps in Azure, see [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).</span></span>
 
-9. <span data-ttu-id="935ee-145">في القسم **أسرار العميل** في الصفحة، حدد **سر عميل جديد**.</span><span class="sxs-lookup"><span data-stu-id="935ee-145">In the **Client secrets** section of the page, select **New client secret**.</span></span>
+1. <span data-ttu-id="7ab3f-136">افتح [مدخل Microsoft Azure](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-136">Open the [Microsoft Azure portal](https://portal.azure.com).</span></span>
 
-10. <span data-ttu-id="935ee-146">قم بتوفير وصف، وحدد مده، وحدد **أضافه**.</span><span class="sxs-lookup"><span data-stu-id="935ee-146">Provide a description, select a duration, and select **Add**.</span></span>
+2. <span data-ttu-id="7ab3f-137">في قائمة خدمات Azure، حدد **عمليات تسجيل التطبيق**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-137">In the Azure services list, select **App registrations**.</span></span>
 
-11. <span data-ttu-id="935ee-147">سجل قيمة السر.</span><span class="sxs-lookup"><span data-stu-id="935ee-147">Record the secret's value.</span></span> <span data-ttu-id="935ee-148">ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الوحدة الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).</span><span class="sxs-lookup"><span data-stu-id="935ee-148">You'll enter this information when you [Configure the virtual entity data source](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).</span></span>
+3. <span data-ttu-id="7ab3f-138">حدد **تسجيل جديد**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-138">Select **New registration**.</span></span>
+
+4. <span data-ttu-id="7ab3f-139">في حقل **الاسم**، أدخل اسمًا وصفيًا للتطبيق.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-139">In the **Name** field, enter a descriptive name for the app.</span></span> <span data-ttu-id="7ab3f-140">علي سبيل المثال، **جداول Dynamics 365 Human Resources الظاهرية**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-140">For example, **Dynamics 365 Human Resources Virtual Tables**.</span></span>
+
+5. <span data-ttu-id="7ab3f-141">في الحقل **أعاده توجيه URI**، ادخل URL الخاص بمساحة الاسم لمثيل الموارد البشرية.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-141">In the **Redirect URI** field, enter the namespace URL of your instance of Human Resources.</span></span>
+
+6. <span data-ttu-id="7ab3f-142">حدد **السجل**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-142">Select **Register**.</span></span>
+
+7. <span data-ttu-id="7ab3f-143">عند اكتمال التسجيل، يعرض مدخل Azure جزء **النظرة العامة** لتسجيل التطبيق الذي يتضمن **معرف التطبيق (العميل)**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-143">When registration completes, the Azure portal displays the app registration's **Overview** pane, which includes its **Application (client) ID**.</span></span> <span data-ttu-id="7ab3f-144">سجل **معرف التطبيق (العميل)** في هذا الوقت.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-144">Take note of the **Application (client) ID** at this time.</span></span> <span data-ttu-id="7ab3f-145">ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الجدول الظاهري](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-145">You'll enter this information when you [Configure the virtual table data source](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).</span></span>
+
+8. <span data-ttu-id="7ab3f-146">في جزء التنقل الأيمن، حدد **الشهادات والاسرار**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-146">In the left navigation pane, select **Certificates and secrets**.</span></span>
+
+9. <span data-ttu-id="7ab3f-147">في القسم **أسرار العميل** في الصفحة، حدد **سر عميل جديد**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-147">In the **Client secrets** section of the page, select **New client secret**.</span></span>
+
+10. <span data-ttu-id="7ab3f-148">قم بتوفير وصف، وحدد مده، وحدد **أضافه**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-148">Provide a description, select a duration, and select **Add**.</span></span>
+
+11. <span data-ttu-id="7ab3f-149">سجل قيمة السر.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-149">Record the secret's value.</span></span> <span data-ttu-id="7ab3f-150">ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الجدول الظاهري](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-150">You'll enter this information when you [Configure the virtual table data source](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="935ee-149">تاكد من مراعاه قيمه السر في هذا الوقت.</span><span class="sxs-lookup"><span data-stu-id="935ee-149">Be sure to take note of the secret's value at this time.</span></span> <span data-ttu-id="935ee-150">لا يتم عرض السر أبدا مره أخرى بعد مغادره هذه الصفحة.</span><span class="sxs-lookup"><span data-stu-id="935ee-150">The secret is never displayed again after you leave this page.</span></span>
+    > <span data-ttu-id="7ab3f-151">تاكد من مراعاه قيمه السر في هذا الوقت.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-151">Be sure to take note of the secret's value at this time.</span></span> <span data-ttu-id="7ab3f-152">لا يتم عرض السر أبدا مره أخرى بعد مغادره هذه الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-152">The secret is never displayed again after you leave this page.</span></span>
 
-### <a name="install-the-dynamics-365-hr-virtual-entity-app"></a><span data-ttu-id="935ee-151">تثبيت تطبيق Dynamics 365 HR Virtual Entity</span><span class="sxs-lookup"><span data-stu-id="935ee-151">Install the Dynamics 365 HR Virtual Entity app</span></span>
+### <a name="install-the-dynamics-365-hr-virtual-table-app"></a><span data-ttu-id="7ab3f-153">تثبيت تطبيق الجدول الظاهري Dynamics 365 HR Virtual Table</span><span class="sxs-lookup"><span data-stu-id="7ab3f-153">Install the Dynamics 365 HR Virtual Table app</span></span>
 
-<span data-ttu-id="935ee-152">قم بتثبيت تطبيق Dynamics 365 HR Virtual Entity في البيئة Power Apps الخاصة بك لنشر حزمه حلول الكيان الظاهري إلى Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="935ee-152">Install the Dynamics 365 HR Virtual Entity app in your Power Apps environment to deploy the virtual entity solution package to Common Data Service.</span></span>
+<span data-ttu-id="7ab3f-154">قم بتثبيت تطبيق الجدول الظاهري Dynamics 365 HR Virtual Table في البيئة Power Apps الخاصة بك لنشر حزمة حل الجدول الظاهري إلى Dataverse.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-154">Install the Dynamics 365 HR Virtual Table app in your Power Apps environment to deploy the virtual table solution package to Dataverse.</span></span>
 
-1. <span data-ttu-id="935ee-153">افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="935ee-153">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com).</span></span>
+1. <span data-ttu-id="7ab3f-155">افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-155">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com).</span></span>
 
-2. <span data-ttu-id="935ee-154">في قائمه **البيئات**، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="935ee-154">In the **Environments** list, select the Power Apps environment associated with your Human Resources instance.</span></span>
+2. <span data-ttu-id="7ab3f-156">في قائمه **البيئات**، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-156">In the **Environments** list, select the Power Apps environment associated with your Human Resources instance.</span></span>
 
-3. <span data-ttu-id="935ee-155">في القسم **الموارد** في الصفحة، حدد **تطبيقات Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="935ee-155">In the **Resources** section of the page, select **Dynamics 365 apps**.</span></span>
+3. <span data-ttu-id="7ab3f-157">في القسم **الموارد** في الصفحة، حدد **تطبيقات Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-157">In the **Resources** section of the page, select **Dynamics 365 apps**.</span></span>
 
-4. <span data-ttu-id="935ee-156">حدد اجراء **تثبيت التطبيق**.</span><span class="sxs-lookup"><span data-stu-id="935ee-156">Select the **Install app** action.</span></span>
+4. <span data-ttu-id="7ab3f-158">حدد اجراء **تثبيت التطبيق**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-158">Select the **Install app** action.</span></span>
 
-5. <span data-ttu-id="935ee-157">حدد **Dynamics 365 HR Virtual Entity**، ثم حدد **التالي**.</span><span class="sxs-lookup"><span data-stu-id="935ee-157">Select **Dynamics 365 HR Virtual Entity**, and select **Next**.</span></span>
+5. <span data-ttu-id="7ab3f-159">حدد **Dynamics 365 HR Virtual Table**، ثم حدد **التالي**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-159">Select **Dynamics 365 HR Virtual Table**, and select **Next**.</span></span>
 
-6. <span data-ttu-id="935ee-158">مراجعه ووضع علامة علي الموافقة علي شروط الخدمة.</span><span class="sxs-lookup"><span data-stu-id="935ee-158">Review and mark to agree to the terms of service.</span></span>
+6. <span data-ttu-id="7ab3f-160">مراجعه ووضع علامة علي الموافقة علي شروط الخدمة.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-160">Review and mark to agree to the terms of service.</span></span>
 
-7. <span data-ttu-id="935ee-159">حدد **تثبيت**.</span><span class="sxs-lookup"><span data-stu-id="935ee-159">Select **Install**.</span></span>
+7. <span data-ttu-id="7ab3f-161">حدد **تثبيت**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-161">Select **Install**.</span></span>
 
-<span data-ttu-id="935ee-160">يستغرق التثبيت بضع دقائق.</span><span class="sxs-lookup"><span data-stu-id="935ee-160">The install takes a few minutes.</span></span> <span data-ttu-id="935ee-161">وعند الانتهاء، انتقل إلى الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="935ee-161">When it completes, continue to the next steps.</span></span>
+<span data-ttu-id="7ab3f-162">يستغرق التثبيت بضع دقائق.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-162">The install takes a few minutes.</span></span> <span data-ttu-id="7ab3f-163">وعند الانتهاء، انتقل إلى الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-163">When it completes, continue to the next steps.</span></span>
 
-![تثبيت تطبيق Dynamics 365 HR Virtual Entity من مركز اداره Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
+![تثبيت تطبيق Dynamics 365 HR Virtual Table من مركز إدارة Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
 
-### <a name="configure-the-virtual-entity-data-source"></a><span data-ttu-id="935ee-163">تكوين مصدر بيانات الكيان الظاهري</span><span class="sxs-lookup"><span data-stu-id="935ee-163">Configure the virtual entity data source</span></span> 
+### <a name="configure-the-virtual-table-data-source"></a><span data-ttu-id="7ab3f-165">تكوين مصدر بيانات الجدول الظاهري</span><span class="sxs-lookup"><span data-stu-id="7ab3f-165">Configure the virtual table data source</span></span> 
 
-<span data-ttu-id="935ee-164">الخطوة التالية هي تكوين مصدر البيانات الكيان الظاهري في بيئة Power Apps.</span><span class="sxs-lookup"><span data-stu-id="935ee-164">The next step is to configure the virtual entity data source in the Power Apps environment.</span></span> 
+<span data-ttu-id="7ab3f-166">الخطوة التالية هي تكوين مصدر البيانات الجدول الظاهري في بيئة Power Apps.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-166">The next step is to configure the virtual table data source in the Power Apps environment.</span></span> 
 
-1. <span data-ttu-id="935ee-165">افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="935ee-165">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com).</span></span>
+1. <span data-ttu-id="7ab3f-167">افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-167">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com).</span></span>
 
-2. <span data-ttu-id="935ee-166">في قائمه **البيئات**، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="935ee-166">In the **Environments** list, select the Power Apps environment associated with your Human Resources instance.</span></span>
+2. <span data-ttu-id="7ab3f-168">في قائمه **البيئات**، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-168">In the **Environments** list, select the Power Apps environment associated with your Human Resources instance.</span></span>
 
-3. <span data-ttu-id="935ee-167">حدد **عنوان URL للبيئة** في قسم **التفاصيل** من الصفحة.</span><span class="sxs-lookup"><span data-stu-id="935ee-167">Select the **Environment URL** in the **Details** section of the page.</span></span>
+3. <span data-ttu-id="7ab3f-169">حدد **عنوان URL للبيئة** في قسم **التفاصيل** من الصفحة.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-169">Select the **Environment URL** in the **Details** section of the page.</span></span>
 
-4. <span data-ttu-id="935ee-168">في **مركز حماية الحل**، حدد الرمز **بحث متقدم** في الجزء العلوي الأيسر من صفحة التطبيق.</span><span class="sxs-lookup"><span data-stu-id="935ee-168">In the **Solution Health Hub**, select the **Advanced Find** icon in the top right of the application page.</span></span>
+4. <span data-ttu-id="7ab3f-170">في **مركز حماية الحل**، حدد الرمز **بحث متقدم** في الجزء العلوي الأيسر من صفحة التطبيق.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-170">In the **Solution Health Hub**, select the **Advanced Find** icon in the top right of the application page.</span></span>
 
-5. <span data-ttu-id="935ee-169">في صفحه **بحث متقدم**، وفي القائمة المنسدلة **البحث عن**، حدد **تكوينات مصدر البيانات الظاهري Finance and Operations**.</span><span class="sxs-lookup"><span data-stu-id="935ee-169">On the **Advanced Find** page, in the **Look for** dropdown list, select **Finance and Operations Virtual Data Source Configurations**.</span></span>
+5. <span data-ttu-id="7ab3f-171">في صفحه **بحث متقدم**، وفي القائمة المنسدلة **البحث عن**، حدد **تكوينات مصدر البيانات الظاهري Finance and Operations**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-171">On the **Advanced Find** page, in the **Look for** dropdown list, select **Finance and Operations Virtual Data Source Configurations**.</span></span>
 
-6. <span data-ttu-id="935ee-170">حدد **النتائج**.</span><span class="sxs-lookup"><span data-stu-id="935ee-170">Select **Results**.</span></span>
+6. <span data-ttu-id="7ab3f-172">حدد **النتائج**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-172">Select **Results**.</span></span>
 
-7. <span data-ttu-id="935ee-171">حدد سجل **مصدر بيانات الموارد البشرية من Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="935ee-171">Select the **Microsoft HR Data Source** record.</span></span>
+7. <span data-ttu-id="7ab3f-173">حدد سجل **مصدر بيانات الموارد البشرية من Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-173">Select the **Microsoft HR Data Source** record.</span></span>
 
-8. <span data-ttu-id="935ee-172">أدخل المعلومات المطلوبة لتكوين مصدر البيانات:</span><span class="sxs-lookup"><span data-stu-id="935ee-172">Enter the required information for the data source configuration:</span></span>
+8. <span data-ttu-id="7ab3f-174">أدخل المعلومات المطلوبة لتكوين مصدر البيانات:</span><span class="sxs-lookup"><span data-stu-id="7ab3f-174">Enter the required information for the data source configuration:</span></span>
 
-   - <span data-ttu-id="935ee-173">**URL الهدف**: عنوان URL لمساحة اسم الموارد البشرية الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="935ee-173">**Target URL**: The URL of your Human Resources namespace.</span></span> <span data-ttu-id="935ee-174">تنسيق عنوان URL الهدف هو:</span><span class="sxs-lookup"><span data-stu-id="935ee-174">The format of the target URL is:</span></span>
+   - <span data-ttu-id="7ab3f-175">**URL الهدف**: عنوان URL لمساحة اسم الموارد البشرية الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-175">**Target URL**: The URL of your Human Resources namespace.</span></span> <span data-ttu-id="7ab3f-176">تنسيق عنوان URL الهدف هو:</span><span class="sxs-lookup"><span data-stu-id="7ab3f-176">The format of the target URL is:</span></span>
      
-     <span data-ttu-id="935ee-175">https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/</span><span class="sxs-lookup"><span data-stu-id="935ee-175">https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/</span></span>
+     <span data-ttu-id="7ab3f-177">https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/</span><span class="sxs-lookup"><span data-stu-id="7ab3f-177">https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/</span></span>
 
-     <span data-ttu-id="935ee-176">على سبيل المثال:</span><span class="sxs-lookup"><span data-stu-id="935ee-176">For example:</span></span>
+     <span data-ttu-id="7ab3f-178">على سبيل المثال:</span><span class="sxs-lookup"><span data-stu-id="7ab3f-178">For example:</span></span>
      
      `https://aos.rts-sf-5ea54e35c68-westus2.hr.talent.dynamics.com/namespaces/49d24c565-8f4d-4891-b174-bf83d948ed0c/`
 
      >[!NOTE]
-     ><span data-ttu-id="935ee-177">تأكد من تضمين الحرف "**/**" في نهاية عنوان URL لتجنب تلقي خطأ ما.</span><span class="sxs-lookup"><span data-stu-id="935ee-177">Be sure to include the "**/**" character at the end of the URL to avoid receiving an error.</span></span>
+     ><span data-ttu-id="7ab3f-179">تأكد من تضمين الحرف "**/**" في نهاية عنوان URL لتجنب تلقي خطأ ما.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-179">Be sure to include the "**/**" character at the end of the URL to avoid receiving an error.</span></span>
 
-   - <span data-ttu-id="935ee-178">**معرف المستاجر**: معرف المستاجر في Azure Active Directory ( Azure AD).</span><span class="sxs-lookup"><span data-stu-id="935ee-178">**Tenant ID**: The Azure Active Directory (Azure AD) tenant ID.</span></span>
+   - <span data-ttu-id="7ab3f-180">**معرف المستاجر**: معرف المستاجر في Azure Active Directory ( Azure AD).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-180">**Tenant ID**: The Azure Active Directory (Azure AD) tenant ID.</span></span>
 
-   - <span data-ttu-id="935ee-179">**معرف تطبيق AAD**: معرف التطبيق (العميل) الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="935ee-179">**AAD Application ID**: The application (client) ID created for the application registered in the Microsoft Azure portal.</span></span> <span data-ttu-id="935ee-180">لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).</span><span class="sxs-lookup"><span data-stu-id="935ee-180">You received this information earlier during the step [Register the app in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).</span></span>
+   - <span data-ttu-id="7ab3f-181">**معرف تطبيق AAD**: معرف التطبيق (العميل) الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-181">**AAD Application ID**: The application (client) ID created for the application registered in the Microsoft Azure portal.</span></span> <span data-ttu-id="7ab3f-182">لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-182">You received this information earlier during the step [Register the app in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).</span></span>
 
-   - <span data-ttu-id="935ee-181">**سر تطبيق AAD**: سر التطبيق الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="935ee-181">**AAD Application Secret**: The client secret created for the application registered in the Microsoft Azure portal.</span></span> <span data-ttu-id="935ee-182">لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).</span><span class="sxs-lookup"><span data-stu-id="935ee-182">You received this information earlier during the step [Register the app in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).</span></span>
+   - <span data-ttu-id="7ab3f-183">**سر تطبيق AAD**: سر التطبيق الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-183">**AAD Application Secret**: The client secret created for the application registered in the Microsoft Azure portal.</span></span> <span data-ttu-id="7ab3f-184">لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).</span><span class="sxs-lookup"><span data-stu-id="7ab3f-184">You received this information earlier during the step [Register the app in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).</span></span>
 
    ![مصدر بيانات الموارد البشرية في Microsoft](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
-9. <span data-ttu-id="935ee-184">حدد **حفظ وإغلاق**.</span><span class="sxs-lookup"><span data-stu-id="935ee-184">Select **Save & Close**.</span></span>
+9. <span data-ttu-id="7ab3f-186">حدد **حفظ وإغلاق**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-186">Select **Save & Close**.</span></span>
 
-### <a name="grant-app-permissions-in-human-resources"></a><span data-ttu-id="935ee-185">منح أذونات التطبيق في الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="935ee-185">Grant app permissions in Human Resources</span></span>
+### <a name="grant-app-permissions-in-human-resources"></a><span data-ttu-id="7ab3f-187">منح أذونات التطبيق في الموارد البشرية</span><span class="sxs-lookup"><span data-stu-id="7ab3f-187">Grant app permissions in Human Resources</span></span>
 
-<span data-ttu-id="935ee-186">امنح أذونات لتطبيقي Azure AD في الموارد البشرية:</span><span class="sxs-lookup"><span data-stu-id="935ee-186">Grant permissions for the two Azure AD applications in Human Resources:</span></span>
+<span data-ttu-id="7ab3f-188">امنح أذونات لتطبيقي Azure AD في الموارد البشرية:</span><span class="sxs-lookup"><span data-stu-id="7ab3f-188">Grant permissions for the two Azure AD applications in Human Resources:</span></span>
 
-- <span data-ttu-id="935ee-187">التطبيق الذي تم إنشاؤه للمستاجر في مدخل Microsoft Azure</span><span class="sxs-lookup"><span data-stu-id="935ee-187">The app created for your tenant in the Microsoft Azure portal</span></span>
-- <span data-ttu-id="935ee-188">تطبيق Dynamics 365 HR Virtual Entity الذي تم تبثبيته في من بيئة Power Apps</span><span class="sxs-lookup"><span data-stu-id="935ee-188">The Dynamics 365 HR Virtual Entity app installed in the Power Apps environment</span></span> 
+- <span data-ttu-id="7ab3f-189">التطبيق الذي تم إنشاؤه للمستاجر في مدخل Microsoft Azure</span><span class="sxs-lookup"><span data-stu-id="7ab3f-189">The app created for your tenant in the Microsoft Azure portal</span></span>
+- <span data-ttu-id="7ab3f-190">تطبيق Dynamics 365 HR Virtual Table الذي تم تبثبيته في من بيئة Power Apps</span><span class="sxs-lookup"><span data-stu-id="7ab3f-190">The Dynamics 365 HR Virtual Table app installed in the Power Apps environment</span></span> 
 
-1. <span data-ttu-id="935ee-189">في الموارد البشرية، افتح صفحة **تطبيقات Azure Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="935ee-189">In Human Resources, open the **Azure Active Directory applications** page.</span></span>
+1. <span data-ttu-id="7ab3f-191">في الموارد البشرية، افتح صفحة **تطبيقات Azure Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-191">In Human Resources, open the **Azure Active Directory applications** page.</span></span>
 
-2. <span data-ttu-id="935ee-190">حدد **جديد** لإنشاء سجل تطبيق جديد:</span><span class="sxs-lookup"><span data-stu-id="935ee-190">Select **New** to create a new application record:</span></span>
+2. <span data-ttu-id="7ab3f-192">حدد **جديد** لإنشاء سجل تطبيق جديد:</span><span class="sxs-lookup"><span data-stu-id="7ab3f-192">Select **New** to create a new application record:</span></span>
 
-    - <span data-ttu-id="935ee-191">في الحقل **معرف العميل**، ادخل معرف العميل الخاص بالتطبيق الذي قمت بتسجيله في مدخل Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="935ee-191">In the **Client ID** field, enter the client ID of the app you registered in the Microsoft Azure portal.</span></span>
-    - <span data-ttu-id="935ee-192">في الحقل **معرف العميل**، ادخل معرف العميل الخاص بالتطبيق الذي قمت بتسجيله في مدخل Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="935ee-192">In the **Name** field, enter the name of the app you registered in the Microsoft Azure portal.</span></span>
-    - <span data-ttu-id="935ee-193">في الحقل **معرف المستخدم** ، حدد معرف المستخدم الخاص بمستخدم لديه أذونات المسؤول في الموارد البشرية وبيئة Power Apps.</span><span class="sxs-lookup"><span data-stu-id="935ee-193">In the **User ID** field, select the user ID of a user with admin permissions in Human Resources and the Power Apps environment.</span></span>
+    - <span data-ttu-id="7ab3f-193">في الحقل **معرف العميل**، ادخل معرف العميل الخاص بالتطبيق الذي قمت بتسجيله في مدخل Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-193">In the **Client ID** field, enter the client ID of the app you registered in the Microsoft Azure portal.</span></span>
+    - <span data-ttu-id="7ab3f-194">في الحقل **معرف العميل**، ادخل معرف العميل الخاص بالتطبيق الذي قمت بتسجيله في مدخل Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-194">In the **Name** field, enter the name of the app you registered in the Microsoft Azure portal.</span></span>
+    - <span data-ttu-id="7ab3f-195">في الحقل **معرف المستخدم** ، حدد معرف المستخدم الخاص بمستخدم لديه أذونات المسؤول في الموارد البشرية وبيئة Power Apps.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-195">In the **User ID** field, select the user ID of a user with admin permissions in Human Resources and the Power Apps environment.</span></span>
 
-3. <span data-ttu-id="935ee-194">حدد **جديد** لإنشاء سجل تطبيق ثانٍ:</span><span class="sxs-lookup"><span data-stu-id="935ee-194">Select **New** to create a second application record:</span></span>
+3. <span data-ttu-id="7ab3f-196">حدد **جديد** لإنشاء سجل تطبيق ثانٍ:</span><span class="sxs-lookup"><span data-stu-id="7ab3f-196">Select **New** to create a second application record:</span></span>
 
-    - <span data-ttu-id="935ee-195">**معرف العميل**: f9be0c49-aa22-4ec6-911a-c5da515226ff</span><span class="sxs-lookup"><span data-stu-id="935ee-195">**Client Id**: f9be0c49-aa22-4ec6-911a-c5da515226ff</span></span>
-    - <span data-ttu-id="935ee-196">**الاسم**: Dynamics 365 HR Virtual Entity</span><span class="sxs-lookup"><span data-stu-id="935ee-196">**Name**: Dynamics 365 HR Virtual Entity</span></span>
-    - <span data-ttu-id="935ee-197">في الحقل **معرف المستخدم** ، حدد معرف المستخدم الخاص بمستخدم لديه أذونات المسؤول في الموارد البشرية وبيئة Power Apps.</span><span class="sxs-lookup"><span data-stu-id="935ee-197">In the **User ID** field, select the user ID of a user with admin permissions in Human Resources and the Power Apps environment.</span></span>
+    - <span data-ttu-id="7ab3f-197">**معرف العميل**: f9be0c49-aa22-4ec6-911a-c5da515226ff</span><span class="sxs-lookup"><span data-stu-id="7ab3f-197">**Client Id**: f9be0c49-aa22-4ec6-911a-c5da515226ff</span></span>
+    - <span data-ttu-id="7ab3f-198">**الاسم**: Dynamics 365 HR Virtual Table</span><span class="sxs-lookup"><span data-stu-id="7ab3f-198">**Name**: Dynamics 365 HR Virtual Table</span></span>
+    - <span data-ttu-id="7ab3f-199">في الحقل **معرف المستخدم** ، حدد معرف المستخدم الخاص بمستخدم لديه أذونات المسؤول في الموارد البشرية وبيئة Power Apps.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-199">In the **User ID** field, select the user ID of a user with admin permissions in Human Resources and the Power Apps environment.</span></span>
 
-## <a name="generate-virtual-entities"></a><span data-ttu-id="935ee-198">إنشاء كيانات ظاهرية</span><span class="sxs-lookup"><span data-stu-id="935ee-198">Generate virtual entities</span></span>
+## <a name="generate-virtual-tables"></a><span data-ttu-id="7ab3f-200">إنشاء جداول ظاهرية</span><span class="sxs-lookup"><span data-stu-id="7ab3f-200">Generate virtual tables</span></span>
 
-<span data-ttu-id="935ee-199">عند اكتمال الاعداد، يمكنك تحديد الكيانات الظاهرية التي ترغب في إنشائها وتمكينها في مثيل Common Data Service الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="935ee-199">When setup completes, you can select the virtual entities you want to generate and enable in your Common Data Service instance.</span></span>
+<span data-ttu-id="7ab3f-201">عند اكتمال الإعداد، يمكنك تحديد الجداول الظاهرية التي ترغب في إنشائها وتمكينها في مثيل Dataverse الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-201">When setup completes, you can select the virtual tables you want to generate and enable in your Dataverse instance.</span></span>
 
-1. <span data-ttu-id="935ee-200">في Human Resources، افتح صفحة **تكامل Common Data Service (CDS)**.</span><span class="sxs-lookup"><span data-stu-id="935ee-200">In Human Resources, open the **Common Data Service (CDS) integration** page.</span></span>
+1. <span data-ttu-id="7ab3f-202">في الموارد البشرية، افتح صفحة **تكامل Dataverse**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-202">In Human Resources, open the **Dataverse integration** page.</span></span>
 
-2. <span data-ttu-id="935ee-201">حدد علامة التبويب **الكيانات الظاهرية**.</span><span class="sxs-lookup"><span data-stu-id="935ee-201">Select the **Virtual entities** tab.</span></span>
+2. <span data-ttu-id="7ab3f-203">حدد علامة التبويب **الجداول الظاهرية**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-203">Select the **Virtual tables** tab.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="935ee-202">سيتم تعيين زر التبديل **تمكين الكيان الظاهري** إلى **نعم** تلقائيًا عندما تم إكمال كافة الإعدادات المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="935ee-202">The **Enable the virtual entity** toggle will be set to **Yes** automatically when all required setup has been completed.</span></span> <span data-ttu-id="935ee-203">إذا تم تعيين زر التبديل إلى **لا**، فراجع الخطوات الموجودة في الأقسام السابقة من هذا المستند لضمان إكمال كافة إعدادات المتطلبات الأساسية.</span><span class="sxs-lookup"><span data-stu-id="935ee-203">If the toggle is set to **No**, review the steps in previous sections of this document to ensure all prerequisite setup is completed.</span></span>
+> <span data-ttu-id="7ab3f-204">سيتم تعيين زر التبديل **تمكين الجداول الظاهرية** إلى **نعم** تلقائيًا عند اكتمال كافة الإعدادات المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-204">The **Enable virtual tables** toggle will be set to **Yes** automatically when all required setup has been completed.</span></span> <span data-ttu-id="7ab3f-205">إذا تم تعيين زر التبديل إلى **لا**، فراجع الخطوات الموجودة في الأقسام السابقة من هذا المستند لضمان إكمال كافة إعدادات المتطلبات الأساسية.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-205">If the toggle is set to **No**, review the steps in previous sections of this document to ensure all prerequisite setup is completed.</span></span>
 
-3. <span data-ttu-id="935ee-204">حدد الكيان أو الكيانات التي ترغب في إنشائها في Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="935ee-204">Select the entity or entities you want to generate in Common Data Service.</span></span>
+3. <span data-ttu-id="7ab3f-206">حدد الجدول أو الجداول التي ترغب في إنشائها في Dataverse.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-206">Select the table or tables you want to generate in Dataverse.</span></span>
 
-4. <span data-ttu-id="935ee-205">حدد **إنشاء/تحديث**.</span><span class="sxs-lookup"><span data-stu-id="935ee-205">Select **Generate/refresh**.</span></span>
+4. <span data-ttu-id="7ab3f-207">حدد **إنشاء/تحديث**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-207">Select **Generate/refresh**.</span></span>
 
-![تكامل Common Data Service](./media/hr-admin-integration-common-data-service-integration.jpg)
+![تكامل Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
 
-## <a name="check-entity-generation-status"></a><span data-ttu-id="935ee-207">التحقق من حالة إنشاء الكيان</span><span class="sxs-lookup"><span data-stu-id="935ee-207">Check entity generation status</span></span>
+## <a name="check-table-generation-status"></a><span data-ttu-id="7ab3f-209">التحقق من حالة إنشاء الجدول</span><span class="sxs-lookup"><span data-stu-id="7ab3f-209">Check table generation status</span></span>
 
-<span data-ttu-id="935ee-208">يتم إنشاء الكيانات الظاهرية في Common Data Service خلال عملية خلفية غير متزامنة.</span><span class="sxs-lookup"><span data-stu-id="935ee-208">Virtual entities are generated in Common Data Service through an asynchronous background process.</span></span> <span data-ttu-id="935ee-209">تعرض التحديثات على العملية في مركز الإجراء.</span><span class="sxs-lookup"><span data-stu-id="935ee-209">Updates on the process display in the action center.</span></span> <span data-ttu-id="935ee-210">تظهر التفاصيل الخاصة بالعملية، بما في ذلك سجلات الأخطاء، في الصفحة **التنفيذ التلقائي للعمليات**.</span><span class="sxs-lookup"><span data-stu-id="935ee-210">Details on the process, including error logs, appear in the **Process automations** page.</span></span>
+<span data-ttu-id="7ab3f-210">يتم إنشاء الجداول الظاهرية في Dataverse خلال عملية خلفية غير متزامنة.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-210">Virtual tables are generated in Dataverse through an asynchronous background process.</span></span> <span data-ttu-id="7ab3f-211">تعرض التحديثات على العملية في مركز الإجراء.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-211">Updates on the process display in the action center.</span></span> <span data-ttu-id="7ab3f-212">تظهر التفاصيل الخاصة بالعملية، بما في ذلك سجلات الأخطاء، في الصفحة **التنفيذ التلقائي للعمليات**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-212">Details on the process, including error logs, appear in the **Process automations** page.</span></span>
 
-1. <span data-ttu-id="935ee-211">في Human Resources، افتح الصفحة **التنفيذ التلقائي للعمليات**.</span><span class="sxs-lookup"><span data-stu-id="935ee-211">In Human Resources, open the **Process automations** page.</span></span>
+1. <span data-ttu-id="7ab3f-213">في Human Resources، افتح الصفحة **التنفيذ التلقائي للعمليات**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-213">In Human Resources, open the **Process automations** page.</span></span>
 
-2. <span data-ttu-id="935ee-212">حدد علامة التبويب **عمليات الخلفية**.</span><span class="sxs-lookup"><span data-stu-id="935ee-212">Select the **Background processes** tab.</span></span>
+2. <span data-ttu-id="7ab3f-214">حدد علامة التبويب **عمليات الخلفية**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-214">Select the **Background processes** tab.</span></span>
 
-3. <span data-ttu-id="935ee-213">حدد **عملية خلفية للتشغيل غير المتزامن لاستقصاء الكيان الظاهري**.</span><span class="sxs-lookup"><span data-stu-id="935ee-213">Select **Virtual entity poll async operation background process**.</span></span>
+3. <span data-ttu-id="7ab3f-215">حدد **عملية خلفية للتشغيل غير المتزامن لاستقصاء الجدول الظاهري**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-215">Select **Virtual table poll async operation background process**.</span></span>
 
-4. <span data-ttu-id="935ee-214">حدد **عرض أحدث النتائج**.</span><span class="sxs-lookup"><span data-stu-id="935ee-214">Select **View most recent results**.</span></span>
+4. <span data-ttu-id="7ab3f-216">حدد **عرض أحدث النتائج**.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-216">Select **View most recent results**.</span></span>
 
-<span data-ttu-id="935ee-215">يعرض الجزء المنبثق للخارج أحدث نتائج التنفيذ للعملية.</span><span class="sxs-lookup"><span data-stu-id="935ee-215">The slideout pane displays the most recent execution results for the process.</span></span> <span data-ttu-id="935ee-216">يمكنك عرض السجل للعملية، بما في ذلك أية أخطاء تم إرجاعها من Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="935ee-216">You can view the log for the process, including any errors returned from Common Data Service.</span></span>
+<span data-ttu-id="7ab3f-217">يعرض الجزء المنبثق للخارج أحدث نتائج التنفيذ للعملية.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-217">The slideout pane displays the most recent execution results for the process.</span></span> <span data-ttu-id="7ab3f-218">يمكنك عرض السجل للعملية، بما في ذلك أية أخطاء تم إرجاعها من Dataverse.</span><span class="sxs-lookup"><span data-stu-id="7ab3f-218">You can view the log for the process, including any errors returned from Dataverse.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="935ee-217">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="935ee-217">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7ab3f-219">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="7ab3f-219">See also</span></span>
 
-[<span data-ttu-id="935ee-218">ما هو Common Data Service؟</span><span class="sxs-lookup"><span data-stu-id="935ee-218">What is Common Data Service?</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[<span data-ttu-id="935ee-219">نظرة عامة على الكيان</span><span class="sxs-lookup"><span data-stu-id="935ee-219">Entity overview</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[<span data-ttu-id="935ee-220">نظره عامه علي علاقات الكيانات</span><span class="sxs-lookup"><span data-stu-id="935ee-220">Entity relationships overview</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[<span data-ttu-id="935ee-221">إنشاء كيانات ظاهريه تحتوي علي بيانات من مصدر بيانات خارجي وتحريرها</span><span class="sxs-lookup"><span data-stu-id="935ee-221">Create and edit virtual entities that contain data from an external data source</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[<span data-ttu-id="935ee-222">ما المقصود بمداخل Power Apps؟</span><span class="sxs-lookup"><span data-stu-id="935ee-222">What is Power Apps portals?</span></span>](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[<span data-ttu-id="935ee-223">نظره عامه حول إنشاء التطبيقات في Power Apps</span><span class="sxs-lookup"><span data-stu-id="935ee-223">Overview of creating apps in Power Apps</span></span>](https://docs.microsoft.com/powerapps/maker/)
+[<span data-ttu-id="7ab3f-220">ما هو Dataverse؟</span><span class="sxs-lookup"><span data-stu-id="7ab3f-220">What is Dataverse?</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
+[<span data-ttu-id="7ab3f-221">الجداول في Dataverse</span><span class="sxs-lookup"><span data-stu-id="7ab3f-221">Tables in Dataverse</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
+[<span data-ttu-id="7ab3f-222">نظرة عامة على علاقات الجداول</span><span class="sxs-lookup"><span data-stu-id="7ab3f-222">Table relationships overview</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
+[<span data-ttu-id="7ab3f-223">إنشاء جداول ظاهرية تحتوي على بيانات من مصدر بيانات خارجي وتحريرها</span><span class="sxs-lookup"><span data-stu-id="7ab3f-223">Create and edit virtual tables that contain data from an external data source</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[<span data-ttu-id="7ab3f-224">ما المقصود بمداخل Power Apps؟</span><span class="sxs-lookup"><span data-stu-id="7ab3f-224">What is Power Apps portals?</span></span>](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
+[<span data-ttu-id="7ab3f-225">نظره عامه حول إنشاء التطبيقات في Power Apps</span><span class="sxs-lookup"><span data-stu-id="7ab3f-225">Overview of creating apps in Power Apps</span></span>](https://docs.microsoft.com/powerapps/maker/)
