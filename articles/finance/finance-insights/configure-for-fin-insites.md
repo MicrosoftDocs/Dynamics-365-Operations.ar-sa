@@ -11,76 +11,78 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 38cdeb9110691e594b4b90fc5bc79e369c9f4707
-ms.sourcegitcommit: 1cfd6e0c808341b0f5bafbde7d04b0255b27352f
+ms.openlocfilehash: bb887bbff5eb5b92f588d3fa966ea204633575db
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664080"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115622"
 ---
-# <a name="configuration-for-finance-insights-preview"></a><span data-ttu-id="86edc-103">تكوين Finance insights (معاينة)</span><span class="sxs-lookup"><span data-stu-id="86edc-103">Configuration for Finance insights (preview)</span></span>
+# <a name="configuration-for-finance-insights-preview"></a><span data-ttu-id="b452a-103">تكوين Finance insights (معاينة)</span><span class="sxs-lookup"><span data-stu-id="b452a-103">Configuration for Finance insights (preview)</span></span>
 
 [!include [banner](../includes/banner.md)]
+
 [!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="86edc-104">تضم Finance insights الوظيفة من Microsoft Dynamics 365 Finance مع Common Data Service وAzure و AI Builder لتوفير أدوات التنبؤ القوية لمؤسستك.</span><span class="sxs-lookup"><span data-stu-id="86edc-104">Finance insights combines functionality from Microsoft Dynamics 365 Finance with Common Data Service, Azure, and AI Builder to provide powerful forecasting tools for your organization.</span></span> <span data-ttu-id="86edc-105">يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights.</span><span class="sxs-lookup"><span data-stu-id="86edc-105">This topic explains the configuration steps that will enable your system to use the capabilities that are available in Finance insights.</span></span>
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-## <a name="deploy-dynamics-365-finance"></a><span data-ttu-id="86edc-106">نشر Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="86edc-106">Deploy Dynamics 365 Finance</span></span>
+<span data-ttu-id="b452a-104">تضم Finance insights الوظيفة من Microsoft Dynamics 365 Finance مع Microsoft Dataverse وAzure و AI Builder لتوفير أدوات التنبؤ القوية لمؤسستك.</span><span class="sxs-lookup"><span data-stu-id="b452a-104">Finance insights combines functionality from Microsoft Dynamics 365 Finance with Microsoft Dataverse, Azure, and AI Builder to provide powerful forecasting tools for your organization.</span></span> <span data-ttu-id="b452a-105">يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights.</span><span class="sxs-lookup"><span data-stu-id="b452a-105">This topic explains the configuration steps that will enable your system to use the capabilities that are available in Finance insights.</span></span>
 
-<span data-ttu-id="86edc-107">نشر البيئات باتباع هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="86edc-107">Deploy the environments by following these steps.</span></span>
+## <a name="deploy-dynamics-365-finance"></a><span data-ttu-id="b452a-106">نشر Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="b452a-106">Deploy Dynamics 365 Finance</span></span>
 
-1. <span data-ttu-id="86edc-108">في Microsoft Dynamics Lifecycle Services (LCS)، قم بإنشاء أو تحديث بيئة Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="86edc-108">In Microsoft Dynamics Lifecycle Services (LCS), create or update a Dynamics 365 Finance environment.</span></span> <span data-ttu-id="86edc-109">تتطلب البيئة تحديث التطبيق النظام الأساسي 10.0.11 إلى الإصدار 35 أو أحدث.</span><span class="sxs-lookup"><span data-stu-id="86edc-109">The environment requires app version 10.0.11/Platform update 35 or later.</span></span>
-2. <span data-ttu-id="86edc-110">يجب أن تكون البيئة بيئة عالية التوافر (HA) في وضع الحماية.</span><span class="sxs-lookup"><span data-stu-id="86edc-110">The environment must be a high-availability (HA) environment in Sandbox.</span></span> <span data-ttu-id="86edc-111">(يُعرف هذا النوع من البيئة أيضًا ببيئة الطبقة 2). لمزيد من المعلومات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).</span><span class="sxs-lookup"><span data-stu-id="86edc-111">(This type of environment is also known as a Tier-2 environment.) For more information, see [Environment planning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).</span></span>
-3. <span data-ttu-id="86edc-112">إذا كنت تستخدم البيانات التجريبية لشركات Contoso، فإنك ستحتاج إلى بيانات نموذج إضافية لاستخدام ميزات توقعات دفع العميل وتقديرات التدفقات النقدية والتنبؤ بالموازنة.</span><span class="sxs-lookup"><span data-stu-id="86edc-112">If you're using Contoso demo data, you will require additional sample data to use the Customer payment predictions, Cash flow forecasts, and Budget forecasts features.</span></span> 
+<span data-ttu-id="b452a-107">نشر البيئات باتباع هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="b452a-107">Deploy the environments by following these steps.</span></span>
 
-## <a name="configure-common-data-service"></a><span data-ttu-id="86edc-113">تكوين Common Data Service</span><span class="sxs-lookup"><span data-stu-id="86edc-113">Configure Common Data Service</span></span>
+1. <span data-ttu-id="b452a-108">في Microsoft Dynamics Lifecycle Services (LCS)، قم بإنشاء أو تحديث بيئة Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="b452a-108">In Microsoft Dynamics Lifecycle Services (LCS), create or update a Dynamics 365 Finance environment.</span></span> <span data-ttu-id="b452a-109">تتطلب البيئة تحديث التطبيق النظام الأساسي 10.0.11 إلى الإصدار 35 أو أحدث.</span><span class="sxs-lookup"><span data-stu-id="b452a-109">The environment requires app version 10.0.11/Platform update 35 or later.</span></span>
+2. <span data-ttu-id="b452a-110">يجب أن تكون البيئة بيئة عالية التوافر (HA) في وضع الحماية.</span><span class="sxs-lookup"><span data-stu-id="b452a-110">The environment must be a high-availability (HA) environment in Sandbox.</span></span> <span data-ttu-id="b452a-111">(يُعرف هذا النوع من البيئة أيضًا ببيئة الطبقة 2). لمزيد من المعلومات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).</span><span class="sxs-lookup"><span data-stu-id="b452a-111">(This type of environment is also known as a Tier-2 environment.) For more information, see [Environment planning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).</span></span>
+3. <span data-ttu-id="b452a-112">إذا كنت تستخدم البيانات التجريبية لشركات Contoso، فإنك ستحتاج إلى بيانات نموذج إضافية لاستخدام ميزات توقعات دفع العميل وتقديرات التدفقات النقدية والتنبؤ بالموازنة.</span><span class="sxs-lookup"><span data-stu-id="b452a-112">If you're using Contoso demo data, you will require additional sample data to use the Customer payment predictions, Cash flow forecasts, and Budget forecasts features.</span></span> 
 
-<span data-ttu-id="86edc-114">يمكنك إكمال خطوات التكوين اليدوي التالية، أو يمكنك تسريع عملية التكوين باستخدام البرنامج النصي Windows PowerShell الذي تم توفيره.</span><span class="sxs-lookup"><span data-stu-id="86edc-114">You can complete the manual configuration steps that follow, or you can speed up the configuration process by using the Windows PowerShell script that is provided.</span></span> <span data-ttu-id="86edc-115">عند انتهاء تشغيل البرنامج النصي PowerShell، فإنه سيتم منحك القيم المراد استخدامها لتكوين Finance insights.</span><span class="sxs-lookup"><span data-stu-id="86edc-115">When the PowerShell script has finished running, it will give you values to use to configure Finance insights.</span></span> 
+## <a name="configure-dataverse"></a><span data-ttu-id="b452a-113">تكوين Dataverse</span><span class="sxs-lookup"><span data-stu-id="b452a-113">Configure Dataverse</span></span>
+
+<span data-ttu-id="b452a-114">يمكنك إكمال خطوات التكوين اليدوي التالية، أو يمكنك تسريع عملية التكوين باستخدام البرنامج النصي Windows PowerShell الذي تم توفيره.</span><span class="sxs-lookup"><span data-stu-id="b452a-114">You can complete the manual configuration steps that follow, or you can speed up the configuration process by using the Windows PowerShell script that is provided.</span></span> <span data-ttu-id="b452a-115">عند انتهاء تشغيل البرنامج النصي PowerShell، فإنه سيتم منحك القيم المراد استخدامها لتكوين Finance insights.</span><span class="sxs-lookup"><span data-stu-id="b452a-115">When the PowerShell script has finished running, it will give you values to use to configure Finance insights.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="86edc-116">افتح PowerShell على الكمبيوتر لتشغيل البرنامج النصي.</span><span class="sxs-lookup"><span data-stu-id="86edc-116">Open PowerShell on your PC to run the script.</span></span> <span data-ttu-id="86edc-117">قد تحتاج إلى الإصدار 5 من PowerShell.</span><span class="sxs-lookup"><span data-stu-id="86edc-117">You may need PowerShell version 5.</span></span> <span data-ttu-id="86edc-118">قد لا يعمل الخيار Microsoft Azure CLI "جربه".</span><span class="sxs-lookup"><span data-stu-id="86edc-118">The Microsoft Azure CLI "Try it" option may not work.</span></span>
+> <span data-ttu-id="b452a-116">افتح PowerShell على الكمبيوتر لتشغيل البرنامج النصي.</span><span class="sxs-lookup"><span data-stu-id="b452a-116">Open PowerShell on your PC to run the script.</span></span> <span data-ttu-id="b452a-117">قد تحتاج إلى الإصدار 5 من PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b452a-117">You may need PowerShell version 5.</span></span> <span data-ttu-id="b452a-118">قد لا يعمل الخيار Microsoft Azure CLI "جربه".</span><span class="sxs-lookup"><span data-stu-id="b452a-118">The Microsoft Azure CLI "Try it" option may not work.</span></span>
 
-# <a name="manual-configuration-steps"></a>[<span data-ttu-id="86edc-119">خطوات التكوين اليدوي</span><span class="sxs-lookup"><span data-stu-id="86edc-119">Manual configuration steps</span></span>](#tab/configuration-steps)
+# <a name="manual-configuration-steps"></a>[<span data-ttu-id="b452a-119">خطوات التكوين اليدوي</span><span class="sxs-lookup"><span data-stu-id="b452a-119">Manual configuration steps</span></span>](#tab/configuration-steps)
 
-1. <span data-ttu-id="86edc-120">افتح مركز الإدارة [Power Platform ](https://admin.powerplatform.microsoft.com/)، واتبع هذه الخطوات لإنشاء بيئة Common Data Service جديدة في مستأجر خدمة Active Directory نفسه.</span><span class="sxs-lookup"><span data-stu-id="86edc-120">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and follow these steps to create a new Common Data Service environment in the same Active Directory tenant:</span></span>
+1. <span data-ttu-id="b452a-120">افتح مركز الإدارة [Power Platform ](https://admin.powerplatform.microsoft.com/)، واتبع هذه الخطوات لإنشاء بيئة Dataverse جديدة في مستأجر خدمة Active Directory نفسه.</span><span class="sxs-lookup"><span data-stu-id="b452a-120">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and follow these steps to create a new Dataverse environment in the same Active Directory tenant:</span></span>
 
-    1. <span data-ttu-id="86edc-121">افتح صفحة **البيئات**.</span><span class="sxs-lookup"><span data-stu-id="86edc-121">Open the **Environments** page.</span></span>
+    1. <span data-ttu-id="b452a-121">افتح صفحة **البيئات**.</span><span class="sxs-lookup"><span data-stu-id="b452a-121">Open the **Environments** page.</span></span>
 
-        <span data-ttu-id="86edc-122">[![صفحة البيئات](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)</span><span class="sxs-lookup"><span data-stu-id="86edc-122">[![Environments page](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)</span></span>
+        <span data-ttu-id="b452a-122">[![صفحة البيئات](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)</span><span class="sxs-lookup"><span data-stu-id="b452a-122">[![Environments page](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)</span></span>
 
-    2. <span data-ttu-id="86edc-123">حدد **بيئة جديدة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-123">Select **New environment**.</span></span>
-    3. <span data-ttu-id="86edc-124">في الحقل **نوع**، حدد **وضع الحماية**.</span><span class="sxs-lookup"><span data-stu-id="86edc-124">In the **Type** field, select **Sandbox**.</span></span>
-    4. <span data-ttu-id="86edc-125">عيّن الخيار **إنشاء قاعدة بيانات** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="86edc-125">Set the **Create Database** option to **Yes**.</span></span>
-    5. <span data-ttu-id="86edc-126">حدد **التالي**.</span><span class="sxs-lookup"><span data-stu-id="86edc-126">Select **Next**.</span></span>
-    6. <span data-ttu-id="86edc-127">حدد اللغة والعملة الخاصة بمؤسسك.</span><span class="sxs-lookup"><span data-stu-id="86edc-127">Select the language and currency for your organization.</span></span>
-    7. <span data-ttu-id="86edc-128">اقبل القيم الافتراضية للحقول الأخرى.</span><span class="sxs-lookup"><span data-stu-id="86edc-128">Accept the default values for the other fields.</span></span>
-    8. <span data-ttu-id="86edc-129">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="86edc-129">Select **Save**.</span></span>
-    9. <span data-ttu-id="86edc-130">حدّث صفحة **البيئات**.</span><span class="sxs-lookup"><span data-stu-id="86edc-130">Refresh the **Environments** page.</span></span>
-    10. <span data-ttu-id="86edc-131">انتظر حتى يتم تحديث قيمة الحقل **الحالة** إلى **جاهز**.</span><span class="sxs-lookup"><span data-stu-id="86edc-131">Wait until the value of the **State** field is updated to **Ready**.</span></span>
-    11. <span data-ttu-id="86edc-132">دوِّن ملاحظة بمُعرف المؤسسة Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="86edc-132">Make a note of the Common Data Service organization ID.</span></span>
-    12. <span data-ttu-id="86edc-133">حدد البيئة المراد نسخها، ثم حدد **إعدادات**.</span><span class="sxs-lookup"><span data-stu-id="86edc-133">Select the environment, and then select **Settings**.</span></span>
-    13. <span data-ttu-id="86edc-134">حدد **الموارد \> كافة الإعدادات القديمة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-134">Select **Resources \> All Legacy Settings**.</span></span>
-    14. <span data-ttu-id="86edc-135">في شريط التنقل العلوي، حدد **الإعدادات**، ثم حدد **التخصيصات**.</span><span class="sxs-lookup"><span data-stu-id="86edc-135">On the top navigation bar, select **Settings**, and then select **Customizations**.</span></span>
-    15. <span data-ttu-id="86edc-136">حدد **موارد المطور**.</span><span class="sxs-lookup"><span data-stu-id="86edc-136">Select **Developer Resources**.</span></span>
-    16. <span data-ttu-id="86edc-137">قم بتعيين الحقل **معرف معلومات مرجع المثيل** إلى قيمة معرف المؤسسة Common Data Service التي قمت بتدوين ملاحظة لها مسبقًا.</span><span class="sxs-lookup"><span data-stu-id="86edc-137">Set the **Instance Reference Information ID** field to the Common Data Service organization ID value that you made a note of earlier.</span></span>
-    17. <span data-ttu-id="86edc-138">في شريط العنوان الخاص بالمستعرض، قم بتسجيل عنوان URL الخاص بمؤسسة Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="86edc-138">In the browser's address bar, make a note of the URL for the Common Data Service organization.</span></span> <span data-ttu-id="86edc-139">على سبيل المثال، قد يكون عنوان URL `https://org42b2b3d3.crm.dynamics.com`.</span><span class="sxs-lookup"><span data-stu-id="86edc-139">For example, the URL might be `https://org42b2b3d3.crm.dynamics.com`.</span></span>
+    2. <span data-ttu-id="b452a-123">حدد **بيئة جديدة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-123">Select **New environment**.</span></span>
+    3. <span data-ttu-id="b452a-124">في الحقل **نوع**، حدد **وضع الحماية**.</span><span class="sxs-lookup"><span data-stu-id="b452a-124">In the **Type** field, select **Sandbox**.</span></span>
+    4. <span data-ttu-id="b452a-125">عيّن الخيار **إنشاء قاعدة بيانات** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="b452a-125">Set the **Create Database** option to **Yes**.</span></span>
+    5. <span data-ttu-id="b452a-126">حدد **التالي**.</span><span class="sxs-lookup"><span data-stu-id="b452a-126">Select **Next**.</span></span>
+    6. <span data-ttu-id="b452a-127">حدد اللغة والعملة الخاصة بمؤسسك.</span><span class="sxs-lookup"><span data-stu-id="b452a-127">Select the language and currency for your organization.</span></span>
+    7. <span data-ttu-id="b452a-128">اقبل القيم الافتراضية للحقول الأخرى.</span><span class="sxs-lookup"><span data-stu-id="b452a-128">Accept the default values for the other fields.</span></span>
+    8. <span data-ttu-id="b452a-129">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="b452a-129">Select **Save**.</span></span>
+    9. <span data-ttu-id="b452a-130">حدّث صفحة **البيئات**.</span><span class="sxs-lookup"><span data-stu-id="b452a-130">Refresh the **Environments** page.</span></span>
+    10. <span data-ttu-id="b452a-131">انتظر حتى يتم تحديث قيمة الحقل **الحالة** إلى **جاهز**.</span><span class="sxs-lookup"><span data-stu-id="b452a-131">Wait until the value of the **State** field is updated to **Ready**.</span></span>
+    11. <span data-ttu-id="b452a-132">دوِّن ملاحظة بمُعرف المؤسسة Dataverse.</span><span class="sxs-lookup"><span data-stu-id="b452a-132">Make a note of the Dataverse organization ID.</span></span>
+    12. <span data-ttu-id="b452a-133">حدد البيئة المراد نسخها، ثم حدد **إعدادات**.</span><span class="sxs-lookup"><span data-stu-id="b452a-133">Select the environment, and then select **Settings**.</span></span>
+    13. <span data-ttu-id="b452a-134">حدد **الموارد \> كافة الإعدادات القديمة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-134">Select **Resources \> All Legacy Settings**.</span></span>
+    14. <span data-ttu-id="b452a-135">في شريط التنقل العلوي، حدد **الإعدادات**، ثم حدد **التخصيصات**.</span><span class="sxs-lookup"><span data-stu-id="b452a-135">On the top navigation bar, select **Settings**, and then select **Customizations**.</span></span>
+    15. <span data-ttu-id="b452a-136">حدد **موارد المطور**.</span><span class="sxs-lookup"><span data-stu-id="b452a-136">Select **Developer Resources**.</span></span>
+    16. <span data-ttu-id="b452a-137">قم بتعيين الحقل **معرف معلومات مرجع المثيل** إلى قيمة معرف المؤسسة Dataverse التي قمت بتدوين ملاحظة لها مسبقًا.</span><span class="sxs-lookup"><span data-stu-id="b452a-137">Set the **Instance Reference Information ID** field to the Dataverse organization ID value that you made a note of earlier.</span></span>
+    17. <span data-ttu-id="b452a-138">في شريط العنوان الخاص بالمستعرض، قم بتسجيل عنوان URL الخاص بمؤسسة Dataverse.</span><span class="sxs-lookup"><span data-stu-id="b452a-138">In the browser's address bar, make a note of the URL for the Dataverse organization.</span></span> <span data-ttu-id="b452a-139">على سبيل المثال، قد يكون عنوان URL `https://org42b2b3d3.crm.dynamics.com`.</span><span class="sxs-lookup"><span data-stu-id="b452a-139">For example, the URL might be `https://org42b2b3d3.crm.dynamics.com`.</span></span>
 
-2. <span data-ttu-id="86edc-140">إذا كنت تخطط لاستخدام ميزة تقديرات التدفقات النقدية أو التنبؤ بالموازنة، اتبع الخطوات التالية لتحديث حد التعليق التوضيحي لمؤسسك إلى 50 ميغابايت على الأقل (MB):</span><span class="sxs-lookup"><span data-stu-id="86edc-140">If you plan to use the Cash flow forecasts or Budget forecasts feature, follow these steps to update the annotation limit for your organization to at least 50 megabytes (MB):</span></span>
+2. <span data-ttu-id="b452a-140">إذا كنت تخطط لاستخدام ميزة تقديرات التدفقات النقدية أو التنبؤ بالموازنة، اتبع الخطوات التالية لتحديث حد التعليق التوضيحي لمؤسسك إلى 50 ميغابايت على الأقل (MB):</span><span class="sxs-lookup"><span data-stu-id="b452a-140">If you plan to use the Cash flow forecasts or Budget forecasts feature, follow these steps to update the annotation limit for your organization to at least 50 megabytes (MB):</span></span>
 
-    1. <span data-ttu-id="86edc-141">افتح [مدخل Power Apps](https://make.powerapps.com).</span><span class="sxs-lookup"><span data-stu-id="86edc-141">Open the [Power Apps portal](https://make.powerapps.com).</span></span>
-    2. <span data-ttu-id="86edc-142">حدد البيئة التي قمت بإنشائها للتو، ثم حدد **الإعدادات المتقدمة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-142">Select the environment that you just created, and then select **Advanced settings**.</span></span>
-    3. <span data-ttu-id="86edc-143">حدد **إعدادات \> تكوين البريد الإلكتروني**.</span><span class="sxs-lookup"><span data-stu-id="86edc-143">Select **Settings \> Email Configuration**.</span></span>
-    4. <span data-ttu-id="86edc-144">قم بتغيير قيمة الحقل **الحد الأقصى حجم الملف** إلى **51.200**.</span><span class="sxs-lookup"><span data-stu-id="86edc-144">Change the value of the **Maximum file size** field to **51,200**.</span></span> <span data-ttu-id="86edc-145">(ويتم التعبير عن القيمة بالكيلو بايت \[KB\].)</span><span class="sxs-lookup"><span data-stu-id="86edc-145">(The value is expressed in kilobytes \[KB\].)</span></span>
-    5. <span data-ttu-id="86edc-146">حدد **موافق** لحفظ التغييرات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="86edc-146">Select **OK** to save your changes.</span></span>
+    1. <span data-ttu-id="b452a-141">افتح [مدخل Power Apps](https://make.powerapps.com).</span><span class="sxs-lookup"><span data-stu-id="b452a-141">Open the [Power Apps portal](https://make.powerapps.com).</span></span>
+    2. <span data-ttu-id="b452a-142">حدد البيئة التي قمت بإنشائها للتو، ثم حدد **الإعدادات المتقدمة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-142">Select the environment that you just created, and then select **Advanced settings**.</span></span>
+    3. <span data-ttu-id="b452a-143">حدد **إعدادات \> تكوين البريد الإلكتروني**.</span><span class="sxs-lookup"><span data-stu-id="b452a-143">Select **Settings \> Email Configuration**.</span></span>
+    4. <span data-ttu-id="b452a-144">قم بتغيير قيمة الحقل **الحد الأقصى حجم الملف** إلى **51.200**.</span><span class="sxs-lookup"><span data-stu-id="b452a-144">Change the value of the **Maximum file size** field to **51,200**.</span></span> <span data-ttu-id="b452a-145">(ويتم التعبير عن القيمة بالكيلو بايت \[KB\].)</span><span class="sxs-lookup"><span data-stu-id="b452a-145">(The value is expressed in kilobytes \[KB\].)</span></span>
+    5. <span data-ttu-id="b452a-146">حدد **موافق** لحفظ التغييرات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="b452a-146">Select **OK** to save your changes.</span></span>
 
-# <a name="windows-powershell-configuration-script"></a>[<span data-ttu-id="86edc-147">برنامج التكوين النصي لـ Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="86edc-147">Windows PowerShell configuration script</span></span>](#tab/powershell-configuration-script)
+# <a name="windows-powershell-configuration-script"></a>[<span data-ttu-id="b452a-147">برنامج التكوين النصي لـ Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b452a-147">Windows PowerShell configuration script</span></span>](#tab/powershell-configuration-script)
 
 ```azurecli-interactive
 Write-Output 'The following modules need to be present for execution of this script:'
@@ -265,190 +267,192 @@ catch {
 ```
 ---
 
-## <a name="configure-the-azure-setup"></a><span data-ttu-id="86edc-148">تكوين إعداد Azure</span><span class="sxs-lookup"><span data-stu-id="86edc-148">Configure the Azure setup</span></span>
+## <a name="configure-the-azure-setup"></a><span data-ttu-id="b452a-148">تكوين إعداد Azure</span><span class="sxs-lookup"><span data-stu-id="b452a-148">Configure the Azure setup</span></span>
 
-### <a name="enter-the-common-data-service-directory-id-and-the-users-azure-ad-object-id"></a><span data-ttu-id="86edc-149">أدخل معرف الدليل Common Data Service ومعرف الكائن الخاص بمستخدم Azure AD</span><span class="sxs-lookup"><span data-stu-id="86edc-149">Enter the Common Data Service directory ID and the user's Azure AD object ID</span></span>
+### <a name="enter-the-dataverse-directory-id-and-the-users-azure-ad-object-id"></a><span data-ttu-id="b452a-149">أدخل معرف الدليل Dataverse ومعرف الكائن الخاص بمستخدم Azure AD</span><span class="sxs-lookup"><span data-stu-id="b452a-149">Enter the Dataverse directory ID and the user's Azure AD object ID</span></span>
 
-1. <span data-ttu-id="86edc-150">أدخل مُعرف الدليل Common Data Service:</span><span class="sxs-lookup"><span data-stu-id="86edc-150">Enter the Common Data Service directory ID:</span></span>
+1. <span data-ttu-id="b452a-150">أدخل مُعرف الدليل Dataverse:</span><span class="sxs-lookup"><span data-stu-id="b452a-150">Enter the Dataverse directory ID:</span></span>
 
-    1. <span data-ttu-id="86edc-151">افتح [مدخل Azure](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="86edc-151">Open the [Azure portal](https://portal.azure.com).</span></span>
-    2. <span data-ttu-id="86edc-152">قم بتسجيل الدخول باستخدام معرف المستخدم الذي تم استخدامه لإنشاء البيئة Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="86edc-152">Sign in by using the user ID that was used to create the Common Data Service environment.</span></span>
-    3. <span data-ttu-id="86edc-153">الانتقال إلى **Azure Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="86edc-153">Go to **Azure Active Directory**.</span></span>
-    4. <span data-ttu-id="86edc-154">انسخ قيمة **معرف المستأجر**.</span><span class="sxs-lookup"><span data-stu-id="86edc-154">Copy the **Tenant ID** value.</span></span>
+    1. <span data-ttu-id="b452a-151">افتح [مدخل Azure](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="b452a-151">Open the [Azure portal](https://portal.azure.com).</span></span>
+    2. <span data-ttu-id="b452a-152">قم بتسجيل الدخول باستخدام معرف المستخدم الذي تم استخدامه لإنشاء البيئة Dataverse.</span><span class="sxs-lookup"><span data-stu-id="b452a-152">Sign in by using the user ID that was used to create the Dataverse environment.</span></span>
+    3. <span data-ttu-id="b452a-153">الانتقال إلى **Azure Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="b452a-153">Go to **Azure Active Directory**.</span></span>
+    4. <span data-ttu-id="b452a-154">انسخ قيمة **معرف المستأجر**.</span><span class="sxs-lookup"><span data-stu-id="b452a-154">Copy the **Tenant ID** value.</span></span>
 
-2. <span data-ttu-id="86edc-155">أدخل معرف كائن Azure Active Directory (Azure AD):</span><span class="sxs-lookup"><span data-stu-id="86edc-155">Enter the user's Azure Active Directory (Azure AD) object ID:</span></span>
+2. <span data-ttu-id="b452a-155">أدخل معرف كائن Azure Active Directory (Azure AD):</span><span class="sxs-lookup"><span data-stu-id="b452a-155">Enter the user's Azure Active Directory (Azure AD) object ID:</span></span>
 
-    1. <span data-ttu-id="86edc-156">في [مدخل Azure](https://portal.azure.com)، انتقل إلى **المستخدمين**، وابحث عن المستخدم بعنوان البريد الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="86edc-156">In the [Azure portal](https://portal.azure.com), go to **Users**, and search for the user by email address.</span></span>
-    2. <span data-ttu-id="86edc-157">حدد اسم المستخدم.</span><span class="sxs-lookup"><span data-stu-id="86edc-157">Select the user's name.</span></span>
-    3. <span data-ttu-id="86edc-158">انسخ قيمة **معرف الكائن**.</span><span class="sxs-lookup"><span data-stu-id="86edc-158">Copy the **Object ID** value.</span></span>
+    1. <span data-ttu-id="b452a-156">في [مدخل Azure](https://portal.azure.com)، انتقل إلى **المستخدمين**، وابحث عن المستخدم بعنوان البريد الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="b452a-156">In the [Azure portal](https://portal.azure.com), go to **Users**, and search for the user by email address.</span></span>
+    2. <span data-ttu-id="b452a-157">حدد اسم المستخدم.</span><span class="sxs-lookup"><span data-stu-id="b452a-157">Select the user's name.</span></span>
+    3. <span data-ttu-id="b452a-158">انسخ قيمة **معرف الكائن**.</span><span class="sxs-lookup"><span data-stu-id="b452a-158">Copy the **Object ID** value.</span></span>
 
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a><span data-ttu-id="86edc-159">استخدام Azure Cloud Shell لإعداد موارد Finance insights Data Lake</span><span class="sxs-lookup"><span data-stu-id="86edc-159">Use Azure Cloud Shell to set up Finance insights Data Lake resources</span></span>
+### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a><span data-ttu-id="b452a-159">استخدام Azure Cloud Shell لإعداد موارد Finance insights Data Lake</span><span class="sxs-lookup"><span data-stu-id="b452a-159">Use Azure Cloud Shell to set up Finance insights Data Lake resources</span></span>
 
-# <a name="use-a-windows-powershell-script"></a>[<span data-ttu-id="86edc-160">استخدم البرنامج النصي لـ Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="86edc-160">Use a Windows PowerShell script</span></span>](#tab/use-a-powershell-script)
+# <a name="use-a-windows-powershell-script"></a>[<span data-ttu-id="b452a-160">استخدم البرنامج النصي لـ Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b452a-160">Use a Windows PowerShell script</span></span>](#tab/use-a-powershell-script)
 
-<span data-ttu-id="86edc-161">لقد تم توفير برنامج Windows PowerShell النصي، حتى يمكنك بسهولة إعداد موارد Azure الموضحة في [تكوين التصدير إلى Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake).</span><span class="sxs-lookup"><span data-stu-id="86edc-161">A Windows PowerShell script has been provided, so that you can easily set up the Azure resources that are described in [Configure export to Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake).</span></span> <span data-ttu-id="86edc-162">إذا كنت تفضل القيام بالإعداد اليدوي، فعليك تخطي هذا الإجراء، ومتابعة الإجراء في القسم [الإعداد اليدوي](#manual-setup).</span><span class="sxs-lookup"><span data-stu-id="86edc-162">If you prefer to do manual setup, skip this procedure, and continue with the procedure in the [Manual setup](#manual-setup) section.</span></span>
+<span data-ttu-id="b452a-161">لقد تم توفير برنامج Windows PowerShell النصي، حتى يمكنك بسهولة إعداد موارد Azure الموضحة في [تكوين التصدير إلى Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake).</span><span class="sxs-lookup"><span data-stu-id="b452a-161">A Windows PowerShell script has been provided, so that you can easily set up the Azure resources that are described in [Configure export to Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake).</span></span> <span data-ttu-id="b452a-162">إذا كنت تفضل القيام بالإعداد اليدوي، فعليك تخطي هذا الإجراء، ومتابعة الإجراء في القسم [الإعداد اليدوي](#manual-setup).</span><span class="sxs-lookup"><span data-stu-id="b452a-162">If you prefer to do manual setup, skip this procedure, and continue with the procedure in the [Manual setup](#manual-setup) section.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="86edc-163">اتبع الخطوات التالية لتشغيل البرنامج النصي PowerShell.</span><span class="sxs-lookup"><span data-stu-id="86edc-163">Follow the steps below to run the PowerShell script.</span></span> <span data-ttu-id="86edc-164">قد لا يعمل الخيار Azure CLI "جربه"، أو تشغيل البرنامج النصي على الكمبيوتر.</span><span class="sxs-lookup"><span data-stu-id="86edc-164">The Azure CLI "Try it" option, or running the script on your PC may not work.</span></span>
+> <span data-ttu-id="b452a-163">اتبع الخطوات التالية لتشغيل البرنامج النصي PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b452a-163">Follow the steps below to run the PowerShell script.</span></span> <span data-ttu-id="b452a-164">قد لا يعمل الخيار Azure CLI "جربه"، أو تشغيل البرنامج النصي على الكمبيوتر.</span><span class="sxs-lookup"><span data-stu-id="b452a-164">The Azure CLI "Try it" option, or running the script on your PC may not work.</span></span>
 
-<span data-ttu-id="86edc-165">اتبع الخطوات التالية لتكوين Azure باستخدام البرنامج النصي لـ Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="86edc-165">Follow these steps to configure Azure by using the Windows PowerShell script.</span></span> <span data-ttu-id="86edc-166">يجب أن يكون لديك حقوق بإنشاء مجموعة موارد Azure وموارد Azure وتطبيق Azure AD.</span><span class="sxs-lookup"><span data-stu-id="86edc-166">You must have rights to create an Azure resource group, Azure resources, and an Azure AD application.</span></span> <span data-ttu-id="86edc-167">للحصول على معلومات حول الأذونات المطلوبة، راجع [التحقق من أذونات Azure AD ](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).</span><span class="sxs-lookup"><span data-stu-id="86edc-167">For information about the required permissions, see [Check Azure AD permissions](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).</span></span>
+<span data-ttu-id="b452a-165">اتبع الخطوات التالية لتكوين Azure باستخدام البرنامج النصي لـ Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b452a-165">Follow these steps to configure Azure by using the Windows PowerShell script.</span></span> <span data-ttu-id="b452a-166">يجب أن يكون لديك حقوق بإنشاء مجموعة موارد Azure وموارد Azure وتطبيق Azure AD.</span><span class="sxs-lookup"><span data-stu-id="b452a-166">You must have rights to create an Azure resource group, Azure resources, and an Azure AD application.</span></span> <span data-ttu-id="b452a-167">للحصول على معلومات حول الأذونات المطلوبة، راجع [التحقق من أذونات Azure AD ](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).</span><span class="sxs-lookup"><span data-stu-id="b452a-167">For information about the required permissions, see [Check Azure AD permissions](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).</span></span>
 
-1. <span data-ttu-id="86edc-168">في [مدخل azure ](https://portal.azure.com)، انتقل إلى اشتراك هدف Azure.</span><span class="sxs-lookup"><span data-stu-id="86edc-168">In the [Azure portal](https://portal.azure.com), go to your target Azure subscription.</span></span> <span data-ttu-id="86edc-169">حدد الزر **Cloud Shell** الموجود إلى يمين الحقل **بحث**.</span><span class="sxs-lookup"><span data-stu-id="86edc-169">Select the **Cloud Shell** button to the right of the **Search** field.</span></span>
-2. <span data-ttu-id="86edc-170">حدد **PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="86edc-170">Select **PowerShell**.</span></span>
-3. <span data-ttu-id="86edc-171">قم بإنشاء تخزين، إذا تمت مطالبتك بالقيام بذلك.</span><span class="sxs-lookup"><span data-stu-id="86edc-171">Create storage, if you're prompted to do so.</span></span> <span data-ttu-id="86edc-172">ثم قم بتحميل البرنامج النصي لـ Windows PowerShell إلى جلسة العمل.</span><span class="sxs-lookup"><span data-stu-id="86edc-172">Then upload the Windows PowerShell script to the session.</span></span>
-4. <span data-ttu-id="86edc-173">قم بتشغيل البرنامج النصي.</span><span class="sxs-lookup"><span data-stu-id="86edc-173">Run the script.</span></span>
-5. <span data-ttu-id="86edc-174">اتبع المطالبات لتشغيل البرنامج النصي.</span><span class="sxs-lookup"><span data-stu-id="86edc-174">Follow the prompts to run the script.</span></span>
-6. <span data-ttu-id="86edc-175">استخدم المعلومات من إخراج البرنامج النصي لتثبيت الوظيفة الإضافية **التصدير إلى Data Lake** في LCS.</span><span class="sxs-lookup"><span data-stu-id="86edc-175">Use the information from the script output to install the **Export to Data Lake** add-in in LCS.</span></span>
-7. <span data-ttu-id="86edc-176">استخدم المعلومات من إخراج البرنامج النصي لتمكين مخزن الكيان في الصفحة **اتصالات البيانات** في Finance (**إدارة النظام \> معلمات النظام \> اتصالات البيانات**).</span><span class="sxs-lookup"><span data-stu-id="86edc-176">Use the information from the script output to enable the entity store on the **Data connections** page in Finance (**System administration \> System parameters \> Data connections**).</span></span>
+1. <span data-ttu-id="b452a-168">في [مدخل azure ](https://portal.azure.com)، انتقل إلى اشتراك هدف Azure.</span><span class="sxs-lookup"><span data-stu-id="b452a-168">In the [Azure portal](https://portal.azure.com), go to your target Azure subscription.</span></span> <span data-ttu-id="b452a-169">حدد الزر **Cloud Shell** الموجود إلى يمين الحقل **بحث**.</span><span class="sxs-lookup"><span data-stu-id="b452a-169">Select the **Cloud Shell** button to the right of the **Search** field.</span></span>
+2. <span data-ttu-id="b452a-170">حدد **PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="b452a-170">Select **PowerShell**.</span></span>
+3. <span data-ttu-id="b452a-171">قم بإنشاء تخزين، إذا تمت مطالبتك بالقيام بذلك.</span><span class="sxs-lookup"><span data-stu-id="b452a-171">Create storage, if you're prompted to do so.</span></span> <span data-ttu-id="b452a-172">ثم قم بتحميل البرنامج النصي لـ Windows PowerShell إلى جلسة العمل.</span><span class="sxs-lookup"><span data-stu-id="b452a-172">Then upload the Windows PowerShell script to the session.</span></span>
+4. <span data-ttu-id="b452a-173">قم بتشغيل البرنامج النصي.</span><span class="sxs-lookup"><span data-stu-id="b452a-173">Run the script.</span></span>
+5. <span data-ttu-id="b452a-174">اتبع المطالبات لتشغيل البرنامج النصي.</span><span class="sxs-lookup"><span data-stu-id="b452a-174">Follow the prompts to run the script.</span></span>
+6. <span data-ttu-id="b452a-175">استخدم المعلومات من إخراج البرنامج النصي لتثبيت الوظيفة الإضافية **التصدير إلى Data Lake** في LCS.</span><span class="sxs-lookup"><span data-stu-id="b452a-175">Use the information from the script output to install the **Export to Data Lake** add-in in LCS.</span></span>
+7. <span data-ttu-id="b452a-176">استخدم المعلومات من إخراج البرنامج النصي لتمكين مخزن الكيان في الصفحة **اتصالات البيانات** في Finance (**إدارة النظام \> معلمات النظام \> اتصالات البيانات**).</span><span class="sxs-lookup"><span data-stu-id="b452a-176">Use the information from the script output to enable the entity store on the **Data connections** page in Finance (**System administration \> System parameters \> Data connections**).</span></span>
 
-### <a name="manual-setup"></a><span data-ttu-id="86edc-177">إعداد يدوي</span><span class="sxs-lookup"><span data-stu-id="86edc-177">Manual setup</span></span>
+### <a name="manual-setup"></a><span data-ttu-id="b452a-177">إعداد يدوي</span><span class="sxs-lookup"><span data-stu-id="b452a-177">Manual setup</span></span>
 
-#### <a name="add-applications-to-the-azure-ad-tenant"></a><span data-ttu-id="86edc-178">إضافة التطبيقات إلى المستأجر Azure AD</span><span class="sxs-lookup"><span data-stu-id="86edc-178">Add applications to the Azure AD tenant</span></span>
+#### <a name="add-applications-to-the-azure-ad-tenant"></a><span data-ttu-id="b452a-178">إضافة التطبيقات إلى المستأجر Azure AD</span><span class="sxs-lookup"><span data-stu-id="b452a-178">Add applications to the Azure AD tenant</span></span>
 
-1. <span data-ttu-id="86edc-179">في [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="86edc-179">In the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**.</span></span>
-2. <span data-ttu-id="86edc-180">حدد **إدارة \> تطبيقات Enterprise**.</span><span class="sxs-lookup"><span data-stu-id="86edc-180">Select **Manage \> Enterprise applications**.</span></span>
-3. <span data-ttu-id="86edc-181">ابحث عن التطبيقات التالية حسب معرف التطبيق.</span><span class="sxs-lookup"><span data-stu-id="86edc-181">Search for the following applications by app ID.</span></span>
+1. <span data-ttu-id="b452a-179">في [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="b452a-179">In the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**.</span></span>
+2. <span data-ttu-id="b452a-180">حدد **إدارة \> تطبيقات Enterprise**.</span><span class="sxs-lookup"><span data-stu-id="b452a-180">Select **Manage \> Enterprise applications**.</span></span>
+3. <span data-ttu-id="b452a-181">ابحث عن التطبيقات التالية حسب معرف التطبيق.</span><span class="sxs-lookup"><span data-stu-id="b452a-181">Search for the following applications by app ID.</span></span>
 
-    | <span data-ttu-id="86edc-182">استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="86edc-182">Application</span></span>                              | <span data-ttu-id="86edc-183">معرف التطبيق</span><span class="sxs-lookup"><span data-stu-id="86edc-183">App ID</span></span>                               |
+    | <span data-ttu-id="b452a-182">استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="b452a-182">Application</span></span>                              | <span data-ttu-id="b452a-183">معرف التطبيق</span><span class="sxs-lookup"><span data-stu-id="b452a-183">App ID</span></span>                               |
     |------------------------------------------|--------------------------------------|
-    | <span data-ttu-id="86edc-184">Microsoft Dynamics ERP Microservices</span><span class="sxs-lookup"><span data-stu-id="86edc-184">Microsoft Dynamics ERP Microservices</span></span>     | <span data-ttu-id="86edc-185">0cdb527f-a8d1-4bf8-9436-b352c68682b2</span><span class="sxs-lookup"><span data-stu-id="86edc-185">0cdb527f-a8d1-4bf8-9436-b352c68682b2</span></span> |
-    | <span data-ttu-id="86edc-186">Microsoft Dynamics ERP Microservices CDS</span><span class="sxs-lookup"><span data-stu-id="86edc-186">Microsoft Dynamics ERP Microservices CDS</span></span> | <span data-ttu-id="86edc-187">703e2651-d3fc-48f5-942c-74274233dba8</span><span class="sxs-lookup"><span data-stu-id="86edc-187">703e2651-d3fc-48f5-942c-74274233dba8</span></span> |
-    | <span data-ttu-id="86edc-188">خدمة تخويل AI Builder</span><span class="sxs-lookup"><span data-stu-id="86edc-188">AI Builder Authorization Service</span></span>         | <span data-ttu-id="86edc-189">ad40333e-9910-4b61-b281-e3aeeb8c3ef3</span><span class="sxs-lookup"><span data-stu-id="86edc-189">ad40333e-9910-4b61-b281-e3aeeb8c3ef3</span></span> |
+    | <span data-ttu-id="b452a-184">Microsoft Dynamics ERP Microservices</span><span class="sxs-lookup"><span data-stu-id="b452a-184">Microsoft Dynamics ERP Microservices</span></span>     | <span data-ttu-id="b452a-185">0cdb527f-a8d1-4bf8-9436-b352c68682b2</span><span class="sxs-lookup"><span data-stu-id="b452a-185">0cdb527f-a8d1-4bf8-9436-b352c68682b2</span></span> |
+    | <span data-ttu-id="b452a-186">Microsoft Dynamics ERP Microservices CDS</span><span class="sxs-lookup"><span data-stu-id="b452a-186">Microsoft Dynamics ERP Microservices CDS</span></span> | <span data-ttu-id="b452a-187">703e2651-d3fc-48f5-942c-74274233dba8</span><span class="sxs-lookup"><span data-stu-id="b452a-187">703e2651-d3fc-48f5-942c-74274233dba8</span></span> |
+    | <span data-ttu-id="b452a-188">خدمة تخويل AI Builder</span><span class="sxs-lookup"><span data-stu-id="b452a-188">AI Builder Authorization Service</span></span>         | <span data-ttu-id="b452a-189">ad40333e-9910-4b61-b281-e3aeeb8c3ef3</span><span class="sxs-lookup"><span data-stu-id="b452a-189">ad40333e-9910-4b61-b281-e3aeeb8c3ef3</span></span> |
 
-<span data-ttu-id="86edc-190">في حالة تعذر العثور على أي من التطبيقات السابقة، حاول القيام بالخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="86edc-190">If you can't find any of the preceding applications, try the following steps.</span></span>
+<span data-ttu-id="b452a-190">في حالة تعذر العثور على أي من التطبيقات السابقة، حاول القيام بالخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="b452a-190">If you can't find any of the preceding applications, try the following steps.</span></span>
 
-1. <span data-ttu-id="86edc-191">على جهازك المحلي، حدد القائمة **ابدأ**، وابحث عن **powershell**.</span><span class="sxs-lookup"><span data-stu-id="86edc-191">On your local machine, select the **Start** menu, and search for **powershell**.</span></span>
-2. <span data-ttu-id="86edc-192">حدد واستمر في الضغط (أو انقر بزر الماوس الأيمن) **Windows PowerShell**، ثم حدد **تشغيل كمسؤول**.</span><span class="sxs-lookup"><span data-stu-id="86edc-192">Select and hold (or right-click) **Windows PowerShell**, and then select **Run as administrator**.</span></span>
-3. <span data-ttu-id="86edc-193">قم بتشغيل الأمر التالي لتثبيت الوحدة النمطية **AzureAD**.</span><span class="sxs-lookup"><span data-stu-id="86edc-193">Run the following command to install the **AzureAD** module.</span></span>
+1. <span data-ttu-id="b452a-191">على جهازك المحلي، حدد القائمة **ابدأ**، وابحث عن **powershell**.</span><span class="sxs-lookup"><span data-stu-id="b452a-191">On your local machine, select the **Start** menu, and search for **powershell**.</span></span>
+2. <span data-ttu-id="b452a-192">حدد واستمر في الضغط (أو انقر بزر الماوس الأيمن) **Windows PowerShell**، ثم حدد **تشغيل كمسؤول**.</span><span class="sxs-lookup"><span data-stu-id="b452a-192">Select and hold (or right-click) **Windows PowerShell**, and then select **Run as administrator**.</span></span>
+3. <span data-ttu-id="b452a-193">قم بتشغيل الأمر التالي لتثبيت الوحدة النمطية **AzureAD**.</span><span class="sxs-lookup"><span data-stu-id="b452a-193">Run the following command to install the **AzureAD** module.</span></span>
 
     `Install-Module -Name AzureAD`
 
-4. <span data-ttu-id="86edc-194">إذا كان موفر NuGet مطلوبًا للمتابعة، حدد **Y** لتثبيته.</span><span class="sxs-lookup"><span data-stu-id="86edc-194">If a NuGet provider is required to continue, select **Y** to install it.</span></span>
-5. <span data-ttu-id="86edc-195">إذا ظهرت رسالة "مستودع غير موثوق به"، حدد **Y** للمتابعة.</span><span class="sxs-lookup"><span data-stu-id="86edc-195">If an "Untrusted repository" message appears, select **Y** to continue.</span></span>
-6. <span data-ttu-id="86edc-196">بالنسبة لكل تطبيق يجب إضافته، قم بتشغيل الأوامر التالية لإضافة التطبيق إلى Azure AD.</span><span class="sxs-lookup"><span data-stu-id="86edc-196">For each application that must be added, run the following commands to add the application to Azure AD.</span></span> <span data-ttu-id="86edc-197">عند المطالبة، قم بتسجيل الدخول كمسؤول Azure AD.</span><span class="sxs-lookup"><span data-stu-id="86edc-197">When you're prompted, sign in as the Azure AD administrator.</span></span>
+4. <span data-ttu-id="b452a-194">إذا كان موفر NuGet مطلوبًا للمتابعة، حدد **Y** لتثبيته.</span><span class="sxs-lookup"><span data-stu-id="b452a-194">If a NuGet provider is required to continue, select **Y** to install it.</span></span>
+5. <span data-ttu-id="b452a-195">إذا ظهرت رسالة "مستودع غير موثوق به"، حدد **Y** للمتابعة.</span><span class="sxs-lookup"><span data-stu-id="b452a-195">If an "Untrusted repository" message appears, select **Y** to continue.</span></span>
+6. <span data-ttu-id="b452a-196">بالنسبة لكل تطبيق يجب إضافته، قم بتشغيل الأوامر التالية لإضافة التطبيق إلى Azure AD.</span><span class="sxs-lookup"><span data-stu-id="b452a-196">For each application that must be added, run the following commands to add the application to Azure AD.</span></span> <span data-ttu-id="b452a-197">عند المطالبة، قم بتسجيل الدخول كمسؤول Azure AD.</span><span class="sxs-lookup"><span data-stu-id="b452a-197">When you're prompted, sign in as the Azure AD administrator.</span></span>
 
     `Connect-AzureAD`
 
     `New-AzureADServicePrincipal –AppId <AppId>`
 
-#### <a name="create-azure-resources"></a><span data-ttu-id="86edc-198">إنشاء موارد Azure</span><span class="sxs-lookup"><span data-stu-id="86edc-198">Create Azure resources</span></span>
+#### <a name="create-azure-resources"></a><span data-ttu-id="b452a-198">إنشاء موارد Azure</span><span class="sxs-lookup"><span data-stu-id="b452a-198">Create Azure resources</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="86edc-199">تأكد من إنشاء الموارد التالية في مثيل Azure AD نفسه كبيئة Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="86edc-199">Make sure that you create the following resources in the same Azure AD instance as the Common Data Service environment.</span></span> <span data-ttu-id="86edc-200">لا يمكنك استخدام موارد من مثيل Azure AD مختلف.</span><span class="sxs-lookup"><span data-stu-id="86edc-200">You can't use resources from a different Azure AD instance.</span></span>
+> <span data-ttu-id="b452a-199">تأكد من إنشاء الموارد التالية في مثيل Azure AD نفسه كبيئة Dataverse.</span><span class="sxs-lookup"><span data-stu-id="b452a-199">Make sure that you create the following resources in the same Azure AD instance as the Dataverse environment.</span></span> <span data-ttu-id="b452a-200">لا يمكنك استخدام موارد من مثيل Azure AD مختلف.</span><span class="sxs-lookup"><span data-stu-id="b452a-200">You can't use resources from a different Azure AD instance.</span></span>
 
-1. <span data-ttu-id="86edc-201">قم بإنشاء حساب تخزين جديد:</span><span class="sxs-lookup"><span data-stu-id="86edc-201">Create a new storage account:</span></span>
+1. <span data-ttu-id="b452a-201">قم بإنشاء حساب تخزين جديد:</span><span class="sxs-lookup"><span data-stu-id="b452a-201">Create a new storage account:</span></span>
 
-    1. <span data-ttu-id="86edc-202">في [مدخل Azure](https://portal.azure.com)، قم بحساب تخزين.</span><span class="sxs-lookup"><span data-stu-id="86edc-202">In the [Azure portal](https://portal.azure.com), create a storage account.</span></span>
-    2. <span data-ttu-id="86edc-203">في مربع الحوار **إنشاء حساب تخزين**، قم بتعيين الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="86edc-203">In the **Create storage account** dialog box, set the following fields:</span></span>
+    1. <span data-ttu-id="b452a-202">في [مدخل Azure](https://portal.azure.com)، قم بحساب تخزين.</span><span class="sxs-lookup"><span data-stu-id="b452a-202">In the [Azure portal](https://portal.azure.com), create a storage account.</span></span>
+    2. <span data-ttu-id="b452a-203">في مربع الحوار **إنشاء حساب تخزين**، قم بتعيين الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="b452a-203">In the **Create storage account** dialog box, set the following fields:</span></span>
 
-        - <span data-ttu-id="86edc-204">**الموقع** – حدد مركز البيانات الذي تقع فيه البيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="86edc-204">**Location** – Select the data center where your environment is located.</span></span>
-        - <span data-ttu-id="86edc-205">**الأداء** – إننا نوصي بأن تقوم بتحديد **قياسي**.</span><span class="sxs-lookup"><span data-stu-id="86edc-205">**Performance** – We recommend that you select **Standard**.</span></span>
-        - <span data-ttu-id="86edc-206">**نوع الحساب** – يجب تحديد **StorageV2**.</span><span class="sxs-lookup"><span data-stu-id="86edc-206">**Account kind** – You must select **StorageV2**.</span></span>
+        - <span data-ttu-id="b452a-204">**الموقع** – حدد مركز البيانات الذي تقع فيه البيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="b452a-204">**Location** – Select the data center where your environment is located.</span></span>
+        - <span data-ttu-id="b452a-205">**الأداء** – إننا نوصي بأن تقوم بتحديد **قياسي**.</span><span class="sxs-lookup"><span data-stu-id="b452a-205">**Performance** – We recommend that you select **Standard**.</span></span>
+        - <span data-ttu-id="b452a-206">**نوع الحساب** – يجب تحديد **StorageV2**.</span><span class="sxs-lookup"><span data-stu-id="b452a-206">**Account kind** – You must select **StorageV2**.</span></span>
 
-    3. <span data-ttu-id="86edc-207">في مربع الحوار **خيارات متقدمة**، بالنسبة للخيار **Data Lake storage Gen2**، حدد **تمكين** ضمن ميزة **مساحات الأسماء الهرمية**.</span><span class="sxs-lookup"><span data-stu-id="86edc-207">In the **Advanced options** dialog box, for the **Data Lake storage Gen2** option, select **Enable** under the **Hierarchical namespaces** feature.</span></span> <span data-ttu-id="86edc-208">في حالة تعطيل هذه الميزة، فإنه لا يمكنك استهلاك البيانات التي يكتبها تطبيق Finance and Operations باستخدام خدمات مثل تدفقات بيانات Power BI.</span><span class="sxs-lookup"><span data-stu-id="86edc-208">If you disable this feature, you can't consume data that Finance and Operations apps write by using services such as Power BI data flows.</span></span>
-    4. <span data-ttu-id="86edc-209">حدد **مراجعة وإنشاء**.</span><span class="sxs-lookup"><span data-stu-id="86edc-209">Select **Review and create**.</span></span> <span data-ttu-id="86edc-210">عند اكتمال النشر، سيظهر المورد الجديد في مدخل Azure.</span><span class="sxs-lookup"><span data-stu-id="86edc-210">When the deployment is completed, the new resource will be shown in the Azure portal.</span></span>
-    5. <span data-ttu-id="86edc-211">انتقل إلى حساب التخزين الذي قمت بإنشائه.</span><span class="sxs-lookup"><span data-stu-id="86edc-211">Go to the storage account that you created.</span></span>
-    6. <span data-ttu-id="86edc-212">في القائمة اليمنى، حدد **مفاتيح الوصول**.</span><span class="sxs-lookup"><span data-stu-id="86edc-212">On the left menu, select **Access keys**.</span></span>
-    7. <span data-ttu-id="86edc-213">قم بنسخ سلسلة الاتصال وحفظها إما إلى **Key1** أو **Key2**.</span><span class="sxs-lookup"><span data-stu-id="86edc-213">Copy and save the connection string for either **Key1** or **Key2**.</span></span>
-    8. <span data-ttu-id="86edc-214">قم بنسخ اسم حساب التخزين وحفظه.</span><span class="sxs-lookup"><span data-stu-id="86edc-214">Copy and save the storage account name.</span></span>
+    3. <span data-ttu-id="b452a-207">في مربع الحوار **خيارات متقدمة**، بالنسبة للخيار **Data Lake storage Gen2**، حدد **تمكين** ضمن ميزة **مساحات الأسماء الهرمية**.</span><span class="sxs-lookup"><span data-stu-id="b452a-207">In the **Advanced options** dialog box, for the **Data Lake storage Gen2** option, select **Enable** under the **Hierarchical namespaces** feature.</span></span> <span data-ttu-id="b452a-208">في حالة تعطيل هذه الميزة، فإنه لا يمكنك استهلاك البيانات التي يكتبها تطبيق Finance and Operations باستخدام خدمات مثل تدفقات بيانات Power BI.</span><span class="sxs-lookup"><span data-stu-id="b452a-208">If you disable this feature, you can't consume data that Finance and Operations apps write by using services such as Power BI data flows.</span></span>
+    4. <span data-ttu-id="b452a-209">حدد **مراجعة وإنشاء**.</span><span class="sxs-lookup"><span data-stu-id="b452a-209">Select **Review and create**.</span></span> <span data-ttu-id="b452a-210">عند اكتمال النشر، سيظهر المورد الجديد في مدخل Azure.</span><span class="sxs-lookup"><span data-stu-id="b452a-210">When the deployment is completed, the new resource will be shown in the Azure portal.</span></span>
+    5. <span data-ttu-id="b452a-211">انتقل إلى حساب التخزين الذي قمت بإنشائه.</span><span class="sxs-lookup"><span data-stu-id="b452a-211">Go to the storage account that you created.</span></span>
+    6. <span data-ttu-id="b452a-212">في القائمة اليمنى، حدد **مفاتيح الوصول**.</span><span class="sxs-lookup"><span data-stu-id="b452a-212">On the left menu, select **Access keys**.</span></span>
+    7. <span data-ttu-id="b452a-213">قم بنسخ سلسلة الاتصال وحفظها إما إلى **Key1** أو **Key2**.</span><span class="sxs-lookup"><span data-stu-id="b452a-213">Copy and save the connection string for either **Key1** or **Key2**.</span></span>
+    8. <span data-ttu-id="b452a-214">قم بنسخ اسم حساب التخزين وحفظه.</span><span class="sxs-lookup"><span data-stu-id="b452a-214">Copy and save the storage account name.</span></span>
 
-2. <span data-ttu-id="86edc-215">إنشاء مخزن رئيسي جديد:</span><span class="sxs-lookup"><span data-stu-id="86edc-215">Create a new key vault:</span></span>
+2. <span data-ttu-id="b452a-215">إنشاء مخزن رئيسي جديد:</span><span class="sxs-lookup"><span data-stu-id="b452a-215">Create a new key vault:</span></span>
 
-    1. <span data-ttu-id="86edc-216">في [مدخل Azure](https://portal.azure.com)، قم إنشاء مخزن رئيسي.</span><span class="sxs-lookup"><span data-stu-id="86edc-216">In the [Azure portal](https://portal.azure.com), create a key vault.</span></span>
-    2. <span data-ttu-id="86edc-217">في مربع الحوار **إنشاء مخزن رئيسي**، في الحقل **الموقع**، حدد مركز البيانات الذي تقع فيه البيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="86edc-217">In the **Create key vault** dialog box, in the **Location** field, select the data center where your environment is located.</span></span>
-    3. <span data-ttu-id="86edc-218">بعد إنشاء مخزن رئيسي، حدده في القائمة، ثم حدد **الأسرار**.</span><span class="sxs-lookup"><span data-stu-id="86edc-218">After key vault is created, select it in the list, and then select **Secrets**.</span></span>
-    4. <span data-ttu-id="86edc-219">حدد **إنشاء/استيراد**.</span><span class="sxs-lookup"><span data-stu-id="86edc-219">Select **Generate/Import**.</span></span>
-    5. <span data-ttu-id="86edc-220">في مربع الحوار **إنشاء سر**، في الحقل **خيارات التحميل**، حدد **يدوي**.</span><span class="sxs-lookup"><span data-stu-id="86edc-220">In the **Create a secret** dialog box, in the **Upload options** field, select **Manual**.</span></span>
-    6. <span data-ttu-id="86edc-221">أدخل اسمًا للسر.</span><span class="sxs-lookup"><span data-stu-id="86edc-221">Enter a name for the secret.</span></span> <span data-ttu-id="86edc-222">قم بتدوين الاسم، لأنه سيتعين عليك توفيره لاحقًا.</span><span class="sxs-lookup"><span data-stu-id="86edc-222">Make a note of the name, because you will have to provide it later.</span></span>
-    7. <span data-ttu-id="86edc-223">في الحقل **القيمة**، أدخل سلسلة الاتصال التي حصلت عليها من حساب التخزين في الإجراء السابق.</span><span class="sxs-lookup"><span data-stu-id="86edc-223">In the **Value** field, enter the connection string that you obtained from the storage account in the previous procedure.</span></span>
-    8. <span data-ttu-id="86edc-224">حدد **ممكّن‬‬‏‫**، ثم حدد **إنشاء**.</span><span class="sxs-lookup"><span data-stu-id="86edc-224">Select **Enabled**, and then select **Create**.</span></span> <span data-ttu-id="86edc-225">يتم إنشاء السر وإضافة إلى مخزن رئيسي.</span><span class="sxs-lookup"><span data-stu-id="86edc-225">The secret is created and added to Key Vault.</span></span>
-    9. <span data-ttu-id="86edc-226">انتقل إلى **نظرة عامة حول مخزن رئيسي**، وقم بتدوين اسم DNS.</span><span class="sxs-lookup"><span data-stu-id="86edc-226">Go to the **Key Vault Overview**, and make a note of the DNS name.</span></span>
+    1. <span data-ttu-id="b452a-216">في [مدخل Azure](https://portal.azure.com)، قم إنشاء مخزن رئيسي.</span><span class="sxs-lookup"><span data-stu-id="b452a-216">In the [Azure portal](https://portal.azure.com), create a key vault.</span></span>
+    2. <span data-ttu-id="b452a-217">في مربع الحوار **إنشاء مخزن رئيسي**، في الحقل **الموقع**، حدد مركز البيانات الذي تقع فيه البيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="b452a-217">In the **Create key vault** dialog box, in the **Location** field, select the data center where your environment is located.</span></span>
+    3. <span data-ttu-id="b452a-218">بعد إنشاء مخزن رئيسي، حدده في القائمة، ثم حدد **الأسرار**.</span><span class="sxs-lookup"><span data-stu-id="b452a-218">After key vault is created, select it in the list, and then select **Secrets**.</span></span>
+    4. <span data-ttu-id="b452a-219">حدد **إنشاء/استيراد**.</span><span class="sxs-lookup"><span data-stu-id="b452a-219">Select **Generate/Import**.</span></span>
+    5. <span data-ttu-id="b452a-220">في مربع الحوار **إنشاء سر**، في الحقل **خيارات التحميل**، حدد **يدوي**.</span><span class="sxs-lookup"><span data-stu-id="b452a-220">In the **Create a secret** dialog box, in the **Upload options** field, select **Manual**.</span></span>
+    6. <span data-ttu-id="b452a-221">أدخل اسمًا للسر.</span><span class="sxs-lookup"><span data-stu-id="b452a-221">Enter a name for the secret.</span></span> <span data-ttu-id="b452a-222">قم بتدوين الاسم، لأنه سيتعين عليك توفيره لاحقًا.</span><span class="sxs-lookup"><span data-stu-id="b452a-222">Make a note of the name, because you will have to provide it later.</span></span>
+    7. <span data-ttu-id="b452a-223">في الحقل **القيمة**، أدخل سلسلة الاتصال التي حصلت عليها من حساب التخزين في الإجراء السابق.</span><span class="sxs-lookup"><span data-stu-id="b452a-223">In the **Value** field, enter the connection string that you obtained from the storage account in the previous procedure.</span></span>
+    8. <span data-ttu-id="b452a-224">حدد **ممكّن‬‬‏‫**، ثم حدد **إنشاء**.</span><span class="sxs-lookup"><span data-stu-id="b452a-224">Select **Enabled**, and then select **Create**.</span></span> <span data-ttu-id="b452a-225">يتم إنشاء السر وإضافة إلى مخزن رئيسي.</span><span class="sxs-lookup"><span data-stu-id="b452a-225">The secret is created and added to Key Vault.</span></span>
+    9. <span data-ttu-id="b452a-226">انتقل إلى **نظرة عامة حول مخزن رئيسي**، وقم بتدوين اسم DNS.</span><span class="sxs-lookup"><span data-stu-id="b452a-226">Go to the **Key Vault Overview**, and make a note of the DNS name.</span></span>
 
-3. <span data-ttu-id="86edc-227">إنشاء وتسجيل تطبيق Azure AD:</span><span class="sxs-lookup"><span data-stu-id="86edc-227">Create and register an Azure AD application:</span></span>
+3. <span data-ttu-id="b452a-227">إنشاء وتسجيل تطبيق Azure AD:</span><span class="sxs-lookup"><span data-stu-id="b452a-227">Create and register an Azure AD application:</span></span>
 
-    1. <span data-ttu-id="86edc-228">في [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory**، ثم حدد **عمليات تسجيل التطبيق**.</span><span class="sxs-lookup"><span data-stu-id="86edc-228">In the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and then select **App registrations**.</span></span>
-    2. <span data-ttu-id="86edc-229">حدد **تسجيل تطبيق جديد**، ثم قم بتعيين الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="86edc-229">Select **New application registration**, and set the following fields:</span></span>
+    1. <span data-ttu-id="b452a-228">في [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory**، ثم حدد **عمليات تسجيل التطبيق**.</span><span class="sxs-lookup"><span data-stu-id="b452a-228">In the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and then select **App registrations**.</span></span>
+    2. <span data-ttu-id="b452a-229">حدد **تسجيل تطبيق جديد**، ثم قم بتعيين الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="b452a-229">Select **New application registration**, and set the following fields:</span></span>
 
-        - <span data-ttu-id="86edc-230">**الاسم** - أدخل اسم التطبيق.</span><span class="sxs-lookup"><span data-stu-id="86edc-230">**Name** – Enter the name of the app.</span></span>
-        - <span data-ttu-id="86edc-231">**نوع التطبيق** – حدد **API للويب**.</span><span class="sxs-lookup"><span data-stu-id="86edc-231">**Application type** – Select **Web API**.</span></span>
-        - <span data-ttu-id="86edc-232">**إعادة توجيه إعداد عنوان URI** – أدخل عنوان URL لمثيل Dynamics 365 الخاص بك، مثل، `https://yourdynamicsinstance.dynamics.com/auth`.</span><span class="sxs-lookup"><span data-stu-id="86edc-232">**Redirect URI setup** – Enter the URL for your Dynamics 365 instance, such as, `https://yourdynamicsinstance.dynamics.com/auth`.</span></span>
+        - <span data-ttu-id="b452a-230">**الاسم** - أدخل اسم التطبيق.</span><span class="sxs-lookup"><span data-stu-id="b452a-230">**Name** – Enter the name of the app.</span></span>
+        - <span data-ttu-id="b452a-231">**نوع التطبيق** – حدد **API للويب**.</span><span class="sxs-lookup"><span data-stu-id="b452a-231">**Application type** – Select **Web API**.</span></span>
+        - <span data-ttu-id="b452a-232">**إعادة توجيه إعداد عنوان URI** – أدخل عنوان URL لمثيل Dynamics 365 الخاص بك، مثل، `https://yourdynamicsinstance.dynamics.com/auth`.</span><span class="sxs-lookup"><span data-stu-id="b452a-232">**Redirect URI setup** – Enter the URL for your Dynamics 365 instance, such as, `https://yourdynamicsinstance.dynamics.com/auth`.</span></span>
 
-    3. <span data-ttu-id="86edc-233">انتقل إلى التطبيق الذي قمت بإنشائه الآن، وقم بنسخ وحفظ قيمة **معرف تطبيق (عميل) الخاصة بالتطبيق**.</span><span class="sxs-lookup"><span data-stu-id="86edc-233">Go to the app that you just created, and copy and save its **Application (client) ID** value.</span></span> <span data-ttu-id="86edc-234">سيتعين عليك توفير هذه القيمة لاحقًا، عند إعداد المخزن الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="86edc-234">You will have to provide this value later, when you set up the key vault.</span></span>
-    4. <span data-ttu-id="86edc-235">انتقل إلى **أذونات API**، واتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="86edc-235">Go to **API permissions**, and follow these steps:</span></span>
+    3. <span data-ttu-id="b452a-233">انتقل إلى التطبيق الذي قمت بإنشائه الآن، وقم بنسخ وحفظ قيمة **معرف تطبيق (عميل) الخاصة بالتطبيق**.</span><span class="sxs-lookup"><span data-stu-id="b452a-233">Go to the app that you just created, and copy and save its **Application (client) ID** value.</span></span> <span data-ttu-id="b452a-234">سيتعين عليك توفير هذه القيمة لاحقًا، عند إعداد المخزن الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="b452a-234">You will have to provide this value later, when you set up the key vault.</span></span>
+    4. <span data-ttu-id="b452a-235">انتقل إلى **أذونات API**، واتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="b452a-235">Go to **API permissions**, and follow these steps:</span></span>
 
-        1. <span data-ttu-id="86edc-236">حدد **إضافة إذن**.</span><span class="sxs-lookup"><span data-stu-id="86edc-236">Select **Add a permission**.</span></span>
-        2. <span data-ttu-id="86edc-237">حدد **مخزن Azure رئيسي**.</span><span class="sxs-lookup"><span data-stu-id="86edc-237">Select **Azure Key vault**.</span></span>
-        3. <span data-ttu-id="86edc-238">بعد تحديد الأذونات المفوضة، حدد **user\_impersonation**.</span><span class="sxs-lookup"><span data-stu-id="86edc-238">After you select delegated permissions, select **user\_impersonation**.</span></span>
-        4. <span data-ttu-id="86edc-239">حدد **إضافة أذونات**.</span><span class="sxs-lookup"><span data-stu-id="86edc-239">Select **Add permissions**.</span></span>
+        1. <span data-ttu-id="b452a-236">حدد **إضافة إذن**.</span><span class="sxs-lookup"><span data-stu-id="b452a-236">Select **Add a permission**.</span></span>
+        2. <span data-ttu-id="b452a-237">حدد **مخزن Azure رئيسي**.</span><span class="sxs-lookup"><span data-stu-id="b452a-237">Select **Azure Key vault**.</span></span>
+        3. <span data-ttu-id="b452a-238">بعد تحديد الأذونات المفوضة، حدد **user\_impersonation**.</span><span class="sxs-lookup"><span data-stu-id="b452a-238">After you select delegated permissions, select **user\_impersonation**.</span></span>
+        4. <span data-ttu-id="b452a-239">حدد **إضافة أذونات**.</span><span class="sxs-lookup"><span data-stu-id="b452a-239">Select **Add permissions**.</span></span>
 
-    5. <span data-ttu-id="86edc-240">في القائمة الخاصة بالتطبيق، حدد **الشهادات \& الأسرار**، ثم اتبع الخطوات التالية لإنشاء أسرار المخزن الرئيسي:</span><span class="sxs-lookup"><span data-stu-id="86edc-240">On the menu for the app, select **Certificates \& secrets**, and then follow these steps to create Key Vault secrets:</span></span>
+    5. <span data-ttu-id="b452a-240">في القائمة الخاصة بالتطبيق، حدد **الشهادات \& الأسرار**، ثم اتبع الخطوات التالية لإنشاء أسرار المخزن الرئيسي:</span><span class="sxs-lookup"><span data-stu-id="b452a-240">On the menu for the app, select **Certificates \& secrets**, and then follow these steps to create Key Vault secrets:</span></span>
 
-        1. <span data-ttu-id="86edc-241">حدد **سر عميل جديد**.</span><span class="sxs-lookup"><span data-stu-id="86edc-241">Select **New client secret**.</span></span>
-        2. <span data-ttu-id="86edc-242">في الحقل **الوصف الرئيسي**، أدخل اسمًا.</span><span class="sxs-lookup"><span data-stu-id="86edc-242">In the **Key Description** field, enter a name.</span></span>
-        3. <span data-ttu-id="86edc-243">حدد مدة، ثم حدد **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-243">Select a duration, and then select **Add**.</span></span> <span data-ttu-id="86edc-244">يتم إنشاء سر في الحفل **القيمة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-244">A secret is generated in the **Value** field.</span></span>
-        4. <span data-ttu-id="86edc-245">قم بنسخ القيمة السرية وحفظها.</span><span class="sxs-lookup"><span data-stu-id="86edc-245">Copy and save the secret value.</span></span>
+        1. <span data-ttu-id="b452a-241">حدد **سر عميل جديد**.</span><span class="sxs-lookup"><span data-stu-id="b452a-241">Select **New client secret**.</span></span>
+        2. <span data-ttu-id="b452a-242">في الحقل **الوصف الرئيسي**، أدخل اسمًا.</span><span class="sxs-lookup"><span data-stu-id="b452a-242">In the **Key Description** field, enter a name.</span></span>
+        3. <span data-ttu-id="b452a-243">حدد مدة، ثم حدد **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-243">Select a duration, and then select **Add**.</span></span> <span data-ttu-id="b452a-244">يتم إنشاء سر في الحفل **القيمة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-244">A secret is generated in the **Value** field.</span></span>
+        4. <span data-ttu-id="b452a-245">قم بنسخ القيمة السرية وحفظها.</span><span class="sxs-lookup"><span data-stu-id="b452a-245">Copy and save the secret value.</span></span>
 
-4. <span data-ttu-id="86edc-246">إنشاء أسرار المخزن الرئيسي:</span><span class="sxs-lookup"><span data-stu-id="86edc-246">Create Key Vault secrets:</span></span>
+4. <span data-ttu-id="b452a-246">إنشاء أسرار المخزن الرئيسي:</span><span class="sxs-lookup"><span data-stu-id="b452a-246">Create Key Vault secrets:</span></span>
 
-    1. <span data-ttu-id="86edc-247">انتقل إلى المخزن الرئيسي الذي قمت بإنشائه سابقًا، وحدد **الأسرار**.</span><span class="sxs-lookup"><span data-stu-id="86edc-247">Go to the key vault that you created earlier, and select **Secrets**.</span></span>
-    2. <span data-ttu-id="86edc-248">بالنسبة لكل اسم سري في الجدول التالي، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="86edc-248">For each secret name in the following table, follow these steps:</span></span>
+    1. <span data-ttu-id="b452a-247">انتقل إلى المخزن الرئيسي الذي قمت بإنشائه سابقًا، وحدد **الأسرار**.</span><span class="sxs-lookup"><span data-stu-id="b452a-247">Go to the key vault that you created earlier, and select **Secrets**.</span></span>
+    2. <span data-ttu-id="b452a-248">بالنسبة لكل اسم سري في الجدول التالي، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="b452a-248">For each secret name in the following table, follow these steps:</span></span>
 
-        1. <span data-ttu-id="86edc-249">حدد **إنشاء/استيراد**.</span><span class="sxs-lookup"><span data-stu-id="86edc-249">Select **Generate/Import**.</span></span>
-        2. <span data-ttu-id="86edc-250">في مربع الحوار **إنشاء سر**، في الحقل **خيارات التحميل**، حدد **يدوي**.</span><span class="sxs-lookup"><span data-stu-id="86edc-250">In the **Create a secret** dialog box, in the **Upload options** field, select **Manual**.</span></span>
-        3. <span data-ttu-id="86edc-251">قم بإنشاء الاسم السري والقيمة من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="86edc-251">Create the secret name and value from the following table.</span></span>
-        4. <span data-ttu-id="86edc-252">حدد **ممكّن‬‬‏‫**، ثم حدد **إنشاء**.</span><span class="sxs-lookup"><span data-stu-id="86edc-252">Select **Enabled**, and then select **Create**.</span></span> <span data-ttu-id="86edc-253">يتم إنشاء السر وإضافة إلى مخزن رئيسي.</span><span class="sxs-lookup"><span data-stu-id="86edc-253">The secret is created and added to Key Vault.</span></span>
+        1. <span data-ttu-id="b452a-249">حدد **إنشاء/استيراد**.</span><span class="sxs-lookup"><span data-stu-id="b452a-249">Select **Generate/Import**.</span></span>
+        2. <span data-ttu-id="b452a-250">في مربع الحوار **إنشاء سر**، في الحقل **خيارات التحميل**، حدد **يدوي**.</span><span class="sxs-lookup"><span data-stu-id="b452a-250">In the **Create a secret** dialog box, in the **Upload options** field, select **Manual**.</span></span>
+        3. <span data-ttu-id="b452a-251">قم بإنشاء الاسم السري والقيمة من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="b452a-251">Create the secret name and value from the following table.</span></span>
+        4. <span data-ttu-id="b452a-252">حدد **ممكّن‬‬‏‫**، ثم حدد **إنشاء**.</span><span class="sxs-lookup"><span data-stu-id="b452a-252">Select **Enabled**, and then select **Create**.</span></span> <span data-ttu-id="b452a-253">يتم إنشاء السر وإضافة إلى مخزن رئيسي.</span><span class="sxs-lookup"><span data-stu-id="b452a-253">The secret is created and added to Key Vault.</span></span>
 
-        | <span data-ttu-id="86edc-254">اسم السر</span><span class="sxs-lookup"><span data-stu-id="86edc-254">Secret name</span></span>                       | <span data-ttu-id="86edc-255">قيمة سرية</span><span class="sxs-lookup"><span data-stu-id="86edc-255">Secret value</span></span>                                                                                |
+        | <span data-ttu-id="b452a-254">اسم السر</span><span class="sxs-lookup"><span data-stu-id="b452a-254">Secret name</span></span>                       | <span data-ttu-id="b452a-255">قيمة سرية</span><span class="sxs-lookup"><span data-stu-id="b452a-255">Secret value</span></span>                                                                                |
         |-----------------------------------|---------------------------------------------------------------------------------------------|
-        | <span data-ttu-id="86edc-256">معرف التطبيق</span><span class="sxs-lookup"><span data-stu-id="86edc-256">app-id</span></span>                            | <span data-ttu-id="86edc-257">معرف التطبيق الخاص بالتطبيق الذي قمت بإنشائه سابقًا</span><span class="sxs-lookup"><span data-stu-id="86edc-257">The app ID of the application that you created earlier</span></span>                                      |
-        | <span data-ttu-id="86edc-258">سر التطبيق</span><span class="sxs-lookup"><span data-stu-id="86edc-258">app-secret</span></span>                        | <span data-ttu-id="86edc-259">سر العميل الذي قمت بحفظه مسبقًا</span><span class="sxs-lookup"><span data-stu-id="86edc-259">The client secret that you saved earlier</span></span>                                                    |
-        | <span data-ttu-id="86edc-260">اسم حساب التخزين</span><span class="sxs-lookup"><span data-stu-id="86edc-260">storage-account-name</span></span>              | <span data-ttu-id="86edc-261">اسم حساب التخزين الذي قمت بإنشائه مسبقًا، مثل **storageaccount1**</span><span class="sxs-lookup"><span data-stu-id="86edc-261">The name of the storage account that you created earlier, such as **storageaccount1**</span></span>       |
-        | <span data-ttu-id="86edc-262">التخزين-الحساب-الاتصال-السلسلة</span><span class="sxs-lookup"><span data-stu-id="86edc-262">storage-account-connection-string</span></span> | <span data-ttu-id="86edc-263">سلسلة الاتصال التي قمت بنسخها من الصفحة **مفاتيح الوصول** لحساب التخزين</span><span class="sxs-lookup"><span data-stu-id="86edc-263">The connection string that you copied from the **Access keys** page for the storage account</span></span> |
+        | <span data-ttu-id="b452a-256">معرف التطبيق</span><span class="sxs-lookup"><span data-stu-id="b452a-256">app-id</span></span>                            | <span data-ttu-id="b452a-257">معرف التطبيق الخاص بالتطبيق الذي قمت بإنشائه سابقًا</span><span class="sxs-lookup"><span data-stu-id="b452a-257">The app ID of the application that you created earlier</span></span>                                      |
+        | <span data-ttu-id="b452a-258">سر التطبيق</span><span class="sxs-lookup"><span data-stu-id="b452a-258">app-secret</span></span>                        | <span data-ttu-id="b452a-259">سر العميل الذي قمت بحفظه مسبقًا</span><span class="sxs-lookup"><span data-stu-id="b452a-259">The client secret that you saved earlier</span></span>                                                    |
+        | <span data-ttu-id="b452a-260">اسم حساب التخزين</span><span class="sxs-lookup"><span data-stu-id="b452a-260">storage-account-name</span></span>              | <span data-ttu-id="b452a-261">اسم حساب التخزين الذي قمت بإنشائه مسبقًا، مثل **storageaccount1**</span><span class="sxs-lookup"><span data-stu-id="b452a-261">The name of the storage account that you created earlier, such as **storageaccount1**</span></span>       |
+        | <span data-ttu-id="b452a-262">التخزين-الحساب-الاتصال-السلسلة</span><span class="sxs-lookup"><span data-stu-id="b452a-262">storage-account-connection-string</span></span> | <span data-ttu-id="b452a-263">سلسلة الاتصال التي قمت بنسخها من الصفحة **مفاتيح الوصول** لحساب التخزين</span><span class="sxs-lookup"><span data-stu-id="b452a-263">The connection string that you copied from the **Access keys** page for the storage account</span></span> |
 
-5. <span data-ttu-id="86edc-264">تخويل التطبيق للوصول إلى المخزن الرئيسي:</span><span class="sxs-lookup"><span data-stu-id="86edc-264">Authorize the application to access the key vault:</span></span>
+5. <span data-ttu-id="b452a-264">تخويل التطبيق للوصول إلى المخزن الرئيسي:</span><span class="sxs-lookup"><span data-stu-id="b452a-264">Authorize the application to access the key vault:</span></span>
 
-    1. <span data-ttu-id="86edc-265">في [مدخل Azure](https://portal.azure.com)، قم بفتح المخزن الرئيسي الذي قمت بإنشائه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="86edc-265">In the [Azure portal](https://portal.azure.com), open the key vault that you created earlier.</span></span>
-    2. <span data-ttu-id="86edc-266">حدد نهج الوصول.</span><span class="sxs-lookup"><span data-stu-id="86edc-266">Select the access policies.</span></span>
-    3. <span data-ttu-id="86edc-267">بالنسبة لكل تطبيق في الجدول التالي، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="86edc-267">For each application in the following table, follow these steps:</span></span>
+    1. <span data-ttu-id="b452a-265">في [مدخل Azure](https://portal.azure.com)، قم بفتح المخزن الرئيسي الذي قمت بإنشائه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="b452a-265">In the [Azure portal](https://portal.azure.com), open the key vault that you created earlier.</span></span>
+    2. <span data-ttu-id="b452a-266">حدد نهج الوصول.</span><span class="sxs-lookup"><span data-stu-id="b452a-266">Select the access policies.</span></span>
+    3. <span data-ttu-id="b452a-267">بالنسبة لكل تطبيق في الجدول التالي، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="b452a-267">For each application in the following table, follow these steps:</span></span>
 
-        1. <span data-ttu-id="86edc-268">حدد **إضافة نهج وصول** لإنشاء سياسة وصول.</span><span class="sxs-lookup"><span data-stu-id="86edc-268">Select **Add Access Policy** to create an access policy.</span></span>
-        2. <span data-ttu-id="86edc-269">في الحقل **الأذونات السرية**، حدد الأذونات من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="86edc-269">In the **Secret permissions** field, select the permissions from the following table.</span></span>
-        3. <span data-ttu-id="86edc-270">في الحقل **تحديد الرئيسي**، ابحث عن اسم عرض التطبيق من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="86edc-270">In the **Select principal** field, search for the application display name from the following table.</span></span>
-        4. <span data-ttu-id="86edc-271">حدد **تحديد**.</span><span class="sxs-lookup"><span data-stu-id="86edc-271">Select **Select**.</span></span>
-        5. <span data-ttu-id="86edc-272">حدد **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-272">Select **Add**.</span></span>
-        6. <span data-ttu-id="86edc-273">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="86edc-273">Select **Save**.</span></span>
+        1. <span data-ttu-id="b452a-268">حدد **إضافة نهج وصول** لإنشاء سياسة وصول.</span><span class="sxs-lookup"><span data-stu-id="b452a-268">Select **Add Access Policy** to create an access policy.</span></span>
+        2. <span data-ttu-id="b452a-269">في الحقل **الأذونات السرية**، حدد الأذونات من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="b452a-269">In the **Secret permissions** field, select the permissions from the following table.</span></span>
+        3. <span data-ttu-id="b452a-270">في الحقل **تحديد الرئيسي**، ابحث عن اسم عرض التطبيق من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="b452a-270">In the **Select principal** field, search for the application display name from the following table.</span></span>
+        4. <span data-ttu-id="b452a-271">حدد **تحديد**.</span><span class="sxs-lookup"><span data-stu-id="b452a-271">Select **Select**.</span></span>
+        5. <span data-ttu-id="b452a-272">حدد **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-272">Select **Add**.</span></span>
+        6. <span data-ttu-id="b452a-273">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="b452a-273">Select **Save**.</span></span>
 
-        | <span data-ttu-id="86edc-274">استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="86edc-274">Application</span></span>                                              | <span data-ttu-id="86edc-275">الأذونات</span><span class="sxs-lookup"><span data-stu-id="86edc-275">Permissions</span></span> |
+        | <span data-ttu-id="b452a-274">استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="b452a-274">Application</span></span>                                              | <span data-ttu-id="b452a-275">الأذونات</span><span class="sxs-lookup"><span data-stu-id="b452a-275">Permissions</span></span> |
         |----------------------------------------------------------|-------------|
-        | <span data-ttu-id="86edc-276">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="86edc-276">The display name of the new application that you created</span></span> | <span data-ttu-id="86edc-277">الحصول على، قائمة</span><span class="sxs-lookup"><span data-stu-id="86edc-277">Get, List</span></span>   |
-        | <span data-ttu-id="86edc-278">**Microsoft Dynamics ERP Microservices**</span><span class="sxs-lookup"><span data-stu-id="86edc-278">**Microsoft Dynamics ERP Microservices**</span></span>                 | <span data-ttu-id="86edc-279">الحصول على، قائمة</span><span class="sxs-lookup"><span data-stu-id="86edc-279">Get, List</span></span>   |
+        | <span data-ttu-id="b452a-276">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="b452a-276">The display name of the new application that you created</span></span> | <span data-ttu-id="b452a-277">الحصول على، قائمة</span><span class="sxs-lookup"><span data-stu-id="b452a-277">Get, List</span></span>   |
+        | <span data-ttu-id="b452a-278">**Microsoft Dynamics ERP Microservices**</span><span class="sxs-lookup"><span data-stu-id="b452a-278">**Microsoft Dynamics ERP Microservices**</span></span>                 | <span data-ttu-id="b452a-279">الحصول على، قائمة</span><span class="sxs-lookup"><span data-stu-id="b452a-279">Get, List</span></span>   |
 
-6. <span data-ttu-id="86edc-280">قم بتعيين أدوار للوصول إلى حساب التخزين:</span><span class="sxs-lookup"><span data-stu-id="86edc-280">Assign roles to access the storage account:</span></span>
+6. <span data-ttu-id="b452a-280">قم بتعيين أدوار للوصول إلى حساب التخزين:</span><span class="sxs-lookup"><span data-stu-id="b452a-280">Assign roles to access the storage account:</span></span>
 
-    1. <span data-ttu-id="86edc-281">في [مدخل Azure](https://portal.azure.com)، قم بفتح حساب التخزين الذي قمت بإنشائه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="86edc-281">In the [Azure portal](https://portal.azure.com), open the storage account that you created earlier.</span></span>
-    2. <span data-ttu-id="86edc-282">حدد **التحكم في الوصول (IAM)**، ثم حدد **مهمات الأدوار**.</span><span class="sxs-lookup"><span data-stu-id="86edc-282">Select **Access Control (IAM)**, and then select **Role Assignments**.</span></span>
-    3. <span data-ttu-id="86edc-283">حدد **إضافة، أضف مهمة الدور**.</span><span class="sxs-lookup"><span data-stu-id="86edc-283">Select **Add, Add Role Assignment**.</span></span>
-    4. <span data-ttu-id="86edc-284">بالنسبة لكل تطبيق في الجدول التالي، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="86edc-284">For each application in the following table, follow these steps:</span></span>
+    1. <span data-ttu-id="b452a-281">في [مدخل Azure](https://portal.azure.com)، قم بفتح حساب التخزين الذي قمت بإنشائه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="b452a-281">In the [Azure portal](https://portal.azure.com), open the storage account that you created earlier.</span></span>
+    2. <span data-ttu-id="b452a-282">حدد **التحكم في الوصول (IAM)**، ثم حدد **مهمات الأدوار**.</span><span class="sxs-lookup"><span data-stu-id="b452a-282">Select **Access Control (IAM)**, and then select **Role Assignments**.</span></span>
+    3. <span data-ttu-id="b452a-283">حدد **إضافة، أضف مهمة الدور**.</span><span class="sxs-lookup"><span data-stu-id="b452a-283">Select **Add, Add Role Assignment**.</span></span>
+    4. <span data-ttu-id="b452a-284">بالنسبة لكل تطبيق في الجدول التالي، اتبع الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="b452a-284">For each application in the following table, follow these steps:</span></span>
 
-        1. <span data-ttu-id="86edc-285">حدد الدور من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="86edc-285">Select the role from the following table.</span></span>
-        2. <span data-ttu-id="86edc-286">اجعل الحقل **تعيين حق الوصول إلى** على مستخدم **Azure AD أو مجموعة أو كيان الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-286">Leave the **Assign access to** field set to **Azure AD user, group, or service principal**.</span></span>
-        3. <span data-ttu-id="86edc-287">في الحقل **تحديد**، قم بالدخول إلى استمارة التقديم من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="86edc-287">In the **Select** field, enter the application from the following table.</span></span>
-        4. <span data-ttu-id="86edc-288">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="86edc-288">Select **Save**.</span></span>
+        1. <span data-ttu-id="b452a-285">حدد الدور من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="b452a-285">Select the role from the following table.</span></span>
+        2. <span data-ttu-id="b452a-286">اجعل الحقل **تعيين حق الوصول إلى** على مستخدم **Azure AD أو مجموعة أو كيان الخدمة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-286">Leave the **Assign access to** field set to **Azure AD user, group, or service principal**.</span></span>
+        3. <span data-ttu-id="b452a-287">في الحقل **تحديد**، قم بالدخول إلى استمارة التقديم من الجدول التالي.</span><span class="sxs-lookup"><span data-stu-id="b452a-287">In the **Select** field, enter the application from the following table.</span></span>
+        4. <span data-ttu-id="b452a-288">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="b452a-288">Select **Save**.</span></span>
 
-        | <span data-ttu-id="86edc-289">استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="86edc-289">Application</span></span>                                              | <span data-ttu-id="86edc-290">دور</span><span class="sxs-lookup"><span data-stu-id="86edc-290">Role</span></span>                        |
+        | <span data-ttu-id="b452a-289">استمارة التقديم</span><span class="sxs-lookup"><span data-stu-id="b452a-289">Application</span></span>                                              | <span data-ttu-id="b452a-290">دور</span><span class="sxs-lookup"><span data-stu-id="b452a-290">Role</span></span>                        |
         |----------------------------------------------------------|-----------------------------|
-        | <span data-ttu-id="86edc-291">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="86edc-291">The display name of the new application that you created</span></span> | <span data-ttu-id="86edc-292">المالك</span><span class="sxs-lookup"><span data-stu-id="86edc-292">Owner</span></span>                       |
-        | <span data-ttu-id="86edc-293">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="86edc-293">The display name of the new application that you created</span></span> | <span data-ttu-id="86edc-294">المساهم</span><span class="sxs-lookup"><span data-stu-id="86edc-294">Contributor</span></span>                 |
-        | <span data-ttu-id="86edc-295">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="86edc-295">The display name of the new application that you created</span></span> | <span data-ttu-id="86edc-296">المساهم في حساب التخزين</span><span class="sxs-lookup"><span data-stu-id="86edc-296">Storage Account Contributor</span></span> |
-        | <span data-ttu-id="86edc-297">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="86edc-297">The display name of the new application that you created</span></span> | <span data-ttu-id="86edc-298">مالك بيانات التخزين كبيرة الحجم</span><span class="sxs-lookup"><span data-stu-id="86edc-298">Storage Blob Data Owner</span></span>     |
-        | <span data-ttu-id="86edc-299">**خدمة تخويل AI Builder**</span><span class="sxs-lookup"><span data-stu-id="86edc-299">**AI Builder Authorization Service**</span></span>                     | <span data-ttu-id="86edc-300">قارئ بيانات التخزين كبيرة الحجم</span><span class="sxs-lookup"><span data-stu-id="86edc-300">Storage Blob Data Reader</span></span>    |
+        | <span data-ttu-id="b452a-291">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="b452a-291">The display name of the new application that you created</span></span> | <span data-ttu-id="b452a-292">المالك</span><span class="sxs-lookup"><span data-stu-id="b452a-292">Owner</span></span>                       |
+        | <span data-ttu-id="b452a-293">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="b452a-293">The display name of the new application that you created</span></span> | <span data-ttu-id="b452a-294">المساهم</span><span class="sxs-lookup"><span data-stu-id="b452a-294">Contributor</span></span>                 |
+        | <span data-ttu-id="b452a-295">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="b452a-295">The display name of the new application that you created</span></span> | <span data-ttu-id="b452a-296">المساهم في حساب التخزين</span><span class="sxs-lookup"><span data-stu-id="b452a-296">Storage Account Contributor</span></span> |
+        | <span data-ttu-id="b452a-297">اسم عرض التطبيق الجديد الذي قمت بإنشائه</span><span class="sxs-lookup"><span data-stu-id="b452a-297">The display name of the new application that you created</span></span> | <span data-ttu-id="b452a-298">مالك بيانات التخزين كبيرة الحجم</span><span class="sxs-lookup"><span data-stu-id="b452a-298">Storage Blob Data Owner</span></span>     |
+        | <span data-ttu-id="b452a-299">**خدمة تخويل AI Builder**</span><span class="sxs-lookup"><span data-stu-id="b452a-299">**AI Builder Authorization Service**</span></span>                     | <span data-ttu-id="b452a-300">قارئ بيانات التخزين كبيرة الحجم</span><span class="sxs-lookup"><span data-stu-id="b452a-300">Storage Blob Data Reader</span></span>    |
 
-# <a name="azure-cli"></a>[<span data-ttu-id="86edc-301">Azure CLI</span><span class="sxs-lookup"><span data-stu-id="86edc-301">Azure CLI</span></span>](#tab/azure-azure-cli)
+# <a name="azure-cli"></a>[<span data-ttu-id="b452a-301">Azure CLI</span><span class="sxs-lookup"><span data-stu-id="b452a-301">Azure CLI</span></span>](#tab/azure-azure-cli)
 
 ```
 function New-FinanceDataLakeAzureResources {
-    $defaultSecretExpiryInYear = 1
+    Assert-ScriptSetup
 
+    $ClientAppName = 'Finance Data Lake Application'
+    $DefaultSecretExpiryInYear = 1
     $MicrosoftDynamicsERPMicroservicesAppId = '0cdb527f-a8d1-4bf8-9436-b352c68682b2'
     $MicrosoftDynamicsERPMicroservicesCDSAppId = '703e2651-d3fc-48f5-942c-74274233dba8'
     $AIBuilderAuthorizationServiceAppId = 'ad40333e-9910-4b61-b281-e3aeeb8c3ef3'
@@ -461,74 +465,65 @@ function New-FinanceDataLakeAzureResources {
     $userContext = ConvertFrom-Json ((az ad signed-in-user show) -join '')
     $user = Get-AzureADUser -Filter ("UserPrincipalName eq '" + $userContext.UserPrincipalName + "'")
 
-    $subscriptionId = (Read-Host -Prompt "Enter the Azure Subscription ID: (blank for default)")
-    if ($subscriptionId.Trim() -ne '') {
-        $azSubscription = Select-AzSubscription -SubscriptionId $subscriptionId
-    }
-
-    $resourceGroupName = (Read-Host -Prompt "Enter the Azure Resource Group name: (blank for 'FinanceDataLake')")
-    if ($null -eq $resourceGroupName -or $resourceGroupName.Trim() -eq '') {
-        $resourceGroupName = 'FinanceDataLake'
-    }
-    $resourceGroup = Get-AzResourceGroup -Name $resourceGroupName -ErrorAction SilentlyContinue
-
-    if (-not ($resourceGroup)) {
-        $resourceLocation = ''
-        $azResourceLocations = (Get-AzLocation | Select-Object Location).Location
-        while ($resourceLocation.Trim() -eq '' -or (-not ($resourceLocation -in $azResourceLocations))) {
-            $resourceLocation = (Read-Host -Prompt "Enter the location in which to create the Azure Resource Group: ('help' to see values)")
-            if ($resourceLocation -eq 'help') {
-                $azResourceLocations
-                $resourceLocation = ''
-            }
+    Set-AzureSubscription
+    
+    $resourceGroup = $null
+    $ResourceGroupName = 'D365FinanceInsightsDataLake'
+    $ResourceGroupNameSuffix = ''
+    $FullResourceGroupName = ''
+    Write-Output ("The default Azure Resource Group name is '{0}'" -f $ResourceGroupName)
+    while (-not ($resourceGroup)) {
+        $ResourceGroupNameSuffix = (Read-Host -Prompt "Enter optional Azure Resource Group name suffix: (leave blank for no suffix)")
+        if ([string]::IsNullOrWhitespace($ResourceGroupNameSuffix))
+        {
+            $FullResourceGroupName = $ResourceGroupName
         }
-        $resourceGroup = New-AzResourceGroup -Name $resourceGroupName -Location $resourceLocation
-    }
-    else {
-        $resourceLocation = $resourceGroup.Location
-    }
+        else
+        {
+            if ($ResourceGroupNameSuffix -notmatch "^[A-Za-z0-9]+$") {
+                Write-Warning "The Azure Resource Group name suffix can only include alphanumeric characters."
+                continue
+            }
 
-    $clientAppName = (Read-Host -Prompt "Enter the name of the application registration: (blank for 'Finance Data Lake Application')")
-    if ($clientAppName.Trim() -eq '') {
-        $clientAppName = 'Finance Data Lake Application'
-    }
+            if ($ResourceGroupNameSuffix.Length -gt 60) {
+                Write-Warning "The Azure Resource Group name suffix cannot be longer than 60 characters."
+                continue
+            }
 
-    Write-Output '================================================================================='
+            $FullResourceGroupName = $ResourceGroupName + $ResourceGroupNameSuffix
+        }
+        
+        $resourceGroup = Get-AzResourceGroup -Name $FullResourceGroupName -ErrorAction SilentlyContinue
 
-    $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $MicrosoftDynamicsERPMicroservicesAppId + "'")
-    if (-not $service) {
-        New-AzureADServicePrincipal -AppId $MicrosoftDynamicsERPMicroservicesAppId | Format-Table -AutoSize
-        $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $MicrosoftDynamicsERPMicroservicesAppId + "'")
-        Write-Output ("Added AAD Enterprise Application 'Microsoft Dynamics ERP Microservices' with Application ID {0}" -f $MicrosoftDynamicsERPMicroservicesAppId)
+        if (-not ($resourceGroup)) {
+            Write-Output ("Your new Azure Resource Group name is '{0}'" -f $FullResourceGroupName)
+            $resourceLocation = ''
+            $azResourceLocations = (Get-AzLocation | Select-Object Location).Location
+            while ([string]::IsNullOrWhitespace($resourceLocation) -or (-not ($resourceLocation -in $azResourceLocations))) {
+                $resourceLocation = (Read-Host -Prompt "Enter the location in which to create the Azure Resource Group: ('help' to see values)")
+                if ($resourceLocation -eq 'help') {
+                    Write-Output ("List of available regions is '{0}'" -f ($azResourceLocations -join ','))
+                }
+                elseif ([string]::IsNullOrWhitespace($resourceLocation) -or (-not ($resourceLocation -in $azResourceLocations)))
+                {
+                    Write-Warning ("The provided location is not available for resource group. List of available regions is '{0}'" -f ($azResourceLocations -join ','))
+                }
+            }
+            $resourceGroup = New-AzResourceGroup -Name $FullResourceGroupName -Location $resourceLocation
+            Write-Output ("Created Azure Resource Group '{0}'" -f $resourceGroup.ResourceGroupName)
+        }
+        else {
+            Write-Output ("Found Azure Resource Group '{0}'" -f ($resourceGroup.ResourceGroupName))
+        }
     }
-    else {
-        Write-Output ("Found AAD Enterprise Application 'Microsoft Dynamics ERP Microservices' with Application ID {0}" -f $MicrosoftDynamicsERPMicroservicesAppId)
-    }
-    $MicrosoftDynamicsERPMicroservicesAppObjectId = $service.ObjectId
-
-    $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $MicrosoftDynamicsERPMicroservicesCDSAppId + "'")
-    if (-not $service) {
-        New-AzureADServicePrincipal -AppId $MicrosoftDynamicsERPMicroservicesCDSAppId | Format-Table -AutoSize
-        Write-Output ("Added AAD Enterprise Application 'Microsoft Dynamics ERP Microservices CDS' with Application ID {0}" -f $MicrosoftDynamicsERPMicroservicesCDSAppId)
-    }
-    else {
-        Write-Output ("Found AAD Enterprise Application 'Microsoft Dynamics ERP Microservices CDS' with Application ID {0}" -f $MicrosoftDynamicsERPMicroservicesCDSAppId)
-    }
-
-    $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $AIBuilderAuthorizationServiceAppId + "'")
-    if (-not $service) {
-        New-AzureADServicePrincipal -AppId $AIBuilderAuthorizationServiceAppId | Format-Table -AutoSize
-        $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $AIBuilderAuthorizationServiceAppId + "'")
-        Write-Output ("Added AAD Enterprise Application 'AI Builder Authorization Service' with Application ID {0}" -f $AIBuilderAuthorizationServiceAppId)
-    }
-    else {
-        Write-Output ("Found AAD Enterprise Application 'AI Builder Authorization Service' with Application ID {0}" -f $AIBuilderAuthorizationServiceAppId)
-    }
-    $aibuilderAuthorizationServiceObjectId = $service.ObjectId
 
     Write-Output '================================================================================='
+    $MicrosoftDynamicsERPMicroservicesAppObjectId = Create-ADServicePrincipal -AppId $MicrosoftDynamicsERPMicroservicesAppId
+    Create-ADServicePrincipal -AppId $MicrosoftDynamicsERPMicroservicesCDSAppId | Out-Null
+    $aibuilderAuthorizationServiceObjectId = Create-ADServicePrincipal -AppId $AIBuilderAuthorizationServiceAppId
+    Write-Output ('=================================================================================')
 
-    $clientAppSPN = Get-AzureADServicePrincipal -Filter ("DisplayName eq '" + $clientAppName + "'")
+    $clientAppSPN = Get-AzureADServicePrincipal -Filter ("DisplayName eq '" + $ClientAppName + "'")
     if (-not ($clientAppSPN)) {
         $keyVaultPrincipal = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $KeyVaultServicePrincipalAppId + "'")
         if (-not $keyVaultPrincipal)
@@ -553,18 +548,18 @@ function New-FinanceDataLakeAzureResources {
         $graphAccess.ResourceAppId = $graphPrincipal.AppId
         $graphAccess.ResourceAccess = (New-Object -TypeName "microsoft.open.azuread.model.resourceAccess" -ArgumentList $userRead.Id, "Scope")
 
-        $clientApp = New-AzureADApplication -DisplayName $clientAppName -RequiredResourceAccess @($keyVaultAccess, $graphAccess)
-        $clientAppSPN = New-AzureADServicePrincipal -AppId $clientApp.AppId -Tags @($clientAppName)
+        $clientApp = New-AzureADApplication -DisplayName $ClientAppName -RequiredResourceAccess @($keyVaultAccess, $graphAccess)
+        $clientAppSPN = New-AzureADServicePrincipal -AppId $clientApp.AppId -Tags @($ClientAppName)
         $clientAppId = $clientApp.AppId
-        Write-Output ('Created App Registration "' + $clientAppName + '" with Application Id: ' + $clientAppId)
+        Write-Output ('Created App Registration "' + $ClientAppName + '" with Application Id: ' + $clientAppId)
     }
     else {
-        $clientApp = Get-AzureADApplication -Filter ("DisplayName eq '" + $clientAppName + "'")
+        $clientApp = Get-AzureADApplication -Filter ("DisplayName eq '" + $ClientAppName + "'")
         $clientAppId = $clientApp.AppId
-        Write-Output ('Found App Registration "' + $clientAppName + '" with Application Id: ' + $clientAppId)
+        Write-Output ('Found App Registration "' + $ClientAppName + '" with Application Id: ' + $clientAppId)
     }
             
-    $clientAppSecretCredential = New-AzureADApplicationPasswordCredential -ObjectId $clientApp.ObjectId -CustomKeyIdentifier "ClientAppAccessKey" -EndDate (get-date).AddYears($defaultSecretExpiryInYear)
+    $clientAppSecretCredential = New-AzureADApplicationPasswordCredential -ObjectId $clientApp.ObjectId -CustomKeyIdentifier "ClientAppAccessKey" -EndDate (get-date).AddYears($DefaultSecretExpiryInYear)
     $ClientAppSecret = $clientAppSecretCredential.Value
     $clientAppSpId = $clientAppSPN.ObjectId
 
@@ -574,36 +569,93 @@ function New-FinanceDataLakeAzureResources {
     $templateObject = ConvertFrom-Json $azureTemplate -AsHashtable
     $templateObject.{$schema} = "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#"
     Write-Output 'Provisioning Azure resources. This may take a few minutes.'
-    $deployment = New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName -TemplateObject $templateObject -aibuilderAppObjectId $aibuilderAuthorizationServiceObjectId -clientAppId $clientAppId -clientAppSecret $ClientAppSecret -clientAppSpObjectId  $clientAppSpId -microserviceSpObjectId $MicrosoftDynamicsERPMicroservicesAppObjectId -userSpObjectId $user.ObjectId
+    try {
+        $deployment = New-AzResourceGroupDeployment -ResourceGroupName $FullResourceGroupName -TemplateObject $templateObject -aibuilderAppObjectId $aibuilderAuthorizationServiceObjectId -clientAppId $clientAppId -clientAppSecret $ClientAppSecret -clientAppSpObjectId  $clientAppSpId -microserviceSpObjectId $MicrosoftDynamicsERPMicroservicesAppObjectId -userSpObjectId $user.ObjectId -Force -ErrorAction Stop
+    }
+    catch {
+        $ErrorMessage = $_.Exception.Message
+        if ($ErrorMessage.Contains("not allowed to be updated"))
+        {
+            Write-Error ($ErrorMessage)
+            Write-Warning "Some items in the existing resource group $FullResourceGroupName could not be updated. To resolve the issue, remove the existing resource group $FullResourceGroupName and run the script again."
+        }
+        else {
+            throw
+        }
 
+    }
     if ($deployment.ProvisioningState -eq 'Succeeded') {
         Write-Output "Successfully deployed the following resources to Azure:"
         Write-Output ("  Key Vault:                         " + $deployment.Outputs.keyVaultName.Value)
         Write-Output ("  Storage Account:                   " + $deployment.Outputs.storageAccountName.Value)
+        
+        $keyVault = Get-AzKeyVault -VaultName $deployment.Outputs.keyVaultName.Value
+        $tenantId = (Get-AzContext).Tenant.Id
+
+        Write-Output "Values for LCS Data Lake Add-In:"
+        Write-Output ("  Tenant ID:                         " + $tenantId)
+        Write-Output ("  DNS Name:                          " + $keyVault.VaultUri)
+        Write-Output "  Storage account secret name:       storage-account-name"
+        Write-Output "  Application ID secret name:        app-id"
+        Write-Output "  Application Secret secret name:    app-secret"
+        Write-Warning "Copy this information for the LCS Add-in for easy access. Azure Cloud Shell will eventually time out and close."
+
+        Write-Output '================================================================================='
+        Write-Output "Values for System parameters > Data connections:"
+        Write-Output ("  Application ID:                    " + $clientAppId)
+        Write-Output ("  Application Secret:                " + $ClientAppSecret)
+        Write-Output ("  DNS name:                          " + $keyVault.VaultUri)
+        Write-Output "  Secret name:                       storage-account-connection-string"
+        Write-Warning "Copy this information for the System parameters for easy access. Azure Cloud Shell will eventually time out and close."
     }
     else {
         Write-Output ("Provisioning Azure resources failed with the following state: " + $deployment.ProvisioningState)
-        Write-Output ("Some of the resources may have been created in resource group: " + $resourceGroupName)
+        Write-Output ("Some of the resources may have been created in resource group: " + $FullResourceGroupName)
+    }
+}
+
+function Assert-ScriptSetup {
+    if ($PSVersionTable.PSEdition -ne 'Core' -or -not $env:ACC_TID) { 
+        throw "This script needs to be uploaded and run from Azure Cloud Shell (PowerShell)." 
+    }
+    
+    if ((Get-AzContext) -eq $null -and (Connect-AzAccount) -eq $null) {
+        throw 'Unable to connect to Azure account.'
+    }
+}
+
+function Set-AzureSubscription {
+    $azSubscription = $null
+    while (-not ($azSubscription)) {
+        $subscriptionId = (Read-Host -Prompt "Enter the Azure Subscription ID: (leave blank for default)")
+        if ([string]::IsNullOrWhitespace($subscriptionId)){
+            break
+        }
+        elseif (-not [guid]::TryParse($subscriptionId, $([ref][guid]::Empty))) {
+                Write-Warning "Azure Subscription ID must be a valid GUID."
+                continue
+        }
+
+        $azSubscription = Select-AzSubscription -SubscriptionId $subscriptionId
+    }
+}
+
+function Create-ADServicePrincipal {
+    param (
+        [string] $AppId
+    )
+
+    $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $AppId + "'")
+    if (-not $service) {
+        New-AzureADServicePrincipal -AppId $AppId | Out-Null
+        $service = Get-AzureADServicePrincipal -Filter ("AppId eq '" + $AppId + "'")
+        Write-Host ("Added AAD Enterprise Application {0} with Application ID {1}" -f $service.DisplayName,$AppId)
+    }
+    else {
+        Write-Host ("Found AAD Enterprise Application {0} with Application ID {1}" -f $service.DisplayName,$AppId)
     }
 
-    Write-Output '================================================================================='
-
-    $keyVault = Get-AzKeyVault -VaultName $deployment.Outputs.keyVaultName.Value
-    Write-Output "Values for LCS Data Lake Add-In:"
-    Write-Output ("  Tenant ID:                         " + $subscriptionContext.Context.Subscription.TenantId)
-    Write-Output ("  DNS Name:                          " + $keyVault.VaultUri)
-    Write-Output "  Storage account secret name:       storage-account-name"
-    Write-Output "  Application ID secret name:        app-id"
-    Write-Output "  Application Secret secret name:    app-secret"
-    Write-Warning "Copy this information for the LCS Add-in as it is not saved. Azure Cloud Shell will eventually time out and close."
-
-    Write-Output '================================================================================='
-    Write-Output "Values for System parameters > Data connections:"
-    Write-Output ("  Application ID:                    " + $clientAppId)
-    Write-Output ("  Application Secret:                " + $ClientAppSecret)
-    Write-Output ("  DNS name:                          " + $keyVault.VaultUri)
-    Write-Output "  Secret name:                       storage-account-connection-string"
-    Write-Warning "Copy this information for the System parameters as it is not saved. Azure Cloud Shell will eventually time out and close."
+    return $service.ObjectId
 }
 
 $azureTemplate = @"
@@ -867,11 +919,17 @@ $azureTemplate = @"
 "@
 
 try {
+  Start-Transcript -path (Join-Path $HOME Provision-FinInsights-Azure.log)
   New-FinanceDataLakeAzureResources
 }
 catch {
   Write-Error $_.Exception.Message
-  Write-Warning $_.Exception.StackTrace
+
+  if ($PSItem.Exception.StackTrace -ne $null)
+  {
+      Write-Warning $_.Exception.StackTrace
+  }
+
   $inner = $_.Exception.InnerException
   while ($null -ne $inner) {
     Write-Output 'Inner Exception:'
@@ -880,63 +938,66 @@ catch {
     $inner = $inner.InnerException
   }
 }
+finally {
+  Stop-Transcript
+}
 
 ```
 ---
 
-## <a name="configure-the-entity-store"></a><span data-ttu-id="86edc-302">تكوين متجر الكيان</span><span class="sxs-lookup"><span data-stu-id="86edc-302">Configure the entity store</span></span>
+## <a name="configure-the-entity-store"></a><span data-ttu-id="b452a-302">تكوين متجر الكيان</span><span class="sxs-lookup"><span data-stu-id="b452a-302">Configure the entity store</span></span>
 
-<span data-ttu-id="86edc-303">اتبع هذه الخطوات لإعداد مخزن الكيان في بيئة Finance.</span><span class="sxs-lookup"><span data-stu-id="86edc-303">Follow these steps to set up the entity store in your Finance environment.</span></span>
+<span data-ttu-id="b452a-303">اتبع هذه الخطوات لإعداد مخزن الكيان في بيئة Finance.</span><span class="sxs-lookup"><span data-stu-id="b452a-303">Follow these steps to set up the entity store in your Finance environment.</span></span>
 
-1. <span data-ttu-id="86edc-304">انتقل إلى **إدارة النظام \> إعداد \> معلمات النظام \> اتصالات البيانات**.</span><span class="sxs-lookup"><span data-stu-id="86edc-304">Go to **System administration \> Setup \> System parameters \> Data connections**.</span></span>
-2. <span data-ttu-id="86edc-305">عيِّن الخيار **تمكين تكامل Data Lake** على **نعم**.</span><span class="sxs-lookup"><span data-stu-id="86edc-305">Set the **Enable Data Lake integration** option to **Yes**.</span></span>
-3. <span data-ttu-id="86edc-306">تعيين حقول المخزن الرئيسي التالية:</span><span class="sxs-lookup"><span data-stu-id="86edc-306">Set the following Key Vault fields:</span></span>
+1. <span data-ttu-id="b452a-304">انتقل إلى **إدارة النظام \> إعداد \> معلمات النظام \> اتصالات البيانات**.</span><span class="sxs-lookup"><span data-stu-id="b452a-304">Go to **System administration \> Setup \> System parameters \> Data connections**.</span></span>
+2. <span data-ttu-id="b452a-305">عيِّن الخيار **تمكين تكامل Data Lake** على **نعم**.</span><span class="sxs-lookup"><span data-stu-id="b452a-305">Set the **Enable Data Lake integration** option to **Yes**.</span></span>
+3. <span data-ttu-id="b452a-306">تعيين حقول المخزن الرئيسي التالية:</span><span class="sxs-lookup"><span data-stu-id="b452a-306">Set the following Key Vault fields:</span></span>
 
-    - <span data-ttu-id="86edc-307">**معرف استمارة التطبيق (العميل)** – أدخل معرف عميل استمارة التقديم الذي قمت بإنشائه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="86edc-307">**Application (client) ID** – Enter the application client ID that you created earlier.</span></span>
-    - <span data-ttu-id="86edc-308">**سر استمارة التقديم** – أدخل كلمة السر التي قمت بحفظها لاستمارة التقديم التي قمت بإنشائها سابقًا.</span><span class="sxs-lookup"><span data-stu-id="86edc-308">**Application Secret** – Enter the secret that you saved for the application that you created earlier.</span></span>
-    - <span data-ttu-id="86edc-309">**اسم DNS** – يمكنك العثور على اسم نظام اسم المجال (DNS) في صفحة تفاصيل استمارة التقديم لاستمارة التطبيق التي قمت بإنشائها سابقًا.</span><span class="sxs-lookup"><span data-stu-id="86edc-309">**DNS name** – You can find the Domain Name System (DNS) name on the application details page for the application that you created earlier.</span></span>
-    - <span data-ttu-id="86edc-310">**اسم السر** - أدخل **تخزين-حساب-اتصال-سلسلة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-310">**Secret name** – Enter **storage-account-connection-string**.</span></span>
+    - <span data-ttu-id="b452a-307">**معرف استمارة التطبيق (العميل)** – أدخل معرف عميل استمارة التقديم الذي قمت بإنشائه سابقًا.</span><span class="sxs-lookup"><span data-stu-id="b452a-307">**Application (client) ID** – Enter the application client ID that you created earlier.</span></span>
+    - <span data-ttu-id="b452a-308">**سر استمارة التقديم** – أدخل كلمة السر التي قمت بحفظها لاستمارة التقديم التي قمت بإنشائها سابقًا.</span><span class="sxs-lookup"><span data-stu-id="b452a-308">**Application Secret** – Enter the secret that you saved for the application that you created earlier.</span></span>
+    - <span data-ttu-id="b452a-309">**اسم DNS** – يمكنك العثور على اسم نظام اسم المجال (DNS) في صفحة تفاصيل استمارة التقديم لاستمارة التطبيق التي قمت بإنشائها سابقًا.</span><span class="sxs-lookup"><span data-stu-id="b452a-309">**DNS name** – You can find the Domain Name System (DNS) name on the application details page for the application that you created earlier.</span></span>
+    - <span data-ttu-id="b452a-310">**اسم السر** - أدخل **تخزين-حساب-اتصال-سلسلة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-310">**Secret name** – Enter **storage-account-connection-string**.</span></span>
 
-## <a name="configure-the-data-lake"></a><span data-ttu-id="86edc-311">تكوين data lake</span><span class="sxs-lookup"><span data-stu-id="86edc-311">Configure the data lake</span></span>
+## <a name="configure-the-data-lake"></a><span data-ttu-id="b452a-311">تكوين data lake</span><span class="sxs-lookup"><span data-stu-id="b452a-311">Configure the data lake</span></span>
 
-<span data-ttu-id="86edc-312">اتبع الخطوات التالية لاستخدام LCS لإضافة الوظيفة الإضافية Azure Data Lake add-in إلى البيئة.</span><span class="sxs-lookup"><span data-stu-id="86edc-312">Follow these steps to use LCS to add the Azure Data Lake add-in to the environment.</span></span>
+<span data-ttu-id="b452a-312">اتبع الخطوات التالية لاستخدام LCS لإضافة الوظيفة الإضافية Azure Data Lake add-in إلى البيئة.</span><span class="sxs-lookup"><span data-stu-id="b452a-312">Follow these steps to use LCS to add the Azure Data Lake add-in to the environment.</span></span>
 
-1. <span data-ttu-id="86edc-313">قم بتسجيل الدخول إلى LCS، ثم، ضمن اسم البيئة على الجانب الأيسر من الصفحة، حدد **تفاصيل كاملة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-313">Sign in to LCS, and then, under the environment name on the right side of the page, select **Full Details**.</span></span>
-2. <span data-ttu-id="86edc-314">في قسم **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-314">In the **Environment add-ins** section, select **Install a new add-in**.</span></span>
-3. <span data-ttu-id="86edc-315">حدد الوظيفة الإضافية، حدد **تصدير إلى Data Lake**.</span><span class="sxs-lookup"><span data-stu-id="86edc-315">Select the **Export to Data Lake** add-in.</span></span>
-4. <span data-ttu-id="86edc-316">أدخل القيم التالية.</span><span class="sxs-lookup"><span data-stu-id="86edc-316">Enter the following values.</span></span>
+1. <span data-ttu-id="b452a-313">قم بتسجيل الدخول إلى LCS، ثم، ضمن اسم البيئة على الجانب الأيسر من الصفحة، حدد **تفاصيل كاملة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-313">Sign in to LCS, and then, under the environment name on the right side of the page, select **Full Details**.</span></span>
+2. <span data-ttu-id="b452a-314">في قسم **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-314">In the **Environment add-ins** section, select **Install a new add-in**.</span></span>
+3. <span data-ttu-id="b452a-315">حدد الوظيفة الإضافية، حدد **تصدير إلى Data Lake**.</span><span class="sxs-lookup"><span data-stu-id="b452a-315">Select the **Export to Data Lake** add-in.</span></span>
+4. <span data-ttu-id="b452a-316">أدخل القيم التالية.</span><span class="sxs-lookup"><span data-stu-id="b452a-316">Enter the following values.</span></span>
 
-    | <span data-ttu-id="86edc-317">قيمة</span><span class="sxs-lookup"><span data-stu-id="86edc-317">Value</span></span>                                                              | <span data-ttu-id="86edc-318">الوصف</span><span class="sxs-lookup"><span data-stu-id="86edc-318">Description</span></span> |
+    | <span data-ttu-id="b452a-317">قيمة</span><span class="sxs-lookup"><span data-stu-id="b452a-317">Value</span></span>                                                              | <span data-ttu-id="b452a-318">الوصف</span><span class="sxs-lookup"><span data-stu-id="b452a-318">Description</span></span> |
     |--------------------------------------------------------------------|-------------|
-    | <span data-ttu-id="86edc-319">معرف المستأجر لاشتراك Azure حيث يوجد المخزن الرئيسي</span><span class="sxs-lookup"><span data-stu-id="86edc-319">Tenant ID of the Azure Subscription where the Key Vault is located</span></span> | <span data-ttu-id="86edc-320">يوجد معرف المستأجر الذي يوجد به حساب التخزين والتطبيقات والمخازن الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="86edc-320">The tenant ID where the storage account, apps, and key vaults are located.</span></span> <span data-ttu-id="86edc-321">للعثور على هذه القيمة، افتح [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory**، ثم انسخ قيمة **معرف المستأجر**.</span><span class="sxs-lookup"><span data-stu-id="86edc-321">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and copy the **Tenant ID** value.</span></span> |
-    | <span data-ttu-id="86edc-322">توفير اسم DNS لـ Key Vault الخاص بك</span><span class="sxs-lookup"><span data-stu-id="86edc-322">Provide the DNS name of your Key Vault</span></span>                             | <span data-ttu-id="86edc-323">اسم DNS للمخزن الرئيسي، مثل `https://customkeyvault.vault.azure.net/`.</span><span class="sxs-lookup"><span data-stu-id="86edc-323">The DNS name of the key vault, such as `https://customkeyvault.vault.azure.net/`.</span></span> <span data-ttu-id="86edc-324">(تتطابق هذه القيمة مع اسم DNS المستخدم في مخزن الكيان.)</span><span class="sxs-lookup"><span data-stu-id="86edc-324">(This value matches the DNS name that is used in the entity store.)</span></span> |
-    | <span data-ttu-id="86edc-325">توفير السر الذي يحتوي على اسم حساب التخزين</span><span class="sxs-lookup"><span data-stu-id="86edc-325">Provide the secret that contains the name of the storage account</span></span>   | <span data-ttu-id="86edc-326">**اسم حساب التخزين**</span><span class="sxs-lookup"><span data-stu-id="86edc-326">**storage-account-name**</span></span> |
-    | <span data-ttu-id="86edc-327">اسم السر لمعرف التطبيق الذي سيتم استخدامه للوصول إلى Data Lake</span><span class="sxs-lookup"><span data-stu-id="86edc-327">Secret Name for App ID to be used for accessing Data Lake</span></span>          | <span data-ttu-id="86edc-328">**معرف التطبيق**</span><span class="sxs-lookup"><span data-stu-id="86edc-328">**app-id**</span></span> |
-    | <span data-ttu-id="86edc-329">اسم السر الذي سيتم استخدامه مع معرف التطبيق</span><span class="sxs-lookup"><span data-stu-id="86edc-329">Secret name to be used with App ID</span></span>                                 | <span data-ttu-id="86edc-330">**سر التطبيق**</span><span class="sxs-lookup"><span data-stu-id="86edc-330">**app-secret**</span></span> |
+    | <span data-ttu-id="b452a-319">معرف المستأجر لاشتراك Azure حيث يوجد المخزن الرئيسي</span><span class="sxs-lookup"><span data-stu-id="b452a-319">Tenant ID of the Azure Subscription where the Key Vault is located</span></span> | <span data-ttu-id="b452a-320">يوجد معرف المستأجر الذي يوجد به حساب التخزين والتطبيقات والمخازن الرئيسية.</span><span class="sxs-lookup"><span data-stu-id="b452a-320">The tenant ID where the storage account, apps, and key vaults are located.</span></span> <span data-ttu-id="b452a-321">للعثور على هذه القيمة، افتح [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory**، ثم انسخ قيمة **معرف المستأجر**.</span><span class="sxs-lookup"><span data-stu-id="b452a-321">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and copy the **Tenant ID** value.</span></span> |
+    | <span data-ttu-id="b452a-322">توفير اسم DNS لـ Key Vault الخاص بك</span><span class="sxs-lookup"><span data-stu-id="b452a-322">Provide the DNS name of your Key Vault</span></span>                             | <span data-ttu-id="b452a-323">اسم DNS للمخزن الرئيسي، مثل `https://customkeyvault.vault.azure.net/`.</span><span class="sxs-lookup"><span data-stu-id="b452a-323">The DNS name of the key vault, such as `https://customkeyvault.vault.azure.net/`.</span></span> <span data-ttu-id="b452a-324">(تتطابق هذه القيمة مع اسم DNS المستخدم في مخزن الكيان.)</span><span class="sxs-lookup"><span data-stu-id="b452a-324">(This value matches the DNS name that is used in the entity store.)</span></span> |
+    | <span data-ttu-id="b452a-325">توفير السر الذي يحتوي على اسم حساب التخزين</span><span class="sxs-lookup"><span data-stu-id="b452a-325">Provide the secret that contains the name of the storage account</span></span>   | <span data-ttu-id="b452a-326">**اسم حساب التخزين**</span><span class="sxs-lookup"><span data-stu-id="b452a-326">**storage-account-name**</span></span> |
+    | <span data-ttu-id="b452a-327">اسم السر لمعرف التطبيق الذي سيتم استخدامه للوصول إلى Data Lake</span><span class="sxs-lookup"><span data-stu-id="b452a-327">Secret Name for App ID to be used for accessing Data Lake</span></span>          | <span data-ttu-id="b452a-328">**معرف التطبيق**</span><span class="sxs-lookup"><span data-stu-id="b452a-328">**app-id**</span></span> |
+    | <span data-ttu-id="b452a-329">اسم السر الذي سيتم استخدامه مع معرف التطبيق</span><span class="sxs-lookup"><span data-stu-id="b452a-329">Secret name to be used with App ID</span></span>                                 | <span data-ttu-id="b452a-330">**سر التطبيق**</span><span class="sxs-lookup"><span data-stu-id="b452a-330">**app-secret**</span></span> |
 
-5. <span data-ttu-id="86edc-331">وافق علي الشروط، وحدد **تثبيت**.</span><span class="sxs-lookup"><span data-stu-id="86edc-331">Agree to the terms, and select **Install**.</span></span>
+5. <span data-ttu-id="b452a-331">وافق علي الشروط، وحدد **تثبيت**.</span><span class="sxs-lookup"><span data-stu-id="b452a-331">Agree to the terms, and select **Install**.</span></span>
 
-<span data-ttu-id="86edc-332">سيتم تثبيت الوظيفة الإضافية خلال بضع دقائق.</span><span class="sxs-lookup"><span data-stu-id="86edc-332">The add-in will be installed within a few minutes.</span></span>
+<span data-ttu-id="b452a-332">سيتم تثبيت الوظيفة الإضافية خلال بضع دقائق.</span><span class="sxs-lookup"><span data-stu-id="b452a-332">The add-in will be installed within a few minutes.</span></span>
 
-## <a name="configure-ai-builder"></a><span data-ttu-id="86edc-333">تكوين AI Builder</span><span class="sxs-lookup"><span data-stu-id="86edc-333">Configure AI Builder</span></span>
+## <a name="configure-ai-builder"></a><span data-ttu-id="b452a-333">تكوين AI Builder</span><span class="sxs-lookup"><span data-stu-id="b452a-333">Configure AI Builder</span></span>
 
-1. <span data-ttu-id="86edc-334">قم بتسجيل الدخول إلى LCS، وافتح الصفحة **تفاصيل البيئة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-334">Sign in to LCS, and open the **Environment details** page.</span></span>
-2. <span data-ttu-id="86edc-335">قم بالتمرير إلى قسم **الوظائف الإضافية للبيئة**.</span><span class="sxs-lookup"><span data-stu-id="86edc-335">Scroll to the **Environment add-ins** section.</span></span> <span data-ttu-id="86edc-336">يجب أن ترى الوظائف الإضافية التي تم تثبيتها بالفعل في هذه البيئة.</span><span class="sxs-lookup"><span data-stu-id="86edc-336">You should see the add-ins that are already installed in this environment.</span></span> <span data-ttu-id="86edc-337">إذا لم تكن الوظيفة الإضافية **التصدير إلى Data Lake**، فقم بتكوين هذه الوظيفة الإضافية.</span><span class="sxs-lookup"><span data-stu-id="86edc-337">If the **Export to Data Lake** add-in isn't among them, configure this add-in.</span></span>
-3. <span data-ttu-id="86edc-338">حدد الوظيفة الإضافية **Get insights**.</span><span class="sxs-lookup"><span data-stu-id="86edc-338">Select the **Get insights** add-in.</span></span>
-4. <span data-ttu-id="86edc-339">من صفحة التفاصيل **Get insights**، أدخل القيم التالية.</span><span class="sxs-lookup"><span data-stu-id="86edc-339">On the **Get insights** add-in details page, enter the following values.</span></span>
+1. <span data-ttu-id="b452a-334">قم بتسجيل الدخول إلى LCS، وافتح الصفحة **تفاصيل البيئة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-334">Sign in to LCS, and open the **Environment details** page.</span></span>
+2. <span data-ttu-id="b452a-335">قم بالتمرير إلى قسم **الوظائف الإضافية للبيئة**.</span><span class="sxs-lookup"><span data-stu-id="b452a-335">Scroll to the **Environment add-ins** section.</span></span> <span data-ttu-id="b452a-336">يجب أن ترى الوظائف الإضافية التي تم تثبيتها بالفعل في هذه البيئة.</span><span class="sxs-lookup"><span data-stu-id="b452a-336">You should see the add-ins that are already installed in this environment.</span></span> <span data-ttu-id="b452a-337">إذا لم تكن الوظيفة الإضافية **التصدير إلى Data Lake**، فقم بتكوين هذه الوظيفة الإضافية.</span><span class="sxs-lookup"><span data-stu-id="b452a-337">If the **Export to Data Lake** add-in isn't among them, configure this add-in.</span></span>
+3. <span data-ttu-id="b452a-338">حدد الوظيفة الإضافية **Get insights**.</span><span class="sxs-lookup"><span data-stu-id="b452a-338">Select the **Get insights** add-in.</span></span>
+4. <span data-ttu-id="b452a-339">من صفحة التفاصيل **Get insights**، أدخل القيم التالية.</span><span class="sxs-lookup"><span data-stu-id="b452a-339">On the **Get insights** add-in details page, enter the following values.</span></span>
 
-    | <span data-ttu-id="86edc-340">قيمة</span><span class="sxs-lookup"><span data-stu-id="86edc-340">Value</span></span>                                                    | <span data-ttu-id="86edc-341">الوصف</span><span class="sxs-lookup"><span data-stu-id="86edc-341">Description</span></span> |
+    | <span data-ttu-id="b452a-340">قيمة</span><span class="sxs-lookup"><span data-stu-id="b452a-340">Value</span></span>                                                    | <span data-ttu-id="b452a-341">الوصف</span><span class="sxs-lookup"><span data-stu-id="b452a-341">Description</span></span> |
     |----------------------------------------------------------|-------------|
-    | <span data-ttu-id="86edc-342">عنوان URL للمؤسسة CDS</span><span class="sxs-lookup"><span data-stu-id="86edc-342">CDS Organization URL</span></span>                                     | <span data-ttu-id="86edc-343">عنوان URL الخاص بمؤسسة Common Data Service للمثيل Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="86edc-343">The Common Data Service organization URL of the Common Data Service instance.</span></span> <span data-ttu-id="86edc-344">للعثور على هذه القيمة، افتح المدخل [Power Apps](https://make.powerapps.com)، حدد الزر **إعدادات** (رمز الترس) في الزاوية العلوية اليمنى، حدد **إعدادات متقدمة**، وانسخ عنوان URL.</span><span class="sxs-lookup"><span data-stu-id="86edc-344">To find this value, open the [Power Apps portal](https://make.powerapps.com), select the **Settings** button (gear symbol) in the upper-right upper corner, select **Advanced settings**, and copy the URL.</span></span> <span data-ttu-id="86edc-345">(ينتهي عنوان URL ب "dynamics.com")</span><span class="sxs-lookup"><span data-stu-id="86edc-345">(The URL ends with "dynamics.com.")</span></span> |
-    | <span data-ttu-id="86edc-346">معرف مؤسسة CDS</span><span class="sxs-lookup"><span data-stu-id="86edc-346">CDS Org ID</span></span>                                               | <span data-ttu-id="86edc-347">معرف بيئة المثيل Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="86edc-347">The environment ID of the Common Data Service instance.</span></span> <span data-ttu-id="86edc-348">للعثور على هذه القيمة، افتح المدخل [Power Apps](https://make.powerapps.com)، حدد الزر **إعدادات** (رمز الترس) في الزاوية العلوية اليمنى، حدد **تخصيصات \> موارد المطور \> معلومات مرجع المثيل**، وانسخ قيمة **المعرف**.</span><span class="sxs-lookup"><span data-stu-id="86edc-348">To find this value, open the [Power Apps portal](https://make.powerapps.com), select the **Settings** button (gear symbol) in the upper-right upper corner, select **Customizations \> Developer resources \> Instance Reference Information**, and copy the **ID** value.</span></span> |
-    | <span data-ttu-id="86edc-349">معرف مستأجر CDS (معرف الدليل من AAD)</span><span class="sxs-lookup"><span data-stu-id="86edc-349">CDS Tenant ID (Directory ID from AAD)</span></span>               | <span data-ttu-id="86edc-350">معرف مستأجر المثيل Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="86edc-350">The tenant ID of the Common Data Service instance.</span></span> <span data-ttu-id="86edc-351">للعثور على هذه القيمة، افتح [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory**، ثم انسخ قيمة **معرف المستأجر**.</span><span class="sxs-lookup"><span data-stu-id="86edc-351">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and copy the **Tenant ID** value.</span></span> |
-    | <span data-ttu-id="86edc-352">قم بتوفير معرف كائن المستخدم الذي يمتلك دور مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="86edc-352">Provide user object ID who has system administrator role</span></span> | <span data-ttu-id="86edc-353">معرف كائن مستخدم Azure AD في Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="86edc-353">The Azure AD user object ID of the user in Common Data Service.</span></span> <span data-ttu-id="86edc-354">يجب أن يكون هذا المستخدم مسؤول نظام مثيل Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="86edc-354">This user must be a system administrator of the Common Data Service instance.</span></span> <span data-ttu-id="86edc-355">للعثور على هذه القيمة، افتح [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory \> المستخدمين**، حدد المستخدم، ثم، في القسم **الهوية**، انسخ القيمة **معرف الكائن**.</span><span class="sxs-lookup"><span data-stu-id="86edc-355">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory \> Users**, select the user, and then, in the **Identity** section, copy the **Object ID** value.</span></span> |
-    | <span data-ttu-id="86edc-356">هل هذه هي بيئة CDS الافتراضية للمستأجر؟</span><span class="sxs-lookup"><span data-stu-id="86edc-356">Is this the default CDS environment for the tenant?</span></span>      | <span data-ttu-id="86edc-357">إذا كان مثيل Common Data Service هو أول مثيل إنتاج تم إنشاؤه، حدد خانة الاختيار هذه.</span><span class="sxs-lookup"><span data-stu-id="86edc-357">If the Common Data Service instance was the first production instance that was created, select this check box.</span></span> <span data-ttu-id="86edc-358">إذا تم إنشاء مثيل Common Data Service يدويًا، فقم بإلغاء تحديد خانة الاختيار هذه.</span><span class="sxs-lookup"><span data-stu-id="86edc-358">If the Common Data Service instance was manually created, clear this check box.</span></span> |
+    | <span data-ttu-id="b452a-342">عنوان URL للمؤسسة CDS</span><span class="sxs-lookup"><span data-stu-id="b452a-342">CDS Organization URL</span></span>                                     | <span data-ttu-id="b452a-343">عنوان URL الخاص بمؤسسة Dataverse للمثيل Dataverse.</span><span class="sxs-lookup"><span data-stu-id="b452a-343">The Dataverse organization URL of the Dataverse instance.</span></span> <span data-ttu-id="b452a-344">للعثور على هذه القيمة، افتح المدخل [Power Apps](https://make.powerapps.com)، حدد الزر **إعدادات** (رمز الترس) في الزاوية العلوية اليمنى، حدد **إعدادات متقدمة**، وانسخ عنوان URL.</span><span class="sxs-lookup"><span data-stu-id="b452a-344">To find this value, open the [Power Apps portal](https://make.powerapps.com), select the **Settings** button (gear symbol) in the upper-right upper corner, select **Advanced settings**, and copy the URL.</span></span> <span data-ttu-id="b452a-345">(ينتهي عنوان URL ب "dynamics.com")</span><span class="sxs-lookup"><span data-stu-id="b452a-345">(The URL ends with "dynamics.com.")</span></span> |
+    | <span data-ttu-id="b452a-346">معرف مؤسسة CDS</span><span class="sxs-lookup"><span data-stu-id="b452a-346">CDS Org ID</span></span>                                               | <span data-ttu-id="b452a-347">معرف بيئة المثيل Dataverse.</span><span class="sxs-lookup"><span data-stu-id="b452a-347">The environment ID of the Dataverse instance.</span></span> <span data-ttu-id="b452a-348">للعثور على هذه القيمة، افتح المدخل [Power Apps](https://make.powerapps.com)، حدد الزر **إعدادات** (رمز الترس) في الزاوية العلوية اليمنى، حدد **تخصيصات \> موارد المطور \> معلومات مرجع المثيل**، وانسخ قيمة **المعرف**.</span><span class="sxs-lookup"><span data-stu-id="b452a-348">To find this value, open the [Power Apps portal](https://make.powerapps.com), select the **Settings** button (gear symbol) in the upper-right upper corner, select **Customizations \> Developer resources \> Instance Reference Information**, and copy the **ID** value.</span></span> |
+    | <span data-ttu-id="b452a-349">معرف مستأجر CDS (معرف الدليل من AAD)</span><span class="sxs-lookup"><span data-stu-id="b452a-349">CDS Tenant ID (Directory ID from AAD)</span></span>               | <span data-ttu-id="b452a-350">معرف مستأجر المثيل Dataverse.</span><span class="sxs-lookup"><span data-stu-id="b452a-350">The tenant ID of the Dataverse instance.</span></span> <span data-ttu-id="b452a-351">للعثور على هذه القيمة، افتح [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory**، ثم انسخ قيمة **معرف المستأجر**.</span><span class="sxs-lookup"><span data-stu-id="b452a-351">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and copy the **Tenant ID** value.</span></span> |
+    | <span data-ttu-id="b452a-352">قم بتوفير معرف كائن المستخدم الذي يمتلك دور مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="b452a-352">Provide user object ID who has system administrator role</span></span> | <span data-ttu-id="b452a-353">معرف كائن مستخدم Azure AD في Dataverse.</span><span class="sxs-lookup"><span data-stu-id="b452a-353">The Azure AD user object ID of the user in Dataverse.</span></span> <span data-ttu-id="b452a-354">يجب أن يكون هذا المستخدم مسؤول نظام مثيل Dataverse.</span><span class="sxs-lookup"><span data-stu-id="b452a-354">This user must be a system administrator of the Dataverse instance.</span></span> <span data-ttu-id="b452a-355">للعثور على هذه القيمة، افتح [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory \> المستخدمين**، حدد المستخدم، ثم، في القسم **الهوية**، انسخ القيمة **معرف الكائن**.</span><span class="sxs-lookup"><span data-stu-id="b452a-355">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory \> Users**, select the user, and then, in the **Identity** section, copy the **Object ID** value.</span></span> |
+    | <span data-ttu-id="b452a-356">هل هذه هي بيئة CDS الافتراضية للمستأجر؟</span><span class="sxs-lookup"><span data-stu-id="b452a-356">Is this the default CDS environment for the tenant?</span></span>      | <span data-ttu-id="b452a-357">إذا كان مثيل Dataverse هو أول مثيل إنتاج تم إنشاؤه، حدد خانة الاختيار هذه.</span><span class="sxs-lookup"><span data-stu-id="b452a-357">If the Dataverse instance was the first production instance that was created, select this check box.</span></span> <span data-ttu-id="b452a-358">إذا تم إنشاء مثيل Dataverse يدويًا، فقم بإلغاء تحديد خانة الاختيار هذه.</span><span class="sxs-lookup"><span data-stu-id="b452a-358">If the Dataverse instance was manually created, clear this check box.</span></span> |
 
-## <a name="feedback-and-support"></a><span data-ttu-id="86edc-359">الملاحظات والدعم</span><span class="sxs-lookup"><span data-stu-id="86edc-359">Feedback and support</span></span>
+## <a name="feedback-and-support"></a><span data-ttu-id="b452a-359">الملاحظات والدعم</span><span class="sxs-lookup"><span data-stu-id="b452a-359">Feedback and support</span></span>
 
-<span data-ttu-id="86edc-360">الرجاء إرسال بريد الكتروني إلى [‏‫معلومات دفع العميل (معاينة) ](mailto:fiap@microsoft.com) إذا كنت مهتمًا بتقديم الملاحظات أو تحتاج إلى الدعم.</span><span class="sxs-lookup"><span data-stu-id="86edc-360">Please send an email to [Customer payment insights (Preview)](mailto:fiap@microsoft.com) if you are interested in providing feedback or need support.</span></span>
+<span data-ttu-id="b452a-360">الرجاء إرسال بريد الكتروني إلى [‏‫معلومات دفع العميل (معاينة) ](mailto:fiap@microsoft.com) إذا كنت مهتمًا بتقديم الملاحظات أو تحتاج إلى الدعم.</span><span class="sxs-lookup"><span data-stu-id="b452a-360">Please send an email to [Customer payment insights (Preview)](mailto:fiap@microsoft.com) if you are interested in providing feedback or need support.</span></span>
 
-## <a name="privacy-notice"></a><span data-ttu-id="86edc-361">إشعار الخصوصية</span><span class="sxs-lookup"><span data-stu-id="86edc-361">Privacy notice</span></span>
+## <a name="privacy-notice"></a><span data-ttu-id="b452a-361">إشعار الخصوصية</span><span class="sxs-lookup"><span data-stu-id="b452a-361">Privacy notice</span></span>
 
-<span data-ttu-id="86edc-362">إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.</span><span class="sxs-lookup"><span data-stu-id="86edc-362">Previews (1) might use less privacy and fewer security measures than the Dynamics 365 Finance and Operations service, (2) aren't included in the service level agreement (SLA) for this service, (3) should not be used to process personal data or other data that is subject to legal or regulatory compliance requirements, and (4) have limited support.</span></span>
+<span data-ttu-id="b452a-362">إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.</span><span class="sxs-lookup"><span data-stu-id="b452a-362">Previews (1) might use less privacy and fewer security measures than the Dynamics 365 Finance and Operations service, (2) aren't included in the service level agreement (SLA) for this service, (3) should not be used to process personal data or other data that is subject to legal or regulatory compliance requirements, and (4) have limited support.</span></span>
