@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7d6e3dea1b3c1ef47490df678f639c036cdd5c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421278"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021694"
 ---
 # <a name="asset-criticality-types"></a>أنواع مستويات أهمية الأصول
 
@@ -62,6 +61,3 @@ ms.locfileid: "4421278"
 - يتم إعادة حساب مستوى الأهمية في أمر العمل في كل مرة تتم فيها إضافة بند أمر عمل إلى أمر العمل أو حذفه منه.
 - إذا كان أمر العمل يحتوي على العديد من مهام أمر العمل، يتم دائمًا استخدام أعلى مستوى أهمية، وفق حقل **المعامل** في صفحة **أنواع مستويات الأهمية** في أمر العمل.
 - بشكل عام، يمكن أن يتغير مستوى أهمية الأصل خلال فترة ما. ويمكن أن يتأثر مستوى الأهمية بشراء معدات جديدة، والتجديدات، وما إلى ذلك. خذ بعين الاعتبار إعادة تقييم مستويات أهمية الأصول على فترات منتظمة (على سبيل المثال، مرة واحدة في السنة أو كل سنتين) للتأكد من تطابق تعريفات مستويات الأهمية مع إعداد الإنتاج الحالي.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
