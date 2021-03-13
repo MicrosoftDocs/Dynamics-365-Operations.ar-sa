@@ -11,56 +11,55 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 963a6dce8affc23f001dcb04219821ceff3a2d92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1694472e20c28a0b0f94c1ced8544b7258c22b40
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421077"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007081"
 ---
-# <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="d3198-103">إنشاء قاعدة كانبان لسحب</span><span class="sxs-lookup"><span data-stu-id="d3198-103">Create a withdrawal kanban rule</span></span>
+# <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="5bf9a-103">إنشاء قاعدة كانبان لسحب</span><span class="sxs-lookup"><span data-stu-id="5bf9a-103">Create a withdrawal kanban rule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d3198-104">يظهر هذا الإجراء الإعداد المطلوب لإنشاء قاعدة كانبان للسحب لنقل المواد في بيئة محدودة.</span><span class="sxs-lookup"><span data-stu-id="d3198-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="d3198-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="d3198-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d3198-106">هذا الإجراء مخصص لمهندس العمليات أو مدير تدفق القيم عند تحضيرهم لتزويد مادة جديدة أو معدلة.</span><span class="sxs-lookup"><span data-stu-id="d3198-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
+<span data-ttu-id="5bf9a-104">يظهر هذا الإجراء الإعداد المطلوب لإنشاء قاعدة كانبان للسحب لنقل المواد في بيئة محدودة.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="5bf9a-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5bf9a-106">هذا الإجراء مخصص لمهندس العمليات أو مدير تدفق القيم عند تحضيرهم لتزويد مادة جديدة أو معدلة.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
 
 
-## <a name="create-new-kanban-rule"></a><span data-ttu-id="d3198-107">إنشاء قاعدة كانبان جديدة</span><span class="sxs-lookup"><span data-stu-id="d3198-107">Create new kanban rule</span></span>
-1. <span data-ttu-id="d3198-108">انتقل إلى قواعد كانبان.</span><span class="sxs-lookup"><span data-stu-id="d3198-108">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="d3198-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="d3198-109">Click New.</span></span>
-3. <span data-ttu-id="d3198-110">في حقل "النوع"، حدد "انسحاب".</span><span class="sxs-lookup"><span data-stu-id="d3198-110">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="d3198-111">يتم استخدام نوع الانسحاب لقواعد كانبان لنقل المواد أو السلع.</span><span class="sxs-lookup"><span data-stu-id="d3198-111">The Withdrawal type is used for kanban rules to transfer material or goods.</span></span>  
-4. <span data-ttu-id="d3198-112">في الحقل "نشاط الخطة الأول"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="d3198-112">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="d3198-113">حدد ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="d3198-113">Select ReplenishSpeakerComponents.</span></span>   <span data-ttu-id="d3198-114">يتم إعداد هذا النشاط لنقل المكونات من المستودع 11 والموقع 11 إلى 12 المستودع والموقع 12.</span><span class="sxs-lookup"><span data-stu-id="d3198-114">This activity is set up to move components from warehouse 11, location 11 to warehouse 12, and location 12.</span></span>  
-5. <span data-ttu-id="d3198-115">في الحقل "المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="d3198-115">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="d3198-116">حدد "M0007".</span><span class="sxs-lookup"><span data-stu-id="d3198-116">Select M0007.</span></span>  
-6. <span data-ttu-id="d3198-117">في الحقل "وقت الإنتاج‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="d3198-117">In the Lead time field, enter a number.</span></span>
-    * <span data-ttu-id="d3198-118">على سبيل المثال، 60.</span><span class="sxs-lookup"><span data-stu-id="d3198-118">For example, 60.</span></span>  
-7. <span data-ttu-id="d3198-119">في الحقل "وحدة القياس"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="d3198-119">In the Unit of measure field, enter or select a value.</span></span>
-    * <span data-ttu-id="d3198-120">فمثلاً، الدقائق.</span><span class="sxs-lookup"><span data-stu-id="d3198-120">For example, Minutes.</span></span>  
+## <a name="create-new-kanban-rule"></a><span data-ttu-id="5bf9a-107">إنشاء قاعدة كانبان جديدة</span><span class="sxs-lookup"><span data-stu-id="5bf9a-107">Create new kanban rule</span></span>
+1. <span data-ttu-id="5bf9a-108">انتقل إلى قواعد كانبان.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-108">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="5bf9a-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-109">Click New.</span></span>
+3. <span data-ttu-id="5bf9a-110">في حقل "النوع"، حدد "انسحاب".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-110">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="5bf9a-111">يتم استخدام نوع الانسحاب لقواعد كانبان لنقل المواد أو السلع.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-111">The Withdrawal type is used for kanban rules to transfer material or goods.</span></span>  
+4. <span data-ttu-id="5bf9a-112">في الحقل "نشاط الخطة الأول"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-112">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="5bf9a-113">حدد ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-113">Select ReplenishSpeakerComponents.</span></span>   <span data-ttu-id="5bf9a-114">يتم إعداد هذا النشاط لنقل المكونات من المستودع 11 والموقع 11 إلى 12 المستودع والموقع 12.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-114">This activity is set up to move components from warehouse 11, location 11 to warehouse 12, and location 12.</span></span>  
+5. <span data-ttu-id="5bf9a-115">في الحقل "المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-115">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="5bf9a-116">حدد "M0007".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-116">Select M0007.</span></span>  
+6. <span data-ttu-id="5bf9a-117">في الحقل "وقت الإنتاج‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-117">In the Lead time field, enter a number.</span></span>
+    * <span data-ttu-id="5bf9a-118">على سبيل المثال، 60.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-118">For example, 60.</span></span>  
+7. <span data-ttu-id="5bf9a-119">في الحقل "وحدة القياس"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-119">In the Unit of measure field, enter or select a value.</span></span>
+    * <span data-ttu-id="5bf9a-120">فمثلاً، الدقائق.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-120">For example, Minutes.</span></span>  
 
-## <a name="set-quantities-for-kanban"></a><span data-ttu-id="d3198-121">قم بإعداد كميات لكانبان</span><span class="sxs-lookup"><span data-stu-id="d3198-121">Set quantities for kanban</span></span>
-1. <span data-ttu-id="d3198-122">قم بتعيين الكمية الافتراضية على "5".</span><span class="sxs-lookup"><span data-stu-id="d3198-122">Set Default quantity to '5'.</span></span>
-    * <span data-ttu-id="d3198-123">هذه هي الكمية التي سيتم تحويلها لكل كانبان.</span><span class="sxs-lookup"><span data-stu-id="d3198-123">This is the quantity that will be transferred for each kanban.</span></span>  
-2. <span data-ttu-id="d3198-124">في الحقل "كانبان الكمية الثابتة"، أدخل "2".</span><span class="sxs-lookup"><span data-stu-id="d3198-124">In the Fixed kanban quantity field, enter '2'.</span></span>
-    * <span data-ttu-id="d3198-125">وهذا هو كمية كانبان التي يجب أن تكون نشطة.</span><span class="sxs-lookup"><span data-stu-id="d3198-125">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="d3198-126">في هذه الحالة، يوجد 2 كانبان تنقل كل منها 5.</span><span class="sxs-lookup"><span data-stu-id="d3198-126">In this case, 2 kanbans transferring 5 each.</span></span>  
-3. <span data-ttu-id="d3198-127">في الحقل "الحد الأدنى للتنبيه"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="d3198-127">In the Alert boundary minimum field, enter '1'.</span></span>
-    * <span data-ttu-id="d3198-128">تُستخدم لتعقب الحد الأدنى لكمية كانبان الكاملة التي ينبغي أن تكون في الوجهة.</span><span class="sxs-lookup"><span data-stu-id="d3198-128">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="d3198-129">على سبيل المثال، يتم استخدام ذلك في النظرة العامة على كمية كانبان.</span><span class="sxs-lookup"><span data-stu-id="d3198-129">For example, this is used on the kanban quantity overview.</span></span>  
-4. <span data-ttu-id="d3198-130">في الحقل "الحد الأقصى للتنبيه"، أدخل "2".</span><span class="sxs-lookup"><span data-stu-id="d3198-130">In the Alert boundary maximum field, enter '2'.</span></span>
-    * <span data-ttu-id="d3198-131">تُستخدم لتعقب الحد الأقصى لكمية كانبان الكاملة التي ينبغي أن تكون في الوجهة.</span><span class="sxs-lookup"><span data-stu-id="d3198-131">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="d3198-132">على سبيل المثال، يتم استخدام ذلك في النظرة العامة على كمية كانبان.</span><span class="sxs-lookup"><span data-stu-id="d3198-132">For example, this is used on the kanban quantity overview.</span></span>  
+## <a name="set-quantities-for-kanban"></a><span data-ttu-id="5bf9a-121">قم بإعداد كميات لكانبان</span><span class="sxs-lookup"><span data-stu-id="5bf9a-121">Set quantities for kanban</span></span>
+1. <span data-ttu-id="5bf9a-122">قم بتعيين الكمية الافتراضية على "5".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-122">Set Default quantity to '5'.</span></span>
+    * <span data-ttu-id="5bf9a-123">هذه هي الكمية التي سيتم تحويلها لكل كانبان.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-123">This is the quantity that will be transferred for each kanban.</span></span>  
+2. <span data-ttu-id="5bf9a-124">في الحقل "كانبان الكمية الثابتة"، أدخل "2".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-124">In the Fixed kanban quantity field, enter '2'.</span></span>
+    * <span data-ttu-id="5bf9a-125">وهذا هو كمية كانبان التي يجب أن تكون نشطة.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-125">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="5bf9a-126">في هذه الحالة، يوجد 2 كانبان تنقل كل منها 5.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-126">In this case, 2 kanbans transferring 5 each.</span></span>  
+3. <span data-ttu-id="5bf9a-127">في الحقل "الحد الأدنى للتنبيه"، أدخل "1".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-127">In the Alert boundary minimum field, enter '1'.</span></span>
+    * <span data-ttu-id="5bf9a-128">تُستخدم لتعقب الحد الأدنى لكمية كانبان الكاملة التي ينبغي أن تكون في الوجهة.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-128">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="5bf9a-129">على سبيل المثال، يتم استخدام ذلك في النظرة العامة على كمية كانبان.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-129">For example, this is used on the kanban quantity overview.</span></span>  
+4. <span data-ttu-id="5bf9a-130">في الحقل "الحد الأقصى للتنبيه"، أدخل "2".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-130">In the Alert boundary maximum field, enter '2'.</span></span>
+    * <span data-ttu-id="5bf9a-131">تُستخدم لتعقب الحد الأقصى لكمية كانبان الكاملة التي ينبغي أن تكون في الوجهة.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-131">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="5bf9a-132">على سبيل المثال، يتم استخدام ذلك في النظرة العامة على كمية كانبان.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-132">For example, this is used on the kanban quantity overview.</span></span>  
 
-## <a name="create-kanbans"></a><span data-ttu-id="d3198-133">إنشاء بطاقات كانبان</span><span class="sxs-lookup"><span data-stu-id="d3198-133">Create kanbans</span></span>
-1. <span data-ttu-id="d3198-134">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="d3198-134">Click Save.</span></span>
-    * <span data-ttu-id="d3198-135">يجب حفظ قاعدة كانبان قبل إنشاء كانبان.</span><span class="sxs-lookup"><span data-stu-id="d3198-135">The kanban rule needs to be saved before kanbans can be created.</span></span>  
-2. <span data-ttu-id="d3198-136">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="d3198-136">Click Add.</span></span>
-    * <span data-ttu-id="d3198-137">لاحظ أنه لا وجود لكانبان نشطة، بسبب أن "عدد الكانبان الجديدة" المقترح هو 2، وهذا يساوي "كمية كانبان ثابتة".</span><span class="sxs-lookup"><span data-stu-id="d3198-137">Note that there are no active kanbans because the suggested 'Number of new kanbans' is 2, which is equal to the 'Fixed kanban quantity'.</span></span>  
-3. <span data-ttu-id="d3198-138">انقر فوق "إنشاء".</span><span class="sxs-lookup"><span data-stu-id="d3198-138">Click Create.</span></span>
-    * <span data-ttu-id="d3198-139">سيؤدي هذا إلى إنشاء 2 كانبان.</span><span class="sxs-lookup"><span data-stu-id="d3198-139">This will create two kanbans.</span></span>  
-    * <span data-ttu-id="d3198-140">لاحظ أنه تم إنشاء 2 كانبان، لكل منها 5، لقاعدة كانبان للسحب.</span><span class="sxs-lookup"><span data-stu-id="d3198-140">Note that 2 kanbans, for 5 each, was created for this withdrawal kanban rule.</span></span>  <span data-ttu-id="d3198-141">وهذه هي الخطوة الأخيرة في هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="d3198-141">This is the last step in this procedure.</span></span>  
+## <a name="create-kanbans"></a><span data-ttu-id="5bf9a-133">إنشاء بطاقات كانبان</span><span class="sxs-lookup"><span data-stu-id="5bf9a-133">Create kanbans</span></span>
+1. <span data-ttu-id="5bf9a-134">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-134">Click Save.</span></span>
+    * <span data-ttu-id="5bf9a-135">يجب حفظ قاعدة كانبان قبل إنشاء كانبان.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-135">The kanban rule needs to be saved before kanbans can be created.</span></span>  
+2. <span data-ttu-id="5bf9a-136">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-136">Click Add.</span></span>
+    * <span data-ttu-id="5bf9a-137">لاحظ أنه لا وجود لكانبان نشطة، بسبب أن "عدد الكانبان الجديدة" المقترح هو 2، وهذا يساوي "كمية كانبان ثابتة".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-137">Note that there are no active kanbans because the suggested 'Number of new kanbans' is 2, which is equal to the 'Fixed kanban quantity'.</span></span>  
+3. <span data-ttu-id="5bf9a-138">انقر فوق "إنشاء".</span><span class="sxs-lookup"><span data-stu-id="5bf9a-138">Click Create.</span></span>
+    * <span data-ttu-id="5bf9a-139">سيؤدي هذا إلى إنشاء 2 كانبان.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-139">This will create two kanbans.</span></span>  
+    * <span data-ttu-id="5bf9a-140">لاحظ أنه تم إنشاء 2 كانبان، لكل منها 5، لقاعدة كانبان للسحب.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-140">Note that 2 kanbans, for 5 each, was created for this withdrawal kanban rule.</span></span>  <span data-ttu-id="5bf9a-141">وهذه هي الخطوة الأخيرة في هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="5bf9a-141">This is the last step in this procedure.</span></span>  
 
