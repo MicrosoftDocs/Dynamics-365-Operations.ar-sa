@@ -11,48 +11,47 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b0e48307527a8fea729d8dfdcdbc6337be0faf1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c396060017db6d7ce830b350f242d3097876e50
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409911"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012303"
 ---
-# <a name="opt-out-of-web-activity-event-collection"></a><span data-ttu-id="58987-103">إلغاء الاشتراك من مجموعة أحداث نشاط الويب</span><span class="sxs-lookup"><span data-stu-id="58987-103">Opt out of web activity event collection</span></span>
+# <a name="opt-out-of-web-activity-event-collection"></a><span data-ttu-id="c488f-103">إلغاء الاشتراك من مجموعة أحداث نشاط الويب</span><span class="sxs-lookup"><span data-stu-id="c488f-103">Opt out of web activity event collection</span></span>
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="58987-104">يشرح هذا الموضوع كيفية السماح للعملاء بإلغاء الاشتراك من مجموعة أحداث نشاط الويب في Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="58987-104">This topic explains how you can let customers opt out of web activity event collection in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="c488f-104">يشرح هذا الموضوع كيفية السماح للعملاء بإلغاء الاشتراك من مجموعة أحداث نشاط الويب في Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="c488f-104">This topic explains how you can let customers opt out of web activity event collection in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="58987-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="58987-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="c488f-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="c488f-105">Overview</span></span>
 
-<span data-ttu-id="58987-106">يتيح Dynamics 365 Commerce لمسؤولي المواقع تحليل نشاط الويب لمستخدمي مواقع التجارة الإلكترونية الخاصة بهم.</span><span class="sxs-lookup"><span data-stu-id="58987-106">Dynamics 365 Commerce lets site administrators analyze the web activity of users of their e-commerce sites.</span></span> <span data-ttu-id="58987-107">وبهذه الطريقة، يمكنهم فهم كيف يتم استخدام مواقعهم بشكل أفضل، كما يمكنهم تحسين المواقع لتوفير تجربة مستخدم محسنة وتلبية أهداف الأعمال.</span><span class="sxs-lookup"><span data-stu-id="58987-107">In that way, they can better understand how their sites are used, and they can optimize the sites to provide an improved user experience and meet business objectives.</span></span>
+<span data-ttu-id="c488f-106">يتيح Dynamics 365 Commerce لمسؤولي المواقع تحليل نشاط الويب لمستخدمي مواقع التجارة الإلكترونية الخاصة بهم.</span><span class="sxs-lookup"><span data-stu-id="c488f-106">Dynamics 365 Commerce lets site administrators analyze the web activity of users of their e-commerce sites.</span></span> <span data-ttu-id="c488f-107">وبهذه الطريقة، يمكنهم فهم كيف يتم استخدام مواقعهم بشكل أفضل، كما يمكنهم تحسين المواقع لتوفير تجربة مستخدم محسنة وتلبية أهداف الأعمال.</span><span class="sxs-lookup"><span data-stu-id="c488f-107">In that way, they can better understand how their sites are used, and they can optimize the sites to provide an improved user experience and meet business objectives.</span></span>
 
 
-## <a name="ways-for-administrators-to-implement-an-opt-out-experience"></a><span data-ttu-id="58987-108">طرق للمسؤولين لتنفيذ تجربة إلغاء الاشتراك</span><span class="sxs-lookup"><span data-stu-id="58987-108">Ways for administrators to implement an opt-out experience</span></span>
+## <a name="ways-for-administrators-to-implement-an-opt-out-experience"></a><span data-ttu-id="c488f-108">طرق للمسؤولين لتنفيذ تجربة إلغاء الاشتراك</span><span class="sxs-lookup"><span data-stu-id="c488f-108">Ways for administrators to implement an opt-out experience</span></span>
 
-<span data-ttu-id="58987-109">يتوفر للمسؤولين ثلاث طرق لتنفيذ تجربة إلغاء الاشتراك.</span><span class="sxs-lookup"><span data-stu-id="58987-109">Administrators have three ways to implement an opt-out experience.</span></span>
+<span data-ttu-id="c488f-109">يتوفر للمسؤولين ثلاث طرق لتنفيذ تجربة إلغاء الاشتراك.</span><span class="sxs-lookup"><span data-stu-id="c488f-109">Administrators have three ways to implement an opt-out experience.</span></span>
 
-### <a name="opt-out-on-behalf-of-users"></a><span data-ttu-id="58987-110">إلغاء الاشتراك نيابةً عن المستخدمين</span><span class="sxs-lookup"><span data-stu-id="58987-110">Opt out on behalf of users</span></span>
+### <a name="opt-out-on-behalf-of-users"></a><span data-ttu-id="c488f-110">إلغاء الاشتراك نيابةً عن المستخدمين</span><span class="sxs-lookup"><span data-stu-id="c488f-110">Opt out on behalf of users</span></span>
 
-<span data-ttu-id="58987-111">في إدارة الحسابات في Commerce headquarters (HQ)، يمكن للمسؤولين إلغاء الاشتراك بالنيابة عن المستخدمين.</span><span class="sxs-lookup"><span data-stu-id="58987-111">In Account management in Commerce headquarters (HQ), administrators can opt out on behalf of users.</span></span>
+<span data-ttu-id="c488f-111">في إدارة الحسابات في Commerce headquarters (HQ)، يمكن للمسؤولين إلغاء الاشتراك بالنيابة عن المستخدمين.</span><span class="sxs-lookup"><span data-stu-id="c488f-111">In Account management in Commerce headquarters (HQ), administrators can opt out on behalf of users.</span></span>
 
-1. <span data-ttu-id="58987-112">في عميل HQ ، في صفحة **كافة العملاء**، ابحث عن عميل وحدده.</span><span class="sxs-lookup"><span data-stu-id="58987-112">In the HQ client, on the **All customers** page, search for and select a customer.</span></span>
-1. <span data-ttu-id="58987-113">من الصفحة تفاصيل العميل، في علامة التبويب السريعة **البيع بالتجزئة**، في قسم **الخصوصية**، قم بتعيين خيار **عدم تعقب نشاط الويب** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="58987-113">On the customer details page, on the **Retail** FastTab, in the **Privacy** section, set the **Do not track web activity** option to **Yes**.</span></span>
+1. <span data-ttu-id="c488f-112">في عميل HQ ، في صفحة **كافة العملاء**، ابحث عن عميل وحدده.</span><span class="sxs-lookup"><span data-stu-id="c488f-112">In the HQ client, on the **All customers** page, search for and select a customer.</span></span>
+1. <span data-ttu-id="c488f-113">من الصفحة تفاصيل العميل، في علامة التبويب السريعة **البيع بالتجزئة**، في قسم **الخصوصية**، قم بتعيين خيار **عدم تعقب نشاط الويب** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="c488f-113">On the customer details page, on the **Retail** FastTab, in the **Privacy** section, set the **Do not track web activity** option to **Yes**.</span></span>
 
     ![إعدادات الخصوصية](media/Disablepersonalizationpart2.png)
 
-1. <span data-ttu-id="58987-115">حدد **حفظ** ثم قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="58987-115">Select **Save**, and then close the page.</span></span>
+1. <span data-ttu-id="c488f-115">حدد **حفظ** ثم قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="c488f-115">Select **Save**, and then close the page.</span></span>
 
-### <a name="module-based-opt-out-experience"></a><span data-ttu-id="58987-116">تجربه إلغاء الاشتراك المستند إلى الوحدة النمطية</span><span class="sxs-lookup"><span data-stu-id="58987-116">Module-based opt-out experience</span></span>
+### <a name="module-based-opt-out-experience"></a><span data-ttu-id="c488f-116">تجربه إلغاء الاشتراك المستند إلى الوحدة النمطية</span><span class="sxs-lookup"><span data-stu-id="c488f-116">Module-based opt-out experience</span></span>
 
-<span data-ttu-id="58987-117">يمكن للمسؤولين السماح للمستخدمين المصادق عليهم بإلغاء الاشتراك من مجموعة أحداث نشاط الويب بأنفسهم.</span><span class="sxs-lookup"><span data-stu-id="58987-117">Administrators can let authenticated users opt out of web activity event collection by themselves.</span></span> <span data-ttu-id="58987-118">لتوفير تجربه إلغاء الاشتراك هذه ، أضف الوحدة النمطية للغاء اشتراك المستخدم إلى صفحات ملف تعريف حساب العميل.</span><span class="sxs-lookup"><span data-stu-id="58987-118">To provide this opt-out experience, add the user opt-out module to customer account profile pages.</span></span>
+<span data-ttu-id="c488f-117">يمكن للمسؤولين السماح للمستخدمين المصادق عليهم بإلغاء الاشتراك من مجموعة أحداث نشاط الويب بأنفسهم.</span><span class="sxs-lookup"><span data-stu-id="c488f-117">Administrators can let authenticated users opt out of web activity event collection by themselves.</span></span> <span data-ttu-id="c488f-118">لتوفير تجربه إلغاء الاشتراك هذه ، أضف الوحدة النمطية للغاء اشتراك المستخدم إلى صفحات ملف تعريف حساب العميل.</span><span class="sxs-lookup"><span data-stu-id="c488f-118">To provide this opt-out experience, add the user opt-out module to customer account profile pages.</span></span>
 
-### <a name="custom-extensions"></a><span data-ttu-id="58987-119">الملحقات المخصصة</span><span class="sxs-lookup"><span data-stu-id="58987-119">Custom extensions</span></span>
+### <a name="custom-extensions"></a><span data-ttu-id="c488f-119">الملحقات المخصصة</span><span class="sxs-lookup"><span data-stu-id="c488f-119">Custom extensions</span></span>
 
-<span data-ttu-id="58987-120">يمكن للمسؤولين إنشاء الملحقات الخاصة بهم لإدارة تجربة إلغاء الاشتراك للمستخدمين.</span><span class="sxs-lookup"><span data-stu-id="58987-120">Administrators can create their own extensions to manage the opt-out experience for users.</span></span> <span data-ttu-id="58987-121">لمزيد من المعلومات، راجع [استدعاء واجهات برمجة تطبيقات Retail Server](e-commerce-extensibility/call-retail-server-apis.md) و[توسعة القنوات على الإنترنت](e-commerce-extensibility/overview.md).</span><span class="sxs-lookup"><span data-stu-id="58987-121">For more information, see [Call Retail Server APIs](e-commerce-extensibility/call-retail-server-apis.md) and [Online channel extensibility](e-commerce-extensibility/overview.md).</span></span>
+<span data-ttu-id="c488f-120">يمكن للمسؤولين إنشاء الملحقات الخاصة بهم لإدارة تجربة إلغاء الاشتراك للمستخدمين.</span><span class="sxs-lookup"><span data-stu-id="c488f-120">Administrators can create their own extensions to manage the opt-out experience for users.</span></span> <span data-ttu-id="c488f-121">لمزيد من المعلومات، راجع [استدعاء واجهات برمجة تطبيقات Retail Server](e-commerce-extensibility/call-retail-server-apis.md) و[توسعة القنوات على الإنترنت](e-commerce-extensibility/overview.md).</span><span class="sxs-lookup"><span data-stu-id="c488f-121">For more information, see [Call Retail Server APIs](e-commerce-extensibility/call-retail-server-apis.md) and [Online channel extensibility](e-commerce-extensibility/overview.md).</span></span>

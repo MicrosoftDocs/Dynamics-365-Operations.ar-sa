@@ -11,36 +11,35 @@ ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 84a0093d95c2f7084c7a0ed17f8b2f86d654b5d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7a1fda7e00c64f18e8078805a98cba8cdb1c4309
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421088"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010987"
 ---
-# <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a><span data-ttu-id="9171e-103">إنشاء قاعدة كانبان جديدة عن طريق تكرار قاعدة كانبان الموجودة</span><span class="sxs-lookup"><span data-stu-id="9171e-103">Create a new kanban rule by duplicating an existing kanban rule</span></span>
+# <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a><span data-ttu-id="6e82e-103">إنشاء قاعدة كانبان جديدة عن طريق تكرار قاعدة كانبان الموجودة</span><span class="sxs-lookup"><span data-stu-id="6e82e-103">Create a new kanban rule by duplicating an existing kanban rule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9171e-104">ويركز هذا الإجراء على إنشاء نسخة مكررة من قاعدة كانبان موجودة.</span><span class="sxs-lookup"><span data-stu-id="9171e-104">This procedure focuses on creating a duplicate of an existing kanban rule.</span></span> <span data-ttu-id="9171e-105">وهذا مفيد إذا كنت تريد إنشاء قواعد كانبان جديدة تستند إلى قواعد كانبان الموجودة.</span><span class="sxs-lookup"><span data-stu-id="9171e-105">This is useful if you want to create new kanban rules based on existing kanban rules.</span></span> <span data-ttu-id="9171e-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="9171e-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9171e-107">هذا الإجراء مخصص لمهندس العمليات أو مدير تدفق القيم عند تحضيرهم لإنتاج تدفق عمل مغيَّر أو قاعدة تزويد جديدة.</span><span class="sxs-lookup"><span data-stu-id="9171e-107">This procedure is intended for the process engineer or the value stream manager as they prepare production for a changed production flow or a new replenishment rule.</span></span>
+<span data-ttu-id="6e82e-104">ويركز هذا الإجراء على إنشاء نسخة مكررة من قاعدة كانبان موجودة.</span><span class="sxs-lookup"><span data-stu-id="6e82e-104">This procedure focuses on creating a duplicate of an existing kanban rule.</span></span> <span data-ttu-id="6e82e-105">وهذا مفيد إذا كنت تريد إنشاء قواعد كانبان جديدة تستند إلى قواعد كانبان الموجودة.</span><span class="sxs-lookup"><span data-stu-id="6e82e-105">This is useful if you want to create new kanban rules based on existing kanban rules.</span></span> <span data-ttu-id="6e82e-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="6e82e-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6e82e-107">هذا الإجراء مخصص لمهندس العمليات أو مدير تدفق القيم عند تحضيرهم لإنتاج تدفق عمل مغيَّر أو قاعدة تزويد جديدة.</span><span class="sxs-lookup"><span data-stu-id="6e82e-107">This procedure is intended for the process engineer or the value stream manager as they prepare production for a changed production flow or a new replenishment rule.</span></span>
 
 
-## <a name="select-a-kanban-rule"></a><span data-ttu-id="9171e-108">حدد "قاعدة كانبان".</span><span class="sxs-lookup"><span data-stu-id="9171e-108">Select a kanban rule</span></span>
-1. <span data-ttu-id="9171e-109">انتقل إلى قواعد كانبان.</span><span class="sxs-lookup"><span data-stu-id="9171e-109">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="9171e-110">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="9171e-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="9171e-111">حدد "قاعدة كانبان 000017 للمنتج M0006".</span><span class="sxs-lookup"><span data-stu-id="9171e-111">Select kanban rule 000017 for Product M0006.</span></span>  
+## <a name="select-a-kanban-rule"></a><span data-ttu-id="6e82e-108">حدد "قاعدة كانبان".</span><span class="sxs-lookup"><span data-stu-id="6e82e-108">Select a kanban rule</span></span>
+1. <span data-ttu-id="6e82e-109">انتقل إلى قواعد كانبان.</span><span class="sxs-lookup"><span data-stu-id="6e82e-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="6e82e-110">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="6e82e-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="6e82e-111">حدد "قاعدة كانبان 000017 للمنتج M0006".</span><span class="sxs-lookup"><span data-stu-id="6e82e-111">Select kanban rule 000017 for Product M0006.</span></span>  
 
-## <a name="duplicate-a-kanban-rule"></a><span data-ttu-id="9171e-112">تكرار قاعدة كانبان</span><span class="sxs-lookup"><span data-stu-id="9171e-112">Duplicate a kanban rule</span></span>
-1. <span data-ttu-id="9171e-113">انقر فوق "تكرار قاعدة كانبان".</span><span class="sxs-lookup"><span data-stu-id="9171e-113">Click Duplicate kanban rule.</span></span>
-    * <span data-ttu-id="9171e-114">عند تكرار قاعدة كانبان، من الممكن تغيير تحديد النوع والتواريخ والأنشطة والمنتج.</span><span class="sxs-lookup"><span data-stu-id="9171e-114">When duplicating a kanban rule, it is possible to change type, dates, activities, and the product selection.</span></span> <span data-ttu-id="9171e-115">قم بتغيير المنتج المخصص لهذا الإجراء في الخطوة التالية.</span><span class="sxs-lookup"><span data-stu-id="9171e-115">Change the product for this procedure in the next step.</span></span>  
-2. <span data-ttu-id="9171e-116">في الحقل "المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="9171e-116">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="9171e-117">حدد "M0007".</span><span class="sxs-lookup"><span data-stu-id="9171e-117">Select M0007.</span></span>  
-3. <span data-ttu-id="9171e-118">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="9171e-118">Click OK.</span></span>
-    * <span data-ttu-id="9171e-119">لاحظ أنه يتم إنشاء نسخة مكررة قاعدة كانبان 000017.</span><span class="sxs-lookup"><span data-stu-id="9171e-119">Note that a duplicate of kanban rule 000017 is created.</span></span>    
+## <a name="duplicate-a-kanban-rule"></a><span data-ttu-id="6e82e-112">تكرار قاعدة كانبان</span><span class="sxs-lookup"><span data-stu-id="6e82e-112">Duplicate a kanban rule</span></span>
+1. <span data-ttu-id="6e82e-113">انقر فوق "تكرار قاعدة كانبان".</span><span class="sxs-lookup"><span data-stu-id="6e82e-113">Click Duplicate kanban rule.</span></span>
+    * <span data-ttu-id="6e82e-114">عند تكرار قاعدة كانبان، من الممكن تغيير تحديد النوع والتواريخ والأنشطة والمنتج.</span><span class="sxs-lookup"><span data-stu-id="6e82e-114">When duplicating a kanban rule, it is possible to change type, dates, activities, and the product selection.</span></span> <span data-ttu-id="6e82e-115">قم بتغيير المنتج المخصص لهذا الإجراء في الخطوة التالية.</span><span class="sxs-lookup"><span data-stu-id="6e82e-115">Change the product for this procedure in the next step.</span></span>  
+2. <span data-ttu-id="6e82e-116">في الحقل "المنتج"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="6e82e-116">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="6e82e-117">حدد "M0007".</span><span class="sxs-lookup"><span data-stu-id="6e82e-117">Select M0007.</span></span>  
+3. <span data-ttu-id="6e82e-118">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="6e82e-118">Click OK.</span></span>
+    * <span data-ttu-id="6e82e-119">لاحظ أنه يتم إنشاء نسخة مكررة قاعدة كانبان 000017.</span><span class="sxs-lookup"><span data-stu-id="6e82e-119">Note that a duplicate of kanban rule 000017 is created.</span></span>    
 
