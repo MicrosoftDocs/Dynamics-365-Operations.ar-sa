@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b0e48307527a8fea729d8dfdcdbc6337be0faf1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c396060017db6d7ce830b350f242d3097876e50
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409911"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012303"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>إلغاء الاشتراك من مجموعة أحداث نشاط الويب
 [!include [banner](includes/banner.md)]
@@ -56,6 +55,3 @@ ms.locfileid: "4409911"
 ### <a name="custom-extensions"></a>الملحقات المخصصة
 
 يمكن للمسؤولين إنشاء الملحقات الخاصة بهم لإدارة تجربة إلغاء الاشتراك للمستخدمين. لمزيد من المعلومات، راجع [استدعاء واجهات برمجة تطبيقات Retail Server](e-commerce-extensibility/call-retail-server-apis.md) و[توسعة القنوات على الإنترنت](e-commerce-extensibility/overview.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421169"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010762"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>البحث عن الأسعار والخصومات السارية
 
@@ -60,6 +59,3 @@ ms.locfileid: "4421169"
     * هناك اتفاقيتا خصم بنود للمنتج T0012، تحددان خصمًا قدره 5 في المائة لكمية بنود أمر من 1 إلى 10 وخصمًا 7 بالمائة لكميات أمر أكبر من 10. لاحظ أنه يتم تطبيق الخصومات على مجموعة من المنتجات، وفي هذا المثال، رمز المجموعة 01، الذي يمثل المنتج T0012 عضوًا منها.  
 4. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

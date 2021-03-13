@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 754b34d9d522451082ba6010297431788e4151f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439820"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012253"
 ---
 # <a name="credit-holds-for-sales-orders"></a>تعليقات ائتمانية لأوامر المبيعات
 [!include [banner](../includes/banner.md)]
@@ -265,6 +264,3 @@ ms.locfileid: "4439820"
 يمكن استخدام إدارة الائتمان حاليًا لأوامر المبيعات فقط. ستقوم فواتير النص الحر ونقطة أوامر البيع وأوامر مركز الاتصال باستخدام الحدود الائتمانية المؤقتة والتأمين/الضمانات التي قمت بإضافتها لتعديل الحد الائتماني. ولن تستخدم قواعد الحظر ولن يتم وضعها في قائمة التعليق في حال وجود مشكلة في الحد الائتماني.
 
 لا يوجد أي دعم لفواتير المشروع في إدارة الائتمان.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

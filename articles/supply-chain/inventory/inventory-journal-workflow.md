@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421126"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011662"
 ---
 # <a name="inventory-journal-approval-workflows"></a>عمليات سير عمل الموافقة على دفتر يومية المخزون
 
@@ -31,6 +30,13 @@ ms.locfileid: "4421126"
 
 > [!NOTE]
 > تنطبق عمليات سير عمل الموافقة على دفتر يومية المخزون فقط على الحركات المسجلة باستخدام الوحدة النمطية لإدارة المخزون. ولا تعمل مع دفاتر يومية المخزون التي يتم تشغيلها من الوحدة النمطية لإدارة المستودعات.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>ميزة تشغيل سير عمل اعتماد دفتر يومية المخزون
+
+قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+
+- **الوحدة النمطية:** *إدارة المخزون والمستودعات*
+- **اسم الميزة:** *الموافقة علي دفتر يوميه المخزون الموافقة علي سير العمل*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>إنشاء عمليات سير عمل الموافقة على دفتر يومية المخزون
 
@@ -112,6 +118,3 @@ ms.locfileid: "4421126"
 1. في جزء التنقل، قم بتوسيع **إدارة المخزون \> إدخالات دفتر اليومية \> الأصناف** ثم حدد نوع دفتر يومية مخزون.
 1. افتح دفتر اليومية ذا الصلة.
 1. حدد زر **سير العمل** في جزء الإجراءات لفتح مربع حوار قائمة منسدلة. حدد **محفوظات سير العمل**. لمزيد من المعلومات، راجع [عرض محفوظات سير العمل](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

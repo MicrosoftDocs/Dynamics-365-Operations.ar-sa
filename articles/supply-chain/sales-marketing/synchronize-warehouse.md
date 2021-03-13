@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 28445592d7a2a8964b1642ae52cff08be6feabbe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0c0c1bafb5b36bb9ddc00061e0040a199c8c033d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529496"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010837"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>مزامنة المستودعات من Supply Chain Management إلى Field Service
 
@@ -45,20 +44,20 @@ ms.locfileid: "4529496"
 **مهمة في مشروع تكامل البيانات**
 - المستودع
 
-## <a name="entity-set"></a>مجموعة الكيانات
+## <a name="table-set"></a>مجموعه الجداول
 | Field Service    | Supply Chain Management                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | المستودعات                             |
 
-## <a name="entity-flow"></a>تدفق الكيان
-يمكن مزامنة المستودعات التي يتم إنشاؤها وصيانتها في Supply Chain Management إلى Field Service عبر مشروع تكامل بيانات Common Data Service (CDS). يمكن التحكم في المستودعات التي تريد مزامنتها مع Field Service بواسطة وظائف الاستعلام والتصفية المتقدمة على المشروع. ويتم إنشاء المستودعات التي تتزامن من Supply Chain Management في Field Service مع تعيين الحقل **تتم المحافظة عليه خارجيًا‬** إلى **نعم** والسجل محدد للقراءة فقط.
+## <a name="table-flow"></a>تدفق الجداول
+يمكن مزامنة المستودعات التي يتم إنشاؤها وصيانتها في Supply Chain Management إلى Field Service عبر مشروع تكامل بيانات Microsoft Dataverse. يمكن التحكم في المستودعات التي تريد مزامنتها مع Field Service بواسطة وظائف الاستعلام والتصفية المتقدمة على المشروع. ويتم إنشاء المستودعات التي تتزامن من Supply Chain Management في Field Service مع تعيين العمود **تتم المحافظة عليه خارجيًا‬** إلى **نعم** والسجل محدد للقراءة فقط.
 
 ## <a name="field-service-crm-solution"></a>حل Field Service CRM
-لدعم التكامل بين Field Service وSupply Chain Management، يلزم وجود وظيفة إضافية من حل Field Service CRM. في الحل، تمت إضافة الحقل **تتم المحافظة عليه خارجيًا** إلى كيان **المستودع (msdyn_warehouses)**. يساعد هذا الحقل في تحديد ما إذا كانت معالجة المستودع تتم من Supply Chain Management أو إذا كان موجودًا فقط في Field Service. تتضمن إعدادات هذا الحقل:
+لدعم التكامل بين Field Service وSupply Chain Management، يلزم وجود وظيفة إضافية من حل Field Service CRM. في الحل، تمت إضافة العمود **تتم المحافظة عليه خارجيًا** إلى جدول **المستودع (msdyn_warehouses)**. يساعد هذا العمود في تحديد ما إذا كانت معالجة المستودع تتم من Supply Chain Management أو إذا كان موجودًا فقط في Field Service. تتضمن إعدادات هذا العمود:
 - **نعم** – نشأ المستودع من Supply Chain Management ولن يكون قابلاً للتحرير في Sales.
 - **لا** – تم إدخال المستودع مباشرة في Field Service ويتم الاحتفاظ به هنا.
 
-يساعد الحقل **تتم المحافظة عليه خارجيًا** في التحكم في مزامنة مستويات المخزون والتسويات وعمليات التحويل والاستخدام في أوامر العمل. يمكن استخدام فقط المستودعات حيث تم تعيين الخيار **تتم المحافظة عليها خارجيًا‬‏‫** إلى **نعم** للمزامنة مباشرة إلى المستودع نفسه في النظام الآخر. 
+يساعد العمود **تتم المحافظة عليه خارجيًا** في التحكم في مزامنة مستويات المخزون والتسويات وعمليات التحويل والاستخدام في أوامر العمل. يمكن استخدام فقط المستودعات حيث تم تعيين الخيار **تتم المحافظة عليها خارجيًا‬‏‫** إلى **نعم** للمزامنة مباشرة إلى المستودع نفسه في النظام الآخر. 
 
 > [!NOTE]
 > من الممكن إنشاء عدة مستودعات في Field Service (مع تعيين الخيار **تتم المحافظة عليها خارجيًا‬‏‫** = لا") ثم تعيينها إلى مستودع واحد باستخدام وظائف التصفية والاستعلام المتقدمة. يتم استخدام هذا الإجراء في الحالات التي تريد فيها أن تعمل Field Service كأساس على مستوى المخزون المفصل وفقط إرسال تحديثات إلى Supply Chain Management. في هذه الحالة، لن تحصل Field service على تحديثات على مستوى المخزون من Supply Chain Management. للحصول على معلومات إضافية، راجع [مزامنة عمليات تسوية المخزون من Field Service إلى Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) و[مزامنة أوامر العمل في Field Service إلى أوامر المبيعات المرتبطة بالمشروع في Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
@@ -81,6 +80,3 @@ ms.locfileid: "4529496"
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>المستودعات (Supply Chain Management إلى Field Service): المستودع
 
 [![تعيين القالب في تكامل البيانات](./media/Warehouse1.png)](./media/Warehouse1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

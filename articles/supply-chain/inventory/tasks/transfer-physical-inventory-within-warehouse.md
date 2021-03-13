@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c00b6d18b036482cd96e2287119ddb7fd80bfa2d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421621"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011437"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>نقل المخزون الفعلي داخل المستودع
 
@@ -59,6 +58,3 @@ ms.locfileid: "4421621"
 1. انقر فوق **المخزون**.
 2. انقر فوق **الحركات**. هنا يمكنك أن ترى الحركات التي تم إنشاؤها عندما قمت بترحيل دفتر اليومية الخاص بك.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

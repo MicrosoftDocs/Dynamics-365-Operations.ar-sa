@@ -3,26 +3,25 @@ title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Mana
 description: يشير هذا الموضوع إلى الموضوعات التي تصف الميزات الجديدة والمتغيرة في كل إصدار من Dynamics 365 Supply Chain Management.
 author: kamaybac
 manager: tfehr
-ms.date: 07/23/2020
+ms.date: 12/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77649e310be218fdea8578e974885101c5587722
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 3350afc5f9537a0bd97b9c5257a66039b9dcb55c
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700971"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014548"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management
 
@@ -34,6 +33,7 @@ ms.locfileid: "4700971"
 
 | ‏‏الإصدار | رقم النسخة | توافر التحديث التلقائي | اعرف المزيد |
 |---|---|---|---|
+| 10.0.16 | 10.0.689 | 2021 فبراير | [ما الجديد والمتغير في الإصدار من 10.0.16 Dynamics 365 Supply Chain Management](whats-new-scm-10-0-16.md) |
 | 10.0.15 | 10.0.644 | 2021 يناير | [ما الجديد والمتغير في الإصدار من 10.0.15 Dynamics 365 Supply Chain Management](whats-new-scm-10-0-15.md) |
 | 10.0.14 | 10.0.605 | نوفمبر 2020 | [ما الجديد والمتغير في الإصدار من 10.0.14 Dynamics 365 Supply Chain Management](whats-new-scm-10-0-14.md) |
 | 10.0.13 | 10.0.569 | 2020 أكتوبر | [ما الجديد والمتغير في الإصدار من 10.0.13 Dynamics 365 Supply Chain Management](whats-new-scm-10-0-13.md) |
@@ -67,6 +67,3 @@ ms.locfileid: "4700971"
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | نوفمبر 2016    | [ما الجديد أو المتغير في الإصدار 1611 من Dynamics 365 for Operations (نوفمبر 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | 2016 مايو         | [ما الجديد أو المتغير في الإصدار 7.0.1 من تطبيق Dynamics AX (مايو 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | 2016 فبراير    | [ما الجديد أو المتغير في Dynamics AX 7.0 (فبراير 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
