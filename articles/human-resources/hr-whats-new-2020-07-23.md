@@ -1,8 +1,8 @@
 ---
 title: ما الجديد والمتغير في Dynamics 365 Human Resources (23 يوليو 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 23 يوليو 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0672e3039f54a4591db49eee00d69bf5e4278fd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f5e10d6d1dedfc251a1a00110b50c9096314d75b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528439"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127511"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>ما الجديد والمتغير في Dynamics 365 Human Resources (23 يوليو 2020)
 
@@ -33,7 +33,7 @@ ms.locfileid: "4528439"
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>لا يعمل حذف الأبعاد المالية في أحد المناصب كما هو متوقع (445476)
 
-تؤدي الآن إزالة الأبعاد من منصب إلى إزالة هذه المناصب نفسها من Common Data Service.
+تؤدي الآن إزالة الأبعاد من منصب إلى إزالة هذه المناصب نفسها من Dataverse.
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>المناصب غير الموجودة في التدرج الهرمي تظهر كمناصب غير نشطة (397257)
 
@@ -94,9 +94,9 @@ ms.locfileid: "4528439"
 
 ## <a name="coming-soon"></a>قريبًا
 
-## <a name="checklist-entities-included-in-common-data-service"></a>تضمين كيانات قائمة الاختيار في Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>تضمين كيانات قائمة الاختيار في Dataverse
 
-ستتوفر كيانات قائمة الاختيار لعمليات الإلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبًا في Common Data Service.
+ستتوفر كيانات قائمة الاختيار لعمليات الإلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبًا في Dataverse.
 
 ## <a name="platform-changes"></a>تغييرات النظام الأساسي
 
@@ -108,6 +108,3 @@ Platform update 10.0.12 (36)
 [نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources (7 فبراير 2020)
 description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 7 فبراير 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42fac6e34db10efb047b4cb0fc3c7752330e5bcf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0a45eed4e094cedb9d6d8ed0cb2bdc81eb31b76e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526824"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128103"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (7 فبراير 2020)
 
@@ -57,9 +57,9 @@ ms.locfileid: "4526824"
 
 سيتوفر تحديث النظام الأساسي 32 قريبا. [التعرف على مزيد من المعلومات حول تحديث النظام الأساسي 32 هنا](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
 
-### <a name="updated-common-data-service-solution"></a>حل Common Data Service المحدث
+### <a name="updated-dataverse-solution"></a>حل Dataverse المحدث
 
-سيتوفر حل Common Data Service قريبًا بالتغييرات التالية:
+سيتوفر حل Dataverse قريبًا بالتغييرات التالية:
 
 | ‏‏الوصف | التغيير |
 | ----------------------------------------- | --- |
@@ -70,7 +70,7 @@ ms.locfileid: "4526824"
 | كيانات إعداد التعويض المتغيرة الجديدة | **نوع خطة التعويض المتغير**</br>**خطة التعويض المتغيرة**</br>**قواعد الاستحقاق**</br>**مستوى خطة التعويض المتغير** |
 | كيان **توظيف تقويم العامل** الجديد | تمت إضافة **كيان تقويم العمل** |
 | كيان **تفاصيل المنصب في كشف الرواتب** الجديد | تمت إضافة **تفاصيل المنصب في كشف الرواتب** |
-| كيان **العنوان** الجديد | تمت إضافة **العنوان**. سيتم تضمين كيان **العنوان** الجديد في عملية المزامنة بين Human Resources وCommon Data Service. ولن تتم الإشارة إليه من كيانات **منصب الوظيفة** أو **الوظيفة**. |
+| كيان **العنوان** الجديد | تمت إضافة **العنوان**. سيتم تضمين كيان **العنوان** الجديد في عملية المزامنة بين Human Resources وDataverse. ولن تتم الإشارة إليه من كيانات **منصب الوظيفة** أو **الوظيفة**. |
 
 ## <a name="see-also"></a>راجع أيضًا
 
@@ -78,5 +78,3 @@ ms.locfileid: "4526824"
 [نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

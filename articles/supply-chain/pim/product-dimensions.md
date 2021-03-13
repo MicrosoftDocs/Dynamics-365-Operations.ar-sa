@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421141"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118671"
 ---
 # <a name="product-dimensions"></a>أبعاد المنتجات
 
@@ -122,7 +121,7 @@ ms.locfileid: "4421141"
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>المناطق التي لا يتم فيها دعم بُعد الإصدار
 
-لا تدعم المناطق التالية بُعد الإصدار، لأن تقديم هذا البُعد سيتمم في حدوث تغييرات جذرية:
+لا تدعم المناطق التالية بعد الإصدار (ويظل بإمكانك استخدام هذه المناطق، ولكنك لن تتمكن من أضافه إصدار المنتجات (المنتجات التي يستخدمها بعد الإصدار) لهذه المناطق). علي سبيل المثال، لا يمكنك أضافه عنصر تعيين الإصدار إلى كتالوج المورد. وذلك لان أضافه المنتجات التي لها بعد الإصدار إلى هذه المناطق قد يتسبب في حدوث تغييرات في الفصل.
 
 - البيان الشهري لكائن التكلفة
 - ذاكرة التخزين المؤقت لكائن التكلفة
@@ -146,6 +145,3 @@ ms.locfileid: "4421141"
 
 > [!IMPORTANT]
 > إذا قمت بتشغيل بُعد الإصدار واستخدامه، فإن بعض الحلول التي تشير إلى أبعاد المخزون قد تتوقف عن العمل كما هو متوقع. لتأكيد هذه المشكلات وإصلاحها، اتصل بمورِّد برامج مستقل (ISV)‬ للحلول المتأثرة. لمزيد من المعلومات، راجع [تمكين بُعد الإصدار](#enable-version-dim).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

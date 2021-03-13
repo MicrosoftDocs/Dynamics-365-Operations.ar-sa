@@ -1,6 +1,6 @@
 ---
 title: إعداد الكتابة المزدوجة من Lifecycle Services
-description: يشرح هذا الموضوع كيفية إعداد اتصال كتابة مزدوجة بين بيئة Finance and Operations جديدة وبيئة Dataverse جديدة من Microsoft Dynamics Lifecycle Services (LCS).
+description: يوضح هذا الموضوع كيفيه اعداد اتصال ثنائي الكتابة من Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683513"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127583"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>إعداد الكتابة المزدوجة من Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ ms.locfileid: "4683513"
     - إذا تم تزويد بيئة Dataverse للمستأجر، فيمكنك تحديدها.
 
         1. عيّن الخيار **تكوين Dataverse** إلى **نعم**.
-        2. في حقل **البيئات المتوفرة**، حدد البيئة التي تريد دمجها مع بيانات Finance and Operations. تتضمن القائمة كافة البيئات حيث تملك امتيازات إدارية.
+        2. في عمود **البيئات المتوفرة**، حدد البيئة التي تريد دمجها مع بيانات Finance and Operations. تتضمن القائمة كافة البيئات حيث تملك امتيازات إدارية.
         3. حدد خانة الاختيار **أوافق** للإشارة إلى موافقتك على الأحكام والشروط.
 
         ![علامة التبويب Dataverse عند تزويد بيئة Dataverse للمستأجر](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ ms.locfileid: "4683513"
         ![علامة التبويب Dataverse عندما لا تتوفر بيئة Dataverse لدى المستأجر](../dual-write/media/lcs_setup_2.png)
 
 7. أكمل الخطوات المتبقية في معالج **إعدادات النشر**.
-8. بعد ان تصبح حالة البيئة **منشورة**، افتح صفحة تفاصيل البيئة. يعرض القسم **معلومات بيئة Dataverse** أسماء بيئة Finance and Operations وبيئة Dataverse المرتبطتين.
+8. بعد ان تصبح حالة البيئة **منشورة**، افتح صفحة تفاصيل البيئة. يعرض القسم **دمج Power Platform** أسماء بيئة Finance and Operations وبيئة Dataverse المرتبطتين.
 
-    ![قسم معلومات بيئة Dataverse](../dual-write/media/lcs_setup_3.png)
+    ![قسم التكامل Power Platform](../dual-write/media/lcs_setup_3.png)
 
 9. يجب أن يقوم مسؤول بيئة Finance and Operations بتسجيل الدخول إلى LCS وتحديد **ارتباط إلى CDS للتطبيقات** لإكمال الارتباط. تعرض صفحة تفاصيل البيئة معلومات الاتصال بالمسؤول.
 
@@ -86,10 +84,8 @@ ms.locfileid: "4683513"
 
 10. لفتح مساحة عمل **تكامل البيانات** في بيئة Finance and Operations والتحكم في القوالب المتوفرة، حدد **ارتباط إلى CDS للتطبيقات**.
 
-    ![الزر "ارتباط إلى CDS للتطبيقات" في قسم معلومات بيئة Dataverse](../dual-write/media/lcs_setup_4.png)
+    ![الزر "ارتباط إلى CDS للتطبيقات" في قسم دمج Power Platform](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > لا يمكنك إلغاء ارتباط البيئات باستخدام LCS. لإلغاء ارتباط بيئة، افتح مساحة عمل **تكامل البيانات** في بيئة Finance and Operations، ثم حدد **إلغاء الارتباط**.
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

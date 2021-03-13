@@ -1,8 +1,8 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources (03 فبراير 2020)
 description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 3 فبراير 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 50112be7321c56da297d6d26f8aaf29264fc3c6c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526989"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128127"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (3 فبراير 2020)
 
@@ -45,7 +45,7 @@ ms.locfileid: "4526989"
 
 ## <a name="coming-soon"></a>قريبًا
 
-سيتوفر حل Common Data Service قريبًا بالتغييرات التالية:
+سيتوفر حل Dataverse قريبًا بالتغييرات التالية:
 
 | ‏‏الوصف | التغيير |
 | ----------------------------------------- | --- |
@@ -56,7 +56,7 @@ ms.locfileid: "4526989"
 | كيانات إعداد التعويض المتغيرة الجديدة | **نوع خطة التعويض المتغير**</br>**خطة التعويض المتغيرة**</br>**قواعد الاستحقاق**</br>**مستوى خطة التعويض المتغير** |
 | كيان **توظيف تقويم العامل** الجديد | تمت إضافة **كيان تقويم العمل** |
 | كيان **تفاصيل المنصب في كشف الرواتب** الجديد | تمت إضافة **تفاصيل المنصب في كشف الرواتب** |
-| كيان **العنوان** الجديد | تمت إضافة **العنوان**. سيتم تضمين كيان **العنوان** الجديد في عملية المزامنة بين Human Resources وCommon Data Service. ولن تتم الإشارة إليه من كيانات **منصب الوظيفة** أو **الوظيفة**. |
+| كيان **العنوان** الجديد | تمت إضافة **العنوان**. سيتم تضمين كيان **العنوان** الجديد في عملية المزامنة بين Human Resources وDataverse. ولن تتم الإشارة إليه من كيانات **منصب الوظيفة** أو **الوظيفة**. |
 
 ## <a name="see-also"></a>راجع أيضًا
 
@@ -65,6 +65,3 @@ ms.locfileid: "4526989"
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

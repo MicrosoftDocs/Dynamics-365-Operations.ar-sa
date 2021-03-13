@@ -1,8 +1,8 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (14‏ مايو 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 14 مايو 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b8d65236d316035722451a871afabedc6ab73f7a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528487"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127839"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (14‏ مايو 2020)
 
@@ -35,9 +35,9 @@ ms.locfileid: "4528487"
 
 يتم تضمين تغييرات النظام الأساسي في إصدار هذا الأسبوع. لمزيد من المعلومات، راجع [تحديثات النظام الأساسي للإصدار 10.0.10 من تطبيقات Finance and Operations (مايو 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). يتضمن هذا الإصدار إصلاحات الأخطاء والتغييرات التي تمت على طرق العرض المحفوظة.
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>تأكد من أن قوائم اختيار Common Data Service متسقة مع تعدادات الإجازات (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>تأكد من أن قوائم اختيار Dataverse متسقة مع تعدادات الإجازات (436343)
 
-قوائم اختيار Common Data Service متسقة الآن مع تعدادات الإجازات.
+قوائم اختيار Dataverse متسقة الآن مع تعدادات الإجازات.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>السماح للمستخدمين بتكوين سير عمل طلب الإجازة استنادا إلى مقدار الطلب (300044)
 
@@ -75,7 +75,7 @@ ms.locfileid: "4528487"
 
 بهذا التغيير، يتم إخفاء شعار الشروع في العمل للمستخدمين الذين لا يكونون من مسؤولي النظام أو مسؤولي إدارة البيانات. 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>يعمل كيان عنوان العامل في Common Data Service بشكل مختلف من حيث تواريخ وقت سريان في Human Resources (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>يعمل كيان عنوان العامل في Dataverse بشكل مختلف من حيث تواريخ وقت سريان في Human Resources (425071)
 
 يؤدي هذا التغيير إلى الاحتفاظ بمعلومات العنوان التي تمت محاذاتها في سيناريوهات معينة، استنادا إلى تواريخ العنوان.
 
@@ -119,5 +119,3 @@ ms.locfileid: "4528487"
 [نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

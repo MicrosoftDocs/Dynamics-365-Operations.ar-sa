@@ -2,7 +2,7 @@
 title: إدارة طلبات الإجازة في Teams
 description: يوضح هذا الموضوع كيفية طلب إجازة في تطبيقات Dynamics 365 Human Resources في Microsoft Teams.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4417196"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128151"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
@@ -196,7 +196,6 @@ ms.locfileid: "4417196"
 | --- | --- |
 | يؤدي التكبير إلى 400٪ على سطح المكتب إلى إخفاء بعض أزرار الإجراءات عن العرض. | نوصي باستخدام المكبر بدلاً من ذلك حتى نتمكن من دعم مستوى التكبير/التصغير هذا. |
 | في علامة التبويب **إجازة**، يعلن التعليق الصوتي عن إجراء زر أثناء قراءة رأس شبكة الإجازات. | يتم تجميع الرأس والعناصر داخل الشبكة حسب السنة، وهي قابلة للطي. يفسر التعليق الصوتي هذا على أنه عنصر قابل للتنفيذ، لكنه ليس كذلك. |
-| إذا قمت بالتمرير أثناء فتح قائمة منبثقة أو قائمة، فإن التعليق الصوتي يتخطى قراءة محتويات القائمة أو النافذة المنبثقة. | استكشف المحتوى باستخدام مسح الإصبع. |
 | في علامة التبويب **إجازة**، هناك إيماءة انتقاد إضافية عند الانتقال إلى **رمز السبب** في طلب جديد. | لا يوجد عنصر تحكم خفي يحاول التنقل السريع الوصول إليه. |
 | في علامة التبويب **إجازة**، إذا قمت بالتمرير أثناء فتح التقويم، فسوف ينتهي بك الأمر خارج نطاق التحكم بدلاً من أن تكون في الجزء العلوي في طلب جديد أو أثناء تحرير طلب. | عند الوصول إلى **الوصول إلى اليوم**، ضع في اعتبارك أن هذا هو نهاية عنصر التحكم واسحب في الاتجاه العكسي للرجوع إلى الأعلى. |
 | لا يقرأ التعليق الصوتي تسميات التواريخ. | التواريخ التي يتم مواجهتها في أزواج دائمًا ما تكون **تاريخ البدء** و **تاريخ الانتهاء**. |
@@ -229,6 +228,3 @@ ms.locfileid: "4417196"
 [تنزيل وتثبيت Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [مركز تعليمات Microsoft Teams](https://support.office.com/teams)</br>
 [تطبيق Human Resources في Teams](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

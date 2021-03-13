@@ -1,6 +1,6 @@
 ---
 title: مساحة العمل المحمولة الموافقات على الفواتير‬
-description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "الموافقات على الفواتير‬‬". توفر مساحة العمل المحمولة قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد.
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "الموافقات على الفواتير‬‬".
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1a7aa1a03791b8ccb7050389097d1272f5930a49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683398"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127559"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>مساحة العمل المحمولة الموافقات على الفواتير‬
 
@@ -86,6 +86,3 @@ ms.locfileid: "4683398"
 7.  حدد **المرفقات** لعرض أية ملاحظات أو ملفات مرفقة بالفاتورة.
 8.  في صفحة **تفاصيل الفاتورة**، حدد إجراء سير العمل المناسب لإكمال عملية المراجعة.
 9.  حدد **تم**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

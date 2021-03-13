@@ -1,9 +1,9 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources (13 أبريل 2020)
 description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 13 أبريل 2020.
-author: Darinkramer
-manager: AnnBe
-ms.date: 4/13/2020
+author: andreabichsel
+manager: tfehr
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 3afc112f8a30bb187fbe37c9062afe7943e986ec
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528511"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127887"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (13 أبريل 2020)
 
@@ -43,9 +43,9 @@ ms.locfileid: "4528511"
 
 يمكنك الآن تحرير تاريخ انتهاء التسجيل دون الحصول على رسالة الخطأ "يجب ملء حقل أساس تاريخ الاستحقاق‬".
 
-## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>لا يتزامن كيان التوظيف مع Common Data Service (430834)
+## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>لا يتزامن كيان التوظيف مع Dataverse (430834)
 
-يعمل هذا التغيير على تصحيح مشكلة عدم مزامنة بيانات التوظيف مع Common Data Service بعد إضافة الأبعاد المالية. 
+يعمل هذا التغيير على تصحيح مشكلة عدم مزامنة بيانات التوظيف مع Dataverse بعد إضافة الأبعاد المالية. 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>إزالة تعدد الأصول لكيان الفاصل الزمني لتقويم العمل‬ (431775)
 
@@ -97,5 +97,3 @@ ms.locfileid: "4528511"
 [نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

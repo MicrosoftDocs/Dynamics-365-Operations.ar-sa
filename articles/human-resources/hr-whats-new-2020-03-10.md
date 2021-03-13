@@ -1,8 +1,8 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources (10 مارس 2020)
 description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 10 مارس 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 944481727f3222a10f128ac3078c117f5ae7d193
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b1819ddb996d83b03151eb228ec740f603f98409
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526894"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127983"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (10 مارس 2020)
 
@@ -45,7 +45,7 @@ ms.locfileid: "4526894"
 
 مثال: بينجامين مارتن هو مسؤول المزايا. أثناء عملية إعداد الموظف، يتم إنشاء المهام لبينجامين لمراجعة مجموعة المزايا للموظف الجديد. لدى بينجامين مهام سابقة أكلمها ومهام مستقبلية يحتاج إلى إكمالها. قرر بينجامين مغادرة الشركة، لذا يجب إعادة تعيين مهامه أو ازالتها. يسمح نموذج صيانة المهام (في جزء الإجراءات في نموذج **العامل**) بإعادة تعيين كافة مهام بينجامين إلى عامل آخر أو إزالتها.  
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>يتوفر حل Common Data Service الآن مع التغييرات التالية:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>يتوفر حل Dataverse الآن مع التغييرات التالية:
 
 | ‏‏الوصف | تغيير |
 | --- | --- |
@@ -57,18 +57,18 @@ ms.locfileid: "4526894"
 | كيانات إعداد التعويض المتغيرة الجديدة | <ul><li>**نوع خطة التعويض المتغير**</li><li>**خطة التعويض المتغيرة**</li><li>**قواعد الاستحقاق**</li><li>**مستوى خطة التعويض المتغير**</li></ul> |
 | كيان **توظيف تقويم العامل** الجديد | <ul><li>تمت إضافة **كيان تقويم العمل**</li></ul> |
 | كيان **تفاصيل المنصب في كشف الرواتب** الجديد | <ul><li>تمت إضافة **تفاصيل المنصب في كشف الرواتب**</li></ul> |
-| كيان **العنوان** الجديد | <ul><li>تمت إضافة **العنوان**</li></ul> تم تضمين كيان **العنوان** الجديد في Common Data Service ولكن لا تتم الإشارة إليها من الكيانين **منصب الوظيفة‬** أو **الوظيفة‬‏‎** في هذا الوقت. |
+| كيان **العنوان** الجديد | <ul><li>تمت إضافة **العنوان**</li></ul> تم تضمين كيان **العنوان** الجديد في Dataverse ولكن لا تتم الإشارة إليها من الكيانين **منصب الوظيفة‬** أو **الوظيفة‬‏‎** في هذا الوقت. |
 
 > [!NOTE]
-> توفر الأبعاد المالية لكل من المنصب والتوظيف تكاملاً أحادي الاتجاه للتحديثات من Human Resources إلى Common Data Service. في الوقت الحالي، لا تتم مزامنة تحديثات الأبعاد المالية من Common Data Service إلى Human Resources.
+> توفر الأبعاد المالية لكل من المنصب والتوظيف تكاملاً أحادي الاتجاه للتحديثات من Human Resources إلى Dataverse. في الوقت الحالي، لا تتم مزامنة تحديثات الأبعاد المالية من Dataverse إلى Human Resources.
 
-خلال الأسابيع القليلة التالية، ستتوفر هذه التغييرات الخاصة بالكيانات في كافة البيئات. لتثبيت حل Common Data Service الأحدث لـ Human Resources:
+خلال الأسابيع القليلة التالية، ستتوفر هذه التغييرات الخاصة بالكيانات في كافة البيئات. لتثبيت حل Dataverse الأحدث لـ Human Resources:
 
 1.  انتقل إلى [مركز إدارة Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  حدد **بيئات**.
 
-3.  ابحث عن البيئة التي تريد ترقيتها. يجب أن تتطابق البيئة مع **اسم البيئة** في قسم **Common Data Service المعلومات** في النموذج **حول** في Human Resources.
+3.  ابحث عن البيئة التي تريد ترقيتها. يجب أن تتطابق البيئة مع **اسم البيئة** في قسم **Dataverse المعلومات** في النموذج **حول** في Human Resources.
 
 4.  حدد البيئة لعرض تفاصيل البيئة.
 
@@ -106,5 +106,3 @@ ms.locfileid: "4526894"
 [نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

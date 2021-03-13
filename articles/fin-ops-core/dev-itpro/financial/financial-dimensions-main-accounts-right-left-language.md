@@ -1,6 +1,6 @@
 ---
-title: الأبعاد المالية والحسابات الرئيسية بلغات تُكتب من اليمين إلى اليسار
-description: يصف هذا الموضوع بعض قرارات التنفيذ التي ينبغي وضعها في الاعتبار عند استخدام لغة ذات اتجاه من اليمين إلى اليسار، ويجب إعداد الأبعاد المالية والحسابات الرئيسية.
+title: الأبعاد المالية والحسابات الرئيسية بلغات تكتب من اليمين إلى اليسار
+description: يصف هذا الموضوع بعض القرارات التي ينبغي اتخاذها عند استخدام لغة ذات اتجاه من اليمين إلى اليسار، ويجب إعداد الأبعاد المالية والحسابات الرئيسية.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 192ed371eec24ed4e0532aaca341bb249a4933c7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2bdf1b99ae7be6c9d9c43c91c9273e18ce9b1093
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680472"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127635"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>الأبعاد المالية والحسابات الرئيسية بلغات تُكتب من اليمين إلى اليسار
 
@@ -38,6 +38,3 @@ ms.locfileid: "4680472"
 - تجنب استخدام محدد دليل الحسابات المحدد في قيم الأبعاد المالية والحسابات الرئيسية.
 
 يساعدك اتباع هذه الممارسات على ضمان التمثيل المتسق للترتيب المعرّف من قِبل المستخدم عبر النظام.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

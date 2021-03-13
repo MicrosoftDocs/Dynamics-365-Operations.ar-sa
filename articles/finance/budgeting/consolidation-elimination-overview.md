@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440068"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120469"
 ---
 # <a name="consolidation-and-elimination-overview"></a>نظرة عامة على التجميع والاستبعاد
 
@@ -60,6 +59,7 @@ ms.locfileid: "4440068"
 خيار **التقارير المالية** هو الحل، لأنه يمكن عرض تفاصيل مستوى الحركة للعديد من الشركات المدرجة في تعريف شجرة التقارير.
 
 4.  نستخدم تخطيط الموازنة أو التحكم في الموازنة، ويجب أن يتم دمجها.
+
 خيار **التقارير المالية** هو الحل لتجميع بيانات لتخطيط الموازنة أو مراقبة الموازنة.
 
 5.  تنتشر الشركات التابعة لنا في جميع أنحاء العالم، ولدينا مخططات حسابات متعددة. ما أفضل طريقة لتجميع البيانات الخاصة بنا؟
@@ -86,10 +86,10 @@ ms.locfileid: "4440068"
 
 باستخدام خيار **تصدير أرصدة الشركة** للتصدير من مثيل واحد، ثم باستخدام خيار **التجميع مع الاستيراد** في المثيل الآخر، يمكنك تجميع البيانات.
 
+11. هل يمكنني القيام بدمج مع الموازنة الخاصة بي في حالة **المسودة**؟ 
+            
+لن تتمكن من معالجة الميزانيات الخاصة بك أو إكمالها في الشركة الموحدة. نوصي باستخدام Financial Reporting لدمج موازنات المسودة.
 
 لمزيد من المعلومات، راجع [إعادة تقييم العملة في شركة موحدة](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
