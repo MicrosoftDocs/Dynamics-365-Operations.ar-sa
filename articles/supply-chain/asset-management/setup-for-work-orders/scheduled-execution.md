@@ -42,3 +42,6 @@ ms.locfileid: "5022397"
 6. حدد **حفظ**.
 
 ![التنفيذ المجدول](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

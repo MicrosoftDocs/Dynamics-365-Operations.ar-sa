@@ -59,3 +59,6 @@ ms.locfileid: "4961447"
 9. انقر فوق **أوامر المبيعات المشحونة**.
 10. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

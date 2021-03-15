@@ -105,3 +105,6 @@ ms.locfileid: "4978879"
 - [مساحة عمل مراقبة التكلفة](cost-control-workspace.md)
 - [التدرج الهرمي للأبعاد](dimension-hierarchy.md)
 - [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

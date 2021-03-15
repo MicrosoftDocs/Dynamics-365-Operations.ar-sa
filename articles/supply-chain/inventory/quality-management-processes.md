@@ -100,3 +100,6 @@ ms.locfileid: "4987369"
 [إعداد أوامر الجودة](tasks/set-up-quality-orders.md)
 
 [فحص جودة البضائع](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

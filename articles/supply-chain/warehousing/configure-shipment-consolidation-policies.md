@@ -353,3 +353,6 @@ ms.locfileid: "4996367"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [سياسات دمج الشحنات](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

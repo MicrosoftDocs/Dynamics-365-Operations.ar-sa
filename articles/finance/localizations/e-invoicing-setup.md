@@ -360,3 +360,6 @@ ms.locfileid: "4988454"
 
     > [!NOTE]
     > عند تحديد **نعم**، تتغير بشكل تلقائي حالة إصدارات التكوين من **مكتملة** إلى **مشتركة**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

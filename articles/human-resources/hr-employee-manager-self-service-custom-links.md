@@ -48,3 +48,6 @@ ms.locfileid: "5111394"
 ## <a name="see-also"></a>راجع أيضًا
 
 [نظرة عامة على إعداد الخدمة الذاتية للموظف والمدير](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

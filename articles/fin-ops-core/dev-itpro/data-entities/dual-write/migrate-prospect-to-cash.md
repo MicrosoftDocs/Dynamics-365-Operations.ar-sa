@@ -98,3 +98,6 @@ ms.locfileid: "4959836"
 ## <a name="quote-and-quote-product-tables"></a>جداول الأسعار والأسعار للمنتج
 
 بالنسبة لجدول **عرض الأسعار**، اتبع الإرشادات الموجودة في [القسم جدول الطلب](#order-table) سابقا في هذا الموضوع. بالنسبة لجدول **عرض أسعار المنتج**، اتبع الإرشادات الموجودة في [القسم جدول الطلب](#order-products-table).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

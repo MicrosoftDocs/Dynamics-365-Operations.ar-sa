@@ -106,3 +106,6 @@ ms.locfileid: "4972972"
 [إعداد عمليات الفرز](set-up-assortments.md)
 
 [إدارة السمات ومجموعات السمات](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4964910"
 23. في حقل "‏‫معرف الوحدة الطرفية EFT‬"، اكتب قيمة.
 24. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

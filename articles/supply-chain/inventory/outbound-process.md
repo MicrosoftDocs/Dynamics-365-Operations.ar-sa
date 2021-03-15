@@ -84,3 +84,6 @@ ms.locfileid: "5000224"
 بمجرد انتقاء كافة بنود الانتقاء في صفحة **تسجيل قائمة الانتقاء**، يتم إكمال الشحنة المرتبطة. يمكن تهيئة عملية إيصالات التعبئة لأوامر المبيعات استنادًا إلى المخزون المنتقى.
 
 [![تحديث الشحنات الصادرة](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

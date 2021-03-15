@@ -94,3 +94,6 @@ ms.locfileid: "4998968"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [إبلاغ عن الانتهاء من جهاز بطاقة الوظيفة](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

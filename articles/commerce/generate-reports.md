@@ -137,3 +137,6 @@ ms.locfileid: "4970032"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [الصفحة الرئيسية لـ Commerce](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

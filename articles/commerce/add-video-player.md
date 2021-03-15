@@ -105,3 +105,6 @@ ms.locfileid: "4980097"
 [وحدة كتلة النص](add-content-rich-block.md)
 
 [وحدة كتلة المحتوى](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

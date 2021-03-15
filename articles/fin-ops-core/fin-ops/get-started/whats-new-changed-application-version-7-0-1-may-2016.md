@@ -106,3 +106,6 @@ ms.locfileid: "4797153"
 [الصفحة الرئيسية للجديد أو المتغير‬ في Finance and Operations](whats-new-changed.md)
 
 [دلائل المهام الجديدة أو المحدثة (مايو 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

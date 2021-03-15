@@ -579,3 +579,6 @@ ms.locfileid: "4740946"
 |                             | إيصال التعبئة لأمر المبيعات (LT) (Excel)           |
 |                             | إيصال التعبئة لأمر المبيعات (PL) (Excel)           |
 |                             | إيصال التعبئة لأمر المبيعات (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

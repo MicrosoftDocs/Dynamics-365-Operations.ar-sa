@@ -112,3 +112,6 @@ ms.locfileid: "5097082"
 [نظرة عامة على توصيات المنتجات](product-recommendations.md)
 
 [الوحدة النمطية للعرض السريع](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

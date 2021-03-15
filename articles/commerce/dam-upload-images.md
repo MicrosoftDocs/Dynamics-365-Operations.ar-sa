@@ -96,3 +96,6 @@ ms.locfileid: "4963000"
 [تخصيص نقاط تركيز الصورة](dam-custom-focal-point.md)
 
 [تحميل الملفات الثابتة وخدمتها](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

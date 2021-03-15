@@ -163,3 +163,6 @@ ms.locfileid: "4993415"
 [مدخل Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [موقع ويب Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

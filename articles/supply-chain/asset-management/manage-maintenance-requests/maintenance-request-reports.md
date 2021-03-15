@@ -57,3 +57,6 @@ ms.locfileid: "5019594"
 يبين الرسم التوضيحي التالي مثالاً عن تقرير **قائمة طلب الصيانة** لجميع طلبات الصيانة النشطة.
 
 ![تقرير قائمة طلبات الصيانة](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

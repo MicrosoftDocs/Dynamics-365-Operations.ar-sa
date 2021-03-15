@@ -43,3 +43,6 @@ ms.locfileid: "5010987"
 3. انقر فوق "موافق".
     * لاحظ أنه يتم إنشاء نسخة مكررة قاعدة كانبان 000017.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

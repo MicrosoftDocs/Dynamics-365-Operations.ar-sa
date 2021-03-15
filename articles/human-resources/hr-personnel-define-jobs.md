@@ -71,3 +71,6 @@ ms.locfileid: "5130243"
 33. بدّل توسيع المقطع "التعليم‬‬".
 34. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

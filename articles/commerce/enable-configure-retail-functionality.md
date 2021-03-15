@@ -68,3 +68,6 @@ ms.locfileid: "5000716"
 - قنوات التجارة
 - السجلات والأجهزة
 - عمليات الفرز
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

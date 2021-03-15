@@ -66,3 +66,6 @@ ms.locfileid: "4796596"
 8. بعد قيامك بتوسيع **عروض الأسعار**، قم بتطبيق عامل تصفية باستخدام `CUSTGROUP != "<company>"` باعتباره سلسلة الاستعلام.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="مربع الحوار تحرير الاستعلام لرأس عروض أسعار المبيعات CDS":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

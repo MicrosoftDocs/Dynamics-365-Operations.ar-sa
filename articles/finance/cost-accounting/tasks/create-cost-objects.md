@@ -50,3 +50,6 @@ ms.locfileid: "4990757"
 ## <a name="view-the-imported-cost-centers"></a>عرض مراكز التكلفة المستوردة
 1. انقر فوق "عرض أعضاء الأبعاد".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

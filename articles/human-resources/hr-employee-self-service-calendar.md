@@ -72,3 +72,6 @@ ms.locfileid: "4962255"
 
 للحصول على معلومات حول إعدادات التقويم، راجع [تكوين معلمات التقويم](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

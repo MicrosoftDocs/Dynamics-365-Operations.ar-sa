@@ -71,3 +71,6 @@ ms.locfileid: "4985626"
 [الوحدة النمطية لتفاصيل الأوامر](order-confirmation-module.md)
 
 [الوحدة النمطية لبطاقة الهدايا](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ ms.locfileid: "4798613"
 تُظهر الصورة التالية بنية إخطارات التنبيه عند استلامها بالبريد الإلكتروني.
 
 [![إخطارات تنبيه تستند إلى قوالب لإنشاء السجلات وإجراء تغييرات في الحقول وحذف القوالب](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

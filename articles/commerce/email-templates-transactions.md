@@ -202,3 +202,6 @@ ms.locfileid: "5000765"
 [إعداد إيصالات بالبريد الإلكتروني](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [إرسال إيصالات البريد الإلكتروني من Modern POS](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ ms.locfileid: "5142146"
 
 > [!NOTE]
 > يتم عرض خطط المزايا المعلمة على أنها **‬‏‫يمكن إرسال تقرير بها إلى ACA** في اطار الاستعلام.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

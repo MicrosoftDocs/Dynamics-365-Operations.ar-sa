@@ -52,3 +52,6 @@ ms.locfileid: "5012331"
 19. انقر فوق إنشاء أمر.
 20. انقر فوق نعم.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ ms.locfileid: "4992435"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الجرد الدوري](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

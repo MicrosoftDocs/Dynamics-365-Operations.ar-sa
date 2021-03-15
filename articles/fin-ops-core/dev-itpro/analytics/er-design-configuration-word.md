@@ -72,3 +72,6 @@ ms.locfileid: "5094144"
 
 - [إعادة استخدام التكوينات باستخدام قوالب Excel لإنشاء تقارير بتنسيقات Word](./tasks/er-design-configuration-word-2016-11.md)
 - [تضمين الصور والأشكال في المستندات التي تقوم بإنشائها باستخدام التقارير الإلكترونية](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

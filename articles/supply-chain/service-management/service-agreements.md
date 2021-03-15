@@ -78,3 +78,6 @@ ms.locfileid: "4996506"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [إنشاء اتفاقيات خدمات](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

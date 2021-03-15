@@ -61,3 +61,6 @@ ms.locfileid: "4993515"
 [الوحدة النمطية للرؤوس](author-header-module.md) 
 
 [توافق ملفات تعريف الارتباط](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

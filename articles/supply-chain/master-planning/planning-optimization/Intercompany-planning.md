@@ -87,3 +87,6 @@ ms.locfileid: "4983584"
 يبين الرسم التوضيحي التالي كيفيه ظهور هذا المثال علي الصفحة **تثبيت متعدد المستويات** لأمر الإنتاج المخطط.
 
 ![مثال علي شركات شقيقه يتضمن ثلاث شركات](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "5009608"
 - الملخص الضريبي
 - ملخص تجاوزات السعر
 - ملخص الخصومات
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

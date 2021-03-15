@@ -41,3 +41,6 @@ ms.locfileid: "5021995"
 يبين الرسم التوضيحي التالي مثالاً لصفحة قائمة **جميع طلبات الصيانة**.
 
 ![صفحة قائمة جميع طلبات الصيانة](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -241,3 +241,6 @@ ms.locfileid: "5097271"
 [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 
 [تكوين وجهات ER المعتمدة علي الاجراء](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

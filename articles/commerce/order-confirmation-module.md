@@ -86,3 +86,6 @@ ms.locfileid: "4972723"
 [الوحدة النمطية لمعلومات الالتقاط](pickup-info-module.md)
 
 [الوحدة النمطية لبطاقة الهدايا](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

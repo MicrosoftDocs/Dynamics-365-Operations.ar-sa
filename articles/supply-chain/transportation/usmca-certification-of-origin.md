@@ -139,3 +139,6 @@ ms.locfileid: "5006406"
 ### <a name="page-numbers"></a>أرقام الصفحات
 
 الصفحة الحالية وعدد الصفحات التي تمت طباعتها أسفل المستند.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

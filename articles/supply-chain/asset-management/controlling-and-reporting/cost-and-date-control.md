@@ -107,3 +107,6 @@ ms.locfileid: "5019065"
 ![مثال على نتائج الحساب في مراقبة تاريخ أمر العمل](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

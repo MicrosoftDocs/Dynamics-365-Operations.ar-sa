@@ -108,3 +108,6 @@ ms.locfileid: "4999771"
 - [تعيين حالة دورة حياة منتج لمنتج صادر](tasks/product-lifecycle-state-released-product.md)
 - [البحث عن متغيرات منتجات قديمة، وتعيين حالة دورة حياة منتج](tasks/obsolete-product-variants.md)
 - [إنشاء حالة دورة حياة منتج لاستبعاد المنتجات من التخطيط الرئيسي](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

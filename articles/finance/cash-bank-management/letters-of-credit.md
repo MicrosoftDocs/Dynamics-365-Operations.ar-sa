@@ -52,3 +52,6 @@ ms.locfileid: "4978804"
 [إنشاء اتفاقية تسهيلات مصرفية لخطاب الاعتماد](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

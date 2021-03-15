@@ -162,3 +162,6 @@ ms.locfileid: "4798107"
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>هل يمكنني الإشارة إلى الحقول المخصصة من أدوات المطور؟  
 
 يمكن إدارة الحقول المخصصة فقط من خلال واجهة المستخدم ولا يمكن الإشارة اليها بواسطة الكود 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ ms.locfileid: "4976753"
 
 > [!NOTE]
 > بشكل افتراضي، تكون ميزة ترتيب الفرز المخصص متوقفة عن التشغيل. لمعرفة كيفية تشغيل هذه الميزة وميزات أخرى، راجع [إدارة الميزات](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

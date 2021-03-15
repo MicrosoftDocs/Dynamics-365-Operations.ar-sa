@@ -53,3 +53,6 @@ ms.locfileid: "5115260"
 ## <a name="see-also"></a>راجع أيضًا
 
 [تعليق الإجازة](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

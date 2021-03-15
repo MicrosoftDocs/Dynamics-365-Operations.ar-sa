@@ -34,3 +34,6 @@ ms.locfileid: "4964506"
 5. حدد "نعم" في الحقل "إنشاء مستند ضريبة إلكترونية‬".
 6. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

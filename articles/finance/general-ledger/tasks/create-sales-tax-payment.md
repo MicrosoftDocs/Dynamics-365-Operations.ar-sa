@@ -36,3 +36,6 @@ ms.locfileid: "4968694"
 5. في حقل **‏‫تاريخ الحركة**، أدخل تاريخًا.
 6. انقر فوق **موافق**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

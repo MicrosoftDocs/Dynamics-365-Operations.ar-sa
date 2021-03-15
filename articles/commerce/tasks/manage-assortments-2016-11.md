@@ -54,3 +54,6 @@ ms.locfileid: "4982356"
 1. انقر فوق "نشر".
 2. انقر فوق نعم.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

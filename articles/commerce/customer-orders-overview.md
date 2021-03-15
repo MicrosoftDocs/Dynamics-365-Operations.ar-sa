@@ -170,3 +170,6 @@ ms.locfileid: "4995785"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [أوامر العملاء المختلطة](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

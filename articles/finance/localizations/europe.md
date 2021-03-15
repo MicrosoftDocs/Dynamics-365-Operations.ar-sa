@@ -99,3 +99,6 @@ ms.locfileid: "5099864"
 
 - [نظرة عامة على إعداد التقارير الإلكترونية](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

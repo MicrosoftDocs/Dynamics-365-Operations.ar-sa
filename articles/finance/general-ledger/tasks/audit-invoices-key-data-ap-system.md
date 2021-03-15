@@ -61,3 +61,6 @@ ms.locfileid: "4994755"
 9. في جزء الإجراءات، انقر فوق **مراجعة**.
 10. انقر فوق **تفاصيل المطابقة**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

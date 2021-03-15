@@ -211,3 +211,6 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     يتم الآن إكمال المزامنة الأولية للصفوف.
 
 8. في التطبيق  Finance and Operations، قم بتشغيل تعقب التغييرات مرة أخرى الجدول **العملاء V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

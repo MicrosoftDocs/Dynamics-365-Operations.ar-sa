@@ -72,3 +72,6 @@ ms.locfileid: "4966319"
 في الرسم التوضيحي التالي، تمثل (a) قائمة مكونات الصنف للمنتج G والجزء F، و(b) هي كشف المسارات للمنتج G والجزء F.
 
 ![المنتج G والجزء F مع كشوف المسارات](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "4970371"
 [عرض سجل محفوظات الخطط والتخطيط](plan-history-logs.md)
 
 [إلغاء وظيفة تخطيط](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

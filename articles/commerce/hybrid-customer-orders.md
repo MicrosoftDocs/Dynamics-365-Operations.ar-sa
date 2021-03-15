@@ -40,3 +40,6 @@ ms.locfileid: "5009683"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [أوامر العميل في ‏‫نقطة بيع حديثة‬ (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

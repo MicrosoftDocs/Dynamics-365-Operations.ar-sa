@@ -70,3 +70,6 @@ ms.locfileid: "5006881"
 24. في الحقل "الوحدة ‬‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.
 25. ResolveChanges الوحدة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

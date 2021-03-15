@@ -139,3 +139,6 @@ ms.locfileid: "4991082"
 
 للحصول على مزيد من المعلومات، راجع [نظرة عامة على دفع العميل‬](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

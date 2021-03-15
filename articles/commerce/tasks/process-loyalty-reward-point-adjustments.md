@@ -49,3 +49,6 @@ ms.locfileid: "4991306"
 15. انقر فوق ‏‫حركات البطاقة.
 16. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

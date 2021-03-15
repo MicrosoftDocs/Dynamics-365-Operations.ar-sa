@@ -207,3 +207,6 @@ ms.locfileid: "5111380"
 
 > [!NOTE]
 > تعرض الصفحة فقط خطط الميزات التي تم تمييزها على أنها **خاضع لتقرير ACA**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

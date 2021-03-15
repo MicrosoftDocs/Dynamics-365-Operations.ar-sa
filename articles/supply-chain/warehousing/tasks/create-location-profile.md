@@ -42,3 +42,6 @@ ms.locfileid: "4977253"
 10. حدد **نعم** في حقل **السماح بالجرد الدوري**.
 11. حدد **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

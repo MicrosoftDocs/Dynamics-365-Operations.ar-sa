@@ -44,3 +44,6 @@ ms.locfileid: "5092050"
 2. حدد **تعيين كنشط**.
 
 ![صفحة مساحة عمل إعداد التقارير الإلكترونية](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

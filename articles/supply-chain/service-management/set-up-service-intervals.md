@@ -53,3 +53,6 @@ ms.locfileid: "4991655"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [‏‏فترات الخدمة ](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

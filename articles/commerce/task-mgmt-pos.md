@@ -63,3 +63,6 @@ ms.locfileid: "5006175"
 [إنشاء قوائم مهام وإضافة مهام](task-mgmt-create-lists.md)
 
 [تعيين قوائم المهام إلى المتاجر أو الموظفين](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -138,3 +138,6 @@ ms.locfileid: "4744843"
 على سبيل المثال، راجع [تمكين Customers الإصدار 3—تعيين جدول جهات الاتصال](enable-entity-map.md#enable-table-map)
 
 للحصول على أسلوب بديل يستند إلى وحدات تخزين البيانات في كل كيان التي يجب تشغيل المزامنة الأولية بها، راجع [اعتبارات المزامنة الأولية](initial-sync-guidance.md).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

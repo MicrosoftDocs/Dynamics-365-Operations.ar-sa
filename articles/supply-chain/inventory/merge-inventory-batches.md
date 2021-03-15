@@ -139,3 +139,6 @@ ms.locfileid: "5008006"
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>بعد دمج صنف وزن تعبئة، لماذا لا أرى معلومات وزن التعبئة في دفتر يومية المخزون؟
 يمكنك دمج دُفعات أصناف وزن التعبئة مثل كافة الأصناف الأخرى. ومع ذلك، لا تظهر معلومات وزن التعبئة في دفتر يومية المخزون. نوصي بالتحقق من معلومات وزن التعبئة قبل تحويل دمج الدُفعة إلى دفتر يومية المخزون.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

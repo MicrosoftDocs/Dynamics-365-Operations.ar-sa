@@ -54,3 +54,6 @@ ms.locfileid: "5020929"
 
 > [!NOTE]
 > بشكل عام، عندما تعمل في Dynamics 365 Supply Chain Management والوحدة النمطية **إدارة الأصول**، تحدد **جديد** لإنشاء سجل جديد، وتحدد **تحرير** لتحديث سجل موجود ثم تحدد **حفظ** لحفظ بيانات جديدة أو محررة.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

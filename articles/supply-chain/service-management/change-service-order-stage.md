@@ -40,3 +40,6 @@ ms.locfileid: "4996721"
 4.  في النموذج **تغيير مرحلة الخدمة**، حدد المرحلة المناسبة.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

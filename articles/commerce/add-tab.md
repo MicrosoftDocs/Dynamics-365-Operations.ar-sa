@@ -83,3 +83,6 @@ ms.locfileid: "4980172"
 [وحدة أككورديون](add-accordion.md)
 
 [وحدة كتلة النص](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

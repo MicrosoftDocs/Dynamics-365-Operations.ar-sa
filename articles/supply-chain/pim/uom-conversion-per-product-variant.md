@@ -106,3 +106,6 @@ ms.locfileid: "5001689"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [إدارة وحدة القياس](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

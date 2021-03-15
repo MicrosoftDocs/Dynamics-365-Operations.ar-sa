@@ -107,3 +107,6 @@ ms.locfileid: "4980821"
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>فواتير الاتفاقيات (Field Service إلى Supply Chain Management): بنود الفواتير
 
 [![تعيين القالب في تكامل البيانات](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

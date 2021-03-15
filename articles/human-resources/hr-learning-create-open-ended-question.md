@@ -38,3 +38,6 @@ ms.locfileid: "5114970"
     * يتم استخدام نوع الإدخال "نص" أو "ملاحظة" لسؤال ذي نهاية مفتوحة‬.  
 6. في الحقل "نص"، أدخل سؤالك.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

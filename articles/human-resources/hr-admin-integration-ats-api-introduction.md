@@ -137,3 +137,5 @@ ms.locfileid: "5125583"
 [ما هو Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [استخدام  واجهة ويب Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [إنشاء مجموعات الخيارات وتحديثها باستخدام واجهة الويب](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

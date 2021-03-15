@@ -72,3 +72,6 @@ ms.locfileid: "4967398"
 
 [إعداد المنتجات التي يمكن أن تكون منتجة أو مشتراة](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

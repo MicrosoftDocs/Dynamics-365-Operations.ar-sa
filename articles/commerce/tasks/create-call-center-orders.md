@@ -61,3 +61,6 @@ ms.locfileid: "4964834"
 
 [تغيير ‏‫وضع التسليم‬ في نقطة البيع](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

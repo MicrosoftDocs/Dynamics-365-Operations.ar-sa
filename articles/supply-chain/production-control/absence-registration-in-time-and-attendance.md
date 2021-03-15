@@ -108,3 +108,6 @@ ms.locfileid: "4966620"
 ### <a name="calculate-and-approve-absence"></a>حساب الغياب والموافقة عليه
 
 - حدد **الحضور الزمني** &gt; **المراجعة والموافقة** &gt; **الموافقة أو الحساب**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

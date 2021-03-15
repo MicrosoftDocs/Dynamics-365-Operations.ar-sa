@@ -66,3 +66,6 @@ ms.locfileid: "5097219"
 [التحقق من إمكانية الوصول إلى محتوى الصفحة](verify-accessibility.md)
 
 [إنشاء صفحات التجارة الإلكترونية الديناميكية استنادا إلى معلمات URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

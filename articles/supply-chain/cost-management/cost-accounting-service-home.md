@@ -36,3 +36,6 @@ ms.locfileid: "5005542"
 ## <a name="related-resources"></a>الموارد ذات الصلة
 
 [الشروع في العمل مع خدمة محاسبة التكاليف](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

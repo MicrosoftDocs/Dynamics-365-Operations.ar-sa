@@ -58,3 +58,6 @@ ms.locfileid: "4979768"
 [تكوين التقييمات والمراجعات](configure-ratings-reviews.md)
 
 [مزامنة تقييمات المنتجات في Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

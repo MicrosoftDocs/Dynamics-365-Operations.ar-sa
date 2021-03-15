@@ -82,3 +82,6 @@ ms.locfileid: "4998743"
     * لاحظ أنه تم إنشاء كانبان لإمداد M0001 لأمر الإنتاج المقدر.  
     * هذه هي الخطوة الأخيرة!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

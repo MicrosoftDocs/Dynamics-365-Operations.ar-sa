@@ -81,3 +81,6 @@ ms.locfileid: "5116034"
 [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)<br>
 [إدارة سياسات شراء الإجازة وبيعها](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

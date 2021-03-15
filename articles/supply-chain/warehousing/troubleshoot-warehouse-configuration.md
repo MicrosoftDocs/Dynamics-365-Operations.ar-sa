@@ -108,3 +108,6 @@ ms.locfileid: "4993993"
 - **عرض حالة المخزون:** *نعم*
 
 يمكنك تعيين حقول أخرى في الصفحة كما هو مطلوب.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

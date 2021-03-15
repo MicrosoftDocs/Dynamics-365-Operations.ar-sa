@@ -67,3 +67,6 @@ ms.locfileid: "5111305"
 10. حدد **حفظ**.
 11. وقم بغلق النموذج.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

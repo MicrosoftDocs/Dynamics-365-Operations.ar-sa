@@ -182,3 +182,6 @@ ms.locfileid: "4826099"
 - [إدارة تعيين نموذج التقارير الإلكترونية في تكوينات تقارير إلكترونية منفصلة](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [تكوين تعيينات نماذج التقارير الإلكترونية التي تعتمد على سياق البلد](er-country-dependent-model-mapping.md)
 - [تغيير API لإطار عمل ‏‫إعداد التقارير الإلكترونية](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

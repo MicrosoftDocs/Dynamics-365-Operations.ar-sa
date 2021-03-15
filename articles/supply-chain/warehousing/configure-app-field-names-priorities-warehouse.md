@@ -143,3 +143,6 @@ ms.locfileid: "4963425"
 --------
 
 [نظرة عامة على تثبيت وتكوين تطبيق المستودع](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

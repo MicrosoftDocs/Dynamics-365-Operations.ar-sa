@@ -46,3 +46,6 @@ ms.locfileid: "4974300"
 
 [إنشاء كائنات خدمة](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

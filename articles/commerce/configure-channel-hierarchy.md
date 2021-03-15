@@ -83,3 +83,6 @@ ms.locfileid: "5001015"
 [إنشاء تدرج هرمي للتنقل في قناة](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

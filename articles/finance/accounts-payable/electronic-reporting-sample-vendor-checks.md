@@ -43,3 +43,6 @@ ms.locfileid: "5003469"
 - عندما تقوم بإنشاء المدفوعات الخاصة بالحساب البنكي الذي تم تكوينه في دفتر يومية المدفوعات، فسوف تتم طباعة الشيكات باستخدام التنسيق المحدد.
 
 للمزيد من المعلومات، راجع [تعديل تنسيق تقارير إلكترونية](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

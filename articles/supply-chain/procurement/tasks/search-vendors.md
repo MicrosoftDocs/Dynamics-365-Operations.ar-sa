@@ -38,3 +38,6 @@ ms.locfileid: "5020694"
 6. في الحقل "البلد/المنطقة"، اكتب قيمة.
 7. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

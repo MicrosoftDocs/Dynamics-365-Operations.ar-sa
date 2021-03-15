@@ -43,3 +43,6 @@ ms.locfileid: "5006856"
 3. في حقل "القيمة"، اكتب قيمة.
 4. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

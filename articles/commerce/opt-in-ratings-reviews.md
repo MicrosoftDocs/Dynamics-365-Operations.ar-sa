@@ -63,3 +63,6 @@ ms.locfileid: "4985826"
 [مزامنة تقييمات المنتجات في Dynamics 365 Commerce](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

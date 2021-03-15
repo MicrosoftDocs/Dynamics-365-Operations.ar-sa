@@ -88,3 +88,6 @@ ms.locfileid: "4798565"
 تم تضمين الفيديو [خيارات قواعد التنبيه](https://youtu.be/cpzimwOjicM) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة في YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ ms.locfileid: "4991405"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [طرق الدفع في مراكز الاتصال](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ ms.locfileid: "5003693"
 5. انقر فوق "تصدير".
 6. انقر فوق "ملف PDF‬".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ ms.locfileid: "4964774"
 3. قم بتشغيل جدول توزيع 1070 لمزامنة التغييرات لقاعدة بيانات القناة. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -293,3 +293,6 @@ ms.locfileid: "5104299"
 ### <a name="quality-update-for-1009platform-update-33"></a>تحديث الجودة لـ 10.0.9/تحديث النظام الأساسي 33
 
 - [قاعدة المعارف 4550367] لا يتم تنسيق قيم الوقت بشكل صحيح.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

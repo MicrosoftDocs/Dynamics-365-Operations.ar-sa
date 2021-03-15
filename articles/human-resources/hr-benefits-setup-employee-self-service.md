@@ -72,3 +72,6 @@ ms.locfileid: "5111334"
    | **الانتهاء** | تاريخ ووقت النهاية الذي يجب أن يكون الإطار المتجانب متاحًا به. |
 
 4. حدد **حفظ**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

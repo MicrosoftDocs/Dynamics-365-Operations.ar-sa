@@ -47,3 +47,6 @@ ms.locfileid: "5111349"
 - العملية:
 
     - [تعويض العملية](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

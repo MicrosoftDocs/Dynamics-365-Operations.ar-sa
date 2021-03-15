@@ -102,3 +102,6 @@ ms.locfileid: "4744869"
 
 :::image type="content" source="media/apply-company-context.png" alt-text="تطبيق سياق الشركة":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

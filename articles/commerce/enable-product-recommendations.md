@@ -113,3 +113,6 @@ ms.locfileid: "5010114"
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

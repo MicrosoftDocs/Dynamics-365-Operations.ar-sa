@@ -57,3 +57,6 @@ ms.locfileid: "5094119"
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
 - [تكوين إدارة المستندات](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

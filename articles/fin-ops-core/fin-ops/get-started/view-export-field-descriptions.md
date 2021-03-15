@@ -107,3 +107,6 @@ ms.locfileid: "4797886"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [تخصيص أوصاف الحقول](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

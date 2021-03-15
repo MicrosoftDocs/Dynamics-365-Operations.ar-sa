@@ -79,3 +79,6 @@ ms.locfileid: "4965191"
 [إدارة المنتجات وفئات المنتجات](category-management-product-creation.md)
 
 [تغيير ترتيب الفرز لكيانات ترويج البضائع](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

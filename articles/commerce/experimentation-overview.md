@@ -56,3 +56,6 @@ ms.locfileid: "5009964"
 
 ## <a name="next-step"></a>الخطوة التالية
 [تحديد الفرضية وتحديد المقاييس الخاصة بتجربة](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

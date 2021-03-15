@@ -99,3 +99,6 @@ ms.locfileid: "5111293"
 ## <a name="see-also"></a>راجع أيضًا
 
 [الأسئلة المتداولة حول العرض المباشر](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

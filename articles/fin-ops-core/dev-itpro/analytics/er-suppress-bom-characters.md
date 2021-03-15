@@ -66,3 +66,6 @@ ms.locfileid: "5060809"
 ## <a name="see-also"></a>راجع أيضًا
 
 - [تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

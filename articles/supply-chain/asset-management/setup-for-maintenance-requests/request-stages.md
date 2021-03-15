@@ -80,3 +80,6 @@ ms.locfileid: "5022070"
 يبين الرسم التوضيحي التالي مثالاً لصفحة **نماذج دورة حياة طلب الصيانة**.
 
 ![صفحة نماذج دورة حياة طلب الصيانة](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

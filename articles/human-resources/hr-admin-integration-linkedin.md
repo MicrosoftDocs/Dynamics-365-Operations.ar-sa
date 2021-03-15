@@ -190,3 +190,6 @@ ms.locfileid: "5111403"
 
 [تكوين جداول Dataverse الظاهرية](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [ما هو Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

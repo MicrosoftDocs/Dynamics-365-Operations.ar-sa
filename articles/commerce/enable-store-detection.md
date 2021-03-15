@@ -68,3 +68,6 @@ ms.locfileid: "5000711"
 [تكوين مستأجرين متعددين لمتاجرة عمل-مستهلك في بيئة Commerce](configure-multi-B2C-tenants.md)
 
 [إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

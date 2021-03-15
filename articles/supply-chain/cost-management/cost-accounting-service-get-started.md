@@ -110,3 +110,6 @@ ms.locfileid: "5011837"
 ## <a name="related-resources"></a>الموارد ذات الصلة
 
 [الصفحة الرئيسية لخدمة محاسبة التكاليف](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

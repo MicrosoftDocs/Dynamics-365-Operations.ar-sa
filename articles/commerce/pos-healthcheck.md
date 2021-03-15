@@ -82,3 +82,6 @@ ms.locfileid: "5000524"
 ## <a name="related-articles"></a>مقالات ذات صلة
 
 [مشغلات نقطة البيع الحديثة (MPOS) والطباعة](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

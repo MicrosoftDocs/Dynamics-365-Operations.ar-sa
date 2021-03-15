@@ -101,3 +101,6 @@ ms.locfileid: "4999871"
 11. في الحقل **وقت الشراء**‬، أدخل "5".
 12. انقر فوق **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

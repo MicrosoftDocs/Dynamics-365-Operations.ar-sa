@@ -73,3 +73,6 @@ ms.locfileid: "4988967"
 | خرائط التقييمات        | تفاصيل الأصول الثابتة |
 
 لعرض التحليلات مع البيانات، يجب أولاً تحديث قياس التجميع AssetTransactionMeasure في صفحة **مخزن الكيانات**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

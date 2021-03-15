@@ -157,3 +157,6 @@ ms.locfileid: "4985652"
 يساعد هذا الإعداد على ضمان أن تتضمن كشوفات حسابات مكتب الدعم نفس الحركات كالورديات في نقطة البيع، وأن البيانات تم تلخيصها من خلال هذه الوردية.
 
 للحصول على مزيد من المعلومات حول كشف الحساب وأساليب الإقفال، راجع [تكوينات المتجر لكشف حساب البيع بالتجزئة](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

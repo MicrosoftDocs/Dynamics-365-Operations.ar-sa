@@ -80,3 +80,6 @@ ms.locfileid: "4977028"
 11. في حقل **تحديد الحقل**، أدخل قيمة أو حددها.
 12. حدد **موافق**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

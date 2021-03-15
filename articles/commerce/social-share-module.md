@@ -81,3 +81,6 @@ ms.locfileid: "4985526"
 [الوحدة النمطية لصندوق الشراء](add-buy-box.md)
 
 [توافق ملفات تعريف الارتباط](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ ms.locfileid: "5097168"
 [نظرة عامة على مكتبة الوحدات](starter-kit-overview.md)
 
 [الوحدة النمطية للعرض السريع](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

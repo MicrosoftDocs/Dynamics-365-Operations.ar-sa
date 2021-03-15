@@ -192,3 +192,6 @@ ms.locfileid: "4976604"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [عملية المخزون الداخلية في نقطه البيع](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

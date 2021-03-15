@@ -97,3 +97,6 @@ ms.locfileid: "5111379"
 - [‏‫معالجة أهلية الحدث الحياتي‬](hr-benefits-process-life-event-eligibility.md)
 - [معالجة تغييرات المعدل](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

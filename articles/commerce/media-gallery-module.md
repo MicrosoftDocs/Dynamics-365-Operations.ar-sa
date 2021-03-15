@@ -103,3 +103,6 @@ ms.locfileid: "4982456"
 [وحدة الحاوية](add-container-module.md)
 
 [تحميل صور](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

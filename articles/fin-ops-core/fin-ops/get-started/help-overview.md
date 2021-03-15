@@ -164,3 +164,6 @@ On the **System parameters** page, follow these steps:
 | [مجتمع Dynamics](https://community.dynamics.com/) | يستضيف هذا الموقع المدونات والمنتديات ومقاطع الفيديو. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | يوفر هذا الموقع معلومات التقييم والمبيعات. |
 | [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | يستضيف هذا الموقع الموارد التدريبية والتقارير القابلة للتنزيل، والمستندات التقنية، وهو موقع الدعم الأساسي لأصحاب خطة الخدمة. قد يتطلب الوصول إلى بعض الموارد على هذا الموقع خطة خدمة. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

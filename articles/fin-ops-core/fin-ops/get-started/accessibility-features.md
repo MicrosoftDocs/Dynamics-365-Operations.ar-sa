@@ -97,3 +97,6 @@ ms.locfileid: "4798685"
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>تشمل إرشادات مساعدة المطورين والعملاء تفكير يمكن الوصول إليه في تخصيصاتهم
 
 لمزيد من المعلومات حول أفضل ممارسات Microsoft لتمكين الوصول، راجع [إمكانية الوصول في النماذج والمنتجات وعناصر التحكم](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ ms.locfileid: "5111342"
 
 > [!Warning]
 > يتم حفظ بيئات Power Apps لسبعة أيام فقط بعد الحذف. يجب استرداد البيئة خلال فترة السبعة أيام.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

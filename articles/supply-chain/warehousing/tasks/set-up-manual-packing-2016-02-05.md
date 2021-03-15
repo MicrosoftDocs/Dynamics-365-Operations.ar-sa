@@ -94,3 +94,6 @@ ms.locfileid: "4976978"
 8. في الحقل "وحدة الوزن"، أدخل قيمة أو حددها.
 9. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

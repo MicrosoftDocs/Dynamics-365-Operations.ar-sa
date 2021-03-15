@@ -54,3 +54,6 @@ ms.locfileid: "5111274"
 25. فتح عامل تصفية عمود الحالة.
 26. فرز من A إلى Z
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "4798009"
 2. في القائمة، انقر فوق الارتباط في الصف المحدد.
 3. وسّع المقطع "مرفقات‬".
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

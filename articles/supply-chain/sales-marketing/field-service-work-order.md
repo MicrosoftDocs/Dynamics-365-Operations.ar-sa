@@ -272,3 +272,6 @@ ms.locfileid: "4998493"
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و((msdyn_linestatus eq 690970001) أو (msdynce_headersystemstatus eq 690970004) أو (msdyn_allocated ne true))
 
 [![تعيين القالب في تكامل البيانات](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

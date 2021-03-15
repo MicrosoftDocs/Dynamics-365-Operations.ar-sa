@@ -54,3 +54,6 @@ ms.locfileid: "4798083"
 22. في حقل "رقم المستند"، أدخل قيمة أو حددها.
 23. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

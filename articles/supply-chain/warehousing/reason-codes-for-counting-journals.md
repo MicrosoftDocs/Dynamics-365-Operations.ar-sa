@@ -143,3 +143,6 @@ ms.locfileid: "4996138"
 - كود سبب الجرد الافتراضي
 - عرض كود سبب الجرد
 - تحرير كود سبب الجرد
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

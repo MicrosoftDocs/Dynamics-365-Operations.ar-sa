@@ -106,3 +106,6 @@ ms.locfileid: "5016668"
 ## <a name="view-the-purchase-order-that-is-generated"></a>عرض أمر الشراء المُنشأ
 
 في جزء "الإجراءات"، على علامة تبويب **عام**، حدد **أمر الشراء**. تعرض الصفحة التي تظهر أمر الشراء الذي تم إنشاؤه عندما قبلت العطاء.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

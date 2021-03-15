@@ -80,3 +80,6 @@ ms.locfileid: "5010962"
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>تحويل المخزون (Field Service إلى Supply Chain Management): تحويل المخزون
 
 [![تعيين القالب في تكامل البيانات](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

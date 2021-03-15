@@ -69,3 +69,6 @@ ms.locfileid: "5000599"
 [الوحدة النمطية لتأكيد الأمر](order-confirmation-module.md)
 
 [الوحدة النمطية لتفاصيل الأوامر](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

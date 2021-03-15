@@ -75,3 +75,6 @@ ms.locfileid: "5060694"
 سيتم خصم مبلغ ضريبة الخصم المشتقة من دفع المورد وترحيله إلى **حساب ضريبة الخصم** في إيصال متعلق.
 
 ![حساب ضريبة الخصم يُظهر إيصالا متعلقًا](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

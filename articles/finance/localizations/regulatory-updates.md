@@ -77,3 +77,6 @@ ms.locfileid: "5118645"
 - ابحث عن كافة التحديثات التنظيمية المخططة والصادرة في [Lifecycle Service - بحث عن المشاكل](https://lcs.dynamics.com/Logon/Index) (مطلوب تسجيل الدخول).
 - للحصول على قائمة بالترجمات المدعومة، راجع [دليل التوافر الدولي](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

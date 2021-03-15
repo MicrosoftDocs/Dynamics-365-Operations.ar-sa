@@ -300,3 +300,6 @@ ms.locfileid: "4989117"
 -  [أبعاد عنصر التكلفة](cost-elements.md)
 -  [التدرج الهرمي للأبعاد](dimension-hierarchy.md)
 -  [عملية حساب المصروفات الزائدة](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ ms.locfileid: "5055929"
 21. انقر فوق **تقديم**.
 22. انقر فوق **تقديم**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

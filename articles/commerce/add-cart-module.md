@@ -117,3 +117,6 @@ ms.locfileid: "4985969"
 [حساب توفر المخزون لقنوات البيع بالتجزئة](calculated-inventory-retail-channels.md)
 
 [إنشاء ملف تعريف وظائف على الإنترنت](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

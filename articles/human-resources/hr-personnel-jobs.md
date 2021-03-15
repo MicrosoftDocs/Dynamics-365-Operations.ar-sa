@@ -87,3 +87,6 @@ ms.locfileid: "5130171"
 
 ## <a name="steps-for-creating-a-job"></a>خطوات إنشاء وظيفة
 ارجع إلى مقالة [تحديد الوظائف الجديدة](../fin-and-ops/hr/tasks/define-new-jobs.md) للاطلاع على الإجراء التفصيلي لإنشاء وظيفة جديدة. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

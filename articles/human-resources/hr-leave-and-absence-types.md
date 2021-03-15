@@ -82,3 +82,6 @@ ms.locfileid: "5115066"
 - [إنشاء تقويم مواعيد العمل](hr-leave-and-absence-working-time-calendar.md)
 - [تعليق الإجازة](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

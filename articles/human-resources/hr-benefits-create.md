@@ -53,3 +53,6 @@ ms.locfileid: "5111306"
 6. في الحقل "السريان‬"، أدخل الوقت والتاريخ.
 7. انقر فوق "إنشاء ميزة".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

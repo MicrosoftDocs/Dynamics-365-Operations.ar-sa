@@ -302,3 +302,6 @@ ms.locfileid: "4981446"
     ![مخططات مقارنة التكلفة](./media/subcontract35_cost-comparison-charts.png)
 
 إعداد مفقود في البيانات.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

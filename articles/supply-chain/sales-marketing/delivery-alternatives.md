@@ -150,3 +150,6 @@ ms.locfileid: "5035256"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [التعهد بالأمر](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

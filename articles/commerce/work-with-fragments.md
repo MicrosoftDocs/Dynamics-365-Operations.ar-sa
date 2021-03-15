@@ -135,3 +135,6 @@ ms.locfileid: "4982228"
 [العمل مع التخطيطات سابقة الإعداد](work-with-layouts.md)
 
 [العمل مع مجموعات النشر](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ ms.locfileid: "5115090"
 
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
 - [تكوين أنواع الإجازة والغياب](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4994380"
 12. في جزء الإجراءات، انقر فوق **المستند الأصلي**.
 13. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

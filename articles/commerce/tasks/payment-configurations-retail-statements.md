@@ -52,3 +52,6 @@ ms.locfileid: "4982298"
     * حدد الحساب الذي سيتم ترحيل مبالغ الإيداع بالخزينة إليه.  
 8. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

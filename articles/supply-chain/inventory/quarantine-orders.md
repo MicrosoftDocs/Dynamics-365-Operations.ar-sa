@@ -66,3 +66,6 @@ ms.locfileid: "5011687"
 --------
 
 [حظر المخزون](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

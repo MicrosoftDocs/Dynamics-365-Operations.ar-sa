@@ -157,3 +157,6 @@ public final class InventJournalMovement_extension
 
 > [!IMPORTANT]
 > نوصي بشده بتحرير البرنامج النصي كما هو مطلوب للبيئة الخاصة بك، واختباره في بيئة اختبار، ثم التحقق من البيانات الناتجة قبل تشغيل البرنامج النصي في بيئة التشغيل.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -184,3 +184,6 @@ ms.locfileid: "4980896"
 | 06:00 م | 08:00 م | 2    | 1.5       | 3            |
 | 08:00 م | 09:00 م | 1    | 2         | 2            |
 |          |          |      | **الإجمالي** | **8**        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ ms.locfileid: "5111364"
    4. حدد **موافق**. سيتم تشغيل العملية باستخدام المعلمات التي قمت بتعيينها.
 
 4. حدد **موافق**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

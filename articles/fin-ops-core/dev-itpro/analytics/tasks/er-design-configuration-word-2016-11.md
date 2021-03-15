@@ -164,3 +164,6 @@ ms.locfileid: "5092706"
 
 - [تصميم تكوين ER جديد لإنشاء تقارير بتنسيق Word](../er-design-configuration-word.md)
 - [تضمين الصور والأشكال في المستندات التي تقوم بإنشائها باستخدام التقارير الإلكترونية](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

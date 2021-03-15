@@ -97,3 +97,6 @@ ms.locfileid: "4967120"
 ## <a name="related-topic"></a>مواضيع مرتبطة
 
 [قوالب بيانات التكوين](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

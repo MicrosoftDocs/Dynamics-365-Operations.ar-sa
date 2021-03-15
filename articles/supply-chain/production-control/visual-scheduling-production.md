@@ -159,3 +159,6 @@ ms.locfileid: "5154241"
 
 [الجدولة الظاهرية للإنتاج (برنامج نصي للعرض التوضيحي)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

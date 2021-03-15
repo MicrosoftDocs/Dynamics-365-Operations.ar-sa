@@ -63,3 +63,6 @@ ms.locfileid: "5093345"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 لمزيد من المعلومات حول الأمان على مستوى الصف في Power BI، راجع [إدارة الأمان على النموذج في Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

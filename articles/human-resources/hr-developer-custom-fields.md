@@ -40,3 +40,5 @@ ms.locfileid: "5115478"
 [جداول Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [إنشاء حقول مخصصة والعمل باستخدامها](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [عرض الحقول المخصصة في كيانات البيانات](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

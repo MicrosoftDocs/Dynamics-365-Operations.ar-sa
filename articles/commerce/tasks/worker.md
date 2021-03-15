@@ -56,3 +56,6 @@ ms.locfileid: "5003593"
 6. في حقل "المجموعة الافتراضية"، أدخل قيمة أو حددها.
 7. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

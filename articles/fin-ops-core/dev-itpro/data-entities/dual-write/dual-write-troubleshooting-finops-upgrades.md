@@ -91,3 +91,6 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 4. افتح صفحة **تعيين الجدول** من صفحة **الكتابة الثنائية** في تطبيق Finance and Operations.
 5. إذا كان لا يتم ملء السمة تلقائيًا في التعيين، فقم بإضافتها يدويا بالنقر فوق زر **إضافة سمة** ثم النقر فوق **حفظ**. 
 6. حدد التعيين ثم انقر فوق **تشغيل**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

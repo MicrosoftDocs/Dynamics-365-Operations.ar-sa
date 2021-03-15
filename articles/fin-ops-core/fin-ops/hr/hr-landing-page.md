@@ -93,3 +93,6 @@ ms.locfileid: "4797807"
 - [تصميم استبيانات](../../../talent/design-questionnaires.md)
 - [توزيع الاستبيانات وجدولتها](../../../talent/distribute-questionnaires.md)
 - [عرض وتقييم نتائج الاستبيانات](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "5007531"
 5. أدخل قيمة أو حددها في حقل **كود nomenclature لرقم متغير المنتج‬**.
 6. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

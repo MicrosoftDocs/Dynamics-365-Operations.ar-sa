@@ -47,3 +47,6 @@ ms.locfileid: "4980972"
 2. في القائمة، قم بوضع علامة للصف المحدد.
     * لاحظ أن حالة وحدة معالجة المواد هي "مفرغ".  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

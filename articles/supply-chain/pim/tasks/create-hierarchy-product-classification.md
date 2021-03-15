@@ -66,3 +66,6 @@ ms.locfileid: "4966945"
 8. في القائمة، انقر فوق الارتباط في الصف المحدد.
 9. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

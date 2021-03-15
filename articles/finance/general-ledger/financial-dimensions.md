@@ -139,3 +139,6 @@ ms.locfileid: "4975729"
 
 - [تحديد الأبعاد المالية](tasks/define-financial-dimensions.md)
 - [الاحتفاظ بالقوالب الافتراضية للأبعاد المالية](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

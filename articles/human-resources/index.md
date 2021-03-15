@@ -78,3 +78,6 @@ ms.locfileid: "5129533"
 [إدارة الإجازة والغياب](hr-leave-and-absence-overview.md)</br>
 [تطوير الموظفين](hr-develop-performance-management-overview.md)</br>
 [إنشاء دورات تدريبية](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

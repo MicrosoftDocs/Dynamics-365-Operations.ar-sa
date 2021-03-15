@@ -57,3 +57,6 @@ ms.locfileid: "5018036"
 يبين الشكل التالي مثالاً عن مواقع العمل التي تستند إلى العملاء.
 
 ![يوضح الرسم التخطيطي المواقع الوظيفية بناءً على العملاء](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

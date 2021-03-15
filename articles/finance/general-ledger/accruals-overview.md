@@ -45,3 +45,6 @@ ms.locfileid: "4985046"
 
 
 للحصول على مزيد من المعلومات، راجع [إنشاء أنظمة استحقاق](tasks/create-accrual-schemes.md) و[إنشاء حركات استحقاق دفتر الأستاذ](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

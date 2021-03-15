@@ -108,3 +108,6 @@ ms.locfileid: "4980197"
 [توافق ملفات تعريف الارتباط](cookie-compliance.md)
 
 [استبدال معرفات المستخدمين المرتبطة بتغييرات المحتوى المتعقبة](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -153,3 +153,6 @@ ms.locfileid: "5001564"
 | الإبلاغ كمنته |   استهلاك قائمة مكونات الصنف التلقائي    | <strong>أبدًا</strong>  |
 | الإبلاغ كمنته | تحديث تقرير الانتهاء عبر الإنترنت | <strong>الحالة</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

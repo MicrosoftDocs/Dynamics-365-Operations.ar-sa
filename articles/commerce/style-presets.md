@@ -127,3 +127,6 @@ ms.locfileid: "5006300"
 [إضافة لغات إلى الموقع الخاص بك](add-languages-to-site.md)
 
 [إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

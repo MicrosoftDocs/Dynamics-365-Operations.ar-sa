@@ -108,3 +108,6 @@ ms.locfileid: "5017506"
 
 لإزالة أمر عمل من مجموعة أمر العمل، كرر تلك الخطوات، ولكن حدد **إزالة** في الخطوة 3.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

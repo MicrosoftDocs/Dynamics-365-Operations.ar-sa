@@ -72,3 +72,6 @@ ms.locfileid: "4995433"
 16. حدد **موافق**.
 17. عد إلى الصفحة الرئيسية بعد إغلاق الصفحات.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

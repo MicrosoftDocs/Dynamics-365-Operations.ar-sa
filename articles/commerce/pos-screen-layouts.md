@@ -207,3 +207,6 @@ ms.locfileid: "5032923"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [تثبيت مصمم تخطيط نقطة البيع (POS)‬ بالتجزئة](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

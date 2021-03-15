@@ -94,3 +94,6 @@ ms.locfileid: "4998593"
 
 [جدولة وظائف كانبان لـ Lean manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

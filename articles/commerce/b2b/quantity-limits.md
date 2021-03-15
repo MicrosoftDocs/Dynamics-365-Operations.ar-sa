@@ -84,3 +84,6 @@ ms.locfileid: "5035867"
 [إدارة مستخدمي شركاء الأعمال على مواقع التجارة الإلكترونية بين الشركات B2B](manage-b2b-users.md)
 
 [تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية بين الشركات B2B](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "4990203"
 > [!NOTE]
 > يمكنك استخدام قواعد توزيع دفتر الأستاذ بين الشركات الشقيقة لتخطيط الموازنة.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

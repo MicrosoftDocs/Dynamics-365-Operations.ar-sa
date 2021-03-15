@@ -76,3 +76,6 @@ ms.locfileid: "4993359"
 [نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ ms.locfileid: "4985576"
 [الوحدة النمطية لمسار التنقل](add-breadcrumb.md)
 
 [الوحدة النمطية لقائمة التنقل](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

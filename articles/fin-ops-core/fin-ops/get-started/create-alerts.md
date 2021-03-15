@@ -102,3 +102,6 @@ ms.locfileid: "4798417"
     ```
 2. قم بإنشاء تنبيه من نموذج مستعرض جدول النظام.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ ms.locfileid: "5007731"
 7.  [إنشاء قواعد التكوين](tasks/create-configuration-rules.md)
 8.  [إنشاء التكوينات المستندة إلى أبعاد](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

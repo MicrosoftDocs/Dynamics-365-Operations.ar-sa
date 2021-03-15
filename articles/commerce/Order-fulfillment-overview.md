@@ -217,3 +217,6 @@ ms.locfileid: "4965392"
 - تاريخ الإنشاء
 - تاريخ التسليم
 - تاريخ الاستلام
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

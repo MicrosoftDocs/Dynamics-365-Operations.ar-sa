@@ -134,3 +134,6 @@ ms.locfileid: "5006431"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [تكوين نُهج دمج الشحنات](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

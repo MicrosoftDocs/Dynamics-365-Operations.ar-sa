@@ -40,3 +40,6 @@ ms.locfileid: "5060697"
 7. انقر فوق **موافق**.
 
 ![المعلمات لدفع ضريبة الخصم](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

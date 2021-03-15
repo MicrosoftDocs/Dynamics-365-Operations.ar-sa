@@ -38,3 +38,6 @@ ms.locfileid: "4994505"
 6. في الحقل **وصف مختصر**، أدخل وصفًا لأغراض داخلية.
 7. انقر فوق **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ ms.locfileid: "5010937"
 29. انقر فوق "موافق".
 30. حدد سببا تسجيل الانصراف مبكرًا.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

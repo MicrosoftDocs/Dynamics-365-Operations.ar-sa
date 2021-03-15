@@ -46,3 +46,6 @@ ms.locfileid: "4969766"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [إعداد أقنعة الأكواد الشريطية](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

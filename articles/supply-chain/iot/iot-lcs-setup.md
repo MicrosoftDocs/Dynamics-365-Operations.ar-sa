@@ -55,3 +55,6 @@ ms.locfileid: "4963475"
 2. في LCS، انتقل إلى تفاصيل بيئة Supply Chain Management.
 3. قم بالتمرير إلى قسم **الوظائف الإضافية للبيئة**.
 4. حدد **إلغاء التثبيت** للوظيفة الإضافية لذكاء IoT.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

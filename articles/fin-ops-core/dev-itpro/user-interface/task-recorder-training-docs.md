@@ -123,3 +123,6 @@ ms.locfileid: "5092859"
 [مسجل المهام](task-recorder.md)
 
 [إنشاء مواضيع تعليمات باستخدام مسجل المهام" (ارتباط خارجي)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

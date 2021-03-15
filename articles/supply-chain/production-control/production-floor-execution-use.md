@@ -169,3 +169,6 @@ ms.locfileid: "5077621"
 1. يعمل العامل من خلال الدليل لتعلم الوظيفة.
 
 لمزيد من المعلومات حول كيفية إنشاء وتعيين واستخدام الدلائل HoloLens، راجع [‏‫توفير إرشادات الواقع المختلط للعمال العاملين في الإنتاج](instruction-guides-in-production-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

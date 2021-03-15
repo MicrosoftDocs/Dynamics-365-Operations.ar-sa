@@ -47,3 +47,6 @@ ms.locfileid: "4991480"
 [إدارة ملفات robots.txt](manage-robots-txt-files.md)
 
 [تمكين الكشف عن المتجر استنادًا إلى الموقع](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

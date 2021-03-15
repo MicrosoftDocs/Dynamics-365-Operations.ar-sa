@@ -84,3 +84,6 @@ ms.locfileid: "5033191"
 لمزيد من المعلومات حول كيفيه العمل مع مساحة عمل الاجهزه المحمولة **لأداره الأصول**، راجع [استخدام مساحة عمل الاجهزه المحمولة لأداره الأصول](asset-management-mobile-workspace.md).
 
 لمزيد من المعلومات حول Finance and Operations تطبيق الاجهزه المحمولة (Dynamics 365)، راجع [الصفحة الرئيسية لتطبيق الاجهزه المحمولة](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

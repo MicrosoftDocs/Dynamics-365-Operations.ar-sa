@@ -163,3 +163,6 @@ ms.locfileid: "4993465"
 [حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [نظرة عامة على مدفوعات القنوات متعددة الاتجاهات](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

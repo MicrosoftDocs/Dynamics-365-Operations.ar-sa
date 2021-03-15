@@ -62,3 +62,6 @@ ms.locfileid: "4972223"
 29. انقر فوق "نشر".
 30. انقر فوق "إغلاق".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

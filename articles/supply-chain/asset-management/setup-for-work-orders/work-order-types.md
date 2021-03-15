@@ -51,3 +51,6 @@ ms.locfileid: "5021519"
 8. حدد **حفظ**.
 
 ![أنواع أمر العمل](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

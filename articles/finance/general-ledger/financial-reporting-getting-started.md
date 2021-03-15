@@ -174,3 +174,6 @@ ms.locfileid: "4975676"
 ## <a name="additional-resources"></a>الموارد الإضافية
 - [عرض التقارير المالية](view-financial-reports.md)
 - [تعريفات شجرة التقارير في التقارير المالية](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4994855"
 7. في الحقل **تكرار الفترة‬**، حدد خيارًا.
 8. وقم بغلق النموذج.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ ms.locfileid: "4744289"
     ![تغيير قيمة عمود وضع مستخدم التكامل](media/sales-map-user-mode-yes.png)
 
 أصبحت الآن أوامر مبيعاتك معيّنة.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

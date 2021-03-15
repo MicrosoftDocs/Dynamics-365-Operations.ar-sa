@@ -109,3 +109,6 @@ ms.locfileid: "4993918"
 ### <a name="issue-resolution"></a>حل المشكلة
 
 لحل هذه المشكلة ، قم بتحرير ملف تعريف المجموعة ، وقم بتعيين خيار **تنشيط المناصب** إلى *لا*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

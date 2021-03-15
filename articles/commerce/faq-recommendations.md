@@ -99,3 +99,6 @@ ms.locfileid: "5009889"
 [إنشاء توصيات مختارة يدويًا](create-editorial-recommendation-lists.md)
 
 [إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

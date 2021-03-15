@@ -139,3 +139,6 @@ ms.locfileid: "5035868"
 [تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات B2B](quantity-limits.md)
 
 [نظرة عامة على التسلسل الرقمي](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

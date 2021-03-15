@@ -44,3 +44,6 @@ ms.locfileid: "4988253"
     * إذا لم يتوفر الزر "استيراد"، فهذا يعني أن التكوين قد تم استيراده.  
 9. انقر فوق نعم.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

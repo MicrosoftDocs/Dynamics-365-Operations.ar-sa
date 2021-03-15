@@ -71,3 +71,6 @@ ms.locfileid: "5031837"
 [إنشاء أوامر مركز الاتصال](tasks/create-call-center-orders.md)
 
 [تغيير ‏‫وضع التسليم‬ في نقطة البيع](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

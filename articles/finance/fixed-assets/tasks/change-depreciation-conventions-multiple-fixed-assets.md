@@ -48,3 +48,6 @@ ms.locfileid: "4985152"
 15. انقر فوق "موافق".
     *  تظهر نتائج العملية على تقرير التحديث الشامل.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

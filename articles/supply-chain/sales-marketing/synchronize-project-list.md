@@ -66,3 +66,6 @@ ms.locfileid: "5010862"
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>المشاريع (Supply Chain Management إلى Field Service): المشاريع
 
 [![تعيين القالب في تكامل البيانات](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

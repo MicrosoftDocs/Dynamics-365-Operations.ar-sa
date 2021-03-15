@@ -68,3 +68,6 @@ ms.locfileid: "5111304"
 16. في الحقل "أساس‬"، حدد خيارًا.
 17. في حقل "المبلغ أو النسبة‬"، أدخل رقمًا.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

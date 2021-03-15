@@ -55,3 +55,6 @@ ms.locfileid: "5111381"
     ![زر المزامنة](media/get-more.png)
 
     بعد اكتمال المزامنة، سوف يظهر Human Resources في الصفحة الرئيسية.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

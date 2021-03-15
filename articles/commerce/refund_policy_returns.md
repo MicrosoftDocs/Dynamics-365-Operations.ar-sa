@@ -103,3 +103,6 @@ ms.locfileid: "4979693"
 
 
 ![قائمة طرق الدفع](media/Return-policy-page5.PNG "أنواع المبلغ المسترد المسموح بها")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

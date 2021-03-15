@@ -36,3 +36,6 @@ ms.locfileid: "5111316"
 3. حدد قيم **تقريب للأقرب** و **سيناريو** و **نموذج التقريب**
 
 4. حدد **حفظ**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Microsoft Dynamics 365 Human Resources، الذي تم نشره عبر Microsoft
 2. حدد **فتح من LCS**.
 3. حدد المكتبة وعقدة عارض العمليات التجارية التي تحتوي على دليل مهام محفوظ.
 4. فتح دليل المهام.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

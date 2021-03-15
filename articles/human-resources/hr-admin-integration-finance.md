@@ -255,3 +255,5 @@ ms.locfileid: "5111350"
 يبين الشكل التوضيحي التالي مثالاً لتعيين قالب في موحد البيانات. 
 
 ![تعيين القالب](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ ms.locfileid: "4797690"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة حول إنشاء عمليات سير العمل](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

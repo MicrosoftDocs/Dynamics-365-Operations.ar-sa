@@ -186,3 +186,6 @@ ms.locfileid: "5107710"
 ### <a name="the-system-allows-it"></a>"النظام يسمح بها"
 
 تستخدم المؤسسات غالباً وظيفة الإيصال الواحد فقط لأن النظام يسمح لهم باستخدامها، بدون فهم التبعات.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

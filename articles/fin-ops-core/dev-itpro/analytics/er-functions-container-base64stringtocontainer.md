@@ -80,3 +80,6 @@ BASE64STRINGTOCONTAINER (input)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دالات الحاوية](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

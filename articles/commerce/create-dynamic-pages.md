@@ -96,3 +96,6 @@ ms.locfileid: "5098609"
 [التحقق من إمكانية الوصول إلى محتوى الصفحة](verify-accessibility.md)
 
 [قابلية توسعة القناة عبر الإنترنت](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

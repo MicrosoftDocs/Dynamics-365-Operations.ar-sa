@@ -235,3 +235,6 @@ ms.locfileid: "5111210"
 - [بدء استخدام الوظيفة الإضافية الفوترة الإلكترونية في المكسيك](e-invoicing-mex-get-started.md)
 - [بدء استخدام الوظيفة الإضافية الفوترة الإلكترونية في إيطاليا](e-invoicing-ita-get-started.md)
 - [الفواتير الإلكترونية للعملاء في مصر](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

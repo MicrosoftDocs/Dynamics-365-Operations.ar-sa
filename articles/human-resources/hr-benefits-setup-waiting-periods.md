@@ -45,3 +45,6 @@ ms.locfileid: "5111260"
    | **يوم الانتظار** | حدد يوم الانتظار لاستخدامه لحساب تاريخ الانتظار. |
 
 4. حدد **حفظ**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

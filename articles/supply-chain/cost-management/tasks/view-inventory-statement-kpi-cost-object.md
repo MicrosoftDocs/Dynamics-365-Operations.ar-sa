@@ -38,3 +38,6 @@ ms.locfileid: "5001963"
 7. في الحقل "من تاريخ"، أدخل تاريخًا.
 8. في الحقل "إلى تاريخ"، أدخل تاريخًا.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ ms.locfileid: "4798438"
 [![عوامل تصفية أقسام مساحة العمل](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 كما هو الحال مع عامل التصفية على مستوى مساحة العمل، حدد أو أدخل قيمة في الحقل لتصفية محتويات المقطع.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

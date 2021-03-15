@@ -42,3 +42,6 @@ ms.locfileid: "5021444"
 12. انقر فوق **ترحيل**.
 13. انقر فوق **الإيصال**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

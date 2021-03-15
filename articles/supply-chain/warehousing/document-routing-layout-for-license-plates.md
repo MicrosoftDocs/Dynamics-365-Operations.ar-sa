@@ -135,3 +135,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>مزيد من المعلومات حول كيفية طباعة التسميات
 
 لمزيد من المعلومات حول كيفية إعداد التسميات وطباعتها، راجع [تمكين طباعة تسمية لوح الترخيص](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

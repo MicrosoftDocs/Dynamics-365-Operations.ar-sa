@@ -59,3 +59,6 @@ ms.locfileid: "4990354"
 
 - [الأبعاد المالية](financial-dimensions.md)
 - [إنشاء بُنى القواعد المتقدمة وتعيينها](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

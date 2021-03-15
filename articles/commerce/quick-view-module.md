@@ -77,3 +77,6 @@ ms.locfileid: "5097042"
 [الوحدة النمطية لمجموعة المنتجات](product-collection-module-overview.md)
 
 [وحدة نتائج البحث](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

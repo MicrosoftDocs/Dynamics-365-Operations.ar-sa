@@ -54,3 +54,6 @@ ms.locfileid: "5018086"
 
     ![فتح أمر عمل جديد](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

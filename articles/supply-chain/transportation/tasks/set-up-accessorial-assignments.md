@@ -49,3 +49,6 @@ ms.locfileid: "4974025"
 14. في الحقل "الرسوم الإضافية‬"، أدخل رقمًا.
 15. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

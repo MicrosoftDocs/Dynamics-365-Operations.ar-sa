@@ -225,3 +225,6 @@ ms.locfileid: "5115670"
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>ترحيل بيانات المنتج من تطبيقات Dynamics 365 الأخرى إلى Finance and Operations
 
 إذا كانت تطبيقات Dynamics 365 الأخرى تحتوي على منتجات غير موجودة في Finance and Operations، يمكن للمسؤول أولاً استخدام **EcoResReleasedProductCreationV2Entity** لاستيراد تلك المنتجات في Finance and Operations. وثانيًا، قم بمطابقه بيانات المنتج من Finance and Operations وتطبيقات Dynamics 365 الأخرى كما هو موضح أعلاه. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

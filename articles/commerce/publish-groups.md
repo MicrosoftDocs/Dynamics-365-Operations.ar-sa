@@ -154,3 +154,6 @@ ms.locfileid: "4969866"
 [نظرة عامة على القوالب والتخطيطات](templates-layouts-overview.md)
 
 [تخصيص التنقل في الموقع](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

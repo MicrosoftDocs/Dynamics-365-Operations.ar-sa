@@ -61,3 +61,6 @@ ms.locfileid: "4965940"
 [نظرة عامة على تطوير وإنشاء اتفاقات الخدمات](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

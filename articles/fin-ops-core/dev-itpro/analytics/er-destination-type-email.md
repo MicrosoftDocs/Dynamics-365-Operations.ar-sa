@@ -139,3 +139,6 @@ ms.locfileid: "5094094"
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
 - [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

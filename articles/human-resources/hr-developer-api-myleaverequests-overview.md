@@ -64,3 +64,5 @@ ms.locfileid: "5115526"
 
 - [إرسال طلب إجازة إلى سير العمل](hr-developer-api-myleaverequests-submit.md)
 - [المصادقة](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

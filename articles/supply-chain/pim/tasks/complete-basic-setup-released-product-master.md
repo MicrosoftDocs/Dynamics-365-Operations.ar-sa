@@ -52,3 +52,6 @@ ms.locfileid: "4987019"
 20. قم بإغلاق الصفحة.
 21. أغلق نموذج **تفاصيل المنتجات الصادرة‬**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

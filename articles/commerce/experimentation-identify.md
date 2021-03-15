@@ -39,3 +39,6 @@ ms.locfileid: "5009989"
 
 ## <a name="next-step"></a>الخطوة التالية
 [إعداد تجربة](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

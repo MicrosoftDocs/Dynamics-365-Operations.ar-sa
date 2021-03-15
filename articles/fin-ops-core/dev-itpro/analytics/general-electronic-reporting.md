@@ -298,3 +298,6 @@ ms.locfileid: "5093916"
 
 - [إنشاء تكوينات إعداد التقارير الإلكترونية (ER)](electronic-reporting-configuration.md)
 - [إدارة دورة حياة تكوين إعداد التقارير الإلكترونية](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

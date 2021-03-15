@@ -129,3 +129,6 @@ ms.locfileid: "5153629"
 [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
 
 [التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

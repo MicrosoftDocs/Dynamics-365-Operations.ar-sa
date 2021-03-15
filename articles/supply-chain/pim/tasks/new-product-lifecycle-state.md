@@ -34,3 +34,6 @@ ms.locfileid: "4986819"
 3. في حقل "الحالة"، اكتب قيمة.
 4. في وصف الحقل، اكتب قيمة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

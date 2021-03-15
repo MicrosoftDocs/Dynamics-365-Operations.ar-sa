@@ -37,3 +37,6 @@ ms.locfileid: "4988321"
 - [نظرة عامة على إعداد التقارير الإلكترونية](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [مدخل الترجمة في Microsoft Dynamics: تقرير أستراليا (يتطلب حساب CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/saudiarabia.html)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

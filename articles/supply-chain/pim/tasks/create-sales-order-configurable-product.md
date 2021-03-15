@@ -52,3 +52,6 @@ ms.locfileid: "4992309"
 
 ## <a name="select-the-product-configuration"></a>تحديد تكوين المنتج
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

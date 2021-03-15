@@ -64,3 +64,6 @@ ms.locfileid: "4978779"
 [إعداد ملفات تعريف الترحيل والتسهيلات البنكية لخطابات الضمان](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

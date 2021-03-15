@@ -66,3 +66,6 @@ ms.locfileid: "5008033"
 2. حدد **إغلاق عدم المطابقة**.
 3. حدد **نعم**.
 4. قم بإغلاق الصفحات.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

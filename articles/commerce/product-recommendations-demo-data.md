@@ -89,3 +89,6 @@ ms.locfileid: "4972346"
 [إنشاء توصيات مختارة يدويًا](create-editorial-recommendation-lists.md)
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

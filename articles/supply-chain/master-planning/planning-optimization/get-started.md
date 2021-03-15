@@ -132,3 +132,6 @@ ms.locfileid: "5091075"
 [تطبيق عوامل تصفية على خطة](plan-filters.md)
 
 [إلغاء وظيفة تخطيط](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

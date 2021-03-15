@@ -75,3 +75,6 @@ ms.locfileid: "5016896"
 
 ![الشكل 4](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

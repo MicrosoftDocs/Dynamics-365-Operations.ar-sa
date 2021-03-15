@@ -62,3 +62,6 @@ ms.locfileid: "5035865"
 [تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية بين الشركات B2B](payment-method.md)
 
 [تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات B2B](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

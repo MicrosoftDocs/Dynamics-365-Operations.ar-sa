@@ -92,3 +92,6 @@ ms.locfileid: "4972799"
 [الوحدة النمطية لمحدد المتجر](store-selector.md)
 
 [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

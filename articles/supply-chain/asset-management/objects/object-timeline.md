@@ -48,3 +48,6 @@ ms.locfileid: "5019494"
 - أوامر العمل، بما في ذلك الأصناف المرحلة والملاحظات
 - الأخطاء
 - تقييمات الحالة
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

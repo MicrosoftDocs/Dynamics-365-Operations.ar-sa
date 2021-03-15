@@ -73,3 +73,6 @@ ms.locfileid: "4976307"
     * يتم خصم هذا الحساب عند ترحيل هامش الافتتاح واعتماده عند نشر الدفع.  
 9. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

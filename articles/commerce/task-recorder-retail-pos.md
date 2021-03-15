@@ -145,3 +145,6 @@ ms.locfileid: "5006125"
 
 > [!NOTE]
 > لن يعرض نظام التعليمات في Retail Modern POS وCloud POS‬ دلائل المهام وفقًا للنموذج الذي تعمل عليه أو العملية التي تعمل على تنفيذها. يجب عليك كتابة اسم العملية في مربع البحث والنقر فوق **بحث**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

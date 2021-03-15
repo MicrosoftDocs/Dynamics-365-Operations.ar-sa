@@ -53,3 +53,6 @@ ms.locfileid: "4999646"
 4. في حقل "المعايير"، حدد "مجموعة العملاء 10". 
 5. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

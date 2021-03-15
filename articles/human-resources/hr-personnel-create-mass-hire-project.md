@@ -48,3 +48,6 @@ ms.locfileid: "5130315"
     * اختياريًا، حدد "قسم‬" للمناصب الجديدة.  
 13. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -181,3 +181,6 @@ ms.locfileid: "4997715"
 
 [إعداد قناة مركز اتصال](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ ms.locfileid: "4983381"
 19. حدد لا في حقل تعطيل كافة عمليات التخطيط.
 20. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

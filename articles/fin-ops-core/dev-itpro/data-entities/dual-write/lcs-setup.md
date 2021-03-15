@@ -89,3 +89,6 @@ ms.locfileid: "5127583"
 > [!NOTE]
 > لا يمكنك إلغاء ارتباط البيئات باستخدام LCS. لإلغاء ارتباط بيئة، افتح مساحة عمل **تكامل البيانات** في بيئة Finance and Operations، ثم حدد **إلغاء الارتباط**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

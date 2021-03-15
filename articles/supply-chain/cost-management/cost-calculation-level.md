@@ -56,3 +56,6 @@ ms.locfileid: "4967704"
     - **المنتج C:** 2
 
 يضمن هذا السلوك عدم تأثير قوائم BOMs لأوامر الإنتاج على حسابات التكلفة اللاحقة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

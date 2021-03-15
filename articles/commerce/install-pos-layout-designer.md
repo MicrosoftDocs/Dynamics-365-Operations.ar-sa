@@ -62,3 +62,6 @@ ms.locfileid: "5012409"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [تكوين وتثبيت وتنشيط Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ ms.locfileid: "4744603"
 
 3. تأكد من أن العمود **externalenvironmentURL** على عنوان URL الصحيح للتطبيق أو Dataverse. احذف أي صفوف مكررة تشير إلى عنوان URL غير الصحيح لـ Dataverse. احذف الصفوف المقابلة في جدولي DUALWRITEPROJECTFIELDCONFIGURATION وDUALWRITEPROJECTCONFIGURATION.
 4. أوقف تعيين الجدول، ثم أعد تشغيله
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

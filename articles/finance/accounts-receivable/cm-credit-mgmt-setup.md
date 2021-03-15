@@ -78,3 +78,6 @@ ms.locfileid: "4971743"
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>معلمات التسلسلات الرقمية‬ والتسلسلات الرقمية المشتركة
 
 يجب أن يتوفر معرف دفتر اليومية لمعالجة تسويات الحدود الائتمانية. يجب إضافة رقم تسوية الحد الائتماني الذي ينبغي استخدامه لإنشاء معرف دفتر اليومية.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

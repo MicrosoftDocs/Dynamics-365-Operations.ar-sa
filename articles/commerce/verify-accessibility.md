@@ -86,3 +86,6 @@ ms.locfileid: "5097353"
 [إثراء الصفحة المنتقل إليها‬ لفئة](enrich-category-page.md)
 
 [إنشاء صفحات التجارة الإلكترونية الديناميكية استنادا إلى معلمات URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

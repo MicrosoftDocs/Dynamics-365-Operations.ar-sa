@@ -89,3 +89,6 @@ ms.locfileid: "4992235"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [اتفاقيات الشراء](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

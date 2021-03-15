@@ -120,3 +120,6 @@ ms.locfileid: "4997537"
 [تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)
 
 [إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

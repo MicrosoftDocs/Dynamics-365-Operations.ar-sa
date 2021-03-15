@@ -56,3 +56,6 @@ ms.locfileid: "4980247"
 [حالات المستند ودورة الحياة](document-states-overview.md)
 
 [تمكين المشاركة عبر القنوات واستخدامها](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

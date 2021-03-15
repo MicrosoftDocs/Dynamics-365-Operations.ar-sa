@@ -165,3 +165,6 @@ ms.locfileid: "4973725"
 ## <a name="see-also"></a>راجع أيضًا
 
 [لمزيد من المعلومات راجع المدونة ترحيل أكواد التصفية الخاصة ب WMS-المستودع](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

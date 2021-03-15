@@ -945,3 +945,6 @@ ms.locfileid: "4797185"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الصفحة الرئيسية للجديد أو المتغير‬ في Finance and Operations](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

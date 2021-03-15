@@ -53,3 +53,6 @@ ms.locfileid: "4987419"
 [عمليات إدارة الجودة](quality-management-processes.md)
 
 [متطلبات الإعداد الأساسية لإدارة عدم التوافق](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

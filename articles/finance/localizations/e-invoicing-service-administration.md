@@ -138,3 +138,6 @@ Dynamics 365 Regulatory Configuration Services (RCS) هو الواجهة الت�
 
 - [تكوين الفواتير الإلكترونية في RCS](e-invoicing-configuration-rcs.md)
 - [إصدار الفواتير الإلكترونية في Finance وفي Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ ms.locfileid: "4986094"
 [وحدة علامة تبويب](add-tab.md)
 
 [وحدة كتلة النص](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

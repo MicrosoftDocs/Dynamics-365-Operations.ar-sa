@@ -54,3 +54,6 @@ ms.locfileid: "5115962"
 [طلب إجازة](hr-employee-self-service-request-time-off.md)
 [إدارة طلبات الإجازة والغياب](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -165,3 +165,6 @@ ms.locfileid: "5017858"
 >[!NOTE]
 >إذا كنت ترغب في إنشاء أوامر العمل تلقائيًا، يمكنك جدولة مهام خطط الصيانة، أو يمكنك إعداد "الإنشاء التلقائي" لـ [خطط الصيانة](../preventive-and-reactive-maintenance/maintenance-plans.md) أو [دورات الصيانة](../preventive-and-reactive-maintenance/maintenance-rounds.md) على أحد الأصول. يكون لأوامر العمل المنشأة من طلبات صيانة في صفحة القائمة **جدول الصيانة بكامله** أنواع مهام الصيانة المحددة في طلبات الصيانة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

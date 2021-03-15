@@ -72,3 +72,6 @@ ms.locfileid: "4986844"
 
 8. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

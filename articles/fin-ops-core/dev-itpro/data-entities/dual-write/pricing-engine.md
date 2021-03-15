@@ -69,3 +69,6 @@ ms.locfileid: "5130643"
 + لا يتم تكرار إعداد الرسوم ومخصصات الرسوم في Supply Chain Management في Sales.
 + لا يأخذ التشعير بعين الاعتبار تسعير البيع بالتجزئة الخاص المحدد في عمود **قناة البيع بالتجزئة** في صفحة بند أمر المبيعات في Supply Chain Management.
 + لا يتم الأخذ بعين الاعتبار الخصومات المحددة في قسم **إدارة البدل التجاري‬** في Supply Chain Management.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

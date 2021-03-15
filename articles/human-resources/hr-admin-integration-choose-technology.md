@@ -150,3 +150,6 @@ ms.locfileid: "5111384"
 <sup>2</sup>تستثمر Microsoft بشكل كبير في زيادة تغطية البيانات لجداول Dataverse. نوصي باستخدام Dataverse عندما تصبح التغطية متاحة. حاليًا، تُعد تغطية البيانات في Dataverse منخفضة مقارنة بـ DMF والكيانات الممكّنة لـ OData.
 
 <sup>3</sup> يُمكن الوصول إلى قاعدة بيانات SQL برمجيًا.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

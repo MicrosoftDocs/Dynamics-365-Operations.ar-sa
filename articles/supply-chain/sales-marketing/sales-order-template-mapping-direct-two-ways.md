@@ -208,3 +208,6 @@ ms.locfileid: "4974975"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [العميل المتوقع إلى النقدية](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ ms.locfileid: "4989342"
 [إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام](add-telemetry.md)
 
 [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

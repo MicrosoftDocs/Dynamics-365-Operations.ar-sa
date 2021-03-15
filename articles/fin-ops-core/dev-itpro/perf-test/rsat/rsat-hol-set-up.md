@@ -803,3 +803,6 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 2. تحقق من اجتياز كلتا حالتي الاختبار.
 
     ![تم تعيين حقل النتيجة إلى تم الاجتياز لكلتا حالتي الاختبار](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

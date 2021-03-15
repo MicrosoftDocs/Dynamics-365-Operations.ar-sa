@@ -100,3 +100,6 @@ ms.locfileid: "4982656"
 [إنشاء ملف تعريف وظائف على الإنترنت](online-functionality-profile.md)
 
 [دعم بطاقات الهدايا الخارجية](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

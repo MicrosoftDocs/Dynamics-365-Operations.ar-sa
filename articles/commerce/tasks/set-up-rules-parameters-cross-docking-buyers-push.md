@@ -47,3 +47,6 @@ ms.locfileid: "5003700"
 14. في حقل "الوزن"، أدخل رقمًا.
 15. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

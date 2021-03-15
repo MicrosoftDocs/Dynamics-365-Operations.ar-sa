@@ -666,3 +666,6 @@ ms.locfileid: "4963400"
     اكتمل العمل.
 
 من الآن فصاعدًا، يتم تطبيق كافة عمليات المستودع الأخرى.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

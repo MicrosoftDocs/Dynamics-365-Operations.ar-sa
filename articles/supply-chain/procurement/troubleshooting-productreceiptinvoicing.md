@@ -109,3 +109,6 @@ ms.locfileid: "4999043"
 ### <a name="issue-resolution"></a>حل المشكلة
 
 يتوقف ذلك على إعدادات المعلمات الخاصة بالفواتير ومجموعات الفواتير. لمزيد من المعلومات، راجع منشور المدونة التالي: [محاسبة مصروفات الشراء وتغييرات المخزون](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

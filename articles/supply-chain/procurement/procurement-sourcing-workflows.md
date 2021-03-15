@@ -79,3 +79,6 @@ ms.locfileid: "5019731"
 - [تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://www.microsoft.com/download/details.aspx?id=101821)
 - [سير عمل طلب الشراء](purchase-requisitions-workflow.md)
 - [إعداد المورّدين](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

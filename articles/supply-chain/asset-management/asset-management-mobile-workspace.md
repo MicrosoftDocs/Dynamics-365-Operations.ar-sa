@@ -239,3 +239,6 @@ ms.locfileid: "5033142"
 1. حدد **تم**.
 
     ![إضافة مرفق إلى طلب صيانة](media/am-mobile-10.png "إضافة مرفق إلى طلب صيانة")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

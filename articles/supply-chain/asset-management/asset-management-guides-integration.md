@@ -113,3 +113,6 @@ ms.locfileid: "5000274"
 
 - [نظرة عامة على الكتابة المزدوجة](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [نظرة عامة على إدارة الأصول](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

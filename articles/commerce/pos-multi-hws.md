@@ -153,3 +153,6 @@ ms.locfileid: "4972595"
 - [إعداد تطبيق POS Hybrid في Android وiOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [موصل دفع Dynamics 365 لـ Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [نظرة عامة حول دعم الأجهزة الطرفية للشبكة‬](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

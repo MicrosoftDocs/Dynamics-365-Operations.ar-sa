@@ -78,3 +78,6 @@ ms.locfileid: "4985451"
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | ملخص حركات التدفقات النقدية الداخلية والخارجية، والرصيد باستخدام عملة المحاسبة الخاصة بكل شركة |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | ملخص حركات التدفقات النقدية الداخلية والخارجية، والرصيد باستخدام عملة النظام لجميع الشركات |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | صافي مبلغ الحركة المُلخص، ورصيد العملات باستخدام عملة الحركة |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

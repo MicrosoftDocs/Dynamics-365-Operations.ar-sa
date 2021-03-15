@@ -71,3 +71,6 @@ ms.locfileid: "4974000"
 11. في حقل "‏‫كود سبب الدفع بالنقصان"، أدخل قيمة أو حددها.
 12. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

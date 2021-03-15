@@ -70,3 +70,6 @@ ms.locfileid: "5000965"
 [تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce](cpe-bopis.md)
 
 [تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

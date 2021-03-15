@@ -812,3 +812,6 @@ ms.locfileid: "4797331"
 [تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها](trace-execution-er-troubleshoot-perf.md)
 
 [نظرة عامة على إدارة مستندات الأعمال](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

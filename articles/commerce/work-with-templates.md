@@ -149,3 +149,6 @@ ms.locfileid: "4995705"
 [نظرة عامة على القوالب والتخطيطات](templates-layouts-overview.md)
 
 [العمل مع التخطيطات سابقة الإعداد](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

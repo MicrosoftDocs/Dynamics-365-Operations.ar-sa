@@ -106,3 +106,6 @@ ms.locfileid: "5000499"
 [نظرة عامة على صفحات تفاصيل المنتج](quick-tour-pdp.md)
 
 [نظرة عامة على صفحات إدارة الحسابات](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

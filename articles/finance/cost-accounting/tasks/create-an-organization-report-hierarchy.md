@@ -94,3 +94,6 @@ ms.locfileid: "4969393"
     * حدد عضو البُعد المطابق للعقدة.  
 59. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

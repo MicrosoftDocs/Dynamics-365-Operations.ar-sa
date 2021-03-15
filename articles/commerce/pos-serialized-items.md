@@ -135,3 +135,6 @@ ms.locfileid: "4972545"
 [عملية المخزون الداخلية في نقطة البيع](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [عملية المخزون الخارجية في نقطة البيع](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

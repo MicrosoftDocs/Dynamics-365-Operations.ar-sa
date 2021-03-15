@@ -84,3 +84,6 @@ ms.locfileid: "4981371"
     * لاحظ أن هذه هي كمية كانبان الثابتة من 4 من حساب كمية كانبان.  
 5. انقر فوق علامة التبويب "ListPanel".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

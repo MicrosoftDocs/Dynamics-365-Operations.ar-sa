@@ -96,3 +96,6 @@ ms.locfileid: "5093941"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 [إنشاء التقارير المالية](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

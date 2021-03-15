@@ -290,3 +290,6 @@ ms.locfileid: "5104341"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [إصدار الفواتير الإلكترونية في Finance وفي Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

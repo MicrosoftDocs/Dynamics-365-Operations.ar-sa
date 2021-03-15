@@ -279,3 +279,6 @@ ms.locfileid: "5078229"
     ![مثال لتسميه الشحن](media/sps-label-example.png "مثال لتسميه الشحن")
 
 1. لاحظ انه تمت أضافه **معرف بيان الحاوية** و **إجمالي الشحن** باعتبارها مستلمه من الناقل.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

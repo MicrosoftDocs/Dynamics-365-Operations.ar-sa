@@ -302,3 +302,6 @@ ms.locfileid: "5035869"
 [وحدة كتلة المحتوى](../add-hero-module.md)
 
 [مجموعة المنتجات](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

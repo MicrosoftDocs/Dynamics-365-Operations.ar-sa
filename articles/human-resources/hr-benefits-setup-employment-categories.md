@@ -36,3 +36,6 @@ ms.locfileid: "5111333"
 3. حدد قيمًا لـ **نوع العامل** و **فئة التوظيف** و **الوصف**.
 
 4. حدد **حفظ**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

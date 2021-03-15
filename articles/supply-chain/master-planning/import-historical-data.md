@@ -61,3 +61,6 @@ ms.locfileid: "5154217"
 
 [إنشاء تنبؤ أساسي إحصائي](generate-statistical-baseline-forecast.md)  
 [نظرة عامة حول مهام استيراد البيانات وتصديرها](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

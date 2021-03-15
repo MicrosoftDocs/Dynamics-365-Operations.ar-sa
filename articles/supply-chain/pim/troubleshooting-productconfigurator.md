@@ -74,3 +74,6 @@ ms.locfileid: "4999596"
 
 - *ResultDecimal* = *إدخال* × *النسبة المئوية* ÷ 100
 - *ResultInteger* = *ResultDecimal*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

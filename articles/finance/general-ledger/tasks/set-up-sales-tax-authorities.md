@@ -40,3 +40,6 @@ ms.locfileid: "4994555"
 10. في حقل "تقريب العلامات العشرية‬"، أدخل رقمًا.
 11. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

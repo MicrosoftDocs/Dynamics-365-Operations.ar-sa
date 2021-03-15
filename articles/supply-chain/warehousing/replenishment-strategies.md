@@ -114,3 +114,6 @@ ms.locfileid: "4996088"
 [![مثال 2](media/ReplenTemp_example_2.png "مثال2")](media/ReplenTemp_example_2_large.png)
 
 التالي ، للحصول علي الحد الأقصى من الكمية للمواقع التي تمت تزويدها، يجب تعيين الخيار **السماح بالتقسيم** إلى *نعم* في موجات المواقع الخاصة بانتقاء التزويد.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

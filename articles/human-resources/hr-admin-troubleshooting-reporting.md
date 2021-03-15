@@ -49,3 +49,6 @@ ms.locfileid: "5111308"
 **حل طويل الأجل**
 
 ستتوفر خيارات Power BI إضافية، وسيصبح المزيد من البيانات والكيانات جزءًا من Dataverse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

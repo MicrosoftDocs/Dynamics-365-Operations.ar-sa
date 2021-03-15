@@ -92,3 +92,6 @@ ms.locfileid: "5010912"
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>مخزون المنتج (Supply Chain Management إلى Field Service): مخزون المنتج
 
 [![تعيين القالب في تكامل البيانات](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

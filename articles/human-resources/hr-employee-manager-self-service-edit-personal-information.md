@@ -72,3 +72,6 @@ ms.locfileid: "5115332"
     - لتحميل صورة، حدد **تحميل صورة جديدة**.
     - لإزالة صورة، حدد الصورة ثم حدد **إزالة**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

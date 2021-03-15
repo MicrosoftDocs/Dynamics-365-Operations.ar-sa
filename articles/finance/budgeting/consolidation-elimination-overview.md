@@ -93,3 +93,6 @@ ms.locfileid: "5120469"
 لمزيد من المعلومات، راجع [إعادة تقييم العملة في شركة موحدة](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

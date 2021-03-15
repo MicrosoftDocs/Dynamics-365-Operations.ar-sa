@@ -44,3 +44,6 @@ ms.locfileid: "5130147"
 2. انقر فوق "تحرير".
 3. في الحقل "الإرجاع الفعلي‬"، أدخل تاريخًا.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

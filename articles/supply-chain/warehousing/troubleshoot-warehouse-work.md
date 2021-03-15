@@ -49,3 +49,6 @@ ms.locfileid: "4970221"
 ### <a name="issue-resolution"></a>حل المشكلة
 
 قامت Microsoft بتقييم هذه المشكلة وقامت بتحديد انها قيد ميزه. تدعم عمليات أداره المستودع حاليا المخزون الذي يملكه الكيان القانوني فقط.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

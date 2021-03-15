@@ -104,3 +104,6 @@ ms.locfileid: "5111326"
 **خيار إضافي**
 
 في Human Resources، قد تتمكن أيضا من استخدام مساحة عمل **الأشخاص** لعرض بعض المعلومات المتعلقة بالتدرج الهرمي.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

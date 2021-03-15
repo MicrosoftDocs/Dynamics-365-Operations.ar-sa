@@ -36,3 +36,6 @@ ms.locfileid: "4977228"
 5. في الحقل "الوضع"، حدد "غير مباشر".
 6. في حقل "كود النشاط"، حدد "دمج لوحات الترخيص".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

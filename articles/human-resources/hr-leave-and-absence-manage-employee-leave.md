@@ -56,3 +56,6 @@ ms.locfileid: "4970646"
 
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
 - [إدارة طلبات الإجازة والغياب](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4978615"
 8. في الحقل "حساب التوحيد"، اكتب قيمة.
 9. في الحقل "اسم حساب التوحيد"، اكتب قيمة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

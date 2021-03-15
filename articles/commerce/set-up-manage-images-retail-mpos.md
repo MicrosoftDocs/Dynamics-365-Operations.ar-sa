@@ -208,3 +208,6 @@ ms.locfileid: "4985751"
 5. اتبع عملية مماثلة للكيانات الأخرى، مثل الفئة والموظف والعميل.
 
     [![الصورة دون الاتصال](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

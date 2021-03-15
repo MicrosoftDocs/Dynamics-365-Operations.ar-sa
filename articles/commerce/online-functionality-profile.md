@@ -66,3 +66,6 @@ ms.locfileid: "4969966"
 [إعداد قناة بيع بالتجزئة](channel-setup-retail.md)
 
 [إعداد قناة مركز اتصال](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

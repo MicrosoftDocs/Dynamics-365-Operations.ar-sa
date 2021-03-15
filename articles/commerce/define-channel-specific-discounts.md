@@ -61,3 +61,6 @@ ms.locfileid: "4991380"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [تعديلات الأسعار والخصومات](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

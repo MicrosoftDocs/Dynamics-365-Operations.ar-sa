@@ -41,3 +41,6 @@ ms.locfileid: "5001289"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [إنشاء مجموعات اتفاقيات الخدمة](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

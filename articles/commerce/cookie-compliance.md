@@ -72,3 +72,6 @@ ms.locfileid: "4993490"
 [الوحدة النمطية للموافقة على ملف تعريف الارتباط](cookie-consent-module.md) 
  
 [الوحدة النمطية للرؤوس](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

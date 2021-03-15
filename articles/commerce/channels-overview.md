@@ -88,3 +88,6 @@ After you create a channel, you may need to complete some of the below tasks:
 [إعداد قناة مركز اتصال](channel-setup-callcenter.md)
 
 [إعداد التدرجات الهرمية للمؤسسات](channels-org-hierarchies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

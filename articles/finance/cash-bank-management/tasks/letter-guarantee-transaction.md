@@ -147,3 +147,6 @@ ms.locfileid: "4976306"
     * تحقق من إدخالات دفتر اليومية المُرحلة.  
 16. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

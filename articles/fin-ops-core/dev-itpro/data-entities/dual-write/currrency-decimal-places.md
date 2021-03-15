@@ -95,3 +95,6 @@ ms.locfileid: "4744365"
 ### <a name="tables-currency-column"></a>الجداول: عمود العملة
 
 يتم تحديد عدد المنازل العشرية التي يمكن تكوينها لأعمدة عملة معينة على أربعة.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

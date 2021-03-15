@@ -38,3 +38,6 @@ ms.locfileid: "4992254"
 8. في الحقل "رقم المنتج"، اكتب قيمة.
 9. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

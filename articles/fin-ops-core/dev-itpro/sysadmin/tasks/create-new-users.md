@@ -81,3 +81,6 @@ ms.locfileid: "4878647"
 لمزيد من الخيارات لتنفيذ مستخدمي B2B، راجع [تصدير مستخدمي b2b إلى Azure AD](../implement-b2b.md).
 
 للحصول علي معلومات حول حسابات النظام المكونة مسبقا، راجع [حسابات النظام المكونة](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

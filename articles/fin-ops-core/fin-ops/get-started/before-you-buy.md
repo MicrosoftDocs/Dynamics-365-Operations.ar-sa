@@ -93,3 +93,6 @@ ms.locfileid: "4798539"
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>إذا كنت تقوم بالترقية من Dynamics AX 2012 أو الترحيل من AX 2009
 
 إذا كنت عميلاً يقوم بالترقية من Microsoft Dynamics AX 2012 أو الترحيل من Microsoft Dynamics AX 2009، فقد تكون مؤهلاً للحصول على فترة تجريبية أطول. تواصل مع <daxcf@microsoft.com> لمزيد من المعلومات.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ ms.locfileid: "5115380"
 - [ما هو الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)
 - [دليل المسؤول](hr-admin-overview.md)
 - [دليل المستخدم](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

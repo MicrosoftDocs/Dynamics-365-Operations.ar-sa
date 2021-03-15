@@ -128,3 +128,6 @@ ms.locfileid: "5152043"
 > إذا كنت ترغب في تلقي تنبيه أو بريد إلكتروني حول تغييرات العناوين هذه، فيمكنك إنشاء قاعدة تنبيه جديدة في علامة التبويب **خيارات** في جزء الإجراءات. لمزيد من المعلومات حول قواعد التنبيه، راجع [إنشاء قواعد تنبيه](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
 > إذا كنت ترغب في تكوين سير عمل لتغييرات العناوين، فيمكنك تحديد الخيار **الإرسال خارجيًا‬‏‫** على قاعدة التنبيه، ثم استخدام Power Automate لتشغيل حدث الأعمال وتكوين سير عمل. لمزيد من المعلومات، راجع [التنبيهات كأحداث أعمال](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

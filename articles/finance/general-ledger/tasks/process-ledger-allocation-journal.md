@@ -43,3 +43,6 @@ ms.locfileid: "4968468"
 9. حدد **ترحيل**.
 10. حدد **ترحيل**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

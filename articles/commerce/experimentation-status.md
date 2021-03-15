@@ -44,3 +44,6 @@ ms.locfileid: "4965092"
 يعرض الرسم التخطيطي أدناه كلا من مجموعات الحالات وكيفيه ارتباطها ببعضها البعض.
 
 [![حالات التجربة](./media/experimentation_statuses.svg)](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

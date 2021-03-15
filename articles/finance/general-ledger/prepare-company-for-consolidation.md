@@ -67,3 +67,6 @@ ms.locfileid: "4990281"
 
 > [!NOTE]
 > قبل تشغيل التوحيد، يجب عليك تجهيز الكيانات القانونية التابعة لعملية التوحيد. لمزيد من المعلومات، راجع [إعداد الكيان القانوني التابع للتوحيد](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

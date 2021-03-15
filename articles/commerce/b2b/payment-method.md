@@ -76,3 +76,6 @@ ms.locfileid: "5035866"
 [تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات B2B](quantity-limits.md)
 
 [تحديثات SDK ومكتبة الوحدات النمطية](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

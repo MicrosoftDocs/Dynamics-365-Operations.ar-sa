@@ -69,3 +69,6 @@ ms.locfileid: "5011587"
 [عمليات إدارة الجودة](quality-management-processes.md)
 
 [فحص جودة البضائع](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

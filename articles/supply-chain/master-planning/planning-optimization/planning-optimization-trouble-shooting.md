@@ -74,3 +74,6 @@ ms.locfileid: "4992485"
 [بدء تحسين التخطيط](get-started.md)
 
 [تحليل ملاءمة تحسين التخطيط](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

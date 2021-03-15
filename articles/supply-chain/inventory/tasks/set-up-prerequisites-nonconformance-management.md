@@ -79,3 +79,6 @@ ms.locfileid: "4961475"
 4. في حقل **الوصف**، اكتب قيمة.
 5. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

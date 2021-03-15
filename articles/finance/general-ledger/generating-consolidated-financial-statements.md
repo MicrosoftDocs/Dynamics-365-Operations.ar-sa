@@ -223,3 +223,6 @@ ms.locfileid: "5044011"
 لمزيد من المعلومات حول الدمج وتحويل العملة‬، راجع الموضوع الأصل لهذا الموضوع، [نظرة عامة على عمليات الدمج المالية وتحويل العملات‬](./financial-consolidations-currency-translation.md).
 
 لمزيد من المعلومات حول كيفية إدخال تفاصيل الدمج عبر الإنترنت، راجع [عمليات الدمج المالية عبر الإنترنت](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

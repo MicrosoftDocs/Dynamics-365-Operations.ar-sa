@@ -88,3 +88,6 @@ ms.locfileid: "4969593"
 
 > [!NOTE]
 > لا يمكن إنشاء دفتر يومية تأجير الأصول يدويًا. ويتم إنشاؤه تلقائيًا عند إنشاء جداول عقد الإيجار.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
