@@ -72,7 +72,9 @@
                   items:
                     - name: المزايا الجديدة أو المتغيرة‬ في صفحة Finance الرئيسية
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.17 (مارس 2021)
+                    - name: Finance 10.0.18 (مايو 2021)
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: Finance 10.0.17 (أبريل 2021)
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (فبراير 2021)
                       href: get-started/whats-new-changed-10-0-16.md
@@ -80,6 +82,8 @@
                       href: get-started/whats-new-changed-10-0-15.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
+                - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
@@ -474,6 +478,8 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: معالجة خطابات التحصيل
               href: accounts-receivable/tasks/process-collection-letters.md
+            - name: مثال عن معالجة خطابات التحصيل
+              href: accounts-receivable/process-collection-letters-example.md
             - name: إعداد وإنشاء معلومات تقادم الحسابات المدينة
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: تقرير تقادم العميل
@@ -486,6 +492,8 @@
               href: accounts-receivable/original-invoice-numbers-credit-notes.md
             - name: ترقيم المستندات والقسائم حسب الترتيب الزمني
               href: accounts-receivable/chrono-numbers.md
+            - name: أرشفة فواتير العملاء المطبوعة ذات أرقام التجزئة
+              href: accounts-receivable/archive-printed-invoices.md
         - name: إعداد الموازنة
           items:
             - name: الصفحة الرئيسية لإعداد الموازنة
@@ -1316,9 +1324,11 @@
                   href: public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
                 - name: إنشاء نوع شهادة مورد في القطاع العام
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
-                - name: استيراد وإنشاء عدة موردين وفواتير لمرة واحدة في القطاع العام
+                - name: استيراد وإنشاء عدة مورّدين وفواتير لمرة واحدة في القطاع العام
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
-                - name: خطة لموردي المرة الواحدة في القطاع العام
+                - name: تقييد تحرير التوزيعات المحاسبية على الفواتير
+                  href: public-sector/restrict-edit-accounting-distributions.md
+                - name: خطة لمورّدين لمرة الواحدة في القطاع العام
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: التحكم في الوصول إلى اتفاقيات الشراء في القطاع العام
                   href: public-sector/tasks/control-access-purchase-agreements-public-sector.md
@@ -1358,11 +1368,11 @@
                   href: public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
                 - name: حجوزات الموازنة العامة
                   href: public-sector/general-budget-reservations.md
-                - name: اعداد قواعد حجز الموازنة العامة وأنواع الحجز
+                - name: إعداد قواعد حجز الموازنة العامة وأنواع الحجز
                   href: public-sector/rules-reservation-types.md
                 - name: الاحتقاظ بحجوزات الموازنة العامة
                   href: public-sector/general-budget-reservation-tasks.md
-                - name: اعداد عمليات حجز الموازنة العامة وإرسالها إلى سير عمل
+                - name: إعداد عمليات حجز الموازنة العامة وإرسالها إلى سير عمل
                   href: public-sector/workflow-general-budget-reservations.md
                 - name: محاسبة المشروع مع حجوزات الموازنة العامة
                   href: public-sector/general-budget-reservations-project-accounting.md
@@ -1384,7 +1394,7 @@
                   href: public-sector/derived-financial-hierarchies-public-sector.md
                 - name: إعداد تدرج هرمي مالي مشتق في القطاع العام
                   href: public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
-                - name: اعداد توزيع الفوائد للحسابات النقدية
+                - name: إعداد توزيع الفوائد للحسابات النقدية
                   href: public-sector/interest-distribution.md
             - name: التدبير والتوريد في القطاع العام
               href: public-sector/procurement-sourcing-public-sector.md
@@ -1424,13 +1434,13 @@
                   items:
                     - name: البدء باستخدام إدارة خدمة الوظيفة الإضافية للفوترة الإلكترونية
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: البدء باستخدام الوظيفة الإضافية للفوترة الإلكترونية
+                    - name: الشروع في العمل باستخدام الوظيفة الإضافية للفوترة الإلكترونية
                       href: localizations/e-invoicing-get-started.md
                     - name: الشروع في العمل باستخدام الوظيفة الإضافية للفوترة الإلكترونية للبرازيل
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: الفواتير الإلكترونية للعملاء في مصر
-                      href: localizations/emea-egy-e-invoices.md
-                    - name: البدء باستخدام الوظيفة الإضافية للفوترة الإلكترونية لإيطاليا
+                    - name: الشروع في العمل باستخدام الوظيفة الإضافية للفوترة الإلكترونية لمصر
+                      href: localizations/e-invoicing-eg-get-started.md
+                    - name: الشروع في العمل باستخدام الوظيفة الإضافية للفوترة الإلكترونية لإيطاليا
                       href: localizations/e-invoicing-ita-get-started.md
                     - name: البدء باستخدام الوظيفة الإضافية للفوترة الإلكترونية للمكسيك
                       href: localizations/e-invoicing-mex-get-started.md
@@ -1580,7 +1590,9 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: إعداد معلمات NF-e لمؤسسة مالية
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                    - name: NT 2019.001-المزايا الضريبية وقواعد الاعفاء لـ NF-e/NFC-e
+                    - name: NT2020.006 – نظام أساسي رقمي وسيط للمبيعات لـ NF-e‬
+                      href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
+                    - name: NT2019.001 - المزايا الضريبية وقواعد الاعفاء لـ NF-e/NFC-e
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
@@ -1784,6 +1796,8 @@
                   href: localizations/emea-egy-reg-numbers.md
                 - name: تكوين تخطيط الفاتورة لمصر
                   href: localizations/emea-egy-invoice-layout.md
+                - name: الفواتير الإلكترونية للعملاء في مصر
+                  href: localizations/emea-egy-e-invoices.md
             - name: إستونيا
               items:
                 - name: نظرة عامة على إستونيا
@@ -1932,7 +1946,7 @@
                       href: localizations/tasks/eur-00018-vat-reconciliation-report.md
                     - name: حركات سجل ضريبة القيمة المضافة لأوروبا الشرقية
                       href: localizations/emea-vat-register-transactions.md
-                    - name: تاريخ نقطه الضريبة (تاريخ سجل ضريبة القيمة المضافة)
+                    - name: تاريخ نقطة الضريبة (تاريخ سجل ضريبة القيمة المضافة)
                       href: localizations/emea-tax-point-date.md
                     - name: إعداد تقارير ضريبة القيمة المضافة
                       href: localizations/emea-vat-reporting.md
@@ -2008,12 +2022,14 @@
                   items:
                     - name: نظرة عامة حول ملف المراجعة الألماني
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: تخصيص تكوين ملف المراجعة
-                      href: localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: إنشاء ملف مراجعة
-                      href: localizations/tasks/german-audit-file.md
                     - name: استيراد تكوين ملف المراجعة
                       href: localizations/tasks/import-german-audit-file-configuration.md
+                    - name: إنشاء ملف مراجعة
+                      href: localizations/tasks/german-audit-file.md
+                    - name: تخصيص تكوين ملف المراجعة
+                      href: localizations/tasks/customize-german-audit-file-configuration.md
+                    - name: إضافة عوامل تصفية إلى تكوين ملف المراجعة
+                      href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: تسويات الإهلاك لعمليات الاستحواذ الإضافية في السنة الثانية
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: الإرسال الإلكتروني لإقرار ضريبة القيمة المضافة (ELSTER)
@@ -2158,7 +2174,7 @@
                           href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
                         - name: تعيين أنواع ضرائب التكوين - الجمارك
                           href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: اعداد جداول المعدل والنسبة المئوية
+                        - name: إعداد جداول المعدل والنسبة المئوية
                           href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
                         - name: إعداد تدرج هرمي لضريبة المبيعات وقواعد المقاصة الضريبية‬
                           href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
@@ -2306,19 +2322,19 @@
                   href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: تقرير القائمة السوداء
                   href: localizations/emea-ita-black-list-report.md
-                - name: تاريخ الاختصاص
+                - name: تاريخ الاختصاص ودفتر اليومية المالي
                   href: localizations/emea-ita-competence-date.md
                 - name: إهلاك الأصول الثابتة
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
                 - name: Modello 770
                   href: localizations/emea-ita-modello770.md
-                - name: التحقق من صحة تاريخ إيصال التعبئة على الفواتير​
+                - name: التحقق من صحة تاريخ إيصال التعبئة على الفواتير
                   href: localizations/emea-ita-packing-slip-date-verification-on-invoice.md
                 - name: ترحيل وطباعة كشف تعبئة مع تفاصيل تسليم النقل
                   href: localizations/emea-ita-packing-slip.md
                 - name: دفاتر ضريبة المبيعات
                   href: localizations/emea-ita-fiscal-books.md
-                - name: إدارة ضريبة القيمة المضافة واعداد تقاريرها حسب تاريخ استحقاق الضريبة (تاريخ سجل ضريبة القيمة المضافة)
+                - name: إدارة ضريبة القيمة المضافة وإعداد تقاريرها حسب تاريخ استحقاق الضريبة (تاريخ سجل ضريبة القيمة المضافة)
                   href: localizations/emea-ita-vat-management.md
                 - name: الدفعة المقسمة للفواتير الصادرة للإدارة العامة
                   href: localizations/emea-ita-split-payment-invoices-issued-public-administration.md
@@ -3249,11 +3265,11 @@
                   href: ../fin-ops-core/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: تطوير الموظفين
                   href: ../fin-ops-core/dev-itpro/analytics/employee-development-PBI.md?toc=/dynamics365/finance/toc.json
-                - name: محتوى إدارة المصروفات في Power BI
+                - name: محتوى Power BI لإدارة المصروفات
                   href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: الأداء المالي
                   href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: المعلومات المالية
+                - name: التحليل المالي
                   href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/finance/toc.json
                 - name: إدارة الأصول الثابتة
                   href: fixed-assets/Fixed-asset-management-workspace.md
@@ -3365,7 +3381,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: إعداد بيانات تعريف خاصة بالتطبيق
                       items:
-                        - name: (التقارير الإلكترونية) اعداد بيانات تعريف التطبيق لاستخدامها في RCS
+                        - name: (التقارير الإلكترونية) إعداد بيانات تعريف التطبيق لاستخدامها في RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
                         - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين التقارير الإلكترونية
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
@@ -3487,23 +3503,29 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/finance/toc.json
                     - name: منطقي
                       items:
-                        - name: الوظائف المنطقية
+                        - name: الدالات المنطقية
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/finance/toc.json
                         - name: And
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/finance/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/finance/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
                         - name: ValueInLarge
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valueinlarge.md?toc=/dynamics365/finance/toc.json
-                    - name: الحسابية
+                    - name: حسابية
                       items:
                         - name: الدالات الحسابية
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/finance/toc.json
@@ -3673,8 +3695,10 @@
                   items:
                     - name: تصميم تكوين ER جديد لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
-                    - name: إعادة استخدام تكوينات ER باستخدام قوالب Excel لإنشاء التقارير بتنسيق Word
+                    - name: إعادة استخدام تكوينات التقارير الإلكترونية (ER) باستخدام قوالب Excel لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: حذف عناصر تحكم محتوى Word في التقارير التي تم إنشاؤها
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
                 - name: تصميم تكوينات لملء قوالب PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: تضمين الصور والأشكال
@@ -3759,9 +3783,11 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: مشاركه التكوينات في GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: إيقاف التكوينات في المستودع العمومي لـ RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: دلائل البدء السريع
               items:
-                - name: ضبط تنسيق التقارير الإلكترونية لإنشاء مستند إلكتروني مخصص
+                - name: ضبط تنسيق التقارير الإلكترونية (ER) لإنشاء مستند إلكتروني مخصص
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
                 - name: تصميم حل جديد للتقارير الإلكترونية لطباعة تقرير مخصص
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
