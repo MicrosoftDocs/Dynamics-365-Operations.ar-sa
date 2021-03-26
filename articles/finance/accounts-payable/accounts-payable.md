@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a0195c6776b5065d98b6b1d4d9795248c6bf4c74
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 882afecdb33e5ad59a793f2f2391cb1ad27f911e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972146"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250688"
 ---
 # <a name="accounts-payable-home-page"></a>الصفحة الرئيسية للحسابات الدائنة
 
@@ -139,7 +139,7 @@ ms.locfileid: "4972146"
 
 #### <a name="videos"></a>ملفات فيديو
 
-راجع مقاطع الفيديو الإرشادية المتوفرة الآن على قناة [Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

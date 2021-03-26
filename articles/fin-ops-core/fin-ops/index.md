@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 413bdd2e7a817185829eb551380caf71d87af9b7
-ms.sourcegitcommit: 36d256bf5a832d2d70014d64044026f732b77831
+ms.openlocfilehash: d9421cbe9eeb44fcd0d0f0c688e84ae2043610ac
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "5073098"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562348"
 ---
 # <a name="finance-and-operations-application-documentation"></a>وثائق تطبيق Finance and Operations
 
@@ -82,7 +81,7 @@ ms.locfileid: "5073098"
 <p><a href="../../finance/public-sector/public-sector-functionality.md">القطاع العام</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">الميزات التنظيمية الإقليمية</a></p>
 
-<h3><a href="hr/hr-landing-page.md">الموارد البشرية</a></h3>
+<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">المزايا</a></p>
 <p><a href="../../human-resources/hr-develop-performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
 <p><a href="../../human-resources/hr-learning-questionnaires.md">الاستبيانات</a></p>
@@ -91,7 +90,7 @@ ms.locfileid: "5073098"
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">إدارة سلسلة التوريد</a></h3>
+<h3><a href="../../supply-chain/index.md">Supply Chain Management</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">إدارة التكلفة</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">إدارة المخزون</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">التخطيط الرئيسي</a></p>

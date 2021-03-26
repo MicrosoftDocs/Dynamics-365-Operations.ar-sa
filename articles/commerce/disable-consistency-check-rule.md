@@ -1,6 +1,6 @@
 ---
-title: تعطيل القواعد في مدقق تناسق حركة البيع بالتجزئة
-description: يصف هذا الموضوع وظيفة تعطيل قواعد مدقق تناسق الحركة في Microsoft Dynamics 365 Commerce.
+title: تعطيل القواعد في مدقق تناسق حركات البيع بالتجزئة
+description: يصف هذا الموضوع وظيفة تعطيل قواعد مدقق تناسق الحركات في Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 10/15/2019
@@ -17,14 +17,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5eb2af7e3090daabccd338d5d0bc6a6ebc4ea663
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: abd97819d44963d22269efc9536f746c3c0b3812
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982681"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230580"
 ---
-# <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>تعطيل القواعد في مدقق تناسق حركة البيع بالتجزئة 
+# <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>تعطيل القواعد في مدقق تناسق حركات البيع بالتجزئة 
 
 [!include [banner](../includes/banner.md)]
 

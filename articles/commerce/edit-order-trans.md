@@ -1,6 +1,6 @@
 ---
-title: تحرير وتدقيق الأوامر عبر الإنترنت ومعاملات أمر العميل غير المتزامنة
-description: يوضح هذا الموضوع كيفيه تحرير وتدقيق الأوامر عبر الإنترنت ومعاملات أمر العميل غير المتزامنة في Microsoft Dynamics 365 Commerce.
+title: تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة
+description: يوضح هذا الموضوع كيفية تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة في Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 11/04/2020
@@ -17,22 +17,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8fa6f7a71bae759e2b8feb3c5778200bb7bdbfe9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0fee5ef7ad61e9581e7b2797bb1bd26b1a48ddbd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010142"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221764"
 ---
-# <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>تحرير وتدقيق الأوامر عبر الإنترنت ومعاملات أمر العميل غير المتزامنة
+# <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفيه تحرير وتدقيق الأوامر عبر الإنترنت ومعاملات أمر العميل غير المتزامنة في Microsoft Dynamics 365 Commerce.
+يوضح هذا الموضوع كيفية تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة في Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>نظرة عامة
 
-بين الإصدارين التجاريين 10.0.5 و10.0.6، تمت إضافة الدعم لتحرير معاملات الدفع نقدًا والاستلام فورًا‬‬‏‫ (مثل المبيعات والمرتجعات) ومعاملات إدارة النقد (مثل إدخال معوم وإزالة العطاء). في Commerce الإصدار 10.0.7، تمت إضافة الدعم لتحرير معاملات الأوامر عبر الإنترنت ومعاملات أوامر العميل غير المتزامنة.
+بين الإصدارين التجاريين 10.0.5 و10.0.6، تمت إضافة الدعم لتحرير حركات الدفع نقدًا والاستلام فورًا‬‬‏‫ (مثل المبيعات والمرتجعات) وحركات إدارة النقد (مثل إدخال معوم وإزالة العطاء). في Commerce الإصدار 10.0.7، تمت إضافة الدعم لتحرير معاملات الأوامر عبر الإنترنت ومعاملات أوامر العميل غير المتزامنة.
 
 ## <a name="edit-and-audit-order-transactions"></a>تحرير معاملات الأمر وتدقيقها
 
@@ -85,7 +85,7 @@ ms.locfileid: "5010142"
 
 [تحرير وتدقيق معاملات الدفع نقدًا والاستلام فورًا وإدارة النقد](edit-cash-trans.md)
 
-[تحرير الأبعاد المالية لمعاملات البيع بالتجزئة](edit-financial-dim.md)
+[تحرير الأبعاد المالية لحركات البيع بالتجزئة](edit-financial-dim.md)
 
 [إنشاء دفتر عمل Excel لتحرير معاملات البيع بالتجزئة](create-excel-edit.md)
 

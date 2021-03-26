@@ -1,6 +1,6 @@
 ---
-title: إضافة حقول إلى دفتر عمل Excel لتحرير حركات البيع بالتجزئة
-description: يوضح هذا الموضوع كيفية إضافة حقول إلى مصنف Microsoft Excel بحيث يمكنك تحرير حركات البيع بالتجزئة في Dynamics 365 Commerce.
+title: إضافة حقول إلى مصنف Excel لتحرير حركات البيع بالتجزئة
+description: يوضح هذا الموضوع كيفية إضافة حقول إلى مصنف Microsoft Excel بحيث يمكنك تحرير حركات البيع بالتجزئة في Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 11/04/2020
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 443e5e9931498799f9a96fc55c6e5d5c9f6750c6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb0435a617585689a87caa76f80e9774182576cc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980397"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206309"
 ---
-# <a name="add-fields-to-an-excel-workbook-to-edit-retail-transactions"></a>إضافة حقول إلى دفتر عمل Excel لتحرير حركات البيع بالتجزئة
+# <a name="add-fields-to-an-excel-workbook-to-edit-retail-transactions"></a>إضافة حقول إلى مصنف Excel لتحرير حركات البيع بالتجزئة
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إضافة حقول إلى مصنف Microsoft Excel بحيث يمكنك تحرير حركات البيع بالتجزئة في Dynamics 365 Commerce.
+يوضح هذا الموضوع كيفية إضافة حقول إلى مصنف Microsoft Excel بحيث يمكنك تحرير حركات البيع بالتجزئة في Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -50,11 +50,11 @@ ms.locfileid: "4980397"
 
 [تحرير وتدقيق حركات الدفع نقدًا والاستلام فورًا وإدارة النقد](edit-cash-trans.md)
 
-[تحرير وتدقيق الأوامر عبر الإنترنت وحركات أمر العميل غير المتزامنة](edit-order-trans.md)
+[تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة](edit-order-trans.md)
 
 [تحرير الأبعاد المالية لحركات البيع بالتجزئة](edit-financial-dim.md)
 
-[إنشاء دفتر عمل Excel لتحرير حركات البيع بالتجزئة](create-excel-edit.md)
+[إنشاء مصنف Excel لتحرير حركات البيع بالتجزئة](create-excel-edit.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

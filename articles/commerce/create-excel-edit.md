@@ -1,5 +1,5 @@
 ---
-title: إنشاء دفتر عمل Excel لتحرير حركات البيع بالتجزئة
+title: إنشاء مصنف Excel لتحرير حركات البيع بالتجزئة
 description: يوضح هذا الموضوع كيفية إنشاء دفتر عمل Excel بحيث يمكنك تحرير حركات البيع بالتجزئة في Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73a3387d1e7251168002ff683b5b58e0c82a620c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3a4bc0a91ee2215dcde2f18575d58ab1ef2f5581
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965368"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207933"
 ---
-# <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>إنشاء دفتر عمل Excel لتحرير حركات البيع بالتجزئة
+# <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>إنشاء مصنف Excel لتحرير حركات البيع بالتجزئة
 
 [!include [banner](../includes/banner.md)]
 
@@ -73,11 +73,11 @@ ms.locfileid: "4965368"
 
 [تحرير وتدقيق حركات الدفع نقدًا والاستلام فورًا وإدارة النقد](edit-cash-trans.md)
 
-[تحرير وتدقيق الأوامر عبر الإنترنت وحركات أمر العميل غير المتزامنة](edit-order-trans.md)
+[تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة](edit-order-trans.md)
 
 [تحرير الأبعاد المالية لحركات البيع بالتجزئة](edit-financial-dim.md)
 
-[إضافة الحقول إلى دفتر عمل Excel لتحرير حركات البيع بالتجزئة](add-fields-excel.md)
+[إضافة حقول إلى مصنف Excel لتحرير حركات البيع بالتجزئة](add-fields-excel.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
