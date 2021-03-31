@@ -15,12 +15,12 @@ ms.search.region: Saudi Arabia
 ms.author: v-oloski
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4b3c955b53c2624006534f61643a9cd26a1a58b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8259b667b8bb1311389df4f07147da7a123da55b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962875"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209963"
 ---
 # <a name="allocate-bank-document-charges-to-a-shipment"></a>تخصيص رسوم المستندات البنكية لشحنة
 
