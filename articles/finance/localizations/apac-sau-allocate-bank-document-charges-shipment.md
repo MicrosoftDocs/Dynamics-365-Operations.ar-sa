@@ -15,63 +15,66 @@ ms.search.region: Saudi Arabia
 ms.author: v-oloski
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4b3c955b53c2624006534f61643a9cd26a1a58b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8259b667b8bb1311389df4f07147da7a123da55b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962875"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209963"
 ---
-# <a name="allocate-bank-document-charges-to-a-shipment"></a><span data-ttu-id="0e926-103">تخصيص رسوم المستندات البنكية لشحنة</span><span class="sxs-lookup"><span data-stu-id="0e926-103">Allocate bank document charges to a shipment</span></span>
+# <a name="allocate-bank-document-charges-to-a-shipment"></a><span data-ttu-id="edeea-103">تخصيص رسوم المستندات البنكية لشحنة</span><span class="sxs-lookup"><span data-stu-id="edeea-103">Allocate bank document charges to a shipment</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0e926-104">يمكنك تخصيص مصاريف مستندات البنك التي يتم ترحيلها في دفتر اليومية العام إلى بنود أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="0e926-104">You can allocate bank document charges that are posted in the general journal to purchase order lines.</span></span> <span data-ttu-id="0e926-105">يجب ان يكون لأمر الشراء خطاب اعتماد أو مجموعه استيراد ذات صله.</span><span class="sxs-lookup"><span data-stu-id="0e926-105">The purchase order should have a related letter of credit or import collection.</span></span>
+<span data-ttu-id="edeea-104">يمكنك تخصيص مصاريف مستندات البنك التي يتم ترحيلها في دفتر اليومية العام إلى بنود أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="edeea-104">You can allocate bank document charges that are posted in the general journal to purchase order lines.</span></span> <span data-ttu-id="edeea-105">يجب ان يكون لأمر الشراء خطاب اعتماد أو مجموعه استيراد ذات صله.</span><span class="sxs-lookup"><span data-stu-id="edeea-105">The purchase order should have a related letter of credit or import collection.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="0e926-106">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="0e926-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="edeea-106">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="edeea-106">Prerequisites</span></span>
 
-<span data-ttu-id="0e926-107">قبل البدء في تخصيص مصاريف مستندات البنك، [قم باعداد تسهيلات البنك وملفات تعريف الترحيل لخطابات الاعتماد](../cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md)، ثم قم بإنشاء أمر شراء يحتوي علي [خطاب اعتماد مستورد](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/tasks/import-letter-credit).</span><span class="sxs-lookup"><span data-stu-id="0e926-107">Before you start to allocate the bank document charges, [set up bank facilities and posting profiles for letters of credit](../cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md), and create a purchase order that has an [imported letter of credit](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/tasks/import-letter-credit).</span></span>
+<span data-ttu-id="edeea-107">قبل البدء في تخصيص مصاريف مستندات البنك، [قم باعداد تسهيلات البنك وملفات تعريف الترحيل لخطابات الاعتماد](../cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md)، ثم قم بإنشاء أمر شراء يحتوي علي [خطاب اعتماد مستورد](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/tasks/import-letter-credit).</span><span class="sxs-lookup"><span data-stu-id="edeea-107">Before you start to allocate the bank document charges, [set up bank facilities and posting profiles for letters of credit](../cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md), and create a purchase order that has an [imported letter of credit](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/tasks/import-letter-credit).</span></span>
 
-## <a name="set-up-a-charge-code-for-bank-document-charges"></a><span data-ttu-id="0e926-108">اعداد كود مصاريف لمصاريف مستندات البنك</span><span class="sxs-lookup"><span data-stu-id="0e926-108">Set up a charge code for bank document charges</span></span>
+## <a name="set-up-a-charge-code-for-bank-document-charges"></a><span data-ttu-id="edeea-108">اعداد كود مصاريف لمصاريف مستندات البنك</span><span class="sxs-lookup"><span data-stu-id="edeea-108">Set up a charge code for bank document charges</span></span>
 
-<span data-ttu-id="0e926-109">اتبع هذه الخطوات لاعداد كود مصاريف لمصاريف مستندات البنك.</span><span class="sxs-lookup"><span data-stu-id="0e926-109">Follow these steps to set up a charge code for bank document charges.</span></span>
+<span data-ttu-id="edeea-109">اتبع هذه الخطوات لاعداد كود مصاريف لمصاريف مستندات البنك.</span><span class="sxs-lookup"><span data-stu-id="edeea-109">Follow these steps to set up a charge code for bank document charges.</span></span>
 
-1. <span data-ttu-id="0e926-110">انتقل إلى **الحسابات الدائنة** \> **إعداد** \> **إعداد المصاريف** \> **كود المصاريف**.</span><span class="sxs-lookup"><span data-stu-id="0e926-110">Go to **Accounts payable** \> **Setup** \> **Charges setup** \> **Charges code**.</span></span>
-2. <span data-ttu-id="0e926-111">في علامة التبويب السريعة **الترحيل**، في قسم **المدين**، في الحقل **النوع**، حدد **صنف**.</span><span class="sxs-lookup"><span data-stu-id="0e926-111">On the **Posting** FastTab, in the **Debit** section, in the **Type** field, select **Item**.</span></span> <span data-ttu-id="0e926-112">يصبح خيار **كود مصاريف مستندات البنك** في قسم **رسوم المستندات البنكية** متاحا.</span><span class="sxs-lookup"><span data-stu-id="0e926-112">The **Bank document charge code** option in the **Bank document charge** section becomes available.</span></span>
-3. <span data-ttu-id="0e926-113">قم بتعيين خيار **كود مصاريف مستندات البنك** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="0e926-113">Set the **Bank document charge code** option to **Yes**.</span></span> <span data-ttu-id="0e926-114">ويتم تلقائيا تعيين حقل **النوع** في قسم **الائتمان** ولا يمكن تحريره.</span><span class="sxs-lookup"><span data-stu-id="0e926-114">The **Type** field in the **Credit** section is automatically set and can't be edited.</span></span>
+1. <span data-ttu-id="edeea-110">انتقل إلى **الحسابات الدائنة** \> **إعداد** \> **إعداد المصاريف** \> **كود المصاريف**.</span><span class="sxs-lookup"><span data-stu-id="edeea-110">Go to **Accounts payable** \> **Setup** \> **Charges setup** \> **Charges code**.</span></span>
+2. <span data-ttu-id="edeea-111">في علامة التبويب السريعة **الترحيل**، في قسم **المدين**، في الحقل **النوع**، حدد **صنف**.</span><span class="sxs-lookup"><span data-stu-id="edeea-111">On the **Posting** FastTab, in the **Debit** section, in the **Type** field, select **Item**.</span></span> <span data-ttu-id="edeea-112">يصبح خيار **كود مصاريف مستندات البنك** في قسم **رسوم المستندات البنكية** متاحا.</span><span class="sxs-lookup"><span data-stu-id="edeea-112">The **Bank document charge code** option in the **Bank document charge** section becomes available.</span></span>
+3. <span data-ttu-id="edeea-113">قم بتعيين خيار **كود مصاريف مستندات البنك** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="edeea-113">Set the **Bank document charge code** option to **Yes**.</span></span> <span data-ttu-id="edeea-114">ويتم تلقائيا تعيين حقل **النوع** في قسم **الائتمان** ولا يمكن تحريره.</span><span class="sxs-lookup"><span data-stu-id="edeea-114">The **Type** field in the **Credit** section is automatically set and can't be edited.</span></span>
 
 ![اعداد كود مصاريف لمصاريف مستندات البنك](media/apac-sau-bank-document-charge-setup.PNG)
 
-## <a name="allocate-bank-document-charges"></a><span data-ttu-id="0e926-116">تخصيص رسوم المستندات البنكية</span><span class="sxs-lookup"><span data-stu-id="0e926-116">Allocate bank document charges</span></span>
+## <a name="allocate-bank-document-charges"></a><span data-ttu-id="edeea-116">تخصيص رسوم المستندات البنكية</span><span class="sxs-lookup"><span data-stu-id="edeea-116">Allocate bank document charges</span></span>
 
-<span data-ttu-id="0e926-117">اتبع الخطوات التالي لتخصيص رسوم المستندات البنكية.</span><span class="sxs-lookup"><span data-stu-id="0e926-117">Follow these steps to allocate bank document charges.</span></span>
+<span data-ttu-id="edeea-117">اتبع الخطوات التالي لتخصيص رسوم المستندات البنكية.</span><span class="sxs-lookup"><span data-stu-id="edeea-117">Follow these steps to allocate bank document charges.</span></span>
 
-1. <span data-ttu-id="0e926-118">قم بإنشاء أمر شراء يتضمن خطاب اعتماد أو مجموعه استيراد.</span><span class="sxs-lookup"><span data-stu-id="0e926-118">Create a purchase order that has a letter of credit or an import collection.</span></span> <span data-ttu-id="0e926-119">لمزيد من المعلومات، راجع [استيراد خطاب اعتماد](../cash-bank-management/tasks/import-letter-credit.md).</span><span class="sxs-lookup"><span data-stu-id="0e926-119">For more information, see [Import letter of credit](../cash-bank-management/tasks/import-letter-credit.md).</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="0e926-120">يجب تاكيد خطاب الاعتماد أو تحصيل الاستيراد قبل ان تتمكن من تخصيص مصاريف مستندات البنك.</span><span class="sxs-lookup"><span data-stu-id="0e926-120">The letter of credit or import collection must be confirmed before you can allocate bank document charges.</span></span>
-
-2. <span data-ttu-id="0e926-121">انتقل إلى **دفتر الأستاذ العام** \> **إدخالات دفتر اليومية** \> **دفاتر اليومية العامة‬**.</span><span class="sxs-lookup"><span data-stu-id="0e926-121">Go to **General ledger** \> **Journal entries** \> **General journals**.</span></span>
-3. <span data-ttu-id="0e926-122">في جزء الإجراءات، حدد **البنود**.</span><span class="sxs-lookup"><span data-stu-id="0e926-122">On the Action Pane, select **Lines**.</span></span>
-4. <span data-ttu-id="0e926-123">ضمن علامة التبويب **المدفوعات**، في القسم **خطاب الاعتماد/تحصيل الاستيراد**، قم بتعيين الحقول كما تحتاج.</span><span class="sxs-lookup"><span data-stu-id="0e926-123">On the **Payment** tab, in the **Letter of credit/import collection** section, set the fields as you require.</span></span>
+1. <span data-ttu-id="edeea-118">قم بإنشاء أمر شراء يتضمن خطاب اعتماد أو مجموعه استيراد.</span><span class="sxs-lookup"><span data-stu-id="edeea-118">Create a purchase order that has a letter of credit or an import collection.</span></span> <span data-ttu-id="edeea-119">لمزيد من المعلومات، راجع [استيراد خطاب اعتماد](../cash-bank-management/tasks/import-letter-credit.md).</span><span class="sxs-lookup"><span data-stu-id="edeea-119">For more information, see [Import letter of credit](../cash-bank-management/tasks/import-letter-credit.md).</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="0e926-124">يتم تعيين حقلي **نوع الحساب المقابل** و **الحساب المقابل** تلقائيا.</span><span class="sxs-lookup"><span data-stu-id="0e926-124">The **Offset account type** and **Offset account** fields are automatically set.</span></span>
+    > <span data-ttu-id="edeea-120">يجب تاكيد خطاب الاعتماد أو تحصيل الاستيراد قبل ان تتمكن من تخصيص مصاريف مستندات البنك.</span><span class="sxs-lookup"><span data-stu-id="edeea-120">The letter of credit or import collection must be confirmed before you can allocate bank document charges.</span></span>
+
+2. <span data-ttu-id="edeea-121">انتقل إلى **دفتر الأستاذ العام** \> **إدخالات دفتر اليومية** \> **دفاتر اليومية العامة‬**.</span><span class="sxs-lookup"><span data-stu-id="edeea-121">Go to **General ledger** \> **Journal entries** \> **General journals**.</span></span>
+3. <span data-ttu-id="edeea-122">في جزء الإجراءات، حدد **البنود**.</span><span class="sxs-lookup"><span data-stu-id="edeea-122">On the Action Pane, select **Lines**.</span></span>
+4. <span data-ttu-id="edeea-123">ضمن علامة التبويب **المدفوعات**، في القسم **خطاب الاعتماد/تحصيل الاستيراد**، قم بتعيين الحقول كما تحتاج.</span><span class="sxs-lookup"><span data-stu-id="edeea-123">On the **Payment** tab, in the **Letter of credit/import collection** section, set the fields as you require.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="edeea-124">يتم تعيين حقلي **نوع الحساب المقابل** و **الحساب المقابل** تلقائيا.</span><span class="sxs-lookup"><span data-stu-id="edeea-124">The **Offset account type** and **Offset account** fields are automatically set.</span></span>
 
     ![إدخال كود تكلفه مستند البنك في بند دفتر اليومية](media/apac-sau-general-journal-voucher.PNG)
 
-5. <span data-ttu-id="0e926-126">في علامة التبويب **قائمه**، قم بتعيين حقلي **الحساب** و **مدين**.</span><span class="sxs-lookup"><span data-stu-id="0e926-126">On the **List** tab, set the **Account** and **Debit** fields.</span></span>
-6. <span data-ttu-id="0e926-127">في الصفحة **خطاب الاعتماد/مجموعه الاستيراد**، في جزء الاجراء ، حدد **مستند البنك** \> **تكلفه مستند البنك**.</span><span class="sxs-lookup"><span data-stu-id="0e926-127">On the **Letter of credit/import collection** page, on the Action Pane, select **Bank document** \> **Bank document charge**.</span></span>
+5. <span data-ttu-id="edeea-126">في علامة التبويب **قائمه**، قم بتعيين حقلي **الحساب** و **مدين**.</span><span class="sxs-lookup"><span data-stu-id="edeea-126">On the **List** tab, set the **Account** and **Debit** fields.</span></span>
+6. <span data-ttu-id="edeea-127">في الصفحة **خطاب الاعتماد/مجموعه الاستيراد**، في جزء الاجراء ، حدد **مستند البنك** \> **تكلفه مستند البنك**.</span><span class="sxs-lookup"><span data-stu-id="edeea-127">On the **Letter of credit/import collection** page, on the Action Pane, select **Bank document** \> **Bank document charge**.</span></span>
 
     ![تخصيص رسوم المستندات البنكية](media/apac-sau-allocate-bank-docment-charge.PNG)
 
-    <span data-ttu-id="0e926-129">تم فتح خطاب الاعتماد أو تحصيل الاستيراد الذي قمت بإنشائه في أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="0e926-129">The letter of credit or import collection that you created in the purchase order is opened.</span></span> <span data-ttu-id="0e926-130">وينبغي ان يعرض رسوم المستندات البنكية التي تم ترحيلها في دفتر اليومية العام لخطاب الاعتماد هذا أو لتحصيل الاستيراد.</span><span class="sxs-lookup"><span data-stu-id="0e926-130">It should show the bank document charge that was posted in the general journal for this letter of credit or import collection.</span></span>
+    <span data-ttu-id="edeea-129">تم فتح خطاب الاعتماد أو تحصيل الاستيراد الذي قمت بإنشائه في أمر الشراء.</span><span class="sxs-lookup"><span data-stu-id="edeea-129">The letter of credit or import collection that you created in the purchase order is opened.</span></span> <span data-ttu-id="edeea-130">وينبغي ان يعرض رسوم المستندات البنكية التي تم ترحيلها في دفتر اليومية العام لخطاب الاعتماد هذا أو لتحصيل الاستيراد.</span><span class="sxs-lookup"><span data-stu-id="edeea-130">It should show the bank document charge that was posted in the general journal for this letter of credit or import collection.</span></span>
 
     ![حركات المستند البنكي الخاص بخطاب الاعتماد/تحصيل الاستيراد](media/apac-sau-lc-bank-document-transactions.PNG)
 
-7. <span data-ttu-id="0e926-132">حدد حركه تكلفه المستند البنكي في وضع **التحرير**، ثم حدد **خطاب الاعتماد/تحصيل الاستيراد** لتخصيص تكلفه مستند البنك المحددة.</span><span class="sxs-lookup"><span data-stu-id="0e926-132">Select the bank document charge transaction in **Edit** mode, and then select **Letter of credit/import collection** to allocate the selected bank document charge.</span></span>
+7. <span data-ttu-id="edeea-132">حدد حركه تكلفه المستند البنكي في وضع **التحرير**، ثم حدد **خطاب الاعتماد/تحصيل الاستيراد** لتخصيص تكلفه مستند البنك المحددة.</span><span class="sxs-lookup"><span data-stu-id="edeea-132">Select the bank document charge transaction in **Edit** mode, and then select **Letter of credit/import collection** to allocate the selected bank document charge.</span></span>
 
     > [!TIP]
-    > <span data-ttu-id="0e926-133">يمكنك التحقق من صحة التوزيع عن طريق تحديد **حركات مصاريف الشحن** في علامة التبويب السريعة **البنود**.</span><span class="sxs-lookup"><span data-stu-id="0e926-133">You can validate the allocation by selecting **Shipment charge transactions** on the **Lines** FastTab.</span></span>
+    > <span data-ttu-id="edeea-133">يمكنك التحقق من صحة التوزيع عن طريق تحديد **حركات مصاريف الشحن** في علامة التبويب السريعة **البنود**.</span><span class="sxs-lookup"><span data-stu-id="edeea-133">You can validate the allocation by selecting **Shipment charge transactions** on the **Lines** FastTab.</span></span>
 
-8. <span data-ttu-id="0e926-134">لتخصيص حركات مصاريف الشحن لبنود أمر الشراء ، في جزء الاجراء ، ضمن علامة التبويب **شراء**، في المجموعة **المصاريف**، حدد **الاحتفاظ بالمصاريف**، ثم حدد **توزيع**</span><span class="sxs-lookup"><span data-stu-id="0e926-134">To allocate shipment charge transactions to the purchase order lines, on the Action Pane, on the **Purchase** tab, in the **Charges** group, select **Maintain charges**, and then select **Allocate**.</span></span> <span data-ttu-id="0e926-135">يجب ان تظهر مصاريف المستندات البنكية التي قمت بتخصيصها لخطابات الاعتماد أو بنود تحصيل الاستيراد في القائمة.</span><span class="sxs-lookup"><span data-stu-id="0e926-135">The bank document charge that you allocated to letter of credit or import collection lines should appear in the list.</span></span>
+8. <span data-ttu-id="edeea-134">لتخصيص حركات مصاريف الشحن لبنود أمر الشراء ، في جزء الاجراء ، ضمن علامة التبويب **شراء**، في المجموعة **المصاريف**، حدد **الاحتفاظ بالمصاريف**، ثم حدد **توزيع**</span><span class="sxs-lookup"><span data-stu-id="edeea-134">To allocate shipment charge transactions to the purchase order lines, on the Action Pane, on the **Purchase** tab, in the **Charges** group, select **Maintain charges**, and then select **Allocate**.</span></span> <span data-ttu-id="edeea-135">يجب ان تظهر مصاريف المستندات البنكية التي قمت بتخصيصها لخطابات الاعتماد أو بنود تحصيل الاستيراد في القائمة.</span><span class="sxs-lookup"><span data-stu-id="edeea-135">The bank document charge that you allocated to letter of credit or import collection lines should appear in the list.</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
