@@ -15,41 +15,44 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 987b9cefef395b3bf3e915f41232fe0daba213b9
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 61ef9ba4eb683fea030f06b3bacf687d7f146de4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021149"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246563"
 ---
-# <a name="vendor-request-configurations"></a><span data-ttu-id="4fb6f-103">تكوينات طلب المورّد</span><span class="sxs-lookup"><span data-stu-id="4fb6f-103">Vendor request configurations</span></span>
+# <a name="vendor-request-configurations"></a><span data-ttu-id="1e931-103">تكوينات طلب المورّد</span><span class="sxs-lookup"><span data-stu-id="1e931-103">Vendor request configurations</span></span>
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4fb6f-104">لإكمال طلب مورد، يجب على جهة اتصال المورد إكمال معالج تسجيل المورد المتوقع.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-104">To complete a vendor request, a vendor contact person must complete the prospective vendor registration wizard.</span></span>
+<span data-ttu-id="1e931-104">لإكمال طلب مورد، يجب على جهة اتصال المورد إكمال معالج تسجيل المورد المتوقع.</span><span class="sxs-lookup"><span data-stu-id="1e931-104">To complete a vendor request, a vendor contact person must complete the prospective vendor registration wizard.</span></span>
 
-<span data-ttu-id="4fb6f-105">في نموذج **‏‫تكوينات طلب المورّد‬**، يمكنك إنشاء ملفات تعريف تحدد الحقول المطلوبة والحقول المرئية في معالج تسجيل المورد المتوقع.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-105">In the **Vendor request configurations** form, you can create profiles that specify required fields and visible fields in the prospective vendor registration wizard.</span></span>
+<span data-ttu-id="1e931-105">في نموذج **‏‫تكوينات طلب المورّد‬**، يمكنك إنشاء ملفات تعريف تحدد الحقول المطلوبة والحقول المرئية في معالج تسجيل المورد المتوقع.</span><span class="sxs-lookup"><span data-stu-id="1e931-105">In the **Vendor request configurations** form, you can create profiles that specify required fields and visible fields in the prospective vendor registration wizard.</span></span>
 
-<span data-ttu-id="4fb6f-106">سيتم بدء تشغيل معالج المورد بطلب مستخدم المورد المتوقع في البلد/المنطقة التي يقوم المورد بمباشرة أعماله فيها.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-106">The vendor registration wizard will start out by asking the prospective vendor user which country/region the vendor is doing business in.</span></span> <span data-ttu-id="4fb6f-107">تحدد هذه المعلومات التكوين القابل للتطبيق.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-107">This information determines the applicable configuration.</span></span> <span data-ttu-id="4fb6f-108">إذا يتم تحديد أي تكوين محدد لبلد/منطقة، فسيتم استخدام تكوين افتراضي.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-108">If no specific configuration is defined for a country/region, a default configuration will be used.</span></span>
+<span data-ttu-id="1e931-106">سيتم بدء تشغيل معالج المورد بطلب مستخدم المورد المتوقع في البلد/المنطقة التي يقوم المورد بمباشرة أعماله فيها.</span><span class="sxs-lookup"><span data-stu-id="1e931-106">The vendor registration wizard will start out by asking the prospective vendor user which country/region the vendor is doing business in.</span></span> <span data-ttu-id="1e931-107">تحدد هذه المعلومات التكوين القابل للتطبيق.</span><span class="sxs-lookup"><span data-stu-id="1e931-107">This information determines the applicable configuration.</span></span> <span data-ttu-id="1e931-108">إذا يتم تحديد أي تكوين محدد لبلد/منطقة، فسيتم استخدام تكوين افتراضي.</span><span class="sxs-lookup"><span data-stu-id="1e931-108">If no specific configuration is defined for a country/region, a default configuration will be used.</span></span>
 
-### <a name="set-up-a-vendor-request-configuration"></a><span data-ttu-id="4fb6f-109">إعداد تكوين طلب المورّد</span><span class="sxs-lookup"><span data-stu-id="4fb6f-109">Set up a vendor request configuration</span></span>
+### <a name="set-up-a-vendor-request-configuration"></a><span data-ttu-id="1e931-109">إعداد تكوين طلب المورّد</span><span class="sxs-lookup"><span data-stu-id="1e931-109">Set up a vendor request configuration</span></span>
 
-<span data-ttu-id="4fb6f-110">بشكل افتراضي، يتوفر تكوين مورد في نموذج تكوينات طلب المورد.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-110">By default, there is a vendor configuration available in the Vendor request configurations form.</span></span>
+<span data-ttu-id="1e931-110">بشكل افتراضي، يتوفر تكوين مورد في نموذج تكوينات طلب المورد.</span><span class="sxs-lookup"><span data-stu-id="1e931-110">By default, there is a vendor configuration available in the Vendor request configurations form.</span></span>
 
-<span data-ttu-id="4fb6f-111">يتعذر تحديد البلد/المناطق للتكوين الافتراضي، وبالتالي لا يمكن تغيير قسم **البلاد/المناطق**.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-111">It is not possible to select country/regions for the default configuration, so the **Countries/regions** section cannot be changed.</span></span>
+<span data-ttu-id="1e931-111">يتعذر تحديد البلد/المناطق للتكوين الافتراضي، وبالتالي لا يمكن تغيير قسم **البلاد/المناطق**.</span><span class="sxs-lookup"><span data-stu-id="1e931-111">It is not possible to select country/regions for the default configuration, so the **Countries/regions** section cannot be changed.</span></span>
 
-1. <span data-ttu-id="4fb6f-112">انقر فوق **‬‏‫التدبير وتحديد الموارد‬‏‫** > **الإعداد** > **الموردون**، ثم انقر فوق **تكوينات طلب المورد**.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
-2. <span data-ttu-id="4fb6f-113">انقر فوق علامة التبويب **الحقول** لتعيين حالة الحقول المسرودة.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
-3. <span data-ttu-id="4fb6f-114">مخفي (غير مرئي)</span><span class="sxs-lookup"><span data-stu-id="4fb6f-114">Hidden (Not visible)</span></span>
-4. <span data-ttu-id="4fb6f-115">معروض (مرئي لكن ليس إلزامياً)</span><span class="sxs-lookup"><span data-stu-id="4fb6f-115">Displayed (Visible but not mandatory)</span></span>
-5. <span data-ttu-id="4fb6f-116">مطلوب (مرئي وإلزامي)</span><span class="sxs-lookup"><span data-stu-id="4fb6f-116">Required (Visible and mandatory)</span></span>
-6. <span data-ttu-id="4fb6f-117">انقر فوق علامة التبويب **المحتوى** لتحديد إذا كان سيتم عرض النص في المعالج، وإذا كان سيقر مستخدم المورد المتوقع بالموافقة على هذا قبل الانتقال إلى الخطوة التالية في المعالج.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="4fb6f-118">ستتم المطالبة بالإقرار بأي بنود وشروط يجب أن يقبلها المستخدم للمتابعة.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
+1. <span data-ttu-id="1e931-112">انقر فوق **‬‏‫التدبير وتحديد الموارد‬‏‫** > **الإعداد** > **الموردون**، ثم انقر فوق **تكوينات طلب المورد**.</span><span class="sxs-lookup"><span data-stu-id="1e931-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
+2. <span data-ttu-id="1e931-113">انقر فوق علامة التبويب **الحقول** لتعيين حالة الحقول المسرودة.</span><span class="sxs-lookup"><span data-stu-id="1e931-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
+3. <span data-ttu-id="1e931-114">مخفي (غير مرئي)</span><span class="sxs-lookup"><span data-stu-id="1e931-114">Hidden (Not visible)</span></span>
+4. <span data-ttu-id="1e931-115">معروض (مرئي لكن ليس إلزامياً)</span><span class="sxs-lookup"><span data-stu-id="1e931-115">Displayed (Visible but not mandatory)</span></span>
+5. <span data-ttu-id="1e931-116">مطلوب (مرئي وإلزامي)</span><span class="sxs-lookup"><span data-stu-id="1e931-116">Required (Visible and mandatory)</span></span>
+6. <span data-ttu-id="1e931-117">انقر فوق علامة التبويب **المحتوى** لتحديد إذا كان سيتم عرض النص في المعالج، وإذا كان سيقر مستخدم المورد المتوقع بالموافقة على هذا قبل الانتقال إلى الخطوة التالية في المعالج.</span><span class="sxs-lookup"><span data-stu-id="1e931-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="1e931-118">ستتم المطالبة بالإقرار بأي بنود وشروط يجب أن يقبلها المستخدم للمتابعة.</span><span class="sxs-lookup"><span data-stu-id="1e931-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
 
-<span data-ttu-id="4fb6f-119">يمكنك أيضا إدخال رسالة تأكيد ستظهر عند الانتهاء من المعالج، ويمكنك إضافة استبيان أو أكثر.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-119">You can also enter a confirmation message that will be displayed when the wizard is finalized, and you can add one or more questionnaires.</span></span>
+<span data-ttu-id="1e931-119">يمكنك أيضا إدخال رسالة تأكيد ستظهر عند الانتهاء من المعالج، ويمكنك إضافة استبيان أو أكثر.</span><span class="sxs-lookup"><span data-stu-id="1e931-119">You can also enter a confirmation message that will be displayed when the wizard is finalized, and you can add one or more questionnaires.</span></span>
 
-### <a name="create-a-vendor-configuration-for-a-specific-countryregion"></a><span data-ttu-id="4fb6f-120">إنشاء تكوين مورد لبلد/منطقة محددة</span><span class="sxs-lookup"><span data-stu-id="4fb6f-120">Create a vendor configuration for a specific country/region</span></span>
-1.  <span data-ttu-id="4fb6f-121">انقر فوق **‬‏‫التدبير وتحديد الموارد‬‏‫** > **الإعداد** > **الموردون**، ثم انقر فوق **تكوينات طلب المورد**.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-121">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
-2.  <span data-ttu-id="4fb6f-122">انقر فوق **جديد** لإنشاء تكوين جديد وقم بتوفير اسمًا للتكوين.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-122">Click **New** to create a new configuration, and provide a name for the configuration.</span></span>
-3.  <span data-ttu-id="4fb6f-123">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-123">Click **Save**.</span></span>
-4.  <span data-ttu-id="4fb6f-124">افتح علامة التبويب **البلاد/المناطق** لتحديد البلد/المنطقة التي ستستخدم في التكوين.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-124">Open the **Country/regions** tab to select the country/region that the configuration should be used for.</span></span>
-5.  <span data-ttu-id="4fb6f-125">أكمل التكوين باتباع الإرشادات الخاصة بالتكوين الافتراضي.</span><span class="sxs-lookup"><span data-stu-id="4fb6f-125">Complete the configuration by following the guidelines for the default configuration.</span></span>
+### <a name="create-a-vendor-configuration-for-a-specific-countryregion"></a><span data-ttu-id="1e931-120">إنشاء تكوين مورد لبلد/منطقة محددة</span><span class="sxs-lookup"><span data-stu-id="1e931-120">Create a vendor configuration for a specific country/region</span></span>
+1.  <span data-ttu-id="1e931-121">انقر فوق **‬‏‫التدبير وتحديد الموارد‬‏‫** > **الإعداد** > **الموردون**، ثم انقر فوق **تكوينات طلب المورد**.</span><span class="sxs-lookup"><span data-stu-id="1e931-121">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
+2.  <span data-ttu-id="1e931-122">انقر فوق **جديد** لإنشاء تكوين جديد وقم بتوفير اسمًا للتكوين.</span><span class="sxs-lookup"><span data-stu-id="1e931-122">Click **New** to create a new configuration, and provide a name for the configuration.</span></span>
+3.  <span data-ttu-id="1e931-123">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="1e931-123">Click **Save**.</span></span>
+4.  <span data-ttu-id="1e931-124">افتح علامة التبويب **البلاد/المناطق** لتحديد البلد/المنطقة التي ستستخدم في التكوين.</span><span class="sxs-lookup"><span data-stu-id="1e931-124">Open the **Country/regions** tab to select the country/region that the configuration should be used for.</span></span>
+5.  <span data-ttu-id="1e931-125">أكمل التكوين باتباع الإرشادات الخاصة بالتكوين الافتراضي.</span><span class="sxs-lookup"><span data-stu-id="1e931-125">Complete the configuration by following the guidelines for the default configuration.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
