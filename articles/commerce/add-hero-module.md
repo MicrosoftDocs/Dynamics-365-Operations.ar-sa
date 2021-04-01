@@ -17,21 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a6359c915d053bb00c969b166325f675c0003ead
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ad95dc943f075e088f5e13b507fa08f11548282f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980347"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206261"
 ---
 # <a name="content-block-module"></a>وحدة كتلة المحتوى
-
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع وحدات كتل المحتوى ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تُستخدم وحدة كتبة المحتوى لتسويق المنتجات أو العروض الترويجية من خلال مجموعة من الصور والنصوص. على سبيل المثال، يمكن لبائع التجزئة إضافة وحدة كتلة محتوى إلى الصفحة الرئيسية لموقع التجارة الإلكترونية للترويج لمنتج جديد وجذب انتباه العملاء.
 

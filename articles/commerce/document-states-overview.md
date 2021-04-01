@@ -16,14 +16,14 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c30932800beda13ac8fe6b0386fe29efe93f79c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 457b1ac7afb8cad57399572acf429d208db917af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982606"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230524"
 ---
-# <a name="document-states-and-lifecycle"></a>حالات المستند ودوره الحياة
+# <a name="document-states-and-lifecycle"></a>حالات المستند ودورة الحياة
 
 [!include [banner](includes/banner.md)]
 

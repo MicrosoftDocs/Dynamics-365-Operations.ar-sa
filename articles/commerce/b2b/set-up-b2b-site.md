@@ -1,6 +1,6 @@
 ---
 title: إعداد موقع تجارة إلكترونية بين الشركات B2B
-description: يوضح هذا الموضوع كيفيه إعداد موقع التجارة الإلكترونية بين الشركات (B2B) في Microsoft Dynamics 365 Commerce.
+description: يوضح هذا الموضوع كيفية إعداد موقع التجارة الإلكترونية بين الشركات (B2B) في Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 01/20/2021
@@ -16,14 +16,14 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ac6f6511f4f96c00e10369329b2111a46f23d1a2
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 6e39310ac2658ceed3f269249fe8b9d0d05dde21
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035869"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212569"
 ---
-# <a name="set-up-a-b2b-e-commerce-site"></a>إعداد موقع تجارة إلكترونية بين الشركات B2B
+# <a name="set-up-a-b2b-e-commerce-site"></a>إعداد موقع التجارة الإلكترونية بين الشركات
 
 [!include [banner](../../includes/banner.md)]
 

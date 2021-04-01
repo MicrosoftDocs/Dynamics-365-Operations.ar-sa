@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6b69e36e77ecc8c4a3ab9cc1a20ae0f5beaface5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d48aab4692dd61080c7887301ee78ee5b986498f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978345"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223940"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>كتالوج التعلم لمسؤولي Dynamics 365 Finance
 
@@ -35,7 +35,7 @@ ms.locfileid: "4978345"
 | [بدء استخدام Dynamics 365 Finance](https://docs.microsoft.com/learn/modules/get-started-financial-management-dyn365-finance/) | يساعد Dynamics 365 Finance مستخدمي الأعمال على التكيّف بسرعة مع بيئات الأعمال المتغيرة. هذا التطبيق يوفر للشركات كل ما تحتاج إليه لمراقبة الشؤون المالية وإدارة الصناديق بمعلومات دقيقة للتخطيط المالي والتنبؤ، ويساعدها في البقاء على اطلاع دائم على أدوات التحليلات. ولأن الماليات تعتبر جوهر أي عمل، فمن الضروري الاطلاع على قدرات Dynamics 365 Finance. | وحدة تعليمية عبر الإنترنت مجانية تتحدد وفقًا لقدرات المستخدم | ساعة |
 | [الدورة MB-900T01-A: القواعد الأساسية لـ Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | وسوف تُعرف هذه الدورة التدريبية المُتعلم على وظيفة Dynamics 365 وقيمة الأعمال. وسوف تغطي هذه الدورة تطبيقات Dynamics 365 وPower Platform ومفاهيم السحابة ونموذج الأمان واعتبارات الترخيص. | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت، تختلف التكلفة حسب المنطقة والشريك. | يوم واحد  |
 | [بدء استخدام إدارة المصروفات في Dynamics 365 Project Operations](https://docs.microsoft.com/learn/modules/get-started-expense-management/) | وتتيح الوحدة النمطية لإدارة المصروفات في Dynamics 365 Project Operations للمؤسسات إمكانية تعقب مصروفات الموظف وإدارتها. تتيح لك إدارة المصروفات إمكانيه تخزين معلومات الدفع واستيراد حركات بطاقات الائتمان وتتبع الأموال التي ينفقها الموظفون عندما يتكبدون مصروفات لمؤسسك. يمكنك أيضًا إعداد سياسات المصروفات والموافقات التلقائية وتوفير عملية أعمال انسيابية باستخدام Project Operations. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 1 ساعة |
-| [القواعد الأسساية لـ Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)  | اثبت فهمك لـ Microsoft Dynamics365؛ Power Platform; مفاهيم السحابة؛ خيارات الترخيص وخيارات النشر والإصدار. | الاختبار، تختلف التكلفة حسب المنطقة | |
+| [القواعد الأسساية لـ Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | اثبت فهمك لـ Microsoft Dynamics365؛ Power Platform; مفاهيم السحابة؛ خيارات الترخيص وخيارات النشر والإصدار. | الاختبار، تختلف التكلفة حسب المنطقة | |
 
 ## <a name="core-platform-knowledge"></a>المعرفة الأساسية للنظام الأساسي<a name="core-platform-knowledge"></a>
 

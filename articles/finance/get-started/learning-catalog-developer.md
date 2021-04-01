@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aa1e991fe6f2a5f900560b7243c2585bd127ec2a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984974"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223868"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>كتالوج التعلّم لمطوري Dynamics 365 Finance
 
@@ -73,7 +73,7 @@ ms.locfileid: "4984974"
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|----------------------------------------------------------|
 | [Finance and Operations: الترقية من 7.x إلى 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | الرجاء الانضمام إلينا في الحديث التقني القادم، والذي سوف نتناول خلاله عملية الترقية من 7.X إلى 8.X. سوف نناقش سيناريوهات متنوعة وخطوات لتنفيذها لترقية الكود وترقية البيانات. وسوف نقوم أيضًا بتناول سيناريوهات طلب القابلية للتوسعة وكيفية رفعهم حيثما كان ذلك ممكنًا. الجزء 1 من 2. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
 | [ترقية AX2012 إلى Dynamics 365 for Operations  (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | وسوف يوفر هذا الحديث التقني نظرة عامة حول كيفية ترقية الكود والبيانات من AX 2012 إلى Dynamics 365 for Operations. | التسجيل المجاني لمؤتمر ويب | 45 دقائق |
-| [أدوات ترحيل AX2009 إلى Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017)  | وسوف تتناول جلسة العمل هذه الأدوات المتاحة لمساعدتك في الترحيل من AX2009 إلى D365 for Operations.  | التسجيل المجاني لمؤتمر ويب | 55 دقيقة |
+| [أدوات ترحيل AX2009 إلى Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | وسوف تتناول جلسة العمل هذه الأدوات المتاحة لمساعدتك في الترحيل من AX2009 إلى D365 for Operations.  | التسجيل المجاني لمؤتمر ويب | 55 دقيقة |
 
 ## <a name="testing"></a>اختبار<a name="testing"></a>
 

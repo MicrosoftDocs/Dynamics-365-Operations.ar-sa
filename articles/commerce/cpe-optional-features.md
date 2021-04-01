@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993440"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213808"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>تكوين ميزات اختيارية في بيئة تقييم Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -102,7 +102,7 @@ ms.locfileid: "4993440"
 
 قد ترغب في تخصيص قوالب البريد الإلكتروني بحيث تستخدم صورًا مختلفة. أو قد ترغب في تحديث الروابط في القوالب بحيث تنتقل إلى بيئة التقييم الخاصة بك. يشرح هذا الإجراء كيفية تنزيل القوالب الافتراضية وتخصيصها وتحديث القوالب في النظام.
 
-1. باستخدام مستعرض ويب، نزِّل [الملف المضغوط لقوالب البريد الإلكتروني الافتراضية لتقييم Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) على الكمبيوتر المحلي لديك. يحتوي هذا الملف علي مستندات HTML التالية:
+1. باستخدام مستعرض ويب، نزِّل [Microsoft Dynamics 365 Commerceالملف المضغوط لقوالب البريد الإلكتروني الافتراضية لتقييم](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) على الكمبيوتر المحلي لديك. يحتوي هذا الملف علي مستندات HTML التالية:
 
     - قالب تأكيد الأمر
     - إصدار قالب بطاقة الهدايا
@@ -145,7 +145,7 @@ ms.locfileid: "4993440"
 | ضريبة المبيعات         | %tax% |
 | إجمالي الأمر       | %total% |
 
-#### <a name="sales-line"></a>بند مبيعات
+#### <a name="sales-line"></a>خط مبيعات
 
 يتم استبدال الرموز المميزة التالية بقيم لكل منتج بالترتيب.
 
@@ -157,9 +157,9 @@ ms.locfileid: "4993440"
 | قائمة المنتجات - بداية   | \<!--%tablebegin.salesline% --\> |
 | قائمة المنتجات - نهاية     | \<!--%tableend.salesline%--\> |
 | اسم المنتج           | %lineproductname% |
-| ‏‏الوصف            | %lineproductdescription% |
+| الوصف            | %lineproductdescription% |
 | الكمية               | %linequantity% |
-| سعر وحدة البند        | %lineprice% (التحقق) |
+| سعر وحدة البند        | %lineprice% (التحقق من) |
 | إجمالي أصناف البند        | %linenetamount% |
 | خصم البند          | %linediscount% |
 | تاريخ الشحن              | %lineshipdate% |

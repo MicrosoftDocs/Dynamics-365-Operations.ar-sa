@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130745"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219977"
 ---
 # <a name="adjust-leases"></a>تسوية عقود الإيجار
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 يوضح الموضوع كيفية تسوية عقد الإيجار. قد تكون التسوية مطلوبة في حالة تعديل فترات الإيجار أو إذا كان عقد الإيجار ممتد أو إذا تغيرت ظروف أخرى. يتوافق تأجير الأصول مع الإرشادات التي يوفرها موضوع صياغة المقاييس المحاسبية 842 (ASC 842) ومعايير Financial Reporting الدولية 16 (IFRS 16) حول تعديلات عقد الإيجار. يحدد ASC 842-20-15-1 تعديل عقد الإيجار كأي تغيير على بنود وشروط العقد التي تسبب تغييرًا في نطاق عقد الإيجار أو الاعتبار الخاص به. تنص فقرة 39 من معايير IFRS 16 أنه يجب أن يعمل عقد الإيجار على إعادة تقييم التزامات الإيجار بحيث تنعكس التغييرات على دفعات الإيجار.
 

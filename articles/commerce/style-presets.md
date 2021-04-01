@@ -1,5 +1,5 @@
 ---
-title: استخدام الإعدادات المسبقة للأنماط
+title: العمل باستخدام نمط الإعدادات المسبقة
 description: يصف هذا الموضوع كيفية استخدام الإعدادات المسبقة لأنماط الموقع في منشئ الموقع في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1bd8f6e31afa300c5e7687a657ae2807995af8d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 55d333c3ae94b17dabaef3c697c698f068a06543
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006300"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226581"
 ---
-# <a name="work-with-style-presets"></a>استخدام الإعدادات المسبقة للأنماط
+# <a name="work-with-style-presets"></a>العمل باستخدام نمط الإعدادات المسبقة
 
 [!include [banner](includes/banner.md)]
 

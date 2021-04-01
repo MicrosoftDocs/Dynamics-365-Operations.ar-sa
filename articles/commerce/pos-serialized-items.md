@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee79fef3300ebea476ea37adc4cc61a9bbadb5d6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231238"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>العمل مع الأصناف المتسلسلة في نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
-يقوم العديد من بائعي التجزئة ببيع المنتجات التي تتطلب التحكم في الرقم التسلسلي. يُشار إلى هذه الأصناف باسم *الأصناف المتسلسلة*. قد يرغب بعض بائعي التجزئة في الحفاظ على الأرقام التسلسلية في مخزون المتجر أو المستودع لأغراض التعقب. وقد يرغب البائعون الآخرون في التقاط الأرقام التسلسلية أثناء عملية المبيعات، لأغراض الخدمة والضمان. يوضح هذا الموضوع كيفيه إدارتك للأصناف المتسلسلة في تطبيق نقطه البيع (POS) بـ Microsoft Dynamics 365 Commerce.
+يقوم العديد من بائعي التجزئة ببيع المنتجات التي تتطلب التحكم في الرقم التسلسلي. يُشار إلى هذه الأصناف باسم *الأصناف المتسلسلة*. قد يرغب بعض بائعي التجزئة في الحفاظ على الأرقام التسلسلية في مخزون المتجر أو المستودع لأغراض التعقب. وقد يرغب البائعون الآخرون في التقاط الأرقام التسلسلية أثناء عملية المبيعات، لأغراض الخدمة والضمان. يوضح هذا الموضوع كيفية إدارتك للأصناف المتسلسلة في تطبيق نقطة البيع (POS) في Microsoft Dynamics 365 Commerce.
 
 ## <a name="serial-number-configurations"></a>تكوينات الأرقام التسلسلية
 
