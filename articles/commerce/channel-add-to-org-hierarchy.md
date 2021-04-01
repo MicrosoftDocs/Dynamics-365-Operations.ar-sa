@@ -16,68 +16,71 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 297bd34f9bde23d5cc7de266b8e8f49b1a752662
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4212797d2959c4f8b0d60e6b45de76ffc3ee0dc2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993671"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216730"
 ---
-# <a name="add-a-channel-to-an-organizational-hierarchy"></a><span data-ttu-id="6d59b-103">إضافة قناة إلى التدرج الهرمي للمؤسسة</span><span class="sxs-lookup"><span data-stu-id="6d59b-103">Add a channel to an organizational hierarchy</span></span>
+# <a name="add-a-channel-to-an-organizational-hierarchy"></a><span data-ttu-id="5f072-103">إضافة قناة إلى التدرج الهرمي للمؤسسة</span><span class="sxs-lookup"><span data-stu-id="5f072-103">Add a channel to an organizational hierarchy</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="6d59b-104">يصف هذا الموضوع كيفية إضافة قناة إلى التدرج الهرمي لمؤسسة في Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="6d59b-104">This topic describes how to add a channel to an organizational hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="5f072-104">يصف هذا الموضوع كيفية إضافة قناة إلى التدرج الهرمي لمؤسسة في Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="5f072-104">This topic describes how to add a channel to an organizational hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="6d59b-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="6d59b-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="5f072-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="5f072-105">Overview</span></span>
 
-<span data-ttu-id="6d59b-106">يجب أن تقترن القنوات بتدرج هرمي أو أكثر للمؤسسة.</span><span class="sxs-lookup"><span data-stu-id="6d59b-106">Channels need to be associated with one or more organizational hierarchies.</span></span> <span data-ttu-id="6d59b-107">قبل إنشاء القنوات، يجب أن تؤكد إعداد التدرجات الهرمية لمؤسستك.</span><span class="sxs-lookup"><span data-stu-id="6d59b-107">Before creating channels, you need to confirm that your organizational hierarchies have been set up.</span></span>  
+<span data-ttu-id="5f072-106">يجب أن تقترن القنوات بتدرج هرمي أو أكثر للمؤسسة.</span><span class="sxs-lookup"><span data-stu-id="5f072-106">Channels need to be associated with one or more organizational hierarchies.</span></span> <span data-ttu-id="5f072-107">قبل إنشاء القنوات، يجب أن تؤكد إعداد التدرجات الهرمية لمؤسستك.</span><span class="sxs-lookup"><span data-stu-id="5f072-107">Before creating channels, you need to confirm that your organizational hierarchies have been set up.</span></span>  
 
-<span data-ttu-id="6d59b-108">راجع [التدرجات الهرمية للمؤسسات](channels-org-hierarchies.md) لمزيد من التفاصيل حول كيفيه إنشاء التدرجات الهرمية للمؤسسات.</span><span class="sxs-lookup"><span data-stu-id="6d59b-108">See [Organizational hierarchies](channels-org-hierarchies.md) for more details on how to create organizational hierarchies.</span></span>
+<span data-ttu-id="5f072-108">راجع [التدرجات الهرمية للمؤسسات](channels-org-hierarchies.md) لمزيد من التفاصيل حول كيفيه إنشاء التدرجات الهرمية للمؤسسات.</span><span class="sxs-lookup"><span data-stu-id="5f072-108">See [Organizational hierarchies](channels-org-hierarchies.md) for more details on how to create organizational hierarchies.</span></span>
 
-## <a name="select-a-hierarchy"></a><span data-ttu-id="6d59b-109">تحديد تدرج هرمي</span><span class="sxs-lookup"><span data-stu-id="6d59b-109">Select a hierarchy</span></span>
+## <a name="select-a-hierarchy"></a><span data-ttu-id="5f072-109">تحديد تدرج هرمي</span><span class="sxs-lookup"><span data-stu-id="5f072-109">Select a hierarchy</span></span>
 
-<span data-ttu-id="6d59b-110">لتحديد تدرج هرمي، اتبع هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="6d59b-110">To select a hierarchy, follow these steps.</span></span>
+<span data-ttu-id="5f072-110">لتحديد تدرج هرمي، اتبع هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="5f072-110">To select a hierarchy, follow these steps.</span></span>
 
-1. <span data-ttu-id="6d59b-111">في جزء التنقل، انتقل إلى **الوحدات النمطية \> البيع بالتجزئة والتجارة \> إعداد القناة \> التدرجات الهرمية للمؤسسات**.</span><span class="sxs-lookup"><span data-stu-id="6d59b-111">In the navigation pane, go to **Modules \> Retail and commerce \> Channel Setup \> Organization hierarchies**.</span></span>
-1. <span data-ttu-id="6d59b-112">من القائمة، حدد التدرج الهرمي للمؤسسات الذي ستضيف القناة إليه.</span><span class="sxs-lookup"><span data-stu-id="6d59b-112">From the list, select the organization hierarchy that you'll be adding the channel to.</span></span>
-1. <span data-ttu-id="6d59b-113">في جزء الاجراءات، حدد **عرض** لعرض تفاصيل التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="6d59b-113">On the action pane, select **View** to view hierarchy details.</span></span>
+1. <span data-ttu-id="5f072-111">في جزء التنقل، انتقل إلى **الوحدات النمطية \> البيع بالتجزئة والتجارة \> إعداد القناة \> التدرجات الهرمية للمؤسسات**.</span><span class="sxs-lookup"><span data-stu-id="5f072-111">In the navigation pane, go to **Modules \> Retail and commerce \> Channel Setup \> Organization hierarchies**.</span></span>
+1. <span data-ttu-id="5f072-112">من القائمة، حدد التدرج الهرمي للمؤسسات الذي ستضيف القناة إليه.</span><span class="sxs-lookup"><span data-stu-id="5f072-112">From the list, select the organization hierarchy that you'll be adding the channel to.</span></span>
+1. <span data-ttu-id="5f072-113">في جزء الاجراءات، حدد **عرض** لعرض تفاصيل التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="5f072-113">On the action pane, select **View** to view hierarchy details.</span></span>
 
-<span data-ttu-id="6d59b-114">تظهر الصورة التالية تفاصيل التدرج الهرمي للمؤسسات للتدرج الهرمي المحدد.</span><span class="sxs-lookup"><span data-stu-id="6d59b-114">The following image shows organizational hierarchy details for the selected hierarchy.</span></span>
+<span data-ttu-id="5f072-114">تظهر الصورة التالية تفاصيل التدرج الهرمي للمؤسسات للتدرج الهرمي المحدد.</span><span class="sxs-lookup"><span data-stu-id="5f072-114">The following image shows organizational hierarchy details for the selected hierarchy.</span></span>
 
 ![تفاصيل التدرج الهرمي للمؤسسات للتدرج الهرمي المحدد](media/channel-add-to-org-hierarchy-1.png)
 
-## <a name="add-a-channel-to-a-hierachy-node"></a><span data-ttu-id="6d59b-116">إضافة قناه إلى عقدة التدرج الهرمي</span><span class="sxs-lookup"><span data-stu-id="6d59b-116">Add a channel to a hierachy node</span></span>
+## <a name="add-a-channel-to-a-hierachy-node"></a><span data-ttu-id="5f072-116">إضافة قناه إلى عقدة التدرج الهرمي</span><span class="sxs-lookup"><span data-stu-id="5f072-116">Add a channel to a hierachy node</span></span>
 
-<span data-ttu-id="6d59b-117">لإضافة قناه إلى عقدة التدرج الهرمي، اتبع هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="6d59b-117">To add a channel to a hierachy node, follow these steps.</span></span>
+<span data-ttu-id="5f072-117">لإضافة قناه إلى عقدة التدرج الهرمي، اتبع هذه الخطوات.</span><span class="sxs-lookup"><span data-stu-id="5f072-117">To add a channel to a hierachy node, follow these steps.</span></span>
 
-1. <span data-ttu-id="6d59b-118">في جزء الإجراءات، حدد **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="6d59b-118">On the action pane, select **Edit**.</span></span>
-1. <span data-ttu-id="6d59b-119">حدد عقدة التدرج الهرمي التي ترغب في إضافة القناة اليها، ثم حدد **قناة البيع بالتجزئة** من القائمة المنسدلة **ادراج قناة**.</span><span class="sxs-lookup"><span data-stu-id="6d59b-119">Select the hierachy node you want the channel added to, then from the **Insert** drop-down list, select **Retail Channel**.</span></span> 
-1. <span data-ttu-id="6d59b-120">حدد القناة التي تريد اضافتها، ثم حدد الزر **موافق**.</span><span class="sxs-lookup"><span data-stu-id="6d59b-120">Select the channel to add, then select the **OK** button.</span></span>
-1. <span data-ttu-id="6d59b-121">في جزء الإجراءات، حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="6d59b-121">On the action pane, select **Save**.</span></span>
-1. <span data-ttu-id="6d59b-122">في جزء الإجراءات، حدد **نشر** وأدخل **تاريخ سريان** في الماضي كي يدخل هذا الاجراء حيز التنفيذ على الفور.</span><span class="sxs-lookup"><span data-stu-id="6d59b-122">On the action pane, select **Publish** and provide an **Effective date** in the past to have this action go into effect immediately.</span></span>
+1. <span data-ttu-id="5f072-118">في جزء الإجراءات، حدد **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="5f072-118">On the action pane, select **Edit**.</span></span>
+1. <span data-ttu-id="5f072-119">حدد عقدة التدرج الهرمي التي ترغب في إضافة القناة اليها، ثم حدد **قناة البيع بالتجزئة** من القائمة المنسدلة **ادراج قناة**.</span><span class="sxs-lookup"><span data-stu-id="5f072-119">Select the hierachy node you want the channel added to, then from the **Insert** drop-down list, select **Retail Channel**.</span></span> 
+1. <span data-ttu-id="5f072-120">حدد القناة التي تريد اضافتها، ثم حدد الزر **موافق**.</span><span class="sxs-lookup"><span data-stu-id="5f072-120">Select the channel to add, then select the **OK** button.</span></span>
+1. <span data-ttu-id="5f072-121">في جزء الإجراءات، حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="5f072-121">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="5f072-122">في جزء الإجراءات، حدد **نشر** وأدخل **تاريخ سريان** في الماضي كي يدخل هذا الاجراء حيز التنفيذ على الفور.</span><span class="sxs-lookup"><span data-stu-id="5f072-122">On the action pane, select **Publish** and provide an **Effective date** in the past to have this action go into effect immediately.</span></span>
 
-<span data-ttu-id="6d59b-123">تظهر الصورة التالية كيفية تحديد قناة لإضافتها إلى عقدة التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="6d59b-123">The following image shows how to select a channel to add to a hierarchy node.</span></span>
+<span data-ttu-id="5f072-123">تظهر الصورة التالية كيفية تحديد قناة لإضافتها إلى عقدة التدرج الهرمي.</span><span class="sxs-lookup"><span data-stu-id="5f072-123">The following image shows how to select a channel to add to a hierarchy node.</span></span>
 
 ![تحديد قناة لإضافتها إلى عقدة التدرج الهرمي](media/channel-add-to-org-hierarchy-2.png)
 
-<span data-ttu-id="6d59b-125">تظهر الصورة التالية تدرجًا هرميًا أضيفت إليه قنوات متنوعة.</span><span class="sxs-lookup"><span data-stu-id="6d59b-125">The following image shows a hierarchy with various channels added.</span></span>
+<span data-ttu-id="5f072-125">تظهر الصورة التالية تدرجًا هرميًا أضيفت إليه قنوات متنوعة.</span><span class="sxs-lookup"><span data-stu-id="5f072-125">The following image shows a hierarchy with various channels added.</span></span>
 
 ![تدرج هرمي أضيفت إليه قنوات متعددة](media/channel-add-to-org-hierarchy-3.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="6d59b-127">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="6d59b-127">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5f072-127">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="5f072-127">Additional resources</span></span>
 
-[<span data-ttu-id="6d59b-128">نظرة عامة على القنوات</span><span class="sxs-lookup"><span data-stu-id="6d59b-128">Channels overview</span></span>](channels-overview.md)
+[<span data-ttu-id="5f072-128">نظرة عامة على القنوات</span><span class="sxs-lookup"><span data-stu-id="5f072-128">Channels overview</span></span>](channels-overview.md)
 
-[<span data-ttu-id="6d59b-129">المتطلبات الأساسية‬ لإعداد قناة</span><span class="sxs-lookup"><span data-stu-id="6d59b-129">Channel setup prerequisites</span></span>](channels-prerequisites.md)
+[<span data-ttu-id="5f072-129">المتطلبات الأساسية‬ لإعداد قناة</span><span class="sxs-lookup"><span data-stu-id="5f072-129">Channel setup prerequisites</span></span>](channels-prerequisites.md)
 
-[<span data-ttu-id="6d59b-130">نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات</span><span class="sxs-lookup"><span data-stu-id="6d59b-130">Organizations and organizational hierarchies overview</span></span>](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[<span data-ttu-id="5f072-130">نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات</span><span class="sxs-lookup"><span data-stu-id="5f072-130">Organizations and organizational hierarchies overview</span></span>](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
-[<span data-ttu-id="6d59b-131">تخطيط التدرج الهرمي للمؤسسات</span><span class="sxs-lookup"><span data-stu-id="6d59b-131">Plan your organizational hierarchy</span></span>](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
+[<span data-ttu-id="5f072-131">تخطيط التدرج الهرمي للمؤسسات</span><span class="sxs-lookup"><span data-stu-id="5f072-131">Plan your organizational hierarchy</span></span>](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 
-[<span data-ttu-id="6d59b-132">التدرجات الهرمية للمؤسسات</span><span class="sxs-lookup"><span data-stu-id="6d59b-132">Organization hierarchies</span></span>](channels-org-hierarchies.md)
+[<span data-ttu-id="5f072-132">التدرجات الهرمية للمؤسسات</span><span class="sxs-lookup"><span data-stu-id="5f072-132">Organization hierarchies</span></span>](channels-org-hierarchies.md)
 
-[<span data-ttu-id="6d59b-133">إعداد قناة بيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="6d59b-133">Set up a retail channel</span></span>](channel-setup-retail.md)
+[<span data-ttu-id="5f072-133">إعداد قناة بيع بالتجزئة</span><span class="sxs-lookup"><span data-stu-id="5f072-133">Set up a retail channel</span></span>](channel-setup-retail.md)
     
-[<span data-ttu-id="6d59b-134">إعداد قناة عبر الإنترنت</span><span class="sxs-lookup"><span data-stu-id="6d59b-134">Set up an online channel</span></span>](channel-setup-online.md)
+[<span data-ttu-id="5f072-134">إعداد قناة عبر الإنترنت</span><span class="sxs-lookup"><span data-stu-id="5f072-134">Set up an online channel</span></span>](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

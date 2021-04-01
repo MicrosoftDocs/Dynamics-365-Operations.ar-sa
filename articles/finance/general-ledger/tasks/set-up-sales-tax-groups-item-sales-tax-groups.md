@@ -15,37 +15,40 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e35f98de715af95b0bec2b2ca5d7e7570aa8fdba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e97766be1207fb66b38f25b1e423fb21cec9e726
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994479"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222157"
 ---
-# <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="0f349-103">إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف</span><span class="sxs-lookup"><span data-stu-id="0f349-103">Set up sales tax groups and item sales tax groups</span></span>
+# <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="babfd-103">إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف</span><span class="sxs-lookup"><span data-stu-id="babfd-103">Set up sales tax groups and item sales tax groups</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="0f349-104">ينقلك تسجيل المهام هذا عبر إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف.‬</span><span class="sxs-lookup"><span data-stu-id="0f349-104">This task recording walks you through the setup of Sales tax and Item sales tax groups.</span></span> <span data-ttu-id="0f349-105">إن مجموعات ضريبة المبيعات هي مجموعات أكواد ضريبة المبيعات المرتبطة بالعملاء والموردين.</span><span class="sxs-lookup"><span data-stu-id="0f349-105">Sales tax groups are groups of sales tax codes that are attached to customers and vendors.</span></span> <span data-ttu-id="0f349-106">وهي مرتبطة أيضًا بحسابات دفتر الأستاذ للحركات التي لم يتم ترحيلها لعميل أو مورّد بعينه.</span><span class="sxs-lookup"><span data-stu-id="0f349-106">They are also attached to ledger accounts for transactions that are not posted to a particular vendor or customer.</span></span>  <span data-ttu-id="0f349-107">أما مجموعات ضريبة مبيعات الصنف فهي مجموعات أكواد ضريبة المبيعات المرتبطة بموارد كالمنتجات مثلاً.</span><span class="sxs-lookup"><span data-stu-id="0f349-107">Item sales tax groups are groups of sales tax codes that are attached to resources like products.</span></span>  <span data-ttu-id="0f349-108">يتم تحديد ضرائب المبيعات التي تطبق على حركة معينة عن طريق أكواد ضريبة المبيعات المضمنة في كل من مجموعة ضريبة المبيعات وفي مجموعة ضريبة مبيعات الصنف للحركة.</span><span class="sxs-lookup"><span data-stu-id="0f349-108">The sales taxes that apply to a particular transaction are determined by the sales tax codes that are included both in the sales tax group and in the item sales tax group of the transaction.</span></span>  <span data-ttu-id="0f349-109">يمكن حساب ضريبة المبيعات فقط في حال تحديد مجموعة ضريبة مبيعات ومجموعة ضريبة مبيعات الصنف لكل حركة يجب أن يتم حساب أو تسجيل ضريبة المبيعات لها.</span><span class="sxs-lookup"><span data-stu-id="0f349-109">Sales tax can be calculated only if a sales tax group and an item sales tax group are selected for each transaction for which sales tax must be calculated or recorded.</span></span>  
+<span data-ttu-id="babfd-104">ينقلك تسجيل المهام هذا عبر إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف.‬</span><span class="sxs-lookup"><span data-stu-id="babfd-104">This task recording walks you through the setup of Sales tax and Item sales tax groups.</span></span> <span data-ttu-id="babfd-105">إن مجموعات ضريبة المبيعات هي مجموعات أكواد ضريبة المبيعات المرتبطة بالعملاء والموردين.</span><span class="sxs-lookup"><span data-stu-id="babfd-105">Sales tax groups are groups of sales tax codes that are attached to customers and vendors.</span></span> <span data-ttu-id="babfd-106">وهي مرتبطة أيضًا بحسابات دفتر الأستاذ للحركات التي لم يتم ترحيلها لعميل أو مورّد بعينه.</span><span class="sxs-lookup"><span data-stu-id="babfd-106">They are also attached to ledger accounts for transactions that are not posted to a particular vendor or customer.</span></span>  <span data-ttu-id="babfd-107">أما مجموعات ضريبة مبيعات الصنف فهي مجموعات أكواد ضريبة المبيعات المرتبطة بموارد كالمنتجات مثلاً.</span><span class="sxs-lookup"><span data-stu-id="babfd-107">Item sales tax groups are groups of sales tax codes that are attached to resources like products.</span></span>  <span data-ttu-id="babfd-108">يتم تحديد ضرائب المبيعات التي تطبق على حركة معينة عن طريق أكواد ضريبة المبيعات المضمنة في كل من مجموعة ضريبة المبيعات وفي مجموعة ضريبة مبيعات الصنف للحركة.</span><span class="sxs-lookup"><span data-stu-id="babfd-108">The sales taxes that apply to a particular transaction are determined by the sales tax codes that are included both in the sales tax group and in the item sales tax group of the transaction.</span></span>  <span data-ttu-id="babfd-109">يمكن حساب ضريبة المبيعات فقط في حال تحديد مجموعة ضريبة مبيعات ومجموعة ضريبة مبيعات الصنف لكل حركة يجب أن يتم حساب أو تسجيل ضريبة المبيعات لها.</span><span class="sxs-lookup"><span data-stu-id="babfd-109">Sales tax can be calculated only if a sales tax group and an item sales tax group are selected for each transaction for which sales tax must be calculated or recorded.</span></span>  
 
-1. <span data-ttu-id="0f349-110">انتقل إلى **جزء التنقل > الوحدات النمطية > الضريبة > ضرائب غير مباشرة > ضريبة المبيعات > مجموعات ضريبة المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="0f349-110">Go to **Navigation pane > Modules > Tax > Indirect taxes > Sales tax > Sales tax groups**.</span></span>
-2. <span data-ttu-id="0f349-111">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="0f349-111">Click **New**.</span></span>
-3. <span data-ttu-id="0f349-112">في الحقل **مجموعة ضريبة المبيعات**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="0f349-112">In the **Sales tax group** field, type a value.</span></span>
-4. <span data-ttu-id="0f349-113">في حقل **الوصف**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="0f349-113">In the **Description** field, type a value.</span></span>
-5. <span data-ttu-id="0f349-114">بدّل توسيع قسم **الإعداد**.</span><span class="sxs-lookup"><span data-stu-id="0f349-114">Toggle the expansion of the **Setup** section.</span></span>
-6. <span data-ttu-id="0f349-115">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="0f349-115">Click **Add**.</span></span>
-7. <span data-ttu-id="0f349-116">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="0f349-116">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="0f349-117">في الحقل **كود ضريبة المبيعات**، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="0f349-117">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="0f349-118">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="0f349-118">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="0f349-119">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="0f349-119">Click **Save**.</span></span>
-11. <span data-ttu-id="0f349-120">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="0f349-120">Close the page.</span></span>
-12. <span data-ttu-id="0f349-121">انتقل إلى **الضريبة‬ > ضرائب غير مباشرة‬ > ضريبة المبيعات > مجموعات ضرائب مبيعات الأصناف**.</span><span class="sxs-lookup"><span data-stu-id="0f349-121">Go to **Tax > Indirect taxes > Sales tax > Item sales tax groups**.</span></span>
-13. <span data-ttu-id="0f349-122">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="0f349-122">Click **New**.</span></span>
-14. <span data-ttu-id="0f349-123">في الحقل **مجموعة ضرائب المبيعات للأصناف**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="0f349-123">In the **Item sales tax group** field, type a value.</span></span>
-15. <span data-ttu-id="0f349-124">في حقل **الوصف**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="0f349-124">In the **Description** field, type a value.</span></span>
-16. <span data-ttu-id="0f349-125">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="0f349-125">Click **Add**.</span></span>
-17. <span data-ttu-id="0f349-126">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="0f349-126">In the list, mark the selected row.</span></span>
-18. <span data-ttu-id="0f349-127">في الحقل **كود ضريبة المبيعات**، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="0f349-127">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="0f349-128">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="0f349-128">In the list, click the link in the selected row.</span></span>
-20. <span data-ttu-id="0f349-129">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="0f349-129">Click **Save**.</span></span>
+1. <span data-ttu-id="babfd-110">انتقل إلى **جزء التنقل > الوحدات النمطية > الضريبة > ضرائب غير مباشرة > ضريبة المبيعات > مجموعات ضريبة المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="babfd-110">Go to **Navigation pane > Modules > Tax > Indirect taxes > Sales tax > Sales tax groups**.</span></span>
+2. <span data-ttu-id="babfd-111">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="babfd-111">Click **New**.</span></span>
+3. <span data-ttu-id="babfd-112">في الحقل **مجموعة ضريبة المبيعات**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="babfd-112">In the **Sales tax group** field, type a value.</span></span>
+4. <span data-ttu-id="babfd-113">في حقل **الوصف**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="babfd-113">In the **Description** field, type a value.</span></span>
+5. <span data-ttu-id="babfd-114">بدّل توسيع قسم **الإعداد**.</span><span class="sxs-lookup"><span data-stu-id="babfd-114">Toggle the expansion of the **Setup** section.</span></span>
+6. <span data-ttu-id="babfd-115">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="babfd-115">Click **Add**.</span></span>
+7. <span data-ttu-id="babfd-116">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="babfd-116">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="babfd-117">في الحقل **كود ضريبة المبيعات**، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="babfd-117">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="babfd-118">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="babfd-118">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="babfd-119">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="babfd-119">Click **Save**.</span></span>
+11. <span data-ttu-id="babfd-120">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="babfd-120">Close the page.</span></span>
+12. <span data-ttu-id="babfd-121">انتقل إلى **الضريبة‬ > ضرائب غير مباشرة‬ > ضريبة المبيعات > مجموعات ضرائب مبيعات الأصناف**.</span><span class="sxs-lookup"><span data-stu-id="babfd-121">Go to **Tax > Indirect taxes > Sales tax > Item sales tax groups**.</span></span>
+13. <span data-ttu-id="babfd-122">انقر فوق **جديد**.</span><span class="sxs-lookup"><span data-stu-id="babfd-122">Click **New**.</span></span>
+14. <span data-ttu-id="babfd-123">في الحقل **مجموعة ضرائب المبيعات للأصناف**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="babfd-123">In the **Item sales tax group** field, type a value.</span></span>
+15. <span data-ttu-id="babfd-124">في حقل **الوصف**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="babfd-124">In the **Description** field, type a value.</span></span>
+16. <span data-ttu-id="babfd-125">انقر فوق **إضافة**.</span><span class="sxs-lookup"><span data-stu-id="babfd-125">Click **Add**.</span></span>
+17. <span data-ttu-id="babfd-126">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="babfd-126">In the list, mark the selected row.</span></span>
+18. <span data-ttu-id="babfd-127">في الحقل **كود ضريبة المبيعات**، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="babfd-127">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="babfd-128">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="babfd-128">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="babfd-129">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="babfd-129">Click **Save**.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

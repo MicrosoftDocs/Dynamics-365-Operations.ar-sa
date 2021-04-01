@@ -14,38 +14,41 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d14b0622f4fbad87ddf019307910d4d4e316888a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a7b7899e11849175976b4c7ee44be4355e733d1d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995280"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225335"
 ---
-# <a name="register-and-post-a-postdated-check-for-a-customer"></a><span data-ttu-id="fbfa7-103">تسجيل شيك بتاريخ لاحق لعميل وترحيله</span><span class="sxs-lookup"><span data-stu-id="fbfa7-103">Register and post a postdated check for a customer</span></span>
+# <a name="register-and-post-a-postdated-check-for-a-customer"></a><span data-ttu-id="29026-103">تسجيل شيك بتاريخ لاحق لعميل وترحيله</span><span class="sxs-lookup"><span data-stu-id="29026-103">Register and post a postdated check for a customer</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fbfa7-104">يمكنك تسجيل التفاصيل لشيك بتاريخ لاحق تم استلامه من عميل.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-104">You can register details of a postdated check received from a customer.</span></span> <span data-ttu-id="fbfa7-105">ويمكنك أيضا ترحيل الشيك الذي تم تأخير تاريخه وإنشاء الحركات المالية.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-105">You can also post the postdated check and generate financial transactions.</span></span>   <span data-ttu-id="fbfa7-106">أكمل المهام التالية قبل تسجيل وترحيل الشيكات الواردة من عميل بتاريخ لاحق:   \* إعداد شيكات بتاريخ لاحق في صفحة إدارة النقد والبنوك \* إعداد طريقة دفع للشيكات بتاريخ لاحق   أمين الخزانة هو الشخص المنوط به هذا الدور.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-106">Complete the following tasks before you register and post a postdated check received from a customer:   \* Set up postdated check in the Cash and bank management page \* Set up a method of payment for postdated checks   The role for this procedure is Treasurer.</span></span> <span data-ttu-id="fbfa7-107">يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-107">This procedure uses the USMF demo company.</span></span>
+<span data-ttu-id="29026-104">يمكنك تسجيل التفاصيل لشيك بتاريخ لاحق تم استلامه من عميل.</span><span class="sxs-lookup"><span data-stu-id="29026-104">You can register details of a postdated check received from a customer.</span></span> <span data-ttu-id="29026-105">ويمكنك أيضا ترحيل الشيك الذي تم تأخير تاريخه وإنشاء الحركات المالية.</span><span class="sxs-lookup"><span data-stu-id="29026-105">You can also post the postdated check and generate financial transactions.</span></span>   <span data-ttu-id="29026-106">أكمل المهام التالية قبل تسجيل وترحيل الشيكات الواردة من عميل بتاريخ لاحق:   \* إعداد شيكات بتاريخ لاحق في صفحة إدارة النقد والبنوك \* إعداد طريقة دفع للشيكات بتاريخ لاحق   أمين الخزانة هو الشخص المنوط به هذا الدور.</span><span class="sxs-lookup"><span data-stu-id="29026-106">Complete the following tasks before you register and post a postdated check received from a customer:   \* Set up postdated check in the Cash and bank management page \* Set up a method of payment for postdated checks   The role for this procedure is Treasurer.</span></span> <span data-ttu-id="29026-107">يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.</span><span class="sxs-lookup"><span data-stu-id="29026-107">This procedure uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="fbfa7-108">انتقل إلى الحسابات المدينة > المدفوعات‬ > دفتر يومية المدفوعات‬‬.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-108">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="fbfa7-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="fbfa7-109">Click New.</span></span>
-3. <span data-ttu-id="fbfa7-110">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-110">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="fbfa7-111">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-111">Click Lines.</span></span>
-5. <span data-ttu-id="fbfa7-112">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-112">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="fbfa7-113">في حقل "الحساب"، حدد القيم المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-113">In the Account field, specify the desired values.</span></span>
-7. <span data-ttu-id="fbfa7-114">في الحقل "دائن"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-114">In the Credit field, enter a number.</span></span>
-    * <span data-ttu-id="fbfa7-115">أدخل المبلغ المحدد في الشيك الذي تم تأخير تاريخه.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-115">Enter the amount specified in the postdated check.</span></span>  
-8. <span data-ttu-id="fbfa7-116">انقر فوق علامة التبويب "الدفع".</span><span class="sxs-lookup"><span data-stu-id="fbfa7-116">Click the Payment tab.</span></span>
-9. <span data-ttu-id="fbfa7-117">في الحقل "طريقة الدفع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-117">In the Method of payment field, type a value.</span></span>
-    * <span data-ttu-id="fbfa7-118">حدد طريقة دفع الشيك الذي تم تأخير تاريخه.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-118">Select the method of payment for the postdated check.</span></span>  
-10. <span data-ttu-id="fbfa7-119">انقر فوق علامة التبويب "الشيكات التي تم تأخير تواريخها".</span><span class="sxs-lookup"><span data-stu-id="fbfa7-119">Click the Postdated checks tab.</span></span>
-11. <span data-ttu-id="fbfa7-120">في الحقل "تاريخ الاستحقاق"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-120">In the Maturity date field, enter a date.</span></span>
-    * <span data-ttu-id="fbfa7-121">أدخل تاريخ استحقاق الشيك الذي تم تأخير تاريخه للدفع.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-121">Enter the date when the postdated check is due for payment.</span></span>  
-12. <span data-ttu-id="fbfa7-122">في الحقل "فرع بنك الإصدار"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-122">In the Issuing bank branch field, type a value.</span></span>
-    * <span data-ttu-id="fbfa7-123">أدخل تفاصيل البنك للشيك الذي تم تأخير تاريخه.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-123">Enter the bank details of the postdated check.</span></span>  
-13. <span data-ttu-id="fbfa7-124">في الحقل "رقم الشيك"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-124">In the check number field, type a value.</span></span>
-14. <span data-ttu-id="fbfa7-125">في الحقل "اسم بنك الإصدار"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-125">In the Issuing bank name field, type a value.</span></span>
-    * <span data-ttu-id="fbfa7-126">أدخل تفاصيل البنك للشيك الذي تم تأخير تاريخه.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-126">Enter the bank details of the postdated check.</span></span>  
-15. <span data-ttu-id="fbfa7-127">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="fbfa7-127">Click Post.</span></span>
-16. <span data-ttu-id="fbfa7-128">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="fbfa7-128">Close the page.</span></span>
+1. <span data-ttu-id="29026-108">انتقل إلى الحسابات المدينة > المدفوعات‬ > دفتر يومية المدفوعات‬‬.</span><span class="sxs-lookup"><span data-stu-id="29026-108">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="29026-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="29026-109">Click New.</span></span>
+3. <span data-ttu-id="29026-110">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="29026-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="29026-111">انقر فوق البنود.</span><span class="sxs-lookup"><span data-stu-id="29026-111">Click Lines.</span></span>
+5. <span data-ttu-id="29026-112">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="29026-112">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="29026-113">في حقل "الحساب"، حدد القيم المطلوبة.</span><span class="sxs-lookup"><span data-stu-id="29026-113">In the Account field, specify the desired values.</span></span>
+7. <span data-ttu-id="29026-114">في الحقل "دائن"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="29026-114">In the Credit field, enter a number.</span></span>
+    * <span data-ttu-id="29026-115">أدخل المبلغ المحدد في الشيك الذي تم تأخير تاريخه.</span><span class="sxs-lookup"><span data-stu-id="29026-115">Enter the amount specified in the postdated check.</span></span>  
+8. <span data-ttu-id="29026-116">انقر فوق علامة التبويب "الدفع".</span><span class="sxs-lookup"><span data-stu-id="29026-116">Click the Payment tab.</span></span>
+9. <span data-ttu-id="29026-117">في الحقل "طريقة الدفع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="29026-117">In the Method of payment field, type a value.</span></span>
+    * <span data-ttu-id="29026-118">حدد طريقة دفع الشيك الذي تم تأخير تاريخه.</span><span class="sxs-lookup"><span data-stu-id="29026-118">Select the method of payment for the postdated check.</span></span>  
+10. <span data-ttu-id="29026-119">انقر فوق علامة التبويب "الشيكات التي تم تأخير تواريخها".</span><span class="sxs-lookup"><span data-stu-id="29026-119">Click the Postdated checks tab.</span></span>
+11. <span data-ttu-id="29026-120">في الحقل "تاريخ الاستحقاق"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="29026-120">In the Maturity date field, enter a date.</span></span>
+    * <span data-ttu-id="29026-121">أدخل تاريخ استحقاق الشيك الذي تم تأخير تاريخه للدفع.</span><span class="sxs-lookup"><span data-stu-id="29026-121">Enter the date when the postdated check is due for payment.</span></span>  
+12. <span data-ttu-id="29026-122">في الحقل "فرع بنك الإصدار"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="29026-122">In the Issuing bank branch field, type a value.</span></span>
+    * <span data-ttu-id="29026-123">أدخل تفاصيل البنك للشيك الذي تم تأخير تاريخه.</span><span class="sxs-lookup"><span data-stu-id="29026-123">Enter the bank details of the postdated check.</span></span>  
+13. <span data-ttu-id="29026-124">في الحقل "رقم الشيك"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="29026-124">In the check number field, type a value.</span></span>
+14. <span data-ttu-id="29026-125">في الحقل "اسم بنك الإصدار"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="29026-125">In the Issuing bank name field, type a value.</span></span>
+    * <span data-ttu-id="29026-126">أدخل تفاصيل البنك للشيك الذي تم تأخير تاريخه.</span><span class="sxs-lookup"><span data-stu-id="29026-126">Enter the bank details of the postdated check.</span></span>  
+15. <span data-ttu-id="29026-127">انقر فوق "ترحيل".</span><span class="sxs-lookup"><span data-stu-id="29026-127">Click Post.</span></span>
+16. <span data-ttu-id="29026-128">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="29026-128">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

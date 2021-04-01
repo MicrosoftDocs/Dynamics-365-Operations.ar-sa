@@ -18,76 +18,79 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 08784385dd1fead13f538b4e856b4bac6651a560
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 437913343d16490fd49a458b5c7a17132be293c6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969916"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230926"
 ---
-# <a name="add-product-recommendations-on-pos"></a><span data-ttu-id="c2371-103">إضافة توصيات المنتجات على نقطة البيع</span><span class="sxs-lookup"><span data-stu-id="c2371-103">Add product recommendations on POS</span></span>
+# <a name="add-product-recommendations-on-pos"></a><span data-ttu-id="0d6c0-103">إضافة توصيات المنتجات على نقطة البيع</span><span class="sxs-lookup"><span data-stu-id="0d6c0-103">Add product recommendations on POS</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="c2371-104">‏‫في أساسه، تُعد توصيات المنتج بمثابة أحد تطبيقات الاعمال التحويلية الذي يمتد عبر جميع مساحات التجارة لخلق تجارب اكتشاف منتج غنية وجذابة ومخصصة.</span><span class="sxs-lookup"><span data-stu-id="c2371-104">At its core, product recommendations are a transformative business application that span across all commerce spaces to create rich, engaging, and tailored product discovery experiences.</span></span> <span data-ttu-id="c2371-105">لتطبيق هذه الميزة في نقطه البيع، اتبع الخطوات الخاصة [بكيفية إضافة توصيات إلى أجهزة نقطة البيع.](add-recommendations-control-pos-screen.md)</span><span class="sxs-lookup"><span data-stu-id="c2371-105">To implement this feature on POS, follow the steps on [how to add recommendations to your POS devices.](add-recommendations-control-pos-screen.md)</span></span> 
+<span data-ttu-id="0d6c0-104">‏‫في أساسه، تُعد توصيات المنتج بمثابة أحد تطبيقات الاعمال التحويلية الذي يمتد عبر جميع مساحات التجارة لخلق تجارب اكتشاف منتج غنية وجذابة ومخصصة.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-104">At its core, product recommendations are a transformative business application that span across all commerce spaces to create rich, engaging, and tailored product discovery experiences.</span></span> <span data-ttu-id="0d6c0-105">لتطبيق هذه الميزة في نقطه البيع، اتبع الخطوات الخاصة [بكيفية إضافة توصيات إلى أجهزة نقطة البيع.](add-recommendations-control-pos-screen.md)</span><span class="sxs-lookup"><span data-stu-id="0d6c0-105">To implement this feature on POS, follow the steps on [how to add recommendations to your POS devices.](add-recommendations-control-pos-screen.md)</span></span> 
 
-<span data-ttu-id="c2371-106">لمزيد من المعلومات حول ميزات توصيات المنتجات، راجع [نظرة عامة على توصيات المنتجات.](../commerce/product-recommendations.md)</span><span class="sxs-lookup"><span data-stu-id="c2371-106">For more information about product recommendations features, read the [product recommendations overview.](../commerce/product-recommendations.md)</span></span> 
+<span data-ttu-id="0d6c0-106">لمزيد من المعلومات حول ميزات توصيات المنتجات، راجع [نظرة عامة على توصيات المنتجات.](../commerce/product-recommendations.md)</span><span class="sxs-lookup"><span data-stu-id="0d6c0-106">For more information about product recommendations features, read the [product recommendations overview.](../commerce/product-recommendations.md)</span></span> 
 
-## <a name="scenarios"></a><span data-ttu-id="c2371-107">السيناريوهات</span><span class="sxs-lookup"><span data-stu-id="c2371-107">Scenarios</span></span>
+## <a name="scenarios"></a><span data-ttu-id="0d6c0-107">السيناريوهات</span><span class="sxs-lookup"><span data-stu-id="0d6c0-107">Scenarios</span></span>
 
-<span data-ttu-id="c2371-108">يتم تمكين توصيات المنتج لسيناريوهات نقطة البيع التالية.</span><span class="sxs-lookup"><span data-stu-id="c2371-108">Product recommendations are enabled for the following POS scenarios.</span></span> <span data-ttu-id="c2371-109">تتوافر في نقطة بيع المجموعة (POS) أو نقطة بيع حديثة (MPOS).</span><span class="sxs-lookup"><span data-stu-id="c2371-109">They are available in Cloud POS or Modern POS (MPOS).</span></span>
+<span data-ttu-id="0d6c0-108">يتم تمكين توصيات المنتج لسيناريوهات نقطة البيع التالية.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-108">Product recommendations are enabled for the following POS scenarios.</span></span> <span data-ttu-id="0d6c0-109">تتوافر في نقطة بيع المجموعة (POS) أو نقطة بيع حديثة (MPOS).</span><span class="sxs-lookup"><span data-stu-id="0d6c0-109">They are available in Cloud POS or Modern POS (MPOS).</span></span>
 
-1. <span data-ttu-id="c2371-110">في صفحة **تفاصيل المنتجات**:</span><span class="sxs-lookup"><span data-stu-id="c2371-110">On the **Product details** page:</span></span>
+1. <span data-ttu-id="0d6c0-110">في صفحة **تفاصيل المنتجات**:</span><span class="sxs-lookup"><span data-stu-id="0d6c0-110">On the **Product details** page:</span></span>
 
-    - <span data-ttu-id="c2371-111">إذا قام شريك في المتجر بزيارة صفحة **تفاصيل المنتج** عند النظر في الحركات السابقة عبر القنوات المختلفة، فإن خدمة التوصيات تقترح بنود إضافية والتي من المرجح شرائها معًا.</span><span class="sxs-lookup"><span data-stu-id="c2371-111">If a store associate visits a **Product details** page when looking at previous transactions across different channels, the recommendations service suggests additional items that are likely to be purchased together.</span></span>
+    - <span data-ttu-id="0d6c0-111">إذا قام شريك في المتجر بزيارة صفحة **تفاصيل المنتج** عند النظر في الحركات السابقة عبر القنوات المختلفة، فإن خدمة التوصيات تقترح بنود إضافية والتي من المرجح شرائها معًا.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-111">If a store associate visits a **Product details** page when looking at previous transactions across different channels, the recommendations service suggests additional items that are likely to be purchased together.</span></span>
 
-    <span data-ttu-id="c2371-112">[![التوصيات في صفحة تفاصيل المنتج](./media/proddetails.png)](./media/proddetails.png)</span><span class="sxs-lookup"><span data-stu-id="c2371-112">[![Recommendations on the Product details page](./media/proddetails.png)](./media/proddetails.png)</span></span>
+    <span data-ttu-id="0d6c0-112">[![التوصيات في صفحة تفاصيل المنتج](./media/proddetails.png)](./media/proddetails.png)</span><span class="sxs-lookup"><span data-stu-id="0d6c0-112">[![Recommendations on the Product details page](./media/proddetails.png)](./media/proddetails.png)</span></span>
 
-2. <span data-ttu-id="c2371-113">في صفحة **الحركة**:</span><span class="sxs-lookup"><span data-stu-id="c2371-113">On the **Transaction** page:</span></span>
+2. <span data-ttu-id="0d6c0-113">في صفحة **الحركة**:</span><span class="sxs-lookup"><span data-stu-id="0d6c0-113">On the **Transaction** page:</span></span>
 
-    - <span data-ttu-id="c2371-114">يقوم محرك التوصيات باقتراح الأصناف التي تستند إلى قائمة الأصناف بأكملها في السلة التي يتم شراؤها بشكل متكرر معًا.</span><span class="sxs-lookup"><span data-stu-id="c2371-114">The recommendation engine suggests items based on the entire list of items in the basket that are frequently bought together.</span></span>
+    - <span data-ttu-id="0d6c0-114">يقوم محرك التوصيات باقتراح الأصناف التي تستند إلى قائمة الأصناف بأكملها في السلة التي يتم شراؤها بشكل متكرر معًا.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-114">The recommendation engine suggests items based on the entire list of items in the basket that are frequently bought together.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="c2371-115">لعرض التوصيات على صفحة **الحركة**، يحتاج تاجر التجزئة إلى تحديث تخطيط الشاشة في Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="c2371-115">To display recommendations on the **Transaction** page, the retailer needs to update the screen layout in Dynamics 365 Commerce.</span></span> <span data-ttu-id="c2371-116">يجب إسقاط عنصر تحكم **التوصيات** داخل صفحة **الحركة** .</span><span class="sxs-lookup"><span data-stu-id="c2371-116">The **Recommendations** control must be dropped onto the **Transaction** page.</span></span>
+    > <span data-ttu-id="0d6c0-115">لعرض التوصيات على صفحة **الحركة**، يحتاج تاجر التجزئة إلى تحديث تخطيط الشاشة في Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-115">To display recommendations on the **Transaction** page, the retailer needs to update the screen layout in Dynamics 365 Commerce.</span></span> <span data-ttu-id="0d6c0-116">يجب إسقاط عنصر تحكم **التوصيات** داخل صفحة **الحركة** .</span><span class="sxs-lookup"><span data-stu-id="0d6c0-116">The **Recommendations** control must be dropped onto the **Transaction** page.</span></span>
 
-    <span data-ttu-id="c2371-117">[![التوصيات في صفحة الحركة](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span><span class="sxs-lookup"><span data-stu-id="c2371-117">[![Recommendations on the Transaction page](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span></span>
+    <span data-ttu-id="0d6c0-117">[![التوصيات في صفحة الحركة](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span><span class="sxs-lookup"><span data-stu-id="0d6c0-117">[![Recommendations on the Transaction page](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span></span>
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a><span data-ttu-id="c2371-118">تكوين Commerce لتمكين توصيات نقطة البيع</span><span class="sxs-lookup"><span data-stu-id="c2371-118">Configure Commerce to enable POS recommendations</span></span>
+## <a name="configure-commerce-to-enable-pos-recommendations"></a><span data-ttu-id="0d6c0-118">تكوين Commerce لتمكين توصيات نقطة البيع</span><span class="sxs-lookup"><span data-stu-id="0d6c0-118">Configure Commerce to enable POS recommendations</span></span>
 
-<span data-ttu-id="c2371-119">لإعداد توصيات المنتج‬، اتبع هذه الخطوات:</span><span class="sxs-lookup"><span data-stu-id="c2371-119">To set up product recommendations, follow these steps:</span></span>
+<span data-ttu-id="0d6c0-119">لإعداد توصيات المنتج‬، اتبع هذه الخطوات:</span><span class="sxs-lookup"><span data-stu-id="0d6c0-119">To set up product recommendations, follow these steps:</span></span>
 
-1. <span data-ttu-id="c2371-120">تأكد من تحديث الخدمة الخاصة بك **للإصدار 10.0.6.**</span><span class="sxs-lookup"><span data-stu-id="c2371-120">Ensure your service has been updated to the **10.0.6 build.**</span></span>
-2. <span data-ttu-id="c2371-121">اتبع الإرشادات حول كيفية [تمكين توصيات المنتج](../commerce/enable-product-recommendations.md) لأعمالك.</span><span class="sxs-lookup"><span data-stu-id="c2371-121">Follow the instructions on how to [enable product recommendations](../commerce/enable-product-recommendations.md) for your business.</span></span>
-3. <span data-ttu-id="c2371-122">اختياري: لعرض التوصيات على شاشة الحركة، انتقل إلى **تخطيط الشاشة**، واختر تخطيط الشاشة وابدأ تشغيل **مصمم تخطيط الشاشة**، ثم قم بإفلات عنصر تحكم **التوصيات** حيث تقتضي الحاجة.</span><span class="sxs-lookup"><span data-stu-id="c2371-122">Optional: To display recommendations on the transaction screen, go to **Screen Layout**, choose your screen layout, launch the **Screen layout designer**, and then drop the **recommendations** control where needed.</span></span>
-4. <span data-ttu-id="c2371-123">انتقل إلى **معلمات Commerce**، وحدد **التعلم الآلي**، ثم حدد **نعم** ضمن **تمكين توصيات نقطة البيع**.</span><span class="sxs-lookup"><span data-stu-id="c2371-123">Go to **Commerce parameters**, select **Machine-learning**, select **Yes** under **Enable POS recommendations**.</span></span>
-5. <span data-ttu-id="c2371-124">لمشاهدة التوصيات في نقطة البيع، قم بتشغيل وظيفة التكوين العمومي **1110**.</span><span class="sxs-lookup"><span data-stu-id="c2371-124">To see recommendations on POS, run global configuration job **1110**.</span></span> <span data-ttu-id="c2371-125">لعكس التغييرات التي تم إجراؤها لمصم تخطيط شاشة نقطة البيع، قم بتشغيل وظيفة تكوين قناة **1070**.</span><span class="sxs-lookup"><span data-stu-id="c2371-125">To reflect changes made to POS screen layout designer, run channel configuration job **1070**.</span></span>
+1. <span data-ttu-id="0d6c0-120">تأكد من تحديث الخدمة الخاصة بك **للإصدار 10.0.6.**</span><span class="sxs-lookup"><span data-stu-id="0d6c0-120">Ensure your service has been updated to the **10.0.6 build.**</span></span>
+2. <span data-ttu-id="0d6c0-121">اتبع الإرشادات حول كيفية [تمكين توصيات المنتج](../commerce/enable-product-recommendations.md) لأعمالك.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-121">Follow the instructions on how to [enable product recommendations](../commerce/enable-product-recommendations.md) for your business.</span></span>
+3. <span data-ttu-id="0d6c0-122">اختياري: لعرض التوصيات على شاشة الحركة، انتقل إلى **تخطيط الشاشة**، واختر تخطيط الشاشة وابدأ تشغيل **مصمم تخطيط الشاشة**، ثم قم بإفلات عنصر تحكم **التوصيات** حيث تقتضي الحاجة.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-122">Optional: To display recommendations on the transaction screen, go to **Screen Layout**, choose your screen layout, launch the **Screen layout designer**, and then drop the **recommendations** control where needed.</span></span>
+4. <span data-ttu-id="0d6c0-123">انتقل إلى **معلمات Commerce**، وحدد **التعلم الآلي**، ثم حدد **نعم** ضمن **تمكين توصيات نقطة البيع**.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-123">Go to **Commerce parameters**, select **Machine-learning**, select **Yes** under **Enable POS recommendations**.</span></span>
+5. <span data-ttu-id="0d6c0-124">لمشاهدة التوصيات في نقطة البيع، قم بتشغيل وظيفة التكوين العمومي **1110**.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-124">To see recommendations on POS, run global configuration job **1110**.</span></span> <span data-ttu-id="0d6c0-125">لعكس التغييرات التي تم إجراؤها لمصم تخطيط شاشة نقطة البيع، قم بتشغيل وظيفة تكوين قناة **1070**.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-125">To reflect changes made to POS screen layout designer, run channel configuration job **1070**.</span></span>
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="c2371-126">استكشاف الأخطاء وإصلاحها التي يكون لك فيها توصيات منتج مُمكنة بالفعل.</span><span class="sxs-lookup"><span data-stu-id="c2371-126">Troubleshoot issues where you have Product recommendations already enabled</span></span>
+## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="0d6c0-126">استكشاف الأخطاء وإصلاحها التي يكون لك فيها توصيات منتج مُمكنة بالفعل.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-126">Troubleshoot issues where you have Product recommendations already enabled</span></span>
 
-- <span data-ttu-id="c2371-127">انتقل إلى **معلمات Commerce‬** \> **قوائم التوصيات** \> **تعطيل توصيات المنتج** وقم بتشغيل **وظيفة التكوين العمومي \[9999\]**.</span><span class="sxs-lookup"><span data-stu-id="c2371-127">Navigate to **Commerce Parameters** \> **Recommendation lists** \> **Disable product recommendations** and run **Global configuration job \[9999\]**.</span></span> 
-- <span data-ttu-id="c2371-128">إذا قمت بإضافة **عناصر التحكم في التوصيات** إلى شاشة الحركة الخاصة بك باستخدام **مصمم تخطيط الشاشة**، الرجاء إزالتها أيضًا.</span><span class="sxs-lookup"><span data-stu-id="c2371-128">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span>
-- <span data-ttu-id="c2371-129">إذا كانت لديك المزيد من الاستفسارات، وللحصول على المزيد من المعلومات، راجع [الاسئلة المتداولة حول توصيات المنتجات](../commerce/faq-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="c2371-129">If you have additional questions, check out the [Product recommendations FAQ](../commerce/faq-recommendations.md) for more information.</span></span>
+- <span data-ttu-id="0d6c0-127">انتقل إلى **معلمات Commerce‬** \> **قوائم التوصيات** \> **تعطيل توصيات المنتج** وقم بتشغيل **وظيفة التكوين العمومي \[9999\]**.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-127">Navigate to **Commerce Parameters** \> **Recommendation lists** \> **Disable product recommendations** and run **Global configuration job \[9999\]**.</span></span> 
+- <span data-ttu-id="0d6c0-128">إذا قمت بإضافة **عناصر التحكم في التوصيات** إلى شاشة الحركة الخاصة بك باستخدام **مصمم تخطيط الشاشة**، الرجاء إزالتها أيضًا.</span><span class="sxs-lookup"><span data-stu-id="0d6c0-128">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span>
+- <span data-ttu-id="0d6c0-129">إذا كانت لديك المزيد من الاستفسارات، وللحصول على المزيد من المعلومات، راجع [الاسئلة المتداولة حول توصيات المنتجات](../commerce/faq-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="0d6c0-129">If you have additional questions, check out the [Product recommendations FAQ](../commerce/faq-recommendations.md) for more information.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c2371-130">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="c2371-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0d6c0-130">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="0d6c0-130">Additional resources</span></span>
 
-[<span data-ttu-id="c2371-131">نظرة عامة على توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="c2371-131">Product recommendations overview</span></span>](product-recommendations.md)
+[<span data-ttu-id="0d6c0-131">نظرة عامة على توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="0d6c0-131">Product recommendations overview</span></span>](product-recommendations.md)
 
-[<span data-ttu-id="c2371-132">تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="c2371-132">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
+[<span data-ttu-id="0d6c0-132">تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="0d6c0-132">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
 
-[<span data-ttu-id="c2371-133">تمكين توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="c2371-133">Enable product recommendations</span></span>](enable-product-recommendations.md)
+[<span data-ttu-id="0d6c0-133">تمكين توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="0d6c0-133">Enable product recommendations</span></span>](enable-product-recommendations.md)
 
-[<span data-ttu-id="c2371-134">تمكين التوصيات المخصصة</span><span class="sxs-lookup"><span data-stu-id="c2371-134">Enable personalized recommendations</span></span>](personalized-recommendations.md)
+[<span data-ttu-id="0d6c0-134">تمكين التوصيات المخصصة</span><span class="sxs-lookup"><span data-stu-id="0d6c0-134">Enable personalized recommendations</span></span>](personalized-recommendations.md)
 
-[<span data-ttu-id="c2371-135">إلغاء الاشتراك في التوصيات المخصصة</span><span class="sxs-lookup"><span data-stu-id="c2371-135">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
+[<span data-ttu-id="0d6c0-135">إلغاء الاشتراك في التوصيات المخصصة</span><span class="sxs-lookup"><span data-stu-id="0d6c0-135">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
 
-[<span data-ttu-id="c2371-136">تمكين توصيات "تسوق منتجات تبدو مماثلة"</span><span class="sxs-lookup"><span data-stu-id="c2371-136">Enable "shop similar looks" recommendations</span></span>](shop-similar-looks.md)
+[<span data-ttu-id="0d6c0-136">تمكين توصيات "تسوق منتجات تبدو مماثلة"</span><span class="sxs-lookup"><span data-stu-id="0d6c0-136">Enable "shop similar looks" recommendations</span></span>](shop-similar-looks.md)
 
-[<span data-ttu-id="c2371-137">إضافة توصيات إلى شاشة المعاملة</span><span class="sxs-lookup"><span data-stu-id="c2371-137">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
+[<span data-ttu-id="0d6c0-137">إضافة توصيات إلى شاشة المعاملة</span><span class="sxs-lookup"><span data-stu-id="0d6c0-137">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
 
-[<span data-ttu-id="c2371-138">إدارة نتائج توصيات الذكاء الاصطناعي والتعلم الآلي (AI-ML)</span><span class="sxs-lookup"><span data-stu-id="c2371-138">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
+[<span data-ttu-id="0d6c0-138">إدارة نتائج توصيات الذكاء الاصطناعي والتعلم الآلي (AI-ML)</span><span class="sxs-lookup"><span data-stu-id="0d6c0-138">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
 
-[<span data-ttu-id="c2371-139">إنشاء توصيات مختارة يدويًا</span><span class="sxs-lookup"><span data-stu-id="c2371-139">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+[<span data-ttu-id="0d6c0-139">إنشاء توصيات مختارة يدويًا</span><span class="sxs-lookup"><span data-stu-id="0d6c0-139">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
 
-[<span data-ttu-id="c2371-140">إنشاء توصيات بواسطة بيانات العرض التوضيحي</span><span class="sxs-lookup"><span data-stu-id="c2371-140">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+[<span data-ttu-id="0d6c0-140">إنشاء توصيات بواسطة بيانات العرض التوضيحي</span><span class="sxs-lookup"><span data-stu-id="0d6c0-140">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
 
-[<span data-ttu-id="c2371-141">الأسئلة المتداولة حول توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="c2371-141">Product recommendations FAQ</span></span>](faq-recommendations.md)
+[<span data-ttu-id="0d6c0-141">الأسئلة المتداولة حول توصيات المنتجات</span><span class="sxs-lookup"><span data-stu-id="0d6c0-141">Product recommendations FAQ</span></span>](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

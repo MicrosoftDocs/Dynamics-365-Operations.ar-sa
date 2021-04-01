@@ -16,108 +16,111 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dfebc6616186a3a8859b00e90c178129feaa324b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e035c767474cba19c3a31eafdefb08b422b564ba
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980147"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209193"
 ---
-# <a name="add-script-code-to-site-pages-to-support-telemetry"></a><span data-ttu-id="ed875-103">إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام</span><span class="sxs-lookup"><span data-stu-id="ed875-103">Add script code to site pages to support telemetry</span></span>
+# <a name="add-script-code-to-site-pages-to-support-telemetry"></a><span data-ttu-id="136ad-103">إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام</span><span class="sxs-lookup"><span data-stu-id="136ad-103">Add script code to site pages to support telemetry</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="ed875-104">يصف هذا الموضوع كيفيه إضافة التعليمات البرمجية لبرنامج نصي من جانب العميل إلى صفحات موقعك لدعم مجموعة تتبع الاستخدام من جانب العميل.</span><span class="sxs-lookup"><span data-stu-id="ed875-104">This topic describes how to add client-side script code to your site pages to support the collection of client-side telemetry.</span></span>
+<span data-ttu-id="136ad-104">يصف هذا الموضوع كيفيه إضافة التعليمات البرمجية لبرنامج نصي من جانب العميل إلى صفحات موقعك لدعم مجموعة تتبع الاستخدام من جانب العميل.</span><span class="sxs-lookup"><span data-stu-id="136ad-104">This topic describes how to add client-side script code to your site pages to support the collection of client-side telemetry.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="ed875-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="ed875-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="136ad-105">نظرة عامة</span><span class="sxs-lookup"><span data-stu-id="136ad-105">Overview</span></span>
 
-<span data-ttu-id="ed875-106">تُعد تحليلات الويب أداة أساسية عندما ترغب في فهم كيفية تفاعل عملائك مع موقعك واتخاذ قرارات من شأنها أن تساعد في تحسين التجربة لتحقيق أقصى قدر من التحويل.</span><span class="sxs-lookup"><span data-stu-id="ed875-106">Web analytics are an essential tool when you want to understand how your customers interact with your site and make decisions that will help optimize the experience for maximum conversion.</span></span> <span data-ttu-id="ed875-107">تتوفر العديد من حزم تحليلات الويب لمساعدتك في تحقيق هذه الأهداف، مثل Google Analytics وClicky وMoz Analytics وKISSMetrics.</span><span class="sxs-lookup"><span data-stu-id="ed875-107">Many web analytics packages are available to help you achieve these goals, such as Google Analytics, Clicky, Moz Analytics, and KISSMetrics.</span></span> <span data-ttu-id="ed875-108">تتطلب معظم حزم تحليلات الويب أن تضيف التعليمات البرمجية لبرنامج نصي في عنصر **\<head\>** من HTML لجميع صفحات موقعك.</span><span class="sxs-lookup"><span data-stu-id="ed875-108">Most web analytics packages require that you add client-side script code in the **\<head\>** element of the HTML for all pages of your site.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="ed875-109">تنطبق الإرشادات الواردة في هذا الموضوع أيضًا على الوظائف المخصصة الأخرى من جانب العميل التي لا يوفرها Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="ed875-109">The instructions in this topic also apply to other custom client-side functionality that Microsoft Dynamics 365 Commerce doesn't natively offer.</span></span>
-
-## <a name="create-a-reusable-fragment-for-your-script-code"></a><span data-ttu-id="ed875-110">إنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية لبرنامج نصي</span><span class="sxs-lookup"><span data-stu-id="ed875-110">Create a reusable fragment for your script code</span></span>
-
-<span data-ttu-id="ed875-111">يتيح لك الجزء إعادة استخدام التعليمات البرمجية المضمنة أو الخارجية في كافة صفحات موقعك، بغض النظر عن القالب الذي تستخدمه.</span><span class="sxs-lookup"><span data-stu-id="ed875-111">A fragment allows you to reuse inline or external script code across all pages on your site, regardless of the template they use.</span></span>
-
-### <a name="create-a-reusable-fragment-for-your-inline-script-code"></a><span data-ttu-id="ed875-112">إنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية لبرنامج نصي مضمن</span><span class="sxs-lookup"><span data-stu-id="ed875-112">Create a reusable fragment for your inline script code</span></span>
-
-<span data-ttu-id="ed875-113">لإنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية للنص المضمن في منشئ المواقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="ed875-113">To create a reusable fragment for your inline script code in site builder, follow these steps.</span></span>
-
-1. <span data-ttu-id="ed875-114">انتقل إلى **الأجزاء**، ثم حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="ed875-114">Go to **Fragments**, and then select **New**.</span></span>
-1. <span data-ttu-id="ed875-115">في مربع الحوار **جزء جديد**، حدد **البرنامج النصي المضمن**.</span><span class="sxs-lookup"><span data-stu-id="ed875-115">In the **New fragment** dialog box, select **Inline script**.</span></span>
-1. <span data-ttu-id="ed875-116">ضمن **اسم الجزء**، أدخل اسمًا لهذا الجزء، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="ed875-116">Under **Fragment name**, enter a name for the fragment, and then select **OK**.</span></span>
-1. <span data-ttu-id="ed875-117">ضمن الجزء الذي قمت بإنشائه، حدد الوحدة **البرنامج النصي الافتراضي المضمن**.</span><span class="sxs-lookup"><span data-stu-id="ed875-117">Under the fragment that you created, select the **Default inline script** module.</span></span>
-1. <span data-ttu-id="ed875-118">في جزء الخصائص الموجود على الجانب الأيمن، ضمن **البرنامج النصي المضمن**، أدخل البرنامج النصي من جانب العميل.</span><span class="sxs-lookup"><span data-stu-id="ed875-118">In the property pane on the right, under **Inline script**, enter your client-side script.</span></span> <span data-ttu-id="ed875-119">قم بعد ذلك بتكوين الخيارات الأخرى كما تتطلب.</span><span class="sxs-lookup"><span data-stu-id="ed875-119">Then configure other options as you require.</span></span>
-1. <span data-ttu-id="ed875-120">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="ed875-120">Select **Save**, and then select **Finish editing**.</span></span>
-1. <span data-ttu-id="ed875-121">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="ed875-121">Select **Publish**.</span></span>
-
-### <a name="create-a-reusable-fragment-for-your-external-script-code"></a><span data-ttu-id="ed875-122">إنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية لبرنامج نصي خارجي</span><span class="sxs-lookup"><span data-stu-id="ed875-122">Create a reusable fragment for your external script code</span></span>
-
-<span data-ttu-id="ed875-123">لإنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية للبرنامج النصي الخارجي في منشئ المواقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="ed875-123">To create a reusable fragment for your external script code in site builder, follow these steps.</span></span>
-
-1. <span data-ttu-id="ed875-124">انتقل إلى **الأجزاء**، ثم حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="ed875-124">Go to **Fragments**, and then select **New**.</span></span>
-1. <span data-ttu-id="ed875-125">في مربع الحوار **جزء جديد**، حدد **البرنامج النصي الخارجي**.</span><span class="sxs-lookup"><span data-stu-id="ed875-125">In the **New fragment** dialog box, select **External script**.</span></span>
-1. <span data-ttu-id="ed875-126">ضمن **اسم الجزء**، أدخل اسمًا لهذا الجزء، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="ed875-126">Under **Fragment name**, enter a name for the fragment, and then select **OK**.</span></span>
-1. <span data-ttu-id="ed875-127">ضمن الجزء الذي قمت بإنشائه، حدد الوحدة **البرنامج النصي الافتراضي الخارجي**.</span><span class="sxs-lookup"><span data-stu-id="ed875-127">Under the fragment that you created, select the **Default external script** module.</span></span>
-1. <span data-ttu-id="ed875-128">في جزء الخصائص الموجود على الجانب الأيمن، ضمن **مصدر البرنامج النصي**، أضف عنوان URL خارجيًا أو ذي صلة لمصدر البرنامج النصي الخارجي.</span><span class="sxs-lookup"><span data-stu-id="ed875-128">In the property pane on the right, under **Script source**, add an external or relative URL for the external script source.</span></span> <span data-ttu-id="ed875-129">قم بعد ذلك بتكوين الخيارات الأخرى كما تتطلب.</span><span class="sxs-lookup"><span data-stu-id="ed875-129">Then configure other options as you require.</span></span>
-1. <span data-ttu-id="ed875-130">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="ed875-130">Select **Save**, and then select **Finish editing**.</span></span>
-1. <span data-ttu-id="ed875-131">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="ed875-131">Select **Publish**.</span></span>
+<span data-ttu-id="136ad-106">تُعد تحليلات الويب أداة أساسية عندما ترغب في فهم كيفية تفاعل عملائك مع موقعك واتخاذ قرارات من شأنها أن تساعد في تحسين التجربة لتحقيق أقصى قدر من التحويل.</span><span class="sxs-lookup"><span data-stu-id="136ad-106">Web analytics are an essential tool when you want to understand how your customers interact with your site and make decisions that will help optimize the experience for maximum conversion.</span></span> <span data-ttu-id="136ad-107">تتوفر العديد من حزم تحليلات الويب لمساعدتك في تحقيق هذه الأهداف، مثل Google Analytics وClicky وMoz Analytics وKISSMetrics.</span><span class="sxs-lookup"><span data-stu-id="136ad-107">Many web analytics packages are available to help you achieve these goals, such as Google Analytics, Clicky, Moz Analytics, and KISSMetrics.</span></span> <span data-ttu-id="136ad-108">تتطلب معظم حزم تحليلات الويب أن تضيف التعليمات البرمجية لبرنامج نصي في عنصر **\<head\>** من HTML لجميع صفحات موقعك.</span><span class="sxs-lookup"><span data-stu-id="136ad-108">Most web analytics packages require that you add client-side script code in the **\<head\>** element of the HTML for all pages of your site.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ed875-132">إذا تم تمكين نهج أمان المحتوي (CSP) للموقع الخاص بك، فتاكد من أضافه كافة عناوين URL الخارجية إلى توجيه CSP **مصدر النص البرمجي** في أداة إنشاء موقع Commerce.</span><span class="sxs-lookup"><span data-stu-id="ed875-132">If content security policy (CSP) is enabled for your site, ensure that all external URLs are added to the **script-src** CSP directive in Commerce site builder.</span></span> <span data-ttu-id="ed875-133">لمزيد من المعلومات، راجع [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md).</span><span class="sxs-lookup"><span data-stu-id="ed875-133">For more information, see [Manage Content Security Policy (CSP)](manage-csp.md).</span></span>
+> <span data-ttu-id="136ad-109">تنطبق الإرشادات الواردة في هذا الموضوع أيضًا على الوظائف المخصصة الأخرى من جانب العميل التي لا يوفرها Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="136ad-109">The instructions in this topic also apply to other custom client-side functionality that Microsoft Dynamics 365 Commerce doesn't natively offer.</span></span>
 
-## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a><span data-ttu-id="ed875-134">أضف جزء يحتوي على التعليمات البرمجية للبرنامج النصي إلى قالب</span><span class="sxs-lookup"><span data-stu-id="ed875-134">Add a fragment that includes script code to a template</span></span>
+## <a name="create-a-reusable-fragment-for-your-script-code"></a><span data-ttu-id="136ad-110">إنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية لبرنامج نصي</span><span class="sxs-lookup"><span data-stu-id="136ad-110">Create a reusable fragment for your script code</span></span>
 
-<span data-ttu-id="ed875-135">لإضافة جزء يتضمن التعليمات البرمجية للبرنامج النصي إلى قالب في منشئ المواقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="ed875-135">To add a fragment that includes script code to a template in site builder, follow these steps.</span></span>
+<span data-ttu-id="136ad-111">يتيح لك الجزء إعادة استخدام التعليمات البرمجية المضمنة أو الخارجية في كافة صفحات موقعك، بغض النظر عن القالب الذي تستخدمه.</span><span class="sxs-lookup"><span data-stu-id="136ad-111">A fragment allows you to reuse inline or external script code across all pages on your site, regardless of the template they use.</span></span>
 
-1. <span data-ttu-id="ed875-136">انتقل إلى **القوالب**، وافتح القالب الخاص بالصفحات التي تريد إضافة التعليمات البرمجية لبرنامج نصي اليها.</span><span class="sxs-lookup"><span data-stu-id="ed875-136">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
-1. <span data-ttu-id="ed875-137">في الجزء الأيسر، قم بتوسيع التدرج الهرمي للقالب لإظهار فتحة **عنوان HTML** .</span><span class="sxs-lookup"><span data-stu-id="ed875-137">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
-1. <span data-ttu-id="ed875-138">في فتحة **رأس HTML‬‏‫**، حدد زر علامة القطع (**...**)، ثم حدد **إضافة جزء**.</span><span class="sxs-lookup"><span data-stu-id="ed875-138">In the **HTML Head** slot, select the ellipsis button (**...**), and then select **Add fragment**.</span></span>
-1. <span data-ttu-id="ed875-139">حدد الجزء الذي قمت بإنشاءه للتعليمات البرمجية لبرنامجك النصي.</span><span class="sxs-lookup"><span data-stu-id="ed875-139">Select the fragment that you created for your script code.</span></span>
-1. <span data-ttu-id="ed875-140">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="ed875-140">Select **Save**, and then select **Finish editing**.</span></span>
-1. <span data-ttu-id="ed875-141">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="ed875-141">Select **Publish**.</span></span>
+### <a name="create-a-reusable-fragment-for-your-inline-script-code"></a><span data-ttu-id="136ad-112">إنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية لبرنامج نصي مضمن</span><span class="sxs-lookup"><span data-stu-id="136ad-112">Create a reusable fragment for your inline script code</span></span>
 
-## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a><span data-ttu-id="ed875-142">إضافة برنامج نصي خارجي أو برنامج نصي مضمن مباشرةً إلى قالب</span><span class="sxs-lookup"><span data-stu-id="ed875-142">Add an external script or inline script directly to a template</span></span>
+<span data-ttu-id="136ad-113">لإنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية للنص المضمن في منشئ المواقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="136ad-113">To create a reusable fragment for your inline script code in site builder, follow these steps.</span></span>
 
-<span data-ttu-id="ed875-143">إذا كنت ترغب في إدراج برنامج نصي مضمن أو خارجي مباشرةً في مجموعة من الصفحات التي يتم التحكم فيها بواسطة قالب واحد، فلن تحتاج إلى إنشاء جزء أولاً.</span><span class="sxs-lookup"><span data-stu-id="ed875-143">If you want to insert an inline or external script directly into a set of pages that are controlled by a single template, you don't have to create a fragment first.</span></span>
+1. <span data-ttu-id="136ad-114">انتقل إلى **الأجزاء**، ثم حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="136ad-114">Go to **Fragments**, and then select **New**.</span></span>
+1. <span data-ttu-id="136ad-115">في مربع الحوار **جزء جديد**، حدد **البرنامج النصي المضمن**.</span><span class="sxs-lookup"><span data-stu-id="136ad-115">In the **New fragment** dialog box, select **Inline script**.</span></span>
+1. <span data-ttu-id="136ad-116">ضمن **اسم الجزء**، أدخل اسمًا لهذا الجزء، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="136ad-116">Under **Fragment name**, enter a name for the fragment, and then select **OK**.</span></span>
+1. <span data-ttu-id="136ad-117">ضمن الجزء الذي قمت بإنشائه، حدد الوحدة **البرنامج النصي الافتراضي المضمن**.</span><span class="sxs-lookup"><span data-stu-id="136ad-117">Under the fragment that you created, select the **Default inline script** module.</span></span>
+1. <span data-ttu-id="136ad-118">في جزء الخصائص الموجود على الجانب الأيمن، ضمن **البرنامج النصي المضمن**، أدخل البرنامج النصي من جانب العميل.</span><span class="sxs-lookup"><span data-stu-id="136ad-118">In the property pane on the right, under **Inline script**, enter your client-side script.</span></span> <span data-ttu-id="136ad-119">قم بعد ذلك بتكوين الخيارات الأخرى كما تتطلب.</span><span class="sxs-lookup"><span data-stu-id="136ad-119">Then configure other options as you require.</span></span>
+1. <span data-ttu-id="136ad-120">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="136ad-120">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="136ad-121">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="136ad-121">Select **Publish**.</span></span>
 
-### <a name="add-an-inline-script-directly-to-a-template"></a><span data-ttu-id="ed875-144">إضافة برنامج نصي مضمن مباشرةً إلى قالب</span><span class="sxs-lookup"><span data-stu-id="ed875-144">Add an inline script directly to a template</span></span>
+### <a name="create-a-reusable-fragment-for-your-external-script-code"></a><span data-ttu-id="136ad-122">إنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية لبرنامج نصي خارجي</span><span class="sxs-lookup"><span data-stu-id="136ad-122">Create a reusable fragment for your external script code</span></span>
 
-<span data-ttu-id="ed875-145">لإضافة برنامج نصي مضمن مباشرةً إلى قالب في منشئ الموقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="ed875-145">To add an inline script directly to a template in site builder, follow these steps.</span></span>
+<span data-ttu-id="136ad-123">لإنشاء جزء قابل لإعادة الاستخدام للتعليمات البرمجية للبرنامج النصي الخارجي في منشئ المواقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="136ad-123">To create a reusable fragment for your external script code in site builder, follow these steps.</span></span>
 
-1. <span data-ttu-id="ed875-146">انتقل إلى **القوالب**، وافتح القالب الخاص بالصفحات التي تريد إضافة التعليمات البرمجية لبرنامج نصي اليها.</span><span class="sxs-lookup"><span data-stu-id="ed875-146">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
-1. <span data-ttu-id="ed875-147">في الجزء الأيسر، قم بتوسيع التدرج الهرمي للقالب لإظهار فتحة **عنوان HTML** .</span><span class="sxs-lookup"><span data-stu-id="ed875-147">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
-1. <span data-ttu-id="ed875-148">في فتحة **عنوان HTML‬‏‫**، وحدد علامة الحذف (**...**)، ثم حدد **إضافة وحدة**.</span><span class="sxs-lookup"><span data-stu-id="ed875-148">In the **HTML Head** slot, select the ellipsis button (**...**), and then select **Add Module**.</span></span>
-1. <span data-ttu-id="ed875-149">في مربع الحوار **إضافة وحدة**، حدد **البرنامج النصي المضمن**.</span><span class="sxs-lookup"><span data-stu-id="ed875-149">In the **Add Module** dialog box, select **Inline script**.</span></span>
-1. <span data-ttu-id="ed875-150">في جزء الخصائص الموجود على الجانب الأيمن، ضمن **البرنامج النصي المضمن**، أدخل البرنامج النصي من جانب العميل.</span><span class="sxs-lookup"><span data-stu-id="ed875-150">In the property pane on the right, under **Inline script**, enter your client-side script.</span></span> <span data-ttu-id="ed875-151">قم بعد ذلك بتكوين الخيارات الأخرى كما تتطلب.</span><span class="sxs-lookup"><span data-stu-id="ed875-151">Then configure other options as you require.</span></span>
-1. <span data-ttu-id="ed875-152">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="ed875-152">Select **Save**, and then select **Finish editing**.</span></span>
-1. <span data-ttu-id="ed875-153">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="ed875-153">Select **Publish**.</span></span>
+1. <span data-ttu-id="136ad-124">انتقل إلى **الأجزاء**، ثم حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="136ad-124">Go to **Fragments**, and then select **New**.</span></span>
+1. <span data-ttu-id="136ad-125">في مربع الحوار **جزء جديد**، حدد **البرنامج النصي الخارجي**.</span><span class="sxs-lookup"><span data-stu-id="136ad-125">In the **New fragment** dialog box, select **External script**.</span></span>
+1. <span data-ttu-id="136ad-126">ضمن **اسم الجزء**، أدخل اسمًا لهذا الجزء، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="136ad-126">Under **Fragment name**, enter a name for the fragment, and then select **OK**.</span></span>
+1. <span data-ttu-id="136ad-127">ضمن الجزء الذي قمت بإنشائه، حدد الوحدة **البرنامج النصي الافتراضي الخارجي**.</span><span class="sxs-lookup"><span data-stu-id="136ad-127">Under the fragment that you created, select the **Default external script** module.</span></span>
+1. <span data-ttu-id="136ad-128">في جزء الخصائص الموجود على الجانب الأيمن، ضمن **مصدر البرنامج النصي**، أضف عنوان URL خارجيًا أو ذي صلة لمصدر البرنامج النصي الخارجي.</span><span class="sxs-lookup"><span data-stu-id="136ad-128">In the property pane on the right, under **Script source**, add an external or relative URL for the external script source.</span></span> <span data-ttu-id="136ad-129">قم بعد ذلك بتكوين الخيارات الأخرى كما تتطلب.</span><span class="sxs-lookup"><span data-stu-id="136ad-129">Then configure other options as you require.</span></span>
+1. <span data-ttu-id="136ad-130">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="136ad-130">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="136ad-131">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="136ad-131">Select **Publish**.</span></span>
 
-### <a name="add-an-external-script-directly-to-a-template"></a><span data-ttu-id="ed875-154">إضافة برنامج نصي خارجي مباشرةً إلى قالب</span><span class="sxs-lookup"><span data-stu-id="ed875-154">Add an external script directly to a template</span></span>
+> [!NOTE]
+> <span data-ttu-id="136ad-132">إذا تم تمكين نهج أمان المحتوي (CSP) للموقع الخاص بك، فتاكد من أضافه كافة عناوين URL الخارجية إلى توجيه CSP **مصدر النص البرمجي** في أداة إنشاء موقع Commerce.</span><span class="sxs-lookup"><span data-stu-id="136ad-132">If content security policy (CSP) is enabled for your site, ensure that all external URLs are added to the **script-src** CSP directive in Commerce site builder.</span></span> <span data-ttu-id="136ad-133">لمزيد من المعلومات، راجع [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md).</span><span class="sxs-lookup"><span data-stu-id="136ad-133">For more information, see [Manage Content Security Policy (CSP)](manage-csp.md).</span></span>
 
-<span data-ttu-id="ed875-155">لإضافة برنامج نصي خارجي مباشرةً إلى قالب في منشئ الموقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="ed875-155">To add an external script directly to a template in site builder, follow these steps.</span></span>
+## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a><span data-ttu-id="136ad-134">أضف جزء يحتوي على التعليمات البرمجية للبرنامج النصي إلى قالب</span><span class="sxs-lookup"><span data-stu-id="136ad-134">Add a fragment that includes script code to a template</span></span>
 
-1. <span data-ttu-id="ed875-156">انتقل إلى **القوالب**، وافتح القالب الخاص بالصفحات التي تريد إضافة التعليمات البرمجية لبرنامج نصي اليها.</span><span class="sxs-lookup"><span data-stu-id="ed875-156">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
-1. <span data-ttu-id="ed875-157">في الجزء الأيسر، قم بتوسيع التدرج الهرمي للقالب لإظهار فتحة **عنوان HTML** .</span><span class="sxs-lookup"><span data-stu-id="ed875-157">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
-1. <span data-ttu-id="ed875-158">في فتحة **عنوان HTML‬‏‫**، وحدد علامة الحذف (**...**)، ثم حدد **إضافة وحدة**.</span><span class="sxs-lookup"><span data-stu-id="ed875-158">In the **HTML Head** slot, select the ellipsis button (**...**), and then select **Add Module**.</span></span>
-1. <span data-ttu-id="ed875-159">في مربع الحوار **إضافة وحدة**، حدد **البرنامج النصي الخارجي**.</span><span class="sxs-lookup"><span data-stu-id="ed875-159">In the **Add Module** dialog box, select **External script**.</span></span>
-1. <span data-ttu-id="ed875-160">في جزء الخصائص الموجود على الجانب الأيمن، ضمن **مصدر البرنامج النصي**، أضف عنوان URL خارجيًا أو ذي صلة لمصدر البرنامج النصي الخارجي.</span><span class="sxs-lookup"><span data-stu-id="ed875-160">In the property pane on the right, under **Script source**, add an external or relative URL for the external script source.</span></span> <span data-ttu-id="ed875-161">قم بعد ذلك بتكوين الخيارات الأخرى كما تتطلب.</span><span class="sxs-lookup"><span data-stu-id="ed875-161">Then configure other options as you require.</span></span>
-1. <span data-ttu-id="ed875-162">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="ed875-162">Select **Save**, and then select **Finish editing**.</span></span>
-1. <span data-ttu-id="ed875-163">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="ed875-163">Select **Publish**.</span></span>
+<span data-ttu-id="136ad-135">لإضافة جزء يتضمن التعليمات البرمجية للبرنامج النصي إلى قالب في منشئ المواقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="136ad-135">To add a fragment that includes script code to a template in site builder, follow these steps.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ed875-164">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="ed875-164">Additional resources</span></span>
+1. <span data-ttu-id="136ad-136">انتقل إلى **القوالب**، وافتح القالب الخاص بالصفحات التي تريد إضافة التعليمات البرمجية لبرنامج نصي اليها.</span><span class="sxs-lookup"><span data-stu-id="136ad-136">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
+1. <span data-ttu-id="136ad-137">في الجزء الأيسر، قم بتوسيع التدرج الهرمي للقالب لإظهار فتحة **عنوان HTML** .</span><span class="sxs-lookup"><span data-stu-id="136ad-137">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
+1. <span data-ttu-id="136ad-138">في فتحة **رأس HTML‬‏‫**، حدد زر علامة القطع (**...**)، ثم حدد **إضافة جزء**.</span><span class="sxs-lookup"><span data-stu-id="136ad-138">In the **HTML Head** slot, select the ellipsis button (**...**), and then select **Add fragment**.</span></span>
+1. <span data-ttu-id="136ad-139">حدد الجزء الذي قمت بإنشاءه للتعليمات البرمجية لبرنامجك النصي.</span><span class="sxs-lookup"><span data-stu-id="136ad-139">Select the fragment that you created for your script code.</span></span>
+1. <span data-ttu-id="136ad-140">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="136ad-140">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="136ad-141">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="136ad-141">Select **Publish**.</span></span>
 
-[<span data-ttu-id="ed875-165">إضافة شعار</span><span class="sxs-lookup"><span data-stu-id="ed875-165">Add a logo</span></span>](add-logo.md)
+## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a><span data-ttu-id="136ad-142">إضافة برنامج نصي خارجي أو برنامج نصي مضمن مباشرةً إلى قالب</span><span class="sxs-lookup"><span data-stu-id="136ad-142">Add an external script or inline script directly to a template</span></span>
 
-[<span data-ttu-id="ed875-166">تحديد سمة الموقع</span><span class="sxs-lookup"><span data-stu-id="ed875-166">Select a site theme</span></span>](select-site-theme.md)
+<span data-ttu-id="136ad-143">إذا كنت ترغب في إدراج برنامج نصي مضمن أو خارجي مباشرةً في مجموعة من الصفحات التي يتم التحكم فيها بواسطة قالب واحد، فلن تحتاج إلى إنشاء جزء أولاً.</span><span class="sxs-lookup"><span data-stu-id="136ad-143">If you want to insert an inline or external script directly into a set of pages that are controlled by a single template, you don't have to create a fragment first.</span></span>
 
-[<span data-ttu-id="ed875-167">العمل CSS مع ملفات التجاوز</span><span class="sxs-lookup"><span data-stu-id="ed875-167">Work with CSS override files</span></span>](css-override-files.md)
+### <a name="add-an-inline-script-directly-to-a-template"></a><span data-ttu-id="136ad-144">إضافة برنامج نصي مضمن مباشرةً إلى قالب</span><span class="sxs-lookup"><span data-stu-id="136ad-144">Add an inline script directly to a template</span></span>
 
-[<span data-ttu-id="ed875-168">إضافة أيقونة المفضلة</span><span class="sxs-lookup"><span data-stu-id="ed875-168">Add a favicon</span></span>](add-favicon.md)
+<span data-ttu-id="136ad-145">لإضافة برنامج نصي مضمن مباشرةً إلى قالب في منشئ الموقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="136ad-145">To add an inline script directly to a template in site builder, follow these steps.</span></span>
 
-[<span data-ttu-id="ed875-169">إضافة رسالة ترحيب</span><span class="sxs-lookup"><span data-stu-id="ed875-169">Add a welcome message</span></span>](add-welcome-message.md)
+1. <span data-ttu-id="136ad-146">انتقل إلى **القوالب**، وافتح القالب الخاص بالصفحات التي تريد إضافة التعليمات البرمجية لبرنامج نصي اليها.</span><span class="sxs-lookup"><span data-stu-id="136ad-146">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
+1. <span data-ttu-id="136ad-147">في الجزء الأيسر، قم بتوسيع التدرج الهرمي للقالب لإظهار فتحة **عنوان HTML** .</span><span class="sxs-lookup"><span data-stu-id="136ad-147">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
+1. <span data-ttu-id="136ad-148">في فتحة **عنوان HTML‬‏‫**، وحدد علامة الحذف (**...**)، ثم حدد **إضافة وحدة**.</span><span class="sxs-lookup"><span data-stu-id="136ad-148">In the **HTML Head** slot, select the ellipsis button (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="136ad-149">في مربع الحوار **إضافة وحدة**، حدد **البرنامج النصي المضمن**.</span><span class="sxs-lookup"><span data-stu-id="136ad-149">In the **Add Module** dialog box, select **Inline script**.</span></span>
+1. <span data-ttu-id="136ad-150">في جزء الخصائص الموجود على الجانب الأيمن، ضمن **البرنامج النصي المضمن**، أدخل البرنامج النصي من جانب العميل.</span><span class="sxs-lookup"><span data-stu-id="136ad-150">In the property pane on the right, under **Inline script**, enter your client-side script.</span></span> <span data-ttu-id="136ad-151">قم بعد ذلك بتكوين الخيارات الأخرى كما تتطلب.</span><span class="sxs-lookup"><span data-stu-id="136ad-151">Then configure other options as you require.</span></span>
+1. <span data-ttu-id="136ad-152">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="136ad-152">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="136ad-153">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="136ad-153">Select **Publish**.</span></span>
 
-[<span data-ttu-id="ed875-170">إضافة إشعار لحقوق النشر</span><span class="sxs-lookup"><span data-stu-id="ed875-170">Add a copyright notice</span></span>](add-copyright-notice.md)
+### <a name="add-an-external-script-directly-to-a-template"></a><span data-ttu-id="136ad-154">إضافة برنامج نصي خارجي مباشرةً إلى قالب</span><span class="sxs-lookup"><span data-stu-id="136ad-154">Add an external script directly to a template</span></span>
 
-[<span data-ttu-id="ed875-171">إضافة لغات إلى الموقع الخاص بك</span><span class="sxs-lookup"><span data-stu-id="ed875-171">Add languages to your site</span></span>](add-languages-to-site.md)
+<span data-ttu-id="136ad-155">لإضافة برنامج نصي خارجي مباشرةً إلى قالب في منشئ الموقع، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="136ad-155">To add an external script directly to a template in site builder, follow these steps.</span></span>
+
+1. <span data-ttu-id="136ad-156">انتقل إلى **القوالب**، وافتح القالب الخاص بالصفحات التي تريد إضافة التعليمات البرمجية لبرنامج نصي اليها.</span><span class="sxs-lookup"><span data-stu-id="136ad-156">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
+1. <span data-ttu-id="136ad-157">في الجزء الأيسر، قم بتوسيع التدرج الهرمي للقالب لإظهار فتحة **عنوان HTML** .</span><span class="sxs-lookup"><span data-stu-id="136ad-157">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
+1. <span data-ttu-id="136ad-158">في فتحة **عنوان HTML‬‏‫**، وحدد علامة الحذف (**...**)، ثم حدد **إضافة وحدة**.</span><span class="sxs-lookup"><span data-stu-id="136ad-158">In the **HTML Head** slot, select the ellipsis button (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="136ad-159">في مربع الحوار **إضافة وحدة**، حدد **البرنامج النصي الخارجي**.</span><span class="sxs-lookup"><span data-stu-id="136ad-159">In the **Add Module** dialog box, select **External script**.</span></span>
+1. <span data-ttu-id="136ad-160">في جزء الخصائص الموجود على الجانب الأيمن، ضمن **مصدر البرنامج النصي**، أضف عنوان URL خارجيًا أو ذي صلة لمصدر البرنامج النصي الخارجي.</span><span class="sxs-lookup"><span data-stu-id="136ad-160">In the property pane on the right, under **Script source**, add an external or relative URL for the external script source.</span></span> <span data-ttu-id="136ad-161">قم بعد ذلك بتكوين الخيارات الأخرى كما تتطلب.</span><span class="sxs-lookup"><span data-stu-id="136ad-161">Then configure other options as you require.</span></span>
+1. <span data-ttu-id="136ad-162">حدد **حفظ**، ثم قم بتحديد **إنهاء التحرير**.</span><span class="sxs-lookup"><span data-stu-id="136ad-162">Select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="136ad-163">حدد **نشر**.</span><span class="sxs-lookup"><span data-stu-id="136ad-163">Select **Publish**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="136ad-164">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="136ad-164">Additional resources</span></span>
+
+[<span data-ttu-id="136ad-165">إضافة شعار</span><span class="sxs-lookup"><span data-stu-id="136ad-165">Add a logo</span></span>](add-logo.md)
+
+[<span data-ttu-id="136ad-166">تحديد سمة الموقع</span><span class="sxs-lookup"><span data-stu-id="136ad-166">Select a site theme</span></span>](select-site-theme.md)
+
+[<span data-ttu-id="136ad-167">العمل CSS مع ملفات التجاوز</span><span class="sxs-lookup"><span data-stu-id="136ad-167">Work with CSS override files</span></span>](css-override-files.md)
+
+[<span data-ttu-id="136ad-168">إضافة أيقونة المفضلة</span><span class="sxs-lookup"><span data-stu-id="136ad-168">Add a favicon</span></span>](add-favicon.md)
+
+[<span data-ttu-id="136ad-169">إضافة رسالة ترحيب</span><span class="sxs-lookup"><span data-stu-id="136ad-169">Add a welcome message</span></span>](add-welcome-message.md)
+
+[<span data-ttu-id="136ad-170">إضافة إشعار لحقوق النشر</span><span class="sxs-lookup"><span data-stu-id="136ad-170">Add a copyright notice</span></span>](add-copyright-notice.md)
+
+[<span data-ttu-id="136ad-171">إضافة لغات إلى الموقع الخاص بك</span><span class="sxs-lookup"><span data-stu-id="136ad-171">Add languages to your site</span></span>](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
