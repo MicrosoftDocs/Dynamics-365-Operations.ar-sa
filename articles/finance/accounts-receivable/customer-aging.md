@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9291299e0b2ee040bc25ef21237a73c3bc0ea412
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 384e44ef07771a174aaed4f8fb893e75b0206da7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995653"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236976"
 ---
-# <a name="customer-aging-report"></a><span data-ttu-id="6b809-103">تقرير تقادم العميل</span><span class="sxs-lookup"><span data-stu-id="6b809-103">Customer aging report</span></span> 
+# <a name="customer-aging-report"></a><span data-ttu-id="d9cbb-103">تقرير تقادم العميل</span><span class="sxs-lookup"><span data-stu-id="d9cbb-103">Customer aging report</span></span> 
 
-<span data-ttu-id="6b809-104">ويعرض تقرير **فتره تقادم العميل** الارصده المستحقة من العملاء أو التي تم فرزها حسب فتره التاريخ أو فتره التقادم.</span><span class="sxs-lookup"><span data-stu-id="6b809-104">The **Customer aging** report displays the balances that are due from customers, sorted by date interval, or aging period.</span></span>
+<span data-ttu-id="d9cbb-104">ويعرض تقرير **فتره تقادم العميل** الارصده المستحقة من العملاء أو التي تم فرزها حسب فتره التاريخ أو فتره التقادم.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-104">The **Customer aging** report displays the balances that are due from customers, sorted by date interval, or aging period.</span></span>
 
-<span data-ttu-id="6b809-105">عند إنشاء هذا التقرير، تظهر المعلمات الافتراضية التالية.</span><span class="sxs-lookup"><span data-stu-id="6b809-105">When you generate this report, the following default parameters are displayed.</span></span> <span data-ttu-id="6b809-106">يمكنك استخدام هذه المعلمات لتصفية البيانات التي ستظهر في التقرير.</span><span class="sxs-lookup"><span data-stu-id="6b809-106">You can use these parameters to filter the data that will be displayed on the report.</span></span> <span data-ttu-id="6b809-107">لمزيدٍ من المعلومات، راجع [إعداد المجموعات](set-up-collections.md).</span><span class="sxs-lookup"><span data-stu-id="6b809-107">For more information, see [Set up collections](set-up-collections.md).</span></span>
+<span data-ttu-id="d9cbb-105">عند إنشاء هذا التقرير، تظهر المعلمات الافتراضية التالية.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-105">When you generate this report, the following default parameters are displayed.</span></span> <span data-ttu-id="d9cbb-106">يمكنك استخدام هذه المعلمات لتصفية البيانات التي ستظهر في التقرير.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-106">You can use these parameters to filter the data that will be displayed on the report.</span></span> <span data-ttu-id="d9cbb-107">لمزيدٍ من المعلومات، راجع [إعداد المجموعات](set-up-collections.md).</span><span class="sxs-lookup"><span data-stu-id="d9cbb-107">For more information, see [Set up collections](set-up-collections.md).</span></span>
 
 <table>
 <colgroup>
@@ -37,86 +37,86 @@ ms.locfileid: "4995653"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="6b809-108">الحقل</span><span class="sxs-lookup"><span data-stu-id="6b809-108">Field</span></span></p></th>
-<th><p><span data-ttu-id="6b809-109">الوصف</span><span class="sxs-lookup"><span data-stu-id="6b809-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="d9cbb-108">الحقل</span><span class="sxs-lookup"><span data-stu-id="d9cbb-108">Field</span></span></p></th>
+<th><p><span data-ttu-id="d9cbb-109">الوصف</span><span class="sxs-lookup"><span data-stu-id="d9cbb-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6b809-110"><strong>تصنيف الفوترة</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-110"><strong>Billing classification</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-111">حدد واحدًا أو أكثر من تصنيفات الفوترة المراد تضمينها في التقرير.</span><span class="sxs-lookup"><span data-stu-id="6b809-111">Select one or more billing classifications to include on the report.</span></span></p>
+<td><p><span data-ttu-id="d9cbb-110"><strong>تصنيف الفوترة</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-110"><strong>Billing classification</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-111">حدد واحدًا أو أكثر من تصنيفات الفوترة المراد تضمينها في التقرير.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-111">Select one or more billing classifications to include on the report.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="6b809-112">**ملاحظة:** يتوفر عنصر التحكم هذا فقط إذا تم تحديد مفتاح تكوين <STRONG>القطاع العام</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="6b809-112">**Note:** This control is available only if the <STRONG>Public Sector</STRONG> configuration key is selected.</span></span></P>
+<span data-ttu-id="d9cbb-112">**ملاحظة:** يتوفر عنصر التحكم هذا فقط إذا تم تحديد مفتاح تكوين <STRONG>القطاع العام</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-112">**Note:** This control is available only if the <STRONG>Public Sector</STRONG> configuration key is selected.</span></span></P>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6b809-113"><strong>تضمين حركات من دون تصنيف فوترة</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-113"><strong>Include transactions without a billing classification</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-114">في حاله تحديد خانه الاختيار هذه، سيتم عرض كافة الحركات التي لم يتم تعيين تصنيف فوتره لها في التقرير.</span><span class="sxs-lookup"><span data-stu-id="6b809-114">If this check box is selected, all transactions that do not have a billing classification assigned to them will be displayed on the report.</span></span></p>
+<td><p><span data-ttu-id="d9cbb-113"><strong>تضمين حركات من دون تصنيف فوترة</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-113"><strong>Include transactions without a billing classification</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-114">في حاله تحديد خانه الاختيار هذه، سيتم عرض كافة الحركات التي لم يتم تعيين تصنيف فوتره لها في التقرير.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-114">If this check box is selected, all transactions that do not have a billing classification assigned to them will be displayed on the report.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="6b809-115">**ملاحظة:** يتوفر عنصر التحكم هذا فقط إذا تم تحديد مفتاح تكوين <STRONG>القطاع العام</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="6b809-115">**Note:** This control is available only if the <STRONG>Public sector</STRONG> configuration key is selected.</span></span></P>
+<span data-ttu-id="d9cbb-115">**ملاحظة:** يتوفر عنصر التحكم هذا فقط إذا تم تحديد مفتاح تكوين <STRONG>القطاع العام</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-115">**Note:** This control is available only if the <STRONG>Public sector</STRONG> configuration key is selected.</span></span></P>
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6b809-116"><strong>فترة التأخر اعتبارًا من</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-116"><strong>Aging as of</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-117">ادخل التاريخ المستخدم في مستودع فتره التقادم الحالي.</span><span class="sxs-lookup"><span data-stu-id="6b809-117">Enter the date used on the current aging bucket.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-116"><strong>فترة التأخر اعتبارًا من</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-116"><strong>Aging as of</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-117">ادخل التاريخ المستخدم في مستودع فتره التقادم الحالي.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-117">Enter the date used on the current aging bucket.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6b809-118"><strong>الرصيد اعتبارًا من</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-118"><strong>Balance as of</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-119">أدخل التاريخ المراد عرض أرصدة العملاء له.</span><span class="sxs-lookup"><span data-stu-id="6b809-119">Enter the date to view the customer balances for.</span></span> <span data-ttu-id="6b809-120">ويعرف هذا أيضا بتاريخ الانقطاع الخاص بالحركات.</span><span class="sxs-lookup"><span data-stu-id="6b809-120">This is also known as a cutoff date for transactions.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-118"><strong>الرصيد اعتبارًا من</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-118"><strong>Balance as of</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-119">أدخل التاريخ المراد عرض أرصدة العملاء له.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-119">Enter the date to view the customer balances for.</span></span> <span data-ttu-id="d9cbb-120">ويعرف هذا أيضا بتاريخ الانقطاع الخاص بالحركات.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-120">This is also known as a cutoff date for transactions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6b809-121"><strong>تاريخ البدء</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-121"><strong>Start date</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-122">أدخل التاريخ الذي يقع ضمن الفاصل الأول للفترة أو فترة التقادم للتضمين في التقرير.</span><span class="sxs-lookup"><span data-stu-id="6b809-122">Enter a date that is in the first period interval or aging period to include on the report.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-121"><strong>تاريخ البدء</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-121"><strong>Start date</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-122">أدخل التاريخ الذي يقع ضمن الفاصل الأول للفترة أو فترة التقادم للتضمين في التقرير.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-122">Enter a date that is in the first period interval or aging period to include on the report.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6b809-123"><strong>المعايير</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-123"><strong>Criteria</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-124">حدد نوع التاريخ الذي يستند إليه التقرير.</span><span class="sxs-lookup"><span data-stu-id="6b809-124">Select the type of date to base the report on.</span></span></p>
+<td><p><span data-ttu-id="d9cbb-123"><strong>المعايير</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-123"><strong>Criteria</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-124">حدد نوع التاريخ الذي يستند إليه التقرير.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-124">Select the type of date to base the report on.</span></span></p>
 <ul>
-<li><p><span data-ttu-id="6b809-125"><strong>تاريخ الحركة</strong> - تاريخ الترحيل الخاص بالحركات المحددة.</span><span class="sxs-lookup"><span data-stu-id="6b809-125"><strong>Transaction date</strong> – The posting date of the transactions.</span></span> <span data-ttu-id="6b809-126">علي سبيل المثال، قد يكون هذا هو تاريخ الفاتورة الذي يعد أساس حساب تاريخ الاستحقاق.</span><span class="sxs-lookup"><span data-stu-id="6b809-126">For example, this might be an invoice date that is the basis for the calculation of the due date.</span></span></p></li>
-<li><p><span data-ttu-id="6b809-127"><strong>تاريخ الاستحقاق</strong> - تاريخ استحقاق الحركات استنادًا إلى شروط الدفع.</span><span class="sxs-lookup"><span data-stu-id="6b809-127"><strong>Due date</strong> – The due date of the transactions, based on the terms of payment.</span></span></p></li>
-<li><p><span data-ttu-id="6b809-128"><strong>تاريخ المستند</strong> - تاريخ المستند المحدد بواسطة المستخدم الذي يمثل أساس احتساب تاريخ الاستحقاق.</span><span class="sxs-lookup"><span data-stu-id="6b809-128"><strong>Document date</strong> – A user-defined document date that is the basis for the calculation of the due date.</span></span></p></li>
+<li><p><span data-ttu-id="d9cbb-125"><strong>تاريخ الحركة</strong> - تاريخ الترحيل الخاص بالحركات المحددة.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-125"><strong>Transaction date</strong> – The posting date of the transactions.</span></span> <span data-ttu-id="d9cbb-126">علي سبيل المثال، قد يكون هذا هو تاريخ الفاتورة الذي يعد أساس حساب تاريخ الاستحقاق.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-126">For example, this might be an invoice date that is the basis for the calculation of the due date.</span></span></p></li>
+<li><p><span data-ttu-id="d9cbb-127"><strong>تاريخ الاستحقاق</strong> - تاريخ استحقاق الحركات استنادًا إلى شروط الدفع.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-127"><strong>Due date</strong> – The due date of the transactions, based on the terms of payment.</span></span></p></li>
+<li><p><span data-ttu-id="d9cbb-128"><strong>تاريخ المستند</strong> - تاريخ المستند المحدد بواسطة المستخدم الذي يمثل أساس احتساب تاريخ الاستحقاق.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-128"><strong>Document date</strong> – A user-defined document date that is the basis for the calculation of the due date.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6b809-129"><strong>تعريف فترة التأخر</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-129"><strong>Aging period definition</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-130">حدد تعريف فترة تأخر.</span><span class="sxs-lookup"><span data-stu-id="6b809-130">Select an aging period definition.</span></span> <span data-ttu-id="6b809-131">لا يتم استخدام الحقل <strong>الفاصل</strong> في حالة تحديد فترة التقادم.</span><span class="sxs-lookup"><span data-stu-id="6b809-131">The <strong>Interval</strong> field is not used if you select an aging period definition.</span></span></p>
-<p><span data-ttu-id="6b809-132">لا يمكن استخدام تعريفات فترات التقادم التي تحتوي علي أكثر من ست فترات تقادم في التقرير المطبوع.</span><span class="sxs-lookup"><span data-stu-id="6b809-132">Aging period definitions that have more than six aging periods cannot be used on the printed report.</span></span></p>
+<td><p><span data-ttu-id="d9cbb-129"><strong>تعريف فترة التأخر</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-129"><strong>Aging period definition</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-130">حدد تعريف فترة تأخر.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-130">Select an aging period definition.</span></span> <span data-ttu-id="d9cbb-131">لا يتم استخدام الحقل <strong>الفاصل</strong> في حالة تحديد فترة التقادم.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-131">The <strong>Interval</strong> field is not used if you select an aging period definition.</span></span></p>
+<p><span data-ttu-id="d9cbb-132">لا يمكن استخدام تعريفات فترات التقادم التي تحتوي علي أكثر من ست فترات تقادم في التقرير المطبوع.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-132">Aging period definitions that have more than six aging periods cannot be used on the printed report.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="6b809-133">**ملاحظه:** يمكن اعداد فترات التقادم في صفحه <STRONG>تعريفات فترات التقادم</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="6b809-133">**Note:** You can set up aging periods on the <STRONG>Aging period definitions</STRONG> page.</span></span></P>
+<span data-ttu-id="d9cbb-133">**ملاحظه:** يمكن اعداد فترات التقادم في صفحه <STRONG>تعريفات فترات التقادم</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-133">**Note:** You can set up aging periods on the <STRONG>Aging period definitions</STRONG> page.</span></span></P>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6b809-134"><strong>طباعة وصف فترة التأخر</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-134"><strong>Print aging period description</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-135">حدد <strong>نعم</strong> لتضمين أوصاف فترة التقادم أعلى كل عمود من أعمدة فترة التقادم في التقرير.</span><span class="sxs-lookup"><span data-stu-id="6b809-135">Select <strong>Yes</strong> to include aging period descriptions at the top of each aging period column on the report.</span></span> <span data-ttu-id="6b809-136">حدد <strong>لا </strong> لطباعه التقرير بدون رؤوس الاعمده.</span><span class="sxs-lookup"><span data-stu-id="6b809-136">Select <strong>No</strong> to print the report without column headers.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-134"><strong>طباعة وصف فترة التأخر</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-134"><strong>Print aging period description</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-135">حدد <strong>نعم</strong> لتضمين أوصاف فترة التقادم أعلى كل عمود من أعمدة فترة التقادم في التقرير.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-135">Select <strong>Yes</strong> to include aging period descriptions at the top of each aging period column on the report.</span></span> <span data-ttu-id="d9cbb-136">حدد <strong>لا </strong> لطباعه التقرير بدون رؤوس الاعمده.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-136">Select <strong>No</strong> to print the report without column headers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6b809-137"><strong>الفترة</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-137"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-138">حدد فترة للاستخدام عن طريق إدخال رقم وحدات اليوم أو الشهر في كل فترة.</span><span class="sxs-lookup"><span data-stu-id="6b809-138">Define the period to use by entering the number of the day or month units in each period.</span></span> <span data-ttu-id="6b809-139">على سبيل المثال، لعرض معلومات التقادم بالأسبوع، أدخل 7 في هذا الحقل وحدد <strong>اليوم</strong> في الحقل <strong>اليوم/الشهر</strong>.</span><span class="sxs-lookup"><span data-stu-id="6b809-139">For example, to view aging information by week, enter 7 in this field and select <strong>Day</strong> in the <strong>Day/Mth</strong> field.</span></span></p>
+<td><p><span data-ttu-id="d9cbb-137"><strong>الفترة</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-137"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-138">حدد فترة للاستخدام عن طريق إدخال رقم وحدات اليوم أو الشهر في كل فترة.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-138">Define the period to use by entering the number of the day or month units in each period.</span></span> <span data-ttu-id="d9cbb-139">على سبيل المثال، لعرض معلومات التقادم بالأسبوع، أدخل 7 في هذا الحقل وحدد <strong>اليوم</strong> في الحقل <strong>اليوم/الشهر</strong>.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-139">For example, to view aging information by week, enter 7 in this field and select <strong>Day</strong> in the <strong>Day/Mth</strong> field.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="6b809-140">**ملاحظة:** يتم استخدام المعلومات التي تقوم بإدخالها في هذا الحقل فقط إذا لم تحدد فترة التقادم.</span><span class="sxs-lookup"><span data-stu-id="6b809-140">**Note:** The information that you enter in this field is used only if you have not selected an aging period definition.</span></span> <span data-ttu-id="6b809-141">وبخلاف ذلك، يتم تحديد اتجاه الطباعة في تعريف فتره التقادم.</span><span class="sxs-lookup"><span data-stu-id="6b809-141">Otherwise, the printing direction is defined on the aging period definition.</span></span></P>
+<span data-ttu-id="d9cbb-140">**ملاحظة:** يتم استخدام المعلومات التي تقوم بإدخالها في هذا الحقل فقط إذا لم تحدد فترة التقادم.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-140">**Note:** The information that you enter in this field is used only if you have not selected an aging period definition.</span></span> <span data-ttu-id="d9cbb-141">وبخلاف ذلك، يتم تحديد اتجاه الطباعة في تعريف فتره التقادم.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-141">Otherwise, the printing direction is defined on the aging period definition.</span></span></P>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6b809-142"><strong>اليوم/الشهر</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-142"><strong>Day/Mth</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-143">حدد الوحدة، إما أن تكون <strong>اليوم</strong> أو <strong>الشهر</strong>، التي يتم استخدامها لتحديد الفترة في الحقل <strong>الفاصل</strong>.</span><span class="sxs-lookup"><span data-stu-id="6b809-143">Select the unit, either <strong>Day</strong> or <strong>Month</strong>, that is used to define the period in the <strong>Interval</strong> field.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-142"><strong>اليوم/الشهر</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-142"><strong>Day/Mth</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-143">حدد الوحدة، إما أن تكون <strong>اليوم</strong> أو <strong>الشهر</strong>، التي يتم استخدامها لتحديد الفترة في الحقل <strong>الفاصل</strong>.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-143">Select the unit, either <strong>Day</strong> or <strong>Month</strong>, that is used to define the period in the <strong>Interval</strong> field.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6b809-144"><strong>اتجاه الطباعة</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-144"><strong>Printing direction</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-145">حدد ما إذا كان سيتم حساب الارصده وطباعه تقرير فتره التقادم للفترات الماضية أو المستقبلية.</span><span class="sxs-lookup"><span data-stu-id="6b809-145">Select whether to calculate balances and print the aging report for past or future periods.</span></span> <span data-ttu-id="6b809-146">يتم تقييم التواريخ بالنسبة إلى التاريخ المحدد في الحقل <strong>الرصيد بداية من</strong>.</span><span class="sxs-lookup"><span data-stu-id="6b809-146">The dates are evaluated relative to the date that is selected in the <strong>Balance as on</strong> field.</span></span> <span data-ttu-id="6b809-147">حدد، بعد ذلك، <strong>للخلف</strong> لعرض معلومات عن الفترات الماضية.</span><span class="sxs-lookup"><span data-stu-id="6b809-147">Select <strong>Backward</strong> to show information for past periods.</span></span> <span data-ttu-id="6b809-148">وحدد <strong>للأمام</strong> لعرض معلومات عن الفترات المستقبلية.</span><span class="sxs-lookup"><span data-stu-id="6b809-148">Select <strong>Forward</strong> to show information for future periods.</span></span></p>
-<div class="alert"><span data-ttu-id="6b809-149">
+<td><p><span data-ttu-id="d9cbb-144"><strong>اتجاه الطباعة</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-144"><strong>Printing direction</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-145">حدد ما إذا كان سيتم حساب الارصده وطباعه تقرير فتره التقادم للفترات الماضية أو المستقبلية.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-145">Select whether to calculate balances and print the aging report for past or future periods.</span></span> <span data-ttu-id="d9cbb-146">يتم تقييم التواريخ بالنسبة إلى التاريخ المحدد في الحقل <strong>الرصيد بداية من</strong>.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-146">The dates are evaluated relative to the date that is selected in the <strong>Balance as on</strong> field.</span></span> <span data-ttu-id="d9cbb-147">حدد، بعد ذلك، <strong>للخلف</strong> لعرض معلومات عن الفترات الماضية.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-147">Select <strong>Backward</strong> to show information for past periods.</span></span> <span data-ttu-id="d9cbb-148">وحدد <strong>للأمام</strong> لعرض معلومات عن الفترات المستقبلية.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-148">Select <strong>Forward</strong> to show information for future periods.</span></span></p>
+<div class="alert"><span data-ttu-id="d9cbb-149">
   
-<STRONG>ملاحظة:</STRONG> يتم استخدام المعلومات التي تقوم بإدخالها في هذا الحقل فقط إذا لم تحدد فترة التقادم.</span><span class="sxs-lookup"><span data-stu-id="6b809-149">
+<STRONG>ملاحظة:</STRONG> يتم استخدام المعلومات التي تقوم بإدخالها في هذا الحقل فقط إذا لم تحدد فترة التقادم.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-149">
   
 <STRONG>Note:</STRONG> The information that you enter in this field is used only if you have not selected an aging period definition.</span></span></P>
 
@@ -124,25 +124,28 @@ ms.locfileid: "4995653"
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6b809-150"><strong>تفاصيل</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-150"><strong>Details</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-151">حدد لسرد الحركات المضمَّنة في هذه الأرصدة المعروضة في التقرير.</span><span class="sxs-lookup"><span data-stu-id="6b809-151">Select to list the transactions that are included in the balances that are shown on the report.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-150"><strong>تفاصيل</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-150"><strong>Details</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-151">حدد لسرد الحركات المضمَّنة في هذه الأرصدة المعروضة في التقرير.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-151">Select to list the transactions that are included in the balances that are shown on the report.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6b809-152"><strong>تضمين المبالغ بعملة الحركة</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-152"><strong>Include amounts in transaction currency</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-153">حدد هذا الحقل لتضمين المبالغ بعمله الحركة بالاضافه إلى المبالغ الموجودة بعمله المحاسبة.</span><span class="sxs-lookup"><span data-stu-id="6b809-153">Select to include amounts in the transaction currency in addition to amounts in the accounting currency.</span></span> <span data-ttu-id="6b809-154">في حاله عدم تحديد خانه الاختيار هذه، يتم عرض المبالغ الموجودة في التقرير فقط بعمله المحاسبة.</span><span class="sxs-lookup"><span data-stu-id="6b809-154">If this check box is not selected, the amounts on the report are displayed only in the accounting currency.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-152"><strong>تضمين المبالغ بعملة الحركة</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-152"><strong>Include amounts in transaction currency</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-153">حدد هذا الحقل لتضمين المبالغ بعمله الحركة بالاضافه إلى المبالغ الموجودة بعمله المحاسبة.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-153">Select to include amounts in the transaction currency in addition to amounts in the accounting currency.</span></span> <span data-ttu-id="d9cbb-154">في حاله عدم تحديد خانه الاختيار هذه، يتم عرض المبالغ الموجودة في التقرير فقط بعمله المحاسبة.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-154">If this check box is not selected, the amounts on the report are displayed only in the accounting currency.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6b809-155"><strong>رصيد سالب</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-155"><strong>Negative balance</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-156">حدد هذا الحقل لتضمين حسابات العملاء التي تشتمل علي ارصده سالبه.</span><span class="sxs-lookup"><span data-stu-id="6b809-156">Select to include customer accounts that have negative balances.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-155"><strong>رصيد سالب</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-155"><strong>Negative balance</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-156">حدد هذا الحقل لتضمين حسابات العملاء التي تشتمل علي ارصده سالبه.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-156">Select to include customer accounts that have negative balances.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6b809-157"><strong>استثناء الحسابات ذات الرصيد الصفري</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-157"><strong>Exclude zero balance accounts</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-158">حدد لاستثناء حسابات العملاء التي تشتمل علي ارصده صفرية.</span><span class="sxs-lookup"><span data-stu-id="6b809-158">Select to exclude customer accounts that have a zero balance.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-157"><strong>استثناء الحسابات ذات الرصيد الصفري</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-157"><strong>Exclude zero balance accounts</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-158">حدد لاستثناء حسابات العملاء التي تشتمل علي ارصده صفرية.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-158">Select to exclude customer accounts that have a zero balance.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6b809-159"><strong>تحديد موضع عملية الدفع</strong></span><span class="sxs-lookup"><span data-stu-id="6b809-159"><strong>Payment positioning</strong></span></span></p></td>
-<td><p><span data-ttu-id="6b809-160">حدد لعرض المدفوعات التي لم تتم تسويتها.</span><span class="sxs-lookup"><span data-stu-id="6b809-160">Select to display payments that have not been settled.</span></span> <span data-ttu-id="6b809-161">ويتم عرضها في العمود الأول من التقرير.</span><span class="sxs-lookup"><span data-stu-id="6b809-161">These are displayed in the first column of the report.</span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-159"><strong>تحديد موضع عملية الدفع</strong></span><span class="sxs-lookup"><span data-stu-id="d9cbb-159"><strong>Payment positioning</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9cbb-160">حدد لعرض المدفوعات التي لم تتم تسويتها.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-160">Select to display payments that have not been settled.</span></span> <span data-ttu-id="d9cbb-161">ويتم عرضها في العمود الأول من التقرير.</span><span class="sxs-lookup"><span data-stu-id="d9cbb-161">These are displayed in the first column of the report.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
