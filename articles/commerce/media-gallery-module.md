@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 045568797722a621ea4e6c82d10dbb266b9e8162
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9b5a8123c64dce2ba65758f0312a899646cf948
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982456"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252548"
 ---
-# <a name="media-gallery-module"></a>وحدة معرض الوسائط
+# <a name="media-gallery-module"></a>الوحدة النمطية لمعرض الوسائط
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع وحدات معرض الوسائط ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تعرض وحدات معرض الوسائط صورة أو أكثر في طريقة عرض المعرض. تتضمن وحدات معرض الوسائط صورًا مصغرة، يمكنك ترتيبها إما أفقيًا (كصف أسفل الصورة) أو عموديًا (كعمود بجانب الصورة). وتوفر أيضًا وحدات معرض الوسائط إمكانيات تتيح تكبير الصور أو عرضها في وضع ملء الشاشة. كي تم عرض الصورة في وحدة معرض الوسائط، يجب أن تكون متوفرة في مكتبة وسائط منشئ موقع Commerce. في الوقت الحالي، تدعم وحدات معرض الوسائط الصور فقط.
 
