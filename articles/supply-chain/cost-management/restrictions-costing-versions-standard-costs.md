@@ -18,35 +18,38 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5339c3c4a62b94a06cbffc200ed1e9b227d6b6af
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0f8f5707b6f51372684606d135c0643b36e3a94f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963778"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245241"
 ---
-#  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="c4baa-103">قيود على إصدارات التكاليف للتكاليف القياسية</span><span class="sxs-lookup"><span data-stu-id="c4baa-103">Restrictions on costing versions for standard costs</span></span>
+#  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="cb462-103">قيود على إصدارات التكاليف للتكاليف القياسية</span><span class="sxs-lookup"><span data-stu-id="cb462-103">Restrictions on costing versions for standard costs</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c4baa-104">يوضح هذا الموضوع القيود التي يتم تطبيقها على إصدار التكلفة للتكاليف القياسية.</span><span class="sxs-lookup"><span data-stu-id="c4baa-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
+<span data-ttu-id="cb462-104">يوضح هذا الموضوع القيود التي يتم تطبيقها على إصدار التكلفة للتكاليف القياسية.</span><span class="sxs-lookup"><span data-stu-id="cb462-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
 
-<span data-ttu-id="c4baa-105">تساعد القيود التالية على ضمان الالتزام بمبادئ التكلفة القياسية:</span><span class="sxs-lookup"><span data-stu-id="c4baa-105">The following restrictions help guarantee adherence to standard costing principles:</span></span>
+<span data-ttu-id="cb462-105">تساعد القيود التالية على ضمان الالتزام بمبادئ التكلفة القياسية:</span><span class="sxs-lookup"><span data-stu-id="cb462-105">The following restrictions help guarantee adherence to standard costing principles:</span></span>
 
--  <span data-ttu-id="c4baa-106">يجب تضمين المصاريف في تكلفة الصنف.</span><span class="sxs-lookup"><span data-stu-id="c4baa-106">Charges must be included in an item's cost.</span></span> <span data-ttu-id="c4baa-107">وتقدم المصاريف لصنف مصنّع التكاليف الثابتة المستهلكة في قائمة مكونات الصنف (BOM) ومعلومات التوجيه.</span><span class="sxs-lookup"><span data-stu-id="c4baa-107">The charges for a manufactured item represent the amortized constant costs in the bill of materials (BOM) and route information.</span></span> <span data-ttu-id="c4baa-108">لذلك، يجب تضمين المصاريف في تكلفة الوحدة.</span><span class="sxs-lookup"><span data-stu-id="c4baa-108">Therefore, the charges must be included in the unit cost.</span></span> <span data-ttu-id="c4baa-109">كما يتم تضمين المصاريف لصنف تم شراؤه أيضًا في تكلفة وحدة الصنف.</span><span class="sxs-lookup"><span data-stu-id="c4baa-109">The charges for a purchased item are also included in the item's unit cost.</span></span>
+-  <span data-ttu-id="cb462-106">يجب تضمين المصاريف في تكلفة الصنف.</span><span class="sxs-lookup"><span data-stu-id="cb462-106">Charges must be included in an item's cost.</span></span> <span data-ttu-id="cb462-107">وتقدم المصاريف لصنف مصنّع التكاليف الثابتة المستهلكة في قائمة مكونات الصنف (BOM) ومعلومات التوجيه.</span><span class="sxs-lookup"><span data-stu-id="cb462-107">The charges for a manufactured item represent the amortized constant costs in the bill of materials (BOM) and route information.</span></span> <span data-ttu-id="cb462-108">لذلك، يجب تضمين المصاريف في تكلفة الوحدة.</span><span class="sxs-lookup"><span data-stu-id="cb462-108">Therefore, the charges must be included in the unit cost.</span></span> <span data-ttu-id="cb462-109">كما يتم تضمين المصاريف لصنف تم شراؤه أيضًا في تكلفة وحدة الصنف.</span><span class="sxs-lookup"><span data-stu-id="cb462-109">The charges for a purchased item are also included in the item's unit cost.</span></span>
 
--  <span data-ttu-id="c4baa-110">يجب أن يعتمد حساب التكاليف القياسية للأصناف المصنّعة على سجلات التكلفة في إصدار تكلفة للتكاليف القياسية.</span><span class="sxs-lookup"><span data-stu-id="c4baa-110">Calculation of standard costs for manufactured items must be based on the cost records in a costing version for standard costs.</span></span> <span data-ttu-id="c4baa-111">ويمكن استخدام المصادر البديلة لبيانات التكلفة فقط مع إصدار تكلفة للتكاليف المخططة، على سبيل المثال، اتفاقيات تجارية بسعر الشراء للأصناف التي تم شراؤها.</span><span class="sxs-lookup"><span data-stu-id="c4baa-111">Alternative sources of cost data can be used only with a costing version for planned costs, such as purchase price trade agreements for purchased items.</span></span> <span data-ttu-id="c4baa-112">يتم تحديد مصادر بديلة لبيانات التكلفة حسب مجموعة حساب قائمة مكونات الصنف (BOM).</span><span class="sxs-lookup"><span data-stu-id="c4baa-112">Alternative sources of cost data are defined by the BOM calculation group.</span></span>
+-  <span data-ttu-id="cb462-110">يجب أن يعتمد حساب التكاليف القياسية للأصناف المصنّعة على سجلات التكلفة في إصدار تكلفة للتكاليف القياسية.</span><span class="sxs-lookup"><span data-stu-id="cb462-110">Calculation of standard costs for manufactured items must be based on the cost records in a costing version for standard costs.</span></span> <span data-ttu-id="cb462-111">ويمكن استخدام المصادر البديلة لبيانات التكلفة فقط مع إصدار تكلفة للتكاليف المخططة، على سبيل المثال، اتفاقيات تجارية بسعر الشراء للأصناف التي تم شراؤها.</span><span class="sxs-lookup"><span data-stu-id="cb462-111">Alternative sources of cost data can be used only with a costing version for planned costs, such as purchase price trade agreements for purchased items.</span></span> <span data-ttu-id="cb462-112">يتم تحديد مصادر بديلة لبيانات التكلفة حسب مجموعة حساب قائمة مكونات الصنف (BOM).</span><span class="sxs-lookup"><span data-stu-id="cb462-112">Alternative sources of cost data are defined by the BOM calculation group.</span></span>
 
--  <span data-ttu-id="c4baa-113">يجب تنفيذ عمليات حساب قائمة مكونات الصنف (BOM) في وضع عملية تحديد إجمالي المكونات المطلوبة بمستوى واحد.</span><span class="sxs-lookup"><span data-stu-id="c4baa-113">BOM calculations must be performed in a single-level explosion mode.</span></span>
+-  <span data-ttu-id="cb462-113">يجب تنفيذ عمليات حساب قائمة مكونات الصنف (BOM) في وضع عملية تحديد إجمالي المكونات المطلوبة بمستوى واحد.</span><span class="sxs-lookup"><span data-stu-id="cb462-113">BOM calculations must be performed in a single-level explosion mode.</span></span>
 
-<span data-ttu-id="c4baa-114">يمكن نسخ بيانات تكلفة الصنف للتكاليف القياسية إلى إصدار تكلفة آخر يحتوي على تكاليف قياسية أو تكاليف مخططة.</span><span class="sxs-lookup"><span data-stu-id="c4baa-114">The item cost data for standard costs can be copied to another costing version that contains standard costs or planned costs.</span></span> <span data-ttu-id="c4baa-115">ومع ذلك؛ لا يمكن نسخ بيانات تكلفة الصنف للتكاليف المخططة إلى إصدار تكلفة يحتوي على تكاليف قياسية؛ وذلك لأن القيود التي تم إدراجها في بداية هذا الموضوع لا تنطبق على التكاليف المخططة.</span><span class="sxs-lookup"><span data-stu-id="c4baa-115">However, the item cost data for planned costs can't be copied to a cost version that contains standard costs, because the restrictions that are listed earlier in this topic don't apply to planned costs.</span></span>
+<span data-ttu-id="cb462-114">يمكن نسخ بيانات تكلفة الصنف للتكاليف القياسية إلى إصدار تكلفة آخر يحتوي على تكاليف قياسية أو تكاليف مخططة.</span><span class="sxs-lookup"><span data-stu-id="cb462-114">The item cost data for standard costs can be copied to another costing version that contains standard costs or planned costs.</span></span> <span data-ttu-id="cb462-115">ومع ذلك؛ لا يمكن نسخ بيانات تكلفة الصنف للتكاليف المخططة إلى إصدار تكلفة يحتوي على تكاليف قياسية؛ وذلك لأن القيود التي تم إدراجها في بداية هذا الموضوع لا تنطبق على التكاليف المخططة.</span><span class="sxs-lookup"><span data-stu-id="cb462-115">However, the item cost data for planned costs can't be copied to a cost version that contains standard costs, because the restrictions that are listed earlier in this topic don't apply to planned costs.</span></span>
 
-<a name="related-topics"></a><span data-ttu-id="c4baa-116">مواضيع مرتبطة</span><span class="sxs-lookup"><span data-stu-id="c4baa-116">Related topics</span></span>
+<a name="related-topics"></a><span data-ttu-id="cb462-116">مواضيع مرتبطة</span><span class="sxs-lookup"><span data-stu-id="cb462-116">Related topics</span></span>
 --------
 
-[<span data-ttu-id="c4baa-117">نظرة عامة حول إصدارات التكاليف</span><span class="sxs-lookup"><span data-stu-id="c4baa-117">Costing versions overview</span></span>](costing-versions.md)
+[<span data-ttu-id="cb462-117">نظرة عامة حول إصدارات التكاليف</span><span class="sxs-lookup"><span data-stu-id="cb462-117">Costing versions overview</span></span>](costing-versions.md)
 
-[<span data-ttu-id="c4baa-118">تحديث التكاليف القياسية في بيئة غير تصنيع</span><span class="sxs-lookup"><span data-stu-id="c4baa-118">Update standard costs in a non-manufacturing environment</span></span>](update-standard-costs-non-manufacturing-environment.md)
+[<span data-ttu-id="cb462-118">تحديث التكاليف القياسية في بيئة غير تصنيع</span><span class="sxs-lookup"><span data-stu-id="cb462-118">Update standard costs in a non-manufacturing environment</span></span>](update-standard-costs-non-manufacturing-environment.md)
 
-[<span data-ttu-id="c4baa-119">الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة</span><span class="sxs-lookup"><span data-stu-id="c4baa-119">Prepare to maintain standard costs for manufactured items</span></span>](update-standard-costs-manufacturing-environment.md)
+[<span data-ttu-id="cb462-119">الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة</span><span class="sxs-lookup"><span data-stu-id="cb462-119">Prepare to maintain standard costs for manufactured items</span></span>](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

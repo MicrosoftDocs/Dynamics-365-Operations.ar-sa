@@ -16,25 +16,28 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5801b23906ef89b1681b5dc3742c075ee2e5a964
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e2169cc13842328973cabf01c49c60a0f369c16c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001963"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239388"
 ---
-# <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="78d02-103">عرض بيان المخزون ومؤشرات الأداء الرئيسية حسب كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="78d02-103">View inventory statement and KPI by cost object</span></span>
+# <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="8c52a-103">عرض بيان المخزون ومؤشرات الأداء الرئيسية حسب كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="8c52a-103">View inventory statement and KPI by cost object</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="78d02-104">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="78d02-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="78d02-105">هذا الإجراء مخصص لمراقب التكاليف‬.</span><span class="sxs-lookup"><span data-stu-id="78d02-105">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="8c52a-104">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="8c52a-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8c52a-105">هذا الإجراء مخصص لمراقب التكاليف‬.</span><span class="sxs-lookup"><span data-stu-id="8c52a-105">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="78d02-106">انقر فوق "إدارة التكلفة"</span><span class="sxs-lookup"><span data-stu-id="78d02-106">Click Cost administration.</span></span>
-2. <span data-ttu-id="78d02-107">انقر فوق "المنتجات التي تم إصدارها".</span><span class="sxs-lookup"><span data-stu-id="78d02-107">Click Released products.</span></span>
-3. <span data-ttu-id="78d02-108">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="78d02-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="78d02-109">على سبيل المثال، قم بإجراء التصفية على الحقل "رقم الصنف" باستخدام القيمة "d0005".</span><span class="sxs-lookup"><span data-stu-id="78d02-109">For example, filter on the Item number field with a value of 'd0005'.</span></span>
-4. <span data-ttu-id="78d02-110">في جزء الإجراءات، انقر فوق "إدارة التكاليف‬".</span><span class="sxs-lookup"><span data-stu-id="78d02-110">On the Action Pane, click Manage costs.</span></span>
-5. <span data-ttu-id="78d02-111">انقر فوق "كائنات التكلفة".</span><span class="sxs-lookup"><span data-stu-id="78d02-111">Click Cost objects.</span></span>
-6. <span data-ttu-id="78d02-112">انقر فوق "كشف المخزون ومؤشرات الأداء الرئيسية".</span><span class="sxs-lookup"><span data-stu-id="78d02-112">Click Inventory statement and KPIs.</span></span>
-7. <span data-ttu-id="78d02-113">في الحقل "من تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="78d02-113">In the From date field, enter a date.</span></span>
-8. <span data-ttu-id="78d02-114">في الحقل "إلى تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="78d02-114">In the To date field, enter a date.</span></span>
+1. <span data-ttu-id="8c52a-106">انقر فوق "إدارة التكلفة"</span><span class="sxs-lookup"><span data-stu-id="8c52a-106">Click Cost administration.</span></span>
+2. <span data-ttu-id="8c52a-107">انقر فوق "المنتجات التي تم إصدارها".</span><span class="sxs-lookup"><span data-stu-id="8c52a-107">Click Released products.</span></span>
+3. <span data-ttu-id="8c52a-108">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="8c52a-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="8c52a-109">على سبيل المثال، قم بإجراء التصفية على الحقل "رقم الصنف" باستخدام القيمة "d0005".</span><span class="sxs-lookup"><span data-stu-id="8c52a-109">For example, filter on the Item number field with a value of 'd0005'.</span></span>
+4. <span data-ttu-id="8c52a-110">في جزء الإجراءات، انقر فوق "إدارة التكاليف‬".</span><span class="sxs-lookup"><span data-stu-id="8c52a-110">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="8c52a-111">انقر فوق "كائنات التكلفة".</span><span class="sxs-lookup"><span data-stu-id="8c52a-111">Click Cost objects.</span></span>
+6. <span data-ttu-id="8c52a-112">انقر فوق "كشف المخزون ومؤشرات الأداء الرئيسية".</span><span class="sxs-lookup"><span data-stu-id="8c52a-112">Click Inventory statement and KPIs.</span></span>
+7. <span data-ttu-id="8c52a-113">في الحقل "من تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="8c52a-113">In the From date field, enter a date.</span></span>
+8. <span data-ttu-id="8c52a-114">في الحقل "إلى تاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="8c52a-114">In the To date field, enter a date.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
