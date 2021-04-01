@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة حول موقع التجارة الالكترونية
-description: يقدم هذا الموضوع نظره عامة حول دعم مواقع التجارة الإلكترونية في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا الموضوع نظرة عامة حول دعم مواقع التجارة الإلكترونية في Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
 ms.date: 11/05/2020
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae220e98acbda99255beefea598d973dbaa22368
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 53bce671d6aca35335a3b3ef557a94fa60da1edc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997537"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251177"
 ---
-# <a name="e-commerce-site-overview"></a>نظرة عامة حول موقع التجارة الالكترونية
+# <a name="e-commerce-site-overview"></a>نظره عامه حول موقع التجارة الإلكترونية
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظره عامة حول دعم مواقع التجارة الإلكترونية في Microsoft Dynamics 365 Commerce. وهو يتضمن معلومات حول كيفية تهيئة وإدارة متاجر التجارة الإلكترونية عبر الإنترنت في Dynamics 365 Commerce. كما يوفر روابط لمزيد من المعلومات حول المتاجر عبر الإنترنت، وحول كيفية إعداد موقع التجارة الإلكترونية وتكوينه. على الرغم من أن هذا الموضوع يغطي العديد من الأساسيات، إلا أنه لا يغطي كل ما هو مطلوب لإنشاء موقع تجارة إلكترونية للإنتاج. يمكن الاطلاع علي مواضيع أكثر تقدمًا في وثائق Dynamics 365 Commerce .
+يقدم هذا الموضوع نظرة عامة حول دعم مواقع التجارة الإلكترونية في Microsoft Dynamics 365 Commerce. وهو يتضمن معلومات حول كيفية تهيئة وإدارة متاجر التجارة الإلكترونية عبر الإنترنت في Dynamics 365 Commerce. كما يوفر روابط لمزيد من المعلومات حول المتاجر عبر الإنترنت، وحول كيفية إعداد موقع التجارة الإلكترونية وتكوينه. على الرغم من أن هذا الموضوع يغطي العديد من الأساسيات، إلا أنه لا يغطي كل ما هو مطلوب لإنشاء موقع تجارة إلكترونية للإنتاج. يمكن الاطلاع علي مواضيع أكثر تقدمًا في وثائق Dynamics 365 Commerce .
 
 ## <a name="online-store-channel"></a>قناة متجر عبر الإنترنت
 

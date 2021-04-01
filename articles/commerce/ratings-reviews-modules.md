@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: b17e986c2e30134c334cd547a85a1dd682172a0e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26658ebdbc70613baf30c344664133b9cf5911ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979793"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243759"
 ---
-# <a name="ratings-and-reviews-modules"></a>وحدات التقييمات والمراجعات
+# <a name="ratings-and-reviews-modules"></a>الوحدات النمطية للتقييمات والمراجعات
 
 [!include [banner](includes/banner.md)]
 
 يغطي هذا الموضوع الوحدات النمطية للتقييمات والمراجعات المستخدمة على صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تساعد التقييمات والمراجعات على مواقع التجارة الإلكترونية العملاء على التعرف على المنتجات قبل اتخاذ قرار الشراء، كما تعد بمثابة آلية لجمع ملاحظات العميل‬ بشأن هذه المنتجات. 
 

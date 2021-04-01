@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ffaeafa987c85aee17404fbfcf8c69c9699e2f3b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 016787fa0636b0a3c0d17d2e4fd890cf56d8f519
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994980"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241224"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>نظرة عامة على ترقية دفاتر الإهلاك
 
@@ -51,10 +51,10 @@ ms.locfileid: "4994980"
 الخيار 2: **التسلسل الرقمي المعرّف من قبل مستخدم موجود** - يتيح هذا الخيار إمكانية تحديد التسلسل الرقمي لاستخدامه للترقية. يمكنك استخدام هذا الخيار إذا احتجت إلى تكوين متقدم للتسلسل الرقمي. لاستخدام تسلسل رقمي، يجب عليك تعديل فئة ترقية ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans بالمعلومات التالية:
 
 -   **كود التسلسل الرقمي** - كود التسلسل الرقمي.
-    -   اسم الثابت: **NumberSequenceExistingCode **
+    -   اسم الثابت: **NumberSequenceExistingCode**
     -   القيمة الافتراضية: لا قيمة افتراضية، يجب تحديثها إلى كود التسلسل الرقمي.
 -   **التسلسل الرقمي المشترك** – قيمة منطقية لتحديد نطاق التسلسل الرقمي. استخدم "true" للتسلسلات الرقمية المشتركة عبر كافة الشركات و "false" لنطاق خاص بالشركة. عند استخدام "false"، يجب أن يكون التسلسل الرقمي بالاسم المحدد موجودًا في كل شركة تحتوي على حركات دفتر الإهلاك. توجد التسلسلات الرقمية المشتركة في كل قسم يحتوي على حركات دفتر الإهلاك.
-    -   اسم الثابت: **NumberSequenceExistingIsShared **
+    -   اسم الثابت: **NumberSequenceExistingIsShared**
     -   القيمة الافتراضية: true
 
 توجد المحددات في بداية الفئة ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans class. 

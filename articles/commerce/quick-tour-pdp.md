@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على صفحات تفاصيل المنتج
-description: يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (بتنسيق PDP) في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 01/23/2020
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b0f50b4e7b78f4a5b9fe674a101476879923e10d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 020c2a72515eb112adb33c6b58e3a5084339d040
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979818"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243806"
 ---
 # <a name="product-details-pages-overview"></a>نظرة عامة على صفحات تفاصيل المنتج
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (بتنسيق PDP) في Microsoft Dynamics 365 Commerce.
+يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>نظرة عامة
 
