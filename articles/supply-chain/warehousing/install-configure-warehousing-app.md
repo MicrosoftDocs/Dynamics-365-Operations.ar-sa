@@ -18,19 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142265"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486967"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>تثبيت تطبيق المستودع وتوصيله
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> يصف هذا الموضوع كيفية تكوين تطبيق المستودع القديم. إذا كنت تبحث عن معلومات حول كيفيه تكوين تطبيق الاجهزه المحمولة الخاص باداره المستودع الجديد (حاليا في المعاينة العامة)، راجع [تثبيت تطبيق الاجهزه المحمولة لأداره المستودعات والاتصال به](install-configure-warehouse-management-app.md).
+> يصف هذا الموضوع كيفية تكوين تطبيق المستودع القديم. إذا كنت تبحث عن معلومات حول كيفية تكوين تطبيق الأجهزة المحمولة الخاص بإدارة المستودع، راجع [تثبيت تطبيق الأجهزة المحمولة لإدارة المستودعات والاتصال به](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > يوضح هذا الموضوع كيفية تكوين تطبيق المستودع لعمليات توزيع المجموعة. إذا كنت تبحث عن معلومات حول كيفية تكوين تطبيق مستودع لعمليات التوزيع المحلي، فراجع [التخزين لعمليات التوزيع المحلية](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
