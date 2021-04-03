@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,24 +16,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 3355c3bced950f65964b124fee553d8c5b53c6b0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a6b6a2e4bc3c0eca8185f501121d9d1ba1b4e063
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679572"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561964"
 ---
-# <a name="power-bi-destination"></a><span data-ttu-id="fe2b0-103">وجهة Power BI</span><span class="sxs-lookup"><span data-stu-id="fe2b0-103">Power BI destination</span></span>
+# <a name="power-bi-destination"></a><span data-ttu-id="68128-103">وجهة Power BI</span><span class="sxs-lookup"><span data-stu-id="68128-103">Power BI destination</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fe2b0-104">يمكنك تكوين وجهة Microsoft Power BI لكل مكون "ملف" أو "مجلد" لتنسيق إعداد التقارير الإلكترونية (ER) التي يتم تكوينها لإنشاء مستندات صادرة.</span><span class="sxs-lookup"><span data-stu-id="fe2b0-104">You can configure a Microsoft Power BI destination for each folder or file component of an Electronic reporting (ER) format that is configured to generate outbound documents.</span></span> <span data-ttu-id="fe2b0-105">استنادًا إلى إعداد الوجهة، يتم تخزين المستند المنشأ في مجلد SharePoint تم تكوينه مسبقًا.</span><span class="sxs-lookup"><span data-stu-id="fe2b0-105">Based on the setting of the destination, a generated document is stored in a previously configured SharePoint folder.</span></span>
+<span data-ttu-id="68128-104">يمكنك تكوين وجهة Microsoft Power BI لكل مكون "ملف" أو "مجلد" لتنسيق إعداد التقارير الإلكترونية (ER) التي يتم تكوينها لإنشاء مستندات صادرة.</span><span class="sxs-lookup"><span data-stu-id="68128-104">You can configure a Microsoft Power BI destination for each folder or file component of an Electronic reporting (ER) format that is configured to generate outbound documents.</span></span> <span data-ttu-id="68128-105">استنادًا إلى إعداد الوجهة، يتم تخزين المستند المنشأ في مجلد SharePoint تم تكوينه مسبقًا.</span><span class="sxs-lookup"><span data-stu-id="68128-105">Based on the setting of the destination, a generated document is stored in a previously configured SharePoint folder.</span></span>
 
-<span data-ttu-id="fe2b0-106">عيّن الخيار **ممكّن** إلى **نعم‏‎** لاستخدام تكوين إعداد التقارير الإلكترونية لترتيب نقل البيانات من مثيل Dynamics 365 Finance إلى خدمات Microsoft Power BI .</span><span class="sxs-lookup"><span data-stu-id="fe2b0-106">Set **Enabled** to **Yes** to use your ER configuration to arrange the transfer of data from your Dynamics 365 Finance instance to Microsoft Power BI services.</span></span> <span data-ttu-id="fe2b0-107">‏‫يتم تخزين الملفات المنقولة على مثيل Microsoft SharePoint Server تم تكوينه لهذا الغرض.</span><span class="sxs-lookup"><span data-stu-id="fe2b0-107">The transferred files are stored on a Microsoft SharePoint Server instance that must be configured for that purpose.</span></span> <span data-ttu-id="fe2b0-108">لمزيد من المعلومات، راجع [تكوين التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).</span><span class="sxs-lookup"><span data-stu-id="fe2b0-108">For more information, see [Configure Electronic reporting (ER) to pull data into Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).</span></span>
+<span data-ttu-id="68128-106">عيّن الخيار **ممكّن** إلى **نعم‏‎** لاستخدام تكوين إعداد التقارير الإلكترونية لترتيب نقل البيانات من مثيل Dynamics 365 Finance إلى خدمات Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="68128-106">Set **Enabled** to **Yes** to use your ER configuration to arrange the transfer of data from your Dynamics 365 Finance instance to Microsoft Power BI services.</span></span> <span data-ttu-id="68128-107">‏‫يتم تخزين الملفات المنقولة على مثيل Microsoft SharePoint Server تم تكوينه لهذا الغرض.</span><span class="sxs-lookup"><span data-stu-id="68128-107">The transferred files are stored on a Microsoft SharePoint Server instance that must be configured for that purpose.</span></span> <span data-ttu-id="68128-108">لمزيد من المعلومات، راجع [تكوين التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).</span><span class="sxs-lookup"><span data-stu-id="68128-108">For more information, see [Configure Electronic reporting (ER) to pull data into Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).</span></span>
 
-<span data-ttu-id="fe2b0-109">[![صفحة إعدادات الوجهة](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)</span><span class="sxs-lookup"><span data-stu-id="fe2b0-109">[![Destination setting page](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)</span></span>
+<span data-ttu-id="68128-109">[![صفحة إعدادات الوجهة](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)</span><span class="sxs-lookup"><span data-stu-id="68128-109">[![Destination setting page](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="fe2b0-110">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="fe2b0-110">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="68128-110">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="68128-110">Additional resources</span></span>
 
-- [<span data-ttu-id="fe2b0-111">نظرة عامة على إعداد التقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="fe2b0-111">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
-- [<span data-ttu-id="fe2b0-112">وجهات إعداد التقارير الإلكترونية (ER)‬</span><span class="sxs-lookup"><span data-stu-id="fe2b0-112">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
+- [<span data-ttu-id="68128-111">نظرة عامة على إعداد التقارير الإلكترونية (ER)</span><span class="sxs-lookup"><span data-stu-id="68128-111">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
+- [<span data-ttu-id="68128-112">وجهات إعداد التقارير الإلكترونية (ER)‬</span><span class="sxs-lookup"><span data-stu-id="68128-112">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
