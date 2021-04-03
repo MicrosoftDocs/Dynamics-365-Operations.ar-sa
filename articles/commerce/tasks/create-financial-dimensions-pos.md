@@ -15,35 +15,38 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c51c77f4b9f411ae45fb955032aa40cb34738e9a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4042fb9da0fe38de50ad7e0c8e64b98925ea1188
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964760"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5265949"
 ---
-# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a><span data-ttu-id="a5c47-103"> إنشاء الأبعاد المالية لسجلات نقاط البيع وتكوين قيم الأبعاد في السجلات</span><span class="sxs-lookup"><span data-stu-id="a5c47-103">Create financial dimensions for POS registers and configure dimension values on registers</span></span>
+# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a><span data-ttu-id="9b1cb-103"> إنشاء الأبعاد المالية لسجلات نقاط البيع وتكوين قيم الأبعاد في السجلات</span><span class="sxs-lookup"><span data-stu-id="9b1cb-103">Create financial dimensions for POS registers and configure dimension values on registers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a5c47-104">يتناول هذا الإجراء إنشاء أبعاد مالية لسجلات نقطة البيع، ويوضح كيفية تكوين قيم الأبعاد المالية في السجلات.</span><span class="sxs-lookup"><span data-stu-id="a5c47-104">This procedure walks through creating financial dimensions for point of sale (POS) registers, and demonstrates how to configure financial dimension values on registers.</span></span> <span data-ttu-id="a5c47-105">لا يتضمن هذا الإجراء خطوات أخرى ذات صلة، مثل إنشاء مجموعات الأبعاد وبُنى الحسابات.</span><span class="sxs-lookup"><span data-stu-id="a5c47-105">This procedure doesn't include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="a5c47-106">يمكن العثور على هذه المهام في مواضيع أخرى.</span><span class="sxs-lookup"><span data-stu-id="a5c47-106">Those tasks can be found in other topics.</span></span> <span data-ttu-id="a5c47-107">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USRT.</span><span class="sxs-lookup"><span data-stu-id="a5c47-107">This recording uses USRT demo company.</span></span>
+<span data-ttu-id="9b1cb-104">يتناول هذا الإجراء إنشاء أبعاد مالية لسجلات نقطة البيع، ويوضح كيفية تكوين قيم الأبعاد المالية في السجلات.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-104">This procedure walks through creating financial dimensions for point of sale (POS) registers, and demonstrates how to configure financial dimension values on registers.</span></span> <span data-ttu-id="9b1cb-105">لا يتضمن هذا الإجراء خطوات أخرى ذات صلة، مثل إنشاء مجموعات الأبعاد وبُنى الحسابات.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-105">This procedure doesn't include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="9b1cb-106">يمكن العثور على هذه المهام في مواضيع أخرى.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-106">Those tasks can be found in other topics.</span></span> <span data-ttu-id="9b1cb-107">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USRT.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-107">This recording uses USRT demo company.</span></span>
 
-1. <span data-ttu-id="a5c47-108">انتقل إلى دفتر الأستاذ العام > دليل الحسابات > الأبعاد > الأبعاد المالية.</span><span class="sxs-lookup"><span data-stu-id="a5c47-108">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
-2. <span data-ttu-id="a5c47-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="a5c47-109">Click New.</span></span>
-3. <span data-ttu-id="a5c47-110">في حقل "‏‫استخدام القيم من‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="a5c47-110">In the Use values from field, select an option.</span></span>
-4. <span data-ttu-id="a5c47-111">في حقل "‏‫اسم البُعد‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="a5c47-111">In the Dimension name field, type a value.</span></span>
-5. <span data-ttu-id="a5c47-112">انقر فوق تنشيط.</span><span class="sxs-lookup"><span data-stu-id="a5c47-112">Click Activate.</span></span>
-6. <span data-ttu-id="a5c47-113">انقر فوق "إغلاق".</span><span class="sxs-lookup"><span data-stu-id="a5c47-113">Click Close.</span></span>
-7. <span data-ttu-id="a5c47-114">انقر فوق تنشيط.</span><span class="sxs-lookup"><span data-stu-id="a5c47-114">Click Activate.</span></span>
-8. <span data-ttu-id="a5c47-115">انقر فوق "قيم الأبعاد".</span><span class="sxs-lookup"><span data-stu-id="a5c47-115">Click Dimension values.</span></span>
-9. <span data-ttu-id="a5c47-116">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="a5c47-116">Close the page.</span></span>
-10. <span data-ttu-id="a5c47-117">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="a5c47-117">Click Save.</span></span>
-11. <span data-ttu-id="a5c47-118">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="a5c47-118">Close the page.</span></span>
-12. <span data-ttu-id="a5c47-119">انتقل إلى البيع بالتجزئة والتجارة > إعداد القناة > إعداد نقطة البيع > السجلات.</span><span class="sxs-lookup"><span data-stu-id="a5c47-119">Go to Retail and Commerce > Channel setup > POS setup > Registers.</span></span>
-13. <span data-ttu-id="a5c47-120">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="a5c47-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="a5c47-121">بدّل توسيع المقطع "الأبعاد المالية‬".</span><span class="sxs-lookup"><span data-stu-id="a5c47-121">Toggle the expansion of the Financial dimensions section.</span></span>
-15. <span data-ttu-id="a5c47-122">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="a5c47-122">Click Edit.</span></span>
-16. <span data-ttu-id="a5c47-123">في حقل "الوحدة الطرفية"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="a5c47-123">In the Terminal field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="a5c47-124">في القائمة، ابحث عن قيمة البُعد وحددها للسجل الذي يتم تحديثه.</span><span class="sxs-lookup"><span data-stu-id="a5c47-124">In the list, find and select the dimension value for the register being updated.</span></span>
-18. <span data-ttu-id="a5c47-125">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="a5c47-125">Click Save.</span></span>
+1. <span data-ttu-id="9b1cb-108">انتقل إلى دفتر الأستاذ العام > دليل الحسابات > الأبعاد > الأبعاد المالية.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-108">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
+2. <span data-ttu-id="9b1cb-109">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="9b1cb-109">Click New.</span></span>
+3. <span data-ttu-id="9b1cb-110">في حقل "‏‫استخدام القيم من‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-110">In the Use values from field, select an option.</span></span>
+4. <span data-ttu-id="9b1cb-111">في حقل "‏‫اسم البُعد‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-111">In the Dimension name field, type a value.</span></span>
+5. <span data-ttu-id="9b1cb-112">انقر فوق تنشيط.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-112">Click Activate.</span></span>
+6. <span data-ttu-id="9b1cb-113">انقر فوق "إغلاق".</span><span class="sxs-lookup"><span data-stu-id="9b1cb-113">Click Close.</span></span>
+7. <span data-ttu-id="9b1cb-114">انقر فوق تنشيط.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-114">Click Activate.</span></span>
+8. <span data-ttu-id="9b1cb-115">انقر فوق "قيم الأبعاد".</span><span class="sxs-lookup"><span data-stu-id="9b1cb-115">Click Dimension values.</span></span>
+9. <span data-ttu-id="9b1cb-116">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-116">Close the page.</span></span>
+10. <span data-ttu-id="9b1cb-117">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-117">Click Save.</span></span>
+11. <span data-ttu-id="9b1cb-118">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-118">Close the page.</span></span>
+12. <span data-ttu-id="9b1cb-119">انتقل إلى البيع بالتجزئة والتجارة > إعداد القناة > إعداد نقطة البيع > السجلات.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-119">Go to Retail and Commerce > Channel setup > POS setup > Registers.</span></span>
+13. <span data-ttu-id="9b1cb-120">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="9b1cb-121">بدّل توسيع المقطع "الأبعاد المالية‬".</span><span class="sxs-lookup"><span data-stu-id="9b1cb-121">Toggle the expansion of the Financial dimensions section.</span></span>
+15. <span data-ttu-id="9b1cb-122">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="9b1cb-122">Click Edit.</span></span>
+16. <span data-ttu-id="9b1cb-123">في حقل "الوحدة الطرفية"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-123">In the Terminal field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="9b1cb-124">في القائمة، ابحث عن قيمة البُعد وحددها للسجل الذي يتم تحديثه.</span><span class="sxs-lookup"><span data-stu-id="9b1cb-124">In the list, find and select the dimension value for the register being updated.</span></span>
+18. <span data-ttu-id="9b1cb-125">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="9b1cb-125">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
