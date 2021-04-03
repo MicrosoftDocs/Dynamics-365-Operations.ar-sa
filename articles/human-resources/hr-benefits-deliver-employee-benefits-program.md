@@ -16,55 +16,60 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 8fe53b28d1e2ff539cf431a2a6a00b10d1adb06f
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: a581db0a015acd4202721023ae23ccd2073156f4
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111304"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465164"
 ---
-# <a name="deliver-employee-benefits-program"></a><span data-ttu-id="07d5f-103"> تقديم برنامج ميزات الموظفين </span><span class="sxs-lookup"><span data-stu-id="07d5f-103">Deliver employee benefits program</span></span>
+# <a name="deliver-employee-benefits-program"></a><span data-ttu-id="fabcb-103"> تقديم برنامج ميزات الموظفين </span><span class="sxs-lookup"><span data-stu-id="fabcb-103">Deliver employee benefits program</span></span>
 
-<span data-ttu-id="07d5f-104">يوضح لك هذا المقال كيفية إنشاء عناصر الميزة التي سيتم استخدامها عند إنشاء ميزة جديدة.</span><span class="sxs-lookup"><span data-stu-id="07d5f-104">This article shows you how to create benefit elements which will be used when creating a new benefit.</span></span> <span data-ttu-id="07d5f-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="07d5f-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="07d5f-106">هذه المهمة مخصصة لمدير التعويضات والميزات.</span><span class="sxs-lookup"><span data-stu-id="07d5f-106">This task is intended for a Compensation and Benefits manager.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+<span data-ttu-id="fabcb-104">يوضح لك هذا المقال كيفية إنشاء عناصر الميزة التي سيتم استخدامها عند إنشاء ميزة جديدة.</span><span class="sxs-lookup"><span data-stu-id="fabcb-104">This article shows you how to create benefit elements which will be used when creating a new benefit.</span></span> <span data-ttu-id="fabcb-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="fabcb-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="fabcb-106">هذه المهمة مخصصة لمدير التعويضات والميزات.</span><span class="sxs-lookup"><span data-stu-id="fabcb-106">This task is intended for a Compensation and Benefits manager.</span></span>
 
 
-## <a name="create-benefit-elements"></a><span data-ttu-id="07d5f-107">إنشاء عناصر المزايا</span><span class="sxs-lookup"><span data-stu-id="07d5f-107">Create benefit elements</span></span>
-1. <span data-ttu-id="07d5f-108">تبدأ هذه المهمة من الصفحة قائمة الميزات.</span><span class="sxs-lookup"><span data-stu-id="07d5f-108">This task starts from the Benefits list page.</span></span> <span data-ttu-id="07d5f-109">ابدأ المهمة بفتح تلك الصفحة أو البحث في الصفحة قائمة الميزات.</span><span class="sxs-lookup"><span data-stu-id="07d5f-109">Start the task by opening that page or searching the Benefits list page.</span></span>
-2. <span data-ttu-id="07d5f-110">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="07d5f-110">Click New.</span></span>
-3. <span data-ttu-id="07d5f-111">في الحقل "النوع"، اكتب اسم نوع الميزة التي ترغب في إنشائها.</span><span class="sxs-lookup"><span data-stu-id="07d5f-111">In the Type field, Enter the name of the type of benefit you are creating..</span></span>
-4. <span data-ttu-id="07d5f-112">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="07d5f-112">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="07d5f-113">في الحقل "التسجيل المتزامن"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="07d5f-113">In the Concurrent enrollment field, select an option.</span></span>
-    * <span data-ttu-id="07d5f-114">لتقييد قدرة الموظفين على التسجيل في خطط طبية متعددة، حدد "عملية تسجيل واحدة لكل نوع‬".</span><span class="sxs-lookup"><span data-stu-id="07d5f-114">To restrict employees' ability to enroll in multiple medical plans, select One enrollment per type.</span></span>  
-6. <span data-ttu-id="07d5f-115">في الحقل "فئة المرتبات‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="07d5f-115">In the Payroll category field, select an option.</span></span>
-7. <span data-ttu-id="07d5f-116">انقر فوق علامة التبويب "الخطط".</span><span class="sxs-lookup"><span data-stu-id="07d5f-116">Click the Plans tab.</span></span>
-8. <span data-ttu-id="07d5f-117">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="07d5f-117">Click New.</span></span>
-9. <span data-ttu-id="07d5f-118">في الحقل "خطة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="07d5f-118">In the Plan field, type a value.</span></span>
-10. <span data-ttu-id="07d5f-119">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="07d5f-119">In the Description field, type a value.</span></span>
-11. <span data-ttu-id="07d5f-120">في الحقل "النوع"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="07d5f-120">In the Type field, click the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="07d5f-121">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="07d5f-121">In the list, find and select the desired record.</span></span>
-13. <span data-ttu-id="07d5f-122">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="07d5f-122">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="07d5f-123">في الحقل "تأثير كشف الرواتب‬‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="07d5f-123">In the Payroll impact field, select an option.</span></span>
-15. <span data-ttu-id="07d5f-124">انقر فوق علامة التبويب "خيارات".</span><span class="sxs-lookup"><span data-stu-id="07d5f-124">Click the Options tab.</span></span>
-16. <span data-ttu-id="07d5f-125">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="07d5f-125">Click New.</span></span>
-17. <span data-ttu-id="07d5f-126">في الحقل "خيار‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="07d5f-126">In the Option field, type a value.</span></span>
-18. <span data-ttu-id="07d5f-127">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="07d5f-127">In the Description field, type a value.</span></span>
+## <a name="create-benefit-elements"></a><span data-ttu-id="fabcb-107">إنشاء عناصر المزايا</span><span class="sxs-lookup"><span data-stu-id="fabcb-107">Create benefit elements</span></span>
+1. <span data-ttu-id="fabcb-108">تبدأ هذه المهمة من الصفحة قائمة الميزات.</span><span class="sxs-lookup"><span data-stu-id="fabcb-108">This task starts from the Benefits list page.</span></span> <span data-ttu-id="fabcb-109">ابدأ المهمة بفتح تلك الصفحة أو البحث في الصفحة قائمة الميزات.</span><span class="sxs-lookup"><span data-stu-id="fabcb-109">Start the task by opening that page or searching the Benefits list page.</span></span>
+2. <span data-ttu-id="fabcb-110">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="fabcb-110">Click New.</span></span>
+3. <span data-ttu-id="fabcb-111">في الحقل "النوع"، اكتب اسم نوع الميزة التي ترغب في إنشائها.</span><span class="sxs-lookup"><span data-stu-id="fabcb-111">In the Type field, Enter the name of the type of benefit you are creating..</span></span>
+4. <span data-ttu-id="fabcb-112">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fabcb-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="fabcb-113">في الحقل "التسجيل المتزامن"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="fabcb-113">In the Concurrent enrollment field, select an option.</span></span>
+    * <span data-ttu-id="fabcb-114">لتقييد قدرة الموظفين على التسجيل في خطط طبية متعددة، حدد "عملية تسجيل واحدة لكل نوع‬".</span><span class="sxs-lookup"><span data-stu-id="fabcb-114">To restrict employees' ability to enroll in multiple medical plans, select One enrollment per type.</span></span>  
+6. <span data-ttu-id="fabcb-115">في الحقل "فئة المرتبات‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="fabcb-115">In the Payroll category field, select an option.</span></span>
+7. <span data-ttu-id="fabcb-116">انقر فوق علامة التبويب "الخطط".</span><span class="sxs-lookup"><span data-stu-id="fabcb-116">Click the Plans tab.</span></span>
+8. <span data-ttu-id="fabcb-117">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="fabcb-117">Click New.</span></span>
+9. <span data-ttu-id="fabcb-118">في الحقل "خطة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fabcb-118">In the Plan field, type a value.</span></span>
+10. <span data-ttu-id="fabcb-119">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fabcb-119">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="fabcb-120">في الحقل "النوع"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="fabcb-120">In the Type field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="fabcb-121">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="fabcb-121">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="fabcb-122">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="fabcb-122">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="fabcb-123">في الحقل "تأثير كشف الرواتب‬‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="fabcb-123">In the Payroll impact field, select an option.</span></span>
+15. <span data-ttu-id="fabcb-124">انقر فوق علامة التبويب "خيارات".</span><span class="sxs-lookup"><span data-stu-id="fabcb-124">Click the Options tab.</span></span>
+16. <span data-ttu-id="fabcb-125">انقر فوق جديد.</span><span class="sxs-lookup"><span data-stu-id="fabcb-125">Click New.</span></span>
+17. <span data-ttu-id="fabcb-126">في الحقل "خيار‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fabcb-126">In the Option field, type a value.</span></span>
+18. <span data-ttu-id="fabcb-127">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fabcb-127">In the Description field, type a value.</span></span>
 
-## <a name="create-a-benefit"></a><span data-ttu-id="07d5f-128">إنشاء ميزة</span><span class="sxs-lookup"><span data-stu-id="07d5f-128">Create a benefit</span></span>
-1. <span data-ttu-id="07d5f-129">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="07d5f-129">Close the page.</span></span>
-2. <span data-ttu-id="07d5f-130">انتقل إلى الموارد البشرية > الميزات‬ > الميزات‬.</span><span class="sxs-lookup"><span data-stu-id="07d5f-130">Go to Human resources > Benefits > Benefits.</span></span>
-3. <span data-ttu-id="07d5f-131">انقر فوق "جديد" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="07d5f-131">Click New to open the drop dialog.</span></span>
-4. <span data-ttu-id="07d5f-132">في الحقل "الخطة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="07d5f-132">In the Plan field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="07d5f-133">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="07d5f-133">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="07d5f-134">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="07d5f-134">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="07d5f-135">في الحقل "خيار"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="07d5f-135">In the Option field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="07d5f-136">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="07d5f-136">In the list, find and select the desired record.</span></span>
-9. <span data-ttu-id="07d5f-137">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="07d5f-137">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="07d5f-138">في الحقل "السريان‬"، أدخل الوقت والتاريخ.</span><span class="sxs-lookup"><span data-stu-id="07d5f-138">In the Effective field, enter a date and time.</span></span>
-11. <span data-ttu-id="07d5f-139">انقر فوق "إنشاء ميزة".</span><span class="sxs-lookup"><span data-stu-id="07d5f-139">Click Create benefit.</span></span>
-12. <span data-ttu-id="07d5f-140">بدّل توسيع المقطع "تفاصيل كشف الرواتب‬".</span><span class="sxs-lookup"><span data-stu-id="07d5f-140">Toggle the expansion of the Payroll details section.</span></span>
-13. <span data-ttu-id="07d5f-141">في الحقل "التكرار‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="07d5f-141">In the Frequency field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="07d5f-142">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="07d5f-142">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="07d5f-143">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="07d5f-143">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="07d5f-144">في الحقل "أساس‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="07d5f-144">In the Basis field, select an option.</span></span>
-17. <span data-ttu-id="07d5f-145">في حقل "المبلغ أو النسبة‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="07d5f-145">In the Amount or rate field, enter a number.</span></span>
+## <a name="create-a-benefit"></a><span data-ttu-id="fabcb-128">إنشاء ميزة</span><span class="sxs-lookup"><span data-stu-id="fabcb-128">Create a benefit</span></span>
+1. <span data-ttu-id="fabcb-129">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="fabcb-129">Close the page.</span></span>
+2. <span data-ttu-id="fabcb-130">انتقل إلى الموارد البشرية > الميزات‬ > الميزات‬.</span><span class="sxs-lookup"><span data-stu-id="fabcb-130">Go to Human resources > Benefits > Benefits.</span></span>
+3. <span data-ttu-id="fabcb-131">انقر فوق "جديد" لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="fabcb-131">Click New to open the drop dialog.</span></span>
+4. <span data-ttu-id="fabcb-132">في الحقل "الخطة"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="fabcb-132">In the Plan field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="fabcb-133">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="fabcb-133">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="fabcb-134">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="fabcb-134">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="fabcb-135">في الحقل "خيار"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="fabcb-135">In the Option field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="fabcb-136">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="fabcb-136">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="fabcb-137">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="fabcb-137">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="fabcb-138">في الحقل "السريان‬"، أدخل الوقت والتاريخ.</span><span class="sxs-lookup"><span data-stu-id="fabcb-138">In the Effective field, enter a date and time.</span></span>
+11. <span data-ttu-id="fabcb-139">انقر فوق "إنشاء ميزة".</span><span class="sxs-lookup"><span data-stu-id="fabcb-139">Click Create benefit.</span></span>
+12. <span data-ttu-id="fabcb-140">بدّل توسيع المقطع "تفاصيل كشف الرواتب‬".</span><span class="sxs-lookup"><span data-stu-id="fabcb-140">Toggle the expansion of the Payroll details section.</span></span>
+13. <span data-ttu-id="fabcb-141">في الحقل "التكرار‬"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="fabcb-141">In the Frequency field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="fabcb-142">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="fabcb-142">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="fabcb-143">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="fabcb-143">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="fabcb-144">في الحقل "أساس‬"، حدد خيارًا.</span><span class="sxs-lookup"><span data-stu-id="fabcb-144">In the Basis field, select an option.</span></span>
+17. <span data-ttu-id="fabcb-145">في حقل "المبلغ أو النسبة‬"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="fabcb-145">In the Amount or rate field, enter a number.</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
