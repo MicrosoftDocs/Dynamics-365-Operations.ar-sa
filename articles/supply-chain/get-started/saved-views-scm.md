@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 78cb1c5a90061af224fcd5933af81b6c5cd7e57d
-ms.sourcegitcommit: 5d62c53d84f2ec27136427acfd4314d055298a7b
+ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5123458"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500684"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>طرق عرض قياسيه محفوظه لـ Supply Chain Management
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 تتضمن شركه Microsoft Dynamics 365 Supply Chain Management عده طرق عرض محفوظه يمكنك تمكينها واستخدامها عند الحاجة. بعض طرق العرض القياسية المحفوظة هذه يتم تحسينها وتسميتها لدور محدد أو مهمة (علي سبيل المثال، "التحكم في الجودة" أو "الاستلام"). وقد تم تحسين الآخرين بحيث تتضمن فقط الحقول والإعدادات التي تشير اليها إحصائيات استخدام Microsoft من قبل العملاء. عاده ما تتم الاشاره إلى طرق العرض المحفوظة هذه كطرق عرض *مبسطه*. يصف هذا الموضوع طرق العرض القياسية المحفوظة التي تتوفر وتوضح كيفيه تخصيصها.
 

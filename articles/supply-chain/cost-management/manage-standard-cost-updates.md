@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024660"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500588"
 ---
 # <a name="manage-standard-cost-updates"></a>إدارة تحديثات التكلفة القياسية
 
@@ -45,6 +45,8 @@ ms.locfileid: "5024660"
 ‏‫استخدم هذا المثال إصدارًا واحدًا للتكاليف الإضافية لإدارة التحديثات خلال عام 2020. ويمكن استخدام أكثر من إصدار تكاليف إضافي واحد، مثل استخدام إصدار منفصل لكل مجموعة تحديثات. عند استخدام أكثر من تكلفة إضافية واحدة، يجب التعبير البديل باعتباره التكاليف النشطة، لأنه يتم توزيع التكاليف النشطة على عدة إصدارات للتكاليف.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>الأبعاد المالية لإعادة تقييم التكلفة القياسية.
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 سيؤدي تنشيط سعر قياسي جديد عاده إلى إعادة تقييم قيمه المخزون الفعلي بواسطة حركات أعاده تقييم التكلفة المعيارية. عاده، يتم ترحيل الابعاد المالية للصنف في الحركات. ومع ذلك ، إذا كنت ترغب في التحكم في ترحيل الابعاد المالية وكيفيه ترحيلها ، فاستخدم [أداره الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزات المسمية للتحكم في *التحويل الافتراضي للابعاد المالية لعمليه أعاده تقييم التكلفة المعيارية للمخزون*. بعد تمكين هذه الميزة، انتقل إلى **أداره التكلفة > اعداد سياسات محاسبه المخزون > معلمات** وقم بتعيين القائمة المنسدلة الجديدة **أصل البعد المالي** إلى أحدي القيم التالية:
 
