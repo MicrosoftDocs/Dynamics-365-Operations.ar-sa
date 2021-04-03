@@ -3,10 +3,9 @@ title: تخطيط التدرج الهرمي للمؤسسات
 description: قبل إعداد المؤسسات والتدرجات الهرمية للمؤسسات، تأكد من أنك تعلم تمامًا كيفية تصميم أفضل نموذج لعملك.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154399"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569351"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>تخطيط التدرج الهرمي للمؤسسات
 
@@ -166,7 +165,7 @@ ms.locfileid: "5154399"
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>إذا تم عمل نموذج من المؤسسة لكي تكون كيانًا قانونيًا.
 
-بالنسبة للبلدان/المناطق المدعومة، يمكن إنشاء معظم التقارير التشريعية. للحصول على معلومات حول التقارير المتوفرة لكل بلد/منطقة، راجع مدخل الترجمة في [Microsoft Dynamics .](https://docs.microsoft.com/dynamics/s-e/). (تسجيل الدخول إلى CustomerSource مطلوب.)
+بالنسبة للبلدان/المناطق المدعومة، يمكن إنشاء معظم التقارير التشريعية. 
 
 > [!NOTE]
 > تسمح لك طبقات الترحيل في دفتر الأستاذ العام بإجراء إدخالات التسوية إلى الشركة الرئيسية التي تستخدم معيار محاسبة مختلف عن المُستخدم في الشركة التابعة. بالنسبة مثلاً للشركة التي تستخدم الممارسات المحاسبية المقبولة عمومًا في المملكة المتحدة (UK GAAP )، يمكنك إجراءات إدخالات التسوية في طبقة الترحيل. يمكن دمج هذه الإدخالات في شركة رئيسية واحدة تستخدم مبادئ المحاسبة المقبولة عمومًا (GAAP) في الولايات المتحدة. لا تؤثر إجراءات التسوية على إعداد تقارير UK GAAP.

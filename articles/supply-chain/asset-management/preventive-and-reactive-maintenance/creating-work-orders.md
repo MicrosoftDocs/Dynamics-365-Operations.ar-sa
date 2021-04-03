@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131783"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500564"
 ---
 # <a name="creating-work-orders"></a>إنشاء أوامر العمل
 
@@ -62,8 +62,7 @@ ms.locfileid: "5131783"
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>بنود أمر العمل الخاصة بالمجموعة التي يتم إنشاؤها تلقائيا اثناء تشغيل خطه الصيانة
 
-> [!IMPORTANT]
-> تتوفر الوظائف الموضحة في هذا القسم كجزء من إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 تتيح لك هذه الميزة تعريف قواعد لتجميع بنود أمر العمل تحت أمر عمل واحد عند اعداد النظام لإنشاء أوامر العمل تلقائيا، وذلك استنادا إلى خطه الصيانة. وسابقا ، يمكن ان تحتوي أوامر العمل التي تم إنشاؤها تلقائيا علي بند واحد فقط. ومع ذلك، يمكنك الآن تجميع أوامر العمل حسب، علي سبيل المثال، الأصل أو نوع الأصل أو موقع وظيفي. (يمكن تجميع أوامر العمل المنشاة يدويا بهذه الطريقة كما هو موضح في القسم السابق من هذا الموضوع.)
 

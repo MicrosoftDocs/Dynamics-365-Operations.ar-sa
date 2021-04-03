@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141894"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579962"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>تكامل التدبير بين Supply Chain Management وField Service
 
@@ -47,8 +46,8 @@ ms.locfileid: "5141894"
 
 ### <a name="prerequisites"></a>المتطلبات الأساسية
 
-+ **الكتابة الثنائية** – لمزيد من المعلومات، راجع [الصفحة الرئيسية ثنائيه الكتابة](dual-write-home-page.md#dual-write-setup).
-+ **Dynamics 365 Field Service** – لمزيد من المعلومات، راجع [كيفية تثبيت Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service)
+- **الكتابة الثنائية** – لمزيد من المعلومات، راجع [الصفحة الرئيسية ثنائيه الكتابة](dual-write-home-page.md#dual-write-setup).
+- **Dynamics 365 Field Service** – لمزيد من المعلومات، راجع [كيفية تثبيت Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service)
 
 عند تمكينها في Microsoft Dataverse، تقوم الكتابة الثنائية وField Service بتقديم عده طبقات حل تعمل علي توسيع البيئة مع بيانات التعريف الجديدة والنماذج وطرق العرض والمنطق. يمكن تمكين هذه الحلول بأي ترتيب، بالرغم من انك عاده ما تقوم بالتثبيت بالترتيب المحدد هنا:
 
@@ -57,8 +56,8 @@ ms.locfileid: "5141894"
 3. **Supply Chain Management الموسعة** - Supply Chain Management الموسعة يتم تثبيتها تلقائيا عند تمكين الكتابة الثنائية في البيئة. 
 4. **حل OneFSSCM** – يتم تثبيت OneFSSCM تلقائيا بواسطة اي الحلول (Field Service أو Supply Chain Management) التي تم تثبيتها مؤخرا.
 
-    + إذا كانت Field Service مثبته بالفعل في البيئة، وكانت تقوم بتمكين الكتابة الثنائية، التي تقوم بتثبيت Supply Chain Management الموسعة، سيتم تثبيت OneFSSCM.
-    + إذا كانت Supply Chain Management الموسعة مثبته بالفعل في البيئة، وكانت تقوم بتمكين الكتابة الثنائية، التي تقوم بتثبيت Field Service، سيتم تثبيت OneFSSCM.
+    - إذا كانت Field Service مثبته بالفعل في البيئة، وكانت تقوم بتمكين الكتابة الثنائية، التي تقوم بتثبيت Supply Chain Management الموسعة، سيتم تثبيت OneFSSCM.
+    - إذا كانت Supply Chain Management الموسعة مثبته بالفعل في البيئة، وكانت تقوم بتمكين الكتابة الثنائية، التي تقوم بتثبيت Field Service، سيتم تثبيت OneFSSCM.
 
 ## <a name="initial-synchronization"></a>مزامنة أولية
 
@@ -124,22 +123,22 @@ ms.locfileid: "5141894"
 
 ## <a name="supported-scenarios"></a>السيناريوهات المدعومة
 
-+ يمكن إنشاء أوامر الشراء وتحديثها بواسطة Dataverse المستخدمين. ومع ذلك، يتم التحكم في العملية والبيانات بواسطة Supply Chain Management. يتم تطبيق قيود علي تحديثات أعمده أمر الشراء في Supply Chain Management عندما تاتي التحديثات من Field Service. علي سبيل المثال، لا يمكنك تحديث أمر شراء إذا كان قد تم إنهاؤه. 
-+ إذا تم التحكم في أمر الشراء بواسطة أداره التغيير في Supply Chain Management، فيمكن لمستخدم Field Service تحديث أمر الشراء فقط عندما تكون حاله موافقه Supply Chain Management هي *مسودة*.
-+ تتم أداره العديد من الاعمده فقط بواسطة Supply Chain Management ولا يمكن تحديثها في Field Service. لمعرفه الاعمده التي لا يمكن تحديثها ، راجع جداول التعيين في المنتج. لأغراض البساطة، يتم تعيين معظم هذه الاعمده للقراءة فقط علي صفحات Dataverse. 
+- يمكن إنشاء أوامر الشراء وتحديثها بواسطة Dataverse المستخدمين. ومع ذلك، يتم التحكم في العملية والبيانات بواسطة Supply Chain Management. يتم تطبيق قيود علي تحديثات أعمده أمر الشراء في Supply Chain Management عندما تاتي التحديثات من Field Service. علي سبيل المثال، لا يمكنك تحديث أمر شراء إذا كان قد تم إنهاؤه. 
+- إذا تم التحكم في أمر الشراء بواسطة أداره التغيير في Supply Chain Management، فيمكن لمستخدم Field Service تحديث أمر الشراء فقط عندما تكون حاله موافقه Supply Chain Management هي *مسودة*.
+- تتم أداره العديد من الاعمده فقط بواسطة Supply Chain Management ولا يمكن تحديثها في Field Service. لمعرفه الاعمده التي لا يمكن تحديثها ، راجع جداول التعيين في المنتج. لأغراض البساطة، يتم تعيين معظم هذه الاعمده للقراءة فقط علي صفحات Dataverse. 
 
     علي سبيل المثال، تتم أداره أعمده معلومات السعر بواسطة Supply Chain Management. تشتمل Supply Chain Management علي اتفاقيات تجاره يمكن ان تستفيد منها Field Service. تاتي الاعمده مثل **سعر الوحدة** و **الخصم** و **المبلغ الصافي** من Supply Chain Management فقط. للتاكد من مزامنة السعر مع Field Service، يجب استخدام ميزه **المزامنة** في صفحات **أمر الشراء** و **المنتجات الخاصة بامر الشراء** في Dataverse عند إدخال بيانات أمر الشراء. لمزيد من المعلومات، راجع [المزامنة مع بيانات التدبير عند الطلب Dynamics 365 Supply Chain Management](#sync-procurement).
 
-+ لا يتوفر عمود **الإجماليات** الا في Field Service، نظرا لعدم وجود إجماليات محدثه لأمر الشراء في Supply Chain Management. يتم حساب الإجماليات في Supply Chain Management استنادا إلى معلمات متعددة غير متوفرة في Field Service.
-+ بنود أمر الشراء التي يتم فيها تحديد فئة تدبير فقط، أو حيث يكون المنتج الذي تم تحديده هو أحد أصناف نوع منتج *الخدمة* أو نوع منتج Field Service، يمكن البدء فقط في Supply Chain Management. ثم تتم مزامنة البنود مع Dataverse وتكون مرئية في Field Service.
-+ إذا تم تثبيت Field Service فقط، وليست Supply Chain Management، فان عمود **المستودع** يكون إلزاميا في أمر الشراء. ومع ذلك ، في حاله تثبيت Supply Chain Management، يتم إيقاف هذا المتطلب، وذلك لان Supply Chain Management تسمح ببنود أمر الشراء حيث لم يتم تحديد اي مستودع في مواقف معينه.
-+ تتم أداره إيصالات استلام المنتجات (عمليات استلام طلبات شراء الشراء Dataverse) من قبل Supply Chain Management ولا يمكن إنشاؤها من Dataverse حاله تثبيت Supply Chain Management. تتم مزامنة إيصالات استلام المنتجات من Supply Chain Management من Supply Chain Management إلى Dataverse.
-+ يتم السماح بالتسليم بالنقص في Supply Chain Management. يضيف الحل OneFSSCM المنطق بحيث يتم إنشاء أو تحديث بند إيصال استلام المنتجات (أو منتج استلام أمر شراء في Dataverse)، ويتم إنشاء صف دفتر يوميه المخزون في Dataverse لتعديل الكمية المتبقية التي يتم ترتيبها في سيناريوهات التسليم.
+- لا يتوفر عمود **الإجماليات** الا في Field Service، نظرا لعدم وجود إجماليات محدثه لأمر الشراء في Supply Chain Management. يتم حساب الإجماليات في Supply Chain Management استنادا إلى معلمات متعددة غير متوفرة في Field Service.
+- بنود أمر الشراء التي يتم فيها تحديد فئة تدبير فقط، أو حيث يكون المنتج الذي تم تحديده هو أحد أصناف نوع منتج *الخدمة* أو نوع منتج Field Service، يمكن البدء فقط في Supply Chain Management. ثم تتم مزامنة البنود مع Dataverse وتكون مرئية في Field Service.
+- إذا تم تثبيت Field Service فقط، وليست Supply Chain Management، فان عمود **المستودع** يكون إلزاميا في أمر الشراء. ومع ذلك ، في حاله تثبيت Supply Chain Management، يتم إيقاف هذا المتطلب، وذلك لان Supply Chain Management تسمح ببنود أمر الشراء حيث لم يتم تحديد اي مستودع في مواقف معينه.
+- تتم أداره إيصالات استلام المنتجات (عمليات استلام طلبات شراء الشراء Dataverse) من قبل Supply Chain Management ولا يمكن إنشاؤها من Dataverse حاله تثبيت Supply Chain Management. تتم مزامنة إيصالات استلام المنتجات من Supply Chain Management من Supply Chain Management إلى Dataverse.
+- يتم السماح بالتسليم بالنقص في Supply Chain Management. يضيف الحل OneFSSCM المنطق بحيث يتم إنشاء أو تحديث بند إيصال استلام المنتجات (أو منتج استلام أمر شراء في Dataverse)، ويتم إنشاء صف دفتر يوميه المخزون في Dataverse لتعديل الكمية المتبقية التي يتم ترتيبها في سيناريوهات التسليم.
 
 ## <a name="unsupported-scenarios"></a>السيناريوهات غير المدعومة
 
-+ تمنع Field Service أضافه البنود إلى أمر شراء ملغي في Supply Chain Management. وكحل بديل، يمكنك تغيير حاله النظام الخاصة بامر الشراء في Field Service، ثم أضافه البند الجديد في اما Field Service أو Supply Chain Management.
-+ علي الرغم من ان صفوف التدبير تؤثر علي مستويات المخزون في كلا النظامين، فان هذا التكامل لا يضمن محاذاة المخزون عبر Supply Chain Management وField Service. تشتمل كلا من Field Service وSupply Chain Management علي عمليات أخرى تقوم بتحديث مستويات المخزون. وتكون هذه العمليات خارج نطاق التدبير.
+- تمنع Field Service أضافه البنود إلى أمر شراء ملغي في Supply Chain Management. وكحل بديل، يمكنك تغيير حاله النظام الخاصة بامر الشراء في Field Service، ثم أضافه البند الجديد في اما Field Service أو Supply Chain Management.
+- علي الرغم من ان صفوف التدبير تؤثر علي مستويات المخزون في كلا النظامين، فان هذا التكامل لا يضمن محاذاة المخزون عبر Supply Chain Management وField Service. تشتمل كلا من Field Service وSupply Chain Management علي عمليات أخرى تقوم بتحديث مستويات المخزون. وتكون هذه العمليات خارج نطاق التدبير.
 
 ## <a name="status-management"></a>أداره الحالة
 
@@ -161,13 +160,13 @@ ms.locfileid: "5141894"
 
 يتم تطبيق القواعد التالية علي أعمده الحالة:
 
-+ لا يمكن تحديث الحالة في Supply Chain Management من Field Service. ومع ذلك، في بعض الحالات، سيتم تحديث الحالة في Field Service عند تغيير حاله أمر الشراء في Supply Chain Management.
-+ إذا كان أمر الشراء في Supply Chain Management ضمن أداره التغييرات، وكان هناك تغيير تتم معالجته، تكون حاله الاعتماد هي *مسودة* أو *قيد المراجعة*. في هذه الحالة، سيتم تعيين حاله الموافقة الخاصة بـ Field Service إلى *قيمه خاليه*.
-+ في حاله تعيين حاله الموافقة علي أمر الشراء في Supply Chain Management إلى *معتمد*، *في المراجعة الخارجية* أو *المؤكدة* أو *المنتهية*، سيتم تعيين حاله الموافقة علي أمر شراء Field Service إلى *معتمد*.
-+ في حاله تعيين حاله الموافقة علي أمر الشراء في Supply Chain Management إلى *مرفوض*، سيتم تعيين حاله الموافقة علي أمر شراء Field Service إلى *مرفوض*.
-+ إذا تم تغيير حاله راس المستند في Supply Chain Management إلى *أمر مفتوح (أمر متاخر)*، وكانت حاله أمر الشراء لـ Field Service هي *مسودة* أو *ملغي*، سيتم تغيير حاله أمر الشراء الخاص بـ Field Service إلى تم *الإرسال*.
-+ إذا تم تغيير حاله راس المستند في Supply Chain Management إلى تم *إلغاء*، وكانت إيه منتجات إيصال أمر شراء في Field Service مرتبطة بامر الشراء (بالاضافه إلى منتجات أوامر الشراء)، يتم تعيين حاله نظام Field Service علي *ملغي*.
-+ إذا تم إلغاء حاله سطر أمر الشراء في *Supply Chain Management*، يتم تعيين حاله منتج أمر الشراء في Field Service علي القيمة *الملغية*. بالاضافه إلى ذلك ، إذا تم تغيير حاله سطر أمر الشراء في Supply Chain Management من *ملغى* إلى *الأمر المتأخر*، يتم تعيين حاله صنف منتج أمر الشراء في Field Service علي *معلق*.
+- لا يمكن تحديث الحالة في Supply Chain Management من Field Service. ومع ذلك، في بعض الحالات، سيتم تحديث الحالة في Field Service عند تغيير حاله أمر الشراء في Supply Chain Management.
+- إذا كان أمر الشراء في Supply Chain Management ضمن أداره التغييرات، وكان هناك تغيير تتم معالجته، تكون حاله الاعتماد هي *مسودة* أو *قيد المراجعة*. في هذه الحالة، سيتم تعيين حاله الموافقة الخاصة بـ Field Service إلى *قيمه خاليه*.
+- في حاله تعيين حاله الموافقة علي أمر الشراء في Supply Chain Management إلى *معتمد*، *في المراجعة الخارجية* أو *المؤكدة* أو *المنتهية*، سيتم تعيين حاله الموافقة علي أمر شراء Field Service إلى *معتمد*.
+- في حاله تعيين حاله الموافقة علي أمر الشراء في Supply Chain Management إلى *مرفوض*، سيتم تعيين حاله الموافقة علي أمر شراء Field Service إلى *مرفوض*.
+- إذا تم تغيير حاله راس المستند في Supply Chain Management إلى *أمر مفتوح (أمر متاخر)*، وكانت حاله أمر الشراء لـ Field Service هي *مسودة* أو *ملغي*، سيتم تغيير حاله أمر الشراء الخاص بـ Field Service إلى تم *الإرسال*.
+- إذا تم تغيير حاله راس المستند في Supply Chain Management إلى تم *إلغاء*، وكانت إيه منتجات إيصال أمر شراء في Field Service مرتبطة بامر الشراء (بالاضافه إلى منتجات أوامر الشراء)، يتم تعيين حاله نظام Field Service علي *ملغي*.
+- إذا تم إلغاء حاله سطر أمر الشراء في *Supply Chain Management*، يتم تعيين حاله منتج أمر الشراء في Field Service علي القيمة *الملغية*. بالاضافه إلى ذلك ، إذا تم تغيير حاله سطر أمر الشراء في Supply Chain Management من *ملغى* إلى *الأمر المتأخر*، يتم تعيين حاله صنف منتج أمر الشراء في Field Service علي *معلق*.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>مزامنة بيانات التدبير لـ Supply Chain Management حسب الطلب
 

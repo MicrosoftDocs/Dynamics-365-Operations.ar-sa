@@ -3,10 +3,9 @@ title: الميزات التي تمت إزالتها أو إهمالها في ا
 description: يصف هذا الموضوع الميزات التي تمت ازالتها أو التي تم التخطيط لإزالتها من Dynamics 365 for Finance and Operations والإصدارات السابقة.
 author: sericks007
 manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: db276c693a729b919bc609bb4b94843bb11a8fe3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154375"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559320"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
 
@@ -39,7 +38,7 @@ ms.locfileid: "5154375"
 
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
-يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance الإصدار 10.0.7 مع Platform update 31
 
@@ -375,7 +374,7 @@ ms.locfileid: "5154375"
 | **الحالة**                       | مهمل: عناصر القائمة للتقريرين الذين تمت إزالتهم من إصدار 7.3. ولكن، تظل التعليمات البرمجية للتقارير في المنتج. تتمثل الخطة في إزالة التعليمات البرمجية في إصدار مستقبلي. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>حزم محتوى Power BI متوفرة على AppSource
-تم إهمال حزم محتوى **إدارة التكلفة** و **الأداء المالي** و **أداء قناة البيع بالتجزئة**، المتوفرة على موقع [Microsoft AppSource](https://appsource.microsoft.com) وذلك نتيجة لتحديثات المنتج في Microsoft Power BI. تم أيضًا إهمال نماذج إدارة النظام المستخدمة لنشر حزم المحتوى هذه إلى PowerBI.com في Finance and Operations.
+تم إهمال حزم محتوى **إدارة التكلفة** و **الأداء المالي** و **Retail Channel Performance**، المتوفرة على موقع [Microsoft AppSource](https://appsource.microsoft.com) وذلك نتيجة لتحديثات المنتج في Microsoft Power BI. تم أيضًا إهمال نماذج إدارة النظام المستخدمة لنشر حزم المحتوى هذه إلى PowerBI.com في Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

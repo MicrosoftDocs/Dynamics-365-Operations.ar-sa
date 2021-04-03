@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985944"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582709"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
-
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إضافة شبكة توصيل المحتوى (CDN) إلى بيئة Microsoft Dynamics 365 Commerce الخاصة بك.
-
-## <a name="overview"></a>نظرة عامة
 
 عندما تقوم بإعداد بيئة تجارة إلكترونية في Dynamics 365 Commerce، يُمكنك تكوينها للعمل مع خدمة CDN الخاصة بك. 
 
@@ -96,8 +93,8 @@ ms.locfileid: "4985944"
 1. في الحقل **الاسم** ، أدخل **‏افتراضي**.
 1. في حقل **البروتوكول المقبول** ، حدد **HTTP وHTTPS**.
 1. في حقل **مضيفو الواجهة الأمامية** ، ادخل **dynamics-ecom-tenant-name.azurefd.net**.
-1. تحت **النماذج المطلوب مطابقتها**، في الحقل العلوي، ادخل **/\** _.
-1. تحت _*تفاصيل التوجيه**، قم بتعيين خيار **نوع التوجيه** إلى **الأمام**.
+1. تحت **النماذج المطلوب مطابقتها**، في الحقل العلوي، ادخل **/\***.
+1. تحت **تفاصيل التوجيه**، قم بتعيين خيار **نوع التوجيه** إلى **للأمام**.
 1. في حقل **الوعاء الخلفي** ،حدد **ecom-backend**. 
 1. في مجموعة حقل **بروتوكول إعادة التوجيه** ،حدد خيار **مطابقة الطلب**. 
 1. قم بتعيين خيار **إعادة كتابة عنوان URL** إلى **مُعطل**.
@@ -109,8 +106,8 @@ ms.locfileid: "4985944"
 1. في الحقل **الاسم** ، أدخل **‏الإحصائيات**.
 1. في حقل **البروتوكول المقبول** ، حدد **HTTP وHTTPS**.
 1. في حقل **مضيفو الواجهة الأمامية** ، ادخل **dynamics-ecom-tenant-name.azurefd.net**.
-1. تحت **النماذج المطلوب مطابقتها**، في الحقل العلوي، **/\_msdyn365/\_scnr/\** _.
-1. تحت _*تفاصيل التوجيه**، قم بتعيين خيار **نوع التوجيه** إلى **الأمام**.
+1. تحت **النماذج المطلوب مطابقتها** ، في الحقل العلوي، **/\_msdyn365/\_scnr/\***.
+1. تحت **تفاصيل التوجيه**، قم بتعيين خيار **نوع التوجيه** إلى **للأمام**.
 1. في حقل **الوعاء الخلفي** ،حدد **ecom-backend**. 
 1. في مجموعة حقل **بروتوكول إعادة التوجيه** ،حدد خيار **مطابقة الطلب**.
 1. قم بتعيين خيار **إعادة كتابة عنوان URL** إلى **مُعطل**.
@@ -143,25 +140,7 @@ ms.locfileid: "4985944"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[تكوين اسم مجالك](configure-your-domain-name.md)
-
-[نشر مستأجر التجارة الإلكترونية الجديد](deploy-ecommerce-site.md)
-
-[إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
-
-[إقران موقع Dynamics 365 Commerce بقناة عبر الإنترنت](associate-site-online-store.md)
-
-[إدارة ملفات robots.txt](manage-robots-txt-files.md)
-
-[تحميل عناوين URL لإعادة التوجيه‬ بشكل مجمع](upload-bulk-redirects.md)
-
-[إعداد مستأجر B2C في Commerce](set-up-B2C-tenant.md)
-
-[إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين](custom-pages-user-logins.md)
-
-[تكوين مستأجرين متعددين لمتاجرة عمل-مستهلك في بيئة Commerce](configure-multi-B2C-tenants.md)
-
-[تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)
+[خيارات تنفيذ شبكة تسليم المحتويات](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
