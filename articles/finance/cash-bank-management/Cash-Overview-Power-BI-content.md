@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0f10022ae4906972d08e08e3e5476630213468d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a6ce81867c93a188d77778b7105e3dd0b3b6656
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985451"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260172"
 ---
-# <a name="cash-overview-power-bi-content"></a>المحتوى "نظرة عامة على النقد" في Power BI
+# <a name="cash-overview-power-bi-content"></a>محتوى Power BI لنظرة عامة على النقدية
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع المحتوى **نظرة عامة على النقد** في Microsoft Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+يصف هذا الموضوع محتوى **نظرة عامة على النقدية** في Microsoft Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة
 
