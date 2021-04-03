@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab97803f1c961e3edd298b483cbea5345ef093f5
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: cafb9b8f0de535e804b49926b8d572f57f98e457
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115308"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464118"
 ---
 # <a name="buy-and-sell-leave"></a>شراء الإجازة وبيعها
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 في Dynamics 365 Human Resources ، يمكن إرسال طلبات لشراء الإجازة وبيعها استنادًا إلى إعداد سياسات شراء وبيع الإجازات الخاص بشركتك.  
 

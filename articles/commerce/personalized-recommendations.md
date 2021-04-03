@@ -1,6 +1,6 @@
 ---
 title: تمكين توصيات المنتجات المخصصة
-description: يصف هذا الموضوع كيفيه جعل توصيات المنتج المخصصة متوفرة للعملاء في Microsoft Dynamics 365 Commerce.
+description: يصف هذا الموضوع كيفية جعل توصيات المنتج المخصصة متوفرة للعملاء في Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
 ms.date: 08/18/2020
@@ -18,22 +18,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f535cf0bc3c733426af22cf453ffe97f721f8d9e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: be460ec5ce8a9a625dc1a80f761bea9e2ab2f632
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000564"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477650"
 ---
 # <a name="enable-personalized-recommendations"></a>تمكين التوصيات المخصصة
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفيه جعل توصيات المنتج المخصصة متوفرة للعملاء في Microsoft Dynamics 365 Commerce.
+يصف هذا الموضوع كيفية جعل توصيات المنتج المخصصة متوفرة للعملاء في Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>نظرة عامة
-
-وفي Dynamics 365 Commerce، يمكن لبائعي التجزئة اجراء توصيات للمنتجات الشخصية (والتي تعرف أيضا بالتخصيص) المتوفرة. وبهذه الطريقة، يمكن دمج التوصيات الشخصية في تجربه العميل عبر الإنترنت وفي نقطه البيع (POS). عند تشغيل وظيفة إضفاء الطابع الشخصي، يمكن للنظام ربط معلومات الشراء والمنتج الخاصة بالمستخدم لإنشاء توصيات منتج إينديفيدواليزيد.
+وفي Dynamics 365 Commerce، يمكن لبائعي التجزئة إجراء توصيات للمنتجات الشخصية (والتي تعرف أيضا بالتخصيص) المتوفرة. وبهذه الطريقة، يمكن دمج التوصيات الشخصية في تجربه العميل عبر الإنترنت وفي نقطه البيع (POS). عند تشغيل وظيفة إضفاء الطابع الشخصي، يمكن للنظام ربط معلومات الشراء والمنتج الخاصة بالمستخدم لإنشاء توصيات منتج إينديفيدواليزيد.
 
 ## <a name="personalization-prerequisites"></a>متطلبات التخصيص
 

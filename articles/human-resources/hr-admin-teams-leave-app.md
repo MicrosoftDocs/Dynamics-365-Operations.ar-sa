@@ -3,7 +3,7 @@ title: تطبيق Human Resources في Teams
 description: يقدم لك هذا الموضوع تطبيق Microsoft Dynamics 365 Human Resources في Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111341"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487863"
 ---
 # <a name="human-resources-app-in-teams"></a>تطبيق Human Resources في Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يتيح تطبيق Microsoft Dynamics 365 Human Resources في Microsoft Teams للموظفين طلب إجازة بسرعة وعرض معلومات رصيد إجازاتهم في Microsoft Teams. ويمكن للموظفين التفاعل مع روبوت لطلب المعلومات. توفر علامة التبويب **إجازة** مزيدًا من المعلومات التفصيلية. علاوةً على ذلك، يمكنهم إرسال معلومات الأشخاص حول وقت الإجازة القادم في الفرق والدردشات خارج تطبيق Human Resources.
 
-![روبوت تطبيق الإجازات لـ Human Resources في Teams](./media/hr-admin-teams-leave-app-bot.png)
+![روبوت تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-bot.png)
 
 ![علامة تبويب الإجازة في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ ms.locfileid: "5111341"
 
 ## <a name="install-and-setup"></a>التثبيت والإعداد
 
-يمكنك العثور على تطبيق Human Resources في متجر Teams. للحصول على معلومات حول تثبيت تطبيق Teams، راجع [إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md).
+يمكنك العثور على تطبيق Dynamics 365 Human Resources في متجر Teams. للحصول على معلومات حول تثبيت تطبيق Teams، راجع [إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md).
 
 للحصول على معلومات حول إدارة أذونات التطبيق في Teams، راجع [إدارة نهج أذونات التطبيق في Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies)
 
+إذا كنت ترغب أن يقوم المستخدمون بعرض تقويم الإجازة والغياب في التطبيق، فستحتاج إلى تمكين **‏‫تقويم الإجازة والغياب في Teams** في إدارة الميزات. لمزيد من المعلومات حول تمكين الميزات، راجع [إدارة الميزات](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>تمكين الإعلامات لتطبيق Human Resources في Teams
 
-إذا أردت أن يتلقى المستخدمون إعلامات تتعلق بطلبات الإجازات في تطبيق Teams، يجب عليك تمكين الإعلامات في Human Resources.
+إذا أردت أن يتلقى المستخدمون إعلامات تتعلق بطلبات الإجازات في تطبيق Teams، يجب عليك تمكين الإعلامات في Dynamics 365 Human Resources.
 
 >[!NOTE]
->وحدهم المستخدمون الذين سجلوا دخولهم إلى Teams ويستخدمون تطبيق Human Resources سيتلقون إعلامات.
+>وحدهم المستخدمون الذين سجلوا دخولهم إلى Teams ويستخدمون تطبيق Dynamics 365 Human Resources سيتلقون إعلامات.
 
 1. في Human Resources، حدد **إدارة النظام**.
 
@@ -66,7 +68,7 @@ ms.locfileid: "5111341"
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>تشغيل إعلامات Teams أو إيقاف تشغيلها لمستخدمين فرديين
 
-بعد تمكين الإعلامات لتطبيق Human Resources Teams، يمكنك تشغيل الإعلامات أو إيقاف تشغيلها لمستخدمين فرديين.
+بعد تمكين الإعلامات لتطبيق Dynamics 365 Human Resources Teams، يمكنك تشغيل الإعلامات أو إيقاف تشغيلها لمستخدمين فرديين.
 
 1. في Human Resources، حدد **إدارة النظام**.
 
@@ -82,9 +84,28 @@ ms.locfileid: "5111341"
 
 6. حدد **حفظ**.
 
-## <a name="known-issues"></a>مشكلات معروفة
+## <a name="supported-languages"></a>اللغات المدعومة
 
-| إصدار | الحالة |
+يدعم التطبيق Dynamics 365 Human Resources الموجود في Teams اللغات التالية:
+
+| معرف الإعدادات المحلية | اللغة |
+| --- | --- |
+| de-DE | الألمانية (ألمانيا) |
+| es-ES | الأسبانية (أسبانيا) |
+| es-MX | الأسبانية (المكسيك) |
+| fr-CA | الفرنسية (كندا) |
+| fr-FR | الفرنسية (فرنسا) |
+| it-IT | الإيطالية (إيطاليا) |
+| nl-NL | الهولندية (هولندا) |
+| pt-BR | البرتغالية (البرازيل) |
+| tr-TR | التركية (تركيا) |
+| zh-CN | الصينية (المبسطة) |
+
+## <a name="notes"></a>الملاحظات
+
+يتم تحديد عناصر العمل التالية للإصدارات المستقبلية:
+
+| عنصر العمل | الحالة |
 | --- | --- |
 | يصبح الرصيد غير صحيح عند إرسال إجازة لتاريخ مستقبلي. | التنبؤ غير متوفر بعد. يتم عرض الرصيد للتاريخ الحالي. |
 | تعذر إلغاء طلب **قيد المراجعة**. | هذه الوظيفة غير مدعومة في الوقت الحالي وستتم إضافتها في إصدار مستقبلي. |
@@ -96,11 +117,11 @@ ms.locfileid: "5111341"
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>لا يمكن التسجيل في تطبيق الموارد البشرية في الفرق
 
-إذا قام مستخدم بالاتصال بك لأنه لا يمكنه تسجيل الدخول إلى التطبيق، تحقق من ان المستخدم لديه سجل موظف مقترن في الموارد البشرية.
+إذا قام مستخدم بالاتصال بك لأنه لا يمكنه تسجيل الدخول إلى التطبيق، تحقق من أن المستخدم لديه سجل موظف مقترن في الموارد البشرية.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>حدث خطا عند اعتماد طلبات المغادرة في تطبيق الموارد البشرية في الفرق
 
-في حاله تلقي المستخدم خطا اثناء محاولة الموافقة علي طلبات الإجازات في تطبيق الفرق، قم باجراء خطوات استكشاف الأخطاء وإصلاحها التالية:
+في حاله تلقي المستخدم خطأ أثناء محاولة الموافقة علي طلبات الإجازات في تطبيق Teams، قم بإجراء خطوات استكشاف الأخطاء وإصلاحها التالية:
 
 1. تحقق من ان حساب الفرق الخاص بهم هو نفسه الذي يستخدم للوصول إلى الموارد البشرية.
 

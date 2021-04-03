@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0cd101bfe88ae1acb051ba11a676da66ef6a3db6
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 50be7631ec303171640b7fa9e6d283a198bd1a52
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115452"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464996"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>توزيع الاستبيانات باستخدام الجدولة
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 تتيح لك جدولة الاستبيان إمكانية تخطيط وتوزيع استبيانات على عدة مستجيبين. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 
@@ -55,7 +57,7 @@ ms.locfileid: "5115452"
 
 11. في حقل "النص"، اكتب النص الأساسي لرسالة البريد الإلكتروني. تجدر الإشارة إلى أنه يمكن استخدام المتغير لكي يحل محل القيم في النظام.
 
-    * على سبيل المثال: عزيزي % P %، الرجاء تسجيل الدخول إلى ‏‫خدمة الموظف الذاتية‬ لإكمال الاستبيان "صحة القوى العاملة".  شركة الرشيدي  
+    * على سبيل المثال: عزيزي %P%، الرجاء تسجيل الدخول إلى ‏‫خدمة الموظف الذاتية‬ لإكمال الاستبيان "صحة القوى العاملة".  شركة الرشيدي  
 
 12. انقر فوق "حفظ".
 

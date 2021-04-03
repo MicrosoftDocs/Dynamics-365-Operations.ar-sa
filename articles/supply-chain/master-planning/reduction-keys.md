@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8732d0a032b7dd44918955354c56321d065d4a77
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d16de8c339fadff074ef8ec30b0b4d6e3412569
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001839"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470751"
 ---
 # <a name="forecast-reduction-keys"></a>طرق خفض التنبؤ
 
@@ -198,7 +198,7 @@ ms.locfileid: "5001839"
 يتم استخدام طريقة خفض التنبؤ في الأسلوبين **الحركات - طريقة الخفض‬** و **النسبة - طريقة الخفض‬** لتقليل متطلبات التنبؤ. اتبع هذه الخطوات لإنشاء وإعداد طريقة خفض.
 
 1. انتقل إلى **التخطيط الرئيسي \> الإعداد \> تغطية \> طرق الخفض**.
-2. حدد **جديد** أو اضغط على **على Ctrl + N** لإنشاء طريقة خفض.
+2. حدد **جديد** لإنشاء طريقة الخفض‬.
 3. في حقل **طريقة الخفض**، أدخل معرّفًا فريدًا لطريقة خفض التنبؤ. ثم في حقل **الاسم**، أدخل اسمًا. 
 4. حدد الفترات الزمنية ونسبة طريقة الخفض في كل فترة:
 

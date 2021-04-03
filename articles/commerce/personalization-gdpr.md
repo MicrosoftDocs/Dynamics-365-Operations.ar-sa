@@ -1,6 +1,6 @@
 ---
 title: إلغاء الاشتراك في التوصيات المخصصة
-description: يشرح هذا الموضوع كيفيه السماح للعملاء بالانسحاب من تلقي التوصيات المخصصة في Microsoft Dynamics 365 Commerce.
+description: يشرح هذا الموضوع كيفية السماح للعملاء بالانسحاب من تلقي التوصيات المخصصة في Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
 ms.date: 09/15/2020
@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e822d0097443d7da347c29ebfa63ad6a2d7cbf8b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e65fc54f87664caec95b2bc2c579d0820ae08c0f
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000627"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477674"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>إلغاء الاشتراك في التوصيات المخصصة
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيفيه السماح للعملاء بالانسحاب من تلقي التوصيات المخصصة في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
+يشرح هذا الموضوع كيفية السماح للعملاء بالانسحاب من تلقي التوصيات المخصصة في Microsoft Dynamics 365 Commerce.
 
 واثناء إنشاء الحساب، يتم إعداد العملاء الجدد تلقائيا لتلقي التوصيات المخصصة. ومع ذلك، يوفر Dynamics 365 Commerce يوفر طرقا متنوعة لبائعي التجزئة السماح للمستخدمين بالخروج من هذه التوصيات وتقييد معالجه البيانات الشخصية الخاصة بهم. سوف يتوقف المستخدمون المصادقون الذين يرفضوا الخروج من التوصيات المخصصة فورا من مشاهده القوائم الشخصية. بالإضافة إلى ذلك، ستتم أزاله كافة البيانات الشخصية التي تم تجميعها لإضفاء طابع شخصي من نماذج التوصيات المخصصة.
 

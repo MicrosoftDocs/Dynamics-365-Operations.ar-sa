@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001938"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476665"
 ---
 # <a name="engineering-change-management-overview"></a>نظرة عامة حول إدارة التغيير الهندسي
 
@@ -44,20 +44,24 @@ ms.locfileid: "5001938"
 
 يتم تضمين الفيديو السابق ( [قدرات أداره التغييرات في Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) في قائمة تشغيل [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة علي YouTube.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>تشغيل أداره التغييرات الهندسية للنظام الخاص بك
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>قم بتشغيل إدارة التغيير الهندسي وميزات أبعاد الإصدار لنظامك
 
-أولا ، قم بتشغيل أداره التغييرات الهندسية باتباع الخطوات التالية.
+قبل أن تتمكن من استخدام إدارة التغيير الهندسي، يجب عليك تمكين كل من ميزة *إدارة التغييرات الهندسية* ومفتاح تكوينها. إذا كنت تريد أيضًا تتبع بُعد إصدار المنتجات في المعاملات (اختياري)، فيجب عليك أيضًا تمكين ميزة *بُعد إصدار المنتج* ومفتاح تكوينها.
+
+أولاً، قم بتشغيل الميزات باتباع هذه الخطوات.
 
 1. انتقل إلى [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. ‏‏تحقق من وجود تحديثات.
 1. قم بتشغيل الميزة التي تسمى **إدارة التغييرات الهندسية**.
+1. إذا كنت تريد استخدامه، فقم أيضًا بتشغيل الميزة التي تم تسميتها **إصدار بعد المنتج**.
 
-بعد ذلك، قم بتشغيل مفتاح التكوين **أداره التغييرات الهندسية** باتباع الخطوات التالية.
+بعد ذلك، قم بتشغيل مفاتيح التكوين باتباع هذه الخطوات.
 
 1. وضع النظام في وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. انتقل إلى **إدارة النظام \> الإعداد \> تكوين الترخيص**.
-1. قم بتوسيع عقده **التجارة**، ثم حدد خانه الاختيار **أداره التغييرات الهندسية**.
+1. توسيع عقدة **التجارة**
+1. حدد مربع الاختيار **إدارة التغييرات الهندسية**.
+1. إذا كنت ترغب في استخدامه، فحدد أيضًا خانة الاختيار **بعد المنتج - الإصدار**.
 1. إيقاف تشغيل وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
