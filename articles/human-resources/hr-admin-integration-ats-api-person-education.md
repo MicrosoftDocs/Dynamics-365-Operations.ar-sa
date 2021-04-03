@@ -16,17 +16,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b3f3c5a94d7deedd70af0d031c15ecf631dce4d7
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: cfa05fe6816c6b24034f8f015bf6e42d665ef1dc
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125319"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466486"
 ---
 # <a name="person-education"></a>تعليم الشخص
 
-يصف هذا الموضوع كيان تعليم الشخص لـ Dynamics 365 Human Resources.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
+يصف هذا الموضوع كيان تعليم الشخص لـ Dynamics 365 Human Resources.
 
 الاسم الفعلي: mshr_hcmpersoneducationentity
 

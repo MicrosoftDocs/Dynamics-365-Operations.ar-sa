@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987563"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487911"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>معاينة ميزة إدارة التغييرات الهندسية
 
@@ -397,7 +397,6 @@ ms.locfileid: "4987563"
 
 1. ثم بعد ذلك، في جزء الإجراءات، ضمن علامة التبويب **أمر التغيير**، في مجموعة **‏حالة التغيير**، حدد **اعتماد**.
 1. حدد **عمليه** لتحديث معلومات المنتج.
-1. حدد **إكمال** لوضع علامة علي أمر التغيير كمكتمل.
 
 ## <a name="release-the-changed-product"></a>إصدار المنتج الذي تم تغييره
 
@@ -411,5 +410,8 @@ ms.locfileid: "4987563"
 1. حدد **موافق** لإغلاق مربع الحوار **الإصدارات** والعودة إلى أمر التغيير.
 1. في جزء الإجراءات ، ضمن علامة التبويب **أمر التغيير**، في المجموعة **إصدارات المنتجات**، حدد **معالجة** لإصدار المنتجات المتاثره إلى الشركات المحددة. وبدلا من ذلك ، حدد **إصدار بنيه المنتج** لبدء عمليه الإصدار.
 
+## <a name="complete-the-change-order"></a>إكمال أمر التغيير
+
+لتمييز أمر التغيير على أنه مكتمل، مما يشير إلى أنه لا توجد إجراءات أخرى متبقية، حدد **مكتمل** في جزء الإجراءات.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

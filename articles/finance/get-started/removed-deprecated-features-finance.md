@@ -3,7 +3,7 @@ title: الميزات التي تمت إزالتها أو إهمالها في Dy
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,15 +11,15 @@ ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: sericks
+ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
+ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154167"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5474053"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -33,7 +33,19 @@ ms.locfileid: "5154167"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 > [!NOTE]
-> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.17 من Finance
+
+### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>مستودع LCS كخيار تخزين لتكوينات التقارير الإلكترونية
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بالمستودع العمومي لـ Regulatory Configuration Service (RCS) الجديد |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم |
+| **مناطق المنتجات المتأثرة**         | منتجات Dynamics 365 Finance وSupply Chain Management وProject Operations|
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: بحلول 01 أبريل، 2022، نخطط لإيقاف الدعم لمستودع Microsoft Dynamics Lifecycle Services (LCS) باعتباره خيار تخزين لتكوين التقارير الإلكترونية (ER). سيتم نشر تكوينات Microsoft ER الجديدة لتنزيلها حصريًا من المستودع العمومي. يمكن الوصول إلى المستودع العمومي من منتجات Dynamics 365 وRCS. لمزيد من المعلومات، راجع [استيراد تكوينات ER من RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.16 من Finance
 

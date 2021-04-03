@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3b750ee89a85688dcebe673f9c3ff13693e9fcad
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d31e3e7248809a00ad51183b80205d1351567ab3
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976728"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477866"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>نشر مستأجر التجارة الإلكترونية الجديد
-
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية نشر موقع تجارة إلكترونية جديد لـ Dynamics 365 Commerce باستخدام Microsoft Dynamics Lifecycle Services (LCS).
-
-## <a name="overview"></a>نظرة عامة
 
 تعتبر Microsoft Dynamics Lifecycle Services مساحة عمل تعاونيه قائمة على السحابة ويمكن للشركاء والعملاء استخدامها لإدارة المشاريع والبيئات الخاصة بهم، وعرض أحدث المعلومات حول منتجات Microsoft Dynamics والميزات، وإنشاء حوادث الدعم وتعقبها واستعراضها. تتكامل ميزات إدارة التجارة الإلكترونية في LCS.
 
