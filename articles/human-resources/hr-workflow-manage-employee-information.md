@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c5bb0a363a3094626d81af3d5ffea38d9a1b12a8
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 923ec7d3940124da4ada50d23f88e3ab3646a5a0
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129793"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463492"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>استخدام عمليات سير العمل لإدارة المعلومات الخاصة بالموظف
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 تشرح هذه المقالة كيف يمكن استخدام إمكانات سير العمل للموارد البشرية لإدارة معلومات الموظف. على سبيل المثال، يمكنك إقران سير عمل مع موضع وتكوين سير عمل موافقة يتم تشغيله عندما يقوم الموظفون بتغيير سجلهم.
 

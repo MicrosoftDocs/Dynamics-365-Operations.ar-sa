@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a6432fb5b04097d81680aed4e940e47f5ff2902
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: d039dbbec756d60853fbfebc9e35802983cb3a35
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111338"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463998"
 ---
 # <a name="integration-with-finance-faq"></a>‏‫الأسئلة المتداولة حول التكامل مع Finance
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -176,7 +178,7 @@ ms.locfileid: "5111338"
 
   - [إدارة أخطاء موحد البيانات واستكشاف الأخطاء وإصلاحها](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في Power Apps، وMicrosoft Power Automate، وDataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في Power Apps و Microsoft Power AutomateوDataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - إدارة البيانات:
 

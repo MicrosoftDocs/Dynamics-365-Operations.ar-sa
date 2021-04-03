@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 366c9bd571ac85677105a136f83eeb949c8104f9
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 833494fffda917d389252a35abdcd23a69b46511
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111332"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466052"
 ---
 # <a name="set-up-employment-types"></a>إعداد أنواع التوظيف
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 قم بإعداد أنواع التوظيف في Dynamics 365 Human Resources لمطابقة العاملين.
 

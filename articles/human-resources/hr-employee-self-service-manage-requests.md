@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a47065a28f116cde5ce2983acada2f735f8c5edf
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 86e6868b5172ea113fab63780773633427a45a1a
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115284"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463180"
 ---
 # <a name="manage-leave-and-absence-requests"></a>إدارة طلبات الإجازة والغياب
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 إدارة طلبات زمن التوقف من مساحة عمل **‏‫خدمة الموظف الذاتية‬** في Dynamics 365 Human Resources. قد تكون الطلبات عبارة عن طلبات بسيطة ليوم واحد أو طلبات متعددة الأيام تتضمن أنواع إجازات وغياب متعددة. إذا لم يتم تمكين سير عمل، فستتم الموافقة على الطلبات تلقائيًا. عند تمكين سير عمل، قد تتم الموافقة بشكل تلقائي أو قد تتطلب اعتمادًا بحسب تكوين سير العمل.
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d34551e4a3cc08ce3fe47e8f8fd2c3cc68c0daf7
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 5517ee621f1c41b6348dc965e8846d677aa1bb56
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130123"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464804"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>إدارة الأصناف المعارة للعاملين
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 أصناف القرض هي سجلات تساعد المديرين على تعقب الأصناف الفعلية التي تقوم شركتك بإعارتها للعاملين. 
 
