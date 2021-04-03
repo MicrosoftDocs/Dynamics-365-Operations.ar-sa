@@ -17,50 +17,55 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 97f6e310d3a69c870fe8ef03bd7a10cc7ab652e5
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 8fef2152f7c65a6678e6cb94da8ea2bbe99ea51d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111339"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466678"
 ---
-# <a name="optimize-performance-with-auto-cleanup-tasks"></a><span data-ttu-id="92039-103">تحسين الأداء باستخدام تنظيف المهام تلقائيًا</span><span class="sxs-lookup"><span data-stu-id="92039-103">Optimize performance with auto cleanup tasks</span></span>
+# <a name="optimize-performance-with-auto-cleanup-tasks"></a><span data-ttu-id="da549-103">تحسين الأداء باستخدام تنظيف المهام تلقائيًا</span><span class="sxs-lookup"><span data-stu-id="da549-103">Optimize performance with auto cleanup tasks</span></span>
 
-<span data-ttu-id="92039-104">**إصدار**</span><span class="sxs-lookup"><span data-stu-id="92039-104">**Issue**</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="92039-105">يمكن أن يواجه Microsoft Dynamics 365 Human Resources مشكلات في الأداء إذا زاد حجم سجل الوظائف الدفعية بدرجة كبيرة.</span><span class="sxs-lookup"><span data-stu-id="92039-105">Microsoft Dynamics 365 Human Resources can experience performance issues if the batch job history grows too large.</span></span>
+<span data-ttu-id="da549-104">**إصدار**</span><span class="sxs-lookup"><span data-stu-id="da549-104">**Issue**</span></span>
 
-<span data-ttu-id="92039-106">**السبب**</span><span class="sxs-lookup"><span data-stu-id="92039-106">**Cause**</span></span>
+<span data-ttu-id="da549-105">يمكن أن يواجه Microsoft Dynamics 365 Human Resources مشكلات في الأداء إذا زاد حجم سجل الوظائف الدفعية بدرجة كبيرة.</span><span class="sxs-lookup"><span data-stu-id="da549-105">Microsoft Dynamics 365 Human Resources can experience performance issues if the batch job history grows too large.</span></span>
 
-<span data-ttu-id="92039-107">قد تؤدي المهام الدفعية التي تعمل بشكل متكرر إلى زيادة مستدامة في سجل الوظائف الدفعية.</span><span class="sxs-lookup"><span data-stu-id="92039-107">Batch jobs that run frequently can lead to unsustainable growth of the batch job history.</span></span> <span data-ttu-id="92039-108">يمكن أن يسبب هذا مشاكل في الأداء.</span><span class="sxs-lookup"><span data-stu-id="92039-108">This can cause performance issues.</span></span> 
+<span data-ttu-id="da549-106">**السبب**</span><span class="sxs-lookup"><span data-stu-id="da549-106">**Cause**</span></span>
 
-<span data-ttu-id="92039-109">**الدقة**</span><span class="sxs-lookup"><span data-stu-id="92039-109">**Resolution**</span></span>
+<span data-ttu-id="da549-107">قد تؤدي المهام الدفعية التي تعمل بشكل متكرر إلى زيادة مستدامة في سجل الوظائف الدفعية.</span><span class="sxs-lookup"><span data-stu-id="da549-107">Batch jobs that run frequently can lead to unsustainable growth of the batch job history.</span></span> <span data-ttu-id="da549-108">يمكن أن يسبب هذا مشاكل في الأداء.</span><span class="sxs-lookup"><span data-stu-id="da549-108">This can cause performance issues.</span></span> 
 
-<span data-ttu-id="92039-110">قم بجدولة مهمة تلقائية لتنظيف سجل الوظائف الدفعيه الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="92039-110">Schedule an automatic task to clean up your batch job history.</span></span> <span data-ttu-id="92039-111">نوصي بإعداد المهمة لتعمل أسبوعيًا، ولكن قد تحتاج إلى تشغيل التنظيف على نحو أكثر تكرارًا أو أقل تكرارًا، وفقًا للبيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="92039-111">We recommend setting up the task to run weekly, but you might need to run the cleanup more or less frequently, depending on your environment.</span></span> <span data-ttu-id="92039-112">يحتوي الإجراء التالي على الإعدادات المستحسنة الخاصة بنا، ولكن يمكنك تغيير هذه الإعدادات وفقًا لاحتياجاتك.</span><span class="sxs-lookup"><span data-stu-id="92039-112">The following procedure contains our recommended settings, but you can change these according to your needs.</span></span>
+<span data-ttu-id="da549-109">**الدقة**</span><span class="sxs-lookup"><span data-stu-id="da549-109">**Resolution**</span></span>
 
-1. <span data-ttu-id="92039-113">في Human Resources، حدد **إدارة النظام**.</span><span class="sxs-lookup"><span data-stu-id="92039-113">In Human Resources, select **System administration**.</span></span>
+<span data-ttu-id="da549-110">قم بجدولة مهمة تلقائية لتنظيف سجل الوظائف الدفعيه الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="da549-110">Schedule an automatic task to clean up your batch job history.</span></span> <span data-ttu-id="da549-111">نوصي بإعداد المهمة لتعمل أسبوعيًا، ولكن قد تحتاج إلى تشغيل التنظيف على نحو أكثر تكرارًا أو أقل تكرارًا، وفقًا للبيئة الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="da549-111">We recommend setting up the task to run weekly, but you might need to run the cleanup more or less frequently, depending on your environment.</span></span> <span data-ttu-id="da549-112">يحتوي الإجراء التالي على الإعدادات المستحسنة الخاصة بنا، ولكن يمكنك تغيير هذه الإعدادات وفقًا لاحتياجاتك.</span><span class="sxs-lookup"><span data-stu-id="da549-112">The following procedure contains our recommended settings, but you can change these according to your needs.</span></span>
 
-2. <span data-ttu-id="92039-114">في شريط **البحث**، أدخل **‏‫تنظيف محفوظات الوظيفة الدُفعية**.</span><span class="sxs-lookup"><span data-stu-id="92039-114">In the **Search** bar, enter **Batch job history clean-up**.</span></span>
+1. <span data-ttu-id="da549-113">في Human Resources، حدد **إدارة النظام**.</span><span class="sxs-lookup"><span data-stu-id="da549-113">In Human Resources, select **System administration**.</span></span>
+
+2. <span data-ttu-id="da549-114">في شريط **البحث**، أدخل **‏‫تنظيف محفوظات الوظيفة الدُفعية**.</span><span class="sxs-lookup"><span data-stu-id="da549-114">In the **Search** bar, enter **Batch job history clean-up**.</span></span>
 
    ![بحث عن تنظيف سجل الوظائف الدفعية](media/talent-batch-history-cleanup-search-bar.png)
 
-3. <span data-ttu-id="92039-116">في **حد السجل (أيام)**، أدخل **30**.</span><span class="sxs-lookup"><span data-stu-id="92039-116">In **History limit (days)**, enter **30**.</span></span>
+3. <span data-ttu-id="da549-116">في **حد السجل (أيام)**، أدخل **30**.</span><span class="sxs-lookup"><span data-stu-id="da549-116">In **History limit (days)**, enter **30**.</span></span>
 
    ![قم بتعيين حد السجل إلى 30](media/talent-batch-history-cleanup-history-limit.png)
 
-4. <span data-ttu-id="92039-118">حدد **تشغيل في الخلفية** ثم حدد **التكرار**.</span><span class="sxs-lookup"><span data-stu-id="92039-118">Select **Run in the background** and then select **Recurrence**.</span></span>
+4. <span data-ttu-id="da549-118">حدد **تشغيل في الخلفية** ثم حدد **التكرار**.</span><span class="sxs-lookup"><span data-stu-id="da549-118">Select **Run in the background** and then select **Recurrence**.</span></span>
 
    ![تعيين التكرار](media/talent-batch-history-cleanup-recurrence.png)
 
-5. <span data-ttu-id="92039-120">ضمن **تعريف التكرار**، قم بتعيين **تاريخ البدء** و **وقت البدء** بحيث يقعان خلال ساعات التوقف عن العمل أو عطلة نهاية الأسبوع، ثم حدد **بلا تاريخ انتهاء**.</span><span class="sxs-lookup"><span data-stu-id="92039-120">Under **Define recurrence**, set the **Start date** and **Start time** to occur during off-hours or the weekend, and then select **NO END DATE**.</span></span> 
+5. <span data-ttu-id="da549-120">ضمن **تعريف التكرار**، قم بتعيين **تاريخ البدء** و **وقت البدء** بحيث يقعان خلال ساعات التوقف عن العمل أو عطلة نهاية الأسبوع، ثم حدد **بلا تاريخ انتهاء**.</span><span class="sxs-lookup"><span data-stu-id="da549-120">Under **Define recurrence**, set the **Start date** and **Start time** to occur during off-hours or the weekend, and then select **NO END DATE**.</span></span> 
 
    ![تعيين تاريخ بدء التكرار ووقته](media/talent-batch-history-cleanup-define-recurrence.png)
 
-6. <span data-ttu-id="92039-122">ضمن **نمط التكرار**، حدد **أيام** وقم بتعيين **‏‫تكرار بعد الفترة المحددة** إلى **7**.</span><span class="sxs-lookup"><span data-stu-id="92039-122">Under **RECURRENCE PATTERN**, select **Days** and set **REPEAT AFTER SPECIFIED INTERVAL** to **7**.</span></span>
+6. <span data-ttu-id="da549-122">ضمن **نمط التكرار**، حدد **أيام** وقم بتعيين **‏‫تكرار بعد الفترة المحددة** إلى **7**.</span><span class="sxs-lookup"><span data-stu-id="da549-122">Under **RECURRENCE PATTERN**, select **Days** and set **REPEAT AFTER SPECIFIED INTERVAL** to **7**.</span></span>
 
    ![تعيين التنظيف ليتكرر أسبوعيًا](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
-7. <span data-ttu-id="92039-124">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="92039-124">Select **OK**.</span></span>
+7. <span data-ttu-id="da549-124">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="da549-124">Select **OK**.</span></span>
 
-8. <span data-ttu-id="92039-125">قم بتغيير إية معلمات أخرى ضمن **تشغيل في الخلفية** عند الضرورة، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="92039-125">Change any other parameters under **Run in the background** as necessary, and then select **OK**.</span></span>
+8. <span data-ttu-id="da549-125">قم بتغيير إية معلمات أخرى ضمن **تشغيل في الخلفية** عند الضرورة، ثم حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="da549-125">Change any other parameters under **Run in the background** as necessary, and then select **OK**.</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

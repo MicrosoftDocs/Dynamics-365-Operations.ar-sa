@@ -17,28 +17,31 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81e5611cd1491ee0c119f049e992afb4b6299991
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d466b05b4677223000e5dfd383ea89f9328619ef
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019469"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263772"
 ---
-# <a name="active-work-order-maintenance-jobs-overview"></a><span data-ttu-id="2849a-103">نظرة عامة على مهام صيانة أوامر العمل النشطة</span><span class="sxs-lookup"><span data-stu-id="2849a-103">Active work order maintenance jobs overview</span></span>
+# <a name="active-work-order-maintenance-jobs-overview"></a><span data-ttu-id="169d0-103">نظرة عامة على مهام صيانة أوامر العمل النشطة</span><span class="sxs-lookup"><span data-stu-id="169d0-103">Active work order maintenance jobs overview</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-<span data-ttu-id="2849a-104">في صفحة قائمة **مهام صيانة أوامر العمل النشطة‬** ، يمكنك الحصول على نظرة عامة حول أوامر العمل بالنسبة إلى عدد أوامر العمل التي تم إنشاؤها على أصول وأنواع أصول وشركات مصنعة ونماذج وأنواع مهام صيانة معينة وما إلى ذلك.</span><span class="sxs-lookup"><span data-stu-id="2849a-104">On the **Active work order maintenance jobs** list page, you can get an overview of work orders, in terms of the number of work orders that have been created on specific assets, asset types, manufacturers, models, maintenance job types, and so on.</span></span> <span data-ttu-id="2849a-105">بتحديد وظيفة أمر عمل ثم اختيار **تحرير**، يمكنك فتح أمر العمل المرتبط.</span><span class="sxs-lookup"><span data-stu-id="2849a-105">By selecting a work order job and then selecting **Edit**, you can open the related work order.</span></span> <span data-ttu-id="2849a-106">ومن خلال تحديد وظيفة أمر العمل ثم تحديد أحد الأزرار في علامة التبويب **مهام صيانة أمر العمل** في جزء الإجراء، يمكنك عرض البيانات الخاصة بأمر العمل الذي ترتبط به وظيفة أمر العمل.</span><span class="sxs-lookup"><span data-stu-id="2849a-106">By selecting a work order job and then selecting one of the buttons on the **Work order maintenance jobs** tab of the Action Pane, you can view data for the work order that the work order job is related to.</span></span>
+<span data-ttu-id="169d0-104">في صفحة قائمة **مهام صيانة أوامر العمل النشطة‬** ، يمكنك الحصول على نظرة عامة حول أوامر العمل بالنسبة إلى عدد أوامر العمل التي تم إنشاؤها على أصول وأنواع أصول وشركات مصنعة ونماذج وأنواع مهام صيانة معينة وما إلى ذلك.</span><span class="sxs-lookup"><span data-stu-id="169d0-104">On the **Active work order maintenance jobs** list page, you can get an overview of work orders, in terms of the number of work orders that have been created on specific assets, asset types, manufacturers, models, maintenance job types, and so on.</span></span> <span data-ttu-id="169d0-105">بتحديد وظيفة أمر عمل ثم اختيار **تحرير**، يمكنك فتح أمر العمل المرتبط.</span><span class="sxs-lookup"><span data-stu-id="169d0-105">By selecting a work order job and then selecting **Edit**, you can open the related work order.</span></span> <span data-ttu-id="169d0-106">ومن خلال تحديد وظيفة أمر العمل ثم تحديد أحد الأزرار في علامة التبويب **مهام صيانة أمر العمل** في جزء الإجراء، يمكنك عرض البيانات الخاصة بأمر العمل الذي ترتبط به وظيفة أمر العمل.</span><span class="sxs-lookup"><span data-stu-id="169d0-106">By selecting a work order job and then selecting one of the buttons on the **Work order maintenance jobs** tab of the Action Pane, you can view data for the work order that the work order job is related to.</span></span>
 
-<span data-ttu-id="2849a-107">لفتح صفحة قائمة، حدد **إدارة الأصول** > **عام** > **أوامر العمل** > **مهام صيانة أوامر العمل النشطة‬**.</span><span class="sxs-lookup"><span data-stu-id="2849a-107">To open the list page, select **Asset management** > **Common** > **Work orders** > **Active work order maintenance jobs**.</span></span> <span data-ttu-id="2849a-108">تسرد الصفحة جميع وظائف أمر العمل النشطة وتعرض أيضًا بعض المعلومات المرتبطة بأمر العمل أو وظيفة أمر العمل.</span><span class="sxs-lookup"><span data-stu-id="2849a-108">The page lists all active work order jobs, and it also shows some of the information that is related to the work order or work order job.</span></span>
+<span data-ttu-id="169d0-107">لفتح صفحة قائمة، حدد **إدارة الأصول** > **عام** > **أوامر العمل** > **مهام صيانة أوامر العمل النشطة‬**.</span><span class="sxs-lookup"><span data-stu-id="169d0-107">To open the list page, select **Asset management** > **Common** > **Work orders** > **Active work order maintenance jobs**.</span></span> <span data-ttu-id="169d0-108">تسرد الصفحة جميع وظائف أمر العمل النشطة وتعرض أيضًا بعض المعلومات المرتبطة بأمر العمل أو وظيفة أمر العمل.</span><span class="sxs-lookup"><span data-stu-id="169d0-108">The page lists all active work order jobs, and it also shows some of the information that is related to the work order or work order job.</span></span>
 
-<span data-ttu-id="2849a-109">في العمود **%** ، يشير الرقم إلى اكتمال أمر العمل كنسبة مئوية.</span><span class="sxs-lookup"><span data-stu-id="2849a-109">In the **%** column, a number shows completion of the work order as a percentage.</span></span> <span data-ttu-id="2849a-110">يستند الاكتمال إلى عمليتين حسابيتين: الساعات المرحلة مقارنة بالساعات المتوقعة، وعدد قوائم فحص الصيانة المكتملة.</span><span class="sxs-lookup"><span data-stu-id="2849a-110">Completion is based on two calculations: posted hours compared to forecasted hours, and the number of maintenance checklists that have been completed.</span></span>
+<span data-ttu-id="169d0-109">في العمود **%** ، يشير الرقم إلى اكتمال أمر العمل كنسبة مئوية.</span><span class="sxs-lookup"><span data-stu-id="169d0-109">In the **%** column, a number shows completion of the work order as a percentage.</span></span> <span data-ttu-id="169d0-110">يستند الاكتمال إلى عمليتين حسابيتين: الساعات المرحلة مقارنة بالساعات المتوقعة، وعدد قوائم فحص الصيانة المكتملة.</span><span class="sxs-lookup"><span data-stu-id="169d0-110">Completion is based on two calculations: posted hours compared to forecasted hours, and the number of maintenance checklists that have been completed.</span></span>
 
-<span data-ttu-id="2849a-111">يُبين الرسم التوضيحي المبين أدناه مثالًا لصفحة قائمة **مهام صيانة أوامر العمل النشطة‬**.</span><span class="sxs-lookup"><span data-stu-id="2849a-111">The illustration below shows an example of the **Active work order maintenance jobs** list page.</span></span>
+<span data-ttu-id="169d0-111">يُبين الرسم التوضيحي المبين أدناه مثالًا لصفحة قائمة **مهام صيانة أوامر العمل النشطة‬**.</span><span class="sxs-lookup"><span data-stu-id="169d0-111">The illustration below shows an example of the **Active work order maintenance jobs** list page.</span></span>
 
 ![الشكل 1](media/23-work-orders.png)
 
-<span data-ttu-id="2849a-113">للحصول على وصف مختصر للأزرار في صفحة قائمة **مهام صيانة أوامر العمل النشطة‬** ، يمكنك الرجوع إلى [مقدمة إلى أوامر العمل](../work-orders/introduction-to-work-orders.md) حيث يتم وصف أزرار مماثلة.</span><span class="sxs-lookup"><span data-stu-id="2849a-113">For a short description of the buttons on the **Active work order maintenance jobs** list page, refer to [Introduction to work orders](../work-orders/introduction-to-work-orders.md) where identical buttons are described.</span></span>
+<span data-ttu-id="169d0-113">للحصول على وصف مختصر للأزرار في صفحة قائمة **مهام صيانة أوامر العمل النشطة‬** ، يمكنك الرجوع إلى [مقدمة إلى أوامر العمل](../work-orders/introduction-to-work-orders.md) حيث يتم وصف أزرار مماثلة.</span><span class="sxs-lookup"><span data-stu-id="169d0-113">For a short description of the buttons on the **Active work order maintenance jobs** list page, refer to [Introduction to work orders](../work-orders/introduction-to-work-orders.md) where identical buttons are described.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
