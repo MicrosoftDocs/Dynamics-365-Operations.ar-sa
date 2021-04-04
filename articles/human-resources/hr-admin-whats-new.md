@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec952f8c121f97396c135d10258a6431e8f2257e
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e3412f446fe9fb8e3c2ca5407b22680dec3c3b82
+ms.sourcegitcommit: 75b432ce9019c81253eb6bd865db905701e28a26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111401"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579321"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>الجديد أو المتغير في Human Resources
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 كل أسبوعين، نقوم بتوفير إصدار جديد من Microsoft Dynamics 365 Human Resources. تفصّل المواضيع المذكورة هنا التغييرات التي تم تمت مع كل إصدار.
 
@@ -49,9 +51,11 @@ ms.locfileid: "5111401"
 
 للاطلاع على الميزات الجديدة أو المتغيرة في كل إصدار كل أسبوعين من Human Resources، راجع المقالات التالية:
 
+[8 مارس 2021](hr-whats-new-2021-03-08.md)</br>
+[22 فبراير 2021](hr-whats-new-2021-02-22.md)</br>
 [28 يناير 2021](hr-whats-new-2021-01-28.md)</br>
 [21 يناير 2021](hr-whats-new-2021-01-21.md)</br>
-[02 ديسمبر 2020](hr-whats-new-2020-12-02.md)</br>
+[2 ديسمبر 2020](hr-whats-new-2020-12-02.md)</br>
 [22 أكتوبر 2020](hr-whats-new-2020-10-22.md)</br>
 [16 سبتمبر 2020](hr-whats-new-2020-09-16.md)</br>
 [3 سبتمبر 2020](hr-whats-new-2020-09-03.md)</br>

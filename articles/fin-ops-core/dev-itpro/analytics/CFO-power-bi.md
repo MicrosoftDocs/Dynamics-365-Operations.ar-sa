@@ -1,12 +1,11 @@
 ---
 title: المحتوى "نظرة عامة على المدير المالي‬" في Power BI
-description: يصف هذا الموضوع المحتوى "نظرة عامة على المدير المالي" في Microsoft Power BI.
+description: يصف هذا الموضوع محتوى "نظرة عامة على المدير المالي" في Microsoft Power BI.
 author: kweekley
 manager: AnnBe
 ms.date: 10/02/2010
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
@@ -14,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5970f5c333803c45426b75d09b4f07c26bf892de
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7f97187f4afb228ad2028e0be7cf55b6154372f8
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688139"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568508"
 ---
 # <a name="cfo-overview-power-bi-content"></a>المحتوى "نظرة عامة على المدير المالي‬" في Power BI
 
 [!include [banner](../includes/banner.md)] 
 
-يصف هذا الموضوع المحتوى **نظرة عامة على المدير المالي** في Microsoft Power BI. ينطبق محتوى Power BI هذا على مستخدمي الإصدار 7.2 من Microsoft Dynamics 365 for Finance and Operations. إذا كنت تستخدم الإصدار 7.3 أو إصدار أحدث، فيُرجى الرجوع إلى [المعلومات المالية](financial-insights.md).
+يصف هذا الموضوع محتوى **نظرة عامة على المدير المالي** في Microsoft Power BI. ينطبق محتوى Power BI هذا على مستخدمي الإصدار 7.2 من Microsoft Dynamics 365 for Finance and Operations. إذا كنت تستخدم الإصدار 7.3 أو إصدار أحدث، فيُرجى الرجوع إلى [المعلومات المالية](financial-insights.md).
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 

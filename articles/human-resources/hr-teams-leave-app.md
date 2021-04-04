@@ -3,7 +3,7 @@ title: إدارة طلبات الإجازة في Teams
 description: يوضح هذا الموضوع كيفية طلب إجازة في تطبيقات Dynamics 365 Human Resources في Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/28/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 79bded5a241a8d5de1847adff3e663359ce1b26f
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128151"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571718"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يتيح لك تطبيق Microsoft Dynamics 365 Human Resources في Microsoft Teams طلب إجازة بسرعة وعرض معلومات رصيد إجازاتك مباشرة في Microsoft Teams. يمكنك التفاعل مع الروبوت لطلب معلومات وبدء طلب إجازة. توفر علامة التبويب **إجازة** مزيدًا من المعلومات التفصيلية. يمكنك أيضًا إرسال معلومات الأشخاص حول وقت الإجازة القادم في الفرق والدردشات خارج تطبيق Human Resources.
+يتيح لك تطبيق Dynamics 365 Human Resources في Microsoft Teams طلب إجازة بسرعة وعرض معلومات رصيد إجازاتك مباشرة في Microsoft Teams. يمكنك التفاعل مع الروبوت لطلب معلومات وبدء طلب إجازة. توفر علامة التبويب **إجازة** مزيدًا من المعلومات التفصيلية. يمكنك أيضًا إرسال معلومات الأشخاص حول وقت الإجازة القادم في Teams والدردشات خارج تطبيق Human Resources.
 
 ## <a name="install-the-app"></a>تثبيت التطبيق
 
-يمكنك العثور على تطبيق Human Resources في متجر Teams.
+يمكنك العثور على تطبيق Dynamics 365 Human Resources في متجر Teams.
 
 1. في Microsoft Teams، حدد علامة القطع.
 
@@ -70,29 +70,21 @@ ms.locfileid: "5128151"
 
 يمكنك مطالبة الروبوت بما يلي:
 
-- إظهار معلومات رصيد الإجازات لكل نوع من أنواع الإجازات التي قمت بتسجيلها.
-
-   ![إظهار الأرصدة في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-bot-balances.png)
- 
-- قم بعرض تفاصيل إضافية حول نوع إجازة معين.
-
-   ![إظهار التفاصيل في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-bot-details.png)
-
 - ابدأ طلب إجازة لك.
 
-   ![طلب إجازة في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-bot-request.png)
- 
-بعد بدء طلب إجازة، يمكنك ضبط الأيام داخل البطاقة.
+  ![بدء طلب إجازة في محادثة Teams](./media/hr-teams-leave-app-initiate.png)
 
-![تحرير طلب في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-bot-edit.png)
- 
-عندما تنتهي من إدخال المعلومات، حدد **إرسال** لإرسال الطلب للموافقة. يمكنك أيضًا تحديد **حفظ كمسودة** للعودة إلى المسودة لاحقًا.
+- سيقوم روبوت المحادثة بملء طلب الإجازة لك. حدد **طلب إجازة** وقم بتحرير التفاصيل الخاصة بطلبك.
 
-![تقديم طلب في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-bot-submit.png)
+  ![تحرير تفاصيل طلب الإجازة](./media/hr-teams-leave-app-details.png)
+
+- عند الانتهاء من تحرير تفاصيل طلب الإجازة، حدد **إرسال** لإرساله للاعتماد.
+
+  ![إرسال طلب الإجازة](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>إدارة إجازتك في Teams
 
-تتيح لك علامة التبويب **إجازة** عرض ما يلي:
+تتيح لك علامة التبويب **إجازة** عرض ما يلي: 
 
 - معلومات الرصيد لكل نوع من أنواع الإجازات التي قمت بتسجيلها
 
@@ -164,21 +156,51 @@ ms.locfileid: "5128151"
 
 1. في تطبيق Human Resources في Teams، حدد **إجازة**.
 
-2. حدد **تقويم الفريق**.
+2. حدد **تقويم الفريق**. يعرض التقويم إجازات المرؤوسين المباشرين الموافق عليها والمعلقة.
 
    ![عرض التقويم في تطبيق Human Resources Teams](./media/hr-teams-leave-app-view-calendar.png)
 
-يعرض التقويم إجازات المرؤوسين المباشرين الموافق عليها والمعلقة.
+   > [!NOTE]
+   > إذا لم تتمكن من رؤية تقويم الفريق، فاطلب من المسؤول تمكينه. لمزيد من المعلومات، راجع [التثبيت والإعداد](hr-admin-teams-leave-app.md#install-and-setup).
 
-![تقويم الإجازات في تطبيق Human Resources Teams](./media/hr-teams-leave-app-calendar.png)
+## <a name="supported-languages"></a>اللغات المدعومة
+
+يدعم التطبيق Dynamics 365 Human Resources الموجود في Teams اللغات التالية:
+
+| معرف الإعدادات المحلية | اللغة |
+| --- | --- |
+| de-DE | الألمانية (ألمانيا) |
+| es-ES | الأسبانية (أسبانيا) |
+| es-MX | الأسبانية (المكسيك) |
+| fr-CA | الفرنسية (كندا) |
+| fr-FR | الفرنسية (فرنسا) |
+| it-IT | الإيطالية (إيطاليا) |
+| nl-NL | الهولندية (هولندا) |
+| pt-BR | البرتغالية (البرازيل) |
+| tr-TR | التركية (تركيا) |
+| zh-CN | الصينية (المبسطة) |
 
 ## <a name="troubleshooting"></a>استكشاف الأخطاء وإصلاحها
 
-إذا كنت تواجه مشكله في تسجيل الدخول أو باستخدام تطبيق فرق الموارد البشرية، حاول اتباع إرشادات استكشاف الأخطاء وإصلاحها. إذا كنت لا تزال تواجه مشاكل بعد استكشاف الأخطاء وإصلاحها، اتصل بالدعم. لمزيد من المعلومات، راجع [الحصول على الدعم](hr-admin-troubleshooting-support.md).
+في تسجيل الدخول أو باستخدام تطبيق Dynamics 365 Human Resources Teams، حاول اتباع إرشادات استكشاف الأخطاء وإصلاحها. إذا كنت لا تزال تواجه مشاكل بعد استكشاف الأخطاء وإصلاحها، اتصل بالدعم. لمزيد من المعلومات، راجع [الحصول على الدعم](hr-admin-troubleshooting-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>لا يمكن التسجيل في تطبيق الموارد البشرية في الفرق
 
 إذا لم تتمكن من تسجيل الدخول إلى التطبيق ، فمن الممكن ان يكون الحساب الذي تستخدمه لتسجيل الدخول إلى Microsoft Teams غير مقترن بسجل موظف في Dynamics 365 Human Resources. اتصل بمسؤول النظام لضمان ربط سجل الموظف بشكل صحيح.
+
+### <a name="translations-dont-display-correctly"></a>لا يتم عرض الترجمات بشكل صحيح
+
+إذا لم يتم عرض الترجمات على النحو المتوقع، فتأكد من أن اللغة التي تحددها في Teams تطابق اللغة المحددة في **خيارات المستخدم** لـ Human Resources.
+
+في Teams، انظر إلى **لغة التطبيق** في **الإعدادات**.
+
+![إعدادات Teams](./media/hr-teams-leave-app-settings.png)
+
+في Human Resources، حدد **الإعدادات** ثم حدد **خيارات المستخدم**. تحقق من أن الحقل **اللغة** يطابق الحقل **لغة التطبيق** في Teams.
+
+![خيارات مستخدم Human Resources](./media/hr-teams-leave-app-user-options.png)
+
+إذا كنت لا تزال تواجه مشاكل في الترجمة، فأعلمنا بذلك. للحصول على المعلومات، راجع [الحصول على الدعم لتطبيقات Finance and Operations أو Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-support?toc=/dynamics365/human-resources/toc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>حدث خطا عند اعتماد طلبات المغادرة في تطبيق الموارد البشرية في الفرق
 
@@ -198,7 +220,6 @@ ms.locfileid: "5128151"
 | في علامة التبويب **إجازة**، يعلن التعليق الصوتي عن إجراء زر أثناء قراءة رأس شبكة الإجازات. | يتم تجميع الرأس والعناصر داخل الشبكة حسب السنة، وهي قابلة للطي. يفسر التعليق الصوتي هذا على أنه عنصر قابل للتنفيذ، لكنه ليس كذلك. |
 | في علامة التبويب **إجازة**، هناك إيماءة انتقاد إضافية عند الانتقال إلى **رمز السبب** في طلب جديد. | لا يوجد عنصر تحكم خفي يحاول التنقل السريع الوصول إليه. |
 | في علامة التبويب **إجازة**، إذا قمت بالتمرير أثناء فتح التقويم، فسوف ينتهي بك الأمر خارج نطاق التحكم بدلاً من أن تكون في الجزء العلوي في طلب جديد أو أثناء تحرير طلب. | عند الوصول إلى **الوصول إلى اليوم**، ضع في اعتبارك أن هذا هو نهاية عنصر التحكم واسحب في الاتجاه العكسي للرجوع إلى الأعلى. |
-| لا يقرأ التعليق الصوتي تسميات التواريخ. | التواريخ التي يتم مواجهتها في أزواج دائمًا ما تكون **تاريخ البدء** و **تاريخ الانتهاء**. |
 | في علامة التبويب **محادثة**، ينتقل التركيز إلى الأعلى عند إدخال تاريخ أثناء استخدام الأداة المساعدة أو التنقل باستخدام لوحة المفاتيح. | اضغط حتى تصل إلى منطقة الإدخال مرة أخرى. |
 
 ## <a name="privacy-notice"></a>إشعار الخصوصية

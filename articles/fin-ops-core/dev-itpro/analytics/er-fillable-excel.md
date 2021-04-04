@@ -3,10 +3,9 @@ title: تصميم تكوين لإنشاء مستندات بتنسيق Excel
 description: يصف هذا الموضوع كيفية تصميم تنسيق التقارير الإلكترونية (ER) لملء قالب Excel، ثم إنشاء مستندات صادرة بتنسيق Excel.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094019"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574163"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>تصميم تكوين لإنشاء المستندات بتنسيق Excel
 
@@ -54,7 +53,7 @@ ms.locfileid: "5094019"
 لتحديد مخطط المستند الصادر، قم بإرفاق مصنف Excel يتضمن الملحق .xlsx إلى مكون **ملف\\Excel** كقالب للمستندات الصادرة.
 
 > [!NOTE]
-> عندما تقوم بإرفاق قالب يدويًا، يجب عليك استخدام [نوع مستند](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) تم تكوينه لهذا الغرض في [معلمات ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> عندما تقوم بإرفاق قالب يدويًا، يجب عليك استخدام [نوع مستند](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) تم تكوينه لهذا الغرض في [معلمات ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![إضافة مرفق إلى مكون ملف/Excel](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ ms.locfileid: "5094019"
 
 يجبر مكون **PageBreak** Excel على بدء صفحة جديدة. لا يكون هذا المكون مطلوبًا عندما تريد استخدام ترحيل الصفحات الافتراضي في Excel، ولكن يجب عليك استخدامه عندما تريد أن يتبع Excel تنسيق ER لهيكلة الترحيل.
 
+## <a name="footer-component"></a>مكون التذييل
+
+يُستخدم مكون  **التذييل** لملء التذييلات في أسفل ورقة عمل تم إنشاؤها في مصنف Excel.
+
+> [!NOTE]
+> يمكنك إضافة هذا المكون لكل مكون **ورقة عمل** لتحديد تذييلات مختلفة لأوراق العمل المختلفة في مصنف Excel الذي تم إنشاؤه.
+
+عند تكوين مكون **تذييل** فردي، يمكنك استخدام خاصية **مظهر الرأس/التذييل** لتحديد الصفحات التي يتم استخدام المكون لها. تتوفر القيم التالية:
+
+- **أي** - تشغيل مكون **التذييل** الذي تم تكوينه لأي صفحة من ورقة عمل Excel الأصلية.
+- **الأولى** - تشغيل مكون **التذييل** الذي تم تكوينه للصفحة الأولى فقط من ورقة عمل Excel الأصلية.
+- **زوجي** - تشغيل مكون **التذييل** الذي تم تكوينه للصفحات الزوجية فقط من ورقة عمل Excel الأصلية.
+- **زوجي** فردي - تشغيل مكون **التذييل** الذي تم تكوينه للصفحات الفردية فقط من ورقة عمل Excel الأصلية.
+
+مع مكون **ورقة عمل** فردية، يمكنك إضافة عدة مكونات **تذييل**، ولكل واحد قيمة مختلفة لخاصية **مظهر الرأس/التذييل**. بهذه الطريقة، يمكنك إنشاء تذييلات مختلفه لأنواع مختلفة من الصفحات في ورقة عمل Excel.
+
+> [!NOTE]
+> تأكد من أن كل مكون **تذييل** قمت بإضافته إلى مكون **ورقة** فردي يتضمن قيمة مختلفة لخاصية **مظهر الرأس/التذييل**. خلاف ذلك، سيحدث [خطأ في التحقق من الصحة](er-components-inspections.md#i16). تقوم رسالة الخطأ التي تلقيتها بإخطارك بشان عدم التوافق.
+
+ضمن مكون **التذييل** المضاف، أضف المكونات المتداخلة المطلوبة من **النص\\السلسلة** أو **النص\\تاريخ/وقت** أو أي نوع آخر. قم بتكوين الروابط لهذه المكونات لتحديد كيفية ملء تذييل صفحتك.
+
+يمكنك أيضا استخدام [أكواد التنسيق](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) لتنسيق محتوي التذييل الذي تم إنشاؤه بشكل صحيح. لمعرفة كيفية استخدام هذا النهج، اتبع الخطوات الموضحة في [المثال 1](#example-1)، لاحقًا في هذا الموضوع.
+
+> [!NOTE]
+> عند تكوين تنسيقات ER، تأكد من مراعاة [حد Excel](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) والحد الأقصى لعدد الأحرف الخاصة برأس أو تذييل الصفحة الفردية.
+
+## <a name="header-component"></a>مكون الرأس
+
+يُستخدم مكون  **الرأس** لملء الرؤوس في أعلى ورقة عمل تم إنشاؤها في مصنف Excel. ويُستخدم مثل مكون **التذييل**.
+
 ## <a name="edit-an-added-er-format"></a>تحرير تنسيق ER المضاف
 
 ### <a name="update-a-template"></a>تحديث قالب
@@ -175,6 +204,48 @@ ms.locfileid: "5094019"
     >[!NOTE]
     > يتم فرض إعادة حساب المعادلة يدويًا عند فتح مستند تم إنشاؤه للمعاينة باستخدام Excel.
     > لا تستخدم هذا الخيار إذا قمت بتكوين وجهة إعداد التقارير الإلكترونية التي تفترض استخدام مستند تم إنشاؤه بدون معاينته في Excel (تحويل PDF، وإرسال بريد إلكتروني، وما إلى ذلك) لأن المستند الذي تم إنشاؤه قد لا يحتوي على قيم في الخلايا التي تحتوي على معادلات.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>مثال رقم 1: تنسيق محتوى التذييل 
+
+1. استخدم تكوينات ER المتوفرة [لإنشاء](er-generate-printable-fti-forms.md) مستند فاتورة ذات نص حر قابل للطباعة (FTI).
+2. قم بمراجعة تذييل المستند الذي تم إنشاؤه. لاحظ أنه يحتوي على معلومات حول رقم الصفحة الحالية والعدد الإجمالي للصفحات في المستند.
+
+    ![مراجعة تذييل المستند الذي تم إنشاؤه بتنسيق Excel](./media/er-fillable-excel-footer-1.gif)
+
+3. في مصمم تنسيق ER، [افتح](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) نموذج تنسيق ER للمراجعة.
+
+    يتم إنشاء تذييل ورقة عمل **الفاتورة** استنادا إلى إعدادات مكونين من مكونات **السلسلة** الموجودة ضمن مكون **التذييل**:
+
+    - يقوم مكون **السلسلة** الأول بتعبئة أكواد التنسيق الخاصة التالية لإجبار Excel على تطبيق تنسيق محدد:
+
+        - **&C** - محاذاة نص التذييل إلى الوسط.
+        - **&"Segoe UI,Regular"&8** – إظهار نص التنسيق بخط "Segoe UI Regular" بحجم 8 نقاط.
+
+    - يملأ مكون **السلسلة** الثاني النص الذي يحتوي على رقم الصفحة الحالية والعدد الإجمالي للصفحات في المستند الحالي.
+
+    ![مراجعة مكون تنسيق التقارير الإلكترونية (ER) في صفحة مصمم التنسيق](./media/er-fillable-excel-footer-2.png)
+
+4. تخصيص تنسيق نموذج ER لتعديل تذييل الصفحة الحالية:
+
+    1. قم [بإنشاء](er-quick-start2-customize-report.md#DeriveProvidedFormat) تنسيق **مخصص لفاتورة نص حر (Excel)** مشتق يستند إلى نموذج تنسيق ER.
+    2. أضف الزوج الجديد الأول من مكونات **السلسلة** لمكون **التذييل** لورقة عمل **الفاتورة**:
+
+        1. أضف مكون **سلسلة** لمحاذاة اسم الشركة على اليسار وعرضه بخط 8 نقاط من "Segoe UI Regular" (**"&L&"Segoe UI,Regular"&8"**).
+        2. إضافة مكون **سلسله** يقوم بتعبئة اسم الشركة (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. أضف الزوج الجديد الثاني من مكونات **السلسلة** لمكون **التذييل** لورقة عمل **الفاتورة**:
+
+        1. أضف مكون **سلسلة** لمحاذاة تاريخ المعالجة على اليمين وعرضه بخط 8 نقاط من "Segoe UI Regular" (**"&L&"Segoe UI,Regular"&8"**).
+        2. أضف مكون **سلسلة** يقوم بتعبئة تاريخ المعالجة بتنسيق مخصص (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
+
+        ![مراجعة مكون تنسيق التقارير الإلكترونية (ER) في صفحة مصمم التنسيق](./media/er-fillable-excel-footer-3.png)
+
+    4. [أكمل](er-quick-start2-customize-report.md#CompleteDerivedFormat) إصدار المسودة من تنسيق ER لـ **فاتورة نص حرة (Excel) مخصصة** مشتقة.
+
+5. [قم بتكوين](er-generate-printable-fti-forms.md#configure-print-management) إدارة الطباعة لاستخدام تنسيق ER لـ **فاتورة نص حر (Excel) مخصص** المشتقة بدلا من نموذج تنسيق ER.
+6. قم بإنشاء وثيقة FTI قابلة للطباعة، وقم بمراجعه تذييل الوثيقة التي تم إنشائها.
+
+    ![مراجعة تذييل المستند الذي تم إنشاؤه بتنسيق Excel](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
