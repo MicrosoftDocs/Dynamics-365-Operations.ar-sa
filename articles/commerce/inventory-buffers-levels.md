@@ -14,20 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012410"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478378"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>تكوين المخازن المؤقتة للمخزون ومستويات المخزون
 
 [!include [banner](includes/banner.md)]
 
 يشرح هذا الموضوع كيفية تكوين المخازن المؤقتة للمخزون ومستويات المخزون التي تحدد المراسلات حول توافر المخزون في مواقع Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يحتفظ Dynamics 365 Commerce headquarters ببيانات المخزون والقنوات المختلفة مثل تطبيقات نقطة البيع (POS) ومتاجر التجارة الإلكترونية وتطبيقات أخرى متكاملة تقوم بسحب المخزون ودفعه بطريقة غير متزامنة. وبالتالي، فإن قيم المخزون المتاحة التي يتم الحصول عليها من خلال صفحة المخزون الفعلي في Commerce Headquarters، من خلال واجهة مستخدم نقطة البيع، ومن خلال واجهات API لتوفر مخزون Commerce ليست دائمًا دقيقة بنسبة 100 في الوقت الحقيقي.
 

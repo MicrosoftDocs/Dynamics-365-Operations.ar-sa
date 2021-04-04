@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cca5e0efd6516d02c372e8a616b6bb0c39f3088c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 28bea16c3266115cf09aa80a364344789d60af7a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006200"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477818"
 ---
-# <a name="create-task-lists-and-add-tasks"></a>إنشاء قوائم مهام وأضافه مهام
+# <a name="create-task-lists-and-add-tasks"></a>إنشاء قوائم مهام وإضافة مهام
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية إنشاء قوائم المهام وإضافة المهام إليها في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تحدد *المهمة* جزءًا محددًا من العمل أو الإجراء الذي يجب أن يكمله أي شخص إكماله في تاريخ استحقاق معين أو قبله. في Dynamics 365 Commerce، يمكن ان تتضمن المهمة إرشادات تفصيلية ومعلومات حول الشخص المسؤول. كما يمكن أن تتضمن ارتباطات إلى عمليات مكاتب الدعم أو عمليات نقاط البيع (POS) أو صفحات الموقع للمساعدة في تحسين الانتاجية وتوفير السياق الذي يتطلبه مالك المهمة لإكمال المهمة بشكل فعال.
 
