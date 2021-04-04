@@ -3,10 +3,9 @@ title: نوع وجهة إعداد التقارير الإلكترونية للط
 description: يشرح هذا الموضوع معلومات حول كيفيه تكوين وجهه طابعة لكل مجلد أو مكون ملف لتنسيق التقارير الكترونيه (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 19613d9dfba21d591d96a2df45bedb80c043b3a7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094069"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561940"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>وجهة الطابعة
 
@@ -48,8 +47,6 @@ ms.locfileid: "5094069"
 لا يمكن تكوين وجهة **الطابعة** إلا لمكونات الملف المستخدمة لإنشاء مخرجات في تنسيق pdf القابل للطباعة (عناصر تنسيق ملف PDF أو دمج PDF) أو تنسيق Microsoft Office Excel/Word (ملف Excel). عند إنشاء مخرجات بتنسيق PDF، يتم إرسالها إلى طابعة. عند إنشاء المخرجات بتنسيق Microsoft Office، يتم تحويلها تلقائيًا إلى تنسيق PDF ثم إرسالها إلى طابعة.
 
 ### <a name="limitations"></a>قيود
-
-هذه الميزة هي ميزة معاينة وهي خاضعة لشروط الاستخدام الموضحة في [شروط الاستخدام الإضافية لمعاينات المستخدمة لمعاينات Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 لا يتم تطبيق وجهة **الطابعة** إلا لعمليات نشر المجموعة فقط.
 

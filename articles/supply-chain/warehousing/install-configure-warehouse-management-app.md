@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142313"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487015"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>تثبيت تطبيق الاجهزه المحمولة لأداره المستودعات والاتصال به
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142313"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> يوضح هذا الموضوع كيفيه تكوين تطبيق الاجهزه المحمولة الخاص باداره المستودع الجديد الموجود حاليا في المعاينة العامة. إذا كنت تبحث عن معلومات حول كيفيه تكوين المستودع القديم، راجع [تثبيت تطبيق المستودع والاتصال به](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> يوضح هذا الموضوع كيفية تكوين تطبيق تطبيق الأجهزة المحمولة لإدارة المستودع الجديد. إذا كنت تبحث عن معلومات حول كيفيه تكوين المستودع القديم، راجع [تثبيت تطبيق المستودع والاتصال به](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-تتوفر المعاينة العامة لتطبيق الاجهزه المحمولة لأداره المستودعات للتنزيل في Microsoft App Center. ويتم توفيره كمكون مستقل. بالتالي، يجب تنزيله على كل جهاز ثم تكوينه للاتصال ببيئة Microsoft Dynamics 365 Supply Chain Management الخاصة بك.
-
-يشرح هذا الموضوع كيفية تثبيت تطبيق إدارة المستودع على كل جهاز محمول خاص بك وتكوينه للاتصال ببيئة Supply Chain Management الخاصة بك. يمكنك تكوين كل جهاز يدويًا، أو يمكنك استيراد إعدادات الاتصال من خلال ملف أو عن طريق مسح رمز QR.
+يشرح هذا الموضوع كيفية تنزيل وتثبيت تطبيق الهاتف المحمول لإدارة المستودع على كل جهاز محمول خاص بك وكيفية تكوين التطبيق للاتصال ببيئة Supply Chain Management الخاصة بك. يمكنك تكوين كل جهاز يدويًا، أو يمكنك استيراد إعدادات الاتصال من خلال ملف أو عن طريق مسح رمز QR.
 
 ## <a name="system-requirements"></a>متطلبات النظام
 
@@ -53,17 +51,27 @@ ms.locfileid: "5142313"
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>الحصول علي تطبيق الاجهزه المحمولة لأداره المستودعات
 
-استخدم أحد الارتباطات التالية لتنزيل التطبيق:
+مع عمليات التوزيع الأصغر، قد ترغب في تثبيت التطبيق بشكل نموذجي على كل جهاز من المتجر المناسب ثم تكوين الاتصال يدويًا بالبيئات التي تستخدمها.
 
-- **Windows (UWP):** [برنامج معاينه مركز التطبيقات - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+بالنسبة لعمليات التوزيع الأكبر، يمكنك أتمتة نشر التطبيق و/أو التكوين، والذي قد يكون أكثر ملائمة إذا قمت بإدارة العديد من الأجهزة. على سبيل المثال، قد تستخدم إدارة الأجهزة المحمولة وحل إدارة تطبيقات الأجهزة المحمولة مثل [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). للحصول على معلومات حول كيفية استخدام Intune لإضافة التطبيقات، راجع [إضافة تطبيقات إلى Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
-    نظرا لان هذا التطبيق هو تطبيق معاينه، فانه يلزم بضع خطوات اضافيه لتثبيته. للحصول علي تفاصيل، راجع [تثبيت بنيه من مركز التطبيقات](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>تثبيت التطبيق من متجر التطبيقات
 
-- **Android:** [برنامج معاينه مركز التطبيقات - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+تُعد الطريقة الأسهل لتثبيت التطبيق على جهاز واحد هي تثبيته من متجر التطبيقات، الذي يوفر دائمًا أحدث إصدار متوفر بشكل عام. كما يمكن أيضًا لـ Microsoft Intune إحضار التطبيقات من متاجر التطبيقات. استخدم أحد الارتباطات التالية لتثبيت التطبيق من متجر التطبيقات:
 
-    نظرا لان هذا التطبيق هو تطبيق معاينه، فانه يلزم بضع خطوات اضافيه لتثبيته. للحصول علي تفاصيل، راجع [اختبار تطبيقات Android ](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **Windows (UWP):** [Warehouse Management على Microsoft Store](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-مع عمليات التوزيع الأصغر، قد ترغب في تثبيت التطبيق من المتجر المناسب على كل جهاز ثم تكوين الاتصال يدويًا بالبيئات التي تستخدمها. ومع ذلك، يمكنك أيضا جعل نشر التطبيق و/أو تكوينه ممكنا. قد تكون هذه الطريقة ملائمة إذا كنت تدير العديد من الأجهزة، وكنت تستخدم إدارة الأجهزة المحمولة وحل إدارة تطبيقات الأجهزة المحمولة مثل [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). للحصول على معلومات حول كيفية استخدام Intune لإضافة التطبيقات، راجع [إضافة تطبيقات إلى Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+- **Android:** [Warehouse Management على Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>تنزيل التطبيق من Microsoft App Center
+
+كبديل للتثبيت من متجر تطبيقات، يمكنك بدلاً من ذلك تنزيل التطبيق من مركز تطبيقات Microsoft. يوفر مركز التطبيقات حزم قابلة للتثبيت يمكنك بها القيام بالتحميل الجانبي. بالإضافة إلى الإصدار الحالي، يسمح لك مركز التطبيقات أيضًا بتنزيل الإصدارات السابقة وقد يوفر إصدارات معاينة بالميزات القادمة التي يمكنك تجربتها. لتنزيل الإصدارات الحالية أو السابقة أو معاينة الإصدارات الخاصة بتطبيق الأجهزة المحمولة لـ Warehouse Management من مركز تطبيقات Microsoft، استخدم أحد الارتباطات التالية:
+
+- **Windows (UWP):** [Warehouse Management (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    للحصول على إرشادات حول كيفية تثبيت حزمة تم تنزيلها على جهاز Windows ثم إعداد الشهادات المطلوبة، راجع [تثبيت بنية من مركز التطبيقات](https://docs.microsoft.com/appcenter/distribution/installation).
+
+- **Android:** [Warehouse Management (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    إذا قمت بتنزيل إصدار أولي، فإنه يلزم بضع خطوات إضافية لتثبيته. للحصول علي تفاصيل، راجع [اختبار تطبيقات Android ](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>إنشاء تطبيق خدمة ويب في Azure Active Directory
 

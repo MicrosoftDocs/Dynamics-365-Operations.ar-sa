@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 203dbc5463bfcc4249e9ed73802a9a1fc153f260
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 4e4b33e72d1d1dd9cb78a251281abd3e125c3665
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130195"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466318"
 ---
 # <a name="develop-a-succession-plan"></a>تطوير خطة تتابع
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 وكلما كبرت مؤسستك، يجب عليك بدء التخطيط لتعاقب الموظفين. أثناء التخطيط لتعاقب الموظفين، قد ترغب في البحث عن شخص ما لديه مهارات مشابهة لشخص آخر. يسمح لك أيضًا تعيين المهارة بتحليل الموظفين الحاليين ومقدمي الطلبات لمعرفة ما إذا كان هناك تطابق مع مجموعة المهارات لموظف ذو قيمة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

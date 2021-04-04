@@ -2,11 +2,10 @@
 title: وجهات إعداد التقارير الإلكترونية (ER)‬
 description: يوفر هذا الموضوع معلومات حول إدارة وجهات إعداد التقارير الإلكترونية‬ (ER) وأنواع الوجهات المدعومة واعتبارات الأمان.
 author: nselin
-manager: AnnBe
-ms.date: 01/21/2021
+manager: tfehr
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097271"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569709"
 ---
 # <a name="electronic-reporting-er-destinations"></a>وجهات إعداد التقارير الإلكترونية (ER)‬
 
@@ -166,12 +165,14 @@ ms.locfileid: "5097271"
 
 ### <a name="applicability"></a>إمكانية التطبيق
 
-لا يمكن تشغيل خيار التحويل إلى PDF إلا لمكونات الملفات المستخدمة لإنشاء مخرجات بتنسيق Office (Word أو Excel) (**ملف Excel**). عند تشغيل هذا الخيار، يتم تحويل المخرجات التي يتم إنشاؤها بتنسيق Office تلقائيًا إلى تنسيق PDF.
-
-### <a name="limitations"></a>قيود
+لا يمكن تشغيل خيار التحويل إلى PDF إلا لمكونات الملفات المستخدمة لإنشاء مخرجات بتنسيق Office (Word أو Excel) (**ملف Excel**). عند تشغيل هذا الخيار، يتم تحويل المخرجات التي يتم إنشاؤها بتنسيق Office تلقائيًا إلى تنسيق PDF. في إصدارات Finance **قبل الإصدار 10.0.18**، يمكنك تشغيل هذا الخيار فقط لمكونات نوع **ملف\\Excel** التي يتم استخدامها لإنشاء إخراج في بتنسيق [Excel](er-fillable-excel.md) أو [Word](er-design-configuration-word.md). ومع ذلك، في **الإصدار 10.0.18 والإصدارات الأحدث**، يمكنك أيضا تشغيل هذا الخيار للمكونات بنوع **ملف\\عام**.
 
 > [!NOTE]
-> هذه الميزة هي ميزة معاينة وهي خاضعة لشروط الاستخدام الموضحة في [شروط الاستخدام الإضافية لمعاينات المستخدمة لمعاينات Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
+> انتبه إلى رسالة التحذير التي تظهر لك عند تشغيل خيار تحويل PDF لمكون ER الخاص بنوع **ملف\\عام**. وتعلمك هذه الرسالة أنه ليست هناك طريقة لضمان أنه، وفي وقت التصميم، سيعرض مكون الملف المحدد المحتوى بتنسيق PDF أو محتويات PDF القابلة للتحويل في وقت التشغيل. لذلك، يجب تشغيل الخيار فقط إذا كنت متأكدًا من أن مكون الملف المحدد قد تم تكوينه لكشف المحتوى بتنسيق PDF أو محتويات PDF القابلة للتحويل في وقت التشغيل.
+> 
+> إذا قمت بتشغيل خيار تحويل PDF لمكون من نو **ملف\\Excel**، إذا كشف ذلك المكون عن محتوى بتنسيق غير PDF، وإذا كان المحتوى المكشوف لا يمكن تحويله إلى تنسيق PDF، فسيحدث استثناء في وقت التشغيل. تُعلمك الرسالة التي تتلقاها بأن المحتوى الذي تم إنشاؤه لا يمكن تحويله إلى تنسيق PDF.
+
+### <a name="limitations"></a>قيود
 
 لا يكون خيار التحويل إلى PDF إلا لعمليات نشر المجموعة فقط.
 

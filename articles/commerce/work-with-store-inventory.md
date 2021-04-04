@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 616fb8975543344657c00c419ce7279658694675
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43625d17e0e2827396edb69a1d1d73a8472294ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989466"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252524"
 ---
 # <a name="commerce-inventory-management"></a>إدارة مخزون Commerce
 
 [!include [banner](includes/banner.md)]
 
-عند العمل مع مخزون في Microsoft Dynamics 365 Commerce واستخدام اي من تطبيقات Commerce المتصلة بوحدة Commerce Scale Unit (CSU)، فمن الضروري معرفة أن منطق معالجه الأمر في (CSU) يوفر دعمًا محدودًا لبعض أبعاد المخزون وبعض أنواع أصناف المخزون. لا يدعم تطبيق Commerce النطاق الكامل لقدرات تكوين الأصناف المتاحة من خلال خيارات تكوين الصنف في Dynamics 365 Supply Chain Management.
+عند العمل مع مخزون في Microsoft Dynamics 365 Commerce واستخدام اي من تطبيقات Commerce المتصلة بوحدة Commerce Scale Unit (CSU)، فمن الضروري معرفة أن منطق معالجة الأمر في (CSU) يوفر دعمًا محدودًا لبعض أبعاد المخزون وبعض أنواع أصناف المخزون. لا يدعم تطبيق Commerce النطاق الكامل لقدرات تكوين الأصناف المتاحة من خلال خيارات تكوين الصنف في Dynamics 365 Supply Chain Management.
 
 لا تدعم تطبيقات Commerce التي تعمل على CSU أبعاد المنتج وتكوينات الصنف التالية:
 
