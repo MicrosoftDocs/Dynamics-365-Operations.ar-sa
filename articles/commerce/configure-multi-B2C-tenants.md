@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997590"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477746"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>تكوين عدة مستأجرين B2C في بيئة Commerce
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع متى وكيفية إعداد عدة مستأجري متاجرة بين عمل ومستهلك (B2C) لكل قناة Microsoft Azure Active Directory (Azure AD) لمصادقة المستخدم في بيئة Dynamics 365 Commerce مخصصة.
-
-## <a name="overview"></a>نظرة عامة
 
 يستخدم Dynamics 365 Commerce خدمة الهوية عبر السحابة Azure AD B2C لدعم بيانات اعتماد المستخدم وتدفقات المصادقة. بإمكان المستخدمين استخدام تدفقات المصادقة للتسجيل، وتسجيل الدخول، وإعادة تعيين كلمه المرور. يقوم Azure AD B2C بتخزين معلومات المصادقة الحساسة للمستخدم، مثل اسم المستخدم وكلمه المرور الخاصة به. ويكون سجل المستخدمين فريدًا لكل مستأجر B2C، ويستخدم إما بيانات اعتماد اسم المستخدم (عنوان البريد إلكتروني) أو بيانات اعتماد موفر الهوية الاجتماعية.
 

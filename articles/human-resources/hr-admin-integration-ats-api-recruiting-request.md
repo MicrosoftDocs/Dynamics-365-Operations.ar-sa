@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125415"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500612"
 ---
 # <a name="recruiting-request"></a>طلب التعيين
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يصف هذا الموضوع كيان طلب التعيين لـ Dynamics 365 Human Resources.
 
@@ -98,7 +100,8 @@ ms.locfileid: "5125415"
 | **قيمة معرف نوع الوظيفة**<br>_mshr_fk_jobtype_id_value<br>*GUID* | للقراءة فقط<br>اختياري<br>المفتاح الخارجي: mshr_hcmjobtypeentityid للكيان mshr_hcmjobtypenentity | المعرف الفريد المنشأة بواسطة النظام لنوع الوظيفة المقترن بالوظيفة لطلب التعيين. |
 | **حالة الإعفاء**<br>mshr_exemptstatus<br>مجموعة خيارات *JobExemptStatus* | للقراءة فقط<br>اختياري | حالة إعفاء FLSA استنادًا إلى نوع الوظيفة. |
 | **تاريخ البدء التقديري**<br>mshr_estimatedstartdate<br>*التاريخ* | قراءة/كتابة<br>مطلوب | التاريخ المقدر الذي يبدأ فيه المرشح في العمل. |
-| **وصف خارجي**<br>mshr_externaldescription<br>*سلسلة* | قراءة/كتابة<br>اختياري | وصف موجه للمرشح للوظيفة/المنصب. | الحد الأدنى للتعويض<br>mshr_compensationlowthreshold<br>*مزدوج* | قراءة/كتابة<br>اختياري | الحد الأدنى لمستوى التعويض. |
+| **وصف خارجي**<br>mshr_externaldescription<br>*سلسلة* | قراءة/كتابة<br>اختياري | وصف موجه للمرشح للوظيفة/المنصب. | 
+| **الحد الأدنى للتعويض**<br>mshr_compensationlowthreshold<br>*مزدوج* | قراءة/كتابة<br>اختياري | الحد الأدنى لمستوى التعويض. |
 | **نقطة تحكم التعويض**<br>mshr_compensationcontrolpoint<br>*مزدوج* | قراءة/كتابة<br>اختياري | نقطة التحكم الخاصة بمستوى التعويض. |
 | **الحد الأعلى للتعويض**<br>mshr_compensationhighthreshold<br>*مزدوج* | قراءة/كتابة<br>اختياري | الحد الأعلى لمستوى التعويض. |
 | **مستوى التعويض**<br>mshr_compensationlevelid<br>*سلسلة* | قراءة/كتابة<br>اختياري | مستوى التعويض للوظيفة. يمكن إعداد وظيفة بمستويات تعويض متعددة. تشير هذه السمة إلى مستوى تعويض الوظيفة المحدد لهذا الطلب. |

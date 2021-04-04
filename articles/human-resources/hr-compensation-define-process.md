@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e4f49d9167e6d96500c7dbf5c1a25e04796b33a
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 3564e7807ed81684d51de3185cea9b4f35f38d8b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111300"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468265"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>تحديد عملية التعويض وحساب النتائج
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 تستخدم عمليات التعويض لتحديد مبالغ التعويضات الجديدة والمكافآت للموظفين المسجلين في خطط التعويض الثابتة والمتغيرة. يمكن تشغيل عمليات التعويض عدة مرات للقيام بتحليل "ماذا لو"، للتحقق من صحة كافة التغييرات والإعدادات. يقوم هذا الإجراء بإنشاء عملية تعويض، وتشغيل العملية وعرض النتائج. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 

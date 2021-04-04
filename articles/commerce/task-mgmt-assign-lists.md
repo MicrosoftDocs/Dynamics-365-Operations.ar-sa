@@ -1,6 +1,6 @@
 ---
 title: تعيين قوائم المهام إلى المتاجر أو الموظفين
-description: يصف هذا الموضوع كيفيه تعيين قوائم المهام للمتاجر أو للموظفين في Microsoft Dynamics 365 Commerce.
+description: يصف هذا الموضوع كيفية تعيين قوائم المهام للمتاجر أو للموظفين في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: ee924f5bf95d47814e7ca09b392a3d10b5e9b9dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d249809f15b50c59620d69a901a427dc3ecb2f0
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006250"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477574"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>تعيين قوائم المهام إلى المتاجر أو الموظفين
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفيه تعيين قوائم المهام للمتاجر أو للموظفين في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
+يصف هذا الموضوع كيفية تعيين قوائم المهام للمتاجر أو للموظفين في Microsoft Dynamics 365 Commerce.
 
 تتيح إدارة المهام في Dynamics 365 Commerce تعيين قائمة مهام للعديد من المتاجر أو الموظفين، أو لمجموعة من المتاجر والموظفين. على سبيل المثال، قد يحتاج المدير الإقليمي لـ 20 متجرًا إلى تعيين قائمة مهام **التحضير لموسم العطلات** إلى الـ 20 متجراً جميعهم.
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078227"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501092"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>راجع تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج.
 
@@ -38,11 +39,11 @@ ms.locfileid: "5078227"
 قبل أن تتمكن من استخدام الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة النمطية:** *التحكم بالإنتاج*
-- **اسم الميزة:** *تجاوز حجز الإنتاج الافتراضي*
+- **اسم الميزة:** *(إصدار أولي) تجاوز حجز الإنتاج الافتراضي*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>تعيين سياسة حجز إنتاج لمجموعه نموذج صنف
 
-1. انتقل إلى **إدارة التكاليف &gt; إعداد سياسات محاسبه مخزون &gt; مجموعات نماذج الأصناف**.
+1. انتقل إلى **إدارة التكاليف \> إعداد سياسات محاسبه مخزون \> مجموعات نماذج الأصناف**.
 1. قم بإنشاء أو تحديد مجموعة نماذج أصناف.
 1. في علامة التبويب السريعة **نهج المخزون**، حدد خانه الاختيار **تجاوز حجز إنتاج الصنف**.
 1. في الحقل **حجز**، حدد قاعده الحجز للأصناف التي تنتمي إلى مجموعه النماذج المحددة. (تتضمن هذه الأصناف الأصناف الموجودة في قائمة مكونات الصنف أو بند التركيبة.)

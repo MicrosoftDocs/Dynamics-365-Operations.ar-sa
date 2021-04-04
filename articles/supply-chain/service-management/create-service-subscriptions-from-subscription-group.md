@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c486567934f90a69aad3650d689fbff3256d397
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 777dfa2078adf31d651003f1075203c9b016ab1a
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974685"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470657"
 ---
-# <a name="create-service-subscriptions-from-a-subscription-group"></a>إنشاء اشتراكات خدمة من مجموعة اشتراك 
+# <a name="create-service-subscriptions-from-a-subscription-group"></a>إنشاء اشتراكات خدمة من مجموعة اشتراكات 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  انقر فوق **إدارة الخدمة** \> **إعداد** \> **اشتراكات الخدمة** \> **مجموعات الاشتراك**.
+1.  حدد **إدارة الخدمة** \> **إعداد** \> **اشتراكات الخدمة** \> **مجموعات الاشتراك**.
 
 2.  حدد مجموعة اشتراك.
 
-3.  انقر فوق زر **اشتراكات الخدمة**.
+3.  حدد الزر **اشتراكات الخدمة**.
 
-4.  اضغط على Ctrl+N لإنشاء اشتراك جديد. يعرض حقل مجموعة المشتركين معلومات من مجموعة المشتركين في نموذج **الاشتراك**.
+4.  حدد **جديد** لإنشاء اشتراك جديد. يعرض حقل مجموعة المشتركين معلومات من مجموعة المشتركين في نموذج **الاشتراك**.
 
 5.  أدخل المعلومات في الحقول المتبقية.
 

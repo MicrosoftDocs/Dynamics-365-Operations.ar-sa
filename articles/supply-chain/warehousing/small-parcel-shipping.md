@@ -16,16 +16,17 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 350193a0054ef879ece3dd2dfcc4105476981837
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078229"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501164"
 ---
 # <a name="small-parcel-shipping"></a>شحن طرد صغير
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 تمكن ميزه الشحن الجزء الصغير (SPS) Microsoft Dynamics 365 Supply Chain Management من التعامل مع شركات الشحن مباشره عن طريق توفير اطار عمل للاتصال عبر واجات برمجه تطبيقات الناقل. تكون هذه الوظيفة مفيده عندما تقوم بشحن أوامر مبيعات فرديه عبر شركات شحن تجاريه بدلا من استخدام شحن الحاوية أو الشحن اقل من حمولة الشاحنة (LTL).
 

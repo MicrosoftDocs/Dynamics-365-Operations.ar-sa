@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973750"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558252"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>تخطيط توجيه المستند لتسميات لوحات الترخيص
 
 [!include [banner](../includes/banner.md)]
+
 
 يحدد تخطيط توجيه المستندات تخطيط تسميات لوحات الترخيص والبيانات التي تتم طباعتها عليها. يتم تكوين نقاط مشغل الطباعة عند إعداد عناصر قائمة الجهاز المحمول وقوالب العمل.
 
@@ -51,6 +52,10 @@ ms.locfileid: "4973750"
 لمشاهدة القيم التي ستتم طباعتها، انتقل إلى **إدارة المستودعات \> ‏‫الاستعلامات والتقارير‬ \> تسميات لوحات الترخيص**.
 
 يمكن أن تساعدك العديد من أدوات إنشاء التسميات المتوفرة بشكل كبير على تنسيق النص الخاص بتخطيط التسمية. وتدعم العديد من هذه الأدوات تنسيق `$FieldName$`. بالإضافة إلى ذلك، يستخدم Microsoft Dynamics 365 Supply Chain Management منطق تنسيق خاص كجزء من تعيين الحقل لتخطيط توجيه المستند.
+
+## <a name="turn-on-this-feature-for-your-system"></a>تشغيل هذه الميزة في نظامك
+
+إذا لم يتضمن نظامك الميزات الموضحة في هذا الموضوع بالفعل، فانتقل إلى [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ، وقم بتشغيل ميزة *تخطيطات تسمية لوحة الترخيص المحسنة*.
 
 ## <a name="custom-number-formats"></a>تنسيقات الأرقام المخصصة
 
