@@ -1,0 +1,44 @@
+---
+title: إعدادات المورّد المضافة للتكلفة المستلمة
+description: يصف هذا الموضوع الحقول الجديدة التي تمت إضافتها إلى صفحة البائعين الموجودة عند تمكين وحدة التكلفة المستلمة. يمكنك استخدام هذه الحقول لإعداد البائعين الذين ستستخدمهم مع ميزات التكلفة المستلمة.
+author: sherry-zheng
+manager: tfehr
+ms.date: 12/07/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: VendTable
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: chuzheng
+ms.search.validFrom: 2020-12-07
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 8cc0622cd761a671ebb88addc36b777cfefb7dc7
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500900"
+---
+# <a name="vendor-settings-added-for-landed-cost"></a><span data-ttu-id="0ac20-104">إعدادات المورّد المضافة للتكلفة المستلمة</span><span class="sxs-lookup"><span data-stu-id="0ac20-104">Vendor settings added for Landed cost</span></span>
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="0ac20-105">عند تمكين وحدة **التكلفة المستلمة**، تتم إضافة العديد من الحقول الجديدة إلى صفحة **الموردين** الموجودة.</span><span class="sxs-lookup"><span data-stu-id="0ac20-105">When you enable the **Landed cost** module, several new fields are added to the existing **Vendors** page.</span></span> <span data-ttu-id="0ac20-106">يمكنك استخدام هذه الحقول لإعداد البائعين الذين ستستخدمهم مع ميزات التكلفة المستلمة.</span><span class="sxs-lookup"><span data-stu-id="0ac20-106">You use these fields to set up the vendors that you will use together with Landed cost features.</span></span>
+
+<span data-ttu-id="0ac20-107">لتعيين الحقول المناسبة، انتقل إلى **الشراء والتوريد \> الموردون \> جميع الموردين**.</span><span class="sxs-lookup"><span data-stu-id="0ac20-107">To set the relevant fields, go to **Procurement and sourcing \> Vendors \> All vendors**.</span></span> <span data-ttu-id="0ac20-108">افتح موردًا موجودًا، أو أنشئ موردًا جديدًا، ثم حدد علامة التبويب السريع **التفاصيل المتنوعة**.</span><span class="sxs-lookup"><span data-stu-id="0ac20-108">Open an existing vendor, or create a new vendor, and then select the **Miscellaneous details** FastTab.</span></span> <span data-ttu-id="0ac20-109">تظهر كل الحقول الجديدة التي تضيفها وحدة **التكلفة المستلمة** ضمن رأس **الرحلات**.</span><span class="sxs-lookup"><span data-stu-id="0ac20-109">All the new fields that the **Landed cost** module adds appear under the **Voyages** heading.</span></span> <span data-ttu-id="0ac20-110">يصف الجدول التالي هذه الحقول.</span><span class="sxs-lookup"><span data-stu-id="0ac20-110">The following table describes these fields.</span></span>
+
+| <span data-ttu-id="0ac20-111">الحقل</span><span class="sxs-lookup"><span data-stu-id="0ac20-111">Field</span></span> | <span data-ttu-id="0ac20-112">الوصف</span><span class="sxs-lookup"><span data-stu-id="0ac20-112">Description</span></span> |
+|---|---|
+| <span data-ttu-id="0ac20-113">نوع الشحن</span><span class="sxs-lookup"><span data-stu-id="0ac20-113">Shipping type</span></span> | <p><span data-ttu-id="0ac20-114">حدد دور المورد فيما يتعلق بالتكلفة المستلمة:</span><span class="sxs-lookup"><span data-stu-id="0ac20-114">Select the vendor's role in relation to Landed cost:</span></span></p><ul><li><span data-ttu-id="0ac20-115">**بلا** – لا يتمتع المورد بدور خاص مرتبط بالتكلفة المستلمة.</span><span class="sxs-lookup"><span data-stu-id="0ac20-115">**None** – The vendor has no specific role that is related to Landed cost.</span></span> <span data-ttu-id="0ac20-116">هذه القيمة هي الإعداد الافتراضي، لأنه من المحتمل ألا يكون لمعظم الموردين دور محدد.</span><span class="sxs-lookup"><span data-stu-id="0ac20-116">This value is the default setting, because most vendors will probably have no specific role.</span></span></li><li><span data-ttu-id="0ac20-117">**شركه الشحن** - المورد هو شركه شحن.</span><span class="sxs-lookup"><span data-stu-id="0ac20-117">**Shipping company** – The vendor is a shipping company.</span></span> <span data-ttu-id="0ac20-118">يتوفر الموردون الذين لديهم نوع الشحن هذا للتحديد في حقل **شركة الشحن** في صفحة **الرحلات**.</span><span class="sxs-lookup"><span data-stu-id="0ac20-118">Vendors that have this shipping type are available for selection in the **Shipping company** field on the **Voyages** page.</span></span></li><li><span data-ttu-id="0ac20-119">**وسيط الجمارك** – يعد المورد أحد وسطاء الجمارك.</span><span class="sxs-lookup"><span data-stu-id="0ac20-119">**Customs broker** – The vendor is a customs broker.</span></span> <span data-ttu-id="0ac20-120">يتوفر الموردون الذين لديهم نوع الشحن هذا للتحديد في حقل **وسيط الجمارك** في صفحة **السجلات**.</span><span class="sxs-lookup"><span data-stu-id="0ac20-120">Vendors that have this shipping type are available for selection in the **Customs broker** field on the **Folios** page.</span></span></li><li><span data-ttu-id="0ac20-121">**المندوب** – المورد هو مندوب.</span><span class="sxs-lookup"><span data-stu-id="0ac20-121">**Agent** – The vendor is an agent.</span></span> <span data-ttu-id="0ac20-122">يتوفر الموردون الذين لديهم نوع الشحن هذا للتحديد في حقل **المندوب** في صفحتي **الموردين** و **أوامر الشراء**.</span><span class="sxs-lookup"><span data-stu-id="0ac20-122">Vendors that have this shipping type are available for selection in the **Agent** field on the **Vendors** and **Purchase orders** pages.</span></span></li></ul> |
+| <span data-ttu-id="0ac20-123">مجموعة أنواع التكاليف</span><span class="sxs-lookup"><span data-stu-id="0ac20-123">Cost type group</span></span> | <span data-ttu-id="0ac20-124">قم بتعيين المورد لمجموعة نوع التكلفة بغرض تحديد [التكاليف التلقائية](auto-cost-setup.md).</span><span class="sxs-lookup"><span data-stu-id="0ac20-124">Assign the vendor to a cost type group for the purpose of selecting [auto costs](auto-cost-setup.md).</span></span> |
+| <span data-ttu-id="0ac20-125">مرفأ المغادرة</span><span class="sxs-lookup"><span data-stu-id="0ac20-125">From port</span></span> | <span data-ttu-id="0ac20-126">حدد ميناء المنشأ للرحلة.</span><span class="sxs-lookup"><span data-stu-id="0ac20-126">Select the port of origin for the voyage.</span></span> |
+| <span data-ttu-id="0ac20-127">الوكيل</span><span class="sxs-lookup"><span data-stu-id="0ac20-127">Agent</span></span> | <span data-ttu-id="0ac20-128">المندوب الافتراضي عندما تتم عمليات الشراء من المورد.</span><span class="sxs-lookup"><span data-stu-id="0ac20-128">The default agent when purchases are made from the vendor.</span></span> |
+| <span data-ttu-id="0ac20-129">مورّد احتساب تكلفة الاستيراد</span><span class="sxs-lookup"><span data-stu-id="0ac20-129">Import costing vendor</span></span> | <p><span data-ttu-id="0ac20-130">وضّح ما إذا كان المورّد هو مورّد التكلفة المستلمة.</span><span class="sxs-lookup"><span data-stu-id="0ac20-130">Indicate whether the vendor is a Landed cost vendor.</span></span></p><p><span data-ttu-id="0ac20-131">**تلميح:** يمكنك استخدام هذا الحقل مع الأمان على مستوى السجل للحد من أوامر الشراء التي تظهر عند إنشاء رحلة.</span><span class="sxs-lookup"><span data-stu-id="0ac20-131">**Tip:** You can use this field together with record-level security to limit the purchase orders that are shown when a voyage is created.</span></span></p> |
+| <span data-ttu-id="0ac20-132">شركة الشحن</span><span class="sxs-lookup"><span data-stu-id="0ac20-132">Shipping company</span></span> | <span data-ttu-id="0ac20-133">حدد شركة الشحن الافتراضية التي يتم استخدامها عند إنشاء أوامر الشراء للمورد.</span><span class="sxs-lookup"><span data-stu-id="0ac20-133">Select the default shipping company that is used when purchase orders are created for the vendor.</span></span> |
+| <span data-ttu-id="0ac20-134">موفر الخدمات</span><span class="sxs-lookup"><span data-stu-id="0ac20-134">Services provider</span></span> | <span data-ttu-id="0ac20-135">وضّح ما إذا كان المورد هو مقدم خدمات.</span><span class="sxs-lookup"><span data-stu-id="0ac20-135">Indicate whether the vendor is services provider.</span></span> |
+| <span data-ttu-id="0ac20-136">مجموعة تفاوت الزيادة/النقصان‬</span><span class="sxs-lookup"><span data-stu-id="0ac20-136">Over/Under tolerance group</span></span> | <span data-ttu-id="0ac20-137">حدد مجموعة تفاوت الزيادة/النقصان الافتراضية للمورد.</span><span class="sxs-lookup"><span data-stu-id="0ac20-137">Select the default over/under tolerance group for the vendor.</span></span> |

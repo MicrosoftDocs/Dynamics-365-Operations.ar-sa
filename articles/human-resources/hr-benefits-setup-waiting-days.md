@@ -18,27 +18,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e56edc19591ba535518f1cac54d29427ca233ab9
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: aba4a073e714e950b8efed1692ff2de7b3d557fa
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111330"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468313"
 ---
-# <a name="configure-waiting-days"></a><span data-ttu-id="4df7f-103">تكوين أيام الانتظار</span><span class="sxs-lookup"><span data-stu-id="4df7f-103">Configure waiting days</span></span>
+# <a name="configure-waiting-days"></a><span data-ttu-id="e3be1-103">تكوين أيام الانتظار</span><span class="sxs-lookup"><span data-stu-id="e3be1-103">Configure waiting days</span></span>
 
-<span data-ttu-id="4df7f-104">في Microsoft Dynamics 365 Human Resources، يُنشئ أيام الانتظار حدثا رئيسيًا شهريًا يُستخدم في خطط الميزات.</span><span class="sxs-lookup"><span data-stu-id="4df7f-104">In Microsoft Dynamics 365 Human Resources, waiting days establish a monthly milestone to use for benefit plans.</span></span> <span data-ttu-id="4df7f-105">على سبيل المثال، يمثل يوم الانتظار 15 اليوم الـ 15 من كل شهر.</span><span class="sxs-lookup"><span data-stu-id="4df7f-105">For example, a waiting day of 15 represents the 15th day of each month.</span></span> 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. <span data-ttu-id="4df7f-106">في مساحة العمل **إدارة الميزات**، ضمن **إعداد**، حدد **أيام الانتظار**.</span><span class="sxs-lookup"><span data-stu-id="4df7f-106">In the **Benefits management** workspace, under **Setup**, select **Waiting days**.</span></span>
+<span data-ttu-id="e3be1-104">في Microsoft Dynamics 365 Human Resources، يُنشئ أيام الانتظار حدثا رئيسيًا شهريًا يُستخدم في خطط الميزات.</span><span class="sxs-lookup"><span data-stu-id="e3be1-104">In Microsoft Dynamics 365 Human Resources, waiting days establish a monthly milestone to use for benefit plans.</span></span> <span data-ttu-id="e3be1-105">على سبيل المثال، يمثل يوم الانتظار 15 اليوم الـ 15 من كل شهر.</span><span class="sxs-lookup"><span data-stu-id="e3be1-105">For example, a waiting day of 15 represents the 15th day of each month.</span></span> 
 
-2. <span data-ttu-id="4df7f-107">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="4df7f-107">Select **New**.</span></span>
+1. <span data-ttu-id="e3be1-106">في مساحة العمل **إدارة الميزات**، ضمن **إعداد**، حدد **أيام الانتظار**.</span><span class="sxs-lookup"><span data-stu-id="e3be1-106">In the **Benefits management** workspace, under **Setup**, select **Waiting days**.</span></span>
 
-3. <span data-ttu-id="4df7f-108">حدد قيمًا للحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="4df7f-108">Specify values for the following fields:</span></span>
+2. <span data-ttu-id="e3be1-107">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="e3be1-107">Select **New**.</span></span>
 
-   | <span data-ttu-id="4df7f-109">الحقل</span><span class="sxs-lookup"><span data-stu-id="4df7f-109">Field</span></span> | <span data-ttu-id="4df7f-110">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="4df7f-110">Description</span></span> |
+3. <span data-ttu-id="e3be1-108">حدد قيمًا للحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="e3be1-108">Specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="e3be1-109">الحقل</span><span class="sxs-lookup"><span data-stu-id="e3be1-109">Field</span></span> | <span data-ttu-id="e3be1-110">‏‏الوصف</span><span class="sxs-lookup"><span data-stu-id="e3be1-110">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="4df7f-111">**يوم الانتظار**</span><span class="sxs-lookup"><span data-stu-id="4df7f-111">**Waiting day**</span></span> | <span data-ttu-id="4df7f-112">المعرف الفريد ليوم الانتظار.</span><span class="sxs-lookup"><span data-stu-id="4df7f-112">A unique identifier for the waiting day.</span></span> |
-   | <span data-ttu-id="4df7f-113">**‏‏الوصف**</span><span class="sxs-lookup"><span data-stu-id="4df7f-113">**Description**</span></span> | <span data-ttu-id="4df7f-114">وصف يوم الانتظار.</span><span class="sxs-lookup"><span data-stu-id="4df7f-114">A description of the waiting day.</span></span> |
-   | <span data-ttu-id="4df7f-115">**اليوم**</span><span class="sxs-lookup"><span data-stu-id="4df7f-115">**Day**</span></span> | <span data-ttu-id="4df7f-116">اليوم من الشهر الذي يجب أن يقوم فيه النظام بتعيين تاريخ فترة الانتظار له.</span><span class="sxs-lookup"><span data-stu-id="4df7f-116">The day of the month that the system should set the waiting period date to.</span></span> |
+   | <span data-ttu-id="e3be1-111">**يوم الانتظار**</span><span class="sxs-lookup"><span data-stu-id="e3be1-111">**Waiting day**</span></span> | <span data-ttu-id="e3be1-112">المعرف الفريد ليوم الانتظار.</span><span class="sxs-lookup"><span data-stu-id="e3be1-112">A unique identifier for the waiting day.</span></span> |
+   | <span data-ttu-id="e3be1-113">**‏‏الوصف**</span><span class="sxs-lookup"><span data-stu-id="e3be1-113">**Description**</span></span> | <span data-ttu-id="e3be1-114">وصف يوم الانتظار.</span><span class="sxs-lookup"><span data-stu-id="e3be1-114">A description of the waiting day.</span></span> |
+   | <span data-ttu-id="e3be1-115">**اليوم**</span><span class="sxs-lookup"><span data-stu-id="e3be1-115">**Day**</span></span> | <span data-ttu-id="e3be1-116">اليوم من الشهر الذي يجب أن يقوم فيه النظام بتعيين تاريخ فترة الانتظار له.</span><span class="sxs-lookup"><span data-stu-id="e3be1-116">The day of the month that the system should set the waiting period date to.</span></span> |
    
-4. <span data-ttu-id="4df7f-117">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="4df7f-117">Select **Save**.</span></span>
+4. <span data-ttu-id="e3be1-117">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="e3be1-117">Select **Save**.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
