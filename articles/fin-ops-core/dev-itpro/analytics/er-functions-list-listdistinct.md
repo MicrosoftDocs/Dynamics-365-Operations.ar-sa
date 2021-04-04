@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 7/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,83 +16,86 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 2333cfc21a16a5905acadd590982020fdf878330
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f20565d73cea8d0cc1361bd03cda86a79a97955e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682257"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563814"
 ---
-# <a name="listdistinct-er-function"></a><span data-ttu-id="e9470-103">دالة إعداد التقارير الإلكترونية LISTDISTINCT</span><span class="sxs-lookup"><span data-stu-id="e9470-103">LISTDISTINCT ER Function</span></span>
+# <a name="listdistinct-er-function"></a><span data-ttu-id="ec42f-103">دالة إعداد التقارير الإلكترونية LISTDISTINCT</span><span class="sxs-lookup"><span data-stu-id="ec42f-103">LISTDISTINCT ER Function</span></span>
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="e9470-104">تقوم الدالة `LISTDISTINCT` بحساب التعبير المحدد كمحدد لكل سجل من القائمة المحددة.</span><span class="sxs-lookup"><span data-stu-id="e9470-104">The `LISTDISTINCT` function calculates the specified expression as a selector for every record of the specified list.</span></span> <span data-ttu-id="e9470-105">وتقوم بإرجاع قيمة *قائمة سجلات* جديدة تحتوي على سجل مفرد لكل قيمة محدد فريدة.</span><span class="sxs-lookup"><span data-stu-id="e9470-105">It returns a new *Record list* value that contains a single record for each unique selector value.</span></span>
+<span data-ttu-id="ec42f-104">تقوم الدالة `LISTDISTINCT` بحساب التعبير المحدد كمحدد لكل سجل من القائمة المحددة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-104">The `LISTDISTINCT` function calculates the specified expression as a selector for every record of the specified list.</span></span> <span data-ttu-id="ec42f-105">وتقوم بإرجاع قيمة *قائمة سجلات* جديدة تحتوي على سجل مفرد لكل قيمة محدد فريدة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-105">It returns a new *Record list* value that contains a single record for each unique selector value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e9470-106">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="e9470-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ec42f-106">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="ec42f-106">Syntax</span></span>
 
 ```
 LISTDISTINCT (list, selector)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="e9470-107">الوسائط</span><span class="sxs-lookup"><span data-stu-id="e9470-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="ec42f-107">الوسائط</span><span class="sxs-lookup"><span data-stu-id="ec42f-107">Arguments</span></span>
 
-<span data-ttu-id="e9470-108">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="e9470-108">`list`: *Record list*</span></span>
+<span data-ttu-id="ec42f-108">`list`: *قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="ec42f-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="e9470-109">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="e9470-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="ec42f-109">مسار صالح لمصدر بيانات من نوع البيانات *قائمة السجلات*.</span><span class="sxs-lookup"><span data-stu-id="ec42f-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="e9470-110">`selector`: *نوع البيانات الأساسي*</span><span class="sxs-lookup"><span data-stu-id="e9470-110">`selector`: *Primitive data type*</span></span>
+<span data-ttu-id="ec42f-110">`selector`: *نوع البيانات الأساسي*</span><span class="sxs-lookup"><span data-stu-id="ec42f-110">`selector`: *Primitive data type*</span></span>
 
-<span data-ttu-id="e9470-111">تعبير صالح يتم استخدامه لحساب قيمة محدد لكل سجل في القائمة المحددة.</span><span class="sxs-lookup"><span data-stu-id="e9470-111">A valid expression that is used to calculate a selector value for every record in the specified list.</span></span>
+<span data-ttu-id="ec42f-111">تعبير صالح يتم استخدامه لحساب قيمة محدد لكل سجل في القائمة المحددة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-111">A valid expression that is used to calculate a selector value for every record in the specified list.</span></span>
 
-<span data-ttu-id="e9470-112">أنواع البيانات التالية مدعومة لهذه المعلمة:</span><span class="sxs-lookup"><span data-stu-id="e9470-112">The following data types are supported for this parameter:</span></span>
+<span data-ttu-id="ec42f-112">أنواع البيانات التالية مدعومة لهذه المعلمة:</span><span class="sxs-lookup"><span data-stu-id="ec42f-112">The following data types are supported for this parameter:</span></span>
 
-- <span data-ttu-id="e9470-113">منطقي</span><span class="sxs-lookup"><span data-stu-id="e9470-113">Boolean</span></span>
-- <span data-ttu-id="e9470-114">التاريخ</span><span class="sxs-lookup"><span data-stu-id="e9470-114">Date</span></span>
-- <span data-ttu-id="e9470-115">التاريخ/الوقت</span><span class="sxs-lookup"><span data-stu-id="e9470-115">DateTime</span></span>
-- <span data-ttu-id="e9470-116">Guid</span><span class="sxs-lookup"><span data-stu-id="e9470-116">GUID</span></span>
-- <span data-ttu-id="e9470-117">عدد صحيح</span><span class="sxs-lookup"><span data-stu-id="e9470-117">Integer</span></span>
-- <span data-ttu-id="e9470-118">Int64</span><span class="sxs-lookup"><span data-stu-id="e9470-118">Int64</span></span>
-- <span data-ttu-id="e9470-119">حقيقي</span><span class="sxs-lookup"><span data-stu-id="e9470-119">Real</span></span>
-- <span data-ttu-id="e9470-120">السلسلة</span><span class="sxs-lookup"><span data-stu-id="e9470-120">String</span></span>
+- <span data-ttu-id="ec42f-113">منطقي</span><span class="sxs-lookup"><span data-stu-id="ec42f-113">Boolean</span></span>
+- <span data-ttu-id="ec42f-114">التاريخ</span><span class="sxs-lookup"><span data-stu-id="ec42f-114">Date</span></span>
+- <span data-ttu-id="ec42f-115">التاريخ/الوقت</span><span class="sxs-lookup"><span data-stu-id="ec42f-115">DateTime</span></span>
+- <span data-ttu-id="ec42f-116">Guid</span><span class="sxs-lookup"><span data-stu-id="ec42f-116">GUID</span></span>
+- <span data-ttu-id="ec42f-117">عدد صحيح</span><span class="sxs-lookup"><span data-stu-id="ec42f-117">Integer</span></span>
+- <span data-ttu-id="ec42f-118">Int64</span><span class="sxs-lookup"><span data-stu-id="ec42f-118">Int64</span></span>
+- <span data-ttu-id="ec42f-119">حقيقي</span><span class="sxs-lookup"><span data-stu-id="ec42f-119">Real</span></span>
+- <span data-ttu-id="ec42f-120">السلسلة</span><span class="sxs-lookup"><span data-stu-id="ec42f-120">String</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e9470-121">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="e9470-121">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ec42f-121">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="ec42f-121">Return values</span></span>
 
-<span data-ttu-id="e9470-122">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="e9470-122">*Record list*</span></span>
+<span data-ttu-id="ec42f-122">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="ec42f-122">*Record list*</span></span>
 
-<span data-ttu-id="e9470-123">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="e9470-123">The resulting list of records.</span></span>
+<span data-ttu-id="ec42f-123">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-123">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="e9470-124">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="e9470-124">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="ec42f-124">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="ec42f-124">Usage notes</span></span>
 
-<span data-ttu-id="e9470-125">بنية القائمة التي تم إنشاؤها تتطابق مع بنية القائمة المحددة.</span><span class="sxs-lookup"><span data-stu-id="e9470-125">The structure of the list that is created matches the structure of the specified list.</span></span>
+<span data-ttu-id="ec42f-125">بنية القائمة التي تم إنشاؤها تتطابق مع بنية القائمة المحددة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-125">The structure of the list that is created matches the structure of the specified list.</span></span>
 
-<span data-ttu-id="e9470-126">قد يتم حساب نفس قيمة المحدد لسجلات متعددة في القائمة المحددة.</span><span class="sxs-lookup"><span data-stu-id="e9470-126">The same selector value might be calculated for multiple records in the specified list.</span></span> <span data-ttu-id="e9470-127">في هذه الحالة، تكون قيم الحقول الخاصة بالسجل المقابل في القائمة التي تم إنشاؤها مساوية لقيم السجل الأول من القائمة المحددة التي يتم حساب قيمة المحدد لها.</span><span class="sxs-lookup"><span data-stu-id="e9470-127">In this case, field values of the corresponding record in the created list equal the values of the first record from the specified list that the selector value is calculated for.</span></span>
+<span data-ttu-id="ec42f-126">قد يتم حساب نفس قيمة المحدد لسجلات متعددة في القائمة المحددة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-126">The same selector value might be calculated for multiple records in the specified list.</span></span> <span data-ttu-id="ec42f-127">في هذه الحالة، تكون قيم الحقول الخاصة بالسجل المقابل في القائمة التي تم إنشاؤها مساوية لقيم السجل الأول من القائمة المحددة التي يتم حساب قيمة المحدد لها.</span><span class="sxs-lookup"><span data-stu-id="ec42f-127">In this case, field values of the corresponding record in the created list equal the values of the first record from the specified list that the selector value is calculated for.</span></span>
 
-<span data-ttu-id="e9470-128">يتم تنفيذ هذه الوظيفة على مصدر بيانات [إعداد التقارير الإلكترونية](general-electronic-reporting.md) لنوع *قائمة السجلات* الموجود في الذاكرة.</span><span class="sxs-lookup"><span data-stu-id="e9470-128">The execution of this function is done on any [Electronic reporting (ER)](general-electronic-reporting.md) data source of the *Record list* type that is present in memory.</span></span>
+<span data-ttu-id="ec42f-128">يتم تنفيذ هذه الوظيفة على مصدر بيانات [إعداد التقارير الإلكترونية](general-electronic-reporting.md) لنوع *قائمة السجلات* الموجود في الذاكرة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-128">The execution of this function is done on any [Electronic reporting (ER)](general-electronic-reporting.md) data source of the *Record list* type that is present in memory.</span></span>
 
-<span data-ttu-id="e9470-129">يمكن أيضًا استخدام مصدر البيانات **GROUPBY** لإنشاء قائمة بالسجلات التي يتم من خلالها حساب المحدد الذي يتضمن قيمًا مميزة.</span><span class="sxs-lookup"><span data-stu-id="e9470-129">The **GROUPBY** data source can also be used to generate the list of records that the selector that has distinct values is calculated for.</span></span> <span data-ttu-id="e9470-130">ومع ذلك، من منظور الأداء واستهلاك الذاكرة، من الأفضل استخدام الدالة `LISTDISTINCT` بدلاً من مصدر البيانات **GROUPBY‎**، لأن تنفيذ الوظيفة يتم في الذاكرة.</span><span class="sxs-lookup"><span data-stu-id="e9470-130">However, from a performance and memory consumption perspective, it's better to use the `LISTDISTINCT` function than the **GROUPBY** data source, because the execution of the function is done in memory.</span></span>
+<span data-ttu-id="ec42f-129">يمكن أيضًا استخدام مصدر البيانات **GROUPBY** لإنشاء قائمة بالسجلات التي يتم من خلالها حساب المحدد الذي يتضمن قيمًا مميزة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-129">The **GROUPBY** data source can also be used to generate the list of records that the selector that has distinct values is calculated for.</span></span> <span data-ttu-id="ec42f-130">ومع ذلك، من منظور الأداء واستهلاك الذاكرة، من الأفضل استخدام الدالة `LISTDISTINCT` بدلاً من مصدر البيانات **GROUPBY‎**، لأن تنفيذ الوظيفة يتم في الذاكرة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-130">However, from a performance and memory consumption perspective, it's better to use the `LISTDISTINCT` function than the **GROUPBY** data source, because the execution of the function is done in memory.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e9470-131">مثال</span><span class="sxs-lookup"><span data-stu-id="e9470-131">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ec42f-131">مثال</span><span class="sxs-lookup"><span data-stu-id="ec42f-131">Example</span></span>
 
-<span data-ttu-id="e9470-132">يوضح المثال التالي كيفية الحصول علي قائمة بأرقام حسابات العملاء الفريدة التي تم إصدار فاتورة مبيعات أو فاتورة مشروع واحدة عل الأقل خلال فترة محددة.</span><span class="sxs-lookup"><span data-stu-id="e9470-132">The following example shows how you can get the list of unique customer account numbers that at least one sales invoice or project invoice has been issued to during a specific period.</span></span>
+<span data-ttu-id="ec42f-132">يوضح المثال التالي كيفية الحصول علي قائمة بأرقام حسابات العملاء الفريدة التي تم إصدار فاتورة مبيعات أو فاتورة مشروع واحدة عل الأقل خلال فترة محددة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-132">The following example shows how you can get the list of unique customer account numbers that at least one sales invoice or project invoice has been issued to during a specific period.</span></span>
 
-1. <span data-ttu-id="e9470-133">أدخل مصدر البيانات **SalesInvoice** للنوع `Record list` الذي يشير إلى جدول التطبيق **CustInvoiceJour** ويصفي فواتير المبيعات لفترات محددة.</span><span class="sxs-lookup"><span data-stu-id="e9470-133">Enter the **SalesInvoice** data source of the `Record list` type that refers to the **CustInvoiceJour** application table and filters sales invoices for specific periods.</span></span>
+1. <span data-ttu-id="ec42f-133">أدخل مصدر البيانات **SalesInvoice** للنوع `Record list` الذي يشير إلى جدول التطبيق **CustInvoiceJour** ويصفي فواتير المبيعات لفترات محددة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-133">Enter the **SalesInvoice** data source of the `Record list` type that refers to the **CustInvoiceJour** application table and filters sales invoices for specific periods.</span></span>
 
-    <span data-ttu-id="e9470-134">يقوم الحقل `InvoiceAccount` لمصدر البيانات هذا بإرجاع رقم الحساب الخاص بعميل تمت فوترته.</span><span class="sxs-lookup"><span data-stu-id="e9470-134">The `InvoiceAccount` field of this data source returns the account number of an invoiced customer.</span></span>
+    <span data-ttu-id="ec42f-134">يقوم الحقل `InvoiceAccount` لمصدر البيانات هذا بإرجاع رقم الحساب الخاص بعميل تمت فوترته.</span><span class="sxs-lookup"><span data-stu-id="ec42f-134">The `InvoiceAccount` field of this data source returns the account number of an invoiced customer.</span></span>
 
-2. <span data-ttu-id="e9470-135">أدخل مصدر البيانات **ProjectInvoice** للنوع `Record list` الذي يشير إلى جدول التطبيق **ProjInvoiceJour** ويصفي فواتير المشاريع لفترات محددة.</span><span class="sxs-lookup"><span data-stu-id="e9470-135">Enter the **ProjectInvoice** data source of the `Record list` type that refers to the **ProjInvoiceJour** application table and filters project invoices for specific periods.</span></span>
+2. <span data-ttu-id="ec42f-135">أدخل مصدر البيانات **ProjectInvoice** للنوع `Record list` الذي يشير إلى جدول التطبيق **ProjInvoiceJour** ويصفي فواتير المشاريع لفترات محددة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-135">Enter the **ProjectInvoice** data source of the `Record list` type that refers to the **ProjInvoiceJour** application table and filters project invoices for specific periods.</span></span>
 
-    <span data-ttu-id="e9470-136">يقوم الحقل `InvoiceAccount` لمصدر البيانات هذا بإرجاع رقم الحساب الخاص بعميل تمت فوترته.</span><span class="sxs-lookup"><span data-stu-id="e9470-136">The `InvoiceAccount` field of this data source returns the account number of an invoiced customer.</span></span>
+    <span data-ttu-id="ec42f-136">يقوم الحقل `InvoiceAccount` لمصدر البيانات هذا بإرجاع رقم الحساب الخاص بعميل تمت فوترته.</span><span class="sxs-lookup"><span data-stu-id="ec42f-136">The `InvoiceAccount` field of this data source returns the account number of an invoiced customer.</span></span>
 
-3. <span data-ttu-id="e9470-137">قم بتكوين مصدر البيانات **AllInvoices** من النوع `Calculated field` الذي يحتوي على التعبير `LISTJOIN(SalesInvoice, ProjectInvoice)`.</span><span class="sxs-lookup"><span data-stu-id="e9470-137">Configure the **AllInvoices** data source of the `Calculated field` type that contains the expression `LISTJOIN(SalesInvoice, ProjectInvoice)`.</span></span>
+3. <span data-ttu-id="ec42f-137">قم بتكوين مصدر البيانات **AllInvoices** من النوع `Calculated field` الذي يحتوي على التعبير `LISTJOIN(SalesInvoice, ProjectInvoice)`.</span><span class="sxs-lookup"><span data-stu-id="ec42f-137">Configure the **AllInvoices** data source of the `Calculated field` type that contains the expression `LISTJOIN(SalesInvoice, ProjectInvoice)`.</span></span>
 
-    <span data-ttu-id="e9470-138">يقوم مصدر البيانات هذا بإرجاع القائمة المرتبطة لفواتير المبيعات وفواتير المشروع.</span><span class="sxs-lookup"><span data-stu-id="e9470-138">This data source returns the joined list of sales invoices and project invoices.</span></span>
+    <span data-ttu-id="ec42f-138">يقوم مصدر البيانات هذا بإرجاع القائمة المرتبطة لفواتير المبيعات وفواتير المشروع.</span><span class="sxs-lookup"><span data-stu-id="ec42f-138">This data source returns the joined list of sales invoices and project invoices.</span></span>
 
-4. <span data-ttu-id="e9470-139">قم بتكوين مصدر البيانات **InvoicedCustomer** من النوع `Record list` الذي يحتوي على التعبير `LISTDISTINCT(AllInvoices, AllInvoices.InvoiceAccount)`.</span><span class="sxs-lookup"><span data-stu-id="e9470-139">Configure the **InvoicedCustomer** data source of the `Record list` type that contains the expression `LISTDISTINCT(AllInvoices, AllInvoices.InvoiceAccount)`.</span></span>
+4. <span data-ttu-id="ec42f-139">قم بتكوين مصدر البيانات **InvoicedCustomer** من النوع `Record list` الذي يحتوي على التعبير `LISTDISTINCT(AllInvoices, AllInvoices.InvoiceAccount)`.</span><span class="sxs-lookup"><span data-stu-id="ec42f-139">Configure the **InvoicedCustomer** data source of the `Record list` type that contains the expression `LISTDISTINCT(AllInvoices, AllInvoices.InvoiceAccount)`.</span></span>
 
-    <span data-ttu-id="e9470-140">يقوم مصدر البيانات هذا بإرجاع قائمة جديدة تحتوي على سجل مفرد لكل عميل فريد تمت فوترته خلال الفترة المحددة.</span><span class="sxs-lookup"><span data-stu-id="e9470-140">This data source returns a new list that contains a single record for every unique customer that has been invoiced during the defined period.</span></span> <span data-ttu-id="e9470-141">يحتوي الحقل `InvoiceAccount` الخاص بهذه القائمة على رقم حساب عميل.</span><span class="sxs-lookup"><span data-stu-id="e9470-141">The `InvoiceAccount` field of this list contains a customer account number.</span></span>
+    <span data-ttu-id="ec42f-140">يقوم مصدر البيانات هذا بإرجاع قائمة جديدة تحتوي على سجل مفرد لكل عميل فريد تمت فوترته خلال الفترة المحددة.</span><span class="sxs-lookup"><span data-stu-id="ec42f-140">This data source returns a new list that contains a single record for every unique customer that has been invoiced during the defined period.</span></span> <span data-ttu-id="ec42f-141">يحتوي الحقل `InvoiceAccount` الخاص بهذه القائمة على رقم حساب عميل.</span><span class="sxs-lookup"><span data-stu-id="ec42f-141">The `InvoiceAccount` field of this list contains a customer account number.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e9470-142">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="e9470-142">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ec42f-142">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="ec42f-142">Additional resources</span></span>
 
-[<span data-ttu-id="e9470-143">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="e9470-143">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="ec42f-143">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="ec42f-143">List functions</span></span>](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
