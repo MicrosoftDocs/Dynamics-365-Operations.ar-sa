@@ -3,10 +3,9 @@ title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154077"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563984"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -32,7 +31,7 @@ ms.locfileid: "5154077"
 
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
-يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
 
 ## <a name="feature-removed-effective-january-28-2021"></a>الميزة التي تمت ازالتها تاريخ السريان 28 يناير ، 2021
 

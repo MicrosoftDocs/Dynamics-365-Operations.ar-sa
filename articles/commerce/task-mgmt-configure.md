@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e880305d02fd9f10464fe3f65a2774a44da258c6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ba2283bbfa2fdce75d3fbef6fcff47dd872c7998
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006225"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478034"
 ---
 # <a name="configure-task-management"></a>تكوين إدارة المهام
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تكوين ميزات إدارة المهام في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 قبل أن يتمكن مديرو وموظفو Dynamics 365 Commerce من استخدام ميزات إدارة المهام في Commerce، يجب أولاً تكوين إدارة المهام. وتشمل خطوات التكوين منح الأذونات للمديرين والموظفين، وتوزيع الأذونات على عملاء نقطة البيع (POS) وإعداد إعلامات نقطة البيع، وتكوين لوحة **المهام** على الصفحة الرئيسية لتطبيق نقطه البيع.
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56b6666310309817ff30ccb3902721880b829ee0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0c2600ad8f441e6b73b143c27afa08ad0a5c2748
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679804"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570995"
 ---
 # <a name="import-users-from-azure-active-directory"></a>استيراد المستخدمين من Azure Active Directory
 
@@ -46,11 +45,11 @@ ms.locfileid: "4679804"
 2. انتقل إلى **إدارة النظام > مستخدمين > مستخدمين**.
 3. انقر فوق **استيراد دُفعة‬**.
 4. وسّع القسم **تشغيل في الخلفية‬‬**.
-4. حدد **نعم في حقل **معالجة الدُفعات**.
+4. حدد **نعم** في حقل **معالجة الدُفعات**.
 6. في حقل **مجموعة الدُفعات**، أدخل قيمة أو حددها. هذه خطوة اختيارية.  
 7. حدد **نعم** في الحقل **خاص**. هذه خطوة اختيارية.  
 8. حدد **نعم** في حقل **وظيفة مهمة**. هذه خطوة اختيارية.  
-9. في الحقل **فئة المراقبة، حدد خيارًا.
+9. في الحقل **فئة المراقبة**، حدد خيارًا.
 10. انقر فوق **موافق**.
 
 بعد اكتمال الاستيراد، سيُطلب منك تعيين الأدوار للمستخدمين.

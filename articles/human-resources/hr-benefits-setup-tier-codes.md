@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c9c914216cb7799356fb2a840ad80d8379a1be10
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 6e7df0dfb384fbefd0fc1b2722e2739076bcc196
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111315"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468337"
 ---
 # <a name="set-up-tier-codes"></a>إعداد أكواد الطبقات
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يستخدم Dynamics 365 Human Resources أكواد الطبقات بأسعار المزايا التي يدفعها الموظفون وأصحاب العمل. يمكنك تحديد عدد غير محدود من أكواد الطبقات وإعداد حسابات المعدلات لتلبية احتياجات شركتك.
 
