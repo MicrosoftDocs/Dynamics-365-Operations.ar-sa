@@ -18,34 +18,39 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05cb032a5f0417f24e1d85186820b866cdd2613f
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 7cec59a0ed478752b44fd28494f549007cbfbddb
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115018"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463228"
 ---
-# <a name="suspend-leave"></a><span data-ttu-id="2be1c-103">تعليق الإجازة</span><span class="sxs-lookup"><span data-stu-id="2be1c-103">Suspend leave</span></span>
+# <a name="suspend-leave"></a><span data-ttu-id="a1128-103">تعليق الإجازة</span><span class="sxs-lookup"><span data-stu-id="a1128-103">Suspend leave</span></span>
 
-<span data-ttu-id="2be1c-104">يمكنك تعليق إجازة موظف لإيقاف معالجة استحقاق الإجازة لأنواع الإجازات المحددة.</span><span class="sxs-lookup"><span data-stu-id="2be1c-104">You can suspend leave for an employee to stop leave accruals from being processed for selected leave types.</span></span> 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="suspend-leave-and-absence-for-an-employee"></a><span data-ttu-id="2be1c-105">تعليق الإجازة والغياب لموظف</span><span class="sxs-lookup"><span data-stu-id="2be1c-105">Suspend leave and absence for an employee</span></span>
+<span data-ttu-id="a1128-104">يمكنك تعليق إجازة موظف لإيقاف معالجة استحقاق الإجازة لأنواع الإجازات المحددة.</span><span class="sxs-lookup"><span data-stu-id="a1128-104">You can suspend leave for an employee to stop leave accruals from being processed for selected leave types.</span></span> 
 
-1. <span data-ttu-id="2be1c-106">في سجل الموظف، حدد **إجازة**.</span><span class="sxs-lookup"><span data-stu-id="2be1c-106">On the employee's record, select **Leave**.</span></span>
+## <a name="suspend-leave-and-absence-for-an-employee"></a><span data-ttu-id="a1128-105">تعليق الإجازة والغياب لموظف</span><span class="sxs-lookup"><span data-stu-id="a1128-105">Suspend leave and absence for an employee</span></span>
 
-2. <span data-ttu-id="2be1c-107">حدد **تعليق الإجازة**.</span><span class="sxs-lookup"><span data-stu-id="2be1c-107">Select **Suspend leave**.</span></span>
+1. <span data-ttu-id="a1128-106">في سجل الموظف، حدد **إجازة**.</span><span class="sxs-lookup"><span data-stu-id="a1128-106">On the employee's record, select **Leave**.</span></span>
 
-3. <span data-ttu-id="2be1c-108">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="2be1c-108">Select **New**.</span></span>
+2. <span data-ttu-id="a1128-107">حدد **تعليق الإجازة**.</span><span class="sxs-lookup"><span data-stu-id="a1128-107">Select **Suspend leave**.</span></span>
 
-4. <span data-ttu-id="2be1c-109">في مربع الحوار **تعليق استحقاق الإجازات**، حدد **نوع الإجازة** مع **تاريخ البدء** و **تاريخ الانتهاء** للتعليق.</span><span class="sxs-lookup"><span data-stu-id="2be1c-109">In the **Suspend leave accrual** dialog box, select the **Leave type** along with the **Start date** and **End date** for the suspension.</span></span>
+3. <span data-ttu-id="a1128-108">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="a1128-108">Select **New**.</span></span>
 
-5. <span data-ttu-id="2be1c-110">بشكل اختياري، يمكنك إضافة **تعليق** لتعليق الإجازة.</span><span class="sxs-lookup"><span data-stu-id="2be1c-110">Optionally, you can add a **Comment** for the suspension.</span></span> 
+4. <span data-ttu-id="a1128-109">في مربع الحوار **تعليق استحقاق الإجازات**، حدد **نوع الإجازة** مع **تاريخ البدء** و **تاريخ الانتهاء** للتعليق.</span><span class="sxs-lookup"><span data-stu-id="a1128-109">In the **Suspend leave accrual** dialog box, select the **Leave type** along with the **Start date** and **End date** for the suspension.</span></span>
 
-<span data-ttu-id="2be1c-111">إذا تمت معالجة الاستحقاقات أثناء تعليق إجازة الموظف، لن يتم إجراء أي استحقاقات لأنواع الإجازات المعلقة.</span><span class="sxs-lookup"><span data-stu-id="2be1c-111">If accruals are processed while the employee's leave is suspended, no accrual will be made for the suspended leave types.</span></span>
+5. <span data-ttu-id="a1128-110">بشكل اختياري، يمكنك إضافة **تعليق** لتعليق الإجازة.</span><span class="sxs-lookup"><span data-stu-id="a1128-110">Optionally, you can add a **Comment** for the suspension.</span></span> 
 
-## <a name="see-also"></a><span data-ttu-id="2be1c-112">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="2be1c-112">See also</span></span>
+<span data-ttu-id="a1128-111">إذا تمت معالجة الاستحقاقات أثناء تعليق إجازة الموظف، لن يتم إجراء أي استحقاقات لأنواع الإجازات المعلقة.</span><span class="sxs-lookup"><span data-stu-id="a1128-111">If accruals are processed while the employee's leave is suspended, no accrual will be made for the suspended leave types.</span></span>
 
-- [<span data-ttu-id="2be1c-113">نظرة عامة على الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="2be1c-113">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="2be1c-114">تكوين أنواع الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="2be1c-114">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
-- [<span data-ttu-id="2be1c-115">خطط استحقاق الإجازات والغياب</span><span class="sxs-lookup"><span data-stu-id="2be1c-115">Accrue leave and absence plans</span></span>](hr-leave-and-absence-accrue.md)
+## <a name="see-also"></a><span data-ttu-id="a1128-112">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="a1128-112">See also</span></span>
 
+- [<span data-ttu-id="a1128-113">نظرة عامة على الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="a1128-113">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="a1128-114">تكوين أنواع الإجازة والغياب</span><span class="sxs-lookup"><span data-stu-id="a1128-114">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+- [<span data-ttu-id="a1128-115">خطط استحقاق الإجازات والغياب</span><span class="sxs-lookup"><span data-stu-id="a1128-115">Accrue leave and absence plans</span></span>](hr-leave-and-absence-accrue.md)
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
