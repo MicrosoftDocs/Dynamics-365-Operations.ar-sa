@@ -16,80 +16,83 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd505446456791b26850d676722b6676b50dca4b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1ef63faaf836c1ac929324d2b3cd4aaaee9b1352
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981196"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255099"
 ---
-# <a name="create-process-activities-for-lean-manufacturing"></a><span data-ttu-id="82d24-103">إنشاء أنشطة عملية لـ lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="82d24-103">Create process activities for lean manufacturing</span></span>
+# <a name="create-process-activities-for-lean-manufacturing"></a><span data-ttu-id="f5de2-103">إنشاء أنشطة عملية لـ lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="f5de2-103">Create process activities for lean manufacturing</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="82d24-104">قم بإنشاء نشاط عملية لـ lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="82d24-104">Create a process activity for lean manufacturing.</span></span> 
+<span data-ttu-id="f5de2-104">قم بإنشاء نشاط عملية لـ lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="f5de2-104">Create a process activity for lean manufacturing.</span></span> 
 
-<span data-ttu-id="82d24-105">المتطلبات الأساسية:</span><span class="sxs-lookup"><span data-stu-id="82d24-105">Prerequisites:</span></span> 
+<span data-ttu-id="f5de2-105">المتطلبات الأساسية:</span><span class="sxs-lookup"><span data-stu-id="f5de2-105">Prerequisites:</span></span> 
 
-1. <span data-ttu-id="82d24-106">يجب إنشاء تدفق إنتاج وإصدار غير نشط.</span><span class="sxs-lookup"><span data-stu-id="82d24-106">A production flow and version that is not active must be created.</span></span>
+1. <span data-ttu-id="f5de2-106">يجب إنشاء تدفق إنتاج وإصدار غير نشط.</span><span class="sxs-lookup"><span data-stu-id="f5de2-106">A production flow and version that is not active must be created.</span></span>
 
-2. <span data-ttu-id="82d24-107">يجب إنشاء خلية عمل.</span><span class="sxs-lookup"><span data-stu-id="82d24-107">A work cell must be created.</span></span>
+2. <span data-ttu-id="f5de2-107">يجب إنشاء خلية عمل.</span><span class="sxs-lookup"><span data-stu-id="f5de2-107">A work cell must be created.</span></span>
 
 
-## <a name="find-the-production-flow-version"></a><span data-ttu-id="82d24-108">البحث عن إصدار تدفق الإنتاج</span><span class="sxs-lookup"><span data-stu-id="82d24-108">Find the production flow version</span></span>
-1. <span data-ttu-id="82d24-109">انتقل إلى عنصر التحكم بالإنتاج > الإعداد > تدفق الإنتاج محدود الفاقد > تدفقات الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="82d24-109">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
-2. <span data-ttu-id="82d24-110">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="82d24-110">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="82d24-111">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="82d24-111">In the list, click the link in the selected row.</span></span>
+## <a name="find-the-production-flow-version"></a><span data-ttu-id="f5de2-108">البحث عن إصدار تدفق الإنتاج</span><span class="sxs-lookup"><span data-stu-id="f5de2-108">Find the production flow version</span></span>
+1. <span data-ttu-id="f5de2-109">انتقل إلى عنصر التحكم بالإنتاج > الإعداد > تدفق الإنتاج محدود الفاقد > تدفقات الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="f5de2-109">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="f5de2-110">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="f5de2-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="f5de2-111">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="f5de2-111">In the list, click the link in the selected row.</span></span>
 
-## <a name="create-a-new-activity"></a><span data-ttu-id="82d24-112">إنشاء نشاط جديد</span><span class="sxs-lookup"><span data-stu-id="82d24-112">Create a new activity</span></span>
-1. <span data-ttu-id="82d24-113">انقر فوق "الأنشطة".</span><span class="sxs-lookup"><span data-stu-id="82d24-113">Click Activities.</span></span>
-    * <span data-ttu-id="82d24-114">تأكد من وجود إصدار في صيغة مسودة لتدفق الإنتاج المحدد وحدد الإصدار.</span><span class="sxs-lookup"><span data-stu-id="82d24-114">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
-2. <span data-ttu-id="82d24-115">انقر فوق "إنشاء نشاط خطة جديد".</span><span class="sxs-lookup"><span data-stu-id="82d24-115">Click Create new plan activity.</span></span>
-3. <span data-ttu-id="82d24-116">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="82d24-116">Click Next.</span></span>
-4. <span data-ttu-id="82d24-117">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="82d24-117">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="82d24-118">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="82d24-118">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="82d24-119">لاحظ أن الاسم يجب أن يكون فريدًا بالنسبة للتدفق إنتاج معين لجميع الإصدارات.</span><span class="sxs-lookup"><span data-stu-id="82d24-119">Note that the name must be unique for a given production flow for all versions.</span></span>  
-6. <span data-ttu-id="82d24-120">في الحقل "كمية العملية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="82d24-120">In the Process quantity field, enter a number.</span></span>
-    * <span data-ttu-id="82d24-121">لاحظ أنه بصرف النظر عن كمية الوظائف التي ستتم معالجتها، هذا هو الحد الأدنى للكمية لكل وظيفة لحساب تكلفة العمالة.</span><span class="sxs-lookup"><span data-stu-id="82d24-121">Note that no matter what job quantity will be processed, this is the minimum quantity per job to calculate the labor cost.</span></span> <span data-ttu-id="82d24-122">إذا تفاوتت كميات الوظائف عن هذه الكمية، سيتم إنشاء فرق التكلفة للعمالة.</span><span class="sxs-lookup"><span data-stu-id="82d24-122">If job quantities deviate from this quantity, labor cost variance will be created.</span></span>  
-7. <span data-ttu-id="82d24-123">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="82d24-123">Click Next.</span></span>
+## <a name="create-a-new-activity"></a><span data-ttu-id="f5de2-112">إنشاء نشاط جديد</span><span class="sxs-lookup"><span data-stu-id="f5de2-112">Create a new activity</span></span>
+1. <span data-ttu-id="f5de2-113">انقر فوق "الأنشطة".</span><span class="sxs-lookup"><span data-stu-id="f5de2-113">Click Activities.</span></span>
+    * <span data-ttu-id="f5de2-114">تأكد من وجود إصدار في صيغة مسودة لتدفق الإنتاج المحدد وحدد الإصدار.</span><span class="sxs-lookup"><span data-stu-id="f5de2-114">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
+2. <span data-ttu-id="f5de2-115">انقر فوق "إنشاء نشاط خطة جديد".</span><span class="sxs-lookup"><span data-stu-id="f5de2-115">Click Create new plan activity.</span></span>
+3. <span data-ttu-id="f5de2-116">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="f5de2-116">Click Next.</span></span>
+4. <span data-ttu-id="f5de2-117">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-117">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="f5de2-118">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="f5de2-119">لاحظ أن الاسم يجب أن يكون فريدًا بالنسبة للتدفق إنتاج معين لجميع الإصدارات.</span><span class="sxs-lookup"><span data-stu-id="f5de2-119">Note that the name must be unique for a given production flow for all versions.</span></span>  
+6. <span data-ttu-id="f5de2-120">في الحقل "كمية العملية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="f5de2-120">In the Process quantity field, enter a number.</span></span>
+    * <span data-ttu-id="f5de2-121">لاحظ أنه بصرف النظر عن كمية الوظائف التي ستتم معالجتها، هذا هو الحد الأدنى للكمية لكل وظيفة لحساب تكلفة العمالة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-121">Note that no matter what job quantity will be processed, this is the minimum quantity per job to calculate the labor cost.</span></span> <span data-ttu-id="f5de2-122">إذا تفاوتت كميات الوظائف عن هذه الكمية، سيتم إنشاء فرق التكلفة للعمالة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-122">If job quantities deviate from this quantity, labor cost variance will be created.</span></span>  
+7. <span data-ttu-id="f5de2-123">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="f5de2-123">Click Next.</span></span>
 
-## <a name="select-the-work-cell"></a><span data-ttu-id="82d24-124">تحديد خلية العمل</span><span class="sxs-lookup"><span data-stu-id="82d24-124">Select the work cell</span></span>
-1. <span data-ttu-id="82d24-125">في الحقل "خلية العمل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="82d24-125">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-2. <span data-ttu-id="82d24-126">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="82d24-126">In the list, click the link in the selected row.</span></span>
+## <a name="select-the-work-cell"></a><span data-ttu-id="f5de2-124">تحديد خلية العمل</span><span class="sxs-lookup"><span data-stu-id="f5de2-124">Select the work cell</span></span>
+1. <span data-ttu-id="f5de2-125">في الحقل "خلية العمل"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="f5de2-125">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="f5de2-126">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="f5de2-126">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-the-inventory-updates"></a><span data-ttu-id="82d24-127">تحديد تحديثات المخزون</span><span class="sxs-lookup"><span data-stu-id="82d24-127">Define the inventory updates</span></span>
-1. <span data-ttu-id="82d24-128">حدد خانة اختيار "تحديث استلام المخزون الفعلي" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="82d24-128">Select or clear the Update on hand receipt check box.</span></span>
-    * <span data-ttu-id="82d24-129">إذا كان التحديث المخزون الفعلي = لا، يمكنك تحديد النشاط لتلقي منتج غير نهائي (لا يصل النشاط إلى مستوى قائمة مكونات الصنف التالية).</span><span class="sxs-lookup"><span data-stu-id="82d24-129">If Update On hand = No, you can define the activity to receive a semi-finished product (the activity does not reach the next BOM level).</span></span>    <span data-ttu-id="82d24-130">كما يمكنك أيضًا تحديد استهلاك المنتجات غير النهائية.</span><span class="sxs-lookup"><span data-stu-id="82d24-130">You can also select to consume semi-finished products.</span></span>  
+## <a name="define-the-inventory-updates"></a><span data-ttu-id="f5de2-127">تحديد تحديثات المخزون</span><span class="sxs-lookup"><span data-stu-id="f5de2-127">Define the inventory updates</span></span>
+1. <span data-ttu-id="f5de2-128">حدد خانة اختيار "تحديث استلام المخزون الفعلي" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="f5de2-128">Select or clear the Update on hand receipt check box.</span></span>
+    * <span data-ttu-id="f5de2-129">إذا كان التحديث المخزون الفعلي = لا، يمكنك تحديد النشاط لتلقي منتج غير نهائي (لا يصل النشاط إلى مستوى قائمة مكونات الصنف التالية).</span><span class="sxs-lookup"><span data-stu-id="f5de2-129">If Update On hand = No, you can define the activity to receive a semi-finished product (the activity does not reach the next BOM level).</span></span>    <span data-ttu-id="f5de2-130">كما يمكنك أيضًا تحديد استهلاك المنتجات غير النهائية.</span><span class="sxs-lookup"><span data-stu-id="f5de2-130">You can also select to consume semi-finished products.</span></span>  
 
-## <a name="define-the-picking-activities"></a><span data-ttu-id="82d24-131">تحديد أنشطة الانتقاء</span><span class="sxs-lookup"><span data-stu-id="82d24-131">Define the picking activities</span></span>
-1. <span data-ttu-id="82d24-132">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="82d24-132">Click Next.</span></span>
-2. <span data-ttu-id="82d24-133">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="82d24-133">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="82d24-134">يتم إنشاء نشاط انتقاء افتراضي لموقع الإدخال لخلية العمل المحددة.</span><span class="sxs-lookup"><span data-stu-id="82d24-134">A default picking activity is created for the input location of the selected work cell.</span></span>  
-3. <span data-ttu-id="82d24-135">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="82d24-135">Click Add.</span></span>
-    * <span data-ttu-id="82d24-136">ويمكنك إنشاء أنشطة انتقاء إضافية لمنتجات معينة، منتجات لا يتم تقسيمها مرحليًا في نشاط إدخال خلية العمل.</span><span class="sxs-lookup"><span data-stu-id="82d24-136">You can create additional picking activities for specific products, that are not staged at the work cell input activity.</span></span>  
-4. <span data-ttu-id="82d24-137">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="82d24-137">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="82d24-138">في الحقل "رقم الصنف" اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="82d24-138">In the Item number field, type a value.</span></span>
-6. <span data-ttu-id="82d24-139">في الحقل "المستودع"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="82d24-139">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="82d24-140">باستخدام هذا التعريف، يتم انتقاء جميع المواد المستهلكة في النشاط من مستودع الإدخال والموقع الافتراضي باستثناء الصنف الذي يتم تعريفه في نشاط الانتقاء الثاني.</span><span class="sxs-lookup"><span data-stu-id="82d24-140">With this definition, all materials consumed in the activity are picked from the default input warehouse and location except the item that is defined in the second picking activity.</span></span> <span data-ttu-id="82d24-141">سيتم انتقاء هذا الصنف من مستودع وموقع مختلفين.</span><span class="sxs-lookup"><span data-stu-id="82d24-141">This item will be picked from a different warehouse and location.</span></span>  
-7. <span data-ttu-id="82d24-142">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="82d24-142">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="82d24-143">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="82d24-143">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="82d24-144">حدد خانة اختيار "تسجيل الخردة" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="82d24-144">Select or clear the Register scrap check box.</span></span>
-10. <span data-ttu-id="82d24-145">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="82d24-145">Click Next.</span></span>
+## <a name="define-the-picking-activities"></a><span data-ttu-id="f5de2-131">تحديد أنشطة الانتقاء</span><span class="sxs-lookup"><span data-stu-id="f5de2-131">Define the picking activities</span></span>
+1. <span data-ttu-id="f5de2-132">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="f5de2-132">Click Next.</span></span>
+2. <span data-ttu-id="f5de2-133">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="f5de2-133">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="f5de2-134">يتم إنشاء نشاط انتقاء افتراضي لموقع الإدخال لخلية العمل المحددة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-134">A default picking activity is created for the input location of the selected work cell.</span></span>  
+3. <span data-ttu-id="f5de2-135">وانقر فوق إضافة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-135">Click Add.</span></span>
+    * <span data-ttu-id="f5de2-136">ويمكنك إنشاء أنشطة انتقاء إضافية لمنتجات معينة، منتجات لا يتم تقسيمها مرحليًا في نشاط إدخال خلية العمل.</span><span class="sxs-lookup"><span data-stu-id="f5de2-136">You can create additional picking activities for specific products, that are not staged at the work cell input activity.</span></span>  
+4. <span data-ttu-id="f5de2-137">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="f5de2-137">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="f5de2-138">في الحقل "رقم الصنف" اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-138">In the Item number field, type a value.</span></span>
+6. <span data-ttu-id="f5de2-139">في الحقل "المستودع"، انقر فوق زر القائمة المنسدلة لفتح البحث.</span><span class="sxs-lookup"><span data-stu-id="f5de2-139">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f5de2-140">باستخدام هذا التعريف، يتم انتقاء جميع المواد المستهلكة في النشاط من مستودع الإدخال والموقع الافتراضي باستثناء الصنف الذي يتم تعريفه في نشاط الانتقاء الثاني.</span><span class="sxs-lookup"><span data-stu-id="f5de2-140">With this definition, all materials consumed in the activity are picked from the default input warehouse and location except the item that is defined in the second picking activity.</span></span> <span data-ttu-id="f5de2-141">سيتم انتقاء هذا الصنف من مستودع وموقع مختلفين.</span><span class="sxs-lookup"><span data-stu-id="f5de2-141">This item will be picked from a different warehouse and location.</span></span>  
+7. <span data-ttu-id="f5de2-142">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="f5de2-142">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="f5de2-143">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="f5de2-143">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="f5de2-144">حدد خانة اختيار "تسجيل الخردة" أو قم بإلغاء تحديدها.</span><span class="sxs-lookup"><span data-stu-id="f5de2-144">Select or clear the Register scrap check box.</span></span>
+10. <span data-ttu-id="f5de2-145">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="f5de2-145">Click Next.</span></span>
 
-## <a name="define-the-activity-times"></a><span data-ttu-id="82d24-146">تحديد أوقات النشاط</span><span class="sxs-lookup"><span data-stu-id="82d24-146">Define the activity times</span></span>
-1. <span data-ttu-id="82d24-147">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="82d24-147">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="82d24-148">تعريف وقت التشغيل مطلوب.</span><span class="sxs-lookup"><span data-stu-id="82d24-148">The definition of a Runtime is required.</span></span> <span data-ttu-id="82d24-149">يتم استخدام وقت التشغيل لحساب التكاليف وأوقات الإنتاجية لوظائف كانبان.</span><span class="sxs-lookup"><span data-stu-id="82d24-149">The Runtime is used to calculate costs and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="82d24-150">ولا تُستخدم أوقات التشغيل لحساب القدرة الإنتاجية والاستهلاك، حيث تحسب هذه بزمن الدورة، المشتق من مهمة إصدار تدفق الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="82d24-150">Runtimes are not used to calculate capacity load and consumption, this is calculated by cycle time, derived from the production flow version task.</span></span>  
-2. <span data-ttu-id="82d24-151">في الحقل "الوقت" أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="82d24-151">In the Time field, enter a number.</span></span>
-3. <span data-ttu-id="82d24-152">في الحقل "الوحدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="82d24-152">In the Unit field, type a value.</span></span>
-4. <span data-ttu-id="82d24-153">حدد وحدة "الوقت".</span><span class="sxs-lookup"><span data-stu-id="82d24-153">Select the Time unit.</span></span>
-5. <span data-ttu-id="82d24-154">في الحقل "حسب الكمية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="82d24-154">In the Per quantity field, enter a number.</span></span>
-6. <span data-ttu-id="82d24-155">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="82d24-155">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="82d24-156">أوقات الانتظار اختيارية.</span><span class="sxs-lookup"><span data-stu-id="82d24-156">Queue times are optional.</span></span>  
-7. <span data-ttu-id="82d24-157">في الحقل "الوقت" أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="82d24-157">In the Time field, enter a number.</span></span>
-8. <span data-ttu-id="82d24-158">في الحقل "الوحدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="82d24-158">In the Unit field, type a value.</span></span>
-9. <span data-ttu-id="82d24-159">حدد وحدة "الوقت".</span><span class="sxs-lookup"><span data-stu-id="82d24-159">Select the Time unit.</span></span>
-10. <span data-ttu-id="82d24-160">في الحقل "حسب الكمية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="82d24-160">In the Per quantity field, enter a number.</span></span>
-11. <span data-ttu-id="82d24-161">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="82d24-161">Click Next.</span></span>
-12. <span data-ttu-id="82d24-162">انقر فوق إنهاء.</span><span class="sxs-lookup"><span data-stu-id="82d24-162">Click Finish.</span></span>
-13. <span data-ttu-id="82d24-163">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="82d24-163">Close the page.</span></span>
+## <a name="define-the-activity-times"></a><span data-ttu-id="f5de2-146">تحديد أوقات النشاط</span><span class="sxs-lookup"><span data-stu-id="f5de2-146">Define the activity times</span></span>
+1. <span data-ttu-id="f5de2-147">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="f5de2-147">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f5de2-148">تعريف وقت التشغيل مطلوب.</span><span class="sxs-lookup"><span data-stu-id="f5de2-148">The definition of a Runtime is required.</span></span> <span data-ttu-id="f5de2-149">يتم استخدام وقت التشغيل لحساب التكاليف وأوقات الإنتاجية لوظائف كانبان.</span><span class="sxs-lookup"><span data-stu-id="f5de2-149">The Runtime is used to calculate costs and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="f5de2-150">ولا تُستخدم أوقات التشغيل لحساب القدرة الإنتاجية والاستهلاك، حيث تحسب هذه بزمن الدورة، المشتق من مهمة إصدار تدفق الإنتاج.</span><span class="sxs-lookup"><span data-stu-id="f5de2-150">Runtimes are not used to calculate capacity load and consumption, this is calculated by cycle time, derived from the production flow version task.</span></span>  
+2. <span data-ttu-id="f5de2-151">في الحقل "الوقت" أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="f5de2-151">In the Time field, enter a number.</span></span>
+3. <span data-ttu-id="f5de2-152">في الحقل "الوحدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-152">In the Unit field, type a value.</span></span>
+4. <span data-ttu-id="f5de2-153">حدد وحدة "الوقت".</span><span class="sxs-lookup"><span data-stu-id="f5de2-153">Select the Time unit.</span></span>
+5. <span data-ttu-id="f5de2-154">في الحقل "حسب الكمية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="f5de2-154">In the Per quantity field, enter a number.</span></span>
+6. <span data-ttu-id="f5de2-155">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="f5de2-155">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f5de2-156">أوقات الانتظار اختيارية.</span><span class="sxs-lookup"><span data-stu-id="f5de2-156">Queue times are optional.</span></span>  
+7. <span data-ttu-id="f5de2-157">في الحقل "الوقت" أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="f5de2-157">In the Time field, enter a number.</span></span>
+8. <span data-ttu-id="f5de2-158">في الحقل "الوحدة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-158">In the Unit field, type a value.</span></span>
+9. <span data-ttu-id="f5de2-159">حدد وحدة "الوقت".</span><span class="sxs-lookup"><span data-stu-id="f5de2-159">Select the Time unit.</span></span>
+10. <span data-ttu-id="f5de2-160">في الحقل "حسب الكمية"، أدخل رقمًا.</span><span class="sxs-lookup"><span data-stu-id="f5de2-160">In the Per quantity field, enter a number.</span></span>
+11. <span data-ttu-id="f5de2-161">انقر فوق التالي.</span><span class="sxs-lookup"><span data-stu-id="f5de2-161">Click Next.</span></span>
+12. <span data-ttu-id="f5de2-162">انقر فوق إنهاء.</span><span class="sxs-lookup"><span data-stu-id="f5de2-162">Click Finish.</span></span>
+13. <span data-ttu-id="f5de2-163">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="f5de2-163">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
