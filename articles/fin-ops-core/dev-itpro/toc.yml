@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: تحديثات النظام الأساسي لـ 10.0.16 (فبراير 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: تحديثات النظام الأساسي لـ 10.0.15 (يناير 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: العامل والوظيفة والمنصب المتكامل
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: الطرف ودفتر العناوين العمومي
+                              href: data-entities/dual-write/party-gab.md
+                            - name: استخدام مدخل Power مع نموذج بيانات الطرف
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: تكامل الملاحظات
                               href: data-entities/dual-write/notes-integration.md
                             - name: مرجع التعيين
@@ -526,13 +528,15 @@
                   items:
                     - name: إعداد المشاريع المحلية في LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: إعداد بيئات محلية ونشرها
+                    - name: إعداد البيئات المحلية ونشرها (تحديث Platform update 41 وتحديث لاحق)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: إعداد البيئات المحلية ونشرها (تحديث Platform updates 12 إلى 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
                       href: deployment/deploy-retail-onprem.md
                     - name: تطوير نماذج مخصصة ونشرها في بيئات محلية
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: صيانة البيئة
+                - name: عمليات البيئة
                   items:
                     - name: تطبيق التحديثات على عملية نشر محلي
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: تكوين الدُفعة فقط وعُقد AOS التفاعلية فقط في عمليات النشر المحلية
                       href: deployment/onprem-batchonly.md
+                    - name: تكوين التوافر العالي لعقد SQL Server Reporting Services ‏(SSRS)
+                      href: deployment/onprem-SSRSHA.md
                     - name: تكوين الوكلاء للبيئات المحلية
                       href: deployment/onprem-reverseproxy.md
                     - name: تشخيصات محلية
@@ -1136,27 +1142,31 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: تكامل Microsoft Power Platform
           items:
-            - name: تكامل Microsoft Power Platform مع Finance and Operations
-              href: power-platform/overview.md
-            - name: نظرة عامة حول الوظائف الإضافية
-              href: power-platform/add-ins-overview.md
-            - name: تصميم الكيان
-              href: power-platform/entity-modeling.md
-            - name: إدارة دورة حياة التطبيق
-              href: power-platform/application-lifecycle-management.md
-            - name: مرجع مسؤول Finance and Operations وDataverse
-              href: power-platform/admin-reference.md
-            - name: مداخل Power Apps مع Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: الأسئلة المتداولة كيانات Finance and Operations الافتراضية
-              href: power-platform/faq.md
-        - name: النظام الأساسي للأجهزة المحمولة
-          items:
-            - name: موارد النظام الأساسي للأجهزة المحمولة
-              href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: البدء
+            - name: الكيانات الظاهرية
               items:
-                - name: البدء باستخدام النظام الأساسي للأجهزة المحمولة
+                - name: تكامل Microsoft Power Platform مع Finance and Operations
+                  href: power-platform/overview.md
+                - name: تصميم الكيان
+                  href: power-platform/entity-modeling.md
+                - name: إدارة دورة حياة التطبيق
+                  href: power-platform/application-lifecycle-management.md
+                - name: مرجع مسؤول Finance and Operations وDataverse
+                  href: power-platform/admin-reference.md
+                - name: مداخل Power Apps مع Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: الأسئلة المتداولة حول كيانات Finance and Operations الظاهرية
+                  href: power-platform/faq.md
+            - name: وظائف إضافية
+              items:
+                - name: نظرة عامة حول الوظائف الإضافية
+                  href: power-platform/add-ins-overview.md
+        - name: النظام الأساسي للأجهزة المحمولة‬
+          items:
+            - name: موارد النظام الأساسي للأجهزة المحمولة‬
+              href: mobile-apps/platform/mobile-platform-home-page.md
+            - name: الشروع في العمل
+              items:
+                - name: الشروع في العمل مع النظام الأساسي للأجهزة المحمولة
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: اعتبارات العمارة والتصميم
                   href: mobile-apps/platform/mobile-platform-architecture.md
@@ -1390,9 +1400,11 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: البرنامج التعليمي لـ Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
+            - name: تكوين المستخدمين غير المسؤولين
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: أفضل الممارسات
               href: perf-test/rsat/rsat-best-practices.md
-            - name: اختبار عدم تحديد البيانات باستخدام Regression Suite Automation Tool
+            - name: اختبار بيانات مستقل باستخدام Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: استكشاف الأخطاء وإصلاحها
               href: perf-test/rsat/rsat-troubleshooting.md

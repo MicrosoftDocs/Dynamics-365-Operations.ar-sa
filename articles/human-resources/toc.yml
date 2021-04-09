@@ -3,8 +3,10 @@
   items:
     - name: الميزات الجديدة
       items:
-        - name: ما الجديد أو المتغير في Human Resources
+        - name: ‏‫الميزات الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 مارس 2021
+          href: hr-whats-new-2021-03-22.md
         - name: 8 مارس 2021
           href: hr-whats-new-2021-03-08.md
         - name: 22 فبراير 2021
@@ -265,6 +267,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: تحسين الأداء باستخدام مهام التنظيف التلقائية
               href: hr-admin-troubleshooting-batch-history.md
+            - name: إعادة تعيين المهام الدفعية العالقة
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: لم يتم تحديث تقارير التحليلات
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: لا يمكن إنشاء بيئة في مركز إدارة Power Apps

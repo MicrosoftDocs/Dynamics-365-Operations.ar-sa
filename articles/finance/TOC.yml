@@ -4,7 +4,7 @@
       items:
         - name: صفحة Dynamics 365 Finance الرئيسية
           href: index.md
-        - name: البدء
+        - name: الشروع في العمل
           items:
             - name: قبل الشراء
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (فبراير 2021)
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: Finance 10.0.15 (يناير 2021)
-                      href: get-started/whats-new-changed-10-0-15.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -244,7 +242,7 @@
                   href: accounts-payable/view-automated-vendor-invoice.md
                 - name: مساحة عمل إدخال فاتورة المورد
                   href: accounts-payable/vendor-invoices-workspace.md
-            - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين
+            - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير المورّدين
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: مطابقة الفاتورة وأوامر الشراء المشتركة بين الشركات الشقيقة
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -1418,34 +1416,36 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: تحديثات تنظيمية
               href: localizations/regulatory-updates.md
-            - name: الوظيفة الإضافية للفوترة الإلكترونية
+            - name: الفوترة الإلكترونية
               items:
-                - name: نظرة عامة على الوظيفة الإضافية للفوترة الإلكترونية
+                - name: نظرة عامة على الفوترة الإلكترونية
                   href: localizations/e-invoicing-service-overview.md
-                - name: مكونات إدارة الوظائف الإضافية للفوترة الإلكترونية
+                - name: مكونات إدارة الفوترة الإلكترونية
                   href: localizations/e-invoicing-service-administration.md
-                - name: تكوين الوظيفة الإضافية للفوترة الإلكترونية في Regulatory Configuration Services (‏RCS)
+                - name: تكوين الفوترة الإلكترونية في Regulatory Configuration Services (‏RCS)
                   href: localizations/e-invoicing-configuration-rcs.md
                 - name: إصدار الفواتير الإلكترونية في Finance وSupply Chain Management
                   href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
                 - name: إنشاء حساب تخزين Azure وKey Vault
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: البدء
+                - name: الشروع في العمل
                   items:
-                    - name: البدء باستخدام إدارة خدمة الوظيفة الإضافية للفوترة الإلكترونية
+                    - name: الشروع في العمل مع إدارة خدمة الفوترة الإلكترونية
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: الشروع في العمل باستخدام الوظيفة الإضافية للفوترة الإلكترونية
+                    - name: الشروع في العمل مع الفوترة الإلكترونية
                       href: localizations/e-invoicing-get-started.md
-                    - name: الشروع في العمل باستخدام الوظيفة الإضافية للفوترة الإلكترونية للبرازيل
+                    - name: الشروع في العمل مع الفوترة الإلكترونية للبرازيل
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: الشروع في العمل باستخدام الوظيفة الإضافية للفوترة الإلكترونية لمصر
+                    - name: الشروع في العمل مع الفوترة الإلكترونية لمصر
                       href: localizations/e-invoicing-eg-get-started.md
-                    - name: الشروع في العمل باستخدام الوظيفة الإضافية للفوترة الإلكترونية لإيطاليا
+                    - name: الشروع في العمل مع الفوترة الإلكترونية لإيطاليا
                       href: localizations/e-invoicing-ita-get-started.md
-                    - name: البدء باستخدام الوظيفة الإضافية للفوترة الإلكترونية للمكسيك
+                    - name: الشروع في العمل مع الفوترة الإلكترونية للمكسيك
                       href: localizations/e-invoicing-mex-get-started.md
-                    - name: إعداد الوظيفة الإضافية للفوترة الإلكترونية
+                    - name: إعداد الفوترة الإلكترونية
                       href: localizations/e-invoicing-setup.md
+                - name: الأسئلة المتداولة حول الفوترة الإلكترونية
+                  href: localizations/e-invoicing-faq.md
             - name: أستراليا
               items:
                 - name: نظرة عامة على أستراليا
@@ -1798,6 +1798,10 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: الفواتير الإلكترونية للعملاء في مصر
                   href: localizations/emea-egy-e-invoices.md
+                - name: إقرار ضريبة القيمة المضافة لمصر
+                  href: localizations/emea-egy-vat-declaration.md
+                - name: إقرار ضريبة الخصم في مصر
+                  href: localizations/emea-egy-wht-declaration.md
             - name: إستونيا
               items:
                 - name: نظرة عامة على إستونيا
@@ -1976,7 +1980,7 @@
                       href: localizations/emea-fra-procurement-sourcing-public-sector.md
                     - name: Titres de recette
                       href: localizations/emea-fra-titres-de-recette-public-sector.md
-                    - name: تعليقات دفع فواتير الموردين
+                    - name: تعليقات دفع فواتير المورّدين
                       href: localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
                 - name: اعتماد وترحيل سحب الكمبيالة
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
@@ -2074,14 +2078,46 @@
                   href: localizations/tasks/set-up-invoice-declaration-vendors.md
                 - name: إعداد مراجع الدفع الإلزامي
                   href: localizations/tasks/set-up-mandatory-payment-references.md
-                - name: تحديث إقرارات فواتير الموردين وإنشاء التقرير
+                - name: تحديث إقرارات فواتير المورّدين وإنشاء التقرير
                   href: localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: الهند
               items:
                 - name: نظرة عامة على الهند
                   href: localizations/india.md
-                - name: نطاق عمليات التطويع المحلي للهند
+                - name: نطاق الترجمات الهندية
                   href: localizations/apac-ind-scope.md
+                - name: الجديد أو المتغير‬ في الترجمة الخاصة بالهند
+                  items:
+                    - name: الجديد أو المتغير‬ في 10.0.0
+                      href: localizations/apac-ind-news-letter-10-0-00.md
+                    - name: الجديد أو المتغير‬ في 10.0.01
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: الجديد أو المتغير‬ في 10.0.02
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: الجديد أو المتغير‬ في 10.0.03
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: الجديد أو المتغير‬ في 10.0.04
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: الجديد أو المتغير‬ في 10.0.05
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: الجديد أو المتغير‬ في 10.0.06
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: الجديد أو المتغير‬ في 10.0.07
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: الجديد أو المتغير‬ في 10.0.08
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: الجديد أو المتغير‬ في 10.0.09
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: الجديد أو المتغير‬ في 10.0.10
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: الجديد أو المتغير‬ في 10.0.11
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: الجديد أو المتغير‬ في 10.0.12
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: الجديد أو المتغير‬ في 10.0.13
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: الجديد أو المتغير‬ في 10.0.14
+                      href: localizations/apac-ind-news-letter-10-0-14.md
                 - name: الأصول الثابتة
                   items:
                     - name: نظرة عامة على الأصول الثابتة في الهند
@@ -2108,210 +2144,198 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: تحويل عناصر رأس المال إلى الأصل الثابت
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: ضريبة السلع والخدمات في الهند
+                - name: ضرائب غير مباشرة
                   items:
-                    - name: نظرة عامة على ضريبة السلع والخدمات (GST) في الهند
-                      href: localizations/apac-ind-gst.md
-                    - name: الجديد أو المتغير‬ في ترجمة ‏‫ضريبة السلع والخدمات (GST) للهند‬
+                    - name: ضريبة السلع والخدمات (GST) في الهند
                       items:
-                        - name: الجديد أو المتغير‬ في 10.0.0
-                          href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: الجديد أو المتغير‬ في 10.0.01
-                          href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: الجديد أو المتغير‬ في 10.0.02
-                          href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: الجديد أو المتغير‬ في 10.0.03
-                          href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: الجديد أو المتغير‬ في 10.0.04
-                          href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: الجديد أو المتغير‬ في 10.0.05
-                          href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: الجديد أو المتغير‬ في 10.0.06
-                          href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: الجديد أو المتغير‬ في 10.0.07
-                          href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: الجديد أو المتغير‬ في 10.0.08
-                          href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: الجديد أو المتغير‬ في 10.0.09
-                          href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: الجديد أو المتغير‬ في 10.0.10
-                          href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: الجديد أو المتغير‬ في 10.0.11
-                          href: localizations/apac-ind-news-letter-10-0-11.md
-                        - name: الجديد أو المتغير‬ في 10.0.12
-                          href: localizations/apac-ind-news-letter-10-0-12.md
-                        - name: الجديد أو المتغير‬ في 10.0.13
-                          href: localizations/ind-news-letter-10-0-13.md
-                        - name: الجديد أو المتغير‬ في 10.0.14
-                          href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: المجموعات المرجعية لضريبة السلع والخدمات في الهند
-                      href: localizations/apac-ind-gst-reference-groups.md
-                    - name: تكامل ضريبة السلع والخدمات لآلات تسجيلات المدفوعات النقدية
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
-                    - name: إعداد البيانات الرئيسية
-                      items:
-                        - name: إنشاء أسواق متخصصة
-                          href: localizations/apac-ind-GST-create-business-vertical.md
-                        - name: تحديث كود المنطقة ومنطقة الاتحاد
-                          href: localizations/apac-ind-GST-update-state-code-union-territory.md
-                        - name: إنشاء رقم تعريف رئيسي لضريبة السلع والخدمات (GSTIN)
-                          href: localizations/apac-ind-GST-create-gstin-master.md
-                        - name: تحديد أرقام تعريف ضريبة السلع والخدمات (GSTIN) وتسلسلات الأرقام المرجعية
-                          href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
-                        - name: تحديد أكواد HSN وأكواد محاسبة الخدمة
-                          href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
-                        - name: إنشاء نوع معدل الضريبة
-                          href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: إنشاء حسابات رئيسية لنوع ترحيل ضريبة السلع والخدمات (GST)
-                          href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
-                        - name: إنشاء فترة تسوية الضرائب
-                          href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: إرفاق رقم تعريف ضريبة السلع والخدمات (GSTIN)‬ بمجموعة تسجيل ضريبي
-                          href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
-                    - name: إعداد الضريبة
-                      items:
-                        - name: تحديد تكوين الضريبة ونشره في الكيانات القانونية
-                          href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
-                        - name: تعيين أنواع ضرائب التكوين - الجمارك
-                          href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: إعداد جداول المعدل والنسبة المئوية
-                          href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
-                        - name: إعداد تدرج هرمي لضريبة المبيعات وقواعد المقاصة الضريبية‬
-                          href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                    - name: حركة الشراء
-                      items:
-                        - name: عمليات شراء من مورّدين غير مسجلين
-                          href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
-                        - name: شراء صنف خاضع للضريبة من مورّد غير مسجل
-                          href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
-                        - name: عمليات شراء من مورّدين مسجلين
-                          href: localizations/apac-ind-GST-purchases-registered-vendor.md
-                        - name: عمليات شراء بضائع مخفضة السعر
-                          href: localizations/apac-ind-GST-purchase-discounted-goods.md
-                        - name: شراء بضائع معفاة من الضرائب
-                          href: localizations/apac-ind-GST-purchase-exempted-goods.md
-                        - name: شراء بضائع معفاة من الضرائب
-                          href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: عمليات شراء بضائع غير خاضعة لضريبة السلع والخدمات (GST)
-                          href: localizations/apac-ind-GST-purchase-non-gst-goods.md
-                        - name: عمليات شراء من موزعين مجمعين
-                          href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
-                        - name: عمليات شراء بضائع خاضعة للضريبة تشتمل على مصاريف شحن
-                          href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
-                        - name: مراجعة فاتورة شراء تتضمن بضائع خاضعة للضريبة
-                          href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
-                        - name: عمليات شراء أصول ثابتة
-                          href: localizations/apac-ind-GST-purchase-fixed-asset.md
-                        - name: إنشاء إشعار دائن في مقابل فاتورة شراء
-                          href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
-                        - name: إنشاء إشعار مدين في مقابل فاتورة شراء
-                          href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
-                        - name: أوامر الجودة التي تشتمل على أخذ عينات للصنف‬
-                          href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                        - name: أوامر إرجاع الشراء
-                          href: localizations/apac-ind-GST-purchase-return-order.md
-                        - name: دفعات مقدمة للمورّدين حيث توجد رسوم عكسية
-                          href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: حركة المبيعات
-                      items:
-                        - name: عمليات بيع بضائع خاضعة للضريبة للمستهلكين
-                          href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
-                        - name: عمليات بيع للعملاء المسجلين
-                          href: localizations/apac-ind-GST-sell-registered-customer.md
-                        - name: فواتير ذات نص حر
-                          href: localizations/apac-ind-GST-free-text-invoices.md
-                        - name: عمليات بيع بضائع خاضعة للضريبة حيث توجد رسوم عكسية
-                          href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
-                        - name: عمليات بيع أصناف معفاة من الضرائب
-                          href: localizations/apac-ind-GST-sales-exempted-item.md
-                        - name: عمليات بيع بضائع معفاة من الضرائب
-                          href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: عمليات بيع بضائع غير خاضعة لضريبة السلع والخدمات (GST)
-                          href: localizations/apac-ind-GST-sell-non-gst-goods.md
-                        - name: عمليات بيع بضائع خاضعة للضريبة تشتمل على خصم وتقييم مؤقت‬
-                          href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
-                        - name: عمليات بيع بضائع خاضعة للضريبة تشتمل على ضريبة على مصاريف الشحن
-                          href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
-                        - name: عمليات البيع حيث الأسعار تتضمن وتستثني الضريبة
-                          href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
-                        - name: إنشاء إشعار مدين في مقابل فاتورة بيع
-                          href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
-                        - name: إنشاء إشعار دائن في مقابل فاتورة بيع
-                          href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
-                        - name: فواتير المبيعات المقسمة استنادًا إلى عناوين التسليم
-                          href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                        - name: أوامر الإرجاع
-                          href: localizations/apac-ind-GST-return-order-form.md
-                    - name: حركات بعملة أجنبية
-                      items:
-                        - name: استيراد بضائع تخضع لضريبة السلع والخدمات (GST)
-                          href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: استيراد خدمات تخضع لضريبة السلع والخدمات (GST)
-                          href: localizations/apac-ind-import-services-gst.md
-                        - name: تصدير بضائع معفية من الضرائب
-                          href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: تصدير خدمات معفية من الضرائب
-                          href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: حركة المخزون
-                      items:
-                        - name: طلبات تحويلات الأسهم
-                          href: localizations/apac-ind-stock-transfer.md
-                        - name: أوامر تحويل المخزون التي تخضع لضريبة على سعر التحويل
-                          href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                    - name: حركة دفع العميل
-                      items:
-                        - name: الدفعات المقدمة التي تشتمل على الضريبة
-                          href: localizations/apac-ind-GST-advance-payment-includes-tax.md
-                        - name: الدفعات المقدمة التي تتم تسويتها أثناء ترحيل الفاتورة
-                          href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
-                        - name: التسوية اليدوية لدفعة مقدمة وفاتورة تشتمل على الضريبة
-                          href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
-                        - name: دفع الفواتير التي تشتمل على الضريبة
-                          href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
-                        - name: مراجعة الدفعات المقدمة التي تشتمل على الضريبة
-                          href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
-                        - name: إعادة المبالغ المدفوعة للعملاء
-                          href: localizations/apac-ind-GST-customer-payment-refund.md
-                    - name: حركة ضريبة مباشرة
+                        - name: نظرة عامة على ضريبة السلع والخدمات (GST) في الهند
+                          href: localizations/apac-ind-gst.md
+                        - name: محرك الضريبة
+                          items:
+                            - name: نظرة عامة على محرك الضريبة
+                              href: general-ledger/tax-engine.md
+                            - name: استيراد التكوين
+                              href: general-ledger/tax-engine-import-configuration.md
+                            - name: مصمم المعادلة المتقدم
+                              href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                            - name: إمكانية تطبيق محرك الضريبة
+                              href: general-ledger/tax-engine-applicability.md
+                            - name: إنشاء مكونات الضرائب
+                              href: localizations/tax-engine-create-tax-component.md
+                            - name: تكامل محرك الضريبة
+                              href: general-ledger/tax-engine-integration.md
+                            - name: توسيع محرك الضريبة
+                              href: general-ledger/extend-tax-engine-configurations.md
+                            - name: تنظيف جدول TaxDocumentJSON
+                              href: localizations/gte-clean-up-tax-document-json-table.md
+                            - name: استكشاف الأخطاء وإصلاحها في ‬GTE
+                              href: localizations/tax-engine-trouble-shooting.md
+                        - name: إعداد البيانات الرئيسية
+                          items:
+                            - name: إنشاء أسواق متخصصة
+                              href: localizations/apac-ind-GST-create-business-vertical.md
+                            - name: تحديث كود المنطقة ومنطقة الاتحاد
+                              href: localizations/apac-ind-GST-update-state-code-union-territory.md
+                            - name: إنشاء رقم تعريف رئيسي لضريبة السلع والخدمات (GSTIN)
+                              href: localizations/apac-ind-GST-create-gstin-master.md
+                            - name: تحديد أرقام تعريف ضريبة السلع والخدمات (GSTIN) وتسلسلات الأرقام المرجعية
+                              href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                            - name: تحديد أكواد HSN وأكواد محاسبة الخدمة
+                              href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                            - name: إنشاء نوع معدل الضريبة
+                              href: localizations/apac-ind-GST-create-tax-rate-type.md
+                            - name: إنشاء حسابات رئيسية لنوع ترحيل ضريبة السلع والخدمات (GST)
+                              href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                            - name: إنشاء فترة تسوية الضرائب
+                              href: localizations/apac-ind-GST-create-tax-settlement-period.md
+                            - name: إرفاق رقم تعريف ضريبة السلع والخدمات (GSTIN)‬ بمجموعة تسجيل ضريبي
+                              href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                        - name: إعداد الضريبة
+                          items:
+                            - name: تحديد تكوين الضريبة ونشره في الكيانات القانونية
+                              href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                            - name: تعيين أنواع ضرائب التكوين - الجمارك
+                              href: localizations/apac-ind-GST-map-configuration-tax-types.md
+                            - name: إعداد جداول المعدل والنسبة المئوية
+                              href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                            - name: إعداد هيكل ضريبة المبيعات وقواعد المقاصة الضريبية‬
+                              href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                            - name: المجموعات المرجعية لضريبة السلع والخدمات (GST) في الهند
+                              href: localizations/apac-ind-gst-reference-groups.md
+                        - name: حركات الضريبة
+                          items:
+                            - name: حركات الشراء
+                              items:
+                                - name: عمليات شراء من مورّدين غير مسجلين
+                                  href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                                - name: شراء صنف خاضع للضريبة من مورّد غير مسجل
+                                  href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                                - name: عمليات شراء من مورّدين مسجلين
+                                  href: localizations/apac-ind-GST-purchases-registered-vendor.md
+                                - name: عمليات شراء بضائع مخفضة السعر
+                                  href: localizations/apac-ind-GST-purchase-discounted-goods.md
+                                - name: شراء بضائع معفاة من الضرائب
+                                  href: localizations/apac-ind-GST-purchase-exempted-goods.md
+                                - name: شراء بضائع معفاة من الضرائب
+                                  href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                                - name: عمليات شراء بضائع غير خاضعة لضريبة السلع والخدمات (GST)
+                                  href: localizations/apac-ind-GST-purchase-non-gst-goods.md
+                                - name: عمليات شراء من موزعين مجمعين
+                                  href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                                - name: عمليات شراء بضائع خاضعة للضريبة تشتمل على مصاريف شحن
+                                  href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                                - name: مراجعة فاتورة شراء تتضمن بضائع خاضعة للضريبة
+                                  href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                                - name: عمليات شراء أصول ثابتة
+                                  href: localizations/apac-ind-GST-purchase-fixed-asset.md
+                                - name: إنشاء إشعار دائن في مقابل فاتورة شراء
+                                  href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                                - name: إنشاء إشعار مدين في مقابل فاتورة شراء
+                                  href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                                - name: أوامر الجودة التي تشتمل على أخذ عينات للصنف‬
+                                  href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                                - name: أوامر إرجاع الشراء
+                                  href: localizations/apac-ind-GST-purchase-return-order.md
+                                - name: دفعات مقدمة للمورّدين حيث توجد رسوم عكسية
+                                  href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                            - name: حركات المبيعات
+                              items:
+                                - name: عمليات بيع بضائع خاضعة للضريبة للمستهلكين
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                                - name: عمليات بيع للعملاء المسجلين
+                                  href: localizations/apac-ind-GST-sell-registered-customer.md
+                                - name: فواتير ذات نص حر
+                                  href: localizations/apac-ind-GST-free-text-invoices.md
+                                - name: عمليات بيع بضائع خاضعة للضريبة حيث توجد رسوم عكسية
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                                - name: عمليات بيع أصناف معفاة من الضرائب
+                                  href: localizations/apac-ind-GST-sales-exempted-item.md
+                                - name: عمليات بيع بضائع معفاة من الضرائب
+                                  href: localizations/apac-ind-GST-sell-zero-rated-goods.md
+                                - name: عمليات بيع بضائع غير خاضعة لضريبة السلع والخدمات (GST)
+                                  href: localizations/apac-ind-GST-sell-non-gst-goods.md
+                                - name: عمليات بيع بضائع خاضعة للضريبة تشتمل على خصم وتقييم مؤقت‬
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                                - name: عمليات بيع بضائع خاضعة للضريبة تشتمل على ضريبة على مصاريف الشحن
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                                - name: عمليات البيع حيث الأسعار تتضمن وتستثني الضريبة
+                                  href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                                - name: إنشاء إشعار مدين في مقابل فاتورة بيع
+                                  href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                                - name: إنشاء إشعار دائن في مقابل فاتورة بيع
+                                  href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                                - name: فواتير المبيعات المقسمة استنادًا إلى عناوين التسليم
+                                  href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                                - name: أوامر الإرجاع
+                                  href: localizations/apac-ind-GST-return-order-form.md
+                            - name: حركات بعملة أجنبية
+                              items:
+                                - name: استيراد بضائع تخضع لضريبة السلع والخدمات (GST)
+                                  href: localizations/apac-ind-GST-import-goods-gst.md
+                                - name: استيراد خدمات تخضع لضريبة السلع والخدمات (GST)
+                                  href: localizations/apac-ind-import-services-gst.md
+                                - name: تصدير بضائع معفية من الضرائب
+                                  href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                                - name: تصدير خدمات معفية من الضرائب
+                                  href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                                - name: إشعار دائن أو مدين في مقابل أمر التصدير.
+                                  href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
+                            - name: حركات تحويل المخزون
+                              items:
+                                - name: أوامر تحويل المخزون
+                                  href: localizations/apac-ind-stock-transfer.md
+                                - name: أوامر تحويل المخزون التي تخضع لضريبة على سعر التحويل
+                                  href: localizations/apac-ind-GST-stock-transfer-transactions.md
+                            - name: حركات دفع العميل
+                              items:
+                                - name: الدفعات المقدمة التي تشتمل على الضريبة
+                                  href: localizations/apac-ind-GST-advance-payment-includes-tax.md
+                                - name: الدفعات المقدمة التي تتم تسويتها أثناء ترحيل الفاتورة
+                                  href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                                - name: التسوية اليدوية لدفعة مقدمة وفاتورة تشتمل على الضريبة
+                                  href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                                - name: دفع الفواتير التي تشتمل على الضريبة
+                                  href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                                - name: مراجعة الدفعات المقدمة التي تشتمل على الضريبة
+                                  href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                                - name: إعادة المبالغ المدفوعة للعملاء
+                                  href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: تسوية الضريبة
+                              items:
+                                - name: تسوية مبلغ الضريبة
+                                  href: localizations/apac-ind-GST-tax-adjustments.md
+                                - name: إنشاء دفتر يومية الضرائب
+                                  href: localizations/apac-ind-GST-tax-journal.md
+                            - name: استعلامات مستند الضريبة
+                              items:
+                                - name: الاستعلام عن الضرائب
+                                  href: localizations/apac-ind-GST-tax-inquiry.md
+                        - name: التسوية الضريبية
+                          items:
+                            - name: التسوية الضريبية القائمة على القاعدة
+                              href: localizations/apac-ind-GST-tax-settlement.md
+                        - name: تقارير GSTR
+                          items:
+                            - name: تنسيقات ملفات الإرجاع الجديدة GSTR-1 وGSTR-2
+                              href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
+                            - name: أداة GSTR الجديدة غير المتصلة لـ ANX-1 وسجل الشراء
+                              href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
+                            - name: إنشاء بيانات تقرير GSTR لعمليات إرجاع الضرائب
+                              href: localizations/apac-ind-GST-tax-returns.md
+                            - name: تمكين معالجة الدفعات المتعددة لتقارير GSTR
+                              href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                - name: الضرائب المباشرة
+                  items:
+                    - name: ضريبة الخصم في الهند
                       items:
                         - name: تضمين ضريبة السلع والخدمات (GST) عند حساب خصومات الضرائب
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
                         - name: تضمين ضريبة السلع والخدمات (GST) عند حساب تحصيلات الضرائب
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                    - name: تسوية مبلغ الضريبة
-                      href: localizations/apac-ind-GST-tax-adjustments.md
-                    - name: تسوية الضريبة القائمة على لقاعدة
-                      href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: إنشاء دفتر يومية الضرائب
-                      href: localizations/apac-ind-GST-tax-journal.md
-                    - name: إنشاء بيانات تقرير GSTR لعمليات إرجاع الضرائب
-                      href: localizations/apac-ind-GST-tax-returns.md
-                    - name: تمكين معالجة الدفعات المتعددة لتقارير GSTR
-                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: الاستعلام عن الضرائب
-                      href: localizations/apac-ind-GST-tax-inquiry.md
-                    - name: تنظيف جدول TaxDocumentJSON
-                      href: localizations/gte-clean-up-tax-document-json-table.md
-                - name: محرك الضريبة
-                  items:
-                    - name: نظرة عامة على محرك الضريبة
-                      href: general-ledger/tax-engine.md
-                    - name: استيراد التكوين
-                      href: general-ledger/tax-engine-import-configuration.md
-                    - name: مصمم المعادلة المتقدم
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: إمكانية تطبيق محرك الضريبة
-                      href: general-ledger/tax-engine-applicability.md
-                    - name: إنشاء مكونات الضرائب
-                      href: localizations/tax-engine-create-tax-component.md
-                    - name: تكامل محرك الضريبة
-                      href: general-ledger/tax-engine-integration.md
-                    - name: توسيع محرك الضريبة
-                      href: general-ledger/extend-tax-engine-configurations.md
-                    - name: استكشاف الأخطاء وإصلاحها في ‬GTE
-                      href: localizations/tax-engine-trouble-shooting.md
-                - name: الأسئلة الشائعة حول حدود الضريبة
-                  href: localizations/apac-ind-tax-thresholds.md
+                        - name: الأسئلة المتداولة حول حدود الضريبة
+                          href: localizations/apac-ind-tax-thresholds.md
+                        - name: TCS على بيع السلع
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: إيطاليا
               items:
                 - name: نظرة عامة على إيطاليا
@@ -2530,9 +2554,9 @@
                   href: localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
                 - name: تسوية فواتير العملاء المجمعة باستخدام تسوية الحركات
                   href: localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
-                - name: ‏‫تسوية فواتير الموردين المجمعة باستخدام دفتر يومية المدفوعات‬
+                - name: ‏‫تسوية فواتير المورّدين المجمعة باستخدام دفتر يومية المدفوعات‬
                   href: localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
-                - name: ‏‫تسوية فواتير الموردين المجمعة باستخدام تسوية الحركات‬
+                - name: ‏‫تسوية فواتير المورّدين المجمعة باستخدام تسوية الحركات‬
                   href: localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
                 - name: ‏‫إنشاء قائمة تجميع للأصول الثابتة
                   href: localizations/tasks/use-assemble-list-fixed-asset.md
@@ -2568,6 +2592,8 @@
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: تقارير i.SAF عن ليتوانيا
                   href: localizations/emea-ltu-isaf.md
+                - name: ملف المراجعة القياسي للضريبة (SAF-T) في ليتوانيا
+                  href: localizations/emea-ltu-saf-t.md
             - name: ماليزيا
               items:
                 - name: نظرة عامة ماليزيا
@@ -2930,6 +2956,8 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: سجلات ضريبة التدفق النقدي
                       href: localizations/rus-cash-flow-tax-registers.md
+                    - name: سجلات المصروفات المصنفة
+                      href: localizations/rus-rated-expenses-registers.md
             - name: السعودية
               items:
                 - name: نظرة عامة على السعودية
@@ -3379,13 +3407,13 @@
                   items:
                     - name: تصميم نموذج بيانات خاص بالمجال
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: إعداد بيانات تعريف خاصة بالتطبيق
+                    - name: إعداد بيانات تعريف التطبيق
                       items:
-                        - name: (التقارير الإلكترونية) إعداد بيانات تعريف التطبيق لاستخدامها في RCS
+                        - name: إعداد بيانات تعريف التطبيق في التقارير الإلكترونية (ER) لاستخدامها في RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام تكوين التقارير الإلكترونية
+                        - name: الوصول إلى بيانات تعريف التطبيق في RCS باستخدام تكوين التقارير الإلكترونية (ER)
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
+                        - name: الوصول إلى بيانات تعريف التطبيق في RCS باستخدام التطبيقات المتصلة
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: تعريف تعيينات النماذج وتحديد مصادر البيانات
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3403,7 +3431,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: ترقية التنسيق من خلال اعتماد إصدار أساسي جديد من ذلك التنسيق
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-            - name: مصممو المعادلات في التقارير الإلكترونية
+            - name: مصممو المعادلات في التقارير الإلكترونية (ER)
               items:
                 - name: مصمم المعادلة
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
@@ -3675,7 +3703,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'نص: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: تصميم تنسيقات التقارير الإلكترونية لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
+            - name: تصميم تنسيقات التقارير الإلكترونية (ER) لإنشاء مستندات إلكترونية صادرة بتنسيقات مختلفة
               items:
                 - name: تصميم التكوينات لإنشاء مستندات صادره بتنسيق Excel
                   items:
@@ -3703,7 +3731,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: تضمين الصور والأشكال
                   items:
-                    - name: (التقارير الإلكترونية) تضمين الصور والأشكال في المستندات التي تقوم بإنشائها
+                    - name: صورة مضمنة وأشكال في المستندات التي تقوم بإنشائها
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
                     - name: مثال عن تضمين الصور والأشكال
                       items:
@@ -3717,7 +3745,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: منع أحرف BOM في الملفات التي تم إنشاؤها
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
-            - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية
+            - name: تحديث بيانات التطبيق باستخدام التقارير الإلكترونية (ER)
               items:
                 - name: إنشاء مستندات إلكترونية وتحديث بيانات التطبيق
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/finance/toc.json
@@ -3763,8 +3791,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services ‏(RCS)
                   items:
-                    - name: Regulatory Configuration Services ‏(RCS) - ميزات العولمة
-                      href: localizations/rcs-globalization-feature.md
+                    - name: ميزات العولمة في RCS
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
                     - name: تنزيل تكوينات التقارير الإلكترونية إلى Finance
                       items:
                         - name: تنزيل التكوينات من RCS
@@ -3871,7 +3899,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: ضغط المستندات الصادرة الكبيرة
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
-                - name: فحص مكونات ER التي تم تكوينها
+                - name: فحص مكونات التقارير الإلكترونية (ER) التي تم تكوينها
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: المسار النسبي في عمليات ربط البيانات
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
@@ -3896,17 +3924,17 @@
                     - name: أنواع الوجهات
                       items:
                         - name: وجهة الأرشيف
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/finance/toc.json
                         - name: وجهة البريد الإلكتروني
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/finance/toc.json
                         - name: وجهة ملف
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/finance/toc.json
                         - name: وجهة Power BI
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: وجهة الطابعة
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/finance/toc.json
                         - name: وجهة الشاشة
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/finance/toc.json
                     - name: تكوين الوجهات
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: تكوين الوجهات المعتمدة على الإجراءات
@@ -3917,13 +3945,13 @@
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنات مع القيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                    - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
+                    - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
                 - name: التشغيل التلقائي لعمليات الأعمال باستخدام تكوينات التقارير الإلكترونية
                   items:
-                    - name: تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
+                    - name: تكوين إعداد التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
@@ -4203,7 +4231,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-generate-earnings.md
                 - name: إصدار دفعات العمال
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-issue-worker-payments.md
-                - name: ترحيل توزيعات كشف الرواتب وإنشاء فواتير الموردين
+                - name: ترحيل توزيعات كشف الرواتب وإنشاء فواتير المورّدين
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-post-payroll-generate-vendor-invoices.md
                 - name: الأسئلة الشائعة حول كشوف الدفع وإنشاء الدفعات
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-pay-statements-payment-generation-process.md
