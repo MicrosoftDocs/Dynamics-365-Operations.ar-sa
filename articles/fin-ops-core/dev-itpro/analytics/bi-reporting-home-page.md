@@ -2,7 +2,6 @@
 title: إعداد التقارير والتحليلات في الصفحة الرئيسية لـ Power BI
 description: يوجهك هذا الموضوع إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير المتوفرة.
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 644cf8ea39da872962e44a38294af88d1dfa809e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559859"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754484"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>إعداد التقارير والتحليلات في الصفحة الرئيسية لـ Power BI
 
@@ -28,7 +27,7 @@ ms.locfileid: "5559859"
 
 يوجهك هذا الموضوع إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية (BI) وأدوات إعداد التقارير المتوفرة.
 
-## <a name="get-started"></a>البدء
+## <a name="get-started"></a>الشروع في العمل
 - [الوصول إلى المعلومات وإعداد التقارير](information-access-reporting.md)
 - [حديث تقني: خيارات إعداد التقارير](https://www.youtube.com/watch?v=NzZONjKs5xA) (فيديو)
 - [Finance and Operations: Power BI مدونة خدمات التحليلات وإعداد التقارير في](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (مدونة)

@@ -2,11 +2,9 @@
 title: إعادة توزيع إقرار الإيرادات - السيناريو 3
 description: يمر هذا الموضوع بسيناريو إعادة التوزيع حيث يتم إضافة بند جديد إلى أمر مبيعات موجود تمت فوترته. عند إضافة صنف جديد إلى عقد، يمكن إضافته إما إلى أمر مبيعات جديد أو إلى أمر مبيعات موجود بالفعل.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ca61a64199d9a61d0ddaa95c49e847e4be35c07b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2105973470877f59fd9c4e8d1b1bfc1875a394b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238318"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833127"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>إعادة توزيع إقرار الإيرادات - السيناريو 3
 

@@ -2,11 +2,9 @@
 title: إعادة توزيع إقرار الإيرادات - السيناريو 4
 description: يمر هذا الموضوع بسيناريو إعادة التوزيع حيث يتم إزالة بند من أمر مبيعات موجود تمت فوترته جزئيًا. يؤدي هذا السيناريو إلى النتيجة نفسها، بغض النظر عما إذا كانت قد تمت إزالة البند من أمر المبيعات أو تم تعيينه إلى حالة تم الإلغاء.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50a2d0d2ca28d9b62713502700f2c4bd2e42751e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2b53145ac1ef4b277afadb4262fd1e704a2e7662
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238294"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830654"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>إعادة توزيع إقرار الإيرادات - السيناريو 4
 

@@ -2,11 +2,9 @@
 title: الصفحة الرئيسية للحسابات الدائنة
 description: يقدم هذا الموضوع نظرة عامة على الحسابات الدائنة.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 882afecdb33e5ad59a793f2f2391cb1ad27f911e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e20c26939389a72a8b3249bcb26bb3871768bbee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250688"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820849"
 ---
 # <a name="accounts-payable-home-page"></a>الصفحة الرئيسية للحسابات الدائنة
 
@@ -42,7 +40,7 @@ ms.locfileid: "5250688"
 
 [نظرة عامة حول تكوين الحسابات الدائنة](accounts-payable-overview.md)
 
-[التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
+[التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير المورّدين](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
 [إعادة تقييم العملة الأجنبية للحسابات الدائنة والحسابات المدينة](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 
@@ -62,7 +60,7 @@ ms.locfileid: "5250688"
 
 [نظرة عامة حول حل الاختلافات أثناء مطابقة إجماليات الفواتير](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
-[الحسابات المقابلة الافتراضية لدفاتر يومية فواتير الموردين ودفاتر يومية الموافقة على الفواتير](default-offset-accounts-vendor-invoice-journals.md)
+[الحسابات المقابلة الافتراضية لدفاتر يومية فواتير المورّدين ودفاتر يومية الموافقة على الفواتير](default-offset-accounts-vendor-invoice-journals.md)
 
 [الموافقات على فواتير الأجهزة المحمولة](mobile-invoice-approvals.md)
 

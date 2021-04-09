@@ -2,11 +2,9 @@
 title: إنشاء مصنف Excel لتحرير حركات البيع بالتجزئة
 description: يوضح هذا الموضوع كيفية إنشاء دفتر عمل Excel بحيث يمكنك تحرير حركات البيع بالتجزئة في Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a4bc0a91ee2215dcde2f18575d58ab1ef2f5581
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a2d41dd0470a4abae1a8238be8f1549fb094a026
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207933"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795729"
 ---
 # <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>إنشاء مصنف Excel لتحرير حركات البيع بالتجزئة
 
