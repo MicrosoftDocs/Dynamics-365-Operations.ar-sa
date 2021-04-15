@@ -2,7 +2,6 @@
 title: استخدام مسار نسبي في روابط البيانات لتنسيقات ونماذج ER
 description: تتيح أداة إعداد التقارير الإلكترونية‬ تحديد بنيات التنسيق الإلكتروني ثم توضيح كيفية تعبئة تلك البنيات
 author: NickSelin
-manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 555e7c78dae85034bfcde417d8ac86bea5073d85
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 141d58c2183c386584b0b974f4997e7a81ef3109
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565750"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749976"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>استخدام مسار نسبي في روابط البيانات لتنسيقات ونماذج ER
 

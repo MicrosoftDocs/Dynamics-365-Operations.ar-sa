@@ -2,8 +2,7 @@
 title: تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني
 description: يوضح هذا الموضوع كيفيه تكوين تنسيقات اعداد التقارير الكترونيه (ER) لاستخدام المعلمات التي تم تحديدها لكل كيان قانوني.
 author: NickSelin
-manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9253191f9cd10e0b3c87d61991598f9b791c35d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570724"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751168"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني
 
@@ -48,14 +47,14 @@ ms.locfileid: "5570724"
 
 ## <a name="import-er-configurations-into-rcs"></a>استيراد التقارير الإلكترونية إلى RCS
 
-من [مركز التنزيل لـ Microsoft](https://go.microsoft.com/fwlink/?linkid=851448)، قم بتنزيل الملف المضغوط **دعم استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب**. ويحتوي الملف المضغوط هذا على تكوينات التقارير الإلكترونية التالية والتي يجب استخراجها وتخزينها محليًا.
+قم بتنزيل تكوينات التقارير الإلكترونية التالية وتخزينها محليًا.
 
 | **وصف المحتوى**                        | **اسم الملف**                                        |
 |------------------------------------------------|------------------------------------------------------|
-| نموذج ملف تكوين **نموذج بيانات التقارير الإلكترونية**    | Model to learn parameterized calls.version.1.xml     |
-| نموذج ملف تكوين **بيانات تعريف التقارير الإلكترونية**      | Metadata to learn parameterized calls.version.1.xml  |
-| نموذج ملف تكوين **تعيين نماذج التقارير الإلكترونية** | Mapping to learn parameterized calls.version.1.1.xml |
-| نموذج تكوين **تنسيق التقارير الإلكترونية**             | Format to learn parameterized calls.version.1.1.xml  |
+| نموذج ملف تكوين **نموذج بيانات التقارير الإلكترونية**    | [Model to learn parameterized calls.version.1.xml](https://download.microsoft.com/download/2/d/b/2db913a0-3622-494e-91a2-97fc494af9b9/Modeltolearnparameterizedcalls.version.1.xml)     |
+| نموذج ملف تكوين **بيانات تعريف التقارير الإلكترونية**      | [Metadata to learn parameterized calls.version.1.xml](https://download.microsoft.com/download/1/b/3/1b343968-5a47-4000-b5a8-6487698ef4c0/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| نموذج ملف تكوين **تعيين نماذج التقارير الإلكترونية** | [Mapping to learn parameterized calls.version.1.1.xml](https://download.microsoft.com/download/8/6/6/866e0ab6-2e05-4d98-9d52-d2da2038f6e4/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| نموذج تكوين **تنسيق التقارير الإلكترونية**             | [Format to learn parameterized calls.version.1.1.xml](https://download.microsoft.com/download/e/3/9/e392eadc-b9b4-4834-95c3-b8066dd00b9c/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 في الخطوة التالية، قم بتسجيل الدخول إلى مثيل RCS.
 
@@ -79,17 +78,17 @@ ms.locfileid: "5570724"
 
     تم تصميم تنسيق التقارير الإلكترونية **تنسيق للتعرف على الاستدعاءات ذات معلمات** لإنشاء بيان ضريبة بتنسيق XML الذي يقدم عدة مستويات من الضرائب (العادية، والمخفضة، ولا شيء). يشتمل كل مستوى على عدد مختلف من التفاصيل.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![مستويات متعددة من تنسيق التقارير الإلكترونية، تنسيق لمعرفة المكالمات ذات المعلمات](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  في علامة التبويب **تعيين**، قم بتوسيع عناصر **النموذج** و **البيانات** و **الملخص**.
 
     يقوم مصدر البيانات **Model.Data.Summary** بإرجاع قائمة حركات الضريبة. يتم تلخيص هذه الحركات حسب كود الضريبة. بالنسبة لمصدر البيانات هذا، تم تكوين الحقل المحسوب **Model.Data.Summary.Level** لإرجاع كود مستوي الضرائب لكل سجل ملخص. بالنسبة لأي كود ضريبة يمكن استرداده من مصدر البيانات **Model.Data.Summary** في وقت التشغيل، يقوم الحقل المحسوب بإرجاع كود مستوى الضرائب (**العادية** أو **المخفضة** أو **لا شيء** أو **آخر**) كقيمة نص. يتم استخدام الحقل المحسوب **Model.Data.Summary.Level** لتصفية سجلات مصدر بيانات **Model.Data.Summary**، وأدخل البيانات المصفاة في كل عنصر XML يمثل مستوى ضرائب باستخدام حقول **Model.Data2.Level1**، و **Model.Data2.Level2**، و **Model.Data2.Level3**.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![قائمة حركات الضريبة لمصدر البيانات Model.Data.Summary](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     تم تكوين الحقل المحسوب **Model.Data.Summary.Level** بحيث يحتوي على تعبير تقارير إلكترونية. لاحظ أن أكواد الضرائب (**VAT19**، و **InVAT19**، و **VAT7**، و **InVAT7**، و **THIRD**، و **InVAT0**) مشفرة في هذا التكوين. وبالتالي، يعتمد تنسيق التقارير الإلكترونية هذا على الكيان القانوني حيث تم تكوين هذه الأكواد الضريبية.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![الحقل Model.Data.Summary.Level المحسوب بأكواد الضرائب المشفرة](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     لدعم مجموعة مختلفة من أكواد الضريبة لكل كيان قانوني، يجب اتباع الخطوات التالية:
 
@@ -129,7 +128,7 @@ ms.locfileid: "5570724"
 12. حدد **إضافة** مرة أخرى.
 13. في حقل **الاسم**، أدخل **آخر**.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![سجل جديد في صفحة تعدادات التنسيقات](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     نظرا لان مستخدمي الاعمال قد يستخدمون لغات مختلفه لتحديد المجموعات التابعة للكيان القانوني ، نوصي بترجمة قيم قائمه التعداد هذه إلى اللغات التي تم تكوينها علي انها اللغات المفضلة لهؤلاء المستخدمين في التمويل.
 
@@ -142,7 +141,7 @@ ms.locfileid: "5570724"
 20. في حقل **النص المترجم**، أدخل **keine Besteuerung**.
 21. حدد **ترجمة**.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![شريحة ترجمة النص](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. حدد **حفظ**.
 23. أغلق صفحة **تعدادات التنسيقات**.
@@ -169,13 +168,13 @@ ms.locfileid: "5570724"
 10. حدد عنصر **Model.Data.Tax.Code**.
 11. حدد الزر **إضافة** (السهم الأيمن).
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![شريحة الأعمدة](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     لقد حددت للتو أنه لكل قاعدة تم تحديدها في مصدر البيانات هذا للتعرف على مستوى الضرائب ، يجب على مستخدم النشاط التجاري اختيار أحد الرموز الضريبية كشرط. سيتم إرجاع قائمه أكواد الضريبة التي يمكن للمستخدم التجاري تحديدها بواسطة مصدر بيانات **Model.Data.Tax**. نظرا لان مصدر البيانات هذا يحتوي علي حقل **الاسم**، سيتم عرض اسم كود الضريبة لكل قيمه من قيم أكواد الضريبة في البحث الذي يتم تقديمه لمستخدم الاعمال.
     
 12. حدد **موافق**.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![صفحة مصمم البحث](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     يمكن لمستخدمي الاعمال أضافه قواعد متعددة كسجلات لمصدر البيانات هذا. يتم ترقيم كل سجل حسب كود البند. سيتم تقييم القواعد بترتيب أسطر متزايد.
 
@@ -189,13 +188,13 @@ ms.locfileid: "5570724"
 
     لاحظ انك قمت باضافه مصدر بيانات جديد سيقوم بإرجاع مستوي الضرائب كقيمه لتعداد تنسيق **قائمة مستويات الضرائب** لأي كود ضريبة يتم تمريره إلى مصدر البيانات كوسيطة في معلمة **الكود** لنوع بيانات **السلسلة**.
     
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![صفحة مصمم التنسيق بمصدر بيانات جديد](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     لاحظ ان تقييم القواعد المكونة يعتمد علي نوع بيانات الحقول التي تم تحديدها لتعريف شروط هذه القواعد. عند تحديد حقل تم تكوينه كحقل اما لنوع البيانات **رقمي** أو **تاريخ**، فان المعايير ستختلف عن المعايير الموضحة سابقًا لنوع بيانات **السلسلة**. بالنسبة للحقلين **رقمي** و **التاريخ**، يجب تحديد القاعدة كنطاق من القيم. سيتم اعتبار شرط القاعدة مستوفيًا عندما تكون القيمة التي يتم تمريرها إلى مصدر البيانات في النطاق المكوّن.
     
     يبين الرسم التوضيحي التالي مثالاً عن هذا النوع من الإعداد. بالإضافة إلى حقل **Model.Data.Tax.Code** في نوع بيانات **السلسلة**، يتم استخدام حقل **Model.Tax.Summary.Base** من نوع بيانات **Real** لتحديد شروط مصدر بيانات البحث.
     
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![صفحه مصمم البحث مع الاعمده الاضافيه](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     نظرًا لأنه يتم تحديد حقلي **Model.Data.Tax.Code** و **Model.Tax.Summary.Base** لمصدر بيانات البحث هذا، سيتم تكوين كل قاعدة من مصدر البيانات بالطريقة التالية:
     
@@ -224,7 +223,7 @@ ms.locfileid: "5570724"
 9.  حدد **ترجمة**.
 10. حدد **موافق**.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![شريحة خصائص مصدر البيانات](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>إضافة حقل جديد لاستخدام البحث المكون
 
@@ -237,16 +236,16 @@ ms.locfileid: "5570724"
 7.  في **حقل المعادلة**، أدخل **Model.Selector(Model.Data.Summary.Code)**.
 8.  حدد **حفظ**.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![إضافة Model.Selector (Model.Data.Summary.Code) إلى صفحة مصمم الصيغة](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  أغلق صفحة **محرر المعادلة**.
 10. حدد **موافق**.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![تنسيق الصفحة مع إضافة صيغة جديدة](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     لاحظ أن الحقل المحسوب **LevelByLookup** الذي قمت بإضافته سيقوم بإرجاع مستوى الضرائب باعتباره قيمة تعداد تنسيق **قائمة مستويات الضرائب** لكل سجل حركات ضريبة ملخصة. سيتم تمرير كود الضريبة للسجل إلى مصدر بيانات بحث **Model.Selector**، وسيتم استخدام مجموعه القواعد الخاصة بمصدر البيانات هذا لتحديد مستوي الضرائب الصحيح.
 
-### <a name="add-a-new-format-enumeration-based-data-source"></a>إضافة مصدر بيانات جديد مستند إلى تعداد التنسيق
+### <a name="add-a-new-format-enumeration-based-data-source&quot;></a>إضافة مصدر بيانات جديد مستند إلى تعداد التنسيق
 
 بعد ذلك ، ستقوم باضافه مصدر بيانات جديد يشير إلى تعداد التنسيق الذي قمت بإضافته سابقا. سيتم استخدام قيم مصدر البيانات هذا في تعبير تنسيق التقارير الإلكترونية لاحقا.
 
@@ -256,7 +255,7 @@ ms.locfileid: "5570724"
 4.  في حقل **تعداد التنسيق**، حدد **قائمة مستويات الضرائب**.
 5.  حدد **حفظ**.
 
-### <a name="modify-an-existing-field-to-start-to-use-the-lookup"></a>تعديل حقل موجود لبدء استخدام البحث
+### <a name=&quot;modify-an-existing-field-to-start-to-use-the-lookup&quot;></a>تعديل حقل موجود لبدء استخدام البحث
 
 بعد ذلك، ستقوم بتعديل الحقل المحسوب الموجود بحيث يستخدم مصدر بيانات البحث الذي تم تكوينه لإرجاع قيمه مستوي الضرائب الصحيح، وفقا لكود الضريبة.
 
@@ -266,7 +265,7 @@ ms.locfileid: "5570724"
 
     لاحظ أن التعبير الحالي الخاص بحقل **Model.Data.Summary.Level** يتضمن أكواد الضريبة التالية المضمنة:
     
-    CASE (@.Code، "VAT19"، "العادي", "InVAT19"، "العادية", "VAT7"، "المخفضة", "InVAT7"، "المخفضة", "THIRD"، "لا شيء"، "InVAT0"، "لا شيء", "آخر")
+    CASE (@.Code، &quot;VAT19&quot;، &quot;العادي&quot;, &quot;InVAT19&quot;، &quot;العادية&quot;, &quot;VAT7&quot;، &quot;المخفضة&quot;, &quot;InVAT7&quot;، &quot;المخفضة&quot;, &quot;THIRD&quot;، &quot;لا شيء&quot;، &quot;InVAT0&quot;، &quot;لا شيء&quot;, &quot;آخر")
 
 4.  في حقل **المعادلة**، أدخل **CASE(@.LevelByLookup، TaxationLevel.'Regular taxation', "العادية", TaxationLevel.'Reduced taxation'، "المخفضة", TaxationLevel.'No taxation'، "لا شيء", "آخر")**.
 

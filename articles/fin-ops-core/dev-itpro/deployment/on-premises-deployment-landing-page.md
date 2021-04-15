@@ -2,8 +2,7 @@
 title: الصفحة الرئيسية للنشر المحلي
 description: يوفر هذا الموضوع معلومات وارتباطات إلى محتوى يتعلق بعمليات النشر المحلي.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564050"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749295"
 ---
 # <a name="on-premises-deployment-home-page"></a>الصفحة الرئيسية للنشر المحلي
 
@@ -38,14 +37,16 @@ ms.locfileid: "5564050"
 
 ## <a name="onboard"></a>الإعداد
 - [إعداد مشاريع محلية في Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [إعداد ونشر بيئات محلية (Platform update 12 وتحديث لاحق)](setup-deploy-on-premises-pu12.md)
+- [إعداد ونشر بيئات محلية (Platform update 41 وتحديث لاحق)](setup-deploy-on-premises-pu41.md)
+- [إعداد ونشر بيئات محلية (تحديثات النظام الأساسي رقم 12 حتى 40)](setup-deploy-on-premises-pu12.md)
 - [تثبيت أجهزة طابعات الشبكة في البيئات المحلية](../analytics/install-network-printer-onprem.md)
 - [تكوين خدمات SQL Server Reporting Services لعمليات النشر المحلي](../analytics/configure-ssrs-on-premises.md)
-- [تطوير النماذج المخصصة للبيئات المحلية ونشرها](develop-deploy-custom-models-on-premises.md)
+- [تطوير نماذج مخصصة ونشرها في بيئات محلية](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>العمل في عملية النشر المحلي
+- [قم بتكوين الإتاحة العالية لعُقد SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [تكوين إدارة المستندات](../../fin-ops/organization-administration/configure-document-management.md)
-- [استيراد تكوينات إعداد التقارير الإلكترونية](../analytics/electronic-reporting-import-ger-configurations.md)
+- [استيراد تكوينات إعداد التقارير الإلكترونية (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [إنشاء المستندات ونشرها وطباعتها في عمليات النشر المحلي](../analytics/printing-capabilities-on-premises.md)
 - [تكوين الوكلاء للبيئات المحلية](onprem-reverseproxy.md)
 - [إعداد الدعم الفني للتطبيقات Finance and Operations ](../lifecycle-services/support-experience.md)
