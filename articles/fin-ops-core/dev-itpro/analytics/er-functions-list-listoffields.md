@@ -2,7 +2,6 @@
 title: LISTOFFIELDS ER وظيفة
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية LISTOFFIELDS (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,116 +15,116 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 494dc347fadf44121c7eae0acf8c30768c58f035
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4f394a557beaeb558f5c7065eefe16f4aadce6ac
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567654"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743760"
 ---
-# <a name="listoffields-er-function"></a><span data-ttu-id="565a4-103">LISTOFFIELDS ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="565a4-103">LISTOFFIELDS ER function</span></span>
+# <a name="listoffields-er-function"></a><span data-ttu-id="43836-103">LISTOFFIELDS ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="43836-103">LISTOFFIELDS ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="565a4-104">تُرجع الوظيفة `LISTOFFIELDS` قيمة *قائمة السجل* التي تم إنشاؤها بناءً على بنية الوسيطة المُحددة للنوع *التعداد* أو *الحاوية (السجل)*.</span><span class="sxs-lookup"><span data-stu-id="565a4-104">The `LISTOFFIELDS` function returns a *Record list* value that is created based on the structure of the specified argument of the *Enumeration* or *Container (record)* type.</span></span>
+<span data-ttu-id="43836-104">تُرجع الوظيفة `LISTOFFIELDS` قيمة *قائمة السجل* التي تم إنشاؤها بناءً على بنية الوسيطة المُحددة للنوع *التعداد* أو *الحاوية (السجل)*.</span><span class="sxs-lookup"><span data-stu-id="43836-104">The `LISTOFFIELDS` function returns a *Record list* value that is created based on the structure of the specified argument of the *Enumeration* or *Container (record)* type.</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="565a4-105">بناء الجملة 1</span><span class="sxs-lookup"><span data-stu-id="565a4-105">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="43836-105">بناء الجملة 1</span><span class="sxs-lookup"><span data-stu-id="43836-105">Syntax 1</span></span>
 
 ```vb
 LISTOFFIELDS (path)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="565a4-106">بناء الجملة 2</span><span class="sxs-lookup"><span data-stu-id="565a4-106">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="43836-106">بناء الجملة 2</span><span class="sxs-lookup"><span data-stu-id="43836-106">Syntax 2</span></span>
 
 ```vb
 LISTOFFIELDS (path, language)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="565a4-107">الوسائط</span><span class="sxs-lookup"><span data-stu-id="565a4-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="43836-107">الوسائط</span><span class="sxs-lookup"><span data-stu-id="43836-107">Arguments</span></span>
 
-<span data-ttu-id="565a4-108">`path`: مرجع مصدر البيانات</span><span class="sxs-lookup"><span data-stu-id="565a4-108">`path`: Data source reference</span></span>
+<span data-ttu-id="43836-108">`path`: مرجع مصدر البيانات</span><span class="sxs-lookup"><span data-stu-id="43836-108">`path`: Data source reference</span></span>
 
-<span data-ttu-id="565a4-109">مسار مرجع صالح لمصدر بيانات أحد أنواع البيانات التالية:</span><span class="sxs-lookup"><span data-stu-id="565a4-109">The valid reference path of a data source of one of the following data types:</span></span>
+<span data-ttu-id="43836-109">مسار مرجع صالح لمصدر بيانات أحد أنواع البيانات التالية:</span><span class="sxs-lookup"><span data-stu-id="43836-109">The valid reference path of a data source of one of the following data types:</span></span>
 
-- <span data-ttu-id="565a4-110">تعداد النموذج</span><span class="sxs-lookup"><span data-stu-id="565a4-110">Model enumeration</span></span>
-- <span data-ttu-id="565a4-111">تعداد التنسيق</span><span class="sxs-lookup"><span data-stu-id="565a4-111">Format enumeration</span></span>
-- <span data-ttu-id="565a4-112">تعدادات التطبيق</span><span class="sxs-lookup"><span data-stu-id="565a4-112">Application enumeration</span></span>
-- <span data-ttu-id="565a4-113">حاوية (سجل)</span><span class="sxs-lookup"><span data-stu-id="565a4-113">Container (record)</span></span>
+- <span data-ttu-id="43836-110">تعداد النموذج</span><span class="sxs-lookup"><span data-stu-id="43836-110">Model enumeration</span></span>
+- <span data-ttu-id="43836-111">تعداد التنسيق</span><span class="sxs-lookup"><span data-stu-id="43836-111">Format enumeration</span></span>
+- <span data-ttu-id="43836-112">تعدادات التطبيق</span><span class="sxs-lookup"><span data-stu-id="43836-112">Application enumeration</span></span>
+- <span data-ttu-id="43836-113">حاوية (سجل)</span><span class="sxs-lookup"><span data-stu-id="43836-113">Container (record)</span></span>
 
-<span data-ttu-id="565a4-114">`language`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="565a4-114">`language`: *String*</span></span>
+<span data-ttu-id="43836-114">`language`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="43836-114">`language`: *String*</span></span>
 
-<span data-ttu-id="565a4-115">النص الذي يمثل رمز لغة.</span><span class="sxs-lookup"><span data-stu-id="565a4-115">Text that represents a language code.</span></span>
+<span data-ttu-id="43836-115">النص الذي يمثل رمز لغة.</span><span class="sxs-lookup"><span data-stu-id="43836-115">Text that represents a language code.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="565a4-116">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="565a4-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="43836-116">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="43836-116">Return values</span></span>
 
-<span data-ttu-id="565a4-117">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="565a4-117">*Record list*</span></span>
+<span data-ttu-id="43836-117">*قائمة السجلات*</span><span class="sxs-lookup"><span data-stu-id="43836-117">*Record list*</span></span>
 
-<span data-ttu-id="565a4-118">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="565a4-118">The resulting list of records.</span></span>
+<span data-ttu-id="43836-118">قائمة السجلات الناتجة.</span><span class="sxs-lookup"><span data-stu-id="43836-118">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="565a4-119">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="565a4-119">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="43836-119">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="43836-119">Usage notes</span></span>
 
-<span data-ttu-id="565a4-120">تتكون القائمة التي تم إنشاؤها من السجلات التي تحتوي على الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="565a4-120">The list that is created consists of records that have the following fields:</span></span>
+<span data-ttu-id="43836-120">تتكون القائمة التي تم إنشاؤها من السجلات التي تحتوي على الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="43836-120">The list that is created consists of records that have the following fields:</span></span>
 
-- <span data-ttu-id="565a4-121">**الاسم** (نوع بيانات *السلسلة* )</span><span class="sxs-lookup"><span data-stu-id="565a4-121">**Name** (*String* data type)</span></span>
-- <span data-ttu-id="565a4-122">**التسمية** (نوع بيانات *السلسلة* )</span><span class="sxs-lookup"><span data-stu-id="565a4-122">**Label** (*String* data type)</span></span>
-- <span data-ttu-id="565a4-123">**الوصف** (نوع بيانات *السلسلة* )</span><span class="sxs-lookup"><span data-stu-id="565a4-123">**Description** (*String* data type)</span></span>
-- <span data-ttu-id="565a4-124">**IsTranslated** (نوع البيانات *منطقي* )</span><span class="sxs-lookup"><span data-stu-id="565a4-124">**IsTranslated** (*Boolean* data type)</span></span>
+- <span data-ttu-id="43836-121">**الاسم** (نوع بيانات *السلسلة* )</span><span class="sxs-lookup"><span data-stu-id="43836-121">**Name** (*String* data type)</span></span>
+- <span data-ttu-id="43836-122">**التسمية** (نوع بيانات *السلسلة* )</span><span class="sxs-lookup"><span data-stu-id="43836-122">**Label** (*String* data type)</span></span>
+- <span data-ttu-id="43836-123">**الوصف** (نوع بيانات *السلسلة* )</span><span class="sxs-lookup"><span data-stu-id="43836-123">**Description** (*String* data type)</span></span>
+- <span data-ttu-id="43836-124">**IsTranslated** (نوع البيانات *منطقي* )</span><span class="sxs-lookup"><span data-stu-id="43836-124">**IsTranslated** (*Boolean* data type)</span></span>
 
-<span data-ttu-id="565a4-125">إذا كانت الوسيطة `path` تشير إلى مصدر بيانات من النوع *الحاوية (سجل)* ، لكل حقل من سجل الحاوية المشار إليه، تتم إضافة سجل جديد إلى القائمة التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="565a4-125">If the `path` argument refers to a data source of the *Container (Record)* type, for every field of the referenced container record, a new record is added to the list that is created.</span></span> <span data-ttu-id="565a4-126">بالنسبة لكل سجل يتم إنشاؤه، يُرجع حقل **الاسم** اسم حقل سجل الحاوية المشار إليه الذي تم إنشاء السجل الحالي له.</span><span class="sxs-lookup"><span data-stu-id="565a4-126">For every record that is created, the **Name** field returns the name of the field of the referenced container record that the current record was created for.</span></span>
+<span data-ttu-id="43836-125">إذا كانت الوسيطة `path` تشير إلى مصدر بيانات من النوع *الحاوية (سجل)* ، لكل حقل من سجل الحاوية المشار إليه، تتم إضافة سجل جديد إلى القائمة التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="43836-125">If the `path` argument refers to a data source of the *Container (Record)* type, for every field of the referenced container record, a new record is added to the list that is created.</span></span> <span data-ttu-id="43836-126">بالنسبة لكل سجل يتم إنشاؤه، يُرجع حقل **الاسم** اسم حقل سجل الحاوية المشار إليه الذي تم إنشاء السجل الحالي له.</span><span class="sxs-lookup"><span data-stu-id="43836-126">For every record that is created, the **Name** field returns the name of the field of the referenced container record that the current record was created for.</span></span>
 
-<span data-ttu-id="565a4-127">إذا كانت الوسيطة `path` تشير إلى مصدر بيانات واحد من أنواع  *التعداد*، لكل قيمة تعداد من التعداد المشار إليه، تتم إضافة سجل جديد إلى القائمة التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="565a4-127">If the `path` argument refers to a data source of one of the *Enumeration* types, for every enumeration value of the referenced enumeration, a new record is added to the list that is created.</span></span> <span data-ttu-id="565a4-128">بالنسبة لكل سجل تم إنشاؤه، يُرجع حقل **الاسم** قيمة التعداد المشار إليه الذي تم إنشاء السجل الحالي له، ويرجع حقل **الوصف** وصف التعداد، ويُرجع حقل **التسمية** تسمية هذا التعداد.</span><span class="sxs-lookup"><span data-stu-id="565a4-128">For every record that is created, the **Name** field returns the value of the referenced enumeration that the current record was created for, the **Description** field returns the description of that enumeration, and the **Label** field returns the label of that enumeration.</span></span>
+<span data-ttu-id="43836-127">إذا كانت الوسيطة `path` تشير إلى مصدر بيانات واحد من أنواع  *التعداد*، لكل قيمة تعداد من التعداد المشار إليه، تتم إضافة سجل جديد إلى القائمة التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="43836-127">If the `path` argument refers to a data source of one of the *Enumeration* types, for every enumeration value of the referenced enumeration, a new record is added to the list that is created.</span></span> <span data-ttu-id="43836-128">بالنسبة لكل سجل تم إنشاؤه، يُرجع حقل **الاسم** قيمة التعداد المشار إليه الذي تم إنشاء السجل الحالي له، ويرجع حقل **الوصف** وصف التعداد، ويُرجع حقل **التسمية** تسمية هذا التعداد.</span><span class="sxs-lookup"><span data-stu-id="43836-128">For every record that is created, the **Name** field returns the value of the referenced enumeration that the current record was created for, the **Description** field returns the description of that enumeration, and the **Label** field returns the label of that enumeration.</span></span>
 
-<span data-ttu-id="565a4-129">في وقت التشغيل، عند استخدام بناء الجملة 1، يجب أن تُرجع الحقول **التسمية** و **الوصف** القيم التي تستند إلى إعدادات اللغة الخاصة بتنسيق التقارير الإلكترونية (ER) قيد التشغيل.</span><span class="sxs-lookup"><span data-stu-id="565a4-129">At runtime, when syntax 1 is used, the **Label** and **Description** fields must return values that are based on the language settings of the Electronic reporting (ER) format that is running:</span></span>
+<span data-ttu-id="43836-129">في وقت التشغيل، عند استخدام بناء الجملة 1، يجب أن تُرجع الحقول **التسمية** و **الوصف** القيم التي تستند إلى إعدادات اللغة الخاصة بتنسيق التقارير الإلكترونية (ER) قيد التشغيل.</span><span class="sxs-lookup"><span data-stu-id="43836-129">At runtime, when syntax 1 is used, the **Label** and **Description** fields must return values that are based on the language settings of the Electronic reporting (ER) format that is running:</span></span>
 
-- <span data-ttu-id="565a4-130">إذا كانت التسميات والأوصاف الخاصة باللغة المطلوبة متوفرة، تُرجع الحقول **التسمية** و **الوصف** القيم التي تستند إلى تلك اللغة، ويُرجع حقل **IsTranslated** **True**.</span><span class="sxs-lookup"><span data-stu-id="565a4-130">If the labels and descriptions for the requested language are available, the **Label** and **Description** fields return values that are based on that language, and the **IsTranslated** field returns **True**.</span></span>
-- <span data-ttu-id="565a4-131">إذا لم تكن التسميات والأوصاف للغة المطلوبة متاحة، تُرجع حقول **التسمية** و **الوصف** القيم التي تستند إلى لغة **EN-US** الافتراضية، ويُرجع الحقل **IsTranslated** **False**.</span><span class="sxs-lookup"><span data-stu-id="565a4-131">If the labels and descriptions for the requested language aren't available, the **Label** and **Description** fields return values that are based on the default **EN-US** language, and the **IsTranslated** field returns **False**.</span></span>
+- <span data-ttu-id="43836-130">إذا كانت التسميات والأوصاف الخاصة باللغة المطلوبة متوفرة، تُرجع الحقول **التسمية** و **الوصف** القيم التي تستند إلى تلك اللغة، ويُرجع حقل **IsTranslated** **True**.</span><span class="sxs-lookup"><span data-stu-id="43836-130">If the labels and descriptions for the requested language are available, the **Label** and **Description** fields return values that are based on that language, and the **IsTranslated** field returns **True**.</span></span>
+- <span data-ttu-id="43836-131">إذا لم تكن التسميات والأوصاف للغة المطلوبة متاحة، تُرجع حقول **التسمية** و **الوصف** القيم التي تستند إلى لغة **EN-US** الافتراضية، ويُرجع الحقل **IsTranslated** **False**.</span><span class="sxs-lookup"><span data-stu-id="43836-131">If the labels and descriptions for the requested language aren't available, the **Label** and **Description** fields return values that are based on the default **EN-US** language, and the **IsTranslated** field returns **False**.</span></span>
 
-<span data-ttu-id="565a4-132">في وقت التشغيل، عند استخدام بناء الجملة 2، يجب أن تُرجع الحقول **التسمية** و **الوصف** القيم التي تستند إلى اللغة المُحددة كوسيطة ثانية للوظيفة التي تم استدعاءها.</span><span class="sxs-lookup"><span data-stu-id="565a4-132">At runtime, when syntax 2 is used, the **Label** and **Description** fields must return values that are based on the language that is defined as the second argument of the called function:</span></span>
+<span data-ttu-id="43836-132">في وقت التشغيل، عند استخدام بناء الجملة 2، يجب أن تُرجع الحقول **التسمية** و **الوصف** القيم التي تستند إلى اللغة المُحددة كوسيطة ثانية للوظيفة التي تم استدعاءها.</span><span class="sxs-lookup"><span data-stu-id="43836-132">At runtime, when syntax 2 is used, the **Label** and **Description** fields must return values that are based on the language that is defined as the second argument of the called function:</span></span>
 
-- <span data-ttu-id="565a4-133">إذا كانت التسميات والأوصاف الخاصة باللغة المطلوبة متوفرة، تُرجع الحقول **التسمية** و **الوصف** القيم التي تستند إلى تلك اللغة، ويُرجع حقل **IsTranslated** **True**.</span><span class="sxs-lookup"><span data-stu-id="565a4-133">If the labels and descriptions for the requested language are available, the **Label** and **Description** fields return values that are based on that language, and the **IsTranslated** field returns **True**.</span></span>
-- <span data-ttu-id="565a4-134">إذا لم تكن التسميات والأوصاف للغة المطلوبة متاحة، تُرجع حقول **التسمية** و **الوصف** القيم التي تستند إلى لغة **EN-US** ، ويُرجع الحقل **IsTranslated** **False**.</span><span class="sxs-lookup"><span data-stu-id="565a4-134">If the labels and descriptions for the requested language aren't available, the **Label** and **Description** fields return values that are based on the **EN-US** language, and the **IsTranslated** field returns **False**.</span></span>
+- <span data-ttu-id="43836-133">إذا كانت التسميات والأوصاف الخاصة باللغة المطلوبة متوفرة، تُرجع الحقول **التسمية** و **الوصف** القيم التي تستند إلى تلك اللغة، ويُرجع حقل **IsTranslated** **True**.</span><span class="sxs-lookup"><span data-stu-id="43836-133">If the labels and descriptions for the requested language are available, the **Label** and **Description** fields return values that are based on that language, and the **IsTranslated** field returns **True**.</span></span>
+- <span data-ttu-id="43836-134">إذا لم تكن التسميات والأوصاف للغة المطلوبة متاحة، تُرجع حقول **التسمية** و **الوصف** القيم التي تستند إلى لغة **EN-US** ، ويُرجع الحقل **IsTranslated** **False**.</span><span class="sxs-lookup"><span data-stu-id="43836-134">If the labels and descriptions for the requested language aren't available, the **Label** and **Description** fields return values that are based on the **EN-US** language, and the **IsTranslated** field returns **False**.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="565a4-135">مثال1</span><span class="sxs-lookup"><span data-stu-id="565a4-135">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="43836-135">مثال1</span><span class="sxs-lookup"><span data-stu-id="43836-135">Example 1</span></span>
 
-<span data-ttu-id="565a4-136">في الرسم التوضيحي التالي، يتم تقديم تعداد في نموذج بيانات التقارير الإلكترونية (ER).</span><span class="sxs-lookup"><span data-stu-id="565a4-136">In the following illustration, an enumeration is introduced in an ER data model.</span></span>
+<span data-ttu-id="43836-136">في الرسم التوضيحي التالي، يتم تقديم تعداد في نموذج بيانات التقارير الإلكترونية (ER).</span><span class="sxs-lookup"><span data-stu-id="43836-136">In the following illustration, an enumeration is introduced in an ER data model.</span></span>
 
 <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
 
-<span data-ttu-id="565a4-137">يبين الرسم التوضيحي التالي هذه التفاصيل:</span><span class="sxs-lookup"><span data-stu-id="565a4-137">The following illustration shows these details:</span></span>
+<span data-ttu-id="43836-137">يبين الرسم التوضيحي التالي هذه التفاصيل:</span><span class="sxs-lookup"><span data-stu-id="43836-137">The following illustration shows these details:</span></span>
 
-- <span data-ttu-id="565a4-138">يتم إدراج تعداد النموذج في تقرير كمصدر بيانات.</span><span class="sxs-lookup"><span data-stu-id="565a4-138">The model enumeration is inserted into a report as a data source.</span></span>
-- <span data-ttu-id="565a4-139">يستخدم تعبير التقارير الإلكترونية تعداد النموذج كمعلمة لوظيفة `LISTOFFIELDS`.</span><span class="sxs-lookup"><span data-stu-id="565a4-139">An ER expression uses the model enumeration as a parameter of the `LISTOFFIELDS` function.</span></span>
-- <span data-ttu-id="565a4-140">يتم إدراج مصدر بيانات نوع *قائمة السجلات* في تقرير باستخدام تعبير التقارير الإلكترونية الذي تم إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="565a4-140">A data source of the *Record list* type is inserted into a report by using the ER expression that is created.</span></span>
+- <span data-ttu-id="43836-138">يتم إدراج تعداد النموذج في تقرير كمصدر بيانات.</span><span class="sxs-lookup"><span data-stu-id="43836-138">The model enumeration is inserted into a report as a data source.</span></span>
+- <span data-ttu-id="43836-139">يستخدم تعبير التقارير الإلكترونية تعداد النموذج كمعلمة لوظيفة `LISTOFFIELDS`.</span><span class="sxs-lookup"><span data-stu-id="43836-139">An ER expression uses the model enumeration as a parameter of the `LISTOFFIELDS` function.</span></span>
+- <span data-ttu-id="43836-140">يتم إدراج مصدر بيانات نوع *قائمة السجلات* في تقرير باستخدام تعبير التقارير الإلكترونية الذي تم إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="43836-140">A data source of the *Record list* type is inserted into a report by using the ER expression that is created.</span></span>
 
 <a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="Format" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a>
 
-<span data-ttu-id="565a4-141">يوضح المثال التالي عناصر تنسيق التقارير الإلكترونية المرتبطة بمصدر البيانات من نوع *قائمة السجلات* الذي تم إنشاؤها باستخدام وظيفة `LISTOFFIELDS`.</span><span class="sxs-lookup"><span data-stu-id="565a4-141">The following example shows the ER format elements that are bound to the data source of the *Record list* type that was created by using the `LISTOFFIELDS` function.</span></span>
+<span data-ttu-id="43836-141">يوضح المثال التالي عناصر تنسيق التقارير الإلكترونية المرتبطة بمصدر البيانات من نوع *قائمة السجلات* الذي تم إنشاؤها باستخدام وظيفة `LISTOFFIELDS`.</span><span class="sxs-lookup"><span data-stu-id="43836-141">The following example shows the ER format elements that are bound to the data source of the *Record list* type that was created by using the `LISTOFFIELDS` function.</span></span>
 
 <a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
 
-<span data-ttu-id="565a4-142">يعرض الرسم التوضيحي التالي النتيجة عند تشغيل التنسيق المصمم.</span><span class="sxs-lookup"><span data-stu-id="565a4-142">The following illustration shows the result when the designed format is run.</span></span>
+<span data-ttu-id="43836-142">يعرض الرسم التوضيحي التالي النتيجة عند تشغيل التنسيق المصمم.</span><span class="sxs-lookup"><span data-stu-id="43836-142">The following illustration shows the result when the designed format is run.</span></span>
 
 <a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a>
 
 > [!NOTE] 
-> <span data-ttu-id="565a4-143">تتم تعبئة النص المترجم للتسميات والأوصاف في إخراج تنسيق التقارير الإلكترونية وفقًا لإعدادات اللغة التي تم تكوينها لعناصر تنسيق **الملف** و **المجلد** الأصلي.</span><span class="sxs-lookup"><span data-stu-id="565a4-143">Based on the language settings of the parent **FILE** and **FOLDER** format elements, translated text for labels and descriptions is entered in the output of the ER format.</span></span>
+> <span data-ttu-id="43836-143">تتم تعبئة النص المترجم للتسميات والأوصاف في إخراج تنسيق التقارير الإلكترونية وفقًا لإعدادات اللغة التي تم تكوينها لعناصر تنسيق **الملف** و **المجلد** الأصلي.</span><span class="sxs-lookup"><span data-stu-id="43836-143">Based on the language settings of the parent **FILE** and **FOLDER** format elements, translated text for labels and descriptions is entered in the output of the ER format.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="565a4-144">مثال2</span><span class="sxs-lookup"><span data-stu-id="565a4-144">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="43836-144">مثال2</span><span class="sxs-lookup"><span data-stu-id="43836-144">Example 2</span></span>
 
-<span data-ttu-id="565a4-145">سوف تستخدم نوع مصدر البيانات *الحقل المحسوب* لتكوين مصادر البيانات **enumType\_de** و **enumType\_ deCH** لتعداد نموذج بيانات **enumType**: </span><span class="sxs-lookup"><span data-stu-id="565a4-145">You use the *Calculated field* data source type to configure **enumType\_de** and **enumType\_deCH** data sources for the **enumType** data model enumeration:</span></span>
+<span data-ttu-id="43836-145">سوف تستخدم نوع مصدر البيانات *الحقل المحسوب* لتكوين مصادر البيانات **enumType\_de** و **enumType\_ deCH** لتعداد نموذج بيانات **enumType**: </span><span class="sxs-lookup"><span data-stu-id="43836-145">You use the *Calculated field* data source type to configure **enumType\_de** and **enumType\_deCH** data sources for the **enumType** data model enumeration:</span></span>
 
-- <span data-ttu-id="565a4-146">**enumType\_de** = `LISTOFFIELDS (enumType, "de")`</span><span class="sxs-lookup"><span data-stu-id="565a4-146">**enumType\_de** = `LISTOFFIELDS (enumType, "de")`</span></span>
-- <span data-ttu-id="565a4-147">**enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`</span><span class="sxs-lookup"><span data-stu-id="565a4-147">**enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`</span></span>
+- <span data-ttu-id="43836-146">**enumType\_de** = `LISTOFFIELDS (enumType, "de")`</span><span class="sxs-lookup"><span data-stu-id="43836-146">**enumType\_de** = `LISTOFFIELDS (enumType, "de")`</span></span>
+- <span data-ttu-id="43836-147">**enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`</span><span class="sxs-lookup"><span data-stu-id="43836-147">**enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`</span></span>
 
-<span data-ttu-id="565a4-148">في هذه الحالة، يمكنك استخدام التعبير التالي للحصول على تسمية لقيمة التعداد بالألمانية السويسرية، في حالة توفر الترجمة.</span><span class="sxs-lookup"><span data-stu-id="565a4-148">In this case, you can use the following expression to get the label of the enumeration value in Swiss German, if that translation is available.</span></span> <span data-ttu-id="565a4-149">إذا لم تتوفر ترجمة اللغة الألمانية (سويسرا)، فستكون التسمية باللغة الألمانية.</span><span class="sxs-lookup"><span data-stu-id="565a4-149">If the Swiss German translation isn't available, the label is in German.</span></span>
+<span data-ttu-id="43836-148">في هذه الحالة، يمكنك استخدام التعبير التالي للحصول على تسمية لقيمة التعداد بالألمانية السويسرية، في حالة توفر الترجمة.</span><span class="sxs-lookup"><span data-stu-id="43836-148">In this case, you can use the following expression to get the label of the enumeration value in Swiss German, if that translation is available.</span></span> <span data-ttu-id="43836-149">إذا لم تتوفر ترجمة اللغة الألمانية (سويسرا)، فستكون التسمية باللغة الألمانية.</span><span class="sxs-lookup"><span data-stu-id="43836-149">If the Swiss German translation isn't available, the label is in German.</span></span>
 
 ```vb
 IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 ```
 
-## <a name="additional-resources"></a><span data-ttu-id="565a4-150">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="565a4-150">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="43836-150">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="43836-150">Additional resources</span></span>
 
-[<span data-ttu-id="565a4-151">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="565a4-151">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="43836-151">دالات القائمة</span><span class="sxs-lookup"><span data-stu-id="43836-151">List functions</span></span>](er-functions-category-list.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
