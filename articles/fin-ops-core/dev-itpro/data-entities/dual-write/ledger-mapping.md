@@ -2,7 +2,6 @@
 title: دفتر الأستاذ المتكامل
 description: يوضح هذا الموضوع تكامل بيانات دفتر الأستاذ بين Finance and Operations وتطبيقات Dynamics 365 الأخرى باستخدام Dataverse.
 author: robinarh
-manager: AnnBe
 ms.date: 09/06/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f8095b0a755e40e5665d951d33ea4ce60e749165
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5fedcbcd8db2692214ea66b2fbab9f7381e0a622
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567686"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748507"
 ---
 # <a name="integrated-ledger"></a>دفتر الأستاذ المتكامل
 

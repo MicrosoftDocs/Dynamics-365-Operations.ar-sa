@@ -2,7 +2,6 @@
 title: تحديد وحل التعارضات في الفصل بين المهام
 description: يشرح هذا الموضوع كيفية التعرّف على التعارضات وحلها في الفصل بين المهام.
 author: peakerbl
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: daf303a6bc3115363b27a6ebf7cc1832fdb6229d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0ebd59c7018a50e01253697d792698664a981566
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571019"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745803"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>تحديد وحل التعارضات في الفصل بين المهام
 

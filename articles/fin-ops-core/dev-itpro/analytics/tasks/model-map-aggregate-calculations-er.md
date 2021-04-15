@@ -2,7 +2,6 @@
 title: استخدام تكوينات تعيين النماذج للحسابات المجمعة على مستوى قاعدة البيانات
 description: يشرح هذا الموضوع كيفية تصميم تكوين جديد لتعيين نموذج التقارير الإلكترونية، واستخدم وظائف التقارير الإلكترونية المدمجة لإجراء حسابات مجمعة فعالة.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e911df974f470fe336b45566f3d9c64ffd31ef2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 01f48596c30127976d915811ffa8412dcc9b2593
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562575"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745365"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>استخدام تكوينات تعيين النماذج للحسابات المجمعة على مستوى قاعدة البيانات
 
