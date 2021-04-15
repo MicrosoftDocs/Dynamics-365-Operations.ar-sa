@@ -2,11 +2,9 @@
 title: إنشاء مجموعة عقد الإيجار
 description: يصف هذا الموضوع كيفية إعداد مجموعات عقد الإيجار. مجموعات عقد الإيجار مطلوبة لإنشاء عقود إيجار جديدة.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e8ad226e87776615d9c19a239e0fb90b648d9c49
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5d5efb02c95d9368fbc178cfd9bcd7ce088d1c66
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210447"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816042"
 ---
 # <a name="create-a-lease-group"></a>إنشاء مجموعة عقد الإيجار
 
