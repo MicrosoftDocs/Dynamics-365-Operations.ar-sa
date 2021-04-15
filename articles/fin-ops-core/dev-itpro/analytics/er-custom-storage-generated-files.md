@@ -2,7 +2,6 @@
 title: تحديد مواقع مساحة تخزين مخصصة للمستندات المُنشأة
 description: يشرح هذا الموضوع كيفية توسيع قائمة مواقع التخزين للمستندات التي تم إنشاؤها بواسطة تنسيقات التقارير الإلكترونية (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
@@ -13,53 +12,53 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 146e7fb5fefbecabc99c2978b52eb0e782da0322
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562204"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753686"
 ---
-# <a name="specify-custom-storage-locations-for-generated-documents"></a><span data-ttu-id="832a7-103">تحديد مواقع مساحة تخزين مخصصة للمستندات المُنشأة</span><span class="sxs-lookup"><span data-stu-id="832a7-103">Specify custom storage locations for generated documents</span></span>
+# <a name="specify-custom-storage-locations-for-generated-documents"></a><span data-ttu-id="843d5-103">تحديد مواقع مساحة تخزين مخصصة للمستندات المُنشأة</span><span class="sxs-lookup"><span data-stu-id="843d5-103">Specify custom storage locations for generated documents</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="832a7-104">تسمح لك واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية بتوسيع قائمة مواقع التخزين التي تقوم تنسيقات التقارير الإلكترونية بإنشائها.</span><span class="sxs-lookup"><span data-stu-id="832a7-104">The application programming interface (API) of the Electronic reporting (ER) framework lets you extend the list of storage locations for documents that ER formats generate.</span></span> <span data-ttu-id="832a7-105">يشرح هذا الموضوع كيفية إضافة موقع تخزين مخصص للمستندات التي تم إنشاؤها عن طريق تفويض مهمة إنشاء وجهات إعداد التقارير الإلكترونية إلى المصنع الوجهة الافتراضي ثم تنفيذ فئة مخصصة لها منطق الوجهة الخاص بها.</span><span class="sxs-lookup"><span data-stu-id="832a7-105">This topic explains how to add a custom storage location for generated documents by delegating the task of creating ER destinations to the default destination factory and then implementing a custom class that has its own destination logic.</span></span>
+<span data-ttu-id="843d5-104">تسمح لك واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية بتوسيع قائمة مواقع التخزين التي تقوم تنسيقات التقارير الإلكترونية بإنشائها.</span><span class="sxs-lookup"><span data-stu-id="843d5-104">The application programming interface (API) of the Electronic reporting (ER) framework lets you extend the list of storage locations for documents that ER formats generate.</span></span> <span data-ttu-id="843d5-105">يشرح هذا الموضوع كيفية إضافة موقع تخزين مخصص للمستندات التي تم إنشاؤها عن طريق تفويض مهمة إنشاء وجهات إعداد التقارير الإلكترونية إلى المصنع الوجهة الافتراضي ثم تنفيذ فئة مخصصة لها منطق الوجهة الخاص بها.</span><span class="sxs-lookup"><span data-stu-id="843d5-105">This topic explains how to add a custom storage location for generated documents by delegating the task of creating ER destinations to the default destination factory and then implementing a custom class that has its own destination logic.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="832a7-106">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="832a7-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="843d5-106">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="843d5-106">Prerequisites</span></span>
 
-<span data-ttu-id="832a7-107">انشر طبولوجيا تدعم البناء المستمر.</span><span class="sxs-lookup"><span data-stu-id="832a7-107">Deploy a topology that supports continuous build.</span></span> <span data-ttu-id="832a7-108">لمزيد من المعلومات ، راجع [نشر مخططات تدعم البناء المستمر والتنفيذ التلقائي للاختبار‬ات](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).</span><span class="sxs-lookup"><span data-stu-id="832a7-108">For more information, see [Deploy topologies that support continuous build and test automation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).</span></span> <span data-ttu-id="832a7-109">يجب أن يكون لديك حق الوصول إلى هذه الطبولوجيا لأحد الأدوار التالية:</span><span class="sxs-lookup"><span data-stu-id="832a7-109">You must have access to this topology for one of the following roles:</span></span>
+<span data-ttu-id="843d5-107">انشر طبولوجيا تدعم البناء المستمر.</span><span class="sxs-lookup"><span data-stu-id="843d5-107">Deploy a topology that supports continuous build.</span></span> <span data-ttu-id="843d5-108">لمزيد من المعلومات ، راجع [نشر مخططات تدعم البناء المستمر والتنفيذ التلقائي للاختبار‬ات](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).</span><span class="sxs-lookup"><span data-stu-id="843d5-108">For more information, see [Deploy topologies that support continuous build and test automation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).</span></span> <span data-ttu-id="843d5-109">يجب أن يكون لديك حق الوصول إلى هذه الطبولوجيا لأحد الأدوار التالية:</span><span class="sxs-lookup"><span data-stu-id="843d5-109">You must have access to this topology for one of the following roles:</span></span>
 
-- <span data-ttu-id="832a7-110">مطور إعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="832a7-110">Electronic reporting developer</span></span>
-- <span data-ttu-id="832a7-111">مستشار وظيفي لإعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="832a7-111">Electronic reporting functional consultant</span></span>
-- <span data-ttu-id="832a7-112">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="832a7-112">System administrator</span></span>
+- <span data-ttu-id="843d5-110">مطور إعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="843d5-110">Electronic reporting developer</span></span>
+- <span data-ttu-id="843d5-111">مستشار وظيفي لإعداد التقارير الإلكتروني</span><span class="sxs-lookup"><span data-stu-id="843d5-111">Electronic reporting functional consultant</span></span>
+- <span data-ttu-id="843d5-112">مسؤول النظام</span><span class="sxs-lookup"><span data-stu-id="843d5-112">System administrator</span></span>
 
-<span data-ttu-id="832a7-113">يجب أن يكون لديك أيضًأ حق الوصول إلى بيئة التطوير لهذا المخطط.</span><span class="sxs-lookup"><span data-stu-id="832a7-113">You must also have access to the development environment for this topology.</span></span>
+<span data-ttu-id="843d5-113">يجب أن يكون لديك أيضًأ حق الوصول إلى بيئة التطوير لهذا المخطط.</span><span class="sxs-lookup"><span data-stu-id="843d5-113">You must also have access to the development environment for this topology.</span></span>
 
-<span data-ttu-id="832a7-114">يمكن إكمال جميع المهام الموجودة في هذا الموضوع في شركة **USMF**.</span><span class="sxs-lookup"><span data-stu-id="832a7-114">All the tasks in this topic can be completed in the **USMF** company.</span></span>
+<span data-ttu-id="843d5-114">يمكن إكمال جميع المهام الموجودة في هذا الموضوع في شركة **USMF**.</span><span class="sxs-lookup"><span data-stu-id="843d5-114">All the tasks in this topic can be completed in the **USMF** company.</span></span>
 
-## <a name="import-the-fixed-asset-roll-forward-er-format"></a><span data-ttu-id="832a7-115">استيراد تنسيق إعداد التقارير الإلكترونية لسجل نشاط الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="832a7-115">Import the Fixed asset roll forward ER format</span></span>
+## <a name="import-the-fixed-asset-roll-forward-er-format"></a><span data-ttu-id="843d5-115">استيراد تنسيق إعداد التقارير الإلكترونية لسجل نشاط الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="843d5-115">Import the Fixed asset roll forward ER format</span></span>
 
-<span data-ttu-id="832a7-116">لإنشاء المستندات التي تخطط لإضافة موقع تخزين مخصص لها، [استورد](er-download-configurations-global-repo.md) تكوين تنسيق التقارير الإلكترونية لـ **سجل نشاط الأصول الثابتة‬** في الطبولوجيا الحالية.</span><span class="sxs-lookup"><span data-stu-id="832a7-116">To generate the documents that you plan to add a custom storage location for, [import](er-download-configurations-global-repo.md) the **Fixed asset roll forward** ER format configuration into the current topology.</span></span>
+<span data-ttu-id="843d5-116">لإنشاء المستندات التي تخطط لإضافة موقع تخزين مخصص لها، [استورد](er-download-configurations-global-repo.md) تكوين تنسيق التقارير الإلكترونية لـ **سجل نشاط الأصول الثابتة‬** في الطبولوجيا الحالية.</span><span class="sxs-lookup"><span data-stu-id="843d5-116">To generate the documents that you plan to add a custom storage location for, [import](er-download-configurations-global-repo.md) the **Fixed asset roll forward** ER format configuration into the current topology.</span></span>
 
 ![صفحة مستودع التكوين](./media/er-custom-storage-generated-files-import-format.png)
 
-## <a name="run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="832a7-118">تشغيل تقرير سجل نشاط الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="832a7-118">Run the Fixed asset roll forward report</span></span>
+## <a name="run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="843d5-118">تشغيل تقرير سجل نشاط الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="843d5-118">Run the Fixed asset roll forward report</span></span>
 
-1. <span data-ttu-id="832a7-119">انتقل إلى **الأصول الثابتة** \> **الاستعلامات والتقارير** \> **تقارير الحركة** \> **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="832a7-119">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
-2. <span data-ttu-id="832a7-120">في حقل **من تاريخ**، أدخل **1/1/2017**‏ (1 يناير 2017).</span><span class="sxs-lookup"><span data-stu-id="832a7-120">In the **From date** field, enter **1/1/2017** (January 1, 2017).</span></span>
-3. <span data-ttu-id="832a7-121">في حقل **إلى تاريخ**، أدخل **1/31/2017**‏ (31 يناير 2017).</span><span class="sxs-lookup"><span data-stu-id="832a7-121">In the **To date** field, enter **1/31/2017** (January 31, 2017).</span></span>
-4. <span data-ttu-id="832a7-122">في **حقل العملة**، حدد **عملة المحاسبة**.</span><span class="sxs-lookup"><span data-stu-id="832a7-122">In the **Currency field**, select **Accounting currency**.</span></span>
-5. <span data-ttu-id="832a7-123">في حقل **تعيين التنسيق**، حدد **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="832a7-123">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
-6. <span data-ttu-id="832a7-124">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="832a7-124">Select **OK**.</span></span>
+1. <span data-ttu-id="843d5-119">انتقل إلى **الأصول الثابتة** \> **الاستعلامات والتقارير** \> **تقارير الحركة** \> **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="843d5-119">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
+2. <span data-ttu-id="843d5-120">في حقل **من تاريخ**، أدخل **1/1/2017**‏ (1 يناير 2017).</span><span class="sxs-lookup"><span data-stu-id="843d5-120">In the **From date** field, enter **1/1/2017** (January 1, 2017).</span></span>
+3. <span data-ttu-id="843d5-121">في حقل **إلى تاريخ**، أدخل **1/31/2017**‏ (31 يناير 2017).</span><span class="sxs-lookup"><span data-stu-id="843d5-121">In the **To date** field, enter **1/31/2017** (January 31, 2017).</span></span>
+4. <span data-ttu-id="843d5-122">في **حقل العملة**، حدد **عملة المحاسبة**.</span><span class="sxs-lookup"><span data-stu-id="843d5-122">In the **Currency field**, select **Accounting currency**.</span></span>
+5. <span data-ttu-id="843d5-123">في حقل **تعيين التنسيق**، حدد **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="843d5-123">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
+6. <span data-ttu-id="843d5-124">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="843d5-124">Select **OK**.</span></span>
 
 ![مربع حوار وقت التشغيل الخاص بتقرير سجل نشاط الأصول الثابتة](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
-<span data-ttu-id="832a7-126">في Microsoft Excel، راجع المستند الصادر الذي تم إنشاؤه والمتوفر للتنزيل.</span><span class="sxs-lookup"><span data-stu-id="832a7-126">In Microsoft Excel, review the outbound document that is generated and available for download.</span></span> <span data-ttu-id="832a7-127">ويعد هذا السلوك هو [السلوك الافتراضي](electronic-reporting-destinations.md#default-behavior) لتنسيق التقارير الإلكترونية الذي لم يتم تكوين أي [وجهات](electronic-reporting-destinations.md) له، ويتم تشغيله في وضع تفاعلي.</span><span class="sxs-lookup"><span data-stu-id="832a7-127">This behavior is the [default behavior](electronic-reporting-destinations.md#default-behavior) for an ER format that no [destinations](electronic-reporting-destinations.md) are configured for, and that is running in interactive mode.</span></span>
+<span data-ttu-id="843d5-126">في Microsoft Excel، راجع المستند الصادر الذي تم إنشاؤه والمتوفر للتنزيل.</span><span class="sxs-lookup"><span data-stu-id="843d5-126">In Microsoft Excel, review the outbound document that is generated and available for download.</span></span> <span data-ttu-id="843d5-127">ويعد هذا السلوك هو [السلوك الافتراضي](electronic-reporting-destinations.md#default-behavior) لتنسيق التقارير الإلكترونية الذي لم يتم تكوين أي [وجهات](electronic-reporting-destinations.md) له، ويتم تشغيله في وضع تفاعلي.</span><span class="sxs-lookup"><span data-stu-id="843d5-127">This behavior is the [default behavior](electronic-reporting-destinations.md#default-behavior) for an ER format that no [destinations](electronic-reporting-destinations.md) are configured for, and that is running in interactive mode.</span></span>
 
-## <a name="review-the-source-code"></a><span data-ttu-id="832a7-128">مراجعة كود المصدر</span><span class="sxs-lookup"><span data-stu-id="832a7-128">Review the source code</span></span>
+## <a name="review-the-source-code"></a><span data-ttu-id="843d5-128">مراجعة كود المصدر</span><span class="sxs-lookup"><span data-stu-id="843d5-128">Review the source code</span></span>
 
-<span data-ttu-id="832a7-129">راجع كود أسلوب `generateReportByGER()` لفئة `AssetRollForwardService`.</span><span class="sxs-lookup"><span data-stu-id="832a7-129">Review the code of the `generateReportByGER()` method of the `AssetRollForwardService` class.</span></span> <span data-ttu-id="832a7-130">لاحظ أنه يتم استخدام أسلوب `Run()` لاستدعاء إطار عمل التقارير الإلكترونية وإنشاء تقرير **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="832a7-130">Notice that the `Run()` method is used to call the ER framework and generate the **Fixed asset roll forward** report.</span></span>
+<span data-ttu-id="843d5-129">راجع كود أسلوب `generateReportByGER()` لفئة `AssetRollForwardService`.</span><span class="sxs-lookup"><span data-stu-id="843d5-129">Review the code of the `generateReportByGER()` method of the `AssetRollForwardService` class.</span></span> <span data-ttu-id="843d5-130">لاحظ أنه يتم استخدام أسلوب `Run()` لاستدعاء إطار عمل التقارير الإلكترونية وإنشاء تقرير **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="843d5-130">Notice that the `Run()` method is used to call the ER framework and generate the **Fixed asset roll forward** report.</span></span>
 
 ```xpp
 class AssetRollForwardService extends SysOperationServiceBase
@@ -113,12 +112,12 @@ class AssetRollForwardService extends SysOperationServiceBase
 }
 ```
 
-## <a name="modify-the-source-code"></a><span data-ttu-id="832a7-131">تعديل كود المصدر</span><span class="sxs-lookup"><span data-stu-id="832a7-131">Modify the source code</span></span>
+## <a name="modify-the-source-code"></a><span data-ttu-id="843d5-131">تعديل كود المصدر</span><span class="sxs-lookup"><span data-stu-id="843d5-131">Modify the source code</span></span>
 
-1. <span data-ttu-id="832a7-132">في مشروع Visual Studio الخاص بك، أضف فئة جديدة (`AssetRollForwardDestination` في هذا المثال)، واكتب الكود لتنفيذ الوجهة المخصصة الخاصة بك لتقارير **سجل نشاط الأصول الثابتة** التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="832a7-132">In your Visual Studio project, add a new class (`AssetRollForwardDestination` in this example), and write code to implement your custom destination for **Fixed asset roll forward** reports that are generated.</span></span>
+1. <span data-ttu-id="843d5-132">في مشروع Visual Studio الخاص بك، أضف فئة جديدة (`AssetRollForwardDestination` في هذا المثال)، واكتب الكود لتنفيذ الوجهة المخصصة الخاصة بك لتقارير **سجل نشاط الأصول الثابتة** التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="843d5-132">In your Visual Studio project, add a new class (`AssetRollForwardDestination` in this example), and write code to implement your custom destination for **Fixed asset roll forward** reports that are generated.</span></span>
 
-    - <span data-ttu-id="832a7-133">تم تصميم أسلوب `new()` للحصول علي كائن وجهة التقارير الإلكترونية الأصلية ومعلمة تستند إلى منطق التطبيق التي تحدد الموقع المخصص حيث يجب تخزين التقارير التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="832a7-133">The `new()` method is designed to get the original ER destination object and the application logic–driven parameter that specifies the custom location where generated reports should be stored.</span></span> <span data-ttu-id="832a7-134">في هذا المثال، يكون الموقع المخصص هو اسم مجلد لنظام الملفات المحلي للخادم الذي يقوم بتشغيل خدمة خادم كائنات التطبيق (AOS).</span><span class="sxs-lookup"><span data-stu-id="832a7-134">In this example, the custom location is the name of a folder of the local file system of the server that runs the Application Object Server (AOS) service.</span></span>
-    - <span data-ttu-id="832a7-135">تم تصميم أسلوب `saveFile()` لحفظ المستند الذي تم إنشاؤه في مجلد نظام الملفات المحلي الخاص بالخادم الذي يقوم بتشغيل خدمة AOS.</span><span class="sxs-lookup"><span data-stu-id="832a7-135">The `saveFile()` method is designed to save a generated document to a folder of the local file system of the server that runs the AOS service.</span></span>
+    - <span data-ttu-id="843d5-133">تم تصميم أسلوب `new()` للحصول علي كائن وجهة التقارير الإلكترونية الأصلية ومعلمة تستند إلى منطق التطبيق التي تحدد الموقع المخصص حيث يجب تخزين التقارير التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="843d5-133">The `new()` method is designed to get the original ER destination object and the application logic–driven parameter that specifies the custom location where generated reports should be stored.</span></span> <span data-ttu-id="843d5-134">في هذا المثال، يكون الموقع المخصص هو اسم مجلد لنظام الملفات المحلي للخادم الذي يقوم بتشغيل خدمة خادم كائنات التطبيق (AOS).</span><span class="sxs-lookup"><span data-stu-id="843d5-134">In this example, the custom location is the name of a folder of the local file system of the server that runs the Application Object Server (AOS) service.</span></span>
+    - <span data-ttu-id="843d5-135">تم تصميم أسلوب `saveFile()` لحفظ المستند الذي تم إنشاؤه في مجلد نظام الملفات المحلي الخاص بالخادم الذي يقوم بتشغيل خدمة AOS.</span><span class="sxs-lookup"><span data-stu-id="843d5-135">The `saveFile()` method is designed to save a generated document to a folder of the local file system of the server that runs the AOS service.</span></span>
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -176,7 +175,7 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-2. <span data-ttu-id="832a7-136">في مشروع Visual Studio الخاص بك، أضف فئة `AssetRollForwardDestinationFactory` جديدة (في هذا المثال)، واكتب التعليمات البرمجية لإعداد مصنع وجهة مخصص يقوم بتفويض إنشاء وجهة إلى مصنع الوجهة الافتراضي، ولتلخيص وجهة ملف بوجهتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="832a7-136">In your Visual Studio project, add a new class (`AssetRollForwardDestinationFactory` in this example), and write code to set up a custom destination factory that delegates the creation of a destination to the default destination factory, and to wrap a file destination with your own destination.</span></span>
+2. <span data-ttu-id="843d5-136">في مشروع Visual Studio الخاص بك، أضف فئة `AssetRollForwardDestinationFactory` جديدة (في هذا المثال)، واكتب التعليمات البرمجية لإعداد مصنع وجهة مخصص يقوم بتفويض إنشاء وجهة إلى مصنع الوجهة الافتراضي، ولتلخيص وجهة ملف بوجهتك الخاصة.</span><span class="sxs-lookup"><span data-stu-id="843d5-136">In your Visual Studio project, add a new class (`AssetRollForwardDestinationFactory` in this example), and write code to set up a custom destination factory that delegates the creation of a destination to the default destination factory, and to wrap a file destination with your own destination.</span></span>
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -253,10 +252,10 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-3. <span data-ttu-id="832a7-137">قم بتعديل فئة `AssetRollForwardService` الموجودة، واكتب التعليمات البرمجية لإعداد مصنع وجهة مخصص لمشغل التقارير.</span><span class="sxs-lookup"><span data-stu-id="832a7-137">Modify the existing `AssetRollForwardService` class, and write code to set up a custom destination factory for the report runner.</span></span> <span data-ttu-id="832a7-138">لاحظ أنه عند إنشاء مصنع وجهة مخصص، يتم تمرير المعلمة التي تعتمد على التطبيق وتحدد مجلدًا هدفًا.</span><span class="sxs-lookup"><span data-stu-id="832a7-138">Notice that when a custom destination factory is constructed, the application-driven parameter that specifies a target folder is passed.</span></span> <span data-ttu-id="832a7-139">بهذه الطريقة، يتم استخدام هذا المجلد المستهدف لتخزين الملفات التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="832a7-139">In this way, that target folder is used to store generated files.</span></span>
+3. <span data-ttu-id="843d5-137">قم بتعديل فئة `AssetRollForwardService` الموجودة، واكتب التعليمات البرمجية لإعداد مصنع وجهة مخصص لمشغل التقارير.</span><span class="sxs-lookup"><span data-stu-id="843d5-137">Modify the existing `AssetRollForwardService` class, and write code to set up a custom destination factory for the report runner.</span></span> <span data-ttu-id="843d5-138">لاحظ أنه عند إنشاء مصنع وجهة مخصص، يتم تمرير المعلمة التي تعتمد على التطبيق وتحدد مجلدًا هدفًا.</span><span class="sxs-lookup"><span data-stu-id="843d5-138">Notice that when a custom destination factory is constructed, the application-driven parameter that specifies a target folder is passed.</span></span> <span data-ttu-id="843d5-139">بهذه الطريقة، يتم استخدام هذا المجلد المستهدف لتخزين الملفات التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="843d5-139">In this way, that target folder is used to store generated files.</span></span>
 
     > [!NOTE] 
-    > <span data-ttu-id="832a7-140">تأكد من وجود المجلد المحدد ( **c:\\0** في هذا المثال) في نظام الملفات المحلي للخادم الذي يقوم بتشغيل خدمة AOS.</span><span class="sxs-lookup"><span data-stu-id="832a7-140">Make sure that the specified folder (**c:\\0** in this example) is present in the local file system of the server that runs the AOS service.</span></span> <span data-ttu-id="832a7-141">وبخلاف ذلك، سيتم طرح استثناء [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="832a7-141">Otherwise, a [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) exception will be thrown at runtime.</span></span>
+    > <span data-ttu-id="843d5-140">تأكد من وجود المجلد المحدد ( **c:\\0** في هذا المثال) في نظام الملفات المحلي للخادم الذي يقوم بتشغيل خدمة AOS.</span><span class="sxs-lookup"><span data-stu-id="843d5-140">Make sure that the specified folder (**c:\\0** in this example) is present in the local file system of the server that runs the AOS service.</span></span> <span data-ttu-id="843d5-141">وبخلاف ذلك، سيتم طرح استثناء [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="843d5-141">Otherwise, a [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) exception will be thrown at runtime.</span></span>
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -321,25 +320,25 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-4. <span data-ttu-id="832a7-142">أعد بناء مشروعك.</span><span class="sxs-lookup"><span data-stu-id="832a7-142">Rebuild your project.</span></span>
+4. <span data-ttu-id="843d5-142">أعد بناء مشروعك.</span><span class="sxs-lookup"><span data-stu-id="843d5-142">Rebuild your project.</span></span>
 
-## <a name="re-run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="832a7-143">إعادة تشغيل تقرير سجل نشاط الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="832a7-143">Re-run the Fixed asset roll forward report</span></span>
+## <a name="re-run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="843d5-143">إعادة تشغيل تقرير سجل نشاط الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="843d5-143">Re-run the Fixed asset roll forward report</span></span>
 
-1. <span data-ttu-id="832a7-144">انتقل إلى **الأصول الثابتة** \> **الاستعلامات والتقارير** \> **تقارير الحركة** \> **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="832a7-144">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
-2. <span data-ttu-id="832a7-145">في حقل **‏من التاريخ**، أدخل **1/1/2017**.</span><span class="sxs-lookup"><span data-stu-id="832a7-145">In the **From date** field, enter **1/1/2017**.</span></span>
-3. <span data-ttu-id="832a7-146">في حقل **‏إلى التاريخ**، أدخل **1/31/2017**.</span><span class="sxs-lookup"><span data-stu-id="832a7-146">In the **To date** field, enter **1/31/2017**.</span></span>
-4. <span data-ttu-id="832a7-147">في **حقل العملة**، حدد **عملة المحاسبة**.</span><span class="sxs-lookup"><span data-stu-id="832a7-147">In the **Currency field**, select **Accounting currency**.</span></span>
-5. <span data-ttu-id="832a7-148">في حقل **تعيين التنسيق**، حدد **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="832a7-148">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
-6. <span data-ttu-id="832a7-149">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="832a7-149">Select **OK**.</span></span>
-7. <span data-ttu-id="832a7-150">استعرض المجلد المحلي **C:\\0** للعثور على الملف المنُشأ.</span><span class="sxs-lookup"><span data-stu-id="832a7-150">Browse the local **C:\\0** folder to find the generated file.</span></span>
+1. <span data-ttu-id="843d5-144">انتقل إلى **الأصول الثابتة** \> **الاستعلامات والتقارير** \> **تقارير الحركة** \> **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="843d5-144">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
+2. <span data-ttu-id="843d5-145">في حقل **‏من التاريخ**، أدخل **1/1/2017**.</span><span class="sxs-lookup"><span data-stu-id="843d5-145">In the **From date** field, enter **1/1/2017**.</span></span>
+3. <span data-ttu-id="843d5-146">في حقل **‏إلى التاريخ**، أدخل **1/31/2017**.</span><span class="sxs-lookup"><span data-stu-id="843d5-146">In the **To date** field, enter **1/31/2017**.</span></span>
+4. <span data-ttu-id="843d5-147">في **حقل العملة**، حدد **عملة المحاسبة**.</span><span class="sxs-lookup"><span data-stu-id="843d5-147">In the **Currency field**, select **Accounting currency**.</span></span>
+5. <span data-ttu-id="843d5-148">في حقل **تعيين التنسيق**، حدد **سجل نشاط الأصول الثابتة**.</span><span class="sxs-lookup"><span data-stu-id="843d5-148">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
+6. <span data-ttu-id="843d5-149">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="843d5-149">Select **OK**.</span></span>
+7. <span data-ttu-id="843d5-150">استعرض المجلد المحلي **C:\\0** للعثور على الملف المنُشأ.</span><span class="sxs-lookup"><span data-stu-id="843d5-150">Browse the local **C:\\0** folder to find the generated file.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="832a7-151">بسبب عدم استخدام كائن `originDestination` في كائن `AssetRollForwardDestination` في هذا المثال، فسيتم تجاهل تكوينات تنسيق التقارير الإلكترونية [الوجهات](electronic-reporting-destinations.md) في وقت الشغيل.</span><span class="sxs-lookup"><span data-stu-id="832a7-151">Because the `originDestination` object isn't used in the `AssetRollForwardDestination` object in this example, the configurations for the ER format [destinations](electronic-reporting-destinations.md) will be ignored at runtime.</span></span>
+> <span data-ttu-id="843d5-151">بسبب عدم استخدام كائن `originDestination` في كائن `AssetRollForwardDestination` في هذا المثال، فسيتم تجاهل تكوينات تنسيق التقارير الإلكترونية [الوجهات](electronic-reporting-destinations.md) في وقت الشغيل.</span><span class="sxs-lookup"><span data-stu-id="843d5-151">Because the `originDestination` object isn't used in the `AssetRollForwardDestination` object in this example, the configurations for the ER format [destinations](electronic-reporting-destinations.md) will be ignored at runtime.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="832a7-152">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="832a7-152">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="843d5-152">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="843d5-152">Additional resources</span></span>
 
-- [<span data-ttu-id="832a7-153">وجهات إعداد التقارير الإلكترونية (ER)‬</span><span class="sxs-lookup"><span data-stu-id="832a7-153">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
-- [<span data-ttu-id="832a7-154">الصفحة الرئيسية لقابلية للتوسعة</span><span class="sxs-lookup"><span data-stu-id="832a7-154">Extensibility home page</span></span>](../extensibility/extensibility-home-page.md)
+- [<span data-ttu-id="843d5-153">وجهات إعداد التقارير الإلكترونية (ER)‬</span><span class="sxs-lookup"><span data-stu-id="843d5-153">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
+- [<span data-ttu-id="843d5-154">الصفحة الرئيسية لقابلية للتوسعة</span><span class="sxs-lookup"><span data-stu-id="843d5-154">Extensibility home page</span></span>](../extensibility/extensibility-home-page.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
