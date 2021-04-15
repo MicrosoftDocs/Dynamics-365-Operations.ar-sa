@@ -2,11 +2,9 @@
 title: تسوية دفع جزئي لمورد قبل تاريخ الخصم ودفعة نهائية بعد تاريخ الخصم
 description: ترشدك هذه المقالة من خلال سيناريو حيث يتم تسديد دفعات جزئية متعددة، بعضها ضمن فترة الخصم النقدي والبعض الآخر خارج فترة الخصم النقدي.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227318"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810332"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>تسوية دفع جزئي لمورد قبل تاريخ الخصم ودفعة نهائية بعد تاريخ الخصم
 
@@ -48,7 +46,7 @@ ms.locfileid: "5227318"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات المفتوحة**.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/09/2015 |
 | مبلغ الخصم النقدي         | -10.00    |
@@ -73,7 +71,7 @@ ms.locfileid: "5227318"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات**. ويمكن لفوزية أن ترى أنها حصلت على خصم 3.00 مسبقاً.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/09/2015 |
 | مبلغ الخصم النقدي         | 0.00      |
@@ -99,7 +97,7 @@ ms.locfileid: "5227318"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات**.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/09/2015 |
 | مبلغ الخصم النقدي         | 7.00      |

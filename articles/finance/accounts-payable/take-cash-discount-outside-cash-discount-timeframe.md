@@ -2,11 +2,9 @@
 title: الحصول على خصم نقدي خارج فترة الخصم النقدي
 description: توفر هذه المقالة سيناريوهين يظهران كيف يمكن أخذ خصم نقدي حتى لو تم إجراء الدفع خارج فترة الخصم النقدي.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df635e78fff1994b9a9e1abc99c67470852ad81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 47acacf9b1e9667e86fcdd5ce1ed62e79d8afec3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235851"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810212"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>الحصول على خصم نقدي خارج فترة الخصم النقدي
 
@@ -43,7 +41,7 @@ ms.locfileid: "5235851"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات**.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/12/2015 |
 | مبلغ الخصم النقدي         | -20.00    |
@@ -61,7 +59,7 @@ ms.locfileid: "5235851"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات المفتوحة**. مبلغ الخصم الذي يتم الحصول عليه هو 20.00، لأن مبلغ المراد تسويته للفاتورة هو المبلغ الافتراضي 1,980.00.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/12/2015 |
 | مبلغ الخصم النقدي         | -20.00    |
@@ -78,7 +76,7 @@ ms.locfileid: "5235851"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات المفتوحة**. والقيمة في حقل **مبلغ الخصم النقدي المراد الحصول عليه** هو **5.05**، لأن المبلغ المراد تسويته للفاتورة تم تغييره إلى مبلغ الدفع 500.00.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/12/2015 |
 | مبلغ الخصم النقدي         | -20.00    |
