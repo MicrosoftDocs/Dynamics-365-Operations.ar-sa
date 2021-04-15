@@ -2,11 +2,9 @@
 title: إقران أصول ثابتة بعقد إيجار
 description: يوضح الموضوع كيفية إقران أصل ثابت موجود بعقد إيجار جديد.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5c4f14d38b3cfc2c4d09cfeb5854204701250757
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0e2261755d98ee38564b4b864daf8e79551d1239
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260843"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814070"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>إقران أصول ثابتة بعقد إيجار
 

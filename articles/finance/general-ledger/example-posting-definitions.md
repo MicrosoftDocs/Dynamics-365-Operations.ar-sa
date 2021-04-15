@@ -2,11 +2,9 @@
 title: أمثلة عن تعريف الترحيل
 description: توفر هذه المقالة أمثلة تعرض كيفية استخدام تعريفات الترحيل لمخصصات الموازنة والتزامات أوامر الشراء.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8dbbc727120f5292a3ad94711cf79138b35593bf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3f8875fd0f1894d7848b3afc76a55d052233b4c5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235127"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817067"
 ---
 # <a name="posting-definition-examples"></a>أمثلة تعريفات الترحيل
 
