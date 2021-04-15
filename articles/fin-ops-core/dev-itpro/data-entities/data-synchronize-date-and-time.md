@@ -2,7 +2,6 @@
 title: مزامنة التاريخ والوقت في مهام الاستيراد
 description: استخدم مناطق زمنيه UTC في استيراد المهام لتجنب المشكلات التي تتعلق بتحويلات المنطقة الزمنيه.
 author: Sunil-Garg
-manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ce3bf39e8342d3fe19a253f6d17684b2bd0aec0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 41c0ec805a20a525989e0133e5dffb29ce3fed39
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570469"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748659"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>مزامنة التاريخ والوقت في مهام الاستيراد
 
