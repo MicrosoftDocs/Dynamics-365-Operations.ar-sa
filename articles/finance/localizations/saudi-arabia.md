@@ -2,11 +2,9 @@
 title: نظرة عامة على المملكة العربية السعودية
 description: يوفر هذا الموضوع ارتباطات إلى موارد الوثائق للمملكة العربية السعودية.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Saudi Arabia
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6eaa0dd7ca734c97af1449abfc98ed6215236ad7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9617266f0c01f59c3f32ac0576073f4b5624f049
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208429"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818198"
 ---
 # <a name="saudi-arabia-overview"></a>نظرة عامة على المملكة العربية السعودية
 

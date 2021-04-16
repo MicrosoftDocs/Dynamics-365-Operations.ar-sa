@@ -2,11 +2,9 @@
 title: اقتراح عمليات الاستحواذ على الأصول الثابتة‬
 description: يوضح هذا الموضوع كيفية الاستحواذ على أصل ثابت باستخدام مقترح الاستحواذ في دفتر يومية الأصول الثابتة.
 author: saraschi2
-manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 03/17/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
@@ -15,18 +13,22 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 426a5e42c1fc26958ab37eddd915334f8b0e19cc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d529cd53b41827a78b282afd4d2c69d2f2db555e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205018"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817140"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>اقتراح عمليات الاستحواذ على الأصول الثابتة‬
 
 [!include [banner](../../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية الاستحواذ على أصل ثابت باستخدام مقترح الاستحواذ في دفتر يومية الأصول الثابتة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF. للاستحواذ على أصل ثابت من خلال دفتر يومية مقترح الأصل الثابت، يجب أولاً إنشاء سجل الأصل الثابت، ثم تحديد سعر الاستحواذ في دفتر الأصول.
+
+## <a name="create-an-asset-acquisition-proposal"></a>إنشاء مقترح الاستحواذ على الأصول
+
+أكمل الخطوات التالية لإنشاء مقترح الاستحواذ على الأصل. 
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الأصول الثابتة > إدخالات دفتر اليومية‬ > دفتر يومية الأصول الثابتة‬**.
 2. حدد **جديد**.
@@ -43,5 +45,11 @@ ms.locfileid: "5205018"
 11. على الصفحة، حدد **الدفاتر**.
 12. حدد **ترحيل**.
 
+## <a name="include-default-financial-dimensions-in-an-acquisition-proposal"></a>تضمين الأبعاد المالية الافتراضية في اقتراح الاستحواذ
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+يمكن إنشاء حركة الاستحواذ باستخدام وظائف Excel الإضافية، بالانتقال إلى **الأصول الثابتة> إدخالات دفتر اليومية> دفتر يومية الأصول الثابتة**. قم بإنشاء دفتر يوميه جديد وقم بالانتقال إلى قسم **البنود** في الصفحة وحدد رمز Excel، ثم حدد بند دفتر يوميه الأصول الثابتة. سيقوم النظام بإنشاء وفتح قالب Excel يمثل بنود دفتر اليومية. يمكنك إضافة بيانات لأسطر دفتر اليومية التي تقوم بإضافتها إلى القالب، ثم نشر تلك المعلومات مرة أخرى في النظام. 
+
+إذا تم إعداد الأبعاد الافتراضية لدفتر الأصول المحدد والأصول الثابتة المقابلة التي تم إدخالها في قالب Excel، فسيتم استدعاء الأبعاد المالية الافتراضية من البيانات الرئيسية لدفتر الأصول عند نشر دفتر اليومية من Excel إلى النظام. لتضمين الأبعاد المالية في دفتر الأصول تلقائيًا أثناء نشر دفتر يومية الأصول الثابتة من وظيفة Excel الإضافية، يجب إعداد الأبعاد الافتراضية مسبقًا.  
+
+
+[!INCLUDE [footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: نظرة عامة على تخطيط الموازنة
 description: يصف هذا الموضوع تخطيط الموازنة. وهو يحتوي على معلومات يمكنها المساعدة في تكوين تخطيط الموازنة وإعداد عمليات تخطيط الموازنة.
 author: panolte
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45def44a285dbc937a2a602aa873f8a04486902
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210279"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822121"
 ---
 # <a name="budget-planning-overview"></a>نظرة عامة على تخطيط الموازنة
 
