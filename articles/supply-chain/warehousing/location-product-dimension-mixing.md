@@ -2,11 +2,9 @@
 title: خلط أبعاد المنتج في الموقع
 description: يوفر هذا الموضوع معلومات حول مزج أبعاد المنتج في الموقع. تساعد وظيفة ملف تعريف الموقع هذه في تحسين إدارة الموقع عند استخدام متغيرات منتجات أو منتجات لها أبعاد، كما هو الحال في صناعة الأزياء. ويتيح لك تحديد ما إذا كان يمكن خلط التكوينات والألوان والأنماط والأحجام لملف تعريف موقع معين، أو ما إذا كان من الممكن وضع إحدى هذه الأبعاد أو توليفة منها فقط في نفس الموقع.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217019"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831280"
 ---
 # <a name="location-product-dimension-mixing"></a>خلط أبعاد المنتج في الموقع
 
@@ -206,9 +204,9 @@ ms.locfileid: "5217019"
 
 1.حدد **حفظ**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>استلام سطور أوامر الشراء في تطبيق المستودع
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>استلام سطور أوامر الشراء في تطبيق إدارة المستودع للأجهزة المحمولة
 
-1. سجل الدخول إلى تطبيق المستودع كمستخدم ممكّن للمستودع *24*.
+1. سجل الدخول إلى تطبيق إدارة المستودع للأجهزة المحمولة كمستخدم ممكّن للمستودع *24*.
 1. حدد قائمة **الوارد**.
 1. حدد **استلام سطر أمر الشراء**.
 1. حدد حقل **رقك أمر الشراء**، ثم أدخل رقم أمر الشراء.

@@ -2,11 +2,9 @@
 title: تهيئة مستويات المخزون في المستودع
 description: يوضح هذا الإجراء كيفية تحديث المخزون المتاح يدوياً باستخدام دفتر يومية حركة مخزون.
 author: perlynne
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c1e5ca96919acde7e850292a73ebd00185f1f7a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0746b799c701c569f0ae5c657ac3302ab6626287
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244464"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823471"
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>تهيئة مستويات المخزون في المستودع
 

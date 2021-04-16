@@ -2,11 +2,9 @@
 title: المدفوعات المركزية للحسابات الدائنة
 description: يمكن للمؤسسات التي تتضمن كيانات قانونية متعددة إنشاء مدفوعات وإدارتها باستخدام كيان قانوني واحد يعالج جميع المدفوعات. ولذلك، لا يلزم إدخال نفس المدفوعات في العديد من الكيانات القانونية. توفر هذه المقالة أمثلة تعرض كيفية معالجة الترحيل للمدفوعات المركزية في سيناريوهات مختلفة.
 author: abruer
-manager: AnnBe
 ms.date: 02/12/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f63d38464a78091a32777707c0df76d05cfd190a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a7162545d07cdc249a4f785606957076de1676d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213008"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820775"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>المدفوعات المركزية للحسابات الدائنة
 

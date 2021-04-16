@@ -2,11 +2,9 @@
 title: إثراء الصفحة المتنقل إليها‬ لفئة
 description: يتناول هذا الموضوع تحسين صفحات الفئة في Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fbcf6ec60723b726e022b4e17bbde4c903e5cb57
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5e18439fc0e91619cade33b83b87be0d5c4d1040
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238764"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799001"
 ---
-# <a name="enrich-a-category-landing-page"></a>إثراء الصفحة المتنقل إليها‬ لفئة
-
+# <a name="enrich-a-category-landing-page"></a>إثراء صفحة فئة منتقل إليها‬
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع تحسين صفحات الفئة في Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يوفر Commerce ‏‫الصفحة المتنقل إليها‬ للفئة الافتراضية المستخدمة عند عرض بيانات الفئة. تحتوي صفحة الفئة الافتراضية على عناصر مطلوبة، مثل المصافي، ووضع المنتج المصنف، وخيارات الفرز، وملخص الاختيار، وأدوات ترقيم الصفحات. 
 

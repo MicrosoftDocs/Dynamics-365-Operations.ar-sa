@@ -2,11 +2,9 @@
 title: إنشاء إدخالات دفتر اليومية الشهري في مجموعة
 description: يوضح هذا الموضوع كيفية إنشاء إدخالات دفتر اليومية في دُفعة للمساعدة في زيادة الكفاءة عند تسجيل مصروفات عقد الإيجار الشهرية.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6fd1815620095909e290fd03c404d964baa04a94
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 664001dd6e9da449dec65750da53d58bd27438b4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241552"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816018"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>إنشاء إدخالات دفتر اليومية الشهري في مجموعة
 

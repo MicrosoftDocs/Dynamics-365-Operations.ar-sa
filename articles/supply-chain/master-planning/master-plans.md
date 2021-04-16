@@ -2,11 +2,9 @@
 title: نظرة عامة على الخطط الرئيسية
 description: يمكنك استخدام العديد من الخطط الرئيسية لدعم مهام العمل اليومية بشركتك وكذلك محاكاة إستراتيجيات التخطيط المختلفة التي تريد مراقبتها بالإضافة إلى تطبيق نهج الشركة، على سبيل المثال فيما يتعلق بالأداء الداخلي أو إرضاء العملاء.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqParameters, ReqPlanSched
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ca4708fa93294633acaf8de06adf5b39569bff7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4506e081258bf125a329830032972b35191aca72
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248777"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833367"
 ---
 # <a name="master-plans-overview"></a>نظرة عامة على الخطط الرئيسية
 

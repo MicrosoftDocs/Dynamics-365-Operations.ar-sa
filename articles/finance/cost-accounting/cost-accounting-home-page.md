@@ -2,11 +2,9 @@
 title: الصفحة الرئيسية لمحاسبة التكاليف‬‏‫
 description: يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة لمحاسبة التكاليف‬‏‫.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db93078c862cd468ec692d490876d825725f4253
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3485818ff67e20a5354e4bebc4903faaa36f6286
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219953"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841107"
 ---
 # <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف
 
@@ -36,7 +34,7 @@ ms.locfileid: "5219953"
 
 ## <a name="quick-links"></a>ارتباطات سريعة
 
-|      |   |
+| &nbsp; | &nbsp;  |
 |------|---|
 |  [تكوين الكيانات الأساسية (تعليم إلكتروني‬)](https://mbspartner.microsoft.com/Home) (يتطلب حساب CustomerSource)  |[أبعاد عنصر التكلفة](cost-elements.md)  |
 |  [التدرج الهرمي للأبعاد](dimension-hierarchy.md)  |[تحديد وحدات التحكم بالتكلفة](./tasks/define-cost-control-units.md)| 
@@ -46,7 +44,7 @@ ms.locfileid: "5219953"
 
 ## <a name="get-started-videosbr"></a>مقاطع فيديو لبدء الاستخدام<br/>
 
-|  |  |                             |
+| &nbsp; | &nbsp;  | &nbsp;  |
 |------------------------|--------------------|-----------------------------|
 | [بدء استخدام محاسبة التكاليف](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [مساحة عمل متنقلة لمحاسبة التكاليف](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [استخدم Excel لتحليل محاسبة التكاليف](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 

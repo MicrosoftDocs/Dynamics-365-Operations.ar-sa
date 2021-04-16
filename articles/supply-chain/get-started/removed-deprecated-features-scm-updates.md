@@ -2,11 +2,9 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259081"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821263"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
 
@@ -34,6 +32,18 @@ ms.locfileid: "5259081"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.18 من Supply Chain Management
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations- التخزين (تطبيق المستودع)
+
+|   |  |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | اعتبارًا من أبريل 2021، يتم إهمال *Dynamics  365 for Finance and Operations - التخزين* (تطبيق المستودع) ولن يتم دعمه بعد أبريل 2022. وقد تم استبداله الآن بواسطة *تطبيق إدارة المستودع للأجهزة المحمولة*، الذي تم إصداره مع إصدار 10.0.17 من Supply Chain Management. التطبيق الجديد هو استبدال كامل ولكن يستخدم نفس اطار العمل الأساسي، الذي يجعل الترحيل سهل. وفي حاله الضرورة، يمكن استخدام التطبيقين جنبا إلى جنب لمساعده المستخدمين علي الضبط بالتدريجي عند التعرف علي استخدام التطبيق الجديد.<br><br>لمزيد من المعلومات حول تطبيق إدارة المستودع للأجهزة المحمولة الجديد، راجع [تطبيق إدارة المستودع للأجهزة المحمولة](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) و[تثبيت وتوصيل تطبيق إدارة المستودع للأجهزة المحمولة](../warehousing/install-configure-warehouse-management-app.md). |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم، تم استبداله بتطبيق "إدارة المستودعات" الجديد للأجهزة المحمولة. |
+| **مناطق المنتجات المتأثرة**         | Supply Chain Management - تطبيق المستودع |
+| **خيارات النشر**              | السحابة ومحلي |
+| **الحالة**                         | مهملة. سيتلقى تطبيق المستودع الدعم مع الأخطاء وإصلاحات الأمان، ولكن لن يتم توفير تحسينات الميزات بعد الآن. بعد أبريل 2022، لن يتم دعم تطبيق المستودع القديم وسيُطلب من العملاء الانتقال إلى تطبيق إدارة المستودع للأجهزة المحمولة الجديد. ستتم أزاله تطبيق المستودع القديم من متجر Microsoft Store وGoogle Play.  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.15 من Supply Chain Management
 

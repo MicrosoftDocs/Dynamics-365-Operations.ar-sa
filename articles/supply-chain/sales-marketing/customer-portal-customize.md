@@ -2,11 +2,9 @@
 title: تخصيص مدخل العميل واستخدامه
 description: يشرح هذا الموضوع كيفية تخصيص مدخل العميل بعد إضافته إلى نظامك.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 33f251eb66f58f8cf1db1d0dd005f8c21a71556b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205288"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840763"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>تخصيص مدخل العميل واستخدامه
 
@@ -77,7 +75,7 @@ ms.locfileid: "5205288"
     - **الوحدة** – حدد وحدة القياس (على سبيل المثال، **كل واحد** أو **كجم** أو **صندوق**).
     - **المبلغ الصافي المقدّر** – يتم حساب القيمة كالسعر المقدّر للصنف × الكمية للوحدة المحددة.
 
-    ![مربع الحوار "معلومات الصنف"](media/customer-portal-item-information.png "مربع الحوار "معلومات الصنف"")
+    ![مربع الحوار "معلومات الصنف"](media/customer-portal-item-information.png "مربع الحوار &quot;معلومات الصنف&quot;")
 
 1. حدد **إرسال** لإضافة الصنف إلى الأمر.
 1. كرر الخطوات من 4 إلى 6 حتى إضافة جميع الأصناف التي تريد طلبها.
