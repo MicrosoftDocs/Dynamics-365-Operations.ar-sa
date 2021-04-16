@@ -2,11 +2,9 @@
 title: تكوين عدة مستأجرين B2C في بيئة Commerce
 description: يوضح هذا الموضوع متى وكيفية إعداد عدة مستأجري متاجرة بين عمل ومستهلك (B2C) لكل قناة Microsoft Azure Active Directory (Azure AD) لمصادقة المستخدم في بيئة Dynamics 365 Commerce مخصصة.
 author: BrianShook
-manager: annbe
-ms.date: 03/02/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477746"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796089"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>تكوين عدة مستأجرين B2C في بيئة Commerce
 
@@ -55,10 +53,6 @@ ms.locfileid: "5477746"
 
 إذا قررت أن أعمالك تتطلب مستأجري B2C متميزين لكل قناة في بيئة Commerce نفسها، فأكمل الإجراءات الموجودة في الأقسام التالية لطلب هذه الميزة.
 
-## <a name="request-that-b2c-per-channel-be-enabled-in-your-environment"></a>طلب تمكين B2C لكل قناة في بيئتك
-
-في الوقت الحالي، إذا كنت ترغب في توفير مستأجري B2C مميزين لكل قناة في بيئة Commerce نفسها، فيجب تقديم طلب إلى Dynamics 365 Commerce. لمزيد من المعلومات، راجع [الحصول على دعم Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)، أو ناقش هذه المشكلة مع جهة الاتصال الخاصة بحلول Commerce.
-
 ## <a name="configure-b2c-tenants-in-your-environment"></a>تكوين مستأجري B2C في بيئتك
 
 لتكوين مستأجري B2C في بيئتك، أكمل الإجراءات ذات الصلة في هذا القسم.
@@ -79,11 +73,11 @@ ms.locfileid: "5477746"
     - **GUID‎ العميل**: أدخل معرف مستأجر Azure AD B2C كما يظهر في مدخل Azure (وليس معرف التطبيق لمستأجر B2C).
     - **تحرير معرف سياسة ملف التعريف**: أدخل معرف السياسة (اسم السياسة في مدخل Azure).
 
-1. عند الانتهاء من إدخال هذه المعلومات، حدد **موافق** لحفظ التغييرات.
+1. عند الانتهاء من إدخال هذه المعلومات، حدد **موافق** لحفظ التغييرات. يجب أن يظهر مستأجر Azure AD B2C الجديد في القائمة ضمن **إدارة تطبيقات B2C**.
 
 > [!NOTE]
 > يجب ترك حقول مثل **النطاق**، و **معرف السياسة غير التفاعلية**، و **معرف العميل غير التفاعلي**، و **المجال المخصص لتسجيل الدخول**، و **معرف سياسة التسجيل** فارغة إلا إذا طلب منك فريق Dynamics 365 Commerce تعيينها.
-يجب أن يظهر مستأجر Azure AD B2C الجديد في القائمة ضمن **إدارة تطبيقات B2C**.
+
 
 ### <a name="manage-or-delete-an-azure-ad-b2c-tenant"></a>إدارة مستأجر Azure AD B2C أو حذفه
 
@@ -97,6 +91,7 @@ ms.locfileid: "5477746"
 > عند تكوين مستأجر B2C لموقع مباشر/منشور، ربما قام المستخدمون بالتسجيل باستخدام الحسابات الموجودة على المستأجر. إذا حذفت مستأجر تم تكوينه في قائمة **إعدادات مستأجر \> B2C**، فأنت تقوم بإزالة اقتران مستأجر B2C هذا من المواقع المقترنة بأي قنوات للمستأجر. في هذه الحالة، قد يتعذر على المستخدمين لديك تسجيل الدخول إلى حساباتهم. لذلك، توخى الانتباه الشديد عند حذف مستأجر تم تكوينه.
 >
 > عند حذف مستأجر تم تكوينه، سيستمر الاحتفاظ بمستأجر B2C والسجلات، ولكن سيتم تغيير تكوين نظام Commerce لذلك المستأجر أو إزالته. سيقوم المستخدمون الذين يحاولون التسجيل في الموقع أو تسجيل الدخول إليه بإنشاء سجل حساب جديد في مستأجر B2C الافتراضي أو المقترن حديثًا والذي تم تكوينه لقناة الموقع.
+
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>تكوين قناتك مع مستأجر B2C
 
 1. قم بتسجيل الدخول إلى منشئ موقع Commerce لبيئتك كمسؤول نظام. لتكوين مستأجري Azure AD B2C، يجب أن تكون مسؤول نظام لبيئة Commerce.

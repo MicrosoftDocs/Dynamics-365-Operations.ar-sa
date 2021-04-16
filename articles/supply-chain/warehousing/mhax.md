@@ -2,7 +2,6 @@
 title: واجهة معدات معالجة المواد (MHAX)
 description: يصف هذا الموضوع كيفية إعداد واجهة جهاز معالجة المواد (MHAX) بحيث يمكنك الاتصال بأنظمة معالجة المواد المادية الخارجية (MH).
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571832"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810500"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>واجهة معدات معالجة المواد (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يمكنك استخدام *واجهة معدات معالجة المواد* ‏(MHAX) لتوصيل أنظمة معالجة المواد المادية الخارجية (MH) بمستودع تتم إدارته بواسطة إدارة مستودعات متقدمة (WMS) في Microsoft Dynamics 365 Supply Chain Management. يتكون السطح البيني بين نظامي WMS وMH من قائمتين: أحدهما للأحداث الصادرة (WMS إلى MH) والآخر للأحداث الواردة (MH إلى WMS). يُنشئ نظام WMS أحداثًا صادرة بناءً على خطوط العمل التي تم إنشاؤها أثناء عمليات إنشاء وتنفيذ العمل المختلفة. يقوم نظام MH بعد ذلك باستطلاع نظام WMS بانتظام للأحداث الجديدة ومعالجة الاستجابات. بعد انتهاء نظام MH من معالجة الأحداث وفقًا لتعليمات العمل، فإنه يرسل الأحداث الواردة، مثل إكمال خط العمل والانتقاء القصير.
 

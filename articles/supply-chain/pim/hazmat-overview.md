@@ -2,11 +2,9 @@
 title: نظرة عامة على المواد الخطرة
 description: يستعرض هذا الموضوع نظرة عامة حول الميزات المتعلقة بمناولة المواد الخطرة وتوثيقها في أثناء إدارة معلومات المنتج وإدارة المستودع.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4ff997214f80d97f6e558d32fbf66663cbc84143
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231878"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829368"
 ---
 # <a name="hazardous-materials-overview"></a>نظرة عامة على المواد الخطرة
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 لتظل المؤسسات ملتزمة بلوائح الشحن والنقل، يتعين على المؤسسات التي تقوم بشحن مواد مصنفة على أنها بضائع خطرة تضمين أعمال ورقية إضافية مع شحناتهم. تتيح ميزة المواد الخطرة للعملاء تخزين المعلومات المرتبطة بالأصناف المُصدرة. ويمكن بعد ذلك استخدام هذه المعلومات للمساعدة في تحضير وثائق الشحن. يجب أن تمتلك المؤسسة التي تقوم بشحن بضائع خطرة عملياتها وإجراءتها الخاصة المتبعة لإدارة عملية الشحن. يمثل Microsoft Dynamics 365 Supply Chain Management أداة تُساعد في إنشاء المستندات المطلوبة.
 

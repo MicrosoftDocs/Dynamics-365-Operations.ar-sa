@@ -2,11 +2,9 @@
 title: جدولة وظائف كانبان لخدمات lean manufacturing‬
 description: توفر هذه المقالة معلومات حول التحكم المرئي في جدولة وظائف كانبان ومختلف طرق جدولة وظائف كانبان.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3616b353d33540bcab6769c51a474d79bf374602
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 25d3de7d9d49cbd05f7d3d3daa42f51e60dc0f8e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246059"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825833"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>جدولة وظائف كانبان لخدمات lean manufacturing‬
 

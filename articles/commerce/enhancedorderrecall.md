@@ -2,11 +2,9 @@
 title: إعادة استدعاء عملية الأمر في نقطة البيع
 description: يشرح هذا الموضوع إمكانيات الميزات المتوفرة لطلب تحسين صفحات الاستدعاء في POS.
 author: hhainesms
-manager: annbe
 ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 174821fce4baf81e4298da4b066f855bfec98ca5
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585120"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799085"
 ---
 # <a name="recall-order-operation-in-pos"></a>إعادة استدعاء عملية الأمر في نقطة البيع
 

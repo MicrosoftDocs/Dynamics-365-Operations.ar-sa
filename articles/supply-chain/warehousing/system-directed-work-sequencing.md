@@ -2,11 +2,9 @@
 title: تسلسل العمل الموجه بواسطة النظام
 description: يوفر هذا الموضوع معلومات حول تسلسل العمل الموجه بواسطة النظام. تتيح لك هذه الوظيفة فرز وتصفية أوامر العمل التي يقدمها النظام للمستخدمين ليتم تنفيذها. وهي مفيدو في السيناريوهات التي يُطلب فيها معايير إضافية لتوجيه عملية الانتقاء من المستودع.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 7db884a5cd62e1f44a2a86316fde6bf2d11a3376
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5387aaf5a5e0d20ac22595fbea86a25fdf38a771
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239124"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831112"
 ---
 # <a name="system-directed-work-sequencing"></a>تسلسل العمل الموجه بواسطة النظام
 

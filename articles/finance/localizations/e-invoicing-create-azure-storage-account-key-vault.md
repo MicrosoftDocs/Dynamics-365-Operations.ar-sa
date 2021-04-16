@@ -2,11 +2,9 @@
 title: إنشاء حساب تخزين ومخزن رئيسي في Azure
 description: يشرح هذا الموضوع كيفية إنشاء حساب تخزين ومخزن رئيسي في Azure.
 author: gionoder
-manager: AnnBe
 ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
-ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
+ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/22/2021
-ms.locfileid: "5479335"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840210"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>إنشاء حساب تخزين ومخزن رئيسي في Azure
 
@@ -44,7 +42,7 @@ ms.locfileid: "5479335"
 
 ## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a>إعداد حساب تخزين Azure للحصول على URI حساب التخزين
 
-1. افتح حساب التخزين الذي تخطط لاستخدامه مع الوظيفة الإضافية الفوترة الإلكترونية.
+1. افتح حساب التخزين الذي تخطط لاستخدامه مع الفوترة الإلكترونية.
 2. انتقل إلى **خدمة الكائن الثنائي كبير الحجم** \> **الحاويات**، وأنشئ حاوية جديدة.
 3. أدخل اسمًا للحاوية، وقم بتعيين حقل **مستوى الوصول العام** إلى **خاص (لا وصول مجهول الهوية)**.
 4. افتح الحاوية، وانتقل إلى **الإعدادات \> سياسة الوصول**.
@@ -63,12 +61,12 @@ ms.locfileid: "5479335"
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>إعداد المخزن الرئيسي لتخزين URI حساب التخزين
 
-1. افتح المخزن الرئيسي الذي تخطط لاستخدامه مع الوظيفة الإضافية الفوترة الإلكترونية.
+1. افتح المخزن الرئيسي الذي تخطط لاستخدامه مع الفوترة الإلكترونية.
 2. انتقل إلى **الإعدادات** \> **الأسرار**، ثم حدد **إنشاء/استيراد** لإنشاء سر جديد.
 3. في الصفحة **إنشاء سر**، في الحقل **خيارات التحميل**، حدد **يدوي**.
 4. أدخل اسم السر. سيتم استخدام هذا الاسم أثناء إعداد الخدمة في Regulatory Configuration Services (RCS)، وستتم الإشارة إليها على أنه *اسم سر المخزن الرئيسي*.
 5. في حقل **القيمة**، حدد **URI توقيع الوصول المشترك**، ثم حدد **إنشاء**.
-6. قم بإعداد سياسة الوصول لمنح الوظيفة الإضافية الفوترة الإلكترونية المستوى الصحيح من الوصول الآمن إلى السر الذي أنشأته. انتقل إلى **الإعدادات \> سياسة الوصول**، وحدد **إضافة سياسة وصول**.
+6. قم بإعداد سياسة الوصول لمنح الفوترة الإلكترونية المستوى الصحيح من الوصول الآمن إلى السر الذي أنشأته. انتقل إلى **الإعدادات \> سياسة الوصول**، وحدد **إضافة سياسة وصول**.
 7. عيّن أذونات السر لعمليات **الحصول** و **القائمة**.
 
     ![منح حق الوصول إلى الخدمة](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)

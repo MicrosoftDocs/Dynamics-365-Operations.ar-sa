@@ -1,12 +1,10 @@
 ---
 title: إنشاء أصول استنادًا إلى أوامر الشراء
 description: يشرح هذا الموضوع كيفية إنشاء قائمة تتضمن أصناف الأصول التي يمكن استخدامها كأساس لإنشاء أصول لمهام الصيانة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectItem, EntAssetPendingAssets
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97b40528db4acc2627b087e8ee90bfd1fd79efa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 51896f512a00bd41617fd02c2cd364c4e00eb774
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253268"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811148"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>إنشاء أصول استنادًا إلى أوامر الشراء
 

@@ -2,11 +2,9 @@
 title: إخفاء أوضاع التسليم بدون ناقل من خيارات الشحنة في نقطة البيع
 description: يصف هذا الموضوع خيار التكوين الذي يمكنه منع أوضاع التسليم بدون ناقل من الظهور للتحديد عند إنشاء أوامر الشحن في التطبيق عند نقطه البيع (POS).
 author: hhainesms
-manager: annbe
 ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: c06dfa697e3e0eab7a7f4183da9f178af818a6d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a5f08fc86dc093fd0ead219b808fa720a43f6b6b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206146"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797108"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>إخفاء أوضاع التسليم بدون ناقل من خيارات الشحن في نقطة البيع
 
