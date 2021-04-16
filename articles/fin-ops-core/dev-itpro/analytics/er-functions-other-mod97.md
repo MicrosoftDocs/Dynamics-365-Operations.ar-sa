@@ -2,7 +2,6 @@
 title: MOD_97 ER وظيفة
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكتروني MOD_97 (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,44 +15,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 618cb2b101dd0b1c91b3b1538ef3f87c21e4a70a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1054407addaf6f7c2a7d2f72bf1479e9dc374389
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563332"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749155"
 ---
-# <a name="mod_97-er-function"></a><span data-ttu-id="8e052-103">MOD_97 ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="8e052-103">MOD_97 ER function</span></span>
+# <a name="mod_97-er-function"></a><span data-ttu-id="932d8-103">MOD_97 ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="932d8-103">MOD_97 ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8e052-104">تُرجع الوظيفة `MOD_97` قيمة *سلسلة* تُمثل مرجع دائن كتعبير MOD97، بناءً على أرقام رقم الفاتورة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="8e052-104">The `MOD_97` function returns a *String* value that represents a creditor reference as a MOD97 expression, based on the digits of the specified invoice number.</span></span>
+<span data-ttu-id="932d8-104">تُرجع الوظيفة `MOD_97` قيمة *سلسلة* تُمثل مرجع دائن كتعبير MOD97، بناءً على أرقام رقم الفاتورة المُحددة.</span><span class="sxs-lookup"><span data-stu-id="932d8-104">The `MOD_97` function returns a *String* value that represents a creditor reference as a MOD97 expression, based on the digits of the specified invoice number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8e052-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="8e052-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="932d8-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="932d8-105">Syntax</span></span>
 
 ```vb
 MOD_97 (invoice number digits)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="8e052-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="8e052-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="932d8-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="932d8-106">Arguments</span></span>
 
-<span data-ttu-id="8e052-107">`invoice number digits`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="8e052-107">`invoice number digits`: *String*</span></span>
+<span data-ttu-id="932d8-107">`invoice number digits`: *السلسلة*</span><span class="sxs-lookup"><span data-stu-id="932d8-107">`invoice number digits`: *String*</span></span>
 
-<span data-ttu-id="8e052-108">قيمة نصية تمثل الأرقام الخاصة برقم الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="8e052-108">A text value that represents the digits of an invoice number.</span></span>
+<span data-ttu-id="932d8-108">قيمة نصية تمثل الأرقام الخاصة برقم الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="932d8-108">A text value that represents the digits of an invoice number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8e052-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="8e052-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="932d8-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="932d8-109">Return values</span></span>
 
-<span data-ttu-id="8e052-110">*السلسلة*</span><span class="sxs-lookup"><span data-stu-id="8e052-110">*String*</span></span>
+<span data-ttu-id="932d8-110">*السلسلة*</span><span class="sxs-lookup"><span data-stu-id="932d8-110">*String*</span></span>
 
-<span data-ttu-id="8e052-111">القيمة النصية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="8e052-111">The resulting text value.</span></span>
+<span data-ttu-id="932d8-111">القيمة النصية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="932d8-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8e052-112">مثال</span><span class="sxs-lookup"><span data-stu-id="8e052-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="932d8-112">مثال</span><span class="sxs-lookup"><span data-stu-id="932d8-112">Example</span></span>
 
-<span data-ttu-id="8e052-113">يُرجع التعبير `MOD_97 ("VEND-200002")` **"20000285"**.</span><span class="sxs-lookup"><span data-stu-id="8e052-113">`MOD_97 ("VEND-200002")` returns **"20000285"**.</span></span>
+<span data-ttu-id="932d8-113">يُرجع التعبير `MOD_97 ("VEND-200002")` **"20000285"**.</span><span class="sxs-lookup"><span data-stu-id="932d8-113">`MOD_97 ("VEND-200002")` returns **"20000285"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8e052-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="8e052-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="932d8-114">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="932d8-114">Additional resources</span></span>
 
-[<span data-ttu-id="8e052-115">دالات أخرى (خاصة بمجال الأعمال)</span><span class="sxs-lookup"><span data-stu-id="8e052-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="932d8-115">دالات أخرى (خاصة بمجال الأعمال)</span><span class="sxs-lookup"><span data-stu-id="932d8-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

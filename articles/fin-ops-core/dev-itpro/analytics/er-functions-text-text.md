@@ -2,7 +2,6 @@
 title: TEXT ER وظيفة
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكتروني TEXT (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
@@ -16,48 +15,48 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da7375020be827f432ba97740da37abe48962fc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0694480f5d6892d13fe0c0d9ad191cdf2332dfec
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560051"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746089"
 ---
-# <a name="text-er-function"></a><span data-ttu-id="7a7f6-103">TEXT ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="7a7f6-103">TEXT ER function</span></span>
+# <a name="text-er-function"></a><span data-ttu-id="8ceb1-103">TEXT ER وظيفة</span><span class="sxs-lookup"><span data-stu-id="8ceb1-103">TEXT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7a7f6-104">تُرجع وظيفة `TEXT` الرقم المُحدد كقيمة *سلسلة* بعد أن يتم تحويله إلى سلسلة نصية يتم تنسيقها وفقًا لإعدادات الخادم المحلية لمثيل التطبيق الحالي.</span><span class="sxs-lookup"><span data-stu-id="7a7f6-104">The `TEXT` function returns the specified number as a *String* value after it has been converted to a text string that is formatted according to the server locale settings of the current application instance.</span></span>
+<span data-ttu-id="8ceb1-104">تُرجع وظيفة `TEXT` الرقم المُحدد كقيمة *سلسلة* بعد أن يتم تحويله إلى سلسلة نصية يتم تنسيقها وفقًا لإعدادات الخادم المحلية لمثيل التطبيق الحالي.</span><span class="sxs-lookup"><span data-stu-id="8ceb1-104">The `TEXT` function returns the specified number as a *String* value after it has been converted to a text string that is formatted according to the server locale settings of the current application instance.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7a7f6-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="7a7f6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8ceb1-105">بناء الجملة</span><span class="sxs-lookup"><span data-stu-id="8ceb1-105">Syntax</span></span>
 
 ```vb
 TEXT (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="7a7f6-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="7a7f6-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="8ceb1-106">الوسائط</span><span class="sxs-lookup"><span data-stu-id="8ceb1-106">Arguments</span></span>
 
-<span data-ttu-id="7a7f6-107">`number`: *عدد صحيح* أو *حقيقي*</span><span class="sxs-lookup"><span data-stu-id="7a7f6-107">`number`: *Integer* or *Real*</span></span>
+<span data-ttu-id="8ceb1-107">`number`: *عدد صحيح* أو *حقيقي*</span><span class="sxs-lookup"><span data-stu-id="8ceb1-107">`number`: *Integer* or *Real*</span></span>
 
-<span data-ttu-id="7a7f6-108">رقم يجب تحويله إلى سلسلة نصية.</span><span class="sxs-lookup"><span data-stu-id="7a7f6-108">A number that must be converted to a text string.</span></span>
+<span data-ttu-id="8ceb1-108">رقم يجب تحويله إلى سلسلة نصية.</span><span class="sxs-lookup"><span data-stu-id="8ceb1-108">A number that must be converted to a text string.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="7a7f6-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="7a7f6-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="8ceb1-109">إرجاع القيم</span><span class="sxs-lookup"><span data-stu-id="8ceb1-109">Return values</span></span>
 
-<span data-ttu-id="7a7f6-110">*السلسلة*</span><span class="sxs-lookup"><span data-stu-id="7a7f6-110">*String*</span></span>
+<span data-ttu-id="8ceb1-110">*السلسلة*</span><span class="sxs-lookup"><span data-stu-id="8ceb1-110">*String*</span></span>
 
-<span data-ttu-id="7a7f6-111">القيمة النصية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="7a7f6-111">The resulting text value.</span></span>
+<span data-ttu-id="8ceb1-111">القيمة النصية الناتجة.</span><span class="sxs-lookup"><span data-stu-id="8ceb1-111">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="7a7f6-112">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="7a7f6-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="8ceb1-112">ملاحظات الاستخدام</span><span class="sxs-lookup"><span data-stu-id="8ceb1-112">Usage notes</span></span>
 
-<span data-ttu-id="7a7f6-113">بالنسبة إلى القيم من النوع *الحقيقي*، تتحدد سلسلة التحويل بمنزلتين عشريتين.</span><span class="sxs-lookup"><span data-stu-id="7a7f6-113">For values of the *Real* type, the string conversion is limited to two decimal places.</span></span>
+<span data-ttu-id="8ceb1-113">بالنسبة إلى القيم من النوع *الحقيقي*، تتحدد سلسلة التحويل بمنزلتين عشريتين.</span><span class="sxs-lookup"><span data-stu-id="8ceb1-113">For values of the *Real* type, the string conversion is limited to two decimal places.</span></span>
 
-## <a name="example"></a><span data-ttu-id="7a7f6-114">مثال</span><span class="sxs-lookup"><span data-stu-id="7a7f6-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8ceb1-114">مثال</span><span class="sxs-lookup"><span data-stu-id="8ceb1-114">Example</span></span>
 
-<span data-ttu-id="7a7f6-115">إذا كانت إعدادات الخادم المحلية لمثيل Microsoft Dynamics 365 Finance معرفة على الشكل **EN-US**، يُرجع التعبير `TEXT (NOW ())` تاريخ جلسة عمل التطبيق الحالية، 17 ديسمبر 2015، على شكل السلسلة النصية **"12/17/2015 07:59:23 AM"**.</span><span class="sxs-lookup"><span data-stu-id="7a7f6-115">If the server locale of the Microsoft Dynamics 365 Finance instance is defined as **EN-US**, `TEXT (NOW ())` returns the current Finance session date, December 17, 2015, as the text string **"12/17/2015 07:59:23 AM"**.</span></span> <span data-ttu-id="7a7f6-116">يُرجع التعبير `TEXT (1/3)` **"0.33"**.</span><span class="sxs-lookup"><span data-stu-id="7a7f6-116">`TEXT (1/3)` returns **"0.33"**.</span></span>
+<span data-ttu-id="8ceb1-115">إذا كانت إعدادات الخادم المحلية لمثيل Microsoft Dynamics 365 Finance معرفة على الشكل **EN-US**، يُرجع التعبير `TEXT (NOW ())` تاريخ جلسة عمل التطبيق الحالية، 17 ديسمبر 2015، على شكل السلسلة النصية **"12/17/2015 07:59:23 AM"**.</span><span class="sxs-lookup"><span data-stu-id="8ceb1-115">If the server locale of the Microsoft Dynamics 365 Finance instance is defined as **EN-US**, `TEXT (NOW ())` returns the current Finance session date, December 17, 2015, as the text string **"12/17/2015 07:59:23 AM"**.</span></span> <span data-ttu-id="8ceb1-116">يُرجع التعبير `TEXT (1/3)` **"0.33"**.</span><span class="sxs-lookup"><span data-stu-id="8ceb1-116">`TEXT (1/3)` returns **"0.33"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="7a7f6-117">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="7a7f6-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="8ceb1-117">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="8ceb1-117">Additional resources</span></span>
 
-[<span data-ttu-id="7a7f6-118">الدالات النصية</span><span class="sxs-lookup"><span data-stu-id="7a7f6-118">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="8ceb1-118">الدالات النصية</span><span class="sxs-lookup"><span data-stu-id="8ceb1-118">Text functions</span></span>](er-functions-category-text.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
