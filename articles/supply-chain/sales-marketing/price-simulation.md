@@ -2,11 +2,9 @@
 title: محاكاة السعر
 description: توفر هذه المقالة معلومات حول محاكاة السعر لعروض الأسعار. تساعدك محاكاة السعر على تقييم تأثير الخصومات‬ على سعر المبيعات المستقبلي أثناء معالجة عرض الأسعار قبل أن تلتزم بسعر معين.
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation, SalesQuotationsTableLookup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8633d6eec788035997c52322c3268b946fb0bfe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d2c6bf3d13f11482ab31d71e804144d0c5f54db
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218383"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807790"
 ---
 # <a name="price-simulation"></a>محاكاة السعر
 

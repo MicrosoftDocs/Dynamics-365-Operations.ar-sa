@@ -1,12 +1,10 @@
 ---
 title: إدارة عمال المستودعات
-description: توضح هذه المقالة كيف يمكنك استخدام تطبيق المستودع للمساعدة في مراقبة ورصد العمل الذي يقوم به الموظفون في المستودعات.
+description: توضح هذه المقالة كيف يمكنك استخدام تطبيق إدارة المستودع للأجهزة المحمولة للمساعدة في مراقبة ورصد العمل الذي يقوم به الموظفون في المستودعات.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18dbcf32f85bca51bf48e5ed8c64fedc99f66082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f5676879f631fce9c9c674250a07723131906fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216825"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818958"
 ---
 # <a name="manage-warehouse-workers"></a>إدارة عمال المستودعات
 
 [!include [banner](../includes/banner.md)]
 
-توضح هذه المقالة كيف يمكنك استخدام تطبيق المستودع للمساعدة في مراقبة ورصد العمل الذي يقوم به الموظفون في المستودعات.
+توضح هذه المقالة كيف يمكنك استخدام تطبيق إدارة المستودع للأجهزة المحمولة للمساعدة في مراقبة ورصد العمل الذي يقوم به الموظفون في المستودعات.
 
 إذا كنت تستخدم الوظيفة في إدارة المستودعات، فإنه تتم الإشارة إلى جميع عمليات عمال المستودع كـ *عمل*. ويتم تسجيل العمل، مثل الانتقاء والنقل وجرد المخزون الفعلي باستخدام الأجهزة المحمولة. وقبل أن يمكن لعامل مستودع تنفيذ العمل، يجب إقرانه أو إقرانها بعامل في الموارد البشرية. ويمكن أن يشتمل كل حساب **عامل** على عدة مستخدمين لعمل المستودع مقترنين به. ويمكن لمستخدمي العمل أولئك العمل في مستودعات مختلفة ويمكنهم الحصول على مستويات مختلفة من الوصول إلى مختلف قوائم الأجهزة المحمولة. ويمكنك اعتبار مستخدمي عمل المستودع كعمليات تسجيل دخول متعددة للعامل المحدد. ويمتلك كل مستخدم عمل مستودعًا افتراضيًا، ويتم عرض مهام سير عمل معينة بواسطة عناصر القوائم المتوفرة لمستخدم العمل هذا. 
 

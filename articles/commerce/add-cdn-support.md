@@ -2,11 +2,9 @@
 title: إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
 description: يوضح هذا الموضوع كيفية إضافة شبكة توصيل المحتوى (CDN) إلى بيئة Microsoft Dynamics 365 Commerce الخاصة بك.
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582709"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797829"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
 
@@ -39,13 +37,9 @@ ms.locfileid: "5582709"
 
 بالإضافة إلى ذلك، يتم عرض *الإحصاءات* (إما JavaScript أو ملفات أوراق الأنماط المتتالية \[CSS\]) من Commerce من النقطة النهائية الذي قام Commerce بإنشاءها (\*.commerce.dynamics.com). يُمكن تخزين هذه الإحصائيات مؤقتًا فقط في حالة إذا تم وضع اسم المضيف أو نقطة النهاية التي قام Commerce بإنشائها بعد CDN.
 
-## <a name="set-up-ssl"></a>إعداد نظام إدارة الأوامر الموزعة (SSL)
+## <a name="set-up-ssl"></a>إعداد SSL
 
-وللمساعدة في ضمان إعداد SSL، وأنه قد تم تخزين الإحصائيات مؤقتًا، يجب عليك تكوين CDN الخاص بك بحيث يكون مقترنًا باسم المضيف الذي قام Commerce بإنشاءه للبيئة الخاصة بك. كما يجب عليك أيضًا تخزين الأنماط التالية للإحصائيات مؤقتًا فقط: 
-
-/\_msdyn365/\_scnr/\*
-
-بعد توفير بيئة Commerce الخاصة بك مع المجال المخصص الذي تم توفيره، أو بعد أن تقوم بتوفير مجال مخصص للبيئة الخاصة بك باستخدام طلب خدمة، قم بالإشارة إلى مجالك المخصص لاسم المضيف أو النقطة النهائية التي قام Commerce بإنشائها.
+بعد توفير بيئة Commerce الخاصة بك مع المجال المخصص الذي تم توفيره، أو بعد أن تقوم بتوفير مجال مخصص للبيئة الخاصة بك باستخدام طلب خدمة، تحتاج إلى العمل مع فريق إعداد Commerce للتخطيط لتغييرات DNS.
 
 وكما سبق ذكره، يدعم اسم المضيف أو نقطة النهاية التي تم إنشائها شهادة SSL فقط لـ \*.commerce.dynamics.com.  ولا يدعم SSL للمجالات المُخصصة.
 
@@ -62,7 +56,7 @@ ms.locfileid: "5582709"
 
 1. إضافة مضيف واجهة أمامية.
 1. تكوين وعاء خلفي.
-1. إعداد القواعد للتوجيه والتخزين المؤقت.
+1. إعداد قواعد التوجيه.
 
 ### <a name="add-a-front-end-host"></a>إضافة مضيف واجهة أمامية
 
@@ -74,8 +68,9 @@ ms.locfileid: "5582709"
 
 لتكوين وعاء خلفي في Azure Front Door Service، اتبع الخطوات التالية.
 
-1. أضف **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** إلى الوعاء الخلفي كمضيف مخصص له عنوان مضيف خلفي فارغ.
+1. أضف **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** إلى تجمع الخلفية كمضيف مخصص له رأس مضيف خلفي مماثل لـ **&lt;ecom-tenant-name&gt;.commerce.dynamics.com**.
 1. تحت **موازنة التحميل**، اترك القيم الافتراضية.
+1. تعطيل عمليات فحص السلامة لمجموعة الخلفية.
 
 يُبين الرسم التوضيحي التالي مربع الحوار **إضافة وعاء خلفي** في Azure Front Door Service مع إدخال اسم مضيف وعاء خلفي.
 
@@ -84,6 +79,10 @@ ms.locfileid: "5582709"
 يُبين الرسم التوضيحي التالي مربع الحوار **إضافة وعاء خلفي** في Azure Front Door Service مع قيم موازنة الحمل الافتراضي.
 
 ![إضافة مربع حوار وعاء خلفي يتبع](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> تأكد من تعطيل **فحوصات السلامة** عند إعداد خدمة Azure Front Door لـ Commerce.
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>إعداد القواعد في Azure Front Door Service
 
@@ -100,24 +99,6 @@ ms.locfileid: "5582709"
 1. قم بتعيين خيار **إعادة كتابة عنوان URL** إلى **مُعطل**.
 1. قم بتعيين خيار **التخزين المؤقت** إلى **مُعطل**.
 
-لإعداد قاعدة التخزين المؤقت في Azure Front Door Service، اتبع الخطوات التالية.
-
-1. إضافة قاعدة التخزين المؤقت.
-1. في الحقل **الاسم** ، أدخل **‏الإحصائيات**.
-1. في حقل **البروتوكول المقبول** ، حدد **HTTP وHTTPS**.
-1. في حقل **مضيفو الواجهة الأمامية** ، ادخل **dynamics-ecom-tenant-name.azurefd.net**.
-1. تحت **النماذج المطلوب مطابقتها** ، في الحقل العلوي، **/\_msdyn365/\_scnr/\***.
-1. تحت **تفاصيل التوجيه**، قم بتعيين خيار **نوع التوجيه** إلى **للأمام**.
-1. في حقل **الوعاء الخلفي** ،حدد **ecom-backend**. 
-1. في مجموعة حقل **بروتوكول إعادة التوجيه** ،حدد خيار **مطابقة الطلب**.
-1. قم بتعيين خيار **إعادة كتابة عنوان URL** إلى **مُعطل**.
-1. قم بتعيين خيار **التخزين المؤقت** إلى **مُعطل**.
-1. في حقل **سلوك التخزين المؤقت لسلسلة الاستعلام** ،حدد **تخزين مؤقت لكل عنوان URL فريد**.
-1. في مجموعة حقل **الضغط الديناميكي** ،حدد خيار **مُمكّن**.
-
-يُبين الرسم التوضيحي التالي مربع الحوار **إضافة قاعدة** في Azure Front Door Service.
-
-![إضافة مربع حوار قاعدة](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > إذا كان المجال الذي ستستخدمه نشطًا ومباشرًا، فأنشئ تذكرة دعم من الإطار المتجانب **الدعم** في [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) للحصول على المساعدة لخطواتك التالية. لمزيد من المعلومات، راجع [الحصول على الدعم لتطبيقات Finance and Operations أو Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).

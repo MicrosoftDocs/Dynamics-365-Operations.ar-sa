@@ -1,12 +1,10 @@
 ---
 title: نظرة عامة على كتالوجات التدبير
 description: توضح هذه المقالة، على مستوى عالٍ، كيف يمكن لمحترفي الشراء إعداد كتالوجات التدبير والمحافظة عليها تحدد كتالوجات التدبير الأصناف والخدمات التي يمكن لموظفي الشركة طلبها للاستخدام الداخلي.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dbac02d65ca7af29ab0512a1680ca251db4674d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b72ccbcec1e3796917c041def19f3985668e7e1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212713"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807910"
 ---
 # <a name="procurement-catalogs-overview"></a>نظرة عامة على كتالوجات التدبير
 

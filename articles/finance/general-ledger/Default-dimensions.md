@@ -2,11 +2,9 @@
 title: الأبعاد المالية والترحيل
 description: عندما تقوم بتخطيط دليل الحسابات وإعداده، يجب أن تأخذ في الاعتبار كيف ستعمل المكونات المختلفة مع بعضها عند ترحيل مستند أو دفتر يومية. تتضمن هذه المكونات بنى الحساب والقواعد المتقدمة وأبعاد الموازنة والأبعاد الثابتة. يشرح هذا المقال ماهية كل مكون وكيفية عمل المكونات معًا.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 086270fda7da17c60239c7c86e9ff4ab3f31ef77
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225236"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823850"
 ---
 # <a name="financial-dimensions-and-posting"></a>الأبعاد المالية والترحيل 
 

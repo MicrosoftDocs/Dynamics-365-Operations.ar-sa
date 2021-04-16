@@ -2,11 +2,9 @@
 title: تعيين ابعاد مختلفه للتعبئة والتخزين
 description: يوضح هذا الموضوع كيفيه تحديد العملية (التعبئة أو التخزين أو التعبئة المتداخلة) يتم استخدام كل بعد محدد لها.
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: e997f8bccde7856303d8b3c6407143598ccc6030
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501284"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818910"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>تعيين ابعاد مختلفه للتعبئة والتخزين
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يتم تعبئة بعض الأصناف أو تخزينها بطريقه قد تحتاجها لتتبع الابعاد الفعلية بشكل مختلف لكل عمليه من العمليات المتعددة المختلفة. تتيح لك ميزه *ابعاد تعبئة المنتج* اعداد نوع واحد أو عده أنواع من الابعاد لكل منتج. ويوفر كل نوع من أنواع الابعاد مجموعه من القياسات الفعلية (الوزن والعرض والعمق والارتفاع) ، كما يقوم بإنشاء العملية حيث يتم تطبيق قيم القياس الفعلية هذه. عند تمكين هذه الميزة ، سيقوم النظام بدعم الأنواع التالية من الابعاد:
 

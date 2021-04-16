@@ -1,12 +1,10 @@
 ---
 title: خطط الصيانة
 description: يشرح هذا الموضوع خطط الصيانة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500804"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839597"
 ---
 # <a name="maintenance-plans"></a>خطط الصيانة
 
@@ -195,8 +193,6 @@ ms.locfileid: "5500804"
 
 ## <a name="counter-based-maintenance-enhancements"></a>تحسينات الصيانة المستندة إلى العداد
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 تقدم ميزه *تحسينات الصيانة المستندة إلى العداد* الوظائف التالية:
 
 - خيار بادراج عداد بالقيمة *0* (صفر) عند إنشاء أحد الأصول. يمكن ان يكون هذا الخيار مفيدا عند استخدام صيانة تنبؤي تستند إلى عدادات. عند عدم استخدام ميزه *تحسينات الصيانة المستندة إلى العداد*، يجب ادراج العدادات التي لها القيمة *0* (صفر) يدويا.
@@ -209,7 +205,7 @@ ms.locfileid: "5500804"
 قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة النمطية:** *إدارة الأصول‎*
-- **اسم الميزة:** *(معاينة) تحسينات الصيانة المستندة إلى العداد*
+- **اسم الميزة:** *تحسينات الصيانة المستندة إلى العداد*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>إنشاء العدادات وتهيئتها عند إنشاء أصل
 

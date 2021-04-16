@@ -2,11 +2,9 @@
 title: معالجة مدفوعات الاسترداد في مراكز الاتصال
 description: يشرح هذا الموضوع كيفيه إنشاء عمليات الدفع المستردة من خلال مراكز الاتصال عند إنشاء عمليات الإرجاع أو عند إلغاء الأوامر أو بنود الأوامر.
 author: hhainesms
-manager: annbe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd49835a24dc6ec429ac4b01f363f1be937628ac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214712"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799579"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>معالجة مدفوعات الاسترداد في مراكز الاتصال
 

@@ -2,11 +2,9 @@
 title: استكشاف أخطاء تكوين المستودع وإصلاحها
 description: يوضح هذا الموضوع كيفية إصلاح المشكلات التي قد تواجهها أثناء تكوين Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487087"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814382"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>استكشاف أخطاء تكوين المستودع وإصلاحها
 
@@ -38,7 +36,7 @@ ms.locfileid: "5487087"
 
 ### <a name="issue-resolution"></a>حل المشكلة
 
-تاكد من ان معرف لوح الترخيص غير محجوز بواسطة شيء آخر. وتستخدم هذه المشكلة لتحدث عندما يكون أحد المستخدمين الذي قام بفحصه في تطبيق المستودع هو موقع صالح ومعرف لوحه ترخيص صالح. ومع ذلك ، تم حل هذه المشكلة في الإصدار 10.0.11.
+تاكد من ان معرف لوح الترخيص غير محجوز بواسطة شيء آخر. وتستخدم هذه المشكلة لتحدث عندما يكون أحد المستخدمين الذي قام بفحصه في تطبيق إدارة المستودع للأجهزة المحمولة هو موقع صالح ومعرف لوحه ترخيص صالح. ومع ذلك ، تم حل هذه المشكلة في الإصدار 10.0.11.
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>أتلقى رسالة الخطا التالية: "يجب تحديد لوحه الترخيص لهذا الموقع."
 
@@ -82,7 +80,7 @@ ms.locfileid: "5487087"
 
 تمت أضافه ميزه جديده، *تقييم كافة الإجراءات لتوجيهات المواقع SKU المتعددة*، في الإصدار 10.0.15 (راجع [قاعدة المعارف 4579866 ](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). هذه الميزة تقيم كافة الإجراءات لموجهات مواقع SKU متعددة. إذا تطلبت هذه الميزة ، فاستخدم [أداره الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيلها.
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>لا يمكنني استخدام تطبيق المستودع لاجراء انتقاء جزئي.
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>لا يمكنني استخدام تطبيق إدارة المستودع للأجهزة المحمولة لاجراء انتقاء جزئي.
 
 ### <a name="issue-description"></a>وصف المشكلة
 
@@ -100,7 +98,7 @@ ms.locfileid: "5487087"
 
 ### <a name="issue-resolution"></a>حل المشكلة
 
-لتمكين العاملين من اجراء هذا التغيير ، يمكنك إنشاء عنصر قائمه لتطبيق المستودع. في صفحة **عناصر قائمة الجهاز المحمول**، أنشئ عناصر قائمة لأحد الطرق التالية:
+لتمكين العاملين من اجراء هذا التغيير، يمكنك إنشاء عنصر قائمه لتطبيق إدارة المستودع للأجهزة المحمولة. في صفحة **عناصر قائمة الجهاز المحمول**، أنشئ عناصر قائمة لأحد الطرق التالية:
 
 - **الوضع:** *العمل*
 - **استخدام العمل الموجود:** *لا*

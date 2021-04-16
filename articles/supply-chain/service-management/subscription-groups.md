@@ -2,11 +2,9 @@
 title: مجموعات الاشتراكات
 description: يوضح هذا الموضوع ما تم تحديده في مجموعة الاشتراك.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4541e067513da5d37631415e2628313fb4932b56
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4e79668140588d5a48e5ae95c805e1077cf3483b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242315"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817427"
 ---
 # <a name="subscription-groups"></a>مجموعات الاشتراكات    
 

@@ -2,7 +2,6 @@
 title: إعداد التكاليف التلقائية
 description: يوضح هذا الموضوع كيفية إعداد قواعد التكلفة لمختلف مستويات الرحلة الداخلية. استنادًا إلى هذه القواعد، يقوم النظام بحساب التكاليف وأضافتها تلقائياً. لذلك، لن يضطر المستخدمون إلى إضافة التكاليف يدوياً.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 86dcbfbe6e00e7324e29541da6d682794e7487b3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501140"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841949"
 ---
 # <a name="auto-costs-setup"></a>إعداد التكاليف التلقائية
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يمكنك استخدام صفحة **التكاليف التلقائية** لإعداد قواعد التكلفة لمختلف مناطق التكلفة (مثل الرحلات أو حاويات الشحن أو حافظات الملفات أو أوامر الشراء أو الأصناف أو بنود أمر التحويل). استنادًا إلى القواعد، والحقول التي يقوم المستخدمون بتحديدها عند قيامهم بإنشاء سجلات لأحد مناطق التكلفة، يقوم النظام بحساب التكاليف وإضافتها تلقائياً. لذلك، لن يضطر المستخدمون إلى إضافة التكاليف يدوياً.
 

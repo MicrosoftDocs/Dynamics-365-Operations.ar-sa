@@ -2,11 +2,9 @@
 title: تمكين المشاركة عبر القنوات واستخدامها
 description: يوضح هذا الموضوع كيفيه تمكين ميزه مشاركه القناة المتقاطعة لمنشئ مواقع Microsoft Dynamics 365 Commerce واستخدامها.
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 987dca54e47b909014862e310aa424019d8c4677
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207813"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799507"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>تمكين المشاركة عبر القنوات واستخدامها
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفيه تمكين ميزه مشاركه القناة المتقاطعة لمنشئ مواقع Microsoft Dynamics 365 Commerce واستخدامها.
-
-## <a name="overview"></a>نظرة عامة
 
 مشاركه القناة المشتركة لنفرض ان البائعين يقومون باعاده استخدام المحتوي ومشاركته بين عبر القنوات من أحد المواقع. وتكون هذه الامكانيه مفيده عندما يكون لقناات الموقع لغة أساسيه متوافقة، أو عندما يكون لديها عناصر محتوي متعددة مشتركه.
 
