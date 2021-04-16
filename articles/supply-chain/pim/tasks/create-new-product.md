@@ -2,11 +2,9 @@
 title: إنشاء منتج جديد
 description: يصف هذا الموضوع كيفية إنشاء منتج مشترك جديد.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
@@ -15,32 +13,32 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90fdd0a3cbe90c7d3752c4ca2de1c2665968dc35
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d6d33a13920e1881cdc69ad7c100180d3b3b441d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218527"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820024"
 ---
-# <a name="create-a-new-product"></a><span data-ttu-id="ce35b-103">إنشاء منتج جديد</span><span class="sxs-lookup"><span data-stu-id="ce35b-103">Create a new product</span></span>
+# <a name="create-a-new-product"></a><span data-ttu-id="83b0b-103">إنشاء منتج جديد</span><span class="sxs-lookup"><span data-stu-id="83b0b-103">Create a new product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ce35b-104">يصف هذا الموضوع كيفية إنشاء منتج مشترك جديد.</span><span class="sxs-lookup"><span data-stu-id="ce35b-104">This topic describes how to create a new shared product.</span></span> <span data-ttu-id="ce35b-105">عادة ما يتم تنفيذها عن طريق مصمم المنتج.</span><span class="sxs-lookup"><span data-stu-id="ce35b-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="ce35b-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="ce35b-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="83b0b-104">يصف هذا الموضوع كيفية إنشاء منتج مشترك جديد.</span><span class="sxs-lookup"><span data-stu-id="83b0b-104">This topic describes how to create a new shared product.</span></span> <span data-ttu-id="83b0b-105">عادة ما يتم تنفيذها عن طريق مصمم المنتج.</span><span class="sxs-lookup"><span data-stu-id="83b0b-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="83b0b-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬</span><span class="sxs-lookup"><span data-stu-id="83b0b-106">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-a-product"></a><span data-ttu-id="ce35b-107">إنشاء منتج</span><span class="sxs-lookup"><span data-stu-id="ce35b-107">Create a product</span></span>
-1. <span data-ttu-id="ce35b-108">‏‫في جزء التنقل، انتقل إلى **الوحدات النمطية > إدارة معلومات المنتج > المنتجات > المنتجات‬‏‎**.</span><span class="sxs-lookup"><span data-stu-id="ce35b-108">In the Navigation pane, go to **Modules > Product information management > Products > Products**.</span></span>
-2. <span data-ttu-id="ce35b-109">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="ce35b-109">Select **New**.</span></span>
-3. <span data-ttu-id="ce35b-110">في الحقل **رقم المنتج**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ce35b-110">In the **Product number** field, type a value.</span></span> <span data-ttu-id="ce35b-111">إذا لم يتم إعداد تسلسل الرقم لرقم المنتج، فإنه يجب إدخاله يدويًا.</span><span class="sxs-lookup"><span data-stu-id="ce35b-111">If a number sequence has not been set up for the product number, it must be entered manually.</span></span>  
-4. <span data-ttu-id="ce35b-112">في الحقل **اسم المنتج**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ce35b-112">In the **Product name** field, type a value.</span></span> <span data-ttu-id="ce35b-113">يتم وضع اسم المنتج في الوضع الافتراضي تبعًا لاسم البحث.</span><span class="sxs-lookup"><span data-stu-id="ce35b-113">The product name defaults to the search name.</span></span> <span data-ttu-id="ce35b-114">يمكنك تغييرها، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="ce35b-114">You can change this if needed.</span></span>  
-5. <span data-ttu-id="ce35b-115">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="ce35b-115">Select **OK**.</span></span>
+## <a name="create-a-product"></a><span data-ttu-id="83b0b-107">إنشاء منتج</span><span class="sxs-lookup"><span data-stu-id="83b0b-107">Create a product</span></span>
+1. <span data-ttu-id="83b0b-108">‏‫في جزء التنقل، انتقل إلى **الوحدات النمطية > إدارة معلومات المنتج > المنتجات > المنتجات‬‏‎**.</span><span class="sxs-lookup"><span data-stu-id="83b0b-108">In the Navigation pane, go to **Modules > Product information management > Products > Products**.</span></span>
+2. <span data-ttu-id="83b0b-109">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="83b0b-109">Select **New**.</span></span>
+3. <span data-ttu-id="83b0b-110">في الحقل **رقم المنتج**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="83b0b-110">In the **Product number** field, type a value.</span></span> <span data-ttu-id="83b0b-111">إذا لم يتم إعداد تسلسل الرقم لرقم المنتج، فإنه يجب إدخاله يدويًا.</span><span class="sxs-lookup"><span data-stu-id="83b0b-111">If a number sequence has not been set up for the product number, it must be entered manually.</span></span>  
+4. <span data-ttu-id="83b0b-112">في الحقل **اسم المنتج**، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="83b0b-112">In the **Product name** field, type a value.</span></span> <span data-ttu-id="83b0b-113">يتم وضع اسم المنتج في الوضع الافتراضي تبعًا لاسم البحث.</span><span class="sxs-lookup"><span data-stu-id="83b0b-113">The product name defaults to the search name.</span></span> <span data-ttu-id="83b0b-114">يمكنك تغييرها، إذا لزم الأمر.</span><span class="sxs-lookup"><span data-stu-id="83b0b-114">You can change this if needed.</span></span>  
+5. <span data-ttu-id="83b0b-115">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="83b0b-115">Select **OK**.</span></span>
 
-## <a name="set-up-dimension-groups"></a><span data-ttu-id="ce35b-116">إعداد مجموعات الأبعاد</span><span class="sxs-lookup"><span data-stu-id="ce35b-116">Set up dimension groups</span></span>
-1. <span data-ttu-id="ce35b-117">انقر فوق **مجموعات الأبعاد** لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="ce35b-117">Select **Dimension groups** to open the drop dialog.</span></span>
-2. <span data-ttu-id="ce35b-118">في الحقل **مجموعة أبعاد التخزين**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ce35b-118">In the **Storage dimension group** field, enter or select a value.</span></span> <span data-ttu-id="ce35b-119">تحدد مجموعة بُعد التخزين أبعاد التخزين التي يجب عليك إدخالها في كل حركة للمنتج، وكيف سيتم تعقبها في المخزون.</span><span class="sxs-lookup"><span data-stu-id="ce35b-119">The storage dimension group determines which storage dimensions you must enter on each transaction for the product and how it will be tracked in inventory.</span></span>  
-3. <span data-ttu-id="ce35b-120">في الحقل **مجموعة أبعاد التعقب**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ce35b-120">In the **Tracking dimension group** field, enter or select a value.</span></span> <span data-ttu-id="ce35b-121">تحدد مجموعة بُعد التعقب أبعاد التعقب التي يجب عليك إدخالها في كل حركة للمنتج، وكيف سيتم التعامل معها في المخزون.</span><span class="sxs-lookup"><span data-stu-id="ce35b-121">The tracking dimension group determines which tracking dimensions you must enter for each transaction for the product, and how it will be handled in inventory.</span></span>  
-4. <span data-ttu-id="ce35b-122">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="ce35b-122">Select **OK**.</span></span>
+## <a name="set-up-dimension-groups"></a><span data-ttu-id="83b0b-116">إعداد مجموعات الأبعاد</span><span class="sxs-lookup"><span data-stu-id="83b0b-116">Set up dimension groups</span></span>
+1. <span data-ttu-id="83b0b-117">انقر فوق **مجموعات الأبعاد** لفتح مربع حوار الإسقاط‬.</span><span class="sxs-lookup"><span data-stu-id="83b0b-117">Select **Dimension groups** to open the drop dialog.</span></span>
+2. <span data-ttu-id="83b0b-118">في الحقل **مجموعة أبعاد التخزين**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="83b0b-118">In the **Storage dimension group** field, enter or select a value.</span></span> <span data-ttu-id="83b0b-119">تحدد مجموعة بُعد التخزين أبعاد التخزين التي يجب عليك إدخالها في كل حركة للمنتج، وكيف سيتم تعقبها في المخزون.</span><span class="sxs-lookup"><span data-stu-id="83b0b-119">The storage dimension group determines which storage dimensions you must enter on each transaction for the product and how it will be tracked in inventory.</span></span>  
+3. <span data-ttu-id="83b0b-120">في الحقل **مجموعة أبعاد التعقب**، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="83b0b-120">In the **Tracking dimension group** field, enter or select a value.</span></span> <span data-ttu-id="83b0b-121">تحدد مجموعة بُعد التعقب أبعاد التعقب التي يجب عليك إدخالها في كل حركة للمنتج، وكيف سيتم التعامل معها في المخزون.</span><span class="sxs-lookup"><span data-stu-id="83b0b-121">The tracking dimension group determines which tracking dimensions you must enter for each transaction for the product, and how it will be handled in inventory.</span></span>  
+4. <span data-ttu-id="83b0b-122">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="83b0b-122">Select **OK**.</span></span>
 
 
 

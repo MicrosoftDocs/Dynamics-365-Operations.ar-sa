@@ -2,11 +2,9 @@
 title: إعداد طريقة دفع لتحويل الائتمان ISO20022
 description: يوضح هذا الإجراء كيفية إعداد طريقة الدفع الخاصة بالمورّد لتحويل الائتمان ISO20022 أو أي نوع دفع آخر باستخدام التقارير الإلكترونية لإنشاء ملف.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymMode
 audience: Application User
@@ -15,37 +13,37 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ae91ce361ab3e4e799ec82ca9e05c9e11d81ed1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 643be31db625d0db12f1df18b9e797013da98ece
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256560"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832462"
 ---
-# <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a><span data-ttu-id="c1bca-103">إعداد طريقة دفع لتحويل الائتمان ISO20022</span><span class="sxs-lookup"><span data-stu-id="c1bca-103">Set up method of payment for ISO20022 credit transfer</span></span>
+# <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a><span data-ttu-id="0491c-103">إعداد طريقة دفع لتحويل الائتمان ISO20022</span><span class="sxs-lookup"><span data-stu-id="0491c-103">Set up method of payment for ISO20022 credit transfer</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c1bca-104">يوضح هذا الإجراء كيفية إعداد طريقة الدفع الخاصة بالمورّد لتحويل الائتمان ISO20022 أو أي نوع دفع آخر باستخدام التقارير الإلكترونية لإنشاء ملف.</span><span class="sxs-lookup"><span data-stu-id="c1bca-104">This procedure shows how to set up the vendor method of payment for ISO20022 credit transfer or any other payment type using electronic reporting to generate a file.</span></span> 
+<span data-ttu-id="0491c-104">يوضح هذا الإجراء كيفية إعداد طريقة الدفع الخاصة بالمورّد لتحويل الائتمان ISO20022 أو أي نوع دفع آخر باستخدام التقارير الإلكترونية لإنشاء ملف.</span><span class="sxs-lookup"><span data-stu-id="0491c-104">This procedure shows how to set up the vendor method of payment for ISO20022 credit transfer or any other payment type using electronic reporting to generate a file.</span></span> 
 
-<span data-ttu-id="c1bca-105">قبل إكمال هذه المهمة، يجب تصدير تكوينات التنسيق وإعداد حسابات الدفع.</span><span class="sxs-lookup"><span data-stu-id="c1bca-105">Before you complete this task, you must export format configurations and set up payment accounts.</span></span>
+<span data-ttu-id="0491c-105">قبل إكمال هذه المهمة، يجب تصدير تكوينات التنسيق وإعداد حسابات الدفع.</span><span class="sxs-lookup"><span data-stu-id="0491c-105">Before you complete this task, you must export format configurations and set up payment accounts.</span></span>
 
-<span data-ttu-id="c1bca-106">تم إنشاء هذه المهمة باستخدام شركة بيانات العرض التوضيحي DEMF.</span><span class="sxs-lookup"><span data-stu-id="c1bca-106">This task was created using the DEMF demo data company.</span></span>
+<span data-ttu-id="0491c-106">تم إنشاء هذه المهمة باستخدام شركة بيانات العرض التوضيحي DEMF.</span><span class="sxs-lookup"><span data-stu-id="0491c-106">This task was created using the DEMF demo data company.</span></span>
 
-<span data-ttu-id="c1bca-107">هذا هو الإجراء الثالث من ضمن الإجراءات الخمسة، هدفه توضيح عملية معالجة مدفوعات المورّد باستخدام تكوينات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="c1bca-107">This is the third procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="c1bca-108">يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.</span><span class="sxs-lookup"><span data-stu-id="c1bca-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="0491c-107">هذا هو الإجراء الثالث من ضمن الإجراءات الخمسة، هدفه توضيح عملية معالجة مدفوعات المورّد باستخدام تكوينات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="0491c-107">This is the third procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="0491c-108">يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.</span><span class="sxs-lookup"><span data-stu-id="0491c-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. <span data-ttu-id="c1bca-109">انتقل إلى الحسابات المدينة > إعداد الدفع‬ > طرق الدفع.</span><span class="sxs-lookup"><span data-stu-id="c1bca-109">Go to Accounts payable > Payment setup > Methods of payment.</span></span>
-2. <span data-ttu-id="c1bca-110">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="c1bca-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="c1bca-111">على سبيل المثال، قم بإجراء التصفية على الحقل "طريقة الدفع" بقيمة "سيبا CT".</span><span class="sxs-lookup"><span data-stu-id="c1bca-111">For example, filter on the Method of payment field with a value of 'SEPA CT'.</span></span>
-3. <span data-ttu-id="c1bca-112">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="c1bca-112">Click Edit.</span></span>
-4. <span data-ttu-id="c1bca-113">الحقل "الفترة"، حدد "الإجمالي".</span><span class="sxs-lookup"><span data-stu-id="c1bca-113">In the Period field, select 'Total'.</span></span>
-5. <span data-ttu-id="c1bca-114">في الحقل "نوع الدفع"، حدد "دفع إلكتروني".</span><span class="sxs-lookup"><span data-stu-id="c1bca-114">In the Payment type field, select 'Electronic payment'.</span></span>
-6. <span data-ttu-id="c1bca-115">وسّع قسم المقطع "تنسيقات الملفات".</span><span class="sxs-lookup"><span data-stu-id="c1bca-115">Expand the File formats section.</span></span>
-7. <span data-ttu-id="c1bca-116">حدد "نعم" في الحقل "التقارير الإلكترونية العامة‬".</span><span class="sxs-lookup"><span data-stu-id="c1bca-116">Select Yes in the Generic electronic reporting field.</span></span>
-8. <span data-ttu-id="c1bca-117">في الحقل "تصدير تكوين التنسيق‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="c1bca-117">In the Export format configuration field, enter or select a value.</span></span>
-    * <span data-ttu-id="c1bca-118">في القائمة، حدد قيمة تحويل الرصيد ISO20022 (DE).</span><span class="sxs-lookup"><span data-stu-id="c1bca-118">In the list, select the value ISO20022 Credit transfer (DE).</span></span> <span data-ttu-id="c1bca-119">إذا كانت القائمة فارغة، فهذا يعني أن تكوين تنسيق تصدير دفعات المورّد غير مستورد ونشط.</span><span class="sxs-lookup"><span data-stu-id="c1bca-119">If the list is empty, the vendor payment export format configuration is not imported and active.</span></span>  
-9. <span data-ttu-id="c1bca-120">في الحقل "نوع الحساب"، اكتب "البنك‬".</span><span class="sxs-lookup"><span data-stu-id="c1bca-120">In the Account type field, select 'Bank'.</span></span>
-10. <span data-ttu-id="c1bca-121">في الحقل "حساب الدفع"، حدد القيم "DEMF OPER".</span><span class="sxs-lookup"><span data-stu-id="c1bca-121">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
-11. <span data-ttu-id="c1bca-122">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="c1bca-122">Click Save.</span></span>
+1. <span data-ttu-id="0491c-109">انتقل إلى الحسابات المدينة > إعداد الدفع‬ > طرق الدفع.</span><span class="sxs-lookup"><span data-stu-id="0491c-109">Go to Accounts payable > Payment setup > Methods of payment.</span></span>
+2. <span data-ttu-id="0491c-110">استخدم عامل التصفية السريع للبحث عن السجلات.</span><span class="sxs-lookup"><span data-stu-id="0491c-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="0491c-111">على سبيل المثال، قم بإجراء التصفية على الحقل "طريقة الدفع" بقيمة "سيبا CT".</span><span class="sxs-lookup"><span data-stu-id="0491c-111">For example, filter on the Method of payment field with a value of 'SEPA CT'.</span></span>
+3. <span data-ttu-id="0491c-112">انقر فوق "تحرير".</span><span class="sxs-lookup"><span data-stu-id="0491c-112">Click Edit.</span></span>
+4. <span data-ttu-id="0491c-113">الحقل "الفترة"، حدد "الإجمالي".</span><span class="sxs-lookup"><span data-stu-id="0491c-113">In the Period field, select 'Total'.</span></span>
+5. <span data-ttu-id="0491c-114">في الحقل "نوع الدفع"، حدد "دفع إلكتروني".</span><span class="sxs-lookup"><span data-stu-id="0491c-114">In the Payment type field, select 'Electronic payment'.</span></span>
+6. <span data-ttu-id="0491c-115">وسّع قسم المقطع "تنسيقات الملفات".</span><span class="sxs-lookup"><span data-stu-id="0491c-115">Expand the File formats section.</span></span>
+7. <span data-ttu-id="0491c-116">حدد "نعم" في الحقل "التقارير الإلكترونية العامة‬".</span><span class="sxs-lookup"><span data-stu-id="0491c-116">Select Yes in the Generic electronic reporting field.</span></span>
+8. <span data-ttu-id="0491c-117">في الحقل "تصدير تكوين التنسيق‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="0491c-117">In the Export format configuration field, enter or select a value.</span></span>
+    * <span data-ttu-id="0491c-118">في القائمة، حدد قيمة تحويل الرصيد ISO20022 (DE).</span><span class="sxs-lookup"><span data-stu-id="0491c-118">In the list, select the value ISO20022 Credit transfer (DE).</span></span> <span data-ttu-id="0491c-119">إذا كانت القائمة فارغة، فهذا يعني أن تكوين تنسيق تصدير دفعات المورّد غير مستورد ونشط.</span><span class="sxs-lookup"><span data-stu-id="0491c-119">If the list is empty, the vendor payment export format configuration is not imported and active.</span></span>  
+9. <span data-ttu-id="0491c-120">في الحقل "نوع الحساب"، اكتب "البنك‬".</span><span class="sxs-lookup"><span data-stu-id="0491c-120">In the Account type field, select 'Bank'.</span></span>
+10. <span data-ttu-id="0491c-121">في الحقل "حساب الدفع"، حدد القيم "DEMF OPER".</span><span class="sxs-lookup"><span data-stu-id="0491c-121">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
+11. <span data-ttu-id="0491c-122">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="0491c-122">Click Save.</span></span>
 
 
 

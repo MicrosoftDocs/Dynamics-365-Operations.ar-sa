@@ -2,11 +2,9 @@
 title: نظرة عامة على تطوير وإنشاء اتفاقات الخدمات
 description: تسمح لك اتفاقيات الخدمة بتحديد الموارد المستخدمة في زيارة خدمة عادية وكيفية فوترة هذه الموارد للعميل.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,67 +15,67 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86855e8893cdf5d6e53cb34465480ade06a6da95
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5f906beb4f239add265cf280f6bfade66cb9eadc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258484"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835932"
 ---
-# <a name="develop-and-establish-service-agreements-overview"></a><span data-ttu-id="01aac-103">نظرة عامة على تطوير وإنشاء اتفاقات الخدمات</span><span class="sxs-lookup"><span data-stu-id="01aac-103">Develop and establish service agreements overview</span></span>
+# <a name="develop-and-establish-service-agreements-overview"></a><span data-ttu-id="51397-103">نظرة عامة على تطوير وإنشاء اتفاقات الخدمات</span><span class="sxs-lookup"><span data-stu-id="51397-103">Develop and establish service agreements overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="01aac-104">تسمح لك اتفاقيات الخدمة بتحديد الموارد المستخدمة في زيارة خدمة عادية وكيفية فوترة هذه الموارد للعميل.</span><span class="sxs-lookup"><span data-stu-id="01aac-104">Service agreements let you define the resources that are used in a typical service visit and how those resources are invoiced to the customer.</span></span>
+<span data-ttu-id="51397-104">تسمح لك اتفاقيات الخدمة بتحديد الموارد المستخدمة في زيارة خدمة عادية وكيفية فوترة هذه الموارد للعميل.</span><span class="sxs-lookup"><span data-stu-id="51397-104">Service agreements let you define the resources that are used in a typical service visit and how those resources are invoiced to the customer.</span></span>
 
-<span data-ttu-id="01aac-105">يتم إرفاق كل اتفاقية خدمة بمشروع يتم من خلاله ترحيل الحركات وفوترتها.</span><span class="sxs-lookup"><span data-stu-id="01aac-105">Every service agreement is attached to a project through which transactions are posted and invoiced.</span></span> <span data-ttu-id="01aac-106">ومع ذلك، يُمكنك أيضًا فوترة حركات أمر الخدمة مباشرة من خلال المشروع من دون أن تحتاج أولاً إلى توصيل أمر الخدمة باتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-106">However, you can also invoice service order transactions directly through the project without first having to connect the service order to a service agreement.</span></span> <span data-ttu-id="01aac-107">قد تقرر القيام بذلك إذا كان أمر الخدمة من أجل زيارة خدمة لمرة واحدة فقط وكانت الحاجة إلى معالجة حركات الخدمة بسرعة تفوق الحاجة إلى الاحتفاظ بمعلومات اتفاقية الخدمة التفصيلية حول العميل عبر فترة زمنية.</span><span class="sxs-lookup"><span data-stu-id="01aac-107">You might decide to do this if the service order is for a one-time-only service visit and the need for processing the service transactions quickly outweighs the need for maintaining detailed service-agreement information about the customer over a period of time.</span></span>
+<span data-ttu-id="51397-105">يتم إرفاق كل اتفاقية خدمة بمشروع يتم من خلاله ترحيل الحركات وفوترتها.</span><span class="sxs-lookup"><span data-stu-id="51397-105">Every service agreement is attached to a project through which transactions are posted and invoiced.</span></span> <span data-ttu-id="51397-106">ومع ذلك، يُمكنك أيضًا فوترة حركات أمر الخدمة مباشرة من خلال المشروع من دون أن تحتاج أولاً إلى توصيل أمر الخدمة باتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-106">However, you can also invoice service order transactions directly through the project without first having to connect the service order to a service agreement.</span></span> <span data-ttu-id="51397-107">قد تقرر القيام بذلك إذا كان أمر الخدمة من أجل زيارة خدمة لمرة واحدة فقط وكانت الحاجة إلى معالجة حركات الخدمة بسرعة تفوق الحاجة إلى الاحتفاظ بمعلومات اتفاقية الخدمة التفصيلية حول العميل عبر فترة زمنية.</span><span class="sxs-lookup"><span data-stu-id="51397-107">You might decide to do this if the service order is for a one-time-only service visit and the need for processing the service transactions quickly outweighs the need for maintaining detailed service-agreement information about the customer over a period of time.</span></span>
 
-## <a name="service-agreement"></a><span data-ttu-id="01aac-108">اتفاقية الخدمة</span><span class="sxs-lookup"><span data-stu-id="01aac-108">Service agreement</span></span>
+## <a name="service-agreement"></a><span data-ttu-id="51397-108">اتفاقية الخدمة</span><span class="sxs-lookup"><span data-stu-id="51397-108">Service agreement</span></span>
 
-<span data-ttu-id="01aac-109">في كل اتفاقية خدمة، يجب عليك تحديد مشروع ومعرّف اتفاقية خدمة ومجموعة اتفاقية خدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-109">In each service agreement, you must specify a project, a service-agreement ID, and a service-agreement group.</span></span> <span data-ttu-id="01aac-110">ويُمكنك استخدام مجموعة اتفاقيات الخدمة لفرز اتفاقيات الخدمة وتنظيمها.</span><span class="sxs-lookup"><span data-stu-id="01aac-110">The service-agreement group can be used to sort and organize service agreements.</span></span>
+<span data-ttu-id="51397-109">في كل اتفاقية خدمة، يجب عليك تحديد مشروع ومعرّف اتفاقية خدمة ومجموعة اتفاقية خدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-109">In each service agreement, you must specify a project, a service-agreement ID, and a service-agreement group.</span></span> <span data-ttu-id="51397-110">ويُمكنك استخدام مجموعة اتفاقيات الخدمة لفرز اتفاقيات الخدمة وتنظيمها.</span><span class="sxs-lookup"><span data-stu-id="51397-110">The service-agreement group can be used to sort and organize service agreements.</span></span>
 
-<span data-ttu-id="01aac-111">يشتمل رأس اتفاقية الخدمة على الإعدادات التي تنطبق على كافة بنود الاتفاقية المرفقة:</span><span class="sxs-lookup"><span data-stu-id="01aac-111">A service agreement header contains settings that apply to all attached agreement lines:</span></span>
+<span data-ttu-id="51397-111">يشتمل رأس اتفاقية الخدمة على الإعدادات التي تنطبق على كافة بنود الاتفاقية المرفقة:</span><span class="sxs-lookup"><span data-stu-id="51397-111">A service agreement header contains settings that apply to all attached agreement lines:</span></span>
 
--  <span data-ttu-id="01aac-112">ما إذا كانت اتفاقية الخدمة معلقة أم لا.</span><span class="sxs-lookup"><span data-stu-id="01aac-112">Whether the service agreement is suspended.</span></span> <span data-ttu-id="01aac-113">في حالة تعليق اتفاقية الخدمة، فلا يُمكنك إنشاء أوامر خدمة من اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-113">If the service agreement is suspended, you cannot generate service orders from the service agreement.</span></span>
--  <span data-ttu-id="01aac-114">مدة اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-114">The duration of the service agreement.</span></span>
--  <span data-ttu-id="01aac-115">كيفية تجميع بنود اتفاقية الخدمة إلى أوامر خدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-115">How service-order lines are to be combined into service orders.</span></span>
--  <span data-ttu-id="01aac-116">ما إذا كانت اتفاقية الخدمة قالبًا أم لا.</span><span class="sxs-lookup"><span data-stu-id="01aac-116">Whether the service agreement is a template.</span></span>
+-  <span data-ttu-id="51397-112">ما إذا كانت اتفاقية الخدمة معلقة أم لا.</span><span class="sxs-lookup"><span data-stu-id="51397-112">Whether the service agreement is suspended.</span></span> <span data-ttu-id="51397-113">في حالة تعليق اتفاقية الخدمة، فلا يُمكنك إنشاء أوامر خدمة من اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-113">If the service agreement is suspended, you cannot generate service orders from the service agreement.</span></span>
+-  <span data-ttu-id="51397-114">مدة اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-114">The duration of the service agreement.</span></span>
+-  <span data-ttu-id="51397-115">كيفية تجميع بنود اتفاقية الخدمة إلى أوامر خدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-115">How service-order lines are to be combined into service orders.</span></span>
+-  <span data-ttu-id="51397-116">ما إذا كانت اتفاقية الخدمة قالبًا أم لا.</span><span class="sxs-lookup"><span data-stu-id="51397-116">Whether the service agreement is a template.</span></span>
 
-<span data-ttu-id="01aac-117">في رأس اتفاقية الخدمة، يمكنك أيضًا إعداد جميع كائنات الخدمة ومهام الخدمة التي يمكن استخدامها مع اتفاقية الخدمة عن طريق إدخال مهام الخدمة أو كائنات الخدمة المعينة التي يجب إرفاقها بمختلف البنود.</span><span class="sxs-lookup"><span data-stu-id="01aac-117">In the service-agreement header, you also set up all the service objects and service tasks that can be used with the service agreement by entering the specific service tasks or service objects that are to be attached to the various lines of the agreement.</span></span>
+<span data-ttu-id="51397-117">في رأس اتفاقية الخدمة، يمكنك أيضًا إعداد جميع كائنات الخدمة ومهام الخدمة التي يمكن استخدامها مع اتفاقية الخدمة عن طريق إدخال مهام الخدمة أو كائنات الخدمة المعينة التي يجب إرفاقها بمختلف البنود.</span><span class="sxs-lookup"><span data-stu-id="51397-117">In the service-agreement header, you also set up all the service objects and service tasks that can be used with the service agreement by entering the specific service tasks or service objects that are to be attached to the various lines of the agreement.</span></span>
 
-<span data-ttu-id="01aac-118">من رأس اتفاقية الخدمة، يمكنك أيضًا نسخ بنود اتفاقية الخدمة أو بنود قالب الخدمة إلى اتفاقية الخدمة الحالية.</span><span class="sxs-lookup"><span data-stu-id="01aac-118">From the service-agreement header, you can also copy service-agreement lines or service-template lines into the current service agreement.</span></span>
+<span data-ttu-id="51397-118">من رأس اتفاقية الخدمة، يمكنك أيضًا نسخ بنود اتفاقية الخدمة أو بنود قالب الخدمة إلى اتفاقية الخدمة الحالية.</span><span class="sxs-lookup"><span data-stu-id="51397-118">From the service-agreement header, you can also copy service-agreement lines or service-template lines into the current service agreement.</span></span>
 
-<span data-ttu-id="01aac-119">يمكنك تعليق اتفاقيات الخدمات وإيقاف بنود اتفاقية الخدمة الفردية.</span><span class="sxs-lookup"><span data-stu-id="01aac-119">You can suspend service agreements and stop individual service agreement lines.</span></span>
+<span data-ttu-id="51397-119">يمكنك تعليق اتفاقيات الخدمات وإيقاف بنود اتفاقية الخدمة الفردية.</span><span class="sxs-lookup"><span data-stu-id="51397-119">You can suspend service agreements and stop individual service agreement lines.</span></span>
 
-<span data-ttu-id="01aac-120">إذا حددت خانة الاختيار **معلق‬** على اتفاقية خدمة، فلا يمكنك القيام بما يلي:</span><span class="sxs-lookup"><span data-stu-id="01aac-120">If you select the **Suspended** check box on a service agreement, you cannot:</span></span>
+<span data-ttu-id="51397-120">إذا حددت خانة الاختيار **معلق‬** على اتفاقية خدمة، فلا يمكنك القيام بما يلي:</span><span class="sxs-lookup"><span data-stu-id="51397-120">If you select the **Suspended** check box on a service agreement, you cannot:</span></span>
 
--    <span data-ttu-id="01aac-121">إنشاء أوامر خدمة تلقائيًا أو يدويًا من اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-121">Create service orders automatically or manually from the service agreement.</span></span>
+-    <span data-ttu-id="51397-121">إنشاء أوامر خدمة تلقائيًا أو يدويًا من اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-121">Create service orders automatically or manually from the service agreement.</span></span>
 
-<span data-ttu-id="01aac-122">إذا حددت خانة الاختيار **متوقف** على بند اتفاقية خدمة، فلا يمكنك القيام بما يلي:</span><span class="sxs-lookup"><span data-stu-id="01aac-122">If you select the **Stopped** check box on a service agreement line, you cannot:</span></span>
+<span data-ttu-id="51397-122">إذا حددت خانة الاختيار **متوقف** على بند اتفاقية خدمة، فلا يمكنك القيام بما يلي:</span><span class="sxs-lookup"><span data-stu-id="51397-122">If you select the **Stopped** check box on a service agreement line, you cannot:</span></span>
 
--    <span data-ttu-id="01aac-123">إنشاء أوامر خدمة تلقائيًا أو يدويًا من بند اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-123">Create service orders automatically or manually from the service agreement line.</span></span>
--    <span data-ttu-id="01aac-124">نسخ بند اتفاقية الخدمة إلى اتفاقية خدمة أو أمر خدمة آخر.</span><span class="sxs-lookup"><span data-stu-id="01aac-124">Copy the service agreement line into another service agreement or service order.</span></span>
+-    <span data-ttu-id="51397-123">إنشاء أوامر خدمة تلقائيًا أو يدويًا من بند اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-123">Create service orders automatically or manually from the service agreement line.</span></span>
+-    <span data-ttu-id="51397-124">نسخ بند اتفاقية الخدمة إلى اتفاقية خدمة أو أمر خدمة آخر.</span><span class="sxs-lookup"><span data-stu-id="51397-124">Copy the service agreement line into another service agreement or service order.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="01aac-125">إذا كانت اتفاقية الخدمة معلقة، فسيتم إيقاف كافة البنود المرفقة، بصرف النظر عن حالتها الفردية.</span><span class="sxs-lookup"><span data-stu-id="01aac-125">If a service agreement is suspended, all the attached lines are stopped, regardless of their individual status.</span></span>
+> <span data-ttu-id="51397-125">إذا كانت اتفاقية الخدمة معلقة، فسيتم إيقاف كافة البنود المرفقة، بصرف النظر عن حالتها الفردية.</span><span class="sxs-lookup"><span data-stu-id="51397-125">If a service agreement is suspended, all the attached lines are stopped, regardless of their individual status.</span></span>
 
-## <a name="service-agreement-lines"></a><span data-ttu-id="01aac-126">بنود اتفاقية الخدمة</span><span class="sxs-lookup"><span data-stu-id="01aac-126">Service-agreement lines</span></span>
+## <a name="service-agreement-lines"></a><span data-ttu-id="51397-126">بنود اتفاقية الخدمة</span><span class="sxs-lookup"><span data-stu-id="51397-126">Service-agreement lines</span></span>
 
-<span data-ttu-id="01aac-127">يصف كل بند من بنود اتفاقية الخدمة بالتفصيل محتوى عمل الخدمة المقترح.</span><span class="sxs-lookup"><span data-stu-id="01aac-127">Each service-agreement line describes in detail the content of the proposed service work.</span></span> <span data-ttu-id="01aac-128">وتشتمل البنود على الإعدادات التالية:</span><span class="sxs-lookup"><span data-stu-id="01aac-128">The lines contain the following settings:</span></span>
+<span data-ttu-id="51397-127">يصف كل بند من بنود اتفاقية الخدمة بالتفصيل محتوى عمل الخدمة المقترح.</span><span class="sxs-lookup"><span data-stu-id="51397-127">Each service-agreement line describes in detail the content of the proposed service work.</span></span> <span data-ttu-id="51397-128">وتشتمل البنود على الإعدادات التالية:</span><span class="sxs-lookup"><span data-stu-id="51397-128">The lines contain the following settings:</span></span>
 
--  <span data-ttu-id="01aac-129">نوع الحركة ووصفها.</span><span class="sxs-lookup"><span data-stu-id="01aac-129">The transaction type and the description of the transaction type.</span></span>
--  <span data-ttu-id="01aac-130">الموظف الذي يقوم بعمل الخدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-130">The employee who performs the service work.</span></span>
--  <span data-ttu-id="01aac-131">الكائنات التي يجب إجراء الخدمة عليها من أجل اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-131">The objects on which service must be performed for the service agreement.</span></span>
--  <span data-ttu-id="01aac-132">تكرار إجراء العمل وتكرار تسجيل الصنف المقترن والمصروفات وحركات الرسوم.</span><span class="sxs-lookup"><span data-stu-id="01aac-132">The frequency with which work is performed and associated item, expense, and fee transactions are registered.</span></span>
--  <span data-ttu-id="01aac-133">الإطار الزمني الذي يمكن تجميع بنود أمر الخدمة فيه إلى أمر خدمة.</span><span class="sxs-lookup"><span data-stu-id="01aac-133">The time window within which service-order lines can be grouped into a service order.</span></span>
--  <span data-ttu-id="01aac-134">مهام الخدمة المستخدمة لتجميع مجموعات بنود الاتفاقية مع بعضها البعض إلى مهام عمل ولتقديم ملخص لفنيي الخدمة والعملاء حول مهمة الخدمة التي سيتم تقديمها.</span><span class="sxs-lookup"><span data-stu-id="01aac-134">The service tasks that are used to group sets of agreement lines together into work tasks and to summarize for service technicians and customers what service task is to be provided.</span></span>
--  <span data-ttu-id="01aac-135">ما إذا تم إيقاف بند أم لا.</span><span class="sxs-lookup"><span data-stu-id="01aac-135">Whether a line is stopped.</span></span> <span data-ttu-id="01aac-136">في حالة إيقاف بند، سيتعذر عليك إنشاء أوامر خدمة لذلك الصنف.</span><span class="sxs-lookup"><span data-stu-id="01aac-136">If a line is stopped, you cannot create service orders for that individual line.</span></span>
--  <span data-ttu-id="01aac-137">إعدادات المشروع، مثل الفئة وخاصية البند.</span><span class="sxs-lookup"><span data-stu-id="01aac-137">Project settings, such as the category and the line property.</span></span>
+-  <span data-ttu-id="51397-129">نوع الحركة ووصفها.</span><span class="sxs-lookup"><span data-stu-id="51397-129">The transaction type and the description of the transaction type.</span></span>
+-  <span data-ttu-id="51397-130">الموظف الذي يقوم بعمل الخدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-130">The employee who performs the service work.</span></span>
+-  <span data-ttu-id="51397-131">الكائنات التي يجب إجراء الخدمة عليها من أجل اتفاقية الخدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-131">The objects on which service must be performed for the service agreement.</span></span>
+-  <span data-ttu-id="51397-132">تكرار إجراء العمل وتكرار تسجيل الصنف المقترن والمصروفات وحركات الرسوم.</span><span class="sxs-lookup"><span data-stu-id="51397-132">The frequency with which work is performed and associated item, expense, and fee transactions are registered.</span></span>
+-  <span data-ttu-id="51397-133">الإطار الزمني الذي يمكن تجميع بنود أمر الخدمة فيه إلى أمر خدمة.</span><span class="sxs-lookup"><span data-stu-id="51397-133">The time window within which service-order lines can be grouped into a service order.</span></span>
+-  <span data-ttu-id="51397-134">مهام الخدمة المستخدمة لتجميع مجموعات بنود الاتفاقية مع بعضها البعض إلى مهام عمل ولتقديم ملخص لفنيي الخدمة والعملاء حول مهمة الخدمة التي سيتم تقديمها.</span><span class="sxs-lookup"><span data-stu-id="51397-134">The service tasks that are used to group sets of agreement lines together into work tasks and to summarize for service technicians and customers what service task is to be provided.</span></span>
+-  <span data-ttu-id="51397-135">ما إذا تم إيقاف بند أم لا.</span><span class="sxs-lookup"><span data-stu-id="51397-135">Whether a line is stopped.</span></span> <span data-ttu-id="51397-136">في حالة إيقاف بند، سيتعذر عليك إنشاء أوامر خدمة لذلك الصنف.</span><span class="sxs-lookup"><span data-stu-id="51397-136">If a line is stopped, you cannot create service orders for that individual line.</span></span>
+-  <span data-ttu-id="51397-137">إعدادات المشروع، مثل الفئة وخاصية البند.</span><span class="sxs-lookup"><span data-stu-id="51397-137">Project settings, such as the category and the line property.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="01aac-138">مواضيع مرتبطة</span><span class="sxs-lookup"><span data-stu-id="01aac-138">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="51397-138">مواضيع مرتبطة</span><span class="sxs-lookup"><span data-stu-id="51397-138">Related topics</span></span>
 
-[<span data-ttu-id="01aac-139">إنشاء اتفاقيات خدمات</span><span class="sxs-lookup"><span data-stu-id="01aac-139">Create service agreements</span></span>](create-service-agreements.md)
+[<span data-ttu-id="51397-139">إنشاء اتفاقيات خدمات</span><span class="sxs-lookup"><span data-stu-id="51397-139">Create service agreements</span></span>](create-service-agreements.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

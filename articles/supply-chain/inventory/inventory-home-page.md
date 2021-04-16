@@ -2,11 +2,9 @@
 title: نظرة عامة على إدارة المخزون
 description: يوفر هذا الموضوع نظرة عامة على إدارة المخزون.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
@@ -18,45 +16,45 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a76177a083aded953aab13fbb81681d7f117828d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2bdf4a1ae691e50f7e41374db6c2dde10b9329cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225016"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809556"
 ---
-# <a name="inventory-management-overview"></a><span data-ttu-id="dbd99-103">نظرة عامة على إدارة المخزون</span><span class="sxs-lookup"><span data-stu-id="dbd99-103">Inventory management overview</span></span>
+# <a name="inventory-management-overview"></a><span data-ttu-id="3a92f-103">نظرة عامة على إدارة المخزون</span><span class="sxs-lookup"><span data-stu-id="3a92f-103">Inventory management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="dbd99-104">يمكنك استخدام إدارة المخزون لإجراء المهام التالية:</span><span class="sxs-lookup"><span data-stu-id="dbd99-104">You can use Inventory management to perform the following tasks:</span></span>
+<span data-ttu-id="3a92f-104">يمكنك استخدام إدارة المخزون لإجراء المهام التالية:</span><span class="sxs-lookup"><span data-stu-id="3a92f-104">You can use Inventory management to perform the following tasks:</span></span>
 
--  [<span data-ttu-id="dbd99-105">العمليات الداخلية</span><span class="sxs-lookup"><span data-stu-id="dbd99-105">Inbound operations</span></span>](arrival-overview.md)
--  [<span data-ttu-id="dbd99-106">ضمان الجودة</span><span class="sxs-lookup"><span data-stu-id="dbd99-106">Quality assurance</span></span>](quality-management-processes.md)
--  [<span data-ttu-id="dbd99-107">أنشطة المخزون</span><span class="sxs-lookup"><span data-stu-id="dbd99-107">Inventory activities</span></span>](inventory-journals.md)
--  [<span data-ttu-id="dbd99-108">العمليات الخارجية</span><span class="sxs-lookup"><span data-stu-id="dbd99-108">Outbound operations</span></span>](outbound-process.md)
--  [<span data-ttu-id="dbd99-109">التحكم في المخزون</span><span class="sxs-lookup"><span data-stu-id="dbd99-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
+-  [<span data-ttu-id="3a92f-105">العمليات الداخلية</span><span class="sxs-lookup"><span data-stu-id="3a92f-105">Inbound operations</span></span>](arrival-overview.md)
+-  [<span data-ttu-id="3a92f-106">ضمان الجودة</span><span class="sxs-lookup"><span data-stu-id="3a92f-106">Quality assurance</span></span>](quality-management-processes.md)
+-  [<span data-ttu-id="3a92f-107">أنشطة المخزون</span><span class="sxs-lookup"><span data-stu-id="3a92f-107">Inventory activities</span></span>](inventory-journals.md)
+-  [<span data-ttu-id="3a92f-108">العمليات الخارجية</span><span class="sxs-lookup"><span data-stu-id="3a92f-108">Outbound operations</span></span>](outbound-process.md)
+-  [<span data-ttu-id="3a92f-109">التحكم في المخزون</span><span class="sxs-lookup"><span data-stu-id="3a92f-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
 
-## <a name="learning-map"></a><span data-ttu-id="dbd99-110">خريطة التعلم</span><span class="sxs-lookup"><span data-stu-id="dbd99-110">Learning map</span></span>
+## <a name="learning-map"></a><span data-ttu-id="3a92f-110">خريطة التعلم</span><span class="sxs-lookup"><span data-stu-id="3a92f-110">Learning map</span></span>
 
-<span data-ttu-id="dbd99-111">تظهر خريطة التعلم‬ التالية المفاهيم والمهام الرئيسية التي تشكل إطار عمل الوحدة النمطية لإدارة المخزون.</span><span class="sxs-lookup"><span data-stu-id="dbd99-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="dbd99-112">انقر فوق خريطة التعلم أدناه لتوسيعها.</span><span class="sxs-lookup"><span data-stu-id="dbd99-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="dbd99-113">ستساعدك خريطة التعلم هذه على البدء.</span><span class="sxs-lookup"><span data-stu-id="dbd99-113">This learning map will help you get started.</span></span>
+<span data-ttu-id="3a92f-111">تظهر خريطة التعلم‬ التالية المفاهيم والمهام الرئيسية التي تشكل إطار عمل الوحدة النمطية لإدارة المخزون.</span><span class="sxs-lookup"><span data-stu-id="3a92f-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="3a92f-112">انقر فوق خريطة التعلم أدناه لتوسيعها.</span><span class="sxs-lookup"><span data-stu-id="3a92f-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="3a92f-113">ستساعدك خريطة التعلم هذه على البدء.</span><span class="sxs-lookup"><span data-stu-id="3a92f-113">This learning map will help you get started.</span></span>
 
 
-<span data-ttu-id="dbd99-114">[![خريطة تعلم المخزون](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="dbd99-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
+<span data-ttu-id="3a92f-114">[![خريطة تعلم المخزون](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="3a92f-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="dbd99-115">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="dbd99-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="3a92f-115">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="3a92f-115">Additional resources</span></span>
 
-### <a name="whats-new-and-in-development"></a><span data-ttu-id="dbd99-116">ما الجديد وقيد التطوير</span><span class="sxs-lookup"><span data-stu-id="dbd99-116">What's new and in development</span></span>
-<span data-ttu-id="dbd99-117">انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.</span><span class="sxs-lookup"><span data-stu-id="dbd99-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="3a92f-116">ما الجديد وقيد التطوير</span><span class="sxs-lookup"><span data-stu-id="3a92f-116">What's new and in development</span></span>
+<span data-ttu-id="3a92f-117">انتقل إلى [خارطة طريق Microsoft Dynamics 365](https://roadmap.dynamics.com/) للاطلاع على الميزات الجديدة التي تم إصدارها والميزات الجديدة قيد التطوير.</span><span class="sxs-lookup"><span data-stu-id="3a92f-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
 
-### <a name="inventory-accounting"></a><span data-ttu-id="dbd99-118">محاسبة المخزون</span><span class="sxs-lookup"><span data-stu-id="dbd99-118">Inventory accounting</span></span> 
-<span data-ttu-id="dbd99-119">لمعرفة المزيد، راجع [إغلاق المخزون](../cost-management/inventory-close.md).</span><span class="sxs-lookup"><span data-stu-id="dbd99-119">To learn more, see [Inventory close](../cost-management/inventory-close.md).</span></span>
+### <a name="inventory-accounting"></a><span data-ttu-id="3a92f-118">محاسبة المخزون</span><span class="sxs-lookup"><span data-stu-id="3a92f-118">Inventory accounting</span></span> 
+<span data-ttu-id="3a92f-119">لمعرفة المزيد، راجع [إغلاق المخزون](../cost-management/inventory-close.md).</span><span class="sxs-lookup"><span data-stu-id="3a92f-119">To learn more, see [Inventory close](../cost-management/inventory-close.md).</span></span>
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="dbd99-120">مدونات التصنيع وSupply Chain Management</span><span class="sxs-lookup"><span data-stu-id="dbd99-120">Manufacturing and Supply Chain Management blogs</span></span>
-<span data-ttu-id="dbd99-121">يمكنك العثور على آراء وأخبار ومعلومات أخرى حول إدارة المخزون بالإضافة إلى حلول أخرى في [مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span><span class="sxs-lookup"><span data-stu-id="dbd99-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
+### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="3a92f-120">مدونات التصنيع وSupply Chain Management</span><span class="sxs-lookup"><span data-stu-id="3a92f-120">Manufacturing and Supply Chain Management blogs</span></span>
+<span data-ttu-id="3a92f-121">يمكنك العثور على آراء وأخبار ومعلومات أخرى حول إدارة المخزون بالإضافة إلى حلول أخرى في [مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span><span class="sxs-lookup"><span data-stu-id="3a92f-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
 
-### <a name="task-guides"></a><span data-ttu-id="dbd99-122">دلائل المهام</span><span class="sxs-lookup"><span data-stu-id="dbd99-122">Task guides</span></span>
-<span data-ttu-id="dbd99-123">تتوفر تعليمات إضافية كدلائل مهام.</span><span class="sxs-lookup"><span data-stu-id="dbd99-123">Additional help is available as task guides.</span></span> <span data-ttu-id="dbd99-124">للوصول إلى دلائل المهام، انقر فوق الزر **تعليمات** في أي صفحة.</span><span class="sxs-lookup"><span data-stu-id="dbd99-124">To access task guides, click the **Help** button on any page</span></span>
+### <a name="task-guides"></a><span data-ttu-id="3a92f-122">دلائل المهام</span><span class="sxs-lookup"><span data-stu-id="3a92f-122">Task guides</span></span>
+<span data-ttu-id="3a92f-123">تتوفر تعليمات إضافية كدلائل مهام.</span><span class="sxs-lookup"><span data-stu-id="3a92f-123">Additional help is available as task guides.</span></span> <span data-ttu-id="3a92f-124">للوصول إلى دلائل المهام، انقر فوق الزر **تعليمات** في أي صفحة.</span><span class="sxs-lookup"><span data-stu-id="3a92f-124">To access task guides, click the **Help** button on any page</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
