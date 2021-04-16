@@ -2,11 +2,9 @@
 title: إدخال اتفاقيات البيع
 description: يشرح هذا الموضوع كيفية إنشاء اتفاقية بيع تلزم أحد العملاء بشراء منتج بمبلغ متفق عليه مع مرور الوقت مقابل الحصول على خصومات خاصة.
 author: omulvad
-manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm, SalesAgreementCustomerReferencesPart
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cdeddc915dc5ebfddf18a5e446f54b028b02325e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 675eeda04880601f0261c6ae5e5a49de38f75a7c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260397"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810836"
 ---
 # <a name="enter-sales-agreements"></a>إدخال اتفاقيات البيع
 

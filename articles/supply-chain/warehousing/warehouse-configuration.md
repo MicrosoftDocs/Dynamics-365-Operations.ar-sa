@@ -2,11 +2,9 @@
 title: نظرة عامة على تكوين المستودع
 description: توضح هذه المقالة كيفية تكوين مستودع. ويشتمل على معلومات حول كيفية تكوين تخطيط المستودع وعمليات المستودع.
 author: perlynne
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5196460576d1bd516c5b5449fabf5421343e429d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248657"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837359"
 ---
 # <a name="warehouse-configuration-overview"></a>نظرة عامة على تكوين المستودع
 

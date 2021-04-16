@@ -1,12 +1,10 @@
 ---
 title: حساب تنبؤ العنصر
 description: يشرح هذا الموضوع كيفية حساب التنبؤ بالأصناف في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetItemForecast
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1cea3b6cfd42348285985122ae905f8ea9f3facb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9392245abe5858b03b8324dcb471f5652aed7cd6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260024"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813883"
 ---
 # <a name="calculate-item-forecast"></a>حساب تنبؤ العنصر
 

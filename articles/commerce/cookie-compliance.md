@@ -2,11 +2,9 @@
 title: توافق ملفات تعريف الارتباط
 description: يصف هذا الموضوع اعتبارات توافق ملفات تعريف الارتباط والسياسات الافتراضية المضمنة في Microsoft Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10a58cf7197d2a8596107a42174b35350e72ae11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215687"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796017"
 ---
 # <a name="cookie-compliance"></a>توافق ملفات تعريف الارتباط
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع اعتبارات توافق ملفات تعريف الارتباط والسياسات الافتراضية المضمنة في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تعد الخصوصية عاملاً هامًا عند تتبع تقنيات تؤثر على عملاء التجارة الإلكترونية. نظرًا لمعايير التوافق للخصوصية مثل ‏‫القانون العام لحماية البيانات (GDPR)‬ في الاتحاد الأوروبي (EU)، يجب مراعاة إرشادات الخصوصية الإلكترونية لأي موقع نشط اليوم. نظرًا لأن العديد من مواقع التجارة الإلكترونية يمكن الوصول إليها عالميًا بشكل افتراضي، فمن المهم أن تراجع معايير التوافق لموقع التجارة الإلكترونية الخاص بك.
 

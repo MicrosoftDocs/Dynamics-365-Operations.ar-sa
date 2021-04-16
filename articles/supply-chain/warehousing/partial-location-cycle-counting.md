@@ -2,11 +2,9 @@
 title: الجرد الدوري الجزئي للمواقع
 description: تقوم خطط الجرد الدوري‬ بإرشاد عمليات الجرد الفعلية. يمكنك أن تطلب جرد منتجات ومتغيرات منتجات معينة فقط بدلاً من المخزون الفعلي‬ بكامله في أحد المواقع.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234671"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818886"
 ---
 # <a name="partial-location-cycle-counting"></a>الجرد الدوري الجزئي للمواقع
 
@@ -48,7 +46,7 @@ ms.locfileid: "5234671"
 بالنسبة لعملية الجرد الدوري الجزئي، لن يتم تحديث تاريخ/وقت **الجرد الدوري الأخير** للموقع، على الرغم من إجراء جرد لجميع الأصناف المتوفرة في موقع معين. لا يأخذ الجرد الدوري الجزئي في الاعتبار المعلمة **عدد الأيام بين الجرد الدوري** في صفحة **خطط الجرد الدوري**. لا يدعم الجرد الدوري الجزئي الجرد المتزامن لأصناف متعددة في نفس الموقع. قد ينتج عن وظيفة الجرد الدوري الجزئي إجراء جرد للموقع نفسه عدة مرات لصنف ما عند تشغيل **معالجة خطة الجرد الدوري**. لتجنب هذا السيناريو، حدد عوامل التصفية في الحقل **تحديد المواقع**.
 
 > [!NOTE]
-> لا يقوم تطبيق المستودع بتوفير الزر **أضافه عناصر من القيمة الاضافيه أو الصنف** عند استخدام عمليه عد الدورات الجزئية.
+> لا يقوم تطبيق إدارة المستودع للأجهزة المحمولة بتوفير الزر **أضافه عناصر من القيمة الاضافيه أو الصنف** عند استخدام عمليه عد الدورات الجزئية.
 
 ## <a name="example"></a>مثال
 

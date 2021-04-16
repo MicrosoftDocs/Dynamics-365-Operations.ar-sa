@@ -2,11 +2,9 @@
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.9 (أبريل 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.9 من Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cd0e10a7dbdba446341fa2e0ee0dfbf1ed8b42f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f50636eaf633820e5cf746e2c5ee818cf670616b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226113"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813137"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.9 (أبريل 2020)
 

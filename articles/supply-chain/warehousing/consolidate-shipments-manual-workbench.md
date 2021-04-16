@@ -2,11 +2,9 @@
 title: دمج الشحنات باستخدام منضدة عمل دمج الشحنات
 description: يقدم هذا الموضوع سيناريو يتم فيه إصدار الأوامر المتعددة إلى المستودع ثم دمجها إلى شحنات لاحقًا باستخدام منضدة عمل دمج الشحنات.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 9b7dc72d789fd331c3636c406ac6a45566ba81ca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 29dd403ce2378beb6f4ba71a0b3c0836eed7566a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242171"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838408"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>دمج الشحنات باستخدام منضدة عمل دمج الشحنات
 

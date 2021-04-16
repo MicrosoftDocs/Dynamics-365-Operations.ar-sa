@@ -2,11 +2,9 @@
 title: تجميع النظام في قائمة عمل مفتوح‬
 description: يصف هذا الموضوع كيفية تصفية قائمة العمل المفتوح‬ على جهاز محمول.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb971f2ad81e4e0a4e9cfa6417bb3ddc0cb69cd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7a4faa358fc598859bf3b226b48b57594317f37d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239148"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831088"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>تجميع النظام في قائمة عمل مفتوح‬
 

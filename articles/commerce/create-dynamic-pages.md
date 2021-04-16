@@ -2,11 +2,9 @@
 title: إنشاء صفحات التجارة الإلكترونية الديناميكية استنادًا إلى معلمات عنوان URL
 description: يوضح هذا الموضوع كيفية إعداد صفحة تجارة إلكترونية في Microsoft Dynamics 365 Commerce التي يمكنها خدمة المحتوى الديناميكي، استنادا إلى معلمات URL.
 author: StuHarg
-manager: AnnBe
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
@@ -17,17 +15,16 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d6b4756fc81dc99786da251d5d9a575a71ccc49
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8f59b80880e6947e1b45c110df0e78d4bdd57c5d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208005"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795801"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>إنشاء صفحات التجارة الإلكترونية الديناميكية استنادًا إلى معلمات عنوان URL
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفية إعداد صفحة تجارة إلكترونية في Microsoft Dynamics 365 Commerce التي يمكنها خدمة المحتوى الديناميكي، استنادا إلى معلمات URL.
 

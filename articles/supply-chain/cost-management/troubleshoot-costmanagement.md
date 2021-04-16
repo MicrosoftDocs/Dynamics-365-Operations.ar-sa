@@ -1,12 +1,10 @@
 ---
 title: استكشاف أخطاء إدارة التكلفة وإصلاحها
 description: يوضح هذا الموضوع كيفية إصلاح المشكلات التي قد تواجهها أثناء العمل مع إدارة التكلفة.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262443"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834279"
 ---
 # <a name="troubleshoot-cost-management"></a>استكشاف أخطاء إدارة التكلفة وإصلاحها
 
@@ -37,7 +35,7 @@ ms.locfileid: "5262443"
 
 ويمكن ان يتسبب الإجماليات الفرعية في حدوث مشكلات عند تصدير النتيجة ، وخاصه إذا قام المستخدمون بتغيير تسلسل السجلات.
 
-لفحص الإجماليات الفرعية ، يمكنك تصدير النتيجة إلى Microsoft Excel. بدلا من ذلك ، إذا كنت ترغب في التحقق من الإجماليات الفرعية ضمن Supply Chain Management، استخدم [أداره الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتمكين ميزتي *التحكم بالشبكة الجديد* و *تجميع (معاينه) في الشبكة*، والتي توفر طريقه أكثر مرونة لمشاهده الإجمالي الفرعي لأي مجموعه حسب العمود. لمزيد من المعلومات، راجع [قدرات الشبكة](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
+لفحص الإجماليات الفرعية ، يمكنك تصدير النتيجة إلى Microsoft Excel. بدلا من ذلك، إذا كنت ترغب في التحقق من الإجماليات الفرعية ضمن Supply Chain Management، استخدم [أداره الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتمكين ميزتي *التحكم بالشبكة الجديد* و *تجميع في الشبكة*، والتي توفر طريقه أكثر مرونة لمشاهده الإجمالي الفرعي لأي مجموعه حسب العمود. لمزيد من المعلومات، راجع [قدرات الشبكة](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>تقرير تخزين قيمه المخزون لا يدعم معلومات حساب دفتر الأستاذ
 

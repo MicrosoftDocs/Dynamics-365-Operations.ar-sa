@@ -2,11 +2,9 @@
 title: إنشاء صفحات استجابة مخصصة لأخطاء رمز الحالة 4xx/5xx
 description: يوضح هذا الموضوع كيفية إنشاء صفحات استجابة مخصصة لأخطاء رمز الحالة 4xx و5xx باستخدام أدوات التأليف في Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ee2f74581ded6020d075377f931c465d7c89f9e5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6b35b3c07b1edd41e6a3763c0001529e125e4636
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211095"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799627"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>إنشاء صفحات استجابة مخصصة لأخطاء رمز الحالة 4xx/5xx
-
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إنشاء صفحات استجابة مخصصة لأخطاء رمز الحالة 4xx و5xx باستخدام أدوات التأليف في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 في حالة عدم نجاح أحد الطلبات، يقوم الخادم بإصدار استجابات خطأ رمز الحالة HTTP. يتم التقاط رمز الحالة 404 وإرجاعه إذا لم يتم العثور علي الصفحة، ويتم التقاط رمز الحالة 500 وإرجاعه في حالة حدوث خطأ بالخادم. في Dynamics 365 Commerce، يمكن لمستخدمي التطبيق بناء صفحات استجابة خطأ مخصصة لرمز الحالة التي تظهر للمستخدمين لاستجابات خطأ رمز الحالة.
 

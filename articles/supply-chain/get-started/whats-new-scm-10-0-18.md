@@ -2,7 +2,6 @@
 title: الإصدار الأولي لـ Dynamics 365 Supply Chain Management ‏10.0.18 (مايو 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.18 من Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: annbe
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0a75cd0b02c48421edebac0b83576095bea65bb6
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571778"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832120"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>الإصدار الأولي لـ Dynamics 365 Supply Chain Management ‏10.0.18 (مايو 2021)
 
@@ -36,17 +35,17 @@ ms.locfileid: "5571778"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
+يتضمن هذا الإصدار الميزات التالية. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
 - الإصدار التلقائي لأوامر الشراء (تحسين [تنفيذ المستودع بوحدات القياس في السحابة](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - للحصول على مزيد من المعلومات، راجع [أحمال عمل إدارة المستودعات للسحابة ووحدات مقياس الحافة](../cloud-edge/cloud-edge-workload-warehousing.md).
 
 - [تحسينات وأرشفه أداء المخزون بمقياس المؤسسة](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - لمزيد من المعلومات، راجع [أرشفة حركات المخزون](../inventory/archive-inventory-transactions.md)
 
-- [إدارة الخصومات](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)
+- [إدارة الخصومات](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - لمزيد من المعلومات، راجع [‏‫نظرة عامة على وحدة إدارة الخصومات](../rebate-management/rebate-management-overview.md)
 
 - الواجهة المبسطة لتسجيل الدخول والخروج فقط (تحسين [لواجهة التنفيذ في طابق الإنتاج المحسنة للتصنيع ](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - لمزيد من المعلومات، راجع [تكوين واجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-configure.md).
 
-يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
+يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. 
 
 ## <a name="new-and-updated-documentation-resources"></a>موارد وثائق جديده ومحدثه
 

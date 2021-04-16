@@ -2,11 +2,9 @@
 title: تمكين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
 description: يشرح هذا الموضوع كيفية تكوين تجربة تسجيل الدخول إلى نقطة البيع (POS) في Microsoft Dynamics 365 Commerce بحيث تستخدم مصادقة Azure Active Directory.
 author: boycezhu
-manager: annbe
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 234d19bb6659af07c65763e05671742b9581e244
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 50088aee8c2474708682c9041251d2336e84d971
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206669"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796332"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>تمكين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
 [!include [banner](includes/banner.md)]

@@ -2,11 +2,9 @@
 title: تخصيص نقاط تركيز الصورة
 description: يصف هذا الموضوع كيفية تخصيص نقاط تركيز الصورة في منشئ موقع Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fca209c9827192f50c2f1a5bd9e78146214e1e0e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 962caff0e8e41487231c6075fa7b2df2a59dca48
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222551"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799291"
 ---
 # <a name="customize-image-focal-points"></a>تخصيص نقاط تركيز الصورة
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية تخصيص نقاط تركيز الصورة في منشئ موقع Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 عند تحميل صورة إلى مكتبه الوسائط الخاصة بمنشئ موقع Commerce، يحاول النظام تحديد نقطة تركيز الصورة. على سبيل المثال، عند وجود شخص في الصورة، سيقوم النظام بتعيين نقطة التركيز إلى وجه الشخص بشكل افتراضي. في معظم الحالات، تعمل نقطة التركيز بشكل جيد لجميع مناف العرض، ولكنك قد ترغب في بعض الأحيان بضبط نقطة التركيز للتأكيد من أن جزءًا معينًا من الصورة مرئي دائمًا.
 

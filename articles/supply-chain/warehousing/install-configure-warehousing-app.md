@@ -2,11 +2,9 @@
 title: تثبيت تطبيق المستودع وتوصيله
 description: يشرح هذا الموضوع كيفية تثبيت تطبيق المستودع على كل جهاز محمول خاص بك وتكوينه للاتصال ببيئة Microsoft Dynamics 365 Supply Chain Management الخاصة بك. يمكنك تكوين كل جهاز يدويًا، أو يمكنك استيراد إعدادات الاتصال من خلال ملف أو عن طريق مسح رمز QR.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486967"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835548"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>تثبيت تطبيق المستودع وتوصيله
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> يصف هذا الموضوع كيفية تكوين تطبيق المستودع القديم. إذا كنت تبحث عن معلومات حول كيفية تكوين تطبيق الأجهزة المحمولة الخاص بإدارة المستودع، راجع [تثبيت تطبيق الأجهزة المحمولة لإدارة المستودعات والاتصال به](install-configure-warehouse-management-app.md).
+> يوضح هذا الموضوع كيفيه تكوين تطبيق المستودع القديم (الذي تم إهماله الآن). إذا كنت تبحث عن معلومات حول كيفية تكوين تطبيق الأجهزة المحمولة الخاص بإدارة المستودع، راجع [تثبيت تطبيق الأجهزة المحمولة لإدارة المستودعات والاتصال به](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > يوضح هذا الموضوع كيفية تكوين تطبيق المستودع لعمليات توزيع المجموعة. إذا كنت تبحث عن معلومات حول كيفية تكوين تطبيق مستودع لعمليات التوزيع المحلي، فراجع [التخزين لعمليات التوزيع المحلية](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
