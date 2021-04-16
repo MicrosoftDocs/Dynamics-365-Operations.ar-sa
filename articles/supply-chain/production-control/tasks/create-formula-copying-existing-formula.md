@@ -2,11 +2,9 @@
 title: إنشاء معادلة بالنسخ من معادلة موجودة
 description: يوضح هذا الإجراء كيفية إنشاء معادلة جديدة بسرعة عن طريق النسخ من معادلة موجودة.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, BOMRouteCopyDialog, HcmWorkerLookUp
 audience: Application User
@@ -16,45 +14,45 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d10d57fc924f73e1f03a1d59cd4a7c884f768631
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 482302e38b1536e09f9d26f5f153aa1deda3bf3f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255219"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829152"
 ---
-# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="f7412-103">إنشاء معادلة بالنسخ من معادلة موجودة</span><span class="sxs-lookup"><span data-stu-id="f7412-103">Create a formula by copying from an existing formula</span></span>
+# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="3ebaa-103">إنشاء معادلة بالنسخ من معادلة موجودة</span><span class="sxs-lookup"><span data-stu-id="3ebaa-103">Create a formula by copying from an existing formula</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f7412-104">يوضح هذا الإجراء كيفية إنشاء معادلة جديدة بسرعة عن طريق النسخ من معادلة موجودة.</span><span class="sxs-lookup"><span data-stu-id="f7412-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="f7412-105">يمكنك استخدام شركات بيانات العرض التوضيحي USMF أو USP2 أو USPI لإنشاء هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="f7412-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
+<span data-ttu-id="3ebaa-104">يوضح هذا الإجراء كيفية إنشاء معادلة جديدة بسرعة عن طريق النسخ من معادلة موجودة.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="3ebaa-105">يمكنك استخدام شركات بيانات العرض التوضيحي USMF أو USP2 أو USPI لإنشاء هذا الإجراء.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
 
 
-## <a name="create-a-new-formula"></a><span data-ttu-id="f7412-106">إنشاء معادلة جديدة.</span><span class="sxs-lookup"><span data-stu-id="f7412-106">Create a new formula</span></span>
-1. <span data-ttu-id="f7412-107">انتقل إلى المعادلات.</span><span class="sxs-lookup"><span data-stu-id="f7412-107">Go to Formulas.</span></span>
-2. <span data-ttu-id="f7412-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="f7412-108">Click New.</span></span>
-3. <span data-ttu-id="f7412-109">في الحقل "المعادلة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="f7412-109">In the Formula field, type a value.</span></span>
-4. <span data-ttu-id="f7412-110">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="f7412-110">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="f7412-111">في حقل "الموقع"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="f7412-111">In the Site field, enter or select a value.</span></span>
-6. <span data-ttu-id="f7412-112">في حقل "مجموعة الصنف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="f7412-112">In the Item group field, enter or select a value.</span></span>
-7. <span data-ttu-id="f7412-113">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="f7412-113">Click Save.</span></span>
+## <a name="create-a-new-formula"></a><span data-ttu-id="3ebaa-106">إنشاء معادلة جديدة.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-106">Create a new formula</span></span>
+1. <span data-ttu-id="3ebaa-107">انتقل إلى المعادلات.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-107">Go to Formulas.</span></span>
+2. <span data-ttu-id="3ebaa-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="3ebaa-108">Click New.</span></span>
+3. <span data-ttu-id="3ebaa-109">في الحقل "المعادلة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-109">In the Formula field, type a value.</span></span>
+4. <span data-ttu-id="3ebaa-110">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="3ebaa-111">في حقل "الموقع"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-111">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="3ebaa-112">في حقل "مجموعة الصنف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-112">In the Item group field, enter or select a value.</span></span>
+7. <span data-ttu-id="3ebaa-113">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="3ebaa-113">Click Save.</span></span>
 
-## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="f7412-114">نسخ من معادلة موجودة</span><span class="sxs-lookup"><span data-stu-id="f7412-114">Copy from an existing formula</span></span>
-1. <span data-ttu-id="f7412-115">انقر فوق نسخ.</span><span class="sxs-lookup"><span data-stu-id="f7412-115">Click Copy.</span></span>
-2. <span data-ttu-id="f7412-116">في الحقل "رقم الصنف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="f7412-116">In the Item number field, enter or select a value.</span></span>
-3. <span data-ttu-id="f7412-117">في حقل "إصدار المعادلة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="f7412-117">In the Formula version field, enter or select a value.</span></span>
-4. <span data-ttu-id="f7412-118">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="f7412-118">Click OK.</span></span>
+## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="3ebaa-114">نسخ من معادلة موجودة</span><span class="sxs-lookup"><span data-stu-id="3ebaa-114">Copy from an existing formula</span></span>
+1. <span data-ttu-id="3ebaa-115">انقر فوق نسخ.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-115">Click Copy.</span></span>
+2. <span data-ttu-id="3ebaa-116">في الحقل "رقم الصنف"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-116">In the Item number field, enter or select a value.</span></span>
+3. <span data-ttu-id="3ebaa-117">في حقل "إصدار المعادلة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-117">In the Formula version field, enter or select a value.</span></span>
+4. <span data-ttu-id="3ebaa-118">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="3ebaa-118">Click OK.</span></span>
 
-## <a name="revise-the-copied-formula"></a><span data-ttu-id="f7412-119">مراجعة المعادلة المنسوخة</span><span class="sxs-lookup"><span data-stu-id="f7412-119">Revise the copied formula</span></span>
-1. <span data-ttu-id="f7412-120">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="f7412-120">In the list, find and select the desired record.</span></span>
-2. <span data-ttu-id="f7412-121">انقر فوق حذف.</span><span class="sxs-lookup"><span data-stu-id="f7412-121">Click Delete.</span></span>
-3. <span data-ttu-id="f7412-122">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="f7412-122">Click Yes.</span></span>
+## <a name="revise-the-copied-formula"></a><span data-ttu-id="3ebaa-119">مراجعة المعادلة المنسوخة</span><span class="sxs-lookup"><span data-stu-id="3ebaa-119">Revise the copied formula</span></span>
+1. <span data-ttu-id="3ebaa-120">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-120">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="3ebaa-121">انقر فوق حذف.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-121">Click Delete.</span></span>
+3. <span data-ttu-id="3ebaa-122">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-122">Click Yes.</span></span>
 
-## <a name="approve-formula"></a><span data-ttu-id="f7412-123">الموافقة على التركيبة</span><span class="sxs-lookup"><span data-stu-id="f7412-123">Approve formula</span></span>
-1. <span data-ttu-id="f7412-124">انقر فوق "الموافقة على المعادلة".</span><span class="sxs-lookup"><span data-stu-id="f7412-124">Click Approve formula.</span></span>
-2. <span data-ttu-id="f7412-125">في الحقل "تم اعتماده بوساطة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="f7412-125">In the Approved by field, enter or select a value.</span></span>
-3. <span data-ttu-id="f7412-126">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="f7412-126">Click OK.</span></span>
-4. <span data-ttu-id="f7412-127">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="f7412-127">Close the page.</span></span>
+## <a name="approve-formula"></a><span data-ttu-id="3ebaa-123">الموافقة على التركيبة</span><span class="sxs-lookup"><span data-stu-id="3ebaa-123">Approve formula</span></span>
+1. <span data-ttu-id="3ebaa-124">انقر فوق "الموافقة على المعادلة".</span><span class="sxs-lookup"><span data-stu-id="3ebaa-124">Click Approve formula.</span></span>
+2. <span data-ttu-id="3ebaa-125">في الحقل "تم اعتماده بوساطة"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-125">In the Approved by field, enter or select a value.</span></span>
+3. <span data-ttu-id="3ebaa-126">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="3ebaa-126">Click OK.</span></span>
+4. <span data-ttu-id="3ebaa-127">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="3ebaa-127">Close the page.</span></span>
 
 
 

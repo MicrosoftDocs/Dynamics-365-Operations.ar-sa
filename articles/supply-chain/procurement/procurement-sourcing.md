@@ -1,105 +1,103 @@
 ---
 title: الصفحة الرئيسية للتدبير وتحديد الموارد
 description: يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8d47aa7ebe61a0ac90f4f4794a8eeff7e84974f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218431"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825508"
 ---
-# <a name="procurement-and-sourcing-home-page"></a><span data-ttu-id="1d444-103">الصفحة الرئيسية للتدبير وتحديد الموارد</span><span class="sxs-lookup"><span data-stu-id="1d444-103">Procurement and sourcing home page</span></span>
+# <a name="procurement-and-sourcing-home-page"></a><span data-ttu-id="be47d-103">الصفحة الرئيسية للتدبير وتحديد الموارد</span><span class="sxs-lookup"><span data-stu-id="be47d-103">Procurement and sourcing home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1d444-104">يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.</span><span class="sxs-lookup"><span data-stu-id="1d444-104">This topic provides a list of the help topics and other resources that are available for Procurement and sourcing.</span></span>
+<span data-ttu-id="be47d-104">يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.</span><span class="sxs-lookup"><span data-stu-id="be47d-104">This topic provides a list of the help topics and other resources that are available for Procurement and sourcing.</span></span>
 
-<span data-ttu-id="1d444-105">يغطي التدبير وتحديد الموارد كافة الخطوات بدءًا من تحديد الحاجة إلى المنتجات والخدمات وصولاً إلى تدبير المنتج وإيصال الاستلام والفاتورة ومعالجة الدفع مع المورّدين.</span><span class="sxs-lookup"><span data-stu-id="1d444-105">Procurement and sourcing covers all steps from identifying a need for product and services, through procuring the product, receipt, invoice, and processing payment with vendors.</span></span> <span data-ttu-id="1d444-106">ويمكن تكوين عمليات التدبير لاحتياجات العمل الخاصة من خلال تحديد سياسات المشتريات ومهام سير العمل.</span><span class="sxs-lookup"><span data-stu-id="1d444-106">Procurement processes can be configured toward specific business needs by defining purchasing policies and workflows.</span></span> <span data-ttu-id="1d444-107">للحصول على معلومات عامة، انظر [نظرة عامة على التدبير والتوريد‬](procurement-sourcing-overview.md).</span><span class="sxs-lookup"><span data-stu-id="1d444-107">For general information, see [Procurement and sourcing overview](procurement-sourcing-overview.md).</span></span> <span data-ttu-id="1d444-108">تم إدراج موارد إضافية أدناه.</span><span class="sxs-lookup"><span data-stu-id="1d444-108">Additional resources are listed below.</span></span>
+<span data-ttu-id="be47d-105">يغطي التدبير وتحديد الموارد كافة الخطوات بدءًا من تحديد الحاجة إلى المنتجات والخدمات وصولاً إلى تدبير المنتج وإيصال الاستلام والفاتورة ومعالجة الدفع مع المورّدين.</span><span class="sxs-lookup"><span data-stu-id="be47d-105">Procurement and sourcing covers all steps from identifying a need for product and services, through procuring the product, receipt, invoice, and processing payment with vendors.</span></span> <span data-ttu-id="be47d-106">ويمكن تكوين عمليات التدبير لاحتياجات العمل الخاصة من خلال تحديد سياسات المشتريات ومهام سير العمل.</span><span class="sxs-lookup"><span data-stu-id="be47d-106">Procurement processes can be configured toward specific business needs by defining purchasing policies and workflows.</span></span> <span data-ttu-id="be47d-107">للحصول على معلومات عامة، انظر [نظرة عامة على التدبير والتوريد‬](procurement-sourcing-overview.md).</span><span class="sxs-lookup"><span data-stu-id="be47d-107">For general information, see [Procurement and sourcing overview](procurement-sourcing-overview.md).</span></span> <span data-ttu-id="be47d-108">تم إدراج موارد إضافية أدناه.</span><span class="sxs-lookup"><span data-stu-id="be47d-108">Additional resources are listed below.</span></span>
 
-## <a name="purchase-requisitions"></a><span data-ttu-id="1d444-109">طلبات الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-109">Purchase requisitions</span></span>
--   [<span data-ttu-id="1d444-110">نظرة عامة على طلب الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-110">Purchase requisition overview</span></span>](purchase-requisitions-overview.md)
--   [<span data-ttu-id="1d444-111">إنشاء طلب للاستهلاك</span><span class="sxs-lookup"><span data-stu-id="1d444-111">Create a requisition for consumption</span></span>](tasks/create-requisition-consumption.md)
--   [<span data-ttu-id="1d444-112">إنشاء طلب يستخدم طلب عرض أسعار</span><span class="sxs-lookup"><span data-stu-id="1d444-112">Create a requisition that uses an RFQ</span></span>](tasks/create-requisition-uses-rfq.md)
--   [<span data-ttu-id="1d444-113">إعداد الأذونات لطلب المنتجات بالنيابة عن شخص آخر</span><span class="sxs-lookup"><span data-stu-id="1d444-113">Set up permissions for ordering products on behalf of someone else</span></span>](tasks/set-up-permissions-ordering-products.md)
+## <a name="purchase-requisitions"></a><span data-ttu-id="be47d-109">طلبات الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-109">Purchase requisitions</span></span>
+-   [<span data-ttu-id="be47d-110">نظرة عامة على طلب الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-110">Purchase requisition overview</span></span>](purchase-requisitions-overview.md)
+-   [<span data-ttu-id="be47d-111">إنشاء طلب للاستهلاك</span><span class="sxs-lookup"><span data-stu-id="be47d-111">Create a requisition for consumption</span></span>](tasks/create-requisition-consumption.md)
+-   [<span data-ttu-id="be47d-112">إنشاء طلب يستخدم طلب عرض أسعار</span><span class="sxs-lookup"><span data-stu-id="be47d-112">Create a requisition that uses an RFQ</span></span>](tasks/create-requisition-uses-rfq.md)
+-   [<span data-ttu-id="be47d-113">إعداد الأذونات لطلب المنتجات بالنيابة عن شخص آخر</span><span class="sxs-lookup"><span data-stu-id="be47d-113">Set up permissions for ordering products on behalf of someone else</span></span>](tasks/set-up-permissions-ordering-products.md)
 
-## <a name="requests-for-quotation"></a><span data-ttu-id="1d444-114">طلبات عرض الأسعار</span><span class="sxs-lookup"><span data-stu-id="1d444-114">Requests for quotation</span></span>
--   [<span data-ttu-id="1d444-115">نظر عامة على طلب عرض الأسعار (RFQ)</span><span class="sxs-lookup"><span data-stu-id="1d444-115">Requests for quotation (RFQs) overview</span></span>](request-quotations.md)
--   [<span data-ttu-id="1d444-116">إنشاء طلب لعرض الأسعار</span><span class="sxs-lookup"><span data-stu-id="1d444-116">Create a request for quotation</span></span>](tasks/create-request-quotation.md)
--   [<span data-ttu-id="1d444-117">إدخال عطاءات RFQ ومنح العقود ومقارنتها</span><span class="sxs-lookup"><span data-stu-id="1d444-117">Enter and compare RFQ bids and award contracts</span></span>](tasks/enter-compare-rfq-bids-award-contracts.md)
--   [<span data-ttu-id="1d444-118">إنشاء أسلوب تسجيل النقاط لطلبات عروض الأسعار</span><span class="sxs-lookup"><span data-stu-id="1d444-118">Create a scoring method for RFQs</span></span>](tasks/create-scoring-method-rfqs.md)
--   [<span data-ttu-id="1d444-119">إنشاء أنواع طلبات ومعايير تسجيل النقاط‬ لطلبات عروض الأسعار</span><span class="sxs-lookup"><span data-stu-id="1d444-119">Create solicitation types and scoring criteria for RFQs</span></span>](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
+## <a name="requests-for-quotation"></a><span data-ttu-id="be47d-114">طلبات عرض الأسعار</span><span class="sxs-lookup"><span data-stu-id="be47d-114">Requests for quotation</span></span>
+-   [<span data-ttu-id="be47d-115">نظر عامة على طلب عرض الأسعار (RFQ)</span><span class="sxs-lookup"><span data-stu-id="be47d-115">Requests for quotation (RFQs) overview</span></span>](request-quotations.md)
+-   [<span data-ttu-id="be47d-116">إنشاء طلب لعرض الأسعار</span><span class="sxs-lookup"><span data-stu-id="be47d-116">Create a request for quotation</span></span>](tasks/create-request-quotation.md)
+-   [<span data-ttu-id="be47d-117">إدخال عطاءات RFQ ومنح العقود ومقارنتها</span><span class="sxs-lookup"><span data-stu-id="be47d-117">Enter and compare RFQ bids and award contracts</span></span>](tasks/enter-compare-rfq-bids-award-contracts.md)
+-   [<span data-ttu-id="be47d-118">إنشاء أسلوب تسجيل النقاط لطلبات عروض الأسعار</span><span class="sxs-lookup"><span data-stu-id="be47d-118">Create a scoring method for RFQs</span></span>](tasks/create-scoring-method-rfqs.md)
+-   [<span data-ttu-id="be47d-119">إنشاء أنواع طلبات ومعايير تسجيل النقاط‬ لطلبات عروض الأسعار</span><span class="sxs-lookup"><span data-stu-id="be47d-119">Create solicitation types and scoring criteria for RFQs</span></span>](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
-## <a name="vendor-management-and-collaboration"></a><span data-ttu-id="1d444-120">إدارة وتعاون المورد‬</span><span class="sxs-lookup"><span data-stu-id="1d444-120">Vendor management and collaboration</span></span>
--   [<span data-ttu-id="1d444-121">إعداد حسابات الموردين</span><span class="sxs-lookup"><span data-stu-id="1d444-121">Set up vendor accounts</span></span>](set-up-vendor-accounts.md)
--   [<span data-ttu-id="1d444-122">إنشاء حساب مورد</span><span class="sxs-lookup"><span data-stu-id="1d444-122">Create a vendor account</span></span>](tasks/create-vendor-account.md)
--   [<span data-ttu-id="1d444-123">إنشاء حساب بنكي للمورّد</span><span class="sxs-lookup"><span data-stu-id="1d444-123">Create a vendor bank account</span></span>](tasks/create-vendor-bank-account.md)
--   [<span data-ttu-id="1d444-124">البحث عن الموردين</span><span class="sxs-lookup"><span data-stu-id="1d444-124">Search for vendors</span></span>](tasks/search-vendors.md)
--   [<span data-ttu-id="1d444-125">اعتماد موردين لمنتجات محددة</span><span class="sxs-lookup"><span data-stu-id="1d444-125">Approve vendors for specific products</span></span>](tasks/approve-vendors-specific-products.md)
--   [<span data-ttu-id="1d444-126">تعاون المورد مع موردين خارجيين</span><span class="sxs-lookup"><span data-stu-id="1d444-126">Vendor collaboration with external vendors</span></span>](vendor-collaboration-work-external-vendors.md)
--   [<span data-ttu-id="1d444-127">تعاون المورد مع العملاء</span><span class="sxs-lookup"><span data-stu-id="1d444-127">Vendor collaboration with customers</span></span>](vendor-collaboration-work-customers-dynamics-365-operations.md)
--   [<span data-ttu-id="1d444-128">إدارة مستخدمي تعاون المورد‬</span><span class="sxs-lookup"><span data-stu-id="1d444-128">Manage vendor collaboration users</span></span>](manage-vendor-collaboration-users.md)
--   [<span data-ttu-id="1d444-129">إعداد تعاون المورد والمحافظة عليه</span><span class="sxs-lookup"><span data-stu-id="1d444-129">Set up and maintain vendor collaboration</span></span>](set-up-maintain-vendor-collaboration.md)
--   <span data-ttu-id="1d444-130">[البرنامج النصي للعرض التوضيحي الخاص بمخزون الشحن الوارد لتطبيق Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(white paper)</span><span class="sxs-lookup"><span data-stu-id="1d444-130">[Inbound consignment inventory demo script for Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(white paper)</span></span>
--   [<span data-ttu-id="1d444-131">مراقبة مخزون الشحن باستخدام تعاون المورّد</span><span class="sxs-lookup"><span data-stu-id="1d444-131">Monitor consignment inventory using vendor collaboration</span></span>](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   <span data-ttu-id="1d444-132">[التعاون مع المورّدين باستخدام مدخل المورّد](collaborate-vendors-vendor-portal.md)  (إصدارات فبراير 2016 ومايو 2016 من Dynamics AX فقط)</span><span class="sxs-lookup"><span data-stu-id="1d444-132">[Collaborate with vendors by using the Vendor portal](collaborate-vendors-vendor-portal.md)  (February 2016 and May 2016 versions of Dynamics AX only)</span></span>
--   <span data-ttu-id="1d444-133">[أمان مستخدمي مدخل المورد](configure-security-vendor-portal-users.md) (إصدارات فبراير 2016 ومايو 2016 من Finance and Operations فقط)</span><span class="sxs-lookup"><span data-stu-id="1d444-133">[Vendor portal user security](configure-security-vendor-portal-users.md) (2016 and May 2016 versions of Finance and Operations only)</span></span>
--   [<span data-ttu-id="1d444-134">مساحة العمل المحمولة لتعاون المورد</span><span class="sxs-lookup"><span data-stu-id="1d444-134">Vendor collaboration mobile workspace</span></span>](vendor-collaboration-mobile-workspace.md)
+## <a name="vendor-management-and-collaboration"></a><span data-ttu-id="be47d-120">إدارة وتعاون المورد‬</span><span class="sxs-lookup"><span data-stu-id="be47d-120">Vendor management and collaboration</span></span>
+-   [<span data-ttu-id="be47d-121">إعداد حسابات الموردين</span><span class="sxs-lookup"><span data-stu-id="be47d-121">Set up vendor accounts</span></span>](set-up-vendor-accounts.md)
+-   [<span data-ttu-id="be47d-122">إنشاء حساب مورد</span><span class="sxs-lookup"><span data-stu-id="be47d-122">Create a vendor account</span></span>](tasks/create-vendor-account.md)
+-   [<span data-ttu-id="be47d-123">إنشاء حساب بنكي للمورّد</span><span class="sxs-lookup"><span data-stu-id="be47d-123">Create a vendor bank account</span></span>](tasks/create-vendor-bank-account.md)
+-   [<span data-ttu-id="be47d-124">البحث عن الموردين</span><span class="sxs-lookup"><span data-stu-id="be47d-124">Search for vendors</span></span>](tasks/search-vendors.md)
+-   [<span data-ttu-id="be47d-125">اعتماد موردين لمنتجات محددة</span><span class="sxs-lookup"><span data-stu-id="be47d-125">Approve vendors for specific products</span></span>](tasks/approve-vendors-specific-products.md)
+-   [<span data-ttu-id="be47d-126">تعاون المورد مع موردين خارجيين</span><span class="sxs-lookup"><span data-stu-id="be47d-126">Vendor collaboration with external vendors</span></span>](vendor-collaboration-work-external-vendors.md)
+-   [<span data-ttu-id="be47d-127">تعاون المورد مع العملاء</span><span class="sxs-lookup"><span data-stu-id="be47d-127">Vendor collaboration with customers</span></span>](vendor-collaboration-work-customers-dynamics-365-operations.md)
+-   [<span data-ttu-id="be47d-128">إدارة مستخدمي تعاون المورد‬</span><span class="sxs-lookup"><span data-stu-id="be47d-128">Manage vendor collaboration users</span></span>](manage-vendor-collaboration-users.md)
+-   [<span data-ttu-id="be47d-129">إعداد تعاون المورد والمحافظة عليه</span><span class="sxs-lookup"><span data-stu-id="be47d-129">Set up and maintain vendor collaboration</span></span>](set-up-maintain-vendor-collaboration.md)
+-   <span data-ttu-id="be47d-130">[البرنامج النصي للعرض التوضيحي الخاص بمخزون الشحن الوارد لتطبيق Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(white paper)</span><span class="sxs-lookup"><span data-stu-id="be47d-130">[Inbound consignment inventory demo script for Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(white paper)</span></span>
+-   [<span data-ttu-id="be47d-131">مراقبة مخزون الشحن باستخدام تعاون المورّد</span><span class="sxs-lookup"><span data-stu-id="be47d-131">Monitor consignment inventory using vendor collaboration</span></span>](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
+-   <span data-ttu-id="be47d-132">[التعاون مع المورّدين باستخدام مدخل المورّد](collaborate-vendors-vendor-portal.md)  (إصدارات فبراير 2016 ومايو 2016 من Dynamics AX فقط)</span><span class="sxs-lookup"><span data-stu-id="be47d-132">[Collaborate with vendors by using the Vendor portal](collaborate-vendors-vendor-portal.md)  (February 2016 and May 2016 versions of Dynamics AX only)</span></span>
+-   <span data-ttu-id="be47d-133">[أمان مستخدمي مدخل المورد](configure-security-vendor-portal-users.md) (إصدارات فبراير 2016 ومايو 2016 من Finance and Operations فقط)</span><span class="sxs-lookup"><span data-stu-id="be47d-133">[Vendor portal user security](configure-security-vendor-portal-users.md) (2016 and May 2016 versions of Finance and Operations only)</span></span>
+-   [<span data-ttu-id="be47d-134">مساحة العمل المحمولة لتعاون المورد</span><span class="sxs-lookup"><span data-stu-id="be47d-134">Vendor collaboration mobile workspace</span></span>](vendor-collaboration-mobile-workspace.md)
 
-## <a name="procurement-product-management"></a><span data-ttu-id="1d444-135">إدارة منتج التدبير</span><span class="sxs-lookup"><span data-stu-id="1d444-135">Procurement product management</span></span>
--   [<span data-ttu-id="1d444-136">نظرة عامة على كتالوجات التدبير</span><span class="sxs-lookup"><span data-stu-id="1d444-136">Procurement catalogs overview</span></span>](procurement-catalogs.md)
--   [<span data-ttu-id="1d444-137">إنشاء أوامر شراء</span><span class="sxs-lookup"><span data-stu-id="1d444-137">Create purchase orders</span></span>](tasks/create-procurement-catalog.md)
--   <span data-ttu-id="1d444-138">[استيراد كتالوجات المورّدين](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (منشور مدونة)</span><span class="sxs-lookup"><span data-stu-id="1d444-138">[Importing vendor catalogs](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (blog post)</span></span>
--   [<span data-ttu-id="1d444-139">إعداد التدرج الهرمي لفئات التدبير</span><span class="sxs-lookup"><span data-stu-id="1d444-139">Set up a procurement category hierarchy</span></span>](tasks/set-up-procurement-category-hierarchy.md)
--   [<span data-ttu-id="1d444-140">إعداد سياسات للتدرج الهرمي لفئات التدبير</span><span class="sxs-lookup"><span data-stu-id="1d444-140">Set up policies for procurement category hierarchies</span></span>](tasks/set-up-policies-procurement-category-hierarchies.md)
--   [<span data-ttu-id="1d444-141">الموافقة على الموردين لفئات تدبير معينة</span><span class="sxs-lookup"><span data-stu-id="1d444-141">Approve vendors for specific procurement categories</span></span>](tasks/approve-vendors-specific-procurement-categories.md)
+## <a name="procurement-product-management"></a><span data-ttu-id="be47d-135">إدارة منتج التدبير</span><span class="sxs-lookup"><span data-stu-id="be47d-135">Procurement product management</span></span>
+-   [<span data-ttu-id="be47d-136">نظرة عامة على كتالوجات التدبير</span><span class="sxs-lookup"><span data-stu-id="be47d-136">Procurement catalogs overview</span></span>](procurement-catalogs.md)
+-   [<span data-ttu-id="be47d-137">إنشاء أوامر شراء</span><span class="sxs-lookup"><span data-stu-id="be47d-137">Create purchase orders</span></span>](tasks/create-procurement-catalog.md)
+-   <span data-ttu-id="be47d-138">[استيراد كتالوجات المورّدين](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (منشور مدونة)</span><span class="sxs-lookup"><span data-stu-id="be47d-138">[Importing vendor catalogs](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (blog post)</span></span>
+-   [<span data-ttu-id="be47d-139">إعداد التدرج الهرمي لفئات التدبير</span><span class="sxs-lookup"><span data-stu-id="be47d-139">Set up a procurement category hierarchy</span></span>](tasks/set-up-procurement-category-hierarchy.md)
+-   [<span data-ttu-id="be47d-140">إعداد سياسات للتدرج الهرمي لفئات التدبير</span><span class="sxs-lookup"><span data-stu-id="be47d-140">Set up policies for procurement category hierarchies</span></span>](tasks/set-up-policies-procurement-category-hierarchies.md)
+-   [<span data-ttu-id="be47d-141">الموافقة على الموردين لفئات تدبير معينة</span><span class="sxs-lookup"><span data-stu-id="be47d-141">Approve vendors for specific procurement categories</span></span>](tasks/approve-vendors-specific-procurement-categories.md)
 
-## <a name="procurement"></a><span data-ttu-id="1d444-142">التدبير</span><span class="sxs-lookup"><span data-stu-id="1d444-142">Procurement</span></span>
--   [<span data-ttu-id="1d444-143">نظرة عامة على أمر الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-143">Purchase order overview</span></span>](purchase-order-overview.md)
--   [<span data-ttu-id="1d444-144">إنشاء أمر شراء</span><span class="sxs-lookup"><span data-stu-id="1d444-144">Purchase order creation</span></span>](purchase-order-creation.md)
--   [<span data-ttu-id="1d444-145">اعتماد أوامر الشراء وتأكيدها</span><span class="sxs-lookup"><span data-stu-id="1d444-145">Approve and confirm purchase orders</span></span>](purchase-order-approval-confirmation.md)
--   [<span data-ttu-id="1d444-146">إنشاء أمر شراء</span><span class="sxs-lookup"><span data-stu-id="1d444-146">Create a purchase order</span></span>](tasks/create-purchase-order.md)
--   [<span data-ttu-id="1d444-147">إنشاء أمر شراء مكرر</span><span class="sxs-lookup"><span data-stu-id="1d444-147">Create a repeat purchase order</span></span>](tasks/create-repeat-purchase-order.md)
--   [<span data-ttu-id="1d444-148">إنشاء أمر شراء من أمر مبيعات</span><span class="sxs-lookup"><span data-stu-id="1d444-148">Create a purchase order from a sales order</span></span>](../sales-marketing/tasks/create-purchase-order-sales-order.md)
--   [<span data-ttu-id="1d444-149">إنشاء أمر شراء لمورد مرة واحدة</span><span class="sxs-lookup"><span data-stu-id="1d444-149">Create a purchase order for a one-time supplier</span></span>](tasks/create-purchase-order-one-time-supplier.md)
--   [<span data-ttu-id="1d444-150">إنشاء أمر شراء مع جدول تسليم</span><span class="sxs-lookup"><span data-stu-id="1d444-150">Create a purchase order with a delivery schedule</span></span>](tasks/create-purchase-order-delivery-schedule.md)
--   [<span data-ttu-id="1d444-151">إنشاء أمر إرجاع الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-151">Create a purchase return order</span></span>](tasks/create-purchase-return-order.md)
--   [<span data-ttu-id="1d444-152">إنشاء أمر إصدار شراء من اتفاقية شراء</span><span class="sxs-lookup"><span data-stu-id="1d444-152">Create a purchase release order from a purchase agreement</span></span>](tasks/create-purchase-release-order-purchase-agreement.md)
--   [<span data-ttu-id="1d444-153">إنشاء أمر إصدار شراء عند إنشاء أمر الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-153">Create a purchase release order when creating the purchase order</span></span>](tasks/create-purchase-release-order-creating-purchase-order.md)
--   [<span data-ttu-id="1d444-154">إنشاء أمر تزويد الشحن</span><span class="sxs-lookup"><span data-stu-id="1d444-154">Create a consignment replenishment order</span></span>](../inventory/tasks/create-consignment-replenishment-order.md)
+## <a name="procurement"></a><span data-ttu-id="be47d-142">التدبير</span><span class="sxs-lookup"><span data-stu-id="be47d-142">Procurement</span></span>
+-   [<span data-ttu-id="be47d-143">نظرة عامة على أمر الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-143">Purchase order overview</span></span>](purchase-order-overview.md)
+-   [<span data-ttu-id="be47d-144">إنشاء أمر شراء</span><span class="sxs-lookup"><span data-stu-id="be47d-144">Purchase order creation</span></span>](purchase-order-creation.md)
+-   [<span data-ttu-id="be47d-145">اعتماد أوامر الشراء وتأكيدها</span><span class="sxs-lookup"><span data-stu-id="be47d-145">Approve and confirm purchase orders</span></span>](purchase-order-approval-confirmation.md)
+-   [<span data-ttu-id="be47d-146">إنشاء أمر شراء</span><span class="sxs-lookup"><span data-stu-id="be47d-146">Create a purchase order</span></span>](tasks/create-purchase-order.md)
+-   [<span data-ttu-id="be47d-147">إنشاء أمر شراء مكرر</span><span class="sxs-lookup"><span data-stu-id="be47d-147">Create a repeat purchase order</span></span>](tasks/create-repeat-purchase-order.md)
+-   [<span data-ttu-id="be47d-148">إنشاء أمر شراء من أمر مبيعات</span><span class="sxs-lookup"><span data-stu-id="be47d-148">Create a purchase order from a sales order</span></span>](../sales-marketing/tasks/create-purchase-order-sales-order.md)
+-   [<span data-ttu-id="be47d-149">إنشاء أمر شراء لمورد مرة واحدة</span><span class="sxs-lookup"><span data-stu-id="be47d-149">Create a purchase order for a one-time supplier</span></span>](tasks/create-purchase-order-one-time-supplier.md)
+-   [<span data-ttu-id="be47d-150">إنشاء أمر شراء مع جدول تسليم</span><span class="sxs-lookup"><span data-stu-id="be47d-150">Create a purchase order with a delivery schedule</span></span>](tasks/create-purchase-order-delivery-schedule.md)
+-   [<span data-ttu-id="be47d-151">إنشاء أمر إرجاع الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-151">Create a purchase return order</span></span>](tasks/create-purchase-return-order.md)
+-   [<span data-ttu-id="be47d-152">إنشاء أمر إصدار شراء من اتفاقية شراء</span><span class="sxs-lookup"><span data-stu-id="be47d-152">Create a purchase release order from a purchase agreement</span></span>](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [<span data-ttu-id="be47d-153">إنشاء أمر إصدار شراء عند إنشاء أمر الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-153">Create a purchase release order when creating the purchase order</span></span>](tasks/create-purchase-release-order-creating-purchase-order.md)
+-   [<span data-ttu-id="be47d-154">إنشاء أمر تزويد الشحن</span><span class="sxs-lookup"><span data-stu-id="be47d-154">Create a consignment replenishment order</span></span>](../inventory/tasks/create-consignment-replenishment-order.md)
 
-## <a name="prices-and-discounts"></a><span data-ttu-id="1d444-155">الأسعار والخصومات</span><span class="sxs-lookup"><span data-stu-id="1d444-155">Prices and discounts</span></span>
--   [<span data-ttu-id="1d444-156">اتفاقيات الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-156">Purchase agreements</span></span>](purchase-agreements.md)
--   [<span data-ttu-id="1d444-157">إنشاء اتفاقية شراء</span><span class="sxs-lookup"><span data-stu-id="1d444-157">Create a purchase agreement</span></span>](tasks/create-purchase-agreement.md)
--   <span data-ttu-id="1d444-158">[خصومات المورّدين](https://docs.microsoft.com/dynamics/s-e/) (مستند تقني)</span><span class="sxs-lookup"><span data-stu-id="1d444-158">[Vendor rebates](https://docs.microsoft.com/dynamics/s-e/) (white paper)</span></span>
+## <a name="prices-and-discounts"></a><span data-ttu-id="be47d-155">الأسعار والخصومات</span><span class="sxs-lookup"><span data-stu-id="be47d-155">Prices and discounts</span></span>
+-   [<span data-ttu-id="be47d-156">اتفاقيات الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-156">Purchase agreements</span></span>](purchase-agreements.md)
+-   [<span data-ttu-id="be47d-157">إنشاء اتفاقية شراء</span><span class="sxs-lookup"><span data-stu-id="be47d-157">Create a purchase agreement</span></span>](tasks/create-purchase-agreement.md)
+-   <span data-ttu-id="be47d-158">[خصومات المورّدين](https://docs.microsoft.com/dynamics/s-e/) (مستند تقني)</span><span class="sxs-lookup"><span data-stu-id="be47d-158">[Vendor rebates](https://docs.microsoft.com/dynamics/s-e/) (white paper)</span></span>
 
-## <a name="product-receipt-and-invoicing"></a><span data-ttu-id="1d444-159">إيصال استلام المنتجات والفوترة</span><span class="sxs-lookup"><span data-stu-id="1d444-159">Product receipt and invoicing</span></span>
--   [<span data-ttu-id="1d444-160">إيصال استلام المنتجات في مقابل أوامر الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-160">Product receipt against purchase orders</span></span>](product-receipt-against-purchase-orders.md)
--   [<span data-ttu-id="1d444-161">نظرة عامة على فواتير المورّدين</span><span class="sxs-lookup"><span data-stu-id="1d444-161">Overview of vendor invoices</span></span>](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [<span data-ttu-id="1d444-162">ملفات تعريف ترحيل المورد</span><span class="sxs-lookup"><span data-stu-id="1d444-162">Vendor posting profiles</span></span>](../../financials/accounts-payable/vendor-posting-profiles.md)
+## <a name="product-receipt-and-invoicing"></a><span data-ttu-id="be47d-159">إيصال استلام المنتجات والفوترة</span><span class="sxs-lookup"><span data-stu-id="be47d-159">Product receipt and invoicing</span></span>
+-   [<span data-ttu-id="be47d-160">إيصال استلام المنتجات في مقابل أوامر الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-160">Product receipt against purchase orders</span></span>](product-receipt-against-purchase-orders.md)
+-   [<span data-ttu-id="be47d-161">نظرة عامة على فواتير المورّدين</span><span class="sxs-lookup"><span data-stu-id="be47d-161">Overview of vendor invoices</span></span>](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [<span data-ttu-id="be47d-162">ملفات تعريف ترحيل المورد</span><span class="sxs-lookup"><span data-stu-id="be47d-162">Vendor posting profiles</span></span>](../../financials/accounts-payable/vendor-posting-profiles.md)
 
-## <a name="procurement-and-sourcing-workflows"></a><span data-ttu-id="1d444-163">عمليات سير العمل للتدبير وتحديد الموارد</span><span class="sxs-lookup"><span data-stu-id="1d444-163">Procurement and sourcing workflows</span></span>
--   [<span data-ttu-id="1d444-164">نظرة عامة على التدبير وتحديد الموارد</span><span class="sxs-lookup"><span data-stu-id="1d444-164">Procurement and sourcing overview</span></span>](procurement-sourcing-overview.md)
--   [<span data-ttu-id="1d444-165">عمليات سير العمل للتدبير وتحديد الموارد</span><span class="sxs-lookup"><span data-stu-id="1d444-165">Procurement and sourcing workflows</span></span>](procurement-sourcing-workflows.md)
--   [<span data-ttu-id="1d444-166">تسجيل استلام البضائع في أمر الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-166">Record the receipt of goods on the purchase order</span></span>](tasks/record-receipt-goods-purchase-order.md)
--   [<span data-ttu-id="1d444-167">سير عمل طلب الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-167">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
--   <span data-ttu-id="1d444-168">[تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://www.microsoft.com/download/details.aspx?id=101821) (مستند تقني)</span><span class="sxs-lookup"><span data-stu-id="1d444-168">[Defining business process workflows for purchase requisitions](https://www.microsoft.com/download/details.aspx?id=101821) (white paper)</span></span>
--   [<span data-ttu-id="1d444-169">نظرة عامة على سياسات الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-169">Purchasing policies overview</span></span>](purchase-policies.md)
--   [<span data-ttu-id="1d444-170">إنشاء سياسات الشراء</span><span class="sxs-lookup"><span data-stu-id="1d444-170">Create purchasing policies</span></span>](tasks/create-purchasing-policies.md)
+## <a name="procurement-and-sourcing-workflows"></a><span data-ttu-id="be47d-163">عمليات سير العمل للتدبير وتحديد الموارد</span><span class="sxs-lookup"><span data-stu-id="be47d-163">Procurement and sourcing workflows</span></span>
+-   [<span data-ttu-id="be47d-164">نظرة عامة على التدبير وتحديد الموارد</span><span class="sxs-lookup"><span data-stu-id="be47d-164">Procurement and sourcing overview</span></span>](procurement-sourcing-overview.md)
+-   [<span data-ttu-id="be47d-165">عمليات سير العمل للتدبير وتحديد الموارد</span><span class="sxs-lookup"><span data-stu-id="be47d-165">Procurement and sourcing workflows</span></span>](procurement-sourcing-workflows.md)
+-   [<span data-ttu-id="be47d-166">تسجيل استلام البضائع في أمر الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-166">Record the receipt of goods on the purchase order</span></span>](tasks/record-receipt-goods-purchase-order.md)
+-   [<span data-ttu-id="be47d-167">سير عمل طلب الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-167">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
+-   <span data-ttu-id="be47d-168">[تعريف مهام سير عمل العمليات التجارية لطلبات الشراء](https://www.microsoft.com/download/details.aspx?id=101821) (مستند تقني)</span><span class="sxs-lookup"><span data-stu-id="be47d-168">[Defining business process workflows for purchase requisitions](https://www.microsoft.com/download/details.aspx?id=101821) (white paper)</span></span>
+-   [<span data-ttu-id="be47d-169">نظرة عامة على سياسات الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-169">Purchasing policies overview</span></span>](purchase-policies.md)
+-   [<span data-ttu-id="be47d-170">إنشاء سياسات الشراء</span><span class="sxs-lookup"><span data-stu-id="be47d-170">Create purchasing policies</span></span>](tasks/create-purchasing-policies.md)
 
 
 
