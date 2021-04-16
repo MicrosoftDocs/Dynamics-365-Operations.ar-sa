@@ -2,11 +2,9 @@
 title: ترقيم المستندات والإيصالات حسب التسلسل الزمني
 description: يوضح هذا الموضوع كيفية إعداد الأرقام الزمنية واستخدامها للمستندات القابلة للتطبيق والإيصالات ذات الصلة.
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a27b6fdd1e244fb0cb8c5fcefc484494aeb88bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254502"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838851"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>ترقيم المستندات والإيصالات حسب التسلسل الزمني
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 في بعض البلدان، هناك متطلب قانوني لترقيم المستندات والإيصالات المرتبطة بترتيب زمني. يجب أن تكون التسلسل الزمني مدعومًا بالفترات. يجب أن تكون كافة الأرقام التي تنتمي إلى فترات سابقة أقل من الأرقام التي تنتمي إلى فترات لاحقة. لتلبية هذا المتطلب، تم تطبيق وظيفة الترقيم الزمني. يوضح هذا الموضوع كيفية تكوين الأرقام الزمنية واستخدامها للمستندات القابلة للتطبيق والإيصالات ذات الصلة.
 

@@ -2,11 +2,9 @@
 title: طرق إضافة المحتوى
 description: يوفر هذا الموضوع نظرة عامة ويحدد الارتباطات المتعلقة بمكان وكيفية بدء إدارة المحتوى باستخدام مجموعة أدوات التأليف على الويب لمنشئ الموقع‬ من Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208053"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797565"
 ---
 # <a name="ways-to-add-content"></a>طرق إضافة المحتوى
 
 [!include [banner](includes/banner.md)]
 
 يوفر هذا الموضوع نظرة عامة وارتباطات حول كيفية بدء إدارة المحتوى باستخدام منشئ الموقع، مجموعة أدوات التأليف على الويب المضمنة مع Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 هناك العديد من الطرق لتغيير شكل موقعك ومظهره ومحتواه. بحسب مستوى التخصيص المطلوب، يمكن تطبيق العديد من هذه التغييرات بواسطة أشخاص من غير المطورين ضمن منشئ الموقع، مجموعة أدوات التأليف على الويب المضمنة مع Dynamics 365 Commerce يسمح لك منشئ المواقع ببناء قوالب وتحديد نُسق وتحديد الوحدات النمطية وتكوينها من دون كتابة تعليمات برمجية. على النقيض من ذلك، فإن مهارات التطوير مطلوبة لإنشاء سمة أو وحدة نمطية جديدة، لأنه يجب استخدام مجموعة أدوات تطوير برامج التجارة الإلكترونية (SDK) وسير العمل لنشر Microsoft Dynamics Lifecycle Services (LCS).
 

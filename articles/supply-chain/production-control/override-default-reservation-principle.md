@@ -2,11 +2,9 @@
 title: راجع تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج.
 description: يصف هذا الموضوع كيفيه تعيين قاعده حجز افتراضيه لكل مجموعه نماذج صنف ، بحيث يمكن تطبيق قواعد الحجز المختلفة تلقائيا لكل صنف من الأصناف التي تعد جزءا من شجره مواد الإنتاج أو معادله الأمر الدفعي.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -16,17 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501092"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814792"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>راجع تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج.
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 وتتيح لك ميزه *الحجز الافتراضي لعمليه تجاوز الإنتاج* تعيين قاعده حجز افتراضيه لكل مجموعه نماذج صنف. التالي، يمكن تطبيق قواعد حجز مختلفه تلقائيا لكل صنف من الأصناف التي تعد جزءا من قائمة مكونات الصنف أو معادله الأمر الدفعي. يمكنك تحديد ما إذا كان يجب ان يتجاوز كل مجموعه نماذج صنف مبدا الحجز الافتراضي الذي يتم تعيينه لأمر ما، ويجب استخدام قاعده الحجز بدلا من ذلك ( *يدوي* أو *تقدير* أو *جدوله* أو *إصدار* أو *بدء*).
 

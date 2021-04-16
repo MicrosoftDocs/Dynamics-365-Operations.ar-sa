@@ -2,11 +2,9 @@
 title: تكوين واجهة تنفيذ صالة الإنتاج‬
 description: يصف هذا الموضوع كيفية إنشاء تكوين واحد أو أكثر لواجهة تنفيذ صالة الإنتاج‬. عند فتح واجهة تنفيذ صالة الإنتاج، يقوم تلقائيًا بتحميل التكوين الذي تم تحديده وعامل تصفية الوظيفة الخاص بالمستعرض والجهاز. في التكوين، قم بتعيين النهج التي يجب أن تكون قابلة للتطبيق لاستخدام معين.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556304"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814720"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>تكوين واجهة تنفيذ صالة الإنتاج‬
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يستخدم عمال صالة الإنتاج واجهة تنفيذ صالة الإنتاج لتسجيل عملهم اليومي، على سبيل المثال، وقت قيامهم ببدء الوظائف والإبلاغ عن ملاحظات حول الوظائف وتسجيل الأنشطة غير المباشرة وإعداد تقارير عن الغياب. تعتبر هذه التسجيلات أساسًا لتعقب التقدم والتكلفة في أوامر الإنتاج ولحساب أساس دفع العاملين.
 
@@ -67,6 +64,8 @@ ms.locfileid: "5556304"
 - ميزة قفل جهاز بطاقة العمل ومحطة بطاقة العمل بحيث يمكن تنظيفهما.
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>وظيفة إدارة الأصول لواجهة التنفيذ في طابق الإنتاج
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 تضيف هذه الميزة علامة تبويب أداره الأصول إلى واجهه تنفيذ صالة الإنتاج. يمكن للعاملين استخدام علامة التبويب هذه لتحديد أصل متصل بمورد جهاز يقع ضمن عامل التصفية المحدد لقائمه الوظائف. بالنسبة لأصل الجهاز المحدد، يمكن للعامل عرض حاله الأصل وسلامته من قيم العدادات حتى أربعه عدادات محدده. إذا كنت ترغب في استخدام هذه الميزة، قم بتشغيل الميزة التالي في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

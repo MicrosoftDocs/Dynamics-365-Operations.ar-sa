@@ -2,11 +2,9 @@
 title: جدولة مرئية لـ Lean manufacturing
 description: يوفر هذا الموضوع معلومات حول لوحة جدولة كانبان، التي يستطيع مخطط الإنتاج استخدامها لمراقبة خطة الإنتاج وتحسينها لوظائف كانبان.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoard, KanbanJobSchedulingListPage, LeanProductionFlowVisualization, KanbanBoardUnplannedJobs
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e34259f0860659a49e13371f8619ac1f93dbd3d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c04ea34ab0e44a71f5d44582d057c3ae96a5c368
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223328"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817835"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>جدولة ظاهرية لـ Lean manufacturing
 

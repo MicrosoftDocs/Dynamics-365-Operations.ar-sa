@@ -2,11 +2,9 @@
 title: معرّفات المنتجات
 description: يشتمل هذا الموضوع على معلومات حول الأنواع المختلفة لمعرفات المنتجات ويوضح الكيفية التي يمكنك به إضافة معرفات المنتجات في بيانات المنتج.
 author: cvocph
-manager: tfehr
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 1e771d6cbad3faf99f88782d424273f0d8ac98b4
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: c3f82834fa7fc5eec6411d92729439dfd49a1fcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574187"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820240"
 ---
 # <a name="product-identifiers"></a>معرّفات المنتجات
 

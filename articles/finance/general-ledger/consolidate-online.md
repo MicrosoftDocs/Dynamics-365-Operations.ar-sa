@@ -2,11 +2,9 @@
 title: عمليات الدمج المالية عبر الإنترنت
 description: يصف هذا الموضوع عمليات الدمج المالية في دفتر الأستاذ العام.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: b25d52524d1b115a7513a73eafa1aef44e25562d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8a946a8325afebf76639991c60135d7425f5f211
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212291"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826752"
 ---
 # <a name="online-financial-consolidations"></a>عمليات الدمج المالية عبر الإنترنت
 

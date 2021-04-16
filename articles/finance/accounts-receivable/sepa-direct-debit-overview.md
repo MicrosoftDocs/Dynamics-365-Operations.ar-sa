@@ -2,11 +2,9 @@
 title: نظرة عامة على خصم سيبا المباشر
 description: تم إعداد منطقة الدفع الموحد باليورو (سيبا) بواسطة المفوضية الأوروبية، والتي تقتضي أن تعتبر جميع عمليات الدفع الإلكترونية داخلية، بغض النظر عن مكان البلد/المنطقة، والشركة أو المؤسسة، والبنك. ليس هناك فرق بين المدفوعات داخل الوطن وعبر الحدود. تضم سيبا الدول الأعضاء في الاتحاد الأوروبي (EU) وعددها 28 دولة، بالإضافة إلى أيسلندا وليختنشتاين، والنرويج، وسويسرا، وموناكو، وسان مارينو‬. تساعد سيبا من سوق واحد لحركات الدفع داخل المنطقة الاقتصادية الأوروبية (EEA). وفي النهاية، من المتوقع أن تقوم سيبا بتقليل عدد تنسيقات الدفع التي يجب أن تعمل البنوك والشركات والأفراد من خلالها.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c0a64e2bfefb7c4ed0e0f07be60e9f5293f8d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229612"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835258"
 ---
 # <a name="sepa-direct-debit-overview"></a>نظرة عامة على خصم سيبا المباشر
 

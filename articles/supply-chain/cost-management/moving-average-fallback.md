@@ -2,11 +2,9 @@
 title: تسلسل التكلفة الاحتياطية للمتوسط المتحرك
 description: يوفر هذا الموضوع معلومات حول تسلسلات التكاليف الاحتياطية الخاصة بحسابات المتوسط المتحرك في Microsoft Dynamics 365 Supply Chain Management.
 author: AndersGirke
-manager: tfehr
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1f5b1307f039bb9e921d50aed411b3dc603ada65
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 09da3c3a79b5540670db25d5466023132d2848f4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263604"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832264"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>تسلسل التكلفة الاحتياطية للمتوسط المتحرك
 

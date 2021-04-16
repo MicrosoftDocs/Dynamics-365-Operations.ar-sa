@@ -2,11 +2,9 @@
 title: تكوين اسم مجالك
 description: يوضح هذا الموضوع كيفية تكوين اسم مجال لموقع التجارة الإلكترونية Microsoft Dynamics 365.
 author: psimolin
-manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8b7bc322b1a42190d5eec99f89a34025c34ba09f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3d41168da44100a09c58b8c05367ab45bbd62a30
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220476"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796041"
 ---
 # <a name="configure-your-domain-name"></a>تكوين اسم مجالك
 

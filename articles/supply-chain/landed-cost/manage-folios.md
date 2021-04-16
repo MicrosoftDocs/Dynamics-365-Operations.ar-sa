@@ -2,7 +2,6 @@
 title: إدارة السجلات
 description: يصف هذا الموضوع كيفيه العمل مع السجلات. يتكون السجل عادةً من بضائع مورد واحد لكيان أو شركة واحدة لكل شحنة. يمكن أن تكون البضائع الموجودة في سجل في حاوية واحدة، أو يمكن أن تنتشر بين عدة حاويات.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2205ad8da1987130e97054b3f20749bce61198dd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 99159d2197648b8f17a719b74c8cd6ea4bffe550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500828"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833823"
 ---
 # <a name="manage-folios"></a>إدارة السجلات
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 غالبًا ما يتم تحديد السجل بواسطة لوائح الجمارك. يمكن أن تتكون من سلع مورد واحد شركة أو كيان واحد لكل شحنة. يمكن أن تكون البضائع الموجودة في سجل في حاوية واحدة، أو يمكن أن تنتشر بين عدة حاويات.
 

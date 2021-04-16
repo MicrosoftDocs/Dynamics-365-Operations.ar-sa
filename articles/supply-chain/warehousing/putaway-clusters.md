@@ -2,11 +2,9 @@
 title: مجموعات التخزين
 description: تقدم أنظمه مجموعات التخزين طريقه لانتقاء عده لوحات ترخيص في نفس الوقت ثم القيام بها للتخزين في مواقع مختلفه. ويمكن ان تكون مفيده جدا لاعمال البيع بالتجزئة ، حيث لا تعد لوحات الترخيص بالتات كامله من المخزون.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228431"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840355"
 ---
 # <a name="putaway-clusters"></a>مجموعات التخزين
 
@@ -230,7 +228,7 @@ ms.locfileid: "5228431"
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>استلام المخزون وفرزه في نظام مجموعه
 
-1. سجل الدخول إلى تطبيق المستودع كمستخدم تم إعداده للمستودع *61*.
+1. سجل الدخول إلى تطبيق إدارة المستودع للأجهزة المحمولة كمستخدم مُعد للمستودع *61*.
 1. من القائمة الرئيسية، حدد **وارد**.
 1. في القائمة **وارد**، حدد **استلام نظام المجموعة وفرزها**.
 1. في حقل **‎Ponum**، أدخل رقم أمر الشراء.
@@ -272,7 +270,7 @@ ms.locfileid: "5228431"
 
 #### <a name="put-the-cluster-away"></a>تخزين نظام المجموعة
 
-1. سجل الدخول إلى تطبيق المستودع كمستخدم تم إعداده للمستودع *61*.
+1. سجل الدخول إلى تطبيق إدارة المستودع للأجهزة المحمولة كمستخدم مُعد للمستودع *61*.
 1. من القائمة الرئيسية، حدد **وارد**.
 1. من القائمة **الوارد**، حدد **تخزين نظام المجموعة**.
 1. حدد **معرف نظام المجموعة**، وادخل معرف نظام المجموعة الذي قمت بإدخاله سابقا لنظام المجموعة المغلق.

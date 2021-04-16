@@ -2,11 +2,9 @@
 title: صفحات والوحدات النمطية لإدارة الحساب
 description: يُغطي هذا الموضوع صفحات إدارة الحساب والوحدات النمطية في Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4959a61f1b2948c62a558523a848ff8b2fe0a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206621"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796284"
 ---
 # <a name="account-management-pages-and-modules"></a>صفحات والوحدات النمطية لإدارة الحساب
 
@@ -51,9 +49,9 @@ ms.locfileid: "5206621"
 
 توفر صفحة تفاصيل الأمر معلومات مفصلة لكل أمر ويتم الوصول إليها من صفحة سجل الأمر. وهي تستخدم الوحدة النمطية لتفاصيل الأمر، والتي تتطلب وجود مُعرف المبيعات أو مُعرف الحركة لاسترداد تفاصيل الأمر.
 
-### <a name="user-profile-page"></a>صفحة ملف تعريف المستخدم
+### <a name="my-profile-page"></a>صفحة ملف التعريف الخاصة بي
 
-تعرض صفحة ملف تعريف المستخدم تفاصيل حساب المستخدم، مثل اسم المستخدم وعنوان البريد الإلكتروني. وهي تستخدم تفاصيل ملف تعريف المستخدم ووحدات تحرير ملف تعريف المستخدم. على الرغم من عدم إمكانية إزالة عنوان البريد الإلكتروني، إلا أنه يُمكن تحريره. تظهر صفحة ملف تعريف المستخدم أيضًا تفضيلات المستخدم التي تُمكن المستخدم من تمكين أو تعطيل ميزات معينة، مثل تخصيص قوائم التوصيات. 
+تعرض صفحه ملف التعريف الخاص بي تفاصيل ملف تعريف المستخدم باستخدام الوحدة النمطية لملف تعريف الحساب. تعرض الصفحة عنوان البريد الكتروني المرتبط بحساب المستخدم، وكذلك اعداد التفضيلات التي تم اعدادها للحساب. إذا قمت باعداد سمات عميل مخصصه، سيعرض القسم "معلومات اضافيه" هذه السمات أيضا. يمكن للمستخدمين تحرير اسمهم، أو تفضيلاتهم، أو معلومات اضافيه (إذا كان ذلك متوفرا).
 
 ### <a name="user-address-page"></a>صفحة عنوان المستخدم
 

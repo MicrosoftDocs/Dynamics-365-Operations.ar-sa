@@ -2,11 +2,9 @@
 title: تحميل صور
 description: يصف هذا الموضوع كيفية تحميل الصور في منشئ موقع Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51571ce221714598b2e2d39c76cb69dcb57cc52b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0a2fdb275cbeb65c06c01128e90ba660f98c9b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213784"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799219"
 ---
 # <a name="upload-images"></a>تحميل صور
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية تحميل الصور في منشئ موقع Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تسمح لك مكتبة وسائط منشئ موقع Commerce بتحميل الصور، أو بشكل فردي أو بشكل مجمع باستخدام المجلدات. يجب أن تقوم دائمًا بتحميل إصدار الصورة الأعلى دقة وجودة، لأن مكون تغيير حجم الصورة سيقوم تلقائيًا بتحسين الصورة لمنافذ عرض مختلفة ونقاط التوقف الخاصة بها.
 
@@ -58,7 +54,8 @@ ms.locfileid: "5213784"
 - يجب تسمية صور الموظفين "**/Workers/\{WorkerNumber\}.jpg**"
 - يجب تسمية صور المنتجات "**/Products/\{ProductNumber\}_000_001.png**"
     - يمثل 001 تسلسل الصورة ويمكنها أن يكون 001 أو 002 أو 003 أو 004 أو 005
-- يجب تسمية صور متغيرات المنتجات "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
+- يجب تسمية صور متغيرات المنتجات "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
+    - على سبيل المثال: 93039 \^ \^ 2 \^ Black \^_000_001.png
 
 ## <a name="upload-an-image"></a>تحميل صورة
 

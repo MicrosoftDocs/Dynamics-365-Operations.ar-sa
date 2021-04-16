@@ -2,11 +2,9 @@
 title: عمليات سير عمل الموافقة على دفتر يومية المخزون
 description: يوضح هذا الموضوع كيفية إعداد عمليات سير عمل الموافقة على دفتر يومية المخزون واستخدامها لمختلف أنواع حركات المخزون الفعلي. تساعد عمليات سير عمل دفتر يومية المخزون الموافق عليها على التأكد من أن دفاتر يومية المخزون الموافق عليها يمكن ترحيلها إلى الحركات.
 author: sherry-zheng
-manager: tfehr
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 596182dfd7430e4d1e35ffebb795fbcf98d45e33
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247900"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826001"
 ---
 # <a name="inventory-journal-approval-workflows"></a>عمليات سير عمل الموافقة على دفتر يومية المخزون
 
@@ -57,7 +55,7 @@ ms.locfileid: "5247900"
     - **دفتر يومية قائمة مكونات صنف المخزون**
     - **دفتر يومية تعديل المخزون**
 
-    ![مربع الحوار "إنشاء سير عمل"](media/journal-workflow-create-workflow.png "مربع الحوار "إنشاء سير عمل"")
+    ![مربع الحوار "إنشاء سير عمل"](media/journal-workflow-create-workflow.png "مربع الحوار &quot;إنشاء سير عمل&quot;")
 
 1. يبدأ تشغيل تطبيق محرر سير العمل على جهازك. (قد يطلب منك الموافقة على هذا الإجراء.) استخدمه لتصميم سير العمل حسب الحاجة. للحصول على تفاصيل حول كيفية استخدام محرر سير العمل، راجع [نظرة عامة حول نظام سير العمل](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. بعد حفظ تطبيق محرر سير العمل وإغلاقه، يجب أن تختار تنشيط إصدار سير العمل هذا أو إبقاءه نشطًا.

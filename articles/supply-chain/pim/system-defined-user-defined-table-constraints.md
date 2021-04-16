@@ -2,11 +2,9 @@
 title: قيود الجدول المحددة بواسطة المستخدم أو المحددة بواسطة النظام
 description: 'توضح هذه المقالة نوعي قيود الجدول للمكونات في نموذج تكوين منتج: القيود المحددة من قِبل المستخدم والقيود المحددة من قِبل النظام. تمثل قيود الجدول مقاييس مجموعات السمات المسموح بها، حيث يعرّف كل صف مجموعة واحدة من قيم السمات الممكنة.'
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e922e7961cad5880e45cb2e86e3c084a52cd6b7c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7ddc7b9f0ccaa787b2297a253a7fdd9de11e9eee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237438"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812658"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>قيود الجدول المحددة بواسطة المستخدم أو المحددة بواسطة النظام
 

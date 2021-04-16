@@ -2,11 +2,9 @@
 title: التعاقد من الباطن
 description: سيساعدك هذا الموضوع على بناء نظرة عامة على التعاقد من الباطن في التصنيع في Dynamics 365 Supply Chain Management.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255531"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825172"
 ---
 # <a name="subcontracting"></a>التعاقد من الباطن
 
@@ -210,7 +208,7 @@ ms.locfileid: "5255531"
 
     ![مجموعتي عمل لانتقاء المادة الخام في صفحة العمل](./media/subcontract22_work-page.png)
 
-26. بدء تشغيل تطبيق المستودع لمعالجة عمل المستودع للعملية 10.
+26. بدء تشغيل تطبيق إدارة المستودع للأجهزة المحمولة لمعالجة عمل المستودع للعملية 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -220,15 +218,15 @@ ms.locfileid: "5255531"
 30. في علامة التبويب **عام** ، حدد القيم التالية:
 
     - في حقل **من العملية رقم.** حدد **10**.
-    - في حقل **إلى العملية رقم.** ، حدد **10**.
+    - في حقل **إلى العملية رقم.** حدد **10**.
 
-    ![مجموعة القيم في علامة التبويب عام](./media/subcontract23_start-dialog.png)
+    ![مجموعة القيم في علامة التبويب عام 1](./media/subcontract23_start-dialog.png)
 
 31. حدد **موافق** لإغلاق مربع حوار **بداية** والعودة إلى صفحة **كافة أوامر الإنتاج**.
 
     لاحظ أن حالة أمر الإنتاج الآن هي **تم البدء**. تم استهلاك المواد للعملية 10 من خلال الترحيل التلقائي لدفتر يومية قائمة الانتقاء. يتم حساب استهلاك الوقت للعملية 10 من خلال الترحيل التلقائي لدفتر يومية بطاقة المسار.
 
-32. بدء تشغيل تطبيق المستودع لمعالجة عمل المستودع للعملية 20.
+32. بدء تشغيل تطبيق إدارة المستودع للأجهزة المحمولة لمعالجة عمل المستودع للعملية 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ ms.locfileid: "5255531"
     - في حقل **كمية** ، أدخل **10**.
     - حدد خيار **ترحيل قائمة الانتقاء الآن** إلى **لا**.
 
-    ![مجموعة القيم في علامة التبويب عام](./media/subcontract24_general-tab.png)
+    ![مجموعة القيم في علامة التبويب عام 2](./media/subcontract24_general-tab.png)
 
 35. حدد **موافق** لإغلاق مربع حوار **بداية** والعودة إلى صفحة **كافة أوامر الإنتاج**.
 

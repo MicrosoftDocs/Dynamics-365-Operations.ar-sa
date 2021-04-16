@@ -1,12 +1,10 @@
 ---
 title: ‏‫مؤشرات الأداء الرئيسي‬ الخاصة بالأصل
 description: يشرح هذا الموضوع مؤشرات الأداء الأساسية للأصول في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8741ad9c70182c0f4f9d4d5272a023a3627340f6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 90759931fcbdb1e5acbd62f8a40e5b37b918f31a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253796"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813859"
 ---
 # <a name="asset-kpis"></a>‏‫مؤشرات الأداء الرئيسي‬ الخاصة بالأصل
 

@@ -2,11 +2,9 @@
 title: إعدادات مستخدم الجهاز المحمول
 description: يوضح هذا الموضوع كيفيه أداره إعدادات مستخدم الجهاز المحمول للعاملين في المستودع.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppDeviceBrand,WHSMobileAppUserDisplaySettings
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8090305c1b296d8a8a64df444abb1d1f2235aeee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501188"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837455"
 ---
 # <a name="mobile-device-user-settings"></a>إعدادات مستخدم الجهاز المحمول
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يحتوي تطبيق الاجهزه المحمولة لأداره المستودعات الجديد علي مجموعه من الإعدادات الخاصة بالتطبيق والتي تساعد في تخصيص أسلوب عمل المستخدم. نظرًا لأنه يمكن استخدام التطبيق على أجهزة ذات أحجام وتكوينات مختلفة للشاشة (مثل الجهاز اللوحي أو الهاتف أو الهاتف المحمول)، فقد يكون من المفيد إدارة هذه الإعدادات مركزيًا من Microsoft Dynamics 365 Supply Chain Management.
 
