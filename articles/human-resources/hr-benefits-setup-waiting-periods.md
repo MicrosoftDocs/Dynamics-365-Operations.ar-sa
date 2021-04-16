@@ -2,11 +2,9 @@
 title: تكوين فترات الانتظار
 description: في Microsoft Dynamics 365 Human Resources، يُنشئ أيام الانتظار حدثا رئيسيًا يُستخدم في خطط الميزات.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0e08c0c02393506e1e292676c954bdf3850029f7
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: c3621580e0db3ca5b041ddac0ec882a1e42e429b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468289"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791403"
 ---
 # <a name="configure-waiting-periods"></a>تكوين فترات الانتظار
 

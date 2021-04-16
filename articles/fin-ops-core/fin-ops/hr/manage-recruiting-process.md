@@ -1,8 +1,7 @@
 ---
 title: إدارة عمليات التوظيف
-description: توضح هذه المقالة مفهوم يمكن للمعينين استخدامه لتعقب خطوات عملية تعيين، بما في ذلك الجهود الرامية إلى الإعلان عن مناصب شاغرة وتوظيف مقدمي الطلبات، وتعقب مقدم الطلب ومعلومات مقدم الطلب، وإجراء المقابلات مع مقدمي الطلبات، وتحديد واحد أو أكثر من المرشحين لشغل المناصب الشاغرة في المؤسسة الخاصة بك.
+description: تصف هذه المقالة مفهومًا يمكن لمسؤولي التوظيف استخدامه لتتبع خطوات عملية التوظيف.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b08f8837f4c3ffaa17ed740c2659cd8eb311a808
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 74ff8b081f5c82a089eef47b5cc18bc498a34c21
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560843"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752068"
 ---
 # <a name="manage-recruiting-processes"></a>إدارة عمليات التوظيف
 

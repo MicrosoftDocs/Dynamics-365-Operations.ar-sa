@@ -2,7 +2,6 @@
 title: نظرة على إدارة الميزات
 description: يصف هذا الموضوع ميزة إدارة الميزات وكيف يمكن استخدامها.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6226fc69048b724a96f3de516c26829fdf50e7a2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570911"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754790"
 ---
 # <a name="feature-management-overview"></a>نظرة على إدارة الميزات
 

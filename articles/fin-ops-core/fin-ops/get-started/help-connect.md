@@ -1,8 +1,7 @@
 ---
 title: تكوين تجربة التعليمات لتطبيقات Finance and Operations
-description: يوفر هذا الموضوع معلومات حول مكونات نظام التعليمات لبعض تطبيقات Microsoft Dynamics 365. كما يوضح كيفية توصيل هذه التطبيقات وتوفير ملخص لعملية إنشاء تعليمات مخصصة.
+description: يوفر هذا الموضوع معلومات حول مكونات نظام التعليمات لبعض تطبيقات Microsoft Dynamics 365.
 author: margoc
-manager: AnnBe
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 467cce5a80dc7577647e82c8652c8a7adc67a498
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565918"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745679"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>تكوين تجربة التعليمات لتطبيقات Finance and Operations
 

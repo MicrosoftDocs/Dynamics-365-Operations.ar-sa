@@ -2,7 +2,6 @@
 title: عناصر سير العمل
 description: يوضح هذا الموضوع العناصر المختلفة التي تشكّل سير عمل.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc8606dbf475c7429d9ded1063e94646c6084ef0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 20f320e84d5faaf964585f30581d24996131031c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559348"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747141"
 ---
 # <a name="workflow-elements"></a>عناصر سير العمل
 

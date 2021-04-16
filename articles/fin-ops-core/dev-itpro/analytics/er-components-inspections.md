@@ -2,7 +2,6 @@
 title: فحص مكون التقارير الإلكترونية الذي تم تكوينه لمنع مشكلات وقت التشغيل
 description: يشرح هذا الموضوع كيفية فحص مكونات التقارير الإلكترونية (التقارير الإلكترونية) المكونة لمنع مشكلات وقت التشغيل التي قد تحدث.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574115"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753830"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>فحص مكون التقارير الإلكترونية الذي تم تكوينه لمنع مشكلات وقت التشغيل
 
@@ -666,19 +665,19 @@ ms.locfileid: "5574115"
 
 ![خطأ وقت التشغيل الذي يحدث أثناء تشغيل تعيين التنسيق في صفحة مصمم التنسيق](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>الحل التلقائي
+### <a name="automatic-resolution&quot;></a>الحل التلقائي
 
 لا يتوفر اي خيار لإصلاح هذه المشكلة تلقائيا.
 
-### <a name="manual-resolution"></a>الحل اليدوي
+### <a name=&quot;manual-resolution&quot;></a>الحل اليدوي
 
-#### <a name="option-1"></a>خيار 1
+#### <a name=&quot;option-1&quot;></a>خيار 1
 
 قم بإزالة علامة **ذاكرة التخزين المؤقت** من مصدر بيانات **المورد**. سيصبح مصدر بيانات **FilteredVendor** قابلاً للتنفيذ حينئذٍ، ولكن سيتم الوصول إلى مصدر بيانات **المورد** الذي تمت الإشارة إليه في جدول VendTable في كل مرة يتم فيها استدعاء مصدر بيانات **FilteredVendor**.
 
-#### <a name="option-2"></a>خيار 2
+#### <a name=&quot;option-2&quot;></a>خيار 2
 
-قم بتغيير التعبير الخاص بمصدر بيانات **FilteredVendor** من `FILTER(Vendor, Vendor.AccountNum="US-101")`إلى `WHERE(Vendor, Vendor.AccountNum="US-101")`. في هذه الحالة، سيتم الوصول إلى مصدر بيانات **المورد** المشار إليه في جدول VendTable فقط أثناء الاستدعاء الأول لمصدر بيانات **المورد**. ومع ذلك، سيتم إجراء تحديد السجلات في الذاكرة. لذلك، يمكن ان يتسبب هذا الأسلوب في ضعف الأداء.
+قم بتغيير التعبير الخاص بمصدر بيانات **FilteredVendor** من `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")`إلى `WHERE(Vendor, Vendor.AccountNum="US-101")`. في هذه الحالة، سيتم الوصول إلى مصدر بيانات **المورد** المشار إليه في جدول VendTable فقط أثناء الاستدعاء الأول لمصدر بيانات **المورد**. ومع ذلك، سيتم إجراء تحديد السجلات في الذاكرة. لذلك، يمكن ان يتسبب هذا الأسلوب في ضعف الأداء.
 
 ## <a name="missing-binding"></a><a id="i11"></a>الربط مفقود
 

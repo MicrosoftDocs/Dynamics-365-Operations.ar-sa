@@ -2,11 +2,9 @@
 title: تحديث العملية
 description: إن Microsoft Dynamics 365 Human Resources عبارة عن خدمة تأجير برامج (SaaS) حقيقية توفر تحديثات خدمة مستمرة بدون لمس للتغييرات في التطبيق والنظام الأساسي.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466822"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791523"
 ---
 # <a name="update-process"></a>تحديث العملية
 
@@ -58,14 +56,14 @@ ms.locfileid: "5466822"
 
 تتم مراجعة الإصدارات واختبارها والتحقق من صحتها في بيئة داخلية. بعد تسجيل الخروج من الإصدارات، يتم نشرها بعد ذلك إلى الإنتاج.
 
-## <a name="release-cadence-exceptions-in-2020"></a>إصدار استثناءات الوتيرة في 2020
+## <a name="release-cadence-exceptions-in-2021"></a>إصدار استثناءات الوتيرة في 2021
 
-لحساب الإجازات، يكون جدول الإصدار لشهري نوفمبر وديسمبر 2020 كالتالي:
+لحساب الإجازات، يكون جدول الإصدار لشهري نوفمبر وديسمبر 2021 كالتالي:
 
-- إصدار شهر نوفمبر: 2 نوفمبر - 13 نوفمبر
-- إصدار شهر ديسمبر: 30 نوفمبر - 11 ديسمبر
+- إصدار شهر نوفمبر: 1 نوفمبر - 14 نوفمبر
+- إصدار شهر ديسمبر: 29 نوفمبر - 12 ديسمبر
  
-سيتم استئناف وتيرة الإصدار من أسبوعين بالشكل المعتاد في 11 يناير 2021.
+سيتم استئناف وتيرة الإصدار من أسبوعين بالشكل المعتاد في 10 يناير 2022.
 
 ## <a name="communications"></a>المراسلات
 

@@ -2,7 +2,6 @@
 title: تعديل التنسيقات لإنشاء مستندات تتضمن بيانات التطبيق
 description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لإنشاء مستند إلكتروني وتحديث بيانات التطبيق.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad75adb22efbd90d3fb4a71a2d592950a66bafd8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 96b36f987457d6973a96e90d6978438df7c8c6e4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565431"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754220"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>تعديل التنسيقات لإنشاء مستندات تتضمن بيانات التطبيق
 

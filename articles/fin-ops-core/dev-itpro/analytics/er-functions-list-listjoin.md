@@ -2,7 +2,6 @@
 title: الدالة LISTJOIN ER
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام دالة إعداد التقارير الإلكترونية LISTJOIN.
 author: NickSelin
-manager: kfend
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6713823d8d089a677c39bc2a8b5cfe1d1b23b459
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: efee93df7d1cf40d016b36042bb5e7f33c47ae44
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563766"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743789"
 ---
 # <a name="listjoin-er-function"></a>الدالة LISTJOIN ER
 
