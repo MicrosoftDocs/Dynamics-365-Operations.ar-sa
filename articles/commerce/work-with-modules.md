@@ -2,11 +2,9 @@
 title: العمل باستخدام الوحدات النمطية
 description: يوضح هذا الموضوع كيفية استخدام الوحدات النمطية ووقت استخدامها في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eddee09fa81c18bc464b7768921981e6b5159a3e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d872719d3b1aa27ccfdcf36d7739c883e7b4996
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210889"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801351"
 ---
 # <a name="work-with-modules"></a>العمل باستخدام الوحدات النمطية
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية استخدام الوحدات النمطية ووقت استخدامها في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تُعد الوحدات النمطية كتل إنشاء منطقية تتكون منها بنية الصفحة الخاصة بك، ويكون لها أغراض ونطاقات متعددة. وتُعد بعض الوحدات النمطية حاويات عالية المستوى، والغرض الوحيد منها هو استيعاب وتنظيم الوحدات النمطية الأخرى (الوحدات النمطية التابعة). ويكون للوحدات النمطية الأخرى، مثل الوحدة النمطية البسيطة لوضع صورة، غرض محدد جدًا. وتقع الوحدات النمطية الأخرى، مثل الوحدة النمطية الدوارة، في مكان ما بين هاتين الفئتين.
 

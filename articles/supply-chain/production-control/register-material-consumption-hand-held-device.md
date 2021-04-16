@@ -2,11 +2,9 @@
 title: تسجيل استهلاك المواد باستخدام جهاز محمول
 description: يصف هذا الموضوع سير عمل يمكّن تسجيل استهلاك المواد الخام في الإنتاج باستخدام جهاز محمول باليد.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a4afc4b0c8d9a7109201326169311e85798d532
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209379"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814526"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>تسجيل استهلاك المواد باستخدام جهاز محمول
 

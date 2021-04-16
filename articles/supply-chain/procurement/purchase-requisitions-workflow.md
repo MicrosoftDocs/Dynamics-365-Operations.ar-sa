@@ -1,12 +1,10 @@
 ---
 title: سير عمل طلب الشراء
 description: تنقل عملية سير العمل طلبات الشراء من خلال عملية المراجعة، من حالة أولية للمسودة إلى حالة نهائية معتمدة. وعند إرسال طلب شراء للمراجعة، يتم بدء عملية سير العمل. وبعد الموافقة على طلب الشراء، يمكن إنشاء أمر شراء لأصناف طلبات الشراء وإرساله للمُورد لتلبية الطلب.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67bad698584c4a49cc5ce82682bb32cd1e32bbd5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 12497e4b6dde44cc7f3701cf6e00c90f109ff16c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215903"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825364"
 ---
 # <a name="purchase-requisition-workflow"></a>سير عمل طلب الشراء
 

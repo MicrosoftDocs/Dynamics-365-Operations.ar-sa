@@ -2,11 +2,9 @@
 title: تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية بين الشركات B2B
 description: يوضح هذا الموضوع كيفية تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية بين الشركات (B2B).
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 82dfd6ac7e97d838ef442fd6ded4a4f165fc795b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62e8f4949dcea1cb201bece171991047ce28da04
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211191"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799795"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية بين الشركات B2B
 

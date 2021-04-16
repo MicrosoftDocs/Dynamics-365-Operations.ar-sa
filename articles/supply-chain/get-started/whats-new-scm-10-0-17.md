@@ -1,12 +1,10 @@
 ---
-title: معاينه Dynamics 365 Supply Chain Management 10.0.17 (ابريل 2021)
+title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.17 (أبريل 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.17 من Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571802"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813161"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>معاينه Dynamics 365 Supply Chain Management 10.0.17 (ابريل 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.17 (أبريل 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.17 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.761، وهو يتوفر كما يلي
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.17 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.761، وهو يتوفر كما يلي
 
 - **إصدار المعاينة:** فبراير 2021
 - **التوفر العام للإصدار (تحديث ذاتي):** مارس 2021
@@ -36,9 +33,9 @@ ms.locfileid: "5571802"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
+يتضمن هذا الإصدار الميزات التالية.  اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
-يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
+يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها. قد تظل بعض الميزات المدرجة قيد المعاينة، على الرغم من أن معظمها متاح الآن بشكل عام.
 
 ### <a name="asset-management"></a>إدارة الأصول
 
@@ -68,9 +65,13 @@ ms.locfileid: "5571802"
 
 - [تطبيق الاجهزه المحمولة لأداره المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - لمزيد من المعلومات، راجع [تثبيت والاتصال بتطبيق إدارة المستودعات](../warehousing/install-configure-warehouse-management-app.md) و[إعدادات مستخدم الجهاز المحمول](../warehousing/mobile-device-user-settings.md).
 
+- إخطارات تنفيذ الموجة<br> - لمزيد من المعلومات، راجع [إخطارات تنفيذ الموجات](../warehousing/wave-execution-notifications.md)
+
 ### <a name="manufacturing"></a>التصنيع
 
-- [قدرات أداره الأصول في واجهه تنفيذ صالة الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - لمزيد من المعلومات، راجع [‏‫طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬ واستخدامها‬](../production-control/production-floor-execution-use.md).
+- [قدرات أداره الأصول في واجهه تنفيذ صالة الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - لمزيد من المعلومات، راجع [تكوين واجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-configure.md).
+
+- التسلسل الرقمي الموحد لمعرفات الوظائف<br> - لمزيد من المعلومات، راجع 
 
 - [تجاوز مبدأ الحجز الافتراضي للمواد في الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - لمزيد من المعلومات، راجع [تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج](../production-control/override-default-reservation-principle.md).
 

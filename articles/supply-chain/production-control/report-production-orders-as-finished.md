@@ -2,11 +2,9 @@
 title: ‏‫الإبلاغ عن أوامر الإنتاج كمنتهية‬
 description: يعتبر الإبلاغ عن الانتهاء مرحلة من مراحل الإنتاج. في هذه المرحلة، يتم الإبلاغ عن منتج منته ويتم نقله من أمر الإنتاج إلى المخزون.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdJournalTransJob, ProdJournalTransProd, ProdJournalTransRoute, ProdParmReportFinished, ProdRouteOprOverview
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40b2856e2495d2139664b75f747f023334a80d8c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 533e3e5b3187f45a5f873bd6951dd0df89a88210
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235450"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819342"
 ---
 # <a name="report-production-orders-as-finished"></a>‏‫الإبلاغ عن أوامر الإنتاج كمنتهية‬
 

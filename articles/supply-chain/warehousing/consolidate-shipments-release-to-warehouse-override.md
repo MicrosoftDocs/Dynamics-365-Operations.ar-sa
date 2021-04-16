@@ -2,11 +2,9 @@
 title: دمج الشحنات عند تجاوز سياسة دمج الشحنات من صفحة الإصدار إلى المستودع
 description: يقدم هذا الموضوع سيناريو يجب أن يتم فيه إصدار بند مبيعات واحد أو أكثر يدويا إلى المستودع من صفحة الإصدار إلى المستودع، ويجب تجاوز نهج دمج الشحنات المحدد بواسطة النظام قبل الإصدار.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: be573f3a137fbd74ba2f5d8bb346e4bb9f9116c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dcd619ad2906d4224966e2696712ed0e71886eb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237097"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837479"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>دمج الشحنات عند تجاوز سياسة دمج الشحنات من صفحة الإصدار إلى المستودع
 

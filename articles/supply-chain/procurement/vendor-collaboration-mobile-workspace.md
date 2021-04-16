@@ -1,27 +1,25 @@
 ---
 title: مساحة العمل المحمولة لتعاون المورد
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "تعاون المورد‬". تساعد مساحة العمل هذه الموردين على البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها. ويمكنهم أيضًا عرض معلومات حول جهات الاتصال وأوامر الشراء الجديدة والمحدثة.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2c81a5a1bf34706254479a99af253b2b8d743828
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dee77f6967cc72fdcc81d5cff9a39d13248af588
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246683"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811028"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>مساحة العمل المحمولة لتعاون المورد
 

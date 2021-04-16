@@ -2,11 +2,9 @@
 title: إعداد مستودع
 description: يصف هذا الموضوع كيفية إعداد مستودع لاستخدامه مع قناة جديدة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477624"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800485"
 ---
 # <a name="warehouse-set-up"></a>إعداد مستودع
 
@@ -49,7 +47,7 @@ ms.locfileid: "5477624"
 
 ![مثال عن موقع مستودع](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse"></a>إعداد مستودع
+## <a name="set-up-a-warehouse&quot;></a>إعداد مستودع
 
 لإعداد مستودع، اتبع هذه الخطوات.
 
@@ -63,14 +61,14 @@ ms.locfileid: "5477624"
     - إذا أردت تعيين **مخزن بضاعة بالطريق‬‬**، فستحتاج أولاً إلى اتباع هذه الخطوات لإنشاء مستودع إضافي حيث تم تعيين **النوع** إلى **عابر‬**.
 1. في جزء الإجراءات، حدد **حفظ**.
 
-## <a name="set-up-inventory-aisles"></a>إعداد ممرات المخزون
+## <a name=&quot;set-up-inventory-aisles&quot;></a>إعداد ممرات المخزون
 
 لإعداد ممرات المخزون، اتبع هذه الخطوات:
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية \> البيع بالتجزئة والتجارة \> إعداد القناة \> إعداد الموقع \> ممرات المخزون**.
 1. في جزء الإجراءات، حدد **جديد**.
 1. في القائمة المنسدلة **المستودع**، حدد المستودع الذي تم إنشاؤها في وقت سابق.
-1. في حقل **الممر**، أدخل اسمًا (على سبيل المثال، "Def").
+1. في حقل **الممر**، أدخل اسمًا (على سبيل المثال، &quot;Def").
 1. في حقل **الاسم**، أدخل اسمًا (على سبيل المثال، "ممر افتراضي").
 1. في جزء الإجراءات، حدد **حفظ**.
 

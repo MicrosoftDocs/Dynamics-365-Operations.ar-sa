@@ -2,11 +2,9 @@
 title: إنشاء أوامر العمل
 description: يوضح هذا الموضوع كيفية إنشاء أوامر العمل في إدارة الأصول.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500564"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836724"
 ---
 # <a name="creating-work-orders"></a>إنشاء أوامر العمل
 
@@ -62,8 +60,6 @@ ms.locfileid: "5500564"
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>بنود أمر العمل الخاصة بالمجموعة التي يتم إنشاؤها تلقائيا اثناء تشغيل خطه الصيانة
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 تتيح لك هذه الميزة تعريف قواعد لتجميع بنود أمر العمل تحت أمر عمل واحد عند اعداد النظام لإنشاء أوامر العمل تلقائيا، وذلك استنادا إلى خطه الصيانة. وسابقا ، يمكن ان تحتوي أوامر العمل التي تم إنشاؤها تلقائيا علي بند واحد فقط. ومع ذلك، يمكنك الآن تجميع أوامر العمل حسب، علي سبيل المثال، الأصل أو نوع الأصل أو موقع وظيفي. (يمكن تجميع أوامر العمل المنشاة يدويا بهذه الطريقة كما هو موضح في القسم السابق من هذا الموضوع.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>تمكين تجميع أوامر العمل التي تم إنشاؤها تلقائيا
@@ -71,7 +67,7 @@ ms.locfileid: "5500564"
 قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة النمطية:** *إدارة الأصول‎*
-- **اسم الميزة:** *(معاينه) تطبيق قواعد لتجميع أوامر العمل اثناء تشغيل خطه الصيانة*
+- **اسم الميزة:** *(إصدار أولي) تطبيق قواعد لتجميع أوامر العمل اثناء تشغيل خطه الصيانة*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>إعداد تجميع أوامر العمل التي تم إنشاؤها تلقائيا
 

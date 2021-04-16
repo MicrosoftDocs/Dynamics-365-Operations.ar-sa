@@ -2,11 +2,9 @@
 title: متوسط سعر التكلفة الحالي
 description: تقوم عملية إغلاق المخزون بتسوية حركات الإصدار إلى حركات الإيصال وفقًا لأسلوب تقييم المخزون الذي تم تحديده في مجموعة نماذج الصنف. ومع ذلك، قبل تشغيل إغلاق المخزون، يقوم النظام بحساب متوسط سعر التكلفة الحالي الذي يُستخدم عادةً عند ترحيل حركات الإصدار.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d91422dfece5af70abbcf9f051ec5706517d0155
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 75dfd2f23034bbd222e020b532027e60ef215241
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231926"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830243"
 ---
 # <a name="running-average-cost-price"></a>متوسط سعر التكلفة الحالي
 
