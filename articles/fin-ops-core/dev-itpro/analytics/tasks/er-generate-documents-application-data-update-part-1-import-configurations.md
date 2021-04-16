@@ -2,7 +2,6 @@
 title: استيراد تكوينات لإنشاء مستندات تتضمن بيانات التطبيق
 description: لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬".
 author: NickSelin
-manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a809b9867b4ca96fb53f1849f57ef470253d9d17
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 96f636b19f9babc9a7893c12233d67fb2f044638
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559256"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751096"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>استيراد تكوينات لإنشاء مستندات تتضمن بيانات التطبيق
 

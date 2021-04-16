@@ -2,11 +2,9 @@
 title: نظرة عامة حول دفتر الأستاذ العام وإعداد التقارير المالية
 description: استخدام دفتر الأستاذ العام لتحديد السجلات المالية للكيانات القانونية وإدارتها.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3fc00cc29e37c853d7cabfa928d8e069c40a581
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60ebe19d53e87e385af8e32c32b9c0cc43291eba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249181"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832864"
 ---
 # <a name="general-ledger-home-page"></a>الصفحة الرئيسية لدفتر الأستاذ العام
 

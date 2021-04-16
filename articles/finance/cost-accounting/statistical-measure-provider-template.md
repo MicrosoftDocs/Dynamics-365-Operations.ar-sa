@@ -2,11 +2,9 @@
 title: قوالب الموفرين لأعضاء الأبعاد الإحصائية وموفري القياسات
 description: يوفر هذا الموضوع معلومات حول أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية. يمكن استخدام أعضاء الأبعاد الإحصائية كأساس توزيع في سياسات مثل توزيع التكلفة وتخصيص التكلفة. ويمكن أيضًا استخدامها للإبلاغ عن استهلاك التكلفة غير النقدية.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 330b7dfd3937d0d7c4a394b55972d75e876aea17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208813"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833056"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>قوالب الموفرين لأعضاء الأبعاد الإحصائية وموفري القياسات
 
@@ -162,7 +160,7 @@ ms.locfileid: "5208813"
 
 **الإدخالات الإحصائية**
 
-| كائن التكلفة |    | التاريخ المحاسبي | عضو البُعد الإحصائي |  ‏‏الوصف        | المقدار |
+| كائن التكلفة |  الوصف  | تاريخ المحاسبة | عضو البُعد الإحصائي |  الوصف        | المقدار |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | الموارد البشرية | 31-01-2017      | FTEs                         | موظفو الدوام الكامل | 1.00      |
 | CC002       | FI | 31-01-2017      | FTEs                         | موظفو الدوام الكامل | 2.00      |
@@ -328,7 +326,7 @@ ms.locfileid: "5208813"
 
 **الإدخالات الإحصائية**
 
-| كائن التكلفة |    | التاريخ المحاسبي | عضو البُعد الإحصائي |      ‏‏الوصف                   | المقدار  |
+| كائن التكلفة | الوصف | تاريخ المحاسبة | عضو البُعد الإحصائي |      الوصف                   | المقدار  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | الموارد البشرية | 31-01-2017      | الكهرباء                  | استهلاك الكهرباء | 2,450.00   |
 | CC002       | FI | 31-01-2017      | الكهرباء                  | استهلاك الكهرباء | 4,100.00   |
@@ -336,11 +334,11 @@ ms.locfileid: "5208813"
 
 إذا تم تعيين أساس توزيع عضو بعد Electricity المعرف مسبقًا كأساس توزيع في قاعدة توزيع تكلفة، يتم توزيع التكلفة باستخدام عامل التوزيع التالي.
 
-| كائن التكلفة |    | المقدار | عامل التوزيع          |
-|-------------|----|-----------|----------------------------|
-| CC001       | الموارد البشرية | 2,450.00  | (2,450 ÷ 21,550) × المبلغ  |
-| CC002       | FI | 4,100.00  | (4,100 ÷ 21,550) × المبلغ  |
-| CC003       | تكنولوجيا المعلومات | 15,000.00 | (15,000 ÷ 21,550) × المبلغ |
+| كائن التكلفة | الوصف   | المقدار | عامل التوزيع          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | الموارد البشرية            | 2,450.00  | (2,450 ÷ 21,550) × المبلغ  |
+| CC002       | FI            | 4,100.00  | (4,100 ÷ 21,550) × المبلغ  |
+| CC003       | تكنولوجيا المعلومات            | 15,000.00 | (15,000 ÷ 21,550) × المبلغ |
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

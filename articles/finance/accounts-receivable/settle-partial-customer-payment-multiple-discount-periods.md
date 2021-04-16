@@ -2,11 +2,9 @@
 title: تسوية دفعة جزئية لعميل تحتوي على عدة فترات خصم
 description: يوضح هذا المقال كيفية تسوية مدفوعات العميل الجزئية عند وجود فترات خصم متعددة.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241704"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835090"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>تسوية دفعة جزئية لعميل تحتوي على عدة فترات خصم
 
@@ -56,7 +54,7 @@ ms.locfileid: "5241704"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات المفتوحة**. إذا لم تقم بتغيير قيمة **المبلغ المُراد تسويته** إلى **294.00**، فستختلف قيم **مبلغ الخصم النقدي** الذي يظهر. وعلى الرغم من ذلك، سيتم الحصول على مبلغ 6.00 عند ترحيل الدفعة، لأن التسوية تقوم تلقائياً بتعديل قيمة **المبلغ المُراد تسويته** بالنسبة لك.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 6/30/2015 |
 | مبلغ الخصم النقدي         | 20.00     |
@@ -75,7 +73,7 @@ ms.locfileid: "5241704"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات المفتوحة**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/09/2015 |
 | مبلغ الخصم النقدي         | 30.00     |
