@@ -2,11 +2,9 @@
 title: إعداد وتصميم تنسيقات إيصالات الاستلام
 description: تصف هذه المقالة كيفية تعديل تخطيطات النماذج للتحكم في كيفية طباعة الإيصالات والفواتير والمستندات الأخرى. يتضمن Dynamics 365 Commerce مصمم تخطيط النموذج الذي يمكنك استخدامه لإنشاء مختلف أنواع تخطيطات النماذج وتعديلها بسهولة.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c44798c6b879ebd95618d976beebe1d41b40dcdd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 281a5e2be6f43f5a83ef7435b2041423dd5d4caa
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243735"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792113"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>إعداد وتصميم تنسيقات إيصالات الاستلام
 

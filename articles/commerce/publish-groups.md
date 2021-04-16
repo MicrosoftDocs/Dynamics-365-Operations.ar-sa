@@ -2,11 +2,9 @@
 title: العمل مع مجموعات النشر
 description: يصف هذا الموضوع ميزة مجموعات النشر في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b623573f598f6b21291cafe95fa04e6777cffe11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15ac04721e440dcd7c0f8984c14e86aa0f68963e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244829"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792305"
 ---
 # <a name="work-with-publish-groups"></a>العمل مع مجموعات النشر
-
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع ميزة مجموعات النشر في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يتم تحديث مواقع التجارة الإلكترونية باستمرار بمحتوي جديد على مدار العام. وغالبًا ما يتم نشر التحديثات على دفعات حول أحداث التجارة الإلكترونية المزدحمة مثل العطلات أو حملات التسويق الموسمية أو عمليات الإطلاق الترويجية. تتطلب هذه التحديثات غالبًا أن يتم تجهيز مجموعات محتوى موقع الويب (للأمثلة والصفحات والصور والأجزاء والقوالب) والتحقق من صحتها ونشرها بشكل متزامن في إجراء واحد.
 

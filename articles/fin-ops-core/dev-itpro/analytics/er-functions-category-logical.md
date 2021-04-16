@@ -2,7 +2,6 @@
 title: قائمة وظائف التقارير الإلكترونية في الفئة المنطقية
 description: يوفر هذا الموضوع معلومات حول الوظائف المنطقية المعتمدة في التقارير الإلكترونية (ER).
 author: NickSelin
-manager: kfend
 ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7310c2b269c3f4be03102160aebe0ed164a23a5c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 452eae2b710429215939b712b12fe156943d2ac5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561652"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749407"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>قائمة وظائف التقارير الإلكترونية في الفئة المنطقية
 

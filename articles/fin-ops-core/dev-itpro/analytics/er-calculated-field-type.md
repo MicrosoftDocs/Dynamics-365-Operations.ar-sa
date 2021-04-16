@@ -2,7 +2,6 @@
 title: دعم استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب‬
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام نوع الحقل المحسوب لمصادر بيانات التقارير الإلكترونية.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569191"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749479"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>دعم استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب‬
 
@@ -194,7 +193,7 @@ ms.locfileid: "5569191"
 
 ![قائمة موسعة بمستويات الحقول المحسوبة](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>استخدام الحقل المحسوب المكون لربط عناصر التنسيق
+### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>استخدام الحقل المحسوب المكون لربط عناصر التنسيق
 
 1. حدد **Model.Data2.Levels** لتحديد الحقل المحسوب الذي تم تكوينه.
 2. حدد عنصر التنسيق **Statement.Taxation.Regular**.
@@ -215,7 +214,7 @@ ms.locfileid: "5569191"
 9. حدد **ربط**.
 10. حدد **نعم** لتأكيد استبدال مصدر البيانات المستخدم حاليًا، **المستوى3**، بمصدر البيانات الجديد، **المستويات**، في كافة عناصر التنسيق المتداخلة لعنصر التنسيق المحدد.
 
-   عند تعيين وسيطة الحقل المحسوب ذي المعلمات لعنصر XML الذي يمثل مستوى فرض الضرائب (على سبيل المثال **‎Model.Data2.Levels("Reduced")** كقيمة نصية)، لا تحتاج إلى القيام بنفس الإجراءات لسمات XML المتداخلة — سترث الارتباطات الخاصة بها تلقائيًا قيمة الوسيطة المعرفة في المستوى الأصل (**Model.Data2.Levels.aggregated.Base**، وليس **Model.Data2.Levels("Reduced").aggregated.Base**).
+   عند تعيين وسيطة الحقل المحسوب ذي المعلمات لعنصر XML الذي يمثل مستوى فرض الضرائب (على سبيل المثال **‎Model.Data2.Levels(&quot;Reduced")** كقيمة نصية)، لا تحتاج إلى القيام بنفس الإجراءات لسمات XML المتداخلة — سترث الارتباطات الخاصة بها تلقائيًا قيمة الوسيطة المعرفة في المستوى الأصل (**Model.Data2.Levels.aggregated.Base**، وليس **Model.Data2.Levels("Reduced").aggregated.Base**).
 
 الاستدعاءات المتكررة لأي حقل محسوب ذي معلمات غير معتمدة.
 

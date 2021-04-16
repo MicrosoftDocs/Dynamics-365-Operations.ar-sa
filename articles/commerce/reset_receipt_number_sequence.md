@@ -2,11 +2,9 @@
 title: أعاده تعيين أرقام الإيصالات
 description: يوضح هذا الموضوع كيفيه أعاده تعيين أرقام الإيصالات المستخدمة للإجراءات المختلفة في التاريخ المطلوب (علي سبيل المثال ، السنه المالية أو سنه التقويم).
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 97ec85ebccacd3a827e8a016098939134823dceb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cabce32a43e55f3a3f19bc2d78547d9bab0d89a2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243685"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792039"
 ---
 # <a name="reset-receipt-numbers"></a>إعادة تعيين أرقام الإيصالات 
 

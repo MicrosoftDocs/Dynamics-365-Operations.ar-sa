@@ -2,11 +2,9 @@
 title: توزيع تكاليف الرأس لمطابقة بنود المبيعات
 description: يصف هذا الموضوع قدرات إضافية لحساب وتطبيق التكاليف التلقائية على أوامر قناة التجارة باستخدام ميزة التكاليف التلقائية المتقدمة.
 author: hhaines
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: f458ce6ea4fa3efdfa470e90efa1e267047a8e37
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231117"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791044"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>توزيع تكاليف الرأس لمطابقة بنود المبيعات
 

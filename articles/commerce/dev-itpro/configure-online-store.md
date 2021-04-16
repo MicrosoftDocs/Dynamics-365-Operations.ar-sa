@@ -2,11 +2,9 @@
 title: تكوين متاجر عبر الإنترنت
 description: توفر هذه المقالة ارتباطات لمواضيع سوف تساعدك مركزيًا في تكوين وإدارة متجر على الإنترنت.
 author: kfend
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: cf7adf76cb547ffbf516ce475380ddafaca1dfc6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7840a91d1035f06d2cca93d75df20a157a55f14d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215452"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791193"
 ---
 # <a name="configure-online-stores"></a>تكوين متاجر عبر الإنترنت
 
