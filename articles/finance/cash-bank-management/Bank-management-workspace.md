@@ -2,11 +2,9 @@
 title: مساحة عمل إدارة البنك
 description: يوفر هذا الموضوع معلومات حول مساحة عمل إدارة البنك. تعرض مساحة العمل هذه المعلومات ذات الصلة بالحسابات البنكية للشركة، وتشمل عرض ملخص وصفحة التحليلات. توضح طريقة عرض الملخص لوحات الملخص، ومعلومات الحساب البنكي، ومخطط الرصيد، والمعلومات ذات الصلة. تستخدم صفحة التحليلات إمكانيات Microsoft Power BI لعرض المرئيات ذات الصلة بأرصدة الحسابات البنكية.
 author: saraschi2
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3c5d248c5431b7a54835c699618a0a27ab760754
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 262b871a7c35d01283386af6454bb2852197e3b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260197"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818814"
 ---
 # <a name="bank-management-workspace"></a>مساحة عمل إدارة البنك
 

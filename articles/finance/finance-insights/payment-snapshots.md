@@ -2,11 +2,9 @@
 title: نظرة عامة حول اللقطات (معاينة)
 description: يصف هذا الموضوع ميزة اللقطات، التي تتيح لك إمكانية حفظ تقدير التدفقات النقدية للتحليل أو المقارنة مع القيم الفعلية لاحقًا. عند إنشاء تقدير بالتدفقات النقدية، يمكنك حفظ ذلك التقدير على إنه "لقطة". ويمكنك بعد ذلك استخدام اللقطات لتحرير الحسابات التي تم تضمينها في التقدير، أو لمقارنة التقدير في اللقطة بالقيم الفعلية.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b9d201125e9d9178ccfc1a7e52a20f1f12529345
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222935"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827232"
 ---
 # <a name="snapshots-overview-preview"></a>نظرة عامة حول اللقطات (معاينة)
 

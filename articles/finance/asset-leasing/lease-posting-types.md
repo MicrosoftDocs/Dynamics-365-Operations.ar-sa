@@ -2,11 +2,9 @@
 title: أنواع ترحيل الإيجار
 description: يصف هذا الموضوع أنواع الترحيل المستخدمة لحركات تأجير الأصول.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229492"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841131"
 ---
 # <a name="lease-posting-types"></a>أنواع ترحيل الإيجار
 
@@ -90,15 +88,6 @@ ms.locfileid: "5229492"
 **مثال على إدخالات دفتر اليومية:** استحقاق الإهلاك<br>
 **المدين:** ‏‏مصروفات الإهلاك XXX<br>
 **الائتمان:** الإهلاك التراكمي XXX
-
-## <a name="retained-earnings"></a>الأرباح المحتجزة
-
-الحساب المرتبط بالأرباح المحتجزة. قد يكون هذا الحساب مدينًا أو دائنًا في إدخال دفتر يومية تسوية الانتقال باستخدام أسلوب الأثر الرجعي الكامل أو خيار التسوية التراكمي أ. يتم حجز الفرق بين حق استخدام الأصل الأولي والتزامات الإيجار إلى الإيرادات المحتجزة. في الحالات النادرة، قد تتأثر كذلك الإيرادات المحتجزة أثناء تعديل عقد الإيجار، وذلك في حالة تغيير تصنيف عقد الإيجار من المالية إلى العمل لكتابة حق استخدام الأصل بحيث يساوي التزامات الإيجار.
-
-**مثال على إدخالات دفتر اليومية:** تسوية الانتقال (أسلوب الأثر الرجعي الكامل أو خيار التسوية التراكمي أ)<br>
-**المدين:** التزامات الإيجار XXX<br>
-**الائتمان:** أصول الإيجار XXX<br>
-**الائتمان:** الإيرادات المحتجزة XXX
 
 ## <a name="variable-payment"></a>الدفعة المتغيرة
 
