@@ -2,11 +2,9 @@
 title: مراجع إلى الفواتير الأصلية في الإشعارات الدائنة
 description: يوضح هذا الموضوع كيفية إعداد أرقام الفواتير الأصلية وطباعتها في الإشعارات الدائنة المرتبطة.
 author: ilkond
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,87 +14,86 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 04a4fc96cb7de60052b17e36c33ad5d5be322be4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ce06a0ce4f2a308e1917ac2c7cbc66f0494a2ec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207341"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811500"
 ---
-# <a name="references-to-original-invoices-in-credit-notes"></a><span data-ttu-id="ae224-103">مراجع إلى الفواتير الأصلية في الإشعارات الدائنة</span><span class="sxs-lookup"><span data-stu-id="ae224-103">References to original invoices in credit notes</span></span>
+# <a name="references-to-original-invoices-in-credit-notes"></a><span data-ttu-id="796e8-103">مراجع إلى الفواتير الأصلية في الإشعارات الدائنة</span><span class="sxs-lookup"><span data-stu-id="796e8-103">References to original invoices in credit notes</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="ae224-104">في بعض البلدان والمناطق، يكون هناك متطلب قانوني بأن تتضمن الإشعارات الدائنة المطبوعة مراجع إلى لفواتير الأصلية.</span><span class="sxs-lookup"><span data-stu-id="ae224-104">In some countries and regions, there is a legal requirement that printed credit notes include references to the original invoices.</span></span> <span data-ttu-id="ae224-105">يوضح هذا الموضوع كيفية إعداد أرقام الفواتير الأصلية وطباعتها في الإشعارات الدائنة المرتبطة.</span><span class="sxs-lookup"><span data-stu-id="ae224-105">This topic explains how to set up and print the original invoice numbers in related credit notes.</span></span>
+<span data-ttu-id="796e8-104">في بعض البلدان والمناطق، يكون هناك متطلب قانوني بأن تتضمن الإشعارات الدائنة المطبوعة مراجع إلى لفواتير الأصلية.</span><span class="sxs-lookup"><span data-stu-id="796e8-104">In some countries and regions, there is a legal requirement that printed credit notes include references to the original invoices.</span></span> <span data-ttu-id="796e8-105">يوضح هذا الموضوع كيفية إعداد أرقام الفواتير الأصلية وطباعتها في الإشعارات الدائنة المرتبطة.</span><span class="sxs-lookup"><span data-stu-id="796e8-105">This topic explains how to set up and print the original invoice numbers in related credit notes.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="ae224-106">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="ae224-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="796e8-106">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="796e8-106">Prerequisites</span></span>
 
-- <span data-ttu-id="ae224-107">في مساحة عمل **إدارة الميزات**، قم بتشغيل ميزة **تخطيط فوترة الائتمان لتقارير المبيعات وفاتورة المشروع**.</span><span class="sxs-lookup"><span data-stu-id="ae224-107">In the **Feature management** workspace, turn on the **Credit invoicing layout for sales and project invoice reports** feature.</span></span> <span data-ttu-id="ae224-108">لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة الميزات](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="ae224-108">For more information, see [Feature management overview](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span></span>
-- <span data-ttu-id="ae224-109">يجب تكوين التنسيقات القابلة للطباعة للمستندات المطلوبة في إدارة الطباعة.</span><span class="sxs-lookup"><span data-stu-id="ae224-109">The printable formats of the required documents must be configured in Print management.</span></span>
+- <span data-ttu-id="796e8-107">في مساحة عمل **إدارة الميزات**، قم بتشغيل ميزة **تخطيط فوترة الائتمان لتقارير المبيعات وفاتورة المشروع**.</span><span class="sxs-lookup"><span data-stu-id="796e8-107">In the **Feature management** workspace, turn on the **Credit invoicing layout for sales and project invoice reports** feature.</span></span> <span data-ttu-id="796e8-108">لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة الميزات](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="796e8-108">For more information, see [Feature management overview](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+- <span data-ttu-id="796e8-109">يجب تكوين التنسيقات القابلة للطباعة للمستندات المطلوبة في إدارة الطباعة.</span><span class="sxs-lookup"><span data-stu-id="796e8-109">The printable formats of the required documents must be configured in Print management.</span></span>
 
-<span data-ttu-id="ae224-110">تنطبق الوظيفة الموضحة في هذا الموضوع على المستندات التالية:</span><span class="sxs-lookup"><span data-stu-id="ae224-110">The functionality that is described in this topic applies to the following documents:</span></span>
+<span data-ttu-id="796e8-110">تنطبق الوظيفة الموضحة في هذا الموضوع على المستندات التالية:</span><span class="sxs-lookup"><span data-stu-id="796e8-110">The functionality that is described in this topic applies to the following documents:</span></span>
 
-<span data-ttu-id="ae224-111">**الحسابات المدينة**</span><span class="sxs-lookup"><span data-stu-id="ae224-111">**Accounts receivable**</span></span>
+<span data-ttu-id="796e8-111">**الحسابات المدينة**</span><span class="sxs-lookup"><span data-stu-id="796e8-111">**Accounts receivable**</span></span>
 
-- <span data-ttu-id="ae224-112">إشعار دائن بنص حر</span><span class="sxs-lookup"><span data-stu-id="ae224-112">Free text credit note</span></span>
-- <span data-ttu-id="ae224-113">اشعار ائتمان العميل</span><span class="sxs-lookup"><span data-stu-id="ae224-113">Customer credit note</span></span>
+- <span data-ttu-id="796e8-112">إشعار دائن بنص حر</span><span class="sxs-lookup"><span data-stu-id="796e8-112">Free text credit note</span></span>
+- <span data-ttu-id="796e8-113">اشعار ائتمان العميل</span><span class="sxs-lookup"><span data-stu-id="796e8-113">Customer credit note</span></span>
 
-<span data-ttu-id="ae224-114">**إدارة المشاريع ومحاسبتها**</span><span class="sxs-lookup"><span data-stu-id="ae224-114">**Project management and accounting**</span></span>
+<span data-ttu-id="796e8-114">**إدارة المشاريع ومحاسبتها**</span><span class="sxs-lookup"><span data-stu-id="796e8-114">**Project management and accounting**</span></span>
 
-- <span data-ttu-id="ae224-115">إشعار الدائن للمشروع</span><span class="sxs-lookup"><span data-stu-id="ae224-115">Project credit note</span></span>
+- <span data-ttu-id="796e8-115">إشعار الدائن للمشروع</span><span class="sxs-lookup"><span data-stu-id="796e8-115">Project credit note</span></span>
 
-## <a name="configure-accounts-receivable-parameters"></a><span data-ttu-id="ae224-116">تكوين معلمات الحسابات المدينة</span><span class="sxs-lookup"><span data-stu-id="ae224-116">Configure Accounts receivable parameters</span></span>
+## <a name="configure-accounts-receivable-parameters"></a><span data-ttu-id="796e8-116">تكوين معلمات الحسابات المدينة</span><span class="sxs-lookup"><span data-stu-id="796e8-116">Configure Accounts receivable parameters</span></span>
 
-<span data-ttu-id="ae224-117">اتبع هذه الخطوات لتعيين المعلمة التي تتحكم في ما إذا كانت ستتم طباعة مراجع إلى الفواتير الأصلية في الإشعارات الدائنة ذات صلة.</span><span class="sxs-lookup"><span data-stu-id="ae224-117">Follow these steps to set the parameter that controls whether references to the original invoices are printed in related credit notes.</span></span>
+<span data-ttu-id="796e8-117">اتبع هذه الخطوات لتعيين المعلمة التي تتحكم في ما إذا كانت ستتم طباعة مراجع إلى الفواتير الأصلية في الإشعارات الدائنة ذات صلة.</span><span class="sxs-lookup"><span data-stu-id="796e8-117">Follow these steps to set the parameter that controls whether references to the original invoices are printed in related credit notes.</span></span>
 
-1. <span data-ttu-id="ae224-118">انتقل إلى **الحسابات المدينة** \> **إعداد** \> **معلمات الحسابات المدينة**.</span><span class="sxs-lookup"><span data-stu-id="ae224-118">Go to **Accounts receivable** \> **Setup** \> **Accounts receivable parameters**.</span></span>
-2. <span data-ttu-id="ae224-119">في علامة التبويب **تحديثات**، في علامة التبويب السريعة **الفاتورة**، قم بتعيين خيار **تطبيق تخطيط فوترة الائتمان على تقارير المبيعات وفاتورة المشروع** على القمية **نعم**.</span><span class="sxs-lookup"><span data-stu-id="ae224-119">On the **Updates** tab, on the **Invoice** FastTab, set the **Apply the credit invoicing layout into sales and project invoice reports** option to **Yes**.</span></span>
+1. <span data-ttu-id="796e8-118">انتقل إلى **الحسابات المدينة** \> **إعداد** \> **معلمات الحسابات المدينة**.</span><span class="sxs-lookup"><span data-stu-id="796e8-118">Go to **Accounts receivable** \> **Setup** \> **Accounts receivable parameters**.</span></span>
+2. <span data-ttu-id="796e8-119">في علامة التبويب **تحديثات**، في علامة التبويب السريعة **الفاتورة**، قم بتعيين خيار **تطبيق تخطيط فوترة الائتمان على تقارير المبيعات وفاتورة المشروع** على القمية **نعم**.</span><span class="sxs-lookup"><span data-stu-id="796e8-119">On the **Updates** tab, on the **Invoice** FastTab, set the **Apply the credit invoicing layout into sales and project invoice reports** option to **Yes**.</span></span>
 
 ![تكوين معلمات الحسابات المدينة](media/original-invoice-number-in-credit-note.jpg)
 
-## <a name="define-references-to-original-invoices"></a><span data-ttu-id="ae224-121">تعريف مراجع الفواتير الأصلية</span><span class="sxs-lookup"><span data-stu-id="ae224-121">Define references to original invoices</span></span>
+## <a name="define-references-to-original-invoices"></a><span data-ttu-id="796e8-121">تعريف مراجع الفواتير الأصلية</span><span class="sxs-lookup"><span data-stu-id="796e8-121">Define references to original invoices</span></span>
 
-<span data-ttu-id="ae224-122">استخدم الإجراءات التالية لتحديد مراجع للفواتير الأصلية استنادا إلى نوع المستند.</span><span class="sxs-lookup"><span data-stu-id="ae224-122">Use the following procedures to define references to original invoices, based on the document type.</span></span>
+<span data-ttu-id="796e8-122">استخدم الإجراءات التالية لتحديد مراجع للفواتير الأصلية استنادا إلى نوع المستند.</span><span class="sxs-lookup"><span data-stu-id="796e8-122">Use the following procedures to define references to original invoices, based on the document type.</span></span>
 
-### <a name="free-text-credit-note"></a><span data-ttu-id="ae224-123">إشعار دائن بنص حر</span><span class="sxs-lookup"><span data-stu-id="ae224-123">Free text credit note</span></span>
+### <a name="free-text-credit-note"></a><span data-ttu-id="796e8-123">إشعار دائن بنص حر</span><span class="sxs-lookup"><span data-stu-id="796e8-123">Free text credit note</span></span>
 
-1. <span data-ttu-id="ae224-124">انتقل إلى **الحسابات المدينة** \> **الفواتير** \> **جميع الفواتير ذات نص حر‬**.</span><span class="sxs-lookup"><span data-stu-id="ae224-124">Go to **Accounts receivable** \> **Invoices** \> **All free text invoices**.</span></span>
-2. <span data-ttu-id="ae224-125">قم بإنشاء إشعار دائن جديد، أو حدد إشعار دائن موجود.</span><span class="sxs-lookup"><span data-stu-id="ae224-125">Create a new credit note, or select an existing credit note.</span></span>
-3. <span data-ttu-id="ae224-126">افتح الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="ae224-126">Open the invoice.</span></span>
-4. <span data-ttu-id="ae224-127">في جزء الإجراءات، في علامة التبويب **الفاتورة**، في المجموعة **الوظائف**، حدد **فوترة الائتمان**.</span><span class="sxs-lookup"><span data-stu-id="ae224-127">On the Action Pane, on the **Invoice** tab, in the **Functions** group, select **Credit invoicing**.</span></span>
-5. <span data-ttu-id="ae224-128">أدخل المرجع إلى الفاتورة الأصلية، وحدد سبب التصحيح.</span><span class="sxs-lookup"><span data-stu-id="ae224-128">Enter the reference to the original invoice, and select the reason for the correction.</span></span>
+1. <span data-ttu-id="796e8-124">انتقل إلى **الحسابات المدينة** \> **الفواتير** \> **جميع الفواتير ذات نص حر‬**.</span><span class="sxs-lookup"><span data-stu-id="796e8-124">Go to **Accounts receivable** \> **Invoices** \> **All free text invoices**.</span></span>
+2. <span data-ttu-id="796e8-125">قم بإنشاء إشعار دائن جديد، أو حدد إشعار دائن موجود.</span><span class="sxs-lookup"><span data-stu-id="796e8-125">Create a new credit note, or select an existing credit note.</span></span>
+3. <span data-ttu-id="796e8-126">افتح الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="796e8-126">Open the invoice.</span></span>
+4. <span data-ttu-id="796e8-127">في جزء الإجراءات، في علامة التبويب **الفاتورة**، في المجموعة **الوظائف**، حدد **فوترة الائتمان**.</span><span class="sxs-lookup"><span data-stu-id="796e8-127">On the Action Pane, on the **Invoice** tab, in the **Functions** group, select **Credit invoicing**.</span></span>
+5. <span data-ttu-id="796e8-128">أدخل المرجع إلى الفاتورة الأصلية، وحدد سبب التصحيح.</span><span class="sxs-lookup"><span data-stu-id="796e8-128">Enter the reference to the original invoice, and select the reason for the correction.</span></span>
 
 ![تعريف مرجع لفاتورة نص حر](media/reference-original-invoice-FTI.jpg)
 
-### <a name="customer-credit-note"></a><span data-ttu-id="ae224-130">اشعار ائتمان العميل</span><span class="sxs-lookup"><span data-stu-id="ae224-130">Customer credit note</span></span>
+### <a name="customer-credit-note"></a><span data-ttu-id="796e8-130">اشعار ائتمان العميل</span><span class="sxs-lookup"><span data-stu-id="796e8-130">Customer credit note</span></span>
 
-1. <span data-ttu-id="ae224-131">انتقل إلى **الحسابات المدينة** \> **الأوامر‬** \> **كافة أوامر المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="ae224-131">Go to **Accounts receivable** \> **Orders** \> **All sales orders**.</span></span>
-2. <span data-ttu-id="ae224-132">حدد أمر المبيعات المفوتر الذي يجب تصحيحه وافتحه.</span><span class="sxs-lookup"><span data-stu-id="ae224-132">Select and open the invoiced sales order that must be corrected.</span></span>
-3. <span data-ttu-id="ae224-133">في جزء الإجراءات، في علامة التبويب **البيع**، في مجموعة **إشعار دائن**، حدد **إشعار دائن**.</span><span class="sxs-lookup"><span data-stu-id="ae224-133">On the Action Pane, on the **Sell** tab, in the **Credit note** group, select **Credit note**.</span></span>
-4. <span data-ttu-id="ae224-134">أدخل سبب التصحيح.</span><span class="sxs-lookup"><span data-stu-id="ae224-134">Enter the reason for the correction.</span></span> <span data-ttu-id="ae224-135">يتم إنشاء المرجع إلى الفاتورة الاصلية تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="ae224-135">The reference to the original invoice is automatically established.</span></span>
+1. <span data-ttu-id="796e8-131">انتقل إلى **الحسابات المدينة** \> **الأوامر‬** \> **كافة أوامر المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="796e8-131">Go to **Accounts receivable** \> **Orders** \> **All sales orders**.</span></span>
+2. <span data-ttu-id="796e8-132">حدد أمر المبيعات المفوتر الذي يجب تصحيحه وافتحه.</span><span class="sxs-lookup"><span data-stu-id="796e8-132">Select and open the invoiced sales order that must be corrected.</span></span>
+3. <span data-ttu-id="796e8-133">في جزء الإجراءات، في علامة التبويب **البيع**، في مجموعة **إشعار دائن**، حدد **إشعار دائن**.</span><span class="sxs-lookup"><span data-stu-id="796e8-133">On the Action Pane, on the **Sell** tab, in the **Credit note** group, select **Credit note**.</span></span>
+4. <span data-ttu-id="796e8-134">أدخل سبب التصحيح.</span><span class="sxs-lookup"><span data-stu-id="796e8-134">Enter the reason for the correction.</span></span> <span data-ttu-id="796e8-135">يتم إنشاء المرجع إلى الفاتورة الاصلية تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="796e8-135">The reference to the original invoice is automatically established.</span></span>
 
 ![تعريف المرجع لأمر المبيعات](media/reference-original-invoice-SO.jpg)
 
-### <a name="project-credit-note"></a><span data-ttu-id="ae224-137">إشعار الدائن للمشروع</span><span class="sxs-lookup"><span data-stu-id="ae224-137">Project credit note</span></span>
+### <a name="project-credit-note"></a><span data-ttu-id="796e8-137">إشعار الدائن للمشروع</span><span class="sxs-lookup"><span data-stu-id="796e8-137">Project credit note</span></span>
 
-1. <span data-ttu-id="ae224-138">انتقل إلى **إدارة المشاريع والمحاسبة** \> **فواتير المشاريع** \> **فواتير المشاريع**.</span><span class="sxs-lookup"><span data-stu-id="ae224-138">Go to **Project management and accounting** \> **Project invoices** \> **Project invoices**.</span></span>
-2. <span data-ttu-id="ae224-139">حدد فاتورة المشروع التي يجب تصحيحها وافتحها.</span><span class="sxs-lookup"><span data-stu-id="ae224-139">Select and open the project invoice that must be corrected.</span></span>
-3. <span data-ttu-id="ae224-140">في جزء الإجراءات، في علامة التبويب **فاتورة المشروع**، في المجموعة **الوظائف**، حدد **تحديد لإشعار دائن**.</span><span class="sxs-lookup"><span data-stu-id="ae224-140">On the Action Pane, on the **Project invoice** tab, in the **Functions** group, select **Select for credit note**.</span></span>
-4. <span data-ttu-id="ae224-141">حدد **فوترة الائتمان**.</span><span class="sxs-lookup"><span data-stu-id="ae224-141">Select **Credit invoicing**.</span></span>
-5. <span data-ttu-id="ae224-142">أدخل سبب التصحيح.</span><span class="sxs-lookup"><span data-stu-id="ae224-142">Enter the reason for the correction.</span></span> <span data-ttu-id="ae224-143">يتم إنشاء المرجع إلى الفاتورة الاصلية تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="ae224-143">The reference to the original invoice is automatically established.</span></span>
+1. <span data-ttu-id="796e8-138">انتقل إلى **إدارة المشاريع والمحاسبة** \> **فواتير المشاريع** \> **فواتير المشاريع**.</span><span class="sxs-lookup"><span data-stu-id="796e8-138">Go to **Project management and accounting** \> **Project invoices** \> **Project invoices**.</span></span>
+2. <span data-ttu-id="796e8-139">حدد فاتورة المشروع التي يجب تصحيحها وافتحها.</span><span class="sxs-lookup"><span data-stu-id="796e8-139">Select and open the project invoice that must be corrected.</span></span>
+3. <span data-ttu-id="796e8-140">في جزء الإجراءات، في علامة التبويب **فاتورة المشروع**، في المجموعة **الوظائف**، حدد **تحديد لإشعار دائن**.</span><span class="sxs-lookup"><span data-stu-id="796e8-140">On the Action Pane, on the **Project invoice** tab, in the **Functions** group, select **Select for credit note**.</span></span>
+4. <span data-ttu-id="796e8-141">حدد **فوترة الائتمان**.</span><span class="sxs-lookup"><span data-stu-id="796e8-141">Select **Credit invoicing**.</span></span>
+5. <span data-ttu-id="796e8-142">أدخل سبب التصحيح.</span><span class="sxs-lookup"><span data-stu-id="796e8-142">Enter the reason for the correction.</span></span> <span data-ttu-id="796e8-143">يتم إنشاء المرجع إلى الفاتورة الاصلية تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="796e8-143">The reference to the original invoice is automatically established.</span></span>
 
 ![تعريف مرجع لفاتورة مشروع](media/reference-original-invoice-project.jpg)
 
-## <a name="printing-credit-notes"></a><span data-ttu-id="ae224-145">طباعة إشعارات الدائن</span><span class="sxs-lookup"><span data-stu-id="ae224-145">Printing credit notes</span></span>
+## <a name="printing-credit-notes"></a><span data-ttu-id="796e8-145">طباعة إشعارات الدائن</span><span class="sxs-lookup"><span data-stu-id="796e8-145">Printing credit notes</span></span>
 
-<span data-ttu-id="ae224-146">عند طباعة إشعارات دائنة نص حر وإشعارات دائمة للعميل وللمشروع، فإنها ستشتمل على مرجع إلى الفاتورة الأصلية وسبب التصحيح.</span><span class="sxs-lookup"><span data-stu-id="ae224-146">When you print free text, customer, and project credit notes, they will include the reference to the original invoice and the correction reason.</span></span>
+<span data-ttu-id="796e8-146">عند طباعة إشعارات دائنة نص حر وإشعارات دائمة للعميل وللمشروع، فإنها ستشتمل على مرجع إلى الفاتورة الأصلية وسبب التصحيح.</span><span class="sxs-lookup"><span data-stu-id="796e8-146">When you print free text, customer, and project credit notes, they will include the reference to the original invoice and the correction reason.</span></span>
 
 ![اشعار دائن مطبوع](media/credit-note-FTI.jpg)
 
 > [!NOTE]
-> <span data-ttu-id="ae224-148">تأكد من تكوين التنسيقات القابلة للطباعة الخاصة بالمستندات بشكل صحيح، على افتراض أنه ستتم طباعة مراجع الفواتير الأصلية.</span><span class="sxs-lookup"><span data-stu-id="ae224-148">Make sure that the printable formats of the documents are correctly configured, on the assumption that references to original invoices will be printed.</span></span>
+> <span data-ttu-id="796e8-148">تأكد من تكوين التنسيقات القابلة للطباعة الخاصة بالمستندات بشكل صحيح، على افتراض أنه ستتم طباعة مراجع الفواتير الأصلية.</span><span class="sxs-lookup"><span data-stu-id="796e8-148">Make sure that the printable formats of the documents are correctly configured, on the assumption that references to original invoices will be printed.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
