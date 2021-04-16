@@ -2,11 +2,9 @@
 title: إنشاء وتعيين سياسة تخصيص التكلفة إلى وحدة التحكم في التكلفة
 description: استخدم هذا الإجراء لإنشاء سياسة توزيع التكلفة‬ والقواعد المناظرة وتعيينها إلى وحدة التحكم بالتكاليف.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerPolicyAssignment
 audience: Application User
@@ -15,56 +13,56 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b22dba0106721c095e6ce2e9b76cb9f5267e1c28
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1cff10132e8007be885e9c69d97cf96c30d69f50
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208717"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822845"
 ---
-# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a><span data-ttu-id="573bf-103">إنشاء وتعيين سياسة تخصيص التكلفة إلى وحدة التحكم في التكلفة</span><span class="sxs-lookup"><span data-stu-id="573bf-103">Create and assign a cost allocation policy to a cost control unit</span></span>
+# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a><span data-ttu-id="ddbc8-103">إنشاء وتعيين سياسة تخصيص التكلفة إلى وحدة التحكم في التكلفة</span><span class="sxs-lookup"><span data-stu-id="ddbc8-103">Create and assign a cost allocation policy to a cost control unit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="573bf-104">استخدم هذا الإجراء لإنشاء سياسة توزيع التكلفة‬ والقواعد المناظرة وتعيينها إلى وحدة التحكم بالتكاليف.</span><span class="sxs-lookup"><span data-stu-id="573bf-104">Use this procedure to create and assign a cost allocation policy and the corresponding rules to a cost control unit.</span></span> <span data-ttu-id="573bf-105">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.</span><span class="sxs-lookup"><span data-stu-id="573bf-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="ddbc8-104">استخدم هذا الإجراء لإنشاء سياسة توزيع التكلفة‬ والقواعد المناظرة وتعيينها إلى وحدة التحكم بالتكاليف.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-104">Use this procedure to create and assign a cost allocation policy and the corresponding rules to a cost control unit.</span></span> <span data-ttu-id="ddbc8-105">يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USP2.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="create-a-policy"></a><span data-ttu-id="573bf-106">إنشاء سياسة</span><span class="sxs-lookup"><span data-stu-id="573bf-106">Create a policy</span></span>
-1. <span data-ttu-id="573bf-107">انتقل إلى محاسبة التكاليف > السياسات > سياسات توزيع التكاليف.</span><span class="sxs-lookup"><span data-stu-id="573bf-107">Go to Cost accounting > Policies > Cost allocation policies.</span></span>
-2. <span data-ttu-id="573bf-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="573bf-108">Click New.</span></span>
-3. <span data-ttu-id="573bf-109">في الحقل "اسم السياسة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="573bf-109">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="573bf-110">في الحقل "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="573bf-110">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="573bf-111">حدد "المؤسسة".</span><span class="sxs-lookup"><span data-stu-id="573bf-111">Select Organization.</span></span>  
-5. <span data-ttu-id="573bf-112">في الحقل "البعد الإحصائي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="573bf-112">In the Statistical dimension field, enter or select a value.</span></span>
-6. <span data-ttu-id="573bf-113">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="573bf-113">Click Save.</span></span>
+## <a name="create-a-policy"></a><span data-ttu-id="ddbc8-106">إنشاء سياسة</span><span class="sxs-lookup"><span data-stu-id="ddbc8-106">Create a policy</span></span>
+1. <span data-ttu-id="ddbc8-107">انتقل إلى محاسبة التكاليف > السياسات > سياسات توزيع التكاليف.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-107">Go to Cost accounting > Policies > Cost allocation policies.</span></span>
+2. <span data-ttu-id="ddbc8-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-108">Click New.</span></span>
+3. <span data-ttu-id="ddbc8-109">في الحقل "اسم السياسة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="ddbc8-110">في الحقل "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-110">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="ddbc8-111">حدد "المؤسسة".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-111">Select Organization.</span></span>  
+5. <span data-ttu-id="ddbc8-112">في الحقل "البعد الإحصائي"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-112">In the Statistical dimension field, enter or select a value.</span></span>
+6. <span data-ttu-id="ddbc8-113">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-113">Click Save.</span></span>
 
-## <a name="create-allocation-rules"></a><span data-ttu-id="573bf-114">إنشاء قواعد التوزيع</span><span class="sxs-lookup"><span data-stu-id="573bf-114">Create allocation rules</span></span>
-1. <span data-ttu-id="573bf-115">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="573bf-115">Click New.</span></span>
-2. <span data-ttu-id="573bf-116">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="573bf-116">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="573bf-117">في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="573bf-117">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-4. <span data-ttu-id="573bf-118">حدد "إجمالي" في حقل "سلوك التكلفة".</span><span class="sxs-lookup"><span data-stu-id="573bf-118">In the Cost behavior field, select 'Total'.</span></span>
-5. <span data-ttu-id="573bf-119">في الحقل "أساس التوزيع"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="573bf-119">In the Allocation base field, enter or select a value.</span></span>
-6. <span data-ttu-id="573bf-120">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="573bf-120">Click New.</span></span>
-7. <span data-ttu-id="573bf-121">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="573bf-121">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="573bf-122">في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="573bf-122">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-9. <span data-ttu-id="573bf-123">حدد "إجمالي" في حقل "سلوك التكلفة".</span><span class="sxs-lookup"><span data-stu-id="573bf-123">In the Cost behavior field, select 'Total'.</span></span>
-10. <span data-ttu-id="573bf-124">في الحقل "أساس التوزيع"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="573bf-124">In the Allocation base field, enter or select a value.</span></span>
-11. <span data-ttu-id="573bf-125">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="573bf-125">Click New.</span></span>
-12. <span data-ttu-id="573bf-126">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="573bf-126">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="573bf-127">في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="573bf-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-14. <span data-ttu-id="573bf-128">حدد "إجمالي" في حقل "سلوك التكلفة".</span><span class="sxs-lookup"><span data-stu-id="573bf-128">In the Cost behavior field, select 'Total'.</span></span>
-15. <span data-ttu-id="573bf-129">في الحقل "أساس التوزيع"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="573bf-129">In the Allocation base field, enter or select a value.</span></span>
-    * <span data-ttu-id="573bf-130">تابع حتى إنشاء كافة القواعد.</span><span class="sxs-lookup"><span data-stu-id="573bf-130">Continue until you've created all the rules.</span></span>  
-16. <span data-ttu-id="573bf-131">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="573bf-131">Click Save.</span></span>
+## <a name="create-allocation-rules"></a><span data-ttu-id="ddbc8-114">إنشاء قواعد التوزيع</span><span class="sxs-lookup"><span data-stu-id="ddbc8-114">Create allocation rules</span></span>
+1. <span data-ttu-id="ddbc8-115">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-115">Click New.</span></span>
+2. <span data-ttu-id="ddbc8-116">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-116">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="ddbc8-117">في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-117">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+4. <span data-ttu-id="ddbc8-118">حدد "إجمالي" في حقل "سلوك التكلفة".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-118">In the Cost behavior field, select 'Total'.</span></span>
+5. <span data-ttu-id="ddbc8-119">في الحقل "أساس التوزيع"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-119">In the Allocation base field, enter or select a value.</span></span>
+6. <span data-ttu-id="ddbc8-120">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-120">Click New.</span></span>
+7. <span data-ttu-id="ddbc8-121">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-121">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="ddbc8-122">في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-122">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+9. <span data-ttu-id="ddbc8-123">حدد "إجمالي" في حقل "سلوك التكلفة".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-123">In the Cost behavior field, select 'Total'.</span></span>
+10. <span data-ttu-id="ddbc8-124">في الحقل "أساس التوزيع"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-124">In the Allocation base field, enter or select a value.</span></span>
+11. <span data-ttu-id="ddbc8-125">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-125">Click New.</span></span>
+12. <span data-ttu-id="ddbc8-126">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-126">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="ddbc8-127">في العقدة "تدرج بُعد كائن التكلفة‬‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+14. <span data-ttu-id="ddbc8-128">حدد "إجمالي" في حقل "سلوك التكلفة".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-128">In the Cost behavior field, select 'Total'.</span></span>
+15. <span data-ttu-id="ddbc8-129">في الحقل "أساس التوزيع"، أدخل أو حدد قيمة.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-129">In the Allocation base field, enter or select a value.</span></span>
+    * <span data-ttu-id="ddbc8-130">تابع حتى إنشاء كافة القواعد.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-130">Continue until you've created all the rules.</span></span>  
+16. <span data-ttu-id="ddbc8-131">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-131">Click Save.</span></span>
 
-## <a name="assign-the-policy-to-a-cost-control-unit"></a><span data-ttu-id="573bf-132">تعيين السياسة إلى وحدة التحكم بالتكاليف</span><span class="sxs-lookup"><span data-stu-id="573bf-132">Assign the policy to a cost control unit</span></span>
-1. <span data-ttu-id="573bf-133">انقر فوق "تعيينات السياسة" لوحدة التحكم بالتكاليف.</span><span class="sxs-lookup"><span data-stu-id="573bf-133">Click Policy assignments for cost control unit.</span></span>
-2. <span data-ttu-id="573bf-134">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="573bf-134">Click New.</span></span>
-3. <span data-ttu-id="573bf-135">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="573bf-135">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="573bf-136">أدخل تاريخًا في الحقل "صالح بدءًا من تاريخ المحاسبة‬‬".</span><span class="sxs-lookup"><span data-stu-id="573bf-136">In the Valid from accounting date field, enter a date.</span></span>
-    * <span data-ttu-id="573bf-137">القواعد لها تاريخ سريان.</span><span class="sxs-lookup"><span data-stu-id="573bf-137">The rules are date-effective.</span></span> <span data-ttu-id="573bf-138">باستطاعة المستخدم أو النظام إنهاء تاريخ صلاحية القواعد إذا تم إنشاء إصدار أحدث.</span><span class="sxs-lookup"><span data-stu-id="573bf-138">A user or the system can expire the rules if a newer version is created.</span></span>  
-5. <span data-ttu-id="573bf-139">في الحقل "وحدة التحكم بالتكاليف‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="573bf-139">In the Cost control unit field, enter or select a value.</span></span>
-6. <span data-ttu-id="573bf-140">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="573bf-140">Click Save.</span></span>
+## <a name="assign-the-policy-to-a-cost-control-unit"></a><span data-ttu-id="ddbc8-132">تعيين السياسة إلى وحدة التحكم بالتكاليف</span><span class="sxs-lookup"><span data-stu-id="ddbc8-132">Assign the policy to a cost control unit</span></span>
+1. <span data-ttu-id="ddbc8-133">انقر فوق "تعيينات السياسة" لوحدة التحكم بالتكاليف.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-133">Click Policy assignments for cost control unit.</span></span>
+2. <span data-ttu-id="ddbc8-134">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-134">Click New.</span></span>
+3. <span data-ttu-id="ddbc8-135">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-135">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="ddbc8-136">أدخل تاريخًا في الحقل "صالح بدءًا من تاريخ المحاسبة‬‬".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-136">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="ddbc8-137">القواعد لها تاريخ سريان.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-137">The rules are date-effective.</span></span> <span data-ttu-id="ddbc8-138">باستطاعة المستخدم أو النظام إنهاء تاريخ صلاحية القواعد إذا تم إنشاء إصدار أحدث.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-138">A user or the system can expire the rules if a newer version is created.</span></span>  
+5. <span data-ttu-id="ddbc8-139">في الحقل "وحدة التحكم بالتكاليف‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="ddbc8-139">In the Cost control unit field, enter or select a value.</span></span>
+6. <span data-ttu-id="ddbc8-140">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="ddbc8-140">Click Save.</span></span>
 
 
 
