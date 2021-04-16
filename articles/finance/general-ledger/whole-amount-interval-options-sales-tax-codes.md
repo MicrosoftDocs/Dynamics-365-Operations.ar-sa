@@ -2,11 +2,9 @@
 title: المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات
 description: تشرح هذه المقالة خيارات حقل أسلوب حساب على أكواد ضريبة المبيعات وكيفية حساب ضريبة المبيعات للفترات والمبالغ كاملة.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0414f835b7797d2ed554f8d9dbd95b2ad47bba43
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 48569da2d504e4c380ca89bfec4450ad1b9888e5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234107"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842358"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات
 
@@ -46,9 +44,8 @@ ms.locfileid: "5234107"
 ## <a name="example-whole-amount-method-of-calculation"></a>مثال: طريقة حساب إجمالي المبلغ
 في صفحة قيم أكواد ضريبة المبيعات، يتم إعداد معدلات ضريبة المبيعات في الفترات التالية:
 
-|                   |                   |              |
+| حد الحد الأدنى     | الحد الأقصى     | معدل الضريبة     |
 |-------------------|-------------------|--------------|
-| **حد الحد الأدنى** | **الحد الأقصى** | **معدل الضريبة** |
 | 0.00              | 50.00             | 30%          |
 | 50.00             | 100.00            | 20%          |
 | 100.00            | 0.00              | 10%          |
@@ -65,9 +62,8 @@ ms.locfileid: "5234107"
 ## <a name="example-interval-method-of-calculation"></a>مثال: طريقة حساب الفترة
 في صفحة القيم، يتم إعداد معدلات ضرائب المبيعات في الفترات التالية:
 
-|                   |                   |              |
+| حد الحد الأدنى     | الحد الأقصى     | معدل الضريبة     |
 |-------------------|-------------------|--------------|
-| **حد الحد الأدنى** | **الحد الأقصى** | **معدل الضريبة** |
 | 0.00              | 50.00             | 30%          |
 | 50.00             | 100.00            | 20%          |
 | 100.00            | 0.00              | 10%          |

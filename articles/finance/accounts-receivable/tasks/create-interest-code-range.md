@@ -2,11 +2,9 @@
 title: إنشاء رمز فائدة مع نطاق
 description: يمكن إعداد رموز الفائدة لحساب مبالغ الفائدة المختلفة استنادًا إلى نطاق القيم.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44b98436d6e0c40f0458dc4744b8b1d96baa8b54
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c18269d277f64433da35e7dc1675cd3afda8e070
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216559"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835018"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>إنشاء رمز فائدة مع نطاق
 

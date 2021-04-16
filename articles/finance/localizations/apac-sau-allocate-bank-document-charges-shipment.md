@@ -2,11 +2,9 @@
 title: تخصيص رسوم المستندات البنكية لشحنة
 description: يوضح هذا الموضوع كيف يمكن تخصيص المصاريف البنكية للمستند علي شحنه في أمر شراء.
 author: v-oloski
-manager: tfehr
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Saudi Arabia
 ms.author: v-oloski
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8259b667b8bb1311389df4f07147da7a123da55b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8a8dab1ad497024b2742d7aa69cb906ede596c5e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209963"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836871"
 ---
 # <a name="allocate-bank-document-charges-to-a-shipment"></a>تخصيص رسوم المستندات البنكية لشحنة
 
