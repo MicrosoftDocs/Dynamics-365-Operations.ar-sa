@@ -2,11 +2,9 @@
 title: إنشاء أقسام وتضمينها في التدرج الهرمي للأقسام
 description: القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 723e46f98545e80551da9f79b6aeffc3eca48830
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466004"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794459"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>إنشاء أقسام وتضمينها في التدرج الهرمي للأقسام
 
