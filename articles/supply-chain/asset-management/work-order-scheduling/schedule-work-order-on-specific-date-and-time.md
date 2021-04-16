@@ -1,12 +1,10 @@
 ---
 title: جدولة أمر العمل في تاريخ ووقت محددين
 description: يوضح هذا الموضوع كيفية جدولة أمر عمل في تاريخ ووقت محددين في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,46 +12,46 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 921e78f2fc7e6254aa27ce70cdbbf0516aad7e11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 827f4ca16341d29413f1b1d928965aa1919abf59
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214976"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822505"
 ---
-# <a name="schedule-work-order-on-specific-date-and-time"></a><span data-ttu-id="260e7-103">جدولة أمر العمل في تاريخ ووقت محددين</span><span class="sxs-lookup"><span data-stu-id="260e7-103">Schedule work order on specific date and time</span></span>
+# <a name="schedule-work-order-on-specific-date-and-time"></a><span data-ttu-id="001a5-103">جدولة أمر العمل في تاريخ ووقت محددين</span><span class="sxs-lookup"><span data-stu-id="001a5-103">Schedule work order on specific date and time</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="260e7-104">إذا كان من الضروري جدولة أحد أوامر العمل في تاريخ‏‎ *و* وقت محددين، فيمكنك تجاوز عمليه الجدولة القياسية في إدارة الأصول وإنشاء جدول معين لأمر العمل.</span><span class="sxs-lookup"><span data-stu-id="260e7-104">If a work order must be scheduled on a specific date *and* time, you can override the standard scheduling process in Asset Management and create a specific schedule for a work order.</span></span>
+<span data-ttu-id="001a5-104">إذا كان من الضروري جدولة أحد أوامر العمل في تاريخ‏‎ *و* وقت محددين، فيمكنك تجاوز عمليه الجدولة القياسية في إدارة الأصول وإنشاء جدول معين لأمر العمل.</span><span class="sxs-lookup"><span data-stu-id="001a5-104">If a work order must be scheduled on a specific date *and* time, you can override the standard scheduling process in Asset Management and create a specific schedule for a work order.</span></span>
 
-1. <span data-ttu-id="260e7-105">انقر فوق **إدارة الأصول** > **عام** > **أوامر العمل** > **جميع أوامر العمل** أو **أوامر العمل النشطة**.</span><span class="sxs-lookup"><span data-stu-id="260e7-105">Click **Asset management** > **Common** > **Work orders** > **All Work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="001a5-105">انقر فوق **إدارة الأصول** > **عام** > **أوامر العمل** > **جميع أوامر العمل** أو **أوامر العمل النشطة**.</span><span class="sxs-lookup"><span data-stu-id="001a5-105">Click **Asset management** > **Common** > **Work orders** > **All Work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="260e7-106">في قائمة أمر العمل، انقر فوق معرف أمر العمل في عمود **أمر العمل**.</span><span class="sxs-lookup"><span data-stu-id="260e7-106">In the work order list, click on the Work order ID in the **Work order** column.</span></span>
+2. <span data-ttu-id="001a5-106">في قائمة أمر العمل، انقر فوق معرف أمر العمل في عمود **أمر العمل**.</span><span class="sxs-lookup"><span data-stu-id="001a5-106">In the work order list, click on the Work order ID in the **Work order** column.</span></span>
 
-3. <span data-ttu-id="260e7-107">انقر فوق **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="260e7-107">Click **Edit**.</span></span>
+3. <span data-ttu-id="001a5-107">انقر فوق **تحرير**.</span><span class="sxs-lookup"><span data-stu-id="001a5-107">Click **Edit**.</span></span>
 
-4. <span data-ttu-id="260e7-108">على علامة التبويب السريعة **رأس أمر العمل**، أدخل تواريخ وأوقات البدء والانتهاء في الحقلين **البدء المتوقع** و **الانتهاء المتوقع**.</span><span class="sxs-lookup"><span data-stu-id="260e7-108">On the **Work order header** FastTab, insert start and end dates and times in the **Expected start** and **Expected end** fields.</span></span>
+4. <span data-ttu-id="001a5-108">على علامة التبويب السريعة **رأس أمر العمل**، أدخل تواريخ وأوقات البدء والانتهاء في الحقلين **البدء المتوقع** و **الانتهاء المتوقع**.</span><span class="sxs-lookup"><span data-stu-id="001a5-108">On the **Work order header** FastTab, insert start and end dates and times in the **Expected start** and **Expected end** fields.</span></span>
 
     ![الشكل 1](media/05-work-order-scheduling.png)
 
-5. <span data-ttu-id="260e7-110">على علامة التبويب السريعة **عام**، انقر فوق **جدول** لاستخدام عملية الجدولة القياسية، أو انقر فوق **إرسال** لتعين أمر العمل إلى عامل معين.</span><span class="sxs-lookup"><span data-stu-id="260e7-110">On the **General** tab, click **Schedule** to use the standard scheduling process, or click **Dispatch** if you want to assign the work order to a specific worker.</span></span>
+5. <span data-ttu-id="001a5-110">على علامة التبويب السريعة **عام**، انقر فوق **جدول** لاستخدام عملية الجدولة القياسية، أو انقر فوق **إرسال** لتعين أمر العمل إلى عامل معين.</span><span class="sxs-lookup"><span data-stu-id="001a5-110">On the **General** tab, click **Schedule** to use the standard scheduling process, or click **Dispatch** if you want to assign the work order to a specific worker.</span></span>
 
-6. <span data-ttu-id="260e7-111">من أجل تجاوز حجوزات القدرة الإنتاجية الحالية لضمان جدولة أمر العمل في الفترة المتوقعة، قم بإجراء التحديدات كما هو موضح في الشكل أدناه في مربع الحوار **جدولة أمر العمل** > القسم **قدرة محدودة‬**.</span><span class="sxs-lookup"><span data-stu-id="260e7-111">In order to override any existing capacity reservations to ensure that the work order is scheduled in the expected period, make the selections as shown in the figure below in the **Schedule work order** dialog > **Finite capacity** section.</span></span> <span data-ttu-id="260e7-112">وهذا يعني أن عملية الجدولة ستتجاهل حجوزات القدرة الإنتاجية الحالية نظرًا لضرورة بدء أمر العمل في وقت البدء المتوقع.</span><span class="sxs-lookup"><span data-stu-id="260e7-112">This means that the scheduling process will ignore existing capacity reservations because the work order must start on the expected start time.</span></span>
+6. <span data-ttu-id="001a5-111">من أجل تجاوز حجوزات القدرة الإنتاجية الحالية لضمان جدولة أمر العمل في الفترة المتوقعة، قم بإجراء التحديدات كما هو موضح في الشكل أدناه في مربع الحوار **جدولة أمر العمل** > القسم **قدرة محدودة‬**.</span><span class="sxs-lookup"><span data-stu-id="001a5-111">In order to override any existing capacity reservations to ensure that the work order is scheduled in the expected period, make the selections as shown in the figure below in the **Schedule work order** dialog > **Finite capacity** section.</span></span> <span data-ttu-id="001a5-112">وهذا يعني أن عملية الجدولة ستتجاهل حجوزات القدرة الإنتاجية الحالية نظرًا لضرورة بدء أمر العمل في وقت البدء المتوقع.</span><span class="sxs-lookup"><span data-stu-id="001a5-112">This means that the scheduling process will ignore existing capacity reservations because the work order must start on the expected start time.</span></span>
 
     ![الشكل 2](media/06-work-order-scheduling.png)
 
-7. <span data-ttu-id="260e7-114">انقر فوق **موافق** لبدء الجدولة.</span><span class="sxs-lookup"><span data-stu-id="260e7-114">Click **OK** to start scheduling.</span></span>
+7. <span data-ttu-id="001a5-114">انقر فوق **موافق** لبدء الجدولة.</span><span class="sxs-lookup"><span data-stu-id="001a5-114">Click **OK** to start scheduling.</span></span>
 
-8. <span data-ttu-id="260e7-115">إذا أدت عملية الجدولة إلى الحصول على حجوزات مزدوجة، فسترى رسالة على الشاشة، ويمكنك ضبط أوامر العمل ذات الصلة.</span><span class="sxs-lookup"><span data-stu-id="260e7-115">If the scheduling process results in double bookings, you will see a message on the screen, and you can adjust the related work orders.</span></span>
+8. <span data-ttu-id="001a5-115">إذا أدت عملية الجدولة إلى الحصول على حجوزات مزدوجة، فسترى رسالة على الشاشة، ويمكنك ضبط أوامر العمل ذات الصلة.</span><span class="sxs-lookup"><span data-stu-id="001a5-115">If the scheduling process results in double bookings, you will see a message on the screen, and you can adjust the related work orders.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="260e7-116">من أجل جدولة عامل صيانة لأمر العمل، يجب أن يكون عامل الصاينة هذا متوفرًا في وقت وتاريخ البدء المتوقعين.</span><span class="sxs-lookup"><span data-stu-id="260e7-116">In order to schedule a maintenance worker for the work order, that maintenance worker must be available at the expected start date and time.</span></span> <span data-ttu-id="260e7-117">يتم إعداد توافر العاملين في [تقويم العمل](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md).</span><span class="sxs-lookup"><span data-stu-id="260e7-117">Worker availability is set up in the [worker calendar](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md).</span></span> 
+><span data-ttu-id="001a5-116">من أجل جدولة عامل صيانة لأمر العمل، يجب أن يكون عامل الصاينة هذا متوفرًا في وقت وتاريخ البدء المتوقعين.</span><span class="sxs-lookup"><span data-stu-id="001a5-116">In order to schedule a maintenance worker for the work order, that maintenance worker must be available at the expected start date and time.</span></span> <span data-ttu-id="001a5-117">يتم إعداد توافر العاملين في [تقويم العمل](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md).</span><span class="sxs-lookup"><span data-stu-id="001a5-117">Worker availability is set up in the [worker calendar](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md).</span></span> 
 
 
 
