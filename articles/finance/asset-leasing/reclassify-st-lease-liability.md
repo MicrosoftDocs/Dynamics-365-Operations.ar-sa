@@ -2,11 +2,9 @@
 title: إعادة تصنيف الجزء قصير الأجل من التزامات الإيجار
 description: يوضح هذا الموضوع كيفية إنشاء إدخال دفتر يومية شهريًا لإعادة تصنيف جزء من التزامات الإيجار على أنه قصير أجل.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9189033987a3072c7122e1a198768d9de6aa2a52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7d98d66b5fe9d32a86eb75d937fedfdca6773ac4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254073"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823085"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>إعادة تصنيف الجزء قصير الأجل من التزامات الإيجار
 
@@ -38,8 +36,7 @@ ms.locfileid: "5254073"
 2. في مربع الحوار **إنشاء دفتر يومية الدُفعة**، في الحقل **تحديد جدول**، حدد **إعادة تصنيف التزام الإيجار قصير الأجل**.
 3. في الحقل **مجموعة الإيجار**، حدد مجموعة إيجار. أو بدلاً من ذلك، في الحقل **معرف الدفتر**، حدد معرف الدفتر.
 4. قم بتشغيل المعلمة **ترحيل**. وبدلاً من ذلك، إذا كان من الضروري إنشاء الإدخال ولكن لم يتم ترحيله، قم بإيقاف تشغيل هذه المعلمة.
-5. قم بتشغيل المعلمة **معاينة قبل الترحيل** لعرض الإدخال قبل ترحيله.
-6. حدد **موافق**.
+5. حدد **موافق**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: التبديل بين تصميمات المورّدين
 description: يصف هذا الموضوع كيفية تبديل تكامل بيانات البائع بين تطبيقات Finance and Operations وDataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 78d4c547f544d95c66490e5610374a5c4598b266
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5a18fed2eac4c120dca20a1d7797d047639275b9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565589"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750584"
 ---
 # <a name="switch-between-vendor-designs"></a>التبديل بين تصميمات المورّدين
 
