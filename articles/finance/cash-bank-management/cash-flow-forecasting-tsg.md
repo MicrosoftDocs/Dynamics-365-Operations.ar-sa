@@ -2,11 +2,9 @@
 title: استكشاف أخطاء إعداد تقدير التدفقات النقدية وإصلاحها
 description: يوفر هذا الموضوع أجوبة على الأسئلة التي قد تواجهك عند تكوين تقدير تدفق النقدية. ويتناول الأسئلة المتداولة حول إعداد التدفقات النقدية وتحديثات التدفق النقدي وPower BI للتدفق النقدي.
 author: panolte
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1cde9321259753bd0cacab3706c7f8455598ff3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b4760d7a0d0c14e2df8df20c2f81ec41e077cc0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232479"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827304"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>استكشاف أخطاء إعداد تقدير التدفقات النقدية وإصلاحها
 
@@ -47,11 +45,19 @@ ms.locfileid: "5232479"
 
 ## <a name="why-did-cash-flow-power-bi-work-in-previous-versions-but-is-now-blank"></a>لماذا يعمل Power BI للتدفق النقدي في الإصدارات السابقة ولكنه الآن فارغ؟
 
-تحقق من تكوين قياسات "قياس التدفق النقدي V2" و "LedgerCovLiquidityMeasurement" من مخزن الكيانات. لمزيد من المعلومات حول كيفية العمل مع البيانات في مخزن الكيانات، راجع [تكامل Power BI مع مخزن الكيانات](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md) تحقق من اكتمال كافة الخطوات المطلوبة لعرض محتوى Power BI. للحصول على مزيد من المعلومات، راجع [محتوى Power BI لنظرة عامة على النقدية](Cash-Overview-Power-BI-content.md).
+تحقق من تكوين قياسات "قياس التدفق النقدي V2" و "LedgerCovLiquidityMeasurement" من مخزن الكيانات. لمزيد من المعلومات حول كيفية التعامل مع البيانات في مخزن الكيانات، راجع [تكامل Power BI مع مخزن الكيانات](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md). تحقق من اكتمال كل الخطوات المطلوبة لعرض محتوى Power BI. للحصول على مزيد من المعلومات، راجع [محتوى Power BI لنظرة عامة على النقدية](Cash-Overview-Power-BI-content.md).
 
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>هل تم تحديث كيانات متجر الكيانات؟
 
 يجب تحديث الكيانات بشكل دوري لضمان أن البيانات حديثة ودقيقة. لتحديث كيان محدد يدويًا، انتقل إلى **إدارة النظام \> الإعداد \> متجر الكيانات**، وحدد الكيان، ثم حدد **تحديث**. ويمكن أيضا تحديث البيانات تلقائيًا. في صفحة **متجر البيانات**، قم بتعيين خيار **تمكين التحديث التلقائي** إلى **نعم**.
 
+## <a name="which-calculation-method-should-be-used-when-calculating-cash-flow-forecasts"></a>ما هي طريقة الحساب التي يجب استخدامها عند حساب تقديرات التدفقات النقدية؟
+
+يحتوي أسلوب حساب تقدير التدفق النقدي علي خيارين هامين للتحديد. سيقوم الخيار **جديد** بحساب تقديرات التدفقات النقدية للمستندات والمستندات الجديدة التي تغيرت منذ تشغيل وظيفة المجموعة الاخيره. يعمل هذا الخيار بشكل أسرع لأنه يعالج مجموعه فرعيه أصغر من المستندات. سيقوم الخيار **إجمالي** باعاده حساب تنبؤات التدفقات النقدية لكل مستند في النظام. يستغرق هذا الخيار وقتا إضافيا لإكمال المزيد من العمل.
+
+### <a name="how-do-i-improve-the-performance-of-the-cash-flow-forecasting-recurring-batch-job"></a>كيف يمكن تحسين أداء وظيفة مجموعه التكرارات المتكررة لتقدير التدفقات النقدية؟
+
+نوصي بتشغيل تقدير التدفقات النقدية مره واحده في كل يوم من الساعات القصوى باستخدام طريقه الحساب **الجديدة**. نوصي باستخدام هذه الطريقة لسته أيام لكل أسبوع. قم بعد ذلك بتشغيل تقدير التدفقات النقدية مره واحده كل أسبوع باستخدام طريقة حساب **الإجمالي** في يوم بأقل قدر من النشاط.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

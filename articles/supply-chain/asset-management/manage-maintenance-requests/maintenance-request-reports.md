@@ -1,12 +1,10 @@
 ---
 title: تقارير طلبات الصيانة
 description: يشرح هذا الموضوع كيفية إنشاء تقارير طلبات الصيانة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9e10327ad65b712cf7713eb3e25713ac5dae950e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0057d1a2dc00cef2474bc77b76af0d2e2b783d0c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253292"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839645"
 ---
 # <a name="maintenance-request-reports"></a>تقارير طلبات الصيانة
 

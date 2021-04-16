@@ -2,11 +2,9 @@
 title: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
 description: يوفر هذا الموضوع نظرة عامة حول عملية إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام- الإعداد وتشغيل العملية وحساب العملية وكيفية عكس حركات إعادة التقييم، إذا لزم الأمر.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7433c6753b612a9721917c036a8b36b7e3165177
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e2f24c60b3fb82532f50e58dde9a19f5fefb25d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249253"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832912"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
 
@@ -83,7 +81,7 @@ ms.locfileid: "5249253"
 
 | الرصيد الحالة بعملة الحركة | الرصيد الحالي بعملة المحاسبة | سعر الصرف عند إعادة التقييم | مبلغ عملة المحاسبة الجديد | الأرباح/الخسائر غير المحققة    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 يورو                                     | 1000 دولار أمريكي                                   | 166.6667                         | 833.33 يورو (500 x 1.666667)        | 166.67 خسارة (833.33 – 1000) |
+| 500 يورو                                     | 1000 دولار أمريكي                                   | 166.6667                         | 833.33 دولار أمريكي (500 x 1.666667)        | 166.67 خسارة (833.33 – 1000) |
 
 سيتم إنشاء إدخال المحاسبة التالي.
 

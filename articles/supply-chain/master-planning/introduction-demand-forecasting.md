@@ -2,11 +2,9 @@
 title: نظرة عامة على التنبؤ بالطلب‬
 description: يتم استخدام التنبؤ بالطلب للتنبؤ بطلب غير معال من أوامر المبيعات وطلب معال عند أي نقطة اتصال لأوامر العملاء. توفر قواعد خفض التنبؤ بالطلب المحسن حلاً مثاليًا للتخصيص الشامل.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b285b973f0fee3b253f63f49e3f5b4893d9dd86
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9e00c980183708c5b9e995fb2a26d45baf13ca14
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207029"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829728"
 ---
 # <a name="demand-forecasting-overview"></a>نظرة عامة على التنبؤ بالطلب‬
 

@@ -2,11 +2,9 @@
 title: فحص الجودة
 description: يوفر هذا الموضوع معلومات حول ميزة فحص الجودة. تسمح هذه الميزة للعاملين في المستودع بإجراء عمليات عشوائية سريعة لفحص الجودة أثناء استلام الأصناف في منطقة الرصيف الداخلية.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 31afcfcb9d8dbb91f4ea4e3e7a7282c2a87328d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228455"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838216"
 ---
 # <a name="quality-check"></a>فحص الجودة
 
@@ -301,7 +299,7 @@ ms.locfileid: "5228455"
 
 #### <a name="receive-pallet-1"></a>استلام البالته 1
 
-1. سجل الدخول إلى تطبيق المستودع كمستخدم للمستودع *51*. (قم بإدخال *51* كمعرف المستخدم و *1* ككلمة مرور.)
+1. سجل الدخول إلى تطبيق إدارة المستودع للأجهزة المحمولة كمستخدم ممكّن للمستودع *51*. (قم بإدخال *51* كمعرف المستخدم و *1* ككلمة مرور.)
 1. انتقل إلى **وارد \> استلام بند أمر الشراء**.
 1. في حقل **‎PONUM**، أدخل رقم أمر الشراء.
 1. أكد رقم أمر الشراء.

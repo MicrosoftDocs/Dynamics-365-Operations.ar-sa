@@ -2,11 +2,9 @@
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.16 من Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236065"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829970"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
 
@@ -35,11 +33,13 @@ ms.locfileid: "5236065"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
+يتضمن هذا الإصدار الميزات التالية. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
 - [واجهه تنفيذ حاله العمل القابلة للتخصيص](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - لمزيد من المعلومات، راجع [إعداد جهاز لتشغيل واجهة تنفيذ صالة الإنتاج‬](../production-control/production-floor-execution-setup.md).
 
 - [الوظيفة الاضافيه لرؤية المخزون لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - لمزيد من المعلومات ، راجع [الوظيفة الاضافيه لرؤية المخزون](../inventory/inventory-visibility.md)
+
+- التسلسل الرقمي الموحد لمعرفات الوظائف<br> - لمزيد من المعلومات، راجع [التسلسل الرقمي الموحد لمعرفات الوظائف](../production-control/unified-job-ids.md).
 
 - [التحقق من صحة لوحات الترخيص علي سطور المستند المصدر](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - لمزيد من المعلومات، راجع [نظرة عامة على تكوين المستودع](../warehousing/warehouse-configuration.md).
 
@@ -74,8 +74,8 @@ ms.locfileid: "5236065"
 - [استكشاف أخطاء عمليات الحجز في إدارة المستودعات وإصلاحها](../warehousing/troubleshoot-warehouse-reservations.md)
 - [استكشاف أخطاء أوامر المبيعات وإصلاحها](../sales-marketing/troubleshooting-sales.md)
 - [استكشاف أخطاء عروض أسعار المبيعات وإصلاحها](../sales-marketing/troubleshooting-salesquotation.md)
-- [استكشاف أخطاء الترقية والترحيل إلى أداره مستودع متقدمة وإصلاحها](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [استكشاف مشكلات الاتصال بتطبيق المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [استكشاف أخطاء الترقية والترحيل إلى الإدارة المتقدمة للمستودع وإصلاحها](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
+- [استكشاف المشاكل وإصلاحها في تطبيق إدارة المستودع للأجهزة المحمولة](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [استكشاف أخطاء تكوين المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-configuration.md)
 - [استكشاف أخطاء تزويد المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [استكشاف أخطاء إعداد المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-setup.md)

@@ -2,11 +2,9 @@
 title: مجموعات التكاليف
 description: توفر مجموعات التكاليف القاعدة لتجزئة مساهمات التكلفة وتحليلها في التكلفة المحسوبة للأصناف المصنعة، مثل مساهمات التكلفة للمواد والعمالة والمصاريف الزائدة. وتوجد عدة مرادفات لتجزئة مجموعة التكلفة وذلك داخل بيئات التصنيع، مثل تحليل التكلفة أو تصنيف التكلفة.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd7f9b8e7a1b15dd94ee8ebe5b6c70b0d85495a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6ec09fe3611542c9f4c4c65628a15cc690a3b437
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250992"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839381"
 ---
 # <a name="cost-groups"></a>مجموعات التكاليف
 

@@ -2,7 +2,6 @@
 title: حركات الزيادة/النقصان
 description: يوفر هذا الموضوع المعلومات التي ستساعدك في إعداد تفاصيل السياسات للمعاملات الزائدة/قيد التنفيذ، بحيث يمكن للنظام تحديد كيفية إدارة المعالجة الزائدة والمعالجة الناقصة للبضائع في وقت الاستلام.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500972"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833727"
 ---
 # <a name="overunder-transactions"></a>حركات الزيادة/النقصان
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 عند معالجة أوامر الرحلة، يتوقع النظام أن تتطابق كمية الصنف التي يتم استلامها في مستودع الوجهة النهائي للاستهلاك مع الكمية المحددة في بنود أمر الشراء المرتبطة بالرحلة. ومع ذلك، نظرًا لأن الكمية الدقيقة في بنود أمر الشراء لا يتم استلامها دائمًا في المستودع، تحدد وحدة **التكلفة المستلمة** مجموعة من القواعد المستخدمة للتعامل مع الاستلام الزائد والاستلام الناقص للبضائع. هذه القواعد مهمة بشكل خاص لأنه تمت فوترة أمر الشراء الأصلي ولا يمكن تعديله بعد الآن. من خلال إعداد تفاصيل سياسات الحركات الزائدة/الناقصة، يمكنك تمكين النظام لتحديد كيفية إدارة المعالجة الزائدة والمعالجة الناقصة للبضائع في وقت الاستلام. يمكنك أيضًا إدارة المخزون الإضافي وتحته يدويًا باستخدام صفحة **الحركات الزائدة/الناقصة**.
 

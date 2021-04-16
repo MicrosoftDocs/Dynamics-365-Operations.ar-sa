@@ -2,11 +2,9 @@
 title: استكشاف أخطاء الترقية والترحيل إلى الإدارة المتقدمة للمستودع وإصلاحها
 description: يوضح هذا الموضوع كيفية إصلاح المشكلات الشائعة التي قد تواجهها أثناء الترقية والترحيل إلى إدارة المستودعات المتقدمة.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208077"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826385"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>استكشاف أخطاء الترقية والترحيل إلى الإدارة المتقدمة للمستودع وإصلاحها
 
@@ -34,11 +32,11 @@ ms.locfileid: "5208077"
 
 ### <a name="issue-description"></a>وصف المشكلة
 
-تظهر رسالة الخطا هذه في تطبيق المستودع ، وذلك لان الشهادات الموقعة ذاتيا غير موثوق بها في Android 8+ في البيئات المحلية.
+تظهر رسالة الخطا هذه في تطبيق إدارة المستودع للأجهزة المحمولة، وذلك لان الشهادات الموقعة ذاتيا غير موثوق بها في Android 8+ في البيئات المحلية.
 
 ### <a name="issue-resolution"></a>حل المشكلة
 
-استخدم المرجع المصدق (العام) الخارجي (CA). يتوفر إصلاح لهذه المشكلة في إصدار 1.9.0.0 تطبيق المستودع. لمزيد من المعلومات حول هذه المشكلة وكيفيه حلها ، راجع [استكشاف مشكلات الاتصال بتطبيق المستودع وإصلاحها](troubleshoot-warehouse-app-connection.md).
+استخدم المرجع المصدق (العام) الخارجي (CA). يتوفر إصلاح لهذه المشكلة في إصدار 1.9.0.0 تطبيق المستودع. لمزيد من المعلومات حول هذه المشكلة وكيفيه حلها، راجع [استكشاف مشكلات الاتصال بتطبيق إدارة المستودع للأجهزة المحمولة وإصلاحها](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>ما هي العملية المعتمدة للتنقل من التخزين الأساسي إلى التخزين المتقدم؟
 

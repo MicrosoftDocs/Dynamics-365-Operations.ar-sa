@@ -2,11 +2,9 @@
 title: حدود مخزون الموقع
 description: يصف هذا الموضوع وظيفة حدود مخزون المواقع.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216971"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831256"
 ---
 # <a name="location-stocking-limits"></a>حدود مخزون الموقع
 
@@ -83,7 +81,7 @@ ms.locfileid: "5216971"
 
 ستتلقى أولا كميه مقدارها *4* من الوحدة *بالتة* بالحجم *صغير*، وتقوم بمراجعه مواقع البنود الموضوعة للعمل الذي تم إنشاؤه. ستتلقى بعد ذل كميه مقدارها *4* من الوحدة *بالتة* بالحجم *كبير*، وتقوم بمراجعه مواقع البنود الموضوعة للعمل الذي تم إنشاؤه.
 
-1. في تطبيق المستودع، سجل دخولك باستخدام *24* كمعرف المستخدم و *1* ككلمة مرور.
+1. في تطبيق إدارة المستودع للأجهزة المحمولة، سجل دخولك باستخدام *24* كمعرف المستخدم و *1* ككلمة مرور.
 1. حدد **الوارد** \> **استلام الشراء**.
 1. استلم *4* *بالتة* من رقم الصنف *D0013* بالحجم *صغير*.
 1. قم بمراجعه عمل التخزين الذي تم إنشاؤه. يجب أن تشاهد النتيجة التالية:

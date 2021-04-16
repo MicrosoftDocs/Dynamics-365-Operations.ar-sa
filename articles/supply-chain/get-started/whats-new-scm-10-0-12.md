@@ -2,11 +2,9 @@
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.12 (أغسطس 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.12 من Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258961"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832192"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.12 (أغسطس 2020)
 
@@ -47,9 +45,9 @@ ms.locfileid: "5258961"
 
 - [الرؤى الرئيسية لذكاء IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - لمزيد من المعلومات، راجع [الصفحة الرئيسية لذكاء IoT](../iot/iot-intelligence-home-page.md).
 
-- [تحسينات استلام لوحة الترخيص لتطبيق المستودع (يتبع)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق المستودع‬](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [تحسينات استلام لوحة الترخيص لتطبيق المستودع (يتبع)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة‬](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [النشر الجماعي لتطبيق Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - لمزيد من المعلومات، راجع [نظرة عامة على تثبيت وتكوين تطبيق المستودع](../warehousing/install-configure-warehousing-app.md).
+- [النشر الجماعي لتطبيق Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - لمزيد من المعلومات، راجع [تثبيت وتكوين تطبيق إدارة المستودع للأجهزة المحمولة](../warehousing/install-configure-warehouse-management-app.md).
 
 - [الحد الأقصى لوقت التنفيذ لوظيفة تنظيف المستودعات المتاحة لإدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - لمزيد من المعلومات، راجع [مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات](../warehousing/onhand-cleanup.md).
 
