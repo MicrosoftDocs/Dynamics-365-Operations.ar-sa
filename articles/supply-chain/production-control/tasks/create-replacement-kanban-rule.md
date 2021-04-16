@@ -2,11 +2,9 @@
 title: إنشاء قاعدة كانبان للاستبدال‬
 description: يركز هذا الإجراء على استبدال قاعدة كانبان موجودة بقاعدة كانبان جديدة في تاريخ محدد.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
@@ -16,44 +14,44 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de048577ac372474b72728d7774e3159a159afc9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d5aebd88dee9621d2c85af3a4fb5bf76ae8e6b80
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221812"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828936"
 ---
-# <a name="create-a-replacement-kanban-rule"></a><span data-ttu-id="28b02-103">إنشاء قاعدة كانبان للاستبدال‬</span><span class="sxs-lookup"><span data-stu-id="28b02-103">Create a replacement kanban rule</span></span>
+# <a name="create-a-replacement-kanban-rule"></a><span data-ttu-id="06c73-103">إنشاء قاعدة كانبان للاستبدال‬</span><span class="sxs-lookup"><span data-stu-id="06c73-103">Create a replacement kanban rule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="28b02-104">يركز هذا الإجراء على استبدال قاعدة كانبان موجودة بقاعدة كانبان جديدة في تاريخ محدد.</span><span class="sxs-lookup"><span data-stu-id="28b02-104">This procedure focuses on replacing an existing kanban rule with a new kanban rule on a specific date.</span></span> <span data-ttu-id="28b02-105">هذا مفيد عندما يلزم تنسيق التغييرات في تدفق الإنتاج أو قواعد التزويد وجدولتها.</span><span class="sxs-lookup"><span data-stu-id="28b02-105">This is useful when changes in the production flow or replenishment rules need to be coordinated and scheduled.</span></span> <span data-ttu-id="28b02-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="28b02-106">The demo data company used to create procedure is USMF.</span></span> <span data-ttu-id="28b02-107">هذا الإجراء مخصص لمهندس العمليات أو مدير تدفق القيم عند تحضيرهم لإنتاج تدفق عمل مغيَّر أو قاعدة تزويد جديدة.</span><span class="sxs-lookup"><span data-stu-id="28b02-107">This procedure is intended for the process engineer or the value stream manager when they prepare production for a changed production flow or a new replenishment rule.</span></span> <span data-ttu-id="28b02-108">تستبدل هذه المهمة قاعدة كانبان 000022 بقاعدة جديدة وتزيد الحد الأقصى للكمية من 48 إلى 100 للقاعدة الجديدة.</span><span class="sxs-lookup"><span data-stu-id="28b02-108">This task replaces kanban rule 000022 with a new rule and increases the maximum quantity from 48 to 100 for the new rule.</span></span>
+<span data-ttu-id="06c73-104">يركز هذا الإجراء على استبدال قاعدة كانبان موجودة بقاعدة كانبان جديدة في تاريخ محدد.</span><span class="sxs-lookup"><span data-stu-id="06c73-104">This procedure focuses on replacing an existing kanban rule with a new kanban rule on a specific date.</span></span> <span data-ttu-id="06c73-105">هذا مفيد عندما يلزم تنسيق التغييرات في تدفق الإنتاج أو قواعد التزويد وجدولتها.</span><span class="sxs-lookup"><span data-stu-id="06c73-105">This is useful when changes in the production flow or replenishment rules need to be coordinated and scheduled.</span></span> <span data-ttu-id="06c73-106">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="06c73-106">The demo data company used to create procedure is USMF.</span></span> <span data-ttu-id="06c73-107">هذا الإجراء مخصص لمهندس العمليات أو مدير تدفق القيم عند تحضيرهم لإنتاج تدفق عمل مغيَّر أو قاعدة تزويد جديدة.</span><span class="sxs-lookup"><span data-stu-id="06c73-107">This procedure is intended for the process engineer or the value stream manager when they prepare production for a changed production flow or a new replenishment rule.</span></span> <span data-ttu-id="06c73-108">تستبدل هذه المهمة قاعدة كانبان 000022 بقاعدة جديدة وتزيد الحد الأقصى للكمية من 48 إلى 100 للقاعدة الجديدة.</span><span class="sxs-lookup"><span data-stu-id="06c73-108">This task replaces kanban rule 000022 with a new rule and increases the maximum quantity from 48 to 100 for the new rule.</span></span>
 
 
-## <a name="select-a-kanban-rule-to-replace"></a><span data-ttu-id="28b02-109">حدد قاعدة كانبان لاستبدالها</span><span class="sxs-lookup"><span data-stu-id="28b02-109">Select a kanban rule to replace</span></span>
-1. <span data-ttu-id="28b02-110">انتقل إلى قواعد كانبان.</span><span class="sxs-lookup"><span data-stu-id="28b02-110">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="28b02-111">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="28b02-111">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="28b02-112">حدد "قاعدة كانبان 000022.</span><span class="sxs-lookup"><span data-stu-id="28b02-112">Select kanban rule 000022.</span></span>  
+## <a name="select-a-kanban-rule-to-replace"></a><span data-ttu-id="06c73-109">حدد قاعدة كانبان لاستبدالها</span><span class="sxs-lookup"><span data-stu-id="06c73-109">Select a kanban rule to replace</span></span>
+1. <span data-ttu-id="06c73-110">انتقل إلى قواعد كانبان.</span><span class="sxs-lookup"><span data-stu-id="06c73-110">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="06c73-111">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="06c73-111">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="06c73-112">حدد "قاعدة كانبان 000022.</span><span class="sxs-lookup"><span data-stu-id="06c73-112">Select kanban rule 000022.</span></span>  
 
-## <a name="create-a-replacement-kanban-rule"></a><span data-ttu-id="28b02-113">إنشاء قاعدة كانبان للاستبدال‬</span><span class="sxs-lookup"><span data-stu-id="28b02-113">Create a replacement kanban rule</span></span>
-1. <span data-ttu-id="28b02-114">انقر فوق استبدال قاعدة كانبان.</span><span class="sxs-lookup"><span data-stu-id="28b02-114">Click Replace kanban rule.</span></span>
-2. <span data-ttu-id="28b02-115">في الحقل "تاريخ السريان"، أدخل تاريخًا ووقتًا.</span><span class="sxs-lookup"><span data-stu-id="28b02-115">In the Effective date field, enter a date and time.</span></span>
-    * <span data-ttu-id="28b02-116">تحديد تاريخ في المستقبل، مثل أسبوع واحد من الآن.</span><span class="sxs-lookup"><span data-stu-id="28b02-116">Select a date in the future, such as one week from now.</span></span> <span data-ttu-id="28b02-117">هذا التاريخ والوقت حيث تصبح قاعدة كانبان الجديدة نشطة وتحل محل قاعدة كانبان القديمة.</span><span class="sxs-lookup"><span data-stu-id="28b02-117">This is the date and time when the new kanban rule becomes active and replaces the old kanban rule.</span></span>  
-    * <span data-ttu-id="28b02-118">إذا قامت قاعدة كانبان بتغيير المسار في تدفق الإنتاج، فإنه يمكن تحديد نشاط آخر.</span><span class="sxs-lookup"><span data-stu-id="28b02-118">If the kanban rule changes the path in the production flow,  another activity can be selected.</span></span>  <span data-ttu-id="28b02-119">في هذا الإجراء، سنواصل النشاط دون تغيير.</span><span class="sxs-lookup"><span data-stu-id="28b02-119">In this procedure, we will keep the activity untouched.</span></span>  
-3. <span data-ttu-id="28b02-120">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="28b02-120">Click OK.</span></span>
-    * <span data-ttu-id="28b02-121">لاحظ أنه يتم إنشاء قاعدة كانبان جديدة لتحل محل قاعدة كانبان 000022.</span><span class="sxs-lookup"><span data-stu-id="28b02-121">Notice that a new kanban rule is created to replace kanban rule 000022.</span></span>  
-    * <span data-ttu-id="28b02-122">يتم تعيين تاريخ السريان وفقًا للتاريخ الذي تم اختياره عند قيامك باستبدال قاعدة كانبان.</span><span class="sxs-lookup"><span data-stu-id="28b02-122">The effective date is set according to the date chosen when you replace the kanban rule.</span></span>  
-4. <span data-ttu-id="28b02-123">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="28b02-123">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="28b02-124">حدد قاعدة كانبان 000022 المستبدلة.</span><span class="sxs-lookup"><span data-stu-id="28b02-124">Select the replaced kanban rule 000022.</span></span>  
-    * <span data-ttu-id="28b02-125">لاحظ أن قاعدة كانبان المستبدلة تحتوي على تاريخ انتهاء الصلاحية نفسه لأن هذا هو التاريخ الذي ستنتهي به.</span><span class="sxs-lookup"><span data-stu-id="28b02-125">Notice that the replaced kanban rule has the same date as the Expiration date because this is the date when it will expire.</span></span>  
-5. <span data-ttu-id="28b02-126">في القائمة، حدد الصف 1.</span><span class="sxs-lookup"><span data-stu-id="28b02-126">In the list, select row 1.</span></span>
-    * <span data-ttu-id="28b02-127">حدد قاعدة كانبان الجديدة على رأس القائمة.</span><span class="sxs-lookup"><span data-stu-id="28b02-127">Select the new kanban rule on top of the list.</span></span> <span data-ttu-id="28b02-128">هذه هي قاعدة كانبان التي تحتوي على رقم كانبان الأكبر.</span><span class="sxs-lookup"><span data-stu-id="28b02-128">This is the kanban rule with the highest kanban rule number.</span></span>  
-6. <span data-ttu-id="28b02-129">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="28b02-129">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="28b02-130">انقر فوق رقم قاعدة كانبان لفتح قاعدة كانبان.</span><span class="sxs-lookup"><span data-stu-id="28b02-130">Click the kanban rule number to open the kanban rule.</span></span>  
+## <a name="create-a-replacement-kanban-rule"></a><span data-ttu-id="06c73-113">إنشاء قاعدة كانبان للاستبدال‬</span><span class="sxs-lookup"><span data-stu-id="06c73-113">Create a replacement kanban rule</span></span>
+1. <span data-ttu-id="06c73-114">انقر فوق استبدال قاعدة كانبان.</span><span class="sxs-lookup"><span data-stu-id="06c73-114">Click Replace kanban rule.</span></span>
+2. <span data-ttu-id="06c73-115">في الحقل "تاريخ السريان"، أدخل تاريخًا ووقتًا.</span><span class="sxs-lookup"><span data-stu-id="06c73-115">In the Effective date field, enter a date and time.</span></span>
+    * <span data-ttu-id="06c73-116">تحديد تاريخ في المستقبل، مثل أسبوع واحد من الآن.</span><span class="sxs-lookup"><span data-stu-id="06c73-116">Select a date in the future, such as one week from now.</span></span> <span data-ttu-id="06c73-117">هذا التاريخ والوقت حيث تصبح قاعدة كانبان الجديدة نشطة وتحل محل قاعدة كانبان القديمة.</span><span class="sxs-lookup"><span data-stu-id="06c73-117">This is the date and time when the new kanban rule becomes active and replaces the old kanban rule.</span></span>  
+    * <span data-ttu-id="06c73-118">إذا قامت قاعدة كانبان بتغيير المسار في تدفق الإنتاج، فإنه يمكن تحديد نشاط آخر.</span><span class="sxs-lookup"><span data-stu-id="06c73-118">If the kanban rule changes the path in the production flow,  another activity can be selected.</span></span>  <span data-ttu-id="06c73-119">في هذا الإجراء، سنواصل النشاط دون تغيير.</span><span class="sxs-lookup"><span data-stu-id="06c73-119">In this procedure, we will keep the activity untouched.</span></span>  
+3. <span data-ttu-id="06c73-120">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="06c73-120">Click OK.</span></span>
+    * <span data-ttu-id="06c73-121">لاحظ أنه يتم إنشاء قاعدة كانبان جديدة لتحل محل قاعدة كانبان 000022.</span><span class="sxs-lookup"><span data-stu-id="06c73-121">Notice that a new kanban rule is created to replace kanban rule 000022.</span></span>  
+    * <span data-ttu-id="06c73-122">يتم تعيين تاريخ السريان وفقًا للتاريخ الذي تم اختياره عند قيامك باستبدال قاعدة كانبان.</span><span class="sxs-lookup"><span data-stu-id="06c73-122">The effective date is set according to the date chosen when you replace the kanban rule.</span></span>  
+4. <span data-ttu-id="06c73-123">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="06c73-123">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="06c73-124">حدد قاعدة كانبان 000022 المستبدلة.</span><span class="sxs-lookup"><span data-stu-id="06c73-124">Select the replaced kanban rule 000022.</span></span>  
+    * <span data-ttu-id="06c73-125">لاحظ أن قاعدة كانبان المستبدلة تحتوي على تاريخ انتهاء الصلاحية نفسه لأن هذا هو التاريخ الذي ستنتهي به.</span><span class="sxs-lookup"><span data-stu-id="06c73-125">Notice that the replaced kanban rule has the same date as the Expiration date because this is the date when it will expire.</span></span>  
+5. <span data-ttu-id="06c73-126">في القائمة، حدد الصف 1.</span><span class="sxs-lookup"><span data-stu-id="06c73-126">In the list, select row 1.</span></span>
+    * <span data-ttu-id="06c73-127">حدد قاعدة كانبان الجديدة على رأس القائمة.</span><span class="sxs-lookup"><span data-stu-id="06c73-127">Select the new kanban rule on top of the list.</span></span> <span data-ttu-id="06c73-128">هذه هي قاعدة كانبان التي تحتوي على رقم كانبان الأكبر.</span><span class="sxs-lookup"><span data-stu-id="06c73-128">This is the kanban rule with the highest kanban rule number.</span></span>  
+6. <span data-ttu-id="06c73-129">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="06c73-129">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="06c73-130">انقر فوق رقم قاعدة كانبان لفتح قاعدة كانبان.</span><span class="sxs-lookup"><span data-stu-id="06c73-130">Click the kanban rule number to open the kanban rule.</span></span>  
 
-## <a name="modify-maximum-quantity-for-the-replacement-kanban-rule"></a><span data-ttu-id="28b02-131">تعديل الحد الأقصى للكمية لاستبدال قاعدة كانبان</span><span class="sxs-lookup"><span data-stu-id="28b02-131">Modify maximum quantity for the replacement kanban rule</span></span>
-1. <span data-ttu-id="28b02-132">قم بتعيين الحد الأقصى للكمية إلى "100".</span><span class="sxs-lookup"><span data-stu-id="28b02-132">Set Maximum quantity to '100'.</span></span>
-    * <span data-ttu-id="28b02-133">قم بتوسيع علامة التبويب السريعة "الكميات" لرؤية حقل "الحد الأقصى للكمية".</span><span class="sxs-lookup"><span data-stu-id="28b02-133">Expand the Quantities FastTab to see the Maximum quantity field.</span></span> <span data-ttu-id="28b02-134">سيسمح تغيير الحد الأقصى للكمية 100 بوصول كانبان إلى 100 كانبان تتم معالجتها.</span><span class="sxs-lookup"><span data-stu-id="28b02-134">Changing the maximum quantity to 100 will allow up to 100 kanbans to be processed.</span></span>    <span data-ttu-id="28b02-135">وهذه هي الخطوة الأخيرة في هذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="28b02-135">This is the last step in this task.</span></span>  
+## <a name="modify-maximum-quantity-for-the-replacement-kanban-rule"></a><span data-ttu-id="06c73-131">تعديل الحد الأقصى للكمية لاستبدال قاعدة كانبان</span><span class="sxs-lookup"><span data-stu-id="06c73-131">Modify maximum quantity for the replacement kanban rule</span></span>
+1. <span data-ttu-id="06c73-132">قم بتعيين الحد الأقصى للكمية إلى "100".</span><span class="sxs-lookup"><span data-stu-id="06c73-132">Set Maximum quantity to '100'.</span></span>
+    * <span data-ttu-id="06c73-133">قم بتوسيع علامة التبويب السريعة "الكميات" لرؤية حقل "الحد الأقصى للكمية".</span><span class="sxs-lookup"><span data-stu-id="06c73-133">Expand the Quantities FastTab to see the Maximum quantity field.</span></span> <span data-ttu-id="06c73-134">سيسمح تغيير الحد الأقصى للكمية 100 بوصول كانبان إلى 100 كانبان تتم معالجتها.</span><span class="sxs-lookup"><span data-stu-id="06c73-134">Changing the maximum quantity to 100 will allow up to 100 kanbans to be processed.</span></span>    <span data-ttu-id="06c73-135">وهذه هي الخطوة الأخيرة في هذه المهمة.</span><span class="sxs-lookup"><span data-stu-id="06c73-135">This is the last step in this task.</span></span>  
 
 
 
