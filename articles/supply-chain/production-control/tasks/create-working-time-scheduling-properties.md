@@ -2,11 +2,9 @@
 title: إنشاء خصائص جدولة أوقات العمل
 description: يتم استخدام خصائص جدولة وقت العمل لتصنيف الفواصل الزمنية لوقت العمل وتحديد الإعدادات التي يجب أن يأخذها المشغلون في الاعتبار.
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WrkCtrProperty
 audience: Application User
@@ -16,32 +14,32 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c9cb42b99a409a4e6509e180e4140064273adb32
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1f7e412b7365901e18f476758aa3c5d43de590b2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257377"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811596"
 ---
-# <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="7a35c-103">إنشاء خصائص جدولة أوقات العمل</span><span class="sxs-lookup"><span data-stu-id="7a35c-103">Create working time scheduling properties</span></span>
+# <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="bcea8-103">إنشاء خصائص جدولة أوقات العمل</span><span class="sxs-lookup"><span data-stu-id="bcea8-103">Create working time scheduling properties</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7a35c-104">يتم استخدام خصائص جدولة وقت العمل لتصنيف الفواصل الزمنية لوقت العمل وتحديد الإعدادات التي يجب أن يأخذها المشغلون في الاعتبار.</span><span class="sxs-lookup"><span data-stu-id="7a35c-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="7a35c-105">يوضح هذا الإجراء كيفية تعريف خاصية جدولة وقت العمل وقيم الخصائص المقترنة.</span><span class="sxs-lookup"><span data-stu-id="7a35c-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="7a35c-106">يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="7a35c-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="bcea8-104">يتم استخدام خصائص جدولة وقت العمل لتصنيف الفواصل الزمنية لوقت العمل وتحديد الإعدادات التي يجب أن يأخذها المشغلون في الاعتبار.</span><span class="sxs-lookup"><span data-stu-id="bcea8-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="bcea8-105">يوضح هذا الإجراء كيفية تعريف خاصية جدولة وقت العمل وقيم الخصائص المقترنة.</span><span class="sxs-lookup"><span data-stu-id="bcea8-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="bcea8-106">يمكنك استعراض هذا الإجراء في شركة بيانات العرض التوضيحي USMF، أو باستخدام البيانات الخاصة بك.</span><span class="sxs-lookup"><span data-stu-id="bcea8-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="7a35c-107">انتقل إلى كافة مساحات العمل > إدارة دورة حياة الموارد.</span><span class="sxs-lookup"><span data-stu-id="7a35c-107">Go to All workspaces > Resource lifecycle management.</span></span>
-2. <span data-ttu-id="7a35c-108">وانقر فوق خصائص.</span><span class="sxs-lookup"><span data-stu-id="7a35c-108">Click Properties.</span></span>
+1. <span data-ttu-id="bcea8-107">انتقل إلى كافة مساحات العمل > إدارة دورة حياة الموارد.</span><span class="sxs-lookup"><span data-stu-id="bcea8-107">Go to All workspaces > Resource lifecycle management.</span></span>
+2. <span data-ttu-id="bcea8-108">وانقر فوق خصائص.</span><span class="sxs-lookup"><span data-stu-id="bcea8-108">Click Properties.</span></span>
 
-## <a name="create-property"></a><span data-ttu-id="7a35c-109">إنشاء خاصية</span><span class="sxs-lookup"><span data-stu-id="7a35c-109">Create property</span></span>
-1. <span data-ttu-id="7a35c-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="7a35c-110">Click New.</span></span>
-2. <span data-ttu-id="7a35c-111">في حقل "الخاصية‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7a35c-111">In the Property field, type a value.</span></span>
-3. <span data-ttu-id="7a35c-112">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7a35c-112">In the Name field, type a value.</span></span>
+## <a name="create-property"></a><span data-ttu-id="bcea8-109">إنشاء خاصية</span><span class="sxs-lookup"><span data-stu-id="bcea8-109">Create property</span></span>
+1. <span data-ttu-id="bcea8-110">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="bcea8-110">Click New.</span></span>
+2. <span data-ttu-id="bcea8-111">في حقل "الخاصية‬"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="bcea8-111">In the Property field, type a value.</span></span>
+3. <span data-ttu-id="bcea8-112">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="bcea8-112">In the Name field, type a value.</span></span>
 
-## <a name="create-property-values"></a><span data-ttu-id="7a35c-113">إنشاء قيم الخاصية</span><span class="sxs-lookup"><span data-stu-id="7a35c-113">Create property values</span></span>
-1. <span data-ttu-id="7a35c-114">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="7a35c-114">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="7a35c-115">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7a35c-115">In the Name field, type a value.</span></span>
-3. <span data-ttu-id="7a35c-116">في حقل "القيمة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="7a35c-116">In the Value field, type a value.</span></span>
-4. <span data-ttu-id="7a35c-117">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="7a35c-117">Click Save.</span></span>
+## <a name="create-property-values"></a><span data-ttu-id="bcea8-113">إنشاء قيم الخاصية</span><span class="sxs-lookup"><span data-stu-id="bcea8-113">Create property values</span></span>
+1. <span data-ttu-id="bcea8-114">في القائمة، قم بوضع علامة للصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="bcea8-114">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="bcea8-115">في حقل "الاسم"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="bcea8-115">In the Name field, type a value.</span></span>
+3. <span data-ttu-id="bcea8-116">في حقل "القيمة"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="bcea8-116">In the Value field, type a value.</span></span>
+4. <span data-ttu-id="bcea8-117">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="bcea8-117">Click Save.</span></span>
 
 
 
