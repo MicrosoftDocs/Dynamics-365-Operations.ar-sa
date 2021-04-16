@@ -2,11 +2,9 @@
 title: إهلاك الرصيد المتناقص بنسبة 125 بالمائة
 description: تقدم هذه المقالة نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 125 بالمائة‬.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1a382325396b30d3921904bcc3ac70f95633b1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e1d05ec02d47a563c0d7ae7cb0fafdbad45bd140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219881"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827184"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>إهلاك الرصيد المتناقص بنسبة 125 بالمائة
 
@@ -66,7 +64,7 @@ ms.locfileid: "5219881"
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>مثال لإهلاك الرصيد المتناقص بنسبة 125%
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | تكلفة الاستحواذ               | 11,000 |
 | القيمة الباقية                  | 1,000  |

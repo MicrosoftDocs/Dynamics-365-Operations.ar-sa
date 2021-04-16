@@ -2,11 +2,9 @@
 title: مساحة عمل إدارة الأصول الثابتة
 description: يوفر هذا الموضوع معلومات حول مساحة عمل إدارة الأصول الثابتة. تعرض مساحة العمل هذه المعلومات المرتبطة بالأصول الثابتة التي تم إدخالها في النظام. وهي تتضمن طريقة عرض ملخصة وطريقة عرض التحليلات.
 author: saraschi2
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1b2a42889d0e6acfc23e4fd450405ef31ca810fd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 66c8d40aae65d48bea2f975432e6ec8ad741c76f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240923"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826800"
 ---
 # <a name="fixed-asset-management-workspace"></a>مساحة عمل إدارة الأصول الثابتة
 

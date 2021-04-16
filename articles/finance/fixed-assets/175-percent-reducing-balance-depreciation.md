@@ -2,11 +2,9 @@
 title: إهلاك القسط المتناقص بنسبة 175 بالمائة
 description: يقدم هذا الموضوع نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 175 بالمائة‬.
 author: saraschi2
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8138003971ace280b08760df718671b1779bd101
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0747c34a4b28340227209adadf367f672deb1ab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230336"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827136"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>إهلاك القسط المتناقص بنسبة 175 بالمائة
 
@@ -66,7 +64,7 @@ ms.locfileid: "5230336"
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>مثال لإهلاك القسط المتناقص بنسبة 175%
 
-|                                |        |
+| الحقل                          | قيمة  |
 |--------------------------------|--------|
 | تكلفة الاستحواذ               | 11,000 |
 | القيمة الباقية                  | 1,000  |

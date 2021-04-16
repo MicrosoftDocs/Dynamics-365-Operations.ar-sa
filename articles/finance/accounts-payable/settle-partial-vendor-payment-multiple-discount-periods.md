@@ -2,11 +2,9 @@
 title: تسوية دفعة جزئية لمورد تحتوي على عدة فترات خصم
 description: ترشدك هذه المقالة عبر سيناريو حيث يتم تسديد دفعات جزئية متعددة إلى مورّد يقدم خصومات نقدية متعددة.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbcaca97203c47bf7eac02ba410763a4e1a7b34a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56e2b3a8dadd824fa0170a1db19fffeaecb47775
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227270"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827856"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>تسوية دفعة جزئية لمورد تحتوي على عدة فترات خصم
 
@@ -56,7 +54,7 @@ ms.locfileid: "5227270"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات المفتوحة**.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/02/2015 |
 | مبلغ الخصم النقدي         | -20.00    |
@@ -72,7 +70,7 @@ ms.locfileid: "5227270"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات المفتوحة**.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/02/2015 |
 | مبلغ الخصم النقدي         | -20.00    |
@@ -105,7 +103,7 @@ ms.locfileid: "5227270"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات المفتوحة**.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/12/2015 |
 | مبلغ الخصم النقدي         | -10.00    |
