@@ -37,9 +37,9 @@ ms.locfileid: "5830330"
 
 فيما يلي قائمة بالكائنات الرئيسية:
 
-* كائن AxClass/TaxIntegration **Document**
-* كائن AxClass/TaxIntegration **Line**
-* كائن AxClass/TaxIntegration **TaxLine**
+* AxClass/TaxIntegration **Document** Object
+* AxClass/TaxIntegration **Line** Object
+* AxClass/TaxIntegration **TaxLine** Object
 
 يبين الرسم التوضيحي التالي كيفيه ارتباط هذه الكائنات.
 
