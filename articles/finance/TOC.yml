@@ -60,11 +60,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين التخزين في المستودع لعمليات النشر المحلي
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: تطبيقاتFinance and Operations المشغّلة بواسطة 21Vianet في الصين
+                - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
                 - name: تطبيقات Finance and Operations في فرنسا
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
-            - name: ما الجديد أو المتغير
+            - name: الجديد أو المتغير
               items:
                 - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
@@ -934,6 +934,8 @@
                   href: general-ledger/tasks/define-financial-dimensions.md
                 - name: الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
                   href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: مجموعات الأبعاد المالية
+                  href: general-ledger/financial-dimension-sets.md
                 - name: إنشاء بُنى الحساب‬
                   href: general-ledger/tasks/create-account-structures.md
                 - name: الأبعاد المالية والترحيل
@@ -1414,38 +1416,66 @@
           items:
             - name: موارد العولمة
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
+            - name: خدمات العولمة
+              items:
+                - name: نظرة عامة على خدمات العولمة
+                  href: localizations/globalization-services-overview.md
+                - name: Regulatory Configuration Service
+                  items:
+                    - name: نظرة عامة على Regulatory Configuration Service
+                      href: localizations/rcs-overview.md
+                    - name: Regulatory configuration service - ميزات العولمة
+                      href: localizations/rcs-globalization-feature.md
+                    - name: إنشاء تكوينات ER في Regulatory configuration service وتحميلها إلى المستودع العمومي
+                      href: localizations/rcs-global-repo-upload.md
+                - name: الفوترة الإلكترونية
+                  items:
+                    - name: نظرة عامة على الفوترة الإلكترونية
+                      href: localizations/e-invoicing-service-overview.md
+                    - name: مكونات إدارة الفوترة الإلكترونية
+                      href: localizations/e-invoicing-service-administration.md
+                    - name: تكوين الفوترة الإلكترونية في Regulatory Configuration Services (‏RCS)
+                      href: localizations/e-invoicing-configuration-rcs.md
+                    - name: إصدار الفواتير الإلكترونية في Finance وSupply Chain Management
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                    - name: إنشاء حساب تخزين Azure وKey Vault
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                    - name: الشروع في العمل
+                      items:
+                        - name: الشروع في العمل مع إدارة خدمة الفوترة الإلكترونية
+                          href: localizations/e-invoicing-get-started-service-administration.md
+                        - name: الشروع في العمل مع الفوترة الإلكترونية
+                          href: localizations/e-invoicing-get-started.md
+                        - name: الشروع في العمل مع الفوترة الإلكترونية للبرازيل
+                          href: localizations/e-invoicing-bra-get-started.md
+                        - name: الشروع في العمل مع الفوترة الإلكترونية لمصر
+                          href: localizations/e-invoicing-eg-get-started.md
+                        - name: الشروع في العمل مع الفوترة الإلكترونية لإيطاليا
+                          href: localizations/e-invoicing-ita-get-started.md
+                        - name: الشروع في العمل مع الفوترة الإلكترونية للمكسيك
+                          href: localizations/e-invoicing-mex-get-started.md
+                        - name: إعداد الفوترة الإلكترونية
+                          href: localizations/e-invoicing-setup.md
+                    - name: الأسئلة المتداولة حول الفوترة الإلكترونية
+                      href: localizations/e-invoicing-faq.md
+                - name: حساب الضرائب
+                  items:
+                    - name: نظره عامة على حساب الضريبة
+                      href: localizations/global-tax-calcuation-service-overview.md
+                    - name: الشروع في العمل مع حساب الضريبة
+                      href: localizations/global-get-started-with-tax-calculation-service.md
+                    - name: دعم ميزة الضريبة لأوامر التحويل
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                    - name: إضافة حقول البيانات في تكوينات الضرائب
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                    - name: إضافة حقول البيانات في تكامل الضريبة باستخدام الملحقات
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                    - name: أرقام تسجيل ضريبة القيمة المضافة المتعدد
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: إعداد بيئة للبحث عن البيانات الرئيسية
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
             - name: تحديثات تنظيمية
               href: localizations/regulatory-updates.md
-            - name: الفوترة الإلكترونية
-              items:
-                - name: نظرة عامة على الفوترة الإلكترونية
-                  href: localizations/e-invoicing-service-overview.md
-                - name: مكونات إدارة الفوترة الإلكترونية
-                  href: localizations/e-invoicing-service-administration.md
-                - name: تكوين الفوترة الإلكترونية في Regulatory Configuration Services (‏RCS)
-                  href: localizations/e-invoicing-configuration-rcs.md
-                - name: إصدار الفواتير الإلكترونية في Finance وSupply Chain Management
-                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
-                - name: إنشاء حساب تخزين Azure وKey Vault
-                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: الشروع في العمل
-                  items:
-                    - name: الشروع في العمل مع إدارة خدمة الفوترة الإلكترونية
-                      href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: الشروع في العمل مع الفوترة الإلكترونية
-                      href: localizations/e-invoicing-get-started.md
-                    - name: الشروع في العمل مع الفوترة الإلكترونية للبرازيل
-                      href: localizations/e-invoicing-bra-get-started.md
-                    - name: الشروع في العمل مع الفوترة الإلكترونية لمصر
-                      href: localizations/e-invoicing-eg-get-started.md
-                    - name: الشروع في العمل مع الفوترة الإلكترونية لإيطاليا
-                      href: localizations/e-invoicing-ita-get-started.md
-                    - name: الشروع في العمل مع الفوترة الإلكترونية للمكسيك
-                      href: localizations/e-invoicing-mex-get-started.md
-                    - name: إعداد الفوترة الإلكترونية
-                      href: localizations/e-invoicing-setup.md
-                - name: الأسئلة المتداولة حول الفوترة الإلكترونية
-                  href: localizations/e-invoicing-faq.md
             - name: أستراليا
               items:
                 - name: نظرة عامة على أستراليا
@@ -1468,6 +1498,8 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-aut-vat-statement-details.md
+                - name: تقرير خدمات عبر الحدود
+                  href: localizations/emea-aut-cross-border-services-report.md
             - name: البحرين
               items:
                 - name: نظرة عامة على البحرين
@@ -1490,8 +1522,10 @@
                   href: localizations/emea-bel-export-ledger-transactions.md
                 - name: إقرار ضريبة INTERVAT
                   href: localizations/emea-bel-intervat-tax-declaration.md
-                - name: تقارير التسوية​
+                - name: تقارير التسوية
                   href: localizations/emea-bel-reconciliation-reports.md
+                - name: تقرير دفتر اليومية
+                  href: localizations/emea-bel-journal-reports.md
                 - name: إعداد تقارير رصيد الدفع
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: إعداد وصيانة PRODCOM
@@ -1692,7 +1726,7 @@
               items:
                 - name: نظرة عامة على الصين
                   href: localizations/china.md
-                - name: Finance and Operations المُشغل بواسطة 21Vianet في الصين
+                - name: Finance and Operations مشغل بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
                 - name: مقارنة قوائم مكونات الصنف
                   href: localizations/apac-chn-bom-comparison.md
@@ -2118,32 +2152,6 @@
                       href: localizations/ind-news-letter-10-0-13.md
                     - name: الجديد أو المتغير‬ في 10.0.14
                       href: localizations/apac-ind-news-letter-10-0-14.md
-                - name: الأصول الثابتة
-                  items:
-                    - name: نظرة عامة على الأصول الثابتة في الهند
-                      href: localizations/apac-ind-fixed-assets.md
-                    - name: إرفاق تقويم يستند إلى الأيام بدفتر أصول ثابتة
-                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: حساب إهلاك الوردية
-                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: إنشاء مجموعة نماذج المخزون لعناصر رأس المال
-                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: إنشاء وترحيل الإهلاك
-                      href: localizations/apac-ind-calculate-post-depreciation.md
-                    - name: تحديد نوع وردية العمل‬ والمجال للدفاتر وإرفاقه بالأصل الثابت
-                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: إلغاء حركات الأصول الثابتة
-                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: حساب إهلاك الوردية
-                      href: localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: إعداد تقويم مالي مستند إلى الأيام
-                      href: localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: إعداد المعلمات لحساب الإهلاك
-                      href: localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: إعداد إهلاك مجموعة أصول لدفاتر الإهلاك
-                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: تحويل عناصر رأس المال إلى الأصل الثابت
-                      href: localizations/tasks/apac-ind-transfer-capital-items.md
                 - name: ضرائب غير مباشرة
                   items:
                     - name: ضريبة السلع والخدمات (GST) في الهند
@@ -2300,6 +2308,10 @@
                                   href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
                                 - name: إعادة المبالغ المدفوعة للعملاء
                                   href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: حركات إدارة المشروع
+                              items:
+                                - name: حركات مشروع ضريبة السلع والخدمات (GST)
+                                  href: localizations/apac-ind-gst-project-transactions.md
                             - name: تسوية الضريبة
                               items:
                                 - name: تسوية مبلغ الضريبة
@@ -2332,10 +2344,36 @@
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
                         - name: تضمين ضريبة السلع والخدمات (GST) عند حساب تحصيلات الضرائب
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                        - name: الأسئلة المتداولة حول حدود الضريبة
+                        - name: الأسئلة الشائعة حول حدود الضريبة
                           href: localizations/apac-ind-tax-thresholds.md
                         - name: TCS على بيع السلع
                           href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                - name: الأصول الثابتة
+                  items:
+                    - name: نظرة عامة على الأصول الثابتة في الهند
+                      href: localizations/apac-ind-fixed-assets.md
+                    - name: إرفاق تقويم يستند إلى الأيام بدفتر أصول ثابتة
+                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
+                    - name: حساب إهلاك الوردية
+                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
+                    - name: إنشاء مجموعة نماذج المخزون لعناصر رأس المال
+                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
+                    - name: إنشاء وترحيل الإهلاك
+                      href: localizations/apac-ind-calculate-post-depreciation.md
+                    - name: تحديد نوع وردية العمل‬ والمجال للدفاتر وإرفاقه بالأصل الثابت
+                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
+                    - name: إلغاء حركات الأصول الثابتة
+                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
+                    - name: حساب إهلاك الوردية
+                      href: localizations/apac-ind-calculation-shift-depreciation.md
+                    - name: إعداد تقويم مالي مستند إلى الأيام
+                      href: localizations/tasks/apac-ind-day-based-calendar.md
+                    - name: إعداد المعلمات لحساب الإهلاك
+                      href: localizations/tasks/apac-ind-set-up-depreciation.md
+                    - name: إعداد إهلاك مجموعة أصول لدفاتر الإهلاك
+                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                    - name: تحويل عناصر رأس المال إلى الأصل الثابت
+                      href: localizations/tasks/apac-ind-transfer-capital-items.md
             - name: إيطاليا
               items:
                 - name: نظرة عامة على إيطاليا
@@ -2958,6 +2996,8 @@
                       href: localizations/rus-cash-flow-tax-registers.md
                     - name: سجلات المصروفات المصنفة
                       href: localizations/rus-rated-expenses-registers.md
+                    - name: سجلات ضريبة ديون الحسابات الدائنة وعمليات شطب الديون
+                      href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
             - name: السعودية
               items:
                 - name: نظرة عامة على السعودية
@@ -3034,14 +3074,20 @@
                   href: localizations/thailand.md
                 - name: تقارير بطاقات المخزون
                   href: localizations/apac-tha-stock-card-reports.md
+                - name: فواتير الضريبة
+                  href: localizations/apac-tha-tax-invoices.md
                 - name: فاتورة ضريبة الإحلال/التسوية
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: ضريبة القيمة المضافة غير المحققة
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: متوسط ضريبة القيمة المضافة لحركات الشراء
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: أبعاد فرع الضريبة
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: تقرير ضريبة القيمة المضافة للمبيعات
                   href: localizations/apac-tha-sales-vat-report.md
+                - name: متوسط ضريبة القيمة المضافة لحركات الشراء
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: ضريبة الخصم
                   href: localizations/apac-tha-withholding-tax.md
             - name: الإمارات العربية المتحدة (UAE)
@@ -3869,10 +3915,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                    - name: تصحيح مصادر البيانات
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: استخدام BARCODE لإنشاء صور الكود الشريطي
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: تصحيح مصادر البيانات
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين تعيينات النماذج
                   items:
                     - name: تكوين تعيينات نماذج ER المعتمدة على سياق البلد

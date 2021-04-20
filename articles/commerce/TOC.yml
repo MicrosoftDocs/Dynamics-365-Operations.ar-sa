@@ -72,7 +72,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: إرشادات تطبيق Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: تطبيقاتFinance and Operations المشغّلة بواسطة 21Vianet في الصين
+                - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: تطبيقات Finance and Operations في فرنسا
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -280,7 +280,7 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: تكوين Retail Hardware Station وتثبيته
                   href: retail-hardware-station-configuration-installation.md
-                - name: النشر الجماعي لمكونات الخدمة الذاتية
+                - name: التوزيع الجماعي لمكونات الخدمة الذاتية القديمة
                   href: dev-itpro/retail-mass-deployment.md
                 - name: أحداث مكونات Commerce للتشخيصات واستكشاف الأخطاء وإصلاحها
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -1052,10 +1052,20 @@
                       href: add-video-player.md
                 - name: وحدات الرؤوس والتذييلات
                   items:
-                    - name: وحدة الرؤوس
+                    - name: الوحدة النمطية للرؤوس
                       href: author-header-module.md
                     - name: وحدة التذييلات‬
                       href: author-footer-module.md
+                - name: الصفحة وبيانات التعريف ووحدات البرنامج النصي
+                  items:
+                    - name: وحدة الصفحة الافتراضية
+                      href: default-page-module.md
+                    - name: وحدات ملخص الصفحة
+                      href: page-summary-module.md
+                    - name: وحدة علامات التعريف
+                      href: metatags-module.md
+                    - name: وحدات البرنامج النصي الخارجية والمضمّنة
+                      href: script-module.md
                 - name: الوحدات النمطية لصفحة تفاصيل المنتج
                   items:
                     - name: الوحدة النمطية لصندوق الشراء

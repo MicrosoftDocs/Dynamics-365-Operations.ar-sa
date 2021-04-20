@@ -228,6 +228,8 @@
                               href: data-entities/dual-write/party-gab.md
                             - name: استخدام مدخل Power مع نموذج بيانات الطرف
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: الترقية إلى الطرف ونموذج دفتر العناوين العمومي
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: تكامل الملاحظات
                               href: data-entities/dual-write/notes-integration.md
                             - name: مرجع التعيين
@@ -714,6 +716,8 @@
               items:
                 - name: X++ وميزات مصحح الأخطاء
                   href: dev-tools/new-x-debugger-features.md
+                - name: متطلبات Visual Studio 2017لـ X++
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: تصحيح كود X++
                   href: dev-tools/debug-xpp.md
                 - name: فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: سريان التاريخ
               href: dev-tools/date-effectivity.md
-            - name: ترخيص موردي البرامج المستقلين (ISV)
-              href: dev-tools/isv-licensing.md
-            - name: ترخيص موردي البرامج المستقلين (ISV) في الموقع المحلي
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: التطوير لموردي البرامج المستقلين
+              items:
+                - name: ربط وحدات X++ بالحزم باستخدام ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: ترخيص موردي البرامج المستقلين (ISV)
+                  href: dev-tools/isv-licensing.md
+                - name: ترخيص موردي البرامج المستقلين (ISV) في الموقع المحلي
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: القانون العام لحماية البيانات (GDPR)
           items:
             - name: نظرة عامة على القانون العام لحماية البيانات (GDPR)
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: تكامل Microsoft Power Platform
           items:
+            - name: تكامل Microsoft Power Platform مع Finance and Operations
+              href: power-platform/overview.md
             - name: الكيانات الظاهرية
               items:
-                - name: تكامل Microsoft Power Platform مع Finance and Operations
-                  href: power-platform/overview.md
                 - name: تصميم الكيان
                   href: power-platform/entity-modeling.md
                 - name: إدارة دورة حياة التطبيق
@@ -1448,12 +1456,14 @@
               href: lifecycle-services/lcs-support.md
             - name: نظرة عامة على دعم Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: الحصول على دعم لـ Finance and Operations المُشغل بواسطة 21Vianet في الصين
+            - name: الحصول على دعم لـ Finance and Operations الذي تديره 21Vianet في الصين
               href: lifecycle-services/21vianet-support.md
             - name: إعداد الدعم الفني لتطبيقات Finance and Operations
               href: lifecycle-services/support-experience.md
             - name: إدارة تجارب دعم لتطبيقات Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: دعم الإنتاج والمراقبة
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: إدارة النظام
           items:
             - name: الصفحة الرئيسية لإدارة النظام
