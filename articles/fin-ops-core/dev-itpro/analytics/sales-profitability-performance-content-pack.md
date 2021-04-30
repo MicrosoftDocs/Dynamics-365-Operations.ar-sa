@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a876be357bdeea485643aeeebdbc308bb8cf54df
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2f1354572422994cfa2a220f59d2fe223eebd36a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754310"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890874"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>محتوى "أداء الربحية والمبيعات" في Power BI
 
@@ -76,7 +76,7 @@ ms.locfileid: "5754310"
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 تُستخدم البيانات التالية لملء صفحات التقارير في محتوى **أداء الربحية والمبيعات** في Power BI. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات Microsoft SQL Server تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [تكامل Power BI مع مخزن الكيانات](power-bi-integration-entity-store.md).
 
-تُعد القياسات التجميعية في هذا المحتوي مجموعة فرعية من القياسات التجميعية التي كانت متوفرة في مكعب المبيعات في Microsoft Dynamics AX 2012 وMicrosoft Dynamics AX 2012 R3. للوصول إلى مرحلة قياسات المكعب التجميعية في متجر الكيان، يجب أن تجعلها قابلة للنشر. لمزيد من المعلومات، راجع الإجراء المتعلق بالوصول إلى التشغيل المرحلي للقياسات التجميعية في مخزن الكيانات في [ تكامل Power BI مع مخن الكيانات في Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog post.
+تُعد القياسات التجميعية في هذا المحتوي مجموعة فرعية من القياسات التجميعية التي كانت متوفرة في مكعب المبيعات في Microsoft Dynamics AX 2012 وMicrosoft Dynamics AX 2012 R3. للوصول إلى مرحلة قياسات المكعب التجميعية في متجر الكيان، يجب أن تجعلها قابلة للنشر. لمزيد من المعلومات، راجع الإجراء المتعلق بالوصول إلى التشغيل المرحلي للقياسات التجميعية في مخزن الكيانات في [ تكامل Power BI مع مخن الكيانات في Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update) blog post.
 
 تستخدم القياسات التجميعية الرئيسية التالية لكيان سطور فاتورة كأساس للمحتوى.
 

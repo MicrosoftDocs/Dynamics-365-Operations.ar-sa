@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 728984678d78cf626e2b30222f1d1e603e05d117
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ab4cd4a390782936a74977ac2aef3790aa8ac1af
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755048"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891685"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>إعادة استخدام التكوينات باستخدام قوالب Excel لإنشاء تقارير بتنسيقات Word
 
@@ -90,7 +90,7 @@ ms.locfileid: "5755048"
 
 نفّذ تعيين العناصر في جزء XML المخصص المحدد **التقرير** وعناصر التحكم بالمحتوى في مستند Word.
 
-إذا كنت ملمًا باستخدام مستندات Word التي يمكن تصميمها كنماذج تحتوي على [عناصر تحكم](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) بالمحتوى ترتباط بعناصر من [أجزاء XML المخصصة](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)، فيمكنك تشغيل كل الخطوات في المهمة الفرعية التالية لإنشاء مثل هذا المستند. لمزيد من المعلومات، راجع [إنشاء نماذج يقوم المستخدمون بإكمالها أو طباعتها في Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). وإلا، فيمكنك تخطي الإجراء التالي.
+إذا كنت ملمًا باستخدام مستندات Word التي يمكن تصميمها كنماذج تحتوي على [عناصر تحكم](/office/client-developer/word/content-controls-in-word) بالمحتوى ترتباط بعناصر من [أجزاء XML المخصصة](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)، فيمكنك تشغيل كل الخطوات في المهمة الفرعية التالية لإنشاء مثل هذا المستند. لمزيد من المعلومات، راجع [إنشاء نماذج يقوم المستخدمون بإكمالها أو طباعتها في Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). وإلا، فيمكنك تخطي الإجراء التالي.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>الحصول علي مستند Word يحتوي علي جزء XML مخصص وتعيين البيانات
 

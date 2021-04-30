@@ -2,7 +2,7 @@
 title: نظرة عامة حول إدارة مستندات الأعمال
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام ميزة إدارة مستندات الأعمال الخاصة بإطار عمل إعداد التقارير الإلكترونية (ER).
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749527"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891295"
 ---
 # <a name="business-document-management-overview"></a>نظرة عامة حول إدارة مستندات الأعمال
 
@@ -45,9 +45,9 @@ ms.locfileid: "5749527"
 
 ## <a name="business-document-availability"></a>توافر مستندات الأعمال
 
-للعثور على قائمة كاملة بجميع التقارير المخططة لإصدار أكتوبر 2019، راجع [تقارير مستندات الأعمال القابلة للتكوين في Word وExcel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+للعثور على قائمة كاملة بجميع التقارير المخططة لإصدار أكتوبر 2019، راجع [تقارير مستندات الأعمال القابلة للتكوين في Word وExcel](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-للعثور على قائمة كاملة بجميع التقارير المخططة لإصدار أكتوبر 2020، راجع [مستندات الأعمال القابلة للتكوين - قوالب Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+للعثور على قائمة كاملة بجميع التقارير المخططة لإصدار أكتوبر 2020، راجع [مستندات الأعمال القابلة للتكوين - قوالب Word](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 ستصبح المزيد من التقارير متوفرة في الإصدارات المستقبلية. سيتم إرسال اعلامات خاصة حول التقارير الإضافية بشكل منفصل. لمعرفه كيفيه مراجعه قائمه التقارير المتوفرة حاليا ، راجع قائمه المقاطع [الخاصة بتكوينات ER التي تم إصدارها في التمويل لدعم مستندات الاعمال القابلة للتكوين](#list-of-configurations-cbd) أدناه.
 
@@ -272,7 +272,23 @@ ms.locfileid: "5749527"
 
 ![تأكيد بدء عمليه التحرير لإنشاء قالب جديد](./media/BDM-Overview-EditingTemplate4.png)
 
+إذا لم يكن هناك أي موفر، فسيتم عرض إنشاؤه. إذا لم يكن هناك أي موفر نشط، فسيتم عرض اختياره لتنشيطه.
+
+لإنشاء موفر، قم بتغيير اسم الموفر في حقل **الاسم**، حدّث عنوان الإنترنت للموفر الجديد في حقل **عنوان إنترنت** وحدد **موافق** للتأكيد.
+
+   ![إنشاء موفر جديد في BDM](./media/bdm_create_provider.png)
+
+لتنشيط موفر موجود، اختر اسم الموفر في الحقل **موفر التكوين**، وحدد **موافق** لتعيين الموفر كنشط.
+
+   ![تنشيط الموفر في BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> يشير كل قالب BDM إلى الموفر على أنه مالك التكوين. وهذا هو السبب في كون الموفر النشط مطلوبًا للقالب.
+
+
 دائمًا ما يتوفر خيار **مستند جديد‎** لقالب في تكوين تنسيق إعداد التقارير الإلكترونية الذي يقدمه الموفر الحالي وموفر آخر (Microsoft في هذا المثال) ليس لديه أي مراجعة. يتم بعد ذلك تخزين القالب الذي تم تحريره في تكوين تنسيق تقارير إلكترونية جديد يتم إنشاؤه بشكل تلقائي.
+
+
 
 ### <a name="start-editing-a-template"></a>بدء تحرير قالب
 
@@ -419,7 +435,7 @@ ms.locfileid: "5749527"
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>قائمه بتكوينات ER التي تم إصدارها في التمويل لدعم مستندات الاعمال القابلة للتكوين
 
-ويتم تحديث [قائمة](general-electronic-reporting.md#list-of-configurations) تكوينات ER الخاصة بـ Finance باستمرار. افتح [المستودع العمومي](er-download-configurations-global-repo.md) لمراجعه قائمه تكوينات ER المعتمدة حاليا. يمكنك [تصفيه](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) المستودع العمومي لمراجعه قائمه تكوينات ER التي يتم استخدامها لدعم مستندات الاعمال القابلة للتكوين.
+ويتم تحديث [قائمة](general-electronic-reporting.md#list-of-configurations) تكوينات ER الخاصة بـ Finance باستمرار. افتح [المستودع العمومي](er-download-configurations-global-repo.md) لمراجعه قائمه تكوينات ER المعتمدة حاليا. يمكنك [تصفيه](../../../finance/localizations/enhanced-filtering-global-repo.md) المستودع العمومي لمراجعه قائمه تكوينات ER التي يتم استخدامها لدعم مستندات الاعمال القابلة للتكوين.
 
 ![تصفيه محتوي المستودع العمومي علي صفحه مستودع التكوين](./media/bdm-overview-filterglobalrepo.gif)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8310def6f33b807f7f749e659432e482245d007
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dc723728801909c67cb823a043a2ae3e7eaf9f05
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803863"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892193"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>تجنب اقتطاع نص في التدرج الهرمي للمنصب والتصدير إلى Visio
 
@@ -38,7 +38,7 @@ ms.locfileid: "5803863"
 
 **‏‏الدقة**
 
-لسوء الحظ، لا يمكن للمستخدمين تغيير حجم النص بسهولة. ومع ذلك، يمكنك تصدير التدرج الهرمي للمنصب خارج Human Resources ثم استيراده إلى Microsoft Visio. على الرغم من كتابة المقالة التالية لبرنامج Microsoft Dynamics AX 2012، فإن العملية تنطبق مع ذلك على Human Resources: [تصدير التدرج الهرمي للمنصب إلى Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+لسوء الحظ، لا يمكن للمستخدمين تغيير حجم النص بسهولة. ومع ذلك، يمكنك تصدير التدرج الهرمي للمنصب خارج Human Resources ثم استيراده إلى Microsoft Visio. على الرغم من كتابة المقالة التالية لبرنامج Microsoft Dynamics AX 2012، فإن العملية تنطبق مع ذلك على Human Resources: [تصدير التدرج الهرمي للمنصب إلى Microsoft Visio](/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 اتبع هذه الخطوات للتصدير إلى Visio.
 
@@ -66,7 +66,7 @@ ms.locfileid: "5803863"
 
     ![معالج مخطط المؤسسة 1](media/orgchart-wizard7.png)
 
-7. اختر **نص + المنظمة (\*.txt)، أو ملف Excel**، ثم قم بتحديد **التالي**.
+7. اختر **نص، Org Plus (\*.txt) أو ملف Excel**، ثم حدد **التالي**.
 
     ![معالج مخطط المؤسسة 2](media/orgchart-wizard3.png)
 

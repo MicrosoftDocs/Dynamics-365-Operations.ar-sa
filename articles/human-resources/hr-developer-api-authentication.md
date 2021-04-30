@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94d76a9f6d4a3d7afcb9b85d961899880ca9fc75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793671"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893438"
 ---
 # <a name="authentication"></a>مصادقة
 
@@ -82,7 +82,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - بالنسبة لتطبيقات الويب، قم بتوفير عنوان URL الأساسي الخاص بالتطبيق. على سبيل المثال، قد يكون `http://localhost:31544` هو عنوان URL الخاص بتطبيق ويب الذي يتم تشغيله على الجهاز المحلي الخاص بك. ثم يقوم المستخدمون باستخدام عنوان URL هذا لتسجيل الدخول إلى تطبيق عميل ويب.
         - بالنسبة لتطبيقات العميل العامة، قم بتوفير عنوان URL الذي يستخدمه Azure AD لإرجاع استجابات الرمز المميزة. أدخل قيمة خاصة بالتطبيق، مثل `myapp://auth`.
 
-        لمشاهدة أمثلة معينة لتطبيقات الويب أو التطبيقات الأصلية، راجع قوالب التشغيل السريع في [النظام الأساسي للهوية Microsoft (الذي كان يسمى سابقًا Azure Active Directory للمطورين)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        لمشاهدة أمثلة معينة لتطبيقات الويب أو التطبيقات الأصلية، راجع قوالب التشغيل السريع في [النظام الأساسي للهوية Microsoft (الذي كان يسمى سابقًا Azure Active Directory للمطورين)](/azure/active-directory/develop/#quickstarts).
 
 5. ضمن **أذونات API**، حدد **إضافة إذن**. ثم، في علامة التبويب **واجهات API التي تستخدمها مؤسستي** ابحث عن **Dynamics 365 Human Resources** وأضف الإذن **user\_impersonation** إلى التطبيق الخاص بك. معرف التطبيق للموارد البشرية هو f9be0c49-aa22-4ec6-911a-c5da515226ff. استخدم هذا المعرف للتأكد من أنك قمت باختيار التطبيق الصحيح.
 

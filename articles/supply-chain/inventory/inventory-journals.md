@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826025"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910175"
 ---
 # <a name="inventory-journals"></a>دفاتر يومية المخزون
 
@@ -95,7 +95,7 @@ ms.locfileid: "5826025"
 -    الخدمة المتزامنة (OData)
 -  التكامل غير المتزامن
 
-لمزيد من المعلومات، راجع [كيانات البيانات](../../dev-itpro/data-entities/data-entities.md).
+لمزيد من المعلومات، راجع [كيانات البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
 > لا تعتبر كافة دفاتر يومية المخزون ممكَّنة لـ OData، لذلك لا يمكنك استخدام تطبيق Excel data connector للحصول على البيانات ونشرها وتحديثها واستيرادها مرة أخرى إلى Supply Chain Management. 
@@ -113,7 +113,7 @@ ms.locfileid: "5826025"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[كيانات البيانات](../../dev-itpro/data-entities/data-entities.md)
+[كيانات البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753566"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894066"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>تصميم تكوين ER جديد لإنشاء تقارير بتنسيق Word
 
@@ -38,7 +38,7 @@ ms.locfileid: "5753566"
 يجب ان يحتوي مكون التنسيق الخاص بالحل علي عنصر تنسيق **ملف\\Excel**، ويجب ان يكون عنصر التنسيق هذا مرتبطا بمستند Word الذي سيتم استخدامه كقالب للتقارير التي تم إنشاؤها في وقت التشغيل. لتكوين مكون التنسيق الخاص بـ ER، يجب [فتح ](general-electronic-reporting.md#component-versioning)الإصدار التمهيدي لتكوين ER الذي تم إنشاؤه في مصمم التنسيق الخاص بـ ER. ثم قم باضافه عنصر **ملف\\Excel**، وقم بإرفاق قالب Word الخاص بك بتنسيق ER القابل للتحرير، ثم قم بربط هذا القالب بعنصر **ملف\\Excel** الذي قمت بإضافته.
 
 > [!NOTE]
-> عندما تقوم بإرفاق قالب يدويًا، يجب عليك استخدام [نوع مستند](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) تم [تكوينه](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) لهذا الغرض في معلمات ER.
+> عندما تقوم بإرفاق قالب يدويًا، يجب عليك استخدام [نوع مستند](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) تم [تكوينه](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) لهذا الغرض في معلمات ER.
 
 ![إرفاق قالب في الصفحة مصمم التنسيق](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ ms.locfileid: "5753566"
 
 ![إضافة العناصر المتداخلة في صفحة مصمم التنسيق](./media/er-design-configuration-word-image4.gif)
 
-عند حفظ التغييرات التي أجريتها علي التنسيق الخاص ب ER في وقت التصميم، يتم تخزين بنيه التنسيق الهرمي في قالب Word المرفق [كجزء XML مخصص](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)يتم تسميته باسم **التقرير**. يجب الوصول إلى القالب المعدل وتنزيله من المالية وتخزينها محليا وفتحها في تطبيق Word لسطح المكتب. يبين الرسم التوضيحي التالي قالب نموذج تم تخزينه محليا لتقرير التحكم الذي يحتوي علي جزء XML المخصص **للتقرير**.
+عند حفظ التغييرات التي أجريتها علي التنسيق الخاص ب ER في وقت التصميم، يتم تخزين بنيه التنسيق الهرمي في قالب Word المرفق [كجزء XML مخصص](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)يتم تسميته باسم **التقرير**. يجب الوصول إلى القالب المعدل وتنزيله من المالية وتخزينها محليا وفتحها في تطبيق Word لسطح المكتب. يبين الرسم التوضيحي التالي قالب نموذج تم تخزينه محليا لتقرير التحكم الذي يحتوي علي جزء XML المخصص **للتقرير**.
 
 ![مراجعة القالب الخاص بتقرير القالب في تطبيق Word لسطح المكتب](./media/er-design-configuration-word-image5.gif)
 
-عند تشغيل روابط **نطاق\\excel** وعناصر تنسيق **خليه\\excel** في وقت التشغيل، فان البيانات التي يتم تسليمها في كل ارتباط ستاتي في مستند Word الذي تم إنشاؤه كحقل فردي في جزء XML المخصص **للتقرير**. لإدخال القيم من حقول جزء XML المخصص في مستند تم إنشاؤه، يجب أضافه [عناصر تحكم محتوي word المناسبة](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) إلى قالب word ليعمل كعناصر نائبه للبيانات التي سيتم تعبئتها في وقت التشغيل. لتحديد كيفيه ملء عناصر تحكم المحتوي، قم بتعيين كل عنصر تحكم محتوي إلى الحقل المناسب لجزء XML المخصص **للتقرير**.
+عند تشغيل روابط **نطاق\\excel** وعناصر تنسيق **خليه\\excel** في وقت التشغيل، فان البيانات التي يتم تسليمها في كل ارتباط ستاتي في مستند Word الذي تم إنشاؤه كحقل فردي في جزء XML المخصص **للتقرير**. لإدخال القيم من حقول جزء XML المخصص في مستند تم إنشاؤه، يجب أضافه [عناصر تحكم محتوي word المناسبة](/office/client-developer/word/content-controls-in-word) إلى قالب word ليعمل كعناصر نائبه للبيانات التي سيتم تعبئتها في وقت التشغيل. لتحديد كيفيه ملء عناصر تحكم المحتوي، قم بتعيين كل عنصر تحكم محتوي إلى الحقل المناسب لجزء XML المخصص **للتقرير**.
 
 ![أضافه عناصر تحكم المحتوي وتعيينها في تطبيق سطح المكتب في Word](./media/er-design-configuration-word-image6.gif)
 

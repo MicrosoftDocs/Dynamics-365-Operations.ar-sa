@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805096"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890042"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>تكوين جداول Dataverse الظاهرية
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 لتمكين عمليات CRUD على كيانات الموارد البشرية من Dataverse، يجب توفير الكيانات كجداول ظاهرية في Dataverse يتيح هذا امكانيه اجراء عمليات CRUD من Dataverse وMicrosoft Power Platform علي البيانات الموجودة في الموارد البشرية. تدعم العمليات أيضا عمليات التحقق الكاملة من منطق العمل للموارد البشرية لضمان تكامل البيانات عند كتابه البيانات إلى الكيانات.
 
 > [!NOTE]
-> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>الجداول الظاهرية المتاحة للموارد البشرية
 
@@ -51,7 +51,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 يتم إنشاء الجداول الأصلية للموارد البشرية بشكل منفصل وصيانتها في الحل الشائع HCM في Dataverse. باستخدام الجداول الأصلية، يتم تخزين البيانات في Dataverse وتتطلب مزامنة مع قاعدة بيانات التطبيق الخاصة بالموارد البشرية.
 
 > [!NOTE]
-> للحصول على قائمة بجداول Dataverse الأصلية للموارد البشرية، راجع [جداول Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> للحصول على قائمة بجداول Dataverse الأصلية للموارد البشرية، راجع [جداول Dataverse](./hr-developer-entities.md).
 
 ## <a name="setup"></a>الإعداد
 
@@ -71,7 +71,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 ### <a name="register-the-app-in-microsoft-azure"></a>قم بتسجيل التطبيق في Microsoft Azure
 
-يجب عليك تسجيل مثيل Human Resources الخاص بك في مدخل Azure حتى يتمكن النظام الأساسي لهويه Microsoft من توفير خدمات المصادقة والتخويل للتطبيق والمستخدمين. لمزيد من المعلومات حول تسجيل التطبيقات في Azure، راجع [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهويه Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+يجب عليك تسجيل مثيل Human Resources الخاص بك في مدخل Azure حتى يتمكن النظام الأساسي لهويه Microsoft من توفير خدمات المصادقة والتخويل للتطبيق والمستخدمين. لمزيد من المعلومات حول تسجيل التطبيقات في Azure، راجع [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهويه Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 1. افتح [مدخل Microsoft Azure](https://portal.azure.com).
 
@@ -93,7 +93,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 10. قم بتوفير وصف، وحدد مده، وحدد **أضافه**.
 
-11. سجل قيمة السر. ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الجدول الظاهري](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. تسجيل قيمة السر من خاصية **القيمة** للجدول. ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الجدول الظاهري](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > تاكد من مراعاه قيمه السر في هذا الوقت. لا يتم عرض السر أبدا مره أخرى بعد مغادره هذه الصفحة.
@@ -151,7 +151,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
      >[!NOTE]
      >تأكد من تضمين الحرف "**/**" في نهاية عنوان URL لتجنب تلقي خطأ ما.
 
-   - **معرف المستاجر**: معرف المستاجر في Azure Active Directory ( Azure AD).
+   - **معرف المستأجر**: معرف المستأجر في Azure Active Directory ( Azure AD).
 
    - **معرف تطبيق AAD**: معرف التطبيق (العميل) الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure. لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
@@ -165,7 +165,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 امنح أذونات لتطبيقي Azure AD في الموارد البشرية:
 
-- التطبيق الذي تم إنشاؤه للمستاجر في مدخل Microsoft Azure
+- التطبيق الذي تم إنشاؤه للمستأجر في مدخل Microsoft Azure
 - تطبيق Dynamics 365 HR Virtual Table الذي تم تبثبيته في من بيئة Power Apps 
 
 1. في الموارد البشرية، افتح صفحة **تطبيقات Azure Active Directory**.
@@ -215,12 +215,11 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[ما هو Dataverse؟](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[الجداول في Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[نظرة عامة على علاقات الجداول](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[إنشاء جداول ظاهرية تحتوي على بيانات من مصدر بيانات خارجي وتحريرها](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[ما المقصود بمداخل Power Apps؟](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[نظره عامه حول إنشاء التطبيقات في Power Apps](https://docs.microsoft.com/powerapps/maker/)
-
+[ما هو Dataverse؟](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[الجداول في Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[نظرة عامة على علاقات الجداول](/powerapps/maker/common-data-service/relationships-overview)<br>
+[إنشاء جداول ظاهرية تحتوي على بيانات من مصدر بيانات خارجي وتحريرها](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[ما المقصود بمداخل Power Apps؟](/powerapps/maker/portals/overview)<br>
+[نظره عامه حول إنشاء التطبيقات في Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

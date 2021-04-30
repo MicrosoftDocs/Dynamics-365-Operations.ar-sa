@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f67bb8e218c98c6f227f5e1f05f9ba7b35da37c7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 356cdf0fc6bc2dbc086ff186805a97755d98e49e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832144"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909515"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>ما الجديد أو المتغير في الإصدار 10.0.14 من Dynamics 365 Supply Chain Management (نوفمبر 2020)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5832144"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار نظامًا أساسيًا محدثًا وتحسينات عامة، ولكنه لا يتضمن أي ميزات خاصة بـ Supply Chain Management. لمزيد من المعلومات حول الميزات القادمة، راجع موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/).
+يتضمن هذا الإصدار نظامًا أساسيًا محدثًا وتحسينات عامة، ولكنه لا يتضمن أي ميزات خاصة بـ Supply Chain Management. لمزيد من المعلومات حول الميزات القادمة، راجع موقع [خطط الإصدار](/dynamics365/release-plans/).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -49,7 +49,7 @@ ms.locfileid: "5832144"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 

@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841757"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908361"
 ---
 # <a name="calendars-and-master-planning"></a>التقويمات والتخطيط الرئيسي
 
@@ -90,7 +90,7 @@ ms.locfileid: "5841757"
 
 لاحظ أنه من يمكن تضمين تقويم واحد فقط لكل عميل. إذا أردت تضمين تقويم لكل عنوان مختلف من عناوين أحد العملاء، فيمكنك إنشاء عميل واحد لكل عنوان ثم تعيين تقويمه الخاص. 
 
-يتأثر تاريخ الاستلام المطلوب في بنود أمر المبيعات بتقويم العميل وبطريقة التحكم في تاريخ التسليم. يمكنك قراءة المزيد حول كيفية احتساب تاريخ التسليم الأبكر في [التعهد بالأمر.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+يتأثر تاريخ الاستلام المطلوب في بنود أمر المبيعات بتقويم العميل وبطريقة التحكم في تاريخ التسليم. يمكنك قراءة المزيد حول كيفية احتساب تاريخ التسليم الأبكر في [التعهد بالأمر.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>تقويم الشحن لكيان قانوني
 للإشارة إلى التواريخ التي يمكن فيها لكيان قانوني شحن البضائع، يمكنك إعداد تقويم شحن ضمن **إدارة المؤسسة > المؤسسات > الكيانات القانونية**. حدد الكيان القانوني وأضف التقويم في علامة التبويب **التجارة الخارجية واللوجستيات** في الحقل **تقويم الشحن**. سوف يعمل تقويم كمصدر للإعدادات الافتراضية لكافة تقويمات المستودع في الكيان القانوني. 

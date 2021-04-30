@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747191"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890347"
 ---
 # <a name="workflow-faq"></a>الأسئلة المتداولة حول سير العمل
 
@@ -45,9 +45,9 @@ ms.locfileid: "5747191"
     - في أحد التحديثات المستقبلية ستتم إضافة رسالة مركز الإجراءات حتى يتم تعيين عنصر عمل سير العمل إلى المستخدم. 
 - إضافة إخطارات لمهام سير العمل
     - يمكن إنشاء رسائل مركز الإجراءات لمستخدمين محددين، مثل رسالة تم إنشاؤها من سير عمل في X++.
-    - [تحتوي مهام سير العمل على أحداث أعمال](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) يمكن للعميل استخدامها لتشغيل المهام ذات الإشعارات التي يبحث عنها.   
+    - [تحتوي مهام سير العمل على أحداث أعمال](../../dev-itpro/business-events/business-events-workflow.md) يمكن للعميل استخدامها لتشغيل المهام ذات الإشعارات التي يبحث عنها.   
 
-وفي الملخص، في حالة عدم حصول المستخدم على الإخطار المناسب من مركز الإجراءات عند تعيين عنصر عمل لسير العمل، قم بزيادة [أحداث أعمال سير العمل](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) مع Microsoft Power Automate لتوفير إخطارات إضافية أو مختلفة.
+وفي الملخص، في حالة عدم حصول المستخدم على الإخطار المناسب من مركز الإجراءات عند تعيين عنصر عمل لسير العمل، قم بزيادة [أحداث أعمال سير العمل](../../dev-itpro/business-events/business-events-workflow.md) مع Microsoft Power Automate لتوفير إخطارات إضافية أو مختلفة.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>لماذا لا يمكن بدء "محرر سير العمل" ضمن AD FS؟
 عند التشغيل ضمن ‏‫خدمات الأمان المشترك لـ Active Directory (AD FS)‬ في بيئة تمت ترقيتها، فقد يواجه محرر سير العمل مشكلة في بدء التشغيل. إذا كان الأمر كذلك ، تأكد من إضافة عنوان URL "https://dynamicsaxworkfloweditor/" إلى الخاصية **Microsoft Dynamics 365 for Operations محلي - سير العمل - التطبيق الأصلي** في إعدادات ADFS.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838312"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908001"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>المعالجة المؤجلة لعمل المستودع
 
@@ -28,7 +28,7 @@ ms.locfileid: "5838312"
 
 تتيح وظيفة المعالجة المؤجلة لعمال المستودع الاستمرار في تنفيذ عمل آخر أثناء معالجة عمليه الوضع في الخلفية. تكون المعالجة المؤجلة مفيدة عند الحاجة لمعالجة العديد من بنود العمل ويمكن أن يسمح العامل بمعالجة هذا العمل بشكل غير متزامن. ويعد ذلك مفيدا أيضًا عندما يمكن أن يكون لدى الخادم زيادة مؤقته أو غير مخططة في وقت المعالجة، وقد يؤثر وقت المعالجة المتزايد على إنتاجية المستخدم.
 
-يتم تحقيق المعالجة في الخلفية باستخدام إطار عمل SysOperation. لمزيد من المعلومات، راجع [نظرة عامة حول إطار عمل SysOperation](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+يتم تحقيق المعالجة في الخلفية باستخدام إطار عمل SysOperation. لمزيد من المعلومات، راجع [نظرة عامة حول إطار عمل SysOperation](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>تكوين سياسات معالجة العمل
 

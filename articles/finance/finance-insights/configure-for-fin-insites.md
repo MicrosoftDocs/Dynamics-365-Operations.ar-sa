@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818768"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908820"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>تكوين Finance insights (معاينة)
 
@@ -69,7 +69,7 @@ ms.locfileid: "5818768"
     13. حدد **الموارد \> كافة الإعدادات القديمة**.
     14. في شريط التنقل العلوي، حدد **الإعدادات**، ثم حدد **التخصيصات**.
     15. حدد **موارد المطور**.
-    16. قم بتعيين الحقل **معرف معلومات مرجع المثيل** إلى قيمة معرف المؤسسة Dataverse التي قمت بتدوين ملاحظة لها مسبقًا.
+    16. انسخ قيمة **معرف مؤسسة Dataverse**.
     17. في شريط العنوان الخاص بالمستعرض، قم بتسجيل عنوان URL الخاص بمؤسسة Dataverse. على سبيل المثال، قد يكون عنوان URL `https://org42b2b3d3.crm.dynamics.com`.
 
 2. إذا كنت تخطط لاستخدام ميزة تقديرات التدفقات النقدية أو التنبؤ بالموازنة، اتبع الخطوات التالية لتحديث حد التعليق التوضيحي لمؤسسك إلى 50 ميغابايت على الأقل (MB):
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[استخدم البرنامج النصي لـ Windows PowerShell](#tab/use-a-powershell-script)
 
-لقد تم توفير برنامج Windows PowerShell النصي، حتى يمكنك بسهولة إعداد موارد Azure الموضحة في [تكوين التصدير إلى Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). إذا كنت تفضل القيام بالإعداد اليدوي، فعليك تخطي هذا الإجراء، ومتابعة الإجراء في القسم [الإعداد اليدوي](#manual-setup).
+لقد تم توفير برنامج Windows PowerShell النصي، حتى يمكنك بسهولة إعداد موارد Azure الموضحة في [تكوين التصدير إلى Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md). إذا كنت تفضل القيام بالإعداد اليدوي، فعليك تخطي هذا الإجراء، ومتابعة الإجراء في القسم [الإعداد اليدوي](#manual-setup).
 
 > [!NOTE]
 > اتبع الخطوات التالية لتشغيل البرنامج النصي PowerShell. قد لا يعمل الخيار Azure CLI "جربه"، أو تشغيل البرنامج النصي على الكمبيوتر.
 
-اتبع الخطوات التالية لتكوين Azure باستخدام البرنامج النصي لـ Windows PowerShell. يجب أن يكون لديك حقوق بإنشاء مجموعة موارد Azure وموارد Azure وتطبيق Azure AD. للحصول على معلومات حول الأذونات المطلوبة، راجع [التحقق من أذونات Azure AD ](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+اتبع الخطوات التالية لتكوين Azure باستخدام البرنامج النصي لـ Windows PowerShell. يجب أن يكون لديك حقوق بإنشاء مجموعة موارد Azure وموارد Azure وتطبيق Azure AD. للحصول على معلومات حول الأذونات المطلوبة، راجع [التحقق من أذونات Azure AD ](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. في [مدخل azure ](https://portal.azure.com)، انتقل إلى اشتراك هدف Azure. حدد الزر **Cloud Shell** الموجود إلى يمين الحقل **بحث**.
 2. حدد **PowerShell**.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>تكوين متجر الكيان
 
-اتبع هذه الخطوات لإعداد مخزن الكيان في بيئة Finance.
-
-1. انتقل إلى **إدارة النظام \> إعداد \> معلمات النظام \> اتصالات البيانات**.
-2. عيِّن الخيار **تمكين تكامل Data Lake** على **نعم**.
-3. تعيين حقول المخزن الرئيسي التالية:
-
-    - **معرف استمارة التطبيق (العميل)** – أدخل معرف عميل استمارة التقديم الذي قمت بإنشائه سابقًا.
-    - **سر استمارة التقديم** – أدخل كلمة السر التي قمت بحفظها لاستمارة التقديم التي قمت بإنشائها سابقًا.
-    - **اسم DNS** – يمكنك العثور على اسم نظام اسم المجال (DNS) في صفحة تفاصيل استمارة التقديم لاستمارة التطبيق التي قمت بإنشائها سابقًا.
-    - **اسم السر** - أدخل **تخزين-حساب-اتصال-سلسلة**.
 
 ## <a name="configure-the-data-lake"></a>تكوين data lake
 
@@ -991,6 +980,19 @@ finally {
     | معرف مستأجر CDS (معرف الدليل من AAD)               | معرف مستأجر المثيل Dataverse. للعثور على هذه القيمة، افتح [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory**، ثم انسخ قيمة **معرف المستأجر**. |
     | قم بتوفير معرف كائن المستخدم الذي يمتلك دور مسؤول النظام | معرف كائن مستخدم Azure AD في Dataverse. يجب أن يكون هذا المستخدم مسؤول نظام مثيل Dataverse. للعثور على هذه القيمة، افتح [مدخل Azure](https://portal.azure.com)، انتقل إلى **Azure Active Directory \> المستخدمين**، حدد المستخدم، ثم، في القسم **الهوية**، انسخ القيمة **معرف الكائن**. |
     | هل هذه هي بيئة CDS الافتراضية للمستأجر؟      | إذا كان مثيل Dataverse هو أول مثيل إنتاج تم إنشاؤه، حدد خانة الاختيار هذه. إذا تم إنشاء مثيل Dataverse يدويًا، فقم بإلغاء تحديد خانة الاختيار هذه. |
+
+## <a name="configure-the-entity-store"></a>تكوين متجر الكيان
+
+اتبع هذه الخطوات لإعداد مخزن الكيان في بيئة Finance.
+
+1. انتقل إلى **إدارة النظام \> إعداد \> معلمات النظام \> اتصالات البيانات**.
+2. عيِّن الخيار **تمكين تكامل Data Lake** على **نعم**.
+3. تعيين حقول المخزن الرئيسي التالية:
+
+    - **معرف استمارة التطبيق (العميل)** – أدخل معرف عميل استمارة التقديم الذي قمت بإنشائه سابقًا.
+    - **سر استمارة التقديم** – أدخل كلمة السر التي قمت بحفظها لاستمارة التقديم التي قمت بإنشائها سابقًا.
+    - **اسم DNS** – يمكنك العثور على اسم نظام اسم المجال (DNS) في صفحة تفاصيل استمارة التقديم لاستمارة التطبيق التي قمت بإنشائها سابقًا.
+    - **اسم السر** - أدخل **تخزين-حساب-اتصال-سلسلة**.
 
 ## <a name="feedback-and-support"></a>الملاحظات والدعم
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5f4c91c16363b978932d74c7e8b4420b3a8366d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0f92ace4e7e765c326c62095fb57e3343d8d303b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752698"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909757"
 ---
 # <a name="available-mobile-workspaces"></a>مساحات العمل المحمولة المتوفرة
 
@@ -31,9 +31,9 @@ ms.locfileid: "5752698"
 |[دليل الشركة](company-directory-mobile-workspace.md)| للسماح لكل بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.| 2017 يونيو |    
 |[فريقي](manager-self-service-mobile-workspace.md)| يمكنك مشاهدة المرؤوسين المباشرين وفريق العمل الموسع، بالإضافة إلى إرسال ثناء إلى الأفراد في سلسلة التدرج الهرمي.|2017 يونيو |     
 |[الموافقة على الفاتورة](invoice-approval-mobile-workspace.md)| توفير قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد.| 2017 يونيو   |
-| [إدارة المصروفات](../../../finance/expense-management/expense-management-mobile-workspace.md) | يمكنك التقاط إيصال وتحميله، بحيث تتمكن من إرفاقه بتقرير مصروفات فيما بعد. تسمح لك أيضًا مساحة العمل المحمولة بإنشاء بند مصروفات باستخدام إيصال مرفق. | 2017 أبريل |
+| [إدارة المصروفات](/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace) | يمكنك التقاط إيصال وتحميله، بحيث تتمكن من إرفاقه بتقرير مصروفات فيما بعد. تسمح لك أيضًا مساحة العمل المحمولة بإنشاء بند مصروفات باستخدام إيصال مرفق. | 2017 أبريل |
 | [اعتماد أمر الشراء](../../../supply-chain/procurement/purchase-order-mobile-workspace.md) | لعرض طلبات الشراء واﻻستجابة لها بواسطة إجراءات مثل الموافقة أو الرفض. | 2017 أبريل |
-| [إدخال وقت المشروع](../../../finance/project-management/project-time-entry-mobile-workspace.md) | يمكنك إدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازك المحمول. | 2017 مارس |
+| [إدخال وقت المشروع](/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace) | يمكنك إدخال وتوفير الوقت مقابل مشروع ما باستخدام جهازك المحمول. | 2017 مارس |
 | [التحكم في التكاليف](../../../finance/cost-accounting/cost-controlling-mobile-workspace.md)     | باستطاعة مدراء مركز التكلفة رؤية أداء مركز التكلفة.                                                                                               |  2017 يناير        |
 | [المخزون الفعلي](../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | الحصول على فهم واضح للمخزون المحجوز والمتاح.                                                                                                    |   2017 يناير       |
 | [أوامر التوريد](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | يمكنك البقاء على إطلاع دائم على أوامر المبيعات.                                                                                                                          |  2017 يناير                  |

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfabda7ab4caafc43926595655352fbfe49d8ff7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804999"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889778"
 ---
 # <a name="provision-human-resources"></a>تزويد Human Resources
 
@@ -80,7 +80,7 @@ ms.locfileid: "5804999"
     
 3. حدد الخيار **تضمين بيانات العرض التوضيحي** إذا كنت تريد أن تتضمن بيئتك مجموعة بيانات العرض التوضيحي نفسها المستخدمة في تجربة اختبار إصدار Human Resources. تكون بيانات العرض التوضيحي مفيدة في العرض التوضيحي طويل الأمد أو بيئات التدريب، ويجب إلا يتم أبدًا استخدامها في بيئات الإنتاج. يجب أن تحدد هذا الخيار عند النشر الأولى. لا يمكنك تحديث نشر موجود في وقت لاحق.
 
-4. يتم توفير Human Resources دومًا في بيئة Microsoft Power Apps، لتمكين تكامل Power Apps وقابليته للتوسع. راجع قسم "تحديد بيئة Power Apps " في هذا المقال قبل المتابعة. إذا لم تكن لديك بيئة Power Apps، فحدد "إدارة البيئات" في LCS أو انتقل إلى مركز إدارة Power Apps . ثم اتبع الخطوات التي تؤدي إلى [إنشاء بيئة Power Apps .](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. يتم توفير Human Resources دومًا في بيئة Microsoft Power Apps، لتمكين تكامل Power Apps وقابليته للتوسع. راجع قسم "تحديد بيئة Power Apps " في هذا المقال قبل المتابعة. إذا لم تكن لديك بيئة Power Apps، فحدد "إدارة البيئات" في LCS أو انتقل إلى مركز إدارة Power Apps . ثم اتبع الخطوات التي تؤدي إلى [إنشاء بيئة Power Apps .](/powerapps/administrator/create-environment).
 
 5. حدد البيئة المراد توفير Human Resources فيها.
 
@@ -124,7 +124,7 @@ ms.locfileid: "5804999"
  
 ## <a name="grant-access-to-the-environment"></a>منح الوصول إلى البيئة
 
-بشكل افتراضي، يتمتع المسؤول العمومي الذي أنشأ البيئة بحق الوصول إليها. يجب عليك منح حق الوصول بشكل واضح إلى مستخدمي التطبيق الإضافيين. ويجب أن تضيف المستخدمين وتعين الأدوار المناسبة لهم في بيئة Human Resources. يجب أيضًا على المسؤول العمومي الذي نشر Human Resources تشغيل تطبيقات Attract وOnboard لإكمال التهيئة وتمكين الوصول لمستخدمي شبكة الاتصال المستأجرة الأخرىن. وحتى حدوث ذلك، لن يتمكن المستخدمون الآخرون من الوصول إلى تطبيقات Attract وOnboard وسوف يحصلون على خطأ مخالفة الوصول. للحصول على مزيد من المعلومات، راجع [إنشاء مستخدمين جدد](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) و[تعيين مستخدمين إلى أدوار أمان](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+بشكل افتراضي، يتمتع المسؤول العمومي الذي أنشأ البيئة بحق الوصول إليها. يجب عليك منح حق الوصول بشكل واضح إلى مستخدمي التطبيق الإضافيين. ويجب أن تضيف المستخدمين وتعين الأدوار المناسبة لهم في بيئة Human Resources. يجب أيضًا على المسؤول العمومي الذي نشر Human Resources تشغيل تطبيقات Attract وOnboard لإكمال التهيئة وتمكين الوصول لمستخدمي شبكة الاتصال المستأجرة الأخرىن. وحتى حدوث ذلك، لن يتمكن المستخدمون الآخرون من الوصول إلى تطبيقات Attract وOnboard وسوف يحصلون على خطأ مخالفة الوصول. للحصول على مزيد من المعلومات، راجع [إنشاء مستخدمين جدد](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) و[تعيين مستخدمين إلى أدوار أمان](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

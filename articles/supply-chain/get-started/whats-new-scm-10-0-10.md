@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 882e9ba310930cd6a9c638c60d5be7edc6809335
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e63c5f3f327870b616eb93f80544c4f1e89980e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821191"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909611"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management‏ 10.0.10‏ (مايو 2020)
 
@@ -33,19 +33,19 @@ ms.locfileid: "5821191"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
+يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
-- [تحسين لاستخدام علامات وزن التعبئة الموجودة مع إدارة المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+- [تحسين لاستخدام علامات وزن التعبئة الموجودة مع إدارة المستودع](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
 
-- [تحسينات إدارة التحميل الواردة لإدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - لمزيد من المعلومات، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](../warehousing/inbound-load-handling.md).
+- [تحسينات إدارة التحميل الواردة لإدارة المستودعات](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - لمزيد من المعلومات، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](../warehousing/inbound-load-handling.md).
 
-- [تحسينات في طباعة التسميات لإدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - لمزيد من المعلومات، راجع [تخطيط توجيه المستند لبطاقات لوحات الترخيص‬](../warehousing/document-routing-layout-for-license-plates.md).
+- [تحسينات في طباعة التسميات لإدارة المستودعات](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - لمزيد من المعلومات، راجع [تخطيط توجيه المستند لبطاقات لوحات الترخيص‬](../warehousing/document-routing-layout-for-license-plates.md).
 
-- [يتضمن التخطيط الرئيسي الأصناف ذات المخزون الفعلي عند تمكين عوامل تصفية المعالجة المسبقة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
+- [يتضمن التخطيط الرئيسي الأصناف ذات المخزون الفعلي عند تمكين عوامل تصفية المعالجة المسبقة](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 
-- [كيانات البيانات الجديدة لمنطقة التصنيع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [كيانات البيانات الجديدة لمنطقة التصنيع](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [إدارة الجودة لعمليات المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - لمزيد من المعلومات، راجع [إدارة الجودة لعمليات المستودعات](../inventory/quality-management-for-warehouses-processes.md).
+- [إدارة الجودة لعمليات المستودعات](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - لمزيد من المعلومات، راجع [إدارة الجودة لعمليات المستودعات](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -61,7 +61,7 @@ ms.locfileid: "5821191"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 1 لإصدار 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 1 لإصدار 2020](/dynamics365-release-plan/2020wave1/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 

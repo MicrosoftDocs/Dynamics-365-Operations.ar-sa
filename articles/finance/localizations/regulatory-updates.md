@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822747"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890766"
 ---
 # <a name="regulatory-updates"></a>تحديثات تنظيمية
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822747"
 
 يسرد هذا الموضوع التحديثات التنظيمية المُخططة والمصدرة في ترجمات Dynamics 365 Finance المدعومة. قد تختلف المخططات الزمنية للتسليم والوظائف المتوقعة، أو قد لا يتم إصدارها. لمزيد من المعلومات، اقرأ [سياسة Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-التحديثات التنظيمية عبارة عن ميزات يتم تطبيقها لدعم القوانين الجديدة أو المتغيرة الخاصة ببلد ما. للتعرف على المزيد من المعلومات حول الميزات الأخرى المخططة أو الصادرة والخاصة ببلد معين، راجع [Dynamics 365 and Power Platform خطط الإصدار](https://docs.microsoft.com/business-applications-release-notes/index).
+التحديثات التنظيمية عبارة عن ميزات يتم تطبيقها لدعم القوانين الجديدة أو المتغيرة الخاصة ببلد ما. للتعرف على المزيد من المعلومات حول الميزات الأخرى المخططة أو الصادرة والخاصة ببلد معين، راجع [Dynamics 365 and Power Platform خطط الإصدار](/business-applications-release-notes/index).
 
 تبذل شركة Microsoft كل الجهود الممكنة لتطبيق المتطلبات التنظيمية الجديدة بأسرع وقت ممكن. يتوقف تاريخ التسليم الفعلي على تاريخ الإعلان عن القانون وتوفر تفاصيل المتطلبات من السلطات المحلية وتوفر أدوات التحقق من الصحة، وعلى حجم التغيير وتعقيداته.
 

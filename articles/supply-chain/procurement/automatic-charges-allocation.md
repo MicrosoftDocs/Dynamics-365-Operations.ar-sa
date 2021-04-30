@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841469"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910151"
 ---
 # <a name="automatic-allocation-of-charges"></a>التوزيع التلقائي للمصاريف
 
@@ -144,7 +144,7 @@ ms.locfileid: "5841469"
     - **الموقع** و **المستودع** – حدد موقعًا ومستودعًا إذا كان ينبغي تطبيق المصاريف على موقع ومستودع محددين فقط.
     - **الاحتفاظ** – حدد خانة الاختيار للاحتفاظ بحركات المصاريف بعد الفوترة، حتى يتم تطبيق المصاريف في كل مرة تقوم فيها بإنشاء فاتورة جديدة لحساب العميل المحدد.
 
-1. **بالنسبة لأوامر المبيعات فقط:** إذا كنت تريد حساب مصاريف مرتبطة، راجع [مصاريف مرتبطة على أوامر المبيعات](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) للحصول على المعلومات.
+1. **بالنسبة لأوامر المبيعات فقط:** إذا كنت تريد حساب مصاريف مرتبطة، راجع [مصاريف مرتبطة على أوامر المبيعات](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) للحصول على المعلومات.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>تخصيص المصاريف من الرأس إلى بند
 

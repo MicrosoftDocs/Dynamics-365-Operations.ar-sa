@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840763"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908990"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>تخصيص مدخل العميل واستخدامه
 
@@ -33,14 +33,14 @@ ms.locfileid: "5840763"
 
 ستساعدك المواضيع التالية في التعرف على الأساسيات حول مداخل Power Apps وكيف يمكنك تخصيص المداخل:
 
-- [استخدام القوالب](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – يوفر هذا الموضوع نظرة عامة حول كيفية عمل مداخل Power Apps وكيف يمكنك إجراء عمليات تخصيص بسيطة للمداخل.
-- [إدارة محتوى المدخل](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – يشرح هذا الموضوع كيفية إدارة وتخصيص المحتوى الذي تعرضه في مدخلك.
-- [تحرير CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – يساعدك هذا الموضوع على اجراء المزيد من عمليات التخصيص المعقدة لواجهة المستخدم (UI) في مدخلك.
-- [إنشاء نسق لمدخلك](https://docs.microsoft.com/dynamics365/portals/create-theme) – يساعدك هذا الموضوع على إنشاء نسق لواجهة المستخدم في مدخلك.
-- [إنشاء محتوى المدخل وعرضه بسهولة](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – يساعدك هذا الموضوع على إدارة البيانات والجداول الأساسية التي تستخدمها لمدخلك.
-- [تكوين جهة اتصال لاستخدامها على مدخل](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – يشرح هذا الموضوع كيفية إنشاء أدوار المستخدمين وتخصيصها، وكيفية عمل الأمان والمصادقة في مداخل Power Apps.
-- [تكوين الملاحظات لنماذج الجدول ونماذج الويب على المداخل](https://docs.microsoft.com/powerapps/maker/portals/configure-notes)– يشرح هذا الموضوع كيفية إضافة مستندات ومساحة تخزين إضافية إلى مدخلك.
-- [معالجة الأخطاء لموقع ويب للدخل](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – يشرح هذا الموضوع كيفية عرض سجلات أخطاء المدخل وتخزينها في حساب مخزن البيانات الثنائية كبيرة الحجم في Microsoft Azure.
+- [استخدام القوالب](/powerapps/maker/portals/work-with-templates) – يوفر هذا الموضوع نظرة عامة حول كيفية عمل مداخل Power Apps وكيف يمكنك إجراء عمليات تخصيص بسيطة للمداخل.
+- [إدارة محتوى المدخل](/dynamics365/portals/manage-portal-content) – يشرح هذا الموضوع كيفية إدارة وتخصيص المحتوى الذي تعرضه في مدخلك.
+- [تحرير CSS](/powerapps/maker/portals/edit-css) – يساعدك هذا الموضوع على اجراء المزيد من عمليات التخصيص المعقدة لواجهة المستخدم (UI) في مدخلك.
+- [إنشاء نسق لمدخلك](/dynamics365/portals/create-theme) – يساعدك هذا الموضوع على إنشاء نسق لواجهة المستخدم في مدخلك.
+- [إنشاء محتوى المدخل وعرضه بسهولة](/dynamics365/portals/create-expose-portal-content) – يساعدك هذا الموضوع على إدارة البيانات والجداول الأساسية التي تستخدمها لمدخلك.
+- [تكوين جهة اتصال لاستخدامها على مدخل](/powerapps/maker/portals/configure/configure-contacts) – يشرح هذا الموضوع كيفية إنشاء أدوار المستخدمين وتخصيصها، وكيفية عمل الأمان والمصادقة في مداخل Power Apps.
+- [تكوين الملاحظات لنماذج الجدول ونماذج الويب على المداخل](/powerapps/maker/portals/configure-notes)– يشرح هذا الموضوع كيفية إضافة مستندات ومساحة تخزين إضافية إلى مدخلك.
+- [معالجة الأخطاء لموقع ويب للدخل](/powerapps/maker/portals/admin/view-portal-error-log) – يشرح هذا الموضوع كيفية عرض سجلات أخطاء المدخل وتخزينها في حساب مخزن البيانات الثنائية كبيرة الحجم في Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>تخصيص عملية إنشاء الأوامر
 
@@ -88,7 +88,7 @@ ms.locfileid: "5840763"
 
 للمساعدة في ضمان تجربة سلسلة للمستخدم، يقوم مدخل العميل بملء القيم لعدة حقول مطلوبة بشكل تلقائي. تستند هذه القيم إلى المعلومات الموجودة في سجل جهة الاتصال الخاصة بالعميل الذي يرسل الأمر.
 
-بالنسبة إلى كل [صف جهة اتصال](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ينتمي إلى عميل سيقوم باستخدام مدخل العميل لإرسال الأوامر، يجب تحديد القيم للحقول المطلوبة التالية. والا، ستحدث أخطاء.
+بالنسبة إلى كل [صف جهة اتصال](/powerapps/maker/portals/configure/configure-contacts) ينتمي إلى عميل سيقوم باستخدام مدخل العميل لإرسال الأوامر، يجب تحديد القيم للحقول المطلوبة التالية. والا، ستحدث أخطاء.
 
 - **الشركة** – الكيان القانوني الذي ينتمي إليه الأمر
 - **العميل المحتمل** – حساب العميل المرتبط بالأمر.
@@ -134,16 +134,16 @@ ms.locfileid: "5840763"
 
 يجب أن تتأكد من أن مدخل العميل يرسل القيم لجميع هذه الأعمدة.
 
-إذا أردت إضافة الأعمدة إلى الصفحة، أو إزالة الأعمدة، راجع [إنشاء نماذج إنشاء سريعة أو تحريرها للحصول على تجربة إدخال بيانات مبسطة](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+إذا أردت إضافة الأعمدة إلى الصفحة، أو إزالة الأعمدة، راجع [إنشاء نماذج إنشاء سريعة أو تحريرها للحصول على تجربة إدخال بيانات مبسطة](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
 إذا أردت تغيير طريقة الإعداد المسبق للأعمدة وكيفية تعيين القيم عند حفظ الصفحة، راجع المعلومات التالية في وثائق مداخل Power Apps:
 
-- [ملء الحق بشكل مسبق](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [تعيين القيمة عند الحفظ](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [ملء الحق بشكل مسبق](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [تعيين القيمة عند الحفظ](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>تخصيص الصفحة الرئيسية
 
-كافة عناصر التحكم الموجودة في مدخل العميل هي عناصر تحكم مضمنه في مداخل Power Apps. يمكنك تخصيصها باتباع الخطوات الموجودة في [إنشاء صفحة](https://docs.microsoft.com/powerapps/maker/portals/compose-page) في وثائق مداخل Power Apps.
+كافة عناصر التحكم الموجودة في مدخل العميل هي عناصر تحكم مضمنه في مداخل Power Apps. يمكنك تخصيصها باتباع الخطوات الموجودة في [إنشاء صفحة](/powerapps/maker/portals/compose-page) في وثائق مداخل Power Apps.
 
 يتم استخدام عنصر التحكم المخصص الوحيد المضمن في قالب مدخل العميل لإنشاء اللوحات في الصفحة الرئيسية.
 
@@ -151,7 +151,7 @@ ms.locfileid: "5840763"
 
 لتعديل اللوحات، اتبع الخطوات التالية:
 
-1. افتح [تطبيق إدارة المدخل](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1. افتح [تطبيق إدارة المدخل](/powerapps/maker/portals/configure/configure-portal).
 1. في جزء التنقل إلى اليمين، حدد **قوالب الصفحة**.
 
     ![جزء التنقل في إدارة المدخل](media/customer-portal-nav.png "جزء التنقل في إدارة المدخل")
@@ -167,11 +167,11 @@ ms.locfileid: "5840763"
 
 لمعرفة المزيد حول كيفية إعداد مدخل العميل وتخصيصه، راجع الموارد التالية:
 
-- [وثائق مداخل Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [وثائق مداخل Power Apps](/powerapps/maker/portals/overview)
 - [وثائق الكتابة المزدوجة](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [حول دورة حياة المدخل](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [ترقية مدخل](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [ترحيل تكوين المدخل](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [حول دورة حياة المدخل](/powerapps/maker/portals/admin/portal-lifecycle)
+- [ترقية مدخل](/powerapps/maker/portals/admin/upgrade-portal)
+- [ترحيل تكوين المدخل](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [إدارة دورة حياة الحل: تطبيقات Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

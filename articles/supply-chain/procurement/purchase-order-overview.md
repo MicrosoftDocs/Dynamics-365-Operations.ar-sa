@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825316"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909115"
 ---
 # <a name="purchase-order-overview"></a>نظرة عامة على أمر الشراء
 
@@ -41,7 +41,7 @@ ms.locfileid: "5825316"
 -   [إنشاء أوامر شراء](purchase-order-creation.md)
 -   [اعتماد أوامر الشراء وتأكيدها](purchase-order-approval-confirmation.md)
 -   [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
--   [نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [نظرة عامة على فواتير المورّدين](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>أنواع أوامر الشراء
 ‏‫هناك ثلاثة أنواع من أوامر الشراء. عندما تنشئ أمر شراء، يتعين عليك تحديد النوع.‬ يمكنك إعداد نوع أمر افتراضي للأوامر الجديدة في صفحة **محددات تحديد الموارد والتدبير‬**.
@@ -85,7 +85,7 @@ ms.locfileid: "5825316"
 
 [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
 
-[نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
+[نظرة عامة على فواتير المورّدين](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

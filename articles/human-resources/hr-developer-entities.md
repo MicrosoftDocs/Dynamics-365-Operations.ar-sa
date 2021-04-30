@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e316cda9b9c5361c0a2837e7ed6c050e76cc39b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8ddb74a2f0b6265c5be3c13a009211455ea862da
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793599"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893390"
 ---
 # <a name="dataverse-tables"></a>جداول Dataverse
 
@@ -30,7 +30,7 @@ ms.locfileid: "5793599"
 تستخدم Microsoft Dynamics 365 Human Resources خدمة Dataverse لتمكين سيناريوهات ‏‫قابلية التوسعة والتكامل.
 
 > [!NOTE]
-> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)
 
 جداول Dataverse التالي متوفرة استنادًا إلى كيانات Human Resources.
 
@@ -181,8 +181,8 @@ ms.locfileid: "5793599"
 [تكوين تكامل Dataverse ](hr-admin-integration-common-data-service.md)<br>
 [تكوين جداول Dataverse الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [الأسئلة المتداولة حول الجداول الظاهرية في Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[ما هو Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[تحديثات المصطلحات](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[ما هو Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)<br>
+[تحديثات المصطلحات](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

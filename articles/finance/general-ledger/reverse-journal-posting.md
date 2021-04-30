@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 586c0f807cf45908bacd88ff4e4d5793db054e4d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5ab53f4b8888f77cd41ccbd7956ed307ba1b54ff
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815394"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897126"
 ---
 # <a name="reverse-journal-posting"></a>عكس ترحيل دفتر اليومية
 
@@ -65,7 +65,7 @@ ms.locfileid: "5815394"
 
 إذا كان عدد بنود الإيصال 100 بند أو أقل، سيتم تشغيل عملية العكس فورًا. سيتم عرض النتائج في مربع حوار يعرض أية إيصالات تعذر عكسها، مع ذكر السبب. حدد **موافق** لإغلاق مربع الحوار.
 
-يمكن عكس الحركات فقط إذا كانت تفي بقواعد الأعمال لعكسها. يتعذر عكس مدفوعات المورد باستخدام القدرة الموضحة في هذا الموضوع. يجب أن يتم عكس مدفوعات المورد باتباع الخطوات المذكورة في [إلغاء دفعة مورد](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
+يمكن عكس الحركات فقط إذا كانت تفي بقواعد الأعمال لعكسها. يتعذر عكس مدفوعات المورد باستخدام القدرة الموضحة في هذا الموضوع. يجب أن يتم عكس مدفوعات المورد باتباع الخطوات المذكورة في [إلغاء دفعة مورد](../accounts-payable/reverse-vendor-payment.md).
 
 
 

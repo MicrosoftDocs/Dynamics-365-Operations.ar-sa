@@ -1,6 +1,6 @@
 ---
-title: الوظيفة الاضافيه لرؤية المخزون
-description: يوضح هذا الموضوع كيفيه تثبيت الوظيفة الاضافيه لرؤية المخزون وتكوينها لـ Dynamics 365 Supply Chain Management.
+title: الوظيفة الإضافية لرؤية المخزون
+description: يوضح هذا الموضوع كيفيه تثبيت الوظيفة الإضافية لرؤية المخزون وتكوينها لـ Dynamics 365 Supply Chain Management.
 author: sherry-zheng
 ms.date: 10/26/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821119"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910415"
 ---
-# <a name="inventory-visibility-add-in"></a>الوظيفة الاضافيه لرؤية المخزون
+# <a name="inventory-visibility-add-in"></a>الوظيفة الإضافية لرؤية المخزون
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-تعد الوظيفة الاضافيه لرؤية المخزون بمثابه خدمة صغيرة مستقله وقابله للتغيير بشكل كبير والتي تمكن تتبع المخزون الفعلي في الوقت الحقيقي ، مما يوفر عرضا شاملا لرؤية المخزون.
+تعد الوظيفة الإضافية لرؤية المخزون بمثابه خدمة صغيرة مستقله وقابله للتغيير بشكل كبير والتي تمكن تتبع المخزون الفعلي في الوقت الحقيقي ، مما يوفر عرضا شاملا لرؤية المخزون.
 
 يتم تصدير كافة المعلومات المرتبطة بالمخزون الفعلي إلى الخدمة بالقرب من الوقت الحقيقي خلال تكامل SQL في المستوي المنخفض. تقوم الانظمه الخارجية بالوصول إلى الخدمة من خلال واجهات RESTful API للاستعلام عن المعلومات الفعلية حول المجموعات المحددة من الابعاد ، ومن ثم استرداد قائمه بالمناصب الفعلية المتاحة.
 
@@ -33,13 +33,13 @@ ms.locfileid: "5821119"
 
 توفر امكانيه رؤية المخزون خيارات التكوين التي تتيح له التكامل مع أنظمه متعددة الجهات الخارجية. وهو يدعم بعد المخزون القياسي والقابلية للتوسعة المخصصة والكميات التي تم حسابها والقياسية القابلة للتكوين.
 
-يصف هذا الموضوع كيفيه تثبيت وتكوين الوظيفة الاضافيه لرؤية المخزون لـ Dynamics 365 Supply Chain Management، وكيفيه استخدام واجهه برمجه التطبيقات (API) الخاصة بها.
+يصف هذا الموضوع كيفيه تثبيت وتكوين الوظيفة الإضافية لرؤية المخزون لـ Dynamics 365 Supply Chain Management، وكيفيه استخدام واجهه برمجه التطبيقات (API) الخاصة بها.
 
-## <a name="install-the-inventory-visibility-add-in"></a>تثبيت الوظيفة الاضافيه لرؤية المخزون
+## <a name="install-the-inventory-visibility-add-in"></a>تثبيت الوظيفة الإضافية لرؤية المخزون
 
-يجب تثبيت الوظيفة الاضافيه لرؤية المخزون باستخدام Microsoft Dynamics Lifecycle Services (LCS). LCS عبارة عن مدخل تعاون يوفر بيئة ومجموعه من الخدمات المحدثة بشكل منتظم والتي تساعدك علي أداره دوره حياه التطبيقات الخاصة بتطبيقات Dynamics 365 Finance and Operations الخاصة بك.
+يجب تثبيت الوظيفة الإضافية لرؤية المخزون باستخدام Microsoft Dynamics Lifecycle Services (LCS). LCS عبارة عن مدخل تعاون يوفر بيئة ومجموعه من الخدمات المحدثة بشكل منتظم والتي تساعدك علي أداره دوره حياه التطبيقات الخاصة بتطبيقات Dynamics 365 Finance and Operations الخاصة بك.
 
-للحصول على مزيد من المعلومات، راجع [موارد Lifecycle Services](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+للحصول على مزيد من المعلومات، راجع [موارد Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="prerequisites"></a>المتطلبات الأساسية
 
@@ -48,10 +48,13 @@ ms.locfileid: "5821119"
 - احصل علي مشروع تنفيذ LCS مع نشر بيئة واحده علي الأقل.
 - تأكد من اكتمال المتطلبات الأساسية لإعداد الوظائف الإضافية المتوفرة في [نظرة عامة على الوظائف الإضافية](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). لا تتطلب رؤية المخزون ارتباطًا ثنائي الكتابة.
 - تواصل مع فريق رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) للحصول على الملفات الثلاثة المطلوبة التالية:
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip` (إذا كان إصدار Supply Chain Management الذي تقوم بتشغيله أقدم من الإصدار 10.0.18)
+- اتبع الإرشادات المذكورة في [تشغيل سريع: تسجيل تطبيق مع النظام الأساسي للهوية في Microsoft](/azure/active-directory/develop/quickstart-register-app) لتسجيل تطبيق وإضافة سر العميل ضمن اشتراكك في Azure.
+    - [تسجيل تطبيق](/azure/active-directory/develop/quickstart-register-app)
+    - [إضافة سر عميل](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - سيتم استخدام **معرف التطبيق (العميل)** و **سر العميل** و **معرف المستأجر** في الخطوات التالية.
 
 > [!NOTE]
 > تتضمن البلدان والمناطق المدعومة حاليًا كندا والولايات المتحدة والاتحاد الأوروبي (EU).
@@ -64,7 +67,7 @@ ms.locfileid: "5821119"
 
 1. إضافة مبدأ خدمة المستأجر الخاص بك:
 
-    1. قم بتثبيت Azure AD الوحدة النمطية PowerShell الإصدار 2 كما هو موضح في [تثبيت Azure Active Directory PowerShell للرسم البياني](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. قم بتثبيت Azure AD الوحدة النمطية PowerShell الإصدار 2 كما هو موضح في [تثبيت Azure Active Directory PowerShell للرسم البياني](/powershell/azure/active-directory/install-adv2).
     1. قم بتشغيل الأمر PowerShell التالي.
 
         ```powershell
@@ -80,7 +83,12 @@ ms.locfileid: "5821119"
     1. حدد **جديد**. عيّن معرف التطبيق إلى *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (سيتم تحميل مُعرّف الكائن تلقائيًا عند حفظ التغييرات الخاصة بك.) يمكنك تخصيص الاسم. على سبيل المثال، يمكنك تغييره إلى *رؤية المخزون*. عند الانتهاء، حدد **حفظ**.
     1. حدد **تعيين دور**، ثم حدد **مسؤول النظام**. إذا كان هناك دور يسمي **مستخدم Common Data Service**، فحدده أيضًا.
 
-    لمزيد من المعلومات، راجع [إنشاء مستخدم تطبيق](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+    لمزيد من المعلومات، راجع [إنشاء مستخدم تطبيق](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. إذا لم تكن لغة Dataverse  الافتراضية اللغة **الإنجليزية**:
+
+    1. انتقل إلى **إعداد متقدم \> الإدارة \> اللغات**.
+    1. حدد **الإنجليزية (LanguageCode=1033)** وحدد **تطبيق**.
 
 1. قم باستيراد الملف `Inventory Visibility Dataverse Solution.zip`، الذي يتضمن تكوين Dataverse المرتبط بالكيانات و Power Apps:
 
@@ -111,27 +119,27 @@ ms.locfileid: "5821119"
 
 1. سجل الدخول إلى بوابة [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index).
 1. في الصفحة الرئيسية ، حدد المشروع حيث يتم نشر البيئة الخاصة بك.
-1. في الصفحة المشروع ، حدد البيئة التي ترغب في تثبيت الوظيفة الاضافيه بها.
+1. في الصفحة المشروع ، حدد البيئة التي ترغب في تثبيت الوظيفة الإضافية بها.
 1. في الصفحة البيئة، قم بالتمرير لأسفل حتى تشاهد القسم **الوظائف الإضافية الخاصة بالبيئة** في القسم **Power Platform تكامل**، حيث يمكنك العثور على اسم بيئة Dataverse.
 1. في قسم **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.
 
     ![صفحة البيئة في LCS](media/inventory-visibility-environment.png "صفحة البيئة في LCS")
 
-1. حدد الرابط **تثبيت وظيفة إضافية جديدة**. يتم فتح قائمه بالوظائف الاضافيه المتاحة.
+1. حدد الرابط **تثبيت وظيفة إضافية جديدة**. يتم فتح قائمه بالوظائف الإضافية المتاحة.
 1. حدد **رؤية المخزون** في القائمة.
 1. ادخل قيما للحقول التالية الخاصة ببيئتك:
 
     - **مُعرّف تطبيق AAD (العميل)**
     - **معرف مستأجر AAD**
 
-    ![أضافه في صفحه الاعداد](media/inventory-visibility-setup.png "صفحه اعداد الوظيفة الإضافية")
+    ![أضافه في صفحه الإعداد](media/inventory-visibility-setup.png "صفحه إعداد الوظيفة الإضافية")
 
 1. الموافقة علي البنود والشروط عن طريق تحديد خانه الاختيار **البنود والشروط**.
-1. حدد **تثبيت**. ستظهر حاله الوظيفة الاضافيه باعتبارها **قيد التثبيت**. عند الانتهاء ، قم بتحديث الصفحة لرؤية تغيير الحالة علي **مثبت**.
+1. حدد **تثبيت**. ستظهر حاله الوظيفة الإضافية باعتبارها **قيد التثبيت**. عند الانتهاء ، قم بتحديث الصفحة لرؤية تغيير الحالة علي **مثبت**.
 
 ### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>إلغاء تثبيت الوظيفة الإضافية
 
-للغاء تثبيت الوظيفة الاضافيه ، حدد **إلغاء التثبيت**. عندما تقوم بتحديث LCS، فإنه ستتم إزالة الوظيفة الإضافية لرؤية المخزون. تقوم عمليه إزالة التثبيت على إزالة تسجيل الوظيفة الإضافية وبدء مهمة أيضًا لتنظيف كافة بيانات الشركات المخزنة في الخدمة.
+للغاء تثبيت الوظيفة الإضافية ، حدد **إلغاء التثبيت**. عندما تقوم بتحديث LCS، فإنه ستتم إزالة الوظيفة الإضافية لرؤية المخزون. تقوم عمليه إزالة التثبيت على إزالة تسجيل الوظيفة الإضافية وبدء مهمة أيضًا لتنظيف كافة بيانات الشركات المخزنة في الخدمة.
 
 ## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>استخدام بيانات المخزون الفعلي من Supply Chain Management
 
@@ -158,12 +166,12 @@ ms.locfileid: "5821119"
 
     ابحث عن منطقة LCS الخاصة ببيئة Azure، ثم أدخل عنوان URL. يحتوي عنوان URL على النموذج التالي:
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     على سبيل المثال، إذا كنت في أوروبا، سيكون لدي البيئة واحدًا من عناوين (URL) التالية:
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     تتوفر المناطق التالية حاليًا.
 
@@ -212,13 +220,13 @@ ms.locfileid: "5821119"
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -237,7 +245,7 @@ ms.locfileid: "5821119"
 
     المكان:
     - `client_assertion`يجب ان تكون القيمة هي `aadToken` التي استلمتها في الخطوة السابقة.
-    - `context`يجب ان تكون القيمة معرف البيئة حيث تريد توزيع الوظيفة الاضافيه.
+    - `context`يجب ان تكون القيمة معرف البيئة حيث تريد توزيع الوظيفة الإضافية.
     - قم بتعيين كافة القيم الأخرى كما هو موضح في المثال.
 
 1. قم بإرسال طلب HTTP بالخصائص التالية:
@@ -255,6 +263,43 @@ ms.locfileid: "5821119"
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>عينة طلب
+
+كمرجع لك، فيما يلي عينة طلب http، يمكنك استخدام أي أدوات أو لغة تعليمات برمجية لإرسال هذا الطلب، مثل ``Postman``.
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>تكوين واجهه برمجه تطبيقات امكانيه رؤية المخزون
 
@@ -313,7 +358,7 @@ ms.locfileid: "5821119"
 
 في معظم الأوقات ، لن يكون الاستعلام الفعلي الخاص بالمخزون علي مستوي "الإجمالي" الأعلى فقط ، ولكن قد ترغب في رؤية النتائج المجمعة استنادا إلى ابعاد المخزون.
 
-توفر امكانيه رؤية المخزون المرونة عن طريق السماح لك باعداد الفهارس ، التي تعتمد علي البعد أو مجموعه الابعاد.
+توفر امكانيه رؤية المخزون المرونة عن طريق السماح لك بإعداد الفهارس ، التي تعتمد علي البعد أو مجموعه الابعاد.
 
 > [!NOTE]
 > حاليا ، يمكنك فقط تكوين الفهارس بخمسه كحد اقصي. يجب مراعاه البعد أو مجموعه الابعاد التي ستستخدمها قبل التنفيذ للتاكد من انها ستفي باحتياجات أعمالك. علي سبيل المثال ، إذا كنت ترغب في الاستعلام عن المنتجات كالتالي:
@@ -328,7 +373,7 @@ ms.locfileid: "5821119"
 
 سيتم تجميع القوس الفارغ استنادا إلى "معرف المنتج" داخل القسم.
 
-تحدد الفهرسة كيفيه تجميع النتائج استنادا إلى اعداد الاستعلام `groupBy`. في هذه الحالة إذا لم تقم بتحديد أي قيم `groupBy`، سيتم الحصول علي الإجماليات بواسطة `productid`. وإلا، إذا قمت بتحديد `groupBy` كـ `groupBy=ColorId&groupBy=SizeId`، ستحصل على بنود متعددة يتم إرجاعها، استنادًا إلى مجموعتي اللون والحجم المختلفتين في النظام.
+تحدد الفهرسة كيفيه تجميع النتائج استنادا إلى إعداد الاستعلام `groupBy`. في هذه الحالة إذا لم تقم بتحديد أي قيم `groupBy`، سيتم الحصول علي الإجماليات بواسطة `productid`. وإلا، إذا قمت بتحديد `groupBy` كـ `groupBy=ColorId&groupBy=SizeId`، ستحصل على بنود متعددة يتم إرجاعها، استنادًا إلى مجموعتي اللون والحجم المختلفتين في النظام.
 
 يمكنك وضع معايير الاستعلام في النص الأساسي للطلب.
 
@@ -338,7 +383,7 @@ ms.locfileid: "5821119"
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ ms.locfileid: "5821119"
     "returnNegative": true
 }
 ```
+
+فيما يتعلق بالحقل `filters`، وحده `ProductId` يدعم القيم المتعددة. إذا كان `ProductId`مصفوفة فارغة، فسيتم الاستعلام عن كافة المنتجات.
 
 #### <a name="custom-measurement"></a>قياس مخصص
 
@@ -435,7 +482,7 @@ ms.locfileid: "5821119"
 ]
 ```
 
-يعتمد إخراج `MyCustomAvailableforReservation`علي اعداد الحساب في القياسات المخصصة كما يلي:  
+يعتمد إخراج `MyCustomAvailableforReservation`علي إعداد الحساب في القياسات المخصصة كما يلي:  
  *100 + 50 + 80 + 90 + 30 &ndash; 10 &ndash; 20 &ndash; 60 &ndash; 40 = 220*
 
 ### <a name="posting-on-hand-changes"></a>ترحيل التغييرات الفعلية
@@ -452,7 +499,7 @@ ms.locfileid: "5821119"
 
 #### <a name="posting-on-hand-changes-query-example-1"></a>ترحيل التغييرات الفعلية مثال الاستعلام 1
 
-يوضح هذا المثال السيناريو الذي ستقوم فيه باعداد تكوين البعد في Power Apps.
+يوضح هذا المثال السيناريو الذي ستقوم فيه بإعداد تكوين البعد في Power Apps.
 
 استخدم الاستعلام التالي لتكوين تعيين البعد في Power Apps:
 
@@ -489,7 +536,7 @@ ms.locfileid: "5821119"
 
 #### <a name="posting-on-hand-changes-query-example-2"></a>ترحيل التغييرات الفعلية مثال الاستعلام 2
 
-يوضح هذا المثال السيناريو الذي لا يتم فيه اعداد تعيينات لتكوين البعد في Power Apps، التالي يجب ان تستخدم الترحيل أيضا الابعاد الاساسيه. يجب ان تكون كافة الابعاد بابعاد أساسيه عندما يكون الحقل `dimensionDataSource` خاليا أو فارغا أو مسافة بيضاء.
+يوضح هذا المثال السيناريو الذي لا يتم فيه إعداد تعيينات لتكوين البعد في Power Apps، التالي يجب ان تستخدم الترحيل أيضا الابعاد الاساسيه. يجب ان تكون كافة الابعاد بابعاد أساسيه عندما يكون الحقل `dimensionDataSource` خاليا أو فارغا أو مسافة بيضاء.
 
 ```json
 {
@@ -533,7 +580,7 @@ ms.locfileid: "5821119"
 
 #### <a name="current-on-hand-query-example-1"></a>مثال علي الاستعلام الفعلي حاليا 1
 
-يوضح هذا المثال السيناريو الذي ستقوم فيه باعداد تكوين البعد في Power Apps.
+يوضح هذا المثال السيناريو الذي ستقوم فيه بإعداد تكوين البعد في Power Apps.
 
 استخدم الاستعلام التالي لتكوين تعيين البعد في Power Apps:
 
@@ -568,7 +615,7 @@ ms.locfileid: "5821119"
 
 #### <a name="current-on-hand-query-example-2"></a>مثال علي الاستعلام الفعلي حاليا 2
 
-يوضح هذا المثال السيناريو الذي لا يتم فيه اعداد تعيينات لتكوين البعد في Power Apps، التالي يجب ان تستخدم الترحيل أيضا الابعاد الاساسيه. يجب ان تكون كافة الابعاد بابعاد أساسيه عندما يكون الحقل `dimensionDataSource`، ضمن `filters` خاليا أو فارغا أو مسافة بيضاء.
+يوضح هذا المثال السيناريو الذي لا يتم فيه إعداد تعيينات لتكوين البعد في Power Apps، التالي يجب ان تستخدم الترحيل أيضا الابعاد الاساسيه. يجب ان تكون كافة الابعاد بابعاد أساسيه عندما يكون الحقل `dimensionDataSource`، ضمن `filters` خاليا أو فارغا أو مسافة بيضاء.
 
 ```json
 {

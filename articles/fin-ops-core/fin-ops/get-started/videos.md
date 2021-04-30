@@ -2,7 +2,7 @@
 title: مقاطع فيديو
 description: تسرد هذه الصفحة مقاطع الفيديو "الإرشادية" والأحاديث التقنية المتعلقة بتطبيقات Finance and Operations التي أنشأتها Microsoft والمتوفرة على YouTube ومواقع أخرى.
 author: sericks007
-ms.date: 02/11/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754694"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881726"
 ---
 # <a name="videos"></a>ملفات الفيديو 
 
@@ -84,6 +84,9 @@ ms.locfileid: "5754694"
 
 ## <a name="videos-for-dynamics-365-finance"></a>فيديوهات لـ Dynamics 365 Finance
 
+### <a name="business-document-management"></a>إدارة مستندات الأعمال
+- [إنشاء مستند عمل جديد باستخدام إدارة مستندات الأعمال](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>تخصيص التطبيق
 - [إضافة حقول مخصصة](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [تضمين Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -112,6 +115,9 @@ ms.locfileid: "5754694"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>فيديوهات لـ Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>إدارة مستندات الأعمال
+- [إنشاء مستند عمل جديد باستخدام إدارة مستندات الأعمال](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>تكاليف
 - [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)

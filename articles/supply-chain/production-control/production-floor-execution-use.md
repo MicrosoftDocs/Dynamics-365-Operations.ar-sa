@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814646"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907707"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬
 
@@ -136,9 +136,9 @@ ms.locfileid: "5814646"
 
 ## <a name="working-on-indirect-activities"></a>العمل على الأنشطة غير المباشرة
 
-الأنشطة غير المباشرة هي أنشطة لا تتعلق مباشرة بأمر الإنتاج. يمكن تحديد الأنشطة غير المباشرة بشكل مرن، كما هو موضح في [إعداد الأنشطة المباشرة للوقت والحضور](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+الأنشطة غير المباشرة هي أنشطة لا تتعلق مباشرة بأمر الإنتاج. يمكن تحديد الأنشطة غير المباشرة بشكل مرن، كما هو موضح في [إعداد الأنشطة المباشرة للوقت والحضور](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
-على سبيل المثال، يرغب شانون، عامل صالة في Contoso، في حضور اجتماع شركة، ويتم اعتبار الاجتماعات نشاط غير مباشر. يُطبق أحد السيناريوهين التاليين:
+على سبيل المثال، يرغب شانون، عامل صالة في Contoso، في حضور اجتماع شركة، ويتم اعتبار الاجتماعات كنشاط غير مباشر. يُطبق أحد السيناريوهين التاليين:
 
 - **تعمل شانون يعمل في واحدة أو أكثر من الوظائف النشطة.** تحدد شانون **نشاط**، وتُحدد النشاط (الاجتماع) وتؤكد تحديدها. تظهر رسالة لإعلامها بأن الوظائف الخاصة بها قيد التقدم. من الرسالة، يمكن لشانون أن تختار إكمال أو إيقاف الوظائف التي تعمل عليها قبل الانتقال إلى الاجتماع.
 - **ليس لدى شانون أية وظائف نشطة.** تحدد شانون **نشاط**، وتُحدد النشاط (الاجتماع) وتؤكد تحديدها. ويتم تسجيلها الآن على أنها في الاجتماع.

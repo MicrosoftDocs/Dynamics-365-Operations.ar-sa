@@ -2,11 +2,11 @@
 title: الصفحة الرئيسية لتأجير الأصل
 description: يقدم هذا الموضوع نظرة عامة حول وثائق تأجير الأصول والارتباطات إلى موضوعات محددة.
 author: moaamer
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 532601d08d52e9edaf97253df4efd2fc10985dc0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 202a353929fbcd8d81593db155d7bfeebb8f3021
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816138"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898100"
 ---
 # <a name="asset-leasing-home-page"></a>الصفحة الرئيسية لتأجير الأصل
 
@@ -28,7 +28,9 @@ ms.locfileid: "5816138"
 
 يسرد هذا الموضوع مواضيع التعليمات المتوفرة لتأجير الأصول، ويتضمن ارتباطات لمواضيع معينة. 
 
-تأجير الأصول عبارة عن إمكانية متقدمة لإدارة الحركات المالية للأصول المؤجرة وتعقبها وأتمتتها في Microsoft Dynamics 365 Finance. تتوافق وحدة تأجير الأصول مع معايير المحاسبة العالمية (IFRS 16) ومعايير US GAAP‏ (ASC 842). تقوم تأجير الأصول بالتقاط معلومات الإيجار وتعالجها وتساعد في إنشاء إدخالات دفتر اليومية عبر دورة حياة الإيجار من الإقرار الأولي وإدخالات دفتر اليومية الشهرية وصولاً إلى إهلاك الإيجار وإنهائه.  
+تأجير الأصول عبارة عن إمكانية متقدمة لإدارة الحركات المالية للأصول المؤجرة وتعقبها وأتمتتها في Microsoft Dynamics 365 Finance. تتوافق وحدة تأجير الأصول مع معايير المحاسبة العالمية (IFRS 16) ومعايير US GAAP‏ (ASC 842). تقوم تأجير الأصول بالتقاط معلومات الإيجار وتعالجها وتساعد في إنشاء إدخالات دفتر اليومية عبر دورة حياة الإيجار من الإقرار الأولي وإدخالات دفتر اليومية الشهرية وصولاً إلى إهلاك الإيجار وإنهائه.
+
+قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام مساحة عمل **إدارة الميزات** للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، ابحث عن الميزة المسماة **تأجير الأصول** وحددها، ثم حدد **التمكين الآن**.
 
 ## <a name="asset-leasing-topics"></a>مواضيع تأجير الأصول
 يتوفر الموضوع التالي للمساعدة في تكوين تأجير الأصول واستخدامها. 
@@ -82,7 +84,7 @@ ms.locfileid: "5816138"
 
 ### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [خطط إصدار Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
+انتقل إلى [خطط إصدار Microsoft Dynamics 365](/dynamics365/release-plans/) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
 
 ### <a name="blogs"></a>المدونات
 

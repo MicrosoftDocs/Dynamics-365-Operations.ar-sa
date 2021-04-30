@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743497"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893242"
 ---
 # <a name="expense-management-power-bi-content"></a>محتوى إدارة المصروفات في Power BI
 
@@ -41,7 +41,7 @@ ms.locfileid: "5743497"
 تظهر جميع المبالغ بعملة الشركة. وتظهر بيانات جميع الشركات، ولكن يمكنك إضافة عامل تصفية الشركة، إذا لزم الأمر. 
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-يمكنك العثور على Expense Admin Dashboard.pbix وExpense Personal Dashboard.pbix في محتوى Power BI في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft وشركائك](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+يمكنك العثور على Expense Admin Dashboard.pbix وExpense Personal Dashboard.pbix في محتوى Power BI في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft وشركائك](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 ويتوفر المحتوى من مساحة عمل "إدارة المصروفات" كمحتوى Power Bi مضمن. بإمكان مالك المصروفات أن يصل إلى مصروفاته الشخصية، بينما يتوفر لموظفي ومدراء الحسابات الدائنة فقط حق الوصول إلى محتوى الإدارة لعرض بيانات المصروفات الخاصة بجميع المستخدمين.
 
 ## <a name="refreshing-the-power-bi-content"></a>تحديث محتوى Power BI

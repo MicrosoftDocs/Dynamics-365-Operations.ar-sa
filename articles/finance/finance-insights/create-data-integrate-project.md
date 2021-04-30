@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2335721cfe8fd7ff3f76e3c7ca2560a56d45d583
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
+ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818670"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867437"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>إنشاء مشروع موحد البيانات (معاينة)
 
@@ -59,6 +59,7 @@ ms.locfileid: "5818670"
     1. إنشاء مشاريع تكامل البيانات للقوالب التالية باستخدام مجموعة الاتصال التي قمت بإنشائها:
 
         - نتائج معلومات الدفع الخاصة بالعميل (CDS لـ Fin وOps)
+            - إذا كنت تستخدم الإصدار 10.0.17 أو إصدار أحدث، ستحتاج إلى استخدام القالب المسمى، نتيجة الرؤى لمدفوعات العميل (CDS إلى Fin and Ops 10.0.17+).
         - نتائج السلسلة الزمنية للتدفق النقدي (CDS لـ Fin وOps)
         - نتائج السلسلة الزمنية للموازنة (CDS لـ Fin وOps)
 

@@ -13,12 +13,12 @@ ms.search.region: Saudi Arabia
 ms.author: v-oloski
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8a8dab1ad497024b2742d7aa69cb906ede596c5e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4f68ca761e44ef82ffdbd127d85f164e58c5418
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836871"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893831"
 ---
 # <a name="allocate-bank-document-charges-to-a-shipment"></a>تخصيص رسوم المستندات البنكية لشحنة
 
@@ -28,17 +28,17 @@ ms.locfileid: "5836871"
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل البدء في تخصيص مصاريف مستندات البنك، [قم باعداد تسهيلات البنك وملفات تعريف الترحيل لخطابات الاعتماد](../cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md)، ثم قم بإنشاء أمر شراء يحتوي علي [خطاب اعتماد مستورد](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/tasks/import-letter-credit).
+قبل البدء في تخصيص مصاريف مستندات البنك، [قم بإعداد تسهيلات البنك وملفات تعريف الترحيل لخطابات الاعتماد](../cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md)، ثم قم بإنشاء أمر شراء يحتوي علي [خطاب اعتماد مستورد](../cash-bank-management/tasks/import-letter-credit.md).
 
-## <a name="set-up-a-charge-code-for-bank-document-charges"></a>اعداد كود مصاريف لمصاريف مستندات البنك
+## <a name="set-up-a-charge-code-for-bank-document-charges"></a>إعداد كود مصاريف لمصاريف مستندات البنك
 
-اتبع هذه الخطوات لاعداد كود مصاريف لمصاريف مستندات البنك.
+اتبع هذه الخطوات لإعداد كود مصاريف لمصاريف مستندات البنك.
 
 1. انتقل إلى **الحسابات الدائنة** \> **إعداد** \> **إعداد المصاريف** \> **كود المصاريف**.
 2. في علامة التبويب السريعة **الترحيل**، في قسم **المدين**، في الحقل **النوع**، حدد **صنف**. يصبح خيار **كود مصاريف مستندات البنك** في قسم **رسوم المستندات البنكية** متاحا.
 3. قم بتعيين خيار **كود مصاريف مستندات البنك** إلى **نعم**. ويتم تلقائيا تعيين حقل **النوع** في قسم **الائتمان** ولا يمكن تحريره.
 
-![اعداد كود مصاريف لمصاريف مستندات البنك](media/apac-sau-bank-document-charge-setup.PNG)
+![إعداد كود مصاريف لمصاريف مستندات البنك](media/apac-sau-bank-document-charge-setup.PNG)
 
 ## <a name="allocate-bank-document-charges"></a>تخصيص رسوم المستندات البنكية
 

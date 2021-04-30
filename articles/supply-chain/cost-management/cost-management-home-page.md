@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839357"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908772"
 ---
 # <a name="cost-management-home-page"></a>الصفحة الرئيسية لإدارة التكلفة
 
@@ -43,7 +43,7 @@ ms.locfileid: "5839357"
 
 تسمح لك محاسبة التصنيع بالتعامل مع [تحديد تكلفة أمر الشغل](production-order-cost-analysis.md) في أوامر الإنتاج والأوامر الدفعية، بالإضافة إلى [تحديد تكاليف الإصدار التلقائي](backflush-costing.md) في Lean Manufacturing.
 
-يوفر [محتوى "إدارة التكلفة" في Power BI](../../dev-itpro/analytics/cost-management-content-pack.md) رؤية إدارية داخل المخزون ومخزون العمل قيد التقدم، وكيفية تدفق التكلفة من خلالهما حسب الفئة مع مرور الوقت. يمكن استخدام المعلومات أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
+يوفر [محتوى "إدارة التكلفة" في Power BI](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) رؤية إدارية داخل المخزون ومخزون العمل قيد التقدم، وكيفية تدفق التكلفة من خلالهما حسب الفئة مع مرور الوقت. يمكن استخدام المعلومات أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
 
 ### <a name="additional-resources"></a>الموارد الإضافية
 
@@ -57,7 +57,7 @@ ms.locfileid: "5839357"
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار وغيرها من المعلومات حول إدارة التكلفة في [مدونة فريق بحث وتطوير Dynamics AX Manufacturing R&D](https://blogs.msdn.microsoft.com/axmfg) وفي [إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق من إدارة التكلفة، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
+يمكنك العثور على آراء وأخبار وغيرها من المعلومات حول إدارة التكلفة في [مدونة فريق بحث وتطوير Dynamics AX Manufacturing R&D](/archive/blogs/axmfg/) وفي [إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق من إدارة التكلفة، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
 
 #### <a name="task-guides"></a>دلائل المهام
 

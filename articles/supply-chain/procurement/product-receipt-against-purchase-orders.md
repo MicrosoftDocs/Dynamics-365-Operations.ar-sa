@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca52f4127b3ec80eab3ba5c3c239c36d01178c00
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 797c5ee7a731ace8134d016272700aa9d718cf75
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825460"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909170"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>إيصال استلام المنتجات في مقابل أوامر الشراء
 
@@ -62,7 +62,7 @@ ms.locfileid: "5825460"
 
 [اعتماد أوامر الشراء وتأكيدها](purchase-order-approval-confirmation.md)
 
-[نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
+[نظرة عامة على فواتير المورّدين](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

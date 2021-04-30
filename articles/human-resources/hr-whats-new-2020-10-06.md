@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 132d91c2a17fa5116d7aa6650e4ee807a03030bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8fe6d8a4ca42cd1f3c3b26a9c52f1a639170252c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802277"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894596"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (6 أكتوبر 2020)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5802277"
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources. لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
-لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>في هذا الإصدار
 
@@ -42,7 +42,7 @@ ms.locfileid: "5802277"
 
 | الميزة | خطة الإصدار | الوثائق |
 | --- | --- | --- |
-| نتيجة تحليلات إضافية في تقويمات الإجازة | [تقديم نتيجة تحليلات إضافية في طرق عرض تقويم الإجازات](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [عرض تقويم الفريق والشركة](hr-employee-self-service-calendar.md) |
+| نتيجة تحليلات إضافية في تقويمات الإجازة | [تقديم نتيجة تحليلات إضافية في طرق عرض تقويم الإجازات](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [عرض تقويم الفريق والشركة](hr-employee-self-service-calendar.md) |
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
 
@@ -70,9 +70,9 @@ ms.locfileid: "5802277"
 
 | الميزة | خطة الإصدار | الوثائق |
 | --- | --- | --- |
-| تطبيق Human Resources في Microsoft Teams | [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [تطبيق Human Resources في Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md) |
-| طلبات سير العمل المحسنة والموافقات | [تحسينات تجربة سير العمل للمؤسسة وإدارة العاملين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [خيار التكوين لقائمة وضع عناصر العمل المعينة لي](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| الكيانات الظاهرية في Dataverse لـ Human Resources | [توسيع Dynamics 365 Human Resources البيانات الأساسية في Dataverse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [تكوين كيانات Dataverse الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md) |
+| تطبيق Human Resources في Microsoft Teams | [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [تطبيق Human Resources في Teams](./hr-admin-teams-leave-app.md)<br>[إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md) |
+| طلبات سير العمل المحسنة والموافقات | [تحسينات تجربة سير العمل للمؤسسة وإدارة العاملين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [خيار التكوين لقائمة وضع عناصر العمل المعينة لي](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| الكيانات الظاهرية في Dataverse لـ Human Resources | [توسيع Dynamics 365 Human Resources البيانات الأساسية في Dataverse](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [تكوين كيانات Dataverse الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md) |
 
 ## <a name="coming-soon"></a>قريبًا
 
@@ -82,14 +82,14 @@ ms.locfileid: "5802277"
 
 - **أكواد سبب إدارة الميزات**: سيتم دمج أكواد سبب إدارة الميزات في وقت قريب مع أكواد السبب الموجودة في Human Resources. إذا قمت بإنشاء أكواد أسباب في إدارة الميزات تزيد عن 15 حرفًا، فيجب تغيير اسم كود السبب في نموذج **أكواد السبب** في إدارة الميزات بحيث تتكون من 15 حرفًا أو أقل. بعد تحديث الاسم، سيظهر كود السبب ضمن نموذج كود السبب في إدارة العاملين. سيتوفر هذا التغيير في المستقبل ولن يؤثر على الوظيفة الموجودة.
 
-- **ارتباطات مخصصة في الخدمة الذاتية للمدير**: لدعم المديرين، نقوم الآن بتوسيع القدرات في الخدمة الذاتية للمدير. نقوم بإضافة الإمكانية لإضافة ارتباطات مخصصة ضمن علامة التبويب **فريقي**. تشبه هذه الميزة ميزة الارتباطات المخصصة في **علامة التبويب المعلومات الخاصة بي** في الخدمة الذاتية للموظف. لمزيد من المعلومات، راجع [ارتباطات مخصصة في الخدمة الذاتية للمدير‬](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
+- **ارتباطات مخصصة في الخدمة الذاتية للمدير**: لدعم المديرين، نقوم الآن بتوسيع القدرات في الخدمة الذاتية للمدير. نقوم بإضافة الإمكانية لإضافة ارتباطات مخصصة ضمن علامة التبويب **فريقي**. تشبه هذه الميزة ميزة الارتباطات المخصصة في **علامة التبويب المعلومات الخاصة بي** في الخدمة الذاتية للموظف. لمزيد من المعلومات، راجع [ارتباطات مخصصة في الخدمة الذاتية للمدير‬](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 
-للحصول على قائمة كاملة بالميزات المخططة والإصدارات المجدولة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2019، الموجة 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
+للحصول على قائمة كاملة بالميزات المخططة والإصدارات المجدولة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2019، الموجة 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الميزات الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
 

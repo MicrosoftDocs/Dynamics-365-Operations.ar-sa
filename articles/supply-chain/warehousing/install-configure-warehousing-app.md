@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835548"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909369"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>تثبيت تطبيق المستودع وتوصيله
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835548"
 > يوضح هذا الموضوع كيفيه تكوين تطبيق المستودع القديم (الذي تم إهماله الآن). إذا كنت تبحث عن معلومات حول كيفية تكوين تطبيق الأجهزة المحمولة الخاص بإدارة المستودع، راجع [تثبيت تطبيق الأجهزة المحمولة لإدارة المستودعات والاتصال به](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> يوضح هذا الموضوع كيفية تكوين تطبيق المستودع لعمليات توزيع المجموعة. إذا كنت تبحث عن معلومات حول كيفية تكوين تطبيق مستودع لعمليات التوزيع المحلي، فراجع [التخزين لعمليات التوزيع المحلية](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> يوضح هذا الموضوع كيفية تكوين تطبيق المستودع لعمليات توزيع المجموعة. إذا كنت تبحث عن معلومات حول كيفية تكوين تطبيق مستودع لعمليات التوزيع المحلي، فراجع [التخزين لعمليات التوزيع المحلية](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 يتوفر تطبيق المستودع من متجر Google Play وMicrosoft Store. ويتم توفيره كمكون مستقل. بالتالي، يجب تنزيله على كل جهاز ثم تكوينه للاتصال ببيئة Microsoft Dynamics 365 Supply Chain Management الخاصة بك.
 
@@ -54,7 +54,7 @@ ms.locfileid: "5835548"
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Warehousing على Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 على Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-مع عمليات التوزيع الأصغر، قد ترغب في تثبيت التطبيق من المتجر المناسب على كل جهاز ثم تكوين الاتصال يدويًا بالبيئات التي تستخدمها. مع ذلك، في الإصدار 1.7.0.0 والإصدارات الأحدث من تطبيق المستودع، يمكنك أيضًا أتمتة نشر التطبيق و/أو تكوينه. قد تكون هذه الطريقة ملائمة إذا كنت تدير العديد من الأجهزة، وكنت تستخدم إدارة الأجهزة المحمولة وحل إدارة تطبيقات الأجهزة المحمولة مثل [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). للحصول على معلومات حول كيفية استخدام Intune لإضافة التطبيقات، راجع [إضافة تطبيقات إلى Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+مع عمليات التوزيع الأصغر، قد ترغب في تثبيت التطبيق من المتجر المناسب على كل جهاز ثم تكوين الاتصال يدويًا بالبيئات التي تستخدمها. مع ذلك، في الإصدار 1.7.0.0 والإصدارات الأحدث من تطبيق المستودع، يمكنك أيضًا أتمتة نشر التطبيق و/أو تكوينه. قد تكون هذه الطريقة ملائمة إذا كنت تدير العديد من الأجهزة، وكنت تستخدم إدارة الأجهزة المحمولة وحل إدارة تطبيقات الأجهزة المحمولة مثل [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). للحصول على معلومات حول كيفية استخدام Intune لإضافة التطبيقات، راجع [إضافة تطبيقات إلى Microsoft Intune](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>إنشاء تطبيق خدمة ويب في Azure Active Directory
 
@@ -89,11 +89,11 @@ ms.locfileid: "5835548"
 
 لمزيد من المعلومات حول كيفية إعداد تطبيقات خدمة الويب في Azure AD، راجع الموارد التالية:
 
-- للحصول على إرشادات تُظهر كيفية استخدام Windows PowerShell لإعداد تطبيقات خدمة الويب في Azure AD، راجع [كيفية: استخدام Azure PowerShell لإنشاء مسؤول خدمة باستخدام شهادة](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- للحصول على إرشادات تُظهر كيفية استخدام Windows PowerShell لإعداد تطبيقات خدمة الويب في Azure AD، راجع [كيفية: استخدام Azure PowerShell لإنشاء مسؤول خدمة باستخدام شهادة](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - للحصول على التفاصيل الكاملة حول كيفية إنشاء تطبيق خدمة ويب يدويًا في Azure AD، راجع الموضوعات التالية:
 
-    - [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهوية Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [كيفية: استخدم المدخل لإنشاء تطبيق Azure AD ومدير خدمة يمكنه الوصول إلى الموارد](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهوية Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [كيفية: استخدم المدخل لإنشاء تطبيق Azure AD ومدير خدمة يمكنه الوصول إلى الموارد](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>إنشاء وتكوين حساب مستخدم في Supply Chain Management
 
@@ -121,7 +121,7 @@ ms.locfileid: "5835548"
 
 يمكن استخدام الشهادات كأسرار لإثبات هوية التطبيق عند طلب رمز مميز. يتم تحميل الجزء العام من الشهادة إلى تسجيل التطبيق في مدخل Azure، بينما يجب أن يتم نشر الشهادة الكاملة على كل جهاز يتم فيه تثبيت تطبيق المستودع. تتحمل مؤسستك المسؤولية عن إدارة الشهادة فيما يتعلق بالتدوير وغيرها. يمكنك استخدام شهادات موقعة ذاتيًا، ولكن يجب دائمًا استخدام الشهادات غير القابلة للتصدير.
 
-يجب أن تجعل الشهادة متاحة محليًا على كل جهاز يتم فيه تشغيل التطبيق المستودع. لمزيد من المعلومات حول كيفية إدارة الشهادات في الأجهزة المتحكم فيها بواسطة Intune إذا كنت تستخدم Intune، فراجع [استخدام الشهادات للمصادقة في Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+يجب أن تجعل الشهادة متاحة محليًا على كل جهاز يتم فيه تشغيل التطبيق المستودع. لمزيد من المعلومات حول كيفية إدارة الشهادات في الأجهزة المتحكم فيها بواسطة Intune إذا كنت تستخدم Intune، فراجع [استخدام الشهادات للمصادقة في Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>تكوين التطبيق عن طريق استيراد إعدادات الاتصال
 

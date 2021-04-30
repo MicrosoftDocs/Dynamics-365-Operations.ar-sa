@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22a372ad4bfcae4a1d66635921a680cdb04cc2f0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1231c942e2ab3dd6b48655ac8c6e24c87165c009
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840835"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908533"
 ---
 # <a name="manage-vendor-collaboration-users"></a>إدارة مستخدمي تعاون المورد‬
 
@@ -62,7 +62,7 @@ ms.locfileid: "5840835"
 4. في المقطع **تعيين أدوار المستخدم**، حدد خانة الاختيار **بتعيين** لأدوار الأمان التي يجب أن تكون لدى المستخدم الجديد.
 5. انقر فوق **تقديم**.
 
-عند إرسال طلب مستخدم مورد، يتم تعيين الحقل **السماح بالوصول إلى تعاون المورد** إلى **نعم** لحساب المورد المحدد ويبدأ تشغيل سير عمل طلب المستخدم. كجزء من سير العمل، يتم إنشاء مستخدم جديد، ويتم تعيين أدوار الأمان. علاوةً على ذلك، يتم تنشيط خدمة Azure B2B التي تبدأ التفاعل مع مدخل Azure وتقوم بإقران حساب AAD جديد أو موجود بحساب مستخدم Supply Chain Management. للحصول على مزيد من المعلومات، راجع [ما هو تعاون Azure AD B2B?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+عند إرسال طلب مستخدم مورد، يتم تعيين الحقل **السماح بالوصول إلى تعاون المورد** إلى **نعم** لحساب المورد المحدد ويبدأ تشغيل سير عمل طلب المستخدم. كجزء من سير العمل، يتم إنشاء مستخدم جديد، ويتم تعيين أدوار الأمان. علاوةً على ذلك، يتم تنشيط خدمة Azure B2B التي تبدأ التفاعل مع مدخل Azure وتقوم بإقران حساب AAD جديد أو موجود بحساب مستخدم Supply Chain Management. للحصول على مزيد من المعلومات، راجع [ما هو تعاون Azure AD B2B?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>إلغاء تنشيط مستخدم
 

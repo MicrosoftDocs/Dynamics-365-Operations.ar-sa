@@ -2,7 +2,7 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836903"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898277"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -31,7 +31,20 @@ ms.locfileid: "5836903"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 > [!NOTE]
-> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.20 من Finance
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>تكوين تنسيق طلب بيانات فاتورة الاستعلام RTIR
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | مستثنى من معالجه المراسلة الإلكترونية للتشغيل المتبادل مع نظام الفوترة المجري عبر الإنترنت |
+| **هل تم الاستبدال بميزة أخرى؟**   | لا |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | ميزة مهملة: بحلول 15 أبريل 2022، نخطط لوقف دعم تكوين تنسيق "طلب بيانات فاتورة الاستعلام RTIR‬. |
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.17 من Finance
 

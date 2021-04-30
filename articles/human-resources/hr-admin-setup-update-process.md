@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791523"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892265"
 ---
 # <a name="update-process"></a>تحديث العملية
 
@@ -39,7 +39,7 @@ ms.locfileid: "5791523"
 
 يتم تطبيق تحديثات Human Resources على كافة البيئات تلقائيًا. يوفر Human Resources نوعين من الإصدارات:
 
-- **تحديثات الخدمة**: تتم التحديثات كل أسبوعين وتشمل إصلاحات الأخطاء والميزات الجديدة. وتتضمن تحديثات الخدمة أيضًا تحديثا النظام الأساسي المطبقة عند إصدارها. للحصول على فكرة عن وقت إصدار تحديثات النظام الأساسي، راجع [الجدول 3: إصدارات النظام الأساسي](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). تحتوي التحديثات كل أسبوعين على عملية تمهيدية عامة مقسمة عبر مناطق. لمزيد من المعلومات حول التحديثات كل أسبوعين، راجع [راجع ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **تحديثات الخدمة**: تتم التحديثات كل أسبوعين وتشمل إصلاحات الأخطاء والميزات الجديدة. وتتضمن تحديثات الخدمة أيضًا تحديثا النظام الأساسي المطبقة عند إصدارها. للحصول على فكرة عن وقت إصدار تحديثات النظام الأساسي، راجع [الجدول 3: إصدارات النظام الأساسي](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). تحتوي التحديثات كل أسبوعين على عملية تمهيدية عامة مقسمة عبر مناطق. لمزيد من المعلومات حول التحديثات كل أسبوعين، راجع [راجع ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     يتم تحديث كافة مراكز بيانات المدعومة كل أسبوعين، ما لم يرد خلاف ذلك. يتم تضمين مناطق الولايات المتحدة الأمريكية وأوروبا والمملكة المتحدة وآسيا وكندا في التحديثات كل أسبوعين. 
 
@@ -71,11 +71,11 @@ ms.locfileid: "5791523"
 
 - [مخطط Dynamics 365 Human Resources ](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [خطط إصدار Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
+- [خطط إصدار Dynamics 365](/dynamics365/release-plans/)
 
 - [ما الجديد أو المتغير‬ في Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [البحث عن المشاكل في Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (لإصلاح الأخطاء المتعلقة بالنظام الأساسي فقط)
+- [البحث عن المشاكل في Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (لإصلاح الأخطاء المتعلقة بالنظام الأساسي فقط)
 
 - [مدونة Human Resources](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ ms.locfileid: "5791523"
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>ميزات المعاينة في بيئة الحماية
 
-يُمكنك التحقق من صحة ميزات المعاينة في بيئة الحماية قبل تمكينها في بيئة الإنتاج الخاصة بك. لمزيد من المعلومات حول تمكين الميزات، راجع [نظرة عامة على إدارة الميزات](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+يُمكنك التحقق من صحة ميزات المعاينة في بيئة الحماية قبل تمكينها في بيئة الإنتاج الخاصة بك. لمزيد من المعلومات حول تمكين الميزات، راجع [نظرة عامة على إدارة الميزات](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 تبقي كافة الميزات الجديدة في معاينه لمده 30 يوما على الأقل، وبشكل نموذجي 30-60 يوما. تتوفر الميزات الرئيسية بشكل عام في أكتوبر و ابريل من كل عام يتبع فتره المعاينة. بمجرد ان تشاهد إمكانيات جديده في مساحة عمل إدارة الميزات، يمكنك تشغيلها. قد تكون بعض الميزات قيد التشغيل بشكل افتراضي.
 
@@ -101,9 +101,9 @@ ms.locfileid: "5791523"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[خطط إصدار Dynamics 365 و Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[خطط إصدار Dynamics 365 و Power Platform](/dynamics365/release-plans)</br>
 [ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
-[سياسة دورة حياة البرامج](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[سياسة دورة حياة البرامج](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801157"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889946"
 ---
 # <a name="configure-integration-with-finance"></a>تكوين التكامل مع Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801157"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-لاجراء تكامل Dynamics 365 Human Resources مع Dynamics 365 Finance، يمكنك استخدام Human Resources في قالب Finance في [مكامل بيانات ](https://docs.microsoft.com/powerapps/administrator/data-integrator). تتيح Human Resources لقالب Finance تدفق البيانات للوظائف والمناصب والعاملين. يسمح القالب بتدفق البيانات من Human Resources إلى Finance، لكنه لا يسمح بتدفق البيانات من Finance إلى Human Resources.
+لاجراء تكامل Dynamics 365 Human Resources مع Dynamics 365 Finance، يمكنك استخدام Human Resources في قالب Finance في [مكامل بيانات ](/powerapps/administrator/data-integrator). تتيح Human Resources لقالب Finance تدفق البيانات للوظائف والمناصب والعاملين. يسمح القالب بتدفق البيانات من Human Resources إلى Finance، لكنه لا يسمح بتدفق البيانات من Finance إلى Human Resources.
 
 ![تدفق تكامل Human Resources إلى Finance](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ ms.locfileid: "5801157"
 
 قد تحدث هذه المشكلة لدى **العامل**، الذي يستخدم **رقم الموظف** لإجراء المطابقة، و **المناصب**. لا تستخدم الوظائف التسلسلات الرقمية. ونتيجة لذلك، إذا كان نفس مُعرف الوظيفة موجودًا في كل من Human Resources و Finance، تقوم معلومات Human Resources باستبدال معلومات Dynamics 365 Finance. 
 
-لمنع حدوث مشكلات مع مُعرفات مُكررة، يُمكنك إما إضافة بادئة على [تسلسل الرقم](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json)، أو تعيين رقم بداية على التسلسل الرقمي الموجود خارج نطاق النظام الآخر. 
+لمنع حدوث مشكلات مع مُعرفات مُكررة، يُمكنك إما إضافة بادئة على [تسلسل الرقم](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)، أو تعيين رقم بداية على التسلسل الرقمي الموجود خارج نطاق النظام الآخر. 
 
 لا يُمثل مُعرف الموقع المستخدم لعنوان العامل جزءًا من تسلسل رقمي. عند تكامل عنوان عامل من Human Resources إلى Finance، إذا كان عنوان العامل موجودًا بالفعل في Finance، فمن ثم يجوز إنشاء سجل عنوان مكرر. 
 
