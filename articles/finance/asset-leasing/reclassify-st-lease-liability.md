@@ -2,11 +2,11 @@
 title: إعادة تصنيف الجزء قصير الأجل من التزامات الإيجار
 description: يوضح هذا الموضوع كيفية إنشاء إدخال دفتر يومية شهريًا لإعادة تصنيف جزء من التزامات الإيجار على أنه قصير أجل.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,28 +15,28 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7d98d66b5fe9d32a86eb75d937fedfdca6773ac4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ae5aebab507479775626579e8b08d68001326a06
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823085"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881556"
 ---
-# <a name="reclassify-the-short-term-portion-of-lease-liability"></a><span data-ttu-id="d4ef5-103">إعادة تصنيف الجزء قصير الأجل من التزامات الإيجار</span><span class="sxs-lookup"><span data-stu-id="d4ef5-103">Reclassify the short-term portion of lease liability</span></span>
+# <a name="reclassify-the-short-term-portion-of-lease-liability"></a><span data-ttu-id="3b87f-103">إعادة تصنيف الجزء قصير الأجل من التزامات الإيجار</span><span class="sxs-lookup"><span data-stu-id="3b87f-103">Reclassify the short-term portion of lease liability</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d4ef5-104">يوضح هذا الموضوع كيفية إنشاء إدخال دفتر يومية شهريًا لإعادة تصنيف جزء من التزامات الإيجار على أنه قصير أجل.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-104">This topic explains how to create a monthly journal entry to reclassify a portion of the lease liability as short-term.</span></span> <span data-ttu-id="d4ef5-105">عندما يكون الجدول الذي يتم تحديده في معالجة الدُفعة عبارة عن **إعادة تصنيف التزامات الإيجار قصيرة الأجل**، فإنه يتم إنشاء إدخال دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-105">When the schedule that is selected in the batch process is **Short-term lease liability reclass**, a journal entry is created.</span></span> <span data-ttu-id="d4ef5-106">يستخدم هذا الإدخال لترحيل الجزء الحالي من التزام الإيجار في اليوم الأخير من الشهر.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-106">This entry is used to post the current portion of the lease liability on the last day of the month.</span></span> <span data-ttu-id="d4ef5-107">وفي نفس الوقت، يتم ترحيل إدخال الإلغاء اعتبارًا من اليوم الأول من الشهر التالي.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-107">At the same time, a reversal entry is posted as of the first day of the next month.</span></span>
+<span data-ttu-id="3b87f-104">يوضح هذا الموضوع كيفية إنشاء إدخال دفتر يومية شهريًا لإعادة تصنيف جزء من التزامات الإيجار على أنه قصير أجل.</span><span class="sxs-lookup"><span data-stu-id="3b87f-104">This topic explains how to create a monthly journal entry to reclassify a portion of the lease liability as short-term.</span></span> <span data-ttu-id="3b87f-105">عندما يكون الجدول الذي يتم تحديده في معالجة الدُفعة عبارة عن **إعادة تصنيف التزامات الإيجار قصيرة الأجل**، فإنه يتم إنشاء إدخال دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="3b87f-105">When the schedule that is selected in the batch process is **Short-term lease liability reclass**, a journal entry is created.</span></span> <span data-ttu-id="3b87f-106">يستخدم هذا الإدخال لترحيل الجزء الحالي من التزام الإيجار في اليوم الأخير من الشهر.</span><span class="sxs-lookup"><span data-stu-id="3b87f-106">This entry is used to post the current portion of the lease liability on the last day of the month.</span></span> <span data-ttu-id="3b87f-107">وفي نفس الوقت، يتم ترحيل إدخال الإلغاء اعتبارًا من اليوم الأول من الشهر التالي.</span><span class="sxs-lookup"><span data-stu-id="3b87f-107">At the same time, a reversal entry is posted as of the first day of the next month.</span></span>
 
-<span data-ttu-id="d4ef5-108">يتم عرض الجزء الخاص بالفترة القصيرة من التزامات الإيجار في جدول إهلاك الالتزام.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-108">The short-term portion of the lease liability is shown on the liability amortization schedule.</span></span> <span data-ttu-id="d4ef5-109">عند ترحيل إدخال دفتر اليومية، يصبح العمود **إعادة تصنيف الالتزام لدفتر اليومية الذي تم إنشاءه** متاحًا، ويتم أيضًا ملء معرف دفتر اليومية بالجدول.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-109">When the journal entry is posted, the **Liability reclass journal created** column becomes available, and the journal ID is also filled in on the schedule.</span></span>
+<span data-ttu-id="3b87f-108">يتم عرض الجزء الخاص بالفترة القصيرة من التزامات الإيجار في جدول إهلاك الالتزام.</span><span class="sxs-lookup"><span data-stu-id="3b87f-108">The short-term portion of the lease liability is shown on the liability amortization schedule.</span></span> <span data-ttu-id="3b87f-109">عند ترحيل إدخال دفتر اليومية، يصبح العمود **إعادة تصنيف الالتزام لدفتر اليومية الذي تم إنشاءه** متاحًا، ويتم أيضًا ملء معرف دفتر اليومية بالجدول.</span><span class="sxs-lookup"><span data-stu-id="3b87f-109">When the journal entry is posted, the **Liability reclass journal created** column becomes available, and the journal ID is also filled in on the schedule.</span></span>
 
-<span data-ttu-id="d4ef5-110">لإنشاء إدخال دفتر اليومية الخاص بإدخال دفتر يومية إعادة التصنيف للالتزام قصير الأجل وترحيله، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-110">To create and post the short-term liability reclassification journal entry, follow these steps.</span></span>
+<span data-ttu-id="3b87f-110">لإنشاء إدخال دفتر اليومية الخاص بإدخال دفتر يومية إعادة التصنيف للالتزام قصير الأجل وترحيله، اتبع الخطوات التالية.</span><span class="sxs-lookup"><span data-stu-id="3b87f-110">To create and post the short-term liability reclassification journal entry, follow these steps.</span></span>
 
-1. <span data-ttu-id="d4ef5-111">انتقل إلى **تأجير الأصول \> دوري \> إنشاء دفتر يومية الدُفعة**.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-111">Go to **Asset leasing \> Periodic \> Batch journal creation**.</span></span>
-2. <span data-ttu-id="d4ef5-112">في مربع الحوار **إنشاء دفتر يومية الدُفعة**، في الحقل **تحديد جدول**، حدد **إعادة تصنيف التزام الإيجار قصير الأجل**.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-112">In the **Batch journal creation** dialog box, in the **Select schedule** field, select **Short-term lease liability reclass**.</span></span>
-3. <span data-ttu-id="d4ef5-113">في الحقل **مجموعة الإيجار**، حدد مجموعة إيجار.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-113">In the **Lease group** field, select a lease group.</span></span> <span data-ttu-id="d4ef5-114">أو بدلاً من ذلك، في الحقل **معرف الدفتر**، حدد معرف الدفتر.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-114">Alternatively, in the **Book ID** field, select the book ID.</span></span>
-4. <span data-ttu-id="d4ef5-115">قم بتشغيل المعلمة **ترحيل**.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-115">Turn on the **Post** parameter.</span></span> <span data-ttu-id="d4ef5-116">وبدلاً من ذلك، إذا كان من الضروري إنشاء الإدخال ولكن لم يتم ترحيله، قم بإيقاف تشغيل هذه المعلمة.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-116">Alternatively, if the entry should be created but not posted, leave this parameter turned off.</span></span>
-5. <span data-ttu-id="d4ef5-117">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="d4ef5-117">Select **OK**.</span></span>
+1. <span data-ttu-id="3b87f-111">انتقل إلى **تأجير الأصول \> دوري \> إنشاء دفتر يومية الدُفعة**.</span><span class="sxs-lookup"><span data-stu-id="3b87f-111">Go to **Asset leasing \> Periodic \> Batch journal creation**.</span></span>
+2. <span data-ttu-id="3b87f-112">في مربع الحوار **إنشاء دفتر يومية الدُفعة**، في الحقل **تحديد جدول**، حدد **إعادة تصنيف التزام الإيجار قصير الأجل**.</span><span class="sxs-lookup"><span data-stu-id="3b87f-112">In the **Batch journal creation** dialog box, in the **Select schedule** field, select **Short-term lease liability reclass**.</span></span>
+3. <span data-ttu-id="3b87f-113">في الحقل **مجموعة الإيجار**، حدد مجموعة إيجار.</span><span class="sxs-lookup"><span data-stu-id="3b87f-113">In the **Lease group** field, select a lease group.</span></span> <span data-ttu-id="3b87f-114">أو بدلاً من ذلك، في الحقل **معرف الدفتر**، حدد معرف الدفتر.</span><span class="sxs-lookup"><span data-stu-id="3b87f-114">Alternatively, in the **Book ID** field, select the book ID.</span></span>
+4. <span data-ttu-id="3b87f-115">قم بتشغيل المعلمة **ترحيل**.</span><span class="sxs-lookup"><span data-stu-id="3b87f-115">Turn on the **Post** parameter.</span></span> <span data-ttu-id="3b87f-116">وبدلاً من ذلك، إذا كان من الضروري إنشاء الإدخال ولكن لم يتم ترحيله، قم بإيقاف تشغيل هذه المعلمة.</span><span class="sxs-lookup"><span data-stu-id="3b87f-116">Alternatively, if the entry should be created but not posted, leave this parameter turned off.</span></span>
+5. <span data-ttu-id="3b87f-117">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="3b87f-117">Select **OK**.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
