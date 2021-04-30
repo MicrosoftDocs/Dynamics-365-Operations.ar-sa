@@ -16,66 +16,66 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0a8c39977dacd78afc3bec977501abaf8081dc7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c6829f24b8efa29b39f5ed742d8ca99e09bcef01
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839333"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910343"
 ---
-# <a name="cost-objects"></a><span data-ttu-id="ea0bc-105">كائنات التكلفة</span><span class="sxs-lookup"><span data-stu-id="ea0bc-105">Cost objects</span></span>
+# <a name="cost-objects"></a><span data-ttu-id="ff0fe-105">كائنات التكلفة</span><span class="sxs-lookup"><span data-stu-id="ff0fe-105">Cost objects</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ea0bc-106">توفر هذه المقالة معلومات حول كائنات التكاليف وتشرح كيفية تراكم التكاليف والكميات.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-106">This article provides information about costs objects, and explains how costs and quantities are accumulated.</span></span> <span data-ttu-id="ea0bc-107">كائن التكلفة هو كيان تتراكم له التكاليف والكميات.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-107">A cost object is an entity that costs and quantities are accumulated for.</span></span> <span data-ttu-id="ea0bc-108">وبإمكان كائن التكلفة أن يكون عبارة عن منتج أو متغيرات منتج، كمتغيرات النمط واللون.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-108">A cost object entity can be either a product or product variants, such as variants for style and color.</span></span>  
+<span data-ttu-id="ff0fe-106">توفر هذه المقالة معلومات حول كائنات التكاليف وتشرح كيفية تراكم التكاليف والكميات.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-106">This article provides information about costs objects, and explains how costs and quantities are accumulated.</span></span> <span data-ttu-id="ff0fe-107">كائن التكلفة هو كيان تتراكم له التكاليف والكميات.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-107">A cost object is an entity that costs and quantities are accumulated for.</span></span> <span data-ttu-id="ff0fe-108">وبإمكان كائن التكلفة أن يكون عبارة عن منتج أو متغيرات منتج، كمتغيرات النمط واللون.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-108">A cost object entity can be either a product or product variants, such as variants for style and color.</span></span>  
 
-## <a name="cost-objects"></a><span data-ttu-id="ea0bc-109">كائنات التكلفة</span><span class="sxs-lookup"><span data-stu-id="ea0bc-109">Cost objects</span></span>
+## <a name="cost-objects"></a><span data-ttu-id="ff0fe-109">كائنات التكلفة</span><span class="sxs-lookup"><span data-stu-id="ff0fe-109">Cost objects</span></span>
 
-<span data-ttu-id="ea0bc-110">تسرد صفحة **كائنات التكلفة** كافة كائنات التكلفة التي تم تسجيلها في منتج.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-110">The **Cost objects** page lists all cost objects that are registered on a product.</span></span> <span data-ttu-id="ea0bc-111">ويتم تحديد كائنات التكلفة حسب البيانات من المصادر التالية:</span><span class="sxs-lookup"><span data-stu-id="ea0bc-111">The cost objects are defined by data from the following sources:</span></span>
+<span data-ttu-id="ff0fe-110">تسرد صفحة **كائنات التكلفة** كافة كائنات التكلفة التي تم تسجيلها في منتج.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-110">The **Cost objects** page lists all cost objects that are registered on a product.</span></span> <span data-ttu-id="ff0fe-111">ويتم تحديد كائنات التكلفة حسب البيانات من المصادر التالية:</span><span class="sxs-lookup"><span data-stu-id="ff0fe-111">The cost objects are defined by data from the following sources:</span></span>
 
--   <span data-ttu-id="ea0bc-112">منتج</span><span class="sxs-lookup"><span data-stu-id="ea0bc-112">Product</span></span>
--   <span data-ttu-id="ea0bc-113">مجموعة أبعاد المنتجات</span><span class="sxs-lookup"><span data-stu-id="ea0bc-113">Product dimension group</span></span>
--   <span data-ttu-id="ea0bc-114">مجموعة أبعاد التخزين</span><span class="sxs-lookup"><span data-stu-id="ea0bc-114">Storage dimension group</span></span>
--   <span data-ttu-id="ea0bc-115">مجموعة أبعاد التعقب</span><span class="sxs-lookup"><span data-stu-id="ea0bc-115">Tracking dimension group</span></span>
+-   <span data-ttu-id="ff0fe-112">منتج</span><span class="sxs-lookup"><span data-stu-id="ff0fe-112">Product</span></span>
+-   <span data-ttu-id="ff0fe-113">مجموعة أبعاد المنتجات</span><span class="sxs-lookup"><span data-stu-id="ff0fe-113">Product dimension group</span></span>
+-   <span data-ttu-id="ff0fe-114">مجموعة أبعاد التخزين</span><span class="sxs-lookup"><span data-stu-id="ff0fe-114">Storage dimension group</span></span>
+-   <span data-ttu-id="ff0fe-115">مجموعة أبعاد التعقب</span><span class="sxs-lookup"><span data-stu-id="ff0fe-115">Tracking dimension group</span></span>
 
-<span data-ttu-id="ea0bc-116">**ملاحظة:** يمثل كائن التكلفة عنصر تكلفة من نوع **المواد المباشرة** فقط.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-116">**Note:** A cost object represents a cost element of the **Direct material** type only.</span></span> <span data-ttu-id="ea0bc-117">يختلف كائن التكلفة وكائن المخزون في الطريقة حيث إن كائن التكلفة يتم تحديده حسب أبعاد المخزون التي تم تحديدها للمخزون المالي.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-117">A cost object and an inventory object differ in the way that a cost object is defined by the inventory dimensions that are selected for financial inventory.</span></span> <span data-ttu-id="ea0bc-118">على سبيل المثال، صنف يشتمل على التكوين التالي:</span><span class="sxs-lookup"><span data-stu-id="ea0bc-118">For example, an item has the following configuration:</span></span>
+<span data-ttu-id="ff0fe-116">**ملاحظة:** يمثل كائن التكلفة عنصر تكلفة من نوع **المواد المباشرة** فقط.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-116">**Note:** A cost object represents a cost element of the **Direct material** type only.</span></span> <span data-ttu-id="ff0fe-117">يختلف كائن التكلفة وكائن المخزون في الطريقة حيث إن كائن التكلفة يتم تحديده حسب أبعاد المخزون التي تم تحديدها للمخزون المالي.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-117">A cost object and an inventory object differ in the way that a cost object is defined by the inventory dimensions that are selected for financial inventory.</span></span> <span data-ttu-id="ff0fe-118">على سبيل المثال، صنف يشتمل على التكوين التالي:</span><span class="sxs-lookup"><span data-stu-id="ff0fe-118">For example, an item has the following configuration:</span></span>
 
--   <span data-ttu-id="ea0bc-119">**الموقع:** المخزون الفعلي = نعم، المخزون المالي = نعم</span><span class="sxs-lookup"><span data-stu-id="ea0bc-119">**Site:** Physical inventory = Yes, Financial inventory = Yes</span></span>
--   <span data-ttu-id="ea0bc-120">**المستودع:** المخزون الفعلي = نعم، المخزون المالي = لا</span><span class="sxs-lookup"><span data-stu-id="ea0bc-120">**Warehouse:** Physical inventory = Yes, Financial inventory = No</span></span>
--   <span data-ttu-id="ea0bc-121">**رقم الدُفعة:** المخزون الفعلي = نعم، المخزون المالي = لا</span><span class="sxs-lookup"><span data-stu-id="ea0bc-121">**Batch No.:** Physical inventory = Yes, Financial inventory = No</span></span>
+-   <span data-ttu-id="ff0fe-119">**الموقع:** المخزون الفعلي = نعم، المخزون المالي = نعم</span><span class="sxs-lookup"><span data-stu-id="ff0fe-119">**Site:** Physical inventory = Yes, Financial inventory = Yes</span></span>
+-   <span data-ttu-id="ff0fe-120">**المستودع:** المخزون الفعلي = نعم، المخزون المالي = لا</span><span class="sxs-lookup"><span data-stu-id="ff0fe-120">**Warehouse:** Physical inventory = Yes, Financial inventory = No</span></span>
+-   <span data-ttu-id="ff0fe-121">**رقم الدُفعة:** المخزون الفعلي = نعم، المخزون المالي = لا</span><span class="sxs-lookup"><span data-stu-id="ff0fe-121">**Batch No.:** Physical inventory = Yes, Financial inventory = No</span></span>
 
-<span data-ttu-id="ea0bc-122">يوضح الجدول التالي المقصود بكائن التكلفة والمقصود بكائن المخزون.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-122">The following table shows what is a cost object and what is an inventory object.</span></span>
+<span data-ttu-id="ff0fe-122">يوضح الجدول التالي المقصود بكائن التكلفة والمقصود بكائن المخزون.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-122">The following table shows what is a cost object and what is an inventory object.</span></span>
 
-| <span data-ttu-id="ea0bc-123">نوع الكائن</span><span class="sxs-lookup"><span data-stu-id="ea0bc-123">Object type</span></span>      | <span data-ttu-id="ea0bc-124">رقم العنصر</span><span class="sxs-lookup"><span data-stu-id="ea0bc-124">Item number</span></span> | <span data-ttu-id="ea0bc-125">الموقع</span><span class="sxs-lookup"><span data-stu-id="ea0bc-125">Site</span></span> | <span data-ttu-id="ea0bc-126">المستودع</span><span class="sxs-lookup"><span data-stu-id="ea0bc-126">Warehouse</span></span> | <span data-ttu-id="ea0bc-127">رقم الدُفعة</span><span class="sxs-lookup"><span data-stu-id="ea0bc-127">Batch No.</span></span> |
+| <span data-ttu-id="ff0fe-123">نوع الكائن</span><span class="sxs-lookup"><span data-stu-id="ff0fe-123">Object type</span></span>      | <span data-ttu-id="ff0fe-124">رقم العنصر</span><span class="sxs-lookup"><span data-stu-id="ff0fe-124">Item number</span></span> | <span data-ttu-id="ff0fe-125">الموقع</span><span class="sxs-lookup"><span data-stu-id="ff0fe-125">Site</span></span> | <span data-ttu-id="ff0fe-126">المستودع</span><span class="sxs-lookup"><span data-stu-id="ff0fe-126">Warehouse</span></span> | <span data-ttu-id="ff0fe-127">رقم الدُفعة</span><span class="sxs-lookup"><span data-stu-id="ff0fe-127">Batch No.</span></span> |
 |------------------|-------------|------|-----------|-----------|
-| <span data-ttu-id="ea0bc-128">كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="ea0bc-128">Cost object</span></span>      | <span data-ttu-id="ea0bc-129">×</span><span class="sxs-lookup"><span data-stu-id="ea0bc-129">x</span></span>           | <span data-ttu-id="ea0bc-130">×</span><span class="sxs-lookup"><span data-stu-id="ea0bc-130">x</span></span>    |           |           |
-| <span data-ttu-id="ea0bc-131">كائن المخزون</span><span class="sxs-lookup"><span data-stu-id="ea0bc-131">Inventory object</span></span> | <span data-ttu-id="ea0bc-132">×</span><span class="sxs-lookup"><span data-stu-id="ea0bc-132">x</span></span>           | <span data-ttu-id="ea0bc-133">×</span><span class="sxs-lookup"><span data-stu-id="ea0bc-133">x</span></span>    |  <span data-ttu-id="ea0bc-134">×</span><span class="sxs-lookup"><span data-stu-id="ea0bc-134">x</span></span>        | <span data-ttu-id="ea0bc-135">×</span><span class="sxs-lookup"><span data-stu-id="ea0bc-135">x</span></span>         |
+| <span data-ttu-id="ff0fe-128">كائن التكلفة</span><span class="sxs-lookup"><span data-stu-id="ff0fe-128">Cost object</span></span>      | <span data-ttu-id="ff0fe-129">×</span><span class="sxs-lookup"><span data-stu-id="ff0fe-129">x</span></span>           | <span data-ttu-id="ff0fe-130">×</span><span class="sxs-lookup"><span data-stu-id="ff0fe-130">x</span></span>    |           |           |
+| <span data-ttu-id="ff0fe-131">كائن المخزون</span><span class="sxs-lookup"><span data-stu-id="ff0fe-131">Inventory object</span></span> | <span data-ttu-id="ff0fe-132">×</span><span class="sxs-lookup"><span data-stu-id="ff0fe-132">x</span></span>           | <span data-ttu-id="ff0fe-133">×</span><span class="sxs-lookup"><span data-stu-id="ff0fe-133">x</span></span>    |  <span data-ttu-id="ff0fe-134">×</span><span class="sxs-lookup"><span data-stu-id="ff0fe-134">x</span></span>        | <span data-ttu-id="ff0fe-135">×</span><span class="sxs-lookup"><span data-stu-id="ff0fe-135">x</span></span>         |
 
-## <a name="accumulation-of-costs-and-quantities"></a><span data-ttu-id="ea0bc-136">تراكم التكاليف والكميات</span><span class="sxs-lookup"><span data-stu-id="ea0bc-136">Accumulation of costs and quantities</span></span>
--   <span data-ttu-id="ea0bc-137">القيمة في حقل **القيمة** هي مجموع القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="ea0bc-137">The value in the **Value** fieldis a sum of the following values:</span></span>
-    -   <span data-ttu-id="ea0bc-138">مبلغ تكلفة المخزون الفعلية</span><span class="sxs-lookup"><span data-stu-id="ea0bc-138">Physical cost amount</span></span>
-    -   <span data-ttu-id="ea0bc-139">مبلغ التكلفة المالية</span><span class="sxs-lookup"><span data-stu-id="ea0bc-139">Financial cost amount</span></span>
-    -   <span data-ttu-id="ea0bc-140">التسويات</span><span class="sxs-lookup"><span data-stu-id="ea0bc-140">Adjustments</span></span>
--   <span data-ttu-id="ea0bc-141">القيمة في حقل **الكمية** هي مجموع القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="ea0bc-141">The value in the **Quantity** field is a sum of the following values:</span></span>
-    -   <span data-ttu-id="ea0bc-142">مُستَلم</span><span class="sxs-lookup"><span data-stu-id="ea0bc-142">Received</span></span>
-    -   <span data-ttu-id="ea0bc-143">مخفض</span><span class="sxs-lookup"><span data-stu-id="ea0bc-143">Deducted</span></span>
-    -   <span data-ttu-id="ea0bc-144">الكمية التي تم ترحيلها</span><span class="sxs-lookup"><span data-stu-id="ea0bc-144">Posted quantity</span></span>
--   <span data-ttu-id="ea0bc-145">حقل **متوسط تكلفة الوحدة** عبارة عن حقل محسوب.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-145">The **Average unit cost** field is a calculated field.</span></span> <span data-ttu-id="ea0bc-146">ويتم حساب القيمة بقسمة قيمة **القيمة** على قيمة **الكمية**.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-146">The value is calculated by dividing the **Value** value by the **Quantity** value.</span></span>
+## <a name="accumulation-of-costs-and-quantities"></a><span data-ttu-id="ff0fe-136">تراكم التكاليف والكميات</span><span class="sxs-lookup"><span data-stu-id="ff0fe-136">Accumulation of costs and quantities</span></span>
+-   <span data-ttu-id="ff0fe-137">القيمة في حقل **القيمة** هي مجموع القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="ff0fe-137">The value in the **Value** fieldis a sum of the following values:</span></span>
+    -   <span data-ttu-id="ff0fe-138">مبلغ تكلفة المخزون الفعلية</span><span class="sxs-lookup"><span data-stu-id="ff0fe-138">Physical cost amount</span></span>
+    -   <span data-ttu-id="ff0fe-139">مبلغ التكلفة المالية</span><span class="sxs-lookup"><span data-stu-id="ff0fe-139">Financial cost amount</span></span>
+    -   <span data-ttu-id="ff0fe-140">التسويات</span><span class="sxs-lookup"><span data-stu-id="ff0fe-140">Adjustments</span></span>
+-   <span data-ttu-id="ff0fe-141">القيمة في حقل **الكمية** هي مجموع القيم التالية:</span><span class="sxs-lookup"><span data-stu-id="ff0fe-141">The value in the **Quantity** field is a sum of the following values:</span></span>
+    -   <span data-ttu-id="ff0fe-142">مُستَلم</span><span class="sxs-lookup"><span data-stu-id="ff0fe-142">Received</span></span>
+    -   <span data-ttu-id="ff0fe-143">مخفض</span><span class="sxs-lookup"><span data-stu-id="ff0fe-143">Deducted</span></span>
+    -   <span data-ttu-id="ff0fe-144">الكمية التي تم ترحيلها</span><span class="sxs-lookup"><span data-stu-id="ff0fe-144">Posted quantity</span></span>
+-   <span data-ttu-id="ff0fe-145">حقل **متوسط تكلفة الوحدة** عبارة عن حقل محسوب.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-145">The **Average unit cost** field is a calculated field.</span></span> <span data-ttu-id="ff0fe-146">ويتم حساب القيمة بقسمة قيمة **القيمة** على قيمة **الكمية**.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-146">The value is calculated by dividing the **Value** value by the **Quantity** value.</span></span>
 
-<span data-ttu-id="ea0bc-147">**ملاحظة:** لا تؤثر معلمة **تضمين القيمة الفعلية** في الحسابات السابقة.</span><span class="sxs-lookup"><span data-stu-id="ea0bc-147">**Note:** The \*\*Include physical value \*\*parameter has no effect on the preceding calculations.</span></span>
+<span data-ttu-id="ff0fe-147">**ملاحظة:** لا تؤثر معلمة \*\*تضمين القيمة الفعلية \*\*في الحسابات السابقة.</span><span class="sxs-lookup"><span data-stu-id="ff0fe-147">**Note:** The \*\*Include physical value \*\*parameter has no effect on the preceding calculations.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="ea0bc-148">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="ea0bc-148">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="ff0fe-148">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="ff0fe-148">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="ea0bc-149">مجموعة أبعاد المنتجات</span><span class="sxs-lookup"><span data-stu-id="ea0bc-149">Product dimension group</span></span>](https://technet.microsoft.com/library/aa499382.aspx)
+[<span data-ttu-id="ff0fe-149">مجموعة أبعاد المنتجات</span><span class="sxs-lookup"><span data-stu-id="ff0fe-149">Product dimension group</span></span>](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
 
-[<span data-ttu-id="ea0bc-150">مجموعة أبعاد التخزين</span><span class="sxs-lookup"><span data-stu-id="ea0bc-150">Storage dimension group</span></span>](https://technet.microsoft.com/library/hh209317.aspx)
+[<span data-ttu-id="ff0fe-150">مجموعة أبعاد التخزين</span><span class="sxs-lookup"><span data-stu-id="ff0fe-150">Storage dimension group</span></span>](/dynamicsax-2012//storage-dimension-groups-form)
 
-[<span data-ttu-id="ea0bc-151">مجموعة أبعاد التعقب</span><span class="sxs-lookup"><span data-stu-id="ea0bc-151">Tracking dimension group</span></span>](https://technet.microsoft.com/library/hh209465.aspx)
+[<span data-ttu-id="ff0fe-151">مجموعة أبعاد التعقب</span><span class="sxs-lookup"><span data-stu-id="ff0fe-151">Tracking dimension group</span></span>](/dynamicsax-2012//tracking-dimension-groups-form)
 
-[<span data-ttu-id="ea0bc-152">ما الجديد أو التغيير</span><span class="sxs-lookup"><span data-stu-id="ea0bc-152">What's new or changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
+[<span data-ttu-id="ff0fe-152">ما الجديد أو التغيير</span><span class="sxs-lookup"><span data-stu-id="ff0fe-152">What's new or changed</span></span>](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
-[<span data-ttu-id="ea0bc-153">إدخالات التكلفة</span><span class="sxs-lookup"><span data-stu-id="ea0bc-153">Cost entries</span></span>](cost-entries.md)
+[<span data-ttu-id="ff0fe-153">إدخالات التكلفة</span><span class="sxs-lookup"><span data-stu-id="ff0fe-153">Cost entries</span></span>](cost-entries.md)
 
 
 

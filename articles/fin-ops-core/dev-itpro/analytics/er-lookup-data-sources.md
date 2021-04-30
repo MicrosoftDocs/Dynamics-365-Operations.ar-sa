@@ -1,0 +1,103 @@
+---
+title: تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق ER
+description: يوضح هذا الموضوع كيفيه تكوين مصادر بيانات البحث في تنسيقات إعداد التقارير الكترونيه (ER) لاستخدام المعلمات الخاصة بتطبيق إعداد التقارير الكترونيه (ER).
+author: NickSelin
+manager: AnnBe
+ms.date: 04/02/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
+audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2019-01-01
+ms.dyn365.ops.version: Release 8.1.3
+ms.openlocfilehash: 542580c859759c25da84589ec82495eb72bbcbe5
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853511"
+---
+# <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a><span data-ttu-id="f2e5b-103">تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق ER</span><span class="sxs-lookup"><span data-stu-id="f2e5b-103">Configure Lookup data sources to use ER application-specific parameters</span></span> 
+
+[!include[banner](../includes/banner.md)]
+
+<span data-ttu-id="f2e5b-104">تسمح لك ميزة المعلمات الخاصة بتطبيق [إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) بتكوين تصفيه البيانات بتنسيق ER بحيث تستند إلى مجموعة من القواعد المجردة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-104">The [Electronic reporting (ER)](general-electronic-reporting.md) application-specific parameters feature lets you configure data filtering in an ER format so that it's based on a set of abstract rules.</span></span> <span data-ttu-id="f2e5b-105">يمكن تكوين هذه المجموعة من القواعد لاستخدام مصدر البيانات لنوع **البحث** المتوفر بتنسيق التقارير الإلكترونية (ER).</span><span class="sxs-lookup"><span data-stu-id="f2e5b-105">This set of rules can be configured to use the data source of the **Lookup** type that is available in an ER format.</span></span> <span data-ttu-id="f2e5b-106">يمكنك بعد ذلك تحديد قواعد حقيقية تتجاوز مصممي التقارير الإلكترونية ER باستخدام واجهة المستخدم (UI) التي يتم إنشاؤها تلقائيًا استنادًا إلى إعدادات مصدر بيانات **البحث** لتنسيق ER المناظر وبيانات الكيان القانوني الحالي.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-106">You can then specify real rules beyond the ER components designers by using the user interface (UI) that is automatically generated based on the settings of the **Lookup** data source of the corresponding ER format and the current legal entity data.</span></span> <span data-ttu-id="f2e5b-107">في نهاية الأمر، سيتم الوصول إلى القواعد المحددة بواسطة مصدر بيانات **البحث** لتنسيقات ER عند تنفيذ تنسيق ER.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-107">Eventually, the specified rules will be accessed by the ER format's **Lookup** data source when this ER format is executed.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="f2e5b-108">استخدم مصادر البيانات التي تم تكوينها لتنسيق ER القابل للتحرير لتحديد بيانات التطبيق التي سيتم استخدامها لتكوين القواعد الحقيقية.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-108">Use the configured data sources of the editable ER format to specify what application data is used to configure real rules.</span></span>
+
+<span data-ttu-id="f2e5b-109">استخدم [مصمم عمليات ER](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) لإحضار مصدر بيانات لنوع **البحث** إلى تنسيق ER.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-109">Use the [ER Operations designer](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) to bring a data source of the **Lookup** type in to your ER format.</span></span> <span data-ttu-id="f2e5b-110">يجب تكوين مصدر البيانات لوصف كيفية ظهور القواعد المجردة، بما في ذلك ما يلي:</span><span class="sxs-lookup"><span data-stu-id="f2e5b-110">The data source must be configured to describe how your abstract rules look, including the following:</span></span>
+
+   - <span data-ttu-id="f2e5b-111">مجموعة المعلمات الخاصة بنوع بيانات معين يتم توفير قيمتها لتحديد قاعدة واحدة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-111">The parameter set of certain data type whose value is provided to specify a single rule.</span></span>
+   - <span data-ttu-id="f2e5b-112">نوع القيمة لنوع بيانات معين الذي يتم إرجاعه بواسطة قاعدة واحدة عندما تُعتبر هذه القاعدة الأكثر ملاءمة بين الآخرين.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-112">The value type of certain data type that is returned by a single rule when this rule is considered the most appropriate among others.</span></span>
+
+<span data-ttu-id="f2e5b-113">يمكنك تكوين الأنواع التالية من مصادر بيانات **البحث** بحسب نوع القيمة المرتجعة بواسطة أي قاعدة مكوّنة:</span><span class="sxs-lookup"><span data-stu-id="f2e5b-113">You can configure the following types of **Lookup** data sources depending on the type of value that is returned by any configured rule:</span></span>
+
+   - <span data-ttu-id="f2e5b-114">استخدم النوع **نموذج بيانات\بحث** عندما يجب إرجاع قيمة تعداد نموذج.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-114">Use the **Data model\Lookup** type when a model enumeration value must be returned.</span></span>
+   - <span data-ttu-id="f2e5b-115">استخدم النوع **Dynamics 365 Operations\بحث** عندما يجب إرجاع قيمة تعداد تطبيق أو [نوع بيانات موسع](../extensibility/extensible-edts.md) لتطبيق.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-115">Use the **Dynamics 365 Operations\Lookup** type when an application enumeration value or an application [extended data type](../extensibility/extensible-edts.md) value must be returned.</span></span>
+   - <span data-ttu-id="f2e5b-116">استخدم النوع **تعداد التنسيق\بحث** عندما يجب إرجاع قيمة تعداد تنسيق.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-116">Use the **Format enumeration\Lookup** type when a format enumeration value must be returned.</span></span>
+
+<span data-ttu-id="f2e5b-117">يبين الرسم التوضيحي التالي كيف يمكنك تكوين تعداد التنسيق في نموذج تنسيق ER.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-117">The following illustration shows how a format enumeration can be configured in the sample ER format.</span></span>
+
+   ![إظهار تعداد تنسيق كأساس لمصدر بيانات بحث مكوّن](./media/er-lookup-data-sources-img1.gif)
+
+<span data-ttu-id="f2e5b-119">يبين الرسم التوضيحي التالي مكونات التنسيق التي تم تكوينها للإبلاغ عن أنواع مختلفة من الضرائب في قسم مختلف من التقرير الذي تم إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-119">The following illustration shows the format components that were configured to report different type of taxes in a different section of a generated report.</span></span>
+
+   ![إظهار مقاطع التنسيق للإبلاغ عن أنواع مختلفة من الضرائب بشكل منفصل](./media/er-lookup-data-sources-img2.png)
+
+<span data-ttu-id="f2e5b-121">يبين الرسم التوضيحي التالي كيف يسمح مصمم عمليات ER بإضافة مصدر بيانات من النوع **تعداد التنسيق\بحث**.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-121">The following illustration shows how the ER Operations designer allows the addition of a data source of the **Format enumeration\Lookup** type.</span></span>  <span data-ttu-id="f2e5b-122">يتم تكوين مصدر البيانات المُضاف كإرجاع قيمة تعداد التنسيق `List of taxation levels`.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-122">The added data source is configured as returning a value of the `List of taxation levels` format enumeration.</span></span>
+
+   ![إضافة مصدر بيانات ER من النوع تعداد التنسيق\بحث](./media/er-lookup-data-sources-img3.gif)
+
+<span data-ttu-id="f2e5b-124">يبين الرسم التوضيحي التالي كيفية تكوين مصدر البيانات المضاف لاستخدام حقل **الكود** لقائمة سجلات **Model.Data.Tax** لمصدر بيانات **النموذج** كمعلمة يجب تحديدها لكل قاعدة مكوّنة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-124">The following illustration shows how the added data source is configured to use the **Code** field of the **Model.Data.Tax** record list of the **Model** data source as a parameter that must be specified for every configured rule.</span></span>
+
+![تكوين معلمات مصدر البيانات المضاف من النوع تعداد التنسيق\بحث](./media/er-lookup-data-sources-img4.gif)
+
+<span data-ttu-id="f2e5b-126">تم تكوين مصدر البيانات المضاف `Model.Data.Tax` لتحديد كود ضريبة لكل قاعدة مكوّنة من خلال الوصول إلى سجلات جدول التطبيق **TaxTable**.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-126">The added `Model.Data.Tax` data source is configured to specify a tax code for every configured rule by accessing records of the **TaxTable** application table.</span></span>
+
+   ![مراجعة مصدر بيانات البحث في شركة واحدة من النوع تعداد التنسيق\بحث](./media/er-lookup-data-sources-img5.gif)
+
+<span data-ttu-id="f2e5b-128">يمكنك إعداد قواعد البحث الخاصة بتنسيق ER المحدد باستخدام واجهة المستخدم التي تتلاءم بشكل تلقائي مع بنية مصدر البيانات المكوّن.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-128">You can set up the lookup rules for the selected ER format by using the UI that is automatically aligned with the structure of the configured data source.</span></span> <span data-ttu-id="f2e5b-129">في الوقت الحالي، تتطلب واجهة المستخدم هذه لكل قاعدة، أن تقوم بتحديد القيمة المرتجعة، كقيمة تعداد التنسيق `List of taxation levels` بالإضافة إلى كود الضريبة كمعلمة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-129">Currently, this UI requires that for each rule, you specify the returned value as the `List of taxation levels` format enumeration value as well as the tax code as a parameter.</span></span>
+
+   ![إعداد القواعد الخاصة بمصدر البيانات المكوّن](./media/er-lookup-data-sources-img6.gif)
+
+<span data-ttu-id="f2e5b-131">يبين الرسم التوضيحي التالي كيف يمكنك تكوين مصدر البيانات `Model.Data.Summary.LevelByLookup` لنوع **الحقل المحسوب** لاستدعاء مصدر بيانات **البحث** المكوّن الذي يوفر المعلمات التالية.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-131">The following illustration shows how the `Model.Data.Summary.LevelByLookup` data source of the **Calculated field** type can be configured to call the configured **Lookup** data source providing the required parameters.</span></span> <span data-ttu-id="f2e5b-132">لمعالجة هذا الاستدعاء في وقت التشغيل، ينتقل ER عبر قائمة القواعد المكوّنة في التسلسل المحدد لتحديد موقع القاعدة الأولى التي تلبي الشروط المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-132">To process this call at runtime, ER goes through the list of configured rules in the defined sequence to locate the first rule that satisfies the provided conditions.</span></span> <span data-ttu-id="f2e5b-133">في هذا المثال، إنها القاعدة التي تحتوي على كود الضريبة التي تتطابق مع القاعدة المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-133">In this example, it's the rule that contains the tax code that matches the provided one.</span></span> <span data-ttu-id="f2e5b-134">ونتيجة لذلك، يتم العثور علي القاعدة الأكثر ملاءمةً ويتم إرجاع قيمة التعداد المكوّنة للقاعدة التي تم العثور عليها بواسطة مصدر البيانات هذا.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-134">As the result, the most appropriate rule is found and the enumeration value that is configured for the found rule is returned by this data source.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="f2e5b-135">يتم طرح استثناء عند عدم العثور علي قاعدة قابلة للتطبيق.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-135">An exception is thrown when no applicable rule is found.</span></span> <span data-ttu-id="f2e5b-136">لمنع هذه الاستثناءات، قم بتكوين قواعد إضافية في نهاية قائمة القواعد لمعالجة الحالات عند توفير قيمة غير مكوّنة أو عند عدم توفير أي قيمة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-136">To prevent these exceptions, configure additional rules at the end of the rules list to handle cases when a non-configured value or no value is provided.</span></span> <span data-ttu-id="f2e5b-137">استخدم الخيارين **\*غير فارغ**\* و **\*فارغ‏‎**\* وفقًا لذلك.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-137">Use the **\*Not blank**\* and **\*Blank**\* options accordingly.</span></span>  
+>
+> ![إضافة مصدر بيانات لاستدعاء مصدر بيانات البحث الذي تم تكوينه.](./media/er-lookup-data-sources-img7.png)
+
+<span data-ttu-id="f2e5b-139">عندما تعيّن الخيار **عبر الشركة** إلى **نعم** لمصدر بيانات البحث القابل للتحرير، تضيف معلمة **شركة** جديدة لتعيين معلمات مصدر البيانات هذا.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-139">When you set the **Cross-company** option to **Yes** for the editable lookup data source, you add a new required **Company** parameter to the set of parameters of this data source.</span></span> <span data-ttu-id="f2e5b-140">يجب تحديد قيمة معلمة **الشركة** في وقت التشغيل عند استدعاء مصدر بيانات البحث.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-140">The value of the **Company** parameter must be specified at runtime when the lookup data source is called.</span></span> <span data-ttu-id="f2e5b-141">عند تحديد كود الشركة في وقت التشغيل، يتم استخدام القواعد التي تم تكوينها لهذه الشركة للعثور علي القاعدة الأكثر ملاءمةً، ويتم إرجاع القيمة المقابلة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-141">When the company code is specified at runtime, the rules configured for this company are used to find the most appropriate rule, and the corresponding value is returned.</span></span> <span data-ttu-id="f2e5b-142">يبين الرسم التوضيحي التالي كيفية القيام بذلك وكيفية تغيير مجموعة من معلمات مصدر البيانات القابل للتحرير.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-142">The following illustration shows how you can do this and how the set of parameters of the editable data source is changed.</span></span>
+
+   ![مراجعة مصدر بيانات البحث عبر الشركة من النوع تعداد التنسيق\بحث](./media/er-lookup-data-sources-img8.gif)
+
+> [!NOTE]
+> <span data-ttu-id="f2e5b-144">حدد كل شركة بشكل منفصل لتكوين مجموعة القواعد لمصدر بيانات البحث هذا لتنسيق ER القابل للتحرير.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-144">Select every company seperately to configure the set of rules for this lookup data source of the editable ER format.</span></span> <span data-ttu-id="f2e5b-145">يتم طرح استثناء عند وقت التشغيل عند استدعاء البحث عبر الشركة مع كود الشركة التي لم يتم إكمال إعداد البحث الخاص بها.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-145">An exception is thrown at runtime when the cross-company lookup is called with the code of the company for which the lookup setting was not completed.</span></span>
+>
+> <span data-ttu-id="f2e5b-146">تأكد من منح الأذونات للمستخدم الذي يقوم بتشغيل تنسيق ER مع مصدر بيانات **بحث** الشركة للوصول إلى بيانات كل شركة في نطاق مصدر البيانات هذا.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-146">Make sure that you grant permissions for a user who runs the ER format with the cross-company **Lookup** data source to access the data of every company that is in scope of this data source.</span></span> <span data-ttu-id="f2e5b-147">خلاف ذلك، يتم طرح استثناء في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-147">Otherwise, an exception is thrown at runtime.</span></span>
+
+<span data-ttu-id="f2e5b-148">اعتبارًا من الإصدار 10.0.19، تتوفر القدرات الموسعة لمصادر بيانات **البحث**.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-148">Starting in version 10.0.19, the extended capabilities of the **Lookup** data sources are available.</span></span> <span data-ttu-id="f2e5b-149">عندما تعين الخيار **موسع** إلى **نعم** لمصدر بيانات البحث القابل للتحرير، يتم تحويل مصدر بيانات البحث المكوّن إلى مصدر البيانات المهيكل الذي يوفر القدرات الإضافية لتحليل مجموعة القواعد المكوّنة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-149">When you set the **Extended** option to **Yes** for the editable lookup data source, the configured lookup data source is transformed to the structured data source that offers the additional capabilities to analyze the configured set of rules.</span></span> <span data-ttu-id="f2e5b-150">يبين الرسم التوضيحي التالي عملية التحويل هذه.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-150">The following illustration shows this transformation.</span></span>
+
+   ![مراجعة مصدر بيانات البحث المهيكل من النوع تعداد التنسيق\بحث](./media/er-lookup-data-sources-img9.gif)
+
+- <span data-ttu-id="f2e5b-152">يتم تصميم العنصر الفرعي **البحث** كدالة للعثور على القاعدة الأكثر ملاءمة من مجموعة القواعد القابلة للتكوين استنادًا إلى مجموعة المعلمات المتوفرة</span><span class="sxs-lookup"><span data-stu-id="f2e5b-152">The **Lookup** sub-item is designed as a function to find the most appropriate rule from the set of configurable rules based on the provided set of parameters.</span></span>
+- <span data-ttu-id="f2e5b-153">تم تصميم العنصر الفرعي **IsLookupResultSet** كدالة لقبول القيمة المتوفرة لمصدر بيانات التعداد الأساسي وإرجاع قيمة *منطقية* من **صواب** عندما تحتوي مجموعة القواعد على قاعدة واحدة على الأقل تم تكوين قيمة التعداد المتوفرة لها كقيمة مرتجعة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-153">The **IsLookupResultSet** sub-item is designed as a function to accept the provided value of the base enumeration data source and return the *Boolean* value of **True** when the set of rules contain at least one rule for which the provided enumeration value was configured as a returned value.</span></span> <span data-ttu-id="f2e5b-154">تقوم هذه الدالة بإرجاع القيمة *المنطقية* من **خطأ** عند عدم وجود قواعد تم تكوينها لإرجاع قيمة التعداد المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-154">This function returns the *Boolean* value of **False** when there are no rules configured to return the provided enumeration value.</span></span>
+- <span data-ttu-id="f2e5b-155">تم تصميم العنصر الفرعي **الإعداد** كدالة ترجع مجموعة القواعد المكوّنة كسجلات قائمة سجلات.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-155">The **Setting** sub-item is designed as a function that returns the set of configured rules as records of a record list.</span></span> <span data-ttu-id="f2e5b-156">يتم تقديم القيم المرتجعة ومجموعة المعلمات الخاصة بالقواعد المكونة في كل سجل مرتجع كحقول لأنواع البيانات ذات الصلة:</span><span class="sxs-lookup"><span data-stu-id="f2e5b-156">The returned values and the set of parameters of the configured rules are presented in every returned record as fields of the relevant data types:</span></span>
+
+    - <span data-ttu-id="f2e5b-157">يتم تقديم القيمة المرتجعة كحقل **نتيجة البحث**.</span><span class="sxs-lookup"><span data-stu-id="f2e5b-157">The returned value is presented as the **Lookup result** field.</span></span>
+    - <span data-ttu-id="f2e5b-158">يتم تقديم المعلمات المكوّنة كحقول تحتوي علي أسماء معلمات (حقل **الكود** في هذا المثال).</span><span class="sxs-lookup"><span data-stu-id="f2e5b-158">The configured parameters are presented as fields having names of parameters (**Code** field in this example).</span></span>
+
+<span data-ttu-id="f2e5b-159">لمزيد من المعلومات حول كيفية تكوين مصدر بيانات **البحث**، راجع [تكوين تنسيقات ER لاستخدام معلمات محددة للكيان القانوني](er-app-specific-parameters-configure-format.md).</span><span class="sxs-lookup"><span data-stu-id="f2e5b-159">For more information about to how configure the **Lookup** data source, see [Configure ER formats to use parameters that are specified per legal entity](er-app-specific-parameters-configure-format.md).</span></span> <span data-ttu-id="f2e5b-160">لمعرفة كيفيه تعيين قواعد البحث، راجع [إعداد معلمات تنسيق ER للكيان القانوني](er-app-specific-parameters-set-up.md).</span><span class="sxs-lookup"><span data-stu-id="f2e5b-160">To learn how to set the Lookup rules, see [Set up the parameters of an ER format per legal entity](er-app-specific-parameters-set-up.md).</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="f2e5b-161">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="f2e5b-161">Additional resources</span></span>
+
+[<span data-ttu-id="f2e5b-162">تكوين تنسيقات ER لاستخدام المعلمات المحددة لكل كيان قانوني</span><span class="sxs-lookup"><span data-stu-id="f2e5b-162">Configure ER formats to use parameters that are specified per legal entity</span></span>](er-app-specific-parameters-configure-format.md)
+
+[<span data-ttu-id="f2e5b-163">إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني</span><span class="sxs-lookup"><span data-stu-id="f2e5b-163">Set up the parameters of an ER format per legal entity</span></span>](er-app-specific-parameters-set-up.md)
