@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838264"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907977"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>تخطيط توجيه المستند لتسميات لوحات الترخيص
 
@@ -73,7 +73,7 @@ $FieldName:FormatString$
 - لإظهار أربعة خانات دائمًا (باستخدام الأصفار كعناصر نائبة)، استخدم `$Qty:0000$`. على سبيل المثال، إذا كانت الكمية 10، فسوف تُظهر التسمية "0010".
 - لإظهار منزلتين عشريتين دائمًا، استخدم `$Qty:0.00$` على سبيل المثال، إذا كانت الكمية 10، فسوف تُظهر التسمية "10.00".
 
-للحصول على قائمة كاملة بالسلاسل المتوفرة لتنسيق الأرقام، راجع [سلاسل التنسيق الرقمي المخصصة](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+للحصول على قائمة كاملة بالسلاسل المتوفرة لتنسيق الأرقام، راجع [سلاسل التنسيق الرقمي المخصصة](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>تنسيقات السلاسل المخصصة
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 في هذا المثال، ستتم طباعة التاريخ 30 أبريل 2020 بالشكل "30-04-2020".
 
-للحصول على قائمة كاملة بتنسيقات التاريخ/الوقت، راجع [سلاسل تنسيق الوقت والتاريخ المخصصة](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+للحصول على قائمة كاملة بتنسيقات التاريخ/الوقت، راجع [سلاسل تنسيق الوقت والتاريخ المخصصة](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>طباعة سطور منفردة من بيانات متعددة السطور
 
@@ -109,15 +109,15 @@ $FieldName[#]$
 
 على سبيل المثال، يحتوي النظام لديك على حقل `AdditionalAddress` الذي يقوم بتخزين العنوان متعدد الأسطر التالي:
 
-.Contoso Inc  
+Contoso Inc.  
 123 اسم الشارع  
 مدينة، ولاية
 
 يمكنك طباعة هذا العنوان، سطر واحد في كل مرة، باستخدام الرموز التالية.
 
-| الرمز | النص المطبوع |
+| الكود | النص المطبوع |
 |---|---|
-| `$AdditionalAddress[1]$` | .Contoso Inc |
+| `$AdditionalAddress[1]$` | Contoso Inc. |
 | `$AdditionalAddress[2]$` | 123 اسم الشارع |
 | `$AdditionalAddress[3]$` | مدينة، ولاية |
 

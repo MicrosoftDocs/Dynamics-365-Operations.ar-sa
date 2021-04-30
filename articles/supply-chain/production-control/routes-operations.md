@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819270"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908918"
 ---
 # <a name="routes-and-operations"></a>المسارات والعمليات
 
@@ -79,7 +79,7 @@ ms.locfileid: "5819270"
 
 يمكن الموافقة على كل مسار أو رفضه بشكل منفصل. ومع ذلك، تجدر الإشارة إلى أنه في حالة عدم الموافقة على مسار، سيتم أيضًا رفض كل إصدارات المسار ذات الصلة. في "محددات التحكم في الإنتاج"، يمكنك تحديد ما إذا كان يمكن عدم الموافقة على المسارات، وما إذا كان يمكن تغيير المسارات التي تمت الموافقة عليها.  
 
-إذا كان يجب الاحتفاظ بسجل لتسجيل الجهة التي توافق على كل مسار، فيمكنك طلب التوقيعات الإلكترونية للموافقة على المسار. وسيتعين على المستخدمين عندئذٍ تأكيد هويتهم باستخدام [توقيع إلكتروني](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+إذا كان يجب الاحتفاظ بسجل لتسجيل الجهة التي توافق على كل مسار، فيمكنك طلب التوقيعات الإلكترونية للموافقة على المسار. وسيتعين على المستخدمين عندئذٍ تأكيد هويتهم باستخدام [توقيع إلكتروني](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 تُعد العملية بمثابة خطوة في مرحلة الإنتاج. تتميز كل عملية بمعرف ووصف بسيط. تظهر الجداول التالية أمثلة نموذجية عن عمليات من متجر أجهزة.
@@ -185,7 +185,7 @@ ms.locfileid: "5819270"
 
 ### <a name="electronic-signatures"></a>التوقيعات الإلكترونية
 
-إذا كان يجب الاحتفاظ بسجل لتسجيل لتسجيل الجهة التي توافق على كل إصدار مسار وتقوم بتنشيطه، فيمكنك طلب التوقيعات الإلكترونية لهذه المهام بعد أن يقوم المستخدمون بالموافقة على إصدارات المسارات وتنشيطها، يتعين عليهم تأكيد هويتهم باستخدام [التوقيع الإلكتروني](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+إذا كان يجب الاحتفاظ بسجل لتسجيل لتسجيل الجهة التي توافق على كل إصدار مسار وتقوم بتنشيطه، فيمكنك طلب التوقيعات الإلكترونية لهذه المهام بعد أن يقوم المستخدمون بالموافقة على إصدارات المسارات وتنشيطها، يتعين عليهم تأكيد هويتهم باستخدام [التوقيع الإلكتروني](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>تغيير المنتج الذي يستخدم إدارة الحالة
 
@@ -253,7 +253,7 @@ ms.locfileid: "5819270"
 
 - [قدرات الموارد](resource-capabilities.md)
 
-- [نظرة عامة على التوقيعات الإلكترونية](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [نظرة عامة على التوقيعات الإلكترونية](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

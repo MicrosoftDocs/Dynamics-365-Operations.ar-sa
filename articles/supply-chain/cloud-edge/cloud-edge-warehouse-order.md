@@ -2,27 +2,21 @@
 title: أوامر المستودعات لوحدات نطاق السحابة والحافة
 description: يوفر هذا الموضوع معلومات حول قدره أمر المستودع التي يتم استخدامها كجزء من حمل العمل لوحده قياس المستودعات.
 author: perlynne
-ms.date: 01/14/2021
+ms.date: 04/13/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: SCM
+ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2021-01-14
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.search.validFrom: 2021-04-13
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: c24c08771c83453bb65312700cf994c7a800b7fd
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836676"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899109"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>أوامر المستودعات لوحدات نطاق السحابة والحافة
 
@@ -72,6 +66,8 @@ ms.locfileid: "5836676"
 
 - انتقل إلى **أداره المستودعات \> استعلامات وتقارير \> بنود أمر المستودع**، واستخدم عامل التصفية للعثور علي البنود التي تبحث عنها.
 - انتقل إلى **التدبير وتحديد الموارد \> أوامر الشراء \> كافة أوامر الشراء**، وافتح أمر الشراء ذي الصلة. في قسم **بنود أمر الشراء**، حدد بندا واحدا أو أكثر، ثم في شريط الادوات، حدد **مستودع \> إدخالات إيصال المستودعات**.
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

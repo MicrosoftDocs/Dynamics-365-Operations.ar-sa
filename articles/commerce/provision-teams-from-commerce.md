@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 96382c072e03506294d72899072a358091bda8ab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba7c74942735b723d1015dc4da0068fbb631bc6b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842610"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908894"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>توفير Microsoft Teams من Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يصف هذا الموضوع كيفية توفير Microsoft Teams باستخدام بيانات تنظيمية من Dynamics 365 Commerce.
 
-يوفر Dynamics 365 Commerce طريقه سهله لتوفير Teams إذا لم تقم بعد باعداد فرق لمتاجر البيع بالتجزئة الخاصة بك. ومن خلال الاستفادة من المعلومات التي تم تحديدها جيدا من Commerce التي ترغب في استخدامها في Teams، يمكنك مساعده موظفي المتجر علي البدء في Teams. تتضمن هذه المعلومات التسلسل الهرمي التنظيمي وأسماء المتاجر ومعلومات الموظف وحسابات Azure Active Directory (Azure AD). 
+يوفر Dynamics 365 Commerce طريقه سهله لتوفير Teams إذا لم تقم بعد بإعداد فرق لمتاجر البيع بالتجزئة الخاصة بك. ومن خلال الاستفادة من المعلومات التي تم تحديدها جيدا من Commerce التي ترغب في استخدامها في Teams، يمكنك مساعده موظفي المتجر علي البدء في Teams. تتضمن هذه المعلومات التسلسل الهرمي التنظيمي وأسماء المتاجر ومعلومات الموظف وحسابات Azure Active Directory (Azure AD). 
 
 لعمليه توفير Teams خطوتين أساسيتين:
 

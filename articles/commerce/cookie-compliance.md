@@ -2,7 +2,7 @@
 title: توافق ملفات تعريف الارتباط
 description: يصف هذا الموضوع اعتبارات توافق ملفات تعريف الارتباط والسياسات الافتراضية المضمنة في Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796017"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908174"
 ---
 # <a name="cookie-compliance"></a>توافق ملفات تعريف الارتباط
 
@@ -50,6 +50,57 @@ ms.locfileid: "5796017"
 | x-ms-cpim-slice                             | مستخدم لتوجيه الطلبات إلى مثيل خادم مصادقة الإنتاج المناسب. |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | مستخدم في الحفاظ على جلسة SSO.                        |
 | x-ms-cpim-trans                             | مستخدم لتعقب الحركات (عدد علامات التبويب المفتوحة التي يتم مصادقتها مقابل موقع العمل إلى المستهلك (B2C))، بما في ذلك الحركة الحالية. |
+| \_msdyn365___muid_                            | يتم استخدامه إذا تم تنشيط الاختبار‬ للبيئة؛ استخدامه كمعرف مستخدم لأغراض الاختبار. |
+| \_msdyn365___exp_                             | يتم استخدامه إذا تم تنشيط الاختبار للبيئة؛ يتم استخدامه لقياس موازنة حمل الأداء.         |
+
+
+
+إذا قام مستخدم الموقع بتحديد أي ارتباطات وسائل تواصل اجتماعي ضمن موقع ما، سيتم أيضًا تعقب ملفات تعريف الارتباط الموجودة في الجدول التالي في المستعرض الخاص بها.
+
+
+| المجال                      | ملف تعريف الارتباط               | الوصف                                                  | المصدر                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | مزامنة معرف إعلانات LinkedIn                                      | علامة موجز ورؤى LinkedIn                                |
+| .linkedin.com               | li_sugr                  | معرف المستعرض                                           | علامة رؤى LinkedIn إذا لم يكن عنوان IP في بلد معين |
+| .linkedin.com               | BizographicsOptOut       | تحديد حاله إلغاء الاشتراك لتعقب الجهة الخارجية.              | صفحات إلغاء الاشتراك في عناصر تحكم الضيف والصناعة في LinkedIn           |
+| .linkedin.com               | \_guid                    | معرف المستعرض لـ Google Ads.                            | موجز LinkedIn                                                |
+| .linkedin.com               | li_oatml                 | المعرف غير المباشر للعضو لتعقب التحويل وإعادة الاستهداف والتحليلات. | علامات إعلانات ورؤى LinkedIn                                |
+| مجالات متعددة للطرف الأول | li_fat_id                | المعرف غير المباشر للعضو لتعقب التحويل وإعادة الاستهداف والتحليلات. | علامات إعلانات ورؤى LinkedIn                                |
+| .adsymptotic.com            | U                        | معرف المستعرض                                           | علامة رؤى LinkedIn إذا لم يكن عنوان IP في بلد معين |
+| .linkedin.com                | bcookie                  | ملف تعريف ارتباط معرف المستعرض                                            | الطلبات إلى LinkedIn                                         |
+| .linkedin.com                | bscookie                 | ملف تعريف ارتباط مستعرض آمن                                        | الطلبات إلى LinkedIn                                         |
+| .linkedin.com               | lang                     | تعيين الإعدادات المحلية واللغة الافتراضية.                                 | الطلبات إلى LinkedIn                                         |
+| .linkedin.com                | lidc                     | يُستخدم للتوجيه.                                             | الطلبات إلى LinkedIn                                         |
+| .linkedin.com               | aam_uuid                 | ملف تعريف ارتباط الجمهور في Adobe                                                     | تعيين لمزامنة المعرف                                              |
+| .linkedin.com               | \_ga                      | ملف تعريف ارتباط Google Analytics                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | ملف تعريف ارتباط Google Analytics                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | ملف تعريف ارتباط Google Analytics                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | يحتوي ملف تعريف الارتباط على معرف المستخدم الخاص بالمستخدم الذي سجل دخوله حاليًا.  |   Facebook                                                           |
+| .facebook.com               | datr                     | يستخدم لتعريف مستعرض الويب الذي يتم استخدامه للاتصال بـ Facebook بصرف النظر عن المستخدم الذي سجل دخوله. | Facebook                                                             |
+| .facebook.com               | wd                       | يخزن أبعار نافذة المستعرض ويستخدمه Facebook لتحسين عرض الصفحة. | Facebook                                                             |
+| .facebook.com               | xs                       | رقم مكون من خانتين رقميتين يمثل رقم الجلسة. الجزء الثاني من القيمة هو سر جلسة العمل. |  Facebook                                                            |
+| .facebook.com               | الفرنسية                       | يحتوي على مستعرض فريد ومعرف مستخدم، يُستخدم للإعلان الموجّه. |  Facebook                                                            |
+| .facebook.com               | sb                       | يستخدم لتحسين اقتراحات الأصدقاء على Facebook.                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | يحتوي ملف تعريف الارتباط على معرف المستخدم الخاص بالمستخدم الذي سجل دخوله حاليًا.  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | يحتوي ملف تعريف الارتباط على معرف المستخدم الخاص بالمستخدم الذي سجل دخوله حاليًا.  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | يحتوي ملف تعريف الارتباط على صفحات عندما يحدد المستخدم الزر Pinterest.      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | يحتوي ملف تعريف الارتباط على صفحات عندما يحدد المستخدم الزر Pinterest.      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | يحتوي على معرف المستخدم والطابع الزمني عند إنشاء ملف تعريف الارتباط. |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | يحتوي ملف تعريف الارتباط على صفحات عندما يحدد المستخدم الزر Pinterest.      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | يحتوي ملف تعريف الارتباط على صفحات عندما يحدد المستخدم الزر Pinterest.      | Pinterest                                                             |
+| .pinterest.com              | التخزين المحلي            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | عمال الصيانة          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>الموافقة على ملفات تعريف ارتباط مستخدم الموقع في موقع التجارة الإلكترونية 
 

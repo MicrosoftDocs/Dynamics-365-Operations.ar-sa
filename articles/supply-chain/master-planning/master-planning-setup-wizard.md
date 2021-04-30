@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829680"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909417"
 ---
 # <a name="master-planning-setup-wizard"></a>معالج إعداد التخطيط الرئيسي
 
@@ -45,13 +45,13 @@ ms.locfileid: "5829680"
 
 إذا تجاوز عدد مؤشرات الترابط التي تم حسابها 75 بالمائة من العدد المتوفر من مؤشرات الترابط، فسيتم تحديدها عند نسبة 75 بالمائة من عدد مؤشرات الترابط المتاحة لكل عميل. (سيتم تحديد عدد مؤشرات الترابط المتاحة لكل عميل.)
 
-لمزيد من المعلومات، راجع [عدد مؤشرات الترابط](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+لمزيد من المعلومات، راجع [عدد مؤشرات الترابط](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>حجم المجموعة
 
 سيتم تعيين حجم المجموعة إلى **1**. غالبًا ما تكون هذه القيمة أفضل قيمة، لأنها تساعد على تحسين أداء التخطيط الرئيسي.
 
-لمزيد من المعلومات، راجع [عدد المهام في مجموعة مهام المساعد](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+لمزيد من المعلومات، راجع [عدد المهام في مجموعة مهام المساعد](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>تأكيد حجم المجموعة
 
@@ -64,7 +64,7 @@ ms.locfileid: "5829680"
 
 سيتم تعيين ذاكرة التخزين المؤقت إلى **الحد الأقصى**. غالبًا ما تكون هذه القيمة أفضل قيمة، لأنها تساعد على تحسين أداء التخطيط الرئيسي.
 
-لمزيد من المعلومات، راجع [تخصيص الوقت للوظائف في مجموعة وظائف](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+لمزيد من المعلومات، راجع [تخصيص الوقت للوظائف في مجموعة وظائف](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>إعداد التصنيع
 
@@ -88,7 +88,7 @@ ms.locfileid: "5829680"
 - **نعم، كما هو محدد في الخطة الرئيسية** - سيتم تعيين الخيار **خطة التنبؤ (الحد الزمني)** إلى **نعم**. سيتم استخدام عدد الأيام التي تقوم بإدخاله وتجاوز القيم التي تم تعيينها في مجموعات التغطية.
 - **نعم، كما هو محدد في مجموعة التغطية** - سيتم تعيين الخيار **خطة التنبؤ (الحد الزمني)** إلى **لا**.
 
-لمزيد من المعلومات، راجع [جدولة الوظائف](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+لمزيد من المعلومات، راجع [جدولة الوظائف](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>خيارات الجدولة
 
@@ -99,7 +99,7 @@ ms.locfileid: "5829680"
 - **نعم** – سيتم استخدام جدولة الوظائف.
 - **لا** - سيتم استخدام جدولة العمليات.
 
-لمزيد من المعلومات، راجع [جدولة العمليات](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) و[جدولة الوظائف](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+لمزيد من المعلومات، راجع [جدولة العمليات](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) و[جدولة الوظائف](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>تحديثات الطلب والتوريد
 
@@ -125,7 +125,7 @@ ms.locfileid: "5829680"
 
 يوضح هذا القسم إعداد شركتين وهميتين لإظهار كيف يتغير الإعداد وفقًا لاحتياجات كل شركة.
 
-### <a name="example-1-contoso-manufacturer"></a>مثال 1: Contoso Manufacturer
+### <a name="example-1-contoso-manufacturer"></a>المثال 1: Contoso Manufacturer
 
 Contoso Manufacturer هي شركة تصنيع مكبرات صوتية. وهي تشتري مختلف المواد الخام والمكونات التي تُستخدم في مكبرات الصوت النهائية من مختلف الموردين. وفيما يلي بعض خصائص التوريد والتصنيع لديها:
 
@@ -153,7 +153,7 @@ Contoso Manufacturer هي شركة تصنيع مكبرات صوتية. وهي ت
     - **سؤال:** "هل تحتاج إلى جدولة العمليات المقسمة إلى وظائف فردية؟"
     - **الجواب:** "نعم".
 
-    يجب على شركة Contoso Manufacturing تخطيط وجدولة الوظائف الفردية التي سيتم تنفيذها في طابق المتجر. لذلك، فإنه سيتم استخدام جدولة الوظائف.
+    يجب على Contoso Manufacturing تخطيط وجدولة الوظائف الفردية التي سيتم تنفيذها في طابق المتجر. لذلك، فإنه سيتم استخدام جدولة الوظائف.
 
 - **القدرة:**
 
@@ -176,7 +176,7 @@ Contoso Manufacturer هي شركة تصنيع مكبرات صوتية. وهي ت
 
     يجب تخطيط كل الأصناف المستخدمة في الإنتاج. نظرًا للاختلاف الكبير في الحد الأدنى لوقت الإنتاج من صنف إلى آخر، سيكون للتخطيط الرئيسي أداءً أفضل عند استخدامه مجموعات التغطية. مرة أخرى، يمكن إدخال أسبوع واحد كهامش، ويمكن أن يتم تحديد إجمالي المكونات المطلوبة لنفس الوقت كالتغطية.
 
-### <a name="example-2-contoso-retailer"></a>مثال 2: Contoso Retailer
+### <a name="example-2-contoso-retailer"></a>المثال 2: Contoso Retailer
 
 Contoso Retailer هي شركة توزيع في صناعة الأزياء. تستخدم التخطيط الرئيسي لحساب متى يجب إصدار أوامر الشراء، استنادًا إلى مبيعاتها المتوقعة. وفيما يلي بعض من خصائصه:
 
@@ -191,7 +191,7 @@ Contoso Retailer هي شركة توزيع في صناعة الأزياء. تست
     - **سؤال:** "هل تريد استخدام خطة تنبؤ في التخطيط الرئيسي بحيث يتم اقتراح الأوامر المخططة لتلبية الطلب المتوقع؟"
     - **الإجابة:** "نعم، كما هو محدد في هذه الخطة الرئيسية".
 
-    وقد شملت Contoso توقعات الطلب للتنبؤ بمبيعاتها. لذلك، يجب أن يوصي التخطيط الرئيسي بالأوامر المخططة لتلبية التوقعات.
+    قامت Contoso بتضمين توقعات الطلب للتنبؤ بمبيعاتها. لذلك، يجب أن يوصي التخطيط الرئيسي بالأوامر المخططة لتلبية التوقعات.
 
 - **التأكيد:**
 

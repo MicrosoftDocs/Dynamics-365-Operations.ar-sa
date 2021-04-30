@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750048"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893167"
 ---
 # <a name="electronic-reporting-er-overview"></a>نظرة عامة على إعداد التقارير الإلكترونية (ER)
 
@@ -183,11 +183,11 @@ ms.locfileid: "5750048"
 
 للحصول على مزيد من التفاصيل، راجع [استيراد تكوينات التقارير الإلكترونية (ER)](./electronic-reporting-import-ger-configurations.md).
 
-يوفر مستودع مثيل **RCS‎** إمكانية الوصول إلى قائمة التكوينات الخاصة بمثيل [خدمة تكوين (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) معين تم تحديده في مرحلة تسجيل المستودع. تسمح لك التقارير الإلكترونية باستيراد التكوينات المكتملة أو المشتركة من مثيل خدمات التكوين التنظيمية (RCS)‬ المُحدد إلى المثيل الحالي بحيث تتمكن من استخدامها في إعداد التقارير الإلكترونية.
+يوفر مستودع مثيل **RCS‎** إمكانية الوصول إلى قائمة التكوينات الخاصة بمثيل [خدمة تكوين (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) معين تم تحديده في مرحلة تسجيل المستودع. تسمح لك التقارير الإلكترونية باستيراد التكوينات المكتملة أو المشتركة من مثيل خدمات التكوين التنظيمية (RCS)‬ المُحدد إلى المثيل الحالي بحيث تتمكن من استخدامها في إعداد التقارير الإلكترونية.
 
 للحصول على مزيد من التفاصيل، راجع [استيراد تكوينات التقارير الإلكترونية (ER) من RCS‎](./rcs-download-configurations.md).
 
-يوفر مستودع **المستودع العمومي** حق الوصول إلى قائمه التكوينات داخل المستودع العمومي في [خدمة التكوين](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). يمكن تسجيل هذا النوع من مستودعات التقارير الإلكترونية لموفر Microsoft فقط. من المستودع العمومي، يمكنك استيراد الإصدارات الأخيرة من تكوينات التقارير الإلكترونية إلى المثيل الحالي.
+يوفر مستودع **المستودع العمومي** حق الوصول إلى قائمه التكوينات داخل المستودع العمومي في [خدمة التكوين](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). يمكن تسجيل هذا النوع من مستودعات التقارير الإلكترونية لموفر Microsoft فقط. من المستودع العمومي، يمكنك استيراد الإصدارات الأخيرة من تكوينات التقارير الإلكترونية إلى المثيل الحالي.
 
 لمزيد من المعلومات، راجع [استيراد تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين](./er-download-configurations-global-repo.md).
 

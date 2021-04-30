@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cb8050980b9b54480d09a59379430cd229ff141
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44df05083cd3c91e5dcbdb3062665c2145d92a7e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801085"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889802"
 ---
 # <a name="copy-an-instance"></a>نسخ مثيل
 
@@ -39,7 +39,7 @@ ms.locfileid: "5801085"
 
 - يجب أن تكون مسؤولًا في البيئة الهدف بحيث يُمكنك تسجيل الدخول إليها بعد نسخ المثيل.
 
-- عند نسخ قاعدة Human Resources، لا تقوم بنسخ العناصر (التطبيقات أو البيانات) المُضمنة في بيئة Microsoft Power Apps. للحصول على معلومات حول كيفية نسخ العناصر في بيئة Power Apps، راجع [نسخ بيئة ](https://docs.microsoft.com/power-platform/admin/copy-environment). يجب أن تكون بيئة Power Apps التي تريد استبدالها بيئة وضع الحماية. يجب أن تكون مسؤول مستأجر عمومي لتغيير بيئة انتاج Power Apps إلى بيئة حماية. لمزيد من المعلومات حول تغيير بيئة Power Apps، راجع [تبديل مثيل](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- عند نسخ قاعدة Human Resources، لا تقوم بنسخ العناصر (التطبيقات أو البيانات) المُضمنة في بيئة Microsoft Power Apps. للحصول على معلومات حول كيفية نسخ العناصر في بيئة Power Apps، راجع [نسخ بيئة ](/power-platform/admin/copy-environment). يجب أن تكون بيئة Power Apps التي تريد استبدالها بيئة وضع الحماية. يجب أن تكون مسؤول مستأجر عمومي لتغيير بيئة انتاج Power Apps إلى بيئة حماية. لمزيد من المعلومات حول تغيير بيئة Power Apps، راجع [تبديل مثيل](/dynamics365/admin/switch-instance).
 
 - إذا قمت بنسخ مثيل إلى بيئة الحماية الخاصة بك وترغب في دمج بيئة الحماية مع Dataverse ، فمن ثم يجب عليك إعادة تطبيق الحقول المخصصة على جداول Dataverse. راجع [تطبيق الحقول المخصصة علي Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
@@ -80,7 +80,7 @@ ms.locfileid: "5801085"
 
 6. حدد بيئة Power Apps المراد نسخها، ثم حدد **نسخ**.
 
-7. عند اكتمال عمليه النسخ ، قم بتسجيل الدخول إلى المثيل الهدف، وتمكين تكامل Dataverse. لمزيد من المعلومات والتعليمات، راجع [تكوين تكامل Dataverse ](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. عند اكتمال عمليه النسخ ، قم بتسجيل الدخول إلى المثيل الهدف، وتمكين تكامل Dataverse. لمزيد من المعلومات والتعليمات، راجع [تكوين تكامل Dataverse ](./hr-admin-integration-common-data-service.md).
 
 ## <a name="data-elements-and-statuses"></a>عناصر البيانات والحالات
 
@@ -142,7 +142,7 @@ ms.locfileid: "5801085"
 
 تطالبك عمليات إلغاء التحديد وتطبيق التغييرات وإعادة التحديد وإعادة تطبيق التغييرات تحديث المخطط في Dataverse لتضمين الحقول المخصصة.
 
-لمزيد من المعلومات حول الحقول المخصصة، راجع [‏‫إنشاء حقول مخصصة والعمل باستخدامها‬](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+لمزيد من المعلومات حول الحقول المخصصة، راجع [‏‫إنشاء حقول مخصصة والعمل باستخدامها‬](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
 
 ## <a name="see-also"></a>راجع أيضًا
 

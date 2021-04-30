@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833847"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909465"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>التكلفة المستلمة مقابل إدارة النقل
 
@@ -51,8 +51,8 @@ ms.locfileid: "5833847"
 
 لا تعمل التقارير التالية جنبًا إلى جنب مع ميزة البضائع قيد النقل التي توفرها التكلفة المستلمة:
 
-- [تقرير إجمالي البضائع العابرة بين الشركات الشقيقة](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [تقرير إجمالي البضائع العابرة بين الشركات الشقيقة](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [تقرير إجمالي البضائع العابرة بين الشركات الشقيقة](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [تقرير إجمالي البضائع العابرة بين الشركات الشقيقة](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 تفترض هذه التقارير أنه يتم وضع البضائع في مرحلة النقل بمجرد إصدار إيصال تعبئة المبيعات، وأنه يتم نقلها إلى المخزون من النقل عند الاستلام. ومع ذلك، لا تتم معالجة البضائع العابرة بهذه الطريقة. لذلك، إذا استخدمت البضائع في النقل والميزات بين الشركات الشقيقة معًا، فستكون نتائج هذين التقريرين غير صحيحة.
 
@@ -150,7 +150,7 @@ ms.locfileid: "5833847"
 
 ## <a name="receiving-by-container"></a>الاستلام بالحاوية
 
-قد يكون من المهم إدارة كيفية تقسيم البضائع وتخزينها في سفينة. في سفينة، يمكن الاحتفاظ بالبضائع في حاوية واحدة أو حاويات متعددة. عند استلام البضائع ، فانه يتم استلامها في حاويات ، وقد يتم استلام حاويات مختلفه في الرحلة في أوقات مختلفه أو في تواريخ مختلفه.
+قد يكون من المهم إدارة كيفية تقسيم البضائع وتخزينها في سفينة. في سفينة، يمكن الاحتفاظ بالبضائع في حاوية واحدة أو حاويات متعددة. عند استلام البضائع ، فانه يتم استلامها في حاويات ، وقد يتم استلام حاويات مختلفة في الرحلة في أوقات مختلفة أو في تواريخ مختلفة.
 
 يوفر كل من إدارة النقل (TMS) والتكلفة المستلمة وظائف لإدارة استلام البضائع في الحاوية. تستخدم إدارة النقل (TMS) مفهوم الأحمال لإدارة البضائع وأوامر الشراء وأوامر النقل المرتبطة بحاوية الشحن. تدعم إدارة النقل (TMS) الاستلام على أساس هيكل التغليف الذي يتم استلامه من خلال إشعار الشحن المسبق (ASN). تستخدم التكلفة المُرسلة مفهوم حاويات الشحن لمعالجة أوامر الشراء والتحكم في التكاليف العامة المرتبطة بحاوية على سفينة.
 

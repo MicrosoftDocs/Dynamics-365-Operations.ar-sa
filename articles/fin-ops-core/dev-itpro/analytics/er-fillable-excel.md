@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753302"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893898"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>تصميم تكوين لإنشاء المستندات بتنسيق Excel
 
@@ -152,14 +152,14 @@ ms.locfileid: "5753302"
 - **زوجي** - تشغيل مكون **التذييل** الذي تم تكوينه للصفحات الزوجية فقط من ورقة عمل Excel الأصلية.
 - **زوجي** فردي - تشغيل مكون **التذييل** الذي تم تكوينه للصفحات الفردية فقط من ورقة عمل Excel الأصلية.
 
-مع مكون **ورقة عمل** فردية، يمكنك إضافة عدة مكونات **تذييل**، ولكل واحد قيمة مختلفة لخاصية **مظهر الرأس/التذييل**. بهذه الطريقة، يمكنك إنشاء تذييلات مختلفه لأنواع مختلفة من الصفحات في ورقة عمل Excel.
+مع مكون **ورقة عمل** فردية، يمكنك إضافة عدة مكونات **تذييل**، ولكل واحد قيمة مختلفة لخاصية **مظهر الرأس/التذييل**. بهذه الطريقة، يمكنك إنشاء تذييلات مختلفة لأنواع مختلفة من الصفحات في ورقة عمل Excel.
 
 > [!NOTE]
 > تأكد من أن كل مكون **تذييل** قمت بإضافته إلى مكون **ورقة** فردي يتضمن قيمة مختلفة لخاصية **مظهر الرأس/التذييل**. خلاف ذلك، سيحدث [خطأ في التحقق من الصحة](er-components-inspections.md#i16). تقوم رسالة الخطأ التي تلقيتها بإخطارك بشان عدم التوافق.
 
 ضمن مكون **التذييل** المضاف، أضف المكونات المتداخلة المطلوبة من **النص\\السلسلة** أو **النص\\تاريخ/وقت** أو أي نوع آخر. قم بتكوين الروابط لهذه المكونات لتحديد كيفية ملء تذييل صفحتك.
 
-يمكنك أيضا استخدام [أكواد التنسيق](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) لتنسيق محتوي التذييل الذي تم إنشاؤه بشكل صحيح. لمعرفة كيفية استخدام هذا النهج، اتبع الخطوات الموضحة في [المثال 1](#example-1)، لاحقًا في هذا الموضوع.
+يمكنك أيضا استخدام [أكواد التنسيق](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) لتنسيق محتوي التذييل الذي تم إنشاؤه بشكل صحيح. لمعرفة كيفية استخدام هذا النهج، اتبع الخطوات الموضحة في [المثال 1](#example-1)، لاحقًا في هذا الموضوع.
 
 > [!NOTE]
 > عند تكوين تنسيقات ER، تأكد من مراعاة [حد Excel](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) والحد الأقصى لعدد الأحرف الخاصة برأس أو تذييل الصفحة الفردية.

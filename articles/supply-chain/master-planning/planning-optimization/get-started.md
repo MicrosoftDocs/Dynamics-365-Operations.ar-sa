@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e85c18e548d82b2a369a1e8a5573800067b1935c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808054"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907657"
 ---
 # <a name="get-started-with-planning-optimization"></a>بدء تحسين التخطيط
 
 [!include [banner](../../includes/banner.md)]
 
-وكما  [سبق ان تم الإعلان عنه](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios)، تتم جدوله تحسين التخطيط لاستبدال محرك التخطيط الرئيسي الموجود المضمن.
+وكما  [سبق ان تم الإعلان عنه](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios)، تتم جدوله تحسين التخطيط لاستبدال محرك التخطيط الرئيسي الموجود المضمن.
 
 إذا كنت تستخدم حاليا مشغل التخطيط الرئيسي المضمن، فعليك البدء في تخطيط الترحيل لتخطيط تحسين الأداء الآن. من المهم بدء عمليه الترحيل فورا لان العمليات قد تكون متاثره عند فرض الإهلاك. لتجنب مشكلات الدقائق الاخيره عند فرض الإهلاك، فاننا نشجعك بشده علي إكمال الترحيل قبل 1 ديسمبر 2020. 
 
@@ -50,7 +50,7 @@ ms.locfileid: "5808054"
 
 ## <a name="install-and-enable-planning-optimization"></a>تثبيت وتمكين تحسين التخطيط
 
-لاستخدام تحسين التخطيط، يجب التاكد من ان النظام يحتوي علي كافة المتطلبات المسبقة، ثم تمكين مفتاح الترخيص الخاص بها وتثبيت الوظيفة الاضافيه لتحسين أداء التخطيط Dynamics 365 Supply Chain Management.
+لاستخدام تحسين التخطيط، يجب التاكد من ان النظام يحتوي علي كافة المتطلبات المسبقة، ثم تمكين مفتاح الترخيص الخاص بها وتثبيت الوظيفة الإضافية لتحسين أداء التخطيط Dynamics 365 Supply Chain Management.
 
 ### <a name="prerequisites"></a>المتطلبات الأساسية
 
@@ -58,7 +58,7 @@ ms.locfileid: "5808054"
 
 - يجب تشغيل Supply Chain Management على بيئة ذات توفر عالي الطبقة 2 أو أعلى بتمكين LCS (ليست بيئة OneBox)، مع الإصدار Dynamics 365 Supply Chain Management 10.0.7 أو أحدث. إذا حاولت تثبيت الوظيفة الإضافية  في بيئة OneBox، لن يكتمل التثبيت وستحتاج إلى إلغاء التثبيت.
 
-- يجب اعداد النظام Power Platform للتكامل. لمزيد من المعلومات، راجع [المتطلبات الاساسيه لاعداد الوظائف الاضافيه](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins)[واعداد الوظائف الاضافيه](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+- يجب إعداد النظام Power Platform للتكامل. لمزيد من المعلومات، راجع [المتطلبات الاساسيه لإعداد الوظائف الإضافية](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins)[وإعداد الوظائف الإضافية](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
 
 ### <a name="enable-the-planning-optimization-license"></a>تمكين ترخيص تحسين التخطيط
 
@@ -85,7 +85,7 @@ ms.locfileid: "5808054"
 1. في علامة التبويب السريعة **الوظائف الإضافية للبيئة‬**، ينبغي رؤية "جارِ تثبيت تحسين التخطيط".
 1. بعد بضع دقائق ينبغي تغيير **جارٍ التثبيت** إلى **تم التثبيت** (قد تحتاج إلى تحديث الصفحة). عندما يتم التثبيت، ستكون جاهزًا لتنشيط تحسين التخطيط في Dynamics 365 Supply Chain Management.
 
-الغرض الأساسي من تثبيت الوظيفة الاضافيه لتحسين أداء التخطيط هو الاتصال بالخدمة والبيئة. ولذلك ، يجب عليك تثبيت الوظيفة الاضافيه بشكل منفصل علي كل بيئة حيث سيتم استخدام أمثليه التخطيط ، بغض النظر عن إيه تعليمات برمجيه تم نقلها بين البيئات.
+الغرض الأساسي من تثبيت الوظيفة الإضافية لتحسين أداء التخطيط هو الاتصال بالخدمة والبيئة. ولذلك ، يجب عليك تثبيت الوظيفة الإضافية بشكل منفصل علي كل بيئة حيث سيتم استخدام أمثليه التخطيط ، بغض النظر عن إيه تعليمات برمجيه تم نقلها بين البيئات.
 
 ## <a name="integrate-planning-optimization-with-your-system"></a>تكامل أمثليه التخطيط مع النظام الخاص بك
 

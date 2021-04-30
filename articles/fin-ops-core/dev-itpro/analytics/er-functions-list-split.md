@@ -2,7 +2,7 @@
 title: SPLIT ER وظيفة
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية SPLIT (ER).
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745583"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853433"
 ---
 # <a name="split-er-function"></a>SPLIT ER وظيفة
 
@@ -79,6 +79,14 @@ SPLIT (input, delimiter)
 ## <a name="example-2"></a>مثال2
 
 يُرجع التعبير `SPLIT ("XAb aBy", "aB")` قائمة جديدة تتكون من ثلاث سجلات لديهم حقل **القيمة** من نوع *السلسلة*. يحتوي حقل **القيمة** في السجل الأول على النص **"X"** ، ويحتوي حقل **القيمة** في السجل الثاني على النص **&nbsp;** ، ويحتوي حقل **القيمة** في السجل الثالث على النص **"y"**. 
+
+## <a name="example-3"></a>المثال الثالث
+
+يمكنك استخدام الدالة [INDEX](er-functions-list-index.md) للوصول إلى العناصر الفردية لإعداد الإدخال المحدد. إذا قمت بإدخال مصدر البيانات **MyList** من النوع **الحقل المحسوب** وقمت بتكوينه للتعبير `SPLIT("abc", 1)`، يرجع التعبير `INDEX(MyList,2).Value` النص **"b"**.
+
+## <a name="example-4"></a>المثال الرابع
+
+يمكنك استخدام الدالة [ENUMERATE](er-functions-list-enumerate.md) لمساعدتك في الوصول إلى العناصر الفردية لإعداد الإدخال المحدد. إذا قمت أولاً بإدخال مصدر البيانات **MyList** للنوع **الحقل المحسوب** وقمت بتكوينه للتعبير `SPLIT("abc", 1)`، ثم أدخلت مصدر البيانات **EnumeratedList** للنوع **الحقل المحسوب** وقمت بتكوينه للتعبير `ENUMERATE(MyList)`، يرجع التعبير `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` النص **"b"**.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

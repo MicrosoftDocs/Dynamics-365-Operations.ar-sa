@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828024"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897686"
 ---
 # <a name="mobile-invoice-approvals"></a>الموافقة على فاتورة المحمول
 
@@ -32,7 +32,7 @@ ms.locfileid: "5828024"
 
 | المتطلب الأساسي                                                                                            | ‏‏الوصف                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| قبل قراءة دليل المحمول                                                                                |[النظام الأساسي للأجهزة المحمولة](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| قبل قراءة دليل المحمول                                                                                |[النظام الأساسي للأجهزة المحمولة](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | بيئة يتوفر فيها الإصدار 1611 والتحديث الثالث للنظام الأساسي (نوفمبر 2016)                   |
 | تثبيت الإصلاح العاجل KB 3204341.                                                                              | باستطاعة مسجل المهام تسجيل أمري "إغلاق" بطريق الخطأ لمربعات الحوار ذات القوائم المنسدلة المضمنة في التحديث الثالث للنظام الأساسي (تحديث نوفمبر 2016). |
 | تثبيت الإصلاح العاجل KB 3207800.                                                                              | يتيح هذا الإصلاح العاجل عرض المرفقات على عميل المحمول المضمن في التحديث الثالث للنظام الأساسي (تحديث نوفمبر 2016).           |
@@ -213,7 +213,7 @@ ms.locfileid: "5828024"
 
 11. بعد إضافة كافة الحقول من الخطوتين السابقتين، انقر فوق **تم**. يجب أن تكون الصفحة مماثلة للشكل التوضيحي التالي.
     
-    [![الصفحة بعد إضافة الحقول](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![رسم توضيحي يبين الحقول الإضافية المضافة](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. انقر فوق **تم** لإنهاء وضع التحرير.
 

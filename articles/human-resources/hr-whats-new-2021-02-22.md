@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53e9c42f718665165be97e5022a9e767b0436e59
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 61f86cd6168d700a5316768b328466b08d9e8f51
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802205"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892599"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 22 فبراير، 2021
 
@@ -32,7 +32,7 @@ ms.locfileid: "5802205"
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
-لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2021، الموجة 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2021، الموجة 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>في هذا الإصدار
 
@@ -44,7 +44,7 @@ ms.locfileid: "5802205"
 
 | الميزة | خطة الإصدار | الوثائق |
 | --- | --- | --- |
-| تطبيق Dynamics 365 Human Resources لـ Microsoft Teams | [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [تطبيق Human Resources في Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md) |
+| تطبيق Dynamics 365 Human Resources لـ Microsoft Teams | [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [تطبيق Human Resources في Teams](./hr-admin-teams-leave-app.md)<br>[إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md) |
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
 
@@ -68,9 +68,9 @@ ms.locfileid: "5802205"
 
 | الميزة | خطة الإصدار | الوثائق |
 | --- | --- | --- |
-| عرض الإجازات عبر الشركات للمديرين | [عرض إجازات الموظفين عبر الشركات للمديرين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [تكوين معلمات الإجازة والغياب](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-| مساحة عمل إدارة المزايا | [مساحة عمل إدارة المزايا (معاينة)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [مساحة عمل إدارة المزايا](hr-benefits-management-workspace.md) |
-| تقييد الموظفين من تحرير تفاصيل جهة اتصال العمل | [تقييد الموظفين من تحرير تفاصيل جهة اتصال العمل](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [تقييد تحرير المعلومات الشخصية](hr-employee-self-service-restrict-editing.md)|
+| عرض الإجازات عبر الشركات للمديرين | [عرض إجازات الموظفين عبر الشركات للمديرين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [تكوين معلمات الإجازة والغياب](./hr-leave-and-absence-parameters.md) |
+| مساحة عمل إدارة المزايا | [مساحة عمل إدارة المزايا (معاينة)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [مساحة عمل إدارة المزايا](hr-benefits-management-workspace.md) |
+| تقييد الموظفين من تحرير تفاصيل جهة اتصال العمل | [تقييد الموظفين من تحرير تفاصيل جهة اتصال العمل](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [تقييد تحرير المعلومات الشخصية](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>قريبًا
 
@@ -78,15 +78,15 @@ ms.locfileid: "5802205"
 | --- | --- |
 | المهارات التي تم إدخالها بواسطة مدير للموظفين يمكن اعتمادها تلقائيًا من خلال سير عمل | قريبًا. |
 
-للحصول على قائمة كاملة بالميزات المخططة والإصدارات المجدولة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2021، الموجة 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+للحصول على قائمة كاملة بالميزات المخططة والإصدارات المجدولة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2021، الموجة 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>تحديثات المصطلحات لـ Microsoft Dataverse
 
-بدء من نوفمبر 2020، تمت إعادة تسمية Common Data Service إلى [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro). راجع [الإعلانات الرسمية](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/)الموجودة على مدونة Power Apps لمعرفة المزيد. بتغيير هذا الاسم، تم تحديث بعض المصطلحات في Dataverse. علي سبيل المثال ،تم تعيير مصطلح *كيان* إلى مصطلح *جدول* و *حقل* إلى *عمود*. لمزيد من المعلومات، راجع [تحديثات المصطلحات](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
+بدء من نوفمبر 2020، تمت إعادة تسمية Common Data Service إلى [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro). راجع [الإعلانات الرسمية](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/)الموجودة على مدونة Power Apps لمعرفة المزيد. بتغيير هذا الاسم، تم تحديث بعض المصطلحات في Dataverse. علي سبيل المثال ،تم تعيير مصطلح *كيان* إلى مصطلح *جدول* و *حقل* إلى *عمود*. لمزيد من المعلومات، راجع [تحديثات المصطلحات](/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
 
 في هذا الإصدار، تم تحديث المصطلحات ذات الصلة بتكامل Dynamics 365 Human Resources مع Dataverse في كافة أنحاء التطبيق لتعكس هذه التغييرات. على سبيل المثال، نموذج **تكامل Common Data Service** أصبح الآن **تكامل Microsoft Dataverse**.
 
-لمعرفة المزيد حول تكامل Dynamics 365 Human Resources مع Microsoft Dataverse، راجع [تكوين تكامل Microsoft Dataverse ](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) و[تكوين جداول Microsoft Dataverse الظاهرية](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+لمعرفة المزيد حول تكامل Dynamics 365 Human Resources مع Microsoft Dataverse، راجع [تكوين تكامل Microsoft Dataverse ](./hr-admin-integration-common-data-service.md) و[تكوين جداول Microsoft Dataverse الظاهرية](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="updates-to-service-deployment"></a>التحديثات المطلوبة لنشر الخدمة
 
@@ -94,12 +94,12 @@ ms.locfileid: "5802205"
 
 سنستمر في اتباع وتيرة التوزيع على أسبوعين. ومع ذلك، قد يلاحظ العملاء أن التحديثات يتم تطبيقها عادة على بيئات الموارد البشرية الخاصة بهم في يوم مختلف من دورة الأسبوعين من الإصدارات السابقة.
 
-لمزيد من المعلومات حول عملية تحديث الخدمة، راجع [عملية التحديث](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-setup-update-process).
+لمزيد من المعلومات حول عملية تحديث الخدمة، راجع [عملية التحديث](./hr-admin-setup-update-process.md).
 
 ## <a name="see-also"></a>راجع أيضًا
 
 [ما الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 1 من إصدار Dynamics 365 Human Resources  2021](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 1 من إصدار Dynamics 365 Human Resources  2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
 

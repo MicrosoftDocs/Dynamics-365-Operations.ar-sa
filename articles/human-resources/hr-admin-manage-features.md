@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793815"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889826"
 ---
 # <a name="manage-features-in-human-resources"></a>إدارة الميزات في الموارد البشرية
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793815"
 
 كجزء من عملية النشر المستمر لإمكانات جديدة لـ Microsoft Dynamics 365 Human Resources، نحن نريد السماح للعملاء بتجربة الميزات الجديدة في أقرب وقت ممكن. نوفر ميزات المعاينة، والتي تكون جاهزة تقريبًا للتوفر العام وقد خضعت للاختبارات الشاملة. ونحن فقط نبحث عن جولة نهائية من ملاحظات العملاء والتحقق من الصحة قبل أن نقوم بشكل عام بتحرير الميزات.
 
-لمزيد من المعلومات حول الميزات الجديدة في Human Resources، راجع [ما الجديد في Human Resources](hr-admin-whats-new.md) و[Dynamics 365 وخطة إصدار Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+لمزيد من المعلومات حول الميزات الجديدة في Human Resources، راجع [ما الجديد في Human Resources](hr-admin-whats-new.md) و[Dynamics 365 وخطة إصدار Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-توفر مساحة عمل **إدارة الميزات** قائمة بالميزات التي يتم تسليمها في كل إصدار. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها. لمزيد من المعلومات حول إدارة الميزات، راجع [نظرة عامة على إدارة الميزات](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+توفر مساحة عمل **إدارة الميزات** قائمة بالميزات التي يتم تسليمها في كل إصدار. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها. لمزيد من المعلومات حول إدارة الميزات، راجع [نظرة عامة على إدارة الميزات](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 تبقي كافة الميزات الجديدة في معاينه لمده 30 يوما علي الأقل ، وبشكل نموذجي 30-60 يوما. تتوفر الميزات الرئيسية بشكل عام في أكتوبر و ابريل من كل عام يتبع فتره المعاينة. بمجرد أن تشاهد إمكانيات جديده في مساحة عمل **إدارة الميزات**، يمكنك تشغيلها. قد تكون بعض الميزات قيد التشغيل بشكل افتراضي.
 
@@ -93,6 +93,6 @@ ms.locfileid: "5793815"
 ## <a name="see-also"></a>راجع أيضًا
 
 - [ما الجديد في Human Resources](hr-admin-whats-new.md)
-- [خطة إصدار Dynamics 365 و Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [خطة إصدار Dynamics 365 و Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

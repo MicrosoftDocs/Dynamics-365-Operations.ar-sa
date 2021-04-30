@@ -1,5 +1,5 @@
 ---
-title: 'تكوين التكامل مع Dayforce '
+title: تكوين التكامل مع Dayforce
 description: يعتمد التكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce على العديد من خطوات التكوين الموضحة في هذا المقال. يجب عليك تكوين التكامل في كل من Human Resources وDayforce قبل أن تتمكن من معالجة دورة دفع.
 author: andreabichsel
 ms.date: 02/03/2020
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1647b7fbf84a78051e745e918954df32a2e7e1dd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805072"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889994"
 ---
 # <a name="configure-integration-with-dayforce"></a>تكوين التكامل مع Dayforce 
 
@@ -53,8 +53,8 @@ ms.locfileid: "5805072"
 
 لمزيد من المعلومات حول حسابات مساحة تخزين Azure وسلاسل اتصال مساحة تخزين Azure، راجع مقالات Azure التالية:
 
-- [حول حسابات مساحة تخزين Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [تكوين سلاسل اتصال مساحة تخزين Azure](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
+- [حول حسابات مساحة تخزين Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [تكوين سلاسل اتصال مساحة تخزين Azure](/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>تفاصيل تقنية عند تمكين تكامل الرواتب
 
@@ -65,6 +65,7 @@ ms.locfileid: "5805072"
 
 > [!NOTE]
 > يتم تشفير حزمة البيانات التي تم نقلها إلى نقطة نهاية SFTP باستخدام مفتاح فريد للحزمة. المفتاح موجود في Azure Key Vault والذي يمكن الوصول إليه عن طريق Ceridian فقط. لا يمكن فك تشفير محتويات حزمة البيانات وفحصها. إذا كنت بحاجة إلى فحص محتويات حزمة البيانات، ستحتاج إلى تصدير مشروع البيانات "تصدير تكامل الرواتب" يدويا، وتنزيله، ثم فتحه. لن تطبق عملية التصدير اليدوية التشفير أو نقل الحزمة.
+> بالنسبة للمثيلات التي يتم فيها إرسال ملفات التكامل من Dynamics 365 Human Resources UAT أو بيئة اختبار معزولة إلى بيئة Ceridian Dayforce Test، يمكنك استخدام عنوان URL للمخزن الرئيسي التالي: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>تكوين بياناتك 
 
@@ -124,10 +125,10 @@ ms.locfileid: "5805072"
 
 لمزيد من المعلومات حول كيفية تحديد وإدارة برنامج ميزات، راجع المقالات التالية:
 
-- [تقديم برنامج ميزات الموظفين](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [إنشاء ميزة جديدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [تحديد قواعد وسياسات استحقاق الفائدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [تسجيل ميزات للعاملين وإزالتها منهم](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [تقديم برنامج ميزات الموظفين](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [إنشاء ميزة جديدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [تحديد قواعد وسياسات استحقاق الفائدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [تسجيل ميزات للعاملين وإزالتها منهم](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>التعويض 
 
@@ -137,20 +138,20 @@ ms.locfileid: "5805072"
 
 لمزيد من المعلومات حول خطط التعويض، راجع المقالات التالية:
 
-- [إنشاء خطط التعويض الثابت](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [إنشاء خطط التعويض المتغير](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [تطوير خطط وبنية المرتب/التعويض](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [تعويض العملية](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-- [تحديد عملية التعويض وحساب النتائج](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [تسجيل موظف في خطة تعويض ثابتة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [تسجيل موظف في خطة التعويض المتغيرة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [إنشاء خطط التعويض الثابت](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [إنشاء خطط التعويض المتغير](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [تطوير خطط وبنية المرتب/التعويض](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [تعويض العملية](/dynamics365/unified-operations/talent/process-compensation)
+- [تحديد عملية التعويض وحساب النتائج](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [تسجيل موظف في خطة تعويض ثابتة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [تسجيل موظف في خطة التعويض المتغيرة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>الوظائف 
 
 الوظيفة هي مجموعة من المهام والمسؤوليات المطلوبة من الشخص الذي يؤدي وظيفة. لمزيد من المعلومات، راجع المقالات التالية:
 
-- [إعداد مكونات وظيفة](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
-- [تحديد الوظائف الجديدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [إعداد مكونات وظيفة](/dynamics365/unified-operations/talent/create-job)
+- [تحديد الوظائف الجديدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>المناصب‬
 
@@ -174,8 +175,8 @@ ms.locfileid: "5805072"
 
 لمزيد من المعلومات، راجع المقالات التالية:
 
-- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [إعداد المناصب](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [إعداد المناصب](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>الأقسام
 
@@ -183,8 +184,8 @@ ms.locfileid: "5805072"
 
 لمزيد من المعلومات، راجع المقالات التالية:
 
-- [إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [تحديد الأقسام الجديدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [تحديد الأقسام الجديدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>دورات الدفع وفترات الدفع
 
