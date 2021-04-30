@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837647"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910391"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>تعاون المورد مع موردين خارجيين
 
@@ -33,7 +33,7 @@ ms.locfileid: "5837647"
 > [!NOTE]
 > تنطبق المعلومات الخاصة بتعاون المورّد‬ في هذا الموضوع على الإصدار الحالي من Supply Chain Management. في الإصدار 7.0 من Microsoft Dynamics AX 7.0 (فبراير 2016) والإصدار 7.0.1 من التطبيق Microsoft Dynamics AX 7.0.1 (مايو 2016)، يمكنك التعاون مع المورّدين باستخدام الوحدة النمطية **مدخل المورِّد**. لمزيد من المعلومات حول الوحدة النمطية **مدخل المورد**، راجع [التعاون مع الموردين باستخدام مدخل المورد على الإنترنت](collaborate-vendors-vendor-portal.md).
 
-لمزيد من المعلومات حول كيفية استخدام الموردين واجهة تعاون الموردين في عمليات الفوترة، راجع [مساحة عمل فوترة تعاون المورد](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). لمزيد من المعلومات حول كيفية توفير مستخدمين جدد لتعاون المورد، راجع [إدارة مستخدمي تعاون المورد](manage-vendor-collaboration-users.md).
+لمزيد من المعلومات حول كيفية استخدام الموردين واجهة تعاون الموردين في عمليات الفوترة، راجع [مساحة عمل فوترة تعاون المورد](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). لمزيد من المعلومات حول كيفية توفير مستخدمين جدد لتعاون المورد، راجع [إدارة مستخدمي تعاون المورد](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>تعريف المعلومات التي تظهر للموردين عند استجابتهم لأوامر الشراء
 

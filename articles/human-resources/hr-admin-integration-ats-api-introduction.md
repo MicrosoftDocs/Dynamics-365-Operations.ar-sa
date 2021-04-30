@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 599f9728019cd6bc59c59a4f08df06c6c9c9ac31
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f70e377d6844b5c4f9201f0a561ad9cfcab2eda1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798407"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890115"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>مقدمة واجهة برمجة التطبيقات لتكامل نظام تعقب مقدم الطلب
 
@@ -45,21 +45,21 @@ ms.locfileid: "5798407"
 
 لمزيد من المعلومات عن واجهة ويب Microsoft Dataverse، راجع:
 
-- [ما هو Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
-- [استخدام  واجهة ويب Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
-- [دليل مطور Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform)
+- [ما هو Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)
+- [استخدام  واجهة ويب Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)
+- [دليل مطور Microsoft Dataverse](/powerapps/developer/data-platform)
 
-تتضمن الوثائق الواردة أعلاه تفاصيل وإرشادات للمطور حول استخدام واجهة ويب Dataverse، مثل [إدارة المصادقة](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api)، و[تنفيذ العمليات](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api)، و[استخدام Postman مع واجهة API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api)، و[استخدام تعقب التغييرات أو رموز دلتا](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) مع واجهة API.
+تتضمن الوثائق الواردة أعلاه تفاصيل وإرشادات للمطور حول استخدام واجهة ويب Dataverse، مثل [إدارة المصادقة](/powerapps/developer/data-platform/webapi/authenticate-web-api)، و[تنفيذ العمليات](/powerapps/developer/data-platform/webapi/perform-operations-web-api)، و[استخدام Postman مع واجهة API](/powerapps/developer/data-platform/webapi/use-postman-web-api)، و[استخدام تعقب التغييرات أو رموز دلتا](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) مع واجهة API.
 
 ### <a name="option-sets"></a>مجموعات الخيارات
 
-يتضمن نموذج البيانات لواجهة API لتكامل نظام ATS الموضح في هذا المستند مجموعات الخيارات التي توفر قيمًا عددية مقترنة بخصائص الوحدة. للحصول على تفاصيل حول العمل مع مجموعات الخيارات في واجهة ويب Dataverse، راجع [إنشاء وتحديث مجموعات الخيارات باستخدام واجهة الويب](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets). يتم تحديد مجموعات الخيارات لكل بيئة من بيئات Dataverse.
+يتضمن نموذج البيانات لواجهة API لتكامل نظام ATS الموضح في هذا المستند مجموعات الخيارات التي توفر قيمًا عددية مقترنة بخصائص الوحدة. للحصول على تفاصيل حول العمل مع مجموعات الخيارات في واجهة ويب Dataverse، راجع [إنشاء وتحديث مجموعات الخيارات باستخدام واجهة الويب](/powerapps/developer/data-platform/webapi/create-update-optionsets). يتم تحديد مجموعات الخيارات لكل بيئة من بيئات Dataverse.
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>الجداول الظاهرية للموارد البشرية في Dataverse
 
 تستخدم نقاط النهاية لواجهات API لتكامل نظام ATS قدرات النظام الأساسي في الجدول الظاهري لـ Microsoft Dataverse. بشكل افتراضي، لا يتم نشر الجداول الظاهرية ونقاط نهاية واجهات API المقترنة بها لبيئات الموارد البشرية، مما يتيح للمؤسسات تحديد نقاط نهاية OData التي سيتم عرضها للبيئة. لاستخدام واجهة API، يجب إنشاء الجداول الظاهرية لكيانات الموارد البشرية للبيئة. 
 
-للحصول على معلومات حول إنشاء الجداول الظاهرية لواجهة API، راجع [تكوين الجداول الظاهرية في Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+للحصول على معلومات حول إنشاء الجداول الظاهرية لواجهة API، راجع [تكوين الجداول الظاهرية في Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="data-model"></a>نموذج البيانات
 
@@ -134,8 +134,8 @@ ms.locfileid: "5798407"
 ## <a name="see-also"></a>راجع أيضًا
 
 [تعيين المرشحين للوظائف](hr-personnel-recruit.md)<br>
-[ما هو Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[استخدام  واجهة ويب Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
-[إنشاء مجموعات الخيارات وتحديثها باستخدام واجهة الويب](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[ما هو Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)<br>
+[استخدام  واجهة ويب Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)<br>
+[إنشاء مجموعات الخيارات وتحديثها باستخدام واجهة الويب](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

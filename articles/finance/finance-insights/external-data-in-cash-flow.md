@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7d5768a6cb2b3623333fab93a42ac5840e87ec68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818598"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897878"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>استخدم البيانات الخارجية في تقديرات التدفق النقدي (معاينة)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5818598"
 
 استخدم علامة التبويب **المصدر الخارجي** في الصفحة **إعداد تقدير التدفقات النقدية** (**إدارة النقد والبنوك \> تقدير التدفقات النقدية‬**) لإدخال الإعدادات التي تدعم استخدام البيانات الخارجية في تقديرات التدفقات النقدية.
 
-للحصول على المزيد من المعلومات حول الإعداد، راجع [تقدير التدفقات النقدية](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting).
+للحصول على المزيد من المعلومات حول الإعداد، راجع [تقدير التدفقات النقدية](../cash-bank-management/cash-flow-forecasting.md).
 
 لإدخال بيانات خارجية لتقديرات التدفقات النقدية، يمكنك استخدام خبرات فتح في Excel‬ لإدخال البيانات الخارجية وتعديلها. حدد الزر **البيانات الخارجية**، ثم حدد إما **إضافة بيانات خارجية** أو **تحرير البيانات الخارجية الموجودة**. عند فتح الملف Microsoft Excel، فإنه يمكنك إدخال معلومات في الحقول التالية:
 

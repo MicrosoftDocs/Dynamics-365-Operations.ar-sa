@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794843"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892241"
 ---
 # <a name="integration-with-finance-faq"></a>‏‫الأسئلة المتداولة حول التكامل مع Finance
 
@@ -50,7 +50,7 @@ ms.locfileid: "5794843"
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>هل يمكنني إنشاء تعيين جديد من دون استخدام القوالب؟
 
-تعتبر القوالب نقطة بداية. يمكنك إنشاء قالبك الخاص، ولكنك تحتاج دائمًا إلى قالب عند إنشاء مشروع تكامل. للحصول على مزيد من المعلومات حول موحد البيانات (DI) والقوالب والمشاريع، راجع [دمج البيانات في Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+تعتبر القوالب نقطة بداية. يمكنك إنشاء قالبك الخاص، ولكنك تحتاج دائمًا إلى قالب عند إنشاء مشروع تكامل. للحصول على مزيد من المعلومات حول موحد البيانات (DI) والقوالب والمشاريع، راجع [دمج البيانات في Microsoft Dataverse](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>هل يمكنني تعيين الأبعاد المالية للتحويل بين Human Resources وFinance؟
 
@@ -145,7 +145,7 @@ ms.locfileid: "5794843"
 
 إذا لم تظهر البيانات كما هو متوقع في Dataverse، فتأكد من دعم الكيان في التكامل. لتضمين بيانات إضافية في Dataverse، ستتم مطالبة بإجراء تغيير من جانب Microsoft.
 
-إذا كان الكيان مدعومًا والبيانات متوفرة في Dataverse، فتأكد من صحة التعيين في موحد البيانات. إذا كان تعيين موحد البيانات مقبولاً، فتحقق عندئذِ من نجاح تشغيل مهام إدارة البيانات. قد تحدث بعض الأخطاء أثناء تنفيذ الوظائف الدفعية. لمزيد من المعلومات حول إدارة البيانات، راجع [إدارة البيانات](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+إذا كان الكيان مدعومًا والبيانات متوفرة في Dataverse، فتأكد من صحة التعيين في موحد البيانات. إذا كان تعيين موحد البيانات مقبولاً، فتحقق عندئذِ من نجاح تشغيل مهام إدارة البيانات. قد تحدث بعض الأخطاء أثناء تنفيذ الوظائف الدفعية. لمزيد من المعلومات حول إدارة البيانات، راجع [إدارة البيانات](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>عناوين الموظفين غير صحيحة بعد استيرادها إلى Finance. ماذا أفعل؟
 
@@ -172,15 +172,15 @@ ms.locfileid: "5794843"
 
 - موحد البيانات (DI): 
 
-  - [دمج البيانات في Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [دمج البيانات في Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
-  - [إدارة أخطاء موحد البيانات واستكشاف الأخطاء وإصلاحها](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [إدارة أخطاء موحد البيانات واستكشاف الأخطاء وإصلاحها](/powerapps/administrator/data-integrator-error-management)
 
-  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في Power Apps و Microsoft Power AutomateوDataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في Power Apps و Microsoft Power AutomateوDataverse](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - إدارة البيانات:
 
-  - [إدارة البيانات](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [إدارة البيانات](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

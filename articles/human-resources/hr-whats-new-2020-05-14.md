@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e70d8fc62150d68503552754e94c7130d8960c76
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f8244d512c9e1236fc52cd4a91cdc78cc2b9b984
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802349"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893091"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (14‏ مايو 2020)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5802349"
 
 ## <a name="platform-changes"></a>تغييرات النظام الأساسي
 
-يتم تضمين تغييرات النظام الأساسي في إصدار هذا الأسبوع. لمزيد من المعلومات، راجع [تحديثات النظام الأساسي للإصدار 10.0.10 من تطبيقات Finance and Operations (مايو 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). يتضمن هذا الإصدار إصلاحات الأخطاء والتغييرات التي تمت على طرق العرض المحفوظة.
+يتم تضمين تغييرات النظام الأساسي في إصدار هذا الأسبوع. لمزيد من المعلومات، راجع [تحديثات النظام الأساسي للإصدار 10.0.10 من تطبيقات Finance and Operations (مايو 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). يتضمن هذا الإصدار إصلاحات الأخطاء والتغييرات التي تمت على طرق العرض المحفوظة.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>تأكد من أن قوائم اختيار Dataverse متسقة مع تعدادات الإجازات (436343)
 
@@ -116,7 +116,7 @@ ms.locfileid: "5802349"
 ## <a name="see-also"></a>راجع أيضًا
 
 [المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
 

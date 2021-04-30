@@ -1,6 +1,6 @@
 ---
 title: تصميم تكوينات ER لمنع أحرف قائمة مكونات الصنف في الملفات التي تم إنشاؤها
-description: يوضح هذا الموضوع كيفيه تكوين تنسيق اعداد التقارير الكترونيه (ER) لإنشاء التقارير التي تقوم بمنع أحرف علامة ترتيب البايت (BOM).
+description: يوضح هذا الموضوع كيفيه تكوين تنسيق إعداد التقارير الكترونيه (ER) لإنشاء التقارير التي تقوم بمنع أحرف علامة ترتيب البايت (BOM).
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,32 +13,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743523"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893266"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>تصميم تكوينات ER لمنع أحرف قائمة مكونات الصنف في الملفات التي تم إنشاؤها
 
 [!include [banner](../includes/banner.md)]
 
-يمكنك تصميم تنسيقات [حل](er-quick-start1-new-solution.md) [إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) لإنشاء مستندات صادرة بتنسيق XML. لإنشاء المستندات كنص أو كملفات XML، يجب ان يتضمن الحل [تكوين ER](general-electronic-reporting.md#Configuration) الذي يحتوي علي [مكون التنسيق الخاص بـ ER](general-electronic-reporting.md#FormatComponentOutbound). لتحديد [ترميز الأحرف](https://docs.microsoft.com/windows/win32/intl/character-sets) الذي يمثل مجموعه الأحرف في الملفات التي تم إنشاؤها، يجب ان يحتوي التنسيق ER علي عنصر تنسيق **الملف\\عام**. لتكوين مكون التنسيق الخاص بـ ER، يجب فتح [الإصدار التمهيدي](general-electronic-reporting.md#component-versioning) لتكوين ER في مصمم التنسيق الخاص بـ ER، وإضافة العنصر **عام\\ملف**. في حقل **الترميز**، حدد ترميز الملفات الصادرة التي يتم إنشاؤها في وقت التشغيل باستخدام هذا المكون.
+يمكنك تصميم تنسيقات [حل](er-quick-start1-new-solution.md) [إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) لإنشاء مستندات صادرة بتنسيق XML. لإنشاء المستندات كنص أو كملفات XML، يجب ان يتضمن الحل [تكوين ER](general-electronic-reporting.md#Configuration) الذي يحتوي علي [مكون التنسيق الخاص بـ ER](general-electronic-reporting.md#FormatComponentOutbound). لتحديد [ترميز الأحرف](/windows/win32/intl/character-sets) الذي يمثل مجموعه الأحرف في الملفات التي تم إنشاؤها، يجب ان يحتوي التنسيق ER علي عنصر تنسيق **الملف\\عام**. لتكوين مكون التنسيق الخاص بـ ER، يجب فتح [الإصدار التمهيدي](general-electronic-reporting.md#component-versioning) لتكوين ER في مصمم التنسيق الخاص بـ ER، وإضافة العنصر **عام\\ملف**. في حقل **الترميز**، حدد ترميز الملفات الصادرة التي يتم إنشاؤها في وقت التشغيل باستخدام هذا المكون.
 
 > [!NOTE]
 > إذا كان التنسيق يحتوي علي اسم ترميز غير صحيح، يتم طرح خطا عند حفظ التغييرات إلى إعدادات التنسيق.
 
 ![إضافة عنصر جذر في صفحة مصمم التنسيق](./media/er-suppress-bom-characters-image1.gif)
 
-إذا قمت بتحديد **UTF-8** أو **UTF-16** أو **UTF-32** كترميز، سيتوفر الخيار إيقاف **أحرف قائمة مكونات الصنف**. يتم تعيين هذا الخيار على **نعم** لمنع [أحرف علامة ترتيب البايت (BOM)](https://docs.microsoft.com/globalization/encoding/byte-order-mark) في الملفات الصادرة التي يتم إنشاؤها في وقت التشغيل عند تشغيل التنسيق ER القابل للتحرير.
+إذا قمت بتحديد **UTF-8** أو **UTF-16** أو **UTF-32** كترميز، سيتوفر الخيار إيقاف **أحرف قائمة مكونات الصنف**. يتم تعيين هذا الخيار على **نعم** لمنع [أحرف علامة ترتيب البايت (BOM)](/globalization/encoding/byte-order-mark) في الملفات الصادرة التي يتم إنشاؤها في وقت التشغيل عند تشغيل التنسيق ER القابل للتحرير.
 
 > [!NOTE]
 > وفي حالة ترك حقل **ترميز** فارغًا، فإنه يتم استخدام القيمة الافتراضية **UTF-8**.
 
 ![تعيين خيار إيقاف أحرف قائمه مكونات الصنف في الصفحة مصمم التنسيق](./media/er-suppress-bom-characters-image2.gif)
 
-لمراجعه الوظيفة في وقت التشغيل، أكمل الاجراء المناسب. علي سبيل المثال، أكمل الخطوات الموجودة في الموضوع [تاجيل تنفيذ عناصر XML في التنسيق ER](er-defer-xml-element.md). بعد إكمال الخطوات الموجودة في [تعديل التنسيق بحيث يستند الحساب إلى قسم الإخراج الذي تم إنشاؤه ](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) لهذا الموضوع، اتبع الخطوات الاضافيه التالية.
+لمراجعه الوظيفة في وقت التشغيل، أكمل الاجراء المناسب. علي سبيل المثال، أكمل الخطوات الموجودة في الموضوع [تاجيل تنفيذ عناصر XML في التنسيق ER](er-defer-xml-element.md). بعد إكمال الخطوات الموجودة في [تعديل التنسيق بحيث يستند الحساب إلى قسم الإخراج الذي تم إنشاؤه ](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) لهذا الموضوع، اتبع الخطوات الإضافية التالية.
 
 1. حدد ترميز UTF:
 

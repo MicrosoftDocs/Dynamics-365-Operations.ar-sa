@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 29bb9d05aa939ec82595e153faf03f290e219589
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8976bc69f63fe5b05ab7dcb8d415515436902658
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817811"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909074"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>مزامنة المنتجات مباشرةً من Supply Chain Management إلى المنتجات في Sales‎‎
 
@@ -30,7 +30,7 @@ ms.locfileid: "5817811"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Microsoft Dataverse للتطبيقات‏‎](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Microsoft Dataverse للتطبيقات‏‎](/powerapps/administrator/data-integrator).
 
 يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة المنتجات مباشرة من Dynamics 365 Supply Chain Management إلى Dynamics 365 Sales.
 

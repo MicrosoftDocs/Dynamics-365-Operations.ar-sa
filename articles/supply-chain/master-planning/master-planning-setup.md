@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e30b02a6f98f638954adc7ec335babd518b92bf4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833391"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909393"
 ---
 # <a name="set-up-master-planning"></a>إعداد التخطيط الرئيسي
 
@@ -106,11 +106,11 @@ ms.locfileid: "5833391"
 
 ### <a name="operations-scheduling"></a>جدولة العمليات
 
-يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن. لا تحدد جدولة العمليات عمليات مسار الإنتاج إلى وظائف. لمزيد من المعلومات حول جدولة العمليات راجع [جدولة العمليات](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن. لا تحدد جدولة العمليات عمليات مسار الإنتاج إلى وظائف. لمزيد من المعلومات حول جدولة العمليات راجع [جدولة العمليات](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>جدولة الوظائف
 
-جدولة الوظائف هي طريقة جدولة أكثر تفصيلًا، حيث يتم تقسيم كل عملية إلى مهامها أو وظائفها الفردية. وتتضمن جدولة الوظائف معلومات حول القدرة. إذ إنها تُستخدم عادةً لجدولة الوظائف الفردية في صالة الإنتاج‬ للحصول على إطار زمني فوري أو قصير الأمد. لمزيد من المعلومات حول جدولة الوظيفة راجع [جدولة الوظيفة](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+جدولة الوظائف هي طريقة جدولة أكثر تفصيلًا، حيث يتم تقسيم كل عملية إلى مهامها أو وظائفها الفردية. وتتضمن جدولة الوظائف معلومات حول القدرة. إذ إنها تُستخدم عادةً لجدولة الوظائف الفردية في صالة الإنتاج‬ للحصول على إطار زمني فوري أو قصير الأمد. لمزيد من المعلومات حول جدولة الوظيفة راجع [جدولة الوظيفة](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>الحدود الزمنية بالأيام
 
@@ -158,7 +158,7 @@ ms.locfileid: "5833391"
 
 عن طريق تعيين خيار **رسالة الإجراء** إلى **نعم**، يمكنك تجاوز الحد الزمني لرسالة الإجراء المحدَّد للصنف أثناء الجدولة الرئيسية. وفي هذه الحالة، أدخِل عدد الأيام التي يجب أن تقوم فيها الجدولة الرئيسية بإنشاء رسائل إجراءات للمتطلبات. يتم حساب الحد الزمني لرسالة الإجراء بداية من التاريخ الحالي.
 
-للحصول على المزيد من المعلومات حول رسائل الإجراءات، راجع [رسائل الإجراءات](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+للحصول على المزيد من المعلومات حول رسائل الإجراءات، راجع [رسائل الإجراءات](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > يتسبب حساب رسائل الإجراء في وقت أطول في التشغيل للتخطيط الرئيسي. إذا كانت رسائل الإجراء لا يتم تحليلها بشكل منتظم وتطبيقها (يوميا، أو أسبوعيا، وهكذا) ، قم بمراعاة إيقاف تشغيل الحساب اثناء تشغيل التخطيط الرئيسي. لإيقاف تشغيل الحساب، من صفحة **الخطط الرئيسية**، عيِّن الحد الزمني **لرسالة الإجراء** إلى **0** (صفر) للخطة الرئيسية قيد التشغيل. تأكد أيضًا من إيقاف تشغيل إعداد **رسالة الإجراء** لكافة مجموعات التغطية.
@@ -223,7 +223,7 @@ ms.locfileid: "5833391"
 
 يستخدم النظام أوامر التوريد المخططة التي تقع ضمن هذا الحد الزمني فقط، ويقوم بإنشاء أمر مخطط جديد خارجه. تتمثل ميزة الأيام السالبة الديناميكية في أنها ستتضمن زمن وصول المنتجات الفردية لإعادة استخدام الأوامر الموجودة وتجنب إنشاء أوامر مخططة جديدة ستنتهي في يوم لاحق بسبب التأخيرات التي سببها زمن الوصول. 
 
-للحصول على المزيد من المعلومات، راجع [الأيام السالبة والأيام السالبة الديناميكية](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+للحصول على المزيد من المعلومات، راجع [الأيام السالبة والأيام السالبة الديناميكية](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

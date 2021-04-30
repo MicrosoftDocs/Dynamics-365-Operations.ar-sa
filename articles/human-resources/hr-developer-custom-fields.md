@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b0a3efffaac5158f8dcdbc424139046a3fbc2f07
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c232955873706bcceb6c685527a0dd92b129e543
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793647"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893414"
 ---
 # <a name="custom-fields"></a>الحقول المخصصة
 
@@ -29,16 +29,16 @@ ms.locfileid: "5793647"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يمكنك إضافة حقول مخصصة إلى الصفحات في Dynamics 365 Human Resources. لمزيد من المعلومات حول إنشاء الحقول المخصصة، راجع [‏‫إنشاء حقول مخصصة والعمل باستخدامها‬](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
+يمكنك إضافة حقول مخصصة إلى الصفحات في Dynamics 365 Human Resources. لمزيد من المعلومات حول إنشاء الحقول المخصصة، راجع [‏‫إنشاء حقول مخصصة والعمل باستخدامها‬](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 
-تدعم معظم جداول Dataverse الحقول المخصصة. للحصول على قائمة كاملة بجداول Dataverse، راجع [جداول Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
+تدعم معظم جداول Dataverse الحقول المخصصة. للحصول على قائمة كاملة بجداول Dataverse، راجع [جداول Dataverse](./hr-developer-entities.md). 
 
-تأكد من تمكين أية حقول مخصصة تقوم بإنشاءها بحيث يمكنك استخدامها في Dataverse. لمزيد من المعلومات، راجع [‏‫عرض الحقول المخصصة في كيانات البيانات‬](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
+تأكد من تمكين أية حقول مخصصة تقوم بإنشاءها بحيث يمكنك استخدامها في Dataverse. لمزيد من المعلومات، راجع [‏‫عرض الحقول المخصصة في كيانات البيانات‬](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[جداول Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
-[إنشاء حقول مخصصة والعمل باستخدامها](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
-[عرض الحقول المخصصة في كيانات البيانات](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+[جداول Dataverse](./hr-developer-entities.md)</br>
+[إنشاء حقول مخصصة والعمل باستخدامها](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[عرض الحقول المخصصة في كيانات البيانات](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

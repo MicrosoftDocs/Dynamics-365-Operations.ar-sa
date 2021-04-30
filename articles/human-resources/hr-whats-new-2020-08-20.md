@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 69304cbffafa4c20dbbbb31d5c19920f669761b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 95ffe90795b9781408607257f3f63bf68c489b56
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800155"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891807"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (20 أغسطس 2020)
 
@@ -65,15 +65,15 @@ ms.locfileid: "5800155"
 
 يمكنك جعل الحقول إلزامية باستخدام إمكانيات التخصيص في Human Resources. تتطلب هذه الميزة **طرق عرض محفوظة**. لمزيد من المعلومات حول طرق العرض المحفوظة، راجع:
 
-- [طرق العرض المحفوظة - التوفر العام](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
-- [إنشاء نماذج تستخدم طرق العرض المحفوظة بشكل كامل](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [طرق العرض المحفوظة - التوفر العام](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
+- [إنشاء نماذج تستخدم طرق العرض المحفوظة بشكل كامل](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>تطبيق Human Resources في Teams
 
 بإمكان الموظفين عرض وطلب الوقت بعيدًا عن العمل ضمن Microsoft Teams يمكنهم التفاعل مع روبوت لإنشاء طلبات الإجازات. لمزيد من المعلومات، راجع:
 
-- [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
-- [تطبيق Human Resources في Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
+- [تطبيق Human Resources في Teams](./hr-admin-teams-leave-app.md)
 
 ## <a name="coming-soon"></a>قريبًا
 
@@ -117,7 +117,7 @@ ms.locfileid: "5800155"
 ## <a name="see-also"></a>راجع أيضًا
 
 [الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: fb1e64b6a48367557c1d009d0e1c48f096c32abf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 869a2f83360c1d6515bbe2868f1450f76ff3a13f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749187"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909829"
 ---
 # <a name="create-alert-rules"></a>إنشاء قواعد تنبيه
 
@@ -101,7 +101,7 @@ ms.locfileid: "5749187"
 2. قم بإنشاء تنبيه من نموذج مستعرض جدول النظام.
 
 ### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>عدم عمل التنبيهات المستندة إلى التغيير في تغييرات حالة الدُفعة
-لا تعمل التنبيهات المستندة إلى التغيير مع تغييرات حالة الدُفعة لأنها ليست متوقفة عن التشغيل لأسباب تتعلق بالأداء. وبدلا من ذلك، يجب إعداد إمكانية **تنبيهات الدفعة**. لمزيد من المعلومات، راجع [إعداد تنبيهات للنماذج الدُفعية المحسنة](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/alerts#set-up-alerts-for-batch-enhanced-forms).
+لا تعمل التنبيهات المستندة إلى التغيير مع تغييرات حالة الدُفعة لأنها ليست متوقفة عن التشغيل لأسباب تتعلق بالأداء. وبدلا من ذلك، يجب إعداد إمكانية **تنبيهات الدفعة**. لمزيد من المعلومات، راجع [إعداد تنبيهات للنماذج الدُفعية المحسنة](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

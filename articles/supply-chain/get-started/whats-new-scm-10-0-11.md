@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b66fd7c0ca79f21ff51beee22e4fc57c37a1904
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821167"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909587"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>ما الجديد والمتغير في Dynamics 365 Supply Chain Management 10.0.11 (يوليو 2020)
 
@@ -33,19 +33,19 @@ ms.locfileid: "5821167"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
+يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
-- [تخزين تقارير المخزون الفعلي](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+- [تخزين تقارير المخزون الفعلي](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [تحسينات استلام لوحة الترخيص لتطبيق المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة‬](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [تحسينات استلام لوحة الترخيص لتطبيق المستودع](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة‬](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [تحسينات في حجز البنود لنموذج حجز رقم الدفعة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - لمزيد من المعلومات، راجع [حجز نفس الدُفعة لأمر مبيعات](../sales-marketing/reserve-same-batch-sales-order.md).
+- [تحسينات في حجز البنود لنموذج حجز رقم الدفعة](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - لمزيد من المعلومات، راجع [حجز نفس الدُفعة لأمر مبيعات](../sales-marketing/reserve-same-batch-sales-order.md).
 
-- [كيانات البيانات الجديدة لمنطقة التصنيع](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [كيانات البيانات الجديدة لمنطقة التصنيع](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [استلام زائد لكميات حمل العمل](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - لمزيد من المعلومات، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](../warehousing/inbound-load-handling.md).
+- [استلام زائد لكميات حمل العمل](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - لمزيد من المعلومات، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](../warehousing/inbound-load-handling.md).
 
-- [الإبلاغ كمنتهية على أرقام الدفعات من جهاز بطاقة الوظيفة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - لمزيد من المعلومات، راجع [الإبلاغ عن الانتهاء من جهاز بطاقة الوظيفة](../production-control/report-finished-job-device.md).
+- [الإبلاغ كمنتهية على أرقام الدفعات من جهاز بطاقة الوظيفة](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - لمزيد من المعلومات، راجع [الإبلاغ عن الانتهاء من جهاز بطاقة الوظيفة](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -61,7 +61,7 @@ ms.locfileid: "5821167"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 1 لإصدار 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 1 لإصدار 2020](/dynamics365-release-plan/2020wave1/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 

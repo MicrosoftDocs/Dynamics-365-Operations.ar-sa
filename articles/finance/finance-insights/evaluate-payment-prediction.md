@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818599"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897902"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>تقييم نموذج التوقع بالدفع الأولي للعميل (معاينة)
 
@@ -41,7 +41,7 @@ ms.locfileid: "5818599"
 
 تبين الصفحة التي يتم فتحها المعلومات التالية:
 
-- في القسم **الأداء**، توفر درجة أداء النموذج منظورًا لجودة النموذج. لمزيد من المعلومات حول هذه الدرجة، راجع [التنبؤ بأداء النموذج](https://docs.microsoft.com/ai-builder/prediction-performance) في وثائق AI Builder.
+- في القسم **الأداء**، توفر درجة أداء النموذج منظورًا لجودة النموذج. لمزيد من المعلومات حول هذه الدرجة، راجع [التنبؤ بأداء النموذج](/ai-builder/prediction-performance) في وثائق AI Builder.
 - يعرض القسم **البيانات الأكثر تأثيرًا** مدى أهمية اختلاف أنواع الإدخال المختلفة للنموذج الخاص بك. يمكنك تقييم هذه القائمة والنسب المئوية المقابلة لها لتحديد ما إذا كانت المعلومات متسقة مع ما تعرفه فيما يتعلق بأعمالك والسوق.
 
     [![قسمي الأداء والبيانات الأكثر تأثيرًا لنموذج التنبؤ](./media/models.png)](./media/models.png)

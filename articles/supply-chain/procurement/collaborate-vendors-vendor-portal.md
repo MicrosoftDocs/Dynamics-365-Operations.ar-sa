@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a9500efb2a2bab19c3ee1c81455adfda8bef03f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ceffa7028f4490a88027a2affdc898877cc2db43
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822481"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910055"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>التعاون مع المورّدين باستخدام مدخل المورِّد‬
 
@@ -97,7 +97,7 @@ ms.locfileid: "5822481"
 
 [أمان مستخدم مدخل المورّد على الإنترنت‬](configure-security-vendor-portal-users.md)
 
-[مساحة عمل فوترة تعاون المورد](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
+[مساحة عمل فوترة تعاون المورد](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 

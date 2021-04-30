@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 17ae3cc788c60917807acece2fc21f6c52d8ffe0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13b81459fe3449a90839dac7637118f09afe2e55
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835668"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910223"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>سياسة مرنة لحجز البعد على مستوى المستودع
 
@@ -232,7 +232,7 @@ ms.locfileid: "5835668"
 لأن الوظيفة **معالجة حسب لوحة الترخيص** لا تدعم العمل الذي يغطي بالتات متعددة، فمن الأفضل وجود عنصر عمل منفصل للوحات الترخيص المختلفة. لاستخدام هذا الأسلوب، أضف الحقل **معرف لوحة ترخيص ملتزمة بالأوامر** كفاصل رأس عمل في صفحة **قالب العمل**.
 
 > [!NOTE]
-> بالنسبة لعمليه إنشاء العمل المرتبطة بالأمر، سيتم تعيين قيمه "بعد المخزون المرتبط بالطلب" إلى بنود عمل الانتقاء، ولن يمكن عرض قيمه لوح الترخيص مباشره. يتم دعم العمليه *الموجهة بواسطة المستخدم* فقط عند اعداد عنصر قائمه الجهاز المحمول.
+> بالنسبة لعمليه إنشاء العمل المرتبطة بالأمر، سيتم تعيين قيمه "بعد المخزون المرتبط بالطلب" إلى بنود عمل الانتقاء، ولن يمكن عرض قيمه لوح الترخيص مباشره. يتم دعم العمليه *الموجهة بواسطة المستخدم* فقط عند إعداد عنصر قائمه الجهاز المحمول.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>السيناريو المثال: إعداد ومعالجة حجز لوحة ترخيص ملتزمة بالأمر
 
@@ -854,7 +854,7 @@ ms.locfileid: "5835668"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-- [أرقام الدُفعات في إدارة المستودعات](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
+- [أرقام الدُفعات في إدارة المستودعات](/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
 - [حجز نفس الدُفعة لأمر مبيعات](../sales-marketing/reserve-same-batch-sales-order.md)
 - [انتقاء الدُفعة الأقدم على جهاز محمول](pick-oldest-batch.md)
 - [تأكيد لوحة الترخيص والدُفعة](batch-and-license-plate-confirmation.md)

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7642b26be08427ccbef3929f2a2e083ce43d4e75
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819640"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897394"
 ---
 # <a name="cash-flow-forecasting"></a>تقدير التدفقات النقدية
 
@@ -144,7 +144,7 @@ ms.locfileid: "5819640"
 
 توضح مساحة عمل **نظرة عامة على النقد - الشركة الحالية** تحليل تقدير التدفق النقدي في بعملة المحاسبة التي تُحددها الشركة. يتم تحديد عملة المحاسبة المستخدمة للتحليلات في صفحة **دفتر الأستاذ**. تعرض مساحة العمل هذه نظرة عامة على تقدير التدفق النقدي وأرصدة الحسابات البنكية لجميع الشركات الحالية. يُعطي مخطط التدفقات النقدية الداخلية والخارجية نظرة عامة على حركات النقد المستقبلية والأرصدة بعملة المحاسبة، إلى جانب معلومات مفصلة حول حركات تم تقديرها. يمكنك أيضًا الاطلاع على أرصدة العملة المُقدرة.
 
-للمزيد من المعلومات حول تحليلات تقديرات التدفقات النقدية، يُرجى مراجعة موضوع [المحتوى نظرة عامة على النقد في Power BI](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
+للمزيد من المعلومات حول تحليلات تقديرات التدفقات النقدية، يُرجى مراجعة موضوع [المحتوى نظرة عامة على النقد في Power BI](./cash-overview-power-bi-content.md).
 
 بالإضافة إلى ذلك، يمكنك عرض بيانات تقديرات التدفقات النقدية لحسابات محددة، وأوامر، وأصناف من خلال الصفحات التالية:
 

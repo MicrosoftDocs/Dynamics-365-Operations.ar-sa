@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811277"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897026"
 ---
 # <a name="get-started-with-financial-reporting"></a>الشروع في العمل مع التقارير المالية 
 
@@ -148,7 +148,7 @@ ms.locfileid: "5811277"
 * في Internet Explorer، حدد **الإعدادات**، ثم حدد **خيارات الإنترنت**. حدد علامة التبويب **الأمان**، ثم حدد المواقع الموثوق بها. في المنطقة المسماة مستوى الأمان لهذه المنطقة، غيِّر الخيار إلى **متوسط منخفض**.
 * عطَّل أداة منع الإطارات المنبثقة في المستعرض.
 * يجب أن تكون محطات العمل متوفرة لتثبيت Microsoft .NET Framework 4.6.2 أو إصدار أحدث منه. ويمكن تنزيل هذا الإصدار من Microsoft .NET ويمكن تنزيل هذا الإصدار من [مركز التنزيل لـ Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* إذا كنت تستخدم مستعرض Chrome، يجب تثبيت ملحق ClickOnce لتتمكن من تنزيل عميل مصمم التقارير. إذا كنت تستخدم مستعرض Chrome في وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي. لمزيد من المعلومات حول ملحق ClickOnce من Chrome، راجع [متطلبات النظام لعمليات نشر المجموعة](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* إذا كنت تستخدم مستعرض Chrome، يجب تثبيت ملحق ClickOnce لتتمكن من تنزيل عميل مصمم التقارير. إذا كنت تستخدم مستعرض Chrome في وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي. لمزيد من المعلومات حول ملحق ClickOnce من Chrome، راجع [متطلبات النظام لعمليات نشر المجموعة](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * إذا كنت تستخدم Microsoft Edge مع متصفح Chrome، فإنك لا تحتاج إلى تثبيت ملحق ClickOnce لـ Edge Chromium. ومع ذلك، يجب تمكين الخيار ClickOnce من أجل تنزيل عميل مصمم التقرير. إذا كنت تستخدم وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي.
      1. افتح مستعرضا جديدا في Microsoft Edge.
      2. ادخل **edge://flags** وحدد **Enter**.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9253537b7d306384747ca1e492def13c48aa678
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 424135233ffdc73d17336ec4e3e97ccd52dab1ff
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755490"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893318"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>محتوى Power BI لتحليل محاسبة التكاليف
 
@@ -40,7 +40,7 @@ ms.locfileid: "5755490"
 من خلال تحديد مستوى الوصول الأمن في محاسبة التكاليف والجمع بينها وبين الأمان على مستوى الصف في Power BI، يمكنك منح كافة مالكي كائنات التكلفة حقل الوصول إلى محتوى **تحليل محاسبة التكاليف** في Power BI. ثم، تتم تصفية كافة البيانات في الرسوم المرئية بناءً على مستوى الوصول الذي يتم التحكم فيه في محاسبة التكاليف. لمزيد من المعلومات حول مستوى الوصول الآمن والمستوى الآمن على مستوى الصف، راجع [إعداد الأمان لمحتوى تحليل محاسبة التكاليف في Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-يمكنك العثور على محتوى **تحليل محاسبة التكاليف** في Power BI في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft وشركائك](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+يمكنك العثور على محتوى **تحليل محاسبة التكاليف** في Power BI في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft وشركائك](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 احرص على تنزيل محتوى **تحليل محاسبة التكاليف** الذي ينطبق على إصدار Microsoft Dynamics 365 الذي تستخدمه.
 

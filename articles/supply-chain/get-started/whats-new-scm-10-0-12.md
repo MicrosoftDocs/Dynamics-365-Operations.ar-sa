@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16f4ead0e195280555f0825d617b9c4fcf0e827a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832192"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909563"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.12 (أغسطس 2020)
 
@@ -33,25 +33,25 @@ ms.locfileid: "5832192"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
+يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
-- [السماح بتأمين شاشة اللمس لبطاقة الوظيفة لتعقيمها](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - لمزيد من المعلومات، راجع [تكوين بطاقة الوظيفة للأجهزة](../production-control/config-job-card-device.md).
+- [السماح بتأمين شاشة اللمس لبطاقة الوظيفة لتعقيمها](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - لمزيد من المعلومات، راجع [تكوين بطاقة الوظيفة للأجهزة](../production-control/config-job-card-device.md).
 
-- [التقاط متغيرات المنتجات وأبعاد التعقب في تطبيق المستودع أثناء استلام أصناف الحمل](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - لمزيد من المعلومات، راجع [إعداد أجهزة المحمول لعمل المستودع](../warehousing/configure-mobile-devices-warehouse.md).
+- [التقاط متغيرات المنتجات وأبعاد التعقب في تطبيق المستودع أثناء استلام أصناف الحمل](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - لمزيد من المعلومات، راجع [إعداد أجهزة المحمول لعمل المستودع](../warehousing/configure-mobile-devices-warehouse.md).
 
 - مستوى حساب التكلفة (مستوى BOM جديد)<br> - لمزيد من المعلومات، راجع [مستوى حساب التكلفة](../cost-management/cost-calculation-level.md).
 
-- [مدخل العميل لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - للحصول على مزيد من المعلومات، راجع [مدخل العميل لـ Dynamics 365 Supply Chain Management overview](../sales-marketing/customer-portal-overview.md).
+- [مدخل العميل لـ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - للحصول على مزيد من المعلومات، راجع [مدخل العميل لـ Dynamics 365 Supply Chain Management overview](../sales-marketing/customer-portal-overview.md).
 
-- [الرؤى الرئيسية لذكاء IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - لمزيد من المعلومات، راجع [الصفحة الرئيسية لذكاء IoT](../iot/iot-intelligence-home-page.md).
+- [الرؤى الرئيسية لذكاء IoT](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - لمزيد من المعلومات، راجع [الصفحة الرئيسية لذكاء IoT](../iot/iot-intelligence-home-page.md).
 
-- [تحسينات استلام لوحة الترخيص لتطبيق المستودع (يتبع)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة‬](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [تحسينات استلام لوحة الترخيص لتطبيق المستودع (يتبع)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة‬](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [النشر الجماعي لتطبيق Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - لمزيد من المعلومات، راجع [تثبيت وتكوين تطبيق إدارة المستودع للأجهزة المحمولة](../warehousing/install-configure-warehouse-management-app.md).
+- [النشر الجماعي لتطبيق Warehouse Mobile App](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - لمزيد من المعلومات، راجع [تثبيت وتكوين تطبيق إدارة المستودع للأجهزة المحمولة](../warehousing/install-configure-warehouse-management-app.md).
 
-- [الحد الأقصى لوقت التنفيذ لوظيفة تنظيف المستودعات المتاحة لإدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - لمزيد من المعلومات، راجع [مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات](../warehousing/onhand-cleanup.md).
+- [الحد الأقصى لوقت التنفيذ لوظيفة تنظيف المستودعات المتاحة لإدارة المستودعات](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - لمزيد من المعلومات، راجع [مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات](../warehousing/onhand-cleanup.md).
 
-- [دعم تحسين التخطيط لاتفاقيات الشراء التجارية‬‏‫](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - لمزيد من المعلومات، راجع [التخطيط الرئيسي مع اتفاقيات الشراء التجارية](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [دعم تحسين التخطيط لاتفاقيات الشراء التجارية‬‏‫](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - لمزيد من المعلومات، راجع [التخطيط الرئيسي مع اتفاقيات الشراء التجارية](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -67,7 +67,7 @@ ms.locfileid: "5832192"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 1 لإصدار 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 1 لإصدار 2020](/dynamics365-release-plan/2020wave1/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 

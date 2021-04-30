@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813161"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907953"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.17 (أبريل 2021)
 
@@ -33,65 +33,65 @@ ms.locfileid: "5813161"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية.  اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
+يتضمن هذا الإصدار الميزات التالية.  اتبع ارتباطات [خطة الإصدار](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
 يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها. قد تظل بعض الميزات المدرجة قيد المعاينة، على الرغم من أن معظمها متاح الآن بشكل عام.
 
 ### <a name="asset-management"></a>إدارة الأصول
 
-- [تطبيق قواعد لتجميع أوامر العمل اثناء تشغيل خطه الصيانة](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - لمزيد من المعلومات راجع، [‬‏‫إنشاء أوامر العمل](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md).
+- [تطبيق قواعد لتجميع أوامر العمل اثناء تشغيل خطه الصيانة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - لمزيد من المعلومات راجع، [‬‏‫إنشاء أوامر العمل](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md).
 
-- [عملاء الفاتورة لعمل الصيانة](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - لمزيد من المعلومات، راجع [الكمبيالة للصيانة في الأصول المملوكة للعملاء](../asset-management/integration-to-project-management-and-accounting/customer-billing.md).
+- [عملاء الفاتورة لعمل الصيانة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - لمزيد من المعلومات، راجع [الكمبيالة للصيانة في الأصول المملوكة للعملاء](../asset-management/integration-to-project-management-and-accounting/customer-billing.md).
 
-- [تخطيط الصيانة استنادا إلى قيم عدادات الأصول التراكمية](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - لمزيد من المعلومات، راجع [خطط الصيانة](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md).
+- [تخطيط الصيانة استنادا إلى قيم عدادات الأصول التراكمية](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - لمزيد من المعلومات، راجع [خطط الصيانة](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md).
 
 ### <a name="inventory-and-logistics"></a>المخزون واللوجستيات
 
-- [اطار عمل تكامل لمعدات معالجه المواد لعمليات المستودع التلقائية (MHAX سابقًا)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - لمزيد من المعلومات، راجع [واجهه معدات معالجه المواد (MHAX)](../warehousing/mhax.md).
+- [اطار عمل تكامل لمعدات معالجه المواد لعمليات المستودع التلقائية (MHAX سابقًا)](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - لمزيد من المعلومات، راجع [واجهه معدات معالجه المواد (MHAX)](../warehousing/mhax.md).
 
-- [التكلفة المستلمة](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - لمزيد من المعلومات، راجع [وحدة التكلفة المستلمة](../landed-cost/landed-cost-overview.md).
+- [التكلفة المستلمة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - لمزيد من المعلومات، راجع [وحدة التكلفة المستلمة](../landed-cost/landed-cost-overview.md).
 
-- [أبعاد التعبئة مقابل أبعاد التخزين](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - لمزيد من المعلومات، راجع [تعيين أبعاد مختلفة للتعبئة والتخزين](../warehousing/packing-vs-storage-dimensions.md).
+- [أبعاد التعبئة مقابل أبعاد التخزين](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - لمزيد من المعلومات، راجع [تعيين أبعاد مختلفة للتعبئة والتخزين](../warehousing/packing-vs-storage-dimensions.md).
 
-- [طرق عرض محفوظه للمخزون واللوجستيات](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - لمزيد من المعلومات، راجع [طرق العرض القياسية المحفوظة لـ Supply Chain Management](saved-views-scm.md).
+- [طرق عرض محفوظه للمخزون واللوجستيات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - لمزيد من المعلومات، راجع [طرق العرض القياسية المحفوظة لـ Supply Chain Management](saved-views-scm.md).
 
-- [إنشاء عمل مستودع الجدول](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - لمزيد من المعلومات، راجع [جدوله إنشاء العمل اثناء الموجه](../warehousing/configure-wave-schedule-work-creation.md).
+- [إنشاء عمل مستودع الجدول](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - لمزيد من المعلومات، راجع [جدوله إنشاء العمل اثناء الموجه](../warehousing/configure-wave-schedule-work-creation.md).
 
-- [تعيين الابعاد المالية الافتراضية للمخزون إيصالات أعاده تقييم التكلفة القياسية](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - لمزيد من المعلومات، راجع [أداره تحديثات التكلفة القياسية ](../cost-management/manage-standard-cost-updates.md).
+- [تعيين الابعاد المالية الافتراضية للمخزون إيصالات أعاده تقييم التكلفة القياسية](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - لمزيد من المعلومات، راجع [أداره تحديثات التكلفة القياسية ](../cost-management/manage-standard-cost-updates.md).
 
-- [شحن طرد صغير (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - لمزيد من المعلومات، راجع [الشحن الجزء الصغير](../warehousing/small-parcel-shipping.md).
+- [شحن طرد صغير (SPS)](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - لمزيد من المعلومات، راجع [الشحن الجزء الصغير](../warehousing/small-parcel-shipping.md).
 
-- [تنفيذ المستودع بوحدات قياس في السحابة](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - لمزيد من المعلومات، راجع [أحمال عمل إدارة المستودع للسحابة ووحدات مقياس الحافة](../cloud-edge/cloud-edge-workload-warehousing.md) و[أوامر المستودع للسحابة ووحدات مقياس الحافة](../cloud-edge/cloud-edge-warehouse-order.md).
+- [تنفيذ المستودع بوحدات قياس في السحابة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - لمزيد من المعلومات، راجع [أحمال عمل إدارة المستودع للسحابة ووحدات مقياس الحافة](../cloud-edge/cloud-edge-workload-warehousing.md) و[أوامر المستودع للسحابة ووحدات مقياس الحافة](../cloud-edge/cloud-edge-warehouse-order.md).
 
-- [تطبيق الاجهزه المحمولة لأداره المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - لمزيد من المعلومات، راجع [تثبيت والاتصال بتطبيق إدارة المستودعات](../warehousing/install-configure-warehouse-management-app.md) و[إعدادات مستخدم الجهاز المحمول](../warehousing/mobile-device-user-settings.md).
+- [تطبيق الاجهزه المحمولة لأداره المستودعات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - لمزيد من المعلومات، راجع [تثبيت والاتصال بتطبيق إدارة المستودعات](../warehousing/install-configure-warehouse-management-app.md) و[إعدادات مستخدم الجهاز المحمول](../warehousing/mobile-device-user-settings.md).
 
 - إخطارات تنفيذ الموجة<br> - لمزيد من المعلومات، راجع [إخطارات تنفيذ الموجات](../warehousing/wave-execution-notifications.md)
 
 ### <a name="manufacturing"></a>التصنيع
 
-- [قدرات أداره الأصول في واجهه تنفيذ صالة الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - لمزيد من المعلومات، راجع [تكوين واجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-configure.md).
+- [قدرات أداره الأصول في واجهه تنفيذ صالة الإنتاج](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - لمزيد من المعلومات، راجع [تكوين واجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-configure.md).
 
 - التسلسل الرقمي الموحد لمعرفات الوظائف<br> - لمزيد من المعلومات، راجع 
 
-- [تجاوز مبدأ الحجز الافتراضي للمواد في الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - لمزيد من المعلومات، راجع [تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج](../production-control/override-default-reservation-principle.md).
+- [تجاوز مبدأ الحجز الافتراضي للمواد في الإنتاج](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - لمزيد من المعلومات، راجع [تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج](../production-control/override-default-reservation-principle.md).
 
-- [طرق العرض المحفوظة لتحكم الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - لمزيد من المعلومات، راجع [طرق العرض القياسية المحفوظة لـ Supply Chain Management](saved-views-scm.md).
+- [طرق العرض المحفوظة لتحكم الإنتاج](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - لمزيد من المعلومات، راجع [طرق العرض القياسية المحفوظة لـ Supply Chain Management](saved-views-scm.md).
 
-- [التنفيذ التصنيعي بوحدات قياس في السحابة](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - للحصول على مزيد من المعلومات، راجع [تصنيع أحمال عمل التنفيذ للسحابة ووحدات مقياس الحافة](../cloud-edge/cloud-edge-workload-manufacturing.md).
+- [التنفيذ التصنيعي بوحدات قياس في السحابة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - للحصول على مزيد من المعلومات، راجع [تصنيع أحمال عمل التنفيذ للسحابة ووحدات مقياس الحافة](../cloud-edge/cloud-edge-workload-manufacturing.md).
 
 ### <a name="planning"></a>التخطيط
 
-- [دعم الحد الزمني للتغطية لتحسين التخطيط](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - لمزيد من المعلومات، راجع [حدود وقت التغطية](../master-planning/planning-optimization/coverage-time-fence.md).
+- [دعم الحد الزمني للتغطية لتحسين التخطيط](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - لمزيد من المعلومات، راجع [حدود وقت التغطية](../master-planning/planning-optimization/coverage-time-fence.md).
 
-- [دعم نموذج التنبؤ لتحسين التخطيط](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - لمزيد من المعلومات، راجع [التخطيط الرئيسي مع التنبؤات بالطلبات](../master-planning/planning-optimization/demand-forecast.md).
+- [دعم نموذج التنبؤ لتحسين التخطيط](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - لمزيد من المعلومات، راجع [التخطيط الرئيسي مع التنبؤات بالطلبات](../master-planning/planning-optimization/demand-forecast.md).
 
-- [دعم طلب الشراء لتحسين التخطيط‬‏‫](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - لمزيد من المعلومات، راجع [طلبات الشراء](../master-planning/planning-optimization/purchase-requisitions.md).
+- [دعم طلب الشراء لتحسين التخطيط‬‏‫](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - لمزيد من المعلومات، راجع [طلبات الشراء](../master-planning/planning-optimization/purchase-requisitions.md).
 
-- [طرق العرض المحفوظة للأوامر المخططة](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - لمزيد من المعلومات، راجع [طرق العرض القياسية المحفوظة لـ Supply Chain Management](saved-views-scm.md).
+- [طرق العرض المحفوظة للأوامر المخططة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - لمزيد من المعلومات، راجع [طرق العرض القياسية المحفوظة لـ Supply Chain Management](saved-views-scm.md).
 
 ### <a name="product-information-management"></a>إدارة معلومات المنتج
 
-- [تفعيل إدارة التغيير على المنتجات الحالية](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - لمزيد من المعلومات، راجع [تمكين إدارة التغيير في المنتجات الموجودة](../engineering-change-management/change-management-existing-products.md).
+- [تفعيل إدارة التغيير على المنتجات الحالية](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - لمزيد من المعلومات، راجع [تمكين إدارة التغيير في المنتجات الموجودة](../engineering-change-management/change-management-existing-products.md).
 
 ## <a name="new-and-updated-documentation-resources"></a>موارد وثائق جديده ومحدثه
 
@@ -145,7 +145,7 @@ ms.locfileid: "5813161"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 1 لإصدار 2021](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 1 لإصدار 2021](/dynamics365-release-plan/2021wave1/). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 

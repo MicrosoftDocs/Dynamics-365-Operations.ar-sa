@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840691"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907755"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>إنشاء مستخدمي مدخل العميل وإدارتهم
 
@@ -44,26 +44,26 @@ ms.locfileid: "5840691"
 
 ## <a name="the-invitation-process"></a>عملية الدعوة
 
-لدعوة جهة اتصال موجودة إلى مدخل العميل، اتبع الخطوات في [دعوه جهات الاتصال إلى مداخلك](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) في وثائق مداخل Power Apps.
+لدعوة جهة اتصال موجودة إلى مدخل العميل، اتبع الخطوات في [دعوه جهات الاتصال إلى مداخلك](/powerapps/maker/portals/configure/invite-contacts) في وثائق مداخل Power Apps.
 
-قبل دعوة أحد العملاء للانضمام إلى مدخل العميل، تأكد من توفر [سجل جهة الاتصال](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) الخاص بالعميل واعمل على إعداده بالطريقة التالية:
+قبل دعوة أحد العملاء للانضمام إلى مدخل العميل، تأكد من توفر [سجل جهة الاتصال](/powerapps/maker/portals/configure/configure-contacts) الخاص بالعميل واعمل على إعداده بالطريقة التالية:
 
 1. عيّن حقل **الشركة** إلى الكيان القانوني الذي تريد أن ينتمي إليه العميل في Supply Chain Management.
 2. عيّن حقل **رقم الحساب** إلى رقم حساب العميل الذي تريد أن يكون متوفرًا للمستخدم في Supply Chain Management.
 
 بعد إنشاء جهة اتصال، من المفترض أن تتمكن من رؤيتها في Supply Chain Management.
 
-لمزيد من المعلومات، راجع [تكوين جهة اتصال لاستخدامها في مدخل](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) في وثائق مداخل Power Apps.
+لمزيد من المعلومات، راجع [تكوين جهة اتصال لاستخدامها في مدخل](/powerapps/maker/portals/configure/configure-contacts) في وثائق مداخل Power Apps.
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>أدوار الويب الجاهزة وأذونات الجدول
 
-يتم تعريف أدوار المستخدمين في مداخل Power Apps بواسطة [أدوار الويب](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) و[وأذونات الجدول](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). يتم تعريف عدد قليل من الأدوار لمدخل العميل الجاهز. يمكنك إنشاء أدوار جديدة، ويمكنك تعديل أدوار موجودة أو إزالتها.
+يتم تعريف أدوار المستخدمين في مداخل Power Apps بواسطة [أدوار الويب](/powerapps/maker/portals/configure/create-web-roles) و[وأذونات الجدول](/powerapps/maker/portals/configure/assign-entity-permissions). يتم تعريف عدد قليل من الأدوار لمدخل العميل الجاهز. يمكنك إنشاء أدوار جديدة، ويمكنك تعديل أدوار موجودة أو إزالتها.
 
 ### <a name="out-of-box-web-roles"></a>أدوار الويب الجاهزة
 
 يصف هذا القسم أدوار الويب التي يتم تقديمها مع مدخل العميل.
 
-لمزيد من المعلومات حول كيفية تعديل أدوار المستخدمين الجاهزة، راجع [إنشاء أدوار الويب للمداخل](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) و[إضافة الأمان المستند إلى السجل باستخدام أذونات الجدول للمداخل](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) في وثائق مداخل Power Apps.
+لمزيد من المعلومات حول كيفية تعديل أدوار المستخدمين الجاهزة، راجع [إنشاء أدوار الويب للمداخل](/powerapps/maker/portals/configure/create-web-roles) و[إضافة الأمان المستند إلى السجل باستخدام أذونات الجدول للمداخل](/powerapps/maker/portals/configure/assign-entity-permissions) في وثائق مداخل Power Apps.
 
 #### <a name="administrator"></a>المسؤول
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f0e50cc1e18400258a4ad5da008e1719d39bd1da
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0d2978d680efa59b1ba9cfcd7f58655da0ff4107
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801205"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890090"
 ---
 # <a name="choose-a-data-integration-technology"></a>اختيار تقنية تكامل بيانات
 
@@ -36,7 +36,7 @@ ms.locfileid: "5801205"
 تعتبر بيانات العمل بمثابة أصل أساسي يجعل شركتك فريدة. بيانات أعمالك ذات قيمة عالية. يمكنك استخدام العلاقات بين البيانات التي تم جمعها من خلال أعمالك لتحسين العمليات التجارية والمعلومات المهنية عبر مؤسستك. نحن نبذل جهودًا كثيرة لتوفير وصول سهل وآمن ومستقر إلى بيانات عملك بصرف النظر عن النظام الذي تأتي منه هذه البيانات.
 
 قديمًا، كان تكامل البيانات بين الأنظمة المتعددة صعبًا.
-تتخذ Microsoft خطوات لتسهيل تكامل البيانات، ولقد تحققت خطوة كبيرة نحو هذا الهدف من خلال [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+تتخذ Microsoft خطوات لتسهيل تكامل البيانات، ولقد تحققت خطوة كبيرة نحو هذا الهدف من خلال [Dataverse](/powerapps/maker/common-data-service/data-platform-intro)
 
 يعمل Human Resources على جعل Dataverse الواجهة العامة المفضلة لبيانات Human Resources. وبمرور الوقت، فإننا نتوقع أن أهم البيانات التي تتم إدارتها بواسطة Human Resources سوف يتم عرضها في Dataverse. نوصي بأن يكون Dataverse هو التقنية الخاصة بالاختيار لمعظم تطبيقات التكامل.
 
@@ -48,21 +48,21 @@ ms.locfileid: "5801205"
 
 ### <a name="dataverse-tables"></a>جداول Dataverse
 
-تُعد Dataverse هي واجهة البيانات العامة المفضلة لـ Human Resources. وقد تطور من النظام الأساسي Dynamics 365 XRM، الذي تستخدمه حلول [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement).
+تُعد Dataverse هي واجهة البيانات العامة المفضلة لـ Human Resources. وقد تطور من النظام الأساسي Dynamics 365 XRM، الذي تستخدمه حلول [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps).
 
 يوفر Dataverse نظامًا أساسيًا وواجهات API لجداول البيانات. سوف يتصل Human Resources بمثيل Dataverse عندما تنشره. وتنتشر كيانات بيانات Human Resources في مثيل Dataverse هذا. تتوفر الجداول وبياناتها لأي تطبيق يمكنه الاتصال بمثيل Dataverse. تقوم Human Resources بمزامنة البيانات إلى جداول Dataverse ومنها.
 
 > [!NOTE]
-> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)
 
-عندما تكون جداول البيانات المطلوبة من قبل تطبيقاتك التي تتكامل في Dataverse، يمكنك أن تستخدم بشكل كامل [Dataverse وواجهات API التي يدعمها](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). يُعد [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)من بين واجهات برمجة التطبيقات المدعومة، والتي توفر تطبيق OData للوصول إلى بيانات Dataverse .
+عندما تكون جداول البيانات المطلوبة من قبل تطبيقاتك التي تتكامل في Dataverse، يمكنك أن تستخدم بشكل كامل [Dataverse وواجهات API التي يدعمها](/powerapps/?panel=developer#pivot=home). يُعد [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)من بين واجهات برمجة التطبيقات المدعومة، والتي توفر تطبيق OData للوصول إلى بيانات Dataverse .
 
 تعد جداول Dataverse وواجهات برمجة التطبيقات المرتبطة بها أفضل خيار للوصول إلى بيانات Human Resources من تطبيقات الويب وخدمات الويب / واجهات برمجة التطبيقات ومن أي تطبيق آخر يتصل بموجزات OData.
 
 > [!NOTE]
 > مع قرار جعل Dataverse واجهة البيانات المُفضلة لـ Human Resources الحديثة نسبيًا، قد تجد أن كيانات بيانات Human Resources التي تحتاجها للتكامل غير متاحة بعد في Dataverse.
 > </br>
-> للحصول على قائمة بكيانات Human Resources المتاحة في Dataverse، راجع [Human Resources وDataverse](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
+> للحصول على قائمة بكيانات Human Resources المتاحة في Dataverse، راجع [Human Resources وDataverse](/dynamics365/unified-operations/talent/corehrentities).
 > </br>
 > إذا لم تكن كيانات Human Resources المطلوبة للتكامل متاحة بعد، فسوف تحتاج إلى انتظار إتاحة كيانات البيانات أو استخدام إحدى تقنيات التكامل الأخرى الموضحة أعلاه.
 > </br>
@@ -70,14 +70,14 @@ ms.locfileid: "5801205"
 
 ### <a name="dmfdixf-entities"></a>كيانات DMF/DIXF
 
-تم بناء Human Resources بشكل أساسي بالاستناد إلى النظام الأساسي نفسه لتطبيقات Finance and Operations، وهو يوفر [إطار عمل إدارة البيانات (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). ويعرف DMF أيضًا باسم إطار عمل استيراد/تصدير البيانات (DIXF). يوفر Human Resources مجموعة من كيانات البيانات التي يمكنك استخدامها لاستيراد بيانات Human Resources وتصديرها. في حين تعتبر جداول Dataverse واجهة تكامل البيانات المفضلة لـ Human Resources، ما زالت كيانات DMF مفيدة في بعض الحالات، مثل:
+تم بناء Human Resources بشكل أساسي بالاستناد إلى النظام الأساسي نفسه لتطبيقات Finance and Operations، وهو يوفر [إطار عمل إدارة البيانات (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). ويعرف DMF أيضًا باسم إطار عمل استيراد/تصدير البيانات (DIXF). يوفر Human Resources مجموعة من كيانات البيانات التي يمكنك استخدامها لاستيراد بيانات Human Resources وتصديرها. في حين تعتبر جداول Dataverse واجهة تكامل البيانات المفضلة لـ Human Resources، ما زالت كيانات DMF مفيدة في بعض الحالات، مثل:
 
 - جداول Dataverse غير متوفرة بعد.
 
 - يتطلب التكامل قدرات استيراد/تصدير بيانات مجمعة عالية الأداء.
 
 > [!NOTE]
-> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)
 
 توفر كيانات DMF حاليًا تغطية البيانات الأكثر اكتمالًا لبيانات Human Resources.
 
@@ -90,7 +90,7 @@ ms.locfileid: "5801205"
 
 ### <a name="dmf-package-rest-api"></a>واجهة تطبيق البرمجيات REST لحزمة DMF
 
-يوفر DMF [واجهة تطبيق البرمجيات REST](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-management-api) لمعالجة حزم البيانات. يمكن استخدام واجهة برمجة التطبيقات هذه للتفاعل برمجيًا مع DMF، مما يسمح بإجراءات مثل:
+يوفر DMF [واجهة تطبيق البرمجيات REST](/dynamics365/unified-operations/dev-itpro/data-entities/data-management-api) لمعالجة حزم البيانات. يمكن استخدام واجهة برمجة التطبيقات هذه للتفاعل برمجيًا مع DMF، مما يسمح بإجراءات مثل:
 
 - استيراد حزمة بيانات.
 
@@ -102,36 +102,36 @@ ms.locfileid: "5801205"
 
 ### <a name="azure-sql-db-byod"></a>قاعدة بيانات Azure SQL (BYOD)
 
-يوفر DMF أيضًا ميزة فعالة (تعرف باسم [إحضار قاعدة بياناتك الخاصة](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database)، أو BYOD) التي تسمح لـ Human Resources بتصدير البيانات إلى قاعدة بيانات SQL Microsoft Azure. توفر هذه القدرة مرونة هائلة. عندما تكون البيانات موجودة في قاعدة بيانات SQL خاصة بك، يمكنك الاستفادة من أي تطبيق أو برنامج وسيط يمكنه الاتصال بمخزن بيانات SQL.
+يوفر DMF أيضًا ميزة فعالة (تعرف باسم [إحضار قاعدة بياناتك الخاصة](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database)، أو BYOD) التي تسمح لـ Human Resources بتصدير البيانات إلى قاعدة بيانات SQL Microsoft Azure. توفر هذه القدرة مرونة هائلة. عندما تكون البيانات موجودة في قاعدة بيانات SQL خاصة بك، يمكنك الاستفادة من أي تطبيق أو برنامج وسيط يمكنه الاتصال بمخزن بيانات SQL.
 
 إحضار قاعدة بياناتك الخاصة (BYOD) هو بشكل أساسي حل للقراءة فقط. بينما يمكنك معالجة وتخزين أي بيانات تريدها في قاعدة بيانات Azure SQL (مثل مزج البيانات)، لن تتم مزامنة البيانات المخزنة في قاعدة بيانات SQL Azure مع Human Resources.
 
-يُعد BYOD مناسبًا لحلول التقارير، وتكامل البيانات، ومزج البيانات، كمصدر للبيانات لتدفقات [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/) .
+يُعد BYOD مناسبًا لحلول التقارير، وتكامل البيانات، ومزج البيانات، كمصدر للبيانات لتدفقات [Azure Data Factory](/azure/data-factory/) .
 
 > [!NOTE]
 > لا يتوافر BYOD بالنسبة إلى Attract و Onboard.
 
 ### <a name="odata-enabled-entities"></a>كيانات OData الممكنة
 
-يتم أيضًا تمكين معظم كيانات DMF للوصول من خلال خدمة بيانات Human Resources (OData). تنطبق الوثائق المتوفرة [Finance and Operations لخدمة OData](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) على Human Resources، باستثناء ما يتعلق بإنشاء كياناتك الخاصة المكشوفة على OData.‬
+يتم أيضًا تمكين معظم كيانات DMF للوصول من خلال خدمة بيانات Human Resources (OData). تنطبق الوثائق المتوفرة [Finance and Operations لخدمة OData](/dynamics365/unified-operations/dev-itpro/data-entities/odata) على Human Resources، باستثناء ما يتعلق بإنشاء كياناتك الخاصة المكشوفة على OData.‬
 
-في أثناء تنفيذ Dataverse وOData الموفرة بواسطة Dataverse (على الرغم من أن[ Web API لـ Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) مُفضلة على خدمة بيانات Human Resources، وتحتوي خدمة بيانات Human Resources حاليًا على أكثر تغطية كيان كاملة لبيانات Human Resources.
+في أثناء تنفيذ Dataverse وOData الموفرة بواسطة Dataverse (على الرغم من أن[ Web API لـ Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) مُفضلة على خدمة بيانات Human Resources، وتحتوي خدمة بيانات Human Resources حاليًا على أكثر تغطية كيان كاملة لبيانات Human Resources.
 
 ### <a name="excel-add-in"></a>‏‫الوظيفة الإضافية لـ Excel
 
-تقوم [الوظيفة الإضافية لـ Excel](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/talent/toc.json) باستخدام الكيانات الممكنة لـ OData أسفل السطح. ويوفر طريقة مناسبة للمستخدم النهائي لاسترداد بيانات Human Resources وتعديلها من خلال واجهة مستخدم Excel المألوفة.
+تقوم [الوظيفة الإضافية لـ Excel](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) باستخدام الكيانات الممكنة لـ OData أسفل السطح. ويوفر طريقة مناسبة للمستخدم النهائي لاسترداد بيانات Human Resources وتعديلها من خلال واجهة مستخدم Excel المألوفة.
 
 تكون الوظيفة الإضافية لـ Excel مناسبة لعمليات استيراد/تصدير البيانات المخصصة بواسطة خبراء مجال الأعمال. بالنسبة لتكامل البيانات المتكررة التي تتطلب أتمته تلقائية برمجية، سوف تكون تقنية تكامل أخرى أكثر ملائمة.
 
 ### <a name="data-integrator"></a>موحد البيانات
 
-يمكنك استخدام [خدمة موحد البيانات](https://docs.microsoft.com/powerapps/administrator/data-integrator) لدمج البيانات إلى ومن Dataverse. تسمح لك خدمة موحد البيانات بتحديد مشاريع التكامل ، غالبًا ما تستند إلى قوالب محددة مسبقًا صممها مطورو التطبيقات خصيصًا لتكاملات محددة. يمكن جدولة مشاريع التكامل لتعمل تلقائيًا وفقًا لجدول زمني متكرر أو تشغيلها يدويًا.
+يمكنك استخدام [خدمة موحد البيانات](/powerapps/administrator/data-integrator) لدمج البيانات إلى ومن Dataverse. تسمح لك خدمة موحد البيانات بتحديد مشاريع التكامل ، غالبًا ما تستند إلى قوالب محددة مسبقًا صممها مطورو التطبيقات خصيصًا لتكاملات محددة. يمكن جدولة مشاريع التكامل لتعمل تلقائيًا وفقًا لجدول زمني متكرر أو تشغيلها يدويًا.
 
 تكون مشاريع موحد البيانات مناسبة لعمليات تكامل دُفعات Dataverse. وهي تُمثل خيارًا ممتازًا للتكاملات بين مجموعة تطبيقات Dynamics 365.‬ على سبيل المثال، توفر Microsoft قالب موحد بيانات يمكن استخدامه لدمج البيانات من Human Resources إلى Dynamics 365 Finance. يمكنك معرفة المزيد حول القالب في تكامل [من Dynamics 365 Human Resources إلى Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 
-يدعم موحد البيانات [Power Query](https://docs.microsoft.com/power-query/power-query-what-is-power-query) من خلال [ميزة الاستعلام المتقدمة](https://docs.microsoft.com/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). يوفر Power Query إمكانية تصفية وتحويل البيانات بطريقة مرنة وفعالة، بما في ذلك لغة معادلة M الغنية. من المرجح أن يكون Power Query مألوفًا لهؤلاء الذين لديهم خبرة في تطوير تقارير‏‬‏ Power BI.
+يدعم موحد البيانات [Power Query](/power-query/power-query-what-is-power-query) من خلال [ميزة الاستعلام المتقدمة](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). يوفر Power Query إمكانية تصفية وتحويل البيانات بطريقة مرنة وفعالة، بما في ذلك لغة معادلة M الغنية. من المرجح أن يكون Power Query مألوفًا لهؤلاء الذين لديهم خبرة في تطوير تقارير‏‬‏ Power BI.
 
 ## <a name="deciding-on-an-integration-technology"></a>اتخاذ قرار بشأن تقنية التكامل
 

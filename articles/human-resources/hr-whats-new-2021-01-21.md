@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 14df61a68ed402365bd26257cfc5e9b6b4c14db3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2bf587933aa24e772e6cebca94ee6e8648ec7f10
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803359"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890665"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 21 يناير 2021
 
@@ -31,7 +31,7 @@ ms.locfileid: "5803359"
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
-لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 
 ## <a name="in-this-release"></a>في هذا الإصدار
@@ -44,8 +44,8 @@ ms.locfileid: "5803359"
 
 | الميزة | خطة الإصدار | الوثائق |
 | --- | --- | --- |
-| تحديث النظام الأساسي 10.0.16 (40) | -- | [تحديثات النظام الأساسي للإصدار 10.0.16 من تطبيقات Finance and Operations (فبراير 2021)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16) |
-| طلبات سير العمل المحسنة والموافقات | [تحسينات تجربة سير العمل للمؤسسة وإدارة العاملين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [خيار التكوين لقائمة وضع عناصر العمل المعينة لي](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| تحديث النظام الأساسي 10.0.16 (40) | -- | [تحديثات النظام الأساسي للإصدار 10.0.16 من تطبيقات Finance and Operations (فبراير 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| طلبات سير العمل المحسنة والموافقات | [تحسينات تجربة سير العمل للمؤسسة وإدارة العاملين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [خيار التكوين لقائمة وضع عناصر العمل المعينة لي](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | تحديثات التوافق مع قانون الرعاية ميسورة التكلفة للنموذج 1095-C، والنموذج 1095-B، والتقارير الإلكترونية في المزايا القديمة | -- | -- | 
 | تدعم إدارة الميزات الآن تقارير التوافق مع قانون الرعاية ميسورة التكلفة للكيانات القانونية التي يوجد مقرها في الولايات المتحدة. | -- | [إنشاء تقارير قانون الرعاية ميسورة التكلفة في إدارة الميزات](hr-benefits-management-aca-reports.md) |
 | تحتوي إدارة الميزات الآن على كيانات معروضة لمستويات أسعار الميزات ومستويات أسعار المزايا المضاعفة  | -- | -- |
@@ -80,13 +80,13 @@ ms.locfileid: "5803359"
 
 | الميزة | خطة الإصدار | الوثائق |
 | --- | --- | --- |
-| تطبيق Human Resources في Microsoft Teams | [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [تطبيق Human Resources في Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md) |
-| التكامل مع LinkedIn Talent Hub | [التكامل مع LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [التكامل مع LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
-| عرض الإجازات عبر الشركات للمديرين | [عرض إجازات الموظفين عبر الشركات للمديرين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [تكوين معلمات الإجازة والغياب](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-|تقديم نتيجة تحليلات إضافية في أرصدة الإجازات| [تقديم نتيجة تحليلات إضافية في أرصدة الإجازات](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [إدارة إجازة الموظف](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
-| المديرون قادرون على إرسال طلبات التعيين للمناصب | [المديرون قادرون على إرسال طلب تعيين للمناصب المفتوحة](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [إضافة طلب تعيين](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| ملف تعريف مرشح محسن في إدارة العاملين | [ملف تعريف مرشح محسن في إدارة العاملين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [إضافة ملف تعريف مرشح أو تحريره](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| تمكين التكاملات المبسطة مع موفري التعيين | [تمكين التكاملات المبسطة مع موفري التعيين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [تعيين المرشحين للوظائف](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
+| تطبيق Human Resources في Microsoft Teams | [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [تطبيق Human Resources في Teams](./hr-admin-teams-leave-app.md)<br>[إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md) |
+| التكامل مع LinkedIn Talent Hub | [التكامل مع LinkedIn Talent Hub](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [التكامل مع LinkedIn Talent Hub](./hr-admin-integration-linkedin.md) |
+| عرض الإجازات عبر الشركات للمديرين | [عرض إجازات الموظفين عبر الشركات للمديرين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [تكوين معلمات الإجازة والغياب](./hr-leave-and-absence-parameters.md) |
+|تقديم نتيجة تحليلات إضافية في أرصدة الإجازات| [تقديم نتيجة تحليلات إضافية في أرصدة الإجازات](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [إدارة إجازة الموظف](./hr-leave-and-absence-manage-employee-leave.md) |
+| المديرون قادرون على إرسال طلبات التعيين للمناصب | [المديرون قادرون على إرسال طلب تعيين للمناصب المفتوحة](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [إضافة طلب تعيين](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| ملف تعريف مرشح محسن في إدارة العاملين | [ملف تعريف مرشح محسن في إدارة العاملين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [إضافة ملف تعريف مرشح أو تحريره](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| تمكين التكاملات المبسطة مع موفري التعيين | [تمكين التكاملات المبسطة مع موفري التعيين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [تعيين المرشحين للوظائف](./hr-personnel-recruit.md) |
 
 ## <a name="coming-soon"></a>قريبًا
 | الميزة | تفاصيل |
@@ -94,20 +94,20 @@ ms.locfileid: "5803359"
 | تأكيد البريد الإلكتروني لتسجيلات المزايا | سوف توفر الميزة خيار إرسال بريد إلكتروني للتأكيد إلى الموظفين عند تسجيل الخروج من تجربة تسجيل المزايا في الخدمة الذاتية للموظف. لمزيد من المعلومات، راجع [تكوين معلمات إدارة المزايا لكل شركة](hr-benefits-setup-parameters-per-company.md). |
 | المهارات التي تم إدخالها بواسطة مدير للموظفين يمكن اعتمادها تلقائيًا من خلال سير عمل | قريبًا. |
 
-للحصول على قائمة كاملة بالميزات المخططة والإصدارات المجدولة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+للحصول على قائمة كاملة بالميزات المخططة والإصدارات المجدولة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>تحديثات المصطلحات لـ Microsoft Dataverse
 
-بدء من نوفمبر 2020، تمت إعادة تسمية Common Data Service إلى [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro). راجع [الإعلانات الرسمية](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/)الموجودة على مدونة Power Apps لمعرفة المزيد. بالترابط مع تغيير هذا الاسم، تم تحديث بعض المصطلحات في Dataverse. علي سبيل المثال ،تم تعيير مصطلح *كيان* إلى مصطلح *جدول* و *حقل* إلى *عمود*. لمزيد من المعلومات، راجع [تحديثات المصطلحات](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
+بدء من نوفمبر 2020، تمت إعادة تسمية Common Data Service إلى [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro). راجع [الإعلانات الرسمية](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/)الموجودة على مدونة Power Apps لمعرفة المزيد. بالترابط مع تغيير هذا الاسم، تم تحديث بعض المصطلحات في Dataverse. علي سبيل المثال ،تم تعيير مصطلح *كيان* إلى مصطلح *جدول* و *حقل* إلى *عمود*. لمزيد من المعلومات، راجع [تحديثات المصطلحات](/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
 
 في هذا الإصدار، تم تحديث المصطلحات ذات الصلة بتكامل Dynamics 365 Human Resources مع Dataverse في كافة أنحاء التطبيق لتعكس هذه التغييرات. على سبيل المثال، نموذج **تكامل Common Data Service** أصبح الآن **تكامل Microsoft Dataverse**.
 
-لمعرفة المزيد حول تكامل Dynamics 365 Human Resources مع Microsoft Dataverse، راجع [تكوين تكامل Microsoft Dataverse ](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) و[تكوين جداول Microsoft Dataverse الظاهرية](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+لمعرفة المزيد حول تكامل Dynamics 365 Human Resources مع Microsoft Dataverse، راجع [تكوين تكامل Microsoft Dataverse ](./hr-admin-integration-common-data-service.md) و[تكوين جداول Microsoft Dataverse الظاهرية](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="see-also"></a>راجع أيضًا
 
 [ما الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
 

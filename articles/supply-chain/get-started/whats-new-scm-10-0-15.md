@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c993c10bdd3517ed8a3e192851b4716cba1c638
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821143"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909957"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.15 (يناير 2021)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5821143"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
+يتضمن هذا الإصدار الميزات التالية. اتبع ارتباطات [خطة الإصدار](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
 - أداره وحده مقياس السحابة والحافة باستخدام أحمال التصنيع وتنفيذ المستودع<br> - للحصول على مزيد من المعلومات، راجع [وحدات نطاق السحابة والحافة لأحمال التصنيع وإدارة المستودعات](../cloud-edge/cloud-edge-landing-page.md).
 
-- [إنشاء أوامر تحويل ومعالجتها من تطبيق المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - لمزيد من المعلومات، راجع [إنشاء أوامر تحويل من تطبيق المستودع](../warehousing/create-transfer-order-from-warehouse-app.md).
+- [إنشاء أوامر تحويل ومعالجتها من تطبيق المستودع](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - لمزيد من المعلومات، راجع [إنشاء أوامر تحويل من تطبيق المستودع](../warehousing/create-transfer-order-from-warehouse-app.md).
 
-- [حقول رد RFQ الافتراضية لعروض أسعار المورد](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - لمزيد من المعلومات، راجع [نظرة عامة على طلبات عروض الأسعار (RFQ)](../procurement/request-quotations.md).
+- [حقول رد RFQ الافتراضية لعروض أسعار المورد](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - لمزيد من المعلومات، راجع [نظرة عامة على طلبات عروض الأسعار (RFQ)](../procurement/request-quotations.md).
 
-- [الوظيفة الاضافيه لأداره التغييرات للهندسة لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - لمزيد من المعلومات ، راجع [نظرة عامة على أداره التغييرات الهندسية](../engineering-change-management/product-engineering-overview.md).
+- [الوظيفة الإضافية لأداره التغييرات للهندسة لـ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - لمزيد من المعلومات ، راجع [نظرة عامة على أداره التغييرات الهندسية](../engineering-change-management/product-engineering-overview.md).
 
-- [دلائل الحقيقة مختلطة للتصنيع](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - للحصول على مزيد من المعلومات، راجع [توفير إرشادات الحقيقة المختلطة للعمال العاملين في الإنتاج](../production-control/instruction-guides-in-production-overview.md).
+- [دلائل الحقيقة مختلطة للتصنيع](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - للحصول على مزيد من المعلومات، راجع [توفير إرشادات الحقيقة المختلطة للعمال العاملين في الإنتاج](../production-control/instruction-guides-in-production-overview.md).
 
-- [تجربة مستخدم جديدة لتنفيذ صالة الإنتاج](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - لمزيد من المعلومات، راجع [‏‫طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬ واستخدامها‬](../production-control/production-floor-execution-use.md).
+- [تجربة مستخدم جديدة لتنفيذ صالة الإنتاج](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - لمزيد من المعلومات، راجع [‏‫طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬ واستخدامها‬](../production-control/production-floor-execution-use.md).
 
-- [معالجة أحداث تطبيق المستودع](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - لمزيد من المعلومات، راجع [معالجه حدث تطبيق المستودع](../warehousing/warehouse-app-events.md).
+- [معالجة أحداث تطبيق المستودع](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - لمزيد من المعلومات، راجع [معالجه حدث تطبيق المستودع](../warehousing/warehouse-app-events.md).
 
-- [طرق العرض المحفوظة لصفحه المنتجات التي تم إصدارها](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - لمزيد من المعلومات، راجع [طرق العرض المحفوظة](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+- [طرق العرض المحفوظة لصفحه المنتجات التي تم إصدارها](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - لمزيد من المعلومات، راجع [طرق العرض المحفوظة](../../fin-ops-core/fin-ops/get-started/saved-views.md).
 
 - مستند شهادة المنشأ USMCA<br> - لمزيد من المعلومات، راجع [شهادة الأصل USMCA](../transportation/usmca-certification-of-origin.md).
 
@@ -69,7 +69,7 @@ ms.locfileid: "5821143"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 

@@ -2,7 +2,8 @@
 title: الوحدة النمطية لمحدد المتجر
 description: يتناول هذا الموضوع وحدة محدّد المتجر ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798623"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853407"
 ---
 # <a name="store-selector-module"></a>الوحدة النمطية لمحدد المتجر
 
@@ -32,11 +33,32 @@ ms.locfileid: "5798623"
 
 تسمح الوحدة النمطية لمحدد المتجر للمستخدمين بإدخال موقع (المدينة والولاية والعنوان وغيرها) للبحث عن المتاجر في نصف قطر للبحث. تستخدم الوحدة النمطية، عند فتحها للمرة الأولى، موقع المستعرض الخاص بالعميل للعثور على المتاجر (إذا تم توفير الموافقة).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>استخدام وحدة محدِّد المتجر في التجارة الإلكترونية
+## <a name="store-selector-module-usage"></a>استخدام الوحدة النمطية لمحدد المتجر
 
 - يمكن استخدام الوحدة النمطية لمحدد المتجر في صفحة تفاصيل المنتج (PDP) لتحديد متجر لالتقاطه.
 - يمكن استخدام الوحدة النمطية لمحدد المتجر في صفحة سلة التسوق لتحديد متجر لالتقاطه.
 - يمكن استخدام الوحدة النمطية لمحدد المتجر في صفحة مستقله تعرض كافة المتاجر المتوفرة.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>إعداد مجموعة الاستيفاء في المركز الرئيسي لـ Commerce
+
+لكي يقوم محدد المتجر بعرض المتاجر المتاحة، يجب إعداد مجموعه الاستيفاء في المركز الرئيسي لـ Commerce‬. لمزيد من المعلومات، راجع [إعداد مجموعات الاستيفاء‬](customer-orders-overview.md#set-up-fulfillment-groups).
+
+بالاضافه إلى ذلك، لكل متجر في مجموعة الاستيفاء، يجب تحديد خطي الطول والعرض لموقع المتجر في المركز الرئيسي.
+
+لإدخال قيم خطي الطول والعرض لموقع المتجر في المركز الرئيسي لـ Commerce، اتبع الخطوات التالية.
+
+1. انتقل إلى **إدارة المخزون \> إعداد \> تصنيف المخزون**.
+1. حدد موقع الصنف في الجزء الأيسر.
+1. على علامة التبويب السريعة **العناوين**، حدد **متقدم**.
+
+    ![أمثلة عن تفاصيل المتجر في المركز الرئيسي](./media/Store-address.png)
+
+1. في جزء الإجراءات، حدد **تحرير**.
+1. على علامة التبويب السريعة **عام**، أدخل قيم **خط الطول** و **خط العرض**.
+
+    ![مثال عن إعداد خطي الطول والعرض لمتجر في المركز الرئيسي.](./media/Store-latitude-longitude.png)
+
+1. في جزء الإجراءات، حدد **حفظ**. 
 
 ## <a name="bing-maps-integration"></a>تكامل خرائط Bing
 
@@ -48,6 +70,7 @@ ms.locfileid: "5798623"
 - إلى التوجيه **img-src**، أضف **&#42;.virtualearth.net**.
 - إلى التوجيه **script-src**، **أضف &#42;.bing.com, &#42;.virtualearth.net**.
 - إلى التوجيه **script style-src**، أضف **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>الالتقاط في وضع المتجر
 
