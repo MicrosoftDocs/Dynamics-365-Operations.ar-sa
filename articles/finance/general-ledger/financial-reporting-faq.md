@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811288"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923015"
 ---
-# <a name="financial-reporting-faq"></a><span data-ttu-id="2e318-103">الأسئلة الشائعة حول إعداد التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="2e318-103">Financial reporting FAQ</span></span> 
+# <a name="financial-reporting-faq"></a><span data-ttu-id="d8a1a-103">الأسئلة الشائعة حول إعداد التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="d8a1a-103">Financial reporting FAQ</span></span> 
 
-<span data-ttu-id="2e318-104">يسرد هذا الموضوع الأسئلة المتعلقة بالتقارير المالية التي قام بها مستخدمون آخرون.</span><span class="sxs-lookup"><span data-stu-id="2e318-104">This topic lists questions related to financial reporting that other users have had.</span></span> 
+<span data-ttu-id="d8a1a-104">يوفر هذا الموضوع إجابات للأسئلة المتداولة حول التقارير المالية.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-104">This topic provides answers to frequently asked questions about financial reporting.</span></span> 
 
+## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a><span data-ttu-id="d8a1a-105">كيف يمكن تقييد الوصول إلى تقرير باستخدام أمان الشجرة؟</span><span class="sxs-lookup"><span data-stu-id="d8a1a-105">How do I restrict access to a report using tree security?</span></span>
 
-## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a><span data-ttu-id="2e318-105">كيف يمكن تقييد الوصول إلى تقرير باستخدام "أمان الشجرة"؟</span><span class="sxs-lookup"><span data-stu-id="2e318-105">How do I restrict access to a report using Tree security?</span></span>
+<span data-ttu-id="d8a1a-106">يوضح المثال التالي كيفية تقييد الوصول إلى تقرير باستخدام أمان الشجرة.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-106">The following example shows how to restrict access to a report using tree security.</span></span>
 
-<span data-ttu-id="2e318-106">السيناريو: تحتوي الشركة التجريبية USMF على تقرير الميزانية العمومية التي لا ترغب في أن يتمكن كافة مستخدمي التقارير المالية من عرضها في D365.</span><span class="sxs-lookup"><span data-stu-id="2e318-106">Scenario: The USMF demo company has a Balance sheet report that it doesn’t want all Financial reporting users to be able to view in D365.</span></span> <span data-ttu-id="2e318-107">الحل: يمكنك استخدام أمان الشجرة لتقييد الوصول إلى تقرير واحد بحيث يتمكن بعض المستخدمين فقط من الوصول إلى التقرير.</span><span class="sxs-lookup"><span data-stu-id="2e318-107">Solution: You can utilize Tree security to restrict access to a single report so that only certain users can access the report.</span></span> 
+<span data-ttu-id="d8a1a-107">لدى شركة USMF التجريبية تقرير ميزانية عمومية لا يجب أن يكون لدى جميع مستخدمي Financial Reporting حق الوصول إليه.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-107">The USMF demo company has a Balance sheet report that not all Financial reporting users should have access to.</span></span> <span data-ttu-id="d8a1a-108">لتقييد الوصول، يمكنك استخدام أمان الشجرة لتقييد الوصول إلى تقرير واحد بحيث لا يتمكن سوى مستخدمين معينين من الوصول إلى التقرير.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-108">To restrict access, you can use tree security to restrict access to a single report so that only certain users can access the report.</span></span> <span data-ttu-id="d8a1a-109">اتبع الخطوات التالية لتقييد الوصول:</span><span class="sxs-lookup"><span data-stu-id="d8a1a-109">Follow these steps to restrict access:</span></span> 
 
-1.  <span data-ttu-id="2e318-108">التسجيل في مصمم تقرير التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="2e318-108">Log into Financial Reporter Report Designer</span></span>
+1. <span data-ttu-id="d8a1a-110">قم بتسجيل الدخول إلى Financial Reporter Report Designer.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-110">Sign in to Financial Reporter Report Designer.</span></span>
+2. <span data-ttu-id="d8a1a-111">أنشئ تعريف شجرة جديدًا.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-111">Create a new tree definition.</span></span> <span data-ttu-id="d8a1a-112">انتقل إلى **ملف > جديد > تعريف الشجرة**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-112">Go to **File > New > Tree Definition**.</span></span>
+3. <span data-ttu-id="d8a1a-113">انقر نقرًا مزدوجًا فوق بند **الملخص** في العمود **أمان الوحدة**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-113">Double-click the **Summary** line in the **Unit Security** column.</span></span>
+4. <span data-ttu-id="d8a1a-114">حدد **المستخدمون والمجموعات**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-114">Select **Users and Groups**.</span></span>  
+5. <span data-ttu-id="d8a1a-115">حدد المستخدمين أو المجموعات التي تحتاج إلى الوصول إلى هذا التقرير.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-115">Select the users or groups that need access to this report.</span></span> 
+6. <span data-ttu-id="d8a1a-116">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-116">Select **Save**.</span></span>
+7. <span data-ttu-id="d8a1a-117">في تعريف التقرير، أضف تعريف الشجرة الجديد الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-117">In the report definition, add your new tree definition.</span></span>
+8. <span data-ttu-id="d8a1a-118">في تعريف الشجرة، حدد **إعداد**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-118">In the tree definition, select **Setting**.</span></span> <span data-ttu-id="d8a1a-119">ضمن **تحديد وحدة التقارير**، حدد **تضمين كل الوحدات**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-119">Under **Reporting unit selection**, select **Include all units**.</span></span>
 
-2.  <span data-ttu-id="2e318-109">إنشاء تعريف شجرة جديد (الملف | جديد | تعريف الشجرة) ا.</span><span class="sxs-lookup"><span data-stu-id="2e318-109">Create a new Tree Definition (File | New | Tree Definition) a.</span></span>    <span data-ttu-id="2e318-110">انقر نقرًا مزدوجًا فوق بند **الملخص** في العمود **أمان الوحدة**.</span><span class="sxs-lookup"><span data-stu-id="2e318-110">Double-click the **Summary** line in the **Unit Security** column.</span></span>
-  <span data-ttu-id="2e318-111">i</span><span class="sxs-lookup"><span data-stu-id="2e318-111">i.</span></span>    <span data-ttu-id="2e318-112">انقر فوق "المستخدمون والمجموعات".</span><span class="sxs-lookup"><span data-stu-id="2e318-112">Click Users and Groups.</span></span>  
-          <span data-ttu-id="2e318-113">1. حدد المستخدمين أو المجموعة التي ترغب في الوصول إلى هذا التقرير.</span><span class="sxs-lookup"><span data-stu-id="2e318-113">1.    Select the User(s) or Group that would like to access this report.</span></span> 
-          
-<span data-ttu-id="2e318-114">[![شاشة المستخدم](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)</span><span class="sxs-lookup"><span data-stu-id="2e318-114">[![user screen](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)</span></span>
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a><span data-ttu-id="d8a1a-120">كيف أحدد الحسابات التي لا تتطابق مع أرصدتي؟</span><span class="sxs-lookup"><span data-stu-id="d8a1a-120">How do I identify which accounts do not match my balances?</span></span>
 
-<span data-ttu-id="2e318-115">[![شاشة الأمان](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)</span><span class="sxs-lookup"><span data-stu-id="2e318-115">[![security screen](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)</span></span>
+<span data-ttu-id="d8a1a-121">إذا كان لديك تقرير لا يحتوي على أرصدة متطابقة، فإليك بعض الخطوات التي يمكنك اتخاذها لتحديد كل من الحسابات والفروق.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-121">If you have a report that doesn't have matching balances, here are some steps you can take to identify each of the accounts and variances.</span></span> 
 
-  <span data-ttu-id="2e318-116">b.</span><span class="sxs-lookup"><span data-stu-id="2e318-116">b.</span></span>    <span data-ttu-id="2e318-117">انقر فوق **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="2e318-117">Click **Save**.</span></span>
-  
-<span data-ttu-id="2e318-118">[![الزر حفظ](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)</span><span class="sxs-lookup"><span data-stu-id="2e318-118">[![save button](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)</span></span>
+<span data-ttu-id="d8a1a-122">**Financial Reporter Report Designer**</span><span class="sxs-lookup"><span data-stu-id="d8a1a-122">**Financial Reporter Report Designer**</span></span>
+1. <span data-ttu-id="d8a1a-123">في Financial Reporter Report Designer، أنشئ تعريف صف جديدًا.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-123">In Financial Reporter Report Designer, create a new row definition.</span></span> 
+2. <span data-ttu-id="d8a1a-124">حدد **تحرير > إدراج الصفوف من الأبعاد**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-124">Select **Edit > Insert Rows from Dimensions**.</span></span>
+3. <span data-ttu-id="d8a1a-125">حدد **MainAccount**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-125">Select **MainAccount**.</span></span>  
+4. <span data-ttu-id="d8a1a-126">حدد **موافق**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-126">Select **OK**.</span></span>
+5. <span data-ttu-id="d8a1a-127">احفظ تعريف الصف.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-127">Save the row definition.</span></span>
+6. <span data-ttu-id="d8a1a-128">إنشاء تعريف عمود جديد</span><span class="sxs-lookup"><span data-stu-id="d8a1a-128">Create a new column definition</span></span>
+7. <span data-ttu-id="d8a1a-129">أنشئ تعريف تقرير جديدًا.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-129">Create a new report definition.</span></span>
+8. <span data-ttu-id="d8a1a-130">حدد **الإعدادات** وقم بإلغاء تحديد هذا الخيار.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-130">Select **Settings** and unmark this option.</span></span>  
+9. <span data-ttu-id="d8a1a-131">أنشئ التقرير.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-131">Generate the report.</span></span> 
+10. <span data-ttu-id="d8a1a-132">قم بتصدير التقرير إلى Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-132">Export the report to Microsoft Excel.</span></span>
 
-3.  <span data-ttu-id="2e318-119">في تعريف التقرير قم بإضافة تعريف الشجرة الجديد</span><span class="sxs-lookup"><span data-stu-id="2e318-119">In your Report Definition add your new Tree Definition</span></span>
+<span data-ttu-id="d8a1a-133">**Dynamics 365 Finance**</span><span class="sxs-lookup"><span data-stu-id="d8a1a-133">**Dynamics 365 Finance**</span></span> 
+1. <span data-ttu-id="d8a1a-134">في Dynamics 365 Finance، انتقل إلى **دفتر الأستاذ العام > الاستفسارات والتقارير > ميزان المراجعة**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-134">In Dynamics 365 Finance, go to **General Ledger > Inquiries and Reports > Trial Balance**.</span></span>
+2. <span data-ttu-id="d8a1a-135">إعداد المعلمات التالية:</span><span class="sxs-lookup"><span data-stu-id="d8a1a-135">Set the following parameters:</span></span>
+   - <span data-ttu-id="d8a1a-136">**من تاريخ** - أدخل بداية السنة المالية.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-136">**From Date** - Enter the start of the fiscal year.</span></span>
+   - <span data-ttu-id="d8a1a-137">**إلى تاريخ** - أدخل التاريخ الذي تنشئ التقرير له.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-137">**To Date** - Enter the date you are generating the report for.</span></span>
+   - <span data-ttu-id="d8a1a-138">**البعد المالي** - قم بتعيين هذا الحقل إلى **مجموعة الحساب الرئيسي**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-138">**Financial Dimension** - Set this field to **Main Account set**.</span></span>
+ 3. <span data-ttu-id="d8a1a-139">حدد **حساب**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-139">Select **Calculate**.</span></span>
+ 4. <span data-ttu-id="d8a1a-140">قم بتصدير التقرير إلى Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-140">Export the report to Microsoft Excel.</span></span>
 
-<span data-ttu-id="2e318-120">[![نموذج تعريف الشجرة](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)</span><span class="sxs-lookup"><span data-stu-id="2e318-120">[![tree definition form](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)</span></span>
-
-<span data-ttu-id="2e318-121">A.</span><span class="sxs-lookup"><span data-stu-id="2e318-121">A.</span></span>  <span data-ttu-id="2e318-122">في "تعريف الشجرة" انقر فوق "الإعداد" وضمن "تحديد وحدة التقرير" حدد "تضمين كل الوحدات"</span><span class="sxs-lookup"><span data-stu-id="2e318-122">While in the Tree Definition click on Setting and under “Reporting unit selection” check “Include all units”</span></span>
-
-<span data-ttu-id="2e318-123">[![نموذج تحديد وحدة التقارير](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)</span><span class="sxs-lookup"><span data-stu-id="2e318-123">[![reporting unit selection form](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)</span></span>
-
-<span data-ttu-id="2e318-124">**قبل:** [![قبل لقطة الشاشة](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)</span><span class="sxs-lookup"><span data-stu-id="2e318-124">**Before:** [![before screenshot](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)</span></span>
-
-<span data-ttu-id="2e318-125">**بعد:** [![بعد لقطة الشاشة](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)</span><span class="sxs-lookup"><span data-stu-id="2e318-125">**After:** [![after screenshot](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)</span></span>
-
-<span data-ttu-id="2e318-126">ملاحظة: سبب الرسالة أعلاه ليس لدى المستخدم حق الوصول إلى هذا التقرير بعد تطبيق أمان الوحدة</span><span class="sxs-lookup"><span data-stu-id="2e318-126">Note: Reason for the above message is my user does not have access to that report after applying Unit Security</span></span>
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a><span data-ttu-id="2e318-127">كيف يمكنني تحديد الحسابات التي لا تطابق الأرصدة الخاصة بي في الـ D365؟</span><span class="sxs-lookup"><span data-stu-id="2e318-127">How do I determine which account(s) do not matching my balances in D365?</span></span>
-
-<span data-ttu-id="2e318-128">عندما يكون لديك تقرير لا يطابق ما تتوقعه في D365، ففيما يلي بعض الخطوات التي يمكنك اتخاذها لتحديد هذه الحسابات والتباينات.</span><span class="sxs-lookup"><span data-stu-id="2e318-128">When you have a report that doesn't match what you would expect in D365, here are some steps you could take to identify those accounts and the variances.</span></span> 
-
-### <a name="in-financial-reporter-report-designer"></a><span data-ttu-id="2e318-129">في مصمم تقرير التقارير المالية</span><span class="sxs-lookup"><span data-stu-id="2e318-129">In Financial Reporter Report Designer</span></span>
-
-1.  <span data-ttu-id="2e318-130">إنشاء تعريف صف جديد a.</span><span class="sxs-lookup"><span data-stu-id="2e318-130">Create a new Row Definition a.</span></span>    <span data-ttu-id="2e318-131">انقر فوق "تحرير" | ، ‬‏‫إدراج الصفوف من الأبعاد i.</span><span class="sxs-lookup"><span data-stu-id="2e318-131">Click Edit | Insert Rows from Dimensions i.</span></span>  <span data-ttu-id="2e318-132">حدد الحساب الرئيسي [![تحديد الشاشة الرئيسية_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)</span><span class="sxs-lookup"><span data-stu-id="2e318-132">Select MainAccount [![Select Main screen_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)</span></span>
-    
-    <span data-ttu-id="2e318-133">ii.</span><span class="sxs-lookup"><span data-stu-id="2e318-133">ii.</span></span> <span data-ttu-id="2e318-134">انقر فوق "موافق" b.</span><span class="sxs-lookup"><span data-stu-id="2e318-134">Click Ok b.</span></span>    <span data-ttu-id="2e318-135">احفظ "تعريف الصف".</span><span class="sxs-lookup"><span data-stu-id="2e318-135">Save the Row Definition</span></span>
-
-2.  <span data-ttu-id="2e318-136">إنشاء تعريف عمود جديد     [![إنشاء تعريف عمود جديد](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)</span><span class="sxs-lookup"><span data-stu-id="2e318-136">Create a new Column Definition     [![Create a new column definition](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)</span></span>
-
-3.  <span data-ttu-id="2e318-137">إنشاء تعريف تقرير جديد a.</span><span class="sxs-lookup"><span data-stu-id="2e318-137">Create a new Report Definition a.</span></span>    <span data-ttu-id="2e318-138">انقر فوق "الإعدادات" وقم بإلغاء تحديد [![نموذج الإعدادات](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)</span><span class="sxs-lookup"><span data-stu-id="2e318-138">Click Settings and uncheck [![Settings form](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)</span></span>
-   
-4.  <span data-ttu-id="2e318-139">قم بإنشاء التقرير.</span><span class="sxs-lookup"><span data-stu-id="2e318-139">Generate the Report.</span></span> 
-
-5.  <span data-ttu-id="2e318-140">قم بتصدير التقرير إلى Excel.</span><span class="sxs-lookup"><span data-stu-id="2e318-140">Export the Report to Excel.</span></span>
-
-### <a name="in-d365"></a><span data-ttu-id="2e318-141">في D365:</span><span class="sxs-lookup"><span data-stu-id="2e318-141">In D365:</span></span> 
-1.  <span data-ttu-id="2e318-142">انقر فوق دفتر الأستاذ العام | الاستعلامات والتقارير | ميزان المراجعة a.</span><span class="sxs-lookup"><span data-stu-id="2e318-142">Click General Ledger | Inquiries and Reports | Trial Balance a.</span></span>    <span data-ttu-id="2e318-143">محددات i.</span><span class="sxs-lookup"><span data-stu-id="2e318-143">Parameters i.</span></span>  <span data-ttu-id="2e318-144">من "التاريخ": بدء السنة المالية ii.</span><span class="sxs-lookup"><span data-stu-id="2e318-144">From Date: Start of Fiscal Year ii.</span></span> <span data-ttu-id="2e318-145">إلى تاريخ: التاريخ الذي أنشأت فيه التقرير لـ iii.</span><span class="sxs-lookup"><span data-stu-id="2e318-145">To Date: Date you generated the report for iii.</span></span>    <span data-ttu-id="2e318-146">مجموعة الأبعاد المالية "مجموعة الحساب الرئيسي"، [![نموذج الحساب الرئيسي](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)</span><span class="sxs-lookup"><span data-stu-id="2e318-146">Financial Dimension Set “Main Account set” [![Main Account Form](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)</span></span>
-      
-  <span data-ttu-id="2e318-147">b.</span><span class="sxs-lookup"><span data-stu-id="2e318-147">b.</span></span>    <span data-ttu-id="2e318-148">انقر فوق "حساب".</span><span class="sxs-lookup"><span data-stu-id="2e318-148">Click Calculate</span></span>
-
-2.  <span data-ttu-id="2e318-149">تصدير التقرير إلى Excel</span><span class="sxs-lookup"><span data-stu-id="2e318-149">Export the report to Excel</span></span>
-
-<span data-ttu-id="2e318-150">الآن يمكنك نسخ البيانات من تقرير FR Excel والي تقرير ميزان مراجعة D365 ومقارنة الأعمدة "رصيد الاقفال".</span><span class="sxs-lookup"><span data-stu-id="2e318-150">You should now be able to copy the data from the FR Excel Report and to the D365 Trial Balance report and compare the “Closing Balance” columns.</span></span>
-
+<span data-ttu-id="d8a1a-141">يجب أن تكون الآن قادرًا على نسخ البيانات من تقرير Financial Reporter Excel إلى تقرير ميزان المراجعة، حتى تتمكن من مقارنة أعمدة **إقفال الرصيد**.</span><span class="sxs-lookup"><span data-stu-id="d8a1a-141">You should now be able to copy the data from the Financial Reporter Excel report to the Trial Balance report, so you can compare the **Closing Balance** columns.</span></span>
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

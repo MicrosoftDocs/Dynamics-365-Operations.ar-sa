@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: talent-welcome.md
+  href: ./index.md
   items:
     - name: البدء
       items:
@@ -151,7 +151,7 @@
         - name: تصدير البيانات من Attract وOnboard
           href: attract-onboard-export-data.md
         - name: تضمين تطبيقات اللوحة من Power Apps
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
         - name: الحصول على دعم لـ Talent
           href: talent-support.md
     - name: تعيين الموظفين لمؤسستك‬ باستخدام Attract
