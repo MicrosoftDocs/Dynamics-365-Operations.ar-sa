@@ -94,12 +94,12 @@
                   items:
                     - name: الجديد أو المتغير في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.19 (يوليو 2021)
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (مايو 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: Commerce 10.0.17 (أبريل 2021)
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: Commerce 10.0.16 (فبراير 2021)
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: تضمين تطبيقات اللوحة من Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: تضمين تطبيقات الجهات الخارجية
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: البحث عن المعلومات باستخدام عمليات البحث
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: تغيير تاريخ جلسة
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: تكوين Retail Hardware Station وتثبيته
                   href: retail-hardware-station-configuration-installation.md
+                - name: التوزيع الجماعي لمكونات الخدمة الذاتية المختومة لـ Commerce
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: التوزيع الجماعي لمكونات الخدمة الذاتية القديمة
                   href: dev-itpro/retail-mass-deployment.md
                 - name: أحداث مكونات Commerce للتشخيصات واستكشاف الأخطاء وإصلاحها
@@ -366,9 +370,9 @@
                       href: MPOS-or-CPOS.md
                     - name: عمليات نقطة البيع أثناء الاتصال وعدم الاتصال
                       href: pos-operations.md
-                    - name: تنشيط جهاز Modern POS مخصصة
+                    - name: تنشيط جهاز Modern POS مخصص
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: تمكين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
+                    - name: تكوين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
                       href: aad-pos-logon.md
                     - name: البحث عن المنتج والعميل في نقطة البيع
                       href: POS-search-improvements.md
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: نظرة عامة حول خصم الشحن
                   href: retail-shipping-discount.md
+                - name: تكوين الهدية مع عروض الشراء الترويجية
+                  href: gift-with-purchase.md
                 - name: إعداد الكوبونات
                   href: retail-coupons.md
                 - name: عرض الخصومات في نقطة البيع
@@ -760,7 +766,9 @@
                   href: notifications-pos.md
                 - name: بيع برامج الاستمرارية ومعالجة أوامر المبيعات
                   href: tasks/use-continuity-program.md
-            - name: المرتجعات
+                - name: تمكين إعلامات تسجيل دخول العميل إلى نقطة البيع (POS)
+                  href: enable-customer-check-in.md
+            - name: مرتجعات
               items:
                 - name: المبالغ المستردة المرتبطة
                   href: dev-itpro/linked-refunds.md
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: الانسحاب من مجموعة أحداث نشاط الويب
                   href: web-activity-opt-out.md
+                - name: تطبيق إعدادات وحدة القياس
+                  href: unit-of-measure.md
             - name: إدارة محتوى موقعك
               items:
                 - name: طرق إضافة المحتوى
@@ -954,9 +964,9 @@
                       href: add-languages-to-site.md
                     - name: إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام
                       href: add-telemetry.md
-                - name: الوحدات النمطية
+                - name: الوحدات
                   items:
-                    - name: العمل باستخدام الوحدات النمطية
+                    - name: العمل باستخدام الوحدات
                       href: work-with-modules.md
                 - name: الأجزاء
                   items:
@@ -1052,7 +1062,7 @@
                       href: add-video-player.md
                 - name: وحدات الرؤوس والتذييلات
                   items:
-                    - name: الوحدة النمطية للرؤوس
+                    - name: وحدة الرؤوس
                       href: author-header-module.md
                     - name: وحدة التذييلات‬
                       href: author-footer-module.md
@@ -1066,71 +1076,73 @@
                       href: metatags-module.md
                     - name: وحدات البرنامج النصي الخارجية والمضمّنة
                       href: script-module.md
-                - name: الوحدات النمطية لصفحة تفاصيل المنتج
+                - name: وحدات صفحة تفاصيل المنتج
                   items:
-                    - name: الوحدة النمطية لصندوق الشراء
+                    - name: وحدة صندوق الشراء
                       href: add-buy-box.md
-                    - name: الوحدة النمطية لمعرض الوسائط
+                    - name: وحدة معرض الوسائط
                       href: media-gallery-module.md
-                    - name: الوحدات النمطية للتقييمات والمراجعات
+                    - name: وحدات التقييمات والمراجعات
                       href: ratings-reviews-modules.md
-                    - name: الوحدة النمطية للمشاركة الاجتماعية
+                    - name: وحدة المشاركة الاجتماعية
                       href: social-share-module.md
-                - name: الوحدات النمطية للشراء
+                - name: وحدات الشراء
                   items:
-                    - name: الوحدة النمطية لعربة التسوق
+                    - name: وحدة عربة التسوق
                       href: add-cart-module.md
-                    - name: الوحدة النمطية لرمز عربة التسوق
+                    - name: وحدة رمز عربة التسوق
                       href: cart-icon-module.md
-                    - name: الوحدة النمطية للسداد مع الخروج
+                    - name: وحدة السداد مع الخروج
                       href: add-checkout-module.md
-                    - name: الوحدة النمطية للدفع
+                    - name: وحدة للدفع
                       href: payment-module.md
-                    - name: الوحدة النمطية لعنوان الشحن
+                    - name: وحدة عنوان الشحن
                       href: ship-address-module.md
-                    - name: الوحدة النمطية لخيارات التسليم
+                    - name: وحدة خيارات التسليم
                       href: delivery-options-module.md
-                    - name: الوحدة النمطية لمعلومات الاستلام
+                    - name: وحدة معلومات الاستلام
                       href: pickup-info-module.md
-                    - name: الوحدة النمطية لتفاصيل الأوامر
+                    - name: تسجيل الدخول لوحدة الاستلام
+                      href: check-in-pickup-module.md
+                    - name: وحدة تفاصيل الأوامر
                       href: order-confirmation-module.md
-                    - name: الوحدة النمطية لبطاقة الهدايا
+                    - name: وحدة بطاقة الهدايا
                       href: add-giftcard.md
-                - name: الوحدات النمطية للباحث عن المتجر
+                - name: وحدات الباحث عن المتجر
                   items:
                     - name: وحدة الخريطة
                       href: map-module.md
-                    - name: الوحدة النمطية لمحدد المتجر
+                    - name: وحدة محدد المتجر
                       href: store-selector.md
-                - name: الوحدات النمطية لإدارة الحسابات
+                - name: وحدات إدارة الحسابات
                   items:
-                    - name: الصفحات والوحدات النمطية لإدارة الحسابات
+                    - name: الصفحات ووحدات إدارة الحسابات
                       href: account-management.md
-                - name: الوحدات النمطية لإدارة الهويات
+                - name: وحدات إدارة الهويات
                   items:
-                    - name: الصفحات والوحدات النمطية لإدارة الهويات
+                    - name: الصفحات ووحدات إدارة الهويات
                       href: identity-mgmt-modules.md
-                - name: الوحدات النمطية لمجموعة المنتجات
+                - name: وحدات مجموعة المنتجات
                   items:
-                    - name: الوحدات النمطية لمجموعة المنتجات
+                    - name: وحدات مجموعة المنتجات
                       href: product-collection-module-overview.md
-                    - name: الوحدة النمطية للعرض السريع
+                    - name: وحدة عرض السريع
                       href: quick-view-module.md
-                - name: الوحدات النمطية للتنقل
+                - name: وحدات التنقل
                   items:
-                    - name: الوحدة النمطية لمسار التنقل
+                    - name: وحدة مسار التنقل
                       href: add-breadcrumb.md
-                    - name: الوحدة النمطية لقائمة التنقل
+                    - name: وحدة قائمة التنقل
                       href: nav-menu-module.md
-                    - name: الوحدة النمطية لمحدد الموقع
+                    - name: وحدة محدد الموقع
                       href: site-selector.md
-                - name: الوحدات النمطية للبحث
+                - name: وحدات البحث
                   items:
-                    - name: الوحدة النمطية لنتائج البحث
+                    - name: وحدة نتائج البحث
                       href: search-result-module.md
-                - name: الوحدات النمطية للتوافق
+                - name: وحدات التوافق
                   items:
-                    - name: الوحدة النمطية للموافقة على ملف تعريف الارتباط
+                    - name: وحدة الموافقة على ملف تعريف الارتباط
                       href: cookie-consent-module.md
             - name: بحث
               items:
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: ‏‫إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM)‬
               href: set-up-rfm-analysis.md
+            - name: إعداد Microsoft Clarity في Dynamics 365 Commerce
+              href: set-up-clarity.md
         - name: العولمة
           items:
             - name: نظرة عامة على التكامل المالي لقناة Commerce
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: ملفات تعريف الشهادات المعرفة من قِبل المستخدمين لمتاجر البيع بالتجزئة
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: نظرة عامة على Regulatory Configuration Service
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory configuration service - ميزات العولمة
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: إنشاء تكوينات ER في Regulatory configuration service وتحميلها إلى المستودع العمومي
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: النمسا
               items:
                 - name: عينة تكامل خدمة التسجيل المالي للنمسا
@@ -2192,47 +2214,49 @@
                       href: e-commerce-extensibility/ecommerce-components.md
                     - name: مرجع الأمر CLI
                       href: e-commerce-extensibility/cli-command-reference.md
-                - name: تحليل وحدة نمطية
+                - name: تحليل وحدة
                   items:
-                    - name: نظرة عامة على الوحدات النمطية
+                    - name: نظرة عامة على الوحدات
                       href: e-commerce-extensibility/modules-overview.md
-                    - name: ملف التعريف الوحدة النمطية
+                    - name: ملف التعريف الوحدة
                       href: e-commerce-extensibility/module-definition-file.md
-                    - name: ملف مكون لتفاعل الوحدة النمطية
+                    - name: ملف مكون لتفاعل الوحدة
                       href: e-commerce-extensibility/module-react-file.md
-                    - name: ملف عرض الوحدة النمطية
+                    - name: ملف عرض الوحدة
                       href: e-commerce-extensibility/module-view-file.md
-                    - name: ملف بيانات الوحدة النمطية
+                    - name: ملف بيانات الوحدة
                       href: e-commerce-extensibility/module-data-file.md
-                    - name: ملف الوحدة النمطية الوهمي
+                    - name: ملف الوحدة الوهمي
                       href: e-commerce-extensibility/module-mock-file.md
-                    - name: ملف اختبار الوحدة النمطية
+                    - name: ملف اختبار الوحدة
                       href: e-commerce-extensibility/module-test-file.md
-                    - name: ملف الوحدة النمطية props.autogenerated.ts
+                    - name: ملف الوحدة props.autogenerated.ts
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
-                - name: تطوير الوحدات النمطية
+                    - name: الإعدادات المسبقة لتكوين الوحدة
+                      href: e-commerce-extensibility/module-config-presets.md
+                - name: تطوير الوحدات
                   items:
-                    - name: إنشاء وحدة نمطية جديدة
+                    - name: إنشاء وحدة جديدة
                       href: e-commerce-extensibility/create-new-module.md
                     - name: استنساخ وحدة مكتبة الوحدات
                       href: e-commerce-extensibility/clone-starter-module.md
-                    - name: إضافة حقول تكوين الوحدة النمطية
+                    - name: إضافة حقول تكوين الوحدة
                       href: e-commerce-extensibility/add-module-config-fields.md
-                    - name: معاينة الوحدات النمطية وتصحيحها
+                    - name: معاينة الوحدات وتصحيحها
                       href: e-commerce-extensibility/test-module.md
                     - name: وحدات الاختبار مع عناصر وهمية للوحدات
                       href: e-commerce-extensibility/test-module-mock.md
-                    - name: اختبار الوحدات النمطية باستخدام عناصر صفحة وهمية
+                    - name: اختبار الوحدات باستخدام عناصر صفحة وهمية
                       href: e-commerce-extensibility/test-page-mock.md
                     - name: وحدات الحاوية
                       href: e-commerce-extensibility/container-modules.md
-                    - name: إنشاء وحدة نمطية لحاوية تخطيط
+                    - name: إنشاء وحدة حاوية تخطيط
                       href: e-commerce-extensibility/create-layout-container.md
-                    - name: إنشاء وحدة نمطية لحاوية صفحة
+                    - name: إنشاء وحدة حاوية صفحة
                       href: e-commerce-extensibility/create-page-containers.md
-                    - name: ترجمة وحدة نمطية
+                    - name: ترجمة وحدة
                       href: e-commerce-extensibility/localize-module.md
-                - name: مواضيع الوحدات النمطية المتقدمة
+                - name: مواضيع الوحدات المتقدمة
                   items:
                     - name: كائن خصائص الطلب
                       href: e-commerce-extensibility/request-properties-object.md
@@ -2240,7 +2264,7 @@
                       href: e-commerce-extensibility/app-settings.md
                     - name: ملف إعدادات النظام الأساسي
                       href: e-commerce-extensibility/platform-settings.md
-                    - name: توسيع تعريف الوحدة النمطية
+                    - name: توسيع تعريف الوحدة
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: نظرة عامة حول API ملفات تعريف الارتباط
                       href: e-commerce-extensibility/cookie-api-overview.md
@@ -2248,9 +2272,9 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: التلاعب بحالة تسجيل الدخول أثناء التطوير المحلي
                       href: e-commerce-extensibility/mock-sign-in.md
-                    - name: تكوين خصائص الوحدة النمطية التي سيتم عرضها استنادًا إلى السياق
+                    - name: تكوين خصائص الوحدة التي سيتم عرضها استنادًا إلى السياق
                       href: e-commerce-extensibility/configure-properties-context.md
-                    - name: عولمة الوحدات النمطية باستخدام الفئة CultureInfoFormatter
+                    - name: عولمة الوحدات باستخدام الفئة CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: إعداد Azure Key Vault لإدارة المفاتيح الآمنة
                       href: e-commerce-extensibility/set-up-key-vault.md
@@ -2280,7 +2304,7 @@
                       href: e-commerce-extensibility/batch-data-actions.md
                     - name: إجراءات البيانات التي يمكن ملاحظتها
                       href: e-commerce-extensibility/create-observable-data-action.md
-                    - name: مشاركة الحالة عبر الوحدات النمطية
+                    - name: مشاركة الحالة عبر الوحدات
                       href: e-commerce-extensibility/share-state-across-modules.md
                     - name: إعدادات ذاكرة التخزين المؤقت لإجراءات البيانات
                       href: e-commerce-extensibility/data-action-cache-settings.md
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: إضافة أزرار مخصصة إلى شريط رأس نقطة البيع
                   href: dev-itpro/pos-header-bar.md
+                - name: نقطة البيع المستقلة - SDK للتعبئة
+                  items:
+                    - name: نظرة عامة على توسيع نقطة البيع
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: الشروع في العمل باستخدام عمليات توسيع نقاط البيع
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: إنشاء مشروع حزمة توسيع نقطة البيع
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: إنشاء ملف appx لتوسيع Modern POS
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: تصحيح توسيع نقطة البيع
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: قابلية توسعة Hardware Station
               items:
                 - name: Hardware Station وقابلية التوسعة

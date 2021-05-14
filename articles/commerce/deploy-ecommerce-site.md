@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fff5d47d6eb3e08288d17853fcd94f9eab843c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b228babfd32a4191eeed2a6d924a8b99f1a5311
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801939"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936696"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>نشر مستأجر التجارة الإلكترونية الجديد
 
@@ -29,13 +29,13 @@ ms.locfileid: "5801939"
 
 تعتبر Microsoft Dynamics Lifecycle Services مساحة عمل تعاونيه قائمة على السحابة ويمكن للشركاء والعملاء استخدامها لإدارة المشاريع والبيئات الخاصة بهم، وعرض أحدث المعلومات حول منتجات Microsoft Dynamics والميزات، وإنشاء حوادث الدعم وتعقبها واستعراضها. تتكامل ميزات إدارة التجارة الإلكترونية في LCS.
 
-لمعرفه المزيد عن LCS، راجع [دليل مستخدم Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
+لمعرفه المزيد عن LCS، راجع [دليل مستخدم Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
     
 ## <a name="get-started"></a>بدء الاستخدام
 
 قبل أن تتمكن من تهيئة التجارة الإلكترونية، يجب تهيئة مشروع، وبيئة، و Retail Cloud Scale Unit (RCSU). للقيام بعملية التهيئة في LCS ، يجب أن يكون لديك أذونات إما لمالك المشروع أو دور مُدير البيئة. يتم دعم مخططات بيئة الإنتاج وبيئة الاختبار المعزولة.
 
-لمزيد من المعلومات حول البيئات، راجع [تخطيط البيئة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). لمزيد من المعلومات حول RCSU، راجع [تهيئة Retail Cloud Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
+لمزيد من المعلومات حول البيئات، راجع [تخطيط البيئة](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). لمزيد من المعلومات حول RCSU، راجع [تهيئة Retail Cloud Scale Unit](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
 ## <a name="initialize-e-commerce"></a>تهيئة التجارة الإلكترونية
 

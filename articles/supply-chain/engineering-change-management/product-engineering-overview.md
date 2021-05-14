@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 964db71efc9dc81d60199e37de8668de9d667496
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842071"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947510"
 ---
 # <a name="engineering-change-management-overview"></a>نظرة عامة حول إدارة التغيير الهندسي
 
@@ -48,7 +48,7 @@ ms.locfileid: "5842071"
 
 أولاً، قم بتشغيل الميزات باتباع هذه الخطوات.
 
-1. انتقل إلى [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. انتقل إلى مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. ‏‏تحقق من وجود تحديثات.
 1. قم بتشغيل الميزة التي تسمى **إدارة التغييرات الهندسية**.
 1. إذا كنت تريد استخدامه، فقم أيضًا بتشغيل الميزة التي تم تسميتها **إصدار بعد المنتج**.
@@ -57,9 +57,12 @@ ms.locfileid: "5842071"
 
 1. وضع النظام في وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. انتقل إلى **إدارة النظام \> الإعداد \> تكوين الترخيص**.
-1. توسيع عقدة **التجارة**
-1. حدد مربع الاختيار **إدارة التغييرات الهندسية**.
-1. إذا كنت ترغب في استخدامه، فحدد أيضًا خانة الاختيار **بعد المنتج - الإصدار**.
+1. قم بتوسيع عقدة **التجارة**.
+1. قم بتمكين مفتاح التكوين للميزة الرئيسية عن طريق تحديد خانة الاختيار **إدارة التغيير الهندسي**. (ليس من الضروري توسيع العقدة إلا إذا كنت تريد أيضًا تعطيل إحدى ميزاتها الفرعية أو كلتيهما.)
+1. إذا كنت تريد أيضًا استخدام بُعد الإصدار، فحدد خانة الاختيار **بعد المنتج - الإصدار**. (تكون خانه الاختيار هذه اعلي القائمة بشكل أكبر، وليست متداخلة ضمن عقدة **إدارة التغيير الهندسي**.)
 1. إيقاف تشغيل وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+> [!IMPORTANT]
+> ابتداءً من أبريل 2022، سيتم تمكين مفاتيح الترخيص لكل من **إدارة التغيير الهندسي** و **بُعد الإنتاج - الإصدار** افتراضيًا لجميع عمليات التثبيت الجديدة، ولكن ستظل قادرًا على تعطيلها إذا لزم الأمر.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 12/07/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909637"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947534"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
 
@@ -32,6 +32,19 @@ ms.locfileid: "5909637"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.19 من Supply Chain Management
+
+### <a name="job-card-device"></a>جهاز بطاقة الوظيفة
+
+|   |   |
+|---|---|
+| **سبب الإهلاك/الإزالة** | يتم استبدال [جهاز بطاقة الوظيفة](../production-control/config-job-card-device.md) بواسطة [واجهة تنفيذ صالة الإنتاج الجديدة](../production-control/production-floor-execution-configure.md). |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم، ينبغي استبدال [جهاز بطاقة الوظيفة](../production-control/config-job-card-device.md) بواسطة [واجهة تنفيذ صالة الإنتاج الجديدة](../production-control/production-floor-execution-configure.md). |
+| **مناطق المنتجات المتأثرة** | Supply Chain Management - التحكم في الإنتاج |
+| **خيارات النشر** | السحابة ومحلي |
+| **الحالة** | مهملة. سيتلقى جهاز بطاقة العمل الدعم من خلال إصلاحات الأخطاء والأمان، ولكن لن يتم توفير تحسينات الميزات. بعد أبريل 2022، لن يتم دعم جهاز بطاقة العمل وسيُطلب من العملاء الانتقال إلى واجهة تنفيذ أرضية الإنتاج الجديدة. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.18 من Supply Chain Management
 

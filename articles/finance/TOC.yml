@@ -70,8 +70,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: الجديد أو المتغير في Finance
                   items:
-                    - name: المزايا الجديدة أو المتغيرة‬ في صفحة Finance الرئيسية
+                    - name: الجديد أو المتغير‬ في صفحة Finance الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.19 (يوليو 2021)
+                      href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (مايو 2021)
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (أبريل 2021)
@@ -162,6 +164,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: تضمين تطبيقات اللوحة من Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
+                - name: تضمين تطبيقات الجهات الخارجية
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/finance/toc.json
                 - name: البحث عن المعلومات باستخدام عمليات البحث
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: تغيير تاريخ جلسة
@@ -683,45 +687,45 @@
         - name: إدارة المصروفات
           items:
             - name: نظرة عامة على إدارة المصروفات
-              href: expense-management/expense-management.md
+              href: /dynamics365/project-operations/prod-exp/expense-management
             - name: إعادة تصور تقارير المصروفات
-              href: expense-management/ExpenseWorkspaceNew.md
+              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
             - name: إدارة مصروفات الخطة
-              href: expense-management/plan-expense-management.md
+              href: /dynamics365/project-operations/prod-exp/plan-expense-management
             - name: معلمات إدارة المصروفات
-              href: expense-management/Expense-Management-Parameters.md
+              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
             - name: مساحة العمل المحمولة "إدارة المصروفات"
-              href: expense-management/expense-management-mobile-workspace.md
+              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
             - name: إعداد مهام سير العمل لإدارة المصروفات
-              href: expense-management/expense-workflows.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflows
             - name: سير عمل إدارة المصروفات
-              href: expense-management/expense-workflow.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflow
             - name: أداره تفويض المصروفات
-              href: expense-management/manage-expense-delegation.md
+              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
             - name: معالجة استلام المصروفات
-              href: expense-management/expense-receipt-processing.md
+              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
             - name: استيراد حركات بطاقات الائتمان وصيانتها
-              href: expense-management/import-credit-card.md
+              href: /dynamics365/project-operations/prod-exp/import-credit-card
             - name: توزيعات تقرير مصروفات
-              href: expense-management/expense-report-distributions.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
             - name: المصروفات المشتركة بين الشركات الشقيقة
-              href: expense-management/intercompany-expense.md
+              href: /dynamics365/project-operations/prod-exp/intercompany-expense
             - name: تعريف سياسات المصروفات
-              href: expense-management/travel-expense-policies.md
+              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
             - name: عرض تقرير مصروفات
-              href: expense-management/view-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/view-expense-report
             - name: ترحيل تقرير مصروفات
-              href: expense-management/post-expense.md
+              href: /dynamics365/project-operations/prod-exp/post-expense
             - name: تقارير المصروفات والعديد من مانحي القبول
-              href: expense-management/expense-report-multiple-approvers.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
             - name: استرداد ضريبة القيمة المضافة في إدارة المصروفات
-              href: expense-management/VAT-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
             - name: قواعد المصروف اليومي
-              href: expense-management/per-diem.md
+              href: /dynamics365/project-operations/prod-exp/per-diem
             - name: طلبات السفر
-              href: expense-management/travel-req.md
+              href: /dynamics365/project-operations/prod-exp/travel-req
             - name: المصروفات الشخصية على تقرير المصروفات
-              href: expense-management/personal-expenses.md
+              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: الأصول الثابتة
           items:
             - name: الصفحة الرئيسية للأصول الثابتة
@@ -1104,6 +1108,20 @@
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: طباعة دفعة ضريبة المبيعات حسب تقرير الكود
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+                - name: استكشاف أخطاء ضريبة المبيعات وإصلاحها
+                  items:
+                    - name: لم يتم احتساب الضريبة أو مبلغ الضريبة صفر
+                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                    - name: يؤثر أداء حساب الضريبة على الحركات
+                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                    - name: قيمة حقل غير صحيحة في TaxTrans
+                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                    - name: لم يتم إنشاء سجل TaxTrans
+                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                    - name: تم ترحيل الضريبة إلى حساب دفتر الأستاذ غير الصحيح في الإيصال
+                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                    - name: لم يتم إنشاء الإيصال
+                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
             - name: ضريبة الخصم
               items:
                 - name: إعداد ضريبة الخصم
@@ -1215,85 +1233,85 @@
         - name: إدارة المشاريع ومحاسبتها
           items:
             - name: نظرة عامة على إدارة المشاريع ومحاسبتها
-              href: project-management/overview-project-management-accounting.md
+              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
             - name: الفوترة بين الشركات الشقيقة
-              href: project-management/intercompany-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
             - name: تكوين فوترة المشروع بين الشركات الشقيقة
-              href: project-management/tasks/configure-intercompany-project-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
             - name: تكوين التكاليف القياسية للعمالة والمصروفات
-              href: project-management/tasks/configure-standard-costs-labor-expenses.md
+              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
             - name: إنشاء شروط احتجاز مدفوعات المورد وتطبيقها
-              href: project-management/create-and-apply-vendor-payment-retention-terms.md
+              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
             - name: إعداد واستخدام الدفع عند دفع مدفوعات المورّد
-              href: project-management/setup-manage-vendor-payments.md
+              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
             - name: إيصالات استحقاق تكلفة المشروع على الشراء
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: فوترة المشروع
               href: accounts-payable/project-invoicing.md
             - name: عقود المشروع
-              href: project-management/project-contracts.md
+              href: /dynamics365/project-operations/prod-pma/project-contracts
             - name: إنشاء عقود متقدمة للفوترة استنادًا إلى التقدم
-              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
+              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
             - name: تنبؤات وموازنات المشاريع
-              href: project-management/project-forecasts-budgets.md
+              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
             - name: إنشاء طرز تنبؤ لموازنات المشاريع
-              href: project-management/create-forecast-models-project-budgets.md
+              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
             - name: نقل موازنات المشروع في نهاية السنة المالية
-              href: project-management/process-project-budgets-for-fiscal-year-end.md
+              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
             - name: أوامر مبيعات المشروع
-              href: project-management/project-sales-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-sales-orders
             - name: أوامر الشراء لمشروع
-              href: project-management/project-purchase-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
             - name: عروض أسعار المشروع
-              href: project-management/project-quotations.md
+              href: /dynamics365/project-operations/prod-pma/project-quotations
             - name: تأكيد عرض أسعار مشروع وتحديثه وإرساله
-              href: project-management/confirm-update-send-project-quotation.md
+              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
             - name: تحويل عرض أسعار إلى مشروع
-              href: project-management/transfer-quote-new-existing-project.md
+              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
             - name: تحديد موارد المشروع
               items:
                 - name: نظرة عامة على موارد المشروع
-                  href: project-management/project-resourcing.md
+                  href: /dynamics365/project-operations/prod-pma/project-resourcing
                 - name: إعداد موارد المشروع
-                  href: project-management/set-up-project-resources.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
                 - name: إدارة اختصاصات الموارد
-                  href: project-management/manage-resource-competencies.md
+                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
                 - name: إنشاء مشروع جديد
-                  href: project-management/create-new-project.md
+                  href: /dynamics365/project-operations/prod-pma/create-new-project
                 - name: إعداد التسعير المستند إلى الدور
-                  href: project-management/set-up-role-based-pricing.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
                 - name: إنشاء فريق مشروع
-                  href: project-management/create-project-team.md
+                  href: /dynamics365/project-operations/prod-pma/create-project-team
                 - name: مزامنة قدرة الموارد‬
-                  href: project-management/synchronize-resource-capacity.md
+                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
                 - name: أداء جدولة موارد المشروع
-                  href: project-management/project-scheduling-performance.md
+                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
                 - name: إعداد الأدوار في قوالب هيكل تنظيم العمل
-                  href: project-management/set-up-roles-wbs-template.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
                 - name: تنفيذ الموارد للموارد المخططة
-                  href: project-management/resource-fulfillment-planned-resources.md
+                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
             - name: تلقي الأصناف على أمر شراء من متطلبات الصنف
-              href: project-management/tasks/receive-items-purchase-order-item-requirement.md
+              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
             - name: هياكل تنظيم العمل
               items:
                 - name: نظرة عامة على هياكل تنظيم العمل
-                  href: project-management/work-breakdown-structures.md
+                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
                 - name: تكامل Microsoft Project Client
-                  href: project-management/project-integration.md
+                  href: /dynamics365/project-operations/prod-pma/project-integration
                 - name: نظرة عامة على تطبيقات المحمول للمشاريع
-                  href: project-management/project-mobile-application-overview.md
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
                 - name: مساحة عمل محمولة لإدخال وقت المشروع
-                  href: project-management/project-time-entry-mobile-workspace.md
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
                 - name: تطبيق Project Timesheet للأجهزة المحمولة
-                  href: project-management/project-timesheet.md
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet
                 - name: الجداول الزمنية للمشاريع على الجهاز المحمول
-                  href: project-management/mobile-timesheets.md
+                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
                 - name: تنفيذ الحقول المخصصة لتطبيق Project Timesheet للأجهزة المحمولة
-                  href: project-management/custom-fields-mobile.md
+                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
             - name: منح المشروع
-              href: project-management/project-grants.md
+              href: /dynamics365/project-operations/prod-pma/project-grants
             - name: استبعاد تقدير مشروع
-              href: project-management/eliminate-project-estimate.md
+              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: القطاع العام
           items:
             - name: الصفحة الرئيسية للقطاع العام
@@ -1419,61 +1437,61 @@
             - name: خدمات العولمة
               items:
                 - name: نظرة عامة على خدمات العولمة
-                  href: localizations/globalization-services-overview.md
+                  href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory Configuration Service
                   items:
                     - name: نظرة عامة على Regulatory Configuration Service
-                      href: localizations/rcs-overview.md
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory configuration service - ميزات العولمة
-                      href: localizations/rcs-globalization-feature.md
+                      href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: إنشاء تكوينات ER في Regulatory configuration service وتحميلها إلى المستودع العمومي
-                      href: localizations/rcs-global-repo-upload.md
+                      href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                 - name: الفوترة الإلكترونية
                   items:
                     - name: نظرة عامة على الفوترة الإلكترونية
-                      href: localizations/e-invoicing-service-overview.md
+                      href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: مكونات إدارة الفوترة الإلكترونية
-                      href: localizations/e-invoicing-service-administration.md
+                      href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: تكوين الفوترة الإلكترونية في Regulatory Configuration Services (‏RCS)
-                      href: localizations/e-invoicing-configuration-rcs.md
+                      href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                     - name: إصدار الفواتير الإلكترونية في Finance وSupply Chain Management
-                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: إنشاء حساب تخزين Azure وKey Vault
-                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: الشروع في العمل
                       items:
                         - name: الشروع في العمل مع إدارة خدمة الفوترة الإلكترونية
-                          href: localizations/e-invoicing-get-started-service-administration.md
+                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية
-                          href: localizations/e-invoicing-get-started.md
+                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية للبرازيل
-                          href: localizations/e-invoicing-bra-get-started.md
+                          href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية لمصر
-                          href: localizations/e-invoicing-eg-get-started.md
+                          href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية لإيطاليا
-                          href: localizations/e-invoicing-ita-get-started.md
+                          href: localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية للمكسيك
-                          href: localizations/e-invoicing-mex-get-started.md
+                          href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: إعداد الفوترة الإلكترونية
-                          href: localizations/e-invoicing-setup.md
+                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: الأسئلة المتداولة حول الفوترة الإلكترونية
-                      href: localizations/e-invoicing-faq.md
+                      href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: حساب الضرائب
                   items:
                     - name: نظره عامة على حساب الضريبة
-                      href: localizations/global-tax-calcuation-service-overview.md
+                      href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: الشروع في العمل مع حساب الضريبة
-                      href: localizations/global-get-started-with-tax-calculation-service.md
+                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
                     - name: دعم ميزة الضريبة لأوامر التحويل
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
                     - name: إضافة حقول البيانات في تكوينات الضرائب
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: إضافة حقول البيانات في تكامل الضريبة باستخدام الملحقات
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
                     - name: أرقام تسجيل ضريبة القيمة المضافة المتعدد
-                      href: localizations/emea-multiple-vat-registration-numbers.md
+                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: إعداد بيئة للبحث عن البيانات الرئيسية
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
             - name: تحديثات تنظيمية
               href: localizations/regulatory-updates.md
             - name: أستراليا
@@ -3139,7 +3157,7 @@
                 - name: تكوين المعلمات المشتركة لـ Human resources
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: إعداد تدفقات عمل Human resource
-                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: فهم حقول التاريخ والوقت
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: إدارة العاملين
@@ -3189,15 +3207,15 @@
                 - name: إدارة عمليات التوظيف
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
                 - name: مشاريع التوظيف الجماعي
-                  href: ../fin-ops-core/fin-ops/hr/mass-hire-projects.md
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
                 - name: إنشاء مشاريع توظيف جماعي
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-mass-hire-project.md
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
                 - name: إدخال بيانات مقدم الطلب والطلب يدوياً
                   href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                 - name: تطوير طلبات الموظفين وفتحها
                   href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
                 - name: إعداد المناصب
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-positions.md
+                  href: ../human-resources/hr-personnel-set-up-positions.md
                 - name: توظيف مرشحين من خلال التوظيف
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
                 - name: توظيف موظفين موجودين من خلال التوظيف
@@ -4052,7 +4070,7 @@
                 - name: التحكم في التكاليف
                   href: cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: إدارة المصروفات
-                  href: expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: المخزون المتاح
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: الموافقات على الفواتير
@@ -4060,11 +4078,11 @@
                 - name: فريقي
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: نظرة عامة على تطبيقات المحمول للمشاريع
-                  href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: إدخال وقت المشروع
-                  href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Project Timesheet
-                  href: project-management/project-timesheet.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: اعتماد أمر الشراء
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: أوامر المبيعات

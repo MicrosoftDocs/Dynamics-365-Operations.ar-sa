@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d82f31212245044f27558c3cdea78fbcf4988afb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829946"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909781"
 ---
 # <a name="supply-chain-management-home-page"></a>الصفحة الرئيسية لـ Supply Chain Management
 
@@ -94,16 +94,16 @@ ms.locfileid: "5829946"
 
 ## <a name="blogs"></a>المدونات
 
-هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد في [مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن التصنيع](https://blogs.msdn.microsoft.com/axmfg/) و[مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm/). وقد تمت كتابة معظم هذه المنشورات للإصدار السابق، ولكن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي.
+هناك العديد من المواضيع حول التصنيع وإدارة سلسلة التوريد في [مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن التصنيع](/archive/blogs/axmfg/) و[مدونة فريق البحث والتطوير في Dynamics AX المسؤول عن Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm/). وقد تمت كتابة معظم هذه المنشورات للإصدار السابق، ولكن المفاهيم نفسها ما زالت سارية، والإجراءات هي أيضًا نفسها في الإصدار الحالي.
 
 ## <a name="white-papers"></a>المستندات التقنية
 
-- [Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان](https://docs.microsoft.com/dynamics/s-e/)
+- [Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان](/dynamics/s-e/)
 - [‏‫حساب قائمة مكونات الصنف (BOM) ‏‫باستخدام كشف التكاليف‬‏‫‬‬](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
 
-للحصول على الدورات التدريبية والتدريب عبر الإنترنت، تحقق من [Dynamics 365 Supply Chain Management على Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+للحصول على الدورات التدريبية والتدريب عبر الإنترنت، تحقق من [Dynamics 365 Supply Chain Management على Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

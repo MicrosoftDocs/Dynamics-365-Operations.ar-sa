@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797247"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936794"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>إدارة السمات ومجموعات السمات
 
@@ -101,7 +101,7 @@ ms.locfileid: "5797247"
 
 ولقد كان الهدف الأصلي من هذه الخيارات تحسين وظيفة البحث لواجهة المتجر على الإنترنت. على الرغم من أن Commerce لا يتضمن واجهة المتجر على الإنترنت الجاهزة، فهو يتضمن حزمة eCommerce Publishing Software Development Kit (SDK). يمكن للعملاء استخدام SDK لوضع المنتجات في فهرس بحث من اختيارهم. على الرغم من أنه يتم استيراد بيانات المنتج، يجب أن يظل العملاء قادرون على تمييز البيانات قابلة للبحث أو البيانات التي يمكن الاستعلام عنها، وهكذا. وبهذه الطريقة، يمكنهم إنشاء فهرس أمثل للتأكد من أنهم قاموا فقط بفهرسة السمات التي يجب فهرستها *وفقًا لاختيارهم*.
 
-لمزيد من المعلومات حول الغرض من هذه الخيارات المتبقية، راجع [نظرة عامة حول مخطط البحث في SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
+لمزيد من المعلومات حول الغرض من هذه الخيارات المتبقية، راجع [نظرة عامة حول مخطط البحث في SharePoint Server 2013](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>تصفية إعدادات السمات
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
-ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
+ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
+ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5898277"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5965300"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -104,15 +104,15 @@ ms.locfileid: "5898277"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.12 من Finance
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>تقارير SSRS البولندية: سجل ضريبة القيمة المضافة للإخراج، سجل ضريبة القيمة المضافة للإدخال، سجل تقرير ملخص ضريبة القيمة المضافة للاتحاد الأوروبي‬، مرجع الميزة PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>غير مهلكة: تقارير SSRS البولندية: سجل ضريبة القيمة المضافة للإخراج، سجل ضريبة القيمة المضافة للإدخال، سجل تقرير ملخص ضريبة القيمة المضافة للاتحاد الأوروبي‬، مرجع الميزة PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | غير مطلوبة من الناحية القانونية.  |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم (تنسيق Excel لملف المراجعة القياسي مع إقرار ضريبة القيمة المضافة - JPK_VDEK) |
-| **مناطق المنتجات المتأثرة**         | التطبيق |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | ميزات مهملة: بحلول 1 يوليو 2021، سنتوقف عن توفير الدعم لتقارير SSRS: **سجل ضريبة القيمة المضافة للإخراج، سجل ضريبة القيمة المضافة للإدخال، سجل تقرير ملخص ضريبة القيمة المضافة للاتحاد الأوروبي‬، مرجع الميزة PL-00014‬**. بدلاً من ذلك، سيتم تقديم مثال عن تنسيق Excel لملف المراجعة القياسي مع إقرار ضريبة القيمة المضافة (JPK_VDEK). |
+| **الحالة**                         | غير مهمل: اعتبارًا من 27 أبريل 2021، نخطط لمواصلة دعم تقارير SSRS: **سجل ضريبة القيمة المضافة على المبيعات، سجل ضريبة القيمة المضافة للشراء، ملخص الاتحاد الأوروبي لسجل ضريبة القيمة المضافة - مرجع الميزة PL-00014**. كما تم تقديم مثال تنسيق Excel لملف التدقيق القياسي مع إقرار ضريبة القيمة المضافة (JPK_VDEK). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.11 من Finance
 

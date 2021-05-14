@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748735"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923470"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>متطلبات ضبط حجم الأجهزة للبيئات المحلية
 
@@ -134,7 +134,7 @@ ms.locfileid: "5748735"
 
 ## <a name="environment-orchestrator"></a>منسق البيئة
 
-إن خدمة المنسق هي الخدمة التي تعمل على إدارة عملية النشر والاتصالات ذات الصلة بـ LCS. يتم نشر الخدمة كخدمة Service Fabric الأساسية وتتطلب ثلاثة أجهزة ظاهرية على الأقل. تقع هذه الخدمة في موقع مشترك مع خدمات تنسيق Service Fabric. ويجب أن يتم ضبط حجم ذلك لحمل العمل الأقصى في نظام المجموعة. لمزيد من المعلومات، راجع [تخطيط وإعداد نشر مجموعة Service Fabric مستقلة](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+إن خدمة المنسق هي الخدمة التي تعمل على إدارة عملية النشر والاتصالات ذات الصلة بـ LCS. يتم نشر الخدمة كخدمة Service Fabric الأساسية وتتطلب ثلاثة أجهزة ظاهرية على الأقل. تقع هذه الخدمة في موقع مشترك مع خدمات تنسيق Service Fabric. ويجب أن يتم ضبط حجم ذلك لحمل العمل الأقصى في نظام المجموعة. لمزيد من المعلومات، راجع [تخطيط وإعداد نشر مجموعة Service Fabric مستقلة](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>المحاكاة الافتراضية والاشتراك الزائد
 

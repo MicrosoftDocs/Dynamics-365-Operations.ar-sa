@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754790"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923297"
 ---
 # <a name="feature-management-overview"></a>نظرة على إدارة الميزات
 
@@ -140,7 +140,7 @@ ms.locfileid: "5754790"
 
 ## <a name="new-features-are-optional-for-12-months"></a>الميزات الجديدة اختيارية لمدة 12 شهرًا
 
-عند تثبيت ميزة جديدة غير أساسية، ستكون اختيارية لمدة 12 شهرًا. هذا يسمح لك ولمؤسسك بالتخطيط المسبق بشأن متى يتم استيعاب الميزة واختبارها مقابل العمليات اليومية الخاصة بك. للحصول على مزيد من المعلومات، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+عند تثبيت ميزة جديدة غير أساسية، ستكون اختيارية لمدة 12 شهرًا. هذا يسمح لك ولمؤسسك بالتخطيط المسبق بشأن متى يتم استيعاب الميزة واختبارها مقابل العمليات اليومية الخاصة بك. للحصول على مزيد من المعلومات، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>استخدام إدارة الميزات لتشغيل ميزات ISV أو الميزات المخصصة
 
@@ -161,7 +161,7 @@ ms.locfileid: "5754790"
 يعد تحديث وقت الإصدار متغيرا، كما يعد توقيت تحديث البيئة متغيرًا، ويمكن للعملاء الموافقة علي تخطي بعض التحديثات. ونتيجة لذلك، يصعب تحديد التواريخ الخاصة. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>أين توجد الوثائق الخاصة بالميزات التي تصبح إلزامية؟ 
-تاتي هذه الوثائق من فرق التطبيق. غالبًا ما يتم ذكر هذا في [‏‫الميزات التي تمت إزالتها أو إهمالها‬](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+تاتي هذه الوثائق من فرق التطبيق. غالبًا ما يتم ذكر هذا في [‏‫الميزات التي تمت إزالتها أو إهمالها‬](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>هل هناك إشارة أو إخطار في المنتج يفيد بأن إحدي الميزات يمكن أن تكون إلزاميه؟ 
 لا توجد اليوم آلية إخطار تفيد بجعل ميزة ما إلزاميه.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e2c9fced9091e851683c7dd7727aff693043c433
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908001"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956268"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>المعالجة المؤجلة لعمل المستودع
 
@@ -108,5 +108,8 @@ ms.locfileid: "5908001"
 
 يمكنك حذف مهام معالجة الوضع المؤجل المكتملة وذلك عن طريق تحديدها وحذفها من الصفحة.
 
+## <a name="additional-resources"></a>الموارد الإضافية
+
+- [المعالجة المؤجلة لعملية حركة المخزون اليدوية](deferred-processing-manual-inventory-movement.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

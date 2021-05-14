@@ -2,7 +2,7 @@
 title: إدارة الجودة لعمليات المستودعات
 description: يقدم هذا الموضوع معلومات حول ميزة إدارة الجودة لعمليات المستودع. تعمل هذه الميزة على توسيع قدرات إدارة الجودة وتتيح للمستخدمين تكامل عناصر التحكم لأخذ عينات الأصناف في عملية الاستلام في المستودع باستخدام إدارة المستودعات المتقدمة.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834255"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956072"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>إدارة الجودة لعمليات المستودعات
 
@@ -620,5 +620,8 @@ ms.locfileid: "5834255"
 > [!NOTE]
 > ضع في اعتبارك إضافة الإدخال الخاص بإخراج الجودة إلى عنصر قائمة الجهاز المحمول حيث كود النشاط *عرض قائمة الأعمال المفتوحة*. على سبيل المثال، راجع عنصر قائمة الجهاز المحمول المسمى **قائمة الأعمال** في البيانات التجريبية. أولا أضف فئة عمل *أمر الجودة* إلى عنصر القائمة بتوجيه من المستخدم، لأن فئة العمل هذه مطلوبة لكي يظهر العمل في قائمة الأعمال. ثم أضف فئة عمل *أمر الجودة* إلى عنصر القائمة لـ **قائمة الأعمال**. بعد ذلك سيتمكن المستخدمون الذين لديهم حق الوصول إلى قائمة الأعمال من انتقاء ومعالجة العمل الذي يتم إنشاؤه تلقائيًا عن طريق التحقق من أمر الجودة.
 
+## <a name="additional-resources"></a>الموارد الإضافية
+
+- [نظرة عامة على إدارة عدم المطابقة والجودة](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

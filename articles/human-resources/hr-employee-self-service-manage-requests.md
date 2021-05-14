@@ -2,7 +2,7 @@
 title: إدارة طلبات الإجازة والغياب
 description: عرض طلبات الغياب والإجازة والموافقة عليها في Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53d4651b60da63243547ee8a5da6e105705640c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 301b8978264dd3cb517652492a0b1791df63e6f3
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790730"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924793"
 ---
 # <a name="manage-leave-and-absence-requests"></a>إدارة طلبات الإجازة والغياب
 
@@ -31,13 +31,24 @@ ms.locfileid: "5790730"
 
 1. في مساحة العمل **‏‫خدمة الموظف الذاتية‬**، حدد **‏‫فريقي‬**.
 
-2. أسفل **معلومات فريقي**، حدد علامة التبويب **الإجازة والغياب‬**. 
+2. أسفل **معلومات فريقي**، حدد علامة التبويب **الإجازة والغياب‬**.
 
 3. قم بعرض طلبات زمن التوقف لأعضاء الفريق ووافق عليها عند الضرورة.
+
+## <a name="preview-leave-request-workflow-experience-enhancements"></a>(معاينة) تحسينات تجربة سير عمل طلب الإجازة
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+توفر ميزة المعاينة هذه التحسينات التالية:
+
+- يمكنك تحديد طلبات إجازة متعددة وتنفيذ نفس الإجراء على كل منهم.
+- يعرض الشريط الموجود في الجزء العلوي وزر سير العمل الجديد في الصفحة الإجراءات التي يمكنك اتخاذها بشأن طلبات الإجازة.
+
+![خبرة المدير](media/hr-leave-and-absence-manager-experience.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
-- [إنشاء خطة إجازة وغياب](hr-leave-and-absence-plans.md)
+- [إنشاء خطة الإجازة والغياب](hr-leave-and-absence-plans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

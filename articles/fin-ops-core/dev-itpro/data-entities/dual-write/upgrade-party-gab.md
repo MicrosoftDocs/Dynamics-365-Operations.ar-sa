@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857360"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941073"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>الترقية إلى الطرف ونموذج دفتر العناوين العمومي
 
@@ -52,11 +52,11 @@ ms.locfileid: "5857360"
 
 2. سجل دخولك إلى [Microsoft Azure](https://portal.azure.com/).
 
-3. أنشئ [مجموعة موارد](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
+3. أنشئ [مجموعة موارد](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
-4. أنشئ [حساب تخزين](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal) في مجموعة الموارد التي أنشأتها.
+4. أنشئ [حساب تخزين](/azure/storage/common/storage-account-create?tabs=azure-portal) في مجموعة الموارد التي أنشأتها.
 
-5. أنشئ [مصنع بيانات](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) في مجموعة الموارد أعلاه التي أنشأتها.
+5. أنشئ [مصنع بيانات](/azure/data-factory/quickstart-create-data-factory-portal) في مجموعة الموارد أعلاه التي أنشأتها.
 
 6. افتح مصنع البيانات وحدد اللوحة **التأليف والمراقبة**.
 
@@ -81,7 +81,7 @@ ms.locfileid: "5857360"
     FO Linked Service_properties_type Properties_service Principal Id | حدد معرف عميل التطبيق.
     Dynamics Crm Linked Service_properties_type Properties_username | اسم المستخدم الذي سيتصل بـ Dynamics.
 
-    لمزيد من المعلومات، راجع [ترقية قالب إدارة الموارد يدويًا لكل بيئة](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)، و[خصائص الخدمة المرتبطة](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties)، و[نسخ البيانات باستخدام Azure Data Factory](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    لمزيد من المعلومات، راجع [ترقية قالب إدارة الموارد يدويًا لكل بيئة](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)، و[خصائص الخدمة المرتبطة](/azure/data-factory/connector-dynamics-ax#linked-service-properties)، و[نسخ البيانات باستخدام Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. بعد عملية النشر، تحقق من صحة مجموعات البيانات وتدفق البيانات والخدمة المرتبطة لمصنع البيانات.
 
@@ -158,7 +158,7 @@ ms.locfileid: "5857360"
 8. استورد سجلات **الطرف** الجديد في تطبيق Finance and Operations.
 
     + نزّل الملف `FONewParty.csv` من مخزن البيانات الثنائية كبيرة الحجم لـ Azure. المسار هو `partybootstrapping/output/FONewParty.csv`.
-    + حوّل الملف `FONewParty.csv` إلى ملف Excel واستورد ملف Excel إلى تطبيق Finance and Operations.  إذا نجحت عملية استيراد csv، فيمكنك استيراد ملف csv مباشرة. قد يستغرق تشغيل عملية الاستيراد بضع ساعات، بحسب حجم البيانات. لمزيد من المعلومات راجع [نظرة عامة حول وظائف استيراد البيانات وتصديرها](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job).
+    + حوّل الملف `FONewParty.csv` إلى ملف Excel واستورد ملف Excel إلى تطبيق Finance and Operations.  إذا نجحت عملية استيراد csv، فيمكنك استيراد ملف csv مباشرة. قد يستغرق تشغيل عملية الاستيراد بضع ساعات، بحسب حجم البيانات. لمزيد من المعلومات راجع [نظرة عامة حول وظائف استيراد البيانات وتصديرها](../data-import-export-job.md).
 
     ![استيراد سجلات طرف Datavers](media/data-factory-import-party.png)
 

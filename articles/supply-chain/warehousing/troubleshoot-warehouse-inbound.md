@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828216"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920977"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>استكشاف أخطاء ‏‫عمليات المستودعات الواردة‬ وإصلاحها
 
@@ -56,7 +56,7 @@ ms.locfileid: "5828216"
 
 ### <a name="issue-resolution"></a>حل المشكلة
 
-تعمل ميزه معالجه التحميل الواردة الجديدة، *عبر استلام كميات التحميل*، علي إصلاح هذه المشكلة. لتشغيل هذه الميزة، انتقل إلى [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزات التالية (بهذا الترتيب):
+تعمل ميزه معالجه التحميل الواردة الجديدة، *عبر استلام كميات التحميل*، علي إصلاح هذه المشكلة. لتشغيل هذه الميزة، انتقل إلى مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) وقم بتشغيل الميزات التالية (بهذا الترتيب):
 
 1. إقران حركات مخزون أمر الشراء بحمل العمل
 1. استلام زائد لكميات حمل العمل

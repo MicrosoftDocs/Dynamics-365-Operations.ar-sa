@@ -2,7 +2,7 @@
 title: نظرة عامة على إدارة المزايا
 description: نظرة عامة على ميزة إدارة المزايا في Dynamics 365 Human Resources. يمكنك تزويد موظفيك بخيارات المزايا الممتدة مع تجربة سهلة الاستخدام عبر الإنترنت.
 author: andreabichsel
-ms.date: 09/17/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34b0916e0bf618590bcc56a9a3bc7c61576361cc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4ad94d81d7e8bedd3622b3e073e431bc4abaafff
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805768"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924220"
 ---
 # <a name="benefits-management-overview"></a>نظرة عامة على إدارة المزايا
 
@@ -40,6 +40,10 @@ ms.locfileid: "5805768"
 - تدعم معالجة أحداث الحياة المؤهلة أحداث الحياة المستقبلية.
 
 إذا كنت ترغب في الوصول إلى بيانات العرض التوضيحي‬، فستحتاج إلى إعادة نشر بيئة الحماية.
+
+>[!NOTE]
+>يمكنك الآن تخصيص نماذج إدارة الميزات. يمكنك الآن إضافة الحقول المخصصة المتعلقة بمعدلات التغطية إلى نموذج **خيار التغطية** لخطط الميزات. لمزيد من المعلومات حول العمل مع الحقول المخصصة، راجع [الحقول المخصصة](hr-developer-custom-fields.md).
+>![الحقول المخصصة لإدارة الميزات](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>تمكين إدارة المزايا
 

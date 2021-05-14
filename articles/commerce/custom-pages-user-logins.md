@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799435"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936770"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين
 
@@ -32,7 +32,7 @@ ms.locfileid: "5799435"
 يمكن إنشاء صفحات التجارة المخصصة باستخدام تسجيل الدخول، أو التسجيل الاشتراك، أو تحرير ملف تعريف الحساب، أو إعادة تعيين كلمه المرور، أو وحدات AAD العامة. بعد ذلك، يجب الرجوع إلى عناوين URL للصفحة التي يتم نشرها لهذه الصفحات المخصصة في تكوينات سياسة Azure AD B2Cفي مدخل Azure.
 
 > [!WARNING] 
-> سيُوقف Azure AD B2C عمليات سير عمل المستخدمين القدامى بحلول 1 أغسطس2021. لذلك، يجب أن تخطط لترحيل تدفقات المستخدم إلى الإصدار الجديد الموصى به. يوفر الإصدار الجديد تماثل ميزات وميزات جديده. لمزيد من المعلومات، راجع [عمليات سير عمل المستخدمين في Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> سيُوقف Azure AD B2C عمليات سير عمل المستخدمين القدامى بحلول 1 أغسطس2021. لذلك، يجب أن تخطط لترحيل تدفقات المستخدم إلى الإصدار الجديد الموصى به. يوفر الإصدار الجديد تماثل ميزات وميزات جديده. لمزيد من المعلومات، راجع [عمليات سير عمل المستخدمين في Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview).
 
 >يجب استخدام مكتبة الوحدات لإصدار Commerce رقم 10.0.15 أو إصدار أحدث مع عمليات سير عمل مستخدم B2C الموصى بها. يمكن أيضا استخدام صفحات سياسة المستخدم الافتراضية في Azure AD B2C، والسماح بتغيير صوره الخلفية والشعار ولون الخلفية التي ترتبط بالعلامة التجارية الخاصة بالشركة. على الرغم من محدودية إمكانيات التصميم، توفر صفحات سياسة المستخدم الافتراضية Azure AD B2C وظيفة السياسة دون إنشاء وتكوين صفحات مخصصة مخصصة. 
 

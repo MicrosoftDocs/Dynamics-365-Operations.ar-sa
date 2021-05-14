@@ -2,7 +2,7 @@
 title: أضافه حقول البيانات في تكامل الضريبة باستخدام الملحقات
 description: يوضح هذا الموضوع كيفيه استخدام ملحقات X + + لأضافه حقول البيانات في تكامل الضريبة.
 author: qire
-ms.date: 03/26/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fdf112bbdd5245d19ab1d07cfcf94c58bf8208c5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8e3573f9c9971d4a5af33ece08b7e0b43f2e813a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830330"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921155"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>أضافه حقول البيانات في تكامل الضريبة باستخدام الملحقات
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفيه استخدام ملحقات X + + لأضافه حقول البيانات في تكامل الضريبة. يمكن توسيع هذه الحقول إلى نموذج بيانات الضريبة لخدمه الضرائب واستخدامها لتحديد أكواد الضريبة. لمزيد من المعلومات، راجع [أضافه حقول البيانات في تكوينات الضريبة](tax-service-add-data-fields-tax-configurations.md).
 

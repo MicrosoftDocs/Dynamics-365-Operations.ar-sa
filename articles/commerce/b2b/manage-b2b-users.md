@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799843"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936646"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>إدارة مستخدمي شركاء الأعمال على مواقع ويب التجارة الإلكترونية بين الشركات B2B
 
@@ -43,7 +43,7 @@ ms.locfileid: "5799843"
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>إنشاء تسلسل رقمي وإضافته إلى المحددات المشتركة لـ Commerce
 
-وتُستخدم التسلسلات الرقمية لإنشاء معرفات فريدة قابلة للقراءة لسجلات البيانات الرئيسية وسجلات الحركة التي تتطلب وجود هذه المعرفات. لمزيد من المعلومات حول التسلسلات الرقمية، راجع [نظرة عامة على التسلسلات الرقمية](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview).
+وتُستخدم التسلسلات الرقمية لإنشاء معرفات فريدة قابلة للقراءة لسجلات البيانات الرئيسية وسجلات الحركة التي تتطلب وجود هذه المعرفات. لمزيد من المعلومات حول التسلسلات الرقمية، راجع [نظرة عامة على التسلسلات الرقمية](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
 
 لإنشاء تسلسل رقمي وإضافته إلى المعلمات المشتركة في Commerce في المركز الرئيسي لـ Commerce، اتبع الخطوات التالية.
 
@@ -136,7 +136,7 @@ ms.locfileid: "5799843"
 
 [تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات B2B](quantity-limits.md)
 
-[نظرة عامة على التسلسل الرقمي](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[نظرة عامة على التسلسل الرقمي](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

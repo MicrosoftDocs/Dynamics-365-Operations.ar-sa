@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3926acd07a68f59682c18f4f7bc290dc1e21d0b6
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 9cc15c33c7efdd515121db67331477baa4bdacaf
+ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889730"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5953378"
 ---
 # <a name="human-resources-app-in-teams"></a>تطبيق Human Resources في Teams
 
@@ -125,11 +125,19 @@ ms.locfileid: "5889730"
 
 2. تحقق من انهم موافقون صالحون للطلب من خلال التحقق من إعدادات سير العمل للموافقة على المغادرة. لمزيد من المعلومات حول إنهاء مهام سير العمل، راجع [إنشاء سير عمل لطلب أجازه](hr-leave-and-absence-workflow.md).
 
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>لا يتلقى معتمدون الإجازات رسائل دردشة Teams للموافقة على طلبات الإجازة
+
+1. تأكد من تمكين الإعلامات للبيئة والمستخدم. لمزيد من المعلومات، راجع [تمكين الإعلامات لتطبيق الموارد البشرية في Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) و[تشغيل إعلامات Teams أو إيقاف تشغيلها للمستخدمين الفرديين](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. تأكد من تسجيل المستخدمين الدخول إلى علامة التبويب **الدردشة** بنفس بيانات الاعتماد التي يستخدمونها للموافقة على طلبات الإجازة. استخدم رسائل "تسجيل الخروج" ثم "تسجيل الدخول" لتسجيل الدخول باستخدام بيانات الاعتماد الصحيحة.
+
+3. إذا استمرت المشكلة، فتحقق من حالة الوظيفة الدفعية لنظام أحداث الأعمال كمسؤول عن النظام. إذا كان في مرحلة انتظار أو تنفيذ، تحقق مرة أخرى في غضون بضع دقائق. إذا ظلت الحالة دون تغيير، فقم بتسجيل بطاقة دعم حتى يتمكن فريقنا من المساعدة في حل المشكلة.
+
 ## <a name="privacy-notice"></a>إشعار الخصوصية
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>خدمة الفهم الذكي للغة (LUIS) من Microsoft.
 
-باستخدام روبوت Dynamics 365 Human Resources في Microsoft Teams، يتم تحليل الإدخالات النصية للمستخدم لفهم الاستعلام/المقصد الأساسي. يتم توجيه إدخال المستخدم مثل "البحث في حساب Contoso" إلى إحدى الخدمات المعرفية من Microsoft تسمى التي خدمة الفهم الذكي للغة (LUIS). أقرا المزيد حول خدمة LUIS  [هنا](https://www.luis.ai/). تزيل خدمة LUIS الغموض أو تفهم المقصد من إدخال المستخدم (في هذه الحالة، يتمثل المقصد في العثور على المعلومات) والكيان المستهدف (وفي هذه الحالة الكيان المقصود هو الحساب المسمى Contoso). يتم بعد ذلك تمرير هذه المعلومات إلى  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/) من Microsoft الذي يتفاعل مع البيانات من Dynamics 365 Human Resources ويسترد المعلومات المطلوبة لاستعلام المستخدم. 
+باستخدام روبوت Dynamics 365 Human Resources في Microsoft Teams، يتم تحليل الإدخالات النصية للمستخدم لفهم الاستعلام/المقصد الأساسي. يتم توجيه إدخال المستخدم مثل "البحث في حساب Contoso" إلى إحدى الخدمات المعرفية من Microsoft تسمى التي خدمة الفهم الذكي للغة (LUIS). أقرا المزيد حول خدمة LUIS  [هنا](https://www.luis.ai/). تزيل خدمة LUIS الغموض أو تفهم المقصد من إدخال المستخدم (في هذه الحالة، يتمثل المقصد في العثور على المعلومات) والكيان المستهدف (وفي هذه الحالة الكيان المقصود هو الحساب المسمى Contoso). يتم بعد ذلك تمرير هذه المعلومات إلى  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/) من Microsoft الذي يتفاعل مع البيانات من Dynamics 365 Human Resources ويسترد المعلومات المطلوبة لاستعلام المستخدم.
 
 من خلال التثبيت والسماح بالوصول لاستخدام الروبوت، فإنك توافق على السماح لخدمة LUIS وإطار عمل روبوت Azure بمعالجة القصد من الإدخال، والذي ينتج عنه تجربة محسنة للمحادثة مع المستخدم. قد يكون لدي خدمةLUIS و إطار عمل روبوت Azure مستويات متنوعة من التوافق مقارنة بـ Dynamics 365 Human Resources. في حين أن خدمة LUIS يمكنها الوصول إلى استعلامات المستخدمين فقط ولم يتم تصميمها ليتم ربطها ببيانات أو حساب Dynamics 365 Human Resources للمستخدم، لكن يمكن لمستخدم روبوت Dynamics 365 Human Resources إدخال استعلام طواعية يحتوي على بيانات العميل أو البيانات الشخصية أو البيانات الأخرى، وكذلك يمكن يتم إرسال محتويات الاستعلام إلى خدمة LUIS وإطار عمل روبوت Azure. 
 

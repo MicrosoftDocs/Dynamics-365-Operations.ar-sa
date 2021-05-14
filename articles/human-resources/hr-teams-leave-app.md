@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48bf6f7997d6159077419bcd05d27fd711c8fb4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
+ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891020"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5953402"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
@@ -207,6 +207,14 @@ ms.locfileid: "5891020"
 1. تحقق من ان الحساب الذي تستخدمه لتسجيل الدخول إلى Microsoft Teams هو نفس الحساب الذي تستخدمه للوصول اليه Dynamics 365 Human Resources.
 
 2. تحقق من انك أنت موافق صالح للطلب من خلال التحقق من إعدادات سير العمل للموافقة على المغادرة. لمزيد من المعلومات حول إنهاء مهام سير العمل، راجع [إنشاء سير عمل لطلب أجازه](hr-leave-and-absence-workflow.md).
+
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>لا يتلقى معتمدون الإجازات رسائل دردشة Teams للموافقة على طلبات الإجازة
+
+1. تأكد من تمكين الإعلامات للبيئة والمستخدم. لمزيد من المعلومات، راجع [تمكين الإعلامات لتطبيق الموارد البشرية في Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) و[تشغيل إعلامات Teams أو إيقاف تشغيلها للمستخدمين الفرديين](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. تأكد من تسجيل المستخدمين الدخول إلى علامة التبويب **الدردشة** بنفس بيانات الاعتماد التي يستخدمونها للموافقة على طلبات الإجازة. استخدم رسائل "تسجيل الخروج" ثم "تسجيل الدخول" لتسجيل الدخول باستخدام بيانات الاعتماد الصحيحة.
+
+3. إذا استمرت المشكلة، فتحقق من حالة الوظيفة الدفعية لنظام أحداث الأعمال كمسؤول عن النظام. إذا كان في مرحلة انتظار أو تنفيذ، تحقق مرة أخرى في غضون بضع دقائق. إذا ظلت الحالة دون تغيير، فقم بتسجيل بطاقة دعم حتى يتمكن فريقنا من المساعدة في حل المشكلة.
 
 ## <a name="known-accessibility-issues"></a>مشكلات إمكانية الوصول المعروفة
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813449"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890319"
 ---
 # <a name="finance-home-page"></a>الصفحة الرئيسية للمالية
 
@@ -38,11 +38,11 @@ ms.locfileid: "5813449"
         - [محاسبة التكاليف](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [إدارة المصروفات](expense-management/expense-management.md)
-        - [Financial reporting](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [إدارة المصروفات](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Financial reporting](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [الأصول الثابتة](fixed-assets/fixed-assets.md)
         - [دفتر الأستاذ العام وFinancial reporting](general-ledger/general-ledger.md) 
-        - [إدارة المشاريع ومحاسبتها](project-management/overview-project-management-accounting.md)
+        - [إدارة المشاريع ومحاسبتها](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [القطاع العام](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ ms.locfileid: "5813449"
 
 ### <a name="countryregion-functionality"></a>وظيفة البلد/المنطقة
 
-تؤثر لوائح البلد/المنطقة في إعداد الضرائب وجوانب أخرى في الإدارة المالية. ارجع إلى قسم [ميزات الترجمة والميزات التنظيمية‬](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) للاطلاع على محتوى تعليماتنا للتعرف إلى الوظيفة الخاصة بالبلد/المنطقة.
+تؤثر لوائح البلد/المنطقة في إعداد الضرائب وجوانب أخرى في الإدارة المالية. ارجع إلى قسم [ميزات الترجمة والميزات التنظيمية‬](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) للاطلاع على محتوى تعليماتنا للتعرف إلى الوظيفة الخاصة بالبلد/المنطقة.
 
 ### <a name="additional-content"></a>محتوى إضافي
 
@@ -73,6 +73,6 @@ ms.locfileid: "5813449"
 
 ## <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
 
-للحصول على الدورات التدريبية والتدريب عبر الإنترنت، راجع [Dynamics 365 Finance على Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
+للحصول على الدورات التدريبية والتدريب عبر الإنترنت، راجع [Dynamics 365 Finance على Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

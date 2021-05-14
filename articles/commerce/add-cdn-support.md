@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797829"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936820"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
 
@@ -47,7 +47,7 @@ ms.locfileid: "5797829"
 
 يُمكن استخدام أي خدمة من خدمات CDN مع بيئة Commerce. وفيما يلي مثالين:
 
-- **Microsoft Azure Front Door Service** – حل Azure CDN. للمزيد من المعلومات حول Azure Front Door Service، راجع [وثائق Azure Front Door Service](https://docs.microsoft.com/azure/frontdoor/).
+- **Microsoft Azure Front Door Service** – حل Azure CDN. للمزيد من المعلومات حول Azure Front Door Service، راجع [وثائق Azure Front Door Service](/azure/frontdoor/).
 - **Akamai Dynamic Site Accelerator** – للمزيد من المعلومات، راجع [Dynamic Site Accelerator](https://www.akamai.com/us/en/products/performance/dynamic-site-accelerator.jsp).
 
 ## <a name="cdn-setup"></a>إعداد CDN
@@ -62,7 +62,7 @@ ms.locfileid: "5797829"
 
 يُمكن استخدام أي خدمة من خدمات CDN، ولكن بالنسبة للمثال الموجود في هذا الموضوع، يتم استخدام Azure Front Door Service. 
 
-للحصول على معلومات حول كيفية إعداد Azure Front Door Service، راجع [Quickstart: إنشاء Front Door لتطبيق الويب العمومي المتوفرة بشكل كبير](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
+للحصول على معلومات حول كيفية إعداد Azure Front Door Service، راجع [Quickstart: إنشاء Front Door لتطبيق الويب العمومي المتوفرة بشكل كبير](/azure/frontdoor/quickstart-create-front-door).
 
 ### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>تكوين وعاء خلفي في Azure Front Door Service
 
@@ -115,7 +115,7 @@ ms.locfileid: "5797829"
 
 ![مربع حوار HTTP للمجال المخصص](./media/Custom_Domain_HTTPS.png)
 
-للحصول على إرشادات مفصلة حول إضافة مجال مخصص إلى Azure Front Door، راجع [إضافة مجال مخصص إلى Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
+للحصول على إرشادات مفصلة حول إضافة مجال مخصص إلى Azure Front Door، راجع [إضافة مجال مخصص إلى Front Door](/azure/frontdoor/front-door-custom-domain).
 
 يجب الآن تكوين CDN بشكل صحيح بحيث يُمكن استخدامه مع موقع Commerce الخاص بك.
 

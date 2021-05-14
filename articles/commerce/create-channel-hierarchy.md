@@ -2,7 +2,7 @@
 title: إنشاء تدرج هرمي للتنقل في قناة
 description: يوضح هذا الموضوع ‏‫التدرج الهرمي للتنقل في قناة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 358f3d40c7a21184c20da342d6b2bf72dd4e7bbd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795825"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951898"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>إنشاء تدرج هرمي للتنقل في القناة
 
@@ -77,7 +77,7 @@ ms.locfileid: "5795825"
 1. في جزء الإجراءات، حدد **حفظ**.
 
 > [!NOTE]
-> لا يعد إضافة منتجات إلى عقدة داخل التدرج الهرمي للتنقل في القناة أمرًا كافيًا لإظهار المنتجات على قناة محددة، يجب أيضًا تصنيف المنتجات إلى منتج.
+> لا يعد إضافة منتجات إلى عقدة داخل التدرج الهرمي للتنقل في القناة أمرًا كافيًا لإظهار المنتجات على قناة محددة، يجب أيضًا تصنيف المنتجات إلى قناة. لمزيد من المعلومات حول عمليات الفرز، راجع [إدارة الفرز](assortments.md).
 
 تعرض الصورة التالية مثالاً لعقدة بمنتجات تمت إضافتها.
 

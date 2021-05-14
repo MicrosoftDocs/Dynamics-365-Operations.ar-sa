@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828347"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920099"
 ---
 # <a name="transportation-management-engines"></a>محركات إدارة النقل
 
@@ -94,8 +94,14 @@ ms.locfileid: "5828347"
 | 1        | الرمز البريدي الأصلي            | التعيين | السلسلة    | الرمز البريدي    | محدَد  |
 | 2        | منطقة الوجهة.             | التعيين | السلسلة    | المنطقة          |           |
 | 3        | الرمز البريدي لبدء الوجهة | التعيين | السلسلة    | الرمز البريدي    | محدَد  |
-| 4        | الرمز البريدي لنهاية الوجهة   | التعيين | السلسلة    | الرمز البريدي    | محدَد  |
-| 5        | بلد الوجهة           | التعيين | السلسلة    | البلد/المنطقة |           |
+| 4        | الرمز البريدي لنهاية الوجهة   | التعيين | السلسلة    | الرمز البريدي    | المحدد  |
+| 5        | بلد الوجهة           | تعيين | سلسلة    | البلد/المنطقة |           |
+
+### <a name="whitepaper"></a>مستند تقني
+
+لمزيد من المعلومات، قم بتنزيل الصفحة البيضاء التالية (المكتوبة لدعم AX2012، ولكن لا يزال يتم تطبيقها لـ Dynamics 365 Supply Chain Management)
+
+- [محركات إدارة النقل](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

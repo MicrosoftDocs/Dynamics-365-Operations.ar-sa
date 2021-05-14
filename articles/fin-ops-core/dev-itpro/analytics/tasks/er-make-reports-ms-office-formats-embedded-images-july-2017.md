@@ -2,7 +2,7 @@
 title: تصميم التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
 description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لإنشاء مستندات بتنسيقات Excel وWord تتضمن صورًا مضمنة.
 author: NickSelin
-ms.date: 01/23/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1bafc919d73c9e603935398563bb26e8fb277d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5eea178a351716425706f481ae66c5b5183a52e5
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751048"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944547"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>تصميم التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
 
 [!include [banner](../../includes/banner.md)]
 
-لإكمال الخطوات الواردة في هذا الإجراء، أكمل أولاً الإجراء "التقارير الإلكترونية تُنشئ موفر تكوين وتضع علامة عليه على أنه نشط‬". يوضح هذا الإجراء كيفية تصميم تكوينات التقارير الإلكترونية (ER) لإنشاء مستند Microsoft Excel أو Word يحتوي على صور مضمنة. في هذا الإجراء، ستقوم بإنشاء تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية، Litware, Inc. يمكن إكمال هذه الخطوات باستخدام مجموعة بيانات USMF. تم إنشاء هذا الإجراء للمستخدمين الذين لديهم دور مسؤول النظام أو مطور التقارير الإلكترونية. قبل البدء، قم بتنزيل وحفظ الملفات الواردة ضمن موضوع التعليمات، [قم بتضمين الصور والأشكال في المستند التي تقوم بإنشائها باستخدام التقارير الإلكترونية](../electronic-reporting-embed-images-shapes.md). الملفات هي: Model for cheques.xml، وCheques printing format.xml، وCompany logo.png، وSignature image.png، وSignature image 2.png، وCheque template Word.docx.
+لإكمال الخطوات الواردة في هذا الإجراء، أكمل أولاً الإجراء "التقارير الإلكترونية تُنشئ موفر تكوين وتضع علامة عليه على أنه نشط‬". يوضح هذا الإجراء كيفية تصميم تكوينات التقارير الإلكترونية (ER) لإنشاء مستند Microsoft Excel أو Word يحتوي على صور مضمنة. في هذا الإجراء، ستقوم بإنشاء تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية، Litware, Inc. يمكن إكمال هذه الخطوات باستخدام مجموعة بيانات USMF. تم إنشاء هذا الإجراء للمستخدمين الذين لديهم دور مسؤول النظام أو مطور التقارير الإلكترونية. قبل أن تبدأ ، قم بتنزيل وحفظ الملفات التالية: 
+
+| الوصف                                          | اسم الملف                   |
+|------------------------------------------------------|-----------------------------|
+| تكوين نموذج بيانات التقارير الإلكترونية                          | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)       |
+| تنسيق تكوين ER                              | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| صورة شعار الشركة                                   | [Company logo.png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png)            |
+| صورة التوقيع                                      | [Signature image.png](https://download.microsoft.com/download/5/0/9/509151b3-06fc-4870-9408-7c9a43b72771/Signatureimage.png)         |
+| صورة توقيع بديل                          | [Signature image 2.png](https://download.microsoft.com/download/3/0/0/30045bf1-0ff6-4215-9162-b77c2f5dcc7c/Signatureimage2.png)       |
+| قالب Microsoft Word لطباعة شيكات الدفع  | [Cheque template Word.docx](https://download.microsoft.com/download/4/4/d/44d9d255-9ad1-42fe-87db-23f319fd8e89/ChequetemplateWord.docx)   |
 
 ## <a name="verify-prerequisites"></a>التحقق من المتطلبات الأساسية  
  1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.  

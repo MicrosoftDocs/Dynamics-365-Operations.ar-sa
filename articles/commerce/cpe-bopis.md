@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 219504da62fd4637ed01f9acbab32f873cef81b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795945"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936900"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة تقييم Dynamics 365 Commerce
 
@@ -29,7 +29,7 @@ ms.locfileid: "5795945"
 
 ## <a name="prerequisite"></a>المتطلب الأساسي
 
-استكمل الإجراءات في هذا الموضوع فقط بعد توفير بيئة تقييم Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة تقييم Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+استكمل الإجراءات في هذا الموضوع فقط بعد توفير بيئة تقييم Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة تقييم Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
 بعد توفير بيئة معاينة Commerce وتكوينها من البداية إلى النهائية، يمكنك استخدام هذا الموضوع لتكوين سيناريوهات BOPIS.
 
@@ -37,7 +37,7 @@ ms.locfileid: "5795945"
 
 ### <a name="configure-modern-pos"></a>تكوين Modern POS
 
-تحتاج سيناريوهات BOPIS التي تتضمن الدفع ببطاقة ائتمان إلى محطة أجهزة. ويتم دمج محطة الأجهزة في Modern POS لعملاء Windows وAndroid. إذا كنت تستخدم Cloud POS أو Modern POS لـ iOS، فيجب إقران عميل نقطة البيع (POS) مع محطة أجهزة مشتركة. يشرح هذا الموضوع كيفية تكوين BOPIS لعملاء Windows وAndroid. للحصول على مزيد من المعلومات حول كيفية إعداد محطة أجهزة مشتركة، راجع [تكوين محطة أجهزة Retail وتثبيتها](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+تحتاج سيناريوهات BOPIS التي تتضمن الدفع ببطاقة ائتمان إلى محطة أجهزة. ويتم دمج محطة الأجهزة في Modern POS لعملاء Windows وAndroid. إذا كنت تستخدم Cloud POS أو Modern POS لـ iOS، فيجب إقران عميل نقطة البيع (POS) مع محطة أجهزة مشتركة. يشرح هذا الموضوع كيفية تكوين BOPIS لعملاء Windows وAndroid. للحصول على مزيد من المعلومات حول كيفية إعداد محطة أجهزة مشتركة، راجع [تكوين محطة أجهزة Retail وتثبيتها](./retail-hardware-station-configuration-installation.md).
 
 1. انتقل إلى **Retail and Commerce \> إعداد قناة \> إعداد POS \> السجلات**.
 2. حدد السجل **SANFRAN-5**، ثم حدد **تحرير**.
@@ -87,7 +87,7 @@ ms.locfileid: "5795945"
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>إنشاء أمر واجهة متجر للانتقاء في المتجر
 
-1. انتقل إلى عنوان URL الذي حددته في خطوة [تهيئة التجارة الإلكترونية](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) أثناء تكوين البيئة.
+1. انتقل إلى عنوان URL الذي حددته في خطوة [تهيئة التجارة الإلكترونية](./provisioning-guide.md#initialize-e-commerce) أثناء تكوين البيئة.
 2. حدد أحد العناصر، وحدد **إضافة إلى عربة التسوق**.
 3. في صفحة حقيبة التسوق، حدد **التقاط هذا** لسطر الأمر الذي أضفته للتو.
 4. في مربع حوار **تحديد متجر**، أدخل **سان فرانسيسكو**، ثم حدد زر **بحث**.
@@ -112,7 +112,7 @@ ms.locfileid: "5795945"
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>مزامنة الأوامر على الإنترنت مع مكتب الدعم
 
-لمزيد من المعلومات حول كيفية مزامنة الطلبات على الإنترنت، راجع [نشر المبيعات على الإنترنت والمدفوعات](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
+لمزيد من المعلومات حول كيفية مزامنة الطلبات على الإنترنت، راجع [نشر المبيعات على الإنترنت والمدفوعات](./tasks/posting-online-sales-payments.md).
 
 ### <a name="pick-up-an-order-in-the-store"></a>التقاط أمر من المتجر
 
@@ -148,19 +148,19 @@ ms.locfileid: "5795945"
 
 [الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [مدخل Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [موقع ويب Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
 
-[موصل مدفوعات Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[موصل مدفوعات Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen](./dev-itpro/adyen-connector-listpi.md)
 
-[نظرة عامة على مدفوعات القنوات متعددة الاتجاهات](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[نظرة عامة على مدفوعات القنوات متعددة الاتجاهات](./omni-channel-payments.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

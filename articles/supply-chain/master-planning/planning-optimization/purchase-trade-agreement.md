@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 138bf58e07d4d6df3c2106e4176e02fcdb0a6dba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
+ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820408"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961695"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>التخطيط الرئيسي مع اتفاقيات الشراء التجارية
 
@@ -67,7 +67,7 @@ ms.locfileid: "5820408"
 1. كرر هذا الإجراء لكل منتج ذي صلة.
 
 > [!NOTE]
-> يجب أن تتطابق العملة في بند اتفاقية الشراء التجارية مع عملة المورّد المحدد. سيتضمن التخطيط الرئيسي معلومات فقط من بنود اتفاقية الشراء التجارية حيث تتطابق العملة مع عملة المورّد.
+> يدعم "تحسين التخطيط" اتفاقيات تجارة الشراء متعددة العملات. عند البحث عن اتفاقيه تجاريه باستخدام خيار **سعر الوحدة الأقل**، سيأخذ النظام في الاعتبار شراء بنود اتفاقية التجارة بعملات مختلفة بشرط تحديد سعر الصرف بين عملة سطر الاتفاقية التجارية وعملة المحاسبة للكيان القانوني. وبخلاف ذلك، سيتم تجاهل بند اتفاقيه التجارة، سيظهر لك خطا اثناء التخطيط الرئيسي. التالي، سيتضمن التخطيط الرئيسي معلومات من كافة بنود الاتفاقية التجارية للشراء المرتبطة حيث يمكن تحويل الأسعار إلى عمله المحاسبة.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>أمثلة عن كيفية عثور ميزة تحسين التخطيط على المورّدين وأوقات الإنتاج.
 

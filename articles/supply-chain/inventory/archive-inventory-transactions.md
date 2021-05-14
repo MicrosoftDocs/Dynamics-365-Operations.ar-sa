@@ -10,22 +10,20 @@ ms.technology: ''
 ms.search.form: InventTransArchiveProcessForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 0526eb42a886817d50e1ecfd252a6e971875ba92
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881822"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956048"
 ---
 # <a name="archive-inventory-transactions"></a>أرشفة حركات المخزون
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 بمرور الوقت، سيستمر جدول حركات المخزون (`InventTrans`) في النمو وزيادة الحجم واستهلاك مساحة قاعدة البيانات. وبالتالي، ستصبح الاستعلامات التي يتم إجراؤها على الجدول أبطأ تدريجياً. يصف هذا الموضوع كيف يمكنك استخدام ميزة *أرشيف حركات المخزون* لأرشفة البيانات حول حركات المخزون للمساعدة في تحسين أداء النظام.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890042"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935743"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>تكوين جداول Dataverse الظاهرية
 
@@ -102,27 +102,15 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 قم بتثبيت تطبيق الجدول الظاهري Dynamics 365 HR Virtual Table في البيئة Power Apps الخاصة بك لنشر حزمة حل الجدول الظاهري إلى Dataverse.
 
-1. افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).
+1. في الموارد البشرية، افتح صفحة **تكامل Microsoft Dataverse**.
 
-2. في قائمه **البيئات**، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.
+2. حدد علامة التبويب **الجداول الظاهرية**.
 
-3. في القسم **الموارد** في الصفحة، حدد **تطبيقات Dynamics 365**.
+3. حدد **تثبيت تطبيق الجدول الظاهري**.
 
-4. حدد اجراء **تثبيت التطبيق**.
+### <a name="configure-the-virtual-table-data-source"></a>تكوين مصدر بيانات الجدول الظاهري
 
-5. حدد **Dynamics 365 HR Virtual Table**، ثم حدد **التالي**.
-
-6. مراجعه ووضع علامة علي الموافقة علي شروط الخدمة.
-
-7. حدد **تثبيت**.
-
-يستغرق التثبيت بضع دقائق. وعند الانتهاء، انتقل إلى الخطوات التالية.
-
-![تثبيت تطبيق Dynamics 365 HR Virtual Table من مركز إدارة Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>تكوين مصدر بيانات الجدول الظاهري 
-
-الخطوة التالية هي تكوين مصدر البيانات الجدول الظاهري في بيئة Power Apps. 
+الخطوة التالية هي تكوين مصدر البيانات الجدول الظاهري في بيئة Power Apps.
 
 1. افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -133,6 +121,9 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 4. في **مركز حماية الحل**، حدد الرمز **بحث متقدم** في الجزء العلوي الأيسر من صفحة التطبيق.
 
 5. في صفحه **بحث متقدم**، وفي القائمة المنسدلة **البحث عن**، حدد **تكوينات مصدر البيانات الظاهري Finance and Operations**.
+
+   > [!NOTE]
+   > قد يستغرق تثبيت تطبيق الجدول الظاهري من خطوة الإعداد السابقة بضع دقائق. إذا لم تتوفر **تكوينات مصدر البيانات الظاهرية لـ Finance and Operations** في القائمة، انتظر لمدة دقيقة وقم بتحديث القائمة.
 
 6. حدد **النتائج**.
 
@@ -186,7 +177,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 عند اكتمال الإعداد، يمكنك تحديد الجداول الظاهرية التي ترغب في إنشائها وتمكينها في مثيل Dataverse الخاص بك.
 
-1. في الموارد البشرية، افتح صفحة **تكامل Dataverse**.
+1. في الموارد البشرية، افتح صفحة **تكامل Microsoft Dataverse**.
 
 2. حدد علامة التبويب **الجداول الظاهرية**.
 
@@ -197,7 +188,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 4. حدد **إنشاء/تحديث**.
 
-![تكامل Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
+![تكامل Dataverse](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>التحقق من حالة إنشاء الجدول
 

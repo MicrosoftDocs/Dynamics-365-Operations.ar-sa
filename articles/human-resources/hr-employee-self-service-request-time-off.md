@@ -2,7 +2,7 @@
 title: طلب زمن التوقف
 description: طلب زمن التوقف في Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790682"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924844"
 ---
 # <a name="request-time-off"></a>طلب زمن التوقف
 
@@ -45,7 +45,7 @@ ms.locfileid: "5790682"
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>إضافة مرفق إلى طلب موجود
 
-عند تحديث طلب إجازة موجود، يمكنك إضافة مرفق. يمكنك أيضًا رؤية كافة الطلبات ذات الصلة لتاريخ محدد. 
+عند تحديث طلب إجازة موجود، يمكنك إضافة مرفق. يمكنك أيضًا رؤية كافة الطلبات ذات الصلة لتاريخ محدد.
 
 ## <a name="view-leave-balances"></a>عرض أرصدة الإجازات
 
@@ -58,6 +58,20 @@ ms.locfileid: "5790682"
 1. في مساحة العمل **خدمة الموظف الذاتية** حدد **المزيد** (...) في اللوحة **أرصدة زمن التوقف**.
 
 2. لعرض طلبات زمن التوقف المعتمدة الخاصة بك، حدد **زمن التوقف المعتمد**. لعرض طلبات زمن التوقف المعلقة الخاصة بك، حدد **طلبات زمن التوقف**.
+
+## <a name="cancel-time-off-requests"></a>إلغاء طلبات الإجازة
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. في مساحة **خدمة الموظف الذاتية** حدد **عرض الإجازة** في اللوحة **أرصدة زمن التوقف**.
+
+2. في نموذج **الإجازة**، حدد واحدًا أو أكثر من طلبات الإجازة لإلغائه.
+
+3. حدد الزر **إلغاء**.
+
+4. في جزء **تفاصيل الإلغاء**، أدخل تعليقًا ثم حدد **إرسال**.
+
+   ![إلغاء طلب الإجازة](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 

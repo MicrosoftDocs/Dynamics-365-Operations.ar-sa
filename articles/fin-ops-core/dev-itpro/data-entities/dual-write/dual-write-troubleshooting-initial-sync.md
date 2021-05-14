@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c716707140c85b06ad2f084c10c4b2d0ecfea82e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754004"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941045"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
 
@@ -192,7 +192,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 6. قم بتشغيل المزامنة الأولية مرة أخرى لتعيين **العملاء V3 (الحسابات)**. بسبب إيقاف تشغيل تعقب التغييرات، سيؤدي تشغيل المزامنة إلى مزامنة بيانات **InvoiceAccount** و **ContactPersonId** من التطبيق Finance and Operations إلى Dataverse.
 7. لمزامنة بيانات **InvoiceAccount** و **ContactPersonId** من تطبيق Dataverse إلى Finance and Operations، فإنك تستخدم مشروع تكامل البيانات.
 
-    1. في Power Apps، أنشئ مشروع تكامل البيانات بين الجدولين **Sales.Account** و **Finance and Operations apps.Customers V3**. يجب أن يكون اتجاه البيانات من Dataverse إلى التطبيق Finance and Operations. لأن **InvoiceAccount** عبارة عن سمة جديدة في الكتابة المزدوجة، فقد ترغب في تخطي المزامنة الأولية لهذه السمة. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Dataverse](https://docs.microsoft.com/power-platform/admin/data-integrator).
+    1. في Power Apps، أنشئ مشروع تكامل البيانات بين الجدولين **Sales.Account** و **Finance and Operations apps.Customers V3**. يجب أن يكون اتجاه البيانات من Dataverse إلى التطبيق Finance and Operations. لأن **InvoiceAccount** عبارة عن سمة جديدة في الكتابة المزدوجة، فقد ترغب في تخطي المزامنة الأولية لهذه السمة. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Dataverse](/power-platform/admin/data-integrator).
 
         يوضح الرسم التوضيحي التالي مشروعًا يقوم بتحديث **CustomerAccount** و **ContactPersonId**.
 

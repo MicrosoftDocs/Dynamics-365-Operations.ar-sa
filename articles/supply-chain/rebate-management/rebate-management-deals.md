@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b75743a64fef53f79159a1476c99a7035b7e4f3b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c2e638aeed967db055948dc3addcb4d59f210a5
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839163"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920075"
 ---
 # <a name="rebate-management-deals"></a>صفقات إدارة الخصومات
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 تستخدم صفقات إدارة الخصومات للتحكم في الأساليب والقواعد المختلفة لحساب الخصومات والعوائد. وتتضمن قواعد لتضمينات واستثناءات. هناك ثلاثه أنواع من الصفقات لإدارة الخصومات: خصومات العميل وعوائد العميل وخصومات المورد. تستخدم الأنواع الثلاثة إعدادات مشابهه. يشير هذا الموضوع إلى الاختلافات التي يوجد بها.
 

@@ -1,6 +1,6 @@
 ---
 title: أصول داخلية لإخضاعها للصيانة
-description: يصف هذا الموضوع كيفية استخدام Microsoft Dynamics 365 Field Service لمعالجة أصول العميل والأصول الداخلية.
+description: يصف هذا الموضوع كيف يمكنك استخدام Microsoft Dynamics 365 Field Service لخدمة أصول العملاء والأصول الداخلية.
 author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 040f9d26a137ebce1edc6adf28ff226b3a81e1ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ebda6b5679ec601513fb6d046725b396e69fe0f3
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748583"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941404"
 ---
 # <a name="in-house-assets-for-servicing"></a>أصول داخلية لإخضاعها للصيانة
 
@@ -31,7 +31,7 @@ ms.locfileid: "5748583"
 
 تم تصميم Microsoft Dynamics 365 Field Service لخدمة أصول العميل. تم تصميم إدارة الأصول في Dynamics 365 Supply Chain Management لصيانة الأصول الداخلية. يسمح لك تكامل هذين التطبيقين باستخدام Field Service لصيانة أصول العميل والأصول الداخلية. يمكنك أيضًا تصنيف الأصول، استنادًا إلى موقع العمل أو التدرج الهرمي، وتعقب الصيانة بشكل مفصل.
 
-لمزيد من المعلومات، راجع [تكامل Dynamics 365 Field Service وSupply Chain Management](https://docs.microsoft.com/dynamics365/field-service/supply-chain-field-service-integration).
+لمزيد من المعلومات، راجع [تكامل Dynamics 365 Field Service وSupply Chain Management](/dynamics365/field-service/supply-chain-field-service-integration).
 
 ## <a name="templates"></a>القوالب
 

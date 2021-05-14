@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
-                - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
+                - name: الجديد أو المتغير‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي لـ 10.0.19 (يوليو 2021)
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: تحديثات النظام الأساسي لـ 10.0.18 (مايو 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.17 (أبريل 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: تحديثات النظام الأساسي لـ 10.0.16 (فبراير 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -303,19 +303,19 @@
                         - name: تكوين تكامل Project Service Automation
                           items:
                             - name: نظرة عامة حول Project Service Automation
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: معلمات تكامل Project Service Automation
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: مزامنة عقود المشاريع والمشاريع
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: مزامنة مهام المشروع
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: مزامنة فئات مصروفات المشروع
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: مزامنة تقديرات المشروع من/إلى تنبؤات المشروع
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: مزامنة القيم الفعلية للمشروع إلى دفتر يومية تكامل المشروع
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: استخدام خدمات ويب خارجية
               href: data-entities/consume-external-web-service.md
             - name: المراسلة الإلكترونية
@@ -691,7 +691,7 @@
                     - name: نظرة عامة على إنشاء نماذج وعناصر نموذج بيانات
                       href: dev-tools/create-data-model-elements.md
                     - name: إرشادات التسمية للملحقات
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث
                       href: dev-tools/lock-models.md
                 - name: تقرير تحليل التخصيص
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: المزايا الجديدة أو المتغيرة في Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: مشكلات معروفة
-                  href: lifecycle-services/known-issues.md
                 - name: الميزات المزالة أو المهملة في Lifecycle Services ‏(LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: دليل مستخدم Lifecycle Services
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: استخدام برنامج Regression suite automation tool
               href: perf-test/rsat/rsat-run.md
+            - name: الاحتفاظ بحالات الاختبار داخل Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: التحقق من صحة القيم المتوقعة
               href: perf-test/rsat/rsat-validate-expected.md
             - name: حالات اختبار السلسلة
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: حالات الاختبار المشتقة
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: ترقية ملفات المعلمات
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: البرنامج التعليمي لـ Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: تكوين المستخدمين غير المسؤولين
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: ترقية AX2012 - ترقية البيانات في بيئات تحديد الصلاحيات باستخدام معالجه dacpac
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: الترقية من AX 2012 - النسخ المتماثل لحركات SQL
+                  href: database/replication-setup.md
                 - name: ترقية AX 2012 - ترقية البيانات في بيئات اختبار معزولة
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: ترقية AX 2012 - البيئات المحلية

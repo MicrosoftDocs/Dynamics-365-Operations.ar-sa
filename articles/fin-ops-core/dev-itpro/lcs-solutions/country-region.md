@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748455"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920847"
 ---
 # <a name="globalization-resources"></a>موارد العولمة
 
 ## <a name="local-and-regional-deployments"></a>عمليات النشر المحلية والإقليمية
 إذا تطلبت القوانين الحكومية تخزين البيانات أو صيانتها بشكل مختلف عما هو مطلوب في البلدان/المناطق الأخرى، فقد تكون هناك متطلبات خاصة بالبلد/المنطقة يجب وضعها في الاعتبار عند النشر. ضع الموارد التالية في الاعتبار والتي قد تكون ملائمة لك:
 
-[تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[تطبيقات Finance and Operations المشعلة بواسطة 21Vianet في الصين](../deployment/china-local-deployment.md)
 
-## <a name="localization-and-regulatory-features"></a>ميزات التعريب والميزات التنظيمية
+## <a name="localization-and-regulatory-features"></a>ميزات الترجمة والميزات التنظيمية
 
 [!include [banner](../includes/banner.md)]
 
@@ -60,7 +60,7 @@ ms.locfileid: "5748455"
 -   [إرسال تنبيهات حول الميزات التنظيمية الخاصة بالبلد/المنطقة](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>خطط إصدار Dynamics 365
-توفر [خطط إصدار Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) وصفًا للقدرات الجديدة والمحسنة التي تم التخطيط لها في تطبيقات أعمال Dynamics 365 والأنظمة الأساسية للتطبيقات. 
+توفر [خطط إصدار Dynamics 365](/business-applications-release-notes/) وصفًا للقدرات الجديدة والمحسنة التي تم التخطيط لها في تطبيقات أعمال Dynamics 365 والأنظمة الأساسية للتطبيقات. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>الجديد في تطبيقات Finance and Operations
 يسرد القسم [الجديد أو المتغير في الصفحة الرئيسية لتطبيق Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) الميزات المضمنة في الإصدارات الخاصة من تطبيقات Finance and Operations.

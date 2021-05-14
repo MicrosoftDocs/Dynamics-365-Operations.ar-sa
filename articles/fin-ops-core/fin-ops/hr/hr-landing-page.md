@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 67fcadac93f757fb535105154cb06a3549cccc7f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752170"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923558"
 ---
 # <a name="human-resources-overview"></a>نظرة عامة على Human Resources
 
@@ -42,38 +42,38 @@ ms.locfileid: "5752170"
 
 أثناء العمل مع الموارد البشرية، سوف تقرر كيفية بناء المؤسسة، واستخدام عناصر مثل الإدارات والوظائف والمناصب. هذه من بين العناصر الأساسية التي ستقوم بتكوينها في الموارد البشرية. يتم تعيين أفراد الموظفين للمناصب المقترنة بالوظائف.
 
-- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](../../../talent/departments-jobs-positions.md)
-- [إعداد معلمات الموارد البشرية الخاصة بالشركة](../../../talent/set-up-company-specific-hr-parameters.md)
-- [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](../../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](../../../human-resources/hr-personnel-departments-jobs-positions.md)
+- [إعداد معلمات الموارد البشرية الخاصة بالشركة](../../../human-resources/hr-setup-parameters.md)
+- [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](../../../human-resources/hr-setup-shared-parameters.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>تعيين الموظفين وتوظيفهم وتحفيزهم
 
 تقوم مشاريع التعيين بإدارة المحتوى المستخدم في الإعلانات عن مناصب متوفرة، ويمكنها أن تساعدك على إدارة الطلبات المقدمة لشغل الوظائف الشاغرة. ويمكنك استخدامها لتتبع الاستجابات لإعلانات الوظائف الخاصة بمشروع تعيين محدد أو مقدمي طلبات محددين، وتحديث حالة المناصب المتوفرة. يمكنك أيضًا توظيف مقدمي طلبات فردية أو إدارة "مشاريع التوظيف الجماعي" التي تسهل توظيف عدة عاملين، على سبيل المثال، لتلبية احتياجات العمل الموسمية.
 
 - [إدارة عمليات التوظيف](manage-recruiting-process.md)
-- [مشاريع التوظيف الجماعي](mass-hire-projects.md) 
+- [مشاريع التوظيف الجماعي](../../../human-resources/hr-personnel-mass-hire-projects.md) 
 
 بعد الانتهاء من عملية التوظيف، يمكنك إعداد خطط تسمح لك بإدارة التعويض بطريقة فعالة ومنصفة، بالإضافة إلى إدارة عناصر، مثل أجهزة الكمبيوتر والهواتف، التي تقوم مؤسستك بإعارتها للموظفين. يمكنك إنشاء خطط التعويض الثابتة والمتغيرة، بالإضافة إلى تحديد قواعد تطبيق خطة التعويض للوفاء بالمعايير الخاصة بتلك الخطة.
 
-- [خطط التعويض](../../../talent/compensation-plans.md)
-- [إنشاء خطط التعويض الثابتة](../../../talent/create-fixed-compensation-plans.md)
-- [إنشاء خطط التعويض المتغيرة](../../../talent/create-variable-compensation-plans.md)
+- [خطط التعويض](../../../human-resources/hr-compensation-overview.md)
+- [إنشاء خطط التعويض الثابتة](../../../human-resources/hr-compensation-fixed-plans.md)
+- [إنشاء خطط التعويض المتغيرة](../../../human-resources/hr-compensation-variable-plans.md)
 
 ## <a name="develop-and-train-employees"></a>تطوير الموظفين وتدريبهم
 
 لمساعدة الموظفين لديك على بلوغ أهدافهم الوظيفية مع تلبية احتياجات العمل الهامة، يمكنك إعداد أهداف، وإنشاء مراجعات أداء، وتعقب الملاحظات. لمساعدة الموظفين على تطوير المهارات اللازمة، يمكنك أيضًا إعداد بيانات الموجهين‬ وأنواع الدورات التدريبية وأسمائها، وأوصافها، وجداول أعمالها ومساراتها وجلسات العمل الخاصة بها قبل تعيين أي موجه للدورة التدريبية أو تسجيل أي شخص لحضور الدورة التدريبية. من الضروري وجود المعلمين كعاملين أو مقدمي طلبات أو كجهات اتصال.
 
-- [إدارة الأداء](../../../talent/performance-management-overview.md)
-- [مواءمة احتياجات العمل مع مهارات العاملين](../../../talent/skills.md)
-- [إعداد الدورات التدريبية](../../../talent/courses.md)
+- [إدارة الأداء](../../../human-resources/hr-develop-performance-management-overview.md)
+- [مواءمة احتياجات العمل مع مهارات العاملين](../../../human-resources/hr-develop-skills.md)
+- [إعداد الدورات التدريبية](../../../human-resources/hr-learning-courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>إنشاء المزايا والحفاظ عليها
 
 بالإضافة إلى تعويض الموظفين بواسطة الأجور والمرتبات والمكافآت، يمكنك تطوير برامج المزايا مثل التأمين الصحي وخطط التقاعد. ويمكنك أيضًا إدارة مزايا مثل برامج القروض، حيث تقوم شركتك بإعارة بعض العناصر، مثل أجهزة الكمبيوتر والهواتف، لموظفيها.
 
-- [تحديد وإدارة برنامج ميزات](../../../talent/manage-benefit-program.md)
-- [سياسات استحقاق الميزات](../../../talent/benefit-eligibility-policies.md)
-- [إدارة الأصناف المعارة للعاملين](../../../talent/loan-items.md)
+- [تحديد وإدارة برنامج ميزات](../../../human-resources/hr-benefits-management-overview.md)
+- [سياسات استحقاق الميزات](../../../human-resources/hr-benefits-eligibility-policies.md)
+- [إدارة الأصناف المعارة للعاملين](../../../human-resources/hr-personnel-loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>الحفاظ على السلامة والامتثال في أماكن العمل
 
@@ -87,10 +87,10 @@ ms.locfileid: "5752170"
 
 يمكنك تصميم الاستبيانات وإدارتها لجمع معلومات يمكن استخدامها لمجموعة من الأهداف. تسمح لك ميزة الاستبيانات بتصميم الاستبيانات وإنشائها. عندما يصبح الاستبيان جاهزًا، يمكنك توزيعه على نطاق واسع أو على مجموعة مستجيبين محددة لإكماله. وبعد أن يوفر المستجيبون إجاباتهم، يمكنك مراجعة النتائج وتحليلها.
 
-- [الاستبيانات](../../../talent/questionnaires.md)
-- [تصميم استبيانات](../../../talent/design-questionnaires.md)
-- [توزيع الاستبيانات وجدولتها](../../../talent/distribute-questionnaires.md)
-- [عرض وتقييم نتائج الاستبيانات](../../../talent/evaluate-questionnaire-results.md)
+- [الاستبيانات](../../../human-resources/hr-learning-questionnaires.md)
+- [تصميم استبيانات](../../../human-resources/hr-learning-design-questionnaires.md)
+- [توزيع الاستبيانات وجدولتها](../../../human-resources/hr-learning-distribute-questionnaires.md)
+- [عرض وتقييم نتائج الاستبيانات](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

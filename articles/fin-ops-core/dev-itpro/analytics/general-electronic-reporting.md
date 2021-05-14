@@ -2,7 +2,7 @@
 title: نظرة عامة حول التقارير الإلكترونية
 description: يوفر هذا الموضوع نظرة عامة على أداة إعداد التقارير الإلكترونية (ER). وهو يصف المفاهيم الاساسيه والسيناريوهات المعتمدة والتنسيقات التي تعد جزءا من الحل.
 author: NickSelin
-ms.date: 12/07/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893167"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944355"
 ---
 # <a name="electronic-reporting-er-overview"></a>نظرة عامة على إعداد التقارير الإلكترونية (ER)
 
@@ -236,7 +236,7 @@ ms.locfileid: "5893167"
 
 يمكن استخدام مصمم تنسيق التقارير الإلكترونية لإنشاء مستند إلكتروني معين بتنسيق ورقة العمل OPENXML. 
 
-لكي تصبح ملمًا بتفاصيل هذا السيناريو، يمكنك تشغيل دليل المهمة **إنشاء تكوين للتقارير بتنسيق OPENXML في التقارير الإلكترونية** (جزء من العملية التجارية **7.5.4.3 اكتساب/تطوير مكونات خدمة تكنولوجيا المعلومات/الحلول (10677)**). كجزء من خطوة دليل المهمة لاستيراد قالب، استخدم ملف Excel [قالب تقرير الدفع (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) كقالب.
+لكي تصبح ملمًا بتفاصيل هذا السيناريو، يمكنك تشغيل دليل المهمة **إنشاء تكوين للتقارير بتنسيق OPENXML في التقارير الإلكترونية** (جزء من العملية التجارية **7.5.4.3 اكتساب/تطوير مكونات خدمة تكنولوجيا المعلومات/الحلول (10677)**). كجزء من خطوة دليل المهمة لاستيراد قالب، استخدم ملف Excel [قالب تقرير الدفع (SampleVendPaymWsReport.xlsx)](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx) كقالب.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>إنشاء تكوين لإنشاء المستندات الإلكترونية بتنسيق مستند Word
 
@@ -244,8 +244,8 @@ ms.locfileid: "5893167"
 
 لكي تصبح ملمًا بتفاصيل هذا السيناريو، يمكنك تشغيل دليل المهمة التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق Microsoft WORD (جزء من العملية التجارية ‬‏‫‬‏‫7.5.4.3 اكتساب/تطوير مكونات الخدمات/الحلول الخاصة بتقنية المعلومات (10677)). وكجزء من خطوة دليل المهمة لاستيراد قالب، استخدم ملفات Word التالية كقوالب لتنسيق التقارير الإلكترونية:
 
-- [قالب تقرير الدفع (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [القالب المرتبط لتقرير الدفع (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [قالب تقرير الدفع (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
+- [القالب المرتبط لتقرير الدفع (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>إنشاء تكوين لاستيراد بيانات من المستندات الإلكترونية الواردة
 
@@ -253,10 +253,10 @@ ms.locfileid: "5893167"
 
 لكي تصبح ملمًا بتفاصيل هذا السيناريو، يمكنك تشغيل دليل المهمة "إنشاء تكوينات التقارير الإلكترونية لاستيراد البيانات من ملف خارجي" (جزء من العملية التجارية 7.5.4.3 اكتساب/تطوير مكونات الخدمات/الحلول الخاصة بتقنية المعلومات (10677)). استخدام الملفات التالية لتشغيل هذا الدليل:
 
-- [تكوين نموذج بيانات التقارير الإلكترونية (1099model.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [تكوين تنسيق التقارير الإلكترونية (1099format.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [نموذج من محتوى المستند الوارد بتنسيق XML (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [نموذج من المصنف لإدارة بيانات المستند الوارد (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [تكوين نموذج بيانات التقارير الإلكترونية (1099model.xml)](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)
+- [تكوين تنسيق التقارير الإلكترونية (1099format.xml)](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)
+- [نموذج من محتوى المستند الوارد بتنسيق XML (1099entries.xml)](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)
+- [نموذج من المصنف لإدارة بيانات المستند الوارد (1099entries.xlsx)](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>تخزين مكون تنسيق مصمم في تكوين التنسيق
 
