@@ -56,12 +56,7 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true,
-  "Targets": {
-    "Pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  },
+  "need_generate_pdf_url_template": true, 
   "need_generate_intellisense": false,
   "docs_build_engine": {
     "name": "docfx_v3"
