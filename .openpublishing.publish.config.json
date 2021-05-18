@@ -12,7 +12,7 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content",
-		"LandingData": "Content",
+        "LandingData": "Content",
         "ContentObject": "Toc"
       },
       "build_entry_point": "docs",
@@ -26,7 +26,7 @@
   ],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
+  "need_preview_pull_request": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -35,19 +35,19 @@
       "branch_mapping": {}
     },
     {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/MicrosoftDocs/Dynamics-365-Operations",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    },
+    {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master",
       "branch_mapping": {}
-    },	
-    {	
-      "path_to_root": "_repo.en-us",	
-      "url": "https://github.com/MicrosoftDocs/Dynamics-365-Operations",	
-      "branch": "live",	
-      "branch_mapping": {	
-        "live": "live",	
-        "master": "master"	
-      }	
     }
   ],
   "branch_target_mapping": {
@@ -64,6 +64,11 @@
   },
   "need_generate_intellisense": false,
   "docs_build_engine": {
-  "name": "docfx_v3"
+    "name": "docfx_v3"
+  },
+  "targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
   }
 }
