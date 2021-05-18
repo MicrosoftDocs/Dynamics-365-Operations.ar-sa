@@ -38,8 +38,11 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "feedback_product_url": "https://ideas.dynamics.com",
       "contributors_to_exclude": [
-        "OpenLocalizationService"
+        "OpenLocalizationService",
+        "buck1ey",
+        "bishalgoswami"
       ],
       "layout": "Conceptual",
       "searchScope": [
@@ -47,7 +50,7 @@
         "Unified Operations"
       ],
       "extendBreadcrumb": "true",
-      "breadcrumb_path": "/dynamics365/ops-bc/toc.json",  
+      "breadcrumb_path": "/dynamics365/ops-bc/toc.json",
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "brand": "dyn-ops",
       "_op_documentIdPathDepotMapping": {
@@ -75,7 +78,7 @@
           "folder_relative_path_in_docset": ".",
           "depot_name": "MSDN.d365OpsHR"
         }
-       },
+      },
       "recommendations": "true"
     },
     "fileMetadata": {
@@ -167,6 +170,10 @@
         "human-resources/**/**.md": "dynamics-365-human-resources",
         "supply-chain/**/**.md": "dynamics-365-supply-chain",
         "talent/**/**.md": "dynamics-365-talent"
+      },
+      "ms.reviewer": {
+        "human-resources/**/**.md": "tfehr",
+        "talent/**/**.md": "tfehr"
       },
       "ms.search.scope": {
         "commerce/**/**.md": "Core, Operations, Retail, Commerce, ShowInHelp",
