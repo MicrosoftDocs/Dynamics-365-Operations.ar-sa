@@ -2,7 +2,6 @@
 title: تكوين ضريبة المبيعات للأوامر عبر الإنترنت
 description: يوفر هذا الموضوع نظرة عامة على تحديد مجموعة ضريبة المبيعات لأنواع مختلفة من الأوامر عبر الإنترنت في Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: AnnBe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 8df939c1a566fb63bc53e455cc6c2aa85956ac79
-ms.sourcegitcommit: 583801af75c50915ea5ffc60e831fb617d045533
+ms.openlocfilehash: fff4f39703a146412b460dacc3805fde097ab756
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853801"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021430"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>تكوين ضريبة المبيعات للأوامر عبر الإنترنت
 
@@ -41,7 +40,7 @@ ms.locfileid: "5853801"
 
 ### <a name="order-pick-up-in-store"></a>التقاط الأمر في المتجر
 
-بالنسبة لأصناف الأمر ذات الوضع التقاط في المتجر أو التقاط على الطريق المُحدد، سيتم تطبيق المجموعة الضريبية من متجر الالتقاط المحدد. للحصول على تفاصيل حول كيفية إعداد مجموعة الضرائب لمتجر معين، راجع [تعيين خيارات الضرائب الأخرى للمتاجر](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+بالنسبة لأصناف الأمر ذات الوضع التقاط في المتجر أو التقاط على الطريق المُحدد، سيتم تطبيق المجموعة الضريبية من متجر الالتقاط المحدد. للحصول على تفاصيل حول كيفية إعداد مجموعة الضرائب لمتجر معين، راجع [تعيين خيارات الضرائب الأخرى للمتاجر](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
 ## <a name="customer-account-based-taxes-for-online-orders"></a>الضرائب المستندة إلى العملاء للأوامر عبر الإنترنت
 
@@ -71,15 +70,15 @@ ms.locfileid: "5853801"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[إعداد الضرائب للمتاجر على الإنترنت استنادًا إلى الوجهة](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
+[إعداد الضرائب للمتاجر على الإنترنت استنادًا إلى الوجهة](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
 
-[نظرة عامة على ضريبة المبيعات](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json) 
+[نظرة عامة على ضريبة المبيعات](../finance/general-ledger/indirect-taxes-overview.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[طرق حساب ضريبة المبيعات في حقل الأصل](https://docs.microsoft.com/dynamics365/finance/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/commerce/toc.json) 
+[طرق حساب ضريبة المبيعات في حقل الأصل](../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[ تعيين ضريبة المبيعات والتجاوزات](https://docs.microsoft.com/dynamics365/supply-chain/procurement/tasks/sales-tax-assignment-overrides?toc=/dynamics365/commerce/toc.json) 
+[ تعيين ضريبة المبيعات والتجاوزات](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات](https://docs.microsoft.com/dynamics365/finance/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/commerce/toc.json) 
+[خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات](../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
 [حساب الإعفاء الضريبي](tax-exempt-price-inclusive.md) 
 

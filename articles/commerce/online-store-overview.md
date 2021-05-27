@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791068"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022462"
 ---
 # <a name="e-commerce-site-overview"></a>نظره عامه حول موقع التجارة الإلكترونية
 
@@ -37,11 +37,11 @@ ms.locfileid: "5791068"
 
 يجب إعداد قناة متجر واحد فقط عبر الإنترنت قبل أن تبدأ استخدام Dynamics 365 Commerce. ومع ذلك، يمكن أن يقدم موقع تجارة إلكترونية واحد تجربة عبر الإنترنت للعديد من المتاجر عبر الإنترنت. على سبيل المثال، إذا تم إعداد العديد من المتاجر عبر الإنترنت لدعم مناطق جغرافية مختلفة، فإنه يمكن استخدام مجموعة واحدة من صفحات التجارة الإلكترونية لتوفير التجارب الفريدة التي يتم تعريفها بواسطة كل متجر. لمزيد من المعلومات حول كيفية تكوين موقع لدعم العديد من المتاجر عبر الإنترنت، راجع [إقران موقع عبر الإنترنت بقناة](associate-site-online-store.md).
 
-بعد إعداد متجر عبر الإنترنت، فإنه يمكن أن يقترن بالموقع Dynamics 365 Commerce الذي سيكون بمثابة واجهة المتجر عبر الإنترنت الخاصة بك. لمزيد من المعلومات حول المتاجر عبر الإنترنت وكيفية إعدادها، راجع [إعداد متاجر عبر الإنترنت](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
+بعد إعداد متجر عبر الإنترنت، فإنه يمكن أن يقترن بالموقع Dynamics 365 Commerce الذي سيكون بمثابة واجهة المتجر عبر الإنترنت الخاصة بك. لمزيد من المعلومات حول المتاجر عبر الإنترنت وكيفية إعدادها، راجع [إعداد متاجر عبر الإنترنت](/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>نشر مستأجر التجارة الإلكترونية الجديد
 
-تتم مطالبتك باسم المجال في أثناء تهيئة موقع التجارة الإلكترونية. لمزيد من المعلومات حول المجالات في Commerce، راجع [تكوين اسم المجال الخاص بك](configure-your-domain-name.md) و [المجالات ف Dynamics 365 Commerce](domains-commerce.md) لنشر مستاجر التجارة الإلكترونية الجديدة باستخدام [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)،اتبع الخطوات الواردة في [نشر مستأجر تجارة إلكترونية جديد](deploy-ecommerce-site.md). بعد إعداد مستأجر التجارة الإلكترونية في LCS، سيتم توفير ارتباط لمنشئ موقع Commerce. يمكنك بعد ذلك استخدام منشئ موقع Commerce لتهيئة مواقع التجارة الإلكترونية وتكوينها.
+تتم مطالبتك باسم المجال في أثناء تهيئة موقع التجارة الإلكترونية. لمزيد من المعلومات حول المجالات في Commerce، راجع [تكوين اسم المجال الخاص بك](configure-your-domain-name.md) و [المجالات ف Dynamics 365 Commerce](domains-commerce.md) لنشر مستاجر التجارة الإلكترونية الجديدة باستخدام [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)،اتبع الخطوات الواردة في [نشر مستأجر تجارة إلكترونية جديد](deploy-ecommerce-site.md). بعد إعداد مستأجر التجارة الإلكترونية في LCS، سيتم توفير ارتباط لمنشئ موقع Commerce. يمكنك بعد ذلك استخدام منشئ موقع Commerce لتهيئة مواقع التجارة الإلكترونية وتكوينها.
 
 ## <a name="initialize-your-e-commerce-site"></a>تهيئة موقع التجارة الإلكترونية الخاص بك
 

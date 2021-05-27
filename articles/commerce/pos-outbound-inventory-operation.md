@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795635"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022721"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>عملية المخزون الخارجية في نقطة البيع
 
@@ -71,7 +71,7 @@ ms.locfileid: "5795635"
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>المتطلب الأساسي: إضافة عملية خارجية إلى تخطيط شاشة نقطة البيع
 
-قبل أن تتمكن مؤسستك من استخدام وظيفة العملية الخارجية، قبل أن تكوّن عملية نقطة البيع **العملية الخارجية** على تخطيط واحد أو أكثر من [‏‫تخطيطات شاشة POS‬](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). قبل نشر العملية الجديدة في بيئة إنتاج، تأكد من اختبارها بدقه ودّرب المستخدمين لديك على استخدامها.
+قبل أن تتمكن مؤسستك من استخدام وظيفة العملية الخارجية، قبل أن تكوّن عملية نقطة البيع **العملية الخارجية** على تخطيط واحد أو أكثر من [‏‫تخطيطات شاشة POS‬](/dynamics365/unified-operations/retail/pos-screen-layouts). قبل نشر العملية الجديدة في بيئة إنتاج، تأكد من اختبارها بدقه ودّرب المستخدمين لديك على استخدامها.
 
 ## <a name="overview"></a>نظرة عامة
 

@@ -361,13 +361,11 @@
                   href: asset-management/objects/object-timeline.md
                 - name: طريقة عرض الأصول
                   href: asset-management/objects/object-view.md
-                - name: نظرة عامة على سمات الأصول
+                - name: نظرة عامة على سمة الأصل
                   href: asset-management/objects/object-specification-overview.md
             - name: إعداد طلبات الصيانة
               items:
-                - name: طلبات الصيانة
-                  href: asset-management/setup-for-maintenance-requests/requests.md
-                - name: حالات دورة حياة طلبات الصيانة
+                - name: حالات دورة حياة طلب الصيانة
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: أنواع طلبات الصيانة
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -1397,11 +1395,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
                         - name: تحديث بنيه قالب مستند الأعمال
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/supply-chain/toc.json
-            - name: API إطار عمل التقارير الإلكترونية
+            - name: واجهة برمجة تطبيقات إطار عمل التقارير الإلكترونية
               items:
                 - name: توسيع قائمة الوظائف المضمنة
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تغييرات API
+                - name: تغييرات واجهة برمجة التطبيقات
                   items:
                     - name: تحديث التطبيق 7.3
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
@@ -1681,7 +1679,7 @@
                   href: master-planning/introduction-demand-forecasting.md
                 - name: إعداد التنبؤ بالطلب
                   href: master-planning/demand-forecasting-setup.md
-                - name: استيراد البيانات التاريخية‬ للتنبؤات بالطلب
+                - name: استيراد البيانات التاريخية‬ للتنبؤات بالطلبات
                   href: master-planning/import-historical-data.md
                 - name: إنشاء تنبؤ أساسي إحصائي
                   href: master-planning/generate-statistical-baseline-forecast.md
@@ -1865,7 +1863,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء قواعد تنبيه
                   href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/supply-chain/toc.json
-                - name: المعالجة الدُفعية للتنبيهات
+                - name: معالجة الدُفعة للتنبيهات
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/supply-chain/toc.json
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: استكشاف الأخطاء وإصلاحها
           items:
+            - name: إدارة التكلفة
+              items:
+                - name: إعدادات الحقول مفقودة عند نسخ مجموعات نماذج العناصر إلى كيان قانوني آخر
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: يتضمن تقرير "التكاليف غير المباشرة قيد المعالجة" أوامر الإنتاج المحذوفة
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: ترحيل استحقاق الشراء بالمبلغ صفر لإيصال استلام المنتج ذي القيمة الصفرية
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: لا تظهر أوامر الشراء المستلمة فعليًا في تقرير إقفال المخزون
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: لا يوجد تاريخ البدء في علامة التبويب الأسعار النشطة في صفحة سعر الصنف
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: إدارة المخزون
+              items:
+                - name: حركات مخزون متعددة لأرقام الدُفعات دون "عند التحديث الفعلي"
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: يؤدي عكس تقرير كمنتهٍ إلى إنشاء حركة مفتوحة غير متوقعة
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: يتعذر إظهار الملاحظات الجديدة المرفقة بدفتر يومية في تقرير قائمة الانتقاء
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: لا يتم تحديث الكمية في أمر العزل الذي بدأ عند تقسيم الأمر
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: لا يتم تحديث حقل "تاريخ آخر اختبار" عند إنشاء أوامر جودة متعددة
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: عند تقسيم كمية وزن التعبئة، يتم استخدام الحد الأدنى بدلاً من الكمية الاسمية
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: التخطيط الرئيسي
+              items:
+                - name: تتم معالجة الطلبات المؤكدة المشتقة مباشرةً من خلال سير عمل قيد المراجعة
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: التخطيط الرئيسي يقوم بإنشاء أوامر مخططة للمنتجات الوهمية
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: تم إنشاء أمر الشراء المخطط عند وجود عملية شراء في غضون أيام سلبية
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: يتعذر تحميل سعر التكلفة في إدخالات التنبؤ بالطلب
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: تتعذر إزالة بُعد التنبؤ بطلب المستودع من بنود التنبؤ
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: التدبير
+              items:
+                - name: يتعذر إصدار فاتورة لأمر مبيعات موجه للعميل في شركة VEL
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: تتعذر إضافة بند إلى طلب شراء بعد طلب تغيير
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: إدارة معلومات المنتج
+              items:
+                - name: يتعذر تطبيق قالب لإنشاء منتج صادر
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: يتعذر استيراد صنف باستخدام كيان المنتجات الصادرة V2
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: لا تعرض أوامر الشراء نص المنتج المترجم
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: التحكم بالإنتاج
+              items:
+                - name: لا تتم مراعاة إعدادات قاعده المسح في بنود BOM
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: تم مسح رقم الدُفعة عند تحديد معرف دفعة جديد
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: لا تتم مراعاة التحديد المتأخر عند إعادة تعيين أوامر الإنتاج عبر وظيفة الدُفعة
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: يستطيع المستخدمون إلغاء انتقاء بنود المواد للمنتجات التي تم الإبلاغ عنها كمنتهية
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: خطأ في ترحيل التقرير كدفتر يومية منتهٍ
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: لم يتم تحديث المستودع الموجود في دفتر يوميه قائمة الانتقاء في بند BOM
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: إدارة الخصومات
+              items:
+                - name: فشل تجميع خصومات العملاء باستخدام مجموعات خصومات الأصناف
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: المبيعات والتسويق
+              items:
+                - name: لا يمكن لمسؤولي النظام مسح الأوامر المعلقة لأنه غير مصرح لهم بذلك
+                  href: troubleshooting/sales/system-administrator.md
+            - name: إدارة النقل
+              items:
+                - name: يمكن إضافة الحساب الرئيسي فقط كحساب ائتمان لأسباب التسوية
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: إدارة المستودعات
               items:
+                - name: يحدث خطأ عند اختيار الموقع أثناء تسجيل قائمة الانتقاء
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: لا تعرض محطة التعبئة ملاحظات المنتج
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: لا يسمح ملف تعريف الموقع بالمخزون السالب، ولكن يتم السماح بالكمية المتاحة السالبة
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: تتم طباعة تسمية واحدة فقط لرؤوس العمل المتعددة في إيصال واحد
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: لا يمكنك تأكيد شحنة بسبب مشكلة في التقويم
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: لا يمكنك تأكيد شحنة بسبب العمل غير المكتمل أو المفقود

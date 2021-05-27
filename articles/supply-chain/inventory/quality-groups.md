@@ -2,11 +2,9 @@
 title: مجموعات جودة الصنف
 description: يصف هذا الموضوع كيفيه استخدام مجموعات جوده الصنف وإنشاءها لتجميع المنتجات بشكل منطقي حتى يمكن تعيينها لعمليات اقتران الجودة لإنشاء أوامر الجودة تلقائيا.
 author: rachel-profitt
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestQualityGroup, InventTestItemQualityGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3074a6a8cc054be045bf593b509e76a1043af0b7
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 272cb748e0a2722d9744fe6b357d767a1d6aeb26
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956530"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022242"
 ---
 # <a name="item-quality-groups"></a>مجموعات جودة الصنف
 

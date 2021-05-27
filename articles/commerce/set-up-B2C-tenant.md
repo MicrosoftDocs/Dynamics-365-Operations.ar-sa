@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793985"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018570"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>إعداد مستأجر B2C في Commerce
 
@@ -30,7 +30,7 @@ ms.locfileid: "5793985"
 يقوم Dynamics 365 Commerce باستخدام Azure AD B2C لدعم بيانات اعتماد المستخدم وتدفقات المصادقة. بإمكان المستخدم التسجيل وتسجيل الدخول وإعادة تعيين كلمة المرور من خلال هذه التدفقات. يقوم Azure AD B2C بتخزين معلومات المصادقة الحساسة، مثل اسم المستخدم وكلمه المرور. سيقوم سجل المستخدم في مستأجر B2C بتخزين سجل حساب محلي B2C أو سجل موفر هوية اجتماعية B2C. سترتبط سجلات B2C هذه من جديد بسجل العميل في بيئة Commerce.
 
 > [!WARNING] 
-> سيُوقف Azure AD B2C عمليات سير عمل المستخدمين القدامى بحلول 1 أغسطس2021. لذلك، يجب أن تخطط لترحيل تدفقات المستخدم إلى الإصدار الجديد الموصى به. يوفر الإصدار الجديد تماثل ميزات وميزات جديده. يجب استخدام مكتبة الوحدات لإصدار Commerce رقم 10.0.15 أو إصدار أحدث مع عمليات سير عمل مستخدم B2C الموصى بها. لمزيد من المعلومات، راجع [عمليات سير عمل المستخدمين في Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> سيُوقف Azure AD B2C عمليات سير عمل المستخدمين القدامى بحلول 1 أغسطس2021. لذلك، يجب أن تخطط لترحيل تدفقات المستخدم إلى الإصدار الجديد الموصى به. يوفر الإصدار الجديد تماثل ميزات وميزات جديده. يجب استخدام مكتبة الوحدات لإصدار Commerce رقم 10.0.15 أو إصدار أحدث مع عمليات سير عمل مستخدم B2C الموصى بها. لمزيد من المعلومات، راجع [عمليات سير عمل المستخدمين في Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview).
  
  > [!NOTE]
  > تأتي بيئات تقييم Commerce مع مستأجر Azure AD B2C المحمل مسبقًا لأغراض التوضيح. لا يلزم تحميل مستأجر Azure AD  B2Cالخاص بك باستخدام الخطوات التالية لبيئات التقييم.
@@ -88,7 +88,7 @@ ms.locfileid: "5793985"
 1. ضمن **المنح الضمني**، حدد كلا من **رموز الوصول المميزة** و **رموز المعرفات المميزة** لتمكينها للتطبيق. حدد **حفظ**.
 1. انتقل إلى قائمة **النظرة العامة** في مدخل Azue وانسخ **معرف التطبيق (العميل)**. لاحظ هذا المعرف لخطوات الاعداد التالية (المشار اليها فيما بعد باعتباره **المعرف الفريد العمومي للعميل**).
 
-للحصول علي مرجع إضافي حول تسجيلات التطبيق في Azure ADB2C، يُرجى مراجعة [تجربه تسجيلات التطبيق الجديدة لـ Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
+للحصول علي مرجع إضافي حول تسجيلات التطبيق في Azure ADB2C، يُرجى مراجعة [تجربه تسجيلات التطبيق الجديدة لـ Azure Active Directory B2C](/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>عناوين URL الخاصة بالرد
 
@@ -110,7 +110,7 @@ ms.locfileid: "5793985"
 
 يمكنك اختيار استخدام تدفقات المستخدم الافتراضية التي يوفرها Azure AD، والتي ستقوم بعرض صفحة يستضيفها AAD B2C. أو يمكنك إنشاء صفحة HTML للتحكم في شكل وأسلوب تجارب تدفق المستخدم هذه. 
 
-لتخصيص صفحات سياسة المستخدم مع الضفحات المضمنة في Dynamics 365 Commerce، راجع [إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين‬](custom-pages-user-logins.md). للحصول على معلومات إضافية، راجع [تخصيص واجهة تجارب المستخدم في Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
+لتخصيص صفحات سياسة المستخدم مع الضفحات المضمنة في Dynamics 365 Commerce، راجع [إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين‬](custom-pages-user-logins.md). للحصول على معلومات إضافية، راجع [تخصيص واجهة تجارب المستخدم في Azure Active Directory B2C](/azure/active-directory-b2c/tutorial-customize-ui).
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>إنشاء عملية تسجيل وتسجيل دخول في سياسة تدفق المستخدم
 
@@ -197,15 +197,15 @@ ms.locfileid: "5793985"
 
 قبل أن تتمكن من إضافة موفر هوية اجتماعية للمصادقة، يجب الانتقال إلى مدخل موفر الهوية وإعداد تطبيق موفر هوية كما هو موضح في وثائق Azure AD B2C. توجد أدناه قائمة بالارتباطات إلى الوثائق.
 
-- [Amazon](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
-- [Azure AD (مستأجر واحد)](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
-- [حساب Microsoft](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
-- [Facebook](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
-- [GitHub](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
-- [Google](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
-- [LinkedIn](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
-- [OpenID Connect](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
-- [Twitter](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
+- [Amazon](/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
+- [Azure AD (مستأجر واحد)](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
+- [حساب Microsoft](/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
+- [Facebook](/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
+- [GitHub](/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
+- [Google](/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
+- [LinkedIn](/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
+- [OpenID Connect](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
+- [Twitter](/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
 
 ### <a name="add-and-set-up-a-social-identity-provider"></a>إضافة موفر هوية اجتماعية وإعداده
 
@@ -346,11 +346,11 @@ ms.locfileid: "5793985"
 
 إذا كنت ترغب في ترحيل سجلات العملاء من نظام موفر الهوية السابق، فيرجى العمل مع فريق Dynamics 365 Commerce لمراجعة احتياجات ترحيل العملاء.
 
-للحصول على وثائق Azure AD B2C إضافة حول ترحيل العملاء، راجع [ترحيل العملاء إلى Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-user-migration).
+للحصول على وثائق Azure AD B2C إضافة حول ترحيل العملاء، راجع [ترحيل العملاء إلى Azure Active Directory B2C](/azure/active-directory-b2c/active-directory-b2c-user-migration).
 
 ### <a name="custom-policies"></a>سياسات مخصصة
 
-للحصول على معلومات إضافية حول تخصيص تفاعلات وتدفقات سياسة Azure AD B2C بما يتجاوز ما تقدمه سياسات B2C القياسية، راجع [السياسات المخصصة في Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
+للحصول على معلومات إضافية حول تخصيص تفاعلات وتدفقات سياسة Azure AD B2C بما يتجاوز ما تقدمه سياسات B2C القياسية، راجع [السياسات المخصصة في Azure Active Directory B2C](/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
 
 ### <a name="secondary-admin"></a>المسؤول الثانوي
 

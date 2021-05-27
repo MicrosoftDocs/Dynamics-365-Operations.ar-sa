@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95862a0dc55ec1d77b7d1a53209ba41fed48f82a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 125cc9dd1fb2ba0d3aeced8018d15e615b5d78e6
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820751"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027832"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>إنشاء دفعات المورد باستخدام مقترح دفع
 
@@ -62,7 +62,7 @@ ms.locfileid: "5820751"
 | 3075   | 1003    | 15 يونيو      | 250.00         | 29 يونيو  |                    | 0.00                 |
 | 3100   | 1004    | 17 يونيو      | 100.00         | 17 يوليو  | 1 يوليو             | 1.00                 |
 
-في 1 يوليو، تقوم فوزية بالدفع للموردين. وتستخدم مقترح دفع لمساعدتها في إنجاز هذه المهمة بكفاءة أكبر.
+في 1 يوليو، تقوم فوزية بالدفع للموردين. وتستخدم مقترح دفع لإنجاز هذه المهمة بكفاءة أكبر.
 
 ### <a name="option-1-by-cash-discount"></a>الخيار 1: حسب الخصم النقدي
 

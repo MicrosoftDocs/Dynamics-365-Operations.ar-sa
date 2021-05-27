@@ -2,7 +2,7 @@
 title: البدء باستخدام إدارة خدمة الفوترة الإلكترونية
 description: يوضح هذا الموضوع كيفية بدء استخدام الفوترة الإلكترونية.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840138"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980964"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>البدء باستخدام إدارة خدمة الفوترة الإلكترونية
 
@@ -33,10 +33,10 @@ ms.locfileid: "5840138"
 - يجب أن يكون لديك حق الوصول إلى حساب Microsoft Dynamics Lifecycle Services (LCS).
 - يجب ان يكون لديك مشروع LCS يتضمن إصدار 10.0.17 أو إصدار أحدث من Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management. بالإضافة إلى ذلك، يجب أن يتم نشر هذه التطبيقات في أحد مناطق Azure الجغرافية التالية:
 
-    - شرق الولايات المتحدة
-    - غرب الولايات المتحدة
-    - شمال الاتحاد الأوروبي
-    - غرب الاتحاد الأوروبي
+    - الولايات المتحدة
+    - أوروبا
+    - المملكة المتحدة
+    - آسيا
 
 - يجب أن يكون لديك حق الوصول إلى حساب Dynamics 365 Regulatory Configuration Services (RCS)
 - يجب تشغيل ميزة العولمة لحساب RCS في إدارة الميزات. لمزيد من المعلومات، راجع [Regulatory Configuration Services (RCS) - ميزات العولمة](rcs-globalization-feature.md).
@@ -46,11 +46,12 @@ ms.locfileid: "5840138"
 
 1. سجل دخولك إلى حساب LCS.
 2. حدد تجانب **إدارة ميزة المعاينة**.
-3. في قسم **ميزات المعاينة العامة**، حدد **خدمة الفوترة الإلكترونية**.
+3. في القسم **ميزات الإصدار الأولي للاستخدام العام**، حدد **الفوترة الإلكترونية**.
 4. تأكد من تعيين خيار **‬‏‫ميزة المعاينه ممكنة** إلى **نعم**.
-5. في لوحة معلومات LCS، حدد مشروع توزيع LCS الخاص بك. يجب أن يكون مشروع LCS قيد التشغيل.
-7. على علامة التبويب **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.
-8. حدد **خدمات الفوترة الإلكترونية**.
+5. في لوحة معلومات مشروع LCS، حدد مشروع LCS.
+6. في المشروع LCS، على لوحة معلومات بيئة LCS، حدد مشروع نشر LCS. يجب أن يكون مشروع نشر LCS قيد التشغيل.
+7. في علامة التبويب تكامل **Power Platform**، في مجموعة الحقل **الوظائف الإضافبة للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.
+8. حدد **الفوترة الإلكترونية**.
 9. في حقل **معرف تطبيق AAD**، أدخل **091c98b0-a1c9-4b02-b62c-7753395ccabe**. هذه قيمة ثابتة.
 10. في الحقل **معرف مستأجر AAD**، أدخل معرف المستأجر لحساب اشتراك Azure.
 11. راجع البنود والشروط، ثم حدد خانة الاختيار.
@@ -65,10 +66,10 @@ ms.locfileid: "5840138"
 
     | منطقة Azure الجغرافية لمركز البيانات | عنوان URI لنقطة نهاية الخدمة                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | شرق الولايات المتحدة                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | غرب الولايات المتحدة                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | شمال الاتحاد الأوروبي                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | غرب الاتحاد الأوروبي                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | الولايات المتحدة              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | أوروبا                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | المملكة المتحدة             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | آسيا                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 4. تأكد من أنه تم تعيين حقل **معرف التطبيق** إلى **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. هذه القيمة هي قيمة ثابتة.
 5. في الحقل **معرف بيئة LCS**، أدخل معرف بيئة LCS.
@@ -152,12 +153,12 @@ ms.locfileid: "5840138"
 1. انتقل إلى **إدارة المؤسسة \> الإعداد \> معلمات المستندات الإلكترونية**.
 2. في علامة تبويب **خدمة الإرسال**، في حقل **URL لنقطة نهاية الخدمة**، أدخل نقطة نهاية الخدمة المناسبة لمنطقة Azure الجغرافية الخاصة بك، كما هو موضح في الجدول التالي.
 
-    | منطقة Azure الجغرافية لمركز البيانات | عنوان URL لنقطة نهاية الخدمة                                                       |
+    | منطقة Azure الجغرافية لمركز البيانات | عنوان URI لنقطة نهاية الخدمة                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | شرق الولايات المتحدة                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | غرب الولايات المتحدة                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | شمال الاتحاد الأوروبي                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | غرب الاتحاد الأوروبي                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | الولايات المتحدة              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | أوروبا                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | المملكة المتحدة             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | آسيا                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. في حقل **البيئة**، أدخل اسم بيئة الخدمة المنشورة في الفوترة الإلكترونية.
 4. حدد **حفظ** ثم قم بإغلاق الصفحة.

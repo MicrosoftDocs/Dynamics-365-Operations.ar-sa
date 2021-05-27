@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792861"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019923"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>بطاقات الهدايا الرقمية في التجارة الإلكترونية
 
@@ -51,12 +51,12 @@ ms.locfileid: "5792861"
 
     ![حقل منتج بطاقة الهدايا في المركز الرئيسي لـ Commerce](./media/PostGiftcard.png)
 
-- إذا كان يجب أن تدعم بطاقة الهدايا مبالغ متعددة معرفة مسبقًا (على سبيل المثال ، 25 دولار و50 دولار و100 دولار)، فيجب استخدام بُعد **الحجم** لإعداد تلك المبالغ المعرفة مسبقًا. سيكون كل مبلغ معرف مسبقًا متغيرًا. لمزيد من المعلومات، راجع [أبعاد المنتجات](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- إذا كان يجب أن تدعم بطاقة الهدايا مبالغ متعددة معرفة مسبقًا (على سبيل المثال ، 25 دولار و50 دولار و100 دولار)، فيجب استخدام بُعد **الحجم** لإعداد تلك المبالغ المعرفة مسبقًا. سيكون كل مبلغ معرف مسبقًا متغيرًا. لمزيد من المعلومات، راجع [أبعاد المنتجات](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - إذا كان يجب أن يكون العملاء قادرين على تحديد مبلغ مخصص لبطاقة الهدايا، فقم أولا بإعداد متغير يسمح بمبلغ مخصص. بعد ذلك، افتح المنتج من صفحة **المنتجات التي تم إصدارها**، ثم في علامة التبويب السريعة **التجارة**، قم بتعيين حقل **إدخال السعر** إلى **يجب إدخال سعر جديد**، كما هو مبين في التوضيح التالي. ويعمل هذا الإعداد على ضمان قيام العملاء بإدخال سعر عند استعراض المنتج على PDP.
 
     ![حقل إدخال السعر في المركز الرئيسي لـ Commerce](./media/KeyInPrice.png)
 
-- يجب تعيين وضع التسليم لبطاقة الهدايا الرقمية إلى **إلكتروني**. في صفحة **أوضاع التسليم** (**البيع بالتجزئة والتجارة \> إعداد القناة \> أوضاع التسليم**)، حدد وضع التسليم **إلكتروني** في جزء القائمة، ثم قم بإضافة منتج بطاقة الهدايا الرقمية إلى الشبكة الموجودة في علامة التبويب السريعة **المنتجات**، كما هو مبين في التوضيح التالي. لمزيد من المعلومات، راجع [إعداد أوضاع التسليم](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- يجب تعيين وضع التسليم لبطاقة الهدايا الرقمية إلى **إلكتروني**. في صفحة **أوضاع التسليم** (**البيع بالتجزئة والتجارة \> إعداد القناة \> أوضاع التسليم**)، حدد وضع التسليم **إلكتروني** في جزء القائمة، ثم قم بإضافة منتج بطاقة الهدايا الرقمية إلى الشبكة الموجودة في علامة التبويب السريعة **المنتجات**، كما هو مبين في التوضيح التالي. لمزيد من المعلومات، راجع [إعداد أوضاع التسليم](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![منتجات بطاقة الهدايا الرقمية في الصفحة وضع التسليم في المركز الرئيسي لـ Commerce](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ ms.locfileid: "5792861"
 
 [إنشاء منتج جديد في Commerce](create-new-product-commerce.md)
 
-[إعداد أوضاع التسليم](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[إعداد أوضاع التسليم](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[أبعاد المنتجات](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[أبعاد المنتجات](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [إنشاء ملف تعريف الإخطار بالبريد الإلكتروني](email-notification-profiles.md)
 
