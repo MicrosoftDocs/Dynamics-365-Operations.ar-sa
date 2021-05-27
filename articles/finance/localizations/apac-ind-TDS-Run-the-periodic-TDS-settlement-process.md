@@ -1,0 +1,63 @@
+---
+title: تشغيل عملية تسوية TDS الدورية
+description: يوضح هذا الموضوع كيفية تسوية الضريبة الدورية المخصومة في المصدر (TDS).
+author: kailiang
+ms.date: 02/12/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.custom: 15721
+ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
+ms.search.region: Global
+ms.author: kailiang
+ms.search.validFrom: 2021-02-12
+ms.dyn365.ops.version: AX 10.0.17
+ms.openlocfilehash: cfab08a4190bf51518bd4a9b445b229a5081e87d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022987"
+---
+# <a name="run-the-periodic-tds-settlement-process"></a><span data-ttu-id="101a0-103">تشغيل عملية تسوية TDS الدورية</span><span class="sxs-lookup"><span data-stu-id="101a0-103">Run the periodic TDS settlement process</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="101a0-104">يوضح هذا الموضوع كيفية تسوية الضريبة الدورية المخصومة في المصدر (TDS).</span><span class="sxs-lookup"><span data-stu-id="101a0-104">This topic explains how to settle periodic Tax Deducted at Source (TDS).</span></span>
+
+1. <span data-ttu-id="101a0-105">انتقل إلى **الضريبة \> الإقرارات \> ضريبة الخصم \> دفع ضريبة الخصم**.</span><span class="sxs-lookup"><span data-stu-id="101a0-105">Go to **Tax \> Declarations \> Withholding tax \> Withholding tax payment**.</span></span>
+
+    <span data-ttu-id="101a0-106">[![مربع الحوار دفع ضريبة الخصم](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)</span><span class="sxs-lookup"><span data-stu-id="101a0-106">[![Withholding tax payment dialog box](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)</span></span>
+
+2. <span data-ttu-id="101a0-107">في مربع الحوار **دفع ضريبة الخصم**، في الحقل **نوع الضريبة**، حدد **TDS**.</span><span class="sxs-lookup"><span data-stu-id="101a0-107">In the **Withholding tax payment** dialog box, in the **Tax type** field, select **TDS**.</span></span>
+3. <span data-ttu-id="101a0-108">في الحقل **رقم حساب الضريبة (TAN)**، حدد رقم حساب الضريبة (TAN) لتشغيل عملية التسوية له.</span><span class="sxs-lookup"><span data-stu-id="101a0-108">In the **Tax Account Number (TAN)** field, select the Tax Account Number (TAN) to run the settlement process for.</span></span>
+4. <span data-ttu-id="101a0-109">في الحقل **مجموعة مكون ضريبة الخصم**، حدد مجموعة مكون TDS لتشغيل عملية التسوية لها.</span><span class="sxs-lookup"><span data-stu-id="101a0-109">In the **Withholding tax component group** field, select the TDS component group to run the settlement process for.</span></span>
+5. <span data-ttu-id="101a0-110">في الحقل **فترة التسوية**، حدد فترة تسوية TDS لتشغيل عملية التسوية بها.</span><span class="sxs-lookup"><span data-stu-id="101a0-110">In the **Settlement period** field, select the TDS settlement period to run the settlement process for.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="101a0-111">يتم تشغيل عملية تسوية TDS لكافة الفترات التي يتم إعدادها لفترة تسوية TDS في علامة التبويب **الفترات** للصفحة **فترات تسوية ضريبة الخصم** (**الضريبة \> ضرائب غير مباشرة \> ضريبة الخصم \> فترات تسوية ضريبة الخصم**).</span><span class="sxs-lookup"><span data-stu-id="101a0-111">The TDS settlement process is run for all periods that are set up for the TDS settlement period on the **Periods** tab of the **Withholding tax settlement periods** page (**Tax \> Indirect taxes \> Withholding tax \> Withholding tax settlement periods**).</span></span>
+
+6. <span data-ttu-id="101a0-112">في الحقل **من تاريخ**، حدد تاريخ البدء لتشغيل عملية تسوية TDS به.</span><span class="sxs-lookup"><span data-stu-id="101a0-112">In the **From date** field, select the start date to run the TDS settlement process from.</span></span>
+
+    <span data-ttu-id="101a0-113">بالنسبة لفترة معينة في فترة التسوية، يتم أخذ تاريخ البدء المحدد للفترة كتاريخ "من".</span><span class="sxs-lookup"><span data-stu-id="101a0-113">For a specific period within the settlement period, the start date that is defined for the period is taken as the "from" date.</span></span> <span data-ttu-id="101a0-114">على سبيل المثال، تشتمل فترة تسوية TDS على فترتين: 1 إبريل وحتى 30 ابريل، 2009 و 1 مايو إلى 31 مايو، 2009.</span><span class="sxs-lookup"><span data-stu-id="101a0-114">For example, the TDS settlement period has two periods: April 1 through April 30, 2009, and May 1 through May 31, 2009.</span></span> <span data-ttu-id="101a0-115">إذا قمت بتحديد **04/06/2009** (6 إبريل، 2009) كتاريخ بدء في الحقل **من تاريخ**، فسيستمر تشغيل عمليى التسوية من 1 إبريل، 2009.</span><span class="sxs-lookup"><span data-stu-id="101a0-115">If you select **04/06/2009** (April 6, 2009) as the start date in the **From date** field, the settlement process will still run from April 1, 2009.</span></span>
+
+    <span data-ttu-id="101a0-116">إذا قمت بإدخال فترة لاحقة في الحقل **من تاريخ**، ولكن دون تسوية فترة سابقة في فترة التسوية، فإنه لن يتم إجراء التسوية لأية فترات سابقة.</span><span class="sxs-lookup"><span data-stu-id="101a0-116">If you enter a later period in the **From date** field, but without settling a previous period within the settlement period, the settlement won't occur for any previous periods.</span></span> <span data-ttu-id="101a0-117">على سبيل المثال، تشتمل فترة تسوية TDS على ثلاث فترات: 1 إبريل حتى 30 إبريل، 2009 و1 مايو حتى 31 مايو، 2009 و1 يونيو حتى 30 يونيو، 2009.</span><span class="sxs-lookup"><span data-stu-id="101a0-117">For example, the TDS settlement period has three periods: April 1 through April 30, 2009, May 1 through May 31, 2009, and June 1 through June 30, 2009.</span></span> <span data-ttu-id="101a0-118">إذا قمت بتحديد **05/01/2009** (1 مايو، 2009) كتاريخ بدء في الحقل **من تاريخ**، فإنه سيتم تشغيل عملية التسوية فقط من 1 مايو حتى 31 مايو، 2009.</span><span class="sxs-lookup"><span data-stu-id="101a0-118">If you select **05/01/2009** (May 1, 2009) as the start date in the **From date** field, the settlement process will run only from May 1 through May 31, 2009.</span></span> <span data-ttu-id="101a0-119">لن تحدث التسوية بعد 1 إبريل وحتى 30 إبريل، 2009.</span><span class="sxs-lookup"><span data-stu-id="101a0-119">The settlement won't occur for April 1 through April 30, 2009.</span></span>
+
+7. <span data-ttu-id="101a0-120">في الحقل **تاريخ الحركة**، حدد التاريخ المراد ترحيل حركة تسوية TDS به.</span><span class="sxs-lookup"><span data-stu-id="101a0-120">In the **Transaction date** field, select the date to post the TDS settlement transaction.</span></span>
+8. <span data-ttu-id="101a0-121">في الحقل **إصدار دفع ضريبة الخصم**، حدد إصدار تسوية TDS:</span><span class="sxs-lookup"><span data-stu-id="101a0-121">In the **Withholding tax payment version** field, select the TDS settlement version:</span></span>
+
+     - <span data-ttu-id="101a0-122">**الأصلي** – استخدم هذا الخيار لتشغيل عملية تسوية TDS لأول مرة.</span><span class="sxs-lookup"><span data-stu-id="101a0-122">**Original** – Use this option to run the TDS settlement process for the first time.</span></span> <span data-ttu-id="101a0-123">يتم استخدام إصدار الدفع الأصلي مرة واحدة فقط لتشغيل عملية تسوية TDS لمجموعة TAN ومجموعة مكون ضريبة الخصم وفترة تسوية ضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="101a0-123">The original payment version is used only one time to run the TDS settlement process for a combination of a TAN, a withholding tax component group, and a withholding tax settlement period.</span></span>
+    - <span data-ttu-id="101a0-124">**الإصدارات الأخيرة** – استخدم هذا الخيار إذا كان قد تم بالفعل تشغيل عملية تسوية TDS للفترة المحددة.</span><span class="sxs-lookup"><span data-stu-id="101a0-124">**Latest versions** – Use this option if the TDS settlement process has already been run for the specified period.</span></span> <span data-ttu-id="101a0-125">قم بتضمين الحركات ذات التواريخ السابقة التي يتم ترحيلها بعد تشغيل عملية التسوية مسبقًا للفترة.</span><span class="sxs-lookup"><span data-stu-id="101a0-125">Include back-dated transactions that were posted after the settlement process was previously run for the period.</span></span> <span data-ttu-id="101a0-126">يمكنك استخدام هذا الخيار لتشغيل عملية التسوية بأي عدد من المرات.</span><span class="sxs-lookup"><span data-stu-id="101a0-126">You can use this option to run the settlement process any number of times.</span></span>
+
+9. <span data-ttu-id="101a0-127">حدد خانة الاختيار **تحديث** لتشغيل عملية تسويه TDS وترحيل المبالغ إلى حسابات دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="101a0-127">Select the **Update** check box to run the TDS settlement process and post the amounts to the ledger accounts.</span></span> <span data-ttu-id="101a0-128">في حالة إلغاء تحديد خانة الاختيار هذه، فإنه لن يتم تشغيل عملية التسوية، ولن يتم إنشاء الإدخالات المالية.</span><span class="sxs-lookup"><span data-stu-id="101a0-128">If this check box is cleared, the settlement process won't be run, and the financial entries won't be generated.</span></span>
+10. <span data-ttu-id="101a0-129">حدد **موافق** لتشغيل عملية تسوية TDS وإنشاء تقرير دفع ضريبة الخصم.</span><span class="sxs-lookup"><span data-stu-id="101a0-129">Select **OK** to run the TDS settlement process and generate the withholding tax payment report.</span></span> <span data-ttu-id="101a0-130">يتم عرض حالة حركات TDS المضمنة في عملية التسوية على أنها **تمت تسويتها** على الصفحة **تسوية** (انتقل إلى **الحسابات الدائنة \> دفعات \> ‏‫دفتر يومية المدفوعات للمورد‬**، وحدد **البنود** وحدد **الوظائف**، ثم حدد **تسوية**).</span><span class="sxs-lookup"><span data-stu-id="101a0-130">The status of TDS transactions that are included in the settlement process is shown as **Settled** on the **Settlement** page (go to **Accounts payable \> Payments \> Vendor payment journal**, select **Lines**, select **Functions**, and then select **Settlement**).</span></span>
+
+### <a name="important-points"></a><span data-ttu-id="101a0-131">نقاط هامة</span><span class="sxs-lookup"><span data-stu-id="101a0-131">Important points</span></span>
+
+- <span data-ttu-id="101a0-132">إذا لم يتم تحديد مجموعة مكون ضريبة الخصم أثناء عملية التسوية، فإنه سيتم إجراء التسوية لكافة مجموعات مكونات ضريبة الخصم لـ TAN وفترة التسوية المحددة.</span><span class="sxs-lookup"><span data-stu-id="101a0-132">If a withholding tax component group isn't selected during the settlement process, the settlement occurs for all the withholding tax component groups for the selected TAN and settlement period.</span></span> <span data-ttu-id="101a0-133">يتم إنشاء بند منفصل لكل مجموعة مكون ضريبة الخصم في الصفحة **تحرير الحركة المفتوحة**.</span><span class="sxs-lookup"><span data-stu-id="101a0-133">A separate line is created for each withholding tax component group on the **Open transaction editing** page.</span></span>
+- <span data-ttu-id="101a0-134">تعتمد عملية التسوية على طبيعة فئة المقيم لفترة تسوية.</span><span class="sxs-lookup"><span data-stu-id="101a0-134">The settlement process is based on the nature of assessee category for a settlement period.</span></span> <span data-ttu-id="101a0-135">تتم تسوية الحركات التي تكون فيها طبيعة فئة المقيم هي **الشركة** وعرضها كبند واحد في الصفحة **تحرير الحركة المفتوحة**.</span><span class="sxs-lookup"><span data-stu-id="101a0-135">Transactions where the nature of assessee category is **Company** are settled and are shown as one line on the **Open transaction editing** page.</span></span> <span data-ttu-id="101a0-136">تتم تسوية الحركات التي تكون فيها طبيعة المقيم شيء آخر غير **الشركة** وعرضها كبند واحد في الصفحة **تحرير الحركة المفتوحة**.</span><span class="sxs-lookup"><span data-stu-id="101a0-136">Transactions where the nature of assessee is something other than **Company** are settled and are shown as one line on the **Open transaction editing** page.</span></span>
+- <span data-ttu-id="101a0-137">يستند تاريخ استحقاق بنود حركة TDS التي تمت تسويتها في الصفحة **تحرير الحركة المفتوحة** إلى شروط الدفع التي يتم تحديدها لمورد تخويل TDS على الصفحة **الموردون**.</span><span class="sxs-lookup"><span data-stu-id="101a0-137">The due date for the settled TDS transaction lines on the **Open transaction editing** page is based on the terms of payment that are defined for the TDS authority vendor on the **Vendors** page.</span></span> <span data-ttu-id="101a0-138">إذا لم يتم تحديد شروط الدفع لمورد هيئة TDS، فإنه سيتم عرض آخر يوم في فترة التسوية كتاريخ استحقاق.</span><span class="sxs-lookup"><span data-stu-id="101a0-138">If the terms of payments aren't defined for the TDS authority vendor, the last day of the settlement period is shown as the due date.</span></span>

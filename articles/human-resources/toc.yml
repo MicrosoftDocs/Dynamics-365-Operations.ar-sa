@@ -5,7 +5,9 @@
       items:
         - name: ‏‫الجديد أو المتغير في Human Resources
           href: hr-admin-whats-new.md
-        - name: 19 أبريل 2020
+        - name: 3 مايو 2021
+          href: hr-whats-new-2021-05-03.md
+        - name: 19 أبريل 2021
           href: hr-whats-new-2021-04-19.md
         - name: 5 أبريل 2021
           href: hr-whats-new-2021-04-05.md
@@ -333,7 +335,7 @@
               href: hr-developer-optimize-virtual-table-queries.md
             - name: ‏‫الأسئلة المتداولة حول الجداول الظاهرية في ‬‏‫Human Resources‬‏‫
               href: hr-admin-virtual-entity-faq.md
-        - name: مرجع API الكيان
+        - name: مرجع واجهة برمجة تطبيقات الكيان
           items:
             - name: المصادقة
               href: hr-developer-api-authentication.md
@@ -345,7 +347,7 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: إرسال طلب إجازة إلى سير العمل
                       href: hr-developer-api-myleaverequests-submit.md
-        - name: واجهة API لتكامل ATS
+        - name: واجهة برمجة تطبيقات تكامل ATS
           items:
             - name: مقدمة
               href: hr-admin-integration-ats-api-introduction.md
@@ -431,7 +433,7 @@
                   href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
                 - name: نوع مستوي المهارة
                   href: hr-admin-integration-ats-api-skill-level-type.md
-        - name: ‏‫واجهة API لتكامل كشف الرواتب
+        - name: ‏‫واجهة برمجة التطبيقات لتكامل كشف الرواتب
           items:
             - name: مقدمة
               href: hr-admin-integration-payroll-api-introduction.md
@@ -565,7 +567,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
                 - name: إنشاء قواعد تنبيه
                   href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
-                - name: المعالجة الدُفعية للتنبيهات
+                - name: معالجة الدُفعة للتنبيهات
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
