@@ -2,7 +2,6 @@
 title: ‏‫مقدمة إلى واجهة API لتكامل كشف الرواتب
 description: يصف هذا الموضوع واجهة API لتكامل كشف الرواتب في  Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 61b90c566325bb8d83b09fceebc721cfb14d3fc8
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 3a7be5ad42642de48ffdb2731a1300a953c5ede4
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891116"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022753"
 ---
 # <a name="payroll-integration-api-introduction"></a>‏‫مقدمة إلى واجهة API لتكامل كشف الرواتب
 
@@ -42,7 +41,7 @@ ms.locfileid: "5891116"
 لمزيد من المعلومات عن واجهة ويب Microsoft Dataverse، راجع:
 
 - [ما هو Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)
-- [استخدام  واجهة ويب Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)
+- [استخدام واجهة ويب Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)
 - [دليل مطور Microsoft Dataverse](/powerapps/developer/data-platform)
 
 تتضمن هذه الوثائق تفاصيل وإرشادات للمطور تتعلق باستخدام واجهة API الويب في Dataverse، بما في ذلك الموضوعات التالية:
@@ -80,6 +79,6 @@ ms.locfileid: "5891116"
 [تكوين معلمات Human Resources](hr-setup-parameters.md)<br>
 [تكوين المعلمات المشتركة لـ Human Resources](hr-setup-shared-parameters.md)<br>
 [ما هو Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)<br>
-[استخدام  واجهة ويب Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)<br>
+[استخدام واجهة ويب Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

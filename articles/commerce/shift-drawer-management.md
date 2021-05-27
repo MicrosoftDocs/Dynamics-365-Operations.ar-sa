@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d6fa36d7bb45e1cd9f8c3fbc1e60ac521f1f9b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d9d36bcb05cf466d34d921d8cd5266b6c12a63d7
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795443"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028241"
 ---
 # <a name="shift-and-cash-drawer-management"></a>إدارة الورديات وأدراج النقد
 
@@ -84,7 +84,7 @@ ms.locfileid: "5795443"
 
 ### <a name="tender-removal"></a>إزالة طريقة الدفع
 
-تٌعدعمليات *تحصيل النقدية* عبارة عن معاملات غير مبيعات يتم إجراؤها في وردية نشطة لتقليل مبلغ النقد في درج النقدية. غالبًا ما تُستخدم هذه العملية جنبًا إلى جنب مع عملية إدخال النثرية في وردية مختلفة. على سبيل المثال، لأن السجل 1 نفذ منه الفكة، يقوم المستخدم في السجل 2 بتحصيل النقدية لتقليل مبلغ درج النقدية. يقوم المستخدم في السجل 1 بإجراء إدخال نثرية لزيادة المبلغ في درج النقدية الخاص به.
+تٌعدعمليات *تحصيل النقدية* عبارة عن معاملات غير مبيعات يتم إجراؤها في وردية نشطة لتقليل مبلغ النقد في درج النقدية. غالبًا ما تُستخدم هذه العملية جنبًا إلى جنب مع عملية إدخال النثرية في وردية مختلفة. على سبيل المثال، لأن السجل 1 نفذ منه الفكة، يقوم المستخدم في السجل 2 بتحصيل النقدية لتقليل مبلغ درج النقدية لديه. يقوم المستخدم في السجل 1 بإجراء إدخال نثرية لزيادة المبلغ في درج النقدية الخاص به.
 
 ### <a name="suspend-shift"></a>تعليق الوردية
 
@@ -154,7 +154,7 @@ ms.locfileid: "5795443"
 
 يساعد هذا الإعداد على ضمان أن تتضمن كشوفات حسابات مكتب الدعم نفس الحركات كالورديات في نقطة البيع، وأن البيانات تم تلخيصها من خلال هذه الوردية.
 
-للحصول على مزيد من المعلومات حول كشف الحساب وأساليب الإقفال، راجع [تكوينات المتجر لكشف حساب البيع بالتجزئة](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+للحصول على مزيد من المعلومات حول كشف الحساب وأساليب الإقفال، راجع [تكوينات المتجر لكشف حساب البيع بالتجزئة](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

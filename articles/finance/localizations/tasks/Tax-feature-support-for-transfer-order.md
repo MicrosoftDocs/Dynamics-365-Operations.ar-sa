@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920945"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021359"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>دعم ميزة الضريبة لأوامر التحويل
 
@@ -41,7 +40,7 @@ ms.locfileid: "5920945"
 
 1. في صفحة **ميزات الضريبة**، في علامة التبويب **الإصدارات**، حدد إصدار ميزة مسودة، ثم حدد **تحرير**.
 
-    ![تحديد تحرير](../media/image1.png)
+    ![تحديد تحرير](../media/tax-feature-support-01.png)
 
 2. في صفحة **إعداد ميزات الضريبة**، في علامة التبويب **أكواد الضرائب**، وحدد **إضافة** لإنشاء أكواد ضريبة جديدة. في هذا المثال، يتم إنشاء ثلاثة أكواد ضريبية: **NL-Exempt**، و **BE-RC-21**، و **BE-RC+21**.
 
@@ -54,7 +53,7 @@ ms.locfileid: "5920945"
         4. حدد **إضافة** في جدول **المعدل**.
         5. قم بتبديل **معفى** إلى **نعم** في قسم **عام**.
 
-        ![كود ضريبة NL-Exempt](../media/image2.png)
+        ![كود ضريبة NL-Exempt](../media/tax-feature-support-02.png)
 
     - عند استلام أمر تحويل في مستودع بلجيكا، يتم تطبيق آلية الاحتساب العكسي باستخدام أكواد الضرائب **BE-RC-21** و **BE-RC+21**.
         
@@ -67,7 +66,7 @@ ms.locfileid: "5920945"
         6. قم بتبديل **رسوم عكسية** إلى **نعم** في قسم **عام**.
         7. حدد **حفظ**.
 
-        ![كود الضريبة BE-RC-21 للرسوم العكسية](../media/image3.png)
+        ![كود الضريبة BE-RC-21 للرسوم العكسية](../media/tax-feature-support-03.png)
         
         أنشئ كود الضريبة **BE-RC+21**.
         1. حدد **إضافة**، وأدخل **BE-RC-21** في حقل **كود الضريبة**.
@@ -77,7 +76,7 @@ ms.locfileid: "5920945"
         5. أدخل **21** في حقل **معدل الضريبة**.
         6. حدد **حفظ**.
 
-        ![كود الضريبة BE-RC+21 للرسوم العكسية](../media/image4.png)
+        ![كود الضريبة BE-RC+21 للرسوم العكسية](../media/tax-feature-support-04.png)
 
 3. حدد إمكانية تطبيق أكواد الضرائب.
 

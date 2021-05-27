@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb3555e6d923fe37479c3204f0b78f7cdf510118
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938410"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015941"
 ---
 # <a name="category-requests-from-vendors"></a>طلبات الفئات من الموردين
 
@@ -36,10 +36,7 @@ ms.locfileid: "5938410"
 
 قبل أن يتمكن المورد من التفاعل مع طلبات الفئات ، يجب إعداده لتعاون المورد.
 
-يجب أن يكون لدى المورد مستخدم واحد على الأقل لتعاون المورد. يمكن فقط لمستخدمي المورد الذين لديهم أحد أدوار الأمان التالية أو كلاهما إنشاء طلبات فئة وإرسالها:
-
-- جهة اتصال المورد (خارجية)
-- مسؤول المورد (خارجي)
+يجب أن يكون لدى المورد مستخدم واحد على الأقل لتعاون المورد. يمكن فقط لمستخدمي المورد الذين لديهم دور أمان *مسؤول المورد (خارجي)* إنشاء طلبات الفئات وإرسالها.
 
 لمزيد من المعلومات، راجع [إعداد وصيانة تعاون المورّد](set-up-maintain-vendor-collaboration.md).
 

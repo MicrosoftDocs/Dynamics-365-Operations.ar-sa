@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910415"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016996"
 ---
 # <a name="inventory-visibility-add-in"></a>الوظيفة الإضافية لرؤية المخزون
 
@@ -41,20 +41,23 @@ ms.locfileid: "5910415"
 
 للحصول على مزيد من المعلومات، راجع [موارد Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-### <a name="prerequisites"></a>المتطلبات الأساسية
+### <a name="inventory-visibility-add-in-prerequisites"></a>المتطلبات الأساسية للوظيفة الإضافية لرؤية المخزون
 
 قبل أن تتمكن من تثبيت الوظيفة الإضافية لرؤية المخزون، يجب عليك القيام بما يلي:
 
 - احصل علي مشروع تنفيذ LCS مع نشر بيئة واحده علي الأقل.
 - تأكد من اكتمال المتطلبات الأساسية لإعداد الوظائف الإضافية المتوفرة في [نظرة عامة على الوظائف الإضافية](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). لا تتطلب رؤية المخزون ارتباطًا ثنائي الكتابة.
 - تواصل مع فريق رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) للحصول على الملفات الثلاثة المطلوبة التالية:
-    - `Inventory Visibility Dataverse Solution.zip`
-    - `Inventory Visibility Configuration Trigger.zip`
-    - `Inventory Visibility Integration.zip` (إذا كان إصدار Supply Chain Management الذي تقوم بتشغيله أقدم من الإصدار 10.0.18)
+  - `Inventory Visibility Dataverse Solution.zip`
+  - `Inventory Visibility Configuration Trigger.zip`
+  - `Inventory Visibility Integration.zip` (إذا كان إصدار Supply Chain Management الذي تقوم بتشغيله أقدم من الإصدار 10.0.18)
+- بدلاً من ذلك، تواصل مع فريق رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) للحصول على حزم package deployer. يمكن استخدام هذه الحزم بواسطة أداة package deployer الرسمية.
+  - `InventoryServiceBase.PackageDeployer.zip`
+  - `InventoryServiceApplication.PackageDeployer.zip` (تحتوي هذه الحزمة علي كافة التغييرات في حزم  `InventoryServiceBase`، بالإضافة إلى مكونات إضافية لتطبيق واجهة المستخدم)
 - اتبع الإرشادات المذكورة في [تشغيل سريع: تسجيل تطبيق مع النظام الأساسي للهوية في Microsoft](/azure/active-directory/develop/quickstart-register-app) لتسجيل تطبيق وإضافة سر العميل ضمن اشتراكك في Azure.
-    - [تسجيل تطبيق](/azure/active-directory/develop/quickstart-register-app)
-    - [إضافة سر عميل](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-    - سيتم استخدام **معرف التطبيق (العميل)** و **سر العميل** و **معرف المستأجر** في الخطوات التالية.
+  - [تسجيل تطبيق](/azure/active-directory/develop/quickstart-register-app)
+  - [إضافة سر عميل](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+  - سيتم استخدام **معرف التطبيق (العميل)** و **سر العميل** و **معرف المستأجر** في الخطوات التالية.
 
 > [!NOTE]
 > تتضمن البلدان والمناطق المدعومة حاليًا كندا والولايات المتحدة والاتحاد الأوروبي (EU).
@@ -63,18 +66,49 @@ ms.locfileid: "5910415"
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>إعداد Dataverse
 
-اتبع هذه الخطوات لإعداد Dataverse.
+لإعداد Dataverse للاستخدام مع رؤية المخزون، يجب أولاً إعداد المتطلبات الأساسية ثم تحديد ما إذا كان سيتم إعداد Dataverse باستخدام إما أداة package deployer أو عن طريق استيراد الحلول يدويًا (ليس من الضروري القيام بكلاهما). ثم قم بتثبيت الوظيفة الإضافية لرؤية المخزون. تصف الأقسام الفرعية التالية كيفية إكمال كل مهمة من هذه المهام.
 
-1. إضافة مبدأ خدمة المستأجر الخاص بك:
+#### <a name="prepare-dataverse-prerequisites"></a>تحضير المتطلبات Dataverse الأساسية
 
-    1. قم بتثبيت Azure AD الوحدة النمطية PowerShell الإصدار 2 كما هو موضح في [تثبيت Azure Active Directory PowerShell للرسم البياني](/powershell/azure/active-directory/install-adv2).
-    1. قم بتشغيل الأمر PowerShell التالي.
+قبل البدء في إعداد Dataverse، قم بإضافة مبدأ الخدمة للمستأجر الخاص بك عن طريق القيام بما يلي:
 
-        ```powershell
-        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+1. قم بتثبيت Azure AD الوحدة النمطية PowerShell الإصدار 2 كما هو موضح في [تثبيت Azure Active Directory PowerShell للرسم البياني](/powershell/azure/active-directory/install-adv2).
 
-        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
-        ```
+1. قم بتشغيل الأمر PowerShell التالي:
+
+    ```powershell
+    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+    
+    New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+    ```
+
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>إعداد Dataverse باستخدام الأداة package deployer
+
+بعد الحصول على المتطلبات الأساسية، استخدم الإجراء التالي إذا كنت تفضل إعداد Dataverse باستخدام أداة package deployer. راجع القسم التالي للحصول على تفاصيل حول كيفية استيراد الحلول يدويًا بدلاً من ذلك (عدم القيام بكلاهما).
+
+1. قم بتثبيت أدوات المطور كما هو موضح في [أدوات التنزيل من NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
+
+1. وبناءً على متطلبات الأعمال، اختر الحزمة `InventoryServiceBase` أو `InventoryServiceApplication`.
+
+1. استيراد الحلول:
+    1. للحزمة `InventoryServiceBase`:
+        - إلغاء الضغط `InventoryServiceBase.PackageDeployer.zip`
+        - البحث عن المجلد `InventoryServiceBase` والملف `[Content_Types].xml` والملف `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll` والملف `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` والملف `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config`. 
+        - قم بنسخ كل من هذه المجلدات والملفات إلى الدليل `.\Tools\PackageDeployment`، والذي تم إنشاؤه عند تثبيت أدوات المطور.
+    1. للحزمة `InventoryServiceApplication`:
+        - إلغاء الضغط `InventoryServiceApplication.PackageDeployer.zip`
+        - البحث عن المجلد `InventoryServiceApplication` والملف `[Content_Types].xml` والملف `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll` والملف `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` والملف `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config`.
+        - قم بنسخ كل من هذه المجلدات والملفات إلى الدليل `.\Tools\PackageDeployment`، والذي تم إنشاؤه عند تثبيت أدوات المطور.
+    1. قم بتنفيذ `.\Tools\PackageDeployment\PackageDeployer.exe`. اتبع الإرشادات التي تظهر على الشاشة لاستيراد الحلول.
+
+1. قم بتعيين أدوار أمان لمستخدم التطبيق.
+    1. افتح عنوان URL الخاص ببيئة Dataverse الخاصة بك.
+    1. انتقل إلى **إعدادات متقدمة \> النظام \> الأمان \> المستخدمين**، والبحث عن مستخدم باسم **# InventoryVisibility**.
+    1. حدد **تعيين دور**، ثم حدد **مسؤول النظام**. إذا كان هناك دور يسمي **مستخدم Common Data Service**، فحدده أيضًا.
+
+#### <a name="set-up-dataverse-manually-by-importing-solutions"></a>إعداد Dataverse يدويًا عن طريق استيراد الحلول
+
+بعد الحصول على المتطلبات الأساسية، استخدم الإجراء التالي إذا كنت تفضل إعداد Dataverse عن طريق استيراد الحلول يدويًا. راجع القسم السابق للحصول على تفاصيل حول كيفية استخدام أداة package deployer بدلاً من (لا تقم بكلاهما).
 
 1. إنشاء مستخدم تطبيق لرؤية المخزون في Dataverse:
 

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798851"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020303"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>ملفات تعريف الشهادات المعرفة من قِبل المستخدمين لمتاجر البيع بالتجزئة
 
@@ -79,7 +79,7 @@ ms.locfileid: "5798851"
 - **شهادة المخزن الرئيسي** -هذا الحقل مطلوب إذا قمت بتعيين **حقل نوع الموقع** إلى **المخزن الرئيسي**. يتم استخدام ذلك لتعيين كلمه سر لشهادة المخزن الرئيسي.
 
     > [!NOTE]
-    > قبل استخدام شهادة المخزن الرئيسي في ملفات تعريف الشهادات، تاكد من تحميل شهادة إلى مساحة تخزين المخازن الرئيسية، ثم اتبع الإرشادات الموجودة في اعداد [عميل Azure Key Vault](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > قبل استخدام شهادة المخزن الرئيسي في ملفات تعريف الشهادات، تاكد من تحميل شهادة إلى مساحة تخزين المخازن الرئيسية، ثم اتبع الإرشادات الموجودة في اعداد [عميل Azure Key Vault](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **اسم المتجر** – هذا الحقل اختياري ولا يتوفر الا إذا قمت بتعيين حقل **نوع الموقع** إلى **شهادة محليه**. يتم استخدام ذلك لتحديد اسم المتجر الافتراضي الذي يجب استخدامه للبحث في الشهادات المحلية.
 - **موقع المتجر** – هذا الحقل اختياري ولا يتوفر الا إذا قمت بتعيين حقل **نوع الموقع** إلى **شهادة محليه**. يتم استخدام ذلك لتحديد موقع المتجر الافتراضي الذي يجب استخدامه للبحث في الشهادات المحلية.

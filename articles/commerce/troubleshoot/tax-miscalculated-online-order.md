@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f71add679e1d24f80db8ce3990058b591128ec1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7cef533d76bdddfbad2e8c5f84f81ef62bccc38
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801401"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021093"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>حساب الضرائب على الأوامر عبر الإنترنت بشكل غير صحيح
 
@@ -44,7 +43,7 @@ ms.locfileid: "5801401"
 1. في علامة التبويب السريعة **عام**، في قسم **ضريبة المبيعات**، قم بتكوين معلومات ضريبة المبيعات للمتجر.
 
 > [!NOTE]
-> بالنسبة لانتقاء المنتج من المتجر، تأتي مجموعة الضريبة من المتجر المحدد للالتقاط. لمزيد من المعلومات، راجع [تعيين خيارات ضريبة أخرى للمتاجر](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+> بالنسبة لانتقاء المنتج من المتجر، تأتي مجموعة الضريبة من المتجر المحدد للالتقاط. لمزيد من المعلومات، راجع [تعيين خيارات ضريبة أخرى للمتاجر](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
 ### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>تكوين ضريبة المبيعات لعنوان العميل في المركز الرئيسي لـ Commerce
 
@@ -68,7 +67,7 @@ ms.locfileid: "5801401"
 1. في علامة التبويب السريعة **الضرائب المستندة إلى وجهة البيع بالتجزئة**، قم بتكوين الضرائب لمجموعة ضريبة المبيعات.
 
 > [!NOTE]
-> بالنسبة للشحن الذي لا يتضمن ضريبة مبيعات على عنوان العميل، فإن عنوان تسليم البند والضرائب المستندة إلى الوجهة التي تم تكوينها لمجموعه الضريبة تحدد مجموعة الضريبة. لمزيد من المعلومات، راجع [‏‫إعداد الضرائب للمتاجر على الإنترنت مستندة إلى الوجهة‬](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
+> بالنسبة للشحن الذي لا يتضمن ضريبة مبيعات على عنوان العميل، فإن عنوان تسليم البند والضرائب المستندة إلى الوجهة التي تم تكوينها لمجموعه الضريبة تحدد مجموعة الضريبة. لمزيد من المعلومات، راجع [‏‫إعداد الضرائب للمتاجر على الإنترنت مستندة إلى الوجهة‬](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

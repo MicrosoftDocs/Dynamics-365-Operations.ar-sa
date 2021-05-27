@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d4bb8ce1abc07bc57e90e893e7e327761131d52a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795203"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028097"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>مسجل المهام ونظام التعليمات لكل من Retail Modern POS (MPOS) وCloud POS
 
@@ -129,13 +129,13 @@ ms.locfileid: "5795203"
 
 يظهر النص الذي تدخله في حقل **النص** *فوق* نص الخطوة في دليل المهام. يُعتبر هذا الموقع مناسبًا للنص الذي تريد أن يقرأه المستخدم قبل أن يكمل الخطوة.
 
-#### <a name="notes"></a>ملاحظات
+#### <a name="notes"></a>الملاحظات
 
 يظهر النص الذي تدخله في حقل **الملاحظات** *تحت* نص الخطوة في دليل المهام. لقراءة نص الملاحظة، يجب على المستخدم توسيع نص الخطوة في النافذة المنبثقة. يُعتبر هذا الموقع مناسبًا لمواد القراءة الاختيارية أو المعلومات الأخرى التي قد تكون مفيدة للمستخدم، ولكن المستخدم لا يحتاجها لإكمال الإجراء.
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>التعليمات في كل من Retail Modern POS وCloud POS
 
-لإظهار تسجيلات المهام المخصصة الخاصة بك في جزء التعليمات في Retail Modern POS وCloud POS بحيث يمكن عرضها كنص، يجب عليك حفظ تسجيلات المهام إلى مكتبة BPM، ثم تحديث محددات نظام التعليمات‬ بحيث تشير إلى مكتبة BPM. لمزيد من المعلومات، راجع [الاتصال بنظام التعليمات](../fin-and-ops/get-started/help-connect.md). يبحث نظام التعليمات في Retail Modern POS وCloud POS في LCS في‬ الوقت الحقيقي. وهو يبحث عبر كافة مكتبات BPM التي تم تحديدها في محددات نظام تعليمات Commerce ويعرض النتائج ذات الصلة. للوصول إلى القائمة **تعليمات**، انقر فوق الزر **تعليمات** (علامة الاستفهام) في الجزء العلوي من الشاشة، ثم اكتب اسم عمليتك في مربع البحث واضغط الزر بحث.
+لإظهار تسجيلات المهام المخصصة الخاصة بك في جزء التعليمات في Retail Modern POS وCloud POS بحيث يمكن عرضها كنص، يجب عليك حفظ تسجيلات المهام إلى مكتبة BPM، ثم تحديث محددات نظام التعليمات‬ بحيث تشير إلى مكتبة BPM. لمزيد من المعلومات، راجع [الاتصال بنظام التعليمات](../fin-ops-core/fin-ops/get-started/help-connect.md). يبحث نظام التعليمات في Retail Modern POS وCloud POS في LCS في‬ الوقت الحقيقي. وهو يبحث عبر كافة مكتبات BPM التي تم تحديدها في محددات نظام تعليمات Commerce ويعرض النتائج ذات الصلة. للوصول إلى القائمة **تعليمات**، انقر فوق الزر **تعليمات** (علامة الاستفهام) في الجزء العلوي من الشاشة، ثم اكتب اسم عمليتك في مربع البحث واضغط الزر بحث.
 
 [![الزر تعليمات](./media/help.jpg)](./media/help.jpg)
 

@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944403"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980938"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>أحمال عمل إدارة المستودعات لوحدات نطاق السحابة والحافة
 
@@ -58,7 +58,10 @@ ms.locfileid: "5944403"
   - **أوامر التحويل** (الصادرة فقط مع الانتقاء البسيط وعمل التحميل)
 
 - **بيانات إيصال أمر المستودع** - يتم استخدام هذه البيانات فقط لأوامر الشراء التي تم إصدارها إلى مستودع.
-- **بيانات لوح الترخيص** – يمكن إنشاء لوحات الترخيص في المركز ووحده المقياس. تم توفير معالجه التعارض المخصصة. لاحظ ان هذه البيانات ليست خاصه بالمستودع.
+- **بيانات لوح الترخيص** – يمكن إنشاء لوحات الترخيص في كل من المركز ووحدة المقياس. يتم توفير معالجة التعارض المخصصة. 
+
+    > [!IMPORTANT]
+    > لاحظ أن بيانات لوح الترخيص ليست خاصة بالمستودع. وفي حالة إنشاء رقم لوح الترخيص نفسه على كل من المركز ووحدة القياس أثناء نفس دورة المزامنة، ستفشل المزامنة التالية. في حالة حدوث ذلك، انتقل إلى **إدارة النظام > استعلامات > استعلامات حمل العمل > السجلات المكررة**، حيث يمكنك عرض البيانات ودمجها.
 
 ## <a name="outbound-process-flow"></a>تدفق العملية الصادرة
 
