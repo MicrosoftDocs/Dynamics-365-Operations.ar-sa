@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (أبريل 2021)
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: Finance 10.0.16 (فبراير 2021)
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -224,7 +222,7 @@
                   href: accounts-payable/vendor-copy.md
                 - name: تسجيل فاتورة مورّد في دفتر يومية الفواتير
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
-            - name: تدقيق الفواتير والبيانات الأساسية في الحسابات الدائنة
+            - name: مراجعة الفواتير والبيانات الأساسية في الحسابات الدائنة
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: سياسات المطابقة الثلاثية
               href: accounts-payable/three-way-matching-policies.md
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: تسوية دفعة عميل جزئية تحتوي على عدة فترات خصم
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: الدفعات المقدمة للعملاء‬
+                  href: accounts-receivable/customer-prepayments.md
                 - name: تعويض العملاء
                   href: accounts-receivable/reimburse-customers.md
                 - name: دفعات العميل لمبلغ جزئي
@@ -484,6 +484,8 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: إعداد وإنشاء معلومات تقادم الحسابات المدينة
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: لقطة تأخر العميل
+              href: accounts-receivable/customer-aging-snapshot.md
             - name: تقرير تقادم العميل
               href: accounts-receivable/customer-aging.md
             - name: إنشاء دفتر يومية شطب لعميل
@@ -512,6 +514,8 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: إنشاء موازنة من حسابات الحركات والحسابات الإجمالية
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: سرد خطة الموازنة
+              href: budgeting/budget-narrative.md
             - name: قوالب تخطيط الموازنة لـ Excel
               href: budgeting/budget-planning-excel-templates.md
             - name: توسيع مخطط تخطيط الموازنة
@@ -1138,14 +1142,24 @@
                       href: general-ledger/withholding-tax-in-sales-transactions.md
                     - name: إنشاء دفعة ضريبة خصم
                       href: general-ledger/create-a-withholding-tax-payment.md
-            - name: منضدة عمل التدقيق
+            - name: منضدة عمل المراجعة
               items:
-                - name: قواعد سياسة التدقيق
+                - name: قواعد سياسة المراجعة
                   href: general-ledger/audit-policy-rules.md
-                - name: انتهاكات سياسة التدقيق وحالاتها
+                - name: انتهاكات سياسة المراجعة وحالاتها
                   href: general-ledger/audit-policy-violations-cases.md
-                - name: تحديد سياسات التدقيق للمستندات المصدر
+                - name: تحديد سياسات المراجعة للمستندات المصدر
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: استكشاف الأخطاء وإصلاحها
+              items:
+                - name: تغيير عملة المحاسبة أو التقارير
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: تغيير تقويم دفتر الأستاذ أو إعادة تعيينه
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: عكس الإعدادات في دفاتر اليومية والبنود
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: إقفال نهاية السنة يفتقد إلى الأرصدة الافتتاحية
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: إعداد التقارير المالية
           items:
             - name: الشروع في العمل مع إعداد التقارير المالية
@@ -1648,8 +1662,16 @@
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: بيان ضريبة SPED-Reinf
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: نظرة عامة على SPED-Reinf
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: إعداد رسالة إلكترونية
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: إعداد الدفاتر المالية
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: الأحداث
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: الحل المالي SPED 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: SPED المالي 2020 - المعلومات التكميلية الخاصة بـ ICMS-ST لـ تخطيط SPED المالي 014
@@ -1782,6 +1804,8 @@
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: الأسئلة المتداولة حول فواتير عملاء ضريبة القيمة المضافة
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
+                - name: تصدير GB/T 24589-2010
+                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: جمهورية التشيك
               items:
                 - name: جمهورية التشيك
@@ -2038,8 +2062,18 @@
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: إيصالات الفواتير المرتبة زمنيًا
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: إنشاء ملف مراجعة قياسي لفرنسا (FEC)
-                  href: localizations/emea-fra-fec-audit-file.md
+                - name: ملف المراجعة لفرنسا
+                  items:
+                    - name: نظرة عامة على ملف المراجعة لفرنسا (FEC)
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: المتطلبات الأساسية لإنشاء ملف مراجعة FEC في فرنسا
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: بنية مصادر البيانات المالية لـ FEC
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: إعداد بيئتك لإنشاء FEC
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: إنشاء FEC في Dynamics 365 Finance
+                      href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: كشوف حسابات العملاء والموردين
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
                 - name: حساب الفائدة اليومية للتأخر في الدفع والمبلغ الإجمالي في الفاتورة وخطاب التحصيل
@@ -2392,6 +2426,84 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: تحويل عناصر رأس المال إلى الأصل الثابت
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: الضريبة الهندية المخصومة عند المصدر (TDS) في الهند
+                  items:
+                    - name: نظرة عامة على الضريبة الهندية المخصومة عند المصدر (TDS)
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: الإعداد الأساسي لـ TDS
+                      items:
+                        - name: إعداد معلمات TDS
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: إعداد حسايات دفتر أستاذ TDS
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: إعداد أرقام تسجيل TDS للكيانات القانونية
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: إعداد هيئات ضريبة الخصم لنوع ضريبة TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: إعداد مكونات الضريبة لنوع ضريبة TDS
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: إعداد رموز ضريبة الخصم لنوع ضريبة TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: إعداد فترات تسوية ضريبة الخصم لنوع ضريبة TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: إعداد رموز تقارير ضريبة الخصم لنوع ضريبة TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: إعداد رموز ضريبة الخصم لنوع ضريبة TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: إرفاق رموز ضريبة TDS بمجموعات ضرائب TDS وتحديد المعادلة لحساب TDS
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: تسجيل أرقام شهادات امتياز TDS
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: تعيين معلمات TDS في الحسابات الدائنة والحسابات المدينة
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: إعداد جداول الدفع باستخدام توزيع TDS
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: إعداد رسوم الدفع لمدفوعات هيئة TDS
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: إعداد معلومات مجموعه TDS وPAN وTAN للموردين والعملاء
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: مصمم المعادلة وعتبة الحد الأقصى لحساب TDS
+                      items:
+                        - name: مصمم المعادلة لعمليات حساب TDS
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: عتبة الحد الأقصى وحد عتبة الاستثناء
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: عملية حساب TDS في الفواتير
+                      items:
+                        - name: عملية حساب TDS في الفواتير
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: حساب TDS في الفواتير باستخدام دفاتر اليومية
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: حساب فواتير TDS باستخدام نموذج أمر شراء ونموذج أمر مبيعات
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: حساب TDS في الفواتير من صفحة فاتورة النص الحر
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: وظيفة تقسيم الفاتورة
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: حساب TDS في المدفوعات والسندات الإذنية
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: حساب TDS في الحركات بين الشركات الشقيقة
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: عملية تسوية TDS
+                      items:
+                        - name: حساب TDS في المدفوعات والسندات الإذنية
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: حساب TDS في الحركات بين الشركات الشقيقة
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: عملية تسوية TDS
+                          items:
+                            - name: إجراء عملية تسوية TDS الدورية
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: تسوية مدفوعات TDS إلى موردي هيئة TDS وإنشاء TDS challan
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: عرض مدفوعات TDS والحركات المرحلة لفترة تسوية TDS
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: تسجيل تواريخ وأرقام شهادات TDS وتحديثها
+                          items:
+                            - name: تسجيل أرقام شهادات TDS القابلة للاسترداد
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: تحديث أرقام وتواريخ الشهادات لحركات TDS
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: إيطاليا
               items:
                 - name: نظرة عامة على إيطاليا
@@ -4035,11 +4147,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                         - name: تحديث بنيه قالب مستند الأعمال
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/finance/toc.json
-            - name: API إطار عمل التقارير الإلكترونية
+            - name: واجهة برمجة تطبيقات إطار عمل التقارير الإلكترونية
               items:
                 - name: توسيع قائمة الوظائف المضمنة
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
-                - name: تغييرات API
+                - name: تغييرات واجهة برمجة التطبيقات
                   items:
                     - name: تحديث التطبيق 7.3
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json

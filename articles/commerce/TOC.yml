@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: تحسينات إدارة النقد
                       href: cash-mgmt.md
-                    - name: البحث عن المخزون في نقطة البيع
-                      href: product-variants-POS.md
                     - name: تعليق الحركات واستئنافها في نقطة البيع
                       href: pos-suspend-recall-transactions.md
                     - name: وظائف نقطة البيع دون اتصال
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: حساب توفر المخزون لقنوات البيع بالتجزئة
                       href: calculated-inventory-retail-channels.md
+                    - name: عملية البحث عن المخزون في نقطة البيع
+                      href: pos-inventory-lookup-operation.md
                 - name: أوامر الشراء
                   items:
                     - name: نظرة عامة على أمر الشراء
@@ -1970,11 +1970,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
                         - name: تحديث بنيه قالب مستند الأعمال
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/commerce/toc.json
-            - name: API إطار عمل التقارير الإلكترونية
+            - name: واجهة برمجة تطبيقات إطار عمل التقارير الإلكترونية
               items:
                 - name: توسيع قائمة الوظائف المضمنة
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
-                - name: تغييرات API
+                - name: تغييرات واجهة برمجة التطبيقات
                   items:
                     - name: تحديث التطبيق 7.3
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
@@ -2154,7 +2154,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: إنشاء قواعد تنبيه
                   href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/commerce/toc.json
-                - name: المعالجة الدُفعية للتنبيهات
+                - name: معالجة الدُفعة للتنبيهات
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/commerce/toc.json
                 - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/commerce/toc.json
@@ -2266,7 +2266,7 @@
                       href: e-commerce-extensibility/platform-settings.md
                     - name: توسيع تعريف الوحدة
                       href: e-commerce-extensibility/extend-module-definition.md
-                    - name: نظرة عامة حول API ملفات تعريف الارتباط
+                    - name: نظرة عامة حول واجهة برمجة تطبيقات ملفات تعريف الارتباط
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: نظرة عامة حول المكونات التفاعلية
                       href: e-commerce-extensibility/interactive-components.md
@@ -2292,9 +2292,9 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: إجراءات البيانات الأساسية
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: استدعاء واجهات Retail Server API
+                    - name: استدعاء واجهات برمجة تطبيقات Retail Server
                       href: e-commerce-extensibility/call-retail-server-apis.md
-                    - name: استدعاء واجهات API لملحق Retail Server
+                    - name: استدعاء واجهات برمجة التطبيقات لملحق Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
                 - name: مواضيع إجراءات البيانات المتقدمة
                   items:
@@ -2396,7 +2396,7 @@
                   href: dev-itpro/pos-custom-control.md
                 - name: إضافة عمليات نقطة البيع إلى مخططات نقطة البيع باستخدام مصمم شبكة الأزرار
                   href: dev-itpro/add-POS-operations.md
-                - name: واجهات API لنقطة البيع
+                - name: واجهات برمجة التطبيقات لنقطة البيع
                   href: dev-itpro/POS-APIs.md
                 - name: ملحق دفع نقطة البيع
                   href: dev-itpro/pos-payment-extension.md
@@ -2426,7 +2426,7 @@
                   href: dev-itpro/pos-custom-transaction.md
                 - name: إضافة أعمدة مخصصة إلى شبكة حركة نقطة البيع
                   href: dev-itpro/pos-custom-transaction-column.md
-                - name: استدعاء واجهات أو عمليات API لنقطة البيع من ملحقات نقطة البيع
+                - name: استدعاء واجهات برمجة تطبيقات أو عمليات لنقطة البيع من ملحقات نقطة البيع
                   href: dev-itpro/pos-api-extension.md
                 - name: مشغلات نقطة البيع
                   href: dev-itpro/pos-trigger-printing.md
@@ -2448,23 +2448,47 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: إنشاء مشروع حزمة توسيع نقطة البيع
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: إنشاء ملف appx لتوسيع Modern POS
+                    - name: إنشاء ملف appx. لحزمة توسيع Modern POS
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: تصحيح توسيع نقطة البيع
+                    - name: تصحيح عمليات توسيع نقطة البيع
                       href: dev-itpro/pos-extension/debug-pos-extension.md
-            - name: قابلية توسعة Hardware Station
+                    - name: حزم التوسيع وتوزيعه
+                      items:
+                        - name: إنشاء حزمة توسيع Modern POS
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: رمز توقيع حزمة توسيع Modern POS ‏(MSIX)
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: إنشاء حزمة توسيع نقطة بيع سحابة
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: ترحيل توسيع نقطة البيع إلى نموذج التعبئة المستقل
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: دليل تطوير توسيع نقطة البيع
+                      items:
+                        - name: أساسيات توسيع نقطة البيع
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: إنشاء طريقة عرض مخصصة في نقطة البيع
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: استخدام عناصر تحكم نقطة البيع في التوسيعات
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: المهام
+                          items:
+                            - name: استخدام Knockout.js في توسيعات نقاط البيع
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: استهلاك واجهات برمجة تطبيقات Commerce مخصصة بلا عنوان
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
+            - name: قابلية توسيع Hardware Station
               items:
-                - name: Hardware Station وقابلية التوسعة
+                - name: Hardware Station وقابلية التوسيع
                   href: dev-itpro/hardware-station-extensibility.md
                 - name: دمج نقطة بيع مع جهاز جديد
                   href: dev-itpro/hardware-device-extension.md
             - name: قابلية توسعة Retail Server
               items:
-                - name: عميل Commerce Scale Unit وواجهات API للمستهلكين
+                - name: عميل Commerce Scale Unit وواجهات برمجة التطبيقات للمستهلكين
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: إنشاء واجهة API جديدة لملحق Retail Server (الإصدار 10.0.11 والإصدارات اللاحقة من Retail SDK)
+                - name: إنشاء واجهة برمجة تطبيقات جديدة لملحق Retail Server (الإصدار 10.0.11 والإصدارات اللاحقة من Retail SDK)
                   href: dev-itpro/retail-server-icontroller-extension.md
-                - name: إنشاء واجهة API جديدة لملحق Retail Server (الإصدار 10.0.11 والإصدارات السابقة من Retail SDK)
+                - name: إنشاء واجهة برمجة تطبيقات جديدة لملحق Retail Server (الإصدار 10.0.11 والإصدارات السابقة من Retail SDK)
                   href: dev-itpro/retail-server-extension.md
                 - name: وكلاء Retail Typescript وC#
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2500,7 +2524,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: تسجيل أحداث الملحق في Application Insights
                   href: dev-itpro/commerce-application-insights.md
-                - name: إنشاء واجهات API غير متزامنة لـ Commerce (CRT) في منطق أعمالك
+                - name: إنشاء واجهات برمجة تطبيقات غير متزامنة لـ Commerce (CRT) في منطق أعمالك
                   href: dev-itpro/async-commerce-extension.md
                 - name: الأعمدة الموسعة مسبقًا في قاعدة بيانات القناة
                   href: dev-itpro/extended-columns.md
