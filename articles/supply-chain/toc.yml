@@ -72,7 +72,9 @@
                   items:
                     - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.19 (يوليو 2021)
+                    - name: Supply Chain Management 10.0.20 (يوليو 2021)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (يونيو 2021)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (مايو 2021)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,7 +389,7 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: إعداد أوامر العمل
               items:
-                - name: فئات أنواع مهام الصيانة وأنواع مهام الصيانة، ومتغيرات أنواع مهام الصيانة، ومهن مهام الصيانة، وقوائم فحص الصيانة
+                - name: أنواع وظيفة الصيانة والفئات والمتغيرات والمهن وقوائم الاختيار
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: حالات دورة حياة أمر العمل
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسين تتبع نتائج التقارير الإلكترونية (ER) لمقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -1863,7 +1865,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء قواعد تنبيه
                   href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/supply-chain/toc.json
-                - name: معالجة الدُفعة للتنبيهات
+                - name: المعالجة الدُفعية للتنبيهات
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,7 +2227,9 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: الإصدارات الهندسية وفئات المنتجات الهندسية
               href: engineering-change-management/engineering-versions-product-category.md
-            - name: تفعيل إدارة التغيير على المنتجات الحالية
+            - name: إدارة التغييرات في المعادلات والمكونات الخاصة بها
+              href: engineering-change-management/manage-formula-changes.md
+            - name: تمكين إدارة التغيير على المنتجات الحالية
               href: engineering-change-management/change-management-existing-products.md
             - name: حالة دورة حياة المنتج وحركاتها
               href: engineering-change-management/product-lifecycle-state-transactions.md
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: التسلسل الرقمي الموحد لمعرفات الوظائف
               href: production-control/unified-job-ids.md
+            - name: استدعاء تدفقات أتمتة العمليات لإنشاء أوامر الجودة
+              href: production-control/process-automation-quality-orders.md
             - name: التصنيع المنفصل
               items:
                 - name: الاحتفاظ بالبيانات الرئيسية للإنتاج
@@ -2333,11 +2339,11 @@
                           href: production-control/production-floor-execution-configure.md
                         - name: تصميم واجهة تنفيذ صالة الإنتاج
                           href: production-control/production-floor-execution-tabs.md
-                        - name: إعداد جهاز لتشغيل واجهة تنفيذ صالة الإنتاج‬ واستخدامها
+                        - name: إعداد جهاز لتشغيل واجهة تنفيذ طابق الإنتاج
                           href: production-control/production-floor-execution-setup.md
-                        - name: طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬ واستخدامها
+                        - name: طريقة استخدام العمال لواجهة تنفيذ طابق الإنتاج
                           href: production-control/production-floor-execution-use.md
-                        - name: أنماط التحكم في واجهة المستخدم لتنفيذ صالة الإنتاج
+                        - name: تنميط واجهة تنفيذ طابق الإنتاج
                           href: production-control/production-floor-execution-styles.md
                     - name: تكوين بطاقة وظيفة للأجهزة
                       href: production-control/config-job-card-device.md
@@ -3139,11 +3145,11 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: تكوين سياسات دمج الشحنات
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: السيناريو 1 - دمج الشحنات عند إصدارها إلى المستودع باستخدام الإصدار التلقائي لأوامر المبيعات
+                    - name: السيناريو 1 - دمج الشحنات التي تم إصدارها إلى المستودع باستخدام الإصدار التلقائي لأوامر المبيعات
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: السيناريو 2 - دمج الشحنات عند تجاوز سياسة دمج الشحنات من صفحة الإصدار إلى مستودع
+                    - name: السيناريو 2 - دمج الشحنات عند تجاوز سياسة دمج الشحنات
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: السيناريو 3 - دمج الشحنات باستخدام الإصدار إلى مستودع من منضدة عمل تخطيط الحمل
+                    - name: السيناريو 3 - دمج الشحنات من خلال الإصدار إلى مستودع من منضدة عمل تخطيط الحِمل
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: السيناريو 4 - دمج الشحنات باستخدام منضدة عمل دمج الشحنات
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3297,13 +3303,15 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق إدارة المستودع للأجهزة المحمولة
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: تكوين الحقول لتطبيق إدارة المستودع للأجهزة المحمولة
+                    - name: تكوين الحقول لتطبيق Warehouse Management للأجهزة المحمولة
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: إعداد الأجهزة المحمولة لعمل المستودع
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: معالجه حدث تطبيق المستودع
+                    - name: تعيين رموز الخطوات والعناوين
+                      href: warehousing/step-icons-titles.md
+                    - name: معالجة حدث تطبيق المستودع
                       href: warehousing/warehouse-app-events.md
-                    - name: استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة
+                    - name: استلام لوحة الترخيص‬ عبر تطبيق Warehouse Management للأجهزة المحمولة
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3357,39 +3365,43 @@
               items:
                 - name: حركات مخزون متعددة لأرقام الدُفعات دون "عند التحديث الفعلي"
                   href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: يؤدي عكس تقرير كمنتهٍ إلى إنشاء حركة مفتوحة غير متوقعة
+                - name: يؤدي عكس تقرير باعتباره منتهيًا إلى إنشاء حركة مفتوحة غير متوقعة
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: يتعذر إظهار الملاحظات الجديدة المرفقة بدفتر يومية في تقرير قائمة الانتقاء
+                - name: تقرير قائمة الانتقاء لا يعرض ملاحظات جديدة مرفقة بدفتر يومية
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: لا يتم تحديث الكمية في أمر العزل الذي بدأ عند تقسيم الأمر
                   href: troubleshooting/inventory/quantity-on-a-start.md
                 - name: لا يتم تحديث حقل "تاريخ آخر اختبار" عند إنشاء أوامر جودة متعددة
                   href: troubleshooting/inventory/the-field-last-test.md
-                - name: عند تقسيم كمية وزن التعبئة، يتم استخدام الحد الأدنى بدلاً من الكمية الاسمية
+                - name: عند تقسيم كمية وزن التعبئة، يتم استخدام أدنى حد من الكمية بدلاً من الكمية الاسمية
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: التخطيط الرئيسي
               items:
                 - name: تتم معالجة الطلبات المؤكدة المشتقة مباشرةً من خلال سير عمل قيد المراجعة
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: لا يمكنك تصفية عناصر التخطيط الرئيسي حسب قيم مجموعة التغطية المرتبطة بها
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: التخطيط الرئيسي يقوم بإنشاء أوامر مخططة للمنتجات الوهمية
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: تم إنشاء أمر الشراء المخطط عند وجود عملية شراء في غضون أيام سلبية
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: يتعذر تحميل سعر التكلفة في إدخالات التنبؤ بالطلب
+                - name: لا يمكن تحديث تكلفة الوحدة المتوقعة عند استيراد سجلات التنبؤ بالطلب
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: تتعذر إزالة بُعد التنبؤ بطلب المستودع من بنود التنبؤ
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: تمت مطالبتك بحفظ إعدادات تغطية الصنف حتى إذا لم تقم بإجراء أي تغييرات.
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: التدبير
               items:
-                - name: يتعذر إصدار فاتورة لأمر مبيعات موجه للعميل في شركة VEL
+                - name: لا يمكنك فوترة أمر مبيعات موجه للعملاء
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: تتعذر إضافة بند إلى طلب شراء بعد طلب تغيير
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: إدارة معلومات المنتج
               items:
-                - name: يتعذر تطبيق قالب لإنشاء منتج صادر
+                - name: لا يمكنك تطبيق قالب لإنشاء منتج صادر
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: يتعذر استيراد صنف باستخدام كيان المنتجات الصادرة V2
+                - name: لا يمكنك استيراد صنف باستخدام كيان المنتجات الصادرة V2
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: لا تعرض أوامر الشراء نص المنتج المترجم
                   href: troubleshooting/products/when-the-customer-ad.md
@@ -3401,11 +3413,11 @@
                   href: troubleshooting/production/when-customer-is-try.md
                 - name: لا تتم مراعاة التحديد المتأخر عند إعادة تعيين أوامر الإنتاج عبر وظيفة الدُفعة
                   href: troubleshooting/production/late-selection-is-no.md
-                - name: يستطيع المستخدمون إلغاء انتقاء بنود المواد للمنتجات التي تم الإبلاغ عنها كمنتهية
+                - name: يستطيع المستخدمون إلغاء انتقاء بنود المواد للمنتجات التي تم الإبلاغ عنها باعتبارها منتهية
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: خطأ في ترحيل التقرير كدفتر يومية منتهٍ
+                - name: حدث خطأ عندما تم ترحيل دفتر يومية التقرير باعتباره منتهيًا
                   href: troubleshooting/production/posting-report-as-.md
-                - name: لم يتم تحديث المستودع الموجود في دفتر يوميه قائمة الانتقاء في بند BOM
+                - name: لم يتم تحديث المستودع الموجود في دفتر يومية قائمة الانتقاء في بند BOM
                   href: troubleshooting/production/the-warehouse-in-pic.md
             - name: إدارة الخصومات
               items:
@@ -3423,11 +3435,11 @@
               items:
                 - name: يحدث خطأ عند اختيار الموقع أثناء تسجيل قائمة الانتقاء
                   href: troubleshooting/warehousing/error-cannot-update.md
-                - name: لا تعرض محطة التعبئة ملاحظات المنتج
+                - name: لا تُظهر محطة التعبئة ملاحظات المنتج
                   href: troubleshooting/warehousing/packing-station-not-.md
                 - name: لا يسمح ملف تعريف الموقع بالمخزون السالب، ولكن يتم السماح بالكمية المتاحة السالبة
                   href: troubleshooting/warehousing/location-profile-set.md
-                - name: تتم طباعة تسمية واحدة فقط لرؤوس العمل المتعددة في إيصال واحد
+                - name: تتم طباعة تسمية واحدة لرؤوس العمل المتعددة في إيصال واحد
                   href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: لا يمكنك تأكيد شحنة بسبب مشكلة في التقويم
                   href: troubleshooting/warehousing/load-has-active-appo.md
@@ -3443,7 +3455,7 @@
                   href: troubleshooting/warehousing/quantity-exceeds-und.md
                 - name: آخر بند عمل مقفل يجب أن يكون "وضع"
                   href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: حقول الوزن على بنود التحميل لا تتطابق مع حقول الوزن عند التحميل
+                - name: حقول الوزن على بنود حمل العمل لا تتطابق مع حقول الوزن على حمل العمل
                   href: troubleshooting/warehousing/the-weight-fields-on.md
                 - name: الموجة غير مؤهلة للتنظيف
                   href: troubleshooting/warehousing/wave-is-not-eligible.md
@@ -3453,7 +3465,7 @@
                   href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
                 - name: لا يمكن إلغاء العمل بسبب الحالة
                   href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: لم يتم حظر العمل
+                - name: العمل غير محظور
                   href: troubleshooting/warehousing/work-is-not-blocked.md
                 - name: العمل لا يزال محظورًا
                   href: troubleshooting/warehousing/work-remains-blocked.md

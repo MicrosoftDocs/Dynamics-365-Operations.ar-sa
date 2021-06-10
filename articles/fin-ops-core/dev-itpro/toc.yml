@@ -12,9 +12,11 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
-                - name: الجديد أو المتغير‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
+                - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
-                - name: تحديثات النظام الأساسي لـ 10.0.19 (يوليو 2021)
+                - name: تحديثات النظام الأساسي للإصدار 10.0.20 (يوليو 2021)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: تحديثات النظام الأساسي لـ 10.0.19 (يونيو 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: تحديثات النظام الأساسي لـ 10.0.18 (مايو 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: المزايا الجديدة أو المتغيرة في Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: الميزات المزالة أو المهملة في Lifecycle Services ‏(LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: دليل مستخدم Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: إعداد مشروع
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: إدارة دورة حياة التطبيق
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: مالك الفريق المحدد من قبل المستخدم
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: إلغاء ربط البيئات ثنائية الكتابة وإعادة ربطها
+                      href: data-entities/dual-write/relink-environments.md
                 - name: تعيين المفاهيم بين التطبيقات
                   items:
                     - name: أصل العميل المتكامل
@@ -1166,13 +1170,15 @@
               items:
                 - name: نظرة عامة حول الوظائف الإضافية
                   href: power-platform/add-ins-overview.md
+            - name: النهج والاتصالات
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: النظام الأساسي للأجهزة المحمولة‬
           items:
             - name: موارد النظام الأساسي للأجهزة المحمولة‬
               href: mobile-apps/platform/mobile-platform-home-page.md
             - name: الشروع في العمل
               items:
-                - name: الشروع في العمل مع النظام الأساسي للأجهزة المحمولة
+                - name: الشروع في العمل من خلال النظام الأساسي للأجهزة المحمولة
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: اعتبارات العمارة والتصميم
                   href: mobile-apps/platform/mobile-platform-architecture.md

@@ -3,8 +3,10 @@
   items:
     - name: الميزات الجديدة
       items:
-        - name: ‏‫الجديد أو المتغير في Human Resources
+        - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 مايو 2021
+          href: hr-whats-new-2021-05-20.md
         - name: 3 مايو 2021
           href: hr-whats-new-2021-05-03.md
         - name: 19 أبريل 2021
@@ -785,9 +787,15 @@
           items:
             - name: نظرة عامة حول إدارة الأداء
               href: hr-develop-performance-management-overview.md
-            - name: انسجام مهارات القوى العاملة
-              href: hr-develop-skills.md
-            - name: أضافه إلى دفتر يومية الأداء
+            - name: المهارات
+              items:
+                - name: تكوين المهارات
+                  href: hr-develop-skills.md
+                - name: إدخال المهارات
+                  href: hr-develop-enter-skills.md
+                - name: تعيين المهارات
+                  href: hr-develop-map-skills.md
+            - name: إضافة إلى دفتر يومية الأداء
               href: hr-develop-add-performance-journal.md
             - name: إنشاء هدف
               href: hr-develop-create-goal.md

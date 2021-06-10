@@ -92,9 +92,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: المزايا الجديدة أو المتغيرة في Commerce
                   items:
-                    - name: الجديد أو المتغير في صفحة Commerce الرئيسية
+                    - name: الجديد أو المتغير في الصفحة الرئيسية لـ Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.19 (يوليو 2021)
+                    - name: Commerce 10.0.20 (يوليو 2021)
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: Commerce 10.0.19 (يونيو 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (مايو 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -554,11 +556,13 @@
                       href: add-qr-code-barcode-email.md
                 - name: إدارة خرائط Bing لمؤسستك
                   href: dev-itpro/manage-bing-maps.md
-                - name: إنشاء فترات زمنية لاستلام العميل للمنتج وتحديثها
+                - name: إنشاء فترات زمنية لاستلام العميل للمنتجات وتحديثها
                   href: dev-itpro/pickup-timeslots.md
+                - name: تكوين قيم أبعاد المنتج لتظهر في صورة عينات
+                  href: dev-itpro/dimensions-swatch.md
         - name: الترويج التجاري لمنتجاتك وخدماتك
           items:
-            - name: المنتجات والفئات والفرز
+            - name: المنتجات والفئات ومجموعات الفرز
               items:
                 - name: نظرة عامة على معلومات المنتجات
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
@@ -928,10 +932,12 @@
                   href: search-engine-optimization-considerations.md
                 - name: إدارة سياسة أمان المحتوى (CSP)
                   href: manage-csp.md
-                - name: الانسحاب من مجموعة أحداث نشاط الويب
+                - name: إلغاء الاشتراك من مجموعة أحداث نشاط الويب
                   href: web-activity-opt-out.md
                 - name: تطبيق إعدادات وحدة القياس
                   href: unit-of-measure.md
+                - name: تطبيق إعدادات العرض لأبعاد المنتج
+                  href: dimension-settings.md
             - name: إدارة محتوى موقعك
               items:
                 - name: طرق إضافة المحتوى
@@ -1206,7 +1212,7 @@
               href: store-performance-information.md
             - name: ‏‫إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM)‬
               href: set-up-rfm-analysis.md
-            - name: إعداد Microsoft Clarity في Dynamics 365 Commerce
+            - name: إعداد Microsoft Clarity في Dynamics 36 Commerce
               href: set-up-clarity.md
         - name: العولمة
           items:
@@ -1946,7 +1952,7 @@
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسين تتبع نتائج التقارير الإلكترونية (ER) لمقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2154,7 +2160,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: إنشاء قواعد تنبيه
                   href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/commerce/toc.json
-                - name: معالجة الدُفعة للتنبيهات
+                - name: المعالجة الدُفعية للتنبيهات
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/commerce/toc.json
                 - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/commerce/toc.json
@@ -2256,17 +2262,19 @@
                       href: e-commerce-extensibility/create-page-containers.md
                     - name: ترجمة وحدة
                       href: e-commerce-extensibility/localize-module.md
-                - name: مواضيع الوحدات المتقدمة
+                - name: موضوعات الوحدات المتقدمة
                   items:
                     - name: كائن خصائص الطلب
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: إعدادات التطبيقات
                       href: e-commerce-extensibility/app-settings.md
+                    - name: تكوين إعدادات التكوين العمومية لمنشئ الموقع استنادًا إلى الميزات الممكنة
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: ملف إعدادات النظام الأساسي
                       href: e-commerce-extensibility/platform-settings.md
                     - name: توسيع تعريف الوحدة
                       href: e-commerce-extensibility/extend-module-definition.md
-                    - name: نظرة عامة حول واجهة برمجة تطبيقات ملفات تعريف الارتباط
+                    - name: نظرة عامة على API لملفات تعريف الارتباط
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: نظرة عامة حول المكونات التفاعلية
                       href: e-commerce-extensibility/interactive-components.md
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: تغييرات التطوير وALM من الإصدار 10.0.10 إلى 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
+                - name: إعداد مسار بناء لـ SDK للتعبئة المستقلة
+                  href: dev-itpro/build-pipeline.md
                 - name: دمج أنظمة البناء لـ Commerce وFinance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: ترحيل Retail SDK من Visual Studio 2015 إلى Visual Studio 2017
@@ -2386,6 +2396,8 @@
               items:
                 - name: تخطيطات شاشة نقطة البيع
                   href: pos-screen-layouts.md
+                - name: تطبيق Store Commerce في Microsoft Dynamics 365 Commerce
+                  href: dev-itpro/store-commerce.md
                 - name: فتح عنوان URL في نقطة البيع
                   href: Open-URL-in-POS.md
                 - name: تثبيت مصمم تخطيط نقطة البيع
