@@ -7,31 +7,30 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4adab0225190b4dea5213dccf297eaab33efc863
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c0da21c0074468c5942bf853df701151ef7ee95
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021310"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055066"
 ---
-# <a name="generate-payroll-entities"></a><span data-ttu-id="2ddd4-103">إنشاء كيانات كشف الرواتب</span><span class="sxs-lookup"><span data-stu-id="2ddd4-103">Generate payroll entities</span></span>
+# <a name="generate-payroll-entities"></a><span data-ttu-id="aaeff-103">إنشاء كيانات كشف الرواتب</span><span class="sxs-lookup"><span data-stu-id="aaeff-103">Generate payroll entities</span></span>
 
-<span data-ttu-id="2ddd4-104">استخدم وظيفة OData لإنشاء الكيانات المطلوبة لتكامل كشف الرواتب.</span><span class="sxs-lookup"><span data-stu-id="2ddd4-104">Use this OData function to generate the entities needed for payroll integration.</span></span> <span data-ttu-id="2ddd4-105">في حالة إجراء أي تغييرات على هذه الكيانات في Human Resources، مثل إضافة حقول مخصصة، يمكن استدعاء هذه الوظيفة مرة أخرى لتحديث بيانات التعريف الخاصة بكل كيان.</span><span class="sxs-lookup"><span data-stu-id="2ddd4-105">If any changes are made to these entities in Human Resources, such as adding custom fields, this function can be called again to refresh the metadata of each entity.</span></span> <span data-ttu-id="2ddd4-106">يحتوي الرد على معرف العملية الذي يمكنك مراقبته لمعرفة متى تم إكمال عملية الإنشاء.</span><span class="sxs-lookup"><span data-stu-id="2ddd4-106">The response contains an operation ID that you can monitor so you know when the generation process has completed.</span></span>
+<span data-ttu-id="aaeff-104">استخدم وظيفة OData لإنشاء الكيانات المطلوبة لتكامل كشف الرواتب.</span><span class="sxs-lookup"><span data-stu-id="aaeff-104">Use this OData function to generate the entities needed for payroll integration.</span></span> <span data-ttu-id="aaeff-105">في حالة إجراء أي تغييرات على هذه الكيانات في Human Resources، مثل إضافة حقول مخصصة، يمكن استدعاء هذه الوظيفة مرة أخرى لتحديث بيانات التعريف الخاصة بكل كيان.</span><span class="sxs-lookup"><span data-stu-id="aaeff-105">If any changes are made to these entities in Human Resources, such as adding custom fields, this function can be called again to refresh the metadata of each entity.</span></span> <span data-ttu-id="aaeff-106">يحتوي الرد على معرف العملية الذي يمكنك مراقبته لمعرفة متى تم إكمال عملية الإنشاء.</span><span class="sxs-lookup"><span data-stu-id="aaeff-106">The response contains an operation ID that you can monitor so you know when the generation process has completed.</span></span>
 
-<span data-ttu-id="2ddd4-107">**الطلب**</span><span class="sxs-lookup"><span data-stu-id="2ddd4-107">**Request**</span></span>
+<span data-ttu-id="aaeff-107">**الطلب**</span><span class="sxs-lookup"><span data-stu-id="aaeff-107">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 ```
 
-<span data-ttu-id="2ddd4-108">**النص الأساسي**</span><span class="sxs-lookup"><span data-stu-id="2ddd4-108">**body**</span></span>
+<span data-ttu-id="aaeff-108">**النص الأساسي**</span><span class="sxs-lookup"><span data-stu-id="aaeff-108">**body**</span></span>
 
 ```json
 {
@@ -39,7 +38,7 @@ GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 }
 ```
 
-<span data-ttu-id="2ddd4-109">**استجابة**</span><span class="sxs-lookup"><span data-stu-id="2ddd4-109">**Response**</span></span>
+<span data-ttu-id="aaeff-109">**استجابة**</span><span class="sxs-lookup"><span data-stu-id="aaeff-109">**Response**</span></span>
 
 ```json
 {
@@ -47,17 +46,17 @@ GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 }
 ```
 
-## <a name="review-payroll-entities"></a><span data-ttu-id="2ddd4-110">مراجعة كيانات كشوف الرواتب</span><span class="sxs-lookup"><span data-stu-id="2ddd4-110">Review payroll entities</span></span>
+## <a name="review-payroll-entities"></a><span data-ttu-id="aaeff-110">مراجعة كيانات كشوف الرواتب</span><span class="sxs-lookup"><span data-stu-id="aaeff-110">Review payroll entities</span></span>
 
-<span data-ttu-id="2ddd4-111">استخدم واجهة API هذه لاسترداد قائمه بالكيانات التي تم إنشاؤها بنجاح والجاهزة للاستخدام.</span><span class="sxs-lookup"><span data-stu-id="2ddd4-111">Use this API to retrieve a list of the entities that have been successfully generated and are ready for use.</span></span>
+<span data-ttu-id="aaeff-111">استخدم واجهة API هذه لاسترداد قائمه بالكيانات التي تم إنشاؤها بنجاح والجاهزة للاستخدام.</span><span class="sxs-lookup"><span data-stu-id="aaeff-111">Use this API to retrieve a list of the entities that have been successfully generated and are ready for use.</span></span>
 
-<span data-ttu-id="2ddd4-112">**الطلب**</span><span class="sxs-lookup"><span data-stu-id="2ddd4-112">**Request**</span></span>
+<span data-ttu-id="aaeff-112">**الطلب**</span><span class="sxs-lookup"><span data-stu-id="aaeff-112">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_hrvirtualentitycatalogs?$filter=mshr_hasbeengenerated eq true
 ```
 
-<span data-ttu-id="2ddd4-113">**استجابة**</span><span class="sxs-lookup"><span data-stu-id="2ddd4-113">**Response**</span></span>
+<span data-ttu-id="aaeff-113">**استجابة**</span><span class="sxs-lookup"><span data-stu-id="aaeff-113">**Response**</span></span>
 
 ```json
 {

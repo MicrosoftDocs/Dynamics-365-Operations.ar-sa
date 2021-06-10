@@ -8,126 +8,125 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ddad70792c4ebc1785698812fe12406142f07a2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 952048ce0a2ac94be70d7bde0dc52610f19151ed
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790610"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056290"
 ---
-# <a name="distribute-questionnaires-using-scheduling"></a><span data-ttu-id="11b27-103">توزيع الاستبيانات باستخدام الجدولة</span><span class="sxs-lookup"><span data-stu-id="11b27-103">Distribute questionnaires using scheduling</span></span>
+# <a name="distribute-questionnaires-using-scheduling"></a><span data-ttu-id="fe15a-103">توزيع الاستبيانات باستخدام الجدولة</span><span class="sxs-lookup"><span data-stu-id="fe15a-103">Distribute questionnaires using scheduling</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="11b27-104">تتيح لك جدولة الاستبيان إمكانية تخطيط وتوزيع استبيانات على عدة مستجيبين.</span><span class="sxs-lookup"><span data-stu-id="11b27-104">Questionnaire scheduling allows you to plan and distribute questionnaires to multiple respondents.</span></span> <span data-ttu-id="11b27-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="11b27-105">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="fe15a-104">تتيح لك جدولة الاستبيان إمكانية تخطيط وتوزيع استبيانات على عدة مستجيبين.</span><span class="sxs-lookup"><span data-stu-id="fe15a-104">Questionnaire scheduling allows you to plan and distribute questionnaires to multiple respondents.</span></span> <span data-ttu-id="fe15a-105">شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.</span><span class="sxs-lookup"><span data-stu-id="fe15a-105">The demo data company used to create this procedure is USMF.</span></span>
 
-## <a name="create-a-questionnaire-schedule"></a><span data-ttu-id="11b27-106">إنشاء جدول استبيان</span><span class="sxs-lookup"><span data-stu-id="11b27-106">Create a questionnaire schedule</span></span>
+## <a name="create-a-questionnaire-schedule"></a><span data-ttu-id="fe15a-106">إنشاء جدول استبيان</span><span class="sxs-lookup"><span data-stu-id="fe15a-106">Create a questionnaire schedule</span></span>
 
-1. <span data-ttu-id="11b27-107">انتقل إلى الاستبيان > توزيع > جداول الاستبيانات.</span><span class="sxs-lookup"><span data-stu-id="11b27-107">Go to Questionnaire > Distribute > Questionnaire schedules.</span></span>
+1. <span data-ttu-id="fe15a-107">انتقل إلى الاستبيان > توزيع > جداول الاستبيانات.</span><span class="sxs-lookup"><span data-stu-id="fe15a-107">Go to Questionnaire > Distribute > Questionnaire schedules.</span></span>
 
-2. <span data-ttu-id="11b27-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="11b27-108">Click New.</span></span>
+2. <span data-ttu-id="fe15a-108">انقر فوق "جديد".</span><span class="sxs-lookup"><span data-stu-id="fe15a-108">Click New.</span></span>
 
-3. <span data-ttu-id="11b27-109">في حقل الجدولة، أدخل قيمة.</span><span class="sxs-lookup"><span data-stu-id="11b27-109">In the Scheduling field, type a value.</span></span>
+3. <span data-ttu-id="fe15a-109">في حقل الجدولة، أدخل قيمة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-109">In the Scheduling field, type a value.</span></span>
 
-4. <span data-ttu-id="11b27-110">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="11b27-110">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="11b27-111">قم بتعيين الجدولة إلى مجهول إذا كان يجب تسجيل الاستجابات دون أسماء مقترنة بالاستجابة.</span><span class="sxs-lookup"><span data-stu-id="11b27-111">Set the schedule to Anonymous if the responses should be recorded without names associated to the response.</span></span>  
-    * <span data-ttu-id="11b27-112">يجب إعداد السماح بالنتائج المجهولة‬ في محددات الموارد البشرية أولاً.</span><span class="sxs-lookup"><span data-stu-id="11b27-112">Allowing anonymous results must be set up in the HR parameters first.</span></span>  
+4. <span data-ttu-id="fe15a-110">في وصف الحقل، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-110">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="fe15a-111">قم بتعيين الجدولة إلى مجهول إذا كان يجب تسجيل الاستجابات دون أسماء مقترنة بالاستجابة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-111">Set the schedule to Anonymous if the responses should be recorded without names associated to the response.</span></span>  
+    * <span data-ttu-id="fe15a-112">يجب إعداد السماح بالنتائج المجهولة‬ في محددات الموارد البشرية أولاً.</span><span class="sxs-lookup"><span data-stu-id="fe15a-112">Allowing anonymous results must be set up in the HR parameters first.</span></span>  
 
-5. <span data-ttu-id="11b27-113">في حقل النوع، حدد نوع التخطيط.</span><span class="sxs-lookup"><span data-stu-id="11b27-113">In the Type field, select the planning type.</span></span>  <span data-ttu-id="11b27-114">في هذا المثال سوف نستخدم النوع "رضا".</span><span class="sxs-lookup"><span data-stu-id="11b27-114">In this example we will use the Satisfaction type.</span></span>
+5. <span data-ttu-id="fe15a-113">في حقل النوع، حدد نوع التخطيط.</span><span class="sxs-lookup"><span data-stu-id="fe15a-113">In the Type field, select the planning type.</span></span>  <span data-ttu-id="fe15a-114">في هذا المثال سوف نستخدم النوع "رضا".</span><span class="sxs-lookup"><span data-stu-id="fe15a-114">In this example we will use the Satisfaction type.</span></span>
 
-6. <span data-ttu-id="11b27-115">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="11b27-115">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="fe15a-115">في القائمة، قم بالبحث عن السجل المطلوب وحدده.</span><span class="sxs-lookup"><span data-stu-id="fe15a-115">In the list, find and select the desired record.</span></span>
 
-7. <span data-ttu-id="11b27-116">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="11b27-116">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="fe15a-116">في القائمة، انقر فوق الارتباط في الصف المحدد.</span><span class="sxs-lookup"><span data-stu-id="fe15a-116">In the list, click the link in the selected row.</span></span>
 
-8. <span data-ttu-id="11b27-117">في حقل "التاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="11b27-117">In the Date field, enter a date.</span></span>
+8. <span data-ttu-id="fe15a-117">في حقل "التاريخ"، أدخل تاريخًا.</span><span class="sxs-lookup"><span data-stu-id="fe15a-117">In the Date field, enter a date.</span></span>
 
-9. <span data-ttu-id="11b27-118">قم بتوسيع المقطع "بريد إلكتروني لخدمة الموظف الذاتية‬".</span><span class="sxs-lookup"><span data-stu-id="11b27-118">Expand the Email for employee self service section.</span></span>
+9. <span data-ttu-id="fe15a-118">قم بتوسيع المقطع "بريد إلكتروني لخدمة الموظف الذاتية‬".</span><span class="sxs-lookup"><span data-stu-id="fe15a-118">Expand the Email for employee self service section.</span></span>
 
-10. <span data-ttu-id="11b27-119">في الحقل "الموضوع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="11b27-119">In the Subject field, type a value.</span></span>
+10. <span data-ttu-id="fe15a-119">في الحقل "الموضوع"، اكتب قيمة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-119">In the Subject field, type a value.</span></span>
 
-    * <span data-ttu-id="11b27-120">على سبيل المثال: الاستبيان المتوفر</span><span class="sxs-lookup"><span data-stu-id="11b27-120">Example: Questionnaire available</span></span>  
+    * <span data-ttu-id="fe15a-120">على سبيل المثال: الاستبيان المتوفر</span><span class="sxs-lookup"><span data-stu-id="fe15a-120">Example: Questionnaire available</span></span>  
 
-11. <span data-ttu-id="11b27-121">في حقل "النص"، اكتب النص الأساسي لرسالة البريد الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="11b27-121">In the Text field, type the body of your email message.</span></span> <span data-ttu-id="11b27-122">تجدر الإشارة إلى أنه يمكن استخدام المتغير لكي يحل محل القيم في النظام.</span><span class="sxs-lookup"><span data-stu-id="11b27-122">Note, the variable can be used to substitue values in the system.</span></span>
+11. <span data-ttu-id="fe15a-121">في حقل "النص"، اكتب النص الأساسي لرسالة البريد الإلكتروني.</span><span class="sxs-lookup"><span data-stu-id="fe15a-121">In the Text field, type the body of your email message.</span></span> <span data-ttu-id="fe15a-122">تجدر الإشارة إلى أنه يمكن استخدام المتغير لكي يحل محل القيم في النظام.</span><span class="sxs-lookup"><span data-stu-id="fe15a-122">Note, the variable can be used to substitue values in the system.</span></span>
 
-    * <span data-ttu-id="11b27-123">على سبيل المثال: عزيزي %P%، الرجاء تسجيل الدخول إلى ‏‫خدمة الموظف الذاتية‬ لإكمال الاستبيان "صحة القوى العاملة".</span><span class="sxs-lookup"><span data-stu-id="11b27-123">Example: Dear %P%, Please log in to Employee Self Service to complete the Workforce Health questionnaire.</span></span>  <span data-ttu-id="11b27-124">شركة الرشيدي</span><span class="sxs-lookup"><span data-stu-id="11b27-124">Contoso</span></span>  
+    * <span data-ttu-id="fe15a-123">على سبيل المثال: عزيزي %P%، الرجاء تسجيل الدخول إلى ‏‫خدمة الموظف الذاتية‬ لإكمال الاستبيان "صحة القوى العاملة".</span><span class="sxs-lookup"><span data-stu-id="fe15a-123">Example: Dear %P%, Please log in to Employee Self Service to complete the Workforce Health questionnaire.</span></span>  <span data-ttu-id="fe15a-124">Contoso</span><span class="sxs-lookup"><span data-stu-id="fe15a-124">Contoso</span></span>  
 
-12. <span data-ttu-id="11b27-125">انقر فوق "حفظ".</span><span class="sxs-lookup"><span data-stu-id="11b27-125">Click Save.</span></span>
+12. <span data-ttu-id="fe15a-125">انقر فوق حفظ.</span><span class="sxs-lookup"><span data-stu-id="fe15a-125">Click Save.</span></span>
 
-## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a><span data-ttu-id="11b27-126">استخدم تفاصيل الإعداد لتحديد الاستبيان (الاستبيانات) الذي تتعين الإجابة عليه بالإضافة إلى أية استعلامات لاستخدامها في تحديد المستجيبين.</span><span class="sxs-lookup"><span data-stu-id="11b27-126">Use the Setup details to select the questionnaire(s) to be answered as well as any queries to use to select respondents.</span></span>
+## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a><span data-ttu-id="fe15a-126">استخدم تفاصيل الإعداد لتحديد الاستبيان (الاستبيانات) الذي تتعين الإجابة عليه بالإضافة إلى أية استعلامات لاستخدامها في تحديد المستجيبين.</span><span class="sxs-lookup"><span data-stu-id="fe15a-126">Use the Setup details to select the questionnaire(s) to be answered as well as any queries to use to select respondents.</span></span>
 
-1. <span data-ttu-id="11b27-127">انقر فوق تفاصيل الإعداد.</span><span class="sxs-lookup"><span data-stu-id="11b27-127">Click Setup details.</span></span>
+1. <span data-ttu-id="fe15a-127">انقر فوق تفاصيل الإعداد.</span><span class="sxs-lookup"><span data-stu-id="fe15a-127">Click Setup details.</span></span>
 
-2. <span data-ttu-id="11b27-128">في القائمة، حدد استعلامًا لاستخدامه للبحث في النظام عن المستجيبين للاستبيان.</span><span class="sxs-lookup"><span data-stu-id="11b27-128">In the list, select a query to use to search the system for respondents for the questionnaire.</span></span>
+2. <span data-ttu-id="fe15a-128">في القائمة، حدد استعلامًا لاستخدامه للبحث في النظام عن المستجيبين للاستبيان.</span><span class="sxs-lookup"><span data-stu-id="fe15a-128">In the list, select a query to use to search the system for respondents for the questionnaire.</span></span>
 
-    * <span data-ttu-id="11b27-129">مثال: العاملون‬</span><span class="sxs-lookup"><span data-stu-id="11b27-129">Example: Workers</span></span>  
+    * <span data-ttu-id="fe15a-129">مثال: العاملون‬</span><span class="sxs-lookup"><span data-stu-id="fe15a-129">Example: Workers</span></span>  
 
-3. <span data-ttu-id="11b27-130">انقر فوق عرض أو تعديل الاستعلام لتحديد أشخاص معينين أو تعديل الاستعلام للبحث عن الأشخاص الذين يتطابقون مع معايير معينة.</span><span class="sxs-lookup"><span data-stu-id="11b27-130">Click View or modify query to select specific people or adjust the query to find people who match specific criteria.</span></span>
+3. <span data-ttu-id="fe15a-130">انقر فوق عرض أو تعديل الاستعلام لتحديد أشخاص معينين أو تعديل الاستعلام للبحث عن الأشخاص الذين يتطابقون مع معايير معينة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-130">Click View or modify query to select specific people or adjust the query to find people who match specific criteria.</span></span>
 
-    * <span data-ttu-id="11b27-131">لاحظ أن جميع المستجيبين يجب أن يكونوا مستخدمين في النظام.</span><span class="sxs-lookup"><span data-stu-id="11b27-131">Note that all respondents must also be users in the system.</span></span>  
+    * <span data-ttu-id="fe15a-131">لاحظ أن جميع المستجيبين يجب أن يكونوا مستخدمين في النظام.</span><span class="sxs-lookup"><span data-stu-id="fe15a-131">Note that all respondents must also be users in the system.</span></span>  
 
-4. <span data-ttu-id="11b27-132">في القائمة، ضع علامة على صف "الشخص".</span><span class="sxs-lookup"><span data-stu-id="11b27-132">In the list, mark the row for Person</span></span>
+4. <span data-ttu-id="fe15a-132">في القائمة، ضع علامة على صف "الشخص".</span><span class="sxs-lookup"><span data-stu-id="fe15a-132">In the list, mark the row for Person</span></span>
 
-5. <span data-ttu-id="11b27-133">في الحقل "المعايير‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="11b27-133">In the Criteria field, enter or select a value.</span></span>
+5. <span data-ttu-id="fe15a-133">في الحقل "المعايير‬"، أدخل قيمة أو حددها.</span><span class="sxs-lookup"><span data-stu-id="fe15a-133">In the Criteria field, enter or select a value.</span></span>
 
-    * <span data-ttu-id="11b27-134">حدد جوليا فونديربورك</span><span class="sxs-lookup"><span data-stu-id="11b27-134">Select Julia Funderburk</span></span>  
+    * <span data-ttu-id="fe15a-134">حدد جوليا فونديربورك</span><span class="sxs-lookup"><span data-stu-id="fe15a-134">Select Julia Funderburk</span></span>  
 
-6. <span data-ttu-id="11b27-135">في القائمة، حدد جوليا فونديربورك‬</span><span class="sxs-lookup"><span data-stu-id="11b27-135">In the list, select Julia Funderburk</span></span>
+6. <span data-ttu-id="fe15a-135">في القائمة، حدد جوليا فونديربورك‬</span><span class="sxs-lookup"><span data-stu-id="fe15a-135">In the list, select Julia Funderburk</span></span>
 
-7. <span data-ttu-id="11b27-136">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="11b27-136">Click OK.</span></span>
+7. <span data-ttu-id="fe15a-136">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="fe15a-136">Click OK.</span></span>
 
-8. <span data-ttu-id="11b27-137">انقر فوق علامة التبويب الاستبيانات.</span><span class="sxs-lookup"><span data-stu-id="11b27-137">Click the Questionnaires tab.</span></span>
+8. <span data-ttu-id="fe15a-137">انقر فوق علامة التبويب الاستبيانات.</span><span class="sxs-lookup"><span data-stu-id="fe15a-137">Click the Questionnaires tab.</span></span>
 
-9. <span data-ttu-id="11b27-138">في الشجرة، قم بتوسيع "عقدة نوع الاستبيان استقصاء‬ الرضا".</span><span class="sxs-lookup"><span data-stu-id="11b27-138">In the tree, expand 'the node for the questionnaire type Satisfaction Survey'.</span></span>
+9. <span data-ttu-id="fe15a-138">في الشجرة، قم بتوسيع "عقدة نوع الاستبيان استقصاء‬ الرضا".</span><span class="sxs-lookup"><span data-stu-id="fe15a-138">In the tree, expand 'the node for the questionnaire type Satisfaction Survey'.</span></span>
 
-10. <span data-ttu-id="11b27-139">في الشجرة، حدد "تقييم صحة العاملين".</span><span class="sxs-lookup"><span data-stu-id="11b27-139">In the tree, check 'Workforce Health Assessment'.</span></span>
+10. <span data-ttu-id="fe15a-139">في الشجرة، حدد "تقييم صحة العاملين".</span><span class="sxs-lookup"><span data-stu-id="fe15a-139">In the tree, check 'Workforce Health Assessment'.</span></span>
 
-11. <span data-ttu-id="11b27-140">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="11b27-140">Click OK.</span></span>
+11. <span data-ttu-id="fe15a-140">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="fe15a-140">Click OK.</span></span>
 
-12. <span data-ttu-id="11b27-141">انقر فوق جلسة إجابة مخططة.</span><span class="sxs-lookup"><span data-stu-id="11b27-141">Click Planned answer session.</span></span>
+12. <span data-ttu-id="fe15a-141">انقر فوق جلسة إجابة مخططة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-141">Click Planned answer session.</span></span>
 
-    * <span data-ttu-id="11b27-142">لاحظ أنه تم إنشاء جلسات الإجابة المخططة لكل مستخدم تم تحديده/الاستعلام عنه.</span><span class="sxs-lookup"><span data-stu-id="11b27-142">Note that Planned answer sessions have been created for each selected/queried user.</span></span>  
+    * <span data-ttu-id="fe15a-142">لاحظ أنه تم إنشاء جلسات الإجابة المخططة لكل مستخدم تم تحديده/الاستعلام عنه.</span><span class="sxs-lookup"><span data-stu-id="fe15a-142">Note that Planned answer sessions have been created for each selected/queried user.</span></span>  
 
-13. <span data-ttu-id="11b27-143">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="11b27-143">Close the page.</span></span>
+13. <span data-ttu-id="fe15a-143">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-143">Close the page.</span></span>
 
-## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a><span data-ttu-id="11b27-144">ابدأ جدولة الاستبيان لتوفير الاستبيان للمستجيبين لإكماله.</span><span class="sxs-lookup"><span data-stu-id="11b27-144">Start the questionnaire schedule in order to make the questionnaire available for respondents to complete.</span></span>
+## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a><span data-ttu-id="fe15a-144">ابدأ جدولة الاستبيان لتوفير الاستبيان للمستجيبين لإكماله.</span><span class="sxs-lookup"><span data-stu-id="fe15a-144">Start the questionnaire schedule in order to make the questionnaire available for respondents to complete.</span></span>
 
-1. <span data-ttu-id="11b27-145">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="11b27-145">Click Functions.</span></span>
+1. <span data-ttu-id="fe15a-145">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="fe15a-145">Click Functions.</span></span>
 
-2. <span data-ttu-id="11b27-146">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="11b27-146">Click Start.</span></span>
+2. <span data-ttu-id="fe15a-146">انقر فوق "بدء".</span><span class="sxs-lookup"><span data-stu-id="fe15a-146">Click Start.</span></span>
 
-3. <span data-ttu-id="11b27-147">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="11b27-147">Click OK.</span></span>
+3. <span data-ttu-id="fe15a-147">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="fe15a-147">Click OK.</span></span>
 
-## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a><span data-ttu-id="11b27-148">أرسل رسالة بريد إلكتروني لإعلام المستجيبين بالاستبيان المتوفر.</span><span class="sxs-lookup"><span data-stu-id="11b27-148">Send the email to inform respondents of the available questionnaire.</span></span>
+## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a><span data-ttu-id="fe15a-148">أرسل رسالة بريد إلكتروني لإعلام المستجيبين بالاستبيان المتوفر.</span><span class="sxs-lookup"><span data-stu-id="fe15a-148">Send the email to inform respondents of the available questionnaire.</span></span>
 
-1. <span data-ttu-id="11b27-149">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="11b27-149">Click Functions.</span></span>
+1. <span data-ttu-id="fe15a-149">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="fe15a-149">Click Functions.</span></span>
 
-2. <span data-ttu-id="11b27-150">انقر فوق "إرسال بريد الإلكتروني".</span><span class="sxs-lookup"><span data-stu-id="11b27-150">Click Send email.</span></span>
+2. <span data-ttu-id="fe15a-150">انقر فوق "إرسال بريد الإلكتروني".</span><span class="sxs-lookup"><span data-stu-id="fe15a-150">Click Send email.</span></span>
 
-3. <span data-ttu-id="11b27-151">انقر فوق "إلغاء".</span><span class="sxs-lookup"><span data-stu-id="11b27-151">Click Cancel.</span></span>
+3. <span data-ttu-id="fe15a-151">انقر فوق "إلغاء".</span><span class="sxs-lookup"><span data-stu-id="fe15a-151">Click Cancel.</span></span>
 
-## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a><span data-ttu-id="11b27-152">استخدم جلسات الإجابة المخططة لمراقبة من يحتاج إلى إكمال الاستبيان.</span><span class="sxs-lookup"><span data-stu-id="11b27-152">Use Planned answer sessions to monitor who needs to complete the questionnaire.</span></span>
+## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a><span data-ttu-id="fe15a-152">استخدم جلسات الإجابة المخططة لمراقبة من يحتاج إلى إكمال الاستبيان.</span><span class="sxs-lookup"><span data-stu-id="fe15a-152">Use Planned answer sessions to monitor who needs to complete the questionnaire.</span></span>
 
-1. <span data-ttu-id="11b27-153">انقر فوق جلسة إجابة مخططة.</span><span class="sxs-lookup"><span data-stu-id="11b27-153">Click Planned answer session.</span></span>
+1. <span data-ttu-id="fe15a-153">انقر فوق جلسة إجابة مخططة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-153">Click Planned answer session.</span></span>
 
-    * <span data-ttu-id="11b27-154">احذف أي جلسة إجابة مخططة متبقية عندما تصبح جاهزاً لإنهاء الجلسة المجدولة.</span><span class="sxs-lookup"><span data-stu-id="11b27-154">Delete any remaining planned answer session when you're ready to end the scheduled session.</span></span>  
+    * <span data-ttu-id="fe15a-154">احذف أي جلسة إجابة مخططة متبقية عندما تصبح جاهزاً لإنهاء الجلسة المجدولة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-154">Delete any remaining planned answer session when you're ready to end the scheduled session.</span></span>  
 
-2. <span data-ttu-id="11b27-155">انقر فوق حذف.</span><span class="sxs-lookup"><span data-stu-id="11b27-155">Click Delete.</span></span>
+2. <span data-ttu-id="fe15a-155">انقر فوق حذف.</span><span class="sxs-lookup"><span data-stu-id="fe15a-155">Click Delete.</span></span>
 
-3. <span data-ttu-id="11b27-156">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="11b27-156">Click Yes.</span></span>
+3. <span data-ttu-id="fe15a-156">انقر فوق نعم.</span><span class="sxs-lookup"><span data-stu-id="fe15a-156">Click Yes.</span></span>
 
-4. <span data-ttu-id="11b27-157">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="11b27-157">Close the page.</span></span>
+4. <span data-ttu-id="fe15a-157">قم بإغلاق الصفحة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-157">Close the page.</span></span>
 
-## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a><span data-ttu-id="11b27-158">قم بإنهاء الجدول عند قيام جميع المستجيبين بإكمال الاستبيان و/أو عند حذف كل جلسات الإجابات المخططة.</span><span class="sxs-lookup"><span data-stu-id="11b27-158">End the schedule when all respondents have completed the questionnaire and/or all remaining Planned answer sessions have been deleted.</span></span>
+## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a><span data-ttu-id="fe15a-158">قم بإنهاء الجدول عند قيام جميع المستجيبين بإكمال الاستبيان و/أو عند حذف كل جلسات الإجابات المخططة.</span><span class="sxs-lookup"><span data-stu-id="fe15a-158">End the schedule when all respondents have completed the questionnaire and/or all remaining Planned answer sessions have been deleted.</span></span>
 
-1. <span data-ttu-id="11b27-159">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="11b27-159">Click Functions.</span></span>
-2. <span data-ttu-id="11b27-160">انقر فوق "إنهاء".</span><span class="sxs-lookup"><span data-stu-id="11b27-160">Click End.</span></span>
-3. <span data-ttu-id="11b27-161">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="11b27-161">Click OK.</span></span>
+1. <span data-ttu-id="fe15a-159">انقر فوق "الوظائف".</span><span class="sxs-lookup"><span data-stu-id="fe15a-159">Click Functions.</span></span>
+2. <span data-ttu-id="fe15a-160">انقر فوق "إنهاء".</span><span class="sxs-lookup"><span data-stu-id="fe15a-160">Click End.</span></span>
+3. <span data-ttu-id="fe15a-161">انقر فوق "موافق".</span><span class="sxs-lookup"><span data-stu-id="fe15a-161">Click OK.</span></span>
 
 
 

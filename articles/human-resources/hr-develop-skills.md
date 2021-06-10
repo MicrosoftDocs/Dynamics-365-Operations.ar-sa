@@ -1,14 +1,14 @@
 ---
-title: محاذاة مهارات القوة العاملة مع احتياجات العمل
-description: يمكنك تعقب المهارات التي يمتلكها العاملون أو مقدمو الطلبات، أو أشخاص جهات الاتصال للاضطلاع على أدوارهم بفعالية. يمكنك أيضًا تحديد المهارات المطلوبة لمهمة معينة.
+title: تكوين المهارات
+description: يمكنك تعقب مهارات العامل في Dynamics 365 Human Resources. يمكنك أيضًا تحديد المهارات المطلوبة لمهمة معينة.
 author: andreabichsel
-ms.date: 11/01/2017
+manager: tfehr
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
@@ -16,52 +16,97 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fc9996c31c3575ccf942907a66e59b00a344f3d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 816822d1f3d365b4c5571c13e9f596e1c5d5e59c
+ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793695"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6076549"
 ---
-# <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="dd70b-104">محاذاة مهارات القوة العاملة مع احتياجات العمل</span><span class="sxs-lookup"><span data-stu-id="dd70b-104">Align workforce skills with business needs</span></span>
+# <a name="configure-skills"></a><span data-ttu-id="17829-104">تكوين المهارات</span><span class="sxs-lookup"><span data-stu-id="17829-104">Configure skills</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="dd70b-105">يمكنك تعقب المهارات التي يمتلكها العاملون أو مقدمو الطلبات، أو أشخاص جهات الاتصال للاضطلاع على أدوارهم بفعالية.</span><span class="sxs-lookup"><span data-stu-id="dd70b-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="dd70b-106">يمكنك أيضًا تحديد المهارات المطلوبة لمهمة معينة.</span><span class="sxs-lookup"><span data-stu-id="dd70b-106">You can also specify the skills that are required for a specific job.</span></span>
+<span data-ttu-id="17829-105">يمكنك تعقب مهارات العامل في Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="17829-105">You can track your worker's skills in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="17829-106">يمكنك أيضًا تحديد المهارات المطلوبة لمهمة معينة.</span><span class="sxs-lookup"><span data-stu-id="17829-106">You can also specify the skills that are required for a specific job.</span></span>
 
-<span data-ttu-id="dd70b-107">تتضمن أمثلة المهارات التي يمكنك تعقبها ما يلي:</span><span class="sxs-lookup"><span data-stu-id="dd70b-107">Examples of skills you can track include the following:</span></span>
--   <span data-ttu-id="dd70b-108">الإشراف - القدرة على الإشراف على عمل الآخرين.</span><span class="sxs-lookup"><span data-stu-id="dd70b-108">Supervisory – Ability to supervise the work of others.</span></span>
--   <span data-ttu-id="dd70b-109">القيادة - القدرة على قيادة الموظفين ومجالات الأعمال.</span><span class="sxs-lookup"><span data-stu-id="dd70b-109">Leadership – Ability to lead employees and business domains.</span></span>
--   <span data-ttu-id="dd70b-110">التخيل - القدرة على التطلع للمستقبل، لتشكيل الرؤى وإدراك ما وراء هذه الرؤى.</span><span class="sxs-lookup"><span data-stu-id="dd70b-110">Planning – Ability to look ahead, to form visions, and to see them through.</span></span>
--   <span data-ttu-id="dd70b-111">HTML – القدرة على كتابة التعليمات البرمجية لـ HTML.</span><span class="sxs-lookup"><span data-stu-id="dd70b-111">HTML – Ability to write HTML code.</span></span>
+<span data-ttu-id="17829-107">تتضمن أمثلة المهارات التي يمكنك تعقبها:</span><span class="sxs-lookup"><span data-stu-id="17829-107">Examples of skills you can track include:</span></span>
 
-<span data-ttu-id="dd70b-112">قبل تعيين مهارة لشخص أو وظيفة، قم بإنشاء بحث تعيين مهارات، أو قم بإنشاء ملف تعريف مهارات، يجب إدخال معلومات حول المهارات في صفحة **المهارات**.</span><span class="sxs-lookup"><span data-stu-id="dd70b-112">Before you can assign a skill to a person or a job, create a skill-mapping search, or create a skill profile, you must enter information about the skills on the **Skills** page.</span></span> <span data-ttu-id="dd70b-113">لكل مهارة، يمكنك تحديد نوع مهارة ونظام تقييم.</span><span class="sxs-lookup"><span data-stu-id="dd70b-113">For each skill, you can select a skill type and a rating model.</span></span>
+- <span data-ttu-id="17829-108">الإشراف - القدرة على الإشراف على عمل الآخرين.</span><span class="sxs-lookup"><span data-stu-id="17829-108">Supervisory – Ability to supervise the work of others.</span></span>
+- <span data-ttu-id="17829-109">القيادة - القدرة على قيادة الموظفين ومجالات الأعمال.</span><span class="sxs-lookup"><span data-stu-id="17829-109">Leadership – Ability to lead employees and business domains.</span></span>
+- <span data-ttu-id="17829-110">التخطيط – القدرة على التطلع للمستقبل، لتشكيل عبارات الرؤى وإدراك ما وراء هذه الرؤى.</span><span class="sxs-lookup"><span data-stu-id="17829-110">Planning – Ability to look ahead, to form vision statements, and to see them through.</span></span>
+- <span data-ttu-id="17829-111">HTML – القدرة على كتابة التعليمات البرمجية لـ HTML.</span><span class="sxs-lookup"><span data-stu-id="17829-111">HTML – Ability to write HTML code.</span></span>
 
-## <a name="rating-models"></a><span data-ttu-id="dd70b-114">أنظمة التقييم</span><span class="sxs-lookup"><span data-stu-id="dd70b-114">Rating models</span></span>
-<span data-ttu-id="dd70b-115">تساعد أنظمة التقييم في تقييم مستوى المهارة الفعلي لشخص أو المستوى الذي يجب أن يحققوه، أو مستوى المهارات المطلوبة لمهمة.</span><span class="sxs-lookup"><span data-stu-id="dd70b-115">Rating models help evaluate a person's actual level of skill, the level they should work to achieve, or the level of skill that is required for a job.</span></span> <span data-ttu-id="dd70b-116">يمكنك إدخال حتى عشرة مستويات لنموذج تقييم.</span><span class="sxs-lookup"><span data-stu-id="dd70b-116">You can enter up to 10 levels for a rating model.</span></span>  <span data-ttu-id="dd70b-117">ويتم تعيين عامل لكل مستوى في نموذج التقييم.</span><span class="sxs-lookup"><span data-stu-id="dd70b-117">Each level in a rating model is assigned a factor.</span></span>  <span data-ttu-id="dd70b-118">سوف يتم استخدام قيمة العامل لتسوية نتائج المهارات التي تستخدم نماذج تقييم مختلفة.</span><span class="sxs-lookup"><span data-stu-id="dd70b-118">The factor value will be used to normalize the scores of skills that use different rating models.</span></span>  <span data-ttu-id="dd70b-119">يجب أن يكون العامل رقمًا من بين 0 إلى 9 ويجب أن يحتوي كل مستوى على عامل فريد.</span><span class="sxs-lookup"><span data-stu-id="dd70b-119">The factor must be a number between 0-9 and each level must have a unique factor.</span></span>  <span data-ttu-id="dd70b-120">تؤثر المستويات التي لها قيم عوامل أعلى بشكل أكبر في نموذج تقييم.</span><span class="sxs-lookup"><span data-stu-id="dd70b-120">Levels with higher factor values carry more weight in a rating model.</span></span>
+<span data-ttu-id="17829-112">إذا لم تقم بالفعل بإعداد أنواع المهارات ونماذج التصنيف، ستحتاج إلى إضافة بعضها قبل إنشاء المهارات.</span><span class="sxs-lookup"><span data-stu-id="17829-112">If you haven't already set up skill types and rating models, you'll need to add some before creating skills.</span></span>
 
-## <a name="specify-job-skills"></a><span data-ttu-id="dd70b-121">حدد مهارات الوظيفة</span><span class="sxs-lookup"><span data-stu-id="dd70b-121">Specify job skills</span></span>
-<span data-ttu-id="dd70b-122">‏‫عند إدخال معلومات حول وظيفة، يمكنك تعيين المهارات التي يجب أن يتمتع بها شخص لتنفيذ العمل المطلوب للوظيفة.</span><span class="sxs-lookup"><span data-stu-id="dd70b-122">When you enter information about a job, you can specify the skills that a person should have to perform the work required for the job.</span></span>  <span data-ttu-id="dd70b-123">وبالإضافة إلى ذلك يمكنك تحديد المستوى المرغوب فيه لكل مهارة فضلاً عن مستوى الأهمية للمهارة.</span><span class="sxs-lookup"><span data-stu-id="dd70b-123">In addition you can specify the desired level for each skill as well the level of importance of the skill.</span></span> <span data-ttu-id="dd70b-124">يمكن لوظائف مختلفة أن تتطلب مستويات مختلفة من الأهمية لنفس المهارة.</span><span class="sxs-lookup"><span data-stu-id="dd70b-124">Different jobs can require different levels of importance for the same skill.</span></span>
+<span data-ttu-id="17829-113">يمكن للأشخاص التاليين إدخال مهارات لعامل:</span><span class="sxs-lookup"><span data-stu-id="17829-113">The following people can enter skills for a worker:</span></span>
 
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a><span data-ttu-id="dd70b-125">أدخل المهارات للعاملين أو مقدمي الطلبات أو جهات الاتصال</span><span class="sxs-lookup"><span data-stu-id="dd70b-125">Enter skills for workers, applicants, or contacts</span></span>
-<span data-ttu-id="dd70b-126">يمكنك إدخال المهارات المستهدفة أو المهارات الفعلية للعمال أو مقدمي الطلبات أو جهات الاتصال.</span><span class="sxs-lookup"><span data-stu-id="dd70b-126">You can enter target skills or actual skills for workers, applicants, or contacts.</span></span> <span data-ttu-id="dd70b-127">المهارة المستهدفة هي المهارة التي يخطط الشخص لتحقيقها.</span><span class="sxs-lookup"><span data-stu-id="dd70b-127">A target skill is a skill that a person plans to achieve.</span></span> <span data-ttu-id="dd70b-128">المهارة الفعلية هي مهارات لدى الشخص حاليًا.</span><span class="sxs-lookup"><span data-stu-id="dd70b-128">An actual skill is a skill that a person currently has.</span></span>
+- <span data-ttu-id="17829-114">يمكن للعاملين إدخال المهارات لأنفسهم في خدمة الموظف الذاتية.</span><span class="sxs-lookup"><span data-stu-id="17829-114">Workers can enter skills for themselves in Employee self-service.</span></span> <span data-ttu-id="17829-115">تتطلب هذه المهارات اعتماد المدير.</span><span class="sxs-lookup"><span data-stu-id="17829-115">These skills require manager approval.</span></span>
+- <span data-ttu-id="17829-116">يمكن للمديرين إدخال مهارات للعاملين.</span><span class="sxs-lookup"><span data-stu-id="17829-116">Managers can enter skills for their workers.</span></span> <span data-ttu-id="17829-117">يمكنك إنشاء سير عمل يعتمد هذه المهارات تلقائيًا.</span><span class="sxs-lookup"><span data-stu-id="17829-117">You can create a workflow that auto-approves these skills.</span></span>
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a><span data-ttu-id="dd70b-129"> تعيين المهارات وملفات تعريف تعيين المهارات</span><span class="sxs-lookup"><span data-stu-id="dd70b-129">Skill mapping and Skill mapping profiles</span></span>
-<span data-ttu-id="dd70b-130">يمكنك إنشاء بحث تعيين مهارات للعثور على عامل أو مقدم طلب أو شخص جهة اتصال مؤهل لأداء نوع معين من المهام.</span><span class="sxs-lookup"><span data-stu-id="dd70b-130">You can create a skill-mapping search to find a worker, applicant, or contact person who is qualified to perform a specific type of task.</span></span> <span data-ttu-id="dd70b-131">وتبحث عمليات تعيين المهارات في المهارات والتعليم والشهادات ومراكز الثقة وخبرة المشروع، وتُظهر نتائج تطابق المعايير التي تم إدخالها.</span><span class="sxs-lookup"><span data-stu-id="dd70b-131">Skill-mapping searches look across skills, education, certificates, positions of trust and project experience and return results that match the criteria entered.</span></span>  <span data-ttu-id="dd70b-132">على سبيل المثال، قد يكون من المفيد معرفة العمال في مؤسستك الذين حصلوا على CPA.</span><span class="sxs-lookup"><span data-stu-id="dd70b-132">For example, it might be useful to know which workers in your organization earned their CPA.</span></span>
+## <a name="create-a-skill-type"></a><span data-ttu-id="17829-118">إنشاء نوع مهارة</span><span class="sxs-lookup"><span data-stu-id="17829-118">Create a skill type</span></span>
 
-<span data-ttu-id="dd70b-133">‏‫تتيح لك ملفات تعريف تعيين المهارات إمكانية البحث عن الموظفين أو المرشحين الحاليين ذوي المؤهلات التي تتوافق مباشرةً مع احتياجات العمل.</span><span class="sxs-lookup"><span data-stu-id="dd70b-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="dd70b-134">على سبيل المثال، يمكنك إنشاء ملف تعريف تعيين مهارات لمنصب شاغر في المؤسسة الخاصة بك.‬</span><span class="sxs-lookup"><span data-stu-id="dd70b-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="dd70b-135">وبإنشاء ملف تعريف لوظيفة معينة ونسخ المهارات، والتعليم، وشهادات من تلك الوظيفة إلى ملف التعريف، يمكنك بسرعة البحث عن العمال ومقدمي الطلبات وأشخاص جهات الاتصال الذين يلبون معيار واحد أو أكثر من المعايير التي تم إدخالها في ملف التعريف ويعرضون قائمة بالمرشحين الذين لديهم مهارات أكثر اتفاقًا مع المهارات المطلوبة للوظيفة.</span><span class="sxs-lookup"><span data-stu-id="dd70b-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
+<span data-ttu-id="17829-119">أنواع المهارات هي فئات تقع ضمنها مهارات فردية، مثل الإدارة أو المبيعات.</span><span class="sxs-lookup"><span data-stu-id="17829-119">Skill types are categories that individual skills fall under, such as Administration or Sales.</span></span>
 
-> <span data-ttu-id="dd70b-136">**ملاحظة** يمكن فقط عرض العاملين ومقدمي الطلبات وجهات الاتصال المدرجين في عمليات بحث تعيين المهارة في قائمة نتائج تعيين المهارة أو تضمينهم في ملف تعريف مهارة.</span><span class="sxs-lookup"><span data-stu-id="dd70b-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="dd70b-137">ولتضمين عامل أو مقدم طلب أو شخص جهة الاتصال في عمليات البحث عن تعيين المهارات، قم بتعيين تحديد **تضمين في تعيين المهارات** إلى "نعم" في الصفحات التالية:</span><span class="sxs-lookup"><span data-stu-id="dd70b-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-> 
-> + <span data-ttu-id="dd70b-138">العامل</span><span class="sxs-lookup"><span data-stu-id="dd70b-138">Worker</span></span>
-> + <span data-ttu-id="dd70b-139">موظف</span><span class="sxs-lookup"><span data-stu-id="dd70b-139">Employee</span></span>
-> + <span data-ttu-id="dd70b-140">مقدم الطلب</span><span class="sxs-lookup"><span data-stu-id="dd70b-140">Applicant</span></span>
-> + <span data-ttu-id="dd70b-141">جهات الاتصال</span><span class="sxs-lookup"><span data-stu-id="dd70b-141">Contacts</span></span>
+1. <span data-ttu-id="17829-120">في مساحة العمل **تطوير الموظفين**، حدد **الارتباطات**.</span><span class="sxs-lookup"><span data-stu-id="17829-120">In the **Employee development** workspace, select **Links**.</span></span>
 
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a><span data-ttu-id="dd70b-142">تحليلات المهارات المفقودة وتحليلات ملف تعريف المهارات</span><span class="sxs-lookup"><span data-stu-id="dd70b-142">Skill gap analysis and skill profile analysis</span></span>
-<span data-ttu-id="dd70b-143">يمكنك إنشاء تحليل ملف تعريف مهارات لعرض قائمة بالاختصاصات للعامل أو مقدم الطلب أو جهة الاتصال اعتبارًا من تاريخ محدد.</span><span class="sxs-lookup"><span data-stu-id="dd70b-143">You can create a skill profile analysis to view a list of the competencies of a worker, applicant, or contact person as of a specific date.</span></span> <span data-ttu-id="dd70b-144">يمكنك إنشاء تحليل المهارات المفقودة لمقارنة مهارات الفرد والمهارات المطلوبة لوظيفة معينة.</span><span class="sxs-lookup"><span data-stu-id="dd70b-144">You can create a skill gap analysis to compare a person’s skills and the skills that are required for a specific job.</span></span>  
+2. <span data-ttu-id="17829-121">ضمن **إعداد الاختصاص**، حدد **أنواع المهارات**.</span><span class="sxs-lookup"><span data-stu-id="17829-121">Under **Competency setup**, select **Skill types**.</span></span>
 
+3. <span data-ttu-id="17829-122">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="17829-122">Select **New**.</span></span>
 
+4. <span data-ttu-id="17829-123">أكمل الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="17829-123">Complete the following fields:</span></span>
 
+   - <span data-ttu-id="17829-124">**نوع المهارة**، أدخل اسمًا لنوع المهارة.</span><span class="sxs-lookup"><span data-stu-id="17829-124">**Skill type**: Enter a name for the skill type.</span></span>
+   - <span data-ttu-id="17829-125">**الوصف**، أدخل وصفًا لنوع المهارة.</span><span class="sxs-lookup"><span data-stu-id="17829-125">**Description**: Enter a description for the skill type.</span></span>
+
+5. <span data-ttu-id="17829-126">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="17829-126">Select **Save**.</span></span>
+
+## <a name="create-a-rating-model"></a><span data-ttu-id="17829-127">إنشاء نموذج تقييم</span><span class="sxs-lookup"><span data-stu-id="17829-127">Create a rating model</span></span>
+
+<span data-ttu-id="17829-128">تساعد أنظمة التقييم في تقييم مستوى المهارة الفعلي لشخص أو المستوى الذي يجب أن يصل إليه أو مستوى المهارة المطلوب لمهمة.</span><span class="sxs-lookup"><span data-stu-id="17829-128">Rating models help evaluate a person's actual level of skill, the level they should work to achieve, or the level of skill required for a job.</span></span> <span data-ttu-id="17829-129">ويتم تعيين عامل لكل مستوى في نموذج التقييم.</span><span class="sxs-lookup"><span data-stu-id="17829-129">Each level in a rating model is assigned a factor.</span></span>
+
+1. <span data-ttu-id="17829-130">في مساحة العمل **تطوير الموظفين**، حدد **الارتباطات**.</span><span class="sxs-lookup"><span data-stu-id="17829-130">In the **Employee development** workspace, select **Links**.</span></span>
+
+2. <span data-ttu-id="17829-131">ضمن **إعداد الاختصاص**، حدد **نماذج التقييم**.</span><span class="sxs-lookup"><span data-stu-id="17829-131">Under **Competency setup**, select **Rating models**.</span></span>
+
+3. <span data-ttu-id="17829-132">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="17829-132">Select **New**.</span></span>
+
+4. <span data-ttu-id="17829-133">أكمل الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="17829-133">Complete the following fields:</span></span>
+
+   - <span data-ttu-id="17829-134">**التقييم**: أدخل اسمًا لنموذج التقييم، مثل **المهارات**.</span><span class="sxs-lookup"><span data-stu-id="17829-134">**Rating**: Enter a name for the rating model, such as **Skills**.</span></span>
+   - <span data-ttu-id="17829-135">**الوصف**: أدخل وصفًا لنظام التقييم، مثل **تقييمات المهارات**.</span><span class="sxs-lookup"><span data-stu-id="17829-135">**Description**: Enter a description for the rating model, such as **Skill ratings**.</span></span>
+
+5. <span data-ttu-id="17829-136">في القسم **مستويات**، حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="17829-136">In the **Levels** section, select **New**.</span></span> <span data-ttu-id="17829-137">بالنسبة لكل مستوى تريد إضافته، أكمل الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="17829-137">For each level you want to add, complete the following fields:</span></span>
+
+   - <span data-ttu-id="17829-138">**المستوى**: أدخل اسمًا للمستوى.</span><span class="sxs-lookup"><span data-stu-id="17829-138">**Level**: Enter a name for the level.</span></span>
+   - <span data-ttu-id="17829-139">**الوصف**: أدخل وصفًا للمستوى.</span><span class="sxs-lookup"><span data-stu-id="17829-139">**Description**: Enter a description for the level.</span></span>
+   - <span data-ttu-id="17829-140">**العامل**: أدخل قيمة عامل من 0 إلى 9.</span><span class="sxs-lookup"><span data-stu-id="17829-140">**Factor**: Enter a factor value from 0-9.</span></span> <span data-ttu-id="17829-141">تساعد العوامل في تسوية نتائج المهارات التي تستخدم نماذج تقييم مختلفة.</span><span class="sxs-lookup"><span data-stu-id="17829-141">Factors help normalize the scores of skills that use different rating models.</span></span> <span data-ttu-id="17829-142">يجب أن يكون لكل مستوى عامل فريد.</span><span class="sxs-lookup"><span data-stu-id="17829-142">Each level must have a unique factor.</span></span> <span data-ttu-id="17829-143">تؤثر المستويات التي لها قيم عوامل أعلى بشكل أكبر في نموذج تقييم.</span><span class="sxs-lookup"><span data-stu-id="17829-143">Levels with higher factor values carry more weight in a rating model.</span></span>
+
+   <span data-ttu-id="17829-144">استمر في إضافة المستويات حسب الضرورة.</span><span class="sxs-lookup"><span data-stu-id="17829-144">Continue adding levels as necessary.</span></span> <span data-ttu-id="17829-145">يمكنك إدخال حتى 10 مستويات لكل نموذج تقييم.</span><span class="sxs-lookup"><span data-stu-id="17829-145">You can enter up to 10 levels for each rating model.</span></span>
+
+6. <span data-ttu-id="17829-146">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="17829-146">Select **Save**.</span></span>
+
+## <a name="create-a-skill"></a><span data-ttu-id="17829-147">إنشاء مهارة</span><span class="sxs-lookup"><span data-stu-id="17829-147">Create a skill</span></span>
+
+<span data-ttu-id="17829-148">قبل أن تتمكن من تعيين مهارة لشخص ، أو القيام بإنشاء بحث تعيين مهارات أو ملف تعريف مهارات، فإنه يجب إدخال معلومات حول المهارات في صفحة **المهارات**.</span><span class="sxs-lookup"><span data-stu-id="17829-148">Before you can assign a skill, or create a skill-mapping search or skill profile, you must enter information about the skills on the **Skills** page.</span></span> <span data-ttu-id="17829-149">لكل مهارة، يمكنك تحديد نوع مهارة ونظام تقييم.</span><span class="sxs-lookup"><span data-stu-id="17829-149">For each skill, you can select a skill type and a rating model.</span></span>
+
+1. <span data-ttu-id="17829-150">في مساحة العمل **تطوير الموظفين**، حدد **الارتباطات**.</span><span class="sxs-lookup"><span data-stu-id="17829-150">In the **Employee development** workspace, select **Links**.</span></span>
+
+2. <span data-ttu-id="17829-151">ضمن **إعداد الاختصاص**، حدد **المهارات**.</span><span class="sxs-lookup"><span data-stu-id="17829-151">Under **Competency setup**, select **Skills**.</span></span>
+
+3. <span data-ttu-id="17829-152">حدد **جديد**.</span><span class="sxs-lookup"><span data-stu-id="17829-152">Select **New**.</span></span>
+
+4. <span data-ttu-id="17829-153">أكمل الحقول التالية:</span><span class="sxs-lookup"><span data-stu-id="17829-153">Complete the following fields:</span></span>
+
+   - <span data-ttu-id="17829-154">**المهارة**، أدخل اسمًا للمهارة.</span><span class="sxs-lookup"><span data-stu-id="17829-154">**Skill**: Enter a name for the skill.</span></span>
+   - <span data-ttu-id="17829-155">**الوصف**، أدخل وصفًا للمهارة.</span><span class="sxs-lookup"><span data-stu-id="17829-155">**Description**: Enter a description for the skill.</span></span>
+   - <span data-ttu-id="17829-156">**التقييم**: حدد نموذج التقييم الذي ترغب في استخدامه لهذه المهارة.</span><span class="sxs-lookup"><span data-stu-id="17829-156">**Rating**: Select the rating model you want to use for this skill.</span></span>
+   - <span data-ttu-id="17829-157">**نوع المهارة**: حدد من قائمة أنواع المهارات.</span><span class="sxs-lookup"><span data-stu-id="17829-157">**Skill type**: Select from the list of skill types.</span></span>
+
+5. <span data-ttu-id="17829-158">حدد **حفظ**.</span><span class="sxs-lookup"><span data-stu-id="17829-158">Select **Save**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="17829-159">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="17829-159">See also</span></span>
+
+[<span data-ttu-id="17829-160">إدخال المهارات</span><span class="sxs-lookup"><span data-stu-id="17829-160">Enter skills</span></span>](hr-develop-enter-skills.md)<br>
+[<span data-ttu-id="17829-161">تعيين المهارات</span><span class="sxs-lookup"><span data-stu-id="17829-161">Map skills</span></span>](hr-develop-map-skills.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

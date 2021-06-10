@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,61 +15,61 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 07c7f1303238fe61d70be26ec5a198f1ac489090
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cedff4031c6455b446af9c56a770a00f3b2efc80
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790754"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052087"
 ---
-# <a name="view-team-and-company-calendars"></a><span data-ttu-id="3b1d7-103">عرض تقويمات الفريق والشركة</span><span class="sxs-lookup"><span data-stu-id="3b1d7-103">View team and company calendars</span></span>
+# <a name="view-team-and-company-calendars"></a><span data-ttu-id="d5937-103">عرض تقويمات الفريق والشركة</span><span class="sxs-lookup"><span data-stu-id="d5937-103">View team and company calendars</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="3b1d7-104">يمكنك عرض تقويمات الفريق والشركة في Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-104">You can view team and company calendars in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="3b1d7-105">تعرض تقويمات الفريق التقارير المباشرة فقط، كما هو محدد في التدرج الهرمي للبند.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-105">Team calendars only display direct reports, as defined in the line hierarchy.</span></span>
+<span data-ttu-id="d5937-104">يمكنك عرض تقويمات الفريق والشركة في Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="d5937-104">You can view team and company calendars in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="d5937-105">تعرض تقويمات الفريق التقارير المباشرة فقط، كما هو محدد في التدرج الهرمي للبند.</span><span class="sxs-lookup"><span data-stu-id="d5937-105">Team calendars only display direct reports, as defined in the line hierarchy.</span></span>
 
-## <a name="view-your-team-calendar-as-an-employee"></a><span data-ttu-id="3b1d7-106">عرض تقويم الفريق كموظف</span><span class="sxs-lookup"><span data-stu-id="3b1d7-106">View your team calendar as an employee</span></span>
+## <a name="view-your-team-calendar-as-an-employee"></a><span data-ttu-id="d5937-106">عرض تقويم الفريق كموظف</span><span class="sxs-lookup"><span data-stu-id="d5937-106">View your team calendar as an employee</span></span>
 
-1. <span data-ttu-id="3b1d7-107">في مساحة العمل **خدمة الموظف الذاتية‬**، حدد **تقويم غياب الفريق** ضمن **الملخص**.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-107">In the **Employee self service** workspace, select **Team absence calendar** under **Summary**.</span></span>
+1. <span data-ttu-id="d5937-107">في مساحة العمل **خدمة الموظف الذاتية‬**، حدد **تقويم غياب الفريق** ضمن **الملخص**.</span><span class="sxs-lookup"><span data-stu-id="d5937-107">In the **Employee self service** workspace, select **Team absence calendar** under **Summary**.</span></span>
 
-## <a name="view-your-team-calendar-as-a-manager"></a><span data-ttu-id="3b1d7-108">عرض تقويم الفريق كمدير</span><span class="sxs-lookup"><span data-stu-id="3b1d7-108">View your team calendar as a manager</span></span>
+## <a name="view-your-team-calendar-as-a-manager"></a><span data-ttu-id="d5937-108">عرض تقويم الفريق كمدير</span><span class="sxs-lookup"><span data-stu-id="d5937-108">View your team calendar as a manager</span></span>
 
-1. <span data-ttu-id="3b1d7-109">في مساحة العمل **‏‫خدمة الموظف الذاتية‬**، حدد **‏‫فريقي‬**.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-109">In the **Employee self service** workspace, select **My team**.</span></span>
+1. <span data-ttu-id="d5937-109">في مساحة العمل **‏‫خدمة الموظف الذاتية‬**، حدد **‏‫فريقي‬**.</span><span class="sxs-lookup"><span data-stu-id="d5937-109">In the **Employee self service** workspace, select **My team**.</span></span>
 
-2. <span data-ttu-id="3b1d7-110">حدد **الإجازة والغياب‬**، ثم حدد **عرض تقويم غياب المدير**.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-110">Select **Leave and absence**, and then select **View manager absence calendar**.</span></span>
+2. <span data-ttu-id="d5937-110">حدد **الإجازة والغياب‬**، ثم حدد **عرض تقويم غياب المدير**.</span><span class="sxs-lookup"><span data-stu-id="d5937-110">Select **Leave and absence**, and then select **View manager absence calendar**.</span></span>
 
-<span data-ttu-id="3b1d7-111">بإمكان المدراء أيضًا الوصول إلى تقويم الفريق من **طلبات الإجازات‏‎المعلقة لفريقي** و **الإجازات الموافق عليها** و **طلبات الإجازات**.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-111">Managers can also access the team calendar from **Pending time off requests from my team**, **Approved time off**, and **Time off requests**.</span></span> 
+<span data-ttu-id="d5937-111">بإمكان المدراء أيضًا الوصول إلى تقويم الفريق من **طلبات الإجازات‏‎المعلقة لفريقي** و **الإجازات الموافق عليها** و **طلبات الإجازات**.</span><span class="sxs-lookup"><span data-stu-id="d5937-111">Managers can also access the team calendar from **Pending time off requests from my team**, **Approved time off**, and **Time off requests**.</span></span> 
 
-## <a name="view-a-company-calendar"></a><span data-ttu-id="3b1d7-112">عرض تقويم شركة</span><span class="sxs-lookup"><span data-stu-id="3b1d7-112">View a company calendar</span></span>
+## <a name="view-a-company-calendar"></a><span data-ttu-id="d5937-112">عرض تقويم شركة</span><span class="sxs-lookup"><span data-stu-id="d5937-112">View a company calendar</span></span>
 
-<span data-ttu-id="3b1d7-113">يمكن للأشخاص الموجودين في أدوار الموارد البشرية عرض تقويمات الشركة.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-113">People who are in human resources roles can view company calendars.</span></span> <span data-ttu-id="3b1d7-114">تعرض تقويمات الشركة كافة الموظفين.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-114">Company calendars display all employees.</span></span> <span data-ttu-id="3b1d7-115">بشكل افتراضي، يعرض التقويم تاريخ اليوم بالإضافة إلى 28 يومًا، ولكن يمكنك تغيير نطاق التاريخ.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-115">By default, the calendar displays today's date plus 28 days, but you can change the date range.</span></span> <span data-ttu-id="3b1d7-116">كما يمكنك تصفية التقويم حسب **الاسم**، و **رقم العاملين** و **ونوع الإجازة**.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-116">You can also filter the calendar by **Name**, **Personnel number**, and **Leave type**.</span></span>
+<span data-ttu-id="d5937-113">يمكن للأشخاص الموجودين في أدوار الموارد البشرية عرض تقويمات الشركة.</span><span class="sxs-lookup"><span data-stu-id="d5937-113">People who are in human resources roles can view company calendars.</span></span> <span data-ttu-id="d5937-114">تعرض تقويمات الشركة كافة الموظفين.</span><span class="sxs-lookup"><span data-stu-id="d5937-114">Company calendars display all employees.</span></span> <span data-ttu-id="d5937-115">بشكل افتراضي، يعرض التقويم تاريخ اليوم بالإضافة إلى 28 يومًا، ولكن يمكنك تغيير نطاق التاريخ.</span><span class="sxs-lookup"><span data-stu-id="d5937-115">By default, the calendar displays today's date plus 28 days, but you can change the date range.</span></span> <span data-ttu-id="d5937-116">كما يمكنك تصفية التقويم حسب **الاسم**، و **رقم العاملين** و **ونوع الإجازة**.</span><span class="sxs-lookup"><span data-stu-id="d5937-116">You can also filter the calendar by **Name**, **Personnel number**, and **Leave type**.</span></span>
 
-1. <span data-ttu-id="3b1d7-117">في مساحة العمل **‏‫الإجازة والغياب‬** حدد **الارتباطات**.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-117">In the **Leave and absence** workspace, select **Links**.</span></span>
+1. <span data-ttu-id="d5937-117">في مساحة العمل **‏‫الإجازة والغياب‬** حدد **الارتباطات**.</span><span class="sxs-lookup"><span data-stu-id="d5937-117">In the **Leave and absence** workspace, select **Links**.</span></span>
 
-2. <span data-ttu-id="3b1d7-118">حدد **تقويم ‏‫الإجازة والغياب‬**.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-118">Select **Leave and absence calendar**.</span></span>
+2. <span data-ttu-id="d5937-118">حدد **تقويم ‏‫الإجازة والغياب‬**.</span><span class="sxs-lookup"><span data-stu-id="d5937-118">Select **Leave and absence calendar**.</span></span>
 
-<span data-ttu-id="3b1d7-119">بإمكان أدوار الموارد البشرية أيضًا الوصول إلى تقويم الشركة من **طلبات الإجازة والغياب** و **الإجازات الموافق عليها‬‏‫** و **طلبات الإجازات**.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-119">Human resources roles can also access the company calendar from **Leave and absence requests**, **Approved time off**, and **Time off requests**.</span></span> 
+<span data-ttu-id="d5937-119">بإمكان أدوار الموارد البشرية أيضًا الوصول إلى تقويم الشركة من **طلبات الإجازة والغياب** و **الإجازات الموافق عليها‬‏‫** و **طلبات الإجازات**.</span><span class="sxs-lookup"><span data-stu-id="d5937-119">Human resources roles can also access the company calendar from **Leave and absence requests**, **Approved time off**, and **Time off requests**.</span></span> 
 
-<span data-ttu-id="3b1d7-120">تحتوي التقويمات الآن على عوامل تصفية وخيارات إضافية.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-120">Calendars now contain additional filters and options.</span></span> <span data-ttu-id="3b1d7-121">تتضمن كافة التقويمات خيارات عرض للعناصر التالية:</span><span class="sxs-lookup"><span data-stu-id="3b1d7-121">All calendars include view options for:</span></span>
+<span data-ttu-id="d5937-120">تحتوي التقويمات الآن على عوامل تصفية وخيارات إضافية.</span><span class="sxs-lookup"><span data-stu-id="d5937-120">Calendars now contain additional filters and options.</span></span> <span data-ttu-id="d5937-121">تتضمن كافة التقويمات خيارات عرض للعناصر التالية:</span><span class="sxs-lookup"><span data-stu-id="d5937-121">All calendars include view options for:</span></span>
 
-- <span data-ttu-id="3b1d7-122">الطلبات الموافق عليها</span><span class="sxs-lookup"><span data-stu-id="3b1d7-122">Approved requests</span></span>
-- <span data-ttu-id="3b1d7-123">الطلبات المعلقة</span><span class="sxs-lookup"><span data-stu-id="3b1d7-123">Pending requests</span></span>
-- <span data-ttu-id="3b1d7-124">الموظفون الذين لديهم طلبات إجازات</span><span class="sxs-lookup"><span data-stu-id="3b1d7-124">Employees with leave requests</span></span>
-- <span data-ttu-id="3b1d7-125">الموظفون الذين ليس لديهم طلبات إجازات</span><span class="sxs-lookup"><span data-stu-id="3b1d7-125">Employees without leave requests</span></span>
-- <span data-ttu-id="3b1d7-126">أعياد ميلاد الموظفين</span><span class="sxs-lookup"><span data-stu-id="3b1d7-126">Employee birthdays</span></span>
-- <span data-ttu-id="3b1d7-127">طلبات الإجازة</span><span class="sxs-lookup"><span data-stu-id="3b1d7-127">Time-off requests</span></span> 
-- <span data-ttu-id="3b1d7-128">طلبات أذونات الغياب</span><span class="sxs-lookup"><span data-stu-id="3b1d7-128">Leave of absence requests</span></span>
+- <span data-ttu-id="d5937-122">الطلبات الموافق عليها</span><span class="sxs-lookup"><span data-stu-id="d5937-122">Approved requests</span></span>
+- <span data-ttu-id="d5937-123">الطلبات المعلقة</span><span class="sxs-lookup"><span data-stu-id="d5937-123">Pending requests</span></span>
+- <span data-ttu-id="d5937-124">الموظفون الذين لديهم طلبات إجازات</span><span class="sxs-lookup"><span data-stu-id="d5937-124">Employees with leave requests</span></span>
+- <span data-ttu-id="d5937-125">الموظفون الذين ليس لديهم طلبات إجازات</span><span class="sxs-lookup"><span data-stu-id="d5937-125">Employees without leave requests</span></span>
+- <span data-ttu-id="d5937-126">أعياد ميلاد الموظفين</span><span class="sxs-lookup"><span data-stu-id="d5937-126">Employee birthdays</span></span>
+- <span data-ttu-id="d5937-127">طلبات الإجازة</span><span class="sxs-lookup"><span data-stu-id="d5937-127">Time-off requests</span></span> 
+- <span data-ttu-id="d5937-128">طلبات أذونات الغياب</span><span class="sxs-lookup"><span data-stu-id="d5937-128">Leave of absence requests</span></span>
 
-<span data-ttu-id="3b1d7-129">يحدد تكوين التقويم في معلمات الإجازة والغياب خيارات العرض المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-129">Calendar configuration in Leave and absence parameters determine available view options.</span></span>
+<span data-ttu-id="d5937-129">يحدد تكوين التقويم في معلمات الإجازة والغياب خيارات العرض المتوفرة.</span><span class="sxs-lookup"><span data-stu-id="d5937-129">Calendar configuration in Leave and absence parameters determine available view options.</span></span>
 
-<span data-ttu-id="3b1d7-130">يمكنك أيضًا تصفية التقويمات حسب المدير أو القسم.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-130">You can also filter calendars by manager or department.</span></span> <span data-ttu-id="3b1d7-131">يحدد تعيين المنصب الأساسي الموظفين الذين يتم عرضهم عند تعيين عوامل التصفية هذه.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-131">The primary position assignment determines the employees displayed when these filters are set.</span></span> 
+<span data-ttu-id="d5937-130">يمكنك أيضًا تصفية التقويمات حسب المدير أو القسم.</span><span class="sxs-lookup"><span data-stu-id="d5937-130">You can also filter calendars by manager or department.</span></span> <span data-ttu-id="d5937-131">يحدد تعيين المنصب الأساسي الموظفين الذين يتم عرضهم عند تعيين عوامل التصفية هذه.</span><span class="sxs-lookup"><span data-stu-id="d5937-131">The primary position assignment determines the employees displayed when these filters are set.</span></span> 
 
 >[!IMPORTANT]
-><span data-ttu-id="3b1d7-132">عرض الإجازة والغياب عبر الشركات قيد المعاينة حاليًا.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-132">Viewing leave and absence across companies is currently in preview.</span></span> <span data-ttu-id="3b1d7-133">ستحتاج إلى تمكينها في بيئة **الحماية**.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-133">You'll need to enable it in your **Sandbox** environment.</span></span> <span data-ttu-id="3b1d7-134">لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="3b1d7-134">For more information about enabling preview features, see [Manage features](hr-admin-manage-features.md).</span></span><br><br>
-><span data-ttu-id="3b1d7-135">ثم يجب تمكين الميزة في **معلمات Human Resources المشتركة** لعرض عامل تصفيm الكيان القانوني في التقاويم.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-135">Then you must enable the feature in **Human resources shared parameters** to display the legal entity filter in calendars.</span></span> <span data-ttu-id="3b1d7-136">لمزيد من المعلومات، راجع [تكوين معلمات الإجازة والغياب](hr-leave-and-absence-parameters.md).</span><span class="sxs-lookup"><span data-stu-id="3b1d7-136">For more information, see [Configure leave and absence parameters](hr-leave-and-absence-parameters.md).</span></span><br><br>
-><span data-ttu-id="3b1d7-137">يمكنك تصفية التقويم حسب الكيان القانوني.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-137">You can filter the calendar by legal entity.</span></span> <span data-ttu-id="3b1d7-138">إذا كنت ترغب في رؤية جميع الموظفين بغض النظر عن الكيان القانوني، فقم بإلغاء تحديد مربع التصفية وحدد enter.</span><span class="sxs-lookup"><span data-stu-id="3b1d7-138">If you want to see all employees regardless of legal entity, clear the filter box and select enter.</span></span> 
+><span data-ttu-id="d5937-132">عرض الإجازة والغياب عبر الشركات قيد المعاينة حاليًا.</span><span class="sxs-lookup"><span data-stu-id="d5937-132">Viewing leave and absence across companies is currently in preview.</span></span> <span data-ttu-id="d5937-133">ستحتاج إلى تمكينها في بيئة **الحماية**.</span><span class="sxs-lookup"><span data-stu-id="d5937-133">You'll need to enable it in your **Sandbox** environment.</span></span> <span data-ttu-id="d5937-134">لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="d5937-134">For more information about enabling preview features, see [Manage features](hr-admin-manage-features.md).</span></span><br><br>
+><span data-ttu-id="d5937-135">ثم يجب تمكين الميزة في **معلمات Human Resources المشتركة** لعرض عامل تصفيm الكيان القانوني في التقاويم.</span><span class="sxs-lookup"><span data-stu-id="d5937-135">Then you must enable the feature in **Human resources shared parameters** to display the legal entity filter in calendars.</span></span> <span data-ttu-id="d5937-136">لمزيد من المعلومات، راجع [تكوين معلمات الإجازة والغياب](hr-leave-and-absence-parameters.md).</span><span class="sxs-lookup"><span data-stu-id="d5937-136">For more information, see [Configure leave and absence parameters](hr-leave-and-absence-parameters.md).</span></span><br><br>
+><span data-ttu-id="d5937-137">يمكنك تصفية التقويم حسب الكيان القانوني.</span><span class="sxs-lookup"><span data-stu-id="d5937-137">You can filter the calendar by legal entity.</span></span> <span data-ttu-id="d5937-138">إذا كنت ترغب في رؤية جميع الموظفين بغض النظر عن الكيان القانوني، فقم بإلغاء تحديد مربع التصفية وحدد enter.</span><span class="sxs-lookup"><span data-stu-id="d5937-138">If you want to see all employees regardless of legal entity, clear the filter box and select enter.</span></span> 
 
-<span data-ttu-id="3b1d7-139">للحصول على معلومات حول إعدادات التقويم، راجع [تكوين معلمات التقويم](hr-leave-and-absence-parameters.md?configure-calendar-parameters).</span><span class="sxs-lookup"><span data-stu-id="3b1d7-139">For information about calendar settings, see [Configure calendar parameters](hr-leave-and-absence-parameters.md?configure-calendar-parameters).</span></span>
+<span data-ttu-id="d5937-139">للحصول على معلومات حول إعدادات التقويم، راجع [تكوين معلمات التقويم](hr-leave-and-absence-parameters.md?configure-calendar-parameters).</span><span class="sxs-lookup"><span data-stu-id="d5937-139">For information about calendar settings, see [Configure calendar parameters](hr-leave-and-absence-parameters.md?configure-calendar-parameters).</span></span>
 
 
 

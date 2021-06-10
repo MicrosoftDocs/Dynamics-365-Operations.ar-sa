@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,63 +15,63 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd82bef29e5d1d33c1dc1aa3a039833741c1fdaf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9b3151cb042012a167854a1e69b55b36981dab19
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793623"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054562"
 ---
-# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="a9da2-103">إرسال طلب إجازة إلى سير العمل</span><span class="sxs-lookup"><span data-stu-id="a9da2-103">Submit a leave request to workflow</span></span>
+# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="6e507-103">إرسال طلب إجازة إلى سير العمل</span><span class="sxs-lookup"><span data-stu-id="6e507-103">Submit a leave request to workflow</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="a9da2-104">في Microsoft Dynamics 365 Human Resources، يمكنك استخدام واجهة برمجه التطبيقات MyLeaveRequests submit() لإرسال طلب الإجازة إلى سير العمل.</span><span class="sxs-lookup"><span data-stu-id="a9da2-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="a9da2-105">يتم كشف واجة API هذه كإجراء على كيان MyLeaveRequests OData.</span><span class="sxs-lookup"><span data-stu-id="a9da2-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
+<span data-ttu-id="6e507-104">في Microsoft Dynamics 365 Human Resources، يمكنك استخدام واجهة برمجه التطبيقات MyLeaveRequests submit() لإرسال طلب الإجازة إلى سير العمل.</span><span class="sxs-lookup"><span data-stu-id="6e507-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="6e507-105">يتم كشف واجة API هذه كإجراء على كيان MyLeaveRequests OData.</span><span class="sxs-lookup"><span data-stu-id="6e507-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="a9da2-106">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="a9da2-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="6e507-106">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="6e507-106">Prerequisites</span></span>
 
-<span data-ttu-id="a9da2-107">يجب حفظ طلب الإجازة في قاعده البيانات ويجب أن تكون قابلا للاسترداد من خلال كيان MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="a9da2-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="6e507-107">يجب حفظ طلب الإجازة في قاعده البيانات ويجب أن تكون قابلا للاسترداد من خلال كيان MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="6e507-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="a9da2-108">أذونات</span><span class="sxs-lookup"><span data-stu-id="a9da2-108">Permissions</span></span>
+## <a name="permissions"></a><span data-ttu-id="6e507-108">أذونات</span><span class="sxs-lookup"><span data-stu-id="6e507-108">Permissions</span></span>
 
-<span data-ttu-id="a9da2-109">أحد الأذونات التالية مطلوب لاستدعاء واجهة API هذه.</span><span class="sxs-lookup"><span data-stu-id="a9da2-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="a9da2-110">لمزيد من المعلومات حول الأذونات وكيفية إعدادها، راجع [التخويل](hr-developer-api-authentication.md).</span><span class="sxs-lookup"><span data-stu-id="a9da2-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
+<span data-ttu-id="6e507-109">أحد الأذونات التالية مطلوب لاستدعاء واجهة API هذه.</span><span class="sxs-lookup"><span data-stu-id="6e507-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="6e507-110">لمزيد من المعلومات حول الأذونات وكيفية إعدادها، راجع [التخويل](hr-developer-api-authentication.md).</span><span class="sxs-lookup"><span data-stu-id="6e507-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
 
-| <span data-ttu-id="a9da2-111">نوع الإذن</span><span class="sxs-lookup"><span data-stu-id="a9da2-111">Permission type</span></span>                    | <span data-ttu-id="a9da2-112">الأذونات (من الأقل امتيازًا إلى الأكثر امتيازًا)</span><span class="sxs-lookup"><span data-stu-id="a9da2-112">Permissions (from least privileged to most privileged)</span></span> |
+| <span data-ttu-id="6e507-111">نوع الإذن</span><span class="sxs-lookup"><span data-stu-id="6e507-111">Permission type</span></span>                    | <span data-ttu-id="6e507-112">الأذونات (من الأقل امتيازًا إلى الأكثر امتيازًا)</span><span class="sxs-lookup"><span data-stu-id="6e507-112">Permissions (from least privileged to most privileged)</span></span> |
 |------------------------------------|--------------------------------------------------------|
-| <span data-ttu-id="a9da2-113">مفوض (حساب عمل أو مدرسة)</span><span class="sxs-lookup"><span data-stu-id="a9da2-113">Delegated (work or school account)</span></span> | <span data-ttu-id="a9da2-114">user\_impersonation</span><span class="sxs-lookup"><span data-stu-id="a9da2-114">user\_impersonation</span></span>                                    |
+| <span data-ttu-id="6e507-113">مفوض (حساب عمل أو مدرسة)</span><span class="sxs-lookup"><span data-stu-id="6e507-113">Delegated (work or school account)</span></span> | <span data-ttu-id="6e507-114">user\_impersonation</span><span class="sxs-lookup"><span data-stu-id="6e507-114">user\_impersonation</span></span>                                    |
 
-## <a name="https-request"></a><span data-ttu-id="a9da2-115">طلب HTTPS</span><span class="sxs-lookup"><span data-stu-id="a9da2-115">HTTPS request</span></span>
+## <a name="https-request"></a><span data-ttu-id="6e507-115">طلب HTTPS</span><span class="sxs-lookup"><span data-stu-id="6e507-115">HTTPS request</span></span>
 
 <!-- { "blockType": "ignored" } -->
 ```HTTP
 POST https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/MyLeaveRequests(RequestId='{requestId}', LeaveType='{leaveType}', LeaveDate={leaveDate}, dataAreaId={dataArea})/Microsoft.Dynamics.DataEntities.submit?cross-company=true
 ```
 
-<span data-ttu-id="a9da2-116">يتوافق الطلب مع مقاييس OData.</span><span class="sxs-lookup"><span data-stu-id="a9da2-116">The request conforms to OData standards.</span></span> <span data-ttu-id="a9da2-117">تشير المعلمات {requestId} و {leaveType} و {leaveDate}و {dataArea} إلى الحقول التي تشكل المفتاح الطبيعي المركب لكيان MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="a9da2-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="6e507-116">يتوافق الطلب مع مقاييس OData.</span><span class="sxs-lookup"><span data-stu-id="6e507-116">The request conforms to OData standards.</span></span> <span data-ttu-id="6e507-117">تشير المعلمات {requestId} و {leaveType} و {leaveDate}و {dataArea} إلى الحقول التي تشكل المفتاح الطبيعي المركب لكيان MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="6e507-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a9da2-118">بينما تشير حقول الكيان MyLeaveRequests إلى بند فردي في طلب الإجازه، فان استدعاء واجهة API الخاصة بالإرسال سيرسل طلب الإجازة كاملاً (كافة البنود) إلى سير العمل.</span><span class="sxs-lookup"><span data-stu-id="a9da2-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
+> <span data-ttu-id="6e507-118">بينما تشير حقول الكيان MyLeaveRequests إلى بند فردي في طلب الإجازه، فان استدعاء واجهة API الخاصة بالإرسال سيرسل طلب الإجازة كاملاً (كافة البنود) إلى سير العمل.</span><span class="sxs-lookup"><span data-stu-id="6e507-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
 
-### <a name="request-headers"></a><span data-ttu-id="a9da2-119">رؤوس الطلبات</span><span class="sxs-lookup"><span data-stu-id="a9da2-119">Request headers</span></span>
+### <a name="request-headers"></a><span data-ttu-id="6e507-119">رؤوس الطلبات</span><span class="sxs-lookup"><span data-stu-id="6e507-119">Request headers</span></span>
 
-| <span data-ttu-id="a9da2-120">رأس</span><span class="sxs-lookup"><span data-stu-id="a9da2-120">Header</span></span>         | <span data-ttu-id="a9da2-121">قيمة</span><span class="sxs-lookup"><span data-stu-id="a9da2-121">Value</span></span>                     |
+| <span data-ttu-id="6e507-120">رأس</span><span class="sxs-lookup"><span data-stu-id="6e507-120">Header</span></span>         | <span data-ttu-id="6e507-121">قيمة</span><span class="sxs-lookup"><span data-stu-id="6e507-121">Value</span></span>                     |
 |----------------|---------------------------|
-| <span data-ttu-id="a9da2-122">التخويل</span><span class="sxs-lookup"><span data-stu-id="a9da2-122">Authorization</span></span>  | <span data-ttu-id="a9da2-123">الحامل {token} (مطلوب)</span><span class="sxs-lookup"><span data-stu-id="a9da2-123">Bearer {token} (required)</span></span> |
-| <span data-ttu-id="a9da2-124">نوع المحتوى</span><span class="sxs-lookup"><span data-stu-id="a9da2-124">Content-Type</span></span>   | <span data-ttu-id="a9da2-125">application/json</span><span class="sxs-lookup"><span data-stu-id="a9da2-125">application/json</span></span>          |
+| <span data-ttu-id="6e507-122">التخويل</span><span class="sxs-lookup"><span data-stu-id="6e507-122">Authorization</span></span>  | <span data-ttu-id="6e507-123">الحامل {token} (مطلوب)</span><span class="sxs-lookup"><span data-stu-id="6e507-123">Bearer {token} (required)</span></span> |
+| <span data-ttu-id="6e507-124">نوع المحتوى</span><span class="sxs-lookup"><span data-stu-id="6e507-124">Content-Type</span></span>   | <span data-ttu-id="6e507-125">application/json</span><span class="sxs-lookup"><span data-stu-id="6e507-125">application/json</span></span>          |
 
-### <a name="request-body"></a><span data-ttu-id="a9da2-126">نص الطلب</span><span class="sxs-lookup"><span data-stu-id="a9da2-126">Request body</span></span>
+### <a name="request-body"></a><span data-ttu-id="6e507-126">نص الطلب</span><span class="sxs-lookup"><span data-stu-id="6e507-126">Request body</span></span>
 
-<span data-ttu-id="a9da2-127">لا تقم بتقديم نص طلب لهذا الأسلوب.</span><span class="sxs-lookup"><span data-stu-id="a9da2-127">Don't supply a request body for this method.</span></span>
+<span data-ttu-id="6e507-127">لا تقم بتقديم نص طلب لهذا الأسلوب.</span><span class="sxs-lookup"><span data-stu-id="6e507-127">Don't supply a request body for this method.</span></span>
 
-### <a name="response"></a><span data-ttu-id="a9da2-128">استجابة</span><span class="sxs-lookup"><span data-stu-id="a9da2-128">Response</span></span>
+### <a name="response"></a><span data-ttu-id="6e507-128">استجابة</span><span class="sxs-lookup"><span data-stu-id="6e507-128">Response</span></span>
 
-<span data-ttu-id="a9da2-129">الاستجابة الناجحة دائمًا هي استجابة **لا يوجود محتوى 204**.</span><span class="sxs-lookup"><span data-stu-id="a9da2-129">A successful response is always a **204 No Content** response.</span></span>
+<span data-ttu-id="6e507-129">الاستجابة الناجحة دائمًا هي استجابة **لا يوجود محتوى 204**.</span><span class="sxs-lookup"><span data-stu-id="6e507-129">A successful response is always a **204 No Content** response.</span></span>
 
-<span data-ttu-id="a9da2-130">سيتلقى المتصلون غير المصرح لهم الرد **غير مصرح 401** أو **ممنوع 403**.</span><span class="sxs-lookup"><span data-stu-id="a9da2-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
+<span data-ttu-id="6e507-130">سيتلقى المتصلون غير المصرح لهم الرد **غير مصرح 401** أو **ممنوع 403**.</span><span class="sxs-lookup"><span data-stu-id="6e507-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
 
-<span data-ttu-id="a9da2-131">إذا لم تنجح عملية التسليم (بسبب التحقق من الصحة، على سبيل المثال) ، فان الاستجابة ستكون **خطأ في الخادم 500**، وسيتضمن نص الاستجابة كائن JSON مع مزيد من التفاصيل.</span><span class="sxs-lookup"><span data-stu-id="a9da2-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
+<span data-ttu-id="6e507-131">إذا لم تنجح عملية التسليم (بسبب التحقق من الصحة، على سبيل المثال) ، فان الاستجابة ستكون **خطأ في الخادم 500**، وسيتضمن نص الاستجابة كائن JSON مع مزيد من التفاصيل.</span><span class="sxs-lookup"><span data-stu-id="6e507-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a9da2-132">مثال</span><span class="sxs-lookup"><span data-stu-id="a9da2-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6e507-132">مثال</span><span class="sxs-lookup"><span data-stu-id="6e507-132">Example</span></span>
 
 ```http
 POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespaces/b2eb8003-334f-4a84-ab63-edbe23569090/data/MyLeaveRequests(RequestId='USMF-000065', LeaveType='Vacation', LeaveDate=2019-10-04T12:00:00Z, dataAreaId='USMF')/Microsoft.Dynamics.DataEntities.submit
@@ -92,21 +91,21 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 }
 ```
 
-## <a name="validation-and-error-messages"></a><span data-ttu-id="a9da2-133">رسائل التحقق من الصحة ورسائل الخطأ</span><span class="sxs-lookup"><span data-stu-id="a9da2-133">Validation and error messages</span></span>
+## <a name="validation-and-error-messages"></a><span data-ttu-id="6e507-133">رسائل التحقق من الصحة ورسائل الخطأ</span><span class="sxs-lookup"><span data-stu-id="6e507-133">Validation and error messages</span></span>
 
-<span data-ttu-id="a9da2-134">كجزء من استدعاء API الخاص بالإرسال، تتحقق الموارد البشرية من صحة منطق العمل قبل الإرسال، مما يضمن وجود طلب الإجازة في حالة صالحة للإرسال.</span><span class="sxs-lookup"><span data-stu-id="a9da2-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="a9da2-135">رسائل الخطأ المحتملة التي قد تتلقاها في الاستجابة إذا فشلت عملية التحقق من الصحة:</span><span class="sxs-lookup"><span data-stu-id="a9da2-135">The possible error messages you may receive in the response if validations fail are:</span></span>
+<span data-ttu-id="6e507-134">كجزء من استدعاء API الخاص بالإرسال، تتحقق الموارد البشرية من صحة منطق العمل قبل الإرسال، مما يضمن وجود طلب الإجازة في حالة صالحة للإرسال.</span><span class="sxs-lookup"><span data-stu-id="6e507-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="6e507-135">رسائل الخطأ المحتملة التي قد تتلقاها في الاستجابة إذا فشلت عملية التحقق من الصحة:</span><span class="sxs-lookup"><span data-stu-id="6e507-135">The possible error messages you may receive in the response if validations fail are:</span></span>
 
- - <span data-ttu-id="a9da2-136">قد يضع الطلب الرصيد '{LeaveTypeId}' تحت الحد الأدنى للرصيد المسوح به في {date}.</span><span class="sxs-lookup"><span data-stu-id="a9da2-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
- - <span data-ttu-id="a9da2-137">لا يمكن إرسال طلب زمن التوقف في حالة مكتملة.</span><span class="sxs-lookup"><span data-stu-id="a9da2-137">Time off request in Completed state cannot be submitted.</span></span>
- - <span data-ttu-id="a9da2-138">لا يمكن إرسال طلب أو حفظه لأنه لم يتم إجراء أية تغييرات.</span><span class="sxs-lookup"><span data-stu-id="a9da2-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="a9da2-139">قم بإضافة أو تحديث المبلغ أو نوع الإجازة ثم حاول مرة أخرى.</span><span class="sxs-lookup"><span data-stu-id="a9da2-139">Add or update the amount or the leave type and try again.</span></span>
- - <span data-ttu-id="a9da2-140">طلب زمن التوقف الذي أدخلته يحتوي على يوم واحد أو أكثر بنفس التاريخ ونوع الإجازة كطلب معلق موجود.</span><span class="sxs-lookup"><span data-stu-id="a9da2-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="a9da2-141">الرجاء استدعاء الطلب الموجود لإجراء التغييرات.</span><span class="sxs-lookup"><span data-stu-id="a9da2-141">Please recall the existing request to make changes.</span></span>
- - <span data-ttu-id="a9da2-142">لا ينطبق رمز السبب '{ReasonCodeId}' على أي من أنواع الإجازات في الطلب.</span><span class="sxs-lookup"><span data-stu-id="a9da2-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
- - <span data-ttu-id="a9da2-143">يتطلب نوع الإجازة '{LeaveTypeId}' رمز سبب.</span><span class="sxs-lookup"><span data-stu-id="a9da2-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="a9da2-144">حدد النوع المناسب ورمز السبب.</span><span class="sxs-lookup"><span data-stu-id="a9da2-144">Select the appropriate type and reason code.</span></span>
- - <span data-ttu-id="a9da2-145">لم يتم إرسال زمن التوقف بنجاح.</span><span class="sxs-lookup"><span data-stu-id="a9da2-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="a9da2-146">تم حفظ زمن التوقف كطلب مسودة.</span><span class="sxs-lookup"><span data-stu-id="a9da2-146">The time off has been saved as a draft request.</span></span>
+ - <span data-ttu-id="6e507-136">قد يضع الطلب الرصيد '{LeaveTypeId}' تحت الحد الأدنى للرصيد المسوح به في {date}.</span><span class="sxs-lookup"><span data-stu-id="6e507-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
+ - <span data-ttu-id="6e507-137">لا يمكن إرسال طلب زمن التوقف في حالة مكتملة.</span><span class="sxs-lookup"><span data-stu-id="6e507-137">Time off request in Completed state cannot be submitted.</span></span>
+ - <span data-ttu-id="6e507-138">لا يمكن إرسال طلب أو حفظه لأنه لم يتم إجراء أية تغييرات.</span><span class="sxs-lookup"><span data-stu-id="6e507-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="6e507-139">قم بإضافة أو تحديث المبلغ أو نوع الإجازة ثم حاول مرة أخرى.</span><span class="sxs-lookup"><span data-stu-id="6e507-139">Add or update the amount or the leave type and try again.</span></span>
+ - <span data-ttu-id="6e507-140">طلب زمن التوقف الذي أدخلته يحتوي على يوم واحد أو أكثر بنفس التاريخ ونوع الإجازة كطلب معلق موجود.</span><span class="sxs-lookup"><span data-stu-id="6e507-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="6e507-141">الرجاء استدعاء الطلب الموجود لإجراء التغييرات.</span><span class="sxs-lookup"><span data-stu-id="6e507-141">Please recall the existing request to make changes.</span></span>
+ - <span data-ttu-id="6e507-142">لا ينطبق رمز السبب '{ReasonCodeId}' على أي من أنواع الإجازات في الطلب.</span><span class="sxs-lookup"><span data-stu-id="6e507-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
+ - <span data-ttu-id="6e507-143">يتطلب نوع الإجازة '{LeaveTypeId}' رمز سبب.</span><span class="sxs-lookup"><span data-stu-id="6e507-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="6e507-144">حدد النوع المناسب ورمز السبب.</span><span class="sxs-lookup"><span data-stu-id="6e507-144">Select the appropriate type and reason code.</span></span>
+ - <span data-ttu-id="6e507-145">لم يتم إرسال زمن التوقف بنجاح.</span><span class="sxs-lookup"><span data-stu-id="6e507-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="6e507-146">تم حفظ زمن التوقف كطلب مسودة.</span><span class="sxs-lookup"><span data-stu-id="6e507-146">The time off has been saved as a draft request.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a9da2-147">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="a9da2-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6e507-147">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="6e507-147">See also</span></span>
 
-- [<span data-ttu-id="a9da2-148">نظره عامة على MyLeaveRequests</span><span class="sxs-lookup"><span data-stu-id="a9da2-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
-- [<span data-ttu-id="a9da2-149">المصادقة</span><span class="sxs-lookup"><span data-stu-id="a9da2-149">Authentication</span></span>](hr-developer-api-authentication.md)
+- [<span data-ttu-id="6e507-148">نظره عامة على MyLeaveRequests</span><span class="sxs-lookup"><span data-stu-id="6e507-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
+- [<span data-ttu-id="6e507-149">المصادقة</span><span class="sxs-lookup"><span data-stu-id="6e507-149">Authentication</span></span>](hr-developer-api-authentication.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
