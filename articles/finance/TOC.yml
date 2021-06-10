@@ -70,8 +70,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: الجديد أو المتغير في Finance
                   items:
-                    - name: الجديد أو المتغير‬ في صفحة Finance الرئيسية
+                    - name: المزايا الجديدة أو المتغيرة‬ في الصفحة الرئيسية لـ Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20 (يوليو 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (يوليو 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (مايو 2021)
@@ -1158,11 +1160,13 @@
                   href: general-ledger/change-mdfy-clndr-to-ledger.md
                 - name: عكس الإعدادات في دفاتر اليومية والبنود
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
-                - name: إقفال نهاية السنة يفتقد إلى الأرصدة الافتتاحية
+                - name: إقفال نهاية السنة يفتقد الأرصدة الافتتاحية
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: فتح قوالب دفتر اليومية المالي في Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: إعداد التقارير المالية
           items:
-            - name: الشروع في العمل مع إعداد التقارير المالية
+            - name: الشروع في العمل من خلال إعداد التقارير المالية
               href: general-ledger/financial-reporting-getting-started.md
             - name: نظرة عامة على إعداد التقارير المالية
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: إضافة حقول البيانات في تكامل الضريبة باستخدام الملحقات
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: أرقام تسجيل ضريبة القيمة المضافة المتعدد
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: إعداد بيئة للبحث عن البيانات الرئيسية
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: أرقام تسجيل ضريبة القيمة المضافة المتعدد
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: إعداد التقارير لتسجيلات ضريبة القيمة المضافة المتعددة
+                      items:
+                        - name: إعداد التقارير لتسجيلات ضريبة القيمة المضافة المتعددة
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: إعداد التقارير في هولندا
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة (VAT)
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: قائمة مبيعات الاتحاد الأوروبي
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: تحديثات تنظيمية
               href: localizations/regulatory-updates.md
             - name: أستراليا
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: تمكين معالجة الدفعات المتعددة لتقارير GSTR
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: استكشاف أخطاء GST وإصلاحها
+                          items:
+                            - name: مبلغ الضريبة غير صحيح بعد الحساب
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: أخطاء في تكوين الضريبة
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: لم يتم حساب الضريبة
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: يستغرق تنشيط قواعد المقاصة الضريبية وقتًا أطول من المتوقع
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: لم يتم إنشاء TaxTrans أو الإيصال
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: معرف الحركة الضريبية غير صحيح
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: الضرائب المباشرة
                   items:
                     - name: ضريبة الخصم في الهند
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: ملف مراجعة (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: إقرار ضريبة القيمة المضافة (هولندا)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: قائمة مبيعات الاتحاد الأوروبي
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: النرويج
               items:
                 - name: نظرة عامة على النرويج
@@ -4123,7 +4155,7 @@
                   items:
                     - name: تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنات مع القيم الأساسية
+                    - name: تحسين تتبع نتائج التقارير الإلكترونية (ER) لمقارنتها بالقيم الأساسية
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
