@@ -1,5 +1,5 @@
 ---
-title: فئات أنواع مهام الصيانة وأنواع مهام الصيانة، ومتغيرات أنواع مهام الصيانة، ومعاملات مهام الصيانة، وقوائم فحص الصيانة
+title: أنواع مهمة الصيانة والفئات والمتغيرات والعمليات التجارية وقوائم الفحص
 description: يصف هذا الموضوع فئات أنواع مهام الصيانة وأنواع مهام الصيانة ومتغيرات أنواع مهام الصيانة ومعاملات مهام الصيانة وقوائم فحص الصيانة في إدارة الأصول.
 author: johanhoffmann
 ms.date: 08/13/2019
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb73fb36ee31d93b2121437d57d959ba6c01a337
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842263"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117073"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>فئات أنواع مهام الصيانة وأنواع مهام الصيانة، ومتغيرات أنواع مهام الصيانة، ومعاملات مهام الصيانة، وقوائم فحص الصيانة
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>أنواع مهمة الصيانة والفئات والمتغيرات والعمليات التجارية وقوائم الفحص
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 يتم إرفاق نوع أصل بكل أصل. تعرّف أنواع الأصول أنواع مهام الصيانة (وبالتالي، مهام الصيانة) التي يمكن تنفيذها على الأصول. عندما تنشئ أمر عمل، يجب تحديد نوع مهمة صيانة. ويمكنك تحديد فقط أنواع مهام الصيانة المرتبطة بإعداد نوع الأصل المستخدم للأصل.
 

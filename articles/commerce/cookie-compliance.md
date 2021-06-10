@@ -2,7 +2,7 @@
 title: توافق ملفات تعريف الارتباط
 description: يصف هذا الموضوع اعتبارات توافق ملفات تعريف الارتباط والسياسات الافتراضية المضمنة في Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 04/16/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908174"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088376"
 ---
 # <a name="cookie-compliance"></a>توافق ملفات تعريف الارتباط
 
@@ -52,8 +52,7 @@ ms.locfileid: "5908174"
 | x-ms-cpim-trans                             | مستخدم لتعقب الحركات (عدد علامات التبويب المفتوحة التي يتم مصادقتها مقابل موقع العمل إلى المستهلك (B2C))، بما في ذلك الحركة الحالية. |
 | \_msdyn365___muid_                            | يتم استخدامه إذا تم تنشيط الاختبار‬ للبيئة؛ استخدامه كمعرف مستخدم لأغراض الاختبار. |
 | \_msdyn365___exp_                             | يتم استخدامه إذا تم تنشيط الاختبار للبيئة؛ يتم استخدامه لقياس موازنة حمل الأداء.         |
-
-
+| d365mkt                                       | يتم استخدامه في حالة تمكين الكشف المستند إلى الموقع لتعقب عنوان IP الخاص بالمستخدم لاقتراحات مواقع المخزن في منشئ موقع Commerce في **إعدادات الموقع > عام > تمكين اكتشاف مخزن استنادًا إلى الموقع**.      |
 
 إذا قام مستخدم الموقع بتحديد أي ارتباطات وسائل تواصل اجتماعي ضمن موقع ما، سيتم أيضًا تعقب ملفات تعريف الارتباط الموجودة في الجدول التالي في المستعرض الخاص بها.
 

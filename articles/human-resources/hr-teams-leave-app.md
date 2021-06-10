@@ -2,13 +2,12 @@
 title: إدارة طلبات الإجازة في Teams
 description: يوضح هذا الموضوع كيفية طلب إجازة في تطبيقات Dynamics 365 Human Resources في Microsoft Teams.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953402"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097249"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
@@ -33,21 +32,13 @@ ms.locfileid: "5953402"
 
 يمكنك العثور على تطبيق Dynamics 365 Human Resources في متجر Teams.
 
-1. في Microsoft Teams، حدد علامة القطع.
-
-   ![علامة القطع لتطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-ellipses.png)
+1. في Microsoft Teams، انتقل إلى قائمة التطبيقات.
  
 2. ابحث عن Dynamics 365 Human Resources، ثم حدد تجانب **Human Resources**.
 
-   ![تجانب HR لتطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. حدد زر **إضافة** لتثبيت التطبيق.
 
-   ![تثبيت تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-in-store.png)
-
 إذا لم يقم التطبيق بتسجيل الدخول تلقائيًا، حدد علامة التبويب **إعدادات** لتسجيل الدخول.
-
-![علامة تبويب الإعدادات في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > إذا كنت لا ترى مربع حوار تسجيل الدخول، فتحقق من إعدادات المستعرض للسماح بالإطارات المنبثقة. 
@@ -61,20 +52,24 @@ ms.locfileid: "5953402"
 
 بعد تثبيت التطبيق، تظهر رسالة ترحيب تسمح لك بمعرفة أنواع الإجراءات التي يمكن للروبوت القيام بها بالنيابة عنك.
 
-![رسالة الترحيب من روبوت تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > عند التفاعل الأول مع الروبوت، قد تحتاج إلى تسجيل الدخول. إذا كنت لا ترى مربع حوار تسجيل الدخول، فتحقق من إعدادات المستعرض للسماح بالإطارات المنبثقة.
 
 يمكنك مطالبة الروبوت بما يلي:
 
-- ابدأ طلب إجازة لك.
+- اعرض أرصدة الإجازة الحالية. على سبيل المثال، قم بإرسال رسالة تقول، "عرض أرصدة الإجازة".
+
+- ابدأ طلب إجازة لك. على سبيل المثال، قم بإرسال رسالة تقول، "طلب إجازة" أو "أرغب في طلب إجازة يومي الخميس والجمعة" لكي تكون أكثر تحديدًا في طلب إجازة لهذا النوع من الإجازات. 
 
   ![بدء طلب إجازة في محادثة Teams](./media/hr-teams-leave-app-initiate.png)
 
 - سيقوم روبوت المحادثة بملء طلب الإجازة لك. حدد **طلب إجازة** وقم بتحرير التفاصيل الخاصة بطلبك.
 
-  ![تحرير تفاصيل طلب الإجازة](./media/hr-teams-leave-app-details.png)
+   إذا كنت ترغب في إرسال طلبات الاحتفاظ بأنواع الإجازات المتعددة لنفس التاريخ، حدد الخيار **تقسيم اليوم مع** من القائمة **مزيد من الخيارات**. 
+
+   إذا قمت بتحديد نصف يوم إجازة عندما تكون وحدة طلب الإجازة بالأيام، فإنه يمكنك تحديد ما إذا كنت ترغب في طلب إجازة من النصف الأول أو النصف الثاني عن طريق تحديد الخيار **تعريف نصف اليوم** من القائمة **مزيد من الخيارات**.
+   
+   ![تعريفات نصف اليوم](./media/HalfDayDefinitions.png)
 
 - عند الانتهاء من تحرير تفاصيل طلب الإجازة، حدد **إرسال** لإرساله للاعتماد.
 
@@ -91,42 +86,36 @@ ms.locfileid: "5953402"
 - طلبات الإجازة
 
 - مسودات طلبات الإجازات
-
-![علامة تبويب الإجازة في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>إنشاء طلب جديد
 
 1. لإنشاء طلب إجازة جديد، حدد **طلب جديد**.
 
-   ![طلب جديد في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. أدخل اليوم أو الأيام التي تريد أخذها إجازة، ثم حدد **إضافة**.
 
-   ![إضافة إجازة في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![إضافة إجازة في تطبيق الإجازات لـ Human Resources في Teams](./media/TimeOffHours.png)
 
 3. إن أمكن، أدخل رمز السبب. وقم أيضا بإدخال أية تعليقات وإضافة أية مرفقات.
 
-4. عند الانتهاء من إدخال المعلومات، اكتب **إرسال** لإرسال الطلب للموافقة. يمكنك أيضًا كتابة **حفظ كمسودة** للعودة إليه لاحقًا.
+4. حدد الخيار **تقسيم اليوم مع** من القائمة **مزيد من الخيارات** إذا كنت ترغب في إرسال إدخالات طلبات الإجازة المتعددة للتاريخ نفسه لأنواع إجازة مختلفة.
+
+5. حدد الخيار **تعريف نصف اليوم** لتحديد ما إذا كنت ترغب في طلب إجازة في نصف اليوم الأول أم نصف اليوم الثاني. يتوفر هذا الخيار عندما تكون وحدة طلب الإجازة بالأيام والعدد المطلوب هو 0.5 يومًا.
+
+6. عندما تنتهي من إدخال المعلومات، أدخل **إرسال** لإرسال الطلب للموافقة. يمكنك أيضًا إدخال **حفظ كمسودة** للعودة إليه لاحقًا.
 
 ### <a name="manage-draft-requests"></a>إدارة مسودات الطلبات
 
 1. حدد علامة التبويب **المسودات**.
 
-   ![علامة تبويب المسودات في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. حدد القلم الرصاص لتحرير الطلب، أو حدد سلة المهملات لكي يمكنك حذف الطلب.
 
 3. قم بإجراء أية تغييرات ضرورية. عند الانتهاء من إدخال المعلومات، اكتب **إرسال** لإرسال الطلب للموافقة. يمكنك أيضًا تحديد **حفظ كمسودة** للعودة إلى المسودة لاحقًا.
-
-   ![تحرير مسودة في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>الاستجابة لإخطارات Teams
 
 عندما تقوم أنت أو عامل أنت القائم بالموافقة بالنسبة له بإرسال طلب إجازة، ستتلقى إعلامًا في تطبيق Human Resources في Teams. يمكنك تحديد الإعلام لعرضه. تظهر الإعلامات أيضًا في منطقة **الدردشة**.
 
 إذا كنت القائم بالموافقة، فيمكنك تحديد **موافقة** أو **رفض** في الإعلام. يمكنك أيضًا توفير رسالة اختيارية.
-
-![إعلام طلب إجازة في تطبيق Human Resources Teams](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>إرسال معلومات وقت الإجازة القادم إلى الزملاء
 
@@ -138,15 +127,9 @@ ms.locfileid: "5953402"
 
 2. حدد طلب الإجازة الذي ترغب في مشاركته. إذا أردت مشاركة طلب إجازة تمهيدي، فحدد **المسودات** أولاً.
 
-   ![تحديد طلب إجازة قادم لمشاركته](./media/hr-teams-leave-app-chat-search.png)
-
 سيظهر طلب إجازتك في الدردشة.
 
-![بطاقة طلب إجازة في Human Resources](./media/hr-teams-leave-app-chat-card.png)
-
-إذا كنت قد شاركت طلبًا تمهيديًا، فسيظهر كمسودة:
-
-![بطاقة طلب إجازة تمهيدي في Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
+إذا كنت قد شاركت طلب مسودة، فسيظهر كمسودة.
 
 ## <a name="view-your-teams-leave-calendar"></a>عرض تقويم الإجازات لفريقك
 
@@ -155,8 +138,6 @@ ms.locfileid: "5953402"
 1. في تطبيق Human Resources في Teams، حدد **إجازة**.
 
 2. حدد **تقويم الفريق**. يعرض التقويم إجازات المرؤوسين المباشرين الموافق عليها والمعلقة.
-
-   ![عرض التقويم في تطبيق Human Resources Teams](./media/hr-teams-leave-app-view-calendar.png)
 
    > [!NOTE]
    > إذا لم تتمكن من رؤية تقويم الفريق، فاطلب من المسؤول تمكينه. لمزيد من المعلومات، راجع [التثبيت والإعداد](hr-admin-teams-leave-app.md#install-and-setup).

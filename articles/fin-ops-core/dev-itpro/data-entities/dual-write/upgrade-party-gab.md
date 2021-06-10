@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018302"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112663"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>الترقية إلى الطرف ونموذج دفتر العناوين العمومي
 
@@ -22,28 +22,29 @@ ms.locfileid: "6018302"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يساعدك [قالب Azure Data Factory](https://aka.ms/dual-write-gab-adf) على ترقية بيانات جدول **حساب** و **جهة اتصال** و **مورّد** موجود في الكتابة المزدوجة إلى نموذج الطرف ودفتر العناوين العمول يقوم القالب بتسوية البيانات من تطبيقات Finance and Operations وتطبيقات مشاركة العميل. في نهاية العملية، سيتم إنشاء حقلي **الطرف** و **جهة الاتصال** لسجلات **الطرف** وربطها بسجلات **الحساب** و **جهة الاتصال** و **المورّد** في تطبيقات مشاركة العميل. يتم إنشاء ملف csv. (`FONewParty.csv`) لإنشاء سجلات **طرف** جديدة داخل تطبيق Finance and Operations. يوفر هذا الموضوع الإرشادات الخاصة باستخدام قالب Data Factory وترقية البيانات.
+يساعدك قالب [Microsoft Azure Data Factory](https://aka.ms/dual-write-gab-adf) على ترقية بيانات جدول **حساب** و **جهة اتصال** و **مورّد** موجود في الكتابة المزدوجة إلى نموذج الطرف ودفتر العناوين العمومي. يقوم القالب بتسوية البيانات من تطبيقات finance and operations وتطبيقات customer engagement. في نهاية العملية، سيتم إنشاء حقلي **الطرف** و **جهة الاتصال** لسجلات **الطرف** وربطها بسجلات **الحساب** و **جهة الاتصال** و **المورّد** في تطبيقات مشاركة العميل. يتم إنشاء ملف .csv (`FONewParty.csv`) لإنشاء سجلات **طرف** جديدة داخل تطبيق finance and operations. يوفر هذا الموضوع الإرشادات الخاصة حول كيفية استخدام قالب Data Factory وترقية البيانات.
 
 إذا لم يكن لديك أي تخصيصات، فيمكنك استخدام القالب كما هو. إذا كانت لديك تخصيصات لسجلات **الحساب** و **جهة الاتصال** و **المورّد**، فيجب تعديل القالب باستخدام الإرشادات التالية.
 
-> [!Note]
-> يساعدك القالب على ترقية بيانات **الطرف**. سيتم تضمين العناوين البريدية والإلكترونية في إصدار مستقبلي.
+> [!NOTE]
+> يساعدك القالب على ترقية بيانات **الطرف** فقط. سيتم تضمين العناوين البريدية والإلكترونية في إصدار مستقبلي.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-هذه المتطلبات الأساسية مطلوبة:
+المتطلبات الأساسية التالية مطلوبة للترقية إلى الطرف ونموذج دفتر العناوين العمومي:
 
 + [اشتراك Azure](https://portal.azure.com/)
 + [الوصول إلى القالب](https://aka.ms/dual-write-gab-adf)
-+ أنت عميل موجود للكتابة المزدوجة.
++ يجب أن تكون عميل موجود للكتابة المزدوجة.
 
 ## <a name="prepare-for-the-upgrade"></a>التحضير للترقية
+الأنشطة التالية ضرورية للتحضير للترقية:
 
 + **متزامنة بالكامل**: البيئتان في حالة متزامنة بالكامل لسجلات **الحساب (العميل)** و **جهة الاتصال** و **المورّد**.
 + **مفاتيح التكامل**: تستخدم جداول **الحساب (العميل)** و **جهة الاتصال** و **المورّد** في تطبيقات مشاركة العميل مفاتيح التكامل المشحونة الجاهزة. إذا قمت بتخصيص مفاتيح التكامل، فيجب تخصيص القالب.
 + **رقم الطرف**: سيكون لجميع سجلات **الحساب (العميل)** و **جهة الاتصال** و **المورّد** التي سيتم ترقيتها رقم **طرف**. سيتم تجاهل السجلات التي لا تحتوي على رقم **طرف**. إذا كنت ترغب في ترقية تلك السجلات، فيمكنك إضافة رقم **طرف** إليها قبل بدء عملية الترقية.
-+ **انقطاع العمل في النظام**: أثناء عملية الترقية، يجب عليك وضع بيئات Finance and Operations وبيئات مشاركة العميل في وضع عدم الاتصال.
-+ **لقطة**: خذ لقطات لتطبيقات Finance and Operations وتطبيقات مشاركة العميل. استخدم اللقطات لاسترجاع الحالة السابقة إذا احتجت لذلك.
++ **انقطاع العمل في النظام**: أثناء عملية الترقية، يجب عليك وضع بيئات finance and operations وبيئات مشاركة العميل في وضع عدم الاتصال.
++ **لقطة**: خذ لقطات لتطبيقات finance and operations وتطبيقات customer engagement. استخدم اللقطات لاسترجاع الحالة السابقة إذا احتجت لذلك.
 
 ## <a name="deployment"></a>النشر
 
@@ -78,15 +79,19 @@ ms.locfileid: "6018302"
     FO Linked Service_properties_type Properties_tenant | حدد معلومات المستأجر (اسم المجال أو معرف المستأجر) الذي يوجد تطبيقك ضمنه.
     FO Linked Service_properties_type Properties_aad Resource Id | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO Linked Service_properties_type Properties_service Principal Id | حدد معرف عميل التطبيق.
-    Dynamics Crm Linked Service_properties_type Properties_username | اسم المستخدم الذي سيتصل بـ Dynamics.
+    Dynamics Crm Linked Service_properties_type Properties_username | اسم المستخدم الذي سيتصل بـ Dynamics 365.
 
-    لمزيد من المعلومات، راجع [ترقية قالب إدارة الموارد يدويًا لكل بيئة](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)، و[خصائص الخدمة المرتبطة](/azure/data-factory/connector-dynamics-ax#linked-service-properties)، و[نسخ البيانات باستخدام Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    للحصول على معلومات إضافية، ارجع إلى المواضيع التالية: 
+    
+    - [ترقية قالب Resource Manager يدويًا لكل بيئة](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [خصائص الخدمة المرتبطة](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [نسخ البيانات باستخدام Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. بعد عملية النشر، تحقق من صحة مجموعات البيانات وتدفق البيانات والخدمة المرتبطة لمصنع البيانات.
 
    ![مجموعات البيانات وتدفق البيانات والخدمة المرتبطة](media/data-factory-validate.png)
 
-11. انتقل إلى **إدارة**. ضمن **الاتصالات**، حدد **الخدمة المرتبطة**. حدد **DynamicsCrmLinkedService**. في النموذج **تحرير الخدمة المرتبطة (Dynamics CRM)**، أدخل القيم التالية:
+11. انتقل إلى **إدارة**. ضمن **الاتصالات**، حدد **الخدمة المرتبطة**. حدد **DynamicsCrmLinkedService**. في النموذج **تحرير الخدمة المرتبطة (Dynamics CRM)**، أدخل القيم التالية.
 
     الحقل | قيمة
     ---|---
@@ -102,7 +107,7 @@ ms.locfileid: "6018302"
 
 ## <a name="run-the-template"></a>تشغيل القالب
 
-1. أوقف الكتابة المزدوجة في **الحساب** و **جهة  الاتصال** و **المورّد** باستخدام تطبيق Finance and Operations.
+1. أوقف الخرائط ثنائية الكتابة في **الحساب** و **جهة الاتصال** و **المورّد** باستخدام تطبيق Finance and Operations.
 
     + العملاء V3 (الحسابات)
     + العملاء V3 (جهات الاتصال)
@@ -114,7 +119,7 @@ ms.locfileid: "6018302"
 
 3. ثبّت [حلول الكتابة المزدوجة للطرف ودفتر العناوين العمومي](https://aka.ms/dual-write-gab) من AppSource.
 
-4. في تطبيق Finance and Operations، إذا كانت الجداول التالية تحتوي على بيانات، فشغّل **المزامنة الأولية** لها.
+4. في تطبيق the finance and operations، إذا كانت الجداول التالية تحتوي على بيانات، فشغّل **المزامنة الأولية** لها.
 
     + التحيات
     + أنواع الخصائص الشخصية
@@ -123,7 +128,7 @@ ms.locfileid: "6018302"
     + أدوار صنع القرار
     + مستويات الولاء
 
-5. في تطبيق مشاركة العميل، قم بتعطيل خطوات المكون الإضافي التالية.
+5. في تطبيق customer engagement، قم بتعطيل خطوات المكون الإضافي التالية.
 
     + تحديث الحساب
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: تحديث حساب
@@ -152,16 +157,16 @@ ms.locfileid: "6018302"
     ![تشغيل المشغل](media/data-factory-trigger.png)
 
     > [!NOTE]
-    > إذا كانت لديك تخصيصات لسجلات **الحساب** و **جهة الاتصال** و **المورّد**، فيجب تعديل القالب.
+    > إذا كانت لديك تخصيصات **الحساب** و **جهة الاتصال** و **المورّد**، فيجب تعديل القالب.
 
 8. استورد سجلات **الطرف** الجديد في تطبيق Finance and Operations.
 
     + نزّل الملف `FONewParty.csv` من مخزن البيانات الثنائية كبيرة الحجم لـ Azure. المسار هو `partybootstrapping/output/FONewParty.csv`.
-    + حوّل الملف `FONewParty.csv` إلى ملف Excel واستورد ملف Excel إلى تطبيق Finance and Operations.  إذا نجحت عملية استيراد csv، فيمكنك استيراد ملف csv مباشرة. قد يستغرق تشغيل عملية الاستيراد بضع ساعات، بحسب حجم البيانات. لمزيد من المعلومات راجع [نظرة عامة حول وظائف استيراد البيانات وتصديرها](../data-import-export-job.md).
+    + حول الملف `FONewParty.csv` إلى ملف Excel وقم باستيراد ملف Excel إلى تطبيق finance and operations. إذا نجحت عملية استيراد csv، فيمكنك استيراد ملف csv مباشرة. قد يستغرق تشغيل عملية الاستيراد بضع ساعات، بحسب حجم البيانات. لمزيد من المعلومات راجع [نظرة عامة حول وظائف استيراد البيانات وتصديرها](../data-import-export-job.md).
 
     ![استيراد سجلات طرف Datavers](media/data-factory-import-party.png)
 
-9. في تطبيقات مشاركة العميل، قم بتمكين خطوات المكون الإضافي التالية:
+9. في تطبيقات customer engagement، قم بتمكين خطوات المكون الإضافي التالية:
 
     + تحديث الحساب
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: تحديث حساب
@@ -198,4 +203,4 @@ ms.locfileid: "6018302"
 
 ## <a name="learn-more-about-the-template"></a>اعرف المزيد عن القالب
 
-يمكنك العثور علي تعليقات على القالب في ملف [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+يمكنك الحصول على معلومات إضافية حول القالب في [التعليقات الخاصة بالأداة التمهيدية لقالب Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921413"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112611"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
 
@@ -104,6 +104,39 @@ ms.locfileid: "5921413"
 | **خيارات النشر**              | الكل |
 | **الحالة**                         | مهملة: بحلول 1 أكتوبر 2020، سنتوقف عن دعم **تقرير الضرائب المحلية – مرجع الميزة IT-00003**. |
 
+## <a name="october-2019-deprecation-announcement"></a>إعلان الإهلاك أكتوبر، 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>الرسوم التخطيطية للمخططات الانسيابية‬ في أداة تكوين عمليات الأعمال
+
+<table>
+<tbody>
+<tr>
+<td><strong>سبب الإهلاك/الإزالة</strong></td>
+<td>إننا نهمل مكون المخططات الانسيابية في أداة تكوين عمليات الأعمال (BPM)، لأن التصميم القديم تسبب في الاستخدام المنخفض.</td>
+</tr>
+<tr>
+<td><strong>هل تم الاستبدال بميزة أخرى؟</strong></td>
+<td>لا</td>
+</tr>
+<tr>
+<td><strong>المناطق المتأثرة</strong></td>
+<td>أداة تكوين عمليات الأعمال</td>
+</tr>
+<tr>
+<td><strong>الحالة</strong></td>
+<td>مهمل: يتوقع إزالة مكون المخططات الانسيابية في BPM في 2020. ستكون الوظيفة التالية غير متوفرة:
+<ul>
+<li>ستكون كافة المخططات الانسيابية للقراءة فقط وغير متوفرة للتحرير. لن تتوفر أيضا خصائص الشكل المقترنة بأنشطة المخطط الانسيابي. تتضمن هذه المخططات الانسيابية كلاً من المخططات الانسيابية الافتراضية التي يتم إنشاؤها تلقائيًا والمخططات الانسيابية المخصصة التي يتم تعديلها استنادًا إلى هذه المخططات الانسيابية الافتراضية.</li>
+<li>ستكون خطوات العملية للقراءة فقط وغير متوفرة للتحرير.</li>     
+<li>لن تتوفر ميزة تحليل الملائمة/الفجوة القديمة. ولذلك، لن يتم إنشاء قائمة فجوة تلقائيًا أو تتوفر للتصدير.
+<p><strong>ملاحظه:</strong> تم إهمال هذه الميزة سابقًا واستبدالها بعمليات تكامل DevOps Microsoft Azure.</p>
+</li>
+<li>لن تتوفر محفوظات الإصدار الخاصة بالمخطط الانسيابي.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>الإصدار 10.0.5 من Finance and Operations مع Platform update 29
 

@@ -1,7 +1,7 @@
 ---
 title: تعقب صنف أو مادة خام
 description: يوضح هذا الإجراء كيفية استخدام تتبع صنف لتحديد الموقع الذي تم أو يتم به استخدام الأصناف أو المواد الخام.
-author: pjacobse
+author: sherry-zheng
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: pjacobse
+ms.author: chuzheng
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a3b2ab752089b2c60c5c5e02cb2c558c17dcf8b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e46d75ecab3ec2e94372aecfd2c29783756446
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829802"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102845"
 ---
 # <a name="trace-an-item-or-raw-material"></a>تعقب صنف أو مادة خام
 
