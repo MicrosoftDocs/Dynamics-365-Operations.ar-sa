@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837455"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049282"
 ---
 # <a name="mobile-device-user-settings"></a>إعدادات مستخدم الجهاز المحمول
 
@@ -94,3 +94,8 @@ ms.locfileid: "5837455"
 
     - **معرف طراز الجهاز** – معرف طراز الجهاز، مثل *الكتاب السطحي 2*.
     - **الوصف** – يمكنك إدخال وصف للمساعدة في تمييز معرفات الطُرُز.
+
+## <a name="additional-resources"></a>الموارد الإضافية
+
+- [تثبيت تطبيق إدارة المستودع للأجهزة المحمولة والاتصال به](install-configure-warehouse-management-app.md)
+- [تعيين رموز وعناوين الخطوة لتطبيق الأجهزة المحمولة لـ Warehouse Management](step-icons-titles.md)

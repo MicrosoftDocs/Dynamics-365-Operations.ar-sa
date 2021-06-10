@@ -2,7 +2,7 @@
 title: INDEX ER الوظيفة
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية INDEX (ER).
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f10359a3f20fb9d23639babce764b9ef64243d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5a0fdb8958670efe8e2a37cee183bf836fa6c7e8
+ms.sourcegitcommit: 047b0503868cc7d7b21868e24405d76af35db747
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750450"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087741"
 ---
 # <a name="index-er-function"></a>INDEX ER الوظيفة
 
@@ -43,6 +43,9 @@ INDEX (list, index)
 `index`: *عدد صحيح*
 
 فهرس رقمي يشير إلى موضع السجل المطلوب في القائمة المُحددة.
+
+> [!NOTE]
+> وبسبب استخدام ترقيم يستند إلى واحد لهذه الوظيفة، حدد القيمة **1** لإرجاع السجل الأول من القائمة المحددة.
 
 ## <a name="return-values"></a>إرجاع القيم
 

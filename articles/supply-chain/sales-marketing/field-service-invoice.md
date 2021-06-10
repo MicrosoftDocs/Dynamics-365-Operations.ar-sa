@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f3066741781bd9058e09d7f577a35df4c9b453d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21a77a0289055285f47323803a484c012e662e3a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819198"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102724"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>مزامنة فواتير الاتفاقيات في Field Service مع فواتير النص الحر في Supply Chain Management
 
@@ -68,7 +68,7 @@ ms.locfileid: "5819198"
 **تاريخ الفاتورة** عبارة عن حقل إلزامي في Supply Chain Management. لذلك، يجب أن يكون للعمود قيمة في Field Service قبل إجراء المزامنة. لتلبية هذا المتطلب، تتم إضافة المنطق التالي:
 
 - إذا كان عمود **تاريخ الفاتورة** فارغًا في جدول **الفاتورة** (بمعنى، في حالة عدم وجود قيمة)، يتم تعيينه إلى التاريخ الحالي عندما تتم إضافة بند فاتورة ينشأ من اتفاقية.
-- يمكن للمستخدم تغيير عمود **تاريخ الفاتورة**. ومع ذلك، عندما يحاول المستخدم حفظ فاتورة تنشأ من اتفاقية، فإنه يتلقى خطأ في عملية أعمال إذا كان عمود **تاريخ الفاتورة** فارغاً في الفاتورة.
+- يمكن للمستخدم تغيير عمود **تاريخ الفاتورة**. ومع ذلك، عندما يحاول المستخدم حفظ فاتورة تنشأ من اتفاقية، فإنه يتلقى خطأ في عملية أعمال إذا كان عمود **تاريخ الفاتورة** فارغًا في الفاتورة.
 
 ## <a name="prerequisites-and-mapping-setup"></a>المتطلبات الأساسية وإعداد التعيين
 
@@ -100,11 +100,11 @@ ms.locfileid: "5819198"
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>فواتير الاتفاقيات (Field Service إلى Supply Chain Management): رؤوس الفواتير
 
-[![تعيين القالب في تكامل البيانات](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![تعيين القالب في تكامل البيانات لرؤوس الفواتير](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>فواتير الاتفاقيات (Field Service إلى Supply Chain Management): بنود الفواتير
 
-[![تعيين القالب في تكامل البيانات](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![تعيين القالب في تكامل البيانات لبنود الفواتير](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

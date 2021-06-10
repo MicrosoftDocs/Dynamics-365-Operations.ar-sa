@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82104e401f21c459081f48a5d1f9a0a264288106
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c6e329c2219c57f83ef02f9fa224bcac84fb83fa
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794819"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055450"
 ---
 # <a name="create-a-goal"></a>إنشاء هدف
 
@@ -29,8 +28,8 @@ ms.locfileid: "5794819"
 
 1. انتقل إلى كافة مساحات العمل > خدمة الموظف الذاتية.
 2. انقر فوق "عرض كل الأهداف"
-3. انقر فوق "جديد".
-4. في حقل "الاسم"، اكتب "إكمال مشروع Contoso".
+3. انقر فوق جديد.
+4. في الحقل "الاسم"، اكتب "إكمال مشروع Contoso.
 5. في الحقل "نظرة عامة"، أدخل "سوف أنهي مشروع Contoso في غضون 30 يومًا".
     * يمكن تطبيق الأهداف على فرد أو فريق أو حتى شركة. الإعداد الافتراضي لأهداف الموظف هو "الفرد".  
 6. في حقل "فئة الهدف"، أدخل قيمة أو حددها.

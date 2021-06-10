@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
+ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898050"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6086979"
 ---
 # <a name="finance-insights-home-page-preview"></a>الصفحة الرئيسية ‏‫للمعلومات المالية‬ (معاينة)
 
@@ -123,10 +123,5 @@ ms.locfileid: "5898050"
 ## <a name="feedback-and-support"></a>الملاحظات والدعم
 
 الرجاء إرسال بريد الكتروني إلى [‏‫معلومات دفع العميل (معاينة) ](mailto:fiap@microsoft.com) إذا كنت مهتمًا بتقديم الملاحظات أو تحتاج إلى الدعم.
-
-## <a name="privacy-notice"></a>إشعار الخصوصية
-
-إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
