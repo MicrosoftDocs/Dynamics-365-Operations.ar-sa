@@ -7,38 +7,37 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a8c3655e7ff609eedbf92fa90a36b65002f40306
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: efec8c0a8eb75f818acd4ed02632f1db96719d81
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893462"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054706"
 ---
-# <a name="example-query-for-candidate-to-hire"></a><span data-ttu-id="62265-103">مثال الاستعلام عن مرشح مراد توظيفه</span><span class="sxs-lookup"><span data-stu-id="62265-103">Example query for Candidate to hire</span></span>
+# <a name="example-query-for-candidate-to-hire"></a><span data-ttu-id="17429-103">مثال الاستعلام عن مرشح مراد توظيفه</span><span class="sxs-lookup"><span data-stu-id="17429-103">Example query for Candidate to hire</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="62265-104">يقدم هذا الموضوع مثالا للاستعلام عن المرشح مطلوب لكيان التوظيف في Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="62265-104">This topic provides an example query for the Candidate to hire entity in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="17429-104">يقدم هذا الموضوع مثالا للاستعلام عن المرشح مطلوب لكيان التوظيف في Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="17429-104">This topic provides an example query for the Candidate to hire entity in Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="62265-105">يوفر هذا الموضوع مثالا يوضح كيفية استخدام *الإدراجات العميقة* لإنشاء كافة التفاصيل لسجل مرشح جديد في عملية API واحدة.</span><span class="sxs-lookup"><span data-stu-id="62265-105">This topic provides an example demonstrating how you can use *deep inserts* to create all the detail of a new candidate record in a single API operation.</span></span> <span data-ttu-id="62265-106">لمزيد من المعلومات حول الإدراجات العميقة، راجع [إنشاء سجلات الكيان المرتبط في عملية واحدة](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span><span class="sxs-lookup"><span data-stu-id="62265-106">For more information about deep inserts, see [Create related entity records in one operation](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span></span>
+<span data-ttu-id="17429-105">يوفر هذا الموضوع مثالا يوضح كيفية استخدام *الإدراجات العميقة* لإنشاء كافة التفاصيل لسجل مرشح جديد في عملية API واحدة.</span><span class="sxs-lookup"><span data-stu-id="17429-105">This topic provides an example demonstrating how you can use *deep inserts* to create all the detail of a new candidate record in a single API operation.</span></span> <span data-ttu-id="17429-106">لمزيد من المعلومات حول الإدراجات العميقة، راجع [إنشاء سجلات الكيان المرتبط في عملية واحدة](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span><span class="sxs-lookup"><span data-stu-id="17429-106">For more information about deep inserts, see [Create related entity records in one operation](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span></span>
 
-<span data-ttu-id="62265-107">يعد الكيان **mshr_hcmcandidatetohireentity** فريدًا نظرًا علاقته بالكيان **mshr_dirpersonentity**.</span><span class="sxs-lookup"><span data-stu-id="62265-107">The **mshr_hcmcandidatetohireentity** entity is unique because of its relationship to the **mshr_dirpersonentity** entity.</span></span> <span data-ttu-id="62265-108">يتم اشتقاق العديد من الخصائص في **mshr_hcmcandidatetohireentity** (على سبيل المثال، **mshr_firstname** و **mshr_lastname** و **mshr_birthdate**) من سجل **mshr_dirpersonentity**.</span><span class="sxs-lookup"><span data-stu-id="62265-108">Many of the properties on the **mshr_hcmcandidatetohireentity** (for example, **mshr_firstname**, **mshr_lastname**, and **mshr_birthdate**) are derived from the **mshr_dirpersonentity** record.</span></span> <span data-ttu-id="62265-109">إذا قمت بترحيل سجل مرشح جديد إلى **mshr_hcmcandidatetohireentity** بدون استخدام الإدراج العميق، فيمكنك تعريف قيم لهذه الخصائص مباشرة على السجل **mshr_hcmcandidatetohireentity**.</span><span class="sxs-lookup"><span data-stu-id="62265-109">If you post a new candidate record to **mshr_hcmcandidatetohireentity** without using deep inserts, you can define values for these properties directly on the **mshr_hcmcandidatetohireentity** record.</span></span> <span data-ttu-id="62265-110">يتم إنشاء سجل **mshr_dirpersonentity** المرتبط ضمنيًا بالقيم المعرفة للخصائص.</span><span class="sxs-lookup"><span data-stu-id="62265-110">The associated **mshr_dirpersonentity** record is created implicitly with the defined values for the properties.</span></span> <span data-ttu-id="62265-111">ويمكنك بعد ذلك إنشاء أية سجلات كيانات أخرى ذات صلة (مثل المهارات أو التعليم) على أنها استدعاءات API منفصلة.</span><span class="sxs-lookup"><span data-stu-id="62265-111">You can then create any other related entity records (such as skills or education) as separate API calls.</span></span>
+<span data-ttu-id="17429-107">يعد الكيان **mshr_hcmcandidatetohireentity** فريدًا نظرًا علاقته بالكيان **mshr_dirpersonentity**.</span><span class="sxs-lookup"><span data-stu-id="17429-107">The **mshr_hcmcandidatetohireentity** entity is unique because of its relationship to the **mshr_dirpersonentity** entity.</span></span> <span data-ttu-id="17429-108">يتم اشتقاق العديد من الخصائص في **mshr_hcmcandidatetohireentity** (على سبيل المثال، **mshr_firstname** و **mshr_lastname** و **mshr_birthdate**) من سجل **mshr_dirpersonentity**.</span><span class="sxs-lookup"><span data-stu-id="17429-108">Many of the properties on the **mshr_hcmcandidatetohireentity** (for example, **mshr_firstname**, **mshr_lastname**, and **mshr_birthdate**) are derived from the **mshr_dirpersonentity** record.</span></span> <span data-ttu-id="17429-109">إذا قمت بترحيل سجل مرشح جديد إلى **mshr_hcmcandidatetohireentity** بدون استخدام الإدراج العميق، فيمكنك تعريف قيم لهذه الخصائص مباشرة على السجل **mshr_hcmcandidatetohireentity**.</span><span class="sxs-lookup"><span data-stu-id="17429-109">If you post a new candidate record to **mshr_hcmcandidatetohireentity** without using deep inserts, you can define values for these properties directly on the **mshr_hcmcandidatetohireentity** record.</span></span> <span data-ttu-id="17429-110">يتم إنشاء سجل **mshr_dirpersonentity** المرتبط ضمنيًا بالقيم المعرفة للخصائص.</span><span class="sxs-lookup"><span data-stu-id="17429-110">The associated **mshr_dirpersonentity** record is created implicitly with the defined values for the properties.</span></span> <span data-ttu-id="17429-111">ويمكنك بعد ذلك إنشاء أية سجلات كيانات أخرى ذات صلة (مثل المهارات أو التعليم) على أنها استدعاءات API منفصلة.</span><span class="sxs-lookup"><span data-stu-id="17429-111">You can then create any other related entity records (such as skills or education) as separate API calls.</span></span>
 
-<span data-ttu-id="62265-112">ومع ذلك، إذا أردت استخدام الإدراجات العميقة لإنشاء كافة الكيانات ذات الصلة في عملية واحدة، بيجب تحديد الخصائص الخاصة بالكيان **mshr_dirpersonentity** على هذا المستوى المتداخل للعملية.</span><span class="sxs-lookup"><span data-stu-id="62265-112">If, however, you want to use deep inserts to create all related entities in one operation, the properties specific to the **mshr_dirpersonentity** entity must be defined on that nested level of the operation.</span></span>
+<span data-ttu-id="17429-112">ومع ذلك، إذا أردت استخدام الإدراجات العميقة لإنشاء كافة الكيانات ذات الصلة في عملية واحدة، بيجب تحديد الخصائص الخاصة بالكيان **mshr_dirpersonentity** على هذا المستوى المتداخل للعملية.</span><span class="sxs-lookup"><span data-stu-id="17429-112">If, however, you want to use deep inserts to create all related entities in one operation, the properties specific to the **mshr_dirpersonentity** entity must be defined on that nested level of the operation.</span></span>
 
-<span data-ttu-id="62265-113">يوضح هذا المثال كيف يمكنك إنشاء سجل مرشح وسجل الشخص المقترن ومهارات الشخص والتعليم في ثلاثة مستويات متداخلة باستخدام عمليات الإدراج العميقة في عملية API واحدة.</span><span class="sxs-lookup"><span data-stu-id="62265-113">This example shows how you can create a candidate record, the associated person record, and the person's skills and education in three nested levels using deep inserts in a single API operation.</span></span>
+<span data-ttu-id="17429-113">يوضح هذا المثال كيف يمكنك إنشاء سجل مرشح وسجل الشخص المقترن ومهارات الشخص والتعليم في ثلاثة مستويات متداخلة باستخدام عمليات الإدراج العميقة في عملية API واحدة.</span><span class="sxs-lookup"><span data-stu-id="17429-113">This example shows how you can create a candidate record, the associated person record, and the person's skills and education in three nested levels using deep inserts in a single API operation.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="62265-114">لا يتضمن المثال كافة خصائص كل من كيانات واجهة برمجة التطبيقات (API).</span><span class="sxs-lookup"><span data-stu-id="62265-114">The example does not include all properties of each of the API entities.</span></span> <span data-ttu-id="62265-115">وهي مبسطة لأغراض التوضيح.</span><span class="sxs-lookup"><span data-stu-id="62265-115">It is simplified for demonstration purposes.</span></span>
+> <span data-ttu-id="17429-114">لا يتضمن المثال كافة خصائص كل من كيانات واجهة برمجة التطبيقات (API).</span><span class="sxs-lookup"><span data-stu-id="17429-114">The example does not include all properties of each of the API entities.</span></span> <span data-ttu-id="17429-115">وهي مبسطة لأغراض التوضيح.</span><span class="sxs-lookup"><span data-stu-id="17429-115">It is simplified for demonstration purposes.</span></span>
 
-<span data-ttu-id="62265-116">**الطلب**</span><span class="sxs-lookup"><span data-stu-id="62265-116">**Request**</span></span>
+<span data-ttu-id="17429-116">**الطلب**</span><span class="sxs-lookup"><span data-stu-id="17429-116">**Request**</span></span>
 
 ```http
 
@@ -100,7 +99,7 @@ Accept: application/json
 }
 ```
 
-<span data-ttu-id="62265-117">**استجابة**</span><span class="sxs-lookup"><span data-stu-id="62265-117">**Response**</span></span>
+<span data-ttu-id="17429-117">**استجابة**</span><span class="sxs-lookup"><span data-stu-id="17429-117">**Response**</span></span>
 
 ```http
 
@@ -110,9 +109,9 @@ OData-EntityId: [Organization URI]/api/data/v9.1/mshr_hcmcandidatetohireentities
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="62265-118">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="62265-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="17429-118">راجع أيضًا</span><span class="sxs-lookup"><span data-stu-id="17429-118">See also</span></span>
 
-[<span data-ttu-id="62265-119">مقدمة واجهة برمجة التطبيقات لتكامل نظام تعقب مقدم الطلب</span><span class="sxs-lookup"><span data-stu-id="62265-119">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="17429-119">مقدمة واجهة برمجة التطبيقات لتكامل نظام تعقب مقدم الطلب</span><span class="sxs-lookup"><span data-stu-id="17429-119">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
