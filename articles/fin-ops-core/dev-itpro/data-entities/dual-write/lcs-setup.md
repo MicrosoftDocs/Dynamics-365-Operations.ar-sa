@@ -2,91 +2,69 @@
 title: إعداد الكتابة المزدوجة من Lifecycle Services
 description: يوضح هذا الموضوع كيفيه اعداد اتصال ثنائي الكتابة من Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
-ms.date: 01/06/2020
+ms.date: 05/11/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e51b4ef1e309e5f89dc82a3776b88c505dc6593d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748531"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103559"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="55be2-103">إعداد الكتابة المزدوجة من Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="55be2-103">Dual-write setup from Lifecycle Services</span></span>
+# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="94f1b-103">إعداد الكتابة المزدوجة من Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="94f1b-103">Dual-write setup from Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="55be2-104">يشرح هذا الموضوع كيفية إعداد اتصال كتابة مزدوجة بين بيئة Finance and Operations جديدة وبيئة Dataverse جديدة من Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="55be2-104">This topic explains how to set up a dual-write connection between a new Finance and Operations environment and a new Dataverse environment from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="94f1b-104">يوضح هذا الموضوع كيفية تمكين الكتابة المزدوجة من Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="94f1b-104">This topic explains how to enable dual-write from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="55be2-105">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="55be2-105">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="94f1b-105">المتطلبات الأساسية</span><span class="sxs-lookup"><span data-stu-id="94f1b-105">Prerequisites</span></span>
 
-<span data-ttu-id="55be2-106">يجب أن تكون مسؤولاً لإعداد اتصال كتابة مزدوجة.</span><span class="sxs-lookup"><span data-stu-id="55be2-106">You must be an admin to set up a dual-write connection.</span></span>
+<span data-ttu-id="94f1b-106">يجب إكمال تكامل Power Platform كما هو موضح في الموضوعات التالية:</span><span class="sxs-lookup"><span data-stu-id="94f1b-106">You must complete the Power Platform integration as described in the following topics:</span></span>
 
-+ <span data-ttu-id="55be2-107">يجب أن يكون لديك حق الوصول إلى المستأجر.</span><span class="sxs-lookup"><span data-stu-id="55be2-107">You must have access to the tenant.</span></span>
-+ <span data-ttu-id="55be2-108">يجب أن تكون مسؤولاً في بيئات Finance and Operations وبيئات Dataverse.</span><span class="sxs-lookup"><span data-stu-id="55be2-108">You must be an admin in both Finance and Operations environments and Dataverse environments.</span></span>
++ [<span data-ttu-id="94f1b-107">Power Platform التكامل - التمكين أثناء نشر البيئة</span><span class="sxs-lookup"><span data-stu-id="94f1b-107">Power Platform Integration - Enable during environment deployment</span></span>](../../power-platform/overview.md#enable-during-environment-deployment)
++ [<span data-ttu-id="94f1b-108">Power Platform التكامل - الإعداد بعد نشر البيئة</span><span class="sxs-lookup"><span data-stu-id="94f1b-108">Power Platform integration - Set up after environment deployment</span></span>](../../power-platform/overview.md#set-up-after-environment-deployment)
 
-## <a name="set-up-a-dual-write-connection"></a><span data-ttu-id="55be2-109">إعداد اتصال كتابة مزدوجة</span><span class="sxs-lookup"><span data-stu-id="55be2-109">Set up a dual-write connection</span></span>
+## <a name="set-up-dual-write-for-new-dataverse-environments"></a><span data-ttu-id="94f1b-109">إعداد الكتابة المزدوجة لبيئات Dataverse الجديدة</span><span class="sxs-lookup"><span data-stu-id="94f1b-109">Set up dual-write for new Dataverse environments</span></span>
 
-<span data-ttu-id="55be2-110">اتبع هذه الخطوات لإعداد اتصال الكتابة المزدوجة.</span><span class="sxs-lookup"><span data-stu-id="55be2-110">Follow these steps to set up the dual-write connection.</span></span>
+<span data-ttu-id="94f1b-110">اتبع هذه الخطوات لإعداد الكتابة المزدوجة من الصفحة **تفاصيل بيئة** LCS:</span><span class="sxs-lookup"><span data-stu-id="94f1b-110">Follow these steps to set up dual-write from LCS **Environment Details** page:</span></span>
 
-1. <span data-ttu-id="55be2-111">في LCS، انتقل إلى المشروع..</span><span class="sxs-lookup"><span data-stu-id="55be2-111">In LCS, go to your project.</span></span>
-2. <span data-ttu-id="55be2-112">حدد **تكوين** لنشر بيئة جديدة.</span><span class="sxs-lookup"><span data-stu-id="55be2-112">Select **Configure** to deploy a new environment.</span></span>
-3. <span data-ttu-id="55be2-113">حدد الإصدار.</span><span class="sxs-lookup"><span data-stu-id="55be2-113">Select the version.</span></span> 
-4. <span data-ttu-id="55be2-114">حدد المخطط.</span><span class="sxs-lookup"><span data-stu-id="55be2-114">Select the topology.</span></span> <span data-ttu-id="55be2-115">إذا توفر مخطط واحد فقط، فسيتم تحديده بشكل تلقائي.</span><span class="sxs-lookup"><span data-stu-id="55be2-115">If only one topology is available, it's automatically selected.</span></span>
-5. <span data-ttu-id="55be2-116">أكمل الخطوات الأولى في معالج **إعدادات النشر**.</span><span class="sxs-lookup"><span data-stu-id="55be2-116">Complete the first steps in the **Deployment settings** wizard.</span></span>
-6. <span data-ttu-id="55be2-117">على علامة التبويب **Dataverse**، اتبع إحدى الخطوات التالية:</span><span class="sxs-lookup"><span data-stu-id="55be2-117">On the **Dataverse** tab, follow one of these steps:</span></span>
+1. <span data-ttu-id="94f1b-111">في الصفحة **تفاصيل البيئة**، قم بتوسيع القسم **تكامل Power Platform**.</span><span class="sxs-lookup"><span data-stu-id="94f1b-111">On the **Environment Details** page, expand the **Power Platform Integration** section.</span></span>
 
-    - <span data-ttu-id="55be2-118">إذا تم تزويد بيئة Dataverse للمستأجر، فيمكنك تحديدها.</span><span class="sxs-lookup"><span data-stu-id="55be2-118">If a Dataverse environment is already provisioned for your tenant, you can select it.</span></span>
+2. <span data-ttu-id="94f1b-112">حدد الزر **تطبيق الكتابة المزدوجة**.</span><span class="sxs-lookup"><span data-stu-id="94f1b-112">Select the **Dual-write application** button.</span></span>
 
-        1. <span data-ttu-id="55be2-119">عيّن الخيار **تكوين Dataverse** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="55be2-119">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="55be2-120">في عمود **البيئات المتوفرة**، حدد البيئة التي تريد دمجها مع بيانات Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="55be2-120">In the **Available environments** column, select the environment to integrate with your Finance and Operations data.</span></span> <span data-ttu-id="55be2-121">تتضمن القائمة كافة البيئات حيث تملك امتيازات إدارية.</span><span class="sxs-lookup"><span data-stu-id="55be2-121">The list includes all environments where you have admin privileges.</span></span>
-        3. <span data-ttu-id="55be2-122">حدد خانة الاختيار **أوافق** للإشارة إلى موافقتك على الأحكام والشروط.</span><span class="sxs-lookup"><span data-stu-id="55be2-122">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+    ![تكامل Power Platform](media/powerplat_integration_step2.png)
 
-        ![علامة التبويب Dataverse عند تزويد بيئة Dataverse للمستأجر](../dual-write/media/lcs_setup_1.png)
+3. <span data-ttu-id="94f1b-114">راجع البنود والشروط، ثم حدد **تكوين**.</span><span class="sxs-lookup"><span data-stu-id="94f1b-114">Review the terms and conditions, and then select **Configure**.</span></span>
 
-    - <span data-ttu-id="55be2-124">إذا لم تتوفر بيئة Dataverse لدى المستأجر، فسيتم تزويد بيئة.</span><span class="sxs-lookup"><span data-stu-id="55be2-124">If your tenant doesn't already have a Dataverse environment, a new environment will be provisioned.</span></span>
+4. <span data-ttu-id="94f1b-115">حدد **موافق** للمتابعة.</span><span class="sxs-lookup"><span data-stu-id="94f1b-115">Select **OK** to continue.</span></span>
 
-        1. <span data-ttu-id="55be2-125">عيّن الخيار **تكوين Dataverse** إلى **نعم**.</span><span class="sxs-lookup"><span data-stu-id="55be2-125">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="55be2-126">أدخل اسمًا لبيئة Dataverse.</span><span class="sxs-lookup"><span data-stu-id="55be2-126">Enter a name for the Dataverse environment.</span></span>
-        3. <span data-ttu-id="55be2-127">حدد المنطقة لنشر البيئة فيها.</span><span class="sxs-lookup"><span data-stu-id="55be2-127">Select the region to deploy the environment in.</span></span>
-        4. <span data-ttu-id="55be2-128">حدد لغة البيئة وعملتها الافتراضية.</span><span class="sxs-lookup"><span data-stu-id="55be2-128">Select the default language and currency for the environment.</span></span>
+5. <span data-ttu-id="94f1b-116">يمكنك مراقبة التقدم عن طريق تحديث صفحة تفاصيل البيئة بشكل دوري.</span><span class="sxs-lookup"><span data-stu-id="94f1b-116">You can monitor the progress by periodically refreshing the environment details page.</span></span> <span data-ttu-id="94f1b-117">يستغرق الإعداد عادة 30 دقيقة أو أقل.</span><span class="sxs-lookup"><span data-stu-id="94f1b-117">Setup typically takes 30 minutes or less.</span></span>  
 
-            > [!NOTE]
-            > <span data-ttu-id="55be2-129">لا يمكنك تغيير اللغة والعملة لاحقًا.</span><span class="sxs-lookup"><span data-stu-id="55be2-129">You can't change the language and currency later.</span></span>
+6. <span data-ttu-id="94f1b-118">عند اكتمال الإعداد، تقوم رسالة بإعلامك في حالة نجاح العملية أو إذا فشلت.</span><span class="sxs-lookup"><span data-stu-id="94f1b-118">When the setup is complete, a message will inform you if the process was successful or if there was a failure.</span></span> <span data-ttu-id="94f1b-119">وفي حالة فشل الإعداد، يتم عرض رسالة خطأ مرتبطة.</span><span class="sxs-lookup"><span data-stu-id="94f1b-119">If the setup failed, then a related error message is displayed.</span></span> <span data-ttu-id="94f1b-120">يجب إصلاح أية أخطاء قبل الانتقال إلى الخطوة التالية.</span><span class="sxs-lookup"><span data-stu-id="94f1b-120">You must fix any errors before moving to the next step.</span></span>
 
-        5. <span data-ttu-id="55be2-130">حدد خانة الاختيار **أوافق** للإشارة إلى موافقتك على الأحكام والشروط.</span><span class="sxs-lookup"><span data-stu-id="55be2-130">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+7. <span data-ttu-id="94f1b-121">حدد **ارتباط إلى بيئة Power Platform** لإنشاء ارتباط بين Dataverse وقواعد البيانات الحالية الخاصة بالبيئة.</span><span class="sxs-lookup"><span data-stu-id="94f1b-121">Select **Link to Power Platform environment** to create a link between Dataverse and the current environment's databases.</span></span> <span data-ttu-id="94f1b-122">يستغرق هذا عادة أقل من 5 دقائق.</span><span class="sxs-lookup"><span data-stu-id="94f1b-122">This typically takes less than 5 minutes.</span></span>
 
-        ![علامة التبويب Dataverse عندما لا تتوفر بيئة Dataverse لدى المستأجر](../dual-write/media/lcs_setup_2.png)
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="الربط ببيئة Power Platform ":::
 
-7. <span data-ttu-id="55be2-132">أكمل الخطوات المتبقية في معالج **إعدادات النشر**.</span><span class="sxs-lookup"><span data-stu-id="55be2-132">Complete the remaining steps in the **Deployment settings** wizard.</span></span>
-8. <span data-ttu-id="55be2-133">بعد ان تصبح حالة البيئة **منشورة**، افتح صفحة تفاصيل البيئة.</span><span class="sxs-lookup"><span data-stu-id="55be2-133">After the environment has a status of **Deployed**, open the environment details page.</span></span> <span data-ttu-id="55be2-134">يعرض القسم **دمج Power Platform** أسماء بيئة Finance and Operations وبيئة Dataverse المرتبطتين.</span><span class="sxs-lookup"><span data-stu-id="55be2-134">The **Power Platform Integration** section shows the names of the Finance and Operations environment and the Dataverse environment that are linked.</span></span>
+8. <span data-ttu-id="94f1b-124">عند اكتمال الارتباط، يتم عرض ارتباط تشعبي.</span><span class="sxs-lookup"><span data-stu-id="94f1b-124">When the linking is complete, a hyperlink is displayed.</span></span> <span data-ttu-id="94f1b-125">استخدم الارتباط لتسجيل الدخول إلى منطقة إدارة الكتابة المزدوجة في البيئة Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="94f1b-125">Use the link to sign in to the dual-write administration area in the Finance and Operations environment.</span></span> <span data-ttu-id="94f1b-126">ومن هناك، يمكنك إعداد تعيينات الكيانات.</span><span class="sxs-lookup"><span data-stu-id="94f1b-126">From there, you can set up entity mappings.</span></span>
 
-    ![قسم التكامل Power Platform](../dual-write/media/lcs_setup_3.png)
+## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a><span data-ttu-id="94f1b-127">إعداد الكتابة المزدوجة لبيئة Dataverse موجودة</span><span class="sxs-lookup"><span data-stu-id="94f1b-127">Set up dual-write for an existing Dataverse environment</span></span>
 
-9. <span data-ttu-id="55be2-136">يجب أن يقوم مسؤول بيئة Finance and Operations بتسجيل الدخول إلى LCS وتحديد **ارتباط إلى CDS للتطبيقات** لإكمال الارتباط.</span><span class="sxs-lookup"><span data-stu-id="55be2-136">An admin of the Finance and Operations environment must sign in to LCS and select **Link to CDS for Apps** to complete the link.</span></span> <span data-ttu-id="55be2-137">تعرض صفحة تفاصيل البيئة معلومات الاتصال بالمسؤول.</span><span class="sxs-lookup"><span data-stu-id="55be2-137">The environment details page shows the admin's contact information.</span></span>
+<span data-ttu-id="94f1b-128">لإعداد الكتابة الزدوجة لبيئة Dataverse موجودة، يجب عليك إنشاء [بطاقة دعم Microsoft](../../lifecycle-services/lcs-support.md).</span><span class="sxs-lookup"><span data-stu-id="94f1b-128">To set up dual-write for an existing Dataverse environment, you must create a Microsoft [support ticket](../../lifecycle-services/lcs-support.md).</span></span> <span data-ttu-id="94f1b-129">يجب أن تتضمن التذكرة:</span><span class="sxs-lookup"><span data-stu-id="94f1b-129">The ticket must include:</span></span>
 
-    <span data-ttu-id="55be2-138">بعد إكمال الارتباط، يتم تحديث الحالة إلى **إكمال ربط البيئة بنجاح**.</span><span class="sxs-lookup"><span data-stu-id="55be2-138">After the link is completed, the status is updated to **Environment linking successfully completed**.</span></span>
-
-10. <span data-ttu-id="55be2-139">لفتح مساحة عمل **تكامل البيانات** في بيئة Finance and Operations والتحكم في القوالب المتوفرة، حدد **ارتباط إلى CDS للتطبيقات**.</span><span class="sxs-lookup"><span data-stu-id="55be2-139">To open the **Data integration** workspace in the Finance and Operations environment and control the templates that are available, select **Link to CDS for Apps**.</span></span>
-
-    ![الزر "ارتباط إلى CDS للتطبيقات" في قسم دمج Power Platform](../dual-write/media/lcs_setup_4.png)
++ <span data-ttu-id="94f1b-130">معرف بيئة Finance and Operations الخاص بك.</span><span class="sxs-lookup"><span data-stu-id="94f1b-130">Your Finance and Operations environment ID.</span></span>
++ <span data-ttu-id="94f1b-131">اسم البيئة الخاصة بك من Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="94f1b-131">Your environment name from Lifecycle Services.</span></span>
++ <span data-ttu-id="94f1b-132">معرف مؤسسة Dataverse أو معرف بيئة Power Platform من مركز مسؤول Power Platform.</span><span class="sxs-lookup"><span data-stu-id="94f1b-132">The Dataverse organization ID or Power Platform Environment ID from Power Platform Admin Center.</span></span> <span data-ttu-id="94f1b-133">في البطاقة الخاصة بك، اطلب أن يكون المُعرف هو المثيل المستخدم لتكامل Power Platform.</span><span class="sxs-lookup"><span data-stu-id="94f1b-133">In your ticket, request that the ID be the instance used for Power Platform integration.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="55be2-141">لا يمكنك إلغاء ارتباط البيئات باستخدام LCS.</span><span class="sxs-lookup"><span data-stu-id="55be2-141">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="55be2-142">لإلغاء ارتباط بيئة، افتح مساحة عمل **تكامل البيانات** في بيئة Finance and Operations، ثم حدد **إلغاء الارتباط**.</span><span class="sxs-lookup"><span data-stu-id="55be2-142">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
-
-
+> <span data-ttu-id="94f1b-134">لا يمكنك إلغاء ارتباط البيئات باستخدام LCS.</span><span class="sxs-lookup"><span data-stu-id="94f1b-134">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="94f1b-135">لإلغاء ارتباط بيئة، افتح مساحة عمل **تكامل البيانات** في بيئة Finance and Operations، ثم حدد **إلغاء الارتباط**.</span><span class="sxs-lookup"><span data-stu-id="94f1b-135">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
