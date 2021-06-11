@@ -1,5 +1,5 @@
 ---
-title: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنة مع القيم الأساسية
+title: تحسين تتبع نتائج التقارير الإلكترونية (ER) المنشأة للمقارنة مع القيم الأساسية
 description: ويصف هذا الموضوع التحسينات التي تمت علي ميزه الأساس الخاصة ب ER في Microsoft Dynamics 365 for Finance and Operations10.0.3 الإصدار (يونيو 2019).
 author: NickSelin
 ms.date: 06/19/2019
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 483d3ac7cd3192ffd4c785c4031a168af503f087
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743595"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117025"
 ---
-# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنة مع القيم الأساسية
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>تحسين تتبع نتائج التقارير الإلكترونية (ER) المنشأة للمقارنة مع القيم الأساسية
 
 [!include[banner](../includes/banner.md)]
 

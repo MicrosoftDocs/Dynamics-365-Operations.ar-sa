@@ -2,7 +2,7 @@
 title: بدء تحسين التخطيط
 description: يشرح هذا الموضوع كيفية بدء استخدام وظيفة تحسين التخطيط.
 author: ChristianRytt
-ms.date: 10/09/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907657"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103583"
 ---
 # <a name="get-started-with-planning-optimization"></a>بدء تحسين التخطيط
 
@@ -58,7 +58,7 @@ ms.locfileid: "5907657"
 
 - يجب تشغيل Supply Chain Management على بيئة ذات توفر عالي الطبقة 2 أو أعلى بتمكين LCS (ليست بيئة OneBox)، مع الإصدار Dynamics 365 Supply Chain Management 10.0.7 أو أحدث. إذا حاولت تثبيت الوظيفة الإضافية  في بيئة OneBox، لن يكتمل التثبيت وستحتاج إلى إلغاء التثبيت.
 
-- يجب إعداد النظام Power Platform للتكامل. لمزيد من المعلومات، راجع [المتطلبات الاساسيه لإعداد الوظائف الإضافية](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins)[وإعداد الوظائف الإضافية](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+- يجب إعداد النظام Power Platform للتكامل. لمزيد من المعلومات، راجع تكامل [Microsoft Power Platform مع التطبيقات Finance and Operations ](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>تمكين ترخيص تحسين التخطيط
 

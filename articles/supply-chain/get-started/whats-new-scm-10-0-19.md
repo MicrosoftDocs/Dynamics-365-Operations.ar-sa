@@ -1,5 +1,5 @@
 ---
-title: إصدار أولي Dynamics 365 Supply Chain Management 10.0.19 (يوليو 2021)
+title: إصدار أولي Dynamics 365 Supply Chain Management 10.0.19 (يونيو 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.19 من Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8bb4a7c8085b40ab3eca72675dbe7a3be412d8c1
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961671"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114965"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-july-2021"></a>إصدار أولي Dynamics 365 Supply Chain Management 10.0.19 (يوليو 2021)
+# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>إصدار أولي Dynamics 365 Supply Chain Management 10.0.19 (يونيو 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,23 +26,35 @@ ms.locfileid: "5961671"
 
 - **معاينة الإصدار:** أبريل 2021
 - **التوفر العام للإصدار (تحديث ذاتي):** يونيو 2020
-- **التوفر العام للإصدار (تحديث تلقائي):** يوليو 2020
+- **التوفر العام للإصدار (تحديث تلقائي):** يونيو 2021
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يسرد الجدول التالي الميزات المضمنة في هذا الإصدار. يوفر عمود *الميزة* ارتباطات إلى [خطة الإصدار](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)، حيث يمكنك الاطلاع على تواريخ الإصدار الرسمية لكل ميزة. يوفر عمود *مزيد من المعلومات* ارتباطات إلى المستندات ذات الصلة.
+يسرد الجدول التالي الميزات المضمنة في هذا الإصدار. يوفر عمود *الميزة* ارتباطات إلى [خطة الإصدار](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)، حيث يمكنك الاطلاع على تواريخ الإصدار الرسمية لكل ميزة. يوفر عمود *مزيد من المعلومات* المزيد من التفاصيل و/أو الارتباطات عن المستندات ذات الصلة.
 
 يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام.
 
 | منطقة الميزة | الميزة | معلومات إضافية |
 |---|---|---|
-| المخزون واللوجستيات | [تحسين تصدير كيان بيانات جهة الاتصال‬](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | *غير متوفر* |
+| المخزون واللوجستيات | [تحسين تصدير كيان بيانات جهة الاتصال‬](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | عند تمكين هذه الميزة، لن تؤدي التغييرات التي تم إجراؤها على البيانات المرجعية إلى تضمين جهات الاتصال ذات الصلة في التصدير المتزايد التالي. عند تعطيل هذه الميزة، لن تؤدي التغييرات التي تم إجراؤها على البيانات المرجعية إلى تضمين جهات الاتصال ذات الصلة في التصدير المتزايد التالي. |
 | المخزون واللوجستيات | [تحسينات تدريجية لقدرات تنفيذ المستودعات مع وحدات القياس](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[رسائل معالج الرسالة](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[تسوية مخزون المستودع](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[أحمال عمل إدارة المستودعات لوحدات نطاق السحابة والحافة](../cloud-edge/cloud-edge-workload-warehousing.md) |
-| المخزون واللوجستيات | [وظيفة البحث لمقدمة المستند وحقول خاتمة المستند في صفحة عرض أسعار المبيعات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | *غير متوفر* |
+| المخزون واللوجستيات | [وظيفة البحث لمقدمة المستند وحقول خاتمة المستند في صفحة عرض أسعار المبيعات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | تضيف هذه الميزة وظيفة البحث للحقول **مقدمة المستند** و **نتائج المستند** على الصفحة  **عرض أسعار المبيعات**.<br><br>يتم تمكين هذه الميزة افتراضيًا. |
 | المخزون واللوجستيات | [‎تنفيذ المستودعات مع وحدات مقياس الحافة على أجهزتك المخصصة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | التصنيع | [‎تنفيذ التصنيع مع وحدات مقياس الحافة على أجهزتك المخصصة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| التخطيط | [جدولة سعة غير محدودة لتحسين التخطيط](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | تعمل هذه الميزة على تمكين جدولة القدرة بقدرة غير محدودة لتحسين التخطيط. بدون هذه الميزة، تحصل أوامر الإنتاج المخططة على وقت الإنتاج من وقت إنتاج مخزون بالمنتجات الصادرة، بغض النظر عن الحد الزمني للجدولة. |
 | التخطيط | تأكيد الأمر المخطط المستند إلى الاستعلام | [تأكيد أوامر مخططة](../master-planning/planning-optimization/planned-order-firming.md) |
 | إدارة معلومات المنتج | [تحسينات صفحة اقتراحات المتغيرات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [إنشاء متغيرات المنتج المعرفة مسبقًا](../pim/tasks/create-predefined-product-variants.md) |
+
+## <a name="feature-enhancements-included-in-this-release"></a>تحسينات الميزات المضمنة في هذا الإصدار
+
+يسرد الجدول التالي تحسينات الميزات المضمنة في هذا الإصدار. ويوفر كل منها تحسين تزايدي لميزة موجودة. ونظرًا لأنها تكون تحسينات فقط، فلن يتم سردها في [خطه الإصدار](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). ومع ذلك، لضمان عدم تعارض هذه التحسينات مع التخصيصات أو التفضيلات الموجودة لديك، يتم إيقاف تشغيل كل منها بشكل افتراضي (ما لم يذكر خلاف ذلك). إذا كنت ترغب في استخدام أي من هذه الميزات، يجب عليك تمكينها بشكل صريح في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| منطقة الميزة | الميزة&nbsp;الاسم&nbsp;في إدارة&nbsp;الميزة | معلومات إضافية |
+|---|---|---|
+| المبيعات والتسويق | تحسينات أداء تنظيف سجل المبيعات | قد يستغرق تنظيف سجل المبيعات وقتًا طويلاً في حالة التشغيل بشكل غير متكرر على بيئات تحتوي على كمية كبيرة من تحديثات المبيعات. لتقليل المدة وتحسين الموثوقية، تقوم هذه الميزة بتقسيم التنظيف إلى مجموعات يتم تشغيلها لمدة محدودة. وكلما أمكن، سيتم جمع قدرات قاعدة البيانات لتقليل التأمين وتجنب ربط جداول المعاملات أثناء التنظيف. |
+| المبيعات والتسويق | تحديث تاريخ الإيصال المطلوب بواسطة التاريخ المؤكد للأوامر المشتركة بين الشركات الشقيقة | تتيح لك هذه الميزة التحكم في ما سيحدث لقيم حقول تاريخ المبيعات والشراء عند استخدام التسليم المباشر بين الشركات الشقيقة. يمكنك اختيار ما إذا كان النظام سيقوم بتحديث التواريخ المطلوبة أو تخطي تحديثها. إذا قمت بتخطي التحديث، ستمثل التواريخ المطلوبة ما طلبه العميل. إذا قمت بتمكين التحديث، ستمثل التواريخ المطلوبة في البداية (عند استخدام التحكم في تاريخ التسليم) ما يطلبه العميل فقط. سيعمل التحكم في تاريخ التسليم، عندما يكون مختلفًا عن *بلا*، على إلغاء ما تم طلبه في البداية. يمكنك تعيين هذا الخيار باستخدام الإعداد **تحديث تاريخ إيصال الاستلام المطلوب بالتاريخ المؤكد** في إعدادات العميل أو المورد بين الشركات الشقيقة.<br><br>في حالة تعطيل الميزة، سيقوم النظام بالكتابة فوق تاريخ إيصال الاستلام المطلوب في أوامر المبيعات الأصلية استنادًا إلى قاعدة التحكم في تاريخ التسليم، ولكن سيظل تاريخ الشحن المطلوب كما هو. |
+| إدارة المستودعات | تقريب الكميات لأسفل إلى أقرب وحدة مبيعات عند الإصدار إلى المستودع | تضيف هذه الميزة خيارًا يمكن أن يقوم بتقييد كميات الأوامر عند الإصدار لمستودع. عند التمكين، سيتم تقريب كميات أمر الشراء إلى أقرب وحدة مبيعات كاملة، وسيتم رفض الأوامر التي تشتمل على كميات أقل من وحدة مبيعات واحدة للإصدار. |
+| إدارة المستودعات | طريقة الموجة "جدولة إنشاء العمل" على مستوى المؤسسة | عند تمكين هذه الميزة، سيتم تكوين أسلوب موجة *جدولة إنشاء العمل* بالتوازي عبر كل الكيانات القانونية. ستتأثر العديد من الإعدادات الإضافية أيضًا. للحصول على التفاصيل الكاملة، راجع [جدولة إنشاء العمل أثناء الموجة](../warehousing/configure-wave-schedule-work-creation.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>موارد وثائق جديده ومحدثه
 
@@ -62,7 +74,7 @@ ms.locfileid: "5961671"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>تحديث النظام الأساسي لتطبيقات Finance and Operations
 
-يتضمن الإصدار 10.0.19 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.19 من تطبيقات Finance and Operations (يوليو 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+يتضمن الإصدار 10.0.19 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.19 من تطبيقات Finance and Operations (يونيو 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
 
