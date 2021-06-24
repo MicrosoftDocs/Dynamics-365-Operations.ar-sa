@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837167"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188748"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>التوزيعات المحاسبية وإدخالات دفتر الأستاذ الفرعي للفواتير ذات النص الحر
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837167"
 
 تُستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب الإيراد أو الضريبة أو التكاليف في فاتورة ذات نص حر. وهناك توزيع محاسبي واحد أو أكثر لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية.
 
-<a name="accounting-distributions"></a>التوزيعات المحاسبية
-------------------------
+## <a name="accounting-distributions"></a>التوزيعات المحاسبية
 
 يمكنك استخدام الأزرار التالية في صفحة فاتورة النص الحر لعرض وربما تغيير التوزيعات المحاسبية لكل مبلغ على فاتورة النص الحر.
 

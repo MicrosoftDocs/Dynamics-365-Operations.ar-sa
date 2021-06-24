@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053649"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193714"
 ---
 # <a name="provision-human-resources"></a>تزويد Human Resources
 
@@ -56,7 +56,7 @@ ms.locfileid: "6053649"
 1. قم بتسجيل الدخول إلى [LCS](https://lcs.dynamics.com/Logon/Index) باستخدام الحساب الذي استخدمته للاشتراك في Human Resources.
 
    > [!NOTE]
-   > لضمان التوفير الناجح، يجب تعيين الحساب الذي تستخدمه لتوفير بيئة الموارد البشرية لأي من دوري **مسؤول النظام** أو **مخصص النظام** في بيئة Power Apps المرتبطة ببيئة Human Resources. راجع [تكوين أمان المستخدم للموارد](https://docs.microsoft.com/power-platform/admin/database-security) لمزيد من المعلومات حول تعيين أدوار الأمان للمستخدمين في Power Platform.
+   > لضمان التوفير الناجح، يجب تعيين الحساب الذي تستخدمه لتوفير بيئة الموارد البشرية لأي من دوري **مسؤول النظام** أو **مخصص النظام** في بيئة Power Apps المرتبطة ببيئة Human Resources. راجع [تكوين أمان المستخدم للموارد](/power-platform/admin/database-security) لمزيد من المعلومات حول تعيين أدوار الأمان للمستخدمين في Power Platform.
 
 2. حدد علامة زائد (**+**) لإنشاء مشروع.
 

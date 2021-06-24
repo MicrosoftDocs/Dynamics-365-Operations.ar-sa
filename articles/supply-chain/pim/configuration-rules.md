@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27d022aeb2e32edb763530a75ae9fd7f1062cc5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70aff927dfea602ee6c4ad5c195274248f831bcb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829560"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190174"
 ---
 # <a name="configuration-rules"></a>قواعد التكوين
 
@@ -36,8 +36,7 @@ ms.locfileid: "5829560"
 
 **ملاحظة:** بالنسبة إلى طريقة **التحديد**، يتم تحديد مجموعة التكوين المشتق ورقم الصنف والتكوين تلقائيًا. وفي طريقة **إلغاء التحديد** لا يمكن تحديد مجموعة التكوين المشتق ورقم الصنف بالإضافة إلى التكوين.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على تكوين المنتجات المستند إلى الأبعاد](dimension-based-product-configuration.md)
 

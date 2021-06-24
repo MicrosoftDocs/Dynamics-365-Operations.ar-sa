@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 154c3d70b61869795edc25514e98a28389eeb244
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052231"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193421"
 ---
 # <a name="benefits-management-workspace"></a>مساحة عمل إدارة المزايا
 
@@ -31,7 +31,7 @@ ms.locfileid: "6052231"
 يصف هذا الموضوع مساحة عمل **إدارة المزايا** في Dynamics 365 Human Resources.
 
 > [!NOTE]
-> لعرض مساحة عمل **إدارة المزايا**، يجب أولاً تمكين ميزة **مساحة عمل إدارة المزايا (معاينة)** في إدارة المزايا. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](../hr-admin-manage-features.md).<br><br>![تمكين مساحة عمل إدارة المزايا](./media/hr-benefits-management-workspace-enable.png)
+> لعرض مساحة عمل **إدارة المزايا**، يجب أولاً تمكين ميزة **مساحة عمل إدارة المزايا (معاينة)** في إدارة المزايا. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).<br><br>![تمكين مساحة عمل إدارة المزايا](./media/hr-benefits-management-workspace-enable.png)
 
 تمنحك مساحة عمل **إدارة المزايا** عرضًا سريعًا لعناصر المزايا التي تتطلب انتباهك. في هذه الصفحة، يمكنك رؤية:
 

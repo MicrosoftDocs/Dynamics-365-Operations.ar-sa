@@ -2,7 +2,7 @@
 title: إقرار ضريبة القيمة المضافة لمصر
 description: يوضح هذا الموضوع كيفية تكوين وإنشاء نموذج إرجاع ضريبة القيمة المضافة لمصر.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021946"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186604"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>إقرار ضريبة القيمة المضافة لمصر (EG-00002)
 
@@ -85,6 +85,7 @@ ms.locfileid: "6021946"
 - **VATRateTypeLookup** > العمود B: نوع الضريبة
 - **VATRateTypeLookup** > العمود C: نوع عنصر الجدول
 - **PurchaseOperationTypeLookup** > العمود A: نوع المستند
+- **CustomerTypeLookup** > العمود أ: نوع المستند
 - **SalesOperationTypeLookup** > العمود N: نوع العملية
 - **SalesItemTypeLookup** > العمود O: نوع العنصر
 
@@ -98,6 +99,8 @@ ms.locfileid: "6021946"
 6. كرر الخطوات 3-5 لكافة عمليات البحث المتوفرة.
 7. حدد **إضافة** لتضمين سطر السجل النهائي، وفي عمود **نتيجة البحث**، حدد **غير قابل للتطبيق**. 
 8. في الأعمدة المتبقية، حدد **غير فارغ**. 
+9. في حقل **الحالة**، حدد **مكتمل**.
+10. حدد **حفظ**، ثم أغلق صفحة **معلمات خاصة بالتطبيق**.
 
 > [!NOTE]
 > عند إضافة آخر سجل، **غير قابل للتطبيق**، قم بتحديد القاعدة التالية: عندما لا تستوفي مجموعة ضريبة المبيعات ومجموعة ضريبة مبيعات الصنف وكود الضريبة والاسم الذي تم تمريره كوسيطة أيًا من القواعد السابقة، لا يتم تضمين الحركات في دفتر ضريبة القيمة المضافة للمبيعات. على الرغم من عدم استخدام هذه القاعدة عند إنشاء التقرير، فإن القاعدة تساعد في تجنب الأخطاء في إنشاء التقرير عند وجود تكوين قاعدة مفقود.
@@ -138,7 +141,7 @@ ms.locfileid: "6021946"
 | الخدمات       | 7    | VAT_SERV                | *غير فارغ* | SaleExempt            |
 | الخدمات       | 8    | VAT_SERV                | *غير فارغ* | SalesExemptCreditNote |
 | التسويات    | 9    | *فارغ*                 | VAT_ADJ     | ال‏‏مبيعات                 |
-| التسويات    | 10   | *فارغ*                 | VAT_ADJ     | الشراء              |
+| التسويات    | 10   | *فارغ*                 | VAT_ADJ     | SalesCreditNote       |
 | غير قابل للتطبيق | 11   | *غير فارغ*             | *غير فارغ* | *غير فارغ*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ ms.locfileid: "6021946"
 | بضائع                  | 1    | VAT_GOODS               | *غير فارغ* | الشراء                 |
 | بضائع                  | 2    | VAT_GOODS               | *غير فارغ* | PurchaseCreditNote       |
 | الخدمات               | 3    | VAT_SERV                | *غير فارغ* | الشراء                 |
-| الخدمات               | 4    | VAT_SERV                | *غير فارغ*  | PurchaseCreditNote       |
+| الخدمات               | 4    | VAT_SERV                | *غير فارغ* | PurchaseCreditNote       |
 | الجهاز والمعدات  | 5    | VAT_M&E                 | *غير فارغ* | الشراء                 |
 | الجهاز والمعدات  | 6    | VAT_M&E                 | *غير فارغ* | PurchaseCreditNote       |
 | أجزاء الآلات         | 7    | VAT_PARTS               | *غير فارغ* | الشراء                 |
 | أجزاء الآلات         | 8    | VAT_PARTS               | *غير فارغ* | PurchaseCreditNote       |
 | الإعفاءات             | 9    | VAT_EXE                 | *ليست بنك*  | PurchaseExempt           |
 | الإعفاءات             | 10   | VAT_EXE                 | *غير فارغ* | PurchaseExemptCreditNote |
-| غير قابل للتطبيق         | 11   | *فارغ*                 | VAT_ADJ     | *غير فارغ*              |
-| غير قابل للتطبيق         | 12   | *غير فارغ*             | *غير فارغ* | *غير فارغ*              |
-| غير قابل للتطبيق         | 13   | *فارغ*                 | *غير فارغ* | *غير فارغ*              |
+| غير قابل للتطبيق         | 11   | *غير فارغ*             | *غير فارغ* | *غير فارغ*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ ms.locfileid: "6021946"
 | التسويات    | 9    | *فارغ*          | VAT_ADJ     | PurchaseCreditNote       |
 | التسويات    | 10   | *فارغ*          | VAT_ADJ     | الشراء                 |
 | غير قابل للتطبيق | 11   | *غير فارغ*      | *غير فارغ* | *غير فارغ*              |
+
+**CustomerTypeLookup**
+
+|    نتيجة البحث    | البند | مجموعة ضرائب المبيعات |
+|---------------------|------|-----------------|
+| المؤسسة        |  1   | VAT_LOCAL       |
+| المؤسسة        |  2   | VAT_EXPORT      |
+| المؤسسة        |  3   | VAT_EXE         |
+| المستهلك النهائي      |  4   | VAT_FINALC      |
+| مؤسسة عامة |  5   | VAT_PUBLIO      |
+| غير قابل للتطبيق      |  6   | *غير فارغ*     |
 
 **VATRateTypeLookup**
 

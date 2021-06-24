@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9e3976eaf94f6a8440794beebae1ab7241e5aa54
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: cdc16d02f24f24e0f9933542589573ee6b5cde45
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897638"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193369"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>كتالوج التعلّم لمطوري Dynamics 365 Finance
 
@@ -29,20 +29,20 @@ ms.locfileid: "5897638"
 
 ## <a name="get-started"></a>بدء الاستخدام<a name="get-started"></a>
 
-| المحتوى  | ‏‏الوصف     | التنسيق     | الطول    |
-|-------------|-----------------|-------------|------------|
-| [بدء استخدام تطبيقات Finance and Operations](/learn/paths/get-started-finance-operations/) | تعرف كيف يدعم تطبيق Finance and Operations الأعمال لإدارة الأنظمة المالية العمومية والعمليات التجارية التشغيلية وسلاسل التوريد الانسيبابية لتمكين الأشخاص من اتخاذ قرارات سريعة وصائبة. وكخطوة أولى في مسيرتك المهنية للعمل باستخدام تطبيقات Finance and Operations، يجب أن تكون على دراية بميزاته ووظائفه، بصرف النظر عن دورك المرغوب فيه. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 2.2 ساعات |
-| [بدء استخدام Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | يساعد Dynamics 365 Finance مستخدمي الأعمال على التكيّف بسرعة مع بيئات الأعمال المتغيرة. هذا التطبيق يوفر للشركات كل ما تحتاج إليه لمراقبة الشؤون المالية وإدارة الصناديق بمعلومات دقيقة للتخطيط المالي والتنبؤ، ويساعدها في البقاء على اطلاع دائم على أدوات التحليلات. ولأن الماليات تعتبر جوهر أي عمل، فمن الضروري الاطلاع على قدرات Dynamics 365 Finance. | وحدة تعليمية عبر الإنترنت مجانية تتحدد وفقًا لقدرات المستخدم | ساعة |
+| المحتوى | ‏‏الوصف | التنسيق | الطول |
+|---------|-------------|--------|--------|
+| [بدء استخدام تطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-finance-operations/) | تعرف كيف يدعم تطبيق Finance and Operations الأعمال لإدارة الأنظمة المالية العمومية والعمليات التجارية التشغيلية وسلاسل التوريد الانسيبابية لتمكين الأشخاص من اتخاذ قرارات سريعة وصائبة. وكخطوة أولى في مسيرتك المهنية للعمل باستخدام تطبيقات Finance and Operations، يجب أن تكون على دراية بميزاته ووظائفه، بصرف النظر عن دورك المرغوب فيه. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 2.2 ساعات |
+| [بدء استخدام Dynamics 365 Finance](https://docs.microsoft.com/learn/modules/get-started-financial-management-dyn365-finance/) | يساعد Dynamics 365 Finance مستخدمي الأعمال على التكيّف بسرعة مع بيئات الأعمال المتغيرة. هذا التطبيق يوفر للشركات كل ما تحتاج إليه لمراقبة الشؤون المالية وإدارة الصناديق بمعلومات دقيقة للتخطيط المالي والتنبؤ، ويساعدها في البقاء على اطلاع دائم على أدوات التحليلات. ولأن الماليات تعتبر جوهر أي عمل، فمن الضروري الاطلاع على قدرات Dynamics 365 Finance. | وحدة تعليمية عبر الإنترنت مجانية تتحدد وفقًا لقدرات المستخدم | ساعة |
 
 ## <a name="core-development-concepts"></a>مفاهيم التطوير الأساسية<a name="core-development-concepts"></a>
 
-| المحتوى  | ‏‏الوصف  | التنسيق   | الطول    |
-|-------------|-----------------|-------------|------------|
-| [مقدمة حول التطوير باستخدام تطبيقات Finance and Operations](/learn/paths/introduction-develop-finance-operations/) | كمطور يعمل مع تطبيقات Finance and Operations، من الضروري أن تتمتع بمعرفة قوية بمكونات الهندسة الرئيسية لنظام Dynamics 365 البيئي وتطبيقات Finance and Operations. سوف تدعم المعرفة بالمفاهيم الأساسية للمطور، يشمل ذلك القدرات التقنية والتعليمات البرمجية المصدر وإطارات عمل الاختبار وأدوات التقارير، جهودك في بناء مهارات التطوير التي يمكنك تطبيقها على تطبيقات Finance and Operations. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 7.75 ساعات |
-| [بناء تطبيقات Finance and Operations](/learn/paths/build-finance-operations/) | يتطلب التطوير في تطبيقات Finance and Operations فهمًا أساسيًا للمهام المطلوبة لإنشاء عناصر جديدة وتخصيص تطبيقات Finance and Operations. وتشمل المهام فهم التعليمات البرمجية X++ وVisual Studio، بالإضافة إلى القدرة على إنشاء وتعديل العناصر الأساسية للنظام. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 13 ساعات |
-| [توسيع تطبيقات Finance and Operations](/learn/paths/extending-finance-operations/) | تسمح الملحقات للمطورين بإجراء تغييرات على تجربة المستخدم في تطبيقات Finance and Operations عن طريق تطبيق تعديلات على التعليمات البرمجية التي لا تؤثر على التعليمات البرمجية الأساسية. ومن بين الفوائد الأخرى، تسمح الملحقات للمطورين بتحديث تطبيقات Finance and Operations للامتثال لعمليات الأعمال والتغييرات المطلوبة. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 2.5 ساعات |
-| [الاتصال بتطبيقات Finance and Operations](/learn/paths/connect-finance-operations/) | يعتبر التكامل والقدرة على الوصول إلى بياناتك في تطبيقات Finance and Operations من القدرات المهمة للغاية. يمكن للمطورين الذين تعلموا كيفية إنشاء وتوسيع التعليمات البرمجية في تطبيقات Finance and Operations تحسين معرفتهم بالتطوير عن طريق تعلم تكامل البيانات وفهم التأثيرات الإيجابية على المستخدمين نتيجة الاتصال بالبيانات. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 5.75 ساعات |
-| [ترحيل البيانات والانتقال للعرض المباشر باستخدام تطبيقات Finance and Operations](/learn/paths/migrate-data-go-live-finance-operations/) | بصفتك مستشارًا وظيفيًا، يجب عليك فهم كيفية إعداد بيانات عميلك للترحيل والعمل باستخدام إدارة البيانات وتنفيذ اختبارات قبول المستخدم للانتقال للعرض المباشر باستخدام تطبيقات Finance and Operations. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 4 ساعات |
+| المحتوى | ‏‏الوصف | التنسيق | الطول |
+|---------|-------------|--------|--------|
+| [مقدمة حول التطوير باستخدام تطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/introduction-develop-finance-operations/) | كمطور يعمل مع تطبيقات Finance and Operations، من الضروري أن تتمتع بمعرفة قوية بمكونات الهندسة الرئيسية لنظام Dynamics 365 البيئي وتطبيقات Finance and Operations. سوف تدعم المعرفة بالمفاهيم الأساسية للمطور، يشمل ذلك القدرات التقنية والتعليمات البرمجية المصدر وإطارات عمل الاختبار وأدوات التقارير، جهودك في بناء مهارات التطوير التي يمكنك تطبيقها على تطبيقات Finance and Operations. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 7.75 ساعات |
+| [بناء تطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/build-finance-operations/) | يتطلب التطوير في تطبيقات Finance and Operations فهمًا أساسيًا للمهام المطلوبة لإنشاء عناصر جديدة وتخصيص تطبيقات Finance and Operations. وتشمل المهام فهم التعليمات البرمجية X++ وVisual Studio، بالإضافة إلى القدرة على إنشاء وتعديل العناصر الأساسية للنظام. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 13 ساعات |
+| [توسيع تطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/extending-finance-operations/) | تسمح الملحقات للمطورين بإجراء تغييرات على تجربة المستخدم في تطبيقات Finance and Operations عن طريق تطبيق تعديلات على التعليمات البرمجية التي لا تؤثر على التعليمات البرمجية الأساسية. ومن بين الفوائد الأخرى، تسمح الملحقات للمطورين بتحديث تطبيقات Finance and Operations للامتثال لعمليات الأعمال والتغييرات المطلوبة. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 2.5 ساعات |
+| [الاتصال بتطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/connect-finance-operations/) | يعتبر التكامل والقدرة على الوصول إلى بياناتك في تطبيقات Finance and Operations من القدرات المهمة للغاية. يمكن للمطورين الذين تعلموا كيفية إنشاء وتوسيع التعليمات البرمجية في تطبيقات Finance and Operations تحسين معرفتهم بالتطوير عن طريق تعلم تكامل البيانات وفهم التأثيرات الإيجابية على المستخدمين نتيجة الاتصال بالبيانات. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 5.75 ساعات |
+| [ترحيل البيانات والانتقال للعرض المباشر باستخدام تطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/migrate-data-go-live-finance-operations/) | بصفتك مستشارًا وظيفيًا، يجب عليك فهم كيفية إعداد بيانات عميلك للترحيل والعمل باستخدام إدارة البيانات وتنفيذ اختبارات قبول المستخدم للانتقال للعرض المباشر باستخدام تطبيقات Finance and Operations. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 4 ساعات |
 | [Finance And Operations: تطوير ALM (DYN766PAL)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-and-operations---development-alm-february-19-2020) | يناقش هذا الحديث التقني مفاهيم إدارة دورة حياة تطوير التطبيقات، والأدوات وأفضل الممارسات التي نوصي بها. وسوف نتناول كيف يعمل Lifecycle Services وVisual Studio وAzure DevOps معًا لتمكين التسليم المستمر المرتكز على عملية الأعمال لقاعدة التعليمة البرمجية للحل الخاص بك وخدمة البيئات الخاصة بك. | التسجيل المجاني لمؤتمر ويب | 52 دقيقة |
 | [Finance and Operations: توسيع Dynamics 365 for Finance and Operations باستخدام PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | افهم بساطة Microsoft PowerApps وكيف يمكن تعامله مع Dynamics 365 for Finance and Operations لإجراء تحويل رقمي لشركات الأعمال وزيادة إنتاجية المستخدم. | التسجيل المجاني لمؤتمر ويب | 43 دقيقة |
 | [Finance and Operations: قابلية التوسعة (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | سنوفر نظرة عامة وتحديث لخطط قابلية التوسعة لـ Microsoft. سوف نناقش بالتفصيل الطرق المتنوعة لتوسيع الحل والتعمق بشكل أكبر في ميزات قابلية توسيع بيانات التعريف بالإضافة إلى القدرة على زيادة وتوسيع التعليمات البرمجية، يشمل ما يتم عن طريق ميزة سلسلة الأوامر القوية. | التسجيل المجاني لمؤتمر ويب | 50 دقيقة |
@@ -58,8 +58,8 @@ ms.locfileid: "5897638"
 
 ## <a name="servicing"></a>الخدمة<a name="servicing"></a>
 
-| المحتوى  | ‏‏الوصف  | التنسيق  | الطول    |
-|-------------|-----------------|-------------|------------|
+| المحتوى | ‏‏الوصف | التنسيق | الطول |
+|---------|-------------|--------|--------|
 | [Finance and Operations: الخدمة، الدعم والحفاظ على الإنتاج (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | الحديث التقني حول كيفية دعم بيئة إنتاج Dynamics 365 for Finance and Operationsالخاصة بك بفعالية وصيانتها وخدمتها. | التسجيل المجاني لمؤتمر ويب | 53 دقيقة |
 | [Finance and Operations: إدارة الميزات (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | الحديث التقني المتعلق بتجربة إدارة الميزات. يوفر مساحة عمل يُمكن من خلال عرض الميزات التي تم تسليمها في كل إصدار وكيفية تمكينها وتعطيلها وجدولتها. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها. سوف يُساعدك حضور هذا الاجتماع لمعرفة ما تم تسليمه في 10.0.3 وخططنا للإصدارات المستقبلية. | التسجيل المجاني لمؤتمر ويب | 47 دقائق |
 | [Finance And Operations: التحديثات المستمرة المُدارة بواسطة Microsoft  (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | وتيرة التحديث المستمر لـ Finance and Operations بدأت! يُرجى الانضمام إلينا خلال هذه الساعة لمناقشة التحديثات المستمرة المُدارة بواسطة Microsoft، تتوفر تجربة المستخدم بالفعل في Lifecycle Services والتحديثات القادمة. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
@@ -68,16 +68,17 @@ ms.locfileid: "5897638"
 
 ## <a name="migration-and-upgrade"></a>الترقية والترحيل<a name="migration-and-upgrade"></a>
 
-| المحتوى  | ‏‏الوصف    | التنسيق  | الطول    |
-|-------------|-----------------|-------------|------------|
+| المحتوى | الوصف | تنسيق | الطول |
+|---------|-------------|--------|--------|
+| [ترقية Dynamics AX 2012 إلى تطبيقات Finance and Operations](https://docs.microsoft.com/learn/paths/upgrade-ax-2012-finance-operations/) | تعرف على أكثر العناصر أهمية وأفضل الممارسات لترقية حل Dynamics AX 2012 إلى تطبيقات Finance and Operations. من الخطوات الاولى لاكتشاف الاختلافات الهندسية الأساسية، والشروع في عملية الترقية، وأدوات ترقية البيانات والتعليمات البرمجية، وصولاً إلى أفضل الطرق لإعادة تصميم عمليات التكامل والتحليلات وإعداد التقارير استنادًا إلى أحدث القدرات. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 7 ساعات |
 | [Finance and Operations: الترقية من 7.x إلى 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | الرجاء الانضمام إلينا في الحديث التقني القادم، والذي سوف نتناول خلاله عملية الترقية من 7.X إلى 8.X. سوف نناقش سيناريوهات متنوعة وخطوات لتنفيذها لترقية الكود وترقية البيانات. وسوف نقوم أيضًا بتناول سيناريوهات طلب القابلية للتوسعة وكيفية رفعهم حيثما كان ذلك ممكنًا. الجزء 1 من 2. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
 | [ترقية AX2012 إلى Dynamics 365 for Operations  (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | وسوف يوفر هذا الحديث التقني نظرة عامة حول كيفية ترقية الكود والبيانات من AX 2012 إلى Dynamics 365 for Operations. | التسجيل المجاني لمؤتمر ويب | 45 دقائق |
 | [أدوات ترحيل AX2009 إلى Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | وسوف تتناول جلسة العمل هذه الأدوات المتاحة لمساعدتك في الترحيل من AX2009 إلى D365 for Operations.  | التسجيل المجاني لمؤتمر ويب | 55 دقيقة |
 
 ## <a name="testing"></a>اختبار<a name="testing"></a>
 
-| المحتوى  | ‏‏الوصف  | التنسيق  | الطول    |
-|-------------|-----------------|-------------|------------|
+| المحتوى | ‏‏الوصف | التنسيق | الطول |
+|---------|-------------|--------|--------|
 | [Finance and Operations: مكتبة اختبار القبول (DYN650PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-acceptance-test-library-june-20-2019) | الحديث التقني حول كيفية دعم بيئة إنتاج Dynamics 365 for Finance and Operationsالخاصة بك بفعالية وصيانتها وخدمتها. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
 | [Finance and Operations: Regression Suite Automation Tool -- الخلفية والإعداد (DYN646PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | هذا هو أول جزء من سلسلة مكونة من جزئين حول Regression Suite Automation Testing (RSAT). في جلسة العمل هذه، سوف نُغطى كيفية مواكبة التحديثات المستمرة باستخدام الاختبار المؤتمت باستخدام RSAT. وسوف تشمل الجلسة أيضًا نقاط التعلم والتوصيات المتعلقة بإنشاء تسجيلات المهام واختبارات التنفيذ باستخدام RSAT، فضلًا عن إرشادات تفصيلية خطوطة بخطوة تتناول التثبيت والإعداد. | التسجيل المجاني لمؤتمر ويب | 70 دقيقة |
 | [Finance and Operations: Regression Suite Automation Tool -- العرض التوضيحي لاختبار Lifecycle (DYN647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | هذا هو ثاني جزء من سلسلة مكونة من جزئين حول Regression Suite Automation Testing (RSAT). وسوف تتناول جلسة العمل هذه عرض توضيحي للدورة الكاملة لإنشاء وحفظ تسجيلات المهام من Finance and Operations إلى مكتبة BPM في LCS، ومزامنة مكتبة BPM لإنشاء حالات الاختبار في Azure DevOps، وتجميع حالات الاختبار في مجموعات اختبار وتحميل وتنفيذ مجموعات الاختبار في RSAT. | التسجيل المجاني لمؤتمر ويب | 70 دقيقة |
@@ -89,9 +90,8 @@ ms.locfileid: "5897638"
 
 ## <a name="exam"></a>اختبار<a name="exam"></a>
 
-| المحتوى | ‏‏الوصف  | التنسيق  |
-|-------------|-----------------|-------------|
-|[الاختبار MB-500: Microsoft Dynamics 365: مطور تطبيقات Finance and Operations](/learn/certifications/exams/mb-500) | يقوم هذا الاختبار بقياس قدرتك على إنجاز المهام التقنية التالية: هندسة الخطة وتصميم الحل؛ تطبيق أدوات المطورين؛ تصميم عناصر AOT وتطويرها؛ تطوير التعليمات البرمجية واختبارها؛ تنفيذ إعداد التقارير؛ تكامل وإدارة حلول البيانات؛ وتنفيذ الأمان وتحسين الأداء. | الاختبار، تختلف التكلفة حسب المنطقة |
-
+| المحتوى | ‏‏الوصف | التنسيق |
+|---------|-------------|--------|
+|[الاختبار MB-500: Microsoft Dynamics 365: مطور تطبيقات Finance and Operations](https://docs.microsoft.com/learn/certifications/exams/mb-500) | يقوم هذا الاختبار بقياس قدرتك على إنجاز المهام التقنية التالية: هندسة الخطة وتصميم الحل؛ تطبيق أدوات المطورين؛ تصميم عناصر AOT وتطويرها؛ تطوير التعليمات البرمجية واختبارها؛ تنفيذ إعداد التقارير؛ تكامل وإدارة حلول البيانات؛ وتنفيذ الأمان وتحسين الأداء. | الاختبار، تختلف التكلفة حسب المنطقة |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

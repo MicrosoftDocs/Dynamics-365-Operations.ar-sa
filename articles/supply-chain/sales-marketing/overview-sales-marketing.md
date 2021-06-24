@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810860"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188115"
 ---
 # <a name="sales-and-marketing-overview"></a>نظرة عامة على المبيعات والتسويق
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810860"
 
 يمكنك استخدام المبيعات والتسويق للحصول على أنواع مختلفة من البيانات في تدفق المبيعات وتخزين هذه البيانات واستخدامها. تتضمن هذه البيانات مبادرة المبيعات الأصلية وإجراء المتابعة المستقبلية، والمبيعات الإضافية.
 
-<a name="marketing"></a>التسويق
----------
+## <a name="marketing"></a>التسويق
 
 يمكنك استخدام الحملات والأنشطة التسويقية للبحث عن علاقات مع العملاء المحتملين وبناء مثل هذه العلاقات، فيمكن بذلك تطوير التفاعلات الأولية وتحويلها إلى علاقات المبيعات. يوضح سير الإجراءات التالي العملية التجارية الخاصة التسويق. [![العملية التجارية للتسويق](./media/marketing01.jpg)](./media/marketing01.jpg)
 

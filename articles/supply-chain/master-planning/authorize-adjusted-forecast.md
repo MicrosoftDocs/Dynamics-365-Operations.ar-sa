@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67098f6008086788ef8814f45fd0dd5add990460
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42137b9eb24e14518244d87e72e9ea1295be4485
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813689"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188948"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>‏‫تخويل ‏‫التنبؤ الذي تمت تسويته
 
@@ -39,8 +39,7 @@ ms.locfileid: "5813689"
 
 من المهم جدًا أن تفهم كيف تعمل خانة اختيار **‏‫حفظ التسويات اليدوية التي تم إدخالها على التنبؤ بالطلب الأساسي ‬**. إذا قمت بإجراء التسويات اليدوية للتنبؤ الأساسي الإحصائي، فإنه يتم تخويل القيم المعدلة للاستخدام، حتى إذا تم مسح خانة الاختيار هذه. ومع ذلك، يتم تجاهل التغييرات بعد التخويل. وبالتالي، في المرة التالية التي يتم فيها إنشاء تنبؤ، يكون هذا التنبؤ إحصائيًا فقط ولا يحتوي على أي تجاوزات يدوية، حتى إذا تم تحديد **‏‫نقل التسويات اليدوية إلى التنبؤ بالطلب‬**. وبالتالي، يمكنك اعتبار خانة الاختيار **‏‫حفظ التسويات اليدوية التي تم إدخالها على التنبؤ بالطلب الأساسي ‬** آلية تسمح لك الاحتفاظ كافة التغييرات اليدوية أو تجاهلها.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [القيام بتسويات يدوية في التنبؤ الأساسي](manual-adjustments-baseline-forecast.md)
 

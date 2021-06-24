@@ -2,7 +2,7 @@
 title: تحسين نموذج التنبؤ (معاينة)
 description: يوضح هذا الموضوع الميزات التي يمكنك استخدامها لتحسين أداء نماذج التنبؤ.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 197aba724ea68ef79c2d16028c23533d952329a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809996"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186632"
 ---
 # <a name="improve-the-prediction-model-preview"></a>تحسين نموذج التنبؤ (معاينة)
 
@@ -77,9 +77,5 @@ ms.locfileid: "5809996"
 لا تدعم عوامل التصفية حاليًا سيناريو توقعات دفع العميل. لذلك، حدد **تخطي هذه الخطوة**، وتابع إلى صفحة الملخص.
 
 [![وضع التركيز باستخدام عوامل التصفية](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
-
-#### <a name="privacy-notice"></a>إشعار الخصوصية
-إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

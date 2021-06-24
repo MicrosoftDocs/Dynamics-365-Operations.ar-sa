@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1a819505343eaee93c7bf67b1364e61ad5c9c68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 245b61c8cb85ab1282a921ac99b9ac7c2efbadc5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827335"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189411"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>مجموعات حسابات توحيد وحسابات توحيد إضافية
 
@@ -28,8 +28,7 @@ ms.locfileid: "5827335"
 
 يقدم هذا الموضوع معلومات حول مجموعات حسابات التوحيد وحسابات التوحيد الإضافية ويشرح كيفية استخدامها في Microsoft Dynamics 365 Finance.
 
-<a name="consolidation-account-groups"></a>مجموعات حسابات التوحيد
-----------------------------
+## <a name="consolidation-account-groups"></a>مجموعات حسابات التوحيد
 
 تتيح لك مجموعات حسابات التوحيد إنشاء مجموعات من الحسابات التي تريد استخدامها لتوحيد البيانات. في معظم الأحيان، تمثل مجموعة حسابات التوحيد مخطط حسابات حكومي أو تعيِّن الحسابات إلى مجموعة يتم تحديدها من قِبل المقر الرئيسي للشركة. يمكنك العثور على مجموعات حسابات التوحيد في جزء **الإعداد** بالوحدة النمطية **عمليات التوحيد**. عندما تقوم بإضافة مجموعة جديدة، أدخل معرفاً فريداً لمجموعة الحسابات واسمًا لها.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815346"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189363"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>طرق حساب ضريبة المبيعات في حقل الأصل
 
@@ -52,8 +52,7 @@ ms.locfileid: "5815346"
 | كود ضريبة واحدة فقط بالأصل = يمكن استخدام النسبة المئوية لإجمالي المبلغ لحركة. وإذا تم تحديد أكثر من كود ضريبة واحدة لحركة، فسيتم عرض خطأ يفيد بأنه لا يمكن حساب ضريبة المبيعات. |
 
 
-<a name="percentage-of-sales-tax"></a>النسبة المئوية لضريبة المبيعات
------------------------
+## <a name="percentage-of-sales-tax"></a>النسبة المئوية لضريبة المبيعات
 
 عند تحديد النسبة المئوية لضريبة المبيعات في حقل الأصل، فإنه يتم حساب ضريبة المبيعات كنسبة مئوية لضريبة المبيعات التي تم تحديدها في ضريبة المبيعات في حقل ضريبة المبيعات. ويتم حساب ضريبة المبيعات التي تم تحديدها في ضريبة المبيعات في حقل ضريبة المبيعات أولاً. ثم يتم حساب ضريبة المبيعات الثانية بعد ذلك بناءً على مبلغ ضريبة المبيعات الأولى.
 ### <a name="example"></a>مثال
@@ -119,8 +118,7 @@ ms.locfileid: "5815346"
 
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [معدلات ضريبة المبيعات على أساس طريقتي القاعدة الهامشية والعملية الحسابية](marginal-base-field.md)
 

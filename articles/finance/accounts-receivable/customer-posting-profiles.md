@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826361"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193608"
 ---
 # <a name="customer-posting-profiles"></a>ملفات تعريف ترحيل العميل
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826361"
 
 تتحكم ملفات تعريف ترحيل العميل‬ في ترحيل حركات العميل إلى دفتر الأستاذ العام.
 
-<a name="customer-posting-profiles"></a>ملفات تعريف ترحيل العميل
--------------------------
+## <a name="customer-posting-profiles"></a>ملفات تعريف ترحيل العميل
 
 تمكنك ملفات تعريف ترحيل العميل من تعيين حسابات دفتر الأستاذ العام وإعدادات الوثيقة لكافة العملاء أو مجموعة من العملاء أو عميل واحد. سيتم استخدام هذه الإعدادات عند إنشاء أوامر المبيعات، وفواتير النص الحر، والمدفوعات النقدية، وخطابات التحصيل، وإشعارات الفائدة. وفي بعض الحركات، يمكنك تحديد ملف تعريف ترحيل يختلف عن إعداد ملفات تعريف الترحيل للحركات بهذه الصفحة وله الأسبقية عليه. 
 
@@ -118,7 +117,6 @@ ms.locfileid: "5826361"
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**تقييدات الجداول**
 

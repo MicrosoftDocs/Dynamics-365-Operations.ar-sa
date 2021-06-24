@@ -2,7 +2,7 @@
 title: نظرة عامة على فواتير المورّدين
 description: يوفر هذا الموضوع معلومات عامة حول فواتير المورد.
 author: abruer
-ms.date: 12/18/2019
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
-ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
+ms.openlocfilehash: c12b85103ff136799e5d676f72186e007161e9a9
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6111684"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186338"
 ---
 # <a name="vendor-invoices-overview"></a>نظرة عامة على فواتير المورّدين
 
@@ -28,7 +28,7 @@ ms.locfileid: "6111684"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-يوفر هذا الموضوع معلومات عامة حول فواتير المورد. فواتير المورد هي طلبات للدفع المستلم للمنتجات والخدمات. فواتير المورد قد تمثل فاتورة في مقابل خدمات مستمرة، أو يمكنها أن تستند إلى أوامر شراء لأصناف وخدمات معينة.
+يوفر هذا الموضوع معلومات عامة حول فواتير المورد. فواتير المورد هي طلبات للدفع للمنتجات والخدمات. فواتير المورد قد تمثل فاتورة في مقابل خدمات مستمرة، أو يمكنها أن تستند إلى أوامر شراء لأصناف وخدمات معينة.
 
 ## <a name="vendor-invoices"></a>فواتير المورد
 

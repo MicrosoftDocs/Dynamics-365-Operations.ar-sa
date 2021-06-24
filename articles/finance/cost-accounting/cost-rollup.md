@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815754"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189035"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>سياسة زيادة التكلفة وحساب المصروفات الزائدة 
 
@@ -149,8 +149,7 @@ ms.locfileid: "5815754"
 | CC001                                | الإجمالي         | **خدمات الموارد البشرية**        |
 | CC002                                | الإجمالي         | **الخدمات المالية** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>كيفية تدفق التكلفة بين مراكز التكلفة 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>كيفية تدفق التكلفة بين مراكز التكلفة 
 
 إذا كنت ترغب في معرفة كيفية تدفق التكلفة بين مراكز التكلفة في المؤسسة، يمكنك إنشاء عناصر تكلفة من النوع **فرعي** لكل مركز التكلفة. وبعد ذلك، يتم استخدام عناصر التكلفة هذه لتحويل الأرصدة بين مراكز التكلفة أثناء حساب المصروفات الزائدة.
 

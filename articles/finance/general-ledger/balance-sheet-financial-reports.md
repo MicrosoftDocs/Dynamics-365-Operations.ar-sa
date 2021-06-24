@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e3624b387820bea3bfea9c2a4b2f48b0aa9822
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821927"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189011"
 ---
 # <a name="balance-sheet-financial-reports"></a>التقارير المالية للميزانية العمومية
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821927"
 
 توضح هذه المقالة التقارير الافتراضية للميزانيات العمومية. كما تصف العناصر الأساسية التي تقترن بهذه التقارير. 
 
-<a name="default-balance-sheet-reports"></a>تقارير الميزانية العمومية الافتراضية
------------------------------
+## <a name="default-balance-sheet-reports"></a>تقارير الميزانية العمومية الافتراضية
 
 هناك تقريران افتراضيان للميزانية العمومية. في تقرير واحد، يتم تكديس الأقسام. وفي التقرير الآخر، تكون الأقسام بجانب بعضها البعض.
 
@@ -68,8 +67,7 @@ ms.locfileid: "5821927"
 
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على التقارير المالية](financial-reporting-getting-started.md)
 

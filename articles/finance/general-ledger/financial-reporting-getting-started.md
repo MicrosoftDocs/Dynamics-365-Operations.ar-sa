@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 43ab01d36f032e36a0daed6f94897bba42f8a189
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897026"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188987"
 ---
 # <a name="get-started-with-financial-reporting"></a>الشروع في العمل مع التقارير المالية 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897026"
 
 يصف هذا الموضوع المكان الذي يمكن منه الوصول إلى التقارير المالية وكيفية استخدام إمكانيات إعداد التقارير المالية. كما يتضمن وصفًا للتقارير المالية الافتراضية التي يتم توفيرها.
 
-<a name="accessing-financial-reporting"></a>الوصول إلى التقارير المالية
------------------------------
+## <a name="accessing-financial-reporting"></a>الوصول إلى التقارير المالية
 
 يمكنك العثور على قائمة **إعداد التقارير المالية** في الأماكن التالية:
 

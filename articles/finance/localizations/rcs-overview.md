@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service
 description: يقدم هذا الموضوع نظرة عامة حول إمكانيات Regulatory Configuration Service (RCS) ويشرح كيفية الوصول إلى الخدمة.
 author: JaneA07
-ms.date: 04/07/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1eeac7217290e0583fcecdf5b4b5b9153d266240
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019384"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216552"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -59,9 +59,19 @@ ms.locfileid: "6019384"
 
 للحصول على قائمه كامله بالمناطق، راجع [Dynamics 365 وPower Platform: التوافر وموقع البيانات واللغة والترجمة](https://aka.ms/dynamics_365_international_availability_deck).
 
+## <a name="rcs-default-company"></a>الشركة الافتراضية RCS
+
+تتم مشاركة وظيفة وقت التصميم المستخدمة في RCS عبر كافة الشركات. لا توجد وظيفة خاصة بالشركة. وبالتالي، نُوصي باستخدام شركة واحدة، **DAT**، مع بيئة RCS الخاصة بك.
+
+ومع ذلك، في بعض السيناريوهات، قد تحتاج إلى جعل تنسيقات التقارير الإلكترونية تستخدم المعلمات المرتبطة بكيان قانوني محدد. في هذه السيناريوهات هذه فقط، يجب استخدام مبدل الشركة الافتراضي. على سبيل المثال، راجع [تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md).
+
 ## <a name="related-rcs-documentation"></a>وثائق RCS ذات الصلة
 
-لمزيد من المعلومات حول المكونات ذات الصلة، راجع الوثائق التالية:
+لمزيد من المعلومات حول المكونات ذات الصلة، راجع الموضوعات التالية:
+
+- **RCS:**
+
+    - [إنشاء تكوينات ER في RCS وتحميلها إلى المستودع العمومي](rcs-global-repo-upload.md)
 
 - **المستودع العمومي:**
 
@@ -70,7 +80,20 @@ ms.locfileid: "6019384"
     - [التصفية المحسنة في المستودع العمومي](enhanced-filtering-global-repo.md)
     - [تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md)
     - [إيقاف التكوينات في المستودع العمومي](discontinuing-configurations-rcs-global-repo.md)
+    - [إهلاك تخزين Regulatory Configuration Service (RCS) – Lifecycle Services (LCS)](rcs-lcs-repo-dep-faq.md)
 
 - **ميزة العولمة:**
 
     - [Regulatory Configuration Service (RCS) - ميزة العولمة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-finance/regulatory-configuration-service-simplified-globalization-feature-management-globalization-services)
+
+
+## <a name="troubleshooting-rcs-sign-up"></a>استكشاف أخطاء التسجيل في RCS وإصلاحها
+
+عندما تقوم بالتسجيل في RCS من صفحة الخدمة، قد تواجه مشكلة مرتبطة بـ Azure Active Directory (Azure AD). تشير رسالة الخطأ التي تظهر إلى أنه تم إيقاف تشغيل التسجيل في RCS حاليًا ويجب تشغيل التسجيل قبل أن تتمكن من إكمال عملية التسجيل.
+
+![رسالة خطأ التسجيل في RCS](media/01_RCSSignUpError.jpg)
+
+تحدث هذه المشكلة بسبب أنك محظور من التسجيل للاشتراكات المخصصة، ويجب تمكين الخاصية `AllowAdHocSubscriptions` في المستأجر الخاص بك. 
+
+- إذا قام قسم تكنولوجيا المعلومات الخاص بك بإدارة مستأجري Azure لمؤسسك، فاتصل بذلك القسم للإبلاغ عن المشكلة.
+- إذا كنت مسؤولاً عن إدارة مستأجري Azure، فيمكنك إصلاح المشكلات باتباع الخطوات الموجودة في [ما التسجيل بالخدمة الذاتية لـ Azure Active Directory](/azure/active-directory/enterprise-users/directory-self-service-signup#how-do-i-control-self-service-settings).

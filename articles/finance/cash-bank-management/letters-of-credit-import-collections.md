@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c59a4f098ac19223c5b2fb6808d18d8fea4f4290
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2673ecb09cd479eb10182a4345fe89d8f6b8d404
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815922"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188454"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>خطابات الاعتماد وتحصيلات الاستيراد
 
@@ -28,8 +28,7 @@ ms.locfileid: "5815922"
 
 توفر هذه المقالة معلومات عامة حول مجموعات الاستيراد وخطابات الاعتماد. يُستخدم هذان النوعان من المستندات البنكية بشكل شائع لشراء وبيع السلع عبر الحدود الدولية.
 
-<a name="letters-of-credit"></a>خطابات الاعتماد
------------------
+## <a name="letters-of-credit"></a>خطابات الاعتماد
 
 ‏‫يتم استخدام خطابات الاعتماد للحركات الدولية وتساعد في ضمان أن تُسدد المدفوعات. وخطاب الاعتماد هو اتفاقية يصدرها بنك، ويوافق هذا البنك فيها على ضمان الدفع نيابةً عن مشتري، شريطة الوفاء بشروط الاتفاق المبرم بين المشتري والبائع. كما يُشار إلى خطاب الاعتماد بالاعتماد المستندي (DC).‬
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825857"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190054"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>دعم لوحة تحويل كانبان للماسحات الضوئية للرمز الشريطي
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825857"
 
 تدعم لوحة تحويل كانبان‬ إدخال الماسح الضوئي من ماسح ضوئي للرمز الشريطي لعنصر واجهة مستخدم لتحديد وظيفة كانبان وبدء تنفيذها وإكمالها وإفراغها.
 
-<a name="registration-modes"></a>أوضاع التسجيل
-------------------
+## <a name="registration-modes"></a>أوضاع التسجيل
 
 في علامة التبويب السريع **تسجيل الماسح الضوئي**، يمكنك تحديد وضع التسجيل، التي تتحكم في الإجراء عند قيامك بمسح رقم بطاقة كانبان ضوئيًا أو بكتابة الرقم في حقل رقم بطاقة كانبان يدوياً.
 
@@ -42,8 +41,7 @@ ms.locfileid: "5825857"
 | تحديد                | تسجيل رقم بطاقة كانبان وتحديد الوظيفة المشار إليها تلقائيًا في قائمة كانبان. |
 
  
-<a name="registration-mode-select"></a>تحديد وضع التسجيل
-------------------------
+## <a name="registration-mode-select"></a>تحديد وضع التسجيل
 
 عند استخدام قارئ الرمز الشريطي لتحديد وظيفة، يتغير وضع عرض تغييرات لوحة كانبان. في هذا الوضع، تنطبق الشروط التالية:
 

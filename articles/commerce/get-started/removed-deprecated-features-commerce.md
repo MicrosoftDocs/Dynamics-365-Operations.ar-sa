@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5544fefbbf0dfc012e868b672f80cc2be30fe7ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f80d1509c7c363e93b83cb47c1b93ab00bf67180
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020852"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193458"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 
@@ -37,7 +37,7 @@ ms.locfileid: "6020852"
 
 ### <a name="full-dataset-generation-interval-is-deprecated"></a>تم إهمال الفاصل الزمني لإنشاء مجموعة بيانات كاملة
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | بدءا من هذا الإصدار، في نموذج **معلمات مجدول Commerce** في المركز الرئيسي لـ Dynamics 365، سيتم إهمال حقل **الفاصل الزمني بالأيام لإنشاء مجموعة البيانات بأكملها**. بدءًا من هذا الإصدار أيضًا، ستتم إزالة الحقل بشكل مرئي بحيث لا يمكن تحرير القيمة. سيبقي هذا حيث ستكون القيمة **0**. |
 | **هل تم الاستبدال بميزة أخرى؟**   | لا |
@@ -49,7 +49,7 @@ ms.locfileid: "6020852"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>تم إهمال دعم Internet Explorer 11 لـ Dynamics 365
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | اعتبارًا من ديسمبر 2020، تم إهمال دعم Microsoft Internet Explorer 11 لجميع منتجات Dynamics 365، ولن يتم دعم Internet Explorer 11 بعد أغسطس 2021.<br><br>سيؤثر هذا الاجراء علي العملاء الذين يستخدمون منتجات Dynamics 365 التي تم تصميمها ليتم استخدامها من خلال واجهة Internet Explorer 11. بعد أغسطس 2021، لن يتم دعم Internet Explorer 11 لمنتجات Dynamics 365. |
 | **هل تم الاستبدال بميزة أخرى؟**   | نوصي العملاء بالانتقال إلى Microsoft Edge.|
@@ -59,7 +59,7 @@ ms.locfileid: "6020852"
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.11 من Commerce
 ### <a name="data-action-hooks"></a>ربط إجراءات البيانات
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم إهمال ميزه ربط إجراءات البيانات بسبب مشاكل في الأداء. |
 | **هل تم الاستبدال بميزة أخرى؟**   | يستحسن استخدام [‏‫عمليات تجاوز إجراءات البيانات‬](../e-commerce-extensibility/data-action-overrides.md) لتعديل منطق تسلسل العمل في طبقة إجراء البيانات.|
@@ -68,7 +68,7 @@ ms.locfileid: "6020852"
 | **الحالة**                         | مهمل: اعتبارًا من إصدار 10.0.11 |
 
 ### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>دعم Retail SDK لكل من Visual Studio‏ 2015 وmsbuild 14.0 ومكتباتRetail SDK\المرجعية والأدوات
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم إهمال دعم Retail SDK لـ Visual Studio 2015 وتحديثه لدعم الإصدارات 2017 وmsbuild 15.0 وجميع المكتبات المرجعية وأدوات منشئ وكيل التجارة في المجلد RetailSDK\المراجع الذي تم نقله إلى حزم NuGet لتبسيط نموذج الامتدادات وعملية ترقية SDK.|
 | **هل تم الاستبدال بميزة أخرى؟**   | يستحسن اتباع المعلومات الواردة في [ترحيل Retail SDK من Visual Studio 2015 إلى Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) لتحديث نظامك. |
@@ -77,7 +77,7 @@ ms.locfileid: "6020852"
 | **الحالة**                         | مهمل: اعتبارًا من إصدار 10.0.11 |
 
 ### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>امتداد خادم البيع بالتجزئة باستخدام IEdmModelExtender وCommerceController
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم إهمال امتداد خادم البيع بالتجزئة باستخدام IEdmModelExtender و CommerceController لتوفير نموذج امتداد مبسط. سينطوي التنفيذ الجديد على فئة عنصر التحكم فقط دون تطبيق أي فئة IEdmModelExtender إضافية. ويؤدي ذلك أيضًا إلى تجنب التبعية مع إصدار OData معين (في حالة تحديث إصدار OData، فقد يؤدي ذلك إلى إيقاف الامتدادات.) |
 | **هل تم الاستبدال بميزة أخرى؟**   |  يستحسن استخدام نموذج امتداد الفئة IController عن طريق استيراد حزمة NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
@@ -86,7 +86,7 @@ ms.locfileid: "6020852"
 | **الحالة**                         | مهمل: اعتبارًا من إصدار 10.0.11 |
 
 ### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>امتداد محطة الأجهزة باستخدام IHardwareStationController
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم إهمال امتداد محطة الأجهزة باستخدام IHardwareStationController لتوفير نموذج امتداد مبسط. سينطوي التنفيذ الجديد على الفئة IController فقط دون تطبيق أي فئة إضافية ولتجنب التبعية مع مكتبات محطات الأجهزة الأساسية، يحتاج الامتداد السابق إلى الرجوع إلى مكتبات متعددة. |
 | **هل تم الاستبدال بميزة أخرى؟**   | يستحسن استخدام نموذج امتداد الفئة IController عن طريق استيراد حزمة NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
@@ -96,7 +96,7 @@ ms.locfileid: "6020852"
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.10 من Commerce
 ### <a name="pos-operation-803---picking-and-receiving"></a>عملية نقطة البيع 803 - الانتقاء والاستلام
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | جارٍ إهمال عمليات الانتقاء والاستلام نظرا لإعاده التصميم الجديد للعملية. |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم. ويتم استبدالها بعمليتي POS جديدتين: العملية الداخلية (804) والعملية الخارجية (805).|
@@ -107,7 +107,7 @@ ms.locfileid: "6020852"
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.7 من Commerce
 ### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>واجهات API لـ Commerce GetProductAvailabilities و GetAvailableInventoryNearby
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم إنشاء واجهة API محسّنة جديدة لتحل محل واجهات برمجة التطبيقات GetProductAvailabilities و GetAvailableInventoryNearby. |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم: يتم استبداله بواجهات GetEstimatedAvailabilty وGetEstimatedProductWarehouseAvailability. |

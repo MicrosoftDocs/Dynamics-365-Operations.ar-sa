@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835210"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189459"
 ---
 # <a name="set-up-collections"></a>إعداد التحصيلات
 
@@ -40,8 +40,7 @@ ms.locfileid: "5835210"
 
 وتتم مناقشه هذه النقاط بمزيد من التفصيل خلال باقي هذا الموضوع. 
 
-<a name="set-up-aging-period-definitions"></a>إعداد تعريفات فترة التأخر
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>إعداد تعريفات فترة التأخر
 
 إعداد تعريف فترة تقادم. يحدد تعريف فترة تقادم الأعمدة التي تظهر في صفحات قوائم **الأرصدة القديمة‬**، و **‏‫أنشطة التحصيلات‬**، و **حالات التحصيلات**. كما تقوم بتحديد الفترات الزمنية التي تظهر في صفحة **التحصيلات**. إذا تم إعداد وعاء عملاء، فسيتم استخدام تعريف فترة التأخر للوعاء. إذا لم يتم إعداد أية أوعية، فإنه يتم استخدام تعريف فترة التقادم الافتراضية المحددة في صفحة **معلمات الحسابات المدينة**. في حالة عدم تحديد أي تعريف افتراضي لفترة التقادم، فإنه يتم استخدام أول تعريف لفترة التقادم في صفحة **تعريفات فترة التقادم**.
 

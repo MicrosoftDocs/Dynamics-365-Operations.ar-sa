@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960039"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187930"
 ---
 # <a name="budgeting-overview"></a>نظرة عامة على إعداد الموازنة
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960039"
 
 ستتمكن كل الشركات تقريبًا التي تستخدم وظائف الماليات في Microsoft Dynamics 365 Finance من إنشاء تقارير للموازنة مقابل القيم الفعلية‬. توضح هذه المقالة الحد الأدنى للتكوين المطلوب لإنشاء موازنات في Finance and Operations أو تحميلها من برنامج تابع لجهة خارجية.
 
-<a name="overview"></a>نظرة عامة
---------
+## <a name="overview"></a>نظرة عامة
 
 يتم الاحتفاظ الموازنة المعتمدة لكيان قانوني في وثيقة تُعرف باسم *إدخال سجل الموازنة*. ‏‫وتعرف البنود في مستند إدخال سجل الموازنة بإدخالات *‬‏‫حساب الموازنة‬‏‫* وتحتوي على معلومات البعد المالي والتواريخ ومبالغ الموازنة المعتمدة. وتم دمج مستند إدخال سجل الموازنة في التقارير المالية الأساسية وصفحات الاستعلام حيث تتم مقارنة المبالغ الفعلية في دفتر الأستاذ بمبالغ الموازنة.‬ 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744153"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188065"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>إنشاء الوثائق أو التدريب حسب مسجل المهام
 
@@ -31,8 +31,7 @@ ms.locfileid: "5744153"
 > [!IMPORTANT]
 > يمكنك تسجيل دلائل مهام لتطبيق Dynamics 365 Human Resources، ولكنك لن تتمكن من حفظها في مكتبة أداة تكوين عمليات الأعمال (BPM) أو فتحها من جزء "التعليمات" في الوقت الحالي. يمكنك حفظها محلياً أو في موقع على الشبكة، ثم فتحها وإعادة تشغيلها باستخدام "مسجل المهام". 
 
-<a name="learn-about-task-recorder"></a>التعرف على مسجل المهام
--------------------------
+## <a name="learn-about-task-recorder"></a>التعرف على مسجل المهام
 
 مسجل المهام عبارة عن أداة يمكنك استخدامها لتسجيل الإجراءات التي تنفذها في واجهة مستخدم المنتج. وعند استخدام مسجل المهام، يتم التقاط كافة الأحداث التي تقوم بها في واجهة المستخدم التي يتم تنفيذها على الخادم — بما في ذلك إضافة القيم، وتغيير الإعدادات، وإزالة البيانات. وتُسمى الخطوات التي تقوم بتسجيلها مجتمعة باسم *تسجيل المهام*. يمكن استخدام تسجيلات المهام بعدة طرق:
 
@@ -111,8 +110,7 @@ ms.locfileid: "5744153"
 
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظام التعليمات](../../fin-ops/get-started/help-overview.md)
 

@@ -1,8 +1,8 @@
 ---
-title: تكوين Finance Insights (معاينة)
-description: يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights.
+title: تكوين Finance Insights - الإصدارات حتى 10.0.19
+description: يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights بالنسبة للإصدارات حتى 10.0.19.
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941216"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186410"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>تكوين Finance insights (معاينة)
 
@@ -30,6 +30,9 @@ ms.locfileid: "5941216"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+> [!NOTE]
+> تكون الإجراءات التالية لإعداد Finance insights صالحة لـ Microsoft Dynamics 365 Finance للإصدارات حتى 10.0.19. لإعداد Finance insights في الإصدار 10.0.20 والإصدارات اللاحقة، راجع [تكوين Finance insights (إصدار أولي) - الإصدارات 10.0.20 وما بعده](configure-for-fin-insites-PubPrvw.md).
+
 تضم Finance insights الوظيفة من Microsoft Dynamics 365 Finance مع Microsoft Dataverse وAzure و AI Builder لتوفير أدوات التنبؤ القوية لمؤسستك. يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights.
 
 ## <a name="deploy-dynamics-365-finance"></a>نشر Dynamics 365 Finance
@@ -38,7 +41,7 @@ ms.locfileid: "5941216"
 
 1. في Microsoft Dynamics Lifecycle Services (LCS)، قم بإنشاء أو تحديث بيئة Dynamics 365 Finance. تتطلب البيئة تحديث التطبيق النظام الأساسي 10.0.11 إلى الإصدار 35 أو أحدث.
 2. يجب أن تكون البيئة بيئة عالية التوافر (HA) في وضع الحماية. (يُعرف هذا النوع من البيئة أيضًا ببيئة الطبقة 2). لمزيد من المعلومات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. إذا كنت تستخدم البيانات التجريبية لشركات Contoso، فإنك ستحتاج إلى بيانات نموذج إضافية لاستخدام ميزات توقعات دفع العميل وتقديرات التدفقات النقدية والتنبؤ بالموازنة. 
+3. إذا كنت تقوم بتكوين Finance insights في بيئة حماية، فقد تحتاج إلى نسخ بيانات الإنتاج إلى تلك البيئة لتوقعات العمل. يستخدم نموذج التنبؤ سنوات متعددة من البيانات لبناء التوقعات. لا تحتوي بيانات العرض التوضيحي لـ Contoso على بيانات تاريخية كافية للتدريب على نموذج التوقع بشكل ملائم. 
 
 ## <a name="configure-dataverse"></a>تكوين Dataverse
 

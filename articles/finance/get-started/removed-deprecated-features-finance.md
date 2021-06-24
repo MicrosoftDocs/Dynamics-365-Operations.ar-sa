@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: e6a391b10ddaef79e68f47afae7d77135a1c333a
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980886"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184115"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -65,7 +65,7 @@ ms.locfileid: "5980886"
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم |
 | **مناطق المنتجات المتأثرة**         | منتجات Dynamics 365 Finance وSupply Chain Management وProject Operations|
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | مهمل: بحلول 01 أبريل، 2022، نخطط لإيقاف الدعم لمستودع Microsoft Dynamics Lifecycle Services (LCS) باعتباره خيار تخزين لتكوين التقارير الإلكترونية (ER). سيتم نشر تكوينات Microsoft ER الجديدة لتنزيلها حصريًا من المستودع العمومي. يمكن الوصول إلى المستودع العمومي من منتجات Dynamics 365 وRCS. لمزيد من المعلومات، راجع [استيراد تكوينات ER من RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **الحالة**                         | مهمل: بحلول 01 أبريل، 2022، نخطط لإيقاف الدعم لمستودع Microsoft Dynamics Lifecycle Services (LCS) باعتباره خيار تخزين لتكوين التقارير الإلكترونية (ER). سيتم نشر تكوينات Microsoft ER الجديدة لتنزيلها حصريًا من المستودع العمومي. يمكن الوصول إلى المستودع العمومي من منتجات Dynamics 365 وRCS. لمزيد من المعلومات، راجع [استيراد تكوينات التقارير الإلكترونية من RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) و [إهلاك تخزين Regulatory Configuration Service - Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.16 من Finance
 

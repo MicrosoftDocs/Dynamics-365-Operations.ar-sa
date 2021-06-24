@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09a420fcf5bb122b7ffa0c6ef8566efad86db4f6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16b05bfe2a8deec365bdccf56ddbb375e9c4becd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817859"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190006"
 ---
 # <a name="operations-scheduling"></a>جدولة العمليات
 
@@ -74,8 +74,7 @@ ms.locfileid: "5817859"
 ## <a name="finite-materials"></a>المواد المحدودة
 إذا كنت تستخدم مواد محدودة، فإن الجدولة تتوقف أيضًا على توفر المواد المطلوبة للإنتاج. إذا لم تتوفر مكونات كافية للإنتاج، فيمكن حدوث تأخير في الإنتاج. يمكنك إسناد الجدولة إلى استخدام المواد عن طريق تحديد المواد التي يجب أن تكون متوفرة للإنتاج. عند تحسينات القدرة الإنتاجية للموارد وتوفر المواد، يتم حساب الإنتاج وفقًا لهذه القيود. لا يمكن جدولة بدء أمر إنتاج إلا عندما تصبح القدرة الإنتاجية والمواد متوفرة في الوقت نفسه وبالكميات المطلوبة.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [خيارات جدولة العمليات](operation-scheduling-options.md)
 

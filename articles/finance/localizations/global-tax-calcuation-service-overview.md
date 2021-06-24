@@ -2,7 +2,7 @@
 title: (إصدار أولي) حساب الضرائب
 description: يوضح هذا الموضوع النطاق الإجمالي والميزات الخاصة بقدرة حساب الضريبة.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b26472e195d9bdbba340a118c106de1a4dc79b34
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9daa6e001200d03a2639974fb6de618d77ddf09d
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021922"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184091"
 ---
 # <a name="tax-calculation-preview"></a>(إصدار أولي) حساب الضرائب
 
@@ -31,6 +31,9 @@ ms.locfileid: "6021922"
 خدمة حساب الضريبة هي خدمة متعددة المستأجرين قابلة للتوسع بشكل كبير وتمكّن Global Tax Engine من أتمتة وتبسيط عملية تحديد الضرائب وحسابها. محرك الضرائب قابل للتكوين بالكامل. تتضمن العناصر التي يمكن تكوينها، على سبيل المثال لا الحصر، نموذج البيانات الخاضع للضريبة، وكود الضريبة، ومصفوفة تطبيق الضريبة، وصيغة حساب الضريبة. يعمل محرك الضرائب على النظام الأساسي لخدمات Microsoft Azure الأساسية، ويقدم التكنولوجيا الحديثة وقابلية التوسع الأسي.
 
 تتكامل خدمه حساب الضريبة مع Dynamics 365 Finance وDynamics 365 Supply Chain Management. وأخيرُا، ستقوم أيضا بالتكامل مع Dynamics 365 Project Operations وDynamics 365 Commerce وتطبيقات أخرى تابعة للجهات الخارجية والجهات الأولى.
+
+> [!IMPORTANT]
+> عند تمكين ‏‫خدمة حساب الضرائب، قد يتم إجراء بعض العمليات على البيانات ذات الصلة في مركز بيانات غير مركز البيانات الذي يحتفظ ببيانات الخدمة الخاصة بك. راجع [الشروط والأحكام](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) قبل تمكين خدمة حساب الضرائب. خصوصيتك تهمنا. لمعرفه المزيد، اقرأ [بيان الخصوصية](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 خدمة حساب الضريبة هي محرك ضرائب قائم على الخدمات الصغيرة يوفر قابلية توسعة أسية. يمكن أن تساعدك في أداء المهام التالية:
 

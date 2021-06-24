@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
-ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
+ms.openlocfilehash: e72b81d4a109db2dd8b4c6ca2ca0b030220e25f3
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6060553"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216709"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>الشروع في العمل باستخدام حساب الضريبة (إصدار أولي)
 
@@ -58,7 +58,7 @@ ms.locfileid: "6060553"
 لا تتعلق الخطوات الواردة في هذا القسم بكيان قانوني معين. يجب إكمال هذا الإجراء مرة واحدة فقط، ويمكنك إكماله في أي كيان قانوني في RCS.
 
 1. سجل الدخول إلى [RCS](https://marketing.configure.global.dynamics.com/).
-2. في Finance، في مساحة عمل **التقارير الإلكترونية**، أضف موفر تكوين جديدًا. استخدم اسم شركتك كاسم الموفر. لمزيد من المعلومات، راجع [إنشاء موفري التكوين ووضع علامة عليهم كنشطين](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. في مساحة عمل **التقارير الإلكترونية**، أضف موفر تكوين جديدًا. استخدم اسم شركتك كاسم الموفر. لمزيد من المعلومات، راجع [إنشاء موفري التكوين ووضع علامة عليهم كنشطين](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. حدد موفر التكوين الذي قمت بإنشائه للتو، ثم حدد **تعيين كنشط**.
 4. حدد موفر التكوينات من **Microsoft**، ثم حدد **المستودعات**.
 5. في حقل **النوع**، حدد **عمومي**.

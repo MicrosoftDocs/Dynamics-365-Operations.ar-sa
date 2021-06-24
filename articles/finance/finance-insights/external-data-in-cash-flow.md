@@ -2,7 +2,7 @@
 title: استخدم البيانات الخارجية في تقديرات التدفق النقدي (معاينة)
 description: يصف هذا الموضوع خطوات الإعداد التي يجب إكمالها بحيث يمكن إدخال البيانات الخارجية أو استيرادها إلى تقديرات التدفقات النقدية.
 author: rcarlson
-ms.date: 05/01/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 66bdb8bd638859bb4fc5565e3f12a8f671addcff
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897878"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186680"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>استخدم البيانات الخارجية في تقديرات التدفق النقدي (معاينة)
 
@@ -57,9 +57,5 @@ ms.locfileid: "5897878"
 
 - إعداد المصدر الخارجي للتنبؤ بالتدفق النقدي
 - إعداد الكيان القانوني للمصدر الخارجي للتنبؤ بالتدفق النقدي
-
-#### <a name="privacy-notice"></a>إشعار الخصوصية
-إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058910"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189591"
 ---
 # <a name="compensation-plans"></a>خطط التعويض
 
@@ -121,8 +121,7 @@ ms.locfileid: "6058910"
 ## <a name="process-events"></a>أحداث العملية
 يقوم حدث عملية بحساب معلومات التعويض لفترة معينة لكافة الموظفين الذين تم تسجيلهم في خطة واحدة أو أكثر من خطط التعويض الثابتة أو المتغيرة. كما يمكن أيضًا تشغيل حدث عملية بشكل متكرر، على سبيل المثال، لاختبار أو تحديث نتائج التعويض التي تم حسابها.
 
-<a name="compensation-events"></a>أحداث التعويض
--------------------
+## <a name="compensation-events"></a>أحداث التعويض
 
 ‏‫في كل مرة يتم فيها تشغيل حدث عملية، يتم إنشاء حدث تعويض.  وتحتوي أحداث التعويض على نتائج عملية التعويض لكل موظف يتم تضمينه في حدث العملية هذا.  وعندما تكون العمليات الحسابية صحيحة، يمكنك تحميل حدث التعويض لتحديث سجلات التعويض للموظفين الذين يتأثرون بحدث العملية.‬
 

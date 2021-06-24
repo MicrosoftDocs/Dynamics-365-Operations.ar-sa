@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811764"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190102"
 ---
 # <a name="bills-of-materials-and-formulas"></a>قوائم مكونات الصنف والمعادلات
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811764"
 
 يوفر هذا الموضوع معلومات حول قوائم مكونات الصنف‬ (BOM) والمعادلات، التي تعتبر جزءًا أساسيًا من تعريف متغيرات المنتجات والمنتجات. تحدد قوائم مكونات الصنف‬ (BOM) والمعادلات تلك المواد أو المكونات المطلوبة لمنتج معين. تحدد المعادلات أيضًا المنتجات المساعدة والمنتجات الثانوية التي ترد في سياق إنتاج معين. 
 
-<a name="bills-of-materials"></a>قائمة مكونات الصنف
-------------------
+## <a name="bills-of-materials"></a>قائمة مكونات الصنف
 
 تحدد قائمة مكونات الصنف (BOM) المكونات المطلوبة لإنتاج منتج. ويمكن أن تكون المكونات مواد خام أو منتجات شبه نهائية أو مكونات. وفي بعض الحالات، يمكن الإشارة إلى الخدمات في قائمة مكونات الصنف. ومع ذلك، عادةً ما تصف قائمة مكونات الصنف *الموارد المادية* المطلوبة.  
 

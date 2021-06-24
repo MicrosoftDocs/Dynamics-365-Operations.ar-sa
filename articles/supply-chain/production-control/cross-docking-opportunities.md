@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839139"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190078"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>توزيع البضائع من أوامر الإنتاج لمساحات خارجية
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839139"
 
 يصف هذا الموضوع كيفية إدارة عملية مواد توزيع البضائع التي يتم الإبلاغ عنها كبضائع منتهية من خط الإنتاج إلى رصيف نقل الصادرات.
 
-<a name="introduction"></a>مقدمة
-------------
+## <a name="introduction"></a>مقدمة
 
 يرتبط توزيع البضائع من الإنتاج إلى موقع خارجي بالشركات المصنعة التي تنتج كميات كبيرة، وترغب، على نحو مثالي، بشحن المنتجات المنتهية في أقرب وقت يتم الإبلاغ فيه عمليًا عن انتهاء تصنيع المنتجات من خطوط الإنتاج. والهدف هو شحن المنتجات إلى مراكز التوزيع التي تقع فعليًا بالقرب من طلب العميل، بدلاً من إنشاء المخزون في موقع التصنيع.
 

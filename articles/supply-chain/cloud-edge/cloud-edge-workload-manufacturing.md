@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899085"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6183986"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>أحمال عمل تنفيذ التصنيع لوحدات النطاق السحابي والحافة
 
@@ -72,6 +72,7 @@ ms.locfileid: "5899085"
 - التبليغ عن الخردة
 - نشاط غير مباشر
 - مقاطعة
+- الإبلاغ كمنته والتخزين (يتطلب أن تقوم أيضًا بتشغيل حمل عمل تنفيذ المستودع على وحدة المقياس، راجع أيضًا [الإبلاغ كمنته والتخزين على وحدة المقياس](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>العمل مع أحمال تنفيذ التصنيع علي المركز
 
@@ -108,6 +109,26 @@ ms.locfileid: "5899085"
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>مهمة معالج رسائل مركز التصنيع إلى وحدة القياس
 
 تقوم مهمة _معالج رسائل مركز التصنيع إلى وحدة القياس_ بمعالجه البيانات من المركز إلى وحده القياس. يتم بدء هذه الوظيفة تلقائيا عند نشر حمل العمل الخاص بتنفيذ التصنيع. ومع ذلك ، يمكن تشغيلها يدويا في اي وقت عن طريق الانتقال إلى **التحكم في الإنتاج \> المهام الدورية \> إدارة حمل العمل في المكتب الخلفي \> معالج رسائل مركز التصنيع إلى وحدة القياس**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>الإبلاغ كمنته والتخزين على وحدة المقياس
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+في الإصدار الحالي، يتم دعم عمليات الإبلاغ كمنته والتخزين (للمنتجات المنتهية والمنتجات المساعدة والمنتجات الفرعية) بواسطة [حمل عمل تنفيذ المستودع](cloud-edge-workload-warehousing.md) (وليس حمل تنفيذ التصنيع). وبالتالي، لاستخدام هذه الوظيفة عند الاتصال بوحدة مقياس، يجب القيام بما يلي:
+
+- قم بتثبيت كل من حمل عمل تنفيذ المستودع وحمل عمل تنفيذ التصنيع على وحدة المقياس الخاصة بك.
+- استخدم تطبيق Warehouse Management mobile app للإبلاغ كمنته ومعالجة عمل التخزين. لا تدعم واجهة تنفيذ صالة الإنتاج هذه العمليات حاليًا.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

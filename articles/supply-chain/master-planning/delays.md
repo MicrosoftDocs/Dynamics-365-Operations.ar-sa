@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4216ed1d9b981eee94cfd4c621abd1da99111512
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8e863ae63466f68e763b133da9f0e9488c6cfa6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813665"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189336"
 ---
 # <a name="delays"></a>التأخيرات
 
@@ -52,8 +52,7 @@ ms.locfileid: "5813665"
 
 في صفحة **الأمر المخطط**، ضمن علامة التبويب **تأخيرات** يوجد **التاريخ المطلوب‬** للأمر المخطط. يعتبر التاريخ المطلوب للأمر المخطط التاريخ الأساسي للتأخيرات، وهو تاريخ محسوب يساوي **التاريخ المطلوب** المحسوب من **صافي المتطلبات**. إذا كان الأمر المخطط عبارة عن بند في قائمة مكونات الصنف أو بند إنتاج أو بند كانبان، فإن التاريخ المطلوب يستند إلى **تاريخ الطلب** ولن يظهر التاريخ المطلوب في صفحة **الأمر المخطط**.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [إعدادات التغطية](coverage-settings.md)
 

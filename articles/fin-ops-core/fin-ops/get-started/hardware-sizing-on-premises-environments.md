@@ -2,7 +2,7 @@
 title: متطلبات ضبط حجم الأجهزة للبيئات المحلية
 description: يسرد هذا الموضوع متطلبات ضبط حجم الأجهزة للبيئات المحلية.
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
+ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923470"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6168719"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>متطلبات ضبط حجم الأجهزة للبيئات المحلية
 
@@ -131,6 +131,8 @@ ms.locfileid: "5923470"
 ## <a name="sql-server-reporting-services"></a>خدمات تقارير SQL Server
 
 بالنسبة إلى إصدار التوفر العام، يمكن نشر عقده SSRS واحدة فقط. راقب عقده SSRS أثناء الاختبار، واعمل على زيادة عدد المراكز المتاحة لـ SSRS بحسب الاحتياجات. تأكد من أن لديك عقدة ثانوية تم تكوينها مسبقًا متوفرة على مضيف ظاهري يختلف عن SSRS VM. يعتبر هذا مهمًا إذا كان هناك مشكلة في الجهاز الظاهري الذي يستضيف SSRS أو المضيف الظاهري. إذا كان الأمر كذلك، فقد يلزم استبدالها.
+
+بدءًا من الإصدار 10.0.17، من الممكن تكوين عقد SSRS إضافية لتحقيق التوافر العالي. لمزيد من المعلومات، راجع [تكوين التوافر العالي لعقد SQL Server Reporting Services ‏(SSRS)](../../dev-itpro/deployment/onprem-ssrsha.md).
 
 ## <a name="environment-orchestrator"></a>منسق البيئة
 

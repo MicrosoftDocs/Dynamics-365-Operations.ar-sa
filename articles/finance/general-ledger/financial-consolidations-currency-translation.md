@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811351"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193895"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>نظرة عامة حول تحويل العملة وعمليات الدمج المالية
 
@@ -165,7 +165,8 @@ ms.locfileid: "5811351"
 - **تسهيل تحويل العملة** - بعد الحد الأدنى من الإعداد في Finance، يمكنك تحويل أي تقرير مالي إلى أي عملة تقارير تم إعدادها. بالإضافة إلى ذلك، يمكنك إعداد عدد غير محدد من عملات التقارير.
 - **ترحيل الاستبعادات عند المصدر** - يمكنك إنشاء وطباعة تقرير استبعاد للتحقق من حركات الاستبعاد. ويمكنك عندئذٍ ترحيل أي عمليات استبعاد جديدة كحركات قياسية بين الشركات الشقيقة. يمكنك أيضًا استخدام كيان قانوني للاستبعاد لأي حركة لا تريدها في الكيانات القانونية.
 
-## <a name="supported-consolidation-scenarios"></a>سيناريوهات الدمج المدعومة
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>سيناريوهات التوحيد المدعومة لـ Financial reporting
+
 فيما يلي بعض سيناريوهات الدمج التي يدعمها إعداد التقارير المالية:
 
 - عمليات دمج أحادية المستوى ومتعددة المستويات عبر الكيانات القانونية

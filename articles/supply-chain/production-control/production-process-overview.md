@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814574"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188139"
 ---
 # <a name="production-process-overview"></a>نظرة عامة على عملية الإنتاج
 
@@ -74,8 +74,7 @@ ms.locfileid: "5814574"
 12. **إغلاق الفترة** -تتطلب بعض قواعد محاسبة التكاليف، مثل المتوسط الدوري، تحديد تكاليف الإصدار التلقائي أو ما يرد أولاً يصرف أولاً‬ (FIFO) أو ما يرد أخيرًا يصرف أولاً‬ (LIFO) الأنشطة الدورية لإغلاق المخزون أو الفترة المالية. وبشكل عام، يحاول النظام للإبلاغ عن استهلاك الموارد وجميع المواد، وكذلك تصحيحات المخزون والخردة، قبل إغلاق الفترات. ويتم هذا الإبلاغ عادةً باستخدام دفاتر يومية حركة المخزون أو دفاتر يومية التسوية. والهدف هو تقييم الأداء الاقتصادي لوحدات التشغيل لكل فترة. وفي بعض الحالات، عند استخدام أوامر الإنتاج طويلة الأجل والتي تشمل فترات الإبلاغ المالي، يتم استخدام دفاتر يومية الإنتاج للإبلاغ عن استهلاك الموارد ومستوى تقدم الإنتاج قبل نهاية الفترة.
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [ملاحظات الإنتاج](production-feedback.md)
 

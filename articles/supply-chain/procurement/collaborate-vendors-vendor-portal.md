@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceffa7028f4490a88027a2affdc898877cc2db43
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 2fa295c71fb82b4168123970fee6ba71d293e3c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910055"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189658"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>التعاون مع المورّدين باستخدام مدخل المورِّد‬
 
@@ -92,8 +92,7 @@ ms.locfileid: "5910055"
 |                           سترسل الإصدار الجديد من أمر الشراء إلى موقع المورّد.                            |                                                                                                                                                                    يتم تسجيل الإصدار الجديد في مدخل المورّد وتتغير الحالة إلى <strong>قيد المراجعة الخارجية‬</strong>.                                                                                                                                                                     |
 |                                يوافق المورّد على الإصدار الجديد من أمر الشراء.                                 |                                                                                                                                                     تتغير الحالة إلى <strong>مؤكد</strong>، إما تلقائياً أو عندما تتلقى الاستجابة من المورّد ثم تؤكد أمر الشراء.                                                                                                                                                     |
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [أمان مستخدم مدخل المورّد على الإنترنت‬](configure-security-vendor-portal-users.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9a4897f34d016da8dd03d3108069e8aaa1369f7
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5959959"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188035"
 ---
 # <a name="budget-control-overview"></a>نظرة عامة على رقابة الموازنة
 
@@ -28,8 +28,7 @@ ms.locfileid: "5959959"
 
 توفر هذه المقالة مقدمة إلى رقابة الموازنة وتوفر معلومات لمساعدتك في تكوين رقابة الموازنة لكي تتمكن من إدارة الموارد المالية.
 
-<a name="overview"></a>نظرة عامة
---------
+## <a name="overview"></a>نظرة عامة
 
 تدعم رقابة الموازنة إدارة الموارد المالية للمؤسسة من خلال مخطط الحسابات ومهام سير العمل ومجموعات المستخدمين ودفاتر اليومية والمستندات المصدر والحساب القابل للتكوين للأموال المتوفرة ودورات الموازنة والحدود. وعندما يتم وضع الضوابط، ستتمكن المؤسسة من تخطيط مواردها المالية وقياسها وإدارتها والتنبؤ بها طوال سنتها المالية. 
 

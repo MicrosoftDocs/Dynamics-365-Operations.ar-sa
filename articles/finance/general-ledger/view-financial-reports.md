@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897274"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187784"
 ---
 # <a name="view-financial-reports"></a>عرض التقارير المالية
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897274"
 
 يصف هذا الموضوع كيفية عرض واستكشاف التقارير المالية. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
 
-<a name="financial-reporting-overview"></a>نظرة عامة على التقارير المالية
-----------------------------
+## <a name="financial-reporting-overview"></a>نظرة عامة على التقارير المالية
 
 ## <a name="open-a-financial-report"></a>فتح تقرير مالي
 لفتح تقرير، حدد اسم التقرير. وفي المرة الأولى التي يتم فيها فتح تقرير، يتم إنشاؤه تلقائياً للشهر الماضي. على سبيل المثال، إذا قمت بفتح تقرير لأول مرة في أغسطس عام 2015، فيتم إنشاء التقرير لتاريخ 31 يوليو 2015. بعد فتح تقرير، يمكنك بدء استكشافه بالتنقل في قطع معينة من البيانات وتغيير خيارات التقرير.
@@ -76,8 +75,7 @@ ms.locfileid: "5897274"
 ## <a name="export-a-financial-report"></a>تصدير تقرير مالي
 لتصدير تقرير مالي، في "جزء الإجراءات"، انقر فوق **تصدير**. يتم تصدير التقرير إلى Microsoft Excel، ويطالبك المستعرض بفتح الملف المصدّر أو حفظه. يتم تطبيق إعدادات التصدير التي تم تحديدها في تصميم التقرير على التقرير الذي تم تصديره.    
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [التقارير المالية](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

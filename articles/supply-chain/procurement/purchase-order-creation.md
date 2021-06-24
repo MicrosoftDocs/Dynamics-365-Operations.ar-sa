@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d09b6f693f3396da181a0f47051b7c961aa55e03
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909146"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188235"
 ---
 # <a name="create-purchase-orders"></a>إنشاء أوامر شراء
 
@@ -80,8 +80,7 @@ ms.locfileid: "5909146"
 
 قد تضطر إلى تأخير إتمام أمر شراء. على سبيل المثال، قد تحتاج إلى الحصول على معلومات إضافية حول المنتجات أو الخدمات، أو قد تحتاج إلى الحصول على إذن الإنفاق. هناك عدة طرق لتعليق أمر الشراء. على سبيل المثال، يمكنك الانتظار ريثما يتم تأكيد الأمر. أو، في حالة استخدام سير عمل لإدارة تغيير، لا تقدم الأمر للموافقة عليه. إذا تعين عليك حظر كافة الأوامر لمورّد معين، يمكنك أيضًا وضع علامة **قيد الانتظار** على المورّد للمعالجة على أصل المورّد. وهناك أيضًا بعض الظروف التي قد تمنع معالجة الأمر. على سبيل المثال، قد يتم منع المعالجة إذا تم تجاوز حدود الائتمان أو إذا لم تتوفر أموال الموازنة المطلوبة.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على أمر الشراء](purchase-order-overview.md)
 

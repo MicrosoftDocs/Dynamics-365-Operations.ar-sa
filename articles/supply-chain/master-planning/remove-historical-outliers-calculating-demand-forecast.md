@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2131ae11e634f9ced0d9696acb61d7b8a94c59cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: df20a45707d3f6ff2ba963e3310194c1af830234
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841805"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187376"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>إزالة القيم المتطرفة من بيانات الحركة التاريخية عند حساب التنبؤ بالطلب
 
@@ -39,8 +39,7 @@ ms.locfileid: "5841805"
 
 **ملاحظة:** يمكنك أيضًا إنشاء استعلام يستند إلى استعلام موجود. حدد الاستعلام المراد نسخه، ثم انقر فوق **نسخ**. يحدد حقل **تاريخ الاستعلام** الإصدار. يمكنك استخدام الاستعلام كما هو، أو يمكنك النقر فوق **تحرير استعلام** لتعديل المعايير. ويمكنك بشكل اختياري تعديل اسم ووصف الاستعلام الجديد.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على التنبؤ بالطلب‬](introduction-demand-forecasting.md)
 

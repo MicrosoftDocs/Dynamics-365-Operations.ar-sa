@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8539837adc5c5e775d073f142f00afc9f14de669
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c2b95d386dd12bb1cb3577c3820b0be82d28df8e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807838"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188478"
 ---
 # <a name="vendor-portal-user-security"></a>أمان مستخدم مدخل المورد
 
@@ -40,8 +40,7 @@ ms.locfileid: "5807838"
 
 إذا كان نفس الشخص يتطلب الوصول إلى مدخل الموردين لعدة حسابات موردين (لمختلف الكيانات القانونية، على ما يُحتمل)، يجب إقران كل حساب من حسابات المستخدم الخاصة بهذا الشخص بنفس شخص جهة الاتصال المسجل. ويشتمل دور **المورد (خارجي)** على كافة القدرات الأساسية المطلوبة لاستخدام الوظيفة المتوفرة في مدخل المورد. يساعد هذا الإعداد على ضمان أن تكون واجهة المستخدم التي يشاهدها المستخدم الخارجي مركزةً على السيناريو المحدد فقط.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [التعاون مع المورّدين باستخدام مدخل المورِّد‬](collaborate-vendors-vendor-portal.md)
 

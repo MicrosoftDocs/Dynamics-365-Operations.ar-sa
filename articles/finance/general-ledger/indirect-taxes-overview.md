@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826608"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188430"
 ---
 # <a name="sales-tax-overview"></a>نظرة عامة على ضريبة المبيعات
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826608"
 
 يوفر هذا الموضوع نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا.
 
-<a name="overview"></a>نظرة عامة
---------
+## <a name="overview"></a>نظرة عامة
 
 يدعم إطار عمل ضريبة المبيعات العديد من أنواع الضرائب غير المباشرة، مثل ضريبة المبيعات، وضريبة القيمة المضافة (VAT)، وضريبة السلع والخدمات (GST)، والرسوم على أساس الوحدة، وضريبة الخصم. ويتم حساب هذه الضرائب وتوثيقها أثناء حركات المبيعات والمشتريات. وبشكل دوري، يجب إعداد تقارير بها ودفعها إلى هيئات الضرائب.‬ 
 

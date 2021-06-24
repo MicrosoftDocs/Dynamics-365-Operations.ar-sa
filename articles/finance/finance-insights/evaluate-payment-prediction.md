@@ -2,7 +2,7 @@
 title: تقييم نموذج التوقع بالدفع الأولي للعميل (معاينة)
 description: يصف هذا الموضوع الخطوات التي يمكنك اتخاذها لفهم نموذج التوقع بدفع العميل وتقييم الفعالية الخاصة به.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897902"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186728"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>تقييم نموذج التوقع بالدفع الأولي للعميل (معاينة)
 
@@ -95,9 +95,5 @@ ms.locfileid: "5897902"
 ## <a name="for-more-information"></a>لمزيد من المعلومات
 
 لمزيد من المعلومات حول كيفية تقييم نماذج التوقعات، [نتائج نماذج التعلم الآلي](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>إشعار الخصوصية
-إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

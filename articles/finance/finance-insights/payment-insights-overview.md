@@ -2,7 +2,7 @@
 title: تنبؤات دفع العميل (معاينة)
 description: يصف هذا الموضوع قدرة توقع الدفع والتي يمكن أن تساعد في فهم ممارسات الدفع النموذجية للعملاء الفرديين بشكل أفضل. كذلك، يمكن أن تساعد هذه الميزة في تحديد الحالات التي تجعلك تبدء عمليات الجمع قبل البدء من القيام بذلك.
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 4151b56b8b385e29d3926dc7e245728158cbcd34
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898002"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186386"
 ---
 # <a name="customer-payment-predictions-preview"></a>تنبؤات دفع العميل (معاينة)
 
@@ -72,10 +72,5 @@ ms.locfileid: "5898002"
 تتوفر معاينة عامة لـ Finance Insights لتجربة عمليات النشر في الولايات المتحدة الأميركية وأوروبا والمملكة المتحدة. تُعد Microsoft دعمًا إضافيًا بشكل متزايد لمناطق إضافية.
 
 يجب أن يتم تشغيل ميزات المعاينة العامة ويجب تشغيلها فقط في بيئات الحماية لتحديد صلاحيات المستوى 2. قد لا يمكن ترحيل نماذج الإعداد وAI التي يتم إنشاؤها في بيئة الحماية إلى بيئة التشغيل. لمزيد من المعلومات، راجع [شروط الاستخدام الإضافية لمعاينات Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
-
-## <a name="privacy-notice"></a>إشعار الخصوصية
-
-إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
