@@ -1,5 +1,5 @@
 ---
-title: إصدار أولي Dynamics 365 Supply Chain Management 10.0.20 (يوليو 2021)
+title: الإصدار الأولي Dynamics 365 Supply Chain Management 10.0.20 (أغسطس 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.20 من Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c009625204ef0fdc72c381b5fee11f4d031a6a82
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: 3a35d3becbf81c51d29ef2e0f4cbf6a12cd196b8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123404"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187616"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-july-2021"></a>إصدار أولي Dynamics 365 Supply Chain Management 10.0.20 (يوليو 2021)
+# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>الإصدار الأولي Dynamics 365 Supply Chain Management 10.0.20 (أغسطس 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -25,8 +25,9 @@ ms.locfileid: "6123404"
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.20 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.886، وهو يتوفر كما يلي
 
 - **معاينة الإصدار:** مايو، 2021
-- **التوفر العام للإصدار (تحديث ذاتي):** يونيو 2020
+- **التوفر العام للإصدار (تحديث ذاتي):** يوليو 2021
 - **التوفر العام للإصدار (تحديث تلقائي):** يوليو 2020
+
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 

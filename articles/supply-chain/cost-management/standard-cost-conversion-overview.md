@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdcb45918b404f8a47f27bcea7c02a8397c9336f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 236743277a95b8a1170ca05f93106575ea1cc8e4
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821431"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187592"
 ---
 # <a name="standard-cost-conversion-overview"></a>نظرة عامة حول تحويل التكاليف القياسية
 
@@ -92,8 +92,7 @@ ms.locfileid: "5821431"
 -   حلل حركات المخزون التي تعود إلى تاريخ سابق. استخدم التقرير **قيمة المخزون** لعرض حركات المخزون التي تعود إلى تاريخ سابق والتي تم إدخالها بعد التحويل. يجب أن يتطابق "من تاريخ" و"إلى تاريخ" في التقرير مع تاريخ بدء المرحلة الانتقالية وتاريخ التحويل (ناقص يوم واحد). ينبغي أن تعكس معايير تحديد التقرير الأصناف التي تم تحويلها. ويعرض التقرير حركات المخزون التي تمت بالتكلفة المعيارية خلال الفترة الانتقالية.
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [متطلبات تحويل التكلفة المعيارية](prerequisites-standard-cost-conversion.md)
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018675"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187261"
 ---
 # <a name="engineering-change-management-faq"></a>الأسئلة الشائعة حول إدارة التغيير الهندسي
 
@@ -46,7 +46,7 @@ ms.locfileid: "6018675"
 
 تختار معظم المؤسسات هذا الخيار لأنه يوفر الإصدار وإدارة التغيير، لكنه لا يضيف النفقات الإضافية لتتبع الإصدار في كل حركة وفي المخزون وأثناء التخطيط الرئيسي.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>ما الحقول التي يتم نسخها إلى قالب العنصر الصادر؟
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>ما الحقول التي يتم نسخها من قالب العنصر الصادر؟
 
 عندما تنشئ شركة هندسية منتجًا هندسيًا، يتم إنشاء هذا المنتج كمنتج تم إصداره في الشركة الهندسية. يعتمد المنتج الذي تم إصداره الذي تم إنشاؤه في *قالب الصنف الصادر* المحدد. (قالب الصنف المُصدر هو نفسه منتج مُصدر حالي). يُستخدم قالب العنصر المُصدر أيضًا عند طرح المنتج لشركة عاملة. في كل حالة، يحدد قالب العنصر الصادر معظم قيم الحقل للمنتج الصادر، وتأتي هذه القيم من صحة **تفاصيل المنتج الصادر** المرتبطة.
 

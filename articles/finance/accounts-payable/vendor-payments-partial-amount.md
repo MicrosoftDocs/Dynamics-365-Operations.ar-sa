@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ee17aeb75e2bdc3b9c36d50914c24aa9d6218b7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841203"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189507"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>دفعات المورد لمبلغ جزئي
 
@@ -28,8 +28,7 @@ ms.locfileid: "5841203"
 
 في بعض الأحيان، قد تسدد دفعة لأحد المورّدين تكون أقل من مبلغ الفاتورة. توضح هذه المقالة مختلف الخيارات التي يتم استخدامها لمعالجة هذه الحالة. تتوقف الخيارات التي تتوفر لك على تكوين أعمالك ومتطلباتها. 
 
-<a name="cash-discount-amounts"></a>مبالغ الخصم النقدي
----------------------
+## <a name="cash-discount-amounts"></a>مبالغ الخصم النقدي
 
 يستطيع المورد أن يقدم لك خصمًا نقديًا لدفع فاتورة قبل تاريخ الاستحقاق. على سبيل المثال، يمكنك إدخال فاتورة بمبلغ 100.00 وتحدد خصمًا نقديًا بنسبة 2 في المائة، إذا تم دفع الفاتورة في غضون 10 أيام. ومدد تاريخ الاستحقاق 30 يومًا. ‏‫وفي حالة استخدام مقترح دفع الخصم النقدي كمعيار لتحديد فاتورة، وتشغيل المقترح في أو قبل تاريخ الخصم النقدي، يتم تحديد الفاتورة للدفع، ويتم إنشاء الدفعة بمبلغ 98.00. كما يمكن الحصول على خصم نقدي لدفعة فريدة تم إنشاؤها يدوياً.‬
 

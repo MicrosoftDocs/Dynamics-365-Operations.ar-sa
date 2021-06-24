@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947534"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193220"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
 
@@ -38,7 +38,7 @@ ms.locfileid: "5947534"
 
 ### <a name="job-card-device"></a>جهاز بطاقة الوظيفة
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
 | **سبب الإهلاك/الإزالة** | يتم استبدال [جهاز بطاقة الوظيفة](../production-control/config-job-card-device.md) بواسطة [واجهة تنفيذ صالة الإنتاج الجديدة](../production-control/production-floor-execution-configure.md). |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم، ينبغي استبدال [جهاز بطاقة الوظيفة](../production-control/config-job-card-device.md) بواسطة [واجهة تنفيذ صالة الإنتاج الجديدة](../production-control/production-floor-execution-configure.md). |
@@ -50,7 +50,7 @@ ms.locfileid: "5947534"
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations- التخزين (تطبيق المستودع)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | اعتبارًا من أبريل 2021، يتم إهمال *Dynamics  365 for Finance and Operations - التخزين* (تطبيق المستودع) ولن يتم دعمه بعد أبريل 2022. وقد تم استبداله الآن بواسطة *تطبيق إدارة المستودع للأجهزة المحمولة*، الذي تم إصداره مع إصدار 10.0.17 من Supply Chain Management. التطبيق الجديد هو استبدال كامل ولكن يستخدم نفس اطار العمل الأساسي، الذي يجعل الترحيل سهل. وفي حاله الضرورة، يمكن استخدام التطبيقين جنبا إلى جنب لمساعده المستخدمين علي الضبط بالتدريجي عند التعرف علي استخدام التطبيق الجديد.<br><br>لمزيد من المعلومات حول تطبيق إدارة المستودع للأجهزة المحمولة الجديد، راجع [تطبيق إدارة المستودع للأجهزة المحمولة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) و[تثبيت وتوصيل تطبيق إدارة المستودع للأجهزة المحمولة](../warehousing/install-configure-warehouse-management-app.md). |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم، تم استبداله بتطبيق "إدارة المستودعات" الجديد للأجهزة المحمولة. |
@@ -62,7 +62,7 @@ ms.locfileid: "5947534"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>تم إهمال دعم Internet Explorer 11 لـ Dynamics 365
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | اعتبارًا من ديسمبر 2020، تم إهمال دعم Microsoft Internet Explorer 11 لجميع منتجات Dynamics 365، ولن يتم دعم Internet Explorer 11 بعد أغسطس 2021.<br><br>سيؤثر هذا الاجراء علي العملاء الذين يستخدمون منتجات Dynamics 365 التي تم تصميمها ليتم استخدامها من خلال واجهة Internet Explorer 11. بعد أغسطس 2021، لن يتم دعم Internet Explorer 11 لمنتجات Dynamics 365. |
 | **هل تم الاستبدال بميزة أخرى؟**   | نوصي العملاء بالانتقال إلى Microsoft Edge.|
@@ -72,7 +72,7 @@ ms.locfileid: "5947534"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>استخدام محرك التخطيط الرئيسي لـ Supply Chain Management لسيناريوهات التصنيع
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | لتحسين الأداء وتصغير حمل قاعده بيانات SQL أثناء تشغيل التخطيط الرئيسي، يتم استبدال محرك التخطيط الرئيسي لـ Supply Chain Management بواسطة تحسين التخطيط. يسمح تحسين التخطيط بتشغيل التخطيط السريع الذي يمكن تنفيذه حتى أثناء ساعات العمل. ويعمل ذلك علي المخططين من التفاعل علي الفور للتغييرات في محددات الطلب أو التخطيط. |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم، سيحل تحسين التخطيط محل محرك التخطيط الرئيسي الحالي لـ Supply Chain Management المضمن. |
@@ -84,7 +84,7 @@ ms.locfileid: "5947534"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>استخدام محرك التخطيط الرئيسي لـ Supply Chain Management لسيناريوهات التوزيع
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | لتحسين الأداء وتصغير حمل قاعده بيانات SQL أثناء تشغيل التخطيط الرئيسي، يتم استبدال محرك التخطيط الرئيسي لـ Supply Chain Management بواسطة تحسين التخطيط. يسمح تحسين التخطيط بتشغيل التخطيط السريع الذي يمكن تنفيذه حتى أثناء ساعات العمل. ويعمل ذلك علي المخططين من التفاعل علي الفور للتغييرات في محددات الطلب أو التخطيط. |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم، سيحل تحسين التخطيط محل محرك التخطيط الرئيسي الحالي لـ Supply Chain Management المضمن. |

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834994"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188580"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>تسوية كشوف الحسابات البنكية باستخدام التسوية البنكية المتقدمة
 
@@ -28,8 +28,7 @@ ms.locfileid: "5834994"
 
 تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Dynamics 365 Finance بشكل تلقائي. يشرح هذا الموضوع عملية التسوية.  
 
-<a name="import-an-electronic-bank-statement"></a>استيراد كشف حساب بنكي إلكتروني
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>استيراد كشف حساب بنكي إلكتروني
 
 يمكنك استيراد كشوف حساباتك البنكية باستخدام إجراء **استيراد كشف الحساب‬** في صفحة **كشوف الحسابات البنكية**. يتم تحديد الحساب البنكي في كشف الحساب البنكي من خلال مجموعة من القيم التي تم تعيينها على تفاصيل الحساب البنكي. وتشمل هذه القيم اسم البنك ورقم الحساب البنكي ورقم التوجيه وكود جمعية الاتصالات المالية العالمية ما بين البنوك (SWIFT) ورقم الحساب البنكي الدولي (IBAN). 
 

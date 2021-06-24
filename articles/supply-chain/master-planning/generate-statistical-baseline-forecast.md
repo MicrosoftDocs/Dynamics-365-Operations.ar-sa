@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816498"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189682"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>إنشاء تنبؤ أساسي إحصائي
 
@@ -67,8 +67,7 @@ ms.locfileid: "5816498"
 > [!NOTE]
 > يمكن أن يكون التنبؤ المحتمل ذو الشكل الثابت بسبب البيانات المحفوظة التي يجب أن تكون من إطار زمني تاريخي أطول (على سبيل المثال، 3 فترات زمنية بحد أدنى من أجل انتقاء الأنماط، مثل 3 سنوات بتنبؤ شهري). للحصول على نتيجة أفضل، يمكنك محاولة تغيير سمة النقاوة للنطاق الزمني أو زيادة نطاق زمني.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 - [إعداد التنبؤ بالطلب](demand-forecasting-setup.md)
 

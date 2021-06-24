@@ -2,7 +2,7 @@
 title: تمكين تقدير التدفق النقدي (معاينة)
 description: يوضح هذا الموضوع كيفية تشغيل ميزة توقعات التدفق النقدي في Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818718"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222548"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>تمكين تقدير التدفق النقدي (معاينة)
 
@@ -37,7 +37,7 @@ ms.locfileid: "5818718"
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > إذا كان نشر Microsoft Dynamics 365 Finance عبارة عن نشر Service Fabric، فإنه يمكنك تخطي هذه الخطوة. يجب أن يكون فريق Finance Insights قد قام بالفعل بتشغيل إصدار التقييم. إذا لم تر الميزات في مساحة عمل **إدارة الميزات**، أو إذا واجهتك مشكلات عند محاولة تشغيلها، تواصل على <fiap@microsoft.com>.
+    > تجاوز هذه الخطوة إذا كنت تستخدم الإصدار 10.0.20 أو أحدث، أو إذا كنت تستخدم عملية نشر Service Fabric. يجب أن يكون فريق Finance insights قد قام بالفعل بتشغيل إصدار التقييم. إذا لم تر الميزة في مساحة عمل **إدارة الميزات**، أو إذا واجهتك مشكلات عند محاولة تشغيلها، تواصل على <fiap@microsoft.com>
   
 2. افتح مساحة العمل **إدارة الميزات**، واتبع الخطوات التالية:
 
@@ -60,10 +60,5 @@ ms.locfileid: "5818718"
     2. حدد **إنشاء نموذج توقع**.
 
 لمزيد من المعلومات حول قدرة تقدير التدفقات النقدية، راجع [تقدير التدفقات النقدية](cash-flow-forecast-intro.md).
-
-## <a name="privacy-notice"></a>إشعار الخصوصية
-
-إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

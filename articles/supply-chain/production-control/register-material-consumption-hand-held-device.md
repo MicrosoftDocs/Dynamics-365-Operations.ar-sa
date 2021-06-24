@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814526"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189632"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>تسجيل استهلاك المواد باستخدام جهاز محمول
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814526"
 
 يصف هذا الموضوع سير عمل يمكّن تسجيل استهلاك المواد الخام في الإنتاج باستخدام جهاز محمول باليد.
 
-<a name="introduction"></a>مقدمة
-------------
+## <a name="introduction"></a>مقدمة
 
 يعتبر سير العمل هذا مناسبًا عند وجود متطلبات صارمة تتعلق بقابلية تعقب المواد. وفي تلك الحالات، يجب أن يتم الإعلام عن وقت الاستهلاك وكميته بشكل دقيق للمحافظة على قابلية تعقب المواد. يمكن اعتبار هذه العملية على أنها معاكسة لعمليات التفريغ المسبق والتفريغ الخلفي، حيث توجد إزاحة بين وقت التسجيل والوقت الذي يحدث فيه الاستهلاك الفعلي. وهذا يشرح سبب عدم إمكانية استخدام استراتيجية الاستهلاك التلقائي لبعض المواد ذات متطلبات قابلية التعقب. لنلقِ نظرة على سيناريو بسيط يوضح كيفية إعداد سير عمل لتمكين تسجيل استهلاك المواد الخام في الإنتاج باستخدام جهاز محمول باليد. [![إعداد سير عمل لتمكين تسجيل استهلاك المواد الخام باستخدام جهاز محمول باليد](./media/scenario3.png)](./media/scenario3.png)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dc4dc556cbb8bd461e904ef569016acd4276f7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c394219bbb58bea187d352c8817ed4c3e2eb883c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814238"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189435"
 ---
 # <a name="collections-in-accounts-receivable"></a>التحصيلات في الحسابات المدينة
 
@@ -99,8 +99,7 @@ ms.locfileid: "5814238"
 
 لمزيد من المعلومات، راجع [إنشاء دفتر يومية شطب لعميل](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a> معالجة دفعات الأرصدة غير الكافية (NSF)  
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a> معالجة دفعات الأرصدة غير الكافية (NSF)  
 
 يمكنك معالجة مدفوعات NSF بالنقر فوق دفع NSF في صفحة التحصيلات. وعند النقر فوق هذا الزر، يتم إلغاء الدفع. إذا تم تطبيق رسوم NSF للعميل، فإنه يتم إنشاء حركة مصاريف في دفتر يومية الدفع. يعتمد مبلغ الرسوم على إعدادات الرسوم التلقائية. يتم تحديد الرسوم التلقائية التي تنطبق على مدفوعات NSF من خلال مجموعة المصاريف التي يتم اختيارها في صفحة الحسابات البنكية للحساب البنكي المتأثر.
 

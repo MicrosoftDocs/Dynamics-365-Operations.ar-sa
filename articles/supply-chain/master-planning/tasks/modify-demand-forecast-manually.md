@@ -1,5 +1,5 @@
 ---
-title: تعديل التنبؤ بالطلب يدوياً
+title: 'دليل: تعديل التنبؤ بالطلب يدويًا'
 description: يوضح هذا الموضوع كيفية تعديل التنبؤ لصنف ما.
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889014"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224000"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>تعديل التنبؤ بالطلب يدوياً
+# <a name="guide-modify-a-demand-forecast-manually"></a>دليل: تعديل التنبؤ بالطلب يدويًا
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الإجراء كيفية تعديل التنبؤ لصنف ما. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF. هذا الإجراء مخصص لمخطط الإنتاج‬.
+يوضح هذا الإجراء كيفية تعديل التنبؤ لصنف ما. هذا الإجراء مخصص لمخطط الإنتاج‬.
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>تعديل التنبؤ لصنف محدد
 
@@ -36,9 +36,9 @@ ms.locfileid: "5889014"
 1. قم بملء الحقول الأخرى، حسب الحاجة.
 1. في جزء الإجراءات، حدد **حفظ**.
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>تعديل التنبؤ لصنف واحد أو أكثر في Microsoft Excel
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>تعديل التنبؤ لصنف واحد أو أكثر باستخدام Microsoft Excel:
 
-لتعديل التنبؤ لصنف واحد أو أكثر في Microsoft Excel:
+لتعديل التنبؤ لصنف واحد أو أكثر باستخدام Microsoft Excel:
 
 1. قم بأحد الإجراءين التاليين:
     - افتح صفحة **التنبؤ بالطلب** لأي صنف كما ورد في القسم السابق.

@@ -2,7 +2,7 @@
 title: تحميل مقاطع فيديو
 description: يصف هذا الموضوع كيفية تحميل الفيديوهات في منشئ موقع Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
+ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799195"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6224528"
 ---
 # <a name="upload-videos"></a>تحميل مقاطع فيديو
 
@@ -35,7 +35,7 @@ ms.locfileid: "5799195"
 عند تحميل مقطع فيديو ، يمكن تحديد المعلومات التالية.
 
 - **العنوان والوصف والكلمات الأساسية**: بيانات تعريف الفيديو.
-- **إنشاء تسميات توضيحية مغلقة تلقائيًا**: تحديد ما إذا كان يجب إنشاء تسميات توضيحية مغلقة تلقائيًا للفيديو.
+- **إنشاء تسميات توضيحية مغلقة تلقائيًا**: تحديد ما إذا كان يجب إنشاء تسميات توضيحية مغلقة تلقائيًا للفيديو (في حالة تدعيم اللغة الإنجليزية فقط). 
 - **تسمية توضيحية مغلقة**: تحديد التسميات التوضيحية المغلقة‏‎ التي سيتم استخدامها.
 - **صوت عادي**: تحديد مسار الصوت العادي المطلوب استخدامه.
 - **صورة مصغرة**: تحديد صورة مصغرة للفيديو. إذا لم يتم تحديدها، فسيتم إنشاؤها تلقائيًا.

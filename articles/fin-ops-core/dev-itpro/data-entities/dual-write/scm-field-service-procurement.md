@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941099"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219777"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>تكامل التدبير بين Supply Chain Management وField Service
 
@@ -196,23 +196,10 @@ ms.locfileid: "5941099"
 
 | Supply Chain Management | Field Service | الوصف |
 |---|---|---|
-| رأس أمر الشراء الإصدار 2 | msdyn\_Purchaseorders | يحتوي هذا الجدول علي الاعمده التي تمثل البيانات الرئيسية لأمر الشراء. |
-| كيان بند أمر شراء | msdyn\_PurchaseOrderProducts | يحتوي هذا الجدول علي الصفوف التي تمثل سطور أمر الشراء. يتم استخدام رقم المنتج للمزامنة. وهذا يعرف المنتج علي انه وحده احتفاظ بالمخزون (SKU) ، بما في ذلك ابعاد المنتج. لمزيد من المعلومات حول تكامل المنتج مع Dataverse، راجع [تجربه المنتج الموحدة](product-mapping.md). |
-| رأس إيصال استلام المنتج | msdyn\_purchaseorderreceipts | يحتوي هذا الجدول علي رؤوس إيصال استلام المنتجات التي يتم إنشاؤها عند ترحيل إيصال استلام المنتجات في Supply Chain Management. |
-| سطر إيصال استلام المنتج | msdyn\_purchaseorderreceiptproducts | يحتوي هذا الجدول علي سطور إيصال استلام المنتجات التي يتم إنشاؤها عند ترحيل إيصال استلام المنتجات في Supply Chain Management. |
-| الكيان المحذوف المبدئي لبند أمر الشراء | msdyn\_purchaseorderproducts | يحتوي هذا الجدول علي معلومات حول بنود أمر الشراء التي تم حذفها بالحالات المبدئية. يمكن حذف بند أمر شراء في Supply Chain Management فقط عند تاكيد أمر الشراء أو اعتماده ، في حاله تشغيل أداره التغييرات. الصف موجود في قاعده بيانات Supply Chain Management وتم وضع علامة عليه علي انه **IsDeleted**. وبسبب Dataverse عدم وجود مفهوم للحذف السهل، فمن المهم ان تتم مزامنة هذه المعلومات مع Dataverse. وبهذه الطريقة، يمكن حذف البنود التي تم حذفها بشكل تلقائي في Supply Chain Management من Dataverse. في هذه الحالة، يتم وضع المنطق الخاص بحذف أحد البنود في Dataverse في Supply Chain Management الموسعة. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [رأس أمر الشراء الإصدار 2](mapping-reference.md#183) | msdyn\_Purchaseorders | يحتوي هذا الجدول علي الاعمده التي تمثل البيانات الرئيسية لأمر الشراء. |
+| [كيان بند أمر شراء](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | يحتوي هذا الجدول علي الصفوف التي تمثل سطور أمر الشراء. يتم استخدام رقم المنتج للمزامنة. وهذا يعرف المنتج علي انه وحده احتفاظ بالمخزون (SKU) ، بما في ذلك ابعاد المنتج. لمزيد من المعلومات حول تكامل المنتج مع Dataverse، راجع [تجربه المنتج الموحدة](product-mapping.md). |
+| [رأس إيصال استلام المنتج](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | يحتوي هذا الجدول علي رؤوس إيصال استلام المنتجات التي يتم إنشاؤها عند ترحيل إيصال استلام المنتجات في Supply Chain Management. |
+| [سطر إيصال استلام المنتج](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | يحتوي هذا الجدول علي سطور إيصال استلام المنتجات التي يتم إنشاؤها عند ترحيل إيصال استلام المنتجات في Supply Chain Management. |
+| [الكيان المحذوف المبدئي لبند أمر الشراء](mapping-reference.md#182) | msdyn\_purchaseorderproducts | يحتوي هذا الجدول علي معلومات حول بنود أمر الشراء التي تم حذفها بالحالات المبدئية. يمكن حذف بند أمر شراء في Supply Chain Management فقط عند تاكيد أمر الشراء أو اعتماده ، في حاله تشغيل أداره التغييرات. الصف موجود في قاعده بيانات Supply Chain Management وتم وضع علامة عليه علي انه **IsDeleted**. وبسبب Dataverse عدم وجود مفهوم للحذف السهل، فمن المهم ان تتم مزامنة هذه المعلومات مع Dataverse. وبهذه الطريقة، يمكن حذف البنود التي تم حذفها بشكل تلقائي في Supply Chain Management من Dataverse. في هذه الحالة، يتم وضع المنطق الخاص بحذف أحد البنود في Dataverse في Supply Chain Management الموسعة. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

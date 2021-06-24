@@ -16,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6944782ac236a3f414b1cadfb12b0f0d8c1115b9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2a82b0a205ac6b7a86b9aca0771303469c6666c1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821503"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187736"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة
 
@@ -63,8 +63,7 @@ ms.locfileid: "5821503"
 
 إذا أردت استخدام معلومات التوجيه لأغراض التكلفة، يلزم وجود خطوات إعداد إضافية. فمثلاً، يجب أن تكون فئات التكلفة التي يتم تعيينها لعمليات التوجيه صحيحة وكاملة.
 
-<a name="related-topics"></a>مواضيع مرتبطة
---------
+## <a name="related-topics"></a>مواضيع مرتبطة
 
 [استهلاك أصول التكلفة الثابتة لصنف مصنّع](amortize-constant-costs-manufactured-item.md)
 
