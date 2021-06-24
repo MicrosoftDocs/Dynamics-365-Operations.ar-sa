@@ -16,32 +16,31 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 367b662a43b3c3255632f20aeb821b973b04d890
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 17e5d8638dc02d92a0c67364790353833551250f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833583"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187400"
 ---
-# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="954f3-103">تحديد إجمالي المكونات المطلوبة‬ لإصدار قائمة مكونات الصنف‬</span><span class="sxs-lookup"><span data-stu-id="954f3-103">Explosion of a BOM version</span></span>
+# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="a91a3-103">تحديد إجمالي المكونات المطلوبة‬ لإصدار قائمة مكونات الصنف‬</span><span class="sxs-lookup"><span data-stu-id="a91a3-103">Explosion of a BOM version</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="954f3-104">توضح هذه المقالة سيناريو التخطيط الرئيسي الذي يتضمن تحديد إجمالي المكونات المطلوبة‬ لإصدار قائمة مكونات الصنف‬.</span><span class="sxs-lookup"><span data-stu-id="954f3-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
+<span data-ttu-id="a91a3-104">توضح هذه المقالة سيناريو التخطيط الرئيسي الذي يتضمن تحديد إجمالي المكونات المطلوبة‬ لإصدار قائمة مكونات الصنف‬.</span><span class="sxs-lookup"><span data-stu-id="a91a3-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
 
-<span data-ttu-id="954f3-105">تؤدي عملية تحديد إجمالي المكونات المطلوبة لطلب خاص إصدار قائمة مكونات الصنف إلى إنشاء طلب لكل صنف بند في قائمة مكونات الصنف في موقع محدد وربما في مستودع محدد.</span><span class="sxs-lookup"><span data-stu-id="954f3-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="954f3-106">وفي قائمة مكونات الصنف الخاصة بأحد المواقع، يمكن تحديد مستودع خاص لكل بند في قائمة مكونات الصنف.</span><span class="sxs-lookup"><span data-stu-id="954f3-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="954f3-107">بالإضافة إلى ذلك، تحدد إعدادات بُعد الصنف بالنسبة لكل بند في قائمة مكونات الصنف ما إذا كان المستودع مطلوبًا أم لا.</span><span class="sxs-lookup"><span data-stu-id="954f3-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="954f3-108">وبدوره يصبح هذا الطلب الناتج لكل صنف بند في قائمة مكونات الصنف نقطة البدء لتحديد إجمالي المكونات المطلوبة للطلب الإضافي.</span><span class="sxs-lookup"><span data-stu-id="954f3-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="954f3-109">يتضمن سيناريو التخطيط الرئيسي هذا الشروط التالية:</span><span class="sxs-lookup"><span data-stu-id="954f3-109">This master planning scenario involves the following conditions:</span></span>
+<span data-ttu-id="a91a3-105">تؤدي عملية تحديد إجمالي المكونات المطلوبة لطلب خاص إصدار قائمة مكونات الصنف إلى إنشاء طلب لكل صنف بند في قائمة مكونات الصنف في موقع محدد وربما في مستودع محدد.</span><span class="sxs-lookup"><span data-stu-id="a91a3-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="a91a3-106">وفي قائمة مكونات الصنف الخاصة بأحد المواقع، يمكن تحديد مستودع خاص لكل بند في قائمة مكونات الصنف.</span><span class="sxs-lookup"><span data-stu-id="a91a3-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="a91a3-107">بالإضافة إلى ذلك، تحدد إعدادات بُعد الصنف بالنسبة لكل بند في قائمة مكونات الصنف ما إذا كان المستودع مطلوبًا أم لا.</span><span class="sxs-lookup"><span data-stu-id="a91a3-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="a91a3-108">وبدوره يصبح هذا الطلب الناتج لكل صنف بند في قائمة مكونات الصنف نقطة البدء لتحديد إجمالي المكونات المطلوبة للطلب الإضافي.</span><span class="sxs-lookup"><span data-stu-id="a91a3-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="a91a3-109">يتضمن سيناريو التخطيط الرئيسي هذا الشروط التالية:</span><span class="sxs-lookup"><span data-stu-id="a91a3-109">This master planning scenario involves the following conditions:</span></span>
 
--   <span data-ttu-id="954f3-110">بُعد الموقع إلزامي، ويجب إدخاله في حركة الطلب.</span><span class="sxs-lookup"><span data-stu-id="954f3-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="954f3-111">بُعد الموقع متناسق.</span><span class="sxs-lookup"><span data-stu-id="954f3-111">The site dimension is consistent.</span></span> <span data-ttu-id="954f3-112">لذلك فالموقع للطلب من المستوى الأدنى هو نفس الموقع في حركة الطلب المبدئي.</span><span class="sxs-lookup"><span data-stu-id="954f3-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
+-   <span data-ttu-id="a91a3-110">بُعد الموقع إلزامي، ويجب إدخاله في حركة الطلب.</span><span class="sxs-lookup"><span data-stu-id="a91a3-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="a91a3-111">بُعد الموقع متناسق.</span><span class="sxs-lookup"><span data-stu-id="a91a3-111">The site dimension is consistent.</span></span> <span data-ttu-id="a91a3-112">لذلك فالموقع للطلب من المستوى الأدنى هو نفس الموقع في حركة الطلب المبدئي.</span><span class="sxs-lookup"><span data-stu-id="a91a3-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
 
-<span data-ttu-id="954f3-113">يوضح الرسم التخطيطي التالي الكيفية التي تتم بها عملية تحديد إجمالي المكونات المطلوبة لطلب التخطيط الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="954f3-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![طلب عملية تحديد إجمالي المكونات المطلوبة باستخدام إصدار شجرة المواد](./media/multisitedemandexplosionscenariousingbomversion.gif)
+<span data-ttu-id="a91a3-113">يوضح الرسم التخطيطي التالي الكيفية التي تتم بها عملية تحديد إجمالي المكونات المطلوبة لطلب التخطيط الرئيسي.</span><span class="sxs-lookup"><span data-stu-id="a91a3-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![طلب عملية تحديد إجمالي المكونات المطلوبة باستخدام إصدار شجرة المواد](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="additional-resources"></a><span data-ttu-id="954f3-115">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="954f3-115">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="a91a3-115">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="a91a3-115">Additional resources</span></span>
 
-[<span data-ttu-id="954f3-116">تحديد إصدار BOM</span><span class="sxs-lookup"><span data-stu-id="954f3-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="a91a3-116">تحديد إصدار BOM</span><span class="sxs-lookup"><span data-stu-id="a91a3-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
 
-[<span data-ttu-id="954f3-117">نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة</span><span class="sxs-lookup"><span data-stu-id="954f3-117">Master planning and multisite functionality overview</span></span>](master-plan-multisite-functionality.md)
+[<span data-ttu-id="a91a3-117">نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة</span><span class="sxs-lookup"><span data-stu-id="a91a3-117">Master planning and multisite functionality overview</span></span>](master-plan-multisite-functionality.md)
 
 
 

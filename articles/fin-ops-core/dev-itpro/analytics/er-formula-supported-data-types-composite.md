@@ -1,0 +1,120 @@
+---
+title: أنواع البيانات المركبة المدعومة لمعادلات التقارير الإلكترونية
+description: يوفر هذا الموضوع معلومات حول أنواع البيانات المركبة المعتمدة في معادلات التقارير الإلكترونية (ER).
+author: NickSelin
+ms.date: 06/02/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+audience: Application User, IT Pro
+ms.reviewer: kfend
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.translationtype: HT
+ms.contentlocale: ar-SA
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224074"
+---
+# <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a><span data-ttu-id="855f7-103">أنواع البيانات المركبة المدعومة لمعادلات التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="855f7-103">Supported composite data types for Electronic reporting formulas</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="855f7-104">يوفر هذا الموضوع معلومات حول أنواع البيانات المركبة المعتمدة في تعبيرات [التقارير الإلكترونية (ER)](general-electronic-reporting.md).</span><span class="sxs-lookup"><span data-stu-id="855f7-104">This topic provides information about the composite data types that are supported in [Electronic reporting (ER)](general-electronic-reporting.md) expressions.</span></span> <span data-ttu-id="855f7-105">أنواع البيانات المركبة هي [الفئة](#class) و [الحاوية](#container) و [السجل](#record) و [قائمة السجل](#record-list) و [الكائن](#object).</span><span class="sxs-lookup"><span data-stu-id="855f7-105">The composite data types are [class](#class), [container](#container), [record](#record), [record list](#record-list), and [object](#object).</span></span>
+
+## <a name="class"></a><a name="class"></a><span data-ttu-id="855f7-106">الدرجة</span><span class="sxs-lookup"><span data-stu-id="855f7-106">Class</span></span>
+
+<span data-ttu-id="855f7-107">يشير نوع البيانات *الفئة* إلى فئة التطبيق العامة.</span><span class="sxs-lookup"><span data-stu-id="855f7-107">The *class* data type refers to a public application class.</span></span> <span data-ttu-id="855f7-108">في التقارير الإلكترونية، يتم تمثيله على أنه [*سجل*](#record) يحتوي على حقل منفصل لكل أسلوب عام للفئة المشار إليها.</span><span class="sxs-lookup"><span data-stu-id="855f7-108">In ER, it's represented as a [*record*](#record) that contains a separate field for every public method of the referenced class.</span></span> <span data-ttu-id="855f7-109">عند تعيين معلمات استدعاء الأسلوب، يجب أيضًا تحديد الوسيطات المطلوبة من الأنواع المناسبة في تعبير التقارير الإلكترونية الذي يتم تكوينه لاستدعاء الأسلوب.</span><span class="sxs-lookup"><span data-stu-id="855f7-109">When the call of the method is parameterized, you must also specify the required arguments of the appropriate types in an ER expression that is configured to call the method.</span></span>
+
+<span data-ttu-id="855f7-110">في [تعيين](general-electronic-reporting.md#data-model-and-model-mapping-components) التقارير الإلكترونية و [تنسيق](general-electronic-reporting.md#FormatComponentOutbound) المكونات، يمكنك إضافة مصدر البيانات **الفئة** الذي يتم تقديمه كمصدر بيانات وإرجاع قيمة لنوع *الفئة*.</span><span class="sxs-lookup"><span data-stu-id="855f7-110">In ER [mapping](general-electronic-reporting.md#data-model-and-model-mapping-components) and [format](general-electronic-reporting.md#FormatComponentOutbound) components, you can add the **Class** data source that is presented as a data source and that returns a value of the *class* type.</span></span> <span data-ttu-id="855f7-111">يكشف مصدر البيانات هذا الأساليب العامة للفئة التي يمكن استدعاؤها في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="855f7-111">This data source exposes public methods of the class that can be called at runtime.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="855f7-112">يمكن استدعاء الأساليب التي ترجع قيمة من تعبيرات التقارير الإلكترونية فقط.</span><span class="sxs-lookup"><span data-stu-id="855f7-112">Only methods that return a value can be called from ER expressions.</span></span>
+>
+> <span data-ttu-id="855f7-113">يمكن استدعاء الأساليب التي تحتوي على نطاق من صفر إلى ثمان وسيطات من تعبيرات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="855f7-113">Only methods that have a range of zero to eight arguments can be called from ER expressions.</span></span>
+
+<span data-ttu-id="855f7-114">القيمة الافتراضية لـ *فئة* **فارغة**.</span><span class="sxs-lookup"><span data-stu-id="855f7-114">The default value of a *class* is **null**.</span></span>
+
+<span data-ttu-id="855f7-115">يوضح الرسم التوضيحي التالي كيفية إضافة مصدر البيانات **System information(xInfo)** لنوع **الفئة** لإجراء مثيل فئة التطبيق **xInfo** واستدعاء الأسلوب **productName()** لتلقي اسم التطبيق الحالي.</span><span class="sxs-lookup"><span data-stu-id="855f7-115">The following illustration shows how the **System information(xInfo)** data source of the **Class** type is added to make the instance of the **xInfo** application class and call its **productName()** method to receive the name of the current application.</span></span> <span data-ttu-id="855f7-116">يتم إحضار اسم التطبيق الحالي في وقت التشغيل عن طريق تنفيذ ربط `xInfo.productName` الذي يتم تكوينه للحقل **Software name(SoftwareName)** لنموذج بيانات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="855f7-116">The name of the current application is fetched at runtime by execution of the `xInfo.productName` binding that was configured for the **Software name(SoftwareName)** field of the ER data model.</span></span> <span data-ttu-id="855f7-117">يستدعي هذا الربط أسلوب `productName()` لفئة التطبيق **xInfo** التي يتم تمثيلها في تعيين النموذج الحالي كمصدر بيانات **System information(xInfo)**.</span><span class="sxs-lookup"><span data-stu-id="855f7-117">This binding calls the `productName()` method of the **xInfo** application class that is represented in the current model mapping as the **System information(xInfo)** data source.</span></span>
+
+<span data-ttu-id="855f7-118">[![تكوين مصدر بيانات فئة في مصمم تعيين نموذج التقارير الإلكترونية](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)</span><span class="sxs-lookup"><span data-stu-id="855f7-118">[![Configuring a Class data source in the ER model mapping designer](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)</span></span>
+
+<span data-ttu-id="855f7-119">يوضح الرسم التوضيحي التالي كيفية تكوين تنسيق التقارير الإلكترونية لوضع اسم التطبيق المقدم في المستندات التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="855f7-119">The following illustration shows how the ER format is configured to put the provided application name in generated documents.</span></span> <span data-ttu-id="855f7-120">تم ربط الحقل **Software name(SoftwareName)** لنموذج البيانات المستخدم بمكون **السلسلة** المتداخل ضمن عنصر **softwareUsed** XML من تنسيق التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="855f7-120">The **Software name(SoftwareName)** field of the used data model was bound to the **String** component that is nested under the **softwareUsed** XML element of the ER format.</span></span> <span data-ttu-id="855f7-121">لذلك، يتم وضع اسم التطبيق الحالي في وقت التشغيل إلى لعنصر **softwareUsed** XML للمستند الذي تم إنشاؤه بتنسيق XML.</span><span class="sxs-lookup"><span data-stu-id="855f7-121">So, the name of the current application is placed at runtime to the **softwareUsed** XML element of a generated document in XML format.</span></span>
+
+<span data-ttu-id="855f7-122">[![تكوين بنية المستند الصادر الإلكتروني في مصمم تنسيق التقارير الإلكترونية](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)</span><span class="sxs-lookup"><span data-stu-id="855f7-122">[![Configuring the structure of an electronic outbound document in the ER format designer](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)</span></span>
+
+## <a name="container"></a><a name="container"></a><span data-ttu-id="855f7-123">الحاوية</span><span class="sxs-lookup"><span data-stu-id="855f7-123">Container</span></span>
+
+<span data-ttu-id="855f7-124">يحتوي نوع بيانات *الحاوية* على محتوى ثنائي.</span><span class="sxs-lookup"><span data-stu-id="855f7-124">The *container* data type holds binary content.</span></span> <span data-ttu-id="855f7-125">يمكن استخدام قيمة *الحاوية* لتمرير معلومات معينة من التخزين إلى مستند تم إنشاؤه.</span><span class="sxs-lookup"><span data-stu-id="855f7-125">A *container* value can be used to pass specific information from storage to a generated document.</span></span> <span data-ttu-id="855f7-126">في إطار عمل التقارير الإلكترونية، يتم استخدام نوع البيانات هذا بشكل متكرر لوضع محتوى الوسائط مثل شعار الشركة في المستندات التي تم إنشاؤها.</span><span class="sxs-lookup"><span data-stu-id="855f7-126">In the ER framework, this data type is frequently used to put media content such as a company logo in generated documents.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="855f7-127">على الرغم من أنه يمكن تمثيل كل عنصر وسائط كقيمة *حاوية*، لا تمثل كل قيمة *حاوية* عنصر وسائط.</span><span class="sxs-lookup"><span data-stu-id="855f7-127">Although every media item can be represented as a *container* value, not every *container* value represents a media item.</span></span> <span data-ttu-id="855f7-128">لذلك، إذا قمت بتكوين تنسيق التقارير الإلكترونية بحيث يستخدم *حاوية* لوضع صورة في مستندات تم إنشاءها، ولكن لا ترجع *الحاوية* المشار إليها، محتوى الوسائط، قد يتم طرح استثناء مشابه للمثال التالي: "خطأ في تنفيذ التعليمات البرمجية: ثنائي (كائن)، تم استدعاء الأسلوب constructFromContainer بمعلمات غير صالحة."</span><span class="sxs-lookup"><span data-stu-id="855f7-128">Therefore, if you configure an ER format so that it uses a *container* to put an image in generated documents, but the referenced *container* doesn't return media content, an exception that resembles the following example might be thrown: "Error executing code: Binary (object), method constructFromContainer called with invalid parameters."</span></span>
+
+<span data-ttu-id="855f7-129">القيمة الافتراضية لـ *حاوية* **فارغة**.</span><span class="sxs-lookup"><span data-stu-id="855f7-129">The default value of a *container* is **null**.</span></span>
+
+<span data-ttu-id="855f7-130">يبين الرسم التوضيحي التالي كيفية ربط الحقل **Bitmap(Image)** للنوع *الحاوية* بحقل نموذج البيانات **الشعار** لنوع **الحاوية** في تعيين النموذج **فاتورة المبيعات**.</span><span class="sxs-lookup"><span data-stu-id="855f7-130">The following illustration shows how the **Bitmap(Image)** field of the *Container* type is bound to the data model **Logo** field of the **Container** type in the **Sales invoice** model mapping.</span></span> <span data-ttu-id="855f7-131">يجعل هذا الربط شعار الشركة متوفرًا لأي تنسيق تقارير إلكترونية تم تصميمه لتعريف جذر **SalesInvoice** ويستخدم تعيين نموذج هذا في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="855f7-131">This binding makes the company logo available to any ER format that is designed for the **SalesInvoice** root definition and that uses this model mapping at runtime.</span></span>
+
+<span data-ttu-id="855f7-132">[![ربط حقل نوع الحاوية في مصمم تعيين نموذج التقارير الإلكترونية](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)</span><span class="sxs-lookup"><span data-stu-id="855f7-132">[![Binding a field of the Container type in the ER model mapping designer](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)</span></span>
+
+## <a name="record"></a><a name="record"></a><span data-ttu-id="855f7-133">تسجيل</span><span class="sxs-lookup"><span data-stu-id="855f7-133">Record</span></span>
+
+<span data-ttu-id="855f7-134">يُعد *السجل* مجموعة الحقول المسماة، يرتبط كل منها بقيمة إما بنوع بيانات [أساسية](er-formula-supported-data-types-primitive.md) أو بنوع بيانات مركبة.</span><span class="sxs-lookup"><span data-stu-id="855f7-134">A *record* is a collection of named fields, each of which is associated with a value of either a [primitive](er-formula-supported-data-types-primitive.md) data type or a composite data type.</span></span> <span data-ttu-id="855f7-135">عادة، يتم استخدام *سجل* لتمثيل سجل مفرد من قائمة السجلات.</span><span class="sxs-lookup"><span data-stu-id="855f7-135">Usually, a *record* is used to represent a single record of a record list.</span></span> <span data-ttu-id="855f7-136">في هذه الحالة، يمثل كل صنف الحقول والأساليب والعلاقات الفردية.</span><span class="sxs-lookup"><span data-stu-id="855f7-136">In this case, every item represents individual fields, methods, and relations.</span></span>
+
+<span data-ttu-id="855f7-137">القيمة الافتراضية لـ *سجل* **فارغة**.</span><span class="sxs-lookup"><span data-stu-id="855f7-137">The default value of a *record* is **empty**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="855f7-138">عند الحصول على قيمة حقل *سجل* فارغة، فإنه يتم إرجاع القيمة الافتراضية لنوع البيانات المناسب.</span><span class="sxs-lookup"><span data-stu-id="855f7-138">When you get the value of a field of an empty *record*, the default value of the appropriate data type is returned.</span></span>
+
+<span data-ttu-id="855f7-139">يمكن الحصول على *السجل* باستخدام الوظائف التالية:</span><span class="sxs-lookup"><span data-stu-id="855f7-139">A *record* can be obtained by using the following functions:</span></span>
+
+- [<span data-ttu-id="855f7-140">FIRST</span><span class="sxs-lookup"><span data-stu-id="855f7-140">FIRST</span></span>](er-functions-list-first.md)
+- [<span data-ttu-id="855f7-141">FIRSTORNULL</span><span class="sxs-lookup"><span data-stu-id="855f7-141">FIRSTORNULL</span></span>](er-functions-list-firstornull.md)
+- [<span data-ttu-id="855f7-142">EMPTYRECORD</span><span class="sxs-lookup"><span data-stu-id="855f7-142">EMPTYRECORD</span></span>](er-functions-record-emptyrecord.md)
+- [<span data-ttu-id="855f7-143">NULLCONTAINER</span><span class="sxs-lookup"><span data-stu-id="855f7-143">NULLCONTAINER</span></span>](er-functions-record-nullcontainer.md)
+
+<span data-ttu-id="855f7-144">لمزيد من المعلومات حول تحويل قيم *السجل*، راجع [قائمة وظائف التقارير الإلكترونية في فئة القائمة](er-functions-category-list.md).</span><span class="sxs-lookup"><span data-stu-id="855f7-144">For more information about the transformation of *record* values, see [List of ER functions in the list category](er-functions-category-list.md).</span></span>
+
+## <a name="record-list"></a><a name="record-list"></a><span data-ttu-id="855f7-145">قائمة السجلات</span><span class="sxs-lookup"><span data-stu-id="855f7-145">Record list</span></span>
+
+<span data-ttu-id="855f7-146">تعتبر *قائمة السجلات* قائمة بالأصناف الخاصة بنوع *السجل*.</span><span class="sxs-lookup"><span data-stu-id="855f7-146">A *record list* is a list of items of the *record* type.</span></span> <span data-ttu-id="855f7-147">عادةً، يتم استخدام *قائمة السجل* لتمثيل قائمة السجلات التي تم إحضارها من جدول قاعدة بيانات.</span><span class="sxs-lookup"><span data-stu-id="855f7-147">Usually, a *record list* is used to represent the list of records that has been fetched from a database table.</span></span>
+
+<span data-ttu-id="855f7-148">افتراضيًا، يتم الوصول إلى سجلات *قائمة السجلات* بشكل تسلسلي.</span><span class="sxs-lookup"><span data-stu-id="855f7-148">By default, records of a *record list* are accessed sequentially.</span></span> <span data-ttu-id="855f7-149">للوصول إلى سجل محدد، يمكنك استخدام الوظيفة [INDEX](er-functions-list-index.md) وتحديد الفهرس *عدد صحيح*:</span><span class="sxs-lookup"><span data-stu-id="855f7-149">To access a specific record, you can use the [INDEX](er-functions-list-index.md) function and specify the *integer* index.</span></span>
+
+<span data-ttu-id="855f7-150">القيمة الافتراضية لـ *قائمة السجلات* **فارغة**.</span><span class="sxs-lookup"><span data-stu-id="855f7-150">The default value of a *record list* is **empty**.</span></span> <span data-ttu-id="855f7-151">يمكنك استخدام الوظيفة [ISEMPTY](/er-functions-list-isempty.md) لتقييم ما إذا كانت *قائمة السجلات* فارغة أم لا.</span><span class="sxs-lookup"><span data-stu-id="855f7-151">You can use the [ISEMPTY](/er-functions-list-isempty.md) function to evaluate whether a *record list* is empty.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="855f7-152">إذا كانت *قائمة السجلات* فارغة، فإن أية محاولة للحصول على قيمة حقل لـ *سجل* فيها تؤدي إلى طرح استثناء في وقت التشغيل.</span><span class="sxs-lookup"><span data-stu-id="855f7-152">If a *record list* is empty, any attempt to get a field value for a *record* in it causes an exception to be thrown at runtime.</span></span> <span data-ttu-id="855f7-153">لمعرفة كيف يمكنك المساعدة في منع استثناءات وقت التشغيل لهذا النوع، راجع [اعتبار حالات القائمة الفارغة](er-components-inspections.md#i9).</span><span class="sxs-lookup"><span data-stu-id="855f7-153">To learn how you can help prevent runtime exceptions of this type, see [Consideration of empty list cases](er-components-inspections.md#i9).</span></span>
+
+<span data-ttu-id="855f7-154">يمكن بدء *قائمة السجلات* باستخدام الوظائف التالية:</span><span class="sxs-lookup"><span data-stu-id="855f7-154">A *record list* can be initiated by using the following functions:</span></span>
+
+- [<span data-ttu-id="855f7-155">ALLITEMS</span><span class="sxs-lookup"><span data-stu-id="855f7-155">ALLITEMS</span></span>](er-functions-list-allitems.md)
+- [<span data-ttu-id="855f7-156">ALLITEMSQUERY</span><span class="sxs-lookup"><span data-stu-id="855f7-156">ALLITEMSQUERY</span></span>](er-functions-list-allitemsquery.md)
+- [<span data-ttu-id="855f7-157">EMPTYLIST</span><span class="sxs-lookup"><span data-stu-id="855f7-157">EMPTYLIST</span></span>](er-functions-list-emptylist.md)
+- [<span data-ttu-id="855f7-158">LIST</span><span class="sxs-lookup"><span data-stu-id="855f7-158">LIST</span></span>](er-functions-list-list.md)
+- [<span data-ttu-id="855f7-159">LISTDISTINCT</span><span class="sxs-lookup"><span data-stu-id="855f7-159">LISTDISTINCT</span></span>](er-functions-list-listdistinct.md)
+
+<span data-ttu-id="855f7-160">لمزيد من المعلومات حول تحويل قيم *قائمة السجلات*، راجع [قائمة وظائف التقارير الإلكترونية في فئة القائمة](er-functions-category-list.md).</span><span class="sxs-lookup"><span data-stu-id="855f7-160">For more information about the transformation of *record list* values, see [List of ER functions in the list category](er-functions-category-list.md).</span></span> <span data-ttu-id="855f7-161">لمعرفة كيفية تقديم أصناف *قائمة السجلات*، قم بملئها باستخدام بيانات التطبيق، ثم استخدم البيانات لإنشاء مستندات الأعمال، راجع [تصميم حل تقارير إلكترونية جديد لطباعة تقرير مخصص](er-quick-start1-new-solution.md).</span><span class="sxs-lookup"><span data-stu-id="855f7-161">To learn how to introduce *record list* items, fill them with application data, and then use the data to generate business documents, see [Design a new ER solution to print a custom report](er-quick-start1-new-solution.md).</span></span>
+
+## <a name="object"></a><a name="object"></a><span data-ttu-id="855f7-162">كائن</span><span class="sxs-lookup"><span data-stu-id="855f7-162">Object</span></span>
+
+<span data-ttu-id="855f7-163">يشير *كائن* إلى مثيل مناسب لـ *فئة*.</span><span class="sxs-lookup"><span data-stu-id="855f7-163">An *object* refers to a stateful instance of a *class*.</span></span> <span data-ttu-id="855f7-164">عادةً، يتم بدء *كائن* في كود المصدر.</span><span class="sxs-lookup"><span data-stu-id="855f7-164">Usually, an *object* is initiated in source code.</span></span> <span data-ttu-id="855f7-165">ثم يتم تمريره إلى تعيين نموذج التقارير الإلكترونية ويوفر تفاصيل عن سياق التنفيذ.</span><span class="sxs-lookup"><span data-stu-id="855f7-165">It's then passed to an ER model mapping and provides details of the execution context.</span></span>
+
+<span data-ttu-id="855f7-166">القيمة الافتراضية لـ *كائن* **فارغة**.</span><span class="sxs-lookup"><span data-stu-id="855f7-166">The default value of an *object* is **null**.</span></span>
+
+<span data-ttu-id="855f7-167">يبين الرسم التوضيحي التالي كيفية إضافة مصدر بيانات **ReportDataContract** لنوع *كائن* لتمرير معلومات حول فاتورة تم إنشائها من كود المصدر إلى تعيين نموذج **فاتورة المشروع**.</span><span class="sxs-lookup"><span data-stu-id="855f7-167">The following illustration shows how the **ReportDataContract** data source of the *Object* type is added to pass information about a generated invoice from source code to the **Project invoice** model mapping.</span></span> <span data-ttu-id="855f7-168">على سبيل المثال، يتم تمرير نص مثيل الفاتورة كجزء من سياق التنفيذ.</span><span class="sxs-lookup"><span data-stu-id="855f7-168">For example, the invoice instance text is passed as part of the execution context.</span></span> <span data-ttu-id="855f7-169">يتم الحصول على هذا النص من كود المصدر عن طريق تنفيذ ربط `ReportDataContract.parmInvoiceInstanceText` الذي تم تكوينه للحقل **ملاحظة** لنموذج بيانات التقارير الإلكترونية.</span><span class="sxs-lookup"><span data-stu-id="855f7-169">This text is taken from source code at runtime by execution of the `ReportDataContract.parmInvoiceInstanceText` binding that was configured for the **Note** field of the ER data model.</span></span> <span data-ttu-id="855f7-170">يستدعي هذا الربط أسلوب `parmInvoiceInstanceText()` لفئة التطبيق **PSAProjInvoiceContract** التي يتم تمثيلها في تعيين النموذج الحالي كمصدر بيانات **ReportDataContract**.</span><span class="sxs-lookup"><span data-stu-id="855f7-170">This binding calls the `parmInvoiceInstanceText()` method of the **PSAProjInvoiceContract** application class that is represented in the current model mapping as the **ReportDataContract** data source.</span></span>
+
+<span data-ttu-id="855f7-171">[![تكوين مصدر بيانات كائن في مصمم تعيين نموذج التقارير الإلكترونية](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)</span><span class="sxs-lookup"><span data-stu-id="855f7-171">[![Configuring an Object data source in the ER model mapping designer](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)</span></span>
+
+<span data-ttu-id="855f7-172">لمعرفة كيفية تمرير تفاصيل سياق التنفيذ من كود المصدر إلى الحل التقارير الإلكترونية الذي يتم تشغيله، راجع [تطوير بيانات اصطناعية للتطبيق لاستدعاء التقرير المصمّم](er-quick-start1-new-solution.md#DevelopCustomCode).</span><span class="sxs-lookup"><span data-stu-id="855f7-172">To learn how to pass details of the execution context from source code to the running ER solution, see [Develop application artefacts to call the designed report](er-quick-start1-new-solution.md#DevelopCustomCode).</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="855f7-173">الموارد الإضافية</span><span class="sxs-lookup"><span data-stu-id="855f7-173">Additional resources</span></span>
+
+- [<span data-ttu-id="855f7-174">نظرة عامة حول التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="855f7-174">Electronic Reporting overview</span></span>](general-electronic-reporting.md)
+- [<span data-ttu-id="855f7-175">لغة تركيبة التقارير الإلكترونية</span><span class="sxs-lookup"><span data-stu-id="855f7-175">Electronic reporting formula language</span></span>](er-formula-language.md)
+- [<span data-ttu-id="855f7-176">أنوع البيانات الأساسية المدعومة</span><span class="sxs-lookup"><span data-stu-id="855f7-176">Supported primitive data types</span></span>](er-formula-supported-data-types-primitive.md)

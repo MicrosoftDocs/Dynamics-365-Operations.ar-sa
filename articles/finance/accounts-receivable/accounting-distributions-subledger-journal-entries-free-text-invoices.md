@@ -15,32 +15,31 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837167"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188748"
 ---
-# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a><span data-ttu-id="16fd3-104">التوزيعات المحاسبية وإدخالات دفتر الأستاذ الفرعي للفواتير ذات النص الحر</span><span class="sxs-lookup"><span data-stu-id="16fd3-104">Accounting distributions and subledger entries for free text invoices</span></span>
+# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a><span data-ttu-id="c3975-104">التوزيعات المحاسبية وإدخالات دفتر الأستاذ الفرعي للفواتير ذات النص الحر</span><span class="sxs-lookup"><span data-stu-id="c3975-104">Accounting distributions and subledger entries for free text invoices</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="16fd3-105">تُستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب الإيراد أو الضريبة أو التكاليف في فاتورة ذات نص حر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-105">Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span> <span data-ttu-id="16fd3-106">وهناك توزيع محاسبي واحد أو أكثر لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="16fd3-106">Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.</span></span>
+<span data-ttu-id="c3975-105">تُستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب الإيراد أو الضريبة أو التكاليف في فاتورة ذات نص حر.</span><span class="sxs-lookup"><span data-stu-id="c3975-105">Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span> <span data-ttu-id="c3975-106">وهناك توزيع محاسبي واحد أو أكثر لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية.</span><span class="sxs-lookup"><span data-stu-id="c3975-106">Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.</span></span>
 
-<a name="accounting-distributions"></a><span data-ttu-id="16fd3-107">التوزيعات المحاسبية</span><span class="sxs-lookup"><span data-stu-id="16fd3-107">Accounting distributions</span></span>
-------------------------
+## <a name="accounting-distributions"></a><span data-ttu-id="c3975-107">التوزيعات المحاسبية</span><span class="sxs-lookup"><span data-stu-id="c3975-107">Accounting distributions</span></span>
 
-<span data-ttu-id="16fd3-108">يمكنك استخدام الأزرار التالية في صفحة فاتورة النص الحر لعرض وربما تغيير التوزيعات المحاسبية لكل مبلغ على فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-108">You can use the following buttons in the Free text invoice page to view, and possibly change, the accounting distributions for each amount on the free text invoice.</span></span>
+<span data-ttu-id="c3975-108">يمكنك استخدام الأزرار التالية في صفحة فاتورة النص الحر لعرض وربما تغيير التوزيعات المحاسبية لكل مبلغ على فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-108">You can use the following buttons in the Free text invoice page to view, and possibly change, the accounting distributions for each amount on the free text invoice.</span></span>
 
--   <span data-ttu-id="16fd3-109">**توزيع المبالغ**—عرض وتغيير التوزيعات المحاسبية لبند واحد لأية بنود فرعية، مثل الضرائب أو التكاليف.</span><span class="sxs-lookup"><span data-stu-id="16fd3-109">**Distribute amounts**—View and change the accounting distributions for an individual line and any child lines, such as taxes or charges.</span></span> <span data-ttu-id="16fd3-110">يمكنك أيضًا عرض وتغيير التوزيعات المحاسبية لبند فرعي مباشرةً من صفحة حركات ضريبة المبيعات أو صفحة حركات الرسوم.</span><span class="sxs-lookup"><span data-stu-id="16fd3-110">You can also view and change the accounting distributions for the child line directly from the Sales tax transactions page or the Charges transactions page.</span></span>
-    -   <span data-ttu-id="16fd3-111">تغيير مبالغ رأس فاتورة النص الحر، مثل التكاليف أو المبالغ التقريبية للعملة.</span><span class="sxs-lookup"><span data-stu-id="16fd3-111">Change free text invoice header amounts, such as charges or currency rounding amounts.</span></span>
-    -   <span data-ttu-id="16fd3-112">تغيير مبالغ بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-112">Change free text invoice line amounts.</span></span>
--   <span data-ttu-id="16fd3-113">**عرض التوزيعات** – عرض التوزيعات المحاسبية لكافة البنود في المستند.</span><span class="sxs-lookup"><span data-stu-id="16fd3-113">**View distributions**—View the accounting distributions for all lines on the document.</span></span> <span data-ttu-id="16fd3-114">لا يمكنك تغيير التوزيعات المحاسبية من طريقة العرض هذه.</span><span class="sxs-lookup"><span data-stu-id="16fd3-114">You can't change the accounting distributions from this view.</span></span>
-    -   <span data-ttu-id="16fd3-115">اعرض مبالغ السطر والرأس.</span><span class="sxs-lookup"><span data-stu-id="16fd3-115">View header and line amounts.</span></span>
+-   <span data-ttu-id="c3975-109">**توزيع المبالغ**—عرض وتغيير التوزيعات المحاسبية لبند واحد لأية بنود فرعية، مثل الضرائب أو التكاليف.</span><span class="sxs-lookup"><span data-stu-id="c3975-109">**Distribute amounts**—View and change the accounting distributions for an individual line and any child lines, such as taxes or charges.</span></span> <span data-ttu-id="c3975-110">يمكنك أيضًا عرض وتغيير التوزيعات المحاسبية لبند فرعي مباشرةً من صفحة حركات ضريبة المبيعات أو صفحة حركات الرسوم.</span><span class="sxs-lookup"><span data-stu-id="c3975-110">You can also view and change the accounting distributions for the child line directly from the Sales tax transactions page or the Charges transactions page.</span></span>
+    -   <span data-ttu-id="c3975-111">تغيير مبالغ رأس فاتورة النص الحر، مثل التكاليف أو المبالغ التقريبية للعملة.</span><span class="sxs-lookup"><span data-stu-id="c3975-111">Change free text invoice header amounts, such as charges or currency rounding amounts.</span></span>
+    -   <span data-ttu-id="c3975-112">تغيير مبالغ بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-112">Change free text invoice line amounts.</span></span>
+-   <span data-ttu-id="c3975-113">**عرض التوزيعات** – عرض التوزيعات المحاسبية لكافة البنود في المستند.</span><span class="sxs-lookup"><span data-stu-id="c3975-113">**View distributions**—View the accounting distributions for all lines on the document.</span></span> <span data-ttu-id="c3975-114">لا يمكنك تغيير التوزيعات المحاسبية من طريقة العرض هذه.</span><span class="sxs-lookup"><span data-stu-id="c3975-114">You can't change the accounting distributions from this view.</span></span>
+    -   <span data-ttu-id="c3975-115">اعرض مبالغ السطر والرأس.</span><span class="sxs-lookup"><span data-stu-id="c3975-115">View header and line amounts.</span></span>
 
-## <a name="distributing-amounts"></a><span data-ttu-id="16fd3-116">توزيع المبالغ</span><span class="sxs-lookup"><span data-stu-id="16fd3-116">Distributing amounts</span></span>
-<span data-ttu-id="16fd3-117">عندما تقوم بإدخال فاتورة النص الحر، سيتم توزيع كل مبلغ كما يلي.</span><span class="sxs-lookup"><span data-stu-id="16fd3-117">When you enter a free text invoice, each amount will be distributed as follows.</span></span>
+## <a name="distributing-amounts"></a><span data-ttu-id="c3975-116">توزيع المبالغ</span><span class="sxs-lookup"><span data-stu-id="c3975-116">Distributing amounts</span></span>
+<span data-ttu-id="c3975-117">عندما تقوم بإدخال فاتورة النص الحر، سيتم توزيع كل مبلغ كما يلي.</span><span class="sxs-lookup"><span data-stu-id="c3975-117">When you enter a free text invoice, each amount will be distributed as follows.</span></span>
 
 <table>
 <colgroup>
@@ -50,86 +49,86 @@ ms.locfileid: "5837167"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="16fd3-118">نوع المبلغ النقدي</span><span class="sxs-lookup"><span data-stu-id="16fd3-118">Type of monetary amount</span></span></th>
-<th><span data-ttu-id="16fd3-119">التي تحدد من أين يتم عرض الحساب الرئيسي‬</span><span class="sxs-lookup"><span data-stu-id="16fd3-119">Where the main account is displayed from</span></span></th>
-<th><span data-ttu-id="16fd3-120">ترتيب الأولوية التي تحدد أين يتم عرض الأبعاد المالية الافتراضية</span><span class="sxs-lookup"><span data-stu-id="16fd3-120">Order of priority that determines which default financial dimension is displayed</span></span></th>
+<th><span data-ttu-id="c3975-118">نوع المبلغ النقدي</span><span class="sxs-lookup"><span data-stu-id="c3975-118">Type of monetary amount</span></span></th>
+<th><span data-ttu-id="c3975-119">التي تحدد من أين يتم عرض الحساب الرئيسي‬</span><span class="sxs-lookup"><span data-stu-id="c3975-119">Where the main account is displayed from</span></span></th>
+<th><span data-ttu-id="c3975-120">ترتيب الأولوية التي تحدد أين يتم عرض الأبعاد المالية الافتراضية</span><span class="sxs-lookup"><span data-stu-id="c3975-120">Order of priority that determines which default financial dimension is displayed</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="16fd3-121">بند فاتورة النص الحر</span><span class="sxs-lookup"><span data-stu-id="16fd3-121">Free text invoice line</span></span></td>
-<td><span data-ttu-id="16fd3-122">حساب دفتر الأستاذ في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-122">The ledger account on the free text invoice line.</span></span></td>
+<td><span data-ttu-id="c3975-121">بند فاتورة النص الحر</span><span class="sxs-lookup"><span data-stu-id="c3975-121">Free text invoice line</span></span></td>
+<td><span data-ttu-id="c3975-122">حساب دفتر الأستاذ في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-122">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="16fd3-123">إذا كان الحساب الرئيسي حساب توزيع، استخدم القيمة الافتراضية من تعريف حساب التوزيع.</span><span class="sxs-lookup"><span data-stu-id="16fd3-123">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
-<li><span data-ttu-id="16fd3-124">إذا لم يكن الحساب الرئيسي هو حساب توزيع، فاستخدم القالب الافتراضي للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-124">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="16fd3-125">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-125">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="16fd3-126">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="16fd3-126">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="c3975-123">إذا كان الحساب الرئيسي حساب توزيع، استخدم القيمة الافتراضية من تعريف حساب التوزيع.</span><span class="sxs-lookup"><span data-stu-id="c3975-123">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="c3975-124">إذا لم يكن الحساب الرئيسي هو حساب توزيع، فاستخدم القالب الافتراضي للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-124">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="c3975-125">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-125">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="c3975-126">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="c3975-126">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="16fd3-127">بند فاتورة النص الحر لمجموعة نموذج القيمة ورقم الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="16fd3-127">Free text invoice line for a fixed asset number and value model combination</span></span>
+<td><span data-ttu-id="c3975-127">بند فاتورة النص الحر لمجموعة نموذج القيمة ورقم الأصول الثابتة</span><span class="sxs-lookup"><span data-stu-id="c3975-127">Free text invoice line for a fixed asset number and value model combination</span></span>
 <div class="alert">
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="16fd3-128"><strong>ملاحظة </strong></span><span class="sxs-lookup"><span data-stu-id="16fd3-128"><strong>Note</strong></span></span></th>
+<th><span data-ttu-id="c3975-128"><strong>ملاحظة </strong></span><span class="sxs-lookup"><span data-stu-id="c3975-128"><strong>Note</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="16fd3-129">سيكون الحساب الرئيسي في بند فاتورة النص الحر هو حساب التخلص من الأصول الثابتة.</span><span class="sxs-lookup"><span data-stu-id="16fd3-129">The main account on the free text invoice line will be the fixed asset disposal account.</span></span></td>
+<td><span data-ttu-id="c3975-129">سيكون الحساب الرئيسي في بند فاتورة النص الحر هو حساب التخلص من الأصول الثابتة.</span><span class="sxs-lookup"><span data-stu-id="c3975-129">The main account on the free text invoice line will be the fixed asset disposal account.</span></span></td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td><span data-ttu-id="16fd3-130">حساب دفتر الأستاذ في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-130">The ledger account on the free text invoice line.</span></span></td>
+<td><span data-ttu-id="c3975-130">حساب دفتر الأستاذ في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-130">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="16fd3-131">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-131">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="16fd3-132">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="16fd3-132">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="c3975-131">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-131">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="c3975-132">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="c3975-132">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="16fd3-133">مبلغ خصم فاتورة النص الحر</span><span class="sxs-lookup"><span data-stu-id="16fd3-133">Free text invoice discount amount</span></span></td>
-<td><span data-ttu-id="16fd3-134">الحساب الرئيسي لحقل خصومات العميل في صفحة الخصومات النقدية.</span><span class="sxs-lookup"><span data-stu-id="16fd3-134">The Main account for customer discounts field in the Cash discounts page.</span></span></td>
+<td><span data-ttu-id="c3975-133">مبلغ خصم فاتورة النص الحر</span><span class="sxs-lookup"><span data-stu-id="c3975-133">Free text invoice discount amount</span></span></td>
+<td><span data-ttu-id="c3975-134">الحساب الرئيسي لحقل خصومات العميل في صفحة الخصومات النقدية.</span><span class="sxs-lookup"><span data-stu-id="c3975-134">The Main account for customer discounts field in the Cash discounts page.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="16fd3-135">إذا كان الحساب الرئيسي حساب توزيع، استخدم القيمة الافتراضية من تعريف حساب التوزيع.</span><span class="sxs-lookup"><span data-stu-id="16fd3-135">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
-<li><span data-ttu-id="16fd3-136">إذا لم يكن الحساب الرئيسي هو حساب توزيع، فاستخدم القالب الافتراضي للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-136">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="16fd3-137">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-137">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="16fd3-138">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="16fd3-138">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="c3975-135">إذا كان الحساب الرئيسي حساب توزيع، استخدم القيمة الافتراضية من تعريف حساب التوزيع.</span><span class="sxs-lookup"><span data-stu-id="c3975-135">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="c3975-136">إذا لم يكن الحساب الرئيسي هو حساب توزيع، فاستخدم القالب الافتراضي للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-136">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="c3975-137">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-137">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="c3975-138">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="c3975-138">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="16fd3-139">مبلغ ضريبة مبيعات فاتورة النص الحر</span><span class="sxs-lookup"><span data-stu-id="16fd3-139">Free text invoice sales tax amount</span></span></td>
-<td><span data-ttu-id="16fd3-140">حقل ضريبة المبيعات المستحقة في صفحة مجموعات ترحيل دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="16fd3-140">The Sales tax payable field in the Ledger posting groups page.</span></span></td>
+<td><span data-ttu-id="c3975-139">مبلغ ضريبة مبيعات فاتورة النص الحر</span><span class="sxs-lookup"><span data-stu-id="c3975-139">Free text invoice sales tax amount</span></span></td>
+<td><span data-ttu-id="c3975-140">حقل ضريبة المبيعات المستحقة في صفحة مجموعات ترحيل دفتر الأستاذ.</span><span class="sxs-lookup"><span data-stu-id="c3975-140">The Sales tax payable field in the Ledger posting groups page.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="16fd3-141">استخدم الأبعاد المالية التي يتم تحديدها في مبلغ بند فاتورة النص الحر أو التوزيعات لمبلغ بند المصاريف.</span><span class="sxs-lookup"><span data-stu-id="16fd3-141">Use the financial dimensions that are defined on the free text invoice line amount or the distributions for the charge line amount.</span></span></li>
-<li><span data-ttu-id="16fd3-142">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-142">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="16fd3-143">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="16fd3-143">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="c3975-141">استخدم الأبعاد المالية التي يتم تحديدها في مبلغ بند فاتورة النص الحر أو التوزيعات لمبلغ بند المصاريف.</span><span class="sxs-lookup"><span data-stu-id="c3975-141">Use the financial dimensions that are defined on the free text invoice line amount or the distributions for the charge line amount.</span></span></li>
+<li><span data-ttu-id="c3975-142">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-142">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="c3975-143">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="c3975-143">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="16fd3-144">مبلغ بند رسوم فاتورة النص الحر</span><span class="sxs-lookup"><span data-stu-id="16fd3-144">Free text invoice charge line amount</span></span></td>
-<td><span data-ttu-id="16fd3-145">حقل الحساب الدائن في صفحة كود المصاريف.</span><span class="sxs-lookup"><span data-stu-id="16fd3-145">The Credit account field in the Charges code page.</span></span></td>
+<td><span data-ttu-id="c3975-144">مبلغ بند رسوم فاتورة النص الحر</span><span class="sxs-lookup"><span data-stu-id="c3975-144">Free text invoice charge line amount</span></span></td>
+<td><span data-ttu-id="c3975-145">حقل الحساب الدائن في صفحة كود المصاريف.</span><span class="sxs-lookup"><span data-stu-id="c3975-145">The Credit account field in the Charges code page.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="16fd3-146">إذا كان الحساب الرئيسي حساب توزيع، استخدم القيمة الافتراضية من تعريف حساب التوزيع.</span><span class="sxs-lookup"><span data-stu-id="16fd3-146">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
-<li><span data-ttu-id="16fd3-147">إذا لم يكن الحساب الرئيسي هو حساب توزيع، فاستخدم القالب الافتراضي للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-147">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="16fd3-148">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="16fd3-148">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="16fd3-149">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="16fd3-149">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="c3975-146">إذا كان الحساب الرئيسي حساب توزيع، استخدم القيمة الافتراضية من تعريف حساب التوزيع.</span><span class="sxs-lookup"><span data-stu-id="c3975-146">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="c3975-147">إذا لم يكن الحساب الرئيسي هو حساب توزيع، فاستخدم القالب الافتراضي للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-147">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="c3975-148">استخدم القيم الافتراضية للبعد المالي في بند فاتورة النص الحر.</span><span class="sxs-lookup"><span data-stu-id="c3975-148">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="c3975-149">استخدم القيم الافتراضية للبعد المالي من حساب دفتر الأستاذ في صفحة مخطط الحسابات.</span><span class="sxs-lookup"><span data-stu-id="c3975-149">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="distributing-taxes"></a><span data-ttu-id="16fd3-150">توزيع الضرائب</span><span class="sxs-lookup"><span data-stu-id="16fd3-150">Distributing taxes</span></span>
-<span data-ttu-id="16fd3-151">يتعذر إنشاء توزيعات محاسبية للضرائب إلا بعد أن يتم حساب الضرائب.</span><span class="sxs-lookup"><span data-stu-id="16fd3-151">Accounting distributions for taxes cannot be created until taxes are calculated.</span></span> <span data-ttu-id="16fd3-152">لحساب ضرائب المبيعات، يجب إكمال إحدى المهام التالية في نموذج فاتورة النص الحر:</span><span class="sxs-lookup"><span data-stu-id="16fd3-152">To calculate sales taxes, you must complete one of the following tasks in the Free text invoice form:</span></span>
--   <span data-ttu-id="16fd3-153">عرض ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="16fd3-153">View the sales tax.</span></span>
--   <span data-ttu-id="16fd3-154">عرض إجمالي الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="16fd3-154">View the invoice total.</span></span>
--   <span data-ttu-id="16fd3-155">عرض التدفق النقدي.</span><span class="sxs-lookup"><span data-stu-id="16fd3-155">View the cash flow.</span></span>
--   <span data-ttu-id="16fd3-156">اعرض التوزيعات المحاسبية لفاتورة النص الحر بالكامل.</span><span class="sxs-lookup"><span data-stu-id="16fd3-156">View accounting distributions for the whole free text invoice.</span></span>
--   <span data-ttu-id="16fd3-157">عرض دفتر اليومية بدفتر الأستاذ الفرعي.</span><span class="sxs-lookup"><span data-stu-id="16fd3-157">View the subledger journal.</span></span>
+## <a name="distributing-taxes"></a><span data-ttu-id="c3975-150">توزيع الضرائب</span><span class="sxs-lookup"><span data-stu-id="c3975-150">Distributing taxes</span></span>
+<span data-ttu-id="c3975-151">يتعذر إنشاء توزيعات محاسبية للضرائب إلا بعد أن يتم حساب الضرائب.</span><span class="sxs-lookup"><span data-stu-id="c3975-151">Accounting distributions for taxes cannot be created until taxes are calculated.</span></span> <span data-ttu-id="c3975-152">لحساب ضرائب المبيعات، يجب إكمال إحدى المهام التالية في نموذج فاتورة النص الحر:</span><span class="sxs-lookup"><span data-stu-id="c3975-152">To calculate sales taxes, you must complete one of the following tasks in the Free text invoice form:</span></span>
+-   <span data-ttu-id="c3975-153">عرض ضريبة المبيعات.</span><span class="sxs-lookup"><span data-stu-id="c3975-153">View the sales tax.</span></span>
+-   <span data-ttu-id="c3975-154">عرض إجمالي الفاتورة.</span><span class="sxs-lookup"><span data-stu-id="c3975-154">View the invoice total.</span></span>
+-   <span data-ttu-id="c3975-155">عرض التدفق النقدي.</span><span class="sxs-lookup"><span data-stu-id="c3975-155">View the cash flow.</span></span>
+-   <span data-ttu-id="c3975-156">اعرض التوزيعات المحاسبية لفاتورة النص الحر بالكامل.</span><span class="sxs-lookup"><span data-stu-id="c3975-156">View accounting distributions for the whole free text invoice.</span></span>
+-   <span data-ttu-id="c3975-157">عرض دفتر اليومية بدفتر الأستاذ الفرعي.</span><span class="sxs-lookup"><span data-stu-id="c3975-157">View the subledger journal.</span></span>
 
-## <a name="subledger-journals-for-free-text-invoices"></a><span data-ttu-id="16fd3-158"> دفاتر يومية دفتر الأستاذ الفرعي لفواتير النص الحر</span><span class="sxs-lookup"><span data-stu-id="16fd3-158">Subledger journals for free text invoices</span></span>
-<span data-ttu-id="16fd3-159">قبل ترحيل فاتورة النص الحر، يمكنك عرض الإدخال الكامل للمحاسبة، التي تتضمن مدينين ودائنين، للتحقق من أنه جاري ترحيل الفاتورة للحسابات الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="16fd3-159">Before you post a free text invoice, you can view the full accounting entry of the invoice, which includes debits and credits, to verify that the invoice is being posted to the correct accounts.</span></span> <span data-ttu-id="16fd3-160">يسمى عرض هذا الإدخال المحاسبي الكامل دفتر يومية بدفتر الأستاذ الفرعي.</span><span class="sxs-lookup"><span data-stu-id="16fd3-160">This view of the full accounting entry is called a subledger journal.</span></span> <span data-ttu-id="16fd3-161">إذا كان إدخال دفتر يومية بدفتر الأستاذ الفرعي غير صحيح عند معاينته قبل تسجيل فاتورة النص الحر في دفتر اليومية، لا يمكنك تغيير إدخال دفتر يومية بدفتر الأستاذ الفرعي.</span><span class="sxs-lookup"><span data-stu-id="16fd3-161">If the subledger journal entry is incorrect when you preview it before you journalize the free text invoice, you can't change the subledger journal entry.</span></span> <span data-ttu-id="16fd3-162">وبدلاً من ذلك، يجب عليك تغيير التوزيعات المحاسبية أو ملف تعريف الترحيل.</span><span class="sxs-lookup"><span data-stu-id="16fd3-162">Instead, you must change the accounting distributions or the posting profile.</span></span> <span data-ttu-id="16fd3-163">يتم استخدام التوزيعات المحاسبية لتعريف أحد جوانب الإدخال المحاسبي أو المدين أو الدائن.</span><span class="sxs-lookup"><span data-stu-id="16fd3-163">The accounting distributions are used to define one side of the accounting entry, the debit or the credit.</span></span> <span data-ttu-id="16fd3-164">يتم إنشاء إدخال حساب دفتر يومية بدفتر الأستاذ الفرعي المقابلة من ملفات تعريف الترحيل، مثل حساب العميل أو الضريبة.</span><span class="sxs-lookup"><span data-stu-id="16fd3-164">The offsetting subledger journal account entry is created from the posting profiles, such as from the customer account or the tax.</span></span>
+## <a name="subledger-journals-for-free-text-invoices"></a><span data-ttu-id="c3975-158"> دفاتر يومية دفتر الأستاذ الفرعي لفواتير النص الحر</span><span class="sxs-lookup"><span data-stu-id="c3975-158">Subledger journals for free text invoices</span></span>
+<span data-ttu-id="c3975-159">قبل ترحيل فاتورة النص الحر، يمكنك عرض الإدخال الكامل للمحاسبة، التي تتضمن مدينين ودائنين، للتحقق من أنه جاري ترحيل الفاتورة للحسابات الصحيحة.</span><span class="sxs-lookup"><span data-stu-id="c3975-159">Before you post a free text invoice, you can view the full accounting entry of the invoice, which includes debits and credits, to verify that the invoice is being posted to the correct accounts.</span></span> <span data-ttu-id="c3975-160">يسمى عرض هذا الإدخال المحاسبي الكامل دفتر يومية بدفتر الأستاذ الفرعي.</span><span class="sxs-lookup"><span data-stu-id="c3975-160">This view of the full accounting entry is called a subledger journal.</span></span> <span data-ttu-id="c3975-161">إذا كان إدخال دفتر يومية بدفتر الأستاذ الفرعي غير صحيح عند معاينته قبل تسجيل فاتورة النص الحر في دفتر اليومية، لا يمكنك تغيير إدخال دفتر يومية بدفتر الأستاذ الفرعي.</span><span class="sxs-lookup"><span data-stu-id="c3975-161">If the subledger journal entry is incorrect when you preview it before you journalize the free text invoice, you can't change the subledger journal entry.</span></span> <span data-ttu-id="c3975-162">وبدلاً من ذلك، يجب عليك تغيير التوزيعات المحاسبية أو ملف تعريف الترحيل.</span><span class="sxs-lookup"><span data-stu-id="c3975-162">Instead, you must change the accounting distributions or the posting profile.</span></span> <span data-ttu-id="c3975-163">يتم استخدام التوزيعات المحاسبية لتعريف أحد جوانب الإدخال المحاسبي أو المدين أو الدائن.</span><span class="sxs-lookup"><span data-stu-id="c3975-163">The accounting distributions are used to define one side of the accounting entry, the debit or the credit.</span></span> <span data-ttu-id="c3975-164">يتم إنشاء إدخال حساب دفتر يومية بدفتر الأستاذ الفرعي المقابلة من ملفات تعريف الترحيل، مثل حساب العميل أو الضريبة.</span><span class="sxs-lookup"><span data-stu-id="c3975-164">The offsetting subledger journal account entry is created from the posting profiles, such as from the customer account or the tax.</span></span>
 
 
 
