@@ -92,9 +92,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: المزايا الجديدة أو المتغيرة في Commerce
                   items:
-                    - name: الجديد أو المتغير في الصفحة الرئيسية لـ Commerce
+                    - name: الجديد أو المتغير في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20 (يوليو 2021)
+                    - name: Commerce 10.0.20 (أغسطس 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (يونيو 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -240,11 +240,11 @@
               items:
                 - name: نظرة عامة على هندسة Dynamics 365 Commerce
                   href: commerce-architecture.md
-                - name: سير مهام مصادقة Dynamics 365 Commerce
+                - name: عمليات سير مصادقة Dynamics 365 Commerce
                   href: arch-auth-flow.md
                 - name: متطلبات تعيين إصدار مكونات Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: هندسة Commerce Scale Unit
+                - name: بنية محرك التجارة بدون أجهزة ملحقة
                   href: dev-itpro/retail-server-architecture.md
                 - name: تحديد مخطط‬ في المتجر
                   href: dev-itpro/retail-in-store-topology.md
@@ -256,9 +256,9 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: استكشاف الأخطاء وإصلاحها في Commerce Data Exchange
                       href: dev-itpro/CDX-Troubleshooting.md
-                - name: هندسة نقطة البيع الحديثة
+                - name: هندسة Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: هندسة نشر متجر على الإنترنت
+                - name: نشر قناة متجر عبر الإنترنت
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: محتوى Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -274,7 +274,7 @@
                   href: dev-itpro/retail-store-system-begin.md
                 - name: تكوين وتثبيت Commerce Scale Unit (المستضافة ذاتيًا)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-                - name: تكوين وتثبيت نقطة بيع حديثة
+                - name: تكوين وتثبيت Modern POS
                   href: retail-modern-pos-device-activation.md
                 - name: إدارة الحسابات والأجهزة من المركز الرئيسي
                   href: set-up-activation-accounts-validate-devices-hq.md
@@ -546,11 +546,13 @@
                       href: paypal.md
                     - name: دعم دفع المحفظة
                       href: wallets.md
+                    - name: المدفوعات المحسنة في عملية السداد مع الخروج على واجهة المتجر
+                      href: dev-itpro/enhanced-sca.md
                     - name: الأسئلة المتداولة حول المدفوعات
                       href: dev-itpro/payments-retail.md
                 - name: البريد الإلكتروني والإخطارات
                   items:
-                    - name: تكوين رسائل البريد الالكتروني للإيصالات لاستخدام تخطيطات وقوالب مخصصة
+                    - name: تكوين رسائل البريد الإلكتروني للإيصالات لاستخدام تخطيطات وقوالب مخصصة
                       href: configure-emailed-receipt-formats.md
                     - name: إضافة شفرة استجابة سريعة أو رمز شريطي إلى رسائل البريد الكتروني للمعاملات والإيصالات
                       href: add-qr-code-barcode-email.md
@@ -770,10 +772,14 @@
                   href: notifications-pos.md
                 - name: بيع برامج الاستمرارية ومعالجة أوامر المبيعات
                   href: tasks/use-continuity-program.md
-                - name: تمكين إعلامات تسجيل دخول العميل إلى نقطة البيع (POS)
+                - name: تمكين إخطارات تسجيل دخول العميل إلى نقطة البيع
                   href: enable-customer-check-in.md
-            - name: مرتجعات
+            - name: المرتجعات والمبالغ المستردة
               items:
+                - name: إنشاء مرتجعات في نقطة البيع
+                  href: POS-returns.md
+                - name: إرجاع المنتجات التي يتم التحكم فيها بالأرقام التسلسلية في نقاط البيع
+                  href: POS-serial-returns.md
                 - name: المبالغ المستردة المرتبطة
                   href: dev-itpro/linked-refunds.md
                 - name: بيع المنتجات غير المضمنة في مجموعة المتجر وإرجاعها
@@ -1230,19 +1236,23 @@
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                 - name: إنشاء تكوينات ER في Regulatory configuration service وتحميلها إلى المستودع العمومي
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service - إهلاك تخزين Lifecycle Services
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: النمسا
               items:
                 - name: عينة تكامل خدمة التسجيل المالي للنمسا
                   href: localizations/emea-aut-fi-sample.md
             - name: البرازيل
               items:
-                - name: تعريب Commerce للبرازيل
+                - name: ترجمة Commerce للبرازيل
                   href: localizations/latam-bra-commerce-localization.md
+                - name: إعداد ونشر ترجمة Commerce للبرازيل
+                  href: localizations/latam-bra-deployment.md
             - name: أوروبا الشرقية
               items:
                 - name: عام
                   items:
-                    - name: فواتير السُلف‬‬‬ لـ Commerce لأوروبا الشرقية
+                    - name: فواتير الدفعات المقدمة في Commerce لأوروبا الشرقية
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
                     - name: إدارة المصروفات النثرية لـ Commerce لأوروبا الشرقية
                       href: localizations/emea-eeu-petty-cash-for-retail.md
@@ -1962,8 +1972,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: تصميم حلول التقارير الإلكترونية الفعالة
+                  items:
+                    - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: استكشاف أخطاء الأداء وإصلاحها في تكوينات التقارير الإلكترونية
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: إدارة مستندات الأعمال (BDM)
                   items:
                     - name: نظرة عامة على BDM
@@ -2388,11 +2402,11 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: إعداد مسار بناء Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
-                - name: قم بتنزيل نماذج وحزم من GitHub و NuGet
+                - name: قم بتنزيل نماذج وحزم من GitHub وNuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
                 - name: الأسئلة الشائعة حول Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: قابلية توسعة نقطة البيع
+            - name: قابلية توسعة نقطة البيع (POS)
               items:
                 - name: تخطيطات شاشة نقطة البيع
                   href: pos-screen-layouts.md

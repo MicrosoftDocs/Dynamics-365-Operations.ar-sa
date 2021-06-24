@@ -72,7 +72,7 @@
                   items:
                     - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.20 (يوليو 2021)
+                    - name: الإصدار 10.0.20 من Supply Chain Management (أغسطس 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (يونيو 2021)
                       href: get-started/whats-new-scm-10-0-19.md
@@ -222,6 +222,8 @@
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إنشاء تكوينات ER في Regulatory configuration service وتحميلها إلى المستودع العمومي
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Regulatory Configuration Service - إهلاك تخزين Lifecycle Services
+                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: الفوترة الإلكترونية
                   items:
                     - name: نظرة عامة على الفوترة الإلكترونية
@@ -234,6 +236,8 @@
                       href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إنشاء حساب تخزين Azure وKey Vault
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: لوحة معلومات إدارة الاستخدام
+                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
                     - name: الشروع في العمل
                       items:
                         - name: الشروع في العمل مع إدارة خدمة الفوترة الإلكترونية
@@ -1383,8 +1387,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: تصميم حلول التقارير الإلكترونية الفعالة
+                  items:
+                    - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: استكشاف أخطاء الأداء وإصلاحها في تكوينات التقارير الإلكترونية
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إدارة مستندات الأعمال (BDM)
                   items:
                     - name: نظرة عامة على BDM
@@ -1675,33 +1683,41 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: التعاون مع عملاء سلسلة التوريد الداخلية
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-            - name: التنبؤ بالطلب
+            - name: تنبؤ
               items:
-                - name: نظرة عامة على التنبؤ بالطلب‬
-                  href: master-planning/introduction-demand-forecasting.md
-                - name: إعداد التنبؤ بالطلب
-                  href: master-planning/demand-forecasting-setup.md
-                - name: استيراد البيانات التاريخية‬ للتنبؤات بالطلبات
-                  href: master-planning/import-historical-data.md
-                - name: إنشاء تنبؤ أساسي إحصائي
-                  href: master-planning/generate-statistical-baseline-forecast.md
-                - name: إجراء تسوية يدوية في التنبؤ الأساسي
-                  href: master-planning/manual-adjustments-baseline-forecast.md
-                - name: تخويل ‏‫التنبؤ الذي تمت تسويته
-                  href: master-planning/authorize-adjusted-forecast.md
-                - name: رصد دقة التنبؤ​
-                  href: master-planning/monitor-forecast-accuracy.md
-                - name: إزالة القيم المتطرفة من بيانات الحركة التاريخية عند حساب التنبؤ بالطلب
-                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                - name: مفاتيح الخفض
-                  href: master-planning/reduction-keys.md
-                - name: إنشاء تنبؤ أساسي
-                  href: master-planning/tasks/create-baseline-forecast.md
-                - name: تعديل التنبؤ بالطلب يدوياً
-                  href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: التنبؤ بالطلب والتوريد
+                  items:
+                    - name: التنبؤات بالمخزون
+                      href: master-planning/inventory-forecast.md
+                    - name: 'دليل: تعديل التنبؤ بالطلب يدويًا'
+                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: التنبؤ بالطلب
+                  items:
+                    - name: نظرة عامة على التنبؤ بالطلب‬
+                      href: master-planning/introduction-demand-forecasting.md
+                    - name: إعداد التنبؤ بالطلب
+                      href: master-planning/demand-forecasting-setup.md
+                    - name: إنشاء تنبؤ أساسي إحصائي
+                      href: master-planning/generate-statistical-baseline-forecast.md
+                    - name: إجراء تسوية يدوية في التنبؤ الأساسي
+                      href: master-planning/manual-adjustments-baseline-forecast.md
+                    - name: تخويل ‏‫التنبؤ الذي تمت تسويته
+                      href: master-planning/authorize-adjusted-forecast.md
+                    - name: استيراد البيانات التاريخية‬ للتنبؤات بالطلبات
+                      href: master-planning/import-historical-data.md
+                    - name: إزالة القيم المتطرفة من بيانات الحركة التاريخية عند حساب التنبؤ بالطلب
+                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                    - name: رصد دقة التنبؤ​
+                      href: master-planning/monitor-forecast-accuracy.md
+                    - name: 'دليل: إنشاء تنبؤ أساسي'
+                      href: master-planning/tasks/create-baseline-forecast.md
+                - name: التخطيط الرئيسي مع التنبؤ
+                  items:
+                    - name: طرق خفض التنبؤ
+                      href: master-planning/reduction-keys.md
             - name: استكشاف أخطاء التخطيط الرئيسي وإصلاحها
               href: master-planning/troubleshoot-masterplanning.md
-        - name: تطبيق الجوال
+        - name: تطبيق الأجهزة المحمولة
           items:
             - name: الصفحة الرئيسية لتطبيق الجوال
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/supply-chain/toc.json
@@ -3425,6 +3441,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: المبيعات والتسويق
               items:
+                - name: لا يمكن خفض الكمية عند إلغاء أمر المبيعات
+                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: لا يمكن لمسؤولي النظام مسح الأوامر المعلقة لأنه غير مصرح لهم بذلك
                   href: troubleshooting/sales/system-administrator.md
             - name: إدارة النقل

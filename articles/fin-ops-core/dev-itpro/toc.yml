@@ -14,7 +14,7 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.20 (يوليو 2021)
+                - name: تحديثات النظام الأساسي للإصدار 10.0.20 (أغسطس 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: تحديثات النظام الأساسي لـ 10.0.19 (يونيو 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -850,12 +850,10 @@
               items:
                 - name: التقاط تتبعات باستخدام محلل التتبع
                   href: perf-test/trace-trace-tutorial.md
-                - name: اختبارات أحادية المستخدم مع مسجل المهام وPerformance SDK
+                - name: اختبارات أحادية المستخدم باستخدام Performance SDK ومسجل المهام
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: اختبار Performance SDK متعدد المستخدمين باستخدام وحدة تحكم اختبار محلية
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: اختبارات متعددة المستخدمين مع Performance SDK وAzure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: الاختبارات متعددة المستخدمين‬ باستخدام Performance SDK
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: دليل استكشاف الأخطاء للاختبار مع Performance SDK وإصلاحها
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: ‏‫Performance SDK والاختبارات متعددة المستخدمين‬ في البيئات المحلية
@@ -1538,9 +1536,11 @@
                   href: sysadmin/batch-server-overview.md
                 - name: إنشاء وظائف دفعية
                   href: sysadmin/tasks/create-batch-job.md
+                - name: تمكين عمليات إعادة المحاولة التلقائية في مهام الدفعة
+                  href: sysadmin/retryable-batch.md
                 - name: نسخ وظيفة دُفعة
                   href: sysadmin/copy-batch-job.md
-                - name: الفترات النشطة لوظائف الدُفعات
+                - name: الفترات النشطة للدُفعات
                   href: sysadmin/activeperiod.md
                 - name: دعم التوقيت الصيفي لفترات الدُفعة النشطة
                   href: sysadmin/batch-active-period-dst.md
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: ترقية AX 2012 - قائمة اختيار الترقية المبدئية لترقية البيانات
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: ترقية AX2012 - ترقية البيانات في بيئات تحديد الصلاحيات باستخدام معالجه dacpac
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: الترقية من AX 2012 - النسخ المتماثل لحركات SQL
                   href: database/replication-setup.md
-                - name: ترقية AX 2012 - ترقية البيانات في بيئات اختبار معزولة
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: الترقية من AX 2012 - ترقية البيانات في بيئات الخدمة الذاتية
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: ترقية AX 2012 - البيئات المحلية
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: ترقية AX 2012 - اختبار مرحلي
