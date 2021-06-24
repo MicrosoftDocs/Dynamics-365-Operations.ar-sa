@@ -72,13 +72,11 @@
                   items:
                     - name: المزايا الجديدة أو المتغيرة‬ في الصفحة الرئيسية لـ Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.20 (يوليو 2021)
+                    - name: Finance 10.0.20 (أغسطس 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (يوليو 2021)
+                    - name: Finance 10.0.19 (يونيو 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (مايو 2021)
-                      href: get-started/whats-new-changed-10-0-18.md
-                    - name: Finance 10.0.17 (أبريل 2021)
                       href: get-started/whats-new-changed-10-0-17.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
@@ -1216,7 +1214,9 @@
               href: finance-insights/finance-insights-home-page.md
             - name: التكوين والإدارة
               items:
-                - name: تكوين ‏‫المعلومات المالية‬
+                - name: تكوين Finance Insights للإصدار الأولي للاستخدام العام
+                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
+                - name: تكوين ‏‫Finance Insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: تمكين توقعات دفع العميل
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1462,8 +1462,10 @@
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory configuration service - ميزات العولمة
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: إنشاء تكوينات ER في Regulatory configuration service وتحميلها إلى المستودع العمومي
+                    - name: إنشاء تكوينات التقارير الإلكترونية (ER) في Regulatory Configuration Service وتحميلها إلى المستودع العمومي
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service - إهلاك تخزين Lifecycle Services
+                      href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: الفوترة الإلكترونية
                   items:
                     - name: نظرة عامة على الفوترة الإلكترونية
@@ -1476,6 +1478,8 @@
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: إنشاء حساب تخزين Azure وKey Vault
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
+                    - name: لوحة معلومات إدارة الاستخدام
+                      href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                     - name: الشروع في العمل
                       items:
                         - name: الشروع في العمل مع إدارة خدمة الفوترة الإلكترونية
@@ -2416,18 +2420,102 @@
                               href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
                             - name: معرف الحركة الضريبية غير صحيح
                               href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
+                            - name: قيم الحقل غير صحيحه في تقرير GSTR
+                              href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
+                            - name: قيمة الحقل غير صحيحة في دفتر يومية الفواتير‬ أو إيصال الفاتورة
+                              href: localizations/apac-ind-GST-troubleshooting-invoice-journal-wrong.md
+                            - name: حساب دفتر الأستاذ غير صحيح في الإيصال
+                              href: localizations/apac-ind-GST-troubleshooting-ledger-account-voucher-wrong.md
+                            - name: فتح المصمم لتكوين الضريبة الحالية
+                              href: localizations/apac-ind-GST-troubleshooting-open-designer-current-used-tax-configuration.md
+                            - name: عدم ظهور السجلات والحقول على تقرير GSTR
+                              href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
+                            - name: خطأ في قاعدة المقاصة الضريبية عند تشغيل التسوية الضريبية
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
                 - name: الضرائب المباشرة
                   items:
                     - name: ضريبة الخصم في الهند
                       items:
-                        - name: تضمين ضريبة السلع والخدمات (GST) عند حساب خصومات الضرائب
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: تضمين ضريبة السلع والخدمات (GST) عند حساب تحصيلات الضرائب
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                        - name: الأسئلة الشائعة حول حدود الضريبة
+                        - name: الأسئلة المتداولة حول حدود الضريبة
                           href: localizations/apac-ind-tax-thresholds.md
-                        - name: TCS على بيع السلع
-                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                        - name: TCS الهند
+                          items:
+                            - name: TCS على بيع السلع
+                              href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                            - name: تضمين ضريبة السلع والخدمات (GST) عند حساب تحصيلات الضرائب
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                        - name: TDS الهند
+                          items:
+                            - name: نظرة عامة على الضريبة الهندية المخصومة عند المصدر (TDS)
+                              href: localizations/apac-ind-TDS-India-TDS-overview.md
+                            - name: تضمين ضريبة السلع والخدمات (GST) عند حساب خصومات الضرائب
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                            - name: الإعداد الأساسي لـ TDS
+                              items:
+                                - name: إعداد معلمات TDS
+                                  href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                                - name: إعداد حسابات دفتر أستاذ TDS
+                                  href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                                - name: إعداد أرقام تسجيل TDS للكيانات القانونية
+                                  href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: إعداد هيئات ضريبة الخصم لنوع ضريبة TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: إعداد مكونات الضريبة لنوع ضريبة TDS
+                                  href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                                - name: إعداد رموز ضريبة الخصم لنوع ضريبة TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: إعداد فترات تسوية ضريبة الخصم لنوع ضريبة TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                                - name: إعداد رموز تقارير ضريبة الخصم لنوع ضريبة TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                                - name: إعداد رموز ضريبة الخصم لنوع ضريبة TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                                - name: إرفاق رموز ضريبة TDS بمجموعات ضرائب TDS وتحديد المعادلة لحساب TDS
+                                  href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                                - name: تسجيل أرقام شهادات امتياز TDS
+                                  href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                                - name: تعيين معلمات TDS في الحسابات الدائنة والحسابات المدينة
+                                  href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                                - name: إعداد جداول الدفع باستخدام توزيع TDS
+                                  href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                                - name: إعداد رسوم الدفع لمدفوعات هيئة TDS
+                                  href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                                - name: إعداد معلومات مجموعه TDS وPAN وTAN للموردين والعملاء
+                                  href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                                - name: مصمم المعادلة وعتبة الحد الأقصى لحساب TDS
+                                  items: null
+                                - name: مصمم المعادلة لعمليات حساب TDS
+                                  href: localizations/apac-ind-TDS-Formula-designer.md
+                                - name: عتبة الحد الأقصى وحد عتبة الاستثناء
+                                  href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                            - name: عملية حساب TDS في الفواتير
+                              items:
+                                - name: عملية حساب TDS في الفواتير
+                                  href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                                - name: حساب TDS في الفواتير باستخدام دفاتر اليومية
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                                - name: حساب فواتير TDS باستخدام نموذج أمر شراء ونموذج أمر مبيعات
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                                - name: حساب TDS في الفواتير من صفحة فاتورة النص الحر
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                                - name: وظيفة تقسيم الفاتورة
+                                  href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                            - name: حساب TDS في المدفوعات والسندات الإذنية
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                            - name: حساب TDS في الحركات بين الشركات الشقيقة
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                            - name: عملية تسوية TDS
+                              items:
+                                - name: حساب TDS في المدفوعات والسندات الإذنية
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                                - name: حساب TDS في الحركات بين الشركات الشقيقة
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                                - name: تشغيل عملية تسوية TDS الدورية
+                                  href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                                - name: تسوية مدفوعات TDS إلى موردي هيئة TDS وإنشاء TDS challan
+                                  href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                                - name: عرض مدفوعات TDS والحركات المرحلة لفترة تسوية TDS
+                                  href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
                 - name: الأصول الثابتة
                   items:
                     - name: نظرة عامة على الأصول الثابتة في الهند
@@ -2454,84 +2542,12 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: تحويل عناصر رأس المال إلى الأصل الثابت
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: الضريبة الهندية المخصومة عند المصدر (TDS) في الهند
-                  items:
-                    - name: نظرة عامة على الضريبة الهندية المخصومة عند المصدر (TDS)
-                      href: localizations/apac-ind-TDS-India-TDS-overview.md
-                    - name: الإعداد الأساسي لـ TDS
+                    - name: تسجيل تواريخ وأرقام شهادات TDS وتحديثها
                       items:
-                        - name: إعداد معلمات TDS
-                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                        - name: إعداد حسايات دفتر أستاذ TDS
-                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
-                        - name: إعداد أرقام تسجيل TDS للكيانات القانونية
-                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
-                        - name: إعداد هيئات ضريبة الخصم لنوع ضريبة TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: إعداد مكونات الضريبة لنوع ضريبة TDS
-                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
-                        - name: إعداد رموز ضريبة الخصم لنوع ضريبة TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: إعداد فترات تسوية ضريبة الخصم لنوع ضريبة TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
-                        - name: إعداد رموز تقارير ضريبة الخصم لنوع ضريبة TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
-                        - name: إعداد رموز ضريبة الخصم لنوع ضريبة TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
-                        - name: إرفاق رموز ضريبة TDS بمجموعات ضرائب TDS وتحديد المعادلة لحساب TDS
-                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
-                        - name: تسجيل أرقام شهادات امتياز TDS
-                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
-                        - name: تعيين معلمات TDS في الحسابات الدائنة والحسابات المدينة
-                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
-                        - name: إعداد جداول الدفع باستخدام توزيع TDS
-                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
-                        - name: إعداد رسوم الدفع لمدفوعات هيئة TDS
-                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
-                        - name: إعداد معلومات مجموعه TDS وPAN وTAN للموردين والعملاء
-                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
-                    - name: مصمم المعادلة وعتبة الحد الأقصى لحساب TDS
-                      items:
-                        - name: مصمم المعادلة لعمليات حساب TDS
-                          href: localizations/apac-ind-TDS-Formula-designer.md
-                        - name: عتبة الحد الأقصى وحد عتبة الاستثناء
-                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
-                    - name: عملية حساب TDS في الفواتير
-                      items:
-                        - name: عملية حساب TDS في الفواتير
-                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
-                        - name: حساب TDS في الفواتير باستخدام دفاتر اليومية
-                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
-                        - name: حساب فواتير TDS باستخدام نموذج أمر شراء ونموذج أمر مبيعات
-                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
-                        - name: حساب TDS في الفواتير من صفحة فاتورة النص الحر
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
-                        - name: وظيفة تقسيم الفاتورة
-                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
-                    - name: حساب TDS في المدفوعات والسندات الإذنية
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                    - name: حساب TDS في الحركات بين الشركات الشقيقة
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                    - name: عملية تسوية TDS
-                      items:
-                        - name: حساب TDS في المدفوعات والسندات الإذنية
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                        - name: حساب TDS في الحركات بين الشركات الشقيقة
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                        - name: عملية تسوية TDS
-                          items:
-                            - name: إجراء عملية تسوية TDS الدورية
-                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
-                            - name: تسوية مدفوعات TDS إلى موردي هيئة TDS وإنشاء TDS challan
-                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                            - name: عرض مدفوعات TDS والحركات المرحلة لفترة تسوية TDS
-                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
-                        - name: تسجيل تواريخ وأرقام شهادات TDS وتحديثها
-                          items:
-                            - name: تسجيل أرقام شهادات TDS القابلة للاسترداد
-                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                            - name: تحديث أرقام وتواريخ الشهادات لحركات TDS
-                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+                        - name: تسجيل أرقام شهادات TDS القابلة للاسترداد
+                          href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                        - name: تحديث أرقام وتواريخ الشهادات لحركات TDS
+                          href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: إيطاليا
               items:
                 - name: نظرة عامة على إيطاليا
@@ -3929,7 +3945,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
                 - name: تصميم تكوينات لإنشاء تقارير بتنسيق Word
                   items:
-                    - name: تصميم تكوين ER جديد لإنشاء التقارير بتنسيق Word
+                    - name: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: إعادة استخدام تكوينات التقارير الإلكترونية (ER) باستخدام قوالب Excel لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -4159,19 +4175,23 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
-                - name: التشغيل التلقائي لعمليات الأعمال باستخدام تكوينات التقارير الإلكترونية
+                - name: التشغيل التلقائي لدورات العمل باستخدام تكوينات التقارير الإلكترونية (ER)
                   items:
-                    - name: تكوين إعداد التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI
+                    - name: تكوين التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                - name: تصميم حلول التقارير الإلكترونية (ER) الفعالة
+                  items:
+                    - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية (ER) لاستكشاف مشكلات الأداء وإصلاحها
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                    - name: استكشاف أخطاء الأداء وإصلاحها في تكوينات التقارير الإلكترونية (ER)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: إدارة مستندات الأعمال (BDM)
                   items:
                     - name: نظرة عامة على BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: واجهه مستخدم مستند جديد في BDM
+                    - name: واجهه مستخدم مستندات جديدة في BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
                     - name: تحرير قوالب مستندات الأعمال في (BDM)
                       items:
