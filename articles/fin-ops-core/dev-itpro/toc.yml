@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: تحديثات النظام الأساسي لـ 10.0.18 (مايو 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.17 (أبريل 2021)
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -278,11 +276,13 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: جعل مخزن الكيانات‬ متوفرًا كـ Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: تغيير البيانات في Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: عمليات حركة قاعدة البيانات‬
           items:
             - name: نظرة عامة
               href: database/dbmovement-operations.md
-            - name: مجموعه أدوات تحريك قاعده البيانات
+            - name: مجموعه أدوات حركة قاعده البيانات
               href: database/database-movement-toolkit.md
             - name: دلائل البدء السريع
               items:
