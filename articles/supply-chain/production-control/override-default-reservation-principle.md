@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814792"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270777"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>راجع تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج.
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 وتتيح لك ميزه *الحجز الافتراضي لعمليه تجاوز الإنتاج* تعيين قاعده حجز افتراضيه لكل مجموعه نماذج صنف. التالي، يمكن تطبيق قواعد حجز مختلفه تلقائيا لكل صنف من الأصناف التي تعد جزءا من قائمة مكونات الصنف أو معادله الأمر الدفعي. يمكنك تحديد ما إذا كان يجب ان يتجاوز كل مجموعه نماذج صنف مبدا الحجز الافتراضي الذي يتم تعيينه لأمر ما، ويجب استخدام قاعده الحجز بدلا من ذلك ( *يدوي* أو *تقدير* أو *جدوله* أو *إصدار* أو *بدء*).
 
@@ -37,7 +36,7 @@ ms.locfileid: "5814792"
 قبل أن تتمكن من استخدام الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة النمطية:** *التحكم بالإنتاج*
-- **اسم الميزة:** *(إصدار أولي) تجاوز حجز الإنتاج الافتراضي*
+- **اسم الميزة:** *تجاوز حجز الإنتاج الافتراضي*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>تعيين سياسة حجز إنتاج لمجموعه نموذج صنف
 
