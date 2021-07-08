@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103583"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301664"
 ---
 # <a name="get-started-with-planning-optimization"></a>بدء تحسين التخطيط
 
@@ -58,7 +58,7 @@ ms.locfileid: "6103583"
 
 - يجب تشغيل Supply Chain Management على بيئة ذات توفر عالي الطبقة 2 أو أعلى بتمكين LCS (ليست بيئة OneBox)، مع الإصدار Dynamics 365 Supply Chain Management 10.0.7 أو أحدث. إذا حاولت تثبيت الوظيفة الإضافية  في بيئة OneBox، لن يكتمل التثبيت وستحتاج إلى إلغاء التثبيت.
 
-- يجب إعداد النظام Power Platform للتكامل. لمزيد من المعلومات، راجع تكامل [Microsoft Power Platform مع التطبيقات Finance and Operations ](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- يجب إعداد النظام لتكامل Power Platform. لمزيد من المعلومات، راجع تكامل [Microsoft Power Platform مع التطبيقات Finance and Operations ](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>تمكين ترخيص تحسين التخطيط
 
@@ -109,6 +109,8 @@ ms.locfileid: "6103583"
 
 - **نعم** – يُستخدم تحسين التخطيط للتخطيط الرئيسي.
 - **لا** – يُستخدم محرك تخطيط Supply Chain Management المضمن للتخطيط الرئيسي.
+
+يتم تطبيق هذا الإعداد على كافة الكيانات القانونية (الشركات). لا يمكن استخدام تحسين التخطيط في بعض الكيانات القانونية والتخطيط الرئيسي المضمن في الكيانات القانونية الأخرى.
 
 > [!NOTE]
 > إذا تم تشغيل وظائف دفعة التخطيط الموجودة التي تم إنشاؤها لمحرك تخطيط Supply Chain Management المضمن أثناء تعيين خيار **استخدام تحسين التخطيط** إلى **نعم**، فسوف تفشل هذه الوظائف.

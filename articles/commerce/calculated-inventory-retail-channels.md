@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fdf6df7e393bcc401e770bd1b8afcaedcadc2660
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937424"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270875"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>حساب توفر المخزون لقنوات البيع بالتجزئة
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يصف هذا الموضوع كيفية استخدام شركة Microsoft Dynamics 365 Commerce لعرض توافر المنتجات الحالي المقدر في قنوات عبر الإنترنت وقنوات المتجر.
 

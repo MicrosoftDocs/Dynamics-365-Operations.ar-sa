@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908870"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301640"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>استيراد البيانات التاريخية‬ للتنبؤات بالطلب
 
@@ -39,26 +39,6 @@ ms.locfileid: "5908870"
 
 لمزيد من المعلومات حول كيفيه استيراد البيانات، بما في ذلك كيفيه تنظيف البيانات بعد الاستيراد، راجع [نظره عامه حول استيراد البيانات](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)وتصديرها وموضوعاتها ذات صله.
 
-## <a name="example"></a>مثال
-
-يمكن استخدام الملف التالي كمثال. قم بتنزيل [HistoricalDemandData](/dynamics/s-e/). يحتوي هذا الملف على بيانات الطلب التاريخية للصنف D0001. إنه يحتوي على الحقول الإلزامية التالية فقط: الموقع والكمية وتاريخ الطلب.
-
-1. حدد الشركة لاستيراد بيانات الطلب التاريخية إليها.
-2. افتح مساحة العمل **إدارة البيانات**.
-3. تحديد تجانب **الاستيراد**.
-4. أدخل اسمًا لمشروع الاستيراد، مثل **استيراد الطلب التاريخي للصنف D0001**.
-5. في الحقل **تنسيق بيانات المصدر** ، حدد تنسيق الملف للملف الذي تريد استيراده. لاستيراد الملف HistoricalDemandData لهذا المثال، حدد **CSV**.
-6. في الحقل **اسم الكيان**، حدد **الطلب الخارجي التاريخي‬**.
-7. احفظ الملف في الكمبيوتر، ثم قم بتحميله.
-8. حدد **استيراد**.
-9. تفتح صفحة **ملخص التنفيذ** بشكل تلقائي. تحقق من صحة البيانات التي تم استيرادها في الصفحة.
-
-بعد استيراد بيانات الطلب التاريخية، يمكنك إنشاء تنبؤ بالطلب.
-
-## <a name="additional-resources"></a>الموارد الإضافية
-
-[إنشاء تنبؤ أساسي إحصائي](generate-statistical-baseline-forecast.md)  
-[نظرة عامة حول مهام استيراد البيانات وتصديرها](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+انظر أيضًا [إنشاء تنبؤ أساسي إحصائي](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

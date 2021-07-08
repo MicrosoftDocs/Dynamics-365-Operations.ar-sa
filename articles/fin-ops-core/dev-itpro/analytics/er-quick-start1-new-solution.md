@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224024"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304383"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>تصميم حل جديد لإعداد التقارير الإلكترونية لطباعة تقرير مخصص
 
@@ -185,7 +185,7 @@ ms.locfileid: "6224024"
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>استيراد تكوين نموذج بيانات جديد
 
-1. قم بتنزيل الملف [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) واحفظه في جهاز الكمبيوتر المحلي.
+1. قم بتنزيل الملف [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) واحفظه في جهاز الكمبيوتر المحلي.
 2. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 3. في مساحة عمل **إعداد التقارير الإلكترونية**، حدد **تكوينات إعداد التقارير**.
 4. في جزء الإجراءات، حدد **التبادل** \> **تحميل من ملف XML**.
@@ -300,7 +300,7 @@ ms.locfileid: "6224024"
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>استيراد تكوين تعيين نموذج جديد
 
-1. قم بتنزيل الملف [Questionnaires mapping.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) واحفظه في جهاز الكمبيوتر المحلي.
+1. قم بتنزيل الملف [Questionnaires mapping.version.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) واحفظه في جهاز الكمبيوتر المحلي.
 2. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 3. في مساحة عمل **إعداد التقارير الإلكترونية**، حدد **تكوينات إعداد التقارير**.
 4. في جزء الإجراءات، حدد **التبادل** \> **تحميل من ملف XML**.
@@ -366,7 +366,7 @@ ms.locfileid: "6224024"
     2. حدد **إضافة**.
     3. في مربع الحوار، في الحقل **الاسم‏‎**، أدخل **\$ResultGroup**.
     4. حدد **تحرير المعادلة**.
-    5. في [محرر معادلات إعداد التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)، في حقل **المعادلة**، أدخل **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** لاستخدام [المسار](er-formula-language.md#paths) لعلاقة واحد إلى واحد بين الجدولين KMCollection وKMQuestionResultGroup.
+    5. في [محرر معادلات إعداد التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)، في حقل **المعادلة**، أدخل **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** لاستخدام [المسار](er-formula-language.md#Paths) لعلاقة واحد إلى واحد بين الجدولين KMCollection وKMQuestionResultGroup.
     6. حدد **حفظ** ثم قم بإغلاق محرر المعادلات.
     7. حدد **موافق** لإضافة الحقل المحسوب الجديد.
 
@@ -547,7 +547,7 @@ ms.locfileid: "6224024"
 
 يستخدم إطار عمل إعداد التقارير الإلكترونية قوالب معرّفة مسبقًا لإنشاء تقارير بتنسيقات Microsoft Office (مصنفات Excel أو مستندات Word). بينما يتم إنشاء التقرير المطلوب، يتم ملء القالب بالبيانات المطلوبة وفقًا لتدفق البيانات الذي تم تكوينه. وبالتالي، يجب أولاً تصميم قالب للتقرير المخصص. يجب تصميم هذا القالب كمصنف Excel، ويمثل البنية التي تمثل تخطيط تقرير مخصص. يجب عليك تسمية كل عنصر من عناصر Excel التي تخطط لتعبئتها بالبيانات المطلوبة.
 
-1. قم بتنزيل الملف [Questionnaires report template.xsl](https://go.microsoft.com/fwlink/?linkid=851448) واحفظه في جهاز الكمبيوتر المحلي.
+1. قم بتنزيل الملف [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx)، واحفظه في جهاز الكمبيوتر المحلي.
 2. افتح الملف في Excel، وراجع بنية المصنف.
 
 كما يوضح الرسم التوضيحي التالي، تم تصميم القالب الذي تم تنزيله لطباعة الاستبيانات المحددة التي تقدم أسئلة الاستبيان مع الإجابات المناسبة.
@@ -572,7 +572,7 @@ ms.locfileid: "6224024"
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>استيراد تكوين تنسيق مصمّم
 
-1. قم بتنزيل الملف [Questionnaires format.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) واحفظه في جهاز الكمبيوتر المحلي.
+1. قم بتنزيل الملف [Questionnaires format.version.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) واحفظه في جهاز الكمبيوتر المحلي.
 2. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 3. في مساحة عمل **إعداد التقارير الإلكترونية**، حدد **تكوينات إعداد التقارير**.
 4. في جزء الإجراءات، حدد **التبادل** \> **تحميل من ملف XML**.

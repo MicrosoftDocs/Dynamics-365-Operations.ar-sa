@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052063"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271464"
 ---
 # <a name="buy-and-sell-leave"></a>شراء الإجازة وبيعها
 
@@ -47,6 +47,12 @@ ms.locfileid: "6052063"
 3. حدد **إرسال** عندما تكون مستعدا لتقديم طلبك.
 
 سيتم إما تحديث رصيدك تلقائيًا أو المرور بعملية اعتماد قبل التحديث. ويعتمد ذلك علي كيفية تكوين سياسة الشراء.
+
+
+## <a name="troubleshooting"></a>استكشاف الأخطاء وإصلاحها 
+
+في حالة فشل سير عمل طلب شراء أو بيع، يمكن للمستخدمين الذين لديهم الامتياز **EssLeaveBuySellRequestApprover** مراجعة سجل الرسائل لكافة طلبات الشراء والبيع. للقيام بذلك، انتقل إلى **الإجازة والغياب > الارتباط > طلبات شراء وبيع الإجازة > سجل الرسائل** (في الجانب العلوي الأيسر). يعرض **سجل الرسائل** للمستخدمين كيفية معالجة الحركات ومحفوظات سير العمل المرتبطة.
+
 
 ## <a name="see-also"></a>راجع أيضًا
 

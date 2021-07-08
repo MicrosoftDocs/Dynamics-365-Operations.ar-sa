@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115013"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271145"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>تكوين واجهة تنفيذ صالة الإنتاج‬
 
@@ -64,8 +64,6 @@ ms.locfileid: "6115013"
 - ميزة قفل جهاز بطاقة العمل ومحطة بطاقة العمل بحيث يمكن تنظيفهما.
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>وظيفة إدارة الأصول لواجهة التنفيذ في طابق الإنتاج
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 تضيف هذه الميزة علامة تبويب أداره الأصول إلى واجهه تنفيذ صالة الإنتاج. يمكن للعاملين استخدام علامة التبويب هذه لتحديد أصل متصل بمورد جهاز يقع ضمن عامل التصفية المحدد لقائمه الوظائف. بالنسبة لأصل الجهاز المحدد، يمكن للعامل عرض حاله الأصل وسلامته من قيم العدادات حتى أربعه عدادات محدده. إذا كنت ترغب في استخدام هذه الميزة، قم بتشغيل الميزة التالي في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a2db97cfd5aa6210002bf3e6abb1d7a178623c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057348"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303234"
 ---
 # <a name="manage-leave-and-absence-requests"></a>إدارة طلبات الإجازة والغياب
 
@@ -34,11 +34,9 @@ ms.locfileid: "6057348"
 
 3. قم بعرض طلبات زمن التوقف لأعضاء الفريق ووافق عليها عند الضرورة.
 
-## <a name="preview-leave-request-workflow-experience-enhancements"></a>(معاينة) تحسينات تجربة سير عمل طلب الإجازة
+## <a name="leave-request-workflow-experience-enhancements"></a>تحسينات تجربة سير عمل طلب الإجازة
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-توفر ميزة المعاينة هذه التحسينات التالية:
+توفر هذه الميزة التحسينات التالية:
 
 - يمكنك تحديد طلبات إجازة متعددة وتنفيذ نفس الإجراء على كل منهم.
 - يعرض الشريط الموجود في الجزء العلوي وزر سير العمل الجديد في الصفحة الإجراءات التي يمكنك اتخاذها بشأن طلبات الإجازة.

@@ -100,8 +100,6 @@
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (مايو 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
-                    - name: Commerce 10.0.17 (أبريل 2021)
-                      href: get-started/whats-new-commerce-10-0-17.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -240,11 +238,11 @@
               items:
                 - name: نظرة عامة على هندسة Dynamics 365 Commerce
                   href: commerce-architecture.md
-                - name: عمليات سير مصادقة Dynamics 365 Commerce
+                - name: عمليات سير عمل مصادقة Dynamics 365 Commerce
                   href: arch-auth-flow.md
                 - name: متطلبات تعيين إصدار مكونات Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: بنية محرك التجارة بدون أجهزة ملحقة
+                - name: بنية التجارة بدون أجهزة ملحقة
                   href: dev-itpro/retail-server-architecture.md
                 - name: تحديد مخطط‬ في المتجر
                   href: dev-itpro/retail-in-store-topology.md
@@ -1234,7 +1232,7 @@
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory configuration service - ميزات العولمة
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: إنشاء تكوينات ER في Regulatory configuration service وتحميلها إلى المستودع العمومي
+                - name: إنشاء تكوينات التقارير الإلكترونية (ER) في Regulatory Configuration Service وتحميلها إلى المستودع العمومي
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory Configuration Service - إهلاك تخزين Lifecycle Services
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
@@ -1248,6 +1246,16 @@
                   href: localizations/latam-bra-commerce-localization.md
                 - name: إعداد ونشر ترجمة Commerce للبرازيل
                   href: localizations/latam-bra-deployment.md
+                - name: وظيفة المستند المالي NFC-e في نقطة بيع Commerce للبرازيل
+                  href: localizations/latam-bra-nfce.md
+                - name: إدارة معلومات العميل في نقطة البيع للبرازيل
+                  href: localizations/latam-bra-customer-information.md
+                - name: إلغاء مستندات NFC وإرجاعها في نقطة بيع Commerce للبرازيل‬
+                  href: localizations/latam-bra-nfce-cancel-return.md
+                - name: تسجيل مؤجل لمستندات NFC-e التي تم إصدارها في وضع الطوارئ دون اتصال
+                  href: localizations/latam-bra-nfce-contingency-mode.md
+                - name: ترحيل المستندات المالية البرازيلية عبر كشوف البيع بالتجزئة في المركز الرئيسي لـ Commerce‬
+                  href: localizations/latam-bra-retail-statements.md
             - name: أوروبا الشرقية
               items:
                 - name: عام
@@ -1458,6 +1466,12 @@
               items:
                 - name: لغة المعادلة
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: أنواع البيانات المعتمدة لصيغ التقارير الإلكترونية (ER)
+                  items:
+                    - name: أنوع البيانات الأساسية
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
+                    - name: أنوع البيانات المركبة
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: الوظائف
                   items:
                     - name: الحاوية
@@ -1738,7 +1752,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
                 - name: تصميم تكوينات لإنشاء تقارير بتنسيق Word
                   items:
-                    - name: تصميم تكوين ER جديد لإنشاء التقارير بتنسيق Word
+                    - name: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/commerce/toc.json
                     - name: إعادة استخدام تكوينات التقارير الإلكترونية (ER) باستخدام قوالب Excel لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
@@ -1820,7 +1834,7 @@
                       items:
                         - name: استيراد التكوينات من GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: استيراد إصدارات محدَّثة من تكوينات ER
+                        - name: استيراد إصدارات محدَّثة من تكوينات التقارير الإلكترونية (ER)
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
                         - name: تصفية محسنة للعثور على التكوينات في GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
@@ -1894,7 +1908,7 @@
                   items:
                     - name: تكوين تعيينات نماذج ER المعتمدة على سياق البلد
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                    - name: إدارة تعيين نماذج ER في تكوينات ER منفصلة
+                    - name: إدارة تعيين نماذج التقارير الإلكترونية في تكوينات تقارير إلكترونية (ER) منفصلة
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
                     - name: إدارة تعيينات مشتقة متعددة لجذر نموذج واحد
                       href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/commerce/toc.json
@@ -1972,17 +1986,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: تصميم حلول التقارير الإلكترونية الفعالة
+                - name: تصميم حلول التقارير الإلكترونية (ER) الفعالة
                   items:
-                    - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
+                    - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية (ER) لاستكشاف مشكلات الأداء وإصلاحها
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
-                    - name: استكشاف أخطاء الأداء وإصلاحها في تكوينات التقارير الإلكترونية
+                    - name: استكشاف أخطاء الأداء وإصلاحها في تكوينات التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: إدارة مستندات الأعمال (BDM)
                   items:
                     - name: نظرة عامة على BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
-                    - name: واجهه مستخدم مستند جديد في BDM
+                    - name: واجهه مستخدم مستندات جديدة في BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/commerce/toc.json
                     - name: تحرير قوالب مستندات الأعمال في (BDM)
                       items:
@@ -2002,13 +2016,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
                     - name: تحديث التطبيق 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
+                    - name: تحديث التطبيق 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                 - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
                   items:
                     - name: الاشتراك في حدث لطلب استجابة من معالج الاشتراك
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
-                    - name: تفويض إنشاء وجهه التقارير الإلكترونية إلى مصنع وجهه مخصص
+                    - name: تفويض إنشاء وجهه التقارير الإلكترونية (ER) إلى مصنع وجهه مخصص
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                - name: بدء قيم مصدر البيانات لنوع معلمه إدخال المستخدم من كود المصدر
+                - name: تطبيق وجهة مخصصة للمستندات المُنشأة
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                - name: بدء قيم مصدر البيانات لنوع USER INPUT PARAMETER من كود المصدر
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
         - name: تطبيقات Finance and Operations (Dynamics 365) للأجهزة المحمولة
           items:

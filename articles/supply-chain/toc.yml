@@ -78,8 +78,6 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (مايو 2021)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Management 10.0.17 (أبريل 2021)
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -220,7 +218,7 @@
                       href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Regulatory configuration service - ميزات العولمة
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: إنشاء تكوينات ER في Regulatory configuration service وتحميلها إلى المستودع العمومي
+                    - name: إنشاء تكوينات التقارير الإلكترونية (ER) في Regulatory Configuration Service وتحميلها إلى المستودع العمومي
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Regulatory Configuration Service - إهلاك تخزين Lifecycle Services
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
@@ -601,8 +599,22 @@
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: استخدام حزمة المحتوى لإعداد تقارير Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: استخدام مساحة عمل التحكم في التكلفة لتطبيق Finance and Operations للأجهزة المحمولة
+            - name: استخدام مساحة عمل مراقبة التكاليف لتطبيق Finance and Operations للأجهزة المحمولة
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: محاسبة المخزون العمومي
+          items:
+            - name: الصفحة الرئيسية لمحاسبة المخزون العمومي
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: الشروع في العمل مع محاسبة المخزون العمومي
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: مستندات الأعمال التي تدعمها محاسبة المخزون العمومي
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: تمكين Power BI لمحاسبة المخزون العمومي
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: الاصطلاحات
+              href: global-inventory-accounting/conventions.md
+            - name: دفتر أستاذ محاسبة المخزون العمومي
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: إدارة التكلفة
           items:
             - name: الصفحة الرئيسية لإدارة التكلفة
@@ -873,6 +885,12 @@
               items:
                 - name: لغة المعادلة
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: أنواع البيانات المعتمدة لصيغ التقارير الإلكترونية (ER)
+                  items:
+                    - name: أنوع البيانات الأساسية
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: أنوع البيانات المركبة
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: الوظائف
                   items:
                     - name: الحاوية
@@ -1153,7 +1171,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تصميم تكوينات لإنشاء تقارير بتنسيق Word
                   items:
-                    - name: تصميم تكوين ER جديد لإنشاء التقارير بتنسيق Word
+                    - name: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إعادة استخدام تكوينات التقارير الإلكترونية (ER) باستخدام قوالب Excel لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1235,7 +1253,7 @@
                       items:
                         - name: استيراد التكوينات من GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: استيراد إصدارات محدَّثة من تكوينات ER
+                        - name: استيراد إصدارات محدَّثة من تكوينات التقارير الإلكترونية (ER)
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                         - name: تصفية محسنة للعثور على التكوينات في GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
@@ -1309,7 +1327,7 @@
                   items:
                     - name: تكوين تعيينات نماذج ER المعتمدة على سياق البلد
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: إدارة تعيين نماذج ER في تكوينات ER منفصلة
+                    - name: إدارة تعيين نماذج التقارير الإلكترونية في تكوينات تقارير إلكترونية (ER) منفصلة
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إدارة تعيينات مشتقة متعددة لجذر نموذج واحد
                       href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/supply-chain/toc.json
@@ -1387,17 +1405,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إنشاء نماذج فاتورة ذات نص حر (FTI) قابلة للطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تصميم حلول التقارير الإلكترونية الفعالة
+                - name: تصميم حلول التقارير الإلكترونية (ER) الفعالة
                   items:
-                    - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
+                    - name: تتبع تنفيذ تنسيقات التقارير الإلكترونية (ER) لاستكشاف مشكلات الأداء وإصلاحها
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: استكشاف أخطاء الأداء وإصلاحها في تكوينات التقارير الإلكترونية
+                    - name: استكشاف أخطاء الأداء وإصلاحها في تكوينات التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إدارة مستندات الأعمال (BDM)
                   items:
                     - name: نظرة عامة على BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: واجهه مستخدم مستند جديد في BDM
+                    - name: واجهه مستخدم مستندات جديدة في BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تحرير قوالب مستندات الأعمال في (BDM)
                       items:
@@ -1417,13 +1435,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تحديث التطبيق 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تحديث التطبيق 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
                   items:
                     - name: الاشتراك في حدث لطلب استجابة من معالج الاشتراك
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تفويض إنشاء وجهه التقارير الإلكترونية إلى مصنع وجهه مخصص
+                    - name: تفويض إنشاء وجهه التقارير الإلكترونية (ER) إلى مصنع وجهه مخصص
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: بدء قيم مصدر البيانات لنوع معلمه إدخال المستخدم من كود المصدر
+                - name: تطبيق وجهة مخصصة للمستندات المُنشأة
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
+                - name: بدء قيم مصدر البيانات لنوع USER INPUT PARAMETER من كود المصدر
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: إدارة المخزون
           items:
@@ -1593,6 +1615,8 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: حدود الأمان
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: التسامح مع التأخير (الأيام السالبة)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: طلبات الشراء
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: تخطيط الإنتاج
@@ -1601,13 +1625,15 @@
                   href: master-planning/planning-optimization/marking.md
                 - name: التخطيط بين الشركات الشقيقة
                   href: master-planning/planning-optimization/Intercompany-planning.md
-                - name: استبعاد المنتجات التي لها حالات دورة حياة منتج معينة
+                - name: استبعاد منتجات ذات حالات دورة حياة منتج معينة
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: أساليب التزويد وتعديل الكمية
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: حدود وقت التغطية
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: الموافقة على الأوامر المخططة
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: تأكيد أوامر مخططة
+                - name: تأكيد الأوامر المخططة
                   href: master-planning/planning-optimization/planned-order-firming.md
                 - name: التخطيط بالكميات الحالية السالبة
                   href: master-planning/planning-optimization/negative-on-hand.md
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: تسجيل أصناف لصنف ممكَّن للتخزين الأساسي باستخدام دفتر يومية وصول الصنف
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: استيراد إشعارات ASN الواردة عبر كيان البيانات V2
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: توزيع المنتجات من المستودع المستلم حتى المتاجر
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: إعداد توجيه موقع لتخزين أمر الشراء
@@ -3215,6 +3243,8 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: سيناريوهات مثال عن جرد دوري
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات
                       href: warehousing/onhand-cleanup.md
                     - name: دفاتر يومية المخزون
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: استكشاف أخطاء عمل المستودع وإصلاحها
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: تطبيق المستودع
+              items:
+                - name: تثبيت الأجهزة المحمولة وإعدادها واستخدامها
+                  items:
+                    - name: الجديد أو المتغير في تطبيق Warehouse Management للأجهزة المحمولة
+                      href: warehousing/whats-new-wma.md
+                    - name: تثبيت تطبيق Warehouse Management للأجهزة المحمولة وتوصيله
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: تثبيت تطبيق المستودع وتوصيله
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق Warehouse Management للأجهزة المحمولة
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: استكشاف مشاكل الاتصال وإصلاحها في تطبيق Warehouse Management للأجهزة المحمولة
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: إعداد الحقول والقوائم للأجهزة المحمولة
+                  items:
+                    - name: تكوين الحقول لتطبيق Warehouse Management للأجهزة المحمولة
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: إعداد الأجهزة المحمولة لعمل المستودع
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: استلام لوحة الترخيص‬ عبر تطبيق Warehouse Management للأجهزة المحمولة
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: إعداد صنف قائمة الأجهزة المحمولة لتسجيل الأصناف المستلمة
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: إعداد عنصر قائمة جهاز محمول لتوفير نظرة عامة على بند الانتقاء
+                      href: warehousing/pick-line-overview.md
+                    - name: إنشاء عنصر في قائمة الجهاز المحمول لدمج لوحة الترخيص
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: استلام لوحة الترخيص‬ المختلطة على جهاز محمول
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: تكوين عرض الدُفعات القديمة داخل المستودع على جهاز محمول
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: انتقاء الدُفعة الأقدم على جهاز محمول
+                      href: warehousing/pick-oldest-batch.md
+                - name: إعدادات مستخدم الجهاز المحمول
+                  href: warehousing/mobile-device-user-settings.md
+                - name: معالجة حدث تطبيق المستودع
+                  href: warehousing/warehouse-app-events.md
+                - name: تخصيص تطبيق المستودع
+                  items:
+                    - name: إطار عمل دليل العملية
+                      href: warehousing/process-guide-framework.md
+                    - name: تعيين أيقونات الخطوات والعناوين
+                      href: warehousing/step-icons-titles.md
             - name: إعداد المستودع
               items:
                 - name: تكوين المستودع
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: طباعة تسمية الموجة
                           href: warehousing/configure-wave-label-printing.md
+                        - name: جدولة طباعة تسمية الموجة‬ أثناء الموجة‬
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: التعبئة في حاويات
                           href: warehousing/wave-containerization.md
+                        - name: استراتيجيات التعبئة في الحاويات
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: التحديث التلقائي للشحنات
                       href: warehousing/auto-update-shipment.md
                     - name: إنشاء ملف تعريف الموقع
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: استكشاف أخطاء تكوين المستودع وإصلاحها
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: تثبيت تطبيق إدارة المستودع للأجهزة المحمولة وتكوينه
-                  items:
-                    - name: تثبيت تطبيق إدارة المستودع للأجهزة المحمولة والاتصال به
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: إعدادات مستخدم الجهاز المحمول
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: تثبيت تطبيق المستودع وتوصيله
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق إدارة المستودع للأجهزة المحمولة
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: تكوين الحقول لتطبيق Warehouse Management للأجهزة المحمولة
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: إعداد الأجهزة المحمولة لعمل المستودع
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: تعيين رموز الخطوات والعناوين
-                      href: warehousing/step-icons-titles.md
-                    - name: معالجة حدث تطبيق المستودع
-                      href: warehousing/warehouse-app-events.md
-                    - name: استلام لوحة الترخيص‬ عبر تطبيق Warehouse Management للأجهزة المحمولة
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: إعداد صنف قائمة الأجهزة المحمولة لتسجيل الأصناف المستلمة
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: إعداد عنصر قائمة جهاز محمول لتوفير نظرة عامة على بند الانتقاء
-                      href: warehousing/pick-line-overview.md
-                    - name: إنشاء عنصر في قائمة الجهاز المحمول لدمج لوحة الترخيص
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: استلام لوحة الترخيص‬ المختلطة على جهاز محمول
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: تكوين عرض الدُفعات القديمة داخل المستودع على جهاز محمول
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: انتقاء الدُفعة الأقدم على جهاز محمول
-                      href: warehousing/pick-oldest-batch.md
-                    - name: إطار عمل دليل العملية
-                      href: warehousing/process-guide-framework.md
-                    - name: استكشاف المشاكل وإصلاحها في تطبيق إدارة المستودع للأجهزة المحمولة
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: الترقية والترحيل
                   items:
                     - name: ترقية عمليات إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: التخطيط الرئيسي
               items:
+                - name: تتلقى رسالة خطأ عند تشغيل محرك التخطيط الرئيسي المضمن
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: يتعذر وجود BOM أو معادلة لدى الصنف
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: معلمات الخطة الرئيسية غير موجودة
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: يجب جدولة أمر الإنتاج المخطط قبل تأكيده
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: المنتج قيد الانتظار للحركات
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: رقم المعادلة‬‬ المحدد غير معتمَد لأمر دُفعي.
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: كود المورّد غير معتمد لمنتج وتاريخ محددين
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: لم يتم تحديد المورّد عند تأكيد الأوامر المخططة
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: تتم معالجة الطلبات المؤكدة المشتقة مباشرةً من خلال سير عمل قيد المراجعة
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: لا يمكنك تصفية عناصر التخطيط الرئيسي حسب قيم مجموعة التغطية المرتبطة بها
@@ -3443,7 +3501,7 @@
               items:
                 - name: لا يمكن خفض الكمية عند إلغاء أمر المبيعات
                   href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: لا يمكن لمسؤولي النظام مسح الأوامر المعلقة لأنه غير مصرح لهم بذلك
+                - name: يتعذر على مسؤولي النظام مسح الأوامر المعلقة لأنهم غير مخوّلين للقيام بذلك
                   href: troubleshooting/sales/system-administrator.md
             - name: إدارة النقل
               items:
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: إدارة المستودعات
               items:
+                - name: إيصالات استلام المنتجات الملغاة لا تحدّث حالة الحركات إلى "مسجّلة"
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: التقريب العشري لكمية التحديث الفعلية غير صحيح
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: يجب أن تكون الكمية الفعلية المتبقية في الوحدة ذات قيمة أخرى غير الصفر
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: الكمية المنتقاة غير كافيه أثناء إنشاء إيصال التعبئة
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: الكمية تتجاوز النسبة المئوية للتسليم بالزيادة أثناء إنشاء إيصال التعبئة
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: الكمية التي تحاول تحديثها تتجاوز الكمية المستلمة/التي تم تسليمها
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: الكمية تتجاوز النسبة المئوية للتسليم بالنقص‬ أثناء إنشاء إيصال التعبئة
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: يحدث خطأ عند اختيار الموقع أثناء تسجيل قائمة الانتقاء
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: لا تُظهر محطة التعبئة ملاحظات المنتج

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941186"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306379"
 ---
 # <a name="unified-product-experience"></a>تجربه المنتج الموحدة
 
@@ -124,7 +124,7 @@ ms.locfileid: "5941186"
 
 عندما يتضمن المنتج أبعاد منتج مختلفة (على سبيل المثال، يتضمن أصل المنتج الحجم واللون كأبعاد المنتج)، يتم تعريف كل منتج مميز (أي كل متغير منتج) كمجموعة من أبعاد المنتج هذه. على سبيل المثال، رقم المنتج B0001 هو قميص أسود صغير جدًا، ورقم المنتج B0002 هو قميص أسود صغير. وفي هذه الحالة، يتم تعرف مجموعات أبعاد المنتجات الموجودة. على سبيل المثال، بإمكان القميص المذكور في المثال السابق أن يكون أسود اللون وبحجم صغير جدًا أو أسود اللون وبحجم صغير أو أسود اللون وبحجم متوسط أو أسود اللون وبحجم كبير، ولكن لا يمكنه أن يكون أسود اللون وبحجم كبيرا جدًا. بمعنى آخر، يتم تحديد أبعاد المنتج التي يمكن ان يتخذها أصل المنتج، ويمكن إصدار المتغيرات استنادًا إلى هذه القيم.
 
-لتعقب أبعاد المنتج التي يمكن ان يتخذها أصل المنتج، يتم إنشاء الجداول التالية وتعيينها في Dataverse لكل بعد منتج. لمزيد من المعلومات، راجع [نظرة عامة على معلومات المنتج](../../../supply-chain/pim/product-information.md).
+لتعقب أبعاد المنتج التي يمكن ان يتخذها أصل المنتج، يتم إنشاء الجداول التالية وتعيينها في Dataverse لكل بعد منتج. لمزيد من المعلومات، راجع [نظرة عامة على معلومات المنتجات‬](../../../../supply-chain/pim/product-information.md). 
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 

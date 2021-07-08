@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059463"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303448"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>استحقاق خطط الإجازة والغياب
 
@@ -104,11 +104,9 @@ ms.locfileid: "6059463"
 
 2. ضمن **إدارة الإجازة**، حدد **حذف تدقيق استحقاق الإجازة**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(معاينة) تدقيق حركة استحقاقات الإجازة
+## <a name="leave-accrual-transaction-auditing"></a>تدقيق حركة استحقاقات الإجازة
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-تساعد ميزة المعاينة هذه على فهم مديري الإجازات والغياب لحركات الإجازات والغياب المستحقة المرتبطة بأرصدة إجازات الموظف لنوع إجازة معين.
+تساعد هذه الميزة على فهم مديري الإجازات والغياب لحركات الإجازات والغياب المستحقة المرتبطة بأرصدة إجازات الموظف لنوع إجازة معين.
 
 لعرض تفاصيل الحركة:
 

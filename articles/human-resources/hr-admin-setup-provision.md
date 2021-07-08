@@ -1,8 +1,8 @@
 ---
 title: تزويد Human Resources
-description: يستعرض هذا المقال عملية توفير بيئة إنتاج جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
+description: ينقلك هذا الموضوع عبر عملية توفير بيئة إنتاج جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/23/2020
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2632616834e405d31facdcf3853baaf96066e9aa
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193714"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248811"
 ---
 # <a name="provision-human-resources"></a>تزويد Human Resources
 
@@ -28,9 +28,15 @@ ms.locfileid: "6193714"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يستعرض هذا المقال عملية توفير بيئة إنتاج جديدة لتطبيق Microsoft Dynamics 365 Human Resources. يفترض هذا المقال أنك قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). إذا كان لديك ترخيص Microsoft Dynamics 365 يتضمن خطة خدمة Human Resources، ولا يمكنك إتمام الخطوات المذكورة في هذا المقال، فاتصل بالدعم.
+ينقلك هذا الموضوع عبر عملية توفير بيئة إنتاج جديدة لتطبيق Microsoft Dynamics 365 Human Resources. يفترض هذا الموضوع أنك قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). إذا كان لديك ترخيص Microsoft Dynamics 365 يتضمن خطة خدمة Human Resources، ولا يمكنك إتمام الخطوات المذكورة في هذا المقال، فاتصل بالدعم.
 
 للبدء، يجب على المسؤول العمومي تسجيل الدخول إلى [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) وإنشاء مشروع Human Resources جديد. ما لم يكن إصدار ترخيص يمنعك من توفير Human Resources، فلا يلزم طلب مساعدة من الدعم أو ممثلي هندسة خدمة Dynamics (DSE).
+
+## <a name="provision-a-human-resources-trial-environment"></a>توفير بيئة الإصدار التجريبي لـ Human Resources
+
+قبل تزويد بيئة وضع حماية أو بيئة التشغيل الأولى لديك، قد ترغب في توفير [بيئة الإصدار التجريبي لـ Human Resources‬](https://go.microsoft.com/fwlink/p/?LinkId=2115962) للتحقق من صحة وظائف Human Resources. تحتوي البيئات التجريبية على بيانات خيالية يمكن استخدامها لاستكشاف البرنامج بطريقة آمنة. على الرغم من أن البيئة التجريبية مملوكة من قبل المستخدم الذي طلبها، إلا أنه يمكن دعوة مستخدمين آخرين من خلال تجربة إدارة النظام لـ Human Resources. 
+
+والبيئات التجريبية غير مخصصة للاستخدام كبيئات التشغيل. إنها مقصورة على فترة الإصدار التجريبي التي تصل إلى 60 يومًا. عند انتهاء فترة المراجعة، ستُحذف البيئة وكل البيانات الموجودة بداخلها ولا يمكن استردادها. لا يمكن تحويل البيئة إلى بيئة وضع حماية أو بيئة تشغيل. يمكنك التسجيل للحصول على بيئة تجريبية جديدة بعد انتهاء مدة صلاحية البيئة الحالية.
 
 ## <a name="plan-human-resources-environments"></a>تخطيط بيئات الموارد البشرية
 
@@ -95,8 +101,6 @@ ms.locfileid: "6193714"
     > [!NOTE]
     > إذا لم تكن قد وافقت على المتطلبات النهائية بعد، فيمكنك نشر مثيل اختبار Human Resources في المشروع. يمكنك بعد ذلك استخدام هذا المثيل لاختبار الحل الخاص بك قبل إبداء الموافقة. إذا كنت تستخدم بيئتك الجديدة للاختبار، فيجب تكرار هذا الإجراء لإنشاء بيئة إنتاج.
 
-    > قد تفكر في الاستفادة من [بيئة الإصدار التجريبي لـ Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) المجانية لمدة 60 يومًا. على الرغم من أن البيئة التجريبية مملوكة من قبل المستخدم الذي طلبها، إلا أنه يمكن دعوة مستخدمين آخرين من خلال تجربة إدارة النظام لـ Human Resources. تحتوي البيئات التجريبية على بيانات خيالية يمكن استخدامها لاستكشاف البرنامج بطريقة آمنة. وهي غير مخصصة لاستخدام كبيئات إنتاج. لاحظ أنه عند انتهاء صلاحية البيئة التجريبية بعد 60 يومًا، ستُحذف كل البيانات الموجودة بداخلها ولا يمكن استردادها. يمكنك التسجيل للحصول على بيئة تجريبية جديدة بعد انتهاء مدة صلاحية البيئة الحالية.
-
 ## <a name="select-a-power-apps-environment"></a>تحديد بيئة Power Apps 
 
 يمكنك دمج وتوسيع استخدام بيانات Human Resources باستخدام أدوات Power Apps. لمزيد من المعلومات حول بيئات Power Apps، بما في ذلك نطاق البيئة، والوصول إلى البيئة، وإنشاء واختيار بيئة، راجع [الإعلان عن بيئات Power Apps .](https://powerapps.microsoft.com/blog/powerapps-environments/). 
@@ -132,7 +136,7 @@ ms.locfileid: "6193714"
 - كندا
 - آسيا 
 
-عند إنشاء بيئة Human Resources، فإنك تقوم بتحديد بيئة Power Apps ليتم إقرانها ببيئة Human Resources. يتم بعد ذلك توفير بيئة Human Resources في نفس منطقة Azure الجغرافية المحددة باعتبارها بيئة Power Apps المحددة. يمكنك تحديد مكان وجود بيئة الموارد البشرية وقاعدة البيانات فعليًا عن طريق تحديد المنطقة الجغرافية عند إنشاء بيئة Power Apps التي سيتم ربطها ببيئة Human Resources.
+عند إنشاء بيئة Human Resources، فإنك تقوم بتحديد بيئة Power Apps ليتم إقرانها ببيئة Human Resources. يتم بعد ذلك توفير بيئة Human Resources في نفس منطقة Azure الجغرافية المحددة باعتبارها بيئة Power Apps المحددة. يمكنك تحديد مكان وجود بيئة Human Resources وقاعدة البيانات فعليًا عن طريق تحديد المنطقة الجغرافية عند إنشاء بيئة Power Apps التي سيتم ربطها ببيئة Human Resources.
 
 يمكنك تحديد *المنطقة الجغرافية* في Azure التي يتم فيها توفير البيئة، ولكن لا يمكنك تحديد *منطقة* Azure المحددة. تحدد الأتمتة المنطقة المحددة داخل المنطقة الجغرافية التي يتم فيها إنشاء البيئة لتحسين موازنة الحمل والأداء. يمكنك العثور على معلومات حول مناطق ومناطق Azure الجغرافية في الوثائق الموجودة حول [مناطق Azure الجغرافية](https://azure.microsoft.com/global-infrastructure/geographies).
 

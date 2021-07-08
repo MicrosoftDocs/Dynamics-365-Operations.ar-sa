@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193871"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271198"
 ---
 # <a name="firm-planned-orders"></a>تأكيد أوامر مخططة
 
@@ -123,8 +123,6 @@ ms.locfileid: "6193871"
 إذا قمت بتعيين جميع الحدود الزمنية المذكورة سابقًا على *0* (صفر)، يتم تعطيل التأكيد التلقائي بشكل فعال للعناصر المغطاة ذات الصلة.
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>تاكيد الأوامر المخططة باستخدام استعلام
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 يتيح التاكيد المستند إلى استعلام امكانيه تخطيط التاكيد استنادا إلى المعايير التي تم تعريفها مقدما. بعكس التاكيد التلقائي، يسمح التاكيد المستند إلى الاستعلام بالتاكيد التلقائي لمجموعات فرعيه مختلفه من الأوامر عند نقاط مختلفه في الوقت. بالاضافه إلى ذلك، يمكنك استخدام العمليات اليدوية أو التلقائية لتاكيد أنواع مختلفه من الأوامر المخططة. يمكنك أيضا معاينه الأوامر المؤكدة التي تم تحديدها استنادا إلى إعداداتك. وبالتالي، يمكنك التاكد من ان التحديد يلائم توقعاتك.
 

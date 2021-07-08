@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019041"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292727"
 ---
 # <a name="containerization"></a>التعبئة في حاويات
 
@@ -108,6 +108,8 @@ ms.locfileid: "6019041"
 
       - **التعبئة في جميع الحاويات المفتوحة** – يقوم النظام بتقييم ما إذا كان سطر التوزيع يلاءم أي حاوية تم إنشاؤها أثناء دورة التعبئة في الحاويات.
       - **التعبئة في الحاوية الحالية فقط** – يقوم النظام بتقييم فقط ما إذا كان سطر التوزيع يلاءم الحاوية الأحدث إنشاءً.
+
+    لمزيد من المعلومات والأمثلة التي تظهر كيفية العمل مع استراتيجيات تعبئة الحاوية، راجع [استراتيجيات تعبئة الحاوية](container-packing-strategy-overview.md).
 
 1. لإعداد قواعد لتعبئة بنود التوزيع في حاويات، حدد **فواصل منطق الخلط**. على سبيل المثال، يمكنك إنشاء قاعدة التي سوف تسمح للعمال بحزم سطور التوزيع لصنفين مختلفين في نفس الحاوية. لتعريف قاعدة خلط، اتبع الخطوات التالية:
 

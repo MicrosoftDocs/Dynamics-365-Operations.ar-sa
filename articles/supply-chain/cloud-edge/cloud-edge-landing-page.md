@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938290"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261736"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>وحدات نطاق السحابة والحافة لأحمال التصنيع وإدارة المستودعات
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938290"
 > [!IMPORTANT]
 > تتوفر لك قدرة وحدة القياس في Microsoft Dynamics 365 Supply Chain Management بموجب الشروط التي تحكم استخدام الخدمة. لمزيد من المعلومات، راجع [المعلومات القانونية لتطبيق Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> بتمكين وحدات مقياس السحابة والحافة ، فانك أفيرم علي ان تفهم ان بعض البيانات المرتبطة بتكوين ومعالجه وحدات مقياس السحابة والحافة قد تكون مخزنه في مركز بيانات يقع في الولايات المتحدة. لمعرفه المزيد حول معالجة البيانات لوحدات قياس السحابة والحافة، راجع [معالجة البيانات اثناء إدارة وحدات القياس](#data-processing-management) لاحقًا في هذا الموضوع.
+> عند تمكين وحدات مقياس السحابة والحافة، فإنه ستتم مطالبتك للتأكيد على أنك تفهم أن بعض البيانات المرتبطة بتكوين ومعالجة وحدات مقياس السحابة والحافة قد تكون مخزنة في مركز بيانات يقع في الولايات المتحدة. لمعرفه المزيد حول معالجة البيانات لوحدات قياس السحابة والحافة، راجع [معالجة البيانات اثناء إدارة وحدات القياس](#data-processing-management) لاحقًا في هذا الموضوع.
 
 ## <a name="core-value-proposition-for-scale-units"></a>اقتراح القيمة الأساسية لوحدات القياس
 
