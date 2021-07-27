@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 3550b2b7b305702ffc337ba0a9bb79f60a9de120
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db7bdfe102fa5e24816f2cfaf2b53351362cddd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358184"
 ---
 # <a name="set-up-tds-registration-numbers-for-legal-entities"></a>إعداد أرقام تسجيل TDS للكيانات القانونية
 
@@ -31,7 +31,7 @@ ms.locfileid: "6022995"
 
 1. انتقل إلى **إدارة المؤسسة \> المؤسسات \> الكيانات القانونية**.
 
-    [![الصفحة الكيانات القانونية](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
+    [![صفحة الكيانات القانونية.](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
 
 2. في علامة التبويب السريعة **معلومات الضريبة**، في الحقل **رقم الحساب الدائم**، أدخل رقم الحساب الدائم (PAN) للكيان القانوني.
 3. في الحقل **رقم الدائرة**، أدخل رقم الدائرة لهيئة TDS.
@@ -41,11 +41,11 @@ ms.locfileid: "6022995"
 7. في جزء الإجراء، حدد **معرفات التسجيل** لفتح الصفحة **إدارة العناوين**.
 8. في علامة التبويب السريعة **معلومات الضريبة**، حدد **إضافة** أو **تحرير** لفتح الصفحة **إدارة معلومات الضريبة**، حيث يمكنك الاحتفاظ بإدخال تسجيل الضريبة.
 
-    [![صفحة إدارة العناوين](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
+    [![صفحة إدارة العناوين.](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
 
 9. في علامة التبويب السريعة **ضريبة الخصم**، في الحقل **رقم الحساب الضريبة (TAN)**، أدخل رقم التسجيل. يجب أن يتكون هذا الرقم من أربعة أحرف أبجدية، ثم خمسة أحرف رقمية، ثم حرفًا أبجديًا واحدًا. وفيما يلي مثال على ذلك: **AXDF87645F**.
 10. في الحقل **الاسم أو الوصف**، أدخل وصفًا لرقم تسجيل ضريبة الخصم.
 
-    [![صفحة إدارة معلومات الضرائب](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
+    [![صفحة إدارة معلومات الضرائب.](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
 
 11. قم بإغلاق الصفحة.

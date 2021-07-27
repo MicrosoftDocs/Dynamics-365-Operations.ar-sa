@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2f0118b197f465113bb894e3e57b3e682e04ef36
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a277ef0634c4ddd5769d278ce6186aac5e84ebfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795993"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352508"
 ---
 # <a name="cookie-consent-module"></a>الوحدة النمطية للموافقة على ملف تعريف الارتباط
 
@@ -35,7 +35,7 @@ ms.locfileid: "5795993"
 يمكن تكوين الوحدة النمطية للموافقة على ملف تعريف الارتباط على جزء رأس الصفحة بحيث يمكن تنفيذها عند تحميل الصفحة. يجب أن تتضمن الوحدة النمطية للموافقة على ملف تعريف الارتباط رسالة واضحة تُعلم مستخدم الوقع عن استخدام ملفات تعريف الارتباط في الموقع ويجب أن توفر ارتباطًا غلى صفحة خصوصية الموقع.
 
 يبين الرسم التوضيحي التالي مثالاً على رسالة الموافقة على ملفات تعريف الارتباط مع ارتباط إلى صفحة سياسة خصوصية الموقع يظهر على رأس صفحة الموقع.
-![مثال عن وحدة نمطية للموافقة على ملف تعريف الارتباط](./media/ecommerce-cookieconsent.png)
+![مثال عن وحدة نمطية للموافقة على ملف تعريف الارتباط.](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>خصائص الوحدة النمطية للموافقة على ملف تعريف الارتباط
 

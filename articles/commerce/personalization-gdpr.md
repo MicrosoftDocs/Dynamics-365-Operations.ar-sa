@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 75f41db74512ea758a83de56ffd2a9166712f5e2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804443"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352266"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>إلغاء الاشتراك في التوصيات المخصصة
 
@@ -44,11 +44,11 @@ ms.locfileid: "5804443"
 1. من الصفحة الرئيسية للمكتب الخلفي، ابحث عن **جميع العملاء**.
 1. ابحث عن عميل وحدده، ثم حدد علامة التبويب السريع **Retail**.
 
-    ![علامة التبويب السريع Retail](./media/Disablepersonalizationpart1.png)
+    ![علامة التبويب السريع Retail.](./media/Disablepersonalizationpart1.png)
 
 1. ضمن **الخصوصية**، قم بتعيين خيار **تعطيل التخصيص** إلى **نعم**.
 
-    ![إعدادات الخصوصية](./media/Disablepersonalizationpart2.png)
+    ![إعدادات الخصوصية.](./media/Disablepersonalizationpart2.png)
 
 1. حدد **حفظ** ثم أغلق الصفحة.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b91b398c4ef864a92a5318b7e80f71a5a572844e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75deb3dcca2c5a7fd7341b30411e04715bf27c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836748"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361176"
 ---
 # <a name="create-maintenance-budgets"></a>إنشاء موازنات الصيانة
 
@@ -50,7 +50,7 @@ ms.locfileid: "5836748"
     > [!NOTE]
     > بعد اعتماد موازنة الصيانة، لا يمكنك إعادة حساب البنود ذات الصلة أو تعديلها في صفحة **بنود موازنة الصيانة** ما لم تقم أولاً بإزالة اعتماد الموازنة. لإزالة اعتماد موازنة الصيانة، حددها في صفحة **موازنات‏‎ الصيانة**، ثم حدد **اعتماد**. ثم، في مربع الحوار‏‎ **اعتماد الموازنة**، حدد **موافق**.
 
-![موازنات الصيانة](media/01-maintenance-budgets.png)
+![موازنات الصيانة.](media/01-maintenance-budgets.png)
 
 يمكنك أيضا إنشاء موازنة صيانة جديدة من خلال نسخ موازنة موجودة. صفحة **موازنات‏‎ الصيانة**، حدد الموازنة التي تريد نسخها، ثم حدد **نسخ**. وتعد هذه الطريقة مفيدة، إذا قمت، على سبيل المثال، بإنشاء موازنة لشهر واحد وأردت نسخها إلى أشهر أخرى.
 

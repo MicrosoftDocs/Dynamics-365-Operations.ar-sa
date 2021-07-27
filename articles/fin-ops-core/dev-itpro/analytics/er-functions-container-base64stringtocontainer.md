@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6fd08d9a2522bdf497b1926c884a4583065d9f19
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754364"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355360"
 ---
 # <a name="base64stringtocontainer-er-function"></a>دالة Base64StringToContainer ER
 
@@ -73,11 +73,11 @@ BASE64STRINGTOCONTAINER (input)
 
 في هذا المثال، **\#MediaAsBase64String** بترميز المحتوي الثنائي لمرفق الوسائط الحالي كنص يمثل مجموعه Base64 من أنظمه ترميز ثنائيه النص. ويقوم **\#BlobFomBase64** بفك ترميز سلسله Base64 وإرجاع قيمه ثنائيه في تنسيق BLOB.
 
-![مصادر البيانات النموذجية في صفحة مصمم تعيين النموذج](./media/er-functions-container-base64stringtocontainer-1.png)
+![مصادر البيانات النموذجية في صفحة مصمم تعيين النموذج.](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[دالات الحاوية](er-functions-category-container.md)
+[وظائف الحاوية](er-functions-category-container.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

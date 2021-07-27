@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055090"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360582"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>التكامل مع LinkedIn Talent Hub
 
@@ -48,7 +48,7 @@ ms.locfileid: "6055090"
 
 5. في الصفحة **Dynamics 365 Human Resources**، حدد البيئة لربط LinkedIn Talent Hub بها، ثم حدد **ربط**.
 
-    ![إعداد LinkedIn Talent Hub](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![إعداد LinkedIn Talent Hub.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > يمكنك الربط فقط بالبيئات التي يملك فيها حساب المستخدم الخاص بك حق الوصول كمسؤول إلى كل من بيئة Human Resources وبيئة Power Apps المقترنة منه. إذا لم يتم سرد أية بيئات في صفحة ارتباط Human Resources، فتأكد من أنك قد قمت بترخيص بيئات Human Resources على المستأجر، وأن المستخدم الذي قمت بتسجيل الدخول إلى صفحة الارتباط كما أن لديه أذونات مسؤول لكل من بيئة Human Resources وبيئة Power Apps.
@@ -91,7 +91,7 @@ ms.locfileid: "6055090"
 
 6. استخدم القائمة المنسدلة فوق القائمة لتغيير طريقة العرض من طريقة عرض **المستخدمين الممكنين** إلى **مستخدمي التطبيق**.
 
-    ![طريقة عرض مستخدمي التطبيقات](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![طريقة عرض مستخدمي التطبيقات.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. من شريط الأدوات، حدد **جديد**.
 
@@ -163,7 +163,7 @@ ms.locfileid: "6055090"
     - في الحقل **الموقع**، أدخل الموقع الذي سيتواجد به الموظف.
     - أدخل عنوان البريد الإلكتروني للموظف أو تحقق منه.
 
-![التصدير إلى جزء HRIS في لوحة LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![التصدير إلى جزء HRIS في لوحة LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>إكمال الإعداد في Human Resources
 

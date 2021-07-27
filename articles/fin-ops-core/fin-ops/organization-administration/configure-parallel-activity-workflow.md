@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1a47857cbe65c00ad678b2b0372c642abf01b41
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c0bc97f401ad9e097248dfd5afb0baa8edbb6b3c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747821"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350660"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>تكوين أنشطة موازية في سير عمل
 
@@ -45,7 +45,7 @@ ms.locfileid: "5747821"
 1. انقر نقرًا مزدوجًا فوق النشاط الموازي لعرض فروع النشاط الموازي.
 2. لإضافة فرع، اسحب عنصر **الفرع** من ناحية **عناصر سير العمل** إلى نقطة إدراج على لوحة الرسم. يظهر الرسم التوضيحي التالي نقطة إدراج.
 
-    ![نقطة الإدراج](./media/workflow_insertionpoint.gif)
+    ![نقطة الإدراج.](./media/workflow_insertionpoint.gif)
 
     > [!NOTE]
     > ليس لترتيب الفروع أي أهمية لأن جميع فروع النشاط الموازي تعمل في الوقت نفسه.

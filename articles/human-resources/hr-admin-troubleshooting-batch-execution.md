@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: d0b12908993070a41d21ac57d6fb504fc6e3b06a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f236f861434eb2eaa26eab92e25a0b83a8026972
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053505"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357327"
 ---
 # <a name="reset-stuck-batch-jobs"></a>إعادة تعيين المهام الدفعية العالقة
 
@@ -46,7 +46,7 @@ ms.locfileid: "6053505"
 
 5. في صفحة **تحديد الحالة الجديدة**، حدد **قيد الانتظار**، ثم حدد **موافق**.
 
-   ![تحديد حالة وظيفة دفعة جديدة](./media/hr-admin-reset-batch-job-status.png)
+   ![تحديد حالة وظيفة دفعة جديدة.](./media/hr-admin-reset-batch-job-status.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 

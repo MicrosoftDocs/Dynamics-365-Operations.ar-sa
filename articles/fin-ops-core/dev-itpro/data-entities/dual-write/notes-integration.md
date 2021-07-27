@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186776"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358969"
 ---
 # <a name="note-integration"></a>تكامل الملاحظات
 
@@ -51,23 +51,23 @@ ms.locfileid: "6186776"
 1. في تطبيق Customer Engagement، افتح سجل الحساب لأحد العملاء.
 2. في جزء **المخطط الزمني**، حدد علامة الجمع (**+**) ، ثم حدد **ملاحظة** لإنشاء ملاحظة.
 
-    ![إنشاء ملاحظة في تطبيق Customer Engagement](media/notes-ce-1.png)
+    ![إنشاء ملاحظة في تطبيق Customer Engagement.](media/notes-ce-1.png)
 
 3. أدخل عنوانًا ووصفًا، ثم حدد **إضافة ملاحظة**.
 
-    ![إدخال عنوان ووصف](media/notes-ce-2.png)
+    ![إدخال عنوان ووصف.](media/notes-ce-2.png)
 
     تتم إضافة الملاحظة الجديدة إلى المخطط الزمني للعميل.
 
-    ![ملاحظه جديدة في المخطط الزمني للعميل](media/notes-ce-3.png)
+    ![ملاحظه جديدة في المخطط الزمني للعميل.](media/notes-ce-3.png)
 
 4. قم بتسجيل الدخول إلى تطبيقات Finance and Operations، وافتح سجل العميل نفسه. لاحظ أن **زر المرفقات** (رمز المشبك) الموجود في الركن الأيمن العلوي يشير إلى أن السجل يحتوي على مرفق.
 
-    ![إخطار حول مرفق](media/notes-ce-4.png)
+    ![إخطار حول مرفق.](media/notes-ce-4.png)
 
 5. حدد زر **المرفقات** لفتح صفحة **المرفقات**. يجب عليك العثور على الملاحظة التي قمت بإنشاءها في تطبيق Customer Engagement.
 
-    ![ملاحظة من تطبيق Customer Engagement](media/notes-ce-5.png)
+    ![ملاحظة من تطبيق Customer Engagement.](media/notes-ce-5.png)
 
 تتم مزامنة أية تحديثات تمت على الملاحظات ذهابًا وإيابًا بين تطبيق Finance and Operations وتطبيق Customer Engagement.
 
@@ -79,21 +79,21 @@ ms.locfileid: "6186776"
 
 1. في تطبيق Finance and Operations، من صفحة **المرفقات**، حدد **جديد** \> **ملاحظة**.
 
-    ![إنشاء ملاحظة في تطبيق Finance and Operations](media/notes-fo-1.png)
+    ![إنشاء ملاحظة في تطبيق Finance and Operations.](media/notes-fo-1.png)
 
 2. قم بإدخال عنوان ومجموعة مختصرة من التعليمات، ثم حدد **حفظ**.
 
-    ![إدخال عنوان وتعليمات](media/notes-fo-2.png)
+    ![إدخال عنوان وتعليمات.](media/notes-fo-2.png)
 
 3. في تطبيق Customer Engagement، قم بتحديث السجل. يجب العثور على الملاحظة الجديدة في المخطط الزمني.
 
-    ![ملاحظة جديدة في المخطط الزمني في تطبيق Customer Engagement](media/notes-fo-3.png)
+    ![ملاحظة جديدة في المخطط الزمني في تطبيق Customer Engagement.](media/notes-fo-3.png)
 
 يمكنك تصنيف ملاحظة على أنها داخلية أو خارجية.
 
 - في تطبيق Finance and Operations، في صفحة **المرفقات**، افتح الملاحظة، ثم في حقل **القيد**، حدد **داخلي** أو **خارجي**.
 
-    ![حقل القيد](media/notes-fo-4.png)
+    ![حقل القيد.](media/notes-fo-4.png)
 
 يُمكنك أيضًا إنشاء عنوان URL.
 
@@ -101,13 +101,13 @@ ms.locfileid: "6186776"
 2. أدخل عنوانًا وURL.
 3. في حقل **القيد**، حدد **داخلي** أو **خارجي**.
 
-    ![إنشاء URL في تطبيق Finance and Operations](media/notes-fo-5.png)
+    ![إنشاء URL في تطبيق Finance and Operations.](media/notes-fo-5.png)
 
 4. حدد **حفظ**.
 
     نظرا لأن تطبيقات Customer Engagement لا تحتوي على نوع URL، يتم دمج عنوان URL مع الكتابة المزدوجة كملاحظة.
 
-    ![ظهور URL كملاحظة في تطبيق Customer Engagement](media/notes-ce-6.png)
+    ![ظهور URL كملاحظة في تطبيق Customer Engagement.](media/notes-ce-6.png)
 
 > [!NOTE]
 > لا يتم دعم مرفقات الملف.

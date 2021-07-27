@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015843"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360390"
 ---
 # <a name="set-up-consignment"></a>إعداد الشحن
 
@@ -61,7 +61,7 @@ ms.locfileid: "6015843"
 
 يتم استخدام بُعد **المالك** لفصل المعلومات المتعلقة بالمخزون المملوك من المورد والمخزون المملوك من الكيان القانوني المتلقي. ‏‫تتضمن بنود أمر تزويد الشحن الحالة **أمر مفتوح** طالما لم يتم استلام أو إلغاء الكمية الكاملة للبنود. عند استلام الكمية الكاملة أو إلغائها، تتغير الحالة إلى **مكتمل**. يمكن تسجيل المخزون الفعلي المرتبط بأمر تزويد الشحن باستخدام عملية تسجيل بالإضافة إلى عملية تحديث أيصال استلام المنتجات. يمكن إجراء التسجيل كجزء من عملية وصول الصنف أو عن طريق تحديث بنود الأمر يدويًا. عند استخدام عملية تحديث إيصال استلام المنتجات، يتم إنشاء سجل في دفتر يومية إيصالات استلام المنتجات، ويمكن استخدامه كإقرار باستلام البضائع للموردين.
 
-[![أوامر تزويد الشحن](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![أوامر تزويد الشحن.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>دفتر يومية تغييرات ملكية المخزون
 
@@ -74,7 +74,7 @@ ms.locfileid: "6015843"
 
 من غير الممكن تحديث الكمية في بنود أوامر اشراء الشحن بعد إنشاء الأمر.
 
-[![دفتر يومية تغييرات ملكية المخزون](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![دفتر يومية تغييرات ملكية المخزون.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>تعاون المورد في عمليات الشحن
 
@@ -90,13 +90,13 @@ ms.locfileid: "6015843"
 
 من أجل تسجيل المخزون الفعلي للشحن الوارد، يجب تعريف المالك المورّد. ويتم ذلك في صفحة **مالك المخزون**. عند تحديد **حساب المورد**، يؤدي ذلك إلى إنشاء القيم الافتراضية لحقلي **الاسم** و **المالك**. ستكون القيمة في حقل **المالك** مرئية للمورد، لذا قد ترغب في تغييرها إذا لم يكن من السهل على الأشخاص الخارجيين التعرف على أسماء حسابات المورد. من الممكن تحرير حقل **المالك**، لكن فقط إلى المرحلة التي تقوم فيها بحفظ سجل **مالك المخزون**. تتم تعبئة حقل **الاسم** باسم الطرف الذي يقترن حساب المورد به، ولا يمكن تغيير ذلك.
 
-[![ملاك المخزون](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![ملاك المخزون.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>مجموعة أبعاد التعقب
 
 يجب أن تقترن الأصناف التي سيتم استخدامها في عمليات الشحن **بمجموعة أبعاد التعقب** حيث تم تعيين بُعد **المالك** إلى **نشط**. في بُعد المالك، يكون الخياران **المخزون الفعلي** و **المخزون المالي** محددين بشكل دائم. ولا يتم تحديد الخيار **خطة التغطية حسب البُعد‬** إطلاقًا.
 
-[![مجموعة أبعاد التعقب](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![مجموعة أبعاد التعقب.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

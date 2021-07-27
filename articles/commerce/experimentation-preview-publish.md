@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52ca23e5aaeb7058853fed2241d5804180fa7f8d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 99e873a07accd33aebfe010fbc8678cd8bc3ed9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798953"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349294"
 ---
 # <a name="preview-and-publish-an-experiment"></a>معاينه التجربة ونشرها
 
 يصف هذا الموضوع كيفيه معاينه التجربة الخاصة بك ونشرها في Dynamics 365 Commerce بعد قيامك [بتوصيل التجربة وتحرير التباينات الخاصة بك](experimentation-connect-edit.md). يوضح الرسم التخطيطي التالي كافة الخطوات المتضمنة في اعداد وتشغيل تجربه علي أحد مواقع التجارة الالكترونيه في Dynamics 365 Commerce. وتتم تغطيه الخطوات الاضافيه في موضوعات منفصلة.
 
-[![رحلة مستخدم التجربة - المعاينه والنشر](./media/experimentation_preview_publish.svg)](./media/experimentation_preview_publish.svg#lightbox)
+[ ![رحلة مستخدم التجربة - المعاينه والنشر.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
 ## <a name="preview-your-experiment-variations"></a>معاينه تباينات التجربة الخاصة بك
 يمكنك معاينه التباينات الخاصة بك ومتابعه تحريرها حتى تبدو بالطريقة التي تريدها.

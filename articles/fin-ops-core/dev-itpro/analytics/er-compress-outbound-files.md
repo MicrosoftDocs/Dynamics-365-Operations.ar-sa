@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5b58a9345b83219296a3570e7bf653ef8624b7a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894162"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357632"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>ضغط المستندات الكبيرة المُنشأة بتنسيق التقارير الإلكترونية 
 
@@ -55,7 +55,7 @@ ms.locfileid: "5894162"
 1. [تشغيل التنسيق المستورد](er-defer-xml-element.md#run-the-imported-format).
 2. لاحظ أن حجم المستند المُنشأ بتنسيق XML هو 3 كيلوبايت (KB).
 
-    ![معاينة المستند الصادر غير المضغوط](./media/er-compress-outbound-files1.png)
+    ![معاينة المستند الصادر غير المضغوط.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>تعديل التنسيق لضغط الإخراج المُنشأ
 
@@ -80,7 +80,7 @@ ms.locfileid: "5894162"
     > [!NOTE] 
     > نسبة الضغط لملف XML الذي يحمله ملف zip هذا هي 87 بالمائة. تتوقف نسبة الضغط على البيانات التي يتم ضغطها.
 
-    ![معاينة المستند الصادر المضغوط](./media/er-compress-outbound-files2.png)
+    ![معاينة المستند الصادر المضغوط.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > إذا تم تكوين [وجهة](electronic-reporting-destinations.md) التقارير الإلكترونية لعنصر التنسيق الذي ينشئ الإخراج (عنصر **التقرير** في هذا المثال)، سيتم تجاوز ضغط الإخراج.

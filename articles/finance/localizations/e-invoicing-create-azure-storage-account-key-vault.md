@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963222"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357404"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>إنشاء حساب تخزين ومخزن رئيسي في Azure
 
@@ -49,7 +49,7 @@ ms.locfileid: "5963222"
 5. حدد **إضافة سياسة** لإضافة سياسة وصول مخزّنة.
 6. قم بتعيين حقلي **المعرف** و **الأذونات** كما تقتضي الحاجة. في حقل **الأذونات**، يجب تحديد كافة الأذونات.
 
-    ![منح إذن تخزين كائن ثنائي كبير الحجم](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![منح إذن تخزين كائن ثنائي كبير الحجم.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. أدخل تاريخي البدء وانتهاء الصلاحية. يجب أن يكون تاريخ انتهاء الصلاحية في المستقبل.
 8. حدد **موافق** لحفظ السياسة، ثم احفظ تغييراتك إلى الحاوية.
@@ -57,7 +57,7 @@ ms.locfileid: "5963222"
 10. انقر بزر الماوس الأيمن فوق الحاوية، ثم حدد **الحصول على توقيع الوصول المشترك**.
 11. في مربع الحوار **توقيع الوصول المشترك**، قم بنسخ القيمة وتخزينها في الحقل **URI**. سيتم استخدام هذه القيمة في الإجراء التالي وستتم الإشارة إليها على أنها *URI‏‎ توقيع الوصول المشترك*.
 
-    ![تحديد قيمة URI ونسخها](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![تحديد قيمة URI ونسخها.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>إعداد المخزن الرئيسي لتخزين URI حساب التخزين
 
@@ -69,11 +69,11 @@ ms.locfileid: "5963222"
 6. قم بإعداد سياسة الوصول لمنح الفوترة الإلكترونية المستوى الصحيح من الوصول الآمن إلى السر الذي أنشأته. انتقل إلى **الإعدادات \> سياسة الوصول**، وحدد **إضافة سياسة وصول**.
 7. عيّن أذونات السر لعمليات **الحصول** و **القائمة**.
 
-    ![منح حق الوصول إلى الخدمة](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![منح حق الوصول إلى الخدمة.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. عيّن أذونات الشهادة لعمليات **الحصول** و **القائمة**.
 
-    ![منح إذن الشهادة](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![منح إذن الشهادة.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. في حقل **الرئيسي**، حدد **بلا تحديد**.
 10. في مربع الحوار **الرئيسي**، حدد الرئيسي عن طريق إضافة **خدمة الفوترة الإلكترونية**.

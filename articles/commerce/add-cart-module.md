@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ec8e89ed82bcdffdc21e62d24ad8c8a7d939cdf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76d4bea9ad25494015a7bfeb324cb0e84dd024b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797853"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346842"
 ---
 # <a name="cart-module"></a>الوحدة النمطية لعربة التسوق
 
@@ -35,11 +35,11 @@ ms.locfileid: "5797853"
 
 تعرض الصورة التالية مثالاً عن صفحة سلة التسوق في موقع Fabrikam.
 
-![مثال عن وحدة نمطية لسلة التسوق‬ في موقع Fabrikam](./media/cart2.PNG)
+![مثال عن وحدة نمطية لسلة التسوق‬ في موقع Fabrikam.](./media/cart2.PNG)
 
 تعرض الصورة التالية مثالاً عن صفحة سلة التسوق في موقع Fabrikam. في هذا المثال، يوجد رسم معالجة لصنف بند.
 
-![مثال عن وحدة نمطية لسلة التسوق‬ مع رسوم معالجة لصنف بند](./media/ecommerce-handling-fee.png)
+![مثال عن وحدة نمطية لسلة التسوق‬ مع رسوم معالجة لصنف بند.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>خصائص الوحدة النمطية لسلة التسوق وفتحات التشغيل
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358208"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>تعيين معلمات TDS في الحسابات الدائنة والحسابات المدينة
 
@@ -38,12 +38,12 @@ ms.locfileid: "6022998"
     - **المطالبة** – يتلقى المستخدمون رسالة تطالبهم بتحديث مجموعة TDS في بنود الأمر.
 4. حدد **موافق**.
 
-    [![مربع الحوار تحديث بنود الأمر](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![مربع الحوار تحديث بنود الأمر.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. انتقل إلى **الضريبة \> إعداد \> المعلمات \> معلمات الحسابات الدائنة**.
 6. في علامة التبويب **عام**، على علامة التبويب السريعة  **التقسيم استنادًا إلى معلومات التسليم**، قم بتعيين الخيار **إيصال استلام المنتجات** على **نعم** لترحيل إيصال استلام المنتجات الذي يحتوي على عناوين تسليم وأرقام حساب الضرائب المختلفة (TAN) وتقسيمها. إذا تم تعيين هذا الخيار إلى **لا**، فإنه لا يمكنك ترحيل إيصال تعبئة مشتريات يحتوي على عناوين تسليم وأرقام TAN مختلفة.
 7. قم بتعيين الخيار **الفاتورة** على **نعم** لترحيل فاتورة الشراء التي لها عناوين تسليم وأرقام TAN مختلفة وتقسيمها.
 
-    [![علامة التبويب السريعة التقسيم استنادًا إلى معلومات التسليم](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![علامة التبويب السريعة التقسيم استنادًا إلى معلومات التسليم.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. قم بإغلاق الصفحة.

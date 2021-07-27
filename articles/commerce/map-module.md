@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ba6dadf7f96510ae55c41a74d53e3ca89f663ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020249"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344064"
 ---
 # <a name="map-module"></a>وحدة الخريطة
 
@@ -38,13 +38,13 @@ ms.locfileid: "6020249"
 
 تعرض الصورة التالية مثالاً عن وحدة الخريطة المستخدمة في صفحة مواقع المتجر.
 
-![مثال لوحدة محدِّد المتجر](./media/ecommerce-Storelocator.PNG)
+![مثال لوحدة محدِّد المتجر.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>خصائص الوحدة النمطية
 
-| اسم الخاصية             | قيمة                 | ‏‏الوصف |
+| اسم الخاصية             | قيمة                 | الوصف |
 |---------------------------|-----------------------|-------------|
-| العنوان | النص | عنوان الوحدة النمطية. |
+| العنوان‬ | النص | عنوان الوحدة النمطية. |
 | خيارات دبوس التثبيت: أيقونة افتراضية | صورة | صورة رمز دبوس التثبيت المطلوب استخدامها للمتاجر المعروضة على الخريطة. |
 | خيارات دبوس التثبيت: أيقونة نشطة | صورة | صورة رمز دبوس التثبيت المطلوب استخدامها لمتجر محدد على الخريطة. |
 | خيارات دبوس التثبيت: لون الأيقونة الافتراضية | سلسلة أحرف | النص أو القيمة الست العشرية للون رموز دبابيس التثبيت على الخريطة. |

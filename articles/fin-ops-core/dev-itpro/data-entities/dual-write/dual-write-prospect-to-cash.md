@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754078"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361365"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>العميل المتوقع إلى النقدية في الكتابة المزدوجة
 
@@ -33,7 +33,7 @@ ms.locfileid: "5754078"
 
 في واجهات التطبيقين، يمكنك الوصول إلى حالات المعالجة ومعلومات الفاتورة في الوقت الحقيقي. وبالتالي، يمكنك إدارة وظائف مثل إنشاء مخزون منتجات والتعامل مع المخزون والتنفيذ في Supply Chain Management، من دون الحاجة إلى إعادة إنشاء عروض الأسعار والأوامر.
 
-![تدفق بيانات الكتابة المزدوجة في عملية العميل المتوقع إلى النقدية](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![تدفق بيانات الكتابة المزدوجة في عملية العميل المتوقع إلى النقدية.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 للحصول علي معلومات حول تكامل العميل والاتصال، راجع [السجل الرئيسي المتكامل للعميل](customer-mapping.md). لمزيد من المعلومات حول تكامل المنتج، راجع [تجربه المنتج الموحدة](product-mapping.md).
 
@@ -48,7 +48,7 @@ ms.locfileid: "5754078"
 
 في Sales، انتقل إلى **الإعدادات‏‎ \> الإدارة‏‎ \> إعدادات النظام \> المبيعات**، وتأكد من استخدام الإعدادات التالية:
 
-- تم تعيين الخيار **‬‏‫استخدام حساب أسعار النظام** إلى **نعم**.
+- يتم تعيين خيار النظام **‬‏‫حساب تسعير النظام** إلى **نعم**.
 - يكون العمود **طريقة حساب الخصم** معينًا إلى **صنف البند**.
 
 ### <a name="sites-and-warehouses"></a>المواقع والمستودعات

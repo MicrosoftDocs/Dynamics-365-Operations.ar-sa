@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838709"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361200"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>إنشاء تكوينات ER في Regulatory Configuration Services (RCS) وتحميلها إلى المستودع العمومي
 
@@ -51,7 +51,7 @@ ms.locfileid: "5838709"
 5. أدخل اسمًا ووصفًا، ثم حدد **إنشاء التكوين** لإنشاء إصدار مشتق جديد.
 6. حدد التكوين المشتق حديثا، وأضف وصفًا للإصدار، ثم حدد **موافق**. يتم تغيير حالة التكوين إلى **مكتمل**.
 
-![إصدار التكوين الجديد في RCS](media/RCS_CompleteConfig.JPG)
+![إصدار التكوين الجديد في RCS.](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > عند تغيير حالة التكوين، قد تستلم رسالة خطأ خاصة بالتحقق من الصحة تتعلق بالتطبيقات المتصلة. لإيقاف تشغيل التحقق من الصحة، في جزء الإجراءات في علامة التبويب **التكوينات**، حدد **معلمات المستخدم**، ثم قم بتعيين الخيار **تخطي التحقق من الصحة عند تغير حالة التكوين وتغير العنوان الأساسي** إلى **نعم** 
@@ -63,7 +63,7 @@ ms.locfileid: "5838709"
 1. حدد الإصدار المكتمل من التكوين، ثم حدد **تحميل إلى المستودع**.
 2. حدد الخيار **عمومي (Microsoft)**، ثم حدد **تحميل**.
 
-    ![خيارات التحميل إلى المستودع](media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![خيارات التحميل إلى المستودع.](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. في مربع رسالة التأكيد، حدد **نعم**. 
 4. قم بتحديث وصف الإصدار كما هو مطلوب، ثم حدد **موافق**. 
@@ -73,7 +73,7 @@ ms.locfileid: "5838709"
 - استيراده إلى مثيل Dynamics 365 الخاص بك. لمزيد من المعلومات، راجع [ (ER)استيراد التكوينات من RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
 - مشاركته مع جهة خارجية أو مؤسسة خارجية، راجع [RCS مشاركة تكوينات التقارير الإلكترونية (ER) مع المؤسسات الخارجية](rcs-global-repo-share-configuration.md)
 
-    ![إصدار تكوين نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لـ Contoso في المستودع العمومي](media/RCS_Config_upload_GlobalRepo.JPG)
+    ![إصدار تكوين نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لـ Contoso في المستودع العمومي.](media/RCS_Config_upload_GlobalRepo.JPG)
 
 ## <a name="delete-a-configuration-from-the-global-repository"></a>حذف تكوين من المستودع العمومي
 قم بإكمال الخطوات التالية لحذف تكوين أنشأته مؤسستك.
@@ -84,11 +84,11 @@ ms.locfileid: "5838709"
 4. على علامة التبويب السريعة **التصفية**، ابحث عن التكوين الذي تريد حذفه باستخدام وظيفة **التصفية**.
 5. على علامة التبويب السريعة **الإصدار**، حدد إصدار التكوين الذي ترغب في حذفه، ثم حدد **حذف**:
 
-    ![حذف تكوين من المستودع العمومي](media/RCS_Delete_from_GlobalRepo.JPG)
+    ![حذف تكوين من المستودع العمومي.](media/RCS_Delete_from_GlobalRepo.JPG)
 
 6. في مربع رسالة التأكيد، حدد **نعم**.
 
-    ![حذف رسالة تأكيد إصدار التكوين](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+    ![حذف رسالة تأكيد إصدار التكوين.](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
  
 يتم حذف إصدار التكوين، وتظهر رسالة التأكيد. 
 

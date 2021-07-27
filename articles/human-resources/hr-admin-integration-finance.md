@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ed66bb2b2fce659e1e1f029fd60f74149b6526b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 81b65d1aeeff6c4459fe0b2637013009958cfd55
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055114"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360630"
 ---
 # <a name="configure-integration-with-finance"></a>تكوين التكامل مع Finance
 
@@ -30,7 +30,7 @@ ms.locfileid: "6055114"
 
 لاجراء تكامل Dynamics 365 Human Resources مع Dynamics 365 Finance، يمكنك استخدام Human Resources في قالب Finance في [مكامل بيانات ](/powerapps/administrator/data-integrator). تتيح Human Resources لقالب Finance تدفق البيانات للوظائف والمناصب والعاملين. يسمح القالب بتدفق البيانات من Human Resources إلى Finance، لكنه لا يسمح بتدفق البيانات من Finance إلى Human Resources.
 
-![تدفق تكامل Human Resources إلى Finance](./media/hr-admin-integration-finance-flow.png)
+![تدفق تكامل Human Resources إلى Finance.](./media/hr-admin-integration-finance-flow.png)
 
 يوفر حل Human Resources إلى Finance الأنواع التالية من مزامنة البيانات:
 
@@ -253,6 +253,6 @@ ms.locfileid: "6055114"
 
 يبين الشكل التوضيحي التالي مثالاً لتعيين قالب في موحد البيانات. 
 
-![تعيين القالب](./media/IntegrationMapping.png)
+![تعيين القالب.](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

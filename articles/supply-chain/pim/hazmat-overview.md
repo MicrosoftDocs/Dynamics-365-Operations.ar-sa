@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829368"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356989"
 ---
 # <a name="hazardous-materials-overview"></a>نظرة عامة على المواد الخطرة
 
@@ -27,7 +28,7 @@ ms.locfileid: "5829368"
 
 يوضح المخطط التالي الخطوات اللازمة لإعداد ميزة المواد الخطرة واستخدامها.
 
-![اعداد ميزة المواد الخطرة واستخدامها](media/hazmat-overview.png "اعداد ميزة المواد الخطرة واستخدامها")
+![إعداد ميزة المواد الخطرة واستخدامها.](media/hazmat-overview.png "اعداد ميزة المواد الخطرة واستخدامها")
 
 يتم إعداد ميزة المواد الخطرة في إدارة معلومات المنتج، وتوفر المستندات التي يُمكن طباعتها من خلال إدارة المستودع. بالتالي، وبالتحدث على نطاق أوسع، فهذه المناطق هي المناطق الرئيسية التي ستقوم فيها بمراجعة وإعداد واستخدام وظيفة هذه الميزة:
 

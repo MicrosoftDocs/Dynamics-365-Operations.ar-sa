@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 14f0f2b1a4d63101d432b1361379c61a70ac9345
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1e20528cd0af00c46f1376e02097bf3171100769
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271173"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358685"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services
 
@@ -41,7 +41,7 @@ ms.locfileid: "6271173"
 3. في مقطع **موفرو التكوين**، حدد لوحة **Microsoft**.
 4. على لوحة **Microsoft**، حدد **مستودعات**.
 
-    [![لوحة Microsoft في صفحة تكوينات الترجمة](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![لوحة Microsoft في صفحة تكوينات الترجمة.](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. في صفحة **مستودعات التكوين**، في الشبكة، حدد المستودع الموجود من النوع **LCS**. إذا لم يظهر هذا المستودع في الشبكة، فاتبع الخطوات التالية:
 
@@ -55,7 +55,7 @@ ms.locfileid: "6271173"
 
 6. حدد **فتح** لعرض قائمة تكوينات التقارير الإلكترونية للمستودع المحدد.
 
-    [![صفحة مستودعات التكوين](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![صفحة مستودعات التكوين.](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > إذا واجهت مشكلة في الوصول إلى مستودع LCS لتنزيل التكوينات من مكتبة الأصول المشتركة في LCS، فيمكنك تنزيل التكوينات من [المستودع العمومي](er-download-configurations-global-repo.md) بدلاً من ذلك.
@@ -67,7 +67,7 @@ ms.locfileid: "6271173"
     > [!NOTE]
     > لا يتوفر الزر **استيراد** لإصدارات تكوينات التقارير الإلكترونية الموجودة في المثيل الحالي.
 
-    [![صفحة مستودع التكوين](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![صفحة مستودع التكوين.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
 > استنادًا إلى إعدادات التقارير الإلكترونية، يتم التحقق من صحة التكوينات بعد استيرادها. قد يتم إعلامك بأي مشكلات عدم التوافق التي يتم اكتشافها. يجب حل هذه المشكلات قبل أن تتمكن من استخدام إصدار التكوين المستورد. لمزيد من المعلومات، راجع قائمة المواضيع ذات الصلة لهذا الموضوع.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 09da3c3a79b5540670db25d5466023132d2848f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9521d9be3c380795abf476646d2d0e1cd36e8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832264"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354775"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>تسلسل التكلفة الاحتياطية للمتوسط المتحرك
 
@@ -42,7 +42,7 @@ ms.locfileid: "5832264"
     - **التكلفة النشطة - الإصدار الأخير**
     - **التكلفة النشطة – سعر الصنف** – قد تواجه المؤسسات مشكلات في الأداء إذا كانت تستخدم عمليات الأعمال حيث المخزون يكون سالبًا بشكل منتظم، وحجم الحركات مرتفعًا في الوقت نفسه. بإمكان هذا الإعداد أن يساعد على تخفيف مشكلات الأداء هذه.
 
-![معلمات محاسبة المخزون](media/inventory-accounting-parameters.png "معلمات محاسبة المخزون")
+![معلمات محاسبة المخزون.](media/inventory-accounting-parameters.png "معلمات محاسبة المخزون")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

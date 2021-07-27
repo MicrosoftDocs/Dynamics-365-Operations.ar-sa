@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6016996"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358088"
 ---
 # <a name="inventory-visibility-add-in"></a>الوظيفة الإضافية لرؤية المخزون
 
@@ -143,7 +143,7 @@ ms.locfileid: "6016996"
 
             لمزيد من المعلومات حول هذا المتغير، راجع القسم [إعداد تكامل رؤية المخزون](#setup-inventory-visibility-integration) لاحقًا في هذا الموضوع.
 
-        ![مشغل التكوين](media/configuration-trigger.png "مشغل التكوين")
+        ![مشغل التكوين.](media/configuration-trigger.png "مشغل التكوين")
 
     1. حدد **تشغيل**
 
@@ -157,7 +157,7 @@ ms.locfileid: "6016996"
 1. في الصفحة البيئة، قم بالتمرير لأسفل حتى تشاهد القسم **الوظائف الإضافية الخاصة بالبيئة** في القسم **Power Platform تكامل**، حيث يمكنك العثور على اسم بيئة Dataverse.
 1. في قسم **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.
 
-    ![صفحة البيئة في LCS](media/inventory-visibility-environment.png "صفحة البيئة في LCS")
+    ![صفحة البيئة في LCS.](media/inventory-visibility-environment.png "صفحة البيئة في LCS")
 
 1. حدد الرابط **تثبيت وظيفة إضافية جديدة**. يتم فتح قائمه بالوظائف الإضافية المتاحة.
 1. حدد **رؤية المخزون** في القائمة.
@@ -166,7 +166,7 @@ ms.locfileid: "6016996"
     - **مُعرّف تطبيق AAD (العميل)**
     - **معرف مستأجر AAD**
 
-    ![أضافه في صفحه الإعداد](media/inventory-visibility-setup.png "صفحه إعداد الوظيفة الإضافية")
+    ![صفحة إعداد الوظيفة الإضافية](media/inventory-visibility-setup.png "صفحه إعداد الوظيفة الإضافية")
 
 1. الموافقة علي البنود والشروط عن طريق تحديد خانه الاختيار **البنود والشروط**.
 1. حدد **تثبيت**. ستظهر حاله الوظيفة الإضافية باعتبارها **قيد التثبيت**. عند الانتهاء ، قم بتحديث الصفحة لرؤية تغيير الحالة علي **مثبت**.

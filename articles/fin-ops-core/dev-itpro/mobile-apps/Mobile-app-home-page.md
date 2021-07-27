@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e13e99515d52e1e24970908a106ae99a7e8b0d80
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188400"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360806"
 ---
 # <a name="mobile-app-home-page"></a>الصفحة الرئيسية لتطبيق الجوال
 
@@ -39,7 +39,7 @@ ms.locfileid: "6188400"
 ## <a name="elements-of-the-mobile-app"></a>عناصر تطبيق الأجهزة المحمولة
 يتكوّن التنقل في تطبيق الأجهزة المحمولة من أربعة مفاهيم أساسية: لوحة المعلومات ومساحات العمل والصفحات والإجراءات. 
 
-[![مفاهيم التنقل في تطبيق الأجهزة المحمولة](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![مفاهيم التنقل في تطبيق الأجهزة المحمولة.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. عند بدء تشغيل التطبيق، يمكنك الانتقال إلى **لوحة المعلومات**.
 2. في لوحة المعلومات، يمكنك مشاهدة قائمة تتضمن **مساحات عمل** التي تم نشرها.
@@ -53,7 +53,7 @@ ms.locfileid: "6188400"
 ## <a name="implementation-process"></a>عملية التطبيق
 يعرض الرسم التوضيحي التالي عملية تنفيذ مساحات العمل المحمولة التي يتم توفيرها من قبل Microsoft ومساحات العمل المحمولة المخصصة. 
 
-[![عملية تنفيذ تطبيقات الأجهزة المحمولة](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![عملية تنفيذ تطبيقات الأجهزة المحمولة.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 يتضمن الجدول التالي ارتباطات إلى الموارد التي يمكن أن تساعدك في تنفيذ مساحات العمل المحمولة التي يتم توفيرها من قبل Microsoft ومساحات العمل المحمولة المخصصة. تتوافق الأرقام في العمود الأول مع الخطوات المرقمة في الرسم التوضيحي السابق.
 

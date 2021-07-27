@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112663"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346536"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>الترقية إلى الطرف ونموذج دفتر العناوين العمومي
 
@@ -89,7 +89,7 @@ ms.locfileid: "6112663"
 
 10. بعد عملية النشر، تحقق من صحة مجموعات البيانات وتدفق البيانات والخدمة المرتبطة لمصنع البيانات.
 
-   ![مجموعات البيانات وتدفق البيانات والخدمة المرتبطة](media/data-factory-validate.png)
+   ![مجموعات البيانات وتدفق البيانات والخدمة المرتبطة.](media/data-factory-validate.png)
 
 11. انتقل إلى **إدارة**. ضمن **الاتصالات**، حدد **الخدمة المرتبطة**. حدد **DynamicsCrmLinkedService**. في النموذج **تحرير الخدمة المرتبطة (Dynamics CRM)**، أدخل القيم التالية.
 
@@ -154,7 +154,7 @@ ms.locfileid: "6112663"
 
 7. في مصنع البيانات، قم بتشغيل القالب عن طريق تحديد **تشغيل الآن** كما هو موضح في الصورة التالية. قد تتطلب هذه العملية بضع ساعات لتكتمل بالاستناد إلى حجم البيانات.
 
-    ![تشغيل المشغل](media/data-factory-trigger.png)
+    ![تشغيل المشغل.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > إذا كانت لديك تخصيصات **الحساب** و **جهة الاتصال** و **المورّد**، فيجب تعديل القالب.
@@ -164,7 +164,7 @@ ms.locfileid: "6112663"
     + نزّل الملف `FONewParty.csv` من مخزن البيانات الثنائية كبيرة الحجم لـ Azure. المسار هو `partybootstrapping/output/FONewParty.csv`.
     + حول الملف `FONewParty.csv` إلى ملف Excel وقم باستيراد ملف Excel إلى تطبيق finance and operations. إذا نجحت عملية استيراد csv، فيمكنك استيراد ملف csv مباشرة. قد يستغرق تشغيل عملية الاستيراد بضع ساعات، بحسب حجم البيانات. لمزيد من المعلومات راجع [نظرة عامة حول وظائف استيراد البيانات وتصديرها](../data-import-export-job.md).
 
-    ![استيراد سجلات طرف Datavers](media/data-factory-import-party.png)
+    ![استيراد سجلات طرف Datavers.](media/data-factory-import-party.png)
 
 9. في تطبيقات customer engagement، قم بتمكين خطوات المكون الإضافي التالية:
 
@@ -199,7 +199,7 @@ ms.locfileid: "6112663"
 3. يتم تشغيل مصنع البيانات استنادًا إلى ملفات csv المفصولة بفواصل. إذا كانت هناك قيمة حقل تتضمن فاصلة، فقد تتداخل مع النتائج. تحتاج إلى إزالة الفواصل.
 4. توفر علامة التبويب **المراقبة** معلومات حول كافة الخطوات والبيانات التي تمت معالجتها. حدد خطوة معينة لتصحيحها.
 
-    ![علامة تبويب المراقبة](media/data-factory-monitor.png)
+    ![علامة تبويب المراقبة.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>اعرف المزيد عن القالب
 
