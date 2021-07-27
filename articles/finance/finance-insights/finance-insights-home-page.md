@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261900"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338219"
 ---
 # <a name="finance-insights-home-page-preview"></a>الصفحة الرئيسية ‏‫للمعلومات المالية‬ (معاينة)
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261900"
 
 توفر Finance insights نماذج قابلة للتكوين وقابلة للتوسعة لمساعدتك في توقع التدفق النقدي لشركتك بشكل دقيق وبذكاء، وتوقع الوقت الذي ستقوم فيه باستلام المدفوعات المدينة المستحقة وإنشاء مقترح موازنة يمكنه تسريع عملية إعداد الموازنة. تعتمد كافة هذه الميزات على نماذج التعلم الآلي الذكية. عند جمع هذه الإمكانيات الجديدة مع التنفيذ التلقائي في مدفوعات الموردين والمجموعات، فإنها توفر نظامًا ماليًا غنيًا وذكيًا يساعد في اتخاذ القرار وفي اتخاذ إجراء الاستجابة لتحديات العمل الحالية والمتوقعة بفاعلية.
 
-تتوفر معاينة Finance insights لعمليات النشر التجريبية في الولايات المتحدة الأميركية وأوروبا والمملكة المتحدة. تُعد Microsoft دعمًا إضافيًا بشكل متزايد للعديد من المناطق.
-
-يمكن أن يتم تشغيل ميزات المعاينة ويجب تشغيلها فقط في بيئات الحماية لتحديد صلاحيات المستوى 2. لا يمكن ترحيل نماذج الإعداد والذكاء الاصطناعي (AI) التي يتم إنشاؤها في بيئة الحماية إلى بيئة التشغيل. لمزيد من المعلومات، راجع [شروط الاستخدام الإضافية لمعاينات Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> تتوفر معاينة Finance insights للنشر عمليات النشر في الولايات المتحدة الأميركية وكندا والمملكة المتحدة وأوروبا ومنطقة آسيا المطلة على المحيط الهادئ وأستراليا ونيوزيلندا. تُعد Microsoft دعمًا إضافيًا بشكل متزايد للعديد من المناطق. لتمكين Finance insights في بيئات الإنتاج، يمكن تمكين إمكانات [التصدير إلى Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) في بيئة الإنتاج أولاَ.
 
 > [!NOTE]
 > يتم تقديم هذه الوظيفة كمجموعة من ميزات المعاينة. كميزة معاينة، يجب عدم استخدام نماذج التعلم الآلي الناتجة لتوجيه قرارات الأعمال أو مقترحات الموازنة أو التأثير عليها. يخضع استخدامك لهذه الميزة إلى [شروط الاستخدام الإضافية](https://go.microsoft.com/fwlink/?linkid=2105274).
@@ -46,7 +47,7 @@ ms.locfileid: "6261900"
 
 ### <a name="system-requirements"></a>متطلبات النظام
 
-يلزم وجود بيئة الحماية لتحديد صلاحيات المستوى 2 (متعددة الصندوق) لمعاينة Finance insights. لمزيد من المعلومات الخلفية الخاصة بالبيئات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+يلزم وجود بيئة من المستوى 2 (متعددة الصندوق) لمعاينة Finance insights. لمزيد من المعلومات الخلفية الخاصة بالبيئات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>متطلبات الإصدار
 
@@ -55,8 +56,6 @@ ms.locfileid: "6261900"
 ### <a name="historical-data-requirements"></a>متطلبات البيانات التاريخية
 
 يجب توفر قيمة واحدة على الأقل من فواتير العميل للتدرب بشكل صحيح على نموذج التعلم الآلي الذي يستخدم لميزة توقعات دفع العميل‬.
-
-تتوفر عينة البيانات لأنظمة العرض التوضيحي التي تحتوي على مجموعة العرض التوضيحي لـ Contoso.
 
 ### <a name="role-and-permission-requirements"></a>متطلبات الدور والإذن
 
@@ -72,7 +71,7 @@ ms.locfileid: "6261900"
 ## <a name="configure-finance-insights"></a>تكوين ‏‫المعلومات المالية‬
 
 يجب إكمال بعض خطوات التكوين قبل أن تتمكن من استخدام Finance insights. لمزيد من المعلومات عن كيفية تكوين Finance insights، راجع .
-  - بالنسبة للإصدارات [تكوين لـ Finance insights - الإصدارات حتى 10.0.19](configure-for-fin-insites.md).
+  - بالنسبة للإصدارات حتى 10.0.19: [التكوين لـ Finance insights (معاينة) - الإصدارات حتى 10.0.19](configure-for-fin-insites.md).
   - بالنسبة للإصدارات 10.0.20 وما بعدها: [تكوين Finance Insights (الإصدار الأولي) - الإصدارات 10.0.20 وما بعدها](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>إنشاء مشروع تكامل البيانات

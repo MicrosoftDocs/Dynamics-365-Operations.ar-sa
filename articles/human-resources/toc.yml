@@ -351,13 +351,15 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: إرسال طلب إجازة إلى سير العمل
                       href: hr-developer-api-myleaverequests-submit.md
-        - name: واجهة برمجة تطبيقات تكامل ATS
+        - name: واجهة برمجة تطبيقات (API) تكامل ATS
           items:
             - name: مقدمة
               href: hr-admin-integration-ats-api-introduction.md
-            - name: طلب التعيين والكيانات ذات الصلة
+            - name: مصادقة خادم إلى خادم لعمليات تكامل ATS
+              href: hr-admin-integration-ats-api-s2s-auth.md
+            - name: طلب التوظيف والكيانات ذات الصلة
               items:
-                - name: طلب التعيين
+                - name: طلب التوظيف
                   href: hr-admin-integration-ats-api-recruiting-request.md
                 - name: تعليم طلب التعيين
                   href: hr-admin-integration-ats-api-recruiting-request-education.md
@@ -427,7 +429,7 @@
                   href: hr-admin-integration-ats-api-marital-status.md
                 - name: شهور السنة
                   href: hr-admin-integration-ats-api-months-of-year.md
-                - name: لا     نعم
+                - name: لا نعم
                   href: hr-admin-integration-ats-api-no-yes.md
                 - name: وحدة الفترة
                   href: hr-admin-integration-ats-api-period-unit.md
@@ -443,16 +445,40 @@
               href: hr-admin-integration-payroll-api-introduction.md
             - name: إنشاء كيانات كشف الرواتب ومراجعتها
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: الموظف حسب كشف الرواتب
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: عنوان عامل كشف الرواتب
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: خطة التعويض الثابتة لكشف الرواتب
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: وظيفة منصب كشف الرواتب
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: منصب كشف الرواتب
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: معلمات تكامل كشوف الرواتب
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: كيانات الرواتب
+              items:
+                - name: الموظف حسب كشف الرواتب
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: عنوان عامل كشف الرواتب
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: خطة التعويض الثابتة لكشف الرواتب
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: خطة التعويض المتغير في كشف الرواتب
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: المنصب في كشف الرواتب
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: وظيفة المنصب في كشف الرواتب
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: الكيانات ذات الصلة بالإجازة والغياب
+              items:
+                - name: رصيد الإجازات
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: نوع الإجازة
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: طلب إجازة
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: مجموعات الخيار
+              items:
+                - name: الجنس
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: لا نعم
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: نوع المكافأة
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: نوع العملية
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: دليل المستخدم
       items:
         - name: نظرة عامة
@@ -521,9 +547,9 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
                     - name: تكوين مهام مؤتمتة
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: تكوين عمليات اعتماد
+                    - name: تكوين عمليات الاعتماد
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: تكوين خطوات اعتماد
+                    - name: تكوين خطوات الاعتماد
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
                     - name: تكوين قرارات يدوية
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
@@ -599,6 +625,8 @@
           items:
             - name: تنظيم القوى العاملة
               href: hr-personnel-departments-jobs-positions.md
+            - name: مساحة عمل إدارة العاملين
+              href: hr-personnel-personnel-management-workspace.md
             - name: إعداد مكونات وظيفة
               href: hr-personnel-jobs.md
             - name: تحديد الأقسام
@@ -607,9 +635,11 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: تحديد الوظائف
               href: hr-personnel-define-jobs.md
+            - name: المناصب‬
+              href: hr-personnel-positions.md
             - name: إنشاء تقويم مواعيد العمل
               href: hr-personnel-create-working-time-calendar.md
-            - name: تعيين المرشحين للوظائف
+            - name: توظيف المرشحين للوظائف
               href: hr-personnel-recruit.md
             - name: الأسئلة المتداولة حول إجراءات العاملين
               href: hr-personnel-actions-faq.md
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: تقييد تحرير المعلومات الشخصية
               href: hr-employee-self-service-restrict-editing.md
+        - name: استخدام نظام سير العمل
+          items:
+            - name: نظرة عامة على نظام سير العمل
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: بنية نظام سير العمل
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: عناصر سير العمل
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: إجراءات سير العمل
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: إنشاء عمليات سير عمل
+              items:
+                - name: نظرة عامة حول إنشاء عمليات سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين خصائص سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين مهام يدوية
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين مهام مؤتمتة
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين عمليات الاعتماد
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين خطوات الاعتماد
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين مراجعي النفقات
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين قرارات يدوية
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين قرارات شرطية
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين أنشطة موازية
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين فروع موازية
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين عمليات سير عمل لعنصر بند
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: تكوين الوظيفة الدفعية لمعالجة رسائل سير العمل كحرجة
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: تفويض عناصر العمل في سير عمل
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: عرض محفوظات سير العمل
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: تكوين النظام لإرسال رسائل بريد إلكتروني مرتبطة بسير العمل إلى المستخدمين
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: أنوع سير العمل
+              items:
+                - name: إنشاء نوع سير عمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: قائمة تحقق نوع سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء فئة سير عمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء استعلام لنوع سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء نوع سير عمل جديد
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء فئة مستندات سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء فئة SubmitToWorkflow
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: إقران فئة مستندات سير العمل بنوع سير عمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: تقرير أنواع سير العمل
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: الأسئلة المتداولة حول سير العمل
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json

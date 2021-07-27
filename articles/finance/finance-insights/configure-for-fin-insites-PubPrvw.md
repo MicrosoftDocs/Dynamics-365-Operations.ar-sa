@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222602"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309655"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>تكوين Finance insights للإصدار أولي للاستخدام العام (إصدار أولي) - الإصدار 10.0.20 والإصدارات اللاحقة
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222602"
 تضم Finance insights الوظيفة من Microsoft Dynamics 365 Finance مع Dataverse وAzure و AI Builder لتوفير أدوات التنبؤ القوية لمؤسستك. يشرح هذا الموضوع كيفية تكوين Dynamics 365 Finance الإصدار 10.0.20 لذلك يمكن للنظام استخدام القدرات المتوفرة في الإصدار الأولي للاستخدام العام من Finance insights.
 
 > [!NOTE]
-> تنطبق خطوات التكوين الموضحة في هذا الموضوع فقط على Finance الإصدار 10.0.20 والإصدارات اللاحقة. "لإعداد Finance insights في الإصدار 10.0.19 والإصدارات السابقة، راجع [تكوين Finance insights - الإصدارات حتى 10.0.18](configure-for-fin-insites.md).
+> تنطبق خطوات التكوين الموضحة في هذا الموضوع فقط على Finance الإصدار 10.0.20 والإصدارات اللاحقة. "لإعداد Finance insights في الإصدار 10.0.19 والإصدارات السابقة، راجع [تكوين Finance insights - الإصدارات حتى 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>نشر Finance
 
@@ -748,6 +748,8 @@ finally {
 2. في قسم **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.
 3. حدد الوظيفة الإضافية **Finance insights**.
 4. وافق على الشروط، ثم حدد **تثبيت**.
+
+قد تستغرق الوظيفة الإضافية عدة دقائق لتثبيتها.
 
 ## <a name="feedback-and-support"></a>الملاحظات والدعم
 
