@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815562"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352848"
 ---
 # <a name="general-journal-processing"></a>معالجة دفتر اليومية العام
 
@@ -42,14 +42,14 @@ ms.locfileid: "5815562"
 
 ويمكن استخدام اسم دفتر يومية للتسويات فقط. وفي هذه الحالة، يمكنك تحديد أن نوع حساب **دفتر الأستاذ** فقط صالح في كافة الشركات. 
 
-[![أنواع حساب التحكم في دفتر اليومية](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![أنواع حساب التحكم في دفتر اليومية.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 يمكن استخدام اسم دفتر اليومية فقط لمقطع محدد أو لمجموعة حسابات رئيسية. 
 
-[![مقطع التحكم في دفتر اليومية](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![مقطع التحكم في دفتر اليومية.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 يتوفر خيار **الإلغاء التلقائي** في دفاتر اليومية العامة. على سبيل المثال، لديك تسوية استحقاق لم تتم فيها معالجة المستند الفعلي، كما هو مبين في التوضيح التالي.
-[![عكس دفتر اليومية العام](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![عكس دفتر اليومية العام.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 يوفر مكون Microsoft Excel الإضافي لإدخال دفتر اليومية مستوى إضافيًا من التشغيل الآلي ويجعل إدخال البيانات أسهل. ويتوفر إجراء **فتح البنود في Excel** في صفحتي **دفتر اليومية العام** و **إيصال دفتر اليومية**. 
 

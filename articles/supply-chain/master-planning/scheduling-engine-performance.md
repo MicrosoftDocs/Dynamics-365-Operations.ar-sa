@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812897"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347700"
 ---
 # <a name="improve-scheduling-engine-performance"></a>تحسين أداء محرك الجدولة
 
@@ -66,11 +66,11 @@ ms.locfileid: "5812897"
 | 10 | ثانوي&nbsp;1 | | | | 1 | 20 |
 | 20 | رئيسي | | 3.00 | ١.٠٠ | 3 | 0 |
 
-![مثال، مخطط مسار](media/scheduling-engine-route.png "مثال، مخطط مسار")
+![مثال، مخطط مسار.](media/scheduling-engine-route.png "مثال، مخطط مسار")
 
 عند إرسال هذا إلى المحرك، يتم تقسيمه إلى ثمانية مهام، كما هو مبين في التوضيح التالي (حدد الصورة لتكبيرها).
 
-[![وظائف محرك الجدولة](media/scheduling-engine-jobs.png "وظائف محرك الجدولة")](media/scheduling-engine-jobs-large.png)
+[![وظائف محرك الجدولة‬](media/scheduling-engine-jobs.png "وظائف محرك الجدولة‬."](media/scheduling-engine-jobs-large.png)
 
 والارتباط القياسي بين مهمتين هو `FinishStart`الذي يعني أن وقت انتهاء وظيفة واحدة يجب أن يكون قبل وقت بدء وظيفة أخرى. ونظرا لأنه يجب اجراء الاعداد بواسطة نفس المورد الذي سيقوم بالعملية فيما بعد، فانه توجد قيود `OnSameResource` بينهما. وبين وظائف العملية الاساسيه والثانوية الخاصة بـ 10، توجد روابط `StartStart` و`FinishFinish`، والتي تعني ان الوظائف يجب ان تبدا وتنتهي في نفس الوقت، وهناك قيود `NotOnSameResource`، والتي ستمنع نفس المورد للاساسيه والثانوية.
 

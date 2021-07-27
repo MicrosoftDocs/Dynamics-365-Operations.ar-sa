@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053481"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344654"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>تحسين الأداء باستخدام تنظيف المهام تلقائيًا
 
@@ -41,23 +41,23 @@ ms.locfileid: "6053481"
 
 2. في شريط **البحث**، أدخل **‏‫تنظيف محفوظات الوظيفة الدُفعية**.
 
-   ![بحث عن تنظيف سجل الوظائف الدفعية](media/talent-batch-history-cleanup-search-bar.png)
+   ![بحث عن تنظيف سجل الوظائف الدفعية.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. في **حد السجل (أيام)**، أدخل **30**.
 
-   ![قم بتعيين حد السجل إلى 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![قم بتعيين حد السجل إلى 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. حدد **تشغيل في الخلفية** ثم حدد **التكرار**.
 
-   ![تعيين التكرار](media/talent-batch-history-cleanup-recurrence.png)
+   ![تعيين التكرار.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. ضمن **تعريف التكرار**، قم بتعيين **تاريخ البدء** و **وقت البدء** بحيث يقعان خلال ساعات التوقف عن العمل أو عطلة نهاية الأسبوع، ثم حدد **بلا تاريخ انتهاء**. 
 
-   ![تعيين تاريخ بدء التكرار ووقته](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![تعيين تاريخ بدء التكرار ووقته.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. ضمن **نمط التكرار**، حدد **أيام** وقم بتعيين **‏‫تكرار بعد الفترة المحددة** إلى **7**.
 
-   ![تعيين التنظيف ليتكرر أسبوعيًا](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![تعيين التنظيف ليتكرر أسبوعيًا.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. حدد **موافق**.
 

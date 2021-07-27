@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222575"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349024"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>تمكين توقعات دفع العميل (معاينة)
 
@@ -51,7 +51,7 @@ ms.locfileid: "6222575"
 
     1. انتقل إلى **عمليات التحصيل والائتمان \> الإعداد \> Finance insights \> معلمات Finance insights**.
 
-        [![صفحة معلمات Financial insights قبل تكوين الميزة](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![صفحة معلمات Financial insights قبل تكوين الميزة.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. في الصفحة **معلمات Financial insights**، في علامة التبويب **معلومات دفع العميل**، حدد الارتباط **عرض حقول البيانات المستخدمة في نموذج التنبؤ** لفتح الصفحة **حقول البيانات لنموذج التنبؤ**. هناك، يمكنك عرض القائمة الافتراضية للحقول المستخدمة لإنشاء نموذج التنبؤ الخاص بالذكاء الاصطناعي (AI) لتوقعات دفع العميل.
 
@@ -77,7 +77,7 @@ ms.locfileid: "6222575"
 
 بعد أن تم تشغيل الميزة وتكوينها، وإنشاء نموذج التنبؤ والعمل، يعرض القسم **نموذج التنبؤ** في الصفحة **معلمات Financial insights** دقة النموذج، كما هو موضح في الرسم التوضيحي التالي.
 
-[![دقة نموذج التنبؤ في صفحة معلمات Financial insights](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![دقة نموذج التنبؤ في صفحة معلمات Financial insights.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>تفاصيل الإصدار
 

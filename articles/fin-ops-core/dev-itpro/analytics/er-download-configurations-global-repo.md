@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893970"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351736"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين
 
@@ -40,7 +40,7 @@ ms.locfileid: "5893970"
 3. في مقطع **موفرو التكوين**، حدد لوحة **Microsoft**.
 3. على لوحة **Microsoft**، حدد **مستودعات**.
 
-    ![مساحة عمل إعداد التقارير الإلكترونية](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![مساحة عمل إعداد التقارير الإلكترونية.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. في صفحة **مستودعات التكوين**، في الشبكة، حدد المستودع الموجود من النوع **عمومي**. إذا لم يظهر هذا المستودع في الشبكة، فاتبع الخطوات التالية:
 
@@ -52,7 +52,7 @@ ms.locfileid: "5893970"
 
 5. حدد **فتح** لعرض قائمة تكوينات التقارير الإلكترونية للمستودع المحدد.
 
-    ![صفحة مستودعات التكوين](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![صفحة مستودعات التكوين.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>استيراد تكوين واحد
 
@@ -63,7 +63,7 @@ ms.locfileid: "5893970"
     > [!NOTE]
     > لا يتوفر الزر **استيراد** لإصدارات تكوينات التقارير الإلكترونية الموجودة في مثيل Finance الحالي.
 
-    ![صفحة مستودع التكوين](./media/er-download-configurations-global-repo-repository-content.png)
+    ![صفحة مستودع التكوين.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>استيراد تكوينات تمت تصفيتها
 
@@ -77,7 +77,7 @@ ms.locfileid: "5893970"
 4. على علامة التبويب السريعة **التكوينات**، حدد **استيراد** لتنزيل التكوينات التي تمت تصفيتها من المستودع العمومي إلى المثيل الحالي.
 5. على علامة التبويب السريعة **التكوينات**، حدد **إعادة تعيين عامل التصفية** لتنظيف شروط التحديد المعينة.
 
-    ![صفحة مستودع التكوين](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![صفحة مستودع التكوين.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > استنادًا إلى إعدادات التقارير الإلكترونية، يتم التحقق من صحة التكوينات بعد استيرادها. قد يتم إعلامك بأي مشكلات عدم التوافق التي يتم اكتشافها. قبل أن تتمكن من استخدام إصدار التكوين المستورد، يجب حل المشاكل. لمزيد من المعلومات، راجع قائمة الموارد ذات الصلة لهذا الموضوع.

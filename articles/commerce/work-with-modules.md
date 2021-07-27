@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d872719d3b1aa27ccfdcf36d7739c883e7b4996
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ed12444e2f03643e88ebad075366e26054a09e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801351"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350222"
 ---
 # <a name="work-with-modules"></a>العمل باستخدام الوحدات النمطية
 
@@ -53,7 +53,7 @@ ms.locfileid: "5801351"
 
 يبين الرسم التوضيحي التالي كيفية تداخل الوحدات النمطية داخل فتحات الوحدة النمطية للحاوية الأصل.
 
-![تداخل الوحدات النمطية](../commerce/media/basic-module-nesting.png)
+![تداخل الوحدات النمطية.](../commerce/media/basic-module-nesting.png)
 
 ## <a name="add-or-remove-modules"></a>إضافة الوحدات النمطية أو إزالتها
 

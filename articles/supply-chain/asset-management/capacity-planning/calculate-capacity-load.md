@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba4b9ef43e27f689e1f10d2ee8f10f6ea4bf43ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ab8af010b07704a5b4994bbe356cd710ab249291
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821719"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351623"
 ---
 # <a name="calculate-capacity-load"></a>حساب القدرة الإنتاجية
 
@@ -53,7 +53,7 @@ ms.locfileid: "5821719"
 
 7. في مجموعات **تجميع حسب...** ، انقر فوق الأزرار ذات الصلة لإظهار مستوى التفاصيل المطلوب للحساب. في لقطه الشاشة أدناه، يتم تمييز الأزرار **تجميع حسب** المحددة باللون الأزرق. انقر فوق زر لتنشيطه أو إلغاء تنشيطه.
 
-    ![الشكل 1](media/01-capacity-planning.png)
+    ![الشكل 1.](media/01-capacity-planning.png)
 
 >[!NOTE]
 >إذا أردت التركيز فقط على تخطيط القدرة الإنتاجية فيما يتعلق بأوامر العمل المجدولة، راجع [حساب القدرة الإنتاجية على أوامر العمل المجدولة](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).

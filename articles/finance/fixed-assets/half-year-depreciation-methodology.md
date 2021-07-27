@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a8dd3d8c6b92be9f22573f463aa96b13d9e3418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355522"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>منهج قاعدة إهلاك نصف السنة
 
@@ -36,7 +36,7 @@ ms.locfileid: "5818571"
 > الإهلاك السنوي 50,000/5 = 10,000 الإهلاك الشهري 10,000/12 = 833.33 <br>
 > إهلاك السنة الأولى 10,000/2 = 5,000 والإهلاك الشهري التالي 5,000/9 = 555.56
 
-   [![جدول الإهلاك لقاعدة إهلاك نصف السنة](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![جدول الإهلاك لقاعدة إهلاك نصف السنة.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 توفر فترات الإهلاك الممتدة التي تضيفها قاعدة النصف سنة توزيعًا أكثر دقة للإهلاك. تمثل قاعدة الستة أشهر مصروفات الإهلاك بطريقة متساوية، الأمر الذي يعتبر مفيدًا لإعداد تقرير كشف الأرباح والخسائر.
 

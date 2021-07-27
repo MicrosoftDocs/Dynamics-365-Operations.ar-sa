@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5dbef67728e86259ee48b51c48921f6e44a61015
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 356552fd1c2001619785b6a03b8ec4cba92725da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793047"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351311"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>تكوين الفئات النقدية‬ لنقطة البيع (POS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5793047"
 
 يتم إعداد فئات الأوراق النقدية لكل متجر في الخيار **إعداد** \> **خيار إقرار النقدية‬** من ثصفحة موقع المتجر.
 
-![خيار إقرار النقدية](./media/image1-denomination.png)
+![خيار إقرار النقدية.](./media/image1-denomination.png)
 
 لتحديد فئة عملة:
 
@@ -41,7 +41,7 @@ ms.locfileid: "5793047"
 1. حدد النوع (نقود معدنية أو عملات ورقية).
 1. حدد المبلغ (القيمة).
 
-![صفحة فئات إقرار النقدية](./media/image2-denomination.png)
+![صفحة فئات إقرار النقدية.](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>تكوين ملف تعريف الوظائف
 

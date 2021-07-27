@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 0ecb03d7d826fc6d79f1df800da22dc913177ee4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b65f23516d6be3d5d942d787261f5b8394c9f9c5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824860"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356941"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>مزامنة المنتجات مع وحدة المخزون من Supply Chain Management إلى Field Service
 
@@ -29,7 +29,7 @@ ms.locfileid: "5824860"
 
 يصف هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات مع وحدة المخزون المشروع من Dynamics 365 Supply Chain Management إلى Dynamics 365 Field Service.
 
-[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
+[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service.](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
 يستند القالب المستخدم **منتجات Field Service مع وحدة المخزون (Fin and Ops إلى Field Service)** إلى القالب **منتجات Field Service (Supply Chain Management إلى Field Service)**. لمزيد من المعلومات، راجع [مزامنة المنتجات في Supply Chain Management مع المنتجات في Field Service](field-service-product.md).
 
@@ -59,7 +59,7 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 
 ### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>منتجات Field Service مع وحدة المخزون (Supply Chain Management إلى Field Service): المنتجات
 
-[![تعيين القالب في تكامل البيانات](./media/FSProduct1.png)](./media/FSProduct1.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSProduct1.png)](./media/FSProduct1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

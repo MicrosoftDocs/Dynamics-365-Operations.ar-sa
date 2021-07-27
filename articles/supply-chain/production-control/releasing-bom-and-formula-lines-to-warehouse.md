@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811668"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350536"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>إصدار قائمة مكونات الصنف وبنود المعادلة إلى المستودع
 
@@ -61,7 +61,7 @@ ms.locfileid: "5811668"
 
 يبين التوضيح التالي أمر الإنتاج الذي يوجد به وظيفتين، 10 و20، والتي تشمل التجميع والتعبئة لأمر الإنتاج. يتم إعداد كل وظيفة لاستهلاك كمية المواد. في هذا التوضيح، يكون الحد الزمني للإصدار المُشار إليه بالسهم الأخضر أسفل وقت الانتهاء مساويًا لعدد الأيام التي تم تحديدها في معيار **(LessThanDate())**. على سبيل المثال، يُشير **(LessThanDate(2))** إلى أن الوظيفة يجب أن تقوم بالبحث عن الكميات غير المُصدرة في غضون حد زمني يومين فقط.
 
-![مثال لأمر إنتاج يحتوي على وظيفتين دفعيتين](media/bach-job-setup.PNG)
+![مثال لأمر إنتاج يحتوي على وظيفتين دفعيتين.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>إصدار المواد حسب رقم العملية أو بالتناسب مع مبلغ البضائع المكتملة
 
@@ -78,7 +78,7 @@ ms.locfileid: "5811668"
 
 يبين التوضيح التالي أمر إنتاج العملياتيحتوي على العمليتين 10 و20. في هذا المثال، إذا قمت بتحديد الإصدار للعملية 10، فسوف يتم إصدار المواد M9203 فقط.
 
-![مثال لإصدار المواد حسب رقم العملية](media/two-operations.PNG)
+![مثال لإصدار المواد حسب رقم العملية.](media/two-operations.PNG)
 
 لمشاهدة عرض توضيحي سريع حول إصدار المواد بطريقة تتناسب مع كمية السلع المنتهية، شاهد هذا الفيديو القصير على YouTube حول [تحسينات عملية إصدار أمر إنتاج](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 

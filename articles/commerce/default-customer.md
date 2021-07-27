@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799169"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349592"
 ---
 # <a name="create-a-default-customer"></a>إنشاء عميل افتراضي
 
@@ -47,7 +47,7 @@ ms.locfileid: "5799169"
 
 تعرض الصورة التالية العديد من مجموعات العملاء التي تم تكوينها.
 
-![مجموعات العملاء](media/customer-groups.png)
+![مجموعات العملاء.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>إنشاء دفتر عناوين للعميل.
 
@@ -63,7 +63,7 @@ ms.locfileid: "5799169"
 
 تعرض الصورة التالية مثالاً لدفتر عناوين.
 
-![دفتر العناوين](media/address-book.png)
+![دفتر العناوين.](media/address-book.png)
 
 ## <a name="create-a-default-customer&quot;></a>إنشاء عميل افتراضي
 
@@ -86,11 +86,11 @@ ms.locfileid: "5799169"
 
 تعرض الصورة التالية مثالاً لإنشاء عميل.
 
-![إنشاء عميل افتراضي](media/default-customer-creation.png)
+![إنشاء عميل افتراضي.](media/default-customer-creation.png)
 
 تظهر الصورة التالية تكوين عميل افتراضي.
 
-![عينة تكوين عميل](media/default-customer-configuration1.png)
+![عينة تكوين عميل.](media/default-customer-configuration1.png)
 
 يمكن أن تبقى معظم القيم الافتراضية على شاشة تفاصيل العميل، ولكن يجب تغيير قيمتين.
 
@@ -100,13 +100,13 @@ ms.locfileid: "5799169"
 
 تعرض الصورة التالية مثالاً لتكوين عميل.
 
-![مثال تكوين عميل](media/default-customer-configuration2.png)
+![مثال تكوين عميل.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على القنوات](channels-overview.md)
+[نظره عامة حول القنوات](channels-overview.md)
 
-[المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
+[المتطلبات الأساسية لإعداد القناة](channels-prerequisites.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

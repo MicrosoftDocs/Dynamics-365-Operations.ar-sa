@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223976"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355384"
 ---
 # <a name="electronic-reporting-formula-language"></a>لغة تركيبة التقارير الإلكترونية
 
@@ -117,15 +117,15 @@ ms.locfileid: "6223976"
 
 إذا كان مسار مصدر بيانات مصنف يبدأ بعلامة "at" (@)، فهذا مسار نسبي. يتم إظهار علامة "at" بدلاً من الجزء المتبقي من المسار المطلق للبنية الشجرية الهرمية المستخدمة. يبين الرسم التوضيحي التالي مثالاً. هنا، يشير المسار المطلق `Ledger.'accountingCurrency()'` إلى أن قيمة عملة المحاسبة من مصدر بيانات **دفتر الأستاذ** يتم إدخالها في حقل **AccountingCurrency** الخاص بنموذج البيانات.
 
-![مثال للمسار المطلق علي صفحة مصمم تعيين نموذج](./media/ER-FormulaLanguage-AbsolutePath.png)
+![مثال للمسار المطلق على صفحة مصمم تعيين نموذج.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 يظهر المثال في الرسم التوضيحي التالي كيفية استخدام مسار نسبي. يشير المسار النسبي `@.AccountNum` إلى انه يتم استخدام حقل **AccountNum** الخاص بمصدر بيانات **Intrastat** (الذي يظهر مستوي اعلي من الحقل **AccountNum** في الشجرة الهرمية لنموذج البيانات) لإدخال رقم حساب العميل أو المورد في نموذج بيانات حقل **AccountNum** .
 
-![مثال للمسار النسبي علي صفحة مصمم تعيين نموذج تقارير إلكترونية](./media/ER-FormulaLanguage-RelativePath1.png)
+![مثال للمسار النسبي على صفحة مصمم تعيين نموذج تقارير إلكترونية.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 يتم أيضًا إظهار الجزء المتبقي من المسار المطلق في [محرر تركيبة تقارير إلكترونية](general-electronic-reporting-formula-designer.md).
 
-![الجزء المتبقي من المسار المطلق علي صفحة مصمم تركيبة التقارير الإلكترونية](./media/ER-FormulaLanguage-RelativePath2.png)
+![الجزء المتبقي من المسار المطلق على صفحة مصمم تركيبة التقارير الإلكترونية.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 لمزيد من المعلومات، راجع [استخدام مسار نسبي في روابط البيانات لتنسيقات ونماذج ER](relative-path-data-bindings-er-models-format.md).
 

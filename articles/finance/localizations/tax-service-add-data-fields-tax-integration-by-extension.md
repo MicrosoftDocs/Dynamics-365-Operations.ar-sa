@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a3da8e1b8176eb25fe4e0a320aa3e907c06e09c5
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cdac52ed7f11f796b9559e5454456fb139c6ba00
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021358"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346388"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>أضافه حقول البيانات في تكامل الضريبة باستخدام الملحقات
 
@@ -41,7 +41,7 @@ ms.locfileid: "6021358"
 
 يبين الرسم التوضيحي التالي كيفيه ارتباط هذه الكائنات.
 
-[![علاقة كائن نموذج البيانات](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
+[![علاقة كائن نموذج البيانات.](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
 
 يمكن أن يحتوي كائن **المستند** على العديد من كائنات **البنود**. يحتوي كل كائن علي بيانات تعريف لخدمه الضرائب.
 

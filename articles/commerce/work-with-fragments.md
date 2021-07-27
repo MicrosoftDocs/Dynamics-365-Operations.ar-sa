@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 017cdc76368ae4f80131471a289aa03ab06c99bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793935"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350198"
 ---
 # <a name="work-with-fragments"></a>العمل باستخدام الأجزاء 
 
@@ -62,7 +62,7 @@ ms.locfileid: "5793935"
 1. في مربع الحوار **حفظ كجزء**، ادخل اسمًا لهذا الجزء.
 1. حدد **موافق** لحفظ تكوين الوحدة النمطية كجزء يمكن إضافته إلى الصفحات الأخرى.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>إنشاء جزء جديد
 
@@ -73,7 +73,7 @@ ms.locfileid: "5793935"
 1. حدد نوع الوحدة النمطية لجزء الخاص بك.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > وعن طريق تحديد نوع وحدة الحاوية النمطية العامة، فإنه يمكنك الحصول على أعلى درجات المرونة عند ضرورة تحديث الجزء الخاص بك وتكوينه لاحقًا.
 
@@ -88,14 +88,14 @@ ms.locfileid: "5793935"
 1. في جزء المخطط التفصيلي إلى اليمين أو مباشرةً في أداة إنشاء الصفحة المرئية، حدد حاوية أو فتحة يمكن إضافة وحدات نمطية تابعة إليها.
 1. حدد علامة القطع (**...**) إلى جانب اسم الفتحة أو الحاوية.  أو إذا كنت تستخدم أداة إنشاء الصفحة المرئية، فحدد رمز علامة الجمع ( **+**).  
 1. حدد **إضافة جزء**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > إذا كانت الحاوية أو الفتحة لا تدعم وحدات تابعة جديدة، فلن يكون خيار **إضافة جزء** متوفرًا.
     
 1. في مربع الحوار **تحديد جزء**، ابحث عن جزء وحدده لإضافته. إذا لم يتم سرد الأجزاء المتوفرة، فقد تحتاج أولاً إلى إنشاء جزء من نوع الوحدة النمطية التي تدعمها الحاوية أو الفتحة المحددة.
 1. حدد الجزء المطلوب لإضافته إلى الحاوية أو الفتحة على الصفحة الخاصة بك.
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > يتم تعريف الوحدات النمطية المسموح بها في حاوية أو فتحة بواسطة قالب الصفحة أو تعريفات الوحدات النمطية الخاصة بها.

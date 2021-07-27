@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 63994a4583e27b0197b9fc42c622f6c0e42c84ee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753278"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355408"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>تصميم تكوينات التقارير الإلكترونية لملء قوالب PDF
 
@@ -115,11 +115,11 @@ ms.locfileid: "5753278"
 
 يبين الرسم التوضيحي التالي قالب PDF الخاص بالصفحة الأولى من التقرير.
 
-![القالب 1](media/rcs-ger-filloutpdf-template1.png)
+![القالب 1.](media/rcs-ger-filloutpdf-template1.png)
 
 يبين الرسم التوضيحي التالي قالب PDF الخاص بالصفحات الأخرى من التقرير.
 
-![القالب 2](media/rcs-ger-filloutpdf-template2.png)
+![القالب 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. في صفحة **التكوينات**، حدد **المصمم**.
 2. حدد **إضافة جذر**.
@@ -146,7 +146,7 @@ ms.locfileid: "5753278"
 
 12. حدد **موافق**.
 
-    ![مربع الحوار "استيراد من PDF"](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![مربع الحوار "استيراد من PDF".](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. في الشجرة، قم بتوسيع **الإخراج‬**.
 
@@ -176,7 +176,7 @@ ms.locfileid: "5753278"
 
     لاحظ أنه تم إرفاق مستند PDF الذي تم استيراده بتنسيق التقارير الإلكترونية الذي تم تحريره.
 
-    ![معاينة مرفقات PDF](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![معاينة مرفقات PDF.](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. تابع تصميم هذا التنسيق عن طريق استيراد قالب PDF الثاني وإضافة لارتباطات الضرورية إلى مصادر البيانات، وما إلى ذلك.
 20. حدد **حفظ**.
@@ -215,7 +215,7 @@ ms.locfileid: "5753278"
 1. في الصفحة **مصمم التنسيق**، حدد علامة التبويب **التعيين**.
 2. في الشجرة، قم بتوسيع **ترحيل الصفحات \> الصفحات**.
 
-    ![يتم توسيع صفحة مصمم المعادلة‬ حيث شجرة النموذج.](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![يتم توسيع صفحة مصمم المعادلة‬ التي يوجد بها شجرة النماذج.](media/rcs-ger-filloutpdf-reviewformat.png)
 
     لاحظ التفاصيل التالية:
 
@@ -238,7 +238,7 @@ ms.locfileid: "5753278"
 
     لاحظ أن سمة **الاسم** لعنصر التنسيق هذا معرّفة كـ **التصحيح 1‎**. ولاحظ أيضًا أنه تم تعريف تعبير **الاسم** لعنصر التنسيق كـ **Paging.FldName("Correction",\@.Number)**.
 
-![مصمم التنسيق حيث تم تحديد تعيين](media/rcs-ger-filloutpdf-reviewformat2.png)
+![مصمم التنسيق الذي تم فيه تحديد تعيين.](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 لاحظ ان عنصر تنسيق‏‎ **الحقل** يُستخدم لتعبئة حقل فردي من مستند PDF قابل للتعبئة تم تعريفه كقالب لعنصر التنسيق الأصل **ملف PDF**. يحدد ارتباط عنصر تنسيق **ملف PDF** أو عناصر المتداخلة، عند وجودها، القيمة التي تم إدخالها في حقول PDF المناظرة. يمكن استخدام خصائص مختلفة لعنصر تنسيق **الحقل** لتحديد أي حقل PDF تتم تعبئته بواسطة عنصر تنسيق فردي:
 
@@ -275,7 +275,7 @@ ms.locfileid: "5753278"
 
     عند تعيين الخيار **الاعداد الافتراضي لتعيين النموذج** إلى **نعم**، يتم تعيين تنسيق التقارير الإلكترونية **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (استيراد من Excel)** المستورد كمصدر بيانات افتراضي لتكوين تنسيق **تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (PDF)**. بعد ذلك، عند تشغيل تكوين تنسيق **تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (PDF)** ، سيحاكي محتوى مصنف Excel الذي تم تحليله بواسطة **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (استيراد من Excel)** الحركات التجارية الخارجية التي يجب إدخالها في التقرير. يبين الرسم التوضيحي التالي مثالاً لمصنف Excel.
 
-    ![مصنف Excel يحتوي على بيانات نموذجية](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![مصنف Excel يحتوي على بيانات نموذجية.](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>تشغيل تكوين التنسيق
 
@@ -289,11 +289,11 @@ ms.locfileid: "5753278"
 
 يبين الرسم التوضيحي التالي مثالاً للصفحة الأولى من التقرير الذي يتم إنشاؤه.
 
-![الصفحة الأولى من التقرير المُنشأ](media/rcs-ger-filloutpdf-generatedreport.png)
+![الصفحة الأولى من التقرير المُنشأ.](media/rcs-ger-filloutpdf-generatedreport.png)
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة أخرى من التقرير الذي يتم إنشاؤه.
 
-![الصفحة الأخرى من التقرير المُنشأ](media/rcs-ger-filloutpdf-generatedreport2.png)
+![الصفحة الأخرى من التقرير المُنشأ.](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

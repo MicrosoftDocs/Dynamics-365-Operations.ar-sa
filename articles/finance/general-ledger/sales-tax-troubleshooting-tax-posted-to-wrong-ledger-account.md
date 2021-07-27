@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020081"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343804"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>يتم ترحيل الضريبة إلى حساب دفتر الأستاذ الخطا في الإيصال
 
@@ -30,26 +30,26 @@ ms.locfileid: "6020081"
 
 1. في صفحة **حركات الإيصال**، حدد الحركة التي ترغب في العمل معها، ثم حدد **ضريبة المبيعات المرحلة**.
 
-    [![زر ضريبة المبيعات المرحلة في صفحه حركات الإيصال](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![زر ضريبة المبيعات المرحلة في صفحة حركات الإيصال.](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
 2. راجع القيمة في الحقل **كود ضريبة المبيعات**. في هذا المثال، تكون **VAT 19**.
 
-    [![حقل كود ضريبة المبيعات في صفحه ضريبة المبيعات المرحلة](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![حقل كود ضريبة المبيعات في صفحة ضريبة المبيعات المرحلة.](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>فحص مجموعه ترحيل دفتر الأستاذ الخاصة بكود الضريبة
 
 1. انتقل إلى **الضريبة** \> **الضرائب غير المباشرة** \> **ضريبة المبيعات** \> **رموز ضرائب المبيعات**.
 2. تتيح البحث عن كود الضريبة وتحديده، ثم مراجعه القيمة الموجودة في حقل **مجموعه ترحيل دفتر الأستاذ**. في هذا المثال، تكون **VAT**.
 
-    [![حقل مجموعة ترحيل دفتر الأستاذ في صفحة أكواد ضريبة المبيعات](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
+    [![حقل مجموعة ترحيل دفتر الأستاذ في صفحة أكواد ضريبة المبيعات.](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
 
 3. القيمة في حقل **مجموعة ترحيل دفتر الأستاذ** هي ارتباط. لعرض تفاصيل تكوين المجموعة، حدد الارتباط. بدلا من ذلك، حدد ثم اضغط (أو انقر بزر الماوس الأيمن) في الحقل، ثم حدد **عرض التفاصيل**.
 
-    [![أمر عرض التفاصيل](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![أمر عرض التفاصيل.](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. في حقل **ضريبة المبيعات مستحقه الدفع**، تحقق من صحة رقم الحساب، وذلك وفقا لنوع الحركة. وإذا لم تكن كذلك، فحدد الحساب الصحيح الذي سيتم الترحيل اليه. في هذا المثال، يجب ترحيل ضريبة المبيعات الخاصة بامر التوريد إلى حساب ضريبة المبيعات المستحقة الدفع 222200.
 
-    [![حقل ضريبة المبيعات المستحقة في صفحة مجموعات ترحيل دفتر الأستاذ](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
+    [![حقل ضريبة المبيعات المستحقة في صفحة مجموعات ترحيل دفتر الأستاذ.](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
 
     يوفر الجدول التالي معلومات حول كل حقل في صفحة **مجموعات ترحيل دفتر الأستاذ**.
 
@@ -71,11 +71,11 @@ ms.locfileid: "6020081"
 
 1. بالنسبة لأمر التوريد، أضف نقطه توقف في أسلوبي **Tax::saveAndPost()** و **Tax::post()**. انتبه إلى قيمة **\_ledgerDimension**.
 
-    [![نموذج لكود أمر المبيعات الذي يحتوي علي نقطه توقف](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![نموذج لكود أمر المبيعات الذي يحتوي على نقطة توقف.](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
     لأمر الشراء، أضف نقطة توقف عند أسلوبي **TaxPost::saveAndPost()** و **TaxPost::postToTaxTrans()**. انتبه إلى قيمة **\_ledgerDimension**.
 
-    [![نموذج لكود أمر الشراء الذي يحتوي علي نقطه توقف](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![نموذج لكود أمر الشراء الذي يحتوي على نقطة توقف.](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
 2. قم بتشغيل استعلام SQL التالي للعثور على قيمة عرض الحساب في قاعدة البيانات، بناءً على معرف السجل الذي تم حفظه بواسطة بُعد دفتر الأستاذ.
 
@@ -83,7 +83,7 @@ ms.locfileid: "6020081"
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![عرض قيمة معرف السجل](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![عرض قيمة معرف السجل.](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
 3. افحص Callstack لتجد مكان تعيين قيمة **_ledgerDimension**. عادةً ما تكون القيمة من **TmpTaxWorkTrans**. في هذه الحالة، يجب إضافة نقطة توقف عند **TmpTaxWorkTrans::insert()** و **TmpTaxWorkTrans::update()** للعثور على مكان تعيين القيمة المحددة.
 

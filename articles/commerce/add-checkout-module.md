@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797805"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347580"
 ---
 # <a name="checkout-module"></a>الوحدة النمطية للسداد مع الخروج
 
@@ -33,7 +33,7 @@ ms.locfileid: "5797805"
 
 تعرض الصورة التالية مثالاُ عن وحدة السداد مع الخروج لشركة Fabrikam في صفحة السداد مع الخروج.
 
-![مثال عن وحدة السداد مع الخروج‬](./media/Checkout.PNG)
+![مثال لوحدة السداد مع الخروج‬.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>خصائص الوحدة النمطية للسداد مع الخروج
 
@@ -52,13 +52,13 @@ ms.locfileid: "5797805"
 
     تعرض الصورة التالية مثالاُ عن وحدة عنوان الشحن في صفحة السداد مع الخروج.
 
-    ![مثال عن وحدة عنوان الشحن](./media/ecommerce-shippingaddress.PNG)
+    ![مثال عن وحدة عنوان الشحن.](./media/ecommerce-shippingaddress.PNG)
 
 - **خيارات التسليم** - تتيح هذه الوحدة للعميل تحديد وضع التسليم لأحد الأوامر. لمزيد من المعلومات حول هذه الوحدة النمطية، راجع [الوحدة النمطية لخيارات التسليم‬](delivery-options-module.md).
 
     تعرض الصورة التالية مثالاُ عن وحدة خيارات التسليم في صفحة السداد مع الخروج.
  
-    ![مثال عن وحدة خيارات التسليم](./media/ecommerce-deliveryoptions.PNG)
+    ![مثال عن وحدة خيارات التسليم.](./media/ecommerce-deliveryoptions.PNG)
 
 - **حاوية قسم السداد مع الخروج** - تُمثل هذه حاوية يُمكنك وضع وحدات متعددة داخلها لإنشاء قسم داخل تدفق السداد مع الخروج. على سبيل المثال، يُمكنك وضع كافة الوحدات المرتبطة بالدفع داخل هذه الحاوية لجعلها تظهر كقسم واحد. تؤثر هذه الوحدة فقط على تخطيط التدفق.
 
@@ -70,7 +70,7 @@ ms.locfileid: "5797805"
 
     تعرض الصورة التالية مثالاً عن وحدات بطاقة الهدايا ونقاط الولاء والدفع في صفحة السداد مع الخروج.
 
-    ![مثال عن وحدات بطاقة الهدايا ونقاط الولاء والدفع في صفحة السداد مع الخروج](./media/ecommerce-payments.PNG)
+    ![مثال عن وحدات بطاقة الهدايا ونقاط الولاء والدفع في صفحة السداد مع الخروج.](./media/ecommerce-payments.PNG)
 
 - **معلومات الاتصال**- تُتيح هذه الوحدة للعميل إضافة أو تغيير معلومات الاتصال (عنوان البريد الإلكتروني) لأحد الأوامر.
 
@@ -80,7 +80,7 @@ ms.locfileid: "5797805"
 
     تعرض الصورة التالية مثالاً عن البنود والشروط في صفحة السداد مع الخروج.
 
-    ![مثال على البنود والشروط في صفحة السداد مع الخروج](./media/ecommerce-checkout-terms.PNG)
+    ![مثال على البنود والشروط في صفحة السداد مع الخروج.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>تفاعل Commerce Scale Unit
 

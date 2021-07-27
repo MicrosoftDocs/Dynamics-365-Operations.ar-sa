@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826241"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356765"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>تقليل إهلاك الرصيد بعد التقسيم
 
@@ -37,7 +37,7 @@ ms.locfileid: "5826241"
 - ويساوي إهلاك السنه المالية الأولى 18.000 دولار، ويساوي الإهلاك الشهري 150 دولار، ويتم إهلاك الأصل حتى نوفمبر، 2019، بمقدار 738.75 دولار.
 - في نوفمبر 2019، يتم تقسيم 80 بالمائة من الأصل إلى أصل ثابت آخر.
 
-[![تقليل إهلاك الرصيد بعد التقسيم](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![تقليل إهلاك الرصيد بعد التقسيم.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 المبلغ المراد إهلاكه للأصل الأصلي يكون بقيم 1.822.25 دولار. ويساوي هذا المبلغ صافي القيمة الدفترية قبل ترحيل حركة التقسيم (9.111.25 دولار)، بالإضافة إلى تسوية الامتلاك الذي يتم إنشاؤه أثناء ترحيل الحركة المقسمة (-8.000 دولار)، بالإضافة إلى تسوية الإهلاك التي يتم إنشاؤها خلال حركه التقسيم (711 دولار). وبالتالي، فإن إهلاك السنة الثانية هو (1,822.25 × 18%) ÷ 12 = 27.33 دولار.
 

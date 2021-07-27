@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e9c6423a7fb604005d4fb7f1eca05a1ef7d210e5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce0879565babfbf526e1aa6864482e60cbabd377
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817211"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345586"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>إقرار الإيرادات في أوامر المبيعات
 
@@ -36,7 +36,7 @@ ms.locfileid: "5817211"
 
 يتم إدخال أمر المبيعات التالي ويتضمن ثلاثة أصناف يتم إعدادها لإقرار الإيرادات.
 
-[![إدخال أمر مبيعات](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
+[![إدخال أمر مبيعات.](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
 
 يوجد مفهومان لإقرار الإيرادات:
 
@@ -45,9 +45,9 @@ ms.locfileid: "5817211"
 
     في هذا المثال، يتم تعيين الصنف الأول S0001، إلى جدول إيرادات **1O** (لمرة واحدة). يمثل هذا البند سيناريو من نوع حدث رئيسي، حيث يتم إقرار الإيرادات بعد حدوث عملية التثبيت في المستقبل. لذا يتم تأجيل الإيرادات حتى إتمام التثبيت.
 
-    الصنف الثاني S0008، هو صنف خدمة يتم إعداده كصنف دعم ترحيل العقد (PCS). يتم تقديم الخدمات الهندسية المستدامة للعميل خلال 12 شهرًا. لذا يتم تعيين جدول إيرادات **12 ش** للمنتج بشكل افتراضي. نظرًا لأن هذا الصنف هو أحد عناصر دعم ترحيل العقد، يجب تحديد تواريخ بدء العقد وانتهائه. يتم العثور على تواريخ بدء العقد وانتهائه في تفاصيل الصنف افتراضيًا في علامة تبويب الإعداد. يتم تحديد إعداد **12 ش** في جدول الإيرادات لتعبئة شروط العقد تلقائيًا كما هو موضح في الرسم التوضيحي التالي.
+    الصنف الثاني S0008، هو صنف خدمة يتم إعداده كصنف دعم ترحيل العقد (PCS). يتم تقديم الخدمات الهندسية المستدامة للعميل خلال 12 شهرًا. لذا يتم تعيين جدول إيرادات **12 ش** للمنتج بشكل افتراضي. نظرًا لأن هذا الصنف هو أحد عناصر دعم ترحيل العقد، يجب تحديد تواريخ بدء العقد وانتهائه. يتم العثور على تواريخ بدء العقد ونهايته في تفاصيل الصنف افتراضيًا في علامة تبويب الإعداد. يتم تحديد إعداد **12M** في جدول الإيرادات لتعبئة شروط العقد تلقائيًا على النحو الموضح في الرسم التوضيحي التالي.
 
-    [![جداول الإيرادات](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
+    [![جداول الإيرادات.](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
 
     الصنف الثالث S0012، وهو الأجهزة، ولا يتم تعيين جدول إيرادات افتراضيًا. يتم إقرار إيرادات الأجهزة فور فوترة الصنف.
 
@@ -55,7 +55,7 @@ ms.locfileid: "5817211"
 
 لعرض تفاصيل إضافية حول سعر الإيرادات وجدول الإيرادات، استخدم الأزرار الموجودة في مجموعة **إقرار الإيرادات** الموجودة في علامة التبويب **الإدارة** في جزء الإجراءات الخاص بأمر المبيعات. ونظرًا لعدم تأكيد أمر المبيعات في هذه المرحلة، لا تكون الأزرار المستخدمة لإقرار الإيرادات متاحة. تكون هذه الأزرار متاحة أو غير متاحة وفقًا لتقدم أمر المبيعات عبر المراحل التي تؤدي إلى الاستيفاء.
 
-[![رأس أمر المبيعات](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
+[![رأس أمر المبيعات.](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 
 وتوفر الأزرار الثلاثة الأولى تفاصيل حول سعر الإيرادات للأصناف الموجودة في إعداد أمر المبيعات لإقرار الإيرادات.
 
@@ -70,11 +70,11 @@ ms.locfileid: "5817211"
 
 في المثال التالي، حدث توزيع سعر الإيرادات بعد تأكيد أمر المبيعات. لاحظ أنه على الرغم من توزيع أسعار الإيرادات بصورة مختلفة، يجب أن يبقى المبلغ الإجمالي في حقل **الإيرادات المطلوب إقرارها** مساوٍ لإجمالي بنود أمر المبيعات التي تمت فوترتها للعميل. على سبيل المثال، مجموع بنود أمر المبيعات، باستثناء الضريبة، هو 1499 دولار. لذا يجب أن يكون مجموع **الإيرادات المطلوب إقرارها** هو 1499 دولار.
 
-[![توزيع سعر الإيرادات](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
+[![توزيع سعر الإيرادات.](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
 
 كما يتم أيضًا إنشاء جدول إقرار الإيرادات المتوقع. يستخدم جدول الإيرادات قيمة **الإيرادات المطلوب إقرارها** كقيمة المبلغ الذي يتم تأجيله. يؤجل الصنف S0001 مبلغ 321.21 دولار بدلاً من 300 دولار، ويؤجل الصنف S0008 160.61 دولار بدلاً من 100 دولار. لم يتم عرض الصنف S0012 في جدول المتوقع نظرًا لأنه لم يتم تأجيل الإيرادات. عند إجراء الترحيل، يقوم الصنف S0012 بترحيل 1,017.18 دولار مباشرة إلى حساب دفتر أستاذ الإيرادات.
 
-[![جدول إقرار الإيرادات المتوقع](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
+[![جدول إقرار الإيرادات المتوقع.](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
 
 ## <a name="create-the-packing-slip"></a>إنشاء إيصال التعبئة
 
@@ -84,17 +84,17 @@ ms.locfileid: "5817211"
 
 آخر خطوة هي فوترة أمر المبيعات. بالنظر إلى إيصال الفاتورة، ستلاحظ أنه تم تأجيل الإيرادات للأصناف S0001 وS0008 (321.21 دولار + 160.61 = 481.82)، وتم ترحيل المبلغ المتبقي للصنف S0012 إلى الإيرادات (1,017.18). تضيف هذه القيم ما يصل إلى 1,499 دولار، وهو ما يطابق مجموع بنود أمر المبيعات.
 
-[![حركات الإيصال](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
+[![حركات الإيصال.](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
 بعد إنشاء الفاتورة، تصبح الأزرار **توزيع سعر الإيرادات** و **إعادة توزيع السعر ببنود أمر جديدة** و **جدول إقرار الإيرادات** متاحة، ولكن تكون الأزرار **تحديث توزيع سعر الإيرادات** و **جدول إقرار الإيرادات المتوقع** غير متاحة.
 
-[![إتاحة زر إقرار الإيرادات المتاحة](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
+[![إتاحة زر إقرار الإيرادات المتاحة.](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
 
 لا يزال زر **توزيع سعر الإيرادات** متاحًا حتى يمكنك عرض حساب سعر الإيرادات. في حالة عدم تغيير أي شيء في أمر المبيعات بعد تأكيده، لن يغير ترحيل الفاتورة المبلغ المحتسب في حقل **الإيرادات المطلوب إقرارها**.
 
 تتم إزاله جدول إقرار الإيرادات المتوقع واستبداله بجدول إقرار الإيرادات النهائي. ويتم الاحتفاظ بتفاصيل جدول الإيرادات لكل بند من بنود أمر المبيعات وتُستخدم لإصدار الإيرادات المؤجلة للإيرادات الفعلية عند استيفاء الالتزامات التعاقدية.
 
-[![جدول إقرار الإيرادات المتوقع](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+[![جدول إقرار الإيرادات النهائي.](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839549"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354847"
 ---
 # <a name="manually-created-work-orders"></a>أوامر العمل التي تم إنشاؤها يدويًا
 
@@ -111,7 +111,7 @@ ms.locfileid: "5839549"
 
 يوضح الرسم التوضيحي المبين أدناه مثال لمربع حوار **إنشاء أمر عمل مرتبط‬** .
 
-![الشكل 1](media/03-work-orders.png)
+![الشكل 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >إذا قمت بإعداد قناع أمر عمل مرتبط في **معلمات إدارة الأصول‬** > **علامة تبويب أوامر العمل** > حقل **قناع أمر العمل المرتبط** ، يتم إنشاء معرفات أمر العمل وفقًا لإعداد القناع. إذا لم يتم إعداد قناع أمر عمل مرتبط، يُستخدم معرف أمر العمل التالي المتاح لأوامر العمل المرتبطة.
@@ -137,7 +137,7 @@ ms.locfileid: "5839549"
 
 يبين الرسم التوضيحي التالي مثالاً لمربع الحوار **نسخ أمر العمل**.
 
-![الشكل 2](media/04-work-orders.png)
+![الشكل 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>إنشاء أمر عمل استنادً إلى طلب صيانة
@@ -157,7 +157,7 @@ ms.locfileid: "5839549"
 
 يبين الرسم التوضيحي التالي مثالاً لمربع الحوار **إنشاء أمر العمل** .
 
-![الشكل 3](media/05-work-orders.png)
+![الشكل 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

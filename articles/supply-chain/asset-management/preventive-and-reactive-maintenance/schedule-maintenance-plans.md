@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c19f999a94e6ad8451c208cf204d0b59306b77d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a447dee71e57df07d1e7709bc8e4d075fcc803b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837791"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343666"
 ---
 # <a name="schedule-maintenance-plans"></a>خطط الصيانة المجدولة
 
@@ -52,14 +52,14 @@ ms.locfileid: "5837791"
 
 5. انقر فوق **موافق** لبدء إنشاء إدخالات جدول الصيانة على الأصول. ستظهر الإدخالات المُنشأة في صفحة قائمة **جدول الصيانة بكامله**. يبين الرسم التوضيحي التالي مثالاً لمربع حوار **‏‫خطط الصيانة المجدولة‬**.
 
-![الشكل 1](media/09-preventive-maintenance.png)
+![الشكل 1.](media/09-preventive-maintenance.png)
 
 - في مربع الحوار **جدولة خطط الصيانة**، يمكنك إعداد وظائف دفعية على علامة التبويب السريعة **تشغيل في الخلفية** لإنشاء إدخالات التقويم تلقائيًا في فترات زمنية منتظمة.  
 - عندما تقوم بجدولة الصيانة الوقائية، لن يتم إنشاء بنود جدول الصيانة ذات تاريخ ووقت بدء متوقعين أبكر من تاريخ ووقت النظام.  
 
 يوفر الشكل أدناه رسمًا توضيحيًا لحساب خطة الصيانة المستندة إلى الوقت.  
 
-![الشكل 2](media/10-preventive-maintenance.jpg)
+![الشكل 2.](media/10-preventive-maintenance.jpg)
 
 فيما يتعلق بخطط الصيانة التي تعتمد على العدادات: في الأرقام أدناه، يتم عرض دورتي تسجيل مختلفتين للعداد. وهما تستندان إلى خطة صيانة تم إعدادها للأصل "V0001"، حيث من المتوقع أن يقطع الأصل (سيارة) مسافة تبلغ حوالي 2,000 كيلومتر كل شهر.
 
@@ -69,9 +69,9 @@ ms.locfileid: "5837791"
 
 توضح الأمثلة الموضحة هنا أن جميع تسجيلات العداد التي تمت على أحد الأصول تظهر اتجاهًا يصف مدى استهلاك الأصل. يُستخدم هذا الاتجاه كأساس حساب عند جدولة خطة الصيانة.
 
-![الشكل 3](media/11-preventive-maintenance.png)
+![الشكل 3.](media/11-preventive-maintenance.png)
 
-![الشكل 4](media/12-preventive-maintenance.png)
+![الشكل 4.](media/12-preventive-maintenance.png)
 
 
 

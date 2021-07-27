@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6fce4e2cb8c5507769533a875e23ccc4531abf51
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2bb1f22c33de52f9a7bc00b450ce131d4d58d200
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020129"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352824"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>يؤثر أداء حساب الضريبة على المعاملات
 
@@ -36,7 +36,7 @@ ms.locfileid: "6020129"
 - وتعالج جلسات العمل المتعددة نفس حساب ضريبة الحركة في نفس الوقت.
 - تحتوي الحركة علي عده بنود، ويتم تحديث طرق العرض في الوقت الحقيقي. على سبيل المثال، يتم تحديث حقل **مبلغ ضريبة المبيعات المحسوب** في صفحة **دفتر اليومية العام** في الوقت الفعلي عند تغيير حقول البند.
 
-   [![حساب حقل مبلغ ضريبة المبيعات في صفحة إيصال دفتر اليومية](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
+   [![حساب حقل مبلغ ضريبة المبيعات في صفحة إيصال دفتر اليومية.](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
 
 في حاله استيفاء اي من هذه الشروط، قم بتاخير حساب الضريبة.
 
@@ -53,11 +53,11 @@ ms.locfileid: "6020129"
 
 - تؤدي الحركة إلى توقف النظام عن الاستجابة حتى تنتهي الجلسة. التالي، لا يمكن للحركة ان تحسب نتيجة الضريبة. يبين الرسم التوضيحي التالي مربع الرسالة "تم إنهاء الجلسة" والذي تتلقاه.
 
-    [![رسالة انتهاء جلسة العمل](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
+    [![رسالة انتهاء جلسة العمل.](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
 
 - تستغرق أساليب **TaxUncommitted** وقت أطول من الطرق الأخرى. على سبيل المثال، في الرسم التوضيحي التالي، فإن أسلوب **TaxUncommitted::updateTaxUncommitted()** تستغرق 43347.42 ثانية، لكن الطرق الأخرى تستغرق 0.09 ثانية.
 
-    [![مدد الأساليب](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
+    [![مدد الأساليب.](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
 
 ## <a name="customizing-and-calling-tax-calculation"></a>تخصيص واستدعاء حساب الضريبة
 

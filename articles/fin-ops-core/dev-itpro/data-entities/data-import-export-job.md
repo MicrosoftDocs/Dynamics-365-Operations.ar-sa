@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937320"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351009"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>نظرة عامة حول مهام استيراد البيانات وتصديرها
 
@@ -106,7 +107,7 @@ ms.locfileid: "5937320"
 
 يمكنك إنشاء تعيين على الصفحة عن طريق تحديد **إنشاء تعيين للمصدر**. يعمل التعيين المُنشأ كتعيين تلقائي. وبالتالي، يجب تعيين أي حقول غير معينة يدويًا.
 
-![تعيين البيانات](./media/dixf-map.png)
+![تعيين البيانات.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>التحقق من أمان وظيفة الاستيراد أو التصدير
 قد يكون الوصول إلى مساحة عمل **إدارة البيانات** مقيدًا، بهدف تمكين المستخدمين من غير المسؤولين من الوصول فقط إلى وظائف بيانات معينة. يشتمل الوصول إلى وظيفة بيانات حق الوصول الكامل إلى سجل التنفيذ لتلك الوظيفة والوصول إلى الجداول المرحلية. وبالتالي، يجب أن تتأكد من وضع عناصر التحكم بالوصول المناسبة عند إنشاء وظيفة بيانات.
@@ -132,7 +133,7 @@ ms.locfileid: "5937320"
 ## <a name="validate-that-the-job-ran-as-expected"></a>التحقق من تشغيل الوظيفة كما هو متوقع
 يتوف سجل الوظائف لاستكشاف الأخطاء وإصلاحها ولعمليات الاستقصاء على وظائف الاستيراد والتصدير على حدٍ سواء. يتم تنظيم عمليات التشغيل التاريخية حسب نطاقات الوقت.
 
-![نطاقات سجل الوظائف](./media/dixf-job-history.md.png)
+![نطاقات سجل الوظائف.](./media/dixf-job-history.md.png)
 
 توفر كل عملية تشغيل للوظيفة التفاصيل التالية:
 

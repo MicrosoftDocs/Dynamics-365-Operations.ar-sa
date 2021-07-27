@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 8342afefa6eeda3a53decb39caddb62d1e4e1963
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: af8cd65565a50341b0bf2dba84204d010486532c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270851"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350440"
 ---
 # <a name="delivery-options-module"></a>الوحدة النمطية لخيارات التسليم
 
@@ -41,7 +41,7 @@ ms.locfileid: "6270851"
 
 يبين الشكل التوضيحي التالي مثالاُ عن وحدة خيارات التسليم في صفحة السداد مع الخروج.
 
-![مثال عن الوحدة النمطية لخيارات التسليم على صفحة السداد مع الخروج](./media/ecommerce-deliveryoptions.PNG)
+![مثال عن الوحدة النمطية لخيارات التسليم على صفحة السداد مع الخروج.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>خصائص الوحدة النمطية لخيارات التسليم
 

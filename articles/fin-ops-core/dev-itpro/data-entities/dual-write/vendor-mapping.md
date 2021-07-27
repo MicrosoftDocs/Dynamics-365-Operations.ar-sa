@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750608"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346486"
 ---
 # <a name="integrated-vendor-master"></a>أصل المورّد المتكامل
 
@@ -39,11 +39,11 @@ ms.locfileid: "5750608"
 
 إذا كنت ترغب في تخزين بيانات المورد في جدول **الحساب/جهة الاتصال** في Dataverse، يمكنك استخدام تصميم المورد الجديد.
 
-![تدفق بيانات المورّد](media/dual-write-vendor-data-flow.png)
+![تدفق بيانات المورّد.](media/dual-write-vendor-data-flow.png)
 
 إذا كنت ترغب في مواصلة تخزين بيانات المورد في جدول **الحساب/جهة الاتصال**، يمكنك استخدام تصميم المورد الموسع. لاستخدام تصميم المورد الموسع، يجب تكوين عمليات سير عمل المورد في حزمة حلول الكتابة الثنائية. لمزيد من المعلومات، راجع [التبديل بين تصميمات الموردين](vendor-switch.md).
 
-![تدفق بيانات المورّد الموسّعة](media/dual-write-vendor-detail.jpg)
+![تدفق بيانات المورّد الموسّعة.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > إذا كنت تستخدم مداخل Power Apps لموردي الخدمة الذاتية، فيمكن لمعلومات المورد التدفق مباشرةً إلى تطبيقات Finance and Operations.

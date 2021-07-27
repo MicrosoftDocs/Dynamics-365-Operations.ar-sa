@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808606"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354957"
 ---
 # <a name="maintenance-status"></a>حالة الصيانة
 
@@ -57,13 +57,13 @@ ms.locfileid: "5808606"
 
 في لقطة الشاشة أدناه، تم تنشيط الزرين **السنة** و **الشهر**. من خلال الخيارات **تجميع حسب** المحددة، يمكنك الحصول على نظرة عامة على أساس شهري لحمل العمل والإنتاجية المرتبطة بطلبات الصيانة وأوامر العمل. 
 
-![مثال على حمل العمل الشهري](media/13-controlling-and-reporting.png)
+![مثال على حمل العمل الشهري.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>مثال2
 
 في لقطة الشاشة أدناه، تمت إضافة معلومات حول مواقع العمل. يمكنك الآن مقارنة حمل العمل والإنتاجية عبر مواقع العمل، التي قد تمثل مواقع جغرافية أو مصانع أو مناطق عمل. 
 
-![مثال على حمل العمل الشهري مع مواقع العمل](media/14-controlling-and-reporting.png)
+![مثال على حمل العمل الشهري مع مواقع العمل.](media/14-controlling-and-reporting.png)
 
 
 

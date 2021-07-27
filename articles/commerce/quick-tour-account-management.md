@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027953"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352050"
 ---
 # <a name="account-management-pages-overview"></a>نظرة عامة على صفحات إدارة الحسابات
 
@@ -35,7 +36,7 @@ ms.locfileid: "6027953"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة منتقل إليها لإدارة الحسابات.
 
-![مثال لصفحة منتقل إليها لإدارة الحسابات](./media/Account-Management.PNG)
+![مثال لصفحة منتقل إليها لإدارة الحسابات.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>صفحة ملف التعريف الخاصة بي
 
@@ -43,7 +44,7 @@ ms.locfileid: "6027953"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **ملف التعريف الخاص بي** التي تم إنشاؤها باستخدام مكتبة الوحدات النمطية.
 
-![مثال لصفحة ملف التعريف الخاصة بي](./media/Account-Management-MyProfile.PNG)
+![مثال لصفحة ملف التعريف الخاصة بي.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>صفحة العناوين
 
@@ -51,7 +52,7 @@ ms.locfileid: "6027953"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **العناوين**.
 
-![مثال لصفحة عناوين](./media/Account-Management-Address.png)
+![مثال لصفحة عناوين.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>صفحات سجل الأوامر وتفاصيل الأمر
 
@@ -59,11 +60,11 @@ ms.locfileid: "6027953"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **سجل الأمر**.
 
-![مثال لصفحة سجل الأمر](./media/Account-Management-OrderHistory.PNG)
+![مثال لصفحة سجل الأمر.](./media/Account-Management-OrderHistory.PNG)
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **تفاصيل الأمر**.
 
-![مثال لصفحة تفاصيل الأمر](./media/Account-Management-OrderDetails.PNG)
+![مثال لصفحة تفاصيل الأمر.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>صفحة برنامج الولاء
 
@@ -71,7 +72,7 @@ ms.locfileid: "6027953"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **برنامج الولاء**.
 
-![مثال لصفحة برنامج الولاء](./media/Account-Management-Loyalty.PNG)
+![مثال لصفحة برنامج الولاء.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>صفحة قائمة الأمنيات
 
@@ -79,7 +80,7 @@ ms.locfileid: "6027953"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **قائمة الأمنيات**.
 
-![مثال لصفحة قائمة الأمنيات](./media/Account-Management-Wishlist.PNG)
+![مثال لصفحة قائمة الأمنيات.](./media/Account-Management-Wishlist.PNG)
 
 لمزيد من المعلومات حول الوحدات النمطية لإدارة الحسابات وكيفية تأليفها، راجع [إدارة الحسابات](account-management.md).
 

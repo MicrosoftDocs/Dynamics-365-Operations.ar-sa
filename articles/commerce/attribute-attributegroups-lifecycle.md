@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936794"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346794"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>إدارة السمات ومجموعات السمات
 
@@ -70,7 +70,7 @@ ms.locfileid: "5936794"
     - قم بتسمية نوع سمة واحد **شكل العدسات**، وأضف القيم التالية: **بيضوي**، و **مربع**، و **المستطيل**.
     - قم بتسمية نوع السمة الأخر **العلامة التجارية لنضارة الشمس**، وأضف القيم التالية: **Ray ban**، و **Aviator**، و **Oakley**.
 
-![أنواع السمات](media/AttributeType.png)
+![أنواع السمات.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>إعداد سمة
 
@@ -79,7 +79,7 @@ ms.locfileid: "5936794"
 3. إنشاء سمة تسمى **العدسات**.
 4. قم بتعيين حقل **نوع السمة** إلى **شكل العدسات**.
 
-![السمات](media/Attribute.png)
+![السمات.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>بيانات تعريف السمة
 
@@ -134,7 +134,7 @@ ms.locfileid: "5936794"
     - 200-500
     - 500 أو أكثر
 
-![إعدادات عامل تصفية السمات](media/AttributeFilterSettings.PNG)
+![إعدادات عامل تصفية السمات.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>مجموعات السمات
 
@@ -142,7 +142,7 @@ ms.locfileid: "5936794"
 
 يمكنك أيضًا تعيين القيم الافتراضية للسمات المٌدرجة في إحدى مجموعات السمات. على سبيل المثال، يمكنك إضافة سمة للون إلى مجموعة سمة، وحدد **أزرق** كقيمة سمة افتراضية. في هذه الحالة، عند إضافة مجموعة سمات لمنتج يتضمن اللون كإحدى السمات الخاصة به، يظهر اللون **أزرق** كلون افتراضي لهذا المنتج.
 
-![مجموعات السمات](media/AttributeGroup.png)
+![مجموعات السمات.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>إنشاء مجموعات السمات
 
@@ -155,7 +155,7 @@ ms.locfileid: "5936794"
 
 يُمكن إقران مجموعة سمات واحدة أو أكثر مع عقد الفئات في نوع التدرجات الهرمية للفئات التالية: التدرج الهرمي لمنتج Commerce، التدرج الهرمي لفئة تنقل القناة والتدرج الهرمي لفئة منتج تكميلي. بعد ذلك، عند تصنيف المنتجات، فإنها ترث السمات المضمنة في مجموعات السمات.
 
-![التدرج الهرمي – مجموعات سمات المنتج](media/AGRetailProdHierarchy.PNG)
+![التدرج الهرمي – مجموعات سمات المنتج.](media/AGRetailProdHierarchy.PNG)
 
 اتبع هذه الخطوات لتعيين مجموعات السمات للفئات في التسلسل الهرمي لمنتج Commerce.
 
@@ -200,7 +200,7 @@ ms.locfileid: "5936794"
     3. حدد عقدة فئة **اكسسورات الموضة**، ثم حدد فئة **نظارات شمس الموضة**، ثم على علامة التبويب السريعة **سمات منتجات القناة**، ثم حدد **تضمين سمة** لكل سمة.
     4. حدد عقدة فئة **ألبسة رجالية**، ثم حدد فئة **سراويل**، ثم على علامة التبويب السريعة **سمات منتجات القناة**، ثم حدد **تضمين سمة** لكل سمة.
 
-![فئات القناة وسمات المنتج - مجموعات السمات](media/CCPAttrGrp.png)
+![فئات القناة وسمات المنتج - مجموعات السمات.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>تجاوز قيم السمات
 
@@ -214,7 +214,7 @@ ms.locfileid: "5936794"
 4. حدد المنتج المطلوب في الشبكة. بعد ذلك، في جزء الإجراءات، في علامة تبويب **المنتج** في مجموعة **إعداد‬**، حدد **سمات المنتجات**.
 5. حدد سمة في الجزء الأيمن، ثم قم بتحديث قيمتها في الجزء الأيسر.
 
-![صفحة تفاصيل المنتج - مجموعات سمات المنتج](media/ProdDetailsProdAttrValues.png)
+![صفحة تفاصيل المنتج - مجموعات سمات المنتج.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>تجاوز قيم السمات للمنتجات في كتالوج
 
@@ -233,7 +233,7 @@ ms.locfileid: "5936794"
     > [!NOTE]
     > إذا تم إنشاء مشاركة وسائط المنتج ومشاركة سمات المنتج، فستنطبق على جميع المنتجات.
 
-![مجموعات سمات منتجات الكتالوج](media/CatalogProdAttrValues.png)
+![مجموعات سمات منتجات الكتالوج.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>تجاوز قيم السمات للمنتجات في قناة
 

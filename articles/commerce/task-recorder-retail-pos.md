@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7b5f8303ea23f4f38bf27d35de0fa91ab82f4b5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028097"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354459"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>مسجل المهام ونظام التعليمات لكل من Retail Modern POS (MPOS) وCloud POS
 
@@ -55,14 +55,14 @@ ms.locfileid: "6028097"
 1. ابدأ تشغيل Retail Modern POS أو Cloud POS، وسجل دخولك.
 2. في صفحة **الإعدادات**، في المقطع **مسجل المهام** ، انقر فوق **فتح مسجل المهام**. يظهر جزء **مسجل المهام**. يمكنك النقر فوق الزر **إغلاق** (**X**) في الزاوية العلوية اليسرى لإغلاق جزء **مسجل المهام** قبل بدء تسجيل جديد. لإعادة فتح الجزء، كرر الخطوة 2.
 
-    [![جزء مسجل المهام](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![جزء مسجل المهام.](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. أدخل اسمًا ووصفًا للتسجيل، ثم انقر فوق **البدء‬**. تبدأ جلسة التسجيل بمجرد النقر فوق **البدء‬**.
 
     > [!NOTE]
     > إذا نقرت فوق الزر **إغلاق‏‎** (**X**) في الزاوية العلوية اليسرى بينما يكون التسجيل قيد التقدم، فسيتم إغلاق الجزء **مسجل المهام** ولكن من دون إنهاء جلسة التسجيل. لإعادة فتح جزء مسجل المهام، انقر فوق الزر **تعليمات** (علامة استفهام) في الجزء العلوي من الشاشة.
     >
-    > [![علامة استفهام](./media/help.jpg)](./media/help.jpg)
+    > [![علامة استفهام.](./media/help.jpg)](./media/help.jpg)
 
 4. بعد النقر فوق **البدء**، يدخل مسجل المهام في وضع التسجيل. يعرض جزء **مسجل المهام** المعلومات وعناصر التحكم المرتبطة بعملية التسجيل.
 5. نفّذ الإجراءات التي تريد تنفيذها في واجهة المستخدم في Retail Modern POS أو Cloud POS.
@@ -72,7 +72,7 @@ ms.locfileid: "6028097"
 
 بعد أن تقوم بإنهاء جلسة التسجيل، يظهر الكثير من الخيارات، بحيث يمكنك تنزيل التسجيل.
 
-[![خيارات التنزيل](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![خيارات التنزيل.](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>حفظ إلى هذا الكمبيوتر الشخصي
 
@@ -88,7 +88,7 @@ ms.locfileid: "6028097"
 
 ## <a name="recording-controls"></a>عناصر التحكم الخاصة بالتسجيل
 
-[![عناصر التحكم الخاصة بالتسجيل](./media/controls.jpg)](./media/controls.jpg)
+[![عناصر التحكم الخاصة بالتسجيل.](./media/controls.jpg)](./media/controls.jpg)
 
 ### <a name="stop"></a>إيقاف
 
@@ -117,13 +117,13 @@ ms.locfileid: "6028097"
 
 التعليق التوضيحي هو النص الإضافي الذي تضيفه إلى إحدى الخطوات في تسجيل. على سبيل المثال، يمكنك استخدام التعليقات التوضيحية لتقديم سياق إضافي أو إرشادات إضافية للمستخدم. يمكنك إضافة التعليقات التوضيحية قبل خطوة أو بعدها. يمكنك إضافة تعليق توضيحي لأي خطوة عن طريق النقر فوق الزر **تحرير** (رمز القلم) إلى يسار الخطوة.
 
-[![الزر "تحرير" لخطوة](./media/annotate.jpg)](./media/annotate.jpg)
+[![الزر "تحرير" لخطوة.](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>النصوص والملاحظات
 
 يمكنك استخدام الحقلين **نصوص** و **ملاحظات** لإضافة النص الذي يجب إقرانه بإحدى الخطوات في دليل مهام.
 
-[![حقول النصوص والملاحظات](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![حقول النصوص والملاحظات.](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>النص
 
@@ -137,7 +137,7 @@ ms.locfileid: "6028097"
 
 لإظهار تسجيلات المهام المخصصة الخاصة بك في جزء التعليمات في Retail Modern POS وCloud POS بحيث يمكن عرضها كنص، يجب عليك حفظ تسجيلات المهام إلى مكتبة BPM، ثم تحديث محددات نظام التعليمات‬ بحيث تشير إلى مكتبة BPM. لمزيد من المعلومات، راجع [الاتصال بنظام التعليمات](../fin-ops-core/fin-ops/get-started/help-connect.md). يبحث نظام التعليمات في Retail Modern POS وCloud POS في LCS في‬ الوقت الحقيقي. وهو يبحث عبر كافة مكتبات BPM التي تم تحديدها في محددات نظام تعليمات Commerce ويعرض النتائج ذات الصلة. للوصول إلى القائمة **تعليمات**، انقر فوق الزر **تعليمات** (علامة الاستفهام) في الجزء العلوي من الشاشة، ثم اكتب اسم عمليتك في مربع البحث واضغط الزر بحث.
 
-[![الزر تعليمات](./media/help.jpg)](./media/help.jpg)
+[![الزر تعليمات.](./media/help.jpg)](./media/help.jpg)
 
 عندما تنقر فوق دليل مهام في نتائج البحث، يمكنك عرض الخطوات كموضوع تعليمات أو تصدير الخطوات إلى مستند Word.
 

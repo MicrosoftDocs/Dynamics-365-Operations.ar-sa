@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e43b9127b247fa618558b725837d12bf290662f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6c9b4ba6b55bbe26637f612390354d43a71b3eab
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052015"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357157"
 ---
 # <a name="restrict-editing-of-personal-information"></a>تقييد تحرير المعلومات الشخصية
 
@@ -30,25 +30,25 @@ ms.locfileid: "6052015"
 يوضح هذا الموضوع كيفية تقييد الموظفين من تحرير تفاصيل جهات الاتصال في Dynamics 365 Human Resources. قد ترغب في منع الموظفين من تحرير تفاصيل جهات اتصال معينة، مثل موقع العمل أو عنوان البريد الكتروني الخاص بهم.
 
 > [!NOTE]
-> لاستخدام هذه الميزة ، يجب أولاً تمكين **(المعاينة) تقييد الموظفين من إضافة أو تحرير معلومات العنوان وجهة الاتصال لأغراض التحديد** في إدارة المزايا. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).<br><br>![تمكين ميزة المعاينة](./media/hr-employee-self-service-restrict-enable.png)
+> لاستخدام هذه الميزة ، يجب أولاً تمكين **(المعاينة) تقييد الموظفين من إضافة أو تحرير معلومات العنوان وجهة الاتصال لأغراض التحديد** في إدارة المزايا. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).<br><br>![تمكين ميزة المعاينة.](./media/hr-employee-self-service-restrict-enable.png)
 
 ## <a name="choose-the-information-an-employee-can-add-or-edit"></a>اختيار المعلومات التي يمكن للموظف إضافتها أو تحريرها
 
 1. في الموارد البشرية، حدد **إدارة العاملين**، وحدد **الارتباطات**، ثم حدد **معلمات الموارد البشرية**.
 
-   ![انتقل إلى معلمات الموارد البشرية](./media/hr-employee-self-service-human-resources-parameters.png)
+   ![انتقل إلى معلمات الموارد البشرية.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 2. في الصفحة **معلمات Human resources**، حدد علامة التبويب **الخدمة الذاتية للموظف**.
 
-   ![تحديد الخدمة الذاتية للموظف](./media/hr-employee-self-service-tab.png)
+   ![حدد الخدمة الذاتية للموظف.](./media/hr-employee-self-service-tab.png)
 
 3. في علامة التبويب **الخدمة الذاتية للموظف**، قم بإلغاء تحديد كافة المعلومات الواردة في القسم **معلومات العنوان وجهة الاتصال** التي لا تريد أن يقوم الموظفون بإضافتها أو تحريرها. في هذا المثال، قمنا بإلغاء تحديد معلومات جهة اتصال **العمل**.
 
-   ![تقييد تحرير معلومات جهات اتصال العمل](./media/hr-employee-self-service-restrict-business.png)
+   ![تقييد تحرير معلومات جهات اتصال العمل.](./media/hr-employee-self-service-restrict-business.png)
 
 4. حدد **حفظ**.
 
-   ![حفظ التغييرات](./media/hr-employee-self-service-restrict-save.png)
+   ![حفظ التغييرات.](./media/hr-employee-self-service-restrict-save.png)
 
 ## <a name="employee-experience"></a>خبرة الموظف
 
@@ -56,23 +56,23 @@ ms.locfileid: "6052015"
 
 في هذا المثال، يتم تقييد الموظفين من تحرير تفاصيل جهة اتصال **العمل**، ويمكنهم الاستمرار في رؤية المعلومات الموجودة في الخدمة الذاتية للموظفين:
 
-![عرض تفاصيل جهات اتصال العمل](./media/hr-employee-self-service-restrict-view.png)
+![عرض تفاصيل جهات اتصال العمل.](./media/hr-employee-self-service-restrict-view.png)
 
 ومع ذلك، عند تحديد التفاصيل الخاصة بجهة اتصال العمل، يظهر الجزء **تحرير العنوان** للقراءة فقط، ولا يمكنهم تغيير أي حقل من الحقول.
 
-![عرض تفاصيل جهات اتصال العمل للقراءة فقط](./media/hr-employee-self-service-restrict-read-only.png)
+![عرض تفاصيل جهات اتصال العمل للقراءة فقط.](./media/hr-employee-self-service-restrict-read-only.png)
 
 بالإضافة إلى ذلك، إذا قاموا بتحديد **إضافة** لإضافة عنوان جديد، فلن يتمكنوا من تحديد **العمل** مربع القائمة المنسدلة **الغرض**.
 
-![يتعذر على الموظف إضافة عنوان عمل](./media/hr-employee-self-service-restrict-add.png)
+![يتعذر على الموظف إضافة عنوان عمل.](./media/hr-employee-self-service-restrict-add.png)
 
 يخوض الموظفون التجربة نفسها عند تحديد **تفاصيل جهة الاتصال** على الصفحة **المعلومات الشخصية** ويضيف عنوانًا جديدًا. يعرض المربع المنسدل **الغرض** أنواع المعلومات التي يمكنهم إضافتها فقط. 
 
-![لا يمكن للموظف تحديد العمل في المربع المنسدل الغرض](./media/hr-employee-self-service-restrict-purpose.png)
+![لا يمكن للموظف تحديد العمل في المربع المنسدل الغرض.](./media/hr-employee-self-service-restrict-purpose.png)
 
 تعرض الآن **تفاصيل جهة الاتصال** في الشبكة **الغرض**.
 
-![يعرض الغرض في شبكة تفاصيل جهة الاتصال](./media/hr-employee-self-service-restrict-purpose-grid.png)
+![يعرض الغرض في شبكة تفاصيل جهة الاتصال.](./media/hr-employee-self-service-restrict-purpose-grid.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271391"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350318"
 ---
 # <a name="apply-unit-of-measure-settings"></a>تطبيق إعدادات وحدة القياس
 
@@ -32,7 +32,7 @@ ms.locfileid: "6271391"
 
 في المثال الموضح في الرسم التوضيحي التالي، يتم بيع وحدة قياس مقدارها **ea** تم تكوين (كل) لمنتج في Commerce headquarters.
 
-![مثال على منتج تم تكوينه باستخدام وحدة قياس في Commerce headquarters](./media/Productunit-headquarters.PNG)
+![مثال على منتج تم تكوينه باستخدام وحدة قياس في المقر الرئيسي لـ Commerce.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > يتوفر دعم لتطبيق وإظهار وحدة القياس اعتبارًا من إصدار Commerce رقم 10.0.19.
@@ -54,17 +54,17 @@ ms.locfileid: "6271391"
 
 في المثال الموضح في الرسم التوضيحي التالي، تعرض صفحة تفاصيل المنتج (PDP) وحدة القياس (**ea**) لمنتج.
 
-![مثال على PDP يعرض وحدة القياس](./media/Productunit-PDP.png)
+![مثال على PDP يعرض وحدة القياس.](./media/Productunit-PDP.png)
 
 في المثال الموضح في الرسم التوضيحي التالي، تعرض وحدة تجميع المنتج وحدة القياس (**ea**) للمنتج.
 
-![مثال على وحدة تجميع المنتج التي تعرض وحدة القياس](./media/Productunit-productcollection.png)
+![مثال على وحدة تجميع المنتج التي تعرض وحدة القياس.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على مكتبة الوحدات](starter-kit-overview.md)
 
-[الوحدة النمطية لعربة التسوق](add-cart-module.md)
+[وحدة عربة التسوق](add-cart-module.md)
 
 [الوحدة النمطية لصندوق الشراء](add-buy-box.md)
 

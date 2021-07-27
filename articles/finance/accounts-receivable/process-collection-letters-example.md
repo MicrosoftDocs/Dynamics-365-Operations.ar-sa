@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347798"
 ---
 # <a name="process-collection-letters-example"></a>مثال معالجة خطابات التحصيل
 
@@ -40,7 +40,7 @@ ms.locfileid: "6021406"
 
 يبين الرسم التوضيحي التالي المعلومات الموجودة في الجدول كما تظهر في صفحة **خطابات التحصيل**. 
 
-[![إعداد تسلسل خطاب تحصيل](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![إعداد تسلسل خطاب تحصيل.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  يجب أن تقوم الآن بتعيين المعلمتين المطلوبتين لهذا المثال.
 
@@ -49,7 +49,7 @@ ms.locfileid: "6021406"
     1. في علامة تبويب **التحصيلات**، قم بتعيين خيار **تجاهل المدفوعات والإشعارات الدائنة عند حساب كود خطاب التحصيل** إلى **نعم**.
     2. تأكد من تعيين حقل **إنشاء خطاب تحصيل لكل** على **العميل**.
 
-    [![إعداد معلمات الحسابات المدينة لتحصيلات الائتمان](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![إعداد معلمات الحسابات المدينة لتحصيلات الائتمان.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. انتقل إلى **الحسابات المدينة \> فواتير \> كافة فواتير النص الحر**، وحدد **جديد**، ثم اتبع الخطوات التالية:
 
@@ -74,7 +74,7 @@ ms.locfileid: "6021406"
 5. كرر الخطوة 4، ولكن أدخل **-200.00** في حقل **سعر الوحدة**.
 6. انتقل إلى **الحسابات المدينة \> العملاء \> كافة العملاء**، وحدد العميل **US-045**. ثم في جزء الإجراء، حدد **الحركات \> الحركات** لمراجعة حركات العميل التي قمت بترحيلها في وقت سابق.
 
-    [![مراجعة حركات العميل المرحلة](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![مراجعة حركات العميل المرحلة.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     يجب عليك الآن إنشاء خطابات تحصيل للعميل US-045.
 
@@ -93,7 +93,7 @@ ms.locfileid: "6021406"
 
     1. لاحظ أن كود خطاب التحصيل في كل من الرأس وبنود الحركة هو **خطاب التحصيل 1** ، لان خطاب التحصيل هذا هو أول خطاب تحصيل في التسلسل. (لعرض بنود الحركة، قد تحتاج إلى تحديد علامة التبويب السريعة **الحركات**)
 
-   [![تحقق من أن نفس كود خطاب التحصيل يظهر في الرأس والبنود](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![تحقق من أن نفس كود خطاب التحصيل يظهر في الرأس والبنود.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. في جزء الإجراءات، حدد **ترحيل**.
     3. في حقل **تاريخ الترحيل**، أدخل **1/19/2021**.
@@ -115,7 +115,7 @@ ms.locfileid: "6021406"
 
     1. لاحظ أن كود خطاب التحصيل في الرأس هو **خطاب التحصيل 1**. ومع ذلك، فان الكود الموجود في بنود الحركة هو **خطاب التحصيل 2**.
 
-   [![تحقق من ظهور أكواد خطاب التحصيل مختلفة في الرأس والبنود](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![تحقق من ظهور أكواد خطاب التحصيل مختلفة في الرأس والبنود.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   تختلف الأكواد لأن خيار **تجاهل المدفوعات والإشعارات الدائنة عند حساب كود خطاب التحصيل** تم تعيينه إلى **نعم**.
 
@@ -123,7 +123,7 @@ ms.locfileid: "6021406"
 
 11. انتقل إلى **الائتمان والتحصيلات \> الإعداد \> معلمات الحسابات الدائنة**، ثم في علامة تبويب **التحصيلات**، قم بتعيين خيار **تجاهل المدفوعات والإشعارات الدائنة عند حساب كود خطاب التحصيل** إلى **لا**.
 
-    [![إعداد خيار تجاهل المدفوعات والإشعارات الدائنة عند حساب كود خطاب التحصيل إلى لا](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![إعداد خيار تجاهل المدفوعات والإشعارات الدائنة عند حساب كود خطاب التحصيل إلى لا.](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     يجب عليك الآن إنشاء خطابات تحصيل مرة أخرى للعميل US-045.
 
@@ -140,6 +140,6 @@ ms.locfileid: "6021406"
 
 13. انتقل إلى **الائتمان والتحصيلات \> خطاب التحصيل \> مراجعة ومعالجة خطابات التحصيل**، ولاحظ أن كود خطاب التحصيل في كل من الرأس وبنود الحركة **خطاب التحصيل 2**.
 
-    [![ظهور نفس كود خطاب التحصيل مرة أخرى في الرأس والبنود](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![ظهور نفس كود خطاب التحصيل مرة أخرى في الرأس والبنود.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     يظهر نفس الكود في كل المكانين لأن خيار **تجاهل المدفوعات والإشعارات الدائنة عند حساب كود خطاب التحصيل** تم تعيينه الآن إلى **لا**.

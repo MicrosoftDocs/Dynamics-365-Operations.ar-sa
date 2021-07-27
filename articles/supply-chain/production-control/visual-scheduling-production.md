@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908696"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353410"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>مخطط "جانت" لجدولة الوظائف
 
@@ -45,10 +45,10 @@ ms.locfileid: "5908696"
 
 ## <a name="order-view"></a>عرض الأمر
 
-[![عرض الأمر](./media/orderview.png)](./media/orderview.png)
+[![عرض الأمر.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>عرض المورد
-[![عرض المورد](./media/resview.png)](./media/resview.png)
+[![عرض المورد.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>الأنشطة
 تظهر الأنشطة كأشرطة وهي منظمة في شبكة مقياس الوقت مع وقت بدء ووقت انتهاء مجدولين، مما يجعل طول الأنشطة متناسبًا مع الوقت اللازم لإكمال النشاط. تظهر الأنشطة وفقًا لمقياس الوقت. يمكنك ضبط مقياس الوقت على القائمة حيث قمت بتحديد وقت وتاريخ بدء وانتهاء ووحدة زمنية، على سبيل المثال، الساعات أو الأيام. من خلال ضبط مقياس الوقت، يمكنك تعيين التركيز على فاصل زمني تريد خلاله إدارة الأنشطة. 
@@ -102,25 +102,25 @@ ms.locfileid: "5908696"
 
 في شبكة من الأنشطة، مثل الوظائف التي تنتمي إلى أمر الإنتاج نفسه، يمكنك استخدام وظيفة **جدولة الوظائف السابقة** لجدولة الوظائف السابقة المتعلقة بوظيفة محددة على الشبكة. في المثال التالي، النشاط المميز هو الوظيفة المحددة. يُظهر المخطط‬ قبل جدولة وظيفة سابقة وبعد جدولة الوظيفة السابقة. 
 
-[![جدولة الوظيفة السابقة](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![جدولة الوظيفة السابقة.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>جدولة الوظائف التالية
 
 يمكنك استخدام وظيفة **جدولة الوظائف التالية** لجدولة الوظائف التالية المتعلقة بوظيفة محددة في شبكة من الأنشطة. في المثال التالي، النشاط المميز هو الوظيفة المحددة. يُظهر المخطط‬ قبل جدولة الوظيفة التالية وبعد جدولة الوظيفة التالية. 
 
-[![جدولة الوظيفة التالية](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![جدولة الوظيفة التالية.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>جدولة حول الوظيفة
 
 يمكنك استخدام وظيفة **جدولة حول الوظيفة** لجدولة الوظيفة التالية والوظيفة السابقة المتعلقة بوظيفة محددة في شبكة من الأنشطة. في المثال التالي، النشاط المميز هو الوظيفة المحددة. يُظهر المخطط‬ قبل جدولة وظيفة وبعد جدولة الوظيفة. 
 
-[![جدولة حول الوظيفة](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![جدولة حول الوظيفة.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>ترتيب الوظائف
 
 يمكنك استخدام الوظيفة **ترتيب** لتنظيم أنشطة محددة على المورد نفسه. بإمكان هذه الأنشطة أن تكون في شبكة الأنشطة نفسها، ولكن بإمكانها أيضًا أن تنتمي إلى شبكات مختلفة. عندما تستخدم وظيفة الترتيب، ستُزال الفجوات الزمنية بين الأنشطة المحددة. يمكنك استخدام هذه الوظيفة لتحسين استخدام قدرة الموارد. يُظهر المخطط‬ قبل جدولة وظيفة وبعد جدولة الوظيفة. 
 
-[![ترتيب الوظيفة](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![ترتيب الوظيفة.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>إعادة تعيين الأنشطة من مورد إلى آخر
 

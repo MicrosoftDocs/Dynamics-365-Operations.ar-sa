@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791682"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354555"
 ---
 # <a name="configure-task-management"></a>تكوين إدارة المهام
 
@@ -44,7 +44,7 @@ ms.locfileid: "5791682"
 
 يبين الرسم التوضيحي التالي كيفية تكوين أذونات إدارة المهام لمديري المتجر.
 
-![تكوين أذونات إدارة المهام لمديري المتجر](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![تكوين أذونات إدارة المهام لمديري المتجر.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>تكوين الأذونات للموظفين
 
@@ -78,7 +78,7 @@ ms.locfileid: "5791682"
 
 يبين الرسم التوضيحي التالية عملية **إدارة المهام** في صفحة **عمليات نقطة البيع**.
 
-![عمليه إدارة المهام في صفحة عمليات POS](media/HQ-POS-Tasks-Notifications.png)
+![عمليه إدارة المهام في صفحة عمليات POS.](media/HQ-POS-Tasks-Notifications.png)
 
 لمزيد من المعلومات حول كيفية تكوين إخطارات نقاط البيع، راجع [‏‫إظهار إخطارات الأوامر في نقطة البيع (POS)](notifications-pos.md).
 
@@ -95,7 +95,7 @@ ms.locfileid: "5791682"
 
 يبين الرسم التوضيحي التالي مثالاً للوحة **المهام** في صفحة رئيسية لنقطة البيع.
 
-![لوحة المهام على الصفحة الرئيسية لنقطة البيع](media/POS-home-screen-tasks-button-image.png)
+![لوحة المهام على الصفحة الرئيسية لنقطة البيع.](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
