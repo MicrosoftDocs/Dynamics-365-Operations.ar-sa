@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 15a61b1fe4a267552708fa02fe482f7702668e06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc656c6339da92deceff2f8861fd8570171b7a2d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824956"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345538"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>مزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "5824956"
 
 يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Dynamics 365 Field Service إلى أوامر المبيعات في Dynamics 365 Supply Chain Management.
 
-[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
@@ -245,31 +245,31 @@ ms.locfileid: "5824956"
 
 عامل التصفية: (msdyn_systemstatus ne 690970005) و(msdyn_systemstatus ne 690970000) و(msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderServiceLineEstimate
 
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و (msdyn_linestatus eq 690970000) و (msdynce_headersystemstatus ne 690970004)
 
-[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderServiceLineUsed
 
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و((msdyn_linestatus eq 690970001) أو (msdynce_headersystemstatus eq 690970004))
 
-[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderProductLineEstimate
 
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و (msdyn_linestatus eq 690970000) و(msdynce_headersystemstatus ne 690970004) و(msdyn_allocated eq true)
 
-[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderProductLineUsed
 
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و((msdyn_linestatus eq 690970001) أو (msdynce_headersystemstatus eq 690970004) أو (msdyn_allocated ne true))
 
-[![تعيين القالب في تكامل البيانات](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

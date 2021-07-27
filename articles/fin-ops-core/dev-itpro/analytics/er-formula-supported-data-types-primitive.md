@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224075"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355312"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>أنواع البيانات الأساسية المدعومة لمعادلات التقارير الإلكترونية
 
@@ -112,13 +112,13 @@ ms.locfileid: "6224075"
 
 يوضح التوضيح التالي كيف يمكنك إضافة تعداد نموذج **CustVendCorrectiveReasonCode** إلى نموذج بيانات التقارير الإلكترونية القابل للتحرير.
 
-[![تكوين تعداد نموذج في مصمم نموذج بيانات إعداد التقارير الإلكترونية](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![تكوين تعداد نموذج في مصمم نموذج بيانات إعداد التقارير الإلكترونية.](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 يمكن استخدام *تعداد* النموذج في تعبيرات أي تعيين نموذج التقارير الإلكترونية وتنسيق التقارير الإلكترونية التي تم إنشائها ضمن نموذج البيانات حيث يتم تقديم *التعداد*.
 
 يبين الرسم التوضيحي التالي كيف يمكنك إضافة تعداد تنسيق **قائمة الفئات الفرعية للرسوم العكسية Natura** إلى تنسيق التقارير الإلكترونية القابل للتحرير.
 
-[![تكوين تعداد نموذج في مصمم تنسيق إعداد التقارير الإلكترونية](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![تكوين تعداد نموذج في مصمم تنسيق إعداد التقارير الإلكترونية.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 يمكنك استخدام تنسيق *التعداد* فقط في تعبيرات تنسيق إعداد التقارير الإلكترونية حيث تم تقديم *التعداد*.
 
@@ -126,15 +126,15 @@ ms.locfileid: "6224075"
 
 - يمكن الوصول إلى تعدادات التطبيقات باستخدام مصادر بيانات **Dynamics 365 for Operations / التعداد** و **عام / معلمات إدخال المستخدم**. يوضح الرسم التوضيحي التالي الكيفية التي يمكنك خلالها الإضافة إلى تنسيق التقارير الإلكترونية القابلة للتحرير مصادر البيانات **appenumNoYes** و **uipNoYes** التي تشير إلى تعداد تطبيق **NoYes**.
 
-    [![إضافة مصادر بيانات تعداد التطبيقات في مصمم تنسيق التقارير الإلكترونية](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![إضافة مصادر بيانات تعداد التطبيقات في مصمم تنسيق التقارير الإلكترونية.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - يمكن الوصول إلى تعدادات نموذج البيانات باستخدام مصادر بيانات **نموذج البيانات / التعداد** و **معلمات نموذج البيانات / إدخال مستخدم التعداد**. يوضح الرسم التوضيحي التالي الكيفية التي يمكنك خلالها الإضافة إلى تنسيق التقارير الإلكترونية القابلة للتحرير مصدر البيانات **CustVendCorrectiveReasonCode** الذي يشير إلى تعداد نموذج بيانات **CustVendCorrectiveReasonCode**.
 
-    [![إضافة مصادر بيانات تعداد النموذج في مصمم تنسيق التقارير الإلكترونية](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![إضافة مصادر بيانات تعداد النموذج في مصمم تنسيق التقارير الإلكترونية.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - يمكن الوصول إلى تعدادات التنسيق باستخدام مصادر بيانات **التنسيق / التعداد** و **معلمات التنسيق / إدخال مستخدم التعداد**. يوضح الرسم التوضيحي التالي الكيفية التي يمكنك خلالها الإضافة إلى تنسيق التقارير الإلكترونية القابلة للتحرير مصدر البيانات **NaturaReverseCharge** الذي يشير إلى تعداد تنسيق **الفئات الفرعية للرسوم العكسية Natura**.
 
-    [![إضافة مصادر بيانات تعداد التنسيق في مصمم تنسيق التقارير الإلكترونية](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![إضافة مصادر بيانات تعداد التنسيق في مصمم تنسيق التقارير الإلكترونية.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 لا يحتوي *التعداد* على أية تحويلات ضمنية. ومع ذلك، يمكنك استخدام وظيفة تحويل [TEXT](er-functions-text-text.md) لتحويل *تعداد* إلى سلسلة نصية. هذا التحويل لا يعتمد على اللغة. لمعرفة كيفية إقران قيمة *التعداد* مع التسميات المناسبة الخاصة باللغة، راجع أمثلة الاستخدام للوظيفتين [LISTOFFIELDS](er-functions-list-listoffields.md) و [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md).
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac1495f12a51d72a90ad88fc2d8e0a574418467
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796986"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345124"
 ---
 # <a name="install-the-pos-layout-designer"></a>تثبيت مصمم تخطيط نقطة البيع
 
@@ -40,7 +40,7 @@ ms.locfileid: "5796986"
 5. بعد اكتمال عملية التثبيت، في صفحة **تسجيل الدخول**، أدخل اسم مستخدم وكلمة مرور Commerce، ثم انقر فوق **تسجيل الدخول** لبدء تشغيل المصمم.
 6. بعد أن يتم التحقق من صحة بيانات الاعتماد الخاصة بك ويبدأ تشغيل المصمم، يمكنك تصميم تخطيط خاص بك أو تعديل التخطيط الموجود.
 
-    [![تخطيط في المصمم بنقرة واحدة](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+    [![تخطيط في المصمم بنقرة واحدة.](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>استكشاف أخطاء تثبيت مصمم التخطيط وإصلاحها
 

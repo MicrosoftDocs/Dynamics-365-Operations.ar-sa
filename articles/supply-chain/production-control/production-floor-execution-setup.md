@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a5911e81547134d3034d1a47ef94c553ccbb331
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814696"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353954"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>إعداد جهاز لتشغيل واجهة تنفيذ صالة الإنتاج‬
 
@@ -70,7 +70,7 @@ ms.locfileid: "5814696"
 
 يبين الجزء العلوي من الرسم التوضيحي التالي كيفية ظهور الواجهة بشكل افتراضي. يوضح الجزء السفلي كيفية ظهوره في وضع ملء الشاشة عندما يكون جزء التنقل مخفيًا.
 
-![واجهة قياسية مقابل ملء الشاشة](media/pfei-full-screen.png "واجهة قياسية مقابل ملء الشاشة")
+![واجهة قياسية مقابل ملء الشاشة.](media/pfei-full-screen.png "واجهة قياسية مقابل ملء الشاشة")
 
 ## <a name="extend-the-session-past-12-hours"></a>مد جلسة العمل خلال 12 ساعة
 

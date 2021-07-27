@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a03c8f340e8ebb2fb0440518c154ed3bdd0197f6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 7f735726a7e126174bc9c6a4002e421df3f21298
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053241"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360606"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>تجنب اقتطاع نص في التدرج الهرمي للمنصب والتصدير إلى Visio
 
@@ -29,13 +29,13 @@ ms.locfileid: "6053241"
 
 عندما يستعرض العميل التدرج الهرمي للمنصب في Microsoft Dynamics 365 Human Resources، يتم اقتطاع أسماء الأفراد ومناصبهم. لذلك، فقد يكون من الصعب أخذ لقطة شاشة أو طباعة وتوزيع التدرج الهرمي.
 
-![التدرج الهرمي للمناصب الوظيفية](media/position-h.png)
+![التدرج الهرمي للمناصب الوظيفية.](media/position-h.png)
 
 **السبب**
 
 يتم هذا السلوك بسبب التصميم.
 
-**‏‏الدقة**
+**الحل**
 
 لسوء الحظ، لا يمكن للمستخدمين تغيير حجم النص بسهولة. ومع ذلك، يمكنك تصدير التدرج الهرمي للمنصب خارج Human Resources ثم استيراده إلى Microsoft Visio. على الرغم من كتابة المقالة التالية لبرنامج Microsoft Dynamics AX 2012، فإن العملية تنطبق مع ذلك على Human Resources: [تصدير التدرج الهرمي للمنصب إلى Microsoft Visio](/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
@@ -47,48 +47,48 @@ ms.locfileid: "6053241"
 
 2. في جزء الإجراءات، حدد الزر **فتح في Microsoft Office**، ثم ضمن **تصدير إلى Excel**، حدد **المناصب‏‎**. بدلاً من ذلك، اضغط على Ctrl + T.
 
-    ![تصدير صفحة قائمة المناصب إلى Excel](media/org-admin.png)
+    ![تصدير صفحة قائمة المناصب إلى Excel.](media/org-admin.png)
 
 3. حفظ ملف Excel الذي تم تصديره.
 
-    ![تصدير إلى مربع حوار Excel](media/export-excel.png)
+    ![تصدير إلى مربع حوار Excel.](media/export-excel.png)
 
 4. في Visio، حدد **Visio-إنشاء جديد**، ثم حدد فئة قالب **العمل**.
 
-    ![مخطط جديد](media/new.png)
+    ![مخطط جديد.](media/new.png)
 
 5. حدد **مُعالج مخطط مؤسسة**، ثم قم بتحديد **إنشاء**.
 
-    ![مربع حوار مُعالج مخطط مؤسسة](media/orgchart-wizard.png)
+    ![مربع حوار مُعالج مخطط مؤسسة.](media/orgchart-wizard.png)
 
 6. حدد **المعلومات التي تم تخزينها مسبقًا في ملف أو قاعدة بيانات**، ثم قم بتحديد **التالي**.
 
-    ![معالج مخطط المؤسسة 1](media/orgchart-wizard7.png)
+    ![معالج مخطط المؤسسة 1.](media/orgchart-wizard7.png)
 
 7. اختر **نص، Org Plus (\*.txt) أو ملف Excel**، ثم حدد **التالي**.
 
-    ![معالج مخطط المؤسسة 2](media/orgchart-wizard3.png)
+    ![معالج مخطط المؤسسة 2.](media/orgchart-wizard3.png)
 
 8. استعرض لتحديد ملف Excel الذي تم تصديره الذي يحتوي على التدرج الهرمي للمناصب ثم قم بتحديد **التالي**.
 
-    ![معالج مخطط المؤسسة 3](media/orgchart-wizard2.png)
+    ![معالج مخطط المؤسسة 3.](media/orgchart-wizard2.png)
 
 9. حدد حقل **الاسم** إلى **المنصب**، ثم قم بتعيين حقل **تقارير إلى** إلى  **تقارير إلى المنصب**، ثم قم بتحديد **التالي**.
 
-    ![معالج مخطط المؤسسة 4](media/orgchart-wizard1.png)
+    ![معالج مخطط المؤسسة 4.](media/orgchart-wizard1.png)
 
 10. حدد الحقول التي ينبغي إظهارها في كل عقدة، ثم قم بتحديد **التالي**.
 
-    ![معالج مخطط المؤسسة 5](media/orgchart-wizard5.png)
+    ![معالج مخطط المؤسسة 5.](media/orgchart-wizard5.png)
 
 11. إضافة عمود **المنصب** إلى قائمة **حقول بيانات الشكل**، ثم قم بتحديد **التالي**.
 
-    ![معالج مخطط المؤسسة 6](media/orgchart-wizard6.png)
+    ![معالج مخطط المؤسسة 6.](media/orgchart-wizard6.png)
 
 12. الصور غير متوفرة حاليًا. لذلك، في الصفحة التالية، حدد **التالي**.
 13. حدد **أريد أن يقوم المعالج بتقسيم مخطط المؤسسة الخاص بي تلقائيًا عبر الصفحات**.
 
-    ![معالج مخطط المؤسسة 7](media/orgchart-wizard4.png)
+    ![معالج مخطط المؤسسة 7.](media/orgchart-wizard4.png)
 
 14. حدد **إنهاء**.
 
@@ -98,7 +98,7 @@ ms.locfileid: "6053241"
 
 استنادًا إلى الحقول التي حددتها لتضمينها في المخطط، تُظهر كل عقدة المعلومات المناسبة عندما يتم إنشاء ملف Visio.
 
-![مخطط التدرج الهرمي](media/hierarchy.png)
+![مخطط التدرج الهرمي.](media/hierarchy.png)
 
 **خيار إضافي**
 

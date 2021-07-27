@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b6d68d62636b5750cdcdca3f8ccbe155dc249b72
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804419"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352290"
 ---
 # <a name="enable-personalized-recommendations"></a>تمكين التوصيات المخصصة
 
@@ -50,7 +50,7 @@ ms.locfileid: "5804419"
 1. حدد ميزة **توصيات المنتج المخصصة**.
 1. في جزء خصائص **توصيات المنتج المخصصة** ، حدد **تمكين الآن**.
 
-![تشغيل التخصيص](./media/FeatureManagement_Personalized.PNG)
+![تشغيل التخصيص.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > عند تشغيل إضفاء الطابع الشخصي، يتم بدء عمليه إنشاء قوائم توصيات المنتج المخصصة. قد يكون مطلوبا حتى يوم واحد قبل ان تكون هذه القوائم متاحه ومرئية عبر الإنترنت وفي نقطه البيع.
@@ -73,7 +73,7 @@ ms.locfileid: "5804419"
 
 يبين الرسم التوضيحي التالي مثالا على قائمة  "الاختيارات الخاصة بك" في صفحه المتجر على الإنترنت.
 
-![قائمة العناصر المقترحة على الإنترنت لك](./media/picksforyou.png)
+![قائمة العناصر المقترحة على الإنترنت لك.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>قوائم "الموصي بها للعميل" عند نقطه البيع
 
@@ -81,7 +81,7 @@ ms.locfileid: "5804419"
 
 يبين الرسم التوضيحي التالي مثالا لقائمة "الموصى به للعميل في الوحدة الطرفية لنقطة البيع.
 
-![قائمة الموصي بها للعميل عند نقطه البيع](./media/picksonpos.png)
+![قائمة الموصي بها للعميل عند نقطة البيع.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>تطبيق التخصيص على قوائم التوصيات الموجودة
 
@@ -89,7 +89,7 @@ ms.locfileid: "5804419"
 
 علي سبيل المثال، قام مستخدم مسجل للدخول مسبقا بشراء المراقب الأسود وتشغيل البنية التي تظهر في قائمة  "الافتراضي المتداول" في التوضيح التالي. التالي، سيشاهد المستخدم المنتجات الجديدة بدلا من تلك المنتجات، كما هو موضح في قائمة  "التخصيص المتداول".
 
-![تطبيق إضفاء الطابع الشخصي](./media/applypersonalization.png)
+![تطبيق التخصيص.](./media/applypersonalization.png)
 
 لتطبيق إضفاء الطابع الشخصي على قائمة  توصيات موجودة في منشئ موقع التجارة، اتبع الخطوات التالية.
 
@@ -99,7 +99,7 @@ ms.locfileid: "5804419"
 1. في مربع الحوار **تحديد تكوين قائمة المنتجات**، ضمن  **النوع**، حدد نوع القائمة.
 1. حدد خانة الاختيار **تطبيق التخصيص**، ثم حدد **موافق**.
 
-    ![تطبيق التخصيص على قائمة  متداوله](./media/ApplyPersonalizationToTrending.PNG)
+    ![تطبيق التخصيص على قائمة متداولة.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. احفظالصفحة وقم بانهاء تحريريها، ثم انشرها. بعد نشر الصفحة، سيرة المستخدمون المسجل دخولهم قوائم متداوله مخصصه.
 

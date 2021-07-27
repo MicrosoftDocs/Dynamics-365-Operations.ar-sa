@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224074"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355336"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>أنواع البيانات المركبة المدعومة لمعادلات التقارير الإلكترونية
 
@@ -43,11 +43,11 @@ ms.locfileid: "6224074"
 
 يوضح الرسم التوضيحي التالي كيفية إضافة مصدر البيانات **System information(xInfo)** لنوع **الفئة** لإجراء مثيل فئة التطبيق **xInfo** واستدعاء الأسلوب **productName()** لتلقي اسم التطبيق الحالي. يتم إحضار اسم التطبيق الحالي في وقت التشغيل عن طريق تنفيذ ربط `xInfo.productName` الذي يتم تكوينه للحقل **Software name(SoftwareName)** لنموذج بيانات التقارير الإلكترونية. يستدعي هذا الربط أسلوب `productName()` لفئة التطبيق **xInfo** التي يتم تمثيلها في تعيين النموذج الحالي كمصدر بيانات **System information(xInfo)**.
 
-[![تكوين مصدر بيانات فئة في مصمم تعيين نموذج التقارير الإلكترونية](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![تكوين مصدر بيانات فئة في مصمم تعيين نموذج التقارير الإلكترونية.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 يوضح الرسم التوضيحي التالي كيفية تكوين تنسيق التقارير الإلكترونية لوضع اسم التطبيق المقدم في المستندات التي تم إنشاؤها. تم ربط الحقل **Software name(SoftwareName)** لنموذج البيانات المستخدم بمكون **السلسلة** المتداخل ضمن عنصر **softwareUsed** XML من تنسيق التقارير الإلكترونية. لذلك، يتم وضع اسم التطبيق الحالي في وقت التشغيل إلى لعنصر **softwareUsed** XML للمستند الذي تم إنشاؤه بتنسيق XML.
 
-[![تكوين بنية المستند الصادر الإلكتروني في مصمم تنسيق التقارير الإلكترونية](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![تكوين بنية المستند الصادر الإلكتروني في مصمم تنسيق التقارير الإلكترونية.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>الحاوية
 
@@ -60,7 +60,7 @@ ms.locfileid: "6224074"
 
 يبين الرسم التوضيحي التالي كيفية ربط الحقل **Bitmap(Image)** للنوع *الحاوية* بحقل نموذج البيانات **الشعار** لنوع **الحاوية** في تعيين النموذج **فاتورة المبيعات**. يجعل هذا الربط شعار الشركة متوفرًا لأي تنسيق تقارير إلكترونية تم تصميمه لتعريف جذر **SalesInvoice** ويستخدم تعيين نموذج هذا في وقت التشغيل.
 
-[![ربط حقل نوع الحاوية في مصمم تعيين نموذج التقارير الإلكترونية](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![ربط حقل نوع الحاوية في مصمم تعيين نموذج التقارير الإلكترونية.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>تسجيل
 
@@ -109,7 +109,7 @@ ms.locfileid: "6224074"
 
 يبين الرسم التوضيحي التالي كيفية إضافة مصدر بيانات **ReportDataContract** لنوع *كائن* لتمرير معلومات حول فاتورة تم إنشائها من كود المصدر إلى تعيين نموذج **فاتورة المشروع**. على سبيل المثال، يتم تمرير نص مثيل الفاتورة كجزء من سياق التنفيذ. يتم الحصول على هذا النص من كود المصدر عن طريق تنفيذ ربط `ReportDataContract.parmInvoiceInstanceText` الذي تم تكوينه للحقل **ملاحظة** لنموذج بيانات التقارير الإلكترونية. يستدعي هذا الربط أسلوب `parmInvoiceInstanceText()` لفئة التطبيق **PSAProjInvoiceContract** التي يتم تمثيلها في تعيين النموذج الحالي كمصدر بيانات **ReportDataContract**.
 
-[![تكوين مصدر بيانات كائن في مصمم تعيين نموذج التقارير الإلكترونية](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![تكوين مصدر بيانات كائن في مصمم تعيين نموذج التقارير الإلكترونية.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 لمعرفة كيفية تمرير تفاصيل سياق التنفيذ من كود المصدر إلى الحل التقارير الإلكترونية الذي يتم تشغيله، راجع [تطوير بيانات اصطناعية للتطبيق لاستدعاء التقرير المصمّم](er-quick-start1-new-solution.md#DevelopCustomCode).
 

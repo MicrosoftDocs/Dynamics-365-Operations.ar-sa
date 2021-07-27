@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807718"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359499"
 ---
 # <a name="transportation-management-overview"></a>نظرة عامة على إدارة النقل
 
@@ -67,17 +69,17 @@ ms.locfileid: "5807718"
 ## <a name="planning-transportation-in-supply-chain-management"></a>تخطيط النقل في Supply Chain Management
 في إدارة النقل، بإمكان تخطيط النقل أن يستند إما إلى الأوامر أو إلى الشحنات التي تم إنشاؤها بالاستناد إلى تلك الأوامر. تكون الشحنات موجودة دائمًا في مرحلة معينة، ولكنها ليست ضرورية لتخطيط النقل. تشكّل أوامر التحويل جزءًا من السيناريو الصادر ويمكن تخطيطها مع أوامر المبيعات. 
 
-![رسم حمل العمل](./media/Load-drawing1-1024x477.jpg)
+![رسم حمل العمل.](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>النقل الوارد
 ‏‫إذا طلبت أصنافًا من المورّد وإذا كان يجب تسليم الأصناف إلى المستودع، فقد تحتاج إلى ترتيب عملية نقل الأصناف بنفسك. يمكنك استخدام Supply Chain Management لتخطيط النقل واستلام حمل العمل الوارد.‬ يبين الرسم التوضيحي التالي تدفق العملية التجارية لتخطيط نقل حمل العمل الداخلي. 
 
-![سير إجراء العمل لنقل حمل العمل الوارد](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![سير إجراء العمل لنقل حمل العمل الوارد.](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>النقل الصادر
 يمكنك تخطيط ومعالجة حمل العمل الصادر لشحن أصناف معينة من مستودع للشركة لعميل. يمكنك استخدام Supply Chain Management لتخطيط النقل وشحن حمولة صادرة. يبين الرسم التوضيحي التالي تدفق العملية التجارية للتخطيط ومعالجة أحمال العمل الصادرة للشحن. 
 
-![تخطيط أحمال العمل الصادرة ومعالجتها](./media/Planningandprocessingoutboundloads.jpg)
+![تخطيط أحمال العمل الصادرة ومعالجتها.](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>إنشاء حمل العمل
 يوفر Supply Chain Management استراتيجية بناء حمل العمل التي تسمى استراتيجية بناء حمل العمل على أساس الحجم. تسمح لك هذه الاستراتيجية باستخدام القيم القصوى المحددة للطول والوزن في قالب حمل العمل، أو يمكنك تجاوز الإعدادات بإدخال قيم جديدة. لاستخدام هذه الاستراتيجية، حددها في الحقل **إستراتيجية إنشاء الحِمل‬** على علامة التبويب السريعة **إعداد** في صفحة **منضدة عمل إنشاء الحِمل‬**. وبالإضافة إلى ذلك، يمكنك إضافة استراتيجيات بناء الأحمال الخاصة بك عن طريق إنشاء فئة جديدة في شجرة مكونات البرنامج (AOT).

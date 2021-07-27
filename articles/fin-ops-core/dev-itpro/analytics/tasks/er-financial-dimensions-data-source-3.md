@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a3b9a8b5775d2001f3384480e2f9593f2dfa8b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 74c845cf5ce361b0e9594863cdfca98d9cb9b0ca
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752402"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356309"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 3 - تصميم التقرير)
 
@@ -92,7 +92,7 @@ ms.locfileid: "5752402"
 59. انقر فوق "إضافة سمة".
 60. في حقل "الاسم"، اكتب "الوصف".
 61. انقر فوق موافق.
-![صفحة مصمم عمليات التقارير الإلكترونية](../media/er-financial-dimensions-guides-format1.png)
+![صفحة مصمم عمليات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>تعيين عناصر التقرير إلى مصادر بيانات
 1. انقر فوق علامة التبويب "التعيين".
@@ -141,7 +141,7 @@ ms.locfileid: "5752402"
 44. انقر فوق "ربط".
 45. انقر فوق حفظ.
 46. قم بإغلاق الصفحة.
-![صفحة مصمم عمليات التقارير الإلكترونية](../media/er-financial-dimensions-guides-format2.png)
+![صفحة مصمم عمليات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8df8e6204e9c64305387e6aed304142d7f13b33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6affcc20c2c2e2b8fa9e38cb523e172bb2a79f22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808318"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349808"
 ---
 # <a name="asset-management-parameters"></a>معلمات إدارة الأصول
 
@@ -99,7 +99,7 @@ ms.locfileid: "5808318"
 
 ## <a name="the-document-types-tab"></a>علامة التبويب أنواع المستندات
 
-حدد أنواع المستندات التي يجب أن تكون متوفرة لطباعة المرفقات المتعلقة بتقرير أمر العمل. ويتم ذلك بتحديد نوع مستند في القسم **متوفر** وتحديد ![السهم للأمام](media/15-setup-for-objects.png). إذا كنت ترغب في إزالة نوع مستند محدد، فحدد نوع المستند في القسم **محدد** وحدد ![سهم للخلف](media/16-setup-for-objects.png).
+حدد أنواع المستندات التي يجب أن تكون متوفرة لطباعة المرفقات المتعلقة بتقرير أمر العمل. ويتم ذلك بتحديد نوع مستند في القسم **متوفر** وتحديد ![السهم للأمام.](media/15-setup-for-objects.png). إذا كنت ترغب في إزالة نوع مستند محدد، فحدد نوع المستند في القسم **محدد** وحدد ![سهم للخلف](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>علامة التبويب التسلسلات الرقمية
 

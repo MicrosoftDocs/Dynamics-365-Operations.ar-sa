@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 0956e7aa51973014ee474d97829d3d15dfdea3b3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a641789adf27e51b7a3f8ab03269cc2e748eef96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909933"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359801"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>مزامنة أوامر العمل مع المشروع من Field Service إلى Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "5909933"
 
 يصف هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل مع رقم مشروع من Dynamics 365 Field Service إلى Dynamics 365 Supply Chain Management.
 
-[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
+[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 يستند قالب **أوامر العمل مع المشروع ‏(Field Service إلى Supply Chain Management)** إلى قالب **أوامر العمل (Field Service إلى Supply Chain Management)**. لمزيد من المعلومات، راجع [مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
@@ -61,19 +61,19 @@ ms.locfileid: "5909933"
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>أوامر العمل مع المشروع (Field Service إلى ‎Supply Chain Management)‎:‎‎ ‎‎WorkOrderHeader‎
 
-[![تعيين القالب في تكامل البيانات](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>أوامر العمل مع المشروع (Field Service إلى Supply Chain Management): WorkOrderHeaderProject
 
-[![تعيين القالب في تكامل البيانات](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>أوامر العمل مع المشروع (Field Service إلى Supply Chain Management): WorkOrderProduct
 
-[![تعيين القالب في تكامل البيانات](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>أوامر العمل مع المشروع (Field Service إلى Supply Chain Management): WorkOrderService
 
-[![تعيين القالب في تكامل البيانات](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSWOP4.png)](./media/FSWOP4.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

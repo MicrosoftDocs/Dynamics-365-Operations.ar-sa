@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804395"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353794"
 ---
 # <a name="pickup-information-module"></a>الوحدة النمطية لمعلومات الاستلام
 
@@ -40,7 +40,7 @@ ms.locfileid: "5804395"
 
 يبين الرسم التوضيحي مثالاً على تحديد الفترة الزمنية من خلال الوحدة النمطية لمعلومات الالتقاط في صفحة السداد مع الخروج.
 
-![مثال عن الوحدة النمطية لمعلومات الالتقاط على صفحة السداد مع الخروج](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![مثال عن الوحدة النمطية لمعلومات الالتقاط على صفحة السداد مع الخروج.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>خصائص الوحدة النمطية
 
@@ -56,11 +56,11 @@ ms.locfileid: "5804395"
 
 يبين الرسم التوضيحي التالي مثالاً على صفحة السداد مع الخروج من التجارة الإلكترونية التي تتضمن فترات زمنية لعناصر بند الالتقاط.
 
-![مثال على صفحة السداد مع الخروج من التجارة الإلكترونية التي تتضمن فترات زمنية لعناصر بند الالتقاط](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![مثال على صفحة السداد مع الخروج من التجارة الإلكترونية التي تتضمن فترات زمنية لعناصر بند الالتقاط.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[‬‏‫إنشاء فترات زمنية لالتقاط العميل وتحديثها](dev-itpro/pickup-timeslots.md)
+[إنشاء فترات زمنية لاستلام العميل للمنتجات وتحديثها](dev-itpro/pickup-timeslots.md)
 
 [الوحدة النمطية للسداد مع الخروج](add-checkout-module.md)
 

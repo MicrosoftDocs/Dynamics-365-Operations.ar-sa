@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188924"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350488"
 ---
 # <a name="routes-and-operations"></a>المسارات والعمليات
 
@@ -45,7 +45,7 @@ ms.locfileid: "6188924"
 
 إن المسار البسيط عبارة عن مسار متسلسل، وهناك نقطة بداية واحدة فقط للمسار.  
 
-[![مسار بسيط](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![مسار بسيط.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 إذا قمت بتمكين المسارات البسيطة فقط في "محددات التحكم في الإنتاج"، فسينشئ Supply Chain Management تلقائيًا أرقام العمليات (10، 20، 30 وهكذا) عندما تحدد المسار.
 
@@ -53,7 +53,7 @@ ms.locfileid: "6188924"
 
 إذا قمت بتمكين شبكات المسارات الأكثر تعقيدًا في "محددات التحكم في الإنتاج"، فيمكنك تحديد المسارات التي تحتوي على عدة نقاط بداية وعمليات يمكن تشغيلها في نفس الوقت.  
 
-[![شبكة المسارات](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![شبكة المسارات.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - بإمكان كل عملية أن تتضمن عملية لاحقة واحدة فقط، ويجب أن ينتهي المسار الكامل في عملية واحدة.
@@ -64,7 +64,7 @@ ms.locfileid: "6188924"
 
 في بعض الأحيان، قد تكون مجموعة من موارد عمليات متعددة لها خصائص مختلفة ضرورية لتنفيذ عملية. على سبيل المثال، قد تتطلب عملية تجميع وجود جهاز وأداة وعامل واحد لكل جهازين للإشراف على العملية. يمكن تصميم هذا المثال باستخدام العمليات المتوازية، حيث يتم تعيين عملية واحدة كعملية أساسية والعمليات الأخرى كثانوية.  
 
-[![مسار لديه عمليات أساسية وثانوية](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![مسار يتضمن عمليات أساسية وثانوية.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 بشكل عام، تمثل العملية الأساسية مورد التعامل مع الأزمات وهي تحدد وقت التشغيل للعمليات الثانوية. ومع ذلك، أثناء عملية الجدولة التي تشتمل على القدرة المحدودة، يجب أن تكون الموارد التي تمت جدولتها للعملية الرئيسية والعمليات الثانوية متاحة ولديها قدرة حرة في نفس الوقت.  
 

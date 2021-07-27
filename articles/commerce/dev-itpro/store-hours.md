@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792919"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348232"
 ---
 # <a name="create-and-update-store-hours"></a>إنشاء ساعات المتجر وتغييرها
 
@@ -49,14 +49,14 @@ ms.locfileid: "5792919"
     > [!NOTE]
     > يمكنك إنشاء قوالب متعددة ذات تواريخ بدء وانتهاء متراكبة. وبالتالي، يمكنك، على سبيل المثال، تحديد ساعات المتجر لمتاجر في مناطق زمنية مختلفة.
 
-    ![إضافة مربع حوار نطاق](../dev-itpro/media/Storehours1.png "إضافة مربع حوار نطاق")
+    ![إضافة مربع حوار نطاق.](../dev-itpro/media/Storehours1.png "إضافة مربع حوار نطاق")
 
 4. اربط قالب ساعات المتجر بالمتاجر حيث سيتم استخدامه. في مربع الحوار **اختيار عُقد المؤسسة‬**، حدد المتاجر والمناطق والمؤسسات التي يجب ربط القالب بها.
 
     - يمكن ربط قالب ساعات متجر واحد بكل متجر.
     - استخدم أزرار الأسهم لتحديد المتاجر أو المناطق أو المؤسسات. سيكون التقويم متاحًا للمتاجر أو لمجموعات المتاجر، سيكون مرئيًا عند نقطة البيع كمرجع.
 
-    ![اختيار مربع حوار عُقد المؤسسة](../dev-itpro/media/Storehours2.png "اختيار مربع حوار عُقد المؤسسة")
+    ![اختيار مربع حوار عُقد المؤسسة.](../dev-itpro/media/Storehours2.png "اختيار مربع حوار عُقد المؤسسة")
 
 5. في صفحة **جدول التوزيع‬**، شغّل الوظيفتين **1070** و **1090** لجعل ساعات المتجر متوفرة لنقطة البيع.
 
@@ -75,7 +75,7 @@ ms.locfileid: "5792919"
 
 تتضمن إيصالات نقطة البيع الآن ساعات المتجر. إذا تم تضمين أي أيام عطل في القالب، فستظهر على الإيصال.
 
-![مثال على الإيصال](../dev-itpro/media/Storehours3.png "مثال على الإيصال")
+![مثال على الإيصال.](../dev-itpro/media/Storehours3.png "مثال على الإيصال")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

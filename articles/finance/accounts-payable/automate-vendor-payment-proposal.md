@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820801"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350636"
 ---
 # <a name="automate-vendor-payment-proposals"></a>أتمتة مقترحات دفع المورّد
 
@@ -97,11 +97,11 @@ ms.locfileid: "5820801"
 
 بعد إنشاء سلسلة أتمتة مقترح دفع المورّد، تظهر حالات حدوث كل عملية دفع في طريقة العرض الأسبوعية لأتمتة العملية. لدفعات المورّد، تمت إضافة طريقة العرض الأسبوعية لأتمتة العملية إلى كل من مساحة العمل **دفعات المورّد** وصفحة **أتمتة العملية**.
 
-[![طريقة العرض الأسبوعية لأتمتة العملية في مساحة عمل دفعات المورّد](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![طريقة العرض الأسبوعية لأتمتة العملية في مساحة عمل دفعات المورّد.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 تُظهر طريقة العرض الأسبوعية لأتمتة العملية في مساحة عمل **دفعات المورّد** فقط أتمتة مقترحات دفع المورّد. وهي تُظهر جميع حالات حدوث الدفعات للأسبوع الحالي، لجميع الكيانات القانونية التي يملك المستخدم الذي سجل دخوله أذونات الأمان لها. على سبيل المثال، إذا كان موظف دفع الحسابات الدائنة مسؤولاً عن الدفعات في شركات USMF وUSSI، فسوف يرى حالات حدوث أتمتة مقترحات الدفع لهاتين الشركتين ولكن ليس لشركات أخرى.
 
-[![طريقة العرض الأسبوعية لأتمتة العملية للشركتين USMF وUSSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![طريقة العرض الأسبوعية لأتمتة العملية للشركتين USMF وUSSI.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 تعرض كل حالة حدوث الشركة التي تم أو التي سيتم إنشاء دفتر يومية الدفع لها. إذا تم إنشاء الدفعات باستخدام الدفعات المركزية، فإن الشركة التي تظهر هي الشركة التي سيتم إنشاء الدفعات فيها. لا تعرض حالة الحدوث بالضرورة فواتير الشركات التي سيتم دفعها.
 

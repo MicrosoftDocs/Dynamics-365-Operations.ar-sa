@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a58da0be280b06d96cdeae6929042bb50ed4a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795705"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352412"
 ---
 # <a name="create-a-new-product-in-commerce"></a>إنشاء منتج جديد في Commerce
 
@@ -49,15 +49,15 @@ ms.locfileid: "5795705"
 
 تعرض الصورة التالية مثالاً لمنتج تمت إضافته.
 
-![إنشاء منتج](media/create-new-product.png)
+![إنشاء منتج.](media/create-new-product.png)
 
 بمجرد إضافة المنتج يمكن تعيين بيانات إضافية له، مثل **وصف المنتج** و **مجموعات المتغيرات** و **مجموعات الأبعاد** و **سمات المنتج** و **المنتجات ذات الصلة**.
 
 تعرض الصورة التالية تفاصيل المنتج الإضافية.
 
-![تفاصيل المنتج](media/create-new-product-2.png)
+![تفاصيل المنتج.](media/create-new-product-2.png)
 
-### <a name="create-product-variants"></a>إنشاء متغيرات المنتج
+### <a name="create-product-variants"></a>إنشاء متغيرات المنتجات
 
 إذا كان النوع الفرعي للمنتج هو **أصل المنتج**، ستحتاج إلى إنشاء متغيرات معينة. 
 
@@ -74,23 +74,23 @@ ms.locfileid: "5795705"
 
 1. من صفحة المنت ، حدد **إصدار المنتجات**.
 
-    ![إصدار المنتج](media/create-new-product-3.png)
+    ![إصدار المنتج.](media/create-new-product-3.png)
 
 1. حدد المنتج الذي تريد إصداره، ثم حدد **التالي**.
 
-    ![اختر منتجًا لإصداره](media/create-new-product-4.png)
+    ![اختر منتجًا لإصداره.](media/create-new-product-4.png)
 
 1. حدد مجموعة متغيرات المنتج الذي تريد إصداره، ثم حدد **التالي**.
 
-    ![اختر متغيرات لإصدارها](media/create-new-product-5.png)
+    ![اختر متغيرات لإصدارها.](media/create-new-product-5.png)
 
 1. حدد الكيان القانوني، ثم حدد **التالي**.
 
-    ![اختيار الكيان القانوني](media/create-new-product-6.png)
+    ![اختيار الكيان القانوني.](media/create-new-product-6.png)
 
 1. حدد **إنهاء**.
 
-    ![إنهاء إصدار المنتج](media/create-new-product-7.png)
+    ![إنهاء إصدار المنتج.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>تكوين منتج تم إصداره
 
@@ -105,13 +105,13 @@ ms.locfileid: "5795705"
 
 تعرض الصورة التالية مثالاً لتكوين منتج تم إصداره.
 
-![تكوين منتج تم إصداره](media/create-new-product-8.png)
+![تكوين منتج تم إصداره.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [إنشاء كيانات قانونية](channels-legal-entities.md)
 
-[إنشاء مجموعة متغير](create-variant-group.md) 
+[إنشاء مجموعة متغيرات](create-variant-group.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

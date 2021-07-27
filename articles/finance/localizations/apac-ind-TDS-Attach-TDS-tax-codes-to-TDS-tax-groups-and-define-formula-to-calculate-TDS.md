@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f681018c27afbef8d34c88a518941d45aa9d72df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023007"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358472"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>إرفاق أكواد ضريبة TDS بمجموعات ضرائب TDS وتحديد معادلة حساب TDS
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023007"
 
 1. انتقل إلى **ضريبة \> ضرائب غير مباشرة \> ضريبة خصم \> مجموعات ضرائب الخصم**.
 
-    [![صفحة مجموعات ضرائب الخصم](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![صفحة مجموعات ضرائب الخصم.](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. في جزء الإجراء، حدد **جديد** لإنشاء مجموعة ضريبة خصم لـ TDS، وأدخل التفاصيل المطلوبة.
 3. في الحقل **نوع الضريبة**، حدد **TDS**.
@@ -43,7 +43,7 @@ ms.locfileid: "6023007"
 7. لمنع مجموعة الضريبة من حسابها في حركات، حدد خانة الاختيار **إعفاء**.
 8. في جزء الإجراء، حدد **المصمم** لفتح مصمم المعادلة، بحيث يمكنك تحديد المعادلة لحساب TDS لمجموعة ضريبة TDS. في الصفحة **المصمم**، تعرض علامة التبويب **الضرائب** أكواد ضريبة TDS التي تم تحديدها لمجموعة ضريبة التي لها TDS.
 
-    [![مصمم الصفحة](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![صفحة المصمم.](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. في علامة التبويب **الحساب**، حدد **TDS** لإنشاء بند. يعرض الحقل **المعرف** معرف الأولوية الذي يتم إنشاؤه تلقائيًا لحساب TDS.
 10. في الحقل **كود الضريبة**، حدد كود ضريبة TDS لتحديد المعادلة. تتوفر كافة أكواد ضريبة TDS التي تم تحديدها لمجموعة ضريبة TDS للتحديد في هذا الحقل.

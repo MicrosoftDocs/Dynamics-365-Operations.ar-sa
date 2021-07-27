@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26091a068ed15ec9ff14c9194c3e0e0ad0779351
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894873"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344772"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>الشروع في العمل باستخدام الفوترة الإلكترونية للمكسيك
 
@@ -56,7 +58,7 @@ ms.locfileid: "5894873"
     > [!NOTE]
     > إذا لم تظهر الميزة في القائمة، فحدد **مزامنة** ، ثم كرر الخطوة رقم 3.
 
-![استيراد ميزة فواتير CFDI‏ (MX)](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
+![ميزة استيراد ميزة فواتير CFDI‏ (MX).](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
 
 عند استيراد ميزة **فواتير CFDI ‏(MX)** من المستودع العمومي، يتم أيضًا استيراد كافة إعدادات الميزة، بما في ذلك التكوينات والإجراءات.
 
@@ -66,13 +68,13 @@ ms.locfileid: "5894873"
 
 - في صفحة **ميزات الفوترة الإلكترونية**، على علامة التبويب **الإصدارات**، حدد **جديد**.
 
-![إضافة إصدار جديد لميزة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
+![إضافة إصدار ميزة الفوترة الإلكترونية الجديدة.](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
 
 ### <a name="update-the-configuration-version"></a>تحديث إصدار التكوين
 
 1. في الصفحة **ميزات الفوترة الإلكترونية**، على علامة تبويب **التكوينات**، حدد **إضافة** أو **حذف** لإدارة إصدارات التكوين (تكوينات تنسيق ملفات التقارير الإلكترونية).
 
-    ![إدارة تكوينات ميزة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
+    ![إدارة تكوينات ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
     عند إنشاء إصدار جديد، يتم توارث كافة التكوينات من آخر إصدار منشور. لمعالجة فواتير CFDI، تحتاج إلى التكوينات التالية:
 
@@ -84,17 +86,17 @@ ms.locfileid: "5894873"
 
 2. في القائمة، حدد إصدار تكوين، ثم حدد **تحرير** أو **عرض** لفتح الصفحة **مصمم التنسيق**، حيث يمكنك تحرير التكوين أو عرضه.
 
-    ![فتح صفحة مصمم التنسيق](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
+    ![فتح صفحة مصمم التنسيق.](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
 3. استخدم الصفحة **مصمم التنسيق** لتحرير وعرض تكوينات ملف تنسيق التقارير الإلكترونية. للحصول على مزيد من التفاصيل، راجع [إنشاء تكوينات المستندات الإلكترونية](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![صفحة مصمم التنسيق‬](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
+    ![صفحة مصمم التنسيق‬.](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>إدارة عمليات إعداد ميزة الفوترة الإلكترونية
 
 - في صفحة **ميزات الفوترة الإلكترونية**، على علامة تبويب **عمليات الإعداد**، حدد **إضافة** أو **حذف** أو **تحرير** لإدارة عمليات إعداد ميزة الفوترة الإلكترونية.
 
-![إدارة عمليات إعداد ميزة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
+![إدارة عمليات إعداد ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
 لإرسال فواتير CFDI للتخويل (إنشاء ملف XML، وإرسال ملف XML، ومعالجة الاستجابة)، يجب إعداد ميزة **فاتورة المبيعات**.
 
@@ -105,11 +107,11 @@ ms.locfileid: "5894873"
 1. في صفحة **ميزات الفوترة الإلكترونية‬**، على علامة تبويب **عمليات الإعداد** في العمود **إعداد الميزة**، حدد **فاتورة المبيعات**.
 2. حدد **تحرير** لتكوين الإجراءات وقواعد قابلية التطبيق والمتغيرات.
 
-    ![تحرير إعداد ميزة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
+    ![تحرير إعداد ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
 
 3. في الصفحة **إعداد إصدار الميزة**، حدد علامة التبويب **الإجراءات** لإدارة قائمة الإجراءات. تحدد الإجراءات قائمة بالعمليات التي يجب تشغيلها بترتيب تسلسلي لاستكمال التنفيذ الكامل للحدث.
 
-    ![علامة تبويب الإجراءات‏‎](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
+    ![علامة تبويب الإجراءات‏‎.](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
     | معرف الإجراء | الإجراء                   | اسم الإجراء                                  | وصف الإجراء                                          |
     |-----------|--------------------------|----------------------------------------------|-------------------------------------------------------------|
@@ -133,7 +135,7 @@ ms.locfileid: "5894873"
 3. في الحقل **ساري من‬‏‫**، حدد التاريخ الذي يجب أن تصبح فيه البيئة سارية المفعول.
 3. حدد **تمكين**.
 
-![تمكين بيئة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
+![تمكين بيئة الفوترة الإلكترونية.](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
 
 ## <a name="change-the-version-status-to-completed"></a>تغيير حالة الإصدار إلى "مكتمل"
 
@@ -149,7 +151,7 @@ ms.locfileid: "5894873"
 1. في الصفحة **ميزات الفوترة الإلكترونية**، حدد علامة التبويب **الإصدارات** لإدارة حالة ميزة **فواتير CFDI‏ (MX)**.
 2. حدد **تغيير الحالة** لتغيير حالة الميزة.
 
-![تغيير حالة ميزة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
+![تغيير حالة ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing--integration-in-finance"></a>إعداد تكامل الفوترة الإلكترونية في Finance
 
@@ -171,7 +173,7 @@ ms.locfileid: "5894873"
 1. انتقل إلى **إدارة المؤسسة \> الإعداد \> معلمات المستندات الإلكترونية**.
 2. على علامة التبويب **الميزات**، حدد خانة الاختيار **تمكين** في الصفوف لمراجع الميزات **MX-00010** و **MX-00016**.
 
-![تشغيل الميزات لمعالجة فواتير CFDI](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
+![تشغيل الميزات لمعالجة فواتير CFDI.](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
 
 ### <a name="import-er-configurations-and-set-up-the-response-types-for-updating-cfdi-invoices"></a>استيراد تكوينات التقارير الإلكترونية وإعداد أنواع الاستجابات لتحديث فواتير MX-00016
 
@@ -221,7 +223,7 @@ ms.locfileid: "5894873"
 2. بالنسبة لعملية الإرسال الأولى لأي مستند، عيّن دائمًا الخيار **إعادة إرسال المستندات** إلى **لا**. إذا كان من الضروري إعادة إرسال مستند من خلال الخدمة، فقم بتعيين هذا الخيار إلى **نعم**.
 3. على علامة التبويب السريعة **السجلات المطلوب تضمينها‬**، حدد **تصفية** لفتح مربع الحوار **استعلام** حيث يمكنك إنشاء استعلام لتحديد مستندات لإرسالها.
 
-![إرسال مستند CFDI](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
+![إرسال مستند CFDI.](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
 > أثناء محاولتك الأولى لإرسال مستند من خلال الخدمة، ستتم مطالبتك بتأكيد الاتصال بالفوترة الإلكترونية. حدد **انقر هنا للاتصال بخدمة إرسال المستندات الإلكترونية**.
@@ -237,11 +239,11 @@ ms.locfileid: "5894873"
 1. انتقل إلى **إدارة المؤسسة \> دوري \> المستندات الإلكترونية \> سجل إرسال المستندات الإلكترونية**.
 2. في الحقل **نوع المستند**، حدد **دفتر يومية فواتير العميل** لتصفية المستندات الإلكترونية المطلوبة.
 
-    ![تحديد نوع المستند لعرض سجلات الإرسال](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
+    ![تحديد نوع المستند لعرض سجلات الإرسال.](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
 3. في جزء الإجراءات، حدد **الاستعلامات \> تفاصيل الإرسال** لعرض سجلات تنفيذ الإرسال.
 
-    ![عرض تفاصيل سجل الإرسال](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
+    ![عرض تفاصيل سجل الإرسال.](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
 
 تنقسم المعلومات الموجودة في سجلات الإرسال بين ثلاث علامات تبويب سريعة:
 
@@ -259,7 +261,7 @@ ms.locfileid: "5894873"
 2. حدد فاتورة CFDI تم إرسالها بعد تشغيل الميزة **تكامل الفوترة الإلكترونية القابلة للتكوين‬‏‫**.
 3. في جزء الإجراءات، على علامة تبويب **المحفوظات**، حدد **سجل المستندات الإلكترونية‬**.
 
-![عرض سجلات الإرسال من فواتير CFDI](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
+![عرض سجلات الإرسال من فواتير CFDI.](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
 > بالنسبة إلى فواتير CFDI المرسلة قبل تشغيل الميزة **تكامل الفوترة الإلكترونية القابلة للتكوين‬‏‫**، يتوفر زر **المحفوظات**. لا يتوفر زر **المحفوظات** لفواتير CFDI المرسلة بعد تشغيل الميزة **تكامل الفوترة الإلكترونية القابلة للتكوين**.
@@ -282,11 +284,11 @@ ms.locfileid: "5894873"
 
     تعرض صفحة **عمليات الإرسال ذات الصلة** جميع عمليات الإرسال ذات الصلة وحالة الإرسال لفاتورة CFDI معينة. في الرسم التوضيحي التالي، يمثل السطر الأول الإرسال الذي طالب بالموافقة على فاتورة CFDI. ويمثل السطر الثاني الإرسال الذي قام بإلغاء فاتورة CFDI هذه.
 
-    ![عرض سجلات إرسال الإلغاء](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
+    ![عرض سجلات إرسال الإلغاء.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
 
 4. في جزء الإجراءات، حدد **الاستعلامات \> تفاصيل الإرسال** لعرض سجلات تنفيذ الإرسال.
 
-    ![عرض تفاصيل سجلات إرسال الإلغاء](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
+    ![عرض تفاصيل سجلات إرسال الإلغاء.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>إشعار الخصوصية
 قد يتطلب تمكين ميزة **الفاتورة الإلكترونية CFDI المكسيكية (MX)** إرسال بيانات محدودة، والتي تشمل معرف التسجيل الضريبي للمؤسسة. سيتم إرسال هذه البيانات إلى وكالات خارجية معتمدة من قبل هيئة الضرائب لأغراض إرسال الفواتير الإلكترونية إلى هيئة الضرائب هذه بالتنسيق المعرف مسبقًا والمطلوب لإجراء التكامل مع خدمة الويب الخاصة بالحكومة. بإمكان المسؤول تمكين وتعطيل ميزة **الفاتورة الإلكترونية CFDI المكسيكية (MX)** من خلال الانتقال إلى **إدارة المؤسسة \> الإعداد \> معلمات المستندات الإلكترونية**. حدد علامة التبويب **الميزات**، وحدد الصفوف التي تحتوي على ميزة **الفاتورة الإلكترونية CFDI المكسيكية (MX)**، ثم قم بإجراء التحديد المناسب. تخضع البيانات المستوردة من هذه الأنظمة الخارجية في خدمة Dynamics 365 عبر الإنترنت [لبيان الخصوصية](https://go.microsoft.com/fwlink/?LinkId=512132). الرجاء مراجعه أقسام إشعار الخصوصية في وثائق الميزات الخاصة بالبلد لمزيد من المعلومات.

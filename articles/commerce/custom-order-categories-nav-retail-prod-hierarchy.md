@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937052"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349664"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>تغيير ترتيب الفرز لكيانات الترويج للبضائع
 
@@ -51,9 +51,9 @@ ms.locfileid: "5937052"
 
 سيظهر ترتيب عرض التدرج الهرمي للتنقل في القناة في المقر الرئيسي للتدرج الهرمي للمنتجات التجارية والمنتجات الصادرة حسب الفئة.
 
-![تم فرز التدرج الهرمي للمنتجات بطريقة مخصصة بقيم سالبة](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![تدرج هرمي للمنتجات تم فرزه بطريقة مخصصة بقيم سالبة.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![تم فرز المنتجات الصادرة حسب الفئة بطريقة مخصصة استنادًا إلى التدرج الهرمي للمنتجات](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![المنتجات الصادرة حسب الفئة تم فرزها بطريقة مخصصة استنادًا إلى التدرج الهرمي للمنتجات.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>تكوين ترتيب العرض للفئات في التدرج الهرمي للتنقل في القناة
 
@@ -77,11 +77,11 @@ ms.locfileid: "5937052"
 
 يظهر ترتيب عرض التدرج الهرمي للتنقل في القناة في المقر الرئيسي والكتالوج والقنوات.
 
-![تدرج الهرمي للتنقل في القناة تم فرزه بشكل مخصص](./media/ChannelNavCustomSorted.png)
+![تدرج الهرمي للتنقل في القناة تم فرزه بشكل مخصص.](./media/ChannelNavCustomSorted.png)
 
-![تدرج الهرمي للتنقل في الكتالوج تم فرزه بشكل مخصص استنادًا إلى التدرج الهرمي للتنقل في القناة](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![تدرج الهرمي للتنقل في الكتالوج تم فرزه بشكل مخصص استنادًا إلى التدرج الهرمي للتنقل في القناة.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![نقطة بيع مع فئات تم فرزها بشكل مخصص](./media/POSChannelCategoriesCustomSorted.png)
+![نقطة بيع مع فئات تم فرزها بشكل مخصص.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > بشكل افتراضي، تكون ميزة ترتيب الفرز المخصص متوقفة عن التشغيل. لمعرفة كيفية تشغيل هذه الميزة وميزات أخرى، راجع [إدارة الميزات](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).

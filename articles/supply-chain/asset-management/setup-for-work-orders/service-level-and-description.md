@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb342e700c9390e1eb9f2a9e9d67b874b3e19b8e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808246"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356454"
 ---
 # <a name="service-level-and-description"></a>مستوى الخدمة ووصفها
 
@@ -45,7 +45,7 @@ ms.locfileid: "5808246"
 8. لتعيين وقت انتهاء أمر العمل، بالإضافة إلى تاريخ انتهاء، قم بتعيين الخيار **تعيين وقت انتهاء** إلى **نعم**. ثم ادخل وقت الانتهاء في الحقل **وقت الانتهاء**. عند تعيين الخيار إلى **لا**، يتم استخدام الوقت الحالي من اليوم.
 9. حدد **حفظ**.
 
-![صفحة مستوى خدمة أوامر العمل](media/19-setup-for-work-orders.png)
+![صفحة مستوى خدمة أوامر العمل.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>إنشاء وصف
 

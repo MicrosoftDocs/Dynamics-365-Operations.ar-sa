@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 120a88790b7cdb6a8cfcf97cbafeced4685384f2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e4795d11ac370003e48dc845c86ec8a5ba22aa86
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744653"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348645"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>اختبار غير مُحدد للبيانات باستخدام Regression Suite Automation Tool.
 
@@ -30,7 +30,7 @@ ms.locfileid: "5744653"
 - إطار عمل ATL
 - Regression Suite Automation Tool (RSAT)
 
-[![التدرج الهرمي لتصنيف الاختبار](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![التدرج الهرمي لتصنيف الاختبار.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>نظرة عامة
 -   **إطار عمل SysTest**- يُمكن الاعتماد على إطار عمل SysTest في اختبارات وحدة الكتابة. ونظرًا لأن اختبارات الوحدة عادةّ ما تختبر أسلوب أو ظيفة، يجب أن تكون دائمًا غير مُحددة البيانات وتابعة فقط في بيانات الإدخال التي يتم توفيرها كجزء من الاختبار.
@@ -42,7 +42,7 @@ ms.locfileid: "5744653"
     - O ادخل المعرفات الفريدة، مثل أرقام الفواتير، من خلال التسلسل الرقمي أو باستخدام وظائف Microsoft Excel مثل= TEXT(NOW(),"yyyymmddhhmm").  سوف توفر هذه الوظيفة رقمًا فريدًا كل دقيقة، والذي يسمح لك بدوره بالتتبع عند حدوث الإجراء. ويمكن استخدام هذا للمتغيرات مثل أرقام إيصالات استلام المنتجات وأرقام فواتير المورد. وتتابع هذه الاختبارات العمل على نفس قاعدة البيانات مرة أخرى، دون الحاجة إلى أي استعادة.
     - قم دائمًا بتعيين **وضع التحرير** للبيئة لـ **قراءة** أو **تحرير** كحالة الاختبار الأولى لأن الخيار الافتراضي هو **تلقائي**. تستخدم دائمًا خيارات **تلقائي** الإعدادات السابقة ويُمكن أن تتسبب في حدوث اختبارات غير موثوقة. 
  
-    [![صفحة الخيارات، علامة التبويب الأداء](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![صفحة الخيارات، علامة التبويب الأداء.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - قم بالتحقق من الصحة فقط بعد قيامك بالتصفية لحركة مُعينة بدلًا من إجراء تحقق عام من الصحة. على سبيل المثال، بالنسبة لعدد السجلات، قم بتصفية رقم الحركة أو تاريخ الحركة بحيث تستبعد عملية التحقق من الصحة كافة الحركات الأخرى. 
     - إذا كنت تقوم بالتحقق من رصيد العميل أو فحص الموازنة، احفظ القيمة أولًا ثم أضف قيمة الحركة الخاصة بك للتحقق من صحة النتيجة المتوقعة بدلًا من التحقق من صحة قيمة متوقعة ثابتة. 

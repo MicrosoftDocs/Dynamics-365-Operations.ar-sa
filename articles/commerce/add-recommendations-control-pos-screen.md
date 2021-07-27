@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797469"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348334"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>إضافة توصيات إلى شاشة المعاملة
 
@@ -43,7 +43,7 @@ ms.locfileid: "5797469"
 6. عندما تقوم بتسجيل الدخول، سوف تظهر لك صفحة تشبه الصفحة الموجودة أدناه. سوف يكون التخطيط مختلفًا اعتمادًا على التخصيصات التي تم إجراؤها لمتجرك.
 
 
-    [![مصمم التخطيط](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![مصمم التخطيط.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>تحديد خيار عرض
 
@@ -58,11 +58,11 @@ ms.locfileid: "5797469"
 1. قم بتقليل ارتفاع منطقة تفاصيل سطور الحركة بحيث يصبح ارتفاعها مماثلاً للوحة العميل إلى يسارها.
 
 
-    [![تقليل ارتفاع منطقة تفاصيل سطور الحركة](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![تقليل ارتفاع منطقة تفاصيل سطور الحركة.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. من القائمة الموجودة على اليسار، قم بسحب وإفلات عنصر تحكيم التوصيات بين منطقة تفاصيل سطور الحركة وزر الشبكة في منتصف أسفل شاشة الحركة. قم بتغيير حجم عنصر التحكم بحيث تحتويه هذه المساحة.
 
-    [![إضافة عناصر التحكم في التوصيات إلى التخطيط](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![إضافة عناصر التحكم في التوصيات إلى التخطيط.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. انقر فوق **X** للحفظ والخروج من مصمم التخطيط.
@@ -77,13 +77,13 @@ ms.locfileid: "5797469"
 
 2. انقر فوق **تخصيص‏‎**.
 
-    [![التخصيص - مربع حوار عنصر التحكم في التبويب](./media/pic-5.png)](./media/pic-5.png)
+    [![التخصيص - مربع حوار عنصر التحكم في التبويب.](./media/pic-5.png)](./media/pic-5.png)
 
 3. انقر فوق **علامة تبويب جديدة**.
 4. ابحث عن علامة التبويب الجديدة التي قمت بإضافتها. قد تحتاج إلى التمرير لأسفل.
 5. من القائمة المنسدلة **محتويات**، قم بتحديد **المنتجات الموصى بها**.
 
-    [![تحديد المنتجات الموصى بها في حقل المحتويات](./media/pic-6.png)](./media/pic-6.png)
+    [![تحديد المنتجات الموصى بها في حقل المحتويات.](./media/pic-6.png)](./media/pic-6.png)
 
 6. في حقل **التسمية**، اكتب اسمًا لعلامة تبويب التوصيات. على سبيل المثال، اكتب "المنتجات الموصى بها‬".
 7. في حقل **صورة**، قم بتحديد الصورة لتظهر على علامة التبويب.

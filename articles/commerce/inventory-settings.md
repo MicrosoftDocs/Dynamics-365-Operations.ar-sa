@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3da447c298993794afa49a0fbaddb1c21cf6231a
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 46e59c8253ae5e4de54d56a45a142194ce38cf54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271295"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357848"
 ---
 # <a name="apply-inventory-settings"></a>تطبيق إعدادات المخزون
 
@@ -68,19 +68,19 @@ ms.locfileid: "6271295"
 
 في المثال الموضح في الرسم التوضيحي التالي، تعرض PDP رسالة في المخزن ("متوفرة").
 
-![مثال عن وحدة PDP تتضمن رسالة التوفر "في المخزون"](./media/pdp-InStock.png)
+![مثال عن وحدة PDP تتضمن رسالة التوفر "في المخزون".](./media/pdp-InStock.png)
 
 في المثال الموضح في الرسم التوضيحي التالي، تعرض PDP رسالة "نفاد المخزون".
 
-![مثال عن وحدة PDP تتضمن رسالة "نفد من المخزون"](./media/pdp-outofstock.png)
+![مثال عن وحدة PDP تتضمن رسالة "نفد من المخزون".](./media/pdp-outofstock.png)
 
 في المثال الموضح في الرسم التوضيحي التالي، تعرض عربة التسوق رسالة في المخزن ("متوفرة").
 
-![مثال عن وحدة سلة تسوق تتضمن رسالة التوفر "في المخزون"](./media/cart-instock.png)
+![مثال عن وحدة سلة تسوق تتضمن رسالة التوفر "في المخزون".](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
+[نظرة عامة على مكتبة الوحدات](starter-kit-overview.md)
 
 [تكوين المخازن المؤقتة للمخزون ومستويات المخزون](inventory-buffers-levels.md)
 

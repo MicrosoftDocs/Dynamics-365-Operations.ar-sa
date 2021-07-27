@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0462958d8225de145a8d886b096f96cd3f2cb5c5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b47f38375fc8925288db36f066ed7820bab3fe9b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799531"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353146"
 ---
 # <a name="create-a-variant-group"></a>إنشاء مجموعة متغيرات
 
@@ -61,7 +61,7 @@ ms.locfileid: "5799531"
 
 تعرض الصورة التالية مثالاً لمجموعة مقاس "لمقاسات قمصان غير رسمية".
 
-![إنشاء مجموعة مقاس](media/create-variant-group.png)
+![إنشاء مجموعة مقاس.](media/create-variant-group.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
