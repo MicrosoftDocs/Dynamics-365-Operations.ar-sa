@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866292"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345776"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>تعريفات شجرة التقارير في التقارير المالية
 
@@ -170,23 +170,23 @@ ms.locfileid: "5866292"
 - تمثل وحدات تقارير التفاصيل ذات المستوى الأدنى (مبيعات المنازل ومبيعات السيارات وخدمات العملاء والعمليات) الأقسام في البيانات المالية. توجد وحدات التقارير هذه في المنطقة المظللة في الرسم التخطيطي.
 - تقوم وحدات الملخص ذات المستوى الأعلى بتلخيص المعلومات من وحدات التفاصيل.
 
-[![هيكل تقرير ملخص Contoso - المثال 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![هيكل تقرير ملخص Contoso - المثال 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>بنية وحدة التقارير – المثال 2
 
 في الرسم التخطيطي التالي، تتسم شجرة التقارير بهيكل تنظيمي مقسم حسب وظائف الأعمال.
 
-[![هيكل تقرير ملخص Contoso - المثال 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![هيكل تقرير ملخص Contoso - المثال 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>مثال عن مربع الحوار إدراج وحدات التقارير من الأبعاد
 
 يعرض الشكل التوضيحي التالي مثالاً عن مربع الحوار **إدراج وحدات التقارير من الأبعاد**. على سبيل المثال، سترجع النتائج مجموعة من وحدات الأعمال ومراكز التكلفة والأقسام.
 
-[![إدراج وحدات التقارير](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![إدراج وحدات التقارير.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 يتم فرز تعريف شجرة التقارير الناتجة حسب وحدة الأعمال، ثم حسب مركز التكلفة، ثم حسب القسم. بُعد وحدة التقرير الخامسة هو **وحدة الأعمال = \[001\]، مركز التكلفة =\[\]، القسم = \[022\]**، وهو يعرّف وحدة إعداد تقارير للحسابات الخاصة بوحدة الأعمال 001 والقسم 022.
 
-[![توضيح شجرة إعداد التقارير](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![توضيح شجرة إعداد التقارير.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>أمثلة عن تجميع البيانات
 
@@ -194,15 +194,15 @@ ms.locfileid: "5866292"
 
 #### <a name="example-1"></a>مثال1
 
-[![تجميع التكاليف لعدة شركات](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![تجميع التكاليف لعدة شركات.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>مثال2
 
-[![تجميع التكاليف عبر إدارات الشركات](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![تجميع التكاليف عبر إدارات الشركات.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[إعداد التقارير المالية](financial-reporting-intro.md)
+[Financial reporting](financial-reporting-intro.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

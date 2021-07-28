@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184012"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345490"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>أحمال عمل إدارة المستودعات لوحدات نطاق السحابة والحافة
 
@@ -73,7 +73,7 @@ ms.locfileid: "6184012"
 
 تملك وحدات القياس معالجه الموجه الفعلية (مثل تخصيص العمل وعمل الاستعاضة وإنشاء عمل الطلب) بعد إصدار الموجه. التالي يمكن لعاملي المستودع معالجه العمل الصادر باستخدام أحد تطبيقات إدارة المستودع للأجهزة المحمولة المتصل بوحدة المقياس.
 
-![تدفق معالجة الموجة](./media/wes-wave-processing-ga.png "تدفق معالجة الموجة")
+![تدفق معالجة الموجة.](./media/wes-wave-processing-ga.png "تدفق معالجة الموجة")
 
 ### <a name="process-work-and-ship"></a>معالجة العمل والشحن
 
@@ -81,7 +81,7 @@ ms.locfileid: "6184012"
 
 بمجرد أن يقوم المركز بتحديث الحركات إلى *تم الانتقاء*، يمكنه معالجة تأكيد الشحنة الصادرة وإيصال تعبئة المبيعات المرتبط أو شحن أمر التحويل للحمل.
 
-![تدفق المعالجة الصادرة](./media/WES-outbound-processing-19.png "تدفق المعالجة الصادرة")
+![تدفق المعالجة الصادرة.](./media/WES-outbound-processing-19.png "تدفق المعالجة الصادرة")
 
 ## <a name="inbound-process-flow"></a>تدفق العملية الواردة
 
@@ -107,11 +107,11 @@ ms.locfileid: "6184012"
 
 إذا لم تكن تستخدم عملية *إصدار إلى المستودع*، التالي لا تستخدم *أوامر المستودع*، فيمكن للمركز معالجه استلام المستودع ومعالجه العمل بشكل مستقل عن وحدات القياس.
 
-![تدفق العملية الواردة](./media/wes-inbound-ga.png "تدفق العملية الواردة")
+![تدفق العملية الواردة.](./media/wes-inbound-ga.png "تدفق العملية الواردة")
 
 عند إجراء التسجيل الداخلي عبر عملية استلام تطبيق المستودع مقابل أمر مستودع وحدة القياس، فإن حمل عمل وحدة المقياس سيشير إلى المركز لتحديث حركات بنود أمر الشراء ذات الصلة إلى *تم التسجيل*. بمجرد الانتهاء من ذلك، ستتمكن من تشغيل إيصال منتج أمر الشراء في المركز.
 
-![تدفق المعالجة الواردة](./media/WES-inbound-processing-19.png "تدفق المعالجة الواردة")
+![تدفق المعالجة الواردة.](./media/WES-inbound-processing-19.png "تدفق المعالجة الواردة")
 
 ## <a name="supported-processes-and-roles"></a>العمليات والأدوار المعتمدة
 

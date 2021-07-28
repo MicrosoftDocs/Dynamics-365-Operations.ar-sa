@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 123427db61782490d348489c23e0eaf5f8b513c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e7b0188d5c2dc4ee7691266aa4c857fc189d0f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748631"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347238"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>تصفية أوامر الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر
 
@@ -33,37 +33,37 @@ ms.locfileid: "5748631"
 
 1. توسيع جدول **رؤوس أوامر التوريد CDS** عن طريق أضافه مرجع إلى العمود **IntercompanyOrder**. يتم ملء هذا العمود فقط في الأوامر بين الشركات الشقيقة. عمود **IntercompanyOrder** متوفر في جدول **SalesTable**.
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="تعيين الاعداد المرحلي للصفحة الهدف لـ CDS التي تكون رؤوس أوامر التوريد":::
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="تعيين الإعداد المرحلي للصفحة الهدف لـ CDS التي تكون رؤوس أوامر التوريد.":::
 
 2. بعد توسيع **رؤوس أوامر المبيعات CDS‬**، يتوفر عمود **IntercompanyOrder** في التعيين. استخدم عامل تصفية `INTERCOMPANYORDER == ""` باعتباره سلسلة الاستعلام.
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="مربع الحوار تحرير الاستعلام لـ CDS لرؤوس أوامر التوريد":::
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="مربع الحوار تحرير الاستعلام لـ CDS لرؤوس أوامر التوريد.":::
 
 3. توسيع جدول **بنود أوامر التوريد CDS** عن طريق أضافه مرجع إلى العمود **IntercompanyInventTransId**. يتم ملء هذا العمود فقط في الأوامر بين الشركات الشقيقة. عمود **InterCompanyInventTransId** متوفر في جدول **SalesLine**.
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="تعيين الاعداد المرحلي للصفحة الهدف لبنود أوامر مبيعات CDS":::
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="تعيين الإعداد المرحلي للصفحة الهدف لبنود أوامر مبيعات CDS.":::
 
 4. بعد توسيع **بنود أوامر مبيعات CDS‬**، يتوفر عمود **IntercompanyInventTransId** في التعيين. استخدم عامل تصفية `INTERCOMPANYINVENTTRANSID == ""` باعتباره سلسلة الاستعلام.
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="مربع الحوار تحرير الاستعلام لبنود أوامر مبيعات CDS":::
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="مربع الحوار تحرير الاستعلام لبنود أوامر مبيعات CDS.":::
 
 5. كرر الخطوتين 1 و2 لتوسيع جدول **راس فاتورة المبيعات V2** وأضافه استعلام تصفيه. في هذه الحالة، استخدم `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` كسلسلة استعلام لعامل التصفية.
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="تعيين الاعداد المرحلي للصفحة الهدف لرأس فاتورة المبيعات V2":::
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="تعيين الإعداد المرحلي للصفحة الهدف لرأس فاتورة المبيعات V2.":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="مربع الحوار تحرير الاستعلام لرأس فاتورة المبيعات V2":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="مربع الحوار تحرير الاستعلام لرأس فاتورة المبيعات V2.":::
 
 6. كرر الخطوتين 3 و2 لتوسيع جدول **بنود فاتورة المبيعات V2** وأضافه استعلام تصفيه. في هذه الحالة، استخدم `INTERCOMPANYINVENTTRANSID == ""` كسلسلة استعلام لعامل التصفية.
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="مربع الحوار تحرير الاستعلام لبنود فاتورة المبيعات V2":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="مربع الحوار تحرير الاستعلام لبنود فاتورة المبيعات V2.":::
 
 7. لا يشتمل جدول **عروض الأسعار** على علاقة بين الشركات الشقيقة. إذا قام شخص ما بإنشاء عرض أسعار لأحد العملاء بين الشركات الشقيقة الخاصة بك، فيمكنك وضع كافة هؤلاء العملاء في مجموعة عملاء واحدة باستخدام حقل **CustGroup**. يمكنك توسيع الراس والخطوط عن طريق أضافه العمود **CustGroup**، ثم التصفية بحيث لا يتم تضمين المجموعة.
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="تعيين الاعداد المرحلي للصفحة الهدف لرأس عرض أسعار مبيعات CDS":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="تعيين الإعداد المرحلي للصفحة الهدف لرأس عرض أسعار مبيعات CDS.":::
 
 8. بعد قيامك بتوسيع **عروض الأسعار**، قم بتطبيق عامل تصفية باستخدام `CUSTGROUP != "<company>"` باعتباره سلسلة الاستعلام.
 
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="مربع الحوار تحرير الاستعلام لرأس عروض أسعار المبيعات CDS":::
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="مربع الحوار تحرير الاستعلام لرأس عروض أسعار المبيعات CDS.":::
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

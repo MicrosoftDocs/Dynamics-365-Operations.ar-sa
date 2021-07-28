@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838336"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345248"
 ---
 # <a name="cycle-counting"></a>الجرد الدوري
 
@@ -34,7 +34,7 @@ ms.locfileid: "5838336"
 2.  **معالجة الجرد الدوري** – بعد إنشاء عمل الجرد الدوري، ستقوم بتنفيذه بجرد الأصناف في موقع المستودع، ثم استخدام جهاز محمول لإدخال النتيجة في Dynamics 365 Supply Chain Management. بدلاً من ذلك، يمكنك حساب الأصناف في موقع مستودع دون إنشاء دورة جرد للعمل. يشار إلى هذه العملية  ب *نقطة الجرد الدوري*.
 3.  **حل الفروقات في قيمة الجرد** – بعد الجرد الدوري، ستكون الأصناف التي تتضمن فروقات في قيمة الجرد بحالة العمل **مراجعة معلقة‬** في صفحة **العمل بالكامل‬**. يمكنك حل هذه الفروقات في صفحة **عمل الجرد الدوري قيد انتظار المراجعة‬**.
 
-يبين الرسم التوضيحي التالي عملية الجرد الدوري. ![معالجة التدفق للجرد الدوري](./media/performcyclecountinginawarehouselocation.jpg)
+يبين الرسم التوضيحي التالي عملية الجرد الدوري. ![معالجة التدفق للجرد الدوري.](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>متطلبات الجرد الدوري الأساسية
 يعرض الجدول التالي المتطلبات الأساسية التي يجب أن تكون موجودة قبل أن تتمكن من استخدام الجرد الدوري.

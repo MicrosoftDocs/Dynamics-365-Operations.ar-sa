@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7dbeb8785641960cc2680335436aea10775759d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 20a2e0bc46e182172ccd96f556fd398e8bffc34b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797757"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347532"
 ---
 # <a name="text-block-module"></a>وحدة كتلة النص
 
@@ -42,11 +42,11 @@ ms.locfileid: "5797757"
 
 تعرض الصورة التالية مثالاً عن وحدة كتلة النص المستخدمة في الصفحة الرئيسية.
 
-![مثال عن وحدة كتلة نص](./media/ecommerce-textblock.PNG)
+![مثال عن وحدة كتلة نص.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>خصائص وحدة كتلة النص
 
-| اسم الخاصية     | قيمة                                            | ‏‏الوصف |
+| اسم الخاصية     | قيمة                                            | الوصف |
 |-------------------|--------------------------------------------------|-------------|
 | نص منسق         | نص منسق                                        | نص الفقرة. يتم دعم بعض إمكانيات النص المنسق الأساسية، مثل النص الغامق والمُسطر والمائل. |
 | اسم فئة مخصصة | اسم فئة أوراق الأنماط المتتالية (CSS)        | اسم فئة CSS مخصصة CSS يوفرها المطور لتنسيق هذه الوحدة. يجب تعريف اسم الفئة في حزمة النسق. |

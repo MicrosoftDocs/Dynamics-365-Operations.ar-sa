@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b8d481597485775796290f61de19ef7682cb9f43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 84423e1a7cf90cc6427e7e42005f52417abff091
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791987"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345046"
 ---
 # <a name="create-a-retail-functionality-profile"></a>إنشاء ملف تعريف وظائف البيع بالتجزئة
 
@@ -47,7 +47,7 @@ ms.locfileid: "5791987"
   
 تعرض الصورة التالية مثالاً لملف تعريف الوظائف.
   
-![مثال لملف تعريف وظائف](media/retail-functionality-profile.png)
+![مثال لملف تعريف وظائف.](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

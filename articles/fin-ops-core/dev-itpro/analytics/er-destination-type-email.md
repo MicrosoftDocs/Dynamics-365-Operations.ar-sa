@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753494"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347986"
 ---
 # <a name="email-er-destination-type"></a>نوع البريد الإلكتروني لوجهة إعداد التقارير الإلكترونية
 
@@ -48,13 +48,13 @@ ms.locfileid: "5753494"
 
 يمكنك تكوين عناوين البريد الإلكتروني للتقارير الإلكترونية بطريقتين. يمكن إكمال التكوين بنفس طريقة إكمال ميزة إدارة الطباعة لها، أو يمكنك حل عنوان بريد إلكتروني باستخدام مرجع مباشر لتكوين إعداد التقارير الإلكترونية من خلال إحدى المعادلات.
 
-[![تعيين الخيار "ممكن" إلى "نعم" لوجهة البريد الإلكتروني](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+[![تعيين الخيار "ممكن" إلى "نعم" لوجهة البريد الإلكتروني.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>أنواع عناوين البريد الإلكتروني
 
 إذا حددت **تحرير** بجوار حقل **إلى** أو **نسخة كربونية** في مربع حوار **إعدادات الوجهة**، يظهر مربع حوار **بريد إلكتروني إلى**. حدد **إضافة**، ثم حدد نوع عنوان البريد الإلكتروني المُراد استخدامه. هناك نوعان مدعومان حاليًا: **بريد إلكتروني خاص بإدارة الطباعة‬** و **بريد إلكتروني التكوين**.
 
-[![تحديد نوع عنوان البريد الإلكتروني](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![تحديد نوع عنوان البريد الإلكتروني.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>بريد إلكتروني خاص بإدارة الطباعة
 
@@ -84,7 +84,7 @@ ms.locfileid: "5753494"
 
 في صفحة **مصمم المعادلة**، في حقل **المعادلة**، أدخل مرجعًا خاصًا بالمستند لدور معتمد. بدلاً من كتابة المرجع، في جزء **مصدر البيانات**، ابحث عن وحدد عقدة مصدر البيانات التي تمثل حسابًا للدور الذي تم تكوينه، ثم حدد **إضافة مصدر بيانات** لتحديث المعادلة. على سبيل المثال، إذا قمت بتكوين وجهة البريد الإلكتروني لتكوين **التحويل الائتماني ISO 20022** المستخدم لمعالجة مدفوعات المورد، تكون العقدة التي تمثل حساب المورد هي `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
 
-![تكوين حساب مصدر البريد الإلكتروني](./media/er_destinations-emaildefineaddresssource.gif)
+![تكوين حساب مصدر البريد الإلكتروني.](./media/er_destinations-emaildefineaddresssource.gif)
 
 إذا كانت أرقام الحساب الخاصة بالدور الذي تم تكوينه فريدة للمثيل الكامل الخاص بـ Microsoft Dynamics 365 Finance، يمكن أن يبقى حقل **شركة مصدر البريد الإلكتروني** في مربع الحوار **بريد إلكتروني إلى** فارغًا.
 
@@ -108,7 +108,7 @@ ms.locfileid: "5753494"
 
 حدد **البريد الإلكتروني للتكوين** كنوع عنوان البريد الإلكتروني إذا كان للتكوين الذي تستخدمه عقدة في مصادر البيانات تُرجع إما عنوان بريد إلكتروني واحدًا أو عناوين بريد إلكتروني متعددة مفصولة بفواصل منقوطة (؛). يمكنك استخدام [مصادر البيانات](general-electronic-reporting.md#FormatComponentOutbound) و[الوظائف](er-formula-language.md#functions) في مصمم المعادلة للحصول على عنوان بريد إلكتروني منسق بشكل صحيح أو عناوين بريد إلكتروني منسقة بشكل صحيح مفصولة بفواصل منقوطة. علي سبيل المثال، إذا كنت تستخدم تكوين **التحويل الائتماني ISO 20022**، فسيتم إرجاع العقدة التي تمثل عنوان البريد الإلكتروني الرئيسي لمورد ما من التفاصيل الخاصة بحهة اتصال المورد الذي يجب إرسال خطاب الإرفاق إليه `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
-[![تكوين مصدر عنوان البريد الإلكتروني](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![تكوين مصدر عنوان البريد الإلكتروني.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>تجميع مكونات التنسيق
 
@@ -126,11 +126,11 @@ ms.locfileid: "5753494"
 
 يوضح الرسم التوضيحي التالي بنية تنسيق التقارير الإلكترونية الذي تم تكوينه لإنتاج ملف مضغوط للخارج يحتوي على ملاحظة خطاب التحصيل وفواتير العميل المناسبة بتنسيق PDF.
 
-[![بنية تنسيق التقارير الإلكترونية التي تقوم بإنشاء مستندات صادرة](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![بنية تنسيق التقارير الإلكترونية التي تقوم بإنشاء مستندات صادرة.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 يوضح الرسم التوضيحي التالي العملية، كما هو موضح في هذا الموضوع، لتجميع المكونات الفردية وتمكين وجهة **البريد الإلكتروني** للمجموعة الجديدة، بحيث يتم إرسال ملاحظة خطاب التحصيل مع فواتير العميل المناسبة كمرفقات بالبريد الإلكتروني.
 
-[![تجميع مكونات فردية وتمكين وجهة البريد الإلكتروني](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![تجميع مكونات فردية وتمكين وجهة البريد الإلكتروني.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

@@ -7,16 +7,17 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292751"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343714"
 ---
 # <a name="container-packing-strategies"></a>استراتيجيات تعبئة الحاويات
 
@@ -251,7 +252,7 @@ ms.locfileid: "6292751"
 1. حدد السياسة **الافتراضية** في القائمة.
 1. في جزء الإجراءات، حدد **تحرير**.
 1. في علامة التبويب السريعة **حقول الدمج**، في قائمة **الحقول المحددة**، حدد الصف الذي يتم فيه تعيين حقل **اسم الحقل** إلى *رقم الأمر*.
-1. حدد زر **إزالة** ![سهم لليسار](media/backward-button.png) لنقل الحقل إلى قائمة **الحقول المتبقية**.
+1. حدد زر **إزالة** ![سهم اليسار.](media/backward-button.png) لنقل الحقل إلى قائمة **الحقول المتبقية**.
 1. في جزء الإجراءات، حدد **حفظ**.
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>إعداد الأبعاد الفعلية للمنتج

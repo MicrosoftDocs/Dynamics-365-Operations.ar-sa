@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba973299291276fe48d82360e203ca28f02aaffb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ddca8a3cc136080aa63f58cda3ba32bf6d2ca37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796260"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346962"
 ---
 # <a name="accordion-module"></a>وحدة أككورديون
 
@@ -34,11 +34,11 @@ ms.locfileid: "5796260"
 
 تعرض الصورة التالية مثال عن وحدة أكورديون تستخدم لتنظيم المعلومات في صفحة الأسئلة المتداولة تابعة لمتجر.
 
-![مثال عن وحدة أكورديون](./media/ecommerce-accordion.PNG)
+![مثال عن وحدة أكورديون.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>خصائص وحدة الأكورديون
 
-| اسم الخاصية | القيم | ‏‏الوصف |
+| اسم الخاصية | القيم | الوصف |
 |---------------|--------|-------------|
 | العنوان | النص | تحدد هذه الخاصية عنوان نص اختياري لوحدة الأكورديون. |
 | توسيع الكل | **صحيح** أم **خطأ** | إذ تم تعيين القيمة إلى **صواب**، يتم تشغيل وظيفة التوسيع/الطي، بحيث يمكن توسيع كافة العناصر الموجودة في وحدة الأكورديون وطيها. |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893191"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345728"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>إدارة دورة حياة تكوين إعداد التقارير الإلكترونية (ER)
 
@@ -80,7 +80,7 @@ ms.locfileid: "5893191"
 
 يمكن [تحميل](#data-persistence-consideration) تكوينات التقارير الإلكترونية التي تم تصميمها في بيئة التطوير إلى بيئة الاختبار لتقييم التكوين (تكامل العملية المناسب وصحة النتائج والأداء) وضمان الجودة مثل صحة حقوق الوصول المدفوعة بالأدوار والفصل بين المهام. يمكن استخدام الميزات التي تتيح تبادل تكوين التقارير الإلكترونية لهذا الغرض. يمكن تحميل تكوينات التقارير الإلكترونية المثبتة إلى LCS لمشاركتها مع المشتركين في الخدمة أو يمكن [استيراداها](#data-persistence-consideration) إلى بيئة الانتاج للاستخدام الداخلي.
 
-![دورة حياة تكوين التقارير الإلكترونية](./media/ger-configuration-lifecycle.png)
+![دورة حياة تكوين التقارير الإلكترونية.](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />اعتبار استمرارية البيانات
 

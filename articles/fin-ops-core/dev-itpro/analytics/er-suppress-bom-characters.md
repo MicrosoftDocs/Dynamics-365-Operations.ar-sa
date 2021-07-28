@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2b26e31748f97603b0b175f79a8daae2650261d7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893266"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345878"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>تصميم تكوينات ER لمنع أحرف قائمة مكونات الصنف في الملفات التي تم إنشاؤها
 
@@ -29,14 +29,14 @@ ms.locfileid: "5893266"
 > [!NOTE]
 > إذا كان التنسيق يحتوي علي اسم ترميز غير صحيح، يتم طرح خطا عند حفظ التغييرات إلى إعدادات التنسيق.
 
-![إضافة عنصر جذر في صفحة مصمم التنسيق](./media/er-suppress-bom-characters-image1.gif)
+![إضافة عنصر جذر في صفحة مصمم التنسيق.](./media/er-suppress-bom-characters-image1.gif)
 
 إذا قمت بتحديد **UTF-8** أو **UTF-16** أو **UTF-32** كترميز، سيتوفر الخيار إيقاف **أحرف قائمة مكونات الصنف**. يتم تعيين هذا الخيار على **نعم** لمنع [أحرف علامة ترتيب البايت (BOM)](/globalization/encoding/byte-order-mark) في الملفات الصادرة التي يتم إنشاؤها في وقت التشغيل عند تشغيل التنسيق ER القابل للتحرير.
 
 > [!NOTE]
 > وفي حالة ترك حقل **ترميز** فارغًا، فإنه يتم استخدام القيمة الافتراضية **UTF-8**.
 
-![تعيين خيار إيقاف أحرف قائمه مكونات الصنف في الصفحة مصمم التنسيق](./media/er-suppress-bom-characters-image2.gif)
+![تعيين خيار إيقاف أحرف قائمة مكونات الصنف في الصفحة مصمم التنسيق.](./media/er-suppress-bom-characters-image2.gif)
 
 لمراجعه الوظيفة في وقت التشغيل، أكمل الاجراء المناسب. علي سبيل المثال، أكمل الخطوات الموجودة في الموضوع [تاجيل تنفيذ عناصر XML في التنسيق ER](er-defer-xml-element.md). بعد إكمال الخطوات الموجودة في [تعديل التنسيق بحيث يستند الحساب إلى قسم الإخراج الذي تم إنشاؤه ](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) لهذا الموضوع، اتبع الخطوات الإضافية التالية.
 
@@ -59,7 +59,7 @@ ms.locfileid: "5893266"
 
     الفرق الأول الذي ستلاحظه هو الموجود في راس الملف. يحتوي الملف SampleXmlReport.xml علي حرف قائمة مكونات الصنف، حيث لا يكون ملف SampleXmlReport (1).xml.
 
-    ![مقارنة الملفات التي تم إنشاؤها باستخدام الاداه المساعدة لمقارنه الملفات](./media/er-suppress-bom-characters-image3.png)
+    ![مقارنة الملفات التي تم إنشاؤها باستخدام الاداه المساعدة لمقارنه الملفات.](./media/er-suppress-bom-characters-image3.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 

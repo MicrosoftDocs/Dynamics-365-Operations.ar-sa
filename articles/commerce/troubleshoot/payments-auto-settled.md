@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b4fd37a3c45f2559c9659f072ca0b6f02e712f53
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 79300c84b07db23ad387e0f3e475ca1707c79548
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018250"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347358"
 ---
 # <a name="payments-are-automatically-settled-before-orders-are-invoiced-or-shipped"></a>تسوية المدفوعات تلقائيا قبل فوترة الأوامر أو شحنها
 
@@ -43,12 +43,12 @@ ms.locfileid: "6018250"
 1. في جزء التنقل العلوي، حدد **الحساب**، ثم حدد **الإعدادات**.
 1. في حقل **تأخير الالتقاط**، حدد **يدوي**.
 
-    ![إعداد تأخير الالتقاط في مدخل Adyen](media/adyen-capture-delay.jpg)
+    ![إعداد تأخير الالتقاط في مدخل Adyen.](media/adyen-capture-delay.jpg)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [التقاط مدفوعات Adyen](https://docs.adyen.com/point-of-sale/capturing-payments)
 
-[موصل دفع Dynamics 365 لـ Adyen](../dev-itpro/adyen-connector.md)
+[Dynamics 365 Payment Connector لـ Adyen](../dev-itpro/adyen-connector.md)
 
 [إعداد موصل دفع Adyen لـ Dynamics 365](https://docs.adyen.com/plugins/microsoft-dynamics)

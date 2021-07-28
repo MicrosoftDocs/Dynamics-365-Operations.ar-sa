@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052447"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344678"
 ---
 # <a name="configure-dataverse-integration"></a>تكوين تكامل Dataverse
 
@@ -48,15 +48,15 @@ ms.locfileid: "6052447"
 
 1. في مثيل Human Resources الذي ترغب في عرض أو تكوين إعدادات للتكامل مع Dataverse فيه، حدد التجانب **إدارة النظام**.
 
-    [![تجانب إدارة النظام](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![تجانب إدارة النظام.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. حدد علامة التبويب **الارتباطات**.
 
-    [![علامة التبويب ارتباطات](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![علامة التبويب ارتباطات.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. تحت **عمليات التكامل**، حدد **تكوين Dataverse**.
 
-    [![ارتباط تكوين Dataverse ](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![ارتباط تكوين Dataverse.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>تشغيل تكامل البيانات بين Human Resources و Dataverse أو إيقاف تشغيله.
 
@@ -67,7 +67,7 @@ ms.locfileid: "6052447"
 
 - لإيقاف تشغيل التكامل، قم بتعيين الخيار إلى **لا**.
 
-[![تشغيل تكامل Dataverse أو إيقاف تشغيله](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![تشغيل تكامل Dataverse أو إيقاف تشغيله.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > نوصي بضرورة إيقاف تشغيل تكامل Dataverse أثناء تنفيذ مهام ترحيل البيانات. بإمكان تحميلات البيانات الكبيرة أن تؤثر على الأداء بشكل ملحوظ. على سبيل المثال، قد يستغرق تحميل 2000 عامل ساعات متعددة عند تمكين التكامل، وأقل من ساعة عند تعطيله. الأرقام المتوفرة في هذا المثال هي لأغراء العرض التوضيحي فقط. يمكن أن يختلف مقدار الوقت الدقيق الذي تستغرقه عملية استيراد السجلات بشكل كبير استنادًا إلى العديد من العوامل.
@@ -98,7 +98,7 @@ ms.locfileid: "6052447"
 
 - لإزالة اقتران سجل Human Resources و صف Dataverse، حدد الجدول في حقل **جدول Dataverse**، ثم حدد **مسح معلومات التعقب**.
 
-[![مسح معلومات التعقب](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![مسح معلومات التعقب.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 لتشغيل مزامنة كاملة على الجدول بعد مسح التتبع، راجع الإجراء التالي.
 
@@ -116,13 +116,13 @@ ms.locfileid: "6052447"
 
 2. حدد **المزامنة الآن**.
 
-[![تشغيل مزامنة كاملة](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![تشغيل مزامنة كاملة.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 
 [جداول Dataverse](hr-developer-entities.md)<br>
 [تكوين جداول Dataverse الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[الأسئلة المتداولة حول الجداول الظاهرية في Human Resources](hr-admin-virtual-entity-faq.md)<br>
+[‏‫الأسئلة المتداولة حول الجداول الظاهرية في ‬‏‫Human Resources‬‏‫](hr-admin-virtual-entity-faq.md)<br>
 [ما هو Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)<br>
 [تحديثات المصطلحات](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 

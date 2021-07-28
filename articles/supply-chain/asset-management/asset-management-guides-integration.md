@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908557"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344260"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>تكامل Dynamics 365 Supply Chain Management (إدارة الأصول) مع Dynamics 365 Guides
 
@@ -56,38 +56,38 @@ ms.locfileid: "5908557"
     1. في علامة التبويب السريعة **بنود قائمة فحص الصيانة** حدد البند الذي تريد إقران الدليل به.
     1. في علامة التبويب السريعة **الأدلة المرتبطة** ، حدد **إضافة دليل**.
 
-        ![إقران دليل ببند قائمة فحص صيانة](media/am-guides-integration-add-guide.png "إقران دليل ببند قائمة فحص صيانة")
+        ![إقران دليل ببند قائمة فحص صيانة.](media/am-guides-integration-add-guide.png "إقران دليل ببند قائمة فحص صيانة")
 
     1. في حقل **الاسم** حدد دليلا، ثم حدد **حفظ**.
 
-        ![تحديد دليل في حقل الاسم](media/am-guides-integration-select-guide.png "تحديد دليل في حقل الاسم")
+        ![تحديد دليل في حقل الاسم.](media/am-guides-integration-select-guide.png "تحديد دليل في حقل الاسم")
 
 1. قم بإقران قالب قائمه فحص الصيانةبنوع مهمة:
 
     1. [قم بإنشاء نوع مهمة صيانة](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) ، أو حدد نوع مهمة صيانة موجود.
     1. في جزء الاجراءات، حدد **الإعدادات الافتراضية لنوع مهمة الصيانة‬**.
 
-        ![زر الإعدادات الافتراضية لنوع مهمة الصيانة](media/am-guides-integration-job-defaults.png "زر الإعدادات الافتراضية لنوع مهمة الصيانة")
+        ![زر الإعدادات الافتراضية لنوع مهمة الصيانة.](media/am-guides-integration-job-defaults.png "زر الإعدادات الافتراضية لنوع مهمة الصيانة")
 
     1. قم بإنشاء بند، ثم حدد **حفظ**.
 
-        ![إنشاء بند](media/am-guides-integration-add-line.png "إنشاء بند")
+        ![قم بإنشاء بند.](media/am-guides-integration-add-line.png "إنشاء بند")
 
     1. في جزء الإجراءات‬، حدد **قائمة فحص الصيانة**.
 
-        ![زر قائمة فحص الصيانة](media/am-guides-integration-maintenance-checklist.png "زر قائمة فحص الصيانة")
+        ![زر قائمة فحص الصيانة.](media/am-guides-integration-maintenance-checklist.png "زر قائمة فحص الصيانة")
 
     1. في علامة التبويب السريعة **بنود قائمة فحص الصيانة** قم بإضافه بند، ثم قم بتغيير قيمة حقل **النوع** إلى **قالب**.
 
-        ![تغيير قيمة النوع](media/am-guides-integration-checklist-lines.png "تغيير قيمة النوع")
+        ![تغيير قيمة النوع.](media/am-guides-integration-checklist-lines.png "تغيير قيمة النوع")
 
     1. في علامة التبويب السريعة **تفاصيل البند** ، في حقل **القالب** حدد القالب الذي قمت باقران الدليل به، ثم حدد **حفظ**.
 
-        ![تحديد قالب](media/am-guides-integration-checklist-line-details.png "تحديد قالب")
+        ![تحديد قالب.](media/am-guides-integration-checklist-line-details.png "تحديد قالب")
 
 1. [قم بإنشاء أمر عمل](work-orders/manually-created-workorders.md#create-work-order) ، ثم حدد نوع مهمة الصيانة التي تستخدم قالب قائمه فحص الصيانة الذي قمت بربطه بالدليل. يقترن الدليل تلقائيا بأمر العمل.
 
-    ![تحديد نوع مهمة الصيانة](media/am-guides-integration-create-work-order.png "تحديد نوع مهمة الصيانة")
+    ![تحديد نوع مهمة الصيانة.](media/am-guides-integration-create-work-order.png "تحديد نوع مهمة الصيانة")
 
 1. عرض الدليل المرتبط بامر العمل والعاملين:
 
@@ -95,11 +95,11 @@ ms.locfileid: "5908557"
     1. [افتح قائمة فحص الصيانة](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) الخاصة بامر العمل.
     1. حدد بند قائمة فحص لعرض الدليل المقترن.
 
-        ![الدليل المقترن ببند قائمة الفحص](media/am-guides-integration-show-guide.png "الدليل المقترن ببند قائمة الفحص")
+        ![الدليل المقترن ببند قائمة الفحص.](media/am-guides-integration-show-guide.png "الدليل المقترن ببند قائمة الفحص")
 
     1. افتح الدليل على HoloLens.
 
-        ![فتح الدليل على HoloLens](media/am-guides-integration-hololens-select.png "فتح الدليل على HoloLens").
+        ![فتح الدليل على HoloLens.](media/am-guides-integration-hololens-select.png "فتح الدليل على HoloLens")
 
 > [!NOTE]
 > يمكنك أيضا إقران دليل مباشره في قائمه فحص الصيانة لأمر عمل أو نوع مهمة.

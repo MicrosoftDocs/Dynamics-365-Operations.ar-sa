@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 189a420089db7612a6f1b9f8a74b36b72a750c17
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891709"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345926"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ضبط تنسيق ER لإنشاء مستند إلكتروني مخصص
 
@@ -142,7 +144,7 @@ ms.locfileid: "5891709"
 5. على علامة التبويب السريعة **إصدارات**، حدد الإصدار **1.1** لتكوين تنسيق ER المحدد.
 6. حدد **استيراد** لتنزيل الإصدار المحدد من المستودع العمومي إلى مثيل Finance الحالي.
 
-![صفحة مستودع التكوين](./media/er-quick-start2-import-solution1.png)
+![صفحة مستودع التكوين.](./media/er-quick-start2-import-solution1.png)
 
 > [!TIP]
 > إذا كانت لديك مشكلة في الوصول إلى [المستودع العمومي](er-download-configurations-global-repo.md)، فيمكنك [تنزيل التكوينات](download-electronic-reporting-configuration-lcs.md) من Microsoft Dynamics Lifecycle Services (LCS) بدلا من ذلك.
@@ -158,7 +160,7 @@ ms.locfileid: "5891709"
     - **تعيين نموذج الدفع 1611** – يحتوي هذا التكوين على مكون ER الخاص بـ [تعيين النموذج](general-electronic-reporting.md#data-model-and-model-mapping-components) الذي يوضح كيفية ملء نموذج البيانات ببيانات التطبيق في وقت التشغيل.
     - **BACS (UK)** – يحتوي هذا التكوين على [التنسيق](general-electronic-reporting.md#FormatComponentOutbound) ومكونات ER لتعيين التنسيق. يحدد مكون التنسيق تخطيط التقرير. يحتوي مكون تعيين التنسيق على مصدر بيانات النموذج ويحدد كيفية ملء تخطيط التقرير باستخدام مصدر البيانات هذا في وقت التشغيل.
 
-![صفحة التكوينات](./media/er-quick-start2-imported-solution1.png)
+![صفحة التكوينات.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>تجهيز مدفوعات المورد للمعالجة
 
@@ -177,7 +179,7 @@ ms.locfileid: "5891709"
     5. في حقل **IBAN**، أدخل **GB33BUKB20201555555555**.
     6. في حقل **رقم التوجيه**، احتفظ بالقيمة الافتراضية، <a id="DefineRoutingNumber"></a>**123456**.
 
-    ![صفحة الحسابات البنكية للمورد](./media/er-quick-start2-bank-account.png)
+    ![صفحة الحسابات البنكية للمورد.](./media/er-quick-start2-bank-account.png)
 
 4. حدد **حفظ**.
 5. قم بإغلاق الصفحة.
@@ -185,7 +187,7 @@ ms.locfileid: "5891709"
 7. في صفحة تفاصيل المورد، حدد **تحرير** لجعل الصفحة قابلة للتحرير، إذا كان ذلك مطلوبًا.
 8. في علامة التبويب السريعة **المدفوعات**، في حقل **الحساب البنكي**، حدد **GBP OPER**.
 
-    ![صفحة تفاصيل المورد](./media/er-quick-start2-bank-account-reference.png)
+    ![صفحة تفاصيل المورد.](./media/er-quick-start2-bank-account-reference.png)
 
 9. حدد **حفظ**.
 10. قم بإغلاق الصفحة.
@@ -202,11 +204,11 @@ ms.locfileid: "5891709"
 6. في مربع الحوار **مقترح دفع المورد**، قم بتكوين الشروط لتصفية السجلات الخاصة بحساب المورد **GB_SI_000001** فقط، ثم حدد **موافق**.
 7. حدد السطر الخاص بفاتورة **00000007_Inv**، ثم حدد **إنشاء دفع**.
 
-    ![مربع حوار مقترح دفع المورد](./media/er-quick-start2-payment-proposal.png)
+    ![مربع حوار مقترح دفع المورد.](./media/er-quick-start2-payment-proposal.png)
 
 8. تحقق من أن الدفع الذي تم إدخاله قد تم تكوينه لاستخدام أسلوب الدفع **الإلكتروني**.
 
-    ![صفحة مدفوعات المورد](./media/er-quick-start2-payment-line.png)
+    ![صفحة مدفوعات المورد.](./media/er-quick-start2-payment-line.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-standard-er-format"></a><a id="ProcessVendorPayment1"></a>معالجة مدفوعات المورد باستخدام تنسيق ER القياسي
 
@@ -220,7 +222,7 @@ ms.locfileid: "5891709"
 4. في علامة التبويب السريعة **تنسيقات الملف**، قم بتعيين خيار **تنسيق التصدير الإلكتروني العام‬** على **نعم**.
 5. في حقل **تكوين تنسيق التصدير**، حدد تكوين التنسيق **BACS (UK)**.
 
-    ![طرق الدفع - صفحة الموردون](./media/er-quick-start2-method-of-payment1.png)
+    ![طرق الدفع - صفحة الموردون.](./media/er-quick-start2-method-of-payment1.png)
 
 6. حدد **حفظ**.
 
@@ -237,7 +239,7 @@ ms.locfileid: "5891709"
 5. حدد **موافق**.
 6. في مربع الحوار **معلمات التقرير الإلكتروني**، قم بتعيين خيار **طباعة تقرير التحكم** إلى **نعم**، ثم حدد **موافق**.
 
-    ![صفحة حوار معلمات التقرير الإلكتروني](./media/er-quick-start2-payment-dialog1.png)
+    ![صفحة حوار معلمات التقرير الإلكتروني.](./media/er-quick-start2-payment-dialog1.png)
 
     > [!NOTE]
     > بالإضافة إلى ملف الدفع، يمكنك الآن إنشاء تقرير التحكم.
@@ -249,7 +251,7 @@ ms.locfileid: "5891709"
 
         لاحظ أنه وفقًا [لبنية](#PositionRoutingNumber) تنسيق ER الموفّر، يبدأ سطر الدفع في الملف الذي تم إنشاؤه برقم التوجيه الذي تم [تحديده](#DefineRoutingNumber) للحساب البنكي المكوّن.
 
-        ![ملف الدفع بتنسيق TXT](./media/er-quick-start2-payment-file1.png)
+        ![ملف الدفع بتنسيق TXT.](./media/er-quick-start2-payment-file1.png)
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>تخصيص تنسيق ER القياسي
 
@@ -265,13 +267,13 @@ ms.locfileid: "5891709"
 4. في مجموعة الحقول **الجديدة**، حدد خيار **مشتق من الاسم: BACS (UK), Microsoft**.
 5. في حقل **الاسم**، أدخل **‏‫BACS (UK مخصص)**.
 
-    ![إنشاء مربع حوار القائمة المنسدلة للتكوين](./media/er-quick-start2-add-derived-format.png)
+    ![إنشاء مربع حوار القائمة المنسدلة للتكوين.](./media/er-quick-start2-add-derived-format.png)
 
 6. حدد **إنشاء التكوين**.
 
 يتم إنشاء الإصدار 1.1.1 من تكوين تنسيق ER **BACS (UK مخصص)**. هذا الإصدار [بالحالة](general-electronic-reporting.md#component-versioning) **مسودة** ويمكن تحريره. يطابق المحتوي الحالي لتنسيق ER الخاص بك محتوي التنسيق الذي توفره Microsoft.
 
-![صفحة التكوينات](./media/er-quick-start2-derived-format-configuration1.png)
+![صفحة التكوينات.](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>تحرير تنسيق مخصص
 
@@ -291,7 +293,7 @@ ms.locfileid: "5891709"
 
 7. حدد عنصر **الحركة**.
 
-    ![عنصر الحركة في مصمم عمليات ER](./media/er-quick-start2-derived-format0.png)
+    ![عنصر الحركة في مصمم عمليات ER.](./media/er-quick-start2-derived-format0.png)
 
     > [!NOTE]
     > يتم تكوين التقرير المقدم بحيث <a id="PositionRoutingNumber"></a>يبدأ كل سطر من سطور الدفع برقم التوجيه البنكي. يتم استخدام عنصر التنسيق **vendBankRouteNum** لهذا الغرض. 
@@ -309,13 +311,13 @@ ms.locfileid: "5891709"
 9. في شجرة بنية التنسيق، حدد **vendBankSWIFT**
 10. حدد **تحريك لأعلى** لتحريك عنصر التنسيق المحدد بمقدار مستوى واحد لأعلى. كرر هذه الخطوة حتى يصبح عنصر **vendBankSWIFT** هو <a id="PositionSWIFTCode"></a>العنصر الأول ضمن عنصر **الحركة الأصلية**.
 
-    ![vendBankSWIFT كعنصر أول ضمن الحركة في مصمم عمليات ER](./media/er-quick-start2-derived-format1.png)
+    ![vendBankSWIFT كعنصر أول ضمن الحركة في مصمم عمليات ER.](./media/er-quick-start2-derived-format1.png)
 
 11. بينما ما يزال **vendBankSWIFT** محددًا في شجرة بنية التنسيق، حدد علامة التبويب **تعيين**، ثم قم بتوسيع مصدر بيانات **النموذج**.
 12. قم بتوسيع **model.Payment** \> **model.Payment.CreditorAgent**، وحدد حقل مصدر البيانات **model.Payment.CreditorAgent.BICFI**. ويعرض حقل مصدر البيانات هذا كود سويفت للبنك الخاص بالمورد والذي تم تعيينه لدور الوكيل في مدفوعات المورد التي تمت معالجتها.
 13. حدد **ربط**. عنصر التنسيق **vendBankSWIFT** مرتبط الآن بحقل مصدر البيانات **model.Payment.CreditorAgent.BICFI**، لكي يمكن إدخال أكواد سويفت في ملفات الدفع التي تم إنشاؤها
 
-    ![عنصر التنسيق vendBankSWIFT مرتبطة الآن بحقل مصدر البيانات model.Payment.CreditorAgent.BICFI في مصمم عمليات ER](./media/er-quick-start2-derived-format2.png)
+    ![عنصر التنسيق vendBankSWIFT مرتبطة الآن بحقل مصدر البيانات model.Payment.CreditorAgent.BICFI في مصمم عمليات ER.](./media/er-quick-start2-derived-format2.png)
 
 14. حدد **حفظ**.
 15. أغلق صفحة المصمم.
@@ -333,7 +335,7 @@ ms.locfileid: "5891709"
 5. في شجره التكوين الموجودة في الجزء الأيمن، حدد **BACS (UK مخصص)**.
 6. عيّن الخيار **تشغيل المسودة** إلى **نعم**.
 
-    ![خيار تشغيل المسودة في صفحة التكوينات](./media/er-quick-start2-derived-format-configuration2.png)
+    ![خيار تشغيل المسودة في صفحة التكوينات.](./media/er-quick-start2-derived-format-configuration2.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-custom-er-format"></a><a id="ProcessVendorPayment2"></a>معالجة مدفوعات المورد باستخدام تنسيق ER مخصص
 
@@ -347,7 +349,7 @@ ms.locfileid: "5891709"
 4. في علامة التبويب السريعة **تنسيق الملف**، قم بتعيين خيار **تنسيق التصدير الإلكتروني العام‬** على **نعم**.
 5. في حقل **تكوين تنسيق التصدير**، حدد تكوين التنسيق **BACS (UK مخصص)**.
 
-    ![طرق الدفع - صفحة الموردون](./media/er-quick-start2-method-of-payment2.png)
+    ![طرق الدفع - صفحة الموردون.](./media/er-quick-start2-method-of-payment2.png)
 
 6. حدد **حفظ**.
 
@@ -376,7 +378,7 @@ ms.locfileid: "5891709"
 
         لاحظ أنه وفقا للبنية الخاصة بتنسيق ER المخصص، [يبدأ](#PositionSWIFTCode) سطر الدفع في الملف الذي تم إنشاؤه الآن بكود سويفت الذي تم [إدخاله](#DefineSWIFTCode) للحساب البنكي للمورد الذي تمت معالجة الدفع الخاص به.
 
-        ![ملف الدفع بتنسيق TXT](./media/er-quick-start2-payment-file2.png)
+        ![ملف الدفع بتنسيق TXT.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>استيراد إصدارات جديدة من تكوينات تنسيق ER القياسية
 
@@ -393,7 +395,7 @@ ms.locfileid: "5891709"
 5. على علامة التبويب السريعة **إصدارات**، حدد الإصدار **3.3** لتكوين تنسيق ER المحدد.
 6. حدد **استيراد** لتنزيل الإصدار المحدد من المستودع العمومي إلى مثيل Finance الحالي.
 
-![صفحة مستودع التكوين](./media/er-quick-start2-import-solution2.png)
+![صفحة مستودع التكوين.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > إذا كانت لديك مشكلة في الوصول إلى [المستودع العمومي](er-download-configurations-global-repo.md)، فيمكنك [تنزيل التكوينات](download-electronic-reporting-configuration-lcs.md) من LCS بدلا من ذلك.
@@ -408,7 +410,7 @@ ms.locfileid: "5891709"
 6. في صفحة **مصمم التنسيق**، قم بتوسيع عنصر التنسيق **BACSReportsFolder**.
 7.  لاحظ أن الإصدار 3.3 يحتوي على عنصر التنسيق **PaymentAdviceReport** الذي يُستخدم في إنشاء تقرير إخطار الدفع عند معالجة مدفوعات المورد.
 
-    ![عنصر التنسيق PaymentAdviceReport في مصمم عمليات ER](./media/er-quick-start2-imported-solution2.png)
+    ![عنصر التنسيق PaymentAdviceReport في مصمم عمليات ER.](./media/er-quick-start2-imported-solution2.png)
 
 8. أغلق صفحة المصمم.
 
@@ -434,14 +436,14 @@ ms.locfileid: "5891709"
 3. في علامة التبويب السريعة **الإصدارات**، حدد الإصدار **1.1.2**، ثم حدد **إعادة تعريف**.
 4. في مربع الحوار **إعادة تعريف**، في حقل **الإصدار الهدف**، حدد الإصدار **3.3** من التكوين الأساسي لتطبيقه على أنه الأساس الجديد واستخدمه لتحديث التكوين.
 
-    ![مربع الحوار "إعادة تعريف"](./media/er-quick-start2-rebase1.png)
+    ![مربع الحوار "إعادة تعريف".](./media/er-quick-start2-rebase1.png)
 
 5. حدد **موافق**.
 6. لاحظ أنه تم تغيير رقم مسودة الإصدار من **1.1.2** إلى **3.3.2** لعكس التغيير في الإصدار الأساسي.
 
     عند دمج الإصدار المخصص والإصدار الأساسي الجديد، قد يتم اكتشاف بعض التعارضات بسبب تغييرات التنسيق التي لا يمكن دمجها تلقائيًا.
 
-    ![تكوين معاد تعريفه مع وجود تعارضات في صفحة التكوينات](./media/er-quick-start2-rebase2.png)
+    ![تكوين معاد تعريفه مع وجود تعارضات في صفحة التكوينات.](./media/er-quick-start2-rebase2.png)
 
     في حالة اكتشاف تعارضات، يجب حلها يدويًا في مصمم التنسيق.
 
@@ -449,13 +451,13 @@ ms.locfileid: "5891709"
 8. حدد **المصمم**.
 9. في صفحة **مصمم التنسيق**، في علامة التبويب السريعة **التفاصيل**، حدد سجل تعارضات إعادة التعريف، ثم حدد **تطبيق القيمة الأساسية**.
 
-    ![سجل تعارضات إعادة التعريف في مصمم عمليات ER](./media/er-quick-start2-rebase3.png)
+    ![سجل تعارضات إعادة التعريف في مصمم عمليات ER.](./media/er-quick-start2-rebase3.png)
 
 10. حدد **حفظ**.
 
     يجب ألا يظهر سجل تعارضات إعادة التعريف في علامة التبويب السريعة **التفاصيل**.
 
-    ![حل التعارضات في مصمم عمليات ER](./media/er-quick-start2-rebase4.png)
+    ![حل التعارضات في مصمم عمليات ER.](./media/er-quick-start2-rebase4.png)
 
     > [!NOTE]
     > لقد قمت بحل التعارض عن طريق التأكيد على أنه يجب استخدام الإصدار 3 من النموذج الأساسي في تنسيق ER هذا.
@@ -463,7 +465,7 @@ ms.locfileid: "5891709"
 11. قم بتوسيع **BACSReportsFolder** \> **الملف** \> **الحركات** \> **الحركة**.
 12. في علامة التبويب **تعيين**، لاحظ أن الإصدار 3.3.2 لتنسيق ER المخصص يحتوي على كل من التخصيص الخاص بك (عنصر تنسيق **vendBankSWIFT** وارتباطاته) والوظيفة الجديدة للإصدار 3.3 من التنسيق ER الأساسي الذي تم توفيره بواسطة Microsoft (عنصر التنسيق **PaymentAdviceReport** مع العناصر المتداخلة والارتباطات المكونة له). بعدد قليل من نقرات الماوس، فإنك بذلك تستخدم التعديلات الخاصة بالإصدار الأساسي الجديد عن طريق دمجه مع التخصيص الخاص بك.
 
-    ![التنسيق المدمج في مصمم عمليات ER](./media/er-quick-start2-rebase5.png)
+    ![التنسيق المدمج في مصمم عمليات ER.](./media/er-quick-start2-rebase5.png)
 
 13. أغلق صفحة المصمم.
 
@@ -488,7 +490,7 @@ ms.locfileid: "5891709"
     - قم بتعيين خيار **طباعة تقرير التحكم** على **نعم**.
     - قم بتعيين خيار **طباعة إخطار الدفع** على **نعم**.
 
-    ![مربع حوار معلمات التقرير الإلكتروني](./media/er-quick-start2-payment-dialog2.png)
+    ![مربع حوار معلمات التقرير الإلكتروني.](./media/er-quick-start2-payment-dialog2.png)
 
     > [!NOTE]
     > بالإضافة إلى ملف الدفع، يمكنك الآن إنشاء تقرير التحكم وتقرير إخطار الدفع.
@@ -499,13 +501,13 @@ ms.locfileid: "5891709"
     - تقرير التحكم بتنسيق Excel
     - تقرير إخطار الدفع بتنسيق Excel
 
-        ![تقرير إخطار الدفع بتنسيق Excel](./media/er-quick-start2-payment-advice-report.png)
+        ![تقرير إخطار الدفع بتنسيق Excel.](./media/er-quick-start2-payment-advice-report.png)
 
     - ملف الدفع بتنسيق TXT
 
         لاحظ أن سطر الدفع في الملف الذي تم إنشاؤه يبدأ بكود سويفت الذي تم إدخاله للحساب البنكي للمورد الذي تمت معالجة الدفع الخاص به.
 
-        ![ملف الدفع بتنسيق TXT](./media/er-quick-start2-payment-file3.png)
+        ![ملف الدفع بتنسيق TXT.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>الموارد الإضافية
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894114"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348154"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>تحديد موقع تخزين مخصص للمستندات التي يتم إنشاؤها
 
@@ -39,7 +39,7 @@ ms.locfileid: "5894114"
 
 في المخطط الحالي، يمكنك [إنشاء تنسيق تقارير إلكترونية جديد](tasks/er-format-configuration-2016-11.md) لإنشاء المستندات التي تخطط لإضافتها إلى موقع التخزين المخصص. بدلاً من ذلك، يمكنك [استيراد تنسيق تقارير إلكترونية موجود إلى هذا المخطط](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![صفحة مصمم التنسيق‬](media/er-extend-file-storages-format.png)
+![صفحة مصمم التنسيق‬.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > يجب أن يحتوي تنسيق التقارير الإلكترونية الذي تقوم بإنشائه أو استيراده على عنصر واحد على الأقل من عناصر التنسيق التالية:
@@ -58,7 +58,7 @@ ms.locfileid: "5894114"
 3. في حقل **الفئة**، حدد **إرفاق ملف**.
 4. في حقل **المجموعة**، حدد **ملف**.
 
-![صفحة أنواع المستندات](media/er-extend-file-storages-document-type.png)
+![صفحة أنواع المستندات.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > تتعلق أنواع المستندات بالشركة. لاستخدام تنسيق تقارير إلكترونية مع وجهة مكوّنة في شركات متعددة، يجب تكوين نوع مستند منفصل في كل شركة.
@@ -113,14 +113,14 @@ public DocuRef insertFile(
 - **أرشيف** - عند استخدام هذه الوجهة، يتم إنشاء سجل جديد لتنسيق التقارير الإلكترونية قيد التشغيل في الجدول ERFormatMappingRunJobTable. الحقل **مؤرشف** في هذا السجل معين إلى **False**. إذا نجح تشغيل تنسيق التقارير الإلكترونية، يتم إرفاق المستند المُنشأ بهذا السجل، ويظهر الحدث **AttachingFile()**. يحدد نوع المستند المحدد في تنسيق التقارير الإلكترونية موقع تخزين الملف المرفق (Microsoft Azure Storage أو مجلد Microsoft SharePoint).
 - **أرشيف الوظائف** - عند استخدام هذه الوجهة، يتم إنشاء سجل جديد لنموذج التقارير الإلكترونية قيد التشغيل في الجدول ERFormatMappingRunJobTable. الحقل **مؤرشف** في هذا السجل معين إلى **True‎**. إذا نجح تشغيل تنسيق التقارير الإلكترونية، يتم إرفاق المستند المُنشأ بهذا السجل، ويظهر الحدث **AttachingFile()**. يحدد نوع المستند المكوّن في معلمات التقارير الإلكترونية موقع تخزين الملف المرفق (Azure Storage أو مجلد SharePoint).
 
-![صفحة معلمات التقارير الإلكترونية](media/er-extend-file-storages-parameters.png)
+![صفحة معلمات التقارير الإلكترونية.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>تكوين وجهة التقارير الإلكترونية
 
 1. كوّن الوجهة المؤرشفة لأحد العناصر المشار إليها في وقت سابق (ملف أو مجلد أو دمج أو مرفق) لتنسيق التقارير الإلكترونية الذي أنشأته أو استوردته. للحصول على إرشادات، راجع [التقارير الإلكترونية - تكوين الوجهات](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. استخدم نوع المستند الذي أضفته في وقت سابق للوجهة التي تم تكوينها. (على سبيل المثال في هذا الموضوع، نوع المستند هو **FileX**.)
 
-![مربع حوار إعدادات الوجهة](media/er-extend-file-storages-destination.png)
+![مربع حوار إعدادات الوجهة.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>تعديل التعليمات البرمجية المصدر
 

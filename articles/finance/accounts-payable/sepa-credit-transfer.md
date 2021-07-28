@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 03732ecd5a0cd59d15fa1f9f0691571bd0a19606
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897152"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346440"
 ---
 # <a name="sepa-credit-transfer-overview"></a>نظرة عامة على تحويل ائتمان سيبا
 
@@ -30,7 +32,7 @@ ms.locfileid: "5897152"
 
 ## <a name="what-is-a-credit-transfer-message"></a>ما هي رسالة التحويل الائتماني؟
 تُعد رسالة تحويل الائتمان طلب يُرسله الطرف البادئ (شركتك) لنقل الأموال من حسابها الخاص إلى دائن. يوجد العديد من عمليات تنفيذ رسائل التحويل الائتماني الخاصة بالبلد/المنطقة أو ببنك معين. يستخدم بعضها داخل بلد/منطقة واحدة، وتصبح بعضها معيارية. يعد أحد المعايير العالمية الراسخة هي ISO 20022، ورسائل البدء الخاصة بها، مثل تحويل الائتمان. يبين الرسم التوضيحي التالي العلاقات والتغطية لرسائل تحويل الائتمان المحددة. 
-![تحويل الائتمان](./media/credit-transfer.jpg) رسائل تحويل الائتمان 
+![تحويل الائتمان.](./media/credit-transfer.jpg) رسائل تحويل الائتمان 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>ما هي مدفوعات ISO 20022 وسيبا؟
 تم إعداد منطقة الدفع الموحد باليورو (سيبا) بواسطة المفوضية الأوروبية، والتي تقتضي أن تعتبر جميع عمليات الدفع الإلكترونية داخلية، بغض النظر عن مكان البلد/المنطقة، والشركة أو المؤسسة، والبنك. ليس هناك فرق بين المدفوعات داخل الوطن وعبر الحدود. تضم سيبا الدول الأعضاء في الاتحاد الأوروبي (EU) وعددها 28 دولة، بالإضافة إلى أيسلندا وليختنشتاين، والنرويج، وسويسرا، وموناكو، وسان مارينو‬. تساعد سيبا من سوق واحد لحركات الدفع داخل المنطقة الاقتصادية الأوروبية (EEA). وفي النهاية، من المتوقع أن تقوم سيبا بتقليل عدد تنسيقات الدفع التي يجب أن تعمل البنوك والشركات والأفراد من خلالها. وضعت "اللجنة الأوروبية" أساسًا قانونيًا لمدفوعات سيبا من خلال توجيه خدمات الدفع (PSD). ويدعم مجلس المدفوعات الأوروبية (EPC) سيبا من خلال الأنشطة التالية:

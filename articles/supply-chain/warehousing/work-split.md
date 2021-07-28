@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830752"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344136"
 ---
 # <a name="work-split"></a>تقسيم العمل
 
@@ -51,7 +51,7 @@ ms.locfileid: "5830752"
 - **تقسيم العمل** – قسّم معرّف العمل إلى معرّفات عمل صغيرة متعددة يمكن معالجتها بواسطة عاملين منفصلين.
 - **إلغاء جلسة تقسيم العمل** - قم بإلغاء جلسة عمل تقسيم العمل وقم باتاحه العمل للمعالجة.
 
-![زرا تقسيم العمل وإلغاء جلسة عمل تقسيم العمل](media/Work_split_buttons.png "زرا تقسيم العمل وإلغاء جلسة عمل تقسيم العمل")
+![زرا تقسيم العمل وإلغاء جلسة عمل تقسيم العمل.](media/Work_split_buttons.png "زرا تقسيم العمل وإلغاء جلسة عمل تقسيم العمل")
 
 > [!IMPORTANT]
 > لن يتوفر الزر **تقسيم العمل** إذا تحققت اي من الشروط التالية:
@@ -94,7 +94,7 @@ ms.locfileid: "5830752"
 
     سيتم تعيين حقل **سبب حظر العمل** للعمل الحالي علي *تقسيم العمل*، سيتم حظر العمل.
 
-    ![سبب الحظر](media/Blocking_reason.png "سبب الحظر")
+    ![سبب الحظر.](media/Blocking_reason.png "سبب الحظر")
 
 1. حدد البنود التي ستتم ازالتها من معرف العمل الحالي وأضف إلى معرف عمل جديد. تقع الأحداث التالية:
 

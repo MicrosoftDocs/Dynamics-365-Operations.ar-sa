@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8d6687ddaae28ebf278aca6a78ba798e2e79edd8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 41d135af00618dbe4046338c8d0e6f5a01f33892
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791911"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344996"
 ---
 # <a name="retail-statements"></a>كشوف البيع بالتجزئة
 
@@ -31,7 +31,7 @@ ms.locfileid: "5791911"
 
 يوضح الرسم التوضيحي التالي عملية ترحيل كشف الحساب. في هذه العملية، ترسل الحركات التي يتم تسجيلها في نقطة البيع إلى العميل باستخدام مجدول Commerce. بعد تلقي العميل الحركات، يمكنك إنشاء وحساب وترحيل كشف الحركات للمتجر.
 
-[![عملية ترحيل كشف حساب](./media/retail-statements.png)](./media/retail-statements.png)
+[![عملية ترحيل كشف حساب.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>إنشاء الكشوف وتحديثها
 

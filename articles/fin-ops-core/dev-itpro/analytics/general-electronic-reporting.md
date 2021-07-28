@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944355"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345680"
 ---
 # <a name="electronic-reporting-er-overview"></a>نظرة عامة على إعداد التقارير الإلكترونية (ER)
 
@@ -101,7 +103,7 @@ ms.locfileid: "5944355"
 
 يبين الرسم التوضيحي التالي كيفية تدفق البيانات لهذه التنسيقات.
 
-[![تدفق البيانات لمكونات التنسيق الصادر](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![تدفق البيانات لمكونات التنسيق الصادر.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 لتشغيل تكوين تنسيق واحد للتقارير الإلكترونية وإنشاء مستند إلكتروني صادر، يجب تحديد تعيين تكوين التنسيق.
 
@@ -115,7 +117,7 @@ ms.locfileid: "5944355"
 
 يبين الرسم التوضيحي التالي كيفية تدفق البيانات لهذه التنسيقات.
 
-[![تدفق البيانات لمكونات التنسيق الوارد](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![تدفق البيانات لمكونات التنسيق الوارد.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 لتشغيل تكوين تنسيق واحد للتقارير الإلكترونية لاستيراد البيانات من مستند إلكتروني وارد، يجب تحديد التعيين المطلوب لتكوين التنسيق، وأيضًا نقطة التكامل لتعيين النموذج.‬ يمكنك استخدام تعيين النموذج نفسه والوجهات نفسها مع تنسيقات مختلفة لنوع مختلف من المستندات الواردة.
 
@@ -290,7 +292,7 @@ ms.locfileid: "5944355"
 
 ويتم تحديث قائمة تكوينات ER الخاصة بـ Finance باستمرار. افتح [المستودع العمومي](er-download-configurations-global-repo.md) لمراجعه قائمه تكوينات ER المعتمدة حاليا. في علامة التبويب السريعة **تفاصيل الإيقاف**، يمكنك مراجعه المعلومات المتعلقة بالتكوينات التي توقفت أو التي لم تعد محتفظا بها. 
 
-![محتوي المستودع العمومي علي صفحه مستودع التكوين](./media/er-overview-03.gif)
+![محتوى المستودع العمومي على صفحة مستودع التكوين.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
