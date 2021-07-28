@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051799"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359666"
 ---
 # <a name="recruit-job-candidates"></a>تعيين المرشحين للوظائف
 
@@ -61,13 +61,13 @@ ms.locfileid: "6051799"
 
 3. في حقل **موقع طلب التعيين**، أدخل اسم الموقع.
 
-   ![إضافة موقع طلب تعيين](./media/hr-recruit-0a-add-location.png)
+   ![إضافة موقع طلب تعيين.](./media/hr-recruit-0a-add-location.png)
 
 4. في **الوصف**، أدخل وصفًا للموقع.
 
 5. ضمن **الموقع**، حدد **إضافة**. إذا ظهرت النافذة المنبثقة **العنوان الجديد**، فأدخل عنوان الموقع.
 
-   ![إدخال العنوان](./media/hr-recruit-0b-address.png)
+   ![إدخال العنوان.](./media/hr-recruit-0b-address.png)
 
 6. ضمن **معلومات جهة الاتصال**، أدخل المعلومات الخاصة بجهة اتصال الموقع.
 
@@ -83,11 +83,11 @@ ms.locfileid: "6051799"
 
 3. حدد **طلب للتعيين**.
 
-   ![بدء طلب تعيين](./media/hr-recruit-1-request-to-recruit.png)
+   ![بدء طلب تعيين.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. أكمل حقل **الوصف**، و **الوظيفة**، و **تاريخ البدء المقدر**.
 
-   ![إكمال طلب التعيين](./media/hr-recruit-2-request-to-recruit.png)
+   ![إكمال طلب التعيين.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. حدد **متابعة**. يظهر طلب التعيين للمنصب الخاص بك.
 
@@ -95,7 +95,7 @@ ms.locfileid: "6051799"
 
 7. ضمن **الوظيفة**، قم بتغيير أي معلومات حسب الحاجة، ثم حدد **إنشاء تفاصيل من الوظيفة**.
 
-   ![إنشاء تفاصيل من الوظيفة](./media/hr-recruit-3-create-details-from-job.png)
+   ![إنشاء تفاصيل من الوظيفة.](./media/hr-recruit-3-create-details-from-job.png)
 
    ستتم تعبئة بقية طلب التعيين بالمعلومات الافتراضية للوظيفة التي أدخلتها.
 
@@ -103,13 +103,13 @@ ms.locfileid: "6051799"
 
 9. ضمن **المناصب**، حدد **إضافة**، ثم حدد منصبًا لطلب التعيين هذا.
 
-   ![إضافة منصب](./media/hr-recruit-4-select-position.png)
+   ![إضافة منصب.](./media/hr-recruit-4-select-position.png)
 
 10. ضمن **المهارات**، حدد **إضافة**، ثم حدد مهارة.
 
 11. ضمن **المتطلبات التعليمية**، حدد **إضافة**، ثم حدد القيم من القائمتين المنسدلتين **التعليم** و **مستوى التعليم**.
 
-   ![إضافة المتطلبات التعليمية](./media/hr-recruit-5-select-educational-requirements.png)
+   ![إضافة المتطلبات التعليمية.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. ضمن **التعليق**، أضف التعليقات عند الضرورة.
 
@@ -117,7 +117,7 @@ ms.locfileid: "6051799"
 
 14. عندما يكتمل طلب التعيين وأصبحت مستعدًا لبدء عملية التعيين، حدد **تنشيط** في شريط القوائم.
 
-   ![تنشيط طلب التعيين](./media/hr-recruit-6-activate-recruit-request.png)
+   ![تنشيط طلب التعيين.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. حدد **حفظ**.
 
@@ -131,7 +131,7 @@ ms.locfileid: "6051799"
 
 3. ضمن **معلومات فريقي**، حدد علامة التبويب **طلبات التعيين**.
 
-   ![علامة التبويب تحديد طلبات التعيين](./media/hr-recruit-7-recruiting-requests.png)
+   ![علامة التبويب تحديد طلبات التعيين.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. لعرض طلب تعيين أو تحريره، حدده في الشبكة.
 
@@ -141,7 +141,7 @@ ms.locfileid: "6051799"
 
 2. حدد **طلبات التعيين**.
 
-   ![عرض طلبات التعيين في إدارة العاملين](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![عرض طلبات التعيين في إدارة العاملين.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. لعرض طلب تعيين أو تحريره، حدده في الشبكة.
 
@@ -155,7 +155,7 @@ ms.locfileid: "6051799"
 
 3. ضمن **التعيين**، حدد **المرشحين**.
 
-   ![عرض المرشحين](./media/hr-recruit-9-candidates.png)
+   ![عرض المرشحين.](./media/hr-recruit-9-candidates.png)
 
 4. لإضافة مرشح، حدد **جديد**. لتحرير مرشح موجود، حدد المرشح من القائمة ثم حدد **تحرير**. يظهر ملف تعريف المرشح.
 
@@ -163,7 +163,7 @@ ms.locfileid: "6051799"
 
 6. ضمن **طلب التعيين**، حدد طلب تعيين لربط المرشح به. أكمل بعد ذلك حقول **تاريخ البدء المقدر** و **مدير التعيين** و **المنصب** و **الوصف** حسب الحاجة.
 
-   ![الربط بطلب تعيين](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![الربط بطلب تعيين.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. أكمل جميع المعلومات في المجالات التالية التي تريد تضمينها في سجل المرشح:
    - **التعليقات**
@@ -182,11 +182,11 @@ ms.locfileid: "6051799"
 
 1. في نموذج المرشح، حدد **تعيين**.
 
-   ![تعيين مرشح](./media/hr-recruit-11-hire.png)
+   ![تعيين مرشح.](./media/hr-recruit-11-hire.png)
 
 2. في نموذج **تعيين عامل جديد**، ضمن **التفاصيل**، أكمل جميع الحقول.
 
-   ![إدخال تفاصيل التعيين الجديد](./media/hr-recruit-12-hire-new-worker.png)
+   ![إدخال تفاصيل التعيين الجديد.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. ضمن **تفاصيل المنصب**، تحقق من المعلومات وقم بتغييرها إذا لزم الأمر.
 
@@ -203,7 +203,7 @@ ms.locfileid: "6051799"
 
 1. في نموذج المرشح، حدد **عدم التعيين**.
 
-   ![عدم تعيين المرشح](./media/hr-recruit-13-do-not-hire.png)
+   ![عدم تعيين المرشح.](./media/hr-recruit-13-do-not-hire.png)
 
 2. حدد **كود السبب** وقم بتضمين أي تعليقات.
 
@@ -215,7 +215,7 @@ ms.locfileid: "6051799"
 
 - في نموذج المرشح، حدد **استبعاد مرشح**.
 
-  ![استبعاد المرشح](./media/hr-recruit-14-dismiss-candidate.png)
+  ![استبعاد المرشح.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 

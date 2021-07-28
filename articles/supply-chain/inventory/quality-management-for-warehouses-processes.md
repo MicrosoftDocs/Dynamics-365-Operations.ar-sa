@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 42280c811e1f4ed5d33c66f5a8634417a61be905
-ms.sourcegitcommit: f9b145ef4a81cec81f420871b4130b05db4f4500
+ms.openlocfilehash: 79eb7d750869ef365ad117ecc024afc8db2edbf7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301319"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348819"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>إدارة الجودة لعمليات المستودعات
 
@@ -43,7 +43,7 @@ ms.locfileid: "6301319"
 
 عند تشغيل ميزة _إدارة الجودة لعمليات المستودع_، فإنها تغير إعداد كيانات إدارة المستودعات الأساسية ووحدات إدارة الجودة. يوفر التوضيح التالي نظرة عامة حول الكيانات التي تمكّن أوامر الجودة لعمليات المستودع. يشير النص الموجود بين الأقواس إلى إجراءات مقترحة عندما تم تطبيق إدارة الجودة قبل تشغيل ميزة _إدارة الجودة لعمليات إدارة المستودع_.
 
-![كيانات إدارة الجودة](media/quality-management-entity-diagram.png "كيانات إدارة الجودة")
+![كيانات إدارة الجودة.](media/quality-management-entity-diagram.png "كيانات إدارة الجودة")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>عناصر التمكين: أنواع أوامر العمل لأخذ عينات صنف الجودة وأمر الجودة
 

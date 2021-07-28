@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 678561856fbb5514ff954363a767091edac6dee2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89237c830109e8cb304b2547230484f15b90d875
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794363"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351287"
 ---
 # <a name="manage-product-categories-and-products"></a>إدارة المنتجات وفئات المنتجات
 
@@ -35,17 +35,17 @@ ms.locfileid: "5794363"
 
 في بنية فئة المنتجات المُحسنة، يتم فصل خصائص المنتجات بصورة منطقية استنادًا إلى إمكانية تطبيقها في مجموعة، لتعكس بنية تفاصيل المنتجات المُصدرة من البنية.
 
-![الحقول المجمعة بناءً على نطاق إمكانية تطبيق الخصائص](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![الحقول المجمعة بناءً على نطاق إمكانية تطبيق الخصائص.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 يمكنك التبديل بين إدارة خصائص خاصة بكيان قانوني عبر كافة الكيانات القانونية وإدارتها لكيان قانوني محدد.
 
 لإدارة خصائص عبر جميع الكيانات القانونية، حدد **طريقة عرض لكافة الكيانات القانونية** (أو **التحرير لكافة الكيانات القانونية**).
 
-![عرض/تحرير لكافة الكيانات القانونية](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![عرض/تحرير لكافة الكيانات القانونية.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 لإدارة الخصائص لأحد الكيانات القانونية المحددة، حدد **طريقة عرض لكيان قانوني محدد** (أو **تحرير لكيان قانوني محدد**).
 
-![عرض/تحرير لكيان قانوني محدد](media/ToggleToEditForAllLegalEntities.PNG)
+![عرض/تحرير لكيان قانوني محدد.](media/ToggleToEditForAllLegalEntities.PNG)
 
 بالإضافة إلى ذلك، في بنية محسَّنة لفئة المنتج، بإمكان مدير الترويج أن يحدد الآن القيم الافتراضية لمجموعة إضافية من خصائص المنتجات على مستوى الفئة الفردية. وعندما يتم إنشاء المنتجات بعد ذلك، فإنها تورث القيم الافتراضية لخصائص منتجاتها، بناءً على اقتران هذه الخصائص بفئة فردية من التدرج الهرمي للمنتجات. يمكن أيضًا تعديل خصائص المنتجات المتوارثة لكل منتج لتلبية متطلبات العمل الفردية.
 
@@ -53,7 +53,7 @@ ms.locfileid: "5794363"
 
 يمكنك استخدام هذه البنية المُحسنة الجديدة لخصائص المنتج لتحديد خصائص منتجات مُحدثة يجب دفعها إلى المنتجات المقترنة. في صفحة **التدرج الهرمي للمنتجات التجارية**، في "جزء الإجراءات"، حدد **فئة**، ثم حدد **تحديث المنتجات** لفتح مربع الحوار **تحديث المنتجات**.
 
-![مربع الحوار تحديث المنتجات](media/NewUpdateProductsEnhancedView.PNG)
+![مربع الحوار تحديث المنتجات.](media/NewUpdateProductsEnhancedView.PNG)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

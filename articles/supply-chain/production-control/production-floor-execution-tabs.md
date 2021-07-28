@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814670"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347652"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>تصميم واجهة تنفيذ صالة الإنتاج‬ واستخدامها
 
@@ -32,7 +32,7 @@ ms.locfileid: "5814670"
 
 يتم تقسيم كل علامة تبويب إلى أربعه مقاطع ، كما هو مبين في التوضيح التالي.
 
-![تخطيط علامة التبويب](media/pfe-tab-layout.png "تخطيط علامة التبويب")
+![تخطيط علامة التبويب.](media/pfe-tab-layout.png "تخطيط علامة التبويب")
 
 يتم عرض العناصر التالية في الرسم التوضيحي:
 
@@ -47,7 +47,7 @@ ms.locfileid: "5814670"
 
 1. حدد **تصميم علامات التبويب** في جزء الإجراءات لفتح صفحه **تصميم علامات التبويب**.
 
-    ![صفحة تصميم علامات التبويب](media/pfe-design-tabs.png "صفحة تصميم علامات التبويب")
+    ![صفحة تصميم علامات التبويب.](media/pfe-design-tabs.png "صفحة تصميم علامات التبويب")
 
 1. حدد **جديد** في جزء الإجراءات.
 
@@ -67,7 +67,7 @@ ms.locfileid: "5814670"
 
 1. انتقل إلى **التحكم بالإنتاج \> الإعداد \> تنفيذ التصنيع \> تكوين تنفيذ صالة الإنتاج**.
 
-    ![تكوين التنفيذ في منطقة الإنتاج‬](media/pfe-config-prod-floor-execution.png "تكوين التنفيذ في منطقة الإنتاج‬")
+    ![تكوين التنفيذ في منطقة الإنتاج‬.](media/pfe-config-prod-floor-execution.png "تكوين التنفيذ في منطقة الإنتاج‬")
 
 1. على علامة التبويب السريعة **تحديد علامة التبويب** ، حدد **إضافة**.
 

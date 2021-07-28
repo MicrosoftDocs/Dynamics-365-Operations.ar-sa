@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750554"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352902"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>قوالب بيانات مع أوراق عمل متعددة
 
@@ -32,13 +32,13 @@ ms.locfileid: "5750554"
 
 إذا قمت بإضافة الكيان الثاني **المستودعات** دون مغادرة نموذج **إضافة ملف**، فسوف تسمح لك عمليات البحث في أوراق العمل بتحديد ورقة عمل **المستودعات** دون الحاجة إلى تحميل الملف مرة أخرى. قد يكون السبب الوحيد لتحميل ملف جديد إذا كانت بيانات **المستودعات** في ملف مختلف.
 
-![أوراق عمل متعددة](./media/AddFileMultipleWorkSheets.png)
+![أوراق عمل متعددة.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>إصلاح ورقة العمل إلى تعيين كيان
 
 يمكن تثبيت تعيين ورقة العمل لكيان البيانات في وظيفة الاستيراد من الشبكة. يوضح عمود **ورقة عمل** في الشبكة أوراق العمل من الملف الذي تم تعيينه. يمكنك اختيار ورقة عمل مختلف من القائمة المنسدلة. إذا كانت ورقة العمل المُحددة تم تعيينها بالفعل إلى أحد الكيانات في مشروع البيانات، فسوف يطلب منك النظام تأكيد التغيير. ننصح بتثبيت جميع التعيينات في الشبكة.
 
-![تحديث تعيين ورقة العمل](./media/UpdateMappings.png)
+![تحديث تعيين ورقة العمل.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>إعادة تعيين إلى ملف جديد
 

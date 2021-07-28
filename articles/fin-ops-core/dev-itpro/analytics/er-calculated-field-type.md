@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749479"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349150"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>دعم استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب‬
 
@@ -86,7 +86,7 @@ ms.locfileid: "5749479"
 
     يقوم تعيين النموذج في هذا التكوين بتنفيذ نموذج البيانات الأساسي لأي من تنسيقات التقارير الإلكترونية التي تم إنشاؤها لهذا النموذج وتنفيذها في Finance and Operations. نتيجة لذلك، يتم كشف محتوى مصادر بيانات **الضريبة** و **التجميع** لتنسيقات التقارير الإلكترونية مثل مصادر البيانات المجردة.
 
-    ![صفحة مصمم تعيين النموذج التي تعرض مصادر بيانات الضريبة والتجميع](media/er-calculated-field-type-01.png)
+    ![صفحة مصمم تعيين النموذج التي تعرض مصادر بيانات الضريبة والتجميع.](media/er-calculated-field-type-01.png)
 
 5.  أغلق صفحة **مصمم تعيين النموذج**.
 6.  أغلق صفحة **تعيين النموذج**.
@@ -101,21 +101,21 @@ ms.locfileid: "5749479"
     - تقديم المستويات التالية لفرض الضرائب في بيان الضريبة: العادي والمخفض ولا شيء.
     - تقديم تفاصيل متعدد في كل مستوى فرض ضرائب، مع وجود عدد مختلف من التفاصيل في كل مستوى.
 
-    ![صفحة مصمم التنسيق‬](media/er-calculated-field-type-02.png)
+    ![صفحة مصمم التنسيق‬.](media/er-calculated-field-type-02.png)
 
 4. حدد **التعيين**.
 5. قم بتوسيع عناصر **النموذج**، و **البيانات**، و **الملخص**. 
 
     يحتوي الحقل المحسوب **Model.Data.Summary.Level** على التعبير الذي يقوم بإرجاع كود مستوى فرض الضرائب (**العادي**، أو **المخفض**، أو **لا شيء**، أو **غير ذلك**) كقيمة نصية لأي كود ضريبة يمكن استرجاعه من مصدر البيانات **Model.Data.Summary** في وقت التشغيل.
 
-    ![صفحة مصمم تنسيق تظهر تفاصيل نموذج لنموذج بيانات لمعرفة الاستدعاءات ذات معلمات](media/er-calculated-field-type-03.png)
+    ![صفحة مصمم تنسيق تظهر تفاصيل نموذج لنموذج بيانات لمعرفة الاستدعاءات ذات معلمات.](media/er-calculated-field-type-03.png)
 
 6. قم بتوسيع عنصر **Model**.**Data2**.
 7. قم بتوسيع عنصر **Model**.**Data2.Summary2**.
    
     يتم تكوين مصدر البيانات **Model**.**Data2.Summary2** لتجميع تفاصيل حركة مصدر بيانات **Model.Data.Summary** حسب مستوى فرض الضرائب (الذي يتم إرجاعه بواسطة الحقل المحسوب **Model.Data.Summary.Level**) وحساب التجميعات.
 
-    ![صفحه مصمم تنسيق تُظهر تفاصيل مصدر بيانات Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![صفحة مصمم تنسيق تُظهر تفاصيل مصدر بيانات Model.Data2.Summary2.](media/er-calculated-field-type-04.png)
 
 8. راجع الحقول المحسوبة **Model**.**Data2.Level1**، و **Model**.**Data2.Level2**، و **Model**.**Data2.Level3**. يتم استخدام هذه الحقول المحسوبة لتصفية قائمة سجلات **Model**.**Data2.Summary2** وإرجاع السجلات التي تمثل مستوى فرض ضرائب معين فقط.
 9. أغلق صفحة **مصمم المعادلة**.
@@ -155,7 +155,7 @@ ms.locfileid: "5749479"
 
     الحد الأقصى لعدد المعلمات التي يمكن تحديدها لحقل محسوب واحد هو 8.
 
-    ![قائمة مصادر بيانات المعلمات](media/er-calculated-field-type-05.png)
+    ![قائمة مصادر بيانات المعلمات.](media/er-calculated-field-type-05.png)
 
 5. حدد **موافق**.
 
@@ -165,7 +165,7 @@ ms.locfileid: "5749479"
 
    تتوفر المعلمة المكونة في قائمة مصادر البيانات لهذا الحقل المحسوب. يمكنك إضافة المعلمة إلى التعبير المكون عن طريق تحديد **إضافة مصدر بيانات**.
 
-   ![حقول مصادر البيانات](media/er-calculated-field-type-06.png)
+   ![حقول مصادر البيانات.](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>تحديد تعبير لإضافة حقل محسوب
 
@@ -181,7 +181,7 @@ ms.locfileid: "5749479"
 
 5. حدد **حفظ**.
 
-    ![معلومات حقل مصدر البيانات](media/er-calculated-field-type-07.png)
+    ![معلومات حقل مصدر البيانات.](media/er-calculated-field-type-07.png)
 
 6. أغلق صفحة **مصمم المعادلة**.
 
@@ -191,7 +191,7 @@ ms.locfileid: "5749479"
 
 في صفحة **مصمم المعادلة**، يحتاج حقل **المستويات** المحسوب المكوّن ذو معلمات إلى وسيطة **سلسلة**.
 
-![قائمة موسعة بمستويات الحقول المحسوبة](media/er-calculated-field-type-08.png)
+![قائمة موسعة بمستويات الحقول المحسوبة.](media/er-calculated-field-type-08.png)
 
 ### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>استخدام الحقل المحسوب المكون لربط عناصر التنسيق
 
@@ -220,7 +220,7 @@ ms.locfileid: "5749479"
 
 يمكنك تحديد **تحرير المعادلة**، وتغيير الوسيطة المطبقة بشكل افتراضي للحقل المحسوب ذي المعلمات في الربط المحدد. إذا كانت هذه الوسيطة مفقودة، فقد تتسبب في حدوث أخطاء في وقت التشغيل — يتم إعلام المستخدمين بمثل هذا الموقف عند التحقق من صحة التنسيق الحالي.
 
-![الإعلام عن تحذير التحقق من الصحة](media/er-calculated-field-type-10.png)
+![الإعلام عن تحذير التحقق من الصحة.](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>تكوين حقل محسوب ذي معلمات لإرجاع سجل
 عندما يقوم حقل محسوب ذو معلمات بإرجاع سجل، تحتاج إلى دعم ربط الحقول الفردية لهذا السجل بعناصر التنسيق. في مثل هذه الحالات لن يكون هناك ربط أصلي يحتوي على قيمة وسيطة لاستدعاء حقل محسوب ذي معلمات — يجب تعريف هذه القيمة في ربط حقل سجل واحد.
@@ -272,7 +272,7 @@ ms.locfileid: "5749479"
 8. حدد **تحرير المعادلة**.
 9. قم بتغيير التعبير إلى **Model.Data2.LevelRecord("None").aggregated.Base**.
 
-![التعبير المحدّث](media/er-calculated-field-type-11.png)
+![التعبير المحدّث.](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>إزالة الحقول المحسوبة غير المستخدمة
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a34c9f265a3adbbe938d90f2aa7f5d02b7201c05
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021478"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344972"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>إدارة الوقت والحضور في Retail
 
@@ -97,7 +97,7 @@ ms.locfileid: "6021478"
         </tbody>
         </table>
 
-        [![حالات ساعة الوقت](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![حالات ساعة الوقت.](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - اعرض رسالة التأكيد، وتحقق من صحة وقت النشاط الحالي.
 - دفتر التسجيل:

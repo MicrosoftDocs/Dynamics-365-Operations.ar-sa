@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 225fd6a07fee29414ac30a4602b4dfccdc4d742b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 698c556b8839ae1d657ef02796fe08ab9cd3621e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800604"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346024"
 ---
 # <a name="create-legal-entities"></a>إنشاء كيانات قانونية
 
@@ -44,7 +44,7 @@ ms.locfileid: "5800604"
 1. في الحقل **البلد/المنطقة**، أدخل قيمة أو حددها.
 1. حدد **موافق**. 
 
-   ![إنشاء كيان قانوني](media/legal-entities.png)
+   ![إنشاء كيان قانوني.](media/legal-entities.png)
 
 1. في القسم **عام**، أدخل المعلومات العامة التالية حول الكيان القانوني: 
    1. أدخل اسم بحث، إذا كان إدخال اسم البحث مطلوبًا. اسم البحث هو اسم بديل يمكن استخدامه للبحث عن هذا الكيان القانوني. 
@@ -67,11 +67,11 @@ ms.locfileid: "5800604"
 
 تعرض الصورة التالية تفاصيل مثال عن كيان قانوني.
 
-![القسم العام للكيان القانوني](media/legal-entities-general.png)
+![القسم العام للكيان القانوني.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
 [تخطيط التدرج الهرمي للمؤسسات](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 

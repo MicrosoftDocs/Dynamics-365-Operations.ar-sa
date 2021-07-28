@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b59be8b395826914e8196009c339c2ced5a4debf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a537509fe034d85f8f4f441dc82d54efd3ed4f28
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818298"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348877"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>إلغاء اليه الرسوم لنظام ضريبة القيمة المضافة/GST
 
@@ -121,7 +121,7 @@ ms.locfileid: "5818298"
 
 في لقطة الشاشة التالية، تشتمل حركة واحدة على اتجاه **ضريبة المبيعات مستحقة القبض**، وتشتمل الحركةه الأخرى على اتجاه **ضريبة المبيعات مستحقة الدفع**. 
 
-![ضريبة المبيعات المرحلة](media/apac-sau-posted-sales-tax.png)
+![ضريبة المبيعات المرحلة.](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>ميزة تمكين آلية إلغاء الرسوم لنظام ضريبة القيمة المضافة/ضريبة السلع والخدمات
 **بحث عن الميزة**: انتقل‏‎ إلى مساحة عمل **إدارة الميزات**.

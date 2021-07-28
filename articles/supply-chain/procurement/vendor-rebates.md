@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822457"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344210"
 ---
 # <a name="vendor-rebates"></a>خصومات المورد
 
@@ -53,7 +53,7 @@ ms.locfileid: "5822457"
 
 لفتح صفحة **اتفاقيات الخصم للمورد**، حدد **التدبير وتحديد الموارد** &gt; **خصومات المورد‬** &gt; **اتفاقيات الخصم**.
 
-![اتفاقية الشراء](media/purchase-agreement.PNG)
+![اتفاقية الشراء.](media/purchase-agreement.PNG)
 
 في صفحة **اتفاقيات الخصم للمورد**، يمكنك عرض تفاصيل حول شروط اتفاقية المورد التي تم التفاوض بشأنها.
 
@@ -129,7 +129,7 @@ ms.locfileid: "5822457"
 
     يتم ترحيل دفتر يومية استحقاق الخصم لمبلغ الخصم. تسجل عملية الترحيل هذه على حساب خصومات المورد المستحقة المدينة قيمة المبلغ الدائن للمورد وتضيف إلى الحساب المؤقت لخصومات المورد المستحقة المدينة قيمة الربح المتوقع.
 
-    ![رسالة](media/message.png)
+    ![الرسالة.](media/message.png)
 
 5. في قائمة الخصومات، حدد البند، وبعد ذلك، في "جزء الإجراءات"، حدد **حركات الخصم** لرؤية رقم دُفعة دفتر اليومية والانتقال إليه لعملية ترحيل استحقاق الخصم‬ هذا.
 

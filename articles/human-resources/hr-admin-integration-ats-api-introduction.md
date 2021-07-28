@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055282"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357378"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>مقدمة واجهة برمجة التطبيقات لتكامل نظام تعقب مقدم الطلب
 
@@ -26,7 +26,7 @@ ms.locfileid: "6055282"
 
 يصف هذا الموضوع واجهة برمجة التطبيقات لتكامل نظام تعقب مقدم الطلب (ATS) في Dynamics 365 Human Resources. وهدف واجهة API هو تمكين عمليات التكامل الانسيابية بين أنظمة ATS في Dynamics 365 Human Resources وأنظمة الشركاء.
 
-![سير عمل تكامل نظام ATS](media/hr-admin-integration-ats-api-introduction-flow.png)
+![سير عمل تكامل نظام ATS.](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 تبدأ التجربة المتكاملة في الموارد البشرية عندما يقوم مدير التوظيف بإنشاء طلب توظيف. عند تنشيط الطلب، يقوم نظام ATS بسحب تفاصيل الطلب لإنشاء مشروع تعيين. وبعد ذلك يتبع مسار التوظيف لتحديد مرشح للمنصب (المناصب) وتوظيفه. وأخيرا، يكمل نظام ATS رحلة التكامل الكاملة عن طريق إرسال سجل المرشح المحدد إلى الموارد البشرية. يمكن أن يمر سجل الترشيح بعد ذلك بمزيد من عمليات التحقق من الصحة ومهام سير العمل لإنشاء سجل الموظف.
 
@@ -69,7 +69,7 @@ ms.locfileid: "6055282"
 
 يوضح المخطط التالي العلاقات داخل API. تحتوي العديد من الأنواع على مفاتيح خارجية لكيانات أخرى موجودة مسبقا في الموارد البشرية لم يتم توضيحها هنا. يوفر هذا المستند معلومات حول الكيانات الخاصة بسيناريوهات تكامل التعيين. ومع ذلك، هناك العديد من الكيانات الأخرى في واجهة ويب Dataverse لـ Dynamics 365 Human Resources يمكن أن تكون مرتبطة أيضًا بالتكامل الخاص بك. على سبيل المثال، قد تحتاج أيضا إلى تفصيل العاملين أو الوظائف أو المناصب أو الكيانات الأخرى غير المحددة. تجري الاشارة إلى العديد من هذه الكيانات في علاقات المفاتيح الخارجية أو خصائص التنقل.
 
-![نموذج بيانات واجهة API لتكامل ATS](media/hr-admin-integration-ats-api-data-model.png)
+![نموذج بيانات واجهة API لتكامل ATS.](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>طلب التعيين والكيانات ذات الصلة ومجموعات الخيارات
 

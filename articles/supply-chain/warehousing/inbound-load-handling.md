@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103158"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359777"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>معالجة المستودع للحمل الوارد لأوامر الشراء
 
@@ -30,7 +30,7 @@ ms.locfileid: "6103158"
 
 يبين الرسم التوضيحي التالي سير المهام النموذجي لمعالجة الأحمال الواردة التي تحتوي على كميات أوامر شراء عند وصولها إلى مستودعك.
 
-![عملية معالجة الأحمال الواردة](media/inbound-process.png "عملية معالجة الأحمال الواردة")
+![عملية معالجة الأحمال الواردة.](media/inbound-process.png "عملية معالجة الأحمال الواردة")
 
 1. **يؤكد المورّد أمر الشراء.**
 
@@ -293,7 +293,7 @@ ms.locfileid: "6103158"
 
     يمكنك ترك كافة الإعدادات الأخرى بقيمها الافتراضية.
 
-    ![إعدادات عنصر قائمة جهاز محمول](media/inbound-mobile-menu-items.png "إعدادات عنصر قائمة جهاز محمول")
+    ![إعدادات عنصر قائمة جهاز محمول.](media/inbound-mobile-menu-items.png "إعدادات عنصر قائمة جهاز محمول")
 
     لمزيد من المعلومات حول كيفية إعداد عناصر قائمة الجهاز المحمول، راجع [إعداد الأجهزة المحمولة لعمل المستودع](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ ms.locfileid: "6103158"
     - على علامة التبويب السريعة **الحمل**، تم تعيين حقل **حالة الحمل** إلى _مفتوح_.
     - في القسم **بنود الحمل**، يوجد بند واحد حيث تم تعيين حقل **الكمية** إلى _10_ وحقل **الكمية التي أنشأها العمل** إلى _0_ (صفر).
 
-    ![تفاصيل الحِمل](media/inbound-load-details.png "تفاصيل الحِمل")
+    ![تفاصيل الحِمل.](media/inbound-load-details.png "تفاصيل الحِمل")
 
 1. في "جزء الإجراءات"، في علامة التبويب **الشحن والاستلام**، حدد **تأكيد \> شحنة واردة**. لاحظ أن **حالة الحمل** تغيرت إلى _مشحون_.
 1. دوّن قيمة **معرف الحمل**، بحيث يمكنك استخدامه في الإجراء التالي.

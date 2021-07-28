@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216552"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358112"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -41,7 +43,7 @@ ms.locfileid: "6216552"
 
 يمكنك التسجيل في RCS أو تسجيل الدخول إليها في [صفحة Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/).
 
-![التسجيل في/تسجيل الدخول إلى RCS](media/202103_RCS%20Marketing%20page_updated_1.jpg)
+![التسجيل في/تسجيل الدخول إلى RCS.](media/202103_RCS%20Marketing%20page_updated_1.jpg)
 
 في صفحة **Regulatory Configuration Service**، راجع ووافق على الشروط والأحكام الإضافية لاستخدام الخدمة، ثم حدد أحد الأزرار التالية:
 
@@ -91,7 +93,7 @@ ms.locfileid: "6216552"
 
 عندما تقوم بالتسجيل في RCS من صفحة الخدمة، قد تواجه مشكلة مرتبطة بـ Azure Active Directory (Azure AD). تشير رسالة الخطأ التي تظهر إلى أنه تم إيقاف تشغيل التسجيل في RCS حاليًا ويجب تشغيل التسجيل قبل أن تتمكن من إكمال عملية التسجيل.
 
-![رسالة خطأ التسجيل في RCS](media/01_RCSSignUpError.jpg)
+![رسالة خطأ التسجيل في RCS.](media/01_RCSSignUpError.jpg)
 
 تحدث هذه المشكلة بسبب أنك محظور من التسجيل للاشتراكات المخصصة، ويجب تمكين الخاصية `AllowAdHocSubscriptions` في المستأجر الخاص بك. 
 

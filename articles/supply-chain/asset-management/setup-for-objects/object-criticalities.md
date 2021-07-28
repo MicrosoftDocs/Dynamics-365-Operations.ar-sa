@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb2da2d58b7f98fad80d0ea63bf4445ec4d08163
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: baf2c279a656bd67a0850ef9178e1bc984bb9b8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808342"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351479"
 ---
 # <a name="asset-criticality-types"></a>أنواع مستويات أهمية الأصول
 
@@ -40,7 +40,7 @@ ms.locfileid: "5808342"
 4. في حقل **الاسم**، أدخل اسمًا لنوع مستوى الأهمية.
 5. في حقل **المعامل**، أدخل معاملاً. يُستخدم المعامل أثناء حساب جدولة أمر العمل لتحديد سجل مستوى الأهمية الذي يجب استخدامه. (يتم استخدام السجل الذي يحتوي على أعلى معامل دائمًا.) يكون هذا الإعداد ذا صلة إذا تم إنشاء بنود مستويات الأهمية التي لها نفس قيمة الأهمية، كما هو موضح في الرسم التوضيحي التالي.
 
-    ![صفحة أنواع الأهمية](media/23-setup-for-objects.png)
+    ![صفحة أنواع الأهمية.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>إعداد مستويات أهمية الأصول
 

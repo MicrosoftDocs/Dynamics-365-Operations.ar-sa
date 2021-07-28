@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fb5b851c71ac632a045cf09c725a088d13f21ad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752904"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360248"
 ---
 # <a name="client-alert-notifications-by-email"></a>إخطارات تنبيه‬ العميل بالبريد الإلكتروني
 
@@ -36,7 +36,7 @@ ms.locfileid: "5752904"
 
 تُظهر الصورة التالية مربع الحوار **إنشاء قاعدة تنبيه**، الذي يتضمن الآن الخيار **إرسال بريد إلكتروني**.
 
-[![مربع الحوار "إنشاء قاعدة تنبيه"، حيث تم تعيين الخيار "إرسال بريد إلكتروني" إلى "نعم"](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![مربع الحوار "إنشاء قاعدة تنبيه"، حيث تم تعيين الخيار "إرسال بريد إلكتروني" إلى "نعم".](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > عند تعيين الخيار **إرسال بريد إلكتروني** إلى **نعم**، سيستمر تسليم الإخطارات بالبريد الإلكتروني من مركز الإجراءات.
@@ -47,7 +47,7 @@ ms.locfileid: "5752904"
 
 تُظهر الصورة التالية بنية إخطارات التنبيه عند استلامها بالبريد الإلكتروني.
 
-[![إخطارات تنبيه تستند إلى قوالب لإنشاء السجلات وإجراء تغييرات في الحقول وحذف القوالب](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![إخطارات تنبيه تستند إلى قوالب لإنشاء السجلات وإجراء تغييرات في الحقول وحذف القوالب.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866146"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357508"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>البرنامج التعليمي للأداة Regression Suite Automation Tool
 
@@ -67,11 +67,11 @@ ms.locfileid: "5866146"
 
 يمكن استخدام هذه الميزة للتحقق مما إذا كان الإجراء قد حدث أم لا. على سبيل المثال، عند إنشاء أمر إنتاج وتقديره ثم بدء تشغيله، يعرض التطبيق الرسالة "الإنتاج – بدء" لإعلامك بأنه قد تم بدء أمر الإنتاج.
 
-![إخطار الإنتاج - بدء](./media/use_rsa_tool_05.png)
+![الإنتاج - إخطار البدء.](./media/use_rsa_tool_05.png)
 
 يمكنك التحقق من صحة هذه الرسالة عن طريق RSAT وذلك بإدخال نص الرسالة في علامة التبويب **MessageValidation** في ملف معلمة Excel للتسجيل المناسب.
 
-![علامة تبويب التحقق من الرسالة](./media/use_rsa_tool_06.png)
+![علامة تبويب التحقق من الرسالة.](./media/use_rsa_tool_06.png)
 
 بعد تشغيل حالة الاختبار، تتم مقارنة الرسالة الموجودة في ملف معلمة Excel بالرسالة المعروضة. في حالة عدم تطابق الرسائل، ستفشل حالة الاختبار.
 
@@ -104,11 +104,11 @@ ms.locfileid: "5866146"
 
 يعرض الرسم التوضيحي التالي سير العمل لهذا السيناريو.
 
-![سير عمل السيناريو التوضيحي](./media/use_rsa_tool_14.png)
+![سير عمل السيناريو التوضيحي.](./media/use_rsa_tool_14.png)
 
 يبين الرسم التوضيحي التالي التسلسل الهرمي للعمليات التجارية لهذا السيناريو في أداة تكوين عمليات الأعمال في LCS.
 
-![العمليات التجارية للسيناريو التوضيحي](./media/use_rsa_tool_15.png)
+![العمليات التجارية للسيناريو التوضيحي.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>الاستراتيجية – التعليم الأساسي
 

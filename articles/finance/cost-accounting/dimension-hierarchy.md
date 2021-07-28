@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897566"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355073"
 ---
 # <a name="dimension-hierarchy"></a>التدرج الهرمي للأبعاد
 
@@ -39,7 +39,7 @@ ms.locfileid: "5897566"
 
 فيما يلي مثال عن التدرجي الهرمي للأبعاد.
 
-![مثال لتدرجي هرمي لبعد](./media/dimension-hierarchy.png)
+![مثال لتدرجي هرمي لبعد.](./media/dimension-hierarchy.png)
 
 يمكن إنشاء التدرج الهرمي للأبعاد للأنواع التالية من الأبعاد:
 
@@ -80,7 +80,7 @@ ms.locfileid: "5897566"
 
 تحتوي الشركة الصغيرة على هيكل المؤسسة التالي، حيث يندرج القسمان "الموارد البشرية" و"المالية" أسفل الإدارة، ويندرج القسمان "التجميع" و"التعبئة" أسفل الإنتاج.
 
-![مثال على هيكل المؤسسة](./media/dimension-hierarchy-org.png)
+![مثال على هيكل المؤسسة.](./media/dimension-hierarchy-org.png)
 
 يمثل بعد كائن التكلفة كافة مراكز التكلفة في المؤسسة.
 

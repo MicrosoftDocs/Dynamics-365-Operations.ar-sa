@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022986"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358376"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>قم بتسجيل أرقام شهادات تخويل TDS
 
@@ -33,7 +33,7 @@ ms.locfileid: "6022986"
 2. في الحقل **نوع الضريبة**، حدد **TDS** لتسجيل شهادات التخويل الخاصة بنوع الضريبة TDS.
 3. في علامة التبويب **نظرة عامة**، حدد **Alt+N** لإنشاء بند.
 
-    [![رأس البند الجديد](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![رأس البند الجديد.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. في الحقل **كود ضريبة الخصم**، حدد كود الضريبة TDS الذي يتم إصدار شهادات تخويل المورد له. يعرض الحقل **اسم كود ضريبة الخصم** اسم كود ضريبة TDS.
 5. في الحقلين **من تاريخ** و **إلى تاريخ**، حدد فترة الصلاحية لشهادة التخويل التي تستخدم كود الضريبة TDS لحساب TDS للمورد على أساس تيسيري.
@@ -50,6 +50,6 @@ ms.locfileid: "6022986"
 
 11. في الحقل **الشهادة**، أدخل رقم شهادة تخويل TDS.
 
-    [![علامة التبويب السريعة الشهادة](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![علامة التبويب السريعة الشهادة.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. قم بإغلاق الصفحة.

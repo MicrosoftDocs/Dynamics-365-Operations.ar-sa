@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837935"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360115"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>استخدام مساحة العمل المحمولة للأصل
 
@@ -60,7 +60,7 @@ ms.locfileid: "5837935"
 
 1. بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فستحتاج إلى تحديث قائمة مساحات العمل المحمولة.
 
-    ![حدد مساحة عمل](media/am-mobile-01.png "حدد مساحة عمل")
+    ![تحديد مساحة عمل.](media/am-mobile-01.png "حدد مساحة عمل")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>عرض وظائف أمر العمل المعينة في طريقة عرض التقويم
 
@@ -72,7 +72,7 @@ ms.locfileid: "5837935"
 
 1. حدد وظيفة أمر عمل في القائمة للاطلاع علي تفاصيل الوظيفة: تفاصيل الأصول ومواقع العمل بالإضافة إلى ارتباطات تنقل أخرى لعرض **المرفقات** و **قوائم الفحص** و **الأدوات** و **عدادات الأصول** و **الملاحظات** و **دفاتر اليومية**.
 
-    ![عرض وظائف أمر العمل المعينة في طريقة عرض التقويم](media/am-mobile-02.png "عرض وظائف أمر العمل المعينة في طريقة عرض التقويم")
+    ![عرض وظائف أمر العمل المعينة في طريقة عرض التقويم.](media/am-mobile-02.png "عرض وظائف أمر العمل المعينة في طريقة عرض التقويم")
 
 ## <a name="create-a-work-order-job"></a>إنشاء وظيفة أمر عمل
 
@@ -90,7 +90,7 @@ ms.locfileid: "5837935"
 
 1. حدد **تم**.
 
-    ![الشاشة أضافه بند](media/am-mobile-03.png "الشاشة أضافه بند")
+    ![شاشة إضافة بند.](media/am-mobile-03.png "الشاشة أضافه بند")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>إضافة مرفق إلى وظيفة أمر العمل
@@ -112,7 +112,7 @@ ms.locfileid: "5837935"
 
 1. حدد **تم**.
 
-    ![عرض مرفقات وظيفة أمر العمل وأضافتها](media/am-mobile-04.png "عرض مرفقات وظيفة أمر العمل وأضافتها")
+    ![عرض مرفقات وظيفة أمر العمل وإضافتها.](media/am-mobile-04.png "عرض مرفقات وظيفة أمر العمل وأضافتها")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>عرض قائمة فحص الصيانة في وظيفة أمر العمل
 
@@ -129,7 +129,7 @@ ms.locfileid: "5837935"
 
 1. حدد زر السابق (**<**) للعودة إلى الصفحة السابقة.
 
-    ![قائمه اختيار الصيانة وتفاصيل البنود](media/am-mobile-05.png "قائمه اختيار الصيانة وتفاصيل البنود")
+    ![قائمه اختيار الصيانة وتفاصيل البنود.](media/am-mobile-05.png "قائمه اختيار الصيانة وتفاصيل البنود")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>عرض عدادات الأصول في وظيفة أمر العمل وتحديثها
 
@@ -146,7 +146,7 @@ ms.locfileid: "5837935"
 
 1. ادخل قيمة عداد جديدة ، وحدد **تم**.
 
-    ![عرض وتحديث عدادات الأصل](media/am-mobile-06.png "عرض وتحديث عدادات الأصل")
+    ![عرض وتحديث عدادات الأصل.](media/am-mobile-06.png "عرض وتحديث عدادات الأصل")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>تسجيل الاستهلاك في وظيفة أمر عمل
 
@@ -178,7 +178,7 @@ ms.locfileid: "5837935"
     1. أدخل **سعر التكلفة** لتسجيل المصروفات.
     1. حدد **تم**.
 
-    ![تحديث دفتر يوميه أمر عمل](media/am-mobile-07.png "تحديث دفتر يوميه أمر عمل")
+    ![تحديث دفتر يومية أمر عمل.](media/am-mobile-07.png "تحديث دفتر يوميه أمر عمل")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>تحديث حالة دورة الحياة على أمر عمل
 
@@ -194,7 +194,7 @@ ms.locfileid: "5837935"
 
 1. حدد **تم**.
 
-    ![تحديث حالة دورة الحياة على أمر عمل](media/am-mobile-08.png "تحديث حالة دورة الحياة على أمر عمل")
+    ![تحديث حالة دورة الحياة على أمر عمل.](media/am-mobile-08.png "تحديث حالة دورة الحياة على أمر عمل")
 
 ## <a name="create-a-maintenance-request"></a>إنشاء طلب صيانة
 
@@ -216,7 +216,7 @@ ms.locfileid: "5837935"
 
 1. حدد **تم**.
 
-    ![إنشاء طلب صيانة](media/am-mobile-09.png "إنشاء طلب صيانة")
+    ![إنشاء طلب صيانة.](media/am-mobile-09.png "إنشاء طلب صيانة")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>إضافة مرفق إلى طلب صيانة
 
@@ -236,7 +236,7 @@ ms.locfileid: "5837935"
 
 1. حدد **تم**.
 
-    ![إضافة مرفق إلى طلب صيانة](media/am-mobile-10.png "إضافة مرفق إلى طلب صيانة")
+    ![إضافة مرفق إلى طلب صيانة.](media/am-mobile-10.png "إضافة مرفق إلى طلب صيانة")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

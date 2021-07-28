@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058550"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360558"
 ---
 # <a name="payroll-integration-api-introduction"></a>‏‫مقدمة إلى واجهة API لتكامل كشف الرواتب
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058550"
 
 يصف هذا المستند واجهة API لتكامل كشف الرواتب في  Dynamics 365 Human Resources. تمكّن واجهة API عمليات التكامل الشاملة الانسيابية بين Human Resources وأنظمة كشف الرواتب الشريكة. تبدأ التجربة المتكاملة في Human Resources مع معلومات عن ملف تعريف الموظف والراتب والخصم ومعلومات المساهمة. عند توظيف أحد الموظفين وإدخال معلومات الدفع وملف التعريف المطلوبة في Human Resources، يسحب نظام كشف الرواتب هذه المعلومات لاستخدامها عند معالجة كشف الرواتب. ويتم أيضًا سحب التحديثات التي تتم على معلومات الموظف أو الدفع لاستخداما في عمليات تشغيل الدفع اللاحقة.
 
-![‏‫سير مهام تكامل كشف الرواتب](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![‏‫سير مهام تكامل كشف الرواتب.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 لتمكين التكامل، تتضمن Human Resources المكونات التالية:
 
@@ -60,7 +60,7 @@ ms.locfileid: "6058550"
 
 يوضح المخطط التالي العلاقات داخل API. تحتوي العديد من الأنواع على مفاتيح خارجية لكيانات أخرى موجودة مسبقا في الموارد البشرية لم يتم توضيحها هنا. يوفر هذا المستند معلومات حول الكيانات الخاصة بسيناريوهات تكامل كشف الرواتب. ومع ذلك، هناك العديد من الكيانات الأخرى في واجهة API الويب في Dataverse لـ Human Resources التي قد تكون أيضًا ذات صلة بعملية التكامل. يُشار إلى بعض هذه الكيانات في علاقات المفاتيح الخارجية أو خصائص التنقل.
 
-![نموذج بيانات واجهة API لتكامل كشف الرواتب](media/hr-admin-payroll-api-data-model.png)
+[![نموذج بيانات واجهة API لتكامل كشف الرواتب.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>موظف كشف الرواتب والكيانات ذات الصلة
 
@@ -68,7 +68,8 @@ ms.locfileid: "6058550"
 
 - [الموظف حسب كشف الرواتب](hr-admin-integration-payroll-api-payroll-employee.md)
 - [عنوان عامل كشف الرواتب](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [خطة التعويض الثابتة لكشف الرواتب](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [خطة التعويض الثابتة لكشف الرواتب](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [خطة التعويض المتغير لكشف الرواتب](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [وظيفة منصب كشف الرواتب](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [منصب كشف الرواتب](hr-admin-integration-payroll-api-payroll-position.md)
 

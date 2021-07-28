@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 530cb77ccbca1b6946b5a96cee4e6226ed3467e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838735"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361248"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>مشاركة تكوينات التقارير الإلكترونية (ER) في خدمات Regulatory Configuration Services (RCS)/المستودع العمومي مع مؤسسات خارجية.
 
@@ -47,7 +47,7 @@ ms.locfileid: "5838735"
 
 1. في مساحة عمل **التقارير الإلكترونية**، حدد **المستودعات** الخاصة بموفر التكوين.
 
-    ![موفرو التكوين](media/1_RCS_Repo_for_config_provider.JPG)
+    ![موفرو التكوين.](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. حدد **المستودع االعمومي** \> **فتح**.
 3. ابحث عن التكوين الذي تريد مشاركته. يمكن استخدام حقل عامل التصفية لتضييق البحث. إذا لم تتمكن من العثور على التكوين في المستودع العمومي، فاتبع الخطوات الواردة في [إنشاء إصدار جديد من تكوين التقارير الإلكترونية (ER) وتحميله](rcs-global-repo-upload.md).
@@ -61,11 +61,11 @@ ms.locfileid: "5838735"
 3. تحديد التكوين الذي تريد مشاركته
 4. في علامة التبويب السريعة **مشاركة مع**، حدد **المؤسسة**.
 
-    ![علامة التبويب السريعة مشاركة مع](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![علامة التبويب السريعة مشاركة مع.](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. في مربع الحوار، أدخل اسم المجال للمؤسسة الخارجية، ثم حدد **موافق**.
 
-    ![مربع الحوار "مشاركة إصدار التكوين مع مؤسسة خارجية"](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![مربع الحوار "مشاركة إصدار التكوين مع مؤسسة خارجية".](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 تتم مشاركة التكوين مع المؤسسة الخارجية ويكون متوفرا لهذه المؤسسة في المستودع العمومي. ومن هناك، يمكن استيرادها إلى مثيل المؤسسة لـ RCS أو إلى مثيلات تطبيقات Finance and Operations.
 

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937002"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352678"
 ---
 # <a name="clienteling-overview"></a>نظرة عامه حول العملاء
 
@@ -68,7 +70,7 @@ ms.locfileid: "5937002"
 
 1. في مساحة عمل **إدارة الميزات**، قم بتصفية الميزات بواسطة وحدة **البيع بالتجزئة والتجارة**.
 
-    ![قاعدة العملاء في قائمة الميزات في وحدة Commerce](./media/Enable_clienteling.png "قاعدة العملاء في قائمة ميزات وحدة البيع بالتجزئة والتجارة")
+    ![قاعدة العملاء في قائمة الميزات في وحدة Commerce.](./media/Enable_clienteling.png "قاعدة العملاء في قائمة ميزات وحدة البيع بالتجزئة والتجارة")
 
 2. قم بتشغيل ميزة **قاعدة العملاء** عن طريق تحديد **التمكين الآن**.
 3. في صفحة **معلمات التجارة**، في علامة التبويب **تسلسل الأرقام**، حدد صف **معرف دفتر العميل**. ثم في **كود التسلسل الرقمي**، حدد تسلسلاً رقميًا. سيستخدم النظام هذا التسلسل الرقمي لتعيين معرف إلى دفاتر العملاء.
@@ -83,7 +85,7 @@ ms.locfileid: "5937002"
 
 6. في صفحة **معلمات التجارة**، من علامة التبويب **قاعدة العملاء**، في حقل **مجموعة سمات دفتر العملاء**، حدد مجموعة السمات التي قمت بإنشائها للتو.
 
-    ![تحديد مجموعة سمات الدفتر](./media/Client%20book%20attributes.png "تحديد مجموعة سمات الدفتر")
+    ![تحديد مجموعة سمات الدفتر.](./media/Client%20book%20attributes.png "تحديد مجموعة سمات الدفتر")
 
 7. لالتقاط الأنشطة التي تحدث في نقطه البيع، حدد أنواع الأنشطة في صفحة **أنواع الأنشطة** (**البيع بالتجزئة والتجارة \> العملاء \> أنواع الأنشطة**).
 
@@ -95,7 +97,7 @@ ms.locfileid: "5937002"
 
 بعد الانتهاء من هذا الاجراء ، يمكن ان يقوم شركاء المبيعات بفتح صفحة تفاصيل العميل في نقطه البيع، وأضافه العملاء إلى دفتر العميل ، وعرض الأنشطة والملاحظات والتقاطها للعملاء، واستهداف العملاء باستخدام سمات دفتر العملاء لتصفيه دفتر العملاء. يبين الرسم التوضيحي التالي مثالاً على دفتر العملاء.
 
-![مثال لدفتر العميل](./media/client_book.png "مثال لدفتر العميل")
+![مثال لدفتر العميل.](./media/client_book.png "مثال لدفتر العميل")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>تشغيل تكامل Customer Insights مع Commerce
 

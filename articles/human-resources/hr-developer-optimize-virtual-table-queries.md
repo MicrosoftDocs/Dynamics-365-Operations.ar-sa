@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054898"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346264"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>تحسين استعلامات الجدول الظاهري لـ Dataverse
 
@@ -50,13 +50,13 @@ ms.locfileid: "6054898"
 - **انقضاء مهلة الاستعلام**: قد تنقضي مهلة الاستعلام مع ظهور رسالة الخطأ التالية: "تم الحصول على رمز مميز لاستدعاء Finance and Operations، ولكن Finance and Operations أرجع خطأ من النوع InternalServerError."
 - **خطأ غير متوقع**: قد يرجع الاستعلام نوع الخطأ 400 مع الرسالة التالية: "حدث خطأ غير متوقع."
 
-  ![نوع الخطأ 400 على HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![نوع الخطأ 400 على HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **التقييد‬**: قد يستخدم الاستعلام موارد الخادم بشكل زائد، ويصبح عرضة للتقييد. في هذه الحالة، يرجع الاستعلام رسالة الخطأ التالية: "تم الحصول على رمز مميز لاستدعاء Finance and Operations، ولكن Finance and Operations أرجع خطأ من النوع 429." لمزيد من المعلومات حول التقييد في Human Resources، راجع [الأسئلة المتداولة حول التقييد](./hr-admin-integration-throttling-faq.md).
 
-  ![نوع الخطأ 429 على HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![نوع الخطأ 429 على HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
-## <a name="resolution"></a>الدقة
+## <a name="resolution"></a>الحل
 
 ### <a name="limit-the-number-of-columns-included-in-your-data-query"></a>تقييد عدد الأعمدة المضمنة في استعلام البيانات
 
@@ -96,7 +96,7 @@ OData-Version: 4.0
 2. في نافذة **إحضار البيانات**، أدخل **Common Data Service** في مربع البحث، وحدد موصل **Common Data Service**، وحدد **اتصال**.
 3. في حقل **Url‏‎ الخادم** في نافذة Common Data Service، أدخل URI المؤسسة لبيئة Dataverse وحدد **موافق**.
   
-   ![أدخل URI لبيئة Dataverse.](./media/PowerBIDataverseURLSetup.png)
+   ![أدخل URI لبيئة Dataverse الخاصة بك.](./media/PowerBIDataverseURLSetup.png)
   
 4. في نافذة المتصفح، قم بتوسيع عقدة **الكيانات**.
 5. في مربع البحث، أدخل **mshr_hcmworkerbaseentity**، وحدد الكيان.
@@ -113,7 +113,7 @@ OData-Version: 4.0
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![تحديث الاستعلام في المحرر المتقدم في Power Query Editor](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![تحديث الاستعلام في المحرر المتقدم في Power Query Editor.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. حدد **تم**.
 
@@ -138,7 +138,7 @@ OData-Version: 4.0
 
 يمكنك استخدام [مراقبة Power Apps](/powerapps/maker/monitor-overview) للتأكد من تضمين فقط الأعمدة التي تحتاج إليها في الاستعلام للحصول على بيانات Power App. يمكنك عرض عنوان URL المكون لعمليات getRows للتأكد من أن الأعمدة التي حددتها لتطبيقك ستكون مثالية لاسترداد البيانات.
 
-![استخدم مراقبة Power Apps لتحليل عملية getData](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![استخدم مراقبة Power Apps لتحليل عملية getData.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>تصفية استعلام البيانات
 

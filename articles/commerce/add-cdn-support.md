@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936820"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346818"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>إضافة الدعم إلى شبكة تسليم المحتوى (CDN)
 
@@ -74,11 +74,11 @@ ms.locfileid: "5936820"
 
 يُبين الرسم التوضيحي التالي مربع الحوار **إضافة وعاء خلفي** في Azure Front Door Service مع إدخال اسم مضيف وعاء خلفي.
 
-![إضافة مربع حوار وعاء خلفي](./media/CDN_BackendPool.png)
+![إضافة مربع حوار وعاء خلفي.](./media/CDN_BackendPool.png)
 
 يُبين الرسم التوضيحي التالي مربع الحوار **إضافة وعاء خلفي** في Azure Front Door Service مع قيم موازنة الحمل الافتراضي.
 
-![إضافة مربع حوار وعاء خلفي يتبع](./media/CDN_BackendPool_2.png)
+![إضافة مربع حوار وعاء خلفي يتبع.](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > تأكد من تعطيل **فحوصات السلامة** عند إعداد خدمة Azure Front Door لـ Commerce.
@@ -107,13 +107,13 @@ ms.locfileid: "5936820"
 
 يُبين الرسم التوضيحي التالي مربع الحوار **تكوين CNAME** في Azure Front Door Service.
 
-![مربع حوار تكوين CNAME](./media/CNAME_Configuration.png)
+![مربع حوار تكوين CNAME.](./media/CNAME_Configuration.png)
 
 يُمكنك استخدام Azure Front Door Service لإدارة الشهادة، أو يُمكنك استخدام شهادتك الخاصة للمجال المخصص. 
 
 يُبين الرسم التوضيحي التالي مربع الحوار **HTTP للمجال المخصص** في Azure Front Door Service.
 
-![مربع حوار HTTP للمجال المخصص](./media/Custom_Domain_HTTPS.png)
+![مربع حوار HTTP للمجال المخصص.](./media/Custom_Domain_HTTPS.png)
 
 للحصول على إرشادات مفصلة حول إضافة مجال مخصص إلى Azure Front Door، راجع [إضافة مجال مخصص إلى Front Door](/azure/frontdoor/front-door-custom-domain).
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051727"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356550"
 ---
 # <a name="understand-date-and-time-fields"></a>فهم حقول التاريخ والوقت
 
@@ -36,13 +36,13 @@ ms.locfileid: "6051727"
 
 عند عرض البيانات في حقل **التاريخ والوقت**، يقوم Human Resources بضبط التاريخ والوقت استنادًا إلى المنطقة الزمنية للمستخدم المعينة في نموذج **خيارات المستخدم** (**عام > الإعداد > خيارات المستخدم**). قد لا تكون معلومات التاريخ والوقت التي تقوم بإدخالها في الحقل هي نفسها المعلومات التي تمت كتابتها في قاعدة البيانات.
 
-[![نموذج خيارات المستخدم](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![نموذج خيارات المستخدم.](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>فهم حقول التاريخ والوقت في النماذج 
 
 لا تكون بيانات **التاريخ والوقت** المعروضة على الشاشة هي نفس البيانات المخزنة في قاعدة البيانات إذا لم يتم تعيين المنطقة الزمنية للمستخدم إلى التوقيت العالمي المتفق عليه (UTC). يتم دائمًا تخزين البيانات في حقول **التاريخ والوقت** بالتوقيت العالمي UTC.
 
-[![نموذج العامل UTC](./media/worker-form.png)](./media/worker-form.png)
+[![التوقيت العالمي (UTC) لنموذج العامل.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>فهم حقول التاريخ والوقت في قاعدة البيانات 
 
@@ -52,7 +52,7 @@ ms.locfileid: "6051727"
   
 في المثال المبين أدناه، أصبح توظيف الموظف 000724 نشطًا في نفس الوقت بغض النظر عن المنطقة الزمنية. سيكون الموظف نشطًا في 04/30/2019 في المنطقة الزمنية GMT، وهو نفسه 05/01/2019 في المنطقة الزمنية GMT + 12:00. يشير كل منهما إلى نفس النقطة في الوقت وليس كتاريخ معين. 
 
-[![نموذج العامل GMT](./media/worker-form2.png)](./media/worker-form2.png)
+[![توقيت GMT لنموذج العامل.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>بيانات التاريخ والوقت في Data Management Framework، وExcel، وDataverse، وPower BI 
 
@@ -68,27 +68,27 @@ ms.locfileid: "6051727"
 
 **Human Resources مع منطقة زمنية للمستخدم معينة بالتوقيت العالمي (UTC)**
 
-[![تعيين نموذج العامل إلى UTC](./media/worker-form3.png)](./media/worker-form3.png)
+[![تعيين نموذج العامل إلى UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Human Resources مع منطقة زمنية للمستخدم معينة بالتوقيت العالمي GMT +12:00** 
 
-[![تعيين نموذج العامل إلى GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![تعيين نموذج العامل إلى GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel عبر OData**
 
-[![Excel عبر OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel عبر OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **التشغيل المرحلي في DMF**
 
-[![التشغيل المرحلي في DMF](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![التشغيل المرحلي في DMF.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **تصدير DMF**
 
-[![تصدير DMF](./media/DMFexport.png)](./media/DMFexport.png)
+[![تصدير DMF.](./media/DMFexport.png)](./media/DMFexport.png)
 
 **Excel عبر Dataverse**
 
-[![Excel عبر Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel عبر Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e963cf8cbae4651ad05126cdf465a386dea2d7a5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 052ac3291ea6d2984c25445b7165284dfdcfa2b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798719"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353074"
 ---
 # <a name="create-new-address-book"></a>إنشاء دفتر عناوين جديد
 
@@ -40,7 +40,7 @@ ms.locfileid: "5798719"
 
 توضح الصورة التالية إنشاء دفتر عناوين موظف لمتجر البيع بالتجزئة.
 
-![مثال لدفتر عناوين الموظف](media/address-books.png)
+![مثال لدفتر عناوين الموظف.](media/address-books.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

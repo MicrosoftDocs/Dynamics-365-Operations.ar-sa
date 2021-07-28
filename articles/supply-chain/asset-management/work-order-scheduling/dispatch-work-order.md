@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd3bea647698f76efa5831d0b8b34d3cb0ad479a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 344f015b5d2de45e3eca1eb8c0f3b1676da945d2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825532"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354146"
 ---
 # <a name="dispatch-work-order"></a>إرسال أمر العمل
 
@@ -52,7 +52,7 @@ ms.locfileid: "5825532"
 
 يعرض الشكل المبين أدناه مثالاً حول تحديدات الإرسال في مربع الحوار **جدولة أمر العمل**.
 
-![الشكل 1](media/04-work-order-scheduling.png)
+![الشكل 1.](media/04-work-order-scheduling.png)
 
 [!NOTE]
 إذا كنت ترغب في حذف الجدولة في أمر العمل، يتم إجراء ذلك عن طريق تحديد أمر العمل في **كافة أوامر العمل**، والنقر فوق **حذف الجدولة** في علامة التبويب **عام** . تذكر تحديث أمر العمل يدويًا حالة دورة حياة أمر العمل إذا قمت بحذف الجدولة.

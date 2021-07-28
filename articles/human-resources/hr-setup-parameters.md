@@ -2,7 +2,7 @@
 title: تكوين معلمات Human resources
 description: يوضح هذا الموضوع كيفية إعداد المحددات الخاصة بالشركة في Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052399"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356526"
 ---
 # <a name="configure-human-resources-parameters"></a>تكوين معلمات Human resources
 
@@ -30,7 +30,7 @@ ms.locfileid: "6052399"
 
 يتم استخدام صفحتين لتعيين معلمات الموارد البشرية. وبالنسبة للمعلمات التي تتم مشاركتها بين الشركات، تستخدم صفحة **المعلمات المشتركة للموارد البشرية**. وبالنسبة للمعلمات الخاصة بالشركة (أي الإعدادات التي يتم تطبيقها على شركة واحدة)، تستخدم **معلمات الموارد البشرية**.
 
-![انتقل إلى معلمات الموارد البشرية](./media/hr-employee-self-service-human-resources-parameters.png)
+![انتقل إلى معلمات الموارد البشرية.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 في صفحة **معلمات الموارد البشرية**، يتم تقسيم الإعدادات بين ست علامات تبويب:
 
@@ -51,14 +51,15 @@ ms.locfileid: "6052399"
 
 وتحدد الإعدادات الموجودة في علامة التبويب **عام** مظهر المعلومات المتعلقة بالغياب، والإصابة والمرض، والتعيينات الجديدة. كما تحدد الإعدادات الموجودة في علامة التبويب هذه بعض الإدخالات الافتراضية التي تظهر أثناء العمل. وبشكل خاص، تتيح لك علامة التبويب هذه:
 
-- تحديد لون لتطبيقه على فتح معاملات الغياب
-- تحديد ورقه الأنماط المراد استخدامها للتقارير
-- تمكين التكامل بين الدورات التدريبية وتسجيل الغياب
+- تحديد لون لتطبيقه على فتح معاملات الغياب.
+- تحديد ورقة الأنماط المراد استخدامها للتقارير.
+- تمكين التكامل بين الدورات التدريبية وتسجيل الغياب.
 - حدد كود الغياب المستخدم للتحكم في هذا التكامل.
 - قم بالإشارة إلى المدة المطلوبة للاحتفاظ بالحوادث الخاصة بالإصابة والمرض.
 - حدد رقم التعريف الافتراضي الذي يظهر عند توظيف عامل جديد.
+- حدد التاريخ المستخدم لحساب سنوات الخدمة. 
 
-![علامة التبويب عام](./media/hr-setup-parameters-general.png)
+![علامة التبويب عام.](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>التوظيف
 
@@ -76,7 +77,7 @@ ms.locfileid: "6052399"
 
 لمزيد من المعلومات حول التعويض، راجع [نظرة عامة حول خطط التعويض](hr-compensation-overview.md).
 
-![علامة التبويب التعويض](./media/hr-setup-parameters-compensation.png)
+![علامة التبويب التعويض.](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>التسلسلات الرقمية
 
@@ -96,13 +97,13 @@ ms.locfileid: "6052399"
 > [!NOTE]
 > لا يمكن أن يتجاوز عدد الساعات التي يتم العمل خلالها 1,250، ولا يمكن أن تتجاوز مدة العمل 12 شهرًا. وتكون هذه القيم القصوى وفقًا للقانون الفيدرالي في الولايات المتحدة.
 
-![علامة التبويب التسلسلات الرقمية](./media/hr-setup-parameters-number-sequences.png)
+![علامة التبويب التسلسلات الرقمية.](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 من علامة التبويب FMLA، يمكنك تعيين متطلبات أهلية FMLA وساعات استحقاق FMLA. لمزيد من المعلومات، راجع [تكوين معلمات الإجازة والغياب](hr-leave-and-absence-parameters.md).
 
-![علامة تبويب FMLA](./media/hr-setup-parameters-fmla.png)
+![علامة تبويب FMLA.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>خدمة الموظف الذاتية
 
@@ -115,7 +116,7 @@ ms.locfileid: "6052399"
 
 لمزيد من المعلومات حول إعداد الخدمة الذاتية للموظف، راجع [نظرة عامة حول الخدمة الذاتية للموظف والمدير](hr-employee-manager-self-service-overview.md).
 
-![علامة التبويب خدمة الموظف الذاتية](./media/hr-setup-parameters-employee-self-service.png)
+![علامة التبويب خدمة الموظف الذاتية.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>الخدمة الذاتية للمدير
 
@@ -129,13 +130,13 @@ ms.locfileid: "6052399"
 
 لمزيد من المعلومات حول إعداد الخدمة الذاتية للمدير، راجع [نظرة عامة حول الخدمة الذاتية للموظف والمدير](hr-employee-manager-self-service-overview.md).
 
-![علامة التبويب الخدمة الذاتية للمدير](./media/hr-setup-parameters-manager-self-service.png)
+![علامة التبويب الخدمة الذاتية للمدير.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>إدارة المزايا
 
 في علامة التبويب إدارة المزايا، يمكنك تكوين خيارات البريد الإلكتروني لإدارة المزايا. لمزيد من المعلومات حول إعداد إدارة المزايا واستخدامها، راجع [نظرة عامة حول إدارة المزايا](hr-benefits-management-overview.md).
 
-![علامة التبويب إدارة المزايا](./media/hr-setup-parameters-benefits-management.png)
+![علامة التبويب إدارة المزايا.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>الإجازة والغياب
 
@@ -145,7 +146,7 @@ ms.locfileid: "6052399"
 
 في علامة التبويب **طرق الدفع**، يمكنك تحديد طرق الدفع التي تدعمها مؤسستك. لمزيد من المعلومات حول تكوين التعويض، راجع [نظرة عامة حول خطط التعويض](hr-compensation-overview.md).
 
-![علامة التبويب طرق الدفع](./media/hr-setup-parameters-payment-methods.png)
+![علامة التبويب طرق الدفع.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

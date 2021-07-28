@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894138"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348130"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>تحديد مواقع مساحة تخزين مخصصة للمستندات المُنشأة
 
@@ -41,7 +41,7 @@ ms.locfileid: "5894138"
 
 لإنشاء المستندات التي تخطط لإضافة موقع تخزين مخصص لها، [استورد](er-download-configurations-global-repo.md) تكوين تنسيق التقارير الإلكترونية لـ **سجل نشاط الأصول الثابتة‬** في الطبولوجيا الحالية.
 
-![صفحة مستودع التكوين](./media/er-custom-storage-generated-files-import-format.png)
+![صفحة مستودع التكوين.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>تشغيل تقرير سجل نشاط الأصول الثابتة
 
@@ -52,7 +52,7 @@ ms.locfileid: "5894138"
 5. في حقل **تعيين التنسيق**، حدد **سجل نشاط الأصول الثابتة**.
 6. حدد **موافق**.
 
-![مربع حوار وقت التشغيل الخاص بتقرير سجل نشاط الأصول الثابتة](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![مربع حوار وقت التشغيل الخاص بتقرير سجل نشاط الأصول الثابتة.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 في Microsoft Excel، راجع المستند الصادر الذي تم إنشاؤه والمتوفر للتنزيل. ويعد هذا السلوك هو [السلوك الافتراضي](electronic-reporting-destinations.md#default-behavior) لتنسيق التقارير الإلكترونية الذي لم يتم تكوين أي [وجهات](electronic-reporting-destinations.md) له، ويتم تشغيله في وضع تفاعلي.
 

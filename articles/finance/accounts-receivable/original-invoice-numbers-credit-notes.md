@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897322"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347824"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>مراجع إلى الفواتير الأصلية في الإشعارات الدائنة
 
@@ -51,7 +51,7 @@ ms.locfileid: "5897322"
 1. انتقل إلى **الحسابات المدينة** \> **إعداد** \> **معلمات الحسابات المدينة**.
 2. في علامة التبويب **تحديثات**، في علامة التبويب السريعة **الفاتورة**، قم بتعيين خيار **تطبيق تخطيط فوترة الائتمان على تقارير المبيعات وفاتورة المشروع** على القمية **نعم**.
 
-![تكوين معلمات الحسابات المدينة](media/original-invoice-number-in-credit-note.jpg)
+![تكوين معلمات الحسابات المدينة.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>تعريف مراجع الفواتير الأصلية
 
@@ -65,7 +65,7 @@ ms.locfileid: "5897322"
 4. في جزء الإجراءات، في علامة التبويب **الفاتورة**، في المجموعة **الوظائف**، حدد **فوترة الائتمان**.
 5. أدخل المرجع إلى الفاتورة الأصلية، وحدد سبب التصحيح.
 
-![تعريف مرجع لفاتورة نص حر](media/reference-original-invoice-FTI.jpg)
+![تعريف مرجع لفاتورة نص حر.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>اشعار ائتمان العميل
 
@@ -74,7 +74,7 @@ ms.locfileid: "5897322"
 3. في جزء الإجراءات، في علامة التبويب **البيع**، في مجموعة **إشعار دائن**، حدد **إشعار دائن**.
 4. أدخل سبب التصحيح. يتم إنشاء المرجع إلى الفاتورة الاصلية تلقائيًا.
 
-![تعريف المرجع لأمر المبيعات](media/reference-original-invoice-SO.jpg)
+![تعريف المرجع لأمر المبيعات.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>إشعار الدائن للمشروع
 
@@ -84,13 +84,13 @@ ms.locfileid: "5897322"
 4. حدد **فوترة الائتمان**.
 5. أدخل سبب التصحيح. يتم إنشاء المرجع إلى الفاتورة الاصلية تلقائيًا.
 
-![تعريف مرجع لفاتورة مشروع](media/reference-original-invoice-project.jpg)
+![تعريف مرجع لفاتورة مشروع.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>طباعة إشعارات الدائن
 
 عند طباعة إشعارات دائنة نص حر وإشعارات دائمة للعميل وللمشروع، فإنها ستشتمل على مرجع إلى الفاتورة الأصلية وسبب التصحيح.
 
-![اشعار دائن مطبوع](media/credit-note-FTI.jpg)
+![إشعار دائن مطبوع.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > تأكد من تكوين التنسيقات القابلة للطباعة الخاصة بالمستندات بشكل صحيح، على افتراض أنه ستتم طباعة مراجع الفواتير الأصلية.
