@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049354"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344473"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>تعيين رموز وعناوين الخطوة لتطبيق الأجهزة المحمولة لـ Warehouse Management
 
@@ -25,7 +25,7 @@ ms.locfileid: "6049354"
 
 توضح التوضيحات التالية كيفية ظهور رموز وعناوين الخطوات في تطبيق الأجهزة المحمولة لـ Warehouse Management.
 
-![مثال على رمز خطوة وعنوان خطوة في تطبيق الأجهزة المحمولة لـ Warehouse Management](media/step-icon-example.png "مثال على رمز خطوة وعنوان خطوة في تطبيق الأجهزة المحمولة لـ Warehouse Management")
+![مثال على رمز خطوة وعنوان خطوة في تطبيق الأجهزة المحمولة لـ Warehouse Management.](media/step-icon-example.png "مثال على رمز خطوة وعنوان خطوة في تطبيق الأجهزة المحمولة لـ Warehouse Management")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>تشغيل هذه الميزة في النظام
 
@@ -350,13 +350,13 @@ ms.locfileid: "6049354"
 
 يبين الرسم التوضيحي التالي تدفق هذه المهمة.
 
-![الرسم التخطيطي لسير المهمة](media/step-icons-example-task-flow.png "الرسم التخطيطي لسير المهمة")
+![الرسم التخطيطي لسير المهمة.](media/step-icons-example-task-flow.png "الرسم التخطيطي لسير المهمة")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>إنشاء فئة خطوة لصفحة إدخال الحاوية
 
 تتيح صفحة إدخال الحاوية فحص العامل أو إدخال معرف الحاوية.
 
-![صفحة إدخال الحاوية](media/step-icons-example-container-input.png "صفحة إدخال الحاوية")
+![صفحة إدخال الحاوية.](media/step-icons-example-container-input.png "صفحة إدخال الحاوية")
 
 في الصفحة "إدخال الحاوية"، اسم عنصر التحكم الخاص بحقل الإدخال هو `ContainerId`. نظرًا لأن اسم عنصر التحكم هذا ليس في [قائمة معرفات الخطوات](#step-ids-classes)، فلن تجد خطوة موجودة تستند إليه. ولذلك، يجب عليك إنشاء فئة خطوة تمثل الخطوة. فيما يلي مثال على ذلك.
 
@@ -382,7 +382,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 تتيح صفحة إدخال الوزن للعامل إدخال وزن.
 
-![صفحة إدخال الوزن](media/step-icons-example-weight-input.png "صفحة إدخال الوزن")
+![صفحة إدخال الوزن.](media/step-icons-example-weight-input.png "صفحة إدخال الوزن")
 
 في الصفحة إدخال الوزن، اسم عنصر التحكم الخاص بحقل الإدخال هو `Weight`، والموجود في [قائمة معرفات الخطوات](#step-ids-classes). لذلك، إذا كان رمز وعنوان الخطوة اللذين يتم تعريفهما في الفئة `WHSMobileAppStepWeight` مقبولان بالنسبة إليك، فلن تحتاج إلى تغيير أي شيء لهذه الخطوة.
 

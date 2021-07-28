@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750704"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346560"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>إعداد التعيين أعمدة حالة أمر المبيعات
 
@@ -100,7 +100,7 @@ ms.locfileid: "5750704"
 1. في المستعرض، انتقل إلى `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. استبدل **\<test-name\>** بارتباط شركتك إلى Sales.
 2. في الصفحة المفتوحة، ابحث عن **organizationid**، ودوّن القيمة.
 
-    ![البحث عن organizationid](media/sales-map-orgid.png)
+    ![البحث عن organizationid.](media/sales-map-orgid.png)
 
 3. في Sales، افتح وحدة تحكم المستعرض، وقم بتشغيل البرنامج النصي التالي. استخدم القيمة **organizationid** من الخطوة 2.
 
@@ -119,7 +119,7 @@ ms.locfileid: "5750704"
     );
     ```
 
-    ![التعليمات البرمجية JavaScript في وحدة تحكم المستعرض](media/sales-map-script.png)
+    ![التعليمات البرمجية JavaScript في وحدة تحكم المستعرض.](media/sales-map-script.png)
 
 4. تأكد من تعيين **IsSOPIntegrationEnabled** إلى **صواب**. استخدم عنوان URL من الخطوة 1 للتدقيق في القيمة.
 
@@ -129,23 +129,23 @@ ms.locfileid: "5750704"
 
 1. في Sales، انتقل إلى **إعداد \> التخصيص \> تخصيص النظام**، حدد **جدول المستخدم**، ثم افتح  **النموذج \> المستخدم**.
 
-    ![فتح نموذج المستخدم](media/sales-map-user.png)
+    ![فتح نموذج المستخدم.](media/sales-map-user.png)
 
 2. في "مستكشف الحقول"، ابحث عن **وضع مستخدم التكامل**، ثم انقر نقرًا مزدوجًا فوقه لإضافته إلى النموذج. احفظ التغيير.
 
-    ![إضافة عمود وضع مستخدم التكامل إلى النموذج](media/sales-map-field-explorer.png)
+    ![إضافة عمود وضع مستخدم التكامل إلى النموذج.](media/sales-map-field-explorer.png)
 
 3. في Sales، انتقل إلى **الإعداد \> الأمان \> المستخدمون**، وقم بتغيير طريقة العرض من **المستخدمون الممكّنون** إلى **مستخدمو التطبيق**.
 
-    ![تغيير طريقة العرض من "المستخدمون الممكّنون" إلى "مستخدمو التطبيق"](media/sales-map-enabled-users.png)
+    ![تغيير طريقة العرض من "المستخدمون الممكّنون" إلى "مستخدمو التطبيق".](media/sales-map-enabled-users.png)
 
 4. حدد الإدخالين لـ **DualWrite IntegrationUser**.
 
-    ![قائمة مستخدمي التطبيق](media/sales-map-user-mode.png)
+    ![قائمة مستخدمي التطبيق.](media/sales-map-user-mode.png)
 
 5. قم بتغيير قيمة عمود **وضع مستخدم التكامل** إلى **نعم**.
 
-    ![تغيير قيمة عمود وضع مستخدم التكامل](media/sales-map-user-mode-yes.png)
+    ![تغيير قيمة عمود وضع مستخدم التكامل.](media/sales-map-user-mode-yes.png)
 
 أصبحت الآن أوامر مبيعاتك معيّنة.
 

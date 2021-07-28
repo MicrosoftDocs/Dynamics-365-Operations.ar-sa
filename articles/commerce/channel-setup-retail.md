@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937524"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346048"
 ---
 # <a name="set-up-a-retail-channel"></a>إعداد قناة البيع بالتجزئة
 
@@ -50,11 +50,11 @@ ms.locfileid: "5937524"
 
 توضح الصورة التالية إنشاء قناة بيع بالتجزئة جديدة.
 
-![قناة بيع بالتجزئة جديدة](media/channel-setup-retail-1.png)
+![قناة بيع بالتجزئة جديدة.](media/channel-setup-retail-1.png)
 
 تعرض الصورة التالية مثالاً لقناة بيع بالتجزئة.
 
-![مثال قناة البيع بالتجزئة](media/channel-setup-retail-2.png)
+![مثال قناة البيع بالتجزئة.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>إعدادات أخرى
 
@@ -64,7 +64,7 @@ ms.locfileid: "5937524"
 
 تعرض الصورة التالية مثالاً لتكوبن إعداد قناة بيع بالتجزئة.
 
-![مثال عن تكوين قناة البيع بالتجزئة](media/channel-setup-retail-3.png)
+![مثال عن تكوين قناة البيع بالتجزئة.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>إعداد إضافي للقناة
 
@@ -74,7 +74,7 @@ ms.locfileid: "5937524"
 
 تعرض الصورة التالية خيارات إضافية لإعداد قناة البيع بالتجزئة على علامة تبويب **الإعداد**.
 
-![إعداد القناة](media/channel-setup-retail-4.png)
+![إعداد القناة.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>إعداد طرق الدفع
 
@@ -89,7 +89,7 @@ ms.locfileid: "5937524"
 
 تعرض الصورة التالية مثالاً عن طريقة الدفع النقدي.
 
-![أمثلة عن طرق الدفع](media/channel-setup-retail-5.png)
+![أمثلة عن طرق الدفع.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>إعداد إقرار النقدية
 
@@ -98,7 +98,7 @@ ms.locfileid: "5937524"
 
 تعرض الصورة التالية مثالاً عن إقرار النقدية‬.
 
-![إعداد الإقرارات النقدية](media/channel-setup-retail-6.png)
+![إعداد الإقرارات النقدية.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>إعداد أوضاع التسليم
 
@@ -112,7 +112,7 @@ ms.locfileid: "5937524"
 
 تعرض الصورة التالية مثالاً لوضع التسليم.
 
-![إعداد أوضاع التسليم](media/channel-setup-retail-7.png)
+![إعداد أوضاع التسليم.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>إعداد حساب الإيرادات/المصروفات
 
@@ -129,7 +129,7 @@ ms.locfileid: "5937524"
 
 تعرض الصورة التالية مثالاً لحساب الإيرادات/المصروفات.
 
-![إعداد حسابات الإيرادات/المصروفات](media/channel-setup-retail-8.png)
+![إعداد حسابات الإيرادات/المصروفات.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>إعداد الأقسام
 
@@ -155,7 +155,7 @@ ms.locfileid: "5937524"
 
 تعرض الصورة التالية مثالاً لإعداد تعيين مجموعة تنفيذ.
 
-![إعداد تعيينات مجموعة تنفيذ](media/channel-setup-retail-9.png)
+![إعداد تعيينات مجموعة تنفيذ.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>إعداد الخزائن
 

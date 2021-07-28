@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753590"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348034"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>منع عناصر تحكم محتوى Word في التقارير التي تم إنشاؤها
 
@@ -63,7 +63,7 @@ ms.locfileid: "5753590"
     > [!NOTE]
     > يتم وضع علامة على عنصر تحكم المحتوي المتكرر بواسطة مفتاح **SummaryLines** الذي يتطابق مع الحقل الخاص بجزء XML المخصص الذي تم تعيينه إليه.
 
-    ![تخطيط قالب Word](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![تخطيط قالب Word.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>تحديد تكوين التقارير الإلكترونية الموجود
 
@@ -98,7 +98,7 @@ ms.locfileid: "5753590"
 7. حدد **موافق**.
 8. في مربع الحوار **معلمات التقرير الإلكتروني** ، حدد **موافق**، وقم بتحليل المخرجات التي تم إنشاؤها.
 
-    ![المدفوعات للمعالجة في صفحة مدفوعات المورد](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![المدفوعات للمعالجة في صفحة مدفوعات المورد.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     يتم تقديم الإخراج بتنسيق Word ويحتوي على قسم الملخص.
 
@@ -149,7 +149,7 @@ ms.locfileid: "5753590"
 
 9. حدد **حفظ** لحفظ تغييراتك على التنسيق القابل للتحرير.
 
-    ![الإخراج الناتج بتنسيق Word](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![الإخراج الناتج بتنسيق Word.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>تشغيل التنسيق المعدل لإنشاء مخرجات Word
 
@@ -163,7 +163,7 @@ ms.locfileid: "5753590"
 8. في مربع الحوار **معلمات التقارير الإلكترونية**، في حقل **منع قسم الملخص**، حدد **نعم**.
 9. حدد **موافق**، وقم بتحليل المخرجات التي تم إنشاؤها.
 
-    ![الإخراج الناتج بتنسيق Word](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![الإخراج الناتج بتنسيق Word.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     لاحظ أن الإخراج لا يحتوي على قسم الملخص، لأنه تم منعه.
 

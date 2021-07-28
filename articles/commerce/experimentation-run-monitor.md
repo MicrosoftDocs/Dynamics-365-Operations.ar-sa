@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4afc19ed103f204fec61ab20b88f767ad5f05b38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1af5676511c16d0492a7c3a61b7bf3a88b43758a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792525"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349246"
 ---
 # <a name="run-and-monitor-an-experiment"></a>تشغيل تجربة ومراقبتها
 
@@ -28,7 +28,7 @@ ms.locfileid: "5792525"
 
 يوضح الرسم التخطيطي التالي كافة الخطوات المتضمنة في اعداد وتشغيل تجربه علي أحد مواقع التجارة الالكترونيه في Dynamics 365 Commerce. وتتم تغطيه الخطوات الاضافيه في موضوعات منفصلة.
 
-[![رحلة مستخدم التجربة - التشغيل والمراقبة](./media/experimentation_run_monitor.svg)](./media/experimentation_run_monitor.svg#lightbox)
+[ ![رحلة مستخدم التجربة - التشغيل والمراقبة.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 بعد نشر التباينات الخاصة بك، يتم إكمال كل الخطوات التي تحتاجها للقيام بها في Commerce لتشغيل التجربة الخاصة بك. الخطوة التالية تحدد اي تباين سيتم إظهاره لكل مستخدم عند طلب الصفحة. تقوم الخدمة التابعة لجهة أخرى باجراء التحديد، ولكن أولا يجب عليك تنشيط التجربة داخل الخدمة. ونظرا لان خطوات تنشيط التجربة تختلف عن الخدمة إلى الخدمة، ستحتاج إلى اتباع الإرشادات الموجودة في الخدمة أو الموفر. إذا لم يتم تنشيط التجربة، سيري المستخدمون فقط الإصدار الافتراضي من الصفحة (لن يتم عرض أية تباينات).
 

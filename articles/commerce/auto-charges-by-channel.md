@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799892"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349688"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>تمكين التكاليف التلقائية وتكوينها حسب القناة
 
@@ -66,7 +66,7 @@ ms.locfileid: "5799892"
 1. في جزء الإجراءات، حدد **تشغيل الآن**.
 1. كرر الخطوتين السابقتين لتشغيل الوظيفتين **1070** (**تكوين القناة**) و **1110** (**التكوين العمومي**).
 
-![تكوين غرض التدرج الهرمي لمؤسسة للتكلفة التلقائية للبيع بالتجزئة](media/Auto-charges-org-hierarchy-purpose.png)
+![تكوين غرض التدرج الهرمي لمؤسسة للتكلفة التلقائية للبيع بالتجزئة.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>تحديد التكاليف التلقائية حسب القناة
 
@@ -86,7 +86,7 @@ ms.locfileid: "5799892"
 1. في جزء الإجراءات، حدد **تشغيل الآن**.
 1. كرر الخطوتين السابقتين لتشغيل الوظيفتين **1070** (**تكوين القناة**) و **1110** (**التكوين العمومي**).
     
-![التكاليف التلقائية المحددة حسب القناة](media/Auto-charges-line-charge-by-channel.png)
+![التكاليف التلقائية المحددة حسب القناة.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>سيناريو كمثال
 
@@ -94,7 +94,7 @@ ms.locfileid: "5799892"
 
 تقوم المؤسسة بتحديد كود التكاليف المسماة **إعادة التدوير**، كما هو مبين في الرسم التوضيحي التالي.
 
-![كود تكاليف إعادة التدوير](media/Auto-charges-charge-code.png)
+![كود تكاليف إعادة التدوير.](media/Auto-charges-charge-code.png)
 
 يتم إنشاء تكلفة تلقائية على مستوى البند. لها التكوين التالي:
 
@@ -112,13 +112,13 @@ ms.locfileid: "5799892"
 - يتم تعيين‏‎ حقل **الفئة** إلى **ثابت**.
 - ويتم تعيين حقل **التكاليف** إلى **6.25$**.
 
-![تكوين التكلفة التلقائية على مستوى البند وبند التكاليف التلقائية](media/Auto-charges-recyclingfee-line-fee.png)
+![تكوين التكلفة التلقائية على مستوى البند وبند التكاليف التلقائية.](media/Auto-charges-recyclingfee-line-fee.png)
 
 في تطبيق نقطه البيع POS، يتم إنشاء أمر مبيعات في قناة متجر **سان فرانسيسكو**. يعرض بند **التكاليف** رسوم إعادة التدوير **$6.25**.
 
 ومن خلال تحديد **خيارات الحركة \> التكاليف \> إدارة التكاليف** في تطبيق POS نقطه البيع، يمكنك عرض كود التكاليف ووصف رسوم إعادة التدوير.
 
-![رسوم إعادة التدوير في تطبيق نقطة البيع POS](media/pos-auto-charges-recyclingfee-line-fee.png)
+![رسوم إعادة التدوير في تطبيق نقطة البيع POS.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

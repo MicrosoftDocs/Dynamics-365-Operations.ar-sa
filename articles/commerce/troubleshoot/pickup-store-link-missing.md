@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f692d73bf1755422e9bfc8314c1156e043ccf761
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3dd4eb576f234e4d75c08b0b5e2fe967500c8c93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020794"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347286"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>لا يظهر خيار "انتقاء هذا" في صفحات سلة التسوق أو تفاصيل المنتج
 
@@ -34,9 +34,9 @@ ms.locfileid: "6020794"
 
 يبين الرسم التوضيحي التالي مثالا للصفحة التي تتضمن زر **انتقاء هذا**.
 
-![زر انتهاء هذا](media/pickup-button-missing.jpg)
+![زر انتقاء هذا.](media/pickup-button-missing.jpg)
 
-## <a name="resolution"></a>الدقة
+## <a name="resolution"></a>الحل
 
 ### <a name="enable-the-bopis-extension-in-commerce-site-builder"></a>تمكين ملحق BOPIS في منشئ مواقع Commerce
 

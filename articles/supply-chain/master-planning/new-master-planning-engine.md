@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907681"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348747"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>الترحيل إلى تحسين التخطيط للتخطيط الرئيسي.
 
@@ -65,7 +65,7 @@ ms.locfileid: "5907681"
 
 يلخص المخطط الانسيابي التالي المعلومات المتوفرة في هذا الموضوع بحيث يمكنك بسرعة معرفة ما إذا كان يجب طلب استثناء أم لا. إذا كنت بحاجه إلى طلب استثناء، فالرجاء ملء [استبيان ترحيل تحسين التخطيط واستثناؤه](https://go.microsoft.com/fwlink/?linkid=2144962) وإرساله؟
 
-![مخطط انسيابي للاستثناء](media/exception-diagram.png "مخطط انسيابي للاستثناء")
+![مخطط انسيابي للاستثناء.](media/exception-diagram.png "مخطط انسيابي للاستثناء")
 
 > [!NOTE]
 > يمكنك طلب استثناء فقط لحسابات المستأجرين التي تتضمن حاليًا، أو تلك التي ستتضمن، بيئة إنتاج، ليس فقط للمستأجرين الذين لديهم بيئة اختبار معزولة فقط. إذا كنت بحاجه إلى تعطيل خطا استثناء تحسين أداء التخطيط علي بنيه أساسيه كبيئة الحماية (IaaS) الخاصة بالخدمة ، قم بتشغيل استعلام SQL المتوفر في [بيئات تحديد الصلاحيات](#faq-sandbox).

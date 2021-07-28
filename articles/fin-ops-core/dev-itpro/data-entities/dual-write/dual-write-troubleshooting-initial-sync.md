@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941045"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350802"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
 
@@ -38,7 +38,7 @@ ms.locfileid: "5941045"
 
 بعد تمكين قوالب التعيين، يجب أن تكون حالة المخططات **قيد التشغيل**. إذا لم تكن الحالة **قيد التشغيل**، حدثت أخطاء أثناء المزامنة الأولية. لعرض الأخطاء، حدد علامة التبويب **تفاصيل المزامنة الأولية** في صفحة **الكتابة الثنائية**.
 
-![خطأ في علامة التبويب تفاصيل المزامنة الأولية](media/initial_sync_status.png)
+![خطأ في علامة التبويب تفاصيل المزامنة الأولية.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>لا يمكنك إكمال المزامنة الأولية: 400 طلب غير صحيح
 
@@ -85,7 +85,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 1. قم بتسجيل الدخول إلى تطبيق Finance and Operations.
 2. في صفحة **تطبيقات Azure Active Directory**، احذف عميل **DtAppID**، ثم أضفه مرة أخرى.
 
-![عميل DtAppID في قائمة تطبيقات Azure AD](media/aad_applications.png)
+![عميل DtAppID في قائمة تطبيقات Azure AD.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>حالات فشل المراجع الذاتية أو المراجع الدائرية أثناء المزامنة الأولية
 
@@ -115,11 +115,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. ابحث عن **primarycontactperson** للعثور على العمود المصدر **PrimaryContactPersonId**.
     3. حدد **الإجراءات**، ثم حدد **حذف**.
 
-        ![حذف العمود PrimaryContactPersonId](media/vend_selfref3.png)
+        ![حذف العمود PrimaryContactPersonId.](media/vend_selfref3.png)
 
     4. كرر هذه الخطوات لحذف العمود **InvoiceVendorAccountNumber**.
 
-        ![حذف العمود InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![حذف العمود InvoiceVendorAccountNumber.](media/vend-selfref4.png)
 
     5. احفظ التغييرات الخاصة بك للتعيين.
 
@@ -129,11 +129,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. حدد الجدول **المورّدون V2**.
     3. في جزء الإجراء، حدد **الخيارات**، ثم حدد **تعقب التغييرات**.
 
-        ![تحديد خيار تعقب التغييرات](media/selfref_options.png)
+        ![تحديد خيار تعقب التغييرات.](media/selfref_options.png)
 
     4. حدد **تعطيل تعقب التغييرات**.
 
-        ![تحديد تعطيل تعقب التغييرات](media/selfref_tracking.png)
+        ![تحديد تعطيل تعقب التغييرات.](media/selfref_tracking.png)
 
 3. قم بتشغيل المزامنة الأولية لتعيين **الموردون V2 (msdyn\_الموردون)**. يجب أن تنجح المزامنة الأولية بدون حدوث أية أخطاء.
 4. قم بتشغيل المزامنة الأولية لتعيين **جهات اتصال CDS V2 (جهات الاتصال)**. يجب مزامنة هذا التعيين إذا كنت ترغب في مزامنة عمود جهة الاتصال الرئيسية أو جدول الموردين، لأنه يجب إجراء مزامنة أولية لصفوف جهات الاتصال.
@@ -162,11 +162,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. ابحث عن **contactperson** للعثور على العمود المصدر **ContactPersonID**.
     3. حدد **الإجراءات**، ثم حدد **حذف**.
 
-        ![حذف العمود ContactPersonID](media/cust_selfref3.png)
+        ![حذف العمود ContactPersonID.](media/cust_selfref3.png)
 
     4. كرر هذه الخطوات لحذف العمود **‎InvoiceAccount**.
 
-        ![حذف العمود InvoiceAccount](media/cust_selfref4.png)
+        ![حذف العمود InvoiceAccount.](media/cust_selfref4.png)
 
     5. احفظ التغييرات الخاصة بك للتعيين.
 
@@ -176,11 +176,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. حدد الجدول **العملاء V3**.
     3. في جزء الإجراء، حدد **الخيارات**، ثم حدد **تعقب التغييرات**.
 
-        ![تحديد خيار تعقب التغييرات](media/selfref_options.png)
+        ![تحديد خيار تعقب التغييرات.](media/selfref_options.png)
 
     4. حدد **تعطيل تعقب التغييرات**.
 
-        ![تحديد تعطيل تعقب التغييرات](media/selfref_tracking.png)
+        ![تحديد تعطيل تعقب التغييرات.](media/selfref_tracking.png)
 
 3. قم بتشغيل المزامنة الأولية لتعيين **العملاء V3 (الحسابات)**. يجب أن تنجح المزامنة الأولية بدون حدوث أية أخطاء.
 4. قم بتشغيل المزامنة الأولية لتعيين **جهات اتصال CDS V2 (جهات الاتصال)**.
@@ -196,7 +196,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
         يوضح الرسم التوضيحي التالي مشروعًا يقوم بتحديث **CustomerAccount** و **ContactPersonId**.
 
-        ![مشروع تكامل البيانات لتحديث CustomerAccount وCustomerAccount](media/cust_selfref6.png)
+        ![مشروع تكامل البيانات لتحديث CustomerAccount وCustomerAccount.](media/cust_selfref6.png)
 
     2. أضف معايير الشركة في عامل التصفية على جانب Dataverse، لذلك فإن الصفوف التي تطابق معايير التصفية هي وحدها التي سيتم تحديثها في التطبيق Finance and Operations. لإضافة عامل تصفية، حدد زر عامل التصفية. ثم في مربع الحوار **تحرير الاستعلام**، فإنه يمكنك إضافة استعلام عامل تصفية مثل **\_msdyn\_company\_value eq '\<guid\>'**. 
 
@@ -204,7 +204,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
         إذا لم تقم بإدخال استعلام عامل تصفية للقيمة **\_msdyn\_company\_value**، فستتم مزامنة جميع الصفوف.
 
-        ![إضافة استعلام عامل تصفية](media/cust_selfref7.png)
+        ![إضافة استعلام عامل تصفية.](media/cust_selfref7.png)
 
     يتم الآن إكمال المزامنة الأولية للصفوف.
 

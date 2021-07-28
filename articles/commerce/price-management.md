@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794153"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352218"
 ---
 # <a name="retail-sales-price-management"></a>إدارة أسعار مبيعات البيع بالتجزئة
 
@@ -46,7 +46,7 @@ ms.locfileid: "5794153"
 
 يبين الرسم التوضيحي التالي كيفية استخدام مجموعات الأسعار. في هذا الرسم التوضيحي، لاحظ أن "مجموعة الأسعار" تحتل حرفيًا مركز دارة الأسعار والخصومات. كيانات التجارة التي يمكنك استخدامها لإدارة الأسعار والخصومات التفاضيلية موجودة على الجانب الأيسر، وتوجد سجلات الأسعار والخصومات الفعلية على الجانب الأيسر.
 
-![مجموعات الأسعار](./media/PriceGroups.png "مجموعات الأسعار")
+![مجموعات الأسعار.](./media/PriceGroups.png "مجموعات الأسعار")
 
 عندما تقوم بإنشاء مجموعات الأسعار، يجب ألا تستخدم مجموعة أسعار واحدة للعديد من أنواع كيانات التجارة. وإلا، فقد يكون من الصعب تحديد لماذا يتم تطبيق سعر أو خصم معين على حركة.
 

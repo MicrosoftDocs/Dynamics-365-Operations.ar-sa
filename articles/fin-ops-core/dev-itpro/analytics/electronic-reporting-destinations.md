@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085490"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351142"
 ---
 # <a name="electronic-reporting-er-destinations"></a>وجهات إعداد التقارير الإلكترونية (ER)‬
 
@@ -62,7 +62,7 @@ ms.locfileid: "6085490"
 > [!NOTE]
 > يعلمك وصف الوظيفة بتشغيل تعيين تنسيق ER. ويحتوي أيضًا على اسم مكون ER الذي تم تنفيذه.
 
-[![تشغيل تنسيق ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![تشغيل تنسيق ER.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 يمكنك العثور على معلومات حول هذه الوظيفة في عده أماكن:
 
@@ -74,17 +74,17 @@ ms.locfileid: "6085490"
 
 - في صفحة **وظائف إعداد التقارير الإلكترونية** ، حدد **إظهار الملفات** لعرض قائمه بآيه أخطاء وتحذيرات تم إنشاؤها اثناء تنفيذ الوظيفة.
 
-    [![مراجعة قائمة وظائف ER](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![مراجعة قائمة وظائف ER.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>سلوك مكون من قبل المستخدم
 
 في صفحة **وجهة إعداد التقارير الإلكترونية**، يمكنك تجاوز السلوك الافتراضي لتكوين. لا تظهر التكوينات المستوردة في هذه الصفحة حتى تحدد **جديد**، ثم تحدد تكوينًا لإنشاء إعدادات وجهة له في حقل **المرجع**.
 
-[![تحديد تكوين في حقل المرجع](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![تحديد تكوين في حقل المرجع.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 وبعد إنشاء مرجع، يمكنك إنشاء وجهه ملف لكل مكون مخرجات **مجلد** أو **ملف** لتنسيق إعداد التقارير الإلكترونية المشار إليه.
 
-[![إنشاء وجهة الملف](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![إنشاء وجهة الملف.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 ويمكنك عندئذٍ تمكين الوجهات الفردية وتعطيلها لوجهة الملف في مربع الحوار **إعدادات الوجهة‬**. يُستخدم الزر **إعدادات** الزر للتحكم في كافة الوجهات لوجهة ملف محدد. في مربع الحوار **إعدادات الوجهة**، يمكنك التحكم في كل وجهة على حدة بإعداد الخيار **ممكّن‬** لها.
 
@@ -92,7 +92,7 @@ ms.locfileid: "6085490"
 
 على سبيل المثال، يمكنك استخدام هذه الإمكانية لتكوين وجهات الملف لمكون ملف يتم استخدامه لإنشاء مستند صادر بتنسيق Excel. يمكن تكوين وجهة واحدة ([الأرشيف](er-destination-type-archive.md)) لتخزين ملف excel الأصلي في أرشيف وظائف إعداد التقارير الإلكترونية، ويمكن تكوين وجهة أخرى ([البريد الإلكتروني](er-destination-type-email.md))[ لتحويل](#OutputConversionToPDF) ملف excel إلى تنسيق pdf وإرسال ملف PDF بالبريد الإلكتروني في وقت واحد.
 
-[![تكوين وجهات متعددة لعنصر بتنسيق واحد](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![تكوين وجهات متعددة لعنصر بتنسيق واحد.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 عند تشغيل التنسيق الخاص ب ER ، يتم دوما تشغيل كافة الوجات التي تم تكوينها لمكونات التنسيق. بالاضافه إلى ذلك، في **إصدار ال10.0.17 المالي** والإصدارات التالية، تم تحسين وظيفة وجات ER ويسمح لك الآن بتكوين مجموعات مختلفة من الوجهات لأحد التنسيقات المفردة ل ER. يقوم هذا التكوين بتمييز كل مجموعه تم تكوينها لاجراء مستخدم معين. تم [توسيع](er-apis-app10-0-17.md) واجهه برمجه التطبيقات ل ER حتى يمكن توفير اجراء يقوم المستخدم باجراءه عن طريق تشغيل أحد تنسيقات ER. يتم تمرير كود الاجراء المتوفر إلى وجهات ER. يمكنك تشغيل وجهات مختلفة لتنسيق ER، وذلك وفقا لكود الاجراء المتوفر. لمزيد من المعلومات، راجع [تكوين وجهات ER المعتمدة علي الاجراء](er-action-dependent-destinations.md).
 
@@ -116,11 +116,11 @@ ms.locfileid: "6085490"
 
 عندما تقوم بتكوين وجهات ملف لتنسيق محدد، فإنك تكوِّنها للتنسيق بالكامل.
 
-[![ارتباط التكوين](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![ارتباط التكوين.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 وفي الوقت نفسه، قد يكون لديك [إصدارات](general-electronic-reporting.md#component-versioning) متعددة من التنسيق الذي تم استيراده إلى مثيل Finance الحالي. يمكنك عرضها بتحديد ارتباط **التكوين** الذي يتم عرضه عند تحديد حقل **المرجع**.
 
-[![إصدارات التكوين](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![إصدارات التكوين.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 بصورة افتراضية، لا يتم تطبيق الوجهات المكونة إلا عند تشغيل إصدار تنسيق إعداد التقارير الإلكترونية بالحالة **مكتمل** أو **مشترك**. ولكن يجب في بعض الأحيان استخدام الوجهات المكونة عند تشغيل إصدار المسودة لتنسيق إعداد التقارير الإلكترونية. على سبيل المثال تعدِّل إصدار مسودة من تنسيق لديك، وترغب في استخدام وجهات مكونة لاختبار كيفية تسليم المخرجات التي يتم إنشاؤها. اتبع الخطوات التالية لتطبيق الوجهات لتنسيق إعداد التقارير الإلكترونية عند تشغيل إصدار المسودة.
 
@@ -128,7 +128,7 @@ ms.locfileid: "6085490"
 2. في صفحة **التكوينات**، في جزء الإجراءات، في علامة التبويب **التكوينات**، في مجموعة **الإعدادات المتقدمة**، حدد **معلمات المستخدمين**.
 3. عيِّن الخيار **استخدام الوجهات للحالة مسودة** على **نعم**.
 
-[![خيار استخدام الوجهات للحالة مسودة](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![خيار استخدام الوجهات للحالة مسودة.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 لاستخدام إصدار المسودة لتنسيق إعداد التقارير الإلكترونية، يجب وضع علامة على تنسيق إعداد التقارير الإلكترونية وفقًا لذلك.
 
@@ -136,11 +136,11 @@ ms.locfileid: "6085490"
 2. في صفحة **التكوينات**، في جزء الإجراءات، في علامة التبويب **التكوينات**، في مجموعة **الإعدادات المتقدمة**، حدد **معلمات المستخدمين**.
 3. عيّن الخيار **تشغيل الإعداد** على **نعم**.
 
-[![خيار تشغيل الإعداد](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![خيار تشغيل الإعداد.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 بعد إكتمال هذا الإعداد، يصبح الخيار **تشغيل المسودة** متوفرًا لتنسيقات إعداد التقارير الإلكترونية التي تقوم بتعديلها. عيِّن هذا الخيار على **نعم** لبدء استخدام إصدار المسودة من التنسيق عند تشغيل التنسيق.
 
-[![خيار تشغيل المسودة](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![خيار تشغيل المسودة.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>معالجة فشل الوجهة
 
@@ -148,7 +148,7 @@ ms.locfileid: "6085490"
 
 على سبيل المثال، تقوم بتكوين معالجة دفع مورد حتى يتم تشغيل تنسيق إعداد التقارير الإلكترونية لـ **تحويل ائتمان‬ ISO20022** لإنشاء ملف الدفع والمستندات المكملة (على سبيل المثال، خطاب الإرفاق وتقرير التحكم). في حالة ضرورة معالجة الدفع بنجاح فقط في حالة تسليم خطاب الإرفاق بالبريد الإلكتروني، يجب تحديد خانة الاختيار **إيقاف المعالجة عند الفشل** لمكون **CoveringLetter** في وجهه الملف المناسبة، كما هو موضح في الرسم التوضيحي التالي. في هذه الحالة، سيتم تغيير حالة الدفع المحددة للمعالجة من **لا شيء** إلى **تم الإرسال** فقط عند قبول خطاب الإرفاق الذي تم إنشاؤه للتسليم بنجاح بواسطة موفر بريد إلكتروني تم تكوينه في مثيل Finance.
 
-[![فشل معالجة تكوين العملية لوجهة الملف](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![فشل معالجة تكوين العملية لوجهة الملف.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 في حالة مسح خانة الاختيار **إيقاف المعالجة عند الفشل** لمكون **CoveringLetter** في الوجهة، سيتم اعتبار إتمام الدفع بنجاح حتى لو لم يتم تسليم خطاب الإرفاق عبر البريد الإلكتروني بنجاح. سيتم تغيير حالة الدفع من **لا شيء** إلى **تم الإرسال** حتى في حالة تعذر إرسال خطاب الإرفاق لفقدان عنوان البريد الكتروني للمستلم أو المرسل أو عدم صحته على سبيل المثال.
 
@@ -160,7 +160,7 @@ ms.locfileid: "6085490"
 
 لإتاحة خيار التحويل إلى PDF في مثيل Finance الحالي، افتح مساحة عمل **إدارة الميزات**، وشغل ميزة **تحويل مستندات إعداد التقارير الإلكترونية الصادرة من تنسيقات Microsoft Office إلى PDF**.
 
-[![ميزة تشغيل تحويل المستندات الصادرة إلى PDF في إدارة الميزات](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![ميزة تشغيل تحويل المستندات الصادرة إلى PDF في إدارة الميزات.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>إمكانية التطبيق
 
@@ -185,13 +185,13 @@ ms.locfileid: "6085490"
 
 لتشغيل التحويل إلى PDF لوجهة ملف، حدد خانة الاختيار **التحويل إلى PDF**.
 
-[![تشغيل التحويل إلى PDF لوجهة ملف](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![تشغيل التحويل إلى PDF لوجهة ملف.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">حدد اتجاه صفحة تحويل PDF</a>
 
 إذا قمت بإنشاء تكوين ER بتنسيق Excel وتريد تحويله إلى تنسيق PDF، يمكنك تعيين اتجاه مستند PDF. عندما تقوم بتحديد خانة الاختيار **التحويل إلى PDF** لتشغيل تحويل PDF لوجهm ملف تنتج ملف مخرجات بتنسيق Excel، فإن حقل **اتجاه الصفحة** يصبح متاحًا على علامة التبويب السريع **إعدادات تحويل PDF**. في حقل **اتجاه الصفحة**، حدد الاتجاه المفضل.
 
-[![حدد اتجاه صفحة تحويل PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![حدد اتجاه صفحة تحويل PDF.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > حتى يكون لديك خيار لتحديد اتجاه صفحه PDF، يجب عليك تثبيت Finance، الإصدار 10.0.10 أو إصدار لاحق.
@@ -222,7 +222,7 @@ ms.locfileid: "6085490"
     > [!NOTE]
     > عند تحديد **ملفات منفصلة**، يتم تجميع المخرجات التي تم إنشاؤها في الذاكرة في حالة مضغوطة. لذلك، يتم تطبيق [حد حجم الملف](er-compress-outbound-files.md) على المخرجات المضغوطة عندما يتجاوز حجم الملف الحقيقي هذا الحد. نوصي بتحديد هذه القيمة عندما تتوقع أن حجم الإخراج الذي تم إنشاؤه كبير جدًا.
 
-[![تكوين وجهة لمكون بتنسيق مجلد](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![تكوين وجهة لمكون بتنسيق مجلد.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>قيود
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821287"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343690"
 ---
 # <a name="weighted-average-date"></a>تاريخ المتوسط المرجح
 
@@ -39,7 +39,7 @@ ms.locfileid: "5821287"
 
 أثناء إغلاق مخزون، يتم تنفيذ الحساب بشكل يومي عبر فترة الإقفال، كما يظهر في الرسم التوضيحي التالي: 
 
-![نموذج الحساب اليومي لتاريخ المتوسط المرجح](./media/weightedaveragedatedailycalculationmodel.gif) 
+![نموذج الحساب اليومي لتاريخ المتوسط المرجح.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 تحدث حركات المخزون التي تترك المخزون، مثل أوامر المبيعات، ودفاتر يومية المخزون، وأوامر الإنتاج، بسعر تكلفة مقدر في تاريخ الترحيل. كما يشير سعر التكلفة المُقدر إلى سعر التكلفة المتوسط للتشغيل. في تاريخ إقفال المخزون، يقوم النظام بتحليل حركات المخزون للفترات السابقة، والأيام السابقة، واليوم الحالي. ويتم استخدام هذا التحليل لتحديد قواعد الإقفال التالية التي يجب استخدامها:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093910"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351647"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>تكوين قواعد الأهلية وخياراتها
 
@@ -137,20 +137,20 @@ ms.locfileid: "6093910"
 
 على سبيل المثال، تتكون القاعدة **الموظفون النشطون** من المعايير التالية. لكي يكون الموظف مؤهلاً وفقًا للقاعدة **الموظفون النشطون**، يجب أن يتم توظيف الموظف في الكيان القانوني USMF *و* يكون نوع المنصب دوام كامل.  
 
-![المعايير الموجودة داخل قاعدة الأهلية](media/CriteriaWithinAnEligibilityRule.png) 
+![المعايير الموجودة داخل قاعدة الأهلية.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>الشروط المتعددة داخل المعايير
 
 يمكن توسيع القواعد بشكل أكبر لاستخدام شروط متعددة داخل معيار واحد. يجب أن يستوفي الموظف شرطًا واحدًا على الأقل ليكون مؤهلاً. ولإنشاء المثال أعلاه، يمكن توسيع القاعدة **الموظفون النشطون** بشكل أكبر لتضمين الموظفين الذين هم أيضًا موظفي الدوام الجزئي. ونتيجة لذلك، يجب أن يكون الموظف موظفًا في USMF *و* إما موظف دوام كلي أو موظف دوام جزئي.  
 
-![الشروط المتعددة داخل المعايير](media/MultipleConditionsWithinCriteria.png) 
+![الشروط المتعددة داخل المعايير.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>حالات الأهلية داخل معيار حقل مخصص 
 كما هو موضح أعلاه، يمكن استخدام الحقول المخصصة عند إنشاء قواعد الأهلية والعمل بالطريقة نفسها. على سبيل المثال، قد ترغب في تقديم تعويض الإنترنت وموظفي فارجو وكوبنهاجنين الذين يعملون في المنزل، حيث تكون تكاليف الإنترنت أعلى في تلك المواقع. للقيام بذلك، قم بإنشاء حقلين مخصصين: **موقع المكتب** (قائمة الانتقاء) و **العمل في المنزل** (خانة الاختيار). ثم قم بإنشاء قاعدة تسمى **موظفو WFH**. المعيار الخاص بالقاعدة هو **موقع المكتب = فارجو** أو **كوبنهاغن** *و*  بحيث **العمل في المنزل = نعم**.
 
 يجب إعداد قواعد الأهلية المخصصة بالشكل المشار إليه في الصورة التالية. 
 
-![حالات الأهلية داخل معيار حقل مخصص](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![حالات الأهلية داخل معيار حقل مخصص.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>تكوين المجموعات
 

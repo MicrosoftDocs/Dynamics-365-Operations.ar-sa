@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7d723e7468e42589b8b9a1ed3080c691ebc6bc8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907805"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353904"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>تثبيت مدخل العميل وإعداده وتحديثه
 
@@ -34,7 +34,7 @@ ms.locfileid: "5907805"
 
 يعتمد مدخل العميل على مداخل Power Apps والكتابة المزدوجة، كما هو مبين في الشكل التوضيحي التالي.
 
-![تبعيات مدخل العميل](media/customer-portal-elements.png "تبعيات مدخل العميل")
+![تبعيات مدخل العميل.](media/customer-portal-elements.png "تبعيات مدخل العميل")
 
 بعكس الميزات الأخرى من Supply Chain Management، يقيم قالب مدخل العميل في مداخل Power Apps. وبالتالي، يتحدد مدخل العميل بالوظيفة والقدرات التي توفرها مداخل وجداول Power Apps في الكتابة المزدوجة.
 

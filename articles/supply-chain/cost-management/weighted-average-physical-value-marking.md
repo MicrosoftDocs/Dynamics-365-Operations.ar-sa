@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830114"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352702"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>المتوسط المرجح مع القيمة الفعلية ووضع العلامات
 
@@ -65,7 +65,7 @@ ms.locfileid: "5830114"
 
 يوضح المخطط التالي سلسلة الحركات هذه مع تأثيرات اختيار نموذج المخزون المتوسط المرجح وقاعدة التسوية المباشرة دون خيار تضمين القيمة الفعلية. 
 
-![ DS للتاريخ المتوسط المرجح مع تضمين قيمة فعلية ](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![DS للتاريخ المتوسط المرجح مع تضمين قيمة فعلية.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **مفتاح المخطط**
 - تتمثل حركات المخزون في شكل أسهم رأسية.
@@ -99,7 +99,7 @@ ms.locfileid: "5830114"
 
 يوضح المخطط التالي سلسلة الحركات هذه مع تأثيرات اختيار نموذج المخزون المتوسط المرجح وقاعدة التسوية الملخصة دون خيار تضمين القيمة الفعلية. 
 
-![ SS للتاريخ المتوسط المرجح بدون تضمين قيمة فعلية ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![SS للتاريخ المتوسط المرجح بدون تضمين قيمة فعلية.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **مفتاح المخطط**
 - تتمثل حركات المخزون في شكل أسهم رأسية.
@@ -128,7 +128,7 @@ ms.locfileid: "5830114"
 
 يوضح المخطط التالي سلسلة الحركات هذه مع تأثيرات اختيار نموذج المخزون المتوسط المرجح وقاعدة التسوية المباشرة مع خيار تضمين القيمة الفعلية. 
 
-![ DS للتاريخ المتوسط المرجح مع تضمين قيمة فعلية](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![DS للتاريخ المتوسط المرجح مع تضمين قيمة فعلية.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **مفتاح المخطط**
 - تتمثل حركات المخزون في شكل أسهم رأسية.
@@ -161,7 +161,7 @@ ms.locfileid: "5830114"
 
 يوضح المخطط التالي سلسلة الحركات هذه مع تأثيرات اختيار نموذج المخزون المتوسط المرجح وقاعدة التسوية الملخصة دون خيار تضمين القيمة الفعلية. 
 
-![ SS للتاريخ المتوسط المرجح مع تضمين قيمة فعلية ](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![SS للتاريخ المتوسط المرجح مع تضمين قيمة فعلية.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **مفتاح المخطط**
 - تتمثل حركات المخزون في شكل أسهم رأسية.
@@ -209,7 +209,7 @@ ms.locfileid: "5830114"
 
 يوضح المخطط التالي هذه السلسلة من الحركات مع تأثيرات اختيار نموذج مخزون المتوسط المرجح مع وضع علامة. 
 
-![المتوسط المرجح مع وضع علامة](./media/weightedaveragewithmarking.gif) 
+![المتوسط المرجح مع وضع علامة.](./media/weightedaveragewithmarking.gif) 
 
 **مفتاح المخطط**
 - تتمثل حركات المخزون في شكل أسهم رأسية.

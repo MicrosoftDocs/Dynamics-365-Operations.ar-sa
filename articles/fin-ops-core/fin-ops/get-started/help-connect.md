@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745679"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343924"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>تكوين تجربة التعليمات لتطبيقات Finance and Operations
 
@@ -32,7 +32,7 @@ ms.locfileid: "5745679"
 
 تشمل تطبيقات Finance and Operations نظرات تصورية ومواضيع أخرى يتم نشرها على موقع [https://docs.microsoft.com/dynamics365](/dynamics365/). يمكن بعد ذلك الوصول إلى هذا المحتوى من خلال جزء **التعليمات** داخل المنتج. يبين الرسم التوضيحي التالي أجزاء نظام التعليمات.
 
-[![بنية التعليمات](./media/help-architecture.png)](./media/help-architecture.png)
+[![بنية التعليمات.](./media/help-architecture.png)](./media/help-architecture.png)
 
 يقوم نظام التعليمات داخل المنتج بسحب المقالات من docs.microsoft.com ومواقع ويب الأخرى المتصلة. كما يسحب أيضًا أدلة المهام التي يتم تخزينها في ‏‫أداة تكوين عمليات الأعمال (BPM)‬ في Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -47,14 +47,14 @@ ms.locfileid: "5745679"
 > - لتكوين التعليمات، يجب أن تسجل الدخول باستخدام حساب في المستأجر نفسه الذي تم فيه نشر التطبيق.
 > - لا يمكن الاتصال بمكتبة LCS من مثيل تطبيق قيد التشغيل على محرك أقراص ثابت محلي ظاهري (VHD).
 
-[![نموذج محددات النظام مع إعدادات نظام التعليمات](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![نموذج محددات النظام مع إعدادات نظام التعليمات.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 لتكوين دلائل مهام لأحد الحلول، اتبع الخطوات التالية في صفحة **معلمات النظام**.
 
 > [!IMPORTANT]
 > في المرة الأولى التي تفتح فيها علامة التبويب **تعليمات** يجب الاتصال بميزة Lifecycle Services. احرص على تحديد الارتباط الموجود في وسط النموذج، وانتظر الاتصال، ثم قم بإغلاق مربع الحوار، ثم حدد **موافق** للوصول إلى صفحة **معلمات النظام**.
 >
-> [![الاتصال بـ LCS](./media/connect-to-lcs-crop-1024x365.png "الاتصال بـ LCS")](./media/connect-to-lcs-crop.png)
+> [![الاتصال بـ LCS](./media/connect-to-lcs-crop-1024x365.png "الاتصال بـ LCS."](./media/connect-to-lcs-crop.png)
 
 1. تحديد مشروع Lifecycle Services المراد الاتصال به.
 2. تحديد مكتبات BPM (في المشروع المحدد) لاسترداد تسجيلات المهام منها.

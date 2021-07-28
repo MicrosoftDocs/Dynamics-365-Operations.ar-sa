@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188163"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353458"
 ---
 # <a name="purchase-requisition-workflow"></a>سير عمل طلب الشراء
 
@@ -51,7 +51,7 @@ ms.locfileid: "6188163"
 -   **وكيل الشراء** – المستخدم الذي ينفذ إجراء مراجعة تدبير ويمكن الموافقة على المستند.
 -   **مدير الطالب** – المستخدم الذي قام بإجراء مراجعة إدارية ويمكنه الموافقة على المستند.
 
-![عملية مراجعة سير عمل طلب الشراء](./media/purchreqworkflowoverview_submission.gif)  
+![عملية مراجعة سير عمل طلب الشراء.](./media/purchreqworkflowoverview_submission.gif)  
 في هذا المثال، تشمل عملية سير العمل لطلب الشراء الخطوات التالية:
 
 1.  يرسل المعد طلب الشراء للمراجعة.
@@ -74,7 +74,7 @@ ms.locfileid: "6188163"
 -   **مدير القسم** – المستخدم الذي ينفذ مراجعة للنفقات ويمكنه الموافقة على المستند.
 -   **مدير المجموعة** – المستخدم الذي ينفذ صلاحية توقيع ويمكنه الموافقة على المستند.
 
-![عملية مراجعة سير عمل بند طلب الشراء](./media/purchreqlineworkflowoverview.gif)  
+![عملية مراجعة سير عمل بند طلب الشراء.](./media/purchreqlineworkflowoverview.gif)  
 في هذا المثال، تشمل عملية سير العمل الخاصة بأصناف طلبات الشراء الخطوات التالية:
 
 1.  يرسل المعد طلب الشراء للمراجعة. يتم توجيه كل صنف إلى المراجع الذي تم تكوينه لاستلامه في عملية سير العمل.

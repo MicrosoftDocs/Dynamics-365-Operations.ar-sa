@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823706"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350014"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>تمكين حساب الضريبة المؤجل في دفاتر اليومية
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ ms.locfileid: "5823706"
 1. انتقل إلى **دفتر الأستاذ العام \> إعداد دفتر الأستاذ‬ \> معلمات دفتر الأستاذ العام**.
 2. على علامة التبويب **ضريبة المبيعات** ، على علامة التبويب السريعة **عام** ، حدد الخيار **حساب الضريبة المؤجلة** إلى **نعم**.
 
-![صورة معلمات دفتر الأستاذ العام](media/delayed-tax-calculation-gl.png)
+![صورة معلمات دفتر الأستاذ العام.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>تشغيل حساب الضريبة المؤجل علي مستوي اسم دفتر اليومية
 
 1. انتقل إلى **دفتر الأستاذ العام \> إعداد دفتر اليومية \> أسماء دفاتر اليومية**.
 2. على علامة التبويب السريعة **عام** ، في القسم **ضريبة المبيعات** ، حدد الخيار **حساب الضريبة المؤجل** إلى **نعم**.
 
-![صورة أسماء دفاتر اليومية](media/delayed-tax-calculation-journal-name.png)
+![صورة أسماء دفاتر اليومية.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>تشغيل حساب الضريبة المؤجل علي مستوي رأس دفتر اليومية
 
@@ -61,7 +61,7 @@ ms.locfileid: "5823706"
 3. حدد اسم دفتر اليومية.
 4. على علامة التبويب **إعداد** ، قم بتعيين خيار **حساب الضريبة المؤجل** إلى **نعم**.
 
-![صورة صفحة دفتر اليومية العام](media/delayed-tax-calculation-journal-header.png)
+![صورة صفحة دفتر اليومية العام.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

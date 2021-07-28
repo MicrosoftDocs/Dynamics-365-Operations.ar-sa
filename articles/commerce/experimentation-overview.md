@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798977"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349318"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>الاختبار في Dynamics 365 Commerce
 استخدم الاختبار في Dynamics 365 Commerce للتحقق من فرضية فعاليه صفحات التجارة الالكترونيه واتخاذ قرارات واثقة بناء على البيانات. تدعم التجارة اختبار A/B في الصفحات والوحدات النمطية والأجزاء وتمكنك من قياس تاثير التغييرات المقترحة علي موقع الويب الخاص بك.
@@ -39,7 +39,7 @@ ms.locfileid: "5798977"
 ## <a name="experimentation-lifecycle"></a>دورة حياة التجربة
 يعد اعداد تجربه وإنشاء تباينات وتنفيذ عمليه تجربه عمليه متكررة. يوضح الرسم التخطيطي أدناه دوره حياه التجربة في Commerce وخدمه الجهة الخارجية. 
 
-[ ![دورة حياة التجربة](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![دورة حياة التجربة.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 لمعرفه المزيد حول كل خطوه في عمليه التجربة، راجع الموضوعات التالية.
 - [تحديد الفرضية وتحديد المقاييس الخاصة بتجربة](experimentation-identify.md)

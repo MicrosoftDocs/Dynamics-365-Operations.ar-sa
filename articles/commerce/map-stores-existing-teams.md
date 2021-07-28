@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020209"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346682"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>تعيين المتاجر والفرق عند وجود فرق موجودة مسبقًا في Microsoft Teams
 
@@ -57,7 +57,7 @@ ms.locfileid: "6020209"
 
 توضح صورة المثال التالي مجموعة **تصدير تعيين Teams** في Commerce مع عناصر **إضافة الكيان** وتمييز رؤوس ملف CSV المُصدَّر.
 
-![تصدير مجموعة تعيين الفرق في Commerce مع إضافة عناصر الكيان وتمييز رؤوس ملف CSV المُصدَرة](media/d365-commerce-data-mgmt-export-entity.png)
+![تصدير مجموعة تعيين الفرق في Commerce مع إضافة عناصر الكيان وتمييز رؤوس ملف CSV المُصدَرة.](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > بعد إكمال الخطوات السابقة، اتبع الخطوات الواردة في [مزامنة إدارة المهام بين Microsoft Teams ونقطة البيع](synchronize-tasks-teams-pos.md) لمزامنة إدارة المهام. 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951898"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352460"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>إنشاء تدرج هرمي للتنقل في القناة
 
@@ -49,7 +49,7 @@ ms.locfileid: "5951898"
 
 تعرض الصورة التالية مثالاً لعقدة جذر.
 
-![نموذج عقدة الجذر](media/create-channel-hierarchy-1.png)
+![نموذج عقدة الجذر.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>إنشاء عقد فئات التنقل
 
@@ -65,7 +65,7 @@ ms.locfileid: "5951898"
 
 تعرض الصورة التالية مثالاً لتدرج هرمي للتنقل في قناة مكتمل.
 
-![نموذج تدرج هرمي لقناة](media/create-channel-hierarchy-2.png)
+![نموذج تدرج هرمي لقناة.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>إضافة منتجات إلى عقد الفئات
 
@@ -81,7 +81,7 @@ ms.locfileid: "5951898"
 
 تعرض الصورة التالية مثالاً لعقدة بمنتجات تمت إضافتها.
 
-![المنتجات المضافة إلى عقده فئة](media/create-channel-hierarchy-3.png)
+![المنتجات المضافة إلى عقده فئة.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>أضف مجموعات سمات المنتجات إلى عقد الفئات
 
@@ -97,7 +97,7 @@ ms.locfileid: "5951898"
 
 تعرض الصورة التالية نموذج عقدة تحتوي على مجموعة سمات منتج مضافة.
 
-![مجموعات سمات المنتج في عقدة](media/create-channel-hierarchy-4.png)
+![مجموعات سمات المنتج في عقدة.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

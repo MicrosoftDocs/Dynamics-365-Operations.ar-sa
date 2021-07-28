@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5204fb80dcf3dc2342e9d37f18b9d4f587de1808
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e84f882f69fbc7fceae8a6e0332716a82830dfdc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754284"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344038"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>تعريفات الصفوف في مصمم التقارير المالية
 
@@ -158,7 +158,7 @@ ms.locfileid: "5754284"
 
 1. في مصمم التقارير، افتح تعريف الصف للتعديل.
 2. حدد الخلايا التي تريد تنسيقها. ولتحديد خلايا متعددة، اضغط مع الاستمرار على المفتاح Ctrl بينما تقوم بتحديد الخلية.
-3. انقر فوق زر شريط الأدوات للتنسيق المراد تطبيقه. على سبيل المثال، لإنشاء مسافة بادئة لصف، حدد الصف، ثم انقر فوق **زيادة المسافة البادئة** ![زيادة المسافة البادئة](media/indent.gif "زيادة المسافة البادئة") في شريط الأدوات.
+3. انقر فوق زر شريط الأدوات للتنسيق المراد تطبيقه. على سبيل المثال، لإنشاء مسافة بادئة لصف، حدد الصف، ثم انقر فوق **زيادة المسافة البادئة** ![زيادة المسافة البادئة.](media/indent.gif "زيادة المسافة البادئة") في شريط الأدوات.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>ضبط الأعمدة أثناء تصميم التقارير
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797271"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348697"
 ---
 # <a name="assortment-management"></a>إدارة الفرز
 
@@ -35,27 +35,27 @@ ms.locfileid: "5797271"
 
 في المثال التالي، يتم تكوين فرز فريد لكل متجر. في هذه الحالة، يتوفر فقط المنتج 1 في المتجر 1، ويتوافر فقط المنتج 2 في المتجر 2.
 
-![يتوفر كل منتج في أحد المتاجر](./media/Managing-assortments-figure1.png)
+![يتوفر كل منتج في أحد المتاجر.](./media/Managing-assortments-figure1.png)
 
 لإتاحة المنتج 2 في المخزن 1، يمكنك إضافة المنتج إلى الفرز 1.
 
-![تمت إضافة المنتج 2 إلى الفرز 1](./media/Managing-assortments-figure2.png)
+![تمت إضافة المنتج 2 إلى الفرز 1.](./media/Managing-assortments-figure2.png)
 
 بدلاً من ذلك، يمكنك إضافة المتجر 1 إلى الفرز 2.
 
-![تمت إضافة المتجر 1 إلى الفرز 2](./media/Managing-assortments-figure3.png)
+![تمت إضافة المتجر 1 إلى الفرز 2.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>التدرجات الهرمية للمؤسسات
 
 في الحالات التي تشترك فيها عدة قنوات في نفس عمليات فرز المنتجات، يمكنك تكوين عمليات الفرز باستخدام التدرج الهرمي للمؤسسات لعمليات فرز Commerce. عند إضافة العقد من هذا التدرج الهرمي، فسوف يتم تضمين جميع القنوات في تلك العقدة والعقد التابعة لها.
 
-![التدرج الهرمي للمؤسسات](./media/Managing-assortments-figure4.png)
+![التدرج الهرمي للمؤسسات.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>فئات المنتج
 
 وبشكل مماثل، على جانب المنتج، يمكنك تضمين مجموعات المنتجات باستخدام التدرجات الهرمية لفئات المنتج. يمكنك تكوين عمليات الفرز من خلال تضمين عقد تدرج هرمي للفئات واحدة أو أكثر. في هذه الحالة، سوف تتضمن عملية الفرز جميع المنتجات في عقد الفئة تلك والعقد التابعة لها.
 
-![فئات المنتج](./media/Managing-assortments-figure5.png)
+![فئات المنتجات.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>المنتجات أو الفئات المستثناة
 
@@ -64,7 +64,7 @@ ms.locfileid: "5797271"
 > [!NOTE]
 > إذا كان أحد المنتجات مُدرج ومستبعد في واحدة أو أكثر من عمليات الفرز حسب التعريف، فسوف يعتبر المنتج مستبعد دائمًا.
 
-![المنتج المستثنى](./media/Managing-assortments-figure6.png)
+![المنتج المستثنى.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>المنتجات العمومية والمُصدرة
 

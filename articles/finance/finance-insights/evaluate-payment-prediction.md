@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186728"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349000"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>تقييم نموذج التوقع بالدفع الأولي للعميل (معاينة)
 
@@ -33,32 +33,32 @@ ms.locfileid: "6186728"
 
 في الصفحة **معلمات Finance Insights** في Microsoft Dynamics 365 Finance، يظهر ارتباط **تحسين دقة النموذج** بجوار معدلات الدقة.
 
-[![تحسين ارتباط دقة النموذج](./media/prediction-model.png)](./media/prediction-model.png)
+[![تحسين ارتباط دقة النموذج.](./media/prediction-model.png)](./media/prediction-model.png)
 
 ينقلك هذا الارتباط إلى AI Builder، حيث يمكنك معرفة المزيد حول النموذج الحالي وأيضًا اتخاذ خطوات لتحسينه. يبين الشكل التوضيحي التالي الصفحة التي يتم فتحها.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 تبين الصفحة التي يتم فتحها المعلومات التالية:
 
 - في القسم **الأداء**، توفر درجة أداء النموذج منظورًا لجودة النموذج. لمزيد من المعلومات حول هذه الدرجة، راجع [التنبؤ بأداء النموذج](/ai-builder/prediction-performance) في وثائق AI Builder.
 - يعرض القسم **البيانات الأكثر تأثيرًا** مدى أهمية اختلاف أنواع الإدخال المختلفة للنموذج الخاص بك. يمكنك تقييم هذه القائمة والنسب المئوية المقابلة لها لتحديد ما إذا كانت المعلومات متسقة مع ما تعرفه فيما يتعلق بأعمالك والسوق.
 
-    [![قسمي الأداء والبيانات الأكثر تأثيرًا لنموذج التنبؤ](./media/models.png)](./media/models.png)
+    [![قسمي الأداء والبيانات الأكثر تأثيرًا لنموذج التنبؤ.](./media/models.png)](./media/models.png)
 
 - في القسم **الأداء**، حدد **عرض التفاصيل** لمعرفة المزيد حول الدرجة والاعتبارات الأخرى. في الرسم التوضيحي التالي، تبين التفاصيل أن النموذج يستخدم معلومات أقل مما هو مُوصى به. وبالتالي، قام النظام بإظهار رسالة تحذير.
 
-    [![تحذيرات حول أداء النموذج](./media/details.png)](./media/details.png)
+    [![تحذيرات حول أداء النموذج.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>التعمق
 
 على الرغم من أن الدقة هي نقطه بداية جيدة لتقييم أحد النماذج، وتوفر درجة الأداء المنظور، إلا أن AI Builder يوفر مقاييس أكثر تفصيلاً يمكنك استخدامها للتقييم الخاص بك. لتنزيل التفاصيل، في القسم **الأداء**، حدد زر علامة الحذف (**...**) بجانب الزر **استخدام نموذج**، ثم حدد **تحميل المقاييس التفصيلية**.
 
-[![أمر تحميل المقاييس التفصيلية](./media/performance.png)](./media/performance.png)
+[![أمر تحميل المقاييس التفصيلية.](./media/performance.png)](./media/performance.png)
 
 يبين الرسم التوضيحي التالي التنسيق الذي يمكنك تنزيل البيانات به.
 
-[![تنسيق البيانات التي تم تنزيلها](./media/data-format.png)](./media/data-format.png)
+[![تنسيق البيانات التي تم تنزيلها.](./media/data-format.png)](./media/data-format.png)
 
 للحصول على تحليل أعمق للنتائج، نقطة بداية جيدة لمراجعة المقياس "مقياس الالتباس". على سبيل المثال، فيما يلي البيانات التي يتم عرضها لهذا المقياس في الرسم التوضيحي السابق.
 

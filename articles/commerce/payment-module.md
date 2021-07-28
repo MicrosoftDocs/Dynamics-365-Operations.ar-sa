@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804469"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352314"
 ---
 # <a name="payment-module"></a>الوحدة النمطية للدفع
 
@@ -46,7 +46,7 @@ ms.locfileid: "5804469"
 
 يعرض الشكل التوضيحي التالي مثالاً عن وحدات بطاقة الهدايا ونقاط الولاء وموصل المدفوعات Adyen في صفحة السداد مع الخروج.
 
-![مثال على الوحدات النمطية لبطاقة الهدايا ونقاط الولاء وموصل المدفوعات Adyen في صفحة السداد مع الخروج](./media/ecommerce-payments.PNG)
+![مثال على الوحدات النمطية لبطاقة الهدايا ونقاط الولاء وموصل المدفوعات Adyen في صفحة السداد مع الخروج.](./media/ecommerce-payments.PNG)
 
 ## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector لـ PayPal
 
@@ -59,10 +59,10 @@ ms.locfileid: "5804469"
 لا يتطلب موصل الدفع PayPal وحدة عنوان الفوترة لأن PayPal يتعامل مع جميع المعلومات المتعلقة بالفوترة ضمن إطار iframe الخاص به. ومع ذلك، فإن عنوان الشحن ووحدات خيارات التسليم مطلوبة.
 
 يبين الرسم التوضيحي التالي مثالاً لوحدتي دفع على صفحة الدفع، إحداهما تم تكوينها باستخدام موصل الدفع Adyen والأخرى باستخدام موصل الدفع PayPal.
-![مثال لوحدات الدفع باستخدام Adyen وPayPal على صفحة السداد مع الخروج](./media/ecommerce-paypal.png)
+![مثال لوحدات الدفع باستخدام Adyen وPayPal على صفحة السداد مع الخروج.](./media/ecommerce-paypal.png)
 
 يبين الرسم التوضيحي التالي مثالاً على PayPal iframe الذي تم استدعاؤه باستخدام زر PayPal. 
-![مثال على Paypal iframe على صفحة الدفع](./media/ecommerce-paypal-iframe.png)
+![مثال على Paypal iframe على صفحة السداد مع الخروج.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>خصائص الوحدة النمطية للدفع
 
@@ -76,7 +76,7 @@ ms.locfileid: "5804469"
 |عبارة عن عملية دفع أولية|  **صحيح** أم **خطأ** | إذا كانت القيمة **صحيح**، سيتم إنشاء أي رسائل خطأ من موصل الدفع الأساسي في صفحة السداد مع الخروج. إذا تم تكوين موصلات الدفع Adyen وPayPal، فقم بتعيين Adyen إلى **صحيح**، والذي تمت إضافته في الإصدار 10.0.14 من Commerce.|
 
 يبين الرسم التوضيحي التالي مثالاً لقيمة **‬‏‫أنواع طرق الدفع المعتمدة‬‏‫** التي تم تعيينها على "PayPal" في تكوين موصل الدفع في المراكز الرئيسية لـ Commerce.
-![مثال علي أنواع طرق الدفع المعتمدة في المراكز الرئيسية لـ Commerce](./media/ecommerce-paymenttendertypes.png)
+![مثال على أنواع طرق الدفع المعتمدة في المراكز الرئيسية لـ Commerce.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>عنوان الفوترة
 
