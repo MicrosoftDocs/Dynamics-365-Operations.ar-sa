@@ -1,6 +1,6 @@
 ---
-title: تكوين Finance Insights - الإصدارات حتى 10.0.19
-description: يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights بالنسبة للإصدارات حتى 10.0.19.
+title: تكوين Finance Insights - قبل الإصدار 10.0.19
+description: يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights بالنسبة للإصدارات قبل 10.0.19.
 author: ShivamPandey-msft
 ms.date: 06/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186410"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357428"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>تكوين Finance insights (معاينة)
+# <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>تكوين Finance insights للمعاينة الخاصة (معاينة) - قبل الإصدار 10.0.19
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "6186410"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> تكون الإجراءات التالية لإعداد Finance insights صالحة لـ Microsoft Dynamics 365 Finance للإصدارات حتى 10.0.19. لإعداد Finance insights في الإصدار 10.0.20 والإصدارات اللاحقة، راجع [تكوين Finance insights (إصدار أولي) - الإصدارات 10.0.20 وما بعده](configure-for-fin-insites-PubPrvw.md).
+> تكون الإجراءات التالية لإعداد Finance insights صالحة لـ Microsoft Dynamics 365 Finance قبل الإصدار 10.0.19. لإعداد Finance insights في الإصدار 10.0.20 والإصدارات اللاحقة، راجع [تكوين Finance insights (إصدار أولي) - الإصدارات 10.0.20 وما بعده](configure-for-fin-insites-PubPrvw.md).
 
 تضم Finance insights الوظيفة من Microsoft Dynamics 365 Finance مع Microsoft Dataverse وAzure و AI Builder لتوفير أدوات التنبؤ القوية لمؤسستك. يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights.
 
@@ -59,7 +59,7 @@ ms.locfileid: "6186410"
 
     1. افتح صفحة **البيئات**.
 
-        [![صفحة البيئات](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
+        [![صفحة البيئات.](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
     2. حدد بيئة Dataverse التي تم إنشاؤها أعلاه، ثم حدد **الإعدادات**.
     3. حدد **الموارد \> كافة الإعدادات القديمة**.
@@ -792,6 +792,8 @@ finally {
     | عنوان URL للمؤسسة CDS                                     | تم نسخ عنوان URL لمؤسسة Dataverse مما سبق. |
     | معرف مؤسسة CDS                                               | تم نسخ معرف مؤسسة Dataverse مما سبق. |
 5. قم بتمكين **هل هذه هي البيئة الافتراضية بالنسبة للمستأجر لديك**.
+
+قد تستغرق الوظيفة الإضافية عدة دقائق لتثبيتها.
     
 ## <a name="configure-the-entity-store"></a>تكوين متجر الكيان
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823826"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360702"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>إضافة الأبعاد المالية إلى مساحة عمل المدير المالي‬
 
@@ -45,14 +45,14 @@ ms.locfileid: "5823826"
 11. قم بتغيير قيمة **اتجاه التصفية المتقاطع** إلى **فردي**.
 12. حدد الخيارين **تنشيط هذه العلاقة** و **افتراض التكامل المرجعي**، وحدد **OK**، ثم حدد **إغلاق**.
 
-    [![إنشاء علاقة](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![إنشاء علاقة.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. في قائمة **الحقول**، من المفترض أن ترى الجدول والأبعاد المالية المتوفرة. اسحب الأبعاد المالية المطلوبة إلى عوامل التصفية على مستوى التقرير.
 14. ‏‏قم بحفظ التغييرات التي قمت بإجرائها.
 15. في شجرة مكونات البرنامج (AOT)، انقر بزر الماوس الأيمن فوق المشروع، ثم حدد **مزامنة**.
 16. أنشئ مشروعك، ثم افتح التطبيق لعرض النتائج.
 
-    [![مساحة عمل مكتملة](./media/workspace.png)](./media/workspace.png)
+    [![مساحة عمل مكتملة.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

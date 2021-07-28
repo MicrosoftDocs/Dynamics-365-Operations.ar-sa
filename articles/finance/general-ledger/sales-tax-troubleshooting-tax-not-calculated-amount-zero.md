@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020105"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352800"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>لم يتم حساب الضريبة أو قيمه مبلغ الضريبة صفرا
 
@@ -32,17 +32,17 @@ ms.locfileid: "6020105"
 
 1. في بند الحركة، في علامة التبويب السريعة **تفاصيل البند**، في علامة التبويب **إعداد**، في قسم **ضريبة المبيعات**، تحقق من تحديد مجموعات الضرائب الصحيحة في حقلي **مجموعة ضريب مبيعات الصنف** و **مجموعة ضريبة المبيعات**. إذا لم يتم تحديد مجموعات الضرائب الصحيحة، فقم بتحديدها.
 
-    [![مجموعة ضريبة مبيعات الصنف وحقول مجموعة ضريبة المبيعات](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![مجموعة ضريبة مبيعات الصنف وحقول مجموعة ضريبة المبيعات.](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. انتقل إلى **الضريبة** \> **الضرائب غير المباشرة** \> **ضريبة المبيعات** \> **مجموعات ضرائب المبيعات**.
 3. حدد مجموعة ضريبة المبيعات المناسبة، ثم على علامة التبويب السريعة **الإعداد**، قم بتدوين رمز الضريبة في حقل **رمز ضريبة المبيعات**.
 
-    [![صفحة مجموعات ضرائب المبيعات](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
+    [![صفحة مجموعات ضرائب المبيعات.](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
 
 4. انتقل إلى **الضريبة** \> **الضرائب غير المباشرة** \> **ضريبة المبيعات** \> **مجموعات ضرائب مبيعات الأصناف**.
 5. حدد مجموعة ضريبة مبيعات الصنف المناسبة، ثم في علامة التبويب السريعة **الإعداد**، تحقق من أن رمز الضريبة في حقل **رمز ضريبة المبيعات** يتطابق مع رمز ضريبة مجموعة ضريبة المبيعات.
 
-    [![صفحة مجموعات ضرائب مبيعات الأصناف](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
+    [![صفحة مجموعات ضرائب مبيعات الأصناف.](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
 
 6. إذا لم تكن أكواد الضريبة متطابقة، فقم بتحديث كود ضريبة المبيعات لأحدي المجموعات.
 
@@ -53,12 +53,12 @@ ms.locfileid: "6020105"
 1. انتقل إلى **الضريبة** \> **الضرائب غير المباشرة** \> **ضريبة المبيعات** \> **مجموعات ضرائب المبيعات**.
 2. حدد مجموعه ضريبة المبيعات المناسبة، ثم في علامة التبويب السريعة **الإعداد**، تحقق من إلغاء تحديد خانه الاختيار **إعفاء**. وفي حاله تحديدها، قم بإلغاء تحديدها.
 
-    [![خانه اختيار الاعفاء في صفحة مجموعات ضريبة المبيعات](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
+    [![ خانة اختيار الاعفاء في صفحة مجموعات ضريبة المبيعات.](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
 
 3. انتقل إلى **الضريبة** \> **الضرائب غير المباشرة** \> **ضريبة المبيعات** \> **رموز ضرائب المبيعات**.
 4. حدد كود ضريبة المبيعات المناسب، ثم تحقق من ان قيمه سعر الضريبة في حقل **القيمة** ليست 0 (صفر). إذا كانت القيمة هي 0، فقم بتحديث الحقل بحيث يتم تعيينه علي معدل الضريبة الصحيح.
 
-    [![حقل القيمة في صفحة قيم رمز ضريبة المبيعات](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
+    [![حقل القيمة في صفحة قيم رمز ضريبة المبيعات.](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
 
 ## <a name="determine-whether-zero-is-the-correct-tax-amount"></a>تحديد ما إذا كان الصفر هو مبلغ الضريبة الصحيح ام لا
 
@@ -67,7 +67,7 @@ ms.locfileid: "6020105"
 1. انتقل إلى **دفتر الأستاذ العام** \> **إعداد دفتر الأستاذ** \> **معلمات دفتر الأستاذ العام**.
 2. في علامة التبويب **ضريبة المبيعات**، في حقل **طريقة الحساب**، تحقق من تحديد **الإجمالي**.
 
-    [![حقل طريقة الحساب في صفحة معلمات دفتر الأستاذ العام](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
+    [![حقل طريقة الحساب في صفحة معلمات دفتر الأستاذ العام.](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
 
 3. انتقل إلى **الضريبة** \> **الضرائب غير المباشرة** \> **ضريبة المبيعات** \> **رموز ضرائب المبيعات**.
 4. حدد رمز ضريبة المبيعات المناسب، وحدد **حساب** \> **القاعدة الهامشية**، وتحقق من أن القاعدة الهامشية معينة على **صافي مبلغ رصيد الفاتورة** أو **إجمالي الفاتورة بما في ذلك مبالغ ضريبة المبيعات الأخرى**. لمزيد من المعلومات، راجع [إجمالي الفاتورة متضمنًا مبالغ ضريبة المبيعات الأخرى‬](marginal-base-field.md#invoice-total-incl-other-sales-tax-amounts).

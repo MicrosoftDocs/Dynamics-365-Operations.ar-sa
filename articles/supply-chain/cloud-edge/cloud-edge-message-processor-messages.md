@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271091"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350560"
 ---
 # <a name="message-processor-messages"></a>رسائل معالج الرسالة
 
@@ -88,15 +88,15 @@ ms.locfileid: "6271091"
 
 1. في [Power Automate](https://preview.flow.microsoft.com)، أنشئ تدفقًا سحابيًا تلقائيًا جديدًا لمشغل التدفق **عند حدوث حدث عمل - تطبيق Fin & Ops ‏(Dynamics 365)** متبوعةً بخطوتي **تحليل JSON** و **إرسال رسالة بريد إلكتروني**، كما هو مبين في الرسو التوضيحي التالي.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="تدفق السحابة التلقائي في Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="تدفق السحابة التلقائي في Power Automate.":::
 
 1. في خطوة **عند حدوث حدث أعمال**، يمكنك البحث أو إدخال **مثيل** المركز متبوعًا بـ **الفئة** ثم **حدث الأعمال** *تمت معالجة رسالة معالج الرسائل*، كما هو مبين في الرسم التوضيحي التالي.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate خطوة عند حدوث حدث أعمال":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate خطوة عند حدوث حدث أعمال.":::
 
 1. بالنسبة لخطوة **تحليل JSON**، أدخل **المخطط** الذي يحدد الحقول الموسعة. يمكنك استخدام خيار *تنزيل المخطط* في صفحة **كتالوج أحداث الأعمال** في Supply Chain Management أو ابدأ باللصق في مثال نص المخطط. يتم توفير نص المثال هذا بعد الرسم التوضيحي التالي.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate خطوة تحليل JSON":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate خطوة تحليل JSON.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ ms.locfileid: "6271091"
 
 1. في خطوة **إرسال رسالة بريد إلكتروني**، يمكنك تحديد الحقول الفردية أو البدء بلصق مثال نص البريد الإلكتروني في حقل **المحتوى**. يتم توفير هذا المثال بعد الرسم التوضيحي التالي.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="خطة إرسال رسالة بريد إلكتروني في Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="خطوة إرسال رسالة بريد إلكتروني في Power Automate.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

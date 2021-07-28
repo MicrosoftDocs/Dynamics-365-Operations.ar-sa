@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019017"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355472"
 ---
 # <a name="wave-creation-and-processing"></a>إنشاء الموجة ومعالجتها
 
@@ -42,7 +42,7 @@ ms.locfileid: "6019017"
 
 يوضح المخطط التالي التدفق الخاص بكيفية إنشاء موجات الشحن ومعالجتها وإصدارها. الأرقام تتوافق مع الأقسام لاحقًا في هذا القسم.
 
-![عملية إنشاء موجة](media/wave-processing-diagram.png "عملية إنشاء موجة")
+![عملية إنشاء موجة.](media/wave-processing-diagram.png "عملية إنشاء موجة")
 
 ### <a name="prerequisites"></a>المتطلبات الأساسية
 
@@ -158,7 +158,7 @@ ms.locfileid: "6019017"
 
 يوضح المخطط الانسيابي التالي كيفيه إنشاء العمل المخطط اثناء معالجه الموجه.
 
-![جدولة إنشاء العمل](media/schedule-work-creation-process.png)
+![جدولة إنشاء العمل.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>العمل المخطط
 

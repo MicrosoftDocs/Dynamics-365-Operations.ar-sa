@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745755"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358539"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>‏‫تشخيصات الأمان‬ لتسجيلات المهام
 
@@ -39,7 +39,7 @@ ms.locfileid: "5745755"
 
 4. في حقل **‏‫معرف المستخدم** حدد مستخدم. إذا لم يكن لدي المستخدم أذونات لبعض عناصر القائمة، فسيتم تحديث حقل **الأذونات المفقودة** إلى **نعم**.
   
-  ![صفحة تفاصيل عنصر قائمة الأمان](../media/Security-Menu-Item-Details.png)
+  ![صفحة تفاصيل عنصر قائمة الأمان.](../media/Security-Menu-Item-Details.png)
 
 5. حدد **إضافة مرجع** لعرض قائمة بكائنات الأمان، بما في ذلك الأدوار والمهام والامتيازات التي تمنح الاذن المفقود.
 6. حدد كائن أمان من القائمة:

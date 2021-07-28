@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c8ad853b8d1f8383b23f2ac4341a5f37a904795
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: eae89e9c3bf32ab5a4c4e6c497c9d3baa5b75fde
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054442"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359211"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (3 سبتمبر 2020)
 
@@ -99,9 +99,9 @@ ms.locfileid: "6054442"
 
 - [تحسينات في تجربة سير عمل إدارة المؤسسة والموظفين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬‬
 
-![عناصر عمل تم تعيينها إلي](./media/hr-workflow-work-items-assigned-to-me.png)
+![عناصر عمل تم تعيينها إلي.](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![الوصول السريع إلى عناصر سير العمل](./media/hr-workflow-quick-access.png)
+![الوصول السريع إلى عناصر سير العمل.](./media/hr-workflow-quick-access.png)
 
 ## <a name="coming-soon"></a>قريبًا
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom: 16381
+ms.custom:
+- "16381"
+- intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
+ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923436"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373357"
 ---
 # <a name="help-system"></a>نظام التعليمات
 
@@ -35,7 +37,7 @@ ms.locfileid: "5923436"
 
 في جميع هذه التطبيقات يمكنك الوصول إلى تعليمات خاصة بالمنتج من جزء **التعليمات**.
 
-![جزء التعليمات](./media/help-pane-ops-help.png)
+![جزء التعليمات.](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>تعليمات حول docs.microsoft.com
 
@@ -46,12 +48,23 @@ ms.locfileid: "5923436"
 
 يمكنك العثور على محتوى docs.microsoft.com باستخدام أي محرك بحث. للحصول على أفضل النتائج، ننصحك باستخدام البحث في الموقع، مثل **مصطلح البحث site:docs.microsoft.com dynamics 365**.
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>الحصول على إعلام بشأن التغييرات من خلال موجز RSS
+<!--## Get notified about changes through an RSS feed
 
-للاشتراك في موجز المشاركة البسيطة للغاية (RSS) لكافة التحديثات الخاصة بالمحتوى الموجود على docs.microsoft.com، استخدم الارتباط التالي:
+To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
 
-[موجز RSS](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
+[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
+> [!NOTE]
+> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+
+Alternatively, you can subscribe to an RSS feed by app:
+
+- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
+- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
+- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
+- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
 ### <a name="leave-us-feedback"></a>تقديم الملاحظات
 
 إذا كانت لديك ملاحظات أو أسئلة حول أحد الموضوعات، فأرسل لنا تعليق في أسفل الصفحة.
@@ -60,7 +73,7 @@ ms.locfileid: "5923436"
 
 2. ابدأ كتابة تعليقاتك، ثم حدد **إرسال الملاحظات**.
 
-    ![نشر تعليق](./media/feedback.png)
+    ![نشر تعليق.](./media/feedback.png)
 
 > [!NOTE]
 > إذا كنت ترغب في إرسال ملاحظات الوثائق، فيجب عليك تسجيل الدخول باستخدام حساب GitHub. لمزيد من المعلومات، راجع [إعداد ملف تعريف GitHub وإدارته](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -84,11 +97,11 @@ ms.locfileid: "5923436"
 
 أصدرت Microsoft مكتبات دلائل مهام لإصدارات المنتجات من خلال إصدار ديسمبر 2017 من Dynamics 365 for Finance and Operations. يوضح قسم [الوصول إلى دلائل المهام من جزء التعليمات](#accessing-task-guides-from-the-help-pane) في هذا الموضوع كيفية البحث عن دلائل المهام الصحيحة لمنتجك.
 
-![طريقة عرض قراءة دليل المهام](./media/task-guide-ops.png)
+![طريقة عرض قراءة دليل المهام.](./media/task-guide-ops.png)
 
 لبدء تجربة إرشادية تفاعلية، حدد **بدء دليل مهمة** في أسفل جزء **التعليمات**. يوضح لك المؤشر الأسود المكان الذي يجب أن تذهب إليه أولاً. اتبع الإرشادات التي تظهر في واجهة المستخدم (UI)، وأدخل البيانات على النحو المطلوب.
 
-![إرشادات خطوة بخطوة في دليل المهام](./media/task-guide-step-1-ops.png)
+![إرشادات خطوة بخطوة في دليل المهام.](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > إن البيانات التي تقوم بإدخالها عند تشغيل دليل المهمة هي بيانات حقيقية. إذا كنت في بيئة إنتاج، فسيتم إدخال البيانات في الشركة التي تقوم باستخدامها حاليًا.
@@ -101,7 +114,7 @@ ms.locfileid: "5923436"
 
 للوصول إلى محتوى التعليمات، حدد زر **التعليمات** (**؟**) ، ثم حدد **التعليمات**. بدلاً من ذلك، اضغط على **Ctrl+Shift+?**. وفي كلتا الحالتين، يظهر جزء **التعليمات**. من جزء **التعليمات**، يمكنك الوصول إلى الموضوعات التصورية أو دلائل المهام المتعلقة بمنطقة المنتج التي تتواجد فيها حاليًا.
 
-![جزء التعليمات](./media/help-pane-ops-help.png)
+![جزء التعليمات.](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>الوصول إلى مواضيع التعليمات من جزء التعليمات
 
@@ -118,13 +131,13 @@ ms.locfileid: "5923436"
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -132,7 +145,7 @@ On the **System parameters** page, follow these steps:
 
 بعد أن يكمل مسؤول النظام هذه الخطوات، يمكنك فتح جزء **التعليمات** وتحديد علامة تبويب **دلائل المهام**. سترى الآن دلائل المهام التي تنطبق على الصفحة التي تعمل عليها حاليًا. إذا لم تعثر على دلائك المهام، فيمكنك إدخال كلمات أساسية لتنقية البحث. بعد تحديد **دليل مهمة** في جزء التعليمات، يعرض جزء **التعليمات** إرشادات خطوة بخطوة، ويمكنك تشغيل دليل المهمة.
 
-![طريقة عرض قراءة دليل المهام](./media/task-guide-ops.png)
+![طريقة عرض قراءة دليل المهام.](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>أين توجد دلائل المهام المترجمة لمكتبات Microsoft؟
 

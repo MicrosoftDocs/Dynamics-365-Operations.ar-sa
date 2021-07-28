@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890821"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348476"
 ---
 # <a name="set-up-electronic-invoicing"></a>إعداد الفوترة الإلكترونية
 
@@ -37,7 +37,7 @@ ms.locfileid: "5890821"
 
 يبين الرسم التوضيحي التالي المكونات الأساسية لميزة الفوترة الإلكترونية.
 
-![نظرة عامة على ميزة الفوترة الإلكترونية](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![نظرة عامة على ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 نظرًا للتباينات في تنسيقات الفواتير وسير مهام الإجراءات، قد يختلف إعداد الميزة وفقًا للبلد أو المنطقة، أو وفقًا لمتطلبات الأعمال.
 
@@ -50,7 +50,7 @@ ms.locfileid: "5890821"
 3. في صفحة **ميزات الفوترة الإلكترونية**، حدد **استيراد** لاستيراد تكوين نموذج بيانات التقارير الإلكترونية من المستودع العام.
 4. حدد **إضافة** لإنشاء ميزة الفوترة الإلكترونية. يمكنك إما إنشاء الميزة من البداية أو اشتقاقها من ميزة موجودة للفوترة الإلكترونية.
 
-    ![إضافة ميزة الفوترة الإلكترونية](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![إضافة ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > عند إنشاء ميزة جديدة للفوترة الإلكترونية، يكون لديها رقم إصدار، وحالتها الافتراضية معينة إلى **مسودة**.
@@ -63,21 +63,21 @@ ms.locfileid: "5890821"
 
 1. في الصفحة **ميزات الفوترة الإلكترونية**، على علامة تبويب **التكوينات**، حدد **إضافة** لإضافة تكوينات تنسيقات ملفات التقارير الإلكترونية لميزة الفوترة الإلكترونية.
 
-    ![إضافة تكوينات ميزة الفوترة الإلكترونية](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![إضافة تكوينات ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > عند إنشاء ميزة الفوترة الإلكترونية من البداية، يجب إضافة جميع تكوينات تنسيقات ملفات التقارير الإلكترونية يدويًا. عند اشتقاق ميزة الفوترة الإلكترونية من ميزة موجودة، يتم إنشاء تكوينات تنسيقات ملفات التقارير الإلكتروني بشكل تلقائي، بسبب تواريها من ميزة الفوترة الإلكترونية الأصلية.
 
 2. حدد **تحرير** لفتح الصفحة **مصمم التنسيق**، حيث يمكنك تحرير تكوين تنسيق ملف التقارير الإلكترونية.
 
-    ![تحرير تكوينات ميزة الفوترة الإلكترونية](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![تحرير تكوينات ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > أثناء قيامك بتحرير التنسيق، يتم تعيين حالة إصدار التكوين إلى **مسودة**.
 
 3. استخدم الصفحة **مصمم التنسيق** لتغيير تكوين تنسيق الملف. للحصول على مزيد من التفاصيل، راجع [إنشاء تكوينات المستندات الإلكترونية](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![صفحة مصمم التنسيق‬](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![صفحة مصمم التنسيق‬.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>عمليات إعداد الميزة
 
@@ -87,18 +87,18 @@ ms.locfileid: "5890821"
 
 1. في الصفحة **ميزات الفوترة الإلكترونية**، على علامة تبويب **عمليات الإعداد**، حدد **إضافة** لإضافة تكوينات تنسيقات ملفات التقارير الإلكترونية لميزة الفوترة الإلكترونية.
 
-    ![إضافة عمليات إعداد ميزة الفوترة الإلكترونية](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![إضافة عمليات إعداد ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > عند إنشاء ميزة الفوترة الإلكترونية من البداية، يجب إضافة جميع عمليات إعداد الميزة التي تحتاج إليها يدويًا. عند اشتقاق ميزة الفوترة الإلكترونية من ميزة موجودة، يتم إنشاء جميع عمليات إعداد الميزة بشكل تلقائي، بسبب تواريها من ميزة الفوترة الإلكترونية الأصلية.
 
 2. حدد **تحرير** لتحرير إعداد إصدار الميزة.
 
-    ![تحرير عمليات إعداد ميزة الفوترة الإلكترونية](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![تحرير عمليات إعداد ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. استخدم الصفحة **إعداد إصدار الميزة** لتكوين الإجراءات وقواعد التطبيق والمتغيرات.
 
-    ![الإجراءات وقواعد التطبيق والمتغيرات](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![الإجراءات وقواعد التطبيق والمتغيرات.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
 ### <a name="actions"></a>الإجراءات
 
@@ -113,7 +113,7 @@ ms.locfileid: "5890821"
 - حدد **جديد** أو **حذف** لإضافة إجراءات جديدة أو حذف إجراءات موجودة.
 - حدد **إلى الأعلى** أو **إلى الأسفل** لنقل الإجراءات المحددة إلى الأعلى أو إلى الأسفل في الشبكة، وبالتالي تغيير الترتيب الذي يتم تشغيلها به. يتم تشغيل الإجراءات بالترتيب الذي تظهر به في الشبكة، من الأعلى إلى الأسفل.
 
-![إدارة الإجراءات](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![إدارة الإجراءات.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 يصف الجدول التالي الحقول المتاحة في علامة التبويب السريعة **الإجراءات**.
 
@@ -129,7 +129,7 @@ ms.locfileid: "5890821"
 
 تسرد علامة التبويب السريعة **المعلمات** المعلمات‏‎ الخاصة بالإجراء المحدد على علامة التبويب السريعة **الإجراءات**.
 
-![علامة التبويب السريعة "المعلمات"](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![علامة التبويب السريعة "المعلمات".](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 يصف الجدول التالي الحقول المتاحة في علامة التبويب السريعة **المعلمات**.
 
@@ -259,20 +259,20 @@ ms.locfileid: "5890821"
 
 1. في الصفحة **إعداد إصدار الميزة**، على علامة تبويب **قواعد قابلية التطبيق**، حدد **جديد** لإضافة قاعدة قابلية التطبيق.
 
-    ![إدارة قواعد قابلية التطبيق](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![إدارة قواعد قابلية التطبيق.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. في الشبكة، حدد البنود التي يجب تجميعها.
 3. حدد **تجميع البنود**.
 
-    ![تجميع البنود](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![تجميع البنود.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     عندما يتم تجميع البنود، يُضاف عمود جديد إلى الشبكة. يحدد هذا العمود عامل التشغيل المنطقي للبنود المجمعة.
 
-    ![عامل التشغيل المنطقي للبنود المجمعة](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![عامل التشغيل المنطقي للبنود المجمعة.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 لفك تجميع البنود، حدد البنود المجمعة المراد فك تجميعها، ثم حدد **إلغاء تجميع البنود**.
 
-![إلغاء تجميع البنود](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![إلغاء تجميع البنود.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > عندما تقوم بإلغاء تجميع البنود، ابدأ دائمًا من مستوى التجميع دائما بالبدء من مستوي التجميع الأعمق.
@@ -294,7 +294,7 @@ ms.locfileid: "5890821"
 
 - في الصفحة **إعداد إصدار الميزة**، على علامة تبويب **المتغيرات**، حدد **جديد** أو **حذف** لإدارة المتغيرات.
 
-    ![إدارة المتغيرات](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![إدارة المتغيرات.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 يصف الجدول التالي الحقول المتاحة في علامة التبويب **المتغيرات**.
 
@@ -310,7 +310,7 @@ ms.locfileid: "5890821"
 
 - في الصفحة **إعداد إصدار الميزة**، في جزء الإجراءات، حدد **التحقق من الصحة** للتحقق من صحة إعداد إصدار الميزة.
 
-   ![تحديد زر ‏‫"التحقق من الصحة"](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![تحديد زر ‏‫"التحقق من الصحة".](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 تتحقق عملية التحقق من الصحة من تناسق التكوين الكامل. على سبيل المثال، إذا كانت معلمة معينة لأحد الإجراءات إلزامية ولكن تبقي قيمتها فارغة، تكتشف عملية التحقق من الصحة عدم التناسق هذا، وستتلقى تحذيرًا.
 
@@ -323,7 +323,7 @@ ms.locfileid: "5890821"
 1. في الصفحة **ميزات الفوترة الإلكترونية**، على علامة تبويب **البيئات**، حدد **تمكين** لتمكين بيئة الفوترة الإلكترونية.
 2. في الحقل **ساري من‬‏‫**، حدد التاريخ الذي تصبح فيه البيئة سارية المفعول.
 
-![تمكين بيئة الفوترة الإلكترونية](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![تمكين بيئة الفوترة الإلكترونية.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>المؤسسات
 

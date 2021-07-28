@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a18bb14ba8c3c926065c97b0ee26c38ee86ded2
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 46532fce05b7faf15b3dc2e843dcd93a976c0da1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053265"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357255"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>حفظ دلائل المهام في LCS وإعادة تشغيلها
 
@@ -52,7 +52,7 @@ Microsoft Dynamics 365 Human Resources، الذي تم نشره عبر Microsoft
 10. إنشاء تسجيل مهام.
 11. عند الانتهاء، حدد **حفظ إلى Lifecycle Services**.
 
-    ![حفظ إلى Lifecycle Services](media/task-guides.png)
+    ![حفظ إلى Lifecycle Services.](media/task-guides.png)
 
 12. حدد مكتبة عارض العمليات التجارية (BPM) وعقدة لحفظ تسجيل المهمة للعقدة.
 

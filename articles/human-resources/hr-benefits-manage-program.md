@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c31564fdc40cb0cba82b9ab8fbfdfee7adf4f4ee
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 579f2946bceceaacc3e4f1d664a5211ce40f705e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052999"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353676"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>تحديد وإدارة برنامج مزايا
 
@@ -32,7 +32,7 @@ ms.locfileid: "6052999"
 
 قبل أن يمكن تسجيل العمال في الميزات، يجب عليك إنشاء العناصر لكل ميزة. وتشتمل هذه العناصر على خطط ميزات مماثلة وتحدد الإعدادات الافتراضية، مثل أسعار الخصم، وتفاصيل المحاسبة. ويمكن ضبط العديد من هذه الإعدادات عند تسجيل العمال لاحقاً في الميزة. وفي كل خطة ميزة، يمكن لمؤسسة تقديم عدة خيارات التسجيل، أو يمكن لعامل التنازل عن التسجيل في الخطة. 
 
-[![تدفق عملية الميزات](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![تدفق عملية الميزات.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>عناصر المزايا
 
@@ -44,7 +44,7 @@ ms.locfileid: "6052999"
 
 في كل نوع من الميزات، مثل الرؤية أو علاج الأسنان، يمكن لمؤسسة توفير خطة واحدة أو أكثر لعمالها. في كل خطة، يمكن للمؤسسة تقديم خيارات مختلفة. على سبيل المثال، يمكن للعمال شراء تغطية تأمين على الحياة إضافية بما يعادل الراتب السنوي مرة واحدة أو مرتين أو ثلاثة. تصبح كل مجموعة تضمّ الخطة والخيارات ميزة يمكن للعمال التسجيل فيها. 
 
-[![صورة الميزة](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![صورة الميزة.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>الاستحقاق
 تحدد عدة عوامل أهلية العامل لأنواع مختلفة من الميزات التي يقدم صاحب العمل. وعند قيامك بإنشاء إحدى الميزات في Dynamics 365 Human Resources، يمكنك تعيين نوع الأهلية الذي ينطبق على هذه الميزة. 

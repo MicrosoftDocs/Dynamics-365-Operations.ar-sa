@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20f320e84d5faaf964585f30581d24996131031c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e895c2d337139aa9a2b1f21b60675f956da9c7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747141"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348543"
 ---
 # <a name="workflow-elements"></a>عناصر سير العمل
 
@@ -60,7 +60,7 @@ ms.locfileid: "5747141"
 
 يمكن إنشاء سير عمل لمعالجة المستندات أو عناصر البنود الموجودة في مستند. على سبيل المثال، لقد قمت بإنشاء سير عمل اعتماد للجداول الزمنية. ‏‫(سنشير إلى سير العمل هذا بصفته *سير عمل المستند*.) يمكنك إضافة *‬‏‫سير العمل عنصر الصنف* إلى سير عمل المستند هذا.‬ وعند تشغيل صنف البند، يتم إرسال كل صنف بند في المستند للمعالجة. قد تحتاج إلى معالجة كافة أصناف البند بنفس بند سير عمل صنف البند، أو قد تحتاج إلى معالجة كل صنف بند بواسطة سير عمل صنف بند مختلف. تخيل أن موظف قام بتقديم جدول زمني يشبه الشكل التالي.
 
-![سير العمل مع عناصر البند](./media/workflow_lineitemworkflow.gif)
+![سير العمل مع عناصر البند.](./media/workflow_lineitemworkflow.gif)
 
 في هذا السيناريو، قد تحتاج إلى إنشاء مهام سير عمل لعناصر البنود التالية:
 

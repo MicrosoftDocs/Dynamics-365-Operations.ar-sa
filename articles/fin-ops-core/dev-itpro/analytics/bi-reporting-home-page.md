@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754484"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354405"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>إعداد التقارير والتحليلات في الصفحة الرئيسية لـ Power BI
 
@@ -37,11 +39,11 @@ ms.locfileid: "5754484"
 
 يمكن للمستخدمين التفاعل مع البيانات عن طريق لمس أو النقر فوق المرئيات في الصفحة. يمكنهم مشاهدة السبب والأثر والقيام بعمليات ماذا لو البسيطة دون مغادرة مساحة العمل. بفضل المرئيات الرائعة والتفاعلية، سيتمتع المستخدمون لديك باستكشاف البيانات واكتشاف الاتجاهات المخفية.
 
-![مثال عن Power BI في مساحة عمل](./media/Power-BI-in-D365-Workspace.png)
+![مثال عن Power BI في مساحة عمل.](./media/Power-BI-in-D365-Workspace.png)
 
 لمعرفة المزيد، راجع المواضيع التالية:
 
-- [Embedded Power BI في مساحات العمل](embed-power-bi-workspaces.md)
+- [Power BI مضمنة في مساحات العمل](embed-power-bi-workspaces.md)
 - [تكامل Power BI Embedded](power-bi-embedded-integration.md)
 - [إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded](add-analytics-tab-workspaces.md)
 - [المساعدة في حماية مساحات العمل والتقارير التحليلية باستخدام Power BI Embedded](secure-analytical-workspaces.md)
@@ -50,7 +52,7 @@ ms.locfileid: "5754484"
 ## <a name="business-documents-and-printing"></a>مستندات الأعمال والطباعة
 يتم استخدام حلول إعداد التقارير عادةً لالتقاط التفاصيل الخاصة بحركات الأعمال والإبلاغ عنها. ولذلك، يجب أن يكون حل إعداد التقارير قادرًا على إنتاج إيضاحات فعلية لبيانات العمل باستخدام الأجهزة الموجودة، مثل طابعات الشبكات. تتضمن أمثلة مستندات الأعمال فواتير المبيعات وكشوف حسابات العملاء والشيكات.
 
-[![مثال لمستندات الأعمال](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![مثال لمستندات الأعمال.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 لمعرفة المزيد، راجع المواضيع التالية:
 
@@ -59,9 +61,9 @@ ms.locfileid: "5754484"
 - [تثبيت "وكيل توجيه المستند" لتمكين طباعة الشبكة](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>إعداد التقارير الإلكترونية
-إعداد التقارير الإلكترونية (ER) عبارة عن الأداة التي تستخدمها لتكوين تنسيقات المستندات الإلكترونية التي تتوافق مع المتطلبات القانونية لمختلف البلدان أو المناطق. تتضمن تطبيقات إعداد التقارير الإلكترونية المراجعة المالية، وإعداد تقارير الضرائب، والفوترة الإلكترونية.
+إعداد التقارير الإلكترونية (ER) عبارة عن الأداة التي تستخدمها لتكوين تنسيقات المستندات الإلكترونية التي تتوافق مع المتطلبات القانونية لمختلف البلدان أو المناطق. تتضمن تطبيقات إعداد التقارير الإلكترونية عمليات التدقيق المالي، وإعداد تقارير الضرائب، والفوترة الإلكترونية.
 
-[![مثال لإعداد التقارير الإلكترونية](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![مثال لإعداد التقارير الإلكترونية.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 لمعرفة المزيد، راجع المواضيع التالية:
 
@@ -72,7 +74,7 @@ ms.locfileid: "5754484"
 ## <a name="financial-reporting"></a>إعداد التقارير المالية
 يتم توفير التقارير المالية القياسية التي تستخدم فئات الحسابات الافتراضية الرئيسية. يمكنك استخدام مصمم التقارير لإنشاء القوائم المالية التقليدية أو تعديلها، مثل كشوف الدخل والميزانيات العمومية. يمكنك بعد ذلك مشاركة النتائج مع أعضاء آخرين في مؤسستك. تشمل أمثلة إعداد التقارير المالية الميزانيات العمومية والتدفق النقدي وملخص ميزان المراجعة‬ كل عام.
 
-[![مثال لإعداد التقارير المالية](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![مثال لإعداد التقارير المالية.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 لمعرفة المزيد، راجع المواضيع التالية:
 

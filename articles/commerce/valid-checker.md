@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9a4f03d8cf6696b7e449448704e5360f2ef585b7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 38386087a74a0881867df89bbe26453dff740be3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803695"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350294"
 ---
 # <a name="retail-transaction-consistency-checker"></a>مدقق تناسق حركة البيع بالتجزئة
 
@@ -38,7 +38,7 @@ ms.locfileid: "5803695"
 
 يوضح المخطط التالي عملية الترحيل باستخدام مدقق تناسق الحركة.
 
-![عمليه ترحيل كشف الحساب مع مدقق تناسق الحركة](./media/validchecker.png "عمليه ترحيل كشف الحساب مع مدقق تناسق حركة البيع بالتجزئة")
+![عمليه ترحيل كشف الحساب مع مدقق تناسق الحركة.](./media/validchecker.png "عمليه ترحيل كشف الحساب مع مدقق تناسق حركة البيع بالتجزئة")
 
 تدقق العملية الدُفعية **التحقق من صحة الحركات** في تناسق جداول حركات التجارة للسيناريوهات التالية.
 
