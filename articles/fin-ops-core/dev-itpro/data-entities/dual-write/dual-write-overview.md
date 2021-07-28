@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 76c2f07ac5c25eea576cbb69256e76fbef4d86ca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6fb4e91f00163f5280d2c767843afd5c7a33712d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754102"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350875"
 ---
 # <a name="dual-write-overview"></a>نظرة عامة على الكتابة المزدوجة
 
@@ -37,7 +37,7 @@ ms.locfileid: "5754102"
 
 وتوفر الكتابة الثنائية دمجًا مرتبطًا بقوة وثنائي الاتجاه بين تطبيقات Finance and Operations وDataverse. أي تغيير بيانات في تطبيقات Finance and Operations يتسبب في الكتابة في Dataverse، وأي تغيير في البيانات في Dataverse يتسبب في الكتابة في تطبيقات Finance and Operations. يوفر تدفق البيانات المؤتمت هذا تجربة متكاملة للمستخدم عبر التطبيقات.
 
-![علاقة البيانات بين التطبيقات](media/dual-write-overview.jpg)
+![علاقة البيانات بين التطبيقات.](media/dual-write-overview.jpg)
 
 تتضمن الكتابة الثنائية جانبين: جانب *البنية الأساسية* وجانب *التطبيق*.
 

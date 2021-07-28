@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748815"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350730"
 ---
 # <a name="general-troubleshooting"></a>استكشاف المشاكل العامة وإصلاحها
 
@@ -44,16 +44,16 @@ ms.locfileid: "5748815"
 
 1. قم بتنزيل ملف حزمة الحل الأخير من Yammer.com. بعد تنزيل ملف الضغط المضغوط للحزمة، انقر بزر الماوس الأيمن فوقه، ثم حدد **الخصائص**. حدد خانة الاختيار **إلغاء الحظر**، ثم حدد **تطبيق**. إذا لم تر خانة الاختيار **إلغاء الحظر** فقد تم إلغاء حظر الملف المضغوط بالفعل، ويمكنك تخطي هذه الخطوة.
 
-    ![مربع حوار الخصائص](media/unblock_option.png)
+    ![مربع حوار الخصائص.](media/unblock_option.png)
 
 2. قم باستخراج ملف الحزمة المضغوطة من نوع zip، ونسخ كافة الملفات الموجودة في المجلد  **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
 
-    ![محتويات مجلد Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+    ![محتويات مجلد Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
 
 3. ألصق كافة الملفات المنسوخة في مجلد **الأدوات** الخاص بأداة موزع الحزمة. 
 4. قم بتشغيل **PackageDeployer.exe** لتحديد بيئة Dataverse وتثبيت الحلول.
 
-    ![محتوى مجلد الأدوات](media/paste_copied_files.png)
+    ![محتوى مجلد الأدوات.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>تمكين وعرض تسجيل تتبع المكونات الإضافية في Dataverse لعرض تفاصيل الخطأ
 

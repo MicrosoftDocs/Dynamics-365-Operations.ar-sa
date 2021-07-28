@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053366"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357279"
 ---
 # <a name="integration-with-finance-faq"></a>‏‫الأسئلة المتداولة حول التكامل مع Finance
 
@@ -37,7 +37,7 @@ ms.locfileid: "6053366"
 | --- | --- | --- | --- |
 | Dynamics 365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![الإعدادات الافتراضية لمستخدم تطبيق Talent](media/DynamicsApplicationUser.png)
+![الإعدادات الافتراضية لمستخدم تطبيق Talent.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>هل تتم مزامنة جميع البيانات أو بعض كيانات البيانات فقط؟
 
@@ -57,7 +57,7 @@ ms.locfileid: "6053366"
 
 بالنسبة إلى البيانات الموجودة في Finance and Operations ولكن غير الموجودة في Human Resources، يمكن ربط النظامين معًا باستخدام **تكوين الارتباطات** في Human Resources.
 
-![تعيين الأبعاد المالية](media/MapFinancialDimensions.png)
+![تعيين الأبعاد المالية.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>عندما أستورد موظفين، ينتقل هؤلاء في بعض الأحيان إلى عاملين غير نشطين في Finance. ما السبب؟
 
@@ -71,14 +71,14 @@ ms.locfileid: "6053366"
 
 باستخدام "الاستعلام المتقدم"، يمكنك تصفية البيانات المصدر وإعادة تشكيلها قبل تمريرها إلى الوجهة.
 
-![الاستعلام المتقدم للعاملين النشطين](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![الاستعلام المتقدم للعاملين النشطين.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>هل يمكنني تحديد الحقول التي سيتم إرسالها إلى Finance لكيان معين؟
 
 يمكنك إضافة حقول أو إزالتها من مهمة التكامل. لن يتم ملء كافة حقول البيانات الموجودة على جدول Dataverse من Human Resources.
 يمكنك ملء بيانات إضافية عبر Power Apps.
 
-![إضافة حقول إلى أو إزالتها من مهمة تكامل](media/SpecifyFieldsIncludedInIntegration.png)
+![إضافة حقول أو إزالتها من مهمة تكامل.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>بعد إعداد التكامل كوظيفة دفعية، ولكن فقد Human Resources الاتصال بالنظام الوجهة. كيف يمكنني إرسال مجموعة التغييرات نفسها إلى النظام الوجهة؟
 
@@ -126,21 +126,21 @@ ms.locfileid: "6053366"
 
 1. التقط فهرس المهمة من موحد البيانات (إنه "9" في هذا المثال).
 
-    ![التقاط فهرس المهمة من موحد البيانات](media/CaptureTaskIndex.png)
+    ![التقاط فهرس المهمة من موحد البيانات.](media/CaptureTaskIndex.png)
 
 2. تعقب وقت تنفيذ المشروع.
 
-    ![تعقب وقت تنفيذ المشروع](media/CaptureTimeOfExecution.png)
+    ![تعقب وقت تنفيذ المشروع.](media/CaptureTimeOfExecution.png)
 
 3. في Finance، قم بتعريف الفهرس-1. في هذا المثال، يتوافق المشروع مع اللاحقة "8" ووقت تنفيذ مشروع الفهرس "0" مع وقت التنفيذ في الخطوة 2.
 
-    ![تعريف الفهرس](media/IdentifyIndex.png)
+    ![تعريف الفهرس.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>بعد تكامل Human Resources وFinance، لا يمكنني رؤية بيانات Human Resources الخاصة بي في Finance. ماذا أفعل؟
 
 التكامل مع Finance عبارة عن عملية تتكون من خطوتين. أولاً، تحقق من تحديث بيانات Human Resources ومن توفرها في Dataverse. هذا الأمر عبارة عن مزامنة قريبة من الوقت الحقيقي ويمكن التحقق منها في Power Apps عن طريق مراجعة البيانات في جداول البيانات.
 
-![البيانات الموجودة في Dataverse](media/DataInCDS.png)
+![البيانات الموجودة في Dataverse.](media/DataInCDS.png)
 
 إذا لم تظهر البيانات كما هو متوقع في Dataverse، فتأكد من دعم الكيان في التكامل. لتضمين بيانات إضافية في Dataverse، ستتم مطالبة بإجراء تغيير من جانب Microsoft.
 
@@ -165,7 +165,7 @@ ms.locfileid: "6053366"
 
 يمكنك تحديث كيانات البيانات في Finance بالانتقال إلى **إدارة البيانات \> محددات إطار العمل‬ \> إعدادات الكيان‬ \> تحديث قائمة الكيانات.** قد يستغرق استكمال هذا الإجراء دقائق قليلة تتمكن بعدها من رؤية هذه التعيينات. تحدث هذه المشكلة عند إنشاء مشاريع جديدة.
 
-![تعيين حقول مفقود](media/MissingFieldMapping.png)
+![تعيين حقول مفقود.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

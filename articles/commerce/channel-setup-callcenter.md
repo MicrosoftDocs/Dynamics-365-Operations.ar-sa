@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800653"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351190"
 ---
 # <a name="set-up-a-call-center-channel"></a>إعداد قناة مركز الاتصال
 
@@ -54,11 +54,11 @@ ms.locfileid: "5800653"
 
 توضح الصورة التالية إنشاء قناة مركز اتصال جديدة.
 
-![قناة مركز اتصال جديدة](media/channel-setup-callcenter-1.png)
+![قناة مركز اتصال جديدة.](media/channel-setup-callcenter-1.png)
 
 تعرض الصورة التالية مثالاً لقناة مركز اتصال.
 
-![مثال قناة مركز اتصال](media/channel-setup-callcenter-2.png)
+![مثال قناة مركز اتصال.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>إعداد إضافي للقناة
 
@@ -66,7 +66,7 @@ ms.locfileid: "5800653"
 
 تُظهر الصورة التالية خيارات إعداد **أوضاع التسليم** و **طرق الدفع** على علامة تبويب **الإعداد**.
 
-![إجراءات إعداد إضافية لقناة مركز الاتصال](media/channel-setup-callcenter-3.png)
+![إجراءات إعداد إضافية لقناة مركز الاتصال.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>إعداد طرق الدفع
 
@@ -81,7 +81,7 @@ ms.locfileid: "5800653"
 
 تعرض الصورة التالية مثالاً عن طريقة الدفع النقدي.
 
-![أمثلة عن طرق الدفع](media/channel-setup-callcenter-payments.png)
+![أمثلة عن طرق الدفع.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>إعداد أوضاع التسليم
 
@@ -97,7 +97,7 @@ ms.locfileid: "5800653"
 
 تعرض الصورة التالية مثالاً لوضع التسليم.
 
-![إعداد أوضاع التسليم](media/channel-setup-retail-7.png)
+![إعداد أوضاع التسليم.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>إعداد مستخدمي القناة
 

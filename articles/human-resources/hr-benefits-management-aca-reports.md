@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1417232baeaf03721bd0b25cc3f9fd5f750c65d5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052253"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353652"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>إنشاء تقارير قانون الرعاية ميسورة التكلفة في إدارة الميزات
 
@@ -48,11 +48,11 @@ ms.locfileid: "6052253"
 
 1. في مساحة عمل **إدارة الميزات**، حدد **مجموعة تغطية الرعاية ميسورة التكلفة**.
 
-    ![تحديد مجموعة تغطية الرعاية ميسورة التكلفة](./media/hr-benefits-management-aca-coverage-group.png)
+    ![تحديد مجموعة تغطية الرعاية ميسورة التكلفة.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. حدد **جديد** لإنشاء مجموعة تغطية جديدة للرعاية ميسورة التكلفة أو **تحرير** لتغيير مجموعة موجودة.
 
-    ![تحديد جديد أو تحرير](./media/hr-benefits-management-aca-new.png)
+    ![تحديد جديد أو تحرير.](./media/hr-benefits-management-aca-new.png)
 
 3. قم بتعيين الحقول التالية.
 
@@ -67,7 +67,7 @@ ms.locfileid: "6052253"
     | المجموعة صالحة من | أول تاريخ يكون فيه هذا السجل صالحًا. |
     | المجموعة صالحة من خلال | آخر تاريخ يكون فيه هذا السجل صالحًا. إذا لم يكن هناك تاريخ انتهاء صلاحية، فادخل **أبدا**. |
 
-    ![إنشاء مجموعة تغطية](./media/hr-benefits-management-aca-new-group.png)
+    ![إنشاء مجموعة تغطية.](./media/hr-benefits-management-aca-new-group.png)
 
 4. حدد **حفظ**.
 
@@ -77,11 +77,11 @@ ms.locfileid: "6052253"
 2. حدد المجموعة التي سيتم تعيين الموظفين إليها.
 3. حدد **التعيين الشامل**.
 
-    ![تحديد التعيين الشامل](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![تحديد التعيين الشامل.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. حدد الموظفين في القائمة، ثم حدد **تعيين**.
 
-    ![تعيين الموظفين المحددين إلى مجموعة](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![تعيين الموظفين المحددين إلى مجموعة.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>الحفاظ على إصدارات متعددة لخيارات التغطية
 
@@ -111,12 +111,12 @@ ms.locfileid: "6052253"
 2. حدد الموظف في القائمة.
 3. من علامة التبويب **التوظيف**، في قسم **معلومات إضافية**، حدد **تغطية الرعاية ميسورة التكلفة**.
 
-    ![تغيير الخيارات لموظف واحد](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![تغيير الخيارات لموظف واحد.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. حدد **تحرير**.
 5. بالنسبة لكل شهر يتطلب تغييرات، حدد خانة الاختيار **تجاوز الافتراضي**، ثم قم بتغيير القيم الأخرى كما هو مطلوب.
 
-    ![تجاوز القيم الافتراضية](./media/hr-benefits-management-aca-override-default.png)
+    ![تجاوز القيم الافتراضية.](./media/hr-benefits-management-aca-override-default.png)
 
 6. حدد **حفظ**.
 
@@ -131,7 +131,7 @@ ms.locfileid: "6052253"
 3. حدد **تحرير**.
 4. قم بتعيين خيار **رفع تقرير بموجب قانون الرعاية ميسورة التكلفة** إلى **نعم**.
 
-    ![إعداد تقرير تغطية الرعاية الصحية](./media/hr-benefits-management-aca-report-coverage.png)
+    ![إعداد تقرير تغطية الرعاية الصحية.](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. حدد **حفظ**.
 
@@ -147,23 +147,23 @@ ms.locfileid: "6052253"
     > [!NOTE]
     > إذا كنت تقوم بطباعة نماذج 1095-C لأكثر من 500 موظف، فستتلقى ملف PDF واحدًا أو أكثر. ونوصي بزيادة قيمة حقل **الحد الأقصى لحجم الملف بالميغا بايت** في صفحة **معلمات إدارة المستندات** إلى **150**. (لفتح هذه الصفحة بسرعة، يمكنك استخدام حقل البحث في شريط التنقل.)
     >
-    > ![تغيير الحد الأقصى لحجم الملف](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![تغيير الحد الأقصى لحجم الملف.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. لفحص حاله التقارير وعرضها، استخدم حقل البحث في شريط التنقل لفتح صفحة **وظائف التقارير الإلكترونية**.
 
-    ![البحث عن الصفحة مهام التقارير الإلكترونية](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![البحث عن الصفحة مهام التقارير الإلكترونية.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. حدد التقرير المراد عرضه، ثم حدد **إظهار الملفات**.
 
-    ![إظهار الملفات](./media/hr-benefits-management-aca-show-files.png)
+    ![إظهار الملفات.](./media/hr-benefits-management-aca-show-files.png)
 
 5. حدد **فتح**.
 
-    ![فتح ملف](./media/hr-benefits-management-aca-open-file.png)
+    ![فتح ملف.](./media/hr-benefits-management-aca-open-file.png)
 
 6. من شريط الإخطارات الذي يظهر أسفل اطار المستعرض، افتح ملف zip، ثم حدد التقرير. يمكنك عرض أو طباعة ملف PDF.
 
-    ![مثال نموذج 1095-C](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![مثال نموذج 1095-C.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>عرض معلومات تغطية الرعاية ميسورة التكلفة
 
@@ -178,7 +178,7 @@ ms.locfileid: "6052253"
 1. في مساحة عمل **إدارة الميزات**، حدد **تغطية الرعاية ميسورة التكلفة للعامل**.
 2. في الحقل **اسم المجموعة**، حدد مجموعة.
 
-    ![عرض تغطية الرعاية ميسورة التكلفة](./media/hr-benefits-management-aca-view-coverage.png)
+    ![عرض تغطية الرعاية ميسورة التكلفة.](./media/hr-benefits-management-aca-view-coverage.png)
 
 إذا تم تجاوز أي من القيم الافتراضية من مجموعة التغطية التي يشملها قانون الرعاية ميسورة التكلفة‬، فستظهر علامة نجمية بجوار القيمة التي تم تغييرها. إذا كانت القيم هي نفسها لفترة 12 شهرًا ولم يتم تجاوزها، فستظهر القيمة في عمود **جميع الاثنى عشر شهرًا‬**.
 
@@ -198,11 +198,11 @@ ms.locfileid: "6052253"
 
 إذا كان يجب عليك رفع تقرير بالأشخاص الذين تمت تغطيتهم نظرًا لأنك توفر تغطية ذاتية التأمين، فيمكنك عرض أي معالين تجري تغطيتهم تحت خطط الفوائد المعلمة على أنها **‬‏‫خاضعة لتقرير ACA**. في جزء الإجراءات، حدد **عرض تغطية المعالين**.
 
-![عرض تغطية المعالين](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![عرض تغطية المعالين.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 يتم عرض معلومات التغطية الخاصة بالمعالين للموظف.
 
-![تغطية المعال](./media/hr-benefits-management-aca-dependents.png)
+![تغطية المعال.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > تعرض الصفحة فقط خطط الميزات التي تم تمييزها على أنها **خاضع لتقرير ACA**.

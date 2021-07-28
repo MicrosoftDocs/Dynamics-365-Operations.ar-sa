@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794339"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351263"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
 
@@ -31,7 +31,7 @@ ms.locfileid: "5794339"
 
 صفحة الفئة الافتراضية المنتقل إليها هي الصفحة التي ينتقل إليها مستخدمو موقع الويب عادةً عند تحديد فئة في التدرج الهرمي للتنقل. تتيح لك صفحة الفئة التصفح، ويمكنك أيضًا فرز المنتجات المصنفة وتحسينها.
 
-![صفحة الفئة الافتراضية المنتقل إليها](./media/SimpleCategoryLandingDressCategory.png)
+![صفحة الفئة الافتراضية المنتقل إليها.](./media/SimpleCategoryLandingDressCategory.png)
 
 في أعلى الصفحة يوجد عنوان يعرض جميع فئات المنتجات والصفحات الأخرى التي صنّفها مدير البضائع. يتم إجراء التكوين كجزء من تكوين التدرج الهرمي للتنقل في القناة. يوجد أسفل الصفحة تذييل يتضمن ارتباطات سريعة لمختلف الموضوعات التي قد يهتم بها المتسوق.
 
@@ -55,7 +55,7 @@ ms.locfileid: "5794339"
 
 إذا كنت ترغب في ان يكون للصفحة المنتقل اليها للفئة بتجربة أكثر تفصيلًا لفئة معينة، يمكنك "إثراء" الصفحة المتنقل إليها للفئة الخاصة بهذه الفئة. على سبيل المثال، يمكنك إضافة مقطع فيديو تسويقي وسرد بعض القصص الخاصة بالفئة لجذب انتباه المتسوق. لمزيد من المعلومات، راجع [تحسين الصفحة المتنقل إليها لفئة](enrich-category-page.md).
 
-![الصفحة المتنقل إليها‬ للفئة المُحسنة](./media/CategoryLandingPages.png)
+![الصفحة المتنقل إليها‬ للفئة المُحسنة.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>الاقتراح التلقائي وصفحات نتائج البحث
 
@@ -69,11 +69,11 @@ ms.locfileid: "5794339"
 - توفر **المنتجات** روابط مباشرة إلى صفحة تفاصيل المنتج.
 - تسرد **اقتراحات البحث عن فئة محددة** فئات متنوعة والسماح للمستخدمين بالبحث عن الكلمة الأساسية‬ في فئة محددة.
 
-![الاقتراح التلقائي الرائع](./media/ImmersiveAutoSuggestUX.png)
+![الاقتراح التلقائي الرائع.](./media/ImmersiveAutoSuggestUX.png)
 
 عندما يُحدد المستخدمون أحد الكلمات الرئيسية أو اقتراحات البحث الخاصة بالفئة الرئيسية، أو عند عدم وجود اقتراحات لمصطلح البحث الذي يقومون بإدخاله، تتم إعادة توجيههم إلى صفحة نتائج البحث. يمكن للمستخدمين بعد ذلك استعراض قائمة نتائج البحث، وفرزها، وتحسينها للعثور علي العنصر المطلوب.
 
-![البحث في الصفحة المنتقل إليها](./media/SearchLanding.png)
+![البحث في الصفحة المنتقل إليها.](./media/SearchLanding.png)
 
 تعتبر المكونات التالية ضرورية لصفحة نتائج البحث:
 
@@ -94,7 +94,7 @@ ms.locfileid: "5794339"
 
 >[!NOTE]
 >إمكانيات البحث المتصلة بالسحابة هذه متوفرة للبدء في الإصدار 10.0.8. تأكد من أن تحت **معلمات التجارة > معلمات التكوين** يوجد إدخال لـ "ProductSearch.UseAzureSearch تم تعيينه إلى"صواب"". 
-![معلمات التكوين للبحث عن طريق السحابة](./media/CloudPoweredSearchConfigurationParameters.png)
+![معلمات التكوين للبحث عن طريق السحابة.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

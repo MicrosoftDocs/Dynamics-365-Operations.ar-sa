@@ -9,16 +9,17 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c22af9bf76818dd682b4147c3677cd1715e4cbf8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021979"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352628"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>نظرة عامة على تكامل Dynamics 365 Commerce وMicrosoft Teams
 
@@ -50,7 +51,7 @@ ms.locfileid: "6021979"
 
 يبين الرسم التوضيحي التالي البنية التصورية لتكامل Dynamics 365 Commerce وMicrosoft Teams، باستخدام متجر سان فرانسيسكو كمثال. يقوم كل من Teams وتطبيق Commerce POS باستخدام Microsoft Planner كمستودع بحيث تظهر المهام المنشورة من Teams في تطبيق نقطة البيع وتظهر المهام المخصصة التي أنشأها مديرو المتجر في تطبيق نقطة البيع في Teams، مما يؤدي إلى تجربة إدارة مهام سلسة بين التطبيقات .    
 
-![بنية تكامل Commerce وTeams](media/d365-commerce-teams-integration-conceptual-architecture.png)
+![بنية تكامل Commerce وTeams.](media/d365-commerce-teams-integration-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

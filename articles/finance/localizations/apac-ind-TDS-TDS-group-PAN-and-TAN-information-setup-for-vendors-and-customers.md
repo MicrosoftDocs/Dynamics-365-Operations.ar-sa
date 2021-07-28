@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022999"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358256"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>إعداد مجموعة TDS وPAN ومعلومات TAN للموردين والعملاء
 
@@ -31,7 +31,7 @@ ms.locfileid: "6022999"
 
 1. انتقل إلى **الحسابات المدينة \> الموردين \> كافة الموردين** أو **الحسابات المدينة \> العملاء \> جميع العملاء**.
 
-    [![صفحة كافة الموردين](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![صفحة كافة الموردين.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. في جزء الإجراء، حدد **جديد** لإنشاء مورد أو عميل، وأدخل التفاصيل المطلوبة. أو بدلاً من ذلك، حدد موردًا أو عميلاً موجودًا.
 3. في علامة التبويب السريعة **الفاتورة والتسليم**، في القسم **ضريبة الخصم**، قم بتعيين الخيار **حساب ضريبة الخصم** إلى **نعم** لحساب ضريبة الخصم أو TDS أو الضريبة التي تم جمعها في المصدر (TCS) للمورد أو العميل.
@@ -60,7 +60,7 @@ ms.locfileid: "6022999"
     - السلطة المحلية
     - غير ذلك
 
-    [![علامة التبويب السريعة معلومات الضريبة](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![علامة التبويب السريعة معلومات الضريبة.](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. في جزء الإجراءات، ضمن علامة التبويب **المورد**، في مجموعة **التسجيل**، حدد **معرفات التسجيل** لفتح الصفحة **إدارة العناوين**.
 10. في الصفحة **إدارة العناوين**، في علامة التبويب السريعة **معلومات الضريبة**، حدد **إضافة** أو **تحرير** لفتح الصفحة **إدارة معلومات الضريبة**، حيث يمكنك الاحتفاظ بإدخال تسجيل الضريبة.

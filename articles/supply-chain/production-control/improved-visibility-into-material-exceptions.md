@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: beacff21c6468e9c4b387a654e95f25572c0ede9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831976"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348358"
 ---
 # <a name="visibility-into-material-exceptions"></a>رؤية في استثناءات المواد
 
@@ -37,7 +37,7 @@ ms.locfileid: "5831976"
 
 في الشكل التالي، يمثل الشريط الأزرق وظيفة إنتاج مجدولة على أحد الموارد. تتم جدولة المهمة لتبدأ في الأول من شهر مايو، 2017 (2017/05/01). هذا التاريخ هو تاريخ المواد الخام. بمعنى آخر، المواد التي تم تعيينها للوظيفة في قائمة مكونات الصنف وبنود المعادلة يجب أن تكون جاهزة في هذا التاريخ. يمثل التاريخ الآخر في الشكل، 6 مايو 2017 (6/5/2017)، تاريخ مساحة العمل. في هذا المثال، يكون تاريخ المادة الخام سابق لتاريخ مساحة العمل. لذلك، كان من المفترض أن يكون تاريخ بدء استهلاك المادة الخام قد انقضى، وتفي بنود قائمة مكونات الصنف وبنود المعادلة بالمعايير التي تتطلب الانتباه إليها.
 
-![مثال لوظيفة الإنتاج الذي يكون فيه تاريخ المادة الخام سابق لتاريخ مساحة العمل](./media/improved-visibility.png)
+![مثال لوظيفة الإنتاج الذي يكون فيه تاريخ المادة الخام سابق لتاريخ مساحة العمل.](./media/improved-visibility.png)
 
 ## <a name="unreleased-material-lines-needing-attention"></a>بنود مواد غير صادرة تتطلب الانتباه
 

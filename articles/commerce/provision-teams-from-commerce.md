@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 39dabeb8bacc4ebc3376f53f15c7fb292c8d301c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022436"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352098"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>توفير Microsoft Teams من Dynamics 365 Commerce
 
@@ -49,7 +49,7 @@ ms.locfileid: "6022436"
 > [!TIP]
 > إذا لم يكن أي من المديرين الإقليميين ومديري المتاجر وعمال المتجر مرتبطين بترخيص Teams، فقد تتلقى رسالة الخطأ التالية: "فشل استرداد فئات Sku القابلة للتطبيق للمستخدم." لحل المشكلة، حدد **مزامنة الفرق والأعضاء** في جزء الإجراءات.
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>تحقق من صحة توفير Teams في مركز إدارة Teams
 
@@ -63,7 +63,7 @@ ms.locfileid: "6022436"
 
 يبين الرسم التوضيحي التالي مثالا على صفحة **إدارة الفرق** في مركز إدارة Teams.
 
-![مثال على صفحة "إدارة الفرق" في مركز إدارة Teams](media/Teams-FLW-Admin-Teams.png)
+![مثال على صفحة "إدارة الفرق" في مركز إدارة Teams.](media/Teams-FLW-Admin-Teams.png)
 
 ## <a name="upload-a-commerce-organizational-hierarchy-to-teams"></a>تحميل التدرج الهرمي التنظيمي من Commerce إلى Teams
     
@@ -86,7 +86,7 @@ ms.locfileid: "6022436"
 1. في علامة التبويب **القوائم المنشورة**، قم بإنشاء قائمه جديده تحتوي علي مهمة وهميه.
 1. حدد **نشر**. يجب ان يظهر التدرج الهرمي التنظيمي في مربع الحوار **تحديد الأشخاص الذين سيتم النشر اليهم**، كما هو موضح في المثال الموجود في التوضيح التالي.
 
-![مثال على التسلسل الهرمي التنظيمي في مربع الحوار تحديد من تريد النشر إليه](media/Microsoft-teams-verify-org-hierarchy.png)
+![مثال على التسلسل الهرمي التنظيمي في مربع الحوار تحديد من تريد النشر إليه.](media/Microsoft-teams-verify-org-hierarchy.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

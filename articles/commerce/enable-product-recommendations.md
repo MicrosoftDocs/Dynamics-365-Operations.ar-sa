@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 873266405638cd277eb748ad7e966ba8a4976b13
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0a94a74f4eb00c24142f0390bcf352db0594ca0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019849"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349462"
 ---
 # <a name="enable-product-recommendations"></a>تمكين توصيات المنتجات
 
@@ -68,7 +68,7 @@ ms.locfileid: "6019849"
 1. حدد ميزة **توصيات المنتج**.
 1. في جزء خصائص **توصيات المنتج** ، حدد **تمكين الآن**.
 
-![تشغيل التوصيات](./media/FeatureManagement_Recommendations.PNG)
+![تشغيل التوصيات.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > يبدأ هذا الإجراء عملية إنشاء قوائم توصيات المنتج. قد تحتاج إلى عدة ساعات قبل أن تصبح القوائم متوفرة ويمكن عرضها في نقطة البيع أو في Dynamics 365 Commerce.

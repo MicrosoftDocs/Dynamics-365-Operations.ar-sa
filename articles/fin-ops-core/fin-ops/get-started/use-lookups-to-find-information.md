@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adb8e1a0fef93fdd66a4cbac82689ff7a19aca4a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2672520ddf21e565edee5024d6886cabb18d6e94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754766"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348618"
 ---
 # <a name="find-information-by-using-lookups"></a>البحث عن المعلومات باستخدام عمليات البحث
 
@@ -44,15 +44,15 @@ ms.locfileid: "5754766"
 
 عندما يكون التركيز في حقل **المدينة**، يمكنك بدء البحث عن المدينة التي تريدها عن طريق كتابة بعض الأحرف، مثل "العمود". بعد التوقف عن الكتابة، سوف يفتح البحث تلقائياً، ويقوم بتصفية تلك المدن التي تبدأ بـ "العمود".
 
-[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 في هذه المرحلة، يظل المؤشر في حقل البحث. إذا تابعت الكتابة، لتكون القيمة "العمود"، فمن ثم يتم ضبط محتويات البحث تلقائيًا لتعكس أحدث قيمة في عنصر التحكم.
 
-![updateFilterLookupExample](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
 
 على الرغم من أن التركيز لا يزال في عنصر التحكم البحث، ألا يمكنك أيضا استخدام مفاتيح **سهم لأعلى** أو **سهم لأسفل** لتمييز الصف الذي ترغب في تحديده. إذا قمت بالضغط على زر **إدخال** فسوف يتم تحديد الصف المميز من البحث، وسوف يتم تحديث قيمة عنصر التحكم.
 
-![changingSelectionLookup](./media/changingselectionlookup.png)
+![changingSelectionLookup.](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>الكتابة في أكثر من مُعرف
 
@@ -62,25 +62,25 @@ ms.locfileid: "5754766"
 
 في حالة بدء المستخدم إدخال **"معرف الحساب"** داخل البحث، فسوف تُفتح القائمة المنسدلة تلقائياً كما هو موضح في القسم السابق، وسوف يرى المستخدم البحث كما هو موضح أدناه.
 
-[![البحث بحسب السياق عندما يتم إدخال معرف حساب العميل ](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![البحث بحسب السياق عندما يتم إدخال معرف حساب العميل.](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 ولكن، يمكن للمستخدم أيضا الآن إدخال بداية **اسم الحساب**. إذا تم الكشف عنه، فمن ثم يرى المستخدم البحث التالي. لاحظ كيف يتم نقل عمود **الاسم** ليكون العمود الأول في البحث، وكيف يتم فرز البحث وتصفيته بناءً على عمود **الاسم**.
 
-[![البحث بحسب السياق عندما يتم إدخال اسم العميل](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![البحث بحسب السياق عندما يتم إدخال اسم العميل.](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>استخدام رؤوس أعمدة الشبكة لتصفية وفرز أكثر تقدمًا
 
 عززت تحسينات البحث التي تمت مناقشتها في القسمين السابقين بصورة كبيرة من قدرة المستخدم على التنقل بين السطور في البحث بناءً علي بدء البحث بـحقل **المُعرف** أو **الاسم** الحقل في البحث. ومع ذلك، هناك حالات يحتاج فيها المستخدم إلى تصفية أكثر تقدمًا (أو فرز) للعثور على الصف الصحيح. في هذه الحالات، يحتاج المستخدم إلى استخدام خيارات التصفية والفرز في رؤوس أعمدة الشبكة داخل البحث. على سبيل المثال، اعتبر أن موظفًا أدخل بنود أمر المبيعات والذي يحتاج إلى تحديد "الكبل" الصحيح كمنتج. في هذه الحالة، لا يُعد كتابة "كابل" داخل عنصر تحكم **رقم الصنف** أمرًا مفيدًا، حيث أنه لا توجد أسماء منتجات تبدأ بـ"كبل".
 
-![emptyitemlookup](./media/emptyitemlookup.png)
+![emptyitemlookup.](./media/emptyitemlookup.png)
 
 بدلاً من ذلك، يحتاج المستخدم إلى مسح قيمة عنصر تحكم البحث، وفتح قائمة البحث المنسدلة، وتصفية القائمة المنسدلة باستخدام رأس عمود الشبكة، كما هو موضح أدناه. يمكن لمستخدم الماوس (أو اللمس) النقر ببساطة (أو لمس) أي رأس عمود للوصول إلى خيارات التصفية والفرز لذلك العمود. بالنسبة إلى مستخدم لوحة المفاتيح، يحتاج المستخدم بكل بساطة إلى الضغط على **Alt**+**سهم** **للأسفل** مرة ثانية لنقل التركيز إلى القائمة المنسدلة، ويمكنه بعد ذلك الضغط على المفتاح tab للانتقال إلى العمود الصحيح، ثم على **Ctrl**+**G** لفتح القائمة المنسدلة لرأس عمود الشبكة.
 
-[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 بعد تطبيق عامل التصفية (أنظر الصورة أدناه)، يمكن للمستخدم العثور على وتحديد الصف كالمعتاد.
 
-![filtereditemlookup](./media/filtereditemlookup.png)
+![filtereditemlookup.](./media/filtereditemlookup.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

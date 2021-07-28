@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dd07c9c95639c8e69e1013fd7da283cf51b60ed0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d4f2ee97db52c055136912b237412b1148c26bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804517"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352338"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>تقييد طرق الدفع للمرتجعات من دون إيصال
 
@@ -38,7 +38,7 @@ ms.locfileid: "5804517"
 3. قم بإعداد طرق الدفع في المتجر. اربط طرق الدفع بكل متجر، ثم قم بإدخال الإعدادات الخاصة بالمتجر لكل طريقة دفع.
 4. ‏‫قم بإعداد طرق الدفع للمتاجر. وللحصول على أيٍّ من طرق الدفع بالبطاقة التي يقبلها المتجر، استكمل إعداد البطاقة.‬
 
-![إعداد المتجر](media/NoReceiptReturns1.png "إعداد متجر البيع بالتجزئة") 
+![إعداد المتجر.](media/NoReceiptReturns1.png "إعداد متجر البيع بالتجزئة") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>تقييد طرق الدفع للمرتجعات من دون إيصال
@@ -49,12 +49,12 @@ ms.locfileid: "5804517"
 
 عند تعيين الخيار **تقييد المبالغ المستردة من دون إيصال** إلى **نعم**، لن يُسمح لطريقة الدفع باسترداد المبلغ المدفوع. 
 
-![طريقة الدفع بالمتجر](media/NoReceiptReturns3.png "طريقة الدفع في متجر البيع بالتجزئة") 
+![طريقة الدفع بالمتجر.](media/NoReceiptReturns3.png "طريقة الدفع في متجر البيع بالتجزئة") 
 
 > [!NOTE]
 > عندما يحدد أمين الصندوق طريقة دفع تم فيها تقييد المبالغ المستردة من دون إيصال، تظهر رسالة للتحقق من طرق الدفع المقبولة.
 
-![طرق الدفع المقبولة](media/NoReceiptReturns4.png "طرق الدفع المقبولة") 
+![طرق الدفع المقبولة.](media/NoReceiptReturns4.png "طرق الدفع المقبولة") 
 
 إذا تضمنت حركة ما عملية إرجاع مع إيصال وعملية إرجاع من دون إيصال، فلن تُفرض شروط التقييد لأن الحركة ستكون عبارة عن سير عمل إرجاع مع إيصال. 
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 94ecd623d445e23cc41829c51429e4783daa49f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304357"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355963"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>عرض الأوامر المخططة وإدارتها والموافقة عليها
 
@@ -65,7 +65,7 @@ ms.locfileid: "6304357"
 
 يوضح الرسم التوضيحي التالي كيف يمكنك استخدام قيمة **الحالة** التي تم تعيينها لكل أمر مخطط لتنفيذ سير عمل الموافقة. لتنفيذ عملية الموافقة، قم بضبط قيمة **الحالة** لكل أمر مخطط كما هو موضح في القسم السابق.
 
-![سير مهام الأمر المخطط](media/approved-planned-orders-1.png)
+![سير مهام الأمر المخطط.](media/approved-planned-orders-1.png)
 
 > [!TIP]
 > نوصي بالموافقة على أي أوامر مخططة معدلة. بخلاف ذلك، سيتم تجاهل عمليات التحرير والكتابة فوقها من خلال تشغيل التخطيط التالي.

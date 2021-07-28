@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019436"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350392"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>إعداد بيئة تطوير التجارة الإلكترونية للتصحيح مقابل الجهاز الظاهري لملقم البيع بالتجزئة من المستوى الأول 1
 
@@ -38,13 +38,13 @@ ms.locfileid: "6019436"
 
 يبين الرسم التوضيحي التالي مثالا للخطأ الذي قد يحدث عند تحديد متغير في صفحة تفاصيل المنتج.
 
-![حدث خطأ عند تحديد متغير في إحدى صفحات تفاصيل المنتج](media/unhandled-rejection-error.jpg)
+![حدث خطأ عند تحديد متغير في إحدى صفحات تفاصيل المنتج.](media/unhandled-rejection-error.jpg)
 
 يبين الرسم التوضيحي التالي مثالا لخطأ مشابه في أدوات مصحح أخطاء المستعرض (أدوات المطور F12). تذكر رسالة الخطأ مخالفة توجيه نهج أمان المحتوى.
 
-![خطأ في أدوات مصحح الأخطاء](media/debugger-tools-error.JPG)
+![خطأ في أدوات مصحح الأخطاء.](media/debugger-tools-error.JPG)
 
-## <a name="resolution"></a>الدقة
+## <a name="resolution"></a>الحل
 
 ### <a name="disable-the-content-security-policy-for-the-site-in-commerce-site-builder"></a>تعطيل نهج أمان المحتوى للموقع في منشئ مواقع Commerce
 

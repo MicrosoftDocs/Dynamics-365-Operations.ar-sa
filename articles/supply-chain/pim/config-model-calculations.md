@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0806a5b36b04e77a5a6d10f3c2eb3d7ba680e75
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829608"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356406"
 ---
 # <a name="product-configuration-model-calculations"></a>حسابات نموذج تكوين المنتج
 
@@ -70,7 +70,7 @@ ms.locfileid: "5829608"
 
 تظهر اللقطة التالية كيف قد تبدو إعدادات هذه السمة في النظام الخاص بك.
 
-![إعدادات نوع السمة للمثال 2](media/model-calculations-example2.png "إعدادات نوع السمة للمثال 2")
+![إعدادات نوع السمة للمثال 2.](media/model-calculations-example2.png "إعدادات نوع السمة للمثال 2")
 
 يتم استخدام السمة في العبارة الشرطية التالية:
 
@@ -92,7 +92,7 @@ ms.locfileid: "5829608"
 
 تظهر اللقطة التالية كيف قد تبدو إعدادات هذه السمة في النظام الخاص بك.
 
-![إعدادات نوع السمة للمثال 3](media/model-calculations-example3.png "إعدادات نوع السمة للمثال 3")
+![إعدادات نوع السمة للمثال 3.](media/model-calculations-example3.png "إعدادات نوع السمة للمثال 3")
 
 يتم حساب قيمة السمة `textFixedList` باستخدام العبارة الشرطية التالية:
 

@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8f6affd05e658f39d567f7512c71d944636588ff
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ad4ba2781c1b1086f2b554ec1db0f0f970d2d671
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907929"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351431"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>مساحة العمل المحمولة لتعاون المورد
 
@@ -120,12 +120,12 @@ ms.locfileid: "5907929"
 4.  في المرة الأولى التي تقوم فيها بتسجيل الدخول، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
 5.  بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
-    [![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![سحب للتحديث.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>استخدام مساحة العمل المحمولة "تعاون المورد"
 عندما تحدد مساحة العمل **تعاون المورد**، سوف ترى الخيارات التالية.
 
-![مساحة العمل المحمولة لتعاون المورد](./media/vendor-collaboration-mobile-app.png)
+![مساحة العمل المحمولة لتعاون المورد.](./media/vendor-collaboration-mobile-app.png)
 
 تتضمن مساحة العمل **تعاون المورد** الصفحات التالية.
 

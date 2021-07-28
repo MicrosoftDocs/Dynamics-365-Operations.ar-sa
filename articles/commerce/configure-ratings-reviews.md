@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5161755b9e15e93fbb5eeb6404ea0820f7068ea7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 09930af8b6ce78a2a88382772a44de173875856a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796065"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352532"
 ---
 # <a name="configure-ratings-and-reviews"></a>تكوين التقييمات والمراجعات
 
@@ -46,7 +46,7 @@ ms.locfileid: "5796065"
 
 يوضح الرسم التوضيحي التالي كيف يبدو هذا التكوين في Dynamics 365 Commerce.
 
-![تكوين موقع لإظهار التقييمات والمراجعات](media/rnr-eCommerce-site-appsettings.png)
+![تكوين موقع لإظهار التقييمات والمراجعات.](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>ربط تقييم المنتج بقسم المراجعات في PDP
 
@@ -60,7 +60,7 @@ ms.locfileid: "5796065"
 
 يوضح الرسم التوضيحي التالي كيف يبدو هذا التكوين في Dynamics 365 Commerce.
 
-![ربط تقييم المنتج بقسم المراجعات في PDP](media/rnr-eCommerce-buy-box-rating-summary.png)
+![ربط تقييم المنتج بقسم المراجعات في PDP.](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>تكوين ارتباط صفحة الخصوصية والسياسة
 
@@ -75,7 +75,7 @@ ms.locfileid: "5796065"
 
 يوضح الرسم التوضيحي التالي كيف يبدو هذا التكوين في Dynamics 365 Commerce.
 
-![تكوين ارتباط صفحة الخصوصية والسياسة](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![تكوين ارتباط صفحة الخصوصية والسياسة.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>تكوين الوحدات النمطية للتصنيفات والمراجعات في صفحات تفاصيل المنتج
 

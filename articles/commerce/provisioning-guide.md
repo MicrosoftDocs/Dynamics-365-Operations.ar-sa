@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022412"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352074"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>تزويد بيئة تقييم Dynamics 365 Commerce
 
@@ -90,16 +90,16 @@ ms.locfileid: "6022412"
 1. في حقل **إصدار التطبيق**، حدد الإصدار الأحدث. إذا كانت هناك حاجه محدده لتحديد إصدار تطبيق مختلف عن الإصدار الأحدث، فلا تقم بتحديد إصدار أقدم من **10.0.14**.
 1. في الحقل **إصدار النظام الأساسي**، استخدم إصدار النظام الأساسي الذي يتم اختياره تلقائيا لإصدار التطبيق الذي قمت بتحديده. 
 
-    ![تحديد إصدارات التطبيق والنظام الأساسي](./media/project1.png)
+    ![تحديد إصدارات التطبيق والنظام الأساسي.](./media/project1.png)
 
 1. حدد **التالي**.
 1. حدد **العرض التوضيحي** كمخطط البيئة.
 
-    ![تحديد مخطط البيئة 1](./media/project2.png)
+    ![تحديد مخطط البيئة 1.](./media/project2.png)
 
 1. في صفحة **بيئة النشر**، أدخل اسم بيئة. اترك الإعدادات المتقدمة كما هي.
 
-    ![نشر صفحة البيئة](./media/project4.png)
+    ![نشر صفحة البيئة.](./media/project4.png)
 
 1. اضبط حجم الجهاز الظاهري (VM) كما هو مطلوب. (نوصي بوحدة حفظ المخزون للجهاز الظاهري (VM) \[SKU\] **D13 v2**.)
 1. راجع شروط التسعير والترخيص، ثم حدد خانة الاختيار للإشارة إلى موافقتك عليها.

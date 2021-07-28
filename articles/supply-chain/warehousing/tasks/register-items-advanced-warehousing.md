@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830824"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357992"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>تسجيل أصناف لصنف ممكَّن للتخزين المتقدم باستخدام دفتر يومية وصول الصنف
 
@@ -53,14 +53,14 @@ ms.locfileid: "5830824"
 1. قم بتعيين **رقم الحساب** إلى *1001*.
 1. قم بتعيين **رقم** لرقم أمر الشراء الذي قمت بتحديده لهذا التدريب.
 
-    ![دفتر يومية وصول الصنف](../media/item-arrival-journal-header.png "دفتر يومية وصول الصنف")
+    ![دفتر يومية وصول الصنف.](../media/item-arrival-journal-header.png "دفتر يومية وصول الصنف")
 
 1. حدد **موافق** لإنشاء راس دفتر اليومية.
 1. في قسم **بنود دفتر اليومية**، حدد **إضافة بند** وأدخل البيانات التالية:
     - **رقم الصنف** – قم بالتعيين إلى *M9200*. سيتم تعيين **الموقع**، و **المستودع**، و **الكمية** على أساس بيانات حركة المخزون لعدد 10 نقالات (1000 لكل منها).
     - **الموقع** – قم بالتعيين إلى *001*. لا يتعقب هذا الموقع المحدد لوحات الترخيص.
 
-    ![بند دفتر يومية وصول الصنف](../media/item-arrival-journal-line.png "بند دفتر يومية وصول الصنف")
+    ![بند دفتر يومية وصول الصنف.](../media/item-arrival-journal-line.png "بند دفتر يومية وصول الصنف")
 
     > [!NOTE]
     > يحدد حقل **التاريخ** التاريخ الذي سيتم فيه تسجيل الكمية المتاحة من هذا الصنف في المخزون.  

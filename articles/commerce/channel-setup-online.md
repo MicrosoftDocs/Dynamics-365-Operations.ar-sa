@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936934"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351166"
 ---
 # <a name="set-up-an-online-channel"></a>إعداد قناة على الإنترنت
 
@@ -55,11 +55,11 @@ ms.locfileid: "5936934"
 
 توضح الصورة التالية إنشاء جديدة عبر الإنترنت.
 
-![قناة جديدة عبر الإنترنت](media/channel-setup-online-1.png)
+![قناة جديدة عبر الإنترنت.](media/channel-setup-online-1.png)
 
 تعرض الصورة التالية مثالاً لقناة عبر الإنترنت.
 
-![مثال لقناة عبر الإنترنت](media/channel-setup-online-2.png)
+![مثال لقناة عبر الإنترنت.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>إعداد اللغات
 
@@ -75,7 +75,7 @@ ms.locfileid: "5936934"
 
 تُظهر الصورة التالية خيارات إعداد **أوضاع التسليم** و **طرق الدفع** و **تعيين مجموعة التنفيذ** على علامة تبويب **الإعداد‏‎**.
 
-![إجراءات إعداد إضافية لقناة عبر الإنترنت](media/channel-setup-online-3.png)
+![إجراءات إعداد إضافية لقناة عبر الإنترنت.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>إعداد طرق الدفع
 
@@ -90,7 +90,7 @@ ms.locfileid: "5936934"
 
 تعرض الصورة التالية مثالاً عن طريقة الدفع النقدي.
 
-![أمثلة عن طرق الدفع](media/channel-setup-retail-5.png)
+![أمثلة عن طرق الدفع.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>إعداد أوضاع التسليم
 
@@ -104,7 +104,7 @@ ms.locfileid: "5936934"
 
 تعرض الصورة التالية مثالاً لوضع التسليم.
 
-![إعداد أوضاع التسليم](media/channel-setup-retail-7.png)
+![إعداد أوضاع التسليم.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>إعداد تعيين مجموعة تنفيذ
 
@@ -118,13 +118,13 @@ ms.locfileid: "5936934"
 
 تعرض الصورة التالية مثالاً لإعداد تعيين مجموعة تنفيذ.
 
-![إعداد تعيين مجموعة تنفيذ](media/channel-setup-retail-9.png)
+![إعداد تعيين مجموعة تنفيذ.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على القنوات](channels-overview.md)
+[نظره عامة حول القنوات](channels-overview.md)
 
-[المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
+[المتطلبات الأساسية لإعداد القناة](channels-prerequisites.md)
 
 [إعداد قناة بيع بالتجزئة](channel-setup-retail.md)
 

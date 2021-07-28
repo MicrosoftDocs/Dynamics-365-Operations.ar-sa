@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261736"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354799"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>وحدات نطاق السحابة والحافة لأحمال التصنيع وإدارة المستودعات
 
@@ -41,7 +41,7 @@ ms.locfileid: "6261736"
 
 تقوم وحدات قياس الوحدات بتوسيع بيئة مركز Supply Chain Management المركزي عن طريق أضافه قدره معالجه مخصصه. يمكن تشغيل وحدات القياس في السحابة. بدلاً من ذلك، يمكنها العمل علي الحافة الداخلية في المرافق المحلية.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 مع وحدات قياس":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 مع وحدات قياس.":::
 
 توفر وحدات القياس المرونة والموثوقية والمقياس لأحمال العمل المعينة. يمكن قطع اتصال وحدات مقياس الحافة بشكل مؤقت من بيئة مركز السحابة، ويتابع العاملون عملهم في أحمال العمل المعينة على الحافة.
 
@@ -157,7 +157,7 @@ ms.locfileid: "6261736"
 
 تُعرف وحدة SKU على المستوى الابتدائي بأنها *أساسية*، ووحدة SKU ذات مستوى أداء أعلى تُعرف بأنها *قياسية*. يتم تحميل كل SKU بشكل مسبق مع عدد محدد من الحركات الشهرية. ومع ذلك، يمكن زيادة موازنة الحركات الشهرية عن طريق إضافة وظائف إضافية زائدة لكل SKU.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="وظائف إضافية لوحدات قياس السحابة":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="وظائف إضافية لوحدات قياس السحابة.":::
 
 > [!TIP]
 > لتحديد الحجم الذي يفي باحتياجاتك، تعاون مع شريكك وشركة Microsoft لفهم حجم الحركات الشهرية الذي تطلبه.
@@ -181,11 +181,11 @@ ms.locfileid: "6261736"
 
 بالنسبة لكل مستأجر، تعرض القائمة حالة الإلحاق.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="قائمة بالمستأجرين في علامة التبويب Dynamics 365":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="قائمة بالمستأجرين في علامة التبويب Dynamics 365.":::
 
 حدد **انقر هنا للبدء** لطلب إلحاق مستأجر LCS. يجب قبول البنود. يجب عليك أيضًا توفير عنوان بريد إلكتروني للعمل حتى تتمكن Microsoft من إرسال المراسلات التي تتعلق بعملية الإلحاق.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="إرسال التسجيل لمستأجر":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="إرسال التسجيل لمستأجر.":::
 
 ستقوم Microsoft بمراجعة طلبك واعلامك بالخطوات التالية عن طريق إرسال بريد إلكتروني إلى العنوان الذي قمت بتوفيره في نموذج التسجيل. ستعمل Microsoft عن كثب لتمكين وحدات القياس في الطبولوجيا المختلطة لسيناريو العمل.
 
@@ -195,13 +195,13 @@ ms.locfileid: "6261736"
 
 انتقل إلى [مدخل أداره وحدات المقياس](https://aka.ms/SCMSUM)، ثم قم بتسجيل الدخول باستخدام حساب المستأجر الخاص بك. في صفحه **تكوين وحدات المقياس**، يمكنك أضافه بيئة مركز إذا لم تكن مدرجه بالفعل. يمكنك بعد ذلك تحديد المركز الذي تريد تكوينه بوحدات القياس وأحمال العمل.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="تجربة وحده القياس وأداره أحمال العمل":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="تجربة وحدة القياس وإدارة أحمال العمل.":::
 
 لإضافة وحدة قياس أو أكثر المتوفرة في اشتراكاتك، حدد **إضافة وحدات قياس**.
 
 في علامة التبويب **أحمال العمل المعرفة**، استخدم الزر **إنشاء حمل عمل** لإضافة حمل عمل إدارة المستودعات إلى إحدى وحدات القياس. بالنسبة لكل حمل عمل ، يجب تحديد سياق العمليات التي ستكون ملكا لحمل العمل. بالنسبة لأحمال العمليات لأداره المستودعات ، يكون السياق مستودعا معينا في موقع محدد وكيان قانوني.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="إنشاء حمل العمل":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="إنشاء حمل العمل.":::
 
 > [!TIP]
 > بمرور الوقت، ستُضاف تحسينات تزايدية إلى تجربة إدارة وحدات القياس للمساعدة في جعل عمليات إدارة دورة الحياة أكثر سهولة. يتم توثيق القدرات المحددة للإصدار الحالي في كتيب إلحاق متوفر للعملاء الذين هم بصدد إجراء عملية إلحاق في الطبولوجيا المختلطة الموزعة في Supply Chain Management‬. <!-- KFM: Add a link to the handbook when it is published -->

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64b228954c040050f605d60cd416c112f3b12e25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f00ca2748c3c8f7ec839069f21a5846377b6be04
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802035"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349542"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>توصيل الأجهزة الطرفية بنقطة البيع (POS)
 
@@ -78,7 +78,7 @@ ms.locfileid: "5802035"
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>نقطة بيع حديثة (MPOS) مع أجهزة طرفية متصلة
 
-[![نقطة بيع تقليدية ثابتة](./media/traditional-300x279.png)](./media/traditional.png)
+[![نقطة بيع تقليدية ثابتة.](./media/traditional-300x279.png)](./media/traditional.png)
 
 لتوصيل نقطة بيع حديثة بالأجهزة الطرفية لنقاط البيع في سيناريو نقطة بيع تقليدية وثابتة، انتقل أولاً إلى السجل بحد ذاته وعيّن ملف تعريف أجهزة له. يمكنك العثور على سجلات نقاط البيع في **البيع بالتجزئة والتجارة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **السجلات**. 
 
@@ -97,7 +97,7 @@ ms.locfileid: "5802035"
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>نقطة بيع حديثة (MPOS) أو نقطة بيع المجموعة (Cloud POS) مع محطة أجهزة مستقلة
 
-[![الأجهزة الطرفية المشتركة](./media/shared-300x254.png)](./media/shared.png)
+[![الأجهزة الطرفية المشتركة.](./media/shared-300x254.png)](./media/shared.png)
 
 في هذا السيناريو، تتم مشاركة محطة أجهزة بين عملاء نقطة بيع حديثة (MPOS) ونقطة بيع المجموعة (Cloud POS). يتطلب هذا السيناريو إنشاء ملف تعريف محطة أجهزة لتحديد حزمة التنزيل والمنفذ وملف تعريف الأجهزة التي تستخدمها محطة الأجهزة. يمكنك العثور على ملف تعريف محطة الأجهزة في **البيع بالتجزئة والتجارة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **ملفات تعريف نقاط البيع** &gt; **ملفات تعريف ‏‫محطات الأجهزة**. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 637962cf63bfd8c2330726f33545f939ec91d58d
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: cf82abbe5493eac9665323738441fa016205e9ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295808"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354997"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - حذف بيئة RCS
 
@@ -38,11 +38,11 @@ ms.locfileid: "6295808"
 1. افتح RCS، وحدد لوحة مساحة عمل **التقارير الإلكترونية**.
 2. في القسم **ارتباطات ذات صلة**، حدد **حذف بيئة RCS**.
 
-    ![حذف ارتباط بيئة RCS في قسم ارتباطات ذات صلة](media/01_RCS-Delete-Environ-Related-Link.PNG)
+    ![حذف ارتباط بيئة RCS في قسم ارتباطات ذات صلة.](media/01_RCS-Delete-Environ-Related-Link.PNG)
 
 3. في مربع الحوار الذي يظهر، راجع الرسائل حول نطاق حذف البيئة.
 
-    ![الرسائل الموجودة في مربع الحوار حذف بيئة RCS](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
+    ![الرسائل الموجودة في مربع الحوار حذف بيئة RCS.](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
 
     > [!IMPORTANT]
     > لا يمكن عكس حذف بيئة RCS.

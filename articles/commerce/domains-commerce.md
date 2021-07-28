@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022826"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356820"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>النطاقات في Dynamics 365 Commerce
 
@@ -38,7 +38,7 @@ ms.locfileid: "6022826"
 
 يبين الرسم التوضيحي التالي شاشة توفير التجارة الإلكترونية في LCS مع تمييز المربع **أسماء الأجهزة المضيفة المدعومة**. 
 
-![شاشة توفير التجارة الإلكترونية في LCS مع تمييز المربع **أسماء الأجهزة المضيفة المدعومة**](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![شاشة توفير التجارة الإلكترونية في LCS مع تمييز المربع **أسماء الأجهزة المضيفة المدعومة**.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 يمكنك إنشاء طلب خدمة لإضافة المزيد من المجالات إلى بيئة في حال كان التزويد قد حدث بالفعل. لإنشاء طلب خدمة في LCS، انتقل في بيئتك إلى **الدعم \> مشاكل الدعم** وحدد **إرسال حادث**.
 
@@ -56,7 +56,7 @@ ms.locfileid: "6022826"
 
 يبين الرسم التوضيحي التالي مربع الحوار **إعداد موقعك** لموقع مسمى "افتراضي" عندما تنتقل إلى الموقع للمرة الأولى في منشئ المواقع.
 
-![مربع الحوار **إعداد موقعك**](./media/Domains_SetupyoursiteScreen.png)
+![مربع الحوار **إعداد موقعك**.](./media/Domains_SetupyoursiteScreen.png)
 
 يسمح لك المربع **تحديد مجال** بربط أحد أسماء الأجهزة المضيفة المدعومة لموقعك في LCS في منشئ المواقع.
 
@@ -79,11 +79,11 @@ ms.locfileid: "6022826"
 
 يبين الرسم التوضيحي التالي مربع الحوار **عنوان URL جديد** في منشئ المواقع مع تمييز مسار URL كمثال. 
 
-![مربع الحوار **عنوان URL جديد** في منشئ المواقع](./media/Domains_PageSetup2a.png)
+![مربع الحوار **عنوان URL جديد** في منشئ المواقع.](./media/Domains_PageSetup2a.png)
 
 يبين الرسم التوضيحي التالي صفحة **عناوين URL** في منشئ المواقع مع تمييز عنوان URL كمثال في القائمة.
 
-![الخيار "تشغيل تدفق المستخدم‬‏‫" في تدفق السياسة](./media/Domains_URLsInSiteBuilder2a.png)
+![الخيار "تشغيل تدفق المستخدم‬‏‫" في تدفق السياسة.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>المجالات في منشئ المواقع
 

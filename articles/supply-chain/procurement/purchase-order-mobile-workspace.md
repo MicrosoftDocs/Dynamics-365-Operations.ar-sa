@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26f0dc3b128daf8c7d8a05d6f3cacc5b7de0c756
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 964c54ba85f585bc90c5f7d78b2393195dd664bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909098"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353482"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>مساحة العمل المحمولة "الموافقة على أمر الشراء"
 
@@ -83,7 +83,7 @@ ms.locfileid: "5909098"
 3. في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
 4. بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
-![مساحة عمل الموافقة على أمر الشراء في قائمة مساحات العمل المتاحة](./media/po-workspaces.png)
+![مساحة عمل الموافقة على أمر الشراء في قائمة مساحات العمل المتاحة.](./media/po-workspaces.png)
 
 ## <a name="view-orders-that-are-assigned-to-you"></a>عرض الأوامر التي تم تعيينها لك
 1. على جهازك المحمول، حدد مساحة العمل **الموافقة على أمر الشراء‬**.

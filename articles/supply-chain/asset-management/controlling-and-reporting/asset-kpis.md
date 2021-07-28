@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90759931fcbdb1e5acbd62f8a40e5b37b918f31a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b2122cb123e041d2194fa1ef5fd8024ec4c1a2a0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813859"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361079"
 ---
 # <a name="asset-kpis"></a>‏‫مؤشرات الأداء الرئيسي‬ الخاصة بالأصل
 
@@ -82,7 +82,7 @@ ms.locfileid: "5813859"
 
 يعرض الشكل أدناه لقطة شاشة لحساب مؤشرات الأداء الأساسية لأربعة أصول.
 
-![لقطة لحساب مؤشر الأداء الرئيسي KPI لأربعة أصول](media/11-controlling-and-reporting.png)
+![لقطة لحساب مؤشر الأداء الرئيسي KPI لأربعة أصول.](media/11-controlling-and-reporting.png)
 
 - يمكنك إجراء تحديد متعدد لعدة أصول في **جميع الأصول** والنقر فوق الزر **مؤشرات الأداء الأساسية للأصول** على علامة التبويب **عام**. بعد ذلك، انقر فوق **موافق** في مربع الحوار **حساب مؤشرات الأداء الأساسية للأصل** لحساب مؤشرات الأداء الأساسية للأصول المحددة.  
 - قد تتضمن النتائج من حساب مؤشرات الأداء الأساسية أو قد لا تتضمن [تسجيلات وقت تعطل الصيانة](../work-orders/maintenance-downtime.md)، وهذا يتوقف على إعداد واستخدام أكواد أسباب وقت تعطل الصيانة. 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937296"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358823"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>حساب ضريبة المبيعات على بنود دفتر اليومية العامة
 [!include [banner](../includes/banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "5937296"
 
 يوضح المخطط التالي القاعدة رسوميًا.
 
-![إمكانيات توجيه الضريبة لحسابات المشروعات](media/Sales-Tax-Direction-Vendor.jpg)
+![إمكانيات توجيه الضريبة لحسابات المشروعات.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>نوع الحساب هو المورد
 
@@ -73,7 +73,7 @@ ms.locfileid: "5937296"
 
 يوضح المخطط التالي القاعدة رسوميًا.
 
-![إمكانيات توجيه الضريبة لحسابات الموردين](media/Sales-Tax-Direction-Vendor.jpg)
+![إمكانيات توجيه الضريبة لحسابات الموردين.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>نوع الحساب هو العميل
 
@@ -89,7 +89,7 @@ ms.locfileid: "5937296"
 
 يوضح المخطط التالي القاعدة رسوميًا.
 
-![إمكانيات توجيه الضريبة لحسابات العملاء](media/Sales-Tax-Direction-Customer.jpg)
+![إمكانيات توجيه الضريبة لحسابات العملاء.](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>نوع حساب هو دفتر الأستاذ
 
@@ -103,7 +103,7 @@ ms.locfileid: "5937296"
 
 يوضح المخطط التالي القاعدة رسوميًا.
 
-![إمكانيات توجيه الضريبة لحسابات دفترة الأستاذ](media/Sales-Tax-Direction-Ledger.jpg)
+![إمكانيات توجيه الضريبة لحسابات دفترة الأستاذ.](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>تجاوز اتجاه ضريبة المبيعات
 
@@ -115,7 +115,7 @@ ms.locfileid: "5937296"
 
 يوضح هذا القسم كيفية حساب علامة المبلغ الخاص بضريبة المبيعات.
 
-![صفحة حركات ضرائب المبيعات](media/sales-tax-amount-sign.jpg)
+![صفحة حركات ضرائب المبيعات.](media/sales-tax-amount-sign.jpg)
 
 يعرض الجدول التالي القاعدة العامة لتحديد اتجاه ضريبة المبيعات وعلامة مبالغ ضريبة المبيعات في جدول ضريبة المبيعات المؤقتة.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102796"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359523"
 ---
 # <a name="trade-allowance-management"></a>إدارة البدل التجاري
 
@@ -59,7 +59,7 @@ ms.locfileid: "6102796"
 
 يتم تسجيل الصناديق التي تم توزيعها لاتفاقيات البدل التجاري في صفحة **الصناديق**. لفتح صفحة **الصناديق**، حدد **المبيعات والتسويق** \> **البدلات التجارية** \> **الصناديق** \> **الصناديق**.
 
-![صفحة الأرصدة](./media/trade-allowance-management-funds-page.png "صفحة الأرصدة")
+![صفحة الأرصدة.](./media/trade-allowance-management-funds-page.png "صفحة الأرصدة")
 
 في صفحة **الصناديق**، يمكنك عرض تفاصيل الصناديق الترويجية.
 
@@ -75,9 +75,9 @@ ms.locfileid: "6102796"
 
 يتم تسجيل اتفاقيات البدل التجاري في صفحة **اتفاقيات البدل التجاري**. لفتح صفحة **اتفاقيات البدل التجاري**، حدد **المبيعات والتسويق** \> **البدلات التجارية** \> **اتفاقيات البدل التجاري**.
 
-![صفحة اتفاقيات البدل التجاري‬](./media/trade-allowance-management-agreements-page.png "صفحة اتفاقيات البدل التجاري‬")
+![صفحة اتفاقيات البدل التجاري‬.](./media/trade-allowance-management-agreements-page.png "صفحة اتفاقيات البدل التجاري‬")
 
-#### <a name="header"></a>رأس
+#### <a name="header"></a>الرأس
 
 حدد **رأس** للتبديل إلى طريقة عرض الرأس.
 
@@ -103,7 +103,7 @@ ms.locfileid: "6102796"
 
 عندما تحدد الحدث التجاري ثم تحدد علامة تبويب **المبالغ**، يتم العثور على تفاصيل الحدث.
 
-![بنود اتفاقية البدل التجاري](./media/trade-allowance-management-agreements-lines.png "بنود اتفاقية البدل التجاري")
+![بنود اتفاقية البدل التجاري.](./media/trade-allowance-management-agreements-lines.png "بنود اتفاقية البدل التجاري")
 
 في القسم **بنود البدل التجاري**، ستحدد نطاقات الكمية أو المبالغ التي يجب أن يحققها العميل للتعريفات للحصول على المكافآت.
 

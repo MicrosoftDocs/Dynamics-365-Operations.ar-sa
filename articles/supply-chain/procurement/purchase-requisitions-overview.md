@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8bde73d424e72ad66c27decd11a3b866d02b48c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188187"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349784"
 ---
 # <a name="purchase-requisition-overview"></a>نظرة عامة على طلب الشراء
 
@@ -47,7 +49,7 @@ ms.locfileid: "6188187"
 
 يوضح الرسم التخطيطي التالي الحالات التي تم تعيينها لطلب شراء وبند طلب شراء عند تحركها خلال عملية سير العمل.  
 
-[![حالات بند ورأس طلب الشراء](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![حالات بند ورأس طلب الشراء.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>علاقات حالات بند ورأس طلب الشراء
 
@@ -179,7 +181,7 @@ ms.locfileid: "6188187"
 
 تبدأ عملية توحيد الطلبات التي يتم فيها اعتماد طلب شراء في سير العمل وتسجيل حجوزات الموازنة والالتزامات المسبقة، إذا تم تكوين التحكم في الموازنة للمؤسسة الخاصة بك. ويوضح الرسم التخطيطي التالي عملية التدفق لتوحيد الطلبات.  
 
-[![تدفق العملية لتوحيد الطلبات](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![تدفق العملية لتوحيد الطلبات.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 لدمج بنود طلب شراء معتمدة، اتبع الخطوات التالية:
 

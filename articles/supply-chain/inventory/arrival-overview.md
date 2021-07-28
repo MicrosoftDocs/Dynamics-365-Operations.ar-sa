@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 734fbdd6f62c192580029a24844fff78fda8b919
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdd2995da04aa4752868a84499c81c2c01d80c16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360438"
 ---
 # <a name="arrival-overview"></a>نظرة عامة على الوصول
 
@@ -34,7 +36,7 @@ ms.locfileid: "5809580"
 ## <a name="business-scenario"></a>سيناريو العمل
 خذ في الاعتبار السيناريو التالي في العمليات الواردة.
 
-[![سيناريو العمل](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![سيناريو العمل.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 سامي، موظف الاستقبال، يريد معرفة الأصناف التي من المتوقع استلامها في اليوم الحالي. في الصفحة **نظرة عامة على الوصول**، يستطيع سامي الحصول على نظرة عامة على المهام الحالية، وتقديرًا أوليًا للكميات، والحجم والوزن، ومختلف أنواع الأوامر وغير ذلك. في وقت لاحق، تصل عملية تسليم تصل إلى أحد الأرصفة الداخلية، ويتلقى سامي قائمة بالتسليم. في الصفحة **نظرة عامة على الوصول**، يستطيع سامي تنفيذ المهام التالية:
 
@@ -66,7 +68,7 @@ ms.locfileid: "5809580"
 
 -   يجب تحديد اسم دفتر يومية لإنشاء دفتر يومية.
 
-[![تحديد اسم دفتر اليومية](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![تحديد اسم دفتر اليومية.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   إذا حددت القيم الموجودة في حقلي **المستودع** و **الموقع**، فسيتم تطبيق هذه القيم على بنود دفتر اليومية. إذا لم تحدد القيم، فإن النظام يستخدم القيم من البُعد الذي تم تحديده في حركات المخزون.
 

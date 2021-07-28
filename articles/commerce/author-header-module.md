@@ -2,7 +2,7 @@
 title: وحدة الرأس
 description: يتناول هذا الموضوع وحدات الرأس ويصف كيفية إنشاء رؤوس الصفحات في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799891"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479246"
 ---
 # <a name="header-module"></a>الوحدة النمطية للرؤوس
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 يتناول هذا الموضوع وحدات الرأس ويصف كيفية إنشاء رؤوس الصفحات في Microsoft Dynamics 365 Commerce.
 
@@ -33,7 +34,7 @@ ms.locfileid: "5799891"
 
 تعرض الصورة التالية مثالاً عن وحدة الرأس في صفحة رئيسية.
 
-![مثال عن وحدة رأس](./media/ecommerce-header.png)
+![مثال عن وحدة رأس.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>خصائص وحدة الرأس
 
@@ -58,9 +59,16 @@ ms.locfileid: "5799891"
 - **محدد المتجر** - يمكن تضمين الوحدة النمطية لمحدد المتجر في فتحة محدد المتجر الخاصة بالوحدة النمطية لرأس. تتيح للمستخدمين استعراض المتاجر القريبة والبحث عنها. كما يمكن للمستخدمين تحديد المتجر المفضل. سيتم بعد ذلك إظهار ذلك المتجر في الرأس. عند تضمين الوحدة النمطية لمحدد المتجر في الوحدة النمطية للرأس، فإنه يجب تعيين الخاصية **وضع** على **البحث عن المتاجر**. لمزيد من المعلومات، راجع‏‎ [الوحدة النمطية لمحدد المتجر](store-selector.md).
 
 > [!NOTE]
-> - يتوفر دعم استخدام الوحدة النمطية لأيقونة عربة التسوق في الوحدات النمطية للرأس في Dynamics 365 Commerce الإصدار 10.0.11.
-> - يتوفر دعم استخدام الوحدة النمطية لمحدد الموقع في الوحدات النمطية للرأس في Dynamics 365 Commerce الإصدار 10.0.14.
-> - يتوفر دعم استخدام الوحدة النمطية لمحدد المتجر في الوحدات النمطية للرأس في Dynamics 365 Commerce الإصدار 10.0.15.
+> - يتوفر دعم استخدام الوحدة النمطية لأيقونة سلة التسوق في الوحدات النمطية للرأس اعتبارًا من الإصدار 10.0.11 من Dynamics 365 Commerce.
+> - يتوفر دعم استخدام الوحدة النمطية لمحدد الموقع في الوحدات النمطية للرأس اعتبارًا من الإصدار 10.0.14 من Dynamics 365 Commerce.
+> - يتوفر دعم استخدام الوحدة النمطية لمحدد المتجر في الوحدات النمطية للرأس اعتبارًا من الإصدار 10.0.15 من Dynamics 365 Commerce.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>الوحدة النمطية للرأس في نسق Adventure Works
+
+في نسق Adventure Works، دعم الوحدة النمطية للرأس خاصة **شعار الجهاز المحمول**. تمكن هذه الخاصية من تحديد شعار لمنافذ العرض الخاصة بالأجهزة المحمولة. تتوفر خاصية **شعار الأجهزة المحمولة** كملحق تعريف للوحدة النمطية.
+
+> [!IMPORTANT]
+> ويتوفر نسق Adventure Works اعتباراً من الإصدار 10.0.20 من Dynamics 365 Commerce.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>إنشاء جزء رأس لصفحة
 

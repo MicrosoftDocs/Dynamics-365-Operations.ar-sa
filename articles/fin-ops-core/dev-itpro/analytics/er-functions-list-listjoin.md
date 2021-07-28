@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027904"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353720"
 ---
 # <a name="listjoin-er-function"></a>الدالة LISTJOIN ER
 
@@ -66,15 +66,15 @@ LISTJOIN (list 1 [, list 2, …, list N])
 - **المبلغ**: يحتوي هذا الحقل على تعبير يُرجع قيمة من النوع `Real`.
 - **‎IsValid**: يحتوي هذا الحقل على تعبير يُرجع قيمة من النوع `Boolean`.
 
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/er-functions-list-listjoin-image1.gif)
+![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](./media/er-functions-list-listjoin-image1.gif)
 
 في هذه الحالة، يُرجع التعبير `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` قائمة جديدة تحتوي على سجلين.
 
-![صفحة مصمم تعيين نموذج التقارير الإلكترونية مع سجلين](./media/er-functions-list-listjoin-image2.gif)
+![صفحة مصمم تعيين نموذج التقارير الإلكترونية مع سجلين.](./media/er-functions-list-listjoin-image2.gif)
 
 تتكون بنية هذه القائمة من حقل **مبلغ** واحد من النوع `Real`، لأن هذا الحقل هو الحقل الوحيد الذي يتم تقديمه في كل وسطية من الوظيفة المستدعاة.
 
-![حقل المبلغ في صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/er-functions-list-listjoin-image3.gif)
+![حقل المبلغ في صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
