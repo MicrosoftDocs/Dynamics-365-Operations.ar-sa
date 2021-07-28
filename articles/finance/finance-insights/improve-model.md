@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186632"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355666"
 ---
 # <a name="improve-the-prediction-model-preview"></a>تحسين نموذج التنبؤ (معاينة)
 
@@ -33,7 +33,7 @@ ms.locfileid: "6186632"
 
 قم أولاً بتحديد واحدًا أو أكثر من النتائج الثلاثة المحتملة للفواتير: **في الوقت المحدد** و **متأخر** و **متأخر جدًا**. يجب تحديد كافة النتائج الثلاثة. إذا قمت بإلغاء تحديد أي من النتائج، فإنه سيتم تصفية الفواتير خارج عملية التدريب وسيتم تقليل دقة التوقع.
 
-[![تأكيد النتائج](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![تأكيد النتائج.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 إذا كانت مؤسستك تتطلب اثنين من النتائج فقط، فقم بتغيير الحدود **متأخر** و **متأخر جدًا** إلى 0 (صفر) يومًا. بهذه الطريقة، يمكنك بشكل فعال طي التوقع إلى الحالة الثنائية **في الوقت المحدد** أو **متأخر**.
 
@@ -51,7 +51,7 @@ ms.locfileid: "6186632"
 
 يبين الرسم التوضيحي التالي الحقول المتوفرة لجدول الفاتورة.
 
-[![الحقول المتوفرة لجدول الفاتورة](./media/available-fields.png)](./media/available-fields.png)
+[![الحقول المتوفرة لجدول الفاتورة.](./media/available-fields.png)](./media/available-fields.png)
 
 يجب عدم تحديد الحقول التالية للتدريب:
 
@@ -66,7 +66,7 @@ ms.locfileid: "6186632"
 
 يبين الرسم التوضيحي التالي الحقول المتوفرة لجدول العملاء.
 
-[![الحقول المتوفرة لجدول العملاء](./media/related-entities.png)](./media/related-entities.png)
+[![الحقول المتوفرة لجدول العملاء.](./media/related-entities.png)](./media/related-entities.png)
 
 يجب عدم تحديد الحقل التالي للتدريب:
 
@@ -74,8 +74,8 @@ ms.locfileid: "6186632"
 
 ## <a name="filters"></a>عوامل التصفية
 
-لا تدعم عوامل التصفية حاليًا سيناريو توقعات دفع العميل. لذلك، حدد **تخطي هذه الخطوة**، وتابع إلى صفحة الملخص.
+يمكنك تصفية الفواتير المستخدمة للتدريب عن طريق تعيين معايير التصفية للحقول في الفاتورة أو في جداول العملاء. على سبيل المثال، يمكنك تعيين حد لتضمين الفواتير فقط حيث يساوي الإجمالي أو يتجاوز مبلغا معينا. بدلا من ذلك، يمكنك استبعاد الفواتير المقترنة بالعملاء في مجموعة عملاء معينة.
 
-[![وضع التركيز باستخدام عوامل التصفية](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+لمزيد من المعلومات حول تصفية بياناتك، راجع [إنشاء نموذج تنبؤ ](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

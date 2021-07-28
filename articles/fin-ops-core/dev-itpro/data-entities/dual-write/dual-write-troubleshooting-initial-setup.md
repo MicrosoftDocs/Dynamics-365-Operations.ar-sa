@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753980"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350826"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>استكشاف المشاكل وإصلاحها أثناء الإعداد الأولي
 
@@ -42,7 +42,7 @@ ms.locfileid: "5753980"
 
 تحدث الأخطاء في صفحة **رابط الإعداد لـ Dataverse** عادة بسبب وجود مشكلات الإعداد غير المكتمل أو المشكلات المتعلقة بالأذونات. تأكد من نجاح عملية التحقق من الصحة الكاملة في صفحة **رابط الإعداد لـ Dataverse**، كما هو مبين في التوضيح التالي. لا يمكنك ربط الكتابة الثنائية إلا إذا نجحت عملية التحقق من الصحة الكاملة.
 
-![عملية التحقق من السلامة الناجحة](media/health_check.png)
+![عملية التحقق من السلامة الناجحة.](media/health_check.png)
 
 يجب أن يكون لديك بيانات اعتماد مسؤول مستأجر Azure AD لربط بيئات Finance and Operations وDataverse بعد ربط البيئات، يمكن للمستخدمين تسجيل الدخول باستخدام بيانات اعتماد الحساب الخاص بهم وتحديث خريطة جدول موجودة.
 
@@ -77,7 +77,7 @@ ms.locfileid: "5753980"
 4. حدد الشركة التي تم ربطها عندما قمت بتكوين الكتابة الثنائية.
 5. تحقق من أن عمود **الفريق المالك الافتراضي** يشتمل على قيمة. في التوضيح التالي، يتم تعيين عمود **الفريق المالك الافتراضي** إلى **الكتابة الثنائية لـ USMF**.
 
-    ![التحقق من الفريق الافتراضي المالك](media/default_owning_team.png)
+    ![التحقق من الفريق الافتراضي المالك.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>البحث عن الحد الخاص بعدد الجداول القانونية أو الشركات التي يمكن ربطها للكتابة الثنائية
 

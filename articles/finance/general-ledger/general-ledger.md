@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 65431
+ms.custom:
+- "65431"
+- intro-internal
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 403cd616faef2f856c21a771d46607c41987f0bb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: dc5bc56ccbbafa16d1de5da89f45354d281cbd6a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897518"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348976"
 ---
 # <a name="general-ledger-home-page"></a>الصفحة الرئيسية لدفتر الأستاذ العام
 
@@ -34,10 +36,10 @@ ms.locfileid: "5897518"
 يمكنك تخصيص المبالغ النقدية أو توزيعها لحساب واحد أو أكثر، أو مجموعات الأبعاد والحسابات على أساس قواعد التخصيص. هناك نوعان لعمليات التخصيص: الثابتة والمتغيرة. ويمكنك أيضًا تسوية الحركات بين حسابات دفتر الأستاذ وإعادة تقييم مبالغ العملة. في نهاية السنة المالية، يجب عليك إنشاء حركات الإقفال، وتحضير حساباتك للسنة المالية التالية. يمكنك استخدام وظيفة الدمج لتجميع النتائج المالية لعديد من الكيانات القانونية التابعة في نتائج لمؤسسة واحدة مدمجة. بإمكان الشركات التابعة أن تكون في قاعدة البيانات نفسها أو في قواعد بيانات منفصلة.
 
 - [نظرة عامة على التجميع والاستبعاد](../budgeting/consolidation-elimination-overview.md)
-- [أرصدة حساب دفتر الأستاذ العام](general-ledger-account-balances.md)
+- [أرصدة حسابات دفتر الأستاذ العام](general-ledger-account-balances.md)
 - [الأبعاد المالية](financial-dimensions.md)
 
-[![العملية التجارية](./media/GL-process.PNG)](./media/GL-process.PNG)
+[![العملية التجارية.](./media/GL-process.PNG)](./media/GL-process.PNG)
 
 ## <a name="sales-tax"></a>ضريبة المبيعات
 تقوم كافة الشركات بجمع الضرائب ودفعها للعديد من هيئات الضرائب. تختلف القواعد والمعدلات حسب البلد/المنطقة، والدولة، والمقاطعة، والمدينة.

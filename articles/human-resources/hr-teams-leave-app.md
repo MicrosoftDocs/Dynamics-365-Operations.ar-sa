@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097249"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356502"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
@@ -61,7 +61,7 @@ ms.locfileid: "6097249"
 
 - ابدأ طلب إجازة لك. على سبيل المثال، قم بإرسال رسالة تقول، "طلب إجازة" أو "أرغب في طلب إجازة يومي الخميس والجمعة" لكي تكون أكثر تحديدًا في طلب إجازة لهذا النوع من الإجازات. 
 
-  ![بدء طلب إجازة في محادثة Teams](./media/hr-teams-leave-app-initiate.png)
+  ![بدء طلب إجازة في محادثة Teams.](./media/hr-teams-leave-app-initiate.png)
 
 - سيقوم روبوت المحادثة بملء طلب الإجازة لك. حدد **طلب إجازة** وقم بتحرير التفاصيل الخاصة بطلبك.
 
@@ -69,11 +69,11 @@ ms.locfileid: "6097249"
 
    إذا قمت بتحديد نصف يوم إجازة عندما تكون وحدة طلب الإجازة بالأيام، فإنه يمكنك تحديد ما إذا كنت ترغب في طلب إجازة من النصف الأول أو النصف الثاني عن طريق تحديد الخيار **تعريف نصف اليوم** من القائمة **مزيد من الخيارات**.
    
-   ![تعريفات نصف اليوم](./media/HalfDayDefinitions.png)
+   ![تعريفات نصف اليوم.](./media/HalfDayDefinitions.png)
 
 - عند الانتهاء من تحرير تفاصيل طلب الإجازة، حدد **إرسال** لإرساله للاعتماد.
 
-  ![إرسال طلب الإجازة](./media/hr-teams-leave-app-submit.png)
+  ![إرسال طلب الإجازة.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>إدارة إجازتك في Teams
 
@@ -93,7 +93,7 @@ ms.locfileid: "6097249"
 
 2. أدخل اليوم أو الأيام التي تريد أخذها إجازة، ثم حدد **إضافة**.
 
-   ![إضافة إجازة في تطبيق الإجازات لـ Human Resources في Teams](./media/TimeOffHours.png)
+   ![إضافة إجازة في تطبيق الإجازات لـ Human Resources في Teams.](./media/TimeOffHours.png)
 
 3. إن أمكن، أدخل رمز السبب. وقم أيضا بإدخال أية تعليقات وإضافة أية مرفقات.
 
@@ -123,7 +123,7 @@ ms.locfileid: "6097249"
 
 1. في فريق أو دردشة في Teams، حدد الزر Human Resources أسفل نافذة الدردشة.
 
-   ![الزر Human Resources أسفل نافذة الدردشة](./media/hr-teams-leave-app-chat-button.png)
+   ![الزر Human Resources أسفل نافذة الدردشة.](./media/hr-teams-leave-app-chat-button.png)
 
 2. حدد طلب الإجازة الذي ترغب في مشاركته. إذا أردت مشاركة طلب إجازة تمهيدي، فحدد **المسودات** أولاً.
 
@@ -173,11 +173,11 @@ ms.locfileid: "6097249"
 
 في Teams، انظر إلى **لغة التطبيق** في **الإعدادات**.
 
-![إعدادات Teams](./media/hr-teams-leave-app-settings.png)
+![إعدادات Teams.](./media/hr-teams-leave-app-settings.png)
 
 في Human Resources، حدد **الإعدادات** ثم حدد **خيارات المستخدم**. تحقق من أن الحقل **اللغة** يطابق الحقل **لغة التطبيق** في Teams.
 
-![خيارات مستخدم Human Resources](./media/hr-teams-leave-app-user-options.png)
+![خيارات مستخدم Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
 إذا كنت لا تزال تواجه مشاكل في الترجمة، فأعلمنا بذلك. للحصول على المعلومات، راجع [الحصول على الدعم لتطبيقات Finance and Operations أو Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 

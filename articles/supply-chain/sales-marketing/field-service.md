@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 73d20958d0efadefc709db524fe16ed85d1ea33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ceb95198332d6a9da057d657771fe6fcca5c5b9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824884"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359595"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>نظرة عامة على التكامل مع Microsoft Dynamics 365 Field Service
 
@@ -34,7 +34,7 @@ ms.locfileid: "5824884"
 
 يستند تكامل Field Service إلى الوظيفة الموجودة "العميل المتوقع إلى النقدية‬".
 
-![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/field-service-integration.png)
+![مزامنة عمليات الأعمال بين Supply Chain Management وField Service.](./media/field-service-integration.png)
 
 تركز المرحلة الأولى من التكامل بين Field Service وSupply Chain Management على تمكين أوامر العمل والاتفاقيات في Field Service لفوترتها في Supply Chain Management. يبدأ التدفق المدعوم في Field Service، حيث تتم مزامنة المعلومات من أوامر العمل إلى Supply Chain Management كأوامر مبيعات. في Supply Chain Management، تتم فوترة أوامر المبيعات لإنشاء مستندات الفواتير. بالإضافة إلى ذلك، تتم مزامنة المعلومات من فواتير اتفاقيات Field Service إلى Supply Chain Management. يقوم موحد البيانات في Microsoft Dynamics 365 بمزامنة البيانات من خلال استخدام المشاريع القابلة للتخصيص. يمكن استخدام القوالب القياسية لإنشاء مشاريع تكامل مخصصة حيث يمكن تعيين الأعمدة المخصصة والقياسية الإضافية، وكذلك الجداول، لتعديل التكامل والوفاء بالمتطلبات المحددة.
 
@@ -58,7 +58,7 @@ ms.locfileid: "5824884"
 - ربط مشاريع Supply Chain Management مع أوامر عمل Dynamics 365 Field Service
 - تقوم أوامر عمل Dynamics 365 Field Service التي لديها ارتباط مع مشاريع Supply Chain Management بتطبيق رقم المشروع هذا على أمر مبيعات للسماح بالفوترة من المشروع. 
 
-![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/FSv2overview.png)
+![مزامنة عمليات الأعمال بين Supply Chain Management وField Service.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>تعمل المرحلة الثانية من التكامل بين Field Service وSupply Chain Management على تمكين المزامنة مع القوالب التالية:
 - المستودعات (Supply Chain Management إلى Field Service) - المستودعات من Supply Chain Management إلى Field Service [استعلام متقدم] 

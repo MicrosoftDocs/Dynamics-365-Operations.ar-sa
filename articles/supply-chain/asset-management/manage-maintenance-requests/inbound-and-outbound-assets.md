@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a2bac914330058400a7e4d7d355bd4a00a4522f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86d85d280b32834c36691535a019ef6d5141bf93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816786"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356011"
 ---
 # <a name="inbound-and-outbound-assets"></a>الأصول الواردة والصادرة
 
@@ -42,7 +42,7 @@ ms.locfileid: "5816786"
 3. حدد **تحديث حالة طلب الصيانة**.
 4. حدد **وارد** (أو حالة دورة حياة أخرى قمت بإنشائها للأصول الواردة)، ثم حدد **موافق**.
 
-![تسجيل الأصول كواردة](media/07-manage-maintenance-requests.png)
+![تسجيل الأصول كواردة.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>تسجيل الأصول الواردة كمستلمة
 
@@ -51,7 +51,7 @@ ms.locfileid: "5816786"
 3. حدد **استلام الأصول**.
 4. في الحقل **مُستَلم‬**، أدخل التاريخ والوقت. ثم حدد **موافق**. يُزال السجل من صفحة‏‎ قائمة **الأصول الواردة**.
 
-![تسجيل الأصول الواردة كمستلمة](media/08-manage-maintenance-requests.png)
+![تسجيل الأصول الواردة كمستلمة.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>تسجيل الأصول كصادرة
 

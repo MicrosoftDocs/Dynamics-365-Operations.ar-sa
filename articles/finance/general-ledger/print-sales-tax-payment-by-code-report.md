@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dad1cad6dcda1c7768f9be8bd7bd4426be7fbcbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815442"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358847"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>طباعة تقرير دفع ضريبة المبيعات حسب الكود‬‏‫ 
 
@@ -40,11 +40,11 @@ ms.locfileid: "5815442"
     - **عملة المحاسبة** – طباعه مبالغ التقرير بعملة المحاسبة.
     - **عملة كود ضريبة المبيعات** – طباعه مبالغ التقرير بعملات أكواد ضريبة المبيعات.
 
-    ![مربع الحوار "دفع ضريبة المبيعات حسب الكود"](media/Sales-tax-payment-by-code.png)
+    ![مربع الحوار "دفع ضريبة المبيعات حسب الكود".](media/Sales-tax-payment-by-code.png)
 
 يبين الرسم التوضيحي التالي مثالاً للتقرير الذي يجري إنشاؤه. يبين التقرير أن كود التقرير **101** يتضمن العملة **يورو** إذا تم تعيين الحقل **عملية ضريبة المبيعات** إلى **يورو‏‎** لكود ضريبة المبيعات الذي تم تعيين كود التقارير له.
 
-![مثال لتقرير دفع ضريبة المبيعات حسب الكود](media/Sales-tax-payment-by-code-2.png)
+![مثال لتقرير دفع ضريبة المبيعات حسب الكود.](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

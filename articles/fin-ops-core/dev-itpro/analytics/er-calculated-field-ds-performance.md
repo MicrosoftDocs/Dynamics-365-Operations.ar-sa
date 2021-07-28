@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944817"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349174"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>تحسين أداء حلول التقارير الإلكترونية‬ عن طريق إضافة مصادر بيانات الحقول المحسوبة ذات معلمات
 
@@ -56,7 +56,7 @@ ms.locfileid: "5944817"
     2. حدد **استعراض**، وحدد الملف المناسب لتكوين التقارير الإلكترونية المطلوب بتنسيق XML.
     3. حدد **موافق**.
 
-![التكوينات المستوردة على صفحة التكوينات](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![التكوينات المستوردة على صفحة التكوينات.](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>مراجعة عينة حل التقارير الإلكترونية
 
@@ -76,7 +76,7 @@ ms.locfileid: "5944817"
 
     يقوم تعيين النموذج في هذا التكوين بتنفيذ نموذج البيانات الأساسي لأي من تنسيقات التقارير الإلكترونية التي تم إنشاؤها لهذا النموذج وتم تشغيلها في Finance. نتيجة لذلك، يتم كشف محتوى مصدر البيانات **Trans** لتنسيقات التقارير الإلكترونية مثل مصادر البيانات المجردة **النموذج**.
 
-    ![مصدر البيانات Trans في صفحة مصمم تعيين النموذج](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![مصدر البيانات Trans في صفحة مصمم تعيين النموذج.](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. أغلق صفحة **مصمم تعيين النموذج**.
 5. أغلق صفحة **تعيين النموذج إلى مصدر البيانات**.
@@ -90,7 +90,7 @@ ms.locfileid: "5944817"
 
     تم تصميم تنسيق التقارير الإلكترونية هذا لإنشاء تقرير حركات المورّد بتنسيق XML.
 
-    ![مصادر بيانات التنسيق والروابط المكونة لعناصر التنسيق في صفحة مصمم التنسيق](media/er-calculated-field-ds-performance-format.png)
+    ![مصادر بيانات التنسيق والروابط المكونة لعناصر التنسيق في صفحة مصمم التنسيق.](media/er-calculated-field-ds-performance-format.png)
 
 5. أغلق صفحة **مصمم المعادلة**.
 
@@ -103,7 +103,7 @@ ms.locfileid: "5944817"
 1. قم بتحديد شركة **DEMF**.
 2. اتبع الخطوات في [تشغيل تتبع أداء التقارير الإلكترونية‬](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) لإنشاء تتبع أداء أثناء تشغيل تنسيق التقارير الإلكترونية.
 
-    ![مربع علامة تبويب معلمات المستخدمين](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![مربع حوار معلمات المستخدمين.](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>تشغيل تنسيق التقارير الإلكترونية
 
@@ -124,7 +124,7 @@ ms.locfileid: "5944817"
 - الوقت الفعلي الذي استغرقه إحضار البيانات باستخدام مصدر البيانات
 - نفس الوقت معبر عنه كنسبة مئوية من إجمالي الوقت المستغرق في تشغيل تعيين النموذج بالكامل
 
-![تفاصيل وقت التنفيذ على صفحة مصمم تعيين النموذج](./media/er-calculated-field-ds-performance-mapping-2.png)
+![تفاصيل وقت التنفيذ على صفحة مصمم تعيين النموذج.](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 تُظهر شبكة **إحصائيات الأداء** أن مصدر البيانات **Trans** يستدعي الجدول VendTrans مرة واحدة. تشير القيمة **\[265\]\[Q:265\]** لمصدر البيانات **Trans** إلى إحضار حركات المورّد 265 من جدول التطبيق وتم إرجاعها إلى نموذج البيانات.
 
@@ -137,7 +137,7 @@ ms.locfileid: "5944817"
 
 - ويتم استدعاء جدول المورّد لكل حركة من حركات المورّد المكررة، على الرغم من ترحيل الحركات التي تم إحضارها لخمسة مورّدين فقط. من بين 530 استدعاء، هناك 525 استدعاء مكرر. يبين الرسم التوضيحي التالي الرسالة التي تتلقاها حول الاستدعاءات المكررة (طلبات قواعد البيانات).
 
-![رسالة حول طلبات قواعد البيانات المكررة في صفحة مصمم تعيينات النماذج](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![رسالة حول طلبات قواعد البيانات المكررة في صفحة مصمم تعيينات النماذج.](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 بالنسبة للوقت الإجمالي لتنفيذ تعيين النموذج (ثماني ثوان تقريبًا)، يمكنك الملاحظة أنه تم قضاء 80 بالمئة (ست ثوانٍ تقريبًا) في استرداد القيم من جدول التطبيق VendTable. هذه النسبة المئوية كبيرة جدًا لسمتين من خمسة مورّدين، مقارنةً بحجم المعلومات من جدول التطبيق VendTrans.
 
@@ -172,7 +172,7 @@ ms.locfileid: "5944817"
     3. في مربع الحوار، في الحقل **الاسم**، أدخل **المربع**.
     3. حدد **موافق**.
 
-    ![مصدر البيانات مربع في صفحة مصمم تعيين النموذج](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![مصدر البيانات مربع في صفحة مصمم تعيين النموذج.](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. اتبع الخطوات التالية لإضافة مصدر بيانات ذي معلمات من نوع **الحقل المحسوب**:
 
@@ -208,7 +208,7 @@ ms.locfileid: "5944817"
 
 9. حدد **حفظ**.
 
-    ![مصدر البيانات Vend في صفحة مصمم تعيين النموذج](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![مصدر البيانات Vend في صفحة مصمم تعيين النموذج.](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. أغلق صفحة **مصمم تعيين النموذج**.
 11. أغلق صفحة **تعيينات النماذج**.
@@ -232,11 +232,11 @@ ms.locfileid: "5944817"
 
 لاحظ أن التسويات التي أجريتها على تعيين النموذج قد تقوم بإزالة الاستعلامات المكررة لقاعدة البيانات. يتم أيضًا تقليل عدد الاستدعاءات إلى جداول قاعدة البيانات ومصادر البيانات لتعيين هذا النموذج.
 
-![تتبع المعلومات في صفحة مصمم تعيين النموذج 1](./media/er-calculated-field-ds-performance-mapping-5.png)
+![تتبع المعلومات في صفحة مصمم تعيين النموذج 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 تم تقليل وقت التنفيذ الإجمالي حوالي 20 مرة (من 8 ثوان إلى حوالي 400 مللي ثانية). وبالتالي، تم تحسين أداء حل التقارير الإلكترونية بالكامل.
 
-![تتبع المعلومات في صفحة مصمم تعيين النموذج 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![تتبع المعلومات في صفحة مصمم تعيين النموذج 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>الملحق 1: تنزيل مكونات عينة حل التقارير الإلكترونية من Microsoft
 

@@ -13,12 +13,12 @@ ms.search.region: Saudi Arabia
 ms.author: v-oloski
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e4f68ca761e44ef82ffdbd127d85f164e58c5418
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 8c0ba03c99385254708decf09c634ffafb2f744b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893831"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361274"
 ---
 # <a name="allocate-bank-document-charges-to-a-shipment"></a>تخصيص رسوم المستندات البنكية لشحنة
 
@@ -38,7 +38,7 @@ ms.locfileid: "5893831"
 2. في علامة التبويب السريعة **الترحيل**، في قسم **المدين**، في الحقل **النوع**، حدد **صنف**. يصبح خيار **كود مصاريف مستندات البنك** في قسم **رسوم المستندات البنكية** متاحا.
 3. قم بتعيين خيار **كود مصاريف مستندات البنك** إلى **نعم**. ويتم تلقائيا تعيين حقل **النوع** في قسم **الائتمان** ولا يمكن تحريره.
 
-![إعداد كود مصاريف لمصاريف مستندات البنك](media/apac-sau-bank-document-charge-setup.PNG)
+![إعداد كود مصاريف لمصاريف مستندات البنك.](media/apac-sau-bank-document-charge-setup.PNG)
 
 ## <a name="allocate-bank-document-charges"></a>تخصيص رسوم المستندات البنكية
 
@@ -56,16 +56,16 @@ ms.locfileid: "5893831"
     > [!NOTE]
     > يتم تعيين حقلي **نوع الحساب المقابل** و **الحساب المقابل** تلقائيا.
 
-    ![إدخال كود تكلفه مستند البنك في بند دفتر اليومية](media/apac-sau-general-journal-voucher.PNG)
+    ![إدخال كود تكلفة مستند البنك في بند دفتر اليومية.](media/apac-sau-general-journal-voucher.PNG)
 
 5. في علامة التبويب **قائمه**، قم بتعيين حقلي **الحساب** و **مدين**.
 6. في الصفحة **خطاب الاعتماد/مجموعه الاستيراد**، في جزء الاجراء ، حدد **مستند البنك** \> **تكلفه مستند البنك**.
 
-    ![تخصيص رسوم المستندات البنكية](media/apac-sau-allocate-bank-docment-charge.PNG)
+    ![تخصيص رسوم المستندات البنكية.](media/apac-sau-allocate-bank-docment-charge.PNG)
 
     تم فتح خطاب الاعتماد أو تحصيل الاستيراد الذي قمت بإنشائه في أمر الشراء. وينبغي ان يعرض رسوم المستندات البنكية التي تم ترحيلها في دفتر اليومية العام لخطاب الاعتماد هذا أو لتحصيل الاستيراد.
 
-    ![حركات المستند البنكي الخاص بخطاب الاعتماد/تحصيل الاستيراد](media/apac-sau-lc-bank-document-transactions.PNG)
+    ![حركات المستند البنكي الخاص بخطاب الاعتماد/تحصيل الاستيراد.](media/apac-sau-lc-bank-document-transactions.PNG)
 
 7. حدد حركه تكلفه المستند البنكي في وضع **التحرير**، ثم حدد **خطاب الاعتماد/تحصيل الاستيراد** لتخصيص تكلفه مستند البنك المحددة.
 

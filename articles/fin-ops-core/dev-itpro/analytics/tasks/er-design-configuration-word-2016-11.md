@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944282"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359401"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>إعادة استخدام التكوينات باستخدام قوالب Excel لإنشاء تقارير بتنسيقات Word
 
@@ -54,14 +54,14 @@ ms.locfileid: "5944282"
 5. حدد **المصمم**.
 6. في الصفحة **مصمم التنسيق**، لاحظ ان عنوان عنصر التنسيق الجذر يشير إلى ان قالب Excel مستخدم حاليا.
 
-![تحديد التكوين الموجود](../media/er-design-configuration-word-2016-11-image01.gif)
+![تحديد التكوين الموجود.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>مراجعه قالب Word الذي تم تنزيله
 
 1. في تطبيق Word desktop، قم بفتح ملف القالب **SampleVendPaymDocReport.docx** الذي قمت بتنزيله سابقا.
 2. تحقق من أن القالب يحتوي فقط على تخطيط المستند الذي ترغب في إنشائه كمخرجات تقارير إلكترونية.
 
-![تخطيط قالب Word الموجود في تطبيق سطح المكتب](../media/er-design-configuration-word-2016-11-image02.png)
+![تخطيط قالب Word الموجود في تطبيق سطح المكتب.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>استبدال قالب Excel بقالب Word وأضافه جزء XML مخصص
 
@@ -84,7 +84,7 @@ ms.locfileid: "5944282"
 
 9. لاحظ ان عنوان عنصر التنسيق الجذر يشير إلى ان قالب Word مستخدم حاليا.
 
-    ![استبدال قالب Excel بقالب Word وأضافه جزء XML مخصص](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![استبدال قالب Excel بقالب Word و إضافة جزء XML مخصص.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. ضمن علامة التبويب **تنسيق**، حدد **مرفقات**.
 
@@ -110,7 +110,7 @@ ms.locfileid: "5944282"
 1. في تطبيق Word desktop، قم بفتح ملف القالب **SampleVendPaymDocReportBounded.docx** الذي قمت بتنزيله سابقا.
 2. تحقق من أن القالب يحتوي على تخطيط المستند الذي ترغب في إنشائه كمخرجات تقارير إلكترونية. تعتمد عناصر تحكم المحتوي التي يتم استخدامها كعناصر نائبه للبيانات التي يقوم ER بإدخالها في هذا القالب في وقت التشغيل علي التعيينات التي تم تكوينها بين عناصر جزء XML المخصص **التقرير** وعناصر تحكم المحتوي الخاصة بمستند Word.
 
-![معاينة قالب Word الموجود في تطبيق سطح المكتب](../media/er-design-configuration-word-2016-11-image04.png)
+![معاينة قالب Word الموجود في تطبيق سطح المكتب.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>تحميل قالب Word الذي يتم فيه تعيين جزء XML المخصص إلى عناصر تحكم المحتوي
 
@@ -144,7 +144,7 @@ ms.locfileid: "5944282"
 3. في **مدفوعات المورد**، حدد كافة الصفوف الموجودة في الشبكة.
 4. تحديد **حاله الدفع**\>**بلا**.
 
-    ![المدفوعات للمعالجة في صفحة مدفوعات المورد](../media/er-design-configuration-word-2016-11-image05.png)
+    ![المدفوعات للمعالجة في صفحة مدفوعات المورد.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. في جزء الإجراءات، حدد **إنشاء مدفوعات**.
 6. في مربع الحوار الذي يظهر، اتبع الخطوات التالية:
@@ -156,11 +156,11 @@ ms.locfileid: "5944282"
 7. في مربع الحوار **معلمات التقارير الإلكترونية** حدد **موافق**.
 8. يتم عرض الإخراج الذي تم إنشاؤه بتنسيق Word وهي تحتوي على تفاصيل المدفوعات التي تمت معالجتها. مراجعة المخرجات المنشأة.
 
-    ![الإخراج الناتج بتنسيق Word](../media/er-design-configuration-word-2016-11-image06.png)
+    ![الإخراج الناتج بتنسيق Word.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-- [تصميم تكوين ER جديد لإنشاء تقارير بتنسيق Word](../er-design-configuration-word.md)
+- [تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء التقارير بتنسيق Word](../er-design-configuration-word.md)
 - [تضمين الصور والأشكال في المستندات التي تقوم بإنشائها باستخدام التقارير الإلكترونية](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
 
 

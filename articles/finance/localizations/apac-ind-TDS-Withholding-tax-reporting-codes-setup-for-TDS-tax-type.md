@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023008"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361276"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>إعداد أكواد تقرير ضريبة الخصم لنوع ضريبة TDS
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023008"
 
 1. انتقل إلى **الضريبة \> الإعداد \> ضريبة الخصم \> أكواد تقرير ضريبة الخصم**.
 
-    [![صفحة أكواد تقارير ضريبة الخصم](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![صفحة أكواد تقارير ضريبة الخصم.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. في الحقل **نوع الضريبة**، حدد **TDS** لتحديد أكواد تقارير ضريبة الخصم لنوع الضريبة TDS.
 3. في الحقل **مكون ضريبة الخصم**، حدد مكون TDS إلى ما تقوم بتحديد كود تقارير ضريبة الخصم له. يعرض الحقل **مجموعة مكون ضريبة الخصم** مجموعة المكون TDS التي تم تحديدها لمكون TDS الذي تقوم بتعريفه.

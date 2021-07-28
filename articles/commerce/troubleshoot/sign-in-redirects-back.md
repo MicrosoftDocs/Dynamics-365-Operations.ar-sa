@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020593"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350368"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>ارتباط تسجيل الدخول يقوم بإعادة التوجيه مرة أخرى إلى موقع التجارة الإلكترونية
 
@@ -43,7 +43,7 @@ ms.locfileid: "6020593"
 1. حدد التطبيق الذي قمت بإنشائه أثناء إعداد B2C لـ Azure AD.
 1. تحت **عنوان URL للرد**، تأكد من أن القائمة تتضمن إدخالات لكل من عنوان URL لمجال الموقع وعنوان URL الذي تم إنشاؤه بواسطة التجارة الإلكترونية، كما هو موضح في المثال الموجود في التوضيح التالي.
 
-    ![إدخالات URL للرد الخاصة بـ B2C لـ Azure AD](media/aad-b2c-reply-url.jpg)
+    ![إدخالات URL للرد الخاصة بـ B2C لـ Azure AD.](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > يجب أن يكون كل من عنوان URL لمجال الموقع وعنوان URL المنشأ بواسطة التجارة الإلكترونية بتنسيق URL صالح لا يحتوي على خطوط مائلة سابقة أو لاحقة.

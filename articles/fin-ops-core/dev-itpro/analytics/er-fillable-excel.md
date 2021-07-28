@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893898"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359019"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>تصميم تكوين لإنشاء المستندات بتنسيق Excel
 
@@ -39,7 +39,7 @@ ms.locfileid: "5893898"
 
 لتكوين مكون تنسيق ER للتكوين، حدد **المصمم** في جزء الإجراءات، وافتح مكون تنسيق ER للتحرير في مصمم تشغيل التقارير الإلكترونية‬.
 
-![صفحة التكوينات](./media/er-excel-format-add-format.png)
+![صفحة التكوينات.](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>مكون ملف Excel
 
@@ -47,14 +47,14 @@ ms.locfileid: "5893898"
 
 يجب إضافة مكون **ملف\\Excel** إلى تنسيق ER الذي تم تكوينه لإنشاء مستند صادر بتنسيق Excel.
 
-![مكون ملف/ Excel](./media/er-excel-format-add-file-component.png)
+![مكون ملف/ Excel.](./media/er-excel-format-add-file-component.png)
 
 لتحديد مخطط المستند الصادر، قم بإرفاق مصنف Excel يتضمن الملحق .xlsx إلى مكون **ملف\\Excel** كقالب للمستندات الصادرة.
 
 > [!NOTE]
 > عندما تقوم بإرفاق قالب يدويًا، يجب عليك استخدام [نوع مستند](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) تم تكوينه لهذا الغرض في [معلمات ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
-![إضافة مرفق إلى مكون ملف/Excel](./media/er-excel-format-add-file-component2.png)
+![إضافة مرفق إلى مكون ملف/Excel.](./media/er-excel-format-add-file-component2.png)
 
 لتحديد كيفية ملء القالب المرفق عند تشغيل تنسيق ER المكون، يجب إضافة مكونات **الورقة** و **النطاق** و **الخلية** المتداخلة إلى مكون **ملف\\Excel**. يجب أن يرتبط كل مكون متداخل بعنصر يسمى Excel.
 
@@ -62,7 +62,7 @@ ms.locfileid: "5893898"
 
 يمكنك تحديد **استيراد من Excel** من علامة التبويب **استيراد** من جزء الإجراءات لاستيراد قالب جديد إلى تنسيق ER فارغ. في هذا المثال، سيتم إنشاء مكون **ملف\\Excel** تلقائيًا، وسيتم إرفاق القالب المستورد به. سيتم أيضًا إنشاء كافة مكونات ER المطلوبة تلقائيًا، وذلك استنادًا إلى قائمة العناصر المسماة Excel التي تم اكتشافها.
 
-![تحديد استيراد من Excel](./media/er-excel-format-import-template.png)
+![تحديد استيراد من Excel.](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > إذا كنت ترغب في إنشاء عنصر **ورقة** اختياري بتنسيق ER القابل للتحرير، قم بتعيين خيار **إنشاء عنصر تنسيق ورقة Excel** إلى **نعم**.
@@ -79,7 +79,7 @@ ms.locfileid: "5893898"
 - إذا تم تكوين تعبير لخاصية **ممكّن** لإرجاع القيمة **صحيح** في وقت التشغيل، أو إذا لم يتم تكوين أي تعبير على الإطلاق، سيتم وضع ورقه العمل المناسبة في المستند الذي تم إنشاؤه.
 - إذا تم تكوين تعبير لخاصية **ممكّن** لإرجاع القيمة **خطأ** في وقت التشغيل، لن يحتوي المستند الذي تم إنشاؤه على أي ورقة عمل.
 
-![مثال لمكون الورقة](./media/er-excel-format-sheet-component.png)
+![مثال لمكون الورقة.](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>مكون النطاق
 
@@ -182,7 +182,7 @@ ms.locfileid: "5893898"
 >
 > إذا كان تنسيق ER القابل للتحرير مدرج في الأصل في عناصر **الورقة**، فنحن نوصي بتعيين خيار **إنشاء عنصر تنسيق ورقة Excel** إلى **نعم** عند استيراد قالب محدث. خلاف ذلك، سيتم إنشاء كافة العناصر المتداخلة لعنصر **الورقة** الأصلي من البداية. بالتالي، سيتم فقدان كافة ارتباطات عناصر التنسيق المعاد إنشائها في تنسيق ER المحدث.
 
-![خيار إنشاء عنصر بتنسيق ورقة Excel في مربع الحوار تحديث من Excel](./media/er-excel-format-update-template.png)
+![خيار إنشاء عنصر بتنسيق ورقة Excel في مربع الحوار تحديث من Excel.](./media/er-excel-format-update-template.png)
 
 لمعرفة المزيد حول هذه الميزة، اتبع الخطوات الموجودة في [تعديل تنسيقات التقارير الإلكترونية عن طريق إعادة تطبيق قوالب Excel](modify-electronic-reporting-format-reapply-excel-template.md).
 
@@ -190,7 +190,7 @@ ms.locfileid: "5893898"
 
 عند التحقق من صحة تنسيق ER الذي يمكن تحريره، يتم التحقق من التناسق للتأكد من وجود اسم Excel في قالب Excel المستخدم حاليًا. سيتم إعلامك بوجود أي حالات عدم تناسق. بالنسبة لبعض حالات عدم التناسق، يتم تقديم خيار لإصلاح المشكلات تلقائيًا.
 
-![رسالة خطأ التحقق من الصحة](./media/er-excel-format-validate.png)
+![رسالة خطأ التحقق من الصحة.](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>التحكم في حساب معادلات Excel
 
@@ -209,7 +209,7 @@ ms.locfileid: "5893898"
 1. استخدم تكوينات ER المتوفرة [لإنشاء](er-generate-printable-fti-forms.md) مستند فاتورة ذات نص حر قابل للطباعة (FTI).
 2. قم بمراجعة تذييل المستند الذي تم إنشاؤه. لاحظ أنه يحتوي على معلومات حول رقم الصفحة الحالية والعدد الإجمالي للصفحات في المستند.
 
-    ![مراجعة تذييل المستند الذي تم إنشاؤه بتنسيق Excel](./media/er-fillable-excel-footer-1.gif)
+    ![مراجعة تذييل المستند الذي تم إنشاؤه بتنسيق Excel.](./media/er-fillable-excel-footer-1.gif)
 
 3. في مصمم تنسيق ER، [افتح](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) نموذج تنسيق ER للمراجعة.
 
@@ -222,7 +222,7 @@ ms.locfileid: "5893898"
 
     - يملأ مكون **السلسلة** الثاني النص الذي يحتوي على رقم الصفحة الحالية والعدد الإجمالي للصفحات في المستند الحالي.
 
-    ![مراجعة مكون تنسيق التقارير الإلكترونية (ER) في صفحة مصمم التنسيق](./media/er-fillable-excel-footer-2.png)
+    ![مراجعة مكون تنسيق التقارير الإلكترونية (ER) في صفحة مصمم التنسيق.](./media/er-fillable-excel-footer-2.png)
 
 4. تخصيص تنسيق نموذج ER لتعديل تذييل الصفحة الحالية:
 
@@ -237,20 +237,20 @@ ms.locfileid: "5893898"
         1. أضف مكون **سلسلة** لمحاذاة تاريخ المعالجة على اليمين وعرضه بخط 8 نقاط من "Segoe UI Regular" (**"&L&"Segoe UI,Regular"&8"**).
         2. أضف مكون **سلسلة** يقوم بتعبئة تاريخ المعالجة بتنسيق مخصص (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
 
-        ![مراجعة مكون تنسيق التقارير الإلكترونية (ER) في صفحة مصمم التنسيق](./media/er-fillable-excel-footer-3.png)
+        ![مراجعة مكون تنسيق التقارير الإلكترونية (ER) في صفحة مصمم التنسيق.](./media/er-fillable-excel-footer-3.png)
 
     4. [أكمل](er-quick-start2-customize-report.md#CompleteDerivedFormat) إصدار المسودة من تنسيق ER لـ **فاتورة نص حرة (Excel) مخصصة** مشتقة.
 
 5. [قم بتكوين](er-generate-printable-fti-forms.md#configure-print-management) إدارة الطباعة لاستخدام تنسيق ER لـ **فاتورة نص حر (Excel) مخصص** المشتقة بدلا من نموذج تنسيق ER.
 6. قم بإنشاء وثيقة FTI قابلة للطباعة، وقم بمراجعه تذييل الوثيقة التي تم إنشائها.
 
-    ![مراجعة تذييل المستند الذي تم إنشاؤه بتنسيق Excel](./media/er-fillable-excel-footer-4.gif)
+    ![مراجعة تذييل المستند الذي تم إنشاؤه بتنسيق Excel.](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 
-[تصميم تكوين لإنشاء التقارير بتنسيق OPENXML](tasks\er-design-reports-openxml-2016-11.md)
+[تصميم تكوين لإنشاء تقارير بتنسيق OPENXML](tasks\er-design-reports-openxml-2016-11.md)
 
 [تعديل تنسيقات التقارير الإلكترونية من خلال إعادة تطبيق قوالب Excel](modify-electronic-reporting-format-reapply-excel-template.md)
 

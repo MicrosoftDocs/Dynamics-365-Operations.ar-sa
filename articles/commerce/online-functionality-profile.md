@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: be78b92858979b8bb009a4699eff96379ef7cef3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 45df6566a24cd519ccaad67c5d47abd9b7af7aee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791092"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353026"
 ---
 # <a name="create-an-online-functionality-profile"></a>إنشاء ملف تعريف وظائف على الإنترنت
 
@@ -42,7 +42,7 @@ ms.locfileid: "5791092"
 
 تعرض الصورة التالية مثالاً لملف تعريف الوظائف على الإنترنت.
   
-![مثال لملف تعريف الوظائف على الإنترنت](media/online-functionality-profile.png)
+![مثال لملف تعريف الوظائف على الإنترنت.](media/online-functionality-profile.png)
 
 ## <a name="functions"></a>الوظائف
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748887"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350778"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>استكشاف المشاكل وإصلاحها في المزامنة المباشرة
 
@@ -73,21 +73,21 @@ ms.locfileid: "5748887"
 
 قد تظهر رسالة الخطأ "طلب غير صحيح" المشابهة للمثال التالي عند إنشاء بيانات في تطبيق Finance and Operations.
 
-![مثال لرسالة الخطأ "طلب غير صحيح"](media/error_record_id_source.png)
+![مثال لرسالة الخطأ "طلب غير صحيح".](media/error_record_id_source.png)
 
 لإصلاح هذه المشكلة، يجب عليك تعيين دور الأمان الصحيح إلى فريق العمل في فريق Dynamics 365 Sales المعين أو وحدة الأعمال الخاصة بـ Dynamics 365 Customer Service لتمكين الامتيازات المفقودة.
 
 1. في تطبيق Finance and Operations، ابحث عن وحدة الأعمال التي تم تعيينها في مجموعة اتصال تكامل البيانات.
 
-    ![تعيين المؤسسة](media/mapped_business_unit.png)
+    ![تعيين المؤسسة.](media/mapped_business_unit.png)
 
 2. قم بتسجيل الدخول إلى البيئة الموجودة في التطبيق المستند إلى النموذج في Dynamics 365، وانتقل إلى **الإعداد \>الأمان**، وابحث عن فريق وحدة الأعمال المعيّنة.
 
-    ![فريق وحدة الأعمال المعيّنة](media/setting_security_page.png)
+    ![فريق وحدة الأعمال المعيّنة.](media/setting_security_page.png)
 
 3. افتح الصفحة الخاصة بالفريق للتحرير، ثم حدد **إدارة الأدوار** لفتح مربع الحوار **إدارة أدوار الفريق**.
 
-    ![الزر إدارة الأدوار](media/manage_team_roles.png)
+    ![الزر إدارة الأدوار.](media/manage_team_roles.png)
 
 4. قم بتعيين الدور الذي يحتوي على امتياز القراءة/الكتابة للجداول ذات الصلة، ثم حدد **موافق**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ff80b2f3e23f46467b8a2fe7a2abd805e5e3a20
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 125a4efda6fe8e9e65e2a0c166355235727e6cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808486"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356430"
 ---
 # <a name="maintenance-request-types"></a>أنواع طلبات الصيانة
 
@@ -41,7 +41,7 @@ ms.locfileid: "5808486"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة قائمة **أنواع طلبات الصيانة**.
 
-![صفحة أنواع طلبات الصيانة](media/07-setup-for-requests.png)
+![صفحة أنواع طلبات الصيانة.](media/07-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

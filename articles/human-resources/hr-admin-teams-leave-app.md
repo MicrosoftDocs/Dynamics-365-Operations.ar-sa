@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053553"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357351"
 ---
 # <a name="human-resources-app-in-teams"></a>تطبيق Human Resources في Teams
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053553"
 
 يتيح تطبيق Microsoft Dynamics 365 Human Resources في Microsoft Teams للموظفين طلب إجازة بسرعة وعرض معلومات رصيد إجازاتهم في Microsoft Teams. ويمكن للموظفين التفاعل مع روبوت لطلب المعلومات. توفر علامة التبويب **إجازة** مزيدًا من المعلومات التفصيلية. علاوةً على ذلك، يمكنهم إرسال معلومات الأشخاص حول وقت الإجازة القادم في الفرق والدردشات خارج تطبيق Human Resources.
 
-![روبوت تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-bot.png)
+![روبوت تطبيق الإجازات لـ Human Resources في Teams.](./media/hr-teams-leave-app-bot.png)
 
-![علامة تبويب الإجازة في تطبيق الإجازات لـ Human Resources في Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+![علامة تبويب الإجازة في تطبيق الإجازات لـ Human Resources في Teams.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![بطاقة طلب إجازة في Human Resources](./media/hr-teams-leave-app-chat-card.png)
+![بطاقة طلب إجازة في Human Resources.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>التثبيت والإعداد
 
@@ -57,11 +57,11 @@ ms.locfileid: "6053553"
 
 4. من علامة التبويب **عام**، قم بتعيين الخيار **تمكين الاعلامات لتطبيق Teams** إلى **نعم**.
 
-   ![تمكين إعلامات تطبيق Teams في معلمات النظام](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![تمكين إعلامات تطبيق Teams في معلمات النظام.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. لتشغيل إعلامات Teams لجميع المستخدمين، حدد **نعم** عند المطالبة.
 
-   ![تمكين إعلامات Teams لجميع المستخدمين](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![تمكين إعلامات Teams لجميع المستخدمين.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>تشغيل إعلامات Teams أو إيقاف تشغيلها لمستخدمين فرديين
 
@@ -77,7 +77,7 @@ ms.locfileid: "6053553"
 
 5. عيّن الخيار **تمكين الإعلامات لتطبيق Teams** إلى **نعم** لتمكين الإعلامات للمستخدم أو إلى **لا** لتعطيل الإعلامات للمستخدم.
 
-   ![تمكين إعلامات تطبيق Teams في خيارات المستخدم على علامة تبويب سير العمل](./media/hr-admin-teams-leave-app-notifications.png)
+   ![تمكين إعلامات تطبيق Teams في خيارات المستخدم على علامة تبويب سير العمل.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. حدد **حفظ**.
 

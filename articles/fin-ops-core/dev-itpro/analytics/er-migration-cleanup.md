@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750876"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351039"
 ---
 # <a name="er-migration-cleanup"></a>مسح ترحيل ER 
 
@@ -30,11 +30,11 @@ ms.locfileid: "5750876"
 
 إذا حاولت تشغيل تنسيق تقارير إلكترونية يستخدم قالبًا لإنشاء مستندات الأعمال، يحدث استثناء، ويتم اعلامك بالقالب المفقود. ويتم أيضًا إرشادك لاستخدام خيار مسح ترحيل التقارير الإلكترونية (ER) لحذف تكوين تنسيق التقارير الذي يحتوي على القالب ثم إعادة استيراده.
 
-[![تشغيل تنسيق ER](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![تشغيل تنسيق ER.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 ستتلقى خطأً مشابهاً إذا انتقلت إلى صفحة **التكوينات** (**إدارة المؤسسة** \> **التقارير الإلكترونية** \> **التكوينات**) وفي شجره التكوينات، حاول حذف تكوين التنسيق الخاص بـ ER الذي يستخدم القالب.
 
-[![حذف تنسيق ER](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![حذف تنسيق ER.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 أكمل الخطوات التالية لحل المشكلات مع قوالب ER التي لا يمكنك الوصول إليها.
 
@@ -50,7 +50,7 @@ ms.locfileid: "5750876"
 >
 > إذا استخدمت خيار **مسح الترحيل** لحذف تكوين تنسيق ER عند توفر القالب المُشار إليه في مخزن البيانات الثنائية كبيرة الحجم، فإنه يمكنك فقط حذف نتائج التكوين ذات الصلة في قاعدة بيانات التطبيق. يظل الملف الفعلي للقالب في مخزن البيانات الثنائية كبيرة الحجم. لم تعد الكتابة فوق مخزن البيانات الثنائية كبيرة الحجم مسموحًا بها. لمزيد من المعلومات، راجع [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). بالإضافة إلى ذلك، لن تتمكن بعد ذلك من إعادة استيراد التكوينات التي تم حذفها باستخدام مسح الترحيل في هذه البيئة. لحل هذه المشكلة، يجب العثور علي الملف المقابل في مخزن البيانات الثنائية كبيرة الحجم وحذفه يدويا.
 
-[![استيراد تنسيق ER](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![استيراد تنسيق ER.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 قد تحدث مشكله مشابهه إذا قمت بترحيل مثيل التطبيق الخاص بك إلى موقع آخر تم استخدامه كهدف ترحيل أكثر من مره ولمخزن البيانات الثنائية كبيرة الحجم التي تحتوي بالفعل على ملفات قالب ER.
 

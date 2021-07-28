@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8a6b36314d9d98f971cd1619dd3604f20a3770b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193967"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360510"
 ---
 # <a name="enter-skills"></a>إدخال المهارات
 
@@ -45,17 +45,17 @@ ms.locfileid: "6193967"
 
 4. في الجزء **إنشاء سير عمل**، حدد **مهارات العامل**.
 
-   [![تحديد سير عمل مهارات العامل](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![تحديد سير عمل مهارات العامل.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. في مربع الخوار **هل تريد فتح هذا الملف؟**، حدد **فتح**. عند المطالبة، أدخل بيانات اعتمادك.
 
 6. في محرر سير العمل، حدد عنصر سير العمل **اعتماد المهارات** واسحبه إلى اللوحة.
 
-   [![تحديد عنصر سير عمل مهارات الاعتماد](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![تحديد عنصر سير عمل مهارات الاعتماد.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. قم بتوصيل العنصر **البدء** لعنصر **اعتماد المهارات**، ثم قم بتوصيل العنصر **اعتماد المهارات** بالعنصر **إنهاء**. قد تحتاج إلى التمرير لأسفل لرؤية العنصر **النهاية**. يمكنك سحبه بالقرب من العناصر الأخرى.
 
-   [![توصيل عناصر سير العمل](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![توصيل عناصر سير العمل.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. انقر نقرًا مزدوجًا فوق عنصر سير العمل **اعتماد المهارات 1**، ثم انقر بزر الماوس الأيمن فوق العنصر **الخطوة 1**. انقر بزر الماوس الأيمن فوق العنصر **الخطوة 1**، ثم حدد **خصائص**.
 
@@ -65,7 +65,7 @@ ms.locfileid: "6193967"
 
 11. حدد **إضافة الشرط**. بعد **المكان**، حدد **مهارات خدمة الموظف الذاتية**، ثم حدد **خدمة الموظف الذاتيةskills.Person**. بعد **يكون**، حدد **الحقل**، ثم حدد **المستخدم إلى الشخص relationship.Person**.
 
-    [![تحديد شرط](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![تحديد شرط.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. حدد **مهمة** في شريط التنقل بالجانب الأيسر.
 
@@ -73,7 +73,7 @@ ms.locfileid: "6193967"
 
 14. في علامة التبويب **تحديد التدرج الهرمي**، في الحقل **نوع التدرج الهرمي:**، حدد **التدرج الهرمي الإداري**.
 
-    [![تحديد التدرج الهرمي الإداري](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![تحديد التدرج الهرمي الإداري.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. حدد **إغلاق**، حدد **سير العمل** في مسار تنقل اللوحة، ثم حدد **حفظ وإغلاق**.
 

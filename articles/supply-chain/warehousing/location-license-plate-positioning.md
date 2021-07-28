@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831375"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359753"
 ---
 # <a name="location-license-plate-positioning"></a>‏‫تحديد موضع لوحة ترخيص الموقع
 
@@ -88,7 +88,7 @@ ms.locfileid: "5831375"
 1. بينما ما تزال **لوحة الترخيص** محددة، حدد **إضافة صلة جدول**.
 1. في قائمة الجداول التي تظهر، في عمود **العلاقة**، حدد **ضبط موضع لوحة ترخيص الموقع (لوحة الترخيص)**. ثم حدد **تحديد** لإضافة **ضبط موضع لوحة ترخيص الموقع** إلى صلة جدول **أبعاد المخزون**.
 
-    ![صلات الجداول](media/LpTableJoin.png "صلات الجداول")
+    ![صلات الجداول.](media/LpTableJoin.png "صلات الجداول")
 
 1. حدد **موافق** لتأكيد الجداول المرتبطة المحدثة وإغلاق محرر الاستعلام.
 1. في علامة التبويب السريعة **إجراءات توجيه الموقع**، حدد **تحرير الاستعلام** مرة أخرى لإعادة فتح محرر الاستعلام.
@@ -100,7 +100,7 @@ ms.locfileid: "5831375"
     - **الحقل:** *موضع LP*
     - **المعايير:** *1*
 
-    ![نطاق جديد](media/LpPositionCriteria.png "نطاق جديد")
+    ![نطاق جديد.](media/LpPositionCriteria.png "نطاق جديد")
 
 1. حدد **موافق** لتأكيد تغييراتك وإغلاق محرر الاستعلام.
 
@@ -275,7 +275,7 @@ ms.locfileid: "5831375"
 1. في صفحة **مسح معرف العمل / معرف لوحة الترخيص**، حدد حقل **المعرف**، ثم أدخل معرف العمل من بند المبيعات.
 1. لاحظ أن عمل الانتقاء يوجك لانتقاء الصنف *A0002* من الموقع *01A01R1S2B*. تتلقي هذا التعليمات نظرا لأن الصنف *A0002* موجود على لوحة ترخيص في الموضع *1* في ذلك الموقع.
 
-    ![الموضع 1](media/LocationLicensePlatePositioning.png "الموضع 1")
+    ![موقع الموضع 1.](media/LocationLicensePlatePositioning.png "الموضع 1")
 
 1. أدخل معرف لوحة الترخيص الذي قمت بإنشائه للموقع، ثم اتبع المطالبات لانتقاء أمر المبيعات.
 

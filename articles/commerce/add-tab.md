@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c865d5e055e3fadf2dda225b49f13a163974768f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e7d2cd7b7ce9446d77eff66433739c8ea6b1f309
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797445"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348286"
 ---
 # <a name="tab-module"></a>وحدة علامة تبويب
 
@@ -34,13 +34,13 @@ ms.locfileid: "5797445"
 
 تعرض الصورة التالية مثالاً عن وحدة علامة تبويب في صفحة موقع. في هذا المثال، تم تحديد علامة تبويب **الشحن**.
 
-![مثال عن وحدة علامة تبويب](./media/ecommerce-tab.PNG)
+![مثال عن وحدة علامة تبويب.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>خصائص وحدة علامة التبويب
 
-| اسم الخاصية | القيم | ‏‏الوصف |
+| اسم الخاصية | القيم | الوصف |
 |---------------|--------|-------------|
-| العنوان | النص | تحدد هذه الخاصية عنوان نص اختياري لوحدة علامة التبويب. |
+| العنوان‬ | النص | تحدد هذه الخاصية عنوان نص اختياري لوحدة علامة التبويب. |
 | فهرس علامة التبويب النشطة | رقم | تحدد هذه الخاصية علامة التبويب التي يجب أن تكون نشطة بشكل افتراضي عند تحميل الصفحة. إذا لم يتم توفير أي قيمة، يكون عنصر علامة التبويب الأولى نشطًا بشكل افتراضي. |
 
 ## <a name="tab-item-module-properties"></a>خصائص وحدة عنصر علامة التبويب

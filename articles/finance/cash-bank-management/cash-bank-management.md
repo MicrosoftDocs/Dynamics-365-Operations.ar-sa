@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21941
+ms.custom:
+- "21941"
+- intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5abef8a25513898d6dbef2604d10373394c95c6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: c948cf34b198769a67c9e6981ab49c9d4482ef25
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897418"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352872"
 ---
 # <a name="cash-and-bank-management-home-page"></a>الصفحة الرئيسية لإدارة البنك والنقد
 
@@ -30,9 +32,9 @@ ms.locfileid: "5897418"
 
 وتشمل هذه المستندات إيصالات الإيداع والشيكات والكمبيالات والسندات الإذنية. كما يُمكنك تسوية كشوف الحسابات البنكية‬ وطباعة البيانات البنكية في التقارير القياسية.
 
-**‏‏العمليات التجارية**
+**عمليات الأعمال**
 
-[![العملية التجارية](./media/Cash-process.PNG)](./media/Cash-process.PNG)
+[![عملية الأعمال.](./media/Cash-process.PNG)](./media/Cash-process.PNG)
 
 -   [الخصومات النقدية](cash-discounts.md)
 -   [نظرة عامة على التسوية](settlement-overview.md)

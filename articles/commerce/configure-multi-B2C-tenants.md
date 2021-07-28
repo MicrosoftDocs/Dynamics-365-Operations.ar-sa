@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c813adb79ae1b78a052332e077393f125830633f
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 0ad2a86fbc17f107a065330a56da6cdcca69e172
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027712"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352556"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>تكوين عدة مستأجرين B2C في بيئة Commerce
 
@@ -49,7 +49,7 @@ ms.locfileid: "6027712"
 
 يبين الرسم التوضيحي التالي مستأجري B2C متعددين في بيئة Commerce.
 
-![مستأجرو B2C متعددون في بيئة Commerce](media/MultiB2C_In_Environment.png)
+![مستأجرو B2C متعددون في بيئة Commerce.](media/MultiB2C_In_Environment.png)
 
 إذا قررت أن أعمالك تتطلب مستأجري B2C متميزين لكل قناة في بيئة Commerce نفسها، فأكمل الإجراءات الموجودة في الأقسام التالية لطلب هذه الميزة.
 

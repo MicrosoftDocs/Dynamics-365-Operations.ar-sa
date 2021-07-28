@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894767"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356067"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>الشروع في العمل باستخدام الفوترة الإلكترونية لإيطاليا
 
@@ -59,7 +61,7 @@ ms.locfileid: "5894767"
 
 4. حدد ميزة **تصدير الفواتير الإلكترونية (IT)**، ثم حدد **استيراد**.
 
-![استيراد ميزة تصدير الفواتير الإلكترونية (IT)](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![استيراد ميزة تصدير الفواتير الإلكترونية (IT).](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 عند استيراد ميزة **تصدير الفواتير الإلكترونية (IT)** من المستودع العمومي، يتم أيضًا استيراد كافة الإعدادات الموضحة في الأقسام التالية.
 
@@ -67,13 +69,13 @@ ms.locfileid: "5894767"
 
 1. في صفحة **ميزات الفوترة الإلكترونية**، على علامة التبويب **الإصدارات**، حدد **جديد**. 
 
-    ![إضافة إصدار جديد لميزة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
+    ![إضافة إصدار ميزة الفوترة الإلكترونية الجديدة.](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     بعد ذلك، ستقوم بتكوين تنسيقات التقارير الإلكترونية (ER) المقترنة بميزة الفوترة الإلكترونية.
 
 2. في علامة التبويب **التكوينات**، حدد **إضافة** لإدارة إصدارات التكوين.
 
-    ![إدارة إصدارات تكوين ميزة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
+    ![إدارة إصدارات تكوين ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
     في هذه الخطوة، تقوم بإضافة وتكوين تنسيقات التقارير الإلكترونية لملفات مختلفة يتم استخدام لتصدير الفواتير الإلكترونية الإيطالية. بالنسبة للفواتير الإلكترونية الإيطالية FatturaPA، استخدم إما التكوينات القياسية التالية أو التكوينات المخصصة الفعلية التي تستخدمها للفوترة الإلكترونية:
 
@@ -85,17 +87,17 @@ ms.locfileid: "5894767"
 3. حدد تكوين ملف تنسيق تقارير إلكترونية محدد.
 4. حدد **تحرير** أو **عرض** لفتح صفحة **مصمم التنسيق**.
 
-    ![فتح صفحة مصمم التنسيق](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
+    ![فتح صفحة مصمم التنسيق.](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
 5. استخدم الصفحة **مصمم التنسيق** لتحرير وعرض تكوينات ملف تنسيق التقارير الإلكترونية.
 
-    ![صفحة مصمم التنسيق‬](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
+    ![صفحة مصمم التنسيق‬.](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>إدارة عمليات إعداد ميزة الفوترة الإلكترونية
 
 - في صفحة **ميزات الفوترة الإلكترونية**، على علامة تبويب **عمليات الإعداد**، حدد **إضافة** أو **حذف** أو **تحرير** لإدارة عمليات إعداد ميزة الفوترة الإلكترونية.
 
-![إدارة عمليات إعداد ميزة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
+![إدارة عمليات إعداد ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
 في هذه الخطوة، تقوم بتكوين الأحداث التي تنطبق على الفواتير الإلكترونية، بما في ذلك إنشاء ملفات إخراج XML بتنسيق **FatturaPA** والتوقيع الرقمي (إذا كان مطلوبًا).
 
@@ -105,7 +107,7 @@ ms.locfileid: "5894767"
 2. حدد **تحرير**.
 3. في الصفحة **إعداد إصدار الميزة**، حدد علامة التبويب **الإجراءات** لإدارة قائمة الإجراءات. تحدد الإجراءات قائمة بالعمليات التي يجب تشغيلها بترتيب تسلسلي لاستكمال التنفيذ الكامل للحدث.
 
-    ![علامة تبويب الإجراءات‏‎](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
+    ![علامة تبويب الإجراءات‏‎.](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
     | معرف الإجراء | اسم الإجراء        | وصف الإجراء                                     |
     |-----------|--------------------|--------------------------------------------------------|
@@ -114,11 +116,11 @@ ms.locfileid: "5894767"
 
 4. حدد علامة التبويب **قواعد قابلية التطبيق** لعرض قواعد قابلية التطبيق والمحافظة عليها. تحدد قواعد قابلية التطبيق السياق الذي سيتم تشغيل الإجراء فيه.
 
-    ![علامة تبويب قواعد قابلية التطبيق](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
+    ![علامة تبويب قواعد قابلية التطبيق.](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
 5. حدد علامة التبويب **المتغيرات** لعرض المتغيرات والمحافظة عليها.
 
-    ![علامة تبويب المتغيرات](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
+    ![علامة تبويب المتغيرات.](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
 6. حدد المتغيرات العامة المطلوبة لتشغيل الإجراءات.
 
@@ -133,7 +135,7 @@ ms.locfileid: "5894767"
 3. في الحقل **ساري من‬‏‫**، حدد التاريخ الذي يجب أن تصبح فيه البيئة سارية المفعول.
 4. حدد **تمكين**. 
 
-![تمكين بيئة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
+![تمكين بيئة الفوترة الإلكترونية.](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
 
 ## <a name="publish-the-e-invoicing-feature"></a>نشر ميزة الفوترة الإلكترونية
 
@@ -149,7 +151,7 @@ ms.locfileid: "5894767"
 1. في الصفحة **ميزات الفوترة الإلكترونية**، على علامة تبويب **الإصدارات**، حدد إصدار ميزة الفوترة الإلكترونية بالحالة **مكتمل**.
 2. حدد **تغيير الحالة \> نشر**.
 
-![تغيير حالة ميزة الفوترة الإلكترونية](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
+![تغيير حالة ميزة الفوترة الإلكترونية.](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing-integration-in-finance"></a>إعداد تكامل الفوترة الإلكترونية في Finance
 
@@ -170,7 +172,7 @@ ms.locfileid: "5894767"
 1. انتقل إلى **إدارة المؤسسة \> الإعداد \> معلمات المستندات الإلكترونية**.
 2. على علامة التبويب **الميزات**، حدد خانة الاختيار **ممكّن** في صف مرجع الميزة **IT00036**.
 
-![تشغيل ميزة FatturaPA](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
+![تشغيل ميزة FatturaPA.](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>تكوين المستندات الإلكترونية
 
@@ -185,7 +187,7 @@ ms.locfileid: "5894767"
     - بالنسبة إلى **دفتر يومية فاتورة العميل**، حدد **سياق فاتورة العميل**.
     - بالنسبة إلى **فاتورة المشروع** ، حدد **سياق فاتورة المشروع**.
 
-![إعداد أنواع الاستجابات](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
+![إعداد أنواع الاستجابات.](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
 ## <a name="electronic-invoice-processing"></a>معالجة الفواتير الإلكترونية
 
@@ -207,13 +209,13 @@ ms.locfileid: "5894767"
 2. بالنسبة لعملية الإرسال الأولى لأي مستند، عيّن الخيار **إعادة إرسال المستندات** إلى **لا**. إذا كان من الضروري إعادة إرسال مستند من خلال الخدمة، فقم بتعيين هذا الخيار إلى **نعم**.
 3. على علامة التبويب السريعة **السجلات المطلوب تضمينها‬**، حدد **تصفية** لفتح مربع الحوار **استعلام** حيث يمكنك إنشاء استعلام لتحديد مستندات لإرسالها.
 
-![مربع الحوار إرسال المستندات الإلكترونية](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
+![مربع الحوار إرسال المستندات الإلكترونية.](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>استعلام تصفية
 
 1. في مربع الحوار **استعلام**، قم بتكوين شروط التصفية لكل من فواتير المبيعات وفواتير المشروع، أو اترك الشروط فارغة لتضمين كافة الفواتير غير المرسلة.
 
-    ![إعداد معايير تصفية الإرسال](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
+    ![إعداد معايير تصفية الإرسال.](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. حدد **موافق** لإغلاق مربع الحوار **استعلام**.
 3. حدد **موافق** لإرسال المستندات المحددة.
@@ -227,13 +229,13 @@ ms.locfileid: "5894767"
 1. انتقل إلى **إدارة المؤسسة \> دوري \> المستندات الإلكترونية \> سجل إرسال المستندات الإلكترونية**.
 2. في الحقل **نوع المستند**، حدد **دفتر يومية فواتير العميل** أو **فاتورة المشروع** لتصفية المستندات الإلكترونية المطلوبة.
 
-    ![تحديد نوع المستند لعرض سجلات الإرسال](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
+    ![تحديد نوع المستند لعرض سجلات الإرسال.](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
     تمثل القيمة التي تظهر في العمود **حالة الإرسال** حالة عملية الإرسال. وتشير إلى ما إذا تم تشغيل العميل كما هي مكوّنة وما إذا كان ثمة حاجة لتنفيذ إجراء إضافي.
 
 3. في جزء الإجراءات، حدد **الاستعلامات \> تفاصيل الإرسال** لعرض سجلات تنفيذ الإرسال.
 
-    ![عرض تفاصيل سجل الإرسال](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
+    ![عرض تفاصيل سجل الإرسال.](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. على علامة التبويب السريعة **إجراءات المعالجة**، يمكنك عرض سجل التنفيذ للإجراءات التي تم تكوينها في إصدار الميزة الذي تم إعداده في RCS. يعرض عمود **الحالة** ما إذا كان قد تم تشغيل الإجراء بنجاح ام لا.
 5. على علامة التبويب السريعة **ملفات الإجراءات**، يمكنك عرض الملفات الوسيطة التي تم إنشاؤها أثناء تنفيذ الإجراءات. يمكنك تحديد **عرض** لتنزيل ملف الإخراج XML بالتنسيق **FatturaPA** وعرض محتوياته.

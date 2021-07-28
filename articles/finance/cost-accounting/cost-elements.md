@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 067d7035cdb9c8f4bcb2bdac9cf0a33cd4e01079
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fa602d01cadecbf24c2433360f7b2a8ebb0854a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811427"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355145"
 ---
 # <a name="cost-element-dimensions"></a>أبعاد عنصر التكلفة
 
@@ -63,7 +63,7 @@ ms.locfileid: "5811427"
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>أبعاد عنصر التكلفة وأعضاء أبعاد عنصر التكلفة
 يُشار إلى عناصر التكلفة باسم *أبعاد عنصر التكلفة* . وتسمى قيم الأبعاد الفردية *أعضاء أبعاد عنصر التكلفة*. على سبيل المثال، لديك بنية دليل حسابات الولايات المتحدة (COA) وهو عبارة عن قاعدة للتقارير التنظيمية. يتم استخدام COA كبعد عنصر التكلفة. ويتم تمثيل الحسابات، وهي عناصر التكلفة الأساسية، كأعضاء أبعاد عنصر التكلفة في محاسبة التكاليف. تظهر لقطة الشاشة التالية للحسابات الرئيسية كبعد عنصر التكلفة مع حساباته الرئيسية الفعلية كأعضاء أبعاد عنصر التكلفة. 
 
-[![لقطة شاشة للحسابات الرئيسية كبعد عنصر تكلفة](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![لقطة شاشة للحسابات الرئيسية كبعد عنصر تكلفة.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>استيراد أعضاء أبعاد عنصر التكلفة من خلال موصلات البيانات
 لتسهيل عملية إعداد أعضاء أبعاد عنصر التكلفة في محاسبة التكاليف، يمكنك استخدام موصلات البيانات المبنية بشكل مسبق أو قمت أنت ببنائها بشكل مخصص لاسترداد عناصر التكلفة الأساسية من نظام مصدر واحد أو أكثر.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816873"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356666"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>ضريبة الخصم في حركات الشراء
 
@@ -64,15 +64,15 @@ ms.locfileid: "5816873"
 
 يتوفر المبلغ المؤقت لضريبة الخصم في الحقل **ضريبة الخصم المعدلة** في علامة التبويب **الإجماليات** في صفحة **أمر الشراء**.
 
-![تضمين ضريبة الخصم في أمر الشراء](media/withholding-tax-adjusted.png)
+![تضمين ضريبة الخصم في أمر الشراء.](media/withholding-tax-adjusted.png)
 
 يتم حساب ضريبة الخصم في **دفتر يومية مدفوعات المورد**. يمكنك تعديل أكواد ضريبة الخصم القابلة للتطبيق يدويًا بالإضافة إلى مبالغ ضريبة الخصم الفعلية في علامة التبويب **ضريبة الخصم** في صفحة **تسوية الحركات**.
 
-![يمكن تعديل الخصم يدويًا في صفحة تسوية الحركات](media/withholding-tax-vendor-payment-tab.png)
+![يمكن تعديل الخصم يدويًا في صفحة تسوية الحركات.](media/withholding-tax-vendor-payment-tab.png)
 
 سيتم خصم مبلغ ضريبة الخصم المشتقة من دفع المورد وترحيله إلى **حساب ضريبة الخصم** في إيصال متعلق.
 
-![حساب ضريبة الخصم يُظهر إيصالا متعلقًا](media/withholding-tax-adjusted.png)
+![حساب ضريبة الخصم يُظهر إيصالا متعلقًا.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

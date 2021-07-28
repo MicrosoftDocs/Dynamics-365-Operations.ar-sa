@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193421"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353604"
 ---
 # <a name="benefits-management-workspace"></a>مساحة عمل إدارة المزايا
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193421"
 يصف هذا الموضوع مساحة عمل **إدارة المزايا** في Dynamics 365 Human Resources.
 
 > [!NOTE]
-> لعرض مساحة عمل **إدارة المزايا**، يجب أولاً تمكين ميزة **مساحة عمل إدارة المزايا (معاينة)** في إدارة المزايا. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).<br><br>![تمكين مساحة عمل إدارة المزايا](./media/hr-benefits-management-workspace-enable.png)
+> لعرض مساحة عمل **إدارة المزايا**، يجب أولاً تمكين ميزة **مساحة عمل إدارة المزايا (معاينة)** في إدارة المزايا. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).<br><br>![تمكين مساحة عمل إدارة المزايا.](./media/hr-benefits-management-workspace-enable.png)
 
 تمنحك مساحة عمل **إدارة المزايا** عرضًا سريعًا لعناصر المزايا التي تتطلب انتباهك. في هذه الصفحة، يمكنك رؤية:
 
@@ -43,13 +43,13 @@ ms.locfileid: "6193421"
 - العاملون الذين لديهم أحداث في الحياة نشطة
 - عمال بتسجيلات مفتوحة الذين لم يشتركوا في أي خطط
 
-![مساحة عمل إدارة المزايا](./media/hr-benefits-management-workspace.png)
+![مساحة عمل إدارة المزايا.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>عرض عناصر الإجراءات
 
 يمكنك عرض عناصر الإجراءات إما بتحديد لوحة أو علامة تبويب. إذا قمت بتحديد علامة تبويب، يمكنك عرض حق العاملين وتحديده في الصفحة مساحة العمل.
 
-![عناصر الإجراءات](./media/hr-benefits-management-workspace-action-items.png)
+![عناصر الإجراءات.](./media/hr-benefits-management-workspace-action-items.png)
 
 إذا قمت بتحديد لوحة، فإنك تنتقل إلى الصفحة الخاصة بتلك المنطقة. على سبيل المثال، يؤدي تحديد أي من هذه اللوحات إلى عرض الصفحة **خطط مزايا العامل**، التي تمت تصفيتها للموظفين الذين ترغب في اتخاذ إجراء لهم:
 
@@ -58,21 +58,21 @@ ms.locfileid: "6193421"
 - **الميزات المسجلة**
 - **لم يتم تسجيل التوظيف الجديد**
 
-![خطط مزايا العاملين](./media/hr-benefits-management-workspace-plans.png)
+![خطط مزايا العاملين.](./media/hr-benefits-management-workspace-plans.png)
 
 يؤدي تحديد لوحات **أحداث الحياة النشطة** أو **أحداث الحياة المستقبلية** إلى عرض قائمة بأحداث الحياة النشطة أو المستقبلية.
 
-![أحداث الحياة](./media/hr-benefits-management-workspace-life-events.png)
+![أحداث الحياة.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>قيد المعالجة
+## <a name="processing"></a>جارٍ المعالجة
 
 لمعالجة أهلية التسجيل أو أحداث الحياة أو تحديثات تغيير السعر، حدد الصنف المناسب على شريط التنقل.
 
-![قيد المعالجة](./media/hr-benefits-management-workspace-processing.png)
+![قيد المعالجة.](./media/hr-benefits-management-workspace-processing.png)
 
 لعرض نتائج العملية، حدد **نتائج العملية** على الصفحة.
 
-![نتائج العملية](./media/hr-benefits-management-workspace-process-results.png)
+![نتائج العملية.](./media/hr-benefits-management-workspace-process-results.png)
 
 لمزيد من المعلومات حول معالجة المزايا، راجع:
 
@@ -86,13 +86,13 @@ ms.locfileid: "6193421"
 
 لعرض فترة مزايا مختلفة، قم بتحديدها من القائمة المنسدلة **الفترة**.
 
-![تغيير الفترة](./media/hr-benefits-management-workspace-period.png)
+![تغيير الفترة.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>عرض مزيد من الخيارات
 
 لعرض مزيد من المعلومات والإجراءات التي يمكنك إجراؤها، حدد **الارتباطات**.
 
-![الارتباطات](./media/hr-benefits-management-workspace-links.png)
+![الارتباطات.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 827f4ca16341d29413f1b1d928965aa1919abf59
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c28ade5bb6a22b9d15380085ea479e79ba246c1e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822505"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354050"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>جدولة أمر العمل في تاريخ ووقت محددين
 
@@ -38,13 +38,13 @@ ms.locfileid: "5822505"
 
 4. على علامة التبويب السريعة **رأس أمر العمل**، أدخل تواريخ وأوقات البدء والانتهاء في الحقلين **البدء المتوقع** و **الانتهاء المتوقع**.
 
-    ![الشكل 1](media/05-work-order-scheduling.png)
+    ![الشكل 1.](media/05-work-order-scheduling.png)
 
 5. على علامة التبويب السريعة **عام**، انقر فوق **جدول** لاستخدام عملية الجدولة القياسية، أو انقر فوق **إرسال** لتعين أمر العمل إلى عامل معين.
 
 6. من أجل تجاوز حجوزات القدرة الإنتاجية الحالية لضمان جدولة أمر العمل في الفترة المتوقعة، قم بإجراء التحديدات كما هو موضح في الشكل أدناه في مربع الحوار **جدولة أمر العمل** > القسم **قدرة محدودة‬**. وهذا يعني أن عملية الجدولة ستتجاهل حجوزات القدرة الإنتاجية الحالية نظرًا لضرورة بدء أمر العمل في وقت البدء المتوقع.
 
-    ![الشكل 2](media/06-work-order-scheduling.png)
+    ![الشكل 2.](media/06-work-order-scheduling.png)
 
 7. انقر فوق **موافق** لبدء الجدولة.
 

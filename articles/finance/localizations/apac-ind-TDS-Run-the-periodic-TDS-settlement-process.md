@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfab08a4190bf51518bd4a9b445b229a5081e87d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: bfa7dc9c2a86b5bd8783327c0e7cfa6b8b9ddd4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022987"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358328"
 ---
 # <a name="run-the-periodic-tds-settlement-process"></a>تشغيل عملية تسوية TDS الدورية
 
@@ -31,7 +31,7 @@ ms.locfileid: "6022987"
 
 1. انتقل إلى **الضريبة \> الإقرارات \> ضريبة الخصم \> دفع ضريبة الخصم**.
 
-    [![مربع الحوار دفع ضريبة الخصم](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
+    [![مربع الحوار دفع ضريبة الخصم.](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
 
 2. في مربع الحوار **دفع ضريبة الخصم**، في الحقل **نوع الضريبة**، حدد **TDS**.
 3. في الحقل **رقم حساب الضريبة (TAN)**، حدد رقم حساب الضريبة (TAN) لتشغيل عملية التسوية له.

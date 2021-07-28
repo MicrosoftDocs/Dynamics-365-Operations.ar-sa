@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102964"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354895"
 ---
 # <a name="create-maintenance-requests"></a>إنشاء طلبات صيانة
 
@@ -52,7 +52,7 @@ ms.locfileid: "6102964"
 11. في حقل **الملاحظات**، أدخل أية ملاحظات إضافية مطلوبة.
 12. حدد **موافق**.
 
-![إنشاء طلب صيانة](media/03-manage-maintenance-requests.png)
+![إنشاء طلب صيانة.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>المعالجة اللاحقة لطلبات الصيانة
 
@@ -67,7 +67,7 @@ ms.locfileid: "6102964"
 - حدد نوع مهمة الصيانة، وإذا كانت هذه المعلومات ذات صلة، متغير مهمة صيانة ذات صلة ووظيفة تحتاج إلى تدريبات معينة.
 - في الحقلين **خط العرض** و **خط الطول**، أدخل الإحداثيات الجغرافية. تُنقل أية إحداثيات مضافة إلى طلب صيانة إلى أمر عمل ذي صلة تلقائيًا. 
 
-![تحديث طلب الصيانة](media/04-manage-maintenance-requests.png)
+![تحديث طلب الصيانة.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > إذا قمت بتحديد أصل عند إنشاء طلب صيانة، يمكنك إضافة خطأ واحد إلى الأصل. بعد إنشاء طلب الصيانة، يمكنك إضافة المزيد من الأخطاء، كما تحتاج. لإضافة أخطاء، حدد **خطأ الأصل** في صفحة **جميع طلبات الصيانة**.

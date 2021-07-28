@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838120"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353362"
 ---
 # <a name="work-policies"></a>سياسات العمل
 
@@ -200,7 +200,7 @@ ms.locfileid: "5838120"
 
 في المثال التالي، هناك أمرا إنتاج، *PRD-001* و *PRD-002*. يتضمن أمر الإنتاج *PRD-001* عملية تسمى *التجميع*، حيث يتم الإبلاغ عن المنتج *SC1* كمنتج منتهٍ في الموقع *001*. ويتضمن أمر الإنتاج *PRD-002* عملية تسمى *الطلاء* وهو يستهلك المنتج *SC1* من الموقع *001*. يستهلك أمر الإنتاج *PRD-002* أيضًا المواد الخام *RM1* من الموقع *001*. تكون المواد الخام *RM1* مخزنة في موقع المستودع *BULK-001* وسيتم نقل هذه المواد إلى الموقع *001* بواسطة عامل المستودع لانتقاء المواد الخام. يتم إنشاء عمل الانتقاء عند إصدار أمر الإنتاج *PRD-002*.
 
-[![سياسات عمل المستودع](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![سياسات عمل المستودع.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 عندما تخطط لتكوين سياسة عمل المستودع لهذا السيناريو، يجب مراعاة النقاط التالية:
 

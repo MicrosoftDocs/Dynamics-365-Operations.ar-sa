@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799507"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349712"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>تمكين المشاركة عبر القنوات واستخدامها
 
@@ -48,15 +48,15 @@ ms.locfileid: "5799507"
 1. انتقل إلى **إعدادات الموقع \> الميزات**.
 1. قم بتعيين الخيار لميزه **القناة المتداخلة** على **تشغيل**.
 
-    ![تم تعيين خيار عبر القنوات علي التشغيل في منشئ موقع التجارة](./media/enabling-cross-channel-sharing.png)
+    ![تم تعيين خيار عبر القنوات على التشغيل في منشئ موقع التجارة.](./media/enabling-cross-channel-sharing.png)
 
 بعد تمكين المشاركة عبر القنوات، ستظهر المعلومات عبر القنوات في مقطع **القنوات** في **إعدادات الموقع\>الميزات**، كما في المثال الموجود في التوضيح التالي.
 
-![معلومات القنوات مرئية بعد تمكين المشاركة عبر القنوات](./media/channels-cross-channel.png)
+![معلومات القنوات مرئية بعد تمكين المشاركة عبر القنوات.](./media/channels-cross-channel.png)
 
 بالاضافه إلى ذلك، بعد تمكين المشاركة عبر القنوات، سيتضمن حقل **القناة** الموجود في اعلي اليمين من منشئ موقع التجارة خيار **مخزن القناة عبر الإنترنت** الذي يمكنك استخدامه لأداره محتوي القناة المتقاطعة، كما هو مبين في التوضيح التالي.
 
-![خيار مخزن عبر القنوات على الإنترنت في حقل القنوات بعد تمكين المشاركة عبر القنوات](./media/cross-channel-dropdown.png)
+![خيار مخزن عبر القنوات على الإنترنت في حقل القنوات بعد تمكين المشاركة عبر القنوات.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>إنشاء محتوى عبر القنوات واستخدامه
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798743"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353098"
 ---
 # <a name="navigation-menu-module"></a>الوحدة النمطية لقائمة التنقل
 
@@ -33,7 +33,7 @@ ms.locfileid: "5798743"
 يمكن إضافة الوحدة النمطية لقائمة التنقل إلى الوحدة النمطية لرأس الصفحة. في نسق Fabrikam، تعرض قائمة التنقل مستويين بشكل افتراضي. في نسق البادئ، تعرض قائمة التنقل ثلاثة مستويات بشكل افتراضي. للتغيير إلى عدد المستويات، يكون امتداد العرض مطلوبًا على النسق.
 
 يبين الرسم التوضيحي التالي مثالاً على قائمة تنقل لموقع Fabrikam مع مستويين من التدرج الهرمي للفئات وبعض عناصر القائمة الثابتة.
-![مثال عن وحدة نمطية لقائمة التنقل](./media/ecommerce-header.png)
+![مثال عن وحدة نمطية لقائمة التنقل.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>خصائص الوحدة النمطية لقائمة التنقل
 
@@ -50,7 +50,7 @@ ms.locfileid: "5798743"
 | قائمة الجذر | سلسلة | يمكن استخدام هذه الخاصية لتعريف النص للحصول على جذر مخصص إذا تم تعيين الخاصية **إظهار قائمة الجذر** إلى **صحيح**. |
 
 يبين الرسم التوضيحي التالي مثالاً لصورة فئة معروضة على قائمة التنقل في موقع Fabrikam.
-![مثال عن الوحدة النمطية لقائمة التنقل مع صور فئات](./media/ecommerce-categoryimages.PNG)
+![مثال عن الوحدة النمطية لقائمة التنقل مع صور فئات.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>إضافة وحدة نمطية لقائمة تنقل إلى وحدة نمطية للرأس
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82332a8ac8a68f5a9092ae08a094514827f39113
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d351066b0092318275491d933b7b90089c6855b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812705"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359923"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>استراتيجية الحلول لتكوين المنتج
 
@@ -50,7 +50,7 @@ ms.locfileid: "5812705"
 
 لتغيير استراتيجية الحل، في صفحة **نماذج تكوين المنتج**، في "جزء الإجراءات"، حدد **خصائص النموذج**. بعد ذلك، في مربع الحوار **تحرير تفاصيل النموذج**، حدد استراتيجية حل.
 
-[![تغيير استراتيجية الحل](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![تغيير استراتيجية الحل.](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 لا يوجد حاليًا منطق يكتشف تلقائيًا استراتيجية الحل التي ستكون الاستراتيجية الأكثر كفاءة لتكوين المنتج المستند إلى قيد. لذلك، يجب عليك تجربة استراتيجيات الحلول واحدة تلو الأخرى.
 

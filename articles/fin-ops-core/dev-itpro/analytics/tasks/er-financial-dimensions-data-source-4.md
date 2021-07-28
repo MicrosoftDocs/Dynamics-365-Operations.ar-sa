@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a06936da71d7b05f312a99c8c11d148403d29c3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 11d15a9e932eb02fc1bc8960d9c7ecbf4b57a4e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752378"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356285"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 4 - تشغيل التقرير)
 
@@ -34,19 +34,19 @@ ms.locfileid: "5752378"
 2. في الشجرة، قم بتوسيع "نموذج الأبعاد المالية".
 3. في الشجرة، حدد "نموذج الأبعاد المالية\تقرير دفتر يومية دفتر الأستاذ‬".
 4. انقر فوق "تشغيل".
-![صفحة تكوينات التقارير الإلكترونية](../media/er-financial-dimensions-guides-run1.png)
+![صفحة تكوينات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-run1.png)
 5. في الحقل "اسم البُعد"، أدخل قيمة أو حددها.
     * لتحديد كافة الأبعاد في الشركة الحالية، أدخل المعلومات التالية: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![صفحة تكوينات التقارير الإلكترونية](../media/er-financial-dimensions-guides-run2.png)
+![صفحة تكوينات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-run2.png)
 6. وسّع المقطع "السجلات المطلوب تضمينها‬".
 7. انقر فوق "عامل التصفية".
 8. حدد الصف في جدول دفتر يومية دفتر الأستاذ وحقل "رقم دُفعة دفتر اليومية‬".
 9. في الحقل "المعايير، اكتب ''00057".
 10. انقر فوق موافق.
 11. انقر فوق موافق.
-![صفحة تكوينات التقارير الإلكترونية](../media/er-financial-dimensions-guides-run3.png)
+![صفحة تكوينات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-run3.png)
     * اعمل على مراجعة المخرجات المنشأة. بالنسبة إلى كل حركة من الدُفعة المحددة، يتم تقديم الأبعاد المالية من مجموعة الأبعاد المناظرة. شغّل هذا التقرير وجدد أبعادً مختلفة لمعرفة ما إذا كان التقرير لا يعتمد على عدد الأبعاد المحددة أو عدد الأبعاد التي تم تكوينها لهذا المثيل.  
-![صفحة تكوينات التقارير الإلكترونية](../media/er-financial-dimensions-guides-run4.png)
+![صفحة تكوينات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
