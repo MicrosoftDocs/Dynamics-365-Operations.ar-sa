@@ -16,10 +16,8 @@
                   href: get-started/whats-new-home-page.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.20 (أغسطس 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: تحديثات النظام الأساسي لـ 10.0.19 (يونيو 2021)
+                - name: تحديثات النظام الأساسي للإصدار 10.0.19 (يونيو 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: تحديثات النظام الأساسي لـ 10.0.18 (مايو 2021)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -364,8 +362,10 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: استكشاف الأخطاء وإصلاحها في البيئات التي تم نشرها عبر الخدمة الذاتية للنشر
                       href: deployment/troubleshoot-newinfrastructure.md
-                    - name: الصيانة المخططة في الأسئلة الشائعة حول بيئات الخدمة الذاتية
+                    - name: الأسئلة المتداولة حول الصيانة المخططة في البيئات ذاتية الخدمة
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: استمرارية الأعمال والإصلاح بعد كارثة
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: إتمام إعداد Azure Resource Manager
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute وFinance and Operations
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: تطبيق التحديثات والملحقات على Commerce Scale Unit (السحابة)
                   href: deployment/Update-retail-channel.md
+                - name: التحديث التلقائي لـ Commerce Scale Unit (السحابة)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: تهيئة Commerce Scale Unit (السحابة)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: ترحيل القنوات إلى وحدة Commerce Scale Unit مختلفة
@@ -388,13 +390,15 @@
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: إعداد عمليات النشر المحلي
                   items:
-                    - name: نظرة عامة عن النشر المحلي
+                    - name: نظرة عامة على النشر المحلي
                       href: deployment/on-premises-overview.md
                     - name: تخطيط عمليات النشر المحلي وإعدادها
                       href: deployment/plan-onprem-deployment.md
+                    - name: البرامج المدعومة لـ Microsoft Dynamics 365 Finance + ‏Operations (on-premises)
+                      href: deployment/onprem-compatibility.md
                     - name: متطلبات تغيير حجم الأجهزة
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: المصادقة في Dynamics 365 Finance + Operations (on-premises)
+                    - name: المصادقة في Dynamics 365 Finance + ‏Operations (on-premises)
                       href: deployment/authentication-onprem.md
                 - name: إعداد بيئات محلية ونشرها
                   items:
@@ -500,11 +504,9 @@
               items:
                 - name: بيئات التطوير
                   href: dev-tools/access-instances.md
-                - name: تكوين بيئات تطوير خانة واحدة
+                - name: تكوين بيئات تطوير ذات خانة واحدة
                   href: dev-tools/configure-developer-vm.md
-                - name: إنشاء مستخدمين جدد على أجهزة التطوير
-                  href: dev-tools/enable-development-machine.md
-                - name: الأسئلة المتداولة حول الأجهزة الظاهرية للتطوير والإنشاء التي لا تمنح المسؤول حق الوصول
+                - name: الأسئلة المتداولة حول الأجهزة الظاهرية (VM) للتطوير والإنشاء التي لا تمنح المسؤول حق الوصول
                   href: sysadmin/VMs-no-admin-access.md
                 - name: إعادة تسمية البيئات المحلية للوصول إلى Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
@@ -1116,9 +1118,9 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: الطرف ودفتر العناوين العمومي
                       href: data-entities/dual-write/party-gab.md
-                    - name: استخدام مدخل Power مع نموذج بيانات الطرف
+                    - name: استخدام مداخل Microsoft Power Apps مع نموذج بيانات الطرف
                       href: data-entities/dual-write/party-gab-portal.md
-                    - name: الترقية إلى الطرف ونموذج دفتر العناوين العمومي
+                    - name: الترقية إلى نموذج الطرف ودفتر العناوين العمومي
                       href: data-entities/dual-write/upgrade-party-gab.md
                     - name: تكامل الملاحظات
                       href: data-entities/dual-write/notes-integration.md
@@ -1604,6 +1606,8 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: ترقية AX 2012 - العرض المباشر
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: الأسئلة المتداولة حول الترقية من AX 2012 - ترقية البيانات
+                  href: migration-upgrade/upgrade-faq.md
                 - name: التغييرات التي تؤثر على الترقية من AX 2012
                   items:
                     - name: جعل محدد دليل الحسابات فريدًا

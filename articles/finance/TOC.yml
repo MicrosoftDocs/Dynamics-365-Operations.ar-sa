@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (يونيو 2021)
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: Finance 10.0.18 (مايو 2021)
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: تقرير خدمات عبر الحدود
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: رسوم المشتريات
+                  href: localizations/emea-aut-purchase-duties.md
             - name: البحرين
               items:
                 - name: نظرة عامة على البحرين
@@ -1992,6 +1992,10 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: إنشاء إقرار "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي"
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي، فرنسا
+                      href: localizations/emea-fra-intrastat.md
+                    - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي، أيطاليا
+                      href: localizations/emea-ita-intrastat.md
                 - name: تقارير دفتر يومية المخزون
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: المواعيد النهائية لإصدار الفواتير
@@ -2968,6 +2972,12 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'إقرار ضريبة القيمة المضافة مع السجلات (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: التحضير لإعداد تقارير JPK-V7M
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: إعداد تقارير JPK-V7M
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: تفاصيل سيناريوهات أعمال محددة في تقرير JPK-V7M
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: قطر
               items:
                 - name: نظرة عامة على قطر
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: احتياطيات الديون المعدومة في الحسابات المدينة
                       href: localizations/rus-bad-debts.md
+                    - name: حساب سجلات الأصول الضريبية والالتزامات الضريبية
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: السعودية
               items:
                 - name: نظرة عامة على السعودية
@@ -3426,7 +3438,7 @@
                   href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
                 - name: تحديد عملية التعويض وحساب النتائج
                   href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: خطط تعويض العملية
+                - name: معالجة خطط التعويض
                   href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
             - name: إدارة المزايا
               items:
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: إنشاء تقارير بتنسيقات Office ذات صور مضمنة
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: تصميم تنسيق ER لإنشاء تقرير في Excel باستخدام الصور المضمنة في رؤوس الصفحات أو تذييلاتها
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: منع أحرف BOM في الملفات التي تم إنشاؤها

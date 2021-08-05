@@ -5,6 +5,8 @@
       items:
         - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 12 يوليو 2021
+          href: hr-whats-new-2021-07-12.md
         - name: 22 يونيو 2021
           href: hr-whats-new-2021-06-22.md
         - name: 20 مايو 2021
@@ -255,6 +257,8 @@
           href: hr-admin-go-live-prepare.md
         - name: الأسئلة المتداولة حول العرض المباشر
           href: hr-admin-go-live-faq.md
+        - name: الأسئلة المتداولة حول دمج البنية التحتية لـ Human Resources
+          href: hr-infrastructure-merge-faq.md
         - name: موارد الوثائق
           items:
             - name: نظام التعليمات
@@ -689,8 +693,10 @@
               href: hr-compensation-enroll-employees-variable.md
             - name: تحديد عملية التعويض وحساب النتائج
               href: hr-compensation-define-process.md
-            - name: خطط تعويض العملية
+            - name: معالجة خطط التعويض
               href: hr-compensation-process.md
+            - name: وضع علامة على موظف كجاهز للدفع
+              href: hr-compensation-payroll.md
         - name: إدارة المزايا
           items:
             - name: إدارة المزايا
@@ -711,11 +717,11 @@
                       href: hr-benefits-setup-contact-eligibility-options.md
                     - name: إنشاء خيارات تغطية
                       href: hr-benefits-setup-coverage-options.md
-                    - name: إعداد تكرارات المدفوعات
+                    - name: إعداد تكرارات الدفع
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: تكوين أنواع أحداث الحياة
                       href: hr-benefits-setup-life-event-types.md
-                    - name: إنشاء أنواع الخطة
+                    - name: نظرة عامة على نوع الخطة
                       href: hr-benefits-setup-plan-types.md
                     - name: إعداد أكواد السبب
                       href: hr-benefits-setup-reason-codes.md
@@ -807,6 +813,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: عرض تقويمات الفريق والشركة
               href: hr-employee-self-service-calendar.md
+            - name: تكوين دور مدير الغياب
+              href: hr-configure-absence-manager.md
             - name: إدارة سياسات شراء الإجازة وبيعها
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: إنشاء عمليات سير عمل شراء الإجازات وبيعها

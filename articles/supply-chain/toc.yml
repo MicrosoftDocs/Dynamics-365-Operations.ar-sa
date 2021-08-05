@@ -72,12 +72,10 @@
                   items:
                     - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
                       href: get-started/whats-new-home-page.md
-                    - name: الإصدار 10.0.20 من Supply Chain Management (أغسطس 2021)
+                    - name: Supply Chain Management 10.0.20 (أغسطس 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (يونيو 2021)
                       href: get-started/whats-new-scm-10-0-19.md
-                    - name: Supply Chain Management 10.0.18 (مايو 2021)
-                      href: get-started/whats-new-scm-10-0-18.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -2001,9 +1999,7 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: إنشاء أمر شراء لمورد مرة واحدة
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: إنشاء أمر إصدار شراء عند إنشاء أمر الشراء
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: إنشاء أمر إصدار شراء من اتفاقية شراء
+                - name: تطبيق اتفاقية شراء عند إنشاء أمر شراء
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: إنشاء أمر إرجاع الشراء
                   href: procurement/tasks/create-purchase-return-order.md
