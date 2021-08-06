@@ -1,6 +1,6 @@
 ---
-title: استخدام Power Portal مع نموذج بيانات الطرف
-description: يصف هذا الموضوع التغييرات التي تم إجراؤها على أدوار ويب Power Portal بسبب نموذج بيانات الطرف في الكتابة المزدوجة.
+title: استخدام مداخل Microsoft Power Apps مع نموذج بيانات الطرف
+description: يصف هذا الموضوع التغييرات التي تم إجراؤها على أدوار ويب Microsoft Power Apps بسبب نموذج بيانات الطرف في الكتابة المزدوجة.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358607"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542553"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>استخدام Power Portal مع نموذج بيانات الطرف
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>استخدام مداخل Microsoft Power Apps مع نموذج بيانات الطرف
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ ms.locfileid: "6358607"
 
     يجب إنشاء ثلاثة أذونات جديدة:
 
-    + اتصال جهة الاتصال بالطرف
-    + اتصال الطرف بالحساب
-    + اتصال الحساب بالأمر
+    + اتصال **جهة الاتصال** مع **الطرف**
+    + اتصال جدول **الحساب** مع **الطرف**
+    + اتصال جدول **الحساب** مع **الأمر**
 
 4. قم بإنشاء وحفظ إذن جديد لاتصال جهة الاتصال بالطرف، مع تعيين هذه المعلمات:
 
-    + **الاسم**: اتصال الطرف بالحساب (أو اختيارك)
+    + **الاسم**: اتصال جدول **الطرف** مع **الحساب** (أو اختيارك)
     + **اسم الجدول**: msdyn_contactforparty
     + **موقع الويب**: مدخل العملاء
     + **النطاق**: جهة الاتصال

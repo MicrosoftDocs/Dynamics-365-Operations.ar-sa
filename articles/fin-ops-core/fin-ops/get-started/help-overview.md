@@ -2,7 +2,7 @@
 title: نظام التعليمات
 description: يوفر هذا الموضوع نظرة عامة حول نظام التعليمات لتطبيقات Finance and Operations.
 author: edupont04
-ms.date: 04/14/2021
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
-ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
+ms.openlocfilehash: e0ba083c64c840e17bf2fba982b2686c8a47e097
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373357"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646503"
 ---
 # <a name="help-system"></a>نظام التعليمات
 
@@ -30,7 +30,7 @@ ms.locfileid: "6373357"
 
 يمكن لمستخدمي التطبيقات التالية الوصول إلى تعليمات تتبع السياق والمحتوى الآخر الذي يستند إلى نفس نظام التعليمات.
 
-- Microsoft Dynamics 365 Commerce
+- Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
@@ -48,23 +48,23 @@ ms.locfileid: "6373357"
 
 يمكنك العثور على محتوى docs.microsoft.com باستخدام أي محرك بحث. للحصول على أفضل النتائج، ننصحك باستخدام البحث في الموقع، مثل **مصطلح البحث site:docs.microsoft.com dynamics 365**.
 
-<!--## Get notified about changes through an RSS feed
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>الحصول على إعلام بشأن التغييرات من خلال موجز RSS
 
-To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
+للاشتراك في موجز المشاركة البسيطة للغاية (RSS) لكافة التحديثات الخاصة بالمحتوى الموجود على docs.microsoft.com من خلال Finance and Operations، استخدم الارتباط التالي:
 
-[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
+[موجز RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+> تغذية RSS بإرجاع قائمة المواضيع 100 أحدث تحديث. لا يتم فرز القائمة حسب التاريخ.  
 
-Alternatively, you can subscribe to an RSS feed by app:
+بدلا من ذلك، يمكنك الاشتراك في موجز RSS حسب التطبيق:
 
 - [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
 - [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
 - [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [سلسلة التوريد](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
 - [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
-COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
+
 ### <a name="leave-us-feedback"></a>تقديم الملاحظات
 
 إذا كانت لديك ملاحظات أو أسئلة حول أحد الموضوعات، فأرسل لنا تعليق في أسفل الصفحة.

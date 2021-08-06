@@ -2,7 +2,7 @@
 title: إنشاء سياسة المرتجعات والمبالغ المستردة لقناه وتحديثها
 description: يوضح هذا الموضوع كيفيه اعداد النهج المرتجعات والمبالغ المستردة لقناه.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345098"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558287"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>إنشاء وتحديث سياسة للمرتجعات والمبالغ المستردة لقناة
 
@@ -36,12 +36,21 @@ ms.locfileid: "6345098"
 
 ## <a name="enable-return-policy"></a>تمكين سياسة الإرجاع
 
-لتمكين وظيفة سياسة إرجاع القناة، قم بما يلي:
+لتمكين وظيفة سياسة إرجاع القناة في مركز Commerce الرئيسي، اتبع الخطوات التالية.
 
 1. انتقل إلى مساحة عمل **إدارة الميزات** في Dynamics 365 Commerce.
 1. ابحث عن ميزة **تمكين سياسات إرجاع القنوات** في قائمه أسماء الميزات.
 1. حدد **تمكين الآن**.
-1. في صفحة **جدولة التوزيع**، قم بتشغيل الوظيفة **1110** (التكوين العمومي) لتوزيع تغيير الميزة. 
+1. في صفحة **جدولة التوزيع**، قم بتشغيل الوظيفة **1110** (التكوين العمومي) لتوزيع تغيير الميزة.
+
+## <a name="initialize-the-commerce-scheduler"></a>تهيئة مجدول Commerce
+
+بعد تمكين ميزة **تمكين نهج إرجاع القناة**، يجب تهيئة جدولة Commerce للتأكد من إضافة تغييرات قاعدة بيانات الميزات الجديدة عبر مزامنة Commerce Data Exchange (CDX). 
+
+لتهيئة مجدول Commerce في المراكز الرئيسية لـ Commerce، اتبع هذه الخطوات.
+
+- انتقل إلى **البيع بالتجزئة والتجارة \> إعداد المقر الرئيسي \> مجدول Commerce \>تهيئة مجدول التجارة**. بدلاً من ذلك، ابحث عن "تهيئة مجدول Commerce".
+- في مربع الحوار **تهيئة مجدول التجارة**، تأكد من أنه يتم إعداد الخيار **حذف تكوين موجود** على **لا**، ثم حدد **موافق**.
 
 ## <a name="configure-return-policy"></a>تكوين سياسة الإرجاع
 

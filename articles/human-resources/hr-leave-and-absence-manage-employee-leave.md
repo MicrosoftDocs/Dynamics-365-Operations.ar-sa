@@ -2,7 +2,7 @@
 title: إدارة إجازة الموظف
 description: إدارة إجازة الموظف Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33080fc5ca43f3d83ee9d17565f4c229ced7b94f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c161e324a1ebe5b30c95d6d3e0468da671a7c2de
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055618"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639452"
 ---
 # <a name="manage-employee-leave"></a>إدارة إجازة الموظف
 
@@ -44,12 +44,11 @@ ms.locfileid: "6055618"
 
 يمكنك تضمين كود السبب والتعليق عند تعديل رصيد إجازه الموظف. 
 
->[!IMPORTANT]
->عرض معلومات إضافية حول أرصدة الإجازات في المعاينة. ستحتاج إلى تمكينها في بيئة **الحماية**. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).<br>
->عند التمرير فوق أي رصيد إجازة، ستشاهد الآن:<br>
->- **المتوفر** : إجمالي هذه السنة - خذ هذه السنة
->- **إجمالي هذه السنة**: جميع الاستحقاقات والتسويات والموازنة المحولة للسنة
->- **تم أخذها هذه السنة**: جميع الإجازات التي تمت الموافقة عليها
+الآن، عند تمرير الماوس فوق أي رصيد إجازة، يتم عرض المعلومات التالية:
+
+- **متوفر** – القيمة **الإجمالي لهذا العام** مطروحا منها القيمة **المأخوذ هذا العام**.
+- **إجمالي هذه السنة**: جميع الاستحقاقات والتسويات والموازنة المحولة للسنة
+- **تم أخذها هذه السنة**: جميع الإجازات التي تمت الموافقة عليها.
 
 ## <a name="see-also"></a>راجع أيضًا
 

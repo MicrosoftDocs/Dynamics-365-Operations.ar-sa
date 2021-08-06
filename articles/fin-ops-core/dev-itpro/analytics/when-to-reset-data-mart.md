@@ -2,7 +2,7 @@
 title: الأسئلة المتداولة حول إعادة تعيين متجر البيانات
 description: يوفر هذا الموضوع إجابات عن بعض الأسئلة المتداولة حول إعادة تعيين متجر البيانات.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266599"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638257"
 ---
 # <a name="data-mart-resets-faq"></a>الأسئلة المتداولة حول إعادة تعيين متجر البيانات
 
@@ -37,6 +37,9 @@ ms.locfileid: "6266599"
 
 - تمت استعادة قاعدة بيانات التطبيق.
 - لقد قمت بفتح تذكرة دعم وقام مهندس دعم بإرشادك لإعادة تعيين متجر البيانات كجزء من خطوة استكشاف الأخطاء وإصلاحها.
+ 
+> [!NOTE]
+> تتأثر عملية إعادة تعيين متجر البيانات بعدد دفتر الأستاذ العام وحركات الموازنة في قاعدة البيانات الخاصة بك. اعتمادا على عدد المعاملات في النظام الخاص بك، يمكن إكمال إعادة تعيين مارت البيانات في أقل من 15 دقيقة، أو يمكن أن يستغرق ما يصل إلى أربع ساعات. ومع ذلك، إذا كانت إعادة تعيين تستغرق أكثر من أربع ساعات، نوصي بالاتصال بالدعم.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>متى يكون إعادة تعيين متجر بيانات غير مناسب؟
 

@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350778"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542505"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>استكشاف المشاكل وإصلاحها في المزامنة المباشرة
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 يوفر هذا الموضوع معلومات حول استكشاف أخطاء تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse. على وجه التحديد، يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح مشكلات المزامنة المباشرة.
 
@@ -81,7 +79,7 @@ ms.locfileid: "6350778"
 
     ![تعيين المؤسسة.](media/mapped_business_unit.png)
 
-2. قم بتسجيل الدخول إلى البيئة الموجودة في التطبيق المستند إلى النموذج في Dynamics 365، وانتقل إلى **الإعداد \>الأمان**، وابحث عن فريق وحدة الأعمال المعيّنة.
+2. قم بتسجيل الدخول إلى البيئة الموجودة في التطبيق customer engagement، وانتقل إلى **الإعداد \>الأمان**، وابحث عن فريق وحدة الأعمال المعيّنة.
 
     ![فريق وحدة الأعمال المعيّنة.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ ms.locfileid: "6350778"
 
 *{"entityName":"CustCustomerV3Entity"،"executionStatus":2,"fieldResponses":\[\]،"recordResponses":\[{"errorMessage":"**يتعذر إنشاء الحمولة للكيان CustCustomerV3Entity** فشل إنشاء logDateTime":"2019-08-27T18:51:52.5843124Z"،"verboseError":"Payload"،" مع ظهور الخطأ عنوان URL غير صالح: عنوان URI فارغ."}\]،"isErrorCountUpdated":true}*
 
-فيما يلي النمط الذي يبدو عليه الخطأ في التطبيق المستند إلى النموذج في Dynamics 365:
+فيما يلي ما يبدو عليه الخطأ في تطبيق customer engagement:
 
 *حدث خطأ غير متوقع من رمز ISV. (ErrorType = ClientError) استثناء غير متوقع من المكون الإضافي (تنفيذ): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: فشلت معالجة حساب الكيان - (فشلت محاولة الاتصال لأن الطرف المتصل لم يستجب بشكل صحيح بعد فترة من الوقت أو فشل الاتصال القائم لأن المضيف المتصل فشل في الاستجابة*
 
@@ -125,6 +123,5 @@ ms.locfileid: "6350778"
 
 3. تأكد من أن العمود **externalenvironmentURL** على عنوان URL الصحيح للتطبيق أو Dataverse. احذف أي صفوف مكررة تشير إلى عنوان URL غير الصحيح لـ Dataverse. احذف الصفوف المقابلة في جدولي DUALWRITEPROJECTFIELDCONFIGURATION وDUALWRITEPROJECTCONFIGURATION.
 4. أوقف تعيين الجدول، ثم أعد تشغيله
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

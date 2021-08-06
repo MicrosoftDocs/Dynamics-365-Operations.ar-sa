@@ -4,24 +4,16 @@ description: يوضح هذا الموضوع تكامل بيانات دفتر ا�
 author: robinarh
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: rhaertle
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5fedcbcd8db2692214ea66b2fbab9f7381e0a622
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9e6e65b2b8ec8241bc2082b30ae641692c31afdd
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748507"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542651"
 ---
 # <a name="integrated-ledger"></a>دفتر الأستاذ المتكامل
 
@@ -29,63 +21,26 @@ ms.locfileid: "5748507"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 في تطبيق العمل، تقوم بيانات دفتر الأستاذ بتعريف الأساس الذي تم إعداده لكيفيه عمل أحدي الشركات. علي سبيل المثال، تصف بيانات دفتر الأستاذ السنه المالية التي تتبعها الشركة، والعملات التي تتعامل فيها، والحسابات التي تستخدمها. يصف هذا الموضوع تكامل البيانات المالية الرئيسية هذه.
 
 ## <a name="templates"></a>القوالب
 
 تشمل بيانات دفتر الأستاذ مجموعة من مخططات الجداول المالية الرئيسية تعمل معًا أثناء تفاعل بيانات المورّد، كما هو موضح في الجدول التالي.
 
-تطبيقات Finance and Operations      | تطبيق المستند إلى نموذج في Dynamics 365 | ‏‏الوصف
+تطبيقات Finance and Operations | تطبيقات Customer Engagement     | الوصف
 ---------------------------------|----------------------------------|------------
-العملات                       | transactioncurrencies            |
-FiscalCalendar                   | msdyn\_fiscalcalendars        |
-FiscalCalendarYear               | msdyn\_fiscalcalendaryears        |
-ExchRateType                     | msdyn\_exchangeratetypes        |
-ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs        |
-FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods        |
-MainAccountCategory              | msdyn\_mainaccountcategory        |
-الحساب الرئيسي                      | msdyn\_mainaccounts        |
-دفتر الأستاذ                           | msdyn\_ledgers        |
-ExchangeRates                    | msdyn\_currencyexchangerates        |
-FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods        |
-DimensionAttributeEntity         | msdyn\_dimensionattributes        |
-DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats        |
-LedgerChartOfAccounts            | msdyn\_chartofaccounts        |
-
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/Currencies-transactioncurrencies.md)]
-
-[!include [Fiscal calendar](includes/FiscalCalendar-msdyn-fiscalcalendars.md)]
-
-[!include [Fiscal calendar year](includes/FiscalCalendarYear-msdyn-fiscalcalendaryears.md)]
-
-[!include [Exchange rate types](includes/ExchRateType-msdyn-exchangeratetypes.md)]
-
-[!include [Exchange rate pair](includes/ExchangeRateCurrencyPair-msdyn-currencyexchangeratepairs.md)]
-
-[!include [Main account category](includes/MainAccountCategory-msdyn-mainaccountcategory.md)]
-
-[!include [Main account](includes/MainAccount-msdyn-mainaccounts.md)]
-
-[!include [Ledger](includes/Ledger-msdyn-ledgers.md)]
-
-[!include [Exchange rates](includes/ExchangeRates-msdyn-currencyexchangerates.md)]
-
-[!include [Financial Calendar Period](includes/FiscalPeriodEntity-msdyn-fiscalcalendarperiods.md)]
-
-[!include [Dimension attribute](includes/DimensionAttributeEntity-msdyn-dimensionattributes.md)]
-
-[!include [Dimension integration format](includes/DimensionIntegrationFormatEntity-msdyn-financialdimensionformats.md)]
-
-[!include [Chart Of Account](includes/LedgerChartOfAccounts-msdyn-chartofaccounts.md)]
-
-
-
-
-
+[أسعار الصرف في CDS](mapping-reference.md#123) | msdyn_currencyexchangerates |
+[دليل الحسابات](mapping-reference.md#121) | msdyn_chartofaccountses |
+[العملات](mapping-reference.md#218) | transactioncurrencies |
+[سعر صرف زوج العملات](mapping-reference.md#122) | msdyn_currencyexchangeratepairs |
+[نوع سعر الصرف](mapping-reference.md#129) | msdyn_exchangeratetypes |
+[تنسيق البعد المالي](mapping-reference.md#130) | msdyn_financialdimensionformats |
+[الأبعاد المالية](mapping-reference.md#128) | msdyn_dimensionattributes |
+[كيان تكامل التقويم المالي](mapping-reference.md#132) | msdyn_fiscalcalendars |
+[فترة التقويم المالي](mapping-reference.md#131) | msdyn_fiscalcalendarperiods |
+[كيان تكامل سنة التقويم المالي](mapping-reference.md#133) | msdyn_fiscalcalendaryears |
+[دفتر الأستاذ](mapping-reference.md#148) | msdyn_ledgers |
+[الحساب الرئيسي](mapping-reference.md#152) | msdyn_mainaccounts |
+[فئات الحساب الرئيسية](mapping-reference.md#151) | msdyn_mainaccountcategories |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

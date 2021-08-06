@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314275"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538844"
 ---
 # <a name="payroll-employee"></a>الموظف حسب كشف الرواتب
 
@@ -32,15 +32,19 @@ ms.locfileid: "6314275"
 
 يوفر هذا الكيان معلومات حول الموظف. يجب تعيين [معلمات تكامل الرواتب](hr-admin-integration-payroll-api-parameters.md) قبل استخدام هذا الكيان.
 
+>[!IMPORTANT] 
+>حقول **FirstName**، و **MiddleName**، و **LastName**، و **NameValidFrom**، و **NameValidTo** لن تكون متوفرة على هذا الكيان. هذا هو للتأكد من أن هناك تاريخ واحد فقط مصدر بيانات فعالة تدعم هذا الكيان، وهو **HcmEmployment** مع حقلي **EmploymentStartDate** و **EmploymentEndDate**.
+
+>ستكون هذه الحقول متوفرة على **DirPersonNameHistoricalEntity**، الذي تم إصداره في تحديث النظام الأساسي 43. هناك علاقة OData من **PayrollEmployeeEntity** إلى **DirPersonNameHistoricalEntity** في الحقل **الشخص**. بدلا من ذلك، يمكن الاستعلام عن كيان **DirPersonNameHistoricalEntity** مباشرة من خلال OData باستخدام الاسم العام، **PersonHistoricalNames**.
+
+
 ## <a name="properties"></a>الخصائص
 
 | الخاصية<br>**الاسم الفعلي**<br>**_النوع_** | استخدام | الوصف |
 | --- | --- | --- |
 | **رقم الموظف**<br>mshr_personnelnumber<br>*سلسلة* | للقراءة فقط<br>مطلوب | رقم الموظف الفريد الخاص بالموظف. |
 | **الحقل الأساسي**<br>mshr_primaryfield<br>*سلسلة* | مطلوب<br>النظام منشأ |  |
-| **اسم العائلة**<br>mshr_lastname<br>*سلسلة* | للقراءة فقط<br>مطلوب | اسم العائلة للموظف. |
 | **معرف الكيان القانوني**<br>mshr_legalentityID<br>*سلسلة* | للقراءة فقط<br>مطلوب | يحدد الكيان القانوني (الشركة). |
-| **صالح من**<br>mshr_namevalidfrom<br>*الفرق بالتاريخ والوقت* | للقراءة فقط <br>مطلوب | تاريخ بدء صلاحية معلومات الموظف.  |
 | **الجنس**<br>mshr_gender<br>[مجموعة خيارات mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | للقراءة فقط<br>مطلوب | جنس الموظف. |
 | **معرف كيان موظف كشف الرواتب**<br>mshr_payrollemployeeentityid<br>*GUID* | مطلوب<br>النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف الموظف بشكل فريد. |
 | **تاريخ بداية التوظيف**<br>mshr_employmentstartdate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط<br>مطلوب | تاريخ بدء توظيف الموظف. |
@@ -50,8 +54,6 @@ ms.locfileid: "6314275"
 | **صالح حتى**<br>mshr_namevalidto<br>*الفرق بالتاريخ والوقت* |  للقراءة فقط<br>مطلوب | تاريخ انتهاء صلاحية معلومات الموظف. |
 | **تاريخ الميلاد**<br>mshr_birthdate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط <br>مطلوب | تاريخ ميلاد الموظف. |
 | **رقم التعريف**<br>mshr_identificationnumber<br>*سلسلة* | للقراءة فقط <br>مطلوب |رقم التعريف المحدد للموظف.  |
-| **الاسم الأول**<br>mshr_firstname<br>*سلسلة* | للقراءة فقط<br>مطلوب | الاسم الأول للموظف. |
-| **الاسم الأوسط**<br>mshr_middlename<br>*سلسلة* | للقراءة فقط<br>مطلوب |الاسم الأوسط للموظف.  |
 
 ## <a name="example-query-for-payroll-employee"></a>نموذج الاستعلام لموظف كشل الرواتب
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

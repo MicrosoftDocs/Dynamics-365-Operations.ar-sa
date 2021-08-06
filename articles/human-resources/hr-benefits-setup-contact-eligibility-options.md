@@ -2,7 +2,7 @@
 title: تكوين خيارات أهلية جهة الاتصال الشخصية
 description: قم بتكوين خيارات الأهلية لجهات الاتصال الشخصية في Microsoft Dynamics 365 Human Resources. يمكن أن تكون جهات الاتصال الشخصية من المستفيدين أو التابعين.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d85677973f67f0c68de6c5ede62c142524939833
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 071523e2a1e9de6f0ed2b77e4ad6802efb0073f7
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054394"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558239"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>تكوين خيارات أهلية جهة الاتصال الشخصية
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوضح هذا المقال كيفية تكوين أنواع جهات الاتصال الشخصية لاستخدامها في الميزات الموجودة في Microsoft Dynamics 365 Human Resources. يمكن أن تكون جهات الاتصال الشخصية من المستفيدين أو التابعين. 
+يشرح هذا الموضوع كيفية تكوين أنواع جهات الاتصال الشخصية التي يمكن استخدامها في الميزات الموجودة في Microsoft Dynamics 365 Human Resources. جهات الاتصال الشخصية هي الأفراد الذين سيتم تغطيتهم بموجب خططك (المعالين) أو الذين سيستفيدون من خططك (المستفيدين). وعادة ما يكون المعالون أزواجا أو أطفالا. يمكن أن يكون المستفيدون أزواجا أو أطفالا أو ثقة أو والدين.
 
 1. في مساحة العمل **إدارة الميزات**، ضمن **إعداد**، حدد **خيارات أهلية جهات الاتصال الشخصية**.
 

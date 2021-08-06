@@ -2,7 +2,7 @@
 title: نظرة عامة على نسق Adventure Works
 description: يقدم هذا الموضوع نظرة عامة على نسق Adventure Works ويوضح كيفية تطبيقه على صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479397"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655622"
 ---
 # <a name="adventure-works-theme-overview"></a>نظرة عامة على نسق Adventure Works
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يقدم هذا الموضوع نظرة عامة على نسق Adventure Works ويوضح كيفية تطبيقه على صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
 يحتوي Dynamics 365 Commerce على نسق للتجارة الإلكترونية يُسمى Adventure Works. يعرض نسق Adventure Works منتجات الرياضة والاستجمام وتم تحسينه للحصول على تجربة زاخرة ومحسنة لسرد القصص. وهو يوفر مظهراً حديثاً وتخطيطات جديدة وتأثيرات حركة لإنشاء تجربة تسوق شاملة وتفاعلية على الإنترنت لعملاء التجارة الإلكترونية.
 
-يوفر نسق Adventure Works مهام سير العمل الجديدة التالية:
+## <a name="trial-environments-in-commerce"></a>بيئات تجريبية في Commerce
 
-- تدعم الوحدة النمطية لمشغل الفيديو الآن وظيفة العنوان والفقرة والارتباطات الخاصة بسرد قصص إضافية.
+لمعرفة شكل موضوع Adventure Works عند نشره للمواقع بين الشركات والمستهلكين (B2C) والمواقع بين الشركات (B2B)، قم بزيارة مواقع التجارب التالية:
+
+- [موقع Adventure Works B2C](https://www.adventure-works.com/)
+- [موقع Adventure Works B2B](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>قدرات الموضوع
+
+يوفر موضوع Adventure Works القدرات الجديدة التالية:
+
+- تدعم الوحدة النمطية لمشغل الفيديو الآن وظيفة العنوان والفقرة والارتباط الخاص بسرد قصص إضافية.
+- هناك انتقالات أفضل للمحتوى من خلال الرسوم المتحركة.
 - يقوم الإجراء "إضافة إلى عربة التسوق" باستدعاء عربة تسوق مصغرة بدلاً من تقديم إخطار.
 - تعد الوحدة النمطية للعرض السريع جزءا يتضمن شرائح في كل من سطح المكتب ومنافذ العرض المحمولة.
-- يمكن أن تقوم عربة تسوق فارغة الآن بعروض الحملات الترويجية.
+- هناك تخطيطات جديدة لصفحات الموقع. 
+- يمكن تكوين محتوى التسويق للعربة والعربة الصغيرة عندما تكون فارغة.
+- يمكن للعربة المصغرة عرض رسائل ترويجية ، مثل "الشحن المجاني على الطلبات عبر $50".
+- الوصف يتم تقديم بطاقات البحث وصفحات الفئة.
 
 يتضمن نسق Adventure Works الوحدات النمطية لسرد القصص التالية في مكتبة الوحدة النمطية لـ Commerce:
 
-- وحدة القائمة المتجانبة
-- وحدة الميزة التفاعلية
-- وحدة الاشتراك
-- وحدة الصور النشطة
-- وحدة قائمة الصورة
+- [وحدة قائمة التجانب](tile-list-module.md)
+- [وحدة الميزة التفاعلية](interactive-feature-module.md)
+- [وحدة الصورة النشطة](active-image-module.md)
+- [وحدة الاشتراك](subscribe-module.md)
+- [وحدة قائمة الصورة](image-list-module.md)
 
 يعتبر نسق Commerce استجابة كاملة ويوفر تجربة محسنة لمنافذ العرض من خلال أجهزة سطح المكتب والأجهزة المحمولة والكمبيوتر اللوحي.
 
@@ -78,11 +90,15 @@ ms.locfileid: "6479397"
 
 لمزيد من المعلومات حول ملحقات النسق، راجع [ملحقات النسق](e-commerce-extensibility/theme-module-extensions.md).
 
+## <a name="install-the-adventure-works-theme"></a>تثبيت نسق Adventure Works
+
+للحصول على معلومات حول كيفية تثبيت موضوع "أعمال المغامرة"، راجع [تثبيت موضوع Adventure Works.](install-adventure-works.md)
+
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على مكتبة الوحدات](starter-kit-overview.md)
 
-[وحدة القائمة المتجانبة](tile-list-module.md)
+[وحدة قائمة التجانب](tile-list-module.md)
 
 [وحدة الميزة التفاعلية](interactive-feature-module.md)
 

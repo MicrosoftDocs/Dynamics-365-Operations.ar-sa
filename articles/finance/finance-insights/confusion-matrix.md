@@ -2,7 +2,7 @@
 title: نتائج نماذج التعلم الآلي (معاينة)
 description: يناقش هذا الموضوع مقاييس الالتباس ومشكلات التصنيف والدقة في نماذج التعلم الآلي (ML). والغرض هو تعزيز فهمك للدقة في نتائج توقع التعلم الآلي.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 32561935958268f35acc24f1cfb823546636c1f6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f766303f0592dec917a23339511a957fcdc940d6
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349048"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638670"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>نتائج نماذج التعلم الآلي (معاينة)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يناقش هذا الموضوع مقاييس الالتباس ومشكلات التصنيف والدقة في نماذج التعلم الآلي (ML). والغرض هو تعزيز فهمك للدقة في نتائج توقع التعلم الآلي. يتضمن الجمهور المستهدف المهندسين والمحللين والمديرين الذي يرغبون في إنشاء المعرفة والمهارات الخاصة بهم في علم البيانات.
 

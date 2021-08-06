@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0d0d39d19634498f9313aeda4143f9ec81e8f
-ms.sourcegitcommit: f3c28f57d997e824a64485d9a4ce8f198e3bcf23
+ms.openlocfilehash: 8cee60750d3c451024466109acbdc5924074a11f
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059619"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6559950"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 3‏ مايو، 2021
 
@@ -65,7 +65,7 @@ ms.locfileid: "6059619"
 | مساحة عمل إدارة المزايا | [مساحة عمل إدارة المزايا (معاينة)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [مساحة عمل إدارة المزايا](hr-benefits-management-workspace.md) |
 | تحسينات تجربة سير العمل للإجازة والغياب | [تحسينات تجربة سير العمل للإجازة والغياب](https://go.microsoft.com/fwlink/?linkid=2147528) | [طلب إجازة](hr-employee-self-service-request-time-off.md)|
 | تمكين تكامل كشوف المرتبات المبسط (واجهات برمجة تطبيقات تكامل الرواتب) | [تمكين التكامل المبسط مع موفري كشوف المرتبات](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [‏‫واجهة API لتكامل كشف الرواتب](hr-admin-integration-payroll-api-introduction.md)|
-| تدقيق حركة استحقاقات الإجازة | - | [تدقيق حركة استحقاقات الإجازة](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| تدقيق حركة استحقاقات الإجازة | - | [تدقيق حركة استحقاقات الإجازة](hr-leave-and-absence-accrue.md)|
 
 ## <a name="coming-soon"></a>قريبًا
 

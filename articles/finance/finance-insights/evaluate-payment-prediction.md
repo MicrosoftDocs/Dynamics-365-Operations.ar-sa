@@ -2,7 +2,7 @@
 title: تقييم نموذج التوقع بالدفع الأولي للعميل (معاينة)
 description: يصف هذا الموضوع الخطوات التي يمكنك اتخاذها لفهم نموذج التوقع بدفع العميل وتقييم الفعالية الخاصة به.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 97228a68d9eaa02388675238d5a196b4af30daa5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349000"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638550"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>تقييم نموذج التوقع بالدفع الأولي للعميل (معاينة)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفية تقييم نموذج التوقع بعد تشغيل Finance Insights ثم إنشاء النموذج الأول وتدريبه. يتناول هذا الموضوع نماذج التوقع بالدفع للعميل. إنه يصف الخطوات التي يمكنك اتخاذها لفهم نموذج التوقع بدفع العميل وتقييم الفعالية الخاصة به.
 

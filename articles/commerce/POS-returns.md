@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 53cad70e2c4866a18427157bc8b7fa1c3fda4daa
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345174"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638134"
 ---
 # <a name="create-returns-in-pos"></a>إنشاء مرتجعات في نقطة البيع.
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يصف هذا الموضوع كيفية بدء المرتجعات لحركات الدفع نقدًا والاستلام فورًا‬‬‏‫ أو أوامر العملاء في تطبيق نقطة بيع Microsoft Dynamics 365 Commerce (POS).
 

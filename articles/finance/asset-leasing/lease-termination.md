@@ -2,7 +2,7 @@
 title: اقتراح إنهاء عقد الإيجار
 description: يوضح هذا الموضوع كيفية اقتراح إيجار للإنهاء.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b32f9e8f80827e04269ac8cb6a4fbb5a13af8bc
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 003eaa3f9e5ad653daed2e973044f384972b0331
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881098"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638478"
 ---
 # <a name="propose-a-lease-for-termination"></a>اقتراح إيجار للإنهاء
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 إذا تم إنهاء الإيجار مبكرًا، يمكن لعقد إيجار الأصل تسجيل إدخال دفتر يومية إنهاء لشطب التزامات الإيجار، وحق استخدام الأصل (ROU)، والإهلاك التراكمي، والحجز بالربح أو الخسارة. تقوم عملية الإنهاء المبكر بإنهاء عقد إيجار ودفاتر الإيجار المقترنة به. ولا يتم إنهاء دفاتر الإيجار الفردية. يصف هذا الموضوع الوظيفة التي تتيح لك اقتراح عقد إيجار للإنهاء ومعالجة إدخال دفتر يومية إنهاء الإيجار.
 

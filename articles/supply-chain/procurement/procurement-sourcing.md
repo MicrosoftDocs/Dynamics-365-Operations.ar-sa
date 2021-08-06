@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c53d28192c5bf673baccd76e4cfb6e0453fe29d
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e155263daf2f33531abefdc45c5046a5ab5bca11
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337919"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647196"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>الصفحة الرئيسية للتدبير وتحديد الموارد
 
@@ -78,9 +78,8 @@ ms.locfileid: "6337919"
 -   [إنشاء أمر شراء لمورد مرة واحدة](tasks/create-purchase-order-one-time-supplier.md)
 -   [إنشاء أمر شراء مع جدول تسليم](tasks/create-purchase-order-delivery-schedule.md)
 -   [إنشاء أمر إرجاع الشراء](tasks/create-purchase-return-order.md)
--   [إنشاء أمر إصدار شراء من اتفاقية شراء](tasks/create-purchase-release-order-purchase-agreement.md)
--   [إنشاء أمر إصدار شراء عند إنشاء أمر الشراء](tasks/create-purchase-release-order-creating-purchase-order.md)
--   [إنشاء أمر تزويد الشحن](../inventory/tasks/create-consignment-replenishment-order.md)
+-   [تطبيق اتفاقية شراء عند إنشاء أمر شراء](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [إنشاء أمر تزويد شحن](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>الأسعار والخصومات
 -   [اتفاقيات الشراء](purchase-agreements.md)

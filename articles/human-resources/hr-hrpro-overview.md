@@ -2,7 +2,7 @@
 title: نظرة عامة
 description: يزودك دليل مستخدم Dynamics 365 Human Resources بالتعليمات الخاصة بإعداد الموارد البشرية وإعداد التعويض والفوائد الخاصة بالموظفين وإدارة القوى العاملة.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338044"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639500"
 ---
 # <a name="overview"></a>نظرة عامة
 
@@ -100,8 +100,9 @@ ms.locfileid: "6338044"
 [استحقاق خطط الإجازة والغياب](hr-leave-and-absence-accrue.md)</br>
 [عرض تحليلات الإجازة والغياب](hr-leave-and-absence-analytics.md)</br>
 [إدارة طلبات الإجازة والغياب](hr-employee-self-service-manage-requests.md)</br>
-[طلب التوقف عن العمل](hr-employee-self-service-request-time-off.md)</br>
+[طلب إجازة](hr-employee-self-service-request-time-off.md)</br>
 [عرض تقويمات الفريق والشركة](hr-employee-self-service-calendar.md)</br>
+[تكوين دور مدير الغياب](hr-configure-absence-manager.md)</br>
 
 ## <a name="develop-employees"></a>تطوير الموظفين
 

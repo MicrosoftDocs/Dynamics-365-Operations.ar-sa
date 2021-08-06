@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056314"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639404"
 ---
 # <a name="request-a-leave-of-absence"></a>طلب إذن غياب
 
@@ -48,6 +48,10 @@ ms.locfileid: "6056314"
 1. في مساحة العمل **خدمة الموظف الذاتية** حدد **المزيد** (...) في اللوحة **أرصدة زمن التوقف**.
 
 2. لعرض طلبات إذن الغياب، حدد **عرض إذن الغياب‬**.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>استيراد طلبات الإجازات من أنظمة أخرى أو أنظمة قديمة
+
+لاستيراد طلبات الإجازات من نظام آخر، يجب أن تمر عبر سير العمل العادي لإنشاء حركات الإجازة المناسبة. بدلا من ذلك، يمكنك استيراد الحركات البنكية إجازة وطلبات الإجازة في حالة إكمال. لاحظ أنه لا يتم إنشاء حركات بنك الإجازات تلقائيا إذا قمت باستيراد طلبات الإجازة فقط.
 
 ## <a name="see-also"></a>راجع أيضًا
 

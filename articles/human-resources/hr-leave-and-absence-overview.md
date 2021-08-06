@@ -2,7 +2,7 @@
 title: نظرة عامة على الإجازة والغياب
 description: في Dynamics 365 Human Resources ، توفر مساحة عمل الإجازة والغياب إطار عمل مرن لإنشاء خطط الإجازة الجديدة. وتوفر أيضًا مهام سير العمل لإدارة الطلبات وصفحة الخدمة الذاتية البسيطة للموظفين لطلب الإجازة.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339705"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639476"
 ---
 # <a name="leave-and-absence-overview"></a>نظرة عامة على الإجازة والغياب
 
@@ -34,7 +34,8 @@ ms.locfileid: "6339705"
 
 - [تكوين مُحددات الإجازة والغياب](hr-leave-and-absence-parameters.md)
 - [إنشاء تقويم مواعيد العمل](hr-leave-and-absence-working-time-calendar.md)
-- [إنشاء سير عمل طلب إجازة](hr-leave-and-absence-workflow.md)
+- [إنشاء سير عمل لطلب إجازة](hr-leave-and-absence-workflow.md)
+- [تكوين دور مدير الغياب](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>لإنشاء خطط إجازات وإدارتها
 
@@ -50,8 +51,9 @@ ms.locfileid: "6339705"
 
 ويمكن للموظفين إرسال طلبات زمن التوقف وأدارتها في مساحة عمل **الخدمة الذاتية للموظفين**.
 
-[طلب إجازة](hr-employee-self-service-request-time-off.md)
-[إدارة طلبات الإجازة والغياب](hr-employee-self-service-manage-requests.md)
+- [طلب إجازة](hr-employee-self-service-request-time-off.md)
+- [إدارة طلبات الإجازة والغياب](hr-employee-self-service-manage-requests.md)
+- [تكوين دور مدير الغياب](hr-configure-absence-manager.md)
 
 
 

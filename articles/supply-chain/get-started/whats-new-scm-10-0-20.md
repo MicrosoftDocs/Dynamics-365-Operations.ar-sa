@@ -1,5 +1,5 @@
 ---
-title: الإصدار الأولي Dynamics 365 Supply Chain Management 10.0.20 (أغسطس 2021)
+title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.20 (أغسطس 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.20 من Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301736"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641046"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>الإصدار الأولي Dynamics 365 Supply Chain Management 10.0.20 (أغسطس 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.20 (أغسطس 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.20 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.886، وهو يتوفر كما يلي
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.20 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.886، وهو يتوفر كما يلي
 
 - **معاينة الإصدار:** مايو، 2021
 - **التوفر العام للإصدار (تحديث ذاتي):** يوليو 2021
 - **التوفر العام للإصدار (تحديث تلقائي):** أغسطس 2021
 
-
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
 يسرد الجدول التالي الميزات المضمنة في هذا الإصدار. يوفر عمود *الميزة* ارتباطات إلى [خطة الإصدار](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features)، حيث يمكنك الاطلاع على تواريخ الإصدار الرسمية لكل ميزة. يوفر عمود *مزيد من المعلومات* المزيد من التفاصيل و/أو الارتباطات عن المستندات ذات الصلة.
 
-يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام.
+يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
 | منطقة الميزة | الميزة | معلومات إضافية |
 |---|---|---|
@@ -75,7 +73,7 @@ ms.locfileid: "6301736"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>تحديث النظام الأساسي لتطبيقات Finance and Operations
 
-يتضمن الإصدار 10.0.20 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.20 من تطبيقات Finance and Operations (يوليو 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+يتضمن الإصدار 10.0.20 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.20 من تطبيقات Finance and Operations (يوليو 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
 

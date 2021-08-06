@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6fb4e91f00163f5280d2c767843afd5c7a33712d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 951136a6a5197d2ec081b325df2980ad2fcf6e42
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350875"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542702"
 ---
 # <a name="dual-write-overview"></a>نظرة عامة على الكتابة المزدوجة
 
@@ -84,7 +84,7 @@ ms.locfileid: "6350875"
 
 يوفر الكتابة الثنائية تكاملاً عبر تطبيقات Microsoft Dynamics 365. يقوم إطار العمل القوي هذا بربط البيئات ويعمل على تمكين تطبيقات عمل مختلفة من العمل معًا. فيما يلي الأسباب الرئيسية لوجوب استخدام الكتابة الثنائية:
 
-+ وتوفر الكتابة الثنائية دمجًا مرتبطًا بقوة وثنائي الاتجاه وفي الوقت الفعلي تقريباً بين تطبيقات Finance and Operations وتطبيقات مستندة إلى النموذج في Dynamics 365. يعمل هذا الدمج على جعل Microsoft Dynamics 365 متجرًا واحدًا لجميع حلول الأعمال الخاصة بك. ينتقل العملاء الذين يستخدمون Dynamics 365 Financeو Dynamics 365 Supply Chain Management، ولكن لا يستخدمون حلولاً غير تابعة لـ Microsoft لإدارة علاقة العملاء (CRM)، إلى Dynamics 365 لدعم الكتابة الثنائية.
++ وتوفر الكتابة الثنائية دمجًا مرتبطًا بقوة وثنائي الاتجاه وفي الوقت الفعلي تقريباً بين تطبيقات finance and operations وتطبيقات customer engagement. يعمل هذا الدمج على جعل Microsoft Dynamics 365 متجرًا واحدًا لجميع حلول الأعمال الخاصة بك. ينتقل العملاء الذين يستخدمون Dynamics 365 Financeو Dynamics 365 Supply Chain Management، ولكن لا يستخدمون حلولاً غير تابعة لـ Microsoft لإدارة علاقة العملاء (CRM)، إلى Dynamics 365 لدعم الكتابة الثنائية.
 + البيانات الواردة من العملاء والمنتجات والعمليات والمشاريع وإنترنت الأشياء (IoT) تنساب تلقائيًا إلى Dataverse خلال الكتابة الثنائية. يُعد هذا الاتصال مفيدًا للغاية للأعمال المهتمة بتوسعات Power Platform.
 + تتبع البنية الأساسية للكتابة الثنائية مبدأ بدون كود/كود منخفض. مطلوب مجهود الهندسة الأدنى لتوسيع الخرائط القياسية من جدول إلى جدول ولتضمين خرائط مخصصة.
 + يدعم الكتابة الثنائية كلاً من الوضع عبر الإنترنت والوضع دون اتصال. تُعد Microsoft هي الشركة الوحيدة التي تقدم الدعم للوضع المتصل ودون اتصال.

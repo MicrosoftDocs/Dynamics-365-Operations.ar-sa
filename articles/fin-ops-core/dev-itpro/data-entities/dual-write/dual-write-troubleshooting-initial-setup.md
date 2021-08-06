@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350826"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542405"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>استكشاف المشاكل وإصلاحها أثناء الإعداد الأولي
 
@@ -71,7 +71,7 @@ ms.locfileid: "6350826"
 
 ولضمان عمل الكتابة الثنائية بشكل صحيح، يتم إنشاء الشركات التي تقوم بتحديدها أثناء التكوين في بيئة Dataverse. وبشكل افتراضي، تكون هذه الشركات للقراءة فقط، ويتم تعيين الخاصية **IsDualWriteEnable** إلى **True**. بالإضافة إلى ذلك، يتم إنشاء مالك وحدةه الأعمال المالكة والفريق الافتراضي وتضمين اسم الشركة. قبل تمكين المخططات، تحقق من تحديد مالك الفريق الافتراضي. للبحث عن جدول **الشركات (CDM\_الشركة)**، اتبع الخطوات التالية.
 
-1. في التطبيق المستند إلى النموذج في Dynamics 365، حدد عامل التصفية في الركن العلوي الأيمن.
+1. في تطبيق customer engagement، حدد عامل التصفية في الزاوية العلوية اليمنى.
 2. من القائمة المنسدلة، حدد **الشركة**.
 3. حدد **تشغيل** لعرض النتائج.
 4. حدد الشركة التي تم ربطها عندما قمت بتكوين الكتابة الثنائية.

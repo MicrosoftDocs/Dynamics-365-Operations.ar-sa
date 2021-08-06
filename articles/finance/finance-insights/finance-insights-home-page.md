@@ -2,7 +2,7 @@
 title: الصفحة الرئيسية ‏‫للمعلومات المالية‬ (معاينة)
 description: توفر Finance insights نماذج قابلة للتكوين وقابلة للتوسعة لمساعدتك في توقع التدفق النقدي لشركتك بشكل دقيق وبذكاء، وتوقع الوقت الذي ستقوم فيه باستلام المدفوعات المدينة المستحقة وإنشاء مقترح موازنة يمكنه تسريع عملية إعداد الموازنة. تعتمد كافة هذه الميزات على نماذج التعلم الآلي الذكية.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 2086a33285d9a529480c5f34fb048105e65c2046
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338219"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638504"
 ---
 # <a name="finance-insights-home-page-preview"></a>الصفحة الرئيسية ‏‫للمعلومات المالية‬ (معاينة)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 توفر Finance insights نماذج قابلة للتكوين وقابلة للتوسعة لمساعدتك في توقع التدفق النقدي لشركتك بشكل دقيق وبذكاء، وتوقع الوقت الذي ستقوم فيه باستلام المدفوعات المدينة المستحقة وإنشاء مقترح موازنة يمكنه تسريع عملية إعداد الموازنة. تعتمد كافة هذه الميزات على نماذج التعلم الآلي الذكية. عند جمع هذه الإمكانيات الجديدة مع التنفيذ التلقائي في مدفوعات الموردين والمجموعات، فإنها توفر نظامًا ماليًا غنيًا وذكيًا يساعد في اتخاذ القرار وفي اتخاذ إجراء الاستجابة لتحديات العمل الحالية والمتوقعة بفاعلية.
 
