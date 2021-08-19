@@ -1,8 +1,8 @@
 ---
 title: إعداد الكتابة المزدوجة من Lifecycle Services
 description: يوضح هذا الموضوع كيفيه اعداد اتصال ثنائي الكتابة من Microsoft Dynamics Lifecycle Services (LCS).
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729033"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>إعداد الكتابة المزدوجة من Lifecycle Services
 
@@ -66,5 +66,18 @@ ms.locfileid: "6359353"
 
 > [!NOTE]
 > لا يمكنك إلغاء ارتباط البيئات باستخدام LCS. لإلغاء ارتباط بيئة، افتح مساحة عمل **تكامل البيانات** في بيئة Finance and Operations، ثم حدد **إلغاء الارتباط**.
+
+## <a name="linking-mismatch"></a>ربط عدم التطابق
+
+من الممكن أن يتم ربط بيئة LCS بمثيل Dataverse واحد، بينما ترتبط بيئة الكتابة المزدوجة بمثيل Dataverse آخر. قد يؤدي عدم التطابق هذا الارتباط سلوك غير متوقع ثم قد ينتهي إرسال البيانات إلى بيئة خاطئة. البيئة الموصى بها لاستخدامها للكتابة المزدوجة هي البيئة التي يتم إنشاؤها كجزء من تكامل Power Platform، وعلى المدى الطويل ، ستكون هذه هي الطريقة الوحيدة لإنشاء رابط بين البيئات.
+
+إذا كانت البيئة لديك عدم تطابق ارتباط، يعرض LCS تحذيرا على صفحة تفاصيل البيئة الخاصة بك مشابهة ل "Microsoft قد اكتشفت أن البيئة الخاصة بك مرتبطة عبر الكتابة المزدوجة إلى وجهة مختلفة عن المحدد في تكامل Power Platform، وهو أمر غير مستحسن":
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="ارتباط تكامل Power Platform غير متطابق.":::
+
+إذا واجهت هذا الخطأ هناك خياران، استنادا إلى احتياجاتك:
+
++ [إلغاء ربط وإعادة ربط بيئات الكتابة المزدوجة (إعادة تعيين الارتباط أو تغييره)](relink-environments.md#scenario-reset-or-change-linking)كما هو محدد في صفحة تفاصيل بيئة LCS. هذا هو الخيار المثالي، لأنه يمكنك تشغيله بدون دعم Microsoft.  
++ إذا أردت الاحتفاظ بالارتباط في الكتابة المزدوجة، يمكنك طلب المساعدة من دعم Microsoft لتغيير تكامل Power Platform لاستخدام بيئة Dataverse الموجودة كما هو موثق في المقطع السابق.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

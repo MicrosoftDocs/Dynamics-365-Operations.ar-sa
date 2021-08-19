@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726397"
 ---
 # <a name="define-channel-attributes"></a> تحديد سمات القناة
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791573"
 
 ## <a name="define-channel-product-attribute"></a>حدد سمة منتج القناة.
 1. انتقل إلى البيع بالتجزئة والتجارة > إعداد القناة > فئات القنوات وسمات المنتج.
-2. في الشجرة، حدد "Contoso Retail\Fashion\Houston".
+2. في الشجرة، حدد 'Contoso Retail\Fashion\Houston'.
 3. انقر فوق "تحرير".
 4. في حقل "‏‫التدرج الهرمي للفئات‬"، أدخل قيمة أو حددها.
     * سيتم استخدام التدرج الهرمي للتنقل من أجل التنقل في المنتج داخل القنوات.  

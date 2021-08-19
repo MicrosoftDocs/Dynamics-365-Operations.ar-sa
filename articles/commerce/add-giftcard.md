@@ -2,7 +2,7 @@
 title: وحدة بطاقة الهدايا
 description: يتناول هذا الموضوع وحدات بطاقة الهدايا ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728329"
 ---
 # <a name="gift-card-module"></a>الوحدة النمطية لبطاقة الهدايا
 
@@ -48,11 +48,17 @@ ms.locfileid: "6347483"
 
 - **إظهار حقول** - تحدد هذه الخاصية الحقول التي يجب عرضها لبطاقات الهدايا بالإضافة إلى رقم بطاقة الهدايا، الذي يظهر دائمًا بشكل افتراضي. على سبيل المثال، تدعم بعض بطاقات الهدايا رقم تعريف شخصي (PIN) ويدعم البعض الآخر عرض رمز PIN وتاريخ انتهاء الصلاحية. بدلاً من ذلك،،يمكن تعيين هذه الخاصية إلى "بلا"، مما يؤدي إلى عرض رقم بطاقة الهدايا فقط ومن دون حقول إضافية.
 
-القيم المدعومة:
--   رمز PIN
--   تاريخ انتهاء الصلاحية
--   رمز PIN وتاريخ انتهاء الصلاحية 
--   بلا‬‬
+    القيم التالية مدعومة:
+
+    - رمز PIN
+    - تاريخ انتهاء الصلاحية
+    - رمز PIN وتاريخ انتهاء الصلاحية 
+    - ‏‫لا شيء‬
+
+- **تمكين للمستخدمين الضيوف** – عند تمكين هذه الخاصية، يمكن للمستخدمين الضيوف استرداد أو التحقق من الأرصدة على بطاقات الهدايا. تتطلب هذه الخاصية تمكين الوصول المجهول (الضيف) لبطاقات الهدايا في مقر Commerce. لمزيد من المعلومات، راجع [تمكين مدفوعات بطاقات الهدايا لبطاقة الضيف](#enable-gift-card-payments-for-guest-checkout).
+
+> [!IMPORTANT]
+> خاصية **تمكين للمستخدمين الضيوف** متوفرة اعتبارا من إصدار Commerce 10.0.21. وهي تتطلب تثبيت حزمة مكتبة الوحدة النمطية Commerce الإصدار 9.31.
 
 ## <a name="site-settings-for-gift-card-modules"></a>إعدادات الموقع لوحدات بطاقة الهدايا
 
