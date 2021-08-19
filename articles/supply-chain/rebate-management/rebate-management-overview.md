@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339984"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720242"
 ---
 # <a name="rebate-management-module-overview"></a>نظرة عامة على وحدة إدارة الخصومات
 
@@ -91,10 +91,9 @@ ms.locfileid: "6339984"
 
 وعند حساب الخصومات، تقوم العملية بإنشاء حركات يمكن مراجعتها قبل اجراء الترحيل. وتقوم عملية منفصلة بترحيل حركات إدارة الخصم. ويمكن بعد ذلك إنشاء دفتر يومية أو إشعار دائن أو حركة مدين أثناء الترحيل إلى الحركات المقترحة. يمكن الحصول علي كشوف التقارير وإدخالات قوائم الحركات لضمان التوافق والفعالية والشفافية.
 
-
 ## <a name="guaranteed-royalty-payments"></a>مدفوعات العوائد المضمونة
 
-في أداره الخصم، يقوم إنشاء الدفع التلقائي بتمكين معالجه العوائد بسرعة وسهوله، حتى عند تطبيق المينيمومس المضمونة. 
+في أداره الخصم، يقوم إنشاء الدفع التلقائي بتمكين معالجه العوائد بسرعة وسهوله، حتى عند تطبيق المينيمومس المضمونة.
 
 ## <a name="maximizing-spend-versus-rebates"></a>زيادة الإنفاق مقابل الخصومات
 
