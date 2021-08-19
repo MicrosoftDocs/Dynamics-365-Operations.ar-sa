@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768181"
 ---
 # <a name="payroll-employee"></a>الموظف حسب كشف الرواتب
 
@@ -33,27 +33,25 @@ ms.locfileid: "6538844"
 يوفر هذا الكيان معلومات حول الموظف. يجب تعيين [معلمات تكامل الرواتب](hr-admin-integration-payroll-api-parameters.md) قبل استخدام هذا الكيان.
 
 >[!IMPORTANT] 
->حقول **FirstName**، و **MiddleName**، و **LastName**، و **NameValidFrom**، و **NameValidTo** لن تكون متوفرة على هذا الكيان. هذا هو للتأكد من أن هناك تاريخ واحد فقط مصدر بيانات فعالة تدعم هذا الكيان، وهو **HcmEmployment** مع حقلي **EmploymentStartDate** و **EmploymentEndDate**.
-
->ستكون هذه الحقول متوفرة على **DirPersonNameHistoricalEntity**، الذي تم إصداره في تحديث النظام الأساسي 43. هناك علاقة OData من **PayrollEmployeeEntity** إلى **DirPersonNameHistoricalEntity** في الحقل **الشخص**. بدلا من ذلك، يمكن الاستعلام عن كيان **DirPersonNameHistoricalEntity** مباشرة من خلال OData باستخدام الاسم العام، **PersonHistoricalNames**.
-
+>حقول **FirstName**، و **MiddleName**، و **LastName**، و **NameValidFrom**، و **NameValidTo** لن تكون متوفرة على هذا الكيان. وهذا يضمن وجود مصدر بيانات تاريخ فعال واحد فقط يدعم هذا الكيان.
+>ستكون هذه الحقول متوفرة على **DirPersonNameHistoricalEntity**، الذي تم إصداره في تحديث النظام الأساسي 43. هناك علاقة OData من **PayrollEmployeeEntity** إلى **DirPersonNameHistoricalEntity** في الحقل **الشخص**. 
 
 ## <a name="properties"></a>الخصائص
 
 | الخاصية<br>**الاسم الفعلي**<br>**_النوع_** | استخدام | الوصف |
 | --- | --- | --- |
-| **رقم الموظف**<br>mshr_personnelnumber<br>*سلسلة* | للقراءة فقط<br>مطلوب | رقم الموظف الفريد الخاص بالموظف. |
-| **الحقل الأساسي**<br>mshr_primaryfield<br>*سلسلة* | مطلوب<br>النظام منشأ |  |
-| **معرف الكيان القانوني**<br>mshr_legalentityID<br>*سلسلة* | للقراءة فقط<br>مطلوب | يحدد الكيان القانوني (الشركة). |
-| **الجنس**<br>mshr_gender<br>[مجموعة خيارات mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | للقراءة فقط<br>مطلوب | جنس الموظف. |
+| **رقم الموظف**<br>mshr_personnelnumber<br>*سلسلة* | للقراءة فقط | رقم الموظف الفريد الخاص بالموظف. |
+| **الحقل الأساسي**<br>mshr_primaryfield<br>*سلسلة* | للقراءة فقط<br>النظام منشأ |  |
+| **معرف الكيان القانوني**<br>mshr_legalentityID<br>*سلسلة* | للقراءة فقط | يحدد الكيان القانوني (الشركة). |
+| **الجنس**<br>mshr_gender<br>[مجموعة خيارات mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | للقراءة فقط | جنس الموظف. |
 | **معرف كيان موظف كشف الرواتب**<br>mshr_payrollemployeeentityid<br>*GUID* | مطلوب<br>النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف الموظف بشكل فريد. |
-| **تاريخ بداية التوظيف**<br>mshr_employmentstartdate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط<br>مطلوب | تاريخ بدء توظيف الموظف. |
-| **معرف نوع التعريف**<br>mshr_identificationtypeid<br>*سلسلة* |للقراءة فقط<br>مطلوب | نوع التعريف المحدد للموظف. |
-| **تاريخ انتهاء التوظيف**<br>mshr_employmentenddate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط<br>مطلوب |تاريخ انتهاء توظيف الموظف.  |
-| **معرف منطقة البيانات**<br>mshr_dataareaid_id<br>*GUID* | مطلوب <br>النظام منشأ | قيمة GUID تم إنشاؤها بواسطة النظام لتعرف الكيان القانوني (الشركة). |
-| **صالح حتى**<br>mshr_namevalidto<br>*الفرق بالتاريخ والوقت* |  للقراءة فقط<br>مطلوب | تاريخ انتهاء صلاحية معلومات الموظف. |
-| **تاريخ الميلاد**<br>mshr_birthdate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط <br>مطلوب | تاريخ ميلاد الموظف. |
-| **رقم التعريف**<br>mshr_identificationnumber<br>*سلسلة* | للقراءة فقط <br>مطلوب |رقم التعريف المحدد للموظف.  |
+| **تاريخ بداية التوظيف**<br>mshr_employmentstartdate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ بدء توظيف الموظف. |
+| **معرف نوع التعريف**<br>mshr_identificationtypeid<br>*سلسلة* |للقراءة فقط | نوع التعريف المحدد للموظف. |
+| **تاريخ انتهاء التوظيف**<br>mshr_employmentenddate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط |تاريخ انتهاء توظيف الموظف.  |
+| **معرف منطقة البيانات**<br>mshr_dataareaid_id<br>*GUID* | للقراءة فقط <br>النظام منشأ | قيمة GUID تم إنشاؤها بواسطة النظام لتعرف الكيان القانوني (الشركة). |
+| **صالح حتى**<br>mshr_namevalidto<br>*الفرق بالتاريخ والوقت* |  للقراءة فقط | تاريخ انتهاء صلاحية معلومات الموظف. |
+| **تاريخ الميلاد**<br>mshr_birthdate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ ميلاد الموظف. |
+| **رقم التعريف**<br>mshr_identificationnumber<br>*سلسلة* | للقراءة فقط |رقم التعريف المحدد للموظف.  |
 
 ## <a name="example-query-for-payroll-employee"></a>نموذج الاستعلام لموظف كشل الرواتب
 
