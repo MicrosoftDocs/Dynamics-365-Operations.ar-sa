@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29b9e920744296d458e74ff3990191bde72b9e58
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8e62ef719652ca0e75333c239b741b723190fde34dd6348c1d8a5e8541cb6c8c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765756"
 ---
 # <a name="configure-and-filter-workspaces"></a>تكوين مساحات العمل وتصفيتها
 
@@ -54,9 +54,9 @@ ms.locfileid: "6344287"
 
 حدد خيارًا لتصفية مساحة العمل استنادًا إلى ذلك الخيار.
 
-### <a name="workspace-section-filters&quot;></a>عوامل تصفية قسم مساحة العمل
+### <a name="workspace-section-filters"></a>عوامل تصفية قسم مساحة العمل
 
-إذا تضمنت مقاطع فردية في مساحة العمل عوامل تصفية، فيمكنك تصفية كل مقطع بشكل منفصل. في الرسم التوضيحي التالي، عامل التصفية (الحقل الذي يحتوي على النص &quot;عامل تصفية") هو مثال لعامل تصفية حقل النص الحر.
+إذا تضمنت مقاطع فردية في مساحة العمل عوامل تصفية، فيمكنك تصفية كل مقطع بشكل منفصل. في الرسم التوضيحي التالي، عامل التصفية (الحقل الذي يحتوي على النص "عامل تصفية") هو مثال لعامل تصفية حقل النص الحر.
 
 [![عوامل تصفية أقسام مساحة العمل.](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
