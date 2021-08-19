@@ -14,6 +14,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.21 (أكتوبر 2021)
+                  href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.20 (أغسطس 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.19 (يونيو 2021)
@@ -446,11 +448,13 @@
                       href: deployment/onprem-adfscompatibility.md
                     - name: البرامج النصية لما قبل النشر وما بعد النشر للوكيل المحلي
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: تكوينات النشر للمندوب المحلي
+                      href: deployment/onprem-localagent-options.md
                     - name: تحديث الوكيل المحلي
                       href: lifecycle-services/update-local-agent.md
                 - name: استكشاف الأخطاء وإصلاحها
                   items:
-                    - name: استكشاف مشاكل عمليات النشر المحلية وإصلاحها
+                    - name: استكشاف مشكلات عمليات النشر المحلية وإصلاحها
                       href: deployment/troubleshoot-on-prem.md
                     - name: برامج نصية لحل المشكلات في البيئات المحلية
                       href: deployment/onprem-tsg-implementations.md
