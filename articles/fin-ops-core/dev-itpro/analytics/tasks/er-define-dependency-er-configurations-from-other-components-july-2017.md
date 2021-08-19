@@ -2,7 +2,7 @@
 title: تحديد تبعية تكوينات التقارير الإلكترونية في المكونات الأخرى
 description: يوضح هذا الموضوع كيفيه تصميم تكوين اعداد التقارير الكترونيه (ER) وتحديد التبعية الخاصة به من مكونات البرامج الأخرى.
 author: NickSelin
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4aef052a77428bb783a3a098754ca4dcc1b4296
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717584"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>تحديد تبعية تكوينات التقارير الإلكترونية في المكونات الأخرى
 
@@ -138,5 +138,8 @@ ms.locfileid: "5755096"
     * لاحظ أنه قد تم تحميل تكوين تعيين النموذج "تعيين نموذجي" جنبًا إلى جنب مع تكوين نموذج البيانات المحدد. يتم تنزيل الملفين معًا نظرًا لتحديد "التعيين النموذجي" على أنه ينفذ نموذج البيانات المحدد، ولأنه ينطبق على التطبيق. لم يتم تنزيل تكوين "تعيين نموذجي (بديل)‬" نظرًا لعدم تلبية الشرط المتعلق بإصدار التطبيق المطلوب.   
     * عند تسجيل الدخول إلى Finance and Operations، وتسجيل الموفر نفسه والوصول إلى مشروع LCS نفسه وتنزيل تكوين نموذج البيانات نفسه، سيتم تنزيل تكوين "تعيين نموذجي (بديل)‬"، في حين سيتم تخطي تكوين "تعيين نموذجي".  
 
+## <a name="additional-resources"></a>الموارد الإضافية
+
+[إدارة دورة حياة تكوين إعداد التقارير الإلكترونية (ER)](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
