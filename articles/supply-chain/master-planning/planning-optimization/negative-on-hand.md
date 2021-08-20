@@ -2,7 +2,7 @@
 title: التخطيط بالكميات الحالية السالبة
 description: يوضح هذا الموضوع كيفية معالجة الكمية الحالية السالبة عند استخدام تحسين التخطيط.
 author: ChristianRytt
-ms.date: 02/18/2020
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1c403e23309dda36dd1c99e22bbae0aa2d6d76a4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97688e09aae9706dd85e7965aa08c7ea873a44d81391c39406e2e6367660e0d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758534"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>التخطيط بالكميات الحالية السالبة
 
@@ -73,17 +73,29 @@ ms.locfileid: "5813088"
 
 تكون النتيجة هي الأمر المخطط الذي يبلغ 25 من أجهزة الكمبيوتر. (= 25 من أجهزة الكمبيوتر &minus; 0 جهاز من أجهزة الكمبيوتر.) لإعادة ملء المستودع 13 من 0 من أجهزة الكمبيوتر. إلى 25 من أجهزة كمبيوتر.
 
+## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>التخطيط عند وجود حجز مقابل المخزون الفعلي السلبي
+
+إذا قمت بضبط المخزون أثناء وجود عمليات الحجز الفعلية، يمكنك أن تتسبب في حالة يتم فيها حجز أمر فعليا مقابل المخزون السالب. في هذه الحالة، نظرا لوجود حجز فعلي، يفترض التخطيط التحسين أنه مدعوم بالمخزون الفعلي، حتى إذا لم يكن استلام المخزون الفعلي مسجلا في النظام. لذلك، يفترض أن التجديد غير مطلوب ولا ينشئ أمرا مخططا لتجديد كمية الأمر.
+
+يوضح المثال التالي هذا السيناريو.
+
+### <a name="example"></a>مثال
+
+تم تكوين النظام بالطريقة التالية:
+
+- يوجد المنتج *FG* ويحتوي على *10* قطع. من المخزون المتاح.
+- يسمح تكوين المنتج بالمخزون السالب الفعلي.
+- يوجد أمر مبيعات لكمية *10* قطع. من المنتج *FG*.
+- يتم حجز كمية أمر التوريد فعليا مقابل المخزون الفعلي الموجود.
+
+ثم قم بضبط كمية *المنتج FG* بحيث يصبح المخزون الفعلي 0 (صفر). ونظرا لأن مخزون المنتج الفعلي هو صفر، يتم الآن حجز كمية أمر التوريد مقابل المخزون السالب. ومع ذلك، إذا قمت بتشغيل التخطيط الرئيسي الآن، لن يتم إنشاء أي أمر مخطط لتوفير أمر التوريد، لأن التخطيط الأمثل سيفترض وجود المخزون الفعلي المطلوب لتوفير الحجز الفعلي.
+
 ## <a name="related-resources"></a>الموارد ذات الصلة
 
-[نظرة عامة على تحسين التخطيط‬](planning-optimization-overview.md)
-
-[بدء تحسين التخطيط](get-started.md)
-
-[تحليل ملاءمة تحسين التخطيط](planning-optimization-fit-analysis.md)
-
-[عرض سجل محفوظات الخطط والتخطيط](plan-history-logs.md)
-
-[إلغاء وظيفة تخطيط](cancel-planning-job.md)
-
+- [نظرة عامة على تحسين التخطيط‬](planning-optimization-overview.md)
+- [بدء تحسين التخطيط](get-started.md)
+- [تحليل ملاءمة تحسين التخطيط](planning-optimization-fit-analysis.md)
+- [عرض سجل محفوظات الخطط والتخطيط](plan-history-logs.md)
+- [إلغاء وظيفة تخطيط](cancel-planning-job.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

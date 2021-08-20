@@ -2,7 +2,7 @@
 title: قدرات الشبكة
 description: يوضح هذا الموضوع العديد من الميزات الفعالة في عنصر تحكم الشبكة. يجب تمكين ميزة الشبكة الجديدة للوصول إلى هذه القدرات.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775232"
 ---
 # <a name="grid-capabilities"></a>قدرات الشبكة
 
@@ -158,6 +158,13 @@ ms.locfileid: "5923588"
  ```this.forceLegacyGrid();```
 
 ستتم مراعاة واجهة API هذه حتى إصدار 2021 أكتوبر عندما يصبح عنصر تحكم الشبكة الجديدة إلزاميًا. إذا كانت هناك مشكلات تتطلب استخدام API، فعليك إعلام Microsoft بهذا الأمر.
+
+### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>فرض صفحة على استخدام الشبكة الجديدة بعد إلغاء الاشتراك في الشبكة مسبقا
+إذا قمت بإلغاء الاشتراك في صفحة فردية من استخدام الشبكة الجديدة، فقد ترغب في إعادة تمكين الشبكة الجديدة لاحقا بعد حل المشكلات الأساسية. للقيام بذلك، تحتاج ببساطة إلى إزالة المكالمة إلى `forceLegacyGrid()`. لن يسري التغيير حتى يحدث أحد ما يلي:
+
+- **إعادة توزيع البيئة** : عند تحديث بيئة وإعادة توزيعها، يتم مسح الجدول الذي يخزن الصفحات التي تم اختيارها خارج الشبكة الجديدة (FormControlReactGridState) تلقائيا.
+
+- **مسح الجدول يدويا**: بالنسبة لسيناريوهات التطوير، ستحتاج إلى استخدام SQL لمسح جدول FormControlReactGridState ثم إعادة تشغيل AOS. سيؤدي هذا المزيج من الإجراءات إلى إعادة تعيين التخزين المؤقت للصفحات التي تم اختيارها خارج الشبكة الجديدة.  
 
 ## <a name="developer-size-to-available-width-columns"></a>[المطور] تغيير حجم الأعمدة إلى العرض المتوفر
 إذا قام المطور بتعيين الخاصية **WidthMode** إلى **SizeToAvailable** للأعمدة داخل الشبكة الجديدة، فسيكون لهذه الأعمدة بشكل مبدئي العرض نفسه كما لو تم تعيين الخاصية إلى **SizeToContent**. ومع ذلك، فهي تتمدد لاستخدام أي عرض إضافي متوفر داخل الشبكة. إذا تم تعيين الخاصية إلى **SizeToAvailable** لأعمدة متعددة، فستشارك جميع هذه الأعمدة أي عرض متوفر داخل الشبكة. ومع ذلك، إذا قام مستخدم بتغيير حجم أحد هذين العمودين يدويًا، فسيصبح العمود ثابتًا. سيبقى بهذا العرض ولن يتمدد للحصول على عرض الشبكة الإضافي المتوفر.  
