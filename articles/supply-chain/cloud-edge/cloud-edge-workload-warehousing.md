@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740685"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>أحمال عمل إدارة المستودعات لوحدات نطاق السحابة والحافة
 
@@ -142,7 +142,7 @@ ms.locfileid: "6345490"
 
 - أوامر المبيعات
 - مشكلة في النقل
-- الاستعاضة
+- التزويد (لا يشمل المواد الخام للإنتاج)
 - حركة المخزون
 - الجرد الدوري
 - أوامر الشراء (المرتبطة بأوامر المستودع)
@@ -298,6 +298,7 @@ ms.locfileid: "6345490"
 | ‏‫الإبلاغ كمنتهٍ وتخزين البضائع المنتهية | نعم | نعم |
 | تخزين منتج مساعد ومنتج ثانوي | نعم | نعم |
 | <p>كافة عمليات warehouse management الأخرى المرتبطة بالإنتاج، بما في ذلك:</p><li>إصدار إلى المستودع</li><li>معالجة موجة الإنتاج</li><li>انتقاء المواد الخام</li><li>تخزين كانبان</li><li>انتقاء كانبان</li><li>بدء أمر الإنتاج</li><li>الخردة من الإنتاج</li><li>البالتة الأخيرة للإنتاج</li><li>تسجيل استهلاك المواد</li><li>قيمة كانبان فارغة</li></ul> | نعم | لا |
+| تزويد المواد الخام | لا | لا |
 
 ## <a name="maintaining-scale-units-for-wes"></a>الاحتفاظ بوحدات القياس لـ WES
 
