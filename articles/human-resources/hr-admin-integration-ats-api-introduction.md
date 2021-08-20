@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8dacca05c47f50099ca1420413ef80430b7ebf1850a799d1208328581699242d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751208"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>مقدمة واجهة برمجة التطبيقات لتكامل نظام تعقب مقدم الطلب
 
@@ -124,7 +124,7 @@ ms.locfileid: "6357378"
 - [الجنس](hr-admin-integration-ats-api-gender.md)
 - [الحالة الاجتماعية](hr-admin-integration-ats-api-marital-status.md)
 - [شهور السنة](hr-admin-integration-ats-api-months-of-year.md)
-- [لا     نعم](hr-admin-integration-ats-api-no-yes.md)
+- [لا نعم](hr-admin-integration-ats-api-no-yes.md)
 - [وحدة الفترة](hr-admin-integration-ats-api-period-unit.md)
 - [تكرار المراقبة](hr-admin-integration-ats-api-screening-frequency.md)
 - [إنشاء تكرار المراقبة من](hr-admin-integration-ats-api-screening-frequency-generate-from.md)

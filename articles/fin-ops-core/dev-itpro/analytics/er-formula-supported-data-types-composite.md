@@ -3,24 +3,19 @@ title: أنواع البيانات المركبة المدعومة لمعادل�
 description: يوفر هذا الموضوع معلومات حول أنواع البيانات المركبة المعتمدة في معادلات التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 06/02/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355336"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758254"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>أنواع البيانات المركبة المدعومة لمعادلات التقارير الإلكترونية
 
