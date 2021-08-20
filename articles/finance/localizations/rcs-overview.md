@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4ee68b691bba7f3314b5278b0bcc26504c1583335914a1e7c645abd5303f02c6
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358112"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012003"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -49,6 +49,9 @@ ms.locfileid: "6358112"
 
 - **التسجيل** إذا كنت تستخدم الخدمة للمرة الأولى، وكنت تستخدم عنوان بريد إلكتروني للعمل لتزويد مؤسستك ببيئة خدمة
 - **تسجيل الدخول** إذا سبق لك التسجيل في الخدمة، وأردت الوصول إلى بيئة مؤسستك
+
+> [!NOTE] 
+> بعد الاشتراك، نوصي بإضافة مستخدم SysAdmin إضافية إلى بيئة RCS. سيتم توفير هذا المستخدم كمسؤول مشارك للبيئة. وهذا يساعد على توفير الاستقرار للوصول إلى بيئة RCS، كما دور SysAdmin لإدارة المستخدمين لتلك البيئة. يمكنك إضافة مستخدمين باستخدام **مساحة عمل RCS > إدارة النظام**.
 
 ## <a name="regional-availability"></a>التوافر الإقليمي
 

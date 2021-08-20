@@ -72,6 +72,8 @@
                   items:
                     - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: الإصدار 10.0.21 من Supply Chain Management (أكتوبر 2021)
+                      href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (أغسطس 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (يونيو 2021)
@@ -1601,6 +1603,8 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: بدء تحسين التخطيط
                   href: master-planning/planning-optimization/get-started.md
+                - name: عملية إصدار تحسين التخطيط وسجل الإصدار
+                  href: master-planning/planning-optimization/release-process.md
                 - name: تحليل ملاءمة تحسين التخطيط
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: المعلمات غير المستخدمة في تحسين التخطيط
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: حدود وقت التغطية
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: صافي المتطلبات ومعلومات الربط مع تحسين التخطيط
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: الموافقة على الأوامر المخططة
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: تأكيد الأوامر المخططة
@@ -1709,6 +1715,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: التعاون مع عملاء سلسلة التوريد الداخلية
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+                - name: صافي المتطلبات ومعلومات الربط مع التخطيط الرئيسي المضمن
+                  href: master-planning/net-requirements-built-in-master-planning.md
             - name: تنبؤ
               items:
                 - name: التنبؤ بالطلب والتوريد
@@ -1967,6 +1975,8 @@
                   href: procurement/request-quotations.md
                 - name: إنشاء طلب لعرض الأسعار
                   href: procurement/tasks/create-request-quotation.md
+                - name: العطاء المغلق لطلبات عروض الأسعار (RFQ)‬
+                  href: procurement/sealed-bidding.md
                 - name: إنشاء طلب يستخدم طلب عرض أسعار
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: إنشاء أسلوب تسجيل النقاط لطلبات عروض الأسعار
@@ -2281,6 +2291,8 @@
               href: engineering-change-management/product-readiness.md
             - name: إصدار بنية المنتج
               href: engineering-change-management/release-product-structure.md
+            - name: إنشاء متغيرات للمنتجات الهندسية
+              href: engineering-change-management/engineering-variants.md
             - name: الأسئلة الشائعة حول إدارة التغيير الهندسي
               href: engineering-change-management/change-management-faq.md
         - name: التحكم بالإنتاج
@@ -2603,6 +2615,8 @@
               href: rebate-management/rebate-management-overview.md
             - name: إعداد وتكوين الوحدة النمطية إدارة الخصومات
               items:
+                - name: تشغيل وحدة إدارة الخصومات للنظام الخاص بك
+                  href: rebate-management/rebate-management-enable.md
                 - name: معلمات إدارة الخصومات
                   href: rebate-management/rebate-management-parameters.md
                 - name: عمليات سير عمل صفقات إدارة الخصومات
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: معالجة الخصومات ومراجعتها وترحيلها
               href: rebate-management/process-review-post.md
+            - name: إدارة الخصومات باستخدام منضدة عمل الخصومات
+              href: rebate-management/deduction-workbench.md
         - name: المبيعات والتسويق
           items:
             - name: نظرة عامة على المبيعات والتسويق
@@ -3057,6 +3073,8 @@
               href: landed-cost/in-transit-processing.md
             - name: معالجة حركات بالزيادة/بالنقصان‬
               href: landed-cost/over-under-transactions.md
+            - name: تحديث التعقب لإبعاده
+              href: landed-cost/update-tracking-putaway.md
             - name: استعلامات التكلفة شاملة التفريغ‬‬
               href: landed-cost/landed-cost-inquiries.md
             - name: تقارير التكلفة شاملة التفريغ‬‬
@@ -3117,6 +3135,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: انتقاء نظام مجموعة بتوجيه من النظام
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: الانتقاء الزائد لأوامر المبيعات وأوامر التحويل
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: تعيين أبعاد مختلفة للتعبئة والتخزين
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: تأكيد لوحة الترخيص والدُفعة
@@ -3509,7 +3529,13 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: إدارة المستودعات
               items:
-                - name: إيصالات استلام المنتجات الملغاة لا تحدّث حالة الحركات إلى "مسجّلة"
+                - name: لا يمكنك تأكيد الشحنة لأن العميل معلق
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: لا يمكنك تأكيد الشحنة لأن بنود التحميل تحتوي على كمية صفر
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: لا يمكن تحديث بند التحميل لأن الكمية الصادرة ستكون سالبة
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
+                - name: إيصالات استلام المنتجات الملغاة لا تحدّث حالة الحركات إلى مسجّلة
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: التقريب العشري لكمية التحديث الفعلية غير صحيح
                   href: troubleshooting/warehousing/decimal-rounding-of-quantity.md

@@ -2,7 +2,7 @@
 title: تكوين ومعالجة عملية استبدال في أمر إرجاع
 description: يشرح هذا الموضوع كيفية تكوين عملية استبدال في أمر إرجاع في Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/12/2018
+ms.date: 07/28/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 46d6e912aca64951da2865f5609a9dc22fbbcbe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758326"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>تكوين ومعالجة عملية استبدال في أمر إرجاع
 
@@ -32,7 +32,10 @@ ms.locfileid: "5804590"
 
 ## <a name="configure-commerce-to-support-exchanges-on-return-orders"></a>تكوين Commerce لدعم عمليات الاستبدال على أوامر الإرجاع
 
-اتبع هذه الخطوات لتكوين النظام لدعم عمليات الاستبدال على أوامر الإرجاع.
+> [!NOTE]
+> في إصدار Commerce رقم 10.0.20 والإصدارات الأحدث، تتوفر ميزة جديدة تسمى "تجربة معالجة المرتجعات الموحدة في نقطة البيع". إذا قمت بتمكين هذه الميزة، فإن خطوات الإعداد أدناه غير مطلوبة. **معالجة المرتجعات كأوامر مبيعات** تصبح إعدادًا مكونًا بشكل دائم ولن تتمكن من تغييرها.
+
+اتبع هذه الخطوات لتكوين النظام لدعم التبادلات في أوامر الإرجاع (إذا لم تقم بتمكين ميزة **تجربة معالجة المرتجعات الموحدة في نقطة البيع**).
 
 1. انتقل إلى **Retail وCommerce \> إعداد Headquarters \> المعلمات \> معلمات Commerce**. على علامة التبويب السريعة **أوامر العملاء‬**، عيّن الخيار **معالجة أوامر الإرجاع كأوامر مبيعات** إلى **نعم**.
 2. شغّل وظيفة **جدول توزيع التكوين العمومي** (**1110**).

@@ -1,8 +1,8 @@
 ---
-title: مرحبًا بك في Dynamics 365 Human Resources
+title: الصفحة الرئيسية للموارد البشرية
 description: يوفر Dynamics 365 Human Resources رؤى العاملين التي تحتاجها لإنشاء تجارب الموظفين المستندة إلى البيانات عبر مناطق متعددة.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.custom:
 - intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b294cbc8d73858aeb6ab358cad608c78c911b0a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 25b3a9271dd3a906c5077f2e509cacf37ce1eb9ccb37131bb7ea31fa72ddd57f
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339681"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7011969"
 ---
-# <a name="welcome-to-dynamics-365-human-resources"></a>مرحبًا بك في Dynamics 365 Human Resources
+# <a name="human-resources-home-page"></a>الصفحة الرئيسية للموارد البشرية
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -47,45 +47,54 @@ ms.locfileid: "6339681"
 
 ## <a name="administrator-guide"></a>دليل المسؤول
 
-[نظرة عامة](hr-admin-overview.md)</br>
-[متطلبات النظام](hr-admin-system-requirements.md)</br>
-[إعداد المثيلات وإدارتها](hr-admin-setup-provision.md)</br>
-[إعداد تكامل البينات](hr-admin-integration-choose-technology.md)</br>
-[تكوين إدارة البيانات](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
-[إدارة الميزات](hr-admin-manage-features.md)</br>
-[استكشاف واجهة المستخدم](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-[تطبيق Human Resources في Teams](hr-admin-teams-leave-app.md)</br>
-[الإعداد للعرض المباشر](hr-admin-go-live-prepare.md)</br>
-[الأسئلة المتداولة حول العرض المباشر](hr-admin-go-live-faq.md)</br>
-[موارد الوثائق](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-[استكشاف أخطاء Human Resources وإصلاحها](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+- [نظرة عامة](hr-admin-overview.md)</br>
+- [متطلبات النظام](hr-admin-system-requirements.md)</br>
+- [إعداد المثيلات وإدارتها](hr-admin-setup-provision.md)</br>
+- [إعداد تكامل البينات](hr-admin-integration-choose-technology.md)</br>
+- [تكوين إدارة البيانات](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [إدارة الميزات](hr-admin-manage-features.md)</br>
+- [استكشاف واجهة المستخدم](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [تطبيق Human Resources في Teams](hr-admin-teams-leave-app.md)</br>
+- [الإعداد للعرض المباشر](hr-admin-go-live-prepare.md)</br>
+- [الأسئلة المتداولة حول العرض المباشر](hr-admin-go-live-faq.md)</br>
+- [موارد الوثائق](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [استكشاف أخطاء Human Resources وإصلاحها](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
 
 ## <a name="developer-guide"></a>دليل المطور
 
-[نظرة عامة](hr-developer-overview.md)</br>
-[توسيع باستخدام Power Apps وPower Automate](hr-developer-power-apps.md)</br>
-[كيانات الموارد البشرية في Dataverse](hr-developer-entities.md)</br>
-[الحقول المخصصة](hr-developer-custom-fields.md)</br>
-[جداول Dataverse](hr-developer-entities.md)</br>
-[إعداد تكامل البينات](hr-admin-integration-choose-technology.md)</br>
-[استكشاف أخطاء التطوير وإصلاحها باستخدام جداول Dataverse الظاهرية](hr-developer-optimize-virtual-table-queries.md)</br>
-[مرجع API الكيان](hr-developer-api-authentication.md)</br>
-[واجهة API لتكامل ATS](hr-admin-integration-ats-api-introduction.md)</br>
-[‏‫واجهة API لتكامل كشف الرواتب](hr-admin-integration-payroll-api-introduction.md)
+- [نظرة عامة](hr-developer-overview.md)</br>
+- [توسيع باستخدام Power Apps وPower Automate](hr-developer-power-apps.md)</br>
+- [كيانات الموارد البشرية في Dataverse](hr-developer-entities.md)</br>
+- [الحقول المخصصة](hr-developer-custom-fields.md)</br>
+- [جداول Dataverse](hr-developer-entities.md)</br>
+- [إعداد تكامل البينات](hr-admin-integration-choose-technology.md)</br>
+- [استكشاف أخطاء التطوير وإصلاحها باستخدام جداول Dataverse الظاهرية](hr-developer-optimize-virtual-table-queries.md)</br>
+- [مرجع API الكيان](hr-developer-api-authentication.md)</br>
+- [واجهة API لتكامل ATS](hr-admin-integration-ats-api-introduction.md)</br>
+- [‏‫واجهة API لتكامل كشف الرواتب](hr-admin-integration-payroll-api-introduction.md)
 
 ## <a name="user-guide"></a>دليل المستخدم
 
-[نظرة عامة](hr-hrpro-overview.md)</br>
-[استكشاف واجهة المستخدم](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-[إعداد Human Resources](hr-setup-parameters.md)</br>
-[تكوين إعدادات المؤسسة](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
-[إدارة الموظفين](hr-personnel-departments-jobs-positions.md)</br>
-[إعداد خطط التعويض](hr-compensation-overview.md)</br>
-[إدارة المزايا](hr-benefits-management-overview.md)</br>
-[إدارة الإجازة والغياب](hr-leave-and-absence-overview.md)</br>
-[إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md)</br>
-[تطوير الموظفين](hr-develop-performance-management-overview.md)</br>
-[إنشاء دورات تدريبية](hr-learning-courses.md)</br>
-[إعداد الخدمة الذاتية للموظف والمدير](hr-employee-manager-self-service-overview.md)
+- [نظرة عامة](hr-hrpro-overview.md)</br>
+- [استكشاف واجهة المستخدم](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [إعداد Human Resources](hr-setup-parameters.md)</br>
+- [تكوين إعدادات المؤسسة](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [إدارة الموظفين](hr-personnel-departments-jobs-positions.md)</br>
+- [إعداد خطط التعويض](hr-compensation-overview.md)</br>
+- [إدارة المزايا](hr-benefits-management-overview.md)</br>
+- [إدارة الإجازة والغياب](hr-leave-and-absence-overview.md)</br>
+- [إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md)</br>
+- [تطوير الموظفين](hr-develop-performance-management-overview.md)</br>
+- [إنشاء دورات تدريبية](hr-learning-courses.md)</br>
+- [إعداد الخدمة الذاتية للموظف والمدير](hr-employee-manager-self-service-overview.md)
+
+## <a name="additional-resources"></a>الموارد الإضافية
+
+### <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
+للحصول على الدورات التدريبية والتدريب عبر الإنترنت، راجع [Dynamics 365 Human Resources على Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>ملفات الفيديو
+
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
