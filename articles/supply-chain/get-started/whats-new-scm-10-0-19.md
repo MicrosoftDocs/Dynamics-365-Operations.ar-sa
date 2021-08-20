@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641118"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773527"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management الإصدار 10.0.19 (يونيو 2021)
 
@@ -35,6 +35,7 @@ ms.locfileid: "6641118"
 
 | منطقة الميزة | الميزة | معلومات إضافية |
 |---|---|---|
+| المخزون&nbsp;و&nbsp;اللوجستيات | [الموافقة على التفاصيل المصرفية المقدمة من المورد وحفظها](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [الاحتفاظ بمعلومات الحساب البنكي للمورد](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | المخزون واللوجستيات | [تحسين تصدير كيان بيانات جهة الاتصال‬](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | عند تمكين هذه الميزة، لن تؤدي التغييرات التي تم إجراؤها على البيانات المرجعية إلى تضمين جهات الاتصال ذات الصلة في التصدير المتزايد التالي. عند تعطيل هذه الميزة، لن تؤدي التغييرات التي تم إجراؤها على البيانات المرجعية إلى تضمين جهات الاتصال ذات الصلة في التصدير المتزايد التالي. |
 | المخزون واللوجستيات | [تحسينات تدريجية لقدرات تنفيذ المستودعات مع وحدات القياس](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[رسائل معالج الرسالة](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[تسوية مخزون المستودع](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[أحمال عمل إدارة المستودعات لوحدات نطاق السحابة والحافة](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | المخزون واللوجستيات | [وظيفة البحث لمقدمة المستند وحقول خاتمة المستند في صفحة عرض أسعار المبيعات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | تضيف هذه الميزة وظيفة البحث للحقول **مقدمة المستند** و **نتائج المستند** على الصفحة  **عرض أسعار المبيعات**.<br><br>يتم تمكين هذه الميزة افتراضيًا. |

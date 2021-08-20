@@ -72,6 +72,8 @@
                   items:
                     - name: المزايا الجديدة أو المتغيرة‬ في الصفحة الرئيسية لـ Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.21 (أكتوبر 2021)
+                      href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (أغسطس 2021)
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (يونيو 2021)
@@ -1164,10 +1166,12 @@
                   href: general-ledger/change-mdfy-clndr-to-ledger.md
                 - name: عكس الإعدادات في دفاتر اليومية والبنود
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
-                - name: إقفال نهاية السنة يفتقد الأرصدة الافتتاحية
+                - name: إقفال نهاية السنة يفتقد إلى الأرصدة الافتتاحية
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: فتح قوالب دفتر اليومية المالي في Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: لماذا لا يمكنني عكس هذه الحركة؟
+                  href: general-ledger/cant-reverse-transctns.md
         - name: إعداد التقارير المالية
           items:
             - name: الشروع في العمل من خلال إعداد التقارير المالية
@@ -1498,12 +1502,16 @@
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: إنشاء ميزة جديدة للفوترة الإلكترونية
+                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: الشروع في العمل مع الفوترة الإلكترونية للبرازيل
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية لمصر
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية للمكسيك
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: استخدم خدمة الفوترة الإلكترونية لاستيراد فواتير الموردين
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: إعداد الفوترة الإلكترونية
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: الأسئلة المتداولة حول الفوترة الإلكترونية
@@ -1514,8 +1522,12 @@
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: الشروع في العمل مع حساب الضريبة
                       href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                    - name: قابلية تطبيق ضريبة المبيعات ومنطق تحديد مجموعة ضريبة المبيعات
+                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: دعم ميزة الضريبة لأوامر التحويل
                       href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: حساب الضريبة على السعر عندما يتم تمكين الأسعار تشمل الضرائب
+                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                     - name: إضافة حقول البيانات في تكوينات الضرائب
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: إضافة حقول البيانات في تكامل الضريبة باستخدام الملحقات
@@ -1528,6 +1540,10 @@
                       items:
                         - name: إعداد تقارير لتسجيلات ضريبة قيمة مضافة متعددة
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: التقارير المالية
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة
+                          href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: إعداد التقارير في هولندا
                           items:
                             - name: إقرار ضريبة القيمة المضافة
@@ -1544,6 +1560,8 @@
               items:
                 - name: نظرة عامة على أستراليا
                   href: localizations/australia.md
+                - name: تنسيقات ملفات البنوك للبنوك الأسترالية
+                  href: localizations/apac-aus-bank-file-formats.md
                 - name: بيان النشاط التجاري (BAS)
                   href: localizations/apac-aus-business-activity-statement.md
                 - name: إضافة مربعات التقارير وإنشاء كشف حساب النشاط التجاري
@@ -1552,6 +1570,8 @@
                   href: localizations/apac-aus-low-value-pool-depreciation.md
                 - name: إعداد أكواد السبب لكشف حساب النشاط التجاري
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
+                - name: مخطط الإبلاغ عن أوقات الدفع
+                  href: localizations/apac-aus-payment-times-report.md
             - name: النمسا
               items:
                 - name: نظرة عامة على النمسا
@@ -1802,6 +1822,8 @@
                   href: localizations/china.md
                 - name: Finance and Operations مشغل بواسطة 21Vianet في الصين
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
+                - name: تحديد مجموعات الحسابات لأنواع الإيصالات الصينية
+                  href: localizations/apac-chn-account-groups-selection.md
                 - name: مقارنة قوائم مكونات الصنف
                   href: localizations/apac-chn-bom-comparison.md
                 - name: التدرج الهرمي الصيني لمخطط الحسابات
@@ -1870,6 +1892,10 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: إقرار ضريبة القيمة المضافة (جمهورية التشيك)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: رموز البنوك للحسابات البنكية
+                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
+                - name: ضريبة القيمة المضافة بين المجتمعات
+                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: إقفال نهاية السنة
                   href: localizations/emea-cze-hun-year-end.md
             - name: الدنمارك
@@ -1992,10 +2018,6 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: إنشاء إقرار "نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي"
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                    - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي، فرنسا
-                      href: localizations/emea-fra-intrastat.md
-                    - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي، أيطاليا
-                      href: localizations/emea-ita-intrastat.md
                 - name: تقارير دفتر يومية المخزون
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: المواعيد النهائية لإصدار الفواتير
@@ -2120,6 +2142,8 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: الكمبيالات والسندات الإذنية الفرنسية
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي، فرنسا
+                  href: localizations/emea-fra-intrastat.md
                 - name: أكواد NAF وأرقام siret
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: إعداد أكواد NAF وأرقام Siret
@@ -2138,6 +2162,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: تحديث طريقة الدفع للعميل
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: إقرار ضريبة القيمة المضافة
+                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: تقرير DAS-2
                   href: localizations/emea-fra-das2-report.md
             - name: ألمانيا
@@ -2162,6 +2188,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: الإرسال الإلكتروني لإقرار ضريبة القيمة المضافة (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لألمانيا
+                  href: localizations/emea-deu-intrastat.md
                 - name: إقرار ضريبة القيمة المضافة لألمانيا
                   href: localizations/emea-de-vat-declaration.md
                 - name: تقرير الفواتير الإلكترونية للعميل
@@ -2170,6 +2198,8 @@
                   href: localizations/emea-deu-journal-list-report.md
                 - name: إعداد الإقرارات الضريبية الإلكترونية
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
+                - name: طباعة تسمية منفصلة لمذكرات الائتمان التي تنشأ من المبيعات
+                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: هنغاريا‬
               items:
                 - name: نظرة عامة على المجر
@@ -2616,6 +2646,8 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: تحسين إمكانية استخدام بيانات البنك
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لإيطاليا
+                  href: localizations/emea-ita-intrastat.md
                 - name: المصاريف المتنوعة للكيلوغرام الواحد في إعلان نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: خطابات النوايا - فوترة مصدرين عاديين
@@ -2836,6 +2868,8 @@
                   href: localizations/emea-ltu-isaf.md
                 - name: ملف المراجعة القياسي للضريبة (SAF-T) في ليتوانيا
                   href: localizations/emea-ltu-saf-t.md
+                - name: إعداد مستندات التحويل لحركة البضائع داخل شركة
+                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: ماليزيا
               items:
                 - name: نظرة عامة ماليزيا
@@ -2970,14 +3004,18 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: تقسيم فرق سعر الصرف للحسابات الدائنة/الحسابات المدينة
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: إعداد رموز PKWiU واستخدامها في بولندا
+                  href: localizations/emea-pol-pkwiu-code.md
                 - name: 'إقرار ضريبة القيمة المضافة مع السجلات (JPK_V7M, VDEK)'
-                  href: localizations/emea-pol-vdek.md
-                - name: التحضير لإعداد تقارير JPK-V7M
-                  href: localizations/emea-pol-vdek-setup.md
-                - name: إعداد تقارير JPK-V7M
-                  href: localizations/emea-pol-vdek-reporting.md
-                - name: تفاصيل سيناريوهات أعمال محددة في تقرير JPK-V7M
-                  href: localizations/emea-pol-vdek-scenarios.md
+                  items:
+                    - name: 'نظرة عامة على إقرار ضريبة القيمة المضافة مع السجلات (JPK_V7M, VDEK)'
+                      href: localizations/emea-pol-vdek.md
+                    - name: التحضير لإعداد تقارير JPK-V7M
+                      href: localizations/emea-pol-vdek-setup.md
+                    - name: إعداد تقارير JPK-V7M
+                      href: localizations/emea-pol-vdek-reporting.md
+                    - name: تفاصيل سيناريوهات أعمال محددة في تقرير JPK-V7M
+                      href: localizations/emea-pol-vdek-scenarios.md
             - name: قطر
               items:
                 - name: نظرة عامة على قطر
@@ -3200,6 +3238,8 @@
                       href: localizations/rus-reporting-deferrals.md
                 - name: محاسبة الضرائب
                   items:
+                    - name: إنشاء السجلات الضريبية ودفتر يومية السجلات الضريبية
+                      href: localizations/rus-profit-tax-registers.md
                     - name: أكواد المصروفات والإيرادات
                       href: localizations/rus-expense-and-income-codes.md
                     - name: سجلات ضرائب الأصول
@@ -3216,9 +3256,13 @@
                       href: localizations/rus-bad-debts.md
                     - name: حساب سجلات الأصول الضريبية والالتزامات الضريبية
                       href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
-            - name: السعودية
+                    - name: سجلات ضريبة حركة البضائع
+                      href: localizations/rus-goods-movement-tax-registers.md
+                    - name: سجلات الضرائب الأخرى
+                      href: localizations/rus-other-tax-registers.md
+            - name: المملكة العربية السعودية
               items:
-                - name: نظرة عامة على السعودية
+                - name: نظرة عامة على المملكة العربية السعودية
                   href: localizations/saudi-arabia.md
                 - name: ضريبة المبيعات
                   href: localizations/apac-sau-sales-tax.md
@@ -3304,8 +3348,6 @@
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: تقرير ضريبة القيمة المضافة للمبيعات
                   href: localizations/apac-tha-sales-vat-report.md
-                - name: متوسط ضريبة القيمة المضافة لحركات الشراء
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: ضريبة الخصم
                   href: localizations/apac-tha-withholding-tax.md
             - name: الإمارات العربية المتحدة (UAE)
