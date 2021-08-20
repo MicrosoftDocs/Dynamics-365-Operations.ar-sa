@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ecdd377d12faf40f64736e93671dcf42ff132403
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: ae02846c0ec937ebaff440dc5272a135e16c8aa7355ecc303929e760a54b6627
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6249050"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760288"
 ---
 # <a name="quantity-exceeds-under-delivery-percentage-during-packing-slip-generation"></a>الكمية تتجاوز النسبة المئوية للتسليم الناقص أثناء إنشاء إيصال التعبئة
 
