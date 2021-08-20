@@ -5,6 +5,8 @@
       items:
         - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 26 يوليو 2021
+          href: hr-whats-new-2021-07-26.md
         - name: 12 يوليو 2021
           href: hr-whats-new-2021-07-12.md
         - name: 22 يونيو 2021
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: 21 يناير 2021
           href: hr-whats-new-2021-01-21.md
-        - name: 2 ديسمبر 2020
-          href: hr-whats-new-2020-12-02.md
-        - name: 22 أكتوبر 2020
-          href: hr-whats-new-2020-10-22.md
-        - name: 6 أكتوبر 2020
-          href: hr-whats-new-2020-10-06.md
-        - name: 26 سبتمبر 2020
-          href: hr-whats-new-2020-09-26.md
-        - name: 16 سبتمبر 2020
-          href: hr-whats-new-2020-09-16.md
-        - name: 3 سبتمبر 2020
-          href: hr-whats-new-2020-09-03.md
-        - name: 20 أغسطس 2020
-          href: hr-whats-new-2020-08-20.md
-        - name: 6 أغسطس 2020
-          href: hr-whats-new-2020-08-06.md
-        - name: 23 يوليو 2020
-          href: hr-whats-new-2020-07-23.md
-        - name: 8 يوليو 2020
-          href: hr-whats-new-2020-07-08.md
-        - name: 25 يونيه 2020
-          href: hr-whats-new-2020-06-23.md
-        - name: 11 يونيه 2020
-          href: hr-whats-new-2020-06-11.md
-        - name: 28 مايو 2020
-          href: hr-whats-new-2020-05-28.md
-        - name: 14 مايو 2020
-          href: hr-whats-new-2020-05-14.md
-        - name: 1 مايو 2020
-          href: hr-whats-new-2020-05-01.md
         - name: الميزات الجديدة في أرشيفات 2020
           items:
+            - name: 2 ديسمبر 2020
+              href: hr-whats-new-2020-12-02.md
+            - name: 22 أكتوبر 2020
+              href: hr-whats-new-2020-10-22.md
+            - name: 6 أكتوبر 2020
+              href: hr-whats-new-2020-10-06.md
+            - name: 26 سبتمبر 2020
+              href: hr-whats-new-2020-09-26.md
+            - name: 16 سبتمبر 2020
+              href: hr-whats-new-2020-09-16.md
+            - name: 3 سبتمبر 2020
+              href: hr-whats-new-2020-09-03.md
+            - name: 20 أغسطس 2020
+              href: hr-whats-new-2020-08-20.md
+            - name: 6 أغسطس 2020
+              href: hr-whats-new-2020-08-06.md
+            - name: 23 يوليو 2020
+              href: hr-whats-new-2020-07-23.md
+            - name: 8 يوليو 2020
+              href: hr-whats-new-2020-07-08.md
+            - name: 25 يونيو 2020
+              href: hr-whats-new-2020-06-23.md
+            - name: 11 يونيو 2020
+              href: hr-whats-new-2020-06-11.md
+            - name: 28 مايو 2020
+              href: hr-whats-new-2020-05-28.md
+            - name: 14 مايو 2020
+              href: hr-whats-new-2020-05-14.md
+            - name: 1 مايو 2020
+              href: hr-whats-new-2020-05-01.md
             - name: 13 أبريل 2020
               href: hr-whats-new-2020-04-13.md
             - name: 3 أبريل 2020
@@ -471,8 +473,12 @@
                   href: hr-admin-integration-payroll-api-leave-balance.md
                 - name: نوع الإجازة
                   href: hr-admin-integration-payroll-api-leave-type.md
-                - name: طلب إجازة
+                - name: طلب الإجازة
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: الكيانات ذات الصلة بالمزايا
+              items:
+                - name: خطة مزايا العاملين في كشوف المرتبات
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: مجموعات الخيار
               items:
                 - name: الجنس
@@ -483,6 +489,10 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: نوع العملية
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: تغطية نوع خطة المزايا
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: حالة خطة الموظف للمزايا
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: دليل المستخدم
       items:
         - name: نظرة عامة
