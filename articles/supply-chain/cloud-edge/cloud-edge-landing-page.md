@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780664"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>وحدات نطاق السحابة والحافة لأحمال التصنيع وإدارة المستودعات
 
@@ -102,7 +102,7 @@ ms.locfileid: "6354799"
 > [!IMPORTANT]
 > أنواع البيئة التي يتم تشغيلها كخدمة تأجير البنية التحتية (IaaS) غير مدعومة. هذه البيئات مميزة عادة بعلامة النوع **مُدار بواسطة Microsoft** في LCS. إذا كان لديك بيئات من هذا النوع، فاعمل مع جهة الاتصال في Microsoft لفهم المخطط الزمني للترحيل إلى نوع **الخدمة الذاتية**.
 
-تعمل Microsoft على نقل كافة بيئات السحابة في Supply Chain Management من نموذج IaaS إلى طبولوجيا مستضافة في Service Fabric. تؤدي هذه الخطوة إلى تحسين قابلية تغيير الحجز وتساعد على تسهيل إدارة الخدمة. وبالتالي، فان عمليات النشر والصيانة تتم بشكل أسرع. بطريقة مماثلة، يجري ترحيل مكونات الخدمة إلى مفهوم الخدمات المصغرة، كما أن نموذج استضافة الخدمة [سينتقل](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) من نموذج جهاز ظاهري (VM) إلى هندسة حاوية خفيفة.
+تعمل Microsoft على نقل كافة بيئات السحابة في Supply Chain Management من نموذج IaaS إلى طبولوجيا مستضافة في Service Fabric. تؤدي هذه الخطوة إلى تحسين قابلية تغيير الحجز وتساعد على تسهيل إدارة الخدمة. وبالتالي، فان عمليات النشر والصيانة تتم بشكل أسرع. بطريقة مماثلة، يجري ترحيل مكونات الخدمة إلى مفهوم الخدمات المصغرة، كما أن نموذج استضافة الخدمة [سينتقل](/virtualization/windowscontainers/about/containers-vs-vm) من نموذج جهاز ظاهري (VM) إلى هندسة حاوية خفيفة.
 
 أخيرًا، ستقوم البنية التحتية نفسها لخدمة الحاوية القائمة على Service Fabric بتشغيل مثيلي السحابة والحافة من الخدمة، بصرف النظر عما إذا كان المثيل عبارة عن مركز في السحابة أو وحدة قياس في السحابة أو على الحافة.
 
