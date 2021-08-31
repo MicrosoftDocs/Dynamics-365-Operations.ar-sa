@@ -332,8 +332,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: الحصول على حالة نشاط العملية
                       href: database/api/v1/reference-get-status.md
-                    - name: بدء البيئات وإيقافها
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: بيانات العرض التوضيحي
           items:
             - name: نظرة عامة على بيانات العرض التوضيحي
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: استمرارية الأعمال والإصلاح بعد كارثة
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: إتمام إعداد Azure Resource Manager
+                - name: إتمام عملية إعداد Azure Resource Manager
                   href: deployment/arm-onboarding.md
+                - name: إكمال عملية إعداد Azure Resource Manager لمشاريع LCS للحكومة الأمريكية
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute وFinance and Operations
                   href: deployment/expressroute.md
                 - name: هندسة Finance and Operations
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS للشركاء
                   href: lifecycle-services/getting-started-lcs.md
+                - name: واجهات RESTful API
+                  items:
+                    - name: بدء البيئات وإيقافها
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: إحضار بيانات تعريف البيئة
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: إحضار محفوظات البيئة
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: إحضار الملف المضغوط (ZIP) لشهادة RSAT للبيئة
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: المزايا الجديدة أو المتغيرة في Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: دليل مستخدم Lifecycle Services
@@ -1134,27 +1144,29 @@
                   items:
                     - name: دعم حلول Field Service وProject Service Automation
                       href: data-entities/dual-write/field-service-project-service-automation.md
-                    - name: ترحيل العميل المتوقع إلى بيانات النقدية من Data Integrator إلى الكتابة المزدوجة
+                    - name: ترحيل بيانات العميل المتوقع إلى النقدية من موحد البيانات إلى الكتابة المزدوجة
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: استكشاف الأخطاء وإصلاحها
                       items:
-                        - name: التحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations و Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: استكشاف الأخطاء العامة وإصلاحها
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: استكشاف المشاكل وإصلاحها أثناء الإعداد الأولي
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: استكشاف مشاكل المزامنة المباشرة وإصلاحها
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
                         - name: استكشاف مشاكل الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                        - name: استكشاف المشاكل وإصلاحها في المزامنة المباشرة
-                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: استكشاف مشاكل الطرف ودفتر العناوين العمومي
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: استكشاف المشاكل ذات الصلة بإدراك الحلول وإصلاحها
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: استكشاف المشاكل من ترقيات تطبيقات Finance and Operations وإصلاحها
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: استكشاف المشكلات العامة وإصلاحها
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                - name: الأسئلة الشائعة حول الكتابة المزدوجة
+                        - name: التحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                - name: الأسئلة المتداولة حول الكتابة المزدوجة
                   href: data-entities/dual-write/dual-write-faq.md
             - name: الكيانات الظاهرية
               items:

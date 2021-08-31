@@ -256,7 +256,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: هندسة Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: نشر قناة متجر عبر الإنترنت
+                - name: نشر كتالوج متجر عبر الإنترنت
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: محتوى Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -1268,6 +1268,26 @@
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory Configuration Service - إهلاك تخزين Lifecycle Services
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: تنزيل تكوينات التقارير الإلكترونية (ER) إلى Commerce
+                  items:
+                    - name: تنزيل التكوينات من RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: استيراد التكوينات من RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                - name: المستودع العالمي (GR)
+                  items:
+                    - name: استيراد التكوينات من GR
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: استيراد إصدارات محدَّثة من تكوينات التقارير الإلكترونية (ER)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: تصفية محسنة للعثور على التكوينات في GR
+                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: تحميل التكوينات إلى GR
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                    - name: مشاركة التكوينات في المستودع العمومي (GR)
+                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                    - name: إيقاف التكوينات في المستودع العمومي لـ RCS
+                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: النمسا
               items:
                 - name: عينة تكامل خدمة التسجيل المالي للنمسا
@@ -1315,6 +1335,12 @@
                 - name: وظيفة آلة تسجيل المدفوعات النقدية
                   href: localizations/emea-fra-cash-registers.md
                 - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
+                  href: localizations/emea-fra-fi-deployment.md
+                - name: التحقق من الأرشيف المالي وسلامة البيانات
+                  href: localizations/emea-fra-fiscal-archive.md
+                - name: الترحيل من الوظائف القديمة لفرنسا
+                  href: localizations/emea-fra-fi-migration.md
+                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية (قديمة)
                   href: localizations/emea-fra-deployment.md
             - name: ألمانيا
               items:
@@ -1350,6 +1376,8 @@
               items:
                 - name: ترجمة Commerce لروسيا
                   href: localizations/rus-commerce-localization.md
+                - name: تنسيق عنوان العميل المبسط في Commerce POS لروسيا
+                  href: localizations/rus-simplified-address.md
                 - name: إعداد ترجمة Commerce لروسيا
                   href: localizations/rus-commerce-setup.md
                 - name: الدفعات المسبقة في Commerce لروسيا
@@ -1860,30 +1888,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: استيراد التكوينات (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory services ‏(RCS)
-                  items:
-                    - name: ميزات العولمة في RCS
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                    - name: تنزيل تكوينات التقارير الإلكترونية (ER) إلى Commerce
-                      items:
-                        - name: تنزيل التكوينات من RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: استيراد التكوينات من RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: المستودع العالمي (GR)
-                      items:
-                        - name: استيراد التكوينات من GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: استيراد إصدارات محدَّثة من تكوينات التقارير الإلكترونية (ER)
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: تصفية محسنة للعثور على التكوينات في GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: تحميل التكوينات إلى GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: مشاركه التكوينات في GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: إيقاف التكوينات في المستودع العمومي لـ RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: دلائل البدء السريع
               items:
                 - name: ضبط تنسيق التقارير الإلكترونية (ER) لإنشاء مستند إلكتروني مخصص
@@ -2112,7 +2116,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: فتح بيانات الكيان في Excel وتحديثه باستخدام الوظيفة الإضافية لـ Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: إنشاء خبرات فتح في Excel
+            - name: الأسئلة المتداولة حول تجارب "فتح في Excel"
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: إضافة قوالب إلى قائمة فتح السطور في Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
@@ -2360,6 +2364,8 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: إعداد Azure Key Vault لإدارة المفاتيح الآمنة
                       href: e-commerce-extensibility/set-up-key-vault.md
+                    - name: إنشاء ربط المكونات في مسار الطلب
+                      href: e-commerce-extensibility/request-pipeline-hook.md
                 - name: تطوير إجراءات البيانات
                   items:
                     - name: نظرة عامة حول إجراءات البيانات
@@ -2422,6 +2428,12 @@
                   items:
                     - name: تكوين الموصلات وتمكينها
                       href: e-commerce-extensibility/connectors.md
+                - name: الأداء
+                  items:
+                    - name: تكوين ذاكرة التخزين المؤقت للصفحة
+                      href: e-commerce-extensibility/page-caching.md
+                    - name: ذاكرة التخزين المؤقت لمثيل إجراء البيانات
+                      href: e-commerce-extensibility/instance-cache.md
                 - name: بيانات تتبع الاستخدام والتحليلات
                   items:
                     - name: مسجل بيانات تتبع الاستخدام

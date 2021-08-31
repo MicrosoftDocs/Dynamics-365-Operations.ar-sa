@@ -222,6 +222,26 @@
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Regulatory Configuration Service - إهلاك تخزين Lifecycle Services
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تنزيل تكوينات التقارير الإلكترونية (ER) إلى Supply Chain Management
+                      items:
+                        - name: تنزيل التكوينات من RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: استيراد التكوينات من RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: المستودع العالمي (GR)
+                      items:
+                        - name: استيراد التكوينات من GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: استيراد إصدارات محدَّثة من تكوينات التقارير الإلكترونية (ER)
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: تصفية محسنة للعثور على التكوينات في GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: تحميل التكوينات إلى GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: مشاركة التكوينات في المستودع العمومي (GR)
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: إيقاف التكوينات في المستودع العمومي لـ RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: الفوترة الإلكترونية
                   items:
                     - name: نظرة عامة على الفوترة الإلكترونية
@@ -254,9 +274,9 @@
                       href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: حساب الضرائب
                   items:
-                    - name: نظره عامة على حساب الضريبة
+                    - name: نظره عامة على حساب الضرائب
                       href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: الشروع في العمل مع حساب الضريبة
+                    - name: الشروع في العمل مع حساب الضرائب
                       href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
                     - name: دعم ميزة الضريبة لأوامر التحويل
                       href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
@@ -264,7 +284,7 @@
                       href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إضافة حقول البيانات في تكامل الضريبة باستخدام الملحقات
                       href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: أرقام تسجيل ضريبة القيمة المضافة المتعدد
+                    - name: أرقام تسجيل ضرائب قيمة مضافة متعددة
                       href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إعداد بيئة للبحث عن البيانات الرئيسية
                       href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
@@ -1237,30 +1257,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: استيراد التكوينات (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory services ‏(RCS)
-                  items:
-                    - name: ميزات العولمة في RCS
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تنزيل تكوينات التقارير الإلكترونية (ER) إلى Supply Chain Management
-                      items:
-                        - name: تنزيل التكوينات من RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: استيراد التكوينات من RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: المستودع العالمي (GR)
-                      items:
-                        - name: استيراد التكوينات من GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: استيراد إصدارات محدَّثة من تكوينات التقارير الإلكترونية (ER)
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: تصفية محسنة للعثور على التكوينات في GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: تحميل التكوينات إلى GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: مشاركه التكوينات في GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: إيقاف التكوينات في المستودع العمومي لـ RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: دلائل البدء السريع
               items:
                 - name: ضبط تنسيق التقارير الإلكترونية (ER) لإنشاء مستند إلكتروني مخصص
@@ -1573,8 +1569,20 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: أرشفة حركات‬ المخزون
               href: inventory/archive-inventory-transactions.md
-            - name: الوظيفة الإضافية لرؤية المخزون
-              href: inventory/inventory-visibility.md
+            - name: الوظيفة الإضافية "رؤية المخزون"
+              items:
+                - name: نظرة عامة على الوظيفة الإضافية "رؤية المخزون"
+                  href: inventory/inventory-visibility.md
+                - name: إعداد رؤية المخزون
+                  href: inventory/inventory-visibility-setup.md
+                - name: تكوين رؤية المخزون
+                  href: inventory/inventory-visibility-configuration.md
+                - name: حجوزات رؤية المخزون
+                  href: inventory/inventory-visibility-reservations.md
+                - name: Power App رؤية المخزون
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: واجهات API العامة لرؤية المخزون
+                  href: inventory/inventory-visibility-api.md
         - name: ذكاء IoT
           items:
             - name: الصفحة الرئيسية لذكاء IoT
@@ -1607,6 +1615,8 @@
                   href: master-planning/planning-optimization/release-process.md
                 - name: تحليل ملاءمة تحسين التخطيط
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: الاختلافات بين التخطيط الرئيسي المضمن وتحسين التخطيط
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: المعلمات غير المستخدمة في تحسين التخطيط
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: تطبيق عوامل التصفية على الخطة
@@ -1795,7 +1805,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: فتح بيانات الكيان في Excel وتحديثه باستخدام الوظيفة الإضافية لـ Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: إنشاء خبرات فتح في Excel
+            - name: الأسئلة المتداولة حول تجارب "فتح في Excel"
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: إضافة قوالب إلى قائمة فتح السطور في Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1975,8 +1985,6 @@
                   href: procurement/request-quotations.md
                 - name: إنشاء طلب لعرض الأسعار
                   href: procurement/tasks/create-request-quotation.md
-                - name: العطاء المغلق لطلبات عروض الأسعار (RFQ)‬
-                  href: procurement/sealed-bidding.md
                 - name: إنشاء طلب يستخدم طلب عرض أسعار
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: إنشاء أسلوب تسجيل النقاط لطلبات عروض الأسعار
@@ -3301,6 +3309,8 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: تثبيت تطبيق المستودع وتوصيله
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: دعم الكود الشريطي للأجهزة المحمولة
+                      href: warehousing/mobile-barcode-support.md
                     - name: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق Warehouse Management للأجهزة المحمولة
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: استكشاف مشاكل الاتصال وإصلاحها في تطبيق Warehouse Management للأجهزة المحمولة
@@ -3311,6 +3321,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: إعداد الأجهزة المحمولة لعمل المستودع
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: تخصيص عناوين الخطوات وإرشاداتها لتطبيق Warehouse Management للأجهزة المحمولة
+                      href: warehousing/mobile-app-titles-instructions.md
                     - name: استلام لوحة الترخيص‬ عبر تطبيق Warehouse Management للأجهزة المحمولة
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
@@ -3331,11 +3343,11 @@
                   href: warehousing/mobile-device-user-settings.md
                 - name: معالجة حدث تطبيق المستودع
                   href: warehousing/warehouse-app-events.md
-                - name: تخصيص تطبيق المستودع
+                - name: توسيع عمليات المستودعات للأجهزة المحمولة
                   items:
                     - name: إطار عمل دليل العملية
                       href: warehousing/process-guide-framework.md
-                    - name: تعيين أيقونات الخطوات والعناوين
+                    - name: تعيين أيقونات الخطوات وعناوينها
                       href: warehousing/step-icons-titles.md
             - name: إعداد المستودع
               items:
@@ -3403,8 +3415,8 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: تخطيط توجيه المستند لبطاقات لوحات الترخيص
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: دعم الكود الشريطي للأجهزة المحمولة
-                      href: warehousing/mobile-barcode-support.md
+                    - name: الأكواد الشريطية GS1 ورموز الاستجابة السريعة (QR)
+                      href: warehousing/gs1-barcodes.md
                     - name: إعداد المستودع لأوامر التحويل
                       href: warehousing/transfer-orders-warehouse.md
                     - name: استكشاف أخطاء تكوين المستودع وإصلاحها

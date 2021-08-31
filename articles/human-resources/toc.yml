@@ -5,6 +5,8 @@
       items:
         - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 09 أغسطس 2021
+          href: hr-whats-new-2021-08-09.md
         - name: 26 يوليو 2021
           href: hr-whats-new-2021-07-26.md
         - name: 12 يوليو 2021
@@ -127,7 +129,7 @@
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: تحديث بيانات الكيان في Excel
                   href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                - name: إنشاء خبرات فتح في Excel
+                - name: الأسئلة المتداولة حول تجارب "فتح في Excel"
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: استكشاف أخطاء تكامل Office وإصلاحها
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
