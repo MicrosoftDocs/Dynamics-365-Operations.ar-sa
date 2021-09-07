@@ -2,7 +2,7 @@
 title: عملية إصدار تحسين التخطيط وسجل الإصدار
 description: يوفر هذا الموضوع معلومات حول عملية الإصدار ومحفوظات الإصدار لتحسين التخطيط.
 author: crytt
-ms.date: 7/28/2021
+ms.date: 8/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 64c8cd3ed6ff522a9ef90831ae502c5d50fbc05816aaa764d2a8e122934fc2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcd18341629afcf3092a457ae711e27b0bbfeb2a
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722381"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394404"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>عملية إصدار تحسين التخطيط وسجل الإصدار
 
@@ -33,7 +33,8 @@ ms.locfileid: "6722381"
 
 | التغييرات | تفاصيل إدارة الميزات | تاريخ الإصدار |
 |---|---|---|
-| <p>متطلبات نوع المورد لجدولة السعة اللانهائية</p><p>كفاءة الموارد وكفاءة التقويم لجدولة السعة اللانهائية</p><p>لمزيد من المعلومات، راجع [جدولة ذات سعة لا نهائية](infinite-capacity-planning.md). | <p>متوفر في إدارة الميزات اعتبارا من الإصدار 10.0.20.</p><p>اسم الميزة: *جدولة سعة غير محدودة لتحسين التخطيط*</p> | 6 يوليو 2021 |
-| تحسينات الجودة العامة | لا يلزم إدارة الميزات. | 6 يوليو 2021 |
+| <p>تمت إضافة حقل **وقت العميل المتوقع** إلى الأوامر المخططة.</p><p>تحسينات الأداء العام والجودة والاستقرار.</p> | لا يلزم إدارة الميزات. | 16 أغسطس 2021 |
+| <p>تمت إضافة متطلبات نوع المورد لجدولة سعة غير محدودة.</p><p>تحسين كفاءة الموارد وكفاءة التقويم لجدولة سعة غير محدودة.</p><p>لمزيد من المعلومات، راجع [جدولة ذات سعة لا نهائية](infinite-capacity-planning.md). | <p>متوفر في إدارة الميزات اعتبارا من الإصدار 10.0.20.</p><p>اسم الميزة: *جدولة سعة غير محدودة لتحسين التخطيط*</p> | 6 يوليو 2021 |
+| تحسينات الجودة العامة. | لا يلزم إدارة الميزات. | 6 يوليو 2021 |
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716611"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402166"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>كتالوج التعلّم لمدراء مشاريع التنفيذ الذين يستخدمون Dynamics 365 Finance
 
@@ -60,8 +60,7 @@ ms.locfileid: "6716611"
 | [نهج اختبار الأداء (DYN449PAL2)](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) | الرجاء الانضمام إلينا في هذا الحديث التقني بشأن كيفية اختبار أداء النهج. تعرف على الأساسيات وأفضل ممارسات الاختبار والأدوات المتاحة والتقنيات لتنفيذ الاختبارات وقياس الأداء وكيفية استخدام النتائج لتحسين الأداء. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 45 دقائق |
 | [كيفية الترقية إلى 7.2 (يوليو 2017) من 7.0 (RTW)/7.1 (الإصدار 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | في هذه الجلسة، سوف نقوم بتوضيح كيفية الترقية من تطبيق Dynamics 365 Finance and Operations v 7.0 (RTW) و v 7.1 (1611) إلى v 7.2 (يوليو 2017). اجرينا تمييزًا واضحًا بين العملاء المباشرين والمشاريع الجارية (غير المباشرة بعد). | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 58 دقيقة |
 | [Finance and Operations: الترقية من 7.x إلى 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | الرجاء الانضمام إلينا في الحديث التقني القادم، والذي سوف نتناول خلاله عملية الترقية من 7.X إلى 8.X. سوف نناقش سيناريوهات متنوعة وخطوات لتنفيذها لترقية الكود وترقية البيانات. وسوف نقوم أيضًا بتناول سيناريوهات طلب القابلية للتوسعة وكيفية رفعهم حيثما كان ذلك ممكنًا. الجزء 1 من 2. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 61 دقائق |
-| [ترقية AX2012 إلى Dynamics 365 for Operations  (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | وسوف يوفر هذا الحديث التقني نظرة عامة حول كيفية ترقية الكود والبيانات من AX 2012 إلى Dynamics 365 for Operations. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 45 دقائق |
-| [خيارات إعداد التقارير في Dynamics 365 for Operations (VIR810PAL)](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | سوف تناقش جلسة العمل هذه سيناريوهات الطباعة المتنوعة في D365 for Operations، بما في ذلك التلميحات والنصائح لوكيل توجيه المستند. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 60 دقيقة |
+| [ترقية AX2012 إلى Dynamics 365 for Operations  (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | وسوف يوفر هذا الحديث التقني نظرة عامة حول كيفية ترقية الكود والبيانات من AX 2012 إلى Dynamics 365 for Operations. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 45 دقيقة |
 | [خيارات التحليلات وإعداد التقارير: الطباعة ووكيل توجيه المستند](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| الرجاء الانضمام إلينا في هذا الحديث التقني المتعلق بموضوعين ذي صلة. أولاً، سنناقش أنماط وأدوات حل التحليلات وإعداد التقارير لتطبيق Dynamics 365 for Finance and Operations, Enterprise Edition. ثانيًا، سنناقش سيناريوهات الطباعة ووكيل توجيه المستند. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 45 دقيقة |
 | [الدورة MB-300T01-A: السمات المشتركة الأساسية لـ Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | تتناول هذه الدورة التدريبية السمات المشتركة الأساسية لـ Microsoft Dynamics 365 for Finance and Operations. | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت، تختلف التكلفة حسب المنطقة والشريك. | يوم واحد  |
 | [الدورة MB-300T02-A: التكوين الأساسي في Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | تتناول هذه الدورة مهام التكون الأساسية لـ Microsoft Dynamics 365 for Finance and Operations. | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت، تختلف التكلفة حسب المنطقة والشريك. | يوم واحد  |
@@ -93,6 +92,5 @@ ms.locfileid: "6716611"
 | [الاختبار MB-300: Microsoft Dynamics 365 Unified Operations الأساسي](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | يقوم هذا الاختبار بقياس قدرتك على إنجاز المهام الفنية التالية: استخدام أدوات التنفيذ والوظائف الشائعة وتكوين الأمان والعمليات والخيارات والقيام بترحيل البيانات والتحقق من صحة الحل ودعمه. | الاختبار، تختلف التكلفة حسب المنطقة |
 | [الاختبار MB-310: Microsoft Dynamics 365 for Finance and Operations، الماليات](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | يقيس هذا الاختبار قدرتك على إنجاز المهام التقنية التالية: إعداد وتكوين الإدارة المالية وإدارة وتطبيق العمليات الشائعة وتنفيذ وإدارة الحسابات الدائنة والمدينة وإدارة إعداد الموازنة والأصول الثابتة. | الاختبار، تختلف التكلفة حسب المنطقة |
 | [Microsoft Certified: Dynamics 365 for Finance and Operations، إقران مستشار الوظائف المالية ](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Certified: Dynamics 365 for Finance and Operations، يقوم المستشارون الوظيفيون الماليون بتوحيد الماليات العمومية والعمليات وأتمتة المهام وعمليات سير العمل وتبسيط إجراءات طلب العميل والبيع والفوترة وإعداد التقارير. | الشهادة، تختلف التكلفة حسب المنطقة |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

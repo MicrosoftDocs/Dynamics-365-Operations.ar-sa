@@ -1,6 +1,6 @@
 ---
-title: نظرة عامة على مدفوعات العملاء
-description: يوضح دليل المهام هذا مختلف الطرق التي تُستخدم لإدخال مدفوعات العميل.
+title: نظرة عامة على دفعات العملاء
+description: يوضح هذا الإجراء مختلف الطرق التي تُستخدم لإدخال مدفوعات العميل.
 author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 688fae26e556fcc7d41e5f79d7dcce3327094e62f4a82b9c802efac8072f47b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779004"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394478"
 ---
-# <a name="customer-payment-overview"></a>نظرة عامة على مدفوعات العملاء
+# <a name="customer-payment-overview"></a>نظرة عامة على دفعات العملاء
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح دليل المهام هذا مختلف الطرق التي تُستخدم لإدخال مدفوعات العميل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
+يوضح هذا الإجراء مختلف الطرق التي تُستخدم لإدخال مدفوعات العميل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
 1. انتقل إلى **جزء التنقل > الوحدات النمطية > الحسابات المدينة > المدفوعات > دفتر يومية المدفوعات‬**.
 2. انقر فوق **جديد**.

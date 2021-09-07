@@ -1,8 +1,8 @@
 ---
 title: إعداد نماذج القيم
 description: يوضح هذا الإجراء كيفية إنشاء دفتر أصول ثابتة جديد وإقرانه بمجموعة أصول ثابتة.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741526"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344648"
 ---
 # <a name="set-up-value-models"></a>إعداد نماذج القيم
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 يوضح هذا الإجراء كيفية إنشاء دفتر أصول ثابتة جديد وإقرانه بمجموعة أصول ثابتة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
-
 
 ## <a name="create-a-book"></a>إنشاء دفتر
 1. انتقل إلى الأصول الثابتة > إعداد > الدفاتر.
@@ -48,9 +49,10 @@ ms.locfileid: "6741526"
 1. انقر فوق "مجموعات الأصول الثابتة".
 2. في حقل "مجموعة الأصول الثابتة"، أدخل قيمة أو حددها.
 3. في الحقل "مدة الخدمة‬"، أدخل رقمًا.
-    * لاحظ أنه يتم حساب "فترات الإهلاك" بعد تعيين مدة الخدمة.  
-    * يمكنك تعيين قواعد الإهلاك كما تقتضيه الأغراض الضريبية.  
 
+  - يتم حساب فترات الإهلاك بعد إدخال العمر التشغيلي للأصل.  
+  - يمكن تعيين اتفاقية الإهلاك على النحو المطلوب للأغراض الضريبية.
+  - بالنسبة للأصول الثابتة المرتبطة بعقود الإيجار، سيتم تجاوز القيمة في حقل **مدة الخدمة** بفترة الإيجار الأقل في دفتر الأصول أو العمر الافتراضي المفيد للأصل. إذا تم تعيين الحقل **نقل الملكية** إلى **نعم** لدفتر التأجير، فستكون القيمة في حقل **مدة الخدمة**  هي دائما العمر المفيد للأصل.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

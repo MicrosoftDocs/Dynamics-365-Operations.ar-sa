@@ -1,8 +1,8 @@
 ---
 title: خيارات إعداد التقارير
-description: يتناول هذا المقال كيفية حل المشكلة التي يريد فيها العميل تخصيص تقارير Microsoft Dynamics 365 Human Resources أو إنشاء تقارير جديدة.
-author: andreabichsel
-ms.date: 02/03/2020
+description: يوضح هذا الموضوع كيفية تخصيص تقارير Microsoft Dynamics 365 Human Resources أو إنشاء تقارير جديدة.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 733ae0725f6fd9508e7d9e168d97f30a6c37f442930fb76c9415358c4dc888ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706e901e89fa618540067d68546be1cef1ee7148
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740781"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413363"
 ---
 # <a name="reporting-options"></a>خيارات إعداد التقارير
 

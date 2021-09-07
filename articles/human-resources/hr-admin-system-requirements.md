@@ -1,8 +1,8 @@
 ---
 title: متطلبات النظام
-description: توضح هذه المقالة متطلبات Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
+description: يسرد هذا الموضوع متطلبات النظام لـ Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ef0176926fd6c5c5d2bc852080dde5273d05d0f2edd20e091d97c71e503dce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15770595a0639c03df1138ec25010ca8168bd9a8
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761082"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393463"
 ---
 # <a name="system-requirements"></a>متطلبات النظام
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-توضح هذه المقالة متطلبات Microsoft Dynamics 365 Human Resources. كما يوضح البلدان والمناطق التي يتوفر فيها Human Resources، بالإضافة إلى معلومات حول لغات وترجمة بيانات Human Resources.
+يسرد هذا الموضوع متطلبات النظام لـ Microsoft Dynamics 365 Human Resources. كما يوضح البلدان والمناطق التي يتوفر فيها Human Resources، بالإضافة إلى معلومات حول لغات وترجمة بيانات Human Resources.
 
 ## <a name="supported-web-browsers"></a>مستعرضات الويب المدعومة
 
-يمكن تشغيل Human Resources في أيٍّ من مستعرضات الويب التالية التي تعمل على أنظمة التشغيل المحددة: 
+يمكن للمستخدمين الوصول إلى Microsoft Dynamics 365 Human Resources باستخدام أيٍّ من مستعرضات الويب التالية التي تعمل على أنظمة التشغيل المحددة: 
 
 *   Microsoft Edge (أحدث إصدار تمت إتاحته للجمهور) على Windows 10
 *   Internet Explorer 11 على Windows 10 أو Windows 8.1 أو Windows 7
@@ -39,14 +39,17 @@ ms.locfileid: "6761082"
 
 للعثور على أحدث إصدار لكل مستعرض ويب، انتقل إلى موقع ويب الشركة المصنعة للبرنامج. 
 
-> [!NOTE]
-> * لالتقاط الصور التي تم إنشاؤها من مسجل المهام، وتضمينها في مستندات Microsoft Word، يجب عليك تثبيت ملحق Chrome. 
-> * تم بدء تشغيل محرر سير العمل كتطبيق ClickOnce. يدعم كل من Microsoft Edge وInternet Explorer (على إصدار معتمد من Microsoft Windows) فقط تطبيقات ClickOnce. يتطلب تطبيق ClickOnce محرر سير العمل نظام تشغيل متوافق 64 بت.
-> * لمعاينة ملفات PDF، ننصح باستخدام المستعرضات الحديثة مثل Microsoft Edge (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Google Chrome (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو الكمبيوتر اللوحي Google Nexus 10.
->   متطلبات الشبكة
-> * تم تصميم لـ Human Resourcesلشبكات مع زمن وصول من 250-300 مللي ثانية أو أقل. يمثل هذا زمن الوصول من عميل المستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Human Resources. نوصي باختبار زمن وصول الشبكة على [www.azurespeed.com](https://www.azurespeed.com "اختبار زمن انتقال Azure").
-> * تعتمد متطلبات عرض النطاق الترددي لتطبيق Human Resources على السيناريو الخاص بك. تتطلب السيناريوهات الأكثر شيوعاً عرض نطاق ترددي لأكثر من 50 كيلو بايت في الثانية (KBps).
-> 
+## <a name="special-considerations"></a>اعتبارات خاصة
+
+* لتمكين مسجل المهام من التقاط لقطات الشاشة وتضمينها في مستندات Microsoft Word التي تم إنشاؤها، يجب عليك تثبيت ملحق Chrome التجريبي.
+* تم بدء تشغيل محرر سير العمل كتطبيق ClickOnce. يدعم كل من Microsoft Edge وInternet Explorer (على إصدار معتمد من Microsoft Windows) فقط تطبيقات ClickOnce. يتطلب تطبيق ClickOnce محرر سير العمل نظام تشغيل متوافق 64 بت.
+* لمعاينة ملفات PDF، ننصح باستخدام المستعرضات الحديثة مثل Microsoft Edge (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Google Chrome (آخر إصدار متوفر للجمهور) على نظام التشغيل Windows 10 أو Windows 8.1 أو Windows 8 أو Windows 7 أو الكمبيوتر اللوحي Google Nexus 10.
+
+## <a name="network-requirements"></a>متطلبات الشبكة
+
+* تم تصميم لـ Human Resourcesلشبكات مع زمن وصول من 250-300 مللي ثانية أو أقل. يمثل هذا زمن الوصول من عميل المستعرض إلى مركز بيانات Microsoft Azure الذي يستضيف Human Resources. نوصي باختبار زمن وصول الشبكة على [www.azurespeed.com](https://www.azurespeed.com "اختبار زمن انتقال Azure").
+* تعتمد متطلبات عرض النطاق الترددي لتطبيق Human Resources على السيناريو الخاص بك. تتطلب السيناريوهات النموذجية عرض نطاق ترددي يزيد على 50 كيلوبايت في الثانية (KBps).
+ 
 > [!WARNING]
 > لا تقم بحساب متطلبات النطاق الترددي من موقع عميل من خلال ضرب عدد المستخدمين في متطلبات الحد الأدنى للنطاق الترددي. يُصعب للغاية حساب الاستخدام المستزامن لموقع ما. بالنسبة إلى العملاء المهتمين بمتطلبات النطاق الترددي، يمكنهم استخدام إصدارًا تجريبيًا من Human Resources.
 
@@ -63,6 +66,5 @@ ms.locfileid: "6761082"
 > وعلى الرغم من ترجمة واجهة المستخدم إلى لغات أخرى، يتم تخزين كافة بيانات المستخدم باللغة التي تم إدخالها بها. يمكنك إنشاء رسائل البريد الكتروني والقوالب بلغات أخرىـ ولكن بعض البيانات مثل معلومات الجدولة لا تتوفر حاليًا إلا باللغة الإنجليزية.
 
 إذا كنت مطور برامج تهتم بإنشاء تخصيصات خاصة ببلد أو منطقة، أو في إنشاء حل لبلد أو منطقة لا تدعمها حاليًا Microsoft، فراجع [العولمة](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

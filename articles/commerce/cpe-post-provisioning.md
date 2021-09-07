@@ -2,7 +2,7 @@
 title: تكوين بيئة تقييم Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية تكوين بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742430"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416469"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>تكوين بيئة تقييم Dynamics 365 Commerce
 
@@ -128,7 +128,7 @@ ms.locfileid: "6742430"
 لإجراء حركات الاختبار على الموقع، يمكنك استخدام معلومات بطاقة ائتمان التجريبية التالية:
 
 - **رقم البطاقة:** 4111-1111-1111-1111
-- **تاريخ انتهاء الصلاحية:** 10/20
+- **تاريخ انتهاء الصلاحية:** 10/30
 - **‏‫كود قيمة التحقق من البطاقة (CVV):** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ ms.locfileid: "6742430"
 بعد الانتهاء من خطوات التوفير والتكوين، يمكنك بدء استخدام بيئة التقييم. استخدم عنوان URL لمنشئ مواقع Commerce للانتقال إلى تجربة التأليف. استخدم عنوان URL لموقع Commerce للانتقال إلى تجربة موقع عميل البيع بالتجزئة.
 
 لتكوين الميزات الاختيارية لبيئة تقييم Commerce، راجع [تكوين الميزات الاختيارية لبيئة تقييم Commerce](cpe-optional-features.md).
+
+> [!NOTE]
+> تأتي بيئات تقييم Commerce مع مستأجر العمل-إلى-المستهلك Azure Active Directory (Azure AD) ‏(B2C) المحمل مسبقًا لأغراض التوضيح.. لا يلزم تكوين مستأجر Azure AD  B2Cالخاص بك لبيئات التقييم. ومع ذلك، إذا كنت تقوم بتكوين بيئة التقييم لاستخدام مستأجر Azure AD B2C الخاص بك، فيُرجى التأكد من إضافة ``https://login.commerce.dynamics.com/_msdyn365/authresp`` كعنوان URL للرد في تطبيق Azure AD B2C عبر مدخل Azure.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -159,6 +162,8 @@ ms.locfileid: "6742430"
 [مدخل Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [موقع ويب Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+[إعداد مستأجر متاجرة عمل-مستهلك في Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

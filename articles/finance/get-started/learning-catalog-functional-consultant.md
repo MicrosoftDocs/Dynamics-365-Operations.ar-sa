@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a0ea3efc08ac9305887727c57a3821c694d6b25d3355edb6a60a6348967842c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b2efa7021c302e771f36179be690fc1c8653a07
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763084"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402363"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>كتالوج التعلّم للمستشارين الوظيفيين في Dynamics 365 Finance
 
@@ -34,13 +34,15 @@ ms.locfileid: "6763084"
 | [تعرف على قيمة الأعمال الخاصة بـ Microsoft Dynamics 365و Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | هل أنت مُهتم في معرفة تطبيقات الأعمال؟ ربما لا تعرف من أين تبدأ مع تطبيقات Microsoft Dynamics 365 وPower Platform؟ تعلم كيف يمكن لإمكانات تطبيقات الأعمال مساعدتك في إحداث تحويل في شركتك. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 7 ساعات |
 | [Dynamics 365 والقواعد الأساسية لـ Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | هل أنت مُهتم في معرفة تطبيقات الأعمال؟ أبدا بالمسار التعليمي هذا لمعرفة كيفية استخدام تطبيقات Dynamics 365. تعرف على مفاهمين السحابة وPower Platform وكيفية البدء في استخدام تطبيقات Dynamics 365. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 5.5 ساعات |
 | [بدء استخدام تطبيقات Finance and Operations](/learn/paths/get-started-finance-operations/) | تعرف كيف يدعم تطبيق Finance and Operations الأعمال لإدارة الأنظمة المالية العمومية والعمليات التجارية التشغيلية وسلاسل التوريد الانسيبابية لتمكين الأشخاص من اتخاذ قرارات سريعة وصائبة. وكخطوة أولى في مسيرتك المهنية للعمل باستخدام تطبيقات Finance and Operations، يجب أن تكون على دراية بميزاته ووظائفه، بصرف النظر عن دورك المرغوب فيه. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | ساعتان |
+| [بدء استخدام Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | مع Dynamics 365 Intelligent Order Management ، يمكن للعملاء إدارة تنسيق معالجة الطلبات من خلال التنفيذ. تمكن هذه القدرات المؤسسات من تنسيق تدفق الطلبات عبر الأنظمة الأساسية والتطبيقات المختلفة. | وحدة تعليمية عبر الإنترنت مجانية تتحدد وفقًا لقدرات المستخدم | 30 دقيقة |
 | [قبل الشراء](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | راجع الإرشادات المفصلة خطوة بخطوة سواء كنت ما تزال في مرحلة تقييم Finance and Operations أو أصبحت جاهزًا لإجراء عملية الشراء. | الوثائق | |
 | [خطة الإصدار](/dynamics365/release-plans/) | تعرف على أحدث الإمكانات والتحسينات في Dynamics 365 | الوثائق | |
 
 ## <a name="core-platform-knowledge"></a>المعرفة الأساسية للنظام الأساسي<a name="core-platform-knowledge"></a>
 
-| المحتوى  | ‏‏الوصف | التنسيق  | الطول    |
+| المحتوى  | الوصف | تنسيق  | الطول    |
 |----------|-------------|---------|-----------|
+| [استخدام حلول Success by Design for Dynamics 365](/learn/paths/use-success-design/) | تم تصميم FastTrack for Dynamics 365 لمساعدة العملاء والشركاء على تحقيق نشر ناجح لحلول Dynamics 365. لتقديم هذه الخدمة، يجب على مهندسي الحلول استخدام Success by Design. يناقش مسار التعلم هذا مفاهيم Success by Design. | وحدة تعليمية عبر الإنترنت مجانية تتحدد وفقًا لقدرات المستخدم | 12 ساعات |
 | [استخدام Lifecycle Services لتصميم وتخطيط عملية تنفيذ لتطبيقات Finance and Operations](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | يُمثل تطبيق Lifecycle Services (LCS) مساحة عمل تعاونية يستخدمها العملاء وشركائهم لإدارة مشاريع تطبيقات Finance and Operations بداية من مرحلة ما قبل المبيعات وحتى مرحلة التنفيذ وبشكل نهائي في بيئة الإنتاج. ويوفر قوائم الاختيار والأدوات التي تساعدك على إدارة المشروع بما في ذلك المنهجيات المنشأة مسبقًا والتي تساعدك في التنفيذ والخدمات المُحدّثة بشكل منتظم. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | ساعتان |
 | [تكوين المؤسسة الخاصة بك في تطبيقات Finance and Operations](/learn/paths/configure-your-organization-finance-ops/) | وبوصفك مستشارًا وظيفيًا يعمل بتطبيقات Finance and Operations، يجب عليك فهم كيفية إعداد مؤسسة لعميلك. يوضح لك مسار التعلّم هذا، من بين مهام أخرى، كيفية إعداد الكيانات القانونية وتنفيذ إعدادات الأمان وتخصيص واجهة المستخدم للمستخدمين وتصميم وإنشاء تطبيقات الجوال وتنفيذ عمليات تكامل شائعة. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 12 ساعات |
 | [ترحيل البيانات والانتقال للعرض المباشر باستخدام تطبيقات Finance and Operations](/learn/paths/migrate-data-go-live-finance-operations/) | بصفتك مستشارًا وظيفيًا، يجب عليك فهم كيفية إعداد بيانات عميلك للترحيل والعمل باستخدام إدارة البيانات وتنفيذ اختبارات قبول المستخدم للانتقال للعرض المباشر باستخدام تطبيقات Finance and Operations. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 4 ساعات |
@@ -102,6 +104,5 @@ ms.locfileid: "6763084"
 | [Microsoft Certified: Dynamics 365 for Finance and Operations، إقران مستشار الوظائف المالية ](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Certified: Dynamics 365 for Finance and Operations، يقوم المستشارون الوظيفيون الماليون بتوحيد الماليات العمومية والعمليات وأتمتة المهام وعمليات سير العمل وتبسيط إجراءات طلب العميل والبيع والفوترة وإعداد التقارير. | الشهادة، تختلف التكلفة حسب المنطقة |
 | [الاختبار MB-300: Microsoft Dynamics 365 Unified Operations الأساسي](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | يقوم هذا الاختبار بقياس قدرتك على إنجاز المهام الفنية التالية: استخدام أدوات التنفيذ والوظائف الشائعة وتكوين الأمان والعمليات والخيارات والقيام بترحيل البيانات والتحقق من صحة الحل ودعمه. | الاختبار، تختلف التكلفة حسب المنطقة |
 | [الاختبار MB-310: Microsoft Dynamics 365 for Finance and Operations، الماليات](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | يقيس هذا الاختبار قدرتك على إنجاز المهام التقنية التالية: إعداد وتكوين الإدارة المالية وإدارة وتطبيق العمليات الشائعة وتنفيذ وإدارة الحسابات الدائنة والمدينة وإدارة إعداد الموازنة والأصول الثابتة. | الاختبار، تختلف التكلفة حسب المنطقة |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,19 @@
 title: استكشاف المشاكل وإصلاحها في تطبيقات Finance and Operations
 description: يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح المشكلات ذات الصلة بوحدة الكتابة الثنائية في تطبيقات Finance and Operations.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6689fae215937f58c93cce72df3fa0a1b5aecd3a5ac9913981b253344a1ba13f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90ff55540c153ef4f3ac07bf5316a3abb4755f2c
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720726"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380130"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>استكشاف المشاكل وإصلاحها في تطبيقات Finance and Operations
 
@@ -44,8 +37,7 @@ ms.locfileid: "6720726"
 
 قد تتلقى رسالة الخطأ التالية عند محاولة تكوين جدول جديد للكتابة المزدوجة. المستخدم الوحيد الذي يمكنه إنشاء خريطة هو المستخدم الذي قام بإعداد اتصال الكتابة المزدوجة.
 
-*لا يشير رمز حالة الاستجابة إلى النجاح: 401 (غير مرخص)*
-
+*لا يشير رمز حالة الاستجابة إلى النجاح: 401 (غير مرخص).*
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>حدث خطأ عند فتح واجهة مستخدم الكتابة الثنائية
 
@@ -61,7 +53,11 @@ ms.locfileid: "6720726"
 
 قد تواجه الخطأ التالي عند الارتباط بالمخططات أو إنشائها:
 
-*لا يشير رمز حالة الاستجابة إلى النجاح: 403 (tokenexchange).<br> معرف جلسة العمل: \<your session id\><br> معرف نشاط الجذر: \<your root activity id\>*
+```dos
+Response status code does not indicate success: 403 (tokenexchange).
+Session ID: \<your session id\>
+Root activity ID: \<your root activity\> id
+```
 
 يمكن أن يحدث هذا الخطأ إذا لم يكن لديك الأذونات الكافية للربط بين الكتابة الثنائية أو إنشاء المخططات. يمكن أن يحدث هذا الخطأ إذا تمت إعادة تعيين بيئة Dataverse بدون إلغاء ربط الكتابة المزدوجة. يمكن لأي مستخدم يتمتع بدور مسؤول النظام في كل من تطبيقات Finance and Operations وDataverse ربط البيئات. يمكن فقط للمستخدم الذي قام بإعداد اتصال الكتابة المزدوجة إضافة تعيينات لجداول جديدة. بعد الإعداد، يمكن لأي مستخدم يتمتع بدور مسؤول النظام مراقبة الحالة وتحرير التعيينات.
 
@@ -75,16 +71,29 @@ ms.locfileid: "6720726"
 
 لإصلاح المشكلة، أنشئ تذكرة لفريق تكامل البيانات. قم بإرفاق تتبع الشبكة حتى يتمكن فريق تكامل البيانات من وضع علامة على المخططات باعتبارها **ليست قيد التشغيل** في النهاية الخلفية.
 
-## <a name="error-while-trying-to-start-a-table-mapping"></a>حدث خطأ أثناء محاولة بدء تعيين جدول
+## <a name="errors-while-trying-to-start-a-table-mapping"></a>حدثت أخطاء أثناء محاولة بدء تعيين جدول
 
-قد تتلقي خطأ مثل التالي عند محاولة تعيين تلك الحالة من التعيين إلى **قيد التشغيل:**
+### <a name="unable-to-complete-initial-data-sync"></a>يتعذر إكمال مزامنة البيانات الأولية
+
+قد تتلقى خطأ مثل ما يلي عند محاولة تشغيل مزامنة البيانات الأولية:
 
 *تعذر إكمال مزامنة البيانات الأولية. خطأ: فشل في الكتابة المزدوجة - فشل تسجيل المكون الإضافي: تعذر إنشاء بيانات تعريف لبحث الكتابة المزدوجة. خطأ لم يتم تعيين مرجع كائن إلى مثيل كائن.*
 
-يعتمد إصلاح هذا الخطأ على سبب الخطأ:
+عند محاولة تعيين حالة التعيين هذه على **قيد التشغيل**، فقد تتلقى هذا الخطأ. يعتمد الإصلاح على سبب الخطأ:
 
 + إذا كان التعيين يتضمن تعيينات تابعة، فتأكد من تمكين التعيينات التابعة لتعيين هذا الجدول.
 + قد يكون التعيين مفتقدًا لأعمدة المصدر أو الوجهة. في حالة فقدان عمود في تطبيق Finance and Operations، اتبع الخطوات الموجودة في القسم [مشكلة فقدان أعمدة الجدول في التعيينات](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). في حالة فقدان عمود في Dataverse، عندئذ انقر فوق **تحديث الجداول** على التعيين بحيث يتم ملء الحقول تلقائيًا إلى التعيين.
 
+### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>خطأ عدم تطابق الإصدار وترقية حلول الكتابة المزدوجة
+
+قد تتلقى رسائل الخطأ التالية عند محاولة تشغيل تعيينات الجدول:
+
++ *مجموعات العملاء (msdyn_customergroups): فشل الكتابة المزدوجة - Dynamics 365 for Sales حل "Dynamics365Company" به إصدار غير متطابق. الإصدار: "2.0.2.10" الإصدار المطلوب: "2.0.133"*
++ *Dynamics 365 for Sales يحتوي الحل "Dynamics365FinanceExtended" على عدم تطابق في الإصدار. الإصدار: "1.0.0.0" الإصدار المطلوب: "2.0.227"*
++ *Dynamics 365 for Sales يحتوي الحل "Dynamics365FinanceAndOperationsCommon" على عدم تطابق في الإصدار. الإصدار: "1.0.0.0" الإصدار المطلوب: "2.0.133"*
++ *Dynamics 365 for Sales يحتوي الحل "CurrencyExchangeRates" على عدم تطابق في الإصدار. الإصدار: "1.0.0.0" الإصدار المطلوب: "2.0.133"*
++ *Dynamics 365 for Salesيحتوي الحل "Dynamics365SupplyChainExtended" على عدم تطابق في الإصدار. الإصدار: "1.0.0.0" الإصدار المطلوب: "2.0.227"*
+
+لإصلاح المشكلات، قم بتحديث حلول الكتابة المزدوجة في Dataverse. تأكد من الترقية إلى أحدث حل يطابق إصدار الحل المطلوب.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

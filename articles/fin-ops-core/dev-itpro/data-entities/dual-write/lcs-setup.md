@@ -8,14 +8,13 @@ audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729033"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416641"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>إعداد الكتابة المزدوجة من Lifecycle Services
 
@@ -69,7 +68,7 @@ ms.locfileid: "6729033"
 
 ## <a name="linking-mismatch"></a>ربط عدم التطابق
 
-من الممكن أن يتم ربط بيئة LCS بمثيل Dataverse واحد، بينما ترتبط بيئة الكتابة المزدوجة بمثيل Dataverse آخر. قد يؤدي عدم التطابق هذا الارتباط سلوك غير متوقع ثم قد ينتهي إرسال البيانات إلى بيئة خاطئة. البيئة الموصى بها لاستخدامها للكتابة المزدوجة هي البيئة التي يتم إنشاؤها كجزء من تكامل Power Platform، وعلى المدى الطويل ، ستكون هذه هي الطريقة الوحيدة لإنشاء رابط بين البيئات.
+من الممكن أن يتم ربط بيئة LCS بمثيل Dataverse واحد، بينما ترتبط بيئة الكتابة المزدوجة بمثيل Dataverse آخر. قد يؤدي عدم التطابق هذا الارتباط سلوك غير متوقع ثم قد ينتهي إرسال البيانات إلى بيئة خاطئة. البيئة الموصى بها لاستخدامها للكتابة المزدوجة هي البيئة التي يتم إنشاؤها كجزء من تكامل Power Platform، وعلى المدى الطويل، ستكون هذه هي الطريقة الوحيدة لإنشاء رابط بين البيئات.
 
 إذا كانت البيئة لديك عدم تطابق ارتباط، يعرض LCS تحذيرا على صفحة تفاصيل البيئة الخاصة بك مشابهة ل "Microsoft قد اكتشفت أن البيئة الخاصة بك مرتبطة عبر الكتابة المزدوجة إلى وجهة مختلفة عن المحدد في تكامل Power Platform، وهو أمر غير مستحسن":
 

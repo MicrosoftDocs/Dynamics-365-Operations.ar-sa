@@ -1,8 +1,8 @@
 ---
 title: إنشاء خطة المزايا
-description: إعداد خطط المزايا في Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 03/24/2021
+description: يوضح هذا الموضوع كيفية إعداد خطط المزايا في Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4219c59141a0664e776f1ab099288a7b2db9139d83e1e5bfab7f7b2fbca128a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5f2443b1fc070d2b3030000f2980e92ef3004c
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731333"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417394"
 ---
 # <a name="create-a-benefit-plan"></a>إنشاء خطة ميزة
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوضح هذا المقال كيفية إعداد خطط المزايا في Dynamics 365 Human Resources.
+يوضح هذا الموضوع كيفية إعداد خطط المزايا في Dynamics 365 Human Resources.
 
 1. في مساحة العمل **إدارة المزايا**، ضمن **الخطط**، حدد **خطط المزايا**.
 

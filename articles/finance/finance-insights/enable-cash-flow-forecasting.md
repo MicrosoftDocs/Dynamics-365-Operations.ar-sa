@@ -1,5 +1,5 @@
 ---
-title: تمكين تقدير التدفق النقدي (معاينة)
+title: تمكين تقدير التدفق النقدي
 description: يوضح هذا الموضوع كيفية تشغيل ميزة توقعات التدفق النقدي في Finance Insights.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b5a4e1c3401c945df936258f0c97d2d406019438eb14a01d901f7777c8f0b7d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5e54772b132b4098df8259e954a484a0838ee38
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768905"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386701"
 ---
-# <a name="enable-cash-flow-forecasting-preview"></a>تمكين تقدير التدفق النقدي (معاينة)
+# <a name="enable-cash-flow-forecasting"></a>تمكين تقدير التدفق النقدي
 
 [!include [banner](../includes/banner.md)]
 

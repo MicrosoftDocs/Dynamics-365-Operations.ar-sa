@@ -10,20 +10,19 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 51f0ab8f76fe3bce91d6e4ed56bdfa8529c1aacbd326a8b4b3d80615f872f8c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729541"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403879"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>إقرار ضريبة الخصم في مصر (EG-00005)
 
 [!include[banner](../includes/banner.md)]
-
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>نظرة عامة
@@ -113,7 +112,7 @@ ms.locfileid: "6729541"
 1. انتقل إلى **الضريبة** > **الإقرارات** > **ضريبة الخصم** > **دفع ضريبة الخصم*.
 2. حدد فتره التسوية ثم حدد تاريخ البدء للتقرير. 
 3. أدخل تاريخ الحركة، ثم حدد **موافق**.
-4. في مربع الحوار الذي يفتح، حدد نوعًا أو أكثر من أنواع النماذج **النموذج رقم 41** أو **النموذج رقم 11** أو **بلا‏‎**. إذا قمت بتحديد **بلا**، يتم إنشاء التقرير القياسي. 
+4. في مربع الحوار الذي يفتح، حدد نوعًا أو أكثر من أنواع النماذج **النموذج رقم 41** أو **النموذج رقم 11** أو **بلا**. إذا قمت بتحديد **بلا**، يتم إنشاء التقرير القياسي. 
 5. حدد اللغة. تتم ترجمة كافة التقارير باللغات **الإنجليزية الأمريكية** و **العربية المصرية**.
 6. أدخل الفرع واسم البنك الذي سيتم فيه دفع مدفوعات الضريبة.
 7. حدد نوع الأعمال ثم أدخل الشيك وأرقام المستندات. 

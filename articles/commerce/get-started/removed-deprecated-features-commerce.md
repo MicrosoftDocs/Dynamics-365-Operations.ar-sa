@@ -2,7 +2,7 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Commerce.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740397"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386731"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 
@@ -32,6 +32,55 @@ ms.locfileid: "6740397"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.21 من Commerce
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Retail SDK الموزع باستخدام Lifecycle Services
+
+يأتي Retail SDK مزودًا في Lifecycle Services (LCS). هذا الوضع من التوزيع مهمل في الإصدار 10.0.21. في المستقبل، سيتم نشر حزم مرجع Retail SDK والمكتبات والعينات في المستودعات العامة على GitHub.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | يأتي Retail SDK مزودًا في LCS. تستغرق عملية LCS بضع ساعات لإنهاء العملية يجب أن تتكرر لكل تحديث. في المستقبل، سيتم نشر حزم مرجع Retail SDK والمكتبات والعينات في المستودعات العامة على GitHub. يمكن استهلاك عينات التمديد والحزم المرجعية بسهولة، وتنتهي التحديثات في بضع دقائق. |
+| **هل تم الاستبدال بميزة أخرى؟**   |  [تنزيل نماذج Retail SDK والحزم المرجعية من GitHub وNuGet](../dev-itpro/retail-sdk/sdk-github.md) |
+| **مناطق المنتجات المتأثرة**         | Retail SDK |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: اعتبارا من الإصدار 10.0.21، سيتم إزالة SDK التي يتم شحنها عبر LCS VMs في أكتوبر 2022. |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>حزمة قابلة للنشر بالتجزئة ومثبتات وحدة نقاط البيع والأجهزة المدمجة ومقياس السحاب
+
+تم إهمال حزم التجزئة القابلة للنشر التي تم إنشاؤها باستخدام RETAIL SDK MSBuild في 10.0.21. للمضي قدما، استخدم حزمة وحدة مقياس السحابة (CSU) لملحقات وحدة مقياس السحابة (Commerce Runtime، وقاعدة بيانات القناة، واجهات برمجة التطبيقات للتجارة بدون رأس، والمدفوعات، ونقطة البيع السحابية (POS)). استخدم مثبتات الملحقات فقط لوحدات نقاط البيع ومحطة الأجهزة ووحدة مقياس السحابة المستضافة ذاتيا.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | حزمة قابلة للنشر التجزئة هي حزمة مجمعة تحتوي على مجموعة كاملة من حزم الملحق والتركيب. هذه الحزمة المدمجة تجعل النشر معقدا، حيث تذهب ملحقات CSU إلى وحدة مقياس Cloud ويتم نشر المثبتات في المتاجر. التركيب تشمل تمديد والمنتجات الأساسية، الأمر الذي يجعل من الصعب التحديثات. مع كل ترقية، مطلوب دمج التعليمات البرمجية وتوليد حزمة. لتبسيط هذه العملية، يتم الآن فصل حزم التمديد إلى مكونات لتسهيل النشر والإدارة. مع النهج الجديد، يتم فصل ملحقات و التركيب المنتج الأساسي ويمكن خدمتها بشكل مستقل وترقيتها دون دمج رمز أو إعادة التعبئة.|
+| **هل تم الاستبدال بميزة أخرى؟**   | ملحقات CSU، مثبتات تمديد نقاط البيع، مثبتات ملحق محطة الأجهزة |
+| **مناطق المنتجات المتأثرة**         | توسيع Dynamics 365 Commerce ونشره |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: اعتبارًا من الإصدار 10.0.21، ستتم إزالة الدعم لنشر RetailDeployablePackage في LCS في أكتوبر 2022. |
+
+لمزيد من المعلومات، راجع:
+
++ [إنشاء حزمة منفصلة لوحدة مقياس سحابة Commerce (CSU)](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [إنشاء حزمة توسيع Modern POS](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [دمج نقطة بيع مع جهاز جديد](../dev-itpro/hardware-device-extension.md)
++ نماذج التعليمات البرمجية
+    + [وحدة قياس السحابة](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [نقطة البيع، وCSU، ومحطة الأجهزة](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln وCloudPOs.sln في Retail SDK
+
+تم إهمال تطوير امتداد POS باستخدام ModernPos.sln وCloudPOs.sln وPOS.Extension.csproj ومجلد POS في الإصدار 10.0.21. من الآن فصاعدًا، استخدم SDK للتعبئة المستقلة عن نقاط البيع لملحقات نقاط البيع.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | في الإصدارات السابقة من SDK البيع بالتجزئة، إذا كان هناك ملحقات POS، مطلوب دمج التعليمات البرمجية وإعادة التعبئة لتحديث إلى أحدث إصدار من نقطة البيع. كان دمج التعليمات البرمجية عملية ترقية تستغرق وقتا طويلا وكان عليك الاحتفاظ SDK التجزئة الكامل في المستودع. كان عليك أيضا تجميع نقاط البيع الأساسية. مشروع التطبيق. باستخدام طراز التعبئة والتغليف المستقلة، يجب الحفاظ على الملحق الخاص بك فقط. عملية التحديث إلى أحدث إصدار من ملحقات نقاط البيع سهلة مثل تحديث إصدار حزمة NuGet التي يستهلكها المشروع. يمكن نشر الملحقات بشكل مستقل، وتستخدم الخدمات مثبتات الملحقات. يمكن نشر نقطة البيع الأساسية وصيانتها بشكل منفصل، ولا يلزم دمج التعليمات البرمجية أو إعادة تعبئتها مع المثبت الأساسي أو التعليمات البرمجية. |
+| **هل تم الاستبدال بميزة أخرى؟**   | [نقطة البيع - SDK للتعبئة المستقلة](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **مناطق المنتجات المتأثرة**         | توسيع نقطة بيع Dynamics 365 Commerce ونشرها |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: اعتبارًا من الإصدار 10.0.21، ستتم إزالة دعم حزم نقاط البيع المدمجة ونموذج الامتداد باستخدام ModernPos.Sln وCloudPOs.sln وPOS.Extensons.csproj في Retail SDK في أكتوبر 2022. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.17 من Commerce
 

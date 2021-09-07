@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773527"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384649"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management الإصدار 10.0.19 (يونيو 2021)
 
@@ -41,8 +41,8 @@ ms.locfileid: "6773527"
 | المخزون واللوجستيات | [وظيفة البحث لمقدمة المستند وحقول خاتمة المستند في صفحة عرض أسعار المبيعات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | تضيف هذه الميزة وظيفة البحث للحقول **مقدمة المستند** و **نتائج المستند** على الصفحة  **عرض أسعار المبيعات**.<br><br>يتم تمكين هذه الميزة افتراضيًا. |
 | المخزون واللوجستيات | [‎تنفيذ المستودعات مع وحدات مقياس الحافة على أجهزتك المخصصة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | التصنيع | [‎تنفيذ التصنيع مع وحدات مقياس الحافة على أجهزتك المخصصة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| التخطيط | [جدولة سعة غير محدودة لتحسين التخطيط](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | تعمل هذه الميزة على تمكين جدولة القدرة بقدرة غير محدودة لتحسين التخطيط. بدون هذه الميزة، تحصل أوامر الإنتاج المخططة على وقت الإنتاج من وقت إنتاج مخزون بالمنتجات الصادرة، بغض النظر عن الحد الزمني للجدولة. |
-| التخطيط | تأكيد الأمر المخطط المستند إلى الاستعلام | [تأكيد أوامر مخططة](../master-planning/planning-optimization/planned-order-firming.md) |
+| التخطيط | [جدولة سعة غير محدودة لتحسين التخطيط](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [جدولة ذات سعة لا نهائية](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| التخطيط | تأكيد الأمر المخطط المستند إلى الاستعلام | [تأكيد الأوامر المخططة](../master-planning/planning-optimization/planned-order-firming.md) |
 | إدارة معلومات المنتج | [تحسينات صفحة اقتراحات المتغيرات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [إنشاء متغيرات المنتج المعرفة مسبقًا](../pim/tasks/create-predefined-product-variants.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>تحسينات الميزات المضمنة في هذا الإصدار

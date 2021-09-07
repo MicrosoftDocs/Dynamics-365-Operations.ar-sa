@@ -1,8 +1,8 @@
 ---
 title: أسئلة شائعة حول دمج البنية الأساسية لـ Dynamics 365 Human Resources
 description: يجيب هذا الموضوع على الأسئلة المتداولة حول دمج البنية التحتية لتطبيقي Microsoft Dynamics 365 Human Resources وFinance and Operations.
-author: rachel-profitt
-ms.date: 07/14/2021
+author: twheeloc
+ms.date: 08/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: raprofit
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 537917e9a987d701a0c96dfb7592e124e09bb748e4f2f52d39f8d97000c70ae3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ae2896eda98a8f9545d465e941d5b50065ae94b
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711991"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386529"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>أسئلة شائعة حول دمج البنية الأساسية لـ Dynamics 365 Human Resources
 
@@ -38,12 +38,12 @@ Dynamics 365 Human Resources هو تطبيق مستقل يستخدم بنية أ
 
 ### <a name="my-organization-uses-dynamics-365-human-resources-to-manage-its-hr-operations-what-benefits-will-we-see-from-these-changes"></a>تستخدم المؤسسة Dynamics 365 Human Resources لإدارة عمليات الموارد البشرية الخاصة بها. ما هي الفوائد التي سنراها من هذه التغييرات؟
 
-- هذه التغييرات تزيل مجموعات متعددة من قدرات الموارد البشرية (الموارد البشرية) في Dynamics 365.
+- تزيل هذه التغييرات الارتباك الناجم عن مجموعات متعددة من قدرات الموارد البشرية في Dynamics 365.
 - فهي توفر Microsoft Power Platform كلا من القابلية للتوسعة، وطريقة لتوسيع منطق العمل وخيارات الميزة.
 - فهي تحقق الاتساق بين Dynamics 365 Human Resources وتطبيقات Finance and Operations أخرى من حيث إدارة دورة حياة التطبيق (ALM) وMicrosoft Dynamics Lifecycle Services (LCS) والتوافر الجغرافي والقابلية للتوسعة وغيرها.
 - فهي تتيح لك الاستفادة من الخدمات والأدوات المشتركة، وتساعد على تقليل التكاليف.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>تستخدم المؤسسة Dynamics 365 Human Resources في Dynamics 365 Finance، Supply Chain Management أو Commerce، أو Project Operations. ما هي الفوائد التي سنراها من هذه التغييرات؟
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>تستخدم مؤسستي وحدة Human Resources في Dynamics 365 Finance، أو Supply Chain Management، أو Commerce، أو Project Operations. ما هي الفوائد التي سنراها من هذه التغييرات؟
 
 وستكون القدرات والاستثمارات التي تم إجراؤها Dynamics 365 Human Resources متاحة الآن للعملاء الذين يستخدمون وحدة الموارد البشرية في Dynamics 365 Finance. وتشمل بعض هذه القدرات إدارة الإجازات والغياب، وإدارة الاستحقاقات، وإدارة المهام.
 
@@ -67,21 +67,27 @@ Dynamics 365 Human Resources هو تطبيق مستقل يستخدم بنية أ
 
 بالإضافة إلى ذلك، سيتم وضع الأدوات بحيث يمكنك اختبار عملية الترحيل والتحقق من صحة البيانات والخبرة قبل ترحيل بيئة التشغيل الخاصة بك.
 
-إذا كانت مؤسستك تستخدم Dynamics 365 Human Resources وتطبيقات Finance and Operations  الأخرى، فعليك التخطيط لمزيد من الوقت للتحقق من الصحة لضمان ترحيل بياناتك بشكل صحيح إلى البيئة الجديدة. سوف يترتب على الترحيل إلى البنية الأساسية الجديدة دمج البيانات من بيئة الموارد البشرية مع بيئة Finance and Operations الخاصة بك. وسوف تكون الأدوات في مكان لأتمتة بقدر ما يمكن عملية دمج البيانات. ومع ذلك، تتطلب مثيلات البيانات المتعارضة إدخال المستخدم لتحديد كيفية حل التعارض. سيتعين على المستخدمين والمسؤولين إدارة تعيينات البيانات حيث توجد تعارضات واختبار الترحيل في بيئات وضع الحماية قبل ترحيل بيئة التشغيل الخاصة بك.
+إذا كانت مؤسستك تستخدم Dynamics 365 Human Resources وتطبيقات Finance and Operations  الأخرى، فعليك التخطيط لمزيد من الوقت للتحقق من الصحة لضمان ترحيل بياناتك بشكل صحيح إلى البيئة الجديدة. سوف يترتب على الترحيل إلى البنية الأساسية الجديدة دمج البيانات من بيئة الموارد البشرية مع بيئة Finance and Operations الخاصة بك. ستتطلب البيانات المتضاربة إدخال المستخدم لتحديد كيفية حل التعارض. سيتعين على المستخدمين والمسؤولين إدارة تعيينات البيانات حيث توجد تعارضات واختبار الترحيل في بيئات وضع الحماية قبل ترحيل بيئات الإنتاج.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>تستخدم المؤسسة Dynamics 365 Human Resources في Dynamics 365 Finance، Supply Chain Management أو Commerce، أو Project Operations. ما الذي يجب أن نخطط له للهجرة إلى التجربة الجديدة؟
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>تستخدم مؤسستي وحدة Human Resources في Dynamics 365 Finance، أو Supply Chain Management، أو Commerce، أو Project Operations. ما الذي يجب أن نخطط له للهجرة إلى التجربة الجديدة؟
 
-بالنسبة للمؤسسات التي تستخدم وحدة الموارد البشرية في تطبيقات Finance and Operations، سيتم تطبيق وظيفة الميزة الجديدة من Dynamics 365 Human Resources على البيئة الخاصة بك من خلال عملية تحديث الإصدار الواحد القياسية. يمكنك توقع رؤية الوظيفة الجديدة في البيئة الخاصة بك كما تصبح متوفرة في كل تحديث. يمكنك استخدام إدارة الميزات لتشغيل الميزات الجديدة. ومع ذلك، يجب أن تخطط للتحقق من صحة هذه الميزات. اتبع العمليات التي لديك في مكان للتحقق من صحة التحديثات الأخرى إلى البيئة الخاصة بك. لمزيد من المعلومات حول كيفية تطبيق التحديثات على تطبيقات Finance and Operations، راجع [نظرة عامة على إصدار واحد](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
+بالنسبة للمؤسسات التي تستخدم وحدة الموارد البشرية في تطبيقات Finance and Operations، سيتم تطبيق وظيفة الميزة الجديدة من Dynamics 365 Human Resources على البيئة الخاصة بك من خلال عملية تحديث الإصدار الواحد القياسية. يمكنك توقع رؤية الوظيفة الجديدة في البيئة الخاصة بك كما تصبح متوفرة في كل تحديث. يمكنك استخدام إدارة الميزات لتشغيل ميزات جديدة، ولكن يجب أن تخطط للتحقق من صحة هذه الميزات. اتبع العمليات التي لديك في مكان للتحقق من صحة التحديثات الأخرى إلى البيئة الخاصة بك. لمزيد من المعلومات حول كيفية تطبيق التحديثات على تطبيقات Finance and Operations، راجع [نظرة عامة على إصدار واحد](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="when-will-my-organization-be-migrated"></a>متى سيتم ترحيل المؤسسة الخاصة بي؟
 
 يعتمد الترحيل لكل مؤسسة على التكوين الحالي والاستعداد للانتقال إلى البنية الأساسية الجديدة. هذه التواريخ عرضة للتغيير.
 
-- ستتلقى المؤسسات التي تستخدم حاليا وحدة الموارد البشرية في تطبيقات Finance and Operations وظيفة الموارد البشرية لـ Dynamics 365 Human Resources كجزء من عملية تحديث الإصدار الواحد العادية. ومن المقرر أن تصبح الميزات الجديدة متاحة بشكل عام ابتداء من أكتوبر 2021.
-- وستتاح للمؤسسات التي تستخدم حاليا فقط Dynamics 365 Human Resources إمكانية الوصول إلى أدوات الترحيل حتى تتمكن من بدء اختبار الترحيل وبدءه في منتصف عام 2022. لم يتم بعد تحديد تاريخ إتمام الترحيل إلى البنية الأساسية الجديدة. ومع ذلك، سيكون على الأقل سنة واحدة بعد التاريخ عندما تصبح أدوات الترحيل متوفرة.
-- وستتاح للمؤسسات التي تستخدم حاليا فقط Dynamics 365 Human Resources و تطبيقات Finance and Operations الأخرى إمكانية الوصول إلى أدوات الترحيل حتى تتمكن من بدء اختبار الترحيل وبدءه في منتصف عام 2022. لم يتم بعد تحديد تاريخ إتمام الترحيل إلى البنية الأساسية الجديدة. ومع ذلك، سيكون على الأقل سنة واحدة بعد التاريخ عندما تصبح أدوات الترحيل متوفرة.
+- ستتلقى المؤسسات التي تستخدم وحدة الموارد البشرية في تطبيقات Finance and Operations وظيفة الموارد البشرية لـ Dynamics 365 Human Resources كجزء من عملية تحديث الإصدار الواحد العادية. ومن المقرر أن تصبح الميزات الجديدة متاحة بشكل عام ابتداء من يناير 2022.
+- وستتاح للمؤسسات التي تستخدم فقط Dynamics 365 Human Resources إمكانية الوصول إلى أدوات الترحيل حتى تتمكن من بدء اختبار الترحيل وبدءه في منتصف عام 2022. لم يتم بعد تحديد تاريخ إتمام الترحيل إلى البنية الأساسية الجديدة. ومع ذلك، سيكون على الأقل سنة واحدة بعد التاريخ عندما تصبح أدوات الترحيل متوفرة.
+- وستتاح للمؤسسات التي تستخدم فقط Dynamics 365 Human Resources وتطبيقات Finance and Operations الأخرى إمكانية الوصول إلى أدوات الترحيل حتى تتمكن من بدء اختبار الترحيل وبدءه في منتصف عام 2022. لم يتم بعد تحديد تاريخ إتمام الترحيل إلى البنية الأساسية الجديدة. ومع ذلك، سيكون على الأقل سنة واحدة بعد التاريخ عندما تصبح أدوات الترحيل متوفرة.
 
 لمزيد من المعلومات حول الميزات الجديدة لـ Dynamics 365 Human Resources، راجع [ما الجديد أو الذي تم تغييره في الموارد البشرية](./hr-admin-whats-new.md).
+
+### <a name="my-organization-has-not-yet-gone-live-on-dynamics-365-human-resources-should-we-go-live-with-the-human-resources-module-in-the-finance-and-operations-apps-or-with-the-dynamics-365-human-resources-app-on-the-legacy-infrastructure"></a>لم يتم تشغيل مؤسستي بعد على Dynamics 365 Human Resources. هل يجب أن نبدأ بالعيش مع وحدة Human Resources في تطبيقات Finance and Operations أو مع تطبيق Dynamics 365 Human Resources على البنية التحتية القديمة؟
+
+العناصر الهامة التي يجب مراعاتها هي وظيفة الموارد البشرية المطلوبة ومتى ستكون هذه الوظيفة متاحة على البنية التحتية الجديدة. إذا احتاجت المؤسسة إلى الوظيفة الأساسية لإدارة شؤون الموظفين، فذلك متاح حاليًا في وحدة الموارد البشرية لتطبيقات Finance and Operations في البنية التحتية الجديدة. ومن المتوقع أن يكون التكافؤ بين وحدة الموارد البشرية لتطبيقات Finance and Operations وتطبيق Dynamics 365 Human Resources في الإصدار 10.0.25، والذي من المقرر أن يكون متاحا بشكل عام في مارس 2022. ستتوفر ميزات التكامل مثل تكاملات تطبيق Teams وكيان Dataverse في الإصدارات اللاحقة.
+
+إذا كانت احتياجات وظائف الموارد البشرية للمؤسسة ستكون متاحة على البنية التحتية الجديدة خلال الإطار الزمني الذي ستبدأ فيه المؤسسة، فقد يكون من الأسهل بدء تشغيل وحدة الموارد البشرية في تطبيقات Finance and Operations. سينتج عن ذلك ترحيل أسهل لأنه سيكون ترقية قياسية لتطبيق Dynamics 365 Human Resources وسيكون العميل موجودًا بالفعل في البنية الأساسية الجديدة. إذا قررت المؤسسة بدء العمل على تطبيق Dynamics 365 Human Resources على البنية التحتية القديمة، فستكون هناك حاجة إلى ترحيل البيئة للانتقال إلى البنية الأساسية الجديدة. ويمكن تجنب ذلك من خلال العيش على البنية التحتية الجديدة.
 
 ### <a name="i-am-using-new-capabilities-that-are-available-only-in-dynamics-365-human-resources-such-as-leave-and-absence-and-benefits-management-will-these-capabilities-now-be-available-in-the-human-resources-module-on-the-finance-and-operations-infrastructure-too"></a>أنا أستخدم قدرات جديدة متوفرة فقط في Dynamics 365 Human Resources (مثل **إجازة والغياب** و **إدارة الفوائد**). هل ستتوفر هذه القدرات الآن في وحدة الموارد البشرية المتعلقة بالبنية الأساسية لـ Finance and Operations أيضا؟
 
@@ -97,7 +103,7 @@ Dynamics 365 Human Resources هو تطبيق مستقل يستخدم بنية أ
 
 ### <a name="my-organization-uses-linkedin-talent-hub-integration-with-dynamics-365-human-resources-will-this-integration-continue-to-work-after-the-infrastructure-change-is-completed"></a>تستخدم منظمتي تكامل LinkedIn Talent Hub مع Dynamics 365 Human Resources. هل سيستمر هذا التكامل في العمل بعد اكتمال تغيير البنية الأساسية؟
 
-نعم، سيستمر تكامل مركز المواهب في LinkedIn في العمل بعد الترحيل إلى البنية الأساسية الجديدة.
+لا، لن يعمل تكامل LinkedIn Talent Hub بعد الانتقال إلى البنية التحتية الجديدة. سيتم إيقاف خدمة تكامل LinkedIn Talent Hub مع البنية الأساسية القديمة لـ Dynamics 365 Human Resources.
 
 ### <a name="my-organization-uses-the-human-resources-app-for-teams-will-the-app-continue-to-work-after-the-infrastructure-change-is-completed"></a>تستخدم منظمتي تطبيق الموارد البشرية لـ Teams. هل سيستمر هذا التطبيق في العمل بعد اكتمال تغيير البنية الأساسية؟
 
@@ -109,13 +115,13 @@ Dynamics 365 Human Resources هو تطبيق مستقل يستخدم بنية أ
 
 ### <a name="we-are-using-data-integrator-to-move-data-between-dynamics-365-human-resources-and-finance-and-operations-apps-how-will-the-data-that-is-currently-being-integrated-be-affected"></a>نحن نستخدم "تكامل البيانات" لنقل البيانات بين تطبيقي Dynamics 365 Human Resources وFinance and Operations. كيف ستتأثر البيانات التي يتم دمجها حاليا؟
 
-تتم مزامنة بيانات الموارد البشرية التي يتم إتقانها حاليا في Dynamics 365 Human Resources مع Dataverse. يمكن بعد ذلك استخدام "تكامل البيانات" للتزامن أحادي الاتجاه مع تطبيقات Finance and Operations. بعد الترحيل إلى البنية الأساسية الجديدة، ستكون بيانات الموارد البشرية أصلية في تطبيقات Finance and Operations. لن تكون هناك حاجة إلى تكامل البيانات لمزامنة البيانات بين تطبيقات Finance and Operations والموارد البشرية.
+تتم مزامنة بيانات الموارد البشرية الموجودة حاليا في Dynamics 365 Human Resources مع Dataverse. يمكن بعد ذلك استخدام "تكامل البيانات" للتزامن أحادي الاتجاه مع تطبيقات Finance and Operations. بعد الترحيل إلى البنية الأساسية الجديدة، ستكون بيانات الموارد البشرية أصلية في تطبيقات Finance and Operations. لن تكون هناك حاجة إلى تكامل البيانات لمزامنة البيانات بين تطبيقات Finance and Operations والموارد البشرية.
 
 ستستمر جداول البيانات الأصلية Dataverse الحالية للموارد البشرية في مزامنة البيانات من البيئة على البنية الأساسية الجديدة. سيتم تحويل الكيانات لدعم الكتابة المزدوجة. أي تكاملات بيانات أخرى تم تكوينها عبر "تكامل البيانات" مقابل هذه الجداول لتطبيقات Dynamics 365 الأخرى ستستمر في العمل كما تم تكوينها حاليا.
 
 ### <a name="we-are-using-dual-write-to-move-hr-data-between-dataverse-and-other-finance-and-operations-apps-how-will-the-data-that-is-currently-being-integrated-be-affected-by-the-migration-to-the-new-infrastructure"></a>نحن نستخدم الكتابة المزدوجة لنقل بيانات الموارد البشرية بين تطبيقات Dataverse وتطبيقات Finance and Operations الأخرى. كيف ستتأثر البيانات التي يجري دمجها حاليا بالهجرة إلى البنية الأساسية الجديدة؟
 
-ستكون بيانات الموارد البشرية أصلية في تطبيقات Finance and Operations على البنية الأساسية الجديدة. ثم سيتم استخدام الكتابة المزدوجة لنقل بيانات الموارد البشرية بين البيئة الجديدة وبيئة Dataverse.
+ستكون بيانات الموارد البشرية أصلية في تطبيقات Finance and Operations على البنية الأساسية الجديدة. سيتم استخدام الكتابة المزدوجة لنقل بيانات الموارد البشرية بين البيئة الجديدة وبيئة Dataverse.
 
 ### <a name="we-have-built-custom-integrations-from-dynamics-365-human-resources-to-one-or-more-external-systems-will-we-have-to-develop-new-integrations-after-the-infrastructure-change-is-completed"></a>لقد بنينا تكاملات مخصصة من Dynamics 365 Human Resources إلى نظام خارجي واحد أو أكثر. هل سنستمر في تطوير التكامل الجديد بعد اكتمال تغيير البنية الأساسية؟
 
@@ -123,15 +129,15 @@ Dynamics 365 Human Resources هو تطبيق مستقل يستخدم بنية أ
 
 ### <a name="we-have-extended-dataverse-for-dynamics-365-human-resources-will-these-extensions-be-migrated-automatically"></a>لقد مددنا Dataverse لـ Dynamics 365 Human Resources. هل سيتم ترحيل هذه التمديدات تلقائيا؟
 
-إذا كانت بيئات Dynamics 365 Human Resources وFinance and Operations التي سيتم ربطها في البيئة على البنية الأساسية الجديدة متصلة بنفس بيئة Dataverse، سيستمر اتصال التطبيقين بنفس بيئة Dataverse بعد الترحيل. لذلك، لا يلزم ترحيل أي ملحقات Dataverse.
+إذا كانت بيئات Dynamics 365 Human Resources وFinance and Operations التي سيتم ربطها في البيئة على البنية الأساسية الجديدة متصلة بنفس بيئة Dataverse، سيستمر اتصال التطبيقين بنفس بيئة Dataverse بعد الترحيل. لن يلزم ترحيل أي ملحقات Dataverse.
 
-لكن، إذا كانت بيئات Dynamics 365 Human Resources وFinance and Operations مرتبطة حاليًا ببيئات Dataverse منفصلة، سيستمر ربط بيئتي Dataverse بحيث يستمر الارتباط ببيئة واحدة على البنية الأساسية. لترحيل Dataverseهذا، يمكن توصيل جداول Dataverse القياسية إلى حلول الموارد البشرية وإعادة مزامنتها مع بيئة Dataverse الجديدة. ومع ذلك، لن يتم ترحيل أي ملحقات لبيئة Dataverse تلقائيا ولكن يجب إعادة نشرها في البيئة الجديدة. نوصي باستخدام الحلول المدارة لإدارة إضافات Dataverse. لمزيد من المعلومات، راجع [مقدمة للحلول](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions).
+لكن، إذا كانت بيئات Dynamics 365 Human Resources وFinance and Operations مرتبطة حاليًا ببيئات Dataverse منفصلة، سيستمر ربط بيئتي Dataverse بحيث يستمر الارتباط ببيئة واحدة على البنية الأساسية. لترحيل Dataverseهذا، يمكن توصيل جداول Dataverse القياسية إلى حلول الموارد البشرية وإعادة مزامنتها مع بيئة Dataverse الجديدة. لن يتم ترحيل أي ملحقات لبيئة Dataverse تلقائيا ولكن يجب إعادة نشرها في البيئة الجديدة. نوصي باستخدام الحلول المدارة لإدارة إضافات Dataverse. لمزيد من المعلومات، راجع [مقدمة للحلول](/powerapps/developer/data-platform/introduction-solutions).
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>لقد قمنا بتكوين تدفقات Microsoft Power Automate و/أو Microsoft Power Apps للعمل مع Dynamics 365 Human Resources. هل سيتم ترحيل مكونات Microsoft Power Platform هذه والعمل تلقائيا بعد اكتمال تغيير البنية الأساسية؟
 
 تدفقات Power Apps، Power Automate، وتخصيصات Microsoft Power Platform الأخرى مشابهة لإضافات Dataverse. يعتمد ما إذا كانت تعمل تلقائيا بعد الترحيل إلى البنية الأساسية الجديدة على ما إذا كان تطبيق الموارد البشرية وتطبيقات Finance and Operations متصلين بنفس بيئة Power Apps قبل الترحيل.
 
-إذا كانت التطبيقات متصلة حاليا بنفس بيئة Power Apps، فسيستمر اتصالها ببيئة Power Apps تلك بعد الترحيل إلى البنية الأساسية الجديدة. في هذه الحالة، سوف تستمر عمليات التدفق Power Apps, Power Automate وتخصيصات Microsoft Power Platform الأخرى في العمل بدون أي تكوين إضافي. نوصي باستخدام الحلول المدارة لإدارة إضافات التطبيقات على Dataverse. لمزيد من المعلومات، راجع [مقدمة للحلول](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions).
+إذا كانت التطبيقات متصلة حاليا بنفس بيئة Power Apps، فسيستمر اتصالها ببيئة Power Apps تلك بعد الترحيل إلى البنية الأساسية الجديدة. في هذه الحالة، سوف تستمر عمليات التدفق Power Apps, Power Automate وتخصيصات Microsoft Power Platform الأخرى في العمل بدون أي تكوين إضافي. نوصي باستخدام الحلول المدارة لإدارة إضافات التطبيقات على Dataverse. لمزيد من المعلومات، راجع [مقدمة للحلول](/powerapps/developer/data-platform/introduction-solutions).
 
 ومع ذلك، إذا كان تطبيق الموارد البشرية وتطبيقات Finance and Operations متصلين ببيئات Power Apps منفصلة، يجب دمجهما كجزء من الترحيل. تتطلب هذه المهمة إعادة توزيع Power Apps والتخصيصات الأخرى في البيئة الجديدة.
 
@@ -149,7 +155,7 @@ Dynamics 365 Human Resources هو تطبيق مستقل يستخدم بنية أ
 
 ### <a name="is-there-an-impact-on-the-azure-region-when-my-environment-is-migrated"></a>هل هناك تأثير على منطقة Azure عند ترحيل البيئة الخاصة بي؟
 
-من المتوقع أن تبقى بيئة الموارد البشرية الخاصة بك عادة في نفس المنطقة Azure أثناء الترحيل. يحدث الاستثناء الوحيد إذا سيتم دمج بيئة الموارد البشرية مع بيئة Finance and Operations في منطقة مختلفة. في هذه الحالة، سيتم ترحيل بيئة الموارد البشرية إلى منطقة Azure في بيئة Finance and Operations.
+من المتوقع أن تبقى بيئة الموارد البشرية الخاصة بك عادة في نفس المنطقة Azure أثناء الترحيل. يحدث الاستثناء الوحيد إذا كان سيتم دمج بيئة الموارد البشرية مع بيئة Finance and Operations في منطقة مختلفة. في هذه الحالة، سيتم ترحيل بيئة الموارد البشرية إلى منطقة Azure في بيئة Finance and Operations.
 
 ### <a name="my-organization-depends-on-workflows-in-dynamics-365-human-resources-for-one-or-more-business-processes-will-the-workflows-be-migrated-automatically"></a>تعتمد مؤسستي على مهام سير العمل في Dynamics 365 Human Resources لعملية عمل واحدة أو أكثر. هل سيتم ترحيل عمليات سير العمل هذه تلقائيا؟
 
@@ -173,7 +179,7 @@ Dynamics 365 Human Resources هو تطبيق مستقل يستخدم بنية أ
 
 ### <a name="how-will-the-migration-affect-my-lcs-project-for-dynamics-365-human-resources"></a>كيف ستؤثر الهجرة على مشروع LCS الخاص بي لـ Dynamics 365 Human Resources؟
 
-الترحيل إلى البنية الأساسية الجديدة سينقل إدارة بيئات Dynamics 365 Human Resources إلى مشروع تنفيذ LCS. إذا تم دمج ترحيل Dynamics 365 Human Resources مع بيئة Finance and Operations موجودة، سيتم دمج مشروع LCS للموارد البشرية في مشروع تطبيق LCS لتطبيق Finance and Operations. إذا كنت تستخدم Dynamics 365 Human Resources حاليا فقط، سيتم إنشاء مشروع تنفيذ LCS جديد، وسيتم ترحيل مشروع LCS للموارد البشرية الحالي إلى المشروع الجديد.
+الترحيل إلى البنية الأساسية الجديدة سينقل إدارة بيئات Dynamics 365 Human Resources إلى مشروع تنفيذ Finance and Operations في LCS. إذا تم دمج ترحيل Dynamics 365 Human Resources مع بيئة Finance and Operations موجودة، سيتم دمج مشروع LCS للموارد البشرية في مشروع تطبيق LCS لتطبيق Finance and Operations. إذا كنت تستخدم Dynamics 365 Human Resources حاليا فقط، سيتم إنشاء مشروع تنفيذ LCS جديد، وسيتم ترحيل مشروع LCS للموارد البشرية الحالي إلى المشروع الجديد.
 
 سيكون المشروع الجديد هو نفس نوع المشروع الذي تستخدمه تطبيقات Finance and Operations. وسوف يكون لها نفس الميزات والوظائف لإدارة البيئة. للحصول على مزيد من المعلومات، راجع [موارد Lifecycle Services](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
@@ -217,7 +223,7 @@ Dynamics 365 Human Resources هو تطبيق مستقل يستخدم بنية أ
 
 لن يتأثر العملاء الذين اشتروا تراخيص Dynamics 365 Human Resources. لا يوجد ترحيل ترخيص لهؤلاء العملاء. ولن تكون وحدة حفظ المخزون (SKU) الإضافية الخاصة بالموارد البشرية قابلة للتطبيق بعد الآن. بدلا من ذلك ، يمكن للعملاء اختيار شراء بيئة اختبار من المستوى 2 للتطبيقات Finance and Operations بتكلفة أقل قليلا. سيتم ترحيل العملاء الحاليين الذين اشتروا بيئة اختبار من المستوى 2 للموارد البشرية إلى بيئة اختبار من المستوى 2 لتطبيقات Finance and Operations دون أي تكلفة إضافية.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>تستخدم المؤسسة Dynamics 365 Human Resources في Dynamics 365 Finance، Supply Chain Management أو Commerce، أو Project Operations. هل يتغير ترخيصي أو التكلفة؟
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>تستخدم مؤسستي وحدة Human Resources في Dynamics 365 Finance، أو Supply Chain Management، أو Commerce، أو Project Operations. هل يتغير ترخيصي أو التكلفة؟
 
 يمكن للمستخدمين الحاليين لتطبيقات Dynamics 365 ومستخدمي Dynamics 365 Finance وSupply Chain Management وCommerce وProject Operations الوصول إلى الموارد البشرية كجزء من هذه التراخيص حتى فبراير 2025 أو حتى انتهاء صلاحية اتفاقية الترخيص الحالية ، أيهما أبكر. يمكنك اختيار الانتقال إلى تراخيص الموارد البشرية في وقت سابق إذا كان يساعدك على تحقيق وفورات أفضل في التكاليف. بدءا من فبراير 2025 ، يجب على جميع عملاء CSP و EA الحاليين إيقاف تشغيل وحدة الموارد البشرية وشراء تراخيص الموارد البشرية للاستفادة من القدرات الجديدة التي يتم إحضارها إلى تطبيقات Finance and Operations.
 

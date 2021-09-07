@@ -1,6 +1,6 @@
 ---
 title: إنشاء حساب رئيسي
-description: يوضح دليل المهام هذا خطوات إضافة حساب رئيسي إلى دليل حسابات موجود.
+description: تستعرض هذه الإجراءات كيفية إضافة حساب رئيسي إلى مخطط حسابات موجود.
 author: aprilolson
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729620"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394624"
 ---
 # <a name="create-a-main-account"></a>إنشاء حساب رئيسي
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح دليل المهام هذا خطوات إضافة حساب رئيسي إلى دليل حسابات موجود. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.  
+تستعرض هذه الإجراءات كيفية إضافة حساب رئيسي إلى مخطط حسابات موجود. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF.  
 
 1. انتقل إلى **جزء التنقل > الوحدات النمطية > دفتر الأستاذ العام > دليل الحسابات > الحسابات > الحسابات الرئيسية**.
 2. انقر فوق **جديد**.

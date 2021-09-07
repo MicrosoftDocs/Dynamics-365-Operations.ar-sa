@@ -1,8 +1,8 @@
 ---
 title: إدارة تواريخ انتهاء صلاحية الميزة
-description: يوضح هذا الإجراء كيف يمكنك إنهاء أو تمديد صلاحية إحدى الميزات، وإدارة تواريخ التسجيل للعاملين المسجلين للحصول على ميزة.
-author: andreabichsel
-ms.date: 02/03/2020
+description: يوضح هذا الإجراء كيف يمكن انتهاء صلاحية المزايا أو تمديدها، وإدارة تواريخ التحاق العمال.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationRe
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: ccd3126ba45cf90b6fa55f0a3853531fd0e43ed48a9e715bb1692726482fb432
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa3f5b1c1ada243b351fc8c809eee6cea37e5955
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727094"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416395"
 ---
 # <a name="manage-benefit-expiration-dates"></a>إدارة تواريخ انتهاء صلاحية الميزة
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوضح هذا الإجراء كيف يمكنك إنهاء أو تمديد صلاحية إحدى الميزات، وإدارة تواريخ التسجيل للعاملين المسجلين للحصول على ميزة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+يوضح هذا الإجراء كيف يمكن انتهاء صلاحية المزايا أو تمديدها، وإدارة تواريخ التحاق العمال. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 
 ## <a name="benefit-expiration-dates"></a>تواريخ انتهاء صلاحية الميزة
 

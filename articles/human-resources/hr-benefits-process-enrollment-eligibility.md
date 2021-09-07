@@ -1,8 +1,8 @@
 ---
-title: معالجة أهلية التسجيل‬
-description: يوضح هذا المقال كيفية تشغيل معالجة أهلية التسجيل.
-author: andreabichsel
-ms.date: 04/06/2020
+title: معالجة أهلية التسجيل
+description: يوضح هذا الموضوع كيفية تشغيل معالجة أهلية التسجيل.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782062"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417377"
 ---
-# <a name="process-enrollment-eligibility"></a>معالجة أهلية التسجيل‬
+# <a name="process-enrollment-eligibility"></a>معالجة أهلية التسجيل
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوضح هذا المقال كيفية تشغيل معالجة أهلية التسجيل.
+يوضح هذا الموضوع كيفية تشغيل معالجة أهلية التسجيل.
 
 1. في مساحة العمل **إدارة المزايا**، ضمن **معالجة**، حدد **معالجة أهلية التسجيل**.
 
@@ -53,13 +53,13 @@ ms.locfileid: "6782062"
 
 ## <a name="view-process-results"></a>عرض نتائج العملية
 
-يوضح هذا المقال كيفية عرض نتائج عملية التأهل.
+يوضح هذا الموضوع كيفية عرض نتائج عملية التأهل.
 
 1.  في مساحة العمل **إدارة المزايا**، ضمن **معالجة**، حدد **نتائج العملية**.
 
-2.  في النموذج **نتائج العملية**، يتم تحديد الحقول التالية:
+2.  في صفحة **نتائج العملية**، يتم تحديد الحقول التالية:
 
-   | الحقل | ‏‏الوصف |
+   | الحقل | الوصف |
    | --- | --- |
    | **معرف العملية** | المعرف الفريد لمجموعة العامل والكيان القانوني وتشغيل العملية. |
    | **نوع العملية** | وهذا يحدد العملية التي تم تشغيلها. على سبيل المثال، التسجيل. |

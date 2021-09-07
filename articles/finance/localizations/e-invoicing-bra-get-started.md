@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd37c98b64e6074d54b40e20f87f24912abcdd75575aa92e1e2b7345d3cce5a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccf2a78a5ffdb95b334f751944fdd010bf8cbf01
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730467"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345187"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>الشروع في العمل باستخدام الفوترة الإلكترونية للبرازيل 
 
@@ -55,7 +55,7 @@ ms.locfileid: "6730467"
 
 يكمل هذا القسم قسم **التكوين الخاص بالبلد لإعداد التطبيق** في الموضوع، [الشروع في العمل باستخدام الفوترة الإلكترونية](e-invoicing-get-started.md).
 
-1. في RCS، في قسم **الميزات** في مساحة عمل **ميزات العولمة**، حدد الإطار المتجانب **الفوترة الإلكترونية*.
+1. في RCS، في قسم **الميزات** في مساحة عمل **ميزات العولمة**، حدد الإطار المتجانب **الفوترة الإلكترونية**.
 2. في صفحة **ميزات الفوترة الإلكترونية**، تحقق من تحديد ميزة الفوترة الإلكترونية **NF-e (BR) في البرازيل**.
 3. في علامة تبويب **الإصدارات**، تحقق من تحديد إصدار **المسودة**.
 4. في علامة تبويب **الإعدادات**، حدد **إعداد التطبيق** وفي حقل **التطبيق المتصل**، حدد التطبيق الذي ترغب في النشر إليه.

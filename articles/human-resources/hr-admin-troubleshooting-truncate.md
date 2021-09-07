@@ -1,8 +1,8 @@
 ---
 title: تجنب اقتطاع نص في التدرج الهرمي للمناصب والتصدير إلى Visio
-description: يوضح هذا المقال كيفية حل مشكلة تم فيها اقتطاع أسماء الأفراد ومناصبهم عندما قام العملاء بعرض التدرج الهرمي للمنصب في Microsoft Dynamics 365 Human Resources. يُصعب اقتطاع النص أخذ لقطة شاشة أو طباعة التدرج الهرمي.
-author: andreabichsel
-ms.date: 02/03/2020
+description: يشرح هذا الموضوع كيفية إصلاح مشكلة الأسماء المبتورة للأفراد والمناصب في التسلسل الهرمي للمناصب في Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,17 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a9a8d22df0416ef417a6216c3131bfb6d40d200
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779316"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413525"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>تجنب اقتطاع نص في التدرج الهرمي للمنصب والتصدير إلى Visio
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>تجنب اقتطاع نص في التدرج الهرمي للمناصب والتصدير إلى Visio
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -43,7 +43,7 @@ ms.locfileid: "6779316"
 
 1. في Human Resources، افتح صفحة قائمة **المناصب** .
 
-    لتضمين المزيد من المعلومات في مخطط بنية المؤسسة، أضف الحقول إلى قائمة **المناصب**، بحيث تكون متاحة عندما تقوم باستخدام المعالج لاحقًا في هذا الإجراء.
+    لتضمين المزيد من المعلومات في مخطط بنية المؤسسة، أضف الحقول إلى قائمة **المناصب**، بحيث تكون متاحة عند استخدام **معالج مخطط المؤسسة** لاحقًا في هذا الإجراء.
 
 2. في جزء الإجراءات، حدد الزر **فتح في Microsoft Office**، ثم ضمن **تصدير إلى Excel**، حدد **المناصب‏‎**. بدلاً من ذلك، اضغط على Ctrl + T.
 

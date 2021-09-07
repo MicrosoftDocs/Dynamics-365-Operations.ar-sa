@@ -1,8 +1,8 @@
 ---
 title: تسجيل ميزات للعاملين وإزالتها منهم
-description: يوضح هذا الإجراء كيف يمكن تسجيل عامل واحد في ميزة واحدة أو أكثر، بالإضافة إلى كيفية تسجيل عاملين متعددين في إحدى الميزات.
-author: andreabichsel
-ms.date: 02/03/2020
+description: يوضح هذا الإجراء كيفية تسجيل عامل واحد في ميزة واحدة أو أكثر، بالإضافة إلى تسجيل عدة عمال في ميزة.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 0e508a0a4d89f91ef76cbf2724c7b77510a8ef028dde0c4e1c2a4200b96e39fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb9baef543e2d8e069c3e7ea667e3fdf0811fe10
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727127"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416445"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>تسجيل ميزات للعاملين وإزالتها منهم
 
@@ -26,7 +26,7 @@ ms.locfileid: "6727127"
 
 
 
-يوضح هذا الإجراء كيف يمكن تسجيل عامل واحد في ميزة واحدة أو أكثر، بالإضافة إلى كيفية تسجيل عاملين متعددين في إحدى الميزات. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+يوضح هذا الإجراء كيفية تسجيل عامل واحد في ميزة واحدة أو أكثر، بالإضافة إلى تسجيل عدة عمال في ميزة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 
 
 ## <a name="enroll-a-single-worker-in-benefits"></a>تسجيل عامل واحد للحصول على الميزات

@@ -1,8 +1,8 @@
 ---
 title: نظرة عامة على الإدارة
-description: يساعدك دليل المسؤول علي إعداد وإدارة واستكشاف الأخطاء وإصلاحها في Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
+description: يوفر هذا الموضوع قائمة بموضوعات التعليمات والموارد الأخرى لإعدادها وإدارتها واستكشاف الأخطاء وإصلاحها في Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765604"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393561"
 ---
 # <a name="administration-overview"></a>نظرة عامة على الإدارة
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765604"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يساعدك دليل المسؤول علي إعداد وإدارة واستكشاف الأخطاء وإصلاحها في Dynamics 365 Human Resources.
+يوفر هذا الموضوع قائمة بموضوعات التعليمات والموارد الأخرى لإعدادها وإدارتها واستكشاف الأخطاء وإصلاحها في Dynamics 365 Human Resources.
 
 - [متطلبات النظام](hr-admin-system-requirements.md)
 
@@ -92,13 +92,22 @@ ms.locfileid: "6765604"
   - [تشغيل عملية التعويض](hr-admin-troubleshooting-compensation.md)
   - [حفظ دليل المهام في LCS](hr-admin-troubleshooting-task-guide.md)
   - [الوصول إلى العناوين الخاصة حسب دور الأمان](hr-admin-troubleshooting-private-addresses.md)
-  - [لا يظهر Human Resources في تطبيقات Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources لا يظهر في تطبيقات Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [خيارات إعداد التقارير](hr-admin-troubleshooting-reporting.md)
   - [الأسئلة المتداولة حول التكامل](hr-admin-troubleshooting-integration.md)
 
+## <a name="additional-resources"></a>الموارد الإضافية
+
+### <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
+للحصول على الدورات التدريبية والتدريب عبر الإنترنت، راجع [Dynamics 365 Human Resources على Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>ملفات الفيديو
+
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
 ## <a name="see-also"></a>راجع أيضًا
 
-- [ما هو الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)
+- [الميزات ‏‫الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)
 - [دليل المطور](hr-developer-overview.md)
 - [دليل المستخدم](hr-hrpro-overview.md)
 

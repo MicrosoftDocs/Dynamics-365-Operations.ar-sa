@@ -1,8 +1,8 @@
 ---
 title: تصميم تنسيق ER لإنشاء تقرير بتنسيق Excel باستخدام الصور المضمنة في رؤوس الصفحات أو تذييلاتها
-description: يوضح هذا الموضوع كيفية استخدام إعداد التقارير الكترونية (ER) لإنشاء مستندات أعمال تحتوي على صور وأشكال مضمنة في رؤوس أو تذييل الصفحات.
+description: يوضح هذا الموضوع كيفية استخدام إعداد التقارير الإلكترونية (ER) لإنشاء مستندات أعمال تحتوي على صور وأشكال مضمنة في رؤوس أو تذييل الصفحات.
 author: NickSelin
-ms.date: 06/28/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1115be8c33eeaf16c1a533e63b31d87b0fc5f68d6469ff075428f72ac146b2f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746625"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344110"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>تصميم تنسيق ER لإنشاء تقرير بتنسيق Excel باستخدام الصور المضمنة في رؤوس الصفحات أو تذييلاتها
 

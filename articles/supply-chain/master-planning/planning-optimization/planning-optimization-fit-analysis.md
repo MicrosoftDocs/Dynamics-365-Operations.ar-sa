@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751088"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344968"
 ---
 # <a name="planning-optimization-fit-analysis"></a>تحليل ملاءمة تحسين التخطيط
 
@@ -51,6 +51,9 @@ ms.locfileid: "6751088"
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>نظرة عامة على النتائج المحتملة من تحليل الملائمة
 
 يعرض الجدول التالي النتائج المختلفة التي يمكن إظهارها بعد تحليل الملائمة. يتم استبدال علامة (_\#_) برقم يشير إلى عدد السجلات التي تتضمن المشكلة المدرجة. تتوفر الميزات المعتمدة أو الموجودة في المعاينة مع الإصدار 10.0.9 أو الأحدث (ما لم يتم سرد رقم الإصدار الأعلى في العمود "الاتاحه المتوقعة").
+
+> [!NOTE]
+> لا يمكن تحديد بعض التناقضات من خلال تحليل ملاءمة تحسين التخطيط. لمزيد من المعلومات، راجع [الاختلافات بين التخطيط الرئيسي الكلاسيكي وتحسين التخطيط](planning-optimization-differences-with-built-in.md).
 
 | الميزة | المشكلة المدرجة | الشرح | التوفر المتوقع |
 | --- | --- | --- | --- |
@@ -106,7 +109,11 @@ ms.locfileid: "6751088"
 
 [بدء تحسين التخطيط](get-started.md)
 
-[عرض سجل محفوظات الخطط والتخطيط](plan-history-logs.md)
+[الاختلافات بين التخطيط الرئيسي الكلاسيكي وتحسين التخطيط](planning-optimization-differences-with-built-in.md)
+
+[المعلمات غير المستخدمة في تحسين التخطيط](not-used-parameters.md)
+
+[عرض سجلات التخطيط ومحفوظات الخطط](plan-history-logs.md)
 
 [تطبيق عوامل تصفية على خطة](plan-filters.md)
 

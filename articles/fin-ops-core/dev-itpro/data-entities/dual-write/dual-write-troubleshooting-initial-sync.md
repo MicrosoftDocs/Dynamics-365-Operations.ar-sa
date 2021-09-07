@@ -4,24 +4,17 @@ description: يوفر هذا الموضوع استكشاف الأخطاء وإص
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736364"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416971"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
 
@@ -46,7 +39,7 @@ ms.locfileid: "6736364"
 
 قد تتلقى رسالة الخطأ التالية عند محاولة تشغيل التعيين والمزامنة الأولية:
 
-*(\[طلب غير صحيح\]، يقوم الخادم عن بُعد بإرجاع خطأ: (400) طلب غير صحيح.)، AX صادف التصدير خطأ*
+*(\[طلب غير صحيح\]، يقوم الخادم عن بُعد بإرجاع خطأ: (400) طلب غير صحيح.)، AX صادف التصدير خطأ.*
 
 فيما يلي مثال لرسالة الخطأ الكاملة.
 
@@ -198,7 +191,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
         ![مشروع تكامل البيانات لتحديث CustomerAccount وCustomerAccount.](media/cust_selfref6.png)
 
-    2. أضف معايير الشركة في عامل التصفية على جانب Dataverse، لذلك فإن الصفوف التي تطابق معايير التصفية هي وحدها التي سيتم تحديثها في التطبيق Finance and Operations. لإضافة عامل تصفية، حدد زر عامل التصفية. ثم في مربع الحوار **تحرير الاستعلام**، فإنه يمكنك إضافة استعلام عامل تصفية مثل **\_msdyn\_company\_value eq '\<guid\>'**. 
+    2. أضف معايير الشركة في عامل التصفية على جانب Dataverse، لذلك فإن الصفوف التي تطابق معايير التصفية هي وحدها التي سيتم تحديثها في التطبيق Finance and Operations. لإضافة عامل تصفية، حدد زر عامل التصفية. ثم في مربع الحوار **تحرير الاستعلام**، فإنه يمكنك إضافة استعلام عامل تصفية مثل **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [ملحوظة] إذا لم يكن زر عامل التصفية موجودًا، فأنشئ تذكرة دعم كي تطلب من فريق تكامل البيانات تمكين إمكانية التصفية على المستأجر.
 
@@ -210,5 +203,36 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 8. في التطبيق  Finance and Operations، قم بتشغيل تعقب التغييرات مرة أخرى الجدول **العملاء V3**.
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>فشل المزامنة الأولية على الخرائط مع أكثر من 10 حقول بحث
+
+قد تتلقى رسالة الخطأ التالية عند محاولة تشغيل فشل مزامنة أولية على **العملاء V3 - حسابات** أو تعيينات **أوامر المبيعات** أو أي خريطة مع أكثر من 10 حقول بحث:
+
+*CRMExport: اكتمال تنفيذ الحزمة. خطأ وصف 5 محاولات للحصول على البيانات من https://xxxxx//datasets/yyyyy/tables/accounts/items?$select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq 'id')&$orderby=accountnumber asc failed.*
+
+وبسبب قيود البحث على الاستعلام، فشل المزامنة الأولية عندما يحتوي تعيين الكيان على أكثر من 10 عمليات بحث. لمزيد من المعلومات، راجع [استرداد سجلات الجداول ذات الصلة باستخدام استعلام](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query).
+
+لإصلاح هذه المشكلة، اتبع هذه الخطوات:
+
+1. إزالة حقول البحث الاختيارية من مخطط الكيان ثنائي الكتابة بحيث يكون عدد عمليات البحث 10 أو أقل.
+2. حفظ الخريطة والقيام بالمزامنة الأولية.
+3. عند نجاح المزامنة الأولية للخطوة الأولى، أضف حقول البحث المتبقية وأزل حقول البحث التي قمت بمزامنتها في الخطوة الأولى. تأكد من أن عدد حقول البحث 10 أو أقل. حفظ الخريطة وتشغيل المزامنة الأولية.
+4. كرر هذه الخطوات حتى تتم مزامنة كافة حقول البحث.
+5. إضافة كافة حقول البحث مرة أخرى إلى الخريطة وحفظ الخريطة وتشغيل الخريطة مع **تخطي المزامنة الأولية**.
+
+تمكن هذه العملية الخريطة لوضع المزامنة المباشرة.
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>مشكلة معروفة أثناء المزامنة الأولية للعناوين البريدية للطرف والعناوين الإلكترونية للطرف
+
+قد تتلقى رسالة الخطأ التالية عند محاولة تشغيل syn الأولية من عناوين الطرف البريدية والعناوين الإلكترونية الطرف:
+
+*تعذر العثور على رقم الطرف في Dataverse.*
+
+هناك مجموعة نطاقات على **DirPartyCDSEntity** في تطبيقات Finance and Operations التي تقوم بتصفية الأطراف من النوع **الشخص** و **المؤسسة**. ونتيجة لذلك، لن تؤدي المزامنة الأولية لتعيين **أطراف CDS‏ - msdyn_parties** إلى مزامنة الأطراف من الأنواع الأخرى، بما في ذلك **الكيان القانوني** و **وحدة التشغيل**. عند تشغيل المزامنة الأولية **للعناوين البريدية لأطراف CDS‏ ‏(msdyn_partypostaladdresses)** أو **جهات اتصال الأطراف V3 ‏(msdyn_partyelectronicaddresses)** قد تتلقى الخطأ.
+
+نحن نعمل على إصلاح لإزالة نطاق نوع الطرف على كيان Finance and Operations بحيث يمكن مزامنة الأطراف من جميع الأنواع مع Dataverse بنجاح.
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>هل هناك أي مشكلات في الأداء أثناء تشغيل المزامنة الأولية لبيانات العملاء أو جهات الاتصال؟
+
+إذا قمت بتشغيل المزامنة الأولية لبيانات **العميل** وكان لديك مخططات **العملاء** قيد التشغيل ومن ثم يتم تشغيل المزامنة الأولية لبيانات **جهات الاتصال**، قد تكون هناك مشكلات في الأداء أثناء عمليات الإدراج والتحديثات إلى جدولي **LogisticsPostalAddress** و **LogisticsElectronicAddress** لعناوين **جهات الاتصال**. يتم تعقب نفس العنوان البريدي العمومي وجداول العناوين الإلكترونية لـ **CustCustomerV3Entity** و **VendVendorV2Entity** ويحاول الكتابة المزدوجة إنشاء المزيد من الاستعلامات لكتابة البيانات إلى الجانب الآخر. إذا كنت قد قمت بتشغيل المزامنة الأولية **للعميل** بالفعل، فقم بإيقاف الخريطة المقابلة أثناء تشغيل المزامنة الأولية لبيانات **جهات الاتصال**. قم بنفس الشيء لبيانات **المورد**. عند انتهاء المزامنة الأولية، يمكنك تشغيل كافة الخرائط عن طريق تخطي المزامنة الأولية.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: تحميل صور
 description: يصف هذا الموضوع كيفية تحميل الصور في منشئ موقع Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423245"
 ---
 # <a name="upload-images"></a>تحميل صور
 
@@ -52,10 +52,17 @@ ms.locfileid: "6757388"
 - يجب تسمية صور الفئات "**/Categories/\{CategoryName\}.png**"
 - يجب تسمية صور العملاء "**/Customers/\{CustomerNumber\}.jpg**"
 - يجب تسمية صور الموظفين "**/Workers/\{WorkerNumber\}.jpg**"
-- يجب تسمية صور المنتجات "**/Products/\{ProductNumber\}_000_001.png**"
+- يجب تسمية صور المنتجات باسم "**/Products/\{ProductNumber\}\_000_001.png**"
     - يمثل 001 تسلسل الصورة ويمكنها أن يكون 001 أو 002 أو 003 أو 004 أو 005
 - يجب تسمية صور متغيرات المنتجات "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - على سبيل المثال: 93039 \^ \^ 2 \^ Black \^_000_001.png
+    - على سبيل المثال: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- يجب تسمية صور متغيرات المنتجات مع بُعد التكوين باسم "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
+    - على سبيل المثال: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> بالنسبة لصور متغيرات المنتج، إذا كانت قيمة البعد فارغة، يجب أن يكون هناك مسافتان بين علامات الإقحام في اسم الملف.
+
+تستخدم الأمثلة أعلاه التكوين الافتراضي. يمكن تكوين حرف الفاصل والأبعاد وقد تختلف التسمية الدقيقة المطلوبة بين عمليات النشر. تتمثل إحدى طرق تحديد اصطلاح التسمية الدقيق المطلوب في استخدام وحدة تحكم مطور المستعرض لفحص طلبات صور متغير المنتج أثناء تغيير أبعاد المنتج في صفحة تفاصيل المنتج لواجهة المتجر (PDP).
 
 ## <a name="upload-an-image"></a>تحميل صورة
 

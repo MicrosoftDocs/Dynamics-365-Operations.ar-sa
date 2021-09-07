@@ -1,8 +1,8 @@
 ---
 title: تكوين جداول Dataverse الظاهرية
-description: يوضح هذا الموضوع كيفيه تكوين الجداول الظاهرية لـ Dynamics 365 Human Resources. قم إنشاء جداول ظاهريه موجودة وتحديثها، وتحليل الجداول التي تم إنشاؤها والمتاحة.
-author: andreabichsel
-ms.date: 01/25/2021
+description: يوضح هذا الموضوع كيفية تكوين الجداول الافتراضية الموجودة وإنشاؤها وتحديثها وتحليل الجداول المنشأة والمتاحة لـ Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721597"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414654"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>تكوين جداول Dataverse الظاهرية
 
@@ -140,6 +140,9 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
      >[!NOTE]
      >تأكد من تضمين الحرف "**/**" في نهاية عنوان URL لتجنب تلقي خطأ ما.
+
+     >[!NOTE]
+     >يحدد عنوان URL الهدف بيئة الموارد البشرية التي تشير إليها الجداول الافتراضية للبيانات. إذا أنشأت بيئة وضع الحماية عن طريق إنشاء نسخة من بيئة الإنتاج الخاصة بك، فقم بتحديث هذه القيمة إلى عنوان URL لمساحة الاسم لبيئة وضع الحماية الجديدة. يضمن ذلك توصيل الجداول الافتراضية ببيانات بيئة آلية تحديد الصلاحيات بدلاً من الاستمرار في الإشارة إلى بيئة الإنتاج.
 
    - **معرف المستأجر**: معرف المستأجر في Azure Active Directory ( Azure AD).
 

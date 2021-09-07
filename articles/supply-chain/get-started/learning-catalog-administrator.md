@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764874"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402215"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>كتالوج التعلم لمسؤولي Dynamics 365 Supply Chain Management
 
@@ -60,7 +60,15 @@ ms.locfileid: "6764874"
 | [ترقية Dynamics AX 2012 إلى تطبيقات Finance and Operations](/learn/paths/upgrade-ax-2012-finance-operations/) | تعرف على أكثر العناصر أهمية وأفضل الممارسات لترقية حل Dynamics AX 2012 إلى تطبيقات Finance and Operations. من الخطوات الاولى لاكتشاف الاختلافات الهندسية الأساسية، والشروع في عملية الترقية، وأدوات ترقية البيانات والتعليمات البرمجية، وصولاً إلى أفضل الطرق لإعادة تصميم عمليات التكامل والتحليلات وإعداد التقارير استنادًا إلى أحدث القدرات. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 7 ساعات |
 | [Finance and Operations: الترقية من 7.x إلى 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | الرجاء الانضمام إلينا في الحديث التقني القادم، والذي سوف نتناول خلاله عملية الترقية من 7.X إلى 8.X. سوف نناقش سيناريوهات متنوعة وخطوات لتنفيذها لترقية الكود وترقية البيانات. وسوف نقوم أيضًا بتناول سيناريوهات طلب القابلية للتوسعة وكيفية رفعهم حيثما كان ذلك ممكنًا. | التسجيل المجاني لمؤتمر ويب | 61 دقائق |
 | [كيفية الترقية إلى 7.2 (يوليو 2017) من 7.0 (RTW)/7.1 (الإصدار 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | في هذه الجلسة، سوف نقوم بتوضيح كيفية الترقية من تطبيق Dynamics 365 Finance and Operations v 7.0 (RTW) و v 7.1 (1611) إلى v 7.2 (يوليو 2017). اجرينا تمييزًا واضحًا بين العملاء المباشرين والمشاريع الجارية (غير المباشرة بعد). | التسجيل المجاني لمؤتمر ويب | 58 دقائق |
-| [ترقية AX2012 إلى Dynamics 365 for Operations  (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | وسوف يوفر هذا الحديث التقني نظرة عامة حول كيفية ترقية الكود والبيانات من AX 2012 إلى Dynamics 365 for Operations. | التسجيل المجاني لمؤتمر ويب | 45 دقيقة |
+| [ترقية AX2012 إلى Dynamics 365 for Operations  (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | وسوف يوفر هذا الحديث التقني نظرة عامة حول كيفية ترقية الكود والبيانات من AX 2012 إلى Dynamics 365 for Operations. | التسجيل المجاني لمؤتمر ويب | 45 دقائق |
+| [أدوات ترحيل AX2009 إلى Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | وسوف تتناول جلسة العمل هذه الأدوات المتاحة لمساعدتك في الترحيل من AX2009 إلى D365 for Operations.  | التسجيل المجاني لمؤتمر ويب | 55 دقيقة |
+| [أداة ترحيل AX2009](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | وسوف تتناول جلسة العمل هذه الأدوات المتاحة لمساعدتك في الترحيل من AX2009 إلى D365 for Operations.  | التسجيل المجاني لمؤتمر ويب | 55 دقيقة |
+
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| المحتوى | الوصف | تنسيق | الطول |
+|---------|-------------|--------|--------|
+| [إعداد إدارة التغييرات للهندسة لـ Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | تتطلب الشركات المصنعة للمنتج أداره بيانات قويه، والتحكم في الإصدار، وأداره التغييرات الهندسية لتنجح في عالم دوره حياه المنتج والجودة المتزايدة ومتطلبات الثبات والتركيز المتزايد علي أمان المنتج. تعرف على كيفية إعداد إدارة التغييرات الهندسية في مسار التعلم هذا. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 4 ساعات |
 
 ## <a name="servicing"></a>الخدمة<a name="servicing"></a>
 
@@ -68,7 +76,8 @@ ms.locfileid: "6764874"
 |----------|---------------|---------|-----------|
 | [Finance and Operations: إدارة الميزات (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | الحديث التقني المتعلق بتجربة إدارة الميزات. يوفر مساحة عمل يُمكن من خلال عرض الميزات التي تم تسليمها في كل إصدار وكيفية تمكينها وتعطيلها وجدولتها. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها. سوف يُساعدك حضور هذا الاجتماع لمعرفة ما تم تسليمه في 10.0.3 وخططنا للإصدارات المستقبلية. | التسجيل المجاني لمؤتمر ويب | 47 دقيقة |
 | [Finance and Operations: الخدمة، الدعم والحفاظ على الإنتاج (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | الحديث التقني حول كيفية دعم بيئة إنتاج Dynamics 365 for Finance and Operationsالخاصة بك بفعالية وصيانتها وخدمتها. | التسجيل المجاني لمؤتمر ويب | 53 دقائق |
-| [Finance And Operations: التحديثات المستمرة المُدارة بواسطة Microsoft  (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | وتيرة التحديث المستمر لـ Finance and Operations بدأت! يُرجى الانضمام إلينا خلال هذه الساعة لمناقشة التحديثات المستمرة المُدارة بواسطة Microsoft، تتوفر تجربة المستخدم بالفعل في Lifecycle Services والتحديثات القادمة. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
+| [Finance And Operations: التحديثات المستمرة المُدارة بواسطة Microsoft  (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | وتيرة التحديث المستمر لـ Finance and Operations بدأت! يُرجى الانضمام إلينا خلال هذه الساعة لمناقشة التحديثات المستمرة المُدارة بواسطة Microsoft، تتوفر تجربة المستخدم بالفعل في Lifecycle Services والتحديثات القادمة. | التسجيل المجاني لمؤتمر ويب | 61 دقائق |
+| [Finance And Operations: التحديثات المستمرة المُدارة بواسطة Microsoft: ما الجديد - 1 نوفمبر 2018 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | وخلال هذه الساعة سوف نناقش التحديثات على وتيرة التحديثات المستمرة المُدارة بواسطة Microsoft فضلًا عن إلقاء نظرة على خبرة المستخدم في Lifecycle Services. | التسجيل المجاني لمؤتمر ويب | 59 دقائق |
 | [التحديثات المستمرة المُدارة بواسطة Microsoft: ما الجديد (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | خلال هذه الساعة، سوف نشرح ما الجديد منذ الإعلانات الأولية التي اطلقناها حول التحديثات المستمرة المُدارة بواسطة Microsoft. سوف نقوم بمناقشة وتيرة التحديثات، وكيفية الاستجابة لملاحظاتكم القيّمة حول العملية، وسوف نُلقي نظرة عن كثب على تجربة مستخدم Lifecycle Services القادمة، والتي ستتمكن من خلالها من إدارة التحديثات الخاصة بك. | التسجيل المجاني لمؤتمر ويب | 56 دقائق |
 | [التحديثات المستمرة المُدارة بواسطة Microsoft:  (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | سوف نناقش خطط Microsoft للحفاظ على تحديث نظامك باستمرار بأحدث الإصدارات. سوف نتناول الجداول الزمنية ووتيرة التحديثات الرئيسية والثانوية والإجراءات المُقررة والآثار وما ينبغي عليك القيام به للوصول إلى أفضل النتائج. | التسجيل المجاني لمؤتمر ويب | 62 دقائق |
 | [المُراقبة ومرشد التحسين وقواعد المعارف الهامة (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | سوف نقوم بمناقشة إمكانيات المراقبة وما تراقبه Microsoft لك في بيئة الإنتاج الخاصة بك، ومستشار التحسين وكيف يُمكن توسيعه وتجارب "تحديثات X++ الهامة" في LCS، وأفضل الممارسات الخاصة بخيار "قطع إنتاج التقرير" في LCS. | التسجيل المجاني لمؤتمر ويب | 40 دقيقة |
@@ -86,6 +95,5 @@ ms.locfileid: "6764874"
 | المحتوى  | ‏‏الوصف  | التنسيق  |
 |----------|--------------|---------|
 | [القواعد الأساسية لـ Dynamics 365](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | أثبت أنك ملمّ بتطبيقات Microsoft Dynamics 365؛ Power Platform؛ مفاهيم السحابة؛ خيارات الترخيص وخيارات النشر والإصدار.‬ | الاختبار، تختلف التكلفة حسب المنطقة |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

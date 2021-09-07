@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 338c3129d81fa0428f3470808bc13fc76483ff3aaf19b06708a986aec64b4030
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782337"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384601"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>تثبيت تطبيق الاجهزه المحمولة لأداره المستودعات والاتصال به
 
@@ -150,7 +150,7 @@ ms.locfileid: "6782337"
 | ConnectionName | حدد اسم إعداد الاتصال. الحد الأقصى لعدد الحروف هو 20 حرفًا. ونظرًا لأن هذه القيمة هي المعرف الفريد لإعداد الاتصال، فتأكد من أنها فريدة في القائمة. في حالة وجود اتصال يحمل نفس الاسم بالفعل على الجهاز، سيتم تجاوزه بواسطة الإعدادات الموجودة في الملف المستورد. |
 | ActiveDirectoryClientAppId | حدد معرف العميل الذي قمت بتدوينه أثناء قيامك بإعداد Azure AD في قسم [إنشاء تطبيق خدمة ويب في Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | حدد عنوان URL الجذر لـ Supply Chain Management. |
-| ActiveDirectoryTenant | حدد مستأجر Azure AD الذي تستخدمه مع خادم Supply Chain Management. تكون هذه القيمة بشكل `https://login.windows.net/<your-Azure-AD-tenant-ID>`. وفيما يلي مثال على ذلك: `https://login.windows.net/contosooperations.onmicrosoft.com` |
+| ActiveDirectoryTenant | حدد اسم مجال Azure AD الذي تستخدمه مع خادم Supply Chain Management. تكون هذه القيمة بشكل `https://login.windows.net/<your-Azure-AD-domain-name>`. وفيما يلي مثال على ذلك: `https://login.windows.net/contosooperations.onmicrosoft.com` لمزيد من المعلومات حول كيفية العثور على اسم مجال Azure AD الخاص بك، راجع [تحديد موقع معرفات هامة لمستخدم](/partner-center/find-ids-and-domain-names). |
 | الشركة | أدخل الكيان القانوني في Supply Chain Management الذي تريد أن يتصل به التطبيق. |
 | ConnectionType | (اختياري) حدد ما إذا كان يجب أن يستخدم إعداد الاتصال شهادة أو سر عميل للاتصال ببيئة. القيم الصالحة هي *"certificate"* و *"clientsecret"*. القيمة الافتراضية هي *"certificate"*.<p>**ملاحظة:** لا يمكن استيراد أسرار العميل.</p> |
 | IsEditable | (اختياري) حدد ما إذا كان يجب أن يكون بإمكان مستخدم التطبيق تحرير إعداد الاتصال. القيم الصالحة هي *"true"* و *"false"*. القيمة الافتراضية هي *"true"*. |
@@ -268,7 +268,7 @@ ms.locfileid: "6782337"
         > [!IMPORTANT]
         > لا تقم بإنهاء هذه القيمة بشرطة مائلة (/).
 
-    - **مستأجر Active Directory** - أدخل مستأجر Azure AD الذي تستخدمه مع خادم Supply Chain Management: . تكون هذه القيمة بشكل `https://login.windows.net/<your-Azure-AD-tenant-ID>`. وفيما يلي مثال على ذلك: `https://login.windows.net/contosooperations.onmicrosoft.com`
+    - **مستأجر Active Directory** - أدخل اسم مجال Azure AD الذي تستخدمه مع خادم Supply Chain Management. تكون هذه القيمة بشكل `https://login.windows.net/<your-Azure-AD-domain-name>`. وفيما يلي مثال على ذلك: `https://login.windows.net/contosooperations.onmicrosoft.com` لمزيد من المعلومات حول كيفية العثور على اسم مجال Azure AD الخاص بك، راجع [تحديد موقع معرفات هامة لمستخدم](/partner-center/find-ids-and-domain-names).
 
         > [!IMPORTANT]
         > لا تقم بإنهاء هذه القيمة بشرطة مائلة (/).

@@ -1,8 +1,8 @@
 ---
 title: اختيار تقنية تكامل بيانات
-description: يقدم هذا المقال معلومات حول التكامل مع البيانات المدارة بواسطة Human Resources. وهو يصف تقنيات تكامل مختلفة لمساعدتك على تحديد أفضل التقنيات التي تناسب احتياجاتك.
-author: andreabichsel
-ms.date: 02/28/2020
+description: يقدم هذا الموضوع معلومات حول التكامل مع البيانات المدارة بواسطة Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720458"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414704"
 ---
 # <a name="choose-a-data-integration-technology"></a>اختيار تقنية تكامل بيانات
 
@@ -28,14 +28,13 @@ ms.locfileid: "6720458"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يقدم هذا المقال معلومات للتكامل مع البيانات المدارة بواسطة Dynamics 365 Human Resources. وهو يصف تقنيات تكامل مختلفة لمساعدتك على تحديد أفضل التقنيات التي تناسب احتياجاتك.
+يقدم هذا الموضوع معلومات للتكامل مع البيانات المدارة بواسطة Dynamics 365 Human Resources. وهو يصف تقنيات تكامل مختلفة لمساعدتك على تحديد أفضل التقنيات التي تناسب احتياجاتك.
 
 ## <a name="data-integration-background"></a>خلفية تكامل البيانات
 
 تعتبر بيانات العمل بمثابة أصل أساسي يجعل شركتك فريدة. بيانات أعمالك ذات قيمة عالية. يمكنك استخدام العلاقات بين البيانات التي تم جمعها من خلال أعمالك لتحسين العمليات التجارية والمعلومات المهنية عبر مؤسستك. نحن نبذل جهودًا كثيرة لتوفير وصول سهل وآمن ومستقر إلى بيانات عملك بصرف النظر عن النظام الذي تأتي منه هذه البيانات.
 
-قديمًا، كان تكامل البيانات بين الأنظمة المتعددة صعبًا.
-تتخذ Microsoft خطوات لتسهيل تكامل البيانات، ولقد تحققت خطوة كبيرة نحو هذا الهدف من خلال [Dataverse](/powerapps/maker/common-data-service/data-platform-intro)
+قديمًا، كان تكامل البيانات بين الأنظمة المتعددة صعبًا. تتخذ Microsoft خطوات لتسهيل تكامل البيانات، ولقد تحققت خطوة كبيرة نحو هذا الهدف من خلال [Dataverse](/powerapps/maker/common-data-service/data-platform-intro)
 
 يعمل Human Resources على جعل Dataverse الواجهة العامة المفضلة لبيانات Human Resources. وبمرور الوقت، فإننا نتوقع أن أهم البيانات التي تتم إدارتها بواسطة Human Resources سوف يتم عرضها في Dataverse. نوصي بأن يكون Dataverse هو التقنية الخاصة بالاختيار لمعظم تطبيقات التكامل.
 
@@ -47,7 +46,7 @@ ms.locfileid: "6720458"
 
 ### <a name="dataverse-tables"></a>جداول Dataverse
 
-تُعد Dataverse هي واجهة البيانات العامة المفضلة لـ Human Resources. وقد تطور من النظام الأساسي Dynamics 365 XRM، الذي تستخدمه حلول [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps).
+تُعد Dataverse هي واجهة البيانات العامة المفضلة لـ Human Resources. قد تطور من النظام الأساسي Dynamics 365 XRM، الذي تستخدمه حلول [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps).
 
 يوفر Dataverse نظامًا أساسيًا وواجهات API لجداول البيانات. سوف يتصل Human Resources بمثيل Dataverse عندما تنشره. وتنتشر كيانات بيانات Human Resources في مثيل Dataverse هذا. تتوفر الجداول وبياناتها لأي تطبيق يمكنه الاتصال بمثيل Dataverse. تقوم Human Resources بمزامنة البيانات إلى جداول Dataverse ومنها.
 

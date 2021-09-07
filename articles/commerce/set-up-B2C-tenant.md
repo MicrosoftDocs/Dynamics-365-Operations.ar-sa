@@ -2,7 +2,7 @@
 title: إعداد مستأجر B2C في Commerce
 description: يصف هذا الموضوع كيفية إعداد مستأجري متاجرة بين عمل ومستهلك (B2C) في Azure Active Directory (Azure AD) لمصادقة موقع المستخدم في Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 03/17/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772242"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344488"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>إعداد مستأجر B2C في Commerce
 
@@ -34,6 +34,9 @@ ms.locfileid: "6772242"
  
  > [!NOTE]
  > تأتي بيئات تقييم Commerce مع مستأجر Azure AD B2C المحمل مسبقًا لأغراض التوضيح. لا يلزم تحميل مستأجر Azure AD  B2Cالخاص بك باستخدام الخطوات التالية لبيئات التقييم.
+
+> [!TIP]
+> يمكنك حماية مستخدمي موقعك وتعزيز أمان مستأجري Azure AD B2Cمع حماية الهوية والوصول المشروط في Azure AD. لمراجعة القدرات المتاحة للمستأجرين في Azure AD من الفئة B2C Premium P1 وP2 المميزين، راجع [حماية الهوية والوصول المشروط إلى Azure AD ‏B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>إنشاء مستأجر AAD B2C موجود في مدخل Azure أو الارتباط به
 

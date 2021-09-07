@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720074"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386089"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720074"
 
 يسرد هذا الموضوع الميزات الجديدة والتحسينات والمشكلات المعروفة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>الإصدار 2.0.9.0
+
+يعمل هذا الإصدار على إصلاح مشكلة حيث يمكن للتطبيق التوقف عن الاستجابة إذا كان المستخدمون يصلون من أعلى القائمة.
+
+## <a name="version-2080"></a>الإصدار 2.0.8.0
+
+يقدم هذا الإصدار الميزات الجديدة والإصلاحات والتحسينات التالية:
+
+- إضافة دعم [لميزة إرشادات الخطوة ](mobile-app-titles-instructions.md) التي تم تقديمها في الإصدار 10.0.21 من Supply Chain Management.
+- إضافة تلميح الرسوم المتحركة لاظهار المستخدمين أن يتمكنوا من إغلاق تراكبات عن طريق تمرير لأسفل.
+- إضافة دعم لمفاتيح الوظائف في قوائم الإجراءات والقوائم. يمكن للمستخدمين الاستمرار على أي مفتاح وظيفة لمدة ثلاث ثوان للحصول على قائمة من الأوامر المتاحة.
+- إصلاح مشكلة تسببت في ظهور رسالة الخطأ التالية على بعض الأجهزة: "لا يمكن العثور على طريقة عرض مناسبة للحجم المحدد."
+- إصلاح مشكلة حيث وضع ملء الشاشة لا يعمل دائما عند استخدام لوحة المفاتيح على الشاشة.
+- إصلاح مشكلة حيث لم يعمل تمرير الصفحة على أجهزة Windows.
+- تم إصلاح العديد من المشكلات التي تسببت في توقف النظام عن الاستجابة.
+
+## <a name="version-2070"></a>الإصدار 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>الميزات الجديدة والإصلاحات والتحسينات في إصدار 2.0.7.0
 

@@ -1,6 +1,6 @@
 ---
 title: إنشاء تسلسل خطاب تحصيل
-description: استخدم دليل المهمة هذا لإنشاء تسلسل خطاب تحصيل.
+description: استخدم هذا الإجراء لإنشاء تسلسل خطاب تحصيل.
 author: mikefalkner
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 64d23d0875c5bb93ebe54fd40367f89574da87c72e90daab25a8828ec2158abb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b3062390da10f344c354cd2cc5cd7fb73623570
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740064"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394672"
 ---
 # <a name="create-a-collection-letter-sequence"></a>إنشاء تسلسل خطاب تحصيل
 
 [!include [banner](../../includes/banner.md)]
 
-استخدم دليل المهمة هذا لإنشاء تسلسل خطاب تحصيل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
+استخدم هذا الإجراء لإنشاء تسلسل خطاب تحصيل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية‬ > عمليات التحصيل والائتمان‬ > الإعداد > إعداد تسلسل خطاب التحصيل‬**.
 2. انقر فوق **جديد**.

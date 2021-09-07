@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 75fbf177cd74739b35e72f2cae56a6c46fe69540145f16c80766b3ec260e8d0b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc4067ff395042ec30bdb6a846d12509a1436256
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713746"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402534"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>كتالوج التعلّم لمستخدمي Dynamics 365 Finance
 
@@ -32,6 +32,7 @@ ms.locfileid: "6713746"
 | [تعرف على قيمة الأعمال الخاصة بـ Microsoft Dynamics 365و Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | هل أنت مُهتم في معرفة تطبيقات الأعمال؟ ربما لا تعرف من أين تبدأ مع تطبيقات Microsoft Dynamics 365 وPower Platform؟ تعلم كيف يمكن لإمكانات تطبيقات الأعمال مساعدتك في إحداث تحويل في شركتك. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | ثمان ساعات |
 | [Dynamics 365 والقواعد الأساسية لـ Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | هل أنت مُهتم في معرفة تطبيقات الأعمال؟ أبدا بالمسار التعليمي هذا لمعرفة كيفية استخدام تطبيقات Dynamics 365. تعرف على مفاهمين السحابة وPower Platform وكيفية البدء في استخدام تطبيقات Dynamics 365. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 5.5 ساعات   |
 | [بدء استخدام تطبيقات Finance and Operations](/learn/paths/get-started-finance-operations/) | تعرف كيف يدعم تطبيق Finance and Operations الأعمال لإدارة الأنظمة المالية العمومية والعمليات التجارية التشغيلية وسلاسل التوريد الانسيابية لتمكين الأشخاص من اتخاذ قرارات سريعة وصائبة.   وكخطوة أولى في مسيرتك المهنية للعمل باستخدام تطبيقات Finance and Operations، يجب أن تكون على دراية بميزاته ووظائفه، بصرف النظر عن دورك المطلوب. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | ساعتان |
+| [بدء استخدام Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | مع Dynamics 365 Intelligent Order Management ، يمكن للعملاء إدارة تنسيق معالجة الطلبات من خلال التنفيذ. تمكن هذه القدرات المؤسسات من تنسيق تدفق الطلبات عبر الأنظمة الأساسية والتطبيقات المختلفة. | وحدة تعليمية عبر الإنترنت مجانية تتحدد وفقًا لقدرات المستخدم | 30 دقيقة |
 | [الدورة MB-900T01-A: القواعد الأساسية لـ Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | وسوف تُعرف هذه الدورة التدريبية المُتعلم على وظيفة Dynamics 365 وقيمة الأعمال. وسوف تغطي هذه الدورة تطبيقات Dynamics 365 وPower Platform ومفاهيم السحابة ونموذج الأمان واعتبارات الترخيص. | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت، تختلف التكلفة حسب المنطقة والشريك. | يوم واحد  |
 
 ## <a name="core-platform-knowledge"></a>المعرفة الأساسية للنظام الأساسي<a name="core-platform-knowledge"></a>

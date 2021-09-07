@@ -1,8 +1,8 @@
 ---
 title: تكوين التكامل مع Dayforce
-description: يعتمد التكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce على العديد من خطوات التكوين الموضحة في هذا المقال. يجب عليك تكوين التكامل في كل من Human Resources وDayforce قبل أن تتمكن من معالجة دورة دفع.
-author: andreabichsel
-ms.date: 02/03/2020
+description: يصف هذا الموضوع خطوات التكوين المطلوبة اللازمة للتكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782721"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414574"
 ---
-# <a name="configure-integration-with-dayforce"></a>تكوين التكامل مع Dayforce 
+# <a name="configure-integration-with-dayforce"></a>تكوين التكامل مع Dayforce
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يعتمد التكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce على العديد من خطوات التكوين الموضحة في هذا المقال. يجب عليك تكوين التكامل في كل من Human Resources وDayforce قبل أن تتمكن من معالجة دورة دفع.
+يعتمد التكامل بين Dynamics 365 Human Resources وCeridian Dayforce على العديد من خطوات التكوين التي تم وصفها في هذا الموضوع. يجب عليك تكوين التكامل في كل من Human Resources وDayforce قبل أن تتمكن من معالجة دورة دفع.
 
 عندما تستخدم خدمة مثل Dayforce لإتمام دورات الدفع، يجب عليك تمكين التكامل في Human Resources. يتطلب التكامل بيانات معينة من Human Resources. لذلك، يجب عليك التأكد من أن البيانات التي تم تعيينها إلى Dayforce هي بيانات تم تكوينها في Human Resources بطريقة تدعم التكامل. يستخدم التكامل الفئات الواسعة التالية من البيانات:
 
@@ -35,7 +35,7 @@ ms.locfileid: "6782721"
 - بيانات كشف المرتبات، مثل دورات الدفع وفترات الدفع وأكواد الأرباح
 - بيانات العامل
 
-يصف هذا المقال الخطوات التي يجب اتباعها لتمكين التكامل. ويشرح أيضًا أنواع البيانات وتفاصيل التكوين التي يحتاج إليها التكامل.
+يصف هذا الموضوع الخطوات التي يجب اتباعها لتمكين التكامل ويشرح أنواع البيانات وتفاصيل التكوين التي يتطلبها التكامل.
 
 ## <a name="enable-the-integration"></a>تمكين التكامل
 
@@ -50,7 +50,7 @@ ms.locfileid: "6782721"
 
 عند تشغيل التكامل، يتم إنشاء حزمة وملفات تصدير البيانات ويتم تعيين معدل التكرار. ويمكنك تغيير معدل التكرار وفق الحاجة.
 
-لمزيد من المعلومات حول حسابات مساحة تخزين Azure وسلاسل اتصال مساحة تخزين Azure، راجع مقالات Azure التالية:
+لمزيد من المعلومات حول حسابات مساحة تخزين Azure وسلاسل اتصال مساحة تخزين Azure، راجع موضوعات Azure التالية:
 
 - [حول حسابات مساحة تخزين Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [تكوين سلاسل اتصال مساحة تخزين Azure](/azure/storage/common/storage-configure-connection-string)
@@ -122,7 +122,7 @@ ms.locfileid: "6782721"
 | المساهمة فقط          | يتم إنشاء خصم صاحب العمل‬.             |
 | الخصم والمساهمة | يتم إنشاء خصومات الموظف وصاحب العمل. |
 
-لمزيد من المعلومات حول كيفية تحديد وإدارة برنامج ميزات، راجع المقالات التالية:
+لمزيد من المعلومات حول كيفية تحديد وإدارة برنامج ميزات، راجع الموضوعات التالية:
 
 - [تقديم برنامج ميزات الموظفين](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
 - [إنشاء ميزة جديدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
@@ -135,7 +135,7 @@ ms.locfileid: "6782721"
 
 تستخدم خدمة Dayforce معلومات التعويض لحساب معدل الموظف السنوي أو الساعي. وتعتبر خطط التعويض الثابت وتحويلات معدل الدفع مطلوبة. يجب ربط الموظفين بخطة تعويض ثابت.
 
-لمزيد من المعلومات حول خطط التعويض، راجع المقالات التالية:
+لمزيد من المعلومات حول خطط التعويض، راجع الموضوعات التالية:
 
 - [إنشاء خطط التعويض الثابت](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [إنشاء خطط التعويض المتغير](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -147,12 +147,12 @@ ms.locfileid: "6782721"
 
 #### <a name="jobs"></a>الوظائف 
 
-الوظيفة هي مجموعة من المهام والمسؤوليات المطلوبة من الشخص الذي يؤدي وظيفة. لمزيد من المعلومات، راجع المقالات التالية:
+الوظيفة هي مجموعة من المهام والمسؤوليات المطلوبة من الشخص الذي يؤدي وظيفة. لمزيد من المعلومات، راجع الموضوعات التالية:
 
 - [إعداد مكونات وظيفة](/dynamics365/unified-operations/talent/create-job)
 - [تحديد الوظائف الجديدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
-##### <a name="positions"></a>المناصب‬
+##### <a name="positions"></a>المناصب
 
 يعتبر المنصب مثيلاً فرديًا لوظيفة ما. على سبيل المثال، المنصب "مدير المبيعات (شرق)،" هو أحد المناصب المقترنة بالوظيفة، "مدير المبيعات". يوجد منصب في قسم. ويمكن ربط عامل واحد فقط بكل منصب.
 
@@ -172,16 +172,16 @@ ms.locfileid: "6782721"
 
 عند ارتباط مناصب متعددة في القسم نفسه بالوظيفة نفسها، فسيتم دمجها في منصب واحد في Dayforce.
 
-لمزيد من المعلومات، راجع المقالات التالية:
+لمزيد من المعلومات، راجع الموضوعات التالية:
 
-- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [إعداد المناصب](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>الأقسام
 
 القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر.
 
-لمزيد من المعلومات، راجع المقالات التالية:
+لمزيد من المعلومات، راجع الموضوعات التالية:
 
 - [إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [تحديد الأقسام الجديدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
