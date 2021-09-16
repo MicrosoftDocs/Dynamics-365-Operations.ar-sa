@@ -5,6 +5,8 @@
       items:
         - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 23 أغسطس 2021
+          href: hr-whats-new-2021-08-23.md
         - name: 09 أغسطس 2021
           href: hr-whats-new-2021-08-09.md
         - name: 26 يوليو 2021
@@ -543,6 +545,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: تكوين دفاتر العناوين
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: إدارة مالكي المواقع
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
             - name: نظام سير العمل
               items:
                 - name: نظرة عامة على نظام سير العمل

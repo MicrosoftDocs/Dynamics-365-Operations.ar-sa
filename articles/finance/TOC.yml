@@ -6,6 +6,8 @@
           href: index.md
         - name: الشروع في العمل
           items:
+            - name: وصف الخدمة
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
             - name: قبل الشراء
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: التسجيل لاشتراكات المعاينة
@@ -72,6 +74,8 @@
                   items:
                     - name: المزايا الجديدة أو المتغيرة‬ في الصفحة الرئيسية لـ Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.22 (نوفمبر 2021)
+                      href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (أكتوبر 2021)
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (أغسطس 2021)
@@ -1168,8 +1172,12 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: إقفال نهاية السنة يفتقد الأرصدة الافتتاحية
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: كيف يمكنني إعداد الأبعاد المالية للموازنة؟
+                  href: general-ledger/set-up-balance-dimensions.md
                 - name: فتح قوالب دفتر اليومية المالي في Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: الأبعاد المالية الافتراضية في دفاتر اليومية المالية
+                  href: general-ledger/dimension-default-values.md
                 - name: فشل ترحيل دفتر اليومية بسبب عدم التوازن
                   href: general-ledger/posting-fail-imbalance.md
                 - name: لماذا لا يمكنني عكس هذه الحركة؟
@@ -1472,17 +1480,17 @@
               items:
                 - name: نظرة عامة على خدمات العولمة
                   href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory Configuration Service
+                - name: Regulatory configuration service (RCS)
                   items:
-                    - name: نظرة عامة على Regulatory Configuration Service
+                    - name: نظرة عامة على Regulatory configuration service (RCS)
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory configuration service - ميزات العولمة
+                    - name: Regulatory configuration service (RCS) - ميزات العولمة
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: إنشاء تكوينات التقارير الإلكترونية (ER) في Regulatory Configuration Service وتحميلها إلى المستودع العمومي
+                    - name: إنشاء تكوينات التقارير الإلكترونية (ER) في Regulatory configuration service (RCS) وتحميلها إلى المستودع العمومي
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service - حذف بيئة RCS
+                    - name: Regulatory Configuration Service (RCS) - حذف بيئة RCS
                       href: localizations/rcs-delete-environment.md
-                    - name: Regulatory Configuration Service - إهلاك تخزين Lifecycle Services
+                    - name: Regulatory configuration service (RCS) - إهلاك تخزين Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                     - name: تنزيل تكوينات التقارير الإلكترونية (ER) إلى Finance
                       items:
@@ -1550,6 +1558,8 @@
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: تحديد
                       items:
+                        - name: نموذج بيانات حساب الضريبة
+                          href: localizations/tax-calculation-data-model-overview.md
                         - name: قابلية تطبيق ضريبة المبيعات ومنطق تحديد مجموعة ضريبة المبيعات
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: حساب
@@ -1574,6 +1584,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: قائمة مبيعات الاتحاد الأوروبي
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: تقارير السويد
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة
+                              href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: إعداد التقارير في سويسرا
                           items:
                             - name: إقرار ضريبة القيمة المضافة
@@ -2690,6 +2704,8 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لإيطاليا
                   href: localizations/emea-ita-intrastat.md
+                - name: ترحيل عمليات الوصول والإرسالات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
+                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
                 - name: المصاريف المتنوعة للكيلوغرام الواحد في إعلان نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: خطابات النوايا - فوترة مصدرين عاديين
@@ -2982,6 +2998,8 @@
               items:
                 - name: نظرة عامة على عمان
                   href: localizations/oman.md
+                - name: إقرار ضريبة القيمة المضافة لعمان (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: هولندا
               items:
                 - name: نظرة عامة على هولندا
@@ -3366,6 +3384,10 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: تقرير دفع ضريبة المبيعات للسويد
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
+                - name: إقرار ضريبة القيمة المضافة للسويد
+                  href: localizations/emea-swe-VAT-declaration-Sweden.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي السويدي
+                  href: localizations/emea-swe-intrastat.md
             - name: سويسرا
               items:
                 - name: نظرة عامة على سويسرا
@@ -3420,6 +3442,28 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: إعداد مجموعات ضريبة المبيعات للرسوم العكسية
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: إعداد التقارير في المملكة المتحدة
+                  items:
+                    - name: رقمنة الضرائب (MTD) لضريبة القيمة المضافة
+                      items:
+                        - name: جعل عملية إرسال ضريبة القيمة المضافة للضريبة الرقمية (MTD) في المملكة المتحدة
+                          href: localizations/emea-gbr-mtd-vat-integration.md
+                        - name: اعداد البيئة الخاصة بك للتعامل مع خدمه الويب الخاصة لـ MTD الخاصة بـ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                        - name: تخويل بيئة Finance الخاصة بك للتعامل مع خدمة الويب الخاصة لـ MTD الخاصة بـ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: اختبار الاستخدام التفاعلي باستخدام آلية تحديد صلاحيات MTD VAT
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: إرسال إرجاع ضريبة القيمة المضافة إلى خدمه الويب لـ MTD الخاصة بـ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: قائمة اختيار لإعداد الرسائل الإلكترونية لـ MTD ضريبة القيمة المضافة
+                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                        - name: إنشاء إقرار ضريبة القيمة المضافة بتنسيق الورق (تقرير ضريبة القيمة المضافة 100)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: تفاصيل إعداد ضريبة القيمة المضافة لإقرارات ضريبة القيمة المضافة في المملكة المتحدة
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: استرداد معلومات حول دفعات ضريبة القيمة المضافة والتزامات من HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                 - name: تقرير الإحصائيات حول ممارسات الدفع
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: الولايات المتحدة
@@ -4147,6 +4191,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: استيراد التكوينات (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory configuration service (RCS)
+                  items:
+                    - name: نظرة عامة على Regulatory configuration service (RCS)
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
+                    - name: تنزيل تكوينات التقارير الإلكترونية (ER) إلى Finance
+                      items:
+                        - name: تنزيل التكوينات من RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: استيراد التكوينات من RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: المستودع العالمي (GR)
+                      items:
+                        - name: استيراد التكوينات من GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: استيراد إصدارات محدَّثة من تكوينات التقارير الإلكترونية (ER)
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: تصفية محسنة للعثور على التكوينات في GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: تحميل التكوينات إلى GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: مشاركه التكوينات في GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: إيقاف التكوينات في المستودع العمومي لـ RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: دلائل البدء السريع
               items:
                 - name: ضبط تنسيق التقارير الإلكترونية (ER) لإنشاء مستند إلكتروني مخصص
@@ -4207,6 +4275,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: استخدام مصادر بيانات تجميع البيانات في تنسيقات ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: تصحيح مصادر البيانات
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين تعيينات النماذج
@@ -4275,6 +4345,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: تكوين الوجهات المعتمدة على الإجراءات
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: تكوين وجهات التقارير الإلكترونية الخاصة بسجلات إدارة الطباعة
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: إعداد مرجع لتنسيق ER
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: التحقق التلقائي من صحة التقارير التي تم إنشاؤها
@@ -4323,6 +4395,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                     - name: تحديث التطبيق 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
+                    - name: تحديث التطبيق 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                 - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
                   items:
                     - name: الاشتراك في حدث لطلب استجابة من معالج الاشتراك
@@ -4333,7 +4407,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: بدء قيم مصدر البيانات لنوع USER INPUT PARAMETER من كود المصدر
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
-        - name: تطبيق الجوال
+                - name: تغيير الكود لتمكين المستخدمين من تكوين وجهات التقارير الإلكترونية المسماة واستخدامها
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+        - name: تطبيق الأجهزة المحمولة
           items:
             - name: الصفحة الرئيسية لتطبيق الجوال
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/finance/toc.json

@@ -14,6 +14,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.22 (نوفمبر 2021)
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.21 (أكتوبر 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.20 (أغسطس 2021)
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: لغة البرمجة ++X
               items:
-                - name: X++ وميزات مصحح الأخطاء
-                  href: dev-tools/new-x-debugger-features.md
-                - name: متطلبات Visual Studio 2017لـ X++
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: تصحيح كود X++
-                  href: dev-tools/debug-xpp.md
-                - name: فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة
-                  href: dev-tools/event-handler-result-class.md
-                - name: كتابة منطق تسلسل العمل باستخدام كود المصدر C# وX++
-                  href: dev-tools/write-business-logic.md
-                - name: التغييرات في X + + والمحول البرمجي X + +
-                  href: dev-tools/programming-language-support.md
-                - name: موفر LINQ لـ C#
-                  href: dev-tools/linq-provider-c.md
-                - name: كتابة قواعد أفضل الممارسات
-                  href: dev-tools/author-best-practice-rules.md
-                - name: خصائص Application Explorer
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: دعم اللغة X++
+                  items:
+                    - name: متطلبات Visual Studio 2017لـ X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: تصحيح كود X++
+                      href: dev-tools/debug-xpp.md
+                    - name: فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة
+                      href: dev-tools/event-handler-result-class.md
+                    - name: كتابة منطق تسلسل العمل باستخدام كود المصدر C# وX++
+                      href: dev-tools/write-business-logic.md
+                    - name: موفر LINQ لـ C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: كتابة قواعد أفضل الممارسات
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: خصائص Application Explorer
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: مرجع اللغة X++
                   items:
                     - name: نظرة عامة على مرجع اللغة X++
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: المكتبات
                           href: dev-ref/xpp-library-objects.md
-                        - name: الأحداث
+                        - name: التفويضات والاحداث
                           href: dev-ref/xpp-events.md
                     - name: تحديد بيانات X++ والمعالجة
                       items:
@@ -906,6 +906,8 @@
               href: dev-tools/date-effectivity.md
             - name: التطوير لموردي البرامج المستقلين
               items:
+                - name: الصفحة الرئيسية لتطوير ISV
+                  href: dev-tools/isv-dev-home-page.md
                 - name: ربط وحدات X++ بالحزم باستخدام ISV Studio
                   href: dev-tools/isv-studio-solutions.md
                 - name: ترخيص موردي البرامج المستقلين (ISV)
@@ -1018,6 +1020,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: كتاب تعليمات الاستعلام
               href: lifecycle-services/querycookbook.md
+            - name: الاشتراكات وحذف البيانات منتهية الصلاحية
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: نظرة عامة حول Dynamics 365 Translation Service
@@ -1048,6 +1052,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: اعتبارات المزامنة الأولية
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: قيود المزامنة المباشرة
+                      href: data-entities/dual-write/sync-limits.md
                     - name: إعداد الكتابة المزدوجة من Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
                     - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة

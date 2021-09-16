@@ -6,6 +6,8 @@
           href: index.md
         - name: الشروع في العمل
           items:
+            - name: وصف الخدمة
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: قبل الشراء
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: التسجيل لاشتراكات المعاينة
@@ -72,6 +74,8 @@
                   items:
                     - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: الإصدار 10.0.22 من Supply Chain Management (نوفمبر 2021)
+                      href: get-started/whats-new-scm-10-0-22.md
                     - name: الإصدار 10.0.21 من Supply Chain Management (أكتوبر 2021)
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (أغسطس 2021)
@@ -212,15 +216,15 @@
               items:
                 - name: نظرة عامة على خدمات العولمة
                   href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service
+                - name: Regulatory configuration service (RCS)
                   items:
-                    - name: نظرة عامة على Regulatory Configuration Service
+                    - name: نظرة عامة على Regulatory configuration service (RCS)
                       href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory configuration service - ميزات العولمة
+                    - name: Regulatory configuration service (RCS) - ميزات العولمة
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: إنشاء تكوينات التقارير الإلكترونية (ER) في Regulatory Configuration Service وتحميلها إلى المستودع العمومي
+                    - name: إنشاء تكوينات التقارير الإلكترونية (ER) في Regulatory configuration service (RCS) وتحميلها إلى المستودع العمومي
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service - إهلاك تخزين Lifecycle Services
+                    - name: Regulatory configuration service (RCS) - إهلاك تخزين Lifecycle Services
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تنزيل تكوينات التقارير الإلكترونية (ER) إلى Supply Chain Management
                       items:
@@ -302,9 +306,9 @@
                   items:
                     - name: بضاعة بالطريق من المورِّد
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
-        - name: السحابة والحافة
+        - name: المخطط المختلط الموزع
           items:
-            - name: وحدات نطاق السحابة والحافة لأحمال التصنيع وإدارة المستودعات
+            - name: قياس الوحدات في الطوبولوجيا المختلطة الموزعة
               href: cloud-edge/cloud-edge-landing-page.md
             - name: انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD
               href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
@@ -753,8 +757,6 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: حزمة محتوى إدارة التكلفة في Power BI
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ‏‫استكشاف الأخطاء في إدارة التكلفة وإصلاحها
-              href: cost-management/troubleshoot-costmanagement.md
         - name: إعداد التقارير وعمليات تكامل Power BI
           items:
             - name: إعداد التقارير والتحليلات مع Power BI
@@ -1257,6 +1259,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: استيراد التكوينات (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory configuration service (RCS)
+                  items:
+                    - name: نظرة عامة على Regulatory configuration service (RCS)
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تنزيل تكوينات التقارير الإلكترونية (ER) إلى Supply Chain Management
+                      items:
+                        - name: تنزيل التكوينات من RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: استيراد التكوينات من RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: المستودع العالمي (GR)
+                      items:
+                        - name: استيراد التكوينات من GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: استيراد إصدارات محدَّثة من تكوينات التقارير الإلكترونية (ER)
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: تصفية محسنة للعثور على التكوينات في GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: تحميل التكوينات إلى GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: مشاركه التكوينات في GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: إيقاف التكوينات في المستودع العمومي لـ RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: دلائل البدء السريع
               items:
                 - name: ضبط تنسيق التقارير الإلكترونية (ER) لإنشاء مستند إلكتروني مخصص
@@ -1313,10 +1339,14 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
                         - name: تعديل تنسيقات وتشغيلها لاستخدام ملفات إدارة المستندات
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تصحيح مصادر البيانات
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: استخدام BARCODE لإنشاء صور الكود الشريطي
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: استخدام مصادر بيانات تجميع البيانات في تنسيقات ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تصحيح مصادر البيانات
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين تعيينات النماذج
                   items:
                     - name: تكوين تعيينات نماذج ER المعتمدة على سياق البلد
@@ -1383,6 +1413,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تكوين الوجهات المعتمدة على الإجراءات
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تكوين وجهات التقارير الإلكترونية الخاصة بسجلات إدارة الطباعة
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إعداد مرجع لتنسيق ER
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: التحقق التلقائي من صحة التقارير التي تم إنشاؤها
@@ -1431,6 +1463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تحديث التطبيق 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تحديث التطبيق 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
                   items:
                     - name: الاشتراك في حدث لطلب استجابة من معالج الاشتراك
@@ -1441,6 +1475,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
                 - name: بدء قيم مصدر البيانات لنوع USER INPUT PARAMETER من كود المصدر
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
+                - name: تغيير الكود لتمكين المستخدمين من تكوين وجهات التقارير الإلكترونية المسماة واستخدامها
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: إدارة المخزون
           items:
             - name: نظرة عامة على إدارة المخزون
@@ -1547,11 +1583,9 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: مساحة عمل محمولة للمخزون الفعلي
                   href: inventory/inventory-on-hand-mobile-workspace.md
-                - name: استكشاف أخطاء عمليات المخزون وإصلاحها
-                  href: inventory/troubleshoot-inventory-operations.md
             - name: العملية الصادرة
               items:
-                - name: نظرة عامة على العملية الصادرة
+                - name: نظرة عامة على لعملية الصادرة
                   href: inventory/outbound-process.md
                 - name: حجز كميات المخزون
                   href: inventory/reserve-inventory-quantities.md
@@ -1573,14 +1607,14 @@
               items:
                 - name: نظرة عامة على الوظيفة الإضافية "رؤية المخزون"
                   href: inventory/inventory-visibility.md
-                - name: إعداد رؤية المخزون
+                - name: تثبيت إمكانية رؤية المخزون وإعدادها
                   href: inventory/inventory-visibility-setup.md
                 - name: تكوين رؤية المخزون
                   href: inventory/inventory-visibility-configuration.md
+                - name: استخدام تطبيق رؤية المخزون
+                  href: inventory/inventory-visibility-power-platform.md
                 - name: حجوزات رؤية المخزون
                   href: inventory/inventory-visibility-reservations.md
-                - name: Power App رؤية المخزون
-                  href: inventory/inventory-visibility-power-platform.md
                 - name: واجهات API العامة لرؤية المخزون
                   href: inventory/inventory-visibility-api.md
         - name: ذكاء IoT
@@ -1697,6 +1731,8 @@
                   href: master-planning/tasks/create-plan-site.md
                 - name: التقويمات والتخطيط الرئيسي
                   href: master-planning/supply-chain-calendars-master-planning.md
+                - name: حل رسالة الخطأ محرك الجدولة "تعذر العثور على قدرة كافية"
+                  href: master-planning/not-enough-capacity-error-resolution.md
                 - name: تحسين أداء التخطيط الرئيسي
                   href: master-planning/master-planning-performance.md
                 - name: تحسين أداء محرك الجدولة
@@ -1759,8 +1795,6 @@
                   items:
                     - name: طرق خفض التنبؤ
                       href: master-planning/reduction-keys.md
-            - name: استكشاف أخطاء التخطيط الرئيسي وإصلاحها
-              href: master-planning/troubleshoot-masterplanning.md
         - name: تطبيق الأجهزة المحمولة
           items:
             - name: الصفحة الرئيسية لتطبيق الجوال
@@ -1963,8 +1997,6 @@
               href: procurement/procurement-sourcing-overview.md
             - name: سير عمل التدبير وتحديد الموارد
               href: procurement/procurement-sourcing-workflows.md
-            - name: استكشاف الأخطاء وإصلاحها في عمليات سير العمل للتدبير وتحديد الموارد
-              href: procurement/troubleshoot-procurementworkflows.md
             - name: كتالوجات التدبير
               items:
                 - name: نظرة عامة على كتالوجات التدبير
@@ -2001,12 +2033,10 @@
                   href: procurement/purchase-order-overview.md
                 - name: اعتماد أوامر الشراء وتأكيدها
                   href: procurement/purchase-order-approval-confirmation.md
-                - name: مساحة العمل المحمولة "الموافقة على أمر الشراء"
+                - name: مساحة العمل المحمولة "الموافقة على أمر الشراء​"
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: تسجيل استلام البضائع في أمر الشراء
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
-                - name: استكشاف أخطاء أوامر الشراء وإصلاحها
-                  href: procurement/troubleshoot-purchaseorders.md
             - name: إنشاء أمر شراء
               items:
                 - name: إنشاء أوامر شراء يدويًا
@@ -2037,8 +2067,6 @@
                   href: procurement/automatic-charges-allocation.md
                 - name: خصومات المورد
                   href: procurement/vendor-rebates.md
-                - name: استكشاف أخطاء الأسعار والخصومات والاتفاقيات والحسومات وإصلاحها
-                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: نُهُج الشراء
               items:
                 - name: نظرة عامة على سياسات الشراء
@@ -2053,8 +2081,6 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: نظرة عامة على فواتير المورّدين
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: استكشاف الأخطاء وإصلاحها في إيصالات استلام المنتجات والفوترة
-                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: إدارة وتعاون المورد‬
               items:
                 - name: إعداد تعاون المورد والمحافظة عليه
@@ -2109,6 +2135,8 @@
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: إرسال مراجعات موازنات المشاريع والموافقة عليها
                   href: procurement/tasks/submit-approve-project-budget-revision.md
+            - name: الأسئلة المتداولة حول التدبير
+              href: procurement/procurement-faq.md
         - name: إدارة معلومات المنتج
           items:
             - name: نظرة عامة على معلومات المنتجات
@@ -2203,8 +2231,6 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: عمليات حساب BOM
                   href: cost-management/bom-calculations.md
-                - name: استكشاف أخطاء معلومات المنتج وإصلاحها
-                  href: pim/troubleshooting-productinformation.md
             - name: تكوين المنتج
               items:
                 - name: نظرة عامة على تكوين المنتج
@@ -2267,8 +2293,8 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: نقل البيانات لنماذج المنتجات
                       href: pim/tasks/transfer-data-product-models.md
-                - name: استكشاف أخطاء مكون المنتج وإصلاحها
-                  href: pim/troubleshooting-productconfigurator.md
+            - name: الأسئلة المتداولة إدارة معلومات المنتج
+              href: pim/product-information-faq.md
         - name: إدارة التغيير الهندسي
           items:
             - name: نظرة عامة حول إدارة التغيير الهندسي
@@ -2459,10 +2485,8 @@
                       href: production-control/pay-based-on-registrations.md
                     - name: تسجيل الغياب في الوقت والحضور
                       href: production-control/absence-registration-in-time-and-attendance.md
-                    - name: مجموعات مرنة
+                    - name: المجموعات المرنة
                       href: production-control/time-attendance-flex-groups.md
-                - name: استكشاف أخطاء التصنيع المنفصل وإصلاحها
-                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: Lean manufacturing
               items:
                 - name: نظرة عامة على Lean manufacturing
@@ -2615,8 +2639,6 @@
                       href: production-control/consumption.md
                     - name: ترحيل الإنتاج
                       href: cost-management/production-posting.md
-                - name: استكشاف أخطاء التصنيع التحويلي‬ وإصلاحها
-                  href: production-control/troubleshoot-processmanufacturing.md
         - name: إدارة الخصومات
           items:
             - name: نظرة عامة على الوحدة النمطية إدارة الخصومات
@@ -2681,8 +2703,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: تأكيد أوامر المبيعات
                   href: sales-marketing/tasks/confirm-sales-orders.md
-                - name: استكشاف أخطاء أوامر المبيعات وإصلاحها
-                  href: sales-marketing/troubleshooting-sales.md
+                - name: الأسئلة المتداولة حول أمر مبيعات
+                  href: sales-marketing/sales-orders-faq.md
             - name: اتفاقيات البيع
               items:
                 - name: نظرة عامة على اتفاقيات البيع
@@ -2705,9 +2727,7 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: إنشاء عروض أسعار المبيعات وتحريرها
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-                - name: استكشاف أخطاء عروض أسعار المبيعات وإصلاحها
-                  href: sales-marketing/troubleshooting-salesquotation.md
-            - name: مرتجعات
+            - name: المرتجعات
               items:
                 - name: عمليات إرجاع المبيعات
                   href: warehousing/sales-returns.md
@@ -3087,7 +3107,7 @@
               href: landed-cost/landed-cost-inquiries.md
             - name: تقارير التكلفة شاملة التفريغ‬‬
               href: landed-cost/landed-cost-reports.md
-        - name: إدارة المستودعات
+        - name: Warehouse management
           items:
             - name: نظرة عامة على إدارة المستودعات
               href: warehousing/warehouse-management-overview.md
@@ -3115,26 +3135,18 @@
                   href: inventory/quality-management-for-warehouses-processes.md
                 - name: فحص الجودة
                   href: warehousing/quality-check.md
-                - name: استكشاف أخطاء ‏‫عمليات المستودعات الواردة‬ وإصلاحها
-                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: عمليات المستودعات الصادرة
               items:
-                - name: عمليات الحجز في إدارة المستودعات
-                  items:
-                    - name: سياسة مرنة لحجز البعد على مستوى المستودع
-                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
-                    - name: استكشاف الأخطاء في عمليات الحجز بإدارة المستودعات وإصلاحها
-                      href: warehousing/troubleshoot-warehouse-reservations.md
-                    - name: استكشاف الأخطاء وإصلاحها في التدرجات الهرمية للحجوزات الدُفعية والتسلسلية
-                      href: warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md
+                - name: سياسة مرنة لحجز البعد على مستوى المستودع
+                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: إصدار إلى المستودع
+                  href: warehousing/release-to-warehouse-process.md
                 - name: الإصدار الجزئي والشحن الجزئي
                   items:
                     - name: شحن جزئي لحمل النقل
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: إصدار دُفعة أوامر التحويل المحجوزة جزئيًا
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-                    - name: استكشاف أخطاء الإصدار الجزئي والشحنات الجزئية وإصلاحها
-                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: الانتقاء والتعبئة
                   items:
                     - name: إعداد انتقاء نظام المجموعة
@@ -3177,13 +3189,11 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: مرئيات حمل العمل الصادر
                       href: warehousing/outbound-workload-visualization.md
-                    - name: استكشاف أخطاء الانتقاء والتعبئة واصلاحها
-                      href: warehousing/troubleshoot-warehouse-picking-packing.md
-                - name: الاستعاضة
+                - name: تزويد
                   items:
-                    - name: نظرة عامة على الاستعاضة
+                    - name: نظرة عامة على التزويد
                       href: warehousing/replenishment.md
-                    - name: الاستعاضة الفورية
+                    - name: التزويد الفوري
                       href: warehousing/immediate-replenishment.md
                     - name: التزويد بحلول كانبان للسحب
                       href: warehousing/material-replenishment-withdrawal-kanban.md
@@ -3191,12 +3201,10 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: استعاضة حد المنطقة
                       href: warehousing/zone-threshold-replenishment.md
-                    - name: استراتيجيات الاستعاضة
+                    - name: استراتيجيات التزويد
                       href: warehousing/replenishment-strategies.md
-                    - name: استعاضة أعلى من قدرة الموقع
+                    - name: تزويد أعلى من قدرة الموقع
                       href: warehousing/replenishment-over-location-capacity.md
-                    - name: استكشاف أخطاء استعاضة المستودع وإصلاحها
-                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: تحميل الإنشاء والشحنات
                   items:
                     - name: التأكيد والتحويل
@@ -3209,8 +3217,6 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: شحن طرد صغير
                       href: warehousing/small-parcel-shipping.md
-                    - name: استكشاف أخطاء إنشاء الحمولات والشحنات وإصلاحها
-                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: سياسات دمج الشحنات
                   items:
                     - name: سياسات دمج الشحنات
@@ -3231,8 +3237,6 @@
                   href: warehousing/wave-processing.md
                 - name: إعادة طباعة تسميات الموجات وإلغاؤها
                   href: warehousing/reprint-and-void-wave-labels.md
-                - name: استكشاف أخطاء ‏‫عمليات المستودعات الصادرة‬‬ وإصلاحها
-                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: عبر عمليات المستودعات
               items:
                 - name: سياسات عمل المستودع
@@ -3297,8 +3301,6 @@
                       href: warehousing/work-split.md
                     - name: واجهة معدات معالجة المواد (MHAX)
                       href: warehousing/mhax.md
-                    - name: استكشاف أخطاء عمل المستودع وإصلاحها
-                      href: warehousing/troubleshoot-warehouse-work.md
             - name: تطبيق المستودع
               items:
                 - name: تثبيت الأجهزة المحمولة وإعدادها واستخدامها
@@ -3313,8 +3315,6 @@
                       href: warehousing/mobile-barcode-support.md
                     - name: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق Warehouse Management للأجهزة المحمولة
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: استكشاف مشاكل الاتصال وإصلاحها في تطبيق Warehouse Management للأجهزة المحمولة
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: إعداد الحقول والقوائم للأجهزة المحمولة
                   items:
                     - name: تكوين الحقول لتطبيق Warehouse Management للأجهزة المحمولة
@@ -3419,16 +3419,10 @@
                       href: warehousing/gs1-barcodes.md
                     - name: إعداد المستودع لأوامر التحويل
                       href: warehousing/transfer-orders-warehouse.md
-                    - name: استكشاف أخطاء تكوين المستودع وإصلاحها
-                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: الترقية والترحيل
                   items:
                     - name: ترقية عمليات إدارة المستودعات من Microsoft Dynamics AX 2012 إلى Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
-                    - name: استكشاف أخطاء الترقية والترحيل إلى الإدارة المتقدمة للمستودع وإصلاحها
-                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
-                - name: استكشاف أخطاء إعداد المستودع وإصلاحها
-                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: تطوير Supply Chain Management
           items:
             - name: دليل تطوير عنصر تحكم جانت
@@ -3441,6 +3435,14 @@
           items:
             - name: إدارة التكلفة
               items:
+                - name: تباينات تقرير تقادم المخزون
+                  href: troubleshooting/costing/aging-report-discrepancies.md
+                - name: التحذيرات أو الأخطاء عند تغيير حالة فترة دفتر الأستاذ دون إغلاق مخزون
+                  href: troubleshooting/costing/change-ledger-period-without-closing.md
+                - name: الفجوات الوظيفية بين تقارير قيمة/تقادم المخزون وإصدارات التخزين الخاصة به
+                  href: troubleshooting/costing/function-gaps-storage-reports.md
+                - name: يحدث تعارض في التحديث عندما تكون طريقه تقييم المخزون اما تكلفه قياسيه أو معدل نقل
+                  href: troubleshooting/costing/update-conflict-standard-moving.md
                 - name: إعدادات الحقول مفقودة عند نسخ مجموعات نماذج العناصر إلى كيان قانوني آخر
                   href: troubleshooting/costing/copying-item-model-groups.md
                 - name: يتضمن تقرير "التكاليف غير المباشرة قيد المعالجة" أوامر الإنتاج المحذوفة
@@ -3453,6 +3455,20 @@
                   href: troubleshooting/costing/there-is-no-from-dat.md
             - name: إدارة المخزون
               items:
+                - name: تعذر العثور علي مربع الحوار المنسدل "سير العمل" لدفاتر يوميه المخزون
+                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
+                - name: لا يكتمل سير عمل دفتر يومية المخزون أبدًا ولا يمكن معالجة دفتر اليومية
+                  href: troubleshooting/inventory/cant-post-inventory-journal.md
+                - name: تم تأمين دفتر يومية المخزون ولا تعمل وظيفة مجموعة سير العمل
+                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
+                - name: لا تعمل الوحدة وكميه الوحدة بشكل صحيح في دفتر يوميه المخزون
+                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
+                - name: تنطبق حالات سير عمل دفتر يوميه المخزون علي مستوي دفتر اليومية وليس علي مستوي البند
+                  href: troubleshooting/inventory/journal-workflow-conditions.md
+                - name: لا يعمل جزء التصفية علي صفحه القائمة الفعلية كما هو متوقع
+                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
+                - name: الحد الأقصى لعدد الأرقام العشرية لوحدة حفظ المخزون هي 0
+                  href: troubleshooting/inventory/sku-max-decimals-zero.md
                 - name: حركات مخزون متعددة لأرقام الدُفعات دون "عند التحديث الفعلي"
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: يؤدي عكس تقرير باعتباره منتهيًا إلى إنشاء حركة مفتوحة غير متوقعة
@@ -3467,6 +3483,20 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: التخطيط الرئيسي
               items:
+                - name: يعمل تحديد إجمالي قائمة مكونات الصنف بشكل مختلف لأوامر الإنتاج المؤكدة والمقدرة
+                  href: troubleshooting/planning/bom-explosion-works-differently.md
+                - name: لا يتم تحديث قيمة التأخير عند إعادة جدولة أمر مخطط.
+                  href: troubleshooting/planning/delay-value-not-updated.md
+                - name: ويستغرق تحديث الأوامر المخططة وقتا طويلا للتحديث
+                  href: troubleshooting/planning/planned-order-long-update.md
+                - name: يتم إنشاء الأوامر المخططة للمخزون المضمن مع أوامر الإنتاج
+                  href: troubleshooting/planning/planned-orders-in-stock-items.md
+                - name: لا تراعي جدوله الإنتاج حدود الأمان
+                  href: troubleshooting/planning/prod-schedule-safety-margins.md
+                - name: يقوم التخطيط الرئيسي بجدولة أكثر من السعه المتوفرة
+                  href: troubleshooting/planning/respect-capacity-limitations.md
+                - name: تعذر العثور على قدرة كافية
+                  href: troubleshooting/planning/not-enough-capacity-error.md
                 - name: تتلقى رسالة خطأ عند تشغيل محرك التخطيط الرئيسي المضمن
                   href: troubleshooting/planning/deprecated-master-planning-error.md
                 - name: يتعذر وجود BOM أو معادلة لدى الصنف
@@ -3499,12 +3529,68 @@
                   href: troubleshooting/planning/when-importing-to-th.md
             - name: التدبير
               items:
+                - name: يوجد توزيع محاسبي واحد أو أكثر اما بزيادة أو بالنقصان
+                  href: troubleshooting/procurement/accounting-over-under-distributed.md
+                - name: يمكنك فقط إكمال اجراء أمر شراء لأرقام السطور الموزعة بالكامل.
+                  href: troubleshooting/procurement/action-requires-full-distribution.md
+                - name: يتعذر تغيير تاريخ السريان لمورد معتمد.
+                  href: troubleshooting/procurement/approved-vendor-effective-date.md
+                - name: تظهر أوامر الشراء الملغية في قائمه المسودة في مساحة العمل
+                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
+                - name: يمكن ترحيل الحركات إلى حساب دفتر أستاذ مرحلي
+                  href: troubleshooting/procurement/canceled-receipts-posted.md
+                - name: إلغاء باقي التسليم نقل أمر الشراء إلى حالة مؤكدة
+                  href: troubleshooting/procurement/change-management-canceled-remainder.md
+                - name: لا يمكن دمج إيصالات استلام منتجات متعددة في أمر شراء واحد
+                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
+                - name: لا يتم ملء مجموعة الضريبة الافتراضية والخصم النقدي من حساب الفاتورة
+                  href: troubleshooting/procurement/default-tax-group-and-discount.md
+                - name: لم تتم مزامنة اسم التسليم بعد تغيير عنوان تسليم أمر الشراء
+                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
+                - name: حدوث استثناء اثناء ترحيل فاتورة المورد
+                  href: troubleshooting/procurement/invocation-target-exception.md
+                - name: تعرض أوامر الشراء المستوردة أرقام الأسطر غير الصحيحة
+                  href: troubleshooting/procurement/line-number-increments.md
+                - name: الحد الأقصى لاتفاقيه الشراء غير فعال في طلب شراء
+                  href: troubleshooting/procurement/max-limit-on-requisition.md
+                - name: خطا "حدث عدم تعيين مرجع الكائن" أثناء تأكيد أمر الشراء
+                  href: troubleshooting/procurement/object-reference-not-set.md
+                - name: يوجد توزيع محاسبي إما بزيادة أو بالنقصان
+                  href: troubleshooting/procurement/over-under-distribution.md
+                - name: لا يمكن إضافة حقل وحدة السعر إلى صفحة اتفاقية الشراء
+                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
+                - name: لا تعكس أوامر الشراء إعدادات اللغة الخاصة بالكيان القانوني
+                  href: troubleshooting/procurement/po-language.md
+                - name: لا يتضمن إيصال استلام أمر الشراء كافة المصروفات
+                  href: troubleshooting/procurement/po-receipt-missing-charges.md
+                - name: لا يتم حساب أسعار الوحدات على أوامر الشراء استنادًا إلى تحويل الوحدة
+                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
+                - name: الإعداد "ترحيل إلى حساب مصاريف في دفتر الأستاذ" ليس قيد التشغيل
+                  href: troubleshooting/procurement/post-setting-turned-off.md
+                - name: خطأ عند إعادة إرسال أمر شراء إلى سير عمل بعد تغيير
+                  href: troubleshooting/procurement/resubmit-po-after-change.md
+                - name: إصدارات تحويل عملة الاتفاقية التجارية
+                  href: troubleshooting/procurement/trade-agreement-currencies.md
+                - name: شروط الاتفاقية التجارية غير مطبقة على سطور الأوامر المستوردة
+                  href: troubleshooting/procurement/trade-agreement-not-applied.md
+                - name: يمكن إنشاء الاتفاقيات التجارية من طلبات عروض الأسعار (RFQ)‬ المرفوضة
+                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
+                - name: لا يتم تجميع تخفيضات المورّد استنادًا إلى الفواتير
+                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
+                - name: يتم استهلاك رقم إيصال استلام المنتجات حتى عند عدم إنشاء إيصال
+                  href: troubleshooting/procurement/voucher-number-consumed.md
                 - name: لا يمكنك فوترة أمر مبيعات موجه للعملاء
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: تتعذر إضافة بند إلى طلب شراء بعد طلب تغيير
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: إدارة معلومات المنتج
               items:
+                - name: لا يمكنك حذف منتج تم إصداره
+                  href: troubleshooting/products/cant-delete-released-prod.md
+                - name: تم تقريب الأعداد الصحيحة بشكل غير صحيح عند حساب نماذج تكوين المنتج
+                  href: troubleshooting/products/integers-incorrectly-rounded.md
+                - name: تتم الكتابة فوق نص الصنف عند تكوين منتج في بند أمر التوريد
+                  href: troubleshooting/products/text-overwritten-configured-item.md
                 - name: لا يمكنك تطبيق قالب لإنشاء منتج صادر
                   href: troubleshooting/products/apply-template-in-re.md
                 - name: لا يمكنك استيراد صنف باستخدام كيان المنتجات الصادرة V2
@@ -3513,6 +3599,32 @@
                   href: troubleshooting/products/when-the-customer-ad.md
             - name: التحكم بالإنتاج
               items:
+                - name: خطأ في تحديد تكاليف الإصدار التلقائي أثناء إقفال المخزون
+                  href: troubleshooting/production/backflush-costing-calculation-error.md
+                - name: يتعذر إنهاء أمر إنتاج بسبب خطأ قيمة BOM consumptionCost
+                  href: troubleshooting/production/bom-consumption-cost-error.md
+                - name: لا يمكن إدراج قائمة مكونات الصنف والمسار عند إنشاء أمر إنتاج جديد
+                  href: troubleshooting/production/cant-insert-bom-route-number.md
+                - name: إنهاء المهام قيد التقدم عند الإبلاغ عن كمية جزئية على الوظيفة الأخيرة
+                  href: troubleshooting/production/in-progress-jobs-ended.md
+                - name: لا يمكن حجز الصنف RM بالكامل عند إصدار أمر إنتاج
+                  href: troubleshooting/production/item-rm-not-reserved.md
+                - name: الإبلاغ عند فشل التحديث المنتهي مع وجود خطأ في الكمية المفقودة
+                  href: troubleshooting/production/missing-report-finished-quantity.md
+                - name: حدث خطأ عندما تم ترحيل دفتر يومية التقرير باعتباره منتهيًا
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: حدث خطأ عند تغيير حالة أمر الإنتاج من الإعلام كمنتهي إلى النهاية
+                  href: troubleshooting/production/production-order-status-error.md
+                - name: لا يتم عرض أوامر الإنتاج في صفحة وضع العلامات
+                  href: troubleshooting/production/production-orders-marking-page.md
+                - name: لم يتم تحديث اسم المورد بعد تغيير اسم العامل في دفتر العناوين
+                  href: troubleshooting/production/resource-name-not-updated.md
+                - name: إجمالي الحدث خطأ في الكمية الجيدة عند محاولة إنهاء أمر إنتاج
+                  href: troubleshooting/production/total-good-quantity-order-error.md
+                - name: لا يمكن تتبع الأرقام التسلسلية لسلع منتهية مقابل منتجات البضائع المستهلكة
+                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
+                - name: لا يمكن حجز أو إصدار العمل لأن العمليات قيد الاستخدام حاليا
+                  href: troubleshooting/production/warehouse-management-processes-used.md
                 - name: لا تتم مراعاة إعدادات قاعده المسح في بنود BOM
                   href: troubleshooting/production/flushing-principle-n.md
                 - name: تم مسح رقم الدُفعة عند تحديد معرف دفعة جديد
@@ -3531,6 +3643,18 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: المبيعات والتسويق
               items:
+                - name: صنف المجموعة غير مدعوم في عملية بين الشركات الشقيقة
+                  href: troubleshooting/sales/bundle-item-intercompany-process.md
+                - name: لا يمكنني إلغاء أمر شراء بين الشركات الشقيقة يرتبط بأمر مبيعات
+                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
+                - name: لا يمكن إزالة عمليات الحجز عند إلغاء أمر
+                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
+                - name: في حالة وجود اتفاقيات تجارة للتواريخ المتداخلة ، يتم تحديد نفس الاتفاقية دائما
+                  href: troubleshooting/sales/same-trade-agreement-selected.md
+                - name: لا يمكن تغيير كمية المبيعات لصنف خدمة في بند عرض أسعار المبيعات
+                  href: troubleshooting/sales/service-item-sales-quantity.md
+                - name: لا يتم تحديث معلومات الضريبة إذا تم تغيير الموقع في رأس أمر التوريد
+                  href: troubleshooting/sales/tax-information-not-updated.md
                 - name: لا يمكن خفض الكمية عند إلغاء أمر المبيعات
                   href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: يتعذر على مسؤولي النظام مسح الأوامر المعلقة لأنهم غير مخوّلين للقيام بذلك
@@ -3541,6 +3665,90 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: إدارة المستودعات
               items:
+                - name: تظهر مطالبة الحجز التلقائي لرقم المجموعة حتى مع المخزون المتوفر
+                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
+                - name: لا يمكن إلغاء حظر العمل الخاص بالانتقاء بسبب عمل التزويد غير المنتهي
+                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
+                - name: لا يمكنني إلغاء إيصال التعبئة بعد ترحيله من أمر المبيعات
+                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
+                - name: يتعذر نقل لوحة الترخيص إذا كان الرقم التسلسلي يشتمل على إصدار فارغ ويسمح بإيصال فارغ مسموح به
+                  href: troubleshooting/warehousing/cant-move-license-plate.md
+                - name: لا يمكن نقل المخزون إلى موقع يتم التحكم فيه بواسطة لوحة الترخيص
+                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
+                - name: ربط الثقة لمسار الشهادة التي لم يتم العثور عليها عند اعداد اتصال التطبيق
+                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                - name: يتعذر العثور علي ملف تعريف نظام المجموعة
+                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
+                - name: لا يمكن معالجة تصحيح مذكرة التسليم
+                  href: troubleshooting/warehousing/delivery-note-correction.md
+                - name: حدث خطأ عند تأكيد الشحنة بعد إنشاء أمر تحويل لصنف تسلسلي
+                  href: troubleshooting/warehousing/dimension-location-left-blank.md
+                - name: التسليم المباشر غير قادر على معالجة لمستودع تم تمكين WMS عليه
+                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
+                - name: يتم خلط أنواع المخزون عند استخدام ملف تعريف إدارة المساحات
+                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
+                - name: لا يقوم الخيار المتعدد SKU بتقييم العديد من إجراءات التوجيه للموقع
+                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
+                - name: لا يتم إنشاء الأعمال التصنيعية فور إصدار التحميل الصادر
+                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
+                - name: حدث خطأ في لوحة الترخيص عند فحص معرف لوح الترخيص في تطبيق الأجهزة المحمولة
+                  href: troubleshooting/warehousing/invalid-license-plate.md
+                - name: غير مسموح بمالك المخزون عند معالجة الحركات في تطبيق المستودع
+                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
+                - name: يتعذر على النظام تحديث كمية المخزون نظرًا لعدم وجود حركات كافية
+                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
+                - name: يتعذر تحديد تغيير حالة المخزون في العمود نوع العمل
+                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
+                - name: حدث خطأ في لوحة الترخيص أو الموقع عند الفحص في تطبيق الأجهزة المحمولة
+                  href: troubleshooting/warehousing/license-plate-location-invalid.md
+                - name: كمية لوحة الترخيص غير صالحة عند تسجيل الأوامر الواردة
+                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
+                - name: حدث خطأ في مواصفات لوحة الترخيص عند تأكيد الشحن لأمر التحويل
+                  href: troubleshooting/warehousing/license-plate-specified-location.md
+                - name: أحد البنود موجود بالفعل في تحميل
+                  href: troubleshooting/warehousing/line-already-on-load.md
+                - name: حدث خطأ في وزن التحميل وتم إلغاء التحديث عند معالجة العمل بين المواقع
+                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
+                - name: لا يعمل استلام لوحه الترخيص المختلط لأي كود ترتيب ما عدا الاعتماد.
+                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
+                - name: يمكن فقط استخدام دور المسؤول للوصول إلى محاكي تطبيق الأجهزة المحمولة
+                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
+                - name: المشكلات التي يتم نقلها من التخزين الأساسي إلى التخزين المتقدم
+                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
+                - name: عدم العثور على عمل كاف لنظام المجموعة عند استخدام النظام الموجه لانتقاء المجموعة
+                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
+                - name: وتبقى حالة الأمر تم إصدارها جزئيا حتى بعد أن تتم فوترة أمر التوريد
+                  href: troubleshooting/warehousing/order-status-partially-released.md
+                - name: لا يمكنني استخدام تطبيق Warehouse Management للأجهزة المحمولة لإجراء انتقاء جزئي
+                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
+                - name: تمكين تغيير حالة المخزون للعمل الجزئي للكمية
+                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
+                - name: طباعة ملاحظة التسليم أو محتوى التعبئة حسب المستودع أو الموقع
+                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
+                - name: الكمية غير صالحة عند وجود عمل الانتقاء مع العديد من وحدات LP في أحد المواقع
+                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
+                - name: الكمية غير صالحة عند اجراء انتقاء التقسيم عبر دفعات متعددة
+                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
+                - name: لا يمكنك إصدار تحميل تم شحنه جزئيا للمستودع
+                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
+                - name: لا يمكن للنظام إجراء عمليات حجز نظرا لتوفر 0.00 في المخزون
+                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
+                - name: يتعذر إنشاء سطر التحميل لأمر توريد الإرجاع بسبب أبعاد مخزون غير صالحة
+                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
+                - name: تعذر إصدار أمر المبيعات بعمليات المستودع الصادر
+                  href: troubleshooting/warehousing/sales-order-not-released.md
+                - name: تم تأكيد الشحنة الخاصة بالحمل، لكن لم يتم ترحيل أية بنود
+                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
+                - name: قوالب الفترات الزمنية لا تراعي المخزون الفعلي للأصناف المجمعة أعلى
+                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
+                - name: لا يمكن إصدار تحميل للكمية الجزئية مع التدرج الهرمي للحجز من المجموعة
+                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
+                - name: يتم تأكيد أوامر الشراء غير المؤكدة بعد تشغيل تحديث إيصالات استلام المنتجات
+                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
+                - name: لا يمكن إلغاء حجز المخزون في سطر أمر المبيعات
+                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
+                - name: لم يتم العثور على ربط الثقة لمسار الشهادة عند التحديث والترحيل إلى WMS
+                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: لا يمكنك تأكيد الشحنة لأن العميل معلق
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: لا يمكنك تأكيد الشحنة لأن بنود التحميل تحتوي على كمية صفر
