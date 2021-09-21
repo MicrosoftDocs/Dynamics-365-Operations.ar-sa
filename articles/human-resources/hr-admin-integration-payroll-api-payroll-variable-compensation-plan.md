@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 96a644bf129de6dd3f78098bcb6415d17058d6decbd7d904a99bb6f050d3a9e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c30df23debed9e2ab90745e6ea9d0e6b8a05b6d5
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730432"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429213"
 ---
 # <a name="payroll-variable-compensation-plan"></a>خطة التعويض المتغير لكشف الرواتب
 
@@ -36,44 +36,51 @@ ms.locfileid: "6730432"
 
 | الخاصية</br>**الاسم الفعلي**</br>**_النوع_** | استخدام | الوصف |
 | --- | --- | --- |
-| **رقم الموظف**</br>mshr_personnelnumber</br>*سلسلة* | للقراءة فقط</br>مطلوب |رقم الموظف الفريد الخاص بالموظف.  |
-| **تاريخ المكافأة**</br>mshr_awarddate</br>*الفرق بالتاريخ والوقت* | للقراءة فقط</br>مطلوب | التاريخ الخاص بالمكافأة. |
-| **نوع المكافأة**</br>mshr_awardtype</br>*[مجموعة خيارات mshr_HrmCompVarAwardEmplType](hr-admin-integration-payroll-api-award-type.md)* | للقراءة فقط</br>مطلوب | نوع المكافأة المعرّف لخطة التعويض المتغير. |
-| **عملة**</br>mshr_unitcurrencycode</br>*سلسلة* | للقراءة فقط </br>مطلوب |العملة المحددة لخطة التعويض المتغير.   |
+| **رقم الموظف**</br>mshr_personnelnumber</br>*سلسلة* | للقراءة فقط | رقم الموظف الفريد الخاص بالموظف.  |
+| **تاريخ المكافأة**</br>mshr_awarddate</br>*الفرق بالتاريخ والوقت* | للقراءة فقط | التاريخ الخاص بالمكافأة. |
+| **نوع المكافأة**</br>mshr_awardtype</br>*[مجموعة خيارات mshr_HrmCompVarAwardEmplType](hr-admin-integration-payroll-api-award-type.md)* | للقراءة فقط | نوع المكافأة المعرّف لخطة التعويض المتغير. |
+| **عملة**</br>mshr_unitcurrencycode</br>*سلسلة* | للقراءة فقط |العملة المحددة لخطة التعويض المتغير.   |
 | **معرف خطة التعويض الثابت**</br>mshr_fixedplanid</br>*سلسلة* | للقراءة فقط | خطة التعويض الثابت التي تُستخدم كأساس لحساب المكافأة. |
 | **قيمة الوحدة**</br>mshr_awardamount</br>*عشري* | للقراءة فقط | قيمة الوحدة |
 | **نوع العملية**</br>mshr_processtype</br>*[مجموعة خيارات mshr_hrmCompProcessType](hr-admin-integration-payroll-api-process-type.md)* | للقراءة فقط | نوع العملية. |
 | **نوع خطة التعويض المتغير**</br>سلسلة</br>*mshr_typeid* | للقراءة فقط | نوع خطة التعويض المتغير. |
 | **معرف خطة التعويض المتغير**</br>سلسلة</br>*mshr_planid* | للقراءة فقط | المعرف لخطة التعويض المتغير. |
+| **عدد الوحدات**</br>عشري</br>*mshr_numberofunits* | للقراءة فقط | عدد وحدات الصنف المكافأة. |
 | **الحقل الأساسي**</br>mshr_primaryfield</br>*GUID* | للقراءة فقط</br>منشأ بواسطة النظام. | |
-| **معرف الموظف**</br>mshr_fk_employee_id_value</br>*GUID* | للقراءة فقط</br>مطلوب</br>مفتاح خارجي:mshr_Employee_id لـ mshr_payrollemployeeentity entity  | معرف الموظف. |
-| **كيان خطة التعويض المتغير لكشف الرواتب**</br>mshr_payrollvariablecompensationawardentityid</br>*GUID* | مطلوب</br>النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف خطة التعويض بشكل فريد. |
+| **كيان خطة التعويض المتغير لكشف الرواتب**</br>mshr_payrollvariablecompensationawardentityid</br>*GUID* | النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف خطة التعويض بشكل فريد. |
 
+## <a name="relations"></a>العلاقات 
+
+|قيمة الخاصية | الكيان المرتبط | خاصيه التنقل | نوع التجميع |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_VariableCompAward |
+| _mshr_fk_fixedcomp_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedComp_id | mshr_FK_PayrollFixedCompensationPlanEntity_VariableCompAward |
 
 ## <a name="example-query"></a>مثال الاستعلام
 
 **الطلب**
 
 ```http
-GET [Organizaton URI]/api/data/v9.1/mshr_payrollvariablecompensationawardentities?$filter=mshr_personnelnumber eq '000001'
+GET [Organizaton URI]/api/data/v9.1/mshr_payrollvariablecompensationawardentities?$filter=mshr_personnelnumber eq '000046'
 ```
 
 **استجابة**
 
 ```json
 {
-    "mshr_personnelnumber": "000001",
+    "mshr_personnelnumber": "000046",
     "mshr_awarddate": "2015-01-15T00:00:00Z",
     "mshr_awardtype": 200000000,
     "mshr_unitcurrencycode": "USD",
     "mshr_fixedplanid": "",
-    "mshr_awardamount": 1,
+    "mshr_unitvalue": 1,
     "mshr_processtype": 200000003,
     "mshr_typeid": "Bonus",
     "mshr_planid": "MgBonus",
-    "mshr_primaryfield": "000001 | MgBonus | Bonus | 1/15/2015",
-    "_mshr_fk_employee_id_value": "00000655-0000-0000-adff-004105000000",
-    "mshr_payrollvariablecompensationawardentityid": "000001a1-0000-0000-adff-004105000000",
+    "mshr_numberofunits": 1500,
+    "mshr_primaryfield": "000046 | MgBonus | Bonus | 1/15/2015",
+    "_mshr_fk_employee_id_value": "00000666-0000-0000-daff-004105000000",
+    "mshr_payrollvariablecompensationawardentityid": "000001a4-0000-0000-0d00-005001000000",
     "_mshr_fk_fixedcomp_id_value": null
 }
 ```

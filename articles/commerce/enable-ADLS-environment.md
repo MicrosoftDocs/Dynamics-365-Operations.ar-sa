@@ -1,8 +1,8 @@
 ---
 title: تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce
-description: يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage لبيئة Dynamics 365 Commerce، وهو عبارة عن شرط أساسي لتمكين توصيات المنتج.
+description: يوفر هذا الموضوع إرشادات حول كيفية توصيل حل Azure Data Lake Storage Gen 2 بمتجر الكيانات في بيئات Dynamics 365 Commerce. هذه الخطوة مطلوبة قبل تمكين توصيات المنتج.
 author: bebeale
-ms.date: 04/13/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,42 +16,41 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8ec56a260501c0d33145c23cb9656446bc871f7c448bbbf33330ad591c506e49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775352"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466282"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تمكين واختبار Azure Data Lake Storage لبيئة Dynamics 365 Commerce، وهو عبارة عن شرط أساسي لتمكين توصيات المنتج.
+يوفر هذا الموضوع إرشادات حول كيفية توصيل حل Azure Data Lake Storage Gen2 بمتجر الكيانات في بيئات Dynamics 365 Commerce. هذه الخطوة مطلوبة قبل تمكين توصيات المنتج.
 
-في الحل Dynamics 365 Commerce، يتم تعقب كل المنتجات والحركات في مخزن كيانات البيئة. لتمكين وصول هذه البيانات لخدمات Dynamics 365 الأخرى، مثل تحليلات البيانات والمعلومات المهنية والتوصيات المخصصة، من الضروري توصيل البيئة بحل Azure Data Lake Storage Gen 2 الذي يملكه العميل.
+في حل Dynamics 365 Commerce، يتم تجميع البيانات اللازمة لحساب التوصيات والمنتجات والحركات في متجر كيانات البيئة. لتمكين وصول هذه البيانات لخدمات Dynamics 365 الأخرى، مثل تحليلات البيانات والمعلومات المهنية والتوصيات المخصصة، من الضروري توصيل البيئة بحل Azure Data Lake Storage Gen2 الذي يملكه العميل.
 
-مع تكوين Azure Data Lake Storage لبيئة، يتم إجراء نسخ متطابق لكل البيانات الضرورية من مخزن الوحدات وهي لا تزال محمية وخاضعة لمراقبة العميل.
+بعد اكتمال الخطوات السابقة، يتم تلقائياً نسخ كافة بيانات العميل الموجودة في متجر كيانات البيئة إلى حل Azure Data Lake Storage Gen 2 للعميل. عند تمكين ميزات التوصيات من خلال مساحة عمل إدارة الميزات في المركز الرئيسي لـ Commerce، سيتم منح مكدس التوصيات حق الوصول إلى نفس حل Azure Data Lake Storage Gen2.
 
-في حالة تمكين توصيات المنتجات‬ أو التوصيات المخصصة أيضًا في البيئة، سيتم منح مكدس توصيات المنتجات إمكانية الوصول إلى المجلد المخصص في Azure Data Lake Storage لاسترداد بيانات العميل وحساب التوصيات استنادًا إليه.
+أثناء العملية بأكملها تظل بيانات العملاء محمية وتصبح تحت تحكمهم.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-يحتاج العملاء إلى تكوين Azure Data Lake Storage في أحد اشتراكات Azure التي يملكونها. لا يتناول هذا الموضوع شراء اشتراك Azure أو إعداد حساب تخزين تم تمكين Azure Data Lake Storage له.
+يجب توصيل متجر كيانات بيئة Dynamics 365 Commerce بحساب Azure Data Lake Gen Storage Gen2 والخدمات المرفقة به.
 
-لمزيد من المعلومات حول Azure Data Lake Storage، راجع [ وثائق Azure Data Lake Storage Gen2](https://azure.microsoft.com/pricing/details/storage/data-lake).
+لمزيد من المعلومات حول Azure Data Lake Storage Gen2وكيفية إعداده، راجع [وثائق Azure Data Lake Storage Gen2الرسمية](https://azure.microsoft.com/pricing/details/storage/data-lake).
   
 ## <a name="configuration-steps"></a>خطوات التكوين
 
-يغطي هذا القسم خطوات التكوين الضرورية لتمكين Azure Data Lake Storage في بيئة ما كما يتعلق بتوصيات المنتجات.
-للحصول على نظرة عامة أكثر عمقًا للخطوات المطلوبة لتمكين Azure Data Lake Storage، راجع [جعل مخزن الكيانات‬ متوفرًا كـ Data Lake‬](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+يغطي هذا القسم خطوات التكوين الضرورية لتمكين Azure Data Lake Storage Gen2في بيئة ما كما يتعلق بتوصيات المنتجات.
+للحصول على نظرة عامة أكثر عمقًا للخطوات المطلوبة لتمكين Azure Data Lake Storage Gen2، راجع [جعل متجر الكيانات‬ متوفرًا كـ Data Lake‬](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-azure-data-lake-storage-in-the-environment"></a>تمكين Azure Data Lake Storage في البيئة
 
 1. سجل الدخول إلى مدخل المكتب الخلفي للبيئة.
 1. ابحث عن **معلمات النظام** وانتقل إلى علامة التبويب **اتصالات البيانات**. 
 1. عيِّن **تمكين تكامل Data Lake** على **نعم**.
-1. عيِّن **تحديث Data Lake بشكل تدريجي** على **نعم**.
 1. ثم أدخل المعلومات المطلوبة التالية:
     1. **معرف التطبيق** // **سر التطبيق** // **اسم DNS** - مطلوب للاتصال ب KeyVault حيث يتم تخزين سر Azure Data Lake Storage.
     1. **اسم السر** - اسم السر المخزن في KeyVault والمستخدم للمصادقة مع Azure Data Lake Storage.
@@ -67,7 +66,7 @@ ms.locfileid: "6775352"
 1. اختبر اتصال Azure Data Lake Storage باستخدام ارتباط **اختبار Azure Storage**.
 
 > [!NOTE]
-> في حالة فشل الاختبارات، تحقق مرة أخرى من صحة كل معلومات KeyVault المضافة أعلاه، ثم حاول مرة أخرى.
+> في حالة فشل أي من الاختبارات أعلاه، تأكد من صحة جميع معلومات KeyVault المضافة، ثم حاول مرة أخرى.
 
 بمجرد نجاح اختبارات الاتصال، يجب تمكين التحديث التلقائي لمخزن الوحدات.
 

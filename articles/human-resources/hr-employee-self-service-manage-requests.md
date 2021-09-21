@@ -1,8 +1,8 @@
 ---
 title: إدارة طلبات الإجازة والغياب
 description: عرض طلبات الغياب والإجازة والموافقة عليها في Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/21/2021
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46b26a3c4f6594bf1e471f241307c2da55d805c65b038233520003db952a2f4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0033196c445a59482798e89913bbb40303462e2b
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769649"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431280"
 ---
 # <a name="manage-leave-and-absence-requests"></a>إدارة طلبات الإجازة والغياب
 

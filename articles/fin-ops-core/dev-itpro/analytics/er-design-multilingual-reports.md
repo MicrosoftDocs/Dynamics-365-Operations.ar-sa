@@ -2,7 +2,7 @@
 title: تصميم تقارير متعددة اللغات في التقارير الإلكترونية
 description: يشرح هذا الموضوع كيف يمكنك استخدام تسميات التقارير الإلكترونية (ER) لتصميم تقارير متعددة اللغات وإنشاءها.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718395"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473395"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>تصميم تقارير متعددة اللغات في التقارير الإلكترونية
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -229,10 +231,14 @@ ms.locfileid: "6718395"
 - يتم تخزين قيمة تسمية ER المرتبطة بسمات **التسمية** في الحقل **التسمية** للسجل الذي تم إرجاعه.
 - يتم تخزين قيمة تسمية ER المرتبطة بسمات **الوصف** في الحقل **الوصف** للسجل الذي تم إرجاعه.
 
+## <a name="performance"></a><a name=performance></a>الأداء
+
+عند تكوين مكون تنسيق ER لإنشاء تقرير [بلغتك](#language)المفضلة، أو لاستيراد مستند وارد حيث يتم تحليل المحتوى بواسطة اللغة التي تفضلها، فإننا نوصي بتمكين ميزة **التخزين المؤقت للغة المفضلة للمستخدم الحالي لعمليات تشغيل ER** في مساحة عمل [إدارة الميزات](../../fin-ops/get-started/feature-management/feature-management-overview.md). تساعد هذه الميزة في تحسين الأداء، خاصة لمكونات تنسيق ER التي تحتوي على مراجع متعددة إلى التسميات بصيغ وروابط ER والعديد من قواعد[التحقق من الصحة](general-electronic-reporting-formula-designer.md#TestFormula) لإنشاء رسائل المستخدم باللغة التي تفضلها.
+
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
-- [وظائف التقارير الإلكترونية](er-formula-language.md#functions)
+- [وظائف التقارير الإلكترونية](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

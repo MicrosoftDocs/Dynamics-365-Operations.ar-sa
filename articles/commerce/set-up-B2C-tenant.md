@@ -2,7 +2,7 @@
 title: إعداد مستأجر B2C في Commerce
 description: يصف هذا الموضوع كيفية إعداد مستأجري متاجرة بين عمل ومستهلك (B2C) في Azure Active Directory (Azure AD) لمصادقة موقع المستخدم في Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344488"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466258"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>إعداد مستأجر B2C في Commerce
 
@@ -37,6 +37,26 @@ ms.locfileid: "7344488"
 
 > [!TIP]
 > يمكنك حماية مستخدمي موقعك وتعزيز أمان مستأجري Azure AD B2Cمع حماية الهوية والوصول المشروط في Azure AD. لمراجعة القدرات المتاحة للمستأجرين في Azure AD من الفئة B2C Premium P1 وP2 المميزين، راجع [حماية الهوية والوصول المشروط إلى Azure AD ‏B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>متطلبات بيئة Dynamics الأساسية
+
+قبل البدء، تأكد من أن بيئة Dynamics 365 Commerce وقناة التجارة الإلكترونية مكونة بشكل مناسب عن طريق تحقيق المتطلبات الأساسية التالية.
+
+- قم بتعيين عمليات نقطة البيع **AllowAnonymousAccess** إلى "1" في المركز الرئيسي لـ Commerce:
+    1. الانتقال إلى **عمليات نقطه البيع**.
+    1. في شبكة العمليات، انقر بزر الماوس الأيمن وحدد **تخصيص**.
+    1. حدد **إضافة حقل**.
+    1. في قائمة الأعمدة المتوفرة، حدد عمود **AllowAnonymousAccess** لإضافته.
+    1. حدد **تحديث**.
+    1. بالنسبة للعملية **612** "إضافة عميل"، قم بتغيير **AllowAnonymousAccess** إلى "1."
+    1. قم بتشغيل المهمة **1090 (السجلات)**.
+- قم بتعيين السمة **يدوي** لحساب عميل التسلسل الرقمي إلى **لا** في المركز الرئيسي لـ Commerce:
+    1. انتقل إلى **التجارة وتجارة التجزئة \> إعداد المراكز \> المعلمات \> معلمات الحسابات المدينة**.
+    1. حدد **تسلسلات رقمية**.
+    1. في صف **حساب العميل**، انقر نقرا مزدوجا فوق قيمة **كود التسلسل الرقمي**.
+    1. في علامة التبويب السريعة **عام** للتسلسل الرقمي، قم بتعيين **يدوي** إلى **لا**.
+
+بعد نشر بيئة Dynamics 365 Commerce الخاصة بك، يوصى أيضًا بـ [تهيئة البيانات الأولية](enable-configure-retail-functionality.md) في البيئة.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>إنشاء مستأجر AAD B2C موجود في مدخل Azure أو الارتباط به
 

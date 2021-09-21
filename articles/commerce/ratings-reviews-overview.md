@@ -15,21 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8b8d8e838b3c42f7dd02ce4adabcb1f412a3834006ad913e8f40191da751c08d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765217"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473467"
 ---
 # <a name="ratings-and-reviews-overview"></a>نظرة عامة على التقييمات والمراجعات
-
 
 [!include [banner](includes/banner.md)]
 
 يغطي هذا الموضوع التقييمات والمراجعات في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تُعد التقييمات والمراجعات ضرورية لعملاء التجارة الإلكترونية الذين يريدون معرفة رأي العملاء الآخرين في المنتج. كما يمكنهم أيضًا مساعدة العملاء على اتخاذ قرارات في الشراء. في Dynamics 365 Commerce، يتيح حل التقييمات والمراجعات لبائعي التجزئة بالحصول على مراجعات وتقييمات المنتجات من العملاء. يمكن لبائعي التجزئة حينها عرض متوسط التقييمات ومراجعة المعلومات عبر موقع الويب الخاص بالتجارة الإكترونية.
 

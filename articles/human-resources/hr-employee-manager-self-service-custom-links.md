@@ -1,8 +1,8 @@
 ---
 title: إنشاء ارتباطات مخصصة في الخدمة الذاتية للمدير
 description: يصف هذا الموضوع كيفية إنشاء ارتباطات مخصصة في الخدمة الذاتية للمدير في Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 11/30/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,23 +12,23 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bca6d5f079a0b356e9ec2a3c40a34ace5b49be5f268b846ff596489a95275f47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1aac3c50cbe40d65abc9bedcdd2a64a6e5a1c1ad
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713044"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431174"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>إنشاء ارتباطات مخصصة في الخدمة الذاتية للمدير
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يمكنك إضافة ارتباطات مخصصة في علامة التبويب **فريقي** في الخدمة الذاتية للمدير. تسمح لك هذه الميزة بتوفير وصول سريع إلى المعلومات المهمة. إنها تشبه إضافة ارتباطات مخصصة في علامة التبويب **المعلومات الخاصة بي** في الخدمة الذاتية للموظف.
+يمكنك إضافة ارتباطات مخصصة في علامة التبويب **فريقي** في **الخدمة الذاتية للمدير**. تسمح لك هذه الميزة بتوفير وصول سريع إلى المعلومات المهمة. إنها تشبه إضافة ارتباطات مخصصة في علامة التبويب **المعلومات الخاصة بي** في **الخدمة الذاتية للموظف**.
 
-## <a name="enable-the--feature"></a>تمكين الميزة
+## <a name="enable-the-feature"></a>تمكين الميزة
 
 لاستخدام هذه الميزة، قم بتمكين **ارتباطات مخصصة في الخدمة الذاتية للمدير‬** في مساحة العمل **إدارة الميزات**. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).
 

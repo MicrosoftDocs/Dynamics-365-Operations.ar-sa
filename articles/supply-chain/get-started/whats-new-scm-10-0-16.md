@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712039"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474906"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
 
@@ -54,36 +54,12 @@ ms.locfileid: "6712039"
 - [أسعار المبيعات المستندة إلى السمات لتكوين منتج مستند إلى قيد](../pim/attribute-based-product-configurator.md)
 - [التوزيع التلقائي للمصاريف](../procurement/automatic-charges-allocation.md)
 - [نظره عامه علي ](../pim/hazmat-overview.md)المواد الخطرة (وموضوعات ذات صله)
-- [الترحيل إلى تحسين التخطيط للتخطيط الرئيسي.](../master-planning/new-master-planning-engine.md)
+- [الانتقال إلى تحسين التخطيط‬ للتخطيط الرئيسي](../master-planning/new-master-planning-engine.md)
 - [تحسينات cXML الشراء](../procurement/purchasing-cxml-enhancements.md)
-- [استكشاف أخطاء إدارة التكلفة وإصلاحها](../cost-management/troubleshoot-costmanagement.md)
-- [استكشاف أخطاء عمليات المستودع الواردة وإصلاحها](../warehousing/troubleshoot-warehouse-inbound.md)
-- [استكشاف أخطاء بناء حمل العمل والشحنات](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [استكشاف أخطاء وظيفة التخطيط الرئيسي وإصلاحها](../master-planning/troubleshoot-masterplanning.md)
-- [استكشاف أخطاء عمليات المستودع الصادرة وإصلاحها](../warehousing/troubleshoot-warehouse-outbound.md)
-- [استكشاف أخطاء الإصدارات الجزئي والشحنات الجزئية وإصلاحها](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [استكشاف أخطاء مكون المنتج وإصلاحها](../pim/troubleshooting-productconfigurator.md)
-- [استكشاف أخطاء معلومات المنتج وإصلاحها](../pim/troubleshooting-productinformation.md)
-- [استكشاف الأخطاء وإصلاحها في عمليات سير العمل للتدبير وتحديد الموارد](../procurement/troubleshoot-procurementworkflows.md)
-- [استكشاف أخطاء أوامر الشراء وإصلاحها](../procurement/troubleshoot-purchaseorders.md)
-- [استكشاف أخطاء الأسعار والخصومات والاتفاقيات والحسومات وإصلاحها](../procurement/troubleshooting-pricediscountagreements.md)
-- [استكشاف الأخطاء وإصلاحها في إيصالات استلام المنتجات والفوترة](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [استكشاف أخطاء التصنيع المنفصل وإصلاحها](../production-control/troubleshoot-discretemanufacturing.md)
-- [استكشاف أخطاء الانتقاء والتعبئة وإصلاحها](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [استكشاف أخطاء التصنيع التحويلي وإصلاحها](../production-control/troubleshoot-processmanufacturing.md)
-- [استكشاف أخطاء عمليات الحجز في إدارة المستودعات وإصلاحها](../warehousing/troubleshoot-warehouse-reservations.md)
-- [استكشاف أخطاء أوامر المبيعات وإصلاحها](../sales-marketing/troubleshooting-sales.md)
-- [استكشاف أخطاء عروض أسعار المبيعات وإصلاحها](../sales-marketing/troubleshooting-salesquotation.md)
-- [استكشاف أخطاء الترقية والترحيل إلى الإدارة المتقدمة للمستودع وإصلاحها](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [استكشاف المشاكل وإصلاحها في تطبيق إدارة المستودع للأجهزة المحمولة](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [استكشاف أخطاء تكوين المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-configuration.md)
-- [استكشاف أخطاء تزويد المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [استكشاف أخطاء إعداد المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-setup.md)
-- [استكشاف أخطاء عمل المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-work.md)
-- [مجموعات التخزين](../warehousing/putaway-clusters.md)
-- [استراتيجيات التزويد](../warehousing/replenishment-strategies.md)
+- [تخزين الكتل](../warehousing/putaway-clusters.md)
+- [استراتيجيات الاستعاضة](../warehousing/replenishment-strategies.md)
 - [تقسيم العمل](../warehousing/work-split.md)
-- [العمل مع توجيهات الموقع](../warehousing/create-location-directive.md)
+- [‏‫العمل باستخدام توجيهات الموقع](../warehousing/create-location-directive.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

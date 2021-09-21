@@ -2,7 +2,7 @@
 title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات Finance and Operations.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774399"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463603"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات Platform التي تمت إزالتها أو إهمالها
 
@@ -32,7 +32,29 @@ ms.locfileid: "6774399"
 
 يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>إخطار بإهلاك الميزة فعال في مايو، 2021
+## <a name="feature-deprecation-effective-august-2021"></a>إهلاك الميزة الساري في أغسطس 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>تقارير Microsoft Azure SQL في Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | ونحن نقوم بإهلاك بعض تقارير SQL في LCS. لن تحتاج إلى مراقبه التقارير نظرا لاستبدال هذه الميزة بالخدمات الأخرى. |
+| **هل تم الاستبدال بميزة أخرى؟**   | لا |
+| **مناطق المنتجات المتأثرة**         | تقارير SQL: DTU الحالي، وتفاصيل DTU الحالية، والحصول على تفاصيل التامين، وقائمة أدلة الخطة الحالية، والحصول على قائمة بمعرفات الاستعلام، والحصول على خطى استعلام SQL لمعرف الخطة المحدد، والحصول على خطط الاستعلام وحالة التنفيذن والحصول على تكوين التقييد، والحصول على إحصاءات الانتظار، وسرد معظم الاستعلامات باهظمة الثمة |
+| **خيارات النشر**              | توزيع السحابة: يؤثر على بيئات الإنتاج التي تتم ادارتها من قبل Microsoft والطبقات من الطبقة 2 إلى الطبقة 5 لبيئات الاختبار المعزول. |
+| **الحالة**                         | ميزة مهملة: تاريخ الإزالة المخطط في أكتوبر 2021. |
+
+### <a name="azure-sql-actions-in-lcs"></a>إجراءات Azure SQL في LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | نحن نقوم بإهلاك بعض إجراءات SQL في LCS.  |
+| **هل تم الاستبدال بميزة أخرى؟**   | لا |
+| **مناطق المنتجات المتأثرة**         | إجراءات SQL: إنشاء دليل خطة لفرض معرف الخطة، وإنشاء دليل خطة لإضافة تلميحات للجدول، وإزالة دليل الخطة، وتعطيل/تمكين تامين الصفحة وتصعيد التأمين، وتحديث الإحصائيات في جدول، أو إعادة إنشاء فهرس، أو إنشاء فهرس |
+| **خيارات النشر**              | توزيع السحابة: يؤثر على بيئات الإنتاج التي تتم ادارتها من قبل Microsoft والطبقات من الطبقة 2 إلى الطبقة 5 لبيئات الاختبار المعزول. |
+| **الحالة**                         | ميزة مهملة: تاريخ الإزالة المخطط في أكتوبر 2021. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>إهلاك الميزة الساري في مايو 2021
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>مدخل العولمة في Lifecycle Services (LCS)
 

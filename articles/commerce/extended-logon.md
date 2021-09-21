@@ -1,8 +1,8 @@
 ---
 title: إعداد تسجيل الدخول الموسع لكل من MPOS وCloud POS
 description: يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لكل من Cloud POS وRetail Modern POS (MPOS).
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748536"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478661"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>إعداد وظيفة تسجيل الدخول الموسع لـ MPOS وCloud POS
 
@@ -58,6 +58,8 @@ ms.locfileid: "6748536"
 لحذف تسجيل الدخول الموسع الذي يتم تعيينه لعامل، ابحث عن العامل باستخدام عملية **تسجيل الدخول الموسع**. حدد العامل، ثم انقر فوق **إلغاء التعيين**. تتم إزالة كافة بيانات اعتماد تسجيل الدخول الموسع التي تقترن بهذا العامل.
 
 ## <a name="extending-extended-logon"></a>توسيع تسجيل الدخول الموسع
+
+يسمح تسجيل الدخول الموسع بخمسة أحرف هامة ليكون المعرف الفريد الجاهز. على سبيل المثال، إذا قمت بتكوين بطاقتين بها المعرفين "1234567" و"1234578 ، سيتم اعتبارهما "12345". يمكنك بناء امتداد لدعم المزيد من الأحرف. للحصول على تعليمات مفصلة ، تحقق من [توسيع وظيفة تسجيل الدخول الموسعة لـ نقطة البيع الحديثة ونقطة البيع السحابية‬](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
 يمكن توسيع خدمة تسجيل الدخول لدعم أجهزة تسجيل الدخول الموسع الإضافي، مثل ماسحات الكمبيوتر الكفي. لمزيد من المعلومات، راجع وثائق قابلية التوسعة لنقطة البيع.
 

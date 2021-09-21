@@ -2,7 +2,7 @@
 title: تمكين توصيات المنتجات
 description: يوضح هذا الموضوع كيفية عمل توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) المتوفرة لعملاء Microsoft Dynamics 365 Commerce.
 author: bebeale
-ms.date: 08/18/2020
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bfecc53a17eb44c5726103b4df738d6c6b0311aec07ad8eab55fa9c94787957a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a7be82b3a40aba621693f080ff41767fdaea474
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752473"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466306"
 ---
 # <a name="enable-product-recommendations"></a>تمكين توصيات المنتجات
 
@@ -31,32 +31,28 @@ ms.locfileid: "6752473"
 
 ## <a name="recommendations-pre-check"></a>توصيات قبل الفحص
 
-قبل التمكين، يرجى العلم أن توصيات المنتج غير مدعومة إلا لعملاء Commerce ممن قاموا بترحيل مساحة التخزين باستخدام Azure Data Lake Storage. 
+1. تأكد من أن لديك ترخيص صالح لتوصيات Dynamics 365 Commerce.
+1. تأكد من أن متجر الكيانات متصل بحساب Azure Data Lake Storage Gen2 مملوك لعميل. لمزيد من المعلومات، راجع [التأكد من شراء Azure Data Lake Storage والتحقق منه في البيئة بنجاح](enable-ADLS-environment.md).
+1. التأكد من أن تكوين الهوية في Azure AD يحتوي على إدخال للتوصيات. توجد أدناه معلومات اضافيه حول كيفية تنفيذ هذا الإجراء.
+1. تأكد من أنه تمت جدولة تحديث متجر الكيانات يومياً إلى Azure Data Lake Storage Gen2. لمزيد من المعلومات، راجع [التأكد من تعيين التنفيذ التلقائي لتحديث مخزن الكيانات](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+1. تمكين قياسات RetailSale لمتجر الكيانات. لمعرفة المزيد عن إعداد هذه العملية، راجع [التعامل مع المقاييس](/dynamics365/ai/customer-insights/pm-measures).
 
-يجب تمكين التكوينات التالية في المكتب الخلفي قبل تمكين التوصيات:
-
-1. تأكد من شراء Azure Data Lake Storage والتحقق منه في البيئة بنجاح. لمزيد من المعلومات، راجع [التأكد من شراء Azure Data Lake Storage والتحقق منه في البيئة بنجاح](enable-ADLS-environment.md).
-2. التأكد من تعيين التنفيذ التلقائي لتحديث مخزن الكيانات‬. لمزيد من المعلومات، راجع [التأكد من تعيين التنفيذ التلقائي لتحديث مخزن الكيانات](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
-3. التأكد من أن تكوين الهوية في Azure AD يحتوي على إدخال للتوصيات. توجد أدناه معلومات اضافيه حول كيفية تنفيذ هذا الإجراء.
-
-بالإضافة إلى ذلك، تأكد من تمكين قياسات RetailSale. لمعرفة المزيد عن عملية الإعداد هذه، راجع [التعامل مع المقاييس](/dynamics365/ai/customer-insights/pm-measures).
+بعد اكتمال الخطوات المذكورة أعلاه، ستكون جاهزًا لتمكين التوصيات.
 
 ## <a name="azure-ad-identity-configuration"></a>تكوين الهوية في Azure AD
 
-هذه الخطوة مطلوبة لجميع العملاء الذين يقومون بتشغيل بنية تحتية على أنها تكوين كخدمة (IaaS). بالنسبة إلى العملاء الذين يقومون بتشغيل Service Fabric (SF)، يجب أن تكون هذه الخطوة تلقائية، وننصح بالتحقق من تكوين الإعداد كما هو متوقع.
+هذه الخطوة مطلوبة فقط للعملاء الذين يقومون بتشغيل تكوين خدمة تأجير البنية التحتية (IaaS). يصبح تكوين هوية Azure AD تلقائياً للعملاء الذين يعملون على Azure Service Fabric، لكن يوصى بأن تتحقق من أنه تم تكوين الإعداد كما هو متوقع.
 
 ### <a name="setup"></a>الإعداد
 
-1. من المكتب الخلفي، ابحث عن صفحة **تطبيقات Azure Active Directory**.
-2. تحقق من وجود إدخال لـ "RecommendationSystemApplication-1".
+1. في المركز الرئيسي لـ Commerce، ابحث عن صفحة **تطبيقات Azure Active Directory**.
+1. تحقق من وجود إدخال لـ **RecommendationSystemApplication-1**. في حالة عدم وجود أي إدخال، قم بإنشاء واحد باستخدام المعلومات التالية:
 
-في حال عدم وجود الإدخال، أضف إدخالاً جديدًا يتضمن المعلومات التالية:
+    - **معرف العميل**: d37b07e8-dd1c-4514-835d-8b918e6f9727
+    - **الاسم‏‎**: RecommendationSystemApplication-1
+    - **معرف المستخدم**: RetailServiceAccount
 
-- **معرف العميل** - d37b07e8-dd1c-4514-835d-8b918e6f9727
-- **الاسم‏‎** - RecommendationSystemApplication-1
-- **معرف المستخدم** - RetailServiceAccount
-
-احفظ الصفحة وإغلاقها. 
+1. احفظ الصفحة وإغلاقها. 
 
 ## <a name="turn-on-recommendations"></a>تشغيل التوصيات
 
@@ -71,15 +67,20 @@ ms.locfileid: "6752473"
 ![تشغيل التوصيات.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
-> يبدأ هذا الإجراء عملية إنشاء قوائم توصيات المنتج. قد تحتاج إلى عدة ساعات قبل أن تصبح القوائم متوفرة ويمكن عرضها في نقطة البيع أو في Dynamics 365 Commerce.
+> - يبدأ الإجراء أعلاه عملية إنشاء قوائم توصيات المنتج. قد تحتاج إلى عدة ساعات قبل أن تصبح القوائم متوفرة ويمكن عرضها في نقطة البيع أو في Dynamics 365 Commerce.
+> - لا يقوم هذا التكوين بتمكين كافة ميزات التوصيات. يتم التحكم في الميزات المتقدمة مثل التوصيات الشخصية و"تسوق أشكال مماثلة" و"تسوق وصف مماثل" بواسطة إدخالات إدارة الميزات المخصصة. لمزيد من المعلومات حول تمكين هذه الميزات في المركز الرئيسي لـ Commerce، راجع [تمكين التوصيات الشخصية](personalized-recommendations.md)، و[تمكين توصيات "تسوق أشكال مماثلة"](shop-similar-looks.md)، و[تمكين توصيات "تسوق وصف مماثل"](shop-similar-description.md).
 
 ## <a name="configure-recommendation-list-parameters"></a>تكوين معلمات قائمة التوصيات
 
 بشكل افتراضي، توفر قائمة توصيات المنتج المستندة إلى AI-ML، قيم مقترحة. يمكنك تغيير القيم المقترحة الافتراضية لتناسب تدفق أعمالك. لمعرفة المزيد حول كيفية تغيير المعلمات الافتراضية، انتقل إلى [‏‫إدارة نتائج توصيات المنتجات المستندة إلى AI-ML‬](modify-product-recommendation-results.md).
 
+## <a name="include-recommendations-in-e-commerce-experiences"></a>تضمين التوصيات في تجارب التجارة الإلكترونية
+
+بعد تمكين التوصيات في المركز الرئيسي لـ Commerce، تصبح الوحدات النمطية لـ Commerce المستخدمة لعرض نتائج التوصيات الخاصة بتجارب التجارة الإلكترونية جاهزه ليتم تكوينها. لمزيد من المعلومات، راجع [وحدات مجموعة المنتجات](product-collection-module-overview.md).
+
 ## <a name="show-recommendations-on-pos-devices"></a>إظهار التوصيات على أجهزة نقاط البيع
 
-بعد تمكين التوصيات في مكتب دعم Commerce، يجب إضافة لوحة التوصيات إلى شاشة التحكم في نقطة البيع بواسطة أداة التخطيط. لمعرفه المزيد حول هذه العملية، راجع [إضافة عنصر تحكم التوصيات إلى شاشة الحركات على أجهزة نقطة البيع](add-recommendations-control-pos-screen.md). 
+بعد تمكين التوصيات في المركز الرئيسي لـ Commerce، يجب إضافة لوحة التوصيات إلى شاشة التحكم في نقطة البيع بواسطة أداة التخطيط. لمعرفه المزيد حول هذه العملية، راجع [إضافة عنصر تحكم التوصيات إلى شاشة الحركات على أجهزة نقطة البيع](add-recommendations-control-pos-screen.md). 
 
 ## <a name="enable-personalized-recommendations"></a>تمكين التوصيات المخصصة
 

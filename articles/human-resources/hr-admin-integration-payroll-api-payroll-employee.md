@@ -2,7 +2,7 @@
 title: الموظف حسب كشف الرواتب
 description: يوفر هذا الموضوع تفاصيل ومثال استعلام لكيان موظف كشف الرواتب في Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 450872a38c833de9d37e2c6224839f2bca7cb4c6
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768181"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429214"
 ---
 # <a name="payroll-employee"></a>الموظف حسب كشف الرواتب
 
@@ -34,31 +34,42 @@ ms.locfileid: "6768181"
 
 >[!IMPORTANT] 
 >حقول **FirstName**، و **MiddleName**، و **LastName**، و **NameValidFrom**، و **NameValidTo** لن تكون متوفرة على هذا الكيان. وهذا يضمن وجود مصدر بيانات تاريخ فعال واحد فقط يدعم هذا الكيان.
->ستكون هذه الحقول متوفرة على **DirPersonNameHistoricalEntity**، الذي تم إصداره في تحديث النظام الأساسي 43. هناك علاقة OData من **PayrollEmployeeEntity** إلى **DirPersonNameHistoricalEntity** في الحقل **الشخص**. 
+>ستكون هذه الحقول متوفرة على **DirPersonNameHistoricalEntity**، الذي تم إصداره في تحديث النظام الأساسي 43. هناك علاقة OData من **PayrollEmployeeEntity** إلى **DirPersonNameHistoricalEntity**. 
 
 ## <a name="properties"></a>الخصائص
 
-| الخاصية<br>**الاسم الفعلي**<br>**_النوع_** | استخدام | الوصف |
+| الخاصية</br>**الاسم الفعلي**</br>**_النوع_** | استخدام | الوصف |
 | --- | --- | --- |
-| **رقم الموظف**<br>mshr_personnelnumber<br>*سلسلة* | للقراءة فقط | رقم الموظف الفريد الخاص بالموظف. |
-| **الحقل الأساسي**<br>mshr_primaryfield<br>*سلسلة* | للقراءة فقط<br>النظام منشأ |  |
-| **معرف الكيان القانوني**<br>mshr_legalentityID<br>*سلسلة* | للقراءة فقط | يحدد الكيان القانوني (الشركة). |
-| **الجنس**<br>mshr_gender<br>[مجموعة خيارات mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | للقراءة فقط | جنس الموظف. |
-| **معرف كيان موظف كشف الرواتب**<br>mshr_payrollemployeeentityid<br>*GUID* | مطلوب<br>النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف الموظف بشكل فريد. |
-| **تاريخ بداية التوظيف**<br>mshr_employmentstartdate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ بدء توظيف الموظف. |
-| **معرف نوع التعريف**<br>mshr_identificationtypeid<br>*سلسلة* |للقراءة فقط | نوع التعريف المحدد للموظف. |
-| **تاريخ انتهاء التوظيف**<br>mshr_employmentenddate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط |تاريخ انتهاء توظيف الموظف.  |
-| **معرف منطقة البيانات**<br>mshr_dataareaid_id<br>*GUID* | للقراءة فقط <br>النظام منشأ | قيمة GUID تم إنشاؤها بواسطة النظام لتعرف الكيان القانوني (الشركة). |
-| **صالح حتى**<br>mshr_namevalidto<br>*الفرق بالتاريخ والوقت* |  للقراءة فقط | تاريخ انتهاء صلاحية معلومات الموظف. |
-| **تاريخ الميلاد**<br>mshr_birthdate<br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ ميلاد الموظف. |
-| **رقم التعريف**<br>mshr_identificationnumber<br>*سلسلة* | للقراءة فقط |رقم التعريف المحدد للموظف.  |
+| **معرف الكيان القانوني**</br>mshr_legalentityid</br>*سلسلة* | للقراءة فقط | يحدد الكيان القانوني (الشركة). |
+| **رقم الموظف**</br>mshr_personnelnumber</br>*سلسلة* | للقراءة فقط | رقم الموظف الفريد الخاص بالموظف. |
+| **تاريخ بداية التوظيف**</br>mshr_employmentstartdate</br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ بدء توظيف الموظف. |
+| **تاريخ انتهاء التوظيف**</br>mshr_employmentenddate</br>*الفرق بالتاريخ والوقت* | للقراءة فقط |تاريخ انتهاء توظيف الموظف.  |
+| **تاريخ الميلاد**</br>mshr_birthdate</br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ ميلاد الموظف. |
+| **الجنس**</br>mshr_gender</br>[مجموعة خيارات mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | للقراءة فقط | جنس الموظف. |
+| **نوع التوظيف**</br>mshr_employmenttype</br>[مجموعة خيارات mshr_hcmemploymenttype](hr-admin-integration-payroll-api-hcmemploymenttype.md) | للقراءة فقط | نوع التوظيف. |
+| **معرف نوع التعريف**</br>mshr_identificationtypeid</br>*سلسلة* |للقراءة فقط | نوع التعريف المحدد للموظف. |
+| **رقم التعريف**</br>mshr_identificationnumber</br>*سلسلة* | للقراءة فقط |رقم التعريف المحدد للموظف. |
+| **جاهز للدفع**</br>mshr_readytopay</br>[مجموعة خيارات mshr_noyes](hr-admin-integration-payroll-api-no-yes.md) | للقراءة فقط | يشير إلى ما إذا كان الموظف قد تم وضع علامة عليه كجاهز للدفع أم لا. |
+| **معرف كيان موظف كشف الرواتب**</br>mshr_payrollemployeeentityid</br>*GUID* | مطلوب</br>النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف الموظف بشكل فريد. |
+
+## <a name="relations"></a>العلاقات
+
+|قيمة الخاصية | الكيان المرتبط | خاصيه التنقل | نوع التجميع |
+| --- | --- | --- | --- |
+| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | - |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Employee |
+| _mshr_fk_name_id_value | mshr_dirpersonnamehistoricalentity | mshr_FK_Name_id | - |
+| _mshr_fk_worker_id_value | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | - |
+| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_Employee |
+| _mshr_fk_address_id_value | [mshr_payrollworkeraddressentity](hr-admin-integration-payroll-api-payroll-worker-address.md) | mshr_FK_Address_id | mshr_FK_PayrollWorkerAddressEntity_Worker |
 
 ## <a name="example-query-for-payroll-employee"></a>نموذج الاستعلام لموظف كشل الرواتب
 
 **الطلب**
 
 ```http
-GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq @personnelnumber and mshr_identificationtypeid eq @idtype and mshr_namevalidfrom le @asofdate and mshr_namevalidto ge @asofdate&@personnelnumber='000041'&@idtype='SSN'&@asofdate=2021-04-01
+GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq '000041'
 ```
 
 **استجابة**
@@ -71,17 +82,24 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
+    "mshr_employmenttype": 200000000,
     "mshr_identificationtypeid": "SSN",
     "mshr_identificationnumber": "888-99-9342",
+    "mshr_readytopay": 200000000,
     "mshr_dataareaid": "USMF",
     "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
-    "_mshr_fk_worker_id_value": "000000ad-0000-0000-d5ff-004105000000",
-    "_mshr_fk_employment_id_value": "00000d0d-0000-0000-0600-014105000000",
-    "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
-    "mshr_payrollemployeeentityid": "00000d3c-0000-0000-d5ff-004105000000",
+    "_mshr_fk_employment_id_value": "00000d4e-0000-0000-0600-014105000000",
+    "_mshr_fk_fixedcompplan_id_value": "00000598-0000-0000-4cd0-fda002000000",
+    "_mshr_fk_name_id_value": "00000832-0000-0000-d700-014105000000",
+    "_mshr_fk_worker_id_value": "000000af-0000-0000-d5ff-004105000000",
+    "_mshr_fk_workerbankaccount_id_value": "000006f2-0000-0000-b7ff-004105000000",
+    "mshr_payrollemployeeentityid": "00000666-0000-0000-d5ff-004105000000",
+    "_mshr_fk_address_id_value": null,
+    "_mshr_fk_variablecompaward_id_value": null,
     "_mshr_dataareaid_id_value": null
 }
 ```
+
 ## <a name="see-also"></a>راجع أيضًا
 
 [‏‫مقدمة إلى واجهة API لتكامل كشف الرواتب](hr-admin-integration-payroll-api-introduction.md)

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760504"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474592"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.17 (أبريل 2021)
 
@@ -99,10 +99,6 @@ ms.locfileid: "6760504"
 
 لقد قمنا مؤخرا باضافه موضوعات التعليمات التالية أو تحديثها بشكل ملحوظ. ليس بالضرورة ان تكون مرتبطة بالميزات الجديدة المضافة لهذا الإصدار ، كما هو موضح في القسم السابق ، ولكن قد يساعدك ذلك علي الحصول علي مزيد من الميزات الموجودة.
 
-### <a name="cost-management"></a>إدارة التكلفة
-
-- [‏‫استكشاف الأخطاء في إدارة التكلفة وإصلاحها](../cost-management/troubleshoot-costmanagement.md)
-
 ### <a name="asset-management"></a>إدارة الأصول
 
 - [إعداد مساحة العمل المحمولة للأصل](../asset-management/set-up-asset-management-mobile.md)
@@ -114,8 +110,6 @@ ms.locfileid: "6760504"
 - [الجرد الدوري الجزئي للمواقع](../warehousing/partial-location-cycle-counting.md)
 
 - [تجميع سطور الانتقاء](../warehousing/pick-line-grouping.md)
-
-- [استكشاف أخطاء عمليات المخزون وإصلاحها](../inventory/troubleshoot-inventory-operations.md)
 
 - [تقسيم المستودعات](../warehousing/warehouse-slotting.md)
 

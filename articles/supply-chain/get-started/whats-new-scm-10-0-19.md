@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384649"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474882"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management الإصدار 10.0.19 (يونيو 2021)
 
@@ -67,7 +67,6 @@ ms.locfileid: "7384649"
 | إدارة معلومات المنتج | [إدارة وحدة القياس](../pim/tasks/manage-unit-measure.md)<br><br>[حسابات نموذج تكوين المنتج](../pim/config-model-calculations.md) |
 | التحكم بالإنتاج | [التسلسل الرقمي الموحد لمعرفات الوظائف](../production-control/unified-job-ids.md) |
 | إدارة النقل | [فئات LTL](../transportation/ltl-class.md)<br><br>[أكواد NMFC](../transportation/nmfc-codes.md) |
-| إدارة المستودعات | [استكشاف الأخطاء وإصلاحها في التدرجات الهرمية للحجوزات الدُفعية والتسلسلية](../warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md) |
 | إدارة المستودعات، إنشاء الموجة ومعالجتها | [إنشاء الموجة ومعالجتها](../warehousing/wave-processing.md)<br><br>[معلمات المستودع لمعالجة الموجة](../warehousing/wave-warehouse-parameters.md)<br><br>[قوالب الموجة](../warehousing/wave-templates.md)<br><br>[توزيع الموجة](../warehousing/wave-allocation-method.md)<br><br>[جدولة إنشاء العمل أثناء الموجة](../warehousing/configure-wave-schedule-work-creation.md)<br><br>[التعبئة في حاويات](../warehousing/wave-containerization.md)<br><br>[إخطارات تنفيذ الموجة](../warehousing/wave-execution-notifications.md) |
 
 ## <a name="additional-resources"></a>الموارد الإضافية

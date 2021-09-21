@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416170"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481305"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>المزامنة عند الطلب باستخدام محرك تسعير Supply Chain Management
 
@@ -41,7 +41,7 @@ ms.locfileid: "7416170"
     + إجمالي الضريبة
     + المبلغ الإجمالي
     
-5. لضمان أن النظام يضع في الاعتبار اتفاقيات التجارة والبيع لحساب السعر:
+5. لضمان أن النظام يضع في الاعتبار اتفاقيات التجارة لحساب السعر:
     1. انتقل إلى بيئة Supply Chain Management.
     2. انتقل إلى **الحسابات المدينة \> إعداد \> معلمات الحسابات المدينة**.
     3. حدد علامة تبويب **الأسعار** في شريط التنقل الجانبي.
@@ -51,7 +51,7 @@ ms.locfileid: "7416170"
 
 عند تحديد **أمر السعر** في Sales، يتم استدعاء وظيفة **الإجماليات** في علامة التبويب **أمر المبيعات\> عرض** في Supply Chain Management لأمر المبيعات المقترن. يتم استخدام القيم في إجمالي الأمر في Sales لملء الأعمدة المقابلة في Supply Chain Management.
 
-عند حساب إجمالي أمر المبيعات في Supply Chain Management، يقيّم الحساب اتفاقيات التجارة واتفاقيات المبيعات الحالية للعميل والمنتجات المدرجة في أمر المبيعات. يتم استخدام هذه المعلومات لحساب الإجماليات. عند تحديد **أمر السعر**، يعكس Sales تلقائيًا كل الإعداد الذي تم إجراؤه في Supply Chain Management.
+عند حساب إجمالي أمر المبيعات في Supply Chain Management، يقيّم الحساب اتفاقيات التجارة واتفاقيات الحالية للعميل والمنتجات المدرجة في أمر المبيعات. يتم استخدام هذه المعلومات لحساب الإجماليات. عند تحديد **أمر السعر**، يعكس Sales تلقائيًا كل الإعداد الذي تم إجراؤه في Supply Chain Management.
 
 ## <a name="limitations"></a>قيود
 

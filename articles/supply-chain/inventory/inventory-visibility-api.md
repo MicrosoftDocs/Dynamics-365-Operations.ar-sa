@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343622"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474642"
 ---
 # <a name="inventory-visibility-public-apis"></a>واجهات API العامة لرؤية المخزون
 
@@ -46,6 +46,9 @@ ms.locfileid: "7343622"
 
 قدمت Microsoft مجموعة طلبات *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
+> [!NOTE]
+> جزء {environmentId} من المسار هو معرف البيئة في Microsoft Dynamics Lifecycle Services (LCS).
+
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>البحث عن نقطة النهاية وفقًا لبيئة Lifecycle Services الخاصة بك
 
 يتم نشر الخدمة المصغرة الخاصة برؤية المخزون على Microsoft Azure Service Fabric، في مناطق جغرافية متعددة ومناطق متعددة. لا توجد حاليا نقطة نهاية مركزية يمكنها إعادة توجيه طلبك تلقائيا إلى الجغرافية والمنطقة المقابلة. لذلك، يجب إنشاء أجزاء من المعلومات في URL باستخدام النمط التالي:
@@ -54,22 +57,26 @@ ms.locfileid: "7343622"
 
 يمكن العثور على اسم المنطقة القصير في بيئة Microsoft Dynamics Lifecycle Services (LCS). يسرد الجدول التالي المناطق المتوفرة حاليًا.
 
-| منطقة Azure | اسم المنطقة القصير |
-|---|---|
-| شرق أستراليا | eau |
-| جنوب شرق أستراليا | seau |
-| وسط كندا | cca |
-| شرق كندا | eca |
-| شمال أوروبا | neu |
-| غرب أوروبا | weu |
-| شرق الولايات المتحدة | eus |
-| غرب الولايات المتحدة | wus |
-| جنوب المملكة المتحدة | suk |
-| غرب المملكة المتحدة | wuk |
+| منطقة Azure        | اسم المنطقة القصير |
+| ------------------- | ----------------- |
+| شرق أستراليا      | eau               |
+| جنوب شرق أستراليا | seau              |
+| وسط كندا      | cca               |
+| شرق كندا         | eca               |
+| شمال أوروبا        | neu               |
+| غرب أوروبا         | weu               |
+| شرق الولايات المتحدة             | eus               |
+| غرب الولايات المتحدة             | wus               |
+| جنوب المملكة المتحدة            | suk               |
+| غرب المملكة المتحدة             | wuk               |
+| شرق اليابان          | ejp               |
+| غرب اليابان          | wjp               |
+| جنوب البرازيل        | sbr               |
+| وسط جنوب الولايات المتحدة    | scus              |
 
 رقم الجزيرة هو المكان الذي يتم فيه نشر بيئة LCS على نسيج الخدمة. لا توجد حاليًا طريقة للحصول على هذه المعلومات من جانب المستخدم.
 
-قامت Microsoft بإنشاء واجهة مستخدم (UI) في Power Apps بحيث يمكنك الحصول على نقطة النهاية الكاملة للخدمة المصغرة. للحصول على مزيد من المعلومات، راجع [البحث عن نقطة نهاية الخدمة](inventory-visibility-power-platform.md#get-service-endpoint).
+قامت Microsoft بإنشاء واجهة مستخدم (UI) في Power Apps بحيث يمكنك الحصول على نقطة النهاية الكاملة للخدمة المصغرة. للحصول على مزيد من المعلومات، راجع [البحث عن نقطة نهاية الخدمة](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>مصادقة
 
@@ -80,66 +87,66 @@ ms.locfileid: "7343622"
 1. قم بتسجيل الدخول إلى مدخل Azure، واستخدمه للبحث عن قيم `clientId` و`clientSecret` لتطبيق Dynamics 365 Supply Chain Management الخاص بك.
 1. إحضار Azure AD رمز مميز (`aadToken`) عن طريق إرسال طلب HTTP بالخصائص التالية:
 
-    - **عنوان URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
-    - **الأسلوب:** `GET`
-    - **محتوي النص الأساسي (بيانات النموذج):**
+   - **عنوان URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **الأسلوب:** `GET`
+   - **محتوي النص الأساسي (بيانات النموذج):**
 
-        | المفتاح | قيمة |
-        |---|---|
-        | client_id | ${aadAppId} |
-        | client_secret | ${aadAppSecret} |
-        | grant_type | client_credentials |
-        | مورد | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | المفتاح           | قيمة                                |
+     | ------------- | ------------------------------------ |
+     | client_id     | ${aadAppId}                          |
+     | client_secret | ${aadAppSecret}                      |
+     | grant_type    | client_credentials                   |
+     | مورد      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
 
-    يجب أن تتلقى رمز Azure AD المميز (`aadToken`) في الاستجابة. يجب أن تشبه المثال التالي.
+   يجب أن تتلقى رمز Azure AD المميز (`aadToken`) في الاستجابة. يجب أن تشبه المثال التالي.
 
-    ```json
-    {
-        "token_type": "Bearer",
-        "expires_in": "3599",
-        "ext_expires_in": "3599",
-        "expires_on": "1610466645",
-        "not_before": "1610462745",
-        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-        "access_token": "eyJ0eX...8WQ"
-    }
-    ```
+   ```json
+   {
+       "token_type": "Bearer",
+       "expires_in": "3599",
+       "ext_expires_in": "3599",
+       "expires_on": "1610466645",
+       "not_before": "1610462745",
+       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+       "access_token": "eyJ0eX...8WQ"
+   }
+   ```
 
 1. قم بصياغة طلب JavaScript Object Notation ‏(JSON) يشبه المثال التالي.
 
-    ```json
-    {
-        "grant_type": "client_credentials",
-        "client_assertion_type": "aad_app",
-        "client_assertion": "{Your_AADToken}",
-        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
-        "context_type": "finops-env"
-    }
-    ```
+   ```json
+   {
+       "grant_type": "client_credentials",
+       "client_assertion_type": "aad_app",
+       "client_assertion": "{Your_AADToken}",
+       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context_type": "finops-env"
+   }
+   ```
 
-    لاحظ النقاط التالية:
+   لاحظ النقاط التالية:
 
-    - يجب أن تكون قيمة `client_assertion` رمز Azure AD المميز (`aadToken`) الذي استلمته في الخطوة السابقة.
-    - `context`يجب ان تكون القيمة معرف البيئة حيث تريد توزيع الوظيفة الإضافية.
-    - قم بتعيين كافة القيم الأخرى كما هو موضح في المثال.
+   - يجب أن تكون قيمة `client_assertion` رمز Azure AD المميز (`aadToken`) الذي استلمته في الخطوة السابقة.
+   - قيمة `context` يجب أن تكون معرف البيئة حيث تريد توزيع الوظيفة الإضافية.
+   - قم بتعيين كافة القيم الأخرى كما هو موضح في المثال.
 
 1. قم بإرسال طلب HTTP بالخصائص التالية:
 
-    - **عنوان URL:** `https://securityservice.operations365.dynamics.com/token`
-    - **الأسلوب:** `POST`
-    - **رأس HTTP:** تضمين إصدار API. (المفتاح هو `Api-Version`، والقيمة هي `1.0`.)
-    - **محتوي النص الأساسي:** تضمين طلب JSON الذي قمت بإنشاءه في الخطوة السابقة.
+   - **عنوان URL:** `https://securityservice.operations365.dynamics.com/token`
+   - **الأسلوب:** `POST`
+   - **رأس HTTP:** تضمين إصدار API. (المفتاح هو `Api-Version`، والقيمة هي `1.0`.)
+   - **محتوي النص الأساسي:** تضمين طلب JSON الذي قمت بإنشاءه في الخطوة السابقة.
 
-    يجب أن تتلقى رمز المميز للوصول (`access_token`) في الاستجابة. يجب عليك استخدام هذا الرمز المميز كرمز لحامله لاستدعاء واجهة برمجة تطبيقات رؤية المخزون. فيما يلي مثال على ذلك.
+   يجب أن تتلقى رمز المميز للوصول (`access_token`) في الاستجابة. يجب عليك استخدام هذا الرمز المميز كرمز لحامله لاستدعاء واجهة برمجة تطبيقات رؤية المخزون. فيما يلي مثال على ذلك.
 
-    ```json
-    {
-        "access_token": "{Returned_Token}",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
-    ```
+   ```json
+   {
+       "access_token": "{Returned_Token}",
+       "token_type": "bearer",
+       "expires_in": 3600
+   }
+   ```
 
 في الأقسام اللاحقة، ستستخدم `$access_token` لتمثيل الرمز المميز الذي تم جلبه في الخطوة الأخيرة.
 
@@ -160,6 +167,9 @@ ms.locfileid: "7343622"
 | `quantities` | الكمية التي يجب تغيير الكمية المتوفرة بها. على سبيل المثال، إذا تمت إضافة 10 كتب جديدة إلى الرف، ستكون هذه القيمة `quantities:{ shelf:{ received: 10 }}`. إذا تمت إزالة ثلاثة كتب من الرف أو بيعها، ستكون هذه القيمة `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | مصدر البيانات الخاص بالابعاد المستخدمة في حدث تغيير الترحيل والاستعلام. إذا قمت بتحديد مصدر البيانات ، يمكنك استخدام الابعاد المخصصة من مصدر البيانات المحدد. يمكن أن تستخدم رؤية المخزون تكوين البعد لتعيين الأبعاد المخصصة إلى الأبعاد الافتراضية العامة. إذا لم يتم تحديد قيمة `dimensionDataSource`، يمكنك فقط استخدام [الأبعاد الأساسية](inventory-visibility-configuration.md#data-source-configuration-dimension) العامة في استعلاماتك. |
 | `dimensions` | زوج قيمة مفتاح ديناميكي. يتم تعيين القيم لبعض الأبعاد في Supply Chain Management. ومع ذلك، يمكنك أيضا إضافة أبعاد مخصصة (على سبيل المثال، _المصدر_) للإشارة إلى ما إذا كان الحدث قادما من Supply Chain Management أو نظام خارجي. |
+
+> [!NOTE]
+> تنشئ معلمتا  `SiteId` و`LocationId` [تكوين التقسيم](inventory-visibility-configuration.md#partition-configuration). بالتالي، يجب تحديدها في الأبعاد عند إنشاء أحداث التغيير الفعلي أو تحديد الكميات الفعلية أو تجاوزها أو إنشاء أحداث حجز.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>إنشاء حدث تغيير واحد متاح
 
@@ -201,6 +211,9 @@ Body:
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "PosMachineId": "0001",
         "ColorId": "Red"
     },
     "quantities": {
@@ -211,7 +224,7 @@ Body:
 }
 ```
 
-يظهر المثال التالي نموذج محتوى النص الأساسي دون `dimensionDataSource`.
+يظهر المثال التالي نموذج محتوى النص الأساسي دون `dimensionDataSource`. في هذه الحالة، فإن `dimensions` سيكون [الأبعاد الأساسية](inventory-visibility-configuration.md#data-source-configuration-dimension). إذا تم تعيين `dimensionDataSource`، فإن `dimensions` يمكن أن يكون إما أبعاد مصدر البيانات أو الأبعاد الأساسية.
 
 ```json
 {
@@ -219,9 +232,9 @@ Body:
     "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensions": {
-        "ColorId": "Red",
         "SiteId": "1",
-        "LocationId": "11"
+        "LocationId": "11",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -275,6 +288,8 @@ Body:
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+            "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId&quot;: &quot;0001"
         },
         "quantities": {
@@ -284,10 +299,11 @@ Body:
     {
         "id": "654321",
         "organizationId": "usmf",
-        "productId": "@PRODUCT1",
-        "dimensionDataSource": "pos",
+        "productId": "Pants",
         "dimensions": {
-            "PosMachineId&quot;: &quot;0001"
+            "SiteId": "1",
+            "LocationId": "11",
+            "ColorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -341,6 +357,8 @@ Body:
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+             "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId": "0001"
         },
         "quantities": {
@@ -359,6 +377,12 @@ Body:
 لاستخدام واجهة برمجة تطبيقات *الحجز*، يجب عليك فتح ميزة الحجز وإكمال تكوين الحجز. لمزيد من المعلومات، راجع [تكوين الحجز (اختياري)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>إنشاء حدث حجز واحد
+
+يمكن إجراء الحجز مقابل إعدادات مصدر بيانات مختلفة. لتكوين هذا النوع من الحجز ، حدد أولا مصدر البيانات في معلمة `dimensionDataSource`. ثم، في معلمة `dimensions`، حدد الأبعاد وفقاً لإعدادات البعد في مصدر البيانات الهدف.
+
+عند استدعاء API للحجز، يمكنك التحكم في التحقق من صحة الحجز عن طريق تحديد المعلمة المنطقية `ifCheckAvailForReserv` في النص الأساسي للطلب. تعني القيمة `True` أن التحقق من الصحة مطلوب، بينما تعني القيمة `False` أن التحقق من الصحة غير مطلوب. القيمة الافتراضية هي `True`.
+
+إذا كنت ترغب في إلغاء حجز أو إبطال حجز كميات مخزون محددة، فقم بتعيين الكمية على قيمة سالبة، وقم بتعيين معلمة `ifCheckAvailForReserv` إلى `False` لتخطي عملية التحقق من الصحة.
 
 ```txt
 Path:
@@ -467,14 +491,28 @@ ContentType:
     application/json
 Body:
     {
-        organizationId: string,
+        dimensionDataSource: string, # Optional
         filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
             [dimensionKey:string]: string[],
         },
         groupByValues: string[],
         returnNegative: boolean,
     }
 ```
+
+في الجزء الأساسي من هذا الطلب، ما يزال `dimensionDataSource` معلمة اختيارية. وإذا لم يتم تعيينه، فسوف تتم معاملة `filters` كـ *أبعاد أساسية*. توجد أربعة حقول مطلوبه لـ `filters`: `organizationId`، و`productId`، و`siteId`، و`locationId`.
+
+- يجب أن يحتوي `organizationId` على قيمة واحدة فقط، ولكنه ما يزال صفيف.
+- يمكن أن يحتوي `productId` على قيمة واحدة أو أكثر. إذا كان فارغًا، فسيتم إرجاع كافة المنتجات.
+- يتم استخدام `siteId` و`locationId` في رؤية المخزون لأجل التقسيم.
+
+يجب أن تتبع معلمة `groupByValues` التكوين الخاص بك للفهرسة. لمزيد من المعلومات، راجع [تكوين التدرج الهرمي لفهارس المنتجات](./inventory-visibility-configuration.md#index-configuration).
+
+تتحكم المعلمة `returnNegative` فيما إذا كانت النتائج تحتوي على إدخالات سالبة أم لا.
 
 يظهر المثال التالي نموذج محتوى النص الأساسي.
 
@@ -484,7 +522,24 @@ Body:
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "LocationId": ["11"],
         "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+توضح الامثله التالية كيفية الاستعلام عن كافة المنتجات في موقع ومكان محددين.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": [],
+        "siteId": ["1"],
+        "LocationId": ["11"],
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true
@@ -512,7 +567,7 @@ Query(Url Parameters):
 هذا نموذج لعنوان URL للحصول. طلب الحصول هذا مماثل تمامًا لعينة المشاركة التي تم توفيرها مسبقًا.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
