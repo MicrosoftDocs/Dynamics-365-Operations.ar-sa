@@ -1007,7 +1007,11 @@
                 - name: الأسئلة المتداولة حول الإطار الزمني للصيانة المخطط لها
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: المراقبة والتشخيص
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: أدوات المراقبة والتشخيص
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: استخدام Azure Data Explorer للاستعلام عن سجلات المعلومات الأولية
+                  href: lifecycle-services/azure-data-explorer.md
             - name: إعادة تشغيل الخدمات البيئية
               href: lifecycle-services/restart-environment-services.md
             - name: إبلاغ عن انقطاع إنتاج

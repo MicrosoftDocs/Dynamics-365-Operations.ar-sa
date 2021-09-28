@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (أغسطس 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (يونيو 2021)
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -448,8 +446,10 @@
                   href: accounts-receivable/set-up-collections.md
                 - name: مراجعة معلومات التحصيلات
                   href: accounts-receivable/tasks/review-collections-information.md
-                - name: التنفيذ التلقائي للتحصيلات
+                - name: التنفيذ التلقائي لعمليات التحصيل
                   href: accounts-receivable/collections-process-automate.md
+                - name: تكوين المعلمات للتنفيذ التلقائي لعمليات التحصيل
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: إعداد إدارة الائتمان
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: معلومات إعداد إدارة الائتمان
@@ -1635,7 +1635,9 @@
                 - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: تقرير خدمات عبر الحدود
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
+                  href: localizations/emea-aut-intrastat.md
                 - name: رسوم المشتريات
                   href: localizations/emea-aut-purchase-duties.md
             - name: البحرين
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: إعداد وصيانة PRODCOM
                   href: localizations/emea-bel-prodcom-report.md
+                - name: قائمة ضريبة القيمة المضافة السنوية للمبيعات المحلية
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: البرازيل
               items:
                 - name: نظرة عامة على البرازيل
@@ -2974,6 +2978,8 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: فواتير إلكترونية
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
+                - name: ملحق بيان الشحن (Carta de Porte) (الإصدار 1.0)
+                  href: localizations/latam-mex-carta-de-porte.md
                 - name: بيانات المحاسبة الإلكترونية لدفتر الأستاذ
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: إدخال معرفات التسجيل الضريبي للكيانات القانونية المكسيكية
@@ -2990,21 +2996,15 @@
                   href: localizations/tasks/mx-00006-sales-tax-code.md
                 - name: إعداد دليل الحسابات لكيان قانوني في المكسيك
                   href: localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: تحديد معرف تسجيل RFC لحسابات البنوك المكسيكية
+                - name: تحديد معرف التسجيل RFC لحسابات البنوك المكسيكية
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: معرفات تسجيل الموردين
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: عمان
-              items:
-                - name: نظرة عامة على عمان
-                  href: localizations/oman.md
-                - name: إقرار ضريبة القيمة المضافة لعمان (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: هولندا
               items:
                 - name: نظرة عامة على هولندا
                   href: localizations/netherlands.md
-                - name: إقرار ضريبة القيمة المضافة
+                - name: إقرار ضريبة القيمة المضافة (VAT)
                   href: localizations/emea-nl-VAT-declaration.md
                 - name: إقرارات الضريبة الإلكترونية‬ (EVAT)
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: قائمة مبيعات الاتحاد الأوروبي
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: نيوزيلندا
+              items:
+                - name: نموذج إقرار GST ‏(GST101A) لنيوزيلندا (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: النرويج
               items:
                 - name: نظرة عامة على النرويج
@@ -3032,11 +3036,17 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: الفواتير الإلكترونية للعملاء في النرويج
                   href: localizations/emea-nor-e-invoices.md
+            - name: عُمان
+              items:
+                - name: نظرة عامة على عُمان
+                  href: localizations/oman.md
+                - name: إقرار ضريبة القيمة المضافة لعُمان (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: بولندا
               items:
                 - name: نظرة عامة على بولندا
                   href: localizations/poland.md
-                - name: تنشيط محاسبة storno
+                - name: تنشيط محاسبة Storno
                   href: localizations/emea-pol-red-storno.md
                 - name: حساب خصومات البند من سعر الوحدة
                   href: localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -3448,22 +3458,22 @@
                       items:
                         - name: جعل عملية إرسال ضريبة القيمة المضافة للضريبة الرقمية (MTD) في المملكة المتحدة
                           href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: اعداد البيئة الخاصة بك للتعامل مع خدمه الويب الخاصة لـ MTD الخاصة بـ HMRC
+                        - name: اعداد بيئتك للتشغيل المتداخل مع خدمة الويب MTD لضريبة القيمة المضافة الخاصة بـ HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: تخويل بيئة Finance الخاصة بك للتعامل مع خدمة الويب الخاصة لـ MTD الخاصة بـ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: اختبار الاستخدام التفاعلي باستخدام آلية تحديد صلاحيات MTD VAT
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: إرسال إرجاع ضريبة القيمة المضافة إلى خدمه الويب لـ MTD الخاصة بـ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: قائمة اختيار لإعداد الرسائل الإلكترونية لـ MTD ضريبة القيمة المضافة
+                        - name: قائمة اختيار لإعداد الرسائل الإلكترونية لخدمة MTD لضريبة القيمة المضافة
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: إنشاء إقرار ضريبة القيمة المضافة بتنسيق الورق (تقرير ضريبة القيمة المضافة 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: اختبار التشغيل المتداخل باستخدام بيئة الاختبار المعزولة لخدمة MTD لضريبة القيمة المضافة
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: تخويل بيئة Finance الخاصة بك للتعامل مع خدمة ويب MTD لضريبة القيمة المضافة الخاصة بـ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: إرسال إرجاع ضريبة القيمة المضافة إلى خدمة الويب MTD الخاصة بـ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: استرداد معلومات حول دفعات ضريبة القيمة المضافة والتزامات (ضريبية) من HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                         - name: تفاصيل إعداد ضريبة القيمة المضافة لإقرارات ضريبة القيمة المضافة في المملكة المتحدة
                           href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: استرداد معلومات حول دفعات ضريبة القيمة المضافة والتزامات من HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: إنشاء إقرار ضريبة القيمة المضافة بتنسيق ورقي (تقرير ضريبة القيمة المضافة 100)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: تقرير الإحصائيات حول ممارسات الدفع
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: الولايات المتحدة
@@ -4119,9 +4129,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: تشغيل تنسيقات لإضافة أعمدة إلى تقارير Excel بشكل ديناميكي
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: تصميم تنسيق التقارير الإلكترونية (ER) لتقسيم صفحات المستندات التي تم إنشاؤها في Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: تصميم تكوينات لإنشاء تقارير بتنسيق Word
                   items:
-                    - name: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء التقارير بتنسيق Word
+                    - name: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء تقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: إعادة استخدام تكوينات التقارير الإلكترونية (ER) باستخدام قوالب Excel لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json

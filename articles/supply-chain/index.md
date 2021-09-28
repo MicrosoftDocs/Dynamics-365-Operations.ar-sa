@@ -2,7 +2,7 @@
 title: الصفحة الرئيسية لـ Supply Chain Management
 description: توفر هذه الصفحة قائمة بمواضيع التعليمات وغيرها من الموارد لميزات Supply Chain Management.
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ac5a8005851dc2894a0fbed74f47be6e1e14b58
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416541"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487831"
 ---
 # <a name="supply-chain-management-home-page"></a>الصفحة الرئيسية لـ Supply Chain Management
 
@@ -62,8 +62,7 @@ ms.locfileid: "7416541"
 
 تقوم ملفات الفيديو القصيرة هذه بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى Microsoft Dynamics 365 for Finance and Operations، Enterprise edition 7.3 (ديسمبر 2017).
 
-- [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg) 
-- [مرشد التحسين‬](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [مرشد التحسين](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [استخدام قالب المستودع لنسخ التكوين](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 تقوم ملفات الفيديو القصيرة هذه بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى Microsoft Dynamics 365 for Finance and Operations، Enterprise edition (يوليو 2017).

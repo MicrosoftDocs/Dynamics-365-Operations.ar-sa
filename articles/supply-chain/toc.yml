@@ -76,12 +76,10 @@
                       href: get-started/whats-new-home-page.md
                     - name: الإصدار 10.0.22 من Supply Chain Management (نوفمبر 2021)
                       href: get-started/whats-new-scm-10-0-22.md
-                    - name: الإصدار 10.0.21 من Supply Chain Management (أكتوبر 2021)
+                    - name: Supply Chain Management 10.0.21 (أكتوبر 2021)
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (أغسطس 2021)
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (يونيو 2021)
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -1191,7 +1189,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تصميم تكوينات لإنشاء تقارير بتنسيق Word
                   items:
-                    - name: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء التقارير بتنسيق Word
+                    - name: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء تقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إعادة استخدام تكوينات التقارير الإلكترونية (ER) باستخدام قوالب Excel لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1669,6 +1667,8 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: جدولة ذات سعة لا نهائية
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: الجدولة مع تحديد الموارد بالاستناد إلى الإمكانية
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: علامات المخزون مع تحسين التخطيط
                   href: master-planning/planning-optimization/marking.md
                 - name: التخطيط بين الشركات الشقيقة
@@ -2017,6 +2017,8 @@
                   href: procurement/request-quotations.md
                 - name: إنشاء طلب لعرض الأسعار
                   href: procurement/tasks/create-request-quotation.md
+                - name: العطاء المغلق لطلبات عروض الأسعار (RFQ)‬
+                  href: procurement/sealed-bidding.md
                 - name: إنشاء طلب يستخدم طلب عرض أسعار
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: إنشاء أسلوب تسجيل النقاط لطلبات عروض الأسعار

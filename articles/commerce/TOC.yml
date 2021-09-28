@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (أغسطس 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19 (يونيو 2021)
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -246,7 +244,7 @@
                   href: arch-auth-flow.md
                 - name: متطلبات تعيين إصدار مكونات Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: بنية التجارة بدون أجهزة ملحقة
+                - name: بنية التجارة بدون واجهة أمامية
                   href: dev-itpro/retail-server-architecture.md
                 - name: تحديد مخطط‬ في المتجر
                   href: dev-itpro/retail-in-store-topology.md
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: إنشاء اتفاقيات تجارية باستخدام قواعد تسعير الفئات
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: تأخير حساب السعر الدقيق والخصم
+                  href: delayed-price-calculation.md
             - name: التوصيات
               items:
                 - name: نظرة عامة على توصيات المنتجات
@@ -1328,6 +1328,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: ترحيل المستندات المالية البرازيلية عبر كشوف البيع بالتجزئة في المركز الرئيسي لـ Commerce‬
                   href: localizations/latam-bra-retail-statements.md
+                - name: Dynamics 365 Payment Connector لـ Adyen في نقطة بيع Commerce للبرازيل‬
+                  href: localizations/latam-bra-adyen.md
             - name: أوروبا الشرقية
               items:
                 - name: عام
@@ -1840,7 +1842,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
                 - name: تصميم تكوينات لإنشاء تقارير بتنسيق Word
                   items:
-                    - name: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء التقارير بتنسيق Word
+                    - name: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء تقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/commerce/toc.json
                     - name: إعادة استخدام تكوينات التقارير الإلكترونية (ER) باستخدام قوالب Excel لإنشاء التقارير بتنسيق Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
@@ -2436,9 +2438,9 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: إجراءات البيانات الأساسية
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: استدعاء واجهات برمجة تطبيقات Retail Server
+                    - name: استدعاء واجهات API لـ Commerce Scale Unit
                       href: e-commerce-extensibility/call-retail-server-apis.md
-                    - name: استدعاء واجهات برمجة التطبيقات لملحق Retail Server
+                    - name: استدعاء واجهات API لملحق Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
                 - name: مواضيع إجراءات البيانات المتقدمة
                   items:
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: إعداد مسار بناء لـ SDK للتعبئة المستقلة
                   href: dev-itpro/build-pipeline.md
-                - name: دمج أنظمة البناء لـ Commerce وFinance and Operations
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: ترحيل Retail SDK من Visual Studio 2015 إلى Visual Studio 2017
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: نماذج قابلية توسعة Retail SDK
@@ -2624,12 +2624,10 @@
                           items:
                             - name: استخدام Knockout.js في توسيعات نقاط البيع
                               href: dev-itpro/pos-extension/knockout-pos-extension.md
-                            - name: استهلاك واجهات برمجة تطبيقات Commerce مخصصة بلا عنوان
+                            - name: استهلاك Commerce API مخصصة بدون واجهة أمامية
                               href: dev-itpro/pos-extension/consume-apis-pos.md
-            - name: قابلية توسيع Hardware Station
+            - name: قابلية توسعة Hardware Station
               items:
-                - name: Hardware Station وقابلية التوسيع
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: دمج نقطة بيع مع جهاز جديد
                   href: dev-itpro/hardware-device-extension.md
             - name: قابلية توسعة Retail Server
