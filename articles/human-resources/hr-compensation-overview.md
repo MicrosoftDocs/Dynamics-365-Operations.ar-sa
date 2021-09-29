@@ -1,8 +1,8 @@
 ---
 title: خطط التعويض
-description: باستطاعة مدراء التعويضات والميزات‬ استخدام إدارة التعويضات لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة.
-author: andreabichsel
-ms.date: 06/20/2017
+description: يصف هذا الموضوع كيفية استخدام إدارة التعويضات لإدارة خطط التعويض ومعالجتها.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dafba542ec1421a6ef3437d9c2f22e0c363e557d7f5b6410af36fc7cb8d4be7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64169ebc5bbd2f0a9b4be3d4ec076c8814e6eb97
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732431"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483770"
 ---
 # <a name="compensation-plans"></a>خطط التعويض
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-باستطاعة مدراء التعويضات والميزات‬ استخدام إدارة التعويضات لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة.
+باستطاعة مدراء التعويضات والميزات‬ استخدام **إدارة التعويضات** لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة.
 
 ### <a name="introduction"></a>مقدمة
 
@@ -43,7 +43,7 @@ ms.locfileid: "6732431"
 <thead>
 <tr class="header">
 <th>المكون</th>
-<th>مزيد من المعلومات...</th>
+<th>معلومات إضافية</th>
 </tr>
 </thead>
 <tbody>
@@ -89,10 +89,10 @@ ms.locfileid: "6732431"
 </tr>
 <tr class="even">
 <td>نقطة التحكم</td>
-<td>تحدد نقطة التحكم ما تعتبره الدفع المثالي لكافة الموظفين عند مستوى تعويض معين. وبالنسبة لبنيات خطة التصنيف، فإن نقاط التحكم عادةً ما تكون هي نقطة المنتصف للنطاقات. ونادرًا ما تستخدم بنيات النطاق نقاط التحكم. يمكنك تحديد نقطة التحكم لخطة تعويض ثابتة في نموذج خطط التعويض الثابت.</td>
+<td>تحدد نقطة التحكم ما تعتبره الدفع المثالي لكافة الموظفين عند مستوى تعويض معين. وبالنسبة لبنيات خطة التصنيف، فإن نقاط التحكم عادةً ما تكون هي نقطة المنتصف للنطاقات. ونادرًا ما تستخدم بنيات النطاق نقاط التحكم. يمكنك تحديد نقطة التحكم لخطة تعويض ثابتة في صفحة **خطط التعويض الثابت**.</td>
 </tr>
 <tr class="odd">
-<td>مهام الوظيفة</td>
+<td>مهام الوظائف</td>
 <td>يتم استخدام المهام الوظيفية لتصنيف وتصفية خطط التعويض لوظائف معيَّنة.</td>
 </tr>
 <tr class="even">

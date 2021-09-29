@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474882"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506845"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management الإصدار 10.0.19 (يونيو 2021)
 
@@ -41,8 +41,7 @@ ms.locfileid: "7474882"
 | المخزون واللوجستيات | [وظيفة البحث لمقدمة المستند وحقول خاتمة المستند في صفحة عرض أسعار المبيعات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | تضيف هذه الميزة وظيفة البحث للحقول **مقدمة المستند** و **نتائج المستند** على الصفحة  **عرض أسعار المبيعات**.<br><br>يتم تمكين هذه الميزة افتراضيًا. |
 | المخزون واللوجستيات | [‎تنفيذ المستودعات مع وحدات مقياس الحافة على أجهزتك المخصصة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | التصنيع | [‎تنفيذ التصنيع مع وحدات مقياس الحافة على أجهزتك المخصصة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| التخطيط | [جدولة سعة غير محدودة لتحسين التخطيط](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [جدولة ذات سعة لا نهائية](../master-planning/planning-optimization/infinite-capacity-planning.md) |
-| التخطيط | تأكيد الأمر المخطط المستند إلى الاستعلام | [تأكيد الأوامر المخططة](../master-planning/planning-optimization/planned-order-firming.md) |
+| التخطيط | تأكيد الأمر المخطط المستند إلى الاستعلام | [تأكيد أوامر مخططة](../master-planning/planning-optimization/planned-order-firming.md) |
 | إدارة معلومات المنتج | [تحسينات صفحة اقتراحات المتغيرات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [إنشاء متغيرات المنتج المعرفة مسبقًا](../pim/tasks/create-predefined-product-variants.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>تحسينات الميزات المضمنة في هذا الإصدار

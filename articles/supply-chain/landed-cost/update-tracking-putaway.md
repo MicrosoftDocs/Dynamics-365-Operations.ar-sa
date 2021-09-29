@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d2e1e4596a6052ea80d6e578dccf2564269d97444cd5b302acb5968cca2c884f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d8e2a42d8e12a5a9cf18e876b6f9e45ecb877881
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782577"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500011"
 ---
 # <a name="update-tracking-for-put-away"></a>تحديث التعقب لإبعاده
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 تم تصميم المهمة الدورية *تتبع التحديث للتخزين* ليتم تشغيلها كدفعة متكررة ليلاً. وهو يحدد الرحلات التي تلقت جميع حركات المخزون، والرحلات التي ليس لها قيمة لتاريخ الانتهاء الفعلي. ثم يقوم بتعيين تاريخ الانتهاء الفعلي إلى التاريخ الحالي كما هو مطلوب.
 

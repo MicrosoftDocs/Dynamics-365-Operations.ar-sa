@@ -1,5 +1,5 @@
 ---
-title: إصدار أولي Dynamics 365 Supply Chain Management 10.0.21 (أكتوبر 2021)
+title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.21 (أكتوبر 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.21 من Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391198"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500545"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>إصدار أولي Dynamics 365 Supply Chain Management 10.0.21 (أكتوبر 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.21 (أكتوبر 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.21 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.960، وهو يتوفر كما يلي
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.21 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.960، وهو يتوفر كما يلي
 
 - **إصدار أولي الإصدار:** أغسطس 2021
 - **التوفر العام للإصدار (تحديث ذاتي):** سبتمبر 2021
@@ -46,13 +45,14 @@ ms.locfileid: "7391198"
 
 يسرد الجدول التالي الميزات المضمنة في هذا الإصدار. يوفر عمود *الميزة* ارتباطات إلى [خطة الإصدار](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features)، حيث يمكنك الاطلاع على تواريخ الإصدار الرسمية لكل ميزة. يوفر عمود *مزيد من المعلومات* المزيد من التفاصيل و/أو الارتباطات عن المستندات ذات الصلة.
 
-يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام.
+يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
 | منطقة الميزة | الميزة | معلومات إضافية |
 |---|---|---|
-| المخزون&nbsp;و&nbsp;اللوجستيات | [تُعد محاسبة المخزون العالمي وظيفة إضافية لـ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [الصفحة الرئيسية لمحاسبة المخزون العمومي](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| المخزون&nbsp;و&nbsp;اللوجستيات | [تُعد محاسبة المخزون العالمي وظيفة إضافية لـ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [الصفحة الرئيسية لمحاسبة المخزون العمومي](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | المخزون&nbsp;و&nbsp;اللوجستيات | [ترحيل التسويات الحالية باستخدام أكواد متصلة بحسابات المقابلة](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [أكواد أسباب جرد المخزون](../warehousing/reason-codes-for-counting-journals.md) |
 | المخزون&nbsp;و&nbsp;اللوجستيات | [سياسة تصدير البيانات المرجعية لعرض أسعار المبيعات](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | اختر ما إذا كانت التغييرات التي تم إجراؤها على البيانات المشار إليها بواسطة عروض الأسعار ستتسبب في تضمين عروض الأسعار (أو السطور) في التصدير التزايدي التالي. سيتم تشغيل الصادرات المتزايدة بسرعة أكبر إذا اخترت عدم تضمين عروض الأسعار أو البنود.<br><br>تضيف هذه الميزة إعدادا يسمى **تخطي بيانات عرض أسعار المبيعات المشار إليها أثناء تعقب التغيير** إلى صفحة **معلمات الحسابات المدينة**. |
+| المخزون&nbsp;و&nbsp;اللوجستيات | العطاءات المغلقة <!-- KFM: Add RP link when available --> | [العطاء المغلق لطلبات عروض الأسعار (RFQ)‬](../procurement/sealed-bidding.md) |
 | المخزون&nbsp;و&nbsp;اللوجستيات | [مسح الرموز الشريطية في المستودع باستخدام معايير تنسيق GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [الأكواد الشريطية GS1 ورموز الاستجابة السريعة (QR)](../warehousing/gs1-barcodes.md) |
 | المخزون&nbsp;و&nbsp;اللوجستيات | [حجز سهل للوظيفة الإضافية لرؤية المخزون](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [حجوزات رؤية المخزون](../inventory/inventory-visibility-reservations.md) |
 | المخزون&nbsp;و&nbsp;اللوجستيات | [تحسينات الخصم ووزن التعبئة لإدارة الخصومات](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [إدارة الخصومات باستخدام منضدة عمل الخصم](../rebate-management/deduction-workbench.md )<br><br>[معالجة الخصومات ومراجعتها وترحيلها](../rebate-management/process-review-post.md)<br><br>[صفقات إدارة الخصومات](../rebate-management/rebate-management-deals.md) |

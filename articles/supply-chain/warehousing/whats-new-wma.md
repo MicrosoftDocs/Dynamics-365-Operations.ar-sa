@@ -1,27 +1,39 @@
 ---
 title: ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
 description: يسرد هذا الموضوع الميزات الجديدة والمتغيرة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386089"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485612"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
 
 [!include [banner](../includes/banner.md)]
 
 يسرد هذا الموضوع الميزات الجديدة والتحسينات والمشكلات المعروفة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20100"></a>الإصدار 2.0.10.0
+
+يقدم هذا الإصدار الميزات الجديدة والإصلاحات والتحسينات التالية:
+
+- تمت إضافة الحركة عند السحب عبر القوائم والصفحات.
+- يلتف النص الآن بشكل صحيح على صفحه أخطاء الاتصال.
+- تظهر الآن مربعات التحرير والسرد من دون قيم افتراضية بشكل صحيح.
+- تظهر الآن المعلومات الموجودة في منطقة الراس الفرعي على صفحة التفاصيل الكاملة فقط.
+- لم تعد حقول الإدخال الفارغة تظهر على بطاقة التفاصيل.
+- لم تعد قيم التأكيد مكررة على بطاقة التفاصيل.
+- تم إصلاح العديد من المشكلات التي تسببت في توقف النظام عن الاستجابة.
 
 ## <a name="version-2090"></a>الإصدار 2.0.9.0
 

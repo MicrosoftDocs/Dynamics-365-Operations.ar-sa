@@ -2,7 +2,7 @@
 title: تضمين تطبيقات الجهات الخارجية
 description: يشرح هذا الموضوع كيفية تضمين تطبيقات الجهات الخارجية لزيادة وظائف المنتج.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345400"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488224"
 ---
 # <a name="embed-third-party-apps"></a>تضمين تطبيقات الجهات الخارجية
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يستخدم العديد من العملاء مجموعة من التطبيقات لإدارة أعمالهم. بعض هذه التطبيقات هي تطبيقات ويب تابعة لجهات خارجية تعمل جنبًا إلى جنب مع تطبيقات Finance and Operations. لتوفير تجربة مستخدم أكثر سلاسة، يمكنك استخدام ميزة **تطبيقات الصفحة الكاملة** لتضمين تطبيقات الجهات الخارجية مباشرةً في تطبيقات Finance and Operations (شريطة أن تسمح تطبيقات الجهات الخارجية بأن تكون مضمنة). بهذه الطريقة، يمكن للمستخدمين الوصول إلى مواقع الويب والتطبيقات التي يحتاجون إليها دون الحاجة إلى تبديل علامات التبويب أو النوافذ.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441155"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488073"
 ---
 # <a name="provision-human-resources"></a>تزويد Human Resources
 
@@ -41,6 +41,8 @@ ms.locfileid: "7441155"
 ## <a name="provision-a-human-resources-trial-environment"></a>توفير بيئة الإصدار التجريبي لـ Human Resources
 
 قبل تزويد بيئة وضع حماية أو بيئة التشغيل الأولى لديك، قد ترغب في توفير [بيئة الإصدار التجريبي لـ Human Resources‬](https://go.microsoft.com/fwlink/p/?LinkId=2115962) للتحقق من صحة وظائف Human Resources. تحتوي البيئات التجريبية على بيانات خيالية يمكن استخدامها لاستكشاف البرنامج بطريقة آمنة. على الرغم من أن البيئة التجريبية مملوكة من قبل المستخدم الذي طلبها، إلا أنه يمكن دعوة مستخدمين آخرين من خلال تجربة إدارة النظام لـ Human Resources. 
+
+توفر البيئات التجريبية القدرة علي تقييم وظيفة الموارد البشرية للأفراد الذين ليس لديهم حق الوصول إلى بيئة Human Resources. إذا كنت تقوم بتزويد بيئة تجريبية وكان لدى المستخدم حق الوصول إلى واحدة أو أكثر من بيئات Human Resources الموجودة، فسيُعاد توجيه المستخدم إلى البيئة الموجودة أو قائمة البيئات.
 
 والبيئات التجريبية غير مخصصة للاستخدام كبيئات التشغيل. إنها مقصورة على فترة الإصدار التجريبي التي تصل إلى 60 يومًا. عند انتهاء فترة المراجعة، ستُحذف البيئة وكل البيانات الموجودة بداخلها ولا يمكن استردادها. لا يمكن تحويل البيئة إلى بيئة وضع حماية أو بيئة تشغيل. يمكنك التسجيل للحصول على بيئة تجريبية جديدة بعد انتهاء مدة صلاحية البيئة الحالية.
 
@@ -135,7 +137,12 @@ ms.locfileid: "7441155"
    
     - **المناطق الجغرافية غير المدعومة** - يجب أن تكون البيئة في منطقة جغرافية مدعومة. لمزيد من المعلومات، راجع [المناطق الجغرافية المدعومة](hr-admin-setup-provision.md#supported-geographies).
 
-6. بعد تحديد البيئة الصحيحة التي تريد استخدامها، يمكنك متابعة عملية التوفير. 
+6. يمكن استخدام قدرات الكتابة المزدوجة لتكامل بيانات Human Resources مع بيئة Power Apps فقط عند تحديد الخيار **تمكين تطبيقات Dynamics 365** للبيئة. راجع [الصفحة الرئيسية للكتابة المزدوجة](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) لمزيد من المعلومات عن الكتابة المزدوجة.
+
+    > [!NOTE]
+    > يجب تمكين الخيار **تمكين تطبيقات Dynamics 365** عند إنشاء بيئة Power Apps. إذا لم يكن الخيار محددًا عند التزويد، فلن تتمكن من استخدام الكتابة المزدوجة لدمج البيانات بين Dynamics 365 Human Resources وبيئة Power Apps أو تثبيت تطبيقات Dynamics 365 مثل Dynamics 365 Sales وField Service على البيئة. لا يمكن التراجع عن هذا الخيار. لمزيد من المعلومات، راجع [ الاعتبارات الهامة عند إنشاء بيئة جديدة](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) في موقع وثائق Power Platform.
+
+7. بعد تحديد البيئة الصحيحة التي تريد استخدامها، يمكنك متابعة عملية التوفير. 
 
 ### <a name="supported-geographies"></a>المناطق الجغرافية المدعومة
 

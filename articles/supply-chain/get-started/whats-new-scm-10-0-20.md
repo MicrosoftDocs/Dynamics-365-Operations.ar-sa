@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773503"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506821"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.20 (أغسطس 2021)
 
@@ -38,6 +38,7 @@ ms.locfileid: "6773503"
 | المخزون&nbsp;و&nbsp;اللوجستيات | [تحسين أداء تفاصيل أمر المبيعات](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | وتتيح هذه الميزة إمكانية الاستجابة لواجهة المستخدم بشكل أكبر عند فتح أوامر المبيعات، وخاصة الأوامر التي تتضمن العديد من البنود. |
 | التصنيع | [استدعاء تدفقات التنفيذ التلقائي للعمليات لإنشاء أوامر الجودة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/invoke-process-automation-flows-create-quality-orders) | [استدعاء تدفقات التنفيذ التلقائي للعمليات لإنشاء أوامر الجودة](../production-control/process-automation-quality-orders.md ) |
 | التصنيع | [واجهة تنفيذ صالة الإنتاج للتصنيع](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) | [تكوين واجهة تنفيذ صالة الإنتاج‬ واستخدامها](../production-control/production-floor-execution-configure.md) |
+| التخطيط | [جدولة سعة غير محدودة لتحسين التخطيط](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [جدولة ذات سعة لا نهائية](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | إدارة معلومات المنتج | [إدارة التغييرات في المعادلات والمكونات الخاصة بها](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [إدارة التغييرات في المعادلات والمكونات الخاصة بها](../engineering-change-management/manage-formula-changes.md) |
 | إدارة معلومات المنتج | [فحوصات جاهزية المنتج](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/product-readiness-checks) | [جاهزية المنتج](../engineering-change-management/product-readiness.md) |
 

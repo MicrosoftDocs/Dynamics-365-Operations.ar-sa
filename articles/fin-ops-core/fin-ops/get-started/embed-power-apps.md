@@ -2,7 +2,7 @@
 title: تضمين تطبيقات اللوحة من Power Apps
 description: يصف هذا الموضوع كيفية تضمين تطبيقات اللوحة من Microsoft Power Apps في العميل لزيادة الأداء الوظيفي للمنتج.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344519"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488044"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>تضمين تطبيقات اللوحة من Power Apps
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 إن Microsoft Power Apps عبارة عن خدمة تسمح للمطورين والمستخدمين غير التقنيين ببناء تطبيقات أعمال مخصصة للأجهزة المحمولة وأجهزة الكمبيوتر اللوحية والويب من دون كتابة تعليمات برمجية. تدعم تطبيقات Finance and Operations التكامل مع Power Apps. يمكن تضمين تطبيقات اللوحة التي قمت أنت أو مؤسستك أو النظام البيئي الأوسع بتطويرها في تطبيقات Finance and Operations لزيادة الأداء الوظيفي للمنتج. على سبيل المثال، قد تقوم بإنشاء تطبيق لوحة من Power Apps لتكملة أحد تطبيقات Finance and Operations باستخدام معلومات تم استردادها من نظام آخر.
 

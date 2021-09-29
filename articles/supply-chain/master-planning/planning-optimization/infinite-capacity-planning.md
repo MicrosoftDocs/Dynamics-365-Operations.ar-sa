@@ -2,7 +2,7 @@
 title: الجدولة بقدرة غير محدودة
 description: يوفر هذا الموضوع معلومات حول جدولة قدرة غير محدودة لتحسين التخطيط. كما يصف قيود الميزات الحالية.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471658"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506797"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>الجدولة بقدرة غير محدودة
 
@@ -27,7 +27,12 @@ ms.locfileid: "7471658"
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>تشغيل ميزة جدولة قدرة غير محدودة
 
-إذا لم يتضمن نظامك الميزة الموضحة في هذا الموضوع بالفعل، فافتح مساحة عمل [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)، وقم بتشغيل ميزة *جدولة قدرة غير محدودة لتحسين التخطيط*.
+قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+
+- **الوحدة:** *التخطيط الرئيسي*
+- **اسم الميزة:** *جدولة سعة غير محدودة لتحسين التخطيط*
+
+لمزيد من المعلومات حول هذه الميزة، راجع [الجدولة باستخدام تحديد المورد بالاستناد إلى القدرة‬‏‫](capability-based-scheduling.md).
 
 ## <a name="added-functionality"></a> الوظائف المضافة
 
@@ -42,7 +47,7 @@ ms.locfileid: "7471658"
 - نوع المَورد
 - مورد
 - مجموعة الموارد
-- القدرة
+- القدرة (لمزيد من المعلومات حول، راجع [الجدولة باستخدام تحديد المورد بالاستناد إلى القدرة](capability-based-scheduling.md).)
 
 > [!NOTE]
 > المتطلبات المرتبطة بالموارد البشرية، مثل المهارات أو متطلبات الشهادات، غير معتمدة بعد.
@@ -55,7 +60,6 @@ ms.locfileid: "7471658"
 
 تنطبق القيود التالية عند استخدام الجدولة لتحسين التخطيط:
 
-- تدعم الميزة جدولة الوظائف فقط. ولا يتم اعتبار الإعدادات المرتبطة بجدولة العمليات أثناء الجدولة، بغض النظر عن أسلوب الجدولة في الخطط الرئيسية.
 - تدعم الميزة القدرة غير المحدودة فقط.
 - لا تدعم الميزة وظيفة تحميل الموارد.
 - لا تراعي الميزة خردة المسار.

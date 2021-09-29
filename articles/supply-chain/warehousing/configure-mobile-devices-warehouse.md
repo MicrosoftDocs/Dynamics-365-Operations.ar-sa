@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acf5e191f1d4b12a59490a5ab8f222c5351886c33eedcb8833921541d1bda7d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dee8d0962626c42ab76e908072e686cc5c0a61d1
+ms.sourcegitcommit: f332cabe9d5c6ece431fd5aa06759481be53f06a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736565"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506522"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>إعداد الأجهزة المحمولة لعمل المستودع
 
@@ -224,7 +224,7 @@ ms.locfileid: "6736565"
 </tr>
 <tr class="even">
 <td>النظام موجَّه</td>
-<td>يتحكم Supply Chain Management في نوع العمل الذي يتم تعيينه للعامل والترتيب الذي يؤدي العامل العمل به. عند تحديد هذا الخيار، يمكنك النقر فوق <strong>‬‏‫العمل الموجة من قِبل النظام</strong> في جزء الإجراءات لفتح صفحة <strong>‬‏‫أمر الفرز الموجة من قِبل نظام‬‏‫</strong>، حيث يمكنك إعداد معايير فرز للعمل.‬ تتحكم معايير الفرز في الترتيب الذي يؤدي العامل العمل به. ويمكنك إضافة العديد من المعايير كما تريد.‬</td>
+<td>يتحكم Supply Chain Management في نوع العمل الذي يتم تعيينه للعامل والترتيب الذي يؤدي العامل العمل به. عند تحديد هذا الخيار، يمكنك تحديد <strong>‬‏‫العمل الموجة من قِبل النظام</strong> في جزء الإجراءات لفتح صفحة <strong>‬‏‫أمر الفرز الموجة من قِبل نظام‬‏‫</strong>، حيث يمكنك إعداد معايير فرز للعمل.‬ تتحكم معايير الفرز في الترتيب الذي يؤدي العامل العمل به. ويمكنك إضافة العديد من المعايير كما تريد.‬</td>
 </tr>
 <tr class="odd">
 <td>المستخدم موجَّه</td>

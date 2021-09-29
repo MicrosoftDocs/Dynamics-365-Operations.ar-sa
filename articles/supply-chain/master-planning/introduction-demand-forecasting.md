@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736661"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484038"
 ---
 # <a name="demand-forecasting-overview"></a>نظرة عامة على التنبؤ بالطلب‬
 
@@ -34,7 +34,9 @@ ms.locfileid: "6736661"
 لإنشاء تنبؤ خط أساسي، يتم تمرير ملخص الحركات المسجلة إلى التعلم الآلي من Microsoft Azure المستضافة على Azure. لأنه لا تتم مشاركة هذه الخدمة بين المستخدمين، فإنه يمكن تخصيصها بسهولة لتلبي المتطلبات الخاصة بالصناعة. يمكنك استخدام Supply Chain Management لإظهار التنبؤ وتعديل التنبؤ وعرض مؤشرات الأداء الرئيسية (KPI) حول دقة التنبؤ.
 
 > [!NOTE]
-> Microsoft Azure استوديو التعرف علي اله (كلاسيكي) مطلوب لإنشاء التنبؤ بالتعليم اليه. ومن 2021 يناير، فانه يتوفر في الشرق اليابان والوسط المركزي الأمريكي وجنوب شرق اسيا وغرب وسط الولايات الوسطي وأوروبا الغربية. للحصول علي معلومات محدثه حول التوفر الحالي، راجع [منتجات Azure بواسطة المنطقة.](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+> Microsoft Azure استوديو التعرف علي اله (كلاسيكي) مطلوب لإنشاء التنبؤ بالتعليم اليه. اعتبارًا من 1 ديسمبر 2021، لن تتمكن من إنشاء موارد جديدة لاستوديو التعلم الآلي (الكلاسيكي). ومع ذلك، ستتمكن من مواصلة استخدام موارد استوديو التعلم الآلي (الكلاسيكي) الموجودة حتى 31 أغسطس 2024. للحصول على معلومات محدثه، راجع [استوديو التعلم الآلي من Azure](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio).
+> 
+> يدعم الإصدار 10.0.23 من Dynamics 365 Supply Chain Management والإصدارات اللاحقة استوديو التعلم الآلي من Azure الجديد.
 
 ## <a name="key-features-of-demand-forecasting"></a>الميزات الرئيسية للتنبؤ بالطلب
 

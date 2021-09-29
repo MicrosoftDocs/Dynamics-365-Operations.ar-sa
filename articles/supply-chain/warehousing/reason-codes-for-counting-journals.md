@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345256"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500573"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>أكواد الأسباب لجرد المخزون
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 تتيح لك أكواد الأسباب تحليل نتائج عملية الجرد وأي تناقضات تحدث أثناء العملية. يمكنك تحديد سبب القيام بالجرد، مثل بالتة مكسورة أو تعديل مخزون يستند إلى نماذج المخزون. وفي الوقت نفسه، يمكنك استخدام وظيفة الضبط لنشر قيمة تعديلات المخزون الفعلي إلى الحساب المقابل المناسب، استنادا إلى سبب كل تعديل المخزون.
 
@@ -42,8 +41,6 @@ ms.locfileid: "7345256"
 - هل يجب أن تدفع أكواد السبب ترحيل حساب الإزاحة المالية؟
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>تشغيل ميزات رمز السبب في النظام
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 إذا كنت لا ترى جميع الميزات الموضحة في هذا الموضوع في نظامك، فربما يتعين عليك تشغيل ميزة *نشر التعديلات اليدوية باستخدام أكواد الأسباب القابلة للتكوين المتصلة بالحسابات المقابلة*. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
