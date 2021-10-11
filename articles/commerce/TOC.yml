@@ -746,7 +746,7 @@
                       href: ../supply-chain/procurement/purchase-order-creation.md?toc=/dynamics365/commerce/toc.json
                     - name: إيصال استلام المنتجات في مقابل أوامر الشراء
                       href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?toc=/dynamics365/commerce/toc.json
-                    - name: اعتماد أوامر الشراء وتأكيدها
+                    - name: الموافقة على أوامر الشراء وتأكيدها
                       href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?toc=/dynamics365/commerce/toc.json
                     - name: مساحة العمل المحمولة "الموافقة على أمر الشراء"
                       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
@@ -1398,12 +1398,16 @@
               items:
                 - name: ترجمة Commerce لروسيا
                   href: localizations/rus-commerce-localization.md
-                - name: تنسيق عنوان العميل المبسط في Commerce POS لروسيا
-                  href: localizations/rus-simplified-address.md
                 - name: إعداد ترجمة Commerce لروسيا
                   href: localizations/rus-commerce-setup.md
                 - name: الدفعات المسبقة في Commerce لروسيا
                   href: localizations/rus-commerce-prepayments.md
+                - name: تنسيق عنوان العميل المبسط في نقطة بيع Commerce لروسيا
+                  href: localizations/rus-simplified-address.md
+                - name: عينة تكامل طابعة الضرائب المحصلة لروسيا
+                  href: localizations/rus-fpi-sample.md
+                - name: إدارة معلومات العميل لروسيا
+                  href: localizations/rus-customer-information.md
             - name: السويد
               items:
                 - name: وظيفة آلة تسجيل المدفوعات النقدية
@@ -1510,9 +1514,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/commerce/toc.json
         - name: إعداد التقارير الإلكترونية
           items:
-            - name: نظرة عامة على التقارير الإلكترونية
+            - name: نظرة عامة على إعداد التقارير الإلكترونية
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: تكوينات
+            - name: التكوينات
               items:
                 - name: إنشاء التكوينات
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/commerce/toc.json
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: تكوين دفتر العناوين العمومي
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: إعداد العنوان
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: الأسئلة المتداولة حول دفاتر العناوين
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: تكوين دفاتر العناوين
@@ -2328,8 +2334,12 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: قابلية التوسعة
           items:
-            - name: التطوير التجاري وقابلية التوسعة
-              href: dev-itpro/dev-retail-home-page.md
+            - name: تطوير Commerce وقابلية توسعته
+              items:
+                - name: Commerce للمحترفين والمطورين في مجال تقنية المعلومات
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: إعداد بيئة تطوير محلية
+                  href: dev-itpro/setup-local-dev-env.md
             - name: قابلية توسعة القناة عبر الإنترنت
               items:
                 - name: نظرة عامة على قابلية توسعة القناة عبر الإنترنت

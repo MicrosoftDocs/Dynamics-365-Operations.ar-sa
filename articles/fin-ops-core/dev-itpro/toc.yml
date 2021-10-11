@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.20 (أغسطس 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.19 (يونيو 2021)
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -1074,13 +1072,15 @@
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: إعداد التعيين لحقول حالة أمر المبيعات
                       href: data-entities/dual-write/sales-status-map.md
-                    - name: تصفية أوامر الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر
+                    - name: تصفية الأوامر بين الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر
                       href: data-entities/dual-write/filtering-intercompany-orders.md
                 - name: إدارة الكتابة المزدوجة
                   items:
                     - name: تخصيص تعيينات الكيانات والحقول
                       href: data-entities/dual-write/customizing-mappings.md
-                    - name: التعامل مع تعيينات كيانات متعددة
+                    - name: إرشادات مخصصة للكتابة المزدوجة
+                      href: data-entities/dual-write/custom-best-practices.md
+                    - name: التعامل مع خرائط كيانات متعددة
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: تحرير كيان قانوني بعد إعداد الكتابة المزدوجة
                       href: data-entities/dual-write/edit-legal-entity.md

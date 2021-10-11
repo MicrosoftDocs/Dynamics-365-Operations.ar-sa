@@ -5,6 +5,8 @@
       items:
         - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 سبتمبر 2021
+          href: hr-whats-new-2021-09-20.md
         - name: 06 سبتمبر 2021
           href: hr-whats-new-2021-09-06.md
         - name: 23 أغسطس 2021
@@ -289,11 +291,13 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: تحسين الأداء باستخدام مهام التنظيف التلقائية
               href: hr-admin-troubleshooting-batch-history.md
-            - name: إعادة تعيين المهام الدفعية العالقة
+            - name: إعادة تعيين الوظائف الدفعية العالقة
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: إعادة تعيين مزامنة Dataverse
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: لم يتم تحديث تقارير التحليلات
               href: hr-admin-troubleshooting-analytic-reports.md
-            - name: لا يمكن إنشاء بيئة في مركز إدارة Power Apps
+            - name: لا يمكن إنشاء بيئة في مركز مسؤولي Power Apps
               href: hr-admin-troubleshooting-power-apps.md
             - name: قطع اتصال العميل
               href: hr-admin-troubleshooting-disconnect.md
@@ -479,12 +483,18 @@
                   href: hr-admin-integration-payroll-api-leave-balance.md
                 - name: نوع الإجازة
                   href: hr-admin-integration-payroll-api-leave-type.md
-                - name: طلب الإجازة
+                - name: طلب إجازة
                   href: hr-admin-integration-payroll-api-leave-request.md
             - name: الكيانات ذات الصلة بالمزايا
               items:
                 - name: خطة مزايا العاملين في كشوف المرتبات
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: كيانات أخرى
+              items:
+                - name: سجل اسم الشخص
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: معدل التحويل
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: مجموعات الخيار
               items:
                 - name: الجنس
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: تكوين دفتر العناوين العمومي
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: إعداد العنوان
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: الأسئلة المتداولة حول دفاتر العناوين
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: تكوين دفاتر العناوين
@@ -775,12 +787,14 @@
                       href: hr-benefits-process-life-events.md
                     - name: معالجة تغييرات أحداث الحياة
                       href: hr-benefits-process-life-event-changes.md
-                    - name: معالجة أهلية أحداث الحياة
+                    - name: معالجة أهلية الأحداث الحياتية
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: معالجة تغييرات المعدلات
                       href: hr-benefits-process-rate-changes.md
                 - name: تقارير ACA
                   href: hr-benefits-management-aca-reports.md
+                - name: بيان المزايا
+                  href: hr-benefits-statement.md
             - name: تحديد وإدارة برنامج مزايا
               href: hr-benefits-manage-program.md
             - name: سياسات استحقاق المزايا

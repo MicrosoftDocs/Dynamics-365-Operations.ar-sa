@@ -857,9 +857,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/supply-chain/toc.json
         - name: إعداد التقارير الإلكترونية
           items:
-            - name: نظرة عامة على التقارير الإلكترونية
+            - name: نظرة عامة على إعداد التقارير الإلكترونية
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: تكوينات
+            - name: التكوينات
               items:
                 - name: إنشاء التكوينات
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/supply-chain/toc.json
@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: المعلمات غير المستخدمة في تحسين التخطيط
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: جدول التوريد
+                  href: master-planning/supply-schedule.md
                 - name: تطبيق عوامل التصفية على الخطة
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: التخطيط الرئيسي مع التنبؤ بالطلب
@@ -1679,7 +1681,7 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: حدود وقت التغطية
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: صافي المتطلبات ومعلومات الربط مع تحسين التخطيط
+                - name: صافي المتطلبات ومعلومات تثبيت السعر مع تحسين التخطيط
                   href: master-planning/planning-optimization/net-requirements.md
                 - name: الموافقة على الأوامر المخططة
                   href: master-planning/planning-optimization/approved-planned-order.md
@@ -1757,11 +1759,9 @@
                   href: master-planning/more-about-dynamic-negative-days.md
                 - name: إنشاء خطة بين الشركات الشقيقة
                   href: master-planning/tasks/create-intercompany-plan.md
-                - name: إظهار المطلب الصادر المخطط بين الشركات الشقيقة
+                - name: إظهار مطلب مخطط صادر بين الشركات الشقيقة
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: التعاون مع عملاء سلسلة التوريد الداخلية
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-                - name: صافي المتطلبات ومعلومات الربط مع التخطيط الرئيسي المضمن
+                - name: صافي المتطلبات ومعلومات تثبيت السعر مع التخطيط الرئيسي المضمن
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: تنبؤ
               items:
@@ -2033,12 +2033,16 @@
               items:
                 - name: نظرة عامة على أمر الشراء
                   href: procurement/purchase-order-overview.md
-                - name: اعتماد أوامر الشراء وتأكيدها
+                - name: الموافقة على أوامر الشراء وتأكيدها
                   href: procurement/purchase-order-approval-confirmation.md
-                - name: مساحة العمل المحمولة "الموافقة على أمر الشراء​"
+                - name: مساحة العمل المحمولة "الموافقة على أمر الشراء"
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: إنشاء أمر شراء مشترك بين الشركات الشقيقة للاستخدام الداخلي وفوترته
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: التحقق من اختلافات سعر الأمر بين الشركات الشقيقة
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: تسجيل استلام البضائع في أمر الشراء
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: إنشاء أمر شراء
               items:
                 - name: إنشاء أوامر شراء يدويًا
@@ -2729,9 +2733,65 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: إنشاء عروض أسعار المبيعات وتحريرها
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: التجارة بين الشركات الشقيقة
+              items:
+                - name: إعداد التجارة بين الشركات الشقيقة
+                  items:
+                    - name: إعداد التجارة بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: المعلمات بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: إعداد الموردين والعملاء والأصناف للتجارة بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: إعداد ‏‫التكاليف في الأوامر المشتركة بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: إعداد المعلمات لترحيل أمر مشترك بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: مزامنة المعلومات بين الشركات الشقيقة
+                  items:
+                    - name: مزامنة الأسعار والخصومات بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: مزامنة المصاريف بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: مزامنة معلومات العملاء بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: مزامنة أكواد التخلص بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: الفواتير وأوامر المبيعات المشتركة بين الشركات الشقيقة
+                  items:
+                    - name: إنشاء أوامر شراء وأوامر مبيعات مشتركة بين الشركات الشقيقة في عدة شركات
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: الأوامر وأوامر الإرجاع المشتركة بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: إنشاء أمر مبيعات مشترك بين الشركات الشقيقة للاستخدام الداخلي.
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: إنشاء أمر مبيعات مشترك بين الشركات الشقيقة لعميل خارجي وفوترته
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: الحجوزات بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: تغيير أمر مبيعات أصلي مشترك بين الشركات الشقيقة أو حذفه
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: تغيير الأوامر المشتركة بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: أرقام الدُفعات والأرقام التسلسلية بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: إيصالات التعبئة بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: تسجيل الدفعات تلقائيًا لفواتير عميل مشترك بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: أوامر الشراء المشتركة بين الشركات الشقيقة
+                  items:
+                    - name: إنشاء أمر شراء مشترك بين الشركات الشقيقة للاستخدام الداخلي وفوترته
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: التحقق من اختلافات سعر الأمر بين الشركات الشقيقة
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: تحويلات العملات بين الشركات الشقيقة
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: الجدولة الرئيسية المشتركة بين الشركات الشقيقة
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: المرتجعات
               items:
-                - name: عمليات إرجاع المبيعات
+                - name: مرتجعات المبيعات
                   href: warehousing/sales-returns.md
             - name: العمولة
               items:
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: إعداد وتكوين الوحدة النمطية التكلفة شاملة التفريغ‬
               items:
+                - name: تشغيل الوحدة النمطية التكلفة شاملة التفريغ‬ لنظامك
+                  href: landed-cost/landed-cost-enable.md
                 - name: معلمات التكلفة شاملة التفريغ‬
                   href: landed-cost/landed-cost-parameters.md
                 - name: معلمات تدبير وتحديد موارد التكلفة شاملة التفريغ
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: تقادم انتقاء مخزون لتوجيه الموقع
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: ارتساء
+                      href: warehousing/anchoring.md
                     - name: الفرز الصادر
                       href: warehousing/outbound-sorting.md
                     - name: وضع على الحائط - وضع في المتجر
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: انتقاء الدُفعة الأقدم على جهاز محمول
                       href: warehousing/pick-oldest-batch.md
+                - name: معلمات الجهاز المحمول العمومية
+                  href: warehousing/mobile-device-parameters.md
                 - name: إعدادات مستخدم الجهاز المحمول
                   href: warehousing/mobile-device-user-settings.md
                 - name: معالجة حدث تطبيق المستودع

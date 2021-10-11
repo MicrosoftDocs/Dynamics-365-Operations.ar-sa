@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: إدارة عقد حقوق الملكية
               href: accounts-payable/royalty-contract.md
+            - name: الإشارة إلى الفواتير الأصلية في الإشعارات الدائنة (فواتير المورّد)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: الدفعات والتسويات
               items:
                 - name: الدفعات المركزية للحسابات الدائنة
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: نظرة عامة حول اللقطات
                   href: finance-insights/payment-snapshots.md
+            - name: الأسئلة المتداولة حول استكشاف أخطاء Finance Insights وإصلاحها
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: إدارة المشاريع ومحاسبتها
           items:
             - name: نظرة عامة على إدارة المشاريع ومحاسبتها
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: إعداد تقارير تسجيلات ضرائب قيمة مضافة متعددة
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: إعداد التقارير في النمسا
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: التقارير المالية
                           items:
                             - name: إقرار ضريبة القيمة المضافة
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: تقرير خدمات عبر الحدود
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي للنمسا
                   href: localizations/emea-aut-intrastat.md
                 - name: رسوم المشتريات
                   href: localizations/emea-aut-purchase-duties.md
+                - name: إقرار ضريبة القيمة المضافة
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: البحرين
               items:
                 - name: نظرة عامة على البحرين
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: تقرير الإعلام ربع السنوي لضريبة القيمة المضافة
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: تقرير القائمة السوداء
-                  href: localizations/emea-ita-black-list-report.md
                 - name: تاريخ الاختصاص ودفتر اليومية المالي
                   href: localizations/emea-ita-competence-date.md
                 - name: إهلاك الأصول الثابتة
@@ -3004,7 +3012,7 @@
               items:
                 - name: نظرة عامة على هولندا
                   href: localizations/netherlands.md
-                - name: إقرار ضريبة القيمة المضافة (VAT)
+                - name: إقرار ضريبة القيمة المضافة
                   href: localizations/emea-nl-VAT-declaration.md
                 - name: إقرارات الضريبة الإلكترونية‬ (EVAT)
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
@@ -3799,9 +3807,11 @@
                   href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/finance/toc.json
         - name: إعداد التقارير الإلكترونية
           items:
-            - name: نظرة عامة على التقارير الإلكترونية
+            - name: نظرة عامة على إعداد التقارير الإلكترونية
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: تكوينات
+            - name: مكونات إعداد التقارير الإلكترونية
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
+            - name: التكوينات
               items:
                 - name: إنشاء التكوينات
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين دفتر العناوين العمومي
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: إعداد العنوان
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: الأسئلة المتداولة حول دفاتر العناوين
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين دفاتر العناوين
