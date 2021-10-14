@@ -1,7 +1,7 @@
 ---
 title: تحديد كيفية التخلص من الأصناف المرتجعة
 description: تحديد كيفية التخلص من الأصناف المرتجعة.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 594832f4d89a630bd88b18f665a6afbc7a918f0e5c9627f835f18d4b1a4d2cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722237"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571299"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>تحديد كيفية التخلص من الأصناف المرتجعة 
+# <a name="specify-how-to-dispose-of-returned-items"></a>تحديد كيفية التخلص من الأصناف المرتجعة
 
 [!include [banner](../includes/banner.md)]
-
 
 عند معالجة أمر إرجاع، عليك تحديد كود سبب إرجاع لتحديد سبب إرجاع المنتج. يجب عليك أيضًا تحديد رمز الإرجاع وإجراء الإرجاع الذي يجب اتخاذه مع المنتج المرتجع ذاته.
 
@@ -35,9 +34,9 @@ ms.locfileid: "6722237"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +124,8 @@ ms.locfileid: "6722237"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,24 +161,15 @@ ms.locfileid: "6722237"
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>تحديد كود توزيع لأمر إدخال مخزن الفحص
 
-1.  ‏‫انقر فوق **‏‫إدارة المخزون‬** \> **دوري** \> **إدارة الجودة** \>‏‫ **أوامر إدخال مخزن الفحص**.
-
-2.  بالنسبة لأمر إدخال مخزن الفحص الموجود، حدد إجراءً من الحقل **رمز الإرجاع** من علامة التبويب **نظرة عامة**.
-
-
+1. ‏‫انتقل إلى **إدارة المخزون** \> **دوري‏‎** \> **إدارة الجودة** \> **أوامر إدخال مخزن العزل**.
+1. بالنسبة لأمر إدخال مخزن الفحص الموجود، حدد إجراءً من الحقل **رمز الإرجاع** من علامة التبويب **نظرة عامة**.
 
 ## <a name="see-also"></a>راجع أيضًا
 
 [أمر إدخال مخزن الفحص (نموذج)](/dynamicsax-2012//quarantine-order-form)
 
 [أكواد الترتيب (نموذج)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

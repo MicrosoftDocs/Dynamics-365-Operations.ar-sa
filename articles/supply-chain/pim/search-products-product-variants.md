@@ -1,7 +1,7 @@
 ---
 title: البحث عن المنتجات ومتغيرات المنتجات أثناء إدخال الأمر
 description: استخدم حقل **رقم الصنف** للبحث عن المنتجات ومتغيرات المنتجات عندما تقوم بإنشاء بند أمر مبيعات أو بند أمر شراء يدويًا. يسمح لك ذلك بالعثور بسرعة على متغيرات المنتجات إذا توفرت لديك سلسلة التكوين أو أحد أبعاد المنتح فقط.
-author: cvocph
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 248534
 ms.assetid: 99dd5ce1-0029-4f06-90e7-865e6d46d86e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 72190c5f58b241abe9f4a458b6c366dfec3787f0bb32d24f73a7e9e21dbb58b7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fea7f82ac7723d4cb83c5c8224251fd6c43a315
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714922"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565678"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>البحث عن المنتجات ومتغيرات المنتجات أثناء إدخال الأمر
 

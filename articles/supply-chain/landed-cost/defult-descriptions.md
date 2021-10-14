@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c68d0ae43ee2350225a0a0e32578f300b8faebe18aa575a5f737a49fd4c0c1a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 52e048e5a9271dfcd1d7b303d8ae8eae331296a3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736709"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577614"
 ---
 # <a name="default-descriptions-for-the-general-ledger"></a>الأوصاف الافتراضية لدفتر الأستاذ العام
 
@@ -37,4 +37,4 @@ ms.locfileid: "6736709"
 | تكاليف الاستيراد - أمر بضاعة بالطريق | إذا كنت تستخدم معالجة الإرسال النقل، سيتم ترحيل فاتورة أمر الشراء، وترحيل البضائع إلى بضائع في حساب البضاعة بالطريق. يمكن تحديد الأوصاف الافتراضية لإضافة رقم أمر النقل إلى الوصف. تستخدم *%4* لرقم أمر النقل. |
 | المخزون - إقفال - تسوية | عند معالجة فاتورة الحسابات الدائنة (AP) لتكلفه الرحلة، تتم معالجة تسوية المخزون لتقدير تكاليف الرحلة. يمكن تحديد الأوصاف الافتراضية لإضافة رقم الرحلة إلى الوصف. استخدم *%4* لرقم الشحنة. |
 
-لمزيد من المعلومات حول كيفيه العمل مع صفحة **‏‫الأوصاف الافتراضية** ، راجع [اعداد الأوصاف الافتراضية للترحيل التلقائي](../../finance/general-ledger/set-up-default-descriptions-for-automatic-posting.md).
+لمزيد من المعلومات حول كيفيه العمل مع صفحة **‏‫الأوصاف الافتراضية** ، راجع [إعداد الأوصاف الافتراضية للترحيل التلقائي](../../finance/general-ledger/set-up-default-descriptions-for-automatic-posting.md).

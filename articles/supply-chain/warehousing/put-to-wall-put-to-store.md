@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712852"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574127"
 ---
 # <a name="put-to-wall---put-to-store"></a>وضع على الحائط - وضع في المتجر
 
@@ -359,7 +359,7 @@ ms.locfileid: "6712852"
 
 ### <a name="create-demand"></a>إنشاء طلب
 
-قبل التمكن من شرح الوظيفة، يجب إنشاء طلب. بالنسبة لهذا السيناريو، ستقوم بإنشاء ثلاثه أوامر مبيعات لثلاثة عملاء مختلفين لمحاكاة عناوين تسليم مختلفة. وبهذه الطريقة ستنشئ ثلاث شحنات منفصلة.
+قبل التمكن من شرح الوظيفة، يجب إنشاء طلب. بالنسبة لهذا السيناريو، ستقوم بإنشاء ثلاثة أوامر مبيعات لثلاثة عملاء مختلفين لمحاكاة عناوين تسليم مختلفة. وبهذه الطريقة ستنشئ ثلاث شحنات منفصلة.
 
 قبل إنشاء أوامر المبيعات والشحنات، تأكد أن مواقع الانتقاء بها مخزون كاف لكافة الأصناف في الأوامر. راجع إعدادات توجيه الموقع لتأكيد مواقع الانتقاء التي يتم استخدامها لانتقاء أمر المبيعات. إذا كان من الضروري تسوية المخزون، فيمكنك إنشاء حركات يدوية أو استخدام تزويد أو استخدام أي سير عمل آخر. ثم احجز المخزون.
 

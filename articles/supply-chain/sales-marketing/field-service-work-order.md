@@ -1,7 +1,7 @@
 ---
 title: مزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management
 description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d7688e757a3ab9746ae0307a7c15f0624c1d8aceeb0dc935b0da32d3ab2994b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752672"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568365"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>مزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management
 
@@ -245,31 +245,31 @@ ms.locfileid: "6752672"
 
 عامل التصفية: (msdyn_systemstatus ne 690970005) و(msdyn_systemstatus ne 690970000) و(msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![تعيين القالب في تكامل البيانات لأوامر العمل الخاصة بأوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderServiceLineEstimate
 
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و (msdyn_linestatus eq 690970000) و (msdynce_headersystemstatus ne 690970004)
 
-[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![تعيين القالب في تكامل البيانات لأوامر العمل الخاصة بأوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderServiceLineUsed
 
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و((msdyn_linestatus eq 690970001) أو (msdynce_headersystemstatus eq 690970004))
 
-[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![تعيين القالب في تكامل البيانات لأوامر العمل الخاصة بأوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderProductLineEstimate
 
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و (msdyn_linestatus eq 690970000) و(msdynce_headersystemstatus ne 690970004) و(msdyn_allocated eq true)
 
-[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![تعيين القالب في تكامل البيانات لأوامر العمل الخاصة بأوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>أوامر العمل إلى أوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderProductLineUsed
 
 عامل التصفية: (msdynce_headersystemstatus ne 690970005) و(msdynce_headersystemstatus ne 690970000) و(msdynce_orderhasexternalmaintainedproductsonly eq true) و((msdyn_linestatus eq 690970001) أو (msdynce_headersystemstatus eq 690970004) أو (msdyn_allocated ne true))
 
-[![تعيين القالب في تكامل البيانات.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![تعيين القالب في تكامل البيانات لأوامر العمل الخاصة بأوامر المبيعات (Field Service إلى Supply Chain Management): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

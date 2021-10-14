@@ -1,7 +1,7 @@
 ---
 title: فترات الخدمة
-description: تشير فترة الخدمة إلى تكرار إنشاء بنود أمر الخدمة من أجل بنود اتفاقية الخدمة عند قيامك بإنشاء أوامر الخدمة.
-author: ShylaThompson
+description: يوفر هذا الموضوع نظرة عامة حول كيفية عمل فترات الخدمة‬. تشير فترة اتفاقية الخدمة إلى تكرار إنشاء بنود أمر الخدمة من أجل بنود اتفاقية الخدمة عند قيامك بإنشاء أوامر الخدمة تلقائيًا.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53c475402d9f81b469469874ab961ef686ea3730df2ac4a55164b1042716592d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08ec58037657f7d04e50c31aec0f343a09b9fa4e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771217"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580302"
 ---
 # <a name="service-intervals"></a>فترات الخدمة
 

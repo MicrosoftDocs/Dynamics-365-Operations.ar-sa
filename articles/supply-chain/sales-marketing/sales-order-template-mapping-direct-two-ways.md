@@ -1,7 +1,7 @@
 ---
 title: مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management
 description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً بين Dynamics 365 Sales و Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9e95ba361bddf4e43b205fe580bb6f4a91dd88248a0c059ad65e66ef07de83c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad23190433b2843ec5063b5fa5b30351fcd86390
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753218"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566421"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management
 
@@ -189,19 +189,19 @@ ms.locfileid: "6753218"
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>أوامر المبيعات (Supply Chain Management إلى Sales) - مباشر: OrderHeader
 
-[![تعيين القالب في تكامل البيانات.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![تعيين القالب في تكامل البيانات، أوامر المبيعات (Supply Chain Management إلى Sales) - مباشر: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>أوامر المبيعات (Supply Chain Management إلى Sales) - مباشر: OrderLine
 
-[![تعيين القالب في تكامل البيانات.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![تعيين القالب في تكامل البيانات، أوامر المبيعات (Supply Chain Management إلى Sales) - مباشر: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>أوامر المبيعات (Sales إلي Supply Chain Management) - مباشر: OrderHeader
 
-[![تعيين القالب في تكامل البيانات.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![تعيين القالب في تكامل البيانات، أوامر المبيعات (Sales إلى Supply Chain Management) - مباشر: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>أوامر المبيعات (Sales إلى Supply Chain Management) - مباشر: OrderLine
 
-[![تعيين القالب في تكامل البيانات.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![تعيين القالب في تكامل البيانات، أوامر المبيعات (Sales إلى Supply Chain Management) - مباشر: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>مواضيع مرتبطة
 

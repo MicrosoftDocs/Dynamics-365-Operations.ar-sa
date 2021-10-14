@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 83b2d3c35e3e68aaad22bc03a46b17abc1526073895057717fd055dacdfbee5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718467"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594899"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>تحديد مواقع مساحة تخزين مخصصة للمستندات المُنشأة
 
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. قم بتعديل فئة `AssetRollForwardService` الموجودة، واكتب التعليمات البرمجية لإعداد مصنع وجهة مخصص لمشغل التقارير. لاحظ أنه عند إنشاء مصنع وجهة مخصص، يتم تمرير المعلمة التي تعتمد على التطبيق وتحدد مجلدًا هدفًا. بهذه الطريقة، يتم استخدام هذا المجلد المستهدف لتخزين الملفات التي تم إنشاؤها.
 
     > [!NOTE] 
-    > تأكد من وجود المجلد المحدد ( **c:\\0** في هذا المثال) في نظام الملفات المحلي للخادم الذي يقوم بتشغيل خدمة AOS. وبخلاف ذلك، سيتم طرح استثناء [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) في وقت التشغيل.
+    > تأكد من وجود المجلد المحدد ( **c:\\0** في هذا المثال) في نظام الملفات المحلي للخادم الذي يقوم بتشغيل خدمة AOS. وبخلاف ذلك، سيتم طرح استثناء [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) في وقت التشغيل.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

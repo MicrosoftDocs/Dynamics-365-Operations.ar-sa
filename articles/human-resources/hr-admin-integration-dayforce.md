@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414574"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559451"
 ---
 # <a name="configure-integration-with-dayforce"></a>تكوين التكامل مع Dayforce
 
@@ -64,7 +64,6 @@ ms.locfileid: "7414574"
 
 > [!NOTE]
 > يتم تشفير حزمة البيانات التي تم نقلها إلى نقطة نهاية SFTP باستخدام مفتاح فريد للحزمة. المفتاح موجود في Azure Key Vault والذي يمكن الوصول إليه عن طريق Ceridian فقط. لا يمكن فك تشفير محتويات حزمة البيانات وفحصها. إذا كنت بحاجة إلى فحص محتويات حزمة البيانات، ستحتاج إلى تصدير مشروع البيانات "تصدير تكامل الرواتب" يدويا، وتنزيله، ثم فتحه. لن تطبق عملية التصدير اليدوية التشفير أو نقل الحزمة.
-> بالنسبة للمثيلات التي يتم فيها إرسال ملفات التكامل من Dynamics 365 Human Resources UAT أو بيئة اختبار معزولة إلى بيئة Ceridian Dayforce Test، يمكنك استخدام عنوان URL للمخزن الرئيسي التالي: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>تكوين بياناتك 
 

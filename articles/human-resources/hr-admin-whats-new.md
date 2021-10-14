@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 874fa7a04d872b411716f57b121ab24458245fa2
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 0ab7cfbb5591f68880354437cc4eebb666801a6b
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485871"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556781"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>الجديد أو المتغير في Human Resources
 
@@ -40,6 +40,7 @@ ms.locfileid: "7485871"
 
 للاطلاع على الميزات الجديدة أو المتغيرة في كل إصدار كل أسبوعين من Human Resources، راجع المواضيع التالية:
 
+[20 سبتمبر 2021](hr-whats-new-2021-09-20.md)</br>
 [6 سبتمبر 2021](hr-whats-new-2021-09-06.md)</br>
 [23 أغسطس 2021](hr-whats-new-2021-08-23.md)</br>
 [9 أغسطس 2021](hr-whats-new-2021-08-09.md)</br>

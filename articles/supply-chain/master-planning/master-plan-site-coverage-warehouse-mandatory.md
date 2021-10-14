@@ -1,7 +1,7 @@
 ---
 title: التخطيط الرئيسي لتغطية الموقع، المستودع إلزامي
 description: يصف هذا الموضوع كيف يتم التخطيط لصنف تم تعيين بُعد الموقع له للتغطية. يُعد المستودع بُعدًا إلزاميًا.
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 2454
 ms.assetid: aa135030-f98c-48bf-902c-e52f680dc247
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20f964c861f488d92525880af1e152a3fd291461b996ae81a0ab23b1f2129d2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dbc73911fcb3e0b0515f490f9f1236b4a12c648
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773311"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573705"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>التخطيط الرئيسي لتغطية الموقع، المستودع إلزامي
 

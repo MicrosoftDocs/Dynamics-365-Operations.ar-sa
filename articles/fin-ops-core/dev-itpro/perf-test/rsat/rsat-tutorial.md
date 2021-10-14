@@ -1,24 +1,21 @@
 ---
 title: البرنامج التعليمي للأداة Regression Suite Automation Tool
 description: يوضح هذا الموضوع كيفية استخدام أداة Regression suite automation tool (RSAT). وهو يصف ميزات مختلفة ويوفر أمثلة تستخدم البرمجة النصية المتقدمة.
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.custom: 21761
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714539"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556755"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>البرنامج التعليمي للأداة Regression Suite Automation Tool
 
@@ -82,13 +79,19 @@ ms.locfileid: "6714539"
 
 تقوم هذه الميزة بأخذ لقطات شاشة الخطوات التي تم إجراؤها أثناء تسجيل المهام. وهي مفيدة لأغراض للتدقيق أو التصحيح.
 
-- لاستخدام هذه الميزة، افتح ملف **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**، تحت مجلد تثبيت RSAT (على سبيل المثال، **C:\\Program Files (x86)\\Regression Suite Automation Tool**)، وقم بتغيير القيمة للعنصر التالي من **false** إلى **true**.
+- لاستخدام هذه الميزة أثناء تشغيل RSAT مع واجهة المستخدم، افتح ملف **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config**، تحت مجلد تثبيت RSAT (على سبيل المثال، **C:\\Program Files (x86)\\Regression Suite Automation Tool**)، وقم بتغيير القيمة في العنصر التالي من **خطأ** إلى **صواب**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-عند تشغيل حالة الاختبار، ينشئ RSAT لقطات (صور) للخطوات في مجلد التشغيل لحالات الاختبار في الدليل الفعال. إذا كنت تستخدم إصدارًا أقدم من RSAT، فسيتم حفظ الصور في **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**، ويتم إنشاء مجلد منفصل لكل حالة اختبار قيد التشغيل.
+- لاستخدام هذه الميزة أثناء تشغيل RSAT بواسطة CLI (على سبيل المثال، Azure DevOps)، افتح الملف **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** تحت مجلد تثبيت RSAT (على سبيل المثال، **C:\\Program Files (x86)\\Regression Suite Automation Tool**)، وقم بتغيير القيمة في العنصر التالي من **خطأ** إلى **صواب**.
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+عند تشغيل حالات الاختبار، ينشئ RSAT لقطات (صور) للخطوات ويحفظها في مجلد التشغيل لحالات الاختبار في الدليل الفعال. في مجلد التشغيل، يتم إنشاء مجلد فرعي منفصل باسم **StepSnapshots**. يحتوي هذا المجلد على لقطات لحالات الاختبار التي يتم تشغيلها.
 
 ## <a name="assignment"></a>تعيين
 
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 يستخدم المثال التالي استدعاء بروتوكول البيانات المفتوحة (OData) للعثور على حالة الأمر لأمر الشراء. إذا لم تتم **فوترة** الحالة، يمكنك، على سبيل المثال، استدعاء حالة اختبار RSAT التي ترحّل الفاتورة.
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

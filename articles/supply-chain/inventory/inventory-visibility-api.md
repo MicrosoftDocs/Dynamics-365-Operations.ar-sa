@@ -2,7 +2,7 @@
 title: واجهات API العامة لرؤية المخزون
 description: يصف هذا الموضوع واجهات برمجة التطبيقات العامة التي يتم توفيرها بواسطة "رؤية المخزون".
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474642"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592478"
 ---
 # <a name="inventory-visibility-public-apis"></a>واجهات API العامة لرؤية المخزون
 
@@ -82,6 +82,8 @@ ms.locfileid: "7474642"
 
 يتم استخدام رمز أمان النظام الأساسي لاستدعاء واجهة برمجة التطبيقات العامة لرؤية المخزون. ولذلك، يجب إنشاء رمز _Azure Active Directory (Azure AD) المميز_ باستخدام تطبيق Azure AD. يجب استخدام رمز Azure AD المميز للحصول على _رمز الوصول المميز_ من خدمة الأمان.
 
+توفر Microsoft مجموعة الحصول على الرمز المميز *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+
 للحصول على رمز خدمة الأمان، اتبع هذه الخطوات.
 
 1. قم بتسجيل الدخول إلى مدخل Azure، واستخدمه للبحث عن قيم `clientId` و`clientSecret` لتطبيق Dynamics 365 Supply Chain Management الخاص بك.
@@ -131,7 +133,7 @@ ms.locfileid: "7474642"
    - قيمة `context` يجب أن تكون معرف البيئة حيث تريد توزيع الوظيفة الإضافية.
    - قم بتعيين كافة القيم الأخرى كما هو موضح في المثال.
 
-1. قم بإرسال طلب HTTP بالخصائص التالية:
+1. إحضار رمز مميز للوصول (`access_token`) عن طريق إرسال طلب HTTP بالخصائص التالية:
 
    - **عنوان URL:** `https://securityservice.operations365.dynamics.com/token`
    - **الأسلوب:** `POST`
@@ -148,7 +150,8 @@ ms.locfileid: "7474642"
    }
    ```
 
-في الأقسام اللاحقة، ستستخدم `$access_token` لتمثيل الرمز المميز الذي تم جلبه في الخطوة الأخيرة.
+> [!IMPORTANT]
+> عند استخدام مجموعة طلب *ساعي البريد* لاستدعاءات واجهات API العامة لرؤية المخزون، يجب إضافة رمز مميز للحامل إلى كل طلب. للحصول على الرمز المميز للحامل، حدد علامة التبويب **تخويل** ضمن عنوان URL للطلب، وحدد نوع **الرمز المميز للحامل**، وانسخ الرمز المميز للوصول الذي تم إحضاره في الخطوة الأخيرة. في الأقسام اللاحقة من هذا الموضوع، سيتم استخدام `$access_token` لتمثيل الرمز المميز الذي تم إحضاره في الخطوة الأخيرة.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>إنشاء أحداث التغيير المتاحة
 
@@ -508,7 +511,7 @@ Body:
 
 - يجب أن يحتوي `organizationId` على قيمة واحدة فقط، ولكنه ما يزال صفيف.
 - يمكن أن يحتوي `productId` على قيمة واحدة أو أكثر. إذا كان فارغًا، فسيتم إرجاع كافة المنتجات.
-- يتم استخدام `siteId` و`locationId` في رؤية المخزون لأجل التقسيم.
+- يتم استخدام `siteId` و`locationId` للتقسيم في رؤية المخزون. يمكنك تحديد أكثر من قيمة `siteId` و`locationId` واحدة في طلب *الاستعلام المتاح‬*. في الإصدار الحالي، يجب تحديد قيم لكل من `siteId` و`locationId`.
 
 يجب أن تتبع معلمة `groupByValues` التكوين الخاص بك للفهرسة. لمزيد من المعلومات، راجع [تكوين التدرج الهرمي لفهارس المنتجات](./inventory-visibility-configuration.md#index-configuration).
 

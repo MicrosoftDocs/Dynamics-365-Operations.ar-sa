@@ -1,22 +1,22 @@
 ---
 title: العطاء المغلق لطلبات عروض الأسعار (RFQ)‬
 description: يصف هذا الموضوع كيفية إعداد عروض الأسعار المغلقة للحفاظ على سرية ردود عروض أسعار الموردين حتى يتم فضها من قبل موظفي الشراء.
-author: yanansong
+author: Henrikan
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yanansong
+ms.author: henrikan
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500624"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578070"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>العطاء المغلق لطلبات عروض الأسعار (RFQ)‬
 
@@ -53,7 +53,11 @@ ms.locfileid: "7500624"
 تستخدم Supply Chain Management مفاتيح التشفير لحماية جميع العطاءات المغلقة وإبقائها سرية حتى الوقت المناسب. يستفيد من إمكانات Key Vault لإنشاء المفاتيح المطلوبة وإدارتها. لذلك، يجب عليك إعداد اتصال من Supply Chain Management إلى مخزن مفاتيح لتمكين النظام.
 
 > [!IMPORTANT]
-> يجب إنشاء مخزن المفاتيح في اشتراك Azure المملوك لمؤسستك (وليس الاشتراك حيث تقوم بتشغيل Supply Chain Management).
+> يجب أن تستوفي مخازن المفاتيح التي تستخدمها للعطاءات المغلقة المتطلبات التالية:
+>
+> - إذا كنت تستخدم بيئة اختبار معزولة للتطوير والاختبار، فيجب أن يتوفر لديك مخزون مفاتيح واحد مخصص لبيئة الاختبار المعزولة وآخر منفصل لبيئة الإنتاج.
+> - يجب إنشاء كل مخزن مفاتيح في اشتراك Azure المملوك لمؤسستك (وليس الاشتراك حيث تقوم بتشغيل Supply Chain Management).
+> - يجب استخدام كل مخزن مفاتيح بشكل خاص للعطاءات المغلقة. يجب الا تستخدم مخازن مفاتيح العطاءات المغلقة لأي غرض آخر.
 
 كل عطاء يسترد مفتاحه السري. يتم استخدام هذا المفتاح في كل مرة يقوم فيها المستخدم بعرض العطاء أو تحديثه أو فتحه.
 

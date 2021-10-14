@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: a3cc431307d840d393a454e91f202c07c38d2512
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429209"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559328"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>خطة التعويض الثابتة لكشف الرواتب
 
@@ -42,7 +42,7 @@ ms.locfileid: "7429209"
 | **معرف المنصب**</br>mshr_positionid</br>*سلسلة* | للقراءة فقط | معرف المنصب المرتبط بالموظف وتسجيل خطة التعويض الثابت. |
 | **صالح من**</br>mshr_validfrom</br>*الفرق بالتاريخ والوقت* |  للقراءة فقط | تاريخ بدء صلاحية التعويض الثابت للموظف.  |
 | **صالح حتى**</br>mshr_validto</br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ انتهاء صلاحية التعويض الثابت للموظف. |
-| **تكرار الدفع**</br>mshr_payfrequency</br>*سلسلة* | للقراءة فقط | تكرار تنفيذ عملية الدفع للموظف.  |
+| **تكرار الدفع**</br>mshr_payfrequency</br>*سلسلة* | للقراءة فقط | معرف [تكرار دفع التعويض](hr-admin-integration-payroll-api-compensation-pay-frequency.md) لمعدل الدفع المحدد. |
 | **عملة**</br>mshr_currency</br>*سلسلة* | للقراءة فقط | العملة المحددة لخطة التعويض الثابت. |
 | **كيان خطة التعويض الثابتة لكشف الرواتب**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف خطة التعويض بشكل فريد. |
 

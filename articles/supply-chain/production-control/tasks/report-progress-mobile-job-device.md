@@ -1,7 +1,7 @@
 ---
 title: الإبلاغ عن مدى تقدم في جهاز وظيفة محمول
 description: هذا الإجراء يوضح لك كيفية البدء والإبلاغ عن التقدم المحرز في وظيفة إنتاج في نموذج تسجيل جهاز الوظيفة.
-author: ShylaThompson
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba9bdf17b637e88306ecb52eb46bf5c8577334a11d6d4777f33156f3e9ad6a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4f919a23fa3008356746dfd5b33b2835c8cf3de9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726743"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566517"
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>الإبلاغ عن مدى تقدم في جهاز وظيفة محمول
 
