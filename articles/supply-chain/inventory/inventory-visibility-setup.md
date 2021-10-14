@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474810"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581855"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>تثبيت إعداد رؤية المخزون
 
@@ -35,63 +35,11 @@ ms.locfileid: "7474810"
 
 - احصل على مشروع تنفيذ LCS حيث يتم نشر بيئة واحدة على الأقل.
 - تأكد من أن المتطلبات الأساسية لإعداد الوظائف الإضافية قد اكتملت. للحصول على معلومات حول هذه المتطلبات الأساسية، راجع [نظرة عامة على الوظائف الإضافية](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). لا تتطلب رؤية المخزون ارتباطًا ثنائي الكتابة.
-- تواصل مع فريق منتج رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) للحصول على الملفات المطلوبة التالية:
-
-    - `InventoryServiceApplication.PackageDeployer.zip`
-    - `Inventory Visibility Integration.zip` (إذا كان إصدار Supply Chain Management الذي تقوم بتشغيله أقدم من الإصدار 10.0.18)
 
 > [!NOTE]
 > تشمل البلدان والمناطق المدعومة حاليًا كندا (CCA، ECA)، والولايات المتحدة (WUS، EUS)، والاتحاد الأوروبي (NEU، WEU)، والمملكة المتحدة (SUK، WUK)، وأستراليا (EAU، SEAU) واليابان (EJP, WJP)، والبرازيل (SBR, SCUS).
 
-إذا كانت لديك إيه اسئله حول هذه المتطلبات الاساسيه، الرجاء الاتصال بفريق رؤية المخزون.
-
-## <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>إعداد Dataverse
-
-لإعداد Dataverse بحيث يمكن استخدامها مع "رؤية المخزون"، استخدم أداة نشر الحزمة لنشر حزمة "رؤية المخزون". تصف الأقسام الفرعية التالية كيفية إكمال كل مهمة.
-
-> [!NOTE]
-> حاليا، يتم اعتماد بيئات Dataverse التي تم إنشاؤها باستخدام LCS فقط. إذا تم إنشاء بيئة Dataverse الخاصة بك بطريقة أخرى (على سبيل المثال، باستخدام مركز إدارة Power Apps)، وإذا كانت مرتبطة ببيئة Supply Chain Management الخاصة بك، فيجب عليك أولاً الاتصال بالمخزون رؤية فريق المنتج لإصلاح مشكلة التعيين. يمكنك بعد ذلك تثبيت رؤية المخزون.
-
-### <a name="migrate-from-an-old-version-of-the-dataverse-solution"></a>ترحيل من إصدار قديم لحل Dataverse
-
-إذا قمت بتثبيت إصدار قديم من حل Dataverse لرؤية المخزون، فاستخدم هذه الإرشادات لتحديث الإصدار. هناك حالتان:
-
-- **الحالة 1:** إذا قمت بإعداد Dataverse يدويًا عن طريق استيراد حل `Inventory Visibility Dataverse Solution_1_0_0_2_managed.zip`، اتبع الخطوات التالية:
-
-    1. قم بتنزيل الملفات الثلاثة التالية:
-
-        - `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip`
-        - `InventoryServiceBase_managed.cab`
-        - `InventoryServiceApplication.PackageDeployer.zip`
-
-    1. قم باستيراد `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip` و`InventoryServiceBase_managed.cab` إلى Dataverse يدويًا باتباع الخطوات التالية:
-
-        1. افتح عنوان URL الخاص ببيئة Dataverse الخاصة بك.
-        1. افتح صفحة **الحلول**.
-        1. حدد **استيراد**.
-
-    1. استخدم أداة نشر الحزمة لنشر حزمة `InventoryServiceApplication.PackageDeployer.zip`. للحصول على إرشادات، راجع قسم [استخدام أداة نشر الحزمة لنشر الحزمة](#deploy-package) لاحقًا في هذا الموضوع.
-
-- **الحالة 2:** إذا قمت بإعداد Dataverse باستخدام أداة نشر الحزمة قبل تثبيت حزمة `.*PackageDeployer.zip` الأقدم، قم بتنزيل `InventoryServiceApplication.PackageDeployer.zip`، وقم بتحديث. للحصول على إرشادات، راجع قسم [استخدام أداة نشر الحزمة لنشر الحزمة](#deploy-package).
-
-### <a name="use-the-package-deployer-tool-to-deploy-the-package"></a><a name="deploy-package"></a>استخدام أداة نشر الحزمة لنشر الحزمة
-
-1. قم بتثبيت أدوات المطور كما هو موضح في [أدوات التنزيل من NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
-1. قم بإلغاء حظر ملف `InventoryServiceApplication.PackageDeployer.zip` الذي قمت بتنزيله من مجموعة Teams باتباع الخطوات التالية:
-
-    1. حدد ثم اضغط (أو انقر بزر الماوس الأيمن) فوق الملف، ثم حدد **خصائص**.
-    1. في مربع الحوار **خصائص**، في علامة التبويب **عام**، ابحث عن قسم **الأمان**، وحدد **إلغاء الحظر**، وطبق التغيير. إذا لم يكن هناك قسم **أمان**  في علامة التبويب **عام**، فلن يتم حظر الملف. في هذه الحالة، انتقل إلى الخطوة التالية.
-
-    ![إلغاء حظر الملف الذي تم تنزيله](media/unblock-file.png "إلغاء حظر الملف الذي تم تنزيله")
-
-1. فك ضغط `InventoryServiceApplication.PackageDeployer.zip` للعثور على العناصر التالية:
-
-    - مجلد `InventoryServiceApplication`
-    - ملف `[Content_Types].xml`
-    - ملف `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`
-
-1. انسخ كل عنصر من هذه العناصر إلى دليل `.\Tools\PackageDeployment`. (تم إنشاء هذا الدليل عند تثبيت أدوات المطور.)
-1. قم بتشغيل `.\Tools\PackageDeployment\PackageDeployer.exe`، واتبع الإرشادات التي تظهر على الشاشة لاستيراد الحلول.
+إذا كانت لديك أي أسئلة حول هذه المتطلبات الأساسية، فاتصل بفريق منتج رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>تثبيت الوظيفة الإضافية لرؤية المخزون
 
@@ -102,7 +50,11 @@ ms.locfileid: "7474810"
 1. سجل الدخول إلى [LCS](https://lcs.dynamics.com/Logon/Index).
 1. في الصفحة الرئيسية ، حدد المشروع حيث يتم نشر البيئة الخاصة بك.
 1. في الصفحة المشروع ، حدد البيئة التي ترغب في تثبيت الوظيفة الإضافية بها.
-1. في الصفحة البيئة، قم بالتمرير لأسفل حتى تعثر على قسم **الوظائف الإضافية الخاصة بالبيئة** في قسم **تكامل Power Platform**. هناك، يمكنك العثور على اسم بيئة Dataverse.
+1. في الصفحة البيئة، قم بالتمرير لأسفل حتى تعثر على قسم **الوظائف الإضافية الخاصة بالبيئة** في قسم **تكامل Power Platform**. هناك، يمكنك العثور على اسم بيئة Dataverse. تأكد من أن اسم بيئة Dataverse هو الاسم الذي ترغب في استخدامه لرؤية المخزون.
+
+    > [!NOTE]
+    > حاليا، يتم اعتماد بيئات Dataverse التي تم إنشاؤها باستخدام LCS فقط. إذا تم إنشاء بيئة Dataverse بطريقة أخرى (على سبيل المثال، باستخدام مركز إدارة Power Apps)، وإذا كانت مرتبطة ببيئة Supply Chain Management، فيجب عليك أولاً الاتصال بفريق منتج رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) لإصلاح مشكلة التعيين. يمكنك بعد ذلك تثبيت رؤية المخزون.
+
 1. في قسم **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.
 
     ![صفحة البيئة في LCS](media/inventory-visibility-environment.png "صفحة البيئة في LCS")
@@ -118,6 +70,7 @@ ms.locfileid: "7474810"
 
 1. الموافقة علي البنود والشروط عن طريق تحديد خانه الاختيار **البنود والشروط**.
 1. حدد **تثبيت**. تظهر حاله الوظيفة الإضافية باعتبارها **قيد التثبيت**. عند اكتمال التثبيت، قم بتحديث الصفحة. يجب تغيير الحالة إلى **تم التثبيت**.
+1. في Dataverse، حدد قسم **التطبيقات** في جزء التنقل الأيمن، وتحقق من تثبيت **رؤية المخزون** في Power Apps بطريقة ناجحة. إذا لم يظهر قسم **التطبيقات**، فاتصل بفريق منتج رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!IMPORTANT]
 > إذا كان لديك أكثر من بيئة LCS، فقم بإنشاء تطبيق Azure AD مختلف لكل بيئة. في حالة استخدام نفس معرف التطبيق ومعرف المستاجر لتثبيت الوظيفة الإضافية لرؤية المخزون لبيئات مختلفة، ستحدث مشكلة في الرمز المميز للبيئات الأقدم. سيكون آخر رمز تم تثبيته صالحاً فقط.
@@ -126,13 +79,13 @@ ms.locfileid: "7474810"
 
 لإلغاء تثبيت الوظيفة الإضافية "رؤية المخزون"، حدد **إزالة تثبيت** في صفحة LCS. تقوم عملية إلغاء التثبيت بإنهاء الوظيفة الإضافية رؤية المخزون، وإلغاء تسجيل الوظيفة الإضافية من LCS، وحذف أي بيانات مؤقتة مخزنة في ذاكرة التخزين المؤقت لبيانات الجرد الإضافية. ومع ذلك، لا يتم حذف بيانات المخزون الأساسية المخزنة في اشتراك Dataverse.
 
-لإزالة تثبيت بيانات المخزون المخزنة في اشتراك Dataverse، افتح [Power Apps](https://make.powerapps.com)، وحدد **بيئة**  على شريط التنقل، وحدد بيئة Dataverse المرتبطة ببيئة LCS. ثم انتقل إلى **الحلول**، ثم احذف الحلول الخمسة التالية:
+لإزالة تثبيت بيانات المخزون المخزنة في اشتراك Dataverse، افتح [Power Apps](https://make.powerapps.com)، وحدد **بيئة**  على شريط التنقل، وحدد بيئة Dataverse المرتبطة ببيئة LCS. ثم انتقل إلى **الحلول**، واحذف الحلول الخمسة التالية بهذا الترتيب:
 
-- حل تثبيت لتطبيق رؤية المخزون في حلول Dynamics 365
-- حل لتطبيقات Dynamics 365 FNO SCM Inventory Visibility
-- تكوين خدمة الجرد
-- خدمة رؤية المخزون المستقلة
-- الحل الأساسي لـ Dynamics 365 FNO SCM Inventory Visibility
+1. حل تثبيت لتطبيق رؤية المخزون في حلول Dynamics 365
+1. حل لتطبيقات Dynamics 365 FNO SCM Inventory Visibility
+1. تكوين خدمة الجرد
+1. خدمة رؤية المخزون المستقلة
+1. الحل الأساسي لـ Dynamics 365 FNO SCM Inventory Visibility
 
 بعد حذف هذه الحلول، سيتم حذف البيانات المخزنة في الجداول أيضا.
 

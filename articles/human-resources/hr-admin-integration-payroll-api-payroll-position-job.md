@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722621"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559573"
 ---
 # <a name="payroll-position-job"></a>وظيفة منصب كشف الرواتب
 
@@ -34,16 +34,22 @@ ms.locfileid: "6722621"
 
 ## <a name="properties"></a>الخصائص
 
-| الخاصية<br>**الاسم الفعلي**<br>**_النوع_** | استخدام | الوصف |
+| الخاصية</br>**الاسم الفعلي**</br>**_النوع_** | استخدام | ‏‏الوصف |
 | --- | --- | --- |
-| **معرف الوظيفة**<br>mshr_jobid<br>*سلسلة* | للقراءة فقط<br>مطلوب |معرف الوظيفة. |
-| **صالح من**<br>mshr_validto<br>*الفرق بالتاريخ والوقت* | للقراءة فقط <br>مطلوب | تاريخ بدء صلاحية علاقة المنصب والوظيفة. |
-| **صالح حتى**<br>mshr_validto<br>*الفرق بالتاريخ والوقت* | للقراءة فقط <br>مطلوب | تاريخ انتهاء صلاحية علاقة المنصب والوظيفة.  |
-| **معرف المنصب**<br>mshr_positionid<br>*سلسلة* | للقراءة فقط<br>مطلوب | معرف المنصب. |
-| **الحقل الأساسي**<br>mshr_primaryfield<br>*سلسلة* | مطلوب<br>النظام منشأ |  |
-| **قيمة معرف وظيفة المنصب**<br>_mshr_fk_positionjob_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>مفتاح خارجي:mshr_PayrollPositionJobEntity لـ mshr_payrollpositionjobentity |معرف الوظيفة المقترنة بالمنصب.|
-| **قيمة معرف خطة التعويض الثابت**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>مفتاح خارجي: mshr_FixedCompPlan_id لـ mshr_payrollfixedcompensationplanentity  | معرف خطة التعويض الثابت المقترنة بالمنصب. |
-| **معرف كيان وظيفة المنصب في كشف الرواتب**<br>mshr_payrollpositionjobentityid<br>*Guid* | مطلوب<br>منشأ بواسطة النظام. | قيمة معرف GUID منشأ بواسطة النظام لتعريف الوظيفة بشكل فريد.  |
+| **معرف المنصب**</br>mshr_positionid</br>*سلسلة* | للقراءة فقط | معرف المنصب. |
+| **صالح من**</br>mshr_validto</br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ بدء صلاحية علاقة المنصب والوظيفة. |
+| **صالح حتى**</br>mshr_validto</br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ انتهاء صلاحية علاقة المنصب والوظيفة. |
+| **معرف الوظيفة**</br>mshr_jobid</br>*سلسلة* | للقراءة فقط | معرف الوظيفة. |
+| **الحقل الأساسي**</br>mshr_primaryfield</br>*سلسلة* | النظام منشأ | الحقل الأساسي. |
+| **معرف كيان وظيفة المنصب في كشف الرواتب**</br>mshr_payrollpositionjobentityid</br>*Guid* | منشأ بواسطة النظام. | قيمة معرف فريد عمومي (GUID) يقوم النظام بإنشائه لتعريف الوظيفة بشكل فريد. |
+
+## <a name="relations"></a>العلاقات
+
+| قيمة الخاصية | الكيان المرتبط | خاصيه التنقل | نوع التجميع |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | غير قابل للتطبيق |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>مثال الاستعلام
 

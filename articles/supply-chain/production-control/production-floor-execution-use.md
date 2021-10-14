@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c2215ae4162616fec892a8bce6cff5d5f68e5aa1457b41d86bb540bdcff87197
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747855"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569327"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬
 
@@ -138,7 +138,7 @@ ms.locfileid: "6747855"
 
 الأنشطة غير المباشرة هي أنشطة لا تتعلق مباشرة بأمر الإنتاج. يمكن تحديد الأنشطة غير المباشرة بشكل مرن، كما هو موضح في [إعداد الأنشطة المباشرة للوقت والحضور](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
-على سبيل المثال، يرغب شانون، عامل صالة في Contoso، في حضور اجتماع شركة، ويتم اعتبار الاجتماعات كنشاط غير مباشر. يُطبق أحد السيناريوهين التاليين:
+على سبيل المثال، يرغب شانون، عامل صالة في Contoso، في حضور اجتماع شركة، ويتم اعتبار الاجتماعات نشاط غير مباشر. يُطبق أحد السيناريوهين التاليين:
 
 - **تعمل شانون يعمل في واحدة أو أكثر من الوظائف النشطة.** تحدد شانون **نشاط**، وتُحدد النشاط (الاجتماع) وتؤكد تحديدها. تظهر رسالة لإعلامها بأن الوظائف الخاصة بها قيد التقدم. من الرسالة، يمكن لشانون أن تختار إكمال أو إيقاف الوظائف التي تعمل عليها قبل الانتقال إلى الاجتماع.
 - **ليس لدى شانون أية وظائف نشطة.** تحدد شانون **نشاط**، وتُحدد النشاط (الاجتماع) وتؤكد تحديدها. ويتم تسجيلها الآن على أنها في الاجتماع.

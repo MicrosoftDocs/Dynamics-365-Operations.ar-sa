@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 92e0d2ef468a47579d21428009f1fd2dfcb8b0c19874d1a8d44e638f9f0a7c89
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738115"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575137"
 ---
 # <a name="warehouse-slotting"></a>تقسيم المستودعات
 
@@ -107,9 +107,9 @@ ms.locfileid: "6738115"
 1. انتقل إلى **إدارة المستودعات \> الإعداد \> التزويد \> قوالب التقسيم**.
 1. حدد **جديد**، لإنشاء قالب.
 
-بعد ذلك، يجب عليك إعداد رأس القالب ومواصفات التقسيم وتوجيهات المواقع، كما هو موضح في الأقسام الفرعية التالية. ويمثل اعداد التقسيم لأوامر التحويل الاعداد الخاص بتقسيم أوامر المبيعات، ولكن يتم تعيين أوامر التحويل للحقل **نوع الطلب** على *أوامر التحويل* بدلا من *أمر المبيعات*.
+بعد ذلك، يجب عليك إعداد رأس القالب ومواصفات التقسيم وتوجيهات المواقع، كما هو موضح في الأقسام الفرعية التالية. ويمثل إعداد التقسيم لأوامر التحويل الإعداد الخاص بتقسيم أوامر المبيعات، ولكن يتم تعيين أوامر التحويل للحقل **نوع الطلب** على *أوامر التحويل* بدلا من *أمر المبيعات*.
 
-#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>اعداد الراس لقالب تقسيم أمر المبيعات
+#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>إعداد الراس لقالب تقسيم أمر المبيعات
 
 1. في رأس القالب، قم بتعيين القيم التالية:
 

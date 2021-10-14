@@ -1,7 +1,7 @@
 ---
 title: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎
 description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة كيانات جهات الاتصال (جهات الاتصال) وجهات الاتصال (العملاء) من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 084030ab6ff06a1140621bb91435edf6cff4f82cc4bbc13813ab46f76e42174d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef51a97c38f446cd267ac8a621ce2a1f66efad18
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756837"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579030"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎
 
@@ -117,13 +117,13 @@ ms.locfileid: "6756837"
 > [!NOTE]
 > يعرض التعيين معلومات العمود التي ستتم مزامنتها من Sales إلى Supply Chain Management.
 
-### <a name="contact-to-contact"></a>جهة اتصال إلى جهة اتصال
+### <a name="contact-to-contact-example"></a>مثال من جهة اتصال إلى جهة اتصال
 
-![تعيين القالب في موحد البيانات.](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![تعيين قالب من جهة اتصال إلى جهة اتصال في موحد البيانات.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
-### <a name="contact-to-customer"></a>جهة اتصال إلى عميل
+### <a name="contact-to-customer-example"></a>مثال من عميل إلى عميل
 
-![تعيين القالب في موحد البيانات.](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![تعيين قالب من عميل إلى عميل في موحد البيانات.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>مواضيع مرتبطة

@@ -13,15 +13,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f033dee70f3423ec560885d59e2db1bc61cb6009e9c9c151c15c0ecd8d697862
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747999"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567549"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>تاريخ ما يرد أخيرًا يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز
 
@@ -55,7 +55,9 @@ ms.locfileid: "6747999"
 
 يعكس سعر تكلفة متوسط التشغيل متوسط الحركات التي تم تحديثها ماليًا عند 15.00 ريال سعودي. 
 
-يُظهر التوضيح التالي آثار نموذج مخزون تاريخ LIFO عند عدم استخدام خيار **تضمين القيمة الفعلية**. ![تاريخ ما يرد أخيرًا يصرف أولاً‬ (LIFO) مع تضمين القيمة الفعلية.](./media/lifodatewithoutincludephysicalvalue.gif) 
+يُظهر التوضيح التالي آثار نموذج مخزون تاريخ LIFO عند عدم استخدام خيار **تضمين القيمة الفعلية**. 
+
+![تاريخ LIFO بدون خيار تضمين القيمة الفعلية.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **مفتاح المخطط**
 
@@ -90,7 +92,9 @@ ms.locfileid: "6747999"
 
 يعكس سعر تكلفة متوسط التشغيل متوسط الحركات التي تم تحديثها ماليًا عند 20.00 ريال سعودي. 
 
-يُظهر التوضيح التالي آثار نموذج مخزون LIFO عند استخدام خيار **تضمين القيمة الفعلية**. ![تاريخ ما يرد أخيرًا يصرف أولاً‬ (LIFO) مع تضمين القيمة الفعلية.](./media/lifodatewithincludephysicalvalue.gif) 
+يُظهر التوضيح التالي آثار نموذج مخزون LIFO عند استخدام خيار **تضمين القيمة الفعلية**. 
+
+![تاريخ LIFO مع خيار تضمين القيمة الفعلية.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **مفتاح المخطط**
 

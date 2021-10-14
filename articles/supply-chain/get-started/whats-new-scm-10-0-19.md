@@ -4,18 +4,18 @@ description: يصف هذا الموضوع الميزات الجديدة أو ا�
 author: kamaybac
 ms.date: 04/23/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
-ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
+ms.openlocfilehash: 7c8994a11c9d1d90fd8b66b17900248f941e307b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "7506845"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579774"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management الإصدار 10.0.19 (يونيو 2021)
 

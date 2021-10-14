@@ -1,7 +1,7 @@
 ---
 title: شحن الأوامر كعمليات تسليم مباشرة
 description: يُوضح هذا الموضوع كيفية إنشاء جدول تسليم مباشر لأمر مبيعات.
-author: omulvad
+author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFro
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eacd80f8f8b9b4a4c2a1e5e5b0da7f0c46e82166d1d02d15ce26dd641f7127f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781359"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572423"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>شحن الأوامر كعمليات تسليم مباشرة
 

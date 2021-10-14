@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3fc5f333333b9a832ecb9c185473e476ac231d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761964"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559499"
 ---
 # <a name="payroll-worker-address"></a>عنوان عامل كشف الرواتب
 
@@ -34,22 +34,28 @@ ms.locfileid: "6761964"
 
 ## <a name="properties"></a>الخصائص
 
-| الخاصية</br>**الاسم الفعلي**</br>**_النوع_** | استخدام | الوصف |
+| الخاصية</br>**الاسم الفعلي**</br>**_النوع_** | استخدام | ‏‏الوصف |
 | --- | --- | --- |
-| **المدينة**</br>mshr_city</br>*سلسلة* | للقراءة فقط</br>مطلوب | المدينة المحددة للعنوان.   |
-| **رقم الموظف**</br>mshr_personnelnumber</br>*سلسلة* | للقراءة فقط</br>مطلوب | رقم الموظف الفريد الخاص بالموظف.  |
-| **منطقة البلد**</br>mshr_countryregionid</br>*سلسلة* | للقراءة فقط</br>مطلوب | منطقة البلد المحددة للعنوان.  |
-| **صالح من**</br>mshr_postaladdressvalidfrom</br>*الفرق بالتاريخ والوقت* | للقراءة فقط </br>مطلوب | تاريخ بدء صلاحية العنوان. |
-| **عمل في العنوان** </br> mshr_isworkedinaddressbr </br>*[مجموعة خيارات mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | للقراءة فقط</br>مطلوب | الإشارة إلى ما إذا كان العنوان هو المكان الذي يعمل به الموظف. |
-| **المقاطعة**</br>mshr_county</br>*سلسلة* | للقراءة فقط</br>مطلوب | البلد المحدد للعنوان.  |
-| **معرف عنوان عامل كشف الرواتب**</br>mshr_payrollworkeraddressentityid</br>*GUID* | مطلوب</br>النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف العنوان بشكل فريد.  |
-| **الحقل الأساسي**</br>mshr_primaryfield</br>*سلسلة* | للقراءة فقط</br>مطلوب |  |
-| **الشارع**</br>mshr_street</br>*سلسلة* | للقراءة فقط</br>مطلوب | الشارع المحدد للعنوان. |
-| **صالح حتى**</br>mshr_postaladdressvalidto</br>*الفرق بالتاريخ والوقت* | للقراءة فقط </br>مطلوب | تاريخ انتهاء صلاحية العنوان.  |
-| **معرف الموقع**</br>mshr_locationidbr>*String* | للقراءة فقط <br>مطلوب | المعرف الخاص بالعنوان.  |
-| **الرمز البريدي**</br>mshr_zipcode<br>*سلسلة* | للقراءة فقط <br>مطلوب |رقم التعريف المحدد للموظف.  |
-| **أقام في العنوان**</br>mshr_islivedinaddressbr </br> *[مجموعة خيارات mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | للقراءة فقط</br>مطلوب | الإشارة إلى ما إذا كان العنوان هو المكان الذي يقيم فيه الموظف. |
-| **الولاية**</br>mshr_state</br>*سلسلة* | للقراءة فقط</br>مطلوب | الولاية المحددة للعنوان.  |
+| **رقم الموظف**</br>mshr_personnelnumber</br>*سلسلة* | للقراءة فقط | رقم الموظف الفريد الخاص بالموظف. |
+| **معرف الموقع**</br>mshr_locationidbr>*String* | للقراءة فقط | المعرف الخاص بالعنوان. |
+| **أقام في العنوان**</br>mshr_islivedinaddressbr </br> *[مجموعة خيارات mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | للقراءة فقط | قيمة تشير إلى ما إذا كان العنوان هو المكان الذي يقيم فيه الموظف. |
+| **عمل في العنوان** </br> mshr_isworkedinaddressbr </br>*[مجموعة خيارات mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | للقراءة فقط | قيمة تشير إلى ما إذا كان العنوان هو المكان الذي يعمل فيه الموظف. |
+| **منطقة البلد**</br>mshr_countryregionid</br>*سلسلة* | للقراءة فقط</br>مرجو | البلد أو المنطقة المحددة للعنوان. |
+| **الرمز البريدي**</br>mshr_zipcode<br>*سلسلة* | للقراءة فقط | رقم التعريف المحدد للموظف. |
+| **الشارع**</br>mshr_street</br>*سلسلة* | للقراءة فقط | الشارع المحدد للعنوان. |
+| **المدينة**</br>mshr_city</br>*سلسلة* | للقراءة فقط | المدينة المحددة للعنوان. |
+| **الولاية**</br>mshr_state</br>*سلسلة* | للقراءة فقط | الولاية أو المقاطعة المحددة للعنوان. |
+| **المقاطعة**</br>mshr_county</br>*سلسلة* | للقراءة فقط | المقاطعة المحددة للعنوان. |
+| **صالح من**</br>mshr_postaladdressvalidfrom</br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ بدء صلاحية العنوان. |
+| **صالح حتى**</br>mshr_postaladdressvalidto</br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ انتهاء صلاحية العنوان. |
+| **الحقل الأساسي**</br>mshr_primaryfield</br>*سلسلة* | للقراءة فقط | الحقل الأساسي. |
+| **معرف عنوان عامل كشف الرواتب**</br>mshr_payrollworkeraddressentityid</br>*GUID* | النظام منشأ | قيمة معرف فريد عمومي (GUID) يقوم النظام بإنشائه لتعريف العنوان بشكل فريد. |
+
+## <a name="relations"></a>العلاقات
+
+| قيمة الخاصية | الكيان المرتبط | خاصيه التنقل | نوع التجميع |
+| --- | --- | --- | --- |
+| _mshr_fk_worker_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
 
 ## <a name="example-query"></a>مثال الاستعلام
 

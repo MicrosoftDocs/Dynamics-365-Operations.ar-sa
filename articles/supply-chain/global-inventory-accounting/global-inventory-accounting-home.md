@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774959"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557382"
 ---
 # <a name="global-inventory-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة المخزون العالمي
 
@@ -46,8 +46,11 @@ ms.locfileid: "6774959"
 - المملكة المتحدة
 - أستراليا
 - كندا
+- أمريكا الجنوبية
 
 إذا حاولت تثبيت الوظيفة الإضافية جغرافية من منطقه أخرى، فسيعمل Microsoft Dynamics Lifecycle Services (LCS) على إظهار رسالة بأن هذه المنطقة الجغرافية غير مدعومة. لا تدعم محاسبة المخزون العالمي عمليات النشر المحلية لـ Supply Chain Management.
+
+إذا كانت لديك أي مشاكل تتعلق بتمكين محاسبة المخزون العمومي‬ في إحدى المناطق الجغرافية المدعومة المدرجة هنا، الرجاء إرسال رسالة بريد إلكتروني تحتوي على معرف البيئة إلى [فريق محاسبة المخزون العمومي](mailto:GlobalInvAccount@microsoft.com) للتحقق من الصحة.
 
 ## <a name="licensing"></a>الترخيص
 

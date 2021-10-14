@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483772"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559597"
 ---
 # <a name="ready-to-pay"></a>جاهز للدفع
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > إذا كنت تريد وضع علامة على الموظف على أنه جاهز للدفع، فيجب عليك أولا تمكين **(معاينة) وظيفة تكامل الرواتب** في إدارة الميزات. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ ms.locfileid: "7483772"
 
 إذا كان الحقل **جاهز للدفع** هو **لا**، فهذا مؤشر على أنه يجب تنفيذ إجراء لضمان اكتمال ملف تعريف العامل. لن يوقف هذا البيانات ليتم كشفها في أي كيان بيانات. 
 
-## <a name="known-issues"></a>مشكلات معروفة
+## <a name="process-automation"></a>التنفيذ التلقائي للعمليات
 
-- يجب تعطيل ميزة **إدخال الموظف المبسط** في إدارة الميزات. لن تعمل الإطارات المتجانبة في مساحة عمل إدارة التعويض بشكل صحيح إذا كنت تستخدم هذه الميزة.
-- في صفحة **العامل**، **علامة تبويب كشف الرواتب**، تتوفر المجموعة **جاهز للدفع** لأي دور مستخدم. 
+يمكن تنفيذ عملية التحقق من صحة كافة الموظفين بشكل تلقائي باستخدام [التنفيذ التلقائي للعملية](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). في مساحة عمل **إدارة التعويض**، انتقل إلى **الارتباطات** \> **المعلمات** \> **التنفيذ التلقائي للعمليات**.
 
 ## <a name="see-also"></a>راجع أيضًا
 

@@ -11,15 +11,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: bb7a1b1b18c52ce03f6e343971a753dda5373172f90863db565f769269f47a6d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: d91b3b4b8d49e59aa03d62f4dd101b5a1ec18c41
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734393"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568197"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>تسلسل التكلفة الاحتياطية للمتوسط المتحرك
+
+[!include [banner](../includes/banner.md)]
 
 هناك طريقة لحساب تكلفة المخزون وهي استخدام _متوسط متحرك_. يمكن إقران ثلاث قيم تكلفة كحدٍ أقصى بكل صنف من أصناف المخزون:
 
