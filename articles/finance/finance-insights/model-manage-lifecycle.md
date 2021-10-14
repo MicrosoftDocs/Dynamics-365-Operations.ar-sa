@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386328"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594821"
 ---
 # <a name="model-management-lifecycle"></a>دورة حياة إدارة النموذج
 
@@ -32,4 +32,4 @@ ms.locfileid: "7386328"
 
 نظرا لأن نموذج الذكاء الاصطناعي يستند إلى بيانات الفاتورة العميل المتوفرة، فمن المهم أن تحتوي بيئة الاختبار المعزولة على نسخة حديثة من بيانات الإنتاج. يمكنك البدء بتدريب النموذج باتباع الخطوات الواردة في [استخدام توقعات الدفع للعميل](use-customer-payment-predictions.md). بعد إعادة تدريب النموذج، قم بتقييم النتائج كما هو موضح في [تقييم نموذج تنبؤ الدفع للعميل الأولي](evaluate-payment-prediction.md). استخدم المعلومات الموجودة في [تحسين نموذج التنبؤ](improve-model.md) لتجربة مجموعات الميزات وعوامل التصفية التي يمكن أن تساعد في تحسين النموذج.
 
-عندما تكون راضيا عن نتائج التدريب، اتبع الخطوات الواردة في [توزيع نموذج الذكاء الاصطناعي](https://docs.microsoft.com/ai-builder/distribute-model) للانتقال بالطراز إلى بيئة الإنتاج.
+عندما تكون راضيا عن نتائج التدريب، اتبع الخطوات الواردة في [توزيع نموذج الذكاء الاصطناعي](/ai-builder/distribute-model) للانتقال بالطراز إلى بيئة الإنتاج.
