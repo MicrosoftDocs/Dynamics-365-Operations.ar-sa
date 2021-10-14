@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343850"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595193"
 ---
 # <a name="email-er-destination-type"></a>نوع البريد الإلكتروني لوجهة إعداد التقارير الإلكترونية
 
@@ -75,7 +75,7 @@ ms.locfileid: "7343850"
 >
 > عند عرض تكوين بريد إلكتروني للتعديل في [وقت التشغيل](electronic-reporting-destinations.md#security-considerations)، يكون الحقل **من** مرئيا فقط للمستخدمين الذين يتمتعون بامتياز أمان `ERFormatDestinationSenderEmailMaintain`، و **صيانة عنوان البريد الإلكتروني للمرسل لوجهات تنسيق ER**.
 >
-> عند تكوين الحقل **من** لاستخدام عنوان بريد إلكتروني غير المستخدم الحالي، يجب تعيين الإذن **إرسال باسم** أو **إرسال بالنيابة** بشكل [صحيح](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) مسبقا. وإلا، يتم طرح الاستثناء التالي في وقت التشغيل: "غير قادر على إرسال البريد الإلكتروني كما \<from email account\> من حساب \<current user account\>، الرجاء التحقق من أذونات 'إرسال باسم' على \<from email account\> ."
+> عند تكوين الحقل **من** لاستخدام عنوان بريد إلكتروني غير المستخدم الحالي، يجب تعيين الإذن **إرسال باسم** أو **إرسال بالنيابة** بشكل [صحيح](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) مسبقا. وإلا، يتم طرح الاستثناء التالي في وقت التشغيل: "غير قادر على إرسال البريد الإلكتروني كما \<from email account\> من حساب \<current user account\>، الرجاء التحقق من أذونات 'إرسال باسم' على \<from email account\> ."
 
 يمكنك تكوين الحقل **من** لإرجاع أكثر من عنوان بريد إلكتروني واحد. في هذه الحالة، يتم استخدام العنوان الأول في القائمة كعنوان مرسل بريد إلكتروني.
 

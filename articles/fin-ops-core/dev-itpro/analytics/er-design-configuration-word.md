@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718347"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595252"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>تصميم تكوين ER جديد لإنشاء تقارير بتنسيق Word
 
@@ -46,7 +46,7 @@ ms.locfileid: "6718347"
 
 ![إضافة العناصر المتداخلة في صفحة مصمم التنسيق.](./media/er-design-configuration-word-image4.gif)
 
-عند حفظ التغييرات التي أجريتها علي التنسيق الخاص ب ER في وقت التصميم، يتم تخزين بنيه التنسيق الهرمي في قالب Word المرفق [كجزء XML مخصص](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)يتم تسميته باسم **التقرير**. يجب الوصول إلى القالب المعدل وتنزيله من المالية وتخزينها محليا وفتحها في تطبيق Word لسطح المكتب. يبين الرسم التوضيحي التالي قالب نموذج تم تخزينه محليا لتقرير التحكم الذي يحتوي علي جزء XML المخصص **للتقرير**.
+عند حفظ التغييرات التي أجريتها علي التنسيق الخاص ب ER في وقت التصميم، يتم تخزين بنيه التنسيق الهرمي في قالب Word المرفق [كجزء XML مخصص](/visualstudio/vsto/custom-xml-parts-overview)يتم تسميته باسم **التقرير**. يجب الوصول إلى القالب المعدل وتنزيله من المالية وتخزينها محليا وفتحها في تطبيق Word لسطح المكتب. يبين الرسم التوضيحي التالي قالب نموذج تم تخزينه محليا لتقرير التحكم الذي يحتوي علي جزء XML المخصص **للتقرير**.
 
 ![مراجعة القالب الخاص بتقرير القالب في تطبيق Word لسطح المكتب.](./media/er-design-configuration-word-image5.gif)
 
