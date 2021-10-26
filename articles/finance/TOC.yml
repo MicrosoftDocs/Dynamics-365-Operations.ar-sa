@@ -1194,9 +1194,11 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: قدرات العملات في إعداد التقارير المالية
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: حساب الأرباح المحتجزة في Financial Reporting
+              href: general-ledger/retained-earnings-enhancements.md
             - name: التقارير المالية للميزانية العمومية
               href: general-ledger/balance-sheet-financial-reports.md
-            - name: إنشاء تقارير مالية
+            - name: إنشاء التقارير المالية
               href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
             - name: التقرير المالي لكشف حساب الدخل
               href: general-ledger/income-statement-financial-report.md

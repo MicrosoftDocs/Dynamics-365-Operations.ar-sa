@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: المبالغ المستردة المرتبطة
                   href: dev-itpro/linked-refunds.md
+                - name: معالجة ‏‫المبالغ المستردة غير المرتبطة‬ باستخدام Payment Connector لـ Adyen من Dynamics 365 Commerce
+                  href: dev-itpro/unlinked-refunds.md
                 - name: بيع المنتجات غير المضمنة في مجموعة المتجر وإرجاعها
                   href: sell-return-outside-assortments.md
                 - name: تكوين ومعالجة عملية استبدال في أمر إرجاع

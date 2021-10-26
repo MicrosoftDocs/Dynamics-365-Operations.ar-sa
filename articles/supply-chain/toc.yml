@@ -2813,6 +2813,8 @@
               href: sales-marketing/trade-allowance.md
             - name: إنشاء اتفاقية تجارية جديدة
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: تحسينات في أداء تنظيف محفوظات المبيعات
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: إدارة الخدمة
           items:
             - name: نظرة عامة على إدارة الخدمة
@@ -3711,6 +3713,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: المبيعات والتسويق
               items:
+                - name: فشلت وظيفة تنظيف سجل تحديث المبيعات أو بها مشكلات في الأداء
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
                 - name: صنف المجموعة غير مدعوم في عملية بين الشركات الشقيقة
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
                 - name: لا يمكنني إلغاء أمر شراء بين الشركات الشقيقة يرتبط بأمر مبيعات
