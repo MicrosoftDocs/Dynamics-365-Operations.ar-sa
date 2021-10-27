@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724407"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605321"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين
 
@@ -63,7 +63,7 @@ ms.locfileid: "6724407"
     > [!NOTE]
     > لا يتوفر الزر **استيراد** لإصدارات تكوينات التقارير الإلكترونية الموجودة في مثيل Finance الحالي.
 
-    ![صفحة مستودع التكوين.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![صفحه مخزن التكوين ، علامة التبويب السريعة التكوينات.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>استيراد تكوينات تمت تصفيتها
 
@@ -77,7 +77,7 @@ ms.locfileid: "6724407"
 4. على علامة التبويب السريعة **التكوينات**، حدد **استيراد** لتنزيل التكوينات التي تمت تصفيتها من المستودع العمومي إلى المثيل الحالي.
 5. على علامة التبويب السريعة **التكوينات**، حدد **إعادة تعيين عامل التصفية** لتنظيف شروط التحديد المعينة.
 
-    ![صفحة مستودع التكوين.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![صفحه مخزن التكوين ، علامة التبويب السريعة الإصدارات ، زر استيراد.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > استنادًا إلى إعدادات التقارير الإلكترونية، يتم التحقق من صحة التكوينات بعد استيرادها. قد يتم إعلامك بأي مشكلات عدم التوافق التي يتم اكتشافها. قبل أن تتمكن من استخدام إصدار التكوين المستورد، يجب حل المشاكل. لمزيد من المعلومات، راجع قائمة الموارد ذات الصلة لهذا الموضوع.

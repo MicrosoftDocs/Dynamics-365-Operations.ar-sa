@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 921077cb3bc2d01c418f653194e948a2f29cc90dbd562d022ca69aa083a6ef54
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713884"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605384"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>"التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 2 - تعيين النموذج)
 
@@ -56,14 +56,14 @@ ms.locfileid: "6713884"
 21. حدد "نعم" في حقل "طلب الحساب الرئيسي".
     * عيّن "طلب الحساب الرئيسي" إلى "نعم" للسماح للمستخدمين بتحديد الحساب الرئيسي كجزء من قائمة الأبعاد.   إذا تم تعيين هذا الخيار إلى "لا"، فلن يتم تضمين الحساب الرئيسي في قائمة الأبعاد وسيتم تمكين الخيار "الحساب الرئيسي إلزامي". إذا تم تعيين الخيار "الحساب الرئيسي إلزامي" إلى "نعم"، فسيتم تضمين الحساب الرئيسي في قائمة الأبعاد بغض النظر عن التحديد الذي أجراه المستخدم.  
 22. انقر فوق موافق.
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping1.png)
+![الابعاد المالية خصائص مصدر بيانات التفاصيل.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. في الشجرة، حدد "Dynamics 365 for Operations\سجلات الجدول".
 24. انقر فوق "إضافة جذر".
 25. في حقل "الاسم"، اكتب "LedgerJournal".
 26. حدد "نعم" في حقل "طلب الاستعلام".
 27. في الحقل "الجدول"، اكتب "LedgerJournalTable".
 28. انقر فوق موافق.
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping2.png)
+![صفحه مصمم تعيين النموذج ، ونوع مصدر بيانات سجلات الجدول.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>تعيين عناصر نموذج البيانات إلى مصادر بيانات مضافة
 1. في الشجرة، قم بتوسيع "دفتر اليومية".
@@ -94,7 +94,7 @@ ms.locfileid: "6713884"
 25. في الشجرة، حدد "LedgerJournal\<العلاقات\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\الحساب الرئيسي والأبعاد".
 26. في الشجرة، حدد "دفتر اليومية\الحركة\بيانات الأبعاد".
 27. انقر فوق "ربط".
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping3.png)
+[! صفحه مصمم تعيين النموذج ، علامة التبويب تعيين ، شجره مصادر البيانات.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. في الشجرة، حدد "LedgerJournal\<العلاقات\LedgerJournalTrans\الدين(AmountCurDebit)'.
 29. في الشجرة، حدد "دفتر اليومية\الحركة\الدين".
 30. انقر فوق "ربط".
@@ -144,7 +144,7 @@ ms.locfileid: "6713884"
 3. انقر فوق "تغيير الحالة".
 4. انقر فوق "مكتمل".
 5. انقر فوق موافق.
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping5.png)
+![صفحة تكوينات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping5.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

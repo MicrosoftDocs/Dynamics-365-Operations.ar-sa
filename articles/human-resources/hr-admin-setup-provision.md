@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488073"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644517"
 ---
 # <a name="provision-human-resources"></a>تزويد Human Resources
 
@@ -49,7 +49,7 @@ ms.locfileid: "7488073"
 عند إنشاء بيئة تجريبية للموارد البشرية، يتم أيضا إنشاء بيئة تجريبية gJ Power Apps على المستاجر ويتم ربطها ببيئة الموارد البشرية. تحتوي بيئة Power Apps، المسماة "TestDrive"، على نفس الفترة التجريبية مثل بيئة الموارد البشرية.
 
 > [!NOTE]
-> ستفشل عملية توفير البيئة التجريبية للموارد البشرية إذا لم يكن لدي المستخدم المصادق عليه الإذن لإنشاء بيئات Power Apps التجريبية. يجب تضمين المستخدم في مجموعة المستخدمين الذين يمكنهم إنشاء بيئات تجريبية في مركز إدارة Power Platform. لمزيد من المعلومات، راجع [التحكم في من يمكنه إنشاء البيئات في مركز إدارة Power Platform](//power-platform/admin/control-environment-creation).
+> ستفشل عملية توفير البيئة التجريبية للموارد البشرية إذا لم يكن لدي المستخدم المصادق عليه الإذن لإنشاء بيئات Power Apps التجريبية. يجب تضمين المستخدم في مجموعة المستخدمين الذين يمكنهم إنشاء بيئات تجريبية في مركز إدارة Power Platform. لمزيد من المعلومات، راجع [التحكم في من يمكنه إنشاء البيئات في مركز إدارة Power Platform](/power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>تخطيط بيئات الموارد البشرية
 

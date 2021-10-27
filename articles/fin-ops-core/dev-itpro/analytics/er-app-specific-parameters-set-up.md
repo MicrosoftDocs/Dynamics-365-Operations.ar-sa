@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa3cab78574ac3779aaea000f0b2b88ff625c37
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749813"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605245"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
 
@@ -58,8 +58,6 @@ ms.locfileid: "6749813"
 1.  حدد الكيان القانوني **DEMF**.
 2.  في شجره التكوينات، حدد تنسيق **تنسيق للتعرف على كيفية البحث عن بيانات الكيان القانوني**.
 3.  في جزء الإجراءات، على علامة تبويب **التكوينات**، في المجموعة **المعلمات الخاصة بالتطبيق**، حدد **إعداد**.
-
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     في صفحة **المعلمات الخاصة بالتطبيق**، يمكنك تكوين قواعد مصدر بيانات **المحدد** لتنسيق **تنسيق للتعرف على كيفية البحث عن بيانات الكيان القانوني**.
     
@@ -75,14 +73,14 @@ ms.locfileid: "6749813"
 
     يقدم البحث قائمه بأكواد الضريبة للتحديد. يتم إرجاع هذه القائمة بواسطة مصدر بيانات **Model.Data.Tax** الذي تم تكوينه باستخدام التنسيق الأساسي للتقارير الإلكترونية. نظرا لان مصدر البيانات هذا يحتوي علي حقل **الاسم**، يظهر اسم كل كود ضريبة في البحث.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية، بحث في حقل الكود.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  حدد كود الضريبة **VAT19**.
 8.  في حقل **نتيجة البحث** الخاص بالسجل الجديد، حدد سهم القائمة المنسدلة لفتح البحث. يقدم البحث قائمه بالقيم الخاصة بتعداد تنسيق TaxationLevel للتحديد.
 
     لاحظ انه إذا تم تحديد اللغة المانيه كلغة المستخدم المفضلة التي قمت بتسجيل الدخول بها ، ستكون تسميات القيم في البحث باللغة المانيه ، شرط ان تتم ترجمتها في التنسيق الأساسي للتقارير الإلكترونية. بالاضافه إلى ذلك ، إذا تمت ترجمه تسميه مصدر بيانات البحث، ستظهر هذه التسمية في اللغة المفضلة للمستخدم في علامة التبويب **عمليات البحث**.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![صفحه معلمات خاصه بتطبيق ER ، تظهر نتائج البحث باللغة المفضلة للالمانيه.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  حدد قيمه **الضرائب العادية**.
 
@@ -120,7 +118,7 @@ ms.locfileid: "6749813"
     
     بإضافة هذا السجل الأخير ، فإنك تحدد القاعدة التالية: عندما لا يفي رمز الضريبة الذي يتم تمريره كوسيطة بأي من القواعد السابقة ، سيرجع مصدر بيانات البحث **آخر** باعتباره مستوى الضرائب المطلوبة.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![صفحه معلمات خاصه بتطبيق ER ، علامة التبويب السريعة الشروط مع آخر سجل لأخر.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. في حقل **الحالة**، حدد **مكتمل**.
 
@@ -160,7 +158,7 @@ ms.locfileid: "6749813"
 
     يقدم البحث الآن قائمه بأكواد الضريبة لضريبة شركة **USMF** للتحديد.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![صفحه معلمات خاصه بتطبيق ER ، بحث حقل الرمز يظهر قائمه بأكواد الضريبة لشركه USMF.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  حدد كود الضريبة **EXEMPT**.
 9.  في حقل **نتيجة البحث** في السجل الجديد، حدد قيمة **لا ضرائب**.
@@ -225,13 +223,13 @@ ms.locfileid: "6749813"
 
 1.  قم إما باعاده استخدام عنصر قائمة **ERSolutionAppSpecificParametersDesigner** أو نفذ عنصر قائمة **ERSolutionAppSpecificParametersDesigner**.
 
-    ![صفحة Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![صفحه Visual studio ، جزء الخصائص.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  اتبع إحدى الخطوات التالية:
 
     1.  قم بإنشاء زر عنصر قائمه جديد، وقم بربطه بالسجل المقابل من جدول **ERSolutionTable** عن طريق تعيين خاصية **مصدر البيانات** الخاص به إلى **ERSolutionTable**.
     
-        ![صفحة Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![صفحه Visual studio ، أجزاء التصميم.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  قم بإنشاء زر بسيط، وتجاوز طريقة **النقر** كما هو موضح في المثال التالي.
     

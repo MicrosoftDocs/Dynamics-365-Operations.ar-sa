@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bf58ec746fedb046b6014f5343d4ac92c2e6aba72882dec5b1f737aa1aaae46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743203"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605295"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 4 - تشغيل التقرير)
 
@@ -37,16 +37,16 @@ ms.locfileid: "6743203"
 ![صفحة تكوينات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-run1.png)
 5. في الحقل "اسم البُعد"، أدخل قيمة أو حددها.
     * لتحديد كافة الأبعاد في الشركة الحالية، أدخل المعلومات التالية: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![صفحة تكوينات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-run2.png)
+![شريحة معلمات التقرير الكترونيه للخارج ، والقائمة المنسدلة لاسم البعد.](../media/er-financial-dimensions-guides-run2.png)
 6. وسّع المقطع "السجلات المطلوب تضمينها‬".
 7. انقر فوق "عامل التصفية".
 8. حدد الصف في جدول دفتر يومية دفتر الأستاذ وحقل "رقم دُفعة دفتر اليومية‬".
 9. في الحقل "المعايير، اكتب ''00057".
 10. انقر فوق موافق.
 11. انقر فوق موافق.
-![صفحة تكوينات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-run3.png)
+![شريحة محددات التقرير الكتروني ، والتقارير المراد تضمينها.](../media/er-financial-dimensions-guides-run3.png)
     * اعمل على مراجعة المخرجات المنشأة. بالنسبة إلى كل حركة من الدُفعة المحددة، يتم تقديم الأبعاد المالية من مجموعة الأبعاد المناظرة. شغّل هذا التقرير وجدد أبعادً مختلفة لمعرفة ما إذا كان التقرير لا يعتمد على عدد الأبعاد المحددة أو عدد الأبعاد التي تم تكوينها لهذا المثيل.  
-![صفحة تكوينات التقارير الإلكترونية.](../media/er-financial-dimensions-guides-run4.png)
+![قامت عمليات تكوين ER بإنشاء إخراج.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

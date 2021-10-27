@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ec7f5bcf9f01512d22f502a4b512f2919b3caf348eb1f5c4365238d6fd3f476
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770010"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605219"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ضبط تنسيق ER لإنشاء مستند إلكتروني مخصص
 
@@ -160,7 +160,7 @@ ms.locfileid: "6770010"
     - **تعيين نموذج الدفع 1611** – يحتوي هذا التكوين على مكون ER الخاص بـ [تعيين النموذج](general-electronic-reporting.md#data-model-and-model-mapping-components) الذي يوضح كيفية ملء نموذج البيانات ببيانات التطبيق في وقت التشغيل.
     - **BACS (UK)** – يحتوي هذا التكوين على [التنسيق](general-electronic-reporting.md#FormatComponentOutbound) ومكونات ER لتعيين التنسيق. يحدد مكون التنسيق تخطيط التقرير. يحتوي مكون تعيين التنسيق على مصدر بيانات النموذج ويحدد كيفية ملء تخطيط التقرير باستخدام مصدر البيانات هذا في وقت التشغيل.
 
-![صفحة التكوينات.](./media/er-quick-start2-imported-solution1.png)
+![صفحه التكوينات مع تكوينات ER المحددة المتوفرة في الشجرة.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>تجهيز مدفوعات المورد للمعالجة
 
@@ -222,7 +222,7 @@ ms.locfileid: "6770010"
 4. في علامة التبويب السريعة **تنسيقات الملف**، قم بتعيين خيار **تنسيق التصدير الإلكتروني العام‬** على **نعم**.
 5. في حقل **تكوين تنسيق التصدير**، حدد تكوين التنسيق **BACS (UK)**.
 
-    ![طرق الدفع - صفحة الموردون.](./media/er-quick-start2-method-of-payment1.png)
+    ![طرق الدفع-المورد الصفحة لاعداد طريقه الدفع الكترونيه لمعالجه مدفوعات المورد باستخدام تنسيق قياسي.](./media/er-quick-start2-method-of-payment1.png)
 
 6. حدد **حفظ**.
 
@@ -273,7 +273,7 @@ ms.locfileid: "6770010"
 
 يتم إنشاء الإصدار 1.1.1 من تكوين تنسيق ER **BACS (UK مخصص)**. هذا الإصدار [بالحالة](general-electronic-reporting.md#component-versioning) **مسودة** ويمكن تحريره. يطابق المحتوي الحالي لتنسيق ER الخاص بك محتوي التنسيق الذي توفره Microsoft.
 
-![صفحة التكوينات.](./media/er-quick-start2-derived-format-configuration1.png)
+![صفحة التكوين بالإصدار 1.1.1 من تكوين تنسيق ER BACS (UK مخصص).](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>تحرير تنسيق مخصص
 
@@ -349,7 +349,7 @@ ms.locfileid: "6770010"
 4. في علامة التبويب السريعة **تنسيق الملف**، قم بتعيين خيار **تنسيق التصدير الإلكتروني العام‬** على **نعم**.
 5. في حقل **تكوين تنسيق التصدير**، حدد تكوين التنسيق **BACS (UK مخصص)**.
 
-    ![طرق الدفع - صفحة الموردون.](./media/er-quick-start2-method-of-payment2.png)
+    ![طرق الدفع-المورد الصفحة لاعداد طريقه الدفع الكترونيه لمعالجه مدفوعات المورد باستخدام تنسيق مخصص.](./media/er-quick-start2-method-of-payment2.png)
 
 6. حدد **حفظ**.
 
@@ -378,7 +378,7 @@ ms.locfileid: "6770010"
 
         لاحظ أنه وفقا للبنية الخاصة بتنسيق ER المخصص، [يبدأ](#PositionSWIFTCode) سطر الدفع في الملف الذي تم إنشاؤه الآن بكود سويفت الذي تم [إدخاله](#DefineSWIFTCode) للحساب البنكي للمورد الذي تمت معالجة الدفع الخاص به.
 
-        ![ملف الدفع بتنسيق TXT.](./media/er-quick-start2-payment-file2.png)
+        ![ملف الدفع بالتنسيق TXT المستخدم لمعالجه مدفوعات المورد.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>استيراد إصدارات جديدة من تكوينات تنسيق ER القياسية
 
@@ -395,7 +395,7 @@ ms.locfileid: "6770010"
 5. على علامة التبويب السريعة **إصدارات**، حدد الإصدار **3.3** لتكوين تنسيق ER المحدد.
 6. حدد **استيراد** لتنزيل الإصدار المحدد من المستودع العمومي إلى مثيل Finance الحالي.
 
-![صفحة مستودع التكوين.](./media/er-quick-start2-import-solution2.png)
+![صفحه مخزن التكوين ، علامة التبويب السريعة الإصدارات ، زر استيراد.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > إذا كانت لديك مشكلة في الوصول إلى [المستودع العمومي](er-download-configurations-global-repo.md)، فيمكنك [تنزيل التكوينات](download-electronic-reporting-configuration-lcs.md) من LCS بدلا من ذلك.
@@ -507,7 +507,7 @@ ms.locfileid: "6770010"
 
         لاحظ أن سطر الدفع في الملف الذي تم إنشاؤه يبدأ بكود سويفت الذي تم إدخاله للحساب البنكي للمورد الذي تمت معالجة الدفع الخاص به.
 
-        ![ملف الدفع بتنسيق TXT.](./media/er-quick-start2-payment-file3.png)
+        ![ملف الدفع بالتنسيق TXT المستخدم لمعالجه مدفوعات المورد باستخدام تنسيق ER معاد تعريفه.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>الموارد الإضافية
 
