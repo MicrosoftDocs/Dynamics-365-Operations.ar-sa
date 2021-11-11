@@ -72,14 +72,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: الجديد أو المتغير في Supply Chain Management
                   items:
-                    - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
+                    - name: الجديد أو التغييرات في صفحة Supply Chain Management الرئيسية
                       href: get-started/whats-new-home-page.md
-                    - name: الإصدار 10.0.22 من Supply Chain Management (نوفمبر 2021)
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
+                    - name: Supply Chain Management 10.0.22 (نوفمبر 2021)
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (أكتوبر 2021)
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: Supply Chain Management 10.0.20 (أغسطس 2021)
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -563,7 +563,7 @@
               href: ../finance/general-ledger/CFO-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: إنشاء بُنى الحساب‬
               href: ../finance/general-ledger/tasks/create-account-structures.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 'نظرة عامة على إعداد الموازنة '
+            - name: نظرة عامة على إعداد الموازنة
               href: ../finance/budgeting/basic-budgeting-overview-configuration.md?toc=/dynamics365/supply-chain/toc.json
             - name: إنشاء الأبعاد واستيراد أعضاء الأبعاد
               href: ../finance/cost-accounting/cost-dimension.md?toc=/dynamics365/supply-chain/toc.json
@@ -583,7 +583,7 @@
               href: ../finance/cost-accounting/dimension-hierarchy.md?toc=/dynamics365/supply-chain/toc.json
             - name: إنشاء تدرج هرمي لتقارير المنظمة
               href: ../finance/cost-accounting/tasks/create-an-organization-report-hierarchy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: حقوق الوصول لمراقب كائن التكلفة​
+            - name: حقوق الوصول لمراقب كائن التكلفة
               href: ../finance/cost-accounting/access-rights-cost-object-controller.md?toc=/dynamics365/supply-chain/toc.json
             - name: تكوين حقوق الوصول لمراقب كائن التكلفة
               href: ../finance/cost-accounting/tasks/configure-access-rights-cost-object-controller.md?toc=/dynamics365/supply-chain/toc.json
@@ -591,7 +591,7 @@
               href: ../finance/cost-accounting/tasks/define-cost-control-units.md?toc=/dynamics365/supply-chain/toc.json
             - name: إنشاء دفتر أستاذ محاسبة التكاليف
               href: ../finance/cost-accounting/tasks/create-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
-            - name: أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية​
+            - name: أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية
               href: ../finance/cost-accounting/statistical-measure-provider-template.md?toc=/dynamics365/supply-chain/toc.json
             - name: أسس التوزيع
               href: ../finance/cost-accounting/allocation-bases.md?toc=/dynamics365/supply-chain/toc.json
@@ -1247,7 +1247,7 @@
               items:
                 - name: إدارة دورة حياة التكوينات
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ' Lifecycle Services (LCS)'
+                - name: Lifecycle Services (LCS)
                   items:
                     - name: تحميل التكوينات في LCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: التخطيط الرئيسي مع اتفاقيات الشراء التجارية
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: معلمات التاريخ والوقت المستخدمة في تحسين التخطيط
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: حدود الأمان
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: التسامح مع التأخير (الأيام السالبة)
@@ -1787,7 +1789,7 @@
                       href: master-planning/import-historical-data.md
                     - name: إزالة القيم المتطرفة من بيانات الحركة التاريخية عند حساب التنبؤ بالطلب
                       href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                    - name: رصد دقة التنبؤ​
+                    - name: رصد دقة التنبؤ
                       href: master-planning/monitor-forecast-accuracy.md
                     - name: 'دليل: إنشاء تنبؤ أساسي'
                       href: master-planning/tasks/create-baseline-forecast.md
@@ -1797,7 +1799,7 @@
                       href: master-planning/reduction-keys.md
         - name: تطبيق الأجهزة المحمولة
           items:
-            - name: الصفحة الرئيسية لتطبيق الجوال
+            - name: الصفحة الرئيسية لتطبيق الأجهزة المحمولة
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: مساحات العمل المحمولة
               items:
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين دفتر العناوين العمومي
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: إعداد العنوان
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: الأسئلة المتداولة حول دفاتر العناوين
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين دفاتر العناوين
@@ -2427,18 +2431,6 @@
                       href: production-control/release-production-orders.md
                     - name: الإبلاغ عن أوامر الإنتاج كمنتهية
                       href: production-control/report-production-orders-as-finished.md
-                    - name: إعداد واجهة تنفيذ صالة الإنتاج‬ واستخدامها
-                      items:
-                        - name: تكوين واجهة تنفيذ صالة الإنتاج‬ واستخدامها
-                          href: production-control/production-floor-execution-configure.md
-                        - name: تصميم واجهة تنفيذ صالة الإنتاج
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: إعداد جهاز لتشغيل واجهة تنفيذ طابق الإنتاج
-                          href: production-control/production-floor-execution-setup.md
-                        - name: طريقة استخدام العمال لواجهة تنفيذ طابق الإنتاج
-                          href: production-control/production-floor-execution-use.md
-                        - name: تنميط واجهة تنفيذ طابق الإنتاج
-                          href: production-control/production-floor-execution-styles.md
                     - name: تكوين بطاقة وظيفة للأجهزة
                       href: production-control/config-job-card-device.md
                     - name: الإبلاغ عن الانتهاء من جهاز بطاقة الوظيفة
@@ -2459,7 +2451,7 @@
                       href: production-control/production-output-location.md
                     - name: الإبلاغ عن قوائم BOM كمنتهية
                       href: production-control/report-boms-as-finished.md
-                    - name: 'الإبلاغ عن الانتهاء إلى موقع يتم التحكم فيه بواسطة لوحة '
+                    - name: الإبلاغ عن الانتهاء إلى موقع يتم التحكم فيه بواسطة لوحة
                       href: production-control/tasks/report-finished-non-license-plate-controlled-location-2016-11.md
                     - name: الإبلاغ عن مدى تقدم في جهاز وظيفة محمول
                       href: production-control/tasks/report-progress-mobile-job-device.md
@@ -2645,11 +2637,23 @@
                       href: production-control/consumption.md
                     - name: ترحيل الإنتاج
                       href: cost-management/production-posting.md
+            - name: إعداد واجهة تنفيذ صالة الإنتاج‬ واستخدامها
+              items:
+                - name: تكوين واجهة تنفيذ صالة الإنتاج‬ واستخدامها
+                  href: production-control/production-floor-execution-configure.md
+                - name: تصميم واجهة تنفيذ صالة الإنتاج
+                  href: production-control/production-floor-execution-tabs.md
+                - name: إعداد جهاز لتشغيل واجهة تنفيذ طابق الإنتاج
+                  href: production-control/production-floor-execution-setup.md
+                - name: طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج
+                  href: production-control/production-floor-execution-use.md
+                - name: تنميط واجهة تنفيذ صالة الإنتاج
+                  href: production-control/production-floor-execution-styles.md
         - name: إدارة الخصومات
           items:
-            - name: نظرة عامة على الوحدة النمطية إدارة الخصومات
+            - name: نظرة عامة على الوحدة النمطية لإدارة الخصومات
               href: rebate-management/rebate-management-overview.md
-            - name: إعداد وتكوين الوحدة النمطية إدارة الخصومات
+            - name: إعداد الوحدة النمطية لإدارة الخصومات وتكوينها
               items:
                 - name: تشغيل وحدة إدارة الخصومات للنظام الخاص بك
                   href: rebate-management/rebate-management-enable.md
@@ -3037,7 +3041,7 @@
                           href: service-management/create-subscription-fee-transactions.md
                         - name: الاشتراكات المستحقة
                           href: service-management/accruing-subscriptions.md
-                        - name: 'نقل بنود أوامر الخدمات '
+                        - name: نقل بنود أوامر الخدمات
                           href: service-management/move-service-order-lines.md
                         - name: إلغاء أوامر الخدمة
                           href: service-management/cancel-service-orders.md
@@ -3075,7 +3079,7 @@
               href: transportation/include-container-weight-volume-on-load.md
             - name: تسوية الشحن يدويًا
               href: transportation/tasks/reconcile-freight-manually.md
-            - name: تسوية شحن​
+            - name: تسوية شحن
               href: transportation/reconcile-freight-transportation-management.md
             - name: تسجيل برنامج تسجيل دخول وتسجيل خروج السائق لموعد
               href: transportation/tasks/register-driver-check-check-out-appointment.md
@@ -3173,7 +3177,7 @@
               href: landed-cost/landed-cost-inquiries.md
             - name: تقارير التكلفة شاملة التفريغ‬‬
               href: landed-cost/landed-cost-reports.md
-        - name: Warehouse management
+        - name: ‏‫إدارة المستودعات‬
           items:
             - name: نظرة عامة على إدارة المستودعات
               href: warehousing/warehouse-management-overview.md
@@ -3337,7 +3341,7 @@
                       href: inventory/inventory-blocking.md
                     - name: الجرد الدوري
                       href: warehousing/cycle-counting.md
-                    - name: 'تحديد الجرد الدوري '
+                    - name: تحديد الجرد الدوري
                       href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
                     - name: الجرد الدوري الجزئي للمواقع
                       href: warehousing/partial-location-cycle-counting.md
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: تخصيص عناوين الخطوات وإرشاداتها لتطبيق Warehouse Management للأجهزة المحمولة
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: تكوين الحقول التي تمت ترقيتها للخطوات في الجهاز المحمول
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: تكوين المنحنيات للخطوات في عناصر قائمة الجهاز المحمول
+                      href: warehousing/warehouse-app-detours.md
                     - name: استلام لوحة الترخيص‬ عبر تطبيق Warehouse Management للأجهزة المحمولة
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: معلمات الجهاز المحمول العمومية
                   href: warehousing/mobile-device-parameters.md
+                - name: حسابات مستخدمي الأجهزة المحمولة
+                  href: warehousing/mobile-device-work-users.md
                 - name: إعدادات مستخدم الجهاز المحمول
                   href: warehousing/mobile-device-user-settings.md
                 - name: معالجة حدث تطبيق المستودع
@@ -3735,8 +3745,14 @@
               items:
                 - name: يمكن إضافة الحساب الرئيسي فقط كحساب ائتمان لأسباب التسوية
                   href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: إدارة المستودعات
+            - name: ‏‫إدارة المستودعات‬
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: ربط الثقة لمسار الشهادة التي لم يتم العثور عليها عند اعداد اتصال التطبيق
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: لم يتم العثور على ربط الثقة لمسار الشهادة عند التحديث والترحيل إلى WMS
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: تظهر مطالبة الحجز التلقائي لرقم المجموعة حتى مع المخزون المتوفر
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: لا يمكن إلغاء حظر العمل الخاص بالانتقاء بسبب عمل التزويد غير المنتهي
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: لا يمكن نقل المخزون إلى موقع يتم التحكم فيه بواسطة لوحة الترخيص
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: ربط الثقة لمسار الشهادة التي لم يتم العثور عليها عند اعداد اتصال التطبيق
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: يتعذر العثور علي ملف تعريف نظام المجموعة
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: لا يمكن معالجة تصحيح مذكرة التسليم
@@ -3817,10 +3831,8 @@
                   href: troubleshooting/warehousing/specify-dimensions-above-location.md
                 - name: يتم تأكيد أوامر الشراء غير المؤكدة بعد تشغيل تحديث إيصالات استلام المنتجات
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: لا يمكن إلغاء حجز المخزون في سطر أمر المبيعات
+                - name: لا يمكن إلغاء حجز المخزون في بند أمر المبيعات
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: لم يتم العثور على ربط الثقة لمسار الشهادة عند التحديث والترحيل إلى WMS
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: لا يمكنك تأكيد الشحنة لأن العميل معلق
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: لا يمكنك تأكيد الشحنة لأن بنود التحميل تحتوي على كمية صفر

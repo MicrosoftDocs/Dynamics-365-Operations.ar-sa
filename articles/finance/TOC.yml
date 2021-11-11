@@ -70,16 +70,16 @@
               items:
                 - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: الجديد أو المتغير في Finance
+                - name: الجديد أو التغييرات في Finance
                   items:
-                    - name: المزايا الجديدة أو المتغيرة‬ في الصفحة الرئيسية لـ Finance
+                    - name: الجديد أو التغييرات في صفحة Finance الرئيسية‬
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.23
+                      href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (نوفمبر 2021)
                       href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (أكتوبر 2021)
                       href: get-started/whats-new-changed-10-0-21.md
-                    - name: Finance 10.0.20 (أغسطس 2021)
-                      href: get-started/whats-new-changed-10-0-20.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -240,6 +240,10 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: خيارات الإعداد للتنفيذ التلقائي لفاتورة المورد
                   href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: نظرة عامة على تطبيق الدفعات المقدمة لفواتير المورِّدين‬ تلقائيًا
+                  href: accounts-payable/apply-prepymnts-overview.md
+                - name: إنشاء بنود الفواتير عند استيراد فواتير المورِّدين‬
+                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: إرسال الفواتير إلى نظام سير العمل ومطابقة بنود إيصال استلام المنتجات
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: عرض نتائج التنفيذ التلقائي لفاتورة المورد
@@ -260,7 +264,7 @@
               href: accounts-payable/positive-pay-overview.md
             - name: إعداد ملفات الدفع الإيجابي وإنشاؤها
               href: accounts-payable/set-up-generate-positive-pay-files.md
-            - name: الحسابات المقابلة الافتراضية لدفاتر يومية فواتير المورد ودفاتر يومية اعتماد الفاتورة​
+            - name: الحسابات المقابلة الافتراضية لدفاتر يومية فواتير المورد ودفاتر يومية اعتماد الفاتورة
               href: accounts-payable/default-offset-accounts-vendor-invoice-journals.md
             - name: سير عمل المورّد
               href: accounts-payable/vendor-workflow.md
@@ -268,10 +272,12 @@
               items:
                 - name: نظرة عامة حول حل الاختلافات أثناء مطابقة إجماليات الفواتير
                   href: accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
-                - name: حل أو البحث عن الاستثناءات
+                - name: البحث أو حل الاستثناءات
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: ملفات تعريف ترحيل المورد
               href: accounts-payable/vendor-posting-profiles.md
+            - name: تواريخ فواتير الموردين
+              href: accounts-payable/vendor-invoice-dates.md
             - name: إعادة تقييم العملة الأجنبية للحسابات الدائنة والحسابات المدينة
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: عمليات الموافقة على فاتورة الجهاز المحمول
@@ -300,13 +306,13 @@
                   href: accounts-payable/vendor-payments-workspace.md
                 - name: تحديد سعر الصرف المتداخل
                   href: accounts-payable/specify-cross-rate.md
-                - name: ‏‫تحديد رسوم دفع المورّد‬
+                - name: ‏‫تحديد رسوم دفع المورد
                   href: accounts-payable/tasks/define-vendor-payment-fees.md
-                - name: ‏‫تحديد شروط دفع المورّد‬
+                - name: ‏‫تحديد شروط دفع المورد
                   href: accounts-payable/tasks/define-vendor-payment-terms.md
                 - name: إنشاء دفعات المورد باستخدام مقترح دفع
                   href: accounts-payable/create-vendor-payments-payment-proposal.md
-                - name: إلغاء دفعة مورد​
+                - name: إلغاء دفعة مورد
                   href: accounts-payable/reverse-vendor-payment.md
                 - name: عينة شيكات المورد الخاصة بإعداد التقارير الإلكترونية‬
                   href: accounts-payable/electronic-reporting-sample-vendor-checks.md
@@ -634,7 +640,7 @@
               href: general-ledger/CFO-workspace.md
             - name: إنشاء بُنى الحساب‬
               href: general-ledger/tasks/create-account-structures.md
-            - name: 'نظرة عامة على إعداد الموازنة '
+            - name: نظرة عامة على إعداد الموازنة
               href: budgeting/basic-budgeting-overview-configuration.md
             - name: إنشاء الأبعاد واستيراد أعضاء الأبعاد
               href: cost-accounting/cost-dimension.md
@@ -654,7 +660,7 @@
               href: cost-accounting/dimension-hierarchy.md
             - name: إنشاء تدرج هرمي لتقارير المنظمة
               href: cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: حقوق الوصول لمراقب كائن التكلفة​
+            - name: حقوق الوصول لمراقب كائن التكلفة
               href: cost-accounting/access-rights-cost-object-controller.md
             - name: تكوين حقوق الوصول لمراقب كائن التكلفة
               href: cost-accounting/tasks/configure-access-rights-cost-object-controller.md
@@ -662,7 +668,7 @@
               href: cost-accounting/tasks/define-cost-control-units.md
             - name: إنشاء دفتر أستاذ محاسبة التكاليف
               href: cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية​
+            - name: أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية
               href: cost-accounting/statistical-measure-provider-template.md
             - name: أسس التوزيع
               href: cost-accounting/allocation-bases.md
@@ -756,7 +762,7 @@
               href: fixed-assets/tasks/propose-fixed-asset-acquisitions.md
             - name: إعادة تصنيف الأصول الثابتة
               href: fixed-assets/tasks/reclassify-fixed-assets.md
-            - name: مساحة عمل الأصول الثابتة​
+            - name: مساحة عمل الأصول الثابتة
               href: fixed-assets/fixed-asset-management-workspace.md
             - name: تقرير سجل نشاط الأصول الثابتة
               href: fixed-assets/Fixed-asset-roll-forward-report.md
@@ -764,7 +770,7 @@
               href: fixed-assets/depreciation-book-upgrade-considerations.md
             - name: الدفاتر المشتقة
               href: fixed-assets/derived-books.md
-            - name: دمج نموذج قيم الأصول الثابتة ودفتر الإهلاك​
+            - name: دمج نموذج قيم الأصول الثابتة ودفتر الإهلاك
               href: fixed-assets/fixed-asset-value-model-depreciation-book-merge.md
             - name: الترحيل مع الدفاتر المشتقة
               href: fixed-assets/post-derived-value-models.md
@@ -990,6 +996,8 @@
                   href: general-ledger/tasks/create-main-account.md
                 - name: تخطيط دليل الحسابات
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: تخطيط دليل حساباتك المحلي
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: تسوية الحركات بين حسابات دفتر الأستاذ
                   href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
                 - name: إعداد اسم مستعار لحساب دفتر الأستاذ‬
@@ -1046,7 +1054,7 @@
                   href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                 - name: إنشاء إدخال دفتر يومية باستخدام قالب
                   href: general-ledger/tasks/create-journal-entry-template.md
-                - name: إنشاء حركات استحقاق دفتر الأستاذ​
+                - name: إنشاء حركات استحقاق دفتر الأستاذ
                   href: general-ledger/tasks/create-ledger-accrual-transactions.md
                 - name: تحويل دفتر أستاذ فرعي إلى دفتر الأستاذ العام
                   href: general-ledger/subledger-transfer.md
@@ -1058,7 +1066,7 @@
                   href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: إعادة تقييم العملة في شركة تجميع​
+                - name: إعادة تقييم العملة في شركة تجميع
                   href: general-ledger/currency-revaluation-consolidation-company.md
                 - name: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
@@ -1072,7 +1080,7 @@
                   href: general-ledger/ledger-settlements.md
             - name: إقفال نهاية الفترة
               items:
-                - name: إقفال دفتر الأستاذ العام في نهاية الفترة​
+                - name: إقفال دفتر الأستاذ العام في نهاية الفترة
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: مساحة عمل إقفال الفترة المالية
                   href: general-ledger/financial-period-close-workspace.md
@@ -1104,6 +1112,8 @@
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: إنشاء دفع ضريبة مبيعات
                   href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: تقريب التسوية الضريبية استنادًا إلى مواضع العلامات العشرية للعملة المخصصة
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
                 - name: إنشاء حركات ضريبة المبيعات في المستندات
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات
@@ -1546,6 +1556,8 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية للمكسيك
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
+                          href: localizations/e-invoicing-sa-get-started.md
                         - name: استخدم خدمة الفوترة الإلكترونية لاستيراد فواتير الموردين
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: إعداد الفوترة الإلكترونية
@@ -1568,7 +1580,9 @@
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: قابلية تطبيق ضريبة المبيعات ومنطق تحديد مجموعة ضريبة المبيعات
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: حساب
+                        - name: استخدام معلمات سلطة الضريبة لإعداد حساب الخصم النقدي
+                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
+                    - name: الحساب
                       items:
                         - name: حساب الضريبة على الأسعار عند تمكين خيار "الأسعار تشمل الضرائب"
                           href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
@@ -1594,7 +1608,11 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: قائمة مبيعات الاتحاد الأوروبي
                               href: localizations/emea-nl-eu-sales-list.md
-                        - name: تقارير السويد
+                        - name: إعداد التقارير في إسبانيا
+                          items:
+                            - name: 'توفير فوري للمعلومات المتعلقة بضريبة القيمة المضافة (Suministro Inmediato de Información del IVA, SII)'
+                              href: localizations/emea-esp-sii-spain.md
+                        - name: إعداد التقارير في السويد
                           items:
                             - name: إقرار ضريبة القيمة المضافة
                               href: localizations/emea-swe-VAT-declaration-Sweden.md
@@ -1604,18 +1622,24 @@
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: إعداد التقارير في المملكة المتحدة
                           items:
-                            - name: التحضير للتكامل مع MTD لضريبة القيمة المضافة
-                              href: localizations/emea-gbr-mtd-vat-integration.md
+                            - name: إقرار ضريبة القيمة المضافة
+                              href: localizations/emea-gbr-vat-declaration.md
                     - name: تمكين حساب الضرائب لأمر التحويل
                       items:
                         - name: دعم ميزة الضريبة لأوامر التحويل
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: ملحق
+                        - name: طباعة معلومات الضريبة علي مستندات أمر التحويل
+                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
+                    - name: الرقم الداخلي
                       items:
                         - name: إضافة حقول البيانات في تكوينات الضرائب
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: إضافة حقول البيانات في تكامل الضريبة باستخدام الملحقات
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
+                        - name: تخصيص تكوينات الضرائب للبحث عن البيانات الرئيسية
+                          href: localizations/customize-tax-configurations-master-data-lookup.md
+                    - name: الأسئلة المتداولة حول حساب الضرائب
+                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: تحديثات تنظيمية
               href: localizations/regulatory-updates.md
             - name: أستراليا
@@ -1680,10 +1704,12 @@
                   href: localizations/emea-bel-journal-reports.md
                 - name: إعداد تقارير رصيد الدفع
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
-                - name: إعداد وصيانة PRODCOM
+                - name: ‏‫إعداد PRODCOM وصيانته‬
                   href: localizations/emea-bel-prodcom-report.md
                 - name: قائمة ضريبة القيمة المضافة السنوية للمبيعات المحلية
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
+                - name: ‏‫نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي‬ لبلجيكا
+                  href: localizations/emea-bel-intrastat.md
             - name: البرازيل
               items:
                 - name: نظرة عامة على البرازيل
@@ -1902,7 +1928,7 @@
                   href: localizations/tasks/chinese-voucher-continuity-check.md
                 - name: الإيصالات الصينية
                   href: localizations/apac-chn-vouchers.md
-                - name: تكوين تكامل الضريبة​
+                - name: تكوين تكامل الضريبة
                   href: localizations/apac-chn-tax-integration.md
                 - name: إعداد تصدير تكامل الضريبة الذهبية الصينية
                   href: localizations/tasks/golden-tax-integration-export-setup.md
@@ -1940,7 +1966,7 @@
                   href: localizations/emea-cze-credit-note-cash-discount.md
                 - name: الأصول الثابتة
                   items:
-                    - name: تقريب الإهلاك​
+                    - name: تقريب الإهلاك
                       href: localizations/emea-cze-depreciation-rounding.md
                     - name: إهلاك نصف سنوي في التصرف في الأصول الثابتة
                       href: localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
@@ -2034,7 +2060,7 @@
                   href: localizations/emea-bank-reconciliation.md
                 - name: فوترة تصحيحية
                   href: localizations/emea-corrective-invoice.md
-                - name: إنشاء وترحيل دفاتر اليومية الدورية​
+                - name: إنشاء وترحيل دفاتر اليومية الدورية
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: إنشاء مدفوعات لعميل لديه ‏‫تفويضات الخصم المباشر‬
                   href: localizations/tasks/create-payments-customers-who-have-direct-debit-mandates.md
@@ -2106,11 +2132,11 @@
                   href: localizations/tasks/eur-00015-party-search-vat-id.md
                 - name: أداة إنشاء مرجع الدفع (أوروبا الشرقية)
                   href: localizations/tasks/ee-00015-payment-reference-generation-tool.md
-                - name: تقرير إيصال الدفع​
+                - name: تقرير إيصال الدفع
                   href: localizations/emea-eur-payment-slip-report-giro.md
                 - name: مصروفات نثرية
                   href: localizations/emea-petty-cash.md
-                - name: ترحيل الاستحواذ المسبق لأصل ثابت​
+                - name: ترحيل الاستحواذ المسبق لأصل ثابت
                   href: localizations/emea-pre-acquisition-acquisition-fixed-asset.md
                 - name: الأكواد البريدية
                   href: localizations/emea-import-create-postal-codes-manually.md
@@ -2218,7 +2244,7 @@
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: إعداد أكواد NAF وأرقام Siret
                   href: localizations/tasks/fr-00003-naf-codes-siret-numbers.md
-                - name: عقوبات مدفوعات العملاء المستحقة​
+                - name: عقوبات مدفوعات العملاء المستحقة
                   href: localizations/emea-fra-apply-penalty-customer-payment-past-due.md
                 - name: ترحيل دفتر يومية الاحتجاج على سحب الكمبيالات
                   href: localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
@@ -2278,7 +2304,7 @@
                   href: localizations/emea-hun-average-daily-exchange-rate-calculation.md
                 - name: طرق إهلاك الأصول الثابتة
                   href: localizations/emea-hun-fixed-assets-depreciation-methods.md
-                - name: الأصول الثابتة ذات التكلفة المنخفضة​
+                - name: الأصول الثابتة ذات التكلفة المنخفضة
                   href: localizations/emea-hun-low-cost-fixed-assets.md
                 - name: نقل أصل ثابت إلى المخزون
                   href: localizations/emea-hun-fixed-asset-to-inventory.md
@@ -2310,11 +2336,13 @@
                   href: localizations/india.md
                 - name: نطاق الترجمات الهندية
                   href: localizations/apac-ind-scope.md
-                - name: الجديد أو المتغير‬ في الترجمة الخاصة بالهند
+                - name: الجديد أو التغييرات‬ في الترجمة الخاصة بالهند
                   items:
-                    - name: ما الجديد أو المتغير‬ في 10.0.15 - 10.0.19
+                    - name: الجديد أو التغييرات في 10.0.20 - 10.0.22
+                      href: localizations/ind-news-letter-10-0-20-22.md
+                    - name: الجديد أو التغييرات في 10.0.15 - 10.0.19
                       href: localizations/ind-news-letter-10-0-15-19.md
-                    - name: الجديد أو المتغير‬ في 10.0.14
+                    - name: الجديد أو التغييرات في 10.0.14
                       href: localizations/apac-ind-news-letter-10-0-14.md
                     - name: الجديد أو المتغير‬ في 10.0.13
                       href: localizations/ind-news-letter-10-0-13.md
@@ -2368,7 +2396,7 @@
                               href: general-ledger/extend-tax-engine-configurations.md
                             - name: تنظيف جدول TaxDocumentJSON
                               href: localizations/gte-clean-up-tax-document-json-table.md
-                            - name: استكشاف الأخطاء وإصلاحها في ‬GTE
+                            - name: استكشاف الأخطاء وإصلاحها في GTE
                               href: localizations/tax-engine-trouble-shooting.md
                         - name: إعداد البيانات الرئيسية
                           items:
@@ -2678,8 +2706,14 @@
                       items:
                         - name: تسجيل أرقام شهادات TDS القابلة للاسترداد
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                        - name: تحديث أرقام وتواريخ الشهادات لحركات TDS
+                        - name: تحديث أرقام الشهادات وتواريخها لحركات TDS
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+            - name: إندونيسيا
+              items:
+                - name: نظرة عامة على إندونيسيا
+                  href: localizations/indonesia.md
+                - name: إقرار ضريبة القيمة المضافة لإندونيسيا
+                  href: localizations/apac-idn-ppn-declaration.md
             - name: إيطاليا
               items:
                 - name: نظرة عامة على إيطاليا
@@ -2850,7 +2884,7 @@
                   href: localizations/tasks/pay-vendor-transaction.md
                 - name: التسوية الدورية من بما يتجاوز ويقل عن الإهلاك
                   href: localizations/tasks/periodic-settlement-over-under-depreciation.md
-                - name: حساب ضريبة الخصم التقدمية​
+                - name: حساب ضريبة الخصم التقدمية
                   href: localizations/apac-jpn-progressive-withholding-tax-calculation.md
                 - name: اقتراح إهلاك إضافي
                   href: localizations/tasks/propose-additional-depreciation.md
@@ -3024,6 +3058,8 @@
                   href: localizations/emea-nl-audit-file.md
                 - name: إقرار ضريبة القيمة المضافة (هولندا)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لهولندا
+                  href: localizations/emea-nl-intrastat.md
                 - name: قائمة مبيعات الاتحاد الأوروبي
                   href: localizations/emea-nl-EU-sales-list.md
             - name: نيوزيلندا
@@ -3038,7 +3074,7 @@
                   href: localizations/tasks/no-00003-customer-vendor-payment-formats.md
                 - name: دفع العميل استنادًا إلى معرّف الدفع
                   href: localizations/tasks/no-00002-customer-payment-based-payment-id.md
-                - name: تنسيق ملف استيراد صافي القيم​
+                - name: تنسيق ملف استيراد صافي القيم
                   href: localizations/emea-nor-nets-import-format.md
                 - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-nor-sales-tax-payment-report.md
@@ -3060,7 +3096,7 @@
                   href: localizations/emea-pol-red-storno.md
                 - name: حساب خصومات البند من سعر الوحدة
                   href: localizations/emea-pol-line-discount-calculation-from-unit-price.md
-                - name: ملاحظات التصحيح​
+                - name: ملاحظات التصحيح
                   href: localizations/emea-pol-correction-notes.md
                 - name: ترقيم فواتير المبيعات المتكررة
                   href: localizations/emea-pol-sales-invoice-duplicates-numbering.md
@@ -3070,7 +3106,7 @@
                   href: localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
                 - name: إعادة تقييم العملة الأجنبية
                   href: localizations/emea-foreign-currency-revaluation.md
-                - name: العبوات القابلة للإرجاع​
+                - name: العبوات القابلة للإرجاع
                   href: localizations/emea-pol-returnable-packages.md
                 - name: تقارير ضريبة المبيعات
                   href: localizations/emea-pol-sales-tax-reports.md
@@ -3352,6 +3388,8 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: تخصيص رسوم المستندات البنكية لشحنة
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
+                - name: الفواتير الإلكترونية للعملاء في المملكة العربية السعودية
+                  href: localizations/emea-sau-e-invoices.md
             - name: سنغافورة
               items:
                 - name: نظرة عامة على سنغافورة
@@ -3378,9 +3416,11 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: ضريبة القيمة المضافة بين المجتمعات
                   href: localizations/emea-esp-intra-community-vat.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي الإسباني
+                  href: localizations/emea-esp-intrastat.md
                 - name: عملاء المرة الواحدة
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
-                - name: طباعة الشيكات باستخدام مخطط إسباني​
+                - name: طباعة الشيكات باستخدام مخطط إسباني
                   href: localizations/emea-esp-print-checks-with-spanish-layout.md
                 - name: خيارات السندات الإذنية
                   href: localizations/emea-esp-promissory-note-options.md
@@ -3460,30 +3500,28 @@
                       href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
                     - name: إعداد مجموعات وقواعد ومعلمات أصناف الرسوم العكسية
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                    - name: إعداد مجموعات ضريبة المبيعات للرسوم العكسية
+                    - name: إعداد مجموعات ضريبة المبيعات لضريبة القيمة المضافة للرسوم العكسية‬
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: إعداد التقارير في المملكة المتحدة
+                - name: رقمنة الضرائب (MTD) لضريبة القيمة المضافة
                   items:
-                    - name: رقمنة الضرائب (MTD) لضريبة القيمة المضافة
-                      items:
-                        - name: جعل عملية إرسال ضريبة القيمة المضافة للضريبة الرقمية (MTD) في المملكة المتحدة
-                          href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: اعداد بيئتك للتشغيل المتداخل مع خدمة الويب MTD لضريبة القيمة المضافة الخاصة بـ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: قائمة اختيار لإعداد الرسائل الإلكترونية لخدمة MTD لضريبة القيمة المضافة
-                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: اختبار التشغيل المتداخل باستخدام بيئة الاختبار المعزولة لخدمة MTD لضريبة القيمة المضافة
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: تخويل بيئة Finance الخاصة بك للتعامل مع خدمة ويب MTD لضريبة القيمة المضافة الخاصة بـ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: إرسال إرجاع ضريبة القيمة المضافة إلى خدمة الويب MTD الخاصة بـ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: استرداد معلومات حول دفعات ضريبة القيمة المضافة والتزامات (ضريبية) من HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                        - name: تفاصيل إعداد ضريبة القيمة المضافة لإقرارات ضريبة القيمة المضافة في المملكة المتحدة
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: إنشاء إقرار ضريبة القيمة المضافة بتنسيق ورقي (تقرير ضريبة القيمة المضافة 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: جعل عملية إرسال ضريبة القيمة المضافة للضريبة الرقمية (MTD) في المملكة المتحدة
+                      href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: اعداد بيئتك للتشغيل المتداخل مع خدمة الويب MTD لضريبة القيمة المضافة الخاصة بـ HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                    - name: قائمة اختيار لإعداد الرسائل الإلكترونية لخدمة MTD لضريبة القيمة المضافة
+                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                    - name: اختبار التشغيل المتداخل باستخدام بيئة الاختبار المعزولة لخدمة MTD لضريبة القيمة المضافة
+                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                    - name: تخويل بيئة Finance الخاصة بك للتعامل مع خدمة ويب MTD لضريبة القيمة المضافة الخاصة بـ HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                    - name: إرسال إرجاع ضريبة القيمة المضافة إلى خدمة الويب MTD الخاصة بـ HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                    - name: استرداد معلومات حول دفعات ضريبة القيمة المضافة والتزامات (ضريبية) من HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                    - name: تفاصيل إعداد ضريبة القيمة المضافة لإقرارات ضريبة القيمة المضافة في المملكة المتحدة
+                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                    - name: إنشاء إقرار ضريبة القيمة المضافة بتنسيق ورقي (تقرير ضريبة القيمة المضافة 100)
+                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: تقرير الإحصائيات حول ممارسات الدفع
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: الولايات المتحدة
@@ -3877,6 +3915,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -4005,7 +4045,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
                         - name: Concatenate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/finance/toc.json
-                        - name: التنسيق
+                        - name: Format
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
@@ -4021,6 +4061,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4205,7 +4247,7 @@
               items:
                 - name: إدارة دورة حياة التكوينات
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: ' Lifecycle Services (LCS)'
+                - name: Lifecycle Services (LCS)
                   items:
                     - name: تحميل التكوينات في LCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
@@ -4421,6 +4463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: تحديث التطبيق 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
+                    - name: تحديث التطبيق 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
                 - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
                   items:
                     - name: الاشتراك في حدث لطلب استجابة من معالج الاشتراك
@@ -4433,9 +4477,11 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: تغيير الكود لتمكين المستخدمين من تكوين وجهات التقارير الإلكترونية المسماة واستخدامها
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: تنفيذ مصدر التقارير الإلكترونية المخصص للمستندات الداخلية
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: تطبيق الأجهزة المحمولة
           items:
-            - name: الصفحة الرئيسية لتطبيق الجوال
+            - name: الصفحة الرئيسية لتطبيق الأجهزة المحمولة
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/finance/toc.json
             - name: مساحات العمل المحمولة
               items:
@@ -4665,7 +4711,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md
                 - name: تسجيل العاملين الحجز أو الرسوم الضريبية
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md
-                - name: إعداد أرباح المكافأة ​
+                - name: إعداد أرباح المكافأة
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-premium-earning-setup-tasks.md
                 - name: الأسئلة المتداولة حول الحجوزات والرسوم الضريبية والرسوم الإدارية
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-garnishment-tax-levy-administrative-fees.md

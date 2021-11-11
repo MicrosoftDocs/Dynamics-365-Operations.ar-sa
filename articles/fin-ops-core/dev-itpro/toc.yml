@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
-                - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
+                - name: الجديد أو التغييرات‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.23
+                  href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.22 (نوفمبر 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.21 (أكتوبر 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.20 (أغسطس 2021)
-                  href: get-started/whats-new-platform-updates-10-0-20.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -32,42 +32,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: أحداث الأعمال
-          items:
-            - name: نظرة عامة على أحداث الأعمال
-              href: business-events/home-page.md
-            - name: أحداث أعمال التطبيق
-              href: business-events/app-business-events.md
-            - name: أحداث أعمال سير العمل
-              href: business-events/business-events-workflow.md
-            - name: أحداث الأعمال الدُفعية
-              href: business-events/system-business-events.md
-            - name: التنبيهات كأحداث أعمال
-              href: business-events/alerts-business-events.md
-            - name: أحداث الأعمال في Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: وثائق مطور أحداث الأعمال
-              href: business-events/business-events-dev-doc.md
-            - name: استكشاف أخطاء أحداث أعمال وإصلاحها
-              href: business-events/troubleshooting.md
-            - name: حالات الاستخدام لأحداث الأعمال
-              href: business-events/potential-use-cases.md
-            - name: البرامج التعليمية
-              items:
-                - name: أحداث الأعمال و Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: أحداث الأعمال وشبكة أحداث Azure
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: أحداث الأعمال وناقل خدمة Azure
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: أحداث الأعمال وموافقات سير العمل
-                  href: business-events/how-to/how-to-workflow.md
-                - name: أحداث الأعمال وMicrosoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: أحداث الأعمال ومراكز أحداث Azure
-                  href: business-events/how-to/event-hub.md
-                - name: أحداث الأعمال عند إقفال الفترة المالية‬
-                  href: business-events/how-to/period-close.md
         - name: التسليم المستمر
           items:
             - name: الصفحة الرئيسية للتسليم المستمر
@@ -592,9 +556,9 @@
               items:
                 - name: دعم اللغة X++
                   items:
-                    - name: متطلبات Visual Studio 2017لـ X++
+                    - name: متطلبات Visual Studio لـ X++
                       href: dev-tools/developer-tools-vs2017.md
-                    - name: تصحيح كود X++
+                    - name: تصحيح تعليمات X++ البرمجية
                       href: dev-tools/debug-xpp.md
                     - name: فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة
                       href: dev-tools/event-handler-result-class.md
@@ -606,6 +570,8 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: خصائص Application Explorer
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: سمة SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: مرجع اللغة X++
                   items:
                     - name: نظرة عامة على مرجع اللغة X++
@@ -1038,11 +1004,15 @@
           items:
             - name: تكامل Microsoft Power Platform مع Finance and Operations
               href: power-platform/overview.md
+            - name: تمكين تكامل Power Platform
+              href: power-platform/enable-power-platform-integration.md
+            - name: المصادقة والتخويل
+              href: power-platform/authentication-and-authorization.md
             - name: الكتابة المزدوجة
               items:
                 - name: الصفحة الرئيسية للكتابة المزدوجة
                   href: data-entities/dual-write/dual-write-home-page.md
-                - name: ما الجديد أو المتغير‬ في الكتابة المزدوجة
+                - name: الجديد أو التغييرات‬ في الكتابة المزدوجة
                   href: data-entities/dual-write/whats-new-dual-write.md
                 - name: نظرة عامة على الكتابة المزدوجة
                   href: data-entities/dual-write/dual-write-overview.md
@@ -1084,6 +1054,8 @@
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: تحرير كيان قانوني بعد إعداد الكتابة المزدوجة
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: إيقاف الكتابة المزدوجة مؤقتًا للصيانة
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: إدارة الأخطاء وإخطارات التنبيه
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: إدارة دورة حياة التطبيق
@@ -1174,8 +1146,10 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: استكشاف المشاكل من ترقيات تطبيقات Finance and Operations وإصلاحها
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: التحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
+                        - name: التحقق من تكوين الكتابة المزدوجة في تطبيقي Finance and Operations وDataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: رموز الأخطاء الخاصة بالتحقق من صحة مخطط الجدول
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: الأسئلة المتداولة حول الكتابة المزدوجة
                   href: data-entities/dual-write/dual-write-faq.md
             - name: الكيانات الظاهرية
@@ -1186,17 +1160,57 @@
                   href: power-platform/entity-modeling.md
                 - name: إدارة دورة حياة التطبيق
                   href: power-platform/application-lifecycle-management.md
-                - name: مرجع مسؤول Finance and Operations وDataverse
+                - name: تكوين كيانات Dataverse الظاهرية
                   href: power-platform/admin-reference.md
+                - name: تمكين كيانات Dataverse الظاهرية
+                  href: power-platform/enable-virtual-entities.md
                 - name: مداخل Power Apps مع Finance and Operations
                   href: power-platform/power-portal-reference.md
                 - name: الأسئلة المتداولة حول كيانات Finance and Operations الظاهرية
                   href: power-platform/faq.md
+            - name: أحداث الأعمال
+              items:
+                - name: نظرة عامة على أحداث الأعمال
+                  href: business-events/home-page.md
+                - name: أحداث أعمال التطبيق
+                  href: business-events/app-business-events.md
+                - name: أحداث أعمال سير العمل
+                  href: business-events/business-events-workflow.md
+                - name: أحداث الأعمال الدُفعية
+                  href: business-events/system-business-events.md
+                - name: التنبيهات كأحداث أعمال
+                  href: business-events/alerts-business-events.md
+                - name: أحداث البيانات
+                  href: business-events/data-events.md
+                - name: أحداث الأعمال في Power Automate
+                  href: business-events/business-events-flow.md
+                - name: وثائق مطور أحداث الأعمال
+                  href: business-events/business-events-dev-doc.md
+                - name: استكشاف أخطاء أحداث أعمال وإصلاحها
+                  href: business-events/troubleshooting.md
+                - name: حالات الاستخدام لأحداث الأعمال
+                  href: business-events/potential-use-cases.md
+                - name: البرامج التعليمية
+                  items:
+                    - name: أحداث الأعمال و Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: أحداث الأعمال وشبكة أحداث Azure
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: أحداث الأعمال وناقل خدمة Azure
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: أحداث الأعمال وموافقات سير العمل
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: أحداث الأعمال وMicrosoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: أحداث الأعمال ومراكز أحداث Azure
+                      href: business-events/how-to/event-hub.md
+                    - name: أحداث الأعمال عند إقفال الفترة المالية‬
+                      href: business-events/how-to/period-close.md
             - name: وظائف إضافية
               items:
                 - name: نظرة عامة حول الوظائف الإضافية
                   href: power-platform/add-ins-overview.md
-            - name: النهج والاتصالات
+            - name: السياسات والاتصالات
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: النظام الأساسي للأجهزة المحمولة‬
           items:
@@ -1582,6 +1596,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: إلغاء تنفيذ وظيفة دُفعية قبل اكتمالها
                   href: sysadmin/batch-abort.md
+                - name: واجهه برمجة تطبيقات OData الدُفعية
+                  href: sysadmin/batch-odata-api.md
             - name: مرشد التحسين
               items:
                 - name: نظرة عامة حول مرشد التحسين
