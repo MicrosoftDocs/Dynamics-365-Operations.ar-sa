@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384601"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647604"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>تثبيت تطبيق الاجهزه المحمولة لأداره المستودعات والاتصال به
 
@@ -109,7 +109,7 @@ ms.locfileid: "7384601"
     - [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهوية Microsoft](/azure/active-directory/develop/quickstart-register-app)
     - [كيفية: استخدم المدخل لإنشاء تطبيق Azure AD ومدير خدمة يمكنه الوصول إلى الموارد](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>إنشاء وتكوين حساب مستخدم في Supply Chain Management
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>إنشاء وتكوين حساب مستخدم في Supply Chain Management
 
 لتمكين Supply Chain Management لاستخدام تطبيق Azure AD الخاص بك، اتبع الخطوات التالية.
 
@@ -117,17 +117,24 @@ ms.locfileid: "7384601"
 
     1. في Supply Chain Management، انتقل إلى **إدارة النظام \> المستخدمون \> المستخدمون**.
     1. أنشئ مستخدمًا.
-    1. قم بتعيين مستخدم جهاز محمول في المستودع.
+    1. قم بتعيين دور *مستخدم جهاز محمول في المستودع* للمستخدم.
 
     ![قم بتعيين مستخدم جهاز محمول في المستودع.](media/app-connect-app-users.png "تعيين مستخدم جهاز محمول في المستودع")
 
 1. قم بإقران تطبيق Azure AD بمستخدم تطبيق إدارة المستودع للأجهزة المحمولة:
 
     1. انتقل إلى **إدارة النظام \> الإعداد \> تطبيقات Azure Active Directory**.
-    1. قم بإنشاء بند.
-    1. أدخل معرف العميل الذي قمت بتدوينه من القسم السابق، ثم قم بتسميته، ثم حدد المستخدم الذي قمت بإنشائه للتو. نوصي بوضع علامة على كافة الأجهزة الخاصة بك. بعد ذلك، في حالة فقدان الجهاز، يمكنك بسهولة إزالة وصولها إلى Supply Chain Management من هذه الصفحة.
+    1. في جزء الإجراءات، حدد **جديد** لإنشاء بند.
+    1. في حقل **معرف العميل**، أدخل معرف العميل التي قمت بملاحظة بها في القسم السابق.
+    1. في حقل **الاسم**، أدخل اسمًا.
+    1. في حقل **معرف المستخدم**، حدد معرف المستخدم الذي أنشأته للتوّ.
 
     ![تطبيقات Azure Active Directory.](media/app-connect-aad-apps.png "تطبيقات Azure Active Directory")
+
+> [!TIP]
+> وهناك طريقه واحده لاستخدام هذه الإعدادات لإنشاء معرف عميل في Azure لكل جهاز من الاجهزه الفعلية ثم أضافه كل معرف عميل إلى صفحه **تطبيقات Azure Active Directory**. بعد ذلك، في حالة فقدان الجهاز، يمكنك بسهولة إزالة وصولها إلى Supply Chain Management من خلال إزالة معرف العميل الخاص به من هذه الصفحة. (يعمل هذا الأسلوب لان بيانات اعتماد الاتصال المحفوظة علي كل جهاز أيضا تحدد معرف عميل ، كما هو موضح لاحقا في هذا الموضوع.)
+>
+> بالاضافه إلى ذلك ، يتم تاسيس التفضيلات الافتراضية للغة وتنسيق الأرقام وإعدادات المنطقة الزمنيه لكل معرف عميل بواسطة التفضيلات التي يتم تعيينها لقيمه **معرف المستخدم** التي يتم تعيينها هنا. التالي ، يمكنك استخدام هذه التفضيلات لتاسيس إعدادات افتراضيه لكل جهاز أو لمجموعه من الاجهزه ، استنادا إلى معرف العميل. ومع ذلك ، سيتم تجاوز هذه الإعدادات الافتراضية إذا تم تحديدها أيضا *لحساب المستخدم الخاص بتطبيق المستودع* الذي يستخدمه العامل لتسجيل الدخول علي الجهاز. (لمزيد من المعلومات، راجع [حسابات مستخدمي الجهاز المحمول](mobile-device-work-users.md).)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>المصادقة باستخدام الشهادة أو سر العميل
 

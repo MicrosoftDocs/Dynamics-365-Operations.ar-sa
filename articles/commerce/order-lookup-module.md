@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fa61a20ffd9a31f800c48b71832be7547952119f
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472559"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675107"
 ---
 # <a name="order-lookup-module"></a>الوحدة النمطية للبحث عن الأوامر
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يتناول هذا الموضوع الوحدة النمطية للبحث عن الأوامر ويشرح كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 
@@ -34,11 +33,11 @@ ms.locfileid: "7472559"
 
 ![نموذج الوحدة النمطية للبحث عن الأوامر في الصفحة.](./media/OrderLookup_module.PNG)
 
-## <a name="order-lookup-module-properties&quot;></a>خصائص الوحدة النمطية للبحث عن الأوامر
+## <a name="order-lookup-module-properties"></a>خصائص الوحدة النمطية للبحث عن الأوامر
 
 | اسم الخاصية     | قيمة     | الوصف |
 |-------------------|-----------|-------------|
-| العنوان‬           | النص      | العنوان الذي يظهر أعلى النموذج (على سبيل المثال، &quot;البحث عن الأمر الخاص بك"). |
+| العنوان‬           | النص      | العنوان الذي يظهر أعلى النموذج (على سبيل المثال، "البحث عن الأمر الخاص بك"). |
 | نص منسق         | نص منسق | نص توضيحي اختياري يظهر أسفل العنوان. |
 | نوع حالة الأمر | تعداد      | <p>حدد نوع المعلومات التي سيطلبها النموذج من العميل بالإضافة إلى معرف تأكيد الأمر. يتم حاليًا دعم القيم التالية:</p><ul><li><b>البريد الإلكتروني</b> – سيتضمن النموذج حقلاً حيث يمكن للعملاء إدخال عنوان البريد الإلكتروني الذي قاموا باستخدامه عند تقديم الأمر.</li><li><b>بلا</b> – لن يطلب النموذج أي معلومات بالإضافة إلى معرف تأكيد الأمر.</li></ul> |
 

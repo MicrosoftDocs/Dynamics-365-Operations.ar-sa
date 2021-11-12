@@ -2,7 +2,7 @@
 title: وظيفة JSONVALUE ER
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة JSONVALUE ER.
 author: NickSelin
-ms.date: 12/11/2019
+ms.date: 10/25/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b034755602a2f999892d2b976c80550b7a3d7f3cd179816dd7aa1edefe6a0270
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff33098e5be4dd9748d01d45b596360617305724
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733763"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700053"
 ---
 # <a name="jsonvalue-er-function"></a>وظيفة JSONVALUE ER
 
@@ -41,21 +41,45 @@ JSONVALUE (input, path)
 
 `path`: *السلسلة*
 
-معرف نوع القيمة العددية لبيانات JSON.
+معرف نوع القيمة العددية لبيانات JSON. استخدم الشرطة المائلة للامام (/) لفصل أسماء عقد JSON المرتبطة. استخدم تعليق القوس ( \[\]) لتحديد فهرس قيمه معينه في صفيف JSON. لاحظ انه يتم استخدام الترقيم المستند إلى الصفر لهذا الفهرس.
 
 ## <a name="return-values"></a>إرجاع القيم
 
-*السلسلة*
+*سلسلة*
 
 القيمة النصية الناتجة.
 
-## <a name="example"></a>مثال
+## <a name="example-1"></a>مثال1
 
 يحتوي مصدر البيانات **JsonField** على البيانات التالية بتنسيق: **{"BuildNumber":"7.3.1234.1", "KeyThumbprint":"7366E"}**. في هذه الحالة، يقوم التعبير `JSONVALUE (JsonField, "BuildNumber")` بإرجاع القيمة التالية من نوع البيانات *سلسلة* : **"7.3.1234.1"**.
+
+## <a name="example-2"></a>مثال2
+
+يُمكنك إدخال مصدر بيانات **JsonField** من النوع *الحقل المحسوب* ، الذي يحتوي على التعبير `"{""workers"": [ {""name"": ""Adam"", ""age"": 30, ""emails"": [""AdamS@Contoso.com"", ""AdamS@Hotmail.com"" ]}, { ""name"": ""John"", ""age"": 21, ""emails"": [""JohnS@Contoso.com"", ""JohnS@Aol.com""]}]}"`.
+
+تم تكوين هذا التعبير لإرجاع قيمه [*سلسله*](er-formula-supported-data-types-primitive.md#string) تمثل البيانات التالية في تنسيق JSON.
+
+```json
+{
+    "workers": [
+        {
+            "name": "Adam",
+            "age": 30,
+            "emails": [ "AdamS@Contoso.com", "AdamS@Hotmail.com" ]
+        },
+        {
+            "name": "John",
+            "age": 21,
+            "emails": [ "JohnS@Contoso.com", "JohnS@Aol.com" ]
+        }
+    ]
+}
+```
+
+في هذه الحالة، يقوم التعبير `JSONVALUE(json, "workers/[1]/emails/[0]")` بإرجاع القيمة التالية من نوع البيانات *سلسلة*: `JohnS@Contoso.com`.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الدالات النصية](er-functions-category-text.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

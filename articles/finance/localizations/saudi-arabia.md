@@ -2,7 +2,7 @@
 title: نظرة عامة على المملكة العربية السعودية
 description: يوفر هذا الموضوع ارتباطات إلى موارد الوثائق للمملكة العربية السعودية.
 author: ShylaThompson
-ms.date: 07/25/2019
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Saudi Arabia
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5766d9226d00c0597fef5cc8db793d831183c95f70efc7ede3be7c8fd22383a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 057f0c09603bced56a860dc667c4310e2d685010
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740863"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700394"
 ---
 # <a name="saudi-arabia-overview"></a>نظرة عامة على المملكة العربية السعودية
 
@@ -29,6 +29,7 @@ ms.locfileid: "6740863"
 - [ضريبة المبيعات](apac-sau-sales-tax.md)
 - [تقارير الزكاة](emea-sau-zakat-reporting.md)
 - [تخصيص رسوم المستندات البنكية لشحنة](apac-sau-allocate-bank-document-charges-shipment.md)
+- [الفواتير الإلكترونية للعملاء](emea-sau-e-invoices.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

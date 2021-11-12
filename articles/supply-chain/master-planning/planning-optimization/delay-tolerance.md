@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577470"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678557"
 ---
 # <a name="delay-tolerance-negative-days"></a>تفاوت التأخير (الأيام السالبة)
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 تتيح وظيفة تفاوت التأخير إمكانية تحسين التخطيط لاعتبار قيمة **الأيام السالبة** التي يتم تعيينها لمجموعات التغطية. ويستخدم لتمديد فترة تفاوت التأخير التي يتم تطبيقها أثناء التخطيط الرئيسي. بهذه الطريقة، يمكنك تجنب إنشاء أوامر توريد جديدة إذا كان التوريد الموجود قادرًا على تغطية الطلب بعد فترة تأخير قصيرة. إن الغرض من الوظيفة هو تحديد ما إذا كان من المنطقي إنشاء أمر توريد جديد لطلب معين.
 

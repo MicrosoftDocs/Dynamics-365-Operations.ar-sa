@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474666"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678461"
 ---
 # <a name="configure-inventory-visibility"></a>تكوين رؤية المخزون
 
@@ -366,16 +366,12 @@ ms.locfileid: "7474666"
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>تكوين الحجز (اختياري)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 يلزم تكوين الحجز إذا كنت ترغب في استخدام ميزة الحجز الناعمة. يتكون التكوين من جزأين أساسيين:
 
 - تعيين حجز مرن
 - تدرج هرمي للحجز المرن
 
 ### <a name="soft-reservation-mapping"></a>تعيين حجز مرن
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 عند إجراء الحجز، قد ترغب في معرفة ما إذا كان المخزون الفعلي متاحا حاليا للحجز. يتم ربط التحقق من الصحة إلى مقياس محسوب يمثل صيغة حساب مجموعة من التدابير الفعلية.
 
@@ -446,8 +442,6 @@ ms.locfileid: "7474666"
 > عند استدعاء API للحجز، يمكنك التحكم في التحقق من صحة الحجز عن طريق تحديد المعلمة المنطقية `ifCheckAvailForReserv` في النص الأساسي للطلب. تعني القيمة `True` أن التحقق من الصحة مطلوب، بينما تعني القيمة `False` أن التحقق من الصحة غير مطلوب. القيمة الافتراضية هي `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>تدرج هرمي للحجز المرن
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 يصف التسلسل الهرمي للحجز تسلسل الأبعاد التي يجب تحديدها عند إجراء الحجوزات. إنه يعمل بنفس الطريقة التي يعمل بها التسلسل الهرمي لفهرس المنتج للاستعلامات الفعلية.
 
@@ -747,8 +741,6 @@ ms.locfileid: "7474666"
 يصف هذا القسم تكوين الحجز الافتراضي.
 
 #### <a name="reservation-mapping"></a>تعيين الحجز
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 يعرض الجدول التالي تعيين الحجز الافتراضي.
 

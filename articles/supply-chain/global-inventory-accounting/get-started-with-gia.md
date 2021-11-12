@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773272"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678849"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>الشروع في العمل في ‏‫محاسبة المخزون العالمي
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 تتيح لك محاسبة المخزون العالمي إجراء محاسبات متعددة للمخزون في دفاتر الأستاذ العام لمحاسبة المخزون العالمي التي قمت بإعدادها. يمكنك إقران كل دفتر أستاذ لمحاسبة المخزون العالمي بـ *اصطلاح*. والاصطلاح هو مجموعة من الأنواع التالية من سياسات المحاسبة:
 
@@ -60,7 +60,7 @@ ms.locfileid: "6773272"
 1. في مربع الحوار **إعداد بيئة Power platform**، حدد خانة الاختيار، ثم حدد **إعداد** وعادةً، يستغرق الإعداد بين 60 و90 دقيقة.
 1. بعد اكتمال الإعداد الخاص بالبيئة Microsoft Power Platform، تعرض الصفحة اسم البيئة الخاصة بك. بالإضافة إلى ذلك، يعرض القسم تكامل **Power Platform** الكشف و"تم إكمال إعداد البيئة Power Platform". لا تتطلب محاسبة المخزون العالمي تطبيقًا ثنائي الكتابة.
 
-لمزيد من المعلومات، راجع [الإعداد بعد نشر البيئة](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+لمزيد من المعلومات، راجع [التمكين بعد نشر البيئة](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
 ### <a name="set-up-dataverse"></a>إعداد Dataverse
 

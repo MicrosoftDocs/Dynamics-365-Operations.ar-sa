@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575161"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678899"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>نظرة عامة على الوظيفة الإضافية "رؤية المخزون"
 
@@ -45,8 +45,6 @@ ms.locfileid: "7575161"
 - عرض القائمة الأولية المتاحة. تتم مزامنة هذه القائمة بشكل دوري من مثيل مخزن مؤقتا وهي مرئية في Dataverse. لمزيد من المعلومات، راجع [تطبيق رؤية المخزون](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>الحجوزات المرنة
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 ينطبق الحجز السهل عندما يتعين على النشاط التجاري حجز كمية محددة من المنتجات لدعم، على سبيل المثال، تنفيذ أمر التوريد الذي يتجنب الإفراط في البيع. عند إنشاء أمر توريد وتأكيده في Supply Chain Management أو أنظمة إدارة الأنظمة الأخرى، يتم إرسال طلب لحجز الكمية إلى "رؤية المخزون". تتيح لك رؤية المخزون حجز المنتجات التي تحتوي على تفاصيل البعد وأنواع حركات المخزون المحددة. (لمزيد من المعلومات، راجع [تطبيق رؤية المخزون](inventory-visibility-power-platform.md).) بعد الاحتفاظ بالكمية بنجاح، يتم إرجاع معرف حجز. يمكنك استخدام معرف الحجز هذا للارتباط مرة أخرى إلى الأمر الأصلي في Supply Chain Management أو أنظمة إدارة الأنظمة الأخرى.
 

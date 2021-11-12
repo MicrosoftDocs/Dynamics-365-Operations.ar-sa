@@ -2,7 +2,7 @@
 title: قائمة وظائف التقارير الإلكترونية من فئة النص
 description: يوفر هذا الموضوع معلومات حول وظائف النص المعتمدة في التقارير الإلكترونية (ER).
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741004"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647550"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>قائمة وظائف التقارير الإلكترونية من فئة النص
 
@@ -40,7 +40,8 @@ ms.locfileid: "6741004"
 | [إلى اليسار](er-functions-text-left.md) | تُرجع هذه الوظيفة قيمة *السلسلة* التي توضح العدد المُحدد من الأحرف من بداية السلسلة المُحددة. |
 | [Len](er-functions-text-len.md) | تُرجع هذه الوظيفة قيمة *عدد صحيح* توضح عدد الأحرف في السلسلة المُحددة. |
 | [Lower](er-functions-text-lower.md) | تُرجع هذه الوظيفة سلسلة النص المُحددة كقيمة *السلسلة* بعد أن تم تحويلها إلى أحرف صغيرة. |
-| [Mid](er-functions-text-mid.md) | تُرجع هذه الوظيفة قيمة *السلسلة* التي توضح العدد المُحدد من الأحرف من السلسلة المُحددة، بداية من المنصب المُحدد. |
+| [Mid](er-functions-text-mid.md) | تُرجع هذه الوظيفة قيمة *[السلسلة](er-formula-supported-data-types-primitive.md#string)* التي توضح العدد المُحدد من الأحرف من السلسلة المُحددة، بداية من المنصب المُحدد. |
+| [NewGUID](er-functions-text-newguid.md) | تقوم هذه الدالة بإرجاع قيمه *[GUID](er-formula-supported-data-types-primitive.md#guid)* التي تم إنشاؤها حديثا. |
 | [NumberFormat](er-functions-text-numberformat.md) | تُرجع هذه الوظيفة قيمة *السلسلة* التي توضح الرقم المُحدد بالتنسيق المُحدد وفي الثقافة المُحددة بشكل اختياري. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | تُرجع هذه الوظيفة الرقم المُحدد كقيمة *السلسلة* بعد كتابته (أي تحويله إلى سلاسل نصية) باللغة المُحددة. |
 | [PadLeft](er-functions-text-padleft.md) | تُرجع هذه الوظيفة قيمة *السلسلة* بطول مُحدد، تمت فيه تعبئة بداية السلسلة المُحددة بمثيل واحد أو أكثر من الأحرف المُحددة. |

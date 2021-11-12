@@ -2,7 +2,7 @@
 title: قائمة وظائف التقارير الإلكترونية في فئة التاريخ والوقت
 description: يوفر هذا الموضوع معلومات حول وظائف التاريخ والوقت المعتمدة في التقارير الإلكترونية (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760040"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647253"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>قائمة وظائف التقارير الإلكترونية في فئة التاريخ والوقت
 
@@ -31,8 +31,9 @@ ms.locfileid: "6760040"
 
 | الوظيفة | ‏‏الوصف |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | تُرجع هذه الوظيفة قيمة *DateTime* والتي هي عدد الأيام المُحددة قبل أو بعد تاريخ البدء المُحدد. |
-| [DateFormat](er-functions-datetime-dateformat.md) | تقوم هذه الوظيفة بإرجاع قيمة *السلسلة* التي تمثل قيمة تاريخ مُعين كنص في التنسيق المُحدد وفي الثقافة المُحددة بشكل اختياري. |
+| [AddDays](er-functions-datetime-adddays.md) | تُرجع هذه الوظيفة قيمة *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* والتي هي عدد الأيام المُحددة قبل أو بعد تاريخ البدء المُحدد. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | تُرجع هذه الوظيفة قيمة *DateTime* التي تم تحويلها من قيمة تاريخ/وقت معين إلى قيمةالتاريخ/الوقت في منطقة زمنية أخرى. |
+| [DateFormat](er-functions-datetime-dateformat.md) | تقوم هذه الوظيفة بإرجاع قيمة *[السلسلة](er-formula-supported-data-types-primitive.md#string)* التي تمثل قيمة تاريخ مُعين كنص في التنسيق المُحدد وفي الثقافة المُحددة بشكل اختياري. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | تقوم هذه الوظيفة بإرجاع قيمة *السلسلة* التي تمثل قيمة تاريخ/وقت مُعين كنص في التنسيق المُحدد وفي الثقافة المُحددة بشكل اختياري. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | تقوم هذه الوظيفة بإرجاع قيمة *DateTime* التي تم تحويلها من قيمة نصية معينة في التنسيق المُحدد وفي الثقافة المُحددة بشكل اختياري إلى قيمة التاريخ/الوقت. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | تُرجع هذه الوظيفة قيمة *DateTime* التي تم تحويلها من قيمة تاريخ معين إلى قيمةالتاريخ/الوقت بالتوقيت  العالمي المنسق (توقيت جرينتش المتوسط \[GMT\]). |

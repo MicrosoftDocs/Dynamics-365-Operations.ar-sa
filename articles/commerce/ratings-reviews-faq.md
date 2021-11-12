@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 8ac5bc3d6ca6d0cbc6664ef883830a7cbf834e14
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: d3642392ed2cf231f261b24428756c6e32a79f98
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473318"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674564"
 ---
 # <a name="ratings-and-reviews-faq"></a>الأسئلة المتداولة حول التقييمات والمراجعات
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يوفر هذا الموضوع إجابات للأسئلة المتداولة حل تقييمات ومراجعات Microsoft Dynamics 365 Commerce.
 

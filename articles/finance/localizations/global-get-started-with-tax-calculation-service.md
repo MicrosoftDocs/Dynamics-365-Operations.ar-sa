@@ -2,7 +2,7 @@
 title: الشروع في العمل مع حساب الضريبة
 description: يشرح هذا الموضوع كيفية إعداد ‏‫حساب الضريبة.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562116"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647424"
 ---
 # <a name="get-started-with-tax-calculation"></a>الشروع في العمل مع حساب الضريبة
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 يوفر هذا الموضوع معلومات حول كيفيه الشروع في العمل باستخدام حساب الضريبة. يرشدك خلال خطوات التكوين في Microsoft Dynamics Lifecycle Services (LCS)، وRegulatory Configuration Service (RCS)، وDynamics 365 Finance، وDynamics 365 Supply Chain Management. ثم تقوم بمراجعة العملية الشائعة لاستخدام قدرات حساب الضريبة في حركات Finance وSupply Chain Management.
 
@@ -41,29 +39,10 @@ ms.locfileid: "7562116"
 
 قبل أن تتمكن من إكمال الإجراءات في هذا الموضوع، يجب تطبيق المتطلبات الأساسية لكل نوع بيئة.
 
-### <a name="for-a-production-environment"></a>بالنسبة لبيئة الإنتاج
-
-بالنسبة لبيئة إنتاج، يجب استيفاء المتطلبات الأساسية التالية:
+يجب الوفاء بالمتطلبات الاساسيه التالية:
 
 - يجب أن يكون لديك حق الوصول إلى حساب LCS الخاص بك، ويجب أن يكون لديك مشروع LCS منشور له بيئة من المستوى 2 أو أعلى تقوم بتشغيل Dynamics 365 الإصدار 10.0.21 أو أحدث.
 - يجب إنشاء بيئة RCS للمؤسسة الخاصة بك، ويجب أن يكون لديك حق الوصول إلى حسابك. لمزيد من المعلومات حول كيفية إنشاء بيئة RCS، راجع [نظرة عامة حول Regulatory Configuration Service](rcs-overview.md).
-- يجب تشغيل الميزات التالية في مساحة عمل **إدارة الميزات** في بيئة Finance أو Supply Chain Management المنشورة، استنادا إلى احتياجات عملك:
-
-    - خدمة حساب الضرائب
-    - دعم أرقام تسجيل ضريبة القيمة المضافة المتعددة
-    - الضريبة في أمر التحويل
-
-- يجب تشغيل الميزات التالية في مساحة عمل **إدارة الميزة** لبيئة RCS المنشورة.
-
-    - ميزات العولمة
-
-### <a name="for-a-test-environment-public-preview"></a>بالنسبة لبيئة اختبار (معاينة عامة)
-
-بالنسبة لبيئة اختبار، يجب استيفاء المتطلبات الأساسية التالية:
-
-- يجب أن يكون لديك حق الوصول إلى حساب LCS الخاص بك، ويجب أن يكون لديك مشروع LCS منشور له بيئة من المستوى 2 أو أعلى تقوم بتشغيل Dynamics 365 الإصدار 10.0.21 أو إصدار أحدث.
-- يجب إنشاء بيئة RCS للمؤسسة الخاصة بك، ويجب أن يكون لديك حق الوصول إلى حسابك. لمزيد من المعلومات حول كيفية إنشاء بيئة RCS، راجع [نظرة عامة حول Regulatory Configuration Service](rcs-overview.md).
-- يجب عليك الاتصال بـ Microsoft، عن طريق مراسلة <taxcalc@microsoft.com> عبر البريد الإلكتروني، لتمكين الطيران في بيئة Finance أو Supply Chain Management التي تم نشرها.
 - يجب تشغيل الميزات التالية في مساحة عمل **إدارة الميزات** في بيئة Finance أو Supply Chain Management المنشورة، استنادا إلى احتياجات عملك:
 
     - خدمة حساب الضرائب

@@ -2,7 +2,7 @@
 title: مراجع إلى الفواتير الأصلية في الإشعارات الدائنة
 description: يوضح هذا الموضوع كيفية إعداد أرقام الفواتير الأصلية وطباعتها في الإشعارات الدائنة المرتبطة.
 author: ilkond
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723837"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700345"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>مراجع إلى الفواتير الأصلية في الإشعارات الدائنة
 
@@ -95,5 +95,10 @@ ms.locfileid: "6723837"
 > [!NOTE]
 > تأكد من تكوين التنسيقات القابلة للطباعة الخاصة بالمستندات بشكل صحيح، على افتراض أنه ستتم طباعة مراجع الفواتير الأصلية.
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>مراجع إلى الفواتير الأصلية في الإشعارات المدينة
+
+بشكل افتراضي ، يمكن إدخال مراجع للفواتير الاصليه للإشعارات الدائنة. علي سبيل المثال ، يمكنك إدخال مراجع عند اجراء تصحيحات سالبه (متناقصة) للفواتير الاصليه.
+
+لإدخال مراجع عندما تقوم بعمل تصحيحات موجبه (متزايدة) للفواتير الاصليه ، يجب تمكين ميزه **مراجع الفواتير الاصليه في الإشعارات المدينة** في مساحة عمل **أداره الميزات**.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

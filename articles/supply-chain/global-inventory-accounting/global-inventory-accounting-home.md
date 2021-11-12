@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
-ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
+ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557382"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678485"
 ---
 # <a name="global-inventory-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة المخزون العالمي
 
-[!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 ‏‫تتعرض المؤسسات الدولية لضغط متزايد من السلطات للامتثال بكل من لوائح المحاسبة المحلية ومبادئ المحاسبة العالمية. يلعب تقييم المخزون بتشغيل دورًا مهمًا في ضمان التوافق. توفر الوظيفة الإضافية لمحاسبة المخزون العالمي لـ Microsoft Dynamics 365 Supply Chain Management حلاً شاملاً يتيح للمؤسسات (خاصة المؤسسات الدولية) استخدام دفاتر الأستاذ المتعددة لحساب التكاليف للقيام بمحاسبة المخزون. وبالتالي، يمكن لهذه المؤسسات الالتزام بمعايير محاسبة متعددة ومحاسبة إدارة داخلية في الوقت نفسه.
 

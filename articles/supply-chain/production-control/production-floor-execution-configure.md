@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576917"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647179"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>تكوين واجهة تنفيذ صالة الإنتاج‬
 
@@ -74,6 +74,12 @@ ms.locfileid: "7576917"
 تتيح هذه الميزة إمكانية إضافة حقل بحث إلى قائمة الوظائف. يمكن للعاملين العثور على وظيفة محددة من خلال إدخال معرف الوظيفة أو البحث عن كافة الوظائف لأمر معين من خلال إدخال معرف الأمر. يمكن للعاملين إدخال المعرف باستخدام لوحة المفاتيح أو عن طريق مسح الكود الشريطي. إذا كنت ترغب في استخدامها، قم بتشغيل الميزة التالي في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - بحث عن وظيفة لواجهة تنفيذ صالة الإنتاج‬
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>تمكين اعداد التقارير في المنتجات المساعدة والمنتجات الفرعية
+
+تتيح هذه الميزة للعاملين استخدام واجهه تنفيذ الارضيه لإنتاج تقارير التقدم في الأوامر الدفعيه. يتضمن هذا التقرير اعداد التقارير في المنتجات المساعدة والمنتجات الفرعية. لاستخدام هذه الميزة، يمكنك تشغيل الميزة التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- الإبلاغ عن المنتجات المساعدة والثانوية من واجهة تنفيذ صالة الإنتاج‬
 
 ## <a name="work-with-production-floor-execution-configurations"></a>العمل باستخدام تكوينات تنفيذ صالة الإنتاج‬
 

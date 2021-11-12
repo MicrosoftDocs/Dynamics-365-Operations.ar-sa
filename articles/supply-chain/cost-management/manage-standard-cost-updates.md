@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579750"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678632"
 ---
 # <a name="manage-standard-cost-updates"></a>إدارة تحديثات التكلفة القياسية
 
@@ -43,8 +43,6 @@ ms.locfileid: "7579750"
 ‏‫استخدم هذا المثال إصدارًا واحدًا للتكاليف الإضافية لإدارة التحديثات خلال عام 2020. ويمكن استخدام أكثر من إصدار تكاليف إضافي واحد، مثل استخدام إصدار منفصل لكل مجموعة تحديثات. عند استخدام أكثر من تكلفة إضافية واحدة، يجب التعبير البديل باعتباره التكاليف النشطة، لأنه يتم توزيع التكاليف النشطة على عدة إصدارات للتكاليف.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>الأبعاد المالية لإعادة تقييم التكلفة القياسية.
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 سيؤدي تنشيط سعر قياسي جديد عاده إلى إعادة تقييم قيمه المخزون الفعلي بواسطة حركات أعاده تقييم التكلفة المعيارية. عاده، يتم ترحيل الابعاد المالية للصنف في الحركات. ومع ذلك ، إذا كنت ترغب في التحكم في ترحيل الابعاد المالية وكيفيه ترحيلها ، فاستخدم [أداره الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزات المسمية للتحكم في *التحويل الافتراضي للابعاد المالية لعمليه أعاده تقييم التكلفة المعيارية للمخزون*. بعد تمكين هذه الميزة، انتقل إلى **أداره التكلفة > إعداد سياسات محاسبه المخزون > معلمات** وقم بتعيين القائمة المنسدلة الجديدة **أصل البعد المالي** إلى أحدي القيم التالية:
 

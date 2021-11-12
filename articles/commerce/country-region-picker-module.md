@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 35d78cdcc356d35776940147e9b0afee0f0be2a2
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472561"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674713"
 ---
 # <a name="countryregion-picker-module"></a>الوحدة النمطية لمنتقي البلد/المنطقة
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يصف هذا الموضوع الوحدة النمطية لمنطقي البلد/المنطقة ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 
@@ -35,13 +34,13 @@ ms.locfileid: "7472561"
 
 ![مثال لمربع حوار منتقي البلد/المنطقة في الصفحة الرئيسية.](./media/Geo_country-region-module-insitu.png)
 
-## <a name="countryregion-picker-module-properties&quot;></a>خصائص الوحدة النمطية لمنتقي البلد/المنطقة
+## <a name="countryregion-picker-module-properties"></a>خصائص الوحدة النمطية لمنتقي البلد/المنطقة
 
 | اسم الخاصية              | قيمة       | الوصف |
 | -------------------------- | ----------- | ----------- |
 | العنوان‬                    | النص        | العنوان الذي يظهر أعلى مربع الحوار. |
 | العنوان الفرعي                 | النص        | العنوان الفرعي الذي يظهر أسفل العنوان. |
-| البلد: سلسلة العرض    | النص        | اسم العرض لخيار URL (على سبيل المثال، &quot;كندا"). |
+| البلد: سلسلة العرض    | النص        | اسم العرض لخيار URL (على سبيل المثال، "كندا"). |
 | البلد: سلسلة العرض الفرعية | النص        | سلسلة عرض اختيارية فرعية لخيار URL (على سبيل المثال، "الإنجليزية" أو "الفرنسية"). |
 | البلد: صورة البلد     | أصل الوسائط | صوره اختيارية مقترنة بخيار URL (على سبيل المثال، صورة لعلم كندا). |
 | البلد: عنوان URL للبلد       | النص        | عنوان URL المتوافق مع القناة والإعدادات المحلية التي تم تكوينها للبلد أو المنطقة في صفحة **القنوات** في منشئ المواقع التجارية (**إعدادات الموقع\>القنوات**). يجب أن يتطابق عنوان URL هذا تماماً مع عنوان URL الذي تم تكوينه في صفحة **القنوات**. |
