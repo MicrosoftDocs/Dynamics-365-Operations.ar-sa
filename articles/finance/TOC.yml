@@ -708,48 +708,6 @@
               href: general-ledger/electronic-messaging-work-with-em.md
             - name: استدعاء تنسيق تصدير التقارير الإلكترونية البسيط لإنشاء تقرير Excel
               href: general-ledger/electronic-messaging-example.md
-        - name: إدارة المصروفات
-          items:
-            - name: نظرة عامة على إدارة المصروفات
-              href: /dynamics365/project-operations/prod-exp/expense-management
-            - name: إعادة تصور تقارير المصروفات
-              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
-            - name: إدارة مصروفات الخطة
-              href: /dynamics365/project-operations/prod-exp/plan-expense-management
-            - name: معلمات إدارة المصروفات
-              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
-            - name: مساحة العمل المحمولة "إدارة المصروفات"
-              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
-            - name: إعداد مهام سير العمل لإدارة المصروفات
-              href: /dynamics365/project-operations/prod-exp/expense-workflows
-            - name: سير عمل إدارة المصروفات
-              href: /dynamics365/project-operations/prod-exp/expense-workflow
-            - name: أداره تفويض المصروفات
-              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
-            - name: معالجة استلام المصروفات
-              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: استيراد حركات بطاقات الائتمان وصيانتها
-              href: /dynamics365/project-operations/prod-exp/import-credit-card
-            - name: توزيعات تقرير مصروفات
-              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
-            - name: المصروفات المشتركة بين الشركات الشقيقة
-              href: /dynamics365/project-operations/prod-exp/intercompany-expense
-            - name: تعريف سياسات المصروفات
-              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
-            - name: عرض تقرير مصروفات
-              href: /dynamics365/project-operations/prod-exp/view-expense-report
-            - name: ترحيل تقرير مصروفات
-              href: /dynamics365/project-operations/prod-exp/post-expense
-            - name: تقارير المصروفات والعديد من مانحي القبول
-              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: استرداد ضريبة القيمة المضافة في إدارة المصروفات
-              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
-            - name: قواعد المصروف اليومي
-              href: /dynamics365/project-operations/prod-exp/per-diem
-            - name: طلبات السفر
-              href: /dynamics365/project-operations/prod-exp/travel-req
-            - name: المصروفات الشخصية على تقرير المصروفات
-              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: الأصول الثابتة
           items:
             - name: الصفحة الرئيسية للأصول الثابتة
@@ -1244,13 +1202,11 @@
               href: general-ledger/financial-reporting-faq.md
         - name: المعلومات المالية
           items:
-            - name: الصفحة الرئيسية ‏للمعلومات المالية
+            - name: الصفحة الرئيسية لـ Finance Insights
               href: finance-insights/finance-insights-home-page.md
             - name: الإعداد والإدارة
               items:
-                - name: تكوين المعلومات المالية للإصدار الأولي للاستخدام العام
-                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: تكوين المعلومات المالية للإصدار الأولي للاستخدام الخاص
+                - name: تكوين ‏‫Finance Insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: تمكين توقعات دفع العميل
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1288,88 +1244,6 @@
                   href: finance-insights/payment-snapshots.md
             - name: الأسئلة المتداولة حول استكشاف أخطاء Finance Insights وإصلاحها
               href: finance-insights/finance-insights-troubleshooting-faq.md
-        - name: إدارة المشاريع ومحاسبتها
-          items:
-            - name: نظرة عامة على إدارة المشاريع ومحاسبتها
-              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
-            - name: الفوترة بين الشركات الشقيقة
-              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
-            - name: تكوين فوترة المشروع بين الشركات الشقيقة
-              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
-            - name: تكوين التكاليف القياسية للعمالة والمصروفات
-              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
-            - name: إنشاء شروط احتجاز مدفوعات المورد وتطبيقها
-              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
-            - name: إعداد واستخدام الدفع عند دفع مدفوعات المورّد
-              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
-            - name: إيصالات استحقاق تكلفة المشروع على الشراء
-              href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: فوترة المشروع
-              href: accounts-payable/project-invoicing.md
-            - name: عقود المشروع
-              href: /dynamics365/project-operations/prod-pma/project-contracts
-            - name: إنشاء عقود متقدمة للفوترة استنادًا إلى التقدم
-              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
-            - name: تنبؤات وموازنات المشاريع
-              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
-            - name: إنشاء طرز تنبؤ لموازنات المشاريع
-              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
-            - name: نقل موازنات المشروع في نهاية السنة المالية
-              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
-            - name: أوامر مبيعات المشروع
-              href: /dynamics365/project-operations/prod-pma/project-sales-orders
-            - name: أوامر الشراء لمشروع
-              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
-            - name: عروض أسعار المشروع
-              href: /dynamics365/project-operations/prod-pma/project-quotations
-            - name: تأكيد عرض أسعار مشروع وتحديثه وإرساله
-              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
-            - name: تحويل عرض أسعار إلى مشروع
-              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
-            - name: تحديد موارد المشروع
-              items:
-                - name: نظرة عامة على موارد المشروع
-                  href: /dynamics365/project-operations/prod-pma/project-resourcing
-                - name: إعداد موارد المشروع
-                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
-                - name: إدارة اختصاصات الموارد
-                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
-                - name: إنشاء مشروع جديد
-                  href: /dynamics365/project-operations/prod-pma/create-new-project
-                - name: إعداد التسعير المستند إلى الدور
-                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
-                - name: إنشاء فريق مشروع
-                  href: /dynamics365/project-operations/prod-pma/create-project-team
-                - name: مزامنة قدرة الموارد‬
-                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
-                - name: أداء جدولة موارد المشروع
-                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
-                - name: إعداد الأدوار في قوالب هيكل تنظيم العمل
-                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
-                - name: تنفيذ الموارد للموارد المخططة
-                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
-            - name: تلقي الأصناف على أمر شراء من متطلبات الصنف
-              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
-            - name: هياكل تنظيم العمل
-              items:
-                - name: نظرة عامة على هياكل تنظيم العمل
-                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
-                - name: تكامل Microsoft Project Client
-                  href: /dynamics365/project-operations/prod-pma/project-integration
-                - name: نظرة عامة على تطبيقات المحمول للمشاريع
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
-                - name: مساحة عمل محمولة لإدخال وقت المشروع
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
-                - name: تطبيق Project Timesheet للأجهزة المحمولة
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet
-                - name: الجداول الزمنية للمشاريع على الجهاز المحمول
-                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
-                - name: تنفيذ الحقول المخصصة لتطبيق Project Timesheet للأجهزة المحمولة
-                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
-            - name: منح المشروع
-              href: /dynamics365/project-operations/prod-pma/project-grants
-            - name: استبعاد تقدير مشروع
-              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: القطاع العام
           items:
             - name: الصفحة الرئيسية للقطاع العام
@@ -1804,6 +1678,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: إعداد معلمات NF-e لمؤسسة مالية
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: نقل ملفات NF-e XML كمرفقات
+                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: NT2020.005 - تحديثات التخطيط والتحقق من الصحة في المستند المالي الإلكتروني (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – نظام أساسي رقمي وسيط للمبيعات لـ NF-e‬
@@ -2190,6 +2066,8 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: عرض الحركات عند التسوية
                   href: localizations/emea-transactions-settlement-form.md
+                - name: السبب المالي
+                  href: localizations/emea-financial-reason.md
             - name: فنلندا
               items:
                 - name: نظرة عامة على فنلندا
@@ -2750,10 +2628,14 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: تحسين إمكانية استخدام بيانات البنك
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لإيطاليا
-                  href: localizations/emea-ita-intrastat.md
-                - name: ترحيل عمليات الوصول والإرسالات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
-                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
+                  items:
+                    - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لإيطاليا
+                      href: localizations/emea-ita-intrastat.md
+                    - name: ترحيل عمليات الوصول والإرسالات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
+                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                    - name: تنسيق ملف نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (IT)
+                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: المصاريف المتنوعة للكيلوغرام الواحد في إعلان نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: خطابات النوايا - فوترة مصدرين عاديين
@@ -3110,6 +2992,8 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: تقارير ضريبة المبيعات
                   href: localizations/emea-pol-sales-tax-reports.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لبولندا
+                  href: localizations/emea-pol-intrastat.md
                 - name: إعداد التسلسلات الرقمية حسب المستودع
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: ملف المراجعة القياسي
@@ -4045,7 +3929,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
                         - name: Concatenate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/finance/toc.json
-                        - name: Format
+                        - name: التنسيق
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
@@ -4375,6 +4259,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: المسار النسبي في عمليات ربط البيانات
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+                - name: تعبيرات تصميم لاستدعاء أساليب فئة التطبيق
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: استخدام حلول ER في Finance
               items:
                 - name: تكوين إطار العمل

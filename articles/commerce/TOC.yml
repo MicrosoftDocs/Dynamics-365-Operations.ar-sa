@@ -1716,7 +1716,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
                         - name: Concatenate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/commerce/toc.json
-                        - name: Format
+                        - name: التنسيق
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/commerce/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/commerce/toc.json
@@ -2532,12 +2532,14 @@
                   items:
                     - name: أفضل الممارسات لتطوير Dynamics 365 Commerce
                       href: e-commerce-extensibility/best-practices-dev.md
-                    - name: ‏‫الأسئلة المتداولة حول Dynamics 365 Commerce SDK عبر الإنترنت
+                    - name: ‏‫الأسئلة المتداولة حول Dynamics 365 Commerce ‏SDK عبر الإنترنت
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: تصحيح أفضل الممارسات لتطوير Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
             - name: Retail SDK
               items:
+                - name: ترحيل إلى Commerce SDK
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: بنية Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: إعداد مسار بناء لـ SDK للتعبئة المستقلة
@@ -2672,7 +2674,7 @@
                   href: dev-itpro/commerce-runtime-overview.md
                 - name: خدمات CRT
                   href: dev-itpro/crt-services.md
-                - name: نمط ملحقCRT
+                - name: نمط ملحق CRT
                   href: dev-itpro/commerce-runtime-extensibility.md
                 - name: إدارة الأسرار لقنوات Retail
                   href: dev-itpro/manage-secrets.md

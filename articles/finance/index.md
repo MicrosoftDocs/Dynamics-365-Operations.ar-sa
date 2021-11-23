@@ -2,7 +2,7 @@
 title: الصفحة الرئيسية للمالية
 description: يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات الإدارة المالية في Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 08/18/2021
+ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394529"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753695"
 ---
 # <a name="finance-home-page"></a>الصفحة الرئيسية للمالية
 
@@ -41,12 +41,10 @@ ms.locfileid: "7394529"
         - [محاسبة التكاليف](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [إدارة المصروفات](/dynamics365/project-operations/prod-exp/expense-management)
         - [إعداد التقارير المالية](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [الأصول الثابتة](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [دفتر الأستاذ العام وإعداد التقارير المالية](general-ledger/general-ledger.md) 
-        - [إدارة المشاريع ومحاسبتها](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [القطاع العام](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -66,11 +64,19 @@ ms.locfileid: "7394529"
 
 ### <a name="countryregion-functionality"></a>وظيفة البلد/المنطقة
 
-تؤثر لوائح البلد/المنطقة في إعداد الضرائب وجوانب أخرى في الإدارة المالية. ارجع إلى قسم [ميزات الترجمة والميزات التنظيمية‬](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) للاطلاع على محتوى تعليماتنا للتعرف إلى الوظيفة الخاصة بالبلد/المنطقة.
+تؤثر لوائح البلد/المنطقة في إعداد الضرائب وجوانب أخرى في الإدارة المالية. للتعرف على الوظائف الخاصة بالبلد/المنطقة، راجع [ميزات الترجمة والميزات التنظيمية](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
 
 ### <a name="additional-content"></a>محتوى إضافي
 
-تغطي وظيفة إدارة سلسلة التوريد أجزاء من عملية الشراء إلى الدفع التي تتضمن الطلب وإرسال الأمر والاستلام والفوترة والدفع مقابل البضائع والخدمات التي تشتريها مؤسستك. لمزيد من المعلومات حول قدرات إدارة عمليات الشراء والفواتير والمخزون والتصنيع، يمكنك مراجعة [الصفحة الرئيسية لـ Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
+تغطي وظيفة Supply Chain Management أجزاء من عملية الشراء إلى الدفع التي تشمل:
+
+   - تقديم الطلب
+   - الطلبات 
+   - الاستلام
+   - الفوترة
+   - دفع ثمن السلع والخدمات التي تشتريها مؤسستك 
+    
+للاطلاع على معلومات حول إمكانات إدارة عمليات الشراء والمخزون والتصنيع، راجع [الصفحة الرئيسية لـ Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
 ## <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
 

@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: تعديل قيم تكلفة المخزون الفعلي
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: ‏تقرير تخزين قيمة المخزون
+                - name: تقارير قيمة المخزون
                   href: cost-management/inventory-value-report-storage.md
+                - name: أمثلة ومنطق ‏‫تقرير قيمة المخزون‬
+                  href: cost-management/inventory-value-report-examples.md
                 - name: تخزين تقرير تقادم المخزون
                   href: cost-management/inventory-aging-report-storage.md
                 - name: أمثلة ومنطق ‏‫تقرير تقادم المخزون‬
@@ -1673,6 +1675,8 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: الجدولة مع تحديد الموارد بالاستناد إلى الإمكانية
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: التخطيط المستند إلى الأولوية
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: علامات المخزون مع تحسين التخطيط
                   href: master-planning/planning-optimization/marking.md
                 - name: التخطيط بين الشركات الشقيقة
@@ -1719,6 +1723,8 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: استيفاء المخزون الاحتياطي للأصناف
                   href: master-planning/safety-stock-replenishment.md
+                - name: استخدام دفتر يومية المخزون الاحتياطي لتحديث الحد الأدنى للتغطية للأصناف
+                  href: master-planning/safety-stock-journal.md
                 - name: التأخيرات
                   href: master-planning/delays.md
                 - name: إلغاء وظيفة تخطيط رئيسية
@@ -2351,6 +2357,8 @@
               href: production-control/unified-job-ids.md
             - name: استدعاء تدفقات أتمتة العمليات لإنشاء أوامر الجودة
               href: production-control/process-automation-quality-orders.md
+            - name: التكامل مع أنظمة تنفيذ التصنيع التابعة لجهات خارجية
+              href: production-control/mes-integration.md
             - name: التصنيع المنفصل
               items:
                 - name: الاحتفاظ بالبيانات الرئيسية للإنتاج
@@ -2649,6 +2657,8 @@
                   href: production-control/production-floor-execution-use.md
                 - name: تنميط واجهة تنفيذ صالة الإنتاج
                   href: production-control/production-floor-execution-styles.md
+                - name: تخصيص واجهة تنفيذ صالة الإنتاج‬ واستخدامها
+                  href: production-control/production-floor-execution-customize.md
         - name: إدارة الخصومات
           items:
             - name: نظرة عامة على الوحدة النمطية لإدارة الخصومات
@@ -3747,7 +3757,7 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: ‏‫إدارة المستودعات‬
               items:
-                - name: Warehouse Mobile App
+                - name: تطبيق Warehouse Mobile
                   items:
                     - name: ربط الثقة لمسار الشهادة التي لم يتم العثور عليها عند اعداد اتصال التطبيق
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
