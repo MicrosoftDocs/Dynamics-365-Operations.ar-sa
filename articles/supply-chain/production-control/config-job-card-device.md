@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576942"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777730"
 ---
 # <a name="configure-job-card-for-devices"></a>تكوين بطاقة وظيفة للأجهزة
 
@@ -34,19 +34,19 @@ ms.locfileid: "7576942"
 
 لجعل هذه الميزة متوفرة، يمكنك تمكين الميزات التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (بالترتيب):
 
-1. لوحة الترخيص للإبلاغ عند الانتهاء والمضافة إلى ‏‫جهاز بطاقة الوظيفة‬
+1. لوحة ترخيص للإبلاغ عن انتهاء إضافتها إلى جهاز بطاقة العمل (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
 1. تمكين إنشاء رقم لوحة الترخيص عند الإبلاغ عن الانتهاء في ‏‫جهاز بطاقة الوظيفة‬ بشكل تلقائي.
 
 ### <a name="print-label"></a>طباعة بطاقة
 
 لجعل هذه الميزة متوفرة، يمكنك تمكين الميزات التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (بالترتيب):
 
-1. لوحة الترخيص للإبلاغ عند الانتهاء والمضافة إلى ‏‫جهاز بطاقة الوظيفة‬
+1. لوحة ترخيص للإبلاغ عن انتهاء إضافتها إلى جهاز بطاقة العمل (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
 1. طباعة التسمية من جهاز بطاقة الوظيفة
 
 ### <a name="allow-locking-of-touch-screen"></a>السماح بتأمين شاشة اللمس
 
-لجعل هذه الميزة متوفرة، يمكنك تمكين الميزة التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. إذا كنت ترغب في استخدام هذه الميزة، تأكد من تشغيل الميزة التالي في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - ميزة قفل جهاز بطاقة العمل ومحطة بطاقة العمل بحيث يمكن تنظيفهما.
 

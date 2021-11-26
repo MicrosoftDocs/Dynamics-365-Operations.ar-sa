@@ -2,7 +2,7 @@
 title: وحدة Iframe
 description: يتناول هذا الموضوع الوحدة iframe ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767280"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754004"
 ---
 # <a name="iframe-module"></a>وحدة Iframe
 
@@ -66,10 +66,13 @@ ms.locfileid: "6767280"
 1. قم بتعيين الخصائص الأخرى، مثل **العنوان** و **الارتفاع**، حسب الحاجة.
 1. حدد **حفظ**، وحدد **إنهاء التحرير** لإيداع الصفحة، ثم حدد **نشر** لنشرها.
 1. انتقل إلى صفحة التسويق على موقعك. يجب أن ترى أن الفيديو معروضًا في وحدة iframe.
- 
+
+> [!NOTE]
+> نظرًا لأن وحدة iframe تستضيف محتوى خارجيًا، يجب على مؤلفي الموقع التأكد من أن المحتوى المستضاف في وحدة iframe لا ينتهك سياسات تقييد المحتوى في السوق المعنية. إذا كان هناك انتهاك للمحتوى على صفحة تستخدم وحدة iframe، فيمكن لمؤلف الموقع إزالة وحدة iframe عن طريق فتح الصفحة في Site Builder، وتحديد **إزالة الوحدة** في فتحة وحدة iframe، ثم حفظ الصفحة وإعادة نشرها.
+
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
+[نظرة عامة على مكتبة الوحدات](starter-kit-overview.md)
 
 [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md)
 

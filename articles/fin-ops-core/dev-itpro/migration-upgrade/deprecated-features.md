@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745166"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753016"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
 
@@ -84,7 +84,7 @@ ms.locfileid: "6745166"
 | **خيارات النشر**              | الكل |
 | **الحالة**                         | ميزة مهملة: بحلول 1 أكتوبر 2020، سنتوقف عن دعم الأسلوب **setUtcString()**. يتعين على المطورين استخدام الأسلوب **setUtcDateTime()** بدلاً منه. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>تقرير القائمة السوداء‬ (IT) – مرجع الميزة‬ IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>تقرير قائمة الحظر (IT) – مرجع الميزة‬ IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

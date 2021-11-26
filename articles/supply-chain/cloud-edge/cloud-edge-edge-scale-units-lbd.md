@@ -1,5 +1,5 @@
 ---
-title: انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD (الإصدار الأولي)
+title: انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD
 description: يشرح هذا الموضوع كيفيه توفير وحدات مقياس الحافة المحلية باستخدام الاجهزه والتوزيع المخصص الذي يستند إلى بيانات العمل المحلية (LBD).
 author: cabeln
 ms.date: 04/22/2021
@@ -9,24 +9,21 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ebbdaab9d6f040497d3158db2712e102b6e9aa8
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: f1ab0a2c289f48dd8bfb7529f0dcc694a97f18ea
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678971"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729065"
 ---
-# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd-preview"></a>انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD (الإصدار الأولي)
+# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)] <!--KFM: Until 11/1/2021 -->
 
 تعمل وحدات مقياس الحافة علي تشغيل دور مهم في المخطط المختلط الموزع لـ supply chain management. في المخطط المختلط ، يمكنك توزيع أحمال الابعاد بين Supply Chain Management ووحدات المقياس الاضافيه في السحابة أو علي الحافة.
 
 يمكن نشر وحدات مقياس الحافة بواسطة إنشاء بيئة بيانات عمل محليه (LBD) [علي بيئة محليه](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md)ثم تكوينها لتعمل كوحدة قياس في المخطط المختلط الموزع لـ supply chain management. ويتم تحقيق ذلك عن طريق اقران بيئة LBD الداخلية ببيئة Supply Chain Management في السحابة ، التي تم تكوينها لتعمل كلوحه وصل.  
-
-وحدات مقياس الحافة قيد المعاينة حاليا. ولذلك ، يمكنك استخدام بيئة من هذا النوع فقط وفقا [لشروط المعاينة](https://aka.ms/scmcnepreviewterms).
 
 يصف هذا الموضوع كيفيه اعداد بيئة LBD الداخلية كوحدة مقياس حافه ثم ربطها بأحدي الموزعات.
 
@@ -36,11 +33,9 @@ ms.locfileid: "7678971"
 
 1. **تمكين فتحه LBD في مشروع LBD الخاص بك في Microsoft Dynamics Lifecycle Services (LCS)**
 
-    اثناء المعاينة ، LBD الحافة التي تستهدف وحدات مقياس الحافة عملاء LBD الموجودة. سيتم توفير فتحه بيئة الاختبار المعزولة لتحديد صلاحيات LBD الاضافيه 60 يومًا في مواقف محدده للعميل فقط.
-
 1. **يستخدم في اعداد بيئة لبد ونشرها مع قاعده بيانات *فارغه*.**
 
-    استخدم LCS لنشر بيئة LBD بأحدث طبولوجيا وقاعده بيانات فارغه. لمزيد من المعلومات ، راجع [اعداد بيئة LBD ونشرها باستخدام مقطع قاعده بيانات فارغ](#set-up-deploy) لاحقا في هذا الموضوع. يجب استخدام إصدار 10.0.19 من Supply Chain Management مع النظام الأساسي 43 أو اعلي عبر بيئات الوصل ووحده المقياس.
+    استخدم LCS لنشر بيئة LBD بأحدث طبولوجيا وقاعده بيانات فارغه. لمزيد من المعلومات ، راجع [اعداد بيئة LBD ونشرها باستخدام مقطع قاعده بيانات فارغ](#set-up-deploy) لاحقا في هذا الموضوع. يجب عليك استخدام Supply Chain Management الإصدار 10.0.21 أو إصدارًا أحدث عبر بيئات وحدة القياس والمركز.
 
 1. **تحميل الحزم الهدف إلى أصول LBD في المشروع في LCS.**
 
@@ -60,7 +55,7 @@ ms.locfileid: "7678971"
 
 تعمل هذه الخطوة علي إنشاء بيئة LBD وظيفية. ومع ذلك ، لا تكون البيئة بالضرورة لديها نفس إصدارات التطبيق والنظام الأساسي كبيئة الموزع. بالاضافه إلى ذلك ، فان هذه التخصيصات لا تزال مفقوده ، ولم يتم تمكينها بعد للعمل كوحدة قياس.
 
-1. اتبع الإرشادات في [إعداد البيئات المحلية ونشرها (تحديث Platform update 41 وتحديث لاحق)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). يجب استخدام إصدار 10.0.19 من Supply Chain Management مع النظام الأساسي 43 أو اعلي عبر بيئات الوصل ووحده المقياس
+1. اتبع الإرشادات في [إعداد البيئات المحلية ونشرها (تحديث Platform update 41 وتحديث لاحق)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). يجب عليك استخدام Supply Chain Management الإصدار 10.0.21 أو إصدارًا أحدث عبر بيئات وحدة القياس والمركز. بالإضافة إلى ذلك ، يجب عليك استخدام الإصدار 2.12.0 أو أحدث من البرامج النصية للبنية التحتية. 
 
     > [!IMPORTANT]
     > أقرا باقي هذا القسم **قبل** إكمال الخطوات الواردة في هذا الموضوع.
@@ -75,9 +70,50 @@ ms.locfileid: "7678971"
     > سيقوم هذا البرنامج النصي بازاله اي تكوين غير مطلوب لنشر وحدات مقياس الحافة.
 
 1. قم باعداد قاعده بيانات تحتوي علي بيانات فارغه ، كما هو موضح في [تكوين قواعد البيانات](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb). استخدم ملف data.bak فارغا لهذه الخطوة.
-1. اعداد البرنامج النصي الخاص بما قبل النشر. للحصول على مزيد من المعلومات، راجع [البرامج النصية لما قبل النشر وما بعد النشر للوكيل المحلي](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
+1. بعد إكمال خطوة [تكوين قواعد البيانات](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb)، قم بتشغيل البرنامج النصي التالي لتكوين قاعدة بيانات Scale Unit Alm Orchestrator.
 
-    1. قم بنسخ المحتويات من المجلد **ScaleUnit** في **البرامج النصية للبنية الاساسيه** إلى مجلد **البرامج النصية** في مشاركه مخزن ملفات الوكيل التي تم اعدادها في البيئة. المسار النموذجي هو \\\\lbdiscsi01\\agent\\Scripts.
+    > [!NOTE]
+    > لا تقم بتكوين قاعدة بيانات Financial Reporting أثناء خطوة [تكوين قواعد البيانات](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb).
+
+    ```powershell
+    .\Initialize-Database.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -ComponentName EdgeScaleUnit
+    ```
+
+    يقوم البرنامج النصي Initialize-Database.ps1 بتنفيذ الإجراءات التالية:
+
+    1. قم بإنشاء قاعدة بيانات فارغة تسمى **ScaleUnitAlmDb**.
+    2. قم بتعيين المستخدمين لأدوار قاعدة البيانات ، بناءً على الجدول التالي.
+
+        | المستخدم            | النوع | دور قاعدة البيانات |
+        |-----------------|------|---------------|
+        | svc-LocalAgent$ | gMSA | db\_owner     |
+
+1. واصل اتباع الإرشادات في [إعداد البيئات المحلية ونشرها (تحديث Platform update 41 وتحديث لاحق)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
+1. بعد إكمال خطوة [تكوين AD FS](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb)، اتبع الخطوات التالية:
+
+    1. أنشئ تطبيقًا جديدًا لخدمات اتحاد الدليل النشط (AD FS) والذي سيمكن خدمة Alm Orchestration من التواصل مع خادم كائن التطبيق (AOS).
+
+        ```powershell
+        # Host URL is your DNS record\host name for accessing the AOS
+        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
+        ```
+
+    1. أنشئ تطبيق Azure Active Directory (Azure AD) جديدًا سيُمكّن خدمة Alm Orchestration من التواصل مع خدمة إدارة وحدة القياس.
+
+        ```powershell
+        # Example .\Create-SumAADApplication.ps1 -ConfigurationFilePath ..\ConfigTemplate.xml -TenantId '6240a19e-86f1-41af-91ab-dbe29dbcfb95' -ApplicationDisplayName 'EdgeAgent-SUMCommunication-EN01'
+        .\Create-SumAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                       -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                       -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+        ```
+
+1. واصل اتباع الإرشادات في [إعداد البيئات المحلية ونشرها (تحديث Platform update 41 وتحديث لاحق)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). عندما يتعين عليك إدخال التكوين للوكيل المحلي ، تأكد من تمكين ميزات وحدة مقياس الحافة وتوفير جميع المعلمات المطلوبة.
+
+    ![تمكين ميزات Edge Scale Unit.](media/EnableEdgeScaleUnitFeatures.png "تمكين ميزات Edge Scale Unit.")
+
+1. قبل نشر بيئتك من LCS، قم بإعداد البرنامج النصي للنشر المسبق. للحصول على مزيد من المعلومات، راجع [البرامج النصية لما قبل النشر وما بعد النشر للوكيل المحلي](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
+
+    1. قم بنسخ برنامج نصي Configure-CloudAndEdge.ps1 من المجلد **ScaleUnit** في **البرامج النصية للبنية الاساسيه** إلى مجلد **البرامج النصية** في مشاركه مخزن ملفات الوكيل التي تم اعدادها في البيئة. المسار النموذجي هو \\\\lbdiscsi01\\agent\\Scripts.
     2. قم بإنشاء البرنامج النصي **PreDeployment.ps1** الذي سيستدعي البرامج النصية باستخدام المعلمات المطلوبة. يجب وضع البرنامج النصي للنشر المسبق في مجلد **البرامج النصية** في مشاركه مخزن ملفات العميل. والا ، فلا يمكن تشغيله. المسار النموذجي هو \\\\lbdiscsi01\\agent\\Scripts\\PreDeployment.ps1.
 
         ستشبه محتويات البرنامج النصي PreDeployment.ps1 المثال التالي.
@@ -86,7 +122,7 @@ ms.locfileid: "7678971"
         $agentShare = '\\lbdiscsi01\agent'
         
         Write-Output "AgentShare is set to $agentShare" 
-        & $agentShare\Scripts\Configure-CloudandEdge.ps1 -AgentShare $agentShare -InstanceId '@A' -DatabaseServer 'lbdsqla01.contoso.com' -DatabaseName 'AXDB'
+        . $PSScriptRoot\Configure-CloudAndEdge.ps1 -AgentShare $agentShare -InstanceId '@A'
         ```
 
         > [!NOTE]
@@ -101,6 +137,75 @@ ms.locfileid: "7678971"
         >   - @#
 
 1. نشر البيئة باستخدام أحدث طبولوجيا أساسيه متوفرة.
+1. بعد نشر بيئتك ، اتبع الخطوات التالية:
+
+    1. قم بتشغيل أوامر SQL التالي علي قاعده بيانات الاعمال (AXDB).
+
+        ```sql
+        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
+        delete from NumberSequenceTable
+        delete from NumberSequenceReference
+        delete from NumberSequenceScope
+        delete from FeatureManagementMetadata
+        delete from FeatureManagementState
+        delete from SysFeatureStateV0
+        ```
+
+    1. قم بزيادة الحد الأقصى لجلسة الدُفعات المتزامنة إلى قيمة تزيد على 4.
+
+        ```sql
+        Update batchserverconfig set maxbatchsessions = '<Replace with number of concurrent batch tasks you want>'
+        ```
+
+    1. التحقق من تمكين تعقب التغييرات علي قاعده بيانات الاعمال (AXDB).
+
+        1. افتح SQL Server Management Studio ‏(SSMS).
+        1. حدد مع الاستمرار (أو انقر بزر الماوس الأيمن فوق) قاعدة بيانات الأعمال الخاصة بك (AXDB)، ثم حدد **خصائص**.
+        1. في النافذة التي تظهر ، حدد **تعقب التغييرات**، ثم قم بتعيين القيم التالية:
+
+            - **تعقب التغييرات:** *صحيح*
+            - **فتره الاستبقاء:** *7*
+            - **وحدات الاستبقاء:** *الأيام*
+            - **التنظيف التلقائي:** *صحيح*
+
+    1. أضف معرف تطبيق AD FS الذي قمت بإنشائه مسبقًا (باستخدام البرنامج النصي Create-ADFSServerApplicationForEdgeScaleUnits.ps1) إلى جدول تطبيقات Azure AD في وحدة القياس الخاصة بك. يمكنك إكمال هذه الخطوة يدويًا من خلال واجهة المستخدم (UI). بدلاً من ذلك ، يمكنك إكماله من خلال قاعدة البيانات باستخدام البرنامج النصي التالي.
+
+        ```sql
+        DECLARE @ALMOrchestratorId NVARCHAR(76) = '<Replace with the ADFS Application ID created in a previous step>';
+
+        IF NOT EXISTS (SELECT TOP 1 1 FROM SysAADClientTable WHERE AADClientId = @ALMOrchestratorId)
+        BEGIN
+            INSERT INTO SysAADClientTable (AADClientId, UserId, Name, ModifiedBy, CreatedBy)
+            VALUES (@ALMOrchestratorId, 'ScaleUnitManagement', 'Scale Unit Management', 'Admin', 'Admin');
+        END
+        ```
+
+## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a>قم بإعداد مخزن مفاتيح Azure وتطبيق Azure AD لتمكين الاتصال بين وحدات القياس
+
+1. بعد نشر بيئتك ، قم بإنشاء تطبيق Azure AD إضافي لتمكين الاتصال الموثوق به بين الموزع ووحدة القياس.
+
+    ```powershell
+    .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                          -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                          -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+    ```
+
+1. بعد إنشاء التطبيق ، يجب عليك إنشاء سر للعميل وحفظ المعلومات في مخزن مفاتيح Azure. بالإضافة إلى ذلك ، يجب منح حق الوصول إلى تطبيق Azure AD الذي تم إنشاؤه ، حتى يتمكن من استرداد الأسرار المخزنة في مخزن المفاتيح. من أجل راحتك ، سيقوم البرنامج النصي التالي تلقائيًا بتنفيذ جميع الإجراءات المطلوبة.
+
+    ```powershell
+    .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                         -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                         -SubscriptionName '<Any subscription within your tenant>' `
+                                         -ResourceGroupName '<Any resource group within your subscription>' `
+                                         -KeyVaultName '<Any key vault within your resource group>' `
+                                         -Location '<Any Azure location where Azure Key Vault is available>' `
+                                         -LCSEnvironmentId '<The LCS environment ID of your deployed scale unit>' `
+    ```
+
+    > [!NOTE]
+    > إذا لم يكن هناك خزنة مفاتيح تحتوي على القيمة المحددة **KeyVaultName** ، يقوم البرنامج النصي بإنشاء واحدة تلقائيًا.
+
+1. أضف معرّف تطبيق Azure AD الذي أنشأته للتو (عند استخدام البرنامج النصي Create-SpokeToHubAADApplication.ps1) إلى جدول تطبيقات Azure AD في المحور الخاص بك. يمكنك إكمال هذه الخطوة يدويًا من خلال واجهة المستخدم (UI).
 
 ## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>تحميل الحزم الهدف إلى أصول LBD في المشروع في LCS
 
@@ -116,122 +221,13 @@ ms.locfileid: "7678971"
 1. قم بخدمه البيئة LBD باستخدام حزمه التطبيق/النظام الأساسي المجمعة التي قمت بتحميلها في الخطوة السابقة.
 1. قم بخدمه البيئة LBD باستخدام الحزمه القابلة للنشر والمخصصة التي قمت بتحميلها في الخطوة السابقة.
 
-    ![تحديد الاحتفاظ > تطبيق التحديثات في LCS.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "تحديد الاحتفاظ > تطبيق التحديثات في LCS")
+    ![تطبيق التحديثات في LCS.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "تطبيق التحديثات في LCS")
 
     ![تحديد حزمه التخصيص الخاصة بك.](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "تحديد حزمه التخصيص الخاصة بك")
 
 ## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a>تعيين وحده مقياس LBD الخاصة بك علي لوحه وصل
 
-بينما لا تزال وحدات مقياس الحافة في حاله المعاينة ، يجب استخدام [أدوات التكوين ونشر وحده القياس](https://github.com/microsoft/SCMScaleUnitDevTools) المتوفرة في GitHub لتعيين وحده مقياس LBD الخاصة بك إلى لوحه وصل. تقوم العملية بتمكين تكوين LBD لتعمل كوحدة مقياس حافه وربطها بلوحه الوصل. وتتشابه العملية مع تكوين بيئة تطوير من المربع الواحد.
-
-1. قم بتنزيل أحدث إصدار من [SCMScaleUnitDevTools](https://github.com/microsoft/SCMScaleUnitDevTools/releases) وفك ضغط محتويات الملف.
-1. قم بإنشاء نسخه من ملف `UserConfig.sample.xml` ثم قم بتسميته `UserConfig.xml`.
-1. قم بإنشاء تطبيق Microsoft Azure Active Directory (Azure AD) في مستاجر Azure AD الخاص بك ، كما هو موضح في [دليل النشر لوحده القياس وأحمال العمليات](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#aad-application-registrations).
-    1. بمجرد إنشاء ، انتقل إلى نموذج التطبيقات Azure AD (SysAADClientTable) علي لوحه الوصل الخاصة بك.
-    1. قم بإنشاء إدخال جديد وقم بتعيين **معرف العميل** إلى المعرف الخاص بالتطبيق الذي قمت بإنشاءه. قم بتعيين **الاسم** إلى *ScaleUnits* و **معرف المستخدم** إلى *المسؤول*.
-
-1. قم بإنشاء تطبيق خدمه الاتحاد الموحد لـ Active directory (AD FS) كما هو موضح في [دليل النشر لوحده القياس وأحمال العمليات](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#adfs-application-registrations).
-    1. بمجرد إنشاء ، انتقل إلى نموذج التطبيقات Azure AD (SysAADClientTable) علي وحدة مقياس الحافة الخاصة بك.
-    1. قم بإنشاء إدخال جديد وقم بتعيين **معرف العميل** إلى المعرف الخاص بالتطبيق الذي قمت بإنشاءه. عيّن **معرف التطبيق** إلى *المسؤول*.
-
-1. قم بتعديل ملف `UserConfig.xml`.
-    1. أسفل قسم `InterAOSAADConfiguration`، ادخل المعلومات من تطبيق Azure AD الذي قمت بإنشاءه سابقا.
-        - في العنصر `AppId`، ادخل معرف التطبيق الخاص بتطبيق Azure.
-        - في العنصر `AppSecret`، ادخل سر التطبيق الخاص بتطبيق Azure.
-        - يجب ان يحتوي العنصر `Authority` علي عنوان URL يحدد تخويل الأمان للمستاجر الخاص بك.
-
-        ```xml
-        <InterAOSAADConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopty56TGUedDTVhtER-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </InterAOSAADConfiguration>
-        ```
-
-    1. أسفل القسم `ScaleUnitConfiguration`، بالنسبة لأول `ScaleUnitInstance` ، قم بتعديل القسم `AuthConfiguration`.
-        - في العنصر `AppId`، ادخل معرف التطبيق الخاص بتطبيق Azure.
-        - في العنصر `AppSecret`، ادخل سر التطبيق الخاص بتطبيق Azure.
-        - يجب ان يحتوي العنصر `Authority` علي عنوان URL يحدد تخويل الأمان للمستاجر الخاص بك.
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopdz.6d3DTVOtf9Lo-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. قم بتعيين القيم التالية لـ `ScaleUnitInstance` نفسه:
-        - في العنصر `Domain`، حدد عنوان URL للوحه الوصل الخاصة بك. على سبيل المثال: `https://cloudhub.sandbox.operations.dynamics.com/`
-        - في العنصر `EnvironmentType`، تاكد من تعيين القيمة `LCSHosted`.
-
-    1. أسفل القسم `ScaleUnitConfiguration`، بالنسبة لثاني `ScaleUnitInstance` ، قم بتعديل القسم `AuthConfiguration`.
-        - في العنصر `AppId`، ادخل معرف التطبيق الخاص بتطبيق AD FS.
-        - في العنصر `AppSecret`، ادخل سر التطبيق الخاص بتطبيق ADFS.
-        - يجب ان يحتوي العنصر `Authority` علي محدد موقع المعلومات الخاص بمثيل AD FS الخاص بك.
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>26b16f25-21d8-4d36-987b-62df292895aa</AppId>
-            <AppSecret>iZFfObgI6lLtY9kEbBjEFV98NqI5_YZ0e5SBcWER</AppSecret>
-            <Authority>https://adfs.contoso.com/adfs</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. قم بتعيين القيم التالية لـ `ScaleUnitInstance` نفسه:
-        - في العنصر `Domain`، حدد عنوان URL لوحدة مقياس الحافة. على سبيل المثال: https://ax.contoso.com/
-        - في العنصر `EnvironmentType`، تاكد من تعيين قيمة LBD.
-        - في العنصر `ScaleUnitId`، ادخل نفس القيمة التي قمت بتحديدها لـ `InstanceId` عند تكوين البرنامج النصي قبل النشر `Configure-CloudandEdge.ps1`.
-
-        > [!NOTE]
-        > إذا لم تستخدم المعرف الافتراضي (@A) ، فتاكد من تحديث ScaleUnitId لكل ConfiguredWorkload تحت قسم أحمال الحدث.
-
-1. افتح PowerShell وانتقل إلى المجلد الذي يحتوي علي الملف `UserConfig.xml`.
-
-1. قم بتشغيل الاداه مع هذا الأمر.
-
-    ```powershell
-    .\CLI.exe
-    ```
-
-    > [!NOTE]
-    > بعد كل اجراء سيتعين عليك بدء تشغيل الاداه مره أخرى.
-
-1. في الاداه ، حدد **2. تحضير البيئات لتثبيت حمل العمل**. بعد ذلك يلزم تشغيل الخطوات التالية:
-    1. حدد **1. تحضير لوحه الوصل**.
-    1. حدد **2. قم باعداد وحده المقياس**.
-
-    > [!NOTE]
-    > إذا لم تقم بتشغيل هذا الأمر من التثبيت النظيف وفشل التثبيت ، فقم بالإجراءات التالية:
-    >
-    > - قم بازاله كافة المجلدات من المجلد `aos-storage` (فيما عدا الخاص ب `GACAssemblies`).
-    > - قم بتشغيل أمر SQL التالي علي قاعده بيانات الاعمال (AXDB):
-    >
-    > ```sql 
-    > delete from storagefoler
-    > ```
-
-1. قم بتشغيل أوامر SQL التالي علي قاعده بيانات الاعمال (AXDB):
-
-    ```sql
-    delete from FEATUREMANAGEMENTMETADATA
-    delete from FEATUREMANAGEMENTSTATE
-    delete from NUMBERSEQUENCESCOPE
-    ```
-
-1. التحقق من تمكين تعقب التغييرات علي قاعده بيانات الاعمال (AXDB)
-    1. بدء تشغيل SQL Server Management Studio (SSMS).
-    1. انقر بزر الماوس الأيمن فوق قاعده بيانات الاعمال الخاصة بك (AXDB) وحدد خصائص.
-    1. في الإطار الذي يتم فتحه ، حدد **تعقب التغيير** وقم باجراء الإعدادات التالية:
-
-        - **تعقب التغييرات:** *صحيح*
-        - **فتره الاستبقاء:** *7*
-        - **وحدات الاستبقاء:** *الأيام*
-        - **التنظيف التلقائي:** *صحيح*
-
-1. في الاداه ، حدد **3. تثبيت أحمال الأحمال**. بعد ذلك يلزم تشغيل الخطوات التالية:
-    1. حدد **1. تثبيت علي لوحه الوصل**.
-    1. حدد **2. قم بالتثبيت علي وحده المقياس**.
+يمكنك تكوين وحدة مقياس الحافة وإدارتها من خلال مدخل إدارة وحدة القياس. لمزيد من المعلومات، راجع [إدارة وحدات القياس وأحمال العمل باستخدام مدخل إدارة وحدة القياس](./cloud-edge-landing-page.md#scale-unit-manager-portal).
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

@@ -1,8 +1,8 @@
 ---
 title: تطوير خطة تتابع
 description: وكلما كبرت مؤسستك، يجب عليك بدء التخطيط لتعاقب الموظفين.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca1d9dda75038d937e2a3dad4582feefa617aac9f7f3f1a75ffd274c69c68ae9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed10813c30b9a49b84a7e8e333fbac3d1e26720a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768205"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731487"
 ---
 # <a name="develop-a-succession-plan"></a>تطوير خطة تتابع
 
@@ -48,7 +48,7 @@ ms.locfileid: "6768205"
 20. في الحقل **الأهمية‬**، حدد خيارًا.
 21. في القائمة، حدد الصف 4.
 22. قم بتحديد خانة الاختيار **اختياري**.
-23. في الحقل "أهمية‬"، حدد خيارًا.
+23. في الحقل **الأهمية‬**، حدد خيارًا.
 24. وسّع علامة التبويب السريعة **التعليم** لعرض أو تحرير الكفاءات التعليمية التي يجب تضمينها في تعيين المهارة.
 25. حدد **التنفيذ**.
 26. حدد **موافق**.

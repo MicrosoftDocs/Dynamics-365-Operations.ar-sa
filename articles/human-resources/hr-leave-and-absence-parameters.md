@@ -1,8 +1,8 @@
 ---
 title: تكوين مُحددات الإجازة والغياب
-description: تتيح تحديد معلمات الموارد البشرية للإجازات والغياب في Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 11/02/2020
+description: يصف هذا الموضوع كيفية تحديد معلمات الموارد البشرية للإجازة والغياب في Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab4b2b3adefa388acfadc77c7b25a6b47d01571f0e58f6ab81101e25d1b548e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d89c4b22d71057fd3b398c91e1fbf04112e4a9
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777949"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728847"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>تكوين مُحددات الإجازة والغياب
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-قبل إعداد خطط الإجازات والإجازات في Dynamics 365 Human Resources، من الأفضل التحقق من الإعدادات لكافة المحددات المتعلقة بالموارد البشرية، بما في ذلك:
+قبل إعداد خطط الإجازات والغياب في Dynamics 365 Human Resources، من المستحسن التحقق من الإعدادات لجميع **معلمات الموارد البشرية** ذات الصلة، بما في ذلك:
 
 - التسلسل الرقمي لطلبات الإجازات
 - إعدادات قانون الأسرة والإجازات الطبية (FMLA)
@@ -74,7 +74,7 @@ ms.locfileid: "6777949"
 
     - حدد **حساب الرصيد** لعرض الأرصدة اعتبارًا من اليوم أو من فترة الاستحقاق. إذا حددت **الرصيد اعتبارًا من اليوم**، فسيعرض الرصيد إجمالي كافة الاستحقاقات والتسويات والطلبات اعتبارًا من اليوم. إذا حدد **الرصيد اعتبارًا من فترة الاستحقاق**، فسيعرض الرصيد إجمالي كافة الاستحقاقات والتسويات والطلبات اعتبارًا من فترة الاستحقاق المحددة بواسطة التكرار في خطة الإجازة. 
 
-    - قم بتعيين وقت البدء للوظيفة الدفعية انتهاء موازنة محولة.  
+    - قم بتعيين **وقت البدء** للوظيفة الدفعية **تحويل انتهاء الصلاحية**.  
     
     - حدد **نعم** لـ **السماح للموظفين بشراء إجازة** و **السماح للموظفين ببيع إجازة**. إذا قمت بتحديد **نعم** لهذه الخيارات، يُمكنك إنشاء سياسات شراء وبيع الإجازة وتمكين الموظفين من إرسال طلبات شراء وبيع الإجازة.
 

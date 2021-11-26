@@ -2,7 +2,7 @@
 title: نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات
 description: تمثل التدرجات الهرمية المؤسسية العلاقات بين المؤسسات التي تتألف منها أعمالك.
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715979"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798336"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات
 
@@ -64,9 +64,19 @@ ms.locfileid: "6715979"
 
 قم بإعداد التدرجات الهرمية للمؤسسات لعرض العمل الخاص بك وإنشاء التقارير الخاصة به من منظورات مختلفة. على سبيل المثال، يمكنك إعداد تدرج هرمي لكيان قانوني للتقارير الضريبية أو القانونية. قم بإعداد تدرج هرمي معتمد على وحدات التشغيل لإنشاء تقارير خاصة بالمعلومات المالية غير المطلوبة قانونيًا، ولكنها مستخدمة من أجل التحكم الداخلي. على سبيل المثال، يمكنك إنشاء تدرج شراء هرمي للتحكم في نهج الشراء والقواعد والعمليات التجارية.
 
+> [!NOTE]
+> بعد إضافة وحدة التشغيل إلى التسلسل الهرمي، لا يمكن حذف وحدة التشغيل. 
+
 يتم تعيين غرض لكل تدرج هرمي. ويحدد الغرض نوع المؤسسات التي يمكن تضمينها في التدرج الهرمي. ويحدد الغرض أيضًا سيناريوهات التطبيق التي يمكن استخدام التدرج الهرمي بها.
 
 يمكن للمؤسسات في تدرج هرمي مشاركة المحددات والسياسات والحركات. يمكن أن تكتسب المؤسسة أو تجاوز المحددات الخاصة بالمؤسسة الأصلية. ومع ذلك، فإن البيانات الرئيسية المشتركة، مثل المنتجات ودفاتر العناوين، تنطبق على المؤسسة بأكملها ولا يمكن تجاوزها عن طريق المؤسسات الفردية. يتطلب إنشاء المؤسسات والتدرجات الهرمية تخطيطًا دقيقًَا. لمزيد من المعلومات، راجع [تخطيط التدرج الهرمي للمؤسسات‬](plan-organizational-hierarchy.md).
+
+## <a name="additional-resources"></a>الموارد الإضافية
+- [تخطيط التدرج الهرمي للمؤسسات](plan-organizational-hierarchy.md)
+- [إنشاء تدرج هرمي لمؤسسة](tasks/create-organization-hierarchy.md)
+- [إنشاء كيان قانوني](tasks/create-legal-entity.md)
+- [إنشاء وحدة تشغيل](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

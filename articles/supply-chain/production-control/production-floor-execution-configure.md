@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647179"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777951"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>تكوين واجهة تنفيذ صالة الإنتاج‬
 
@@ -39,7 +39,7 @@ ms.locfileid: "7647179"
 
 ### <a name="the-production-floor-execution-interface"></a>واجهة تنفيذ صالة الإنتاج
 
-يتم توضيح ذلك في الميزة الرئيسية في هذا الموضوع. إعداد واجهة لتنفيذ صالة الإنتاج‬ إلى النظام. لتمكينها، قم بتشغيل الميزة التالي في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+يتم توضيح ذلك في الميزة الرئيسية في هذا الموضوع. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. إعداد واجهة لتنفيذ صالة الإنتاج‬ إلى النظام. لتمكينها، قم بتشغيل الميزة التالي في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - تنفيذ الارضيه للإنتاج
 
@@ -47,19 +47,19 @@ ms.locfileid: "7647179"
 
 تجعل هذه الميزات وظيفة لوحه الترخيص متاحه لواجهه تنفيذ الإنتاج في حاله الإنتاج. إذا كنت ترغب في استخدامها، شغِّل الميزات التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (بالترتيب التالي):
 
-1. لوحة الترخيص للإبلاغ عند الانتهاء والمضافة إلى ‏‫جهاز بطاقة الوظيفة‬
+1. لوحة ترخيص للإبلاغ عن انتهاء إضافتها إلى جهاز بطاقة العمل (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
 1. تمكين إنشاء رقم لوحة الترخيص عند الإبلاغ عن الانتهاء في ‏‫جهاز بطاقة الوظيفة‬ بشكل تلقائي.
 
 ### <a name="print-labels"></a>طباعة التسميات
 
 تجعل هذه الميزات وظيفة طباعة البطاقات متاحه لواجهه تنفيذ الإنتاج في حاله الإنتاج. إذا كنت ترغب في استخدامها، شغِّل الميزات التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (بالترتيب التالي):
 
-1. لوحة الترخيص للإبلاغ عند الانتهاء والمضافة إلى ‏‫جهاز بطاقة الوظيفة‬
+1. لوحة ترخيص للإبلاغ عن انتهاء إضافتها إلى جهاز بطاقة العمل (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
 1. طباعة التسمية من جهاز بطاقة الوظيفة
 
 ### <a name="allow-locking-the-touch-screen"></a>السماح بتأمين شاشة اللمس
 
-تضيف هذه الميزة زرا إلى واجهه تنفيذ صالة الإنتاج التي تمكن العاملين من سانيتيزي الشاشة باللمس. إذا كنت ترغب في استخدامها، قم بتشغيل الميزة التالي في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. تضيف هذه الميزة زرا إلى واجهه تنفيذ صالة الإنتاج التي تمكن العاملين من سانيتيزي الشاشة باللمس. إذا كنت ترغب في استخدام هذه الميزة، تأكد من تشغيل الميزة التالي في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - ميزة قفل جهاز بطاقة العمل ومحطة بطاقة العمل بحيث يمكن تنظيفهما.
 

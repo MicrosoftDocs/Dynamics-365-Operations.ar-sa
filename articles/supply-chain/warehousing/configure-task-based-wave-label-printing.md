@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735886"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777855"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>جدولة طباعة بطاقات الموجة أثناء الموجة
 
@@ -33,7 +33,7 @@ ms.locfileid: "6735886"
 لاستخدام الميزات الموضحة في هذا الموضوع، يجب تشغيلها للنظام الخاص بك. استخدم مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزات في الأمر التالي:
 
 1. *طباعة تسمية الموجة* – هذه الميزة مطلوبة لتمكين أسلوب معالجة الموجة لطباعة بطاقة الموجة.
-1. *حظر العمل على مستوى المؤسسة‬* – هذه الميزة مطلوبة لكل من التكوين اليدوي والتلقائي لإنشاء العمل المجدول.
+1. *حظر العمل على مستوى المؤسسة‬* – هذه الميزة مطلوبة لكل من التكوين اليدوي والتلقائي لإنشاء العمل المجدول. (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى.)
 1. *طباعة تسمية الموجة المستندة إلى المهام* – هذه الميزة مطلوبة لتقسيم طباعة تسمية الموجة إلى نطاق حركة منفصل.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>تمكين الطريقة الجديدة لخطوة الموجة يدويًا

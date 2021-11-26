@@ -1,8 +1,8 @@
 ---
 title: طرق الدفع
 description: يجب أن يتم تكوين كل نوع دفع يقبله بائع التجزئة عند إعداد النظام. تصف هذه المقالة أنواع الدفع التي يمكنك إعدادها وتصف عملية إعدادها.
-author: rubencdelgado
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c174dd136cecedc9b23bdaa778885f75e51c9aa556a9e2709bc7da171faa8617
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713956"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779560"
 ---
 # <a name="payment-methods"></a>طرق الدفع
 
@@ -47,5 +47,10 @@ ms.locfileid: "6713956"
 3. ‏‫قم بإعداد طريقة دفع المتجر. اربط طرق الدفع بكل متجر، ثم قم بإدخال الإعدادات الخاصة بالمتجر لكل طريقة دفع.
 4. ‏‫قم بإعداد طرق الدفع للمتاجر. وللحصول على أيٍّ من طرق الدفع بالبطاقة التي يقبلها المتجر، استكمل إعداد البطاقة.‬
 
+## <a name="handle-change-tendering-for-payment-methods"></a>التعامل مع مناقصة التغيير لطرق الدفع
+
+لا تدعم بعض طرق الدفع مناقصة التغيير المباشر إذا كانت الأموال مستحقة للعملاء أثناء معاملات نقاط البيع. يمكن استخدام طريقتي الدفع **نقدًا** و **العملة** فقط في تغيير العطاء. 
+
+للتعامل مع الحالات التي يلزم فيها تغيير العطاء أثناء المعاملة، ولكن طريقة الدفع لا تدعمها، يمكنك تحديد طريقة الدفع **تغيير العطاء**. عندما تقوم بإعداد طرق دفع المتجر للمتجر، حدد طريقة الدفع المراد استخدامها. بعد ذلك، في قسم **التغيير**، في حقل **تغيير العطاء**، أدخل خيار دفع تغيير العطاء. على سبيل المثال، يمكنك إدخال **1** للإشارة إلى أنه يمكن استخدام النقد كخيار دفع تغيير العطاء.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

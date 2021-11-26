@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577830"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778049"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>معالجة المستودع للحمل الوارد لأوامر الشراء
 
@@ -267,7 +267,7 @@ ms.locfileid: "7577830"
 
 1. افتح مساحة عمل **إدارة الميزات**. (للحصول على تفاصيل كاملة حول كيفية العثور على مساحة العمل هذه واستخدامها، راجع [نظرة عامة حول إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)).
 
-1. قم بتشغيل الميزة _إقران حركات مخزون أمر الشراء مع الحمل_، المدرجة بالطريقة التالية:
+1. تأكد من تشغيل ميزة _ربط حركات مخزون أمر الشراء بالحمل_. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، تعد هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى. ومع ذلك، لا تزال الميزة مدرجة في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) بالطريقة التالية:
 
     - **الوحدة:** _إدارة المستودعات_
     - **اسم الميزة:** _إقران حركات مخزون أمر الشراء مع الحمل_

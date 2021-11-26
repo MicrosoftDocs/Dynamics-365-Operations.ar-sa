@@ -2,7 +2,7 @@
 title: استكشاف مشاكل إعداد Finance Insights وإصلاحها
 description: يسرد هذا الموضوع المشاكل التي قد تحدث عند استخدام قدرات Finance Insights. كما يشرح كيفية إصلاح هذه المشاكل.
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512880"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752606"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>استكشاف مشاكل إعداد Finance Insights وإصلاحها
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 يسرد هذا الموضوع المشاكل التي قد تحدث عند استخدام قدرات Finance Insights. كما يشرح كيفية إصلاح هذه المشاكل.
 
@@ -53,6 +54,12 @@ ms.locfileid: "7512880"
 
 1. إذا كنت تستخدم إصدارًا أوليًا من Finance Insights، فعليك إزالة المشروع DI المرتبط بالقالب **نتائج معلومات الدفع الخاصة بالعميل (CDS لـ Fin وOps)‬**.
 2. اتبع الخطوات في [إنشاء مشروع تكامل البيانات](create-data-integrate-project.md). استخدم القالب **نتائج معلومات الدفع الخاصة بالعميل (CDS إلى Fin and Ops 10.0.17 والإصدارات اللاحقة)**.
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>العَرَض: عندما أحاول فتح AI Builder باستخدام الارتباطات الموجودة في صفحة إعداد توقعات دفع العميل، فلماذا أتلقى رسالة الخطأ التالية: "عذرًا، حدث انقطاع في الاتصال"؟
+
+### <a name="resolution"></a>القرار
+
+يجب أن يكون لدى مستخدمي Dynamics 365 Finance حساب مستخدم Microsoft Power Apps للبيئة، ويجب أن يكون لحساب المستخدم دور مخصص النظام. يمكن لمسؤول نظام Microsoft Power Apps إنشاء حساب المستخدم وتعيين الدور. يمكنك بعد ذلك الانتقال إلى <https://make.preview.powerapps.com/>، وتسجيل الدخول باستخدام حساب المستخدم هذا، وجرب الروابط مرة أخرى.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>العرض: لماذا لا تظهر علامة التبويب التوقع النقدي في مساحة عمل "تقدير التدفقات النقدية‬" أي بيانات؟
 

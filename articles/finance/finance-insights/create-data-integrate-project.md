@@ -1,8 +1,8 @@
 ---
 title: إنشاء مشروع تكامل البيانات
-description: يشرح هذا الموضوع كيفية إنشاء مشروع موحد البيانات.
+description: يشرح هذا الموضوع كيفية إنشاء مشروع تكامل البيانات.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,25 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b08af906c18f6c0790ca56c69a833733f48cd88c
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386352"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752654"
 ---
-# <a name="create-a-data-integrator-project"></a>إنشاء مشروع تكامل البيانات
+# <a name="create-a-data-integration-project"></a>إنشاء مشروع تكامل البيانات
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-يشرح هذا الموضوع كيفية إنشاء مشروع موحد البيانات.
+يشرح هذا الموضوع كيفية إنشاء مشروع تكامل البيانات.
 
 1. تسجيل الدخول إلى Microsoft Dynamics 365 Finance.
 2. انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد **كيانات البيانات**. انتظر حتى يتم تحديث كافة كيانات البيانات قبل الانتقال إلى الخطوة التالية.
 3. افتح مدخل [Power Apps ](https://make.powerapps.com/)، واتبع الخطوات التالية:
 
     1. حدد البيئة المناسبة.
-    2. في جزء التنقل الأيسر، حدد **البيانات \> الاتصالات**.
+    2. في جزء التنقل الأيسر، حدد **Dataverse \> الاتصالات**.
     3. الاتصال بالمثيلات المناسبة للعناصر التالية:
 
         - Dynamics 365
@@ -41,7 +42,7 @@ ms.locfileid: "7386352"
 
 4. افتح البيئات [Power Apps ](https://admin.powerapps.com/environments)، واتبع الخطوات التالية:
 
-    1. حدد **موحد البيانات**.
+    1. حدد **تكامل البيانات**.
     2. حدد **مجموعات الاتصال**.
     3. حدد **مجموعة اتصال جديدة**.
     4. أدخل اسمًا للاتصال.
@@ -57,8 +58,7 @@ ms.locfileid: "7386352"
 
     1. إنشاء مشاريع تكامل البيانات للقوالب التالية باستخدام مجموعة الاتصال التي قمت بإنشائها:
 
-        - نتائج معلومات الدفع الخاصة بالعميل (CDS لـ Fin وOps)
-            - إذا كنت تستخدم الإصدار 10.0.17 أو إصدار أحدث، ستحتاج إلى استخدام القالب المسمى، نتيجة الرؤى لمدفوعات العميل (CDS إلى Fin and Ops 10.0.17+).
+        - نتيجة رؤى الدفع للعملاء (CDS إلى Fin and Ops ‏10.0.17+)
         - نتائج السلسلة الزمنية للتدفق النقدي (CDS لـ Fin وOps)
         - نتائج السلسلة الزمنية للموازنة (CDS لـ Fin وOps)
 

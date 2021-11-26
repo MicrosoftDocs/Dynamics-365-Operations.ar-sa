@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579870"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778247"
 ---
 # <a name="work-split"></a>تقسيم العمل
 
@@ -33,7 +33,7 @@ ms.locfileid: "7579870"
 
 قبل ان تتمكن من استخدام وظيفة تقسيم العمل ، يجب تشغيل ميزه وميزه المتطلبات الاساسيه الخاصة بها في النظام الخاص بك. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزات وتشغيلها إذا كانت مطلوبة.
 
-أولا ، قم بتشغيل ميزه *حظر العمل المطلوب علي مستوي المؤسسة* إذا لم يتم تشغيلها بالفعل. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+أولا ، قم بتشغيل ميزه *حظر العمل المطلوب علي مستوي المؤسسة* إذا لم يتم تشغيلها بالفعل. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، تعد هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى. ومع ذلك، لا تزال الميزة مدرجة في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) بالطريقة التالية:
 
 - **الوحدة:** *إدارة المستودعات*
 - **اسم الميزة:** *حظر العمل على مستوى المؤسسة*

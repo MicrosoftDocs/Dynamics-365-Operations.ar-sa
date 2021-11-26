@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746809"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777805"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>إنشاء أوامر تحويل من تطبيق المستودع
 
@@ -36,7 +36,7 @@ ms.locfileid: "6746809"
 1. قم بعد ذلك بتمكين ميزة *إنشاء أوامر التحويل من تطبيق المستودع*، والتي تكون مدرجه علي النحو التالي:
     - **الوحدة** - إدارة المستودعات
     - **اسم الميزة** - إنشاء ومعالجة أوامر التحويل من تطبيق المستودع
-1. لتنفيذ معالجه الشحنات الصادرة تلقائيا، يجب أيضا تمكين ميزة [تاكيد الشحنات الصادرة من الوظائف الدفعيه](confirm-outbound-shipments-from-batch-jobs.md). يتم إدراج هذه الميزة على أنها:
+1. لتنفيذ معالجه الشحنات الصادرة تلقائيا، يجب أيضا تمكين ميزة [تاكيد الشحنات الصادرة من الوظائف الدفعيه](confirm-outbound-shipments-from-batch-jobs.md). اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
     - **الوحدة** - إدارة المستودعات
     - **اسم الميزة** - تأكيد الشحنات الصادر من الوظائف الدُفعية
 

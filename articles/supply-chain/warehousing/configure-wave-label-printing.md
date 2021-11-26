@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6b75dcb7d56648f3be291cb1c09ec57a53477ec0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344164"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778073"
 ---
 # <a name="wave-label-printing"></a>طباعة تسمية الموجة
 
@@ -53,7 +53,7 @@ ms.locfileid: "7344164"
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>تشغيل ميزة طباعة بطاقة تسمية الموجة
 
-قبل أن تتمكن من استخدام ميزة *طباعة بطاقة تسمية الموجة*، يجب تشغيلها في النظام الخاص بك. بإمكان المسؤولين استخدام مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. هناك، يتم إدراج الميزة بالطريقة التالية:
+اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، تعد هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى. ومع ذلك، لا تزال الميزة مدرجة في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) بالطريقة التالية:
 
 - **الوحدة:** *إدارة المستودعات*
 - **اسم الميزة:** *طباعه تسمية الموجة*

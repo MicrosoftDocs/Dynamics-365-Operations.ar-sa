@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579414"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778097"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات
 
@@ -188,7 +188,7 @@ ms.locfileid: "7579414"
 
 ### <a name="enable-the-strict-validation-option"></a>تمكين خيار التحقق من الصحة الصارم
 
-قبل أن تتمكن من استخدام خيار التحقق من الصحة الصارم، يجب تمكينه في النظام. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
+اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
 
 - **الوحدة النمطية** - *إدارة معلومات المنتج*
 - **اسم الميزة** - *التحقق من الصحة الصارم من كميات الأوامر الافتراضية*

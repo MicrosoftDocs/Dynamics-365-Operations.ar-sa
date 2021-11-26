@@ -2,7 +2,7 @@
 title: تخصيص تجربة المستخدم
 description: يشرح هذا الموضوع كيف يمكنك تخصيص التطبيق.
 author: jasongre
-ms.date: 09/27/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581054"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777975"
 ---
 # <a name="personalize-the-user-experience"></a>تخصيص تجربة المستخدم
 
@@ -219,6 +219,9 @@ ms.locfileid: "7581054"
 ### <a name="export-and-import-views-or-personalizations"></a>تصدير طرق التخصيص والعروض واستيرادها
 
 هناك طريقه أخرى لمشاركه التخصيص عن طريق التصدير والاستيراد. يمكن للمستخدمين الفرديين، أو المسؤول الذي يعمل بالنيابة عنهم، استخدام هذه الطريقة لتصدير عمليات التخصيص أو طرق العرض الخاصة بهم، ثم إعطاء الملف الذي تم تصديره إلى المستخدمين الآخرين لاستيراده. وبدلا من ذلك، يمكن للمستخدمين منح التخصيصات المصدرة لمستخدم لديه امتيازات المسؤول، ويمكن لهذا المستخدم بعد ذلك استخدام صفحة إدارة **التخصيص** لتطبيق ملف التخصيص علي العديد من المستخدمين في نفس الوقت.
+
+> [!IMPORTANT]
+> نظرًا لاستمرار التخصيصات عبر التحديثات، فإن إعادة استيراد جميع التخصيصات بعد تحديث الخدمة أو في أي وقت آخر غير ضرورية ومحبطة بشدة.   
 
 #### <a name="export"></a>تصدير
 

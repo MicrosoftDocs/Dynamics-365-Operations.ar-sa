@@ -1,8 +1,8 @@
 ---
 title: العاملون بدون توظيف
-description: يظهر العمال الذين ليس لديهم عمل مستقبلي أو نشط أو تاريخي مع مؤسستك في نموذج العمال بدون عمل.
-author: andreabichsel
-ms.date: 04/06/2021
+description: يظهر العمال الذين ليس لديهم عمل مستقبلي أو نشط أو تاريخي مع مؤسستك في صفحة العمال بدون توظيف.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: ''
 ms.prod: ''
 ms.technology: ''
@@ -10,23 +10,23 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45841c35780960f524cc232dad16f94dbc8ec1c2df75fa2a5c2520e5522d4e3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d282c0fac00d6bc410717dd156aef9ffce352c6d
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724954"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771280"
 ---
 # <a name="workers-without-employment"></a>العاملون بدون توظيف
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يظهر العمال الذين ليس لديهم عمل مستقبلي أو نشط أو تاريخي مع مؤسستك في نموذج **العمال بدون عمل**. يمكن أن يظهر العمال بهذه الحالة عند استيراد عمال ليس لديهم سجل توظيف ، أو عند حذف توظيف عامل من خلال **العمال > سجل التوظيف**.
+يظهر العمال الذين ليس لديهم عمل مستقبلي أو نشط أو تاريخي مع مؤسستك في صفحة **عمال بدون عمل**. يمكن أن يظهر العمال من هذا النوع عند استيراد عمال ليس لديهم سجل توظيف، أو عندما تحذف توظيف عامل عبر **العمال \> تاريخ التوظيف**.
 
-بشكل افتراضي ، يتوفر نموذج **العمال بدون عمل** للأدوار التالية.
+بشكل افتراضي، تتوفر صفحة **العمال بدون عمل** للأدوار التالية:
 
 - مساعد الموارد البشرية
 - مدير الموارد البشرية

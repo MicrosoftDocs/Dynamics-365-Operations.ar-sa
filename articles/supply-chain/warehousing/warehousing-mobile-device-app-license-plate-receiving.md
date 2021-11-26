@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576030"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777558"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة
 
@@ -77,7 +77,7 @@ ms.locfileid: "7576030"
 - **عرض ملخص مفصل** – أثناء استلام لوحة الترخيص، سيرى العاملون صفحة إضافية تعرض معلومات ASN الكاملة.
 - **تخطي الملخص** – لن يتمكن العاملون من رؤية معلومات ASN الكاملة. ولن يتمكن عمال المستودعات أيضًا من تعيين رمز الإرجاع أو إضافة استثناءات أثناء عملية الاستلام.
 
-لجعل هذه الوظيفة متوفرة على نظامك، يجب عليك تشغيل الميزة *التحكم في عرض صفحة ملخص الاستلام على الأجهزة المحمولة* في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+لإتاحة هذه الوظيفة على نظامك، يجب تشغيل ميزة *التحكم في عرض صفحة ملخص الاستلام على الأجهزة المحمولة* في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>منع استخدام لوحات الترخيص المشحونة في أمر التحويل في المستودعات غير المستودع الوجهة.
 

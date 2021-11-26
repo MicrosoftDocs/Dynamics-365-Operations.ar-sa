@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569277"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778221"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>إبلاغ عن الانتهاء من جهاز بطاقة الوظيفة
 
@@ -218,7 +218,7 @@ ms.locfileid: "7569277"
 
 لاستخدام الميزات الموضحة التي تم وصفها هذا القسم، يجب استخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزات التالية (بهذا الترتيب):
 
-1. لوحة الترخيص للإبلاغ عند الانتهاء والمضافة إلى ‏‫جهاز بطاقة الوظيفة‬
+1. لوحة ترخيص للإبلاغ عن انتهاء إضافتها إلى جهاز بطاقة العمل (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
 1. تمكين إنشاء رقم لوحة الترخيص عند الإبلاغ عن الانتهاء في ‏‫جهاز بطاقة الوظيفة‬ بشكل تلقائي.
 1. طباعة التسمية من جهاز بطاقة الوظيفة
 

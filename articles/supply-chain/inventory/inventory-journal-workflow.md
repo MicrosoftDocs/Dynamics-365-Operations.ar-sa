@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d1bd846dae767b47280310fc8d9ca5ee82337ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568845"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778295"
 ---
 # <a name="inventory-journal-approval-workflows"></a>عمليات سير عمل الموافقة على دفتر يومية المخزون
 
@@ -31,7 +31,7 @@ ms.locfileid: "7568845"
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>ميزة تشغيل سير عمل اعتماد دفتر يومية المخزون
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
 
 - **الوحدة النمطية:** *إدارة المخزون والمستودعات*
 - **اسم الميزة:** *الموافقة علي دفتر يوميه المخزون الموافقة علي سير العمل*

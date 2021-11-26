@@ -1,8 +1,8 @@
 ---
-title: تمكين مقترحات الموازنة
+title: تمكين مقترح الموازنة
 description: يوضح هذا الموضوع كيفية تشغيل ميزة مقترح الموازنة في Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ab65d1b0e366bfe6bdb07688f89d440662165063
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386476"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752702"
 ---
-# <a name="enable-budget-proposals"></a>تمكين مقترحات الموازنة
+# <a name="enable-budget-proposal"></a>تمكين مقترح الموازنة
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفية تشغيل ميزة مقترح الموازنة في Finance Insights.
 
-1. استخدم المعلومات من صفحة البيئة في Microsoft Dynamics Lifecycle Services (LCS) للاتصال بالمثيل الأساسي لـ Azure SQL لتلك البيئة. قم بتشغيل الأمر Transact-SQL (T-SQL) لتشغيل إصدارات التقييم لبيئة وضع الحماية. (قد تضطر إلى تشغيل الوصول إلى عنوان IP الخاص بك في LCS قبل أن تتمكن من الاتصال بخادم كائن التطبيق عن بُعد \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > تجاوز هذه الخطوة إذا كنت تستخدم الإصدار 10.0.20 أو أحدث، أو إذا كنت تستخدم عملية نشر Service Fabric. يجب أن يكون فريق Finance insights قد قام بالفعل بتشغيل إصدار التقييم. إذا لم تر الميزة في مساحة عمل **إدارة الميزات**، أو إذا واجهتك مشكلات عند محاولة تشغيلها، تواصل على <fiap@microsoft.com>
-
-2. افتح مساحة العمل **إدارة الميزات**، واتبع الخطوات التالية:
+1. افتح مساحة العمل **إدارة الميزات**، واتبع الخطوات التالية:
 
     1. حدد **التحقق من وجود تحديثات**.
-    2. ابحث عن **مقترح الموازنة** وقم بتشغيل تلك الميزة.
+    2. في علامة التبويب **الكل**، ابحث عن **مقترح الموازنة**. إذا لم تجد الميزة، فابحث عن **(الإصدار الأولي) مقترح الموازنة**. 
+    3. قم بتشغيل الميزة.
 
-3. انتقل إلى **إعداد الموازنة \> الإعداد \> إعداد الموازنة الأساسية \> مقترح الموازنة (معاينة)**، وحدد **تمكين الميزة**.
+2. انتقل إلى **إعداد الموازنة \> الإعداد \> إعداد الموازنة الأساسية \> مقترح الموازنة**، وحدد **تمكين الميزة**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

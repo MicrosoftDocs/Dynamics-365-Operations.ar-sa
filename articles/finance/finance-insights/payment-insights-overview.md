@@ -2,7 +2,7 @@
 title: توقعات دفع العميل
 description: يصف هذا الموضوع قدرة توقع الدفع والتي يمكن أن تساعد في فهم ممارسات الدفع النموذجية للعملاء الفرديين بشكل أفضل. كذلك، يمكن أن تساعد هذه الميزة في تحديد الحالات التي تجعلك تبدء عمليات الجمع قبل البدء من القيام بذلك.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 21a773b37020aeff969469e29be68e7f7ef44d93
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386651"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752726"
 ---
 # <a name="customer-payment-predictions"></a>توقعات دفع العميل
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 يصف هذا الموضوع قدرة توقع الدفع والتي يمكن أن تساعد في فهم ممارسات الدفع النموذجية للعملاء الفرديين بشكل أفضل. كذلك، يمكن أن تساعد هذه الميزة في تحديد الحالات التي تجعلك تبدء عمليات الجمع قبل البدء من القيام بذلك.
 
@@ -67,11 +68,5 @@ ms.locfileid: "7386651"
 ## <a name="methodology"></a>منهجية
 
 وفي الماضي، كان من الصعب عادة تطوير حل الذكاء الاصطناعي (AI) ونشره. تطلبت العملية فريقًا يضم علماء البيانات وخبراء الموضوع (SME) والمهندسين، الذين يعملون لفترة طويلة لصياغة وتطوير ونشر وصيانة حل AI صالح للاستعمال. تجعل توقعات دفع العميل من السهل نشر حل AI واستخدامه في Microsoft Dynamics 365 Finance. تُعد Microsoft حلول AI المعبأة مسبقًا المبنية أعلى Microsoft AI Builder. لذلك، يمكن للمستخدمين نشر حل AI بنقرة واحدة بالماوس للاستفادة من فوائد التوقعات الذكية. إذا لم تكن راضيًا عن دقة التنبؤات، فيمكن للمستخدم القوي (مرة أخر، بنقرة واحدة بالماوس) الدخول في تجربة توسيع AI Builder، ثم تحديد أو إلغاء تحديد الحقول المستخدمة لإنشاء التنبؤات. عندما تكون مستعدًا، يمكنك "التدرب" على النموذج ونشر التغييرات. سيتم انتقاء النموذج الذي تم التدرب عليه حديثًا تلقائيًا لإنشاء توقعات في Dynamics 365 Finance.
-
-## <a name="release-details"></a>تفاصيل الإصدار
-
-تتوفر معاينة عامة لـ Finance Insights لتجربة عمليات النشر في الولايات المتحدة الأميركية وأوروبا والمملكة المتحدة. تُعد Microsoft دعمًا إضافيًا بشكل متزايد لمناطق إضافية.
-
-يجب أن يتم تشغيل ميزات المعاينة العامة ويجب تشغيلها فقط في بيئات الحماية لتحديد صلاحيات المستوى 2. قد لا يمكن ترحيل نماذج الإعداد وAI التي يتم إنشاؤها في بيئة الحماية إلى بيئة التشغيل. لمزيد من المعلومات، راجع [شروط الاستخدام الإضافية لمعاينات Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd1906200038c27e63f9434bba27e7146f4c80c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575598"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778121"
 ---
 # <a name="monitor-a-master-planning-run"></a>مراقبة تشغيل التخطيط الرئيسي
 
@@ -33,7 +33,7 @@ ms.locfileid: "7575598"
 لاستخدام هذه الوظيفة، اتبع الخطوات التالية:
 
 1. في مساحة عمل **إدارة الميزات**، في علامة التبويب **جديد**، حدد **مرئيات تقدم التخطيط الرئيسي** في القائمة. إذا لم تظهر الميزة على علامة التبويب **جديد**، فانظر إلى علامتي التبويب **غير ممكن** و **الكل**.
-1. حدد **تمكين الآن**. بدلاً من ذلك، حدد **جدولة**، ثم حدد الوقت الذي تريد فيه تشغيل الميزة.
+1. حدد **تمكين الآن**. بدلاً من ذلك، حدد **جدولة**، ثم حدد الوقت الذي تريد فيه تشغيل الميزة. (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
 
 يمكن لصفحة **عرض تقدم التخطيط الرئيسي** عرض كل من مهام التخطيط التاريخية ووظائف التخطيط النشطة. 
 
