@@ -58,21 +58,17 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/finance/toc.json
                 - name: متطلبات النظام لعمليات النشر المحلي
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: شراء Finance + Operations (on-premises)
+                - name: شراء Finance + Operations ‏(on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين التخزين في المستودع لعمليات النشر المحلي
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: تطبيقات Finance and Operations في فرنسا
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: الجديد أو المتغير
               items:
                 - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: الجديد أو التغييرات في Finance
+                - name: الجديد أو المتغير في Finance
                   items:
-                    - name: الجديد أو التغييرات في صفحة Finance الرئيسية‬
+                    - name: الجديد أو المتغير في صفحة Finance الرئيسية‬
                       href: get-started/whats-new-home-page.md
                     - name: Finance 10.0.23
                       href: get-started/whats-new-changed-10-0-23.md
@@ -496,10 +492,12 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: إعداد وإنشاء معلومات تقادم الحسابات المدينة
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: لقطة تأخر العميل
+            - name: لقطة تقادم العميل
               href: accounts-receivable/customer-aging-snapshot.md
             - name: تقرير تقادم العميل
               href: accounts-receivable/customer-aging.md
+            - name: تخزين بيانات تقادم العميل‬
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: إنشاء دفتر يومية شطب لعميل
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: إدارة الإشعارات المتقدمة
@@ -1472,10 +1470,14 @@
                           items:
                             - name: إقرار ضريبة القيمة المضافة
                               href: localizations/emea-aut-vat-declaration-austria.md
-                        - name: التقارير المالية
+                        - name: إعداد التقارير في فرنسا
                           items:
                             - name: إقرار ضريبة القيمة المضافة
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: إعداد التقارير في ألمانيا
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: إعداد التقارير في هولندا
                           items:
                             - name: إقرار ضريبة القيمة المضافة
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: تسويات الإهلاك لعمليات الاستحواذ الإضافية في السنة الثانية
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: إقرار ضريبة القيمة المضافة
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: الإرسال الإلكتروني لإقرار ضريبة القيمة المضافة (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لألمانيا
                   href: localizations/emea-deu-intrastat.md
-                - name: إقرار ضريبة القيمة المضافة لألمانيا
+                - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-de-vat-declaration.md
                 - name: تقرير الفواتير الإلكترونية للعميل
                   href: localizations/emea-deu-e-invoices.md
@@ -2214,13 +2218,13 @@
                   href: localizations/india.md
                 - name: نطاق الترجمات الهندية
                   href: localizations/apac-ind-scope.md
-                - name: الجديد أو التغييرات‬ في الترجمة الخاصة بالهند
+                - name: الجديد أو المتغير في الترجمة الخاصة بالهند
                   items:
-                    - name: الجديد أو التغييرات في 10.0.20 - 10.0.22
+                    - name: الجديد أو المتغير في 10.0.20 - 10.0.22
                       href: localizations/ind-news-letter-10-0-20-22.md
-                    - name: الجديد أو التغييرات في 10.0.15 - 10.0.19
+                    - name: الجديد أو المتغير في 10.0.15 - 10.0.19
                       href: localizations/ind-news-letter-10-0-15-19.md
-                    - name: الجديد أو التغييرات في 10.0.14
+                    - name: الجديد أو المتغير في 10.0.14
                       href: localizations/apac-ind-news-letter-10-0-14.md
                     - name: الجديد أو المتغير‬ في 10.0.13
                       href: localizations/ind-news-letter-10-0-13.md

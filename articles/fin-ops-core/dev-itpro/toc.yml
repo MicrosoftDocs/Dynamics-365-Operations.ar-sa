@@ -458,9 +458,19 @@
                   href: help/language-locale.md
                 - name: التوسيع والتخصيص والتعاون في التعليمات
                   href: help/contributor-guide.md
+            - name: اعتبارات النشر
+              items:
+                - name: خيارات نشر السحابة ذات سيادة والسحابة المحلية لكل من Dynamics 365 Finance وDynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance وSupply Chain Management في سحابة القطاع الحكومي (GCC) الأمريكي
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance وSupply Chain Management المشغلة بواسطة 21Vianet في الصين
+                  href: deployment/china-local-deployment.md
+                - name: تطبيقات Finance and Operations في فرنسا
+                  href: deployment/france-local-deployment.md
         - name: التطوير والتخصيص
           items:
-            - name: الصفحة الرئيسية للتطوير والتخصيص
+            - name: تطوير الصفحة الرئيسية وتخصيصها
               href: dev-tools/developer-home-page.md
             - name: مكدس التطبيق وبنية الخادم
               href: dev-tools/application-stack-server-architecture.md
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: الترقية إلى نموذج الطرف ودفتر العناوين العمومي
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: عرض بيانات الطرف
+                      href: data-entities/dual-write/view-party.md
                     - name: تكامل الملاحظات
                       href: data-entities/dual-write/notes-integration.md
                     - name: مرجع التعيين
@@ -1580,15 +1592,15 @@
               items:
                 - name: نظرة عامة على معالجة الدُفعة
                   href: sysadmin/batch-processing-overview.md
-                - name: معالجة الدُفعة وخوادم الدُفعات
+                - name: المعالجة الدُفعية‬ وخوادم الدُفعات
                   href: sysadmin/batch-server-overview.md
                 - name: إنشاء وظائف دفعية
                   href: sysadmin/tasks/create-batch-job.md
-                - name: تمكين عمليات إعادة المحاولة التلقائية في مهام الدفعة
+                - name: تمكين إعادة المحاولات الدُفعية
                   href: sysadmin/retryable-batch.md
-                - name: نسخ وظيفة دُفعة
+                - name: نسخ وظيفة دفعية
                   href: sysadmin/copy-batch-job.md
-                - name: الفترات النشطة للدُفعات
+                - name: فترات الدُفعة النشطة
                   href: sysadmin/activeperiod.md
                 - name: دعم التوقيت الصيفي لفترات الدُفعة النشطة
                   href: sysadmin/batch-active-period-dst.md
@@ -1600,7 +1612,7 @@
                   href: sysadmin/enhanced-forms.md
                 - name: مسح المحفوظات الدُفعية
                   href: sysadmin/batch-history-cleanup.md
-                - name: إلغاء تنفيذ وظيفة دُفعية قبل اكتمالها
+                - name: إلغاء تنفيذ وظيفة دفعية قبل اكتمالها
                   href: sysadmin/batch-abort.md
                 - name: واجهه برمجة تطبيقات OData الدُفعية
                   href: sysadmin/batch-odata-api.md

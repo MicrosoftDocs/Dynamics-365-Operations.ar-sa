@@ -74,10 +74,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: إرشادات تطبيق Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: تطبيقات Finance and Operations في فرنسا
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: الحصول على الدعم
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: الترقية ودعم N-1
@@ -1272,8 +1268,10 @@
               href: store-performance-information.md
             - name: ‏‫إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM)‬
               href: set-up-rfm-analysis.md
-            - name: إعداد Microsoft Clarity في Dynamics 36 Commerce
+            - name: إعداد Microsoft Clarity في Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: تحليلات Commerce (إصدار أولي)
+              href: commerce-analytics.md
         - name: العولمة
           items:
             - name: نظرة عامة على التكامل المالي لقناة Commerce
@@ -1412,11 +1410,15 @@
                   href: localizations/rus-fpi-sample.md
                 - name: إدارة معلومات العميل لروسيا
                   href: localizations/rus-customer-information.md
+            - name: المملكة العربية السعودية
+              items:
+                - name: إنشاء شفرات الاستجابة السريعة وطباعتها على الإيصالات للمملكة العربية السعودية
+                  href: localizations/emea-sau-qr-code.md
             - name: السويد
               items:
                 - name: وظيفة آلة تسجيل المدفوعات النقدية
                   href: localizations/emea-swe-cash-registers.md
-                - name: نموذج تكامل وحدة التحكم للسويد
+                - name: عينة تكامل وحدة التحكم للسويد
                   href: localizations/emea-swe-fi-sample.md
                 - name: عينة لتكامل نقطة بيع Retail مع وحدات التحكم (قديمة)
                   href: localizations/retail-sdk-control-unit-sample.md
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: تصحيح أفضل الممارسات لتطوير Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: اختبار صفحات موقع التجارة الإلكترونية لحالات تسرب الذاكرة
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Retail SDK
               items:
                 - name: ترحيل إلى Commerce SDK

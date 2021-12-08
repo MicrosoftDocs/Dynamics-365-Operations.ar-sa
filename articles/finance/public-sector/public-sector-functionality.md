@@ -1,7 +1,7 @@
 ---
 title: الصفحة الرئيسية للقطاع العام
-description: يدعم Dynamics 365 Finance عمليات الأعمال المشتركة للقطاع العام. وتشمل هذه العمليات إعداد الموازنة، والشراء، والحسابات الدائنة، ومهام الحسابات المدينة.
-author: ShylaThompson
+description: يدعم Dynamics 365 Finance عمليات الأعمال المشتركة للقطاع العام. وتشمل هذه العمليات مهام إعداد الموازنة والشراء والحسابات الدائنة والحسابات المدينة.‬
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d9331b8a8af74f86febff1d72538efa24aa6978f41a4c6b21375d1d6c856267
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f59522ab857445d69012f4cfdfade47c40189266
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748899"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817731"
 ---
 # <a name="public-sector-home-page"></a>الصفحة الرئيسية للقطاع العام
 
@@ -43,7 +43,7 @@ ms.locfileid: "6748899"
 
 - [خطة لوظائف القطاع العام](plan-public-sector-functionality.md)
 - [نظرة عامة حول الحسابات الدائنة في القطاع العام](accounts-payable-public-sector.md)
-- [نظرة عامة حول الحسابات المدينة في القطاع العام](accounts-receivable-public-sector.md)
+- [نظرة عامة حول الحسابات الدائنة في القطاع العام](accounts-receivable-public-sector.md)
 - [نظرة عامة حول إعداد الموازنة في القطاع العام](budgeting-public-sector.md)
 - [الأصول الثابتة في القطاع العام](fixed-asset-public-sector.md)
 - [محاسبة القطاع العام في فرنسا](../localizations/emea-fra-public-sector-accounting.md)

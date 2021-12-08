@@ -58,14 +58,10 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: متطلبات النظام لعمليات النشر المحلي
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: شراء Finance + Operations (on-premises)
+                - name: شراء Finance + Operations ‏(on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين التخزين في المستودع لعمليات النشر المحلي
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تطبيقات Finance and Operations في فرنسا
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: الجديد أو المتغير
               items:
                 - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
@@ -2147,9 +2143,9 @@
               items:
                 - name: إعداد معلومات موارد المشروع
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: إرسال موازنات المشاريع والموافقة عليها
+                - name: إنشاء سير عمل موازنة مشروع وإرساله
                   href: procurement/tasks/submit-approve-project-budget.md
-                - name: إرسال مراجعات موازنات المشاريع والموافقة عليها
+                - name: إرسال مراجعات موازنة المشروع والموافقة عليها
                   href: procurement/tasks/submit-approve-project-budget-revision.md
             - name: الأسئلة المتداولة حول التدبير
               href: procurement/procurement-faq.md
