@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752606"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827043"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>استكشاف مشاكل إعداد Finance Insights وإصلاحها
 
@@ -70,3 +70,26 @@ ms.locfileid: "7752606"
 عليك أولاً إعداد وتمكين تقدير التدفقات النقدية وحسابات السيولة. لمزيد من المعلومات، راجع [‏‫تقدير التدفقات النقدية](../cash-bank-management/cash-flow-forecasting.md). إذا تم إكمال هذا الإعداد، ولكنك لم تتمكن من رؤية النتائج التي تتوقعها، فراجع [استكشاف أخطاء إعداد تقدير التدفقات النقدية وإصلاحها](../cash-bank-management/cash-flow-forecasting-tsg.md) لمزيد من المعلومات.
 
 بعد ذلك، تأكد من تمكين ميزة تقديرات التدفقات النقدية‬ في Finance insights (**إدارة النقد والبنوك‬ \> الإعداد \> Finance Insights \> تقديرات التدفقات النقدية**) ومن استكمال تدريب نموذج AI model. إذا لم يتم إكمال التدريب، فحدد **التنبؤ الآن** لبدء عملية التدريب على النماذج.
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>العَرَضْ‬: لماذا لا يكون الزر تثبيت وظيفة إضافية مرئيًا في Microsoft Dynamics Lifecycle Services؟
+
+### <a name="resolution"></a>القرار
+
+أولاً، تحقق من أنه يتم تعيين الدور **مدير البيئة** أو **مالك المشروع** إلى المستخدم في الحقل **دور أمان المشروع** في Microsoft Dynamics Lifecycle Services (LCS). يتطلب تثبيت الوظائف الإضافية الجديدة وجود دور واحد من أدوار أمان المشروع هذه.
+
+إذا تم تعيين دور أمان المشروع الصحيح إليك، فقد تحتاج إلى تحديث نافذة المستعرض الخاصة بك لرؤية الزر **تثبيت وظيفة إضافية جديدة**.
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>العَرَضْ‬: لا يبدو أنه قد تم تثبيت الوظيفة الإضافية في Finance insights. ما سبب ذلك؟
+
+### <a name="resolution"></a>القرار
+
+يجب إكمال الخطوات التالية.
+
+- تحقق من أنه لديك حق الوصول بصفة **مسؤول النظام** و **مخصص النظام** في مركز إدارة Power Portal.
+- تحقق من أنه يتم تطبيق Dynamics 365 Finance أو الترخيص المكافئ على المستخدم الذي يقوم بتثبيت الوظيفة الإضافية
+- تحقق من أنه يتم تسجيل تطبيق Azure AD التالي في Azure AD: 
+
+  | استمارة التقديم                  | معرف التطبيق           |
+  | ---------------------------- | ---------------- |
+  | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+  

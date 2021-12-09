@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567213"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860603"
 ---
 # <a name="define-coverage-rules-for-items"></a>تحديد قواعد تغطية للأصناف
 
@@ -113,6 +113,7 @@ ms.locfileid: "7567213"
 1. في الحقل **وقت الشراء**‬، أدخل "5".
 1. حدد **حفظ**.
 
-
+> [!NOTE]
+> بالنسبة للأصناف المصنعة، يتم استخدام **وقت الإنتاج** في حالة عدم وجود مسار للصنف. إذا تم ربط مسار نشط بالصنف، سيقوم التخطيط الرئيسي بجدولة الأمر وحساب تواريخه وفقًا لأوقات المسار والقدرة الخاصة بالموارد (إن أمكن).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

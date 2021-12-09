@@ -2,7 +2,7 @@
 title: تكوين Finance Insights
 description: يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights.
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752968"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827018"
 ---
 # <a name="configuration-for-finance-insights"></a>تكوين Finance Insights
 
@@ -43,14 +43,34 @@ ms.locfileid: "7752968"
 
 2. إذا كنت تقوم بتكوين Finance Insights في بيئة وضع حماية، فقد تضطر إلى نسخ بيانات الإنتاج إلى تلك البيئة قبل أن تنجح التوقعات. يستخدم نموذج التنبؤ سنوات متعددة من البيانات لبناء التوقعات. لا تحتوي بيانات العرض التوضيحي لشركة Contoso على بيانات تاريخية كافية لتدريب نموذج التنبؤ بشكل مناسب. 
 
+## <a name="configure-your-azure-ad-tenant"></a>تكوين المستأجر Azure AD الخاص بك
+
+يجب تكوين Azure Active Directory (Azure AD) بحيث يمكن استخدام من خلال Dataverse وتطبيقات Microsoft Power Platform. يتطلب هذا التكوين إما أن يتم تعيين الدور **مالك المشروع** أو الدور **مدير البيئة** إلى المستخدم في الحقل **دور أمان المشروع** في LCS.
+
+تحقق من اكتمال الإعداد التالي:
+
+- لديك حق الوصول بصفة **مسؤول النظام** و **مخصص النظام** في مركز إدارة Power Portal.
+- يتم تطبيق Dynamics 365 Finance أو الترخيص المكافئ على المستخدم الذي يقوم بتثبيت الوظيفة الإضافية في Finance insights.
+
+يتم تسجيل تطبيقات Azure AD التالية في Azure AD.
+
+|  استمارة التقديم                             | معرف التطبيق                               |
+|------------------------------------------|--------------------------------------|
+| Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>تكوين Dataverse
 
 استخدم هذه الخطوات لتكوين Dataverse لـ Finance Insights.
 
 - في LCS، افتح صفحة البيئة، وتحقق من أن قسم **تكامل Power Platform** تم إعداده بالفعل.
 
-    - في حالة إعداده بالفعل، يجب سرد اسم بيئة Dataverse المرتبط ببيئة Finance.
-    - في حالة عدم إعداده بعد، حدد **إعداد**. قد يستغرق إعداد بيئة Dataverse ما يصل إلى ساعة واحدة. عند اكتمال الإعداد بنجاح، يجب إدراج اسم بيئة Dataverse المرتبط ببيئة Finance.
+    - في حالة إعداد Dataverse بالفعل، يجب إدراج اسم بيئة Dataverse المرتبط ببيئة Finance.
+    - في حالة عدم إعداد Dataverse بعد، حدد **إعداد**. يمكن أن يستغرق إعداد بيئة Dataverse ما يصل إلى ساعة واحدة. عندما يتم اكتمال الإعداد بنجاح، يجب إدراج اسم بيئة Dataverse المرتبط ببيئة Finance.
+    - في حالة إعداد هذا التكامل مع بيئة Microsoft Power Platform موجودة، اتصل بالمسؤول الخاص بك للتأكد من أن البيئة المرتبطة ليست في حالة التعطيل.
+
+        وللحصول على المزيد من المعلومات، راجع [تمكين تكامل Power Platform](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md). 
+
+        للوصول إلى موقع المسؤول الخاص بـ Microsoft Power Platform، انتقل إلى <https://admin.powerplatform.microsoft.com/environments>.
 
 ## <a name="configure-the-finance-insights-add-in"></a>تكوين ‏الوظيفة الإضافية Finance insights
 

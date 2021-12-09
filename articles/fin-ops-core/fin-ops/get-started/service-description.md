@@ -2,19 +2,19 @@
 title: وصف الخدمة لتطبيقات Finance and Operations
 description: يوفر هذا الموضوع وصف الخدمة لتطبيقات Finance and Operations.
 author: tomhig
-ms.date: 09/29/2021
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581806"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825390"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>وصف الخدمة لتطبيقات Finance and Operations
 
@@ -50,7 +50,7 @@ ms.locfileid: "7581806"
 
 ### <a name="customer-activities"></a>أنشطة العملاء
 
-يعمل العملاء مع الشريك الخاص بهم و[Microsoft FastTrack](/dynamics365/fasttrack/) باتباع إطار عمل [Success by Design](/dynamics365/fasttrack/success-by-design-overview) واستخدام الأدوات وقوالب أفضل الممارسات المتوفرة في [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) لتنفيذ الحل الخاص بهم. تتضمن الأنشطة العامة ما يلي:
+يعمل العملاء مع الشريك الخاص بهم [Microsoft FastTrack](/dynamics365/fasttrack/) باتباع [Dynamics 365 Implementation Guide](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide)، وإطار العمل [Success by Design](/dynamics365/fasttrack/success-by-design-overview)، والأدوات وقوالب أفضل الممارسات المتوفرة في [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) لتنفيذ الحل الخاص بهم. تتضمن الأنشطة العامة ما يلي:
 
 - هويه المستخدم وإدارة الأمان
 - تحديد العمليات التجارية وتطويرها وتشغيلها
@@ -66,7 +66,7 @@ ms.locfileid: "7581806"
 **إدارة البنية التحتية**
 - الأمان والعزل
 - أنظمه التشغيل والمحاكاة الظاهرية
-- الملقمات ووحدات التخزين والشبكات
+- الملقمات وموقع التخزين والشبكات
 - قدرة مركز البيانات، والشبكات، والتبريد
 
 **إدارة النظام الأساسي للتطبيق**
