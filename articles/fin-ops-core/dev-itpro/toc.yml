@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
-                - name: الجديد أو التغييرات‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
+                - name: الجديد أو المتغير في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.23
+                - name: تحديثات النظام الأساسي للإصدار 10.0.24 (فبراير 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.23 (يناير 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.22 (نوفمبر 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.21 (أكتوبر 2021)
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: نظرة عامة على Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: تكوين التصدير إلى Azure Data Lake
+            - name: نظرة عامة حول التصدير إلى Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: تثبيت الوظيفة الإضافية التصدير إلى Azure Data Lake
               href: data-entities/configure-export-data-lake.md
             - name: تطبيقات Finance and Operations في Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
@@ -406,6 +406,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: إعادة استخدام مثيل AD FS نفسه لبيئات متعددة
                       href: deployment/onprem-reuseadfs.md
+                    - name: ترقيه مثيل SQL Server لبيئات Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: وكيل محلي
                   items:
                     - name: توافق AD FS Microsoft 365
@@ -708,7 +710,7 @@
                       href: extensibility/customize-model-elements-extensions.md
                     - name: تخصيص من خلال الملحق وتراكب الطبقات
                       href: extensibility/customization-overlayering-extensions.md
-                - name: الميزات الجديدة
+                - name: الجديد
                   items:
                     - name: الجديد أو المتغير‬ في قابلية التوسعة
                       href: extensibility/extensibility-new.md
@@ -1012,7 +1014,7 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: تكامل Microsoft Power Platform
           items:
-            - name: تكامل Microsoft Power Platform مع Finance and Operations
+            - name: نظرة عامة
               href: power-platform/overview.md
             - name: تمكين تكامل Power Platform
               href: power-platform/enable-power-platform-integration.md

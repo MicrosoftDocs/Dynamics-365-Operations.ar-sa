@@ -2,7 +2,7 @@
 title: إعداد إقرار الإيرادات
 description: يوضح هذا الموضوع خيارات إعداد إقرار الإيرادات وعواقبها.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675168"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867210"
 ---
 # <a name="revenue-recognition-setup"></a>إعداد إقرار الإيرادات
 [!include [banner](../includes/banner.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "7675168"
 
 يحدث السيناريو الثاني عند إنشاء دفتر يومية بعد حدوث إعادة توزيع. تحدث إعادة توزيع عند إضافة بند أمر مبيعات إلى أمر مبيعات تمت فوترته سابقًا، أو عند إنشاء أمر مبيعات جديد يتضمن بندًا يشكل جزءًا من العقد الأصلي. في حالة ترحيل فاتورة قبل إضافة بند أمر المبيعات الجديد، يجب إنشاء إدخال محاسبة تصحيح لفاتورة العميل المرحلة.
 
-يتم إعداد دفتر اليومية في صفحة **أسماء دفاتر اليومية** (**إقرار الإيرادات \> إعداد \> أسماء دفاتر اليومية**). يجب تعيين نوع دفتر اليومية على **إقرار الإيرادات**. يتيح لك دفتر يومية إقرار الإيرادات تحديد طبقة الترحيل المطلوب الترحيل إليها.
+يتم إعداد دفتر اليومية في صفحة **أسماء دفاتر اليومية** (**إقرار الإيرادات \> إعداد \> أسماء دفاتر اليومية**). يجب تعيين نوع دفتر اليومية على **إقرار الإيرادات**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>معلمات إقرار الإيرادات
 

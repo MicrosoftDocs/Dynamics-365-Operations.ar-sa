@@ -90,9 +90,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: المزايا الجديدة أو المتغيرة في Commerce
                   items:
-                    - name: الجديد أو التغييرات في صفحة Commerce الرئيسية
+                    - name: الجديد أو المتغير في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: Commerce 10.0.24 (فبراير 2022)
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: Commerce 10.0.23 (يناير 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (نوفمبر 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,6 +546,8 @@
                       href: duplicate-payment-protection.md
                     - name: نظرة عامة على مدفوعات القناة متعددة الاتجاهات
                       href: omni-channel-payments.md
+                    - name: طرق دفع متعددة متوفرة للانتقاء في المتجر
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: مدفوعات أمر Commerce في القناة متعددة الاتجاهات
                       href: dev-itpro/commerce-payments.md
                     - name: أرشفة بيانات حركات بطاقات الائتمان
@@ -814,6 +818,10 @@
           items:
             - name: إدارة العملاء في المتاجر
               href: customer-mgmt-stores.md
+            - name: وضع إنشاء عميل غير متزامن
+              href: async-customer-mode.md
+            - name: تحويل العملاء غير المتزامنين إلى عملاء متزامنين
+              href: convert-async-to-sync.md
             - name: قاعدة العملاء
               items:
                 - name: نظرة عامة حول قاعدة العملاء
@@ -900,7 +908,7 @@
                   href: teams-integration-faq.md
         - name: إدارة موقع التجارة الإلكترونية الخاص بك
           items:
-            - name: نظره عامه حول موقع التجارة الإلكترونية
+            - name: نظرة عامة حول موقع التجارة الإلكترونية
               href: online-store-overview.md
             - name: إنشاء موقع تجارة إلكترونية
               items:
@@ -1320,17 +1328,19 @@
                   href: localizations/latam-bra-commerce-localization.md
                 - name: إعداد ونشر ترجمة Commerce للبرازيل
                   href: localizations/latam-bra-deployment.md
-                - name: وظيفة المستند المالي NFC-e في نقطة بيع Commerce للبرازيل
+                - name: وظيفة المستند المالي NFC-e في Commerce POS للبرازيل
                   href: localizations/latam-bra-nfce.md
                 - name: إدارة معلومات العميل في نقطة البيع للبرازيل
                   href: localizations/latam-bra-customer-information.md
-                - name: إلغاء مستندات NFC وإرجاعها في نقطة بيع Commerce للبرازيل‬
+                - name: إلغاء مستندات NFC وإرجاعها في Commerce POS للبرازيل‬
                   href: localizations/latam-bra-nfce-cancel-return.md
                 - name: تسجيل مؤجل لمستندات NFC-e التي تم إصدارها في وضع الطوارئ دون اتصال
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: ترحيل المستندات المالية البرازيلية عبر كشوف البيع بالتجزئة في المركز الرئيسي لـ Commerce‬
                   href: localizations/latam-bra-retail-statements.md
-                - name: Dynamics 365 Payment Connector لـ Adyen في نقطة بيع Commerce للبرازيل‬
+                - name: وظيفة المستند المالي CF-e والتكامل مع SAT في Commerce POS للبرازيل
+                  href: localizations/latam-bra-cf-e-sat.md
+                - name: Dynamics 365 Payment Connector لـ Adyen في Commerce POS للبرازيل‬
                   href: localizations/latam-bra-adyen.md
             - name: أوروبا الشرقية
               items:
@@ -1372,14 +1382,16 @@
                   href: localizations/emea-deu-fi-sample.md
             - name: الهند
               items:
-                - name: تكامل ضريبة السلع والخدمات (GST) لآلات تسجيل المدفوعات النقدية
+                - name: تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيل المدفوعات النقدية
                   href: localizations/apac-ind-cash-registers.md
                 - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: دعم الترقية وN-1 للهند
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: إنشاء شفرات الاستجابة السريعة وطباعتها على الإيصالات
+                - name: إنشاء شفرات الاستجابة السريعة وطباعتها على الإيصالات للهند
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: تكامل الضريبة على البضائع والخدمات (GST) لمواقع التجارة الإلكترونية
+                  href: localizations/apac-ind-e-commerce.md
             - name: إيطاليا
               items:
                 - name: عينة تكامل طابعة الضرائب المحصلة لإيطاليا
@@ -1404,7 +1416,7 @@
                   href: localizations/rus-commerce-setup.md
                 - name: الدفعات المسبقة في Commerce لروسيا
                   href: localizations/rus-commerce-prepayments.md
-                - name: تنسيق عنوان العميل المبسط في نقطة بيع Commerce لروسيا
+                - name: تنسيق عنوان العميل المبسط في Commerce POS لروسيا
                   href: localizations/rus-simplified-address.md
                 - name: عينة تكامل طابعة الضرائب المحصلة لروسيا
                   href: localizations/rus-fpi-sample.md
@@ -1616,7 +1628,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                    - name: قائمة
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
+                    - name: List
                       items:
                         - name: دالات القائمة
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
@@ -1640,7 +1654,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/commerce/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
-                        - name: قائمة
+                        - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
                         - name: ListDistinct
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/commerce/toc.json
@@ -2378,7 +2392,7 @@
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: نظرة عامة حول النظام الأساسي
                   items:
-                    - name: نظره عامه حول هندسة التجارة الإلكترونية
+                    - name: نظرة عامة حول هندسة التجارة الإلكترونية
                       href: e-commerce-extensibility/architectural-overview.md
                     - name: مكونات التجارة الإلكترونية
                       href: e-commerce-extensibility/ecommerce-components.md

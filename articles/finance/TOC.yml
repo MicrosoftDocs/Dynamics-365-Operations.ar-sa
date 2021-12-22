@@ -70,12 +70,12 @@
                   items:
                     - name: الجديد أو المتغير في صفحة Finance الرئيسية‬
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24 (فبراير)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23 (يناير)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (نوفمبر 2021)
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: Finance 10.0.21 (أكتوبر 2021)
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: نظرة عامة على إعداد الموازنة
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: أموال الموازنة المتاحة
+              href: budgeting/budget-funds-available.md
             - name: التنبؤ بالمنصب
               href: budgeting/position-forecasting.md
             - name: مستندات تبرير تخطيط الموازنة
@@ -1430,10 +1432,12 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
                           href: localizations/e-invoicing-sa-get-started.md
-                        - name: استخدم خدمة الفوترة الإلكترونية لاستيراد فواتير الموردين
+                        - name: استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير الموردين
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: إعداد الفوترة الإلكترونية
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: مرجع إدارة المكون الإضافي Power Platform
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: الأسئلة المتداولة حول الفوترة الإلكترونية
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: حساب الضرائب
@@ -1444,6 +1448,14 @@
                       items:
                         - name: الشروع في العمل مع حساب الضرائب
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: إعداد الأكواد الضريبية
+                          href: localizations/set-up-tax-codes.md
+                        - name: إعداد مجموعات الضرائب
+                          href: localizations/set-up-tax-groups.md
+                        - name: إعداد مجموعات ضرائب الأصناف
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: استيراد حسابات الضرائب وتصديرها
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: إعداد بيئة للبحث عن البيانات الرئيسية
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: تحديد
@@ -2594,6 +2606,8 @@
               items:
                 - name: نظرة عامة على إندونيسيا
                   href: localizations/indonesia.md
+                - name: ترقيم فاتورة الضرائب وفوترتها
+                  href: localizations/apac-idn-invoicing.md
                 - name: إقرار ضريبة القيمة المضافة لإندونيسيا
                   href: localizations/apac-idn-ppn-declaration.md
             - name: إيطاليا
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: الفواتير الإلكترونية للعملاء
                   href: localizations/emea-ita-e-invoices.md
+                - name: الفواتير الإلكترونية للمورّدين
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: الإعلام الضريبي السنوي
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: إمكانية تتبع الدفعات
@@ -2870,7 +2886,7 @@
                   href: localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
                 - name: إنشاء دين عميل لمبيعات المشروع
                   href: localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
-                - name: ضريبة السلع والخدمات (GST)
+                - name: ضريبة على البضائع والخدمات (GST)
                   href: localizations/apac-mys-gst.md
                 - name: GST - إنشاء ملفات GAF بالتنسيق المطلوب
                   href: localizations/tasks/my-00010-gst-gaf-files-required-format.md
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: إرجاع ضريبة القيمة المضافة مع إرسال مباشر إلى Altinn
+                  items:
+                    - name: نظرة عامة على Altinn ضريبة القيمة المضافة مع إرسال مباشر إلى Altinn
+                      href: localizations/emea-nor-vat-return.md
+                    - name: تسجيل نقطه تكامل في مدخل ويب ID-porten
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: اعداد بيئتك للتشغيل المتداخل مع خدمات الويب ID-porten و‬Altinn
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: قائمة اختيار لإعداد الرسائل الإلكترونية لإرجاع ضريبة القيمة المضافة
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: تخويل بيئتك في Finance للتشغيل المتداخل مع خدمات الويب ID-Porten و‬Altinn
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: إرسال إرجاع ضريبة القيمة المضافة إلى خدمة الويب Altinn
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: ملف المراجعة القياسي للضريبة (SAF-T) للنرويج
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: الفواتير الإلكترونية للعملاء في النرويج
@@ -3400,11 +3430,11 @@
                       href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
                     - name: اختبار التشغيل المتداخل باستخدام بيئة الاختبار المعزولة لخدمة MTD لضريبة القيمة المضافة
                       href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                    - name: تخويل بيئة Finance الخاصة بك للتعامل مع خدمة ويب MTD لضريبة القيمة المضافة الخاصة بـ HMRC
+                    - name: تخويل بيئتك في Finance للتشغيل المتداخل لخدمة الويب MTD الخاصة بـ HMRC
                       href: localizations/emea-gbr-mtd-vat-integration-authorization.md
                     - name: إرسال إرجاع ضريبة القيمة المضافة إلى خدمة الويب MTD الخاصة بـ HMRC
                       href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                    - name: استرداد معلومات حول دفعات ضريبة القيمة المضافة والتزامات (ضريبية) من HMRC
+                    - name: استرداد معلومات حول دفعات ضريبة القيمة المضافة والالتزامات (الضريبية) من HMRC
                       href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                     - name: تفاصيل إعداد ضريبة القيمة المضافة لإقرارات ضريبة القيمة المضافة في المملكة المتحدة
                       href: localizations/emea-gbr-mtd-vat-integration-declaration.md
@@ -3520,7 +3550,7 @@
                   href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
             - name: إدارة المزايا
               items:
-                - name: تحديد وإدارة برنامج مزايا
+                - name: تحديد برنامج مزايا وإدارته
                   href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
                 - name: سياسات استحقاق المزايا
                   href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
@@ -3831,7 +3861,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: قائمة
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
+                    - name: List
                       items:
                         - name: دالات القائمة
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
@@ -3855,7 +3887,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/finance/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
-                        - name: قائمة
+                        - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
                         - name: ListDistinct
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
