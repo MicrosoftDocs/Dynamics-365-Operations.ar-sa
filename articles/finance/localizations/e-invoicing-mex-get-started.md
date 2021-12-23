@@ -2,7 +2,7 @@
 title: الشروع في العمل باستخدام الفوترة الإلكترونية للمكسيك
 description: يوفر هذا الموضوع معلومات ستساعدك على بدء استخدام الفوترة الإلكترونية للمكسيك.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742143"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881581"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>الشروع في العمل باستخدام الفوترة الإلكترونية للمكسيك
 
@@ -35,7 +35,15 @@ ms.locfileid: "6742143"
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل إكمال الخطوات الواردة في هذا الموضوع، يجب إكمال الخطوات في [بدء استخدام الفوترة الإلكترونية](e-invoicing-get-started.md).
+قبل إكمال الخطوات الواردة في هذا الموضوع، يجب إكمال الخطوات في [‬‏‫الشروع في العمل مع إدارة خدمة الفوترة الإلكترونية](e-invoicing-get-started-service-administration.md) و [‬‏‫الشروع في العمل مع الفوترة الإلكترونية](e-invoicing-get-started.md).
+
+## <a name="set-up-the-cadena-xslt"></a>إعداد Cadena XSLT
+
+لإضافة مخطط Cadena XSLT إلى ميزة العولمة لمعالجة CFDI، أكمل الخطوات التالية.
+
+1. قم بتنزيل المخطط من [موقع ويب SAT](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. اضغط المخطط إلى ملف مضغوط من نوع ZIP.
+3. قم بحفظ ملف xslt إلى إعداد حساب تخزين Azure الخاص بك في بيئة الخدمة للحاوية الجديدة.
 
 ## <a name="rcs-setup"></a>إعداد RCS
 
@@ -127,6 +135,17 @@ ms.locfileid: "6742143"
 
 > [!NOTE]
 > استخدم نفس الخطوات لتحديث عنوان URL الخاص بالإجراء **استدعاء خدمة PAC المكسيكية**‬ لعمليات إعداد ميزات **الإلغاء** و **طلب الإلغاء**.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>إعداد مسار مخطط Cadena XLST
+
+1. في الصفحة **إعداد إصدار الميزة**، على علامة التبويب **المتغيرات**، حدد اسم المتغير، **DigitalSignatureXSLT**.
+2. في الحقل **القيم** أدخل: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
+   
+    بحيث: <RelativePath> = مجلد\\مجلد\\اسم الملف مع كتابة خطين من الخطوط المائلة العكسية، يجب أن يشير ContainerName إلى الحاوية المستخدمة للخدمة.
+   
+    مثال على المتغير:
+    
+    {"path":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>تعيين إصدار المسودة إلى بيئة الفوترة الإلكترونية
 

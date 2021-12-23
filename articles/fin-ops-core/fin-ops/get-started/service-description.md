@@ -2,19 +2,19 @@
 title: وصف الخدمة لتطبيقات Finance and Operations
 description: يوفر هذا الموضوع وصف الخدمة لتطبيقات Finance and Operations.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825390"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898379"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>وصف الخدمة لتطبيقات Finance and Operations
 
@@ -314,7 +314,7 @@ ms.locfileid: "7825390"
 | توفر Microsoft بيئة ثانوية في مركز البيانات المقترن بـ Azure عند توزيع مثيل الإنتاج الأساسي. لمزيد من المعلومات، راجع [استمرارية العمل وإصلاح الكوارث (BCDR): المناطق المقترنة بـ Azure](/azure/best-practices-availability-paired-regions). | ‏‫لا شيء‬ |
 | تقوم شركة Microsoft بتمكين التكرار الجغرافي لذاكرة تخزين Azure SQL وAzure Blob عند توزيع مثيل الإنتاج الأساسي. | ‏‫لا شيء‬ |
 | تقوم Microsoft بتمكين النسخ الاحتياطي التلقائي على قواعد بيانات Azure SQL. | ‏‫لا شيء‬ |
-| <p>وعند حدوث انقطاع، تقوم شركة Microsoft بتحديد ما إذا كان يجب إجراء تجاوز الفشل للعميل، وهل سيكون هناك فقد البيانات أم لا. يمكن أن يصل فقدان البيانات حتى خمس ثوان. لمزيد من المعلومات، راجع [الاستعادة الجغرافية لقاعدة بيانات AZURE SQL](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>في حالة فقد البيانات، ستطلب منك Microsoft تسجيل الدخول الخاص بالعميل لتجاوز الفشل.</p> | في حالة فقد البيانات، قد يضطر العميل إلى توفير تسجيل دخول مكتوب لتشغيل تجاوز الفشل. |
+| <p>وعند حدوث انقطاع، تقوم شركة Microsoft بتحديد ما إذا كان يجب إجراء تجاوز الفشل للعميل، وهل سيكون هناك فقد البيانات أم لا. قد يواجه العملاء فقدان بيانات يصل إلى 15 دقيقة، وفقًا لطبيعة الانقطاع وتوقيته. | في حالة فقد البيانات، قد يضطر العميل إلى توفير تسجيل دخول مكتوب لتشغيل تجاوز الفشل. |
 | عند حدوث تجاوز الفشل، تعمل الخدمة القابلة للتطبيق في وضع محدود. لا يمكن تشغيل صيانة التحديث في وضع تجاوز الفشل. | لا يمكن للعميل طلب توزيعات الحزمة أو طلبات الصيانة المنتظمة الأخرى في وضع تجاوز الفشل. |
 | وعندما يصبح مركز البيانات جاهزا للعمل، تعود Microsoft إلى مثيل الإنتاج في منطقة Azure الأساسية. استئناف العمليات العادية. | قد يكون على العميل القيام بالتسجيل في حالة الرجوع لمثيل الإنتاج في منطقة Azure الأساسية. |
 

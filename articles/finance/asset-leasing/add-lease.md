@@ -2,7 +2,7 @@
 title: إضافة عقود الإيجار أو نسخها (المعاينة)
 description: يصف هذا الموضوع كيفية إنشاء عقد إيجار جديد عن طريق إدخال معلومات له في معلومات تأجير الأصل أو نسخه من عقد إيجار موجود.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761316"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893635"
 ---
 # <a name="add-or-copy-leases-preview"></a>إضافة عقود الإيجار أو نسخها (المعاينة)
 
@@ -35,6 +35,8 @@ ms.locfileid: "6761316"
 1. في صفحة **ملخص عقد الإيجار**، في جزء الإجراءات، حدد **جديد**.
 2. أدخل معلومات عقد الإيجار. الحقول المطلوبة يكون لها حدود حمراء.
 
+> لا يمكن أن يكون تاريخ بدء دفعات الإيجار قبل تاريخ بدء التأجير. إذا قمت بإدخال تاريخ بدء لدفعات الإيجار قبل تاريخ بدء عقد الإيجار، فإنك ستتلقى رسالة خطأ.
+  
 ## <a name="create-a-lease-schedule"></a>إنشاء جدول عقد إيجار
 
 بعد الانتهاء من إدخال المعلومات الخاصة بعقد الإيجار، اتبع الخطوات التالية لإنشاء جدول عقد إيجار.

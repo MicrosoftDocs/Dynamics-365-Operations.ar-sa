@@ -2,7 +2,7 @@
 title: تمكين البحث عن البيانات الرئيسية لتكوين حساب الضريبة
 description: يشرح هذا الموضوع كيفية إعداد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وتمكينها.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749499"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867342"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>تمكين البحث عن البيانات الرئيسية لتكوين حساب الضريبة 
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وتمكينها. تتوفر قائمة منسدلة لتحديد القيم في تكوين حساب الضريبة لحقول مثل **حساب المورد**، و **رمز الصنف**، و **مدة التسليم**. تأتي هذه القيم من بيئة Microsoft Dynamics 365 Finance المتصلة باستخدام مصدر بيانات Microsoft Dataverse.
+يشرح هذا الموضوع كيفية إعداد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وتمكينها. تتوفر قائمة منسدلة لتحديد القيم في تكوين حساب الضريبة لحقول مثل **كيان قانوني** و **حساب المورد** و **كود الصنف** و **مدة التسليم**. تأتي هذه القيم من بيئة Microsoft Dynamics 365 Finance المتصلة باستخدام مصدر بيانات Microsoft Dataverse.
+
+> [!NOTE] 
+> تُعد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وظيفة اختيارية. يمكنك تخطي الخطوات التالية إذا قمت بتعطيل الميزة **دعم مصدر البيانات Dataverse لخدمة الضرائب** في Regulatory Configuration Service (RCS). ومع ذلك، في هذه الحالة، لن تتوفر القائمة المنسدلة في تكوين حساب الضريبة.
 
 1. إعداد تكامل Microsoft Power Platform في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [تكامل Microsoft Power Platform - نظرة عامة على الوظائف الإضافية](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). بعد الانتهاء من هذه الخطوة ، سيظهر اسم بيئة Microsoft Power Platform في قسم **التكامل Power Platform**.
 2. انتقل إلى [مركز اداره Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments)، ثم حدد اسم البيئة. يتم توفير عنوان URL الخاص بالبيئة.

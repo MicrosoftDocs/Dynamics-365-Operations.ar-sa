@@ -2,7 +2,7 @@
 title: تثبيت نسق Adventure Works
 description: يصف هذا الموضوع كيفية تثبيت موضوع "أعمال المغامرة" في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763826"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913692"
 ---
 # <a name="install-the-adventure-works-theme"></a>تثبيت نسق Adventure Works
 
@@ -32,7 +32,7 @@ ms.locfileid: "6763826"
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل تثبيت سمة "أعمال المغامرة"، يجب أن يكون لديك بيئة Dynamics 365 Commerce (إصدار التجارة 10.0.20 أو أحدث) التي تتضمن Retail Cloud Scale Unit (RCSU) ومجموعة تطوير البرامج عبر الإنترنت التجارة (SDK) ومكتبة الوحدة النمطية التجارة. للحصول على معلومات حول كيفية تثبيت SDK التجارة ومكتبة الوحدة النمطية، راجع [SDK وتحديثات مكتبة الوحدة النمطية](e-commerce-extensibility/sdk-updates.md). 
+قبل تثبيت سمة "أعمال المغامرة"، يجب أن يكون لديك بيئة Dynamics 365 Commerce (إصدار التجارة 10.0.20 أو أحدث) التي تتضمن Retail Cloud Scale Unit (RCSU) ومجموعة تطوير البرامج عبر الإنترنت التجارة (SDK) ومكتبة الوحدة النمطية التجارة. للحصول على معلومات حول كيفية تثبيت Commerce SDK ومكتبة الوحدة النمطية، راجع [‏‫إعداد بيئة تطوير‬](e-commerce-extensibility/setup-dev-environment.md). 
 
 ## <a name="installation-steps"></a>خطوات التثبيت
 
@@ -48,11 +48,19 @@ ms.locfileid: "6763826"
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-لتثبيت الحزمة في البيئة المحلية الخاصة بك تشغيل الأمر التالي من موجه الأوامر. يقوم هذا الأمر بتحديث ملف package.json تلقائيا بحيث يتضمن التبعية.
+لتثبيت الحزمة في البيئة المحلية الخاصة بك، قم بتشغيل الأمر `yarn add THEME_PACKAGE@VERSION` من موجه الأوامر، حيث **THEME_PACKAGE** هي حزمة الموضوع (@msdyn365-commerce-theme/adventureworks-theme-kit) و **VERSION** هو رقم إصدار مكتبه الوحدة النمطية المستخدم. من المهم أن يتم تطابق إصدارات حزمة الموضوع و مكتبة الوحدة النمطية. للعثور على رقم إصدار مكتبه الوحدة النمطية الصحيحة المراد استخدامه، افتح الملف package.json وحدد موقع القيمة **starter-pack** ضمن القسم **التبعيات**. في المثال التالي، يستخدم الملف package.json الإصدار 9.32 من مكتبة الوحدة النمطية التي يتم تعيينها إلى Dynamics 365 Commerce الإصدار 10.0.22.  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-في ملف **package.json**، يجب تحديث إصدار السمة إلى إصدار معين.
+يوضح المثال التالي كيفية تشغيل الأمر `yarn add` لإضافة الإصدار 9.32 من نسق Adventure Works‬. يقوم الأمر بتحديث ملف package.json تلقائيًا بحيث يتضمن التبعية.
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+للحصول على المزيد من المعلومات حول كيفية تحديث إصدار مكتبة الوحدة الوطنية، راجع [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md). 
 
 > [!IMPORTANT]
 > - يجب أن يتطابق إصدار السمة مع إصدار مكتبة الوحدة النمطية للتأكد من أن جميع الميزات تعمل كما هو متوقع. 

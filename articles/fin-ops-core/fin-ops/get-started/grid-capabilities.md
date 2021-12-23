@@ -2,7 +2,7 @@
 title: قدرات الشبكة
 description: يوضح هذا الموضوع العديد من الميزات الفعالة في عنصر تحكم الشبكة. يجب تمكين ميزة الشبكة الجديدة للوصول إلى هذه القدرات.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700127"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890846"
 ---
 # <a name="grid-capabilities"></a>قدرات الشبكة
 
@@ -119,6 +119,9 @@ ms.locfileid: "7700127"
 
 ### <a name="hiding-column-names"></a>إخفاء أسماء الأعمدة
 عند تجميع البيانات، السلوك الافتراضي هو إظهار اسم العمود في صف رأس المجموعة. يمكنك أن تختار حذف اسم العمود في صفوف رأس المجموعة عن طريق تحديد **خيارات الشبكة** > **إخفاء اسم عمود المجموعة**.
+
+### <a name="grouping-on-date-and-time-columns"></a>التجميع في أعمدة التاريخ والوقت
+اعتبارًا من الإصدار 10.0.24، بالنسبة لحقول التاريخ و الوقت، تمت إضافة الخيار إلى المجموعة حسب السنة أو الشهر أو اليوم. ستطابق المجموعة "القيمة" في صف الرأس المطابق التنسيق من ذلك الحقل. بالإضافة إلى ذلك، بالنسبة للحقول التاريخ والوقت والوقت، فإنك ستكون قادرًا على التجميع حسب الساعة أو الدقيقة أو الثانية.    
 
 ## <a name="freezing-columns"></a>تجميد الأعمدة
 قد تكون بعض الأعمدة الموجودة في الشبكة هامه بما يكفي للسياق الذي لا ترغب في ان يقوم بالتمرير خارج العرض. بدلا من ذلك، قد تريد أن تكون القيم الموجودة في هذه الأعمدة مرئية دومًا. توفر ميزه **تجميد الأعمدة في الشبكة** هذه المرونة للمستخدمين. 

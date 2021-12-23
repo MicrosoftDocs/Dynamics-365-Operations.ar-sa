@@ -1,21 +1,21 @@
 ---
 title: ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
 description: يسرد هذا الموضوع الميزات الجديدة والمتغيرة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6ab5f6887cb60d3d0434b59cda82b44eca272d7e
-ms.sourcegitcommit: 60ade60f72fd0fa0683f7a3eaf93439d10cf3373
+ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655375"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901878"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
 

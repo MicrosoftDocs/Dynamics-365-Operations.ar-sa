@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647253"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890767"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>قائمة وظائف التقارير الإلكترونية في فئة التاريخ والوقت
 
@@ -37,8 +37,8 @@ ms.locfileid: "7647253"
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | تقوم هذه الوظيفة بإرجاع قيمة *السلسلة* التي تمثل قيمة تاريخ/وقت مُعين كنص في التنسيق المُحدد وفي الثقافة المُحددة بشكل اختياري. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | تقوم هذه الوظيفة بإرجاع قيمة *DateTime* التي تم تحويلها من قيمة نصية معينة في التنسيق المُحدد وفي الثقافة المُحددة بشكل اختياري إلى قيمة التاريخ/الوقت. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | تُرجع هذه الوظيفة قيمة *DateTime* التي تم تحويلها من قيمة تاريخ معين إلى قيمةالتاريخ/الوقت بالتوقيت  العالمي المنسق (توقيت جرينتش المتوسط \[GMT\]). |
-| [DateValue](er-functions-datetime-datevalue.md) | تقوم هذه الوظيفة بإرجاع قيمة *التاريخ* التي تم تحويلها من قيمة نصية معينة في التنسيق المُحدد وفي الثقافة المُحددة بشكل اختياري إلى قيمة التاريخ/الوقت. |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | تُرجع هذه الوظيفة قيمة *عدد صحيح* تمثل عدد الأيام من 1 يناير إلى التاريخ المُحدد. |
+| [DateValue](er-functions-datetime-datevalue.md) | تقوم هذه الوظيفة بإرجاع قيمة *[التاريخ](er-formula-supported-data-types-primitive.md#date)* التي تم تحويلها من قيمة نصية معينة في التنسيق المُحدد وفي الثقافة المُحددة بشكل اختياري إلى قيمة التاريخ/الوقت. |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | ترجع الوظيفة قيمة *[عدد صحيح](er-formula-supported-data-types-primitive.md#integer)* تمثل عدد الأيام بين 1 يناير والتاريخ المُحدد. |
 | [الأيام](er-functions-datetime-days.md) | تُرجع هذه الوظيفة قيمة *عدد صحيح* تمثل عدد الأيام بين التاريخ المُحدد الأول والتاريخ المُحدد الثاني. |
 | [Now](er-functions-datetime-now.md) | تُرجع هذه الوظيفة قيمة *DateTime* التي تمثل تاريخ خادم التطبيق الحالي والتوقيت. |
 | [NullDate](er-functions-datetime-nulldate.md) | تُرجع هذه الوظيفة قيمة *تاريخ* والتي تمثل التاريخ **الفارغ** (1 يناير 1900). |
@@ -46,6 +46,7 @@ ms.locfileid: "7647253"
 | [SessionNow](er-functions-datetime-sessionnow.md) | تُرجع هذه الوظيفة قيمة *DateTime* التي تمثل تاريخ جلسة التطبيق الحالية والتوقيت. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | تُرجع هذه الوظيفة قيمة *التاريخ* التي تمثل تاريخ جلسة التطبيق الحالية. |
 | [اليوم](er-functions-datetime-today.md) | تُرجع هذه الوظيفة قيمة *التاريخ* التي تمثل تاريخ خادم التطبيق الحالي. |
+| [WeekNum](er-functions-datetime-weeknum.md) | تُرجع هذه الوظيفة قيمة *عدد صحيح* التي تمثل أسبوع من السنة. |
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

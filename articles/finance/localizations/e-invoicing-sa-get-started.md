@@ -15,12 +15,12 @@ ms.search.region: Saudi Arabia
 ms.author: ilyako
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: a20321e32c8fee0300c243fb5c1823c9c107da75
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 29d78e2f26bc73d5803d0ba8ceedee40b31bfd2c
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779808"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902573"
 ---
 # <a name="get-started-with-electronic-invoicing-for-saudi-arabia"></a>الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
 
@@ -52,7 +52,7 @@ ms.locfileid: "7779808"
 7. قم باضافه شروط معينه لكل طريقه دفع محدده في النظام ، وقم بحفظ التغييرات التي أجريتها.
 
     > [!NOTE]
-    > في العمود **الاسم** ، يمكنك تحديد قيمه العنصر النائب **فارغة** أو **غير فارغة** بدلا من طريقه معينه للدفع.
+    > في العمود **الاسم**، يمكنك تحديد قيمة العنصر النائب **&#42;فارغة&#42;** أو **&#42;غير فارغة&#42;** بدلاً من طريقة معينة للدفع.
 
 8. في علامة التبويب **عمليات الإعداد**، حدد **تحرير** للتكوين المحدد. 
 9. في قسم **مسار المعالجة**، قم بتشغيل خيار **تصدير النتيجة** لخيار **تحويل المستند**.

@@ -2,7 +2,7 @@
 title: تكوين بيئة تقييم Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية تكوين بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416469"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913717"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>تكوين بيئة تقييم Dynamics 365 Commerce
 
@@ -39,6 +39,7 @@ ms.locfileid: "7416469"
 1. حدد البيئة في القائمة.
 1. حدد **تسجيل الدخول إلى البيئة** من معلومات البيئة الموجودة على الجانب الأيسر. سيتم إرسالك إلى مركز Commerce الرئيسي.
 1. تأكد من تحديد الكيان القانوني **USRT** في الزاوية العلوية اليمنى.
+2. انتقل إلى **معلمات Commerce > معلمات التكوين** وتأكد من وجود إدخال **ProductSearch.UseAzureSearch** تم تعيينه إلى **صواب**. في حالة فقد هذا الإدخال، فإنه يمكنك إضافة هذا الإدخال وتشغيل **قاعدة بيانات القناة > مزامنة كاملة** لـ Commerce Scale Unit المقترنة بموقع ويب التجارة الإلكترونية.
 
 وخلال أنشطة ما بعد التوفير في مركز Commerce الرئيسي، تأكد من تحديد كيان **USRT** القانوني دائمًا.
 
@@ -105,6 +106,12 @@ ms.locfileid: "7416469"
     1. حدد السجل.
     1. في جزء الإجراءات، انقر فوق علامة التبويب **وظيفة دفعية** ، حدد **حالة التغيير**.
     1. حدد **إلغاء**، ثم حدد **موافق**.
+
+1. إذا كانت حالة الوظيفة **اقتطاع**، فاتبع الخطوات التالية:
+
+    1. حدد السجل.
+    1. في جزء الإجراءات، انقر فوق علامة التبويب **وظيفة دفعية** ، حدد **حالة التغيير**.
+    1. حدد **‏‫جارٍ الانتظار‬**، ثم قم بتحديد **موافق**.
 
 يمكنك أيضًا تعيين فترة التكرار إلى دقيقة واحدة (1) للوظائف التالية اختياريًا:
 

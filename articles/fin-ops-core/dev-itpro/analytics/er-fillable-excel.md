@@ -2,7 +2,7 @@
 title: تصميم تكوين لإنشاء مستندات بتنسيق Excel
 description: يصف هذا الموضوع كيفية تصميم تنسيق التقارير الإلكترونية (ER) لملء قالب Excel، ثم إنشاء مستندات صادرة بتنسيق Excel.
 author: NickSelin
-ms.date: 10/29/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731628"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890855"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>تصميم تكوين لإنشاء المستندات بتنسيق Excel
 
 [!include[banner](../includes/banner.md)]
 
-يمكن تصميم تكوين لتنسيق [التقارير الإلكترونية (ER)](general-electronic-reporting.md) يتضمن [مكون تنسيق](general-electronic-reporting.md#FormatComponentOutbound) ER والذي يمكنك تكوينه لإنشاء مستند صادر بتنسيق مصنف Microsoft Excel. يجب استخدام مكونات تنسيق ER المحددة لهذا الغرض.
+يمكن تصميم تكوين تنسيق [إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) الذي يحتوي على مكون تنسيق التقارير الإلكترونية الذي يمكنك تكوينه لإنشاء مستند صادر بتنسيق مصنف Microsoft Excel. يجب استخدام مكونات تنسيق ER المحددة لهذا الغرض.
 
 لمعرفة المزيد حول هذه الميزة، اتبع الخطوات الواردة في موضوع، [تصميم تكوين لإنشاء التقارير بتنسيق OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
@@ -330,6 +330,40 @@ ms.locfileid: "7731628"
 6. قم بإنشاء وثيقة FTI قابلة للطباعة، وقم بمراجعه تذييل الوثيقة التي تم إنشائها.
 
     ![مراجعة تذييل المستند الذي تم إنشاؤه بتنسيق Excel.](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>مثال 2: إصلاح EPPlus بالخلايا المدمجة
+
+يمكنك تشغيل تنسيق التقارير الإلكترونية لإنشاء مستند صادر بتنسيق مصنف Excel. عندما يتم تمكين الميزة **تمكين استخدام مكتبة EPPlus في إطار عمل التقارير الإلكترونية** في مساحة العمل **إدارة الميزات**، يتم استخدام [مكتبة EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) لإنشاء مخرجات Excel. ومع ذلك، بسبب [سلوك Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) المعروف وقيود مكتبة EPPlus، فقد تواجه الاستثناء التالي: "يتعذر حذف/استبدال الخلايا المدمجة. يتم دمج النطاق جزئيًا مع النطاق المدمج الآخر." لمعرفة نوع قوالب Excel التي قد تتسبب في حدوث هذا الاستثناء وكيف يمكنك حل المشكلة، أكمل المثال التالي.
+
+1. في تطبيق Excel لسطح المكتب، قم بإنشاء مصنف Excel جديد.
+2. في ورقه العمل **Sheet1**، أضف اسم **ReportTitle**  للخلية **A2**.
+3. أدمج الخلايا **A1** و **A2**.
+
+    ![مراجعة نتائج دمج الخلايا A1 وA2 في مصنف Excel المصمم في تطبيق Excel لسطح مكتب.](./media/er-fillable-excel-example2-1.png)
+
+3. في الصفحة **تكوينات**، [أضف تنسيق تقارير إلكترونية جديد](er-fillable-excel.md#add-a-new-er-format) لإنشاء مستند صادر بتنسيق مصنف Excel.
+4. في الصفحة **مصمم التنسيق**، [قم باستيراد](er-fillable-excel.md#template-import) مصنف Excel المصمم بتنسيق التقارير الإلكترونية المضاف كقالب جديد للمستندات الصادرة.
+5. في علامة التبويب **التخطيط**، قم بتكوين الربط للمكون **ReportTitle** للنوع [خلية](er-fillable-excel.md#cell-component).
+6. قم بتشغيل تنسيق التقارير الإلكترونية. لاحظ طرح الاستثناء التالي: "يتعذر حذف/استبدال الخلايا المدمجة. يتم دمج النطاق جزئيًا مع النطاق المدمج الآخر."
+
+    ![مراجعة نتائج تشغيل تنسيق التقارير الإلكترونية المكون في الصفحة "مصمم التنسيق".](./media/er-fillable-excel-example2-2.png)
+
+يمكن إصلاح المشكلة بأي من الطريقتين التاليتين:
+
+- **الأسهل ولكن لا يُنصح به:** في مساحة العمل **إدارة الميزات**، قم بإيقاف تشغيل الميزة **تمكين استخدام مكتبة EPPlus في إطار عمل التقارير الإلكترونية**. على الرغم من أن هذه الطريقة أسهل، فقد تواجه مشكلات أخرى في حالة استخدامها، وذلك لأنه يتم دعم بعض وظائف التقارير الإلكترونية فقط عندما يتم تمكين الميزة **‬‏‫تمكين استخدام مكتبة EPPlus في إطار عمل التقارير الإلكترونية**.
+- **مُوصى به:** اتبع هذه الخطوات:
+
+    1. في تطبيق سطح المكتب في Excel، قم بتعديل مصنف Excel بإحدى الطرق التالية:
+
+        - في ورقة العمل **Sheet1**، قم بإلغاء دمج الخلايا **A1** و **A2**.
+        - قم بتغيير مرجع الاسم **ReportTitle** من **=Sheet1!$A$2** إلى **=Sheet1!$A$1**.
+
+        ![مراجعة نتائج تغيير المرجع في مصنف Excel المصمم في تطبيق Excel لسطح مكتب.](./media/er-fillable-excel-example2-3.png)
+
+    2. في الصفحة **مصمم التنسيق**، [قم باستيراد](er-fillable-excel.md#template-import) مصنف Excel المعدل إلى تنسيق التقارير الإلكترونية القابل للتحرير لتحديث القالب الموجود.
+    3. قم بتشغيل تنسيق التقارير الإلكترونية المعدّل.
+
+        ![مراجعة المستند المُنشأ في تطبيق Excel لسطح المكتب.](./media/er-fillable-excel-example2-4.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

@@ -2,7 +2,7 @@
 title: تحميل صور
 description: يصف هذا الموضوع كيفية تحميل الصور في منشئ موقع Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423245"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891498"
 ---
 # <a name="upload-images"></a>تحميل صور
 
@@ -41,7 +41,8 @@ ms.locfileid: "7423245"
 - **نشر الأصول بعد التحميل**: عند تحديد خانة الاختيار هذه، يتم نشر الصورة أو الصور مباشرةً بعد التحميل.
 
 > [!NOTE]
-> يتم أيضًا تمييز صور الأصول ذات فئة معينة لها بشكل تلقائي بواسطة الفئة ككلمة أساسية للمساعدة في البحث عن أصول خاصة بفئة معينة.
+> - يتم أيضًا تمييز صور الأصول ذات فئة معينة لها بشكل تلقائي بواسطة الفئة ككلمة أساسية للمساعدة في البحث عن أصول خاصة بفئة معينة.
+> - تقوم صفحات تفاصيل المنتج بإنشاء **النص البديل** باستخدام اسم المنتج بشكل ديناميكي، لذلك لن يكون لتغيير **النص البديل** لصورة منتج أي تاثير على الصورة المعروضة.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>اصطلاحات التسمية لصور القناة متعددة الاتجاهات 
 

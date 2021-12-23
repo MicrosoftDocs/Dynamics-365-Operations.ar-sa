@@ -2,7 +2,7 @@
 title: اختصارات لوحة المفاتيح
 description: يوفر هذا الموضوع نظرة عامة على تركيبات مفاتيح الاختصار التي يمكنك استخدامها عند العمل مع تطبيقات Finance and Operations.
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800183"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913508"
 ---
 # <a name="keyboard-shortcuts"></a>اختصارات لوحة المفاتيح
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يمكن أن تساعدك اختصارات لوحة المفاتيح التالية في إدخال البيانات بسرعة وكفاءة في تطبيقات Finance and Operations.
 
@@ -150,6 +149,7 @@ ms.locfileid: "7800183"
 | تنفيذ الإجراء الافتراضي في شبكة<blockquote>[!NOTE] يتم تمكين هذا الاختصار عندما يكون التركيز على خلية تحتوي على ارتباط تشعبي وكافة الخلايا في العمود لها ارتباطات تشعبية.</blockquote> | إدخال                           |
 | تبديل التركيز بين الصف المحدد وصف الرأس                                                               | Alt+Shift+H                     |
 | تكبير/تصغير حجم العمود الحالي (الذي يركز في صف الرأس)                                                  | السهم لليمين/السهم لليسار        |
+| نقل العمود الحالي إلى الوضع التالي/السابق (مع التركيز في صف الراس)                                   | Ctrl+Shift+سهم لليمين / Ctrl+Shift+سهم لليسار |
 | فتح تصفية الشبكة للعمود الحالي (الذي يركز في صف الرأس)                                              | إدخال                           |
 | تغيير حجم العمود الحالي ليناسب المحتويات (مع التركيز في صف الراس)                                           | A (أو انقر نقرًا مزدوجًا فوق مقبض تحجيم العمود) |
 

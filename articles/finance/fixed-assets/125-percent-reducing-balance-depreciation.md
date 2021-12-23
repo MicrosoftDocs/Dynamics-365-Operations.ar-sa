@@ -1,7 +1,7 @@
 ---
 title: إهلاك الرصيد المتناقص بنسبة 125 بالمائة
-description: تقدم هذه المقالة نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 125 بالمائة‬.
-author: saraschi2
+description: يقدم هذا الموضوع نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 125 بالمائة‬.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68afee1840707a74ca3a0ac9643c2a23761da8da6d2e85e6b79d48bee4aad27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744979"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883508"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>إهلاك الرصيد المتناقص بنسبة 125 بالمائة
 
 [!include [banner](../includes/banner.md)]
 
-تقدم هذه المقالة نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 125 بالمائة‬.
+يقدم هذا الموضوع نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 125 بالمائة‬.
 
 عند إعداد ملف تعريف إهلاك أصول ثابتة وتحديد **الرصيد المتناقص بنسبة 125%** في حقل **الطريقة** في صفحة **ملفات تعريف الإهلاك**، يتم إهلاك الأصول الثابتة التي تم تعيين ملف تعريف الإهلاك لها بنفس النسبة المئوية في كل فترة إهلاك. حيث يتم حساب هذه النسبة المئوية بناءً على مدة الخدمة للأصل. على سبيل المثال، إذا كانت مدة خدمة الأصل خمس سنوات، فإنه يتم حساب النسبة المئوية بنسبة 25% (125% ÷ 5).
 
