@@ -2,7 +2,7 @@
 title: تكوين رؤية المخزون
 description: يصف هذا الموضوع كيفية تكوين رؤية المخزون.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678461"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920288"
 ---
 # <a name="configure-inventory-visibility"></a>تكوين رؤية المخزون
 
@@ -61,7 +61,7 @@ ms.locfileid: "7678461"
 يمثل كل مصدر بيانات نظامًا تأتي منه بياناتك. ويتضمن مثال أسماء مصادر البيانات `fno` (وهو ما يعني "تطبيقات Dynamics 365 Finance and Operations") و`pos` (وتعني "نقطة البيع"). افتراضيًا، يتم إعداد Supply Chain Management كمصدر بيانات افتراضي ( `fno`) في رؤية المخزون.
 
 > [!NOTE]
-> مصدر بيانات `fno` محجوز لـ Dynamics 365 Supply Chain Management.
+> مصدر بيانات `fno` محجوز لـ Supply Chain Management. إذا كانت الوظيفة الاضافيه لرؤية المخزون متكاملة مع بيئة Supply Chain Management، فاننا نوصي بعدم حذف التكوينات المرتبطة بـ `fno` في مصدر البيانات.
 
 لإضافة مصدر بيانات، اتبع هذه الخطوات.
 
@@ -273,17 +273,17 @@ ms.locfileid: "7678461"
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>تكوين التقسيم
 
-يتكون تكوين القسم من مجموعة من الأبعاد الأساسية. وهو يحدد نمط توزيع البيانات. تدعم عمليات البيانات في نفس القسم الأداء العالي ولا تكلف الكثير. لذلك، يمكن أن تساهم أنماط التقسيم الجيدة في فوائد كبيرة.
-
-توفر رؤية المخزون تكوين القسم الافتراضي التالي.
+يتكون تكوين القسم حاليًا من بعدين أساسيين (`SiteId` و`LocationId`) اللذين يشيران إلى كيفية توزيع البيانات. يمكن للعمليات التي تتم تحت نفس القسم تقديم أداء أعلى بتكلفة أقل. يعرض الجدول التالي تكوين القسم الافتراضي الذي توفره الوظيفة الإضافية رؤية المخزون.
 
 | البُعد الأساسي | التدرج الهرمي |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> تكوين القسم الافتراضي هو للرجوع إليه فقط. ليس عليك تعريفها في "رؤية المخزون". حاليا، ترقية تكوين القسم غير مدعومة.
+يتضمن الحل تكوين هذا القسم بشكل افتراضي. لذلك، *لا يتعين عليك تحديده بنفسك*.
+
+> [!IMPORTANT]
+> لا تقم بتخصيص تكوين القسم الافتراضي. إذا قمت بحذفه أو تغييره، فمن المحتمل ان تتسبب في حدوث خطا غير متوقع.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>تكوين التسلسل الهرمي لمؤشر المنتج
 

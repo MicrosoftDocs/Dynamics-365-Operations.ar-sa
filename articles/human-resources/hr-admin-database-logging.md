@@ -1,8 +1,8 @@
 ---
 title: تكوين وإدارة تسجيل قاعده البيانات
 description: يمكنك تعقب التغييرات في الجداول والحقول في Dynamics 365 Human Resources بتسجيل قاعده البيانات.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781647"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924810"
 ---
 # <a name="configure-and-manage-database-logging"></a>تكوين وإدارة تسجيل قاعده البيانات
 
@@ -93,14 +93,14 @@ ms.locfileid: "6781647"
 لإعداد ‏‫تنظيف سجل قاعدة البيانات، اتبع هذه الخطوات: 
 
 1. انتقل إلى **إدارة النظام > الارتباطات > قواعد البيانات > سجل قاعدة البيانات**. حدد **‏‫تنظيف السجل**.
-
-2. اختر أسلوبا لتحديد السجلات المراد حذفها من خلال إدخال أحد الخيارات التالية:
+2. ضمن عنوان **السجلات المُراد تضمينها**، حدد **تصفية**.
+3. اختر الطريقة التي سيتم استخدامها لتحديد السجلات المراد حذفها. أدخل أحد الخيارات التالية:
 
    - ID الجدول
    - نوع السجل
    - تاريخ  ووقت الإنشاء
 
-3. استخدم علامة التبويب **‏‫تنظيف سجل قاعدة البيانات** لتحديد وقت تشغيل مهمة تنظيف السجل. بشكل افتراضي، تتوفر سجلات قاعده البيانات لمده 30 يوما.
+4. استخدم علامة التبويب **‏‫تنظيف سجل قاعدة البيانات** لتحديد وقت تشغيل مهمة تنظيف السجل. بشكل افتراضي، تتوفر سجلات قاعده البيانات لمده 30 يوما.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

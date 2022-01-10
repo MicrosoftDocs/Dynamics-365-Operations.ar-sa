@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 93adc5b91667fdcd5969439994170fe7d28258fc9f5762d1262d8e72862c4f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d860c2b9fe01231e8e47b085f93c79c5a7dc449e
+ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762238"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7941234"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>تكوين وجهات ER المعتمدة علي الاجراء
 
@@ -115,7 +115,6 @@ ms.locfileid: "6762238"
 - استعلام الشراء لأمر الشراء
 - تأكيد أمر المبيعات
 - إشعار خطاب التحصيلات
-- كشف حساب العميل
 - إشعار الفائدة
 - اخطار دفع المورد
 - طلب عرض الأسعار
