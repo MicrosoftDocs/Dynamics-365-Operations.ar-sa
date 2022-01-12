@@ -2,7 +2,7 @@
 title: تصميم تكوين لإنشاء مستندات بتنسيق Excel
 description: يصف هذا الموضوع كيفية تصميم تنسيق التقارير الإلكترونية (ER) لملء قالب Excel، ثم إنشاء مستندات صادرة بتنسيق Excel.
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890855"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943602"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>تصميم تكوين لإنشاء المستندات بتنسيق Excel
 
@@ -364,6 +364,22 @@ ms.locfileid: "7890855"
     3. قم بتشغيل تنسيق التقارير الإلكترونية المعدّل.
 
         ![مراجعة المستند المُنشأ في تطبيق Excel لسطح المكتب.](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>قيود
+
+### <a name="known-epplus-library-limitations"></a>قيود مكتبة EPPlus المعروفة
+
+#### <a name="external-data-sources"></a>مصادر بيانات خارجية
+
+إذا احتوى أحد القوالب الخاصة بك على PivotTable يستند إلى نموذج PowerPivot الذي يشير إلى [مصدر بيانات خارجي](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b)، وتم تمكين ميزة **تمكين استخدام مكتبة EPPlus في إطار عمل التقارير الإلكترونية**، تتلقى رسالة الخطأ التالية عند تشغيل تنسيق تقارير إلكترونية يستخدم هذا القالب لإنشاء مستند صادر بتنسيق Excel: "مصدر التخزين المؤقت ليس ورقة عمل." لإصلاح هذه المشكلة، لديك الخيارات التالية:
+
+- **موصى به:** أعد تصميم حل Excel الذي تستخدمه:
+
+    1. افصل الجزء الذي يحتوي على محاور في مصنف Excel منفصل (مصنف أ). 
+    2. استخدم التقارير الإلكترونية لإنشاء مصنف Excel ثانٍ (مصنف ب) من Finance يحتوي على التفاصيل المطلوبة. 
+    3. راجع المصنف ب في المصنف أ بمجرد إنشاء المصنف ب.
+
+- استخدم خيارًا بخلاف EPPlus لإيقاف تشغيل الميزة. 
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

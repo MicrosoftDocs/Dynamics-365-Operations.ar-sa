@@ -4,13 +4,41 @@
       items:
         - name: صفحة Dynamics 365 Supply Chain Management الرئيسية
           href: index.md
+        - name: الجديد أو المتغير
+          items:
+            - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: الجديد أو المتغير في Supply Chain Management
+              items:
+                - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
+                  href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.24 (فبراير 2022)
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: Supply Chain Management 10.0.23 (يناير 2022)
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: Supply Chain Management 10.0.22 (نوفمبر 2021)
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: Supply Chain Management 10.0.21 (أكتوبر 2021)
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: الميزات التي تمت إزالتها أو إهمالها
+              items:
+                - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: ميزات AX 2012 التي تم تأجيلها
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: الشروع في العمل
           items:
             - name: وصف الخدمة
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: قبل الشراء
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: التسجيل لاشتراكات المعاينة
+            - name: التسجيل لاشتراكات الإصدار الأولي
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
             - name: تحديثات خدمة One Version
               items:
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين التخزين في المستودع لعمليات النشر المحلي
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: الجديد أو المتغير
-              items:
-                - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: الجديد أو المتغير في Supply Chain Management
-                  items:
-                    - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
-                      href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.24 (فبراير 2022)
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: Supply Chain Management 10.0.23 (يناير 2022)
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: Supply Chain Management 10.0.22 (نوفمبر 2021)
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: Supply Chain Management 10.0.21 (أكتوبر 2021)
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: الميزات التي تمت إزالتها أو إهمالها
-                  items:
-                    - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ميزات AX 2012 التي تم تأجيلها
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: موارد الوثائق
               items:
                 - name: نظام التعليمات
@@ -1617,6 +1617,8 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: واجهات API العامة لرؤية المخزون
                   href: inventory/inventory-visibility-api.md
+                - name: تلميحات حول رؤية المخزون
+                  href: inventory/inventory-visibility-tips.md
         - name: ذكاء IoT
           items:
             - name: الصفحة الرئيسية لذكاء IoT
@@ -3573,7 +3575,9 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: التخطيط الرئيسي
               items:
-                - name: يعمل تحديد إجمالي قائمة مكونات الصنف بشكل مختلف لأوامر الإنتاج المؤكدة والمقدرة
+                - name: يتعذر على النظام العثور على أمر مخطط عند معالجة أوامر متعددة
+                  href: troubleshooting/planning/planned-order-not-exist.md
+                - name: تعمل عملية تحديد إجمالي المكونات المطلوبة لفاتورة المواد بشكل مختلف لأوامر الإنتاج المؤكدة والمقدرة
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: لا يتم تحديث قيمة التأخير عند إعادة جدولة أمر مخطط.
                   href: troubleshooting/planning/delay-value-not-updated.md

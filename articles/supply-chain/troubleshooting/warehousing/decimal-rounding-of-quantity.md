@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ddfac7106eb0e8b934516ca10e3950891d10910a2ccdef1868faf25812243159
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e0475aab452daa9e1a6f012e17a59e611010da
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726551"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920463"
 ---
 # <a name="decimal-rounding-of-the-physical-updating-quantity-is-incorrect"></a>تقريب عشري لكمية التحديث الفعلي غير صحيح
 
@@ -49,10 +49,10 @@ ms.locfileid: "6726551"
 
 1. انتقل إلى **إدارة المستودعات \> الأحمال‏‎ \> جميع الأحمال‏‎**.
 1. حدد حمل العمل الذي لا يمكن إنشاء إيصال التعبئة له.
-1. في جزء الإجراءات، في علامة التبويب **الشحن والاستلام**، في المجموعة  **عكس**، حدد **عكس تأكيد الشحن**.
-1. في علامة التبويب **بنود حمل العمل**، حدد بند حمل العمل للصنف الذي يسبب مشكلة.
+1. في جزء الإجراءات، في علامة التبويب **الشحن والاستلام**، في المجموعة **عكس**، حدد **عكس تأكيد الشحن**.
+1. في علامة التبويب **بنود حمل العمل**، حدد بند حمل العمل للصنف الذي يسبب مشكلة.
 1. حدد **تقليل الكمية المنتقاة** لضبط الكمية المنتقاة.
-1. في علامة التبويب  **تفاصيل البنود**، حدد **أمر**.
+1. في علامة التبويب **تفاصيل البنود**، حدد **أمر**.
 1. قم بتعيين الحقل **الكمية** إلى الكمية المنتقاة (أي، قيمة الحقل **الكمية التي أنشاهأ العمل**)، بحيث يمكن متابعة إنشاء إيصال التعبئة.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>راجع بنود حمل العمل، وقم بالتسويات للتأكد من محاذاة الوحدة والكمية مع الدقة العشرية للوحدة

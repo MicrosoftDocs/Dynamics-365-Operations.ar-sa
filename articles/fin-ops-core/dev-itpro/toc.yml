@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: ملفات ذاكرة الترجمة
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: ملحق Azure DevOps (إصدار أولي للاستخدام العام)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: تكامل Microsoft Power Platform
           items:
             - name: نظرة عامة
@@ -1594,14 +1596,16 @@
               items:
                 - name: نظرة عامة على معالجة الدُفعة
                   href: sysadmin/batch-processing-overview.md
-                - name: المعالجة الدُفعية‬ وخوادم الدُفعات
+                - name: معالجة الدُفعة‬ وخوادم الدُفعات
                   href: sysadmin/batch-server-overview.md
                 - name: إنشاء وظائف دفعية
                   href: sysadmin/tasks/create-batch-job.md
-                - name: تمكين إعادة المحاولات الدُفعية
+                - name: تمكين إعادة المحاولات الدفعية
                   href: sysadmin/retryable-batch.md
                 - name: نسخ وظيفة دفعية
                   href: sysadmin/copy-batch-job.md
+                - name: جدولة الدفعات المستندة إلى أولوية
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: فترات الدُفعة النشطة
                   href: sysadmin/activeperiod.md
                 - name: دعم التوقيت الصيفي لفترات الدُفعة النشطة

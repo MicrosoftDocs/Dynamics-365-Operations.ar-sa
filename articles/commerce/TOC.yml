@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (نوفمبر 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21 (أكتوبر 2021)
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: الميزات التي تمت إزالتها أو إهمالها
                   items:
                     - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -842,7 +840,7 @@
           items:
             - name: نظرة عامة على كشوف الحساب
               href: retail-statements.md
-            - name: مدقق تناسق الحركات
+            - name: التحقق من صحة حركات المتجر لحساب كشف الحساب
               href: valid-checker.md
             - name: تعطيل القواعد في مدقق التناسق لحركات البيع بالتجزئة
               href: disable-consistency-check-rule.md
@@ -1286,6 +1284,8 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: إعداد التكامل المالي لقناة Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: إعداد مسار بناء عينة التكامل المالي
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: ملفات تعريف الشهادات المعرفة من قِبل المستخدمين لمتاجر البيع بالتجزئة
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory configuration service (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: عينة تكامل خدمة التسجيل المالي للنمسا
                   href: localizations/emea-aut-fi-sample.md
+                - name: إرشادات التوزيع الخاصة بعينة التكامل المالي للنمسا (قديمة)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: البرازيل
               items:
                 - name: ترجمة Commerce للبرازيل
@@ -1358,12 +1360,16 @@
                   items:
                     - name: عينة تكامل خدمة التسجيل المالي لجمهورية التشيك‬
                       href: localizations/emea-cze-fi-sample.md
+                    - name: إرشادات التوزيع الخاصة بعينة التكامل المالي لجمهورية التشيك (قديمة)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: بولندا
                   items:
                     - name: عينة تكامل طابعة الضرائب المحصلة لبولندا
                       href: localizations/emea-pol-fpi-sample.md
                     - name: إدارة معلومات العميل لبولندا
                       href: localizations/emea-pol-customer-information.md
+                    - name: إرشادات التوزيع الخاصة بعينة التكامل المالي لبولندا (قديمة)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: فرنسا
               items:
                 - name: وظيفة آلة تسجيل المدفوعات النقدية
@@ -1380,6 +1386,8 @@
               items:
                 - name: عينة تكامل خدمة التسجيل المالي لألمانيا
                   href: localizations/emea-deu-fi-sample.md
+                - name: إرشادات التوزيع الخاصة بعينة التكامل المالي لألمانيا (قديمة)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: الهند
               items:
                 - name: تكامل الضريبة على البضائع والخدمات (GST) لآلات تسجيل المدفوعات النقدية
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: إدارة معلومات العميل لإيطاليا
                   href: localizations/emea-ita-customer-information.md
+                - name: إرشادات التوزيع الخاصة بعينة التكامل المالي لإيطاليا (قديمة)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: المكسيك
               items:
                 - name: الفواتير الإلكترونية CFDI للمكسيك‬
@@ -1407,6 +1417,8 @@
                 - name: وظيفة آلة تسجيل المدفوعات النقدية
                   href: localizations/emea-nor-cash-registers.md
                 - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية (قديمة)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: روسيا
               items:
@@ -1432,7 +1444,9 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: عينة تكامل وحدة التحكم للسويد
                   href: localizations/emea-swe-fi-sample.md
-                - name: عينة لتكامل نقطة بيع Retail مع وحدات التحكم (قديمة)
+                - name: إرشادات التوزيع الخاصة بعينة تكامل وحدة التحكم للسويد (قديمة)
+                  href: localizations/emea-swe-fi-sample-sdk.md
+                - name: عينة تكامل Retail POS مع وحدات التحكم (قديمة)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: إعداد التقارير وعمليات تكامل Power BI
           items:
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: إنشاء ربط المكونات في مسار الطلب
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: مكون الصورة
+                      href: e-commerce-extensibility/image-component.md
                 - name: تطوير إجراءات البيانات
                   items:
                     - name: نظرة عامة حول إجراءات البيانات
@@ -2572,9 +2588,11 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: إعداد مسار بناء Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
-                - name: قم بتنزيل نماذج وحزم من GitHub وNuGet
+                - name: قم بتنزيل عينات وحزم من GitHub وNuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
-                - name: الأسئلة الشائعة حول Retail SDK
+                - name: إعداد عميل بناء Visual Studio 2017 لإنشاء Modern POS
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
+                - name: الأسئلة المتداولة حول Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: قابلية توسعة نقطة البيع (POS)
               items:

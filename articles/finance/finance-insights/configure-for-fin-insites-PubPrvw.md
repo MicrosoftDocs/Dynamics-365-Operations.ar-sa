@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
+ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 58b23058582c949a757ec5c141e218b36833ec21e72c35db89762017dc26ae19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752932"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927394"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>تكوين Finance insights للإصدار أولي للاستخدام العام (إصدار أولي) - الإصدار 10.0.20 والإصدارات اللاحقة
 
@@ -39,7 +40,7 @@ ms.locfileid: "6752932"
 
 1. في Microsoft Dynamics Lifecycle Services (LCS)، قم بإنشاء بيئة Finance أو تحديثها. تتطلب البيئة تطبيق الإصدار 10.0.20 أو أحدث من تطبيقات Finance and Operations.
 2. يجب أن تكون البيئة بيئة عالية التوافر (HA) في وضع الحماية. (يُعرف هذا النوع من البيئة أيضًا ببيئة الطبقة 2). لمزيد من المعلومات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. إذا كنت تقوم بتكوين Finance insights في بيئة حماية، فقد تحتاج إلى نسخ بيانات الإنتاج إلى تلك البيئة لتوقعات العمل. يستخدم نموذج التنبؤ سنوات متعددة من البيانات لبناء التوقعات. لا تحتوي بيانات العرض التوضيحي لـ Contoso على بيانات تاريخية كافية للتدريب على نموذج التوقع بشكل ملائم. 
+3. إذا كنت تقوم بتكوين Finance insights في بيئة حماية، فقد تحتاج إلى نسخ بيانات الإنتاج إلى تلك البيئة لتوقعات العمل. يستخدم نموذج التنبؤ سنوات متعددة من البيانات لبناء التوقعات. لا تحتوي بيانات العرض التوضيحي لشركة Contoso على بيانات تاريخية كافية لتدريب نموذج التنبؤ بشكل مناسب. 
 
 ## <a name="configure-dataverse"></a>تكوين Dataverse
 

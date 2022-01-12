@@ -1,22 +1,22 @@
 ---
 title: جدولة طباعة بطاقات الموجة أثناء الموجة
 description: يوضح هذا الموضوع كيفية إعداد وظيفة طباعة تسمية الموجة المستندة إلى المهام واستخدامها.
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777855"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920139"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>جدولة طباعة بطاقات الموجة أثناء الموجة
 
@@ -40,7 +40,7 @@ ms.locfileid: "7777855"
 
 يجب عليك أولاً إنشاء طريقة جديدة لخطوة الموجة وتمكينها لمعالجة المهام غير المتزامنة المتوازية.
 
-1. انتقل إلى  **إدارة المستودعات \> إعداد \> الموجات \> أساليب عملية الموجة**.
+1. انتقل إلى **إدارة المستودعات \> إعداد \> الموجات \> أساليب عملي الموجة**.
 1. في جزء الإجراءات، حدد **طريقة إعادة الإنشاء**. لاحظ أنه تتم إضافة *waveLabelPrinting* إلى قائمة أساليب معالجة الموجة التي يمكنك استخدامها في قوالب موجة الشحن الخاصة بك.
 1. حدد السجل الذي يتم فيه تعيين الحقل **اسم الطريقة** إلى *waveLabelPrinting*، ثم في جزء الإجراءات، حدد **تكوين المهمة**.
 1. في جزء الإجراءات، حدد **جديد** لإضافة صف إلى الشبكة. ثم قم بتعيين الحقول التالية للصف الجديد:
@@ -51,7 +51,7 @@ ms.locfileid: "7777855"
 
 يمكنك الآن تحديث قالب موجة موجود بحيث يستخدم أسلوب معالجة الموجة *طباعة تسمية الموجة*. وبدلاً من ذلك، يمكنك إنشاء قالب موجة جديد يستخدمه.
 
-1. انتقل إلى  **إدارة المستودعات \> الإعداد \> الموجات \> قوالب الموجة**.
+1. انتقل إلى **إدارة المستودعات \> الإعداد \> الموجات \> قوالب الموجة**.
 1. في جزء الإجراءات، حدد **تحرير**.
 1. في جزء القائمة، حدد قالب الموجة المراد تحديثه. (إذا كنت تستخدم البيانات التوضيحية لأغراض الاختبار، يمكنك تحديد *افتراضي الشحن 24*.)
 1. في علامة التبويب السريعة **الطريق**، في العمود **الطرق المتبقية**، حدد الصف الذي تم فيه تعيين حقل **الاسم** إلى *waveLabelPrinting*.

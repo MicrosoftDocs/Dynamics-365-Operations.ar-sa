@@ -2,7 +2,7 @@
 title: إدارة طلبات الإجازة في Teams
 description: يوضح هذا الموضوع كيفية طلب إجازة في تطبيقات Dynamics 365 Human Resources في Microsoft Teams.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771521"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924737"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
@@ -35,6 +35,9 @@ ms.locfileid: "7771521"
 1. في Microsoft Teams، انتقل إلى قائمة التطبيقات.
  
 2. ابحث عن Dynamics 365 Human Resources، ثم حدد تجانب **Human Resources**.
+
+> [!NOTE]
+> اعتبارًا من 20 ديسمبر 2021، سيتم إيقاف تشغيل خدمات الروبوت لتطبيق الموارد البشرية (الإصدار 1.1.4) المستضافة في مستأجر Microsoft. أحدث امتداد (الإصدار 1.1.5) متاح للتثبيت. لمزيد من المعلومات، راجع [إدارة طلبات الإجازة في Teams](hr-admin-teams-leave-app.md#update-app).
 
 3. حدد زر **إضافة** لتثبيت التطبيق.
 

@@ -2,7 +2,7 @@
 title: تطبيق Human Resources في Teams
 description: يقدم لك هذا الموضوع تطبيق Microsoft Dynamics 365 Human Resources في Microsoft Teams.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913479"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924712"
 ---
 # <a name="human-resources-app-in-teams"></a>تطبيق Human Resources في Teams
 
@@ -41,6 +41,21 @@ ms.locfileid: "7913479"
 للحصول على معلومات حول إدارة أذونات التطبيق في Teams، راجع [إدارة نهج أذونات التطبيق في Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies)
 
 إذا كنت ترغب أن يقوم المستخدمون بعرض تقويم الإجازة والغياب في التطبيق، فستحتاج إلى تمكين **‏‫تقويم الإجازة والغياب في Teams** في إدارة الميزات. لمزيد من المعلومات حول تمكين الميزات، راجع [إدارة الميزات](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>تحديث التطبيق
+>[!NOTE]
+> اعتبارًا من 20 ديسمبر 2021، سيتم إيقاف تشغيل خدمات الروبوت لتطبيق الموارد البشرية المستضافة في مستأجر Microsoft. لن يكون هناك أي تأثير للتمديد المحدث (الإصدار 1.1.5) المتاح للتثبيت. سيكون التأثير الرئيسي على الامتداد القديم (الإصدار 1.1.4). سيتوقف برنامج الدردشة الآلي في هذا الإصدار عن العمل. ستستمر علامة التبويب **الإجازة** في العمل في كلا الامتدادين.
+
+بالنسبة للإصدار 1.1.4، سيتوقف روبوت الدردشة عن الاستجابة لأي رسالة. على سبيل المثال، **تسجيل الدخول**، و **عرض الأرصدة**، و **الاطلاع على الإجازة**. يجب تحديث التطبيق يدويًا إلى أحدث إصدار. لمزيد من المعلومات، راجع [تحديث التطبيقات في Microsoft Teams](/MicrosoftTeams/apps-update-experience).
+
+للتحديث إلى الإصدار 1.1.5، أكمل الخطوات التالية:
+1. في Microsoft Teams، انتقل إلى **التطبيقات**.
+2. ابحث عن تطبيق **Human Resources**.
+3. حدد **ترقية**.
+
+يمكنك التحقق من إصدار تطبيق الموارد البشرية إما بالانتقال إلى علامة التبويب **حول** أو بالانتقال إلى قسم **التطبيق الشخصي**. 
+
+![علامة التبويب **حول** في Human Resources.](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>تمكين الإعلامات لتطبيق Human Resources في Teams
 

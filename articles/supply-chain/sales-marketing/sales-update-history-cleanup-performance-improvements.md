@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891749"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920263"
 ---
-# <a name="saleshistorycleanupperformanceimprovements"></a>تحسينات في أداء تنظيف محفوظات المبيعات
+# <a name="sales-history-cleanup-performance-improvements"></a>تحسينات في أداء تنظيف محفوظات المبيعات
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "7891749"
 
 بعد تمكين الميزة ، سيتم تشغيل وظيفة مجموعه  **تنظيف محفوظات تحديث المبيعات** (**المبيعات والتسويق \>مهام فتره \>تنظيف \>محفوظات تحديث المبيعات**) كما كانت سابقا ، ولكن مع أداء أفضل وبحد اقصي يبلغ عدد الساعات 2. وهذا يعني انه قد يحتاج لتشغيل عده مرات لتنظيف كافة البيانات الخاصة بإطار زمني لاحتجاز محدد.
 
-## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>تشغيل ميزة تحسينات في أداء تنظيف محفوظات المبيعات
+## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>تشغيل ميزة تحسينات في أداء تنظيف محفوظات المبيعات
 
 قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 

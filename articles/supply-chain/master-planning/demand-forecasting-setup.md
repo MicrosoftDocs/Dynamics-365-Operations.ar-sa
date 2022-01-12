@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3abe82bb888b7501b00af44b48bfb40fbe8e2ee3
-ms.sourcegitcommit: 6ef4906621fbb4e3afaf2b0d6697536288365bb1
+ms.openlocfilehash: 4f53171361b655ab4ae05894d098203df0af8d60
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868627"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920763"
 ---
 # <a name="demand-forecasting-setup"></a>إعداد التنبؤ بالطلب
 
@@ -195,9 +195,6 @@ ms.locfileid: "7868627"
 ## <a name="set-up-the-azure-machine-learning-service"></a><a name="setup-amls"></a>إعداد خدمة التعلم الآلي من Azure
 
 تعمل Supply Chain Management على حساب تنبؤات الطلبات باستخدام خدمة التعلم الآلي من Azure، والتي يجب إعدادها وتشغيلها على اشتراك Azure الخاص بك. يوضح هذا القسم كيفية إعداد خدمة التعلم الآلي من Azure في Azure ثم ربطها ببيئة Supply Chain Management الخاصة بك.
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: Preview until 10.0.23 GA -->
 
 ### <a name="enable-the-azure-machine-learning-service-in-feature-management"></a>تمكين خدمة التعلم الآلي من Azure في إدارة الميزات
 

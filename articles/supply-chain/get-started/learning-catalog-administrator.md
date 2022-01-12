@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a11455c4e3f59ef52d9a1e3d2e6a10c57a070a79
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402215"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920413"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>كتالوج التعلم لمسؤولي Dynamics 365 Supply Chain Management
 
@@ -66,7 +66,7 @@ ms.locfileid: "7402215"
 
 ## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
 
-| المحتوى | الوصف | تنسيق | الطول |
+| المحتوى | الوصف | التنسيق | Length |
 |---------|-------------|--------|--------|
 | [إعداد إدارة التغييرات للهندسة لـ Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | تتطلب الشركات المصنعة للمنتج أداره بيانات قويه، والتحكم في الإصدار، وأداره التغييرات الهندسية لتنجح في عالم دوره حياه المنتج والجودة المتزايدة ومتطلبات الثبات والتركيز المتزايد علي أمان المنتج. تعرف على كيفية إعداد إدارة التغييرات الهندسية في مسار التعلم هذا. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 4 ساعات |
 

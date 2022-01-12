@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 5f3ecfa388eac42a817d751b882f365a51fc57cf
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 0a2bd50ef11e92fb427a61a1e8624fcd7d15e163
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678947"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920164"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>الجدولة بقدرة غير محدودة
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)] <!--KFM: Until 1/14/2022 -->
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!--KFM: Preview until 1/14/2022 -->
 
 تقدم ميزة *جدولة قدرة غير محدودة لتحسين التخطيط* جدولة تستند إلى معلومات المسار. وتتيح لك إمكانية جدولة الوظائف استنادا إلى نطاق واسع من إعدادات المسار. تغطي الجدولة لتحسين التخطيط إعدادات المسارات المستخدمة بشكل متكرر، بما في ذلك تسلسل عمليات المسار أو متطلبات موارد عملية المسار.
 
