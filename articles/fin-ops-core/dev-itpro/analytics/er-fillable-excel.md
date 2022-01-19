@@ -2,7 +2,7 @@
 title: تصميم تكوين لإنشاء مستندات بتنسيق Excel
 description: يصف هذا الموضوع كيفية تصميم تنسيق التقارير الإلكترونية (ER) لملء قالب Excel، ثم إنشاء مستندات صادرة بتنسيق Excel.
 author: NickSelin
-ms.date: 12/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943602"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952642"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>تصميم تكوين لإنشاء المستندات بتنسيق Excel
 
@@ -379,7 +379,7 @@ ms.locfileid: "7943602"
     2. استخدم التقارير الإلكترونية لإنشاء مصنف Excel ثانٍ (مصنف ب) من Finance يحتوي على التفاصيل المطلوبة. 
     3. راجع المصنف ب في المصنف أ بمجرد إنشاء المصنف ب.
 
-- استخدم خيارًا بخلاف EPPlus لإيقاف تشغيل الميزة. 
+- أوقف تشغيل الميزة، وقم بـ **تمكين استخدام مكتبة EPPlus في إطار عمل إعداد التقارير الإلكترونية** لاستخدام خيار آخر غير EPPlus. 
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

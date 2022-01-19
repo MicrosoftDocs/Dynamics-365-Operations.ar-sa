@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920090"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952617"
 ---
 # <a name="inventory-visibility-public-apis"></a>واجهات API العامة لرؤية المخزون
 
@@ -48,6 +48,8 @@ ms.locfileid: "7920090"
 
 > [!NOTE]
 > جزء {environmentId} من المسار هو معرف البيئة في Microsoft Dynamics Lifecycle Services (LCS).
+> 
+> يمكن لواجهة برمجة التطبيقات المجمعة إرجاع 512 سجلاً كحد أقصى لكل طلب.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>البحث عن نقطة النهاية وفقًا لبيئة Lifecycle Services الخاصة بك
 
@@ -249,7 +251,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>إنشاء أحداث تغيير متعددة
 
-يمكن لواجهة برمجة التطبيقات هذه إنشاء سجلات متعددة في نفس الوقت. الاختلافات الوحيدة بين واجهة برمجة التطبيقات هذه و[واجهة برمجة تطبيقات الحدث الواحد](#create-one-onhand-change-event) هي قيم `Path` و`Body`. بالنسبة لواجهة برمجة التطبيقات هذه، يوفر `Body` مجموعة من السجلات.
+يمكن لواجهة برمجة التطبيقات هذه إنشاء سجلات متعددة في نفس الوقت. الاختلافات الوحيدة بين واجهة برمجة التطبيقات هذه و[واجهة برمجة تطبيقات الحدث الواحد](#create-one-onhand-change-event) هي قيم `Path` و`Body`. بالنسبة لواجهة برمجة التطبيقات هذه، يوفر `Body` مجموعة من السجلات. الحد الأقصى لعدد السجلات هو 512، مما يعني أن API المجمعة للتغييرات المتاحة يمكن أن تدعم ما يصل إلى 512 حدث تغيير في المرة الواحدة.
 
 ```txt
 Path:

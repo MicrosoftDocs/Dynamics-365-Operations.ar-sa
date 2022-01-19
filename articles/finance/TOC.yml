@@ -1048,7 +1048,7 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: إقفال شامل للفترة المالية
                   href: general-ledger/tasks/mass-financial-period-close.md
-                - name: الأسئلة الشائعة حول الأنشطة في نهاية السنة
+                - name: الأسئلة المتداولة حول الأنشطة في نهاية السنة
                   href: general-ledger/faq-year-end-activities.md
             - name: ضريبة المبيعات
               items:
@@ -1212,7 +1212,9 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: تمكين التنبؤ بالتدفق النقدي
                   href: finance-insights/enable-cash-flow-forecasting.md
-                - name: تمكين مقترحات الميزانية
+                - name: البيانات الخارجية في تنبؤات التدفق النقدي
+                  href: finance-insights/external-data-in-cash-flow.md
+                - name: تمكين مقترحات الموازنة
                   href: finance-insights/enable-budget-proposal.md
                 - name: إنشاء مشروع تكامل البيانات
                   href: finance-insights/create-data-integrate-project.md
@@ -1226,16 +1228,14 @@
                       href: finance-insights/improve-model.md
                     - name: دورة حياة إدارة النموذج
                       href: finance-insights/model-manage-lifecycle.md
-            - name: استخدام المعلومات المالية
+            - name: استخدام Finance insights
               items:
-                - name: مقترحات الميزانية
+                - name: مقترحات الموازنة
                   href: finance-insights/budget-proposals.md
                 - name: الوضع النقدي
                   href: finance-insights/cash-position.md
-                - name: تقدير التدفقات النقدية
+                - name: التنبؤ بالنقد
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: استخدم البيانات الخارجية في تنبؤات التدفق النقدي
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: توقعات دفع العميل
                   href: finance-insights/payment-insights-overview.md
                 - name: استخدام توقعات دفع العميل
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: إعداد التكامل المباشر لميزة FatturaPA الإيطالية باستخدام SDI
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير الموردين
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: إعداد الفوترة الإلكترونية
@@ -1512,7 +1514,11 @@
                           items:
                             - name: إقرار ضريبة القيمة المضافة
                               href: localizations/emea-gbr-vat-declaration.md
-                    - name: تمكين حساب الضرائب لأمر التحويل
+                        - name: إعداد التقارير في النرويج
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة
+                              href: localizations/emea-nor-vat-declaration.md
+                    - name: تمكين عملية حساب الضرائب لأمر التحويل
                       items:
                         - name: دعم ميزة الضريبة لأوامر التحويل
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
@@ -1557,7 +1563,7 @@
                 - name: كشف حساب ضريبة القيمة المضافة
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: تقرير خدمات عبر الحدود
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي للنمسا
                   href: localizations/emea-aut-intrastat.md
                 - name: رسوم المشتريات
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: طرق إهلاك الأصول الثابتة
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: استيراد كيان بيانات الضريبة الصينية الذهبية
+                - name: استيراد ملفات الضريبة الصينية الذهبية
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: نموذج متوسط التكلفة الشهرية
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: تقرير دفع ضريبة المبيعات لفنلندا
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي الخاص بفنلندا
+                  href: localizations/emea-fin-intrastat.md
             - name: فرنسا
               items:
                 - name: نظرة عامة على فرنسا
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: إقرار ضريبة القيمة المضافة لإندونيسيا
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: تقرير ضريبة الخصم لإندونيسيا
+                  href: localizations/apac-idn-wht-declaration.md
             - name: إيطاليا
               items:
                 - name: نظرة عامة على إيطاليا

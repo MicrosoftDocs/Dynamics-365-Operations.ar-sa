@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937650"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952588"
 ---
 # <a name="engineering-change-management-overview"></a>نظرة عامة حول إدارة التغيير الهندسي
 
@@ -71,6 +71,7 @@ ms.locfileid: "7937650"
 
 1. إذا كنت تريد أيضًا استخدام بُعد الإصدار، فحدد خانة الاختيار **بُعد المنتج - الإصدار**. (تكون خانة الاختيار هذه أعلى القائمة بشكل أكبر، وليست متداخلة ضمن عقدة **إدارة التغيير للهندسة**.)
 1. إيقاف تشغيل وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. قم بتشغيل مزامنة قاعدة بيانات للتأكد من تمكين مفاتيح التكوين بشكل صحيح.
 
 > [!IMPORTANT]
 > ابتداءً من أبريل 2022، سيتم تمكين مفاتيح الترخيص لكل من **إدارة التغيير الهندسي** و **بُعد الإنتاج - الإصدار** افتراضيًا لجميع عمليات التثبيت الجديدة، ولكن ستظل قادرًا على تعطيلها إذا لزم الأمر.

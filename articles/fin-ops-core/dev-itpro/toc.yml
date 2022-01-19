@@ -512,6 +512,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: إنشاء اتصال Lifecycle Services (LCS) في Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: تحديث مهام مصادقه اتصال LCS بـ MSAL في Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: تحديث Azure Pipeline المستضاف لحزم NuGet الجديدة
                   href: dev-tools/pipeline-nuget-split.md
                 - name: تحديث تدفق قديم في Azure Pipelines
@@ -1484,6 +1486,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: اختبار بيانات مستقل باستخدام Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: تشغيل Regression Suite Automation Tool ‏(RSAT) مع التنفيذ المتوازي
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: استكشاف الأخطاء وإصلاحها
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: إصدار حلول باستخدام Lifecycle Services
