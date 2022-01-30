@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 16ccd7f2e11f0b46aaa646de272e668d29ccc0c0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 5002fc79842bef150892347a7ff4702b07cfe5be
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752918"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968858"
 ---
 # <a name="enable-customer-payment-predictions"></a>تمكين توقعات دفع العميل
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفية تشغيل وتكوين ميزة توقعات دفع العميل في Finance Insights. يمكنك تشغيل الميزة في مساحة عمل **إدارة الميزات** وأدخل إعدادات التكوين في صفحة **معلمات Finance Insights**. يتضمن هذا الموضوع أيضًا معلومات يمكن أن تساعدك في استخدام الميزة بفاعلية.
 

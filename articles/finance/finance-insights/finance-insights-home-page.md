@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813729"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968762"
 ---
 # <a name="finance-insights-home-page"></a>الصفحة الرئيسية لـ Finance Insights
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 توفر Finance insights حلول قابلة للتكوين وقابلة للتوسعة لمساعدتك في توقع التدفق النقدي لشركتك بذكاء، وتوقع الوقت الذي ستقوم فيه باستلام المدفوعات المدينة المستحقة وإنشاء مقترح موازنة يمكنه المساعدة في تسريع عملية إعداد الموازنة. تستخدم هذه الميزات قوالب التعلم الآلي الذكية لإنشاء النماذج باستخدام البيانات التي توفرها (بما في ذلك البيانات من جهة خارجية مثل معلومات تقرير المستهلك من مكتب مكتب). تقوم هذه القدرات الذكية بإعلام صنع القرار وتساعدك في اتخاذ إجراء للاستجابة بشكل فعال إلى تحديات العمل الحالية والمتوقعة. إنك مسؤول عن أية بيانات تستخدم مع، أو إخراج من، Finance insights.
 
 > [!NOTE]
-> تتوفر معاينة Finance Insights للنشر في الولايات المتحدة الأمريكية وكندا والمملكة المتحدة وأوروبا وآسيا والمحيط الهادئ واليابان وأستراليا ونيوزيلندا. تُعد Microsoft دعمًا إضافيًا بشكل متزايد للعديد من المناطق.
+> يتوفر Finance Insights للنشر في الولايات المتحدة الأمريكية وكندا والمملكة المتحدة وأوروبا وآسيا والمحيط الهادئ واليابان وأستراليا ونيوزيلندا. تُعد Microsoft دعمًا إضافيًا بشكل متزايد للعديد من المناطق.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
@@ -76,7 +75,7 @@ ms.locfileid: "7813729"
 
 ### <a name="enable-budget-proposals"></a>تمكين مقترحات الموازنة
 
-تستخدم ميزة مقترحات الموازنة نموذج التعلم الآلي مع البيانات المحفوظة لمؤسسك لإنشاء مقترح موازنة. يمكن أن يساعد المقترح الذي تم إنشاؤه في بدء عملية إعداد موازنة تكون أكثر فعالية ونفاذ من عملية يدوية. بالنسبة للخطوات المحددة لتمكين هذه الميزة، راجع  [تمكين مقترحات الموازنة](enable-budget-proposal.md). 
+تستخدم ميزة مقترحات الموازنة نموذج التعلم الآلي مع البيانات المحفوظة لمؤسسك لإنشاء مقترح موازنة. يمكن أن يساعد المقترح الذي تم إنشاؤه في بدء عملية إعداد موازنة تكون أكثر فعالية ونفاذ من عملية يدوية. بالنسبة للخطوات المحددة لتمكين هذه الميزة، راجع [تمكين مقترحات الموازنة](enable-budget-proposal.md). 
 
 ## <a name="using-finance-insights-features"></a>استخدام ميزات Finance insights
 

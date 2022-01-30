@@ -3,24 +3,23 @@ title: نظرة عامة على مهام صيانة أوامر العمل الن
 description: يقدم هذا الموضوع نظرة عامة على مهام صيانة أوامر العمل النشطة في إدارة الأصول.
 author: johanhoffmann
 ms.date: 10/15/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d17b719e569d151a5cb54f492e8e0fbbba72573fd23d6d46c99872a7aa84b2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fdfbce3315d98fdb2bd7b980a3281f69fc821376
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756066"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982551"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>نظرة عامة على مهام صيانة أوامر العمل النشطة
 

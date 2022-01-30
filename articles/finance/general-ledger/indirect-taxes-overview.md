@@ -3,7 +3,7 @@ title: نظرة عامة على ضريبة المبيعات
 description: يوفر هذا الموضوع نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا.
 author: kailiang
 ms.date: 10/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2aa1f3f261459bca9321e0f71ac328ac0734b96f
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726767"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983918"
 ---
 # <a name="sales-tax-overview"></a>نظرة عامة على ضريبة المبيعات
 

@@ -1,24 +1,23 @@
 ---
 title: نظرة عامة على أوروبا
 description: يوفر هذا الموضوع ارتباطات إلى موارد وثائق Microsoft Dynamics 365 Finance لأوروبا.
-author: ShylaThompson
-ms.date: 02/24/2021
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c5e57bb115e27880c2fee888be4ab02c51462a
-ms.sourcegitcommit: 4946b7f250f8b5cd3d09098b08e74bc5763d1c86
+ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7792599"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982084"
 ---
 # <a name="europe-overview"></a>نظرة عامة على أوروبا
 
@@ -94,6 +93,7 @@ ms.locfileid: "7792599"
   - [إنشاء تقرير ضريبة القيمة المضافة وإرساله](tasks/create-submit-vat-report.md)
   - [عرض حركات التسوية لأوروبا الشرقية](emea-transactions-settlement-form.md)
   - [تاريخ نقطه الضريبة (تاريخ سجل ضريبة القيمة المضافة)](emea-tax-point-date.md)
+  - [تاريخ سجل ضريبة القيمة المضافة للمورد](emea-date-vendor-VAT-register.md)
 - [ملحق ميزة السبب المالي](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية

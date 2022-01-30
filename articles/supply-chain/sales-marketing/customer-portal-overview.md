@@ -3,22 +3,21 @@ title: مدخل العميل للنظرة العامة على Dynamics 365 Suppl
 description: يقدم هذا الموضوع مدخل العميل، ويقدم شرحًا يتعلق بالجهات التي يمكنها استخدامه وكيفية عمله.
 author: Henrikan
 ms.date: 06/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c1383ee3c8e72f630d29a557de4150cdd3aa905f
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 04a1a06dce79259e35ce66dda469e9b157d7ed1c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937492"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983228"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>نظرة عامة على مدخل العميل في Dynamics 365 Supply Chain Management
 
@@ -43,7 +42,7 @@ ms.locfileid: "7937492"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-يتم تضمين [نظرة عامة لنموذج بوابة العميل في الفيديو Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (المعروض أعلاه) في [Finance and Operations قائمة التشغيل](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفر على YouTube.
+تم تضمين الفيديو [نظرة عامة حول قالب مدخل العميل في Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8)  (يظهر أعلاه) في [قائمة تشغيل التمويل والعمليات](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة على YouTube.
 
 ## <a name="who-should-use-it"></a>من هي الجهات التي يمكنها استخدامه؟
 
@@ -63,7 +62,7 @@ ms.locfileid: "7937492"
 
 [إن مداخل Power Apps](/powerapps/maker/portals/overview) عبارة عن ميزه تتيح للمستخدمين إنشاء موقع خارجي يستطيع الأشخاص من خارج المؤسسة تسجيل الدخول اليه. لإنشاء المداخل، تحتاج إلى تعليمات برمجية قليلة أو لا تحتاجها إطلاقًا. يعد مدخل العميل واحدًا من ضمن [قوالب مداخل Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) المتعددة المتوفرة من Microsoft.
 
-[الكتابة المزدوجة](/powerapps/maker/portals/overview)‬ هي بنية أساسية جاهزة توفر تفاعلاً قريبًا من الوقت الفعلي بين تطبيقات Customer Engagement وتطبيقات Finance and Operations. وتوفر الكتابة المزدوجة تكاملاً ثنائي الاتجاه بين تطبيقات Finance and Operations وMicrosoft Dataverse. وهي بالتالي توفر تجربة متكاملة للمستخدم عبر التطبيقات. يعتمد مدخل العميل على الجداول التي تتم مزامنتها مع الكتابة المزدوجة. قبل التمكن من إظهار البيانات من Supply Chain Management في مدخل العميل، يجب تمكين الكتابة المزدوجة لكافة الجداول المناسبة.
+[الكتابة المزدوجة](/powerapps/maker/portals/overview) هي بنية أساسية جاهزة توفر تفاعلاً قريبًا من الوقت الفعلي بين تطبيقات مشاركة العميل وتطبيقات التمويل والعمليات. وتوفر الكتابة المزدوجة دمجًا ثنائي الاتجاه بين تطبيقات التمويل والعمليات وMicrosoft Dataverse. وهي بالتالي توفر تجربة متكاملة للمستخدم عبر التطبيقات. يعتمد مدخل العميل على الجداول التي تتم مزامنتها مع الكتابة المزدوجة. قبل التمكن من إظهار البيانات من Supply Chain Management في مدخل العميل، يجب تمكين الكتابة المزدوجة لكافة الجداول المناسبة.
 
 ![تبعيات مدخل العميل.](media/customer-portal-elements.png "تبعيات مدخل العميل")
 

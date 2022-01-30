@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 574540
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Saudi Arabia
 ms.author: ilyako
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 29d78e2f26bc73d5803d0ba8ceedee40b31bfd2c
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: e14407450566095b37a0b56fa4ff99dba7716c79
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902573"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7981971"
 ---
 # <a name="get-started-with-electronic-invoicing-for-saudi-arabia"></a>الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
 

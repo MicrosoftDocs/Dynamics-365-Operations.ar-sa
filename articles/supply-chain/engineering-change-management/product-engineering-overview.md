@@ -2,23 +2,22 @@
 title: نظرة عامة على إدارة التغيير الهندسي (تحتوي على فيديو)
 description: يوفر هذا الموضوع نظره عامه حول أداره التغييرات الهندسية، والتي تساعدك في تخطيط إصدار المنتج وأدارته ، وأداره التغييرات الهندسية ودورات المنتج.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952588"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985202"
 ---
 # <a name="engineering-change-management-overview"></a>نظرة عامة حول إدارة التغيير الهندسي
 
@@ -39,9 +38,9 @@ ms.locfileid: "7952588"
 - طلبات التغيير الهندسية المعتمدة من قبل مهام سير العمل
 - أوامر التغيير الهندسي المعتمدة من قبل مهام سير العمل
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-يتم تضمين الفيديو السابق ( [قدرات أداره التغييرات في Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) في قائمة تشغيل [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة علي YouTube.
+تم تضمين الفيديو السابق ([إمكانات إدارة التغييرات في Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) في [قائمة تشغيل التمويل والعمليات](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة على YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>تشغيل ميزات إدارة التغييرات الهندسية للنظام الخاص بك
 
@@ -71,7 +70,9 @@ ms.locfileid: "7952588"
 
 1. إذا كنت تريد أيضًا استخدام بُعد الإصدار، فحدد خانة الاختيار **بُعد المنتج - الإصدار**. (تكون خانة الاختيار هذه أعلى القائمة بشكل أكبر، وليست متداخلة ضمن عقدة **إدارة التغيير للهندسة**.)
 1. إيقاف تشغيل وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. قم بتشغيل مزامنة قاعدة بيانات للتأكد من تمكين مفاتيح التكوين بشكل صحيح.
+1. يجب مزامنة قاعدة البيانات للتأكد من تمكين مفاتيح التكوين بشكل صحيح. نفذ إحدى الخطوات التالية بالاستناد إلى نوع البيئة التي تعمل عليها:
+    - **بالنسبة لبيئات المستوى 1 (التطوير)**: افتح مشروعك في Microsoft Visual Studio ثم حدد **Dynamics 365 \> مزامنة قاعدة البيانات \> مزامنة**.
+    - **بالنسبة للبيئات 2 (وأعلى)**: تتم مزامنة قاعدة البيانات بشكل تلقائي بعد إدخال البيئة إلى وضع الصيانة وإخراجها منه، بحيث يمكنك تخطي هذه الخطوة.
 
 > [!IMPORTANT]
 > ابتداءً من أبريل 2022، سيتم تمكين مفاتيح الترخيص لكل من **إدارة التغيير الهندسي** و **بُعد الإنتاج - الإصدار** افتراضيًا لجميع عمليات التثبيت الجديدة، ولكن ستظل قادرًا على تعطيلها إذا لزم الأمر.

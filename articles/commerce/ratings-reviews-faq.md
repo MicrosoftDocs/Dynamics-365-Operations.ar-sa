@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d3642392ed2cf231f261b24428756c6e32a79f98
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c6356f7c085b93e3e3f292e72f813f823e924487
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674564"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968167"
 ---
 # <a name="ratings-and-reviews-faq"></a>الأسئلة المتداولة حول التقييمات والمراجعات
 
@@ -41,5 +41,17 @@ ms.locfileid: "7674564"
 [الموافقة على استخدام التقييمات والمراجعات](opt-in-ratings-reviews.md)
 
 [تمكين النشر اليدوي لتقييمات ومراجعات بواسطة المشرف](manual-publish-rating-reviews.md)
+
+[إدارة التقييمات والمراجعات](manage-reviews.md)
+
+[تكوين التقييمات والمراجعات](configure-ratings-reviews.md)
+
+[مزامنة تقييمات المنتجات](sync-product-ratings.md)
+
+[تمكين النشر اليدوي لتقييمات ومراجعات بواسطة المشرف](manual-publish-rating-reviews.md)
+
+[استيراد التقييمات والمراجعات وتصديرها](import-export-reviews.md)
+
+[تكوين مصادقة من خدمة إلى خدمة](service-to-service-auth.md)
 
 [تظهر "مدقق التصنيفات" على نتائج البحث وصفحات الفئات عند عدم تمكين حل التقييمات والمراجعات](troubleshoot/hide-ratings-refiner.md)

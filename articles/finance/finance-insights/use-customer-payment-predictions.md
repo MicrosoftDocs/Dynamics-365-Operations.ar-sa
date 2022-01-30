@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752764"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968902"
 ---
 # <a name="use-customer-payment-predictions"></a>استخدام توقعات دفع العميل
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفية استخدام توقعات دفع العميل. قبل استخدام هذه الميزة، تأكد من إكمالك لخطوات الإعداد الخاصة بها. للحصول على مزيد من المعلومات، راجع [تمكين توقعات دفع العميل](enable-cust-paymnt-prediction.md).
 

@@ -2,7 +2,7 @@
 title: إعداد التكامل المباشر لـ FatturaPA الإيطالية مع SDI
 description: يوفر هذا الموضوع معلومات ستساعدك على البدء في استخدام الفواتير الإلكترونية لإيطاليا وإعداد التكامل المباشر لـ FatturaPA الإيطالية مع نظام Exchange (SDI).
 author: abaryshnikov
-ms.date: 12/14/2021
+ms.date: 01/15/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 0ccc9f04e42e748b4531622a1c90559d4ca17196
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922442"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984793"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>إعداد التكامل المباشر لـ FatturaPA الإيطالية مع SDI
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > قد لا تدعم الفوترة الإلكترونية في إيطاليا في الوقت الحالي جميع الوظائف المتوفرة للفواتير الإلكترونية في Microsoft Dynamics 365 Finance وفي Dynamics 365 Supply Chain Management.

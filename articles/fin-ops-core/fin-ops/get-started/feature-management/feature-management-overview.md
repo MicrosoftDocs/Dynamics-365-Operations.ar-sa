@@ -1,27 +1,26 @@
 ---
 title: نظرة على إدارة الميزات
-description: يصف هذا الموضوع ميزة إدارة الميزات وكيف يمكن استخدامها.
+description: يصف هذا الموضوع إدارة الميزات وكيف يمكن استخدامها.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488168"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984449"
 ---
 # <a name="feature-management-overview"></a>نظرة على إدارة الميزات
 
@@ -75,9 +74,9 @@ ms.locfileid: "7488168"
 > [!NOTE]
 > نظرا لأنه سيتم تمكين هذه الميزات تلقائيا، فمن المهم تحديد ما إذا كانت مؤسستك مستعدة لمتابعة هذه الميزات، أو ما إذا كان هناك حاجة إلى مزيد من الوقت. إذا كان هناك حاجة إلى مزيد من الوقت، قد يكون من الضروري تعطيل هذه الميزات مؤقتا. لاحظ أن انتقال ميزة إلى **تشغيل بشكل افتراضي** يتم عادة في الإصدار الرئيسي قبل استهداف الميزة لتصبح **إلزامية**. عند هذه النقطة، لن يكون لديك خيار تعطيل الميزة. 
 
-### <a name="released-features-mandatory"></a>الميزات التي تم إصدارها (إلزامي)
+### <a name="mandatory"></a>إلزامي
 
-**إصدار** هو الحالة النهائية للميزات. يشير إلى أن الميزات يتم تشغيلها، وأنه لا يمكنك تعطيلها دون الاتصال بـ Microsoft. ومن المتوقع أن تصبح الميزات الاختيارية إلزامية بعد إصدارين رئيسيين. ويمكن، باستثناء ذلك، تقديم الميزات الهامة باعتبارها إلزامية.
+**إلزامي** هو الحالة النهائية للميزات. يشير إلى أن الميزات يتم تشغيلها، وأنه لا يمكنك تعطيلها دون الاتصال بـ Microsoft. ومن المتوقع أن تصبح الميزات الاختيارية إلزامية بعد إصدارين رئيسيين. ويمكن، باستثناء ذلك، تقديم الميزات الهامة باعتبارها إلزامية.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>مثال لدورات حياة المعالم المتوقعة
 

@@ -3,7 +3,7 @@ title: نظرة عامة على Human Resources
 description: تعمل الموارد البشرية على تبسيط مهام حفظ السجلات الروتينية، وأتمتة العمليات المتعلقة بتوظيف مؤسستك، وتوفر إطارًا لموظفي الموارد البشرية لإدارة مجالات الرقابة.
 author: andreabichsel
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96571e1728f6a5d3b86a161b39424d34dfdbb47bf039b60b69b0a7c908639e1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cd7ce1268dd1aeae142e85fdd3ea2d9faa0a659
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713842"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983119"
 ---
 # <a name="human-resources-overview"></a>نظرة عامة على Human Resources
 

@@ -3,7 +3,7 @@ title: نظرة عامة على التخطيط الرئيسي ووظائف ال�
 description: يأخذ التخطيط الرئيسي إعدادات أبعاد مخزون المستودع والموقع في الاعتبار.
 author: ChristianRytt
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventLocation, InventSite
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edcf35ea0a5be870d8a57cd782664d0a0b77de5c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e594cfd71201c6a629c04d5557c117649e6b19b0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575670"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982319"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة
 

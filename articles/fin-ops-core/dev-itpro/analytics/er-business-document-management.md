@@ -3,24 +3,23 @@ title: نظرة عامة حول إدارة مستندات الأعمال
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام ميزة إدارة مستندات الأعمال الخاصة بإطار عمل إعداد التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 04/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753066"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986241"
 ---
 # <a name="business-document-management-overview"></a>نظرة عامة حول إدارة مستندات الأعمال
 
@@ -41,7 +40,7 @@ ms.locfileid: "6753066"
 
 لاستخدام إدارة مستندات الأعمال لتحرير القوالب بتنسيقات Excel أو Word باستخدام تطبيقات سطح المكتب في Microsoft Office، يجب تثبيت Microsoft Office 2010 أو إصدار لاحق. وهي معتمدة في عمليات النشر المحلي.
 
-لاستخدام إدارة مستندات الأعمال لتحرير القوالب بتنسيقات Excel أو Word باستخدام تطبيقات Microsoft 365، يجب تثبيت Microsoft 365 Office لاشتراك الويب. يتم دعم ذلك في نشر السحابة.
+لاستخدام إدارة مستندات الأعمال لتحرير القوالب بتنسيقات Excel أو Word باستخدام تطبيقات Microsoft 365، يجب أن يتوفر لديك Microsoft 365 Office لاشتراك الويب. يتم دعم ذلك في نشر السحابة.
 
 ## <a name="business-document-availability"></a>توافر مستندات الأعمال
 
@@ -159,7 +158,7 @@ ms.locfileid: "6753066"
 نوع المستند المحدد خاص بالشركة وسيتم استخدامه عندما يعمل المستخدم مع إدارة مستندات الأعمال في الشركة التي تم تكوين نوع المستند المحدد لها. عندما يعمل المستخدم مع إدارة مستندات الأعمال في شركة أخرى، فسيتم استخدام نوع المستند نفسه إذا لم يتم تكوين أي نوع مستند لهذه الشركة. عندما يتم تكوين نوع مستند، سيتم استخدامه بدلاً من النوع المحدد في الحقل **نوع مستند SharePoint**.
 
 > [!NOTE]
-> تعرِف معلمة **نوع مستند SharePoint** مجلد SharePoint كتخزين مؤقت للقوالب التي يمكن تحريرها باستخدام Microsoft Excel أو Word. يجب إعداد هذه المعلمة إذا ما كنت تخطط لاستخدام تطبيقات Office لسطح المكتب هذه لتحرير القوالب. لمزيد من المعلومات، راجع [تحرير قالب في تطبيق سطح المكتب لـ Office](#EditInOfficeDesktopApp). يمكنك الاحتفاظ بهذه المعلمة فارغة إذا ما كنت تخطط لتعديل القالب باستخدام الوظيفة في Microsoft 365 فقط. لمزيد من المعلومات، راجع [تحرير قالب في Microsoft 365](#EditInOffice365).
+> تعرِف معلمة **نوع مستند SharePoint** مجلد SharePoint كتخزين مؤقت للقوالب التي يمكن تحريرها باستخدام Microsoft Excel أو Word. يجب إعداد هذه المعلمة إذا ما كنت تخطط لاستخدام تطبيقات Office لسطح المكتب هذه لتحرير القوالب. لمزيد من المعلومات، راجع [تحرير قالب في تطبيق سطح المكتب لـ Office](#EditInOfficeDesktopApp). يمكنك الاحتفاظ بهذه المعلمة فارغة إذا كنت تخطط لتعديل القالب باستخدام الوظائف في Microsoft 365 فقط. لمزيد من المعلومات، راجع [تحرير قالب في Microsoft 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>تكوين أذونات الوصول
 
@@ -406,9 +405,9 @@ ms.locfileid: "6753066"
 
 ### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>لقد حددت تحرير مستند، ولكن بدلاً من الانتقال إلى صفحة محرر قالب BDM في Finance، تم إرسالي إلى صفحة ويب Microsoft 365.
 
-هذه مشكلة معروفة تتضمن إعادة توجيه Microsoft 365. وهو يقع عندما تسجل دخولك إلى Microsoft 365 للمرة الأولى. لحل هذه المشكلة ، حدد **الخلف** في المستعرض للرجوع إلى الصفحة السابقة.
+هذه مشكلة معروفة تتضمن إعادة توجيه Microsoft 365. وهي تحدث عندما تسجل دخولك إلى Microsoft 365 للمرة الأولى. لحل هذه المشكلة ، حدد **الخلف** في المستعرض للرجوع إلى الصفحة السابقة.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>أنا أعرف كيفية تحرير قالب باستخدام Microsoft 365 في جلسة التطبيق الأولى وكيفية استخدام القالب في جلسة التطبيق الثانية عن طريق ضبط القالب لمعرفة كيفية تأثير التغييرات على مستند العمل الذي تم إنشاؤه. هل يمكنني استخدام تطبيق سطح مكتب Office بنفس الطريقة؟
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>أنا أعرف كيفية تحرير قالب باستخدام Microsoft 365 في جلسة التطبيق الأولى، وكيفية استخدام القالب في جلسة التطبيق الثانية وضبط القالب لمعرفة كيفية تأثير التغييرات على مستند العمل الذي تم إنشاؤه. هل يمكنني استخدام تطبيق سطح مكتب Office بنفس الطريقة؟
 
 نعم، يمكنك القيام بذلك. في جلسة التطبيق الأولى، حدد **فتح في تطبيق سطح المكتب**. سيتم تخزين القالب في مساحة تخزين الملفات المؤقتة وسيتم فتحه في تطبيق سطح المكتب لـ Office. ثم أكمل الخطوات التالية لمعاينه تغييرات القالب في مستند العمل الذي تم إنشاؤه:
 

@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "10444"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 464092ae2fdcdfd8a0ada254e88f4418c825c1f9
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486960"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983967"
 ---
 # <a name="get-started-with-financial-reporting"></a>الشروع في العمل من خلال إعداد التقارير المالية 
 
@@ -148,7 +146,7 @@ ms.locfileid: "7486960"
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>تحديث إصدار Financial Reporting من خلال التكامل
 
-يتم تحديث تطبيقات Finance and Operations كل شهر. ومع ذلك، لا يتم تحديث Financial Reporting بالضرورة بهذه الوتيرة. علاوةً على ذلك، يتوفر المزيد من الخيارات لدى العملاء عند قيامهم بتطبيق تحديثات تطبيقات Finance and Operations. يتم تثبيت تحديثات Financial Reporting بشكل تلقائي. يوجد لدى Financial Reporting إصدار معين يتم استخدامه في بيئة العميل عند تطبيق تحديث الخدمة أو عند بدء وقت التعطيل أو عند وجود بيئة العميل في وضع الصيانة. وتعرف هذه العملية باسم *التكامل* أو *التصحيح*، لأن جميع عمليات التطبيق التي يقوم بها العملاء معينة إلى الإصدار نفسه من التقارير المالية.
+يتم تحديث تطبيقات التمويل والعمليات كل شهر. ومع ذلك، لا يتم تحديث Financial Reporting بالضرورة بهذه الوتيرة. علاوةً على ذلك، يتوفر المزيد من الخيارات لدى العملاء عند قيامهم بتطبيق تحديثات تطبيقات التمويل والعمليات. يتم تثبيت تحديثات Financial Reporting بشكل تلقائي. يوجد لدى Financial Reporting إصدار معين يتم استخدامه في بيئة العميل عند تطبيق تحديث الخدمة أو عند بدء وقت التعطيل أو عند وجود بيئة العميل في وضع الصيانة. وتعرف هذه العملية باسم *التكامل* أو *التصحيح*، لأن جميع عمليات التطبيق التي يقوم بها العملاء معينة إلى الإصدار نفسه من التقارير المالية.
 
 يمكن العثور علي التغييرات التي تم إصدارها في كل إصدار في [الجديد أو المتغير‬ في Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). يمكن العثور علي تحديثات النظام الأساسي وإصلاحات الأخطاء في قسم "الموارد الإضافية" أسفل الصفحة لكل إصدار.
 

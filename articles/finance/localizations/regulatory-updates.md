@@ -2,22 +2,22 @@
 title: تحديثات تنظيمية
 description: يوفر هذا الموضوع قائمة بالتحديثات التنظيمية المخططة والصادرة لتطبيق Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 07/15/2021
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772735"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016090"
 ---
 # <a name="regulatory-updates"></a>تحديثات تنظيمية
 
@@ -25,7 +25,7 @@ ms.locfileid: "6772735"
 
 يسرد هذا الموضوع التحديثات التنظيمية المُخططة والمصدرة في ترجمات Dynamics 365 Finance المدعومة. قد تختلف المخططات الزمنية للتسليم والوظائف المتوقعة، أو قد لا يتم إصدارها. لمزيد من المعلومات، اقرأ [سياسة Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-التحديثات التنظيمية عبارة عن ميزات يتم تطبيقها لدعم القوانين الجديدة أو المتغيرة الخاصة ببلد ما. للتعرف على المزيد من المعلومات حول الميزات الأخرى المخططة أو الصادرة والخاصة ببلد معين، راجع [Dynamics 365 and Power Platform خطط الإصدار](/business-applications-release-notes/index).
+التحديثات التنظيمية عبارة عن ميزات يتم تطبيقها لدعم القوانين الجديدة أو المتغيرة الخاصة ببلد ما. للحصول على المزيد من المعلومات حول الميزات الأخرى المخططة أو الصادرة والخاصة ببلد معين، راجع [خطط إصدار Dynamics 365 وPower Platform](/business-applications-release-notes/index).
 
 تبذل شركة Microsoft كل الجهود الممكنة لتطبيق المتطلبات التنظيمية الجديدة بأسرع وقت ممكن. يتوقف تاريخ التسليم الفعلي على تاريخ الإعلان عن القانون وتوفر تفاصيل المتطلبات من السلطات المحلية وتوفر أدوات التحقق من الصحة، وعلى حجم التغيير وتعقيداته.
 
@@ -71,7 +71,7 @@ ms.locfileid: "6772735"
 
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-- ابحث عن كافة التحديثات التنظيمية المخططة والصادرة في [Lifecycle Service - بحث عن المشاكل](https://lcs.dynamics.com/Logon/Index) (مطلوب تسجيل الدخول).
+- لمزيد من المعلومات حول كافة التحديثات التنظيمية المخططة والصادرة الخاصة بالبلدان، راجع [البحث عن تحديثات تنظيمية خاصة بالبلدان‬](search-for-regulatory-updates.md). (تسجيل الدخول مطلوب.)
 - للحصول على قائمة بالترجمات المدعومة، راجع [دليل التوافر الدولي](https://aka.ms/dynamics_365_international_availability_deck).
 
 

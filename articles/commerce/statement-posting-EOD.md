@@ -13,17 +13,16 @@ ms.search.industry: retail
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 9a5a7d6394a87eccde8e1c364caaaabdb0297fd2
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891431"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982193"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>تحسينات على وظيفة ترحيل كشف الحساب
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 يصف هذا الموضوع المجموعة الأولى من التحسينات التي تم إجراؤها على ميزة ترحيل كشف الحساب. تتوفر هذه التحسينات في الإصدار 7.3.2 من Microsoft Dynamics 365 for Finance and Operations.
 

@@ -3,24 +3,23 @@ title: نظرة عامة على الإجازة والغياب
 description: في Dynamics 365 Human Resources ، توفر مساحة عمل الإجازة والغياب إطار عمل مرن لإنشاء خطط الإجازة الجديدة.
 author: twheeloc
 ms.date: 10/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0088f9fe070ee4054c531ca128daba9389054902
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 1d31e41273d15779670d00c6c6faf4c1a693fc97
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728603"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985560"
 ---
 # <a name="leave-and-absence-overview"></a>نظرة عامة على الإجازة والغياب
 

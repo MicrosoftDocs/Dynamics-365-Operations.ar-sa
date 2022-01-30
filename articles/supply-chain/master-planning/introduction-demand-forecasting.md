@@ -3,7 +3,7 @@ title: نظرة عامة على التنبؤ بالطلب‬
 description: يتم استخدام التنبؤ بالطلب للتنبؤ بطلب غير معال من أوامر المبيعات وطلب معال عند أي نقطة اتصال لأوامر العملاء. توفر قواعد خفض التنبؤ بالطلب المحسن حلاً مثاليًا للتخصيص الشامل.
 author: ChristianRytt
 ms.date: 07/07/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 980001dda67e96ab3f428ad60cb7951dd5de4d0c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34a8cd4b17a5a75a5e817e6a1f982d75eefbb717
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571007"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983060"
 ---
 # <a name="demand-forecasting-overview"></a>نظرة عامة على التنبؤ بالطلب‬
 
@@ -56,7 +56,7 @@ ms.locfileid: "7571007"
 - **النمطية** - إن التنبؤ بالطلب أمر نمطي وسهل التكوين. يمكنك تشغيل الوظيفة وإيقاف تشغيلها عن طريق تغيير مفتاح التكوين في **التجارة‏‎** &gt; **التنبؤ بالمخزون** &gt; **التنبؤ بالطلب**.
 - **إعادة استخدام Microsoft stack** – يتيح لك التعلم الآلي، الذي يُعد جزءًا من مجموعة التحليلات Microsoft Cortana، إنشاء تجارب التحليل التنبؤية، مثل تجارب تقدير الطلب، بسرعة وسهولة باستخدام خوارزميات R أو لغات البرمجة بيثون وواجهة سحب وإفلات بسيطة.‬
   - يمكنك تنزيل تجارب التنبؤ بالطلب وتغييرها لتلبية متطلبات العمل الخاص بك ونشرها كخدمة ويب على Azure واستخدامها لإنشاء التنبؤات بالطلب. تتوفر التجارب للتنزيل إذا قمت بشراء اشتراك Supply Chain Management لمخطط إنتاج كمستخدم على مستوى المؤسسة.
-  - يمكنك تنزيل أي من التجارب توقع الطلب المتوفرة حاليًا من [معرض التحليلات Cortana](https://gallery.cortanaanalytics.com/). في حين يتم تكامل تجارب التنبؤ بالطلب تلقائيًا مع Supply Chain Management، يجب على العملاء والشركاء معالجة تكامل التجارب التي قاموا بتنزيلها من [معرض التحليلات Cortana](https://gallery.cortanaanalytics.com/). وبالتالي، لا يكون [معرض تحليلات Cortana](https://gallery.cortanaanalytics.com/) مباشرًا لاستخدامه كتجارب التنبؤ بالطلب في Finance and Operations. يجب عليك تعديل كود التجارب حيث أنها تستخدم واجهة برمجة تطبيقات Finance and Operations (API).
+  - يمكنك تنزيل أي من التجارب توقع الطلب المتوفرة حاليًا من [معرض التحليلات Cortana](https://gallery.cortanaanalytics.com/). في حين يتم تكامل تجارب التنبؤ بالطلب تلقائيًا مع Supply Chain Management، يجب على العملاء والشركاء معالجة تكامل التجارب التي قاموا بتنزيلها من [معرض التحليلات Cortana](https://gallery.cortanaanalytics.com/). ومن ثمَّ، لا تكون التجارب من [معرض تحليلات Cortana](https://gallery.cortanaanalytics.com/) واضحة ومباشرة لاستخدامها كتجارب التنبؤ بالطلب في Finance and Operations. يجب عليك تعديل كود التجارب لتستخدم واجهة برمجة تطبيقات Finance and Operations.
   - يمكنك إنشاء تجاربك في استوديو التعلم الآلي (التقليدي) من Microsoft Azure ونشرها كخدمات على Azure واستخدامها لإنشاء التنبؤ بالطلب.
   - إذا كنت لا تحتاج إلى أداء عالي أو إذا كنت لا تحتاج إلى معالجة كمية كبيرة من البيانات، يمكنك استخدام Machine Learning free tier. نوصي بأن تبدأ من هذا المستوى، خاصة أثناء مرحلتي الاختبار والتنفيذ. إذا كنت تحتاج إلى مستوى أعلى من الأداء ومساحة تخزين إضافية، فإنه يمكنك استخدام Machine Learning standard tier. يتطلب هذا المستوى اشتراك Azure وينطوي على تكاليف إضافية. للحصول على تفاصيل حول تسعير Machine Learning، راجع [تسعير Machine Learning Studio](https://aka.ms/machine-learning-price-info).
 - **خفض التنبؤ في أي نقطة اتصال** – يعتمد التنبؤ بالطلب على هذه الوظيفة، التي تتيح لك التنبؤ بالطلب التابع والمستقل في أي نقطة اتصال.

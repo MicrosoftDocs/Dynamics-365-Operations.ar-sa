@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 66b097b2936e61c619d45ad103440eddbb983feb
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 8284ccd7ac383c53960f7fd6a1333aeb0e7e6f3c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945770"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969002"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>البيانات الخارجية في توقعات التدفق النقدي
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يمكن إدخال البيانات الخارجية أو استيرادها إلى تقديرات تدفقات نقدية. يصف هذا الموضوع خطوات الإعداد الخاصة باستخدام البيانات الخارجية والتي تمكن من تضمين البيانات الخارجية في تقدير التدفقات النقدية.
 

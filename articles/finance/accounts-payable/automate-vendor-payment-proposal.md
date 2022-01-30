@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 483621a5de2980212926ac1011c16f1b82e4a3d075bbe9bcbbe6a0e35f06e5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749092"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966705"
 ---
 # <a name="automate-vendor-payment-proposals"></a>أتمتة مقترحات دفع المورّد
 
@@ -32,6 +32,9 @@ ms.locfileid: "6749092"
 - دفتر يومية دفع المورّد حيث يتم حفظ المدفوعات الناتجة
 
 لا تقوم أتمتة مقترحات دفع المورّد بترحيل الدفعات بشكل تلقائي. وبالتالي، يمكنك متابعة استخدام عمليات التحقق من الصحة وعمليات سير العمل التي تستخدمها حاليًا للموافقة على الدفعات التي يتم إنشاؤها.
+
+> [!NOTE]
+> يجب تمكين الميزة **أتمتة مقترحات دفع المورّد** في إدارة الميزات لاستخدام هذه الوظيفة. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>تحديد تكرار مقترحات دفع المورّد
 

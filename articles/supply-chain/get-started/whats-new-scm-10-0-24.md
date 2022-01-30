@@ -1,5 +1,5 @@
 ---
-title: معاينة Dynamics 365 Supply Chain Management 10.0.24 (فبراير 2022)
+title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.24 (فبراير 2022)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f6402d7f9f433ca621c475bd62553529943dbe62
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920538"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986293"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>معاينة Dynamics 365 Supply Chain Management 10.0.24 (فبراير 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.24 (فبراير 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1084، وهو يتوفر كما يلي
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1084، وهو يتوفر كما يلي
 
 - **معاينة الإصدار الأولي:** ديسمبر 2021
 - **التوفر العام للإصدار (تحديث ذاتي):** يناير 2022
@@ -69,9 +68,9 @@ ms.locfileid: "7920538"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>تحديث النظام الأساسي لتطبيقات Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>تحديثات النظام الأساسي لتطبيقات التمويل والعمليات
 
-يتضمن الإصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.24 من تطبيقات Finance and Operations (نوفمبر 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+يتضمن الإصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.24 من تطبيقات التمويل والعمليات (نوفمبر 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
 
