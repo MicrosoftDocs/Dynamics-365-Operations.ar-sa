@@ -4,22 +4,18 @@
       items:
         - name: صفحة Dynamics 365 Supply Chain Management الرئيسية
           href: index.md
-        - name: الجديد أو المتغير
+        - name: ما الجديد أو المتغير
           items:
-            - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
+            - name: الجديد أو المتغير في تطبيقات Finance and Operations
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: الجديد أو المتغير في Supply Chain Management
               items:
-                - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
+                - name: الجديد أو التغييرات في صفحة Supply Chain Management الرئيسية
                   href: get-started/whats-new-home-page.md
                 - name: Supply Chain Management 10.0.24 (فبراير 2022)
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: Supply Chain Management 10.0.23 (يناير 2022)
                   href: get-started/whats-new-scm-10-0-23.md
-                - name: Supply Chain Management 10.0.22 (نوفمبر 2021)
-                  href: get-started/whats-new-scm-10-0-22.md
-                - name: Supply Chain Management 10.0.21 (أكتوبر 2021)
-                  href: get-started/whats-new-scm-10-0-21.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -176,9 +172,9 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/supply-chain/toc.json
             - name: إدارة دورة حياة التنفيذ
               items:
-                - name: الصفحة الرئيسية لإدارة دورة حياة التنفيذ
+                - name: الصفحة الرئيسية لتنفيذ إدارة دورة الحياة
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: هندسة تطبيقات Finance and Operations
+                - name: مهندس معماري لتطبيقات Finance and Operations.
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/
@@ -617,7 +613,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: استخدام حزمة المحتوى لإعداد تقارير Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: استخدام مساحة عمل مراقبة التكاليف لتطبيق Finance and Operations للأجهزة المحمولة
+            - name: استخدام مساحة عمل التحكم في التكلفة لتطبيق الأجهزة المحمولة Finance and Operations
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
         - name: محاسبة المخزون العمومي
           items:
@@ -3905,7 +3901,7 @@
                   href: troubleshooting/warehousing/work-remains-blocked.md
                 - name: لا يمكنك إلغاء العمل الذي يتم على مستخدم
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: تطوير وإدارة تطبيقات Finance and Operations
+    - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

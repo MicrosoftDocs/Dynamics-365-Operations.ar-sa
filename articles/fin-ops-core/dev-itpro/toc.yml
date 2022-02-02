@@ -1,14 +1,14 @@
-- name: التطوير والإدارة لتطبيقات Finance and Operations
+- name: تطوير تطبيقات Finance and Operations‬ وإدارتها
   items:
-    - name: التطوير والإدارة لتطبيقات Finance and Operations
+    - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
       items:
         - name: وثائق تطبيق Finance and Operations
           href: ../fin-ops/index.md
-        - name: التطوير والإدارة لتطبيقات Finance and Operations
+        - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
           href: index.md
-        - name: الجديد أو المتغير
+        - name: ما الجديد أو المتغير
           items:
-            - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
+            - name: الجديد أو المتغير في تطبيقات Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.23 (يناير 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.22 (نوفمبر 2021)
-                  href: get-started/whats-new-platform-updates-10-0-22.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -70,7 +68,7 @@
                   href: data-entities/custom-services.md
                 - name: عمليات تكامل متكررة
                   href: data-entities/recurring-integrations.md
-                - name: اختبار الخدمات باستخدام أدوات مساعدة تابعة لأطراف خارجية
+                - name: اختبار الخدمات باستخدام أدوات مساعدة تابعة لجهات خارجية
                   href: data-entities/third-party-service-test.md
             - name: موصل Finance and Operations
               href: data-entities/fin-ops-connector.md
@@ -96,17 +94,17 @@
                       items:
                         - name: العميل المتوقع إلى النقدية
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations
+                        - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales
+                        - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Finance and Operations
+                        - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
                         - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations
+                        - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: مزامنة رؤوس وبنود فاتورة المبيعات مباشرةً من Finance and Operations إلى Sales
+                        - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: تكوين التكامل مع Field Service
                       items:
@@ -360,11 +358,11 @@
                       href: deployment/on-premises-overview.md
                     - name: تخطيط عمليات النشر المحلي وإعدادها
                       href: deployment/plan-onprem-deployment.md
-                    - name: البرامج المدعومة لـ Microsoft Dynamics 365 Finance + ‏Operations (on-premises)
+                    - name: البرامج المدعومة لـ Microsoft Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/onprem-compatibility.md
                     - name: متطلبات تغيير حجم الأجهزة
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: المصادقة في Dynamics 365 Finance + ‏Operations (on-premises)
+                    - name: المصادقة في Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/authentication-onprem.md
                 - name: إعداد بيئات محلية ونشرها
                   items:
@@ -406,7 +404,7 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: إعادة استخدام مثيل AD FS نفسه لبيئات متعددة
                       href: deployment/onprem-reuseadfs.md
-                    - name: ترقيه مثيل SQL Server لبيئات Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: ترقيه مثيل SQL Server الخاص ببيئات Microsoft Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: وكيل محلي
                   items:
@@ -1054,6 +1052,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: تمكين كيان الخريطة للكتابة المزدوجة
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: حزمة تنسيق تطبيق الكتابة المزدوجة المنفصلة
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: ترحيل نوع بيانات "العملة" للكتابة المزدوجة
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: إعداد التعيين لحقول حالة أمر المبيعات
@@ -1154,17 +1154,17 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: استكشاف مشاكل المزامنة المباشرة وإصلاحها
+                        - name: استكشاف مشكلات المزامنة المباشرة وإصلاحها
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: استكشاف مشاكل الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
+                        - name: استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                        - name: استكشاف مشاكل الطرف ودفتر العناوين العمومي
+                        - name: استكشاف مشكلات الطرف ودفتر العناوين العمومي
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
-                        - name: استكشاف المشاكل ذات الصلة بإدراك الحلول وإصلاحها
+                        - name: استكشاف المشكلات ذات الصلة بإدراك الحلول وإصلاحها
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: استكشاف المشاكل من ترقيات تطبيقات Finance and Operations وإصلاحها
+                        - name: استكشاف المشكلات من ترقيات تطبيقات Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: التحقق من تكوين الكتابة المزدوجة في تطبيقي Finance and OperationsوDataverse
+                        - name: تحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: رموز الأخطاء الخاصة بالتحقق من صحة مخطط الجدول
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1184,7 +1184,7 @@
                   href: power-platform/enable-virtual-entities.md
                 - name: مداخل Power Apps مع Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: الأسئلة المتداولة حول كيانات Finance and Operations الظاهرية
+                - name: الأسئله المتداولة حول الكيانات الظاهرية لـ Finance and Operations
                   href: power-platform/faq.md
             - name: أحداث الأعمال
               items:
@@ -1526,15 +1526,15 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: الدعم
           items:
-            - name: الحصول على دعم لـ Finance and Operations وLifecycle Services
+            - name: الحصول على الدعم لـ Finance and Operations وLifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: نظرة عامة على دعم Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: الحصول على دعم لـ Finance and Operations الذي تديره 21Vianet في الصين
+            - name: الحصول على الدعم لـ Finance and Operations المشغّل بواسطة 21Vianet في الصين
               href: lifecycle-services/21vianet-support.md
-            - name: إعداد الدعم الفني لتطبيقات Finance and Operations
+            - name: إعداد الدعم التقني لتطبيقات Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: إدارة تجارب دعم لتطبيقات Finance and Operations
+            - name: إدارة خبرات الدعم لتطبيقات Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: دعم الإنتاج والمراقبة
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1564,7 +1564,7 @@
                   href: sysadmin/security-architecture.md
                 - name: التشفير في تطبيقات Finance and Operations
                   href: sysadmin/encryption.md
-                - name: تعيين مهله خمول جلسة العمل
+                - name: تعيين مهلة عدم نشاط جلسة العمل
                   href: sysadmin/session-idle-timeout.md
                 - name: تقارير الأمان الجاهزة
                   href: sysadmin/security-reports.md
@@ -1648,7 +1648,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: ترقية من AX 2012
               items:
-                - name: ترقية من AX 2012 إلى Finance and Operations
+                - name: الترقية من AX 2012 إلى Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: ترقية AX 2012 - وضع الخطة باستخدام أداة محلل الترقية
                   href: migration-upgrade/upgrade-analyzer-tool.md
