@@ -1,10 +1,10 @@
-- name: تطوير تطبيقات Finance and Operations‬ وإدارتها
+- name: تطوير تطبيقات التمويل والعمليات وإدارتها
   items:
-    - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
+    - name: تطوير تطبيقات التمويل والعمليات وإدارتها
       items:
         - name: وثائق تطبيق Finance and Operations
           href: ../fin-ops/index.md
-        - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
+        - name: تطوير تطبيقات التمويل والعمليات وإدارتها
           href: index.md
         - name: ما الجديد أو المتغير
           items:
@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
-                - name: الجديد أو المتغير في الصفحة الرئيسية لتحديثات النظام الأساسي
+                - name: الميزات الجديدة أو المتغيرة في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.25 (أبريل 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.24 (فبراير 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.23 (يناير 2022)
@@ -430,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: إزالة تثبيت حزمة
                   href: deployment/uninstall-deployable-package.md
+                - name: تشغيل البرامج النصية المخصصة X++ مع صفر وقت تعطل
+                  href: deployment/run-custom-scripts.md
                 - name: استكشاف مشكلات تطبيق الحزمة وإصلاحها
                   href: deployment/deployable-package-troubleshooting.md
             - name: نشر تعليمات مخصصة
@@ -710,7 +714,7 @@
                       href: extensibility/customize-model-elements-extensions.md
                     - name: تخصيص من خلال الملحق وتراكب الطبقات
                       href: extensibility/customization-overlayering-extensions.md
-                - name: الجديد
+                - name: الميزات الجديدة
                   items:
                     - name: الجديد أو المتغير‬ في قابلية التوسعة
                       href: extensibility/extensibility-new.md
@@ -850,10 +854,12 @@
                   href: perf-test/testing-validation.md
                 - name: اختبار المشروعات في Visual Studio
                   href: perf-test/testing-support.md
-                - name: نشر بيئة التنفيذ التلقائي المستمرة للبناء والاختبار واستخدمها
+                - name: نشر بيئة التنفيذ التلقائي المستمرة للبناء والاختبار واستخدامها
                   href: perf-test/continuous-build-test-automation.md
                 - name: تصفية SysTest باستخدام سمات الفئات والأساليب
                   href: perf-test/systest-filtering.md
+                - name: سمة SysTestRow لاختبار قيم متعددة
+                  href: perf-test/systest-row.md
                 - name: مكتبة اختبار القبول
                   items:
                     - name: موارد مكتبة اختبار القبول

@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: الجديد أو المتغير في Supply Chain Management
               items:
-                - name: الجديد أو التغييرات في صفحة Supply Chain Management الرئيسية
+                - name: الميزات الجديدة أو المتغيرة في صفحة Supply Chain Management الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.25 (أبريل 2022)
+                  href: get-started/whats-new-scm-10-0-25.md
                 - name: Supply Chain Management 10.0.24 (فبراير 2022)
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: Supply Chain Management 10.0.23 (يناير 2022)
@@ -100,10 +102,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء الوثائق أو التدريب بمسجل المهام
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ملفات فيديو
+                - name: مقاطع الفيديو
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
-                - name: المصطلحات
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: كتالوج التعليم
               items:
                 - name: الصفحة الرئيسية لكتالوج التعليم
@@ -306,8 +306,10 @@
               href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: أحمال عمل تنفيذ التصنيع لوحدات النطاق السحابي والحافة
               href: cloud-edge/cloud-edge-workload-manufacturing.md
-            - name: أحمال عمل إدارة المستودعات لوحدات نطاق السحابة والحافة
+            - name: أحمال عمل إدارة المستودعات لوحدات قياس السحابة والحافة
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: تكوين تطبيق Warehouse Management للأجهزة المحمولة لوحدات قياس المجموعة والحافة
+              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
             - name: أوامر المستودعات لوحدات المجموعة والحافة
               href: cloud-edge/cloud-edge-warehouse-order.md
             - name: تسوية مخزون المستودع
@@ -1043,7 +1045,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/supply-chain/toc.json
                     - name: النص
                       items:
-                        - name: الدالات النصية
+                        - name: الوظائف النصية
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Char
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/supply-chain/toc.json
@@ -1233,6 +1235,8 @@
                   items:
                     - name: إنشاء تكوينات لاستيراد البيانات من ملف XML خارجي
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: استيراد البيانات من الملفات المختارة يدويًا في وضع الدُفعة
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين استيراد البيانات في الوضع الدفعي من ملفات موجودة في SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: استيراد ملفات بتنسيق XML
@@ -1461,6 +1465,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تحديث التطبيق 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تحديث التطبيق 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: تحديث التطبيق 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
                   items:
                     - name: الاشتراك في حدث لطلب استجابة من معالج الاشتراك
@@ -1691,12 +1699,16 @@
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: تأكيد الأوامر المخططة
                   href: master-planning/planning-optimization/planned-order-firming.md
+                - name: تم تبسيط الأوامر المخططة
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: التخطيط بالكميات الحالية السالبة
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: عرض سجلات التخطيط ومحفوظات الخطط
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: إلغاء وظيفة تخطيط
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: رسائل الإجراءات
+                  href: master-planning/action-messages.md
                 - name: استكشاف أخطاء تحسين التخطيط وإصلاحها
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: قابلية توسعة تحسين التخطيط‬
@@ -1729,8 +1741,6 @@
                   href: master-planning/cancel-master-planning-job.md
                 - name: استخدام التتبع لعملية تحديد إجمالي المكونات المطلوبة‬
                   href: master-planning/trace-explosion.md
-                - name: رسائل الإجراءات
-                  href: master-planning/action-messages.md
                 - name: مراقبة تشغيل التخطيط الرئيسي
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: إنشاء جدول لموقع
@@ -3763,6 +3773,8 @@
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: لم يتم العثور على ربط الثقة لمسار الشهادة عند التحديث والترحيل إلى WMS
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: تحدث مشكلات المعالجة بعد تثبيت حمل عمل مستودع وحدة القياس
+                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: تظهر مطالبة الحجز التلقائي لرقم المجموعة حتى مع المخزون المتوفر
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: لا يمكن إلغاء حظر العمل الخاص بالانتقاء بسبب عمل التزويد غير المنتهي
@@ -3901,9 +3913,11 @@
                   href: troubleshooting/warehousing/work-remains-blocked.md
                 - name: لا يمكنك إلغاء العمل الذي يتم على مستخدم
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
+    - name: تطوير تطبيقات التمويل والعمليات وإدارتها
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

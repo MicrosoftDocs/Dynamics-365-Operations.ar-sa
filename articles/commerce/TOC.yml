@@ -90,8 +90,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: المزايا الجديدة أو المتغيرة في Commerce
                   items:
-                    - name: الجديد أو التغييرات في صفحة Commerce الرئيسية
+                    - name: الميزات الجديدة أو المتغيرة في صفحة Commerce الرئيسية
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.25 (أبريل 2022)
+                      href: get-started/whats-new-commerce-10-0-25.md
                     - name: Commerce 10.0.24 (فبراير 2022)
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (يناير 2022)
@@ -122,10 +124,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/commerce/toc.json
                 - name: إنشاء الوثائق أو التدريب بمسجل المهام
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
-                - name: ملفات فيديو
+                - name: مقاطع الفيديو
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
-                - name: المصطلحات
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: كتالوج التعليم
               items:
                 - name: الصفحة الرئيسية لكتالوج التعليم
@@ -1740,7 +1740,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/commerce/toc.json
                     - name: النص
                       items:
-                        - name: الدالات النصية
+                        - name: الوظائف النصية
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/commerce/toc.json
                         - name: Char
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
@@ -1936,6 +1936,8 @@
                   items:
                     - name: إنشاء تكوينات لاستيراد البيانات من ملف XML خارجي
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
+                    - name: استيراد البيانات من الملفات المختارة يدويًا في وضع الدُفعة
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
                 - name: تكوين استيراد البيانات في الوضع الدفعي من ملفات موجودة في SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: استيراد ملفات بتنسيق XML
@@ -2166,6 +2168,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
                     - name: تحديث التطبيق 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
+                    - name: تحديث التطبيق 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
                   items:
                     - name: الاشتراك في حدث لطلب استجابة من معالج الاشتراك
@@ -2384,6 +2388,8 @@
               items:
                 - name: Commerce للمحترفين والمطورين في مجال تقنية المعلومات
                   href: dev-itpro/dev-retail-home-page.md
+                - name: تحديث مكدس تكنولوجيا Commerce داخل المتجر (مستند تقني)
+                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: إعداد بيئة تطوير محلية
                   href: dev-itpro/setup-local-dev-env.md
             - name: قابلية توسعة القناة عبر الإنترنت
@@ -2820,7 +2826,7 @@
               items:
                 - name: إعداد بيئة تطوير التجارة الإلكترونية للتصحيح في مقابل الجهاز الظاهري لـ Retail Server من المستوى 1
                   href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
+    - name: تطوير تطبيقات التمويل والعمليات وإدارتها
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

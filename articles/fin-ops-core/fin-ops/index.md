@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782122"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075387"
 ---
 # <a name="finance-and-operations-application-documentation"></a>وثائق تطبيق Finance and Operations
 
@@ -39,9 +39,9 @@ ms.locfileid: "7782122"
 <tr class="odd">
 <td>
 <h3><a href="get-started/before-you-buy.md">قبل الشراء</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">سجل للاشتراك في المعاينة</a></p>
- <p><a href="../dev-itpro/deployment/choose-deployment-type.md">اختر أحد خيارات النشر</a></p>
- <p><a href="get-started/purchase-on-premises.md">شراء Finance and Operations (محلي)</a></p>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">سجل للاشتراك في الإصدار الأولي</a></p>
+ <p><a href="../dev-itpro/deployment/choose-deployment-type.md">اختيار أحد خيارات النشر</a></p>
+ <p><a href="get-started/purchase-on-premises.md">شراء Finance and Operations ‏(on-premises)‏</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">دورة حياة التطبيق</a></h3>
 <p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
@@ -81,15 +81,17 @@ ms.locfileid: "7782122"
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">الميزات التنظيمية الإقليمية</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
-<p><a href="../../human-resources/hr-benefits-manage-program.md">المزايا</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">الاستبيانات</a></p>
-<p><a href="hr/manage-recruiting-process.md">توظيف</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">كشف رواتب الولايات المتحدة</a></p>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">خدمة الموظف الذاتية</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">إدارة العاملين</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">الإجازة والغياب</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">المزايا‬</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">تطوير الموظفين</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">التعلم</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">كشف رواتب الولايات المتحدة</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Supply Chain Management</a></h3>
+<h3><a href="../../supply-chain/index.md">إدارة سلاسل التوريد</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">إدارة التكلفة</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">إدارة المخزون</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">التخطيط الرئيسي</a></p>
@@ -130,12 +132,7 @@ ms.locfileid: "7782122"
 <p>مركز الاتصال في <a href="../../commerce/call-center-functionality.md"></p>
 <p>إعداد القنوات وإدارتها في <a href="../../commerce/define-maintain-retail-channels.md"></p>
 <p><a href="../../commerce/retail-peripherals-overview.md">MPOS وCloud POS</p>
-<p>مطور وإدارة <a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">دليل المسؤول</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">دليل المطور</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">دليل المستخدم</a></p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">مطور وإدارة Commerce</p>
 
 
 </td>
