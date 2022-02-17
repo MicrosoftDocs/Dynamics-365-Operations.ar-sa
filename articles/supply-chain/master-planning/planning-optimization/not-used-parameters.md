@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 55b174b426b02e59f75d58e9a6cf32991089ca22
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728945"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087489"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>المعلمات التي لا يستخدمها تحسين التخطيط
 
@@ -160,6 +160,10 @@ ms.locfileid: "7728945"
   - **إضافة التأخير المحسوب إلى تاريخ الطلب** (في قسم **أوامر الإنتاج المخططة**) – في انتظار دعم *التأخيرات المحسوبة*.
   - **إضافة التأخير المحسوب إلى تاريخ الطلب** (في قسم **التحويل المخطط**) – في انتظار دعم *التأخيرات المحسوبة*.
   - **إضافة التأخير المحسوب إلى تاريخ الطلب** (في قسم **كانبان المخطط**) – في انتظار دعم *التأخيرات المحسوبة*.
+
+- علامة التبويب السريعة **رسالة الإجراء**:
+
+  - **تحديث التاريخ المؤجل كتاريخ مطلوب‬**- توقف العمل بهذه هذه المعلمة مع تحسين التخطيط.
 
 - علامة التبويب السريعة **التسلسل**:
 

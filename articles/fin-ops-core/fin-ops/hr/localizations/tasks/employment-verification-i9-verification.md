@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea77f112413a5b7d5c96768ad46fdb361023bd84
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: b76102111a8506882f2301d76856ae1a34a7c704
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964873"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065671"
 ---
 # <a name="employment-verification-i9-verification"></a>التحقق من نموذج i9 للتحقق من التوظيف
 
 [!include [banner](../../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../../includes/peap-1.md)]
 
 يطالب قانون إصلاح ومراقبة الهجرة من أرباب العمل في الولايات المتحدة التحقق من حالة أهلية التوظيف للموظفين الذين تم تعيينهم حديثًا. سيرشدك هذا الإجراء عبر خطوات تسجيل الوثائق اللازمة للتحقق من نموذج I-9. استخدم الشركة USMF لهذا الإجراء.
 

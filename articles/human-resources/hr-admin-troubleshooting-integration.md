@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413353"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071100"
 ---
 # <a name="integration-with-finance-faq"></a>‏‫الأسئلة المتداولة حول التكامل مع Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يجيب هذا الموضوع عن الأسئلة الشائعة حول البيانات التي تتم مزامنتها عندما يتكامل Dynamics 365 Human Resources مع Dynamics 365 Finance.
 
@@ -86,7 +89,7 @@ ms.locfileid: "7413353"
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>هل يمكنني إعداد تكامل ثنائي الاتجاه؟
 
-لا، يكون التكامل حاليًا ذو اتجاه واحد (من Human Resources إلى Finance and Operations). ومع ذلك، يوجد قالب افتراضي لإرسال البيانات من Human Resources إلى Finance.
+لا، التكامل أحادي الاتجاه في الوقت الحالي (Human Resources إلى التمويل والعمليات). ومع ذلك، يوجد قالب افتراضي لإرسال البيانات من Human Resources إلى Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>هل يمكنني السماح بحذف السجلات كجزء من عملية التكامل؟
 

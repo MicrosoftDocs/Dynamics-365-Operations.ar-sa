@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 592cecff5b6179e7afd1bacb25beda277dfb8fa3
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944624"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076893"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>عينة تكامل طابعة الضرائب المحصلة لإيطاليا
 
@@ -49,7 +49,7 @@ ms.locfileid: "7944624"
     - طباعة خصومات البند.
     - بطاقات الهدايا:
 
-        - استبعاد بند بطاقة الهدايا الذي تم إصداره/أعاده تحميله من إيصال مالي للبيع.
+        - استبعاد بند بطاقة الهدايا التي تم إصدارها/إضافة رصيد إليها من إيصال مالي للبيع.
         - يستخدم هذا الزر في طباعه عمليه دفع تستخدم بطاقة الهدايا كطريقه دفع دوريه.
 
     - طباعه عمليات الاستلام المالية لعمليات أمر العميل:
@@ -76,7 +76,7 @@ ms.locfileid: "7944624"
 
 - استبعاد سطور المبيعات ذات الصلة بعمليتي *إصدار بطاقة الهدايا* و *إضافة إلى بطاقة الهدايا* من الإيصال الضريبي.
 - لا تطبع إيصالًا ماليًا إذا كان يتكون من خطوط بطاقة هدايا فقط.
-- قم بخصم المبلغ الإجمالي لبطاقات الهدايا التي تم إصدارها أو إعادة تحصيلها في معاملة من سطور الدفع الخاصة بالإيصال المالي.
+- خصم المبلغ الإجمالي لبطاقات الهدايا التي تم إصدارها أو إعادة إضافة رصيد إليها في حرمة من بنود الدفع الخاصة بالإيصال المالي.
 - حفظ التسويات المحسوبة لبنود الدفع في قاعده بيانات القناة مع وجود مرجع لحركه مالية مقابله.
 - ويعتبر الدفع حسب بطاقة الهدايا دفعا منتظما.
 
@@ -99,7 +99,7 @@ ms.locfileid: "7944624"
 
 ## <a name="set-up-fiscal-integration-for-italy"></a>إعداد التكامل المالي لإيطاليا
 
-تعتمد عينة تكامل الطابعة المالية لإيطاليا على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\EpsonFP90IIISample** لمستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (على سبيل المثال، [النموذج في إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) من موفر المستند المالي، وهو امتداد لCommerce Runtime (CRT)، والموصل المالي، وهو امتداد لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
+تعتمد عينة تكامل الطابعة المالية لإيطاليا على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\EpsonFP90IIISample** لمستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (على سبيل المثال، [النموذج في إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو امتداد لCommerce Runtime (CRT)، والموصل المالي، وهو امتداد لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج تكامل الطابعة المالي لإيطاليا (قديم)](emea-ita-fpi-sample-sdk.md).
@@ -303,7 +303,7 @@ ms.locfileid: "7944624"
 
 ## <a name="design-of-extensions"></a>تصميم الملحقات
 
-تعتمد عينة تكامل الطابعة المالية لإيطاليا على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\EpsonFP90IIISample** لمستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (على سبيل المثال، [النموذج في إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) من موفر المستند المالي، وهو ملحق لـ (CRT)، والموصل المالي، وهو ملحق لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
+تعتمد عينة تكامل الطابعة المالية لإيطاليا على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\EpsonFP90IIISample** لمستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (على سبيل المثال، [النموذج في إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو ملحق لـ (CRT)، والموصل المالي، وهو ملحق لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج تكامل الطابعة المالي لإيطاليا (قديم)](emea-ita-fpi-sample-sdk.md). يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.

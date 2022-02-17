@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754127"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063737"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (14‏ مايو 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3244. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم المرجع في  Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>تغييرات النظام الأساسي
 
-يتم تضمين تغييرات النظام الأساسي في إصدار هذا الأسبوع. لمزيد من المعلومات، راجع [تحديثات النظام الأساسي للإصدار 10.0.10 من تطبيقات Finance and Operations (مايو 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). يتضمن هذا الإصدار إصلاحات الأخطاء والتغييرات التي تمت على طرق العرض المحفوظة.
+يتم تضمين تغييرات النظام الأساسي في إصدار هذا الأسبوع. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.10 من تطبيقات التمويل والعمليات (مايو 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). يتضمن هذا الإصدار إصلاحات الأخطاء والتغييرات التي تمت على طرق العرض المحفوظة.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>تأكد من أن قوائم اختيار Dataverse متسقة مع تعدادات الإجازات (436343)
 

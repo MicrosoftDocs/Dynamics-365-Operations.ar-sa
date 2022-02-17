@@ -1,6 +1,6 @@
 ---
 title: أصل المورّد المتكامل
-description: يوضح هذا الموضوع تكامل بيانات المورد بين تطبيقات Finance and Operations وDataverse.
+description: يوضح هذا الموضوع تكامل بيانات المورّد بين تطبيقات Finance and Operations وDataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782467"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063152"
 ---
 # <a name="integrated-vendor-master"></a>أصل المورّد المتكامل
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يشير مصطلح *المورد* إلى مؤسسة مورد أو مالك وحيد يقدم بضائع أو خدمات لشركة. وعلى الرغم من أن *المورّد* عبارة عن مفهوم تم إنشاؤه في Microsoft Dynamics 365 Supply Chain Management، إلا أن مفهوم المورّد غير موجود في تطبيقات customer engagement. ومع ذلك، يمكنك زيادة تحميل جدول **الحساب/جهة الاتصال** لتخزين معلومات المورد. يقدم أصل المورد المتكامل مفهوم مورد صريحًا في تطبيقات customer engagement. يمكنك إما استخدام بيانات تصميم المورد الجديد أو مورد المتجر في جدول **الحساب/جهة الاتصال**. تدعم الكتابة الثنائية كلا الأسلوبين.
 
@@ -37,7 +37,7 @@ ms.locfileid: "7782467"
 ![تدفق بيانات المورّد الموسّعة.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> إذا كنت تستخدم مداخل Power Apps لموردي الخدمة الذاتية، فيمكن لمعلومات المورد التدفق مباشرةً إلى تطبيقات Finance and Operations.
+> إذا كنت تستخدم مداخل Power Apps لموردي الخدمة الذاتية، فيمكن لمعلومات المورد التدفق مباشرةً إلى تطبيقات التمويل والعمليات.
 
 ## <a name="templates"></a>القوالب
 

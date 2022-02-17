@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345288"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068834"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>أحمال عمل تنفيذ التصنيع لوحدات النطاق السحابي والحافة
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> يتوفر حمل العمل الخاص بتنفيذ التصنيع في وضع الإصدار الأولي في الوقت الحالي.
+> [!IMPORTANT]
+> يتوفر حاليًا حمل العمل الخاص بتنفيذ التصنيع في وضع الإصدار الأولي.
+>
 > لا يتم دعم بعض وظائف الاعمال بشكل كامل في المعاينة العامة عند استخدام حمل العمل على وحدات القياس.
+>
+> لا يمكنك تشغيل الإصدار الأولي من حمل عمل تنفيذ التصنيع على وحدة قياس حيث تم أيضًا تثبيت حمل عمل تنفيذ المستودع.
 
 في تنفيذ التصنيع، تقدم وحدات القياس القدرات التالية:
 
@@ -128,6 +131,22 @@ This section describes how to enable the abilities to report as finished and the
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>تمكين عملية البدء على وحدة قياس واستخدامها
+
+في الإصدار الحالي، يتم دعم عملية البدء لأوامر الإنتاج والأوامر الدُفعية بواسطة [حمل عمل تنفيذ المستودع](cloud-edge-workload-warehousing.md) (وليس حمل عمل تنفيذ التصنيع). وبالتالي، لاستخدام هذه الوظيفة عندما تكون متصلاً بوحدة قياس، يجب تنفيذ هذه المهام:
+
+- قم بتثبيت كل من حمل عمل تنفيذ المستودع وحمل عمل تنفيذ التصنيع على وحدة المقياس الخاصة بك.
+- قم بتمكين الميزة *بدء أمر الإنتاج في حمل عمل إدارة المستودعات لوحدة قياس السحابة والحافة* في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- استخدم تطبيق الأجهزة المحمولة Warehouse Management لبدء أم الإنتاج أو الأمر الدُفعي.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>تمكين استهلاك المواد واستخدامه في وحدة قياس
+
+في الإصدار الحالي، يدعم [حمل عمل تنفيذ المستودع](cloud-edge-workload-warehousing.md) (وليس حمل عمل تنفيذ التصنيع) سير العمل في تطبيق الأجهزة المحمولة Warehouse Management لتسجيل استهلاك المواد. وبالتالي، لاستخدام هذه الوظيفة عندما تكون متصلاً بوحدة قياس، يجب تنفيذ هذه المهام:
+
+- قم بتثبيت كل من حمل عمل تنفيذ المستودع وحمل عمل تنفيذ التصنيع على وحدة المقياس الخاصة بك.
+- مكّن الميزة *تمكين استهلاك المواد على تطبيق الأجهزة المحمولة عل وحدة قياس* في [إدارة الميزة](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- استخدم تطبيق الأجهزة المحمولة Warehouse Management لتسجيل استهلاك المواد.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

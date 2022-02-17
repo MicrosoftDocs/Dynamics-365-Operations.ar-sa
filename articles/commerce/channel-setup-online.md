@@ -2,7 +2,7 @@
 title: إعداد قناة على الإنترنت
 description: يوضح هذا الموضوع كيفية إنشاء قناة جديدة عبر الإنترنت في Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 11796d27a6071b180ad58c46ba2a521ecc238c6091517dbdc3a4f153b3d81749
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714701"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092102"
 ---
 # <a name="set-up-an-online-channel"></a>إعداد قناة على الإنترنت
-
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إنشاء قناة جديدة عبر الإنترنت في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يدعم Dynamics 365 Commerce عدة قنوات بيع بالتجزئة. وتتضمن قنوات البيع بالتجزئة هذه المتاجر على إنترنت، ومراكز الاتصال، ومتاجر البيع بالتجزئة (تعرف أيضًا بالمتاجر التقليدية). تمنح المتاجر على الإنترنت للعملاء خيار شراء المنتجات من متجر عبر الإنترنت تابع لبائع التجزئة عبر الإنترنت بالإضافة إلى متاجره للبيع بالتجزئة.
 
@@ -60,6 +57,10 @@ ms.locfileid: "6714701"
 تعرض الصورة التالية مثالاً لقناة عبر الإنترنت.
 
 ![مثال لقناة عبر الإنترنت.](media/channel-setup-online-2.png)
+
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>تعيين القناة إلى Commerce Scale Unit
+
+يجب أن تكون القناة الجديدة معينة إلى Commerce Scale Unit. للحصول على الإرشادات، راجع [تكوين القنوات لاستخدام Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
 
 ## <a name="set-up-languages"></a>إعداد اللغات
 

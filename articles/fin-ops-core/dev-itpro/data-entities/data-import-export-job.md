@@ -12,16 +12,19 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e867b2815920a68e3cd79843ba7b15ed6bb635
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7981975"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071075"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>نظرة عامة حول مهام استيراد البيانات وتصديرها
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 لإنشاء وإدارة وظائف استيراد البيانات وتصديرها، استخدم مساحة عمل **إدارة البيانات**. بشكل افتراضي، تنشئ عملية استيراد البيانات وتصديرها جدولاً مرحليًا لكل كيان في قاعدة البيانات الهدف. تسمح لك الجداول المرحلية بالتحقق من البيانات أو تنظيمها أو تحويلها قبل قبل أن تقوم بنقلها.
 

@@ -8,21 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964696"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075440"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>إدخال بيانات مقدم الطلب والطلب يدوياً
 
-[!include [banner](../../includes/banner.md)]
+> [!IMPORTANT]
+> تتوفر الوظيفة المذكورة في هذا الموضوع حاليًا لعملاء Human Resources في بنية Finance الأساسية  
+
 
 يوضح هذا الإجراء كيفية الاحتفاظ بمعلومات عن مقدمي الطلبات واستمارات تقديم طلباتهم. يمكنك إدخال المعلومات الشخصية وتواريخ وأوقات إجراء المقابلات والمراجع والاختصاصات وطلبات الإقامة لمقدمي الطلبات، كما يمكنك المحافظة على كل هذه المعطيات. ويمكنك أيضًا تحديث حالة استمارة تقديم طلبات التوظيف لمقدمي الطلبات وإنشاء رسائل خطية أو رسائل بريد إلكتروني للتواصل مع مقدمي الطلبات. عند إنشاء سجل لمقدم طلب، يتم إنشاء سجل شخص لمقدم الطلب هذا في دفتر العناوين العمومي. تم استخدام شركة بيانات العرض التوضيحي **USMF** لإنشاء هذا الإجراء.
 

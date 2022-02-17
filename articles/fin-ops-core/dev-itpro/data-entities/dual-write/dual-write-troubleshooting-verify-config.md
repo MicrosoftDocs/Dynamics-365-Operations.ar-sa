@@ -1,6 +1,6 @@
 ---
-title: التحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
-description: يشرح هذا الموضوع كيفية تحديد ما إذا كان قد تم تكوين الكتابة الثنائية في تطبيقات Finance and Operations وفي Dataverse.
+title: تحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
+description: يشرح هذا الموضوع كيفية تحديد ما إذا كان قد تم تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات وفي Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,36 +9,36 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1f82705f3d8bc11eacbc13d32c14ad1765dcc559
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782617"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062790"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>التحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>تحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-يوفر هذا الموضوع معلومات حول استكشاف أخطاء تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse. على وجه التحديد، يشرح هذا الموضوع كيفية تحديد ما إذا كان قد تم تكوين الكتابة الثنائية في تطبيقات Finance and Operations وفي Dataverse.
 
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>التحقق من تكوين الكتابة الثنائية في تطبيق Finance and Operations
+يوفر هذا الموضوع معلومات حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يشرح هذا الموضوع كيفية تحديد ما إذا كان قد تم تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات وفي Dataverse.
+
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>تحقق من تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات
 
 لتحديد ما إذا كانت الأخطاء التي تراها عند محاولة حفظ الصفوف للتحديث تاتي من الكتابة الثنائية أو لا، تحقق أولاً من تكوين الكتابة الثنائية.
 
-+ إذا كانت لديك امتيازات إدارية في تطبيق Finance and Operations، فانتقل إلى **مساحات العمل\> إدارة البيانات**، وحدد تجانب **الكتابة الثنائية**. في حالة عرض تفاصيل البيئات المرتبطة وقائمة مخططات الجداول قيد التشغيل، فإنه يتم تكوين الكتابة الثنائية.
++ إذا كانت لديك امتيازات إدارية في تطبيق التمويل والعمليات، فانتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد الإطار المتجانب **الكتابة المزدوجة**. في حالة عرض تفاصيل البيئات المرتبطة وقائمة مخططات الجداول قيد التشغيل، فإنه يتم تكوين الكتابة الثنائية.
 
-    ![التحقق من اتصال تطبيق Finance and Operations عندما يكون لديك امتيازات المسؤول.](media/verify_fin_ops_1.png)
+    ![التحقق من اتصال تطبيق التمويل والعمليات عندما يكون لديك امتيازات المسؤول.](media/verify_fin_ops_1.png)
 
-+ إذا لم يكن لديك امتيازات المسؤول، فستتلقى رسالة خطأ، *لا يمكن كتابة البيانات إلى كيان \<entity name\>*. في المثال الموجود في التوضيح التالي، لا يمكنك إنشاء صف عميل في تطبيق Finance and Operations، لأنه يتم تكوين الكتابة الثنائية، ولكن لا توجد البيانات المرجعية لشروط الدفع ومجموعة العملاء في Dataverse.
++ إذا لم يكن لديك امتيازات المسؤول، فستتلقى رسالة خطأ، *لا يمكن كتابة البيانات إلى كيان \<entity name\>*. في المثال الموجود في التوضيح التالي، لا يمكنك إنشاء صف عميل في تطبيق التمويل والعمليات، بسبب تكوين الكتابة المزدوجة، ولكن البيانات المرجعية لشروط الدفع ومجموعة العملاء غير موجودة في Dataverse.
 
-    ![التحقق من اتصال تطبيق Finance and Operationsعندما لا يكون لديك امتيازات المسؤول.](media/verify_fin_ops_2.png)
+    ![التحقق من اتصال تطبيق التمويل والعمليات عندما لا يكون لديك امتيازات المسؤول.](media/verify_fin_ops_2.png)
 
-للحصول على معلومات حول كيفية إصلاح المشكلات عند قيامك بإنشاء البيانات في تطبيقات Finance and Operations، راجع [استكشاف مشكلات المزامنة المباشرة وإصلاحها](dual-write-troubleshooting-live-sync.md).
+للحصول على معلومات حول كيفية إصلاح المشكلات عند قيامك بإنشاء البيانات في تطبيقات التمويل والعمليات، راجع [استكشاف مشكلات المزامنة المباشرة وإصلاحها](dual-write-troubleshooting-live-sync.md).
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>التحقق من تكوين الكتابة الثنائية في Dataverse
 
