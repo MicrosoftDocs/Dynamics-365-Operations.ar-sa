@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781382"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063662"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>إعداد الكتابة المزدوجة من Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يوضح هذا الموضوع كيفية تمكين الكتابة المزدوجة من Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -53,18 +53,18 @@ ms.locfileid: "7781382"
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="الربط ببيئة Power Platform .":::
 
-8. عند اكتمال الارتباط، يتم عرض ارتباط تشعبي. استخدم الارتباط لتسجيل الدخول إلى منطقة إدارة الكتابة المزدوجة في البيئة Finance and Operations. ومن هناك، يمكنك إعداد تعيينات الكيانات.
+8. عند اكتمال الارتباط، يتم عرض ارتباط تشعبي. استخدم الارتباط لتسجيل الدخول إلى منطقة إدارة الكتابة المزدوجة في بيئة التمويل والعمليات. ومن هناك، يمكنك إعداد تعيينات الكيانات.
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>إعداد الكتابة المزدوجة لبيئة Dataverse موجودة
 
 لإعداد الكتابة الزدوجة لبيئة Dataverse موجودة، يجب عليك إنشاء [بطاقة دعم Microsoft](../../lifecycle-services/lcs-support.md). يجب أن تتضمن التذكرة:
 
-+ معرف بيئة Finance and Operations الخاص بك.
++ معرف بيئتك في التمويل والعمليات.
 + اسم البيئة الخاصة بك من Lifecycle Services.
 + معرف مؤسسة Dataverse أو معرف بيئة Power Platform من مركز مسؤول Power Platform. في البطاقة الخاصة بك، اطلب أن يكون المُعرف هو المثيل المستخدم لتكامل Power Platform.
 
 > [!NOTE]
-> لا يمكنك إلغاء ارتباط البيئات باستخدام LCS. لإلغاء ارتباط بيئة، افتح مساحة عمل **تكامل البيانات** في بيئة Finance and Operations، ثم حدد **إلغاء الارتباط**.
+> لا يمكنك إلغاء ارتباط البيئات باستخدام LCS. لإلغاء ارتباط بيئة، افتح مساحة عمل **تكامل البيانات** في بيئة التمويل والعمليات، ثم حدد **إلغاء الارتباط**.
 
 ## <a name="linking-mismatch"></a>ربط عدم التطابق
 

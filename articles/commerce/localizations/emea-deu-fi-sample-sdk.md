@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 51107731090b77e75a0e5a8c91b052d494b452e4
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 98641f9989322feb77ab683df66c2c1f9ad50a0d
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944905"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077055"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>إرشادات النشر لعينة تكامل خدمة التسجيل المالي لألمانيا (قديمة)
 
@@ -156,13 +156,13 @@ ms.locfileid: "7944905"
 
 ## <a name="design-of-extensions"></a>تصميم الملحقات
 
-تعتمد عينة تكامل خدمة التسجيل المالي لألمانيا في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md). لمزيد من المعلومات حول تصميم حل التكامل المالي، راجع [نظرة عامة على تصميم نموذج التكامل](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+تعتمد عينة تكامل خدمة التسجيل المالي لألمانيا في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md). لمزيد من المعلومات حول تصميم حل التكامل المالي، راجع [نظرة عامة على تصميم نموذج التكامل](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>تصميم ملحق Commerce Runtime
 
 الغرض من الامتداد الذي يمثل موفر المستندات المالية هو إنشاء مستندات خاصة بالخدمة ومعالجة الاستجابات من خدمة التسجيل المالي.
 
-ملحق CRT هو **Runtime.Extensions.DocumentProvider.EFRSample**. لمزيد من المعلومات حول تصميم حل التكامل المالي، راجع [نظرة عامة على التكامل المالي لقنوات Commerce](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+ملحق CRT هو **Runtime.Extensions.DocumentProvider.EFRSample**. لمزيد من المعلومات حول تصميم حل التكامل المالي، راجع [نظرة عامة على التكامل المالي لقنوات Commerce](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>معالج الطلب
 

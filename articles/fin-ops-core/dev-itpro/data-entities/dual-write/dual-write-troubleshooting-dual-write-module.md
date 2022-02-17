@@ -1,6 +1,6 @@
 ---
-title: استكشاف المشاكل وإصلاحها في تطبيقات Finance and Operations
-description: يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح المشكلات ذات الصلة بوحدة الكتابة الثنائية في تطبيقات Finance and Operations.
+title: استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
+description: يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح المشكلات ذات الصلة بوحدة الكتابة المزدوجة في تطبيقات التمويل والعمليات.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781188"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061798"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>استكشاف المشاكل وإصلاحها في تطبيقات Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يوفر هذا الموضوع معلومات حول استكشاف أخطاء تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse. على وجه التحديد، يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها في وحدة **الكتابة الثنائية** في تطبيقات Finance and Operations.
+
+يوفر هذا الموضوع معلومات حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يوفر هذا الموضوع معلومات يمكنها مساعدتك في إصلاح الأخطاء في وحدة **الكتابة المزدوجة** في تطبيقات التمويل والعمليات.
 
 > [!IMPORTANT]
 > قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>لا يمكنك تحميل وحدة الكتابة المزدوجة في تطبيق Finance and Operations
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>لا يمكنك تحميل الوحدة النمطية للكتابة المزدوجة في تطبيق التمويل والعمليات
 
 إذا لم تتمكن من فتح صفحة **الكتابة الثنائية** بتحديد تجانب **الكتابة الثنائية** في مساحة عمل **إدارة البيانات**، فربما تكون خدمة تكامل البيانات معطلة. أنشئ تذكرة دعم لطلب إعادة تشغيل خدمة تكامل البيانات.
 
@@ -49,7 +49,7 @@ ms.locfileid: "7781188"
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>حدث خطأ عند ربط البيئة للكتابة الثنائية أو إضافة تعيين جدول جديد
 
-**الدور المطلوب لحل المشكلة:** مسؤول النظام في كل من تطبيقات Finance and Operations وDataverse.
+**الدور المطلوب لإصلاح المشكلة:** مسؤول النظام في تطبيقات التمويل والعمليات وDataverse.
 
 قد تواجه الخطأ التالي عند الارتباط بالمخططات أو إنشائها:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-يمكن أن يحدث هذا الخطأ إذا لم يكن لديك الأذونات الكافية للربط بين الكتابة الثنائية أو إنشاء المخططات. يمكن أن يحدث هذا الخطأ إذا تمت إعادة تعيين بيئة Dataverse بدون إلغاء ربط الكتابة المزدوجة. يمكن لأي مستخدم يتمتع بدور مسؤول النظام في كل من تطبيقات Finance and Operations وDataverse ربط البيئات. يمكن فقط للمستخدم الذي قام بإعداد اتصال الكتابة المزدوجة إضافة تعيينات لجداول جديدة. بعد الإعداد، يمكن لأي مستخدم يتمتع بدور مسؤول النظام مراقبة الحالة وتحرير التعيينات.
+يمكن أن يحدث هذا الخطأ إذا لم يكن لديك الأذونات الكافية للربط بين الكتابة الثنائية أو إنشاء المخططات. يمكن أن يحدث هذا الخطأ إذا تمت إعادة تعيين بيئة Dataverse بدون إلغاء ربط الكتابة المزدوجة. يمكن لأي مستخدم يتمتع بدور مسؤول النظام في كل من تطبيقات التمويل والعمليات وDataverse ربط البيئات. يمكن فقط للمستخدم الذي قام بإعداد اتصال الكتابة المزدوجة إضافة تعيينات لجداول جديدة. بعد الإعداد، يمكن لأي مستخدم يتمتع بدور مسؤول النظام مراقبة الحالة وتحرير التعيينات.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>حدث خطأ عند إيقاف تعيين الجدول
 
@@ -82,7 +82,7 @@ Root activity ID: \<your root activity\> id
 عند محاولة تعيين حالة التعيين هذه على **قيد التشغيل**، فقد تتلقى هذا الخطأ. يعتمد الإصلاح على سبب الخطأ:
 
 + إذا كان التعيين يتضمن تعيينات تابعة، فتأكد من تمكين التعيينات التابعة لتعيين هذا الجدول.
-+ قد يكون التعيين مفتقدًا لأعمدة المصدر أو الوجهة. في حالة فقدان عمود في تطبيق Finance and Operations، اتبع الخطوات الموجودة في القسم [مشكلة فقدان أعمدة الجدول في التعيينات](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). في حالة فقدان عمود في Dataverse، عندئذ انقر فوق **تحديث الجداول** على التعيين بحيث يتم ملء الحقول تلقائيًا إلى التعيين.
++ قد يكون التعيين مفتقدًا لأعمدة المصدر أو الوجهة. في حالة فقدان عمود في تطبيق التمويل والعمليات، اتبع الخطوات الموجودة في القسم [مشكلة فقدان أعمدة الجدول على الخرائط](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). في حالة فقدان عمود في Dataverse، عندئذ انقر فوق **تحديث الجداول** على التعيين بحيث يتم ملء الحقول تلقائيًا إلى التعيين.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>خطأ عدم تطابق الإصدار وترقية حلول الكتابة المزدوجة
 

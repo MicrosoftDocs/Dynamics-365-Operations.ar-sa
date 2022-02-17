@@ -9,33 +9,33 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c9bf5d9017579b4207e09769cff38361442e3938
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781430"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061457"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>استكشاف المشاكل وإصلاحها أثناء الإعداد الأولي
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يوفر هذا الموضوع معلومات حول استكشاف أخطاء تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات التي قد تحدث أثناء الإعداد الأولي لتكامل الكتابة الثنائية.
+
+يوفر هذا الموضوع معلومات حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات التي قد تحدث أثناء الإعداد الأولي لتكامل الكتابة الثنائية.
 
 > [!IMPORTANT]
 > قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>لا يمكنك ربط تطبيق Finance and Operations بـ Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>لا يمكنك ربط تطبيق التمويل والعمليات بـ Dataverse
 
-**الدور المطلوب لتعيين الكتابة المزدوجة:** مسؤول النظام في تطبيقات Finance and Operations وDataverse.
+**الدور المطلوب لتعيين الكتابة المزدوجة:** مسؤول النظام في تطبيقات التمويل والعمليات وDataverse.
 
 تحدث الأخطاء في صفحة **رابط الإعداد لـ Dataverse** عادة بسبب وجود مشكلات الإعداد غير المكتمل أو المشكلات المتعلقة بالأذونات. تأكد من نجاح عملية التحقق من الصحة الكاملة في صفحة **رابط الإعداد لـ Dataverse**، كما هو مبين في التوضيح التالي. لا يمكنك ربط الكتابة الثنائية إلا إذا نجحت عملية التحقق من الصحة الكاملة.
 
 ![عملية التحقق من السلامة الناجحة.](media/health_check.png)
 
-يجب أن يكون لديك بيانات اعتماد مسؤول مستأجر Azure AD لربط بيئات Finance and Operations وDataverse بعد ربط البيئات، يمكن للمستخدمين تسجيل الدخول باستخدام بيانات اعتماد الحساب الخاص بهم وتحديث خريطة جدول موجودة.
+يجب أن يكون لديك بيانات اعتماد مسؤول مستأجر Azure AD لربط بيئات التمويل والعمليات وDataverse. بعد ربط البيئات، يمكن للمستخدمين تسجيل الدخول باستخدام بيانات اعتماد الحساب الخاص بهم وتحديث خريطة جدول موجودة.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>البحث عن الحد الخاص بعدد الجداول القانونية أو الشركات التي يمكن ربطها للكتابة الثنائية
 
@@ -55,7 +55,7 @@ ms.locfileid: "7781430"
 
 لإلغاء حظر العميل، قم بإزالة السجلات المكررة من جدول **cdm_company** في Dataverse. أيضًا، إذا كان الجدول **cdm_company** يحتوي على سجلات باسم فارغ، قم بإزالة هذه السجلات أو تصحيحها.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>خطأ عند فتح صفحة الكتابة المزدوجة في تطبيقات Finance and Operations
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>خطأ عند فتح صفحة الكتابة المزدوجة في تطبيقات التمويل والعمليات
 
 قد تتلقى رسالة الخطأ التالية عند محاولتك ربط بيئة Dataverse للكتابة المزدوجة:
 
@@ -70,22 +70,22 @@ ms.locfileid: "7781430"
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + حدد **قبول** للموافقة. أنت تقدم الموافقة على تثبيت التطبيق (مع `id=33976c19-1db5-4c02-810e-c243db79efde`) في المستأجر الخاص بك.
-+ هذا التطبيق مطلوب Dataverse للاتصال بتطبيقات Finance and Operations.
++ هذا التطبيق مطلوب لـ Dataverse للاتصال بتطبيقات التمويل والعمليات.
 
     ![استكشاف أخطاء إعداد المزامنة الأولية وإصلاحها.](media/Initial-sync-setup-troubleshooting-1.png)
 
 > [!NOTE]
 > إذا لم يفلح ذلك، فقم بتشغيل عنوان URL في الوضع الخاص لـ Microsoft Edge أو وضع التصفح المتخفي في Chrome.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>بيئة Finance and Operations غير قابلة للاكتشاف
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>بيئة التمويل والعمليات غير قابلة للاكتشاف
 
 قد تتلقى رسالة الخطأ التالية:
 
-*بيئة تطبيقات Finance and Operations \*\*\*.cloudax.dynamics.com غير قابل للاكتشاف.*
+*بيئة تطبيقات التمويل والعمليات \*\*\*.cloudax.dynamics.com غير قابلة للاكتشاف.*
 
 هناك أمران يمكن أن يسببا مشكلة في البيئة التي لا يمكن اكتشافها:
 
-+ المستخدم المُستخدم لتسجيل الدخول ليس في نفس المستأجر مثل مثيل Finance and Operations.
-+ هناك بعض مثيلات Finance and Operations القديمة التي استضافتها Microsoft والتي كانت بها مشكلة في الاكتشاف. لإصلاح هذا، قم بتحديث مثيل Finance and Operations. تصبح البيئة قابلة للاكتشاف مع أي تحديث.
++ المستخدم الذي تم استخدامه لتسجيل الدخول ليس في نفس المستأجر حيث مثيل التمويل والعمليات.
++ هناك بعض مثيلات التمويل والعمليات القديمة التي استضافتها Microsoft والتي كانت بها مشكلة في الاكتشاف. لإصلاح هذا، قم بتحديث مثيل التمويل والعمليات. تصبح البيئة قابلة للاكتشاف مع أي تحديث.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

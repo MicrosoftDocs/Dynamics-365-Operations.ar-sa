@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba984d26c5c0b1376c0ad85e5c0665da004a46a5
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414678"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065006"
 ---
 # <a name="configure-integration-with-finance"></a>تكوين التكامل مع Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 لاجراء تكامل Dynamics 365 Human Resources مع Dynamics 365 Finance، يمكنك استخدام Human Resources في قالب Finance في [مكامل بيانات ](/powerapps/administrator/data-integrator). تتيح Human Resources لقالب Finance تدفق البيانات للوظائف والمناصب والعاملين. يسمح القالب بتدفق البيانات من Human Resources إلى Finance، لكنه لا يسمح بتدفق البيانات من Finance إلى Human Resources.
 

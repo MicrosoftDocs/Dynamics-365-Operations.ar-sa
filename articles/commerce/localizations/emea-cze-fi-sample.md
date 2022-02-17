@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0a04ebb7685ff0b72207d9268b4aea980679572e
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 990de96f57f4a22b4d58da5f970b1b96f5fc21f5
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944979"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077080"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>عينة تكامل خدمة التسجيل المالي لجمهورية التشيك‬
 
@@ -181,7 +181,7 @@ ms.locfileid: "7944979"
 
 ## <a name="set-up-fiscal-integration-for-the-czech-republic"></a>إعداد التكامل المالي لجمهورية التشيك
 
-تعتمد عينة تكامل خدمة التسجيل المالي لجمهورية التشيك في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\Efr** الخاص [بحلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)، المستودع (على سبيل المثال [النموذج في الإصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) من موفر المستند المالي، وهو امتداد لCommerce Runtime (CRT)، والموصل المالي، وهو امتداد لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
+تعتمد عينة تكامل خدمة التسجيل المالي لجمهورية التشيك في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\Efr** الخاص [بحلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)، المستودع (على سبيل المثال [النموذج في الإصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو امتداد لCommerce Runtime (CRT)، والموصل المالي، وهو امتداد لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج التكامل المالي لجمهورية التشيك (قديم)](emea-cze-fi-sample-sdk.md).
@@ -306,7 +306,7 @@ ms.locfileid: "7944979"
 
 ## <a name="design-of-extensions"></a>تصميم الملحقات
 
-تعتمد عينة تكامل خدمة التسجيل المالي لجمهورية التشيك في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\Efr** الخاص [بحلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)، المستودع (على سبيل المثال [النموذج في الإصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) من موفر المستند المالي، وهو ملحق لـ (CRT)، والموصل المالي، وهو ملحق لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
+تعتمد عينة تكامل خدمة التسجيل المالي لجمهورية التشيك في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\Efr** الخاص [بحلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)، المستودع (على سبيل المثال [النموذج في الإصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو ملحق لـ (CRT)، والموصل المالي، وهو ملحق لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج التكامل المالي لجمهورية التشيك (قديم)](emea-cze-fi-sample-sdk.md). يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.

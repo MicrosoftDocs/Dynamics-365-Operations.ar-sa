@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471634"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069419"
 ---
 # <a name="message-processor-messages"></a>رسائل معالج الرسالة
 
@@ -29,7 +29,7 @@ ms.locfileid: "7471634"
 
 تُستخدم رسائل معالج الرسائل عند تشغيل وحدات القياس السحابية والحافة لـ [أحمال عمل التصنيع](cloud-edge-workload-manufacturing.md) و[أحمال عمل إدارة المستودع](cloud-edge-workload-warehousing.md).
 
-يتم تبادل قدر كبير من البيانات بين المحور وبيئات نشر وحدة القياس لإبقائها متزامنة، ولكن سيتم معالجة عدد قليل فقط من عمليات تبادل البيانات هذه بواسطة *معالج الرسائل*. يمكنك عرض الرسائل التي تمت معالجتها بواسطة معالج الرسائل بالانتقال إلى **إدارة النظام > معالج الرسائل > رسائل معالج الرسائل**.
+يتم تبادل قدر كبير من البيانات بين بيئات نشر المركز وبيئات نشر وحدة القياس لإبقائها متزامنة، سيقوم قسم من البيانات المتبادلة بتشغيل منطق إضافي في *معالج الرسائل*. يمكنك عرض الرسائل التي تمت معالجتها بواسطة معالج الرسائل بالانتقال إلى **إدارة النظام > معالج الرسائل > رسائل معالج الرسائل**.
 
 ## <a name="message-grid-columns-and-filters"></a>أعمده وعوامل تصفية شبكه الرسائل
 

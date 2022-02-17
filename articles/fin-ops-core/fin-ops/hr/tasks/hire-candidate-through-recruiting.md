@@ -10,19 +10,23 @@ ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964951"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075363"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>تعيين مرشح من خلال التوظيف
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> تتوفر الوظيفة المذكورة في هذا الموضوع حاليًا لعملاء Human Resources في بنية Finance الأساسية  
+
 
 يتيح هذا الإجراء لمسؤول التعيين توظيف مقدم الطلب الذي قدم استمارة تقديم طلب من خلال مشروع تعيين محدد. عند توظيف مقدم طلب من خلال مشروع تعيين، يتم إنشاء سجل عامل جديد وحالة سجل مقدم الطلب هي **موظف**. تم استخدام شركة بيانات العرض التوضيحي **USMF** لإنشاء هذا الإجراء.
 

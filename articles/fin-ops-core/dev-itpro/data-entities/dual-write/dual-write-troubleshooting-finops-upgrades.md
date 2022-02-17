@@ -1,6 +1,6 @@
 ---
-title: استكشاف المشاكل من ترقيات تطبيقات Finance and Operations
-description: يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات Finance and Operations.
+title: استكشاف المشكلات من ترقيات تطبيقات Finance and Operations
+description: يوفر هذا الموضوع معلومات استكشاف الأخطاء وإصلاحها التي يمكنها أن تساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات التمويل والعمليات.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: db1602c2edaa2e6b6310cce04639ef7a8e43df15
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782771"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062815"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>استكشاف المشاكل من ترقيات تطبيقات Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>استكشاف المشكلات من ترقيات تطبيقات Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-يوفر هذا الموضوع معلومات حول استكشاف أخطاء تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات Finance and Operations.
+
+يوفر هذا الموضوع معلومات حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات التمويل والعمليات.
 
 > [!IMPORTANT]
 > قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
@@ -33,7 +33,7 @@ ms.locfileid: "7782771"
 
 **الدور المطلوب لإصلاح المشكلة:** مسؤول النظام
 
-قد تظهر رسالة خطأ مشابهة للمثال التالي عند محاولة استخدام جدول **DualWriteProjectConfiguration** لتحديث تطبيق Finance and Operations إلى تحديث النظام الأساسي 30.
+قد تظهر رسالة خطأ مشابهة للمثال التالي عند محاولة استخدام جدول **DualWriteProjectConfiguration** لتحديث تطبيق التمويل والعمليات إلى تحديث النظام الأساسي 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -43,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 لإصلاح المشكلة، اتبع هذه الخطوات.
 
-1. سجل الدخول إلى الجهاز الظاهري (VM) لتطبيق Finance and Operations.
+1. سجل دخولك إلى الجهاز الظاهري (VM) لتطبيق التمويل والعمليات.
 2. افتح Visual Studio كمسؤول، ثم افتح شجره مكونات البرنامج (AOT).
 3. ابحث عن **DualWriteProjectConfiguration**.
 4. في شجرة مكونات المنتج، انقر بزر الماوس الأيمن فوق **DualWriteProjectConfiguration**، ثم حدد **إضافة إلى مشروع جديد**. حدد **موافق** لإنشاء المشروع الجديد الذي يستخدم الخيارات الافتراضية.
@@ -65,10 +65,10 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 لإصلاح هذه المشكلة، اتبع أولاً الخطوات التالية للتأكد من وجود الأعمدة في الجدول.
 
-1. سجل الدخول إلى الجهاز الظاهري لتطبيق Finance and Operations.
+1. سجل دخولك إلى الجهاز الظاهري (VM) لتطبيق التمويل والعمليات.
 2. انتقل إلى **مساحات العمل \> إدارة البيانات**، حدد تجانب **معلمات إطارات العمل**، ثم في علامة التبويب **إعدادات الجدول**، حدد **تحديث قائمة الجداول** لتحديث الجداول.
-3. انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد علامة التبويب **جداول البيانات**، ثم تأكد من إدارج الجدول. إذا لم يكن الجدول مدرجًا، فقم بتسجيل الدخول إلى الجهاز الظاهري لتطبيق Finance and Operations، وتأكد من توفر الجدول.
-4. افتح صفحة **تعيين الجدول** من صفحة **الكتابة الثنائية** في تطبيق Finance and Operations.
+3. انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد علامة التبويب **جداول البيانات**، ثم تأكد من إدارج الجدول. إذا لم يكن الجدول مدرجًا، فقم بتسجيل الدخول إلى الجهاز الظاهري لتطبيق التمويل والعمليات، وتأكد من توفر الجدول.
+4. افتح صفحة **تعيين الجدول** من صفحة **الكتابة المزدوجة** في تطبيق التمويل والعمليات.
 5. حدد **تحديث قائمة الجداول** لملء الأعمدة تلقائيًا في تعيينات الجداول.
 
 في حالة استمرار إصلاح المشكلة، اتبع الخطوات التالية.
@@ -76,10 +76,10 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 > [!IMPORTANT]
 > ترشدك هذه الخطوات خلال عملية حذف أحد الجداول ثم إضافته مرة أخرى. لتجنب المشكلات، تأكد من اتباع الخطوات بدقة.
 
-1. في تطبيق Finance and Operations، انتقل إلى **مساحات العمل\> إدارة البيانات**، ثم حدد تجانب **جداول البيانات**.
+1. في تطبيق التمويل والعمليات، انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد الإطار المتجانب **جداول البيانات**.
 2. ابحث عن الجدول الذي يفتقد إلى السمة. انقر فوق **تعديل تعيين هدف** في شريط الأدوات.
 3. في الجزء **تعيين التشغيل المرحلي إلى الهدف**، انقر فوق **إنشاء تعيين للمصدر**.
-4. افتح صفحة **تعيين الجدول** من صفحة **الكتابة الثنائية** في تطبيق Finance and Operations.
+4. افتح صفحة **تعيين الجدول** من صفحة **الكتابة المزدوجة** في تطبيق التمويل والعمليات.
 5. إذا كان لا يتم ملء السمة تلقائيًا في التعيين، فقم بإضافتها يدويا بالنقر فوق زر **إضافة سمة** ثم النقر فوق **حفظ**. 
 6. حدد التعيين ثم انقر فوق **تشغيل**.
 

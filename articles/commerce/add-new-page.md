@@ -2,7 +2,7 @@
 title: إضافة صفحة موقع جديدة
 description: يصف هذا الموضوع كيفية إضافة صفحة موقع جديدة في Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725376"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090709"
 ---
 # <a name="add-a-new-site-page"></a>إضافة صفحة موقع جديدة
 
@@ -33,11 +33,11 @@ ms.locfileid: "6725376"
 
 يمكنك استخدام قالب أو تخطيط لصفحتك الجديدة. لمزيد من المعلومات ، راجع [نظرة عامة على القوالب والتخطيطات](templates-layouts-overview.md).
 
-## <a name="page-name"></a>اسم الصفحة
+## <a name="specify-the-page-name"></a>تحديد اسم الصفحة
 
-يجب أن يكون اسم الصفحة فريدًا لصفحتك. يجب أن يكون وصفيًا، حتى تتمكن من العثور عليه بسهولة ويعرف الآخرون المقصود من الصفحة. اختر اسم الصفحة بعناية، لأنه لا يمكن تغييره لاحقًا.
+يجب أن يكون اسم الصفحة فريدًا لموقعك ويجب أن يكون وصفيًا حتى تتمكن من العثور عليه بسهولة ويعرف الآخرون الهدف من الصفحة. يمكنك إعادة تسمية صفحتك لاحقًا عن طريق تحريرها ثم تحديد رمز القلم الموجود بجوار اسم الصفحة في جزء الخصائص.
 
-## <a name="page-url"></a>عنوان URL للصفحة
+## <a name="specify-the-page-url"></a>تحديد عنوان URL للصفحة
 
 يمكنك الحصول على خيار إدخال عنوان URL لصفحتك الجديدة. عند إنشاء صفحة ، يمكنك إدخال سلسلة يتم استخدامها لتشكيل عنوان URL كامل. تُعرف هذه السلسلة بعنوان URL المرتبط أو عنوان URL الوصفي. ثم يتم إنشاء عنوان URL كامل استنادًا إلى عنوان URL الوصفي، ويتم تعيين الصفحة الجديدة إليها. يمكنك تغيير عنوان URL في وقت لاحق، قبل نشر الصفحة. لمزيد من المعلومات، راجع [إنشاء عنوان URL للصفحة](create-page-URL.md)
 

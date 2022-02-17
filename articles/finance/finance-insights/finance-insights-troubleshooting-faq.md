@@ -2,7 +2,7 @@
 title: استكشاف مشاكل إعداد Finance Insights وإصلاحها
 description: يسرد هذا الموضوع المشاكل التي قد تحدث عند استخدام قدرات Finance Insights. كما يشرح كيفية إصلاح هذه المشاكل.
 author: panolte
-ms.date: 11/03/2021
+ms.date: 01/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968826"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064856"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>استكشاف مشاكل إعداد Finance Insights وإصلاحها
 
@@ -92,3 +92,25 @@ ms.locfileid: "7968826"
   | ---------------------------- | ---------------- |
   | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>العَرَض‬‏‫: خطأ، "لم نعثر على أي بيانات لنطاق عامل التصفية المحدد. الرجاء تحديد نطاق تصفية آخر والمحاولة مره أخرى." 
+
+### <a name="resolution"></a>القرار
+
+تحقق من إعداد موحد البيانات للتأكد من أنه يعمل كما هو متوقع ويحدّث البيانات من AI Builder إلى Finance.  
+لمزيد من المعلومات، راجع [إنشاء مشروع تكامل البيانات](../finance-insights/create-data-integrate-project.md).
+
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>العَرَضْ‬‬‏‫: فشل تدريب توقع دفع العميل وحالات خطأ AI Builder، "يجب أن يحتوي التنبؤ على قيمتين ناتجتين مميزتين فقط لتدريب النموذج. قم بالتعيين إلى النتائج وأعد التدريب"، "مشكلة في تقرير التدريب: IsNotMinRequiredDistinctNonNullValues".
+
+### <a name="resolution"></a>القرار
+
+يشير هذا الخطأ إلى عدم وجود حركات قديمة كافية في السنهة الأخيرة تمثل كل فئة ورد وصفها في الفئات **في الوقت المحدد‬** و **متأخر** و **متأخر‏‎ جدًا**. لحل هذا الخطأ، قم بتعديل فتره الحركة **المتأخرة جدًا**. إذا لم يساعد تعديل فترة الحركة **المتأخرة جدًا** على إصلاح الخطأ، فإن الخيار **توقعات دفع العميل‬** ليس الحل الأفضل لأنه يحتاج إلى بيانات في كل فئة لأغراض التدريب.
+
+لمزيد من المعلومات حول كيفية تعديل الفئات **في الوقت المحدد** و **متأخر** و **متأخر جدًا**، راجع [تمكين توقعات دفع العميل‬](../finance-insights/enable-cust-paymnt-prediction.md).
+
+## <a name="symptom-model-training-failed"></a>العَرَض‬‬‏‫: فشل تدريب النموذج
+
+### <a name="resolution"></a>القرار
+
+يحتاج تدريب نموذج **تقدير التدفقات النقدية‬** إلى بيانات تمتد لأكثر من سنة واحدة وتحتوي على أكثر من 100 حركة. ويجب أن تؤثر هذه الحركات على حسابات السيولة المضمنة في إعداد تقدير التدفقات النقدية.
+
+تحتاج **توقعات دفع العميل‬** إلى 100 فاتورة عميل وحركات دفع في الفترة من الأشهر الستة إلى التسعة الأخيرة لإنشاء التوقعات.  

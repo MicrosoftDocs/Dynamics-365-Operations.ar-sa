@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920288"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060991"
 ---
 # <a name="configure-inventory-visibility"></a>تكوين رؤية المخزون
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 يوضح هذا الموضوع كيفية تكوين رؤية المخزون باستخدام تطبيق رؤية المخزون في Power Apps.
 
@@ -58,7 +58,7 @@ ms.locfileid: "7920288"
 
 ## <a name="data-source-configuration"></a>تكوين مصدر البيانات
 
-يمثل كل مصدر بيانات نظامًا تأتي منه بياناتك. ويتضمن مثال أسماء مصادر البيانات `fno` (وهو ما يعني "تطبيقات Dynamics 365 Finance and Operations") و`pos` (وتعني "نقطة البيع"). افتراضيًا، يتم إعداد Supply Chain Management كمصدر بيانات افتراضي ( `fno`) في رؤية المخزون.
+يمثل كل مصدر بيانات نظامًا تأتي منه بياناتك. ويتضمن مثال أسماء مصادر البيانات `fno` (الذي يعني تطبيقات "التمويل والعمليات في Dynamics 365") و`pos` (الذي يعني "نقطة البيع"). افتراضيًا، يتم إعداد Supply Chain Management كمصدر بيانات افتراضي ( `fno`) في رؤية المخزون.
 
 > [!NOTE]
 > مصدر بيانات `fno` محجوز لـ Supply Chain Management. إذا كانت الوظيفة الاضافيه لرؤية المخزون متكاملة مع بيئة Supply Chain Management، فاننا نوصي بعدم حذف التكوينات المرتبطة بـ `fno` في مصدر البيانات.

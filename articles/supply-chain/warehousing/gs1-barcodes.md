@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8f438e18356a6c16cc75bb59153ae7353d984a5a
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 702985ef9726690829e35e43d270477be318fc41
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500320"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075204"
 ---
 # <a name="gs1-bar-codes-and-qr-codes"></a>الأكواد الشريطية GS1 ورموز الاستجابة السريعة (QR)
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- Preview until 10.0.25 GA -->
 
 غالبا ما يضطر العاملون في المستودعات إلى إكمال العديد من المهام عند استخدامهم ماسح ضوئي للأجهزة المحمولة لتسجيل حركات عنصر أو لوحة أو حاوية. يمكن أن تتضمن هذه المهام مسح الرموز الشريطية وإدخال المعلومات يدويا على الجهاز المحمول. تستخدم الرموز الشريطية تنسيقا خاصا بالشركة تقوم بتعريفه وإدارته باستخدام Microsoft Dynamics 365 Supply Chain Management.
 

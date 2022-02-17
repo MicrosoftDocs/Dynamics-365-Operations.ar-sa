@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901979"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069369"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>تثبيت تطبيق الاجهزه المحمولة لأداره المستودعات والاتصال به
 
@@ -143,6 +143,10 @@ ms.locfileid: "7901979"
 يمكن استخدام الشهادات كأسرار لإثبات هوية التطبيق عند طلب رمز مميز. يتم تحميل الجزء العام من الشهادة إلى تسجيل التطبيق في مدخل Azure، بينما يجب أن يتم نشر الشهادة الكاملة على كل جهاز يتم فيه تثبيت تطبيق إدارة المستودع للأجهزة المحمولة. تتحمل مؤسستك المسؤولية عن إدارة الشهادة فيما يتعلق بالتدوير وغيرها. يمكنك استخدام شهادات موقعة ذاتيًا، ولكن يجب دائمًا استخدام الشهادات غير القابلة للتصدير.
 
 يجب أن تجعل الشهادة متاحة محليًا على كل جهاز يتم فيه تشغيل تطبيق إدارة المستودع للأجهزة المحمولة. لمزيد من المعلومات حول كيفية إدارة الشهادات في الأجهزة المتحكم فيها بواسطة Intune إذا كنت تستخدم Intune، فراجع [استخدام الشهادات للمصادقة في Microsoft Intune](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>تكوين تطبيق الأجهزة المحمولة Warehouse Management لوحدات قياس السحابة والحافة
+
+يجب تنفيذ بعض الخطوات القليلة إذا كنت تخطط لتشغيل تطبيق الأجهزة المحمولة Warehouse Management مقابل وحدة قياس السحابة والحافة. لمزيد من الإرشادات، راجع [تكوين تطبيق الأجهزة المحمولة Warehouse Management لوحدات قياس السحابة والحافة](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>تكوين التطبيق عن طريق استيراد إعدادات الاتصال
 
@@ -306,5 +310,6 @@ ms.locfileid: "7901979"
 
 - [إعدادات مستخدم الجهاز المحمول](mobile-device-user-settings.md)
 - [تعيين رموز وعناوين الخطوة لتطبيق الأجهزة المحمولة لـ Warehouse Management](step-icons-titles.md)
+- [تكوين تطبيق الأجهزة المحمولة Warehouse Management لوحدات قياس السحابة والحافة](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

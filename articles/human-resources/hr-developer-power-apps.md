@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a466ef2d2002ebc9d35b33571009727626cd5c678e995d42a00dbe64a2806729
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fedf9b35e5dc8372fd82c6308ec5b1452eab7e8f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778045"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070290"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>توسيع باستخدام Power Apps وPower Automate
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يصف هذا المقال بعض الأمثلة عن سيناريوهات قابلية التوسعة في Microsoft Dynamics 365 Human Resources التي تستخدم Microsoft Power Apps و Microsoft Power Automate. يمكنك استيراد حزمة الحل المقترنة بكل مثال إلى بيئتك في Power Apps. بعد ذلك، يمكنك استخدام الحزم كنقاط إرشادية أو كنقاط بداية لتنفيذ السيناريوهات التي تنطبق على مؤسستك.
 
@@ -38,13 +41,13 @@ ms.locfileid: "6778045"
 - لاستيراد الحزم، يجب أن يتوفر إذن **أداة إنشاء البيئة** لدى المستخدمين.
 - لتصدير التطبيقات أو استيرادها، يجب أن يتوفر لدى المستخدمين ترخيص Power Apps Plan 2 أو ترخيص إصدار تجريبي Power Apps Plan 2.
 
-## <a name="integration-with-microsoft-365-power-automate"></a>التكامل مع Microsoft 365، Power Automate
+## <a name="integration-with-microsoft-365-power-automate"></a>التكامل مع Microsoft 365 وPower Automate
 
 يمكن استخدام تطبيق **التكامل مع Microsoft 365** لاستخراج معلومات الفريق للمستخدمين الذين سجلوا دخولهم من Microsoft 365. ويشير إلى العاملين في الموارد البشرية لاستخراج أنواع ‏‫معرفات الموظفين. يمكن للمديرين فحص تواريخ انتهاء صلاحية أنواع معرفات الموظفين. كما يمكنهم إرسال تذكير بالبريد الكتروني إذا انتهت صلاحية نوع معرف الموظف. يتكامل Power Automate مع Power Apps لإرسال هذا التذكير. سيتم إعادة إرسال التأكيد إلى Power Apps من Power Automate وقت إرسال التذكير. تتضمن أنواع التعريف رخصة القيادة وجواز السفر والنماذج الأخرى المقبولة للمعرف.
 
 يمكنك توسيع هذا التطبيق لسيناريوهات أخرى. على سبيل المثال، يمكن استخدامه لإظهار معلومات العطلة الخاصة بالفريق بالإضافة إلى أحداث التقويم وأي أحداث خاصة بالفريق.
 
-لتنزيل تطبيق **التكامل مع Microsoft 365، Power Automate**، انتقل إلى [التكامل مع Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) على مركز التنزيل لـ Microsoft.
+لتنزيل تطبيق **تكامل مع Microsoft 365 و Power Automate**، انتقل إلى [تكامل مع Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) على مركز التنزيل لـ Microsoft.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – توصيل وتنفيذ SQL
 

@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965054"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075465"
 ---
 # <a name="manage-recruiting-processes"></a>إدارة عمليات التوظيف
 
-[!include [banner](../includes/banner.md)]
+> [!IMPORTANT]
+> تتوفر الوظيفة المذكورة في هذا الموضوع حاليًا لعملاء Human Resources في بنية Finance الأساسية  
+
 
 يوضح هذا الموضوع مفهوم يمكن للمُعينين استخدامه لتعقب خطوات عملية تعيين، بما في ذلك الجهود الرامية إلى الإعلان عن مناصب شاغرة وتوظيف مقدمي الطلبات، وتعقب مقدم الطلب ومعلومات مقدم الطلب، وإجراء المقابلات مع مقدمي الطلبات، وتحديد واحد أو أكثر من المرشحين لشغل المناصب الشاغرة في المؤسسة الخاصة بك.
 

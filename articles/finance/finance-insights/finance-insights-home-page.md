@@ -2,7 +2,7 @@
 title: الصفحة الرئيسية ‏للمعلومات المالية
 description: توفر Finance insights نماذج قابلة للتكوين وقابلة للتوسعة لمساعدتك في توقع التدفق النقدي لشركتك بشكل دقيق وبذكاء، وتوقع الوقت الذي ستقوم فيه باستلام المدفوعات المدينة المستحقة وإنشاء مقترح موازنة يمكنه تسريع عملية إعداد الموازنة. تعتمد كافة هذه الميزات على نماذج التعلم الآلي الذكية.
 author: ShivamPandey-msft
-ms.date: 11/15/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968762"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087283"
 ---
 # <a name="finance-insights-home-page"></a>الصفحة الرئيسية لـ Finance Insights
 
@@ -37,10 +37,6 @@ ms.locfileid: "7968762"
 
 يسرد هذا القسم المتطلبات الخاصة باستخدام Finance insights. كلما أمكن، يتم توفير الارتباطات إلى مصادر المعلومات الإضافية.
 
-### <a name="legal-requirements"></a>المتطلبات القانونية
-
-لتطبيقه على برنامج المعاينة، قم بملء [معاينة Finance insights للاتفاقية Dynamics 365 Finance ](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
-
 ### <a name="system-requirements"></a>متطلبات النظام
 
 يلزم وجود بيئة من المستوى 2 (متعددة الصندوق) لمعاينة Finance insights. لمزيد من المعلومات الخلفية الخاصة بالبيئات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
@@ -48,6 +44,10 @@ ms.locfileid: "7968762"
 ### <a name="version-requirements"></a>متطلبات الإصدار
 
 ينطبق هذا الموضوع على الإصدار 10.0.21 من Microsoft Dynamics 365 Finance والإصدارات الأحدث.
+
+### <a name="license-requirements"></a>متطلبات الترخيص
+
+يستخدم Finance insights أرصدة AI Builder لإنشاء التوقعات المالية. ويتم تضمين كافة التراخيص الضرورية لهذا الأمر مع ترخيص المستأجر. يتم تزويد كل مستأجر Dynamics 365 Finance بأرصدة AI Builder يبلغ عددها 20,000 في كل شهر. إذا تطلبت احتياجات العمل شراء المزيد من الأرصدة، فيمكن شراؤها مباشرة من AI Builder.
 
 ### <a name="historical-data-requirements"></a>متطلبات البيانات التاريخية
 

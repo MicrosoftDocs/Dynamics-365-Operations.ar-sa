@@ -13,14 +13,17 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e33b9216838313e8f294f4f0f196b07a3d5cc9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964924"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070465"
 ---
 # <a name="enter-project-timesheets"></a>إدخال الجداول الزمنية للمشروع‬
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 يسمح لك هذا الإجراء بإنشاء جدول زمني باستخدام صفحة جدول زمني فارغ. يمكن أن يستند الجدول الزمني الجديد إلى معلومات من جدول زمني سابق، أو من مشروع وتعيينات أنشطة في صفحة **المفضلة‬**. وبشكل افتراضي، تعرض صفحة قائمة **كل الجداول الزمنية** كل جداولك الزمنية الخاصة بالفترة الحالية. يمكنك استخدام الحقل **إظهار** في صفحة **الجداول الزمنية الخاصة بي** لتصفية قائمة الجداول الزمنية حسب الفترة الزمنية أو المشروع، أو لعرض الجداول الزمنية التي تم إنشاؤها بالنيابة عن عاملين آخرين. تم استخدام شركة بيانات العرض التوضيحي **USSI** لإنشاء هذا الإجراء.
 

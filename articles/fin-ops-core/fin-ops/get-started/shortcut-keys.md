@@ -1,6 +1,6 @@
 ---
 title: اختصارات لوحة المفاتيح
-description: يوفر هذا الموضوع نظرة عامة على تركيبات مفاتيح الاختصار التي يمكنك استخدامها عند العمل مع تطبيقات Finance and Operations.
+description: يوفر هذا الموضوع نظرة عامة على تركيبات مفاتيح الاختصار التي يمكنك استخدامها عند العمل مع تطبيقات التمويل والعمليات.
 author: jasongre
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913508"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070973"
 ---
 # <a name="keyboard-shortcuts"></a>اختصارات لوحة المفاتيح
 
 [!include [banner](../includes/banner.md)]
 
-يمكن أن تساعدك اختصارات لوحة المفاتيح التالية في إدخال البيانات بسرعة وكفاءة في تطبيقات Finance and Operations.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+يمكن أن تساعدك اختصارات لوحة المفاتيح التالية في إدخال البيانات بسرعة وكفاءة في تطبيقات التمويل والعمليات.
 
 > [!NOTE]
 > مفاتيح الاختصار الموضحة هنا تشير إلى تخطيط لوحة مفاتيح في الولايات المتحدة. قد لا تتوافق المفاتيح الموجودة في تخطيطات لوحات المفاتيح الأخرى تمامًا مع المفاتيح الموجودة على لوحة مفاتيح الولايات المتحدة.

@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414654"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069136"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>تكوين جداول Dataverse الظاهرية
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsoft Dataverse. وهو يوفر عمليات إنشاء وقراءه وتحديث وحذف (CRUD) كامله من Dataverse وMicrosoft Power Platform لا يتم تخزين البيانات الخاصة بالجداول الظاهرية في Dataverse، ولكن في قاعدة بيانات التطبيق.
 
@@ -119,10 +122,10 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 4. في **مركز حماية الحل**، حدد الرمز **بحث متقدم** في الجزء العلوي الأيسر من صفحة التطبيق.
 
-5. في صفحه **بحث متقدم**، وفي القائمة المنسدلة **البحث عن**، حدد **تكوينات مصدر البيانات الظاهري Finance and Operations**.
+5. في صفحة **بحث متقدم**، وفي القائمة المنسدلة **البحث عن**، حدد **تكوينات مصدر البيانات الظاهري في التمويل والعمليات** .
 
    > [!NOTE]
-   > قد يستغرق تثبيت تطبيق الجدول الظاهري من خطوة الإعداد السابقة بضع دقائق. إذا لم تتوفر **تكوينات مصدر البيانات الظاهرية لـ Finance and Operations** في القائمة، انتظر لمدة دقيقة وقم بتحديث القائمة.
+   > قد يستغرق تثبيت تطبيق الجدول الظاهري من خطوة الإعداد السابقة بضع دقائق. إذا لم تكن **تكوينات مصدر البيانات الظاهري في التمويل والعمليات** متوفرة في القائمة، فانتظر لمدة دقيقة وقم بتحديث القائمة.
 
 6. حدد **النتائج**.
 

@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40fc4c06c563415cd5b1a13c145b778276274fd97279dc9f56ff5e3f8954dc76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731999"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067444"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>تحسين استعلامات الجدول الظاهري لـ Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>إصدار
 
@@ -47,12 +50,12 @@ ms.locfileid: "6731999"
 مثال يمكن فيه مشاهدة هذا التأثير في الاستعلامات في مقابل كيان العامل (**mshr_hcmworkerentity**) أو العامل الأساسي (**mshr_hcmworkerbaseentity**). قد تشاهد ملف بيان إصدار الأداء بنفس الطرق القليلة المختلفة:
 
 - **تنفيذ بطيء للاستعلام**: قد يؤدي الاستعلام في مقابل الجدول الظاهري إلى إرجاع النتائج المتوقعة، ولكنه تنفيذ الاستعلام قد يستغرق وقتًا أطول من المتوقع.
-- **انقضاء مهلة الاستعلام**: قد تنقضي مهلة الاستعلام مع ظهور رسالة الخطأ التالية: "تم الحصول على رمز مميز لاستدعاء Finance and Operations، ولكن Finance and Operations أرجع خطأ من النوع InternalServerError."
+- **انقضاء مهلة الاستعلام**: قد تنقضي مهلة الاستعلام مع ظهور رسالة الخطأ التالية: "تم الحصول على رمز مميز لاستدعاء التمويل والعمليات، ولكن التمويل والعمليات أرجع خطأ من النوع InternalServerError."
 - **خطأ غير متوقع**: قد يرجع الاستعلام نوع الخطأ 400 مع الرسالة التالية: "حدث خطأ غير متوقع."
 
   ![نوع الخطأ 400 على HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **التقييد‬**: قد يستخدم الاستعلام موارد الخادم بشكل زائد، ويصبح عرضة للتقييد. في هذه الحالة، يرجع الاستعلام رسالة الخطأ التالية: "تم الحصول على رمز مميز لاستدعاء Finance and Operations، ولكن Finance and Operations أرجع خطأ من النوع 429." لمزيد من المعلومات حول التقييد في Human Resources، راجع [الأسئلة المتداولة حول التقييد](./hr-admin-integration-throttling-faq.md).
+- **التقييد‬**: قد يستخدم الاستعلام موارد الخادم بشكل زائد، ويصبح عرضة للتقييد. في هذه الحالة، يرجع الاستعلام رسالة الخطأ التالية: "تم الحصول على رمز مميز لاستدعاء التمويل والعمليات، ولكن التمويل والعمليات أرجع خطأ من النوع 429." لمزيد من المعلومات حول التقييد في Human Resources، راجع [الأسئلة المتداولة حول التقييد](./hr-admin-integration-throttling-faq.md).
 
   ![نوع الخطأ 429 على HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -113,7 +116,7 @@ OData-Version: 4.0
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![تحديث الاستعلام في المحرر المتقدم في Power Query Editor.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![حدّث الاستعلام في المحرر المتقدم في Power Query Editor.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. حدد **تم**.
 

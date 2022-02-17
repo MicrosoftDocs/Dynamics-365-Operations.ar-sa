@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8bbecf85a13056225b0d35023d759456cade40fe10ca1978058abd8e47693ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740898"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069999"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>التصفية المتقدمة وبنية الاستعلام
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يصف هذا الموضوع خيارات التصفية والاستعلام التي تتوفر عند استخدام مربع الحوار التصفية/الفرز المتقدم أو عامل تشغيل **التطابق** في جزء عامل التصفية أو عوامل تصفية عناوين أعمدة الشبكة.
 
@@ -119,9 +122,9 @@ ms.locfileid: "6740898"
 <td>يوجد علامتي اقتباس مزدوج متتالية (<strong>""</strong>) يعثران على صفوف بدون قيمة للعمود الحالي.</td>
 </tr>
 <tr>
-<td>(<span class="code">استعلام Finance and Operations</span>) (Finance and Operations استعلام بين قوسين)</td>
+<td>(<span class="code">استعلام التمويل والعمليات</span>) (استعلام التمويل والعمليات بين أقواس)</td>
 <td>مطابقة استعلام محدد</td>
-<td>اكتب استعلامًا كعبارة SQL بين قوسين باستخدام لغة الاستعلام في Finance and Operations.</td>
+<td>اكتب استعلامًا كعبارة SQL بين قوسين باستخدام لغة استعلام التمويل والعمليات.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        كمثال على بناء جملة لشرط عامل تصفية في حقل من مصدر البيانات الجذر بالإضافة إلى حقل من مصدر بيانات مختلف (لصفحة كافة العملاء)</td>
 </tr>

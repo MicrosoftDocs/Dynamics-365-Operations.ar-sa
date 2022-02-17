@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bff3a6ad74d50e7b706d4df92b17a4a3af36521b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944805"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076978"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>إرشادات النشر لعينة تكامل الطابعة المالية لبولندا (قديمة)
 
@@ -116,7 +116,7 @@ ms.locfileid: "7944805"
 
 ## <a name="design-of-extensions"></a>تصميم الملحقات
 
-تعتمد عينة تكامل الطابعة المالية لبولندا في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md). لمزيد من المعلومات حول تصميم حل التكامل المالي، راجع [نظرة عامة على تصميم نموذج التكامل](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+تعتمد عينة تكامل الطابعة المالية لبولندا في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md). لمزيد من المعلومات حول تصميم حل التكامل المالي، راجع [نظرة عامة على تصميم نموذج التكامل](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>تصميم ملحق Commerce Runtime
 
@@ -124,7 +124,7 @@ ms.locfileid: "7944805"
 
 ملحق CRT هو **Runtime.Extensions.DocumentProvider.PosnetSample**. ينشئ هذا الملحق مجموعة من الأوامر الخاصة بالطابعة بتنسيق JavaScript Object Notation (JSON) التي تم تحديدها بواسطة مواصفة POSNET رقم 19-3678.
 
-لمزيد من المعلومات حول تصميم حل التكامل المالي، راجع [عملية التسجيل المالي وعينات التكامل المالي للأجهزة المالية](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+لمزيد من المعلومات حول تصميم حل التكامل المالي، راجع [عينات عملية التسجيل المالي التكامل المالي للأجهزة والخدمات المالية](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>معالج الطلب
 

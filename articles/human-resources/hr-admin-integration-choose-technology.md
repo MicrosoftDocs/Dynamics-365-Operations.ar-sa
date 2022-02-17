@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414704"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065031"
 ---
 # <a name="choose-a-data-integration-technology"></a>اختيار تقنية تكامل بيانات
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يقدم هذا الموضوع معلومات للتكامل مع البيانات المدارة بواسطة Dynamics 365 Human Resources. وهو يصف تقنيات تكامل مختلفة لمساعدتك على تحديد أفضل التقنيات التي تناسب احتياجاتك.
 
@@ -68,7 +71,7 @@ ms.locfileid: "7414704"
 
 ### <a name="dmfdixf-entities"></a>كيانات DMF/DIXF
 
-تم بناء Human Resources بشكل أساسي بالاستناد إلى النظام الأساسي نفسه لتطبيقات Finance and Operations، وهو يوفر [إطار عمل إدارة البيانات (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). ويعرف DMF أيضًا باسم إطار عمل استيراد/تصدير البيانات (DIXF). يوفر Human Resources مجموعة من كيانات البيانات التي يمكنك استخدامها لاستيراد بيانات Human Resources وتصديرها. في حين تعتبر جداول Dataverse واجهة تكامل البيانات المفضلة لـ Human Resources، ما زالت كيانات DMF مفيدة في بعض الحالات، مثل:
+تم بناء Human Resources بشكل أساسي بالاستناد إلى النظام الأساسي نفسه لتطبيقات التمويل والعملات، وهو يوفر [إطار عمل إدارة البيانات (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). ويعرف DMF أيضًا باسم إطار عمل استيراد/تصدير البيانات (DIXF). يوفر Human Resources مجموعة من كيانات البيانات التي يمكنك استخدامها لاستيراد بيانات Human Resources وتصديرها. في حين تعتبر جداول Dataverse واجهة تكامل البيانات المفضلة لـ Human Resources، ما زالت كيانات DMF مفيدة في بعض الحالات، مثل:
 
 - جداول Dataverse غير متوفرة بعد.
 
@@ -111,7 +114,7 @@ ms.locfileid: "7414704"
 
 ### <a name="odata-enabled-entities"></a>كيانات OData الممكنة
 
-يتم أيضًا تمكين معظم كيانات DMF للوصول من خلال خدمة بيانات Human Resources (OData). تنطبق الوثائق المتوفرة [Finance and Operations لخدمة OData](/dynamics365/unified-operations/dev-itpro/data-entities/odata) على Human Resources، باستثناء ما يتعلق بإنشاء كياناتك الخاصة المكشوفة على OData.‬
+يتم أيضًا تمكين معظم كيانات DMF للوصول من خلال خدمة بيانات Human Resources (OData). تنطبق الوثائق المتوفرة [لخدمة OData في التمويل والعمليات](/dynamics365/unified-operations/dev-itpro/data-entities/odata) على Human Resources، باستثناء ما يتعلق بإنشاء كياناتك الخاصة المكشوفة على OData.‬
 
 في أثناء تنفيذ Dataverse وOData الموفرة بواسطة Dataverse (على الرغم من أن[ Web API لـ Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) مُفضلة على خدمة بيانات Human Resources، وتحتوي خدمة بيانات Human Resources حاليًا على أكثر تغطية كيان كاملة لبيانات Human Resources.
 
@@ -129,7 +132,7 @@ ms.locfileid: "7414704"
 
 ### <a name="power-query"></a>Power Query
 
-يدعم موحد البيانات [Power Query](/power-query/power-query-what-is-power-query) من خلال [ميزة الاستعلام المتقدمة](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). يوفر Power Query إمكانية تصفية وتحويل البيانات بطريقة مرنة وفعالة، بما في ذلك لغة معادلة M الغنية. من المرجح أن يكون Power Query مألوفًا لهؤلاء الذين لديهم خبرة في تطوير تقارير‏‬‏ Power BI.
+يدعم موحد البيانات [Power Query](/power-query/power-query-what-is-power-query) عبر [ميزة الاستعلام المتقدم](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). يوفر Power Query إمكانية تصفية وتحويل البيانات بطريقة مرنة وفعالة، بما في ذلك لغة معادلة M الغنية. من المرجح أن يكون Power Query مألوفًا لهؤلاء الذين لديهم خبرة في تطوير تقارير‏‬‏ Power BI.
 
 ## <a name="deciding-on-an-integration-technology"></a>اتخاذ قرار بشأن تقنية التكامل
 

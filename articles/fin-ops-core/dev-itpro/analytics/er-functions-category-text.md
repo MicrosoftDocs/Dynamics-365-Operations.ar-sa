@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647550"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075490"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>قائمة وظائف التقارير الإلكترونية من فئة النص
 
@@ -35,6 +35,7 @@ ms.locfileid: "7647550"
 | [تسلسل](er-functions-text-concatenate.md) | تُرجع هذه الوظيفة جميع السلاسل النصية المُحددة كقيمة *السلسلة* بعد ضمها في سلسلة واحدة. |
 | [تنسيق](er-functions-text-format.md) | تُرجع هذه الوظيفة السلسلة المُحددة كقيمة *السلسلة* بعد أن تم تنسيقها باستبدال أي تواجد من **%N** بالوسيطة *N*. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | تبحث هذه الوظيفة عن قيمة *تعداد* مُحددة في مصدر بيانات التعداد المُحدد باستخدام اسم التعداد المُحدد كقيمة *السلسلة*. إذا تم العثور على قيمة *تعداد* ، تقوم الوظيفة بإرجاعها. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | تبحث هذه الدالة عن تسمية معينة لإرجاع قيمة *[String](er-formula-supported-data-types-primitive.md#string)* تمثل ترجمة التسمية المحددة باللغة المحددة. |
 | [GUIDVALUE](er-functions-text-guidvalue.md) | تقوم هذه الوظيفة بتحويل الإدخال المُحدد لنوع *السلسلة* إلى عنصر بيانات من النوع *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | تُحلل هذه الوظيفة البيانات في تنسيق JavaScript Object Notation (JSON) الذي يتم الوصول إليه في المسار المُحدد، ويستخرج قيمة عددية تعتمد على المعرف المحدد.‬   ثم يقوم بإرجاع القيمة العددية المستخرجة كقيمة *سلسلة* . |
 | [إلى اليسار](er-functions-text-left.md) | تُرجع هذه الوظيفة قيمة *السلسلة* التي توضح العدد المُحدد من الأحرف من بداية السلسلة المُحددة. |

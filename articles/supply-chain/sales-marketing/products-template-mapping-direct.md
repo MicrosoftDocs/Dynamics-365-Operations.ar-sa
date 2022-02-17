@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d7aa4eddf8d6a18b8203785ddd3dca6ff8537067
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573431"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062453"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>مزامنة المنتجات مباشرةً من Supply Chain Management إلى المنتجات في Sales‎‎
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
 > قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Microsoft Dataverse للتطبيقات‏‎](/powerapps/administrator/data-integrator).

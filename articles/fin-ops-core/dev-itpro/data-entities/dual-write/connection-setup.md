@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 434d1a432cc4b8cfd31198f8f668aef6e04a51fa
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782593"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061594"
 ---
 # <a name="guidance-for-dual-write-setup"></a>إرشادات حول إعداد الكتابة المزدوجة
 
@@ -22,11 +22,11 @@ ms.locfileid: "7782593"
 
 [!include [preview-banner](../../includes/preview-banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يمكنك إعداد اتصال الكتابة المزدوجة بين بيئة Finance and Operations وبيئة Dataverse.
 
-+ توفر **بيئة Finance and Operations** النظام الاساسي **لتطبيقات Finance and Operations** (على سبيل المثال Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management وDynamics 365 Commerce وDynamics 365 Human Resources).
+يمكنك إعداد اتصال الكتابة المزدوجة بين بيئة التمويل والعمليات وبيئة Dataverse.
+
++ توفر **بيئة التمويل والعمليات** النظام الأساسي **لتطبيقات التمويل والعمليات** (على سبيل المثال، Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management وDynamics 365 Commerce وDynamics 365 Human Resources).
 + توفر **بيئة Dataverse** النظام الأساسي **لتطبيقات customer engagement** ‏(Dynamics 365 Sales وDynamics 365 Customer Service وDynamics 365 column Service وDynamics 365 Marketing وDynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
@@ -34,92 +34,92 @@ ms.locfileid: "7782593"
 
 تختلف آلية الإعداد باختلاف اشتراكك وبيئتك:
 
-+ بالنسبة إلى المثيلات الجديدة لتطبيقات Finance and Operations، يبدأ إعداد اتصال الكتابة المزدوجة في Microsoft Dynamics Lifecycle Services (LCS). إذا كان لديك ترخيص Microsoft Power Platform، فستحل على بيئة Dataverse جديدة، إذا لم يكن لدى المستأجر بيئة.
-+ بالنسبة إلى المثيلات الموجودة لتطبيقات Finance and Operations، يبدأ إعداد اتصال الكتابة المزدوجة في بيئة Finance and Operations.
++ بالنسبة إلى المثيلات الجديدة لتطبيقات التمويل والعمليات، يبدأ إعداد اتصال الكتابة المزدوجة في Microsoft Dynamics Lifecycle Services (LCS). إذا كان لديك ترخيص Microsoft Power Platform، فستحل على بيئة Dataverse جديدة، إذا لم يكن لدى المستأجر بيئة.
++ بالنسبة إلى المثيلات الموجودة لتطبيقات التمويل والعمليات، يبدأ إعداد اتصال الكتابة المزدوجة في بيئة التمويل والعمليات.
 
-قبل بدء الكتابة الثنائية لكيان ما، يمكنك تشغيل مزامنة أولية لمعالجة البيانات الموجودة على الجانبين: تطبيقات Finance and Operations وتطبيقات Customer Engagement. يمكنك تخطي المزامنة الأولية إذا لم تكن بحاجة إلى مزامنة البيانات بين البيئتين.
+قبل بدء الكتابة المزدوجة على كيان ما، يمكنك تشغيل مزامنة أولية لمعالجة البيانات الموجودة على الجانبين: تطبيقات التمويل والعمليات وتطبيقات مشاركة العميل. يمكنك تخطي المزامنة الأولية إذا لم تكن بحاجة إلى مزامنة البيانات بين البيئتين.
 
 تتيح المزامنة الأولية إمكانية نسخ البيانات الموجودة من تطبيق واحد إلى آخر بشكل ثنائي الاتجاه. هناك العديد من سيناريوهات الإعداد، بناءً على البيئات التي لديك بالفعل ونوع البيانات الموجودة فيها.
 
 سيناريوهات الإعداد التالية مدعومة:
 
-+ [مثيل تطبيق Finance and Operations جديد ومثيل تطبيق customer engagement جديد](#new-new)
-+ [مثيل تطبيق Finance and Operations جديد ومثيل تطبيق customer engagement حالي](#new-existing)
-+ [مثيل جديد لتطبيق Finance and Operations يحتوي على بيانات ومثيل جديد لتطبيق customer engagement](#new-data-new)
-+ [مثيل جديد لتطبيق Finance and Operations يحتوي على بيانات ومثيل موجود لتطبيق customer engagement حالي](#new-data-existing)
-+ [مثيل تطبيق Finance and Operations حالي ومثيل تطبيق customer engagement جديد](#existing-new)
-+ [مثيل تطبيق Finance and Operations حالي ومثيل تطبيق customer engagement حالي](#existing-existing)
++ [مثيل جديد لتطبيق التمويل والعمليات ومثيل جديد لتطبيق مشاركة العميل](#new-new)
++ [مثيل جديد لتطبيق التمويل والعمليات ومثيل موجود لتطبيق مشاركة العميل](#new-existing)
++ [مثيل جديد لتطبيق التمويل والعمليات يحتوي على بيانات ومثيل جديد لتطبيق مشاركة العميل](#new-data-new)
++ [مثيل جديد لتطبيق التمويل والعمليات يحتوي على بيانات ومثيل موجود لتطبيق مشاركة العميل](#new-data-existing)
++ [مثيل موجود لتطبيق التمويل والعمليات ومثيل جديد لتطبيق مشاركة العميل](#existing-new)
++ [مثيل موجود لتطبيق التمويل والعمليات ومثيل موجود لتطبيق مشاركة العميل](#existing-existing)
 
-## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>مثيل تطبيق Finance and Operations جديد ومثيل تطبيق customer engagement جديد
+## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>مثيل جديد لتطبيق التمويل والعمليات ومثيل جديد لتطبيق مشاركة العميل
 
-لإعداد اتصال الكتابة المزدوجة بين مثيل جديد لتطبيق Finance and Operations لا يحتوي على بيانات ومثيل جديد لتطبيق customer engagement، اتبع الخطوات الموجودة في [إعداد الكتابة المزدوجة من Lifecycle Services](lcs-setup.md). عند اكتمال إعداد الاتصال، تحدث الإجراءات التالية بشكل تلقائي:
+لإعداد اتصال الكتابة المزدوجة بين مثيل جديد لتطبيق التمويل والعمليات لا يحتوي على بيانات ومثيل جديد لتطبيق مشاركة العميل، اتبع الخطوات الموجودة في [إعداد الكتابة المزدوجة من Lifecycle Services](lcs-setup.md). عند اكتمال إعداد الاتصال، تحدث الإجراءات التالية بشكل تلقائي:
 
-- يتم تزويد بيئة Finance and Operations جديدة فارغة.
+- يتم تزويد بيئة جديدة وفارغة في التمويل والعمليات.
 - يتم تزويد مثيل جديد وفارغ من تطبيق customer engagement، حيث تم تثبيت حل CRM الأساسي.
 - يتم إنشاء اتصال الكتابة المزدوجة لبيانات شركة DAT.
 - يتم تمكين خرائط الجداول للمزامنة المباشرة.
 
 عندئذٍ، تصبح البيئتين جاهزتين لمزامنة البيانات المباشرة.
 
-## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>مثيل تطبيق Finance and Operations جديد ومثيل تطبيق customer engagement حالي
+## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>مثيل جديد لتطبيق التمويل والعمليات ومثيل موجود لتطبيق مشاركة العميل
 
-لإعداد اتصال الكتابة المزدوجة بين مثيل جديد لتطبيق Finance and Operations لا يحتوي على بيانات ومثيل جديد لتطبيق customer engagement حالي، اتبع الخطوات الموجودة في [إعداد الكتابة المزدوجة من Lifecycle Services](lcs-setup.md). عند اكتمال إعداد الاتصال، تحدث الإجراءات التالية بشكل تلقائي:
+لإعداد اتصال الكتابة المزدوجة بين مثيل جديد لتطبيق التمويل والعمليات لا يحتوي على بيانات ومثيل موجود لتطبيق مشاركة العميل، اتبع الخطوات الموجودة في [إعداد الكتابة المزدوجة من Lifecycle Services](lcs-setup.md). عند اكتمال إعداد الاتصال، تحدث الإجراءات التالية بشكل تلقائي:
 
-- يتم تزويد بيئة Finance and Operations جديدة فارغة.
+- يتم تزويد بيئة جديدة وفارغة في التمويل والعمليات.
 - يتم إنشاء اتصال الكتابة المزدوجة لبيانات شركة DAT.
 - يتم تمكين خرائط الجداول للمزامنة المباشرة.
 
 عندئذٍ، تصبح البيئتين جاهزتين لمزامنة البيانات المباشرة.
 
-لمزامنة بيانات Dataverse الموجودة إلى تطبيق Finance and Operations، اتبع الخطوات التالية.
+لمزامنة بيانات Dataverse الموجودة مع تطبيق التمويل والعمليات، اتبع الخطوات التالية.
 
-1. أنشئ شركة جديدة في تطبيق Finance and Operations.
+1. أنشئ شركة جديدة في تطبيق التمويل والعمليات.
 2. أضف الشركة إلى إعداد اتصال الكتابة المزدوجة.
 3. [قم بتمهيد](bootstrap-company-data.md) بيانات Dataverse باستخدام كود شركة المنظمة العالمية للمواصفات المكون من ثلاثة أحرف.
 4. قم بتشغيل وظيفة‏‎ **المزامنة الأولية** للجداول التي ترغب في مزامنة بياناتها.
 
 للحصول على روابط لمثال وطريقة بديلة، راجع قسم [المثال](#example) لاحقًا في هذا الموضوع.
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>مثيل تطبيق Finance and Operations جديد ويحتوي على بيانات ومثيل تطبيق customer engagement جديد
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>مثيل جديد لتطبيق التمويل والعمليات يحتوي على بيانات ومثيل جديد لتطبيق مشاركة العميل
 
-لإعداد اتصال الكتابة المزدوجة بين مثيل جديد لتطبيق Finance and Operations يحتوي على بيانات ومثيل جديد لتطبيق customer engagement، اتبع الخطوات الموجودة في [مثيل جديد لتطبيق Finance and Operations ومثيل جديد لتطبيق customer engagement‬](#new-new) في قسم سابق من هذا الموضوع. عند اكتمال إعداد الاتصال، إذا أردت مزامنة البيانات مع التطبيق customer engagement، اتبع الخطوات التالية.
+لإعداد اتصال الكتابة المزدوجة بين مثيل جديد لتطبيق التمويل والعمليات يحتوي على بيانات ومثيل جديد لتطبيق مشاركة العميل، اتبع الخطوات الموجودة في [مثيل جديد لتطبيق التمويل والعمليات ومثيل جديد لتطبيق مشاركة العميل](#new-new) في قسم سابق من هذا الموضوع. عند اكتمال إعداد الاتصال، إذا أردت مزامنة البيانات مع التطبيق customer engagement، اتبع الخطوات التالية.
 
-1. افتح تطبيق Finance and Operations من صفحة LCS، وسجل دخولك، ثم انتقل إلى **إدارة البيانات \> الكتابة المزدوجة**.
+1. افتح تطبيق التمويل والعمليات من صفحة LCS، وسجل دخولك، ثم انتقل إلى **إدارة البيانات \> الكتابة المزدوجة**.
 2. قم بتشغيل وظيفة‏‎ **المزامنة الأولية** للجداول التي ترغب في مزامنة بياناتها.
 
 للحصول على روابط لمثال وطريقة بديلة، راجع قسم [المثال](#example).
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>مثيل تطبيق Finance and Operations جديد يحتوي على بيانات ومثيل تطبيق customer engagement حالي
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>مثيل جديد لتطبيق التمويل والعمليات يحتوي على بيانات ومثيل موجود لتطبيق مشاركة العميل
 
-لإعداد اتصال الكتابة المزدوجة بين مثيل جديد لتطبيق Finance and Operations يحتوي على بيانات ومثيل حالي لتطبيق customer engagement، اتبع الخطوات الموجودة في [مثيل لتطبيق Finance and Operations ومثيل حالي لتطبيق customer engagement‬](#new-existing) في قسم سابق من هذا الموضوع. عند اكتمال إعداد الاتصال، إذا أردت مزامنة البيانات مع التطبيق customer engagement، اتبع الخطوات التالية.
+لإعداد اتصال الكتابة المزدوجة بين مثيل جديد لتطبيق التمويل والعمليات يحتوي على بيانات ومثيل موجود لتطبيق مشاركة العميل، اتبع الخطوات الموجودة في [مثيل جديد لتطبيق التمويل والعمليات ومثيل موجود لتطبيق مشاركة العميل](#new-existing) في قسم سابق من هذا الموضوع. عند اكتمال إعداد الاتصال، إذا أردت مزامنة البيانات مع التطبيق customer engagement، اتبع الخطوات التالية.
 
-1. افتح تطبيق Finance and Operations من صفحة LCS، وسجل دخولك، ثم انتقل إلى **إدارة البيانات \> الكتابة المزدوجة**.
+1. افتح تطبيق التمويل والعمليات من صفحة LCS، وسجل دخولك، ثم انتقل إلى **إدارة البيانات \> الكتابة المزدوجة**.
 2. قم بتشغيل وظيفة‏‎ **المزامنة الأولية** للجداول التي ترغب في مزامنة بياناتها.
 
-لمزامنة بيانات Dataverse الموجودة إلى تطبيق Finance and Operations، اتبع الخطوات التالية.
+لمزامنة بيانات Dataverse الموجودة مع تطبيق التمويل والعمليات، اتبع الخطوات التالية.
 
-1. أنشئ شركة جديدة في تطبيق Finance and Operations.
+1. أنشئ شركة جديدة في تطبيق التمويل والعمليات.
 2. أضف الشركة إلى إعداد اتصال الكتابة المزدوجة.
 3. [قم بتمهيد](bootstrap-company-data.md) بيانات Dataverse باستخدام كود شركة ISO المكون من ثلاثة أحرف.
 4. قم بتشغيل وظيفة‏‎ **المزامنة الأولية** للجداول التي ترغب في مزامنة بياناتها.
 
 للحصول على روابط لمثال وطريقة بديلة، راجع قسم [المثال](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>مثيل تطبيق Finance and Operations حالي ومثيل تطبيق customer engagement جديد
+## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>مثيل موجود لتطبيق التمويل والعمليات ومثيل جديد لتطبيق مشاركة العميل
 
-يحدث إعداد اتصال الكتابة المزدوجة بين مثيل حالي لتطبيق Finance and Operations ومثيل جديد لتطبيق customer engagement في بيئة Finance and Operation.
+يحدث إعداد اتصال الكتابة المزدوجة بين مثيل موجود لتطبيق التمويل والعمليات ومثيل جديد لتطبيق مشاركة العميل في بيئة التمويل والعمليات.
 
-1. [قم بإعداد الاتصال من تطبيق Finance and Operations ](enable-dual-write.md).
+1. [إعداد الاتصال من تطبيق التمويل والعمليات](enable-dual-write.md).
 2. قم بتشغيل وظيفة‏‎ **المزامنة الأولية** للجداول التي ترغب في مزامنة بياناتها.
 
 للحصول على روابط لمثال وطريقة بديلة، راجع قسم [المثال](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>مثيل تطبيق Finance and Operations حالي ومثيل تطبيق customer engagement حالي
+## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>مثيل موجود لتطبيق التمويل والعمليات ومثيل موجود لتطبيق مشاركة العميل
 
-يحدث إعداد اتصال الكتابة المزدوجة بين مثيل حالي لتطبيق Finance and Operations ومثيل حالي لتطبيق customer engagement في بيئة Finance and Operation.
+يحدث إعداد اتصال الكتابة المزدوجة بين مثيل موجود لتطبيق التمويل والعمليات ومثيل موجود لتطبيق مشاركة العميل في بيئة التمويل والعمليات.
 
-1. [قم بإعداد الاتصال من تطبيق Finance and Operations ](enable-dual-write.md).
-2. لمزامنة بيانات Dataverse الموجودة إلى تطبيق Finance and Operations، [قم بتمهيد](bootstrap-company-data.md) بيانات Dataverse باستخدام كود شركة ISO المكون من ثلاثة أحرف.‬
+1. [إعداد الاتصال من تطبيق التمويل والعمليات](enable-dual-write.md).
+2. لمزامنة بيانات Dataverse الموجودة مع تطبيق التمويل والعمليات، يمكنك [تمهيد](bootstrap-company-data.md) بيانات Dataverse باستخدام كود شركة ISO المكون من ثلاثة أحرف.‬
 3. قم بتشغيل وظيفة‏‎ **المزامنة الأولية** للجداول التي ترغب في مزامنة بياناتها.
 
 للحصول على روابط لمثال وطريقة بديلة، راجع قسم [المثال](#example).

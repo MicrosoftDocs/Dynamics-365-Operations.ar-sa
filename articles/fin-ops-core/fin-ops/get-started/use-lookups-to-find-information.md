@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46ae85fc4f4f305d1ff8063b43aeef51d043742f9860940add0e0dbca02413d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750450"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069288"
 ---
 # <a name="find-information-by-using-lookups"></a>البحث عن المعلومات باستخدام عمليات البحث
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يتضمن عدد كبير من الحقول وظيفة البحث التي تساعدك في العثور على القيمة الصحيحة أو المطلوبة بسهولة. تمت إضافة العديد من التحسينات لـعمليات البحث والتي جعلت عناصر التحكم هذه أكثر قابلية للاستخدام، وعززت من إنتاجية المستخدمين. في هذا الموضوع، سوف تتعلم بشأن هذه الميزات الجديد للبحث، وسوف تحصل على نصائح مفيدة للوصول إلى أقصى استفادة ممكنة عند استخدامك لـ Lookups في النظام.
 

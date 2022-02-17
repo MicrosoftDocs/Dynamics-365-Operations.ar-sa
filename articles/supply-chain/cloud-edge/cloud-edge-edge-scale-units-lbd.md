@@ -2,7 +2,7 @@
 title: انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD
 description: يشرح هذا الموضوع كيفيه توفير وحدات مقياس الحافة المحلية باستخدام الاجهزه والتوزيع المخصص الذي يستند إلى بيانات العمل المحلية (LBD).
 author: cabeln
-ms.date: 11/29/2021
+ms.date: 01/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920663"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024532"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>انشر وحدات مقياس الحافة على أجهزة مخصصة باستخدام LBD
 
@@ -26,6 +26,13 @@ ms.locfileid: "7920663"
 يمكن نشر وحدات مقياس الحافة بواسطة إنشاء بيئة بيانات عمل محليه (LBD) [علي بيئة محليه](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md)ثم تكوينها لتعمل كوحدة قياس في المخطط المختلط الموزع لـ supply chain management. ويتم تحقيق ذلك عن طريق اقران بيئة LBD الداخلية ببيئة Supply Chain Management في السحابة ، التي تم تكوينها لتعمل كلوحه وصل.  
 
 يصف هذا الموضوع كيفيه اعداد بيئة LBD الداخلية كوحدة مقياس حافه ثم ربطها بأحدي الموزعات.
+
+## <a name="infrastructure-considerations"></a>اعتبارات البنية الأساسية
+
+يتم تشغيل وحدات قياس الحافة في بيئات محلية، بحيث تكون متطلبات البنية الأساسية متشابهة تمامًا. ومع ذلك، توجد بعض الاختلافات التي يجب ملاحظتها:
+
+- لا تستخدم وحدات قياس الحافة Financial Reporting، لذا فهي لا تتطلب عُقد Financial Reporting.
+- لا تتطلب أحمال عمل التخزين والتصنيع حوسبة مكثفة، وبالتالي يمكنك تغيير حجم قوة الحوسبة في عُقد AOS وفقًا لذلك.
 
 ## <a name="deployment-overview"></a>نظرة عامة حول النشر
 

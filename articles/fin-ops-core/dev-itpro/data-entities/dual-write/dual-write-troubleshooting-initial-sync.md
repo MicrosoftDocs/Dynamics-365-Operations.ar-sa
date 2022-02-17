@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 241277ada768cc6497035cc377d0e158646a42d6
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781104"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063048"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يوفر هذا الموضوع معلومات حول استكشاف أخطاء تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات التي قد تحدث أثناء المزامنة الأولية.
+
+يوفر هذا الموضوع معلومات حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات التي قد تحدث أثناء المزامنة الأولية.
 
 > [!IMPORTANT]
 > قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>التحقق من أخطاء المزامنة الأولية في تطبيق Finance and Operations
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>التحقق من أخطاء المزامنة الأولية في تطبيقات التمويل والعمليات
 
 بعد تمكين قوالب التعيين، يجب أن تكون حالة المخططات **قيد التشغيل**. إذا لم تكن الحالة **قيد التشغيل**، حدثت أخطاء أثناء المزامنة الأولية. لعرض الأخطاء، حدد علامة التبويب **تفاصيل المزامنة الأولية** في صفحة **الكتابة الثنائية**.
 
@@ -63,7 +63,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 في حاله حدوث هذا الخطأ باستمرار، ولا يمكنك إكمال المزامنة الأولية، فاتبع هذه الخطوات لإصلاح هذه المشكلة.
 
-1. سجل الدخول إلى الجهاز الظاهري (VM) لتطبيق Finance and Operations.
+1. سجل دخولك إلى الجهاز الظاهري (VM) لتطبيق التمويل والعمليات.
 2. افتح وحدة التحكم بالإدارة لـ Microsoft.
 3. في جزء **الخدمات**، تأكد من تشغيل خدمة إطار عمل التصدير الخاص باستيراد بيانات Microsoft Dynamics 365. وأعد تشغيلها إذا تم إيقافها، لأن المزامنة الأولية تتطلب ذلك.
 
@@ -75,7 +75,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 لإصلاح المشكلة، اتبع هذه الخطوات.
 
-1. قم بتسجيل الدخول إلى تطبيق Finance and Operations.
+1. سجل دخولك إلى تطبيق التمويل والعمليات.
 2. في صفحة **تطبيقات Azure Active Directory**، احذف عميل **DtAppID**، ثم أضفه مرة أخرى.
 
 ![عميل DtAppID في قائمة تطبيقات Azure AD.](media/aad_applications.png)
@@ -102,9 +102,9 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 إذا كانت أية صفوف في جدول مورد تتضمن قيمًا في الأعمدة **PrimaryContactPersonId** و **InvoiceVendorAccountNumber**، فاتبع هذه الخطوات لإكمال المزامنة الأولية.
 
-1. في التطبيق Finance and Operations، احذف العمودين **PrimaryContactPersonId** و **InvoiceVendorAccountNumber** من التعيين، ثم احفظ التعيين.
+1. في تطبيق التمويل والعمليات، احذف العمودين **PrimaryContactPersonId** و **InvoiceVendorAccountNumber** من التعيين، ثم احفظ التعيين.
 
-    1. في صفحة تعيين الكتابة المزدوجة **Vendors V2 (msdyn\_الموردون)**، في علامة التبويب **تعيينات الجدول**، في عامل التصفية الأيسر، حدد **Finance and Operations apps.Vendors V2**. في عامل التصفية الأيمن، حدد **Sales.Vendor**
+    1. في صفحة تعيين الكتابة المزدوجة **المورّدون V2 (msdyn\_vendors)**، على علامة تبويب **تعيينات الجدول**، في عامل التصفية الأيسر، حدد **التمويل والعمليات apps.Vendors V2**. في عامل التصفية الأيمن، حدد **Sales.Vendor**
     2. ابحث عن **primarycontactperson** للعثور على العمود المصدر **PrimaryContactPersonId**.
     3. حدد **الإجراءات**، ثم حدد **حذف**.
 
@@ -149,9 +149,9 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 إذا كانت أية صفوف في كيان العميل تتضمن قيمًا في الأعمدة **ContactPersonID** و **InvoiceAccount**، فاتبع هذه الخطوات لإكمال المزامنة الأولية. يمكنك استخدام هذا الأسلوب لأي جداول جاهزة مثل **الحسابات** و **جهات الاتصال**.
 
-1. في التطبيق Finance and Operations، احذف العمودين **ContactPersonID** و **InvoiceAccount** من التعيين **العملاء V3 (الحسابات)** ثم احفظ التعيين.
+1. في تطبيق التمويل والعمليات ، احذف العمودين **ContactPersonID** و **InvoiceAccount** من التعيين **العملاء V3 (الحسابات)**، ثم احفظ التعيين.
 
-    1. في صفحة تعيين الكتابة المزدوجة **العملاء V3 (الحسابات)**، وفي علامة تبويب **تعيينات الجدول**، في عامل التصفية الأيسر، حدد **Finance and Operations app.Customers V3**. في عامل التصفية الأيسر، حدد **Dataverse.Account**.
+    1. في صفحة تعيين الكتابة المزدوجة **العملاء V3 (الحسابات)**، وفي علامة تبويب **تعيينات الجدول**، في عامل التصفية الأيسر، حدد **التمويل والعمليات app.Customers V3**. في عامل التصفية الأيسر، حدد **Dataverse.Account**.
     2. ابحث عن **contactperson** للعثور على العمود المصدر **ContactPersonID**.
     3. حدد **الإجراءات**، ثم حدد **حذف**.
 
@@ -182,16 +182,16 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     > هناك مخططان لهما نفس الاسم. تأكد من تحديد المخطط الذي يتضمن الوصف التالي في علامة التبويب **تفاصيل**: **قالب كتابة مزدوجة للمزامنة بين FO.CDS المورّدون جهات الاتصال V2 وCDS.Contacts. بحاجة إلى حزمة جديدة \[Dynamics365SupplyChainExtended\].**
 
 5. أعد إضافة العمودين **InvoiceAccount** و **ContactPersonId** إلى تعيين **العملاء V3 (الحسابات)**، ثم احفظ التعيين. العمودان **InvoiceAccount** و **ContactPersonId** هما الآن عبارة عن جزء من وضع المزامنة المباشرة مرة أخرى. في الخطوة التالية، ستقوم بالمزامنة الأولية لهذه الأعمدة.
-6. قم بتشغيل المزامنة الأولية مرة أخرى لتعيين **العملاء V3 (الحسابات)**. بسبب إيقاف تشغيل تعقب التغييرات، سيؤدي تشغيل المزامنة إلى مزامنة بيانات **InvoiceAccount** و **ContactPersonId** من التطبيق Finance and Operations إلى Dataverse.
-7. لمزامنة بيانات **InvoiceAccount** و **ContactPersonId** من تطبيق Dataverse إلى Finance and Operations، فإنك تستخدم مشروع تكامل البيانات.
+6. قم بتشغيل المزامنة الأولية مرة أخرى لتعيين **العملاء V3 (الحسابات)**. بسبب إيقاف تشغيل تعقب التغييرات، ستتم مزامنة بيانات **InvoiceAccount** و **ContactPersonId** من تطبيق التمويل والعمليات إلى Dataverse.
+7. لمزامنة بيانات **InvoiceAccount** و **ContactPersonId** من Dataverse إلى تطبيق التمويل والعمليات، يجب استخدام مشروع تكامل بيانات.
 
-    1. في Power Apps، أنشئ مشروع تكامل البيانات بين الجدولين **Sales.Account** و **Finance and Operations apps.Customers V3**. يجب أن يكون اتجاه البيانات من Dataverse إلى التطبيق Finance and Operations. لأن **InvoiceAccount** عبارة عن سمة جديدة في الكتابة المزدوجة، فقد ترغب في تخطي المزامنة الأولية لهذه السمة. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Dataverse](/power-platform/admin/data-integrator).
+    1. في Power Apps، أنشئ مشروع تكامل البيانات بين الجدولين **Sales.Account** و **التمويل والعمليات apps.Customers V3**. يجب أن يكون اتجاه البيانات من Dataverse إلى تطبيق التمويل والعمليات. لأن **InvoiceAccount** عبارة عن سمة جديدة في الكتابة المزدوجة، فقد ترغب في تخطي المزامنة الأولية لهذه السمة. للحصول على مزيد من المعلومات، راجع [دمج البيانات في Dataverse](/power-platform/admin/data-integrator).
 
         يوضح الرسم التوضيحي التالي مشروعًا يقوم بتحديث **CustomerAccount** و **ContactPersonId**.
 
         ![مشروع تكامل البيانات لتحديث CustomerAccount وCustomerAccount.](media/cust_selfref6.png)
 
-    2. أضف معايير الشركة في عامل التصفية على جانب Dataverse، لذلك فإن الصفوف التي تطابق معايير التصفية هي وحدها التي سيتم تحديثها في التطبيق Finance and Operations. لإضافة عامل تصفية، حدد زر عامل التصفية. ثم في مربع الحوار **تحرير الاستعلام**، فإنه يمكنك إضافة استعلام عامل تصفية مثل **\_msdyn\_company\_value eq '\<guid\>'**.
+    2. أضف معايير الشركة في عامل التصفية على جانب Dataverse، بحيث يتم تحديث فقط الصفوف التي تطابق معايير التصفية في تطبيق التمويل والعمليات. لإضافة عامل تصفية، حدد زر عامل التصفية. ثم في مربع الحوار **تحرير الاستعلام**، فإنه يمكنك إضافة استعلام عامل تصفية مثل **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [ملحوظة] إذا لم يكن زر عامل التصفية موجودًا، فأنشئ تذكرة دعم كي تطلب من فريق تكامل البيانات تمكين إمكانية التصفية على المستأجر.
 
@@ -201,7 +201,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
     يتم الآن إكمال المزامنة الأولية للصفوف.
 
-8. في التطبيق  Finance and Operations، قم بتشغيل تعقب التغييرات مرة أخرى الجدول **العملاء V3**.
+8. في تطبيق التمويل والعمليات، قم بتشغيل تعقب التغييرات مرة أخرى لجدول **العملاء V3**.
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>فشل المزامنة الأولية على الخرائط مع أكثر من 10 حقول بحث
 
@@ -227,9 +227,9 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 *تعذر العثور على رقم الطرف في Dataverse.*
 
-هناك مجموعة نطاقات على **DirPartyCDSEntity** في تطبيقات Finance and Operations التي تقوم بتصفية الأطراف من النوع **الشخص** و **المؤسسة**. ونتيجة لذلك، لن تؤدي المزامنة الأولية لتعيين **أطراف CDS‏ - msdyn_parties** إلى مزامنة الأطراف من الأنواع الأخرى، بما في ذلك **الكيان القانوني** و **وحدة التشغيل**. عند تشغيل المزامنة الأولية **للعناوين البريدية لأطراف CDS‏ ‏(msdyn_partypostaladdresses)** أو **جهات اتصال الأطراف V3 ‏(msdyn_partyelectronicaddresses)** قد تتلقى الخطأ.
+هناك مجموعة نطاقات على **DirPartyCDSEntity** في تطبيق التمويل والعمليات يقوم بتصفية الأطراف من النوع **شخص** و **مؤسسة**. ونتيجة لذلك، لن تؤدي المزامنة الأولية لتعيين **أطراف CDS‏ - msdyn_parties** إلى مزامنة الأطراف من الأنواع الأخرى، بما في ذلك **الكيان القانوني** و **وحدة التشغيل**. عند تشغيل المزامنة الأولية **للعناوين البريدية لأطراف CDS‏ ‏(msdyn_partypostaladdresses)** أو **جهات اتصال الأطراف V3 ‏(msdyn_partyelectronicaddresses)** قد تتلقى الخطأ.
 
-نحن نعمل على إصلاح لإزالة نطاق نوع الطرف على كيان Finance and Operations بحيث يمكن مزامنة الأطراف من جميع الأنواع مع Dataverse بنجاح.
+نحن نعمل على إصلاح لإزالة نطاق نوع الطرف على كيان التمويل والعمليات بحيث يمكن مزامنة الأطراف من جميع الأنواع مع Dataverse بنجاح.
 
 ## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>هل هناك أي مشكلات في الأداء أثناء تشغيل المزامنة الأولية لبيانات العملاء أو جهات الاتصال؟
 

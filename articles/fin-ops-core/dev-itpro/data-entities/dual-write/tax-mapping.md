@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d1e74bbbeba019ca48dd823b58251643e96edd0c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782200"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063177"
 ---
 # <a name="integrated-tax"></a>الضريبة المتكاملة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 تحدد بيانات إعداد الضريبة الاعداد لكل من الضرائب غير المباشرة (ضريبة القيمة المضافة وGST وضريبة المبيعات) وضريبة الخصم. وهو يصف القاعدة الخاصة بحساب الضريبة ومعدل الضريبة والمحاسبة الضريبية والتسوية والمفاهيم الأخرى.
 
@@ -28,7 +28,7 @@ ms.locfileid: "7782200"
 
 تشمل بيانات الضريبة مجموعة من مخططات الجداول تعمل معًا أثناء تفاعل بيانات المورّد، كما هو موضح في الجدول التالي.
 
-| تطبيقات Finance and Operations | تطبيقات Customer Engagement | الوصف |
+| تطبيقات Finance and Operations | تطبيقات Customer Engagement | ‏‏الوصف‬ |
 |-----------------------------|-----------------------------------|-------------|
 [مجموعة ضريبة المبيعات للأصناف](mapping-reference.md#196) | msdyn_taxitemgroups | |
 [هيئات ضريبة المبيعات](mapping-reference.md#193) | msdyn_taxauthorities | |

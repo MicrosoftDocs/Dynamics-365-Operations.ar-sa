@@ -1,6 +1,6 @@
 ---
 title: استكشاف المشاكل العامة وإصلاحها
-description: يوفر هذا الموضوع معلومات حول استكشاف أخطاء عامة في تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse.
+description: يوفر هذا الموضوع معلومات عامة حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781164"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062328"
 ---
-# <a name="general-troubleshooting"></a>استكشاف المشاكل العامة وإصلاحها
+# <a name="general-troubleshooting"></a>استكشاف الأخطاء العامة وإصلاحها
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يوفر هذا الموضوع معلومات حول استكشاف أخطاء عامة في تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse.
+
+يوفر هذا الموضوع معلومات عامة حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse.
 
 > [!IMPORTANT]
 > قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
@@ -44,37 +44,37 @@ ms.locfileid: "7781164"
 2. ابحث عن سجلات التتبع التي يتم فيها تعيين عمود **اسم النوع** إلى **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. انقر نقرًا مزدوجًا فوق أحد العناصر لعرض السجل الكامل، ثم في علامة التبويب السريع **تنفيذ**، راجع نص **كتلة الرسالة**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>تمكين وضع التصحيح لاستكشاف مشكلات المزامنة المباشرة وإصلاحها في تطبيقات Finance and Operations
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>تمكين وضع التصحيح لاستكشاف مشكلات المزامنة المباشرة وإصلاحها في تطبيقات التمويل والعمليات
 
 **الدور المطلوب لعرض الأخطاء:** مسؤول النظام
 
-يمكن أن تظهر أخطاء الكتابة الثنائية التي تنشأ في Dataverse في تطبيق Finance and Operations. لتمكين التسجيل التفصيلي للأخطاء، اتبع الخطوات التالية:
+بإمكان أخطاء الكتابة المزدوجة التي تنشأ في Dataverse الظهور في تطبيق التمويل والعمليات. لتمكين التسجيل التفصيلي للأخطاء، اتبع الخطوات التالية:
 
-1. بالنسبة لجميع تكوينات المشروع في تطبيق Finance and Operations هناك علامة **IsDebugMode** في جدول **DualWriteProjectConfiguration**.
-2. افتح **DualWriteProjectConfiguration** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في الوظيفة الإضافية Excel في Finance and Operations وإضافة **DualWriteProjectConfiguration** إلى الورقة. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
+1. بالنسبة لجميع تكوينات المشروع في تطبيق التمويل والعمليات، هناك علامة **IsDebugMode** في جدول **DualWriteProjectConfiguration**.
+2. افتح **DualWriteProjectConfiguration** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، مكّن وضع التصميم في الوظيفة الإضافية في Excel التمويل والعمليات وأضف **DualWriteProjectConfiguration** إلى الورقة. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
 3. قم بتعيين **IsDebugMode** إلى **نعم** في المشروع.
 4. قم بتشغيل السيناريو الذي يقوم بإنشاء الأخطاء.
 5. سجلات التسجيل المطول للأخطاء مخزنة في جدول **DualWriteErrorLog**.
 6. للبحث عن البيانات على مستعرض الجدول، استخدم الرابط التالي: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`، مع استبدال `999` حسب الحاجة.
 7. قم بالتحديث مرة أخرى بعد [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe)، وهو متاح للنظام الأساسي 37 والأحدث. إذا كان لديك هذا الإصلاح تثبيت ثم وضع التصحيح سوف التقاط المزيد من السجلات.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>فحص أخطاء المزامنة على الجهاز الظاهري لتطبيق Finance and Operations
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>فحص أخطاء المزامنة على الجهاز الظاهري لتطبيق التمويل والعمليات
 
 **الدور المطلوب لعرض الأخطاء:** مسؤول النظام
 
 1. سجل دخولك إلى Microsoft Dynamics Lifecycle Services (LCS).
 2. افتح مشروع LCS الذي اخترته لإجراء اختبار الكتابة الثنائية.
 3. حدد تجانب **بيئات مستضافة على الشبكة السحابية**.
-4. استخدم سطح المكتب البعيد لتسجيل الدخول إلى الجهاز الظاهري (VM) لتطبيق Finance and Operations. استخدم الحساب المحلي الموضح في LCS.
+4. استخدم سطح المكتب البعيد لتسجيل الدخول إلى الجهاز الظاهري (VM) لتطبيق التمويل والعمليات. استخدم الحساب المحلي الموضح في LCS.
 5. افتح عارض الأحداث.
 6. حدد **سجلات التطبيقات والخدمات \> Microsoft \> Dynamics \> AX-DualWriteSync \> تشغيلي‏‎**.
 7. راجع قائمة الأخطاء الأخيرة.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>إلغاء ارتباط بيئة Dataverse أخرى من تطبيق Finance and Operations وربطها
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>إلغاء ربط بيئة Dataverse أخرى بتطبيق التمويل والعمليات وربطها به
 
-**الدور المطلوب لإلغاء ارتباط البيئة:** مسؤول النظام لتطبيق Finance and Operations أو Dataverse.
+**الدور المطلوب لإلغاء ارتباط البيئة:** مسؤول النظام لتطبيق التمويل والعمليات أو Dataverse.
 
-1. قم بتسجيل الدخول إلى تطبيق Finance and Operations.
+1. سجل دخولك إلى تطبيق التمويل والعمليات.
 2. انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد تجانب **الكتابة الثنائية**.
 3. حدد كافة التعيينات قيد التشغيل، ثم حدد **إيقاف**.
 4. حدد **إلغاء ربط البيئة**.
