@@ -1,28 +1,28 @@
 ---
 title: نظرة عامة على أمر الشراء
 description: توفر هذه المقالة معلومات عامة حول أوامر الشراء بالإضافة إلى ارتباطات تؤدي إلى مقالات ذات صلة بمختلف المراحل التي يمر عبرها أمر الشراء.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "93083"
-- intro-internal
+ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982294"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022221"
 ---
 # <a name="purchase-order-overview"></a>نظرة عامة على أمر الشراء
 
@@ -43,7 +43,7 @@ ms.locfileid: "7982294"
 -   [إنشاء أوامر شراء](purchase-order-creation.md)
 -   [اعتماد أوامر الشراء وتأكيدها](purchase-order-approval-confirmation.md)
 -   [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
--   [نظرة عامة على فواتير المورّدين](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>أنواع أوامر الشراء
 ‏‫هناك ثلاثة أنواع من أوامر الشراء. عندما تنشئ أمر شراء، يتعين عليك تحديد النوع.‬ يمكنك إعداد نوع أمر افتراضي للأوامر الجديدة في صفحة **محددات تحديد الموارد والتدبير‬**.
@@ -78,7 +78,8 @@ ms.locfileid: "7982294"
 -   **مؤكد** - يتم تعيين هذه الحالة بعد تأكيد الأمر. بشكل عام، هذه الحالة هي حالة الموافقة الأخيرة التي يتم تعيينها للأمر.
 
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [إنشاء أوامر شراء](purchase-order-creation.md)
 
@@ -86,10 +87,7 @@ ms.locfileid: "7982294"
 
 [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
 
-[نظرة عامة على فواتير المورّدين](../../finance/accounts-payable/vendor-invoices-overview.md)
+[نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

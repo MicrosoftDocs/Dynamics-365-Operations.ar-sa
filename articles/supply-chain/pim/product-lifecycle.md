@@ -1,26 +1,30 @@
 ---
 title: نظرة عامة على حالة دورة حياة المنتج
 description: توثق حالة دورة حياة المنتج، حالة دورة الحياة لمنتج صادر أو متغير المنتج.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 01/06/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 51a6b19e84f368bf72b664e120f262ddcf7c7611
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983784"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4421827"
 ---
 # <a name="product-lifecycle-state-overview"></a>نظرة عامة على حالة دورة حياة المنتج
 
@@ -105,6 +109,3 @@ ms.locfileid: "7983784"
 - [تعيين حالة دورة حياة منتج لمنتج صادر](tasks/product-lifecycle-state-released-product.md)
 - [البحث عن متغيرات منتجات قديمة، وتعيين حالة دورة حياة منتج](tasks/obsolete-product-variants.md)
 - [إنشاء حالة دورة حياة منتج لاستبعاد المنتجات من التخطيط الرئيسي](tasks/exclude-products-master-planning.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

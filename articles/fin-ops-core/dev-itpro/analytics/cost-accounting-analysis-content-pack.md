@@ -1,10 +1,12 @@
 ---
 title: محتوى "تحليل محاسبة التكاليف‬" في Power BI
-description: يصف هذا الموضوع العناصر المضمنة في محتوى "تحليل محاسبة التكاليف‬" في Power BI.
+description: يصف هذا الموضوع العناصر المضمنة في محتوى "تحليل محاسبة التكاليف‬" في Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 author: AndersGirke
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,18 +16,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747359"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683861"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>محتوى Power BI لتحليل محاسبة التكاليف
+# <a name="cost-accounting-analysis-power-bi-content"></a>محتوى "تحليل محاسبة التكاليف‬" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع العناصر المضمنة في محتوى **تحليل محاسبة التكاليف‬** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+يصف هذا الموضوع العناصر المضمنة في محتوى **تحليل محاسبة التكاليف** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -40,7 +42,7 @@ ms.locfileid: "6747359"
 من خلال تحديد مستوى الوصول الأمن في محاسبة التكاليف والجمع بينها وبين الأمان على مستوى الصف في Power BI، يمكنك منح كافة مالكي كائنات التكلفة حقل الوصول إلى محتوى **تحليل محاسبة التكاليف** في Power BI. ثم، تتم تصفية كافة البيانات في الرسوم المرئية بناءً على مستوى الوصول الذي يتم التحكم فيه في محاسبة التكاليف. لمزيد من المعلومات حول مستوى الوصول الآمن والمستوى الآمن على مستوى الصف، راجع [إعداد الأمان لمحتوى تحليل محاسبة التكاليف في Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
-يمكنك العثور على محتوى **تحليل محاسبة التكاليف** في Power BI في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft وشركائك](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
+يمكنك العثور على محتوى **تحليل محاسبة التكاليف** في Power BI في مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول كيفية تنزيل المحتوى وتطبيقه في مؤسستك، راجع [محتوى Power BI في LCS من Microsoft وشركائك](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 احرص على تنزيل محتوى **تحليل محاسبة التكاليف** الذي ينطبق على إصدار Microsoft Dynamics 365 الذي تستخدمه.
 
@@ -121,6 +123,3 @@ ms.locfileid: "6747359"
 | التقويمات المالية                   | التقويم، وصف التقويم                                                                                       |
 | السنوات المالية                       | سنة التقويم                                                                                                        |
 | الفترات المالية                     | فترات سنة التقويم                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

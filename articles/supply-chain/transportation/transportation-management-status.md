@@ -2,22 +2,25 @@
 title: حالات إدارة النقل
 description: يوضح هذا الموضوع كيفيه إنشاء حاله نقل وتعيين هذه الحالة إلى حاله الناقل.
 author: Henrikan
+manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c5570d3b5b436a35bb57d051bc06cde8b78934e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: 3f7d471771ec2b4703d878fbf395cd90902b6669
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569879"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4421831"
 ---
 # <a name="transportation-management-statuses"></a>حالات إدارة النقل
 
@@ -46,6 +49,3 @@ ms.locfileid: "7569879"
 1. حدد رمز الحالة النقل التي تريد تعيينها إلى كود شركة الشحن المحددة.
 1. أدخل الكود الخارجي المستخدمة بواسطة شركة الشحن.
 1. قم بإغلاق الصفحة.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

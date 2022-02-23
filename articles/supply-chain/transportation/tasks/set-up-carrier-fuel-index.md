@@ -1,25 +1,28 @@
 ---
 title: إعداد مؤشر وقود الناقل‬
 description: يوضح هذا الدليل كيفية إنشاء منطقة مؤشر وقود ومؤشر وقود ومؤشر وقود الناقل.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFuelIndexRegion,TMSCarrierFuelIndexTable,TMSFuelIndex
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b67219a6cb19b393dce25f77febc194c5ea2a16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 12ade30b63454dfd997aa47a62cde21b066140fa
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576246"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4421834"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>إعداد مؤشر وقود الناقل‬
 
@@ -64,6 +67,3 @@ ms.locfileid: "7576246"
 12. في القائمة، انقر فوق الارتباط في الصف المحدد.
 13. انقر فوق "حفظ".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

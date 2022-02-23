@@ -1,10 +1,12 @@
 ---
 title: مساحة العمل المحمولة الموافقات على الفواتير‬
-description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "الموافقات على الفواتير‬‬".
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "الموافقات على الفواتير‬‬". توفر مساحة العمل المحمولة قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد.
 author: abruer
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759970"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683398"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>مساحة العمل المحمولة الموافقات على الفواتير‬
 
@@ -72,7 +74,7 @@ ms.locfileid: "6759970"
 3.  في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
 4.  بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
-    [![سحب للتحديث.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>الموافقة على الفواتير باستخدام مساحة العمل المحمولة "الموافقات على الفواتير"
 1.  على جهازك المحمول، حدد مساحة العمل **الموافقات على الفواتير‬**.
@@ -84,6 +86,3 @@ ms.locfileid: "6759970"
 7.  حدد **المرفقات** لعرض أية ملاحظات أو ملفات مرفقة بالفاتورة.
 8.  في صفحة **تفاصيل الفاتورة**، حدد إجراء سير العمل المناسب لإكمال عملية المراجعة.
 9.  حدد **تم**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

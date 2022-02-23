@@ -1,30 +1,32 @@
 ---
 title: محتوى "الفعلي مقابل الموازنة‬" في Power BI
-description: يصف هذا الموضوع محتوى "الفعلي مقابل الموازنة‬" في Power BI. ويوضح كيفيه الوصول إلى التقارير وتوفر معلومات حول نموذج البيانات.
-author: panolte
+description: يصف هذا الموضوع محتوى "الفعلي مقابل الموازنة‬" في Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+author: ryansandness
+manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: panolte
+ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737893"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685262"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>محتوى "الفعلي مقابل الموازنة‬" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع محتوى **الفعلي مقابل الموازنة‬** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+يصف هذا الموضوع محتوى **الفعلي مقابل الموازنة** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -55,6 +57,3 @@ ms.locfileid: "6737893"
 | دفاتر الأستاذ                   | دفاتر الأستاذ التي يمكن استخدامها لتصفية التقرير إلى دفتر الأستاذ الحالي              |
 | أكواد الموازنة              | أكواد الموازنة لاستخدامها لتصفية التقارير                                                |
 | الكيانات القانونية            | الكيانات القانونية التي يمكن استخدامها لتصفية التقرير إلى الكيان القانوني الحالي |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

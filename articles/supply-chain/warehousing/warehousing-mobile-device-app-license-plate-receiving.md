@@ -1,30 +1,33 @@
 ---
-title: استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة
-description: يوضح هذا الموضوع كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة للأجهزة المحمولة‬ لدعم استخدام عملية استلام لوحة الترخيص لاستلام المخزون الفعلي.
+title: استلام لوحة الترخيص‬ عبر تطبيق المستودع
+description: يوضح هذا الموضوع كيفية إعداد تطبيق المستودع لدعم استخدام عملية استلام لوحة الترخيص لاستلام المخزون الفعلي.
 author: perlynne
+manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421751"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة
+# <a name="license-plate-receiving-via-the-warehouse-app"></a>استلام لوحة الترخيص‬ عبر تطبيق المستودع
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة‬ بحيث يدعم استخدام عملية استلام لوحة الترخيص لاستلام المخزون الفعلي.
+يوضح هذا الموضوع كيفية إعداد تطبيق المستودع بحيث يدعم استخدام عملية استلام لوحة الترخيص لاستلام المخزون الفعلي.
 
 يمكنك استخدام هذه الوظيفة لتسجيل استلام المخزون الوارد المرتبط بإشعار شحن مسبق (ASN) بسرعة. ينشئ النظام بشكل تلقائي إشعار ASN عند استخدام عمليات إدارة المستودعات لشحن أمر تحويل. بالنسبة إلى عملية أمر الشراء، يمكن تسجيل ASN يدويًا أو يمكن استيراده تلقائيًا باستخدام عمليات كيان بيانات ASN الواردة.
 
@@ -70,14 +73,14 @@ ms.locfileid: "7777558"
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>إظهار صفحة ملخص الاستلام أو تخطيها
 
-يمكنك استخدام الميزة *التحكم في عرض صفحة ملخص الاستلام على الأجهزة المحمولة* للاستفادة من سير مهام إضافي مفصل في تطبيق إدارة المستودع للأجهزة المحمولة كجزء من عملية استلام لوحة الترخيص.
+يمكنك استخدام الميزة *التحكم في عرض صفحة ملخص الاستلام على الأجهزة المحمولة* للاستفادة من سير مهام إضافي مفصل في تطبيق المستودع كجزء من عملية استلام لوحة الترخيص.
 
 عند تشغيل هذه الميزة، ستوفر عناصر قائمة الجهاز المحمول لاستلام لوحة الترخيص‬ أو استلام ‏‫لوحة الترخيص‬ وتخزينها‬ الإعداد **عرض صفحة ملخص الاستلام**. يتضمن هذا الإعداد الخيارات التالية:
 
 - **عرض ملخص مفصل** – أثناء استلام لوحة الترخيص، سيرى العاملون صفحة إضافية تعرض معلومات ASN الكاملة.
 - **تخطي الملخص** – لن يتمكن العاملون من رؤية معلومات ASN الكاملة. ولن يتمكن عمال المستودعات أيضًا من تعيين رمز الإرجاع أو إضافة استثناءات أثناء عملية الاستلام.
 
-لإتاحة هذه الوظيفة على نظامك، يجب تشغيل ميزة *التحكم في عرض صفحة ملخص الاستلام على الأجهزة المحمولة* في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
+لجعل هذه الوظيفة متوفرة على نظامك، يجب عليك تشغيل الميزة *التحكم في عرض صفحة ملخص الاستلام على الأجهزة المحمولة* في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>منع استخدام لوحات الترخيص المشحونة في أمر التحويل في المستودعات غير المستودع الوجهة.
 
@@ -102,6 +105,3 @@ ms.locfileid: "7777558"
 لمزيد من المعلومات حول سيناريو الإنتاج *الإبلاغ كمنتهٍ‬*، راجع [نظرة عامة على سياسات عمل المستودع‬](warehouse-work-policies.md).
 
 للحصول على معلومات حول إدارة الأحمال الواردة، راجع [معالجة المستودع للأحمال الواردة لأوامر الشراء‬](inbound-load-handling.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

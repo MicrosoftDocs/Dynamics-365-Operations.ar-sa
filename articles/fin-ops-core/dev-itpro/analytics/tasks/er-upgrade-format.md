@@ -1,10 +1,12 @@
 ---
 title: ترقية التنسيق باعتماد إصدار أساسي جديد لهذا التنسيق في ER
-description: يوضح هذا الموضوع كيفيه صيانة تكوين تنسيق للتقارير الكترونيه (ER).
+description: تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية الحفاظ على تكوين تنسيق التقارير الإلكترونية (ER).
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcb85d964234063fd3c6a8e5ea29f7b222e966124b48e46b72b04f457c91e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17fe6d772040c73959685920743225c128421951
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720798"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684249"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ترقية التنسيق باعتماد إصدار أساسي جديد لهذا التنسيق في ER
 
@@ -31,7 +33,7 @@ ms.locfileid: "6720798"
 ## <a name="select-format-configuration-for-customization"></a>تحديد تكوين التنسيق للتخصيص
 1. انتقل إلى إدارة المؤسسة > مساحات العمل‬ > إعداد التقارير الإلكتروني‬.
 
-    في هذا المثال، ستعمل الشركة النموذجية Litware, Inc. (https://www.litware.com) كموفر تكوين يدعم تكوينات التنسيق للدفعات الإلكترونية لبلد بعينه.    سوف تعمل الشركة النموذجية Proseware, Inc. (http://www.proseware.com) كمستهلك لتكوين التنسيق الذي تقدمه شركة Litware, Inc. تستخدم Proseware, Inc. تنسيقات في مناطق معينة في ذلك البلد.  
+    في هذا المثال، ستعمل الشركة النموذجية Litware, Inc. (https://www.litware.com) كموفر تكوين يدعم تكوينات التنسيق للدفعات الإلكترونية لبلد بعينه.    سوف تعمل الشركة النموذجية Proseware, Inc. http://www.proseware.com)) كمستهلك لتكوين التنسيق الذي تقدمه شركة Litware, Inc. تستخدم Proseware, Inc. تنسيقات في مناطق معينة في ذلك البلد.  
 2. انقر فوق "تكوينات إعداد التقارير‬".
 3. انقر فوق "إظهار عوامل التصفية".
 4. طبّق عوامل التصفية التالية: أدخل قيمة عامل التصفية "BACS (وهمي في المملكة المتحدة)‬" في حقل "الاسم" باستخدام مشغل عامل التصفية "يبدأ بـ".
@@ -241,6 +243,3 @@ ms.locfileid: "6720798"
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>اختبار التنسيق المخصص لإنشاء ملفات الدفعات
 أكمل الخطوات المذكورة في الإجراء "استخدام التنسيق الذي تم إنشاؤه لإنشاء مستندات إلكترونية للدفعات" في جلسة Finance and Operations موازية. حدد تنسيق BACS (مخصص وهمي في المملكة المتحدة) الذي تم إنشاؤه في معلمات أسلوب الدفع الإلكتروني. تأكد من احتواء ملف الدفع الذي تم إنشاؤه على عقدة Proseware, Inc. XML المقدمة حديثًا التي تقدم كود IBAN وفقًا للمتطلبات الإقليمية. يجب أن يحتوي الملف أيضًا على عقدة Litware, Inc. XML المقدمة حديثًا التي تقدم كود البنك SWIFT وفقًا لمتطلبات البلد.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: محتوى "إدارة التكلفة‬" في Power BI
 description: يصف هذا الموضوع العناصر المدرجة في محتوى "إدارة التكلفة" في Power BI.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752607"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683885"
 ---
 # <a name="cost-management-power-bi-content"></a>محتوى "إدارة التكلفة‬" في Power BI
 
@@ -30,6 +32,11 @@ ms.locfileid: "7752607"
 ## <a name="overview"></a>نظرة عامة
 
 محتوى **إدارة التكلفة** في Microsoft Power BI موجه إلى محاسبي المخزون أو أفراد في المؤسسة مسؤولين عن أو مهتمين بحالة المخزون أو الأعمال تحت التنفيذ (WIP)، أو المسؤولين عن أو المهتمين بتحليل نسب فرق التكلفة المعيارية.
+
+> [!NOTE]
+> ينطبق محتوى **إدارة التكلفة** في Power BI الذي ورد وصفه في هذا الموضوع على الإصدار 8.0 من Dynamics 365 Finance and Operations.
+> 
+> تم إهلاك حزمة محتوى **إدارة التكلفة** في Power BI، المتوفرة في موقع AppSource. لمزيد من المعلومات حول هذا الإهمال، راجع [الميزات التي تمت إزالتها أو إهمالها في Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 يوفر محتوى Power BI هذا تنسيقًا مصنفًا يساعدك على مراقبة أداء عمليات الجرد وتصور كيفية تدفق التكاليف من خلالها. يمكنك الحصول على رؤى إدارية مثل نسبة معدل الدوران، وعدد الأيام التي يتوفر فيها المخزون، والدقة و"تصنيف ABC" بالمستوى المفضل لديك (الشركة أو الصنف أو مجموعة الأصناف أو الموقع). يمكن استخدام المعلومات التي تم توفيرها أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
 
@@ -200,6 +207,3 @@ ms.locfileid: "7752607"
 | الكيانات القانونية                                          | أسماء الكيانات القانونية                              |
 | التقويمات المالية                                        | التقويم المالي، سنة، ربع سنة، فترة، شهر   |
 | الموقع                                                    | معرف، اسم، عنوان، ولاية، بلد               |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

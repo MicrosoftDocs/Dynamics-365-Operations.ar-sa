@@ -1,24 +1,27 @@
 ---
 title: إنشاء أمر شراء من أمر توريد
 description: يوضح لك هذا الإجراء إنشاء أمر شراء يستند إلى أمر مبيعات.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ca91f17c13e210a4df6c22e0ed12370179bb866
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572462"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421767"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>إنشاء أمر شراء من أمر توريد
 
@@ -66,6 +69,3 @@ ms.locfileid: "7572462"
     - تضمن **دفعة المرجع** تحميل التكاليف من عملية الشراء الحالية على أمر المبيعات المرفق.  
     - يمكنك الانتقال إلى أمر المبيعات الأصلي عن طريق فتح الارتباط في الحقل **رقم المرجع**.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

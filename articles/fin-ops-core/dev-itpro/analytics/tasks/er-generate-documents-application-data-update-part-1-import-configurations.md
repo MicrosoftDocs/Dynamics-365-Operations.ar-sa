@@ -2,9 +2,11 @@
 title: استيراد تكوينات لإنشاء مستندات تتضمن بيانات التطبيق
 description: لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط‬".
 author: NickSelin
+manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727475"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684608"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>استيراد تكوينات لإنشاء مستندات تتضمن بيانات التطبيق
 
@@ -73,6 +75,3 @@ ms.locfileid: "6727475"
     * راجع بنية التنسيق المستخدم لإنشاء تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي. لاحظ أنه تم تصميم هذه البنية لإنشاء ملف XML من خلال تعبئة البيانات من نموذج البيانات، الذي يستند إلى العنصر الجذر 'للمستند الصادر". تأكد من تحديد اسم الملف المنشأ محدد على نموذج الحوار الخاص بالمستخدم (يُستخدم مصدر البيانات "fn" لهذا الغرض).   
 30. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

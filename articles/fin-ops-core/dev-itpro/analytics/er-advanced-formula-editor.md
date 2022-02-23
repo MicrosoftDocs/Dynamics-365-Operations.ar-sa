@@ -2,9 +2,11 @@
 title: محرر المعادلات المتقدم لإعداد التقارير الإلكترونية
 description: يوضح هذا الموضوع كيفية استخدام محرر المعادلات المتقدم لتكوين التعبيرات في تعيين نموذج ‏‫إعداد التقارير الإلكترونية (ER) ومكونات التنسيق.
 author: NickSelin
-ms.date: 06/17/2021
+manager: AnnBe
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714649"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685372"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>محرر المعادلات المتقدم ل‏‫إعداد التقارير الإلكترونية
 
@@ -45,29 +47,16 @@ ms.locfileid: "6714649"
 2.  في صفحة **التكوينات**، في جزء الإجراءات، في علامة التبويب **التكوينات**، في مجموعة **الإعدادات المتقدمة**، حدد **معلمات المستخدمين**.
 3.  في مربع الحوار **معلمات المستخدم**، في قسم **تتبع التنفيذ**، قم بتعيين **تمكين محرر المعادلات المتقدم** على **نعم**.
 
-[![مربع حوار معلمات المستخدم، تمكين معلمة محرر الصيغ المتقدمة المميزة.](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![صفحة تكوينات التقارير الإلكترونية](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > لاحظ أن هذه المعلمة خاصة بالمستخدم والشركة.
-
-البدء في Microsoft Dynamics 365 Finance الإصدار 10.0.19، يمكنك التحكم فيما يتم تقديمه محرر صيغة التقارير الإلكترونية بشكل افتراضي. أكمل الخطوات التالية لتمكين محرر الصيغ المتقدمة لكافة المستخدمين والشركات الخاصة بمثيل Finance الحالي.
-
-1.  افتح مساحة عمل **إدارة الميزات**.
-2.  ابحث وحدد الميزة وتحديدها **تعيين محرر الصيغة المتقدمة للتقارير الإلكترونية كالمحرر الافتراضي لكافة المستخدمين** في القائمة، ثم حدد **التمكين الآن**.
-3.  انتقل إلى **إدارة المؤسسة** > **إعداد التقارير الإلكترونية** > **التكوينات**.
-4.  في صفحة **التكوينات**، في جزء الإجراءات، في علامة التبويب **التكوينات**، في مجموعة **الإعدادات المتقدمة**، حدد **معلمات المستخدمين**.
-5.  في مربع الحوار **معلمات المستخدم**، قم بالبحث عن المعلمة **تعطيل محرر الصيغة المتقدمة** والتحقق من تعيينها إلى **لا**.
-
-[![مربع حوار معلمات المستخدم، تعطيل معلمة محرر الصيغ المتقدمة المميزة.](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
-
-> [!NOTE]
-> تظل قيم المعلمات **تمكين محرر الصيغ المتقدمة** و **تعطيل محرر الصيغ المتقدمة** الصيغ المتقدمة منفصلة لكل مستخدم ويتم تقديمها في مربع حوار **معلمات المستخدم** استنادًا إلى حالة الميزة **تعيين محرر الصيغ المتقدمة للتقارير الإلكترونية كالمحرر الافتراضي لكل المستخدمين**.
 
 ## <a name=""></a><a name="Autoformatting">إعداد تنسيق الكود تلقائيًا</a>
 
 عند كتابة تعبير معقد يتكون من عدة صفوف من الاكواد، سيتم إجراء المسافة البادئة للسطر الجديد الذي تم إدخاله تلقائيًا استنادًا إلى المسافة البادئة للصف السابق. يمكنك تحديد السطور وتغيير المسافات البادئة بكتابة **Tab** أو **Shift+Tab**.
 
-[![محرر صيغة التقارير الإلكترونية بتنسيق gif يظهر تحديد البنود وتغيير المسافة البادئة.](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![محرر معادلات إعداد التقارير الإلكترونية](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 يسمح لك إعداد التنسيق تلقائيًا بالاحتفاظ بالتنسيق الجيد للتعبير بالكامل لتسهيل عمليات الصيانة المستقبلية وتبسيط فهم المنطق المكون.
 
@@ -75,7 +64,7 @@ ms.locfileid: "6714649"
 
 يوفر المحرر إكمال الكلمة لمساعدتك في كتابة التعبير أسرع وتجنب أخطاء الكتابة. عند بدء إضافة نص جديد، يقدم المحرر تلقائيًا قائمة بالوظائف المدعومة في وظائف إعداد التقارير الإلكترونية التي تحتوي على الأحرف التي أدخلتها. ويمكنك أيضًا تشغيل IntelliSense في أي مكان لتعبير مكون بكتابة **Ctrl+Space**.
 
-[![محرر صيغة التقارير الإلكترونية بتنسيق gif يظهر تشغيل IntelliSense.](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![محرر معادلات إعداد التقارير الإلكترونية](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">إكمال الكود</a>
 
@@ -85,7 +74,7 @@ ms.locfileid: "6714649"
 - إدراج رمز الاقتباس الثاني عند إدخال الأول، مع إبقاء المؤشر داخل علامتي الاقتباس.
 - إدراج رمز الاقتباس المزدوج الثاني عند إدخال الأول، مع إبقاء المؤشر داخل علامتي الاقتباس.
 
-[![محرر صيغة التقارير الإلكترونية بصيغة gif يعرض المحرر الذي يوفر إكمال التعليمات البرمجية تلقائيًا.](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![محرر معادلات إعداد التقارير الإلكترونية](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 عند الإشارة إلى القوس المكتوب، يتم تمييز القوس الثاني من هذا الزوج تلقائيًا لإظهار البناء الذي يدعمه.
 
@@ -101,7 +90,7 @@ ms.locfileid: "6714649"
 
 - اضغط على **F1**، واكتب **G**، وحدد **انتقال إلى السطر**، وأدخل القيمة **8**، واضغط على **Enter**.
 
-[![محرر صيغة التقارير الإلكترونية بتنسيق gif يظهر كيفية تحديد الأجزاء من التعبير باستخدام لوح الألوان.](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![محرر معادلات إعداد التقارير الإلكترونية](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">هيكلة الكود</a>
 
@@ -123,7 +112,7 @@ ms.locfileid: "6714649"
   
 - اضغط على **F1**، واكتب **UN**، وحدد **Unfold all**، ثم اضغط على **Enter**
 
-[![محرر صيغة التقارير الإلكترونية بتنسيق gif يظهر كود موسع.](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![محرر معادلات إعداد التقارير الإلكترونية](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">بحث واستبدال</a>
 
@@ -151,13 +140,13 @@ ms.locfileid: "6714649"
   
 - اضغط **F1**، واكتب **C**، ثم حدد الخيار المطلوب لتغيير النص المحدد. أدخل النص البديل.
 
-[![محرر صيغة التقارير الإلكترونية بتنسيق gif يظهر البحث والاستبدال.](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![محرر معادلات إعداد التقارير الإلكترونية](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">مصادر البيانات ولصق الوظائف</a>
 
 يمكنك تحديد **إضافة مصدر بيانات**، الذي يلصق بالتعبير الحالي مصدر البيانات المحدد حاليًا على لوحة **مصدر البيانات** اليمنى. وبالمثل، يمكنك تحديد **إضافة وظيفة**، الذي يلصق بالتعبير الحالي مصدر البيانات المحدد حاليًا على لوحة **الوظائف** اليسرى. عند استخدام محرر معادلات إعداد التقارير الإلكترونية، دائمًا ما يتم لصق الوظيفة المحددة أو مصدر البيانات المحدد إلى نهاية التعبير المكون. عند استخدام ‏‫محرر المعادلات المتقدم ل‏‫إعداد التقارير الإلكترونية، يمكن لصق الوظيفة المحددة أو مصدر البيانات المحدد في أي جزء بالتعبير المكون. ستحتاج إلى استخدام المؤشر لتحديد المكان الذي تريد لصق البيانات فيه.
 
-[![محرر صيغة التقارير الإلكترونية بتنسيق gif تظهر إضافة مصدر بيانات وظيفة.](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![محرر معادلات إعداد التقارير الإلكترونية](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">تلوين بناء الجملة</a>
 
@@ -165,7 +154,7 @@ ms.locfileid: "6714649"
 
 - النص الموجود داخل الأقواس المزدوجة والذي يمكن أن يمثل معرف تسمية ثابت نصي.
 
-[![محرر معادلات إعداد التقارير الإلكترونية.](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+[![محرر معادلات إعداد التقارير الإلكترونية](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
 
 ## <a name="limitations"></a>قيود
 
@@ -182,6 +171,3 @@ ms.locfileid: "6714649"
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
 - [محرر موناكو](https://microsoft.github.io/monaco-editor)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

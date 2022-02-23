@@ -1,24 +1,27 @@
 ---
 title: قائمة المخزون الفعلي
 description: يصف هذا الموضوع كيفية استخدام صفحة قائمة المخزون الفعلي لفحص تفاصيل المخزون الفعلي. وهي تعرض بعض الطرق التي تعمل من خلالها خيارات التصفية والفرز المختلفة معًا، وكيف يمكن لهذه الخيارات أن تنتج في بعض الأحيان نتائج غير متوقعة عند دمجها.
-author: yufeihuang
+author: sherry-zheng
+manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573911"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421784"
 ---
 # <a name="inventory-on-hand-list"></a>قائمة المخزون الفعلي
 
@@ -143,6 +146,3 @@ ms.locfileid: "7573911"
 | IA0001 | 1 | 2 | 2 |
 
 لاحظ أن الإعدادات الموجودة في جزء **عوامل التصفية** تنطبق على الجدول المفصل (غير المجمع) للمخزون الذي يظهر في بداية هذا القسم. وبالتالي، فإن المعيار **الفعلي المتاح** \| **أقل من أو يساوي** \| _1_ يبحث عن صفين من الجدول (الصف الأول والثالث، يعرض كل واحد منهما قيمة **الفعلي المتاح** من _1_). ومع ذلك، في هذا السيناريو ، لم يتم إعداد صفحة **قائمة المخزون الفعلي** لإظهار **بُعد المستودع**. وهي بالتالي تقوم بتجميع الصفين الأصليين في صف ناتج واحد، لأن الصفين لهما قيم مماثلة في جميع الأبعاد التي تظهر. يبدو هذا الصف وكأنه يخرق معيار التصفية، لأن قيمة **الفعلي المتاح** تظهر على أنها _2_. ومع ذلك، فالنتيجة صحيحة، لأن الإعدادات الموجودة في جزء **عوامل التصفية** تنطبق على الجدول المصدر، وليس على الجدول المجمع الذي يظهر في صفحة **قائمة المخزون الفعلي**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: تسلسل العمل الموجه بواسطة النظام
 description: يوفر هذا الموضوع معلومات حول تسلسل العمل الموجه بواسطة النظام. تتيح لك هذه الوظيفة فرز وتصفية أوامر العمل التي يقدمها النظام للمستخدمين ليتم تنفيذها. وهي مفيدو في السيناريوهات التي يُطلب فيها معايير إضافية لتوجيه عملية الانتقاء من المستودع.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 3811486a31d079cac7f7c27ea6323f16de4478d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577806"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970196"
 ---
 # <a name="system-directed-work-sequencing"></a>تسلسل العمل الموجه بواسطة النظام
 
@@ -302,6 +304,3 @@ ms.locfileid: "7577806"
 بالتالي، في المثال من هذا السيناريو، يتم أيضًا التقاط معرف العمل *4* بواسطة الاستعلام. وعندما تم إنشاؤه، تمت إضافة بندين: واحد لـ 25 وحدة وآخر لـ 10 وحدات. ما يزال العمل مقدمًا إلى المستخدم، نظرا لأن بند عمل واحد الأقل يتضمن كمية أقل من 20 وحدة.
 
 استنادا إلى السيناريو، يمكنك منع هذا السلوك باستخدام فواصل العمل.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

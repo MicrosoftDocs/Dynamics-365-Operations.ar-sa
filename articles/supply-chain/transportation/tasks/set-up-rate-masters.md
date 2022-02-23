@@ -1,25 +1,28 @@
 ---
 title: إعداد السجلات الرئيسية للأسعار
 description: يوضح هذا الإجراء كيفية إعداد سجل رئيسي للأسعار.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 10/16/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSBreakMaster,TMSRateMaster,TMSRateMasterBase,TMSRateBaseType, TMSRouteWorkbench
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6177458f2fc4651a10353afaa6f59ba6da4e28b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b4cca9fd47a5d8c81d7b8a913d0a467bc113b584
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567693"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4421830"
 ---
 # <a name="set-up-rate-masters"></a>إعداد السجلات الرئيسية للأسعار
 
@@ -94,6 +97,3 @@ ms.locfileid: "7567693"
     * حدد الرمز البريدي الذي يجب أن يكون تعيين قاعدة الأسعار هذا صالحًا منه.
 10. في الحقل **البلد/المنطقة لمكان الانتقاء**، اكتب "USA".
 11. حدد **حفظ**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

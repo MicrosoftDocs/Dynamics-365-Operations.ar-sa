@@ -2,28 +2,31 @@
 title: معلمات إدارة التغيير الهندسي‬
 description: يشرح هذا الموضوع كيفية تكوين ميزات إدارة التغييرات الهندسية لـ Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580998"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4421821"
 ---
 # <a name="engineering-change-management-parameters"></a>معلمات إدارة التغيير الهندسي‬
 
 [!include [banner](../includes/banner.md)]
 
-تحتوي صفحه **معلمات أداره التغييرات الهندسية** علي معلمات إعداد تقوم بتغيير السلوك الافتراضي المرتبط ببنيه منتج الإصدار وعمليات أداره التغييرات الهندسية.
+تحتوي صفحه **معلمات أداره التغييرات الهندسية** علي معلمات اعداد تقوم بتغيير السلوك الافتراضي المرتبط ببنيه منتج الإصدار وعمليات أداره التغييرات الهندسية.
 
 ## <a name="open-the-engineering-change-management-parameters-page"></a>فتح صفحه معلمات أداره التغييرات الهندسية
 
@@ -54,6 +57,3 @@ ms.locfileid: "7580998"
 | قاعدة الأهمية | حدد الكيفية التي يجب بها تاسيس خطورة أمر التغيير الهندسي. حدد *يدويا* إذا كان المستخدم من المتوقع إدخال قيمه في حقل **الخطورة**. حدد *حساب* لجعل النظام يقوم بحساب قيمه حقل **الخطورة** عندما تقوم بتحديد **حساب الخطورة** في جزء الإجراءات الخاص بأمر التغيير الهندسي. في هذه الحالة ، سيقوم النظام باستخدام قواعد الخطورة التي تم تعريفها في الصفحة **ضبط قاعده الخطورة**. حدد *الحساب تلقائيا* لكي يتم تلقائيا حساب قيمه حقل **الخطورة** وملؤها وفقا لمجموعات قواعد الخطورة. |
 | إعادة إصدار المنتجات المتأثرة | ينطبق هذا الحقل عندما تقوم باعاده إصدار المنتجات من خلال أمر التغيير الهندسي. يمكنك تحديد ما إذا كان يجب اقتراح كافة المنتجات أو المنتجات المتاثره فقط في مربع الحوار **إصدارات**. |
 | مستويات قائمة مكونات الصنف المطلوب إصدارها | عمق مستوي قائمه مكونات الصنف المراد إصداره. إذا كانت قائمة مكونات الصنف تحتوي علي مستويات أكثر (مثلا ، إذا كانت أعمق) من القيمة التي تم تحديدها هنا ، سيتم إصدار المستويات حتى خلال القيمة المحددة فقط. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

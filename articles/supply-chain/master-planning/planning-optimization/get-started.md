@@ -2,32 +2,35 @@
 title: بدء تحسين التخطيط
 description: يشرح هذا الموضوع كيفية بدء استخدام وظيفة تحسين التخطيط.
 author: ChristianRytt
-ms.date: 05/20/2021
+manager: tfehr
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902549"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4421814"
 ---
 # <a name="get-started-with-planning-optimization"></a>بدء تحسين التخطيط
 
 [!include [banner](../../includes/banner.md)]
 
-وكما  [سبق ان تم الإعلان عنه](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios)، تتم جدوله تحسين التخطيط لاستبدال محرك التخطيط الرئيسي الموجود المضمن.
+وكما  [سبق ان تم الإعلان عنه](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios)، تتم جدوله تحسين التخطيط لاستبدال محرك التخطيط الرئيسي الموجود المضمن.
 
 إذا كنت تستخدم حاليا مشغل التخطيط الرئيسي المضمن، فعليك البدء في تخطيط الترحيل لتخطيط تحسين الأداء الآن. من المهم بدء عمليه الترحيل فورا لان العمليات قد تكون متاثره عند فرض الإهلاك. لتجنب مشكلات الدقائق الاخيره عند فرض الإهلاك، فاننا نشجعك بشده علي إكمال الترحيل قبل 1 ديسمبر 2020. 
 
@@ -38,42 +41,21 @@ ms.locfileid: "7902549"
 
 قبل تشغيل تحسين التخطيط، نوصي بشده بتقييم نتائج تحليل ملائمة تحسين التخطيط. لمزيد من المعلومات، راجع [تحليل ملائمة تحسين التخطيط](planning-optimization-fit-analysis.md).
 
-## <a name="availability"></a>التوفر
-
-يتوفر تحسين التخطيط حاليا في مناطق Azure التالية: الولايات المتحدة وكندا وأوروبا والمملكة المتحدة وأستراليا ودول آسيا المطلة على المحيط الهادئ واليابان والهند. إذا حاولت تثبيت الوظيفة الإضافية  من منطقه أخرى ، فسوف يُظهر لك LCS رسالة بأن هذه المنطقة الجغرافية غير مدعومة. لمزيد من المعلومات حول مناطق Azure الجغرافية والمناطق المتعلقة بالصلة ، راجع [مناطق Azure الجغرافية](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+### <a name="availability"></a>التوفر
+يتوفر تحسين التخطيط حاليا في مناطق Azure التالية: الولايات المتحدة وكندا وأوروبا والمملكة المتحدة وأستراليا. إذا حاولت تثبيت الوظيفة الإضافية  من منطقه أخرى ، فسوف يُظهر لك LCS رسالة بأن هذه المنطقة الجغرافية غير مدعومة.
 
 لاحظ أن تحسين التخطيط لا يدعم عمليات النشر المحلية لـ Dynamics 365 Supply Chain Management.
 
-## <a name="licensing"></a>الترخيص
+### <a name="licensing"></a>الترخيص
 
 إذا كان بإمكانك تشغيل التخطيط الرئيسي باستخدام الترخيص الحالي ، فلن تحتاج إلى شراء ترخيص إضافي للبدء في استخدام تحسين التخطيط.
 
-## <a name="install-and-enable-planning-optimization"></a>تثبيت وتمكين تحسين التخطيط
+### <a name="install-the-add-in"></a>تثبيت الوظيفة الإضافية
 
-لاستخدام تحسين التخطيط، يجب التاكد من ان النظام يحتوي علي كافة المتطلبات المسبقة، ثم تمكين مفتاح الترخيص الخاص بها وتثبيت الوظيفة الإضافية لتحسين أداء التخطيط Dynamics 365 Supply Chain Management.
+لاستخدام أمثليه التخطيط، قم بتثبيت الوظيفة الإضافية لتحسين التخطيط لـ Dynamics 365 Supply Chain Management. يمكنك الوصول إلى الوظيفة الإضافية من مشروع LCS وتشغيل وظيفة تحسين التخطيط من واجهه مستخدم Supply Chain Management (UI).
 
-### <a name="prerequisites"></a>المتطلبات الأساسية
-
-قبل أن تتمكن من تثبيت الوظيفة الإضافة لتحسين التخطيط، يجب إتمام المهام المتطلبات التالية:
-
-- يجب تشغيل Supply Chain Management على بيئة ذات توفر عالي الطبقة 2 أو أعلى بتمكين LCS (ليست بيئة OneBox)، مع الإصدار Dynamics 365 Supply Chain Management 10.0.7 أو أحدث. إذا حاولت تثبيت الوظيفة الإضافية  في بيئة OneBox، لن يكتمل التثبيت وستحتاج إلى إلغاء التثبيت.
-
-- يجب إعداد النظام لتكامل Power Platform. لمزيد من المعلومات، راجع تكامل [Microsoft Power Platform مع التطبيقات Finance and Operations ](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
-
-### <a name="enable-the-planning-optimization-license"></a>تمكين ترخيص تحسين التخطيط
-
-لاستخدام تحسين التخطيط، يجب تمكين مفتاح التكوين الخاص بها. وللقيام بذلك:
-
-1. وضع النظام في وضع الصيانة كما هو موضح في [وضع الصيانة](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. انتقل إلى **إدارة النظام \> الإعداد \> تكوين الترخيص**.
-1. في علامة التبويب **مفاتيح التكوين**، حدد خانه الاختيار **لتحسين أداء التخطيط**.
-1. إيقاف تشغيل وضع الصيانة كما هو موضح في [وضع الصيانة](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
-### <a name="install-the-planning-optimization-add-in"></a>تثبيت الوظيفة الإضافية لتحسين التخطيط
-
-يجب تثبيت الوظيفة الإضافية من مشروع LCS وتشغيل وظيفة تحسين التخطيط من واجهه مستخدم Supply Chain Management (UI).
-
-لتثبيت الوظيفة الإضافية لتحسين التخطيط:
+> [!NOTE]
+> يُعد متطلب تحسين التخطيط بيئة ذات توفر عالي الطبقة 2 أو أعلى بتمكين LCS (ليست بيئة OneBox)، مع الإصدار Dynamics 365 Supply Chain Management 10.0.7 أو أحدث. إذا حاولت تثبيت الوظيفة الإضافية  في بيئة OneBox، لن يكتمل التثبيت وستحتاج إلى إلغاء التثبيت.
 
 1. قم بتسجيل الدخول إلى LCS، وافتح البيئة المطلوبة.
 1. انتقل إلى **التفاصيل الكاملة**.
@@ -85,13 +67,13 @@ ms.locfileid: "7902549"
 1. في علامة التبويب السريعة **الوظائف الإضافية للبيئة‬**، ينبغي رؤية "جارِ تثبيت تحسين التخطيط".
 1. بعد بضع دقائق ينبغي تغيير **جارٍ التثبيت** إلى **تم التثبيت** (قد تحتاج إلى تحديث الصفحة). عندما يتم التثبيت، ستكون جاهزًا لتنشيط تحسين التخطيط في Dynamics 365 Supply Chain Management.
 
-الغرض الأساسي من تثبيت الوظيفة الإضافية لتحسين أداء التخطيط هو الاتصال بالخدمة والبيئة. ولذلك ، يجب عليك تثبيت الوظيفة الإضافية بشكل منفصل علي كل بيئة حيث سيتم استخدام أمثليه التخطيط ، بغض النظر عن إيه تعليمات برمجيه تم نقلها بين البيئات.
+الغرض الأساسي من تثبيت الوظيفة الاضافيه لتحسين أداء التخطيط هو الاتصال بالخدمة والبيئة. ولذلك ، يجب عليك تثبيت الوظيفة الاضافيه بشكل منفصل علي كل بيئة حيث سيتم استخدام أمثليه التخطيط ، بغض النظر عن إيه تعليمات برمجيه تم نقلها بين البيئات.
 
-## <a name="integrate-planning-optimization-with-your-system"></a>تكامل أمثليه التخطيط مع النظام الخاص بك
+### <a name="planning-optimization-integration"></a>تكامل تحسين التخطيط‬
 
 لتكوين ما إذا كان يجب استخدام الوظيفة الإضافية لتحسين التخطيط للتخطيط الرئيسي، انتقل إلى **التخطيط الرئيسي** \> **الإعداد** \> **معلمات تحسين التخطيط**.
 
-### <a name="connection-status"></a>حالة الاتصال
+#### <a name="connection-status"></a>حالة الاتصال
 
 تشير حالة الاتصال إلى الحالة الحالية للاتصال بين Supply Chain Management وخدمه تحسين التخطيط. ويوضح الجدول التالي القيم المحتملة.
 
@@ -103,14 +85,12 @@ ms.locfileid: "7902549"
 | تعطيل الاتصال | يتم حاليا تنفيذ طلب لإيقاف تشغيل الاتصال بخدمة تحسين التخطيط. | لا |
 | حالة البدء | يقوم النظام بالانتظار للحصول على معلومات الحالة من خدمة تحسين التخطيط. | لا |
 
-### <a name="the-use-planning-optimization-option"></a>خيار استخدام تحسين التخطيط
+#### <a name="the-use-planning-optimization-option"></a>خيار استخدام تحسين التخطيط
 
 يحدد إعداد خيار **استخدام تحسين التخطيط** محرك التخطيط الذي يتم استخدامه للتخطيط الرئيسي:
 
 - **نعم** – يُستخدم تحسين التخطيط للتخطيط الرئيسي.
 - **لا** – يُستخدم محرك تخطيط Supply Chain Management المضمن للتخطيط الرئيسي.
-
-يتم تطبيق هذا الإعداد على كافة الكيانات القانونية (الشركات). لا يمكن استخدام تحسين التخطيط في بعض الكيانات القانونية والتخطيط الرئيسي المضمن في الكيانات القانونية الأخرى.
 
 > [!NOTE]
 > إذا تم تشغيل وظائف دفعة التخطيط الموجودة التي تم إنشاؤها لمحرك تخطيط Supply Chain Management المضمن أثناء تعيين خيار **استخدام تحسين التخطيط** إلى **نعم**، فسوف تفشل هذه الوظائف.
@@ -132,6 +112,3 @@ ms.locfileid: "7902549"
 [تطبيق عوامل تصفية على خطة](plan-filters.md)
 
 [إلغاء وظيفة تخطيط](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

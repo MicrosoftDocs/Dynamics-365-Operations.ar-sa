@@ -1,23 +1,26 @@
 ---
 title: طرق وأوضاع أداره النقل
-description: يوضح هذا الموضوع كيفيه إعداد أوضاع وأساليب أداره النقل.
+description: يوضح هذا الموضوع كيفيه اعداد أوضاع وأساليب أداره النقل.
 author: Henrikan
+manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a24e2300f3f3ee21b9c480c8768c4382b21867aa
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: ceb3930cdb7764f846e88edfff6906b902a7f5fa
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574775"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4421833"
 ---
 # <a name="transportation-management-modes-and-methods"></a>طرق وأوضاع أداره النقل
 
@@ -25,7 +28,7 @@ ms.locfileid: "7574775"
 
 وضع النقل يمثل نموذج النقل الذي يستخدمه الناقل لعمليات تسليم الشحن، مثل أقل من حمولة شاحنة (LTL) أو حمولة شاحنة (TL) أو طرد. وضع النقل يمثل أسلوب النقل الذي يستخدمه الناقل لعمليات تسليم الشحن، مثل الهواء أو الأرض والمحيط والسكة الحديد.
 
-يتم استخدام طرق النقل والأوضاع في العديد من السياقات. يتم استخدام الأوضاع فقط في خطط المسارات ، بينما يتم استخدام كل من الوضعين وأساليب النقل عند إعداد شركات الشحن وخدمات الناقل. لا توجد علاقة صريحه أو تدرج هرمي بين أساليب الأوضاع ووسائل النقل.
+يتم استخدام طرق النقل والأوضاع في العديد من السياقات. يتم استخدام الأوضاع فقط في خطط المسارات ، بينما يتم استخدام كل من الوضعين وأساليب النقل عند اعداد شركات الشحن وخدمات الناقل. لا توجد علاقة صريحه أو تدرج هرمي بين أساليب الأوضاع ووسائل النقل.
 
 ## <a name="create-a-mode"></a>إنشاء وضع
 
@@ -44,6 +47,3 @@ ms.locfileid: "7574775"
 1. حدد **جديد** لإنشاء أسلوب نقل جديد.
 1. أدخل هوية فريدة واسمًا وصفيًا لأسلوب النقل.
 1. قم بإغلاق الصفحة.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

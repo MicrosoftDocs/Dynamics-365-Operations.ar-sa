@@ -1,10 +1,12 @@
 ---
 title: التقارير الإلكترونية - تعيين مكونات التنسيق المنشأ إلى عناصر نموذج البيانات (نوفمبر 2016)
-description: يصف هذا الموضوع كيفيه تعيين عناصر نموذج البيانات إلى مكونات تكوين التقارير الكترونيه التي تم إنشاؤها (ER).
+description: يوضح الإجراء التالي كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تعيين عناصر نموذج بيانات إلى مكونات تكوين التقارير الإلكترونية المنشأ، والذي يحدد تنسيق المستندات الإلكترونية لمجال مدفوعات الأعمال‬.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ae4b3123660d123fc5c06cbe0a69d5c66d306252ec2a117a1e6045505022f5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775990"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684321"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>التقارير الإلكترونية - تعيين مكونات التنسيق المنشأ إلى عناصر نموذج البيانات (نوفمبر 2016)
 
@@ -111,6 +113,3 @@ ms.locfileid: "6775990"
 1. قم بتوسيع قسم أكواد ISO للبلد/المنطقة‬.
     * يمكن تقييد كل عملية وصول إلى التنسيق بتحديد بلدان/مناطق معينة يكون التنسيق قابلاً للتطبيق بها. عندما تكون قائمة البلدان/المناطق لتنسيق معين فارغة، يمكنك استخدام هذا التنسيق في أي شركة. عندما يتم إدراج بعض أكواد بلد/منطقة ISO في قائمة البلدان/المناطق، فلا يمكن استخدام التنسيق في الشركات إلا إذا كان العنوان الرئيسي موجودًا في البلد/المنطقة.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

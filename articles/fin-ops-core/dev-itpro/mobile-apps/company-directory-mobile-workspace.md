@@ -2,9 +2,11 @@
 title: مساحة العمل المحمولة "دليل الشركة"
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "دليل الشركة"، التي تسمح للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.
 author: jcart1106
+manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720638"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683421"
 ---
 # <a name="company-directory-mobile-workspace"></a>مساحة العمل المحمولة "دليل الشركة"
 
@@ -77,7 +79,7 @@ ms.locfileid: "6720638"
 3.  في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
 4.  بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
-[![سحب للتحديث.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>عرض دليل الشركة باستخدام مساحة العمل المحمولة
 1.  في تطبيق المحمول، حدد مساحة العمل **دليل الشركة**. يتم عرض قائمة بالموظفين.
@@ -87,6 +89,3 @@ ms.locfileid: "6720638"
 1.  في تطبيق المحمول، حدد مساحة العمل **دليل الشركة**.
 2.  في حقل **البحث**، أدخل اسم الموظف الأول، أو الاسم الأخير، أو المسمى الوظيفي، أو القسم لبدء البحث.
 3.  حدد موظفًا. تظهر صفحة **ملف تعريف الموظف**. تتضمن المعلومات الموجودة في هذه الصفحة اسم الموظف الأول، والاسم الأخير، والمسمى الوظيفي، والقسم.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

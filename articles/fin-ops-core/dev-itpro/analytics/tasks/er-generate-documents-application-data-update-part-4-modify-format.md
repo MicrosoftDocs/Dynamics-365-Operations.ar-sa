@@ -1,10 +1,12 @@
 ---
 title: تعديل التنسيقات لإنشاء مستندات تتضمن بيانات التطبيق
-description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لإنشاء مستند إلكتروني وتحديث بيانات التطبيق.
+description: لإكمال الخطوات المذكورة في هذا الإجراء، يجب عليك أولاً إكمال الإجراء، "التقارير الإلكترونية - إنشاء مستندات بواسطة تحديث بيانات التطبيق (الجزء 3 - تعديل النموذج والتعيين)‬".
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 312a49fc524cc7359d2c1815597214656df11c018034da384d30bfb9d9efee4b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752401"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684537"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>تعديل التنسيقات لإنشاء مستندات تتضمن بيانات التطبيق
 
@@ -147,6 +149,3 @@ ms.locfileid: "6752401"
 46. قم بإغلاق الصفحة.
 47. قم بإغلاق الصفحة.
 48. قم بإغلاق الصفحة.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

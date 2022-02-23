@@ -1,10 +1,12 @@
 ---
 title: التعاون مع المورّدين باستخدام مدخل المورِّد‬
 description: يشرح هذا الموضوع كيف يمكن لوكلاء الشراء استخدام مدخل المورّد للتعاون مع المورّدين الخارجيين أثناء عملية تأكيد أمر الشراء. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e691d0e2e4260e75b70e22d94486afdb779871f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4aece4fd621be803abe5011e40785f6a3301924f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568053"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019093"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>التعاون مع المورّدين باستخدام مدخل المورِّد‬
 
@@ -92,14 +94,12 @@ ms.locfileid: "7568053"
 |                           سترسل الإصدار الجديد من أمر الشراء إلى موقع المورّد.                            |                                                                                                                                                                    يتم تسجيل الإصدار الجديد في مدخل المورّد وتتغير الحالة إلى <strong>قيد المراجعة الخارجية‬</strong>.                                                                                                                                                                     |
 |                                يوافق المورّد على الإصدار الجديد من أمر الشراء.                                 |                                                                                                                                                     تتغير الحالة إلى <strong>مؤكد</strong>، إما تلقائياً أو عندما تتلقى الاستجابة من المورّد ثم تؤكد أمر الشراء.                                                                                                                                                     |
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [أمان مستخدم مدخل المورّد على الإنترنت‬](configure-security-vendor-portal-users.md)
 
-[مساحة عمل فوترة تعاون المورد](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
+[مساحة عمل فوترة تعاون المورد](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

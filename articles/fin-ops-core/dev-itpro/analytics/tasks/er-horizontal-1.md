@@ -1,10 +1,12 @@
 ---
 title: التقارير الإلكترونية - استخدام النطاقات القابلة للتوسيع أفقيًا لإضافة الأعمدة بشكل حيوي في تقارير Excel (الجزء 1 - تصميم التنسيق)
-description: يوضح هذا الموضوع كيفيه تكوين تنسيق إعداد التقارير الكترونيه (ER) لإنشاء تقارير كملفات أوبينكسمل (Excel). (جزء 1)
+description: تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق التقارير الإلكترونية لإنشاء التقارير كملفات أوراق عمل (Excel) تنسيق OPENXML حيث يمكن إنشاء الأعمدة المطلوبة بطريقة ديناميكية كنطاقات قابلة للتوسيع أفقيًا.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab360c259af37ce3995d3cd2560bc2e765e0bceb
-ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.openlocfilehash: e36a2238ab4c67a2384d6da2a1e2c767414c21a1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "7551766"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684489"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>التقارير الإلكترونية - استخدام النطاقات القابلة للتوسيع أفقيًا لإضافة الأعمدة بشكل حيوي في تقارير Excel (الجزء 1 - تصميم التنسيق)
 
@@ -26,7 +28,7 @@ ms.locfileid: "7551766"
 
 تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين تنسيق التقارير الإلكترونية لإنشاء التقارير كملفات أوراق عمل (Excel) تنسيق OPENXML حيث يمكن إنشاء الأعمدة المطلوبة بطريقة ديناميكية كنطاقات قابلة للتوسيع أفقيًا. يمكن تنفيذ هذه الخطوات في أي شركة.
 
-لإكمال هذه الخطوات، يجب عليك أولاً إكمال خطوط دلائل المهام الثلاث التالية:
+لإكمال هذه الخطوات، يجب عليك أولاً إكمال خطوط دلائل المهام الثلاث التالية: 
 
 "التقارير الإلكترونية- إنشاء موفر تكوين ووضع علامة عليه على أنه نشط"
 
@@ -34,28 +36,27 @@ ms.locfileid: "7551766"
 
 "التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 2 - تعيين النموذج)"
 
-يجب أيضًا تنزيل نسخة محلية من القالب وحفظها مع نموذج التقرير الموجود هنا، [عينة تقرير خدمة ويب للأبعاد المالية](https://download.microsoft.com/download/3/1/3/313e2090-bc0a-421f-bf96-c58da9bc0dea/SampleFinDimWsReport.xlsx).
+يجب أيضًا تنزيل نسخة محلية من القالب وحفظها مع نموذج التقرير الموجود هنا، [عينة تقرير خدمة ويب للأبعاد المالية](https://go.microsoft.com/fwlink/?linkid=862266).
 
 يتم استخدام هذا الإجراء لميزة تمت إضافتها في Dynamics 365 for Operations، الإصدار 1611.
 
-## <a name="create-a-new-report-configuration"></a>إنشاء تكوين تقرير جديد
 
+## <a name="create-a-new-report-configuration"></a>إنشاء تكوين تقرير جديد
 1. انتقل إلى إدارة المؤسسة >إعداد التقارير الإلكتروني >التكوينات.
-2. في الشجرة، حدد `Financial dimensions sample model`.
+2. في الشجرة، حدد "نموذج الأبعاد المالية".
 3. انقر فوق "إنشاء تكوين" لفتح مربع حوار الإسقاط‬.
-4. في الحقل "جديد"، أدخل `Format based on data model Financial dimensions sample model`.
+4. في الحقل "جديد"، أدخل "التنسيق المستند إلى نموذج البيانات نموذج الأبعاد المالية".
     * استخدم النموذج الذي تم إنشاؤه مسبقًا كمصدر بيانات للتقرير الجديد.  
-5. في حقل الاسم، اكتب`Sample report with horizontally expandable ranges`.
+5. في حقل "الاسم"، اكتب "نموذج تقرير مع نطاقات قابلة للتوسيع أفقيًا".
     * نموذج تقرير مع نطاقات قابلة للتوسيع أفقيًا  
-6. في حقل "الوصف"، اكتب `To make Excel output with dynamically adding columns`.
+6. في حقل "الوصف"، اكتب "لإنشاء مخرجات Excel من خلال إضافة الأعمدة بشكل حيوي‬".
     * لإنشاء مخرجات Excel من خلال إضافة الأعمدة بشكل حيوي  
 7. في الحقل "تعريف نموذج البيانات"، حدد "الإدخال".
 8. وانقر فوق إنشاء تكوين.
 
 ## <a name="design-the-report-format"></a>تصميم تنسيق التقرير
-
 1. انقر فوق المصمم.
-2. قم بتشغيل زر التبديل `Show details`.
+2. قم بتشغيل زر التبديل "إظهار التفاصيل".
 3. في جزء الإجراءات، انقر فوق "استيراد".
 4. انقر فوق استيراد من "Excel".
 5. انقر فوق "المرفقات".
@@ -68,84 +69,82 @@ ms.locfileid: "7551766"
 10. انقر فوق "موافق".
     * أضف مجموعة جديدة لإنشاء مخرجات Excel بطريقة ديناميكية باستخدام العدد الذي حددته من الأعمدة (في نموذج حوار المستخدم) للأبعاد المالية. ستمثل كل خلية لكل عمود اسم بُعد مالي واحد.  
 11. انقر فوق "إضافة" لفتح مربع حوار الإسقاط‬.
-12. في الشجرة، حدد `Excel\Range`.
-13. في الحقل "نطاق Excel"، اكتب `DimNames`.
+12. في الشجرة، حدد "Excel\نطاق".
+13. في الحقل "نطاق Excel"، اكتب "DimNames".
     * DimNames  
-14. في الحقل "اتجاه النسخ المتماثل"، حدد `Horizontal`.
+14. في الحقل "اتجاه النسخ المتماثل"، حدد "أفقي".
 15. انقر فوق موافق.
-16. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal`.
+16. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<DimNames>: أفقي".
 17. انقر فوق "تحريك لأعلى".
-18. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Cell<DimNames>`.
+18. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\خلية<DimNames>".
 19. انقر فوق "قص".
-20. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal`.
+20. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<DimNames>: أفقي".
 21. انقر فوق "لصق".
-22. في الشجرة، قم بتوسيع `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal`.
-23. في الشجرة، قم بتوسيع `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical`.
-24. في الشجرة، قم بتوسيع `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical`.
-25. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical`.
+22. في الشجرة، قم بتوسيع "Excel = "SampleFinDimWsReport"\نطاق<DimNames>: أفقي".
+23. في الشجرة، قم بتوسيع "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي".
+24. في الشجرة، قم بتوسيع "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي".
+25. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي".
     * أضف مجموعة جديدة لإنشاء مخرجات Excel بطريقة ديناميكية باستخدام العدد الذي حددته من الأعمدة (في نموذج حوار المستخدم) للأبعاد المالية. ستمثل كل خلية لكل عمود قيمة بُعد مالي واحدة لكل حركة تقرير.  
 26. انقر فوق "إضافة نطاق".
-27. في الحقل "نطاق Excel"، اكتب `DimValues`.
+27. في الحقل "نطاق Excel"، اكتب "DimValues".
     * DimValues  
-28. في الحقل "اتجاه النسخ المتماثل"، حدد `Horizontal`.
+28. في الحقل "اتجاه النسخ المتماثل"، حدد "أفقي".
 29. انقر فوق موافق.
-30. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<DimValues>`.
+30. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي\خلية<DimValues>".
 31. انقر فوق "قص".
-32. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal`.
+32. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق‏‎<JournalLine>: عمودي\نطاق‏‎<TransactionLine>: عمودي\نطاق<DimValues>: أفقي".
 33. انقر فوق "لصق".
-34. في الشجرة، قم بتوسيع `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal`.
+34. في الشجرة، قم بتوسيع "Excel = "SampleFinDimWsReport"\نطاق‏‎<JournalLine>: عمودي\نطاق‏‎<TransactionLine>: عمودي\نطاق<DimValues>: أفقي".
 
 ## <a name="map-format-elements-to-data-sources"></a>تعيين عناصر التنسيق إلى مصادر بيانات
-
 1. انقر فوق علامة التبويب "التعيين".
-2. في الشجرة، قم بتوسيع `model: Data model Financial dimensions sample model`.
-3. في الشجرة، قم بتوسيع `model: Data model Financial dimensions sample model\Journal: Record list`.
-4. في الشجرة، قم بتوسيع `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list`.
-5. في الشجرة، قم بتوسيع `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list`.
-6. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal\Cell<DimValues>`.
-7. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Code: String`.
+2. في الشجرة، قم بتوسيع "النموذج: نموذج البيانات نموذج الأبعاد المالية".
+3. في الشجرة، قم بتوسيع "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات".
+4. في الشجرة، قم بتوسيع "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات".
+5. في الشجرة، قم بتوسيع "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات\بيانات الأبعاد: قائمة السجلات".
+6. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي\Range<DimValues>: أفقي\خلية<DimValues>".
+7. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات\بيانات الأبعاد: قائمة السجلات\الكود: سلسلة".
 8. انقر فوق "ربط".
-9. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal`.
-10. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list`.
+9. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق‏‎<JournalLine>: عمودي\نطاق‏‎<TransactionLine>: عمودي\نطاق<DimValues>: أفقي".
+10. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات\بيانات الأبعاد: قائمة السجلات".
 11. انقر فوق "ربط".
-12. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Credit>`.
-13. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Credit: Real`.
+12. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي\خلية<Credit>".
+13. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات\الائتمان: حقيقي‬".
 14. انقر فوق "ربط".
-15. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Debit>`.
-16. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Debit: Real`.
+15. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي\خلية<Debit>".
+16. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات\الدين: حقيقي‬".
 17. انقر فوق "ربط".
-18. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Currency>`.
-19. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Currency: String`.
+18. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي\خلية<Currency>".
+19. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات\العملة: سلسلة".
 20. انقر فوق "ربط".
-21. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransDate>`.
-22. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Date: Date`.
+21. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي\خلية<TransDate>".
+22. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات\التاريخ: التاريخ".
 23. انقر فوق "ربط".
-24. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransVoucher>`.
-25. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Voucher: String`.
+24. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي\خلية<TransVoucher>".
+25. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات\الإيصال: سلسلة".
 26. انقر فوق "ربط".
-27. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransBatch>`.
-28. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Batch: String`.
+27. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي\خلية<TransBatch>".
+28. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الدُفعة: سلسلة".
 29. انقر فوق "ربط".
-30. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical`.
-31. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list`.
+30. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\نطاق<TransactionLine>: عمودي".
+31. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الحركة: قائمة السجلات".
 32. انقر فوق "ربط".
-33. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Cell<Batch>`.
-34. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list\Batch: String`.
+33. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي\خلية<Batch>".
+34. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات\الدُفعة: سلسلة".
 35. انقر فوق "ربط".
-36. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical`.
-37. في الشجرة، حدد `model: Data model Financial dimensions sample model\Journal: Record list`.
+36. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<JournalLine>: عمودي".
+37. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\دفتر اليومية: قائمة السجلات".
 38. انقر فوق "ربط".
-39. في الشجرة، قم بتوسيع `model: Data model Financial dimensions sample model\Dimensions setting: Record list`.
-40. في الشجرة، حدد `model: Data model Financial dimensions sample model\Dimensions setting: Record list\Code: String`.
-41. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal\Cell<DimNames>`.
+39. في الشجرة، قم بتوسيع "النموذج: نموذج الأبعاد المالية لنموذج البيانات\إعداد الأبعاد: قائمة السجلات".
+40. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\إعداد الأبعاد: قائمة السجلات\الكود: سلسلة".
+41. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<DimNames>: أفقي\خلية<DimNames>".
 42. انقر فوق "ربط".
-43. في الشجرة، حدد `model: Data model Financial dimensions sample model\Dimensions setting: Record list`.
-44. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal`.
+43. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\إعداد الأبعاد: قائمة السجلات".
+44. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\نطاق<DimNames>: أفقي".
 45. انقر فوق "ربط".
-46. في الشجرة، حدد `Excel = "SampleFinDimWsReport"\Cell<CompanyName>`.
-47. في الشجرة، حدد `model: Data model Financial dimensions sample model\Company: String`.
+46. في الشجرة، حدد "Excel = "SampleFinDimWsReport"\خلية<CompanyName>".
+47. في الشجرة، حدد "النموذج: نموذج الأبعاد المالية لنموذج البيانات\الشركة: سلسلة".
 48. انقر فوق "ربط".
-49. انقر فوق حفظ.
+49. انقر فوق "حفظ".
 50. قم بإغلاق الصفحة.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

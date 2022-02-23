@@ -1,10 +1,12 @@
 ---
 title: إعداد بيانات تعريف التطبيق لاستخدامها في RCS
-description: يوضح هذا الموضوع كيفيه إنشاء تكوين جديد لاعداد التقارير يحتوي علي بيانات تعريف التطبيق.
+description: توضح الخطوات الواردة في هذا الموضوع كيف يمكن للمستخدم إنشاء تكوين التقارير الإلكترونية الجديدة (ER) التي تحتوي علي بيانات تعريف التطبيق لتصميم تكوينات تعيين نموذج ER في Regulatory configuration servic (RCS).
 author: NickSelin
+manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750564"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684081"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>إعداد بيانات تعريف التطبيق لاستخدامها في RCS
 [!include [banner](../../includes/banner.md)]
@@ -78,6 +80,3 @@ ms.locfileid: "6750564"
 3.    انقر فوق **موافق**. 
     
 تم حفظ تكوين بيانات تعريف ER الذي تم إنشاؤه كملف XML يمكن استيراده إلى RCS واستخدامه كمصدر للمعلومات حول بيانات التعريف الخاصة بمجال الأعمال التجارية الخارجية. استنادا إلى هذه المعلومات، يمكننا تحديد التعيين بين بيانات تعريف التطبيق ونموذج بيانات ER.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

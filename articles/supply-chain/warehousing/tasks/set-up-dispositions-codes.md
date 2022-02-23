@@ -1,25 +1,28 @@
 ---
 title: إعداد أكواد الترتيب
 description: ويركز هذا الإجراء على إعداد رمز الإرجاع الذي يمكن استخدامه على جهاز محمول لعملية استلام أمر الإرجاع.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSDispositionTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb83108c934e864da0df39ec4ee36a0bc7ba7588
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6d84699e8e4323792ac67b69236d264e33eeaf28
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574055"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421755"
 ---
 # <a name="set-up-dispositions-codes"></a>إعداد أكواد الترتيب
 
@@ -38,6 +41,3 @@ ms.locfileid: "7574055"
 6. في الحقل "كود ترتيب الإرجاع"، اكتب قيمة.
     * يحدد رمز ترتيب الإرجاع ما تبقى من عملية أمر الإرجاع للأصناف المسجلة. في هذا المثال، يجب أن يستلم العميل إشعارًا دائنًا. قم بإضافة رمز ترتيب الإرجاع الذي يحتوي على إجراء اعتماد.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

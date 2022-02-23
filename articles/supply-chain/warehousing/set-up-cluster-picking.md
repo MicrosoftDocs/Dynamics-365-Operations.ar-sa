@@ -2,24 +2,27 @@
 title: إعداد انتقاء نظام المجموعة
 description: يصف هذا الموضوع كيفية إعداد انتقاء نظام مجموعة وكيفية تطبيق تأكيد الصنف بانتقاء نظام المجموعة.
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859dc7e98a3236d2220ac43f9de426bd73679f0756da0aaa14669e563d5bf609
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744572"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421786"
 ---
 # <a name="set-up-cluster-picking"></a>إعداد انتقاء نظام المجموعة
 
@@ -77,6 +80,3 @@ ms.locfileid: "6744572"
 1. في عنصر قائمة جهاز محمول، قم بفتح نموذج الإعداد من تأكيد العمل: **إدارة المستودعات‬** \> **إدارة المستودعات** \> **‬الإعداد** \> **جهاز محمول** \> **عناصر قائمة الجهاز المحمول**.
 
 1. من عنصر قائمة الجهاز المحمول، قم بفتح **إعداد تأكيد العمل**. يسمح لك الخيار **تأكيد المنتج** بالتحقق من كل جزء من المخزون من خلال الهاتف المحمول عند مسحه ضوئيًا.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
