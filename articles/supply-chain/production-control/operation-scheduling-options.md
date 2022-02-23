@@ -1,27 +1,30 @@
 ---
 title: خيارات جدولة العمليات
 description: يصف هذا الموضوع خيارات جدولة العمليات. يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 198123
 ms.assetid: d680d7be-da64-4132-89fe-ad2fa59afb77
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb0ee3020c5cfd17e82282e8fddb8f9c6dcdfee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c3865bfc3b66c018f836e21bbddf658de0351e57
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566733"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421212"
 ---
 # <a name="operations-scheduling-options"></a>خيارات جدولة العمليات
 
@@ -124,12 +127,10 @@ ms.locfileid: "7566733"
 -   تعيين كافتراضي للجميع
 
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [جدولة العمليات](operations-scheduling.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

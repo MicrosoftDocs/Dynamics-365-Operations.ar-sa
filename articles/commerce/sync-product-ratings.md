@@ -2,12 +2,15 @@
 title: مزامنة تقييمات المنتجات في Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية مزامنة تقييمات المنتجات في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967940"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409959"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>مزامنة تقييمات المنتجات في Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية مزامنة تقييمات المنتجات في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 لاستهلاك تقييمات المنتجات في النقاط متعددة الاتجاهات، كما هو الحال في نقطة البيع (POS) وفي مراكز الاتصال، فإنه يجب استيراد تقييمات المنتجات من خدمة التقييمات والمراجعات إلى قاعدة بيانات قناة Commerce. عندما تتوفر تقييمات المنتجات في نقاط متعددة الاتجاهات، فإنها يمكن أن تساعد العملاء بشكل غير مباشر أثناء التفاعلات مع شركاء المبيعات.
 
@@ -57,7 +62,7 @@ ms.locfileid: "7967940"
 
 يبين الرسم التوضيحي التالي مثالاً على تفاصيل الوظيفة الفرعية في Commerce.
 
-![تفاصيل الوظيفة الفرعية RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
+![تفاصيل الوظيفة الفرعية RetailProductRating](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > في حالة عدم العثور على الوظيفة الفرعية **RetailProductRating**، فقد تكون قد قمت بالفعل بتشغيل وظيفة **مزامنة تقييمات المنتجات** ووظيفة **1040 CDX** قبل تهيئة مجدول Commerce. في هذه الحالة، اتبع هذه الخطوات لتشغيل وظيفة **مزامنة البيانات بالكامل**.
@@ -81,7 +86,7 @@ ms.locfileid: "7967940"
 
 يبين الرسم التوضيحي التالي مثالاً على تكوين الوظيفة الدفعية في Commerce.
 
-![تكوين وظيفة دفعية لتقييمات المنتجات المتزامنة.](media/rnr-hq-batchjob-recurrence.png)
+![تكوين وظيفة دفعية لتقييمات المنتجات المتزامنة](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>التحقق من أن وظيفة الدفعية الخاصة بمزامنة تصنيف المنتجات ناجحة
 
@@ -93,7 +98,7 @@ ms.locfileid: "7967940"
 
 يبين الرسم التوضيحي التالي مثالاً لتفاصيل وظيفة الدفعية في Commerce عندما تتم جدولة وظيفة الدفعية لتشغيل الفترات مدتها ساعتين.
 
-![تفاصيل وظيفة الدفعية لتقييمات المنتجات المتزامنة.](media/rnr-hq-batchjob-status-checking.png)
+![تفاصيل وظيفة الدفعية لتقييمات المنتجات المتزامنة](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>جعل تقييمات المنتجات متوفرة عند نقطة البيع
 
@@ -111,15 +116,15 @@ ms.locfileid: "7967940"
 
 يبين الرسم التوضيحي التالي مثالاً لتكوين معلمات Commerce لعرض تقييمات المنتجات في نقطة البيع.
 
-![تكوين معلمات Commerce لتقييمات المنتجات في نقطة البيع.](media/rnr-hq-enable-ratings-in-pos.png)
+![تكوين معلمات Commerce لتقييمات المنتجات في نقطة البيع](media/rnr-hq-enable-ratings-in-pos.png)
 
 يبين الرسم التوضيحي التالي مثالاً لتقييمات المنتجات في نقطة البيع.
 
-![تقييمات المنتجات في نقطة البيع.](media/rnr-pos-catalog-ratings.png)
+![تقييمات المنتجات في نقطة البيع](media/rnr-pos-catalog-ratings.png)
 
 يبين الرسم التوضيحي التالي مثالاً لتقييمات المنتجات في قنوات مركز الاتصال.
 
-![تقييمات المنتجات في قناة مركز الاتصال.](media/rnr-call-center-ratings.png)
+![تقييمات المنتجات في قناة مركز الاتصال](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -130,16 +135,3 @@ ms.locfileid: "7967940"
 [إدارة التقييمات والمراجعات](manage-reviews.md)
 
 [تكوين التقييمات والمراجعات](configure-ratings-reviews.md)
-
-[مزامنة تقييمات المنتجات](sync-product-ratings.md)
-
-[تمكين النشر اليدوي لتقييمات ومراجعات بواسطة المشرف](manual-publish-rating-reviews.md)
-
-[استيراد التقييمات والمراجعات وتصديرها](import-export-reviews.md)
-
-[تكوين مصادقة من خدمة إلى خدمة](service-to-service-auth.md)
-
-[الأسئلة المتداولة حول التقييمات والمراجعات](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

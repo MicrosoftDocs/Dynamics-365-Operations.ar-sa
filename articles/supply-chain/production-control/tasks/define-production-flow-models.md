@@ -1,25 +1,28 @@
 ---
 title: تحديد نماذج تدفق الإنتاج
 description: تصف نماذج تدفق الإنتاج تصف كيفية حساب خلايا عمل lean manufacturing والاحتفاظ بها.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fb12be6f744cee8af3a845d6b278d1f1462ec5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579126"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421069"
 ---
 # <a name="define-production-flow-models"></a>تحديد نماذج تدفق الإنتاج
 
@@ -43,6 +46,3 @@ ms.locfileid: "7579126"
 8. في الحقل "التفاعل مع العجز في القدرة"، حدد خيارًا.
     * تتضمن الخيارات: تأجيل - تأجيل الطلب الكامل لحدث الجدولة في يوم الإنتاج التالي المتوفر، مع الإنتاجية المتوفرة. إلغاء - إنهاء التخطيط التلقائي لحدث الجدولة وترك الوظائف المرتبطة من دون تخطيط.   إضافة إلى اليوم المطلوب - تخطيط الوظائف المطلوبة للفترة المطلوبة. يؤدي هذا إلى تحميل الخلية بشكل زائد لهذا اليوم ويتطلب من المخطط إجراء مراجعة وتدخل يدوي.   التوزيع على الفترات المتاحة - توزيع الوظائف المختلفة لحدث الجدولة على جميع أيام الإنتاج المتاحة، بدءًا من اليوم الأول المتاح. التوزيع على الفترات المتاحة - توزيع الوظائف المختلفة لحدث الجدولة على جميع أيام الإنتاج المتاحة، بدءًا من اليوم الأول المتاح.‬ الحد الأدنى لكمية التوزيع هو كمية وظيفة كانبان. يعين التوزيع الحد الأدنى لكمية التخطيط (كمية كانبان) لكل يوم بإنتاجية كافية متوفرة.‬‬  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

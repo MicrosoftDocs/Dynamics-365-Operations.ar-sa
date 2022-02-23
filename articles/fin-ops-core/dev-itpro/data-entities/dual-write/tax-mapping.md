@@ -1,24 +1,35 @@
 ---
 title: الضريبة المتكاملة
 description: يوضح هذا الموضوع تكامل بيانات الضريبة بين Finance and Operations وDataverse.
-author: tonyafehr
+author: robinarh
+manager: AnnBe
 ms.date: 09/06/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.author: tfehr
+ms.search.industry: ''
+ms.author: rhaertle
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063177"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679286"
 ---
 # <a name="integrated-tax"></a>الضريبة المتكاملة
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -28,14 +39,30 @@ ms.locfileid: "8063177"
 
 تشمل بيانات الضريبة مجموعة من مخططات الجداول تعمل معًا أثناء تفاعل بيانات المورّد، كما هو موضح في الجدول التالي.
 
-| تطبيقات Finance and Operations | تطبيقات Customer Engagement | ‏‏الوصف‬ |
-|-----------------------------|-----------------------------------|-------------|
-[مجموعة ضريبة المبيعات للأصناف](mapping-reference.md#196) | msdyn_taxitemgroups | |
-[هيئات ضريبة المبيعات](mapping-reference.md#193) | msdyn_taxauthorities | |
-[كيان أكواد الإعفاء من ضريبة المبيعات CDS](mapping-reference.md#194) | msdyn_taxexemptcodes | |
-[مجموعات ضريبة المبيعات](mapping-reference.md#195) | msdyn_taxgroups | |
-[مجموعات ترحيل دفتر أستاذ ضريبة المبيعات V2](mapping-reference.md#197) | msdyn_taxpostinggroups | |
-[أكواد ضريبة الخصم](mapping-reference.md#210) | msdyn_withholdingtaxcodes | |
-[مجموعات ضرائب الخصم](mapping-reference.md#211) | msdyn_withholdingtaxgroups | |
+تطبيقات Finance and Operations | التطبيقات المستندة إلى نموذج في Dynamics 365 | ‏‏الوصف |
+-------------------------|---------------------------------|----|
+مجموعة ضريبة المبيعات للأصناف | msdyn_taxitemgroups |
+هيئات ضريبة المبيعات | msdyn_taxauthorities |
+كيان أكواد الإعفاء من ضريبة المبيعات CDS | msdyn_taxexemptcodes |
+مجموعات ضريبة المبيعات | msdyn_taxgroups |
+مجموعات ترحيل دفتر أستاذ ضريبة المبيعات V2 | msdyn_taxpostinggroups |
+أكواد ضريبة الخصم | msdyn_withholdingtaxcodes |
+مجموعات ضرائب الخصم | msdyn_withholdingtaxgroups | 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+[!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
+
+[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
+
+[!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
+
+[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
+
+[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
+
+[!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
+
+[!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
+

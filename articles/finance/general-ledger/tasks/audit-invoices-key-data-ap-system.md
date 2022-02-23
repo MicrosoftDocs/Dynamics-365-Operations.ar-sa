@@ -1,24 +1,27 @@
 ---
 title: تدقيق الفواتير والبيانات الأساسية في الحسابات الدائنة
 description: يشرح هذا الموضوع كيفية تدقيق الفواتير والبيانات الأساسية في الحسابات الدائنة.
-author: kweekley
+author: saraschi2
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kweekley
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f49f8c87f628d68f2c7f355b93cdf5e0a9403251
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 5bb89f0adce41b045b1f573c4c0e841f78b2248c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883709"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439831"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>تدقيق الفواتير والبيانات الأساسية في الحسابات الدائنة
 
@@ -59,6 +62,3 @@ ms.locfileid: "7883709"
 9. في جزء الإجراءات، انقر فوق **مراجعة**.
 10. انقر فوق **تفاصيل المطابقة**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

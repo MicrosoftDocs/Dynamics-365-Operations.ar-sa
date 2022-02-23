@@ -1,27 +1,30 @@
 ---
 title: كود nomenclature لأرقام وأسماء متغيرات المنتج
 description: يصف هذا الموضوع كيف يمكنك إعداد nomenclature رقم المنتج لاستبدال التنسيق الثابت [رقم أصل المنتج - التكوين - الحجم - اللون - النمط].
-author: t-benebo
+author: roxanadiaconu
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 220104
 ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 90c01e4281246d890ef888c56ca137f83e83741c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569687"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421138"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>كود nomenclature لأرقام وأسماء متغيرات المنتج
 
@@ -188,12 +191,10 @@ ms.locfileid: "7569687"
 
 خلال تنفيذ خطوة من عملية التكوين، يقترح النظام قيمة تكوين وفقًا لكود nomenclature. في هذه الخطوة، يمكنك تغيير قيمة التكوين يدويًا. عندما تحفظ التكوين، يتحقق النظام مما إذا كانت قيمة التكوين فريدة. إذا لم تكن القيمة التي أدخلتها فريدة، فستتلقى رسالة خطأ. لحفظ التكوين، يجب إدخال قيمة تكوين فريدة.
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [إنشاء nomenclature لرقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [إنشاء كود nomenclature لرقم المنتج لمتغيرات المنتج المكوّنة](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: تكوين بنيات حساب
 description: يوفر هذا الموضوع معلومات عن بنيات الحساب والأبعاد المالية.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
-ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
+ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "7945531"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440018"
 ---
 # <a name="configure-account-structures"></a>تكوين بنيات حساب
 
@@ -46,9 +49,9 @@ ms.locfileid: "7945531"
 
 **بنية حساب الربح والخسارة**
 
-|الحساب الرئيسي          | وحدة أعمال    |قسم          | مركز التكلفة    | &nbsp; |
-|----------------------|------------------|--------------------|-----------|---|
-|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
+|الحساب الرئيسي          | وحدة الأعمال    |القسم          | مركز التكلفة    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | *;” “|*;” “|*;” “|*;” “|
 
 **قاعدة متقدمة لإضافة عميل**
 
@@ -65,7 +68,7 @@ ms.locfileid: "7945531"
 
 يرشدك القسم **تفاصيل القيم المسموح بها** خلال عملية إنشاء المعايير باستخدام **العوامل** مثل البدء بـ ويكون بين ويتضمن والعديد من العوامل.
 
-[![السماح بالقيم.](./media/account.png)](./media/account.png) 
+[![السماح بالقيم](./media/account.png)](./media/account.png) 
 
 ستُفترض القيم المسموح بها في صفحة إدخال دفتر يومية أو توزيع محاسبي عندما لا توجد قيم أخرى ممكنة للاختيار وفقًا لإعداد هيكل الحساب.
 
@@ -104,6 +107,3 @@ ms.locfileid: "7945531"
 عندما تكون راضيًا بالإعداد الجديد أو بالتغيير إلى بنية الحساب، فإنه يجب تنشيطه. إذا تم تعيين بنية حساب إلى دفتر الأستاذ، يمكن أن يكون هذا التنشيط عملية طويلة المدة، لأن كل المعاملات غير المنشورة في النظام يجب مزامنتها للبنية الجديدة. لن تتأثر المعاملات المنشورة بتغييرات بنية الحساب.
 
 للحصول على المزيد من المعلومات، راجع [خطط دليل الحسابات الخاص بك‬‏‫](plan-chart-of-accounts.md)، و [الأبعاد المالية](financial-dimensions.md) و [‬‏‫إدخال مجموعات الحسابات والأبعاد (عنصر تحكم في الإدخال المقسم)](enter-account-dimension-combinations-segmented-entry-control.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,31 @@
 ---
 title: استعلامات وتقارير المواد الخطرة
 description: يوضح هذا الموضوع كيفية العمل مع التقارير المختلفة المرتبطة بالمواد الخطرة. تكون العديد من هذه التقارير مطلوبة بحيث تظل متوافقًا مع مختلف لوائح المواد الخطرة في أثناء الشحن والتخزين.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568533"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421404"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>استعلامات وتقارير المواد الخطرة
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 توفر Microsoft Dynamics 365 Supply Chain Management تقارير مختلفة مرتبطة بالمواد الخطرة. تكون العديد من هذه التقارير مطلوبة بحيث تظل متوافقًا مع مختلف لوائح المواد الخطرة في أثناء الشحن والتخزين.
 
@@ -29,7 +33,7 @@ ms.locfileid: "7568533"
 
 يبين الرسم التوضيحي التالي تسلسل الأنشطة الذي يحدث عندما يقوم النظام بإنشاء تقارير المواد الخطرة.
 
-![تسلسل الأنشطة الخاصة بتقارير المواد الخطرة.](media/hazmat-report-sequence.png "تسلسل الأنشطة الخاصة بتقارير المواد الخطرة")
+![تسلسل الأنشطة الخاصة بتقارير المواد الخطرة](media/hazmat-report-sequence.png "تسلسل الأنشطة الخاصة بتقارير المواد الخطرة")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a> إعداد تقارير المواد الخطرة
 
@@ -106,6 +110,3 @@ ms.locfileid: "7568533"
 ## <a name="packing-list-report"></a>تقرير قائمة التعبئة
 
 عند تشغيل ميزة المواد الخطرة في نظامك، فسوف تتضمن قوائم التعبئة معلومات إضافية ذات صلة بنص طباعة الشحن لأحد الأصناف. يتوفر هذا التقرير من صفحة **جميع الأحمال** كالمعتاد.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

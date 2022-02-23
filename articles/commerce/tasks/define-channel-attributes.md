@@ -2,9 +2,11 @@
 title: " تحديد سمات القناة"
 description: قم بتحسين القناة بإضافة القناة وسمات المنتج.
 author: jashanno
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f50e925689f11f67285c956aec1a7ece235cdb74
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726397"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964685"
 ---
 # <a name="define-channel-attributes"></a> تحديد سمات القناة
 
@@ -30,7 +32,7 @@ ms.locfileid: "6726397"
 
 ## <a name="define-channel-product-attribute"></a>حدد سمة منتج القناة.
 1. انتقل إلى البيع بالتجزئة والتجارة > إعداد القناة > فئات القنوات وسمات المنتج.
-2. في الشجرة، حدد 'Contoso Retail\Fashion\Houston'.
+2. في الشجرة، حدد "Contoso Retail\Fashion\Houston".
 3. انقر فوق "تحرير".
 4. في حقل "‏‫التدرج الهرمي للفئات‬"، أدخل قيمة أو حددها.
     * سيتم استخدام التدرج الهرمي للتنقل من أجل التنقل في المنتج داخل القنوات.  
@@ -69,6 +71,3 @@ ms.locfileid: "6726397"
 33. انقر فوق "موافق".
 34. انقر فوق "حفظ".
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: إظهار المطلب الصادر المخطط بين الشركات الشقيقة
-description: يوفر هذا الموضوع إجراءً يوضح كيفية عرض طلب مخطط صادر بين الشركات الشقيقة.
-author: ChristianRytt
+description: يوضح هذا الإجراء كيفية عرض كافة الأوامر المخططة التي ستتم تلبيتها بواسطة مورّد بين شركات شقيقة.
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cf2350d754c5da9d3d428e2b75950d027ccfd63
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 259ce229c18466b7d29fd231dc3f0be8a6906c6b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569735"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421143"
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>إظهار المطلب الصادر المخطط بين الشركات الشقيقة
 
@@ -26,18 +29,17 @@ ms.locfileid: "7569735"
 
 يوضح هذا الإجراء كيفية عرض كافة الأوامر المخططة التي ستتم تلبيتها بواسطة مورّد بين شركات شقيقة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي DEMF.
 
-1. حدد **التخطيط الرئيسي**.
-2. في حقل **الخطة**، أدخل قيمة أو حددها.
-    * في حقل **الخطة**، حدد الخطة *10*.  
-3. حدد *تشغيل*.
-4. في الحقل **عدد السلاسل**، أدخل رقمًا.
+1. انقر فوق "التخطيط الرئيسي‬".
+2. في حقل "الخطة"، أدخل قيمة أو حددها.
+    * في حقل "الخطة"، حدد "الخطة 10".  
+3. انقر فوق "تشغيل".
+4. في الحقل "عدد السلاسل"، أدخل رقمًا.
     * يمثل هذا عدد السلاسل المتوازية التي يجب استخدامها للتخطيط الرئيسي.  
-5. حدد **موافق**.
+5. انقر فوق "موافق".
     * قد يستغرق هذا الأمر بعض الوقت.  
-6. حدد **طلب مخطط بين الشركات الشقيقة**.
-7. حدد **طلب مخطط صادر بين الشركات الشقيقة**.
+6. انقر فوق "مطلب مخطط بين الشركات الشقيقة‬".
+7. انقر فوق "مطلب صادر مخطط بين الشركات الشقيقة‬".
     * توفر هذه الصفحة نظرة عامة حول المطلب المخطط بكامله الذي ستتم تلبيته بواسطة مورّد سلسلة التوريد الداخلية.  
-8. قم بتوسيع القسم **تفاصيل المطلب في المراحل التمهيدية**.
+8. قم بتوسيع مقطع "تفاصيل المطلب في المراحل التمهيدية‬"؟
     * في هذا المقطع، يمكنك مشاهدة تفاصيل حول كيفية تلبية المطلب. قد تضطر إلى الانتظار ريثما يتم تشغيل التخطيط الرئيسي في شركة التوريد قبل أن تتمكن من رؤية معلومات إضافية هنا.  
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

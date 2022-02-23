@@ -1,25 +1,29 @@
 ---
 title: نظرة عامة على إدارة الخدمة
 description: استخدم إدارة الخدمة لإنشاء اشتراكات الخدمة واتفاقيات الخدمة، والتعامل مع أوامر الخدمة واستفسارات العملاء، ولإدارة وتحليل تقديم الخدمات للعملاء.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9b8444c635fe08a224314d1b76de5ac8d9defbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 451aeebd46d60251eed940016486509c4aa3f458
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982988"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421058"
 ---
 # <a name="service-management-overview"></a>نظرة عامة على إدارة الخدمة
 
@@ -46,7 +50,7 @@ ms.locfileid: "7982988"
 
 يوضح الرسم التخطيطي التالي العمليات التجارية عالية المستوى في **إدارة الخدمة‬**، ويُظهر أماكن تكامل عمليات الخدمة مع وحدات أخرى.
 
-[![مخطط العمليات التجارية لإدارة الخدمات.](./media/sm_home_page.gif)](./media/sm_home_page.gif)
+[![مخطط العمليات التجارية لإدارة الخدمات](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 
 ## <a name="service-management-at-a-glance"></a>إدارة خدمة في لمحة
 
@@ -63,10 +67,7 @@ ms.locfileid: "7982988"
 إدارة خدمة يمكن أن تتكامل مع الوحدات النمطية التالية:
 
   - [نظرة عامة على المبيعات والتسويق](../sales-marketing/overview-sales-marketing.md)
-  - [الموارد البشرية](/dynamics365/unified-operations/talent/index)
+  - [الموارد البشرية](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
 
   
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

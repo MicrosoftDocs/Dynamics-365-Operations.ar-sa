@@ -2,9 +2,11 @@
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.13 (أكتوبر 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.13 من Dynamics 365 Supply Chain Management.
 author: kamaybac
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 238dc7191b5d6cb044b2825e511bdc869d82ca20c03cfbc6129c22a010da3496
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c5358cbc13c10983cfcbdde95fd573f652cc683
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766112"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963550"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.13 (أكتوبر 2020)
 
@@ -33,23 +35,23 @@ ms.locfileid: "6766112"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
+يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
-- [تغيير مصطلح "إلغاء اقفال المخزون" إلى "عكس اقفال المخزون"](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - لمزيد من المعلومات، راجع [إقفال المخزون](../cost-management/inventory-close.md).
+- [تغيير مصطلح "إلغاء اقفال المخزون" إلى "عكس اقفال المخزون"](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - لمزيد من المعلومات، راجع [إقفال المخزون](../cost-management/inventory-close.md).
 
-- [تأكيد الشحنات الخارجية من الوظائف الدفعية](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - لمزيد من المعلومات، راجع [تأكيد الشحنات الصادرة من الوظائف الدُفعية](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [تأكيد الشحنات الخارجية من الوظائف الدفعية](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - لمزيد من المعلومات، راجع [تأكيد الشحنات الصادرة من الوظائف الدُفعية](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [تفويض عناصر عمل شراء متعددة](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - لمزيد من المعلومات، راجع [تفويض عناصر عمل في سير عمل](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [تفويض عناصر عمل شراء متعددة](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - لمزيد من المعلومات، راجع [تفويض عناصر عمل في سير عمل](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [أدخل الأرقام التسلسلية أثناء إبلاغ عن الانتهاء من جهاز بطاقة الوظيفة](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - لمزيد من المعلومات، راجع [الإبلاغ عن الانتهاء من جهاز بطاقة الوظيفة](../production-control/report-finished-job-device.md).
+- [أدخل الأرقام التسلسلية أثناء إبلاغ عن الانتهاء من جهاز بطاقة الوظيفة](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - لمزيد من المعلومات، راجع [الإبلاغ عن الانتهاء من جهاز بطاقة الوظيفة](../production-control/report-finished-job-device.md).
 
-- [أبعاد مخزون جديدة لتعقب إصدارات المنتجات وقابلية التوسعة المحسنة](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - لمزيد من المعلومات، راجع [أبعاد المنتجات](../pim/product-dimensions.md).
+- [أبعاد مخزون جديدة لتعقب إصدارات المنتجات وقابلية التوسعة المحسنة](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - لمزيد من المعلومات، راجع [أبعاد المنتجات](../pim/product-dimensions.md).
 
-- [الحجز المرتبط بالأمر استنادًا إلى ألواح الترخيص](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - لمزيد من المعلومات، راجع [الحجز المرن للوحة الترخيص‬](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [الحجز المرتبط بالأمر استنادًا إلى ألواح الترخيص](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - لمزيد من المعلومات، راجع [الحجز المرن للوحة الترخيص‬](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [نظرة عامة على بند انتقاء العمل](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [نظرة عامة على بند انتقاء العمل](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [تحسينات سياسة العمل للعمل الوارد](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - لمزيد من المعلومات، راجع [سياسات المستودع](../warehousing/warehouse-work-policies.md).
+- [تحسينات سياسة العمل للعمل الوارد](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - لمزيد من المعلومات، راجع [سياسات المستودع](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -65,7 +67,7 @@ ms.locfileid: "6766112"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 
@@ -77,6 +79,3 @@ ms.locfileid: "6766112"
 قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

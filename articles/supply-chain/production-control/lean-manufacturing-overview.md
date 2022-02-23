@@ -1,29 +1,30 @@
 ---
 title: نظرة عامة على Lean manufacturing
 description: تقدم هذه المقالة نظرة عامة على ميزات lean manufacturing في Dynamics 365 Supply Chain Management بالإضافة إلى وصف لهذه الميزات.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "19371"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c8b5ec4d4a391773e32a61a321c28868678baa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 63a9856035088642254fd43d14cb324a89bc19d6
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421714"
 ---
 # <a name="lean-manufacturing-overview"></a>نظرة عامة على Lean manufacturing
 
@@ -50,7 +51,7 @@ ms.locfileid: "7985926"
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>استخدام وظائف كانبان لمتطلبات طلب الإشارة
 ينتج نظام سحب البضائع فقط عندما تكون هناك حاجة إليها. ويقلل هذا التدريب من أوقات التسليم والمخزون الفائض. ويمكنك استخدام وظائف كانبان لتخطيط وتعقب ومعالجة المتطلبات التي تعتمد على تدفقات الإنتاج. لإنشاء إطار عمل كانبان، أنشئ قواعد كانبان التي تحدد وقت إنشاء كانبان وكيفية استيفاء المتطلبات. يمكنك إنشاء نوعين من قواعد كانبان. قواعد التصنيع التي تُنشئ وظائف كانبان العملية، وقواعد كانبان للسحب التي تُنشئ وظائف كانبان للتحويل. يمكنك إعداد استراتيجيات التزويد التالية:
--   **الكمية الثابتة** قواعد كانبان المتعلقة بعدد محدد من وحدات المعالجة، مما يعني أن عدد وظائف كانبان النشطة ثابت. عندما يتم استهلاك جميع المنتجات من كانبان وإفراغ وحدات المعالجة يدويًا، يتم إنشاء وظيفة كانبان جديدة من نفس النوع. وعند إنشاء قواعد كانبان للكمية الثابتة، يمكنك حساب كميات كانبان المثلى وكميات المنتجات المستخدمة. وفي العملية الحسابية، يُؤخذ في الحسبان التنبؤ، والطلب الفعلي من الأوامر المفتوحة، ووقت الإنتاج لتزويد الأصناف، والطلبات التاريخية.
+-   **الكمية الثابتة** قواعد كانبان المتعلقة بعدد محدد من وحدات المعالجة، مما يعني أن عدد وظائف كانبان النشطة ثابت. عندما يتم استهلاك جميع المنتجات من كانبان وإفراغ وحدات المعالجة يدويًا، يتم إنشاء وظيفة كانبان جديدة من نفس النوع. وعند إنشاء قواعد كانبان للكمية الثابتة، يمكنك حساب كميات كانبان المثلى وكميات المنتجات المستخدمة. وفي العملية الحسابية، يُؤخذ في الحسبان التنبؤ، والطلب الفعلي من الأوامر المفتوحة، ووقت الإنتاج لتزويد الأصناف، والطلبات التاريخية.
 -   **المجدولة** تقوم قواعد كانبان بتزويد الطلبات التي يتم حسابها عن طريق التخطيط الرئيسي. ويقوم التخطيط الرئيسي بإنشاء وظائف كانبان المخططة التي يمكن تأكيدها لوظائف كانبان.
 -   **الحدث** تقوم قواعد كانبان بتزويد التطلبات التي تنشأ من بنود أمر المبيعات، أو بنود قائمة مكونات صنف الإنتاج، أو بنود كانبان، أو إعدادات الحد الأدنى للمخزون. عندما يتم إنشاء وظائف كانبان للحدث، يتم ربطها بالمتطلبات المصدر.
 
@@ -82,6 +83,3 @@ ms.locfileid: "7985926"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

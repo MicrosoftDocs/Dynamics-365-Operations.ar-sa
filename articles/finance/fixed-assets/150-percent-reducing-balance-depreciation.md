@@ -1,32 +1,35 @@
 ---
 title: إهلاك الرصيد المتناقص بنسبة 150 بالمائة
-description: يقدم هذا الموضوع نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 150 بالمائة‬.
-author: moaamer
+description: تقدم هذه المقالة نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 150 بالمائة‬.
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883302"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439924"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>إهلاك الرصيد المتناقص بنسبة 150 بالمائة
 
 [!include [banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 150 بالمائة‬.
+تقدم هذه المقالة نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 150 بالمائة‬.
 
 عند إعداد ملف تعريف إهلاك أصول ثابتة وتحديد **الرصيد المتناقص بنسبة 150%** في حقل **الطريقة** في صفحة **ملفات تعريف الإهلاك**، يتم إهلاك الأصول الثابتة التي تم تعيين ملف تعريف الإهلاك لها بنفس النسبة المئوية في كل فترة إهلاك. حيث يتم حساب هذه النسبة المئوية بناءً على مدة الخدمة للأصل. على سبيل المثال، إذا كانت مدة خدمة الأصل خمس سنوات، فإنه يتم حساب النسبة المئوية بنسبة 30% (150% ÷ 5). 
 
@@ -64,7 +67,7 @@ ms.locfileid: "7883302"
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>مثال على إهلاك القسط المتناقص بسبة 150 في المائة
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | تكلفة الاستحواذ               | 11,000 |
 | القيمة الباقية                  | 1,000  |
@@ -72,7 +75,7 @@ ms.locfileid: "7883302"
 | سنوات مدة الخدمة             | 5      |
 | النسبة المئوية للإهلاك السنوي | 30%    |
 
-تقوم طريقة الرصيد المتناقص بنسبة 150% بقسمة نسبة 150 في المائة على سنوات مدة الخدمة. وسيتم ضرب النسبة المئوية في صافي القيمة الدفترية للأصل لتحديد مبلغ الإهلاك في السنة.
+تقسم طريقة الرصيد المتناقص بنسبة 150 بالمائة على سنوات مدة الخدمة. وسيتم ضرب النسبة المئوية في صافي القيمة الدفترية للأصل لتحديد مبلغ الإهلاك في السنة.
 
 | الفترة | حساب مبلغ الإهلاك السنوي | القيمة الدفترية             | صافي القيمة الدفترية في نهاية السنة |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
@@ -85,6 +88,3 @@ ms.locfileid: "7883302"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

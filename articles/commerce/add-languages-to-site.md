@@ -2,30 +2,36 @@
 title: إضافة لغات إلى موقعك
 description: يشرح هذا الموضوع كيفية إضافة دعم للغات إضافية إلى موقع Microsoft Dynamics 365 Commerce .
 author: bicyclingfool
+manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964544"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409831"
 ---
 # <a name="add-languages-to-your-site"></a>إضافة لغات إلى موقعك
+
 
 [!include [banner](includes/banner.md)]
 
 يشرح هذا الموضوع كيفية إضافة دعم للغات إضافية إلى موقع Microsoft Dynamics 365 Commerce .
+
+## <a name="overview"></a>نظرة عامة
 
 يمكنك ترجمة موقعك إلى أي لغة يدعمها Commerce. (تظهر قائمة اللغات المدعومة لاحقًا في هذا الموضوع.) لإضافة لغة على موقع الويب الخاص بك، يجب عليك أولاً إضافتها إلى متجر على الإنترنت مرتبط بموقعك.
 
@@ -165,9 +171,8 @@ ms.locfileid: "7964544"
 
 [إضافة أيقونة المفضلة](add-favicon.md)
 
+[إضافة رسالة ترحيب](add-welcome-message.md)
+
 [إضافة إشعار لحقوق النشر](add-copyright-notice.md)
 
 [إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: تسوية شيك بتاريخ لاحق من عميل
 description: يمكنك تسوية شيك بتاريخ لاحق بعد أن تتم تسوية الشيك من قبل البنك.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab591fc3ac529e65c15ee083377954a83363edd528861aff9bc449bfc10c7735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0bc6f90e7adb3facdfa1facb50fecb0de4ccb04d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771718"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440012"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>تسوية شيك بتاريخ لاحق من عميل
 
@@ -53,6 +56,3 @@ ms.locfileid: "6771718"
 10. انقر فوق "الإيصال".
 11. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

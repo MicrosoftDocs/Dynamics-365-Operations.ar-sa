@@ -2,9 +2,11 @@
 title: ما الجديد أو المتغير في الإصدار 1611 من Dynamics 365 for Operations (نوفمبر 2016)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 1611 من Dynamics 365 for Operations.
 author: sericks007
+manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752798"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797185"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>ما الجديد أو المتغير في الإصدار 1611 من Dynamics 365 for Operations (نوفمبر 2016)
 
@@ -496,7 +498,7 @@ ms.locfileid: "7752798"
 <li>تنسيق دفع الخصم المباشر ISO20022 (إيطاليا)</li>
 <li>تنسيق حوالة مجموعة RIBA (إيطاليا)</li>
 <li>تقرير حركات الضريبة المحلية (إيطاليا)</li>
-<li>تقرير قائمة الحظر لإيطاليا</li>
+<li>تقرير القائمة السوداء (إيطاليا)</li>
 <li>تقرير Modello770 (إيطاليا)</li>
 <li>تقرير الإعلام الضريبي السنوي (إيطاليا)</li>
 </ul>
@@ -943,6 +945,3 @@ ms.locfileid: "7752798"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الصفحة الرئيسية للجديد أو المتغير‬ في Finance and Operations](whats-new-changed.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: تحديد مجموعات التكوين
 description: يوضح هذا الإجراء كيفية تحديد مجموعات تكوين المنتج عن طريق إنشاء مجموعتين في شركة بيانات العرض التقديمي USMF.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConfigGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb95be93bccad431948beea67bb2860f7c68617
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 77b156a4710fd574b939a1e930fbb8ac38acde15
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569543"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421356"
 ---
 # <a name="define-configuration-groups"></a>تحديد مجموعات التكوين
 
@@ -37,6 +40,3 @@ ms.locfileid: "7569543"
 7. في حقل "الاسم"، اكتب قيمة.
 8. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

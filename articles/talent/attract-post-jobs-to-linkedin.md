@@ -80,6 +80,3 @@ ms.locfileid: "4460178"
 [بحث عن المرشحين باستخدام LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [استكشاف أخطاء التكامل مع LinkedIn وإصلاحها](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

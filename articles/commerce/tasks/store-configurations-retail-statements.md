@@ -2,24 +2,27 @@
 title: " تكوينات المتجر لحساب بيانات Retail"
 description: يتناول هذا الإجراء تكوينات المتجر التي تؤثر على كيفية إنشاء كشوفات حساب Commerce وترحيلها.
 author: jashanno
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bebe5d6732e6f8156e0271000a0b6caa24ba432491adc0370850109f19b7e4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770923"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4410045"
 ---
 # <a name="store-configurations-for-retail-statements"></a> تكوينات المتجر لحساب بيانات Retail
 
@@ -46,6 +49,3 @@ ms.locfileid: "6770923"
 17. حدد "نعم" في **التقسيم حسب طريقة كشف الحساب‬** للحصول على كشوفات الحساب التي تم إنشاؤها لكل طريقة كشف حساب محددة. قد يكون هذا الإجراء مفيدًا إذا كان أداء الترحيل بحاجة إلى التحسين للمتاجر التي لها كميات كبيرة من الحركات نظرًا لأنها ستنشئ العديد من كشوفات الحساب الأصغر التي يمكن معالجتها بالتوازي.  
 18. على علامة التبويب السريعة **عام** في حقل **العميل الافتراضية**، يمكنك تحديد حساب العميل المراد استخدامه للمبيعات للعملاء المباشرين.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

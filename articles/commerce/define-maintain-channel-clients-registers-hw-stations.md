@@ -1,27 +1,30 @@
 ---
 title: توصيل الأجهزة الطرفية بنقطة البيع (POS)
 description: يتناول هذا الموضوع كيفية توصيل الأجهزة الطرفية بنقطة البيع بالتجزئة.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 66912443c25adfae6fa11e6a25c4a97f63a438ba
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779508"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409811"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>توصيل الأجهزة الطرفية بنقطة البيع (POS)
 
@@ -78,7 +81,7 @@ ms.locfileid: "7779508"
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>نقطة بيع حديثة (MPOS) مع أجهزة طرفية متصلة
 
-[![نقطة بيع تقليدية ثابتة.](./media/traditional-300x279.png)](./media/traditional.png)
+[![نقطة بيع تقليدية ثابتة](./media/traditional-300x279.png)](./media/traditional.png)
 
 لتوصيل نقطة بيع حديثة بالأجهزة الطرفية لنقاط البيع في سيناريو نقطة بيع تقليدية وثابتة، انتقل أولاً إلى السجل بحد ذاته وعيّن ملف تعريف أجهزة له. يمكنك العثور على سجلات نقاط البيع في **البيع بالتجزئة والتجارة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **السجلات**. 
 
@@ -97,7 +100,7 @@ ms.locfileid: "7779508"
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>نقطة بيع حديثة (MPOS) أو نقطة بيع المجموعة (Cloud POS) مع محطة أجهزة مستقلة
 
-[![الأجهزة الطرفية المشتركة.](./media/shared-300x254.png)](./media/shared.png)
+[![الأجهزة الطرفية المشتركة](./media/shared-300x254.png)](./media/shared.png)
 
 في هذا السيناريو، تتم مشاركة محطة أجهزة بين عملاء نقطة بيع حديثة (MPOS) ونقطة بيع المجموعة (Cloud POS). يتطلب هذا السيناريو إنشاء ملف تعريف محطة أجهزة لتحديد حزمة التنزيل والمنفذ وملف تعريف الأجهزة التي تستخدمها محطة الأجهزة. يمكنك العثور على ملف تعريف محطة الأجهزة في **البيع بالتجزئة والتجارة** &gt; **إعداد القناة** &gt; **إعداد نقطة البيع** &gt; **ملفات تعريف نقاط البيع** &gt; **ملفات تعريف ‏‫محطات الأجهزة**. 
 
@@ -202,6 +205,3 @@ ms.locfileid: "7779508"
 ### <a name="client-data-synchronization"></a>مزامنة بيانات العميل
 
 يجب أن تتم مزامنة كافة التغييرات في عميل نقطة البيع، فيما عدا التغييرات في حالة تنشيط الجهاز، إلى قاعدة بيانات القناة حتى تصبح نافذة المفعول. لمزامنة التغييرات إلى قاعدة بيانات القناة، انتقل إلى **البيع بالتجزئة والتجارة** &gt; **تكنولوجيا معلومات البيع بالتجزئة والتجارة** &gt; **جدول التوزيع**، وشغّل جدول التوزيع المطلوب. فيما يتعلق بتغييرات العميل، يجب تشغيل جداول توزيع **السجلات** و **تكوين القناة**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

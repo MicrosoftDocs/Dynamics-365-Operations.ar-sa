@@ -1,10 +1,12 @@
 ---
 title: مساحة العمل المحمولة "فريقي"
-description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "فريقي"، التي تسمح للمدراء بعرض المرؤوسين المباشرين وفريق العمل الموسع.
+description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "فريقي"، التي تسمح للمدراء بعرض المرؤوسين المباشرين وفريق العمل الموسع. باستطاعة المستخدمين أيضًا إرسال ثناء إلى الأفراد في سلسلة التدرج الهرمي.
 author: ShielaSogge
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,14 +14,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767102"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680960"
 ---
-# <a name="my-team-mobile-workspace"></a>مساحة عمل جوال فريقي
+# <a name="my-team-mobile-workspace"></a>مساحة العمل المحمولة "فريقي"
 
 [!include [banner](../includes/banner.md)]
 
@@ -78,7 +80,7 @@ ms.locfileid: "6767102"
 3.  في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
 4.  بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
-[![سحب للتحديث.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>عرض أعضاء الفريق باستخدام مساحة العمل المحمولة "فريقي"
 1.  في تطبيق المحمول، حدد مساحة عمل **فريقي**. تظهر قائمة بأعضاء الفريق. تعرض القائمة أيضًا المسمة الوظيفي لكل عضو من أعضاء الفريق، وأي مرؤوسين مباشرين لديه.
@@ -95,6 +97,3 @@ ms.locfileid: "6767102"
 1.  حدد **إرسال ثناء**. 
 1. أدخل نص الثناء الذي تريد إرساله. 
 1. حدد **تم**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

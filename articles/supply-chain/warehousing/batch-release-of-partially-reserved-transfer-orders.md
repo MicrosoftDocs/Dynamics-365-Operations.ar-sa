@@ -1,25 +1,28 @@
 ---
 title: إصدار دُفعة أوامر التحويل المحجوزة جزئيًا
 description: يصف هذا الموضوع كيفية إعداد وتطبيق إصدار الدُفعة لأوامر التحويل المحجوزة جزئيًا‬ من جهاز محمول.
-author: perlynne
+author: pjacobse
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSFulfillmentPolicy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
-ms.author: perlynne
+ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fbe12b66da68bcd130fdb188eb0106b686200c3b59edc2af96b79f65022567a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759361"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421731"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>إصدار دُفعة أوامر التحويل المحجوزة جزئيًا
 
@@ -61,6 +64,3 @@ ms.locfileid: "6759361"
 -   لتعيين محددات **الكمية** و **السماح بإصدار الأوامر الصادرة جزئيًا‬** لأوامر التحويل، انقر فوق **إدارة المستودعات** \> **إصدار إلى المستودع‬** \> **إصدار أوامر التحويل تلقائيًا‬**.
 
 -   لتعيين محددات **الكمية** و **السماح بإصدار الأوامر الصادرة جزئيًا‬** لأوامر المبيعات، انقر فوق **إدارة المستودعات** \> **إصدار إلى المستودع‬** \> **إصدار أوامر المبيعات تلقائيًا‬**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

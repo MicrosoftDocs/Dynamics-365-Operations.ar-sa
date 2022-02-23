@@ -1,25 +1,28 @@
 ---
 title: إنشاء موازنة أصلية ثم إلغاء إدخالات الموازنة الأولية في القطاع العام
-description: يوفر هذا الموضوع معلومات حول كيفية إنشاء إدخال موازنة أصلي وعكسه باستخدام نموذج الموازنة وقيم الأبعاد التي لها مبالغ موازنة مبدئية.
+description: عند إنشاء إدخال موازنة أصلية واستخدام قيم البعد ونموذج الموازنة التي تتضمن مبالغ الموازنة الأولية، يمكن إلغاء مبالغ الموازنة الأولية.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0120e4aa895d70da418c643a81bd0046a96c031de0ca660e31bb3e0d8f8c2df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d89216d49a743729de8910f738276cbddcd8bb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744240"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440040"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>إنشاء موازنة أصلية ثم إلغاء إدخالات الموازنة الأولية في القطاع العام
 
@@ -48,6 +51,3 @@ ms.locfileid: "6744240"
     * لإجراء تحديدات الاختيارية، انقر فوق رمز "إلغاء التأمين" أعلى الصفحة.  
 18. انقر فوق تحديث.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

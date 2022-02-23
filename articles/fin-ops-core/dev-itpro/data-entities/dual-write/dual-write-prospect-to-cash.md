@@ -2,29 +2,40 @@
 title: العميل المتوقع إلى النقدية في الكتابة المزدوجة
 description: يوفر هذا الموضوع معلومات حول العميل المتوقع إلى النقدية في الكتابة المزدوجة.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781781"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959591"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>العميل المتوقع إلى النقدية في الكتابة المزدوجة
 
 [!include [banner](../../includes/banner.md)]
 
+
+
 ثمة هدف مهم لمعظم الشركات وهو تحويل العملاء المتوقعين إلى عملاء، ثم المحافظة على علاقة عمل مستمرة مع هؤلاء العملاء. في تطبيقات Microsoft Dynamics 365، تحدث عملية العميل المتوقع إلى النقدية من خلال عروض الأسعار أو عمليات سير عمل معالجة الأوامر، وتتم تسوية العمليات المالية والتعرف عليها. يؤدي تكامل عملية العميل المتوقع إلى النقدية مع الكتابة المزدوجة إلى إنشاء سير عمل يأخذ عرض أسعار وأمر ناشئين في Dynamics 365 Sales أو Dynamics 365 Supply Chain Management، ويجعل عرض الأسعار والأمر متاحين في التطبيقين.
 
 في واجهات التطبيقين، يمكنك الوصول إلى حالات المعالجة ومعلومات الفاتورة في الوقت الحقيقي. وبالتالي، يمكنك إدارة وظائف مثل إنشاء مخزون منتجات والتعامل مع المخزون والتنفيذ في Supply Chain Management، من دون الحاجة إلى إعادة إنشاء عروض الأسعار والأوامر.
 
-![تدفق بيانات الكتابة المزدوجة في عملية العميل المتوقع إلى النقدية.](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![تدفق بيانات الكتابة المزدوجة في عملية العميل المتوقع إلى النقدية](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 للحصول علي معلومات حول تكامل العميل والاتصال، راجع [السجل الرئيسي المتكامل للعميل](customer-mapping.md). لمزيد من المعلومات حول تكامل المنتج، راجع [تجربه المنتج الموحدة](product-mapping.md).
 
@@ -39,7 +50,7 @@ ms.locfileid: "7781781"
 
 في Sales، انتقل إلى **الإعدادات‏‎ \> الإدارة‏‎ \> إعدادات النظام \> المبيعات**، وتأكد من استخدام الإعدادات التالية:
 
-- يتم تعيين خيار النظام **‬‏‫حساب تسعير النظام** إلى **نعم**.
+- تم تعيين الخيار **‬‏‫استخدام حساب أسعار النظام** إلى **نعم**.
 - يكون العمود **طريقة حساب الخصم** معينًا إلى **صنف البند**.
 
 ### <a name="sites-and-warehouses"></a>المواقع والمستودعات
@@ -61,7 +72,6 @@ ms.locfileid: "7781781"
 + لا تعتبر أعمدة **شروط الشحن** و **شروط التسليم** و **طريقة الشحن** و **وضع التسليم** جزءًا من التعيينات الافتراضية. لتعيين هذه الأعمدة، يجب إعداد تعيين قيمة خاصة بالبيانات الموجودة في المؤسسات التي تتم مزامنة الجدول بينها.
 
 إذا كنت تستخدم أيضًا حل Field Service، فتأكد من إعادة تمكين المعلمة **إنشاء سريع لبند عرض الأسعار**. تتيح لك إعادة تمكين المعلمة الاستمرار في إنشاء بنود عرض الأسعار باستخدام وظيفة الإنشاء السريع.
-
 1. انتقل إلى تطبيق Dynamics 365 Sales الخاص بك.
 2. حدد رمز الإعدادات في شريط التنقل العلوي.
 3. حدد **الإعدادات المتقدمة**.
@@ -113,25 +123,40 @@ ms.locfileid: "7781781"
 
 | تطبيقات Finance and Operations | تطبيقات Customer Engagement | الوصف |
 |-----------------------------|-----------------------------------|-------------|
-[كل المنتجات](mapping-reference.md#138) | msdyn_globalproducts | |
-[العملاء V3](mapping-reference.md#101) | الحسابات | |
-[العملاء V3](mapping-reference.md#116) | جهات الاتصال | |
-[جهات اتصال V2](mapping-reference.md#221) | msdyn_contactforparties | |
-[رؤوس أوامر مبيعات CDS](mapping-reference.md#217) | salesorders | |
-[بنود أمر مبيعات CDS](mapping-reference.md#216) | salesorderdetails | |
-[رأس عرض أسعار مبيعات CDS](mapping-reference.md#215) | الأسعار | |
-[بنود عروض أسعار مبيعات CDS](mapping-reference.md#214) | quotedetails | |
-[المنتجات الصادرة V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[رؤوس فواتير المبيعات V2](mapping-reference.md#118) | الفواتير | يحتوي الجدول الذي يتضمن رؤوس فاتورة المبيعات في التطبيق Finance and Operations علي فواتير لأوامر التوريد وفواتير النص الحر. يتم تطبيق عامل التصفية في Dataverse للكتابة الثنائية التي ستقوم بتصفية إيه مستندات فاتورة ذات نص حر. |
-[بنود فواتير المبيعات V2](mapping-reference.md#117) | invoicedetails | |
-[أكواد أصول أوامر المبيعات](mapping-reference.md#186) | msdyn_salesorderorigins | |
+| رؤوس فواتير المبيعات V2    | الفواتير                          | يحتوي الجدول الذي يتضمن رؤوس فاتورة المبيعات في التطبيق Finance and Operations علي فواتير لأوامر التوريد وفواتير النص الحر. يتم تطبيق عامل التصفية في Dataverse للكتابة الثنائية التي ستقوم بتصفية إيه مستندات فاتورة ذات نص حر. |
+| بنود فواتير المبيعات V2      | invoicedetails                    |             |
+| رؤوس أوامر مبيعات CDS     | salesorders                       |             |
+| بنود أمر مبيعات CDS       | salesorderdetails                 |             |
+| أكواد أصول أوامر المبيعات    | msdyn\_salesorderorigins          |             |
+| رأس عرض أسعار مبيعات CDS  | الأسعار                            |             |
+| بنود عروض أسعار مبيعات CDS   | quotedetails                      |             |
 
-لمزيد من المعلومات حول قوائم الأسعار، راجع [تجربه المنتج الموحدة](product-mapping.md).
+فيما يلي خرائط الجداول الرئيسية ذات الصلة لعملية العميل المتوقع إلى النقدية:
+
++ [العملاء V3 إلى الحسابات](customer-mapping.md#customers-v3-to-accounts)
++ [جهات اتصال CDS الإصدار V2 إلى جهات الاتصال](customer-mapping.md#cds-contacts-v2-to-contacts)
++ [العملاء V3 إلى جهات الاتصال](customer-mapping.md#customers-v3-to-contacts)
++ [المنتجات الصادرة V2 إلى msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
++ [جميع المنتجات إلى msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
++ [قائمة الأسعار](product-mapping.md)
 
 ## <a name="limitations"></a>قيود
-
 - أوامر الإرجاع غير معتمده.
 - الإشعارات الدائنة غير مدعومة.
-- يجب تعيين الابعاد المالية للبيانات الرئيسية، علي سبيل المثال، العميل والمورد. عند أضافه عميل إلى عرض أسعار أو أمر توريد، فان الابعاد المالية المرتبطة بسجل العميل يتم تدفقها إلى الأمر تلقائيا. لا يتضمن الكتابة الثنائية حاليا بيانات الابعاد المالية للبيانات الرئيسية.
+- يجب تعيين الابعاد المالية للبيانات الرئيسية، علي سبيل المثال، العميل والمورد. عند أضافه عميل إلى عرض أسعار أو أمر توريد، فان الابعاد المالية المرتبطة بسجل العميل يتم تدفقها إلى الأمر تلقائيا. لا يتضمن الكتابة الثنائية حاليا بيانات الابعاد المالية للبيانات الرئيسية. 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
+
+[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
+
+[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
+
+[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
+
+[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
+
+[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
+
+[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]

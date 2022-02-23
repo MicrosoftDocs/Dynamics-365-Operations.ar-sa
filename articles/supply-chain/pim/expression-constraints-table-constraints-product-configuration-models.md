@@ -1,27 +1,30 @@
 ---
 title: قيود التعبير وقيود الجدول في نماذج تكوين المنتج
 description: يصف هذا الموضوع استخدام قيود التعبير وقيود الجدول. تتحكم القيود في قيم السمات التي يمكن تحديدها عند تكوين المنتجات لأمر المبيعات أو عرض أسعار المبيعات أو أمر الشراء أو أمر الإنتاج. يمكنك استخدام قيود التعبير أو قيود الجدول، اعتمادًا على الطريقة التي تفضل بها إنشاء القيود.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8775a9225313c0f5a132dbccbe583470fe23beab
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570719"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421566"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>قيود التعبير وقيود الجدول في نماذج تكوين المنتج
 
@@ -116,81 +119,81 @@ ms.locfileid: "7570719"
 <tr class="even">
 <td>و</td>
 <td>يكون هذا الأمر صحيحًا فقط إذا تحققت جميع الشروط. إذا كان عدد الشروط هو 0 (صفر)، ينتج قيمة <strong>صحيحة</strong>.</td>
-<td>And‏[args]، الحرف المزيد: a &amp; b &amp; ... &amp; z</td>
+<td>And[args], الحرف المزيد: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>عامل التشغيل:</strong> And‏[x‏ == 2، y &lt;=‏ 2]</li>
+<li><strong>عامل التشغيل:</strong> And[x == 2, y &lt;= 2]</li>
 <li><strong>تدوين الحرف المزيد:</strong> x‏ == 2 &amp; y &lt;=‏ 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>أو</td>
 <td>يكون هذا الأمر صحيحًا إذا كان أي شرط صحيح. إذا كان عدد الشروط هو 0 (صفر)، تنتج قيمة <strong>خاطئة</strong>.</td>
-<td>Or‏[args]، الحرف المزيد: a‏ | b |‏ ... | z</td>
+<td>Or[args], الحرف المزيد: a | b | ... | z</td>
 <td><ul>
-<li><strong>عامل التشغيل:</strong> Or‏[x‏ == 2، y &lt;=‏ 2]</li>
+<li><strong>عامل التشغيل:</strong> Or[x == 2, y &lt;= 2]</li>
 <li><strong>تدوين الحرف المزيد:</strong> x =‏=‏ 2 | y &lt;=‏ 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>زائد</td>
 <td>وهذا يلخص الشروط. إذا كان عدد الشروط هو 0 (صفر)، تنتج قيمة <strong>0</strong>.</td>
-<td>Plus‏[args]، الحرف المزيد: a‏ + b‏ + ... + z</td>
+<td>Plus[args], الحرف المزيد: a + b + ... + z</td>
 <td><ul>
-<li><strong>عامل التشغيل:</strong> زائد[x،‏ y،‏ 2] =‏=‏ z</li>
+<li><strong>عامل التشغيل:</strong> زائد[x, y, 2] == z</li>
 <li><strong>تدوين الحرف المزيد:</strong> x + y + 2 =‏=‏ z</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>ناقص</td>
 <td>هذا يناقض الوسيطة. يجب أن يكون به شرط واحد فقط.</td>
-<td>Minus‏[expr]، الحرف المزيد: -expr</td>
+<td>Minus[expr], الحرف المزيد: -expr</td>
 <td><ul>
-<li><strong>عامل التشغيل:</strong> ناقص[x] =‏=‏ y</li>
+<li><strong>عامل التشغيل:</strong> ناقص[x] == y</li>
 <li><strong>تدوين الحرف المزيد:</strong> -x =‏=‏ y</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>القيمة المطلقة</td>
+<td>Abs</td>
 <td>وهذا يأخذ القيمة المطلقة من شرطها. يجب أن يكون به شرط واحد فقط.</td>
-<td>Abs‏[expr]</td>
-<td><strong>عامل التشغيل:</strong> Abs‏[x]</td>
+<td>Abs[expr]</td>
+<td><strong>عامل التشغيل:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
 <td>الأوقات</td>
 <td>يأخذ هذا المنتج من شروطه. إذا كان عدد الشروط هو 0 (صفر)، تنتج قيمة <strong>1</strong>.</td>
-<td>Times‏[args]، الحرف الزائد: a‏ * b * ... ‏* z</td>
+<td>Times[args], الحرف الزائد: a * b * ... * z</td>
 <td><ul>
-<li><strong>عامل التشغيل:</strong> أوقات[x،‏ y،‏ 2] =‏=‏ z</li>
+<li><strong>عامل التشغيل:</strong> Times[x, y, 2] == z</li>
 <li><strong>تدوين الحرف المزيد:</strong> x * y * 2 =‏=‏ z</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>القدرة</td>
 <td>يأخذ هذا قيمة أُسية. تنطبق هذه القيمة الأُسية من اليمين لليسار. (وبمعنى آخر، إنها مجمَّعة إلى اليمين). وبالتالي، فإن <strong>Power[a, b, c]</strong> يعادل <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> يمكن استخدامه فقط إذا كان الأس بقيمة موجبة.</td>
-<td>Power‏[args]، الحرف المزيد: a ^ b ^ ... ^ z</td>
+<td>Power[args], الحرف المزيد: a ^ b ^ ... ^ z</td>
 <td><ul>
-<li><strong>عامل التشغيل:</strong> Power[x،‏ 2] =‏=‏ y</li>
+<li><strong>عامل التشغيل:</strong> Power[x, 2] == y</li>
 <li><strong>تدوين الحرف المزيد:</strong> x ^ 2 =‏=‏ y</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>الحد الأقصى</td>
 <td>ينتج عن هذا الأمر الشرط الأكبر. إذا كان عدد الشروط هو 0 (صفر)، تنتج قيمة <strong>لانهائية</strong>.</td>
-<td>Max‏[args]</td>
-<td><strong>عامل التشغيل:</strong> الحد الأقصى[x،‏ y،‏ 2] =‏=‏ z</td>
+<td>Max[args]</td>
+<td><strong>عامل التشغيل:</strong> الحد الأقصى[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>الحد الأدنى</td>
+<td>دقيقة</td>
 <td>ينتج عن هذا الأمر الشرط الأصغر. إذا كان عدد الشروط هو 0 (صفر)، تنتج قيمة <strong>لانهائية</strong>.</td>
-<td>Min‏[args]</td>
-<td><strong>عامل التشغيل:</strong> الحد الأدنى[x،‏‏ y،‏‏ 2] =‏=‏ z</td>
+<td>Min[args]</td>
+<td><strong>عامل التشغيل:</strong> الحد الأدنى[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
 <td>ليس</td>
 <td>ينتج عن هذا الأمر العكس المنطقي للشرط. يجب أن يكون به شرط واحد فقط.</td>
-<td>Not‏[expr]، الحرف المزيد: !expr</td>
+<td>Not[expr], الحرف المزيد: !expr</td>
 <td><ul>
-<li><strong>عامل التشغيل:</strong> Not‏[x] &amp; Not‏[y =‏=‏ 3]</li>
+<li><strong>عامل التشغيل:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>تدوين الحرف المزيد:</strong> !‏x!‏(y =‏= 3)</li>
 </ul></td>
 </tr>
@@ -219,7 +222,7 @@ ms.locfileid: "7570719"
 |        (x)        |                           تتجاوز الأقواس الأسبقية الافتراضية.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>لماذا لم يتم التحقق من صحة قيود التعبير لدي بشكل صحيح؟
-لا يمكنك استخدام الكلمات الرئيسية المحجوزة كأسماء أدوات الحلول للسمات أو المكونات أو المكونات الفرعية في نموذج تكوين منتج. فيما يلي قائمة بالكلمات الأساسية المحجوزة التي لا يمكن استخدامها:
+لا يمكنك استخدام الكلمات الرئيسية المحجوزة كأسماء أدوات الحلول للسمات أو المكونات أو المكونات الفرعية في نموذج تكوين منتج. فيما يلي قائمة بالكلمات الأساسية المحجوزة التي لا يمكن استخدامها:
 
 -   الحد الأقصى
 -   العنصر
@@ -242,7 +245,8 @@ ms.locfileid: "7570719"
 -   الهدف
 
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [قم بإنشاء قيد تعبير](tasks/add-expression-constraint-product-configuration-model.md)
 
@@ -250,6 +254,3 @@ ms.locfileid: "7570719"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

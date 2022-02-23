@@ -1,24 +1,27 @@
 ---
 title: إنشاء اتفاقية تجارية جديدة
 description: يوضح لك هذا الإجراء كيفية إنشاء اتفاقية تجارة يتم فيها تسجيل منتج سعر جديد لمبيعات المنتجات اتفقتَ عليه مع عميل معين.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 43426e77c30e46f4dd1cc117c38cf6ba5437655b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573407"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421173"
 ---
 # <a name="create-a-new-trade-agreement"></a>إنشاء اتفاقية تجارية جديدة
 
@@ -26,8 +29,8 @@ ms.locfileid: "7573407"
 
 يوضح لك هذا الإجراء كيفية إنشاء اتفاقية تجارة يتم فيها تسجيل منتج سعر جديد لمبيعات المنتجات اتفقتَ عليه مع عميل معين. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة. إذا كنت تستخدم البيانات الخاصة بك، قبل أن تبدأ استخدام هذا الدليل فأنت بحاجة إلى أن تتأكد من وجود اسم لدفتر يومية اتفاقيات التجارة حيث يتم تعيين العلاقة الافتراضية إلى "السعر (مبيعات)".
 
-## <a name="create-and-post-a-new-trade-agreement-journal"></a>قم بإنشاء دفتر يومية جديد لاتفاقيات التجارة وترحيله
 
+## <a name="create-and-post-a-new-trade-agreement-journal"></a>قم بإنشاء دفتر يومية جديد لاتفاقيات التجارة وترحيله
 1. انتقل إلى **جزء التنقل > الوحدات > المبيعات والتسويق > الأسعار والخصومات > دفاتر اليومية للاتفاقيات التجارية‬**.
 2. انقر فوق **جديد**.
 3. في الحقل **الاسم**، انقر فوق زر القائمة المنسدلة لفتح البحث.
@@ -58,27 +61,15 @@ ms.locfileid: "7573407"
 20. انقر فوق **موافق**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>عرض اتفاقيات التجارة لأحد المنتجات
-
 1. ‏‫انتقل إلى ‬**جزء التنقل > الوحدات > إدارة معلومات المنتج > المنتجات > المنتجات الصادرة‬** .
 2. في القائمة، ابحث عن المنتج الذي قمت بتحديث سعره للتو ثم حدده.
 3. في **جزء الإجراء**، انقر فوق **بيع**.
 4. انقر فوق **عرض اتفاقيات التجارة**.
     
-    راجع تفاصيل اتفاقية التجارة للسعر التي قمت بإنشائها.
+    راجع تفاصيل اتفاقية التجارة للسعر التي قمت بإنشائها.    
 
 5. قم بإغلاق الصفحة.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-
-### <a name="whitepaper"></a>مستند تقني
-
-لمزيد من المعلومات، قم بتنزيل الصفحة البيضاء التالية (المكتوبة لدعم AX2012، ولكن لا يزال يتم تطبيقها لـ Dynamics 365 Supply Chain Management)
-
-- [اتفاقيات تجارية](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
-
 ### <a name="community-blogs"></a>مدونات المجتمعات
-
 - [أسعار المبيعات في Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

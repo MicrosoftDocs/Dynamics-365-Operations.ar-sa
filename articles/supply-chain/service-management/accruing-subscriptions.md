@@ -1,10 +1,12 @@
 ---
 title: الاشتراكات المستحقة
 description: باستخدام اشتراكات الخدمة، يمكنك استحقاق الإيراد في الفترات التالية بتاريخ فوترة حركة الرسوم.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f6d0d6c25cc8a19f5ebea3477cd2c957876752fd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580470"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966070"
 ---
 # <a name="accruing-subscriptions"></a>الاشتراكات المستحقة 
 
@@ -41,7 +43,7 @@ ms.locfileid: "7580470"
 
   - يمكنك أن تلغي المبالغ المستحقة في التاريخ التي يتم فيه ترحيل إشعار الدائن أو تاريخ الترحيل الأصلي للاستحقاق.
 
-لمزيد من المعلومات، راجع [محددات الاشتراك (نموذج)](/dynamicsax-2012//subscription-parameters-form).
+لمزيد من المعلومات، راجع [محددات الاشتراك (نموذج)](https://technet.microsoft.com/library/aa619615.aspx).
 
 ## <a name="setup-requirements"></a>متطلبات الإعداد
 
@@ -65,7 +67,7 @@ ms.locfileid: "7580470"
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>تمكين استحقاق الإيراد لمجموعة الاشتراك
 
-انقر فوق **إدارة الخدمة** \> **إعداد** \> **اشتراكات الخدمة** \> **مجموعات الاشتراك**.
+1.  انقر فوق **إدارة الخدمة** \> **إعداد** \> **اشتراكات الخدمة** \> **مجموعات الاشتراك**.
 
 ## <a name="periods"></a>الفترات
 
@@ -75,8 +77,8 @@ ms.locfileid: "7580470"
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -149,6 +151,3 @@ ms.locfileid: "7580470"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

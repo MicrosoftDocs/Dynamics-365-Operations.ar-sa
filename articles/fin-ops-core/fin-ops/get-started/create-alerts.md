@@ -1,24 +1,26 @@
 ---
 title: إنشاء قواعد تنبيه
-description: يوفر هذا الموضوع معلومات حول التنبيهات ويشرح كيفية إنشاء قاعدة تنبيه.
-author: RichdiMSFT
+description: يشمل هذا الموضوع معلومات حول التنبيهات ويوضح كيفية إنشاء قاعدة تنبيه بحيث يتم إعلامك بالأحداث مثل تاريخ يتم بلوغه أو تغييرًا محددًا يحدث.
+author: tjvass
+manager: AnnBe
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736188"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798417"
 ---
 # <a name="create-alert-rules"></a>إنشاء قواعد تنبيه
 
@@ -100,8 +102,3 @@ ms.locfileid: "6736188"
     ```
 2. قم بإنشاء تنبيه من نموذج مستعرض جدول النظام.
 
-### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>عدم عمل التنبيهات المستندة إلى التغيير في تغييرات حالة الدُفعة
-لا تعمل التنبيهات المستندة إلى التغيير مع تغييرات حالة الدُفعة لأنها ليست متوقفة عن التشغيل لأسباب تتعلق بالأداء. وبدلا من ذلك، يجب إعداد إمكانية **تنبيهات الدفعة**. لمزيد من المعلومات، راجع [إعداد تنبيهات للنماذج الدُفعية المحسنة](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: إنشاء بُنى الحساب‬
-description: يوضح هذا الإجراء خطوات إنشاء بنية حساب.
+description: يوضح دليل المهام هذا خطوات إنشاء بنية حساب.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
@@ -13,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9ba43e243df4ba4b7c0eb6188629686206ff09b
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 4a8df7d7d9c4555bf46ac1cc3f71695837b1369b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394528"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968569"
 ---
 # <a name="create-account-structures"></a>إنشاء بُنى الحساب‬
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الإجراء خطوات إنشاء بنية حساب. تستخدم الخطوات شركة بيانات الشركة العرض التوضيحي USMF.
+يوضح دليل المهام هذا خطوات إنشاء بنية حساب. تستخدم الخطوات شركة بيانات الشركة العرض التوضيحي USMF.
 
 1. انتقل إلى **جزء التنقل > الوحدات النمطية > دفتر الأستاذ العام > دليل الحسابات > البنى > تكوين بنى الحسابات‬**.
 2. في **جزء الإجراءات**، انقر فوق **جديد** لفتح مربع الحوار المنسدل.
@@ -58,6 +60,3 @@ ms.locfileid: "7394528"
 29. في **جزء الإجراءات**، انقر فوق **التحقق من الصحة**.
 30. انقر فوق **تنشيط**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

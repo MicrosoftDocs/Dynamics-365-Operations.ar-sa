@@ -1,24 +1,27 @@
 ---
 title: الحدود الائتمانية للعملاء
 description: يقدم هذا المقال نظرة عامة حول كيفية عمل حدود الائتمان في Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e98203f03f10b3a7c530cb91211df2af025710dc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574295"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421464"
 ---
 # <a name="credit-limits-for-customers"></a>الحدود الائتمانية للعملاء
 
@@ -90,7 +93,7 @@ ms.locfileid: "7574295"
 
 **أين يتم استخدام معلومات الائتمان المتبقي للعميل؟**
 
-يتم حساب معلومات رصيد العميل ومبلغ الائتمان المتبقي له ويتم تخزينها عندما تقوم بإنشاء لقطة التأخر، ويتم عرضها في نموذج **التحصيلات**. قد لا تتضمن المبالغ التي يتم عرضها في نموذج **التحصيلات** جميع أنشطة الحركات حتى يتم إنشاء لقطة تأخر جديدة. لمزيد من المعلومات، راجع [التحصيلات والائتمان في الحسابات المدينة](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
+يتم حساب معلومات رصيد العميل ومبلغ الائتمان المتبقي له ويتم تخزينها عندما تقوم بإنشاء لقطة التأخر، ويتم عرضها في نموذج **التحصيلات**. قد لا تتضمن المبالغ التي يتم عرضها في نموذج **التحصيلات** جميع أنشطة الحركات حتى يتم إنشاء لقطة تأخر جديدة. لمزيد من المعلومات، راجع [التحصيلات والائتمان في الحسابات المدينة](https://technet.microsoft.com/library/hh209221.aspx).
 
 استنادًا إلى المستندات التي تم تحديدها، يتم حساب معلومات رصيد العميل ومبلغ الائتمان المتبقي له عند تحديث أوامر المبيعات وإيصالات التعبئة وفواتير العميل. إذا كان مبلغ المستند الذي تعمل معه قد يتسبب في تجاوز الحد الائتماني، فستظهر رسالة.
 
@@ -135,6 +138,3 @@ ms.locfileid: "7574295"
 1.  انقر فوق **المبيعات والتسويق** \> **عام** \> **أوامر المبيعات** \> **كل أوامر المبيعات**. انقر نقرًا مزدوجًا فوق أمر المبيعات.
 
 2.  في نموذج **أمر المبيعات**، في "جزء الإجراءات"، على علامة التبويب **إدارة**، انقر فوق **فحص الحد الائتماني‬**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

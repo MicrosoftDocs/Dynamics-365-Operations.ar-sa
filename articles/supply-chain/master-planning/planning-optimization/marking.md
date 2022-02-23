@@ -2,13 +2,16 @@
 title: علامات المخزون مع تحسين التخطيط
 description: يوفر هذا الموضوع معلومات حول الخيارات المتاحة لتمييز المخزون في الأوامر المؤكدة عند استخدام تحسين التخطيط.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dc94ca8b15d626d8ff64f50718d7d2e3e0326144465f3d27787805220842849f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
+ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711895"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672169"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>علامات المخزون مع تحسين التخطيط
 
@@ -46,6 +49,3 @@ ms.locfileid: "6711895"
 - **لا** – لم يتم تطبيق إيه علامات مخزون.
 - ‎**قياسي‎** - يتم تحديث علامات المخزون وفقًا لتثبيت السعر. ويتم وضع علامة على أحد أوامر المتطلبات (الطلب) على أساس أمر استيفاء (العرض). في حاله بقاء بعض الكمية علي أمر الاستيفاء ، فلن يتم تمييزها ، ويتم ترك المعلومات المرجعية فارغه. علي سبيل المثال ، إذا كان أمر التوريد الخاص ب 100 ea بيجيد في مقابل أمر شراء ل 150 ea ، سيتم تعيين معلومات مرجعيه لأمر المبيعات فقط.
 - **مفصل** - يتم وضع علامة على كل من أمر المتطلب (الطلب) وأمر الاستيفاء (العرض)، بغض النظر عما إذا كانت هناك أية كمية متبقية في أمر الاستيفاء أم لا. علي سبيل المثال ، إذا كان أمر التوريد الخاص ب 100 ea بيجيد في مقابل أمر شراء ل 150 ea ، سيتم تعيين معلومات مرجعيه لأمر المبيعات وأمر الشراء.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

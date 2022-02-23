@@ -2,9 +2,11 @@
 title: إدارة قوالب البريد الإلكتروني
 description: يشرح هذا الموضوع كيفية إدارة قوالب البريد الإلكتروني.
 author: andreabichsel
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplicationWordBookmark, HRMApplicationEmailTemplate
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69d215bd5332555f0df31faa9ea019a819db6565dd6a7c8d68b22bbe46d31898
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9bd15e73535f1d07b664ed659f9f15b3b0b7594
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722997"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797453"
 ---
 # <a name="manage-email-templates"></a>إدارة قوالب البريد الإلكتروني
 
@@ -45,6 +47,3 @@ ms.locfileid: "6722997"
 8. تابع كتابة رسالة البريد الإلكتروني، مع إدراج حقول الإشارة المرجعية حيث تحتاج إليها.
 9. حدد **حفظ**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

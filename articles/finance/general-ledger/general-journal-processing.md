@@ -1,26 +1,29 @@
 ---
 title: معالجة دفتر اليومية العام
 description: يُوضح هذا الموضوع القدرات المتوفرة في Microsoft Dynamics 365 Finance التي يمكنها المساعدة في تسهيل معالجة دفتر اليومية العام، والتي يمكنها أيضًا المساعدة في ضمان التقاط البيانات الصحيحة وعدم اختراق التحكم الداخلي.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726764"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440061"
 ---
 # <a name="general-journal-processing"></a>معالجة دفتر اليومية العام
 
@@ -42,14 +45,14 @@ ms.locfileid: "7726764"
 
 ويمكن استخدام اسم دفتر يومية للتسويات فقط. وفي هذه الحالة، يمكنك تحديد أن نوع حساب **دفتر الأستاذ** فقط صالح في كافة الشركات. 
 
-[![أنواع حساب التحكم في دفتر اليومية.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![أنواع حساب التحكم في دفتر اليومية](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 يمكن استخدام اسم دفتر اليومية فقط لمقطع محدد أو لمجموعة حسابات رئيسية. 
 
-[![مقطع التحكم في دفتر اليومية.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![مقطع التحكم في دفتر اليومية](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 يتوفر خيار **الإلغاء التلقائي** في دفاتر اليومية العامة. على سبيل المثال، لديك تسوية استحقاق لم تتم فيها معالجة المستند الفعلي، كما هو مبين في التوضيح التالي.
-[![عكس دفتر اليومية العام.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![عكس دفتر اليومية العام](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 يوفر مكون Microsoft Excel الإضافي لإدخال دفتر اليومية مستوى إضافيًا من التشغيل الآلي ويجعل إدخال البيانات أسهل. ويتوفر إجراء **فتح البنود في Excel** في صفحتي **دفتر اليومية العام** و **إيصال دفتر اليومية**. 
 
@@ -102,6 +105,3 @@ ms.locfileid: "7726764"
 
 ## <a name="delete-journal-lines"></a>حذف بنود دفتر اليومية
 يتم تمكين القدرة على حذف كافة بنود دفتر اليومية بسرعة في دفتر يومية تحت **الوظائف** > **حذف بنود دفتر اليومية**. لتمكين هذه الميزة، في **إدارة الميزات**، حدد **حذف تحسينات أداء دفتر اليومية**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

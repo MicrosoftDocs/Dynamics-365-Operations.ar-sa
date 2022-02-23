@@ -2,9 +2,11 @@
 title: بحث التنقل
 description: يشرح هذا الموضوع كيفية استخدام وظيفة البحث للانتقال إلى الصفحات.
 author: aneesmsft
-ms.date: 08/11/2021
+manager: AnnBe
+ms.date: 04/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069974"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799078"
 ---
 # <a name="navigation-search"></a>بحث التنقل
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يشرح هذا الموضوع كيفية استخدام وظيفة البحث للانتقال إلى الصفحات.
 
@@ -37,7 +36,7 @@ ms.locfileid: "8069974"
 > [!NOTE]
 > يساعدك مربع **البحث** في البحث عن الصفحات والانتقال إليها. لن يساعدك في البحث عن بيانات أو إجراءات محددة.
 
-![خانة البحث.](media/navigation-search.png "خانة البحث")
+[![خانة البحث](media/navigation-search.png "خانة البحث")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>الانتقال بسرعة إلى صفحة معينة
 
@@ -63,6 +62,3 @@ ms.locfileid: "8069974"
 ## <a name="development"></a>التطوير
 
 ومن منظور التطوير، من السهل جدًا الاستفادة من وظيفة بحث التنقل نظرًا لعدم وجود أي تأخير تقريبًا بين نشر عناصر القائمة وقدرتها على الظهور في نتائج البحث. وطالما أن أصناف القائمة يتم الارتباط بها من جزء التنقل أو لوحة المعلومات، فسوف تصبح قابلة للبحث فيها تلقائياً.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

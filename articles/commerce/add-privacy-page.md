@@ -2,30 +2,36 @@
 title: إضافة صفحة سياسة الخصوصية
 description: يصف هذا الموضوع كيفية إضافة صفحة سياسة الخصوصية إلى موقعك في Microsoft Dynamics 365 Commerce.
 author: v-chgri
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: faf2072a5c53aa84f0de2e6d2478557bf96b7832e3433ad4cba971bc3f6e5880
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729161"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409837"
 ---
 # <a name="add-a-privacy-policy-page"></a>إضافة صفحة سياسة الخصوصية
+
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية إضافة صفحة سياسة الخصوصية إلى موقعك في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 يتضمن الالتزام بالخصوصية تدابير تنظيمية تُعلم مستخدمي الموقع بكيفية جمع بياناتهم ومعالجتها. ويمكن للمستخدمين بعد ذلك أن يقرروا كيف يريدون معالجة بياناتهم الشخصية ويمكنهم اتخاذ الإجراءات المناسبة.
 
@@ -103,6 +109,3 @@ ms.locfileid: "6729161"
 [توافق ملفات تعريف الارتباط](cookie-compliance.md)
 
 [استبدال معرفات المستخدمين المرتبطة بتغييرات المحتوى المتعقبة](replace-IDs-tracked-changes.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

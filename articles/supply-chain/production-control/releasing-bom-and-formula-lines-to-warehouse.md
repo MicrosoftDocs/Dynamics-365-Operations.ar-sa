@@ -2,24 +2,27 @@
 title: إصدار قائمة مكونات الصنف وبنود المعادلة إلى المستودع
 description: يصف هذا الموضوع عملية إصدار المواد الخام لبنود قائمة مكونات الصنف وبنود المعادلة للمستودع.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421713"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>إصدار قائمة مكونات الصنف وبنود المعادلة إلى المستودع
 
@@ -61,7 +64,7 @@ ms.locfileid: "6731212"
 
 يبين التوضيح التالي أمر الإنتاج الذي يوجد به وظيفتين، 10 و20، والتي تشمل التجميع والتعبئة لأمر الإنتاج. يتم إعداد كل وظيفة لاستهلاك كمية المواد. في هذا التوضيح، يكون الحد الزمني للإصدار المُشار إليه بالسهم الأخضر أسفل وقت الانتهاء مساويًا لعدد الأيام التي تم تحديدها في معيار **(LessThanDate())**. على سبيل المثال، يُشير **(LessThanDate(2))** إلى أن الوظيفة يجب أن تقوم بالبحث عن الكميات غير المُصدرة في غضون حد زمني يومين فقط.
 
-![مثال لأمر إنتاج يحتوي على وظيفتين دفعيتين.](media/bach-job-setup.PNG)
+![مثال لأمر إنتاج يحتوي على وظيفتين دفعيتين](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>إصدار المواد حسب رقم العملية أو بالتناسب مع مبلغ البضائع المكتملة
 
@@ -78,7 +81,7 @@ ms.locfileid: "6731212"
 
 يبين التوضيح التالي أمر إنتاج العملياتيحتوي على العمليتين 10 و20. في هذا المثال، إذا قمت بتحديد الإصدار للعملية 10، فسوف يتم إصدار المواد M9203 فقط.
 
-![مثال لإصدار المواد حسب رقم العملية.](media/two-operations.PNG)
+![مثال لإصدار المواد حسب رقم العملية](media/two-operations.PNG)
 
 لمشاهدة عرض توضيحي سريع حول إصدار المواد بطريقة تتناسب مع كمية السلع المنتهية، شاهد هذا الفيديو القصير على YouTube حول [تحسينات عملية إصدار أمر إنتاج](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 
@@ -95,6 +98,3 @@ ms.locfileid: "6731212"
     تُحدد الوحدات المتاحة في معرف مجموعة تسلسلات الوحدة للبضائع المنتهية.
 
     على سبيل المثال، يكون للبضائع المنتهية عامل تحويل الوحدة التالي بين الأرطال (رطل) والبالتة (بالتة): 1 بالتة = 100 رطل. لإنشاء أمر إنتاج لـ 10.000 رطل. للبضائع المنتهية، يمكنك إصدار المواد الخام لعدد البالتات التي تخطط إنتاجها. حدد **البالتة** بوصفها الوحدة، ثم حدد الرقم المتوافق في حقل **الكمية**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

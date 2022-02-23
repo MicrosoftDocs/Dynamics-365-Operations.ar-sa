@@ -1,26 +1,29 @@
 ---
 title: آثار الإهلاك مع عمليات الإلغاء
 description: تتناول هذه المقالة الآثار المحتملة لعكس حركة أصول ثابتة.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: dd4c4a9e7e89b34b1311b38310877b45e4d95b22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674540"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439833"
 ---
 # <a name="depreciation-effects-with-reversals"></a>آثار الإهلاك مع عمليات الإلغاء
 
@@ -30,7 +33,7 @@ ms.locfileid: "7674540"
 
 يمكنك إلغاء حركات الأصول الثابتة والحركات المقترنة بالأصل الثابت. كما يمكنك إبطال حركة ملغاة. 
 
-ويمكنك إلغاء أو إبطال حركة لم تكن الحركة الأحدث التي تم ترحيلها إلى دفتر الأصل. أولاً حدد ما إذا كان تم ترحيل أية حركات إهلاك بعد الحركة التي تقوم بإلغائها. هذه الخطوة ضرورية لأنه لا تتم إعادة حساب الإهلاك عند إلغاء حركة. ولذلك، غالبًا ما تتم المبالغة في الإهلاك أو تقليله بعد الإلغاء، كما هو موضح في الأمثلة. 
+ويمكنك إلغاء أو إبطال حركة لم تكن الحركة الأحدث التي تم ترحيلها إلى دفتر الأصل. ويجب أولاً تحديد ما إذا كان تم ترحيل أية حركات إهلاك بعد الحركة التي تقوم بإلغائها. وهذا هو سبب عدم إعادة حساب الإهلاك عند إلغاء حركة. ولذلك، غالبًا ما تتم المبالغة في الإهلاك أو تقليله بعد الإلغاء، كما هو موضح في الأمثلة. 
 
 ولضمان صحة الإهلاك عند إلغاء الحركة، لا تستمر في عملية الإلغاء في حالة تلقي رسالة تفيد بأن الإهلاك لن تتم إعادة حسابه. ولكن قم أولاً بإلغاء حركة الإهلاك التي تم ترحيلها بعد الحركة التي حاولت إلغائها، ثم استمر في عملية الإلغاء. ولن تتلقى أية تحذيرات حول إعادة حساب الإهلاك، ويمكنك متابعة عملية الإلغاء. 
 
@@ -86,12 +89,10 @@ ms.locfileid: "7674540"
 
 
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [إهلاك الأصل الثابت](fixed-asset-depreciation.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

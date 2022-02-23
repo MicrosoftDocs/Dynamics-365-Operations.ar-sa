@@ -2,25 +2,28 @@
 title: الأبعاد المالية والترحيل
 description: عندما تقوم بتخطيط دليل الحسابات وإعداده، يجب أن تأخذ في الاعتبار كيف ستعمل المكونات المختلفة مع بعضها عند ترحيل مستند أو دفتر يومية. تتضمن هذه المكونات بنى الحساب والقواعد المتقدمة وأبعاد الموازنة والأبعاد الثابتة. يشرح هذا المقال ماهية كل مكون وكيفية عمل المكونات معًا.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9e7416c1ed69fa9783694e2adee7ada4e25e14054daeb1761428855690eb522f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778956"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439910"
 ---
 # <a name="financial-dimensions-and-posting"></a>الأبعاد المالية والترحيل 
 
@@ -71,29 +74,29 @@ ms.locfileid: "6778956"
 
 يبين الشكل التوضيحي التالي البعد الافتراضي الثابت الذي تم تعيينه على الحساب الرئيسي 401100.
 
-[![الأبعاد المالية الافتراضية.](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![الأبعاد المالية الافتراضية](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 فيما يتعلق بهذا المثال الأساسي، سنقوم بإدخال دفتر يومية عام حيث تم تعيين بُعد "القسم" لاستخدام القيمة الافتراضية **023** (Operations). سنعمل إدخال وترحيل حساب دفتر أستاذ. يبين الشكل التوضيحي التالي البعد المالي الافتراضي في رأس دفتر الأستاذ العام.
 
-[![دفاتر اليومية العامة.](./media/general-journal.png)](./media/general-journal.png)
+[![دفاتر اليومية العامة](./media/general-journal.png)](./media/general-journal.png)
 
 سوف يتسبب البعد الافتراضي على رأس دفتر اليومية بتطبيق القسم 023 بشكل افتراضي على بند حساب المبيعات. يبين الشكل التوضيحي التالي بند دفتر اليومية العام، حيث يتم تطبيق قيمة البعد الافتراضي **023** من الرأس.
 
-[![قيد اليومية.](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![قيد اليومية](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 ومع ذلك، عندما يتم ترحيل البند، يتم تطبيق البعد الثابت، ويتم ترحيل البند إلى القسم 022. يبين الشكل التوضيحي التالي الإيصال المرحل، حيث يتم تطبيق البعد الثابت لحساب المبيعات.
 
-[![حركات الإيصال مع تطبيق البُعد الثابت.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![حركات الإيصال](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>مثال2
 
 يستخدم هذا المثال نفس الإعداد كما في المثال الأول. ومع ذلك، سنضيف مكونًا ثانيًا ونستخدم بُعد "القسم" كبُعد موازنة. في الشكل التوضيحي التالي، تم تعيين **القسم** كبُعد مالي للموازنة لدفتر الأستاذ USMF.
 
-[![شكل توضيحي يبين القسم كبُعد مالي موازن.](./media/ledger.png)](./media/ledger.png)
+[![دفتر الأستاذ](./media/ledger.png)](./media/ledger.png)
 
 عند استخدام إعداد رأس دفتر اليومية نفسه، وعند ترحيل الحركة نفسها، يتم تطبيق البعد الثابت أولاً. بعد ذلك، يتم تطبيق منطق الموازنة للمساعدة في ضمان وجود إدخال متوازن لكل قسم. يبين الشكل التوضيحي التالي حركات الإيصالات التي تتضمن الإدخال المتوازن بعد تطبيق البعد الثابت.
 
-[![حركات الإيصال بعد تطبيق إدخال الموازنة.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![حركات الإيصال](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>المثال الثالث
 
@@ -101,11 +104,11 @@ ms.locfileid: "6778956"
 
 يعتبر هذا المثال مهمًا بسبب الترتيب. يتم تحديد بنية الحساب بعد إدخال الحساب الرئيسي. إذا أشرت إلى إعداد بنية الحساب، فباستطاعة النظام أن يحدد مدى صلة الحساب الرئيسي ووحدة الأعمال والقسم ومركز التكلفة. في هذه المرحلة، لم يتم تشغيل القاعدة المتقدمة، نظرًا لعدم تطبيق الأبعاد الثابتة حتى يتم تطبيق الأبعاد الافتراضية لإيصال دفتر اليومية أثناء عملية الترحيل. في الشكل التوضيحي التالي، شريحة العميل غير موجودة، بسبب عدم استيفاء معايير القاعدة المتقدمة.
 
-[![حساب دفتر الأستاذ.](./media/drop-down.png)](./media/drop-down.png)
+[![حساب دفتر الأستاذ](./media/drop-down.png)](./media/drop-down.png)
 
 لن تنجح عملية الترحيل، بسبب تطبيق البعد الثابت في نهاية العملية. تحدد عملية التحقق من صحة البُعد ضرورة وجود شريحة العميل إذا كان الحساب الرئيسي 401100 والقسم 022. لا يمكن أن تحدث عملية الترحيل بسبب خطأ التحقق من الصحة. يبين الشكل التوضيحي التالي الرسالة التي تظهر بعد أن تحدد عملية التحقق من صحة البعد ضرورة وجود شريحة العميل.
 
-[![تفاصيل الرسالة.](./media/message.png)](./media/message.png)
+[![تفاصيل الرسالة](./media/message.png)](./media/message.png)
 
 في هذا المثال، يجب الكتابة فوق القيمة الافتراضية لكي يتم تشغيل القاعدة المتقدمة ولكي تتمكن من إدخال شريحة العميل. ومع ذلك، هذا الحل غير ممكن في جميع الأوقات، وبعض المستخدمين ليسوا على علم بقواعد الترحيل. لذلك، من الضروري أن تفهم الترتيب الذي يتم من خلاله تطبيق الأبعاد الافتراضية عند إعداد دليل الحسابات.
 
@@ -119,11 +122,8 @@ ms.locfileid: "6778956"
 
 [خطط دليل الحسابات الخاص بك](plan-chart-of-accounts.md) 
 
-[مدونة تخطيط دليل الحسابات في AX 2012](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – ينتقل هذا الارتباط إلى الجزء الأول من سلسلة مكونة من 7 أجزاء.
+[مدونة تخطيط دليل الحسابات في AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – ينتقل هذا الارتباط إلى الجزء الأول من سلسلة مكونة من 7 أجزاء.
 
-[تعيين البُعد الافتراضي في التوزيعات المحاسبية](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
+[تعيين البُعد الافتراضي في التوزيعات المحاسبية](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
-[تعيين البُعد الافتراضي في إطار عمل الأبعاد](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[تعيين البُعد الافتراضي في إطار عمل الأبعاد](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)

@@ -2,23 +2,26 @@
 title: إدخال إضافة إلى الأصول الثابتة
 description: يوضح هذا الإجراء كيفية زيادة إضافة إلى أصل ثابت موجود.
 author: saraschi2
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 966fd191ad876aae86ff2511d6981b0437679becbe4984b087c1975dece351b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dc1e13863ae13daaa641f52f7a55e01fc1353dc1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742943"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439961"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>إدخال إضافة إلى الأصول الثابتة
 
@@ -43,6 +46,3 @@ ms.locfileid: "6742943"
     * عيّن **زيادة مدة الخدمة** إلى **نعم** إذا كانت الإضافة ستزيد مدة خدمة الأصل الثابت.  
     * هذا الحقل للأغراض المعلوماتية فقط. لزيادة مدة الخدمة، قم بتعديل مدة الخدمة على نماذج القيمة و/أو دفاتر الإهلاك للأصل.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

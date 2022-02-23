@@ -2,24 +2,27 @@
 title: اعتبارات تحسين محرك البحث (SEO) لموقعك
 description: يغطي هذا الموضوع اعتبارات تحسين محرك البحث (SEO) للموقع الخاص بك من التطوير إلى الإنتاج.
 author: psimolin
+manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: df92aeae967bbf248b90dffc6bc2239a8d2959183acb9e9181bc344b9e3eff8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716847"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409975"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>اعتبارات تحسين محرك البحث (SEO) لموقعك
 
@@ -53,6 +56,3 @@ ms.locfileid: "6716847"
 [إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام](add-telemetry.md)
 
 [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

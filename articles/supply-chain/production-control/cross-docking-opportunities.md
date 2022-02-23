@@ -2,25 +2,28 @@
 title: توزيع البضائع من أوامر الإنتاج لمساحات خارجية
 description: يصف هذا الموضوع كيفية إدارة عملية مواد توزيع البضائع التي يتم الإبلاغ عنها كبضائع منتهية من خط الإنتاج إلى رصيف نقل الصادرات.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee91fa28943a27474bff5fb7a7fc368142dabcdd6c9c9772d38134af0257ef6e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421716"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>توزيع البضائع من أوامر الإنتاج لمساحات خارجية
 
@@ -28,7 +31,8 @@ ms.locfileid: "6715736"
 
 يصف هذا الموضوع كيفية إدارة عملية مواد توزيع البضائع التي يتم الإبلاغ عنها كبضائع منتهية من خط الإنتاج إلى رصيف نقل الصادرات.
 
-## <a name="introduction"></a>مقدمة
+<a name="introduction"></a>مقدمة
+------------
 
 يرتبط توزيع البضائع من الإنتاج إلى موقع خارجي بالشركات المصنعة التي تنتج كميات كبيرة، وترغب، على نحو مثالي، بشحن المنتجات المنتهية في أقرب وقت يتم الإبلاغ فيه عمليًا عن انتهاء تصنيع المنتجات من خطوط الإنتاج. والهدف هو شحن المنتجات إلى مراكز التوزيع التي تقع فعليًا بالقرب من طلب العميل، بدلاً من إنشاء المخزون في موقع التصنيع.
 
@@ -42,7 +46,7 @@ ms.locfileid: "6715736"
 -   إذا تم تعيين ملحق لرصيف التحميل، فسيتم توجيه سائق الشاحنة لتحميل المنتج مباشرة إلى العربة الملحقة.
 -   في حال عدم وجود أي نشاط مخطط لنقل المنتجات، فسيتم توجيه سائق الرافعة الشوكية لنقل المنتج إلى موقع في المستودع الداخلي (5).
 
-[![توزيع البضائع النفعي.](./media/scenario1.png)](./media/scenario1.png)
+[![توزيع البضائع النفعي](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>تكوين توزيع البضائع
 يمكنك تكوين عملية توزيع البضائع في **سياسات العمل**. تتضمن سياسة العمل نوع أمر العمل، والموقع، والمنتج. في المثال التالي، يتم تكوين توزيع البضائع للمنتج X والموقع Y.
@@ -123,6 +127,3 @@ ms.locfileid: "6715736"
 -   يتم دعم سيناريو توزيع البضائع للدفعة والأصناف التي يتم التحكم فيها من خلال الرقم التسلسلي، كلًا منهما من خلال الدفعة وأبعاد الرقم التسلسلي المحدد أعلاه، والموقع أدناه في التدرج الهرمي للحجز. 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

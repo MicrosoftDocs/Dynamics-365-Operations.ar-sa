@@ -2,23 +2,26 @@
 title: تغيير وعاء العمل في العمل
 description: يشرح هذا الموضوع كيفية استخدام زر تغيير وعاء العمل لعناصر العمل لتغيير وعاء العمل الخاص بالعمل الموجود.
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566013"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421406"
 ---
 # <a name="change-work-pool-on-work"></a>تغيير وعاء العمل في العمل
 
@@ -64,7 +67,7 @@ ms.locfileid: "7566013"
 
 1. انتقل إلى **إدارة المستودعات \> إعداد \> عمل \> قوالب العمل**.
 1. في جزء الإجراءات، حدد **تحرير** لوضع الصفحة في وضع التحرير.
-1. يمكنك تحرير القالب عن طريق إعداد القيم التالية:
+1. يمكنك تحرير القالب عن طريق اعداد القيم التالية:
 
     - **قالب العمل:** *62 انتقاء إلى الحزم*
     - **معرف وعاء العمل:** *Webshop*
@@ -146,6 +149,3 @@ ms.locfileid: "7566013"
 > عند ظهور مربع الحوار **تغيير وعاء العمل**، قد يكون الحقل **معرف وعاء العمل** فارغا بشكل افتراضي. إذا كان الحقل فارغا عندما تقوم بتحديد **موافق** لتطبيق التغييرات، فإنك ستقوم بازالة وعاء العمل بالكامل من العمل.
 >
 > بالإضافة إلى تبديل أوعية العمل، يمكنك استخدام هذا الإجراء لإضافة وعاء عمل إلى أي عنصر عمل لا يحتوي علي واحد، أو لإزالة وعاء عمل من أي عنصر عمل يحتوي علي واحد.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

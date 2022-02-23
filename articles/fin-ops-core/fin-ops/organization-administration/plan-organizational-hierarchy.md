@@ -2,9 +2,11 @@
 title: تخطيط التدرج الهرمي للمؤسسات
 description: قبل إعداد المؤسسات والتدرجات الهرمية للمؤسسات، تأكد من أنك تعلم تمامًا كيفية تصميم أفضل نموذج لعملك.
 author: sericks007
-ms.date: 02/19/2021
+manager: AnnBe
+ms.date: 08/28/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771862"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694679"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>تخطيط التدرج الهرمي للمؤسسات
 
@@ -164,7 +166,7 @@ ms.locfileid: "6771862"
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>إذا تم عمل نموذج من المؤسسة لكي تكون كيانًا قانونيًا.
 
-بالنسبة للبلدان/المناطق المدعومة، يمكن إنشاء معظم التقارير التشريعية. 
+بالنسبة للبلدان/المناطق المدعومة، يمكن إنشاء معظم التقارير التشريعية. للحصول على معلومات حول التقارير المتوفرة لكل بلد/منطقة، راجع مدخل الترجمة في [Microsoft Dynamics .](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (تسجيل الدخول إلى CustomerSource مطلوب.)
 
 > [!NOTE]
 > تسمح لك طبقات الترحيل في دفتر الأستاذ العام بإجراء إدخالات التسوية إلى الشركة الرئيسية التي تستخدم معيار محاسبة مختلف عن المُستخدم في الشركة التابعة. بالنسبة مثلاً للشركة التي تستخدم الممارسات المحاسبية المقبولة عمومًا في المملكة المتحدة (UK GAAP )، يمكنك إجراءات إدخالات التسوية في طبقة الترحيل. يمكن دمج هذه الإدخالات في شركة رئيسية واحدة تستخدم مبادئ المحاسبة المقبولة عمومًا (GAAP) في الولايات المتحدة. لا تؤثر إجراءات التسوية على إعداد تقارير UK GAAP.
@@ -239,6 +241,3 @@ ms.locfileid: "6771862"
 - قبل أن تقوم بنمذجة السيناريوهات الأساسية لإعادة البناء، استخدم التواريخ الفعلية الخاصة بالتدرج الهرمي لتنفيذ إجراء تحليل التأثير واختبار التحقق من الصحة.
 - استخدام وضع المسودة لتغيير التدرج الهرمي قبل نشر إصدار جديد في بيئة الإنتاج.
 - قم بالحد من عدد الأشخاص الذين لديهم أذونات لإضافة أو إزالة المؤسسات من تسلسل هرمي في بيئة إنتاج. يقلل العدد الأصغر من فرصة حدوث أخطاء مكلفة وكذلك من وجوب تنفيذ التصحيحات.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

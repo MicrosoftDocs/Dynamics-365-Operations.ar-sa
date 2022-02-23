@@ -1,10 +1,12 @@
 ---
 title: جدولة أمر العمل في تاريخ ووقت محددين
 description: يوضح هذا الموضوع كيفية جدولة أمر عمل في تاريخ ووقت محددين في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d1264ea034789c9ce052b1da9a74a10dd910fac1a1c762d29bd06ca2063478d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1b9fc2f51e92a4760a612d778b65cfc1b4e2a9e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780261"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017357"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>جدولة أمر العمل في تاريخ ووقت محددين
 
@@ -38,13 +40,13 @@ ms.locfileid: "6780261"
 
 4. على علامة التبويب السريعة **رأس أمر العمل**، أدخل تواريخ وأوقات البدء والانتهاء في الحقلين **البدء المتوقع** و **الانتهاء المتوقع**.
 
-    ![الشكل 1.](media/05-work-order-scheduling.png)
+    ![الشكل 1](media/05-work-order-scheduling.png)
 
 5. على علامة التبويب السريعة **عام**، انقر فوق **جدول** لاستخدام عملية الجدولة القياسية، أو انقر فوق **إرسال** لتعين أمر العمل إلى عامل معين.
 
 6. من أجل تجاوز حجوزات القدرة الإنتاجية الحالية لضمان جدولة أمر العمل في الفترة المتوقعة، قم بإجراء التحديدات كما هو موضح في الشكل أدناه في مربع الحوار **جدولة أمر العمل** > القسم **قدرة محدودة‬**. وهذا يعني أن عملية الجدولة ستتجاهل حجوزات القدرة الإنتاجية الحالية نظرًا لضرورة بدء أمر العمل في وقت البدء المتوقع.
 
-    ![الشكل 2.](media/06-work-order-scheduling.png)
+    ![الشكل 2](media/06-work-order-scheduling.png)
 
 7. انقر فوق **موافق** لبدء الجدولة.
 
@@ -53,6 +55,3 @@ ms.locfileid: "6780261"
 >[!NOTE]
 >من أجل جدولة عامل صيانة لأمر العمل، يجب أن يكون عامل الصاينة هذا متوفرًا في وقت وتاريخ البدء المتوقعين. يتم إعداد توافر العاملين في [تقويم العمل](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

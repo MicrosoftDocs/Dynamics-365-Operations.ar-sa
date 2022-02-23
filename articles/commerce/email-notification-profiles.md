@@ -1,33 +1,39 @@
 ---
 title: إعداد ملف تعريف إخطار البريد الإلكتروني
 description: يوضح هذا الموضوع كيفية إنشاء ملف تعريف إخطار البريد الإلكتروني في Microsoft Dynamics 365 Commerce.
-author: bicyclingfool
-ms.date: 02/02/2022
+author: samjarawan
+manager: annbe
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: stuharg
+ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7a7d796a173a6f9dfcd62e1f73e078cac614145e
-ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.openlocfilehash: c0ab56c15a37313d0a88b1174d5bcf51d391dcec
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8087857"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409805"
 ---
-# <a name="set-up-an-email-notification-profile"></a>إنشاء ملف تعريف الإخطار بالبريد الإلكتروني
+# <a name="set-up-an-email-notification-profile"></a>إعداد ملف تعريف إخطار البريد الإلكتروني
+
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إنشاء ملف تعريف إخطار البريد الإلكتروني في Microsoft Dynamics 365 Commerce.
 
-عند إنشاء القنوات، يمكنك إعداد ملف تعريف الإخطار بالبريد الكتروني. يقوم ملف تعريف الإعلام بالبريد الإلكتروني بتعريف أحداث حركة المبيعات (مثل أحداث الأمر الذي تم إنشاؤه وتعبئته وفوترته) والتي ستُرسل إخطارات تتعلق بها إلى عملائك. 
+## <a name="overview"></a>نظرة عامة
+
+قبل إنشاء قنوات، ستحتاج إلى إعداد ملف تعريف للتأكد من إمكانية إرسال إخطارات البريد الإلكتروني لأحداث مختلفة، مثل إنشاء الأمر وحالة شحن الطلب وفشل الدفع.
 
 للحصول على مزيد من المعلومات حول تكوين البريد الإلكتروني، راجع [تكوين البريد الإلكتروني وإرساله](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -43,7 +49,7 @@ ms.locfileid: "8087857"
 
 ### <a name="create-an-email-template"></a>إنشاء قالب بريد إلكتروني
 
-قبل تمكين نوع الإخطار بالبريد الإلكتروني، يجب إنشاء قالب بريد الكتروني للمؤسسة في المركز الرئيسي لـ Commerce لكل نوع إخطار تريد دعمه. يحدد هذا القالب موضوع البريد الإلكتروني والمرسل واللغة الافتراضية ونص البريد الإلكتروني لكل لغة مدعومة.
+قبل التمكين من إنشاء إخطار البريد الإلكتروني، يجب إنشاء قالب بريد إلكتروني للمؤسسة يحتوي على معلومات البريد الإلكتروني للمرسلين وقالب البريد الإلكتروني.
 
 لإنشاء قالب بريد إلكتروني، اتبع هذه الخطوات.
 
@@ -53,15 +59,13 @@ ms.locfileid: "8087857"
 1. في حقل **اسم المرسل**، أدخل اسم المرسل‏‎.
 1. في **وصف البريد الإلكتروني**، أدخل وصفًا هادفًا.
 1. في **‏‫البريد الإلكتروني للمرسل‬** ، أدخل عنوان البريد الإلكتروني للمرسل.
-1. في القسم **عام**، حدد اللغة الافتراضية لقالب البريد الإلكتروني. سيتم استخدام اللغة الافتراضية في حالة عدم وجود أي قالب مترجم خاص باللغة المحددة.
+1. في القسم **عام**، املأ أي معلومات اختيارية مطلوبة (مثل أولوية البريد الإلكتروني).
 1. وسَّع قسم **محتوى رسالة البريد الإلكتروني** وحدد **جديد** لإنشاء محتوى القالب. بالنسبة لكل عنصر محتوى، حدد اللغة وأدخل سطر موضوع البريد الإلكتروني. إذا كان البريد الإلكتروني يحتوي على نص، تأكد من تحديد خانة **‏‫يتضمن نص‬**.
 1. في جزء الإجراءات، حدد **رسالة بريد إلكتروني** لتوفير قالب نص البريد الإلكتروني.
 
 توضح الصورة التالية بعض أمثلة لإعدادات قالب البريد الإلكتروني.
 
-![إعدادات قالب البريد الإلكتروني.](media/email-template.png)
-
-للحصول على المزيد من المعلومات حول كيفية إنشاء قوالب البريد الكتروني وتحميلها، راجع [إنشاء قوالب بريد إلكتروني لأحداث الحركات](email-templates-transactions.md). 
+![إعدادات قالب البريد الإلكتروني](media/email-template.png)
 
 ### <a name="create-an-email-event"></a>إنشاء حدث بالبريد الإلكتروني
 
@@ -76,14 +80,12 @@ ms.locfileid: "8087857"
 
 توضح الصورة التالية بعض أمثلة لإعدادات إخطار حدث.
 
-![إعدادات الإخطار بالحدث.](media/email-notification-profile.png)
-
-> [!NOTE]
-> يتطلب نوع الإعلام الذي تم إنشاؤه من قبل العميل تنفيذ تخصيص قبل إمكانية إرسال اخطار بالبريد الإلكتروني.
+![إعدادات الإخطار بالحدث](media/email-notification-profile.png)
 
 ### <a name="next-steps"></a>الخطوات التالية
 
 قبل أن تتمكن من إرسال رسائل البريد، يجب تكوين خدمة البريد الصادرة وإعداد وظيفة دفعية. لمزيد من المعلومات، راجع [تكوين البريد الإلكتروني وإرساله](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
+
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -94,6 +96,3 @@ ms.locfileid: "8087857"
 [المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
 
 [نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

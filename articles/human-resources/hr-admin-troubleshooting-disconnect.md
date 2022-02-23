@@ -1,32 +1,30 @@
 ---
-title: قطع اتصال العميل
-description: يوضح هذا الموضوع ما يتعين عليك القيام به إذا تم قطع اتصال العميل من البيئة.
-author: twheeloc
-ms.date: 08/19/2021
+title: قطع اتصال عميل
+description: يتناول هذا المقال ما يتعين عليك القيام به إذا تم قطع اتصال العميل من بيئته ولا يعرف السبب.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071125"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4417195"
 ---
-# <a name="client-disconnects"></a>قطع اتصال العميل
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="client-disconnects"></a>قطع اتصال عميل
 
 **تفاصيل البيئة** 
 
@@ -34,7 +32,7 @@ ms.locfileid: "8071125"
  
 **العَرَضْ** 
 
-تم قطع اتصال العميل من البيئة ولا يعرف السبب. يظهر أمام العميل واحدة من رسالتي الخطأ التاليتين:
+تم قطع اتصال العميل من بيئته ولا يعرف السبب. يظهر أمام العميل واحدة من رسالتي الخطأ التاليتين:
 
 - فُقد اتصالك. انقر فوق إغلاق لمتابعة العمل.
 - يبدو أنك فقدت اتصالك بالشبكة، انقر فوق "إعادة المحاولة" للمحاولة مرة أخرى.
@@ -54,6 +52,3 @@ ms.locfileid: "8071125"
 تأكد من فتح بيئة واحدة فقط في كل مرة لنوع مستعرض معين. يمكن للمستخدمين فتح جلسات متعددة لنفس البيئة (بمعني، علامات تبويب متعددة في نفس المستعرض).
 
 يجب على المستخدمين الذين يريدون الانتقال بين اثنين من البيئات في نفس الوقت فتح كل بيئة في نوع مستعرض مختلف. (على سبيل المثال، بإمكان المستخدم أ عرض البيئة 1 في Chrome والبيئة 2 في Microsoft Edge.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: إعداد أكواد سبب الإرجاع
 description: إعداد مجموعات أكواد سبب الإرجاع.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnReasonCodeGroup, ReturnReasonCode
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc857f7c2e8bbcf396e6bd7eaa7478f12b26ac12
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c55e7dc087870ac414c5cf6ce3a3d10215ac4e8e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573167"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421045"
 ---
 # <a name="set-up-return-reason-codes"></a>إعداد أكواد سبب الإرجاع   
 
@@ -29,9 +32,9 @@ ms.locfileid: "7573167"
 
 ## <a name="set-up-return-reason-code-groups"></a>إعداد مجموعات كود سبب الاستعادة 
 
-1.  انتقل إلى **‏‫المبيعات والتسويق‬** \> **إعداد** \> **‏‫‏‫أوامر المبيعات**‬ \> **المرتجعات** \> **مجموعات أكواد سبب الإرجاع**.
+1.  انقر فوق **‏‫المبيعات والتسويق‬** \> **إعداد** \> **‏‫‏‫أوامر المبيعات**‬ \> **المرتجعات** \> **مجموعات أكواد سبب الإرجاع**.
 
-2.  حدد **جديد** لإنشاء بند لمجموعة كود سبب إرجاع جديدة.
+2.  اضغط على CTRL + N لإنشاء بند لمجموعة كود سبب إرجاع جديدة.
 
 3.  في الحقل **مجموعة أكواد سبب الإرجاع**، اكتب معرفًا لهذه المجموعة.
 
@@ -41,7 +44,7 @@ ms.locfileid: "7573167"
 
 يساعدك هذا الإجراء على إعداد أكواد سبب الإرجاع التي يمكنك استخدامها للإشارة إلى سبب قيام العميل بإرجاع المنتج.
 
-1.  انتقل إلى **‏‫المبيعات والتسويق‬** \> **إعداد** \> **‏‫‏‫أوامر المبيعات**‬ \> **المرتجعات** \> **أكواد سبب الإرجاع**.
+1.  انقر فوق **‏‫المبيعات والتسويق‬** \> **إعداد** \> **‏‫‏‫أوامر المبيعات**‬ \> **المرتجعات** \> **أكواد سبب الإرجاع**.
 
 2.  اضغط على CTRL + N لإنشاء بند كود سبب إرجاع جديد.
 
@@ -60,6 +63,3 @@ ms.locfileid: "7573167"
  
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

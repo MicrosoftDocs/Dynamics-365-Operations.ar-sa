@@ -2,9 +2,11 @@
 title: مساحة تخزين النسخ الاحتياطية لقوالب التقارير الإلكترونية
 description: يشرح هذا الموضوع كيفية استخدام مساحة تخزين النسخ الاحتياطية للتقارير الإلكترونية لاسترداد القوالب.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767867"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681390"
 ---
 # <a name="backup-storage-of-er-templates"></a>مساحة تخزين النسخ الاحتياطية لقوالب التقارير الإلكترونية
 
@@ -65,19 +67,19 @@ ms.locfileid: "6767867"
 > [!NOTE]
 > هذه المعلمة محددة كمستخدم ومسجلة كخاصة بالشركة.
 
-![صفحة تكوينات التقارير الإلكترونية.](./media/GER-BackupTemplates-1.png)
+![صفحة تكوينات التقارير الإلكترونية](./media/GER-BackupTemplates-1.png)
 
 يبين الرسم التوضيحي التالي مثالاً للرسالة التي تظهر عند تعيين المعلمة **تشغيل تلقائي لإجراء استعادة القوالب المقطوعة على دفعات**  إلى **تشغيل**.
 
-![صفحة دفتر يومية دفع المورّد.](./media/GER-BackupTemplates-2.png)
+![صفحة دفتر يومية دفع المورّد](./media/GER-BackupTemplates-2.png)
 
 يبين الرسم التوضيحي التالي معالجة الدُفعة **استعادة القوالب المقطوعة من النسخة الاحتياطية لقاعدة البيانات** في الصفحة **وظيفة دفعية**.
 
-![الصفحة "وظيفة دفعية".](./media/GER-BackupTemplates-3.png)
+![الصفحة "وظيفة دفعية"](./media/GER-BackupTemplates-3.png)
 
 يتضمن سجل التنفيذ لمعالجة الدُفعة المكتملة **استعادة القوالب المقطوعة من النسخة الاحتياطية لقاعدة البيانات** معلومات حول القوالب التي تمت استعادتها من موقع تخزين النسخ الاحتياطية إلى موقع التخزين الأساسي.
 
-![صفحة محفوظات الوظائف الدفعية.](./media/GER-BackupTemplates-4.png)
+![صفحة محفوظات الوظائف الدفعية](./media/GER-BackupTemplates-4.png)
 
 بشكل افتراضي، يتم بشكل تلقائي تشغيل عملية إنشاء نسخ احتياطية من القوالب الموجودة في تكوينات تنسيقات التقارير الإلكترونية. للتوقف عن إنشاء نسخ احتياطية للقوالب، قم بتعيين الخيار **التوقف عن إنشاء نسخ احتياطية للقوالب** إلى **نعم** على علامة تبويب **المرفقات** في صفحة **معلمات التقارير الإلكترونية**. يمكنك فتح هذه الصفحة من مساحة عمل **التقارير الإلكترونية**.
 
@@ -85,7 +87,7 @@ ms.locfileid: "6767867"
 
 إذا قمت بترقية بيئتك إلى Finance and Operations الإصدار 10.0.5 (أكتوبر 2019) وأردت الترحيل إلى بيئة جديدة تتضمن تنسيقات تكوينات التقارير الإلكترونية التي يمكن تشغيلها، فحدد **تعبئة مساحة تخزين النسخ الاحتياطية** في صفحة **معلمات التقارير الإلكترونية** قبل حدوث عملية الترحيل. يبدأ هذا الزر عملية إنشاء نسخ احتياطية لكافة القوالب المتوفرة، بحيث يمكن تخزينها في موقع مساحة تخزين النسخ الاحتياطية لقوالب التقارير الإلكترونية‬.
 
-![صفحة معلمات التقارير الإلكترونية.](./media/GER-BackupTemplates-5.png)
+![صفحة معلمات التقارير الإلكترونية](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>الاسترداد اليدوي
 
@@ -100,6 +102,3 @@ ms.locfileid: "6767867"
 [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 
 [تكوين إطار عمل إعداد التقارير الإلكترونية (ER)](electronic-reporting-er-configure-parameters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

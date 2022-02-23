@@ -2,9 +2,11 @@
 title: تطبيق عوامل تصفية على خطة
 description: يشرح هذا الموضوع كيفية استخدام عوامل التصفية في خطة عند استخدام وظيفة "تحسين التخطيط".
 author: ChristianRytt
+manager: tfehr
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 0e65d04b7b5261ffe72e67ef5321967f7af0ca20
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729017"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970371"
 ---
 # <a name="apply-filters-to-a-plan"></a>تطبيق عوامل تصفية على خطة
 
@@ -43,7 +45,7 @@ ms.locfileid: "7729017"
 - **عامل التصفية وقت التشغيل الذي يتضمن كافة الأصناف (عامل التصفية الفارغ):** يتم تضمين الأصناف A و B و C في تشغيل التخطيط ، وتتم الكتابة فوق الإخراج السابق للتخطيط الخاص بالأصناف A و B.
 
 > [!NOTE]
-> إذا قمت بتعيين عامل تصفية خطة على الخطة التي تم تحديدها على أنها **الخطة الرئيسية الديناميكية الحالية** في صفحة **معلمات التخطيط الرئيسي**، ثم ستقتصر وظيفة المخطط الرئيسي الديناميكي على العناصر التي تمت تصفيتها. على سبيل المثال ، إذا تم تحديث صافي المتطلبات لصنف ليس جزءا من عامل تصفيه الخطة ، فلن يتم إنشاء إيه نتيجة.
+> وينبغي تجنب إعداد عامل تصفيه الخطة علي الخطة المحددة كـ **خطة رئيسيه ديناميكية حاليه** في صفحه **معلمات التخطيط الرئيسية**. وبخلاف ذلك ، سيتم تحديد وظيفة الخطة الرئيسية الديناميكية للأصناف التي تمت تصفيتها. على سبيل المثال ، إذا تم تحديث صافي المتطلبات لصنف ليس جزءا من عامل تصفيه الخطة ، فلن يتم إنشاء إيه نتيجة.
 
 ## <a name="related-resources"></a>الموارد ذات الصلة
 
@@ -56,6 +58,3 @@ ms.locfileid: "7729017"
 [عرض سجل محفوظات الخطط والتخطيط](plan-history-logs.md)
 
 [إلغاء وظيفة تخطيط](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

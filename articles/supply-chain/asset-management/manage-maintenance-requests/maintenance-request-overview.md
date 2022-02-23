@@ -1,29 +1,34 @@
 ---
 title: طلبات الصيانة
 description: يوفر هذا الموضوع نظرة عامة حول إدارة طلبات الصيانة في إدارة الأصول
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985243"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019619"
 ---
 # <a name="maintenance-requests"></a>طلبات الصيانة
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 طلبات الصيانة هي ملاحظات أو إقرارات تم إنشاؤها لإعلام المدير أو المخطط بأن أحد الأصول قد يحتاج إلى مهمة صيانة أو إصلاح، ولكن من دون إنشاء أمر عمل. إذا تم اعتبار محتويات طلب الصيانة صالحة، يمكن بعد ذلك إنشاء أمر عمل استنادًا إلى طلب الصيانة.
 
@@ -39,7 +44,7 @@ ms.locfileid: "7985243"
 
 لعرض طلبات الصيانة، حدد **إدارة الأصول** \> **عام** \> **طلبات الصيانة** \> **جميع طلبات الصيانة** أو **طلبات الصيانة النشطة** أو **طلبات الصيانة الخاصة بموقع العمل لدي**. تعرض كل صفحة قائمة بعض المعلومات المتعلقة بطلب صيانة.
 
-![عرض طلبات الصيانة.](media/01-manage-maintenance-requests.png)
+![عرض طلبات الصيانة](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > استخدم صفحة قائمة **طلبات الصيانة الخاصة بموقع العمل لدي** لعرض قائمة بطلبات الصيانة التي تحتوي على مواقع العمل التي ترتبط بها كعامل أو أصول يتم تثبيتها في مواقع عمل ترتبط بها كعامل. (لمزيد من المعلومات حول كيفيه إعداد مواقع عمل على عاملي الصيانة، راجع [عاملو الصيانة ومجموعات عاملي الصيانة‬](../setup-for-objects/workers-and-worker-groups.md).)
@@ -48,7 +53,7 @@ ms.locfileid: "7985243"
 
 لفتح طريقه عرض تفاصيل أحد السجلات، في صفحة قائمة **جميع طلبات الصيانة**، في طريقة عرض الشبكة، حدد ارتباطًا في عمود **طلب الصيانة**.
 
-![عرض تفاصيل طلب الصيانة..](media/02-manage-maintenance-requests.png)
+![عرض تفاصيل طلب الصيانة.](media/02-manage-maintenance-requests.png)
 
 تم تنظيم الأزرار الموجودة في جزء الإجراءات على علامات تبويب. يصف الجدول التالي بإيجاز الأزرار المتعلقة بإدارة الأصول.
 
@@ -67,6 +72,3 @@ ms.locfileid: "7985243"
 | إرسال الأصل المقترض                  | حدد أصلاً مقترضًا يجب أن يكون بديلاً مؤقتًا للأصل المحدد في طلب الصيانة المحدد. |
 | الأصل المقترض المرتجع                | تسجيل الأصل المقترض كمرتجع. |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

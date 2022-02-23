@@ -2,9 +2,11 @@
 title: ‬‏‫إنشاء فترات زمنية لالتقاط العميل وتحديثها
 description: يوضح هذا الموضوع كيفية إنشاء فترات زمنية لالتقاط العميل وتكوينها وتحديثها في المراكز الرئيسية لـ Commerce.
 author: anupamar-ms
+manager: AnnBe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713411"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828201"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>‬‏‫إنشاء فترات زمنية لالتقاط العميل وتحديثها
 
@@ -34,7 +36,7 @@ ms.locfileid: "6713411"
 
 يبين يوضح الرسم التوضيحي التالي مثالاً على اختيار الفترة الزمنية أثناء السداد مع الخروج من التجارة الإلكترونية.
 
-![مثال على اختيار الفترة الزمنية أثناء السداد مع الخروج من التجارة الإلكترونية.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![مثال على اختيار الفترة الزمنية أثناء السداد مع الخروج من التجارة الإلكترونية](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>خصائص الفترة الزمنية
 
@@ -60,7 +62,7 @@ ms.locfileid: "6713411"
 - **الأيام النشطة** -تحديد أيام الأسبوع عندما تكون الفترات الزمنيه للالتقاط نشطة. تتيح هذه الخاصية لبائع التجزئة تحديد الأيام التي يريد فيها دعم أوامر الالتقاط.
 - **قنوات البيع بالتجزئة** – حدد قنوات البيع بالتجزئة. يمكن ربط كل فترة زمنية بواحد أو أكثر من متاجر البيع بالتجزئة. اعتمادًا على ساعات عمل كل متجر، يمكن إنشاء إدخال أو أكثر من مدخلات الفترة الزمنية وربطها بقناة. 
 
-<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 يمكن تكوين نموذج الفترة الزمنية مرة واحدة فقط لكل قناة. وتتضمن هذه القنوات المتاجر التقليدية ومراكز الاتصال والأجهزة المحمولة ومواقع التجارة الإلكترونية.
 
@@ -85,14 +87,14 @@ ms.locfileid: "6713411"
     > [!NOTE]
     > يمكنك إنشاء عدة قوالب، ولكن يمكن ربط نموذج واحد فقط بقناة واحدة أو متجر واحد.
 
-    ![مربع الحوار التقاط الأمر - إعدادات الوقت.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![مربع الحوار التقاط الأمر - إعدادات الوقت](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. عند الانتهاء، حدد **موافق**.
 1. إذا اختلفت الفترات الزمنية في يوم ما، فقم بإنشاء إدخالات إضافية في علامة التبويب السريعة **التقاط الأمر - إعدادات الوقت** لضمان عدم تداخل التواريخ والأوقات.
 1. في علامة التبويب السريعة **قنوات البيع بالتجزئة** ، حدد **إضافة** لربط نموذج الفترة الزمنية بالمتاجر أو القنوات التي سيتم استخدامه فيها.
 1. في مربع الحوار **اختر عُقد المؤسسة** ، استخدم أزرار الأسهم لتحديد (أو مسح تحديد) المتاجر والمناطق والمؤسسات التي يجب أن يرتبط بها القالب.
 
-    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. عند الانتهاء، حدد **موافق**.
 1. في صفحة **جدول التوزيع** ، قم بتشغيل المهمتين **1070** و **1135** لمزامنة البيانات مع القنوات.
@@ -103,7 +105,7 @@ ms.locfileid: "6713411"
 
 يبين يوضح الرسم التوضيحي التالي مثالاً على اختيار الفترة الزمنية لأمر نقطة البيع.
 
-![مثال على تحديد الفترة الزمنية لأمر نقطة البيع.](../dev-itpro/media/Curbside_timeslot_POS.png)
+![مثال علي تحديدات الفترة الزمنية لأمر نقطة البيع](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>تحديد الفترة الزمنية لأوامر التجارة الإلكترونية
 
@@ -114,17 +116,14 @@ ms.locfileid: "6713411"
 
 يبين الرسم التوضيحي التالي مثالاً لأمر التجارة الإلكترونية حيث تم تحديد فترة زمنية للاستلام.
 
-![مثال على أمر تجارة إلكترونية تم فيه تحديد فترة زمنية للانتقاء.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![مثال على أمر تجارة إلكترونية تم فيه تحديد فترة زمنية للانتقاء](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>تحديد الفترة الزمنية لأوامر مركز الاتصال
 
 في تطبيق مركز الاتصال، يمكن لوكلاء مركز الاتصال تحديد مخزن الانتقاء أو الموقع، بالإضافة إلى فتحة التاريخ والوقت كنص مميز في التوضيح التالي.
 
-![مثال على أمر بمركز الاتصال تم فيه تحديد فترة زمنية للانتقاء.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![مثال على أمر بمركز الاتصال تم فيه تحديد فترة زمنية للانتقاء](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[وحدة معلومات الاستلام](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[الوحدة النمطية لمعلومات الالتقاط](../pickup-info-module.md)

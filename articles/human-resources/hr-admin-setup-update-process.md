@@ -2,12 +2,15 @@
 title: تحديث العملية
 description: إن Microsoft Dynamics 365 Human Resources عبارة عن خدمة تأجير برامج (SaaS) حقيقية توفر تحديثات خدمة مستمرة بدون لمس للتغييرات في التطبيق والنظام الأساسي.
 author: andreabichsel
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2af1f710ca010041bd684bca8ecfa6f20ac30d46
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063100"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527782"
 ---
 # <a name="update-process"></a>تحديث العملية
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يُعد Microsoft Dynamics 365 Human Resources بمثابة خدمة تأجير برامج (SaaS) حقيقة توفير تحديثات خدمة مستمرة بدون لمس. تحتوي هذه التحديثات على تغييرات في كل من التطبيق والنظام الأساسي التي غالبًا ما توفر تحسينات هامة للخدمة، بما في ذلك التحديثات التنظيمية.
 
@@ -38,11 +39,11 @@ ms.locfileid: "8063100"
 
 يتم تطبيق تحديثات Human Resources على كافة البيئات تلقائيًا. يوفر Human Resources نوعين من الإصدارات:
 
-- **تحديثات الخدمة**: تتم التحديثات كل أسبوعين وتشمل إصلاحات الأخطاء والميزات الجديدة. وتتضمن تحديثات الخدمة أيضًا تحديثا النظام الأساسي المطبقة عند إصدارها. للحصول على فكرة عن وقت إصدار تحديثات النظام الأساسي، راجع [الجدول 3: إصدارات النظام الأساسي](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). تحتوي التحديثات كل أسبوعين على عملية تمهيدية عامة مقسمة عبر مناطق. لمزيد من المعلومات حول التحديثات كل أسبوعين، راجع [راجع ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **تحديثات الخدمة**: تتم التحديثات كل أسبوعين وتشمل إصلاحات الأخطاء والميزات الجديدة. وتتضمن تحديثات الخدمة أيضًا تحديثا النظام الأساسي المطبقة عند إصدارها. للحصول على فكرة عن وقت إصدار تحديثات النظام الأساسي، راجع [الجدول 3: إصدارات النظام الأساسي](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). تحتوي التحديثات كل أسبوعين على عملية تمهيدية عامة مقسمة عبر مناطق. لمزيد من المعلومات حول التحديثات كل أسبوعين، راجع [راجع ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     يتم تحديث كافة مراكز بيانات المدعومة كل أسبوعين، ما لم يرد خلاف ذلك. يتم تضمين مناطق الولايات المتحدة الأمريكية وأوروبا والمملكة المتحدة وآسيا وكندا في التحديثات كل أسبوعين. 
 
-- **تحديثات حل Dataverse**: تُجرى هذه التحديثات كل ستة أسابيع تقريبًا، حسب الحاجة. وهي تتضمن كيانات جديدة وتغييرات للكيانات الموجودة في Dataverse. وتصدر هذه التحديثات لنفس المناطق بوصفها التحديثات كل أسبوعين، وتستغرق حوالي ستة أسابيع للنسخ المتماثل عبر كافة مراكز البيانات. قد تتوافق أو لا تتوافق تحديثات الحلول مع تحديثات الخدمة كل أسبوعين.
+- **تحديثات حل Common Data Service**: تُجرى هذه التحديثات كل ستة أسابيع تقريبًا، حسب الحاجة. وهي تتضمن كيانات جديدة وتغييرات للكيانات الموجودة في Common Data Service. وتصدر هذه التحديثات لنفس المناطق بوصفها التحديثات كل أسبوعين، وتستغرق حوالي ستة أسابيع للنسخ المتماثل عبر كافة مراكز البيانات. قد تتوافق أو لا تتوافق تحديثات الحلول مع تحديثات الخدمة كل أسبوعين.
 
 > [!NOTE]
 > تتوفر تحديثات الحلول في كافة مراكز البيانات بمجرد إصدارها. إذا كنت لا ترغب في انتظار التحديثات للنسخ المتماثل تلقائيًا، يُمكن تطبيق هذه التحديثات يدويًا على أي بيئة في أي مركز بيانات.
@@ -55,14 +56,14 @@ ms.locfileid: "8063100"
 
 تتم مراجعة الإصدارات واختبارها والتحقق من صحتها في بيئة داخلية. بعد تسجيل الخروج من الإصدارات، يتم نشرها بعد ذلك إلى الإنتاج.
 
-## <a name="release-cadence-exceptions-in-2021"></a>إصدار استثناءات الوتيرة في 2021
+## <a name="release-cadence-exceptions-in-2020"></a>إصدار استثناءات الوتيرة في 2020
 
-لحساب الإجازات، يكون جدول الإصدار لشهري نوفمبر وديسمبر 2021 كالتالي:
+لحساب الإجازات، يكون جدول الإصدار لشهري نوفمبر وديسمبر 2020 كالتالي:
 
-- إصدار شهر نوفمبر: 1 نوفمبر - 14 نوفمبر
-- إصدار شهر ديسمبر: 29 نوفمبر - 12 ديسمبر
+- إصدار شهر نوفمبر: 2 نوفمبر - 13 نوفمبر
+- إصدار شهر ديسمبر: 30 نوفمبر - 11 ديسمبر
  
-سيتم استئناف وتيرة الإصدار من أسبوعين بالشكل المعتاد في 10 يناير 2022.
+سيتم استئناف وتيرة الإصدار من أسبوعين بالشكل المعتاد في 11 يناير 2021.
 
 ## <a name="communications"></a>المراسلات
 
@@ -70,11 +71,11 @@ ms.locfileid: "8063100"
 
 - [مخطط Dynamics 365 Human Resources ](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [خطط إصدار Dynamics 365](/dynamics365/release-plans/)
+- [خطط إصدار Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
 
 - [ما الجديد أو المتغير‬ في Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [البحث عن المشاكل في Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (لإصلاح الأخطاء المتعلقة بالنظام الأساسي فقط)
+- [البحث عن المشاكل في Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (لإصلاح الأخطاء المتعلقة بالنظام الأساسي فقط)
 
 - [مدونة Human Resources](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -82,7 +83,7 @@ ms.locfileid: "8063100"
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>ميزات المعاينة في بيئة الحماية
 
-يُمكنك التحقق من صحة ميزات المعاينة في بيئة الحماية قبل تمكينها في بيئة الإنتاج الخاصة بك. لمزيد من المعلومات حول تمكين الميزات، راجع [نظرة عامة على إدارة الميزات](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+يُمكنك التحقق من صحة ميزات المعاينة في بيئة الحماية قبل تمكينها في بيئة الإنتاج الخاصة بك. لمزيد من المعلومات حول تمكين الميزات، راجع [نظرة عامة على إدارة الميزات](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 تبقي كافة الميزات الجديدة في معاينه لمده 30 يوما على الأقل، وبشكل نموذجي 30-60 يوما. تتوفر الميزات الرئيسية بشكل عام في أكتوبر و ابريل من كل عام يتبع فتره المعاينة. بمجرد ان تشاهد إمكانيات جديده في مساحة عمل إدارة الميزات، يمكنك تشغيلها. قد تكون بعض الميزات قيد التشغيل بشكل افتراضي.
 
@@ -100,10 +101,7 @@ ms.locfileid: "8063100"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[خطط إصدار Dynamics 365 و Power Platform](/dynamics365/release-plans)</br>
+[خطط إصدار Dynamics 365 و Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
 [ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
-[سياسة دورة حياة البرامج](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
+[سياسة دورة حياة البرامج](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

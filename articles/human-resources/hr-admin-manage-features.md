@@ -1,39 +1,37 @@
 ---
-title: إدارة الميزات في الموارد البشرية
-description: يصف هذا الموضوع ميزة إدارة الميزات وكيف يمكن استخدامها.
-author: twheeloc
-ms.date: 08/19/2021
+title: إدارة الميزات
+description: التعرف على كيفية تشغيل الميزات الجديدة أو إيقاف تشغيلها في Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069697"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417149"
 ---
-# <a name="manage-features-in-human-resources"></a>إدارة الميزات في الموارد البشرية
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="manage-features"></a>إدارة الميزات
 
 كجزء من عملية النشر المستمر لإمكانات جديدة لـ Microsoft Dynamics 365 Human Resources، نحن نريد السماح للعملاء بتجربة الميزات الجديدة في أقرب وقت ممكن. نوفر ميزات المعاينة، والتي تكون جاهزة تقريبًا للتوفر العام وقد خضعت للاختبارات الشاملة. ونحن فقط نبحث عن جولة نهائية من ملاحظات العملاء والتحقق من الصحة قبل أن نقوم بشكل عام بتحرير الميزات.
 
-لمزيد من المعلومات حول الميزات الجديدة في Human Resources، راجع [ما الجديد في Human Resources](hr-admin-whats-new.md) و[Dynamics 365 وخطة إصدار Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
+لمزيد من المعلومات حول الميزات الجديدة في Human Resources، راجع [ما الجديد في Human Resources](hr-admin-whats-new.md) و[Dynamics 365 وخطة إصدار Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
 
-توفر مساحة عمل **إدارة الميزات** قائمة بالميزات التي يتم تسليمها في كل إصدار. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها. لمزيد من المعلومات حول إدارة الميزات، راجع [نظرة عامة على إدارة الميزات](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+توفر مساحة عمل **إدارة الميزات** قائمة بالميزات التي يتم تسليمها في كل إصدار. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها. لمزيد من المعلومات حول إدارة الميزات، راجع [نظرة عامة على إدارة الميزات](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 تبقي كافة الميزات الجديدة في معاينه لمده 30 يوما علي الأقل ، وبشكل نموذجي 30-60 يوما. تتوفر الميزات الرئيسية بشكل عام في أكتوبر و ابريل من كل عام يتبع فتره المعاينة. بمجرد أن تشاهد إمكانيات جديده في مساحة عمل **إدارة الميزات**، يمكنك تشغيلها. قد تكون بعض الميزات قيد التشغيل بشكل افتراضي.
 
@@ -72,7 +70,7 @@ ms.locfileid: "8069697"
 - **سياسات استحقاق المزايا**
 - **أحداث الاستحقاق**
 
-يُمكنك عرض المعلومات الموجودة في هذه الصفحات في وضع القراءة فقط. إذا كنت ترغب في تحرير المعلومات، فيجب أولاً تعطيل إدارة المزايا (ينطبق ذلك على **بيئات الاختبار المعزولة** فقط).
+يُمكنك عرض المعلومات الموجودة في هذه النماذج في وضع القراءة فقط. إذا كنت ترغب في تحرير المعلومات، فيجب أولاً تعطيل إدارة المزايا (ينطبق ذلك على **بيئات الاختبار المعزولة** فقط).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>تمكين أو تعطيل الإجازة والغياب
 
@@ -95,6 +93,4 @@ ms.locfileid: "8069697"
 ## <a name="see-also"></a>راجع أيضًا
 
 - [ما الجديد في Human Resources](hr-admin-whats-new.md)
-- [خطة إصدار Dynamics 365 و Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [خطة إصدار Dynamics 365 و Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)

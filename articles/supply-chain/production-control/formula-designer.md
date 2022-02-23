@@ -1,27 +1,30 @@
 ---
 title: مصمم المعادلة
 description: يشرح هذا المقال كيفية استخدام مصمم المعادلة لتحليل وصيانة المعادلات في طريقة الشجرة.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8778d6a4d834af2151e0bced0b0f27d98f088a34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566782"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421305"
 ---
 # <a name="formula-designer"></a>مصمم المعادلة
 
@@ -118,6 +121,3 @@ ms.locfileid: "7566782"
 |     قائمة مكونات الصنف     | استخدم خانات الاختيار لتحديد المعايير التي يتم عرضها في بنية الشجرة. يعرض مصمم المعادلة المعايير المحددة في أسفل علامتي التبويب. |
 |    المسار    |                                           استخدم خانات الاختيار لتحديد المعايير التي يتم عرضها للمسارات.                                           |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

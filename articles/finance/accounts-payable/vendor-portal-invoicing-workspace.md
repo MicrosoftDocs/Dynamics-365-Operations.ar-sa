@@ -2,25 +2,28 @@
 title: مساحة عمل فوترة تعاون المورد
 description: يشرح هذا الموضوع كيفية عرض فواتير المورد وإرسال الفواتير من مساحة عمل فوترة تعاون المورد.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 972edcafb415e272c224b6cce8878769de503b9a278c7de3d003327d5e0c451e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 626607814d6c747d74a13de284db097f0efd8a0c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722733"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439781"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>مساحة عمل فوترة تعاون المورد
 
@@ -31,7 +34,8 @@ ms.locfileid: "6722733"
 يمكن استخدام مساحة عمل **فوترة تعاون المورد**‬ لعرض معلومات حول فواتير المورد وتقديم الفواتير إلى النظام باستخدام قدرات سير العمل.
 
 
-## <a name="vendor-collaboration-invoicing-workspace"></a>مساحة عمل فوترة تعاون المورد
+<a name="vendor-collaboration-invoicing-workspace"></a>مساحة عمل فوترة تعاون المورد
+----------------------------------------
 
 ### <a name="summary-tiles"></a>لوحات الملخص
 
@@ -58,6 +62,3 @@ ms.locfileid: "6722733"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

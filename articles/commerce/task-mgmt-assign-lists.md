@@ -1,30 +1,35 @@
 ---
 title: تعيين قوائم المهام إلى المتاجر أو الموظفين
-description: يصف هذا الموضوع كيفية تعيين قوائم المهام للمتاجر أو للموظفين في Microsoft Dynamics 365 Commerce.
+description: يصف هذا الموضوع كيفيه تعيين قوائم المهام للمتاجر أو للموظفين في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 18f13fb1754b2740b8447a67f09320651b0ca4003c6f46c6d4668e5159ae1a2d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82cec9861b759037f40315fb2e6f36002a0ac059
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730817"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409958"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>تعيين قوائم المهام إلى المتاجر أو الموظفين
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية تعيين قوائم المهام للمتاجر أو للموظفين في Microsoft Dynamics 365 Commerce.
+يصف هذا الموضوع كيفيه تعيين قوائم المهام للمتاجر أو للموظفين في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 تتيح إدارة المهام في Dynamics 365 Commerce تعيين قائمة مهام للعديد من المتاجر أو الموظفين، أو لمجموعة من المتاجر والموظفين. على سبيل المثال، قد يحتاج المدير الإقليمي لـ 20 متجرًا إلى تعيين قائمة مهام **التحضير لموسم العطلات** إلى الـ 20 متجراً جميعهم.
 
@@ -45,7 +50,7 @@ ms.locfileid: "6730817"
 
 يبين الرسم التوضيحي التالي مثال حول كيفية البحث عن المتاجر وتحديدها في مربع الحوار **‏‫بدء العملية‬**.
 
-![البحث عن المتاجر وتحديدها في مربع الحوار "بدء العملية".](media/HQ-Assign-Tasks-Lists.png)
+![البحث عن المتاجر وتحديدها في مربع الحوار "بدء العملية"](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>تعيين قوائم المهام علي بشكل متكرر
 
@@ -62,7 +67,7 @@ ms.locfileid: "6730817"
 
 يبين الرسم التوضيحي التالي مثالاً لكيفية إدخال معايير التكرار في مربع الحوار **تعريف التكرار**.
 
-![إدخال معايير التكرار في مربع الحوار ‏‫تعريف التكرار‬.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![إدخال معايير التكرار في مربع الحوار ‏‫تعريف التكرار‬](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>تعقب حاله قائمة المهام
 
@@ -87,6 +92,3 @@ ms.locfileid: "6730817"
 [إنشاء قوائم مهام وإضافة مهام](task-mgmt-create-lists.md)
 
 [إدارة المهام في نقطة البيع](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

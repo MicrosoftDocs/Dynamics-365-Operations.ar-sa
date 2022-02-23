@@ -1,27 +1,30 @@
 ---
 title: تصميم المؤسسة المرنة
 description: توفر هذه المقالة معلومات حول المفاهيم الأساسية في تصميم مؤسسة مرنة.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, KanbanFlowSelection, KanbanFlow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3958d21188163fe95e36ba4b8117ae8314b0fd1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 960ba8851810ff528581144ad863772f18f9fa79
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570191"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421593"
 ---
 # <a name="modeling-a-lean-organization"></a>تصميم المؤسسة المرنة
 
@@ -51,7 +54,7 @@ ms.locfileid: "7570191"
 
 يتم تصميم تدفق القيم بحد ذاته كوحدة تشغيل. وبالتالي، يمكن استخدام تدفق القيم كبُعد مالي.
 
-لمزيد من المعلومات حول كيفية إنشاء وحدات عاملة، راجع [إنشاء وحدة تشغيل](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
+لمزيد من المعلومات حول كيفية إنشاء وحدات عاملة، راجع [إنشاء وحدة تشغيل](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>تكلفة lean manufacturing استناداً إلى تدفق الإنتاج
 يعمل دمج التكلفة الدوري لتدفق الإنتاج على تصحيح حساب العمل قيد التقدم المرتبط ويسمح بتحديد فروقات للمنتجات التي تم توفيرها بواسطة تدفق الإنتاج.
@@ -64,6 +67,3 @@ ms.locfileid: "7570191"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

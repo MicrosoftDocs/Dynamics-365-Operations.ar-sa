@@ -1,10 +1,12 @@
 ---
 title: خطط الصيانة المجدولة
 description: يشرح هذا الموضوع كيفية جدولة خطط الصيانة في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731309"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016896"
 ---
 # <a name="schedule-maintenance-plans"></a>خطط الصيانة المجدولة
 
@@ -52,14 +54,14 @@ ms.locfileid: "6731309"
 
 5. انقر فوق **موافق** لبدء إنشاء إدخالات جدول الصيانة على الأصول. ستظهر الإدخالات المُنشأة في صفحة قائمة **جدول الصيانة بكامله**. يبين الرسم التوضيحي التالي مثالاً لمربع حوار **‏‫خطط الصيانة المجدولة‬**.
 
-![الشكل 1.](media/09-preventive-maintenance.png)
+![الشكل 1](media/09-preventive-maintenance.png)
 
 - في مربع الحوار **جدولة خطط الصيانة**، يمكنك إعداد وظائف دفعية على علامة التبويب السريعة **تشغيل في الخلفية** لإنشاء إدخالات التقويم تلقائيًا في فترات زمنية منتظمة.  
 - عندما تقوم بجدولة الصيانة الوقائية، لن يتم إنشاء بنود جدول الصيانة ذات تاريخ ووقت بدء متوقعين أبكر من تاريخ ووقت النظام.  
 
 يوفر الشكل أدناه رسمًا توضيحيًا لحساب خطة الصيانة المستندة إلى الوقت.  
 
-![الشكل 2.](media/10-preventive-maintenance.jpg)
+![الشكل 2](media/10-preventive-maintenance.jpg)
 
 فيما يتعلق بخطط الصيانة التي تعتمد على العدادات: في الأرقام أدناه، يتم عرض دورتي تسجيل مختلفتين للعداد. وهما تستندان إلى خطة صيانة تم إعدادها للأصل "V0001"، حيث من المتوقع أن يقطع الأصل (سيارة) مسافة تبلغ حوالي 2,000 كيلومتر كل شهر.
 
@@ -69,10 +71,7 @@ ms.locfileid: "6731309"
 
 توضح الأمثلة الموضحة هنا أن جميع تسجيلات العداد التي تمت على أحد الأصول تظهر اتجاهًا يصف مدى استهلاك الأصل. يُستخدم هذا الاتجاه كأساس حساب عند جدولة خطة الصيانة.
 
-![الشكل 3.](media/11-preventive-maintenance.png)
+![الشكل 3](media/11-preventive-maintenance.png)
 
-![الشكل 4.](media/12-preventive-maintenance.png)
+![الشكل 4](media/12-preventive-maintenance.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

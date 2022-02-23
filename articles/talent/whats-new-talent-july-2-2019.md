@@ -55,6 +55,3 @@ ms.locfileid: "4460266"
 ## <a name="changes-in-core-hr"></a>التغييرات في Core HR
 
 يتضمن هذا الإصدار إصلاحات أخطاء ثانوية في Dynamics 365 Talent: Core HR.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

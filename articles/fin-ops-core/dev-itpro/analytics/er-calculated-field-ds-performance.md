@@ -2,9 +2,11 @@
 title: تحسين أداء حلول التقارير الإلكترونية‬ عن طريق إضافة مصادر بيانات الحقول المحسوبة ذات معلمات
 description: يشرح هذا الموضوع كيف يمكنك المساعدة في تحسين أداء حلول التقارير الإلكترونية عن طريق إضافة مصادر بيانات الحقول المحسوبة ذات معلمات.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753660"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681270"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>تحسين أداء حلول التقارير الإلكترونية‬ عن طريق إضافة مصادر بيانات الحقول المحسوبة ذات معلمات
 
@@ -56,7 +58,7 @@ ms.locfileid: "6753660"
     2. حدد **استعراض**، وحدد الملف المناسب لتكوين التقارير الإلكترونية المطلوب بتنسيق XML.
     3. حدد **موافق**.
 
-![التكوينات المستوردة على صفحة التكوينات.](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![التكوينات المستوردة على صفحة التكوينات](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>مراجعة عينة حل التقارير الإلكترونية
 
@@ -76,7 +78,7 @@ ms.locfileid: "6753660"
 
     يقوم تعيين النموذج في هذا التكوين بتنفيذ نموذج البيانات الأساسي لأي من تنسيقات التقارير الإلكترونية التي تم إنشاؤها لهذا النموذج وتم تشغيلها في Finance. نتيجة لذلك، يتم كشف محتوى مصدر البيانات **Trans** لتنسيقات التقارير الإلكترونية مثل مصادر البيانات المجردة **النموذج**.
 
-    ![مصدر البيانات Trans في صفحة مصمم تعيين النموذج.](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![مصدر البيانات Trans في صفحة مصمم تعيين النموذج](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. أغلق صفحة **مصمم تعيين النموذج**.
 5. أغلق صفحة **تعيين النموذج إلى مصدر البيانات**.
@@ -90,7 +92,7 @@ ms.locfileid: "6753660"
 
     تم تصميم تنسيق التقارير الإلكترونية هذا لإنشاء تقرير حركات المورّد بتنسيق XML.
 
-    ![مصادر بيانات التنسيق والروابط المكونة لعناصر التنسيق في صفحة مصمم التنسيق.](media/er-calculated-field-ds-performance-format.png)
+    ![مصادر بيانات التنسيق والروابط المكونة لعناصر التنسيق في صفحة مصمم التنسيق](media/er-calculated-field-ds-performance-format.png)
 
 5. أغلق صفحة **مصمم المعادلة**.
 
@@ -103,7 +105,7 @@ ms.locfileid: "6753660"
 1. قم بتحديد شركة **DEMF**.
 2. اتبع الخطوات في [تشغيل تتبع أداء التقارير الإلكترونية‬](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) لإنشاء تتبع أداء أثناء تشغيل تنسيق التقارير الإلكترونية.
 
-    ![مربع حوار معلمات المستخدمين.](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![مربع علامة تبويب معلمات المستخدمين](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>تشغيل تنسيق التقارير الإلكترونية
 
@@ -124,7 +126,7 @@ ms.locfileid: "6753660"
 - الوقت الفعلي الذي استغرقه إحضار البيانات باستخدام مصدر البيانات
 - نفس الوقت معبر عنه كنسبة مئوية من إجمالي الوقت المستغرق في تشغيل تعيين النموذج بالكامل
 
-![تفاصيل وقت التنفيذ على صفحة مصمم تعيين النموذج.](./media/er-calculated-field-ds-performance-mapping-2.png)
+![تفاصيل وقت التنفيذ على صفحة مصمم تعيين النموذج](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 تُظهر شبكة **إحصائيات الأداء** أن مصدر البيانات **Trans** يستدعي الجدول VendTrans مرة واحدة. تشير القيمة **\[265\]\[Q:265\]** لمصدر البيانات **Trans** إلى إحضار حركات المورّد 265 من جدول التطبيق وتم إرجاعها إلى نموذج البيانات.
 
@@ -137,7 +139,7 @@ ms.locfileid: "6753660"
 
 - ويتم استدعاء جدول المورّد لكل حركة من حركات المورّد المكررة، على الرغم من ترحيل الحركات التي تم إحضارها لخمسة مورّدين فقط. من بين 530 استدعاء، هناك 525 استدعاء مكرر. يبين الرسم التوضيحي التالي الرسالة التي تتلقاها حول الاستدعاءات المكررة (طلبات قواعد البيانات).
 
-![رسالة حول طلبات قواعد البيانات المكررة في صفحة مصمم تعيينات النماذج.](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![رسالة حول طلبات قواعد البيانات المكررة في صفحة مصمم تعيينات النماذج](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 بالنسبة للوقت الإجمالي لتنفيذ تعيين النموذج (ثماني ثوان تقريبًا)، يمكنك الملاحظة أنه تم قضاء 80 بالمئة (ست ثوانٍ تقريبًا) في استرداد القيم من جدول التطبيق VendTable. هذه النسبة المئوية كبيرة جدًا لسمتين من خمسة مورّدين، مقارنةً بحجم المعلومات من جدول التطبيق VendTrans.
 
@@ -172,7 +174,7 @@ ms.locfileid: "6753660"
     3. في مربع الحوار، في الحقل **الاسم**، أدخل **المربع**.
     3. حدد **موافق**.
 
-    ![مصدر البيانات مربع في صفحة مصمم تعيين النموذج.](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![مصدر البيانات مربع في صفحة مصمم تعيين النموذج](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. اتبع الخطوات التالية لإضافة مصدر بيانات ذي معلمات من نوع **الحقل المحسوب**:
 
@@ -208,7 +210,7 @@ ms.locfileid: "6753660"
 
 9. حدد **حفظ**.
 
-    ![مصدر البيانات Vend في صفحة مصمم تعيين النموذج.](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![مصدر البيانات Vend في صفحة مصمم تعيين النموذج](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. أغلق صفحة **مصمم تعيين النموذج**.
 11. أغلق صفحة **تعيينات النماذج**.
@@ -232,11 +234,11 @@ ms.locfileid: "6753660"
 
 لاحظ أن التسويات التي أجريتها على تعيين النموذج قد تقوم بإزالة الاستعلامات المكررة لقاعدة البيانات. يتم أيضًا تقليل عدد الاستدعاءات إلى جداول قاعدة البيانات ومصادر البيانات لتعيين هذا النموذج.
 
-![تتبع المعلومات في صفحة مصمم تعيين النموذج 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
+![تتبع المعلومات في صفحة مصمم تعيين النموذج 1](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 تم تقليل وقت التنفيذ الإجمالي حوالي 20 مرة (من 8 ثوان إلى حوالي 400 مللي ثانية). وبالتالي، تم تحسين أداء حل التقارير الإلكترونية بالكامل.
 
-![تتبع المعلومات في صفحة مصمم تعيين النموذج 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![تتبع المعلومات في صفحة مصمم تعيين النموذج 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>الملحق 1: تنزيل مكونات عينة حل التقارير الإلكترونية من Microsoft
 
@@ -244,9 +246,9 @@ ms.locfileid: "6753660"
 
 | ملف                                        | المحتوى |
 |---------------------------------------------|---------|
-| تحسين الأداء model.version.1     | [تكوين نموذج عينة بيانات التقارير الإلكترونية](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
-| تحسين الأداء mapping.version.1.1 | [تكوين تعيين نموذج عينة التقارير الإلكترونية](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
-| تحسين الأداء format.version.1.1  | [تكوين تنسيق عينة التقارير الإلكترونية](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
+| تحسين الأداء model.version.1     | [تكوين نموذج عينة بيانات التقارير الإلكترونية](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| تحسين الأداء mapping.version.1.1 | [تكوين تعيين نموذج عينة التقارير الإلكترونية](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| تحسين الأداء format.version.1.1  | [تكوين تنسيق عينة التقارير الإلكترونية](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>الملحق 2: تكوين إطار عمل التقارير الإلكترونية
 
@@ -298,6 +300,3 @@ ms.locfileid: "6753660"
 - [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
 - [تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها](trace-execution-er-troubleshoot-perf.md)
 - [دعم استدعاءات ذات معلمات لمصادر بيانات التقارير الإلكترونية لنوع الحقل المحسوب‬](er-calculated-field-type.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

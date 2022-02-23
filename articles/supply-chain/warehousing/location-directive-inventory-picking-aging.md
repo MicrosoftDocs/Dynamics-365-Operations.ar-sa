@@ -2,23 +2,26 @@
 title: تقادم انتقاء مخزون لتوجيه الموقع
 description: يوضح هذا الموضوع كيفية استخدام استراتيجيات توجيهات الموقع ما يرد أولاً يصرف أولاً (FIFO) وما يرد أخيرًا يصرف أولاً (LIFO) أثناء الانتقاء.
 author: mirzaab
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 83f73052d1d9d8a29a80ce3cf1035a259cd92c17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421689"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>تقادم انتقاء مخزون لتوجيه الموقع
 
@@ -137,6 +140,3 @@ ms.locfileid: "7578574"
 1. لاحظ أن السطر الذي يحتوي على **نوع العمل** بالقيمة *انتقاء*، يظهر فيه **الموقع** بالقيمة *FL-001*. يحتوي هذا الموقع على لوحة الترخيص ذات أحدث تاريخ تقادم (‫ما يرد أولاً يصرف أولاً‬).
 
 لقد تعرفت في هذه السيناريوهات على كيفية توجيه استراتيجية تقادم الموقع العمل إلى موقع المخزون الذي يحتوي على أقدم مخزون أو أحدث مخزون وفقًا للاستراتيجية المحددة.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

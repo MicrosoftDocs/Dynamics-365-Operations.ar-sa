@@ -2,27 +2,28 @@
 title: الصفحة الرئيسية لتأجير الأصل
 description: يقدم هذا الموضوع نظرة عامة حول وثائق تأجير الأصول والارتباطات إلى موضوعات محددة.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseLeasingWorkspace
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "4464"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d187f094a7d13e26a6121a2115c146c1372dba46bcafd423a3683d73a1e779f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd32ad1b745d1bfda25abf57330fb1385014e4fc
+ms.sourcegitcommit: f0f5545a8ff99583e0131f435d91c64bb68a1c38
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775208"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4440164"
 ---
 # <a name="asset-leasing-home-page"></a>الصفحة الرئيسية لتأجير الأصل
 
@@ -30,9 +31,7 @@ ms.locfileid: "6775208"
 
 يسرد هذا الموضوع مواضيع التعليمات المتوفرة لتأجير الأصول، ويتضمن ارتباطات لمواضيع معينة. 
 
-تأجير الأصول عبارة عن إمكانية متقدمة لإدارة الحركات المالية للأصول المؤجرة وتعقبها وأتمتتها في Microsoft Dynamics 365 Finance. تتوافق وحدة تأجير الأصول مع معايير المحاسبة العالمية (IFRS 16) ومعايير US GAAP‏ (ASC 842). تقوم تأجير الأصول بالتقاط معلومات الإيجار وتعالجها وتساعد في إنشاء إدخالات دفتر اليومية عبر دورة حياة الإيجار من الإقرار الأولي وإدخالات دفتر اليومية الشهرية وصولاً إلى إهلاك الإيجار وإنهائه.
-
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام مساحة عمل **إدارة الميزات** للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، ابحث عن الميزة المسماة **تأجير الأصول** وحددها، ثم حدد **التمكين الآن**.
+تأجير الأصول عبارة عن إمكانية متقدمة لإدارة الحركات المالية للأصول المؤجرة وتعقبها وأتمتتها في Microsoft Dynamics 365 Finance. تتوافق وحدة تأجير الأصول مع معايير المحاسبة العالمية (IFRS 16) ومعايير US GAAP‏ (ASC 842). تقوم تأجير الأصول بالتقاط معلومات الإيجار وتعالجها وتساعد في إنشاء إدخالات دفتر اليومية عبر دورة حياة الإيجار من الإقرار الأولي وإدخالات دفتر اليومية الشهرية وصولاً إلى إهلاك الإيجار وإنهائه.  
 
 ## <a name="asset-leasing-topics"></a>مواضيع تأجير الأصول
 يتوفر الموضوع التالي للمساعدة في تكوين تأجير الأصول واستخدامها. 
@@ -47,7 +46,7 @@ ms.locfileid: "6775208"
   - [إنشاء مجموعة عقد الإيجار](create-lease-group.md)
   - [إعداد سعر فائدة مرتبط بمؤشر](set-up-index-rate-types.md)
   - [إعداد أنواع المصروفات](set-up-expense-types.md)
-  - [إعداد أسماء دفتر يومية الإيجار](set-up-lease-journal-names.md)
+  - [إعداد أسماء دفاتر اليومية لعقد الإيجار](set-up-lease-journal-names.md)
   - [إعداد ترحيل حسابات عقد الإيجار](set-up-lease-posting-accts.md)
   - [تعيين التسلسلات الرقمية](leasing-number-sequences.md)
   - [تعيين أدوار المستخدم](lease-user-roles.md)
@@ -86,7 +85,7 @@ ms.locfileid: "6775208"
 
 ### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [خطط إصدار Microsoft Dynamics 365](/dynamics365/release-plans/) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
+انتقل إلى [خطط إصدار Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
 
 ### <a name="blogs"></a>المدونات
 
@@ -97,6 +96,3 @@ ms.locfileid: "6775208"
 ### <a name="videos"></a>ملفات الفيديو
 
 راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ). 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

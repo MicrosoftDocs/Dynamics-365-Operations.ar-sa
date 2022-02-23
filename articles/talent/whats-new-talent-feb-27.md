@@ -141,6 +141,3 @@ ms.locfileid: "4529128"
     9. في صفحة **مهمة التعيين**، حدد العمود الجديد كمصدر لإنشاء تعيين آخر للاسم HIERARCHYTYPENAME.
 
         [![التعيين](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

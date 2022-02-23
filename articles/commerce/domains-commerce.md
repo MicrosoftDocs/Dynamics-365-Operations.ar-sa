@@ -1,27 +1,30 @@
 ---
-title: النطاقات في Dynamics 365 Commerce
+title: المجالات في Dynamics 365 Commerce
 description: يصف هذا الموضوع كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+manager: AnnBe
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733981"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517345"
 ---
-# <a name="domains-in-dynamics-365-commerce"></a>النطاقات في Dynamics 365 Commerce
+# <a name="domains-in-dynamics-365-commerce"></a>المجالات في Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +41,7 @@ ms.locfileid: "6733981"
 
 يبين الرسم التوضيحي التالي شاشة توفير التجارة الإلكترونية في LCS مع تمييز المربع **أسماء الأجهزة المضيفة المدعومة**. 
 
-![شاشة توفير التجارة الإلكترونية في LCS مع تمييز المربع **أسماء الأجهزة المضيفة المدعومة**.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![شاشة توفير التجارة الإلكترونية في LCS مع تمييز المربع **أسماء الأجهزة المضيفة المدعومة**](./media/Domains_ProvisioningeCommerceScreen.png)
 
 يمكنك إنشاء طلب خدمة لإضافة المزيد من المجالات إلى بيئة في حال كان التزويد قد حدث بالفعل. لإنشاء طلب خدمة في LCS، انتقل في بيئتك إلى **الدعم \> مشاكل الدعم** وحدد **إرسال حادث**.
 
@@ -56,7 +59,7 @@ ms.locfileid: "6733981"
 
 يبين الرسم التوضيحي التالي مربع الحوار **إعداد موقعك** لموقع مسمى "افتراضي" عندما تنتقل إلى الموقع للمرة الأولى في منشئ المواقع.
 
-![مربع الحوار **إعداد موقعك**.](./media/Domains_SetupyoursiteScreen.png)
+![مربع الحوار **إعداد موقعك**](./media/Domains_SetupyoursiteScreen.png)
 
 يسمح لك المربع **تحديد مجال** بربط أحد أسماء الأجهزة المضيفة المدعومة لموقعك في LCS في منشئ المواقع.
 
@@ -79,11 +82,11 @@ ms.locfileid: "6733981"
 
 يبين الرسم التوضيحي التالي مربع الحوار **عنوان URL جديد** في منشئ المواقع مع تمييز مسار URL كمثال. 
 
-![مربع الحوار **عنوان URL جديد** في منشئ المواقع.](./media/Domains_PageSetup2a.png)
+![مربع الحوار **عنوان URL جديد** في منشئ المواقع](./media/Domains_PageSetup2a.png)
 
 يبين الرسم التوضيحي التالي صفحة **عناوين URL** في منشئ المواقع مع تمييز عنوان URL كمثال في القائمة.
 
-![الخيار "تشغيل تدفق المستخدم‬‏‫" في تدفق السياسة.](./media/Domains_URLsInSiteBuilder2a.png)
+![الخيار "تشغيل تدفق المستخدم‬‏‫" في تدفق السياسة](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>المجالات في منشئ المواقع
 
@@ -151,7 +154,7 @@ ms.locfileid: "6733981"
 
   [نشر مستأجر التجارة الإلكترونية الجديد](deploy-ecommerce-site.md)
 
-  [إعداد قناة متجر عبر الإنترنت](./channel-setup-online.md)
+  [إعداد قناة متجر عبر الإنترنت](online-stores.md)
 
   [إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
 
@@ -170,6 +173,3 @@ ms.locfileid: "6733981"
   [إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
 
   [تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

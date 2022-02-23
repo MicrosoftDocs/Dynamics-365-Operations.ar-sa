@@ -2,25 +2,28 @@
 title: Regulatory Configuration Services (RCS) - ميزات العولمة
 description: يشرح هذه الموضوع كيفية استخدام Microsoft Regulatory Configuration Services (RCS) والمستودع العمومي لإنشاء ميزات العولمة واستخدامها.
 author: JaneA07
+manager: AnnBe
 ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RCS, RCSWorkspace, e-Invoicing service
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ae46dab5250fbe8096f43e420cb7ef33a5862af0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760621"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439856"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) - ميزات العولمة
 
@@ -53,7 +56,7 @@ ms.locfileid: "6760621"
 1. في مثيل RCS، حدد الإطار المتجانب **إدارة الميزات**.
 2. في مساحة عمل **إدارة الميزات**، حدد **ميزات العولمة** في القائمة، ثم حدد **تمكين الآن**.
 
-    ![ميزات العولمة في إدارة الميزات.](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
+    ![ميزات العولمة في إدارة الميزات](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
 
 ## <a name="globalization-features"></a>ميزات العولمة
 
@@ -67,11 +70,11 @@ ms.locfileid: "6760621"
 1. تأكد من أن ميزة **ميزات العولمة** قيد التشغيل في إدارة الميزات، كما ورد وصفه في قسم سابق من هذا الموضوع.
 2. افتح مساحة العمل الجديدة **ميزات العولمة**، ثم ضمن **الميزة**، حدد الإطار المتجانب **الفوترة الإلكترونية**.
 
-    ![مساحة عمل الميزات العمومية.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
+    ![مساحة عمل الميزات العمومية](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
 
     تفتح صفح **ميزات الفوترة الإلكترونية**.
 
-    ![صفحة ميزات الفوترة الإلكترونية.](./media/RCS_GlobalF_3%20Feature%20form.JPG)
+    ![صفحة ميزات الفوترة الإلكترونية](./media/RCS_GlobalF_3%20Feature%20form.JPG)
 
 ## <a name="add-a-derived-globalization-feature"></a>إضافة ميزة عولمة مشتقة
 
@@ -79,27 +82,27 @@ ms.locfileid: "6760621"
 
 1. حدد **استيراد** لفتح صفحة **استيراد ميزة من المستودع العمومي**.
 
-    ![صفحة استيراد ميزة من المستودع العمومي.](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
+    ![صفحة استيراد ميزة من المستودع العمومي](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
 
 2. حدد **مزامنة** للحصول على أحدث الميزات.
 
     تتضمن القائمة المتزامنة الميزات المتوفرة لك إما سبب نشرها بواسطة Microsoft أو بسبب مشاركتها معك بواسطة موفر تكوين آخر.
 
-    ![القائمة المتزامنة للميزات.](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
+    ![القائمة المتزامنة للميزات](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
 
 3. في القائمة، حدد الميزات المراد استيرادها، ثم حدد **استيراد**. ستتلقى رسالة عند استيراد الميزات المحددة بنجاح.
 
-    ![رسالة تفيد بنجاح الاستيراد.](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
+    ![رسالة تفيد بنجاح الاستيراد](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
 
 4. حدد **إضافة**، ثم في مربع حوار القائمة المنسدلة، حدد الخيار **استنادًا إلى الإصدار الموجود**.
 5. أدخل اسمًا ووصفًا للميزة.
 6. في قائمة الميزات المتوفرة، حدد الإصدار الأساسي للميزة، ثم حدد **إنشاء ميزة**.
 
-    ![إضافة ميزة مشتقة.](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
+    ![إضافة ميزة مشتقة](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
 
     يتم إنشاء الميزة التي أضفتها وحالتها **مسودة**.
 
-    ![الميزة المشتقة التي لها الحالة "مسودة".](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
+    ![الميزة المشتقة التي لها الحالة "مسودة"](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
 
 7. راجع مكونات الميزة لتحديد ما إذا كانت التحديثات ضرورية:
 
@@ -120,7 +123,7 @@ ms.locfileid: "6760621"
 2. أدخل اسمًا ووصفًا للميزة.
 3. حدد **إنشاء ميزة**.
 
-    ![إضافة ميزة جديدة.](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
+    ![إضافة ميزة جديدة](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
 
 4. على علامة التبويب **الإصدارات**، حدد التاريخ **ساري من**، ثم حدد **تغيير الحالة** لإكمال الميزة. يمكن جعل الميزات المكتملة متوفرة لبيئة معينة بحيث يمكن استخدامها في خدمات العولمة، أو يمكن نشرها في المستودع العمومي.
 
@@ -176,7 +179,7 @@ ms.locfileid: "6760621"
     - قواعد قابلية التطبيق
     - المتغيرات
 
-![صفحة إعداد إصدار الميزة.](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
+![صفحة إعداد إصدار الميزة](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
 
 ### <a name="environments"></a>البيئات
 
@@ -193,7 +196,7 @@ ms.locfileid: "6760621"
 2. في علامة التبويب **المؤسسات**، حدد **مشاركة مع**، ثم أدخل اسم مجال المؤسسة في مربع القائمة المنسدلة.
 3. حدد **مشاركة**.
 
-    ![مشاركة ميزة مع مؤسسة.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
+    ![مشاركة ميزة مع مؤسسة](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
 تتم مشاركة الميزة مع المؤسسة المحددة وتكون متوفرة لهذه المؤسسة في المستودع العمومي. من هناك، يمكن استيراد الميزة إلى مثيل المؤسسة لخدمات RCS أو Dynamics 365 Finance بحيث يمكن استخدامها.
 
@@ -201,7 +204,7 @@ ms.locfileid: "6760621"
 
 يمكنك إعادة تعريف ميزة عولمة مشتقة‬‏‫ إلى إصدار الميزة الجديد أو الإصدار الأساسي المحدّث. وبهذه الطريقة، يمكن تحديث التغييرات التي حدثت في الإصدار الأساسي بشكل تلقائي. يتم إنشاء إصدار الميزة الأساسي المحدّث بواسطة موفر التكوين الأصلي، وبعد ذلك يتم نشره أو مشاركته.
 
-![إصدار الميزة الأساسي المحدّث.](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
+![إصدار الميزة الأساسي المحدّث](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
 
 على سبيل المثال، إذا أردت إعادة تعريف الإصدار المشتق من ميزة أنشأتها، ستحصل أولاً على إصدار الميزة الأخير عن طريق استيراده من المستودع العمومي.
 
@@ -209,23 +212,23 @@ ms.locfileid: "6760621"
 2. حدد **مزامنة** للحصول على أحدث الميزات.
 3. في قائمة الميزات، حدد الميزات المراد استيرادها، ثم حدد **استيراد**.
 
-    ![استيراد الإصدار الأخير لميزة.](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
+    ![استيراد الإصدار الأخير لميزة](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
 
 4. في قائمة الميزات، حدد الميزة المراد إعادة تعريفها.
 5. في علامة التبويب **الإصدار**، حدد **جديد** لإنشاء إصدار مسودة.
 
-    ![إنشاء إصدار مسودة جديد.](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
+    ![إنشاء إصدار مسودة جديد](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
 
 6. حدد **إعادة تعريف**.
 7. في مربع الحوار **إعادة تعريف**، حدد أحدث إصدار للميزة لإعادة التعريف إليه.
 
-    ![مربع الحوار "إعادة تعريف".](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
+    ![مربع الحوار "إعادة تعريف"](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
 
 8. حدد **موافق**.
 9. راجع مكونات الميزة، وقم بإجراء أي تغييرات مطلوبة.
 10. حدد **تغيير الحالة** لإكمال الميزة المعاد تعريفها. عند اكتمال إعادة التعريف، يمكنك تنفيذ إجراءات إضافية. على سبيل المثال، يمكنك نشر الميزة وجعلها متوفرة للاستخدام في خدمات العولمة.
 
-    ![تحديث حالة الميزة إلى مكتملة.](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
+    ![تحديث حالة الميزة إلى مكتملة](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
 
 ## <a name="configure-environments-for-globalization-features"></a><a name="configureenvironment"></a>تكوين بيئات لميزات العولمة
 
@@ -233,13 +236,13 @@ ms.locfileid: "6760621"
 
 1. في مساحة العمل **ميزات العولمة**، ضمن **البيئات**، حدد الإطار المتجانب **الفوترة الإلكترونية**.
 
-    ![مساحة عمل ميزات العولمة.](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
+    ![مساحة عمل ميزات العولمة](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
 
 2. حدد **معلمات المخزن الرئيسي**، ثم حدد **جديد** لإنشاء سر Azure Key Vault.
 3. ادخل اسمًا ووصفًا للمخزن الرئيسي، ثم في **Key Vault URI**، أدخل عنوان URL الذي يعرف مورد المخزن الرئيسي في Azure.
 4. على علامة التبويب السريعة **الشهادات**، حدد **إضافة** لإضافة‏‎ الشهادة، وأدخل اسمًا ووصفًا لكل شهادة.
 
-    ![تمت إضافة شهادة.](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
+    ![تمت إضافة شهادة](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
 
 5. حدد **جديد** لإنشاء بيئة جديدة.
 6. أدخل اسمًا ووصفًا والرمز المميز لتوقيع الوصول المشترك المطلوب لمساحة التخزين.
@@ -248,7 +251,4 @@ ms.locfileid: "6760621"
 9. كرر الخطوتين 7 و8 لإضافة المزيد من المستخدمين.
 10. حدد **نشر** لنشر البيئة.
 
-    ![بيئة منشورة.](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    ![بيئة منشورة](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)

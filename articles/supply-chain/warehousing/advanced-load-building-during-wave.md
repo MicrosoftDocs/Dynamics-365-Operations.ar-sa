@@ -2,23 +2,26 @@
 title: بناء متقدم لحمل عمل أثناء الموجة
 description: يوفر هذا الموضوع معلومات حول البناء المتقدم لحمل الموجة، والذي يقوم تلقائيًا بتعيين الشحنات إلى موجات موجودة أثناء تنفيذ الموجة. بالتالي، يمكنك إنشاء حمولات ذات مغذى والتي تمثل الشاحنات دون الحاجة إلى استخدام منضدة عمل تخطيط الحمل.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 08e44b4e37f28ec91eeb8e53930de5133607bd66
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574727"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654188"
 ---
 # <a name="advanced-load-building-during-wave"></a>بناء متقدم لحمل عمل أثناء الموجة
 
@@ -247,6 +250,3 @@ ms.locfileid: "7574727"
 1. في أمر المبيعات الذي قمت توا بإنشائه، في علامة التبويب السريعة **بنود أمر المبيعات**، حدد **إضافة بند** لإضافة بند آخر.
 1. في البند الجديد، قم بتعيين حقل **رقم الصنف** إلى *M9200* وحقل **الكمية** إلى *1*.
 1. كرر البنود من 6 إلى 9 لحجز البند وتحريره إلى المستودع. كما حدث سابقًا، يقوم النظام بإنشاء شحنة **جديدة** للبند الذي قمت بإضافته. ومع ذلك، نظرا لان الصنف من مجموعة الأصناف **CarAudio**، فإنه **يخفق في تجاوز القيود التي قمت بإعدادها لمجموعة مزج الحمولات**. بالتالي، تتم **إضافته إلى حمل جديد**. إذا لم تكن قد قمت بتحديد مجموعة مزج حمولات في قالب بناء الحمل، فربما تمت إضافة هذه الشحنة إلى أول حمل.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,35 +1,33 @@
 ---
-title: معالجة أهلية أحداث الحياة
-description: يشرح هذا الموضوع كيفية معالجة أهلية أحداث الحياة.
-author: twheeloc
-ms.date: 08/23/2021
+title: معالجة أهلية الحدث الحياتي
+description: يوضح هذا المقال كيفية تشغيل معالجة أهلية الحدث الحياتي.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3086718ed8dc0a8da988eb2d4cd07a2fff38e52c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 17ecef1412eb0232fbb4782bd9d2d79f210c7e80
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065883"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417058"
 ---
-# <a name="process-life-event-eligibility"></a>معالجة أهلية أحداث الحياة
+# <a name="process-life-event-eligibility"></a>معالجة أهلية الحدث الحياتي
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-يشرح هذا الموضوع كيفية معالجة أهلية الأحداث في الحياة.
+يوضح هذا المقال كيفية تشغيل معالجة أهلية الحدث الحياتي.
 
 1. في مساحة العمل **إدارة المزايا**، تحت **معالجة**، حدد **معالجة أهلية الحدث الحياتي**.
 
@@ -50,6 +48,3 @@ ms.locfileid: "8065883"
    4. حدد **موافق**. سيتم تشغيل العملية باستخدام المعلمات التي قمت بتعيينها.
 
 4. حدد **موافق**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: ما الجديد أو المتغير في الإصدار 7.0.1 من تطبيق Dynamics AX (مايو 2016)
 description: تصف هذه المقالة الميزات الجديدة أو المتغيرة في الإصدار 7.0.1 من تطبيق Microsoft Dynamics AX. تم إطلاق هذا الإصدار في مايو 2016 ورقم الإصدار هو 7.0.1265.23014.
 author: sericks007
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748254"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797153"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>ما الجديد أو المتغير في الإصدار 7.0.1 من تطبيق Dynamics AX (مايو 2016)
 
@@ -76,7 +78,7 @@ ms.locfileid: "6748254"
 </tr>
 <tr>
 <td>دعم قوائم مكونات الصنف‬ التي تتضمن أصنافًا ذات أبعاد منتجات مختلفة من نفس الصنف.</td>
-<td>عند استخدام بُعد واحد أو أبعاد متعددة من المنتج في عملية الإنتاج، قد تجد نفسك في حالات حيث تريد إنتاج أحد الأصناف، استنادًا إلى متغير آخر من الصنف نفسه. لمزيد من المعلومات، راجع <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">هذه المدوّنة</a>.</td>
+<td>عند استخدام بُعد واحد أو أبعاد متعددة من المنتج في عملية الإنتاج، قد تجد نفسك في حالات حيث تريد إنتاج أحد الأصناف، استنادًا إلى متغير آخر من الصنف نفسه. لمزيد من المعلومات، راجع <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">هذه المدوّنة</a>.</td>
 </tr>
 <tr>
 <td>استبعاد أوامر الإنتاج ذات الهياكل الدائرية عند المستوى الأول من قوائم مكونات الصنف من عملية الحساب على مستوى هذه القوائم من أجل التخطيط للموارد المادية.</td>
@@ -104,6 +106,3 @@ ms.locfileid: "6748254"
 [الصفحة الرئيسية للجديد أو المتغير‬ في Finance and Operations](whats-new-changed.md)
 
 [دلائل المهام الجديدة أو المحدثة (مايو 2016)](new-updated-task-guides-available-may-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

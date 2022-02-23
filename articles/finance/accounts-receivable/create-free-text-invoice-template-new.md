@@ -1,23 +1,26 @@
 ---
 title: إنشاء قالب فاتورة نص حر
 description: يوضح هذا الإجراء كيفية إنشاء قالب فاتورة نص حر.
-author: abruer
+author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 05/29/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1477227228ae9f79314d1e3b6da73446d660d108
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 8281de3cb336d9392a6a97f98e51a2a139a384c5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753682"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439814"
 ---
 # <a name="create-a-free-text-invoice-template"></a>إنشاء قالب فاتورة نص حر
 
@@ -65,6 +68,3 @@ ms.locfileid: "7753682"
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>​حفظ فاتورة نص حر كقالب
 يمكنك أيضًا حفظ فاتورة نص حر موجودة كقالب. عندما تقوم بتحديد حفظ من علامة التبويب الفاتورة، قم بإدخال اسم ووصف للقالب. إذا كان هناك قالب موجود بنفس الاسم، فسوف يظهر إخطار يُفيد بأنه يوجد قالب بنفس الاسم. يمكنك الاستمرار في الضغط على موافق لاستبداله. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

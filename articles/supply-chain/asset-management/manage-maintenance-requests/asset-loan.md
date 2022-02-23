@@ -1,10 +1,12 @@
 ---
 title: الأصول المقترضة
 description: يشرح هذا الموضوع كيفية تسجيل الأصول المقترضة في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65809d9be39372412d5d6b419f7356fe2c9668a1a01ede32ef52cbd66753e6d7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752840"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022322"
 ---
 # <a name="asset-loans"></a>الأصول المقترضة
 
@@ -44,7 +46,7 @@ ms.locfileid: "6752840"
 
 لعرض قائمة بكافة الأصول التي قمت بإقراضها إلى مواقع أو عملاء آخرين، حدد **إدارة الأصول** \> **عام** \> **أصل مقترض** \> **جميع الأصول المقترضة**. إذا كانت خانة الاختيار **منتهٍ** لأحد الأصول محددة، فهذا يعني أنه تم تسجيل الأصل كما تم إرجاعه إلى شركتك.
 
-![إدارة طلبات الصيانة.](media/06-manage-maintenance-requests.png)
+![إدارة طلبات الصيانة](media/06-manage-maintenance-requests.png)
 
 في صفحة **الأصول المقترضة النشطة**، يمكنك عرض قائمة بجميع الأصول المقترضة التي لم يتم إرجاعها بعد إلى شركتك.
 
@@ -55,6 +57,3 @@ ms.locfileid: "6752840"
 3. في الحقل **مُرتجع‬**، أدخل التاريخ والوقت.
 4. حدد **موافق**.
 5. قم بتحديث صفحة **الأصول المقترضة النشطة**، ولاحظ عدم ظهور الأصل المقترض في القائمة.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

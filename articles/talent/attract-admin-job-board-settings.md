@@ -51,6 +51,3 @@ ms.locfileid: "4460270"
 
 > [!NOTE]
 > لا تشارك Microsoft كما لا يشارك Attract في إنشاء هذه القيم والمحافظة عليها. تقع على عاتقك مسؤولية تحديثها بشكل مستمر في Attract والعمل مع Broadbean على حل أي مشكلة تتعلق ببيانات اعتمادك.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

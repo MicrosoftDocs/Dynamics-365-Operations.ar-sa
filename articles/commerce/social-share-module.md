@@ -2,12 +2,15 @@
 title: الوحدة النمطية للمشاركة الاجتماعية
 description: يتناول هذا الموضوع الوحدات النمطية للمشاركة الاجتماعية ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730937"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4410022"
 ---
 # <a name="social-share-module"></a>الوحدة النمطية للمشاركة الاجتماعية
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع الوحدات النمطية للمشاركة الاجتماعية ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 تسمح الوحدات النمطية للمشاركة الاجتماعية للمستخدمين بمشاركة عناوين URL لصفحات موقع التجارة الإلكترونية على وسائل التواصل الاجتماعي مثل Facebook وTwitter وPinterest وLinkedIn. يمكن أيضًا مشاركة عناوين URL لصفحات الموقع عبر البريد الإلكتروني. وتستخدم عادة الوحدات النمطية للمشاركة الاجتماعية في صفحات تفاصيل المنتج (PDP) لمساعدة المستخدمين على مشاركة معلومات المنتج.
 
@@ -36,7 +41,7 @@ ms.locfileid: "6730937"
 
 يلقى الرسم التوضيحي التالي الضوء على مثال لوحدة نمطية للمشاركة الاجتماعية المستخدمة في صفحة تفاصيل المنتج.
 
-![مثال عن وحدة نمطية للمشاركة الاجتماعية.](./media/ecommerce-socialshare.png)
+![مثال عن وحدة نمطية للمشاركة الاجتماعية](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>خصائص الوحدة النمطية للمشاركة الاجتماعية
 
@@ -77,6 +82,3 @@ ms.locfileid: "6730937"
 [الوحدة النمطية لصندوق الشراء](add-buy-box.md)
 
 [توافق ملفات تعريف الارتباط](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

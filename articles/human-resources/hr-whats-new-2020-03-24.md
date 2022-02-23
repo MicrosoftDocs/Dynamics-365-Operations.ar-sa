@@ -1,32 +1,33 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources (24 مارس 2020)
 description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 24 مارس 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dec2f270f53968292ec25cca43c216f26cfc8087
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 87b7ea660d94c6d564a8f09d4133b098e0ecedf9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061401"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526895"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (24 مارس 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 تصف هذه المقالة الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3073. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم المرجع في  Lifecycle Services (LCS).
 
@@ -58,7 +59,7 @@ ms.locfileid: "8061401"
 
 - **ميزة معاينة إدارة الميزات** - لمزيد من المعلومات، بما في ذلك المشكلات المعروفة، راجع [نظرة عامة على إدارة الميزات](hr-benefits-management-overview.md).
 
-## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>يتوفر حل Dataverse الآن مع التغييرات التالية:
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>يتوفر حل Common Data Service الآن مع التغييرات التالية:
 
 | ‏‏الوصف | تغيير |
 | --- | --- |
@@ -70,12 +71,12 @@ ms.locfileid: "8061401"
 | كيانات إعداد التعويض المتغيرة الجديدة | <ul><li>**نوع خطة التعويض المتغير**</li><li>**خطة التعويض المتغيرة**</li><li>**قواعد الاستحقاق**</li><li>**مستوى خطة التعويض المتغير**</li></ul> |
 | كيان **توظيف تقويم العامل** الجديد | <ul><li>تمت إضافة **كيان تقويم العمل**</li></ul> |
 | كيان **تفاصيل المنصب في كشف الرواتب** الجديد | <ul><li>تمت إضافة **تفاصيل المنصب في كشف الرواتب**</li></ul> |
-| كيان **العنوان** الجديد | <ul><li>تمت إضافة **العنوان**</li></ul>تم تضمين كيان **العنوان** الجديد في Dataverse ولكن لا تتم الإشارة إليها من الكيانين **منصب الوظيفة‬** أو **الوظيفة‬‏‎** في هذا الوقت. |
+| كيان **العنوان** الجديد | <ul><li>تمت إضافة **العنوان**</li></ul>تم تضمين كيان **العنوان** الجديد في Common Data Service ولكن لا تتم الإشارة إليها من الكيانين **منصب الوظيفة‬** أو **الوظيفة‬‏‎** في هذا الوقت. |
 
 > [!NOTE]
-> توفر الأبعاد المالية لكل من المنصب والتوظيف تكاملاً أحادي الاتجاه للتحديثات من Human Resources إلى Dataverse. في الوقت الحالي، لا تتم مزامنة تحديثات الأبعاد المالية من Dataverse إلى Human Resources.
+> توفر الأبعاد المالية لكل من المنصب والتوظيف تكاملاً أحادي الاتجاه للتحديثات من Human Resources إلى Common Data Service. في الوقت الحالي، لا تتم مزامنة تحديثات الأبعاد المالية من Common Data Service إلى Human Resources.
 
-خلال الأسابيع القليلة التالية، ستتوفر هذه التغييرات الخاصة بالكيانات في كافة البيئات. لتثبيت حل Dataverse الأحدث لـ Human Resources:
+خلال الأسابيع القليلة التالية، ستتوفر هذه التغييرات الخاصة بالكيانات في كافة البيئات. لتثبيت حل Common Data Service الأحدث لـ Human Resources:
 
 1.  انتقل إلى [مركز إدارة Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -118,8 +119,6 @@ ms.locfileid: "8061401"
 ## <a name="see-also"></a>راجع أيضًا
 
 [المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

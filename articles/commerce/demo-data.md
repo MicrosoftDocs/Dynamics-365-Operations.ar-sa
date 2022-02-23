@@ -2,13 +2,16 @@
 title: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة (MPOS) ونقطة بيع المجموعة
 description: يقدم هذا الموضوع معلومات حول تخطيطات الشاشة المضمنة مع بيانات العرض التوضيحي المعينة لتجارب نقطة البيع (POS) في Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761652"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4410048"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة (MPOS) ونقطة بيع المجموعة
 
@@ -33,13 +36,13 @@ ms.locfileid: "6761652"
 
 تقدم نماذج تخطيطات الشاشة المضمنة مع بيانات العرض التوضيحي للتجارة المحتوى المُحسّن لمجموعة متنوعة من قطاعات البيع بالتجزئة وأدوار العاملين بالمتاجر والأجهزة. يمكن أن يحتوي تخطيط واحد على عدة أحجام للتخطيطات ومجموعات من شبكات الأزرار للمساعدة في ضمان التغطية مع تنقل عاملي المتجر بين الأجهزة والمحطات. يوضح هذا الموضوع الاختلافات بين هذه التخطيطات والعمليات التي توفرها والتجارب العامة التي تقدمها.
 
-![تخطيطات بيانات العرض التوضيحي عبر الأجهزة.](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![تخطيطات بيانات العرض التوضيحي عبر الأجهزة](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>تحليل لمعرف تخطيط شاشة
 
 للعثور على تخطيطات الشاشة، انتقل إلى **البيع بالتجزئة والتجارة** \> **إعداد القناة** \> **إعداد نقطة البيع** \> **نقطة البيع** \> **تخطيطات الشاشة**.
 
-![صفحة تخطيطات الشاشة.](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![صفحة تخطيطات الشاشة](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 يمكن أن تتكون معرفات تخطيطات الشاشة من 10 أحرف كحد أقصى. المعرف عبارة عن سلسلة تتألف من ثلاثة أجزاء من المعلومات، بالترتيب التالي:
 
@@ -49,15 +52,15 @@ ms.locfileid: "6761652"
 
 ### <a name="company"></a>الشركة
 
-| خطاب | الشركة         |
+| الحرف | الشركة         |
 |--------|-----------------|
-| أ      | Adventure Works |
-| ج      | Fabrikam        |
-| C      | Contoso         |
+| و      | شركة المنتجات التجارية |
+| F      | شركة الاتحاد للتصنيع        |
+| ش      | شركة الرشيدي         |
 
 ### <a name="layout-version"></a>إصدار التخطيط
 
-| رقم الإصدار | الوصف                                                                                |
+| رقم الإصدار | ‏‏الوصف                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | الإصدار الأساسي الذي يدعم العديد من أحجام الشاشات لأجهزة ونسب عرض إلى ارتفاع متنوعة |
 | 3.1            | الإصدار الأساسي الذي يحتوي على دعم إضافي للوحة **المنتجات الموصى بها**        |
@@ -79,7 +82,7 @@ F4MGR
 
 ‏‫يوضح الرسم التوضيحي التالي مثالاً لشاشة ترحيب لمدير متجر شركة الاتحاد للتصنيع.
 
-![شاشة ترحيب لمدير متجر في Fabrikam.](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![شاشة ترحيب لمدير متجر شركة الاتحاد للتصنيع](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>أحجام التخطيط
 
@@ -108,7 +111,7 @@ F4MGR
 > [!TIP]
 > تحدد نقطة البيع تلقائيًا أحجام التخطيطات استنادًا إلى أقرب حجم متوفر لدقة شاشة إطار التطبيق الحالي. للعثور على معرف تخطيط الشاشة ودقة التخطيط المستخدمين حاليًا، في نقطة البيع الحديثة (MPOS) أو نقطة بيع المجموعة للبيع بالتجزئة (CPOS)، افتح صفحة **الإعدادات**، وابحث في القسم **معلومات جلسة العمل**. يمكنك أيضًا الاطلاع على دقة الإطار الفعلية لإطار المستعرض أو التطبيق الحالي. بعد الحصول على هذه المعلومات، يمكنك العثور على مصدر محتوى التخطيط بالانتقال إلى **إعداد القناة** \> **إعداد نقطة البيع** \> **نقطة البيع** \> **تخطيطات الشاشة**.
 
-![تخطيطات الشاشة ومستويات دقة/أحجام التخطيطات في Commerce ونقطة البيع.](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![تخطيطات الشاشة ومستويات دقة/أحجام التخطيطات في Commerce ونقطة البيع](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>الشركات والعلامات التجارية
 
@@ -123,25 +126,25 @@ F4MGR
 | Contoso         | بوسطن   | الإلكترونيات    | أحمر    | داكن  |
 
 > [!NOTE]
-> شركة المنتجات التجارية و‏‫شركة الاتحاد للتصنيع هما العلامتان التجاريتان الرئيسيتان. شركة Contoso متاحة، ولكن لم يتم توفير جميع التخطيطات.
+> شركة المنتجات التجارية و‏‫شركة الاتحاد للتصنيع هما العلامتان التجاريتان الرئيسيتان. شركة الرشيدي متاحة، ولكن لم يتم توفير جميع التخطيطات.
 
 ‏‫تبين الأشكال التوضيحية التالية أمثلة على صفحة الترحيب وصفحة الحركة للشركات الوهمية الثلاثة.
 
-### <a name="adventure-works"></a>Adventure Works
+### <a name="adventure-works"></a>شركة المنتجات التجارية
 
-![صفحة ترحيب ‬‏‫بيانات العرض التوضيحي لـ Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![صفحة ترحيب ‬‏‫بيانات العرض التوضيحي لشركة المنتجات التجارية](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![صفحة حركة ‬‏‫بيانات العرض التوضيحي لـ Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![صفحة حركة ‬‏‫بيانات العرض التوضيحي لشركة المنتجات التجارية](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
-### <a name="fabrikam"></a>Fabrikam
+### <a name="fabrikam"></a>شركة الاتحاد للتصنيع
 
-![صفحة ترحيب ‬‏‫بيانات العرض التوضيحي لـ Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![صفحة ترحيب ‬‏‫بيانات العرض التوضيحي لشركة الاتحاد للتصنيع](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![صفحة حركة ‬‏‫بيانات العرض التوضيحي لـ Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![صفحة حركة ‬‏‫بيانات العرض التوضيحي لشركة الاتحاد للتصنيع](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
-### <a name="contoso"></a>Contoso
+### <a name="contoso"></a>شركة الرشيدي
 
-![‏‫تخطيطات بيانات العرض التوضيحي لـ Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![‏‫تخطيطات بيانات العرض التوضيحي لشركة الرشيدي](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>علامة مستخدم في مصفوفة
 
@@ -155,9 +158,9 @@ F4MGR
 | Fabrikam        | F4MGR            | مدير المتجر | 000160، 000713         |
 | Fabrikam        | F3CSH            | الصراف       | 000161، 000113، 000114 |
 | Fabrikam        | F3STK            | الموظف المسؤول عن المخزون   | 000164، 000112، 000123 |
-| Contoso         | C3MGR            | مدير المتجر | 000100, 000111         |
-| Contoso         | C3CSH            | الصراف       | 000110, 000120         |
-| Contoso         | غير قابل للتطبيق   | الموظف المسؤول عن المخزون   | غير قابل للتطبيق         |
+| شركة الرشيدي         | C3MGR            | مدير المتجر | 000100, 000111         |
+| شركة الرشيدي         | C3CSH            | الصراف       | 000110, 000120         |
+| شركة الرشيدي         | غير قابل للتطبيق   | الموظف المسؤول عن المخزون   | غير قابل للتطبيق         |
 
 > [!TIP]
 > للحصول على أفضل النتائج، قم بتنشيط سجل في موقع المتجر المطابق، وعيِّن الشركة إلى شركة الشخص الذي تعتزم استخدامه عند تسجيل الدخول. بهذه الطريقة، تساعد في ضمان انسجام ملف التعريف المرئي وصور العلامة التجارية عبر التجربة. على سبيل المثال، إذا كنت ترغب في رؤية تخطيط شركة الاتحاد للتصنيع لأحد الصرافين، يجب تنشيط سجل في متجر هوستون.
@@ -168,11 +171,8 @@ F4MGR
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

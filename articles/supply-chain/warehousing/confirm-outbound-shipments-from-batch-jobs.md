@@ -2,22 +2,25 @@
 title: تأكيد الشحنات الخارجية من الوظائف الدفعية
 description: يوضح هذا الموضوع كيفية إعداد وظيفة دُفعية تقوم بشكل تلقائي بتأكيد شحنات أوامر التحويل الصادرة للأحمال الجاهزة للشحن.
 author: perlynne
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 41dbfb90b7b19c964e725ee0a4c769402414fb17
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778463"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421133"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>تأكيد الشحنات الخارجية من الوظائف الدفعية
 
@@ -27,7 +30,7 @@ ms.locfileid: "7778463"
 
 ## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>تمكين ميزة تأكيد الشحنات الصادرة من الوظائف الدُفعية
 
-اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
+قبل أن تتمكن من استخدام هذه الميزة، يجب تمكينها على النظام. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها إذا لزم الأمر. يتم إدراج الميزة على أنها:
 
 - **الوحدة** - *إدارة المستودعات*
 - **اسم الميزة** - *تأكيد الشحنات الصادرة من الوظائف الدُفعية*
@@ -51,6 +54,3 @@ ms.locfileid: "7778463"
 1. حدد **موافق** في مربع الحوار **تأكيد الشحن** لإضافة الوظيفة الدُفعية إلى قائمة الدُفعات.
 
 لمزيد من المعلومات، راجع [نظرة عامة على المعالجة الدُفعية](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

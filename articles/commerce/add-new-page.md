@@ -2,30 +2,36 @@
 title: إضافة صفحة موقع جديدة
 description: يصف هذا الموضوع كيفية إضافة صفحة موقع جديدة في Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090709"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409838"
 ---
 # <a name="add-a-new-site-page"></a>إضافة صفحة موقع جديدة
+
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية إضافة صفحة موقع جديدة في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 بعد إنشاء القوالب والأجزاء الخاصة بموقعك، فإن الخطوة التالية هي البدء في إنشاء صفحات تستخدمها. للبدء، يجب عليك تحديد قالب أو تخطيط واسم صفحة وعنوان URL للصفحة.
 
@@ -33,11 +39,11 @@ ms.locfileid: "8090709"
 
 يمكنك استخدام قالب أو تخطيط لصفحتك الجديدة. لمزيد من المعلومات ، راجع [نظرة عامة على القوالب والتخطيطات](templates-layouts-overview.md).
 
-## <a name="specify-the-page-name"></a>تحديد اسم الصفحة
+## <a name="page-name"></a>اسم الصفحة
 
-يجب أن يكون اسم الصفحة فريدًا لموقعك ويجب أن يكون وصفيًا حتى تتمكن من العثور عليه بسهولة ويعرف الآخرون الهدف من الصفحة. يمكنك إعادة تسمية صفحتك لاحقًا عن طريق تحريرها ثم تحديد رمز القلم الموجود بجوار اسم الصفحة في جزء الخصائص.
+يجب أن يكون اسم الصفحة فريدًا لصفحتك. يجب أن يكون وصفيًا، حتى تتمكن من العثور عليه بسهولة ويعرف الآخرون المقصود من الصفحة. اختر اسم الصفحة بعناية، لأنه لا يمكن تغييره لاحقًا.
 
-## <a name="specify-the-page-url"></a>تحديد عنوان URL للصفحة
+## <a name="page-url"></a>عنوان URL للصفحة
 
 يمكنك الحصول على خيار إدخال عنوان URL لصفحتك الجديدة. عند إنشاء صفحة ، يمكنك إدخال سلسلة يتم استخدامها لتشكيل عنوان URL كامل. تُعرف هذه السلسلة بعنوان URL المرتبط أو عنوان URL الوصفي. ثم يتم إنشاء عنوان URL كامل استنادًا إلى عنوان URL الوصفي، ويتم تعيين الصفحة الجديدة إليها. يمكنك تغيير عنوان URL في وقت لاحق، قبل نشر الصفحة. لمزيد من المعلومات، راجع [إنشاء عنوان URL للصفحة](create-page-URL.md)
 
@@ -82,11 +88,6 @@ ms.locfileid: "8090709"
 
 [إثراء صفحة منتج](enrich-product-page.md)
 
-[إثراء صفحة فئة منتقل إليها‬](enrich-category-page.md)
+[إثراء الصفحة المنتقل إليها‬ لفئة](enrich-category-page.md)
 
-[التحقق من إمكانية الوصول إلى محتوى الصفحة](verify-accessibility.md)
-
-[إنشاء صفحات التجارة الإلكترونية الديناميكية استنادا إلى معلمات URL](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[التحقق من إمكانية الوصول إلى محتوي الصفحة](verify-accessibility.md)

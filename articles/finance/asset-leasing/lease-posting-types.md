@@ -2,25 +2,28 @@
 title: أنواع ترحيل الإيجار
 description: يصف هذا الموضوع أنواع الترحيل المستخدمة لحركات تأجير الأصول.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeasePostingAccounts
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 721463000c05eb1774335ccce1af39468c2aed9f179e5e88d8725f4d265d6870
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceb4fbeb4dbf2f535e05a9d46c84169435d2803b
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718237"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440157"
 ---
 # <a name="lease-posting-types"></a>أنواع ترحيل الإيجار
 
@@ -89,6 +92,15 @@ ms.locfileid: "6718237"
 **المدين:** ‏‏مصروفات الإهلاك XXX<br>
 **الائتمان:** الإهلاك التراكمي XXX
 
+## <a name="retained-earnings"></a>الأرباح المحتجزة
+
+الحساب المرتبط بالأرباح المحتجزة. قد يكون هذا الحساب مدينًا أو دائنًا في إدخال دفتر يومية تسوية الانتقال باستخدام أسلوب الأثر الرجعي الكامل أو خيار التسوية التراكمي أ. يتم حجز الفرق بين حق استخدام الأصل الأولي والتزامات الإيجار إلى الإيرادات المحتجزة. في الحالات النادرة، قد تتأثر كذلك الإيرادات المحتجزة أثناء تعديل عقد الإيجار، وذلك في حالة تغيير تصنيف عقد الإيجار من المالية إلى العمل لكتابة حق استخدام الأصل بحيث يساوي التزامات الإيجار.
+
+**مثال على إدخالات دفتر اليومية:** تسوية الانتقال (أسلوب الأثر الرجعي الكامل أو خيار التسوية التراكمي أ)<br>
+**المدين:** التزامات الإيجار XXX<br>
+**الائتمان:** أصول الإيجار XXX<br>
+**الائتمان:** الإيرادات المحتجزة XXX
+
 ## <a name="variable-payment"></a>الدفعة المتغيرة
 
 يقترن الحساب بدفعات الإيجار المتغيرة التي يتم إنتاجها بواسطة إعادة تقييم المؤشر ضمن الإيجارات ASC 842 وASC 840 وIAS 17. في جدول دفعات الإيجار، فإنه يتم تضمين الدفعات المتغيرة في العمود **الدفع المتغير**. يكون هذا الحساب مدينًا عندما يتم إنشاء فاتورة مقابل بند جدول الدفع الذي يحتوي على دفع متغير.
@@ -142,6 +154,3 @@ ms.locfileid: "6718237"
 
 > [!NOTE]
 > يتم تحديد الحساب المقابل في مستوى الإيجار في البنود الخاصة بجدول دفع تكلفة تنفيذ العقد. يمكن أن يرتبط الحساب المقابل هذا بالمورد أو بحساب دفتر الأستاذ.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

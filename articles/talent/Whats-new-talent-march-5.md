@@ -80,6 +80,3 @@ ms.locfileid: "4527280"
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>تحديث النظام الأساسي 24 لـ Finance and Operations
 للحصول على تفاصيل إضافية حول النظام الأساسي 24 لـ Finance and Operations، راجع [الجديد أو المتغير في تحديث النظام الأساسي 24 لـ Finance and Operations (مارس 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

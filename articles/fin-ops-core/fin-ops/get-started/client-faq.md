@@ -2,9 +2,11 @@
 title: الأسئلة الشائعة حول العميل
 description: توفر هذه المقالة إجابات على الأسئلة المتداولة حول عميل Finance and Operations.
 author: jasongre
+manager: AnnBe
 ms.date: 09/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6fe6da2575b7de866de614ad399c8ad5c0110d9a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071023"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798489"
 ---
 # <a name="client-faq"></a>الأسئلة الشائعة حول العميل
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 توفر هذه المقالة إجابات على الأسئلة المتداولة حول عميل Finance and Operations.
 
@@ -55,6 +54,3 @@ ms.locfileid: "8071023"
 
 - إذا كان عنصر تحكم يشتمل على قدرات **عرض التفاصيل**، وإذا كان عنصر التحكم يحتوي على قيمة، فإنه يتم عرض هذه القيمة كارتباط تشعبي. يمكنك النقر فوق الارتباط التشعبي لفتح صفحة تحتوي على تفاصيل إضافية.
 - يتوفر أيضًا الخيار **عرض التفاصيل** في القوائم المختصرة. لمزيد من المعلومات حول وقت عرض القوائم المختصرة عند قيامك بالنقر بزر الماوس الأيمن، راجع القسم السابق.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

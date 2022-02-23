@@ -2,9 +2,11 @@
 title: ملفات تعريف الشهادات المعرفة من قِبل المستخدمين لمتاجر البيع بالتجزئة
 description: يقدم هذا الموضوع نظره عامه حول كيفيه استخدام الشهادات في متاجر البيع بالتجزئة.
 author: josaw
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719920"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018858"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>ملفات تعريف الشهادات المعرفة من قِبل المستخدمين لمتاجر البيع بالتجزئة
 
@@ -79,7 +81,7 @@ ms.locfileid: "6719920"
 - **شهادة المخزن الرئيسي** -هذا الحقل مطلوب إذا قمت بتعيين **حقل نوع الموقع** إلى **المخزن الرئيسي**. يتم استخدام ذلك لتعيين كلمه سر لشهادة المخزن الرئيسي.
 
     > [!NOTE]
-    > قبل استخدام شهادة المخزن الرئيسي في ملفات تعريف الشهادات، تاكد من تحميل شهادة إلى مساحة تخزين المخازن الرئيسية، ثم اتبع الإرشادات الموجودة في اعداد [عميل Azure Key Vault](../../finance/localizations/setting-up-azure-key-vault-client.md).
+    > قبل استخدام شهادة المخزن الرئيسي في ملفات تعريف الشهادات، تاكد من تحميل شهادة إلى مساحة تخزين المخازن الرئيسية، ثم اتبع الإرشادات الموجودة في اعداد [عميل Azure Key Vault](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
 
 - **اسم المتجر** – هذا الحقل اختياري ولا يتوفر الا إذا قمت بتعيين حقل **نوع الموقع** إلى **شهادة محليه**. يتم استخدام ذلك لتحديد اسم المتجر الافتراضي الذي يجب استخدامه للبحث في الشهادات المحلية.
 - **موقع المتجر** – هذا الحقل اختياري ولا يتوفر الا إذا قمت بتعيين حقل **نوع الموقع** إلى **شهادة محليه**. يتم استخدام ذلك لتحديد موقع المتجر الافتراضي الذي يجب استخدامه للبحث في الشهادات المحلية.
@@ -119,6 +121,3 @@ ms.locfileid: "6719920"
 
 > [!NOTE]
 > في Commerce Runtime، يتم استدعاء الإصدار الجديد من الشهادة أولا. إذا لم يتم تحديث الشهادة بعد ذلك في متجر معين أو في وحده طرفيه معينه، سيتم استدعاء الإصدار السابق.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

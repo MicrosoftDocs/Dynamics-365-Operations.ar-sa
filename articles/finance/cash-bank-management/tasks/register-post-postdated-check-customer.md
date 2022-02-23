@@ -2,22 +2,25 @@
 title: تسجيل شيك بتاريخ لاحق لعميل وترحيله
 description: يمكنك تسجيل التفاصيل لشيك بتاريخ لاحق تم استلامه من عميل.
 author: kweekley
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1bc1620c5daa981c390e8cf7490d582d8d09c394663548e73ed0f98814b09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764277"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439984"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>تسجيل شيك بتاريخ لاحق لعميل وترحيله
 
@@ -47,6 +50,3 @@ ms.locfileid: "6764277"
 15. انقر فوق "ترحيل".
 16. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

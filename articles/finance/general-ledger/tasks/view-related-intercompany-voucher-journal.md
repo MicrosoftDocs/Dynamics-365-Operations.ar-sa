@@ -2,23 +2,26 @@
 title: عرض الإيصال ذي الصلة بين الشركات الشقيقة من دفتر يومية
 description: يوضح إطار الإيصال ذات الصلة الإيصال من الشركة المقابلة عند ترحيل حركة بين شركات شقيقة من دفتر اليومية العام.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c41826986aea79206c8ec6ed045078e93a285a90042f0950fb5725c0bd850ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee8385561f9aadae333c05c6df62de0ad1d39010
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772769"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440048"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>عرض الإيصال ذي الصلة بين الشركات الشقيقة من دفتر يومية
 
@@ -51,6 +54,3 @@ ms.locfileid: "6772769"
 3. في القائمة، قم بوضع علامة للصف المحدد.
 4. انقر فوق "الإيصال".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,14 +1,17 @@
 ---
 title: تمكين توصيات المنتجات المخصصة
-description: يصف هذا الموضوع كيفية جعل توصيات المنتج المخصصة متوفرة للعملاء في Microsoft Dynamics 365 Commerce.
+description: يصف هذا الموضوع كيفيه جعل توصيات المنتج المخصصة متوفرة للعملاء في Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,20 +19,22 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 74bf2c96d744b8101151be9288a956d46ce3b6885f0cb593dc1b78728b018fb4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770947"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409863"
 ---
 # <a name="enable-personalized-recommendations"></a>تمكين التوصيات المخصصة
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية جعل توصيات المنتج المخصصة متوفرة للعملاء في Microsoft Dynamics 365 Commerce.
+يصف هذا الموضوع كيفيه جعل توصيات المنتج المخصصة متوفرة للعملاء في Microsoft Dynamics 365 Commerce.
 
-وفي Dynamics 365 Commerce، يمكن لبائعي التجزئة إجراء توصيات للمنتجات الشخصية (والتي تعرف أيضا بالتخصيص) المتوفرة. وبهذه الطريقة، يمكن دمج التوصيات الشخصية في تجربه العميل عبر الإنترنت وفي نقطه البيع (POS). عند تشغيل وظيفة إضفاء الطابع الشخصي، يمكن للنظام ربط معلومات الشراء والمنتج الخاصة بالمستخدم لإنشاء توصيات منتج إينديفيدواليزيد.
+## <a name="overview"></a>نظرة عامة
+
+وفي Dynamics 365 Commerce، يمكن لبائعي التجزئة اجراء توصيات للمنتجات الشخصية (والتي تعرف أيضا بالتخصيص) المتوفرة. وبهذه الطريقة، يمكن دمج التوصيات الشخصية في تجربه العميل عبر الإنترنت وفي نقطه البيع (POS). عند تشغيل وظيفة إضفاء الطابع الشخصي، يمكن للنظام ربط معلومات الشراء والمنتج الخاصة بالمستخدم لإنشاء توصيات منتج إينديفيدواليزيد.
 
 ## <a name="personalization-prerequisites"></a>متطلبات التخصيص
 
@@ -50,7 +55,7 @@ ms.locfileid: "6770947"
 1. حدد ميزة **توصيات المنتج المخصصة**.
 1. في جزء خصائص **توصيات المنتج المخصصة** ، حدد **تمكين الآن**.
 
-![تشغيل التخصيص.](./media/FeatureManagement_Personalized.PNG)
+![تشغيل التخصيص](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > عند تشغيل إضفاء الطابع الشخصي، يتم بدء عمليه إنشاء قوائم توصيات المنتج المخصصة. قد يكون مطلوبا حتى يوم واحد قبل ان تكون هذه القوائم متاحه ومرئية عبر الإنترنت وفي نقطه البيع.
@@ -73,7 +78,7 @@ ms.locfileid: "6770947"
 
 يبين الرسم التوضيحي التالي مثالا على قائمة  "الاختيارات الخاصة بك" في صفحه المتجر على الإنترنت.
 
-![قائمة العناصر المقترحة على الإنترنت لك.](./media/picksforyou.png)
+![قائمة العناصر المقترحة على الإنترنت لك](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>قوائم "الموصي بها للعميل" عند نقطه البيع
 
@@ -81,7 +86,7 @@ ms.locfileid: "6770947"
 
 يبين الرسم التوضيحي التالي مثالا لقائمة "الموصى به للعميل في الوحدة الطرفية لنقطة البيع.
 
-![قائمة الموصي بها للعميل عند نقطة البيع.](./media/picksonpos.png)
+![قائمة الموصي بها للعميل عند نقطه البيع](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>تطبيق التخصيص على قوائم التوصيات الموجودة
 
@@ -89,7 +94,7 @@ ms.locfileid: "6770947"
 
 علي سبيل المثال، قام مستخدم مسجل للدخول مسبقا بشراء المراقب الأسود وتشغيل البنية التي تظهر في قائمة  "الافتراضي المتداول" في التوضيح التالي. التالي، سيشاهد المستخدم المنتجات الجديدة بدلا من تلك المنتجات، كما هو موضح في قائمة  "التخصيص المتداول".
 
-![تطبيق التخصيص.](./media/applypersonalization.png)
+![تطبيق إضفاء الطابع الشخصي](./media/applypersonalization.png)
 
 لتطبيق إضفاء الطابع الشخصي على قائمة  توصيات موجودة في منشئ موقع التجارة، اتبع الخطوات التالية.
 
@@ -99,7 +104,7 @@ ms.locfileid: "6770947"
 1. في مربع الحوار **تحديد تكوين قائمة المنتجات**، ضمن  **النوع**، حدد نوع القائمة.
 1. حدد خانة الاختيار **تطبيق التخصيص**، ثم حدد **موافق**.
 
-    ![تطبيق التخصيص على قائمة متداولة.](./media/ApplyPersonalizationToTrending.PNG)
+    ![تطبيق التخصيص على قائمة  متداوله](./media/ApplyPersonalizationToTrending.PNG)
 
 1. احفظالصفحة وقم بانهاء تحريريها، ثم انشرها. بعد نشر الصفحة، سيرة المستخدمون المسجل دخولهم قوائم متداوله مخصصه.
 
@@ -126,6 +131,3 @@ ms.locfileid: "6770947"
 [إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

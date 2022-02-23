@@ -1,14 +1,17 @@
 ---
 title: طرق الدفع
 description: يجب أن يتم تكوين كل نوع دفع يقبله بائع التجزئة عند إعداد النظام. تصف هذه المقالة أنواع الدفع التي يمكنك إعدادها وتصف عملية إعدادها.
-author: BrianShook
-ms.date: 11/03/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779560"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409903"
 ---
 # <a name="payment-methods"></a>طرق الدفع
 
@@ -46,11 +49,3 @@ ms.locfileid: "7779560"
 2. ‏‫أنشئ أنواع البطاقات وأرقام البطاقات على مستوى المؤسسة. وإذا تم قبول بطاقات الدائن أو بطاقات المدين، فيجب إنشاء طريقة دفع واحدة للبطاقات، ثم إنشاء أنواع البطاقات وأرقام البطاقات على مستوى المؤسسة.‬
 3. ‏‫قم بإعداد طريقة دفع المتجر. اربط طرق الدفع بكل متجر، ثم قم بإدخال الإعدادات الخاصة بالمتجر لكل طريقة دفع.
 4. ‏‫قم بإعداد طرق الدفع للمتاجر. وللحصول على أيٍّ من طرق الدفع بالبطاقة التي يقبلها المتجر، استكمل إعداد البطاقة.‬
-
-## <a name="handle-change-tendering-for-payment-methods"></a>التعامل مع مناقصة التغيير لطرق الدفع
-
-لا تدعم بعض طرق الدفع مناقصة التغيير المباشر إذا كانت الأموال مستحقة للعملاء أثناء معاملات نقاط البيع. يمكن استخدام طريقتي الدفع **نقدًا** و **العملة** فقط في تغيير العطاء. 
-
-للتعامل مع الحالات التي يلزم فيها تغيير العطاء أثناء المعاملة، ولكن طريقة الدفع لا تدعمها، يمكنك تحديد طريقة الدفع **تغيير العطاء**. عندما تقوم بإعداد طرق دفع المتجر للمتجر، حدد طريقة الدفع المراد استخدامها. بعد ذلك، في قسم **التغيير**، في حقل **تغيير العطاء**، أدخل خيار دفع تغيير العطاء. على سبيل المثال، يمكنك إدخال **1** للإشارة إلى أنه يمكن استخدام النقد كخيار دفع تغيير العطاء.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

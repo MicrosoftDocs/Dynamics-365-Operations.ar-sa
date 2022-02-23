@@ -2,23 +2,26 @@
 title: دمج الشحنات يدويًا باستخدام صفحة دمج الشحنات
 description: يقدم هذا الموضوع سيناريو يتم فيه إصدار الأوامر المتعددة إلى المستودع ثم دمجها لاحقًا باستخدام صفحة دمج الشحنات.
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0da98b24b9e0ab1ae19fd353ec226b2e0ab008fe
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac60bef797d8e0bbe0d20f1585d5c3c0163f8788
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574199"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421134"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>دمج الشحنات يدويًا باستخدام صفحة دمج الشحنات
 
@@ -95,5 +98,3 @@ ms.locfileid: "7574199"
 
 - [سياسات دمج الشحنات](about-shipment-consolidation-policies.md)
 - [تكوين نُهج دمج الشحنات](configure-shipment-consolidation-policies.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

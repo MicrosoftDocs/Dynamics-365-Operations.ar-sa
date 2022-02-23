@@ -1,10 +1,12 @@
 ---
-title: تكوين الحقول لتطبيق إدارة المستودع للأجهزة المحمولة
-description: يصف هذا الموضوع كيفية تحديد أسماء وأولويات الحقول المعروضة في تطبيق إدارة المستودع للأجهزة المحمولة وتكوينها.
-author: Mirzaab
+title: تكوين أسماء حقول التطبيق في تطبيق المستودع
+description: يوضح هذا الموضوع كيفية تحديد وتكوين أسماء حقول تطبيق المستودع والأولويات في Dynamics 365 Supply Chain Management.
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -13,24 +15,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902286"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963425"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>تكوين الحقول لتطبيق إدارة المستودع للأجهزة المحمولة
+# <a name="configure-app-field-names-in-the-warehouse-app"></a>تكوين أسماء حقول التطبيق في تطبيق المستودع
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع كيفية تحديد أسماء وأولويات الحقول المعروضة في تطبيق إدارة المستودع للأجهزة المحمولة وتكوينها.
+يوضح هذا الموضوع كيفية تحديد وتكوين أسماء حقول تطبيق المستودع والأولويات في Dynamics 365 Supply Chain Management. 
 
 > [!NOTE]
-> ينطبق هذا الموضوع على الميزات في إدارة المخزن. ولا ينطبق على الميزات في إدارة المخزون. تطبيق إدارة المستودع للأجهزة المحمولة هو تطبيق يمكن استخدامه لتنفيذ مهام المستودع. يمكن تحديد وتكوين أسماء الحقول المستخدمة في التطبيق، فضلًا عن تكوين الأولوية التي ينبغي تعيين أسماء الحقول على أساسها. يوضح هذا الموضوع كيفية تحديد وتكوين أسماء حقول تطبيق إدارة المستودع للأجهزة المحمولة والأولويات هذه، وكيفية استخدامها في تطبيق التخزين.
+> ينطبق هذا الموضوع على الميزات في إدارة المخزن. ولا ينطبق على الميزات في إدارة المخزون. التخزين هو تطبيق يمكن استخدامه لتنفيذ مهام المستودع. يمكن تحديد وتكوين أسماء الحقول المستخدمة في التطبيق، فضلًا عن تكوين الأولوية التي ينبغي تعيين أسماء الحقول على أساسها. يوضح هذا الموضوع كيفية تحديد وتكوين أسماء حقول تطبيق التخزين والأولويات هذه، وكيفية استخدامها في تطبيق التخزين. للحصول على معلومات مفصلة حول كيفية تكوين اتصال بتطبيق المستودع، يُرجى الرجوع إلى البرنامج التعليمي [نظرة عامة على تثبيت وتكوين تطبيق المستودع](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>تكوين أسماء حقول تطبيق المخزن
 
@@ -137,9 +139,7 @@ ms.locfileid: "7902286"
 
 لن يتم عرض بيانات التعريف المتبقية، الموقع على سبيل المثال، على صفحة المهمة، ولكن سيتم عرضها على صفحة التفاصيل. لمزيد من المعلومات ومشاهدة أمثلة من واجهة المستخدم، راجع منشور المدونة [الإعلان عن Finance and Operations - التخزين](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
-[تثبيت تطبيق إدارة المستودع للأجهزة المحمولة والاتصال به](../warehousing/install-configure-warehouse-management-app.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[نظرة عامة على تثبيت وتكوين تطبيق المستودع](install-configure-warehousing-app.md)

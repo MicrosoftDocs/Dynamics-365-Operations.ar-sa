@@ -1,41 +1,39 @@
 ---
 title: تحديد وإدارة برنامج ميزات
-description: توفر الموارد البشرية مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. يقدم هذا الموضوع معلومات حول كيفية إعداد الميزات وإدارتها.
-author: twheeloc
-ms.date: 08/23/2021
+description: توفر الموارد البشرية مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. وتوفر هذه المقالة معلومات حول كيفية إعداد ميزات إدارة.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1f2bfa901aa299a091194978ee95ff0e69f2cdbf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a7fe99d4982b8f35871b15e8049c39eb806e315c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065341"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417073"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>تحديد وإدارة برنامج مزايا
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-يوفر Human Resources مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. يقدم هذا الموضوع معلومات حول كيفية إعداد الميزات وإدارتها.
+يوفر Human Resources مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. توفر هذه المقالة معلومات حول كيفية إعداد الميزات وإدارتها.
 
 ## <a name="benefit-setup"></a>إعداد الميزة‬
 
 قبل أن يمكن تسجيل العمال في الميزات، يجب عليك إنشاء العناصر لكل ميزة. وتشتمل هذه العناصر على خطط ميزات مماثلة وتحدد الإعدادات الافتراضية، مثل أسعار الخصم، وتفاصيل المحاسبة. ويمكن ضبط العديد من هذه الإعدادات عند تسجيل العمال لاحقاً في الميزة. وفي كل خطة ميزة، يمكن لمؤسسة تقديم عدة خيارات التسجيل، أو يمكن لعامل التنازل عن التسجيل في الخطة. 
 
-[![تدفق عملية الميزات.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![تدفق عملية الميزات](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>عناصر المزايا
 
@@ -47,7 +45,7 @@ ms.locfileid: "8065341"
 
 في كل نوع من الميزات، مثل الرؤية أو علاج الأسنان، يمكن لمؤسسة توفير خطة واحدة أو أكثر لعمالها. في كل خطة، يمكن للمؤسسة تقديم خيارات مختلفة. على سبيل المثال، يمكن للعمال شراء تغطية تأمين على الحياة إضافية بما يعادل الراتب السنوي مرة واحدة أو مرتين أو ثلاثة. تصبح كل مجموعة تضمّ الخطة والخيارات ميزة يمكن للعمال التسجيل فيها. 
 
-[![صورة الميزة.](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![صورة الميزة](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>الاستحقاق
 تحدد عدة عوامل أهلية العامل لأنواع مختلفة من الميزات التي يقدم صاحب العمل. وعند قيامك بإنشاء إحدى الميزات في Dynamics 365 Human Resources، يمكنك تعيين نوع الأهلية الذي ينطبق على هذه الميزة. 
@@ -66,6 +64,3 @@ ms.locfileid: "8065341"
 وبالمثل، يتيح لك تمديد الميزات الجماعي إمكانية تمديد تاريخ انتهاء صلاحية لكلٍّ من الميزة وعمليات تسجيل العمال لهذه الميزة، إذا قررت تقديم ميزة لمدة أطول من المدة المخطط لها في الأصل.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

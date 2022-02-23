@@ -2,9 +2,11 @@
 title: تصميم تكوينات التقارير الإلكترونية لتحليل المستندات الواردة
 description: يُظهر هذا الإجراء كيفية تصميم تكوينات التقارير الإلكترونية لتحليل مستند إلكتروني وارد.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8068850ee143540ff9f3b6222485d3ecd2a2a82020063f34cfd7b5a69826eda3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 446a4676ad00c93d691d3048408c32d7ad373d2d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756371"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682083"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>تصميم تكوينات التقارير الإلكترونية لتحليل المستندات الواردة
 
@@ -111,6 +113,3 @@ ms.locfileid: "6756371"
     * حدد "استعراض" وحدد ملف Response4.xml.
 16. حدد موافق.
     * اعمل على مراجعة المخرجات المنشأة. تم الآن التعرف بشكل صحيح على نوع الاستجابة على أنه مساو للملف Response1.xml.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,30 +2,35 @@
 title: العمل باستخدام الأجزاء
 description: يوضح هذا الموضوع سبب وقت وكيفية استخدام الأجزاء في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4410020"
 ---
 # <a name="work-with-fragments"></a>العمل باستخدام الأجزاء 
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع سبب وقت وكيفية استخدام الأجزاء في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 تسمح الأجزاء بتجربة تأليف مركزية لتكوينات الوحدة النمطية التي يجب إعادة استخدامها في الموقع الخاص بك. على سبيل المثال، غالبًا ما يتم تكوين الرؤوس والتذييلات والشعارات كأجزاء، لأنه تتم مشاركتها عبر العديد من الصفحات. يمكنك اعتبار الأجزاء كصفحات ويب مصغرة يمكن إدراجها في صفحات أخرى على موقعك. تحتوي الأجزاء على دورة حياة خاصة بها. بمعنى آخر، يتم إنشاءها والإشارة إليها وتحديثها وحذفها ككيانات مستقلة في أدوات التأليف.
 
@@ -62,7 +67,7 @@ ms.locfileid: "8090734"
 1. في مربع الحوار **حفظ كجزء**، ادخل اسمًا لهذا الجزء.
 1. حدد **موافق** لحفظ تكوين الوحدة النمطية كجزء يمكن إضافته إلى الصفحات الأخرى.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>إنشاء جزء جديد
 
@@ -73,7 +78,7 @@ ms.locfileid: "8090734"
 1. حدد نوع الوحدة النمطية لجزء الخاص بك.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > وعن طريق تحديد نوع وحدة الحاوية النمطية العامة، فإنه يمكنك الحصول على أعلى درجات المرونة عند ضرورة تحديث الجزء الخاص بك وتكوينه لاحقًا.
 
@@ -88,14 +93,14 @@ ms.locfileid: "8090734"
 1. في جزء المخطط التفصيلي إلى اليمين أو مباشرةً في أداة إنشاء الصفحة المرئية، حدد حاوية أو فتحة يمكن إضافة وحدات نمطية تابعة إليها.
 1. حدد علامة القطع (**...**) إلى جانب اسم الفتحة أو الحاوية.  أو إذا كنت تستخدم أداة إنشاء الصفحة المرئية، فحدد رمز علامة الجمع ( **+**).  
 1. حدد **إضافة جزء**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
     > إذا كانت الحاوية أو الفتحة لا تدعم وحدات تابعة جديدة، فلن يكون خيار **إضافة جزء** متوفرًا.
     
 1. في مربع الحوار **تحديد جزء**، ابحث عن جزء وحدده لإضافته. إذا لم يتم سرد الأجزاء المتوفرة، فقد تحتاج أولاً إلى إنشاء جزء من نوع الوحدة النمطية التي تدعمها الحاوية أو الفتحة المحددة.
 1. حدد الجزء المطلوب لإضافته إلى الحاوية أو الفتحة على الصفحة الخاصة بك.
-<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > يتم تعريف الوحدات النمطية المسموح بها في حاوية أو فتحة بواسطة قالب الصفحة أو تعريفات الوحدات النمطية الخاصة بها.
@@ -122,20 +127,6 @@ ms.locfileid: "8090734"
 
 يمكنك أيضًا تحرير جزء عن طريق تحديده في صفحة أو في قالب أو في جزء أصل، ثم تحديد **تحرير جزء** في جزء الخصائص الموجود على الجانب الأيمن.
 
-### <a name="rename-a-fragment"></a>إعادة تسمية جزء
-
-لإعادة تسمية جزء موجود في منشئ الموقع، اتبع الخطوات التالية.
-
-1. في جزء التنقل الأيمن، حدد **الأجزاء**.
-1. حدد اسم الجزء الذي تريد إعادة تسميته.
-1. حدد **تحرير** لبدء تحرير الجزء. لا يمكنك تحرير الجزء إذا كان هناك شخص آخر يقوم بتحريره.
-1. في جزء خصائص الجزء، حدد رمز القلم الموجود بجوار اسم الجزء.
-1. قم بتحرير اسم الجزء كما تقتضي الحاجة.
-1. حدد علامة الاختيار لتأكيد تغيير الاسم.
-1. حدد **إنهاء التحرير**.
-
-يمكنك إعادة تسمية الجزء بعد إنشائه عن طريق تحريره ثم تحديد رمز القلم الموجود بجوار اسم الجزء في جزء الخصائص.
-
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على القوالب والتخطيطات](templates-layouts-overview.md)
@@ -145,6 +136,3 @@ ms.locfileid: "8090734"
 [العمل مع التخطيطات سابقة الإعداد](work-with-layouts.md)
 
 [العمل مع مجموعات النشر](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,37 +1,36 @@
 ---
 title: إعداد الدورات التدريبية
 description: يمكن لمسؤولي ومديري الموارد البشرية استخدام ميزات الدورات التدريبية للاحتفاظ بمعلومات حول التدريب التي تم تقديمها للعمال.
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066740"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417176"
 ---
 # <a name="set-up-training-courses"></a>إعداد الدورات التدريبية
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 يمكن لمسؤولي ومديري الموارد البشرية استخدام ميزات الدورات التدريبية للاحتفاظ بمعلومات حول التدريب التي تم تقديمها للعمال.
 
-##  <a name="set-up-prerequisites"></a> متطلبات الإعداد الأساسية
+ <a name="set-up-prerequisites"></a> متطلبات الإعداد الأساسية
+---------------------
 
 المعلومات التالية يلزم ويجب إعدادها قبل إنشاء دورات تدريبية.
 -   **أنواع الدورات التدريبية**
@@ -83,7 +82,7 @@ ms.locfileid: "8066740"
 - تعريف الحد الأدنى والحد الأقصى لعدد المشاركين
 - قم بتعيين موقع الدورة التدريبية والحجرة الدراسية
 - قم بتوصية الفنادق للمشاركين في الدورة التدريبية
-- إنشاء وصف للدورة التدريبية، حيث يمكنك الإعلان عنه على **الخدمة الذاتية للموظف**
+- إنشاء وصف للدورة التدريبية، حيث يمكنك الإعلان عنه على الخدمة الذاتية للموظف
 
   >**ملاحظة** يمكنك حذف دورة تدريبية فقط إذا لم يقم أي شخص بالتسجيل لها. 
 
@@ -129,7 +128,8 @@ ms.locfileid: "8066740"
 ## <a name="course-participants"></a>المشاركون في الدورة التدريبية
 المشاركون في الدورة التدريبية هم العاملون المشاركون في دورة تدريبية أو حدث. يمكنك فقط تسجيل المشاركين في الدورات التدريبية المفتوحة. يتم تحديد الحد الأقصى والأدنى لعدد المشاركين الذين يمكن تسجيلهم في دورة تدريبية في علامة التبويب **عام** في صفحة **الدورات التدربيبة**.
 
-## <a name="workflow"></a>سير العمل
+<a name="workflow"></a>سير العمل
+--------
 
 ‏‫يمكن للموظفين الذين يقومون بالتسجيل لدورة تدريبية من خلال صفحة **الخدمة الذاتية للموظف** توجيه تسجيلاتهم عن طريق سير العمل للموافقة. يمكنك تعيين سير عمل إلى دورة تدريبية في علامة التبويب السريعة **عام** في صفحة **الدورات التدريبية‬‏‫**.
 
@@ -137,6 +137,3 @@ ms.locfileid: "8066740"
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

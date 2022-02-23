@@ -1,24 +1,27 @@
 ---
 title: إنشاء ومعالجة خصومات العملاء
 description: يوضح هذا الإجراء كيفية معالجة خصومات العميل بدءًا من إنشاء المطالبة إلى نقطة تمريرها كاستحقاقات للحسابات المدينة.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a8ebc281036842bdc8965e062990438e1fb466ff
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969077"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421495"
 ---
 # <a name="generate-and-process-customer-rebates"></a>إنشاء ومعالجة خصومات العملاء
 
@@ -69,7 +72,7 @@ ms.locfileid: "7969077"
 2. انقر فوق **تجميع**.
 3. في حقل **العميل** ، أدخل قيمة أو حددها.
 4. في الحقل **تاريخ البدء** ، حدد تاريخ اليوم.
-5. انقر فوق **موافق**. ونتيجة لتشغيل دالة **التجميع** ، تم ضبط مبلغ المطالبة المقدر الآن ليفسر حقيقة أن حجم المبيعات الإجمالي للعميل في الفترة المعنية يكون أكبر مقارنة بحجمها عند إنشاء الخصم الأول. وبشكل أكثر تحديداً، نظرًا لأن إجمالي الكمية التي تم شراؤها وصل إلى 100 وحدة، سيتأهل العميل الآن لخصم 40 دولاراً أمريكياً لكل وحدة (وفقا لفاصل الكمية الثاني في هذه الاتفاقية)، أو 4,000 دولارًا أمريكيًا كمبلغ الخصم الإجمالي. يتم تسجيل الفرق في شكل "ضبط" مطالبة جديدة لمبلغ 800 دولارًا أمريكيًا إضافية. يتم الآن تعيين حالة مطالبات الخصم التي تم تضمينها في تحديث التجميع على "محسوب". 
+5. انقر فوق **موافق**. ونتيجة لتشغيل دالة **التجميع** ، تم ضبط مبلغ المطالبة المقدر الآن ليفسر حقيقة أن حجم المبيعات الإجمالي للعميل في الفترة المعنية يكون أكبر مقارنة بحجمها عند إنشاء الخصم الأول. وبشكل أكثر تحديداً، نظرًا لأن إجمالي الكمية التي تم شراؤها وصل إلى 100 وحدة، سيتأهل العميل الآن لخصم 40 دولاراً أمريكياً لكل وحدة (وفقا لفاصل الكمية الثاني في هذه الاتفاقية)، أو 400 دولارًا أمريكيًا كمبلغ الخصم الإجمالي. يتم تسجيل الفرق في شكل "ضبط" مطالبة جديدة لمبلغ 800 دولارًا أمريكيًا إضافية. يتم الآن تعيين حالة مطالبات الخصم التي تم تضمينها في تحديث التجميع على "محسوب". 
 6. في القائمة، ضع علامة تمييز أمام جميع الصفوف.
 7. انقر فوق **‏‫الموافقة**.
 8. انقر فوق **معالجة**.
@@ -79,6 +82,3 @@ ms.locfileid: "7969077"
     - تمت إضافة المبلغ إلى حساب استحقاق الخصم لتمثيل الالتزام (الضريبي) المستقبلي تجاه العميل.
     - تم خصم المبلغ من حساب مصروفات الخصم للتعرف على التكلفة التي تم تكبدها والمرتبطة بالمبيعات.   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

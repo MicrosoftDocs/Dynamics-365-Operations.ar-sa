@@ -1,35 +1,33 @@
 ---
 title: تكوين خيارات أهلية جهة الاتصال الشخصية
-description: يشرح هذا الموضوع كيفية تكوين خيارات الأهلية لجهات الاتصال الشخصية في Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/24/2021
+description: قم بتكوين خيارات الأهلية لجهات الاتصال الشخصية في Microsoft Dynamics 365 Human Resources. يمكن أن تكون جهات الاتصال الشخصية من المستفيدين أو التابعين.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070340"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417131"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>تكوين خيارات أهلية جهة الاتصال الشخصية
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-يشرح هذا الموضوع كيفية تكوين أنواع جهات الاتصال الشخصية التي يمكن استخدامها في الميزات الموجودة في Microsoft Dynamics 365 Human Resources. جهات الاتصال الشخصية هي الأفراد الذين سيتم تغطيتهم بموجب خططك (المعالين) أو الذين سيستفيدون من خططك (المستفيدين). وعادة ما يكون المعالون أزواجا أو أطفالا. يمكن أن يكون المستفيدون أزواجا أو أطفالا أو ثقة أو والدين.
+يوضح هذا المقال كيفية تكوين أنواع جهات الاتصال الشخصية لاستخدامها في الميزات الموجودة في Microsoft Dynamics 365 Human Resources. يمكن أن تكون جهات الاتصال الشخصية من المستفيدين أو التابعين. 
 
 1. في مساحة العمل **إدارة الميزات**، ضمن **إعداد**، حدد **خيارات أهلية جهات الاتصال الشخصية**.
 
@@ -47,6 +45,3 @@ ms.locfileid: "8070340"
    | **العمر** | السن الأقصى لجهة اتصال شخصية مؤهلة لخطة الميزة. يكون هذا الحقل نشطًا فقط في حالة تحديد علاقة. تتم مقارنة هذا العمر بالسن المحسوب لجهة الاتصال الشخصية. السن المحسوب هو: (تاريخ التغطية – تاريخ ميلاد جهة اتصال شخصية / 365). ودائمًا ما يكون هذا الرقم عددًا صحيحًا. |
 
 4. حدد **حفظ**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

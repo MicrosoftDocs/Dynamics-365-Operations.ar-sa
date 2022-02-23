@@ -1,491 +1,474 @@
 - name: Dynamics 365 Human Resources
+  href: hr-welcome.md
   items:
-    - name: Dynamics 365 Human Resources
+    - name: الجديد
       items:
-        - name: صفحة Dynamics 365 Human Resources الرئيسية
-          href: index.md
-        - name: إصدار البنية الأساسية 10.0.25
-          href: hr-infrastructure.md
-        - name: الميزات الجديدة أو المتغيرة في البنية الأساسية المدمجة‬ في Dynamics 365 Human Resources
-          href: ./get-started/hr-whats-new-changed-10-0-25.md
-        - name: الشروع في العمل
+        - name: ما الجديد أو المتغير في Human Resources
+          href: hr-admin-whats-new.md
+        - name: 2 ديسمبر 2020
+          href: hr-whats-new-2020-12-02.md
+        - name: 22 أكتوبر 2020
+          href: hr-whats-new-2020-10-22.md
+        - name: 6 أكتوبر 2020
+          href: hr-whats-new-2020-10-06.md
+        - name: 26 سبتمبر 2020
+          href: hr-whats-new-2020-09-26.md
+        - name: 16 سبتمبر 2020
+          href: hr-whats-new-2020-09-16.md
+        - name: 3 سبتمبر 2020
+          href: hr-whats-new-2020-09-03.md
+        - name: 20 أغسطس 2020
+          href: hr-whats-new-2020-08-20.md
+        - name: 6 أغسطس 2020
+          href: hr-whats-new-2020-08-06.md
+        - name: 23 يوليو 2020
+          href: hr-whats-new-2020-07-23.md
+        - name: 8 يوليو 2020
+          href: hr-whats-new-2020-07-08.md
+        - name: 25 يونيه 2020
+          href: hr-whats-new-2020-06-23.md
+        - name: 11 يونيه 2020
+          href: hr-whats-new-2020-06-11.md
+        - name: 28 مايو 2020
+          href: hr-whats-new-2020-05-28.md
+        - name: 14 مايو 2020
+          href: hr-whats-new-2020-05-14.md
+        - name: 1 مايو 2020
+          href: hr-whats-new-2020-05-01.md
+        - name: الميزات الجديدة في أرشيفات 2020
           items:
-            - name: الميزات الجديدة
-              href: hr-admin-whats-new.md
-            - name: الأرشيفات الجديدة أو المتغير‬ة في 2021
-              items:
-                - name: 29 نوفمبر 2021
-                  href: hr-whats-new-2021-11-29.md
-                - name: 5 أكتوبر 2021
-                  href: hr-whats-new-2021-10-04.md
-                - name: 20 سبتمبر 2021
-                  href: hr-whats-new-2021-09-20.md
-                - name: 6 سبتمبر 2021
-                  href: hr-whats-new-2021-09-06.md
-                - name: 23 أغسطس 2021
-                  href: hr-whats-new-2021-08-23.md
-                - name: 9 أغسطس 2021
-                  href: hr-whats-new-2021-08-09.md
-                - name: 26 يوليو 2021
-                  href: hr-whats-new-2021-07-26.md
-                - name: 12 يوليو 2021
-                  href: hr-whats-new-2021-07-12.md
-                - name: 22 يونيو 2021
-                  href: hr-whats-new-2021-06-22.md
-                - name: 20 مايو 2021
-                  href: hr-whats-new-2021-05-20.md
-                - name: 3 مايو 2021
-                  href: hr-whats-new-2021-05-03.md
-                - name: 19 أبريل 2021
-                  href: hr-whats-new-2021-04-19.md
-                - name: 5 أبريل 2021
-                  href: hr-whats-new-2021-04-05.md
-                - name: 22 مارس 2021
-                  href: hr-whats-new-2021-03-22.md
-                - name: 8 مارس 2021
-                  href: hr-whats-new-2021-03-08.md
-                - name: 22 فبراير 2021
-                  href: hr-whats-new-2021-02-22.md
-                - name: 28 يناير 2021
-                  href: hr-whats-new-2021-01-28.md
-                - name: 21 يناير 2021
-                  href: hr-whats-new-2021-01-21.md
-            - name: الميزات الجديدة في أرشيفات 2020
-              items:
-                - name: 2 ديسمبر 2020
-                  href: hr-whats-new-2020-12-02.md
-                - name: 22 أكتوبر 2020
-                  href: hr-whats-new-2020-10-22.md
-                - name: 6 أكتوبر 2020
-                  href: hr-whats-new-2020-10-06.md
-                - name: 26 سبتمبر 2020
-                  href: hr-whats-new-2020-09-26.md
-                - name: 16 سبتمبر 2020
-                  href: hr-whats-new-2020-09-16.md
-                - name: 3 سبتمبر 2020
-                  href: hr-whats-new-2020-09-03.md
-                - name: 20 أغسطس 2020
-                  href: hr-whats-new-2020-08-20.md
-                - name: 6 أغسطس 2020
-                  href: hr-whats-new-2020-08-06.md
-                - name: 23 يوليو 2020
-                  href: hr-whats-new-2020-07-23.md
-                - name: 8 يوليو 2020
-                  href: hr-whats-new-2020-07-08.md
-                - name: 25 يونيو 2020
-                  href: hr-whats-new-2020-06-23.md
-                - name: 11 يونيو 2020
-                  href: hr-whats-new-2020-06-11.md
-                - name: 28 مايو 2020
-                  href: hr-whats-new-2020-05-28.md
-                - name: 14 مايو 2020
-                  href: hr-whats-new-2020-05-14.md
-                - name: 1 مايو 2020
-                  href: hr-whats-new-2020-05-01.md
-                - name: 13 أبريل 2020
-                  href: hr-whats-new-2020-04-13.md
-                - name: 3 أبريل 2020
-                  href: hr-whats-new-2020-04-03.md
-                - name: 24 مارس 2020
-                  href: hr-whats-new-2020-03-24.md
-                - name: 19 مارس 2020
-                  href: hr-whats-new-2020-03-19.md
-                - name: 10 مارس 2020
-                  href: hr-whats-new-2020-03-10.md
-                - name: 3 مارس 2020
-                  href: hr-whats-new-2020-03-03.md
-                - name: 25 فبراير 2020
-                  href: hr-whats-new-2020-02-25.md
-                - name: 18 فبراير 2020
-                  href: hr-whats-new-2020-02-18.md
-                - name: 12 فبراير 2020
-                  href: hr-whats-new-2020-02-12.md
-                - name: 7 فبراير 2020
-                  href: hr-whats-new-2020-02-07.md
-                - name: 3 فبراير 2020
-                  href: hr-whats-new-2020-02-03.md
-            - name: نظرة عامة
-              href: hr-admin-overview.md
-            - name: متطلبات النظام
-              href: hr-admin-system-requirements.md
-            - name: إعداد المثيلات وإدارتها
-              items:
-                - name: تزويد Human Resources
-                  href: hr-admin-setup-provision.md
-                - name: نسخ مثيل
-                  href: hr-admin-setup-copy-instance.md
-                - name: إزالة مثيل
-                  href: hr-admin-setup-remove-instance.md
-                - name: تحديث العملية
-                  href: hr-admin-setup-update-process.md
-            - name: إعداد تكامل البينات
-              items:
-                - name: اختيار تقنية تكامل بيانات
-                  href: hr-admin-integration-choose-technology.md
-                - name: ‏‫الأسئلة المتداولة حول التقييد
-                  href: hr-admin-integration-throttling-faq.md
-                - name: تكوين تكامل Dataverse
-                  href: hr-admin-integration-common-data-service.md
-                - name: جداول Dataverse
-                  href: hr-developer-entities.md
-                - name: تكوين جداول Dataverse الظاهرية
-                  href: hr-admin-integration-common-data-service-virtual-entities.md
-                - name: ‏‫الأسئلة المتداولة حول الجداول الظاهرية في ‬‏‫Human Resources‬‏‫
-                  href: hr-admin-virtual-entity-faq.md
-                - name: تكوين التكامل مع Finance
-                  href: hr-admin-integration-finance.md
-                - name: تكوين التكامل مع Dayforce
-                  href: hr-admin-integration-dayforce.md
-                - name: إنشاء تطبيق تصدير البيانات المتكررة
-                  href: hr-admin-integration-recurring-data-export.md
-                - name: التكامل مع LinkedIn Talent Hub
-                  href: hr-admin-integration-linkedin.md
-                - name: التكامل مع Office
-                  items:
-                    - name: برنامج تعليمي لتكامل Office
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: تحديث بيانات الكيان في Excel
-                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: الأسئلة المتداولة حول تجارب "فتح في Excel"
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: استكشاف أخطاء تكامل Office وإصلاحها
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                - name: تكوين إدارة البيانات
-                  items:
-                    - name: نظرة عامة على إطار عمل إدارة البيانات
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: كيانات البيانات
-                      items:
-                        - name: نظرة عامة حول كيانات البيانات
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: مشاريع بيانات التكوين
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: نسخ بيانات التكوين بين الشركات أو الكيانات القانونية
-                      items:
-                        - name: نظرة عامة حول نسخ بيانات التكوين
-                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: حزم بيانات التكوين
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: "حزم\_بيانات التكوين\_(إصدار يوليو 2017 فقط)"
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: قوالب بيانات التكوين
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: تعقب التغييرات في كيان
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: البحث عن معلومات حول كيانات البيانات القياسية
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: قوالب بيانات مع أوراق عمل متعددة
-                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: تمكين تعقب التغيير للكيانات
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: مفاتيح التكوين وكيانات البيانات
-                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: حزم بيانات التكوين
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: استيراد البيانات وتصدير الوظائف
-                      items:
-                        - name: نظرة عامة حول مهام استيراد البيانات وتصديرها
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
-                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: التطوير لكيانات البيانات
-                      items:
-                        - name: مبادئ التصميم وأفضل الممارسات لكيانات البيانات
-                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: إنشاء كيانات بيانات جديدة
-                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: خصائص كيان البيانات
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: إنشاء أعمدة محسوبة وحقول ظاهرية
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: السلوك عبر الشركة
-                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: معالجة رموز البلدان/المناطق
-                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: أنماط التوريث
-                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: قواعد معالج كيان البيانات
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: خصائص بيانات التعريف
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: عمليات التحقق من الصحة والإعدادات الافتراضية والحقول غير المعينة
-                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: الأمان وكيانات البيانات
-                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: استخدم الأدوات المساعدة لاختبار خدمات أطراف ثالثة
-                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                        - name: إنشاء كيانات للقراءة فقط تعرض الأبعاد المالية
-                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: إحضار قاعدة بياناتك الخاصة
-                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: تحسين مهام دفعات BYOD
-                      href: hr-admin-integration-byod-batch-jobs.md
-                    - name: التحديث التلقائي لمخزن الكيانات
-                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: أتمتة مهمة البيانات
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: مساحة عمل قائمة التحقق من صحة البيانات
-                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: أوصاف أخطاء إدارة البيانات
-                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                    - name: إدارة الميزات
-                      href: hr-admin-manage-features.md
-                    - name: تكوين وإدارة تسجيل قاعده البيانات
-                      href: hr-admin-database-logging.md
-            - name: استكشاف واجهة المستخدم
-              items:
-                - name: عناصر واجهة المستخدم
-                  href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
-                - name: ميزات إمكانية الوصول
-                  href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
-                - name: نظرة على إدارة الميزات
-                  href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: الأسئلة الشائعة حول العميل
-                  href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
-                - name: البحث عن إجراء
-                  href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
-                - name: التصفية المتقدمة وبنية الاستعلام
-                  href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين مساحات العمل وتصفيتها
-                  href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
-                - name: عرض الصفحات بجوار بعضها البعض باستخدام ميزة فتح في نافذة جديدة
-                  href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
-                - name: اختصارات لوحة المفاتيح
-                  href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
-                - name: تغيير اللوحات أو صور الشعارات للكيانات القانونية
-                  href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
-                - name: بحث التنقل
-                  href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
-                - name: تخصيص تجربة المستخدم
-                  href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
-                - name: طرق العرض المحفوظة
-                  href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
-                - name: إنشاء حقول مخصصة والعمل باستخدامها
-                  href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-                - name: تضمين تطبيقات اللوحة من Power Apps
-                  href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
-                - name: البحث عن المعلومات باستخدام عمليات البحث
-                  href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
-                - name: تغيير تاريخ جلسة
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
-                - name: تعيين منطقة زمنية مفضلة لمستخدم
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
-                - name: فهم Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
-                - name: الإعداد للعرض المباشر
-                  href: hr-admin-go-live-prepare.md
-                - name: الأسئلة المتداولة حول العرض المباشر
-                  href: hr-admin-go-live-faq.md
-                - name: الأسئلة المتداولة حول دمج البنية التحتية لـ Human Resources
-                  href: hr-infrastructure-merge-faq.md
-                - name: موارد الوثائق
-                  items:
-                    - name: نظام التعليمات
-                      href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
-                    - name: الاتصال بنظام التعليمات
-                      href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-                    - name: نظرة عامة حول التعليمات المخصصة
-                      href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
-                    - name: عرض أوصاف الحقول وتصديرها
-                      href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
-                    - name: مسجل المهام
-                      href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إنشاء الوثائق أو التدريب بمسجل المهام
-                      href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
-                - name: استكشاف أخطاء Human Resources وإصلاحها
-                  items:
-                    - name: الحصول على الدعم
-                      href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
-                    - name: تحسين الأداء عن طريق جدولة الوظائف الدُفعية بعد الساعات
-                      href: hr-admin-troubleshooting-batch-jobs.md
-                    - name: تحسين الأداء باستخدام مهام التنظيف التلقائية
-                      href: hr-admin-troubleshooting-batch-history.md
-                    - name: إعادة تعيين الوظائف الدفعية العالقة
-                      href: hr-admin-troubleshooting-batch-execution.md
-                    - name: إعادة تعيين مزامنة Dataverse
-                      href: hr-admin-troubleshooting-dataverse-sync.md
-                    - name: لم يتم تحديث تقارير التحليلات
-                      href: hr-admin-troubleshooting-analytic-reports.md
-                    - name: لا يمكن إنشاء بيئة في مركز مسؤولي Power Apps
-                      href: hr-admin-troubleshooting-power-apps.md
-                    - name: قطع اتصال العميل
-                      href: hr-admin-troubleshooting-disconnect.md
-                    - name: تجنب النص المقتطع في التدرج الهرمي للمنصب
-                      href: hr-admin-troubleshooting-truncate.md
-                    - name: تشغيل عملية التعويض
-                      href: hr-admin-troubleshooting-compensation.md
-                    - name: حفظ دليل المهام في LCS
-                      href: hr-admin-troubleshooting-task-guide.md
-                    - name: الوصول إلى العناوين الخاصة حسب دور الأمان
-                      href: hr-admin-troubleshooting-private-addresses.md
-                    - name: Human Resources لا يظهر في تطبيقات Dynamics 365
-                      href: hr-admin-troubleshooting-not-in-apps.md
-                    - name: خيارات إعداد التقارير
-                      href: hr-admin-troubleshooting-reporting.md
-                    - name: الأسئلة المتداولة حول التكامل
-                      href: hr-admin-troubleshooting-integration.md
-            - name: إعداد Human Resources
-              items:
-                - name: تكوين معلمات Human Resources
-                  href: hr-setup-parameters.md
-                - name: تكوين المعلمات المشتركة لـ Human resources
-                  href: hr-setup-shared-parameters.md
-                - name: إعداد تدفقات عمل Human resource
-                  href: hr-workflow-manage-employee-information.md
-                - name: فهم حقول التاريخ والوقت
-                  href: hr-setup-date-time-fields.md
-            - name: تكوين إعدادات المؤسسة
-              items:
-                - name: الصفحة الرئيسية لإدارة المؤسسة
-                  href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
-                - name: التسلسلات الرقمية
-                  items:
-                    - name: نظرة عامة على التسلسل الرقمي
-                      href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إعداد التسلسلات الرقمية على أساس فردي
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إعداد التسلسلات الرقمية باستخدام معالج
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
-                - name: المؤسسات والتدرجات الهرمية للمؤسسات
-                  items:
-                    - name: نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات
-                      href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
-                    - name: تخطيط التدرج الهرمي للمؤسسات
-                      href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إنشاء تدرج هرمي لمؤسسة
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إنشاء كيانات قانونية
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إنشاء وحدات تشغيل
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
-                - name: دفتر العناوين العمومي
-                  items:
-                    - name: نظرة عامة على دفتر العناوين العمومي
-                      href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
-                    - name: التخطيط لدفتر عناوين عمومي ودفاتر العناوين الأخرى
-                      href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
-                    - name: تكوين دفتر العناوين العمومي
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إعداد العنوان
-                      href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
-                    - name: الأسئلة المتداولة حول دفاتر العناوين
-                      href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
-                    - name: تكوين دفاتر العناوين
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إدارة مالكي المواقع
-                      href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
-                - name: نظام سير العمل
-                  items:
-                    - name: نظرة عامة على نظام سير العمل
-                      href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
-                    - name: بنية نظام سير العمل
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
-                    - name: عناصر سير العمل
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إجراءات سير العمل
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إنشاء عمليات سير عمل
-                      items:
-                        - name: نظرة عامة حول إنشاء عمليات سير العمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين خصائص سير العمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين مهام يدوية
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين مهام مؤتمتة
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين عمليات الاعتماد
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين خطوات الاعتماد
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين قرارات يدوية
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين قرارات شرطية
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين أنشطة موازية
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين فروع موازية
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تكوين عمليات سير عمل لعنصر بند
-                          href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: تكوين الوظيفة الدفعية لمعالجة رسائل سير العمل كحرجة
-                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
-                    - name: تفويض عناصر العمل في سير عمل
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
-                    - name: عرض محفوظات سير العمل
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
-                    - name: تكوين النظام لإرسال رسائل بريد إلكتروني مرتبطة بسير العمل إلى المستخدمين
-                      href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
-                    - name: أنوع سير العمل
-                      items:
-                        - name: إنشاء نوع سير عمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
-                        - name: قائمة تحقق نوع سير العمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
-                        - name: إنشاء فئة سير عمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
-                        - name: إنشاء استعلام لنوع سير العمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
-                        - name: إنشاء نوع سير عمل جديد
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
-                        - name: إنشاء فئة مستندات سير العمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
-                        - name: إنشاء فئة SubmitToWorkflow
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
-                        - name: إقران فئة مستندات سير العمل بنوع سير عمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
-                        - name: تقرير أنواع سير العمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
-                        - name: الأسئلة المتداولة حول سير العمل
-                          href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
-                - name: التنبيهات
-                  items:
-                    - name: نظرة عامة على التنبيهات
-                      href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إنشاء قواعد تنبيه
-                      href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
-                    - name: معالجة الدُفعة للتنبيهات
-                      href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
-                      href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-                - name: إدارة الحالات
-                  items:
-                    - name: نظرة عامة على إدارة الحالات
-                      href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
-                    - name: التخطيط لأمان الحالة والعمليات والفئات
-                      href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
-                - name: قوالب السجل
-                  items:
-                    - name: نظرة عامة على قوالب السجلات
-                      href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
-                    - name: إنشاء قالب سجل
-                      href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
-                    - name: استخدام قالب سجل لإنشاء سجل جديد
-                      href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين إدارة المستندات
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين وإرسال البريد الإلكتروني
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
-                - name: بيانات التاريخ/الوقت والمناطق الزمنية
-                  href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
-        - name: خدمة الموظف الذاتية
+            - name: 13 أبريل 2020
+              href: hr-whats-new-2020-04-13.md
+            - name: 3 أبريل 2020
+              href: hr-whats-new-2020-04-03.md
+            - name: 24 مارس 2020
+              href: hr-whats-new-2020-03-24.md
+            - name: 19 مارس 2020
+              href: hr-whats-new-2020-03-19.md
+            - name: 10 مارس 2020
+              href: hr-whats-new-2020-03-10.md
+            - name: 3 مارس 2020
+              href: hr-whats-new-2020-03-03.md
+            - name: 25 فبراير 2020
+              href: hr-whats-new-2020-02-25.md
+            - name: 18 فبراير 2020
+              href: hr-whats-new-2020-02-18.md
+            - name: 12 فبراير 2020
+              href: hr-whats-new-2020-02-12.md
+            - name: 7 فبراير 2020
+              href: hr-whats-new-2020-02-07.md
+            - name: 3 فبراير 2020
+              href: hr-whats-new-2020-02-03.md
+    - name: دليل المسؤول
+      items:
+        - name: نظرة عامة
+          href: hr-admin-overview.md
+        - name: متطلبات النظام
+          href: hr-admin-system-requirements.md
+        - name: إعداد المثيلات وإدارتها
           items:
-            - name: نظرة عامة على إعداد الخدمة الذاتية للموظف والمدير
-              href: hr-employee-manager-self-service-overview.md
-            - name: إنشاء ارتباطات مخصصة في الخدمة الذاتية للمدير
-              href: hr-employee-manager-self-service-custom-links.md
-            - name: تغيير اسم مساحة عمل الخدمة الذاتية للموظف
-              href: hr-employee-self-service-workspace-name.md
-            - name: تحرير المعلومات الشخصية
-              href: hr-employee-manager-self-service-edit-personal-information.md
-            - name: تقييد تحرير المعلومات الشخصية
-              href: hr-employee-self-service-restrict-editing.md
+            - name: تزويد Human Resources
+              href: hr-admin-setup-provision.md
+            - name: نسخ مثيل
+              href: hr-admin-setup-copy-instance.md
+            - name: إزالة مثيل
+              href: hr-admin-setup-remove-instance.md
+            - name: تحديث العملية
+              href: hr-admin-setup-update-process.md
+        - name: إعداد تكامل البينات
+          items:
+            - name: اختيار تقنية تكامل بيانات
+              href: hr-admin-integration-choose-technology.md
+            - name: تكوين تكامل Common Data Service
+              href: hr-admin-integration-common-data-service.md
+            - name: كيانات Common Data Service
+              href: hr-developer-entities.md
+            - name: تكوين كيانات Common Data Service الظاهرية
+              href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: تكوين التكامل مع Finance
+              href: hr-admin-integration-finance.md
+            - name: تكوين التكامل مع Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: إنشاء تطبيق تصدير البيانات المتكررة
+              href: hr-admin-integration-recurring-data-export.md
+            - name: التكامل مع LinkedIn Talent Hub
+              href: hr-admin-integration-linkedin.md
+            - name: التكامل مع Office
+              items:
+                - name: برنامج تعليمي لتكامل Office
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
+                - name: تحديث بيانات الكيان في Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء خبرات فتح في Excel
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
+                - name: استكشاف أخطاء تكامل Office وإصلاحها
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
+        - name: تكوين إدارة البيانات
+          items:
+            - name: نظرة عامة على إطار عمل إدارة البيانات
+              href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: كيانات البيانات
+              items:
+                - name: نظرة عامة حول كيانات البيانات
+                  href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: مشاريع بيانات التكوين
+                  href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
+                - name: نسخ بيانات التكوين بين الشركات أو الكيانات القانونية
+                  items:
+                    - name: نظرة عامة حول نسخ بيانات التكوين
+                      href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
+                    - name: حزم بيانات التكوين
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                    - name: "حزم\_بيانات التكوين\_(إصدار يوليو 2017 فقط)"
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                - name: قوالب بيانات التكوين
+                  href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: تعقب التغييرات في كيان
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: البحث عن معلومات حول كيانات البيانات القياسية
+                  href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: قوالب بيانات مع أوراق عمل متعددة
+                  href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
+                - name: تمكين تعقب التغيير للكيانات
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: مفاتيح التكوين وكيانات البيانات
+                  href: ../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: حزم بيانات التكوين
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: استيراد البيانات وتصدير الوظائف
+              items:
+                - name: نظرة عامة حول مهام استيراد البيانات وتصديرها
+                  href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
+                - name: أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
+                  href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
+            - name: التطوير لكيانات البيانات
+              items:
+                - name: مبادئ التصميم وأفضل الممارسات لكيانات البيانات
+                  href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء كيانات بيانات جديدة
+                  href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: خصائص كيان البيانات
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء أعمدة محسوبة وحقول ظاهرية
+                  href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: السلوك عبر الشركة
+                  href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
+                - name: معالجة رموز البلدان/المناطق
+                  href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
+                - name: أنماط التوريث
+                  href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
+                - name: قواعد معالج كيان البيانات
+                  href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
+                - name: خصائص بيانات التعريف
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: عمليات التحقق من الصحة والإعدادات الافتراضية والحقول غير المعينة
+                  href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: الأمان وكيانات البيانات
+                  href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: استخدم الأدوات المساعدة لاختبار خدمات جهات خارجية
+                  href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء كيانات للقراءة فقط تعرض الأبعاد المالية
+                  href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/human-resources/toc.json
+            - name: إحضار قاعدة بياناتك الخاصة
+              href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/human-resources/toc.json
+            - name: تحسين مهام دفعات BYOD
+              href: hr-admin-integration-byod-batch-jobs.md
+            - name: التحديث التلقائي لمخزن الكيانات
+              href: ../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/human-resources/toc.json
+            - name: أتمتة مهمة البيانات
+              href: ../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/human-resources/toc.json
+            - name: مساحة عمل قائمة التحقق من صحة البيانات
+              href: ../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/human-resources/toc.json
+            - name: أوصاف أخطاء إدارة البيانات
+              href: ../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/human-resources/toc.json
+        - name: إدارة الميزات
+          href: hr-admin-manage-features.md
+        - name: تكوين وإدارة تسجيل قاعده البيانات
+          href: hr-admin-database-logging.md
+        - name: استكشاف واجهة المستخدم
+          items:
+            - name: عناصر واجهة المستخدم
+              href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: ميزات إمكانية الوصول
+              href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
+            - name: نظرة على إدارة الميزات
+              href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: الأسئلة الشائعة حول العميل
+              href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
+            - name: البحث عن إجراء
+              href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: التصفية المتقدمة وبنية الاستعلام
+              href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
+            - name: تكوين مساحات العمل وتصفيتها
+              href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
+            - name: عرض الصفحات بجوار بعضها البعض باستخدام ميزة فتح في نافذة جديدة
+              href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
+            - name: اختصارات لوحة المفاتيح
+              href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
+            - name: تغيير اللوحات أو صور الشعارات للكيانات القانونية
+              href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
+            - name: بحث التنقل
+              href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: تخصيص تجربة المستخدم
+              href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
+            - name: طرق العرض المحفوظة
+              href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
+            - name: إنشاء حقول مخصصة والعمل باستخدامها
+              href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
+            - name: تضمين تطبيقات اللوحة من Power Apps
+              href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
+            - name: البحث عن المعلومات باستخدام عمليات البحث
+              href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
+            - name: تغيير تاريخ جلسة
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
+            - name: تعيين منطقة زمنية مفضلة لمستخدم
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
+            - name: فهم Lifecycle Services
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: تطبيق Human Resources في Teams
+          href: hr-admin-teams-leave-app.md
+        - name: الإعداد للعرض المباشر
+          href: hr-admin-go-live-prepare.md
+        - name: الأسئلة المتداولة حول العرض المباشر
+          href: hr-admin-go-live-faq.md
+        - name: موارد الوثائق
+          items:
+            - name: نظام التعليمات
+              href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: الاتصال بنظام التعليمات
+              href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
+            - name: نظرة عامة حول التعليمات المخصصة
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: عرض أوصاف الحقول وتصديرها
+              href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
+            - name: مسجل المهام
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
+            - name: إنشاء الوثائق أو التدريب بمسجل المهام
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
+        - name: استكشاف أخطاء Human Resources وإصلاحها
+          items:
+            - name: الحصول على الدعم
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
+            - name: تحسين الأداء عن طريق جدولة الوظائف الدُفعية بعد الساعات
+              href: hr-admin-troubleshooting-batch-jobs.md
+            - name: تحسين الأداء باستخدام مهام التنظيف التلقائية
+              href: hr-admin-troubleshooting-batch-history.md
+            - name: لم يتم تحديث تقارير التحليلات
+              href: hr-admin-troubleshooting-analytic-reports.md
+            - name: لا يمكن إنشاء بيئة في مركز إدارة Power Apps
+              href: hr-admin-troubleshooting-power-apps.md
+            - name: قطع اتصال العميل
+              href: hr-admin-troubleshooting-disconnect.md
+            - name: تجنب النص المقتطع في التدرج الهرمي للمنصب
+              href: hr-admin-troubleshooting-truncate.md
+            - name: تشغيل عملية التعويض
+              href: hr-admin-troubleshooting-compensation.md
+            - name: حفظ دليل المهام في LCS
+              href: hr-admin-troubleshooting-task-guide.md
+            - name: الوصول إلى العناوين الخاصة حسب دور الأمان
+              href: hr-admin-troubleshooting-private-addresses.md
+            - name: Human Resources لا يظهر في تطبيقات Dynamics 365
+              href: hr-admin-troubleshooting-not-in-apps.md
+            - name: خيارات إعداد التقارير
+              href: hr-admin-troubleshooting-reporting.md
+            - name: الأسئلة المتداولة حول التكامل
+              href: hr-admin-troubleshooting-integration.md
+    - name: دليل المطور
+      items:
+        - name: نظرة عامة
+          href: hr-developer-overview.md
+        - name: توسيع باستخدام Power Apps وPower Automate
+          href: hr-developer-power-apps.md
+        - name: كيانات Common Data Service
+          href: hr-developer-entities.md
+        - name: الحقول المخصصة
+          href: hr-developer-custom-fields.md
+        - name: إعداد تكامل البينات
+          items:
+            - name: اختيار تقنية تكامل بيانات
+              href: hr-admin-integration-choose-technology.md
+            - name: تكوين تكامل Common Data Service
+              href: hr-admin-integration-common-data-service.md
+            - name: تكوين التكامل مع Finance
+              href: hr-admin-integration-finance.md
+            - name: تكوين التكامل مع Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: إنشاء تطبيق تصدير البيانات المتكررة
+              href: hr-admin-integration-recurring-data-export.md
+            - name: التكامل مع Office
+              items:
+                - name: برنامج تعليمي لتكامل Office
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: تحديث بيانات الكيان في Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: إنشاء خبرات فتح في Excel
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: استكشاف أخطاء تكامل Office وإصلاحها
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: مرجع API الكيان
+          items:
+            - name: المصادقة
+              href: hr-developer-api-authentication.md
+            - name: الكيانات
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: نظره عامة على MyLeaveRequests
+                      href: hr-developer-api-myleaverequests-overview.md
+                    - name: إرسال طلب إجازة إلى سير العمل
+                      href: hr-developer-api-myleaverequests-submit.md
+    - name: دليل المستخدم
+      items:
+        - name: نظرة عامة
+          href: hr-hrpro-overview.md
+        - name: إعداد Human Resources
+          items:
+            - name: تكوين معلمات Human resources
+              href: hr-setup-parameters.md
+            - name: تكوين المعلمات المشتركة لـ Human resources
+              href: hr-setup-shared-parameters.md
+            - name: فهم حقول التاريخ والوقت
+              href: hr-setup-date-time-fields.md
+        - name: تكوين إعدادات المؤسسة
+          items:
+            - name: الصفحة الرئيسية لإدارة المؤسسة
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
+            - name: التسلسلات الرقمية
+              items:
+                - name: نظرة عامة على التسلسل الرقمي
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: إعداد التسلسلات الرقمية على أساس فردي
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
+                - name: إعداد التسلسلات الرقمية باستخدام معالج
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
+            - name: المؤسسات والتدرجات الهرمية للمؤسسات
+              items:
+                - name: نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
+                - name: تخطيط التدرج الهرمي للمؤسسات
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء تدرج هرمي لمؤسسة
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء كيانات قانونية
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء وحدات تشغيل
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
+            - name: دفتر العناوين العمومي
+              items:
+                - name: نظرة عامة على دفتر العناوين العمومي
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: التخطيط لدفتر عناوين عمومي ودفاتر العناوين الأخرى
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين دفتر العناوين العمومي
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: الأسئلة المتداولة حول دفاتر العناوين
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين دفاتر العناوين
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+            - name: نظام سير العمل
+              items:
+                - name: نظرة عامة على نظام سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+                - name: بنية نظام سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+                - name: عناصر سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+                - name: إجراءات سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء عمليات سير عمل
+                  items:
+                    - name: نظرة عامة حول إنشاء عمليات سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين خصائص سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين مهام يدوية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين مهام مؤتمتة
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين عمليات اعتماد
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين خطوات اعتماد
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين قرارات يدوية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين قرارات شرطية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين أنشطة موازية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين فروع موازية
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: تكوين عمليات سير عمل لعنصر بند
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين الوظيفة الدفعية لمعالجة رسائل سير العمل كحرجة
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+                - name: تفويض عناصر العمل في سير عمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: عرض محفوظات سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+                - name: تكوين النظام لإرسال رسائل بريد إلكتروني مرتبطة بسير العمل إلى المستخدمين
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+                - name: أنوع سير العمل
+                  items:
+                    - name: إنشاء نوع سير عمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: قائمة تحقق نوع سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                    - name: إنشاء فئة سير عمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                    - name: إنشاء استعلام لنوع سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                    - name: إنشاء نوع سير عمل جديد
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                    - name: إنشاء فئة مستندات سير العمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: إنشاء فئة SubmitToWorkflow
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: إقران فئة مستندات سير العمل بنوع سير عمل
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+                - name: تقرير أنواع سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: الأسئلة المتداولة حول سير العمل
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+            - name: التنبيهات
+              items:
+                - name: نظرة عامة على التنبيهات
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء قواعد تنبيه
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
+                - name: المعالجة الدُفعية للتنبيهات
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
+                - name: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
+            - name: التوقيعات الإلكترونية
+              items:
+                - name: نظرة عامة على التوقيعات الإلكترونية
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: إعداد التوقيعات الإلكترونية
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
+            - name: إدارة الحالات
+              items:
+                - name: نظرة عامة على إدارة الحالات
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
+                - name: التخطيط لأمان الحالة والعمليات والفئات
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: قوالب السجل
+              items:
+                - name: نظرة عامة على قوالب السجلات
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: إنشاء قالب سجل
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
+                - name: استخدام قالب سجل لإنشاء سجل جديد
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
+            - name: تكوين إدارة المستندات
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: تكوين وإرسال البريد الإلكتروني
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
+            - name: بيانات التاريخ/الوقت والمناطق الزمنية
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
         - name: إدارة العاملين
           items:
             - name: تنظيم القوى العاملة
               href: hr-personnel-departments-jobs-positions.md
-            - name: مساحة عمل إدارة العاملين
-              href: hr-personnel-personnel-management-workspace.md
             - name: إعداد مكونات وظيفة
               href: hr-personnel-jobs.md
             - name: تحديد الأقسام
@@ -494,11 +477,9 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: تحديد الوظائف
               href: hr-personnel-define-jobs.md
-            - name: المناصب‬
-              href: hr-personnel-positions.md
             - name: إنشاء تقويم مواعيد العمل
               href: hr-personnel-create-working-time-calendar.md
-            - name: توظيف المرشحين للوظائف
+            - name: تعيين المرشحين للوظائف
               href: hr-personnel-recruit.md
             - name: الأسئلة المتداولة حول إجراءات العاملين
               href: hr-personnel-actions-faq.md
@@ -508,12 +489,8 @@
               href: hr-personnel-view-address-changes.md
             - name: تعديل العلاقات الهرمية لمنصب
               href: hr-personnel-modify-reporting-relationships-position.md
-            - name: إدخال الموظفين المبسط‬
-              href: ../talent/streamlined-employee-entry.md?toc=/dynamics365/human-resources/toc.json
             - name: إدخال معلومات العامل
               href: hr-personnel-enter-worker-information.md
-            - name: العاملون بدون توظيف
-              href: hr-personnel-workers-without-employment.md
             - name: أصناف القرض للعمال
               href: hr-personnel-loan-item-worker.md
             - name: إنشاء أصناف قرض
@@ -522,8 +499,6 @@
               href: hr-personnel-loan-items.md
             - name: تطوير خطة تتابع
               href: hr-personnel-develop-succession-plan.md
-            - name: إدخال الجداول الزمنية للمشروع‬
-              href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md?toc=/dynamics365/human-resources/toc.json
             - name: مشاريع التوظيف الجماعي
               href: hr-personnel-mass-hire-projects.md
             - name: إنشاء مشروع توظيف جماعي
@@ -534,29 +509,107 @@
               href: hr-personnel-set-up-injury-illness-information.md
             - name: الاحتفاظ بمعلومات إصابة الموظف ومرضه
               href: hr-personnel-maintain-employee-injury-illness-information.md
-            - name: تعيين المرشحين
+        - name: إعداد خطط التعويض
+          items:
+            - name: نظرة عامة على خطط التعويض
+              href: hr-compensation-overview.md
+            - name: إعداد شبكات التعويض
+              href: hr-compensation-grids.md
+            - name: تطوير بنية التعويض والخطة
+              href: hr-compensation-structure.md
+            - name: إنشاء خطط التعويض الثابتة
+              href: hr-compensation-fixed-plans.md
+            - name: إنشاء خطط التعويض المتغيرة
+              href: hr-compensation-variable-plans.md
+            - name: تسجيل موظفين في خطة تعويض ثابتة
+              href: hr-compensation-enroll-employees-fixed.md
+            - name: تسجيل موظفين في خطة التعويض المتغيرة
+              href: hr-compensation-enroll-employees-variable.md
+            - name: تحديد عملية التعويض وحساب النتائج
+              href: hr-compensation-define-process.md
+            - name: خطط تعويض العملية
+              href: hr-compensation-process.md
+        - name: إدارة المزايا
+          items:
+            - name: إدارة المزايا
               items:
-                - name: إدارة عمليات التوظيف
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: مشاريع التوظيف الجماعي
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: إنشاء مشاريع توظيف جماعي
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: إدخال بيانات مقدم الطلب والطلب يدوياً
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: تطوير طلبات الموظفين وفتحها
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: إعداد المناصب
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: توظيف مرشحين من خلال التوظيف
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: توظيف موظفين موجودين من خلال التوظيف
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: تحديد أدوات اختيار المرشحين ونشرها
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-        - name: إدارة المهام
-          href: hr-task-mgmt.md
-        - name: الإجازة والغياب
+                - name: نظرة عامة على إدارة المزايا
+                  href: hr-benefits-management-overview.md
+                - name: تكوين إدارة المزايا
+                  items:
+                    - name: تكوين محددات إدارة المزايا لكل شركة
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: تعيين محددات إدارة المزايا والخدمة الذاتية للموظفين لجميع الشركات
+                      href: hr-benefits-setup-parameters.md
+                    - name: تكوين قواعد الأهلية وخياراتها
+                      href: hr-benefits-setup-eligibility-rules.md
+                    - name: تكوين خيارات أهلية جهة الاتصال الشخصية
+                      href: hr-benefits-setup-contact-eligibility-options.md
+                    - name: إنشاء خيارات تغطية
+                      href: hr-benefits-setup-coverage-options.md
+                    - name: إعداد تكرارات المدفوعات
+                      href: hr-benefits-setup-payment-frequencies.md
+                    - name: تكوين أنواع أحداث الحياة
+                      href: hr-benefits-setup-life-event-types.md
+                    - name: إنشاء أنواع الخطة
+                      href: hr-benefits-setup-plan-types.md
+                    - name: إعداد أكواد السبب
+                      href: hr-benefits-setup-reason-codes.md
+                    - name: إعداد أكواد الطبقات
+                      href: hr-benefits-setup-tier-codes.md
+                    - name: تكوين المعدلات
+                      href: hr-benefits-setup-rates.md
+                    - name: تكوين الخصومات
+                      href: hr-benefits-setup-deductions.md
+                    - name: تكوين أيام الانتظار
+                      href: hr-benefits-setup-waiting-days.md
+                    - name: تكوين فترات الانتظار
+                      href: hr-benefits-setup-waiting-periods.md
+                    - name: إعداد قواعد التقريب
+                      href: hr-benefits-setup-rounding-rules.md
+                    - name: إنشاء فئات التوظيف
+                      href: hr-benefits-setup-employment-categories.md
+                    - name: إعداد أنواع التوظيف
+                      href: hr-benefits-setup-employment-types.md
+                    - name: تكوين خدمة الموظف الذاتية
+                      href: hr-benefits-setup-employee-self-service.md
+                - name: إنشاء خطط المزايا
+                  items:
+                    - name: إعداد خطط المزايا
+                      href: hr-benefits-plans-setup.md
+                    - name: إعداد برامج الائتمان المرنة
+                      href: hr-benefits-plans-flex-credit-programs.md
+                - name: معالجة خطط المزايا
+                  items:
+                    - name: معالجة أهلية التسجيل
+                      href: hr-benefits-process-enrollment-eligibility.md
+                    - name: معالجة أحداث الحياة
+                      href: hr-benefits-process-life-events.md
+                    - name: معالجة تغييرات أحداث الحياة
+                      href: hr-benefits-process-life-event-changes.md
+                    - name: معالجة أهلية أحداث الحياة
+                      href: hr-benefits-process-life-event-eligibility.md
+                    - name: معالجة تغييرات المعدلات
+                      href: hr-benefits-process-rate-changes.md
+            - name: تحديد وإدارة برنامج مزايا
+              href: hr-benefits-manage-program.md
+            - name: سياسات استحقاق المزايا
+              href: hr-benefits-eligibility-policies.md
+            - name: عملية استحقاق المزايا
+              href: hr-benefits-eligibility-process.md
+            - name: تحديد قواعد وسياسات استحقاق الفائدة
+              href: hr-benefits-define-eligibility-rules.md
+            - name: تقديم برنامج مزايا الموظفين
+              href: hr-benefits-deliver-employee-benefits-program.md
+            - name: إنشاء مزايا جديدة
+              href: hr-benefits-create.md
+            - name: تسجيل العمال في المزايا
+              href: hr-benefits-enroll-workers.md
+            - name: إدارة تواريخ انتهاء صلاحية الميزة
+              href: hr-benefits-expiration-dates.md
+            - name: إنشاء تقارير ACA
+              href: hr-benefits-aca-reports.md
+        - name: إدارة الإجازة والغياب
           items:
             - name: نظرة عامة
               href: hr-leave-and-absence-overview.md
@@ -588,145 +641,27 @@
               href: hr-employee-self-service-request-time-off.md
             - name: عرض تقويمات الفريق والشركة
               href: hr-employee-self-service-calendar.md
-            - name: تكوين دور مدير الغياب
-              href: hr-configure-absence-manager.md
             - name: إدارة سياسات شراء الإجازة وبيعها
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: إنشاء عمليات سير عمل شراء الإجازات وبيعها
               href: hr-leave-and-absence-buy-sell-workflow.md
             - name: شراء الإجازة وبيعها
               href: hr-employee-self-service-buy-sell-leave.md
-        - name: المزايا‬
-          items:
-            - name: تحديد برنامج مزايا وإدارته
-              href: hr-benefits-manage-program.md
-            - name: سياسات استحقاق الميزات
-              href: hr-benefits-eligibility-policies.md
-            - name: عملية استحقاق المزايا
-              href: hr-benefits-eligibility-process.md
-            - name: تحديد قواعد وسياسات استحقاق الفائدة
-              href: hr-benefits-define-eligibility-rules.md
-            - name: تقديم برنامج مزايا الموظفين
-              href: hr-benefits-deliver-employee-benefits-program.md
-            - name: إنشاء مزايا جديدة
-              href: hr-benefits-create.md
-            - name: تسجيل العمال في المزايا
-              href: hr-benefits-enroll-workers.md
-            - name: إدارة تواريخ انتهاء صلاحية الميزة
-              href: hr-benefits-expiration-dates.md
-            - name: إنشاء تقارير ACA
-              href: hr-benefits-aca-reports.md
-        - name: إدارة المزايا
-          items:
-            - name: نظرة عامة على إدارة المزايا
-              href: hr-benefits-management-overview.md
-            - name: مساحة عمل إدارة المزايا
-              href: hr-benefits-management-workspace.md
-            - name: تكوين إدارة المزايا
-              items:
-                - name: تكوين محددات إدارة المزايا لكل شركة
-                  href: hr-benefits-setup-parameters-per-company.md
-                - name: تعيين محددات إدارة المزايا والخدمة الذاتية للموظفين لجميع الشركات
-                  href: hr-benefits-setup-parameters.md
-                - name: تكوين قواعد الأهلية وخياراتها
-                  href: hr-benefits-setup-eligibility-rules.md
-                - name: تكوين خيارات أهلية جهة الاتصال الشخصية
-                  href: hr-benefits-setup-contact-eligibility-options.md
-                - name: إنشاء خيارات تغطية
-                  href: hr-benefits-setup-coverage-options.md
-                - name: إعداد تكرارات الدفع
-                  href: hr-benefits-setup-payment-frequencies.md
-                - name: تكوين أنواع أحداث الحياة
-                  href: hr-benefits-setup-life-event-types.md
-                - name: نظرة عامة على نوع الخطة
-                  href: hr-benefits-setup-plan-types.md
-                - name: إعداد أكواد السبب
-                  href: hr-benefits-setup-reason-codes.md
-                - name: إعداد أكواد الطبقات
-                  href: hr-benefits-setup-tier-codes.md
-                - name: تكوين المعدلات
-                  href: hr-benefits-setup-rates.md
-                - name: تكوين الخصومات
-                  href: hr-benefits-setup-deductions.md
-                - name: تكوين أيام الانتظار
-                  href: hr-benefits-setup-waiting-days.md
-                - name: تكوين فترات الانتظار
-                  href: hr-benefits-setup-waiting-periods.md
-                - name: إعداد قواعد التقريب
-                  href: hr-benefits-setup-rounding-rules.md
-                - name: إنشاء فئات التوظيف
-                  href: hr-benefits-setup-employment-categories.md
-                - name: إعداد أنواع التوظيف
-                  href: hr-benefits-setup-employment-types.md
-                - name: تكوين خدمة الموظف الذاتية
-                  href: hr-benefits-setup-employee-self-service.md
-                - name: إنشاء خطط المزايا
-                  items:
-                    - name: إعداد خطط المزايا
-                      href: hr-benefits-plans-setup.md
-                    - name: إعداد برامج الائتمان المرنة
-                      href: hr-benefits-plans-flex-credit-programs.md
-                - name: معالجة خطط المزايا
-                  items:
-                    - name: معالجة أهلية التسجيل
-                      href: hr-benefits-process-enrollment-eligibility.md
-                    - name: معالجة أحداث الحياة
-                      href: hr-benefits-process-life-events.md
-                    - name: معالجة تغييرات أحداث الحياة
-                      href: hr-benefits-process-life-event-changes.md
-                    - name: معالجة أهلية الأحداث الحياتية
-                      href: hr-benefits-process-life-event-eligibility.md
-                    - name: معالجة تغييرات المعدلات
-                      href: hr-benefits-process-rate-changes.md
-                - name: تحديد مزايا الموظف
-                  href: employee-select-benefits-ess.md
-                - name: تقارير ACA
-                  href: hr-benefits-management-aca-reports.md
-                - name: بيان المزايا
-                  href: hr-benefits-statement.md
-        - name: إدارة التعويض
-          items:
-            - name: نظرة عامة على خطط التعويض
-              href: hr-compensation-overview.md
-            - name: إعداد شبكات التعويض
-              href: hr-compensation-grids.md
-            - name: تطوير بنية التعويض والخطة
-              href: hr-compensation-structure.md
-            - name: إنشاء خطط التعويض الثابتة
-              href: hr-compensation-fixed-plans.md
-            - name: إنشاء خطط التعويض المتغيرة
-              href: hr-compensation-variable-plans.md
-            - name: تسجيل موظفين في خطة تعويض ثابتة
-              href: hr-compensation-enroll-employees-fixed.md
-            - name: تسجيل موظفين في خطة التعويض المتغيرة
-              href: hr-compensation-enroll-employees-variable.md
-            - name: تحديد عملية التعويض وحساب النتائج
-              href: hr-compensation-define-process.md
-            - name: معالجة خطط التعويض
-              href: hr-compensation-process.md
-            - name: وضع علامة على موظف كجاهز للدفع
-              href: hr-compensation-payroll.md
+        - name: إدارة طلبات الإجازة في Teams
+          href: hr-teams-leave-app.md
         - name: تطوير الموظفين
           items:
             - name: نظرة عامة حول إدارة الأداء
               href: hr-develop-performance-management-overview.md
-            - name: المهارات
-              items:
-                - name: تكوين المهارات
-                  href: hr-develop-skills.md
-                - name: إدخال المهارات
-                  href: hr-develop-enter-skills.md
-                - name: تعيين المهارات
-                  href: hr-develop-map-skills.md
-                - name: انسجام مهارات القوى العاملة
-                  href: hr-develop-skills.md
-            - name: إضافة إلى دفتر يومية الأداء
+            - name: انسجام مهارات القوى العاملة
+              href: hr-develop-skills.md
+            - name: أضافه إلى دفتر يومية الأداء
               href: hr-develop-add-performance-journal.md
             - name: إنشاء هدف
               href: hr-develop-create-goal.md
             - name: إنشاء مراجعة الأداء
               href: hr-develop-create-performance-review.md
-        - name: التعلم
+        - name: إنشاء دورات تدريبية
           items:
             - name: إعداد الدورات التدريبية
               href: hr-learning-courses.md
@@ -748,283 +683,13 @@
               href: hr-learning-create-closed-ended-question.md
             - name: إنشاء سؤال تابع
               href: hr-learning-depending-question.md
-        - name: استخدام نظام سير العمل
+        - name: إعداد الخدمة الذاتية للموظف والمدير
           items:
-            - name: نظرة عامة على نظام سير العمل
-              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
-            - name: بنية نظام سير العمل
-              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
-            - name: عناصر سير العمل
-              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
-            - name: إجراءات سير العمل
-              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
-            - name: إنشاء عمليات سير عمل
-              items:
-                - name: نظرة عامة حول إنشاء عمليات سير العمل
-                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين خصائص سير العمل
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين مهام يدوية
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين مهام مؤتمتة
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين عمليات الاعتماد
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين خطوات الاعتماد
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين مراجعي النفقات
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين قرارات يدوية
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين قرارات شرطية
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين أنشطة موازية
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين فروع موازية
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: تكوين عمليات سير عمل لعنصر بند
-                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
-            - name: تكوين الوظيفة الدفعية لمعالجة رسائل سير العمل كحرجة
-              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
-            - name: تفويض عناصر العمل في سير عمل
-              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
-            - name: عرض محفوظات سير العمل
-              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
-            - name: تكوين النظام لإرسال رسائل بريد إلكتروني مرتبطة بسير العمل إلى المستخدمين
-              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
-            - name: أنوع سير العمل
-              items:
-                - name: إنشاء نوع سير عمل
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
-                - name: قائمة تحقق نوع سير العمل
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
-                - name: إنشاء فئة سير عمل
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
-                - name: إنشاء استعلام لنوع سير العمل
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
-                - name: إنشاء نوع سير عمل جديد
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
-                - name: إنشاء فئة مستندات سير العمل
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
-                - name: إنشاء فئة SubmitToWorkflow
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
-                - name: إقران فئة مستندات سير العمل بنوع سير عمل
-                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
-            - name: تقرير أنواع سير العمل
-              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
-            - name: الأسئلة المتداولة حول سير العمل
-              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
-        - name: السلامة والامتثال في أماكن العمل (الولايات المتحدة)
-          items:
-            - name: التحقق من صحة النموذج I-9
-              href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
-            - name: التحقق من صحة الأهلية للتوظيف باستخدام نموذج I-9
-              href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
-            - name: إعداد أنواع مستندات النموذج I-9
-              href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
-            - name: التوافق مع قانون الأمريكيين المعاقين
-              href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
-            - name: إدارة توصيات العامل
-              href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: تنمية الموارد البشرية
-      items:
-        - name: نظرة عامة
-          href: hr-developer-overview.md
-        - name: توسيع باستخدام Power Apps وPower Automate
-          href: hr-developer-power-apps.md
-        - name: جداول Dataverse
-          href: hr-developer-entities.md
-        - name: الحقول المخصصة
-          href: hr-developer-custom-fields.md
-        - name: إعداد تكامل البينات
-          items:
-            - name: اختيار تقنية تكامل بيانات
-              href: hr-admin-integration-choose-technology.md
-            - name: تكوين تكامل Dataverse
-              href: hr-admin-integration-common-data-service.md
-            - name: تكوين جداول Dataverse الظاهرية
-              href: hr-admin-integration-common-data-service-virtual-entities.md
-            - name: تكوين التكامل مع Finance
-              href: hr-admin-integration-finance.md
-            - name: تكوين التكامل مع Dayforce
-              href: hr-admin-integration-dayforce.md
-            - name: إنشاء تطبيق تصدير البيانات المتكررة
-              href: hr-admin-integration-recurring-data-export.md
-            - name: التكامل مع Office
-              items:
-                - name: برنامج تعليمي لتكامل Office
-                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
-                - name: تحديث بيانات الكيان في Excel
-                  href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
-                - name: إنشاء خبرات فتح في Excel
-                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
-                - name: استكشاف أخطاء تكامل Office وإصلاحها
-                  href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
-        - name: استكشاف أخطاء التطوير وإصلاحها باستخدام جداول Dataverse الظاهرية
-          items:
-            - name: تحسين استعلامات الجدول الظاهري لـ Dataverse
-              href: hr-developer-optimize-virtual-table-queries.md
-            - name: ‏‫الأسئلة المتداولة حول الجداول الظاهرية في ‬‏‫Human Resources‬‏‫
-              href: hr-admin-virtual-entity-faq.md
-        - name: مرجع واجهة برمجة تطبيقات الكيان
-          items:
-            - name: المصادقة
-              href: hr-developer-api-authentication.md
-            - name: الكيانات
-              items:
-                - name: MyLeaveRequests
-                  items:
-                    - name: نظره عامة على MyLeaveRequests
-                      href: hr-developer-api-myleaverequests-overview.md
-                    - name: إرسال طلب إجازة إلى سير العمل
-                      href: hr-developer-api-myleaverequests-submit.md
-        - name: واجهة برمجة تطبيقات (API) تكامل ATS
-          items:
-            - name: مقدمة
-              href: hr-admin-integration-ats-api-introduction.md
-            - name: مصادقة خادم إلى خادم لعمليات تكامل ATS
-              href: hr-admin-integration-ats-api-s2s-auth.md
-            - name: طلب التوظيف والكيانات ذات الصلة
-              items:
-                - name: طلب التوظيف
-                  href: hr-admin-integration-ats-api-recruiting-request.md
-                - name: تعليم طلب التعيين
-                  href: hr-admin-integration-ats-api-recruiting-request-education.md
-                - name: موقع طلب التعيين
-                  href: hr-admin-integration-ats-api-recruiting-request-location.md
-                - name: منصب طلب التعيين
-                  href: hr-admin-integration-ats-api-recruiting-request-position.md
-                - name: مهارة طلب التعيين
-                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
-                - name: مثال لاستعلام عن طلب تعيين
-                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
-            - name: مجموعات خيار طلب التعيين
-              items:
-                - name: حالة الإعفاء من الوظيفة
-                  href: hr-admin-integration-ats-api-job-exempt-status.md
-                - name: حالة منصب طلب التعيين
-                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
-                - name: حالة طلب التعيين
-                  href: hr-admin-integration-ats-api-recruiting-request-status.md
-                - name: فئة الوظيفة التنظيمية
-                  href: hr-admin-integration-ats-api-regulatory-job-category.md
-            - name: المرشح المُراد توظيفه والكيانات ذات الصلة
-              items:
-                - name: المرشح المُراد توظيفه
-                  href: hr-admin-integration-ats-api-candidate-to-hire.md
-                - name: نوع الشهادة
-                  href: hr-admin-integration-ats-api-certificate-type.md
-                - name: جهة اتصال الطرف
-                  href: hr-admin-integration-ats-api-party-contact.md
-                - name: الشخص
-                  href: hr-admin-integration-ats-api-person.md
-                - name: عنوان الشخص
-                  href: hr-admin-integration-ats-api-person-address.md
-                - name: شهادة الشخص
-                  href: hr-admin-integration-ats-api-person-certificate.md
-                - name: تعليم الشخص
-                  href: hr-admin-integration-ats-api-person-education.md
-                - name: رقم تعريف الشخص
-                  href: hr-admin-integration-ats-api-person-identification-number.md
-                - name: الخبرة المهنية للشخص
-                  href: hr-admin-integration-ats-api-person-professional-experience.md
-                - name: مراقبة الأشخاص
-                  href: hr-admin-integration-ats-api-person-screening.md
-                - name: مهارة الشخص
-                  href: hr-admin-integration-ats-api-person-skill.md
-                - name: مستوى التقييم
-                  href: hr-admin-integration-ats-api-rating-level.md
-                - name: أنواع المراقبة
-                  href: hr-admin-integration-ats-api-screening-types.md
-                - name: مثال للاستعلام عن المرشح المُراد توظيفه
-                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
-            - name: مجموعات خيار المرشح
-              items:
-                - name: نتيجة تكامل مقدم الطلب
-                  href: hr-admin-integration-ats-api-applicant-integration-result.md
-                - name: فارغ نعم لا
-                  href: hr-admin-integration-ats-api-blank-yes-no.md
-                - name: حالة الإكمال
-                  href: hr-admin-integration-ats-api-completion-status.md
-                - name: نوع جهة الاتصال
-                  href: hr-admin-integration-ats-api-contact-type.md
-                - name: أساس الائتمان التعليمي
-                  href: hr-admin-integration-ats-api-education-credit-basis.md
-                - name: الجنس
-                  href: hr-admin-integration-ats-api-gender.md
-                - name: الحالة الاجتماعية
-                  href: hr-admin-integration-ats-api-marital-status.md
-                - name: شهور السنة
-                  href: hr-admin-integration-ats-api-months-of-year.md
-                - name: لا نعم
-                  href: hr-admin-integration-ats-api-no-yes.md
-                - name: وحدة الفترة
-                  href: hr-admin-integration-ats-api-period-unit.md
-                - name: تكرار الفحص
-                  href: hr-admin-integration-ats-api-screening-frequency.md
-                - name: إنشاء تكرار الفحص من
-                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
-                - name: نوع مستوي المهارة
-                  href: hr-admin-integration-ats-api-skill-level-type.md
-        - name: ‏‫واجهة برمجة التطبيقات لتكامل كشف الرواتب
-          items:
-            - name: مقدمة
-              href: hr-admin-integration-payroll-api-introduction.md
-            - name: إنشاء كيانات كشف الرواتب ومراجعتها
-              href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: معلمات تكامل كشوف الرواتب
-              href: hr-admin-integration-payroll-api-parameters.md
-            - name: كيانات الرواتب
-              items:
-                - name: الموظف حسب كشف الرواتب
-                  href: hr-admin-integration-payroll-api-payroll-employee.md
-                - name: عنوان عامل كشف الرواتب
-                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
-                - name: خطة التعويض الثابتة لكشف الرواتب
-                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-                - name: خطة التعويض المتغير في كشف الرواتب
-                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
-                - name: المنصب في كشف الرواتب
-                  href: hr-admin-integration-payroll-api-payroll-position.md
-                - name: وظيفة المنصب في كشف الرواتب
-                  href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: الكيانات ذات الصلة بالإجازة والغياب
-              items:
-                - name: رصيد الإجازات
-                  href: hr-admin-integration-payroll-api-leave-balance.md
-                - name: نوع الإجازة
-                  href: hr-admin-integration-payroll-api-leave-type.md
-                - name: طلب إجازة
-                  href: hr-admin-integration-payroll-api-leave-request.md
-            - name: الكيانات ذات الصلة بالمزايا
-              items:
-                - name: خطة مزايا العاملين في كشوف المرتبات
-                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
-            - name: كيانات أخرى
-              items:
-                - name: سجل اسم الشخص
-                  href: hr-admin-integration-payroll-api-person-name-history.md
-                - name: معدل التحويل
-                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
-            - name: مجموعات الخيار
-              items:
-                - name: الجنس
-                  href: hr-admin-integration-payroll-api-gender.md
-                - name: لا نعم
-                  href: hr-admin-integration-payroll-api-no-yes.md
-                - name: نوع المكافأة
-                  href: hr-admin-integration-payroll-api-award-type.md
-                - name: نوع العملية
-                  href: hr-admin-integration-payroll-api-process-type.md
-                - name: تغطية نوع خطة المزايا
-                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
-                - name: حالة خطة الموظف للمزايا
-                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
-    - name: تطوير تطبيقات التمويل والعمليات وإدارتها
-      href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Finance
-      href: ../finance/index.md
-    - name: Dynamics 365 Supply Chain Management
-      href: ../supply-chain/index.md
-    - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
+            - name: نظرة عامة على إعداد الخدمة الذاتية للموظف والمدير
+              href: hr-employee-manager-self-service-overview.md
+            - name: إنشاء ارتباطات مخصصة في الخدمة الذاتية للمدير
+              href: hr-employee-manager-self-service-custom-links.md
+            - name: تغيير اسم مساحة عمل الخدمة الذاتية للموظف
+              href: hr-employee-self-service-workspace-name.md
+            - name: تحرير المعلومات الشخصية
+              href: hr-employee-manager-self-service-edit-personal-information.md

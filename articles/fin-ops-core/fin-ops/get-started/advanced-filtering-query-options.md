@@ -1,10 +1,12 @@
 ---
 title: التصفية المتقدمة وبنية الاستعلام
-description: يصف هذا الموضوع خيارات التصفية والاستعلام لمربع الحوار "التصفية/الفرز المتقدم" وعامل التشغيل المطابق في جزء عامل التصفية أو عوامل تصفية رأس عمود الشبكة.
+description: يصف هذا الموضوع خيارات التصفية والاستعلام التي تتوفر عند استخدام مربع الحوار التصفية/الفرز المتقدم أو عامل تشغيل التطابق في جزء عامل التصفية أو عوامل تصفية عناوين أعمدة الشبكة.
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069999"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798658"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>التصفية المتقدمة وبنية الاستعلام
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يصف هذا الموضوع خيارات التصفية والاستعلام التي تتوفر عند استخدام مربع الحوار التصفية/الفرز المتقدم أو عامل تشغيل **التطابق** في جزء عامل التصفية أو عوامل تصفية عناوين أعمدة الشبكة.
 
@@ -122,9 +121,9 @@ ms.locfileid: "8069999"
 <td>يوجد علامتي اقتباس مزدوج متتالية (<strong>""</strong>) يعثران على صفوف بدون قيمة للعمود الحالي.</td>
 </tr>
 <tr>
-<td>(<span class="code">استعلام التمويل والعمليات</span>) (استعلام التمويل والعمليات بين أقواس)</td>
+<td>(<span class="code">استعلام Finance and Operations</span>) (Finance and Operations استعلام بين قوسين)</td>
 <td>مطابقة استعلام محدد</td>
-<td>اكتب استعلامًا كعبارة SQL بين قوسين باستخدام لغة استعلام التمويل والعمليات.</td>
+<td>اكتب استعلامًا كعبارة SQL بين قوسين باستخدام لغة الاستعلام في Finance and Operations.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        كمثال على بناء جملة لشرط عامل تصفية في حقل من مصدر البيانات الجذر بالإضافة إلى حقل من مصدر بيانات مختلف (لصفحة كافة العملاء)</td>
 </tr>
@@ -243,6 +242,3 @@ ms.locfileid: "8069999"
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

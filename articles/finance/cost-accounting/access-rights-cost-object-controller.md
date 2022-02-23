@@ -2,13 +2,16 @@
 title: حقوق الوصول لمراقبي كائنات التكاليف
 description: يوفر هذا الموضوع معلومات حول حقوق الوصول لمراقبي كائن التكلفة.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c30a7c2765647aad17a475ba8705b8e688d166593adf242fcd15d90e49334189
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd1ed875e5c6e3f8ada3b13ea8cc05f98526691d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733019"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439981"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>حقوق الوصول لمراقبي كائنات التكاليف
 
@@ -62,8 +65,9 @@ ms.locfileid: "6733019"
 
 يمكنك استخدام علامة التبويب السريعة **المستخدمون** الموجودة في مصمم التدرج الهرمي لإدراج معرف مستخدم واحد أو أكثر في كل عقده.
 
-|             العُقد                 | المستخدمين            | عضو بُعد البدء     |   إلى عضو البُعد   |
+|                                   | المستخدمون            | نطاقات أعضاء البُعد   |                         |
 |-----------------------------------|------------------|---------------------------|-------------------------|
+| **العُقد**                         | **معرف المستخدم**      | **من عضو البعد** | **إلى عضو البُعد** |
 | المؤسسة                      | بنجامين، كلير |                           |                         |
 | &nbsp;&nbsp;المسؤول                 | أبريل            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;المالية   | أليسيا           | CC002                     | CC003                   |
@@ -94,14 +98,11 @@ ms.locfileid: "6733019"
     - مؤثرات عرض البيانات‬ في Power BI المضمنة في عميل Dynamics 365 Finance
 
 > [!IMPORTANT]
-> - قبل أن يؤثر التدرج الهرمي لقائمة الوصول على البيانات في Power BI، يجب أن يتم إقران التدرج الهرمي لقائمة الوصول والأمان على مستوى الصف في Power BI. للحصول على مزيد من المعلومات، راجع [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - قبل أن يؤثر التدرج الهرمي لقائمة الوصول على البيانات في Power BI، يجب أن يتم إقران التدرج الهرمي لقائمة الوصول والأمان على مستوى الصف في Power BI. للحصول على مزيد من المعلومات، راجع [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - يوضح هذا الموضوع المتطلبات الأساسية التي يجب توافرها قبل أن تتمكن من استخدام مساحة عمل **مراقب التكاليف**.
 
 الموارد الإضافية
 
 - [مساحة عمل مراقبة التكلفة](cost-control-workspace.md)
 - [التدرج الهرمي للأبعاد](dimension-hierarchy.md)
-- [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)

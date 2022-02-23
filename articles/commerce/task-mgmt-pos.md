@@ -2,29 +2,34 @@
 title: إدارة المهام في نقطة البيع
 description: يصف هذا الموضوع إدارة المهام في تطبيق نقطة البيع (POS) لـ Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3fb7d584b634b0a1e43ef6a02a9edcadc0927b36bd2a814fdfe947fb0e2e1917
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cc685fcd584fe2ab5cd9282e8fbefbd284d5b2a2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772096"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409954"
 ---
 # <a name="task-management-in-pos"></a>إدارة المهام في نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع إدارة المهام في تطبيق نقطة البيع (POS) لـ Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 يحتوي تطبيق نقطة البيع لـ Dynamics 365 Commerce على ميزات إداره المهام تتيح لمديري المتاجر والعاملين فيها القدرة على إدارة المهام وتحديث حاله المهام. يمكن للعاملين في المتجر الوصول للمهام إما بتحديد لوحة **المهام** على الصفحة الرئيسية لنقطة البيع أو عن طريق تحديد إعلامات المهام. افتراضيًا، يتم نقل عمال المتجر إلى علامة التبويب **مهامي** حيث يمكنهم عرض المهام التي تم تعيينها لهم. ومع ذلك، يمكنهم التبديل بسهولة إلى علامات التبويب **مهام متأخرة** و **مهام متفوحة** و **قوائم المهام**.
 
@@ -44,11 +49,11 @@ ms.locfileid: "6772096"
 
 يوضح الرسم التوضيحي التالي علامة التبويب **مهامي** في تطبيق نقطة البيع لـ Commerce.
 
-![علامة تبويب المهام في تطبيق نقطة البيع لـ Commerce.](media/POS-task-management.png)
+![علامة تبويب المهام في تطبيق نقطه البيع لـ Commerce](media/POS-task-management.png)
 
 يبين الرسم التوضيحي التالي علامة التبويب **قوائم المهام**.
 
-![علامة تبويب قوائم المهام في تطبيق نقطة البيع لـ Commerce.](media/POS-task-lists-management.png)
+![علامة تبويب قوائم المهام في تطبيق نقطه البيع لـ Commerce](media/POS-task-lists-management.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -59,6 +64,3 @@ ms.locfileid: "6772096"
 [إنشاء قوائم مهام وإضافة مهام](task-mgmt-create-lists.md)
 
 [تعيين قوائم المهام إلى المتاجر أو الموظفين](task-mgmt-assign-lists.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

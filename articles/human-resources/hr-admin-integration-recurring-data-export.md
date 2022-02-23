@@ -1,35 +1,33 @@
 ---
-title: إنشاء تطبيق تصدير البيانات المتكررة
-description: يوضح هذا الموضوع كيفية إنشاء تطبيق Microsoft Azure Logic الذي يقوم بتصدير البيانات من Microsoft Dynamics 365 Human Resources على جدول متكرر.
-author: twheeloc
-ms.date: 08/19/2021
+title: إنشاء تطبيق تصدير بيانات متكررة
+description: يوضح هذا المقال كيفية إنشاء تطبيق Microsoft Azure Logic الذي يقوم بتصدير البيانات من Microsoft Dynamics 365 Human Resources على جدول متكرر.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 368eee6bb182f363f47467a5c5ad8208a57db7ec
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069772"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417150"
 ---
-# <a name="create-a-recurring-data-export-app"></a>إنشاء تطبيق تصدير البيانات المتكررة
+# <a name="create-a-recurring-data-export-app"></a>إنشاء تطبيق تصدير بيانات متكررة
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-يوضح هذا الموضوع كيفية إنشاء تطبيق Microsoft Azure Logic الذي يقوم بتصدير البيانات من Microsoft Dynamics 365 Human Resources على جدول متكرر. يستفيد البرنامج التعليمي من واجهة برمجة تطبيقات REST لحزمة Human Resources' DMF لتصدير البيانات. بعد تصدير البيانات، يحفظ تطبيق logic حزمة البيانات المصدرة إلى Microsoft OneDrive إلى مجلد Business.
+يوضح هذا المقال كيفية إنشاء تطبيق Microsoft Azure Logic الذي يقوم بتصدير البيانات من Microsoft Dynamics 365 Human Resources على جدول متكرر. يستفيد البرنامج التعليمي من واجهة برمجة تطبيقات REST لحزمة Human Resources' DMF لتصدير البيانات. بعد تصدير البيانات، يحفظ تطبيق logic حزمة البيانات المصدرة إلى Microsoft OneDrive إلى مجلد Business.
 
 ## <a name="business-scenario"></a>سيناريو الأعمال
 
@@ -45,12 +43,12 @@ ms.locfileid: "8069772"
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)** – مصدر البيانات الرئيسية للعمال الذين سوف يتم تصديرهم.
 - **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** - التقنية التي توفر خدمات التنسيق والجدولة للتصدير المتكرر.
 
-    - **[الموصلات](/azure/connectors/apis-list)** – التقنية المستخدمة لربط تطبيق logic بنقاط النهاية المطلوبة.
+    - **[الموصلات](https://docs.microsoft.com/azure/connectors/apis-list)** – التقنية المستخدمة لربط تطبيق logic بنقاط النهاية المطلوبة.
 
-        - [HTTP مع موصل Azure AD](/connectors/webcontents/)
-        - موصل [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness)
+        - [HTTP مع موصل Azure AD](https://docs.microsoft.com/connectors/webcontents/)
+        - موصل [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness)
 
-- **[واجهة برمجة تطبيقات REST لحزمة DMF](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** - التقنية المستخدمة لتشغيل التصدير ومراقبة تقدمه. 
+- **[واجهة برمجة تطبيقات REST لحزمة DMF](../dev-itpro/data-entities/data-management-api.md)** - التقنية المستخدمة لتشغيل التصدير ومراقبة تقدمه. 
 - **[OneDrive for Business](https://onedrive.live.com/about/business/)** - وجهة العاملين المُصدرين.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
@@ -66,13 +64,13 @@ ms.locfileid: "8069772"
 
 سوف يشبه تطبيق logic المكتمل الرسم التوضيحي التالي.
 
-![نظرة عامة على تطبيق Logic.](media/integration-logic-app-overview.png)
+![نظرة عامة على تطبيق logic](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>الخطوة 1: إنشاء مشروع تصدير بيانات في Human Resources
 
 في Human Resources، قم بإنشاء مشروع تصدير بيانات الذي سوف يقوم بتصدير العمال. قم بتسمية المشروع **تصدير العمال** ، وتأكد أن خيار **إنشاء حزمة البيانات** إلى **نعم**. أضف كيان واحد (**العامل**) إلى المشروع وحدد التنسيق المراد تصديره للمشروع. (يتم استخدام Microsoft Excel في هذا البرنامج التعليمي.)
 
-![تصدير مشروع بيانات العاملين.](media/integration-logic-app-export-workers-project.png)
+![تصدير مشروع بيانات العاملين](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > تذكر اسم مشروع تصدير البيانات. سوف تحتاج إليه عند إنشاء تطبيق logic في الخطوة التالية.
@@ -83,14 +81,14 @@ ms.locfileid: "8069772"
 
 1. في مدخل Azure ، قم بإنشاء تطبيق logic.
 
-    ![صفحة إنشاء تطبيق Logic.](media/integration-logic-app-creation-1.png)
+    ![صفحة إنشاء تطبيق logic.](media/integration-logic-app-creation-1.png)
 
 2. في Logic Apps Designer ابدأ بتطبيق logic فارغ.
-3. أضف [مشغل جدول متكرر](/azure/connectors/connectors-native-recurrence) لتشغيل تطبيق logic كل 24 ساعة (أو وفقًا لجدول من اختيارك).
+3. أضف [مشغل جدول متكرر](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) لتشغيل تطبيق logic كل 24 ساعة (أو وفقًا لجدول من اختيارك).
 
-    ![مربع حوار التكرار.](media/integration-logic-app-recurrence-step.png)
+    ![مربع حوار التكرار](media/integration-logic-app-recurrence-step.png)
 
-4. الاتصال بواجهة برمجية تطبيقات حزمة DMF REST [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) لجدولة تصدير حزمة بياناتك.
+4. الاتصال بواجهة برمجية تطبيقات حزمة DMF REST [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage) لجدولة تصدير حزمة بياناتك.
 
     1. استخدم إجراء **استدعاء طلب HTTP** من HTTP مع موصل Azure AD.
 
@@ -100,7 +98,7 @@ ms.locfileid: "8069772"
         > [!NOTE]
         > لا توفر خدمة Human Resources موصل بعد التي تكشف جميع واجهات برمجيات التطبيقات التي تتألف منها واجهة بمرجية تطبيقات REST لحزمة DMF، مثل **ExportToPackage**. بدلًا من ذلك، يجب استدعاء واجهات برمجيات التطبيقات باستخدام طلبات HTTPS الأولية من خلال HTTP مع موصل Azure AD. يستخدم هذا الموصل Azure Active Directory (Azure AD) للمصادقة والتخويل لـ Human Resources.
 
-        ![HTTP مع موصل Azure AD.](media/integration-logic-app-http-aad-connector-step.png)
+        ![HTTP مع موصل Azure AD](media/integration-logic-app-http-aad-connector-step.png)
 
     2. قم بتسجيل الدخول إلى بيئة Human Resources من خلال HTTP مع موصل Azure AD.
     3. قم بإعداد طلب **POST** HTTP لاستدعاء واجهة برمجة التطبيقات REST لحزمة DMF **ExportToPackage**.
@@ -119,28 +117,28 @@ ms.locfileid: "8069772"
             }
             ```
 
-        ![استدعاء إجراء طلب HTTP.](media/integration-logic-app-export-to-package-step.png)
+        ![استدعاء إجراء طلب HTTP](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > قد تحتاج إلى إعادة تسمية كل خطوة بحيث تكون أكثر نفعًا من الاسم الافتراضي، **استدعاء طلب HTTP**. على سبيل المثال، يُمكن إعادة تسمية هذه الخطوة **ExportToPackage**.
 
-5. [تهيئة](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) متغير لتخزين حالة تخزين طلب **ExportToPackage**.
+5. [تهيئة](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) متغير لتخزين حالة تخزين طلب **ExportToPackage**.
 
-    ![تهيئة إجراء متغير.](media/integration-logic-app-initialize-variable-step.png)
+    ![تهيئة إجراء متغير](media/integration-logic-app-initialize-variable-step.png)
 
 6. انتظر حتى يتم **نجاح** تنفيذ حالة تصدير البيانات.
 
-    1. إضافة [حلقة حتى](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) تتكرر حتى تصبح قيمة متغير **ExecutionStatus** هي **تم بنجاح**.
+    1. إضافة [حلقة حتى](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop) تتكرر حتى تصبح قيمة متغير **ExecutionStatus** هي **تم بنجاح**.
     2. قم بإضافة إجراء **تأخير** ينتظر خمس ثوان قبل القيام بالاستقصاء لحالة التنفيذ الحالية للتصدير.
 
-        ![حاوية حلقة حتى.](media/integration-logic-app-until-loop-step.png)
+        ![حاوية حلقة حتى](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
-        > عيّن الحد إلى **15** للانتظار لمدة 75 ثانية بحد أقصى (15 تكرار × 5 ثوانٍ) حتى اكتمال التصدير. إذا استغرقت عملية التصدير وقتًا إضافيًا، فقم بتعديل عدد الحد على النحو المناسب.        
+        > قم بتعيين عدد الحد إلى **15** للانتظار لمدة 75 ثانية بحد أقصى (15 تكرار * 5 ثواني) حتى اكتمال التصدير. إذا استغرقت عملية التصدير وقتًا إضافيًا، فقم بتعديل عدد الحد على النحو المناسب.        
 
-    3. أضف إجراء **استدعاء طلب HTTP** لاستدعاء واجهة برمجية التطبيق REST لحزمة DMF [GetExecutionSummaryStatue](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) ، وتعيين متغير **ExecutionStatue** إلى نتيجة استجابة **GetExecutionSummaryStatus** 
+    3. أضف إجراء **استدعاء طلب HTTP** لاستدعاء واجهة برمجية التطبيق REST لحزمة DMF [GetExecutionSummaryStatue](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) ، وتعيين متغير **ExecutionStatue** إلى نتيجة استجابة **GetExecutionSummaryStatus** 
 
-        > لا يقوم هذا النموذج بالتحقق من الأخطاء. يُمكن أن تُرجع واجهة برمجة تطبيق **GetExecutionSummaryStatus‎** الحالات الطرفية غير الناجحة (أي، الحالات الأخرى بخلاف **تم بنجاح**). لمزيد من المعلومات، راجع [وثائق API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
+        > لا يقوم هذا النموذج بالتحقق من الأخطاء. يُمكن أن تُرجع واجهة برمجة تطبيق **GetExecutionSummaryStatus‎** الحالات الطرفية غير الناجحة (أي، الحالات الأخرى بخلاف **تم بنجاح**). لمزيد من المعلومات، راجع [وثائق API](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
         - **الأسلوب:** POST
         - **عنوان URL للطلب:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -149,26 +147,26 @@ ms.locfileid: "8069772"
             > [!NOTE]
             > قد تحتاج إلى إدخال قيمة **نص الطلب** إما في طريقة عرض الكود أو في مُحرر الوظيفة في المصمم.
 
-        ![استدعاء إجراء طلب HTTP 2.](media/integration-logic-app-get-execution-status-step.png)
+        ![استدعاء إجراء طلب HTTP 2](media/integration-logic-app-get-execution-status-step.png)
 
-        ![تعيين الإجراء المتغير.](media/integration-logic-app-set-variable-step.png)
+        ![تعيين الإجراء المتغير](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > سوف تختلف القيمة للإجراء **تعيين المتغير** (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) عن القيمة لقيمة نص **استدعاء طلب HTTP 2** حتى لو كان المصمم سوف يعرض القيم بالطريقة نفسها.
 
 7. الحصول على عنوان URL للتنزيل للحزمة المُصدرة.
 
-    - قم بإضافة إجراء **استدعاء طلب HTTP** لاستدعاء واجهة برمجة تطبيقات DMF REST [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
+    - قم بإضافة إجراء **استدعاء طلب HTTP** لاستدعاء واجهة برمجة تطبيقات DMF REST [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
 
         - **الأسلوب:** POST
         - **عنوان URL للطلب:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **نص الطلب:** {"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![إجراء GetExportedPackageURL.](media/integration-logic-app-get-exported-package-step.png)
+        ![إجراء GetExportedPackageURL ](media/integration-logic-app-get-exported-package-step.png)
 
 8. تنزيل الحزمة المُصدرة.
 
-    - ثم بإضافة طلب HTTP لـ **GET** ([إجراء موصل HTTP](/azure/connectors/connectors-native-http) مضمن) لتنزيل الحزمة من عنوان URL الذي تم إرجاعه في الخطوة السابقة.
+    - ثم بإضافة طلب HTTP لـ **GET** ([إجراء موصل HTTP](https://docs.microsoft.com/azure/connectors/connectors-native-http) مضمن) لتنزيل الحزمة من عنوان URL الذي تم إرجاعه في الخطوة السابقة.
 
         - **الأسلوب:** GET
         - **عنوان URL:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -176,21 +174,21 @@ ms.locfileid: "8069772"
             > [!NOTE]
             > قد تحتاج إلى إدخال قيمة **عنوان URL** إما في طريقة عرض الكود أو في مُحرر الوظيفة في المصمم.
 
-        ![إجراء HTTP GET.](media/integration-logic-app-download-file-step.png)
+        ![إجراء HTTP GET](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > لا يتطلب هذا الطلب أي مصادقة إضافية، لأن عنوان URL الذي تقوم واجهة برمجة التطبيقات **GetExportedPackageUrl‎** بإرجاعه يتضمن الرمز المميز لتوقيعات الوصول المشترك الذي يمنح الوصول لتنزيل الملف.
 
-9. احفظ الحزمة التي تم تنزيلها باستخدام موصل [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness).
+9. احفظ الحزمة التي تم تنزيلها باستخدام موصل [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness).
 
-    - إضافة إجراء OneDrive For Business[إنشاء ملف](/connectors/onedriveforbusinessconnector/#create-file).
+    - إضافة إجراء OneDrive For Business[إنشاء ملف](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file).
     - قم بالتوصيل إلى حساب OneDrive for Business الخاص بك، حسب الحاجة.
 
         - **مسار المجلد:** مجلد من اختيارك
         - **اسم الملف:** worker\_package.zip
         - **محتوى الملف:** النص من الخطوة السابقة (محتوى ديناميكي)
 
-        ![إنشاء إجراء ملف.](media/integration-logic-app-create-file-step.png)
+        ![إنشاء إجراء ملف](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>الخطوة 3: اختبار تطبيق logic
 
@@ -200,13 +198,10 @@ ms.locfileid: "8069772"
 
 يُبين الرسم التوضيحي التالي كيف يبدو Logic Apps Designer عندما يتم تشغيل كافة خطوات تطبيق logic بنجاح.
 
-![تشغيل تطبيق logic بنجاح.](media/integration-logic-app-successful-run.png)
+![تشغيل تطبيق logic بنجاح](media/integration-logic-app-successful-run.png)
 
-## <a name="summary"></a>الملخص
+## <a name="summary"></a>ملخص
 
 في هذا البرنامج التعليمي، تعلمنا كيفية استخدام تطبيق logic لتصدير البيانات من Human Resources وحفظ البيانات المُصدرة إلى مُجلد OneDrive for Business. يمكنك تعديل خطوات هذا البرنامج التعليمي حسب الحاجة ليناسب احتياجات الأعمال الخاصة بك.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

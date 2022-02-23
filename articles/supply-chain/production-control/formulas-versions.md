@@ -1,27 +1,30 @@
 ---
 title: التركيبات وإصدارتها
 description: يوفر هذا الموضوع معلومات حول التركيبات وإصداراتها. تحدد التركيبة المواد والمكونات ونتائج عملية معينة في عملية التصنيع. يتم استخدام التركيبات لتخطيط وإنتاج المنتجات في عملية التصنيع.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570263"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421302"
 ---
 # <a name="formulas-and-formula-versions"></a>التركيبات وإصدارتها
 
@@ -68,6 +71,3 @@ ms.locfileid: "7570263"
 
 ## <a name="use-step-consumption"></a>استخدام الاستهلاك المرحلي
 يزيل الاستهلاك المرحلي ضرورة إدخال كمية في علامة تبويب **سطر التركيبة** لمكون. بدلاً من ذلك، يتم تكوين الاستهلاك المرحلي بحيث تكون لديه القيمة **السلسلة من‬** والقيمة **الكمية**. يتم تحديد المعلومات من الاستهلاك المرحلي لكل سجل سلسلة تستوفي الكمية على الأمر الدفعي. يعتبر الاستهلاك المرحلي مفيدًا عندما يكون معدل الاستهلاك غير خطي بالنسبة إلى حجم الأمر الدفعي ويزيد فقط المتطلبات عند الوفاء بحد معين للكمية. لتمكين هذه الميزة لتركيبة جديدة، ضمن مجموعة **حساب الاستهلاك**، قم بتغيير إعداد التركيبة لمكون قابل للتطبيق من **قياسي** إلى **خطوة**. يمكنك تحديد أسلوب الاستهلاك هذا على علامة التبويب **الإعداد** في صفحة **سطر التركيبة**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

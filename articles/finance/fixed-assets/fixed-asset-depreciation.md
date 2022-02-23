@@ -1,10 +1,12 @@
 ---
 title: إهلاك الأصل الثابت
 description: يوفر هذا الموضوع نظرة عامة حول إهلاك الأصول الثابتة.
-author: moaamer
-ms.date: 12/03/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -12,26 +14,23 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890970"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969093"
 ---
 # <a name="fixed-asset-depreciation"></a>إهلاك الأصل الثابت
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يوفر هذا الموضوع نظرة عامة حول إهلاك الأصول الثابتة.
 
 الإهلاك هو حركة دورية تؤدي عادة إلى تقليل قيمة الأصل الثابت في الميزانية العمومية، ويتم تحصيله كنفقات في حساب الأرباح والخسائر. وبالتالي، يتم عادةً استخدام حساب رئيسي لإضافة الإهلاك الدوري في الميزانية العمومية. والحساب المقابل هو حساب في جزء الأرباح والخسائر في دليل الحسابات.
-
-اعتبارًا من الإصدار 10.0.24، سيعمل خيار تكوين دفتر أصل **حساب الإهلاك الإيجابي** في الصفحة **الدفاتر** على تمكين الإهلاك لخصم أصل ثابت تم الاستحواذ عليه بقيمة دفترية سالبة (ائتمان).
 
 ## <a name="depreciation-adjustment"></a>تسوية الإهلاك
 عادةً ما يتم فقط ترحيل تصحيح لحركة إهلاك مرّحلة كتسوية إهلاك. وبالتالي، يتم إعداد كلٍّ من الحساب الرئيسي والحساب المقابل تمامًا مثل حسابات الإهلاك. بإمكان تسوية الإهلاك أن تكون مبلغًا موجبًا أو سالبًا، ولكن وظيفة الحساب الرئيسي (كحساب ميزانية عمومية) ووظيفة الحساب المقابل (عادةً كحساب الأرباح والخسائر) تبقى هي نفسها.
@@ -57,6 +56,3 @@ ms.locfileid: "7890970"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

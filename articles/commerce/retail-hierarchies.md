@@ -2,13 +2,16 @@
 title: التدرجات الهرمية لـ Commerce
 description: تشرح هذه المقالة التدرجات الهرمية في Dynamics 365 Commerce.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: OMHierarchyManager, EcoResCategoryHierarchyFactbox
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60534536476cfbe7a4f254923785ab1eb0001a3eaf7630dec75f28f07dff30d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f7e4d01970f459f66934fe434ec7307104b39b2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716134"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409985"
 ---
 # <a name="commerce-hierarchies"></a>التدرجات الهرمية لـ Commerce
 
@@ -42,6 +45,3 @@ ms.locfileid: "6716134"
 | التدرج الهرمي للتنقل‬   | استخدم هذا النوع من التدرج الهرمي لتجميع وتنظيم المنتجات في فئات بحيث يمكنك استعراض المنتجات على الإنترنت أو في نقطة البيع. |
 
 باستخدام تدرج هرمي للفئات لتنظيم منتجاتك، يمكن إعداد وصيانة سمات وخصائص المنتجات على مستوى الفئة. وتتضمن هذه السمات والخصائص إعدادات أبعاد المنتج وإعدادات نقطة البيع. وترث منتجات تقوم بتعيينها إلى الفئات تلقائياً السمات والخصائص التي تحددها. كما يمكنك نسخ إعدادات الخصائص لأي منتج لعدة منتجات في فئة محددة في نفس الوقت.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,33 +1,31 @@
 ---
 title: " تقديم برنامج ميزات الموظفين "
-description: يشرح هذا الموضوع كيفية إنشاء عناصر المنافع التي سيتم استخدامها عند إنشاء فائدة جديدة.
-author: twheeloc
-ms.date: 08/23/2021
+description: يوضح لك هذا المقال كيفية إنشاء عناصر الميزة التي سيتم استخدامها عند إنشاء ميزة جديدة.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 868ddb9b372b90ec75a5f35ebf3c987f2d39bd74
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066058"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417136"
 ---
 # <a name="deliver-employee-benefits-program"></a> تقديم برنامج ميزات الموظفين 
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-يشرح هذا الموضوع كيفية إنشاء عناصر المنافع التي سيتم استخدامها عند إنشاء فائدة جديدة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬ هذه المهمة مخصصة لمدير التعويضات والميزات.
+يوضح لك هذا المقال كيفية إنشاء عناصر الميزة التي سيتم استخدامها عند إنشاء ميزة جديدة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬ هذه المهمة مخصصة لمدير التعويضات والميزات.
 
 
 ## <a name="create-benefit-elements"></a>إنشاء عناصر المزايا
@@ -70,6 +68,3 @@ ms.locfileid: "8066058"
 16. في الحقل "أساس‬"، حدد خيارًا.
 17. في حقل "المبلغ أو النسبة‬"، أدخل رقمًا.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

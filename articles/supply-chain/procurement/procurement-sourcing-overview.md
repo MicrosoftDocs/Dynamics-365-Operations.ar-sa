@@ -1,28 +1,28 @@
 ---
 title: نظرة عامة على التدبير والتوريد
 description: تقدم هذه المقالة نظرة عامة على الوظائف المتوفرة في الوحدة النمطية التدبير وتحديد الموارد‬.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 05/06/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "58021"
-- intro-internal
+ms.custom: 58021
 ms.assetid: eea24e23-a803-4de0-a218-6485757cde1b
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7be7696716e887a7fa4ea4af234db20c6e161b5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4911b1729c811aafc5ca76fb4351ab672e3610f6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984210"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019694"
 ---
 # <a name="procurement-and-sourcing-overview"></a>نظرة عامة على التدبير والتوريد
 
@@ -92,6 +92,3 @@ ms.locfileid: "7984210"
 ## <a name="vendor-performance"></a>أداء المورد
 
 ويتم دعم الأداء ومراجعة للشراء من خلال *تقارير حسابات الدائنة والتدبير*، التي تتضمن تحليل النفقات وتحليل أداء المورد.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

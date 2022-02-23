@@ -1,28 +1,29 @@
 ---
 title: نظرة عامة على اتفاقيات البيع
 description: يقدم هذا الموضوع معلومات حول اتفاقيات المبيعات. تمثل اتفاقية المبيعات عقدًا يلتزم فيه العميل بشراء منتجات بكمية محددة أو بمبلغ معين لمدة من الزمن مقابل أسعار وخصومات خاصة.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage, SalesAgreementInvoiceJournal, SalesAgreementInvoicePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "9554"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b848a0450c1cce1b3c6f7954397c75a44526d2b1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982499"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421294"
 ---
 # <a name="sales-agreements-overview"></a>نظرة عامة على اتفاقيات البيع
 
@@ -112,6 +113,3 @@ ms.locfileid: "7982499"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

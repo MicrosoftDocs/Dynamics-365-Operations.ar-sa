@@ -94,6 +94,3 @@ ms.locfileid: "4527160"
 مع إصدار Platform update 25 لـ Finance and Operations، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيلها بواسطة حدث.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

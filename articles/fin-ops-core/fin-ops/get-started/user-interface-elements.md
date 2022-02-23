@@ -2,9 +2,11 @@
 title: عناصر واجهة المستخدم
 description: يصف هذا الموضوع عناصر واجهة المستخدم (UI) المستخدمة في التطبيق
 author: tlefor
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,17 +14,14 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069313"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797912"
 ---
 # <a name="user-interface-elements"></a>عناصر واجهة المستخدم
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يصف هذا الموضوع عناصر واجهة المستخدم (UI) المستخدمة في التطبيق قبل ان يتمكن المستخدمون من التنقل في الواجهة، من الضروري معرفه أسماء ووظائف العناصر التي تشكل الواجهة.
 
@@ -87,6 +86,3 @@ ms.locfileid: "8069313"
 *القائمة* هي الاسم المعطى لمجموعة من السجلات التي يمكنك التمرير عبرها. يمكنك إحضار هذه السجلات إلى الصفحة عن طريق تحديدها. يؤدي ذلك في أغلب الأحيان إلى فتح شبكة.
 
 ![تعرض الصورة التالية أمثلة عن أشرطة أدوات وشبكات وقوائم.](media/user-interface-08.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

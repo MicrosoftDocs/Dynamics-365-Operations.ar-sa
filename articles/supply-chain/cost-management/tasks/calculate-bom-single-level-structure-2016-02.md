@@ -1,25 +1,28 @@
 ---
 title: حساب قائمة مكونات الصنف باستخدام هيكل أحادي المستوى (فبراير 2016)
 description: يوضح هذا الإجراء كيفية حساب تكلفة المنتج النهائي باستخدام عملية تحديد إجمالي المكونات المطلوبة‬ أحادية المستوى يوجد أساسها في كشف التكاليف.
-author: AndersGirke
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5968631f5fed8a43cd63165a4ddff86e8cb4b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 83a62966e343a9b1c073c2d6ec1c1b69b1daddbb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572087"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421446"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>حساب قائمة مكونات الصنف باستخدام هيكل أحادي المستوى (فبراير 2016)
 
@@ -41,6 +44,3 @@ ms.locfileid: "7572087"
     * قد تحتاج إلى النقر فوق علامة القطع (...) لرؤية هذا الخيار في القائمة العلوية.    إليك تركيب التكلفة:  *    يشتق 10 من ITEM_A، و10 من ITEM_B, 10 من BOM_2. وفي هذه الحالة لا توجد تفاصيل لـ BOM_2 حيث تم إدخالها كتكلفة معيارية من 10 لكن ذلك لم يتم من خلال الحساب.  *  يشتق 7 من وقت الإعداد، وهو تكلفة ثابتة، ويشتق 7 إضافي من عملية وقت التشغيل (العملية).  *   هناك أيضًا مبالغ أخرى تتطابق مع التكاليف غير المباشرة.  
 9. @SysTaskRecorder:_RequestClose
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

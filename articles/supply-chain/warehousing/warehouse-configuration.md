@@ -2,27 +2,27 @@
 title: نظرة عامة على تكوين المستودع
 description: توضح هذه المقالة كيفية تكوين مستودع. ويشتمل على معلومات حول كيفية تكوين تخطيط المستودع وعمليات المستودع.
 author: perlynne
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "11554"
-- intro-internal
+ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b0ebb5d7f77e2104d0280bcee7c018d9cf97bd5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982987"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970146"
 ---
 # <a name="warehouse-configuration-overview"></a>نظرة عامة على تكوين المستودع
 
@@ -111,12 +111,10 @@ ms.locfileid: "7982987"
 
 ولتسهيل وتسريع عملية تحديد الإجراءات التي ترتبط بكل بند توجيه موقع، استخدم إحدى استراتيجيات المحددة مسبقاً. على سبيل المثال، يمكنك استخدام استراتيجية **الموقع الفارغ جون أي عمل وارد** للبحث عن مواقع فارغة في مستودع، أو يمكنك استخدام استراتيجية **حجز دفعة ما تنتهي صلاحيته أولاً يُصرف أولاً‬‬** لانتقاء المبيعات الصادرة.
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (WMS)](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

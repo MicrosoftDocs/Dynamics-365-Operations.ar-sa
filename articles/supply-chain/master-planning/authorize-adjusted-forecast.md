@@ -1,10 +1,12 @@
 ---
 title: ‏‫تخويل ‏‫التنبؤ الذي تمت تسويته
 description: يجب عدم تخويل كافة بيانات التنبؤ على الفور. يشرح هذا المقال كيف يمكنك تحديد الفترة التي يتم فيها التخويل لتنبؤ. وهو يوضح أيضًا كيفية تخويل التنبؤ لشركات بعينها ونماذج التنبؤ.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 72734
 ms.assetid: cb8fd809-605a-4a8b-a390-636edfec21f9
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f9ceeb01675a44388862e1dede11551d3a60bdc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8ab8558f25f5ffd3b7eb3e1bc5680b1a1f8d5139
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568702"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961412"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>‏‫تخويل ‏‫التنبؤ الذي تمت تسويته
 
@@ -39,7 +41,8 @@ ms.locfileid: "7568702"
 
 من المهم جدًا أن تفهم كيف تعمل خانة اختيار **‏‫حفظ التسويات اليدوية التي تم إدخالها على التنبؤ بالطلب الأساسي ‬**. إذا قمت بإجراء التسويات اليدوية للتنبؤ الأساسي الإحصائي، فإنه يتم تخويل القيم المعدلة للاستخدام، حتى إذا تم مسح خانة الاختيار هذه. ومع ذلك، يتم تجاهل التغييرات بعد التخويل. وبالتالي، في المرة التالية التي يتم فيها إنشاء تنبؤ، يكون هذا التنبؤ إحصائيًا فقط ولا يحتوي على أي تجاوزات يدوية، حتى إذا تم تحديد **‏‫نقل التسويات اليدوية إلى التنبؤ بالطلب‬**. وبالتالي، يمكنك اعتبار خانة الاختيار **‏‫حفظ التسويات اليدوية التي تم إدخالها على التنبؤ بالطلب الأساسي ‬** آلية تسمح لك الاحتفاظ كافة التغييرات اليدوية أو تجاهلها.
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [القيام بتسويات يدوية في التنبؤ الأساسي](manual-adjustments-baseline-forecast.md)
 
@@ -47,6 +50,3 @@ ms.locfileid: "7568702"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: التنبؤات وأوامر العمل والمشاريع
 description: يشرح هذا الموضوع التنبؤات وتكامل أمر العمل مع الوحدة النمطية "إدارة المشاريع ومحاسبتها" في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b53dcf4e8796f808283b7bd5ea92b869ee0e59aac5359d74bcdc5de37ea7352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770326"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021004"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>التنبؤات وأوامر العمل والمشاريع
 
@@ -58,13 +60,13 @@ ms.locfileid: "6770326"
 
 على سبيل المثال، في الشكل التوضيحي التالي، وبسبب الطريقة‏‎ التي تم بها إعداد نوع الأصل **محرك شاحنة**، ستكون كل وظيفة أمر عمل يتم إنشاؤها مع نوع الأصل **محرك شاحنة** عبارة عن مشروع فرعي من معرف المشروع 000186.
 
-![الشكل 1.](media/01-integration-to-pma.png)
+![الشكل 1](media/01-integration-to-pma.png)
 
 الغرض من معرف المشروع في وظيفة أمر العمل، ورقم النشاط المرتبط، هو تتبع التكاليف المرتبطة بوظيفة أمر العمل، والأصل المحدد عليها، في الوحدة النمطية **إدارة المشاريع ومحاسبتها**. (لعرض معرف المشروع ورقم النشاط، حدد **إدارة الأصول** > **عام** > **أوامر العمل** > **جميع أوامر العمل‬**، ثم حدد أمر العمل. على علامة التبويب السريعة **تفاصيل البنود‬**، يُظهر الحقل **معرّف المشروع** معرّف المشروع، ويُظهر الحقل **رقم النشاط** رقم النشاط.) لمزيد من المعلومات حول مراقبة التكاليف‬ في إدارة الأصول، راجع [مراقبة التكاليف‬ والتاريخ‬](../controlling-and-reporting/cost-and-date-control.md).
 
 يُظهر الشكل التوضيحي التالي نظرة عامة رسومية على مشاريع أمر العمل وأنشطة المشاريع ذات الصلة.
 
-![الشكل 2.](media/02-integration-to-pma.png)
+![الشكل 2](media/02-integration-to-pma.png)
 
 عند إنشاء وظيفة أمر عمل جديدة على أمر عمل، يتم إنشاء مشروع أمر عمل للمهمة بشكل تلقائي. ويتم تحويل الأبعاد المالية للأصل المرتبط بوظيفة أمر العمل إلى مشروع أمر العمل بشكل تلقائي.
 
@@ -86,18 +88,15 @@ ms.locfileid: "6770326"
 
 تظهر في الأشكال التوضيحية أدناه الاقترانات بين مجموعات مشاريع أوامر العمل وأنواع المشاريع ذات الصلة ومراحل المشاريع وحالات دورة حياة أمر العمل.
 
-![الشكل 3.](media/03-integration-to-pma.png)
+![الشكل 3](media/03-integration-to-pma.png)
 
-![الشكل 4.](media/04-integration-to-pma.png)
+![الشكل 4](media/04-integration-to-pma.png)
 
-![الشكل 5.](media/05-integration-to-pma.png)
+![الشكل 5](media/05-integration-to-pma.png)
 
 لمزيد من المعلومات حول كيفية إعداد مشاريع أوامر العمل، راجع [إعداد مشروع أمر العمل](../setup-for-work-orders/work-order-project-setup.md). لمزيد من المعلومات حول كيفية إنشاء حالات دورة حياة أمر العمل، راجع [حالات دورة حياة أمر العمل](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 يقدم الشكل التوضيحي التالي نظرة عامة رسومية على مختلف المشاريع التي يتم إنشاؤها في الوحدة النمطية **إدارة الأصول** لتمكين التكامل مع الوحدة النمطية **إدارة المشاريع ومحاسبتها**. ويُظهر أيضًا عمليات العمل التي ترتبط بها المشاريع.
 
-![الشكل 6.](media/06-integration-to-pma.png)
+![الشكل 6](media/06-integration-to-pma.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,25 +1,27 @@
 ---
 title: تنفيذ أمر مخزن
 description: يقدم هذا الموضوع نظرة عامة على خاصية تنفيذ أمر مخزن.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 10/30/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983332"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965392"
 ---
 # <a name="store-order-fulfillment"></a>تنفيذ أمر مخزن
 
@@ -33,7 +35,7 @@ ms.locfileid: "7983332"
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>الوصول إلى تنفيذ أمر موحد في نقطة البيع
 
-تنفيذ الأمر، [معرف العملية 928](pos-operations.md)، يمكن استخدامه للوصول إلى مساحة عمل تنفيذ أمر متجر في نقطة البيع.
+تنفيذ الأمر، [معرف العملية 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations)، يمكن استخدامه للوصول إلى مساحة عمل تنفيذ أمر متجر في نقطة البيع.
 
 لا تحتوي خاصية عملية تنفيذ أمر على أذونات جاهزة خاصة بها، ولكن في المستقبل، سوف يكون المستخدمون قادرون على استخدام إذن **السماح باسترداد الأمر** لاستدعاء العملية من نقطة البيع.
 
@@ -93,7 +95,7 @@ ms.locfileid: "7983332"
 
 يمكن طباعة قوائم الانتقاء في نقطة البيع لمساعدة العاملين في إجراء عملية الانتقاء. يمكن تنفيذ قائمة الانتقاء المطبوعة مع العامل الذي ينفذ عملية الانتقاء، وفي حين يتم انتقاء المنتجات، يمكن للعامل تمييزها يدويًا ووضع علامة منتقي في قائمة الانتقاء.
 
-يتم تكوين تنسيق قائمة الانتقاء في Commerce، وتُضاف إلى ملف تعريف الإيصال. للحصول على مزيد من المعلومات حول إعداد ملفات تعريف الإيصالات، راجع [قوالب الايصالات والطباعة](receipt-templates-printing.md).
+يتم تكوين تنسيق قائمة الانتقاء في Commerce، وتُضاف إلى ملف تعريف الإيصال. للحصول على مزيد من المعلومات حول إعداد ملفات تعريف الإيصالات، راجع [قوالب الايصالات والطباعة](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 إذا تم تحديد البنود، وتمت طباعة قائمة انتقاء لهذه البنود، فمن ثم يتم تحديثها تلقائياً إلى حالة **الانتقاء**.
 
@@ -119,7 +121,7 @@ ms.locfileid: "7983332"
 - **الحالة الناتجة:** مُعبأ أو مُعبأ بشكل جزئي
 - **حالة مكتب الدعم الناتجة:** تم التسليم أو تم التسليم جزئيًا
 
-يُميز هذا الإجراء البنود بوضع علامة "مُعبأ" عليها أو "مُعبأ جزئيًا"، ويطبع إيصال التعبئة. يمكن طباعة إيصال التعبئة للتحقق من صحة المنتجات التي تمت تعبئتها معًا. يتم تكوين تنسيق إيصال التعبئة في Commerce، ويُضاف إلى ملف تعريف الإيصال. للحصول على مزيد من المعلومات حول إعداد ملفات تعريف الإيصالات، راجع [قوالب الايصالات والطباعة](receipt-templates-printing.md).
+يُميز هذا الإجراء البنود بوضع علامة "مُعبأ" عليها أو "مُعبأ جزئيًا"، ويطبع إيصال التعبئة. يمكن طباعة إيصال التعبئة للتحقق من صحة المنتجات التي تمت تعبئتها معًا. يتم تكوين تنسيق إيصال التعبئة في Commerce، ويُضاف إلى ملف تعريف الإيصال. للحصول على مزيد من المعلومات حول إعداد ملفات تعريف الإيصالات، راجع [قوالب الايصالات والطباعة](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **الإجراء: وضع علامة "مُعبأ"**
 
@@ -215,6 +217,3 @@ ms.locfileid: "7983332"
 - تاريخ الإنشاء
 - تاريخ التسليم
 - تاريخ الاستلام
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

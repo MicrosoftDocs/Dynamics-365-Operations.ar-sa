@@ -1,30 +1,33 @@
 ---
 title: تحديد الأبعاد المالية
-description: يوضح هذا الإجراء كيفية إضافة بُعد مالي مدعوم من قِبل كيان وبُعد مالي مخصص.
+description: يوضح دليل المهام هذا إضافة البعد المالي المدعوم من الكيان والبعد المالي المخصص.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionDetails,  DimensionAttributeTableExtensionActivate, DimensionValueDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed6dad64032c03e638c2090471af825dd18560a1
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 6fbe739eec0cfa1e7b0276872640bd4f82be3ef7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394452"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439778"
 ---
 # <a name="define-financial-dimensions"></a>تحديد الأبعاد المالية
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الإجراء كيفية إضافة بُعد مالي مدعوم من قِبل كيان وبُعد مالي مخصص.  يستخدم هذا الدليل شركة بيانات العرض التوضيحي USMF.
+يوضح دليل المهام هذا إضافة البعد المالي المدعوم من الكيان والبعد المالي المخصص.  يستخدم هذا الدليل شركة بيانات العرض التوضيحي USMF.
 
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>إنشاء بُعد مالي مدعوم من الكيان
@@ -52,6 +55,3 @@ ms.locfileid: "7394452"
 9. في الحقل **قيمة البُعد**، اكتب اسمًا لوصف قيمة البعد المالي.
 10. في الحقل **الوصف**، اكتب وصفًا يصف قيمة البُعد المالي.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

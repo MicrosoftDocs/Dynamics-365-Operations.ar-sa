@@ -1,27 +1,30 @@
 ---
 title: تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce
-description: يوضح هذا الموضوع كيف تكون الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
-author: BrianShook
+description: يوضح هذا الموضوع كيفية تكوين الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
+author: rubendel
+manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779784"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409789"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة تقييم Dynamics 365 Commerce
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -29,7 +32,7 @@ ms.locfileid: "7779784"
 
 ## <a name="prerequisite"></a>المتطلب الأساسي
 
-استكمل الإجراءات في هذا الموضوع فقط بعد توفير بيئة تقييم Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة تقييم Dynamics 365 Commerce](./cpe-post-provisioning.md).
+استكمل الإجراءات في هذا الموضوع فقط بعد توفير بيئة تقييم Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة تقييم Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
 
 بعد توفير بيئة معاينة Commerce وتكوينها من البداية إلى النهائية، يمكنك استخدام هذا الموضوع لتكوين سيناريوهات BOPIS.
 
@@ -37,7 +40,7 @@ ms.locfileid: "7779784"
 
 ### <a name="configure-modern-pos"></a>تكوين Modern POS
 
-تحتاج سيناريوهات BOPIS التي تتضمن الدفع ببطاقة ائتمان إلى محطة أجهزة. ويتم دمج محطة الأجهزة في Modern POS لعملاء Windows وAndroid. إذا كنت تستخدم Cloud POS أو Modern POS لـ iOS، فيجب إقران عميل نقطة البيع (POS) مع محطة أجهزة مشتركة. يشرح هذا الموضوع كيفية تكوين BOPIS لعملاء Windows وAndroid. للحصول على مزيد من المعلومات حول كيفية إعداد محطة أجهزة مشتركة، راجع [تكوين محطة أجهزة Retail وتثبيتها](./retail-hardware-station-configuration-installation.md).
+تحتاج سيناريوهات BOPIS التي تتضمن الدفع ببطاقة ائتمان إلى محطة أجهزة. ويتم دمج محطة الأجهزة في Modern POS لعملاء Windows وAndroid. إذا كنت تستخدم Cloud POS أو Modern POS لـ iOS، فيجب إقران عميل نقطة البيع (POS) مع محطة أجهزة مشتركة. يشرح هذا الموضوع كيفية تكوين BOPIS لعملاء Windows وAndroid. للحصول على مزيد من المعلومات حول كيفية إعداد محطة أجهزة مشتركة، راجع [تكوين محطة أجهزة Retail وتثبيتها](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
 
 1. انتقل إلى **Retail and Commerce \> إعداد قناة \> إعداد POS \> السجلات**.
 2. حدد السجل **SANFRAN-5**، ثم حدد **تحرير**.
@@ -54,7 +57,7 @@ ms.locfileid: "7779784"
 4. حدد **تنزيل**، ثم حدد **Retail Modern POS**. 
 5. عند تنزيل ملف **ModernPOSSetup.exe**، حدد **فتح ملف**.
 
-    ![فتح ملف.](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![فتح ملف](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. حدد **التالي** للانتقال خلال عملية التثبيت. عند استكمال عملية التثبيت، حدد **إغلاق**.
 
@@ -87,7 +90,7 @@ ms.locfileid: "7779784"
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>إنشاء أمر واجهة متجر للانتقاء في المتجر
 
-1. انتقل إلى عنوان URL الذي حددته في خطوة [تهيئة التجارة الإلكترونية](./provisioning-guide.md#initialize-e-commerce) أثناء تكوين البيئة.
+1. انتقل إلى عنوان URL الذي حددته في خطوة [تهيئة التجارة الإلكترونية](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) أثناء تكوين البيئة.
 2. حدد أحد العناصر، وحدد **إضافة إلى عربة التسوق**.
 3. في صفحة حقيبة التسوق، حدد **التقاط هذا** لسطر الأمر الذي أضفته للتو.
 4. في مربع حوار **تحديد متجر**، أدخل **سان فرانسيسكو**، ثم حدد زر **بحث**.
@@ -112,7 +115,7 @@ ms.locfileid: "7779784"
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>مزامنة الأوامر على الإنترنت مع مكتب الدعم
 
-لمزيد من المعلومات حول كيفية مزامنة الطلبات على الإنترنت، راجع [نشر المبيعات على الإنترنت والمدفوعات](./tasks/posting-online-sales-payments.md).
+لمزيد من المعلومات حول كيفية مزامنة الطلبات على الإنترنت، راجع [نشر المبيعات على الإنترنت والمدفوعات](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
 
 ### <a name="pick-up-an-order-in-the-store"></a>التقاط أمر من المتجر
 
@@ -148,19 +151,16 @@ ms.locfileid: "7779784"
 
 [الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [مدخل Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [موقع ويب Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
 
-[موصل مدفوعات Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+[موصل مدفوعات Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 
-[حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen](./dev-itpro/adyen-connector-listpi.md)
+[حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
-[نظرة عامة على مدفوعات القنوات متعددة الاتجاهات](./omni-channel-payments.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[نظرة عامة على مدفوعات القنوات متعددة الاتجاهات](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)

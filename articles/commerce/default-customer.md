@@ -2,30 +2,36 @@
 title: إنشاء عميل افتراضي
 description: يوضح هذا الموضوع كيفية إنشاء عميل افتراضي لاستخدامه عند إنشاء قناة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720949"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409806"
 ---
 # <a name="create-a-default-customer"></a>إنشاء عميل افتراضي
+
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إنشاء عميل افتراضي لاستخدامه عند إنشاء قناة في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 عند إنشاء قناة، ستحتاج إلى توفير عميل افتراضي. يمكن إنشاء عميلاً افتراضيًا بسهولة بعد إنشاء مجموعة العميل ودفتر عناوين العميل أولاً.
 
@@ -47,7 +53,7 @@ ms.locfileid: "6720949"
 
 تعرض الصورة التالية العديد من مجموعات العملاء التي تم تكوينها.
 
-![مجموعات العملاء.](media/customer-groups.png)
+![مجموعات العملاء](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>إنشاء دفتر عناوين للعميل.
 
@@ -63,16 +69,16 @@ ms.locfileid: "6720949"
 
 تعرض الصورة التالية مثالاً لدفتر عناوين.
 
-![دفتر العناوين.](media/address-book.png)
+![دفتر العناوين](media/address-book.png)
 
-## <a name="create-a-default-customer&quot;></a>إنشاء عميل افتراضي
+## <a name="create-a-default-customer"></a>إنشاء عميل افتراضي
 
 لإنشاء عميل افتراضي، اتبع الخطوات التالية.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية \> البيع بالتجزئة والتجارة \> العملاء \> كل العملاء**.
 1. في جزء الإجراءات، حدد **جديد**.
-1. من القائمة المنسدلة **النوع** حدد &quot;شخص&quot;.
-1. في القائمة المنسدلة **حساب العميل**، حدد رقم حساب أو أدخله (على سبيل المثال، &quot;100001").
+1. من القائمة المنسدلة **النوع** حدد "شخص".
+1. في القائمة المنسدلة **حساب العميل**، حدد رقم حساب أو أدخله (على سبيل المثال، "100001").
 1. في القائمة المنسدلة **الاسم الأول**، حدد اسمًا أو أدخله (على سبيل المثال، "الافتراضي").
 1. في القائمة المنسدلة **الاسم الأوسط**، حدد اسمًا أو أدخله (على سبيل المثال، "البيع بالتجزئة").
 1. في القائمة المنسدلة **الاسم الأخير**، حدد اسمًا أو أدخله (على سبيل المثال، "العميل").
@@ -86,11 +92,11 @@ ms.locfileid: "6720949"
 
 تعرض الصورة التالية مثالاً لإنشاء عميل.
 
-![إنشاء عميل افتراضي.](media/default-customer-creation.png)
+![إنشاء عميل افتراضي](media/default-customer-creation.png)
 
 تظهر الصورة التالية تكوين عميل افتراضي.
 
-![عينة تكوين عميل.](media/default-customer-configuration1.png)
+![عينة تكوين عميل](media/default-customer-configuration1.png)
 
 يمكن أن تبقى معظم القيم الافتراضية على شاشة تفاصيل العميل، ولكن يجب تغيير قيمتين.
 
@@ -100,13 +106,10 @@ ms.locfileid: "6720949"
 
 تعرض الصورة التالية مثالاً لتكوين عميل.
 
-![مثال تكوين عميل.](media/default-customer-configuration2.png)
+![مثال تكوين عميل](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظره عامة حول القنوات](channels-overview.md)
+[نظرة عامة على القنوات](channels-overview.md)
 
-[المتطلبات الأساسية لإعداد القناة](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)

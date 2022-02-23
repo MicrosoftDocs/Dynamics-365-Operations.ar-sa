@@ -61,6 +61,3 @@ ms.locfileid: "4460252"
 |محفوظات استمارات التقديم للوظائف | استمارة التقديم للوظيفة‬ (msdyn_JobapplicatonId)<br></br>الحالة (msdyn_status) <br></br>سبب الحالة (msdyn_statusreason) <br></br>سبب الرفض (msdyn_rejectionreason) |
 | محفوظات فرص التوظيف | فرص التوظيف (msdyn_JobopeningId) <br></br>الحالة (msdyn_jobopeningstatus) <br></br>سبب الحالة (msdyn_jobopeningstatusreason) |
 | محفوظات المرشحين | المرشح (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: متطلبات ضبط حجم الأجهزة للبيئات المحلية
 description: يسرد هذا الموضوع متطلبات ضبط حجم الأجهزة للبيئات المحلية.
 author: sericks007
-ms.date: 06/02/2021
+manager: AnnBe
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763424"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798294"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>متطلبات ضبط حجم الأجهزة للبيئات المحلية
 
@@ -36,7 +38,7 @@ ms.locfileid: "6763424"
 
 تساهم كافة العوامل التي تظهر في الرسم التوضيحي التالي في ضبط الحجم. بقدر ما كانت المعلومات التي يتم جمعها مفصلة، زادت دقة تحديد ضبط الحجم. ستكون عملية ضبط حجم الأجهزة، بدون بيانات داعمة، غير دقيقة على الأرجح. الحد الأدنى المطلق لمتطلبات البيانات الضرورية هو بنود حمل الحركة الأقصى بالساعة.
 
-[![ضبط حجم الأجهزة للبيئات المحلية.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![ضبط حجم الأجهزة للبيئات المحلية](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 العنصر الأول والأكثر أهمية المطلوب لتقييم ضبط الحجم بدقة هو ملف تعريف الحركة أو وصف الحركة، ويمكن عرضه من اليسار إلى اليمين. من الضروري العثور دائمًا على حجم الحركات الأقصى في الساعة. إذا كان هناك عدة فترات ذروة، يجب عندئذٍ تحديد هذه الفترات بدقة.
 
@@ -132,15 +134,10 @@ ms.locfileid: "6763424"
 
 بالنسبة إلى إصدار التوفر العام، يمكن نشر عقده SSRS واحدة فقط. راقب عقده SSRS أثناء الاختبار، واعمل على زيادة عدد المراكز المتاحة لـ SSRS بحسب الاحتياجات. تأكد من أن لديك عقدة ثانوية تم تكوينها مسبقًا متوفرة على مضيف ظاهري يختلف عن SSRS VM. يعتبر هذا مهمًا إذا كان هناك مشكلة في الجهاز الظاهري الذي يستضيف SSRS أو المضيف الظاهري. إذا كان الأمر كذلك، فقد يلزم استبدالها.
 
-بدءًا من الإصدار 10.0.17، من الممكن تكوين عقد SSRS إضافية لتحقيق التوافر العالي. لمزيد من المعلومات، راجع [تكوين التوافر العالي لعقد SQL Server Reporting Services ‏(SSRS)](../../dev-itpro/deployment/onprem-ssrsha.md).
-
 ## <a name="environment-orchestrator"></a>منسق البيئة
 
-إن خدمة المنسق هي الخدمة التي تعمل على إدارة عملية النشر والاتصالات ذات الصلة بـ LCS. يتم نشر الخدمة كخدمة Service Fabric الأساسية وتتطلب ثلاثة أجهزة ظاهرية على الأقل. تقع هذه الخدمة في موقع مشترك مع خدمات تنسيق Service Fabric. ويجب أن يتم ضبط حجم ذلك لحمل العمل الأقصى في نظام المجموعة. لمزيد من المعلومات، راجع [تخطيط وإعداد نشر مجموعة Service Fabric مستقلة](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+إن خدمة المنسق هي الخدمة التي تعمل على إدارة عملية النشر والاتصالات ذات الصلة بـ LCS. يتم نشر الخدمة كخدمة Service Fabric الأساسية وتتطلب ثلاثة أجهزة ظاهرية على الأقل. تقع هذه الخدمة في موقع مشترك مع خدمات تنسيق Service Fabric. ويجب أن يتم ضبط حجم ذلك لحمل العمل الأقصى في نظام المجموعة. لمزيد من المعلومات، راجع [تخطيط وإعداد نشر مجموعة Service Fabric مستقلة](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>المحاكاة الافتراضية والاشتراك الزائد
 
 يجب أن تتم استضافة الخدمات ذات المهام الحرجة مثل AOS على الأجهزة الظاهرية المضيفة التي تم تخصيص موارد لها - المراكز والذاكرة والقرص.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

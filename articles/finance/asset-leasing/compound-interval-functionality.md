@@ -2,25 +2,28 @@
 title: وظيفة الفترات المتراكبة
 description: يوفر هذا الموضوع معلومات تساعدك في الاختيار من بين الفواصل المتراكبة الشهرية وربع السنوية ونصف السنوية والسنوية.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseDetail
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9d0f01748d370dfa5351ceb007a630564ca5d3a76c142830f32ce11951db9088
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c37da09f50448c27b20dfacccf2e7134b828f13b
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716683"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440155"
 ---
 # <a name="compounding-interval-functionality"></a>وظيفة الفترات المتراكبة
 
@@ -157,6 +160,3 @@ ms.locfileid: "6716683"
 
 > [!NOTE]
 > في حالة تغيير نوع الاستحقاق السنوي إلى **مستحق الاستحقاق السنوي**، سيكون الدفع في يناير بدلاً من وديسمبر.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

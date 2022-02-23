@@ -101,6 +101,3 @@ ms.locfileid: "4528185"
 ### <a name="email-support-for-alerts"></a>دعم البريد الإلكتروني للتنبيهات
 
 في تحديث النظام الأساسي 26 لـ Finance and Operations، بإمكان المستخدمين إنشاء قواعد تنبيه ترسل بشكل تلقائي إعلامات بالبريد الإلكتروني إلى جهات الاتصال عند تشغيل الإعلامات بواسطة حدث.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

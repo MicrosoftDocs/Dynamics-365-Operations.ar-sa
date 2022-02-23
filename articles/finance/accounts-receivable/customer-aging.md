@@ -2,25 +2,28 @@
 title: تقرير تقادم العميل
 description: ويعرض تقرير فتره التاخر للعميل الارصده المستحقة من العملاء أو التي تم فرزها حسب فتره التاريخ أو فتره التقادم.
 author: JodiChristiansen
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33bee60a3807c92cc97f0f5e6d660a67cdd7f297
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595079"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4440115"
 ---
 # <a name="customer-aging-report"></a>تقرير تقادم العميل 
 
@@ -30,8 +33,8 @@ ms.locfileid: "7595079"
 
 <table>
 <colgroup>
-<col>
-<col>
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -86,7 +89,7 @@ ms.locfileid: "7595079"
 <p>لا يمكن استخدام تعريفات فترات التقادم التي تحتوي علي أكثر من ست فترات تقادم في التقرير المطبوع.</p>
 <div class="alert">
 
-**ملاحظه:** يمكن إعداد فترات التقادم في صفحه <STRONG>تعريفات فترات التقادم</STRONG>.</P>
+**ملاحظه:** يمكن اعداد فترات التقادم في صفحه <STRONG>تعريفات فترات التقادم</STRONG>.</P>
 
 
 </div></td>
@@ -142,6 +145,3 @@ ms.locfileid: "7595079"
 </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

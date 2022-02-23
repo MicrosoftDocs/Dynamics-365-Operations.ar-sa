@@ -1,32 +1,30 @@
 ---
 title: حفظ دلائل المهام في LCS وإعادة تشغيلها
-description: يتناول هذا الموضوع كيفية حفظ أدلة المهام إلى Microsoft Dynamics Lifecycle Services (LCS) ثم إعادة تشغيلها.
-author: twheeloc
-ms.date: 08/23/2021
+description: يتناول هذا المقال كيفية حفظ أدلة المهام إلى Microsoft Dynamics Lifecycle Services (LCS) ثم إعادة تشغيلها.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068349"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417117"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>حفظ دلائل المهام في LCS وإعادة تشغيلها
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **تفاصيل البيئة** 
 
@@ -34,9 +32,9 @@ Microsoft Dynamics 365 Human Resources، الذي تم نشره عبر Microsoft
 
 **إصدار**
 
-يرغب العميل في حفظ تسجيلات مهام جديدة لمشروع LCS، ثم يُعيد تشغيل أدلة المهام المحفوظة.
+يرغب العميل في حفظ تسجيلات مهام جديدة لمشروع LCS الخاص به، ثم يُعيد تشغيل أدلة المهام المحفوظة.
 
-**الدقة**
+**‏‏الدقة**
 
 اتبع هذه الخطوات لحفظ تسجل المهام إلى LCS.
 
@@ -55,7 +53,7 @@ Microsoft Dynamics 365 Human Resources، الذي تم نشره عبر Microsoft
 10. إنشاء تسجيل مهام.
 11. عند الانتهاء، حدد **حفظ إلى Lifecycle Services**.
 
-    ![حفظ إلى Lifecycle Services.](media/task-guides.png)
+    ![حفظ إلى Lifecycle Services](media/task-guides.png)
 
 12. حدد مكتبة عارض العمليات التجارية (BPM) وعقدة لحفظ تسجيل المهمة للعقدة.
 
@@ -65,6 +63,3 @@ Microsoft Dynamics 365 Human Resources، الذي تم نشره عبر Microsoft
 2. حدد **فتح من LCS**.
 3. حدد المكتبة وعقدة عارض العمليات التجارية التي تحتوي على دليل مهام محفوظ.
 4. فتح دليل المهام.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

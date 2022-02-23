@@ -1,33 +1,31 @@
 ---
 title: إدارة سياسات شراء الإجازات وبيعها
 description: يمكنك تمكين الموظفين من شراء الإجازات وبيعها في Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeaveBuySellPolicy, LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1fe7ce7eafdec175e3395a6ac37b33cb2bb8dbda
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066665"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417163"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>إدارة سياسات شراء الإجازة وبيعها
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يمكنك تمكين الموظفين من شراء إجازة وبيعها عن طريق إنشاء سياسة شراء وبيع الإجازات. يُمكنك تكوين هذه السياسات لاستخدام سير العمل في عمليات الاعتماد وتعيين الحد الأقصى للمبالغ والنسب المئوية وتعيين النسب المئوية للشراء والبيع. 
 
@@ -82,6 +80,3 @@ ms.locfileid: "8066665"
 [استحقاق خطط الإجازة والغياب](hr-leave-and-absence-accrue.md)</br>
 [شراء الإجازة وبيعها](hr-employee-self-service-buy-sell-leave.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

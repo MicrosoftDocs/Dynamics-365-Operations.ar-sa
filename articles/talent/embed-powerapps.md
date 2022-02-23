@@ -66,6 +66,3 @@ ms.locfileid: "4460169"
 2. في شريط الأدوات، حدد **إضافة تطبيق من Power Apps**.
 
     ![إضافة تطبيق من Power Apps باستخدام شريط أدوات التخصيص](media/powerapp-bar.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

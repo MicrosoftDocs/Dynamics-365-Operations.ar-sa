@@ -1,25 +1,28 @@
 ---
 title: إعداد توجيه موقع لتخزين أمر الشراء
 description: يشرح هذا الموضوع كيفية إعداد توجيه موقع بسيط.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a363b452cbee539aeee62146f545b1f7c2eb842
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b07cd8af0fd619a71d3fe5188f41d0a0ed954f93
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576198"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421739"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>إعداد توجيه موقع لتخزين أمر الشراء
 
@@ -83,6 +86,3 @@ ms.locfileid: "7576198"
 4. في الحقل **المعايير**، اكتب قيمة.
 5. حدد **موافق**. يمكنك الاستمرار في إضافة بنود التوجيهات وإجراءات التوجيهات حتى تتم تغطية جميع السيناريوهات المحتملة في المستودع.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

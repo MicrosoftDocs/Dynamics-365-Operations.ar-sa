@@ -1,26 +1,29 @@
 ---
 title: تكامل الأصول الثابتة
 description: يمكن تكامل الأصول الثابتة مع دفتر الأستاذ العام وإدارة المخزون وكذلك الحسابات المدينة والدائنة. كما يمكن إعداد أصول ثابتة بحيث تتكامل مع أوامر الشراء.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e53d171ba0b9be7bbfffa25c27bd21fe036acee
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 1fb1348a3a3c47e5fd7df46d9ce4af3725d8896b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674765"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439931"
 ---
 # <a name="fixed-assets-integration"></a>تكامل الأصول الثابتة
 
@@ -28,7 +31,8 @@ ms.locfileid: "7674765"
 
 يمكن تكامل الأصول الثابتة مع دفتر الأستاذ العام وإدارة المخزون وكذلك الحسابات المدينة والدائنة. كما يمكن إعداد أصول ثابتة بحيث تتكامل مع أوامر الشراء.
 
-## <a name="general-ledger"></a>دفتر الأستاذ العام
+<a name="general-ledger"></a>دفتر الأستاذ العام
+--------------
 
 في دفتر الأستاذ العام، يتم عادةً تلخيص قيمة كافة الأصول الثابتة في حسابات رئيسية متعددة مطلوبة للتقارير المالية. ومع ذلك، يمكنك إنشاء الكثير من سجلات الأصول الثابتة في صفحة **الأصول الثابتة**. يمكن أن تتضمن هذه السجلات معلومات مثل سعر الامتلاك والإهلاك والتقييم. ويتم تحديث الحسابات الرئيسية المناسبة في كل مرة تقوم فيها بترحيل حركة لأصل ثابت. ودائمًا ما تقوم الحسابات الرئيسية الخاصة بالأصول الثابتة بعرض القيمة المحدثة للأصول الثابتة.
 
@@ -91,6 +95,3 @@ ms.locfileid: "7674765"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,13 +1,16 @@
 ---
 title: وحدة مسار التنقل
-description: يتناول هذا الموضوع وحدات مسار تنقل‬ ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+description: يتناول هذا الموضوع وحدات مسار التنقل ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ba857ef7a796336bab3709817b5ba48fd3fa845667e4b9c40596cfe450290f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720002"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517150"
 ---
-# <a name="breadcrumb-module"></a>الوحدة النمطية لمسار التنقل
+# <a name="breadcrumb-module"></a>وحدة مسار التنقل
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع وحدات مسار تنقل‬ ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+يتناول هذا الموضوع وحدات مسار التنقل ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 تستخدم وحدات مسار التنقل لتوفير التنقل الثانوي في صفحات الموقع. وتظهر عادة في أعلى الصفحة، أسفل الرأس. على الرغم من إمكانية إضافة وحدات مسار التنقل إلى أي صفحة، فهي تُستخدم في معظم الأحيان في صفحات تفاصيل المنتجات (PDP)، لإظهار التدرج الهرمي لفئات المنتج وتوفير طريقة سريعة للتنقل في الموقع. ويمكن أيضًا استخدام وحدة مسار التنقل لإظهار ارتباط "العودة إلى النتائج" عندما يقوم المستخدمون بفتح PDP من صفحة بحث أو قائمة. وتسمح هذه الطريقة للمستخدمين بالعودة بسرعة إلى صفحة القائمة المصفاة لمتابعة التسوق.
 
@@ -37,7 +42,7 @@ ms.locfileid: "6720002"
 
 تظهر الصورة التالية مثالاً عن وحدة مسار تنقل تعرض التدرج الهرمي للفئات على صفحة PDP.
 
-![مثال عن وحدة مسار تنقل.](./media/ecommerce-breadcrumb.PNG)
+![مثال عن وحدة مسار تنقل](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>إعدادات وحدة مسار التنقل
 
@@ -90,6 +95,3 @@ ms.locfileid: "6720002"
 [الوحدة النمطية لصندوق الشراء](add-buy-box.md)
 
 [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

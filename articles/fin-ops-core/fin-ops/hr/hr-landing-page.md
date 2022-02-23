@@ -1,28 +1,28 @@
 ---
-title: نظرة عامة على Human Resources
-description: تعمل الموارد البشرية على تبسيط مهام حفظ السجلات الروتينية، وأتمتة العمليات المتعلقة بتوظيف مؤسستك، وتوفر إطارًا لموظفي الموارد البشرية لإدارة مجالات الرقابة.
+title: نظرة عامة على الموارد البشرية
+description: يعمل قسم الموارد البشرية على تبسيط العديد من المهام الروتينية المتعلقة بحفظ السجلات وعلى أتمتة عدد من العمليات المتعلقة بتعيين الموظفين في مؤسستك. وهو يوفر أيضًا إطار عمل لموظفي الموارد البشرية لإدارة مجالات الرقابة. تشمل هذه المجالات عمليات تعيين الموظفين واستبقائهم وإدارة الميزات والتدريب ومراجعات الأداء وإدارة التغيير.
 author: andreabichsel
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.custom:
-- "20931"
-- intro-internal
+ms.custom: 20931
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd7ce1268dd1aeae142e85fdd3ea2d9faa0a659
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b2c23cda87060ecb129befcc67c5b54f2f062bb3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983119"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797807"
 ---
-# <a name="human-resources-overview"></a>نظرة عامة على Human Resources
+# <a name="human-resources-overview"></a>نظرة عامة على الموارد البشرية
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,38 +44,38 @@ ms.locfileid: "7983119"
 
 أثناء العمل مع الموارد البشرية، سوف تقرر كيفية بناء المؤسسة، واستخدام عناصر مثل الإدارات والوظائف والمناصب. هذه من بين العناصر الأساسية التي ستقوم بتكوينها في الموارد البشرية. يتم تعيين أفراد الموظفين للمناصب المقترنة بالوظائف.
 
-- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](../../../human-resources/hr-personnel-departments-jobs-positions.md)
-- [إعداد معلمات الموارد البشرية الخاصة بالشركة](../../../human-resources/hr-setup-parameters.md)
-- [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](../../../human-resources/hr-setup-shared-parameters.md)
+- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](../../../talent/departments-jobs-positions.md)
+- [إعداد معلمات الموارد البشرية الخاصة بالشركة](../../../talent/set-up-company-specific-hr-parameters.md)
+- [إعداد معلمات الموارد البشرية عبر الكيانات القانونية](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>تعيين الموظفين وتوظيفهم وتحفيزهم
 
 تقوم مشاريع التعيين بإدارة المحتوى المستخدم في الإعلانات عن مناصب متوفرة، ويمكنها أن تساعدك على إدارة الطلبات المقدمة لشغل الوظائف الشاغرة. ويمكنك استخدامها لتتبع الاستجابات لإعلانات الوظائف الخاصة بمشروع تعيين محدد أو مقدمي طلبات محددين، وتحديث حالة المناصب المتوفرة. يمكنك أيضًا توظيف مقدمي طلبات فردية أو إدارة "مشاريع التوظيف الجماعي" التي تسهل توظيف عدة عاملين، على سبيل المثال، لتلبية احتياجات العمل الموسمية.
 
 - [إدارة عمليات التوظيف](manage-recruiting-process.md)
-- [مشاريع التوظيف الجماعي](../../../human-resources/hr-personnel-mass-hire-projects.md) 
+- [مشاريع التوظيف الجماعي](mass-hire-projects.md) 
 
 بعد الانتهاء من عملية التوظيف، يمكنك إعداد خطط تسمح لك بإدارة التعويض بطريقة فعالة ومنصفة، بالإضافة إلى إدارة عناصر، مثل أجهزة الكمبيوتر والهواتف، التي تقوم مؤسستك بإعارتها للموظفين. يمكنك إنشاء خطط التعويض الثابتة والمتغيرة، بالإضافة إلى تحديد قواعد تطبيق خطة التعويض للوفاء بالمعايير الخاصة بتلك الخطة.
 
-- [خطط التعويض](../../../human-resources/hr-compensation-overview.md)
-- [إنشاء خطط التعويض الثابتة](../../../human-resources/hr-compensation-fixed-plans.md)
-- [إنشاء خطط التعويض المتغيرة](../../../human-resources/hr-compensation-variable-plans.md)
+- [خطط التعويض](../../../talent/compensation-plans.md)
+- [إنشاء خطط التعويض الثابتة](../../../talent/create-fixed-compensation-plans.md)
+- [إنشاء خطط التعويض المتغيرة](../../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>تطوير الموظفين وتدريبهم
 
 لمساعدة الموظفين لديك على بلوغ أهدافهم الوظيفية مع تلبية احتياجات العمل الهامة، يمكنك إعداد أهداف، وإنشاء مراجعات أداء، وتعقب الملاحظات. لمساعدة الموظفين على تطوير المهارات اللازمة، يمكنك أيضًا إعداد بيانات الموجهين‬ وأنواع الدورات التدريبية وأسمائها، وأوصافها، وجداول أعمالها ومساراتها وجلسات العمل الخاصة بها قبل تعيين أي موجه للدورة التدريبية أو تسجيل أي شخص لحضور الدورة التدريبية. من الضروري وجود المعلمين كعاملين أو مقدمي طلبات أو كجهات اتصال.
 
-- [إدارة الأداء](../../../human-resources/hr-develop-performance-management-overview.md)
-- [مواءمة احتياجات العمل مع مهارات العاملين](../../../human-resources/hr-develop-skills.md)
-- [إعداد الدورات التدريبية](../../../human-resources/hr-learning-courses.md)
+- [إدارة الأداء](../../../talent/performance-management-overview.md)
+- [مواءمة احتياجات العمل مع مهارات العاملين](../../../talent/skills.md)
+- [إعداد الدورات التدريبية](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>إنشاء المزايا والحفاظ عليها
 
 بالإضافة إلى تعويض الموظفين بواسطة الأجور والمرتبات والمكافآت، يمكنك تطوير برامج المزايا مثل التأمين الصحي وخطط التقاعد. ويمكنك أيضًا إدارة مزايا مثل برامج القروض، حيث تقوم شركتك بإعارة بعض العناصر، مثل أجهزة الكمبيوتر والهواتف، لموظفيها.
 
-- [تحديد وإدارة برنامج ميزات](../../../human-resources/hr-benefits-management-overview.md)
-- [سياسات استحقاق الميزات](../../../human-resources/hr-benefits-eligibility-policies.md)
-- [إدارة الأصناف المعارة للعاملين](../../../human-resources/hr-personnel-loan-items.md)
+- [تحديد وإدارة برنامج ميزات](../../../talent/manage-benefit-program.md)
+- [سياسات استحقاق الميزات](../../../talent/benefit-eligibility-policies.md)
+- [إدارة الأصناف المعارة للعاملين](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>الحفاظ على السلامة والامتثال في أماكن العمل
 
@@ -89,10 +89,7 @@ ms.locfileid: "7983119"
 
 يمكنك تصميم الاستبيانات وإدارتها لجمع معلومات يمكن استخدامها لمجموعة من الأهداف. تسمح لك ميزة الاستبيانات بتصميم الاستبيانات وإنشائها. عندما يصبح الاستبيان جاهزًا، يمكنك توزيعه على نطاق واسع أو على مجموعة مستجيبين محددة لإكماله. وبعد أن يوفر المستجيبون إجاباتهم، يمكنك مراجعة النتائج وتحليلها.
 
-- [الاستبيانات](../../../human-resources/hr-learning-questionnaires.md)
-- [تصميم استبيانات](../../../human-resources/hr-learning-design-questionnaires.md)
-- [توزيع الاستبيانات وجدولتها](../../../human-resources/hr-learning-distribute-questionnaires.md)
-- [عرض وتقييم نتائج الاستبيانات](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [الاستبيانات](../../../talent/questionnaires.md)
+- [تصميم استبيانات](../../../talent/design-questionnaires.md)
+- [توزيع الاستبيانات وجدولتها](../../../talent/distribute-questionnaires.md)
+- [عرض وتقييم نتائج الاستبيانات](../../../talent/evaluate-questionnaire-results.md)

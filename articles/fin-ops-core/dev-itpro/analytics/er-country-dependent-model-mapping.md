@@ -2,9 +2,11 @@
 title: تكوين تعيينات نماذج التقارير الإلكترونية التابعة لسياقات البلدان
 description: يشرح هذا الموضوع كيفيه اعداد تعيينات نماذج التقارير الإلكترونية لكي تعتمد علي سياق البلد/المنطقة الخاص بالكيان القانوني الذي يتحكم في استخدامه.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605347"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680860"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>تكوين تعيينات نماذج التقارير الإلكترونية التابعة لسياقات البلدان
 
@@ -48,7 +50,7 @@ ms.locfileid: "7605347"
 
 اتبع الخطوات الواردة في [الملحق 1](#appendix1) من هذا الموضوع لتصميم مكونات التقارير الإلكترونية المطلوبة. لديك الآن تكوين تعيين نموذج **التعيين (عام)** الذي يحتوي على تعيين النموذج لتعريف **نقطة الإدخال 1**.
 
-![صفحه تكوينات ER ، التنسيق للتعرف علي تكوين التعيينات.](./media/RCS-Context-specific-mapping-Tree.PNG)
+![صفحة تكوينات التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>تشغيل التنسيق المكوَّن
 
@@ -61,7 +63,7 @@ ms.locfileid: "7605347"
 
 اتبع الخطوات الواردة في [الملحق 2](#appendix2) من هذا الموضوع لتصميم مكونات التقارير الإلكترونية المطلوبة. لديك الآن تكوينات تعيين نموذج **التعيين (عام)** و **التعيين المخصص (عام)**، والتي يحتوي كل منها على تعيين النموذج لتعريف **نقطة الإدخال 1**.
 
-![صفحه تكوينات ER ، تعيين تكوين عام مخصص.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![صفحة تكوينات التقارير الإلكترونية](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>تشغيل التنسيق المكوَّن
 
@@ -71,7 +73,7 @@ ms.locfileid: "7605347"
 
 لاحظ ان تنفيذ تنسيق التقارير الإلكترونية المحدد غير ناجح. تظهر رسالة خطا لاعلامك بوجود أكثر من تعيين نموذج واحد لنموذج **النموذج للتعرف على التعيينات** وتعريف **نقطة الإخال 1** في **التعيين (عام)** وتكوينات تعيين نموذج **التعيين المخصص (عام)**. وتوصي الرسالة أيضا بتحديد أحد هذه التكوينات كتكوين افتراضي.
 
-![صفحه تكوينات ER مع رسالة الخطا.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![صفحة تكوينات التقارير الإلكترونية](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>تحديد تكوين افتراضي للتعيين
 
@@ -82,7 +84,7 @@ ms.locfileid: "7605347"
 3.  قم بتعيين الخيار **الاعداد الافتراضي لتعيين النموذج** إلى **نعم.**
 4.  حدد **حفظ**.
 
-![صفحه تكوينات ER ، تم تعيين الاعداد الافتراضي لشريط تمرير تعيين النموذج إلى نعم.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![صفحة تكوينات التقارير الإلكترونية](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>تشغيل التنسيق المكوَّن
 
@@ -101,7 +103,7 @@ ms.locfileid: "7605347"
 
 لاحظ ان الإصدار 1 من تكوين تعيين النموذج **التعيين (FR)** تم تكوينه بحيث يتم تطبيقه فقط علي تنسيقات التقارير الإلكترونية لنموذج **النموذج للتعرف على التعيينات** الذي يعمل في شركات Finance التي لها سياق بلد/منطقه فرنسية.
 
-![صفحه تكوينات ER ، تكوين (FR) تعيين نموذج.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![صفحة تكوينات التقارير الإلكترونية](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>تشغيل التنسيق المكوَّن
 
@@ -121,7 +123,7 @@ ms.locfileid: "7605347"
 3.  قم بتعيين الخيار **الاعداد الافتراضي لتعيين النموذج** إلى **نعم.**
 4.  حدد **حفظ**.
 
-![صفحه تكوينات ER ، تكوين (FR) تعيين، تم تعيين الاعداد الافتراضي لشريط تمرير تعيين النموذج إلى نعم.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![صفحة تكوينات التقارير الإلكترونية](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>تشغيل التنسيق المكوَّن
 
@@ -195,7 +197,7 @@ ms.locfileid: "7605347"
 1.  في جزء التنقل، انتقل إلى **الوحدات \> إدارة المؤسسة \> التقارير الإلكترونية \> سجل تصحيح التكوين**.
 2.  حدد الزر **إعادة تحميل هذه الصفحة**.
 
-![صفحة سجلات تشغيل التقارير الإلكترونية.](./media/RCS-Context-specific-mapping-DebugLog.PNG)
+![صفحه سجلات تشغيل التقارير الإلكترونية](./media/RCS-Context-specific-mapping-DebugLog.PNG)
 
 لاحظ انه تمت أضافه سجل جديد إلى سجل تصحيح التقارير الإلكترونية لتنسيق التقارير الإلكترونية الذي تم تنفيذه. ونظرا لأنه يتم تعيين حقل **المستوى** لهذا السجل إلى **معلومات**، يكون السجل معلوماتيًا. نظرًا لتعيين حقل مكون التنسيق إلى **تكوين التعيين**، يقوم السجل باعلامك عن تعيين النموذج الذي تم استخدامه أثناء تنفيذ تنسيق التقارير الإلكترونية **التنسيق للتعرف على التعيينات** (المحدد في حقل **اسم التكوين**). ويعلمك محتوى حقل **النص الذي تم إنشاؤه** بأن مكون تعيين **التعيين (FR)** الموجود في تكوين **التعيين (FR)** تم استخدامه لتشغيل هذا التقرير.
 
@@ -236,7 +238,7 @@ ms.locfileid: "7605347"
 14. في مربع الحوار المنسدل، في حقل **الاسم**، أدخل **وصف الوظيفة**.
 15. حدد **إضافة**.
 
-    ![صفحة مصمم نموذج بيانات التقارير الإلكترونية.](./media/RCS-Context-specific-mapping-Model.PNG)
+    ![صفحة مصمم نموذج بيانات التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Model.PNG)
 
 16. حدد **حفظ**.
 17. قم بإغلاق الصفحة.
@@ -276,7 +278,7 @@ ms.locfileid: "7605347"
 5.  حدد **حفظ**.
 6.  أغلق صفحة **مصمم المعادلة**.
 
-    ![صفحه مصمم تعيين نموذج طراز طراز الطراز ل ER ، تعريف نقطه الإدخال 1.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  حدد **حفظ**.
 8.  أغلق صفحة **مصمم تعيين النموذج**.
@@ -289,12 +291,12 @@ ms.locfileid: "7605347"
 15. حدد **حفظ**.
 16. أغلق صفحة **مصمم المعادلة**.
 
-    ![صفحه مصمم تعيين نموذج طراز طراز الطراز ل ER ، تعريف نقطه الإدخال 2.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. حدد **حفظ**.
 18. أغلق صفحة **مصمم تعيين النموذج**.
 
-    ![صفحه تعيينات نموذج ER مع تعريفات نقطه الإدخال.](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![صفحة تعيينات نماذج التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. أغلق صفحة **تعيينات النماذج**.
 
@@ -335,7 +337,7 @@ ms.locfileid: "7605347"
 2.  حدد حقل **وصف الوظيفة**.
 3.  حدد **ربط**.
 
-    ![صفحة مصمم تنسيق‬ التقارير الإلكترونية.](./media/RCS-Context-specific-mapping-Format.PNG)
+    ![صفحة مصمم تنسيق‬ التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Format.PNG)
 
 4.  حدد **حفظ**.
 5.  قم بإغلاق الصفحة.
@@ -369,7 +371,7 @@ ms.locfileid: "7605347"
 6.  حدد **حفظ**.
 7.  قم بإغلاق الصفحة.
 
-    ![صفحه مصمم تعيين طراز ER ، وهي المعادلة العامة للوظيفة العامة.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  حدد **حفظ**.
 9.  قم بإغلاق الصفحة.
@@ -380,12 +382,12 @@ ms.locfileid: "7605347"
 14. حدد **حفظ**.
 15. قم بإغلاق الصفحة.
 
-    ![صفحه مصمم تعيين طراز ER ، وهي المعادلة العامة للوظيفة العامة.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. حدد **حفظ**.
 17. قم بإغلاق الصفحة.
 
-    ![صفحه النموذج ل ER إلى مصدر البيانات صفحه التعيين للتعيين (عام).](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![صفحة تعيينات نماذج التقارير الإلكترونية](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. قم بإغلاق الصفحة.
 
@@ -432,7 +434,7 @@ ms.locfileid: "7605347"
 7.  حدد **حفظ**.
 8.  قم بإغلاق الصفحة.
 
-    ![صفحه مصمم تعيين طراز ER ، وهي المعادلة 1 لوظيفة FR.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  حدد **حفظ**.
 10. قم بإغلاق الصفحة.
@@ -444,12 +446,12 @@ ms.locfileid: "7605347"
 16. حدد **حفظ**.
 17. قم بإغلاق الصفحة.
 
-    ![صفحه مصمم تعيين طراز ER ، وهي المعادلة 2 لوظيفة FR.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. حدد **حفظ**.
 19. قم بإغلاق الصفحة.
 
-    ![صفحة تعيين النموذج ER إلى مصدر البيانات.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![صفحة تعيينات نماذج التقارير الإلكترونية](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. قم بإغلاق الصفحة.
 
@@ -494,6 +496,3 @@ ms.locfileid: "7605347"
 - إصدار واحد على الأقل من تكوين تعيين نموذج التقارير الإلكترونية بالحالة **مكتمل** أو **مشترك**. في هذه الحالة، سيتم استخدام الإصدار الذي يحتوي على رقم الإصدار الأعلى لتنفيذ تنسيق التقارير الإلكترونية.
 - تم تشغيل خيار **تشغيل المسودة** لتكوين تعيين نموذج التقارير الإلكترونية. في هذه الحالة، سيتم استخدام الإصدار الذي له حالة **المسودة** لتنفيذ تنسيق التقارير الإلكترونية.
 > يتوفر خيار **تشغيل المسودة** في صفحة **التكوينات** لكل تكوين تعيين نموذج تقارير إلكترونية عند تشغيل معلمة مستخدم التقارير الإلكترونية **تشغيل الإعداد**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

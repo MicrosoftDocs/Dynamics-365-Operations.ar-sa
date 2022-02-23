@@ -143,6 +143,3 @@ ms.locfileid: "4529152"
 
 ![تحويل حقل النوع](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

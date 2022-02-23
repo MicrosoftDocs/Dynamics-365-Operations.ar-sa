@@ -2,25 +2,28 @@
 title: استخدام سير عمل الموافقة على الإيجار
 description: يوضح هذا الموضوع كيفية استخدام مهام سير العمل للموافقة على إيجارات الأصول، وكيفية تتبع حالة عمليات سير العمل والمحفوظات.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WorkflowTableListPageRnr
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 33faf7aa6bc9e5df4b8b0f004692b2c1803c6994264c7b9a8e3eb404387f6800
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726076"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440162"
 ---
 # <a name="use-lease-approval-workflows"></a>استخدام سير عمل الموافقة على الإيجار
 
@@ -42,6 +45,3 @@ ms.locfileid: "6726076"
 
 8. لإيقاف سير عمل، في الصفحة **محفوظات سير العمل**، حدد **استدعاء**. في مربع الحوار الذي يظهر، أدخل تعليق، ثم حدد **موافق**.
 9. لإلغاء تنشيط سير عمل أو لتنشيط سير عمل تم إنشاؤه مسبقا ، انتقل إلى **تأجير الأصل \> إعداد \> سير عمل عقد الإيجار**. ثم في الصفحة **سير عمل عقد الإيجار**، حدد **سير العمل \> الإصدارات**. لجعل سير العمل الحالي غير نشط، حدد عقد الإيجار النشط في مربع الحوار إصدار عقد الإيجار، ثم حدد **إلغاء نشط**. لجعل سير عمل موجود نشطًا، حدد سير العمل، ثم حدد **تنشيط**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

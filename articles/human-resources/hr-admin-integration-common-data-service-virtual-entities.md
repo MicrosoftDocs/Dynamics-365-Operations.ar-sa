@@ -1,79 +1,72 @@
 ---
-title: تكوين جداول Dataverse الظاهرية
-description: يوضح هذا الموضوع كيفية تكوين الجداول الافتراضية الموجودة وإنشاؤها وتحديثها وتحليل الجداول المنشأة والمتاحة لـ Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/19/2021
+title: تكوين كيانات Common Data Service الظاهرية
+description: يوضح هذا الموضوع كيفيه تكوين الكيانات الظاهرية لـ Dynamics 365 Human Resources. إنشاء كيانات ظاهريه موجودة وتحديثها، وتحليل الكيانات التي تم إنشاؤها والمتاحة.
+author: andreabichsel
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069136"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645591"
 ---
-# <a name="configure-dataverse-virtual-tables"></a>تكوين جداول Dataverse الظاهرية
+# <a name="configure-common-data-service-virtual-entities"></a>تكوين كيانات Common Data Service الظاهرية
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Common Data Service. وهو يوفر عمليات إنشاء وقراءه وتحديث وحذف (CRUD) كامله من Common Data Service وMicrosoft Power Platform لم يتم تخزين البيانات الخاصة بالكيانات الظاهرية في Common Data Service، ولكن في قاعده بيانات التطبيق. 
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+لتمكين عمليات CRUD علي كيانات الموارد البشرية من Common Data Service، يجب توفير الكيانات ككيانات ظاهريه في Common Data Service يتيح هذا امكانيه اجراء عمليات CRUD من Common Data Service وMicrosoft Power Platform علي البيانات الموجودة في الموارد البشرية. تدعم العمليات أيضا عمليات التحقق الكاملة من منطق العمل للموارد البشرية لضمان تكامل البيانات عند كتابه البيانات إلى الكيانات.
 
+## <a name="available-virtual-entities-for-human-resources"></a>الكيانات الظاهرية المتاحة للموارد البشرية
 
+تتوفر كافة كيانات بروتوكول البيانات المفتوحة (OData) في الموارد البشرية ككيانات ظاهريه في Common Data Service. وهي متوفرة أيضا في Power Platform. يمكنك الآن إنشاء التطبيقات والخبرة بالبيانات مباشره من الموارد البشرية التي لها قدره CRUD كامله، دون نسخ البيانات أو مزامنتها إلى Common Data Service. يمكنك استخدام مداخل Power Apps لإنشاء مواقع ويب خارجيه تمكن سيناريوهات التعاون للعمليات التجارية في الموارد البشرية.
 
-Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsoft Dataverse. وهو يوفر عمليات إنشاء وقراءه وتحديث وحذف (CRUD) كامله من Dataverse وMicrosoft Power Platform لا يتم تخزين البيانات الخاصة بالجداول الظاهرية في Dataverse، ولكن في قاعدة بيانات التطبيق.
+يمكنك عرض قائمه بالكيانات الظاهرية الممكنة في البيئة، وبدء العمل مع الكيانات في [Power Apps](https://make.powerapps.com) في حل **كيانات HR الظاهرية لـ Dynamics 365**.
 
-لتمكين عمليات CRUD على كيانات الموارد البشرية من Dataverse، يجب توفير الكيانات كجداول ظاهرية في Dataverse يتيح هذا امكانيه اجراء عمليات CRUD من Dataverse وMicrosoft Power Platform علي البيانات الموجودة في الموارد البشرية. تدعم العمليات أيضا عمليات التحقق الكاملة من منطق العمل للموارد البشرية لضمان تكامل البيانات عند كتابه البيانات إلى الكيانات.
+![كيانات HR الظاهرية لـ Dynamics 365 في Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
-> [!NOTE]
-> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)
+## <a name="virtual-entities-versus-natural-entities"></a>الكيانات الظاهرية مقابل الكيانات الطبيعية
 
-## <a name="available-virtual-tables-for-human-resources"></a>الجداول الظاهرية المتاحة للموارد البشرية
-
-تتوفر كافة كيانات بروتوكول البيانات المفتوحة (OData) في الموارد البشرية كجداول ظاهرية في Dataverse. وهي متوفرة أيضا في Power Platform. يمكنك الآن إنشاء التطبيقات والخبرة بالبيانات مباشره من الموارد البشرية التي لها قدره CRUD كامله، دون نسخ البيانات أو مزامنتها إلى Dataverse. يمكنك استخدام مداخل Power Apps لإنشاء مواقع ويب خارجيه تمكن سيناريوهات التعاون للعمليات التجارية في الموارد البشرية.
-
-يمكنك عرض قائمة بالجداول الظاهرية الممكنة في البيئة، وبدء العمل مع الجداول في [Power Apps](https://make.powerapps.com) في حل **جداول HR الظاهرية لـ Dynamics 365**.
-
-![جداول HR الظاهرية لـ Dynamics 365 في Power Apps.](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
-
-## <a name="virtual-tables-versus-native-tables"></a>الجداول الظاهرية مقابل الجداول الأصلية
-
-لا تكون الجداول الظاهرية للموارد البشرية متماثلة مع جداول Dataverse الأصلية التي تم إنشاؤها للموارد البشرية. 
-
-يتم إنشاء الجداول الأصلية للموارد البشرية بشكل منفصل وصيانتها في الحل الشائع HCM في Dataverse. باستخدام الجداول الأصلية، يتم تخزين البيانات في Dataverse وتتطلب مزامنة مع قاعدة بيانات التطبيق الخاصة بالموارد البشرية.
+لا تكون الكيانات الظاهرية للموارد البشرية متماثلة مع كيانات Common Data Service الطبيعية التي تم إنشاؤها للموارد البشرية. يتم إنشاء الكيانات الطبيعية للموارد البشرية بشكل منفصل وصيانتها في الحل الشائع لـ HCM في Common Data Service. باستخدام الكيانات الطبيعية، يتم تخزين البيانات في Common Data Service وتتطلب مزامنة مع قاعده بيانات التطبيق الخاصة بالموارد البشرية.
 
 > [!NOTE]
-> للحصول على قائمة بجداول Dataverse الأصلية للموارد البشرية، راجع [جداول Dataverse](./hr-developer-entities.md).
+> للحصول علي قائمه بكيانات Common Data Service الطبيعية للموارد البشرية، راجع [كيانات Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
 
 ## <a name="setup"></a>الإعداد
 
-اتبع خطوات الإعداد هذه لتمكين الجداول الظاهرية في البيئة الخاصة بك.
+اتبع خطوات الاعداد هذه لتمكين الكيانات الظاهرية في البيئة الخاصة بك.
 
-### <a name="enable-virtual-tables-in-human-resources"></a>تمكين الجداول الظاهرية في الموارد البشرية
+### <a name="enable-virtual-entities-in-human-resources"></a>تمكين الكيانات الظاهرية في Human Resources
 
-أولاً، يجب عليك تمكين الجداول الظاهرية في مساحة عمل **إدارة الميزات**.
+أولاً، يجب عليك تمكين الكيانات الظاهرية في مساحة عمل **إدارة الميزات**.
 
 1. في Human Resources، حدد **إدارة النظام**.
 
 2. حدد الإطار المتجانب **إدارة الميزات**.
 
-3. حدد **دعم الجدول الظاهري للموارد البشرية في Dataverse**، ثم حدد **تمكين**.
+3. حدد **دعم الكيان الظاهري في HR/CDS**، ثم حدد **تمكين**.
 
 لمزيد من المعلومات حول تمكين الميزات وتعطيلها، راجع [إدارة الميزات](hr-admin-manage-features.md).
 
 ### <a name="register-the-app-in-microsoft-azure"></a>قم بتسجيل التطبيق في Microsoft Azure
 
-يجب عليك تسجيل مثيل Human Resources الخاص بك في مدخل Azure حتى يتمكن النظام الأساسي لهويه Microsoft من توفير خدمات المصادقة والتخويل للتطبيق والمستخدمين. لمزيد من المعلومات حول تسجيل التطبيقات في Azure، راجع [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهويه Microsoft](/azure/active-directory/develop/quickstart-register-app).
+يجب عليك تسجيل مثيل Human Resources الخاص بك في مدخل Azure حتى يتمكن النظام الأساسي لهويه Microsoft من توفير خدمات المصادقة والتخويل للتطبيق والمستخدمين. لمزيد من المعلومات حول تسجيل التطبيقات في Azure، راجع [التشغيل السريع: تسجيل تطبيق بواسطة النظام الأساسي لهويه Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. افتح [مدخل Microsoft Azure](https://portal.azure.com).
 
@@ -81,13 +74,13 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 3. حدد **تسجيل جديد**.
 
-4. في حقل **الاسم**، أدخل اسمًا وصفيًا للتطبيق. علي سبيل المثال، **جداول Dynamics 365 Human Resources الظاهرية**.
+4. في حقل **الاسم**، أدخل اسمًا وصفيًا للتطبيق. علي سبيل المثال، **كيانات Dynamics 365 Human Resources الظاهرية**.
 
 5. في الحقل **أعاده توجيه URI**، ادخل URL الخاص بمساحة الاسم لمثيل الموارد البشرية.
 
 6. حدد **السجل**.
 
-7. عند اكتمال التسجيل، يعرض مدخل Azure جزء **النظرة العامة** لتسجيل التطبيق الذي يتضمن **معرف التطبيق (العميل)**. سجل **معرف التطبيق (العميل)** في هذا الوقت. ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الجدول الظاهري](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+7. عند اكتمال التسجيل، يعرض مدخل Azure جزء **النظرة العامة** لتسجيل التطبيق الذي يتضمن **معرف التطبيق (العميل)**. سجل **معرف التطبيق (العميل)** في هذا الوقت. ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الوحدة الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
 
 8. في جزء التنقل الأيمن، حدد **الشهادات والاسرار**.
 
@@ -95,24 +88,36 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 10. قم بتوفير وصف، وحدد مده، وحدد **أضافه**.
 
-11. تسجيل قيمة السر من خاصية **القيمة** للجدول. ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الجدول الظاهري](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. سجل قيمة السر. ستقوم بإدخال هذه المعلومات عند [تكوين مصدر بيانات الوحدة الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
 
     > [!IMPORTANT]
     > تاكد من مراعاه قيمه السر في هذا الوقت. لا يتم عرض السر أبدا مره أخرى بعد مغادره هذه الصفحة.
 
-### <a name="install-the-dynamics-365-hr-virtual-table-app"></a>تثبيت تطبيق الجدول الظاهري Dynamics 365 HR Virtual Table
+### <a name="install-the-dynamics-365-hr-virtual-entity-app"></a>تثبيت تطبيق Dynamics 365 HR Virtual Entity
 
-قم بتثبيت تطبيق الجدول الظاهري Dynamics 365 HR Virtual Table في البيئة Power Apps الخاصة بك لنشر حزمة حل الجدول الظاهري إلى Dataverse.
+قم بتثبيت تطبيق Dynamics 365 HR Virtual Entity في البيئة Power Apps الخاصة بك لنشر حزمه حلول الكيان الظاهري إلى Common Data Service.
 
-1. في الموارد البشرية، افتح صفحة **تكامل Microsoft Dataverse**.
+1. افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).
 
-2. حدد علامة التبويب **الجداول الظاهرية**.
+2. في قائمه **البيئات**، حدد بيئة Power Apps المقترنة بمثيل الموارد البشرية الخاص بك.
 
-3. حدد **تثبيت تطبيق الجدول الظاهري**.
+3. في القسم **الموارد** في الصفحة، حدد **تطبيقات Dynamics 365**.
 
-### <a name="configure-the-virtual-table-data-source"></a>تكوين مصدر بيانات الجدول الظاهري
+4. حدد اجراء **تثبيت التطبيق**.
 
-الخطوة التالية هي تكوين مصدر البيانات الجدول الظاهري في بيئة Power Apps.
+5. حدد **Dynamics 365 HR Virtual Entity**، ثم حدد **التالي**.
+
+6. مراجعه ووضع علامة علي الموافقة علي شروط الخدمة.
+
+7. حدد **تثبيت**.
+
+يستغرق التثبيت بضع دقائق. وعند الانتهاء، انتقل إلى الخطوات التالية.
+
+![تثبيت تطبيق Dynamics 365 HR Virtual Entity من مركز اداره Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
+
+### <a name="configure-the-virtual-entity-data-source"></a>تكوين مصدر بيانات الكيان الظاهري 
+
+الخطوة التالية هي تكوين مصدر البيانات الكيان الظاهري في بيئة Power Apps. 
 
 1. افتح [مركز مسؤول Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -122,10 +127,7 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 4. في **مركز حماية الحل**، حدد الرمز **بحث متقدم** في الجزء العلوي الأيسر من صفحة التطبيق.
 
-5. في صفحة **بحث متقدم**، وفي القائمة المنسدلة **البحث عن**، حدد **تكوينات مصدر البيانات الظاهري في التمويل والعمليات** .
-
-   > [!NOTE]
-   > قد يستغرق تثبيت تطبيق الجدول الظاهري من خطوة الإعداد السابقة بضع دقائق. إذا لم تكن **تكوينات مصدر البيانات الظاهري في التمويل والعمليات** متوفرة في القائمة، فانتظر لمدة دقيقة وقم بتحديث القائمة.
+5. في صفحه **بحث متقدم**، وفي القائمة المنسدلة **البحث عن**، حدد **تكوينات مصدر البيانات الظاهري Finance and Operations**.
 
 6. حدد **النتائج**.
 
@@ -144,16 +146,13 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
      >[!NOTE]
      >تأكد من تضمين الحرف "**/**" في نهاية عنوان URL لتجنب تلقي خطأ ما.
 
-     >[!NOTE]
-     >يحدد عنوان URL الهدف بيئة الموارد البشرية التي تشير إليها الجداول الافتراضية للبيانات. إذا أنشأت بيئة وضع الحماية عن طريق إنشاء نسخة من بيئة الإنتاج الخاصة بك، فقم بتحديث هذه القيمة إلى عنوان URL لمساحة الاسم لبيئة وضع الحماية الجديدة. يضمن ذلك توصيل الجداول الافتراضية ببيانات بيئة آلية تحديد الصلاحيات بدلاً من الاستمرار في الإشارة إلى بيئة الإنتاج.
-
-   - **معرف المستأجر**: معرف المستأجر في Azure Active Directory ( Azure AD).
+   - **معرف المستاجر**: معرف المستاجر في Azure Active Directory ( Azure AD).
 
    - **معرف تطبيق AAD**: معرف التطبيق (العميل) الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure. لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    - **سر تطبيق AAD**: سر التطبيق الذي تم إنشاؤه للتطبيق المسجل في مدخل Microsoft Azure. لقد تلقيت هذه المعلومات مبكرا اثناء الخطوة [تسجيل التطبيق في Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
-   ![مصدر بيانات الموارد البشرية في Microsoft.](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+   ![مصدر بيانات الموارد البشرية في Microsoft](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
 9. حدد **حفظ وإغلاق**.
 
@@ -161,8 +160,8 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 
 امنح أذونات لتطبيقي Azure AD في الموارد البشرية:
 
-- التطبيق الذي تم إنشاؤه للمستأجر في مدخل Microsoft Azure
-- تطبيق Dynamics 365 HR Virtual Table الذي تم تبثبيته في من بيئة Power Apps 
+- التطبيق الذي تم إنشاؤه للمستاجر في مدخل Microsoft Azure
+- تطبيق Dynamics 365 HR Virtual Entity الذي تم تبثبيته في من بيئة Power Apps 
 
 1. في الموارد البشرية، افتح صفحة **تطبيقات Azure Active Directory**.
 
@@ -175,47 +174,45 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 3. حدد **جديد** لإنشاء سجل تطبيق ثانٍ:
 
     - **معرف العميل**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **الاسم**: Dynamics 365 HR Virtual Table
+    - **الاسم**: Dynamics 365 HR Virtual Entity
     - في الحقل **معرف المستخدم** ، حدد معرف المستخدم الخاص بمستخدم لديه أذونات المسؤول في الموارد البشرية وبيئة Power Apps.
 
-## <a name="generate-virtual-tables"></a>إنشاء جداول ظاهرية
+## <a name="generate-virtual-entities"></a>إنشاء كيانات ظاهرية
 
-عند اكتمال الإعداد، يمكنك تحديد الجداول الظاهرية التي ترغب في إنشائها وتمكينها في مثيل Dataverse الخاص بك.
+عند اكتمال الاعداد، يمكنك تحديد الكيانات الظاهرية التي ترغب في إنشائها وتمكينها في مثيل Common Data Service الخاص بك.
 
-1. في الموارد البشرية، افتح صفحة **تكامل Microsoft Dataverse**.
+1. في Human Resources، افتح صفحة **تكامل Common Data Service (CDS)**.
 
-2. حدد علامة التبويب **الجداول الظاهرية**.
+2. حدد علامة التبويب **الكيانات الظاهرية**.
 
 > [!NOTE]
-> سيتم تعيين زر التبديل **تمكين الجداول الظاهرية** إلى **نعم** تلقائيًا عند اكتمال كافة الإعدادات المطلوبة. إذا تم تعيين زر التبديل إلى **لا**، فراجع الخطوات الموجودة في الأقسام السابقة من هذا المستند لضمان إكمال كافة إعدادات المتطلبات الأساسية.
+> سيتم تعيين زر التبديل **تمكين الكيان الظاهري** إلى **نعم** تلقائيًا عندما تم إكمال كافة الإعدادات المطلوبة. إذا تم تعيين زر التبديل إلى **لا**، فراجع الخطوات الموجودة في الأقسام السابقة من هذا المستند لضمان إكمال كافة إعدادات المتطلبات الأساسية.
 
-3. حدد الجدول أو الجداول التي ترغب في إنشائها في Dataverse.
+3. حدد الكيان أو الكيانات التي ترغب في إنشائها في Common Data Service.
 
 4. حدد **إنشاء/تحديث**.
 
-![تكامل Dataverse.](./media/hr-admin-integration-dataverse-integration.png)
+![تكامل Common Data Service](./media/hr-admin-integration-common-data-service-integration.jpg)
 
-## <a name="check-table-generation-status"></a>التحقق من حالة إنشاء الجدول
+## <a name="check-entity-generation-status"></a>التحقق من حالة إنشاء الكيان
 
-يتم إنشاء الجداول الظاهرية في Dataverse خلال عملية خلفية غير متزامنة. تعرض التحديثات على العملية في مركز الإجراء. تظهر التفاصيل الخاصة بالعملية، بما في ذلك سجلات الأخطاء، في الصفحة **التنفيذ التلقائي للعمليات**.
+يتم إنشاء الكيانات الظاهرية في Common Data Service خلال عملية خلفية غير متزامنة. تعرض التحديثات على العملية في مركز الإجراء. تظهر التفاصيل الخاصة بالعملية، بما في ذلك سجلات الأخطاء، في الصفحة **التنفيذ التلقائي للعمليات**.
 
 1. في Human Resources، افتح الصفحة **التنفيذ التلقائي للعمليات**.
 
 2. حدد علامة التبويب **عمليات الخلفية**.
 
-3. حدد **عملية خلفية للتشغيل غير المتزامن لاستقصاء الجدول الظاهري**.
+3. حدد **عملية خلفية للتشغيل غير المتزامن لاستقصاء الكيان الظاهري**.
 
 4. حدد **عرض أحدث النتائج**.
 
-يعرض الجزء المنبثق للخارج أحدث نتائج التنفيذ للعملية. يمكنك عرض السجل للعملية، بما في ذلك أية أخطاء تم إرجاعها من Dataverse.
+يعرض الجزء المنبثق للخارج أحدث نتائج التنفيذ للعملية. يمكنك عرض السجل للعملية، بما في ذلك أية أخطاء تم إرجاعها من Common Data Service.
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[ما هو Dataverse؟](/powerapps/maker/common-data-service/data-platform-intro)<br>
-[الجداول في Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
-[نظرة عامة على علاقات الجداول](/powerapps/maker/common-data-service/relationships-overview)<br>
-[إنشاء جداول ظاهرية تحتوي على بيانات من مصدر بيانات خارجي وتحريرها](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[ما المقصود بمداخل Power Apps؟](/powerapps/maker/portals/overview)<br>
-[نظره عامه حول إنشاء التطبيقات في Power Apps](/powerapps/maker/)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[ما هو Common Data Service؟](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
+[نظرة عامة على الكيان](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
+[نظره عامه علي علاقات الكيانات](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
+[إنشاء كيانات ظاهريه تحتوي علي بيانات من مصدر بيانات خارجي وتحريرها](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[ما المقصود بمداخل Power Apps؟](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
+[نظره عامه حول إنشاء التطبيقات في Power Apps](https://docs.microsoft.com/powerapps/maker/)

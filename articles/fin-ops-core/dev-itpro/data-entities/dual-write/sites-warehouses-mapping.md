@@ -1,36 +1,52 @@
 ---
 title: المواقع والمستودعات المتكاملة
-description: يوضح هذا الموضوع تكامل بيانات المواقع والمستودعات بين Finance and Operations وDataverse.
+description: يوضح هذا الموضوع تكامل بيانات الموقع والمستودع بين تطبيقات Finance and Operations وDataverse.
 author: t-benebo
+manager: AnnBe
 ms.date: 10/09/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: benebotg
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: 66c5962933387831bbc3f17b9f29128ceaaf750b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d192343d78f9248e4d1232d6aee1a1f800383805
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063202"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679310"
 ---
 # <a name="integrated-sites-and-warehouses"></a>المواقع والمستودعات المتكاملة
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-يوضح هذا الموضوع تكامل بيانات المواقع والمستودعات بين Finance and Operations وDataverse. تعتبر المواقع والمستودعات التشغيلية مفاهيم عامة في تطبيق Supply Chain Management. وهي تستخدم لصياغة سلسلة التوريد الخاصة بشركك.
+
+يوضح هذا الموضوع تكامل بيانات الموقع والمستودع بين تطبيقات Finance and Operations وDataverse. تعتبر المواقع والمستودعات التشغيلية مفاهيم عامة في تطبيق Supply Chain Management. وهي تستخدم لصياغة سلسلة التوريد الخاصة بشركك.
 
 ## <a name="templates"></a>القوالب
 
 من خلال التكامل مع Dataverse، تتوفر هذه المفاهيم وكافة المعلومات المتعلقة بها في Dataverse باستخدام جداول بيانات المواقع والمستودعات في الجدول التالي.
 
-تطبيقات Finance and Operations | تطبيقات Customer Engagement     | الوصف
+تطبيقات Finance and Operations | تطبيقات Dynamics 365 الأخرى | الوصف
 --------------------------|---------------------------|---
-[المواقع](mapping-reference.md#156) | msdyn_operationalsites | |
-[المستودعات](mapping-reference.md#204) | msdyn_warehouses | |
+المواقع | msdyn_operationalsites | 
+المستودعات | msdyn_warehouses | 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [operational sites](includes/InventOperationalSiteEntity-msdyn-operationalsite.md)]
+
+[!include [warehouses](includes/InventWarehouseEntity-msdyn-warehouse.md)]
+

@@ -102,6 +102,3 @@ ms.locfileid: "4460197"
 - **‏‏غير ذلك**
 
 بدلاً من ذلك، يمكنك توسيع تعداد **TalentSource** لإضافة أنواع أخرى من المصادر.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

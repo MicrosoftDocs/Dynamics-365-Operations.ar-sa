@@ -1,23 +1,25 @@
 ---
 title: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
 description: يوضح هذا الموضوع كيفية تضمين تقرير Power BI في علامة تبويب "التحليلات" في مساحة عمل.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760142"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680926"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
 
@@ -27,7 +29,7 @@ ms.locfileid: "6760142"
 > هذه الميزة مدعومة في Finance and Operations (الإصدار 7.2 والإصدارات الأحدث).
 
 ## <a name="introduction"></a>مقدمة
-يوضح هذا الموضوع كيفية تضمين تقرير Microsoft Power BI في علامة تبويب **التحليلات** لمساحة عمل. بالنسبة إلى المثال الذي تم تقديمه هنا، سنقوم بتوسيع مساحة عمل **إدارة الحجز** في تطبيق إدارة الأسطول لتضمين مساحة عمل تحليلية على علامة تبويب **التحليلات**.
+يوضح هذا الموضوع كيفية تضمين تقرير Microsoft Power BI في علامة تبويب **التحليلات** في مساحة عمل. بالنسبة إلى المثال الذي تم تقديمه هنا، سنقوم بتوسيع مساحة عمل **إدارة الحجز** في تطبيق إدارة الأسطول لتضمين مساحة عمل تحليلية على علامة تبويب **التحليلات**.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 + الوصول إلى بيئة مطور تقوم بتشغيل تحديث النظام الأساسي 8 أو الإصدارات الأحدث.
@@ -54,11 +56,11 @@ ms.locfileid: "6760142"
 3. في **إضافة صنف جديد**، تحت **منتجات Operations**، حدد قالب **المورد**.
 4. أدخل اسمًا سيتم استخدامه للإشارة إلى التقرير في بيانات تعريف X++، ومن ثم انقر فوق **إضافة**.
 
-    ![مربع الحوار "إضافة صنف جديد".](media/analytical-workspace-add.png)
+    ![مربع الحوار "إضافة صنف جديد"](media/analytical-workspace-add.png)
 
 5. ابحث عن ملف pbix. الذي يحتوي على تعريف التقرير التحليلي، ثم انقر فوق **فتح**.
 
-    ![حدد مربع حوار "ملف المورد".](media/analytical-workspace-select-resource.png)
+    ![حدد مربع حوار "ملف المورد"](media/analytical-workspace-select-resource.png)
 
 والآن بعد أن قمت بإضافة ملف pbix. كمورد Dynamics 365، يمكنك تضمين التقارير في مساحات العمل وإضافة الارتباطات المباشرة باستخدام عناصر القائمة.
 
@@ -67,7 +69,7 @@ ms.locfileid: "6760142"
 
 يبين الرسم التوضيحي التالي الشكل الذي يتخذه النموذج **FMClerkWorkspace** في المصمم في Microsoft Visual Studio.
 
-![نموذج FMClerkWorkspace قبل التغييرات.](media/analytical-workspace-definition-before.png)
+![نموذج FMClerkWorkspace قبل التغييرات](media/analytical-workspace-definition-before.png)
 
 اتبع هذه الخطوات لتوسيع تعريف النموذج لمساحة عمل **إدارة الحجز**.
 
@@ -92,7 +94,7 @@ ms.locfileid: "6760142"
 
 يبين الرسم التوضيحي التالي الشكل الذي يتخذه التصميم بعد تطبيق هذه التغييرات.
 
-![FMClerkWorkspace بعد التغييرات.](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace بعد التغييرات](media/analytical-workspace-definition-after.png)
 
 والآن بعد أن قمت بإضافة عناصر تحكم النموذج التي سيتم استخدامها لتضمين تقرير مساحة العمل، يجب تحديد حجم عنصر التحكم الأصل بحيث يستوعب التخطيط. بشكل افتراضي، سوف تظهر في التقرير الصفحة **"جزء عوامل تصفية"** والصحفة **علامة التبويب**. ومع ذلك، يمكنك تغيير كيفية ظهور عناصر التحكم هذه بما يتناسب مع المستخدم المستهدف للتقرير.
 
@@ -142,7 +144,7 @@ ms.locfileid: "6760142"
 
 لقد أتممت الآن مهمة إضافة منطق تسلسل العمل لتهيئة عنصر تحكم عارض التقرير المضمن. يبين الرسم التوضيحي التالي الشكل الذي تتخذه مساحة العمل بعد تطبيق هذه التغييرات.
 
-![تقرير مضمن في مساحة العمل.](media/analytical-workspace-final.png)
+![تقرير مضمن في مساحة العمل](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > يمكنك الوصول إلى طريقة العرض التشغيلية الموجودة باستخدام علامات تبويب مساحة العمل تحت عنوان الصفحة.
@@ -173,6 +175,3 @@ public static void initializeReportControl(
 | showFilterPane   | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء عامل التصفية (**true**) أو إخفاؤه (**false**).     |
 | showNavPane      | قيمة منطقية تشير إلى ما إذا كان يجب عرض جزء التنقل (**true**) أو إخفاؤه (**false**). |
 | defaultFilters   | عوامل التصفية الافتراضية لتقرير Power BI.                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,29 +1,30 @@
 ---
 title: نظرة عامة على تكوين المنتجات المستند إلى الأبعاد
 description: يمثل تكوين المنتج المستند إلى بُعد‬ حلاً بسيطًا لإنشاء متغيرات منتج متعددة من أصل منتج واحد وقائمة مكونات الصنف الخاصة به.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "19821"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 19821
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8811d4a43dba05e63b270893600a622527834901
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 45688f1882d2711cd43b9b7c199f1fca7ff089ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982917"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421569"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>نظرة عامة على تكوين المنتجات المستند إلى الأبعاد
 
@@ -68,7 +69,7 @@ ms.locfileid: "7982917"
 تمثل قواعد تكوين آلية للتأكد من أن المنتج المضمن في مجموعة التكوين في قائمة مكونات الصنف تفرض إما تضمين أو استبعاد المنتج في مجموعة تكوين مختلفة في نفس قائمة مكونات الصنف.
 
 ## <a name="product-modeling-process"></a>عملية تصميم المنتج
-يبدأ التسلسل الطبيعي لبناء نموذج منتج لمنتج مستند إلى بُعد بتحديد مجموعات التكوين ذات الصلة. من المهم ضمان إصدار كافة المنتجات التي سيتم استخدامها في قائمة مكونات الصنف إلى الشركة التي تم تصميم نموذج المنتج لها. من خلال استخدام هذه اللبنات، يمكن للمستخدم إنشاء قائمة مكونات الصنف وتعيين مجموعات التكوين لكافة بنود قائمة مكونات الصنف ذات الصلة. وعند اكتمال قائمة مكونات الصنف، يمكن تحديد مسار تكوين لترتيب مجموعات التكوين في الترتيب المناسب.‬ [![عملية تصميم المنتج المستندة إلى البعد.](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) إذا كان هناك بعض المنتجات من مجموعات تكوين مختلفة يجب أو يجب ألا يتم استخدامها معًا، فيمكنك إنشاء قواعد التكوين التي ستفرض علاقات المنتج هذه.‬ وبعد ربط قائمة مكونات الصنف بأصل منتج مستند إلى بُعد من خلال إصدار قائمة مكونات الصنف واعتماد كليهما وتنشيطهما، يمكنك إنشاء تكوينات المنتج وإدخال اسم لكل تكوين. يمكن تحديد التكوينات قبل أن يتم إنشاء أية حركات أو يمكن القيام بها عند الحاجة إلى تكوين معين.
+يبدأ التسلسل الطبيعي لبناء نموذج منتج لمنتج مستند إلى بُعد بتحديد مجموعات التكوين ذات الصلة. من المهم ضمان إصدار كافة المنتجات التي سيتم استخدامها في قائمة مكونات الصنف إلى الشركة التي تم تصميم نموذج المنتج لها. من خلال استخدام هذه اللبنات، يمكن للمستخدم إنشاء قائمة مكونات الصنف وتعيين مجموعات التكوين لكافة بنود قائمة مكونات الصنف ذات الصلة. وعند اكتمال قائمة مكونات الصنف، يمكن تحديد مسار تكوين لترتيب مجموعات التكوين في الترتيب المناسب.‬ [![عملية تصميم المنتجات المستندة إلى بُعد](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) إذا كان هناك بعض المنتجات من مجموعات تكوين مختلفة يجب أو يجب ألا يتم استخدامها معًا، فيمكنك إنشاء قواعد التكوين التي ستفرض علاقات المنتج هذه.‬ وبعد ربط قائمة مكونات الصنف بأصل منتج مستند إلى بُعد من خلال إصدار قائمة مكونات الصنف واعتماد كليهما وتنشيطهما، يمكنك إنشاء تكوينات المنتج وإدخال اسم لكل تكوين. يمكن تحديد التكوينات قبل أن يتم إنشاء أية حركات أو يمكن القيام بها عند الحاجة إلى تكوين معين.
 
 ### <a name="suggested-use"></a>الاستخدام المقترح
 
@@ -87,6 +88,3 @@ ms.locfileid: "7982917"
 7.  [إنشاء قواعد التكوين](tasks/create-configuration-rules.md)
 8.  [إنشاء التكوينات المستندة إلى أبعاد](tasks/create-dimension-based-configurations.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

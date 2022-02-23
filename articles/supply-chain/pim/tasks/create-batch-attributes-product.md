@@ -1,24 +1,27 @@
 ---
 title: إنشاء مواصفات التشغيلة لمنتج
 description: يوضح هذا الإجراء كيفية إنشاء مواصفات التشغيلة وتعيين نطاقات القيم الافتراضية وتضمين السمة في مجموعة.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsBatchAttrib
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71779bf864b4dbe86d90131808014d1d08815155
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8924eedfbb635ca04aa167d7f6c44872fef496fd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565559"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421375"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>إنشاء مواصفات التشغيلة لمنتج
 
@@ -52,6 +55,3 @@ ms.locfileid: "7565559"
 22. انقر فوق "حفظ".
 23. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

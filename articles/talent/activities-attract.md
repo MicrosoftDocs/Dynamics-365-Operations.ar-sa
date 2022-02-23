@@ -91,6 +91,3 @@ ms.locfileid: "4460241"
 > يتوفر تطبيق إدارة العروض المتكامل فقط مع المكون الإضافي "التوظيف الشامل". لمزيد من المعلومات، راجع [أي إصدار من Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

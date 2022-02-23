@@ -86,6 +86,3 @@ ms.locfileid: "4527134"
 ### <a name="print-performance-reviews"></a>طباعة مراجعات الأداء
 
 راجع [‏‫طباعة مراجعات الأداء‬](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) في خطة الموجة 2 من إصدار Dynamics 365: 2019.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

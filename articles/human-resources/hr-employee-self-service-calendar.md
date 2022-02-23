@@ -1,39 +1,37 @@
 ---
 title: إنشاء تقويم فريق
 description: عرض تقويمات الفريق وإنشاءها في Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8ee39f35f9d81f47c5438ddf48451d24ab0c0ed3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065242"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "4962255"
 ---
 # <a name="view-team-and-company-calendars"></a>عرض تقويمات الفريق والشركة
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يمكنك عرض تقويمات الفريق والشركة في Dynamics 365 Human Resources. تعرض تقويمات الفريق التقارير المباشرة فقط، كما هو محدد في التدرج الهرمي للبند.
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>عرض تقويم الفريق كموظف
 
-- في مساحة العمل **خدمة الموظف الذاتية‬**، حدد **تقويم غياب الفريق** ضمن **الملخص**.
+1. في مساحة العمل **خدمة الموظف الذاتية‬**، حدد **تقويم غياب الفريق** ضمن **الملخص**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>عرض تقويم الفريق كمدير
 
@@ -42,21 +40,6 @@ ms.locfileid: "8065242"
 2. حدد **الإجازة والغياب‬**، ثم حدد **عرض تقويم غياب المدير**.
 
 بإمكان المدراء أيضًا الوصول إلى تقويم الفريق من **طلبات الإجازات‏‎المعلقة لفريقي** و **الإجازات الموافق عليها** و **طلبات الإجازات**. 
-
-## <a name="view-your-absence-manager-calendar-as-the-absence-manager"></a>عرض تقويم مدير الغياب كمدير غياب
-
-> [!NOTE]
-> لعرض تقويم مدير الغياب، يجب أولا تشغيل **(معاينة) مدير الغياب لإدارة ميزة الإجازات** في إدارة الميزات. للحصول على مزيد من المعلومات حول كيفية تشغيل ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).
-
-يمكن للمستخدمين في دور مدير الغياب عرض طلبات المهلة في التقويم الخاص بهم. للوصول إلى تقويم الإجازة، اتبع هذه الخطوات.
-
-1. في مساحة عمل **الخدمة الذاتية للموظف**، حدد **مدير الإجازات** ثم **تقويم مدير الغياب**.
-
-2. في الحقل **التاريخ**، أدخل التواريخ المطلوبة.
-
-3. تحديث خيارات العرض كما هو مطلوب.
-
-يعرض تقويم مدير الغياب كافة السجلات للموظفين الذين يقومون بتقديم تقرير إلى مدير الغياب في التسلسل الهرمي للمغادرة.
 
 ## <a name="view-a-company-calendar"></a>عرض تقويم شركة
 
@@ -78,15 +61,14 @@ ms.locfileid: "8065242"
 - طلبات الإجازة 
 - طلبات أذونات الغياب
 
-يحدد تكوين التقويم في صفحة **معلمات الإجازة والغياب** خيارات العرض المتوفرة.
+يحدد تكوين التقويم في معلمات الإجازة والغياب خيارات العرض المتوفرة.
 
 يمكنك أيضًا تصفية التقويمات حسب المدير أو القسم. يحدد تعيين المنصب الأساسي الموظفين الذين يتم عرضهم عند تعيين عوامل التصفية هذه. 
 
-> [!IMPORTANT]
-> يمكنك تشغيل ميزة **عرض إجازة في شركة كروس** في إدارة الميزات. يجب بغد ذلك تمكين الميزة في صفحة **معلمات الموارد البشرية المشتركة** لعرض عامل تصفية الكيان القانوني في التقاويم. لمزيد من المعلومات، راجع [تكوين معلمات الإجازة والغياب](hr-leave-and-absence-parameters.md).
-> 
-> يمكنك تصفية التقويم حسب الكيان القانوني. لعرض جميع الموظفين بغض النظر عن الكيان القانوني، فقم بإلغاء تحديد حقل عامل التصفية وحدد **Enter**. 
+>[!IMPORTANT]
+>عرض الإجازة والغياب عبر الشركات قيد المعاينة حاليًا. ستحتاج إلى تمكينها في بيئة **الحماية**. لمزيد من المعلومات حول تمكين ميزات المعاينة، راجع [إدارة الميزات](hr-admin-manage-features.md).<br><br>
+>ثم يجب تمكين الميزة في **معلمات Human Resources المشتركة** لعرض عامل تصفيm الكيان القانوني في التقاويم. لمزيد من المعلومات، راجع [تكوين معلمات الإجازة والغياب](hr-leave-and-absence-parameters.md).<br><br>
+>يمكنك تصفية التقويم حسب الكيان القانوني. إذا كنت ترغب في رؤية جميع الموظفين بغض النظر عن الكيان القانوني، فقم بإلغاء تحديد مربع التصفية وحدد enter. 
 
 للحصول على معلومات حول إعدادات التقويم، راجع [تكوين معلمات التقويم](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

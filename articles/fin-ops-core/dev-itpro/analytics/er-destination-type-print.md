@@ -1,10 +1,12 @@
 ---
 title: نوع وجهة إعداد التقارير الإلكترونية للطابعة
-description: يشرح هذا الموضوع معلومات حول كيفيه تكوين وجهه طابعة لكل مجلد أو مكون ملف لتنسيق التقارير الكترونيه (ER).
+description: يوضح هذا الموضوع كيفية تكوين وجهة طابعة لكل مكون "ملف" أو "مجلد" لتنسيق إعداد التقارير الإلكترونية (ER) التي يتم تكوينها لإنشاء مستندات صادرة بتنسيق PDF أو تنسيق Microsoft Office (Excel\Word).
 author: NickSelin
-ms.date: 02/24/2021
+manager: AnnBe
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712702"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679596"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>وجهة الطابعة
 
@@ -30,7 +32,7 @@ ms.locfileid: "6712702"
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل البدء، يجب تثبيت وكيل توجيه المستند وتكوينه، ثم تسجيل طابعات الشبكة. لمزيد من المعلومات، راجع [تثبيت وكيل توجيه المستند لتمكين طباعة الشبكة](./install-document-routing-agent.md)
+قبل البدء، يجب تثبيت وكيل توجيه المستند وتكوينه، ثم تسجيل طابعات الشبكة. لمزيد من المعلومات، راجع [تثبيت وكيل توجيه المستند لتمكين طباعة الشبكة](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent)
 
 ## <a name="make-the-printer-destination-available"></a>توفير وجهة الطابعة
 
@@ -39,13 +41,15 @@ ms.locfileid: "6712702"
 1. تحويل المستندات الصادرة للتقارير الإلكترونية من تنسيقات Microsoft Office إلى PDF
 2. عامل توجيه المستندات كوجهة إعداد التقارير الإلكترونية للمستندات الصادرة
 
-[![تشغيل ميزة وجهة طابعة إعداد التقارير الإلكترونية في إدارة الميزات.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![تشغيل ميزة وجهة طابعة إعداد التقارير الإلكترونية في إدارة الميزات](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>إمكانية التطبيق
 
 لا يمكن تكوين وجهة **الطابعة** إلا لمكونات الملف المستخدمة لإنشاء مخرجات في تنسيق pdf القابل للطباعة (عناصر تنسيق ملف PDF أو دمج PDF) أو تنسيق Microsoft Office Excel/Word (ملف Excel). عند إنشاء مخرجات بتنسيق PDF، يتم إرسالها إلى طابعة. عند إنشاء المخرجات بتنسيق Microsoft Office، يتم تحويلها تلقائيًا إلى تنسيق PDF ثم إرسالها إلى طابعة.
 
 ### <a name="limitations"></a>قيود
+
+هذه الميزة هي ميزة معاينة وهي خاضعة لشروط الاستخدام الموضحة في [شروط الاستخدام الإضافية لمعاينات المستخدمة لمعاينات Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 لا يتم تطبيق وجهة **الطابعة** إلا لعمليات نشر المجموعة فقط.
 
@@ -55,7 +59,7 @@ ms.locfileid: "6712702"
 2. في الحقل **اسم الطابعة**، حدد طابعة الشبكة المطلوبة.
 3. عيِّن الخيار **هل تريد الحفظ في أرشيف الطباعة؟** على **نعم** لتخزين المخرجات المنشأة في أرشيف الطباعة، بحيث يكون متوفرًا لمزيد من عمليات الطباعة. للوصول إلى المخرجات المؤرشفة لاحقًا، انتقل إلى **إدارة المؤسسة**\>**‏‫الاستعلامات والتقارير‬**\>**أرشيف التقارير**.
 
-[![استخدام وجهة الطابعة.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![استخدام وجهة الطابعة](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > لا يلزم تشغيل خيار **لتحويل إلى PDF‬** عند تكوين وجهة **الطابعة**. سيتم التحويل إلى PDF لأغراض الطباعة حتى في حالة إيقاف تشغيل الخيار.
@@ -66,6 +70,3 @@ ms.locfileid: "6712702"
 
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

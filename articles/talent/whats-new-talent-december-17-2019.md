@@ -56,6 +56,3 @@ ms.locfileid: "4460162"
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>يضاعف تقرير الرصيد الحالي في الإجازات PBI رصيد الموظفين (385581)
 
 يُصحح هذا التغيير تقرير الرصيد الحالي في هذا السيناريو.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

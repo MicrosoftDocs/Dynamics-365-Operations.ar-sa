@@ -2,24 +2,27 @@
 title: إخفاء أوضاع التسليم بدون ناقل من خيارات الشحنة في نقطة البيع
 description: يصف هذا الموضوع خيار التكوين الذي يمكنه منع أوضاع التسليم بدون ناقل من الظهور للتحديد عند إنشاء أوامر الشحن في التطبيق عند نقطه البيع (POS).
 author: hhainesms
+manager: annbe
 ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 4d885aa7ab3b4daaebb1fa8378562d86cc153270ea166b495bf3381fae826773
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38d57ed5f8d2b8725cd11156f0135988bb76e047
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773859"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409979"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>إخفاء أوضاع التسليم بدون ناقل من خيارات الشحن في نقطة البيع
 
@@ -33,6 +36,3 @@ ms.locfileid: "6773859"
 وبشكل افتراضي، يظهر مربع الحوار عند تحديد وضع التسليم كافة أوضاع التسليم الصالحة لمجموعة القناة والصنف وعنوان التسليم. يتم تحديد أوضاع التسليم هذه في صفحة **أوضاع التسليم** في المراكز الرئيسية (**المبيعات والتسويق \> الإعداد \> التوزيع \> أوضاع التسليم**). قد تظهر أيضًا أوضاع التسليم "بدون ناقل"، مثل **تنفيذ** أو **التقاط**، للتحديد في مربع الحوار.
 
 ومع ذلك، تمت إضافة ميزة تتيح لك إخفاء أوضاع التسليم بدون ناقل في مربع الحوار. لتشغيل هذه الميزة، في الصفحة **معلمات Commerc** ، في علامة التبويب **أوامر العميل** ، عيِّن الخيار **إظهار خيارات وضع الناقل لأوامر الشحن فقط** على **نعم**. بعد تشغيل هذه الميزة وتشغيل مهام التوزيع المناسبة لمزامنة المعلومات في قاعده بيانات القناة، لن تظهر أوضاع التسليم بدون ناقل للتحديد اثناء عملية إنشاء أوامر الشحن في نقطه البيع (POS).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

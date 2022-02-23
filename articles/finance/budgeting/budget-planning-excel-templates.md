@@ -2,9 +2,11 @@
 title: قوالب تخطيط الموازنة لـ Excel
 description: يوضح هذا الموضوع كيفية إنشاء قوالب Microsoft Excel التي يمكن استخدامها مع خطط الموازنة.
 author: panolte
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11c98768d08ef28d436bfc63812321e7c7787a72
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775160"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019269"
 ---
 # <a name="budget-planning-templates-for-excel"></a>قوالب تخطيط الموازنة لـ Excel
 
@@ -37,17 +39,17 @@ ms.locfileid: "6775160"
 1. افتح **قائمة خطط الموازنة** (**الموازنة** &gt; **خطط الموازنة**). 
 2. انقر فوق **جديد** لإنشاء مستند خطة موازنة جديد. 
 
-   [![قائمة خطط الموازنة.](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![قائمة خطط الموازنة](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. استخدم خيار سطر **إضافة** لإضافة السطور. انقر فوق **تخطيطات** لعرض تكوين تخطيط مستند خطة الموازنة. 
 
-   [![إضافة خطط الموازنة.](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![إضافة خطط الموازنة](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 يمكنك مراجعة تكوين التخطيط وتعديله وفقًا لما هو مطلوب. 
 1. انتقل إلى **قالب** &gt; **إنشاء** لإنشاء ملف Excel لهذا التخطيط. 
 2. بعد إنشاء القالب، انتقل إلى **قالب** &gt; **عرض** لفتح ومراجعة قالب مستند خطة الموازنة. يمكنك حفظ ملف الـ Excel في المحرك المحلي. 
 
-[![حفظ باسم.](./media/bpt3-1024x545.png)](./media/bpt3.png)
+[![حفظ باسم](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > تعذر تحرير تخطيط مستند خطة الموازنة بعد اقتران قالب Excel بالمستند. لتعديل التخطيط، احذف ملف قالب Excel المقترن، وقم بإعادة الإنشاء. يتطلب هذا الاحتفاظ بالحقول في التخطيط، ومزامنة ورقة العمل. 
@@ -64,19 +66,20 @@ ms.locfileid: "6775160"
 
 وجّه المؤشر إلى الموقع المطلوب في ملف Excel. انقر فوق **إضافة تسمية** لإضافة تسمية الحقل إلى الموقع المحدد. حدد **"إضافة قيمة"** لإضافة قيمة الحقل إلى الموضع المحدد. انقر فوق **تم** لإغلاق المصمم.
 
-## <a name="select-add-valuemediabpt7png"></a>[![تحديد إضافة قيمة.](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![تحديد إضافة قيمة](./media/bpt7.png)](./media/bpt7.png)
 
-## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>إضافة عمود محسوب إلى جدول قالب مستند خطة الموازنة
+<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>إضافة عمود محسوب إلى جدول قالب مستند خطة الموازنة
+--------------------------------------------------------------
 
 التالي، سوف تتم إضافة الأعمدة المحسوبة إلى قالب مستند خطة الموازنة الذي تم إنشاؤه. عمود **إجمالي الطلب**، والذي يلخص طلب ربع1: أعمدة طلب ربع4، وعمود **التسوية**، والذي يقوم بإعادة حساب عمود **"إجمالي الطلب"** من خلال عامل محدد مسبقًا.
 
 انقر فوق **تصميم** في **موصل البيانات** لإضافة الأعمدة إلى الجدول. انقر فوق **تحرير** الموجود بجوار مصدر بيانات **BudgetPlanWorksheet** لبدء إضافة أعمدة.
 
-[![بدء إضافة الأعمدة.](./media/bpt8-1024x301.png)](./media/bpt8.png) 
+[![بدء إضافة الأعمدة](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
 تعرض مجموعة الحقل المحدد الأعمدة المتوفرة في القالب. انقر فوق **معادلة** لإضافة عمود جديد. قم بتسمية العمود الجديد، ثم قم بلصق المعادلة داخل حقل **المعادلة**. انقر فوق **تحديث** لإدراج عمود.
 
-[![إضافة عمود وإدراجه.](./media/bpt12-1024x565.png)](./media/bpt12.png)
+[![إضافة عمود وإدراجه](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
 > لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**. عادة ما يتم تسمية جدول العمليات المرتبطة لـ Finance and Operations باسم "AXTable1". على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].
@@ -85,11 +88,11 @@ ms.locfileid: "6775160"
 
 قم بحفظ ملف Excel وإغلاقه. في **التخطيطات**، انقر فوق **قالب &gt; تحميل** لتحميل قالب Excel المحفوظ ليتم استخدامه لخطة الموازنة. 
 
-[![تحميل قالب Excel.](./media/bpt10-1024x352.png)](./media/bpt10.png) 
+[![تحميل قالب Excel](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
 إغلاق شريط تمرير **تخطيطات**. في مستند **خطة الموازنة**، انقر فوق **ورقة عمل** لعرض وتحرير المستند في Excel. لاحظ أنه تم استخدام قالب Excel المعدل لإنشاء ورقة عمل خطة الموازنة هذه، ويتم تحديث الأعمدة المحسوبة باستخدام المعادلات التي تم تحديدها في الخطوات السابقة. 
 
-[![عرض المستند وتحريره في Excel.](./media/bpt111-1024x431.png)](./media/bpt111.png)
+[![عرض المستند وتحريره في Excel](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
 ## <a name="tips--tricks-for-creating-budget-plan-templates"></a>تلميحات ونصائح حول إنشاء قوالب خطة الموازنة
 ### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>هل يمكنني إضافة واستخدام مصادر بيانات إضافية إلى قالب خطة الموازنة؟
@@ -102,21 +105,21 @@ ms.locfileid: "6775160"
 
 نعم، قم بفتح خيارات **"موصل البيانات"** لإخفاء خيار **تصميم** من مستخدمين آخرين.
 
-[![خيارات موصل البيانات المفتوحة.](./media/bpt13-1024x565.png)](./media/bpt13.png)
+[![خيارات موصل البيانات المفتوحة](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
 قم بتوسيع **خيارات موصل البيانات** ومسح خانة اختيار **تمكين التصميم**. وسوف يقوم هذا بإخفاء خيار **التصميم** من **موصل البيانات**.
 
-[![إخفاء خيار التصميم من موصل البيانات.](./media/bpt14-1024x592.png)](./media/bpt14.png)
+[![إخفاء خيار التصميم من موصل البيانات](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
 ### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>هل يمكنني منع المستخدمين من إغلاق موصل البيانات عن طريق الخطأ أثناء العمل مع البيانات؟
 
 نوصي بغلق القالب لمنع المستخدمين من إغلاقه. لتشغيل خاصية "التأمين"، انقر فوق **موصل البيانات**، سوف يظهر سهم في الزاوية اليمنى العليا. 
 
-[![تشغيل التأمين.](./media/bpt15-1024x285.png)](./media/bpt15.png) 
+[![تشغيل التأمين](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
 انقر فوق السهم لقائمة إضافية. حدد **تأمين**.
 
-### <a name="select-lockmediabpt16png"></a>[![تحديد تأمين.](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![تحديد تأمين](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>هل يمكنني استخدام ميزات Excel الأخرى، مثل تنسيق الخلايا، والألوان والتنسيق الشرطي والمخططات مع قوالب خطة الموازنة؟
 
@@ -126,6 +129,3 @@ ms.locfileid: "6775160"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: عرض التقارير المالية
 description: يصف هذا الموضوع كيفية عرض واستكشاف التقارير المالية في Microsoft Dynamics 365 Finance. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
 author: kweekley
+manager: AnnBe
 ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 485d8f0aee791aa577432947d74b08caf484da0a3056d8119579e9d659ca3d57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c368259af9454af94da217585b2a1d01ea75d834
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730496"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439949"
 ---
 # <a name="view-financial-reports"></a>عرض التقارير المالية
 
@@ -28,7 +31,8 @@ ms.locfileid: "6730496"
 
 يصف هذا الموضوع كيفية عرض واستكشاف التقارير المالية. وهي تتضمن معلومات حول مختلف الخيارات التي يمكنك تطبيقها على التقارير المالية لتغيير مظهرها والبيانات التي تتضمنها.
 
-## <a name="financial-reporting-overview"></a>نظرة عامة على التقارير المالية
+<a name="financial-reporting-overview"></a>نظرة عامة على التقارير المالية
+----------------------------
 
 ## <a name="open-a-financial-report"></a>فتح تقرير مالي
 لفتح تقرير، حدد اسم التقرير. وفي المرة الأولى التي يتم فيها فتح تقرير، يتم إنشاؤه تلقائياً للشهر الماضي. على سبيل المثال، إذا قمت بفتح تقرير لأول مرة في أغسطس عام 2015، فيتم إنشاء التقرير لتاريخ 31 يوليو 2015. بعد فتح تقرير، يمكنك بدء استكشافه بالتنقل في قطع معينة من البيانات وتغيير خيارات التقرير.
@@ -75,13 +79,11 @@ ms.locfileid: "6730496"
 ## <a name="export-a-financial-report"></a>تصدير تقرير مالي
 لتصدير تقرير مالي، في "جزء الإجراءات"، انقر فوق **تصدير**. يتم تصدير التقرير إلى Microsoft Excel، ويطالبك المستعرض بفتح الملف المصدّر أو حفظه. يتم تطبيق إعدادات التصدير التي تم تحديدها في تصميم التقرير على التقرير الذي تم تصديره.    
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
-[التقارير المالية](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
-
-
-
+[التقارير المالية](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

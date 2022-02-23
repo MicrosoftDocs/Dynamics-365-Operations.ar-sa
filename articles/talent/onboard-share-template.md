@@ -71,6 +71,3 @@ ms.locfileid: "4460258"
 - [ما الجديد أو المتغير‬ في Dynamics 365 Talent](./whats-new.md)
 - [خطط الإصدارات](https://docs.microsoft.com/business-applications-release-notes/index)
 - [الحصول على دعم لـ Microsoft Dynamics 365 Talent](./talent-support.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

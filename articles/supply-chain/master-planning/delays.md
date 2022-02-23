@@ -1,27 +1,30 @@
 ---
 title: التأخيرات
 description: يوفر هذا الموضوع معلومات حول التواريخ المتأخرة في التخطيط الرئيسي. التاريخ المتأخر هو تاريخ استحقاق واقعي تتلقاه الحركة إذا كان أقرب تاريخ تنفيذ يحسبه التخطيط الرئيسي أحدث من التاريخ المطلوب.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e89830feea12b4f5703e0eda622729887dd9bf46
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: da09d670fd952d885f013693b6362cf9002343ff
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573743"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421613"
 ---
 # <a name="delays"></a>التأخيرات
 
@@ -52,9 +55,7 @@ ms.locfileid: "7573743"
 
 في صفحة **الأمر المخطط**، ضمن علامة التبويب **تأخيرات** يوجد **التاريخ المطلوب‬** للأمر المخطط. يعتبر التاريخ المطلوب للأمر المخطط التاريخ الأساسي للتأخيرات، وهو تاريخ محسوب يساوي **التاريخ المطلوب** المحسوب من **صافي المتطلبات**. إذا كان الأمر المخطط عبارة عن بند في قائمة مكونات الصنف أو بند إنتاج أو بند كانبان، فإن التاريخ المطلوب يستند إلى **تاريخ الطلب** ولن يظهر التاريخ المطلوب في صفحة **الأمر المخطط**.
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [إعدادات التغطية](coverage-settings.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

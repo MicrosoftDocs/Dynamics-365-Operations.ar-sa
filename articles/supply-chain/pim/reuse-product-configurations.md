@@ -1,27 +1,30 @@
 ---
 title: إعادة استخدام تكوينات المنتجات
 description: يمكنك تحديد إن كنت تريد إعادة استخدام تكوين موجود لمنتج تلقائيًا. بعد ذلك، عندما يكمل المستخدم جلسة العمل المخصصة للتكوين، يتحقق النظام مما إذا كان هناك أي تكوين يتطابق مع تحديدات المستخدم. إذا تم العثور على تكوين مطابق، فسيُعاد استخدام معرف التكوين وقائمة مكونات الصنف المطابقة (BOM) والمسار.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 201813
 ms.assetid: 4985e308-7824-41fc-83fd-fd0bdae888e3
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0898bd1832fa7007fc3aa265beee2e930f157a39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd6d730528522f4074b6e2a3ce6059cc12ff5a0f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577398"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421137"
 ---
 # <a name="reuse-product-configurations"></a>إعادة استخدام تكوينات المنتجات
 
@@ -29,7 +32,8 @@ ms.locfileid: "7577398"
 
 يمكنك تحديد إن كنت تريد إعادة استخدام تكوين موجود لمنتج تلقائيًا. بعد ذلك، عندما يكمل المستخدم جلسة العمل المخصصة للتكوين، يتحقق النظام مما إذا كان هناك أي تكوين يتطابق مع تحديدات المستخدم. إذا تم العثور على تكوين مطابق، فسيُعاد استخدام معرف التكوين وقائمة مكونات الصنف المطابقة (BOM) والمسار.
 
-## <a name="requirements-for-reusing-configurations"></a>متطلبات إعادة استخدام التكوينات
+<a name="requirements-for-reusing-configurations"></a>متطلبات إعادة استخدام التكوينات
+---------------------------------------
 
 لتمكين إعادة استخدام التكوينات، يجب تحديد المعلومات التالية للمكونات والسمات في صفحة **تفاصيل نموذج تكوين المنتج‬**:
 
@@ -41,6 +45,3 @@ ms.locfileid: "7577398"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

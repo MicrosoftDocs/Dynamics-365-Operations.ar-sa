@@ -2,24 +2,27 @@
 title: إنشاء وتشغيل من التقارير الجاهزة
 description: استخدم دليل المهام هذا لتشغيل التقارير الجاهزة‬ في المقر الرئيسي من مساحات عمل مختلفة واستعلامات وتقارير المبيعات ضمن Commerce.
 author: ashishmsft
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailCategoryAndProductWorkspace, RetailOrgHierarchyTreeLookup, SrsReportViewerForm
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 27dc29109693c06913c8107e27e79a48cf2c9db7146ff3a5919305366641af3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d148fa36a116860af8c44043d90759b8a2d76fb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774451"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409923"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>إنشاء وتشغيل من التقارير الجاهزة
 
@@ -36,7 +39,7 @@ ms.locfileid: "6774451"
 4. في الحقل "من تاريخ"، أدخل تاريخًا.
 5. في الحقل "إلى تاريخ"، أدخل تاريخًا.
 6. في حقل "القناة"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-7. في الشجرة، حدد 'Contoso Retail\Contoso Retail USA\Central\Houston'.
+7. في الشجرة، حدد "Contoso Retail\Contoso Retail USA\Central\Houston".
     * يوضح ذلك التدرج الهرمي الافتراضي لمؤسسات Commerce لأغراض إعداد ‏‫تقارير البيع بالتجزئة‬.   انتقل إلى ‏‫إدارة المؤسسة > المؤسسات >‬ ‏‫أغراض التدرج الهرمي للمؤسسات‬ واختر ‏‫"تقارير Commerce"‬، وضمن ‏‫"التدرجات الهرمية المعينة"‬، حدد ‏‫اسم التدرج الهرمي الذي سيتم تحديد العمود الافتراضي له. كجزء من بيانات العرض التوضيحي‬ (المستخدمة لتسجيل هذه المهمة) ستلاحظ أن "المتاجر حسب المنطقة" هو التدرج الهرمي الافتراضي للمؤسسات لأغراض إعداد ‏‫التقارير.     
 8. انقر فوق موافق.
 9. في حقل "عرض"، حدد خيارًا.
@@ -48,7 +51,7 @@ ms.locfileid: "6774451"
 2. في الحقل "من تاريخ"، أدخل تاريخًا.
 3. في الحقل "إلى تاريخ"، أدخل تاريخًا.
 4. في حقل "القناة"، انقر فوق زر القائمة المنسدلة لفتح البحث.
-5. في الشجرة، حدد 'Contoso Retail\Contoso Retail USA\West\Seattle'.
+5. في الشجرة، حدد "Contoso Retail\Contoso Retail USA\West\Seattle".
     * يوضح ذلك التدرج الهرمي الافتراضي لمؤسسات Commerce لأغراض إعداد ‏‫تقارير البيع بالتجزئة‬. انتقل إلى ‏‫إدارة المؤسسة > المؤسسات >‬ ‏‫أغراض التدرج الهرمي للمؤسسات‬ واختر ‏‫"تقارير Commerce"‬، وضمن ‏‫"التدرجات الهرمية المعينة"‬، حدد ‏‫اسم التدرج الهرمي الذي سيتم تحديد العمود الافتراضي له. كجزء من بيانات العرض التوضيحي‬ (المستخدمة لتسجيل هذه المهمة) ستلاحظ أن "المتاجر حسب المنطقة" هو التدرج الهرمي الافتراضي للمؤسسات لأغراض إعداد ‏‫التقارير.     
 6. انقر فوق موافق.
 7. انقر فوق موافق.
@@ -61,6 +64,3 @@ ms.locfileid: "6774451"
 5. انقر فوق "تصدير".
 6. انقر فوق "ملف PDF‬".
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

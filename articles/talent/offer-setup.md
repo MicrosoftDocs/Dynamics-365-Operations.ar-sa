@@ -209,6 +209,3 @@ ms.locfileid: "4460200"
 
 
 لمزيد من المعلومات حول عملية إنشاء العرض، راجع [إنشاء العروض والموافقة والتوقيع عليها](./creating-offers.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

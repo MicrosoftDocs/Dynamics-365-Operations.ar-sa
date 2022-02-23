@@ -1,24 +1,26 @@
 ---
 title: إنشاء تدرج هرمي لتصنيف منتج
 description: يوضح هذا الإجراء كيفية إنشاء تدرج هرمي جديد للفئة وتعيين نوع تدرج هرمي لكود السلعة.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole, EcoResProductCategory, EcoResCategorySearchList, EcoResCategoryHierarchyFactbox, EcoResCategoryFriendlyName, EcoResCategoryAddProduct
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb561647efcc21a8287d8246024fb468b8a79a71
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 74be72ac5787273e13692abdb9db18be4c5ccc08
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567093"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966945"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>إنشاء تدرج هرمي لتصنيف منتج
 
@@ -64,6 +66,3 @@ ms.locfileid: "7567093"
 8. في القائمة، انقر فوق الارتباط في الصف المحدد.
 9. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

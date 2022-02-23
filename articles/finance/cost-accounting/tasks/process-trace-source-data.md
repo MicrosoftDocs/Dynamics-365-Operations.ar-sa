@@ -2,22 +2,25 @@
 title: معالجة وتتبع مصدر البيانات
 description: يتم تشغيل كافة عمليات معالجة البيانات بواسطة المهام.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa4daff2d35ecfc9d2be171167683679b1e6db5698f9d04c13edf773253590d2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a23443c985ac681c8c31956ae5ea3e513337577
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775880"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440079"
 ---
 # <a name="process-and-trace-source-data"></a>معالجة وتتبع مصدر البيانات
 
@@ -42,6 +45,3 @@ ms.locfileid: "6775880"
     * لهذا المثال، حدد المالية 2017 الفترة 9.  
 14. انقر فوق "موافق".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

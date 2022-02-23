@@ -1,25 +1,28 @@
 ---
 title: إعداد سيناريو لذكاء IoT
 description: يوضح هذا الموضوع كيفية تكوين سيناريوهات لذكاء IoT في Microsoft Dynamics 365 Supply Chain Management.
-author: tonyafehr
+author: robinarh
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: d1deaa2130b63272da39a42315c6a1bc4b7ccb8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782417"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421618"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>إعداد سيناريو لذكاء IoT
 
@@ -42,7 +45,7 @@ ms.locfileid: "7782417"
 لتكوين السيناريو، اتبع هذه الخطوات.
 
 1. سجل دخولك إلى Supply Chain Management.
-2. قم بتمكين علامة ميزة ذكاء IoT. لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+2. قم بتمكين علامة ميزة ذكاء IoT. لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة الميزات](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 3. تكوين المقاييس. لمزيد من المعلومات، راجع [كيفية تكوين المقاييس](iot-metrics-setup.md#configure-metrics).
 4. انتقل إلى **التحكم بالإنتاج \> الإعداد \> ذكاء IoT \> إدارة السيناريوهات‬‏‫**.
 6. على اللوحة **وقت تعطل المعدات**، حدد **تكوين** لفتح معالج التكوين.
@@ -140,6 +143,3 @@ ms.locfileid: "7782417"
 2. في لوحة السيناريو، حدد **تكوين**.
 3. حدد **التالي** للانتقال إلى صفحة المعالج الأخيرة.
 4. عيّن خيار تعطيل السيناريو.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

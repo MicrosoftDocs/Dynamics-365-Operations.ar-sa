@@ -1,24 +1,26 @@
 ---
 title: إخطارات تنبيه‬ العميل بالبريد الإلكتروني
 description: يوفر هذا الموضوع معلومات حول كيفية إعداد القواعد التي ترسل إخطارات بالبريد الإلكتروني عند وقوع أحداث معرّفة مسبقًا.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 4e2205ba3bdf5ec2a4e6d9390007eaf1098293c3dd2a5b2ff1b3c73c7de5a83f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734604"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798613"
 ---
 # <a name="client-alert-notifications-by-email"></a>إخطارات تنبيه‬ العميل بالبريد الإلكتروني
 
@@ -36,7 +38,7 @@ ms.locfileid: "6734604"
 
 تُظهر الصورة التالية مربع الحوار **إنشاء قاعدة تنبيه**، الذي يتضمن الآن الخيار **إرسال بريد إلكتروني**.
 
-[![مربع الحوار "إنشاء قاعدة تنبيه"، حيث تم تعيين الخيار "إرسال بريد إلكتروني" إلى "نعم".](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![مربع الحوار "إنشاء قاعدة تنبيه"، حيث تم تعيين الخيار "إرسال بريد إلكتروني" إلى "نعم"](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > عند تعيين الخيار **إرسال بريد إلكتروني** إلى **نعم**، سيستمر تسليم الإخطارات بالبريد الإلكتروني من مركز الإجراءات.
@@ -47,7 +49,4 @@ ms.locfileid: "6734604"
 
 تُظهر الصورة التالية بنية إخطارات التنبيه عند استلامها بالبريد الإلكتروني.
 
-[![إخطارات تنبيه تستند إلى قوالب لإنشاء السجلات وإجراء تغييرات في الحقول وحذف القوالب.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[![إخطارات تنبيه تستند إلى قوالب لإنشاء السجلات وإجراء تغييرات في الحقول وحذف القوالب](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)

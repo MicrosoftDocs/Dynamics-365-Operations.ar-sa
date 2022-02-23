@@ -1,25 +1,28 @@
 ---
 title: تسوية الشحن يدويًا
 description: يوضح هذا الإجراء كيفية تسوية الشحن يدويًا.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSFreightBillDetail, TMSInvoiceTable, TMSFreightBillInvoiceReconcile, TMSInvoiceJournal, LedgerJournalTable, LedgerJournalTransDaily, TMSFBDetailReconcile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1342f8b26d3f629c9fe4439761ffc26372dce061
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fc4fc51955544df4d0156a4c83bcc5b5a0e13df3
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573095"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421742"
 ---
 # <a name="reconcile-freight-manually"></a>تسوية الشحن يدويًا
 
@@ -58,6 +61,3 @@ ms.locfileid: "7573095"
 5. انقر لمتابعة الارتباط الوارد في الحقل "رقم دفتر يومية المرجع‬".
 6. انقر فوق البنود.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,8 +2,11 @@
 title: SPLITLIST ER وظيفة
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية SPLITLIST (ER).
 author: NickSelin
-ms.date: 03/15/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0b548173a01cc5a15fcfb743dfb29397c1349b3c2926fa6401399459d07026
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776112"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680328"
 ---
 # <a name="splitlist-er-function"></a>SPLITLIST ER وظيفة
 
@@ -27,16 +30,10 @@ ms.locfileid: "6776112"
 
 تقسم الوظيفة `SPLITLIST` القائمة المُحددة إلى قوائم فرعية (أو دفعات)، تحتوي كل واحدة منها على العدد المُحدد من السجلات. ثم يقوم بإرجاع النتيجة كقيمة *قائمة سجلات* جديدة التي تتكون من الدفعات.
 
-## <a name="syntax-1"></a>بناء الجملة 1
+## <a name="syntax"></a>بناء الجملة
 
 ```vb
 SPLITLIST (list, number)
-```
-
-## <a name="syntax-2"></a>بناء الجملة 2
-
-```vb
-SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>الوسائط
@@ -48,10 +45,6 @@ SPLITLIST (list, number, on-demand reading flag)
 `number`: *عدد صحيح*
 
 أقصى عدد للسجلات لكل دفعة.
-
-`on-demand reading flag`: *منطقي*
-
-*قيمة منطقية* القيمة التي تحدد ما إذا كان يجب إنشاء عناصر القوائم الفرعية عند الطلب.
 
 ## <a name="return-values"></a>إرجاع القيم
 
@@ -71,8 +64,6 @@ SPLITLIST (list, number, on-demand reading flag)
 
     عدد الدفعات الحالية في القائمة المُرتجعة.
 
-عند تعيين علامة القراءة عند الطلب على **True**، يتم إنشاء القوائم الفرعية عند الطلب مما يسمح بتقليل استهلاك الذاكرة ولكن قد يتسبب في تدهور الأداء إذا لم يتم استخدام العناصر بشكل تسلسلي.
-
 ## <a name="example"></a>مثال
 
 في الرسم التوضيح التالي، يتم إنشاء مصدر بيانات **الخطوط** كقائمة سجلات تحتوي على ثلاث سجلات. يتم تقسيم هذه القائمة إلى دُفعات، يحتوي كل منها على ما يصل إلى سجلين.
@@ -90,6 +81,3 @@ SPLITLIST (list, number, on-demand reading flag)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دالات القائمة](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,50 +1,47 @@
 ---
-title: نظام المساعدة (يحتوي على فيديو)
-description: يوفر هذا الموضوع نظرة عامة حول نظام التعليمات لتطبيقات التمويل والعمليات.
+title: نظام التعليمات
+description: يوفر هذا الموضوع نظرة عامة حول نظام التعليمات لتطبيقات Finance and Operations.
 author: edupont04
-ms.date: 07/20/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 05/11/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
+ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070491"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695129"
 ---
 # <a name="help-system"></a>نظام التعليمات
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 يمكن لمستخدمي التطبيقات التالية الوصول إلى تعليمات تتبع السياق والمحتوى الآخر الذي يستند إلى نفس نظام التعليمات.
 
-- Dynamics 365 Commerce
+- Microsoft Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
 
 في جميع هذه التطبيقات يمكنك الوصول إلى تعليمات خاصة بالمنتج من جزء **التعليمات**.
 
-![جزء التعليمات.](./media/help-pane-ops-help.png)
+![جزء التعليمات](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>تعليمات حول docs.microsoft.com
 
-الموقع docs.microsoft.com ([docs.microsoft.com/dynamics365/](/dynamics365/)) هو المصدر الافتراضي لوثائق المنتج للتطبيقات المذكورة في السابق. يوفر هذا الموقع الميزات التالية:
+الموقع docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) هو المصدر الافتراضي لوثائق المنتج للتطبيقات المذكورة في السابق. يوفر هذا الموقع الميزات التالية:
 
 - **الوصول إلى أحدث محتوى**– يوفر الموقع لـ Microsoft طريقة أسرع وأكثر مرونةً لإنشاء وتسليم وتحديث وثائق المنتج. ولذلك، سيكون بإمكانك الوصول بسهولة إلى أحدث المعلومات التقنية.
 - **المحتوى الذي كتبه الخبراء** – المحتوى على الموقع مفتوح للمساهمات من أعضاء المجتمع من داخل شركة Microsoft ومن خارجها.
@@ -53,20 +50,9 @@ ms.locfileid: "8070491"
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>الحصول على إعلام بشأن التغييرات من خلال موجز RSS
 
-للاشتراك في موجز المشاركة البسيطة للغاية (RSS) لكافة التحديثات الخاصة بالمحتوى الموجود على docs.microsoft.com من خلال تطبيقات التمويل والعمليات، استخدم الارتباط التالي:
+للاشتراك في موجز المشاركة البسيطة للغاية (RSS) لكافة التحديثات الخاصة بالمحتوى الموجود على docs.microsoft.com، استخدم الارتباط التالي:
 
-[موجز RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
-
-> [!NOTE]
-> تغذية RSS بإرجاع قائمة المواضيع 100 أحدث تحديث. لا يتم فرز القائمة حسب التاريخ.  
-
-بدلا من ذلك، يمكنك الاشتراك في موجز RSS حسب التطبيق:
-
-- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
-- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
-- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [سلسلة التوريد](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+[موجز RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="leave-us-feedback"></a>تقديم الملاحظات
 
@@ -76,7 +62,7 @@ ms.locfileid: "8070491"
 
 2. ابدأ كتابة تعليقاتك، ثم حدد **إرسال الملاحظات**.
 
-    ![نشر تعليق.](./media/feedback.png)
+    ![نشر تعليق](./media/feedback.png)
 
 > [!NOTE]
 > إذا كنت ترغب في إرسال ملاحظات الوثائق، فيجب عليك تسجيل الدخول باستخدام حساب GitHub. لمزيد من المعلومات، راجع [إعداد ملف تعريف GitHub وإدارته](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -89,7 +75,7 @@ ms.locfileid: "8070491"
 
 تم تضمين الفيديو [كيفية المساهمة في وثائق Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (مبيّن أعلاه) في قناة Microsoft Dynamics365 في YouTube.
 
-لمزيد من المعلومات، راجع [دليل مساهم المستندات](/contribute)، الذي نشره الفريق الذي قام ببناء موقع docs.microsoft.com.
+لمزيد من المعلومات، راجع [دليل مساهم المستندات](https://docs.microsoft.com/contribute)، الذي نشره الفريق الذي قام ببناء موقع docs.microsoft.com.
 
 > [!NOTE]
 > لا نقبل في الوقت الحالي غير المساهمات في المحتويات التابعة لنا باللغة الإنجليزية.
@@ -100,11 +86,11 @@ ms.locfileid: "8070491"
 
 أصدرت Microsoft مكتبات دلائل مهام لإصدارات المنتجات من خلال إصدار ديسمبر 2017 من Dynamics 365 for Finance and Operations. يوضح قسم [الوصول إلى دلائل المهام من جزء التعليمات](#accessing-task-guides-from-the-help-pane) في هذا الموضوع كيفية البحث عن دلائل المهام الصحيحة لمنتجك.
 
-![طريقة عرض قراءة دليل المهام.](./media/task-guide-ops.png)
+![طريقة عرض قراءة دليل المهام](./media/task-guide-ops.png)
 
 لبدء تجربة إرشادية تفاعلية، حدد **بدء دليل مهمة** في أسفل جزء **التعليمات**. يوضح لك المؤشر الأسود المكان الذي يجب أن تذهب إليه أولاً. اتبع الإرشادات التي تظهر في واجهة المستخدم (UI)، وأدخل البيانات على النحو المطلوب.
 
-![إرشادات خطوة بخطوة في دليل المهام.](./media/task-guide-step-1-ops.png)
+![إرشادات خطوة بخطوة في دليل المهام](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > إن البيانات التي تقوم بإدخالها عند تشغيل دليل المهمة هي بيانات حقيقية. إذا كنت في بيئة إنتاج، فسيتم إدخال البيانات في الشركة التي تقوم باستخدامها حاليًا.
@@ -117,7 +103,7 @@ ms.locfileid: "8070491"
 
 للوصول إلى محتوى التعليمات، حدد زر **التعليمات** (**؟**) ، ثم حدد **التعليمات**. بدلاً من ذلك، اضغط على **Ctrl+Shift+?**. وفي كلتا الحالتين، يظهر جزء **التعليمات**. من جزء **التعليمات**، يمكنك الوصول إلى الموضوعات التصورية أو دلائل المهام المتعلقة بمنطقة المنتج التي تتواجد فيها حاليًا.
 
-![جزء التعليمات.](./media/help-pane-ops-help.png)
+![جزء التعليمات](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>الوصول إلى مواضيع التعليمات من جزء التعليمات
 
@@ -134,13 +120,13 @@ ms.locfileid: "8070491"
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -148,7 +134,7 @@ On the **System parameters** page, follow these steps:
 
 بعد أن يكمل مسؤول النظام هذه الخطوات، يمكنك فتح جزء **التعليمات** وتحديد علامة تبويب **دلائل المهام**. سترى الآن دلائل المهام التي تنطبق على الصفحة التي تعمل عليها حاليًا. إذا لم تعثر على دلائك المهام، فيمكنك إدخال كلمات أساسية لتنقية البحث. بعد تحديد **دليل مهمة** في جزء التعليمات، يعرض جزء **التعليمات** إرشادات خطوة بخطوة، ويمكنك تشغيل دليل المهمة.
 
-![طريقة عرض قراءة دليل المهام.](./media/task-guide-ops.png)
+![طريقة عرض قراءة دليل المهام](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>أين توجد دلائل المهام المترجمة لمكتبات Microsoft؟
 
@@ -171,14 +157,10 @@ On the **System parameters** page, follow these steps:
 | الموقع | ‏‏الوصف |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | يستضيف هذا الموقع أو يرتبط بكافة وثائق المنتج لـ Dynamics 365. |
-| [Microsoft Learn](/learn/) | هذا الموقع هو موقع التعليم الإلكتروني المجاني من Microsoft. |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | هذا الموقع هو موقع التعليم الإلكتروني المجاني من Microsoft. |
 | [Microsoft DynamicsLifecycle Services ‏(LCS)](https://lcs.dynamics.com/)\* | يوفر هذا الموقع مساحة عمل تعاونية قائمة على السحابة يستطيع العملاء والشركاء استخدامها لإدارة مشاريع بدءًا من مرحلة ما قبل البيع حتى التنفيذ والعمليات. وهو مفيد في كافة مراحل التنفيذ. |
 | [مدونة الدعم](https://aka.ms/AXSupportBlog) | يوفر هذا الموقع تلميحات ونصائح ينشرها فريق دعم . |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | يستضيف هذا الموقع محتوى من الإصدارات السابقة. |
 | [مجتمع Dynamics](https://community.dynamics.com/) | يستضيف هذا الموقع المدونات والمنتديات ومقاطع الفيديو. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | يوفر هذا الموقع معلومات التقييم والمبيعات. |
-
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | يستضيف هذا الموقع الموارد التدريبية والتقارير القابلة للتنزيل، والمستندات التقنية، وهو موقع الدعم الأساسي لأصحاب خطة الخدمة. قد يتطلب الوصول إلى بعض الموارد على هذا الموقع خطة خدمة. |

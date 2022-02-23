@@ -1,37 +1,38 @@
 ---
 title: مزامنة معلومات مستوى المخزون من Supply Chain Management إلى Field Service
 description: يناقش هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات المعلومات على مستوى المخزون من Dynamics 365 Supply Chain Management إلى Dynamics 365 Field Service.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1228339c12d26f7b91875d15f0daa8da2869cba0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060935"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421251"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>مزامنة معلومات مستوى المخزون من Supply Chain Management إلى Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-
-
 يناقش هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات المعلومات على مستوى المخزون من Dynamics 365 Supply Chain Management إلى Dynamics 365 Field Service.
 
-[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 يتم استخدام القوالب والمهام الأساسية التالية لمزامنة مستويات المخزون الفعلي من Supply Chain Management إلى Field Service.
@@ -50,7 +51,7 @@ ms.locfileid: "8060935"
 
 | Field Service                      | Supply Chain Management                |
 |------------------------------------|----------------------------------------|
-| msdynce_externalproductinventories | المخزون الفعلي حسب المستودع Dataverse     |
+| msdynce_externalproductinventories | مخزون CDS الفعلي حسب المستودع     |
 
 ## <a name="entity-flow"></a>تدفق الكيان
 يتم إرسال معلومات على مستوى المخزون من Finance and Operations إلى Field Service لمنتجات محددة. تتضمن المعلومات على مستوى المخزون: 
@@ -67,7 +68,7 @@ ms.locfileid: "8060935"
 يمكن مراقبة المنتجات والمستودعات حيث تستند مستويات المخزون إلى Supply Chain Management بواسطة وظائف الاستعلام والتصفية المتقدمة (Power Query).
 
 > [!NOTE]
-> من الممكن إنشاء عدة مستودعات في Field Service (مع تعيين الخيار **تتم المحافظة عليها خارجيًا = لا**) ثم تعيينها إلى مستودع واحد في Supply Chain Management، باستخدام وظائف التصفية والاستعلام المتقدمة. يتم استخدام هذا الإجراء في الحالات التي تريد فيها أن تعمل Field Service كأساس على مستوى المخزون المفصل وفقط إرسال تحديثات إلى Supply Chain Management. في هذه الحالة، لن تحصل Field service على تحديثات على مستوى المخزون من Supply Chain Management. للحصول على معلومات إضافية، راجع [مزامنة عمليات تسوية المخزون من Field Service إلى Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) و[مزامنة أوامر العمل في Field Service إلى أوامر المبيعات المرتبطة بالمشروع في Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> من الممكن إنشاء عدة مستودعات في Field Service (مع تعيين الخيار **تتم المحافظة عليها خارجيًا = لا**) ثم تعيينها إلى مستودع واحد في Supply Chain Management، باستخدام وظائف التصفية والاستعلام المتقدمة. يتم استخدام هذا الإجراء في الحالات التي تريد فيها أن تعمل Field Service كأساس على مستوى المخزون المفصل وفقط إرسال تحديثات إلى Supply Chain Management. في هذه الحالة، لن تحصل Field service على تحديثات على مستوى المخزون من Supply Chain Management. للحصول على معلومات إضافية، راجع [مزامنة عمليات تسوية المخزون من Field Service إلى Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) و[مزامنة أوامر العمل في Field Service إلى أوامر المبيعات المرتبطة بالمشروع في Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>حل Field Service CRM
 يُستخدم كيان **مخزون المنتج الخارجي** فقط لواجهة التكامل الخلفية. ويتلقى هذا الكيان قيم مستوى المخزون من Supply Chain Management في التكامل، ثم يحوّل هذه القيم إلى دفاتر يومية المخزون اليدوي، الذي يحوّل عندئذٍ منتجات المخزون في المستودع.
@@ -89,7 +90,4 @@ ms.locfileid: "8060935"
 
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>مخزون المنتج (Supply Chain Management إلى Field Service): مخزون المنتج
 
-[![تعيين القالب في تكامل البيانات.](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![تعيين القالب في تكامل البيانات](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

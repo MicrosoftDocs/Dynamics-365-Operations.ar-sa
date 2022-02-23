@@ -2,28 +2,29 @@
 title: قوالب حمل العمل
 description: يصف هذا الموضوع كيفية إعداد قوالب حمل وكيفية إقران قالب تحميل بشحنة جديدة.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 694860d1ade74f9fd51a8ac579aa69fe7fb673a8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea7f5244b483a1b9d6c55227c676a3878a71d83
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569903"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646356"
 ---
 # <a name="load-templates"></a>قوالب حمل العمل
-
-[!include [banner](../../includes/banner.md)]
 
 عند إنشاء تحميل جديد ، يمكنك تعيين قالب تحميل. يحتوي قالب التحميل علي معلومات حول المعدات ، وحول المقاييس مثل الارتفاع والعرض والعمق وحجم الحمل.
 
@@ -53,6 +54,3 @@ ms.locfileid: "7569903"
 1. في جزء الإجراءات، في علامة التبويب **العرض والطلب**، في مجموعة **إضافة**، حدد **إلى حمل جديد**.
 1. في مربع الحوار **قالب الحمل**، في الحقل **معرف قالب الحمل** حدد القالب المطلوب تطبيقه.
 1. حدد **موافق** لتطبيق القالب.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

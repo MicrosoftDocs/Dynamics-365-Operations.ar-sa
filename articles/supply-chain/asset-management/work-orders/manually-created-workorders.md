@@ -1,10 +1,12 @@
 ---
 title: أوامر العمل المنشأة يدويًا
 description: يوضح هذا الموضوع كيفية إنشاء أوامر العمل يدويًا في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750090"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017858"
 ---
 # <a name="manually-created-work-orders"></a>أوامر العمل التي تم إنشاؤها يدويًا
 
@@ -111,7 +113,7 @@ ms.locfileid: "6750090"
 
 يوضح الرسم التوضيحي المبين أدناه مثال لمربع حوار **إنشاء أمر عمل مرتبط‬** .
 
-![الشكل 1.](media/03-work-orders.png)
+![الشكل 1](media/03-work-orders.png)
 
 >[!NOTE]
 >إذا قمت بإعداد قناع أمر عمل مرتبط في **معلمات إدارة الأصول‬** > **علامة تبويب أوامر العمل** > حقل **قناع أمر العمل المرتبط** ، يتم إنشاء معرفات أمر العمل وفقًا لإعداد القناع. إذا لم يتم إعداد قناع أمر عمل مرتبط، يُستخدم معرف أمر العمل التالي المتاح لأوامر العمل المرتبطة.
@@ -137,7 +139,7 @@ ms.locfileid: "6750090"
 
 يبين الرسم التوضيحي التالي مثالاً لمربع الحوار **نسخ أمر العمل**.
 
-![الشكل 2.](media/04-work-orders.png)
+![الشكل 2](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>إنشاء أمر عمل استنادً إلى طلب صيانة
@@ -157,12 +159,9 @@ ms.locfileid: "6750090"
 
 يبين الرسم التوضيحي التالي مثالاً لمربع الحوار **إنشاء أمر العمل** .
 
-![الشكل 3.](media/05-work-orders.png)
+![الشكل 3](media/05-work-orders.png)
 
 
 >[!NOTE]
 >إذا كنت ترغب في إنشاء أوامر العمل تلقائيًا، يمكنك جدولة مهام خطط الصيانة، أو يمكنك إعداد "الإنشاء التلقائي" لـ [خطط الصيانة](../preventive-and-reactive-maintenance/maintenance-plans.md) أو [دورات الصيانة](../preventive-and-reactive-maintenance/maintenance-rounds.md) على أحد الأصول. يكون لأوامر العمل المنشأة من طلبات صيانة في صفحة القائمة **جدول الصيانة بكامله** أنواع مهام الصيانة المحددة في طلبات الصيانة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

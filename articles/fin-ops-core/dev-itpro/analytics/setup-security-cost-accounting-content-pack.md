@@ -1,10 +1,12 @@
 ---
 title: إعداد الأمان لمحتوى "تحليل محاسبة التكاليف" في Power BI
-description: يشرح هذا الموضوع كيفية نشر مستوى الوصول الآمن في محاسبة التكاليف إلى الأمان على مستوى الصف في Microsoft Power BI.
+description: يشرح هذا الموضوع كيفية نشر مستوى الوصول الآمن في محاسبة التكاليف إلى الأمان على مستوى الصف في Microsoft Power BI. تضمن هذه الوظيفة ألا يشاهد المستخدم سوى بيانات Power BI التي مُنح إمكانية الوصول لها.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,14 +16,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751481"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682179"
 ---
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>إعداد الأمان لمحتوى Power BI لتحليل محاسبة التكاليف
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>إعداد الأمان لمحتوى "تحليل محاسبة التكاليف" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -29,7 +31,7 @@ ms.locfileid: "6751481"
 
 ## <a name="overview"></a>نظرة عامة
 
-يستخدم محتوى **تحليل محاسبة التكاليف** في Microsoft Power BI الأمان على مستوى الصف في Power BI لتقييد وصول المستخدم. يستند الأمان على التدرج الهرمي المؤسسي لمستوى الوصول الذي تم إعداده في معلمات محاسبة التكاليف. لمزيد من المعلومات حول محتوى **تحليل محاسبة التكاليف** في Power BI، راجع [محتوى "تحليل محاسبة التكاليف" في Power BI](cost-accounting-analysis-content-pack.md).
+يستخدم محتوى **تحليل محاسبة التكاليف** في Microsoft Power BI يستخدم الأمان على مستوى الصف في Power BI لتقييد وصول المستخدم. يستند الأمان على التدرج الهرمي المؤسسي لمستوى الوصول الذي تم إعداده في معلمات محاسبة التكاليف. لمزيد من المعلومات حول محتوى **تحليل محاسبة التكاليف** في Power BI، راجع [محتوى "تحليل محاسبة التكاليف" في Power BI](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>الإعداد
 لنشر مستوى الوصول الآمن إلى Power BI، يجب على مالك محتوى Power BI اتباع الخطوات التالية.
@@ -42,11 +44,11 @@ ms.locfileid: "6751481"
 3. العثور على قاعدة بيانات **تحليل محاسبة التكاليف** في Power BI.
 4. فتح صفحة الأمان.
 
-    ![فتح صفحة الأمان.](./media/CA-picture-1.png)
+    ![فتح صفحة الأمان](./media/CA-picture-1.png)
 
 5. **مراقب كائن التكلفة** قد تم إنشاؤه بالفعل. إضافة أعضاء آخرين يشكلوا جزءًا من التدرج الهرمي المؤسسي لمستوى الوصول لمحاسبة التكاليف.
 
-    ![إضافة الأعضاء.](./media/CA-picture-2.png)
+    ![إضافة الأعضاء](./media/CA-picture-2.png)
 
 سوف يرى المستخدمون الذين تم إضافتهم إلى دور **مراقب كائن التكلفة** البيانات المسموح لهم برؤيتها فقط، وفقًا للتعريف في التدرج الهرمي المؤسسي لمستوى الوصول لمحاسبة التكاليف.
 
@@ -61,6 +63,3 @@ ms.locfileid: "6751481"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 لمزيد من المعلومات حول الأمان على مستوى الصف في Power BI، راجع [إدارة الأمان على النموذج في Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

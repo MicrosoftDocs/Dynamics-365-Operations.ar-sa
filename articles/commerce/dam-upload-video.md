@@ -1,13 +1,16 @@
 ---
 title: تحميل مقاطع فيديو
-description: يصف هذا الموضوع كيفية تحميل الفيديوهات في منشئ موقع Microsoft Dynamics 365 Commerce.
+description: يصف هذا الموضوع كيفية تحميل مقاطع الفيديو في منشئ موقع Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 06/09/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735620"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594298"
 ---
-# <a name="upload-videos"></a>تحميل مقاطع فيديو
+# <a name="upload-videos"></a>تحميل مقاطع الفيديو
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية تحميل الفيديوهات في منشئ موقع Microsoft Dynamics 365 Commerce.
+يصف هذا الموضوع كيفية تحميل مقاطع الفيديو في منشئ موقع Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 تسمح لك مكتبة وسائط منشئ موقع Commerce بتحميل مقاطع الفيديو. يجب أن تقوم دائمًا بتحميل إصدار فيديو بأعلى معدل بت ودقة، إذ سيتم تحويل الفيديو بشكل تلقائي بحيث يكون ملائمًا لمنافذ عرض مختلفة ونقاط التوقف الخاصة بها.
 
@@ -35,7 +40,7 @@ ms.locfileid: "6735620"
 عند تحميل مقطع فيديو ، يمكن تحديد المعلومات التالية.
 
 - **العنوان والوصف والكلمات الأساسية**: بيانات تعريف الفيديو.
-- **إنشاء تسميات توضيحية مغلقة تلقائيًا**: تحديد ما إذا كان يجب إنشاء تسميات توضيحية مغلقة تلقائيًا للفيديو (في حالة تدعيم اللغة الإنجليزية فقط). 
+- **إنشاء تسميات توضيحية مغلقة تلقائيًا**: تحديد ما إذا كان يجب إنشاء تسميات توضيحية مغلقة تلقائيًا للفيديو.
 - **تسمية توضيحية مغلقة**: تحديد التسميات التوضيحية المغلقة‏‎ التي سيتم استخدامها.
 - **صوت عادي**: تحديد مسار الصوت العادي المطلوب استخدامه.
 - **صورة مصغرة**: تحديد صورة مصغرة للفيديو. إذا لم يتم تحديدها، فسيتم إنشاؤها تلقائيًا.
@@ -68,6 +73,3 @@ ms.locfileid: "6735620"
 [تخصيص نقاط تركيز الصورة](dam-custom-focal-point.md)
 
 [تحميل الملفات الثابتة وخدمتها](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

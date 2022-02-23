@@ -1,27 +1,30 @@
 ---
 title: إنشاء تنبؤ أساسي إحصائي
 description: يوفر هذا الموضوع معلومات حول المعلمات وعوامل التصفية التي يتم استخدامها في حساب التنبؤ بالطلب.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f34f1721b6215ac09173a346c1f3f1e6b262247
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577518"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421611"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>إنشاء تنبؤ أساسي إحصائي
 
@@ -67,13 +70,11 @@ ms.locfileid: "7577518"
 > [!NOTE]
 > يمكن أن يكون التنبؤ المحتمل ذو الشكل الثابت بسبب البيانات المحفوظة التي يجب أن تكون من إطار زمني تاريخي أطول (على سبيل المثال، 3 فترات زمنية بحد أدنى من أجل انتقاء الأنماط، مثل 3 سنوات بتنبؤ شهري). للحصول على نتيجة أفضل، يمكنك محاولة تغيير سمة النقاوة للنطاق الزمني أو زيادة نطاق زمني.
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 - [إعداد التنبؤ بالطلب](demand-forecasting-setup.md)
 
 - [القيام بتسويات يدوية في التنبؤ الأساسي](manual-adjustments-baseline-forecast.md)
 
 - [تخويل ‏‫التنبؤ الذي تمت تسويته](authorize-adjusted-forecast.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: تحديث موازنات الصيانة
 description: يشرح هذا الموضوع كيفية تحديث موازنة الصيانة في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 87c054cb96d56e40e35ee44142396f59d61395263ff41232423f6c7911478b0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724930"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021005"
 ---
 # <a name="update-maintenance-budgets"></a>تحديث موازنات الصيانة
 
@@ -72,6 +74,3 @@ ms.locfileid: "6724930"
 
 - أنت تعلم أن تجديد بعض الأصول هو في مرحلة التخطيط في الوقت الحالي، ولكن لم يتم بعد إنشاء المهام ذات الصلة في إدارة الأصول. ومع ذلك، فأنت ترغب في تضمين تكاليف الموازنة لهذه المهام في موازنة الصيانة.
 - تم إنشاء أصول أو أنواع أصول جديدة منذ قيامك بوضع موازنة الصيانة، ولكن لم يتم بعد إعداد خطط الصيانة على هذه الأصول أو أنواع الأصول. ومع ذلك، فأنت ترغب في تضمين تكاليف أنواع الأصول هذه في موازنة الصيانة.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,19 +2,28 @@
 title: استخدام محرك التسعير لـ Dynamics 365 Commerce مع Dynamics 365 Sales
 description: يصف هذا الموضوع كيفية استخدام محرك التسعير في Microsoft Dynamics 365 Commerce لإنشاء عروض أسعار المبيعات في Dynamics 365 Sales.
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: shajain
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-11-03
+ms.openlocfilehash: fad5c21d75db62b85efe803f1667dd3f9164a5fc
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416745"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594908"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>استخدام محرك التسعير لـ Dynamics 365 Commerce مع Dynamics 365 Sales
 
@@ -24,7 +33,7 @@ ms.locfileid: "7416745"
 
 يدعم محرك التسعير في Dynamics 365 Commerce معظم سيناريوهات التسعير من الشركات إلى المستهلك (B2C)، مثل التسعير على مستوى المتجر، والتسعير المستند إلى الانتماء والقائم على الولاء، وخصومات المزيج والمطابقة، وخصومات الكمية، وخصومات الحد الأدنى. يستخدم محرك التسعير قواعد معقدة لتحديد أفضل سعر لعرض أسعار أو أمر معين.
 
-عند استخدام [الكتابة الثنائية](./dual-write-overview.md)، تتوفر لديك ثلاثه خيارات لاحتياجات التسعير الخاصة بك. يمكنك استخدام التسعير الثابت الذي يأتي من قائمة الأسعار في Dynamics 365 Sales أو محرك التسعير في Dynamics 365 Supply Chain Management أو محرك التسعير في Dynamics 365 Commerce. من بين هذه الخيارات، يعد محرك التسعير التجاري الأنسب لسيناريوهات العمل إلى المستهلك.
+عند استخدام [الكتابة الثنائية](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview)، تتوفر لديك ثلاثه خيارات لاحتياجات التسعير الخاصة بك. يمكنك استخدام التسعير الثابت الذي يأتي من قائمة الأسعار في Dynamics 365 Sales أو محرك التسعير في Dynamics 365 Supply Chain Management أو محرك التسعير في Dynamics 365 Commerce. من بين هذه الخيارات، يعد محرك التسعير التجاري الأنسب لسيناريوهات العمل إلى المستهلك.
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>استخدام محرك التسعير التجاري في Sales
 
@@ -35,7 +44,7 @@ ms.locfileid: "7416745"
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-- قبل أن تتمكن من استخدام محرك تسعير Commerce في Sales، يجب عليك اتباع الخطوات الواردة في [العميل المتوقع إلى النقدية في الكتابة المزدوجة](./dual-write-prospect-to-cash.md).
+- قبل أن تتمكن من استخدام محرك تسعير Commerce في Sales، يجب عليك اتباع الخطوات الواردة في [العميل المتوقع إلى النقدية في الكتابة المزدوجة](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/).
 - يجب عليك إيقاف تشغيل تقييم الاتفاقية التجارية للإدخال اليدوي باتباع الخطوات التالية:
 
     1. في بيئة Commerce، انتقل إلى **الحسابات المدينة\> إعداد \>معلمات الحسابات المدينة**.
@@ -43,7 +52,4 @@ ms.locfileid: "7416745"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[العميل المتوقع إلى النقدية في الكتابة المزدوجة](./dual-write-prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[العميل المتوقع إلى النقدية في الكتابة المزدوجة](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)

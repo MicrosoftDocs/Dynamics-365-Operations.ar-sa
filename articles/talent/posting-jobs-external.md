@@ -102,6 +102,3 @@ ms.locfileid: "4460254"
 [إنشاء الوظائف والموافقة عليها ونشرها في Attract](./creating-jobs-attract.md)
 
 [تمكين تكامل Broadbean في Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

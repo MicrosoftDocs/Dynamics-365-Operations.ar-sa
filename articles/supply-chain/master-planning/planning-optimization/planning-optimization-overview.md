@@ -2,25 +2,29 @@
 title: نظرة عامة على تحسين التخطيط‬
 description: يقدم هذا الموضوع نظرة عامة على وظيفة تحسين التخطيط.
 author: ChristianRytt
+manager: tfehr
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49da88be9faff8f327f8079245b3c07db79308e6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 110045d4c7e4f32c29b73096dd4df3a09b5434ac
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983432"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421149"
 ---
 # <a name="planning-optimization-overview"></a>نظرة عامة على تحسين التخطيط‬
 
@@ -32,7 +36,7 @@ ms.locfileid: "7983432"
 
 يبين الرسم التوضيحي التالي ميزه تحسين أداء التخطيط اثناء ساعات العمل.
 
-![فائدة تشغيل تحسين التخطيط أثناء ساعات العمل.](media/PlanningOptimization1.png)
+![فائده من تشغيل تحسين التخطيط اثناء ساعات العمل.](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>تحسين الأداء
 
@@ -61,7 +65,7 @@ ms.locfileid: "7983432"
 
 يبين الرسم التوضيحي التالي تدفق البيانات.
 
-![تدفق البيانات لعمليات تشغيل إعادة الإنشاء.](media/PlanningOptimization2.png)
+![تدفق البيانات لعمليات تشغيل إعادة الإنشاء](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>الموارد ذات الصلة
 
@@ -74,6 +78,3 @@ ms.locfileid: "7983432"
 [تطبيق عوامل تصفية على خطة](plan-filters.md)
 
 [إلغاء وظيفة تخطيط](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

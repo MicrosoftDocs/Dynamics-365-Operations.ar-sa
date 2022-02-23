@@ -2,30 +2,35 @@
 title: تمكين المشاركة عبر القنوات واستخدامها
 description: يوضح هذا الموضوع كيفيه تمكين ميزه مشاركه القناة المتقاطعة لمنشئ مواقع Microsoft Dynamics 365 Commerce واستخدامها.
 author: psimolin
+manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742406"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4410021"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>تمكين المشاركة عبر القنوات واستخدامها
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفيه تمكين ميزه مشاركه القناة المتقاطعة لمنشئ مواقع Microsoft Dynamics 365 Commerce واستخدامها.
+
+## <a name="overview"></a>نظرة عامة
 
 مشاركه القناة المشتركة لنفرض ان البائعين يقومون باعاده استخدام المحتوي ومشاركته بين عبر القنوات من أحد المواقع. وتكون هذه الامكانيه مفيده عندما يكون لقناات الموقع لغة أساسيه متوافقة، أو عندما يكون لديها عناصر محتوي متعددة مشتركه.
 
@@ -48,15 +53,15 @@ ms.locfileid: "6742406"
 1. انتقل إلى **إعدادات الموقع \> الميزات**.
 1. قم بتعيين الخيار لميزه **القناة المتداخلة** على **تشغيل**.
 
-    ![تم تعيين خيار عبر القنوات على التشغيل في منشئ موقع التجارة.](./media/enabling-cross-channel-sharing.png)
+    ![تم تعيين خيار عبر القنوات علي التشغيل في منشئ موقع التجارة](./media/enabling-cross-channel-sharing.png)
 
 بعد تمكين المشاركة عبر القنوات، ستظهر المعلومات عبر القنوات في مقطع **القنوات** في **إعدادات الموقع\>الميزات**، كما في المثال الموجود في التوضيح التالي.
 
-![معلومات القنوات مرئية بعد تمكين المشاركة عبر القنوات.](./media/channels-cross-channel.png)
+![معلومات القنوات مرئية بعد تمكين المشاركة عبر القنوات](./media/channels-cross-channel.png)
 
 بالاضافه إلى ذلك، بعد تمكين المشاركة عبر القنوات، سيتضمن حقل **القناة** الموجود في اعلي اليمين من منشئ موقع التجارة خيار **مخزن القناة عبر الإنترنت** الذي يمكنك استخدامه لأداره محتوي القناة المتقاطعة، كما هو مبين في التوضيح التالي.
 
-![خيار مخزن عبر القنوات على الإنترنت في حقل القنوات بعد تمكين المشاركة عبر القنوات.](./media/cross-channel-dropdown.png)
+![خيار مخزن عبر القنوات على الإنترنت في حقل القنوات بعد تمكين المشاركة عبر القنوات](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>إنشاء محتوى عبر القنوات واستخدامه
 
@@ -132,6 +137,3 @@ ms.locfileid: "6742406"
 [حالات المستند ودورة الحياة](document-states-overview.md)
 
 [العمل مع مجموعات النشر](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

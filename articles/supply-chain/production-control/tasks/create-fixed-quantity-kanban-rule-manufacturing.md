@@ -1,25 +1,28 @@
 ---
 title: إنشاء قاعدة كانبان الكمية الثابتة للتصنيع
 description: يركز هذا الإجراء على الإعداد المطلوب لإنشاء قاعدة كانبان تصنيع ثابتة لبدء أنشطة التحويل وفي خلية عمل وفي البيئة محدودة الفاقد.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16299427a8a6c74e43d7f0eb3ecb3edf4a8f08f0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 24eb705bf2de0d175a8a03a4e89ad11c51f15d15
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576870"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421091"
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>إنشاء قاعدة كانبان الكمية الثابتة للتصنيع
 
@@ -71,6 +74,3 @@ ms.locfileid: "7576870"
     * سيؤدي هذا إلى إنشاء 5 كانبان.  
     * لاحظ أنه تم إنشاء 5 كانبان، لكل منها 10، لقاعدة كانبان التصنيع هذه. وهذه هي الخطوة الأخيرة في هذا الإجراء.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

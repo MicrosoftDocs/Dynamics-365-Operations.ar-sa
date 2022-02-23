@@ -1,27 +1,30 @@
 ---
 title: ‏‫إعدادات الأوامر الافتراضية‬ للأبعاد ومتغيرات المنتج
 description: تحدد إعدادات الأوامر الافتراضية الموقع والمستودع من حيث تؤخذ الأصناف أو حيث يتم تخزينها، والحد الأدنى من الكميات وحدها الأقصى ومضاعفاتها والكميات القياسية التي سيتم استخدامها للتجارة أو إدارة المخزون وزمن وصول البضاعة وعلامة الإيقاف وأسلوب التعهد بالأمر‬.
-author: johanhoffmann
+author: t-benebo
+manager: tfehr
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778097"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421661"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات
 
@@ -115,7 +118,7 @@ ms.locfileid: "7778097"
 
 خذ في الاعتبار مثال المنتج التالي.
 
-| الصنف                                                | قيمة                                   |
+|                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
 | **اسم المنتج**                                    | مستشعر كهربائي ضوئي                    |
 | **رقم العنصر**                                     | XW56                                    |
@@ -188,7 +191,7 @@ ms.locfileid: "7778097"
 
 ### <a name="enable-the-strict-validation-option"></a>تمكين خيار التحقق من الصحة الصارم
 
-اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
+قبل أن تتمكن من استخدام خيار التحقق من الصحة الصارم، يجب تمكينه في النظام. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
 
 - **الوحدة النمطية** - *إدارة معلومات المنتج*
 - **اسم الميزة** - *التحقق من الصحة الصارم من كميات الأوامر الافتراضية*
@@ -201,6 +204,3 @@ ms.locfileid: "7778097"
 1. في علامة التبويب **عام**، قم بتعيين **التحقق من كميات الأوامر الافتراضية‬‏‫** إلى إحدى القيم التالية:
     - **صارم** - حدد هذا الخيار لضمان أن تكون جميع قيم **كمية الأمر القياسية** عبارة ع مضاعف لقيمة **المضاعف** لكل علامة تبويب سريعة (**أمر الشراء** و **المخزون** و **أمر المبيعات**).
     - **قياسي** - حدد هذا الخيار لاستخدام التحقق من الصحة (الذي يعمل بنفس الطريقة عندما لا تكون هذه الميزة ممكّنة).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

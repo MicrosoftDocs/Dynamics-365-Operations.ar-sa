@@ -2,24 +2,27 @@
 title: تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (WMS)
 description: يوضح هذا الدليل كيفية تكوين إعداد الموقع لمستودع جديد يدعم نظام إدارة المستودعات (WMS) (مستودع يستخدم عمليات إدارة مستودعات متقدمة).
 author: perlynne
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 31f016c4c8b8b08139836336ac38196fbd1fba6f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599338"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421235"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>تكوين المواقع في مستودع يدعم نظام إدارة المستودعات‬ (WMS)
 
@@ -33,7 +36,7 @@ ms.locfileid: "7599338"
 2. انقر فوق **جديد**.
 3. في الحقل **المستودع**، اكتب قيمة.
 4. في الحقل **الاسم**، اكتب قيمة.
-5. في الحقل **الموقع** ، حدد قيمه موقع موجودة أو اكتبها.
+5. اكتب قيمة في الحقل **الموقع**.
 6. قم بتوسيع قسم **المستودع**.
 7. قم بتعيين الخيار **استخدام عمليات إدارة المستودعات** إلى "نعم". يتيح لك هذا الإعداد تشغيل عمليات التخزين المتقدمة باستخدام عمل المستودع والأجهزة المحمولة.
 8. قم بإغلاق الصفحة.
@@ -172,6 +175,3 @@ ms.locfileid: "7599338"
 6. في القائمة، انقر فوق الارتباط في الصف المحدد.
 7. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

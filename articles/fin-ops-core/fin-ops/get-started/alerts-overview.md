@@ -1,24 +1,26 @@
 ---
-title: نظرة عامة على التنبيهات (تحتوي على فيديو)
+title: نظرة عامة على التنبيهات
 description: يقدم هذا الموضوع معلومات عامة حول التنبيهات. يمكنك استخدام التنبيهات للتعرف على الأحداث التي تريد تعقبها أثناء يوم العمل.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/04/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984958"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798565"
 ---
 # <a name="alerts-overview"></a>نظرة عامة على التنبيهات
 
@@ -77,15 +79,12 @@ ms.locfileid: "7984958"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-تم تضمين الفيديو [كيفيه استخدام التنبيهات لمراقبة البيانات المصفاة‬](https://youtu.be/ZYKMcv6kl9s) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.
+تم تضمين الفيديو [كيفيه استخدام التنبيهات لمراقبة البيانات المصفاة](https://youtu.be/ZYKMcv6kl9s) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة في YouTube.
 
 ### <a name="alert-rule-options"></a>خيارات قواعد التنبيه
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-تم تضمين الفيديو [خيارات قواعد التنبيه](https://youtu.be/cpzimwOjicM) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.
+تم تضمين الفيديو [خيارات قواعد التنبيه](https://youtu.be/cpzimwOjicM) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة في YouTube.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

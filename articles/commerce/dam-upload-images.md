@@ -1,10 +1,12 @@
 ---
-title: تحميل صور
+title: تحميل الصور
 description: يصف هذا الموضوع كيفية تحميل الصور في منشئ موقع Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 12/03/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,18 +17,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891498"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963000"
 ---
-# <a name="upload-images"></a>تحميل صور
+# <a name="upload-images"></a>تحميل الصور
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية تحميل الصور في منشئ موقع Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 تسمح لك مكتبة وسائط منشئ موقع Commerce بتحميل الصور، أو بشكل فردي أو بشكل مجمع باستخدام المجلدات. يجب أن تقوم دائمًا بتحميل إصدار الصورة الأعلى دقة وجودة، لأن مكون تغيير حجم الصورة سيقوم تلقائيًا بتحسين الصورة لمنافذ عرض مختلفة ونقاط التوقف الخاصة بها.
 
@@ -41,8 +45,7 @@ ms.locfileid: "7891498"
 - **نشر الأصول بعد التحميل**: عند تحديد خانة الاختيار هذه، يتم نشر الصورة أو الصور مباشرةً بعد التحميل.
 
 > [!NOTE]
-> - يتم أيضًا تمييز صور الأصول ذات فئة معينة لها بشكل تلقائي بواسطة الفئة ككلمة أساسية للمساعدة في البحث عن أصول خاصة بفئة معينة.
-> - تقوم صفحات تفاصيل المنتج بإنشاء **النص البديل** باستخدام اسم المنتج بشكل ديناميكي، لذلك لن يكون لتغيير **النص البديل** لصورة منتج أي تاثير على الصورة المعروضة.
+> يتم أيضًا تمييز صور الأصول ذات فئة معينة لها بشكل تلقائي بواسطة الفئة ككلمة أساسية للمساعدة في البحث عن أصول خاصة بفئة معينة.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>اصطلاحات التسمية لصور القناة متعددة الاتجاهات 
 
@@ -53,17 +56,9 @@ ms.locfileid: "7891498"
 - يجب تسمية صور الفئات "**/Categories/\{CategoryName\}.png**"
 - يجب تسمية صور العملاء "**/Customers/\{CustomerNumber\}.jpg**"
 - يجب تسمية صور الموظفين "**/Workers/\{WorkerNumber\}.jpg**"
-- يجب تسمية صور المنتجات باسم "**/Products/\{ProductNumber\}\_000_001.png**"
+- يجب تسمية صور المنتجات "**/Products/\{ProductNumber\}_000_001.png**"
     - يمثل 001 تسلسل الصورة ويمكنها أن يكون 001 أو 002 أو 003 أو 004 أو 005
-- يجب تسمية صور متغيرات المنتجات "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - على سبيل المثال: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
-- يجب تسمية صور متغيرات المنتجات مع بُعد التكوين باسم "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
-    - على سبيل المثال: 93039 \^ LB8017_000_001.png
-
-> [!NOTE]
-> بالنسبة لصور متغيرات المنتج، إذا كانت قيمة البعد فارغة، يجب أن يكون هناك مسافتان بين علامات الإقحام في اسم الملف.
-
-تستخدم الأمثلة أعلاه التكوين الافتراضي. يمكن تكوين حرف الفاصل والأبعاد وقد تختلف التسمية الدقيقة المطلوبة بين عمليات النشر. تتمثل إحدى طرق تحديد اصطلاح التسمية الدقيق المطلوب في استخدام وحدة تحكم مطور المستعرض لفحص طلبات صور متغير المنتج أثناء تغيير أبعاد المنتج في صفحة تفاصيل المنتج لواجهة المتجر (PDP).
+- يجب تسمية صور متغيرات المنتجات "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
 
 ## <a name="upload-an-image"></a>تحميل صورة
 
@@ -101,6 +96,3 @@ ms.locfileid: "7891498"
 [تخصيص نقاط تركيز الصورة](dam-custom-focal-point.md)
 
 [تحميل الملفات الثابتة وخدمتها](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

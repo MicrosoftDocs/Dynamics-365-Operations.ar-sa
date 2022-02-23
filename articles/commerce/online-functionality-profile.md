@@ -2,9 +2,11 @@
 title: إنشاء ملف تعريف الوظائف عبر الإنترنت
 description: يوضح هذا الموضوع كيفية إنشاء ملف تعريف وظائف على الإنترنت في Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b0afeabfecb60672156692f3cd809445624020c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716182"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969966"
 ---
-# <a name="create-an-online-functionality-profile"></a>إنشاء ملف تعريف وظائف على الإنترنت
+# <a name="create-an-online-functionality-profile"></a>إنشاء ملف تعريف الوظائف عبر الإنترنت
+
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة حول اعداد ملف تعريف الوظائف عبر الإنترنت لـ Microsoft Dynamics 365 Commerce.
+يقدم هذا الموضوع نظره عامه حول اعداد ملف تعريف الوظائف عبر الإنترنت لـ Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 يوفر ملف تعريف الوظائف عبر الإنترنت الإعدادات المتنوعة المستخدمة للقنوات عبر الإنترنت. يجب ان تحدد كل قناه عبر الإنترنت ملف تعريف وظائف عبر الإنترنت.
 
@@ -42,7 +47,7 @@ ms.locfileid: "6716182"
 
 تعرض الصورة التالية مثالاً لملف تعريف الوظائف على الإنترنت.
   
-![مثال لملف تعريف الوظائف على الإنترنت.](media/online-functionality-profile.png)
+![مثال لملف تعريف الوظائف على الإنترنت](media/online-functionality-profile.png)
 
 ## <a name="functions"></a>الوظائف
 
@@ -61,6 +66,3 @@ ms.locfileid: "6716182"
 [إعداد قناة بيع بالتجزئة](channel-setup-retail.md)
 
 [إعداد قناة مركز اتصال](channel-setup-callcenter.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

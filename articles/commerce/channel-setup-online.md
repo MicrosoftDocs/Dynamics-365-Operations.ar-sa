@@ -1,31 +1,37 @@
 ---
-title: إعداد قناة على الإنترنت
+title: إعداد قناة عبر الإنترنت
 description: يوضح هذا الموضوع كيفية إنشاء قناة جديدة عبر الإنترنت في Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 02/04/2022
+manager: annbe
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092102"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4410043"
 ---
-# <a name="set-up-an-online-channel"></a>إعداد قناة على الإنترنت
+# <a name="set-up-an-online-channel"></a>إعداد قناة عبر الإنترنت
+
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية إنشاء قناة جديدة عبر الإنترنت في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 يدعم Dynamics 365 Commerce عدة قنوات بيع بالتجزئة. وتتضمن قنوات البيع بالتجزئة هذه المتاجر على إنترنت، ومراكز الاتصال، ومتاجر البيع بالتجزئة (تعرف أيضًا بالمتاجر التقليدية). تمنح المتاجر على الإنترنت للعملاء خيار شراء المنتجات من متجر عبر الإنترنت تابع لبائع التجزئة عبر الإنترنت بالإضافة إلى متاجره للبيع بالتجزئة.
 
@@ -52,15 +58,11 @@ ms.locfileid: "8092102"
 
 توضح الصورة التالية إنشاء جديدة عبر الإنترنت.
 
-![قناة جديدة عبر الإنترنت.](media/channel-setup-online-1.png)
+![قناة جديدة عبر الإنترنت](media/channel-setup-online-1.png)
 
 تعرض الصورة التالية مثالاً لقناة عبر الإنترنت.
 
-![مثال لقناة عبر الإنترنت.](media/channel-setup-online-2.png)
-
-## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>تعيين القناة إلى Commerce Scale Unit
-
-يجب أن تكون القناة الجديدة معينة إلى Commerce Scale Unit. للحصول على الإرشادات، راجع [تكوين القنوات لاستخدام Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
+![مثال لقناة عبر الإنترنت](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>إعداد اللغات
 
@@ -68,7 +70,7 @@ ms.locfileid: "8092102"
 
 ## <a name="set-up-payment-account"></a>إعداد حساب الدفع
 
-من خلال القسم **حساب الدعم**، يمكنك إضافة موفر دفع خارجي. للحصول على معلومات حول إعداد موصل الدفع Adyen، راجع [موصل دفع Dynamics 365 لـ Adyen‬](./dev-itpro/adyen-connector.md).
+من خلال القسم **حساب الدعم**، يمكنك إضافة موفر دفع خارجي. للحصول على معلومات حول إعداد موصل الدفع Adyen، راجع [موصل دفع Dynamics 365 لـ Adyen‬](../retail/dev-itpro/adyen-connector.md).
 
 ## <a name="additional-channel-setup"></a>إعداد إضافي للقناة
 
@@ -76,7 +78,7 @@ ms.locfileid: "8092102"
 
 تُظهر الصورة التالية خيارات إعداد **أوضاع التسليم** و **طرق الدفع** و **تعيين مجموعة التنفيذ** على علامة تبويب **الإعداد‏‎**.
 
-![إجراءات إعداد إضافية لقناة عبر الإنترنت.](media/channel-setup-online-3.png)
+![إجراءات إعداد إضافية لقناة عبر الإنترنت](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>إعداد طرق الدفع
 
@@ -91,7 +93,7 @@ ms.locfileid: "8092102"
 
 تعرض الصورة التالية مثالاً عن طريقة الدفع النقدي.
 
-![أمثلة عن طرق الدفع.](media/channel-setup-retail-5.png)
+![أمثلة عن طرق الدفع](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>إعداد أوضاع التسليم
 
@@ -105,7 +107,7 @@ ms.locfileid: "8092102"
 
 تعرض الصورة التالية مثالاً لوضع التسليم.
 
-![إعداد أوضاع التسليم.](media/channel-setup-retail-7.png)
+![إعداد أوضاع التسليم](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>إعداد تعيين مجموعة تنفيذ
 
@@ -119,19 +121,16 @@ ms.locfileid: "8092102"
 
 تعرض الصورة التالية مثالاً لإعداد تعيين مجموعة تنفيذ.
 
-![إعداد تعيين مجموعة تنفيذ.](media/channel-setup-retail-9.png)
+![إعداد تعيين مجموعة تنفيذ](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظره عامة حول القنوات](channels-overview.md)
+[نظرة عامة على القنوات](channels-overview.md)
 
-[المتطلبات الأساسية لإعداد القناة](channels-prerequisites.md)
+[المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
 
 [إعداد قناة بيع بالتجزئة](channel-setup-retail.md)
 
 [إعداد قناة مركز اتصال](channel-setup-callcenter.md)
 
-[موصل دفع Dynamics 365 لـ Adyen](./dev-itpro/adyen-connector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[موصل دفع Dynamics 365 لـ Adyen](../retail/dev-itpro/adyen-connector.md)

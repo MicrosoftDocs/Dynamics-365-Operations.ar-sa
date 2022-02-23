@@ -1,10 +1,12 @@
 ---
 title: تثبيت الأصول في مواقع العمل
 description: يوضح هذا الموضوع كيفية تثبيت الأصول في مواقع العمل في "إدارة الأصول".
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775737"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022020"
 ---
 # <a name="install-assets-on-functional-locations"></a>تثبيت الأصول في مواقع العمل
 
@@ -80,6 +82,3 @@ ms.locfileid: "6775737"
 1. في الصفحة **جميع مواقع العمل**، تأكد من أن موقع العمل حيث تريد إنشاء الأصل تلقائيًا يستخدم نوع موقع العمل الذي قمت بإنشائه لهذا الغرض.
 2. حدد موقع العمل في القائمة.
 3. حدد **تحديث حالة موقع العمل**، ثم حدد حالة دورة الحياة التي قمت بإنشائها لهذا الغرض. يتم الآن التثبيت التلقائي لأصل واحد في موقع العمل. يحصل هذا الأصل على نفس اسم موقع العمل.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

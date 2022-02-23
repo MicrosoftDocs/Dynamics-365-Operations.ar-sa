@@ -1,26 +1,29 @@
 ---
 title: إعداد القسائم لمبيعات البيع بالتجزئة
-description: يوفر هذا الموضوع نظرة عامة على القسائم ويشرح كيفية إعدادها في Dynamics 365 Commerce.
-author: josaw1
-ms.date: 10/05/2021
+description: يوفر هذا الموضوع نظرة عامة على القسائم ويشرح كيفية إعدادها.
+author: scott-tucker
+manager: AnnBe
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
-ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7603111"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409821"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>إعداد القسائم لمبيعات البيع بالتجزئة
 
@@ -38,10 +41,6 @@ ms.locfileid: "7603111"
 
 > [!NOTE]
 > بعد ربط قسيمة بخصم، تصبح عدة حقول في صفحة الخصم في Commerce للقراءة فقط، نظرًا لإدارتها من خلال إعدادات القسيمة. تتضمن هذه الحقول حقول الحالة ونطاقات التاريخ القياسية.
-> 
-> أثناء استخدام القسيمة في قناة مركز الاتصال، يجب تحديد الزر **إعادة حساب** **(علامة التبويب "بيع" > حساب > إعادة حساب)** كي يتم تطبيق الخصم المقترن بالقسيمة. ستتم إزالة هذه الخطوة الإضافية في إصدار مستقبلي.
-
-لتطبيق قسيمة علي حركه مبيعات في نقطه البيع (POS) ، يمكنك استخدام **كود القسيمة** أو **الكود الشريطي لقسيمة**. لاستخدام **رمز القسيمة** ، يجب تكوين عمليه **أضافه كود القسيمة** في تخطيط شاشه **حركه** [نقطه البيع](pos-screen-layouts.md). حدد **أضافه كود القسيمة** وادخل كود القسيمة. وبدلا من ذلك ، لاستخدام **الكود الشريطي لكوبون** ، قم بفحص الكود الشريطي أو ادخل الرمز الشريطي باستخدام لوحه المفاتيح الرقمية الموجودة علي شاشه **الحركة**.
 
 ### <a name="limited-use-coupons"></a>القسائم المحدودة الاستخدام
 
@@ -83,6 +82,3 @@ ms.locfileid: "7603111"
 - **يتم تحديث HQ بشكل جزئي، ولكن لا يتم تحديث Commerce Scale Unit ونقطة البيع.** في تحديث HQ، يتم تحديث القسيمة وصفحات الخصم، ويتم أيضًا تحديث محرك سعر التجارة. إذا تم تحديث أحد هذين المكونين فقط، فلن تتطابق بعض الصفحات في Commerce مع بيانات حساب السعر. وبالتالي، قد تحدث بعض الحسابات أو الأخطاء غير المتوقعة للخصومات أثناء حساب الخصومات.
 - **يتم تحديث HQ، ولكن لا يتم تحديث Commerce Scale Unit ونقطة البيع (N-1).** نظراً لتعذر تحديث جميع المتاجر في نفس الوقت، من المستحسن أن تقوم بتحديث HQ قبل أن تقوم بتحديث المتاجر. في السيناريو N-1، لن تتوفر الوظيفة الجديدة المتعلقة بالقسائم في المتاجر التي لم يتم تحديثها بعد. على سبيل المثال، تقدم وظيفة القسيمة بنود "استثناء". إذا كنت تستخدم بنود استثناء على الخصم، فلن يتم تطبيقها في متجر يستخدم إصدارًا سابقًا.
 - **لم يتم تحديث HQ، ولكن يتم تحديث Commerce Scale Unit ونقطة البيع (N+1).** نظرًا لقدرة مشغل السعر المحدّث في Commerce Scale Unit على التعامل مع أكواد الخصم القديمة أثناء حسابات الأسعار، يجب ألا يكون للتحديث أي تأثير وظيفي هذا السيناريو.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

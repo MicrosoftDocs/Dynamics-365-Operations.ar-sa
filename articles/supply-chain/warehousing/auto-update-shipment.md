@@ -1,26 +1,29 @@
 ---
 title: التحديثات التلقائية للشحنات
 description: يقدم هذا الموضوع نظرة عامة حول الوظيفة التي توفر تحديثات تلقائية للشحنات.
-author: Mirzaab
+author: josaw1
+manager: tfehr
 ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3402a4c90299cf52e489e85ed55aff9762796545
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580086"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421166"
 ---
 # <a name="shipment-auto-updates"></a>التحديثات التلقائية للشحنات
 
@@ -137,6 +140,3 @@ ms.locfileid: "7580086"
 إذا كانت حالة الشحنة **مموجة** أو أعلى، فإن تحديثات الكمية على بند أمر المبيعات لن تظهر على بند حمل يقترن بالشحنة أو لن يتم التحقق من صحتها في مقابل بند الحمل هذا. يجب إجراء التغييرات على الكمية الموجودة على بند الحمل مباشرةً على بند الحمل.
 
 يتم إجراء التحقق من الصحة بعد إنشاء عمل لبند الحمل وبعد إجراء عملية حجز. بعد ذلك، يتم التحقق من صحة خفض الكمية على بند أمر المبيعات في مقابل حجز بند العمل.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

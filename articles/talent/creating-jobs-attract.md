@@ -157,6 +157,3 @@ ms.locfileid: "4527256"
 
 13. لتنشيط الوظيفة، حدد **تنشيط**.
 14. لنشر الوظيفة، انتقل إلى **عمليات النشر‬**، ثم حدد **نشر الآن** في موقع الوظائف في Talent أو LinkedIn.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: إدارة السمات ومجموعات السمات
 description: يصف هذا الموضوع كيفية استخدام السمات لتوفير طريقة لوصف أحد منتجات والصفات المميزة له من خلال حقول معرفة من قبل المستخدم.
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727644"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409873"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>إدارة السمات ومجموعات السمات
 
@@ -70,7 +73,7 @@ ms.locfileid: "6727644"
     - قم بتسمية نوع سمة واحد **شكل العدسات**، وأضف القيم التالية: **بيضوي**، و **مربع**، و **المستطيل**.
     - قم بتسمية نوع السمة الأخر **العلامة التجارية لنضارة الشمس**، وأضف القيم التالية: **Ray ban**، و **Aviator**، و **Oakley**.
 
-![أنواع السمات.](media/AttributeType.png)
+![أنواع السمات](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>إعداد سمة
 
@@ -79,7 +82,7 @@ ms.locfileid: "6727644"
 3. إنشاء سمة تسمى **العدسات**.
 4. قم بتعيين حقل **نوع السمة** إلى **شكل العدسات**.
 
-![السمات.](media/Attribute.png)
+![السمات](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>بيانات تعريف السمة
 
@@ -101,7 +104,7 @@ ms.locfileid: "6727644"
 
 ولقد كان الهدف الأصلي من هذه الخيارات تحسين وظيفة البحث لواجهة المتجر على الإنترنت. على الرغم من أن Commerce لا يتضمن واجهة المتجر على الإنترنت الجاهزة، فهو يتضمن حزمة eCommerce Publishing Software Development Kit (SDK). يمكن للعملاء استخدام SDK لوضع المنتجات في فهرس بحث من اختيارهم. على الرغم من أنه يتم استيراد بيانات المنتج، يجب أن يظل العملاء قادرون على تمييز البيانات قابلة للبحث أو البيانات التي يمكن الاستعلام عنها، وهكذا. وبهذه الطريقة، يمكنهم إنشاء فهرس أمثل للتأكد من أنهم قاموا فقط بفهرسة السمات التي يجب فهرستها *وفقًا لاختيارهم*.
 
-لمزيد من المعلومات حول الغرض من هذه الخيارات المتبقية، راجع [نظرة عامة حول مخطط البحث في SharePoint Server 2013](/SharePoint/search/search-schema-overview).
+لمزيد من المعلومات حول الغرض من هذه الخيارات المتبقية، راجع [نظرة عامة حول مخطط البحث في SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>تصفية إعدادات السمات
 
@@ -134,7 +137,7 @@ ms.locfileid: "6727644"
     - 200-500
     - 500 أو أكثر
 
-![إعدادات عامل تصفية السمات.](media/AttributeFilterSettings.PNG)
+![إعدادات عامل تصفية السمات](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>مجموعات السمات
 
@@ -142,7 +145,7 @@ ms.locfileid: "6727644"
 
 يمكنك أيضًا تعيين القيم الافتراضية للسمات المٌدرجة في إحدى مجموعات السمات. على سبيل المثال، يمكنك إضافة سمة للون إلى مجموعة سمة، وحدد **أزرق** كقيمة سمة افتراضية. في هذه الحالة، عند إضافة مجموعة سمات لمنتج يتضمن اللون كإحدى السمات الخاصة به، يظهر اللون **أزرق** كلون افتراضي لهذا المنتج.
 
-![مجموعات السمات.](media/AttributeGroup.png)
+![مجموعات السمات](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>إنشاء مجموعات السمات
 
@@ -155,7 +158,7 @@ ms.locfileid: "6727644"
 
 يُمكن إقران مجموعة سمات واحدة أو أكثر مع عقد الفئات في نوع التدرجات الهرمية للفئات التالية: التدرج الهرمي لمنتج Commerce، التدرج الهرمي لفئة تنقل القناة والتدرج الهرمي لفئة منتج تكميلي. بعد ذلك، عند تصنيف المنتجات، فإنها ترث السمات المضمنة في مجموعات السمات.
 
-![التدرج الهرمي – مجموعات سمات المنتج.](media/AGRetailProdHierarchy.PNG)
+![التدرج الهرمي – مجموعات سمات المنتج](media/AGRetailProdHierarchy.PNG)
 
 اتبع هذه الخطوات لتعيين مجموعات السمات للفئات في التسلسل الهرمي لمنتج Commerce.
 
@@ -200,7 +203,7 @@ ms.locfileid: "6727644"
     3. حدد عقدة فئة **اكسسورات الموضة**، ثم حدد فئة **نظارات شمس الموضة**، ثم على علامة التبويب السريعة **سمات منتجات القناة**، ثم حدد **تضمين سمة** لكل سمة.
     4. حدد عقدة فئة **ألبسة رجالية**، ثم حدد فئة **سراويل**، ثم على علامة التبويب السريعة **سمات منتجات القناة**، ثم حدد **تضمين سمة** لكل سمة.
 
-![فئات القناة وسمات المنتج - مجموعات السمات.](media/CCPAttrGrp.png)
+![فئات القناة وسمات المنتج - مجموعات السمات](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>تجاوز قيم السمات
 
@@ -214,7 +217,7 @@ ms.locfileid: "6727644"
 4. حدد المنتج المطلوب في الشبكة. بعد ذلك، في جزء الإجراءات، في علامة تبويب **المنتج** في مجموعة **إعداد‬**، حدد **سمات المنتجات**.
 5. حدد سمة في الجزء الأيمن، ثم قم بتحديث قيمتها في الجزء الأيسر.
 
-![صفحة تفاصيل المنتج - مجموعات سمات المنتج.](media/ProdDetailsProdAttrValues.png)
+![صفحة تفاصيل المنتج - مجموعات سمات المنتج](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>تجاوز قيم السمات للمنتجات في كتالوج
 
@@ -233,7 +236,7 @@ ms.locfileid: "6727644"
     > [!NOTE]
     > إذا تم إنشاء مشاركة وسائط المنتج ومشاركة سمات المنتج، فستنطبق على جميع المنتجات.
 
-![مجموعات سمات منتجات الكتالوج.](media/CatalogProdAttrValues.png)
+![مجموعات سمات منتجات الكتالوج](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>تجاوز قيم السمات للمنتجات في قناة
 
@@ -254,6 +257,3 @@ ms.locfileid: "6727644"
 
     > [!NOTE]
     > إذا تم إنشاء مشاركة وسائط المنتج ومشاركة سمات المنتج، فستنطبق على جميع المنتجات.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

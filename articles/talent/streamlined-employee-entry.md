@@ -91,6 +91,3 @@ ms.locfileid: "4460271"
 
 [![المناصب الوظيفية](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

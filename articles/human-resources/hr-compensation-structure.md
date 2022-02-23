@@ -1,33 +1,31 @@
 ---
 title: تطوير بنية التعويض
-description: يشرح هذا الموضوع كيفية إنشاء خطة تعويض ثابت وتسجيل الموظفين بالخطة من خلال قواعد الأهلية.
-author: twheeloc
-ms.date: 08/25/2021
+description: تنقلك هذه المقالة عبر عملية إنشاء خطة تعويض ثابت وتسجيل الموظفين بالخطة من خلال قواعد الأهلية.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e35f4978cc4e8162c56ba05de28ab5b2366ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065276"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417138"
 ---
 # <a name="develop-a-compensation-structure"></a>تطوير بنية التعويض
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-يصف هذا الموضوع كيفية إنشاء خطة تعويض ثابت وتسجيل الموظفين بالخطة من خلال قواعد الأهلية. يستخدم هذا الموضوع بيانات العرض التوضيحي USMF ويتم تطبيقها على مدراء التعويضات والميزات.
+تنقلك هذه المقالة عبر عملية إنشاء خطة تعويض ثابت وتسجيل الموظفين بالخطة من خلال قواعد الأهلية. تستخدم هذه المقالة بيانات العرض التوضيحي USMF ويتم تطبيقها على مدراء التعويضات والميزات.
 
 ## <a name="create-a-fixed-compensation-plan"></a>إنشاء خطة تعويض ثابتة
 
@@ -45,7 +43,7 @@ ms.locfileid: "8065276"
 
 7. في الحقل **النوع**، حدد ما إذا كانت خطة التعويض الثابت عبارة عن خطة **نطاق** أو **درجة** أو **خطوة**.
 
-8. ستكون خانة الاختيار **التوصيات المسموحة** القيمة الافتراضية لأي إجراءات تتم إضافتها إلى هذه الخطة في حدث عملية. تمكّنك خانة الاختيار "التوصيات المسموحة" من تجاوز مبلغ الإرشاد المحسوب عند معالجة التعويض.
+8. تعمل خانة الاختيار **التوصيات المسموحة** بمثابة قيمة افتراضية لأي إجراءات تتم إضافتها إلى هذه الخطة في حدث عملية. تمكّنك خانة الاختيار "التوصيات المسموحة" من تجاوز مبلغ الإرشاد المحسوب عند معالجة التعويض.
 
 9. يسمح لك **التفاوت الخارج عن النطاق** بتحديد كيفية التعامل مع مبالغ التعويض التي تقع خارج نطاق بنية التعويض المحددة للمستوى المعين. يتيح لك تعيين الحقل **‏‫التفاوت الخارج عن النطاق‬** إلى **لا شيء** لاستخدام أي مبلغ تعويض. سيقوم **التفاوت الناعم** بتحذير المستخدم إذا كان مبلغ التعويض أقل من الحد الأدنى أو أكبر الحد الأقصى لمبالغ النقطة المرجعية لهذا المستوى. يمكن للمستخدمين تجاهل التحذير والمتابعة. سيؤدي **التفاوت الثابت** إلى توليد رسالة خطأ إذا كان تعويض الموظف خارج الحد الأدنى والحد الأقصى للنقاط لمرجعية للمستوى، وسيقوم بشكل تلقائي بضبط تعويض الموظف لكي يقع ضمن النطاق.
 
@@ -115,6 +113,3 @@ ms.locfileid: "8065276"
 
 8. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

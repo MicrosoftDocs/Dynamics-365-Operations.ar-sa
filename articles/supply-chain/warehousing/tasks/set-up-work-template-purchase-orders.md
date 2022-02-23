@@ -1,25 +1,28 @@
 ---
 title: إعداد قالب عمل لأوامر الشراء
 description: يصف هذا الموضوع كيفية إعداد قالب عمل بسيط لاستخدامه عند تخزين الأصناف المستلمة.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6628936a56619de255ca7dc7b332b5819918c310
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572279"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421579"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>إعداد قالب عمل لأوامر الشراء
 
@@ -58,6 +61,3 @@ ms.locfileid: "7572279"
 6. في الحقل **معرف فئة العمل**، اكتب قيمة. تكون إرشادات الانتقاء والوضع مجموعة. يجب أن تتضمن كل مجموعة انتقاء/وضع نفس فئة العمل. استخدم نفس فئة العمل التي قمت بتوفيرها لإرشادات الانتقاء.  
 7. حدد **حفظ**. لاحظ أن خانة الاختيار **صالح** أصبحت محددة الآن.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

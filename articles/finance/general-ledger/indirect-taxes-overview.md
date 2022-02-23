@@ -1,28 +1,29 @@
 ---
 title: نظرة عامة على ضريبة المبيعات
 description: يوفر هذا الموضوع نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا.
-author: kailiang
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/28/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "13111"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983918"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440000"
 ---
 # <a name="sales-tax-overview"></a>نظرة عامة على ضريبة المبيعات
 
@@ -30,13 +31,14 @@ ms.locfileid: "7983918"
 
 يوفر هذا الموضوع نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا.
 
-## <a name="overview"></a>نظرة عامة
+<a name="overview"></a>نظرة عامة
+--------
 
 يدعم إطار عمل ضريبة المبيعات العديد من أنواع الضرائب غير المباشرة، مثل ضريبة المبيعات، وضريبة القيمة المضافة (VAT)، وضريبة السلع والخدمات (GST)، والرسوم على أساس الوحدة، وضريبة الخصم. ويتم حساب هذه الضرائب وتوثيقها أثناء حركات المبيعات والمشتريات. وبشكل دوري، يجب إعداد تقارير بها ودفعها إلى هيئات الضرائب.‬ 
 
 ويوضح الرسم التخطيطي التالي كيانات إعداد الضريبة ومدى ارتباطها ببعضها البعض.
 
-[![رسم تخطيطي يعرض نظرة عامة على كيانات إعداد الضرائب.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![رسم تخطيطي يعرض نظره عامه على كيانات إعداد الضرائب](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 لكل ضريبة مبيعات يجب على الشركة حسابها، يجب تحديد كود ضريبة المبيعات. يخزن كود ضريبة مبيعات معدلات الضرائب وقواعد حساب ضريبة المبيعات. 
 
@@ -95,6 +97,3 @@ ms.locfileid: "7983918"
 إذا كنت تستخدم شيك مؤجل الدفع كطريقة للدفع، عندما يتم إنشاء الدفع، لا تتم تسوية الحساب البنكي. وفي بعض البلدان، تصبح ضريبة القيمة المضافة التزام "محقق" عندما يسوي البنك الدفع، مما يعني تسوية الشيك مؤجل الدفع. يمكنك تمكينها عن طريق تحديد **تحقيق الضريبة المشروطة عند سحب الشيكات مؤجلة الدفع** في **إدارة النقد والبنك > إعداد >معلمات إدارة النقد والبنك > شيكات مؤجلة الدفع**.
 
 لمزيد من المعلومات، راجع [إعداد ضريبة الخصم‬‬‬‬](tasks/set-up-withholding-tax.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

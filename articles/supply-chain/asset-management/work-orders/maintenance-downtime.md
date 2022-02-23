@@ -1,10 +1,12 @@
 ---
 title: وقت تعطل الصيانة لأوامر العمل
 description: يصف هذا الموضوع كيفية إنشاء تسجيلات وقت تعطل الصيانة على الأصل المحدد في أمر العمل.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 38c47a47fdf64c1d3601f6f3f7b84bf128823ec2ceb0c50e586822f6bdb97906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753362"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020901"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>وقت تعطل الصيانة لأوامر العمل
 
@@ -45,7 +47,7 @@ ms.locfileid: "6753362"
 
 يبين الرسم التوضيحي أدناه مثالًا لصفحة **أكواد أسباب وقت تعطل الصيانة**.
 
-![الشكل 1.](media/15-work-orders.png)
+![الشكل 1](media/15-work-orders.png)
 
 بعد إنشاء أكواد أسباب وقت تعطل الصيانة التي ترغب في استخدامها، يمكن إنشاء تسجيلات وقت تعطل الصيانة الخاصة بأوامر العمل والأصول.
 
@@ -71,21 +73,18 @@ ms.locfileid: "6753362"
 
 يبين الرسم التوضيحي أدناه مثالاً على تسجيل وقت تعطل الصيانة.
 
-![الشكل 2.](media/16-work-orders.png)
+![الشكل 2](media/16-work-orders.png)
 
 يتوقف التقويم المستخدم في حساب تسجيل وقت تعطل الصيانة على تحديدك في إعداد الأصول والمعلمات. إذا تم تحديد مورد على أحد الأصول في حقل **مورد** على علامة التبويب السريعة **الأصل الثابت** لصفحة **كافة الأصول** ، فسيتم استخدام إعداد التقويم لمجموعة الموارد المقترنة، كما هو مبين في الشكل التوضيحي التالي.
 
-![الشكل 3.](media/17-work-orders.png)
+![الشكل 3](media/17-work-orders.png)
 
 إذا لم يتم تحديد أي مورد على الأصل، فسيتم استخدام التقويم القياسي المحدد في صفحة **معلمات إدارة الأصول** ، كما هو مبين في الشكل التوضيحي التالي.
 
-![الشكل 4.](media/18-work-orders.png)
+![الشكل 4](media/18-work-orders.png)
 
 انقر فوق **إدارة الأصول** > **استعلامات** > **وقت تعطل الصيانة** للاطلاع على نظرة عامة على تسجيلات وقت تعطل الصيانة.
 
 >[!NOTE]
 >تم إعداد كافة التقويمات المستخدمة في الوحدة النمطية **إدارة الأصول** في **إدارة المؤسسة** > **إعداد** > **التقويمات** > **التقويمات**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

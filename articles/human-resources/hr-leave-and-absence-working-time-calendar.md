@@ -1,33 +1,31 @@
 ---
 title: إنشاء تقويم مواعيد العمل
 description: تحديد تقويم وقت العمل وأيام العطل وأوقات عدم العمل في Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068909"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417090"
 ---
 # <a name="create-a-working-time-calendar"></a>إنشاء تقويم مواعيد العمل
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يعرض تقويم مواعيد العمل في Dynamics 365 Human Resources الأيام والساعات التي يعمل بها الموظفون في مؤسستك. عندما يقوم أحد الموظفين بإرسال طلب المهلة، فليس من الضروري القلق بالعطلات والإغلاق.
 
@@ -67,7 +65,7 @@ ms.locfileid: "8068909"
 
 يمكنك أضافه أوقات غير العمل أو تغييرها وإغلاقها بشكل منفصل من تقويم وقت العمل.
 
-1. في صفحة **إدارة المؤسسة**، حدد **NON-WORK TIME**.
+1. على صفحة **"إدارة المؤسسة"**، حدد **وقت غير العمل**.
 
 2. حدد **جديد**، وأدخل اسمًا ونطاق الوقت لوقت غير العمل.
 
@@ -77,6 +75,3 @@ ms.locfileid: "8068909"
 
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
 - [تكوين أنواع الإجازة والغياب](hr-leave-and-absence-types.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

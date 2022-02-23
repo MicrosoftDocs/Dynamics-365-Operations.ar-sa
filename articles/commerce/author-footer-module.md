@@ -2,24 +2,27 @@
 title: الوحدة النمطية لتذييل الصفحة
 description: يغطي هذا الموضوع الوحدات النمطية لتذييل الصفحة وكيفية تأليفها في Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719976"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409872"
 ---
 # <a name="footer-module"></a>الوحدة النمطية لتذييل الصفحة  
 
@@ -27,19 +30,21 @@ ms.locfileid: "6719976"
 
 يغطي هذا الموضوع الوحدات النمطية لتذييل الصفحات ويصف كيفية إنشائها في Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>نظرة عامة
+
 الوحدة النمطية لتذييل الصفحة هي حاوية خاصة تُستخدم لاستضافة الوحدات النمطية التي تظهر في تذييل الصفحة. على سبيل المثال، يمكن أن تتضمن ارتباطات إلى العديد من الصفحات عبر الموقع، مثل صفحات **اتصل بنا** و **سياسات المتجر** .
 
 تعرض الصورة التالية مثالاً عن وحدة تذييل في صفحة موقع.
 
-![مثال عن وحدة تذييل.](./media/ecommerce-footer.PNG)
+![مثال عن وحدة تذييل](./media/ecommerce-footer.PNG)
 
-## <a name="footer-module-properties&quot;></a>خصائص الوحدة النمطية لتذييل الصفحة 
+## <a name="footer-module-properties"></a>خصائص الوحدة النمطية لتذييل الصفحة 
 
 مثل معظم الحاويات، تدعم وحدة التذييل خصائص الرأس والعرض. كما أنه يدعم إضافة الوحدات النمطية لفئات التذييل المتعددة. يتم عرض كل وحده نمطيه للفئة التي تتم إضافتها كعمود في الوحدة النمطية لتذييل الصفحة.
 
-## <a name=&quot;modules-available-in-a-footer-module&quot;></a>الوحدات النمطية المتوفرة في الوحدة النمطية لتذييل الصفحة
+## <a name="modules-available-in-a-footer-module"></a>الوحدات النمطية المتوفرة في الوحدة النمطية لتذييل الصفحة
 
-**عناصر تذييل الصفحة** – يمكن أن تحتوي الوحدة النمطية لعناصر التذييل على عنوان وصوره وارتباط. يمكن استخدام العنوان بمفرده أو مع الصور والارتباط. يمكن تكوين كل ارتباط في التذييل بحيث يحتوي على نص فقط (على سبيل المثال، ارتباطات &quot;اتصل بنا&quot; و &quot;الخصوصية")، أو بحيث يحتوي على كل من نص وصورة (على سبيل المثال، ارتباطات الوسائط الاجتماعية).
+**عناصر تذييل الصفحة** – يمكن أن تحتوي الوحدة النمطية لعناصر التذييل على عنوان وصوره وارتباط. يمكن استخدام العنوان بمفرده أو مع الصور والارتباط. يمكن تكوين كل ارتباط في التذييل بحيث يحتوي على نص فقط (على سبيل المثال، ارتباطات "اتصل بنا" و "الخصوصية")، أو بحيث يحتوي على كل من نص وصورة (على سبيل المثال، ارتباطات الوسائط الاجتماعية).
 
 **العودة إلى الأعلى** - توفر الوحدة النمطية العودة إلى الأعلى ارتباطًا للتنقل السريع إلى أعلي الصفحة. الوجهة مطلوبة. القيمة الافتراضية للوجهة هي \#، التي تأخذ المستخدم إلى أعلى الصفحة.
 
@@ -82,6 +87,3 @@ ms.locfileid: "6719976"
 [وحدة الرأس](author-header-module.md)
 
 [وحدة التذييل](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

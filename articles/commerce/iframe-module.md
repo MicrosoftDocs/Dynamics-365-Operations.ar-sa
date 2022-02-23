@@ -2,12 +2,15 @@
 title: وحدة Iframe
 description: يتناول هذا الموضوع الوحدة iframe ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/04/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754004"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665386"
 ---
 # <a name="iframe-module"></a>وحدة Iframe
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع الوحدة iframe ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 وحدة iframe توفر iframe (اطار مضمن) يستضيف المحتوى الخارجي في موقع. على سبيل المثال، يمكن استخدامه لاستضافة فيديو YouTube أو عارض ملفات PDF على أي صفحة موقع. 
 
@@ -37,11 +42,11 @@ ms.locfileid: "7754004"
 
 تعرض الصورة التالية أمثلة عن وحدات iframe التي تعرض مقاطع فيديو خارجية على صفحات الموقع.
 
-![مثال عن وحدات iframe تعرض مقاطع فيديو خارجية.](./media/ecommerce-iframe.PNG)
+![مثال عن وحدات iframe تعرض مقاطع فيديو خارجية](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>خصائص ‏‫وحدة Iframe
 
-| اسم الخاصية             | قيمة                 | الوصف |
+| اسم الخاصية             | قيمة                 | ‏‏الوصف |
 |---------------------------|-----------------------|-------------|
 | العنوان | النص | عنوان الوحدة النمطية. |
 | URL هدف | URL | عنوان URL المستضاف في الوحدة. |
@@ -66,15 +71,9 @@ ms.locfileid: "7754004"
 1. قم بتعيين الخصائص الأخرى، مثل **العنوان** و **الارتفاع**، حسب الحاجة.
 1. حدد **حفظ**، وحدد **إنهاء التحرير** لإيداع الصفحة، ثم حدد **نشر** لنشرها.
 1. انتقل إلى صفحة التسويق على موقعك. يجب أن ترى أن الفيديو معروضًا في وحدة iframe.
-
-> [!NOTE]
-> نظرًا لأن وحدة iframe تستضيف محتوى خارجيًا، يجب على مؤلفي الموقع التأكد من أن المحتوى المستضاف في وحدة iframe لا ينتهك سياسات تقييد المحتوى في السوق المعنية. إذا كان هناك انتهاك للمحتوى على صفحة تستخدم وحدة iframe، فيمكن لمؤلف الموقع إزالة وحدة iframe عن طريق فتح الصفحة في Site Builder، وتحديد **إزالة الوحدة** في فتحة وحدة iframe، ثم حفظ الصفحة وإعادة نشرها.
-
+ 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على مكتبة الوحدات](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

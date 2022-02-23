@@ -1,24 +1,27 @@
 ---
 title: إعادة تقييم العملة الأجنبية في البنوك
 description: يوفر هذا الموضوع نظرة عامة حول عملية إعادة تقييم العملة الأجنبية في البنوك. وهو يتضمن معلومات حول الإعداد، وتشغيل العملية، وحساب العملية، وعكس حركات إعادة التقييم.
-author: roschlom
+author: mikefalkner
+manager: AnnBe
 ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3df6a22e06abbfa75a12ffddac242dd34f5beba5
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: f99a5ed82fd4d74a5d20620dbe19b4f18e332432
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440044"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>إعادة تقييم العملة الأجنبية في البنوك
 
@@ -85,6 +88,3 @@ ms.locfileid: "7754110"
 إذا تعيّن عليك عكس حركة إعادة التقييم، فحدد الزر **عكس الحركة** في جزء الإجراءات في صفحة **إعادة تقييم عملة أجنبية**. سيتم إنشاء سجل تاريخي جديد لعملية إعادة تقييم العملة الأجنبية للمحافظة على سجل المراجعة‬ التاريخي عند حدوث إعادة التقييم أو عكسها.
 
 لعكس عمليات إعادة تقييم متعددة، يجب عكس إعادة التقييم الأحدث أولاً. ثم تابع عكس عمليات إعادة التقييم الأقدم حسب تاريخها. بعد ذلك، يمكنك معالجة عمليات إعادة تقييم جديدة للفترات الزمنية التي قمت بعكسها.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

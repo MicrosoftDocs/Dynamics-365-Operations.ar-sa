@@ -1,33 +1,37 @@
 ---
 title: إعداد المواد الخطرة
 description: يوضح هذا الموضوع كيفية إعداد البيانات المطلوبة لتصنيف الأصناف كمواد خطرة. عند إنشاء أمر توريد يتضمن صنفًا تم تصنيفه كمادة خطرة، يقوم النظام بإنشاء وثائق مادية خطرة لأمر التوريد هذا عند شحنه.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777999"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421553"
 ---
 # <a name="set-up-hazardous-materials"></a>إعداد المواد الخطرة
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 لاستخدام وظيفة المواد الخطرة، يجب أولا إعداد البيانات المطلوبة لتصنيف الأصناف كمواد خطرة. ثم، عند إنشاء أمر توريد يتضمن صنفًا تم تصنيفه كمادة خطرة، يقوم النظام بإنشاء وثائق مادية خطرة لأمر التوريد هذا عند شحنه.
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>تشغيل ميزه المواد الخطرة للنظام الخاص بك
 
-اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
+قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة النمطية** *إدارة معلومات المنتج*
 - **اسم الميزة:** *اسم منتج المواد الخطرة ووثائق الشحن*
@@ -280,6 +284,3 @@ ms.locfileid: "7777999"
 تقيّد مواصفة *نفق المواد الخطرة* أنواع الانفاق التي يمكن نقل المواد الخطرة من خلالها وذلك بتعريف أنواع الانفاق التي يجب استخدامها. يتم تأسيس فئات الأنفاق بواسطة اللوائح السارية لنقل المواد الخطرة. تنطبق هذه المواصفة عادة على النقل البري فقط.
 
 لإعداد قيم لهذه المواصفة، انتقل إلى **إدارة معلومات المنتج \> الإعداد \> وثائق شحن المواد الخطرة \> نفق المواد الخطرة**. في صفحة **نفق المواد الخطرة** يمكنك إنشاء أي عدد من معرفات الأنفاق وتكوين كل منها بكود تعريف ووصف قصير.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

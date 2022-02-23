@@ -1,27 +1,28 @@
 ---
 title: تكامل Dynamics 365 Supply Chain Management (إدارة الأصول) مع Dynamics 365 Guides
 description: يوضح هذا الموضوع كيفية تكامل الوحدة النمطية لإداره الأصول في Microsoft  Dynamics 365 Supply Chain Management مع Dynamics 365 Guides للاستفادة من دلائل الحقيقة المختلطة في مهام سير عمل الخدمات اليومية والصيانة.
-author: johanhoffmann
+author: kamaybac
+manager: tfehr
 ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: johanho
+ms.author: dabourq
 ms.search.validFrom: 2020-04-28
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: f9ee7f1af8e88f56589c84bfaa063ea005aa353a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568245"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421197"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>تكامل Dynamics 365 Supply Chain Management (إدارة الأصول) مع Dynamics 365 Guides
-
-[!include [banner](../includes/banner.md)]
 
 يمكنك تكامل الوحدة النمطية **لإداره الأصول** في Microsoft Dynamics 365 Supply Chain Management مع Dynamics 365 Guides للاستفادة من دلائل الحقيقة المختلطة في مهام سير عمل الخدمات اليومية والصيانة. إذا كان الدليل مقترنا بأمر عمل إداره الأصول، فان العامل الذي يفتح قائمه فحص الصيانة الخاصة بأمر العمل في Supply Chain Management (Dynamics 365) للأجهزة المحمولة يري هذا الدليل متوفرًا. يمكن للعامل بعد ذلك العثور علي الدليل وفتحه في تطبيق Dynamics 365 Guides HoloLens.
 
@@ -31,13 +32,13 @@ ms.locfileid: "7568245"
 
 - [إعداد Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) الإصدار 10.0.9 أو إصدار لاحق
 - [قم بتشغيل الكتابة المزدوجة لتطبيقات Supply Chain Management](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md).
-- [قم بتشغيل إصدار التقييم](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) لميزة **MRGuidesFeature** . (بالنسبة لبيئات الإنتاج، يجب أولا إرسال بطاقة دعم لكي تتم إضافه المستأجر الخاص بك إلى مجموعة التقييم).
-- [قم بتشغيل مفاتيح التكوين التالية](/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) في صفحة **تكوين الترخيص**:
+- [قم بتشغيل إصدار التقييم](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) لميزة **MRGuidesFeature** . (بالنسبة لبيئات الإنتاج، يجب أولا إرسال بطاقة دعم لكي تتم إضافه المستاجر الخاص بك إلى مجموعة التقييم).
+- [قم بتشغيل مفاتيح التكوين التالية](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) في صفحة **تكوين الترخيص**:
 
     - إدارة الاصول \> الحقيقة المختلطة لإدارة الأصول
     - الحقيقة المختلطة \> دليل الحقيقة المختلطة
 
-- [إعداد Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) الإصدار 200.0.0.96 أو إصدار لاحق
+- [إعداد Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) الإصدار 200.0.0.96 أو إصدار لاحق
 
 ## <a name="use-dynamics-365-guides-with-asset-management"></a>استخدام Dynamics 365 Guides مع إدارة الأصول
 
@@ -49,8 +50,8 @@ ms.locfileid: "7568245"
 
 1. قم بإنشاء دليل باستخدام تطبيق Dynamics 365 Guides للكمبيوتر الشخصي وتطبيق HoloLens. لمزيد من المعلومات حول كيفية إنشاء دليل، راجع المواضيع التالية:
 
-    - [استخدام تطبيق الكمبيوتر الشخصي لإنشاء دليل](/dynamics365/mixed-reality/guides/pc-app-overview)
-    - [استخدام تطبيق HoloLens لوضع الهولوغرام الخاصة بك](/dynamics365/mixed-reality/guides/hololens-app-overview)
+    - [استخدام تطبيق الكمبيوتر الشخصي لإنشاء دليل](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-app-overview)
+    - [استخدام تطبيق HoloLens لوضع الهولوغرام الخاصة بك](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-app-overview)
 
 1. في Supply Chain Management، [قم بإنشاء قالب قائمة فحص صيانة](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template).
 1. قم باقران الدليل الذي قمت بإنشاءه ببند قائمه فحص الصيانة في قالب قائمه فحص الصيانة الجديدة:
@@ -58,38 +59,38 @@ ms.locfileid: "7568245"
     1. في علامة التبويب السريعة **بنود قائمة فحص الصيانة** حدد البند الذي تريد إقران الدليل به.
     1. في علامة التبويب السريعة **الأدلة المرتبطة** ، حدد **إضافة دليل**.
 
-        ![إقران دليل ببند قائمة فحص صيانة.](media/am-guides-integration-add-guide.png "إقران دليل ببند قائمة فحص صيانة")
+        ![إقران دليل ببند قائمة فحص صيانة](media/am-guides-integration-add-guide.png "إقران دليل ببند قائمة فحص صيانة")
 
     1. في حقل **الاسم** حدد دليلا، ثم حدد **حفظ**.
 
-        ![تحديد دليل في حقل الاسم.](media/am-guides-integration-select-guide.png "تحديد دليل في حقل الاسم")
+        ![تحديد دليل في حقل الاسم](media/am-guides-integration-select-guide.png "تحديد دليل في حقل الاسم")
 
 1. قم بإقران قالب قائمه فحص الصيانةبنوع مهمة:
 
     1. [قم بإنشاء نوع مهمة صيانة](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) ، أو حدد نوع مهمة صيانة موجود.
     1. في جزء الاجراءات، حدد **الإعدادات الافتراضية لنوع مهمة الصيانة‬**.
 
-        ![زر الإعدادات الافتراضية لنوع مهمة الصيانة.](media/am-guides-integration-job-defaults.png "زر الإعدادات الافتراضية لنوع مهمة الصيانة")
+        ![زر الإعدادات الافتراضية لنوع مهمة الصيانة](media/am-guides-integration-job-defaults.png "زر الإعدادات الافتراضية لنوع مهمة الصيانة")
 
     1. قم بإنشاء بند، ثم حدد **حفظ**.
 
-        ![قم بإنشاء بند.](media/am-guides-integration-add-line.png "إنشاء بند")
+        ![إنشاء بند](media/am-guides-integration-add-line.png "إنشاء بند")
 
     1. في جزء الإجراءات‬، حدد **قائمة فحص الصيانة**.
 
-        ![زر قائمة فحص الصيانة.](media/am-guides-integration-maintenance-checklist.png "زر قائمة فحص الصيانة")
+        ![زر قائمة فحص الصيانة](media/am-guides-integration-maintenance-checklist.png "زر قائمة فحص الصيانة")
 
     1. في علامة التبويب السريعة **بنود قائمة فحص الصيانة** قم بإضافه بند، ثم قم بتغيير قيمة حقل **النوع** إلى **قالب**.
 
-        ![تغيير قيمة النوع.](media/am-guides-integration-checklist-lines.png "تغيير قيمة النوع")
+        ![تغيير قيمة النوع](media/am-guides-integration-checklist-lines.png "تغيير قيمة النوع")
 
     1. في علامة التبويب السريعة **تفاصيل البند** ، في حقل **القالب** حدد القالب الذي قمت باقران الدليل به، ثم حدد **حفظ**.
 
-        ![تحديد قالب.](media/am-guides-integration-checklist-line-details.png "تحديد قالب")
+        ![تحديد قالب](media/am-guides-integration-checklist-line-details.png "تحديد قالب")
 
 1. [قم بإنشاء أمر عمل](work-orders/manually-created-workorders.md#create-work-order) ، ثم حدد نوع مهمة الصيانة التي تستخدم قالب قائمه فحص الصيانة الذي قمت بربطه بالدليل. يقترن الدليل تلقائيا بأمر العمل.
 
-    ![تحديد نوع مهمة الصيانة.](media/am-guides-integration-create-work-order.png "تحديد نوع مهمة الصيانة")
+    ![تحديد نوع مهمة الصيانة](media/am-guides-integration-create-work-order.png "تحديد نوع مهمة الصيانة")
 
 1. عرض الدليل المرتبط بامر العمل والعاملين:
 
@@ -97,11 +98,11 @@ ms.locfileid: "7568245"
     1. [افتح قائمة فحص الصيانة](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) الخاصة بامر العمل.
     1. حدد بند قائمة فحص لعرض الدليل المقترن.
 
-        ![الدليل المقترن ببند قائمة الفحص.](media/am-guides-integration-show-guide.png "الدليل المقترن ببند قائمة الفحص")
+        ![الدليل المقترن ببند قائمة الفحص](media/am-guides-integration-show-guide.png "الدليل المقترن ببند قائمة الفحص")
 
     1. افتح الدليل على HoloLens.
 
-        ![فتح الدليل على HoloLens.](media/am-guides-integration-hololens-select.png "فتح الدليل على HoloLens")
+        ![فتح الدليل على HoloLens](media/am-guides-integration-hololens-select.png "فتح الدليل على HoloLens").
 
 > [!NOTE]
 > يمكنك أيضا إقران دليل مباشره في قائمه فحص الصيانة لأمر عمل أو نوع مهمة.
@@ -113,6 +114,3 @@ ms.locfileid: "7568245"
 
 - [نظرة عامة على الكتابة المزدوجة](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [نظرة عامة على إدارة الأصول](index.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

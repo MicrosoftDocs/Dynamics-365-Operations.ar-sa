@@ -2,27 +2,28 @@
 title: نظرة عامة على خصم سيبا المباشر
 description: تم إعداد منطقة الدفع الموحد باليورو (سيبا) بواسطة المفوضية الأوروبية، والتي تقتضي أن تعتبر جميع عمليات الدفع الإلكترونية داخلية، بغض النظر عن مكان البلد/المنطقة، والشركة أو المؤسسة، والبنك. ليس هناك فرق بين المدفوعات داخل الوطن وعبر الحدود. تضم سيبا الدول الأعضاء في الاتحاد الأوروبي (EU) وعددها 28 دولة، بالإضافة إلى أيسلندا وليختنشتاين، والنرويج، وسويسرا، وموناكو، وسان مارينو‬. تساعد سيبا من سوق واحد لحركات الدفع داخل المنطقة الاقتصادية الأوروبية (EEA). وفي النهاية، من المتوقع أن تقوم سيبا بتقليل عدد تنسيقات الدفع التي يجب أن تعمل البنوك والشركات والأفراد من خلالها.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "11144"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 11144
 ms.assetid: 3277c9b6-e46e-40c9-aa76-9b0449467842
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f71eca0ca9ee07d43bdf737874f442f0029e87e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fcb7585d344988e00093231f785c1a746226e4e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984368"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439849"
 ---
 # <a name="sepa-direct-debit-overview"></a>نظرة عامة على خصم سيبا المباشر
 
@@ -30,7 +31,8 @@ ms.locfileid: "7984368"
 
 تم إعداد منطقة الدفع الموحد باليورو (سيبا) بواسطة المفوضية الأوروبية، والتي تقتضي أن تعتبر جميع عمليات الدفع الإلكترونية داخلية، بغض النظر عن مكان البلد/المنطقة، والشركة أو المؤسسة، والبنك. ليس هناك فرق بين المدفوعات داخل الوطن وعبر الحدود. تضم سيبا الدول الأعضاء في الاتحاد الأوروبي (EU) وعددها 28 دولة، بالإضافة إلى أيسلندا وليختنشتاين، والنرويج، وسويسرا، وموناكو، وسان مارينو‬. تساعد سيبا من سوق واحد لحركات الدفع داخل المنطقة الاقتصادية الأوروبية (EEA). وفي النهاية، من المتوقع أن تقوم سيبا بتقليل عدد تنسيقات الدفع التي يجب أن تعمل البنوك والشركات والأفراد من خلالها.   
 
-## <a name="what-is-the-goal-of-sepa-direct-debits"></a>ما الهدف من خصوم سيبا المباشرة؟
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>ما الهدف من خصوم سيبا المباشرة؟
+---------------------------------------
 
 يتيح خصم سيبا المباشر للدائن جمع الأموال من حساب العميل البنكي، شريطة منح أمر رسمي موقع من العميل إلى الدائن. يوقع العميل أمرًا رسميًا يخول فيه الدائن لجمع مبلغ ويُعلم بنك العميل بدفع المبلغ. 
 
@@ -82,6 +84,3 @@ ms.locfileid: "7984368"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

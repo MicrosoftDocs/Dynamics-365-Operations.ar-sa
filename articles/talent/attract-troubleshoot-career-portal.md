@@ -72,5 +72,3 @@ ms.locfileid: "4460176"
 
    1. قم بتسجيل الدخول إلى مدخل الوظائف من نافذة مستعرض جديدة.
    2. تقدم للوظيفة من مدخل الوظائف. 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

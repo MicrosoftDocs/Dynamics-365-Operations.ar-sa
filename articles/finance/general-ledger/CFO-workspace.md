@@ -2,25 +2,28 @@
 title: إضافة الأبعاد المالية إلى مساحة عمل المدير المالي‬
 description: يشرح هذا المقال كيفية إضافة الأبعاد المالية إلى مساحة عمل المدير المالي، بحيث يمكن استخدامها لتقارير دفتر الأستاذ والموازنة.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3acff8a0cf36ee6958effd9c5384895df20c180499437c43feddce31c884dbbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3817c6688339735c7478e85786efe15bd2372c91
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729572"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439926"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>إضافة الأبعاد المالية إلى مساحة عمل المدير المالي‬
 
@@ -31,7 +34,7 @@ ms.locfileid: "6729572"
 1. في Finance، في صفحة **متجر الكيانات**، قم بتحديث المقياسين **LedgerActivityMeasure** و **BudgetActivityMeasure**.
 2. في Microsoft Visual Studio، افتح مستكشف التطبيق، وابحث عن **LedgerCFO**.
 3. ضمن **الموارد**، افتح **LedgerCFOWorkspacePBIX‎**.
-4. عندما يفتح المورد في Microsoft Power BI Desktop، حدد **الحصول على البيانات**، وحدد **قاعدة بيانات SQL Server**، ثم حدد **اتصال**.
+4. عندما يفتح المورد في Microsoft Power BI desktop، حدد **الحصول على البيانات**، وحدد **قاعدة بيانات SQL Server**، ثم حدد **اتصال**.
 5. أدخل اسم الخادم، ثم أدخل **AxDW** كقاعدة بيانات. حدد **DirectQuery**، ثم حدد **موافق**.
 6. ابحث عن **LedgerActivityMeasure\_DimensionCombination** وحدده، ثم حدد **تحميل**.
 
@@ -45,14 +48,11 @@ ms.locfileid: "6729572"
 11. قم بتغيير قيمة **اتجاه التصفية المتقاطع** إلى **فردي**.
 12. حدد الخيارين **تنشيط هذه العلاقة** و **افتراض التكامل المرجعي**، وحدد **OK**، ثم حدد **إغلاق**.
 
-    [![إنشاء علاقة.](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![إنشاء علاقة](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. في قائمة **الحقول**، من المفترض أن ترى الجدول والأبعاد المالية المتوفرة. اسحب الأبعاد المالية المطلوبة إلى عوامل التصفية على مستوى التقرير.
 14. ‏‏قم بحفظ التغييرات التي قمت بإجرائها.
 15. في شجرة مكونات البرنامج (AOT)، انقر بزر الماوس الأيمن فوق المشروع، ثم حدد **مزامنة**.
 16. أنشئ مشروعك، ثم افتح التطبيق لعرض النتائج.
 
-    [![مساحة عمل مكتملة.](./media/workspace.png)](./media/workspace.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    [![مساحة عمل مكتملة](./media/workspace.png)](./media/workspace.png)

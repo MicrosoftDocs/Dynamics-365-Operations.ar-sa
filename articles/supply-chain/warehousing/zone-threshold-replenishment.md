@@ -2,9 +2,11 @@
 title: تزويد حد المنطقة
 description: يستخدم التزويد المستند إلى المنطقة استراتيجية التزويد بالحد الأدنى/الحد الأقصى (min/max)، ولكنها تقوم بتقييم مناطق المستودع بالكامل بدلا من المواقع الفردية فقط. بالتالي، يمكن لمديري المستودع أن يعلم بشكل أسرع متى تكون هناك حاجة إلى مخزون إضافي في منطقة الانتقاء.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 2e83d6885bf7400916d633a49d3b19b8843b0269
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568981"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965492"
 ---
 # <a name="zone-threshold-replenishment"></a>تزويد حد المنطقة
 
@@ -341,6 +343,3 @@ ms.locfileid: "7568981"
 
 - إذا كنت تستخدم مواقع ديناميكية، سيتم إنشاء عمل التزويد إما للموقع الأول المتاح أو للموقع الذي يحتوي على المخزون بالفعل، وذلك في حالة إعداد إجراء توجيه الموقع لاستخدام استراتيجية **الدمج**.
 - إذا كنت تستخدم مواقع ثابتة بدلا من المناطق، يجب استخدام [تزويد الحد الأدنى/الأقصى القياسي](tasks/set-up-min-max-replenishment-process.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

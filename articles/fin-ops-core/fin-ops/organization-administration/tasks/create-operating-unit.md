@@ -2,9 +2,11 @@
 title: إنشاء وحدة تشغيل
 description: تعتبر وحدة التشغيل هي مؤسسة مستخدمة لتقسيم التحكم في الموارد الاقتصادية وعمليات التشغيل في أي كيان أعمال.
 author: sericks007
+manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758982"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796720"
 ---
 # <a name="create-an-operating-unit"></a>إنشاء وحدة تشغيل
 
@@ -39,6 +41,3 @@ ms.locfileid: "6758982"
     + أدخل معلومات عن طرق الاتصال، مثل عناوين البريد الإلكتروني وعناوين URL وأرقام الهاتف. لإدخال سجل اتصال جديد، انقر فوق "جديد". لتعديل سجل اتصال موجود، انقر فوق **مزيد من الخيارات > خيارات متقدمة**.   
 6. بشكل اختياري، قم بتغيير **رقم وحدة التشغيل‬** حسب الحاجة. لاحظ أن هذا الرقم عبارة عن معرف فريد لسجل **Party** الطرف المناظر ولا يمكن أن يكون هو نفسه كأي وحدة تشغيل أخرى.
 7. حدد **حفظ**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,34 +1,33 @@
 ---
-title: نظرة عامة على التطوير
+title: نظرة عامة
 description: يوفر دليل المطور هذا واجهة برمجة تطبيقات (API) ومرجع للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78fc1afc596ca5a847d15a0da2db841aa303bad7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066790"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528307"
 ---
-# <a name="development-overview"></a>نظرة عامة على التطوير
+# <a name="overview"></a>نظرة عامة
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يوفر دليل المطور هذا واجهة برمجة تطبيقات (API) ومرجع للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
 
@@ -36,21 +35,21 @@ ms.locfileid: "8066790"
 
 - [توسيع باستخدام Power Apps وPower Automate](hr-developer-power-apps.md)
 
-- [كيانات الموارد البشرية في Dataverse](hr-developer-entities.md)
+- [كيانات الموارد البشرية في Common Data Service](hr-developer-entities.md)
 
 - [الحقول المخصصة](hr-developer-custom-fields.md)
 
 - إعداد تكامل البيانات
   - [اختر تكنولوجيا تكامل البيانات](hr-admin-integration-choose-technology.md)
-  - [تكوين تكامل Dataverse ](hr-admin-integration-common-data-service.md)
+  - [تكوين تكامل Common Data Service ](hr-admin-integration-common-data-service.md)
   - [تكوين التكامل مع Finance](hr-admin-integration-finance.md)
   - [تكوين التكامل مع Dayforce](hr-admin-integration-dayforce.md)
   - [إنشاء تطبيق تصدير البيانات المتكررة](hr-admin-integration-recurring-data-export.md)
   - التكامل مع Office
-    - [برنامج تعليمي لتكامل Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [تحديث بيانات الكيان في Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [إنشاء خبرات فتح في Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [استكشاف أخطاء تكامل Office وإصلاحها](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [برنامج تعليمي لتكامل Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [تحديث بيانات الكيان في Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [إنشاء خبرات فتح في Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [استكشاف أخطاء تكامل Office وإصلاحها](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - مرجع API الكيان
   - [المصادقة](hr-developer-api-authentication.md)
@@ -63,6 +62,3 @@ ms.locfileid: "8066790"
 - [ما هو الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)
 - [دليل المسؤول](hr-admin-overview.md)
 - [دليل المستخدم](hr-hrpro-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

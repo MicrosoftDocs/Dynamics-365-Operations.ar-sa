@@ -2,13 +2,16 @@
 title: عملية حساب المصروفات الزائدة
 description: يصف هذا الموضوع العمليات الأساسية لحساب المصروفات الزائدة وتخصيصها.
 author: AndersGirke
+manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
-ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "7551791"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440058"
 ---
 # <a name="overhead-calculation"></a>عملية حساب المصروفات الزائدة
 
@@ -29,7 +32,8 @@ ms.locfileid: "7551791"
 
 يصف هذا الموضوع العمليات الأساسية لحساب المصروفات الزائدة وتخصيصها.
 
-## <a name="term-definition"></a>تعريف المصطلح
+<a name="term-definition"></a>تعريف المصطلح
+---------------
 
 المصروفات الزائدة هي المصروفات التي يتم تكبدها لإدارة شركة ما، ولكن لا يمكن عزوها إلى أي نشاط أو منتج أو خدمة معينة في الشركة. توفر المصروفات الزائدة الدعم الحساس لتوليد أنشطة تحقيق الأرباح. فيما يلي بعض الأمثلة على تكاليف المصاريف الإضافية:
 
@@ -48,7 +52,7 @@ ms.locfileid: "7551791"
 
 يتم تشغيل حساب المصروفات الزائدة بشكل مستقل عن الإصدار. لذلك، يمكنك حساب إصدار الموازنة قبل الإصدار الفعلي. تتكون عملية حساب المصروفات الزائدة من أربع خطوات، كما هو مبين في الشكل التوضيحي التالي. في كل خطوة، يتم إنشاء رأس دفتر يومية يحتوي على إدخالات دفتر اليومية. ويحتفظ رأس دفتر اليومية هذا بإدخال البيانات لكل خطوة من العملية الحسابية. يتم تطبيق السياسات والقواعد على كل بند دفتر اليومية، ويتم إنشاء إدخالات التكلفة كمخرجات. وبالتالي، ستكون لديك إمكانية تعقب كاملة في كل الأوقات. 
 
-[![عملية حساب المصروفات الزائدة.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![عملية حساب المصروفات الزائدة](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>حساب المصروفات الزائدة الخاصة بالكهرباء وتخصيصها
 في المحاسبة المالية، يتم تسجيل بعض التكاليف، مثل الكهرباء، كمبلغ إجمالي. وبالتالي، لا يتم توفير معلومات تفصيلية إدارية لمحاسبة التكاليف. في محاسبة التكاليف، لتوفير معلومات الإدارية الصحيحة عبر كافة الوحدات والمستويات التنظيمية، يجب أن تتدفق التكاليف عبر الوحدات التنظيمية. يجب أن يعتمد هذا التدفق على بتسجيل دقيق للاستهلاك أو تقدير مناسب. في دفتر الأستاذ العام، يمكن ترحيل تكلفة الكهرباء كما هو موضح في الجدول التالي.
@@ -618,7 +622,7 @@ ms.locfileid: "7551791"
 
 يُستخدم التخصيص لتخصيص رصيد كائن التكلفة إلى كائنات تكلفة أخرى عن طريق تطبيق أساس التوزيع. يدعم تطبيق Finance طريقة التوزيع المتبادل. في أسلوب التخصيص المتبادل، يتم التعرّف بشكل كامل على الخدمات المتبادلة التي تتبادلها كائنات التكلفة المساعدة. يحدد النظام بشكل تلقائي الترتيب الصحيح لتنفيذ عمليات التخصيص فيه. يتم تخصيص الرصيد الخاص بكائن التكلفة بواسطة أساس توزيع فردي. يتم دعم عمليات التخصيص عبر أبعاد كائنات التكلفة وأعضائها. يتم التحكم بترتيب التخصيص بواسطة وحدة التحكم في التكلفة. 
 
-[![الأسلوب المتبادل.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![الأسلوب المتبادل](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>تعريف توزيع التكلفة
 
@@ -1328,18 +1332,86 @@ ms.locfileid: "7551791"
 ## <a name="conclusion"></a>الخاتمة
 في المحاسبة المالية، يتم ترحيل تكلفة مقدارها 10,000.00 للكهرباء إلى معرف مركز تكلفة وهمي. لذلك، سيعلم محاسبو التكلفة أنه من الضروري تخصيص هذه التكلفة. في محاسبة التكاليف، تتدفق التكاليف عبر الوحدات والمستويات التنظيمية، استنادًا إلى السياسات والقواعد المطبقة. تم إقران كل تكلفة بأساس توزيع يوفر أفضل تقييم لتخصيص التكاليف.
 
-عنصر التكلفة | كائن التكلفة<br>CC099 | كائن التكلفة<br>CC001 | كائن التكلفة<br>CC002 | كائن التكلفة<br>CC003 | كائن التكلفة<br>CC004 | كائن التكلفة<br>مشروع 1 | كائن التكلفة<br>مشروع 2 | كائن التكلفة<br>منتج 1 | كائن التكلفة<br>منتج 2 | الإجمالي
----|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
-10001 الكهرباء | 0.00 | 0.00 | 0.00 | 0.00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
-غير مصنف | 0.00 |  |  |  |  |  |  |  |  |  |
-تكلفة ثابتة | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  |  | 776.36 | 223.64 | 1,000.00 |
-تكلفة متغيرة | 000 | 0.00 | 0.00 | 0.00 | 0.00 | 30.00 | 10.00 | 6,994.21 | 1,965.79 | 9,000.00 |
+<table>
+<thead>
+<tr>
+<th colspan="2" rowspan="2">عنصر التكلفة</th>
+<th colspan="9">كائن التكلفة</th>
+<th rowspan="2">الإجمالي</th>
+</tr>
+<tr>
+<th>CC099</th>
+<th>CC001</th>
+<th>CC002</th>
+<th>CC003</th>
+<th>CC004</th>
+<th>مشروع 1</th>
+<th>مشروع 2</th>
+<th>منتج 1</th>
+<th>منتج 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">10001 الكهرباء</td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>30.00</strong></td>
+<td style="text-align: right;"><strong>10.00</strong></td>
+<td style="text-align: right;"><strong>7,770.57</strong></td>
+<td style="text-align: right;"><strong>2,189.43</strong></td>
+<td style="text-align: right;"><strong>10,000.00</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: left;">غير مصنف</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">تكلفة ثابتة</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">776.36</td>
+<td style="text-align: right;">223.64</td>
+<td style="text-align: right;"><strong>1,000.00</strong></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">تكلفة متغيرة</td>
+<td style="text-align: right;">000</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">30.00</td>
+<td style="text-align: right;">10.00</td>
+<td style="text-align: right;">6,994.21</td>
+<td style="text-align: right;">1,965.79</td>
+<td style="text-align: right;"><strong>9,000.00</strong></td>
+</tr>
+</tbody>
+</table>
 
 > [!NOTE]
 > يُظهر هذا الموضوع كيفية تدفق عنصر تكلفة أساسية، 10001 الكهرباء، عبر كائنات التكلفة. لذلك، يتم تخصيص تكلفة هذه المصروفات الزائدة إلى أدنى مستوى في المؤسسة. بمعنى آخر، كانئات التكلفة في أدنى مستوى هي التي تتحمل التكلفة. إذا احتجت إلى تدفق مرئي للتكلفة بين كائنات التكلفة، فيمكنك استخدام قواعد سياسة زيادة التكاليف‬ لرؤية تدفق التكلفة. لمزيد من المعلومات، راجع [سياسة التكاليف وحساب المصروفات الإضافية](cost-rollup.md).
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

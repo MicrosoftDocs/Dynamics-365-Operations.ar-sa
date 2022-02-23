@@ -1,26 +1,29 @@
 ---
 title: التقارير المالية لميزان المراجعة
 description: توضح هذه المقالة التقارير الافتراضية لموازين المراجعة. كما توضح العناصر الأساسية التي تقترن بهذه التقارير وكيف يمكنك تعديل التقارير لتناسب متطلبات العمل الخاص بك.
-author: jinniew
-ms.date: 05/26/2021
+author: jcart1106
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 12314
 ms.assetid: 3b77d6f3-fd07-41a7-9ddb-1b22d1ae33fc
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9bb4977acde8b7a0b2cd6b44c518654fe4a6283b28dfd41216a0173c3aa8b61f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b48510febf5a5f9f4a01728b242d9750b3c62c2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758041"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439797"
 ---
 # <a name="trial-balance-financial-reports"></a>التقارير المالية لميزان المراجعة
 
@@ -28,7 +31,8 @@ ms.locfileid: "6758041"
 
 توضح هذه المقالة التقارير الافتراضية لموازين المراجعة. كما توضح العناصر الأساسية التي تقترن بهذه التقارير وكيف يمكنك تعديل التقارير لتناسب متطلبات العمل الخاص بك. 
 
-## <a name="default-trial-balance-reports"></a>تقارير ميزان المراجعة الافتراضية
+<a name="default-trial-balance-reports"></a>تقارير ميزان المراجعة الافتراضية
+-----------------------------
 
 تتوفر ثلاثة تقارير لميزان المراجعة في التقارير المالية.
 
@@ -46,9 +50,6 @@ ms.locfileid: "6758041"
 | ميزان المراجعة المفصل - الافتراضي               | ميزان المراجعة - الافتراضي | ميزان المراجعة المفصل - الافتراضي               |
 | ميزان المراجعة الملخص - الافتراضي                | ميزان المراجعة - الافتراضي | ميزان المراجعة الملخص - الافتراضي                |
 | ميزان المراجعة الملخص لعام بعد عام – الافتراضي | ميزان المراجعة - الافتراضي | ميزان المراجعة الملخص لعام بعد عام – الافتراضي |
-
-> [!NOTE] 
-> عند تشغيل التقرير **ميزان المراجعة** Financial reporting، تأكد من تحديد خانات الاختيار لـ **عرض الصفوف بدون مبالغ** و **عرض التقارير بدون صفوف نشطة** في علامة التبويب **إعدادات**.
 
 ### <a name="row-definition"></a>تعريف الصف
 
@@ -96,7 +97,10 @@ ms.locfileid: "6758041"
     -   **FD** – البيانات المالية التي تحتوي على الديون فقط للسنة الأخيرة
     -   **FD** – البيانات المالية التي تحتوي على الائتمانات فقط للسنة الأخيرة
 
-## <a name="additional-resources"></a>الموارد الإضافية
+
+
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [نظرة عامة على التقارير المالية](financial-reporting-getting-started.md)
 
@@ -106,6 +110,3 @@ ms.locfileid: "6758041"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

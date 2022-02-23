@@ -1,26 +1,29 @@
 ---
 title: الجرد الدوري
 description: تصف هذه المقالة كيفية استخدام الجرد الدوري مع حل التخزين المتوفر في إدارة المستودعات. لا تنطبق هذه المقالة على حل التخزين المتوفر في إدارة المخزون.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902211"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421707"
 ---
 # <a name="cycle-counting"></a>الجرد الدوري
 
@@ -34,7 +37,7 @@ ms.locfileid: "7902211"
 2.  **معالجة الجرد الدوري** – بعد إنشاء عمل الجرد الدوري، ستقوم بتنفيذه بجرد الأصناف في موقع المستودع، ثم استخدام جهاز محمول لإدخال النتيجة في Dynamics 365 Supply Chain Management. بدلاً من ذلك، يمكنك حساب الأصناف في موقع مستودع دون إنشاء دورة جرد للعمل. يشار إلى هذه العملية  ب *نقطة الجرد الدوري*.
 3.  **حل الفروقات في قيمة الجرد** – بعد الجرد الدوري، ستكون الأصناف التي تتضمن فروقات في قيمة الجرد بحالة العمل **مراجعة معلقة‬** في صفحة **العمل بالكامل‬**. يمكنك حل هذه الفروقات في صفحة **عمل الجرد الدوري قيد انتظار المراجعة‬**.
 
-يبين الرسم التوضيحي التالي عملية الجرد الدوري. ![معالجة التدفق للجرد الدوري.](./media/performcyclecountinginawarehouselocation.jpg)
+يبين الرسم التوضيحي التالي عملية الجرد الدوري. ![معالجة التدفق للجرد الدوري](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>متطلبات الجرد الدوري الأساسية
 يعرض الجدول التالي المتطلبات الأساسية التي يجب أن تكون موجودة قبل أن تتمكن من استخدام الجرد الدوري.
@@ -137,6 +140,3 @@ ms.locfileid: "7902211"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: إضافة توصيات إلى شاشة الحركة
 description: يوضح هذا الموضوع كيفية إضافة عنصر تحكم في التوصيات لشاشة الحركة على جهاز نقطة البيع باستخدام مصمم تخطيط الشاشة في Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -16,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730997"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409776"
 ---
-# <a name="add-recommendations-to-the-transaction-screen"></a>إضافة توصيات إلى شاشة المعاملة
+# <a name="add-recommendations-to-the-transaction-screen"></a>إضافة توصيات إلى شاشة الحركة
 
 [!include [banner](includes/banner.md)]
 
@@ -43,7 +46,7 @@ ms.locfileid: "6730997"
 6. عندما تقوم بتسجيل الدخول، سوف تظهر لك صفحة تشبه الصفحة الموجودة أدناه. سوف يكون التخطيط مختلفًا اعتمادًا على التخصيصات التي تم إجراؤها لمتجرك.
 
 
-    [![مصمم التخطيط.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![مصمم التخطيط](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>تحديد خيار عرض
 
@@ -58,11 +61,11 @@ ms.locfileid: "6730997"
 1. قم بتقليل ارتفاع منطقة تفاصيل سطور الحركة بحيث يصبح ارتفاعها مماثلاً للوحة العميل إلى يسارها.
 
 
-    [![تقليل ارتفاع منطقة تفاصيل سطور الحركة.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![تقليل ارتفاع منطقة تفاصيل سطور الحركة](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. من القائمة الموجودة على اليسار، قم بسحب وإفلات عنصر تحكيم التوصيات بين منطقة تفاصيل سطور الحركة وزر الشبكة في منتصف أسفل شاشة الحركة. قم بتغيير حجم عنصر التحكم بحيث تحتويه هذه المساحة.
 
-    [![إضافة عناصر التحكم في التوصيات إلى التخطيط.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![إضافة عناصر التحكم في التوصيات إلى التخطيط](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. انقر فوق **X** للحفظ والخروج من مصمم التخطيط.
@@ -77,13 +80,13 @@ ms.locfileid: "6730997"
 
 2. انقر فوق **تخصيص‏‎**.
 
-    [![التخصيص - مربع حوار عنصر التحكم في التبويب.](./media/pic-5.png)](./media/pic-5.png)
+    [![التخصيص - مربع حوار عنصر التحكم في التبويب](./media/pic-5.png)](./media/pic-5.png)
 
 3. انقر فوق **علامة تبويب جديدة**.
 4. ابحث عن علامة التبويب الجديدة التي قمت بإضافتها. قد تحتاج إلى التمرير لأسفل.
 5. من القائمة المنسدلة **محتويات**، قم بتحديد **المنتجات الموصى بها**.
 
-    [![تحديد المنتجات الموصى بها في حقل المحتويات.](./media/pic-6.png)](./media/pic-6.png)
+    [![تحديد المنتجات الموصى بها في حقل المحتويات](./media/pic-6.png)](./media/pic-6.png)
 
 6. في حقل **التسمية**، اكتب اسمًا لعلامة تبويب التوصيات. على سبيل المثال، اكتب "المنتجات الموصى بها‬".
 7. في حقل **صورة**، قم بتحديد الصورة لتظهر على علامة التبويب.
@@ -116,6 +119,3 @@ ms.locfileid: "6730997"
 [إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

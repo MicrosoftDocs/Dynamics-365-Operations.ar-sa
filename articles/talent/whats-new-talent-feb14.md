@@ -52,6 +52,3 @@ ms.locfileid: "4460220"
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>إنشاء كيان جديد لمستويات تعويض الوظيفة
 تم إنشاء إطار عمل جديد لإدارة البيانات (DMF). يوفر الكيان العنصر اللازمة لإنشاء وتحديث مستويات التعويض وقيم السوق ومعلومات الاستطلاع لكل وظيفة معرّفة في النظام.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

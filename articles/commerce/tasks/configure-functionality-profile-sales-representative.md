@@ -2,9 +2,11 @@
 title: " تكوين ملف تعريف الوظائف لمندوب مبيعات"
 description: يوضح هذا الإجراء كيفية تكوين إعدادات ملف تعريف الوظائف في المخزن التي تنطبق على مندوبي المبيعات.
 author: jblucher
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46c74845002e4d89f070cc12dbcb789fb86307632e0bb91b1dae5ad98b652264
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c45a905ac29d5948e0ec7377418ff61248be2d2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712371"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964935"
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> تكوين ملف تعريف الوظائف لمندوب مبيعات
 
@@ -34,6 +36,3 @@ ms.locfileid: "6712371"
 4. في حقل "المطالبة بمندوب المبيعات"، حدد خيارًا.
 5. حدد "نعم" في الحقل "طلب مندوب المبيعات‬‬".
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

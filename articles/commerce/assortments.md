@@ -2,22 +2,25 @@
 title: إدارة المجموعات المنوعة
 description: يشرح هذا الموضوع المفاهيم الأساسية لإدارة المجموعات المنوعة في Dynamics 365 Commerce، ويوفر اعتبارات التنفيذ لمشروعك.
 author: jblucher
+manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717761"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409818"
 ---
 # <a name="assortment-management"></a>إدارة الفرز
 
@@ -35,27 +38,27 @@ ms.locfileid: "6717761"
 
 في المثال التالي، يتم تكوين فرز فريد لكل متجر. في هذه الحالة، يتوفر فقط المنتج 1 في المتجر 1، ويتوافر فقط المنتج 2 في المتجر 2.
 
-![يتوفر كل منتج في أحد المتاجر.](./media/Managing-assortments-figure1.png)
+![يتوفر كل منتج في أحد المتاجر](./media/Managing-assortments-figure1.png)
 
 لإتاحة المنتج 2 في المخزن 1، يمكنك إضافة المنتج إلى الفرز 1.
 
-![تمت إضافة المنتج 2 إلى الفرز 1.](./media/Managing-assortments-figure2.png)
+![تمت إضافة المنتج 2 إلى الفرز 1](./media/Managing-assortments-figure2.png)
 
 بدلاً من ذلك، يمكنك إضافة المتجر 1 إلى الفرز 2.
 
-![تمت إضافة المتجر 1 إلى الفرز 2.](./media/Managing-assortments-figure3.png)
+![تمت إضافة المتجر 1 إلى الفرز 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>التدرجات الهرمية للمؤسسات
 
 في الحالات التي تشترك فيها عدة قنوات في نفس عمليات فرز المنتجات، يمكنك تكوين عمليات الفرز باستخدام التدرج الهرمي للمؤسسات لعمليات فرز Commerce. عند إضافة العقد من هذا التدرج الهرمي، فسوف يتم تضمين جميع القنوات في تلك العقدة والعقد التابعة لها.
 
-![التدرج الهرمي للمؤسسات.](./media/Managing-assortments-figure4.png)
+![التدرج الهرمي للمؤسسات](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>فئات المنتج
 
 وبشكل مماثل، على جانب المنتج، يمكنك تضمين مجموعات المنتجات باستخدام التدرجات الهرمية لفئات المنتج. يمكنك تكوين عمليات الفرز من خلال تضمين عقد تدرج هرمي للفئات واحدة أو أكثر. في هذه الحالة، سوف تتضمن عملية الفرز جميع المنتجات في عقد الفئة تلك والعقد التابعة لها.
 
-![فئات المنتجات.](./media/Managing-assortments-figure5.png)
+![فئات المنتج](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>المنتجات أو الفئات المستثناة
 
@@ -64,7 +67,7 @@ ms.locfileid: "6717761"
 > [!NOTE]
 > إذا كان أحد المنتجات مُدرج ومستبعد في واحدة أو أكثر من عمليات الفرز حسب التعريف، فسوف يعتبر المنتج مستبعد دائمًا.
 
-![المنتج المستثنى.](./media/Managing-assortments-figure6.png)
+![المنتج المستثنى](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>المنتجات العمومية والمُصدرة
 
@@ -104,6 +107,3 @@ ms.locfileid: "6717761"
 - **المبيعات والعائدات خارج عمليات الفرز** – تساعد هذه الإمكانية تجار التجزئة في الإدارة الفعّالة لعمليات الفرز الخاصة بهم عن طريق السماح لهم بتحديد عدد المنتجات المتوفرة بالنسبة للمنتجات التي تنتمي إلى خليط المنتج الأساسي الخاص بالمتجر. كما تساعد هذه الإمكانية تجار التجزئة على التعامل مع المواقف التي يتم فيها حذف منتج عن طريق الخطأ من عملية الفرز، أو عندما يتم إرجاع منتج خارج نطاق التواريخ الفعّالة لعملية الفرز.
 
 في حالة عدم وجود بيانات المنتج في قواعد بيانات القناة، فمن ثم تقوم نقطة البيع باستدعاءات في الوقت الفعلي للمركز الرئيسي لاسترداد المعلومات المطلوبة، وبذلك يُمكن بيع المنتج أو إعادته أو وضعه في طلب عميل. تتوافر معلومات المنتج التي يتم استردادها بهذه الطريقة فقط في أثناء نطاق هذه الحركة. لا تتم إضافة المنتج إلى تعريف الفرز. لذلك، سوف يتم إجراء الاستدعاءات اللاحقة في الوقت الفعلي على النحو المطلوب.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

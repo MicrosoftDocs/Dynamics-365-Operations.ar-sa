@@ -2,24 +2,27 @@
 title: مساحة عمل إدارة الأصول الثابتة
 description: يوفر هذا الموضوع معلومات حول مساحة عمل إدارة الأصول الثابتة. تعرض مساحة العمل هذه المعلومات المرتبطة بالأصول الثابتة التي تم إدخالها في النظام. وهي تتضمن طريقة عرض ملخصة وطريقة عرض التحليلات.
 author: saraschi2
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 597a9a32995d44282c89725e053f6da4643dbb691b1b36ae7c237acbfa2afb70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea6f04b1dad162749edc1ad7662f7d9cf077221d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721793"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439927"
 ---
 # <a name="fixed-asset-management-workspace"></a>مساحة عمل إدارة الأصول الثابتة
 
@@ -71,6 +74,3 @@ ms.locfileid: "6721793"
 | خرائط التقييمات        | تفاصيل الأصول الثابتة |
 
 لعرض التحليلات مع البيانات، يجب أولاً تحديث قياس التجميع AssetTransactionMeasure في صفحة **مخزن الكيانات**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

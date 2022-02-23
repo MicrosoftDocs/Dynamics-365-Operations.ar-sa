@@ -2,24 +2,27 @@
 title: إعداد وظيفة كانبان عملية عندما تتوفر المواد لخلية العمل
 description: تركز هذه المهمة على إعداد وظيفة كانبان عملية عندما تكو جميع المواد متوفرة لخلية العمل.
 author: johanhoffmann
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e16272376924da03b0a470d143e03c8319f06d5b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: cd6d5add4d11c917a705e88d10b589e2c43fab89
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573671"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421178"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>إعداد وظيفة كانبان عملية عندما تتوفر المواد لخلية العمل
 
@@ -39,6 +42,3 @@ ms.locfileid: "7573671"
 6. انقر فوق "تحضير‬".
     * تم الآن إكمال عملية التحضير. تشير خانة الاختيار المحددة لكافة الصفوف في قائمة الانتقاء إلى أن حالة التوريد هي "تم الانتقاء".  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: الأبعاد المالية
 description: يصف هذا الموضوع مختلف أنواع الأبعاد المالية وكيفية إعدادها.
 author: aprilolson
+manager: AnnBe
 ms.date: 01/03/2019
 ms.topic: article
 ems.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d5de5b58f0d498c4766659671d43fdb216cd6a870345509505b5a6bc19bdd4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0715d3e4e4cb167c55d9c7d98cdf599187bf3b43
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754184"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440063"
 ---
 # <a name="financial-dimensions"></a>الأبعاد المالية
 
@@ -137,6 +140,3 @@ ms.locfileid: "6754184"
 
 - [تحديد الأبعاد المالية](tasks/define-financial-dimensions.md)
 - [الاحتفاظ بالقوالب الافتراضية للأبعاد المالية](tasks/maintain-financial-dimension-default-templates.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

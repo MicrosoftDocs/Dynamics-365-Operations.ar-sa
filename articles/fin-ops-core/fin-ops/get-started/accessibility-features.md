@@ -2,9 +2,11 @@
 title: ميزات إمكانية الوصول
 description: يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071048"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798685"
 ---
 # <a name="accessibility-features"></a>ميزات إمكانية الوصول
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة في استخدام هذا التطبيق. على سبيل المثال، هناك ميزات للأشخاص الذين يستخدمون تقنيات مساعدة مرئية، مثل Microsoft Windows Narrator.
 
@@ -55,13 +54,13 @@ ms.locfileid: "8071048"
 
 تحتاج إلى تشغيل إجراء **سجل الإخطار بالبريد الإلكتروني** الذي يظهر في مجموعة **الإخطار بالبريد الإلكتروني** في علامة التبويب **أمر المبيعات** في "جزء الإجراء".
 
-![إجراء سجل الإخطار بالبريد الإلكتروني في جزء الإجراء.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "إجراء &quot;سجل الإخطار بالبريد الإلكتروني&quot; في جزء الإجراء")
+![إجراء سجل الإخطار بالبريد الإلكتروني في جزء الإجراء](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "إجراء &quot;سجل الإخطار بالبريد الإلكتروني&quot; في جزء الإجراء")
 
 يتمثل أحد الخيارات في استخدام لوحة المفاتيح. اضغط على Ctrl+F6 لنقل التركيز إلى "جزء الإجراء"، ثم اضغط على Tab باستمرار للتنقل خلال جميع علامات التبويب والإجراءات, حتى يتم التركيز على إجراء **سجل الإخطار بالبريد الإلكتروني**.
 
 ومع ذلك، يمكنك أيضًا تشغيل الإجراء بشكل أكثر مباشرةً. من أي مكان في الصفحة، اضغط على Ctrl+علامة اقتباس أحادية (') لإظهار خانة البحث عن الإجراءات.
 
-![خانة البحث عن الإجراءات.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "خانة البحث عن الإجراءات")
+![خانة البحث عن الإجراءات](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "خانة البحث عن الإجراءات")
 
 في خانة البحث، اكتب كلمات تصف الإجراء. يتم توفير الإجراء لك، ويمكنك تشغيله مباشرةً. على سبيل المثال، عن طريق كتابة **البريد الإلكتروني** أو **إخط** (جزء من الكلمة) أو **سجل**، يمكنك "الانتقال" إلى وظائف سجل الإخطار بالبريد الإلكتروني.
 
@@ -98,6 +97,3 @@ ms.locfileid: "8071048"
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>تشمل إرشادات مساعدة المطورين والعملاء تفكير يمكن الوصول إليه في تخصيصاتهم
 
 لمزيد من المعلومات حول أفضل ممارسات Microsoft لتمكين الوصول، راجع [إمكانية الوصول في النماذج والمنتجات وعناصر التحكم](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

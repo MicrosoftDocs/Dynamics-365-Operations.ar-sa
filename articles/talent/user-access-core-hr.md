@@ -46,6 +46,3 @@ ms.locfileid: "4460193"
 **حل طويل الأجل**
 
 يضع Microsoft في الاعتبار تعيين الحقوق المناسبة لتطبيق Onboard و Attract عند إضافة مستخدم إلى Human Resources.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

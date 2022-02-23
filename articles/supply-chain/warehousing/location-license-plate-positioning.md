@@ -2,23 +2,26 @@
 title: ‏‫تحديد موضع لوحة ترخيص الموقع
 description: يتيح لك ضبط موضع لوحة الترخيص رؤية أين توجد لوحة الترخيص في موقع متعدد البالتات، مثل الموقع الذي يستخدم رفوف بالتات مزدوجة العمق.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c19f8dcdb7d84b752e0eec56afdb1a1865cfe00b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567597"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421690"
 ---
 # <a name="location-license-plate-positioning"></a>‏‫تحديد موضع لوحة ترخيص الموقع
 
@@ -88,7 +91,7 @@ ms.locfileid: "7567597"
 1. بينما ما تزال **لوحة الترخيص** محددة، حدد **إضافة صلة جدول**.
 1. في قائمة الجداول التي تظهر، في عمود **العلاقة**، حدد **ضبط موضع لوحة ترخيص الموقع (لوحة الترخيص)**. ثم حدد **تحديد** لإضافة **ضبط موضع لوحة ترخيص الموقع** إلى صلة جدول **أبعاد المخزون**.
 
-    ![صلات الجداول.](media/LpTableJoin.png "صلات الجداول")
+    ![صلات الجداول](media/LpTableJoin.png "صلات الجداول")
 
 1. حدد **موافق** لتأكيد الجداول المرتبطة المحدثة وإغلاق محرر الاستعلام.
 1. في علامة التبويب السريعة **إجراءات توجيه الموقع**، حدد **تحرير الاستعلام** مرة أخرى لإعادة فتح محرر الاستعلام.
@@ -100,7 +103,7 @@ ms.locfileid: "7567597"
     - **الحقل:** *موضع LP*
     - **المعايير:** *1*
 
-    ![نطاق جديد.](media/LpPositionCriteria.png "نطاق جديد")
+    ![نطاق جديد](media/LpPositionCriteria.png "نطاق جديد")
 
 1. حدد **موافق** لتأكيد تغييراتك وإغلاق محرر الاستعلام.
 
@@ -275,9 +278,6 @@ ms.locfileid: "7567597"
 1. في صفحة **مسح معرف العمل / معرف لوحة الترخيص**، حدد حقل **المعرف**، ثم أدخل معرف العمل من بند المبيعات.
 1. لاحظ أن عمل الانتقاء يوجك لانتقاء الصنف *A0002* من الموقع *01A01R1S2B*. تتلقي هذا التعليمات نظرا لأن الصنف *A0002* موجود على لوحة ترخيص في الموضع *1* في ذلك الموقع.
 
-    ![موقع الموضع 1.](media/LocationLicensePlatePositioning.png "الموضع 1")
+    ![الموضع 1](media/LocationLicensePlatePositioning.png "الموضع 1")
 
 1. أدخل معرف لوحة الترخيص الذي قمت بإنشائه للموقع، ثم اتبع المطالبات لانتقاء أمر المبيعات.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

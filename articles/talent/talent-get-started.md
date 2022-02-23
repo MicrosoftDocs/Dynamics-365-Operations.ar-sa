@@ -66,6 +66,3 @@ ms.locfileid: "4460196"
 ### <a name="videos"></a>ملفات فيديو
 راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

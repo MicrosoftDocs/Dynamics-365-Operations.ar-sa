@@ -1,54 +1,55 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources (06 أغسطس 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 06 أغسطس 2020.
-author: andreabichsel
-ms.date: 08/06/2020
+author: darinkramer
+manager: AnnBe
+ms.date: 8/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062176"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528415"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (06 أغسطس 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3444. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم LCS للحصول على مرجع.
 
 ## <a name="platform-update-1001236-is-now-available"></a>يتوفر الآن تحديث النظام الأساسي 10.0.12(36)
 
-لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.12 من تطبيقات التمويل والعمليات (أغسطس 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+لمزيد من المعلومات، راجع [تحديثات النظام الأساسي للإصدار 10.0.12 من تطبيقات Finance and Operations (أغسطس 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>كيانات إطار عمل إدارة البيانات (DMF) لإدارة المزايا
  
 يتم إصدار كيانات إدارة المزايا. تتيح كيانات DMF استيراد البيانات وتصديرها لتكوين إدارة المزايا بسهولة. كما سيتوفر قالب إدارة المزايا لنقل البيانات. يقوم هذا القالب بتصدير البيانات واستيرادها بطريقة تسلسلية لمراعاة تبعيات البيانات. لمزيد من المعلومات، راجع:
 
-- [دعم كيان DMF](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) في خطة الموجة 1 من إصدار 2020 لتطبيق Dynamics 365
-- [نظرة عامة حول إدارة البيانات](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
+- [دعم كيان DMF](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) في خطة الموجة 1 من إصدار 2020 لتطبيق Dynamics 365
+- [نظرة عامة حول إدارة البيانات](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>تقوم كلير بإنشاء سير عمل لطلبات شراء وبيع الإجازات (446557)
 
 لمزيد من المعلومات، راجع:
 
-- [السماح للموظفين ببيع وشراء الإجازات](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365
-- [إدارة سياسات شراء الإجازة وبيعها](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-- [شراء الإجازة وبيعها](./hr-employee-self-service-buy-sell-leave.md)
+- [السماح للموظفين ببيع وشراء الإجازات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365
+- [إدارة سياسات شراء الإجازة وبيعها](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [شراء الإجازة وبيعها](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>يتوفر للإصدار V2 من العناوين البريدية للعامل حق الوصول عبر الكيانات القانونية مع وصول مقيد (459126)
@@ -61,7 +62,7 @@ ms.locfileid: "8062176"
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>كيانات جديدة لإجازات لبيع وشراء الإجازات (473180)
 
-تتوفر الآن كيانات إطار عمل إدارة البيانات لبيع وشراء الإجازات. لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة البيانات](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+تتوفر الآن كيانات إطار عمل إدارة البيانات لبيع وشراء الإجازات. لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة البيانات](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>عند عرض معلومات السجل واستخدام عوامل التصفية المتقدمة، قد يصل المستخدم إلى سجلات الموظفين الآخرين (472490)
 
@@ -95,9 +96,9 @@ ms.locfileid: "8062176"
 
 توفر بعض المؤسسات ميزة تتيح للموظفين شراء الإجازات أو بيعها. غالبا ما تُدار هذه العملية يدويًا. تقوم هذه الميزة بأتمتة سياسات وطلبات الإدارة الخاصة بقسم الموارد البشرية. إذا تُبسط عملية عملية إدارة الإجازات وتساعد علي تقليل الأخطاء. لمزيد من المعلومات، راجع:
 
-- [السماح للموظفين ببيع وشراء الإجازات](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365
-- [إدارة سياسات شراء الإجازة وبيعها](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-- [شراء الإجازة وبيعها](./hr-employee-self-service-buy-sell-leave.md)
+- [السماح للموظفين ببيع وشراء الإجازات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365
+- [إدارة سياسات شراء الإجازة وبيعها](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [شراء الإجازة وبيعها](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>استحقاق الإجازة‬‏‫ لشركة فردية أو خطة فردية
 
@@ -125,15 +126,15 @@ ms.locfileid: "8062176"
 
 يمكنك جعل الحقول إلزامية باستخدام إمكانيات التخصيص في Human Resources. تتطلب هذه الميزة **طرق عرض محفوظة**. لمزيد من المعلومات حول طرق العرض المحفوظة، راجع:
 
-- [طرق العرض المحفوظة - التوفر العام](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
-- [إنشاء نماذج تستخدم طرق العرض المحفوظة بشكل كامل](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
+- [طرق العرض المحفوظة - التوفر العام](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
+- [إنشاء نماذج تستخدم طرق العرض المحفوظة بشكل كامل](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
 
 ### <a name="human-resources-application-in-teams"></a>تطبيق Human Resources في Teams
 
 بإمكان الموظفين عرض وطلب الوقت بعيدًا عن العمل ضمن Microsoft Teams يمكنهم التفاعل مع روبوت لإنشاء طلبات الإجازات. لمزيد من المعلومات، راجع:
 
-- [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
-- [تطبيق Human Resources في Teams](./hr-admin-teams-leave-app.md)
+- [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
+- [تطبيق Human Resources في Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>يتوفر كيان DMF لتعليقات الاستحقاق
 
@@ -141,9 +142,9 @@ ms.locfileid: "8062176"
 
 ## <a name="coming-soon"></a>قريبًا
 
-## <a name="checklist-entities-included-in-dataverse"></a>تضمين كيانات قائمة الاختيار في Dataverse
+## <a name="checklist-entities-included-in-common-data-service"></a>تضمين كيانات قائمة الاختيار في Common Data Service
 
-ستتوفر كيانات قائمة الاختيار لعمليات الإلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبًا في Dataverse.
+ستتوفر كيانات قائمة الاختيار لعمليات الإلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبًا في Common Data Service.
 
 ## <a name="known-issues"></a>مشكلات معروفة
 
@@ -171,9 +172,6 @@ ms.locfileid: "8062176"
 ## <a name="see-also"></a>راجع أيضًا
 
 [الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

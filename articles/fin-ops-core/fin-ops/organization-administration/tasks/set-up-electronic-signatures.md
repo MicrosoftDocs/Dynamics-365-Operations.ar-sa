@@ -2,9 +2,11 @@
 title: إعداد التوقيعات الإلكترونية
 description: استخدم هذا الإجراء لإعداد التواقيع الإلكترونية.
 author: maertenm
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysConfiguration, SIGParameters, SIGReasonCode, SIGProcSetup
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4075e47013bb6a3f42cb07f88df121cef8688463cab25c4a734c5363106ace4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 314f48fcac32793c96466ee807d5685e596193b1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749522"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796648"
 ---
 # <a name="set-up-electronic-signatures"></a>إعداد التوقيعات الإلكترونية
 
@@ -75,6 +77,3 @@ ms.locfileid: "6749522"
 10. انقر فوق "حفظ".
 11. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

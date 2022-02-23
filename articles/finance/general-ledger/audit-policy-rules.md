@@ -2,9 +2,11 @@
 title: قواعد سياسة التدقيق
 description: يمكنك استخدام سياسات التدقيق لتقييم تقارير المصروفات، وفواتير المورد، وأوامر الشراء للتأكد من امتثالها لقواعد السياسة التي تقوم بإنشائها. يتم تشغيل كل القواعد المقترنة بسياسة التدقيق في الوضع الدفعي، ووفقا للجدول الزمني الذي تحدده.  كل قاعدة سياسة هي مثال على نوع قاعدة السياسة. لكل نوع قاعدة السياسة، يمكن تنشيط قاعدة سياسة واحدة فقط في المرة الواحدة.
 author: panolte
+manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbf93f5b8b2f8d95102a52178b096d7e334894483c0ac0bacc62653aea845022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744296"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021231"
 ---
 # <a name="audit-policy-rules"></a>قواعد سياسة التدقيق
 
@@ -28,7 +30,8 @@ ms.locfileid: "6744296"
 
 يمكنك استخدام سياسات التدقيق لتقييم تقارير المصروفات، وفواتير المورد، وأوامر الشراء للتأكد من امتثالها لقواعد السياسة التي تقوم بإنشائها. يتم تشغيل كل القواعد المقترنة بسياسة التدقيق في الوضع الدفعي، ووفقا للجدول الزمني الذي تحدده.  كل قاعدة سياسة هي مثال على نوع قاعدة السياسة. لكل نوع قاعدة السياسة، يمكن تنشيط قاعدة سياسة واحدة فقط في المرة الواحدة. 
 
-## <a name="queries-and-query-types"></a>الاستعلامات وأنواع الاستعلامات
+<a name="queries-and-query-types"></a>الاستعلامات وأنواع الاستعلامات
+-----------------------
 
 عند إنشاء قاعدة سياسة تدقيق، يجب أولاً تحديد نوع قاعدة السياسة. نوع قاعدة السياسة يحدد أي من استعلامات ‏‫شجرة مكونات البرنامج‬ (AOT) وسيتم استخدامه كنقطة بداية لإنشاء قاعدة السياسة. كما يحدد نوع الاستعلام ﻻستخدامه في قاعدة السياسة أيضا. يشير هذا الاستعلام إلى مستند المصدر الذي تم تعريف نوع قاعدة السياسة له. أيضا يعين الحقول في مستند المصدر التي تقوم بتعريف كل من الكيان القانوني والتاريخ المطلوب استخدامه للتدقيق في الوثائق المحددة. يتحكم نوع الاستعلام في الحقول الافتراضية في صفحة الاستعلام وفي صفحة قاعدة سياسة التدقيق. يسرد الجدول التالي أنواع الاستعلامات المتاحة لسياسة التدقيق.
 
@@ -90,12 +93,10 @@ ms.locfileid: "6744296"
 
 
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [تدقيق انتهاكات السياسة والحالات](audit-policy-violations-cases.md)
 [تحديد سياسات التدقيق‬ للمستندات المصدر](tasks/define-audit-policies-source-documents.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

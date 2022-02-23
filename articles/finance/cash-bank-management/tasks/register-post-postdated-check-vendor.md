@@ -2,23 +2,26 @@
 title: تسجيل شيك بتاريخ لاحق لمورد وترحيله
 description: يمكنك تسجيل تفاصيل شيك بتاريخ لاحق قبل أن تقوم بإصدار الشيك لمورد، وذلك باستخدام ‏‫إيصال دفتر اليومية.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ca63923a18ce531493e390ec3883910fe25b0fb4d4dc61203285a33bee2714e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63a822350ce2bd4d673d7f9841822c84fb883601
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761292"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439982"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>تسجيل شيك بتاريخ لاحق لمورد وترحيله
 
@@ -53,6 +56,3 @@ ms.locfileid: "6761292"
 16. قم بإغلاق الصفحة.
 17. انقر فوق علامة التبويب "الشيكات التي تم تأخير تواريخها".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: نظرة عامة على سمات الأصول
 description: يوفر هذا الموضوع نظرة عامة على سمات الأصول في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectAttributeOverview
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2214"
-- intro-internal
+ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98386b6ffe2a5f9c79c0ee1f18073ac13fc3a039
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a092fac4f1b8648c2c93791f1c5efb90708c44e2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986450"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020169"
 ---
 # <a name="asset-attribute-overview"></a>نظرة عامة على سمات الأصول
 
@@ -39,6 +39,3 @@ ms.locfileid: "7986450"
 3. حدد **موافق**. تعرض قائمة جميع الأصول التي تستخدم نوع الأصل المحدد. لكل أصل، تظهر جميع أنواع سمات الأصول ذات الصلة في نفس السطر.
 
 تعرض صفحة **سمة الأصل** سطرًا منفصلاً لكل نوع سمة يتم استخدامه على أصل. لفتح هذه الصفحة، حدد **إدارة الأصول** \> **استعلامات** \> **الأصول‏‎** \> **نظرة عامة على سمات الأصول‏‎**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

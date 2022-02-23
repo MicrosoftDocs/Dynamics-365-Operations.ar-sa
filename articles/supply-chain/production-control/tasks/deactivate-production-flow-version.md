@@ -1,25 +1,28 @@
 ---
 title: إلغاء تنشيط إصدار تدفق الإنتاج
 description: يمكنك إلغاء تنشيط إصدار تدفق الإنتاج عندما تنتفي الحاجة إليه.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1691dc644e2e191a9e74980784d6dcf741dcd598
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6e818d3d75be8b24531afc6280ae0c37eca4de23
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576750"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421074"
 ---
 # <a name="deactivate-a-production-flow-version"></a>إلغاء تنشيط إصدار تدفق الإنتاج
 
@@ -43,6 +46,3 @@ ms.locfileid: "7576750"
     * لا تتابع إذا لم تكن متأكدًا 100% من أن إصدار تدفق الإنتاج هذا عبارة عن إصدار مهمل. سيؤدي النقر فوق "موافق" إلى إنهاء صلاحية كافة قواعد كانبان النشطة وإيقاف كافة أنشطة الإنتاج والتزويد لإصدار تدفق الإنتاج هذا بشكل فوري.  
 6. انقر فوق "موافق".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,32 +1,35 @@
 ---
 title: المبلغ التقريبي لعمليات حساب الإهلاك
-description: يتناول هذا الموضوع حقل "تقريب الإهلاك" الموجود في صفحات إعداد الدفتر.
-author: moaamer
+description: تتناول هذه المقالة حقل "تقريب الإهلاك" الموجود في صفحات إعداد الدفتر.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3df48fc7bb092b0257c4652a8c67d1d740dbcfe
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 40fd019b1b5900fbd15866d9d3c32ed6d88147b4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674323"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440004"
 ---
 # <a name="round-off-amount-for-depreciation-calculations"></a>المبلغ التقريبي لعمليات حساب الإهلاك
 
 [!include [banner](../includes/banner.md)]
 
-يتناول هذا الموضوع حقل **تقريب الإهلاك** الموجود في صفحات **إعداد الدفتر**.
+تتناول هذه المقالة حقل "تقريب الإهلاك" الموجود في صفحات إعداد الدفتر.
 
 ‏‫يتم تعيين مبالغ تقريب الإهلاك لكل دفتر. وتُستخدم مبالغ الإهلاك التقريبية في ملف تعريف إهلاك الأصول الثابتة، الذي يوضح الإهلاك المستقبلي وقيمة الأصل الثابت، وكذلك في مقترحات الإهلاك.‬ أدخل الحد الأدنى لمبلغ إهلاك المسموح به للدفتر. 
 
@@ -47,6 +50,3 @@ ms.locfileid: "7674323"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

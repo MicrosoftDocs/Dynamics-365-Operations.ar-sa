@@ -2,23 +2,26 @@
 title: إدارة البدل التجاري
 description: يصف هذا الموضوع إدارة البدل التجاري‬ في Dynamics 365 Supply Chain Management.
 author: t-benebo
+manager: tfehr
 ms.date: 08/17/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTable, MCRRoyaltyVendTrans, PdsCustRebateGroup, PdsRebateAgreement, TAMCopyTradePromotions, TAMDeduction, TAMDeductionCreate, TAMDeductionDenyReason, TAMDeductionParmDeny, TAMDeductionParmMassUpdate, TAMDeductionParmMatch, TAMDeductionParmSplit, TAMDeductionParmWriteOff, TAMDeductionType, TAMDeductionWriteOffReason, TAMFundManagement, TAMFundUsage, TAMListPage, TAMMarketingObjective, TAMMerchEventType, TAMOneTimePromotion, TAMPromoCompareGraph, TAMPromoStatistic, TAMPromotionAnalysisSummary, TAMPromotionParameters, TAMPromotionPeriod, TAMTemplateListPage, TAMTradePromotionAnalysis, TAMTradePromotions, TAMWhatIfPromotionAnalysis
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 15c003109814d9b4dc2857910e69754e5927ec11138d215056be64424998bf00
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13b665427a4caf206e0a3b3aca6b04c1529b9206
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771265"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421324"
 ---
 # <a name="trade-allowance-management"></a>إدارة البدل التجاري
 
@@ -59,7 +62,7 @@ ms.locfileid: "6771265"
 
 يتم تسجيل الصناديق التي تم توزيعها لاتفاقيات البدل التجاري في صفحة **الصناديق**. لفتح صفحة **الصناديق**، حدد **المبيعات والتسويق** \> **البدلات التجارية** \> **الصناديق** \> **الصناديق**.
 
-![صفحة الأرصدة.](./media/trade-allowance-management-funds-page.png "صفحة الأرصدة")
+![صفحة الأرصدة](./media/trade-allowance-management-funds-page.png "صفحة الأرصدة")
 
 في صفحة **الصناديق**، يمكنك عرض تفاصيل الصناديق الترويجية.
 
@@ -75,9 +78,9 @@ ms.locfileid: "6771265"
 
 يتم تسجيل اتفاقيات البدل التجاري في صفحة **اتفاقيات البدل التجاري**. لفتح صفحة **اتفاقيات البدل التجاري**، حدد **المبيعات والتسويق** \> **البدلات التجارية** \> **اتفاقيات البدل التجاري**.
 
-![صفحة اتفاقيات البدل التجاري‬.](./media/trade-allowance-management-agreements-page.png "صفحة اتفاقيات البدل التجاري‬")
+![صفحة اتفاقيات البدل التجاري‬](./media/trade-allowance-management-agreements-page.png "صفحة اتفاقيات البدل التجاري‬")
 
-#### <a name="header"></a>الرأس
+#### <a name="header"></a>رأس
 
 حدد **رأس** للتبديل إلى طريقة عرض الرأس.
 
@@ -103,7 +106,7 @@ ms.locfileid: "6771265"
 
 عندما تحدد الحدث التجاري ثم تحدد علامة تبويب **المبالغ**، يتم العثور على تفاصيل الحدث.
 
-![بنود اتفاقية البدل التجاري.](./media/trade-allowance-management-agreements-lines.png "بنود اتفاقية البدل التجاري")
+![بنود اتفاقية البدل التجاري](./media/trade-allowance-management-agreements-lines.png "بنود اتفاقية البدل التجاري")
 
 في القسم **بنود البدل التجاري**، ستحدد نطاقات الكمية أو المبالغ التي يجب أن يحققها العميل للتعريفات للحصول على المكافآت.
 
@@ -197,6 +200,3 @@ ms.locfileid: "6771265"
 
 للحصول على نظرة عامة تقدم المزيد من التحليل لمختلف مقاييس أداء الحملة الترويجية، يمكنك استخدام طريقة عرض التحليل. للانتقال إلى طريقة عرض التحليل، انقر فوق **المبيعات والتسويق** \> **البدلات التجارية** \> **اتفاقيات البدل التجاري**. في جزء الإجراءات، انقر فوق **تحليل**. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

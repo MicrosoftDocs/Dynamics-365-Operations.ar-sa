@@ -2,9 +2,11 @@
 title: قبل الشراء
 description: إرشادات خطوة بخطوة لاستخدامها عندما تفكر في شراء Dynamics 365 Finance أو Dynamics 365 Supply Chain Management أو Dynamics 365 Commerce.
 author: ShellyBakke
-ms.date: 11/30/2021
+manager: AnnBe
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874574"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798539"
 ---
 # <a name="before-you-buy"></a>قبل الشراء
 
@@ -42,7 +44,7 @@ ms.locfileid: "7874574"
 - [متطلبات النظام لعمليات النشر المحلي](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> عمليات النشر المحلي غير مدعومة على أي مجموعة عامة، بما في ذلك Microsoft Azure. ومع ذلك، فإنها مدعومة للتشغيل على [Microsoft Azure مكدس HCI](https://azure.microsoft.com/products/azure-stack/hci/) و [Microsoft Azure مركز المكدس](https://azure.microsoft.com/products/azure-stack/hub/).
+> عمليات النشر المحلي غير مدعومة على أي مجموعة عامة، بما في ذلك Microsoft Azure.
 
 للحصول على مزيد من المعلومات، راجع [خيارات التوزيع](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -86,11 +88,8 @@ ms.locfileid: "7874574"
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>الخطوة الرابعة: التعرف على FastTrack والتخطيط لعملية النشر
 
-إن Microsoft FastTrack for Dynamics 365 هو خدمة العملاء الناجحة التي تم تصميمها لمساعدتك على الانتقال إلى Dynamics 365 بثقة وسلاسة، لكي تتمكن من تحقيق قيمة عملك بشكل أسرع. عند مشاركتك في برنامج FastTrack، سوف تتلقى إرشادات حول أفضل الممارسات وكيفية التخطيط لعمليات نشر ناجحة. ستتعرف أيضًا على طرق لتمكين مستخدمين جدد وتوسيع الإمكانيات – كل ذلك بحسب وتيرتك الخاصة. بالإضافة إلى ذلك، سيتوفر لديك الوصول إلى موارد Microsoft الهندسية الملتزمة بتحويل تجربتك في استخدام Dynamics 365 إلى تجربة ناجحة. لمزيد من المعلومات، راجع [Microsoft FastTrack](/dynamics365/fasttrack/).
+إن Microsoft FastTrack for Dynamics 365 هو خدمة العملاء الناجحة التي تم تصميمها لمساعدتك على الانتقال إلى Dynamics 365 بثقة وسلاسة، لكي تتمكن من تحقيق قيمة عملك بشكل أسرع. عند مشاركتك في برنامج FastTrack، سوف تتلقى إرشادات حول أفضل الممارسات وكيفية التخطيط لعمليات نشر ناجحة. ستتعرف أيضًا على طرق لتمكين مستخدمين جدد وتوسيع الإمكانيات – كل ذلك بحسب وتيرتك الخاصة. بالإضافة إلى ذلك، سيتوفر لديك الوصول إلى موارد Microsoft الهندسية الملتزمة بتحويل تجربتك في استخدام Dynamics 365 إلى تجربة ناجحة. لمزيد من المعلومات، راجع [Microsoft FastTrack](fasttrack-dynamics-365-overview.md).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>إذا كنت تقوم بالترقية من Dynamics AX 2012 أو الترحيل من AX 2009
 
 إذا كنت عميلاً يقوم بالترقية من Microsoft Dynamics AX 2012 أو الترحيل من Microsoft Dynamics AX 2009، فقد تكون مؤهلاً للحصول على فترة تجريبية أطول. تواصل مع <daxcf@microsoft.com> لمزيد من المعلومات.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

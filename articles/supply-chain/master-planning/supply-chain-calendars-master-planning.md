@@ -1,25 +1,28 @@
 ---
 title: التقويمات والتخطيط الرئيسي
 description: يوفر هذا الموضوع نظرة عامة حول تقويمات سلسلة التوريد وكيفية تأثيرها على التخطيط الرئيسي.
-author: ChristianRytt
+author: t-benebo
+manager: tfehr
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568605"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421391"
 ---
 # <a name="calendars-and-master-planning"></a>التقويمات والتخطيط الرئيسي
 
@@ -90,7 +93,7 @@ ms.locfileid: "7568605"
 
 لاحظ أنه من يمكن تضمين تقويم واحد فقط لكل عميل. إذا أردت تضمين تقويم لكل عنوان مختلف من عناوين أحد العملاء، فيمكنك إنشاء عميل واحد لكل عنوان ثم تعيين تقويمه الخاص. 
 
-يتأثر تاريخ الاستلام المطلوب في بنود أمر المبيعات بتقويم العميل وبطريقة التحكم في تاريخ التسليم. يمكنك قراءة المزيد حول كيفية احتساب تاريخ التسليم الأبكر في [التعهد بالأمر.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+يتأثر تاريخ الاستلام المطلوب في بنود أمر المبيعات بتقويم العميل وبطريقة التحكم في تاريخ التسليم. يمكنك قراءة المزيد حول كيفية احتساب تاريخ التسليم الأبكر في [التعهد بالأمر.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>تقويم الشحن لكيان قانوني
 للإشارة إلى التواريخ التي يمكن فيها لكيان قانوني شحن البضائع، يمكنك إعداد تقويم شحن ضمن **إدارة المؤسسة > المؤسسات > الكيانات القانونية**. حدد الكيان القانوني وأضف التقويم في علامة التبويب **التجارة الخارجية واللوجستيات** في الحقل **تقويم الشحن**. سوف يعمل تقويم كمصدر للإعدادات الافتراضية لكافة تقويمات المستودع في الكيان القانوني. 
@@ -140,6 +143,3 @@ ms.locfileid: "7568605"
 
 ### <a name="updating-scm-related-calendars"></a>تحديث التقويمات ذات الصلة SCM
 على الرغم من أهمية تعيين كافة التقويمات ذات الصلة في المكان المناسب لها (المورّد أو العميل أو المستودع أو وضع التسليم أو مجموعة التغطية)، فإن تحديثها هو على قدر الأهمية نفسه بحيث تعكس التغييرات. سيحدد النظام تواريخ الإنتاج والشراء والتحويل وأوامر المبيعات استنادًا إلى مجموعة التقويمات المعينة. من المستحسن توضيح من هي الجهة التي تتحمل مسؤولية تعيين التقويمات وتحديثها في المجالات الخاصة بها. عند حدوث عطل أو تغيير غير اعتيادي في أيام العمل، من الضروري تحديث التقويمات وفقًا لذلك. يجب إعادة تشغيل كافة المهام التي تعتمد على التقويمات، مثل التخطيط الرئيسي وجدولة الإنتاج، عند تحديث التقويمات. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

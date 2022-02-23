@@ -1,34 +1,37 @@
 ---
-title: دفعات ضريبة المبيعات وقواعد التقريب
-description: توضح هذا الموضوع كيفية عمل إعداد قاعدة التقريب في هيئات ضريبة المبيعات‬ وتقريب موازنة ضريبة المبيعات أثناء وظيفة تسوية ضريبة المبيعات وترحيلها‬.
-author: kailiang
-ms.date: 10/29/2021
+title: مدفوعات ضريبة المبيعات وقواعد التقريب
+description: توضح هذه المقالة كيفية عمل إعداد قاعدة التقريب في هيئات ضريبة المبيعات‬ وتقريب موازنة ضريبة المبيعات أثناء وظيفة تسوية ضريبة المبيعات وترحيلها‬.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: kailiang
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a75d41195875c5ed48cbe8ce5f5e448f173e718
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 998dbd01352d3fa5040187e81b564d14133464db
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726769"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4440117"
 ---
-# <a name="sales-tax-payments-and-rounding-rules"></a>دفعات ضريبة المبيعات وقواعد التقريب
+# <a name="sales-tax-payments-and-rounding-rules"></a>مدفوعات ضريبة المبيعات وقواعد التقريب
 
 [!include [banner](../includes/banner.md)]
 
-توضح هذا الموضوع كيفية عمل إعداد قاعدة التقريب في هيئات ضريبة المبيعات‬ وتقريب موازنة ضريبة المبيعات أثناء وظيفة تسوية ضريبة المبيعات وترحيلها‬.
+توضح هذه المقالة كيفية عمل إعداد قاعدة التقريب في هيئات ضريبة المبيعات‬ وتقريب موازنة ضريبة المبيعات أثناء وظيفة تسوية ضريبة المبيعات وترحيلها‬.
 
-بشكل دوري، يلزم الإبلاغ عن ضريبة المبيعات ودفعها للسلطات الضريبية. ‏‫ويمكن إكمال هذا الإجراء عن طريق إجراء عملية تسوية وترحيل ضريبة المبيعات في صفحة **ضريبة المبيعات**. وستتم تسوية ضريبة المبيعات لفترة في مقابل حسابات ضريبة المبيعات، وسيتم ترحيل رصيد ضريبة المبيعات إلى حساب تسوية ضريبة المبيعات.‬ ويتم تقريب رصيد ضريبة المبيعات، الذي يتم ترحيله في حساب تسوية ضريبة المبيعات، حسب ما تتطلبه السلطات الضريبية من خلال إعداد قاعدة تقريب في صفحة **ضريبة المبيعات**. 
+بشكل دوري، يلزم الإبلاغ عن ضريبة المبيعات ودفعها للسلطات الضريبية. ‏‫ويمكن القيام بهذا عن طريق إجراء عملية تسوية وترحيل ضريبة المبيعات في صفحة ضريبة المبيعات. وستتم تسوية ضريبة المبيعات لفترة في مقابل حسابات ضريبة المبيعات، وسيتم ترحيل رصيد ضريبة المبيعات إلى حساب تسوية ضريبة المبيعات.‬ ويتم تقريب رصيد ضريبة المبيعات، الذي يتم ترحيله في حساب تسوية ضريبة المبيعات، حسب ما تتطلبه السلطات الضريبية من خلال إعداد قاعدة تقريب في صفحة ضريبة المبيعات. 
 
 يتم ترحيل الفرق التقريبي إلى الحساب الضريبي لضريبة المبيعات المحدد في حقل الحسابات للحركات التلقائية في دفتر الأستاذ العام.
 
@@ -63,11 +66,11 @@ ms.locfileid: "7726769"
 
 ### <a name="normal-round-and-round-precision-is-001"></a>تقريب عادي، ودقة التقريب هي 0.01
 
-```<table>
+<table>
   <tr>
-    <td>Rounding
+    <td>تقريب
     </td>
-    <td>Calculation process
+    <td>عملية الحساب
     </td>
   </tr>
     <tr>
@@ -116,7 +119,6 @@ ms.locfileid: "7726769"
     </td>
   </tr>
 </table>
-```
 
 > [!NOTE]                                                                                  
 > إذا قمت بتحديد ميزة خاصة، يكون التقريب دائماً في صالح الكيان القانوني. 
@@ -126,9 +128,6 @@ ms.locfileid: "7726769"
 - [إنشاء دفع ضريبة مبيعات](tasks/create-sales-tax-payment.md)
 - [إنشاء حركات ضريبة المبيعات في المستندات](tasks/create-sales-tax-transactions-documents.md)
 - [عرض حركات ضرائب المبيعات المُرَّحلة](tasks/view-posted-sales-tax-transactions.md)
-- [الدالة round](/previous-versions/dynamics/ax-2012/reference/aa850656(v=ax.60))
+- [الدالة round](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

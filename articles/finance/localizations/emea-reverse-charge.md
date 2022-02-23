@@ -2,28 +2,31 @@
 title: إلغاء اليه الرسوم لنظام ضريبة القيمة المضافة/GST
 description: يشرح هذا الموضوع كيفية إعداد ضريبة القيمة المضافة (VAT) للرسوم العكسية للمملكة العربية السعودية والدول الأوروبية وسنغافورة‬.
 author: epodkolz
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
+ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594711"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4515043"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>إلغاء اليه الرسوم لنظام ضريبة القيمة المضافة/GST
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع طريقه عامه لإعداد وظيفةإلغاء الرسوم للبلدان/المناطق التي تقوم بتحصيل مخططات ضريبة القيمة المضافة أو GST.
+يصف هذا الموضوع طريقه عامه لاعداد وظيفةإلغاء الرسوم للبلدان/المناطق التي تقوم بتحصيل مخططات ضريبة القيمة المضافة أو GST.
                                                                                  
 تتم أداره أتاحه البلد/المنطقة للوظيفة بواسطة الميزات التالية في مساحة عمل **أداره الميزات**.
 
@@ -45,6 +48,7 @@ ms.locfileid: "7594711"
 نوصيك باستخدام أكواد ضريبة مبيعات منفصلة لعمليات المبيعات وعمليات الشراء.
 
 <table>
+<body>
 <tr>
 <td><strong>كود ضريبة المبيعات للمبيعات</strong></td>
 <td>أنشئ كود ضريبة مبيعات لعمليات مبيعات الرسوم العكسية (<strong>الضريبة</strong>&gt;<strong>الضرائب غير المباشرة</strong>&gt;<strong>ضريبة مبيعات</strong>&gt;<strong>أكواد ضريبة المبيعات</strong>).
@@ -61,6 +65,7 @@ ms.locfileid: "7594711"
 <p>لمزيد من المعلومات، راجع القسم التالي، &quot;إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف.&quot;</p>
 </td>
 </tr>
+</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
@@ -119,19 +124,16 @@ ms.locfileid: "7594711"
 
 في لقطة الشاشة التالية، تشتمل حركة واحدة على اتجاه **ضريبة المبيعات مستحقة القبض**، وتشتمل الحركةه الأخرى على اتجاه **ضريبة المبيعات مستحقة الدفع**. 
 
-![ضريبة المبيعات المرحلة.](media/apac-sau-posted-sales-tax.png)
+![ضريبة المبيعات المرحلة](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>ميزة تمكين آلية إلغاء الرسوم لنظام ضريبة القيمة المضافة/ضريبة السلع والخدمات
 **بحث عن الميزة**: انتقل‏‎ إلى مساحة عمل **إدارة الميزات**.
 
-بعد تمكين الميزة ، تكون علامة التبويب **إلغاء الرسوم** متاحه في كافة الكيانات القانونية. قم بتمكين وظيفة إلغاء الرسوم لكيان قانوني وذلك بإعداد الخيار **تمكين إلغاء الرسوم** إلى **نعم**.
+بعد تمكين الميزة ، تكون علامة التبويب **إلغاء الرسوم** متاحه في كافة الكيانات القانونية. قم بتمكين وظيفة إلغاء الرسوم لكيان قانوني وذلك باعداد الخيار **تمكين إلغاء الرسوم** إلى **نعم**.
 
-ستتوفر الصفحات التالية وعناصر القائمة المرتبطة بإعداد الميزة:
+ستتوفر الصفحات التالية وعناصر القائمة المرتبطة باعداد الميزة:
  - **مجموعات إلغاء أصناف الرسوم** (**الضريبة** > **إعداد** > **ضريبة المبيعات** > **مجموعات إلغاء أصناف الرسوم**). للحصول على مزيد من المعلومات، راجع قسم [إعداد مجموعات إلغاء أصناف الرسوم](#reverse-charge-item-group).
  - **قواعد إلغاء الرسوم** ( **الضريبة** > **إعداد** > **ضريبة المبيعات** > **قواعد إلغاء التكاليف**). راجع [إعداد قواعد إلغاء الرسوم](#reverse-charge-rules).
  - **محددات التجارة الخارجية** ( **الضريبة** > **إعداد** > **ضريبة مبيعات** > **التجارة الخارجية** > **محددات التجارة الخارجية**). راجع [إعداد خصائص البلد/المنطقة](#Set-up-Country/region-properties).
 
-ستتوفر خانه الاختيار **إلغاء الرسوم** في صفحتي **مجموعه ضريبة المبيعات** و **ضريبة المبيعات المرحلة**. لمزيد من المعلومات، راجع الأقسام [إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الأصناف](#sales-tax-item-sales-tax-groups)[ وإلغاء الرسوم لفاتورة المبيعات](#reverse-charge-sale) و[إلغاء الرسوم لفاتورة الشراء](#reverse-charge-purchase).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+ستتوفر خانه الاختيار **إلغاء الرسوم** في صفحتي **مجموعه ضريبة المبيعات** و **ضريبة المبيعات المرحلة**. لمزيد من المعلومات، راجع الأقسام [اعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الأصناف](#sales-tax-item-sales-tax-groups)[ وإلغاء الرسوم لفاتورة المبيعات](#reverse-charge-sale) و[إلغاء الرسوم لفاتورة الشراء](#reverse-charge-purchase).

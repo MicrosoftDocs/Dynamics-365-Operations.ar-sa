@@ -1,24 +1,27 @@
 ---
 title: إعداد تسعير يستند إلى سمة للمنتجات القابلة للتكوين
 description: يوضح هذا الموضوع كيفية إعداد تسعير يستند إلى سمة.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4acd7b423396124dd1059602f5aa6460ec5e259
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3a75f3afcf4761ac6a9575eae9a620a1e9f01c8e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578142"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421217"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>إعداد تسعير يستند إلى سمة للمنتجات القابلة للتكوين
 
@@ -28,18 +31,17 @@ ms.locfileid: "7578142"
 
 
 ## <a name="create-a-new-price-model"></a>إنشاء نموذج سعر جديد
-
-1. انتقل إلى **إدارة معلومات المنتج \> المنتجات \> نماذج تكوين المنتجات**.
-1. في القائمة، حدد **مكبر الصوت المتطور** ولكن لا تنقر فوق الارتباط الخاص بالاسم.
-1. في جزء الإجراءات، حدد **النموذج**.
-1. حدد **نماذج الأسعار**.
-1. حدد **جديد**.
-1. في الحقل **اسم نموذج السعر**، اكتب قيمة. استخدم اسمًا يسهّل التعرف على النموذج.  
-1. في حقل **الوصف**، اكتب قيمة.
-1. حدد **حفظ**.
+1. حدد **تعريف نموذج متغير المنتج‬** في الصفحة الرئيسية.
+2. حدد **نماذج تكوين المنتج** في قسم **الارتباطات**.
+3. في القائمة، حدد **مكبر الصوت المتطور** ولكن لا تنقر فوق الارتباط الخاص بالاسم.
+4. في جزء الإجراءات، حدد **النموذج**.
+5. حدد **نماذج الأسعار**.
+6. حدد **جديد**.
+7. في الحقل **اسم نموذج السعر**، اكتب قيمة. استخدم اسمًا يسهّل التعرف على النموذج.  
+8. في حقل **الوصف**، اكتب قيمة.
+9. حدد **حفظ**.
 
 ## <a name="add-price-elements"></a>إضافة عناصر السعر
-
 1. حدد **تحرير**. بإمكان كل مكون في نموذج المنتج أن يكون له عنصر سعر أساسي وأي عدد من قواعد تعبير السعر. يمكنك أيضًا إضافة أسعار بعملات مختلفة.  
 2. في حقل **‏‫تعبير السعر الأساسي**، اكتب قيمة. على سبيل المثال، اكتب "100". بإمكان تعبير السعر الأساسي أن يكون عبارة عن قيمة رقمية، أو بإمكانه أن يتكون من عملية حسابية تتضمن سمة واحدة أو أكثر.  
 3. حدد **إضافة**.
@@ -50,6 +52,3 @@ ms.locfileid: "7578142"
 8. في حقل **التعبير**، اكتب قيمة. على سبيل المثال، اكتب `50`. 
 9. قم بإغلاق الصفحة.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

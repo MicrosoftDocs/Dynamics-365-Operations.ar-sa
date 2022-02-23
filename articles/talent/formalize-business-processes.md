@@ -73,6 +73,3 @@ ms.locfileid: "4460166"
 
 لعرض العمليات النشطة والمهام المقترنة، افتح مساحة عمل **العمليات التجارية** .
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

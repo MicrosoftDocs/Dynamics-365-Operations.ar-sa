@@ -2,9 +2,11 @@
 title: التخلص من أصل ثابت كخردة
 description: يصف الموضوع عملية إزالة الحركات الخاصة بأصل ثابت تم التخلص منه كخردة.
 author: moaamer
+manager: Ann Beebe
 ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 90eb791bae2bbe70cf9fe7127a98962305449e1d0b370cfa001afbd3654046ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dee4468079a9ad500f513900cec090acf6026ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752908"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969118"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>التخلص من أصل ثابت كخردة
 
@@ -43,7 +45,7 @@ ms.locfileid: "6752908"
 قبل التخلص من أصل ثابت كخردة، يجب عليك إنشاء حسابات دفتر الأستاذ المرتبطة بقيمه الاستحواذ وإهلاك السنة الحالية وإهلاك السنوات السابقة وصافي القيمة الدفترية للأصل. يتم إدراج أنواع حركات الأصول الثابتة في صفحة **ملف تعريف ترحيل الأصول الثابتة‬**. انتقل إلى **الأصول الثابتة \> الإعداد \> ملفات تعريف ترحيل الأصول الثابتة**، ثم على علامة التبويب السريعة **التخلص‬**، حدد **خردة** في الحقل فوق الشبكة. يبين الشكل التوضيحي التالي قائمة بأنواع حركات الأصول الثابتة في صفحة **ملفات تعريف ترحيل الأصول الثابتة**.
 
 
-[![التخلص من أصل كخردة، الشكل التوضيحي 1.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![التخلص من أصل كخردة، الشكل التوضيحي 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 فيما يتعلق بالمثال التالي، تم الاستحواذ على أصل ثابت في 1 يناير 2018، وسيتم تخريده في 31 مارس 2019.
 
@@ -58,27 +60,24 @@ ms.locfileid: "6752908"
 
 في هذا المثال، تم الاستحواذ على الأصل الثابت وتم إهلاكه لمدة 15 شهرًا، من 2018 يناير إلى مارس 2019. وبالتالي، فإن صافي القيمة الدفترية للأصل هي 9,000.00 دولار أمريكي (24,000.00 دولار أمريكي – 15,000.00 دولار أمريكي).
 
-[![مثال عن إهلاك أصل ثابت.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![مثال عن إهلاك أصل ثابت](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 لإنشاء دفتر يومية التخلص، انتقل إلى **الأصول‏‎ الثابتة \> إدخالات دفتر اليومية \> دفتر يومية الأصول‏‎ الثابتة**، ثم حدد **البنود** في جزء الإجراءات. حدد **التخلص - الخردة‬**، ثم حدد معرّف الأصل الثابت. للتخلص من الأصل بشكل تام، لا تدخل قيمة سواء في الحقل **مدين** أو **دائن**.
 
-[![دفتر يومية الأصول الثابتة.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![دفتر يومية الأصول الثابتة](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 تقوم حركة التخلص (الخردة) الذي تم على الأصل الثابت بتغيير قيم الحقول لدفتر الأصل الثابت بالطرق التالية:
 
 - في قسم **الرصيد**، يتم تحديث حقل **الحالة** إلى **مخرد‬**.
 - في قسم **الإصدار‬**، تم تعيين حقل **تاريخ التخلص** إلى التاريخ الذي تم فيه تخريد الأصل.
 
-[![تفصيل دفتر يومية الأصول الثابتة.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![تفصيل دفتر يومية الأصول الثابتة](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 يبين الشكل التوضيحي التالي رصيد الأصل الثابت.
 
-[![رصيد الأصل الثابت.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![رصيد الأصل الثابت](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 يبين الشكل التوضيحي التالي الإيصال الذي تم ترحيله.
 
-[![صافي القيمة الدفترية.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![صافي القيمة الدفترية](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)

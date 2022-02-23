@@ -2,30 +2,35 @@
 title: تكوين بيئة تقييم Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية تكوين بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
 author: psimolin
-ms.date: 12/10/2021
+manager: annbe
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913717"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409785"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>تكوين بيئة تقييم Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تكوين بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
+
+## <a name="overview"></a>نظرة عامة
 
 لا تستكمل الإجراءات في هذا الموضوع إلا بعد توفير بيئة تقييم Commerce. للحصول على معلومات حول كيفية توفير بيئة تقييم Commerce، راجع [توفير بيئة تقييم Commerce](provisioning-guide.md).
 
@@ -39,7 +44,6 @@ ms.locfileid: "7913717"
 1. حدد البيئة في القائمة.
 1. حدد **تسجيل الدخول إلى البيئة** من معلومات البيئة الموجودة على الجانب الأيسر. سيتم إرسالك إلى مركز Commerce الرئيسي.
 1. تأكد من تحديد الكيان القانوني **USRT** في الزاوية العلوية اليمنى.
-2. انتقل إلى **معلمات Commerce > معلمات التكوين** وتأكد من وجود إدخال **ProductSearch.UseAzureSearch** تم تعيينه إلى **صواب**. في حالة فقد هذا الإدخال، فإنه يمكنك إضافة هذا الإدخال وتشغيل **قاعدة بيانات القناة > مزامنة كاملة** لـ Commerce Scale Unit المقترنة بموقع ويب التجارة الإلكترونية.
 
 وخلال أنشطة ما بعد التوفير في مركز Commerce الرئيسي، تأكد من تحديد كيان **USRT** القانوني دائمًا.
 
@@ -107,12 +111,6 @@ ms.locfileid: "7913717"
     1. في جزء الإجراءات، انقر فوق علامة التبويب **وظيفة دفعية** ، حدد **حالة التغيير**.
     1. حدد **إلغاء**، ثم حدد **موافق**.
 
-1. إذا كانت حالة الوظيفة **اقتطاع**، فاتبع الخطوات التالية:
-
-    1. حدد السجل.
-    1. في جزء الإجراءات، انقر فوق علامة التبويب **وظيفة دفعية** ، حدد **حالة التغيير**.
-    1. حدد **‏‫جارٍ الانتظار‬**، ثم قم بتحديد **موافق**.
-
 يمكنك أيضًا تعيين فترة التكرار إلى دقيقة واحدة (1) للوظائف التالية اختياريًا:
 
 * معالجة وظيفة إخطار البريد الإلكتروني لأمر البيع بالتجزئة
@@ -135,7 +133,7 @@ ms.locfileid: "7913717"
 لإجراء حركات الاختبار على الموقع، يمكنك استخدام معلومات بطاقة ائتمان التجريبية التالية:
 
 - **رقم البطاقة:** 4111-1111-1111-1111
-- **تاريخ انتهاء الصلاحية:** 10/30
+- **تاريخ انتهاء الصلاحية:** 10/20
 - **‏‫كود قيمة التحقق من البطاقة (CVV):** 737
 
 > [!IMPORTANT]
@@ -146,9 +144,6 @@ ms.locfileid: "7913717"
 بعد الانتهاء من خطوات التوفير والتكوين، يمكنك بدء استخدام بيئة التقييم. استخدم عنوان URL لمنشئ مواقع Commerce للانتقال إلى تجربة التأليف. استخدم عنوان URL لموقع Commerce للانتقال إلى تجربة موقع عميل البيع بالتجزئة.
 
 لتكوين الميزات الاختيارية لبيئة تقييم Commerce، راجع [تكوين الميزات الاختيارية لبيئة تقييم Commerce](cpe-optional-features.md).
-
-> [!NOTE]
-> تأتي بيئات تقييم Commerce مع مستأجر العمل-إلى-المستهلك Azure Active Directory (Azure AD) ‏(B2C) المحمل مسبقًا لأغراض التوضيح.. لا يلزم تكوين مستأجر Azure AD  B2Cالخاص بك لبيئات التقييم. ومع ذلك، إذا كنت تقوم بتكوين بيئة التقييم لاستخدام مستأجر Azure AD B2C الخاص بك، فيُرجى التأكد من إضافة ``https://login.commerce.dynamics.com/_msdyn365/authresp`` كعنوان URL للرد في تطبيق Azure AD B2C عبر مدخل Azure.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -162,15 +157,10 @@ ms.locfileid: "7913717"
 
 [الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [مدخل Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [موقع ويب Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[إعداد مستأجر متاجرة عمل-مستهلك في Commerce](set-up-B2C-tenant.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

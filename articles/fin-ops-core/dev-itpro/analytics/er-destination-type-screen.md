@@ -1,10 +1,12 @@
 ---
 title: نوع وجهة إعداد التقارير الإلكترونية للشاشة
-description: يوفر هذا الموضوع معلومات حول كيفيه تكوين وجهه شاشة لكل مجلد أو مكون ملف لتنسيق التقارير الكترونيه (ER).
+description: يوفر هذا الموضوع معلومات حول كيفية تكوين وجهة شاشة لكل مكون "ملف" أو "مجلد" لتنسيق إعداد التقارير الإلكترونية (ER) التي يتم تكوينها لإنشاء مستندات صادرة.
 author: NickSelin
+manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2855ac9eb0248a65973898b107d33fc86ac9c1324dafaaf1606b76d8e82f3a8f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08bbde23cde6dcecea398b84bb3d7f78e2204a71
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721942"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679524"
 ---
 # <a name="screen-destination"></a>وجهة الشاشة
 
@@ -30,12 +32,9 @@ ms.locfileid: "6721942"
 
 إذا قمت بتعيين **ممكن** إلى **نعم**، يتم إنشاء معاينة المخرجات. يمكنك عرض بعض أنواع الملفات، مثل XML، أو TXT أو PDF مباشرة في نافذة المستعرض. لأنواع الملفات الأخرى، مثل Microsoft Excel أو Word يتم استخدام خدمة Microsoft Office Online.
 
-[![صفحة إعدادات الوجهة.](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
+[![صفحة إعدادات الوجهة](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

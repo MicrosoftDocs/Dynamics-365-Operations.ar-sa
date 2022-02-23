@@ -2,30 +2,36 @@
 title: المتطلبات الأساسية‬ لإعداد قناة
 description: يقدم هذا الموضوع نظرة عامة على المتطلبات الأساسية لإعداد القناة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ad8911df00fde4675d4d9b52fcdd52ff58d4983b177316a7606de277328226b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742454"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409851"
 ---
-# <a name="channel-setup-prerequisites"></a>المتطلبات الأساسية لإعداد القناة
+# <a name="channel-setup-prerequisites"></a>المتطلبات الأساسية‬ لإعداد قناة
+
 
 [!include [banner](includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة على المتطلبات الأساسية لإعداد القناة في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 قبل أن تتمكن من إنشاء قناة Dynamics 365 Commerce، يجب إكمال العديد من المهام الأساسية. يتم تنظيم القوائم التالية للمهام الأساسية حسب نوع القناة.
 
@@ -80,6 +86,3 @@ ms.locfileid: "6742454"
 [إعداد قناة بيع بالتجزئة](channel-setup-retail.md)
     
 [إعداد قناة عبر الإنترنت](channel-setup-online.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

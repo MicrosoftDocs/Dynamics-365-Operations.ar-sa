@@ -2,33 +2,34 @@
 title: الصفحة الرئيسية لـ Commerce
 description: الصفحة الرئيسية لتطبيق Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: ''
-ms.custom:
-- "260624"
-- intro-internal
+ms.custom: 260624
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2fc5746d3a05eb85afbcb73079146fee899cebc7
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595350"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4410040"
 ---
 # <a name="commerce-home-page"></a>الصفحة الرئيسية لـ Commerce
 
 [!include [banner](includes/banner.md)]
+
 
 تستند Dynamics 365 Commerce إلى قدرات Dynamics 365 Retail الثابتة وتقدم حلاً شاملاً ومتعدد الاتجاهات لتوحيد الخبرة الرقمية وخبرة مركز الاتصالات وخبرة المتجر وخبرة مكتب الدعم. يتيح لك تطبيق Dynamics 365 Commerce إمكانية تأسيس الولاء للعلامة التجارية من خلال مشاركات العملاء المخصصة، وزيادة الإيرادات من خلال تحسين إنتاجية الموظفين، وتحسين العمليات لتقليل التكاليف والارتقاء بفعالية سلسلة التوريد، وتسليم نتائج أعمال أفضل في نهاية المطاف.
 
@@ -40,23 +41,18 @@ ms.locfileid: "7595350"
 
 - **تجربة متعددة الاتجاهات تتسم بالمرونة والذكاء:** يمكنك توحيد التجارة الفعلية والرقمية من خلال توفير خبرات متناسقة للعملاء عبر البحث في السحابة واستكشافها، ومراجعات المنتجات وقوائم الأمنيات وبطاقات الهدايا والولاء. اسمح للعملاء بالشراء في أي وقت وكيفما شاؤوا وفي أي مكان يريدون على أي جهاز — وفي الوقت نفسه وفّر خيار تحديد أساليب الدفع الحديثة ومجموعة المنتجات أو التسليم.
 
-- **تسهيل العمليات باستخدام الذكاء الاصطناعي في السحابة:** يمكنك تفعيل تجارب التجارة متعددة الاتجاهات وعمليات مكاتب الدعم المدمجة والمخصصة من خلال المعلومات السحابية المتأصلة الشائعة السياقية. استخدم التخزين في المستودعات المتقدمة، وإدارة المخزون وإدارة الطلبات الموزعة والأسعار والترويج للابتكار البقاء على اطلاع دائم على المنافسة. يمكنك اشتقاق رؤى بواسطة تصوير البيانات الشاملة وتحليلها والشاملة عبر كافة جوانب أعمالك. استخدم التقنيات المستندة إلى الذكاء الاصطناعي لتوفير مواقع ويب يمكن الوصول إليها، وحماية أعمالك من احتيال المدفوعات، وتحديث المحتوى الذي يُنشؤه المستخدم بكفاءة مثل التصنيفات والمراجعات.
+- **تسهيل العمليات باستخدام الذكاء الاصطناعي في السحابة:** يمكنك تفعيل تجارب التجارة متعددة الاتجاهات وعمليات مكاتب الدعم المدمجة والمخصصة من خلال المعلومات السحابية المتأصلة الشائعة السياقية. استخدم التخزين في المستودعات المتقدمة، وإدارة المخزون وإدارة الطلبات الموزعة والأسعار والترويج للابتكار البقاء على اطلاع دائم على المنافسة. يمكنك اشتقاق رؤى بواسطة تصوير البيانات الشاملة وتحليلها والشاملة عبر كافة جوانب أعمالك. استخدم التقنيات المستندة إلى الذكاء الاصطناعي لتوفير مواقع ويب يمكن الوصول إليها، وحماية أعمالك من احتيال المدفوعات، وتحديث المحتوى الذي يُنشؤه المستخدم بكفاءة مثل التصنيفات والمراجعات. 
 
 ## <a name="core-concepts-and-tasks"></a>المهام والمفاهيم الأساسية
 
 حدد منطقة ميزة لمعرفة المزيد عنها.
-
 - [تكوين بيئة معاينة التجارة](provisioning-guide.md)
-- [بنية Commerce](./commerce-architecture.md)
-- [إعداد القنوات](channels-overview.md)
-- [ترويج المنتجات والخدمات](set-up-retail-products.md)
-- [إدارة الأوامر](Order-fulfillment-overview.md)
-- [إدارة العملاء](set-up-customer-loyalty-program.md)
+- [بنية Commerce](retail-components.md)
+- [إعداد القنوات الخاصة بك](channels-overview.md)
+- [الترويج التجاري لمنتجاتك وخدماتك](set-up-retail-products.md)
+- [إدارة أوامرك](Order-fulfillment-overview.md)
+- [إدارة عملائك](set-up-customer-loyalty-program.md)
 - [إدارة الشؤون المالية](retail-statements.md)
 - [إدارة موقع التجارة الإلكترونية](online-store-overview.md)
 - [Fraud protection](dev-itpro/DFP.md)
 - [التطوير التجاري وقابلية التوسعة](dev-itpro/dev-retail-home-page.md)
-
-## <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
-
-للحصول على الدورات التدريبية والتدريب عبر الإنترنت، راجع [Dynamics 365 Commerce على Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path).

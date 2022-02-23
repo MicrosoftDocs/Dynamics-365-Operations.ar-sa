@@ -2,23 +2,26 @@
 title: خلط أبعاد المنتج في الموقع
 description: يوفر هذا الموضوع معلومات حول مزج أبعاد المنتج في الموقع. تساعد وظيفة ملف تعريف الموقع هذه في تحسين إدارة الموقع عند استخدام متغيرات منتجات أو منتجات لها أبعاد، كما هو الحال في صناعة الأزياء. ويتيح لك تحديد ما إذا كان يمكن خلط التكوينات والألوان والأنماط والأحجام لملف تعريف موقع معين، أو ما إذا كان من الممكن وضع إحدى هذه الأبعاد أو توليفة منها فقط في نفس الموقع.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578550"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421691"
 ---
 # <a name="location-product-dimension-mixing"></a>خلط أبعاد المنتج في الموقع
 
@@ -204,9 +207,9 @@ ms.locfileid: "7578550"
 
 1.حدد **حفظ**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>استلام سطور أوامر الشراء في تطبيق إدارة المستودع للأجهزة المحمولة
+### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>استلام سطور أوامر الشراء في تطبيق المستودع
 
-1. سجل الدخول إلى تطبيق إدارة المستودع للأجهزة المحمولة كمستخدم ممكّن للمستودع *24*.
+1. سجل الدخول إلى تطبيق المستودع كمستخدم ممكّن للمستودع *24*.
 1. حدد قائمة **الوارد**.
 1. حدد **استلام سطر أمر الشراء**.
 1. حدد حقل **رقك أمر الشراء**، ثم أدخل رقم أمر الشراء.
@@ -236,5 +239,3 @@ ms.locfileid: "7578550"
 
 > [!TIP]
 > يمكنك تكرار هذا السيناريو، ولكن في هذه المرة، قم بتعيين **الحجم** - *لا* ضمن علامة التبويب السريعة **السماح بمزج أبعاد المنتج** في *BULK* **ملفات تعريف الموقع**، بحيث لا يمكن مزج أي أبعاد للمنتج. في هذه الحالة، عند استلام أمر الشراء، سيتم وضع كل متغير منتج في موقع جديد.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

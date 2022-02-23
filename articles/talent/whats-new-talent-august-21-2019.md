@@ -70,6 +70,3 @@ ms.locfileid: "4460250"
 #### <a name="platform-update-29-for-finance-and-operations"></a>تحديث النظام الأساسي 29 لـ Finance and Operations
 
 للحصول على مزيد من التفاصيل حول تحديث النظام الأساسي 29 لـ Finance and Operations، راجع [ميزات المعاينة Dynamics 365 Finance and Operations تحديث النظام الأساسي 29 (أكتوبر 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

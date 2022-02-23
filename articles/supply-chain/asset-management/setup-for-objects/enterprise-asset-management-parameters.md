@@ -1,10 +1,12 @@
 ---
 title: معلمات إدارة الأصول
 description: في إدارة الأصول، يجب إعداد المعلمات العامة المتعلقة بالأصول وأوامر العمل وجدولة أوامر العمل.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751951"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020635"
 ---
 # <a name="asset-management-parameters"></a>معلمات إدارة الأصول
 
@@ -99,11 +101,8 @@ ms.locfileid: "6751951"
 
 ## <a name="the-document-types-tab"></a>علامة التبويب أنواع المستندات
 
-حدد أنواع المستندات التي يجب أن تكون متوفرة لطباعة المرفقات المتعلقة بتقرير أمر العمل. ويتم ذلك بتحديد نوع مستند في القسم **متوفر** وتحديد ![السهم للأمام.](media/15-setup-for-objects.png). إذا كنت ترغب في إزالة نوع مستند محدد، فحدد نوع المستند في القسم **محدد** وحدد ![سهم للخلف](media/16-setup-for-objects.png).
+حدد أنواع المستندات التي يجب أن تكون متوفرة لطباعة المرفقات المتعلقة بتقرير أمر العمل. ويتم ذلك بتحديد نوع مستند في القسم **متوفر** وتحديد ![السهم للأمام](media/15-setup-for-objects.png). إذا كنت ترغب في إزالة نوع مستند محدد، فحدد نوع المستند في القسم **محدد** وحدد ![سهم للخلف](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>علامة التبويب التسلسلات الرقمية
 
 حدد عدد التسلسلات الرقمية المطلوبة في هذا القسم. هناك تسلسلان رقميان للأصول: أحدهما للأصول التي تم إنشاؤها يدويًا، وآخر للأصول التي تم إنشاؤها من خلال الأصول المعلقة.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

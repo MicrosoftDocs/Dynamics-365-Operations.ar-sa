@@ -2,25 +2,28 @@
 title: إنشاء الأبعاد واستيراد أعضاء الأبعاد
 description: تعتبر محاسبة التكاليف وحدة نمطية مستقلة تحتاج إلى بيانات رئيسية من الوحدات النمطية الأخرى.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6febb8a48cf6496fb7f4c2ee9f5281d47aa1ccae1a8ecc51c908b3810302e11c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d61358be79adc943572bb4a5d624cb7c80b52e6e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775112"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439975"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>إنشاء الأبعاد واستيراد أعضاء الأبعاد
 
@@ -36,7 +39,7 @@ ms.locfileid: "6775112"
 
 يوضح المخطط التالي الأبعاد المستخدمة في محاسبة التكاليف.
 
-[![أبعاد محاسبة التكاليف.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![أبعاد محاسبة التكاليف](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 بعد استيراد البيانات إلى محاسبة التكاليف، يمكنك استخدامها لإنشاء منظورات مختلفة توفر معلومات دقيقة إلى المدراء على جميع مستويات المؤسسة. توفر الموضوعات التالية معلومات حول إنشاء الأبعاد واستيراد أعضاء الأبعاد. 
 
@@ -52,6 +55,3 @@ ms.locfileid: "6775112"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

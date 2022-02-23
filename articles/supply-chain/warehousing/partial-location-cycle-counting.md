@@ -2,13 +2,16 @@
 title: الجرد الدوري الجزئي للمواقع
 description: تقوم خطط الجرد الدوري‬ بإرشاد عمليات الجرد الفعلية. يمكنك أن تطلب جرد منتجات ومتغيرات منتجات معينة فقط بدلاً من المخزون الفعلي‬ بكامله في أحد المواقع.
 author: perlynne
+manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778424"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666736"
 ---
 # <a name="partial-location-cycle-counting"></a>الجرد الدوري الجزئي للمواقع
 
@@ -46,7 +49,7 @@ ms.locfileid: "6778424"
 بالنسبة لعملية الجرد الدوري الجزئي، لن يتم تحديث تاريخ/وقت **الجرد الدوري الأخير** للموقع، على الرغم من إجراء جرد لجميع الأصناف المتوفرة في موقع معين. لا يأخذ الجرد الدوري الجزئي في الاعتبار المعلمة **عدد الأيام بين الجرد الدوري** في صفحة **خطط الجرد الدوري**. لا يدعم الجرد الدوري الجزئي الجرد المتزامن لأصناف متعددة في نفس الموقع. قد ينتج عن وظيفة الجرد الدوري الجزئي إجراء جرد للموقع نفسه عدة مرات لصنف ما عند تشغيل **معالجة خطة الجرد الدوري**. لتجنب هذا السيناريو، حدد عوامل التصفية في الحقل **تحديد المواقع**.
 
 > [!NOTE]
-> لا يقوم تطبيق إدارة المستودع للأجهزة المحمولة بتوفير الزر **أضافه عناصر من القيمة الاضافيه أو الصنف** عند استخدام عمليه عد الدورات الجزئية.
+> لا يقوم تطبيق المستودع بتوفير الزر **أضافه عناصر من القيمة الاضافيه أو الصنف** عند استخدام عمليه عد الدورات الجزئية.
 
 ## <a name="example"></a>مثال
 
@@ -59,6 +62,3 @@ ms.locfileid: "6778424"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الجرد الدوري](cycle-counting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

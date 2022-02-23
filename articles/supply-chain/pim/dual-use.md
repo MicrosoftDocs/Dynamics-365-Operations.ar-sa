@@ -1,24 +1,27 @@
 ---
 title: البضائع مزدوجة الاستخدام
 description: يوضح هذا الموضوع كيفية تعقب المنتجات المحددة كبضائع ذات استخدام مزدوج وأرقام شهادات المتجر لكل منتج مرتبط وبلد الوجهة وطباعة أرقام الشهادات الصالحة في الفواتير ذات الصلة وإيصالات التعبئة و/أو أوامر المبيعات.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570743"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421567"
 ---
 # <a name="dual-use-goods"></a>البضائع مزدوجة الاستخدام
 
@@ -105,6 +108,3 @@ ms.locfileid: "7570743"
     | الطباعة في فاتورة | حدد خانة الاختيار هذه لطباعة رقم الشهادة في الفواتير الموجهة إلى البلد المحدد أثناء نطاق التاريخ المحدد. |
     | الطباعة في إيصال تعبئة | حدد خانة الاختيار هذه لطباعة رقم الشهادة في إيصالات التعبئة الموجهة إلى البلد المحدد أثناء نطاق التاريخ المحدد. |
     | الطباعة في أمر مبيعات | حدد خانة الاختيار هذه لطباعة رقم الشهادة في أوامر المبيعات الموجهة إلى البلد المحدد أثناء نطاق التاريخ المحدد. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

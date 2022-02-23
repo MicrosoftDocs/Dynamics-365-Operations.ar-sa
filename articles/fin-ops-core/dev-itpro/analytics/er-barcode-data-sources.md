@@ -2,9 +2,11 @@
 title: استخدام مصادر بيانات الأكواد الشريطية لإنشاء صور للكود الشريطي
 description: يشرح هذا الموضوع كيفية استخدام مصادر بيانات الأكواد الشريطية لإنشاء صور الأكواد الشريطية.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 72c79c37ca5b5f98637ba5069e25465bb1391306
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343253"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681414"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>استخدام مصادر بيانات الأكواد الشريطية لإنشاء صور للكود الشريطي
 
@@ -37,7 +39,7 @@ ms.locfileid: "7343253"
 
 يمكن استخدام العناصر النائبة التالية في قوالب التقارير لإدخال صور الأكواد الشريطية:
 
-- [صورة](/office/client-developer/word/content-controls-in-word) التحكم بمحتوى Word
+- [صورة](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) التحكم بمحتوى Word
 - [صورة](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) كائن في Excel
 
 باستخدام مصدر بيانات من نوع **الكود الشريطي**، يمكنك إنشاء الأكواد الشريطية بالتنسيقات التالية:
@@ -116,21 +118,21 @@ ms.locfileid: "7343253"
 
 | وصف المحتوى         | اسم الملف                   |
 |-----------------------------|-----------------------------|
-| تكوين نموذج بيانات التقارير الإلكترونية | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
-| تنسيق تكوين ER     | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| تكوين نموذج بيانات التقارير الإلكترونية | Model for cheques.xml       |
+| تنسيق تكوين ER     | Cheques printing format.xml |
 
 بالإضافة إلى ذلك، قم بتنزيل ملف Excel التالي الذي يحتوي على القالب المعدل الخاص بحل ER المتوفر.
 
 | وصف المحتوى | اسم الملف                 |
 |---------------------|---------------------------|
-| قالب التقرير     | [Check template Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
+| قالب التقرير     | Check template Excel.xlsx |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>تنشيط موفر تكوين
 
 1. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 2. في صفحة **تكوينات الترجمة**، في القسم **موفري التكوين**، تحقق من أنه يتم إدراج [موفر التكوين](general-electronic-reporting.md#Provider) لنموذج الشركة **Litware, Inc.**، وأنه يتم وضع علامة عليه كنشط. في حالة عدم الإدراج، أو عدم وضع علامة عليه كنشط، اتبع الخطوات الموجودة في الموضوع [إنشاء موفر تكوين ووضع علامة عليه على أنه نشط.](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![تعيين نموذج الشركة إلى نشط في صفحة تكوينات الترجمة.](./media/er-barcode-data-source-active-provider.png)
+![تعيين نموذج الشركة إلى نشط في صفحة تكوينات الترجمة](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>استيراد حل التقاير الإلكترونية المتوفرة
 
@@ -160,14 +162,14 @@ ms.locfileid: "7343253"
 7. في جزء الإجراءات، حدد **اختبار طباعة**.
 8. في مربع الحوار، قم بتعيين خيار **تنسيق الشيك القابل للتداول** إلى **نعم**، ثم حدد **موافق**.
 
-    ![مخطط الشيكات - مربع حوار اختبار الطباعة.](./media/er-barcode-data-source-check-layout.png)
+    ![مخطط الشيكات - مربع حوار اختبار الطباعة](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>مراجعة شيك دفع تم إنشاؤه
 
 - افتح الشيك الذي تم إنشاؤه في Excel.
 2. راجع الشيك الذي تم إنشاؤه.
 
-    ![شيك الدفع الذي تم إنشاؤه في Excel.](./media/er-barcode-data-source-cheque1.png)
+    ![شيك الدفع الذي تم إنشاؤه في Excel](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>تعديل تنسيق حل التقرير الإلكتروني المتوفر
 
@@ -175,7 +177,7 @@ ms.locfileid: "7343253"
 
 يمكنك استخدام تطبيق سطح مكتب Excel لفتح الملف **Cheque template Excel.xlsx** الذي قمت باستيراده سابقًا. لاحظ أن هذا القالب يختلف عن القالب الذي استخدمته لإنشاء شيك دفع في حل التقرير الإلكتروني المتوفر. بالإضاف إلى ذلك، يتضمن العنصر **AmountBarcode** لصورة الكود الشريطي.
 
-![عنصر AmountBarcode في قالب Excel.](./media/er-barcode-data-source-cheque2.png)
+![عنصر AmountBarcode في قالب Excel](./media/er-barcode-data-source-cheque2.png)
 
 يجب الآن تعديل حل التقرير الإلكتروني ، ثم [إعادة تطبيق](modify-electronic-reporting-format-reapply-excel-template.md) القالب المعدل.
 
@@ -186,7 +188,7 @@ ms.locfileid: "7343253"
 5. في مصمم عمليات التقرير الإلكتروني، حدد علامة التبويب **تعيين** على الجانب الأيمن للصفحة، ثم، في جزء شجرة التنسيق على الجانب الأيسر، ثم حدد **توسيع/طي**.
 6. لاحظ أنه يتم ربط كافة عناصر تنسيق الخلايا بمصادر البيانات المناسبة.
 
-    ![ربط عناصر تنسيق الخلية بمصادر البيانات في مصمم عمليات التقارير الإلكترونية.](./media/er-barcode-data-source-cells-bound.png)
+    ![ربط عناصر تنسيق الخلية بمصادر البيانات في مصمم عمليات التقارير الإلكترونية](./media/er-barcode-data-source-cells-bound.png)
 
 7. حدد علامة التبويب **تنسيق** على الجانب الأيمن من الصفحة.
 8. في جزء الإجراء، حدد علامة الحذف (**...**)، ثم حدد **استيراد**.
@@ -195,7 +197,7 @@ ms.locfileid: "7343253"
 11. حدد علامة التبويب **تعيين** على الجانب الأيمن للصفحة، ثم، في جزء شجرة التنسيق على الجانب الأيسر، ثم حدد **توسيع/طي**.
 12. لاحظ أنه تتم إضافة عنصر الخلية **AmountBarcode** إلى التنسيق. يتم ربط هذا العنصر بالعنصر **AmountBarcode** الذي تمت إضافته إلى قالب Excel المعدل كعنصر نائب لصورة الكود الشريطي.
 
-    ![عنصر AmountBarcode المُضاف إلى التنسيق في مصمم عمليات التقارير الإلكترونية.](./media/er-barcode-data-source-cell-added.png)
+    ![عنصر AmountBarcode المُضاف إلى التنسيق في مصمم عمليات التقارير الإلكترونية](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>إضافة مصدر بيانات كود شريطي جديد
 
@@ -204,14 +206,14 @@ ms.locfileid: "7343253"
 1. في مصمم عمليات التقارير الإلكترونية، ضمن علامة التبويب **تعيين** على الجانب الأيمن من الصفحة، حدد مصدر بيانات **طباعة**.
 2. حدد **إضافة**، ثم، في المجموعة  **الوظائف**، حدد نوع مصدر البيانات **الكود الشريطي**.
 
-    ![تحديد نوع مصدر بيانات الكود الشريطي.](./media/er-barcode-data-source-add.png)
+    ![تحديد نوع مصدر بيانات الكود الشريطي](./media/er-barcode-data-source-add.png)
 
 3. في مربع الحوار، في الحقل **الاسم**، أدخل **الكود الشريطي**.
 4. في **تنسيق الكود الشريطي**، حدد **الكود 128**.
 5. في الحقل **العرض**، أدخل **500**.
 6. حدد **موافق**.
 
-    ![مربع حوار خصائص مصدر البيانات.](./media/er-barcode-data-source-add2.png)
+    ![مربع حوار خصائص مصدر البيانات](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>ربط عنصر تنسيق جديد
 
@@ -222,7 +224,7 @@ ms.locfileid: "7343253"
 3. في جزء الإجراءات، حدد **عرض التفاصيل**.
 4. لاحظ أنه نظرًا لأنه يتم تمثيل مصدر بيانات **الكود الشريطي** في الربط كوظيفة تحتوي على معلمة واحدة، فإنه تم أخذ اسم عنصر التنسيق المنضم تلقائيًا كوسيطة لتلك المعلمة.
 
-    ![تفاصيل مصدر بيانات الكود الشريطي في مصمم عمليات التقارير الإلكترونية.](./media/er-barcode-data-source-bind1.png)
+    ![تفاصيل مصدر بيانات الكود الشريطي في مصمم عمليات التقارير الإلكترونية](./media/er-barcode-data-source-bind1.png)
 
 5. حدد **تحرير المعادلة** لضبط الربط.
 
@@ -232,7 +234,7 @@ ms.locfileid: "7343253"
 7. حدد **حفظ**، ثم أغلق [مصمم معادلة التقارير الإلكترونية](general-electronic-reporting-formula-designer.md).
 8. لاحظ أنه تم تعديل الربط.
 
-    ![الربط المعدل في مصمم العمليات التقارير الإلكترونية.](./media/er-barcode-data-source-bind2.png)
+    ![الربط المعدل في مصمم العمليات التقارير الإلكترونية](./media/er-barcode-data-source-bind2.png)
 
 9. حدد **حفظ**، ثم أغلق مصمم عمليات التقارير الإلكترونية.
 
@@ -277,7 +279,7 @@ ms.locfileid: "7343253"
 6. حدد **موافق**.
 7. راجع الشيك الذي تم إنشاؤه. لاحظ أنه قد تم إنشاء كود شريطي لترميز المبلغ الدائن الخاص بالشيك.
 
-    ![شيك الدفع الذي تم إنشاؤه باستخدام الكود الشريطي في Excel.](./media/er-barcode-data-source-cheque3.png)
+    ![شيك الدفع الذي تم إنشاؤه باستخدام الكود الشريطي في Excel](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > يتم طرح استثناء إذا كانت وسيطة مصدر بيانات **الكود الشريطي** لا تتوافق مع المتطلبات المناسبة المحددة لتنسيق الكود الشريطي. على سبيل المثال، عندما يتم استدعاء مصدر بيانات **الكود الشريطي** لإنشاء كود شريطي [EAN-8](https://wikipedia.org/wiki/EAN-8) للنص المقدم، يتم عرض استثناء إذا كان طول النص يتجاوز سبعة أحرف.
@@ -288,7 +290,7 @@ ms.locfileid: "7343253"
 
 ومع ذلك، عندما تقوم باستخدام مصدر بيانات **الكود الشريطي** لإنتاج الأكواد الشريطية، لا يعتمد عرض تلك الرموز الشريطية على أي خط. لذلك، يمكنك بسهولة تحويل المستندات التي تحتوي على أكواد شريطية إلى تنسيق PDF. تبين الرسوم التوضيحية التالية معاينة شيك الدفع الذي تم إنشاؤه أنه تم [تحويل](electronic-reporting-destinations.md#OutputConversionToPDF) إلى ملف PDF، استنادًا إلى إعداد وجهة التقارير الإلكترونية [المكونة](electronic-reporting-destinations.md).
 
-![معاينة ملف PDF الخاص بشيك الدفع.](./media/er-barcode-data-source-cheque4.png)
+![معاينة ملف PDF الخاص بشيك الدفع](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>قيود
 
@@ -301,6 +303,3 @@ ms.locfileid: "7343253"
 - [وجهات إعداد التقارير الإلكترونية‬](electronic-reporting-destinations.md)
 - [لغة تركيبة التقارير الإلكترونية](er-formula-language.md)
 - [وظيفة NUMBERFORMAT](er-functions-text-numberformat.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

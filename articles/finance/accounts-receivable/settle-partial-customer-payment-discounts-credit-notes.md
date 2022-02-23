@@ -2,25 +2,28 @@
 title: تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة
 description: ترشدك هذه المقالة من خلال سيناريو حيث تم أخذ خصم نقدي على إشعار دائن عندما تضمنت الفاتورة الأصلية أيضًا خصمًا نقديًا.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6476fed0ac10888c51266128f950fc0e1418b13c743894ab0992d051e733c4e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740136"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4440118"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة
 
@@ -39,7 +42,7 @@ ms.locfileid: "6740136"
 | CCRN-10050 | الإشعار الدائن      | 6/28/2015 | CR-10050 |                                      | 100.00                                | 100.00-  | دولار أمريكي      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>تسوية إشعار دائن مع فاتورة
-من صفحة **حركات العميل**، يفتح جمال صفحة **تسوية الحركات**. ويمكن لجمال استخدام صفحة **تسوية الحركات** لتسوية الفاتورة والإشعار الدائن. وكجزء من عملية التسوية، يشاهد جمال تواريخ ومبالغ الخصم النقدي. ويقوم جمال بتمييز هاتين الوثيقتين، ثم النقر فوق **ترحيل** لتسوية الحركات. يوجد خصم بمبلغ -1.00 على إشعار دائن، لأن شركة الاتحاد للتصنيع تسمح بالخصومات على الإشعارات الدائنة.
+من صفحة **حركات العميل**، يفتح جمال صفحة **تسوية الحركات**. ويمكنه استخدام صفحة **تسوية الحركات** لتسوية الفاتورة والإشعار الدائن. وكجزء من عملية التسوية، يشاهد تواريخ ومبالغ الخصم النقدي. ويقوم بتمييز هاتين الوثيقتين، ثم النقر فوق **ترحيل** لتسوية الحركات. يوجد خصم بمبلغ -1.00 على إشعار دائن، لأن شركة الاتحاد للتصنيع تسمح بالخصومات على الإشعارات الدائنة.
 
 | وضع علامة     | استخدام الخصم النقدي | الإيصال    | الحساب | التاريخ      | تاريخ الاستحقاق  | الفاتورة  | المبلغ بعملة الحركة | عملة | المبلغ المراد تسويته |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
@@ -58,6 +61,3 @@ ms.locfileid: "6740136"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

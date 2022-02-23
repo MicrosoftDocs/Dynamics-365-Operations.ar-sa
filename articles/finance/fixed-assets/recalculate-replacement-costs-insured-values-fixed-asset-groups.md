@@ -1,31 +1,34 @@
 ---
 title: إعادة حساب تكاليف الإحلال والقيم المؤمن بها لمجموعات الأصول الثابتة
-description: يوضح هذا الموضوع عملية تحديث تكاليف الإحلال والقيم المؤمن لها للأصول الثابتة.
-author: moaamer
+description: توضح هذه المقالة عملية تحديث تكاليف الإحلال والقيم المؤمن لها للأصول الثابتة.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a9dd04072b4845fe5df2a918b64ba1835ea584dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674866"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440006"
 ---
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>إعادة حساب تكاليف الإحلال والقيم المؤمن بها لمجموعات الأصول الثابتة
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع عملية تحديث تكاليف الإحلال والقيم المؤمن لها للأصول الثابتة.
+توضح هذه المقالة عملية تحديث تكاليف الإحلال والقيم المؤمن لها للأصول الثابتة.
 
 ربما يتم إخطارك دوريًا بأن التكاليف المتعلقة باستبدال أو تأمين أصول ثابتة محددة قد تغيرت. على سبيل المثال، ربما يخبرك مديرك أن نسبة التضخم كانت 3 بالمائة العام الماضي، لذا فإنك بحاجة لزيادة تكاليف الاستبدال لجميع الأصول الثابتة بنسبة 3 بالمائة. 
 
@@ -75,6 +78,3 @@ ms.locfileid: "7674866"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

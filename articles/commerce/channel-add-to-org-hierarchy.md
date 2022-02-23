@@ -2,24 +2,27 @@
 title: إضافة قناة إلى التدرج الهرمي للمؤسسة
 description: يصف هذا الموضوع كيفية إضافة قناة إلى التدرج الهرمي لمؤسسة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 64d9c649212eca4dc703e5b80fdf2c3c6a57a61745fc440b0650d7796a4d06e3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 701c90e8e28b4419422cddde698e9c9862a588a2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720973"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409855"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>إضافة قناة إلى التدرج الهرمي للمؤسسة
 
@@ -44,7 +47,7 @@ ms.locfileid: "6720973"
 
 تظهر الصورة التالية تفاصيل التدرج الهرمي للمؤسسات للتدرج الهرمي المحدد.
 
-![تفاصيل التدرج الهرمي للمؤسسات للتدرج الهرمي المحدد.](media/channel-add-to-org-hierarchy-1.png)
+![تفاصيل التدرج الهرمي للمؤسسات للتدرج الهرمي المحدد](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>إضافة قناه إلى عقدة التدرج الهرمي
 
@@ -58,17 +61,17 @@ ms.locfileid: "6720973"
 
 تظهر الصورة التالية كيفية تحديد قناة لإضافتها إلى عقدة التدرج الهرمي.
 
-![تحديد قناة لإضافتها إلى عقدة التدرج الهرمي.](media/channel-add-to-org-hierarchy-2.png)
+![تحديد قناة لإضافتها إلى عقدة التدرج الهرمي](media/channel-add-to-org-hierarchy-2.png)
 
 تظهر الصورة التالية تدرجًا هرميًا أضيفت إليه قنوات متنوعة.
 
-![تدرج هرمي أضيفت إليه قنوات متعددة.](media/channel-add-to-org-hierarchy-3.png)
+![تدرج هرمي أضيفت إليه قنوات متعددة](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظره عامة حول القنوات](channels-overview.md)
+[نظرة عامة على القنوات](channels-overview.md)
 
-[المتطلبات الأساسية لإعداد القناة](channels-prerequisites.md)
+[المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
 
 [نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
@@ -79,6 +82,3 @@ ms.locfileid: "6720973"
 [إعداد قناة بيع بالتجزئة](channel-setup-retail.md)
     
 [إعداد قناة عبر الإنترنت](channel-setup-online.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: موقع إخراج الإنتاج
 description: يصف هذا الموضوع التدرج الهرمي الذي يتم استخدامه لتحديد موقع إخراج الإنتاج.
 author: johanhoffmann
+manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4c8086e9179ff51f62ce77620af96360c6123060372dfd1c0e06dad79998b75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4002bf7dddb196edf306268ecc16e1bfa5d6d1e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720266"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421549"
 ---
 # <a name="production-output-location"></a>موقع إخراج الإنتاج
 
@@ -37,6 +40,3 @@ ms.locfileid: "6720266"
 4. إذا لم يتم العثور على موقع هناك، فاستخدم موقع الإخراج الذي تم تحديده في المستودع الذي تم تحديده لأمر الإنتاج.
 
 يتم تعيين موقع إخراج إنتاج افتراضي فقط للمنتجات التي تم إعدادها باستخدام عمليات المستودع المتقدمة. عندما يتم الإبلاغ عن نوع الصنف هذا كمنتهٍ، يتم إنشاء عمل مستودع من النوع **تخزين البضائع المنتهية‬** أو **تخزين منتج مساعد ومنتج ثانوي‬**. يستخدم نوع العمل هذا موقع إخراج الإنتاج كموقع انتقاء. يتحدد موقع التخزين بواسطة توجيهات الموقع.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

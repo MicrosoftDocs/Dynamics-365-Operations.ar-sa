@@ -2,30 +2,35 @@
 title: إنشاء قوائم مهام وأضافه مهام
 description: يصف هذا الموضوع كيفية إنشاء قوائم المهام وإضافة المهام إليها في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756515"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409955"
 ---
-# <a name="create-task-lists-and-add-tasks"></a>إنشاء قوائم مهام وإضافة مهام
+# <a name="create-task-lists-and-add-tasks"></a>إنشاء قوائم مهام وأضافه مهام
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية إنشاء قوائم المهام وإضافة المهام إليها في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 تحدد *المهمة* جزءًا محددًا من العمل أو الإجراء الذي يجب أن يكمله أي شخص إكماله في تاريخ استحقاق معين أو قبله. في Dynamics 365 Commerce، يمكن ان تتضمن المهمة إرشادات تفصيلية ومعلومات حول الشخص المسؤول. كما يمكن أن تتضمن ارتباطات إلى عمليات مكاتب الدعم أو عمليات نقاط البيع (POS) أو صفحات الموقع للمساعدة في تحسين الانتاجية وتوفير السياق الذي يتطلبه مالك المهمة لإكمال المهمة بشكل فعال.
 
@@ -70,7 +75,7 @@ ms.locfileid: "6756515"
 
 يبين الرسم التوضيحي التالي تحديد ارتباطات المهام في مربع الحوار **تحرير المهمة**.
 
-![تحديد ارتباطات المهام في مربع الحوار تحرير مهمة.](media/HQ-POS-Tasks-Linking.png)
+![تحديد ارتباطات المهام في مربع الحوار تحرير مهمة](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>تكوين عملية POS بحيث يمكن ربطها بمهمة
 
@@ -88,6 +93,3 @@ ms.locfileid: "6756515"
 [تعيين قوائم المهام إلى المتاجر أو الموظفين](task-mgmt-assign-lists.md)
 
 [إدارة المهام في نقطة البيع](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

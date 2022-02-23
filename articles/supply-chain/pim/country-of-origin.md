@@ -1,34 +1,38 @@
 ---
 title: بلد المنشأ
 description: تصدر العديد من المؤسسات شهادات إلى الموردين الخاصين بهم لضمان أن المنتجات تفي بمعايير الشهادة المحددة. وغالبًا ما تعتمد هذه الشهادات على بلد المنشأ. يوفر هذا الموضوع معلومات حول الميزة "بلد المنشأ"، والتي تتيح لك ربط منتج ببلد المنشأ الخاص به وتعقب شهادات المنتج الخاصة به.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 0471785991a307de11147e9773d9abe1e02941d6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777584"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421032"
 ---
 # <a name="country-of-origin"></a>بلد المنشأ
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 تصدر العديد من المؤسسات شهادات إلى الموردين الخاصين بهم لضمان أن المنتجات تفي بمعايير الشهادة المحددة. وغالبًا ما تعتمد هذه الشهادات على بلد المنشأ. تتيح لك ميزة "بلد المنشأ" ربط منتج ببلد المنشأ الخاص به وتعقب شهادات المنتج الخاصة به.
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>تشغيل ميزة بلد المنشأ
 
-اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
+قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة النمطية** *إدارة معلومات المنتج*
 - **اسم الميزة:** *ميزة إدارة بلد المنشأ*
@@ -86,7 +90,4 @@ ms.locfileid: "7777584"
 
 ويتم إنشاء تقرير يعرض معلومات حول بلد المنشأ لكل جزء ويتم إظهاره. فيما يلي مثال التقرير.
 
-![تقرير بلد المنشأ.](media/country-of-origin-report.png "تقرير بلد المنشأ")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![تقرير بلد المنشأ](media/country-of-origin-report.png "تقرير بلد المنشأ")

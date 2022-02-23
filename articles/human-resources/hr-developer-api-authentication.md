@@ -2,12 +2,15 @@
 title: مصادقة
 description: يقدم هذا المقال معلومات عامة حول كيفية المصادقة مع واجهة برمجة تطبيقات بيانات Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3396f0ae6d089f43c39f318dc9d92a88a7db3d7c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070858"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417042"
 ---
 # <a name="authentication"></a>مصادقة
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يقدم هذا المقال معلومات عامة حول كيفية المصادقة مع واجهة برمجة تطبيقات بيانات Microsoft Dynamics 365 Human Resources.
 
@@ -84,13 +82,13 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - بالنسبة لتطبيقات الويب، قم بتوفير عنوان URL الأساسي الخاص بالتطبيق. على سبيل المثال، قد يكون `http://localhost:31544` هو عنوان URL الخاص بتطبيق ويب الذي يتم تشغيله على الجهاز المحلي الخاص بك. ثم يقوم المستخدمون باستخدام عنوان URL هذا لتسجيل الدخول إلى تطبيق عميل ويب.
         - بالنسبة لتطبيقات العميل العامة، قم بتوفير عنوان URL الذي يستخدمه Azure AD لإرجاع استجابات الرمز المميزة. أدخل قيمة خاصة بالتطبيق، مثل `myapp://auth`.
 
-        لمشاهدة أمثلة معينة لتطبيقات الويب أو التطبيقات الأصلية، راجع قوالب التشغيل السريع في [النظام الأساسي للهوية Microsoft (الذي كان يسمى سابقًا Azure Active Directory للمطورين)](/azure/active-directory/develop/#quickstarts).
+        لمشاهدة أمثلة معينة لتطبيقات الويب أو التطبيقات الأصلية، راجع قوالب التشغيل السريع في [النظام الأساسي للهوية Microsoft (الذي كان يسمى سابقًا Azure Active Directory للمطورين)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
 
 5. ضمن **أذونات API**، حدد **إضافة إذن**. ثم، في علامة التبويب **واجهات API التي تستخدمها مؤسستي** ابحث عن **Dynamics 365 Human Resources** وأضف الإذن **user\_impersonation** إلى التطبيق الخاص بك. معرف التطبيق للموارد البشرية هو f9be0c49-aa22-4ec6-911a-c5da515226ff. استخدم هذا المعرف للتأكد من أنك قمت باختيار التطبيق الصحيح.
 
 6. حدد **السجل**.
 
-   [![تسجيل تطبيق جديد في مدخل Azure.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![تسجيل تطبيق جديد في مدخل Azure](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 يقوم Azure AD بتعيين معرف تطبيق فريد (معرف العميل) إلى التطبيق الخاص بك، ثم ينقلك إلى صفحة **نظرة عامة** للتطبيق الخاص بك. لإضافة المزيد من الإمكانات إلى التطبيق، يمكنك تحديد خيارات التكوين الأخرى، مثل الخيارات الخاصة بالعلامة التجارية والشهادات والأسرار.
 
@@ -187,6 +185,3 @@ namespace TalentODataPoC
 ```
 
 بمجرد استرداد رمز وصول مميز، ستقوم بتمرير الرمز المميز في رأس التخويل كرمز مميز لحامل مع كل طلب تقوم بإرساله إلى واجهة API للبيانات، كما هو موضح أعلاه.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

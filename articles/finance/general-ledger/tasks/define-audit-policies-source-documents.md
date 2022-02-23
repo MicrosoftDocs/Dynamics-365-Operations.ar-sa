@@ -2,9 +2,11 @@
 title: تحديد سياسات المراجعة للمستندات المصدر
 description: يوضح هذا الموضوع كيفية إعداد وتشغيل قواعد سياسة التدقيق.
 author: panolte
+manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722661"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021419"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>تحديد سياسات المراجعة للمستندات المصدر
 
@@ -85,6 +87,3 @@ ms.locfileid: "6722661"
 57. وسّع القسم **اقترانات‬‬‬**.
 58. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

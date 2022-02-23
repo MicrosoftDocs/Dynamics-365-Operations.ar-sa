@@ -1,25 +1,27 @@
 ---
 title: تثبيت الوظيفة الإضافية لذكاء IoT في LCS
 description: يشرح هذه الموضوع تثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS).
-author: tonyafehr
+author: robinarh
+manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: d55ca1975589699cbce03dcc7bf81e0762738d24
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781578"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963475"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>تثبيت الوظيفة الإضافية لذكاء IoT في LCS
 
@@ -53,6 +55,3 @@ ms.locfileid: "7781578"
 2. في LCS، انتقل إلى تفاصيل بيئة Supply Chain Management.
 3. قم بالتمرير إلى قسم **الوظائف الإضافية للبيئة**.
 4. حدد **إلغاء التثبيت** للوظيفة الإضافية لذكاء IoT.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

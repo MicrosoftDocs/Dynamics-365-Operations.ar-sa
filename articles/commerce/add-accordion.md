@@ -1,13 +1,16 @@
 ---
 title: وحدة الأكورديون
-description: يتناول هذا الموضوع وحدات أكورديون ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+description: يتناول هذا الموضوع وحدات الأكورديون ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719517"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409810"
 ---
-# <a name="accordion-module"></a>وحدة أككورديون
+# <a name="accordion-module"></a>وحدة الأكورديون
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع وحدات أكورديون ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+يتناول هذا الموضوع وحدات الأكورديون ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 وحدات الأكورديون هي وحدات حاوية يتم استخدامها لتنظيم المعلومات أو الوحدات على صفحة عن طريق قدرة مماثلة لدرج قابل للطي. يمكن استخدام وحدة الأكورديون‬ على أي صفحة.
 
@@ -34,11 +39,11 @@ ms.locfileid: "6719517"
 
 تعرض الصورة التالية مثال عن وحدة أكورديون تستخدم لتنظيم المعلومات في صفحة الأسئلة المتداولة تابعة لمتجر.
 
-![مثال عن وحدة أكورديون.](./media/ecommerce-accordion.PNG)
+![مثال عن وحدة أكورديون](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>خصائص وحدة الأكورديون
 
-| اسم الخاصية | القيم | الوصف |
+| اسم الخاصية | القيم | ‏‏الوصف |
 |---------------|--------|-------------|
 | العنوان | النص | تحدد هذه الخاصية عنوان نص اختياري لوحدة الأكورديون. |
 | توسيع الكل | **صحيح** أم **خطأ** | إذ تم تعيين القيمة إلى **صواب**، يتم تشغيل وظيفة التوسيع/الطي، بحيث يمكن توسيع كافة العناصر الموجودة في وحدة الأكورديون وطيها. |
@@ -82,6 +87,3 @@ ms.locfileid: "6719517"
 [وحدة علامة تبويب](add-tab.md)
 
 [وحدة كتلة النص](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

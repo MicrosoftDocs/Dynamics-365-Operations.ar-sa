@@ -2,8 +2,11 @@
 title: FILTER ER وظيفة
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية FILTER (ER).
 author: NickSelin
-ms.date: 12/14/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: 55fa3d4ad4427e2a45f7c5fce679c50a91c40b6d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922413"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679428"
 ---
 # <a name="filter-er-function"></a>FILTER ER وظيفة
 
@@ -49,17 +52,11 @@ FILTER (list, condition)
 
 قائمة السجلات الناتجة.
 
-## <a name="usage-notes"></a><a name="usage-notes"></a>ملاحظات الاستخدام
+## <a name="usage-notes"></a>ملاحظات الاستخدام
 
 تختلف هذه وظيفة عن وظيفة [WHERE](er-functions-list-where.md) لأنه يتم تطبيق الشرط المحدد على أي من مصادر بيانات التقارير الإلكترونية (ER) لنوع *سجلات الجداول* على مستوى قاعدة البيانات. يمكن تحديد القائمة والشرط باستخدام الجداول والعلاقات.
 
 إذا لم تسمح أحد الوسيطتين أو كليهما المكونة لهذه الوظيفة (`list` و`condition`) بترجمة هذا الطلب للاستدعاء المباشر لـ SQL، يتم طرح استثناء في وقت التصميم. يُعلم هذا الاستثناء المستخدم أنه إما `list` أو `condition` لا يُمكن استخدامهم للاستعلام عن قاعدة البيانات.
-
-> [!NOTE]
-> تعمل وظيفة `FILTER` بشكل مختلف عن وظيفة `WHERE` عند استخدام وظيفة [`VALUEIN`](er-functions-logical-valuein.md) لتحديد معايير التحديد.
-> 
-> - إذا تم استخدام وظيفة `VALUEIN` في نطاق وظيفة `WHERE`، وتشير الوسيطة الثانية لـ `VALUEIN` إلى مصدر بيانات لا يقوم بإرجاع أي سجلات، وتتم مراعاة القيمة المنطقية *[False](er-formula-supported-data-types-primitive.md#boolean)* التي تُرجعها وظيفة `VALUEIN`. لذلك، يقوم التعبير `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` بإرجاع أي سجلات موردين إذا كان مصدر بيانات **VendGroups** لا يُرجع أي سجلات لمجموعات الموردين.
-> - إذا تم استخدام وظيفة `VALUEIN` في نطاق وظيفة `FILTER`، وتشير الوسيطة الثانية لـ `VALUEIN` إلى مصدر بيانات لا يقوم بإرجاع أي سجلات، ويتم تجاهل القيمة المنطقية *[False](er-formula-supported-data-types-primitive.md#boolean)* التي تُرجعها وظيفة `VALUEIN`. لذلك، يقوم التعبير `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` بإرجاع جميع سجلات الموردين لمصدر بيانات **الموردين**، حتى إذا كان مصدر بيانات **VendGroups** لا يُرجع أي سجلات لمجموعات الموردين.
 
 ## <a name="example-1"></a>مثال1
 
@@ -76,6 +73,3 @@ FILTER (list, condition)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دالات القائمة](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: توزيع بيانات تخطيط الموازنة
 description: يوضح هذا الموضوع طرق التوزيع المختلفة المتوفرة في Microsoft Dynamics 365 Finance وكيفية استخدامها.
-author: panolte
+author: ShylaThompson
+manager: AnnBe
 ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15191
 ms.assetid: 89a918e8-59a4-4711-a2e9-b41989ddd0f1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6011c4c005a26720fd57caca0075483404f41b4
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595107"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440075"
 ---
 # <a name="budget-planning-data-allocation"></a>توزيع بيانات تخطيط الموازنة
 
@@ -36,28 +39,28 @@ ms.locfileid: "7595107"
 > [!NOTE] 
 > يجب استخدام سيناريو فريد للتجميع يختلف عن السيناريو الذي تم استخدامه للتوزيع أو التعديلات الأخرى التي تم تنفيذها في السابق في الخطة الأصلية.  
 
-[![أسلوب توزيع تخصيص فترات الوصول.](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+[![أسلوب توزيع تخصيص فترات الوصول](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **التوزيع عبر الفترات** – يمكنك استخدام فئة توزيع فترة لتوزيع بنود خطة الموازنة من سيناريو خطة موازنة المصدر عبر الفترات في سيناريو الوجهة. ويتم تعيين المبلغ المصدر لعدة بنود في سيناريو الوجهة، استناداً إلى النسبة المئوية والتاريخ اللذين تم تحديدهما في فئة توزيع الفترة.         
 
-[![أسلوب توزيع التوزيع على أبعاد.](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
+[![أسلوب توزيع التوزيع على أبعاد](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **التوزيع للأبعاد** – يتم توزيع بنود خطة الموازنة من سيناريو تخطيط الموازنة المصدر إلى بند واحد أو أكثر في السيناريو الوجهة، استناداً إلى النسب المئوية والأبعاد المالية التي تم تحديدها في مدة توزيع الموازنة المحددة.           
 
-![مخطط التجميع.](./media/aggregatechart-300x230.png)
+![مخطط التجميع](./media/aggregatechart-300x230.png)
 **التجميع** – يتم تجميع بنود خطة الموازنة من سيناريو خطة الموازنة المصدر في خطط الموازنة المرتبطة إلى سيناريو الوجهة في خطة الموازنة الأصلية. تعمل هذه الطريقة على تمكين مبالغ الموازنة التي تم إعدادها في مستوى أدنى في المؤسسة لتجميعها في مستوى أعلى.          
 
-[![مخطط التوزيع.](./media/distributechart-300x230.png)](./media/distributechart.png)
+[![مخطط التوزيع](./media/distributechart-300x230.png)](./media/distributechart.png)
 **التوزيع** - يتم توزيع بنود خطة الموازنة من سيناريو تخطيط الموازنة المصدر في خطة الموازنة الأصلية إلى السيناريو الوجهة في خطط الموازنة المرتبطة بها (الفرعية)، استناداً إلى الأبعاد المالية لوحدات المؤسسة للخطط المرتبطة. تعمل هذه الطريقة على تمكين مبالغ الموازنة التي تم إعدادها في مستوى أعلى في المؤسسة المراد لنشرها لمرجعة مترجمة أخرى.           
 
-[![قواعد توزيع دفتر الأستاذ.](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
+[![قواعد توزيع دفتر الأستاذ](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
 **استخدام قواعد توزيع دفتر الأستاذ** – يتم توزيع بنود خطة الموازنة من سيناريو تخطيط الموازنة المصدر إلى سيناريو الوجهة، وفقًا لقاعدة توزيع دفتر الأستاذ‬ التي تم تحديدها. 
 
-[![نسخ من خطة الموازنة.](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
+[![نسخ من خطة الموازنة](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
 **نسخ من خطة موازنة‬** – كما في طريقة توزيع التخصيص، يتم إنشاء بنود خطة الموازنة في الوجهة، استناداً إلى بنود في خطة موازنة ذات صلة. ومع ذلك، لا يلزم لهذه الطريقة أن تكون خطة الموازنة المصدر هي الخطة الأصلية ولكن يمكن أن توجد في أي مستوى عالٍ في التدرج الهرمي لخطة الموازنة. وتفيد طريقة التوزيع هذه إذا تم إدراج المبالغ المجمعة في الموازنة أصلاً عند مستوى أعلى بكثير، ويجب تحويلها إلى مستوى أدنى للمؤسسة لمراجعتها تفصيليًا وتسويتها قبل أن يمكنها الحصول على اعتماد على مستوى أعلى.          
 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>استخدام طرق التوزيع في خطة موازنة
 لتنفيذ عمليات التوزيع في صفحة خطة الموازنة، حدد البنود المراد توزيعها، ثم انقر فوق **توزيع الموازنة**.
 
-[![زر توزيع الموازنة.](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
+[![زر توزيع الموازنة](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
 في الخطوة التالية، قم بتحديد طريقة توزيع. ويتم بعد ذلك تعيين الحقول المتبقية، استناداً إلى الطريقة التي حددتها. وتتضمن هذه الحقول المصدر والوجهة لبيانات خطة الموازنة وخيارًا يتيح لك ضرب المصدر في عامل محدد عند إنشاء مبالغ الوجهة، لتسهيل التسوية الكبيرة. كما يمكنك تعيين خيار **الإلحاق بخطة**. وحدد **لا** لاستبدال بنود خطة الموازنة الموجودة، أو حدد **نعم** للاحتفاظ ببنود خطة الموازنة الموجودة وإضافة بنود جديدة للمبالغ الموزعة.
 
@@ -70,10 +73,7 @@ ms.locfileid: "7595107"
 
 وأخيراً، أضف مهمة مؤتمتة لتوزيع مراحل تخطيط الموازنة في مرحلة سير العمل المطلوبة. وفي المثال التالي، تم إدراج اثنين من توزيعات مراحل تخطيط الموازنة (المُشار إليهما باللون الأحمر) في سير العمل.
 
-[![توزيعات مرحلة تخطيط الموازنة.](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+[![توزيعات مرحلة تخطيط الموازنة](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

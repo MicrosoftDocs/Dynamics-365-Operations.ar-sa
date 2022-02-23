@@ -1,39 +1,46 @@
 ---
-title: حذف BOM لخدمة
-description: يوفر هذا الموضوع إجراءً يوضح كيفية حذف قائمة مكونات الصنف للخدمة.
-author: kamaybac
+title: حذف شجرة مواد الخدمة
+description: يمثل أمر الخدمة الزيارة التي قام بها فني الخدمة إلى موقع العميل في تاريخ معين.
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0b1ea4bd8c035db39763b3c1da9ccfc14030c24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 744f78f2dd088e50c91e1f7ef0e6f68b176f9618
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569061"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421286"
 ---
-# <a name="delete-a-service-bom"></a>حذف BOM لخدمة
+# <a name="delete-a-service-bom"></a>حذف شجرة مواد الخدمة 
 
 [!include [banner](../includes/banner.md)]
 
-1. انتقل إلى **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**. حدد اتفاقية الخدمات التي تريد حذف قائمة مكونات صنف خدمة (BOM) منها.
-1. في **جزء الإجراءات**، حدد **كائنات الخدمة**.
-1. في النموذج **كائنات الخدمة**، حدد كائن الخدمة الذي تريد حذف قائمة مكونات صنف خدمة منه. حدد **الوظائف**، ثم حدد **حذف قائمة مكونات صنف خدمة**.
-1. حدد **نعم**.
+
+1.  انقر فوق **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**. حدد اتفاقية الخدمات التي تريد حذف قائمة مكونات صنف خدمة (BOM) منها.
+
+2.  في **جزء الإجراءات**، انقر فوق **كائنات الخدمة**.
+
+3.  في النموذج **كائنات الخدمة**، حدد كائن الخدمة الذي تريد حذف قائمة مكونات صنف خدمة منه. انقر فوق **الوظائف**، ثم قم بتحديد **حذف قائمة مكونات صنف خدمة**.
+
+4.  انقر فوق **نعم**.
 
 
 > [!NOTE]
-> في حالة عدم القيام بتطبيق قائمة مكونات صنف قالب، عندئذ يمكن حذف قائمة مكونات صنف خدمة من الصفحة **قوائم مكونات صنف قالب**. في حالة تطبيق قائمة مكونات صنف قالب، فلا يمكن حذف قائمة مكونات صنف الخدمة باستخدام هذا الأسلوب.
+> <P>في حالة عدم القيام بتطبيق قائمة مكونات صنف قالب، عندئذ يمكن حذف قائمة مكونات صنف خدمة من النموذج <STRONG>قوائم مكونات صنف قالب</STRONG>. في حالة تطبيق قائمة مكونات صنف قالب، فلا يمكن حذف قائمة مكونات صنف الخدمة باستخدام هذا الأسلوب.</P>
 
 
 
@@ -46,6 +53,3 @@ ms.locfileid: "7569061"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

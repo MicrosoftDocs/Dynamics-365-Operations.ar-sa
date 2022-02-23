@@ -2,9 +2,11 @@
 title: نظرة عامة على صفحات إدارة الحسابات
 description: يقدم هذا الموضوع نظرة عامة حول صفحات إدارة الحسابات في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,18 +16,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984509"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969841"
 ---
 # <a name="account-management-pages-overview"></a>نظرة عامة على صفحات إدارة الحسابات
 
 [!include [banner](includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة حول صفحات إدارة الحسابات في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 تتيح صفحات إدارة الحساب للعملاء عرض المعلومات المتعلقة بحساباتهم وأوامرهم. تتضمن صفحات إدارة الحساب الصفحة المنتقل إليها لإدارة الحساب وصفحات ملف تعريف المستخدم والعناوين ومحفوظات الطلب وتفاصيل الطلب ونقاط الولاء وقائمة الأمنيات.
 
@@ -35,15 +39,15 @@ ms.locfileid: "7984509"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة منتقل إليها لإدارة الحسابات.
 
-![مثال لصفحة منتقل إليها لإدارة الحسابات.](./media/Account-Management.PNG)
+![مثال لصفحة منتقل إليها لإدارة الحسابات](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>صفحة ملف التعريف الخاصة بي
 
-تعرض صفحة **‏‫ملف التعريف الخاص بي‬** معلومات حساب العميل، مثل الاسم ورقم الهاتف. يمكن للعميل تحديث معلومات ملف التعريف في هذه الصفحة. يمكن تخصيص هذه الصفحة بحيث تتضمن تفضيلات إضافية لحساب العميل، مثل خيار للاشتراك في البريد الإلكتروني للتسويق.
+تعرض صفحة **‏‫ملف التعريف الخاص بي‬** معلومات حساب العميل، مثل اسمه ورقم هاتفه. يمكن للعميل تحديث معلومات ملف التعريف الخاص به في هذه الصفحة. يمكن تخصيص هذه الصفحة بحيث تتضمن تفضيلات إضافية لحساب العميل، مثل خيار للاشتراك في البريد الإلكتروني للتسويق.
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **ملف التعريف الخاص بي** التي تم إنشاؤها باستخدام مكتبة الوحدات النمطية.
 
-![مثال لصفحة ملف التعريف الخاصة بي.](./media/Account-Management-MyProfile.PNG)
+![مثال لصفحة ملف التعريف الخاصة بي](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>صفحة العناوين
 
@@ -51,7 +55,7 @@ ms.locfileid: "7984509"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **العناوين**.
 
-![مثال لصفحة عناوين.](./media/Account-Management-Address.png)
+![مثال لصفحة عناوين](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>صفحات سجل الأوامر وتفاصيل الأمر
 
@@ -59,11 +63,11 @@ ms.locfileid: "7984509"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **سجل الأمر**.
 
-![مثال لصفحة سجل الأمر.](./media/Account-Management-OrderHistory.PNG)
+![مثال لصفحة سجل الأمر](./media/Account-Management-OrderHistory.PNG)
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **تفاصيل الأمر**.
 
-![مثال لصفحة تفاصيل الأمر.](./media/Account-Management-OrderDetails.PNG)
+![مثال لصفحة تفاصيل الأمر](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>صفحة برنامج الولاء
 
@@ -71,7 +75,7 @@ ms.locfileid: "7984509"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **برنامج الولاء**.
 
-![مثال لصفحة برنامج الولاء.](./media/Account-Management-Loyalty.PNG)
+![مثال لصفحة برنامج الولاء](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>صفحة قائمة الأمنيات
 
@@ -79,7 +83,7 @@ ms.locfileid: "7984509"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **قائمة الأمنيات**.
 
-![مثال لصفحة قائمة الأمنيات.](./media/Account-Management-Wishlist.PNG)
+![مثال لصفحة قائمة الأمنيات](./media/Account-Management-Wishlist.PNG)
 
 لمزيد من المعلومات حول الوحدات النمطية لإدارة الحسابات وكيفية تأليفها، راجع [إدارة الحسابات](account-management.md).
 
@@ -91,6 +95,3 @@ ms.locfileid: "7984509"
 
 [نظرة عامة على صفحات سلة التسوق والسداد مع الخروج](quick-tour-cart-checkout.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

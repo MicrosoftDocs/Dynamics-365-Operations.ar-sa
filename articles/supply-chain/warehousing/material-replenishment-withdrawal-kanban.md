@@ -2,13 +2,16 @@
 title: التزويد بحلول كانبان للسحب
 description: يصف هذا الموضوع كيفية استخدام كانبان السحب لتزويد المواد لأنشطة التصنيع.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4421684"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>التزويد بحلول كانبان للسحب
 
@@ -30,12 +33,13 @@ ms.locfileid: "6742574"
 يصف هذا الموضوع كيفية استخدام كانبان السحب لتزويد المواد لأنشطة التصنيع.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>سير عمل تزويد المواد الذي يستخدم كانبان السحب
+-------------------------------------------------------------------
 
 يمكن استخدام كانبان السحب لنقل كانبان لأي صنف فردي بين مواقع المستودعات ومواقع الإنتاج حيث يتم استهلاك المواد. يدعم كانبان السحب حلاً يستند إلى السحب لتزويد المواد، حيث تكون إشارة السحب مطلوبة لتشغيل التوريد الخاص بطلب محدد. 
 
 يوضح السيناريو التالي نظام التزويد المستند إلى السحب حيث تقوم إشارة السحب بتشغيل عملية إنشاء كانبان لتزويد المواد الخاصة بعملية إنتاج. 
 
-[![إشارة السحب تقوم بتشغيل عملية إنشاء كانبان لتزويد المواد الخاصة بعملية إنتاج.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![إشارة السحب تقوم بتشغيل عملية إنشاء كانبان لتزويد المواد الخاصة بعملية إنتاج](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  كانبان السحب
 2.  موقع كانبان "من" وموقع تخزين عمل المستودع
@@ -72,7 +76,7 @@ ms.locfileid: "6742574"
 
 في السيناريو التالي، يتم تكوين نشاط تحويل كانبان السحب للتحويل بين موقعين في نفس المستودع. يتم إعداد نشاط تحويل كانبان السحب بحيث يكتمل تلقائيًا. 
 
-[![يكتمل نشاط التحويل تلقائيًا عند معالجة عمل انتقاء كانبان.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![يكتمل نشاط التحويل تلقائيًا عند معالجة عمل انتقاء كانبان](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  مستودع مشترك للمواد الخام والإنتاج
 2.  مواقع المستودع للمواد الخام
@@ -83,6 +87,3 @@ ms.locfileid: "6742574"
 
 بعد استهلاك كانبان في موقع إدخال الإنتاج، يتم الإعلام عن كانبان على أنه فارغ، وتتم إضافة كانبان جديد من نفس النوع إلى الدفق. عند إنشاء الكانبان، تتم إضافة بند موجة إلى موجة كانبان. عندما تتم معالجة موجة كانبان، يتم إنشاء عمل المستودع لانتقاء كانبان. يقوم عامل المستودع بمعالجة عمل انتقاء كانبان ويتم توجيهه بواسطة عمل انتقاء المواد لكانبان في موقع المستودع. عندما يؤكد عامل المستودع هذا عملية الانتقاء، يتم إكمال كانبان بشكل تلقائي ويتم توجيه عامل المستودع لوضع المواد في موقع إدخال الإنتاج.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

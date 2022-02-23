@@ -2,25 +2,28 @@
 title: فوترة المشروع
 description: توفر هذه المقالة نظرة عامة حول فوترة المشاريع لمشاريع الوقت والمواد والمشاريع ثابتة السعر. وتتضمن معلومات حول مقترحات الفاتورة (الفواتير الأولية) والتحكم في الفواتير والفوترة على الحساب وفوترة المورّد والإشعارات الدائنة.
 author: TaylorVH
+manager: AnnBe
 ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: zezhangzhao
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883558"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439900"
 ---
 # <a name="project-invoicing"></a>فوترة المشروع
 
@@ -72,7 +75,7 @@ ms.locfileid: "7883558"
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>عرض معلومات المنح في صفحات قوائم فواتير المشروع
 
-بإمكان مستخدمي القطاع العام إضافة **معرف المنحة** و **اسم المنحة** إلى صفحات القائمتين **مقترحات فاتورة المشروع** و **فواتير المشروع**. يتم تمكين هذه الأعمدة باستخدام الميزة **إضافة معلومات المنح في صفحات قوائم فواتير المشروع**. تكون هذه الميزة متوقفة عن التشغيل بشكل افتراضي ويمكن تمكينها في **مساحات العمل > إدارة لميزات**. اتصل بمسؤول النظام للمساعدة في تمكين هذه الميزة.
+بإمكان مستخدمي القطاع العام إضافة **معرف المنحة** و **اسم المنحة** إلى صفحات القائمتين **مقترحات فاتورة المشروع** و **فواتير المشروع**. يتم تمكين هذه الأعمدة باستخدام الميزة **إضافة معلومات المنح في صفحات قوائم فواتير المشروع**. تكون هذه الميزة متوقفة عن التشغيل بشكل افتراضي ويمكن تمكينها في **مساحات العمل > إدارة لميزات**. اتصل بمسؤول النظام للمساعدة في تمكين هذه الميزة.
 
 ## <a name="on-account-invoicing"></a>فوترة على الحساب
 يستند المبلغ الذي قمت بإدخاله في فاتورة على الحساب لمشروع إلى التوقيت والنسبة المئوية للاكتمال وغيرها من شروط الفوترة الأخرى المحددة في عقد المشروع المرتبط. لا يتم احتساب المبلغ على أساس عدد الساعات أو الأصناف أو المصروفات أو الرسوم أو الحركات الأخرى التي تم ترحيلها إلى مشروع. 
@@ -129,6 +132,3 @@ ms.locfileid: "7883558"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

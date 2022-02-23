@@ -1,25 +1,28 @@
 ---
 title: إنشاء قاعدة كانبان لحدث المبيعات
 description: يركز هذا الإجراء على الإعداد المطلوب لإنشاء قاعدة كانبان يتم تشغيلها أثناء إنشاء أمر مبيعات.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cd2b579e542b9f905fc51b63f2120e5a5c883ae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1759adea6db8120078e2f32bff79178545c2328a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566637"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421081"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>إنشاء قاعدة كانبان لحدث المبيعات
 
@@ -71,6 +74,3 @@ ms.locfileid: "7566637"
 2. انقر فوق "عرض شجرة تثبيت السعر".
     * لاحظ أنه يتم إنشاء كانبان بنفس الكمية كبند المبيعات. ويمكنك أيضًا مشاهدة إصدارات المواد اللازمة لإنتاج L0050. وهذه هي الخطوة الأخيرة في هذا الإجراء.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

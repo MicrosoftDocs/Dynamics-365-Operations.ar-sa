@@ -2,9 +2,11 @@
 title: عرض الصفحات بجوار بعضها البعض باستخدام ميزة فتح في نافذة جديدة
 description: تشرح هذه المقالة كيفية عرض الصفحات جنبًا إلى جنب.
 author: aneesmsft
+manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068049"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798393"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>عرض الصفحات بجوار بعضها البعض باستخدام ميزة فتح في نافذة جديدة
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 تشرح هذه المقالة كيفية عرض الصفحات جنبًا إلى جنب.
 
@@ -49,6 +48,3 @@ ms.locfileid: "8068049"
 ولا تتوفر ميزة **فتح في نافذة جديدة** إلا عند وجود أكثر من صفحة واحدة مفتوحة في النافذة. وكذلك، تنغلق النافذة المنبثقة تلقائيًا عندما لا يعود هناك أي صفحات أخرى مفتوحة (أي، عند إغلاق الصفحة الأخيرة في هذه النافذة). كما يقوم النظام بإغلاق الصفحات المفتوحة عند الانتقال إلى منطقة أخرى في التطبيق. وبالتالي، إذا كان لديك نوافذ منبثقة مفتوحة وانتقلت إلى منطقة أخرى في التطبيق، فسيتم إغلاق النوافذ المنبثقة تلقائيًا بسبب إغلاق الصفحات الموجودة في هذه النوافذ بواسطة النظام.
 
 ويعرض الشريط العلوي في النوافذ المنبثقة المعلومات حول الشركة التي تم فتح الصفحة فيها وتكون للقراءة فقط. وتعتمد النوافذ المنبثقة أيضًا على نافذة المستعرض الرئيسية. وإذا تم إغلاق النافذة الرئيسية أو تحديثها، ستصبح كافة النوافذ المنبثقة المفتوحة للقراءة فقط. في حالة حدوث هذه الحالة، لا يزال يمكنك عرض المعلومات في هذه الإطارات، ولكن لن تكون قادراً على التعامل معها.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: أمان مستخدم مدخل المورّد على الإنترنت‬
 description: تشرح هذه المقالة كيفية إعداد الأمان للمورّدين الخارجيين الذين يستخدمون مدخل المورّد. تنطبق هذه المعلومات فقط على إصدارات Dynamics AX لشهري فبراير 2016 ومايو 2016.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30231
 ms.assetid: 3574db17-81c7-4c5a-999b-0098aa0b9cda
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e73e9e874fbb8df029e4eccce922a660513c1bf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1be210728a6d5fa9a26daf9f13865ff08de03d2d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568054"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018162"
 ---
 # <a name="vendor-portal-user-security"></a>أمان مستخدم مدخل المورد
 
@@ -40,12 +42,10 @@ ms.locfileid: "7568054"
 
 إذا كان نفس الشخص يتطلب الوصول إلى مدخل الموردين لعدة حسابات موردين (لمختلف الكيانات القانونية، على ما يُحتمل)، يجب إقران كل حساب من حسابات المستخدم الخاصة بهذا الشخص بنفس شخص جهة الاتصال المسجل. ويشتمل دور **المورد (خارجي)** على كافة القدرات الأساسية المطلوبة لاستخدام الوظيفة المتوفرة في مدخل المورد. يساعد هذا الإعداد على ضمان أن تكون واجهة المستخدم التي يشاهدها المستخدم الخارجي مركزةً على السيناريو المحدد فقط.
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [التعاون مع المورّدين باستخدام مدخل المورِّد‬](collaborate-vendors-vendor-portal.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

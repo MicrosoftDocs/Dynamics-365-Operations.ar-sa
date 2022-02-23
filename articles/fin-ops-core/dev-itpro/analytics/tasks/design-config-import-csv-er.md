@@ -2,9 +2,11 @@
 title: تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات من ملفات CSV خارجية
 description: استخدم هذا الإجراء لتصميم تكوينات التقارير الإلكترونية لاستيراد البيانات إلى تطبيق Finance and Operations من ملف خارجي بتنسيق CSV.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f0cf8c7260c85d405a5dfdcd50323ffee4d4528b982997a802b859ab8327b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747261"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682035"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات من ملفات CSV خارجية
 
@@ -122,6 +124,3 @@ ms.locfileid: "6747261"
     * راجع المخرجات بتنسيق XML التي تمثل البيانات التي تم استيرادها من الملف المحدد ونقلها إلى نموذج البيانات. لاحظ أنه قد تمت معالجة كافة الأسطر 7 لملف CSV الذي تم استيراده. تم تخطي السطر 1 لعناوين الحقول الحاوية، وتم تحليل 4 حركات بشكل صحيح، وتم التعرف على حركتين 2 على أنهما غير صالحتين.
 3. قم بإغلاق الصفحة.
 4. قم بإغلاق الصفحة.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

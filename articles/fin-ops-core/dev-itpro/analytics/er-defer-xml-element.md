@@ -2,9 +2,11 @@
 title: تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية
 description: يوضح هذا الموضوع كيفية تأجيل تنفيذ عنصر XML في تنسيق إعداد التقارير الإلكترونية (ER).
 author: NickSelin
-ms.date: 04/23/2021
+manager: kfend
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: afe0f9945d86c0c7da88b427f582483ed38a54db837818c3e63c5ae2cc60cfbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6dce3768c886403f789063d516e0e696fc829f81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718371"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680700"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية
 
@@ -44,7 +46,7 @@ ms.locfileid: "6718371"
 
 ## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>مثال: تأجيل تنفيذ عنصر XML في تنسيق إعداد التقارير الإلكترونية
 
-توضح الخطوات التالية كيفية تكوين مستخدم في [دور](../sysadmin/tasks/assign-users-security-roles.md)مستشار وظيفة إعداد التقارير الإلكترونية أو مسؤول النظام لتنسيق إعداد التقارير الإلكترونية الذي يحتوي على عنصر XML يختلف فيه ترتيب التنفيذ عن الترتيب الموجود في التدرج الهرمي للتنسيق.
+توضح الخطوات التالية كيفية تكوين مستخدم في [دور](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)مستشار وظيفة إعداد التقارير الإلكترونية أو مسؤول النظام لتنسيق إعداد التقارير الإلكترونية الذي يحتوي على عنصر XML يختلف فيه ترتيب التنفيذ عن الترتيب الموجود في التدرج الهرمي للتنسيق.
 
 يمكن تنفيذ هذه الخطوات في شركة **USMF** في Microsoft Dynamics 365 Finance.
 
@@ -59,14 +61,14 @@ ms.locfileid: "6718371"
 
 | وصف المحتوى            | اسم الملف |
 |--------------------------------|-----------|
-| تكوين نموذج بيانات التقارير الإلكترونية    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
-| تكوين تعيين نموذج إعداد التقارير الإلكترونية | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
+| تكوين نموذج بيانات التقارير الإلكترونية    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| تكوين تعيين نموذج إعداد التقارير الإلكترونية | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 قبل البدء، يجب أيضًا تنزيل التكوين التالي لنموذج حل إعداد التقارير الإلكترونية على الكمبيوتر المحلي وحفظه.
 
 | وصف المحتوى     | اسم الملف |
 |-------------------------|-----------|
-| تنسيق تكوين ER | [Format to learn deferred XML elements.version.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
+| تنسيق تكوين ER | [Format to learn deferred XML elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ### <a name="import-the-sample-er-configurations"></a>استيراد نموذج تكوينات إعداد التقارير الإلكترونية.
 
@@ -90,14 +92,14 @@ ms.locfileid: "6718371"
 6. في شجرة التكوين ، وسَّع **Model to learn deferred elements**.
 7. راجع قائمة تكوينات إعداد التقارير الإلكترونية المستوردة في شجرة التكوين.
 
-    ![تكوينات إعداد التقارير الإلكترونية المستوردة على صفحة التكوينات.](./media/ER-DeferredXml-Configurations.png)
+    ![تكوينات إعداد التقارير الإلكترونية المستوردة على صفحة التكوينات](./media/ER-DeferredXml-Configurations.png)
 
 ### <a name="activate-a-configuration-provider"></a>تنشيط موفر تكوين
 
 1. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 2. في صفحة **ترجمة التكوينات**، في قسم **موفري التكوين**، تحقق من إدراج [ موفر التكوين ](general-electronic-reporting.md#Provider) لنموذج الشركة Litware, Inc (`http://www.litware.com`) ووضع علامة عليه كنشط. في حالة عدم إدراج موفر التكوين، أو عدم وضع علامة عليه كنشط، اتبع الخطوات الموجودة في الموضوع [إنشاء موفر تكوين ووضع علامة عليه على أنه نشط.](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![نموذج شركة Litware, Inc. في صفحة تكوينات الترجمة.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
+    ![نموذج شركة Litware, Inc. في صفحة تكوينات الترجمة](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>مراجعة تعيين النموذج المستورد
 
@@ -119,7 +121,7 @@ ms.locfileid: "6718371"
     - يتم تكوين مصدر البيانات **المجمعة** للنوع *التجميع حسب* لتجميع حركات الضريبة المصفاة لمصدر البيانات **التي تمت تصفيتها**.
     - يتم تكوين حقل التجميع **TotalSum** لمصدر البيانات **المجمعة** لتلخيص قيم الحقل **\$TaxAmount** لمصدر البيانات **التي تمت تصفيتها** لكافة حركات الضرائب المصفاة لمصدر البيانات هذا.
 
-        ![حقل التجميع TotalSum في صفحة تحرير معلمات 'GroupBy'.](./media/ER-DeferredXml-GroupByParameters.png)
+        ![حقل التجميع TotalSum في صفحة تحرير معلمات 'GroupBy'](./media/ER-DeferredXml-GroupByParameters.png)
 
 9. راجع كيفية ربط مصادر البيانات التي تم تكوينها بنموذج البيانات، وكيفية عرضها للبيانات التي يتم الوصول إليها لتوفيرها في تنسيق إعداد التقارير الإلكترونية:
 
@@ -127,7 +129,7 @@ ms.locfileid: "6718371"
     - يتم ربط الحقل **\$TaxAmount** بمصدر البيانات **التي تمت تصفيتها** بحقل نموذج البيانات **Data.List.Value**.
     - يتم ربط الحقل **TotalSum** الخاص بمصدر البيانات **المجمعة** بحقل نموذج البيانات **Data.Summary.Total**.
 
-    ![صفحة مصمم تعيين النموذج.](./media/ER-DeferredXml-ModelMapping.png)
+    ![صفحة مصمم تعيين النموذج](./media/ER-DeferredXml-ModelMapping.png)
 
 10. اغلق صفحات **مصمم تعيين النموذج** و **تعيينات النماذج**.
 
@@ -143,7 +145,7 @@ ms.locfileid: "6718371"
     - يتم تكوين عنصر تنسيق XML **التقرير \\الرسالة\\السجل** لملء المستند الصادر بعقدة سجل واحدة لعرض تفاصيل حركة ضريبية واحدة.
     - يتم تكوين عنصر تنسيق XML **التقرير\\الرسالة\\الملخص** لملء المستند الصادر بعقدة ملخص واحدة تتضمن مجموع قيم الضريبة من الحركات الضريبية التي تمت معالجتها.
 
-    ![عنصر XML للرسالة وعناصر XML المتداخلة في صفحة مصمم التنسيق.](./media/ER-DeferredXml-Format.png)
+    ![عنصر XML للرسالة وعناصر XML المتداخلة في صفحة مصمم التنسيق](./media/ER-DeferredXml-Format.png)
 
 5. في علامة التبويب **تعيين**، راجع التفاصيل التالية:
 
@@ -157,14 +159,14 @@ ms.locfileid: "6718371"
     - ترتبط السمة **TotalTaxAmount** بـ **model.Data.Summary.Total** لإنشاء مجموع قيم الضريبة لحركات الضريبة التي تمت معالجتها.
     - تنشئ السمة **ExecutionDateTime** التاريخ والوقت (بما في ذلك المللي ثوانس) عند إضافة عقدة الملخص.
 
-    ![علامة التبويب التعيين في صفحة مصمم التنسيق.](./media/ER-DeferredXml-Format2.png)
+    ![علامة التبويب التعيين في صفحة مصمم التنسيق](./media/ER-DeferredXml-Format2.png)
 
 ### <a name="run-the-imported-format"></a>تشغيل التقارير الإلكترونية المستوردة
 
 1. في صفحة **مصمم التنسيق**، حدد **تشغيل**.
 2. نزِّل الملف الذي يعرضه مستعرض الويب وافتحه للمراجعة.
 
-    ![ملف تم تنزيله من التنسيق المستورد.](./media/ER-DeferredXml-Run.png)
+    ![الملف المنزَّل](./media/ER-DeferredXml-Run.png)
 
 لاحظ أن عقدة الملخص تعرض مجموع قيم الضريبة للحركات التي تمت معالجتها. نظرًا لتكوين التنسيق لاستخدام الربط **model.Data.Summary.Total** لإرجاع هذا المجموع، يتم حساب المجموع باستدعاء تجميع **TotalSum** لمصدر البيانات **المجمعة** للنوع *GroupBy* في تعيين النموذج. لحساب هذا التجميع، يتكرر تعيين النموذج في كافة الحركات التي تم تحديدها في مصدر البيانات **التي تمت تصفيتها**. وبمقارنة أوقات تنفيذ عقدة الملخص وعقدة السجل الأخير، يمكنك تحديد استغراق عملية حساب المجموع 12 مللي ثانية. وبمقارنة أوقات تنفيذ عقدتا السجل الأول والسجل الأخير، يمكنك تحديد استغراق عملية إنشاء كل عقد السجلات 9 مللي ثانية. لذا كان إجمالي الوقت المطلوب هو 21 مللي ثانية.
 
@@ -178,25 +180,25 @@ ms.locfileid: "6718371"
 4. كوِّن تعبير **اسم مفتاح البيانات المجمعة** ليكون `WsColumn`.
 5. كوِّن تعبير **قيمة مفتاح البيانات المجمعة** ليكون `WsRow`.
 
-    ![عنصر XML السجل في صفحة مصمم التنسيق.](./media/ER-DeferredXml-Format3.png)
+    ![عنصر XML السجل في صفحة مصمم التنسيق](./media/ER-DeferredXml-Format3.png)
 
 6. حدد سمة **التقرير\\الرسالة\\السجل\\TaxAmount**.
 7. كوِّن تعبير **اسم مفتاح البيانات المجمعة** ليكون `SummingAmountKey`.
 
-    ![سمة TaxAmount في صفحة مصمم التنسيق.](./media/ER-DeferredXml-Format4.png)
+    ![سمة TaxAmount في صفحة مصمم التنسيق](./media/ER-DeferredXml-Format4.png)
 
     ويمكنك اعتبار هذا الإعداد بمثابة تنفيذ ورقة عمل ظاهرية، حيث يتم إلحاق قيمة خلية A1 بقيمة مبلغ الضريبة من كل حركة ضريبية تتم معالجتها.
 
 8. حدد سمة **التقرير\\الرسالة\\السجل\\RunningTotal**، ثم حدد **تحرير المعادلة‬**.
 9. كوِّن التعبير `SUMIF(SummingAmountKey, WsColumn, WsRow)` باستخدام وظيفة إعداد التقارير الإلكترونية [SUMIF](er-functions-datacollection-sumif.md) المضمنة، ثم حدد **حفظ**.
 
-    ![تعبير SUMIF.](./media/ER-DeferredXml-FormulaDesigner.png)
+    ![تعبير SUMIF](./media/ER-DeferredXml-FormulaDesigner.png)
 
 10. أغلق صفحة **مصمم المعادلة**.
 11. حدد **حفظ**، ثم حدد **تشغيل**.
 12. نزِّل الملف الذي يعرضه مستعرض الويب وراجعه.
 
-    ![تم إنشاء قائمة قيمة الضريبة مع الإجمالي الحالي.](./media/ER-DeferredXml-Run1.png)
+    ![الملف المنزَّل](./media/ER-DeferredXml-Run1.png)
 
     تحتوي عقدة السجل الأخير على الإجمالي الحالي لقيم الضريبة التي يتم حسابها لكافة الحركات التي تمت معالجتها باستخدام المخرجات المنشأة كمصدر بيانات. يبدأ مصدر البيانات هذا من بداية التقرير ويستمر خلال حركة الضريبة الأخيرة. تحتوي عقدة الملخص على مجموع قيم الضريبة لكافة الحركات التي تمت معالجتها والتي يتم حسابها في تعيين النموذج باستخدام مصدر بيانات النوع *GroupBy*. لاحظ أن هذه القيم متساوية. لذا يمكن استخدام التجميع المبني على المخرجات بدلاً من **GroupBy**. وبمقارنة أوقات تنفيذ عقدة السجل الأول وعقدة الملخص، يمكنك تحديد استغراق عملية إنشاء كل عقد السجلات والجمع 11 مللي ثانية. لذا فيما يتعلق بإنشاء عقد السجلات وجمع قيم الضريبة، فإن التنسيق المعدل يكون أسرع مرتين تقريبًا من التنسيق الأصلي.
 
@@ -205,7 +207,7 @@ ms.locfileid: "6718371"
 15. حدد **حفظ**، ثم حدد **تشغيل**.
 16. نزِّل الملف الذي يعرضه مستعرض الويب وراجعه.
 
-    ![تم إنشاء قائمة قيم الضرائب باستخدام الصيغة المعدلة.](./media/ER-DeferredXml-Run2.png)
+    ![الملف المنزَّل](./media/ER-DeferredXml-Run2.png)
 
     لاحظ أن الإجمالي الحالي لقيم الضريبة في عقدة السجل الأخير يساوي الآن المجموع في عقدة الملخص.
 
@@ -218,7 +220,7 @@ ms.locfileid: "6718371"
 3. حدد **حفظ**، ثم حدد **تشغيل**.
 4. نزِّل الملف الذي يعرضه مستعرض الويب وراجعه.
 
-    ![تم تنزيل ملف قيم الضرائب لرأس التقرير.](./media/ER-DeferredXml-Run3.png)
+    ![الملف المنزَّل](./media/ER-DeferredXml-Run3.png)
 
     لاحظ أن مجموع قيم الضريبة في عقدة الملخص يساوي الآن 0 (صفر)، لأن هذا المجموع يتم حسابه الآن استنادًا إلى المخرجات المنشأة. عند إنشاء عقدة السجل الأول، لن تحتوي المخرجات المنشأة حينها على عقدالسجلات التي تحتوي على تفاصيل الحركة. يمكنك تكوين هذا التنسيق لتأجيل تنفيذ عنصر **التقرير\\الرسالة\\الملخص** حتى يتم تشغيل عنصر **التقرير\\الرسالة\\السجل** لكل الحركات الضريبية.
 
@@ -227,12 +229,12 @@ ms.locfileid: "6718371"
 1. في صفحة  **مصمم التنسيق**، وفي علامة التبويب **التنسيق**، حدد عنصر XML **التقرير\\الرسالة\\الملخص**.
 2. عيّن الخيار **التنفيذ المؤجل** إلى **نعم**.
 
-    ![خيار التنفيذ المؤجل لعنصر XML الملخص في صفحة مصمم التنسيق.](./media/ER-DeferredXml-Format5.png)
+    ![خيار التنفيذ المؤجل لعنصر XML الملخص في صفحة مصمم التنسيق](./media/ER-DeferredXml-Format5.png)
 
 3. حدد **حفظ**، ثم حدد **تشغيل**.
 4. نزِّل الملف الذي يعرضه مستعرض الويب وراجعه.
 
-    ![تم تنزيل ملف التنفيذ المؤجل.](./media/ER-DeferredXml-Run4.png)
+    ![الملف المنزَّل](./media/ER-DeferredXml-Run4.png)
 
     يتم الآن تشغيل عنصر **التقرير\\الرسالة \\الملخص** فقط بعد تشغيل كافة العناصر الأخرى التي تم إدراجها ضمن العنصر الأصلي **التقرير\\الرسالة**. لذا يتم تشغيله بعد تشغيل عنصر **التقرير\\الرسالة \\السجل** لكل الحركات الضريبية لمصدر البيانات **model.Data.List**. توضح أوقات تنفيذ عقد السجل الأول والأخير وعقد الرأس والملخص هذه الحقيقة.
 
@@ -241,6 +243,3 @@ ms.locfileid: "6718371"
 - [تكوين التنسيق لتنفيذ عمليات الجرد والتجميع](./tasks/er-format-counting-summing-1.md)
 - [تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها](trace-execution-er-troubleshoot-perf.md)
 - [تأجيل تنفيذ عناصر التسلسل في تنسيقات إعداد التقارير الإلكترونية](er-defer-sequence-element.md#Example)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

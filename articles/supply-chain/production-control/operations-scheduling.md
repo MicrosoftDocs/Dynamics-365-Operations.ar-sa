@@ -1,10 +1,12 @@
 ---
 title: جدولة العمليات
 description: يقدم هذا الموضوع معلومات حول جدولة العمليات. يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574559"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966395"
 ---
 # <a name="operations-scheduling"></a>جدولة العمليات
 
@@ -74,12 +76,10 @@ ms.locfileid: "7574559"
 ## <a name="finite-materials"></a>المواد المحدودة
 إذا كنت تستخدم مواد محدودة، فإن الجدولة تتوقف أيضًا على توفر المواد المطلوبة للإنتاج. إذا لم تتوفر مكونات كافية للإنتاج، فيمكن حدوث تأخير في الإنتاج. يمكنك إسناد الجدولة إلى استخدام المواد عن طريق تحديد المواد التي يجب أن تكون متوفرة للإنتاج. عند تحسينات القدرة الإنتاجية للموارد وتوفر المواد، يتم حساب الإنتاج وفقًا لهذه القيود. لا يمكن جدولة بدء أمر إنتاج إلا عندما تصبح القدرة الإنتاجية والمواد متوفرة في الوقت نفسه وبالكميات المطلوبة.
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [خيارات جدولة العمليات](operation-scheduling-options.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

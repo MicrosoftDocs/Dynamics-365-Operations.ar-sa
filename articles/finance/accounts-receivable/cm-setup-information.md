@@ -1,23 +1,26 @@
 ---
 title: إعداد إدارة الائتمان‬
 description: يصف هذا الموضوع الإعداد المطلوب لإدارة الائتمان.
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753655"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439819"
 ---
 # <a name="credit-management-setup"></a>إعداد إدارة الائتمان‬ 
 
@@ -150,6 +153,3 @@ ms.locfileid: "7753655"
 2. حدد عامل المقارنة الذي يحدد كيف يجب تقييم معلومات مجموعة النقاط.
 3. أدخل القيمة التي يجب مقارنتها بالقيمة المحددة لمجموعة النقاط.
 4. ادخل الحد الائتماني الذي يجب تعيينه إذا كانت معلومات العميل مطابقة للقيمة التي تم تحديدها لمجموعة النقاط. على سبيل المثال، تقوم بإنشاء حد ائتماني تلقائي في مجموعة النقاط **منخفض**. إذا كانت سنوات العمل تشكّل إحدى مجموعات النقاط، فيمكنك تعريف بند واحد يعيّن حدًا ائتمانيًا من 100,000 إذا أمضى العميل خمس سنوات في مجال الأعمال، وبند آخر يعيّن حدًا ائتمانيًا من 200,000 إذا أمضى العميل 10 سنوات في مجال الأعمال.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

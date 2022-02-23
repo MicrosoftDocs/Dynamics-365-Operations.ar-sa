@@ -1,27 +1,30 @@
 ---
 title: استراتيجية الحلول لتكوين المنتج
 description: يوضح هذا الموضوع كيفية استخدام استراتيجية الحلول لتحسين أداء تكوين المنتج.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cb0fc054e0feec4c54c0bd916e01ce3a2a4cd903
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565677"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421599"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>استراتيجية الحلول لتكوين المنتج
 
@@ -50,7 +53,7 @@ ms.locfileid: "7565677"
 
 لتغيير استراتيجية الحل، في صفحة **نماذج تكوين المنتج**، في "جزء الإجراءات"، حدد **خصائص النموذج**. بعد ذلك، في مربع الحوار **تحرير تفاصيل النموذج**، حدد استراتيجية حل.
 
-[![تغيير استراتيجية الحل.](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![تغيير استراتيجية الحل](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 لا يوجد حاليًا منطق يكتشف تلقائيًا استراتيجية الحل التي ستكون الاستراتيجية الأكثر كفاءة لتكوين المنتج المستند إلى قيد. لذلك، يجب عليك تجربة استراتيجيات الحلول واحدة تلو الأخرى.
 
@@ -70,6 +73,3 @@ ms.locfileid: "7565677"
 [الأساليب البحثية](https://techterms.com/definition/heuristic)
 
 [مشكلة الرضا عن القيود](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

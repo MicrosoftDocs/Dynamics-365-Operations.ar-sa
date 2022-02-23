@@ -71,6 +71,3 @@ ms.locfileid: "4460253"
     - لإزالة نشاط، قم بتوسيعه، ثم حدد زر سلة المهملات في رأس النشاط.
 
 8. حدد **حفظ**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

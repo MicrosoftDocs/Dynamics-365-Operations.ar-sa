@@ -1,10 +1,12 @@
 ---
-title: أنواع مهمة الصيانة والفئات والمتغيرات والعمليات التجارية وقوائم الفحص
+title: فئات أنواع مهام الصيانة وأنواع مهام الصيانة، ومتغيرات أنواع مهام الصيانة، ومعاملات مهام الصيانة، وقوائم فحص الصيانة
 description: يصف هذا الموضوع فئات أنواع مهام الصيانة وأنواع مهام الصيانة ومتغيرات أنواع مهام الصيانة ومعاملات مهام الصيانة وقوائم فحص الصيانة في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetJobTypeDefaultForecast, EntAssetJobTrade, EntAssetJobTypeDefaultCopy, EntAssetChecklistVariableValueLookup, EntAssetChecklistTemplateCreate, EntAssetJobVariant, EntAssetJobTypeDefaultReference, EntAssetJobTypeDefaultChecklist, EntAssetJobTypeDefault, EntAssetJobType, EntAssetJobTypeDefaultChecklistCopy, EntAssetChecklistTemplate, EntAssetJobTypeDefaultDescription, EntAssetJobTypeLookup, EntAssetJobTypeDefaultToolCopy, EntAssetJobTypePreviewPart, EntAssetJobTypeDefaultTool, EntAssetJobTypeDefaultForecastCopy, EntAssetChecklistTemplateLookup, EntAssetJobGroup, EntAssetChecklistVariable
 audience: Application User
@@ -12,19 +14,21 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54bd489a3c9be5be298ef75893b7acad38104a1379d20f853dd700635a3e058e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742790"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021257"
 ---
-# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>أنواع مهمة الصيانة والفئات والمتغيرات والعمليات التجارية وقوائم الفحص
+# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>فئات أنواع مهام الصيانة وأنواع مهام الصيانة، ومتغيرات أنواع مهام الصيانة، ومعاملات مهام الصيانة، وقوائم فحص الصيانة
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 يتم إرفاق نوع أصل بكل أصل. تعرّف أنواع الأصول أنواع مهام الصيانة (وبالتالي، مهام الصيانة) التي يمكن تنفيذها على الأصول. عندما تنشئ أمر عمل، يجب تحديد نوع مهمة صيانة. ويمكنك تحديد فقط أنواع مهام الصيانة المرتبطة بإعداد نوع الأصل المستخدم للأصل.
 
@@ -54,7 +58,7 @@ ms.locfileid: "6742790"
 
     بعد ربط فئات أنواع مهام الصيانة بأنواع مهام الصيانة، يعرض‏‎ الحقل **أنواع مهام الصيانة** عدد أنواع مهام الصيانة المرتبطة بفئة نوع مهمة الصيانة هذه.
 
-![صفحة فئات نوع مهمة الصيانة.](media/01-setup-for-work-orders.png)
+![صفحة فئات نوع مهمة الصيانة](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>إنشاء متغير نوع مهمة صيانة
 
@@ -68,7 +72,7 @@ ms.locfileid: "6742790"
 
     على علامة التبويب السريعة **التفاصيل**، يعرض الحقل **أنواع المهام** عدد أنواع مهام الصيانة التي تمت إضافتها إلى متغير نوع مهمة الصيانة هذا.
 
-![صفحة متغيرات نوع مهمة الصيانة.](media/02-setup-for-work-orders.png)
+![صفحة متغيرات نوع مهمة الصيانة](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>إنشاء معاملات مهمة الصيانة
 
@@ -89,7 +93,7 @@ ms.locfileid: "6742790"
 
     على علامة التبويب السريعة **التفاصيل‏‎**، يعرض الحقل **الشهادات** عدد الشهادات‏‎ التي تمت إضافتها إلى معاملات مهمة الصيانة هذه.
 
-![صفحة معاملات مهمة الصيانة.](media/03-setup-for-work-orders.png)
+![صفحة معاملات مهمة الصيانة](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>إنشاء متغير قائمة فحص الصيانة
 
@@ -110,7 +114,7 @@ ms.locfileid: "6742790"
 6. في حقل **القيمة**، أدخل وصفًا للقيمة.
 7. في حقل **النتيجة**، حدد نتيجة للبند.
 
-![صفحة تغيرات قوائم فحص الصيانة.](media/04-setup-for-work-orders.png)
+![صفحة تغيرات قوائم فحص الصيانة](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>إنشاء قالب قائمة فحص الصيانة
 
@@ -139,7 +143,7 @@ ms.locfileid: "6742790"
 
     على علامة التبويب السريعة **التفاصيل**، يعرض الحقل **عمليات الفحص** إجمالي عدد بنود قائمة الفحص في قالبك. يتضمن هذا الرقم البنود المتداخلة في أي قالب موجود أشرت إليه في قالبك.
 
-![صفحة قوالب قوائم فحص الصيانة.](media/05-setup-for-work-orders.png)
+![صفحة قوالب قوائم فحص الصيانة](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>إنشاء نوع مهمة صيانة
 
@@ -162,7 +166,7 @@ ms.locfileid: "6742790"
 
 11. على علامة التبويب السريعة **أنواع الأصول**، يمكنك إضافة أنواع الأصول إلى نوع مهمة الصيانة.
 
-![صفحة أنواع مهام الصيانة.](media/06-setup-for-work-orders.png)
+![صفحة أنواع مهام الصيانة](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>إنشاء البنود الافتراضية لنوع مهمة الصيانة والتنبؤات ذات الصلة وقوائم فحص الصيانة والأدوات والوصف والمرفقات
 
@@ -231,7 +235,7 @@ ms.locfileid: "6742790"
 31. لنسخ الإعداد الافتراضي لنوع مهمة الصيانة إلى إعداد افتراضي آخر لنوع مهمة الصيانة، حدد البند الافتراضي لنوع مهمة الصيانة الذي تريد نسخ إعداد آخر إليه،، ثم حدد **نسخ إعداد**، ثم حدد الإعداد الافتراضي لنوع مهمة الصيانة المطلوب نسخه.
 32. لعرض قائمة بالأصول أو خطط الصيانة أو دورات الصيانة التي تستخدم حاليًا البند الافتراضي لنوع مهمة الصيانة، حدد البند، ثم حدد **مستخدم بواسطة‬**.
 
-![صفحة الإعدادات الافتراضية لنوع مهمة الصيانة.](media/07-setup-for-work-orders.png)
+![صفحة الإعدادات الافتراضية لنوع مهمة الصيانة](media/07-setup-for-work-orders.png)
 
 عندما يقوم النظام بتحديد الإعداد الافتراضي المتوفر لنوع مهمة الصيانة الذي ينبغي استخدامه في بند أمر العمل، يستند التحديد إلى الأصل وإعداد نوع الأصل المرتبط. تنتقل إدارة الأصول خلال كافة السجلات الافتراضية لنوع مهمة الصيانة التي ترتبط بنوع مهمة الصيانة التي ترتبط بنوع الأصل للتحقق من وجود تطابق محتمل. وهي تتحقق دائمًا من المجموعة الأكثر تحديدًا أولاً. بمعنى آخر، للعثور على أكثر المجموعات خصوصية، تقوم إدارة الأصول أولاً بالتحقق من وجود تطابق محتمل لحقل **المعاملات**. إذا لم يتم العثور على تطابق، فهي تتحقق من وجود تطابق لحقل **متغير نوع مهمة الصيانة**. إذا لم يتم العثور على أي تطابق، فإنها تقوم بالتحقق من وجود تطابق لحقل **نوع مهمة الصيانة**، وهكذا (**المعاملات**، ثم **متغير نوع مهمة الصيانة**، ثم **نوع مهمة الصيانة**، ثم **الأصل**، ثم **النموذج**، ثم **الشركة المصنعة**، ثم **نوع الأصل**). وإذا لم يتم العثور على تطابق، يتم استخدام السجل الافتراضي الذي تم فيه تحديد نوع مهمة الصيانة فقط.
 
@@ -252,7 +256,7 @@ ms.locfileid: "6742790"
 4. حدد مجموعة نوع مهمة صيانة لمشاهدة الإعداد المرتبط بقوائم فحص الصيانة والتنبؤات والأدوات. يعرض قسم **التفاصيل** في علامة التبويب السريعة **الإعدادات الافتراضية لأنواع مهام الصيانة** عدد قوائم فحص الصيانة ذات الصلة والساعات المتوقعة والأصناف، وما إلى ذلك، المرتبطة بمجموعة نوع مهمة الصيانة المحددة.
 5. لعرض تفاصيل عن نوع مهمة الصيانة المحددة، حدد **أنواع مهام الصيانة**.
 
-![صفحة أنواع مهام صيانة الأصول.](media/08-setup-for-work-orders.png)
+![صفحة أنواع مهام صيانة الأصول](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>التحديث التلقائي للتنبؤات بأنواع مهام الصيانة
 
@@ -262,6 +266,3 @@ ms.locfileid: "6742790"
 2. في مربع الحوار **تحديث التنبؤ بنوع مهمة الصيانة**، في علامة التبويب السريعة **السجلات المطلوب تضمينها‬**، يمكنك إضافة تحديدات لأنواع مهام صيانة معينة كلما احتجت لذلك. حدد **عامل تصفية**، ثم حدد **تحديد** لإجراء التحديدات.
 3. في علامة التبويب السريعة **تشغيل في الخلفية‬**، يمكنك إعداد التحديث التلقائي كوظيفة دفعية، إذا لزم الأمر.
 4. حدد **موافق** لبدء تحديث التنبؤ.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: عرض حركات ضرائب المبيعات المُرَّحلة
 description: يصف هذا الموضوع بعض الطرق لعرض حركات ضريبة المبيعات المرحّلة.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTrans, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90789800b431c5052c34263289c51c9d4947f34ffc10177fbf1b14d8012d3bed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b4e35d6a07ef4220bdd883eb3384a1c800ecd9e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761220"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440049"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>عرض حركات ضرائب المبيعات المُرَّحلة
 
@@ -46,6 +49,3 @@ ms.locfileid: "6761220"
 2. في جزء الإجراءات، حدد **كود ضريبة المبيعات**.
 3. حدد **ضريبة المبيعات المرحّلة**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

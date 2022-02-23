@@ -2,13 +2,16 @@
 title: تحديد والاحتفاظ بقنوات البيع بالتجزئة
 description: يوفر هذا الموضوع نظرة عامة على عملية إعداد المتاجر التقليدية، والتي يشار إليها كمتاجر في Dynamics 365 Commerce. وهي تتضمن معلومات حول المهام التي يجب إتمامها قبل إعداد متجر وبعده.
 author: mugunthanm
+manager: AnnBe
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ef06d79e1fa4d024dc1de0125cc72bdba5671aad384c7988dc63d407323b7abc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760192"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409809"
 ---
 # <a name="define-and-maintain-retail-channels"></a>تحديد قنوات البيع بالتجزئة والاحتفاظ بها
 
@@ -86,6 +89,3 @@ ms.locfileid: "6760192"
 > [!NOTE]
 > لاستخدام وظيفة مبيعات Commerce، يجب تمكين مفتاح التكوين الخاص بـ **‏‫شحن إلى متعدد‬** . يمكن العثور علي مفتاح التكوين هذا في مفاتيح **تكوين التجارة** ضمن **‏‫إدارة النظام‬**\> **إعداد** \> **تكوين الرخصة**. يُطلب ذلك نظرًا لعمليات تحقق متعددة بناءً على عنوان التسليم الذي تم تكوينه على مستوى سطر أمر المبيعات.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: إنشاء التكوينات المستندة إلى أبعاد
 description: يوضح هذا الإجراء كيفية تعريف تكوين لمنتج يستند إلى البعد.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, EcoResDimensionBasedConfiguration, ConfigChooseFromRoute, ConfigChooseFromGroup, ConfigChoiceApprove
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d244170d9cbde00e3fe94b291348e9b0e6040813
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c3e5cd2677480b14739f963cf4a74efaa7f2bd2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565558"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421373"
 ---
 # <a name="create-dimension-based-configurations"></a>إنشاء التكوينات المستندة إلى أبعاد
 
@@ -26,30 +29,27 @@ ms.locfileid: "7565558"
 
 يوضح هذا الإجراء كيفية تعريف تكوين لمنتج يستند إلى البعد. وهذا هو الإجراء الأخير في السلسلة التي توضح كيفية إنشاء مجموعات للتكوين المستند إلى بُعد. ويعتمد تنفيذ هذا الإجراء على البيانات التي تم إنشاؤها في التسجيلات السبعة السابقة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 
-## <a name="find-the-dimension-based-product-master"></a>إيجاد أصل منتج يستند إلى البعد
 
-1. انتقل إلى **إدارة معلومات المنتج‬ \> المنتجات \> المنتجات الصادرة**.
-1. في القائمة، قم بوضع علامة للصف المحدد.
+## <a name="find-the-dimension-based-product-master"></a>إيجاد أصل منتج يستند إلى البعد
+1. انقر فوق "صيانة المنتج الذي تم إصداره".
+2. انقر فوق "المنتجات التي تم إصدارها".
+3. في القائمة، قم بوضع علامة للصف المحدد.
     * حدد أصل المنتج المستند إلى البعد الذي قمت بإنشائه في التسجيل الأول في هذه السلسلة من التسجيلات الثمانية.  
 
 ## <a name="create-configurations"></a>إنشاء التكوينات
-
-1. في جزء الإجراءات **الهندسية**، حدد **الحفاظ على التكوينات**.
-1. حدد **تكوين**.
-1. في القائمة، قم بوضع علامة للصف المحدد.
-1. في الحقل **رقم الصنف**، أدخل قيمة أو حددها.
+1. في جزء "الإجراءات الهندسية"، انقر فوق "الحفاظ على التكوينات".
+2. انقر فوق "تكوين".
+3. في القائمة، قم بوضع علامة للصف المحدد.
+4. في الحقل "رقم الصنف"، أدخل قيمة أو حددها.
     * حدد أي من الأصناف في مجموعة التكوين الأولى.  
-1. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
-1. في الحقل **رقم الصنف**، أدخل قيمة أو حددها.
+5. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
+6. في الحقل "رقم الصنف"، أدخل قيمة أو حددها.
     * حدد أي صنف من مجموعة التكوين الثاني.  
-1. حدد **موافق**.
-1. في القائمة، قم بوضع علامة للصف المحدد.
-1. في حقل **التكوين**، أدخل قيمة.
+7. انقر فوق "موافق".
+8. في القائمة، قم بوضع علامة للصف المحدد.
+9. في حقل "التكوين"، أدخل قيمة.
     * أدخل اسم تكوين الذي سيجعل تحديد التكوين أمرًا سهلاً.  
-1. في حقل **الوصف**، اكتب قيمة.
+10. في وصف الحقل، اكتب قيمة.
     * أدخل وصف التكوين لشرح محتواه.  
-1. حدد **موافق**.
+11. انقر فوق "موافق".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

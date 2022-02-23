@@ -79,6 +79,3 @@ ms.locfileid: "4529624"
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [ترحيل التطبيق بين المستأجرين والبيئات](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,50 +1,53 @@
 ---
 title: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎
 description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة كيانات جهات الاتصال (جهات الاتصال) وجهات الاتصال (العملاء) من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a252c3ecb12cb6a4dc429f35c8aeab6bd3914d03
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062505"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528939"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Supply Chain Management‎
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Microsoft Dataverse للتطبيقات‏‎](/powerapps/administrator/data-integrator).
+> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Common Data Service للتطبيقات‏‎](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة جداول جهات الاتصال (جهات الاتصال) وجهات الاتصال (العملاء) مباشرةً من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
+يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة كيانات جهات الاتصال (جهات الاتصال) وجهات الاتصال (العملاء) مباشرةً من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>تدفق البيانات في حل العميل المتوقع إلى النقدية
 
 يستخدم حل العميل المتوقع إلى النقدية ميزة تكامل البيانات لمزامنة البيانات عبر مثيلات Supply Chain Management وSales. تسمح قوالب حل العميل المتوقع إلى النقدية المتوفرة مع ميزة تكامل البيانات بتدفق بيانات الحسابات وجهات الاتصال والمنتجات وعروض أسعار المبيعات وأوامر المبيعات وفواتير المبيعات بين Supply Chain Management وSales. يبين الرسم التوضيحي التالي كيف تتم مزامنة البيانات بين Supply Chain Management وSales.
 
-[![تدفق البيانات في حل العميل المتوقع إلى النقدية.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![تدفق البيانات في حل العميل المتوقع إلى النقدية](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 
 للوصول إلى القوالب المتوفرة، افتح [مركز إدارة PowerApps](https://preview.admin.powerapps.com/dataintegration). حدد **المشاريع**، وبعد ذلك، في الزاوية العلوية اليسرى، حدد **مشروع جديد** لتحديد القوالب العامة.
 
-يتم استخدام القوالب والمهام الأساسية التالية لمزامنة جداول جهة الاتصال (جهات الاتصال) في Sales إلى جداول جهة الاتصال (العملاء) في Supply Chain Management.
+يتم استخدام القوالب والمهام الأساسية التالية لمزامنة كيانات جهة الاتصال (جهات الاتصال) في Sales إلى كيانات جهة الاتصال (العملاء) في Supply Chain Management.
 
 - **أسماء القوالب في تكامل البيانات**
 
@@ -62,7 +65,7 @@ ms.locfileid: "8062505"
 
 | ال‏‏مبيعات    | Supply Chain Management |
 |----------|------------------------|
-| جهات الاتصال | Dataverse جهات اتصال           |
+| جهات الاتصال | جهات اتصال CDS           |
 | جهات الاتصال | العملاء V2           |
 
 ## <a name="entity-flow"></a>تدفق الكيان
@@ -76,13 +79,13 @@ ms.locfileid: "8062505"
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>حل العميل المتوقع إلى النقدية في Sales
 
-تمت إضافة عمود **هو عميل نشط** جديد إلى جهة الاتصال. يستخدم هذا العمود للتمييز بين جهات الاتصال التي لها نشاط في مجال المبيعات وجهات الاتصال التي ليس لديها نشاط في مجال المبيعات. تم تعيين **هو عميل نشط** إلى **نعم** فقط لجهات الاتصال التي لديها عروض أسعار أو أوامر أو فواتير ذات صلة. تتم مزامنة جهات الاتصال هذه فقط إلى Supply Chain Management كعملاء.
+تمت إضافة حقل **هو عميل نشط** جديد إلى جهة الاتصال. يستخدم هذا الحقل للتمييز بين جهات الاتصال التي لها نشاط في مجال المبيعات وجهات الاتصال التي ليس لديها نشاط في مجال المبيعات. تم تعيين **هو عميل نشط** إلى **نعم** فقط لجهات الاتصال التي لديها عروض أسعار أو أوامر أو فواتير ذات صلة. تتم مزامنة جهات الاتصال هذه فقط إلى Supply Chain Management كعملاء.
 
-تمت إضافة عمود **IsCompanyAnAccount‎** جديد إلى جهة الاتصال. يشير هذا العمود إلى ما إذا كانت جهة الاتصال مرتبطة بشركة (الحساب الأصل‬/جهة الاتصال الأصل) من النوع **حساب**. يتم استخدام هذه المعلومات لتحديد جهات الاتصال التي يجب أن تتم مزامنتها إلى Supply Chain Management كجهات اتصال.
+تمت إضافة حقل **IsCompanyAnAccount‎** جديد إلى جهة الاتصال. يشير هذا الحقل إلى ما إذا كانت جهة الاتصال مرتبطة بشركة (الحساب الأصل‬/جهة الاتصال الأصل) من النوع **حساب**. يتم استخدام هذه المعلومات لتحديد جهات الاتصال التي يجب أن تتم مزامنتها إلى Supply Chain Management كجهات اتصال.
 
 تمت إضافة حقل **رقم جهة الاتصال** جديد إلى جهة الاتصال للمساعدة في ضمان مفتاح طبيعي وفريد للتكامل. عند إنشاء جهة اتصال جديدة، يتم إنشاء قيمة **رقم جهة الاتصال** بشكل تلقائي باستخدام تسلسل رقمي. تتكون القيمة من **CON**، يليه تسلسل رقمي متزايد ثم لاحقة من ستة أحرف. فيما يلي مثال على ذلك: **CON-01000-BVRCPS**
 
-عند تطبيق حل التكامل لـ Sales، يقوم برنامج نصي للترقية بتعيين عمود **رقم جهة الاتصال** لجهات الاتصال الموجودة باستخدام التسلسل الرقمي الذي تم ذكره سابقًا. يقوم أيضًا البرنامج النصي للترقية بتعيين العمود **هو عميل نشط** إلى **نعم** لأي من جهات الاتصال التي لديها نشاط في مجال المبيعات.
+عند تطبيق حل التكامل لـ Sales، يقوم برنامج نصي للترقية بتعيين حقل **رقم جهة الاتصال** لجهات الاتصال الموجودة باستخدام التسلسل الرقمي الذي تم ذكره سابقًا. يقوم أيضًا البرنامج النصي للترقية بتعيين الحقل **هو عميل نشط** إلى **نعم** لأي من جهات الاتصال التي لديها نشاط في مجال المبيعات.
 
 ## <a name="in-supply-chain-management"></a>في Supply Chain Management
 
@@ -92,7 +95,7 @@ ms.locfileid: "8062505"
 
 ### <a name="contact-to-customer"></a>جهة اتصال إلى عميل
 
-- **CustomerGroup** مطلوب في Supply Chain Management. للمساعدة على منع أخطاء المزامنة، يمكنك تحديد قيمة افتراضية في التعيين. يتم عندئذٍ استخدام هذه القيمة الافتراضية إذا ترك العمود فارغًا في Sales.
+- **CustomerGroup** مطلوب في Supply Chain Management. للمساعدة على منع أخطاء المزامنة، يمكنك تحديد قيمة افتراضية في التعيين. يتم عندئذٍ استخدام هذه القيمة الافتراضية إذا ترك الحقل فارغًا في Sales.
 
     قيمة القالب الافتراضية هي **10**.
 
@@ -115,15 +118,15 @@ ms.locfileid: "8062505"
 تبين الأشكال التوضيحية التالية مثالاً لتعيين قالب في تكامل البيانات. 
 
 > [!NOTE]
-> يعرض التعيين معلومات العمود التي ستتم مزامنتها من Sales إلى Supply Chain Management.
+> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Supply Chain Management.
 
-### <a name="contact-to-contact-example"></a>مثال من جهة اتصال إلى جهة اتصال
+### <a name="contact-to-contact"></a>جهة اتصال إلى جهة اتصال
 
-![تعيين قالب من جهة اتصال إلى جهة اتصال في موحد البيانات.](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![تعيين القالب في موحد البيانات](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
-### <a name="contact-to-customer-example"></a>مثال من عميل إلى عميل
+### <a name="contact-to-customer"></a>جهة اتصال إلى عميل
 
-![تعيين قالب من عميل إلى عميل في موحد البيانات.](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![تعيين القالب في موحد البيانات](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>مواضيع مرتبطة
@@ -139,6 +142,3 @@ ms.locfileid: "8062505"
 [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-invoice-template-mapping-direct.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

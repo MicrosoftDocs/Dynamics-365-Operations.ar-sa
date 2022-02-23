@@ -1,34 +1,38 @@
 ---
-title: التوزيعات المحاسبية وإدخالات دفتر اليومية لفواتير الموردين
+title: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين
 description: تستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب المصروفات أو الضرائب أو التكاليف في فاتورة الموّرد. وسيكون لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية توزيع محاسبي واحد أو أكثر.
-author: sunfzam
+author: abruer
+manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594680"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440092"
 ---
-# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>التوزيعات المحاسبية وإدخالات دفتر اليومية لفواتير الموردين
+# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين
 
 [!include [banner](../includes/banner.md)]
 
 تستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب المصروفات أو الضرائب أو التكاليف في فاتورة الموّرد. وسيكون لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية توزيع محاسبي واحد أو أكثر. 
 
-## <a name="accounting-distributions"></a>التوزيعات المحاسبية 
+<a name="accounting-distributions"></a>التوزيعات المحاسبية 
+-------------------------
 
 يمكنك استخدام الأزرار التالية في صفحة فاتورة المورد لعرض وربما تعديل التوزيعات المحاسبية لكل مبلغ على فاتورة الموّرد.
 -   **توزيع المبالغ** – عرض وتعديل التوزيعات المحاسبية لسطر واحد لأية سطور فرعية، مثل الضرائب أو التكاليف. يمكنك أيضًا عرض وتعديل التوزيعات المحاسبية لبند فرعي مباشرةً من صفحة حركات ضريبة المبيعات أو صفحة حركات الرسوم.
@@ -226,7 +230,8 @@ ms.locfileid: "7594680"
 </table>
 
 
-## <a name="distributing-taxes"></a>توزيع الضرائب
+<a name="distributing-taxes"></a>توزيع الضرائب
+------------------
 
 يتعذر إنشاء توزيعات محاسبية للضرائب إلا بعد أن يتم حساب الضرائب. لحساب ضرائب المبيعات، يجب إكمال إحدى المهام التالية في صفحة فاتورة المورد:
 -   عرض إجمالي الفاتورة.
@@ -245,6 +250,3 @@ ms.locfileid: "7594680"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

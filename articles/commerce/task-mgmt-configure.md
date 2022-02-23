@@ -2,29 +2,34 @@
 title: تكوين إدارة المهام
 description: يوضح هذا الموضوع كيفية تكوين ميزات إدارة المهام في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4775c2dba2b9aa8e671ab6c246000303b3a37e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730793"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409957"
 ---
 # <a name="configure-task-management"></a>تكوين إدارة المهام
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تكوين ميزات إدارة المهام في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 قبل أن يتمكن مديرو وموظفو Dynamics 365 Commerce من استخدام ميزات إدارة المهام في Commerce، يجب أولاً تكوين إدارة المهام. وتشمل خطوات التكوين منح الأذونات للمديرين والموظفين، وتوزيع الأذونات على عملاء نقطة البيع (POS) وإعداد إعلامات نقطة البيع، وتكوين لوحة **المهام** على الصفحة الرئيسية لتطبيق نقطه البيع.
 
@@ -44,7 +49,7 @@ ms.locfileid: "6730793"
 
 يبين الرسم التوضيحي التالي كيفية تكوين أذونات إدارة المهام لمديري المتجر.
 
-![تكوين أذونات إدارة المهام لمديري المتجر.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![تكوين أذونات إدارة المهام لمديري المتجر](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>تكوين الأذونات للموظفين
 
@@ -78,7 +83,7 @@ ms.locfileid: "6730793"
 
 يبين الرسم التوضيحي التالية عملية **إدارة المهام** في صفحة **عمليات نقطة البيع**.
 
-![عمليه إدارة المهام في صفحة عمليات POS.](media/HQ-POS-Tasks-Notifications.png)
+![عمليه إدارة المهام في صفحة عمليات POS](media/HQ-POS-Tasks-Notifications.png)
 
 لمزيد من المعلومات حول كيفية تكوين إخطارات نقاط البيع، راجع [‏‫إظهار إخطارات الأوامر في نقطة البيع (POS)](notifications-pos.md).
 
@@ -95,7 +100,7 @@ ms.locfileid: "6730793"
 
 يبين الرسم التوضيحي التالي مثالاً للوحة **المهام** في صفحة رئيسية لنقطة البيع.
 
-![لوحة المهام على الصفحة الرئيسية لنقطة البيع.](media/POS-home-screen-tasks-button-image.png)
+![لوحة المهام على الصفحة الرئيسية لنقطة البيع](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -106,6 +111,3 @@ ms.locfileid: "6730793"
 [تعيين قوائم المهام إلى المتاجر أو الموظفين](task-mgmt-assign-lists.md)
 
 [إدارة المهام في نقطة البيع](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

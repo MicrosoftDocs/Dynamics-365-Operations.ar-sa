@@ -1,27 +1,30 @@
 ---
 title: إعداد تسجيل الدخول الموسع لكل من MPOS وCloud POS
 description: يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لكل من Cloud POS وRetail Modern POS (MPOS).
-author: boycezhu
-ms.date: 09/07/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycez
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: 79878e2ffbf219f77f378997c277ced8bb41598c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478661"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409848"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>إعداد وظيفة تسجيل الدخول الموسع لـ MPOS وCloud POS
 
@@ -51,7 +54,7 @@ ms.locfileid: "7478661"
 
 ## <a name="assigning-an-extended-logon"></a>تعيين تسجيل دخول موسع
 
-بشكل افتراضي، يستطيع المديرون فقط تعيين تسجيل الدخول الموسع للعاملين. ‏‫لتعيين تسجيل الدخول الموسع، انتقل إلى **‬‏‫تسجيل دخول موسع** ‬‏‫في نقطة البيع. ثم ابحث عن عامل عن طريق إدخال معرف مشغل العامل في حقل البحث.‬ حدد العامل، ثم انقر فوق **تعيين**. في الصفحة التالية، اسحب تسجيل الدخول الموسع أو امسحه لتعيين العامل. إذا تمت قراءة السحب أو المسح بنجاح، يصبح الزر **موافق** متوفرًا. انقر فوق **موافق** لحفظ تسجيل الدخول الموسع لهذا العامل.
+بشكل افتراضي، يستطيع المديرون فقط تعيين تسجيل الدخول الموسع للعاملين. ‏‫لتعيين تسجيل الدخول الموسع، انتقل إلى **‬‏‫تسجيل دخول موسع** ‬‏‫في نقطة البيع.  ثم ابحث عن عامل عن طريق إدخال معرف المشغل الخاص به أو بها في حقل البحث.‬ حدد العامل، ثم انقر فوق **تعيين**. في الصفحة التالية، اسحب تسجيل الدخول الموسع أو امسحه لتعيين العامل. إذا تمت قراءة السحب أو المسح بنجاح، يصبح الزر **موافق** متوفرًا. انقر فوق **موافق** لحفظ تسجيل الدخول الموسع لهذا العامل.
 
 ## <a name="deleting-an-extended-logon"></a>حذف تسجيل دخول موسع
 
@@ -59,13 +62,8 @@ ms.locfileid: "7478661"
 
 ## <a name="extending-extended-logon"></a>توسيع تسجيل الدخول الموسع
 
-يسمح تسجيل الدخول الموسع بخمسة أحرف هامة ليكون المعرف الفريد الجاهز. على سبيل المثال، إذا قمت بتكوين بطاقتين بها المعرفين "1234567" و"1234578 ، سيتم اعتبارهما "12345". يمكنك بناء امتداد لدعم المزيد من الأحرف. للحصول على تعليمات مفصلة ، تحقق من [توسيع وظيفة تسجيل الدخول الموسعة لـ نقطة البيع الحديثة ونقطة البيع السحابية‬](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
-
 يمكن توسيع خدمة تسجيل الدخول لدعم أجهزة تسجيل الدخول الموسع الإضافي، مثل ماسحات الكمبيوتر الكفي. لمزيد من المعلومات، راجع وثائق قابلية التوسعة لنقطة البيع.
 
 ## <a name="using-extended-logon"></a>استخدام تسجيل الدخول الموسع
 
 عندما يتم تكوين تسجيل الدخول الموسع، وقام عامل بتعيين الرمز الشريطي أو الشريط المغناطيسي، يجب على العامل أن يقوم بتمرير البطاقة أو مسحها بينما يتم عرض صفحة تسجيل دخول نقطة البيع. إذا كانت كلمة مرور مطلوبة أيضًا قبل إمكانية متابعة تسجيل الدخول، فإنه تتم مطالبة العامل بإدخال كلمة المرور الخاصة به.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

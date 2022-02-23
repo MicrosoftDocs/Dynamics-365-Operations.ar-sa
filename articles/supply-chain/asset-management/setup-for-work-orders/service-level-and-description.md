@@ -1,10 +1,12 @@
 ---
 title: مستوى الخدمة ووصفها
 description: يشرح هذا الموضوع مستوى الخدمة ووصفها في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758678"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019369"
 ---
 # <a name="service-level-and-description"></a>مستوى الخدمة ووصفها
 
@@ -45,7 +47,7 @@ ms.locfileid: "6758678"
 8. لتعيين وقت انتهاء أمر العمل، بالإضافة إلى تاريخ انتهاء، قم بتعيين الخيار **تعيين وقت انتهاء** إلى **نعم**. ثم ادخل وقت الانتهاء في الحقل **وقت الانتهاء**. عند تعيين الخيار إلى **لا**، يتم استخدام الوقت الحالي من اليوم.
 9. حدد **حفظ**.
 
-![صفحة مستوى خدمة أوامر العمل.](media/19-setup-for-work-orders.png)
+![صفحة مستوى خدمة أوامر العمل](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>إنشاء وصف
 
@@ -53,6 +55,3 @@ ms.locfileid: "6758678"
 2. حدد **جديد**.
 3. في الحقل **الوصف**، أدخل الوصف.
 4. حدد **حفظ**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

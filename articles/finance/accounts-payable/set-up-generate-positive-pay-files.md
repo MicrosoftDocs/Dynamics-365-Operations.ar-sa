@@ -2,25 +2,28 @@
 title: إعداد ملفات الدفع الإيجابي وإنشاؤها
 description: يشرح هذا الموضوع كيفية إعداد الدفع الإيجابي وإنشاء ملفات الدفع الإيجابي.
 author: panolte
+manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 992c73b1ba1f461542873a7df97f1539b99fc015c3e6ef090993e90212993851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82f7c8947bcc2dab394ea24e28a3631cc8682e5a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737175"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439896"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>إعداد ملفات الدفع الإيجابي وإنشاؤها
 
@@ -139,9 +142,6 @@ ms.locfileid: "6737175"
 </xsl:stylesheet>
 ```
 
-> [!NOTE]
-> يجب أن تتطابق أسماء XML الموجودة في XSLT مع حاله الأحرف الخاصة بالعقد الموجودة في XML. كل من ملفات XSLT و XML حساسة لحاله الأحرف. 
-
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>تعيين تنسيق الدفع الإيجابي لحساب بنكي
 لكل حساب بنكي تريد إنشاء معلومات دفع إيجابي له، يجب تعيين تنسيق الدفع الإيجابي الذي حددته في القسم السابق. في صفحة **الحسابات البنكية**، حدد تنسيق الدفع الإيجابي الذي يتوافق مع الحساب البنكي. في الحقل **تاريخ بدء الدفع الإيجابي‬**  التاريخ الأول لإنشاء ملفات الدفع الإيجابي. من الضروري إدخال تاريخ في هذا الحقل. خلاف ذلك، سيتضمن ملف الدفع الإيجابي الأول الذي تقوم بإنشائه كل الشيكات التي تم إنشاؤها لهذا الحساب البنكي.
 
@@ -165,6 +165,3 @@ ms.locfileid: "6737175"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

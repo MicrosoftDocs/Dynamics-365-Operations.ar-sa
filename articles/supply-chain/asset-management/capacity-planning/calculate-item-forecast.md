@@ -1,26 +1,29 @@
 ---
 title: حساب تنبؤ العنصر
 description: يشرح هذا الموضوع كيفية حساب التنبؤ بالأصناف في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetItemForecast
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5773149760ecb2a26f4916036fe36c9cc04f654039dee4eab9bfac86eb02e1fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8f38ac7bfb270f648cd561da50ee5477721ab47
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713020"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421485"
 ---
 # <a name="calculate-item-forecast"></a>حساب تنبؤ العنصر
 
@@ -56,7 +59,4 @@ ms.locfileid: "6713020"
 
 8. انقر فوق الزر‏‎ **عرض الأبعاد‬** للاطلاع على أبعاد المنتج أو التخزين أو التعقب المرتبطة بالأصناف. حدد خانات الاختيار ذات الصلة، وانقر فوق **موافق**.
 
-![الشكل 1.](media/02-capacity-planning.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![الشكل 1](media/02-capacity-planning.png)

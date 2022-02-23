@@ -1,32 +1,33 @@
 ---
 title: إزالة مثيل
-description: ينقلك هذا الموضوع عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/11/2021
+description: ينقلك هذا المقال عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393487"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417145"
 ---
 # <a name="remove-an-instance"></a>إزالة مثيل
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-يوضح هذا الموضوع عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Dynamics 365 Human Resources.
+ينقلك هذا المقال عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
 
 ## <a name="remove-a-test-drive-environment"></a>إزالة بيئة محرك أقراص اختبار
 
@@ -41,7 +42,7 @@ ms.locfileid: "7393487"
 
 ## <a name="remove-a-production-environment"></a>إزالة بيئة إنتاج
 
-يفترض هذا الموضوع أنك قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). 
+يفترض هذا المقال أنك قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). 
 
 نظرًا لأن هناك بيئة Human Resources واحدة مشمولة ضمن بيئة Power Apps واحدة، هناك خياران ينبغي أخذهما بعين الاعتبار. الخيار الأول يتضمن إزالة بيئة Power Apps بالكامل، والثاني يتضمن إزالة Human Resources فقط. والخيار الأول هو المفضل عند قيامك بإنشاء بيئة Power Apps صراحةً بغرض توفير Human Resources، وقد بدأت التنفيذ للتو، أو لم يكن لديك أي عمليات تكامل قائمة. والخيار الثاني مناسب إذا كان لديك بيئة Power Apps محددة معبأة بالبيانات الغنية التي يتم جمعها في Power Apps وPower Automate.
 
@@ -80,10 +81,7 @@ ms.locfileid: "7393487"
 
 1. اتبع الإرشادات في [استرداد بيئة Power Apps](/power-platform/admin/recover-environment.md).
 
-2. اتصل بالدعم لاستعاده بيئة Human Resources. لمزيد من المعلومات، راجع [الحصول على الدعم](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+2. اتصل بالدعم لاستعاده بيئة Human Resources. لمزيد من المعلومات، راجع [الحصول على الدعم](hr-admin-troubleshooting-support.md).
 
 > [!Warning]
 > يتم حفظ بيئات Power Apps لسبعة أيام فقط بعد الحذف. يجب استرداد البيئة خلال فترة السبعة أيام.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

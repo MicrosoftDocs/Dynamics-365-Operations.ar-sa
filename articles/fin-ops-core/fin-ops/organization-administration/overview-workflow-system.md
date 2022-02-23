@@ -2,33 +2,30 @@
 title: نظرة عامة على نظام سير العمل
 description: يصف هذا الموضوع نظام سير العمل.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom:
-- "56381"
-- intro-internal
+ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067923"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796986"
 ---
 # <a name="workflow-system-overview"></a>نظرة عامة على نظام سير العمل
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يصف هذا الموضوع نظام سير العمل.
 
@@ -44,7 +41,7 @@ ms.locfileid: "8067923"
 
 يعد سير العمل بمثابة عملية تجارية. فهو يحدد كيفية تدفق المستند، أو انتقاله عبر النظام عن طريق عرض الفرد المنوط بإكمال المهمة، أو اتخاذ القرار أو الموافقة على المستند. على سبيل المثال، يُظهر الرسم التالي سير عمل لتقارير المصروفات.
 
-![سير عمل مع عناصر تم تعيينها للمستخدمين.](./media/workflow_user.gif)
+![سير عمل مع عناصر تم تعيينها للمستخدمين](./media/workflow_user.gif)
 
 لاستيعاب سير العمل هذا على نحو أفضل، لنفترض أن سامي يقدم تقرير مصروفات بمبلغ 7000 دولار أمريكي. في هذا السيناريو، يجب أن يقوم فريد بمراجعة عمليات الاستلام التي يقوم سامي بتوجيهها له. بعد ذلك يجب أن يقوم تميم وسلمان باعتماد تقرير المصروفات. لنفترض الآن أن سامي يقدم تقرير مصروفات بمبلغ 11.000 دولار أمريكي. ففي هذا السيناريو، يجب أن يقوم فريد بمراجعة عمليات الاستلام ولا بد من اعتماد التقرير من قبل تميم وسلمان وسليم.
 
@@ -74,6 +71,3 @@ ms.locfileid: "8067923"
 + [تكوين فروع موازٍية في سير عمل](configure-parallel-branch-workflow.md)
 + [تكوين عمليات سير عمل لعنصر بند](configure-line-item-workflow.md)
 + [الأسئلة المتداولة حول سير العمل](workflow-FAQ.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

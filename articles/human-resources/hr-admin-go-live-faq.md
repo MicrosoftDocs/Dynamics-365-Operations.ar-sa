@@ -2,12 +2,15 @@
 title: الأسئلة المتداولة حول العرض المباشر
 description: يسرد هذا الموضوع الأسئلة المتداولة حول كيفية القيام بالعرض المباشر باستخدام مشروع تنفيذ Dynamics 365 Human Resources.
 author: rachel-profitt
+manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,21 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c449ae6eb84fb4150072c386d02b100ca3cca219
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067216"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668935"
 ---
 # <a name="go-live-faq"></a>الأسئلة المتداولة حول العرض المباشر 
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يسرد هذا الموضوع الأسئلة المتداولة حول كيفية القيام بالعرض المباشر باستخدام مشروع تنفيذ Dynamics 365 Human Resources. 
 
@@ -50,7 +48,7 @@ ms.locfileid: "8067216"
 
 ## <a name="what-is-a-go-live-assessment"></a>ما المقصود بتقييم العرض المباشر؟  
 
-يُعد تقييم العرض المباشر جزءًا من  [برنامج Microsoft FastTrack](/dynamics365/fasttrack/). أثناء هذه المراجعة، يقيم مهندس الحلول ما إذا كان مشروع التنفيذ جاهزًا للتحول الناجح والعرض المباشر. هذه المراجعة إلزامية بالنسبة لكل مشروع تنفيذ قبل أن تتمكن من طلب العرض المباشر في بيئة التشغيل. 
+يُعد تقييم العرض المباشر جزءًا من  [برنامج Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). أثناء هذه المراجعة، يقيم مهندس الحلول ما إذا كان مشروع التنفيذ جاهزًا للتحول الناجح والعرض المباشر. هذه المراجعة إلزامية بالنسبة لكل مشروع تنفيذ قبل أن تتمكن من طلب العرض المباشر في بيئة التشغيل. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>يتم نشر بيئات الحماية في مركز بيانات وسط الولايات المتحدة. نحن نريد نشر بيئات التشغيل التابعة لنا في مركز بيانات غرب الولايات المتحدة. هل يمكنني تحديد غرب الولايات المتحدة كمركز بيانات في تكوين التشغيل؟ 
 
@@ -58,7 +56,7 @@ ms.locfileid: "8067216"
 
 إذا كنت ترغب في أن تكون بيئة التشغيل الخاصة بك في مركز بيانات غرب الولايات المتحدة، يجب أولاً إعادة نشر بيئات الحماية الخاصة بك على مركز بيانات غرب الولايات المتحدة واختبارها وتسجيل الخروج منها. 
 
-للحصول على معلومات حول تحديد مركز البيانات الصحيح، راجع [متطلبات الشبكة](../fin-ops-core/fin-ops/get-started/system-requirements.md#network-requirements). 
+للحصول على معلومات حول تحديد مركز البيانات الصحيح، راجع [متطلبات الشبكة](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements). 
 
 ## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a>ما مستوى الوصول الذي يوجد لدي لموارد Azure لبيئات الموارد البشرية الخاصة بي؟  
 
@@ -66,9 +64,9 @@ ms.locfileid: "8067216"
 
 على الرغم من أنه يتعذر عليك الوصول إلى موارد Azure الخاصة بك أو بيئة Dynamics 365 Human Resources مباشرة، إلا أنه توجد ميزات إضافية يمكنك استخدامها للوصول إلى البيانات الخاصة بك:
 
-- يمكنك نشر قاعدة بيانات Azure SQL في مستأجر Azure الخاص بك واستخدام ميزة "‏‫إحضار قاعدة بياناتك الخاصة" (BYOD) لمزامنة البيانات. لمزيد من المعلومات، راجع [إحضار قاعدة بياناتك الخاصة‬ (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md).
+- يمكنك نشر قاعدة بيانات Azure SQL في مستأجر Azure الخاص بك واستخدام ميزة "‏‫إحضار قاعدة بياناتك الخاصة" (BYOD) لمزامنة البيانات. لمزيد من المعلومات، راجع [إحضار قاعدة بياناتك الخاصة‬ (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- يمكنك استخدام تكامل Dataverse لمزامنة تحديد الكيانات في قاعدة بيانات Dataverse. لمزيد من المعلومات، راجع [جداول Dataverse](hr-developer-entities.md). 
+- يمكنك استخدام تكامل Common Data Service لمزامنة تحديد الكيانات في قاعدة بيانات Common Data Service. لمزيد من المعلومات، راجع [Common Data Service كيانات](hr-developer-entities.md). 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>كم مرة يتم نسخ قاعدة بيانات الإنتاج احتياطيًا؟ 
 
@@ -82,11 +80,11 @@ ms.locfileid: "8067216"
 
 تحتفظ Microsoft بالنسخ الاحتياطية الكافية للسماح لاستعادة النقطة الزمنية (PITR) خلال الـ 14 يومًا الماضية. 
 
-للحصول على مزيد من المعلومات، راجع  [تعرف على عمليات النسخ الاحتياطي التلقائي لقاعدة بيانات SQL](/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
+للحصول على مزيد من المعلومات، راجع  [تعرف على عمليات النسخ الاحتياطي التلقائي لقاعدة بيانات SQL](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>هل يمكنني طلب نسخة من النسخ الاحتياطي لقاعدة بيانات الإنتاج الخاصة بي؟ 
 
-الرقم ومع ذلك، يمكنك إرسال طلب خدمة تحديث قاعدة البيانات لنسخ بيئة التشغيل الخاصة بك إلى بيئة الحماية. يمكنك نشر قاعدة بيانات Azure SQL في مستأجر Azure الخاص بك واستخدام ميزة BYOD لمزامنة البيانات من بيئة التشغيل الخاصة بك. لمزيد من المعلومات، راجع [إحضار قاعدة بياناتك الخاصة‬ (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md). 
+الرقم ومع ذلك، يمكنك إرسال طلب خدمة تحديث قاعدة البيانات لنسخ بيئة التشغيل الخاصة بك إلى بيئة الحماية. يمكنك نشر قاعدة بيانات Azure SQL في مستأجر Azure الخاص بك واستخدام ميزة BYOD لمزامنة البيانات من بيئة التشغيل الخاصة بك. لمزيد من المعلومات، راجع [إحضار قاعدة بياناتك الخاصة‬ (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database). 
 
 ## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a>كيف يمكنني نقل بيئة الحماية الخاصة بك إلى إنتاج العرض المباشر؟ 
 
@@ -96,11 +94,8 @@ ms.locfileid: "8067216"
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>ما الذي ينبغي على فعله إذا ما توقفت بيئة التشغيل الخاصة بي؟ 
 
-للإبلاغ عن انقطاع الإنتاج، اتبع العملية الموضحة في [الإبلاغ عن انقطاع الإنتاج](../fin-ops-core/dev-itpro/lifecycle-services/report-production-outage.md). 
+للإبلاغ عن انقطاع الإنتاج، اتبع العملية الموضحة في [الإبلاغ عن انقطاع الإنتاج](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
 
  ## <a name="see-also"></a>راجع أيضًا
 
  [الإعداد للعرض المباشر](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

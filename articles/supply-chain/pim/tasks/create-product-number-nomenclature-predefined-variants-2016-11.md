@@ -1,24 +1,27 @@
 ---
 title: إنشاء nomenclature لرقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫
 description: يوضح هذا الموضوع كيفية إعداد nomenclature لرقم المنتج لمتغيرات منتجات معرّفة مسبقًا، وكيف يمكنك تعيينها إلى مجموعة أبعاد المنتجات المناسبة.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5179dd54f22de11dc4c0f54113376f13b2f59c48
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6871765a450295a3f308ec7e706f1b126071585f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569567"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421364"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>إنشاء nomenclature لرقم منتج متغيرات المنتج المعرفة مسبقًا‬‏‫
 
@@ -28,27 +31,26 @@ ms.locfileid: "7569567"
 
 
 ## <a name="create-a-product-number-nomenclature"></a>إنشاء nomenclature لرقم المنتج
-
-1. انتقل إلى **إدارة معلومات المنتج \> إعداد \> ‏‫كود nomenclature للمنتج‬**.
-1. حدد **جديد**.
-1. في الحقل **الاسم**، أدخل اسم nomenclature يساعد على تحديد مجموعة أبعاد المنتجات الهدف، على سبيل المثال، `ColorSize`.
-1. في حقل **الوصف**، اكتب قيمة.
-1. حدد **إضافة**.
-1. حدد رقم **أصل المنتج**.
-1. حدد **إضافة**.
-1. حدد **الثابت النصي**.
-1. في الحقل **النص**، اكتب قيمة.
-1. حدد **إضافة**.
-1. حدد **اللون**.
-1. حدد **إضافة**.
-1. حدد **الثابت النصي**.
-1. في الحقل **النص**، اكتب قيمة.
-1. حدد **إضافة**.
-1. حدد **الحجم**.
-1. قم بإغلاق الصفحة.
+1. حدد **تعريف نموذج متغير المنتج**.
+2. حدد **كود nomenclature للمنتج‬**.
+3. حدد **جديد**.
+4. في الحقل **الاسم**، أدخل اسم nomenclature يساعد على تحديد مجموعة أبعاد المنتجات الهدف، على سبيل المثال، `ColorSize`.
+5. في حقل **الوصف**، اكتب قيمة.
+6. حدد **إضافة**.
+7. حدد رقم **أصل المنتج**.
+8. حدد **إضافة**.
+9. حدد **الثابت النصي**.
+10. في الحقل **النص**، اكتب قيمة.
+11. حدد **إضافة**.
+12. حدد **اللون**.
+13. حدد **إضافة**.
+14. حدد **الثابت النصي**.
+15. في الحقل **النص**، اكتب قيمة.
+16. حدد **إضافة**.
+17. حدد **الحجم**.
+18. قم بإغلاق الصفحة.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>تعيين nomenclature إلى أصل المنتج
-
 1. حدد **مجموعات أبعاد المنتجات**.
 2. حدد **مجموعة أبعاد المنتجات SizeCol**.
 3. حدد **تحرير**.
@@ -56,5 +58,3 @@ ms.locfileid: "7569567"
 5. أدخل قيمة أو حددها في حقل **كود nomenclature لرقم متغير المنتج‬**.
 6. قم بإغلاق الصفحة.
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: التكامل مع LinkedIn Talent Hub
 description: يشرح هذا الموضوع كيفية إعداد التكامل بين Microsoft Dynamics 365 Human Resources وLinkedIn Talent Hub.
 author: jaredha
+manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441255"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527875"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>التكامل مع LinkedIn Talent Hub
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](includes/preview-feature.md)]
 
-> [!IMPORTANT]
-> سيتم إيقاف التكامل بين Dynamics 365 Human Resources وLinkedIn Talent Hub الموضحين في هذا الموضوع في 31 ديسمبر 2021. لن تصبح خدمة التكامل متوفرة بعد هذا التاريخ. لن تتمكن المؤسسات التي لا تستخدم خدمه التكامل بالفعل من تطبيق الخدمة قبل التقاعد.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يُعد [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) هو النظام الأساسي لنظام تتبع مقدم التطبيق (ATS). يتيح لك إمكانية البحث عن المرشحين وإدارتهم وتوظيفهم في مكان واحد. ومن خلال تكامل Microsoft Dynamics 365 Human Resources مع LinkedIn Talent Hub، فإنه يمكنك بسهولة إنشاء سجلات الموظفين في Human Resources لمقدمي الطلبات الذين تم توظيفهم لأحد المناصب.
 
@@ -47,7 +49,7 @@ ms.locfileid: "7441255"
 
 5. في الصفحة **Dynamics 365 Human Resources**، حدد البيئة لربط LinkedIn Talent Hub بها، ثم حدد **ربط**.
 
-    ![إعداد LinkedIn Talent Hub.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![إعداد LinkedIn Talent Hub](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > يمكنك الربط فقط بالبيئات التي يملك فيها حساب المستخدم الخاص بك حق الوصول كمسؤول إلى كل من بيئة Human Resources وبيئة Power Apps المقترنة منه. إذا لم يتم سرد أية بيئات في صفحة ارتباط Human Resources، فتأكد من أنك قد قمت بترخيص بيئات Human Resources على المستأجر، وأن المستخدم الذي قمت بتسجيل الدخول إلى صفحة الارتباط كما أن لديه أذونات مسؤول لكل من بيئة Human Resources وبيئة Power Apps.
@@ -90,7 +92,7 @@ ms.locfileid: "7441255"
 
 6. استخدم القائمة المنسدلة فوق القائمة لتغيير طريقة العرض من طريقة عرض **المستخدمين الممكنين** إلى **مستخدمي التطبيق**.
 
-    ![طريقة عرض مستخدمي التطبيقات.](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![طريقة عرض مستخدمي التطبيقات](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. من شريط الأدوات، حدد **جديد**.
 
@@ -125,14 +127,14 @@ ms.locfileid: "7441255"
     - **الاسم**: أدخل اسم دور أمان Power Apps الذي قمت بإنشائه مسبقًا، مثل **تكامل LinkedIn Talent Hub HRIS**.
     - **معرف المستخدم**: حدد المستخدم الذي لديه الأذونات لكتابة البيانات في إدارة الموظفين.
 
-### <a name="create-the-table-in-dataverse"></a>إنشاء جدول في Dataverse
+### <a name="create-the-entity-in-common-data-service"></a>قم بإنشاء الكيان في Common Data Service
 
 > [!IMPORTANT]
-> يعتمد التكامل مع LinkedIn Talent Hub على الجداول الظاهرية في Dataverse لـ Human Resources. وكمتطلب أساسي لهذه الخطوة في الإعداد، يجب تكوين الجداول الظاهرية. للحصول على معلومات عن كيفية تكوين الجداول الظاهرية، راجع [تكوين جداول Dataverse الظاهرية](./hr-admin-integration-common-data-service-virtual-entities.md).
+> يعتمد التكامل مع LinkedIn Talent Hub على الكيانات الظاهرية في Common Data Service لـ Human Resources. وكمتطلب أساسي لهذه الخطوة في الإعداد، يجب تكوين الكيانات الظاهرية. للحصول على معلومات عن كيفية تكوين الكيانات الظاهرية، راجع [تكوين كيانات Common Data Service الظاهرية](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. في الموارد البشرية، افتح صفحة **تكامل Dataverse**.
+1. في Human Resources، افتح صفحة **تكامل Common Data Service (CDS)**.
 
-2. حدد علامة التبويب **الجداول الظاهرية**.
+2. حدد علامة التبويب **الكيانات الظاهرية**.
 
 3. قم بتصفية قائمة الكيانات حسب تسمية الكيان للعثور على **المرشح الذي تم تصديره من LinkedIn**.
 
@@ -162,7 +164,7 @@ ms.locfileid: "7441255"
     - في الحقل **الموقع**، أدخل الموقع الذي سيتواجد به الموظف.
     - أدخل عنوان البريد الإلكتروني للموظف أو تحقق منه.
 
-![التصدير إلى جزء HRIS في لوحة LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![التصدير إلى جزء HRIS في لوحة LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>إكمال الإعداد في Human Resources
 
@@ -186,8 +188,5 @@ ms.locfileid: "7441255"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[تكوين جداول Dataverse الظاهرية](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[ما هو Microsoft Dataverse؟](/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[تكوين كيانات Common Data Service الظاهرية](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[ما هو Common Data Service؟](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

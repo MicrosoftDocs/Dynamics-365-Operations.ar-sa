@@ -2,23 +2,26 @@
 title: إنشاء قواعد متقدمة لدفاتر اليومية
 description: يوضح هذا الإجراء إنشاء قواعد متقدمة لدفاتر اليومية.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalControl, CompanyLookup, LedgerJournalPostControl
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe26409ebaa83595885756056810a4a2037045f0f8ad312b52c507343dec3b2d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea6ca24d27bb5b00bbe31060ce2f7e40bf2fb335
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779460"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440024"
 ---
 # <a name="create-advanced-rules-for-journals"></a>إنشاء قواعد متقدمة لدفاتر اليومية
 
@@ -55,6 +58,3 @@ ms.locfileid: "6779460"
 4. في الشجرة، قم بتحديد خانة الاختيار"المجموعة التي تريد السماح لها بالترحيل لاسم دفتر اليومية هذا."
 5. انقر فوق **موافق**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

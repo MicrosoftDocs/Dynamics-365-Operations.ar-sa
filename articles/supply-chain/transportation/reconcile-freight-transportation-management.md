@@ -1,10 +1,12 @@
 ---
 title: تسوية الشحن في إدارة النقل
 description: يوضح هذا الموضوع عملية تسوية الشحن.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSFBDetailReconcile, TMSInvoiceTable,TMSInvoiceLineReconcile,TMSReconcileInvoice, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a63bfd34860c6a7c34cbc526c6a621cbc9666efc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac07155e4dde77689b1994abfb8b30f45d5a5a30
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574895"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014498"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>تسوية الشحن في إدارة النقل
 
@@ -35,13 +37,13 @@ ms.locfileid: "7574895"
 
 يتم حساب أسعار الشحن بواسطة محرك الشحن الذي يقترن بشركة الشحن ذات الصلة. عندما يتم تأكيد الحمل, يتم إنشاء فاتورة الشحن وتُنقل إليها أسعار الشحن. ,يتم تقسيم أسعار الشحن كتكاليف متنوعة في المستند المصدر ذي الصلة (أمر الشراء و/أو أمر المبيعات و/أو أمر التحويل)، بالاستناد إلى الإعداد المستخدم لعملية الفوترة العادية. بإمكان عملية تسوية الشحن (وتُعرف أيضًا بعملية المطابقة) أن تبدأ فور وصول فاتورة الشحن من شركة الشحن. يمكنك تلقي الفاتورة إلكترونيًا أو على الورق. في حالة تلقي الفاتورة على الورق، يمكنك إنشاء فاتورة إلكترونية باستخدام فاتورة الشحن كقالب.
 
-[![عملية تسوية الشحن.](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![عملية تسوية الشحن](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>التسوية اليدوية
 
 إذا كنت تعمل على تسوية الشحن يدويًا، فيجب عليك مطابقة كل بند في الفاتورة مع بند أو بنود فاتورة الشحن للحمل الجاري فوترته. ستجري هذه مطابقة في صفحة **مطابقة فاتورة الشحن والفاتورة‬**. إذا لم يتطابق المبلغ في بند الفاتورة مع مبلغ فاتورة الشحن، فيجب تحديد سبب تسوية للفرق. في حال وجود أسباب متعددة للتسوية، يمكنك تقسيم المبلغ غير المتطابق فيما بينها. يحدد سبب التسوية كيفية ترحيل مبالغ الفروقات في دفتر الأستاذ العام. عندما يتم حساب تسوية مبلغ الفاتورة بالكامل، يتم إرساله للموافق عليه، ثم يتم ترحيل دفتر اليومية. يعرض الشكل التوضيحي التالي كيفية إنشاء فاتورة شحن وإجراء تسوية الشحن.
 
-[![مهام تسوية الشحن.](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![مهام تسوية الشحن](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>التسوية التلقائية
 
@@ -57,7 +59,7 @@ ms.locfileid: "7574895"
 
 1. ويتم فرز كافة فواتير الشحن غير المطابقة حسب المبلغ، بأكبر مبلغ أولا.
 1. تتم مطابقه فواتير الشحن واحدا تلو الآخر، حتى لا يكون لفاتورة الشحن مبلغا موجبا متبقيا.
-1. اعتمادا علي إعداد التدقيق الرئيسي والمبلغ المتبقي في فواتير الشحن، يتم تعيين المبلغ المتبقي.
+1. اعتمادا علي اعداد التدقيق الرئيسي والمبلغ المتبقي في فواتير الشحن، يتم تعيين المبلغ المتبقي.
 
 ### <a name="manual-matching"></a>المطابقة اليدوية
 
@@ -103,6 +105,3 @@ ms.locfileid: "7574895"
 1. مطابقه Inv1 وInv 2 مع FB واحده تلو الأخرى. فب متطابق بالكامل.
 
 كما يوضح هذا المثال، يجب القيام يدويا بمطابقه فواتير الشحن ذات المبالغ السالبة. سيؤكد ذلك دائما انه من الممكن مطابقه فواتير الشحن بالمبالغ السالبة إلى فاتورة الشحن غير المتطابقة بالكامل لأنها تتيح لك التحكم في التسلسل المطابق.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

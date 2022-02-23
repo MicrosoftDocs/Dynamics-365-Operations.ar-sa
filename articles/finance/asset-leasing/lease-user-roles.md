@@ -2,25 +2,28 @@
 title: تعيين أدوار مستخدم عقد الإيجار
 description: يصف هذا الموضوع أدوار الأمان المستخدمة في تأجير الأصول. كما يوضح كيفية تعيين مستخدمين لهذه الأدوار.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysOperationTemplateForm
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a3443cf9fa5b14ac0b3c4560ed45874939aa50cd665f4db46290f5af04bf6ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b31d0880d4f2cd2b8ad2dffcfe279421f935ed35
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771742"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4440156"
 ---
 # <a name="assign-lease-user-roles"></a>تعيين أدوار مستخدم عقد الإيجار
 
@@ -41,6 +44,3 @@ ms.locfileid: "6771742"
 1. انتقل إلى **إدارة النظام \> الأمان \> تعيين مستخدمين للأدوار**.
 2. حدد الدور **المحافظة على عقد الإيجار** أو **موظف الإيجار** أو **عرض عقد الإيجار**، ثم حدد **تعيين/استبعاد المستخدمين يدويًا**.
 3. حدد المستخدم المراد تعيينه للدور، ثم حدد **تعيين إلى دور**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

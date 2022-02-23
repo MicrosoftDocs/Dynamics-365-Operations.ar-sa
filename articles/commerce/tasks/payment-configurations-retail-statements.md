@@ -2,24 +2,27 @@
 title: " تكوينات الدفع لكشوف حساب Retail"
 description: يوضح هذا الإجراء تكوينات لطرق الدفع في متاجر Commerce، والتي تؤثر على كيفية إنشاء كشوفات الحساب وترحيلها.
 author: jashanno
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3c8c7678d88b3c01138aa098b8830336885e6445fb41931b19bcda2b95b86b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 390ccdfde3f9bb93770d456af7532a42e81955a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712347"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409930"
 ---
 # <a name="payment-configurations-for-retail-statements"></a> تكوينات الدفع لكشوف حساب Retail
 
@@ -50,6 +53,3 @@ ms.locfileid: "6712347"
     * حدد الحساب الذي سيتم ترحيل مبالغ الإيداع بالخزينة إليه.  
 8. انقر فوق "حفظ".
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

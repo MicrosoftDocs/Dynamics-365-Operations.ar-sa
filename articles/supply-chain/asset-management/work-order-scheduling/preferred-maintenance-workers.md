@@ -1,10 +1,12 @@
 ---
 title: إعداد عمال الصيانة المفضلين
 description: يشرح هذا الموضوع كيفية إعداد عاملي الصيانة المفضلين في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734417"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021394"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>إعداد عمال الصيانة المفضلين
 
@@ -59,12 +61,9 @@ ms.locfileid: "6734417"
 
     [!NOTE] بشكل عام، عند تحديد عامل صيانة مفضل أثناء جدولة أمر العمل، تستعرض إدارة الصيانة جميع سجلات **عمال الصيانة المفضلون‬** للتحقق من وجود تطابق محتمل، مع التحقق أولاً ودائمًا من التركيبة الأكثر تحديدًا. وإذا لم يتم العثور على أي تطابق، يُستخدم السجل "الافتراضي" الذي يتضمن تحديدًا إما في الحقل **مجموعة عاملي الصيانة المفضلين** أو الحقل **عامل‏‎ الصيانة المفضل**.
 
-![الشكل 1.](media/02-work-order-scheduling.png)
+![الشكل 1](media/02-work-order-scheduling.png)
 
 يمكنك أيضًا إعداد عاملي الصيانة *المسؤولين* الذين يمكن تحديدهم عند إنشاء طلب صيانة أو أمر عمل. يمكنك تحرير التحديد في **جميع أوامر العمل** و **وجميع طلبات الصيانة**، إذا لزم الأمر. لمزيد من المعلومات، ارجع إلى [عاملو الصيانة المسؤولون‬](../setup-for-maintenance-requests/responsible-workers.md).
 
 أثناء جدولة أمر عمل، يتم حساب نقاط مختلفة لتحديد العاملين الذين يجب عليهم إكمال وظائف ذات صلة بأمر عمل (يتم إعداد هذه النقاط في **محددات إدارة الأصول‬** > الارتباط **جدولة أمر العمل‬**). في حال حصول عاملي صيانة مفضلين أو أكثر أو عاملي صيانة مسؤولين أو أكثر على النقاط نفسها أثناء جدولة أمر العمل، فسيتم اختيار عامل واحد بشكل عشوائي. والا، فسيتم دائمًا تعيين العامل الذي يحظى بأعلى مجموع نقاط لإكمال أمر العمل.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

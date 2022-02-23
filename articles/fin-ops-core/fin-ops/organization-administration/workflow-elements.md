@@ -2,9 +2,11 @@
 title: عناصر سير العمل
 description: يوضح هذا الموضوع العناصر المختلفة التي تشكّل سير عمل.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070440"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797566"
 ---
 # <a name="workflow-elements"></a>عناصر سير العمل
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يوضح هذا الموضوع العناصر المختلفة التي تشكّل سير عمل.
 
@@ -63,7 +62,7 @@ ms.locfileid: "8070440"
 
 يمكن إنشاء سير عمل لمعالجة المستندات أو عناصر البنود الموجودة في مستند. على سبيل المثال، لقد قمت بإنشاء سير عمل اعتماد للجداول الزمنية. ‏‫(سنشير إلى سير العمل هذا بصفته *سير عمل المستند*.) يمكنك إضافة *‬‏‫سير العمل عنصر الصنف* إلى سير عمل المستند هذا.‬ وعند تشغيل صنف البند، يتم إرسال كل صنف بند في المستند للمعالجة. قد تحتاج إلى معالجة كافة أصناف البند بنفس بند سير عمل صنف البند، أو قد تحتاج إلى معالجة كل صنف بند بواسطة سير عمل صنف بند مختلف. تخيل أن موظف قام بتقديم جدول زمني يشبه الشكل التالي.
 
-![سير العمل مع عناصر البند.](./media/workflow_lineitemworkflow.gif)
+![سير العمل مع عناصر البند](./media/workflow_lineitemworkflow.gif)
 
 في هذا السيناريو، قد تحتاج إلى إنشاء مهام سير عمل لعناصر البنود التالية:
 
@@ -90,6 +89,3 @@ ms.locfileid: "8070440"
 ### <a name="subworkflow"></a>سير العمل الفرعي
 
 *سير العمل الفرعي* هو سير عمل يتم تشغيله داخل سياق سير عمل آخر.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: ‏‫تشخيصات الأمان‬ لتسجيلات المهام
 description: يوفر هذا الموضوع معلومات حول كيفيه تحليل متطلبات أذونات الأمان وإدارتها استنادا إلى تسجيل مهمة.
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745110"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679780"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>‏‫تشخيصات الأمان‬ لتسجيلات المهام
 
@@ -39,7 +41,7 @@ ms.locfileid: "6745110"
 
 4. في حقل **‏‫معرف المستخدم** حدد مستخدم. إذا لم يكن لدي المستخدم أذونات لبعض عناصر القائمة، فسيتم تحديث حقل **الأذونات المفقودة** إلى **نعم**.
   
-  ![صفحة تفاصيل عنصر قائمة الأمان.](../media/Security-Menu-Item-Details.png)
+  ![صفحة تفاصيل عنصر قائمة الأمان](../media/Security-Menu-Item-Details.png)
 
 5. حدد **إضافة مرجع** لعرض قائمة بكائنات الأمان، بما في ذلك الأدوار والمهام والامتيازات التي تمنح الاذن المفقود.
 6. حدد كائن أمان من القائمة:
@@ -47,6 +49,3 @@ ms.locfileid: "6745110"
     - في حالة تحديد **الدور** حدد **إضافة دور إلى المستخدم**. سيؤدي ذلك إلى فتح صفحة **تعيين مستخدمين إلى أدوار**. لمزيد من المعلومات، راجع [تعيين مستخدمين إلى أدوار أمان‬](assign-users-security-roles.md).
     - في حالة تحديد **الرسوم** فحدد **إضافة رسوم إلى الدور** ، وحدد الأدوار التي يجب إضافه الرسوم إليها، ثم حدد **موافق**.
     - في حالة تحديد **الامتياز** فحدد **إضافة امتياز إلى الرسوم** ، وحدد الأدوار التي يجب إضافه الرسوم إليها، ثم حدد **موافق**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

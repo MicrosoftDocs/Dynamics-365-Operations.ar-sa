@@ -2,28 +2,29 @@
 title: منضدة عمل إنشاء الحِمل
 description: يصف هذا الموضوع كيفيه العمل مع منضدة إنشاء حمل العمل.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574847"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646357"
 ---
 # <a name="load-building-workbench"></a>منضدة عمل إنشاء الحِمل
-
-[!include [banner](../../includes/banner.md)]
 
 يتيح لك منضدة إنشاء التحميل تطبيق استراتيجيات بناء التحميل عند قيامك بإنشاء أحمال العمل.
 
@@ -66,6 +67,3 @@ ms.locfileid: "7574847"
 1. راجع التحميلات المقترحة وخطوط التحميل المقترحة.
 1. في جزء الاجراء ، حدد **إنشاء تحميلات** لإنشاء تحميلات تستند إلى سطور المستند المصدر في علامة التبويب السريعة **بنود التحميل المقترحة**.
 1. قم بإغلاق الصفحة **منضدة بناء التحميل**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,28 +2,33 @@
 title: تكوين المخازن المؤقتة للمخزون ومستويات المخزون
 description: يشرح هذا الموضوع كيفية تكوين المخازن المؤقتة للمخزون ومستويات المخزون التي تحدد مراسلات توافر المخزون في مواقع Microsoft Dynamics 365 Commerce.
 author: boycezhu
+manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727523"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409920"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>تكوين المخازن المؤقتة للمخزون ومستويات المخزون
 
 [!include [banner](includes/banner.md)]
 
 يشرح هذا الموضوع كيفية تكوين المخازن المؤقتة للمخزون ومستويات المخزون التي تحدد المراسلات حول توافر المخزون في مواقع Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 يحتفظ Dynamics 365 Commerce headquarters ببيانات المخزون والقنوات المختلفة مثل تطبيقات نقطة البيع (POS) ومتاجر التجارة الإلكترونية وتطبيقات أخرى متكاملة تقوم بسحب المخزون ودفعه بطريقة غير متزامنة. وبالتالي، فإن قيم المخزون المتاحة التي يتم الحصول عليها من خلال صفحة المخزون الفعلي في Commerce Headquarters، من خلال واجهة مستخدم نقطة البيع، ومن خلال واجهات API لتوفر مخزون Commerce ليست دائمًا دقيقة بنسبة 100 في الوقت الحقيقي.
 
@@ -144,6 +149,3 @@ ms.locfileid: "6727523"
 [تطبيق إعدادات المخزون](inventory-settings.md)
 
 [حساب توفر المخزون لقنوات البيع بالتجزئة](calculated-inventory-retail-channels.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

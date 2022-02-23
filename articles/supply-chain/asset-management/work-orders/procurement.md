@@ -1,10 +1,12 @@
 ---
 title: التدبير
 description: يشرح هذا الموضوع التدبير‬ في إدارة الأصول.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743640"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020194"
 ---
 # <a name="procurement"></a>التدبير
 
@@ -36,7 +38,7 @@ ms.locfileid: "6743640"
 
 يوضح الرسم التوضيحي المبين أدناه مثال لصفحة قائمة **طلب الشراء لأمر العمل‬**.
 
-![الشكل 1.](media/08-work-orders.png)
+![الشكل 1](media/08-work-orders.png)
 
 
 في صفحة القائمة **طلب شراء أمر العمل** (**إدارة الأصول** > **عام** > **التدبير** > **شراء أمر العمل**)، تظهر قائمة تتضمن طلبات الشراء ذات الصلة بأوامر العمل. عند تحديد وظيفة أمر عمل في هذه الصفحة، فإنه يمكنك استخدام الأزرار الموجودة في المجموعة **إظهار** في علامة تبويب جزء الإجراء **شراء لأمر العمل** لتنفيذ إجراءات مختلفة:
@@ -47,7 +49,7 @@ ms.locfileid: "6743640"
 
 يوضح الرسم التوضيحي المبين أدناه مثال لصفحة قائمة **شراء أمر العمل‬**.
 
-![الشكل 2.](media/09-work-orders.png)
+![الشكل 2](media/09-work-orders.png)
 
 
 في كل من صفحة قائمة **شراء أمر العمل** وصفحة قائمة **طلب شراء أمر العمل**، يظهر رمز ذو صلة بتاريخ التسليم على الجانب الأيمن لكل بند. إذا كان الرمز علامة تعجب في دائرة حمراء، فقد يتم تأخير أمر الشراء أو طلب الشراء ذا الصلة.
@@ -93,10 +95,7 @@ ms.locfileid: "6743640"
 
 يوضح الرسم التوضيحي أدناه مثالاً على الصفحة **أمر الشراء**، مع التركيز على **رقم النشاط**.
 
-![الشكل 3.](media/10-work-orders.png)
+![الشكل 3](media/10-work-orders.png)
 
 وبالمثل، لعرض رقم النشاط المرتبط ببند طلب شراء أمر عمل أو إدخاله، في صفحة القائمة **طلب شراء أمر العمل**، حدد سجل طلب الشراء، ثم في العمود **طلب الشراء**، حدد الارتباط الخاص بطلب الشراء. يمكنك العثور على الحقل **رقم النشاط** في علامة التبويب السريعة **المشروع** لعلامة التبويب السريعة **تفاصيل البند**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: إنشاء موازنة أولية للقطاع العام
 description: يمكنك إنشاء إدخالات سجل موازنة أولية لقيم البعد ونموذج موازنة محدد.
 author: twheeloc
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baa9fd8be3b1a46c4b8e4316fdc096f6917fa8a36d77f0d1914b2174aa9f5086
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05e8059f44000fd305ed2c2555511da29b130af9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723685"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440039"
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>إنشاء موازنة أولية للقطاع العام
 
@@ -50,6 +53,3 @@ ms.locfileid: "6723685"
 19. انقر فوق تحديث.
     * للاطلاع على نتائج التحديث، انقر فوق "تفاصيل الرسالة" على الشريط الأزرق.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

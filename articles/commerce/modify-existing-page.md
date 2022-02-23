@@ -2,30 +2,36 @@
 title: تعديل صفحة موقع موجودة
 description: يصف هذا الموضوع كيفية تعديل صفحة موقع موجودة في Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751533"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409972"
 ---
 # <a name="modify-an-existing-site-page"></a>تعديل صفحة موقع موجودة
+
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية تعديل صفحة موقع موجودة في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 عندما تكون مضطرًا لتعديل صفحة، تكون الخطوة الأولي هي فتحها في محرر الصفحة. انتقل إلى الموقع الذي يحتوي على الصفحة الخاصة بك، ثم في قائمة الصفحات، ابحث عن الصفحة التي تريدها. إذا لم تتمكن من العثور على الصفحة، يمكنك استخدام وظيفة البحث المتعمق لأداه التأليف. إما أن تكتب اسم الصفحة بالضبط، أو تكتب الأحرف الأولى منها ثم علامة (\*). تظهر قائمة من الصفحات المصفاة. يمكنك استخدام هذه القائمة للعثور على الصفحة التي تريدها. بعد العثور علي الصفحة الصحيحة، حدد اسم الصفحة لفتح الصفحة في محرر الصفحة.
 
@@ -78,11 +84,6 @@ ms.locfileid: "6751533"
 
 [إثراء صفحة منتج](enrich-product-page.md)
 
-[إثراء صفحة فئة منتقل إليها‬](enrich-category-page.md)
+[إثراء الصفحة المنتقل إليها‬ لفئة](enrich-category-page.md)
 
-[التحقق من إمكانية الوصول إلى محتوى الصفحة](verify-accessibility.md)
-
-[إنشاء صفحات التجارة الإلكترونية الديناميكية استنادا إلى معلمات URL](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[التحقق من إمكانية الوصول إلى محتوي الصفحة](verify-accessibility.md)

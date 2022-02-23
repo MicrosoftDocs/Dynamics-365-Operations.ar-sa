@@ -2,9 +2,11 @@
 title: البحث عن إجراء
 description: تشرح هذه المقالة وظيفة البحث عن إجراء‬. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6277c37ac43b8cc05c8b53da5ca0a1909f58c4f9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070024"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798637"
 ---
 # <a name="action-search"></a>البحث عن إجراء
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 تشرح هذه المقالة وظيفة البحث عن إجراء‬. سوف تساعدك وظيفة البحث عن إجراء في العثور على الإجراءات وتشغيلها على الصفحة.
 
@@ -34,7 +33,7 @@ ms.locfileid: "8070024"
 
 تعرض الصفحات بشكل أساسي الأوامر في أجزاء الإجراءات، جزء الإجراءات المعياري الذي يظهر في أعلى الصفحة وأشرطة الأدوات التي تظهر في أقسام متنوعة من الصفحة. في الإصدارات السابقة، تسمح لك وظيفة "التلميحات الرئيسية" الوصول بسرعة إلى أي زر في أجزاء الإجراء من خلال الضغط على مفتاح Alt، ثم مجموعة من الأحرف.
 
-[![keyTipsAX6.](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 لم تعد تلميحات المفاتيح متوفرة لكن تم استبدالها بميزة البحث عن إجراء. تُمكّنك هذه الميزة الجديدة من البحث بسرعة عن وتشغيل زر من أي "جزء إجراء" مرئي.
 
@@ -48,7 +47,7 @@ ms.locfileid: "8070024"
 
 وبعد تشغيل الزر، يتم إرجاع التركيز إلى الموضع الأخير في الصفحة، بحيث يمكنك متابعة العمل.
 
-[![action-search-field.](./media/action-search-field.png)](./media/action-search-field.png)
+[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
 
 يمكنك أيضًا بدء تشغيل البحث عن إجراء بالضغط على Ctrl+/ أو Alt+Q. اضغط على اختصار لوحة المفاتيح مرة أخرى لإرجاع التركيز إلى الموضع الأخير في الصفحة مرة أخرى.
 
@@ -64,11 +63,11 @@ ms.locfileid: "8070024"
 
 على سبيل المثال، يمكنك كتابة **tot** في حقل **البحث عن إجراء** ويتم الآن فحص قائمة النتائج. يتم تمييز الإدخال الأول، لزر يُسمى **الإجماليات**. كما يوضح أيضًا مسار زر **أمر المبيعات** &gt; **عرض** . يتطابق الجزء **أمر المبيعات** للمسار مع علامة التبويب **أمر المبيعات** على جزء الإجراءات، ويتطابق الجزء **عرض** للمسار مع المجموعة **عرض** على علامة التبويب هذه. بطريقة مماثلة، يعلمك جزء الزر **الخصم الإجمالي‬** (**بيع** &gt; **حساب**) أن هذا الزر يقع في المجموعة **حساب** على علامة التبويب **بيع** في جزء الإجراءات. وبالتالي، تساعدك هذه المعلومات على فهم ما هو الزر الذي سيتم تشغيله بالظبط باستخدام وظيفة بحث الإجراء (إذا قمت باختيار هذا الزر في قائمة النتائج).
 
-[![action-search-field-with-data.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 في المثال السابق، أظهرت عملية البحث عن إجراء نتائج من جزء الإجراءات القياسي في أعلى الصفحة. ومع ذلك، يعرض البحث عن إجراء أيضًا نتائج من أشرطة الأدوات المرئية الموجودة في أماكن أخرى في الصفحة. على سبيل المثال، تقوم بالبحث عن زر **المخزون الفعلي** الموجود في علامة التبويب السريعة **بنود أمر المبيعات**. في هذه الحالة، يُخبرك مسار الزر في قائمة النتائج (**بنود أمر المبيعات** &gt; **المخزون** &gt; **عرض**) أن هذا الزر يقع تحت **عرض** بعنوان زر قائمة **المخزون** في علامة التبويب السريعة **بنود أمر المبيعات**.
 
-[![on-hand-inventory.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![المخزون الفعلي](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > هناك بعض الأزرار التي لا تظهر في بحث الإجراء. وهي تشمل أزرار مربع الحوار من النماذج الفرعية. 
@@ -76,6 +75,3 @@ ms.locfileid: "8070024"
 ## <a name="action-search-vs-navigation-search"></a>البحث عن إجراء بحث مقابل البحث عن تنقل
 
 وعلى الرغم من أنه يتم استخدام البحث عن إجراء للبحث عن الإجراءات في الصفحة وتشغيلها، إلا أن هناك آلية بحث منفصلة للبحث والتنقل في الصفحات. للمزيد من المعلومات حول هذه الميزة، راجع مقالة [‏‫بحث التنقل‬](navigation-search.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

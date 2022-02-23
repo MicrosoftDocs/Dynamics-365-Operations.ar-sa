@@ -2,30 +2,35 @@
 title: وحدات التقييمات والمراجعات
 description: يغطي هذا الموضوع الوحدات النمطية للتقييمات والمراجعات المستخدمة على صفحات تفاصيل المنتجات في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 66ee2d4185cad45b70b19fb474c64ae77a2868e835b20d5275e21610c0150370
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761552"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4409993"
 ---
-# <a name="ratings-and-reviews-modules"></a>الوحدات النمطية للتقييمات والمراجعات
+# <a name="ratings-and-reviews-modules"></a>وحدات التقييمات والمراجعات
 
 [!include [banner](includes/banner.md)]
 
 يغطي هذا الموضوع الوحدات النمطية للتقييمات والمراجعات المستخدمة على صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>نظرة عامة
 
 تساعد التقييمات والمراجعات على مواقع التجارة الإلكترونية العملاء على التعرف على المنتجات قبل اتخاذ قرار الشراء، كما تعد بمثابة آلية لجمع ملاحظات العميل‬ بشأن هذه المنتجات. 
 
@@ -42,23 +47,19 @@ ms.locfileid: "6761552"
  
 يوضح الرسم التوضيحي التالي شكل وحدات التقييم والمراجعات على PDP.
 
-![الوحدات النمطية للتقييمات والمراجعات على PDP.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![الوحدات النمطية للتقييمات والمراجعات على PDP](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > للحصول على معلومات حول كيفية تحسين قوالب وتخطيطات PDP بحيث يمكنك مشاركة تكوينات الوحدات النمطية للتقييمات والمراجعات بين عدة PDPs على موقع التجارة الإلكترونية الخاص بك، راجع [نظرة عامة على القوالب والتخطيطات](templates-layouts-overview.md).
 
 يبين الرسم التوضيحي التالي كيف يعرض مربع الحوار **إضافة وحدة نمطية** الوحدات النمطية للتقييمات والمراجعات في Dynamics 365 Commerce.
-![إضافة مربع حوار وحدة نمطية.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![إضافة مربع حوار وحدة نمطية](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>الوحدة النمطية لكتابة المراجعة
 
 تتضمن الوحدة النمطية لكتابة المراجعة زر **كتابة المراجعة** الذي يتيح للمستخدمين تسجيل الدخول، وتعيين تقييم، وكتابة مراجعة لمنتج. تتيح هذه الوحدة النمطية أيضًا للمستخدمين تحرير تقييم أو مراجعة ارسلوها مسبقًا. تظهر هذه الوحدة النمطية عادةً فوق المدرج التكراري للتقييمات والوحدات النمطية لقائمة المنتجات على PDP.
 يعرض الرسم التوضيحي التالي مربع الحوار **كتابة مراجعة** والذي يظهر عندما يحدد العميل **كتابة مراجعة**. يمكن للعميل استخدام مربع الحوار هذا لإرسال تقييم ومراجعة.
-
-![مربع حوار كتابة مراجعة.](media/rnr-eCommerce-write-review-module.png)
-
-يعرض الجدول التالي خاصية الوحدة النمطية مراجعة الكتابة التي يجب تكوينها في أداة التأليف.
-
+![‏‫مربع حوار كتابة مراجعة‬](media/rnr-eCommerce-write-review-module.png) يعرض الجدول التالي خاصية الوحدة النمطية مراجعة الكتابة التي يجب تكوينها في أداة التأليف.
 | اسم الخاصية | القيمة        | وصف الخاصية                 |
 |---------------|--------------|--------------------------------------|
 | الاسم          | كتابة مراجعة | اسم الوحدة النمطية لكتابة مراجعة. |
@@ -67,7 +68,7 @@ ms.locfileid: "6761552"
 
 تعرض الوحدة النمطية المدرج التكراري للتقييمات مدرج تكراري للتقييمات. وعادةً ما تظهر هذه الوحدة النمطية بين الوحدة النمطية لكتابة مراجعة والوحدة النمطية لقائمة مراجعات المنتجات على PDP.
 لا تتطلب الوحدة النمطية المدرج التكراري للتقييمات أي تكوين. عليك فقط إضافة الوحدة النمطية في قالب PDP. توضح الرسوم التوضيحية التالية كيف يبدو قالب PDP في Dynamics 365 Commerce عند تكوين الوحدات النمطية للتقييمات والمراجعات للعرض على PDPs.
-![يتم تكوين قالب PDP عند التقييمات والمراجعات للعرض على صفحات PDP.](media/rnr-eCommerce-pdp-reviews-modules.png)
+![يتم تكوين قالب PDP عند التقييمات والمراجعات للعرض على PDPs](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>الوحدة النمطية لقائمه مراجعات المنتج
 
@@ -82,11 +83,11 @@ ms.locfileid: "6761552"
 
 تشتمل الوحدة النمطية قائمة مراجعات المنتج على فتحة حيث يمكنك إضافة الوحدة النمطية مدرج تكراري للتقييمات. يوضح الرسم التوضيحي التالي كيف يمكنك إضافة الوحدة النمطية مدرج تكراري للتقييمات في الوحدة النمطية قائمة مراجعات المنتج في Dynamics 365 Commerce.
 
-![إضافة الوحدة النمطية مدرج تكراري للتقييمات في الوحدة النمطية قائمة مراجعات المنتج.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![إضافة الوحدة النمطية مدرج تكراري للتقييمات في الوحدة النمطية قائمة مراجعات المنتج](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على مكتبة الوحدات](starter-kit-overview.md)
+[نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
 
 [وحدة الحاوية](add-container-module.md)
 
@@ -99,6 +100,3 @@ ms.locfileid: "6761552"
 [وحدة الرأس](author-header-module.md)
 
 [وحدة التذييل](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
