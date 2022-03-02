@@ -1,27 +1,29 @@
-- name: التطوير والإدارة لتطبيقات Finance and Operations
+- name: تطوير تطبيقات التمويل والعمليات وإدارتها
   items:
-    - name: التطوير والإدارة لتطبيقات Finance and Operations
+    - name: تطوير تطبيقات التمويل والعمليات وإدارتها
       items:
         - name: وثائق تطبيق Finance and Operations
           href: ../fin-ops/index.md
-        - name: التطوير والإدارة لتطبيقات Finance and Operations
+        - name: تطوير تطبيقات التمويل والعمليات وإدارتها
           href: index.md
-        - name: الجديد أو المتغير
+        - name: ما الجديد أو المتغير
           items:
-            - name: الجديد أو المتغير‬ في تطبيقات Finance and Operations
+            - name: الجديد أو المتغير في تطبيقات Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
-                - name: الميزات الجديدة أو المتغيرة‬ في الصفحة الرئيسية لتحديثات النظام الأساسي
+                - name: الميزات الجديدة أو المتغيرة في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
-                - name: تحديثات النظام الأساسي لـ 10.0.16 (فبراير 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: تحديثات النظام الأساسي لـ 10.0.15 (يناير 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.14 (نوفمبر 2020)
-                  href: get-started/whats-new-platform-updates-10-0-14.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.25 (أبريل 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.24 (فبراير 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.23 (يناير 2022)
+                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
+                - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
@@ -30,40 +32,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: انتهاء الدعم الأساسي لكل من Microsoft Dynamics AX 2009 و2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: أحداث الأعمال
-          items:
-            - name: نظرة عامة على أحداث الأعمال
-              href: business-events/home-page.md
-            - name: أحداث أعمال التطبيق
-              href: business-events/app-business-events.md
-            - name: أحداث أعمال سير العمل
-              href: business-events/business-events-workflow.md
-            - name: التنبيهات كأحداث أعمال
-              href: business-events/alerts-business-events.md
-            - name: أحداث الأعمال في Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: وثائق مطور أحداث الأعمال
-              href: business-events/business-events-dev-doc.md
-            - name: استكشاف أخطاء أحداث أعمال وإصلاحها
-              href: business-events/troubleshooting.md
-            - name: حالات الاستخدام لأحداث الأعمال
-              href: business-events/potential-use-cases.md
-            - name: البرامج التعليمية
-              items:
-                - name: أحداث الأعمال و Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: أحداث الأعمال وشبكة أحداث Azure
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: أحداث الأعمال وناقل خدمة Azure
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: أحداث الأعمال وموافقات سير العمل
-                  href: business-events/how-to/how-to-workflow.md
-                - name: أحداث الأعمال وMicrosoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: أحداث الأعمال ومراكز أحداث Azure
-                  href: business-events/how-to/event-hub.md
-                - name: أحداث الأعمال عند إقفال الفترة المالية‬
-                  href: business-events/how-to/period-close.md
         - name: التسليم المستمر
           items:
             - name: الصفحة الرئيسية للتسليم المستمر
@@ -80,11 +48,11 @@
               href: dev-tools/version-models-build.md
         - name: تكامل البيانات
           items:
-            - name: "اختيار استراتيجية تكامل البيانات\_(استيراد/تصدير)"
+            - name: التكامل بين تطبيقات Finance and Operations والخدمات التابعة لجهات أخرى
               href: data-entities/integration-overview.md
             - name: التحكم المستند إلى الأولوية
               hreF: data-entities/priority-based-throttling.md
-            - name: الأسئلة المتداولة حول التحكم المستند إلى الأولوية
+            - name: الأسئلة الشائعة حول التحكم المستند إلى الأولوية
               href: data-entities/throttling-faq.md
             - name: واجهات برمجة تطبيقات تكامل البيانات
               items:
@@ -122,182 +90,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: إنشاء سجلات باستخدام قوالب السجل
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: تكامل البيانات باستخدام Common Data Service
+                - name: موحد البيانات
                   items:
-                    - name: نظرة عامة حول تكامل البيانات باستخدام Common Data Service
-                      href: data-entities/data-integration-cds.md
-                    - name: تكامل الكتابة المزدوجة
+                    - name: تكوين سيناريو العميل المتوقع إلى النقدية
                       items:
-                        - name: الصفحة الرئيسية للكتابة المزدوجة
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: ما الجديد أو المتغير‬ في الكتابة المزدوجة
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: نظرة عامة على الكتابة المزدوجة
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: إعداد الكتابة المزدوجة
-                          items:
-                            - name: متطلبات النظام للكتابة المزدوجة
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: إرشادات حول كيفية إعداد الكتابة المزدوجة
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: اعتبارات المزامنة الأولية
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: إعداد الكتابة المزدوجة من Lifecycle Services
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
-                              items:
-                                - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: متطلبات النظام والشروط الأساسية
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: كيفيه استخدام معالج الكتابة المزدوجة لربط بيئاتك
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: تمكين كيان الخريطة للكتابة المزدوجة
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: ترحيل نوع بيانات "العملة" للكتابة المزدوجة
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: إعداد التعيين لحقول حالة أمر المبيعات
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: تصفية أوامر الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: إدارة الكتابة المزدوجة
-                          items:
-                            - name: تخصيص تعيينات الكيانات والحقول
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: التعامل مع تعيينات كيانات متعددة
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: تحرير كيان قانوني بعد إعداد الكتابة المزدوجة
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: إدارة الأخطاء وإخطارات التنبيه
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: إدارة دورة حياة التطبيق
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: تعيين المفاهيم بين التطبيقات
-                          items:
-                            - name: أصل العميل المتكامل
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: تكامل المورّد
-                              items:
-                                - name: أصل المورّد المتكامل
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: التبديل بين تصميمات المورّدين
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: بطاقات ولاء العملاء ونقاط المكافآت
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: تكامل المنتج
-                              items:
-                                - name: تجربه المنتج الموحدة
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: المواقع والمستودعات المتكاملة
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: تكامل الشركة
-                              items:
-                                - name: مفهوم الشركة في Common Data Services
-                                  href: data-entities/dual-write/company-data.md
-                                - name: التمهيد باستخدام بيانات الشركة
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: التدرج الهرمي للمؤسسات في Common Data Service
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: البيانات المالية وبيانات الضرائب
-                              items:
-                                - name: الوصول إلى البيانات المرجعية المالية والضريبية
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: دفتر الأستاذ المتكامل
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: أصل الضريبة المتكاملة
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: العميل المتوقع إلى النقدية في الكتابة المزدوجة
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: المزامنة مع محرك التسعير عند الطلب في Dynamics 365 Supply Chain Management
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: استخدام محرك التسعير لـ Dynamics 365 Commerce مع Dynamics 365 Sales
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: أصول داخلية لإخضاعها للصيانة
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: العامل والوظيفة والمنصب المتكامل
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: توفر المخزون
-                              href: data-entities/dual-write/inventory-availability.md
-                        - name: دعم الكتابة المزدوجة
-                          items:
-                            - name: دعم حلول Field Service وحلول Project Service Automation
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: استكشاف الأخطاء وإصلاحها
-                              items:
-                                - name: التحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وCommon Data Service
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: استكشاف المشاكل وإصلاحها أثناء الإعداد الأولي
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: استكشاف المشاكل وإصلاحها مع وحدة الكتابة المزدوجة في تطبيقات Finance and Operations
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: استكشاف المشاكل وإصلاحها في المزامنة المباشرة
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: استكشاف المشاكل ذات الصلة بإدراك الحلول وإصلاحها
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: استكشاف المشاكل ذات الصلة بترقيات تطبيقات Finance and Operations
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: استكشاف المشاكل العامة وإصلاحها
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: الكتابة المزدوجة للأسئلة المتداولة
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: التكامل مع Power Platform
+                        - name: العميل المتوقع إلى النقدية
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: تكوين التكامل مع Field Service
                       items:
-                        - name: تكوين سيناريو العميل المتوقع إلى النقدية
-                          items:
-                            - name: العميل المتوقع إلى النقدية
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال أو العملاء في Finance and Operations
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: مزامنة رؤوس وبنود فاتورة المبيعات مباشرةً من Finance and Operations إلى Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: تكوين التكامل مع Field Service
-                          items:
-                            - name: نظرة عامة حول تكوين التكامل مع Field Service
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: مزامنة المنتجات في Finance and Operations إلى المنتجات في Field Service
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: مزامنة عمليات تحويل وتسوية المخزون من Field Service إلى Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: مزامنة معلومات مستوى المخزون من Finance and Operations إلى Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: مزامنة المنتجات مع وحدة المخزون من Finance and Operations إلى Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: مزامنة قائمة المشاريع من Finance and Operations إلى Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: مزامنة المستودعات من Finance and Operations إلى Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: مزامنة أوامر العمل مع المشروع من Field Service إلى Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: تكوين تكامل Project Service Automation
-                          items:
-                            - name: نظرة عامة حول Project Service Automation
-                              href: ../../finance/project-management/PSA-integration.md
-                            - name: معلمات تكامل Project Service Automation
-                              href: ../../finance/project-management/PSA-parameters.md
-                            - name: مزامنة عقود المشاريع والمشاريع
-                              href: ../../finance/project-management/project-contracts-templates.md
-                            - name: مزامنة مهام المشروع
-                              href: ../../finance/project-management/project-tasks-template.md
-                            - name: مزامنة فئات مصروفات المشروع
-                              href: ../../finance/project-management/project-categories-templates.md
-                            - name: مزامنة تقديرات المشروع من/إلى تنبؤات المشروع
-                              href: ../../finance/project-management/project-estimates-templates.md
-                            - name: مزامنة القيم الفعلية للمشروع إلى دفتر يومية تكامل المشروع
-                              href: ../../finance/project-management/project-actuals-templates.md
+                        - name: نظرة عامة حول تكوين التكامل مع Field Service
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: مزامنة المنتجات في Finance and Operations إلى المنتجات في Field Service
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: مزامنة عمليات تحويل وتسوية المخزون من Field Service إلى Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: مزامنة معلومات مستوى المخزون من Finance and Operations إلى Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: مزامنة المنتجات مع وحدة المخزون من Finance and Operations إلى Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: مزامنة قائمة المشاريع من Finance and Operations إلى Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: مزامنة المستودعات من Finance and Operations إلى Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: مزامنة أوامر العمل مع المشروع من Field Service إلى Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: تكوين تكامل Project Service Automation
+                      items:
+                        - name: نظرة عامة حول Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: معلمات تكامل Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: مزامنة عقود المشاريع والمشاريع
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: مزامنة مهام المشروع
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: مزامنة فئات مصروفات المشروع
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: مزامنة تقديرات المشروع من/إلى تنبؤات المشروع
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: مزامنة القيم الفعلية للمشروع إلى دفتر يومية تكامل المشروع
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: استخدام خدمات ويب خارجية
               href: data-entities/consume-external-web-service.md
             - name: المراسلة الإلكترونية
@@ -338,8 +186,12 @@
               items:
                 - name: نظرة عامة حول مهام استيراد البيانات وتصديرها
                   href: data-entities/data-import-export-job.md
-                - name: أفضل الممارسات لاستيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
+                - name: مزامنة التاريخ والوقت في مهام الاستيراد
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: استيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
                   href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: تحسين ترحيل البيانات لتطبيقات Finance and Operations
+                  href: sysadmin/optimize-data-migration.md
             - name: التطوير لكيانات البيانات
               items:
                 - name: مبادئ التصميم وأفضل الممارسات لكيانات البيانات
@@ -364,7 +216,7 @@
                   href: data-entities/validations-defaults-unmapped-fields.md
                 - name: الأمان وكيانات البيانات
                   href: data-entities/security-data-entities.md
-                - name: استخدم الأدوات المساعدة لاختبار خدمات جهات خارجية
+                - name: استخدم الأدوات المساعدة لاختبار خدمات أطراف ثالثة
                   href: data-entities/third-party-service-test.md
                 - name: إنشاء كيانات للقراءة فقط تعرض الأبعاد المالية
                   href: financial/read-only-entity-financial.md
@@ -380,19 +232,21 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: نظرة عامة على Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: تكوين التصدير إلى Azure Data Lake
+            - name: نظرة عامة حول التصدير إلى Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: تثبيت الوظيفة الإضافية التصدير إلى Azure Data Lake
               href: data-entities/configure-export-data-lake.md
             - name: تطبيقات Finance and Operations في Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: جعل مخزن الكيانات‬ متوفرًا كـ Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: تغيير البيانات في Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: عمليات حركة قاعدة البيانات‬
           items:
             - name: نظرة عامة
               href: database/dbmovement-operations.md
-            - name: مجموعه أدوات تحريك قاعده البيانات
+            - name: مجموعه أدوات حركة قاعده البيانات
               href: database/database-movement-toolkit.md
             - name: دلائل البدء السريع
               items:
@@ -420,7 +274,7 @@
                   href: database/dbmovement-scenario-goldenconfig.md
                 - name: اختبار تحديد القدرة
                   href: database/dbmovement-scenario-destructivetests.md
-            - name: RESTful API
+            - name: واجهة برمجة تطبيقات RESTful
               items:
                 - name: نظرة عامة
                   href: database/api/dbmovement-api-overview.md
@@ -432,7 +286,7 @@
                   href: database/api/dbmovement-api-throttling.md
                 - name: المرجع
                   items:
-                    - name: مرجع API v1
+                    - name: مرجع واجهة برمجة التطبيقات v1
                       href: database/api/v1/dbmovement-api-v1-overview.md
                     - name: سرد عمليات النسخ الاحتياطي لقاعدة البيانات‬
                       href: database/api/v1/reference-list-backups.md
@@ -472,8 +326,14 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: استكشاف الأخطاء وإصلاحها في البيئات التي تم نشرها عبر الخدمة الذاتية للنشر
                       href: deployment/troubleshoot-newinfrastructure.md
-                - name: إتمام إعداد Azure Resource Manager
+                    - name: الأسئلة المتداولة حول الصيانة المخططة في البيئات ذاتية الخدمة
+                      href: deployment/plannedmaintenance-selfservice.md
+                    - name: استمرارية الأعمال والإصلاح بعد كارثة
+                      href: sysadmin/business-continuity-disaster-recovery.md
+                - name: إتمام عملية إعداد Azure Resource Manager
                   href: deployment/arm-onboarding.md
+                - name: إكمال عملية إعداد Azure Resource Manager لمشاريع LCS للحكومة الأمريكية
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute وFinance and Operations
                   href: deployment/expressroute.md
                 - name: هندسة Finance and Operations
@@ -482,6 +342,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: تطبيق التحديثات والملحقات على Commerce Scale Unit (السحابة)
                   href: deployment/Update-retail-channel.md
+                - name: التحديث التلقائي لـ Commerce Scale Unit (السحابة)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: تهيئة Commerce Scale Unit (السحابة)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: ترحيل القنوات إلى وحدة Commerce Scale Unit مختلفة
@@ -494,10 +356,12 @@
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: إعداد عمليات النشر المحلي
                   items:
-                    - name: نظرة عامة عن النشر المحلي
+                    - name: نظرة عامة على النشر المحلي
                       href: deployment/on-premises-overview.md
                     - name: تخطيط عمليات النشر المحلي وإعدادها
                       href: deployment/plan-onprem-deployment.md
+                    - name: البرامج المدعومة لـ Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-compatibility.md
                     - name: متطلبات تغيير حجم الأجهزة
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: المصادقة في Dynamics 365 Finance + Operations (on-premises)
@@ -506,13 +370,15 @@
                   items:
                     - name: إعداد المشاريع المحلية في LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: إعداد بيئات محلية ونشرها
+                    - name: إعداد البيئات المحلية ونشرها (تحديث Platform update 41 وتحديث لاحق)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: إعداد البيئات المحلية ونشرها (تحديث Platform updates 12 إلى 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
                       href: deployment/deploy-retail-onprem.md
                     - name: تطوير نماذج مخصصة ونشرها في بيئات محلية
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: صيانة البيئة
+                - name: عمليات البيئة
                   items:
                     - name: تطبيق التحديثات على عملية نشر محلي
                       href: deployment/apply-updates-on-premises.md
@@ -522,6 +388,8 @@
                       href: user-interface/client-disconnected.md
                     - name: تكوين الدُفعة فقط وعُقد AOS التفاعلية فقط في عمليات النشر المحلية
                       href: deployment/onprem-batchonly.md
+                    - name: تكوين التوافر العالي لعقد SQL Server Reporting Services ‏(SSRS)
+                      href: deployment/onprem-SSRSHA.md
                     - name: تكوين الوكلاء للبيئات المحلية
                       href: deployment/onprem-reverseproxy.md
                     - name: تشخيصات محلية
@@ -538,17 +406,21 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: إعادة استخدام مثيل AD FS نفسه لبيئات متعددة
                       href: deployment/onprem-reuseadfs.md
+                    - name: ترقيه مثيل SQL Server الخاص ببيئات Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: وكيل محلي
                   items:
                     - name: توافق AD FS Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
                     - name: البرامج النصية لما قبل النشر وما بعد النشر للوكيل المحلي
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: تكوينات النشر للمندوب المحلي
+                      href: deployment/onprem-localagent-options.md
                     - name: تحديث الوكيل المحلي
                       href: lifecycle-services/update-local-agent.md
                 - name: استكشاف الأخطاء وإصلاحها
                   items:
-                    - name: استكشاف مشاكل عمليات النشر المحلية وإصلاحها
+                    - name: استكشاف مشكلات عمليات النشر المحلية وإصلاحها
                       href: deployment/troubleshoot-on-prem.md
                     - name: برامج نصية لحل المشكلات في البيئات المحلية
                       href: deployment/onprem-tsg-implementations.md
@@ -560,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: إزالة تثبيت حزمة
                   href: deployment/uninstall-deployable-package.md
+                - name: تشغيل البرامج النصية المخصصة X++ مع صفر وقت تعطل
+                  href: deployment/run-custom-scripts.md
                 - name: استكشاف مشكلات تطبيق الحزمة وإصلاحها
                   href: deployment/deployable-package-troubleshooting.md
             - name: نشر تعليمات مخصصة
@@ -588,9 +462,19 @@
                   href: help/language-locale.md
                 - name: التوسيع والتخصيص والتعاون في التعليمات
                   href: help/contributor-guide.md
+            - name: اعتبارات النشر
+              items:
+                - name: خيارات نشر السحابة ذات سيادة والسحابة المحلية لكل من Dynamics 365 Finance وDynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance وSupply Chain Management في سحابة القطاع الحكومي (GCC) الأمريكي
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance وSupply Chain Management المشغلة بواسطة 21Vianet في الصين
+                  href: deployment/china-local-deployment.md
+                - name: تطبيقات Finance and Operations في فرنسا
+                  href: deployment/france-local-deployment.md
         - name: التطوير والتخصيص
           items:
-            - name: الصفحة الرئيسية للتطوير والتخصيص
+            - name: تطوير الصفحة الرئيسية وتخصيصها
               href: dev-tools/developer-home-page.md
             - name: مكدس التطبيق وبنية الخادم
               href: dev-tools/application-stack-server-architecture.md
@@ -602,11 +486,9 @@
               items:
                 - name: بيئات التطوير
                   href: dev-tools/access-instances.md
-                - name: تكوين بيئات تطوير خانة واحدة
+                - name: تكوين بيئات تطوير ذات خانة واحدة
                   href: dev-tools/configure-developer-vm.md
-                - name: إنشاء مستخدمين جدد على أجهزة التطوير
-                  href: dev-tools/enable-development-machine.md
-                - name: الأسئلة المتداولة حول الأجهزة الظاهرية للتطوير والإنشاء التي لا تمنح المسؤول حق الوصول
+                - name: الأسئلة المتداولة حول الأجهزة الظاهرية (VM) للتطوير والإنشاء التي لا تمنح المسؤول حق الوصول
                   href: sysadmin/VMs-no-admin-access.md
                 - name: إعادة تسمية البيئات المحلية للوصول إلى Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
@@ -632,6 +514,10 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: إنشاء اتصال Lifecycle Services (LCS) في Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: تحديث مهام مصادقه اتصال LCS بـ MSAL في Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
+                - name: تحديث Azure Pipeline المستضاف لحزم NuGet الجديدة
+                  href: dev-tools/pipeline-nuget-split.md
                 - name: تحديث تدفق قديم في Azure Pipelines
                   href: dev-tools/pipeline-msbuild-update.md
             - name: التطبيق النموذجي لإدارة الأسطول
@@ -661,7 +547,7 @@
                     - name: نظرة عامة على إنشاء نماذج وعناصر نموذج بيانات
                       href: dev-tools/create-data-model-elements.md
                     - name: إرشادات التسمية للملحقات
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث
                       href: dev-tools/lock-models.md
                 - name: تقرير تحليل التخصيص
@@ -684,22 +570,24 @@
                   href: dev-tools/update-development-tools.md
             - name: لغة البرمجة ++X
               items:
-                - name: X++ وميزات مصحح الأخطاء
-                  href: dev-tools/new-x-debugger-features.md
-                - name: تصحيح كود X++
-                  href: dev-tools/debug-xpp.md
-                - name: فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة
-                  href: dev-tools/event-handler-result-class.md
-                - name: كتابة منطق تسلسل العمل باستخدام كود المصدر C# وX++
-                  href: dev-tools/write-business-logic.md
-                - name: التغييرات في X + + والمحول البرمجي X + +
-                  href: dev-tools/programming-language-support.md
-                - name: موفر LINQ لـ C#
-                  href: dev-tools/linq-provider-c.md
-                - name: كتابة قواعد أفضل الممارسات
-                  href: dev-tools/author-best-practice-rules.md
-                - name: خصائص Application Explorer
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: دعم اللغة X++
+                  items:
+                    - name: متطلبات Visual Studio لـ X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: تصحيح تعليمات X++ البرمجية
+                      href: dev-tools/debug-xpp.md
+                    - name: فئات EventHandlerResult في سيناريوهات الطلب أو الاستجابة
+                      href: dev-tools/event-handler-result-class.md
+                    - name: كتابة منطق تسلسل العمل باستخدام كود المصدر C# وX++
+                      href: dev-tools/write-business-logic.md
+                    - name: موفر LINQ لـ C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: كتابة قواعد أفضل الممارسات
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: خصائص Application Explorer
+                      href: dev-ref/application-explorer-aot-properties.md
+                    - name: سمة SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: مرجع اللغة X++
                   items:
                     - name: نظرة عامة على مرجع اللغة X++
@@ -744,7 +632,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: المكتبات
                           href: dev-ref/xpp-library-objects.md
-                        - name: الأحداث
+                        - name: التفويضات والاحداث
                           href: dev-ref/xpp-events.md
                     - name: تحديد بيانات X++ والمعالجة
                       items:
@@ -768,7 +656,7 @@
                           href: dev-ref/xpp-data/xpp-transaction.md
                         - name: تحويل العمليات من استنادًا إلى المجموعة إلى سجل بسجل
                           href: dev-ref/xpp-data/xpp-data-perf.md
-                        - name: الوصول إلى البيانات باستخدام SysDa API
+                        - name: الوصول إلى البيانات باستخدام واجهة برمجة تطبيقات SysDa
                           href: dev-ref/sysda.md
                         - name: تقليل الهجوم على إدخالات SQL
                           href: dev-ref/query-with-parameters.md
@@ -780,9 +668,9 @@
                       href: dev-ref/xpp-cs-comparison.md
                     - name: بناء الجملة X++
                       href: dev-ref/xpp-syntax.md
-            - name: واجهة API والفئة ومرجع الجدول
+            - name: واجهة برمجة التطبيقات والفئة ومرجع الجدول
               items:
-                - name: موارد API والفئة والجدول
+                - name: موارد واجهة برمجة التطبيقات والفئة والجدول
                   href: dev-ref/api-reference.md
                 - name: وظائف وقت التحويل X++
                   href: dev-ref/xpp-compile-time-functions.md
@@ -808,60 +696,6 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: جداول النظام
                   href: dev-ref/system-tables.md
-                - name: فئات النظام
-                  items:
-                    - name: قائمه فئات النظام
-                      href: dev-ref/system-classes/toc.yml
-                    - name: فئات النظام المجمعة أبجديًا
-                      items:
-                        - name: فئات A
-                          href: dev-ref/a-classes.md
-                        - name: فئات B
-                          href: dev-ref/b-classes.md
-                        - name: فئات C
-                          href: dev-ref/c-classes.md
-                        - name: فئات D
-                          href: dev-ref/d-classes.md
-                        - name: فئات E
-                          href: dev-ref/e-classes.md
-                        - name: فئات F
-                          href: dev-ref/f-classes.md
-                        - name: فئات G
-                          href: dev-ref/g-classes.md
-                        - name: فئات H
-                          href: dev-ref/h-classes.md
-                        - name: فئات I
-                          href: dev-ref/i-classes.md
-                        - name: فئات J
-                          href: dev-ref/j-classes.md
-                        - name: فئات K
-                          href: dev-ref/k-classes.md
-                        - name: فئات L
-                          href: dev-ref/l-classes.md
-                        - name: فئات M
-                          href: dev-ref/m-classes.md
-                        - name: فئات N
-                          href: dev-ref/n-classes.md
-                        - name: فئات O
-                          href: dev-ref/o-classes.md
-                        - name: فئات P
-                          href: dev-ref/p-classes.md
-                        - name: فئات Q
-                          href: dev-ref/q-classes.md
-                        - name: فئات R
-                          href: dev-ref/r-classes.md
-                        - name: فئات S
-                          href: dev-ref/s-classes.md
-                        - name: فئات T
-                          href: dev-ref/t-classes.md
-                        - name: فئات U
-                          href: dev-ref/u-classes.md
-                        - name: فئات V
-                          href: dev-ref/v-classes.md
-                        - name: فئات W
-                          href: dev-ref/w-classes.md
-                        - name: فئات X
-                          href: dev-ref/x-classes.md
             - name: قابلية التوسعة
               items:
                 - name: الصفحة الرئيسية لقابلية للتوسعة
@@ -880,7 +714,7 @@
                       href: extensibility/customize-model-elements-extensions.md
                     - name: تخصيص من خلال الملحق وتراكب الطبقات
                       href: extensibility/customization-overlayering-extensions.md
-                - name: الجديد
+                - name: الميزات الجديدة
                   items:
                     - name: الجديد أو المتغير‬ في قابلية التوسعة
                       href: extensibility/extensibility-new.md
@@ -1002,13 +836,11 @@
               items:
                 - name: التقاط تتبعات باستخدام محلل التتبع
                   href: perf-test/trace-trace-tutorial.md
-                - name: اختبارات أحادية المستخدم مع مسجل المهام وPerformance SDK
+                - name: اختبارات أحادية المستخدم باستخدام Performance SDK ومسجل المهام
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: اختبارات متعددة المستخدمين مع Performance SDK ووحده تحكم اختبارات محلية
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: اختبارات متعددة المستخدمين مع Performance SDK وAzure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: دليل استكشاف الأخطاء وإصلاحها لاختبارات أحادية المستخدم أو متعددة المستخدمين مع Performance SDK
+                - name: الاختبارات متعددة المستخدمين‬ باستخدام Performance SDK
+                  href: perf-test/perfsdk-multi-user-testing.md
+                - name: دليل استكشاف الأخطاء للاختبار مع Performance SDK وإصلاحها
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: ‏‫Performance SDK والاختبارات متعددة المستخدمين‬ في البيئات المحلية
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1022,10 +854,12 @@
                   href: perf-test/testing-validation.md
                 - name: اختبار المشروعات في Visual Studio
                   href: perf-test/testing-support.md
-                - name: نشر بيئات تدعم البناء المستمر والتنفيذ التلقائي للاختبار‬ات
+                - name: نشر بيئة التنفيذ التلقائي المستمرة للبناء والاختبار واستخدامها
                   href: perf-test/continuous-build-test-automation.md
                 - name: تصفية SysTest باستخدام سمات الفئات والأساليب
                   href: perf-test/systest-filtering.md
+                - name: سمة SysTestRow لاختبار قيم متعددة
+                  href: perf-test/systest-row.md
                 - name: مكتبة اختبار القبول
                   items:
                     - name: موارد مكتبة اختبار القبول
@@ -1052,10 +886,16 @@
                       href: perf-test/atl-faq.md
             - name: سريان التاريخ
               href: dev-tools/date-effectivity.md
-            - name: ترخيص موردي البرامج المستقلين (ISV)
-              href: dev-tools/isv-licensing.md
-            - name: ترخيص موردي البرامج المستقلين (ISV) في الموقع المحلي
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: التطوير لموردي البرامج المستقلين
+              items:
+                - name: الصفحة الرئيسية لتطوير ISV
+                  href: dev-tools/isv-dev-home-page.md
+                - name: ربط وحدات X++ بالحزم باستخدام ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: ترخيص موردي البرامج المستقلين (ISV)
+                  href: dev-tools/isv-licensing.md
+                - name: ترخيص موردي البرامج المستقلين (ISV) في الموقع المحلي
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: القانون العام لحماية البيانات (GDPR)
           items:
             - name: نظرة عامة على القانون العام لحماية البيانات (GDPR)
@@ -1088,12 +928,18 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS للشركاء
                   href: lifecycle-services/getting-started-lcs.md
+                - name: واجهات RESTful API
+                  items:
+                    - name: بدء البيئات وإيقافها
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: إحضار بيانات تعريف البيئة
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: إحضار محفوظات البيئة
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: إحضار الملف المضغوط (ZIP) لشهادة RSAT للبيئة
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: المزايا الجديدة أو المتغيرة في Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: مشكلات معروفة
-                  href: lifecycle-services/known-issues.md
-                - name: الميزات المزالة أو المهملة في Lifecycle Services ‏(LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: دليل مستخدم Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: إعداد مشروع
@@ -1143,9 +989,11 @@
                 - name: الأسئلة المتداولة حول الإطار الزمني للصيانة المخطط لها
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: المراقبة والتشخيص
-              href: lifecycle-services/monitoring-diagnostics.md
-            - name: تقرير تحليل التأثير
-              href: lifecycle-services/impact-analysis-report.md
+              items:
+                - name: أدوات المراقبة والتشخيص
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: استخدام Azure Data Explorer للاستعلام عن سجلات المعلومات الأولية
+                  href: lifecycle-services/azure-data-explorer.md
             - name: إعادة تشغيل الخدمات البيئية
               href: lifecycle-services/restart-environment-services.md
             - name: إبلاغ عن انقطاع إنتاج
@@ -1158,6 +1006,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: كتاب تعليمات الاستعلام
               href: lifecycle-services/querycookbook.md
+            - name: الاشتراكات وحذف البيانات منتهية الصلاحية
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: نظرة عامة حول Dynamics 365 Translation Service
@@ -1168,27 +1018,237 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: ملفات ذاكرة الترجمة
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: ملحق Azure DevOps (إصدار أولي للاستخدام العام)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: تكامل Microsoft Power Platform
           items:
-            - name: تكامل Microsoft Power Platform مع Finance and Operations
+            - name: نظرة عامة
               href: power-platform/overview.md
-            - name: تصميم الكيان
-              href: power-platform/entity-modeling.md
-            - name: إدارة دورة حياة التطبيق
-              href: power-platform/application-lifecycle-management.md
-            - name: مرجع مسؤول Finance and Operations وCommon Data Service
-              href: power-platform/admin-reference.md
-            - name: مداخل Power Apps مع Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: الأسئلة المتداولة كيانات Finance and Operations الافتراضية
-              href: power-platform/faq.md
-        - name: النظام الأساسي للأجهزة المحمولة
-          items:
-            - name: موارد النظام الأساسي للأجهزة المحمولة
-              href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: البدء
+            - name: تمكين تكامل Power Platform
+              href: power-platform/enable-power-platform-integration.md
+            - name: المصادقة والتخويل
+              href: power-platform/authentication-and-authorization.md
+            - name: الكتابة المزدوجة
               items:
-                - name: البدء باستخدام النظام الأساسي للأجهزة المحمولة
+                - name: الصفحة الرئيسية للكتابة المزدوجة
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: الجديد أو التغييرات‬ في الكتابة المزدوجة
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: نظرة عامة على الكتابة المزدوجة
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: إعداد الكتابة المزدوجة
+                  items:
+                    - name: متطلبات النظام للكتابة المزدوجة
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: إرشادات حول كيفية إعداد الكتابة المزدوجة
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: اعتبارات المزامنة الأولية
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: قيود المزامنة المباشرة
+                      href: data-entities/dual-write/sync-limits.md
+                    - name: إعداد الكتابة المزدوجة من Lifecycle Services
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
+                      items:
+                        - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: متطلبات النظام والشروط الأساسية
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: كيفية استخدام معالج الكتابة المزدوجة لربط بيئاتك
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: تمكين كيان الخريطة للكتابة المزدوجة
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: حزمة تنسيق تطبيق الكتابة المزدوجة المنفصلة
+                      href: data-entities/dual-write/separated-solutions.md
+                    - name: ترحيل نوع بيانات "العملة" للكتابة المزدوجة
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: إعداد التعيين لحقول حالة أمر المبيعات
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: تصفية الأوامر بين الشركات الشقيقة لتجنب مزامنة الأوامر وبنود الأوامر
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: إدارة الكتابة المزدوجة
+                  items:
+                    - name: تخصيص تعيينات الكيانات والحقول
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: إرشادات مخصصة للكتابة المزدوجة
+                      href: data-entities/dual-write/custom-best-practices.md
+                    - name: التعامل مع خرائط كيانات متعددة
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: تحرير كيان قانوني بعد إعداد الكتابة المزدوجة
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: إيقاف الكتابة المزدوجة مؤقتًا للصيانة
+                      href: data-entities/dual-write/pause-for-maintenance.md
+                    - name: إدارة الأخطاء وإخطارات التنبيه
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: إدارة دورة حياة التطبيق
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: مالك الفريق المحدد من قبل المستخدم
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: إلغاء ربط البيئات ثنائية الكتابة وإعادة ربطها
+                      href: data-entities/dual-write/relink-environments.md
+                - name: تعيين المفاهيم بين التطبيقات
+                  items:
+                    - name: أصل العميل المتكامل
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: تكامل المورّد
+                      items:
+                        - name: أصل المورّد المتكامل
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: التبديل بين تصميمات المورّدين
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: بطاقات ولاء العملاء ونقاط المكافآت
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: تكامل المنتج
+                      items:
+                        - name: تجربه المنتج الموحدة
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: المواقع والمستودعات المتكاملة
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: تكامل الشركة
+                      items:
+                        - name: مفهوم الشركة في Dataverse
+                          href: data-entities/dual-write/company-data.md
+                        - name: تهيئة بيانات الشركة
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: التدرج الهرمي للمؤسسات في Dataverse
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: البيانات المالية وبيانات الضرائب
+                      items:
+                        - name: الوصول إلى البيانات المرجعية المالية والضريبية
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: دفتر الأستاذ المتكامل
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: أصل الضريبة المتكاملة
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: تكامل المشتريات في Supply Chain Management مع Field Service
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: المزامنة عند الطلب مع محرك تسعير Supply Chain Management
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: العميل المتوقع إلى النقدية في الكتابة المزدوجة
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: استخدام محرك التسعير لـ Dynamics 365 Commerce مع Dynamics 365 Sales
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: أصول داخلية لإخضاعها للصيانة
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: توافر المخزون
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: العامل والوظيفة والمنصب المتكامل
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: الطرف ودفتر العناوين العمومي
+                      href: data-entities/dual-write/party-gab.md
+                    - name: استخدام مداخل Microsoft Power Apps مع نموذج بيانات الطرف
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: الترقية إلى نموذج الطرف ودفتر العناوين العمومي
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: عرض بيانات الطرف
+                      href: data-entities/dual-write/view-party.md
+                    - name: تكامل الملاحظات
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: مرجع التعيين
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: دعم الكتابة المزدوجة
+                  items:
+                    - name: دعم حلول Field Service وProject Service Automation
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: ترحيل بيانات العميل المتوقع إلى النقدية من موحد البيانات إلى الكتابة المزدوجة
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: استكشاف الأخطاء وإصلاحها
+                      items:
+                        - name: استكشاف الأخطاء العامة وإصلاحها
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: استكشاف المشاكل وإصلاحها أثناء الإعداد الأولي
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: استكشاف المشاكل وإصلاحها أثناء المزامنة الأولية
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: استكشاف مشكلات المزامنة المباشرة وإصلاحها
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: استكشاف مشكلات الطرف ودفتر العناوين العمومي
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
+                        - name: استكشاف المشكلات ذات الصلة بإدراك الحلول وإصلاحها
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: استكشاف المشكلات من ترقيات تطبيقات Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: تحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: رموز الأخطاء الخاصة بالتحقق من صحة مخطط الجدول
+                          href: data-entities/dual-write/table-map-health-check.md
+                - name: الأسئلة المتداولة حول الكتابة المزدوجة
+                  href: data-entities/dual-write/dual-write-faq.md
+            - name: الكيانات الظاهرية
+              items:
+                - name: نظرة عامة على الكيانات الظاهرية
+                  href: power-platform/virtual-entities-overview.md
+                - name: تصميم الكيان
+                  href: power-platform/entity-modeling.md
+                - name: إدارة دورة حياة التطبيق
+                  href: power-platform/application-lifecycle-management.md
+                - name: تكوين كيانات Dataverse الظاهرية
+                  href: power-platform/admin-reference.md
+                - name: تمكين كيانات Dataverse الظاهرية
+                  href: power-platform/enable-virtual-entities.md
+                - name: مداخل Power Apps مع Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: الأسئله المتداولة حول الكيانات الظاهرية لـ Finance and Operations
+                  href: power-platform/faq.md
+            - name: أحداث الأعمال
+              items:
+                - name: نظرة عامة على أحداث الأعمال
+                  href: business-events/home-page.md
+                - name: إدارة النقاط النهائية لأحداث الأعمال
+                  href: business-events/managing-business-event-endpoints.md
+                - name: أحداث أعمال التطبيق
+                  href: business-events/app-business-events.md
+                - name: أحداث أعمال سير العمل
+                  href: business-events/business-events-workflow.md
+                - name: أحداث الأعمال الدُفعية
+                  href: business-events/system-business-events.md
+                - name: التنبيهات كأحداث أعمال
+                  href: business-events/alerts-business-events.md
+                - name: أحداث البيانات
+                  href: business-events/data-events.md
+                - name: أحداث الأعمال في Power Automate
+                  href: business-events/business-events-flow.md
+                - name: وثائق مطور أحداث الأعمال
+                  href: business-events/business-events-dev-doc.md
+                - name: استكشاف أخطاء أحداث أعمال وإصلاحها
+                  href: business-events/troubleshooting.md
+                - name: حالات الاستخدام لأحداث الأعمال
+                  href: business-events/potential-use-cases.md
+                - name: البرامج التعليمية
+                  items:
+                    - name: أحداث الأعمال و Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: أحداث الأعمال وشبكة أحداث Azure
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: أحداث الأعمال وناقل خدمة Azure
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: أحداث الأعمال وقائمة انتظار ناقل خدمة Azure
+                      href: business-events/how-to/how-to-servicebus-queue.md
+                    - name: أحداث الأعمال وموافقات سير العمل
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: أحداث الأعمال وMicrosoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: أحداث الأعمال ومراكز أحداث Azure
+                      href: business-events/how-to/event-hub.md
+                    - name: الاشتراك في الأحداث في Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
+                    - name: أحداث الأعمال عند إقفال الفترة المالية‬
+                      href: business-events/how-to/period-close.md
+            - name: وظائف إضافية
+              items:
+                - name: نظرة عامة حول الوظائف الإضافية
+                  href: power-platform/add-ins-overview.md
+            - name: السياسات والاتصالات
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
+        - name: النظام الأساسي للأجهزة المحمولة‬
+          items:
+            - name: موارد النظام الأساسي للأجهزة المحمولة‬
+              href: mobile-apps/platform/mobile-platform-home-page.md
+            - name: الشروع في العمل
+              items:
+                - name: الشروع في العمل من خلال النظام الأساسي للأجهزة المحمولة
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: اعتبارات العمارة والتصميم
                   href: mobile-apps/platform/mobile-platform-architecture.md
@@ -1216,13 +1276,13 @@
                   href: mobile-apps/platform/scenarios/make-field-mandatory.md
             - name: مرجع التطوير من جانب الخادم
               items:
-                - name: التطوير من جانب الخادم (واجهات X++ API لمساحة العمل)
+                - name: التطوير من جانب الخادم (واجهات برمجة تطبيقات X++ لمساحة العمل)
                   href: mobile-apps/platform/mobile-workspace-server-apis.md
             - name: مرجع التطوير من جانب العميل
               items:
-                - name: واجهات API التصميم من جانب العميل
+                - name: واجهات برمجة تطبيقات التصميم من جانب العميل
                   href: mobile-apps/platform/scenarios/client-api-design-overview.md
-                - name: واجهات API للعميل
+                - name: واجهات برمجة التطبيقات للعميل
                   items:
                     - name: الصفحة الرئيسية لواجهات برمجة التطبيقات للعميل
                       href: mobile-apps/platform/client-apis/client-apis-reference.md
@@ -1414,18 +1474,26 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: استخدام برنامج Regression suite automation tool
               href: perf-test/rsat/rsat-run.md
+            - name: الاحتفاظ بحالات الاختبار داخل Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: التحقق من صحة القيم المتوقعة
               href: perf-test/rsat/rsat-validate-expected.md
             - name: حالات اختبار السلسلة
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: حالات الاختبار المشتقة
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: برنامج Regression suite automation tool التعليمي والميزات الأخرى
-              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: ترقية ملفات المعلمات
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: البرنامج التعليمي لـ Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-tutorial.md
+            - name: تكوين المستخدمين غير المسؤولين
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: أفضل الممارسات
               href: perf-test/rsat/rsat-best-practices.md
-            - name: اختبار عدم تحديد البيانات باستخدام Regression Suite Automation Tool
+            - name: اختبار بيانات مستقل باستخدام Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: تشغيل Regression Suite Automation Tool ‏(RSAT) مع التنفيذ المتوازي
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: استكشاف الأخطاء وإصلاحها
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: إصدار حلول باستخدام Lifecycle Services
@@ -1464,16 +1532,18 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: الدعم
           items:
-            - name: الحصول على دعم لـ Finance and Operations وLifecycle Services
+            - name: الحصول على الدعم لـ Finance and Operations وLifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: نظرة عامة على دعم Dynamics 365
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: الحصول على دعم لـ Finance and Operations المُشغل بواسطة 21Vianet في الصين
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
+            - name: الحصول على الدعم لـ Finance and Operations المشغّل بواسطة 21Vianet في الصين
               href: lifecycle-services/21vianet-support.md
-            - name: إعداد الدعم الفني لتطبيقات Finance and Operations
+            - name: إعداد الدعم التقني لتطبيقات Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: إدارة تجارب دعم لتطبيقات Finance and Operations
+            - name: إدارة خبرات الدعم لتطبيقات Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: دعم الإنتاج والمراقبة
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: إدارة النظام
           items:
             - name: الصفحة الرئيسية لإدارة النظام
@@ -1490,6 +1560,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: تصدير مستخدمي B2B إلى Azure AD
               href: sysadmin/implement-b2b.md
+            - name: صيانة البيانات
+              href: sysadmin/DataMaintenancePortal.md
             - name: الأمان
               items:
                 - name: أمان يستند إلى الدور
@@ -1498,7 +1570,7 @@
                   href: sysadmin/security-architecture.md
                 - name: التشفير في تطبيقات Finance and Operations
                   href: sysadmin/encryption.md
-                - name: تعيين مهله خمول جلسة العمل
+                - name: تعيين مهلة عدم نشاط جلسة العمل
                   href: sysadmin/session-idle-timeout.md
                 - name: تقارير الأمان الجاهزة
                   href: sysadmin/security-reports.md
@@ -1506,6 +1578,8 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: إدارة جلسات عمل المستخدم
                   href: sysadmin/user-session-management.md
+                - name: حظر الوصول حسب الموقع مع Conditional Access Azure AD
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: استيراد المستخدمين بشكل مجمع
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: إعداد الفصل بين المهام
@@ -1524,34 +1598,40 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: الحفاظ على التوافق مع متطلبات ترخيص المستخدم
               href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: عرض حالة ترخيص ‏‫مورِّد برامج مستقل
+              href: sysadmin/view-isv-license-status.md
             - name: أتمته العملية
               href: sysadmin/process-automation.md
-            - name: معالجة الدُفعات
+            - name: معالجة الدُفعة
               items:
-                - name: نظرة عامة على معالجة الدُفعات
+                - name: نظرة عامة على معالجة الدُفعة
                   href: sysadmin/batch-processing-overview.md
-                - name: مُعالجة الدُفعات وخوادم الدُفعات
+                - name: معالجة الدُفعة‬ وخوادم الدُفعات
                   href: sysadmin/batch-server-overview.md
                 - name: إنشاء وظائف دفعية
                   href: sysadmin/tasks/create-batch-job.md
-                - name: نسخ وظيفة دُفعية
+                - name: تمكين إعادة المحاولات الدفعية
+                  href: sysadmin/retryable-batch.md
+                - name: نسخ وظيفة دفعية
                   href: sysadmin/copy-batch-job.md
-                - name: الفترات النشطة للوظائف الدُفعية
+                - name: جدولة الدفعات المستندة إلى أولوية
+                  href: sysadmin/priority-based-batch-scheduling.md
+                - name: فترات الدُفعة النشطة
                   href: sysadmin/activeperiod.md
                 - name: دعم التوقيت الصيفي لفترات الدُفعة النشطة
                   href: sysadmin/batch-active-period-dst.md
                 - name: دور أمان مدير الدُفعة
                   href: sysadmin/runby.md
-                - name: وظيفة دُفعية للتعامل مع إلغاء تجزئة فهرس SQL
-                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: تكوين تنبيهات دُفعية
                   href: sysadmin/alerts.md
                 - name: نماذج دُفعية محسّنة
                   href: sysadmin/enhanced-forms.md
-                - name: تنظيف المحفوظات الدُفعية
+                - name: مسح المحفوظات الدُفعية
                   href: sysadmin/batch-history-cleanup.md
-                - name: إيقاف تنفيذ وظيفة دُفعية قبل اكتمالها
+                - name: إلغاء تنفيذ وظيفة دفعية قبل اكتمالها
                   href: sysadmin/batch-abort.md
+                - name: واجهه برمجة تطبيقات OData الدُفعية
+                  href: sysadmin/batch-odata-api.md
             - name: مرشد التحسين
               items:
                 - name: نظرة عامة حول مرشد التحسين
@@ -1574,7 +1654,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: ترقية من AX 2012
               items:
-                - name: ترقية من AX 2012 إلى Finance and Operations
+                - name: الترقية من AX 2012 إلى Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: ترقية AX 2012 - وضع الخطة باستخدام أداة محلل الترقية
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1584,12 +1664,10 @@
                   href: migration-upgrade/analysis-sandbox.md
                 - name: ترقية AX 2012 - ترقية البيانات في بيئات التطوير
                   href: migration-upgrade/data-upgrade-2012.md
-                - name: ترقية AX 2012 - قائمة اختيار الترقية المبدئية لترقية البيانات
+                - name: ترقية AX ‏2012 - قائمة اختيار الترقية المبدئية لترقية البيانات
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: ترقية AX2012 - ترقية البيانات في بيئات تحديد الصلاحيات باستخدام معالجه dacpac
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
-                - name: ترقية AX 2012 - ترقية البيانات في بيئات اختبار معزولة
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: الترقية من AX ‏2012 - ترقية البيانات في بيئات الخدمة الذاتية
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: ترقية AX 2012 - البيئات المحلية
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: ترقية AX 2012 - اختبار مرحلي
@@ -1602,12 +1680,12 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: ترقية AX 2012 - العرض المباشر
                   href: migration-upgrade/2012-upgrade-cutover.md
-                - name: التغييرات التي تؤثر على الترقية من AX 2012
+                - name: الأسئلة المتداولة حول الترقية من AX 2012 - ترقية البيانات
+                  href: migration-upgrade/upgrade-faq.md
+                - name: التغييرات التي تؤثر على الترقية من AX ‏2012
                   items:
                     - name: جعل محدد دليل الحسابات فريدًا
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: ترقية دفاتر يومية الإيصالات الفردية وعمليات إعادة تقييم العملة
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: نموذج بيانات جدولة موارد المشروع
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: تغييرات النظام الفرعي لسير العمل
@@ -1692,7 +1770,7 @@
                   href: migration-upgrade/deprecated-features.md
                 - name: طرق الإهلاك وعناصر بيانات التعريف
                   href: migration-upgrade/deprecation-deletion-apis.md
-                - name: واجهات API المهملة
+                - name: واجهات برمجة التطبيقات المهملة
                   href: migration-upgrade/deprecated-apis.md
         - name: تطوير واجهة المستخدم
           items:
@@ -1774,7 +1852,7 @@
                   href: user-interface/feature-callouts.md
                 - name: الشريط المنزلق ومربعات حوار مربع الرسالة
                   href: user-interface/slider-messagebox.md
-                - name: واجهة API لمركز الرسائل وشريط الرسالة وتفاصيل الرسالة
+                - name: واجهة برمجة التطبيقات لمركز الرسائل وشريط الرسالة وتفاصيل الرسالة
                   href: user-interface/messaging-api-center-bar-details.md
                 - name: الأسئلة المتداولة حول مركز الرسائل وشريط الرسالة وتفاصيل الرسالة
                   href: user-interface/messaging-user.md
