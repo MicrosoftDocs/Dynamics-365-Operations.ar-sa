@@ -2,11 +2,9 @@
 title: مهمة تنظيف الإدخالات المتاحة في إدارة المستودع‬‏‫
 description: يصف هذا الموضوع مهمة تنظيف الإدخالات المتاحة في إدارة المستودع‬‏‫، مما يساعد على تحسين أداء النظام عن طريق التعرف على السجلات ذات الصلة ولكن غير المطلوبة وحذفها.
 author: perlynne
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -14,15 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014473"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103853"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>مهمة تنظيف الإدخالات المتاحة في إدارة المستودع‬‏‫
+
+[!include [banner](../includes/banner.md)]
 
 يتأثر أداء الاستعلامات المستخدمة لحساب المخزون الفعلي بعدد السجلات الموجودة في الجداول المعنية. ثمة طريقة لتحسين الأداء وهي تقليل عدد السجلات التي يجب أن تأخذها قاعدة البيانات في الاعتبار.
 
@@ -58,7 +58,7 @@ ms.locfileid: "5014473"
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>جعل إعداد الحد الأقصى لوقت التنفيذ متوفرًا
 
-بشكل افتراضي، لا يتوفر إعداد **الحد الأقصى لوقت التنفيذ**. إذا أردت استخدامه، يجب استخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزة ذات الصلة في النظام. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+يتوفر الإعداد **الحد الأقصى لوقت التنفيذ** فقط عندما تكون الميزة *الحد الأقصى لوقت التنفيذ لوظيفة تنظيف المستودعات المتاحة لإدارة المستودعات* قيد التشغيل. اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *الحد الأقصى لوقت التنفيذ لوظيفة تنظيف المستودعات المتاحة لإدارة المستودعات‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *الحد الأقصى لوقت تنفيذ مهمة تنظيف الإدخالات المتاحة في إدارة المستودع‬‏‫‬*
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

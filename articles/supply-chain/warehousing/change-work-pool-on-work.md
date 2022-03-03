@@ -2,26 +2,23 @@
 title: تغيير وعاء العمل في العمل
 description: يشرح هذا الموضوع كيفية استخدام زر تغيير وعاء العمل لعناصر العمل لتغيير وعاء العمل الخاص بالعمل الموجود.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421406"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102853"
 ---
 # <a name="change-work-pool-on-work"></a>تغيير وعاء العمل في العمل
 
@@ -31,12 +28,9 @@ ms.locfileid: "4421406"
 
 تقوم ميزة *تغيير وعاء العمل الموجود علي العمل* بإضافة زر **تغيير وعاء العمل** إلى جزء الإجراءات الخاص بعناصر العمل. التالي، يمكن لمديري المستودع تغيير وعاء العمل الخاص بالعمل الموجود بسهولة. تتيح هذه الميزة للمديرين التفاعل بسرعة مع التغييرات في حالة العمل الخاصة بالمستودع، كما أنه يساعد في تحسين قدرتهم علي التعامل مع المواقف والحاجة إلى تحويل الأعمال إلى وعاء عمل آخر.
 
-## <a name="turn-on-the-change-work-pool-on-work-feature"></a>تشغيل ميزة تغيير وعاء العمل علي العمل
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>تشغيل ميزة تغيير وعاء العمل في العمل‬ أو إيقاف تشغيلها
 
-قبل البدء في إعداد هذه الميزة أو استخدامها، يجب التأكد من أنها متوفرة في نظامك. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *تغيير وعاء العمل علي العمل*
+هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *تغيير وعاء العمل في العمل‬‬‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>إعداد ميزة تغيير وعاء العمل علي العمل
 
@@ -67,7 +61,7 @@ ms.locfileid: "4421406"
 
 1. انتقل إلى **إدارة المستودعات \> إعداد \> عمل \> قوالب العمل**.
 1. في جزء الإجراءات، حدد **تحرير** لوضع الصفحة في وضع التحرير.
-1. يمكنك تحرير القالب عن طريق اعداد القيم التالية:
+1. يمكنك تحرير القالب عن طريق إعداد القيم التالية:
 
     - **قالب العمل:** *62 انتقاء إلى الحزم*
     - **معرف وعاء العمل:** *Webshop*
@@ -149,3 +143,6 @@ ms.locfileid: "4421406"
 > عند ظهور مربع الحوار **تغيير وعاء العمل**، قد يكون الحقل **معرف وعاء العمل** فارغا بشكل افتراضي. إذا كان الحقل فارغا عندما تقوم بتحديد **موافق** لتطبيق التغييرات، فإنك ستقوم بازالة وعاء العمل بالكامل من العمل.
 >
 > بالإضافة إلى تبديل أوعية العمل، يمكنك استخدام هذا الإجراء لإضافة وعاء عمل إلى أي عنصر عمل لا يحتوي علي واحد، أو لإزالة وعاء عمل من أي عنصر عمل يحتوي علي واحد.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

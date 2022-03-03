@@ -1,30 +1,27 @@
 ---
 title: ‏‫إعدادات الأوامر الافتراضية‬ للأبعاد ومتغيرات المنتج
 description: تحدد إعدادات الأوامر الافتراضية الموقع والمستودع من حيث تؤخذ الأصناف أو حيث يتم تخزينها، والحد الأدنى من الكميات وحدها الأقصى ومضاعفاتها والكميات القياسية التي سيتم استخدامها للتجارة أو إدارة المخزون وزمن وصول البضاعة وعلامة الإيقاف وأسلوب التعهد بالأمر‬.
-author: t-benebo
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421661"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102753"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>إعدادات الأوامر الافتراضية للأبعاد ومتغيرات المنتجات
 
@@ -118,7 +115,7 @@ ms.locfileid: "4421661"
 
 خذ في الاعتبار مثال المنتج التالي.
 
-|                                                     |                                         |
+| الصنف                                                | قيمة                                   |
 |-----------------------------------------------------|-----------------------------------------|
 | **اسم المنتج**                                    | مستشعر كهربائي ضوئي                    |
 | **رقم العنصر**                                     | XW56                                    |
@@ -189,12 +186,9 @@ ms.locfileid: "4421661"
 
 ينطبق التحقق الصارم على قيم **كمية الأمر القياسية‬** المحددة على علامات التبويب السريعة **أمر الشراء** و **المخزون** و **أوامر المبيعات** في صفحة **إعدادات الأوامر الافتراضية**. تتضمن كل علامة تبويب سريعة إعداد **المضاعف** الخاص بها، والذي يتم استخدامه للتحقق من الصحة قيمة **كمية الأمر القياسية** المحددة لعلامة التبويب السريعة هذه.
 
-### <a name="enable-the-strict-validation-option"></a>تمكين خيار التحقق من الصحة الصارم
+### <a name="turn-the-strict-validation-option-on-or-off"></a>تشغيل خيار التحقق من الصحة الصارم أو إيقاف تشغيله
 
-قبل أن تتمكن من استخدام خيار التحقق من الصحة الصارم، يجب تمكينه في النظام. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
-
-- **الوحدة النمطية** - *إدارة معلومات المنتج*
-- **اسم الميزة** - *التحقق من الصحة الصارم من كميات الأوامر الافتراضية*
+لاستخدام التحقق من الصحة الصارم‬، يجب تشغيل الميزة *التحقق من الصحة الصارم من كميات الأوامر الافتراضي* في النظام. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فيمكنك تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق الانتقال إلى [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) والبحث عن *التحقق من الصحة الصارم من كميات الأوامر الافتراضي‬*.
 
 ### <a name="set-the-validation-option"></a>تعيين خيار التحقق من الصحة
 
@@ -204,3 +198,6 @@ ms.locfileid: "4421661"
 1. في علامة التبويب **عام**، قم بتعيين **التحقق من كميات الأوامر الافتراضية‬‏‫** إلى إحدى القيم التالية:
     - **صارم** - حدد هذا الخيار لضمان أن تكون جميع قيم **كمية الأمر القياسية** عبارة ع مضاعف لقيمة **المضاعف** لكل علامة تبويب سريعة (**أمر الشراء** و **المخزون** و **أمر المبيعات**).
     - **قياسي** - حدد هذا الخيار لاستخدام التحقق من الصحة (الذي يعمل بنفس الطريقة عندما لا تكون هذه الميزة ممكّنة).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

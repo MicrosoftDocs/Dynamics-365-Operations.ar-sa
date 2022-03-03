@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72c372a4d9b6af337731ff0bbd750b3b58f27bb79cb3813a0b5e4f79707d9f5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730597"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323630"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>أنواع البيانات الأساسية المدعومة لمعادلات التقارير الإلكترونية
 
@@ -101,7 +101,7 @@ ms.locfileid: "6730597"
 
 ## <a name="enumeration"></a><a name="enumeration"></a>تعداد 
 
-يُعد نوع البيانات الأساسية *التعداد* قائمة البيانات الحرفية. يمكنك استخدام التعدادات التي يتم تعريفها في التطبيق [البرمجية المصدر](../dev-ref/xpp-data-primitive.md#enum). يمكنك أيضًا تقديم التعدادات الخاصة بك في [نموذج بيانات التقارير الإلكترونية](general-electronic-reporting.md#data-model-and-model-mapping-components) ومكونات [تنسيق التقارير الإلكترونية](general-electronic-reporting.md#FormatComponentOutbound).
+يُعد نوع البيانات الأساسية *التعداد* قائمة البيانات الحرفية. يمكنك استخدام التعدادات التي يتم تعريفها في التطبيق [البرمجية المصدر](../dev-ref/xpp-data-primitive.md#enum). يمكنك أيضًا تقديم التعدادات الخاصة بك في نموذج بيانات التقارير الإلكترونية ومكونات تنسيق التقارير الإلكترونية.
 
 يمكن استخدام *تعداد* التطبيق في تعبيرات تعيين نموذج التقارير الإلكترونية وتنسيق التقارير الإلكترونية.
 

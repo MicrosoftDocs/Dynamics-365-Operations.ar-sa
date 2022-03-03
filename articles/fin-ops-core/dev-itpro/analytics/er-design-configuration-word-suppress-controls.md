@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737965"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323915"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>منع عناصر تحكم محتوى Word في التقارير التي تم إنشاؤها
 
 [!include [banner](../includes/banner.md)]
 
-لإنشاء تقارير كمستندات Microsoft Word، يجب تصميم قالب للتقارير كمستند Word. يجب أن يحتوي هذا القالب على عناصر تحكم محتوى Word كعناصر نائبة للبيانات التي سيتم ملؤها في وقت التشغيل. لاستخدام مستند Word الذي تم إنشائه كقالب لتقاريرك، يمكنك [تكوين](er-design-configuration-word.md) حل [تقارير إلكترونية (ER)](general-electronic-reporting.md) [جديد](er-quick-start1-new-solution.md). يجب أن يتضمن الحل [تكوين ER](general-electronic-reporting.md#Configuration) الذي يحتوي على مكون [تنسيق ER](general-electronic-reporting.md#FormatComponentOutbound). يجب تكوين تنسيق ER هذا لاستخدام القالب الذي تم تصميمه لإنشاء التقارير.
+لإنشاء تقارير كمستندات Microsoft Word، يجب تصميم قالب للتقارير كمستند Word. يجب أن يحتوي هذا القالب على عناصر تحكم محتوى Word كعناصر نائبة للبيانات التي سيتم ملؤها في وقت التشغيل. لاستخدام مستند Word الذي تم إنشائه كقالب لتقاريرك، يمكنك [تكوين](er-design-configuration-word.md) حل [تقارير إلكترونية (ER)](general-electronic-reporting.md) [جديد](er-quick-start1-new-solution.md). يجب أن يتضمن الحل [تكوين](general-electronic-reporting.md#Configuration) إعداد التقارير الإلكترونية (ER) الذي يحتوي على مكون تنسيق ER. يجب تكوين تنسيق ER هذا لاستخدام القالب الذي تم تصميمه لإنشاء التقارير.
 
 في الإصدار 10.0.6 والإصدارات الأحدث من Dynamics 365 Finance، يمكنك تكوين الصيغ في تنسيق ER لمنع بعض عناصر تحكم محتوى Word في المستندات التي تم إنشاؤها.
 

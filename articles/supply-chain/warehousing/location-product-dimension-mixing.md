@@ -2,26 +2,23 @@
 title: خلط أبعاد المنتج في الموقع
 description: يوفر هذا الموضوع معلومات حول مزج أبعاد المنتج في الموقع. تساعد وظيفة ملف تعريف الموقع هذه في تحسين إدارة الموقع عند استخدام متغيرات منتجات أو منتجات لها أبعاد، كما هو الحال في صناعة الأزياء. ويتيح لك تحديد ما إذا كان يمكن خلط التكوينات والألوان والأنماط والأحجام لملف تعريف موقع معين، أو ما إذا كان من الممكن وضع إحدى هذه الأبعاد أو توليفة منها فقط في نفس الموقع.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421691"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103478"
 ---
 # <a name="location-product-dimension-mixing"></a>خلط أبعاد المنتج في الموقع
 
@@ -29,12 +26,9 @@ ms.locfileid: "4421691"
 
 مزج أبعاد المنتج في الموقع هي وظيفة ملف تعريف الموقع التي تساعد في تحسين إدارة الموقع عند استخدام متغيرات منتجات أو منتجات لها أبعاد، كما هو الحال في صناعة الأزياء. ويتيح لك تحديد ما إذا كان يمكن خلط التكوينات والألوان والأنماط والأحجام لملف تعريف موقع معين، أو ما إذا كان من الممكن وضع إحدى هذه الأبعاد أو توليفة منها فقط في نفس الموقع.
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>تشغيل ميزة مزج أبعاد المنتج للموقع
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>تشغيل ميزة خلط أبعاد المنتج في الموقع‬ أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام ميزة مزج أبعاد المنتج للموقع، يجب تشغيلها في النظام الخاص بك. بإمكان المسؤولين استخدام مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. هناك، يتم إدراج الميزة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *مزج أبعاد المنتج للموقع*
+لاستخدام الوظيفة الموضحة في هذا الموضوع ، يجب أن تكون الميزة *خلط أبعاد المنتج في الموقع‬‬‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *خلط أبعاد المنتج في الموقع‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>الإعداد
 
@@ -207,9 +201,9 @@ ms.locfileid: "4421691"
 
 1.حدد **حفظ**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>استلام سطور أوامر الشراء في تطبيق المستودع
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>استلام سطور أوامر الشراء في تطبيق إدارة المستودع للأجهزة المحمولة
 
-1. سجل الدخول إلى تطبيق المستودع كمستخدم ممكّن للمستودع *24*.
+1. سجل الدخول إلى تطبيق إدارة المستودع للأجهزة المحمولة كمستخدم ممكّن للمستودع *24*.
 1. حدد قائمة **الوارد**.
 1. حدد **استلام سطر أمر الشراء**.
 1. حدد حقل **رقك أمر الشراء**، ثم أدخل رقم أمر الشراء.
@@ -239,3 +233,5 @@ ms.locfileid: "4421691"
 
 > [!TIP]
 > يمكنك تكرار هذا السيناريو، ولكن في هذه المرة، قم بتعيين **الحجم** - *لا* ضمن علامة التبويب السريعة **السماح بمزج أبعاد المنتج** في *BULK* **ملفات تعريف الموقع**، بحيث لا يمكن مزج أي أبعاد للمنتج. في هذه الحالة، عند استلام أمر الشراء، سيتم وضع كل متغير منتج في موقع جديد.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

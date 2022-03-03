@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758254"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323655"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>أنواع البيانات المركبة المدعومة لمعادلات التقارير الإلكترونية
 
@@ -27,7 +27,7 @@ ms.locfileid: "6758254"
 
 يشير نوع البيانات *الفئة* إلى فئة التطبيق العامة. في التقارير الإلكترونية، يتم تمثيله على أنه [*سجل*](#record) يحتوي على حقل منفصل لكل أسلوب عام للفئة المشار إليها. عند تعيين معلمات استدعاء الأسلوب، يجب أيضًا تحديد الوسيطات المطلوبة من الأنواع المناسبة في تعبير التقارير الإلكترونية الذي يتم تكوينه لاستدعاء الأسلوب.
 
-في [تعيين](general-electronic-reporting.md#data-model-and-model-mapping-components) التقارير الإلكترونية و [تنسيق](general-electronic-reporting.md#FormatComponentOutbound) المكونات، يمكنك إضافة مصدر البيانات **الفئة** الذي يتم تقديمه كمصدر بيانات وإرجاع قيمة لنوع *الفئة*. يكشف مصدر البيانات هذا الأساليب العامة للفئة التي يمكن استدعاؤها في وقت التشغيل.
+في تعيين التقارير الإلكترونية و تنسيق المكونات، يمكنك إضافة مصدر البيانات **الفئة** الذي يتم تقديمه كمصدر بيانات وإرجاع قيمة لنوع *الفئة*. يكشف مصدر البيانات هذا الأساليب العامة للفئة التي يمكن استدعاؤها في وقت التشغيل.
 
 > [!NOTE]
 > يمكن استدعاء الأساليب التي ترجع قيمة من تعبيرات التقارير الإلكترونية فقط.

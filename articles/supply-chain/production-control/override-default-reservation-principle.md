@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721309"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103353"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>راجع تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج.
 
@@ -31,12 +31,9 @@ ms.locfileid: "6721309"
 
 علي سبيل المثال، إذا كان لديك مواد خام أو مكونات تتطلب عمل انتقاء، فان قائمة مكونات الصنف أو بنود التركيبة التي تم إنشاؤها لهذه المنتجات تتطلب حجزا ماديا ، نظرا لان الحجز الفعلي هو متطلب أساسي لإنشاء عمل المستودع. عاده، إذا كنت ترغب في حدوث الحجز تلقائيا، حدد أحدي قواعد الحجز التالية: *التقدير* أو *الجدولة* أو *الإصدار* أو *البدء*. ومن ناحية أخرى، إذا كان لديك مواد أو مكونات لا تتطلب عمل انتقاء، نظرا لأنه يتم استهلاكها مباشره من موقع، فانك تحدد عاده قاعده الحجز *اليدوي*، التي لا تجعل إيه حجوزات فعليه أو تقوم بإنشاء اي اعمال انتقاء.
 
-## <a name="turn-on-the-feature"></a>تشغيل الميزة
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>تشغيل ميزة جاوز حجز الإنتاج الافتراضي‬ أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة النمطية:** *التحكم بالإنتاج*
-- **اسم الميزة:** *تجاوز حجز الإنتاج الافتراضي*
+اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *جاوز حجز الإنتاج الافتراضي‬‬‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>تعيين سياسة حجز إنتاج لمجموعه نموذج صنف
 

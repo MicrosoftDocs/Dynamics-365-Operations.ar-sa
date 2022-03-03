@@ -2,26 +2,23 @@
 title: فحص الجودة
 description: يوفر هذا الموضوع معلومات حول ميزة فحص الجودة. تسمح هذه الميزة للعاملين في المستودع بإجراء عمليات عشوائية سريعة لفحص الجودة أثناء استلام الأصناف في منطقة الرصيف الداخلية.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421766"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103278"
 ---
 # <a name="quality-check"></a>فحص الجودة
 
@@ -42,12 +39,9 @@ ms.locfileid: "4421766"
 
 يمكن أيضًا إعداد هذه العملية بحيث يتم تحويل جميع لوحات الترخيص التي تم إجراء مسح لها إلى موقع فحص الجودة.
 
-## <a name="turn-on-the-quality-check-feature"></a>تشغيل ميزة فحص الجودة
+## <a name="turn-the-quality-check-feature-on-or-off"></a>تشغيل ميزة فحص الجودة أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام ميزة *فحص الجودة*، يجب تشغيلها في النظام. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *فحص الجودة*
+لاستخدام الوظيفة الموضحة في هذا الموضوع ، يجب أن تكون الميزة *فحص الجودة‬‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *فحص الجودة‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>إعداد الميزة السيناريو المثال
 
@@ -302,7 +296,7 @@ ms.locfileid: "4421766"
 
 #### <a name="receive-pallet-1"></a>استلام البالته 1
 
-1. سجل الدخول إلى تطبيق المستودع كمستخدم للمستودع *51*. (قم بإدخال *51* كمعرف المستخدم و *1* ككلمة مرور.)
+1. سجل الدخول إلى تطبيق إدارة المستودع للأجهزة المحمولة كمستخدم ممكّن للمستودع *51*. (قم بإدخال *51* كمعرف المستخدم و *1* ككلمة مرور.)
 1. انتقل إلى **وارد \> استلام بند أمر الشراء**.
 1. في حقل **‎PONUM**، أدخل رقم أمر الشراء.
 1. أكد رقم أمر الشراء.
@@ -313,7 +307,7 @@ ms.locfileid: "4421766"
 
     تظهر صفحة **فحص الجودة** التي لا تتضمن حقول إدخال. تحتوي هذه الصفحة فقط على زر التأكيد (علامة اختيار) في الأسفل وزر القائمة (**≡**) في الأعلى. (يُشار إلى زر القائمة أحيانًا على أنه هامبورجير‬‏‫ أو زر هامبورجير‬‏‫). لتسريع عملية فحص الجودة، عندما تجتاز الباليته فحص الجودة، يقوم المستخدم فقط بتأكيد صفحة **فحص الجودة**.
 
-    ![صفحة فحص الجودة](media/quality-check.png "صفحة فحص الجودة")
+    ![صفحة فحص الجودة.](media/quality-check.png "صفحة فحص الجودة")
 
 1. حدد زر التأكيد لاجتياز فحص الجودة للبالته 1 من البند 1.
 
@@ -397,3 +391,6 @@ ms.locfileid: "4421766"
 1. حدد زر القائمة (**≡**) في أعلى الصفحة، ثم في القائمة، حدد **إلغاء** للرجوع إلى القائمة.
 
 يمكنك الآن إغلاق تطبيق الأجهزة المحمولة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

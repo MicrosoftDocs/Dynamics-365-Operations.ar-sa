@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571967"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103603"
 ---
 # <a name="enable-change-management-on-existing-products"></a>تفعيل إدارة التغيير على المنتجات الحالية
 
@@ -27,12 +27,9 @@ ms.locfileid: "7571967"
 
 عندما تقوم بتمكين إدارة التغيير لمنتج موجود، يمكنك إنشاء إصدارات من هذا المنتج وتعقب التغييرات التي تم إجراؤها عليه طوال حياته. وبالتالي، يمكنك تعقب تلك التغييرات باستخدام أوامر التغيير. لتمكين إدارة التغيير، ينبغي عليك تحويل المنتجات ذات الصلة إلى *أصناف هندسية* (يشار إليها أيضًا باسم المنتجات الهندسية). المنتجات الهندسية هي المنتجات التي يتم إصدارها وإدارتها من خلال إدارة التغيير. يتم توفير معالج لإرشادك خلال عملية التحويل.
 
-## <a name="turn-on-the-feature-in-your-system"></a>تشغيل الميزة في النظام
+## <a name="turn-this-feature-on-or-off"></a>تشغيل هذه الميزة أو إيقاف تشغيلها
 
-لاستخدام هذه الإمكانية، يتعين عليك إكمال المهام التالية:
-
-1. قم بتمكين ميزة إدارة التغيير الهندسي ومفتاح التكوين الخاص بها كما هو موضح في [نظرة عامة على إدارة التغيير الهندسي](product-engineering-overview.md).
-1. قم بتشغيل ميزة *تمكين إدارة التغيير على المنتجات الموجودة* في إدارة الميزات. لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+تتطلب الوظيفة الموضحة في هذا الموضوع تشغيل الميزتين *إدارة التغييرات الهندسية* و *تمكين إدارة التغيير على المنتجات الحالية‬‬‬* في النظام. للحصول علي تفاصيل حول كيفية تشغيل هذه الميزات أو إيقاف تشغيلها، راجع [نظرة عامة حول إدارة التغييرات الهندسية](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>القيود والحدود
 

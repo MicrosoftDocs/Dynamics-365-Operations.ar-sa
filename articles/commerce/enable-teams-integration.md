@@ -2,7 +2,7 @@
 title: تمكين تكامل Dynamics 365 Commerce وMicrosoft Teams
 description: يوضح هذا الموضوع كيفيه تمكين تكامل Microsoft Dynamics 365 Commerce وMicrosoft Teams.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9910ee48a0792c89a4e04ec8685fd02484e45575d70b06454dea56a89ee8c914
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52b1a889a15cfe2e6e104e38b7d257f80762954f
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775328"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323397"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>تمكين تكامل Dynamics 365 Commerce وMicrosoft Teams
 
@@ -38,15 +38,23 @@ ms.locfileid: "6775328"
 لتسجيل تطبيق Teams مع المستأجر الخاص بك في مدخل Azure، اتبع الخطوات التالية.
 
 1. اتبع الخطوات الموجودة في [بدء التشغيل السريع: تسجيل تطبيق في النظام الأساسي لهوية Microsoft](/azure/active-directory/develop/quickstart-register-app) لتسجيل تطبيق Teams مع المستأجر الخاص بك في مدخل Azure.
-1. انسخ قيمة **معرف التطبيق (العميل)** من صفحة **النظرة العامة** للتطبيق المسجل. ستستخدم هذه القيمة لتمكين تكامل Teams في إدارة Commerce.
-1. انسخ قيمه الشهادة التي تم إدخالها عند [إضافة شهادة](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) في الخطوة 1. تُعرف الشهادة أيضا باسم المفتاح العام أو مفتاح التطبيق. ستستخدم هذه القيمة لتمكين تكامل Teams في إدارة Commerce.
+1. في علامة التبويب **تسجيل التطبيق**، حدد التطبيق الذي أنشأته في الخطوة السابقة. ثم على علامة التبويب **المصادقة**، حدد **إضافة نظام أساسي**.
+1. في مربع الحوار، حدد **ويب**. ثم في الحقل **عناوين URL لإعادة التوجيه‬**، أدخل عنوان URL بالتنسيق **\<HQUrl\>/oauth**. استبدل **\<HQUrl\>** بعنوان URL لـ Commerce Headquarters (على سبيل المثال، `https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`).
+1. في الصفحة **نظرة عامة** للتطبيق المسجل، انسخ قيمة **معرف التطبيق (العميل)**. سيتعين عليك توفير هذه القيمة لتمكين تكامل Teams في Commerce Headquarters في القسم التالي.
+1. اتبع الإرشادات الموجودة في [إضافة سر العميل](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) لإضافة سر العميل. ثم انسخ **قيمة السر** للعميل. سيتعين عليك توفير هذه القيمة لتمكين تكامل Teams في Commerce Headquarters في القسم التالي.
+1. حدد **أذونات API**، ثم حدد **إضافة إذن**.
+1. في مربع الحوار **طلب أذونات API**، حدد **Microsoft Graph**، وحدد **الأذونات المفوضة**، ووسّع **المجموعة**، وحدد **Group.ReadWrite.All**، ثم حدد **إضافة أذونات**.
+1. في مربع الحوار **طلب أذونات API**، حدد **إضافة إذن**، وحدد **Microsoft Graph**، وحدد **أذونات التطبيق**، ووسّع **المجموعة‏‎**، وحدد **Group.ReadWrite.All**، ثم حدد **إضافة أذونات**.
+1. في مربع الحوار **طلب أذونات API**، حدد **إضافة إذن**. على علامة التبويب **واجهات API التي تستخدمها مؤسستي‬‏‫**، ابحث عن **Microsoft Teams خدمة البيع بالتجزئة**، وحددها
+1. حدد **الأذونات المفوضة**، ووسّع **TaskPublishing**، وحدد **TaskPublising.ReadWrite.All**، ثم حدد **إضافة أذونات**. لمزيد من المعلومات، راجع [تكوين تطبيق عميل للوصول إلى واجهة API الويب](/azure/active-directory/develop/quickstart-configure-app-access-web-apis).
 
 لتمكين تكامل Teams في إدارة Commerce، اتبع هذه الخطوات.
 
 1. انتقل إلى **Retail وCommerce \> إعداد القناة \> تكوين تكامل Microsoft Teams**.
 1. في جزء الإجراءات، حدد **تحرير**.
 1. قم بتعيين خيار **تمكين تكامل Microsoft Teams** إلى **نعم**.
-1. في حقلي **معرف التطبيق** و **مفتاح التطبيق**، أدخل القيم التي حصلت عليها عندما قمت بتسجيل تطبيق Teams في مدخل Azure.
+1. في حقل **معرف التطبيق**، أدخل قيمة **معرف التطبيق (العميل)‬** التي حصلت عليها عندما قمت بتسجيل تطبيق Teams في مدخل Azure.
+1. في حقل **مفتاح التطبيق**، أدخل **قيمة السر‬** التي حصلت عليها عندما أضفت سر العميل في مدخل Azure.
 1. في جزء الإجراءات، حدد **حفظ**.
 
 يبين الرسم التوضيحي التالي مثالا لتكوين تكامل Teams في إدارة Commerce.

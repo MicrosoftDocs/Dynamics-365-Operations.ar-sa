@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920713"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102703"
 ---
 # <a name="firm-planned-orders"></a>تأكيد أوامر مخططة
 
@@ -35,17 +35,15 @@ ms.locfileid: "7920713"
 
 تتوفر معظم ميزات الأمر المخطط لها في جميع عمليات التثبيت القياسية لـ Microsoft Dynamics 365 Supply Chain Management التي تستخدم Planning Optimization. ومع ذلك، يجب ان يتم تشغيل بعض الميزات الموضحة في هذا الموضوع في أداره الميزات قبل ان تتمكن من استخدامها.
 
-### <a name="enable-parallelized-firming-of-planned-orders"></a>تمكين التأكيد المتوازي للأوامر المخططة
+### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>تشغيل التأكيد المتوازي للأوامر المخططة أو إيقاف تشغيله
 
-يساعد التثبيت المتوازي على تسريع عملية الثبات من خلال موازنتها عبر خيوط متعددة. يمكن ان يكون هذا الأسلوب مفيدا عند تاكيد العديد من الأوامر المخططة.
-
-لجعل هذه الوظيفة متوفرة في النظام، انتقل إلى [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)، ثم قم بتشغيل *ميزه التاكيد المتوازي لميزه الأوامر المخططة*. (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
+يساعد التثبيت المتوازي على تسريع عملية الثبات من خلال موازنتها عبر خيوط متعددة. يمكن ان يكون هذا الأسلوب مفيدا عند تاكيد العديد من الأوامر المخططة. لاستخدام هذه الوظيفة، يجب أن تكون الميزة *التأكيد المتوازي للأوامر المخططة‬* قيد التشغيل في النظام. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فيمكنك تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق الانتقال إلى [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) والبحث عن *التأكيد المتوازي للأوامر المخططة‬*.
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>تمكين تاكيد الأمر المخطط مع التصفية
 
 يتيح تاكيد الأمر المخطط مع عوامل التصفية تحديد معايير منطقيه لتحديد الأوامر المخططة المطلوب تاكيدها. يمكنك أيضا معاينه الأوامر المخططة التي تم تحديدها، وتشغيل العملية في الخلفية و/أو جدولتها كمهمة مجموعه.
 
-لجعل هذه الوظيفة متوفرة في النظام، انتقل إلى [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)، ثم قم بتشغيل *تاكيد الأمر المخطط مع التصفية‬*.
+اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *تأكيد الأوامر المخططة بواسطة التصفية* في مساحة عمل [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>قم بتمكين الثبات التلقائي لتحسين التخطيط
 

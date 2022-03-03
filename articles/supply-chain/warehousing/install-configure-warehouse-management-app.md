@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069369"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103403"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>تثبيت تطبيق الاجهزه المحمولة لأداره المستودعات والاتصال به
 
@@ -39,12 +39,9 @@ ms.locfileid: "8069369"
 - Windows 10 (Universal Windows Platform \[UWP\]) أكتوبر 2018 تحديث 1809 (إصدار 10.0.17763) أو أحدث
 - Android 4.4 أو أحدث
 
-## <a name="turn-on-the-feature"></a>تشغيل الميزة
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>تشغيل ميزات تطبيق الأجهزة المحمولة Warehouse Management أو إيقاف تشغيلها في Supply Chain Management
 
-قبل أن تتمكن من استخدام التطبيق، يجب تشغيل ميزة ذات صلة في النظام. بإمكان المسؤولين استخدام مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. هناك، يتم إدراج الميزة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *إعدادات المستخدم والرموز وعناوين الخطوات لتطبيق المستودع الجديد*
+لاستخدام تطبيق الأجهزة Warehouse Management، يجب أن تكون الميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>الحصول علي تطبيق الاجهزه المحمولة لأداره المستودعات
 

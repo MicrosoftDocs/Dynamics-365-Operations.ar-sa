@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901862"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103703"
 ---
 # <a name="mobile-device-user-settings"></a>إعدادات مستخدم الجهاز المحمول
 
@@ -39,12 +39,9 @@ ms.locfileid: "7901862"
 > [!IMPORTANT]
 > تنطبق ميزة *إعدادات مستخدم الجهاز المحمول* فقط على تطبيق إدارة المستودعات الجديد للأجهزة المحمولة. ولا يعمل مع تطبيق المستودع القديم.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>تشغيل ميزة إعدادات مستخدم الجهاز المحمول
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>تشغيل ميزة إعدادات مستخدم الجهاز المحمول أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *إعدادات المستخدم والرموز وعناوين الخطوات لتطبيق المستودع الجديد*
+لاستخدام الوظيفة التي ورد وصفها في هذا الموضوع، يجب أن تكون الميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>إنشاء إعدادات المستخدم وإدارتها
 

@@ -1,27 +1,24 @@
 ---
 title: مراقبة تشغيل التخطيط الرئيسي
 description: يوضح هذا الموضوع كيف يمكن لمخطط الإنتاج معرفه ما إذا كانت هناك عمليه تشغيل تخطيط رئيسي قيد التقدم ام لا.
-author: josaw1
-manager: tfehr
+author: ChristianRytt
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421144"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103153"
 ---
 # <a name="monitor-a-master-planning-run"></a>مراقبة تشغيل التخطيط الرئيسي
 
@@ -31,12 +28,11 @@ ms.locfileid: "4421144"
 
 من صفحة **عرض تقدم التخطيط الرئيسي**، يمكنك عرض تفاصيل تشغيل التخطيط الرئيسي التاريخي كمخطط Gantt. يمكن أن تساعدك هذه الوظيفة علي فهم الوقت المستغرق في المراحل المتنوعة للتخطيط الرئيسي. بالنسبة لوظيفة التخطيط النشطة الحالية، يمكن استخدام صفحه **عرض تقدم التخطيط الرئيسي** لتعقب التقدم وعرض الوقت المتبقي المقدر.
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>تشغيل واستخدام ميزه المرئيات لتقدم الخطة الرئيسية
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>تشغيل ميزه المرئيات لتقدم الخطة الرئيسية أو إيقاف تشغيلها
 
-لاستخدام هذه الوظيفة، اتبع الخطوات التالية:
+اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن *ميزه المرئيات لتقدم الخطة الرئيسية‬‬* في مساحة عمل [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-1. في مساحة عمل **إدارة الميزات**، في علامة التبويب **جديد**، حدد **مرئيات تقدم التخطيط الرئيسي** في القائمة. إذا لم تظهر الميزة على علامة التبويب **جديد**، فانظر إلى علامتي التبويب **غير ممكن** و **الكل**.
-1. حدد **تمكين الآن**. بدلاً من ذلك، حدد **جدولة**، ثم حدد الوقت الذي تريد فيه تشغيل الميزة.
+### <a name="use-the-master-plan-progress-visualization-feature"></a>استخدام ميزه المرئيات لتقدم الخطة الرئيسية
 
 يمكن لصفحة **عرض تقدم التخطيط الرئيسي** عرض كل من مهام التخطيط التاريخية ووظائف التخطيط النشطة. 
 
@@ -127,3 +123,6 @@ ms.locfileid: "4421144"
 1. في الشبكة، حدد الصف الذي فيه تعيين حقل **الحقل** إلى **قم الصنف**.
 1. في حقل **المعايير**، أدخل قيمة.
 1. حدد **موافق**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867284"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323865"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>تصميم تكوين ER جديد لإنشاء تقارير بتنسيق Word
 
@@ -28,7 +28,7 @@ ms.locfileid: "7867284"
 
 ![نموذج القالب الخاص بتقرير التحكم في تطبيق Word لسطح المكتب.](./media/er-design-configuration-word-image1.png)
 
-لاستخدام مستند Word كقالب للتقارير الموجودة في تنسيق Word، يمكنك تكوين حل [تقارير إلكترونيه (ER) ](general-electronic-reporting.md)[جديد](er-quick-start1-new-solution.md). يجب ان يتضمن هذا الحل [تكوين ER](general-electronic-reporting.md#Configuration)الذي يحتوي علي [مكون التنسيق الخاص بـ ER](general-electronic-reporting.md#FormatComponentOutbound).
+لاستخدام مستند Word كقالب للتقارير الموجودة في تنسيق Word، يمكنك تكوين حل [تقارير إلكترونيه (ER) ](general-electronic-reporting.md)[جديد](er-quick-start1-new-solution.md). يجب ان يتضمن هذا الحل [تكوين](general-electronic-reporting.md#Configuration) التقارير الإلكترونية الذي يحتوي على مكون تنسيق التقارير الإلكترونية.
 
 > [!NOTE]
 > عند إنشاء تكوين جديد ل "تنسيق ER" لإنشاء التقارير بتنسيق Word، يجب اما تحديد **Word** كتنسيق لمربع الحوار **إنشاء تكوين**، أو ترك حقل **نوع التنسيق** فارغا.

@@ -2,7 +2,7 @@
 title: مزامنة إدارة المهام بين Microsoft Teams ونقطة بيع Dynamics 365 Commerce
 description: يصف هذا الموضوع كيفية مزامنة إدارة المهام بين Microsoft Teams ونقطة بيع Dynamics 365 Commerce (POS).
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9abebbf8d6c5dd6695b9697361e1a9a9e6005dc3ded16c4211c9c5c9e34a0b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c07ca28b45335de5e327305b7426d1b6de8ce5c7
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730865"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323487"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>مزامنة إدارة المهام بين Microsoft Teams ونقطة بيع Dynamics 365 Commerce
 
@@ -54,6 +54,9 @@ ms.locfileid: "6730865"
 ## <a name="link-pos-and-teams-for-task-management"></a>ربط نقطة البيع وTeams لإدارة المهام
 
 لربط نقطة البيع وتطبيقات Microsoft Teams لإدارة المهام في إدارة Commerce، اتبع هذه الخطوات.
+
+> [!NOTE]
+> قبل محاولة دمج إدارة المهام مع Microsoft Teams، تأكد من تمكين تكامل [Dynamics 365 Commerce وMicrosoft Teams](enable-teams-integration.md). 
 
 1. انتقل إلى **Retail وCommerce \> إدارة المهام \> تكامل المهام مع Microsoft Teams**.
 1. في جزء الإجراءات، حدد **تحرير**.

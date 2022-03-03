@@ -2,30 +2,28 @@
 title: تخطيط توجيه المستند لتسميات لوحات الترخيص
 description: يوضح هذا الموضوع كيفية استخدام أساليب التنسيق لطباعة القيم على التسميات.
 author: perlynne
-manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421705"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103880"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>تخطيط توجيه المستند لتسميات لوحات الترخيص
 
 [!include [banner](../includes/banner.md)]
+
 
 يحدد تخطيط توجيه المستندات تخطيط تسميات لوحات الترخيص والبيانات التي تتم طباعتها عليها. يتم تكوين نقاط مشغل الطباعة عند إعداد عناصر قائمة الجهاز المحمول وقوالب العمل.
 
@@ -53,6 +51,10 @@ ms.locfileid: "4421705"
 
 يمكن أن تساعدك العديد من أدوات إنشاء التسميات المتوفرة بشكل كبير على تنسيق النص الخاص بتخطيط التسمية. وتدعم العديد من هذه الأدوات تنسيق `$FieldName$`. بالإضافة إلى ذلك، يستخدم Microsoft Dynamics 365 Supply Chain Management منطق تنسيق خاص كجزء من تعيين الحقل لتخطيط توجيه المستند.
 
+## <a name="turn-on-this-feature-for-your-system"></a>تشغيل هذه الميزة في نظامك
+
+إذا لم يتضمن نظامك الميزات الموضحة في هذا الموضوع بالفعل، فانتقل إلى [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ، وقم بتشغيل ميزة *تخطيطات تسمية لوحة الترخيص المحسنة*. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25.
+
 ## <a name="custom-number-formats"></a>تنسيقات الأرقام المخصصة
 
 يمكنك تخصيص تنسيق قيم الحقول الرقمية التي تتم طباعتها باستخدام الأكواد التي لها التنسيق التالي.
@@ -71,7 +73,7 @@ $FieldName:FormatString$
 - لإظهار أربعة خانات دائمًا (باستخدام الأصفار كعناصر نائبة)، استخدم `$Qty:0000$`. على سبيل المثال، إذا كانت الكمية 10، فسوف تُظهر التسمية "0010".
 - لإظهار منزلتين عشريتين دائمًا، استخدم `$Qty:0.00$` على سبيل المثال، إذا كانت الكمية 10، فسوف تُظهر التسمية "10.00".
 
-للحصول على قائمة كاملة بالسلاسل المتوفرة لتنسيق الأرقام، راجع [سلاسل التنسيق الرقمي المخصصة](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+للحصول على قائمة كاملة بالسلاسل المتوفرة لتنسيق الأرقام، راجع [سلاسل التنسيق الرقمي المخصصة](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>تنسيقات السلاسل المخصصة
 
@@ -93,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 في هذا المثال، ستتم طباعة التاريخ 30 أبريل 2020 بالشكل "30-04-2020".
 
-للحصول على قائمة كاملة بتنسيقات التاريخ/الوقت، راجع [سلاسل تنسيق الوقت والتاريخ المخصصة](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+للحصول على قائمة كاملة بتنسيقات التاريخ/الوقت، راجع [سلاسل تنسيق الوقت والتاريخ المخصصة](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>طباعة سطور منفردة من بيانات متعددة السطور
 
@@ -136,3 +138,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>مزيد من المعلومات حول كيفية طباعة التسميات
 
 لمزيد من المعلومات حول كيفية إعداد التسميات وطباعتها، راجع [تمكين طباعة تسمية لوح الترخيص](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

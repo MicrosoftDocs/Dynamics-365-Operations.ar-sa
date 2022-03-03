@@ -2,11 +2,9 @@
 title: تصحيح مصادر البيانات لتنسيق ER الذي تم تنفيذه لتحليل تدفق البيانات وتحويلها
 description: يشرح هذا الموضوع كيف يمكنك تصحيح مصادر البيانات لتنسيق ER الذي تم تنفيذه لفهم تدفق البيانات الذي تم تكوينه وتحويلها بشكل أفضل.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 3a486800f37dda7829aeeaa56a30285a92a61b9d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680772"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323751"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>تصحيح مصادر البيانات لتنسيق ER الذي تم تنفيذه لتحليل تدفق البيانات وتحويلها
 
@@ -30,7 +28,7 @@ ms.locfileid: "4680772"
 
 [!include[banner](../includes/preview-banner.md)]
 
-عندما تقوم [بتكوين](tasks/er-format-configuration-2016-11.md) حل التقارير الإلكترونية (ER) لإنشاء المستندات الصادرة، يمكنك تحديد الطرق المستخدمة للحصول على البيانات من التطبيق وإدخالها في الإخراج الذي تم إنشاؤه. لجعل دعم دوره الحياة لحل ER أكثر كفاءة، يجب أن يتكون الحل الخاص بك من [نموذج بيانات](general-electronic-reporting.md#DataModelComponent) التقارير الإلكترونية ومكونات [التعيين](general-electronic-reporting.md#ModelMappingComponent) الخاصة به، وكذلك [تنسيق](general-electronic-reporting.md#FormatComponentOutbound) التقارير الإلكترونية بحيث يكون تعيين النموذج خاص بالتطبيق، بينما تبقي المكونات الأخرى غير محددة التطبيق. ولذلك، قد [تؤثر](general-electronic-reporting.md#FormatComponentOutbound) العديد من مكونات ER على عمليه إدخال البيانات في الإخراج الذي تم إنشاؤه.
+عندما تقوم [بتكوين](tasks/er-format-configuration-2016-11.md) حل التقارير الإلكترونية (ER) لإنشاء المستندات الصادرة، يمكنك تحديد الطرق المستخدمة للحصول على البيانات من التطبيق وإدخالها في الإخراج الذي تم إنشاؤه. لجعل دعم دوره الحياة لحل ER أكثر كفاءة، يجب أن يتكون الحل الخاص بك من نموذج بيانات التقارير الإلكترونية ومكونات التعيين الخاصة به، وكذلك تنسيق التقارير الإلكترونية بحيث يكون تعيين النموذج خاص بالتطبيق، بينما تبقي المكونات الأخرى غير محددة التطبيق. ولذلك، قد تؤثر العديد من مكونات ER على عمليه إدخال البيانات في الإخراج الذي تم إنشاؤه.
 
 في بعض الأحيان، تبدو بيانات الإخراج التي تم إنشاؤها مختلفه عن نفس البيانات في قاعده بيانات التطبيق. في هذه الحالات، ستحتاج إلى تحديد أي من مكونات ER مسؤول عن تحويل البيانات. تقلل ميزة مصحح أخطاء مصدر البيانات الخاصة لـ ER الوقت والتكلفة المضمنة في هذا الاستقصاء بشكل ملحوظ. يمكنك مقاطعه تنفيذ تنسيق ER وفتح واجهه مصحح أخطاء مصدر البيانات. هناك، يمكنك استعراض مصادر البيانات المتوفرة وتحديد مصدر بيانات فردي لتنفيذه. يقوم التنفيذ اليدوي هذا بمحاكاة تنفيذ مصدر البيانات أثناء التشغيل الحقيقي لتنسيق ER. يتم تقديم النتيجة في الصفحة التي يمكنك من خلالها تحليل البيانات التي تم استلامها.
 
@@ -66,7 +64,7 @@ ms.locfileid: "4680772"
 
 1. اتبع الخطوات الموجودة في [الملحق 3](#appendix3) لهذا الموضوع لمعالجه مدفوعات المورد.
 
-    ![معالجه دفع المورد قيد التقدم](./media/er-data-debugger-process-payment.png)
+    ![معالجه دفع المورد قيد التقدم.](./media/er-data-debugger-process-payment.png)
 
 2. قم بتنزيل ملف zip المضغوط إلى الكمبيوتر المحلي وقم بحفظه.
 3. استخرج ملف دفع **ISO20022 Credit transfer.xml** من ملف zip.
@@ -74,7 +72,7 @@ ms.locfileid: "4680772"
 
     في ملف الدفع، لا يحتوي كود رقم الحساب البنكي الدولي (IBAN) الخاص بالحساب البنكي للمورد علي مسافات. ولذلك فهو يختلف عن القيمة التي تم [إدخالها](#enteredIBANcode) في صفحة **الحسابات البنكية**.
 
-    ![رمز IBAN بدون مسافات](./media/er-data-debugger-payment-file.png)
+    ![رمز IBAN بدون مسافات.](./media/er-data-debugger-payment-file.png)
 
     يمكنك استخدام مصحح أخطاء مصدر بيانات ER لمعرفه أي من مكونات حل ER يتم استخدامه لاقتطاع المسافات في رمز IBAN.
 
@@ -87,14 +85,14 @@ ms.locfileid: "4680772"
     > [!NOTE]
     > هذه المعلمة خاصة بالمستخدم والشركة.
 
-    ![مربع علامة تبويب معلمات المستخدمين](./media/er-data-debugger-user-parameters.png)
+    ![مربع حوار معلمات المستخدمين.](./media/er-data-debugger-user-parameters.png)
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>معالجة دفع المورد لتصحيح الأخطاء
 
 1. اتبع الخطوات الموجودة في [الملحق 3](#appendix3) لهذا الموضوع لمعالجه مدفوعات المورد.
 2. في مربع الرسالة، حدد **نعم** لتاكيد أنك تريد مقاطعة معالجه مدفوعات المورد وتبديل تصحيح مصدر البيانات على صفحة **تصحيح مصادر البيانات**.
 
-    ![مربع رسالة التأكيد](./media/er-data-debugger-start-debugging.png)
+    ![مربع رسالة التأكيد.](./media/er-data-debugger-start-debugging.png)
 
 ## <a name="debug-data-sources-that-are-used-in-payment-processing"></a>تصحيح مصادر البيانات المستخدمة في معالجه الدفع
 
@@ -117,7 +115,7 @@ ms.locfileid: "4680772"
 
 7. حدد **توسيع الكل‬**.
 
-    ![قيمه حقل IBAN في تعيين النموذج](./media/er-data-debugger-debugging-model-mapping.png)
+    ![قيمه حقل IBAN في تعيين النموذج.](./media/er-data-debugger-debugging-model-mapping.png)
 
     وكما تري، تعيين النموذج غير مسؤول عن المساحات المقتطعة، لأن رمز IBAN الذي يرجع للحساب البنكي للمورد يتضمن مسافات. ولذلك، يجب متابعه تصحيح مصدر البيانات.
 
@@ -132,7 +130,7 @@ ms.locfileid: "4680772"
 7. حدد **الحصول على قيمة**.
 8. حدد **توسيع الكل‬**.
 
-    ![قيمه حقل IBAN في تعيين التنسيق](./media/er-data-debugger-debugging-format-mapping.png)
+    ![قيمه حقل IBAN في تعيين التنسيق.](./media/er-data-debugger-debugging-format-mapping.png)
 
     وكما تري، مصادر البيانات لتعيين التنسيق غير مسؤولة عن المساحات المقتطعة، لأن رمز IBAN الذي يرجع للحساب البنكي للمورد يتضمن مسافات. ولذلك، يجب متابعه تصحيح مصدر البيانات.
 
@@ -144,7 +142,7 @@ ms.locfileid: "4680772"
 4. قم بتوسيع عناصر التنسيق لتحديد **ISO20022CTReports** \> **XMLHeader** \> **مستند** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **معرّف** \> **IBAN** \> **BankIBAN** ثم حدد **الحصول على قيمة**.
 5. حدد **توسيع الكل‬**.
 
-    ![قيمه حقل IBAN في التنسيق](./media/er-data-debugger-debugging-format.png)
+    ![قيمه حقل IBAN في التنسيق.](./media/er-data-debugger-debugging-format.png)
 
    وكما تري، رابط التنسيق غير مسؤول عن المساحات المقتطعة، لأن رمز IBAN الذي يرجع للحساب البنكي للمورد يتضمن مسافات. لذلك، يتم تكوين عنصر **BankIBAN** لاستخدام تحويل التنسيق الذي يقوم باقتطاع المساحات.
 
@@ -156,13 +154,13 @@ ms.locfileid: "4680772"
 2. في صفحة **التكوينات** حدد **نموذج الدفع** \> **تحويل ائتمان ISO20022**.
 3. حدد **المصمم** ثم قم بتوسيع العناصر لتحديد **مستند** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **معرف** \> **IBAN** \> **BankIBAN**.
 
-    ![عنصر BankIBAN في صفحة مصمم التنسيق](./media/er-data-debugger-referred-transformation.png)
+    ![عنصر BankIBAN في صفحة مصمم التنسيق.](./media/er-data-debugger-referred-transformation.png)
 
     وكما تري، يتم تكوين عنصر **BankIBAN** لاستخدام التحويل **استثناء الأبجدي الرقمي من الإزالة**.
 
 4. حدد علامة تبويب **عمليات التحويل**.
 
-    ![علامة تبويب عمليات التحويل لعنصر BankIBAN](./media/er-data-debugger-transformation.png)
+    ![علامة تبويب عمليات التحويل لعنصر BankIBAN.](./media/er-data-debugger-transformation.png)
 
     وكما تري، يتم تكوين تحويل **استثناء الأبجدي الرقي من الإزالة** لاستخدام تعبير يقوم باقتطاع المسافات من السلسلة النصية المتوفرة.
 
@@ -170,7 +168,7 @@ ms.locfileid: "4680772"
 
 عند تكوين إصدار مسودة من تنسيق ER الذي يمكن تشغيله مباشره من "مصمم العملية"، يمكنك الوصول إلى مصحح أخطاء مصدر البيانات عن طريق تحديد **بدء التصحيح** في جزء الإجراءات.
 
-![زر بدء التصحيح في صفحة مصمم التنسيق](./media/er-data-debugger-run-from-designer.png)
+![زر بدء التصحيح في صفحة مصمم التنسيق.](./media/er-data-debugger-run-from-designer.png)
 
 تتوفر مكونات تعيين التنسيق والتنسيق لتنسيق ER الذي يتم تحريره للتصحيح.
 
@@ -178,7 +176,7 @@ ms.locfileid: "4680772"
 
 عند تكوين تعيين نموذج ER الذي يمكن تشغيله من صفحة **تعيين النموذج** يمكنك الوصول إلى مصحح أخطاء مصدر البيانات عن طريق تحديد **بدء التصحيح** في جزء الإجراءات.
 
-![زر بدء التصحيح في صفحة مصمم تعيين النموذج](./media/er-data-debugger-run-from-designer-mapping.png)
+![زر بدء التصحيح في صفحة مصمم تعيين النموذج.](./media/er-data-debugger-run-from-designer-mapping.png)
 
 يتوفر مكون تعيين النموذج لتعيين ER الجاري تحريره للتصحيح.
 
@@ -188,18 +186,18 @@ ms.locfileid: "4680772"
 
 إذا كنت ترغب في استخدام حل ER لإنشاء ملف دفع إلكتروني لدفع المورد الذي تتم معالجته، فانه يمكنك [تنزيل](download-electronic-reporting-configuration-lcs.md) تنسيق دفع ER لـ **تحويل ائتمان ISO20022** المتوفر من مكتبه الأصول المشتركة في Microsoft Dynamics Lifecycle Services أو من المستودع العمومي.
 
-![استيراد تنسيق دفع ER على صفحة مستودع التكوين](./media/er-data-debugger-import-from-repo.png)
+![استيراد تنسيق دفع ER على صفحة مستودع التكوين.](./media/er-data-debugger-import-from-repo.png)
 
 بالاضافه إلى التنسيق ER المحدد، يجب استيراد [التكوينات](general-electronic-reporting.md#Configuration) التالية تلقائيًا في مثيل Microsoft Dynamics 365 Finance كجزء من حل ER لـ **تحويل ائتمان ISO20022**:
 
-- **نموذج الدفع** [تكوين نموذج بيانات ER](general-electronic-reporting.md#DataModelComponent)
-- **تحويل الائتمان ISO20022** [تكوين تنسيق ER](general-electronic-reporting.md#FormatComponentOutbound)
-- **تعيين نموذج الدفع 1611** [تكوين تعيين نموذج ER](general-electronic-reporting.md#ModelMappingComponent)
+- **نموذج الدفع** تكوين نموذج بيانات ER
+- **ISO20022 تحويل الائتمان** تكوين تنسيق ER
+- **تعيين نموذج الدفع 1611** تكوين تعيين نموذج ER
 - **تعيين نموذج الدفع للوجهة ISO20022** تكوين تعيين نموذج ER
 
 يمكنك العثور علي هذه التكوينات في صفحة **التكوينات** الخاصة بإطار عمل ER (**إدارة المؤسسة** \> **التقارير الإلكترونية** \> **التكوينات**).
 
-![التكوينات المستوردة على صفحة التكوينات](./media/er-data-debugger-configurations.png)
+![التكوينات المستوردة على صفحة التكوينات.](./media/er-data-debugger-configurations.png)
 
 إذا كان أي من التكوينات التي تم سردها سابقًا مفقودا في شجرة التكوين، فيجب تنزيلها يدويا من مكتبه الأصول المشتركة LCS بنفس الطريقة التي قمت بها بتنزيل تنسيق دفع **تحويل ائتمان ISO20022**.
 
@@ -215,7 +213,7 @@ ms.locfileid: "4680772"
 
     لاحظ أن حقل **المدفوعات** لنموذج البيانات مرتبط بمصدر بيانات **\$notSentTransactions‎** الذي يقوم بإرجاع قائمه بنود دفع المورد التي تتم معالجتها.
 
-    ![حقل المدفوعات في صفحة مصمم تعيين النموذج](./media/er-data-debugger-model-mapping.png)
+    ![حقل المدفوعات في صفحة مصمم تعيين النموذج.](./media/er-data-debugger-model-mapping.png)
 
 #### <a name="review-the-format-mapping"></a>مراجعة تعيين التنسيق
 
@@ -226,7 +224,7 @@ ms.locfileid: "4680772"
 
     لاحظ أن عنصر **مستند** \> **CstmrCdtTrfInitn** \> **PmtInf** للملف **ISO20022CTReports** \> **XMLHeader** مرتبط بمصدر بيانات **\$PaymentByDebtor** المكوّن على سجلات مجموعة حقل **المدفوعات** لنموذج البينات.
 
-    ![عنصر PmtInf في صفحة مصمم التنسيق](./media/er-data-debugger-format-mapping.png)
+    ![عنصر PmtInf في صفحة مصمم التنسيق.](./media/er-data-debugger-format-mapping.png)
 
 #### <a name="review-the-format"></a>مراجعة التنسيق
 
@@ -236,7 +234,7 @@ ms.locfileid: "4680772"
 
     لاحظ أن عنصر التنسيق ضمن **مستند** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **معرف** \> **IBAN** \> **BankIBAN** مكوّن لإدخال رمز IBAN لحساب المورد في ملف الدفع.
 
-    ![عنصر BankIBAN في صفحة مصمم التنسيق](./media/er-data-debugger-format.png)
+    ![عنصر تنسيق جديد في صفحة مصمم التنسيق BankIBAN.](./media/er-data-debugger-format.png)
 
 ## <a name="appendix-2-configure-accounts-payable"></a><a name="appendix2"></a>ملحق 2: تكوين الحسابات الدائنة
 
@@ -247,7 +245,7 @@ ms.locfileid: "4680772"
 3. في علامة التبويب السريعة **الهوية** ، في حقل **IBAN** ، <a name="enteredIBANcode"></a>أدخل **GB33 BUKB 2020 1555 5555 55**.
 4. حدد **حفظ**.
 
-![تعيين حقل IBAN في صفحة الحسابات البنكية للمورد](./media/er-data-debugger-iban.png)
+![تعيين حقل IBAN في صفحة الحسابات البنكية للمورد.](./media/er-data-debugger-iban.png)
 
 ### <a name="set-up-a-method-of-payment"></a>إعداد طريقة الدفع
 
@@ -257,7 +255,7 @@ ms.locfileid: "4680772"
 4. في حقل **تكوين تنسيق التصدير** ، حدد تنسيق ER لـ **تحويل ائتمان ISO20022**.
 5. حدد **حفظ**.
 
-![إعدادات تنسيق الملف في صفحة طرق الدفع](./media/er-data-debugger-payment-method.png)
+![إعدادات تنسيق الملف في صفحة طرق الدفع.](./media/er-data-debugger-payment-method.png)
 
 ### <a name="add-a-vendor-payment"></a>إضافة دفعة مورد​
 
@@ -269,7 +267,7 @@ ms.locfileid: "4680772"
 6. في حقل **طريقة الدفع** حدد **SEPA CT**.
 7. حدد **حفظ**.
 
-![إضافة دفع المورد في صفحة مدفوعات المورد](./media/er-data-debugger-payment-journal.png)
+![إضافة دفع المورد في صفحة مدفوعات المورد.](./media/er-data-debugger-payment-journal.png)
 
 ## <a name="appendix-3-process-a-vendor-payment"></a><a name="appendix3"></a>ملحق 3: معالجة دفع المورد
 
@@ -281,3 +279,6 @@ ms.locfileid: "4680772"
 6. في الحقل **حساب البنك** حدد **DEMF OPER**.
 7. في مربع الحوار **إنشاء المدفوعات‬‏‫** حدد **موافق**.
 8. في مربع الحوار **معلمات التقارير الإلكترونية** حدد **موافق**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

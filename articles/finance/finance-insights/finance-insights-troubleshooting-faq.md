@@ -2,7 +2,7 @@
 title: استكشاف مشاكل إعداد Finance Insights وإصلاحها
 description: يسرد هذا الموضوع المشاكل التي قد تحدث عند استخدام قدرات Finance Insights. كما يشرح كيفية إصلاح هذه المشاكل.
 author: panolte
-ms.date: 01/29/2022
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064856"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109850"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>استكشاف مشاكل إعداد Finance Insights وإصلاحها
 
@@ -111,6 +111,14 @@ ms.locfileid: "8064856"
 
 ### <a name="resolution"></a>القرار
 
-يحتاج تدريب نموذج **تقدير التدفقات النقدية‬** إلى بيانات تمتد لأكثر من سنة واحدة وتحتوي على أكثر من 100 حركة. ويجب أن تؤثر هذه الحركات على حسابات السيولة المضمنة في إعداد تقدير التدفقات النقدية.
+يحتاج تدريب نموذج **تقدير التدفقات النقدية‬** إلى بيانات تحتوي على 100 حركة أو أكثر تمتد عبر أكثر من سنة. من المستحسن أن يكون لديك سنتين من البيانات على الأقل مع أكثر من 1000 حركة.
 
-تحتاج **توقعات دفع العميل‬** إلى 100 فاتورة عميل وحركات دفع في الفترة من الأشهر الستة إلى التسعة الأخيرة لإنشاء التوقعات.  
+تتطلب الميزة **توقعات دفع العميل‬** أكثر من 100 حركة في الأشهر الستة إلى التسعة السابقة. بإمكان الحركات أن تتضمن فواتير النص الحر وأوامر المبيعات ومدفوعات العميل. يجب نشر هذه البيانات من خلال الإعدادات **في الوقت المناسب** و **متأخر** و **متأخر جدًا** المحددة في صفحة **التكوين**.    
+
+تتطلب ميزة **مقترح الموازنة** ثلاث سنوات كحد أدنى من الموازنة أو البيانات الفعلية. يستخدم هذا الحل من ثلاث إلى عشر سنوات من البيانات في التوقعات. ستحصل على نتائج أفضل إذا كانت الفترة تزيد عن ثلاث سنوات. وتعمل البيانات نفسها بشكل أفضل عندما يكون هناك اختلاف في القيم. إذا كانت البيانات تحتوي علي كافة البيانات الثابتة، مثل مصروفات الإيجار، فقد يفشل التدريب لأن نقص التباين لا يتطلب الذكاء الاصطناعي لتوقع المبالغ.
+
+## <a name="symptom-error-message-states-that-the-table-with-name-msdyn_paypredpredictionresultentities-does-not-exist-the-remote-server-returned-an-error-404-not-found"></a>العَرَضْ‬: تفيد رسالة الخطأ بأن "الجدول المسمى 'msdyn_paypredpredictionresultentities' غير موجود أرجع الخادم البعيد الخطأ: (404) غير موجود... "
+
+### <a name="resolution"></a>القرار
+
+وصلت البيئة إلى الحد الأقصى لجدول خدمات Data Lake. لمزيد من المعلومات حول الحد، راجع القسم **تمكين تغييرات البيانات في وقت قريب من الوقت الحقيقي** من الموضوع [نظرة عامة على التصدير إلى Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).

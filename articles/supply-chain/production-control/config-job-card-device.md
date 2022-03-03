@@ -2,26 +2,23 @@
 title: تكوين بطاقة وظيفة للأجهزة
 description: يصف هذا الموضوع مختلف الخيارات المتعلقة بتكوين جهاز بطاقة الوظيفة.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421437"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103428"
 ---
 # <a name="configure-job-card-for-devices"></a>تكوين بطاقة وظيفة للأجهزة
 
@@ -37,21 +34,19 @@ ms.locfileid: "4421437"
 
 لجعل هذه الميزة متوفرة، يمكنك تمكين الميزات التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (بالترتيب):
 
-1. لوحة الترخيص للإبلاغ عند الانتهاء والمضافة إلى ‏‫جهاز بطاقة الوظيفة‬
-1. تمكين إنشاء رقم لوحة الترخيص عند الإبلاغ عن الانتهاء في ‏‫جهاز بطاقة الوظيفة‬ بشكل تلقائي.
+1. *لوحة الترخيص للإبلاغ عند الانتهاء والمضافة إلى ‏‫جهاز بطاقة الوظيفة‬*<br>اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. (اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، هذه الميزة إلزامية.)
+1. *تمكين إنشاء رقم لوحة الترخيص عند الإبلاغ عن الانتهاء في ‏‫جهاز بطاقة الوظيفة‬ بشكل تلقائي.*<br>(اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، هذه الميزة إلزامية.)
 
 ### <a name="print-label"></a>طباعة بطاقة
 
 لجعل هذه الميزة متوفرة، يمكنك تمكين الميزات التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (بالترتيب):
 
-1. لوحة الترخيص للإبلاغ عند الانتهاء والمضافة إلى ‏‫جهاز بطاقة الوظيفة‬
-1. طباعة التسمية من جهاز بطاقة الوظيفة
+1. *لوحة الترخيص للإبلاغ عند الانتهاء والمضافة إلى ‏‫جهاز بطاقة الوظيفة‬*<br>اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. (اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، هذه الميزة إلزامية.)
+1. *طباعة التسمية من جهاز بطاقة الوظيفة*<br>(اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، هذه الميزة إلزامية.)
 
 ### <a name="allow-locking-of-touch-screen"></a>السماح بتأمين شاشة اللمس
 
-لجعل هذه الميزة متوفرة، يمكنك تمكين الميزة التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
-
-- (معاينة) ميزة قفل جهاز بطاقة العمل ومحطة بطاقة العمل بحيث يمكن تنظيفهما.
+اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن *ميزة قفل جهاز بطاقة الوظيفة والوحدة الطرفية لبطاقة الوظيفة بحيث يمكن تنظيفهما* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="manage-your-device-configurations"></a>إدارة تكوينات الجهاز
 
@@ -95,3 +90,6 @@ ms.locfileid: "4421437"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [إبلاغ عن الانتهاء من جهاز بطاقة الوظيفة](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

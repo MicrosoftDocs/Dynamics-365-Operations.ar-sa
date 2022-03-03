@@ -2,28 +2,25 @@
 title: مناطق المواقع الإضافية
 description: يوفر هذا الموضوع نظرة عامة على مناطق المواقع الجديدة التي تمت اضافتها إلى Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: dd9e97cabe5e3d3bdc261a7280930b73eb8e1419
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421734"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103828"
 ---
 # <a name="additional-location-zones"></a>مناطق المواقع الإضافية
 
@@ -33,12 +30,9 @@ ms.locfileid: "4421734"
 
 لا يتطلب الأمر أي إعداد إضافي لاستخدام حقول المنطقة.
 
-## <a name="turn-on-the-additional-location-zone-feature"></a>تشغيل ميزة منطقة الموقع الإضافية
+## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>تشغيل ميزة منطقة الموقع الإضافية أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام ميزة *منطقة الموقع الإضافية*، يجب تشغيلها في النظام الخاص بك. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *منطقة الموقع الإضافية*
+اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *منطقة الموقع الإضافية* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="use-location-zones"></a>استخدام مناطق الموقع
 
@@ -58,3 +52,6 @@ ms.locfileid: "4421734"
 7. حدد **إنشاء**.
 8. سوف تتلقى رسائل تشير إلى إضافة مواقع جديدة. حدد زر **إظهار الرسائل** لعرض الرسائل.
 9. انتقل إلى **إدارة المستودعات \> الإعداد \> المستودع \> المواقع**. تظهر المواقع الجديدة في القائمة، وتتوفر كافة حقول المنطقة (وهي حقل المنطقة الموجود وحقول المنطقة الإضافية الجديدة).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

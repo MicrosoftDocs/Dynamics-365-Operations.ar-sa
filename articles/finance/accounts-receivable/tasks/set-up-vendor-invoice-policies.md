@@ -2,36 +2,33 @@
 title: إعداد سياسات فواتير المورِّدين
 description: يصف هذا الموضوع كيفية إعداد سياسات فواتير المورِّدين‬.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/11/2019
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58518f5291b70c63506c20717034daff0268901b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439966"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109746"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>إعداد سياسات فواتير المورِّدين
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيفية إعداد سياسات فواتير المورِّدين‬. يتم تشغيل سياسات فاتورة المورّد عند ترحيل فاتورة مورّد باستخدام صفحة "فاتورة المورّد" وعند فتح صفحة "مخالفات سياسة فاتورة المورّد"‬. يمكنك أيضًا تكوين سير عمل فاتورة المورّد لتشغيل سياسات فواتير المورّدين في كل وقت تقوم فيه بإرسال فاتورة إلى سير العمل. 
+يصف هذا الموضوع كيفية إعداد سياسات فواتير المورِّدين‬. يتم تشغيل سياسات فاتورة المورّد عند ترحيل فاتورة مورّد باستخدام صفحة **فاتورة المورّد** وعند فتح صفحة **مخالفات سياسة فاتورة المورّد**‬. يمكنك أيضًا تكوين سير عمل فاتورة المورّد لتشغيل سياسات فواتير المورّدين في كل وقت تقوم فيه بإرسال فاتورة إلى سير العمل. 
 
 - لا تنطبق سياسات فواتير المورّدين على الفواتير التي تم إنشاؤها في سجل الفواتير‬ أو دفتر يومية الفواتير‬.  
-- لا تستخدم عملية التحقق من مطابقة الفاتورة سياسات فواتير المورِّدين‬، ولكن يتم إعدادها بدلاً من ذلك في صفحة "محددات الحسابات الدائنة‬".  
-- يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF. قد ينفذ دور مدير الحسابات الدائنة أو دور مدير الحسابات‬ هذه الخطوات. قبل أن تبدأ، تأكد من تحديد مفتاح تكوين مطابقة الفاتورة.
+- لا تستخدم عملية التحقق من مطابقة الفاتورة سياسات فواتير المورِّدين‬، ولكن يتم إعدادها بدلاً من ذلك في صفحة **محددات الحسابات الدائنة**.  
+- يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USMF. قد ينفذ دور مدير الحسابات الدائنة أو دور مدير الحسابات‬ هذه الخطوات. قبل أن تبدأ، تأكد من تحديد مفتاح تكوين **مطابقة الفاتورة**.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>التحضير لإنشاء سياسات فواتير المورّدين
@@ -73,3 +70,6 @@ ms.locfileid: "4439966"
 16. حدد **موافق**.
 17. عد إلى الصفحة الرئيسية بعد إغلاق الصفحات.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

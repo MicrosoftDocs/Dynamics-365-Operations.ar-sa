@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571703"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103085"
 ---
 # <a name="category-requests-from-vendors"></a>طلبات الفئات من الموردين
 
@@ -26,11 +26,11 @@ ms.locfileid: "7571703"
 
 يتم بدء طلبات الفئات بواسطة الموردين في مساحة عمل **معلومات المورد**. ويتم بعد ذلك إرسالها إلى وكالتك للمراجعة والموافقة. تتم إضافة الفئات المعتمدة إلى قائمة فئات التدبير لحساب المورد.
 
-## <a name="turn-on-the-feature-in-your-system"></a>تشغيل الميزة في النظام
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>تشغيل الميزة طلبات الفئات من المورّدين‬ أو إيقاف تشغيلها
 
-إذا لم يتضمن نظامك بالفعل الميزة الموضحة في هذا الموضوع ، فانتقل إلى [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)، وقم بتشغيل ميزة *السماح للموردين بالتقدم بطلب للحصول على فئات التدبير من خلال تعاون الموردين*.
+اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها للميزة *السماح للموردين بالتطبيق على فئات التدبير من خلال تعاون المورد‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-بعد تشغيل الميزة ، لا يزال بإمكانك إضافة فئات تدبير يدويًا إلى حسابات الموردين. لمزيد من المعلومات، راجع [الموافقة على الموردين لفئات تدبير محددة](tasks/approve-vendors-specific-procurement-categories.md).
+إذا كانت هذه الميزة قيد التشغيل، فيمكنك إضافة فئات التدبير يدويًا إلى حسابات الموردين. لمزيد من المعلومات، راجع [الموافقة على الموردين لفئات تدبير محددة](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>متطلبات تعاون الموردين
 
