@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421562"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974975"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>مزامنة أوامر المبيعات مباشرة بين Sales وSupply Chain Management
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لتشغيل مزامنة أوامر المبيعات مباشرةً بين Dynamics 365 Sales و Dynamics 365 Supply Chain Management.
 
@@ -64,8 +65,8 @@ ms.locfileid: "4421562"
 
 | Supply Chain Management  | ال‏‏مبيعات             |
 |-------------------------|-------------------|
-| رؤوس أوامر مبيعات CDS | SalesOrders       |
-| بنود أمر مبيعات CDS   | SalesOrderDetails |
+| Dataverse رؤوس أوامر المبيعات V2 | SalesOrders       |
+| Dataverse بنود أمر مبيعات   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>تدفق الكيان
 
@@ -75,7 +76,7 @@ ms.locfileid: "4421562"
 
 في Supply Chain Management، تساعد عوامل التصفية الموجودة في القالب على ضمان عدم تضمين غير أوامر المبيعات ذات الصلة في المزامنة:
 
-- في أمر المبيعات، يجب إنشاء كل من عميل الأمر وعميل الفوترة من Sales ليتم تضمينه في المزامنة. في Supply Chain Management، يتم استخدام الحقلين **OrderingCustomerIsExternallyMaintained** و **InvoiceCustomerIsExternallyMaintained** لتصفية أوامر المبيعات من كيانات البيانات.
+- في أمر المبيعات، يجب إنشاء كل من عميل الأمر وعميل الفوترة من Sales ليتم تضمينه في المزامنة. في Supply Chain Management، يتم استخدام الأعمدة **OrderingCustomerIsExternallyMaintained** و **InvoiceCustomerIsExternallyMaintained** لتصفية أوامر المبيعات من جداول البيانات.
 - يجب تأكيد أمر المبيعات في Supply Chain Management. لا تتم مزامنة غير أوامر المبيعات المؤكدة أو أوامر المبيعات التي لها حالة معالجة أعلى، مثل الحالة **مشحون** أو **مفوتر** إلى Sales.
 - بعد إنشاء أمر مبيعات أو تعديله، يجب تنفيذ وظيفة الدُفعة **حساب إجماليات المبيعات‬** في Supply Chain Management. لن تتم مزامنة غير أوامر المبيعات التي تم حساب إجماليات المبيعات‬ فيها إلى Sales.
 
@@ -103,10 +104,10 @@ ms.locfileid: "4421562"
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>حل العميل المتوقع إلى النقدية في Sales
 
-تمت إضافة حقول جديدة إلى كيان **الأمر** وهي تظهر على الصفحة:
+تمت إضافة حقول جديدة إلى جدول **الأمر** وهي تظهر على الصفحة.
 
 - **تتم المحافظة عليها خارجيًا‬‏‫‬‏‫** - عيّن هذا الخيار إلى **نعم** عندما يأتي الأمر من Supply Chain Management.
-- **حالة المعالجة** - يستخدم هذا الحقل لعرض حالة معالجة الأمر في Supply Chain Management. تتوفر القيم التالية:
+- **حالة المعالجة** - يستخدم هذا العمود لعرض حالة معالجة الأمر في Supply Chain Management. تتوفر القيم التالية:
 
     - **مسودة** – الحالة الأولية عند إنشاء أمر في Sales. في Sales، لا يمكن تحرير إلا الأوامر التي بحالة المعالجة هذه.
     - **نشط** – الحالة بعد تنشيط الأمر في Sales باستخدام الزر **تنشيط**.
@@ -141,7 +142,7 @@ ms.locfileid: "4421562"
 - انتقل إلى **الإعدادات** &gt; **الإدارة** &gt; **إعدادات النظام** &gt; **Sales**‎، وتأكد من أنه يتم استخدام الإعدادات التالية:
 
     - يكون الخيار **‬‏‫استخدام حساب أسعار النظام** معينًا إلى **نعم**.
-    - يكون الحقل **طريقة حساب الخصم** معينًا إلى **صنف البند**.
+    - يكون العمود **طريقة حساب الخصم** معينًا إلى **صنف البند**.
 
 ### <a name="setup-in-supply-chain-management"></a>الإعداد في Supply Chain Management
 
@@ -151,10 +152,10 @@ ms.locfileid: "4421562"
 
 1. انتقل إلى **المبيعات والتسويق** \> **الإعداد** \> **أوامر المبيعات** \> **أصل المبيعات**.
 2. حدد **جديد** لإنشاء أصل مبيعات جديد.
-3. في حقل **أصل المبيعات**، أدخل اسمًا لأصل المبيعات، مثل **SalesOrder**.
-4. في حقل **الوصف**، أدخل وصفاً، مثل **أمر مبيعات من Sales‎**.
+3. في العمود **أصل المبيعات**، أدخل اسمًا لأصل المبيعات، مثل **SalesOrder**.
+4. في العمود **الوصف**، أدخل وصفاً، مثل **أمر مبيعات من Sales‎**.
 5. حدد خانة الاختيار **مهمة نوع الأصل**.
-6. قم بتعيين حقل **نوع أصل المبيعات** إلى **تكامل أمر المبيعات**.
+6. قم بتعيين عمود **نوع أصل المبيعات** إلى **تكامل أمر المبيعات**.
 7. حدد **حفظ**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>الإعداد في أوامر المبيعات (Sales إلى Supply Chain Management)- مشروع تكامل البيانات المباشر
@@ -181,12 +182,12 @@ ms.locfileid: "4421562"
 ## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 
 > [!NOTE]
-> لا تشكل الحقول **شروط الدفع** و **شروط الشحن** و **شروط التسليم** و **أسلوب الشحن** و **وضع التسليم** جزءًا من التعيينات الافتراضية. لتعيين هذه الحقول، يجب إعداد تعيين قيمة خاصة بالبيانات الموجودة في المؤسسات التي تتم مزامنة الكيان بينها.
+> لا تشكل الأعمدة **شروط الدفع** و **شروط الشحن** و **شروط التسليم** و **أسلوب الشحن** و **وضع التسليم** جزءًا من التعيينات الافتراضية. لتعيين هذه الأعمدة، يجب إعداد تعيين قيمة خاصة بالبيانات الموجودة في المؤسسات التي تتم مزامنة الجدول بينها.
 
 تبين الأشكال التوضيحية التالية مثالاً لتعيين قالب في تكامل البيانات.
 
 > [!NOTE]
-> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Supply Chain Management أو من Supply Chain Management إلى Sales.
+> يعرض التعيين معلومات العمود التي ستتم مزامنتها من Sales إلى Supply Chain Management أو من Supply Chain Management إلى Sales.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>أوامر المبيعات (Supply Chain Management إلى Sales) - مباشر: OrderHeader
 

@@ -1,7 +1,7 @@
 ---
 title: أخذ عينات من صنف أداره الجودة
 description: يصف هذا الموضوع كيفية إعداد عينات العنصر.
-author: yufeihuang
+author: rachel-profitt
 ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,17 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: raprofit
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea749c470ab1d80f1f3974596a2cd4a1f5b7b32d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: dfdffc1ff0e0541cfad5669d0787abfafbd424ddf0807c61b957e7f330f21af7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578478"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717306"
 ---
 # <a name="quality-management-item-sampling"></a>أخذ عينات من صنف أداره الجودة
-
-[!include [banner](../includes/banner.md)]
 
 يتم استخدام نماذج الأصناف كجزء من عمليه اقتران الجودة. وهو يحدد مقدار المخزون الفعلي الحالي الذي يجب فحصه. يمكن أن يستند أخذ العينات إلى كميات ثابتة أو نسبة مئوية أو لوحة الترخيص الكاملة.
 

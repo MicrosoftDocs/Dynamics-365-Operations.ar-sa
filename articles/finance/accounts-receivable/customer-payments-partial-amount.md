@@ -2,28 +2,25 @@
 title: مدفوعات العميل لمبلغ جزئي
 description: في بعض الأحيان، قد يسدد العملاء دفعة أقل من مبلغ الفاتورة. توضح هذه المقالة مختلف الخيارات التي يتم استخدامها لمعالجة هذه الحالة. تتوقف الخيارات التي تتوفر لك على تكوين أعمالك ومتطلباتها.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a74803d3adf71ef1495ec5b42753d0988cea4133
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2b4a930f7bb070d3105eff3978774bfd8a3ffbfd2b8eb77097028411da619c64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769025"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>مدفوعات العميل لمبلغ جزئي
 
@@ -31,8 +28,7 @@ ms.locfileid: "4439811"
 
 في بعض الأحيان، قد يسدد العملاء دفعة أقل من مبلغ الفاتورة. توضح هذه المقالة مختلف الخيارات التي يتم استخدامها لمعالجة هذه الحالة. تتوقف الخيارات التي تتوفر لك على تكوين أعمالك ومتطلباتها.
 
-<a name="partial-payment-with-no-discount"></a>الدفع الجزئي دون أي خصم
---------------------------------
+## <a name="partial-payment-with-no-discount"></a>الدفع الجزئي دون أي خصم
 
 قد يقوم العملاء بإجراء دفع جزئي لأنهم لا يملكون ما يكفي من النقد المتوافر لدفع الفاتورة بالكامل، أو بسبب نزاع حول صنف في الفاتورة. وفي هذه الحالة، يمكن تسوية الفاتورة جزئيًا من خلال الدفع. وستبقى هذه الفاتورة مفتوحة وستعرض رصيدًا.
 
@@ -60,3 +56,6 @@ ms.locfileid: "4439811"
 
 
 للحصول على مزيد من المعلومات، راجع [إيداع مدفوعات العميل‬](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

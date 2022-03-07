@@ -1,29 +1,26 @@
 ---
 title: إعداد أكواد الترتيب
 description: يمكنك إعداد رموز إرجاع لتحديد كيفية معالجة صنف مرتجع من عميل.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnDispositionCode
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16f0ddb9ad956367adc66a952bd8d12551da56a5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 973d270d186244904a8390b700aa2ee1fc84cbbc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421047"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576270"
 ---
 # <a name="set-up-disposition-codes"></a>إعداد أكواد الترتيب 
 
@@ -34,15 +31,15 @@ ms.locfileid: "4421047"
 
 كما يمكنك إعداد كود سبب للمساعدة في تفسير سبب إرجاع صنف ما. للحصول على مزيد من المعلومات حول أكواد الأسباب، راجع [إعداد أكواد سبب الإرجاع](set-up-return-reason-code.md).
 
-1.  انقر فوق **‏‫المبيعات والتسويق‬** \> **إعداد** \> **‏‫‏‫أوامر المبيعات**‬ \> **المرتجعات** \> **رموز الإرجاع**.
+1.  انتقل إلى **‏‫المبيعات والتسويق‬** \> **إعداد** \> **‏‫‏‫أوامر المبيعات**‬ \> **المرتجعات** \> **رموز الإرجاع**.
 
-2.  انقر فوق **جديد** أو اضغط على CTRL+N لإنشاء كود ترتيب جديد.
+2.  حدد **جديد** لإنشاء كود تخلص جديد.
 
 3.  أدخل اسمًا وصفيًا فريدًا، وحدد إجراءً، ثم أدخل وصفًا لكود الترتيب.
 
-4.  إذا كنت ترغب في ربط أية مصاريف عميل برمز الإرجاع هذا، فانقر فوق الزر **المصاريف** لفتح النموذج **إعداد المصاريف**.
+4.  إذا كنت ترغب في ربط أية مصاريف عميل برمز الإرجاع هذا، حدد الزر **المصاريف** لفتح النموذج **إعداد المصاريف**.
 
-5.  إذا كنت ترغب في تحديد أي رموز خارجية لمطابقتها برموز الإرجاع الخاصة بالشركة، فانقر فوق الزر **أكواد خارجية** لفتح النموذج **أكواد خارجية**.
+5.  إذا كنت ترغب في تحديد أي رموز خارجية لمطابقتها برموز الإرجاع الخاصة بالشركة، فحدد الزر **أكواد خارجية** لفتح النموذج **أكواد خارجية**.
 
 ## <a name="see-also"></a>راجع أيضًا
 
@@ -57,3 +54,6 @@ ms.locfileid: "4421047"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

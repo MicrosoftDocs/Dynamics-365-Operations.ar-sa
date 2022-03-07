@@ -2,42 +2,36 @@
 title: إثراء الصفحة المتنقل إليها‬ لفئة
 description: يتناول هذا الموضوع تحسين صفحات الفئة في Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770997"
 ---
-# <a name="enrich-a-category-landing-page"></a>إثراء الصفحة المتنقل إليها‬ لفئة
-
+# <a name="enrich-a-category-landing-page"></a>إثراء صفحة فئة منتقل إليها‬
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع تحسين صفحات الفئة في Dynamics 365 Commerce.
 
-## <a name="overview"></a>نظرة عامة
-
 يوفر Commerce ‏‫الصفحة المتنقل إليها‬ للفئة الافتراضية المستخدمة عند عرض بيانات الفئة. تحتوي صفحة الفئة الافتراضية على عناصر مطلوبة، مثل المصافي، ووضع المنتج المصنف، وخيارات الفرز، وملخص الاختيار، وأدوات ترقيم الصفحات. 
 
 ومع ذلك، بدلاً من استخدام صفحة الفئة الافتراضية، قد ترغب في استخدام الصفحة المتنقل إليها للفئة "التي تم تحسينها" والتي تحتوي على المزيد من المحتوى وعناصر أكثر تحديدًا. قد يتضمن التحسين النموذجي إضافة محتوى تسويقي خاص بفئة إلى صفحة الفئة. قد يتضمن هذا المحتوي وضع المنتج عبر الفئة لأغراض البيع بين عملاء متعديين والقوائم التحريرية والصور ومقاطع الفيديو والنصوص الأخرى. يمكنك إما تعديل صفحة الفئة الافتراضية أو تحديد صفحة فئة مختلفة لفئة معينة.
 
-![الصفحة المتنقل إليها‬ للفئة المُحسنة](./media/CategoryLandingPages.png)
+![الصفحة المتنقل إليها‬ للفئة المُحسنة.](./media/CategoryLandingPages.png)
 
 في منشئ مواقع Commerce، تتضمن صفحة **المنتجات** قائمة بالفئات من القناة التي تم تعيينها للموقع. في حال تحديد الحالة **مُحسن** لصفحه فئة، يتم تحسين صفحة الفئة هذه. وإلا، يتم استخدام صفحة الفئة الافتراضية والمحتوى للفئة. يمكنك معاينة كل من صفحات الفئة التي تم تحسينها والذي لم يتم تحسينها للفئة من خلال تحديد اسم الفئة.
 
@@ -64,4 +58,9 @@ ms.locfileid: "4409892"
 
 [إثراء صفحة منتج](enrich-product-page.md)
 
-[التحقق من إمكانية الوصول إلى محتوي الصفحة](verify-accessibility.md)
+[التحقق من إمكانية الوصول إلى محتوى الصفحة](verify-accessibility.md)
+
+[إنشاء صفحات التجارة الإلكترونية الديناميكية استنادا إلى معلمات URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

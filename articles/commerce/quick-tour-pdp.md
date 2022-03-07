@@ -1,44 +1,39 @@
 ---
 title: نظرة عامة على صفحات تفاصيل المنتج
-description: يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (بتنسيق PDP) في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 01/23/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409997"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986191"
 ---
 # <a name="product-details-pages-overview"></a>نظرة عامة على صفحات تفاصيل المنتج
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (بتنسيق PDP) في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
+يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
 
 يقدم الملف بتنسيق PDP معلومات مفصلة عن منتج ويُتيح للعملاء تحديد خيارات المنتج مثل الحجم والنمط واللون. يجب أن يعمل ملف بتنسيق PDP على إظهار كافة معلومات المنتج التي يطلبها العميل لاتخاذ قرار شراء.
 
 يبين الرسم التوضيحي التالي مثالاً على تنسيق PDF.
 
-![مثال على صفحة تفاصيل المنتج](./media/pdp.PNG)
+![مثال على صفحة تفاصيل المنتج.](./media/pdp.PNG)
 
-## <a name="header-and-footer-modules"></a>الوحدات النمطية للرأس والتذييل
+## <a name="header-and-footer-modules"></a>وحدات الرؤوس والتذييلات
 
 يحتوي ملف بتنسيق PDF على رأس يعرض كافة فئات المنتجات والصفحات الأخرى التي يرغب بائع التجزئة في أن يقوم العملاء باستعراضها. يوجد أسفل الصفحة تذييل يحتوي على ارتباطات سريعة إلى العديد من الموضوعات التي قد تهم العملاء.
 
@@ -88,3 +83,6 @@ ms.locfileid: "4409997"
 [نظرة عامة على صفحات إدارة الحسابات](quick-tour-account-management.md)
 
 [صفحة إثراء تفاصيل منتج](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,37 +1,33 @@
 ---
 title: نظرة عامة على المواد الخطرة
 description: يستعرض هذا الموضوع نظرة عامة حول الميزات المتعلقة بمناولة المواد الخطرة وتوثيقها في أثناء إدارة معلومات المنتج وإدارة المستودع.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421121"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986266"
 ---
 # <a name="hazardous-materials-overview"></a>نظرة عامة على المواد الخطرة
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 لتظل المؤسسات ملتزمة بلوائح الشحن والنقل، يتعين على المؤسسات التي تقوم بشحن مواد مصنفة على أنها بضائع خطرة تضمين أعمال ورقية إضافية مع شحناتهم. تتيح ميزة المواد الخطرة للعملاء تخزين المعلومات المرتبطة بالأصناف المُصدرة. ويمكن بعد ذلك استخدام هذه المعلومات للمساعدة في تحضير وثائق الشحن. يجب أن تمتلك المؤسسة التي تقوم بشحن بضائع خطرة عملياتها وإجراءتها الخاصة المتبعة لإدارة عملية الشحن. يمثل Microsoft Dynamics 365 Supply Chain Management أداة تُساعد في إنشاء المستندات المطلوبة.
 
 يوضح المخطط التالي الخطوات اللازمة لإعداد ميزة المواد الخطرة واستخدامها.
 
-![اعداد ميزة المواد الخطرة واستخدامها](media/hazmat-overview.png "اعداد ميزة المواد الخطرة واستخدامها")
+![إعداد ميزة المواد الخطرة واستخدامها.](media/hazmat-overview.png "إعداد ميزة المواد الخطرة واستخدامها")
 
 يتم إعداد ميزة المواد الخطرة في إدارة معلومات المنتج، وتوفر المستندات التي يُمكن طباعتها من خلال إدارة المستودع. بالتالي، وبالتحدث على نطاق أوسع، فهذه المناطق هي المناطق الرئيسية التي ستقوم فيها بمراجعة وإعداد واستخدام وظيفة هذه الميزة:
 
@@ -62,3 +58,6 @@ ms.locfileid: "4421121"
 ## <a name="warehouse-management"></a>إدارة المستودعات
 
 عند إعداد شحنة في إدارة المستودع، فسوف تكون قادرًا على طباعة العديد من التقارير الجديدة التي تستخدم المعلومات التي قمت بإعدادها في إدارة معلومات المنتج. لمزيد من المعلومات حول التقارير المتوفرة وكيفية استخدامها، راجع [استعلامات وتقارير المواد الخطرة](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

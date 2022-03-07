@@ -2,9 +2,10 @@
 title: خيارات تنفيذ شبكة تسليم المحتويات
 description: يراجع هذا الموضوع الخيارات المختلفة لتطبيق شبكة تسليم المحتوى (CDN) التي يمكن استخدامها مع بيئات Microsoft Dynamics 365 Commerce. تتضمن هذه الخيارات المثيلات الأصلية المقدمة من Commerce لـ Azure Front Door والمثيلات المملوكة للعملاء الخاصة بـ Azure Front Door
 author: BrianShook
-ms.date: 07/22/2021
+ms.date: 03/11/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 73da1fff8f79b4fcde38f9da643b8a3479247959f763976d782279e4e2af7a33
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e98cf81f13b9181059bc96b95ac277a088311ea
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729904"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800701"
 ---
 # <a name="content-delivery-network-implementation-options"></a>خيارات تنفيذ شبكة تسليم المحتويات
 
@@ -40,7 +41,7 @@ ms.locfileid: "6729904"
 
 يعرض الشكل التوضيحي التالي نظرة عامة على بنية Commerce.
 
-![نظرة عامة حول بنية Commerce.](media/Commerce_CDN-Option_ComparisonModels.png)
+![نظرة عامة حول بنية Commerce](media/Commerce_CDN-Option_ComparisonModels.png)
 
 لمزيد من المعلومات حول كيفية إعداد مثيل لـ Azure Front Door لموقع Commerce الخاصة بك، راجع [إضافة دعم CDN](add-cdn-support.md).
 
@@ -50,11 +51,11 @@ ms.locfileid: "6729904"
 
 | المزايا | العيوب |
 |------|------|
-| <ul><li>يتم تضمين المثيل في تكلفة Commerce.</li><li>ونظرا لأن المثيل تتم إدارته بواسطة فريق Commerce، ستتكون الصيانة المطلوبة أقل، كما توجد خطوات إعداد مشتركة.</li><li>تتميز البنية المستضافة على Azure بأنها قابلية لتغيير الحجم وآمنة وموثوق بها.</li><li>تتطلب شهادة طبقة مآخذ التوصيل الآمنه (SSL) الإعداد لمرة واحدة ويتم تجديدها تلقائيًا.</li><li>يراقب فريق Commerce المثيل بحثًا عن الأخطاء والأمور غير العادية.</li></ul> | <ul><li>ولا يتم دعم WAF.</li><li>لا توجد تخصيصات أو عمليات ضبط محددة للإعدادات.</li><li>يعتمد المثيل على فريق Commerce في إجراء التحديثات أو التغييرات.</li><li>يلزم وجود مثيل Azure Front Door منفصل لمجالات apex، ويلزم إجراء عمل إضافي لدمج مجالات apex مع Azure DNS.</li><li>لا يتم توفير أي بيانات تتبع استخدام حول الاستجابات في الثانية (RPS) أو معدل الخطأ للعميل.</li></ul> |
+| <ul><li>يتم تضمين المثيل في تكلفة Commerce.</li><li>ونظرا لأن المثيل تتم إدارته بواسطة فريق Commerce، ستتكون الصيانة المطلوبة أقل، كما توجد خطوات إعداد مشتركة.</li><li>تتميز البنية المستضافة على Azure بأنها قابلية لتغيير الحجم وآمنة وموثوق بها.</li><li>تتطلب شهادة طبقة مآخذ التوصيل الآمنه (SSL) الإعداد لمرة واحدة ويتم تجديدها تلقائيًا.</li><li>يراقب فريق Commerce المثيل بحثًا عن الأخطاء والأمور غير العادية.</li></ul> | <ul><li>لا يتم دعم جدار حماية WAF.</li><li>لا توجد تخصيصات أو عمليات ضبط محددة للإعدادات.</li><li>يعتمد المثيل على فريق Commerce في إجراء التحديثات أو التغييرات.</li><li>يلزم وجود مثيل Azure Front Door منفصل لمجالات apex، ويلزم إجراء عمل إضافي لدمج مجالات apex مع Azure DNS.</li><li>لا يتم توفير أي بيانات تتبع استخدام حول الاستجابات في الثانية (RPS) أو معدل الخطأ للعميل.</li></ul> |
 
 يبين الرسم التوضيحي التالي بنية مثيل Azure Front Door الذي يوفره Commerce.
 
-![مثيل Azure Front Door الذي يوفره Commerce.](media/Commerce_CDN-Option_CommerceFrontDoor.png)
+![مثيل Azure Front Door الذي يوفره Commerce](media/Commerce_CDN-Option_CommerceFrontDoor.png)
 
 ## <a name="use-a-customer-owned-azure-front-door-instance"></a>استخدام مثيل Azure Front Door المملوك للعميل
 
@@ -74,11 +75,11 @@ ms.locfileid: "6729904"
 
 | المزايا | العيوب |
 |------|------|
-| <ul><li>يكون هذا الخيار مفيدًا في حالة استضافه المجال الموجود بالفعل على خدمة CDN خارجية.</li><li>WAF: يعتمد على موفر خارجي.</li></ul> | <ul><li>يلزم وجود عقد منفصل وتكلفة إضافية.</li><li>قد تتكبد خدمة SSL تكاليف إضافية.</li><li>نظرًا لأن الخدمة منفصلة عن بنيه سحابة Azure، يجب إدارة البنية الأساسية الإضافية.</li><li>قد تتطلب الخدمة استثمارات طويلة الوقت في نقطة النهاية وإعداد الأمان.</li><li>الخدمة مدارة ذاتيًا.</li><li>الخدمة مراقبة ذاتيًا.</li></ul> |
+| <ul><li>يكون هذا الخيار مفيدًا في حالة استضافه المجال الموجود بالفعل على خدمة CDN خارجية.</li><li>قد يكون لخدمات CDN المنافسة (على سبيل المثال، Akamai) إمكانات WAF أفضل.</li></ul> | <ul><li>يلزم وجود عقد منفصل وتكلفة إضافية.</li><li>قد تتكبد خدمة SSL تكاليف إضافية.</li><li>نظرًا لأن الخدمة منفصلة عن بنيه سحابة Azure، يجب إدارة البنية الأساسية الإضافية.</li><li>قد تتطلب الخدمة استثمارات طويلة الوقت في نقطة النهاية وإعداد الأمان.</li><li>الخدمة مدارة ذاتيًا.</li><li>الخدمة مراقبة ذاتيًا.</li></ul> |
 
 يبين الرسم التوضيحي التالي البنية الأساسية لـ Commerce التي تشتمل على خدمة CDN خارجية.
 
-![البنية الأساسية لـ Commerce التي تشتمل على خدمة CDN خارجية.](media/Commerce_CDN-Option_ExternalFrontDoor.png)
+![البنية الأساسية لـ Commerce التي تشتمل على خدمه CDN خارجية](media/Commerce_CDN-Option_ExternalFrontDoor.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

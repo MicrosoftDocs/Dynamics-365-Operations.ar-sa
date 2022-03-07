@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ac4ceeb3e21ab089eb16565bb6e38c7eb44be80
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c6de9fa9dd49cc32f87a6041a3639198db9f182
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421379"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218599"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>إكمال الإعداد الأساسي لأصل منتج تم إصداره
 
@@ -53,3 +52,6 @@ ms.locfileid: "4421379"
 20. قم بإغلاق الصفحة.
 21. أغلق نموذج **تفاصيل المنتجات الصادرة‬**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

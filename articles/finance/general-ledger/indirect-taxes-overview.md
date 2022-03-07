@@ -2,28 +2,25 @@
 title: نظرة عامة على ضريبة المبيعات
 description: يوفر هذا الموضوع نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440000"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826608"
 ---
 # <a name="sales-tax-overview"></a>نظرة عامة على ضريبة المبيعات
 
@@ -97,3 +94,6 @@ ms.locfileid: "4440000"
 إذا كنت تستخدم شيك مؤجل الدفع كطريقة للدفع، عندما يتم إنشاء الدفع، لا تتم تسوية الحساب البنكي. وفي بعض البلدان، تصبح ضريبة القيمة المضافة التزام "محقق" عندما يسوي البنك الدفع، مما يعني تسوية الشيك مؤجل الدفع. يمكنك تمكينها عن طريق تحديد **تحقيق الضريبة المشروطة عند سحب الشيكات مؤجلة الدفع** في **إدارة النقد والبنك > إعداد >معلمات إدارة النقد والبنك > شيكات مؤجلة الدفع**.
 
 لمزيد من المعلومات، راجع [إعداد ضريبة الخصم‬‬‬‬](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

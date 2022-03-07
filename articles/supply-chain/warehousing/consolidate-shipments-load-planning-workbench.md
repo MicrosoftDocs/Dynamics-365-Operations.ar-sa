@@ -1,29 +1,26 @@
 ---
-title: دمج الشحنات باستخدام الإصدار إلى المستودع من منضدة عمل تخطيط الحمل
+title: دمج الشحنات عن طريق الإصدار إلى المستودع من منضدة عمل تخطيط الحمل
 description: يقدم هذا الموضوع سيناريو يتم فيه إصدار الأوامر المتعددة إلى المستودع في نفس الحمل ثم دمجه تلقائيًا إلى شحنات
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 2f1dd5c743664e638c043b600ae7b0f6bce5ddcd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 30824bf1c8e84bab08b6885ee812ed5e3e9937bb
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421132"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117171"
 ---
-# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>دمج الشحنات باستخدام الإصدار إلى المستودع من منضدة عمل تخطيط الحمل
+# <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>دمج الشحنات عن طريق الإصدار إلى المستودع من منضدة عمل تخطيط الحمل
 
 [!include [banner](../includes/banner.md)]
 
@@ -261,3 +258,6 @@ ms.locfileid: "4421132"
 
 - [سياسات دمج الشحنات](about-shipment-consolidation-policies.md)
 - [تكوين نُهج دمج الشحنات](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

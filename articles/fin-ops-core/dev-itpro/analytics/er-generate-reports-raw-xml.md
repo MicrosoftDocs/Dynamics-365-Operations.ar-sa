@@ -2,9 +2,11 @@
 title: إنشاء تقارير بإضافة محتوى كـ XML أولي
 description: يمكنك تصميم تنسيقات إعداد التقارير الإلكترونية (ER) لإنشاء مستندات صادرة بتنسيق XML.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 160f27f4f44ab6982addb7294db889e2a8dbfcfbc03f7849548c44364b070aa9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 824d6bdf53cacbd81004a009e4019b5ab7e5cff0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749670"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686703"
 ---
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>إنشاء تقارير عن طريق إضافة محتوى كـ XML أولي
 
@@ -35,6 +37,3 @@ ms.locfileid: "6749670"
 > انتبه إلى أن إطار العمل لا يتحكم في ما إذا محتوى XML يتم وضعه في الملف الذي تم إنشاؤه باستخدام عنصر تنسيق  **RAW XML** بشكل صحيح أم لا.
 
 لمعرفة المزيد عن هذه الميزة، قم بتشغيل أدلة المهمة **استخدام التقارير الإلكترونية لبيانات XML أولي لإنشاء تقارير بتنسيق XML (الجزء 1: تصميم نموذج بيانات)‎** و **استخدام التقارير الإلكترونية لبيانات XML أولي لإنشاء تقارير بتنسيق XML (الجزء 2: تصميم التقرير وتشغيله)** والتي تمثل جزءًا من العملية التجارية **7.5.4.3 اكتساب/تطوير خدمة تكنولوجيا المعلومات/مكونات الحلول (10677)‬**، ويمكن تنزيلها من [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684). تأخذك أدلة المهمة هذه إلى عملية تكوين تنسيق التقارير الإلكترونية لإدخال بيانات XML حدثية في الملفات المنشأة.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

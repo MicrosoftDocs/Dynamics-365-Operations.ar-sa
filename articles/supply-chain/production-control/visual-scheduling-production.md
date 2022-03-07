@@ -2,16 +2,13 @@
 title: مخطط "جانت" لجدولة الوظائف
 description: باستطاعة مخططي الإنتاج التحكم في خطط الإنتاج وتحسينها باستخدام مخططات جانت.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 180fb7b31ea826c546aa8472a7ef4025a3b8865a783a5b662ed30b69f98acf92
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421468"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730192"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>مخطط "جانت" لجدولة الوظائف
 
@@ -48,10 +45,10 @@ ms.locfileid: "4421468"
 
 ## <a name="order-view"></a>عرض الأمر
 
-[![عرض الأمر](./media/orderview.png)](./media/orderview.png)
+[![عرض الأمر.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>عرض المورد
-[![عرض المورد](./media/resview.png)](./media/resview.png)
+[![عرض المورد.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>الأنشطة
 تظهر الأنشطة كأشرطة وهي منظمة في شبكة مقياس الوقت مع وقت بدء ووقت انتهاء مجدولين، مما يجعل طول الأنشطة متناسبًا مع الوقت اللازم لإكمال النشاط. تظهر الأنشطة وفقًا لمقياس الوقت. يمكنك ضبط مقياس الوقت على القائمة حيث قمت بتحديد وقت وتاريخ بدء وانتهاء ووحدة زمنية، على سبيل المثال، الساعات أو الأيام. من خلال ضبط مقياس الوقت، يمكنك تعيين التركيز على فاصل زمني تريد خلاله إدارة الأنشطة. 
@@ -105,25 +102,25 @@ ms.locfileid: "4421468"
 
 في شبكة من الأنشطة، مثل الوظائف التي تنتمي إلى أمر الإنتاج نفسه، يمكنك استخدام وظيفة **جدولة الوظائف السابقة** لجدولة الوظائف السابقة المتعلقة بوظيفة محددة على الشبكة. في المثال التالي، النشاط المميز هو الوظيفة المحددة. يُظهر المخطط‬ قبل جدولة وظيفة سابقة وبعد جدولة الوظيفة السابقة. 
 
-[![جدولة الوظيفة السابقة](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![جدولة الوظيفة السابقة.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>جدولة الوظائف التالية
 
 يمكنك استخدام وظيفة **جدولة الوظائف التالية** لجدولة الوظائف التالية المتعلقة بوظيفة محددة في شبكة من الأنشطة. في المثال التالي، النشاط المميز هو الوظيفة المحددة. يُظهر المخطط‬ قبل جدولة الوظيفة التالية وبعد جدولة الوظيفة التالية. 
 
-[![جدولة الوظيفة التالية](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![جدولة الوظيفة التالية.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>جدولة حول الوظيفة
 
 يمكنك استخدام وظيفة **جدولة حول الوظيفة** لجدولة الوظيفة التالية والوظيفة السابقة المتعلقة بوظيفة محددة في شبكة من الأنشطة. في المثال التالي، النشاط المميز هو الوظيفة المحددة. يُظهر المخطط‬ قبل جدولة وظيفة وبعد جدولة الوظيفة. 
 
-[![جدولة حول الوظيفة](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![جدولة حول الوظيفة.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>ترتيب الوظائف
 
 يمكنك استخدام الوظيفة **ترتيب** لتنظيم أنشطة محددة على المورد نفسه. بإمكان هذه الأنشطة أن تكون في شبكة الأنشطة نفسها، ولكن بإمكانها أيضًا أن تنتمي إلى شبكات مختلفة. عندما تستخدم وظيفة الترتيب، ستُزال الفجوات الزمنية بين الأنشطة المحددة. يمكنك استخدام هذه الوظيفة لتحسين استخدام قدرة الموارد. يُظهر المخطط‬ قبل جدولة وظيفة وبعد جدولة الوظيفة. 
 
-[![ترتيب الوظيفة](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![ترتيب الوظيفة.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>إعادة تعيين الأنشطة من مورد إلى آخر
 
@@ -158,5 +155,8 @@ ms.locfileid: "4421468"
 ## <a name="additional-resources"></a>الموارد الإضافية  
 [الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدفعية (فيديو)](https://youtu.be/BtbuShkGj4I)
 
-[الجدولة الظاهرية للإنتاج (برنامج نصي للعرض التوضيحي)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
+[الجدولة الظاهرية للإنتاج (برنامج نصي للعرض التوضيحي)](/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

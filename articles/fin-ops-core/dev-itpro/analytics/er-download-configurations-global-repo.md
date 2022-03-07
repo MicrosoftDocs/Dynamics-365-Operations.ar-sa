@@ -2,11 +2,9 @@
 title: تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين
 description: يشرح هذا الموضوع كيفية تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679548"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605321"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية تنزيل [تكوينات التقارير الإلكترونية](general-electronic-reporting.md#Configuration) من المستودع العمومي لخدمة التكوين. لمزيد من المعلومات، راجع [Microsoft Dynamics 365 for Finance and Operations -‏ Regulatory Services، خدمة التكوين](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+يشرح هذا الموضوع كيفية تنزيل [تكوينات التقارير الإلكترونية](general-electronic-reporting.md#Configuration) من المستودع العمومي لخدمة التكوين. لمزيد من المعلومات، راجع [Microsoft Dynamics 365 for Finance and Operations -‏ Regulatory Services، خدمة التكوين](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>فتح مستودع التكوينات
 
@@ -42,7 +40,7 @@ ms.locfileid: "4679548"
 3. في مقطع **موفرو التكوين**، حدد لوحة **Microsoft**.
 3. على لوحة **Microsoft**، حدد **مستودعات**.
 
-    ![مساحة عمل إعداد التقارير الإلكترونية](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![مساحة عمل إعداد التقارير الإلكترونية.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. في صفحة **مستودعات التكوين**، في الشبكة، حدد المستودع الموجود من النوع **عمومي**. إذا لم يظهر هذا المستودع في الشبكة، فاتبع الخطوات التالية:
 
@@ -54,7 +52,7 @@ ms.locfileid: "4679548"
 
 5. حدد **فتح** لعرض قائمة تكوينات التقارير الإلكترونية للمستودع المحدد.
 
-    ![صفحة مستودعات التكوين](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![صفحة مستودعات التكوين.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>استيراد تكوين واحد
 
@@ -65,7 +63,7 @@ ms.locfileid: "4679548"
     > [!NOTE]
     > لا يتوفر الزر **استيراد** لإصدارات تكوينات التقارير الإلكترونية الموجودة في مثيل Finance الحالي.
 
-    ![صفحة مستودع التكوين](./media/er-download-configurations-global-repo-repository-content.png)
+    ![صفحه مخزن التكوين ، علامة التبويب السريعة التكوينات.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>استيراد تكوينات تمت تصفيتها
 
@@ -79,7 +77,7 @@ ms.locfileid: "4679548"
 4. على علامة التبويب السريعة **التكوينات**، حدد **استيراد** لتنزيل التكوينات التي تمت تصفيتها من المستودع العمومي إلى المثيل الحالي.
 5. على علامة التبويب السريعة **التكوينات**، حدد **إعادة تعيين عامل التصفية** لتنظيف شروط التحديد المعينة.
 
-    ![صفحة مستودع التكوين](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![صفحه مخزن التكوين ، علامة التبويب السريعة الإصدارات ، زر استيراد.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > استنادًا إلى إعدادات التقارير الإلكترونية، يتم التحقق من صحة التكوينات بعد استيرادها. قد يتم إعلامك بأي مشكلات عدم التوافق التي يتم اكتشافها. قبل أن تتمكن من استخدام إصدار التكوين المستورد، يجب حل المشاكل. لمزيد من المعلومات، راجع قائمة الموارد ذات الصلة لهذا الموضوع.
@@ -90,3 +88,6 @@ ms.locfileid: "4679548"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

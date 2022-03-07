@@ -2,16 +2,13 @@
 title: تخطيط بين الشركات الشقيقة
 description: يوضح هذا الموضوع التخطيط بين الشركات الشقيقة ويوضح كيفيه تكوين التخطيط بين الشركات الشقيقة بتحسين التخطيط في Microsoft Dynamics 365 Supply Chain Management.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777901"
 ---
 # <a name="intercompany-planning"></a>تخطيط بين الشركات الشقيقة
 
@@ -46,10 +43,10 @@ ms.locfileid: "4672168"
 
 ## <a name="required-setup"></a>الإعداد المطلوب
 
-لاستخدام تخطيط بين الشركات الشقيقة ، يجب اعداد النظام بالطريقة التالية:
+لاستخدام تخطيط بين الشركات الشقيقة ، يجب إعداد النظام بالطريقة التالية:
 
-1. يجب إصدار المنتجات ذات الصلة في كافة الشركات ذات الصلة. للحصول على مزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة في Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) في Microsoft Learn.
-1. يجب ان تتم تغطيه الطلب اللاحق بواسطة عمليات الشراء من مورد لديه علاقة بين الشركات الشقيقة وابعاد المخزون الافتراضية ذات الصلة (الموقع والمستودع) علي العميل. للحصول على مزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة في Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) في Microsoft Learn.
+1. يجب إصدار المنتجات ذات الصلة في كافة الشركات ذات الصلة. للحصول على مزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة في Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
+1. يجب ان تتم تغطيه الطلب اللاحق بواسطة عمليات الشراء من مورد لديه علاقة بين الشركات الشقيقة وابعاد المخزون الافتراضية ذات الصلة (الموقع والمستودع) علي العميل. للحصول على مزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة في Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
 1. يجب ان تشتمل الخطة الرئيسية في شركة المراحل التمهيدية علي الطلب اللاحق المخطط ، كما يجب تحديد الشركة المرتبطة والخطة الرئيسية في الخطط اللاحقة.
 
 ## <a name="include-planned-downstream-demand"></a>تضمين المطلب اللاحق المخطط
@@ -79,7 +76,7 @@ ms.locfileid: "4672168"
 
 يبين الرسم التوضيحي التالي كيفيه ظهور هذا المثال علي الصفحة **تثبيت متعدد المستويات** لأمر الإنتاج المخطط.
 
-![مثال علي شركات شقيقه يتضمن شركتان](media/IntercompanyPlanning1.png)
+![مثال لشركات شقيقة يتضمن شركتان.](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>مثال علي شركات شقيقه يتضمن ثلاث شركات
 
@@ -87,4 +84,7 @@ ms.locfileid: "4672168"
 
 يبين الرسم التوضيحي التالي كيفيه ظهور هذا المثال علي الصفحة **تثبيت متعدد المستويات** لأمر الإنتاج المخطط.
 
-![مثال علي شركات شقيقه يتضمن ثلاث شركات](media/IntercompanyPlanning2.png)
+![مثال لشركات شقيقة يتضمن ثلاث شركات.](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

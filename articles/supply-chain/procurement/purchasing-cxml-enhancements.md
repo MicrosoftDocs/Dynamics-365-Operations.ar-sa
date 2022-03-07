@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d7184f14ab67d646451c8c2b1313336d47e59316
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d167666e20ef7e1e0fbdb9c11b6e0b1d0b15ebbf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421799"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237390"
 ---
 # <a name="purchasing-cxml-enhancements"></a>تحسينات cXML الشراء
 
@@ -277,3 +276,6 @@ ms.locfileid: "4421799"
 
 - [إعداد كتالوج خارجي للتدبير الإلكتروني PunchOut‬](set-up-external-catalog-for-punchout.md)
 - [استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut‬‬](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,28 +1,25 @@
 ---
 title: تكوين عامل باستخدام جهاز وظيفة محمول
 description: يشرح هذا الموضوع كيفية تعيين الأدوار الصحيحة إلى حساب المستخدم الخاص بأحد العاملين، ثم بتمكين العامل للقيام بتسجيلات صالة الإنتاج‬.
-author: ShylaThompson
-manager: tfehr
+author: johanhoffmann
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ada42a98a8a87e377f939d063b17f9904f6b3408
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9d9745995752c06385acc31e529de52eefaa6f96
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421534"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573551"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>تكوين عامل باستخدام جهاز وظيفة محمول
 
@@ -68,3 +65,6 @@ ms.locfileid: "4421534"
 6. في حقل **وحدة الإنتاج**، يمكنك تعيين عامل التصفية الافتراضي للعامل. وهذا يضمن أن لا يتم عرض إلا وظائف الإنتاج لوحدة الإنتاج المحددة عند قيام العامل بتسجيل الدخول إلى الجهاز. أدخل القيمة المطلوبة.
 7. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

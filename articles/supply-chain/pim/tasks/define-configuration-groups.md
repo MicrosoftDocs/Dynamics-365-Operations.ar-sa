@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ConfigGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 77b156a4710fd574b939a1e930fbb8ac38acde15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b92448ee9bd0eb337fc5860f7694b16ade19710
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421356"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235031"
 ---
 # <a name="define-configuration-groups"></a>تحديد مجموعات التكوين
 
@@ -40,3 +39,6 @@ ms.locfileid: "4421356"
 7. في حقل "الاسم"، اكتب قيمة.
 8. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

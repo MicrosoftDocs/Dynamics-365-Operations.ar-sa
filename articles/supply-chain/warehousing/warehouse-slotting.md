@@ -2,26 +2,23 @@
 title: تقسيم المستودعات
 description: يوفر هذا الموضوع معلومات حول تقسيم المستودعات. يتيح تقسيم المستودعات تجميع الطلب حسب الصنف ووحدة القياس من الأوامر بالحالة مطلوبة أو محجوزة أو تم إصدارها. وهي تساعد مديري المستودع في تخطيط مواقع الانتقاء بشكل ذكي قبل قيامهم بإصدار الأوامر إلى المستودع وإنشاء عمل الانتقاء.
 author: mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4627739"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575137"
 ---
 # <a name="warehouse-slotting"></a>تقسيم المستودعات
 
@@ -110,9 +107,9 @@ ms.locfileid: "4627739"
 1. انتقل إلى **إدارة المستودعات \> الإعداد \> التزويد \> قوالب التقسيم**.
 1. حدد **جديد**، لإنشاء قالب.
 
-بعد ذلك، يجب عليك إعداد رأس القالب ومواصفات التقسيم وتوجيهات المواقع، كما هو موضح في الأقسام الفرعية التالية. ويمثل اعداد التقسيم لأوامر التحويل الاعداد الخاص بتقسيم أوامر المبيعات، ولكن يتم تعيين أوامر التحويل للحقل **نوع الطلب** على *أوامر التحويل* بدلا من *أمر المبيعات*.
+بعد ذلك، يجب عليك إعداد رأس القالب ومواصفات التقسيم وتوجيهات المواقع، كما هو موضح في الأقسام الفرعية التالية. ويمثل إعداد التقسيم لأوامر التحويل الإعداد الخاص بتقسيم أوامر المبيعات، ولكن يتم تعيين أوامر التحويل للحقل **نوع الطلب** على *أوامر التحويل* بدلا من *أمر المبيعات*.
 
-#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>اعداد الراس لقالب تقسيم أمر المبيعات
+#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>إعداد الراس لقالب تقسيم أمر المبيعات
 
 1. في رأس القالب، قم بتعيين القيم التالية:
 
@@ -384,3 +381,6 @@ ms.locfileid: "4627739"
 1. قم بتعيين التكرار ليتم تشغيله تلقائيًا، إذا أردت.
 
 بالنسبة للتدريبات في السيناريو، **لا** تقم بإعداد التقسيم التلقائي.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

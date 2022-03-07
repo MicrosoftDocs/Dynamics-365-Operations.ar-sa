@@ -2,16 +2,13 @@
 title: طرق الدفع
 description: يجب أن يتم تكوين كل نوع دفع يقبله بائع التجزئة عند إعداد النظام. تصف هذه المقالة أنواع الدفع التي يمكنك إعدادها وتصف عملية إعدادها.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 414b49d1099575f1626c29e8f3b07f522e3ab370
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409903"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804493"
 ---
 # <a name="payment-methods"></a>طرق الدفع
 
@@ -49,3 +46,6 @@ ms.locfileid: "4409903"
 2. ‏‫أنشئ أنواع البطاقات وأرقام البطاقات على مستوى المؤسسة. وإذا تم قبول بطاقات الدائن أو بطاقات المدين، فيجب إنشاء طريقة دفع واحدة للبطاقات، ثم إنشاء أنواع البطاقات وأرقام البطاقات على مستوى المؤسسة.‬
 3. ‏‫قم بإعداد طريقة دفع المتجر. اربط طرق الدفع بكل متجر، ثم قم بإدخال الإعدادات الخاصة بالمتجر لكل طريقة دفع.
 4. ‏‫قم بإعداد طرق الدفع للمتاجر. وللحصول على أيٍّ من طرق الدفع بالبطاقة التي يقبلها المتجر، استكمل إعداد البطاقة.‬
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

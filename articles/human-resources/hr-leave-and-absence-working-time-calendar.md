@@ -2,7 +2,7 @@
 title: إنشاء تقويم مواعيد العمل
 description: تحديد تقويم وقت العمل وأيام العطل وأوقات عدم العمل في Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ecabac54134629074ac01944963a037c2cdc63c9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417090"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467159"
 ---
 # <a name="create-a-working-time-calendar"></a>إنشاء تقويم مواعيد العمل
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يعرض تقويم مواعيد العمل في Dynamics 365 Human Resources الأيام والساعات التي يعمل بها الموظفون في مؤسستك. عندما يقوم أحد الموظفين بإرسال طلب المهلة، فليس من الضروري القلق بالعطلات والإغلاق.
 
@@ -75,3 +77,6 @@ ms.locfileid: "4417090"
 
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
 - [تكوين أنواع الإجازة والغياب](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: نظرة عامة على التقييمات والمراجعات
 description: يغطي هذا الموضوع التقييمات والمراجعات في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1248ce660d765ddade1df7d79786202235019990
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4622b2a26ac6193b1408c029389e4d9f55162418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409994"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355795"
 ---
 # <a name="ratings-and-reviews-overview"></a>نظرة عامة على التقييمات والمراجعات
 
@@ -42,7 +39,7 @@ ms.locfileid: "4409994"
 
 يبين الرسم التوضيحي التالي كيفية عمل حل التقييمات والمراجعات في Dynamics 365 Commerce.
 
-![التقييمات والمراجعات في Dynamics 365 for Commerce](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![التقييمات والمراجعات في Dynamics 365 for Commerce.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 يستخدم حل التقييمات والمراجعات في Dynamics 365 Commerce Azure Cognitive Services لتقديم الإشراف التلقائي على الكلمات البذيئة بـ 40 لغة. ونظرًا لأن الموافقة البشرية غير مطلوبة، يتم تقليل الإشراف. كما يوفر النظام أدوات المشرف التي يمكن استخدامها للاستجابة إلى الطلبات الخاصة بالعملاء والملاحظات والطلبات التي يتم إجراؤها ومعالجة طلبات البيانات من المستخدمين.
 
@@ -59,3 +56,6 @@ ms.locfileid: "4409994"
 [تكوين التقييمات والمراجعات](configure-ratings-reviews.md)
 
 [مزامنة تقييمات المنتجات في Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,36 +2,30 @@
 title: العمل مع التخطيطات سابقة الإعداد
 description: يصف هذا الموضوع كيفية العمل مع التخطيطات المعينة مسبقًا في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409910"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090835"
 ---
 # <a name="work-with-preset-layouts"></a>العمل مع التخطيطات سابقة الإعداد
-
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية العمل مع التخطيطات المعينة مسبقًا في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 قبل إكمال الإجراءات الواردة في هذا الموضوع، تأكد من قراءة [التخطيطات المخصصة والمعينة مسبقًا](templates-layouts-overview.md#preset-and-custom-layouts). للحصول على نظرة عامة، راجع [نظرة عامة حول القوالب والتخطيطات](templates-layouts-overview.md).
 
@@ -84,7 +78,7 @@ ms.locfileid: "4409910"
 لتعيين أو تغيير السمة لكافة الصفحات الفرعية التي تستخدم التخطيط المعين مسبقًا الخاص بك، اتبع هذه الخطوات.
 
 1. في محرر التخطيط، في شجرة المخطط التفصيلي الموجود على اليسار، حدد الوحدة النمطية لحاوية صفحة. (عادة ما تكون هذه الوحدة النمطية هي العقدة الثانية وتسمى **الصفحة الافتراضية**).
-1. في جزء الخصائص على اليمين، في حقل **السمة**، حدد سمة.
+1. في حقل **السمة** في جزء الخصائص إلى اليسار، حدد سمة.
 
 ## <a name="save-check-in-preview-and-publish-a-preset-layout"></a>حفظ تخطيط معين مسبقًا وإيداعه ومعاينته ونشره
 
@@ -97,15 +91,30 @@ ms.locfileid: "4409910"
 
 بعد الانتهاء من معاينة التغييرات التي تمت على التخطيط المعين مسبقًا، اتبع إحدى هذه الخطوات لنشر التخطيط على موقعك المباشر:
 
-* انتقل إلى **التخطيطات**، حدد التخطيط، ثم حدد **نشر**.
-* حدد اسم المخطط لفتح محرر التخطيط، ثم حدد **نشر**.
-* انشر صفحة تشير إلى التخطيط غير المنشور. سيتم نشر التخطيط تلقائيًا.
+1. انتقل إلى **التخطيطات**، حدد التخطيط، ثم حدد **نشر**.
+1. حدد اسم المخطط لفتح محرر التخطيط، ثم حدد **نشر**.
+1. انشر صفحة تشير إلى التخطيط غير المنشور. سيتم نشر التخطيط تلقائيًا.
 
 > [!WARNING]
 > يمكن الإشارة إلى التخطيطات المعينة مسبقًا بواسطة عدة صفحات. عند نشر تخطيط معين مسبقًا، فانتبه إلى أنك قد تؤثر على تخطيط الصفحات المتعددة.
+
+## <a name="rename-a-preset-layout"></a>إعادة تسمية تخطيط معين مسبقًا
+
+لإعادة تسمية تخطيط معين مسبقًا في منشئ الموقع، اتبع الخطوات التالية.
+
+1. في جزء التنقل الأيمن، حدد **التخطيطات**.
+1. حدد اسم التخطيط الذي تريد إعادة تسميته.
+1. حدد **تحرير** لبدء تحرير التخطيط.
+1. في جزء خصائص التخطيط، حدد رمز القلم الموجود بجوار اسم التخطيط.
+1. قم بتحرير اسم التخطيط كما تقتضي الحاجة.
+1. حدد علامة الاختيار لتأكيد تغيير الاسم.
+1. حدد **إنهاء التحرير**.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على القوالب والتخطيطات](templates-layouts-overview.md)
 
 [العمل مع القوالب](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

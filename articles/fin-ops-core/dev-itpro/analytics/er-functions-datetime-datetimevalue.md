@@ -2,11 +2,8 @@
 title: وظيفة DATETIMEVALUE ER
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية DATETIMEVALUE (ER).
 author: NickSelin
-manager: kfend
-ms.date: 12/03/2019
-ms.topic: article
+ms.date: 09/08/2021
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30879796b483752a578e516d8afd75f5a690cabc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7a9da0b9461926b1033d6a97b37d4b43a86d8dad
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684896"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485512"
 ---
 # <a name="datetimevalue-er-function"></a>وظيفة DATETIMEVALUE ER
 
 [!include [banner](../includes/banner.md)]
 
-تُرجع الوظيفة `DATETIMEVALUE` قيمة *DateTime* التي تم تحويلها من قيمة نصية مُعينة في التنسيق المُحدد وفي [الثقافة](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) المُحددة بشكل اختياري إلى قيمة التاريخ/الوقت. لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) و [مخصص](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
+تُرجع الدالة `DATETIMEVALUE` قيمة *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* تم تحويلها من قيمة نصية مُعينة في التنسيق المحدد وفي [ثقافة](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) محددة بشكل اختياري إلى قيمة تاريخ/وقت. لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](/dotnet/standard/base-types/standard-date-and-time-format-strings) و [مخصص](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>بناء الجملة 1
 
@@ -44,21 +41,21 @@ DATETIMEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>الوسائط
 
-`text`: *السلسلة*
+`text`: *[سلسلة](er-formula-supported-data-types-primitive.md#string)*
 
 النص الذي يمثل القيمة المراد تنسيقها.
 
 `format`: *السلسلة*
 
-تنسيق النص المُعين.
+تنسيق النص المُعين. لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](/dotnet/standard/base-types/standard-date-and-time-format-strings) و [مخصص](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 `culture`: *السلسلة*
 
-الثقافة المستخدمة لتنسيق النص المُحدد.
+الثقافة المستخدمة لتنسيق النص المُحدد. للحصول علي معلومات حول الثقافات المعتمدة، راجع [الثقافة](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>إرجاع القيم
 
-*DateTime*
+*التاريخ/الوقت*
 
 قيمة التاريخ/الوقت الناتجة.
 
@@ -79,3 +76,6 @@ DATETIMEVALUE (text, format, culture)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دلات التاريخ والوقت](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

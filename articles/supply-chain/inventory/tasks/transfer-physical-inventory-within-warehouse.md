@@ -2,27 +2,24 @@
 title: نقل المخزون الفعلي داخل المستودع
 description: يوضح لك الإجراء عملية إنشاء دفتر يومية تحويل مخزون وترحيله لتسجيل حركة صنف من موقع لآخر بأحد المستودعات.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9557187d0c9f322729bbdd707525e18b54df34cd27aeed09adf4820e3c3d0f3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754001"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>نقل المخزون الفعلي داخل المستودع
 
@@ -59,3 +56,6 @@ ms.locfileid: "4421621"
 1. انقر فوق **المخزون**.
 2. انقر فوق **الحركات**. هنا يمكنك أن ترى الحركات التي تم إنشاؤها عندما قمت بترحيل دفتر اليومية الخاص بك.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

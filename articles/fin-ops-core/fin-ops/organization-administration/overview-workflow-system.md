@@ -2,11 +2,9 @@
 title: نظرة عامة على نظام سير العمل
 description: يصف هذا الموضوع نظام سير العمل.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: dbcab469e1dc8c139d180abdb7ed0bd8fba488a5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796986"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747725"
 ---
 # <a name="workflow-system-overview"></a>نظرة عامة على نظام سير العمل
 
@@ -71,3 +69,6 @@ ms.locfileid: "4796986"
 + [تكوين فروع موازٍية في سير عمل](configure-parallel-branch-workflow.md)
 + [تكوين عمليات سير عمل لعنصر بند](configure-line-item-workflow.md)
 + [الأسئلة المتداولة حول سير العمل](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

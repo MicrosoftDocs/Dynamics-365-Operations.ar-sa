@@ -1,12 +1,10 @@
 ---
 title: إهلاك الرصيد المتناقص بنسبة 125 بالمائة
-description: تقدم هذه المقالة نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 125 بالمائة‬.
-author: saraschi2
-manager: AnnBe
+description: يقدم هذا الموضوع نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 125 بالمائة‬.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9511917d72a1bb45daf2ce7e4b56d94c17825daf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969218"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883508"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>إهلاك الرصيد المتناقص بنسبة 125 بالمائة
 
 [!include [banner](../includes/banner.md)]
 
-تقدم هذه المقالة نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 125 بالمائة‬.
+يقدم هذا الموضوع نظرة عامة على أسلوب إهلاك الرصيد المتناقص بنسبة 125 بالمائة‬.
 
 عند إعداد ملف تعريف إهلاك أصول ثابتة وتحديد **الرصيد المتناقص بنسبة 125%** في حقل **الطريقة** في صفحة **ملفات تعريف الإهلاك**، يتم إهلاك الأصول الثابتة التي تم تعيين ملف تعريف الإهلاك لها بنفس النسبة المئوية في كل فترة إهلاك. حيث يتم حساب هذه النسبة المئوية بناءً على مدة الخدمة للأصل. على سبيل المثال، إذا كانت مدة خدمة الأصل خمس سنوات، فإنه يتم حساب النسبة المئوية بنسبة 25% (125% ÷ 5).
 
@@ -66,7 +64,7 @@ ms.locfileid: "4969218"
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>مثال لإهلاك الرصيد المتناقص بنسبة 125%
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | تكلفة الاستحواذ               | 11,000 |
 | القيمة الباقية                  | 1,000  |
@@ -87,3 +85,6 @@ ms.locfileid: "4969218"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

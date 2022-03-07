@@ -2,26 +2,23 @@
 title: إدخال كود GTIN لمنتج
 description: يتم تعيين أكواد GTIN بواسطة مؤسسة GS1.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemGTIN, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ab7d28469b7b5218b3aaa62449279ebf9b8ea9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 18df36fe2d147ce395c113eacaf69d8016b38303
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421355"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818051"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>إدخال كود GTIN لمنتج
 
@@ -42,3 +39,6 @@ ms.locfileid: "4421355"
 11. في الحقل "GTIN‬"، اكتب قيمة.
 12. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

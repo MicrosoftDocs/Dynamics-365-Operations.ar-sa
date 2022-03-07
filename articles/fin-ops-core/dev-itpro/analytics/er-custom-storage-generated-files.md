@@ -2,11 +2,9 @@
 title: تحديد مواقع مساحة تخزين مخصصة للمستندات المُنشأة
 description: يشرح هذا الموضوع كيفية توسيع قائمة مواقع التخزين للمستندات التي تم إنشاؤها بواسطة تنسيقات التقارير الإلكترونية (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680748"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594899"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>تحديد مواقع مساحة تخزين مخصصة للمستندات المُنشأة
 
@@ -29,7 +27,7 @@ ms.locfileid: "4680748"
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-انشر طبولوجيا تدعم البناء المستمر. لمزيد من المعلومات ، راجع [نشر مخططات تدعم البناء المستمر والتنفيذ التلقائي للاختبار‬ات](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). يجب أن يكون لديك حق الوصول إلى هذه الطبولوجيا لأحد الأدوار التالية:
+انشر طبولوجيا تدعم البناء المستمر. لمزيد من المعلومات ، راجع [نشر مخططات تدعم البناء المستمر والتنفيذ التلقائي للاختبار‬ات](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). يجب أن يكون لديك حق الوصول إلى هذه الطبولوجيا لأحد الأدوار التالية:
 
 - مطور إعداد التقارير الإلكتروني
 - مستشار وظيفي لإعداد التقارير الإلكتروني
@@ -43,7 +41,7 @@ ms.locfileid: "4680748"
 
 لإنشاء المستندات التي تخطط لإضافة موقع تخزين مخصص لها، [استورد](er-download-configurations-global-repo.md) تكوين تنسيق التقارير الإلكترونية لـ **سجل نشاط الأصول الثابتة‬** في الطبولوجيا الحالية.
 
-![صفحة مستودع التكوين](./media/er-custom-storage-generated-files-import-format.png)
+![صفحة مستودع التكوين.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>تشغيل تقرير سجل نشاط الأصول الثابتة
 
@@ -54,7 +52,7 @@ ms.locfileid: "4680748"
 5. في حقل **تعيين التنسيق**، حدد **سجل نشاط الأصول الثابتة**.
 6. حدد **موافق**.
 
-![مربع حوار وقت التشغيل الخاص بتقرير سجل نشاط الأصول الثابتة](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![مربع حوار وقت التشغيل الخاص بتقرير سجل نشاط الأصول الثابتة.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 في Microsoft Excel، راجع المستند الصادر الذي تم إنشاؤه والمتوفر للتنزيل. ويعد هذا السلوك هو [السلوك الافتراضي](electronic-reporting-destinations.md#default-behavior) لتنسيق التقارير الإلكترونية الذي لم يتم تكوين أي [وجهات](electronic-reporting-destinations.md) له، ويتم تشغيله في وضع تفاعلي.
 
@@ -257,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. قم بتعديل فئة `AssetRollForwardService` الموجودة، واكتب التعليمات البرمجية لإعداد مصنع وجهة مخصص لمشغل التقارير. لاحظ أنه عند إنشاء مصنع وجهة مخصص، يتم تمرير المعلمة التي تعتمد على التطبيق وتحدد مجلدًا هدفًا. بهذه الطريقة، يتم استخدام هذا المجلد المستهدف لتخزين الملفات التي تم إنشاؤها.
 
     > [!NOTE] 
-    > تأكد من وجود المجلد المحدد ( **c:\\0** في هذا المثال) في نظام الملفات المحلي للخادم الذي يقوم بتشغيل خدمة AOS. وبخلاف ذلك، سيتم طرح استثناء [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) في وقت التشغيل.
+    > تأكد من وجود المجلد المحدد ( **c:\\0** في هذا المثال) في نظام الملفات المحلي للخادم الذي يقوم بتشغيل خدمة AOS. وبخلاف ذلك، سيتم طرح استثناء [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) في وقت التشغيل.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -341,3 +339,6 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
 - [الصفحة الرئيسية لقابلية للتوسعة](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

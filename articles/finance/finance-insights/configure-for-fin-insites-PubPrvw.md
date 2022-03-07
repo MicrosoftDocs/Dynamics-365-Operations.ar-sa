@@ -1,13 +1,12 @@
 ---
-title: تكوين Finance Insights - الإصدار 10.0.20 والإصدارات اللاحقة
-description: يشرح هذا الموضوع كيفية تكوين نظامك لاستخدام الإمكانات المتوفرة في Finance Insights في الإصدار 10.0.20 والإصدارات الأحدث.
+title: تكوين Finance insights للإصدار أولي للاستخدام العام (إصدار أولي) - الإصدار 10.0.20 والإصدارات اللاحقة
+description: يشرح هذا الموضوع كيفية تكوين النظام الخاص بك لاستخدام القدرات المتوفرة في Finance insights للإصدار أولي للاستخدام العام (إصدار أولي) - الإصدار 10.0.20 والإصدارات اللاحقة‬.
 author: ShivamPandey-msft
-ms.date: 06/16/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
-ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
@@ -16,31 +15,33 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061744"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222602"
 ---
-# <a name="configuration-for-finance-insights---version-10020-and-later"></a>تكوين Finance Insights - الإصدار 10.0.20 والإصدارات اللاحقة
+# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>تكوين Finance insights للإصدار أولي للاستخدام العام (إصدار أولي) - الإصدار 10.0.20 والإصدارات اللاحقة
 
 [!include [banner](../includes/banner.md)]
 
+[!include [preview banner](../includes/preview-banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يجمع Finance insights بين وظائف من Microsoft Dynamics 365 Finance ووظائف من Dataverse وAzure وAI Builder لتوفير أدوات تنبؤ قوية لمؤسستك. يشرح هذا الموضوع كيفية تكوين الإصدار 10.0.20 من Dynamics 365 Finance لتمكين النظام من استخدام القدرات المتوفرة في Finance insights.
+تضم Finance insights الوظيفة من Microsoft Dynamics 365 Finance مع Dataverse وAzure و AI Builder لتوفير أدوات التنبؤ القوية لمؤسستك. يشرح هذا الموضوع كيفية تكوين Dynamics 365 Finance الإصدار 10.0.20 لذلك يمكن للنظام استخدام القدرات المتوفرة في الإصدار الأولي للاستخدام العام من Finance insights.
 
 > [!NOTE]
-> تنطبق خطوات التكوين الموضحة في هذا الموضوع فقط على Finance الإصدار 10.0.20 والإصدارات اللاحقة. "لإعداد Finance insights في الإصدار 10.0.19 والإصدارات السابقة، راجع [تكوين Finance insights - الإصدارات حتى 10.0.19](configure-for-fin-insites.md).
+> تنطبق خطوات التكوين الموضحة في هذا الموضوع فقط على Finance الإصدار 10.0.20 والإصدارات اللاحقة. "لإعداد Finance insights في الإصدار 10.0.19 والإصدارات السابقة، راجع [تكوين Finance insights - الإصدارات حتى 10.0.18](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>نشر Finance
 
 اتبع هذه الخطوات لنشر البيئات.
 
-1. في Microsoft Dynamics Lifecycle Services (LCS)، قم بإنشاء بيئة Finance أو تحديثها. تتطلب البيئة إصدار التطبيق 10.0.20 أو أحدث من تطبيقات التمويل والعمليات.
+1. في Microsoft Dynamics Lifecycle Services (LCS)، قم بإنشاء بيئة Finance أو تحديثها. تتطلب البيئة تطبيق الإصدار 10.0.20 أو أحدث من تطبيقات Finance and Operations.
 2. يجب أن تكون البيئة بيئة عالية التوافر (HA) في وضع الحماية. (يُعرف هذا النوع من البيئة أيضًا ببيئة الطبقة 2). لمزيد من المعلومات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. إذا كنت تقوم بتكوين Finance insights في بيئة حماية، فقد تحتاج إلى نسخ بيانات الإنتاج إلى تلك البيئة لتوقعات العمل. يستخدم نموذج التنبؤ سنوات متعددة من البيانات لبناء التوقعات. لا تحتوي بيانات العرض التوضيحي لشركة Contoso على بيانات تاريخية كافية لتدريب نموذج التنبؤ بشكل مناسب. 
+3. إذا كنت تقوم بتكوين Finance insights في بيئة حماية، فقد تحتاج إلى نسخ بيانات الإنتاج إلى تلك البيئة لتوقعات العمل. يستخدم نموذج التنبؤ سنوات متعددة من البيانات لبناء التوقعات. لا تحتوي بيانات العرض التوضيحي لـ Contoso على بيانات تاريخية كافية للتدريب على نموذج التوقع بشكل ملائم. 
 
 ## <a name="configure-dataverse"></a>تكوين Dataverse
 
@@ -126,7 +127,7 @@ ms.locfileid: "8061744"
         - **الأداء** – إننا نوصي بأن تقوم بتحديد **قياسي**.
         - **نوع الحساب** – يجب تحديد **StorageV2**.
 
-    3. في مربع الحوار **خيارات متقدمة**، بالنسبة للخيار **Data Lake storage Gen2**، حدد **تمكين** ضمن ميزة **مساحات الأسماء الهرمية**. في حالة عدم تمكين هذه الميزة، لا يمكنك استهلاك البيانات التي تكتبها تطبيقات التمويل والعمليات باستخدام خدمات مثل تدفقات بيانات Power BI.
+    3. في مربع الحوار **خيارات متقدمة**، بالنسبة للخيار **Data Lake storage Gen2**، حدد **تمكين** ضمن ميزة **مساحات الأسماء الهرمية**. في حالة عدم تمكين هذه الميزة، فإنه لا يمكنك استهلاك البيانات التي يكتبها تطبيق Finance and Operations باستخدام خدمات مثل تدفقات بيانات Power BI.
     4. حدد **مراجعة وإنشاء**. عند اكتمال النشر، يظهر المورد الجديد في مدخل Azure.
     5. انتقل إلى حساب التخزين الذي قمت بإنشائه.
     6. في القائمة اليمنى، حدد **مفاتيح الوصول**.
@@ -748,10 +749,8 @@ finally {
 3. حدد الوظيفة الإضافية **Finance insights**.
 4. وافق على الشروط، ثم حدد **تثبيت**.
 
-قد تستغرق الوظيفة الإضافية عدة دقائق لتثبيتها.
-
 ## <a name="feedback-and-support"></a>الملاحظات والدعم
 
-إذا كنت مهتمًا بتقديم الملاحظات أو تحتاج إلى الدعم، فأرسل بريدًا الكترونيًا إلى [‏‫Finance insights](mailto:fiap@microsoft.com)
+إذا كنت مهتمًا بتقديم الملاحظات أو تحتاج إلى الدعم، أرسل بريد الكتروني إلى [‏‫Finance insights (إصدار أولي)](mailto:fiap@microsoft.com)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

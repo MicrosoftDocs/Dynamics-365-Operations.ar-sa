@@ -2,9 +2,11 @@
 title: تعيين المتاجر والفرق عند وجود فرق موجودة مسبقًا في Microsoft Teams
 description: يغطي هذا الموضوع كيفيه تعيين المتاجر والفرق المقابلة في مقارات Dynamics 365 Commerce إذا كانت مؤسستك قد إنشات بالفعل فرقا في العمل Microsoft Teams قبل تكامل Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6faba58304e1fe9e9ba2ce1a76fbf1cc783466bf01b0d4e3774e8ed090485bb1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5a711c1057b87bd792755ef91a84d1c28879c590
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757359"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908485"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>تعيين المتاجر والفرق عند وجود فرق موجودة مسبقًا في Microsoft Teams
 
@@ -57,7 +59,7 @@ ms.locfileid: "6757359"
 
 توضح صورة المثال التالي مجموعة **تصدير تعيين Teams** في Commerce مع عناصر **إضافة الكيان** وتمييز رؤوس ملف CSV المُصدَّر.
 
-![تصدير مجموعة تعيين الفرق في Commerce مع إضافة عناصر الكيان وتمييز رؤوس ملف CSV المُصدَرة.](media/d365-commerce-data-mgmt-export-entity.png)
+![تصدير مجموعة تعيين الفرق في Commerce مع إضافة عناصر الكيان وتمييز رؤوس ملف CSV المُصدَرة](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > بعد إكمال الخطوات السابقة، اتبع الخطوات الواردة في [مزامنة إدارة المهام بين Microsoft Teams ونقطة البيع](synchronize-tasks-teams-pos.md) لمزامنة إدارة المهام. 

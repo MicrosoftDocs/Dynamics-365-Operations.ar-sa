@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67807c53a6ffc6dd09cc6f0e48218e2ee2de559f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409899"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207765"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>تغيير ترتيب الفرز لكيانات الترويج للبضائع
 
@@ -88,3 +87,6 @@ ms.locfileid: "4409899"
 
 > [!NOTE]
 > بشكل افتراضي، تكون ميزة ترتيب الفرز المخصص متوقفة عن التشغيل. لمعرفة كيفية تشغيل هذه الميزة وميزات أخرى، راجع [إدارة الميزات](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

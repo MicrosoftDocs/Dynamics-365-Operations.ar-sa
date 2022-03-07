@@ -1,12 +1,10 @@
 ---
 title: قياسات الأصول
 description: يشرح هذا الموضوع كيفية إنشاء أنواع قياسات الأصول في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectCounterPart, EntAssetObjectCounterLookup, EntAssetCounterType, EntAssetObjectCounterTotals
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 37f47b3d9ba0344b96db5626359e2a99a1a40f9c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723565"
 ---
 # <a name="counters"></a>العدادات
 
@@ -64,5 +62,8 @@ ms.locfileid: "5018511"
 
 عند إضافة أنواع الأصول إلى نوع العداد في **العدادات**، يُضاف هذا العداد تلقائيًا إلى أنواع الأصول على علامة التبويب السريعة **العدادات** في [أنواع الأصول](../setup-for-objects/object-types.md).
 
-![الشكل 1](media/071-setup-for-objects.png)
+![الشكل 1.](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

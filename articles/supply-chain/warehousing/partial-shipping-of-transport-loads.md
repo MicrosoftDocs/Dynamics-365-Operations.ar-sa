@@ -2,11 +2,9 @@
 title: شحن جزئي لحمل النقل
 description: يشرح هذا المقال كيفية شحن حمل جزئيًا وتأجيل تخطيط القدرة للحمل.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTransportLoad
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 68a3d175e89e89d0909b140863b1aa61a184fce6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5ea844531314b4dd2ff3fa46d8f0b57d9c47059e684d677f06f8259b264d4a90
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782289"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>شحن جزئي لحمل النقل
 
@@ -65,3 +63,6 @@ ms.locfileid: "4963275"
 
 1. حدد **إدارة المستودعات**\>**الأحمال**\>**أحمال النقل**.
 2. في "جزء الإجراءات"، في علامة التبويب **الشحن والاستلام‬**، في مجموعة **التأكيد**، حدد **نقل**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

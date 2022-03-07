@@ -2,37 +2,32 @@
 title: الوحدة النمطية لمربع شراء
 description: يتناول هذا الموضوع وحدات مربع الشراء ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717785"
 ---
-# <a name="buy-box-module"></a>الوحدة النمطية لمربع شراء
+# <a name="buy-box-module"></a>الوحدة النمطية لصندوق الشراء
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع وحدات مربع الشراء ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>نظرة عامة
-
-يُشير مصطلح *مربع الشراء* عادةً إلى منطقة صفحة تفاصيل المنتج التي تكون "فوق المُجلد،" والتي تستضيف كافة المعلومات الأكثر أهمية المطلوبة لإجراء عملية شراء للمنتج. (وتكون المنطقة الموجود "فوق المُجلد" مرئية عند تحميل الصفحة للمرة الأولى، بحيث لا يضطر المستخدمون للتمرير لأسفل لعرضها.)
+يُشير مصطلح *مربع الشراء* عادةً إلى منطقة صفحة تفاصيل المنتج (PDP) التي تكون "فوق المُجلد،" والتي تستضيف كافة المعلومات الأكثر أهمية المطلوبة لإجراء عملية شراء للمنتج. (وتكون المنطقة الموجود "فوق المُجلد" مرئية عند تحميل الصفحة للمرة الأولى، بحيث لا يضطر المستخدمون للتمرير لأسفل لعرضها.)
 
 تُعد الوحدة النمطية لمربع الشراء حاوية خاصة يتم استخدامها لاستضافة كافة الوحدات النمطية التي تظهر في مساحة مربع شراء صفحة تفاصيل المنتج.
 
@@ -40,7 +35,7 @@ ms.locfileid: "4517078"
 
 تعرض الصورة التالية مثالاُ لوحدة نمطيه لمربع شراء في صفحة تفاصيل المنتج.
 
-![مثال لوحدة نمطية لمربع شراء](./media/ecommerce-pdp-buybox.PNG)
+![مثال لوحدة نمطية لمربع شراء.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>خصائص الوحدة النمطية لمربع شراء وفتحات التشغيل 
 
@@ -72,14 +67,16 @@ ms.locfileid: "4517078"
 
 - **الحد الأقصى لبنود عربة التسوق‬‏‫**- تُستخدم هذه لخاصية لتحديد العدد الأقصى لكل صنف يُمكن إضافته إلى سلة التسوق. على سبيل المثال، يُمكن لبائع التجزئة أن يُقرر إمكانية بيع 10 فقط من كل منتج في حركة واحدة.
 - **المخزون** – لمزيد من المعلومات حول كيفيه تطبيق إعدادات المخزون، راجع  [تطبيق إعدادات المخزون](inventory-settings.md).
-- **إضافة منتج إلى عربة التسوق** - تستخدم هذه الخاصية لتحديد السلوك بعد إضافة صنف إلى عربة التسوق. القيم المحتملة هي **الانتقال إلى عربة التسوق**، و **عدم الانتقال إلى صفحة سلة التسوق** و **إظهار الإخطارات**. عند تعيين القيمة إلى **الانتقال إلى صفحة عربة التسوق**، يتم إرسال المستخدمين إلى صفحة عربة التسوق بعد إضافة صنف. عند تعيين القيمة إلى **عدم الانتقال إلى صفحة عربة التسوق**، لا يتم إرسال المستخدمين إلى صفحة عربة التسوق بعد إضافة صنف. عند تعيين القيمة إلى **إظهار الإخطار**، يظهر إخطار تأكيد للمستخدمين ويمكنهم متابعة التصفح في صفحة تفاصيل المنتج. 
+- **إضافة منتج إلى سلة التسوق** – للحصول على معلومات حول كيفية تطبيق إعدادات **إضافة منتج إلى سلة التسوق**، راجع [إعدادات إضافة منتج إلى سلة التسوق](add-cart-settings.md).
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>شراء ملحقات تعريف الوحدة النمطية لصندوق الشراء في نسق Adventure Works
+
+تشتمل الوحدة النمطية لصندوق الشراء التي يوفرها نسق Adventure Works على ملحق تعريف الوحدة النمطية الذي يدعم تطبيق الوحدة النمطية لمواصفات المنتج داخل وحدة أكورديون صندوق شراء PDP. لتعيين سمات مواصفات المنتج في مربع شراء PDP، أضف الوحدة النمطية لمواصفات المنتج إلى فتحة وحدة أكورديون في فتحة مربع الشراء.
+
 
 > [!IMPORTANT]
-> تتوفر إعدادات الموقع **إضافة منتج إلى عربة التسوق** في Dynamics 365 Commerce الإصدار 10.0.11. إذا كنت تقوم بالتحديث من إصدار قديم من Dynamics 365 Commerce، فيجب عليك تحديث ملف appsettings.json يدويًا. للحصول على تعليمات حول تحديث ملف appsettings.json، راجع [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> ويتوفر نسق Adventure Works اعتباراً من الإصدار 10.0.20 من Dynamics 365 Commerce.
 
-تعرض الصورة التالية مثالاً لإعلام التأكيد "تمت الإضافة إلى عربة التسوق" في موقع شركه Fabrikam.
-
-![مثال عن وحدة نمطية للإعلام](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>تفاعل Commerce Scale Unit
 
@@ -131,8 +128,13 @@ ms.locfileid: "4517078"
 
 [وحدة التذييلات‬](author-footer-module.md)
 
-[الوحدة النمطية للمشاركة الاجتماعية](social-share-module.md)
+[وحدة المشاركة الاجتماعية](social-share-module.md)
+
+[إعدادات إضافة منتج إلى سلة التسوق](add-cart-settings.md)
 
 [حساب توفر المخزون لقنوات البيع بالتجزئة](calculated-inventory-retail-channels.md)
 
-[تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md)
+[تحديثات SDK ومكتبة الوحدات](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

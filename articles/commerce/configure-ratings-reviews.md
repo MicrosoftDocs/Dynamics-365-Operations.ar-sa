@@ -2,35 +2,30 @@
 title: تكوين التقييمات والمراجعات
 description: يوضح هذا الموضوع كيفية تكوين موقع التجارة الإلكترونية لإظهار تصنيفات العملاء ومراجعاتها في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409794"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968092"
 ---
 # <a name="configure-ratings-and-reviews"></a>تكوين التقييمات والمراجعات
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تكوين موقع التجارة الإلكترونية لإظهار تصنيفات العملاء ومراجعاتها في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تساعد التقييمات والمراجعات على مواقع التجارة الإلكترونية العملاء على التعرف على المنتجات قبل اتخاذ قرار الشراء وذلك من خلال إظهار ما يفكر فيه العملاء الآخرون بشأن هذه المنتجات. بالنسبة لمواقع التجارة الإلكترونية، تعد التصنيفات والمراجعات أيضًا آلية لجمع تعليقات العملاء حول المنتجات. 
 
@@ -49,7 +44,7 @@ ms.locfileid: "4409794"
 
 يوضح الرسم التوضيحي التالي كيف يبدو هذا التكوين في Dynamics 365 Commerce.
 
-![تكوين موقع لإظهار التقييمات والمراجعات](media/rnr-eCommerce-site-appsettings.png)
+![تكوين موقع لإظهار التقييمات والمراجعات.](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>ربط تقييم المنتج بقسم المراجعات في PDP
 
@@ -63,7 +58,7 @@ ms.locfileid: "4409794"
 
 يوضح الرسم التوضيحي التالي كيف يبدو هذا التكوين في Dynamics 365 Commerce.
 
-![ربط تقييم المنتج بقسم المراجعات في PDP](media/rnr-eCommerce-buy-box-rating-summary.png)
+![ربط تقييم المنتج بقسم المراجعات في PDP.](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>تكوين ارتباط صفحة الخصوصية والسياسة
 
@@ -78,7 +73,7 @@ ms.locfileid: "4409794"
 
 يوضح الرسم التوضيحي التالي كيف يبدو هذا التكوين في Dynamics 365 Commerce.
 
-![تكوين ارتباط صفحة الخصوصية والسياسة](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![تكوين ارتباط صفحة الخصوصية والسياسة.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>تكوين الوحدات النمطية للتصنيفات والمراجعات في صفحات تفاصيل المنتج
 
@@ -92,6 +87,17 @@ ms.locfileid: "4409794"
 
 [إدارة التقييمات والمراجعات](manage-reviews.md)
 
-[تكوين الوحدات النمطية للتصنيفات والمراجعات في صفحات تفاصيل المنتج](ratings-reviews-modules.md)
-
 [مزامنة تقييمات المنتجات في Dynamics 365 Retail](sync-product-ratings.md)
+
+[تمكين النشر اليدوي لتقييمات ومراجعات بواسطة المشرف](manual-publish-rating-reviews.md)
+
+[استيراد التقييمات والمراجعات وتصديرها](import-export-reviews.md)
+
+[تكوين مصادقة من خدمة إلى خدمة](service-to-service-auth.md)
+
+[الأسئلة المتداولة حول التقييمات والمراجعات](ratings-reviews-faq.md)
+
+[وحدات التقييمات والمراجعات](ratings-reviews-modules.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: طلب زمن التوقف
 description: طلب زمن التوقف في Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417180"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790682"
 ---
 # <a name="request-time-off"></a>طلب زمن التوقف
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يمكنك تقديم طلبات زمن التوقف، وعرض أرصدة الإجازات والعطلات، ورؤية حالة طلبات الإجازات الخاصة بك في Dynamics 365 Human Resources.
 
@@ -62,3 +62,6 @@ ms.locfileid: "4417180"
 ## <a name="see-also"></a>راجع أيضًا
 
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

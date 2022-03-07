@@ -1,34 +1,32 @@
 ---
 title: موارد العولمة
 description: يتضمن هذا الموضوع قوائم الموارد التي يمكنها أن تساعدك في تعلم المزيد حول الوظائف والعروض الخاصة بالبلد/المنطقة.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/02/2019
+author: kfend
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685043"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747505"
 ---
 # <a name="globalization-resources"></a>موارد العولمة
 
 ## <a name="local-and-regional-deployments"></a>عمليات النشر المحلية والإقليمية
 إذا تطلبت القوانين الحكومية تخزين البيانات أو صيانتها بشكل مختلف عما هو مطلوب في البلدان/المناطق الأخرى، فقد تكون هناك متطلبات خاصة بالبلد/المنطقة يجب وضعها في الاعتبار عند النشر. ضع الموارد التالية في الاعتبار والتي قد تكون ملائمة لك:
 
-[تطبيقات Finance and Operations المشغّلة بواسطة 21Vianet في الصين](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[تطبيقات Finance and Operations المشعلة بواسطة 21Vianet في الصين](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>ميزات الترجمة والميزات التنظيمية
 
@@ -55,7 +53,6 @@ ms.locfileid: "4685043"
 
 #### <a name="regulatory-updates"></a>تحديثات تنظيمية
 -   [تحديثات تنظيمية](../../../finance/localizations/regulatory-updates.md)
--   [مدخل الترجمة](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (يتم تحديثه أسبوعيًا)
 -   [بحث عن المشاكل في Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (Updated daily)
 
 #### <a name="communication-and-alerts"></a>الاتصال والتنبيهات
@@ -63,7 +60,7 @@ ms.locfileid: "4685043"
 -   [إرسال تنبيهات حول الميزات التنظيمية الخاصة بالبلد/المنطقة](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>خطط إصدار Dynamics 365
-توفر [خطط إصدار Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) وصفًا للقدرات الجديدة والمحسنة التي تم التخطيط لها في تطبيقات أعمال Dynamics 365 والأنظمة الأساسية للتطبيقات. 
+توفر [خطط إصدار Dynamics 365](/business-applications-release-notes/) وصفًا للقدرات الجديدة والمحسنة التي تم التخطيط لها في تطبيقات أعمال Dynamics 365 والأنظمة الأساسية للتطبيقات. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>الجديد في تطبيقات Finance and Operations
 يسرد القسم [الجديد أو المتغير في الصفحة الرئيسية لتطبيق Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) الميزات المضمنة في الإصدارات الخاصة من تطبيقات Finance and Operations.
@@ -80,10 +77,10 @@ ms.locfileid: "4685043"
 -   [تكوين إعداد التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [إنشاء مستندات إلكترونية وتحديث بيانات التطبيق باستخدام ER‎](../analytics/generate-electronic-documents-update-application-data.md)
 
-### <a name="task-guides"></a>دلائل المهام
-تتوافر دلائل المهام من جزء التعليمات في المنتج وتوفر معاينة إرشادية للعمليات التجارية الرئيسية. يمكنك فتح دليل المهام وقراءة خطوات عملية تجارية أو يمكنك تشغيل دليل المهام لمعاينة عملية تجارية وإدخال البيانات.
+### <a name="task-guides"></a>أدلة المهام
+تتوافر أدلة المهام من جزء التعليمات في المنتج وتوفر معاينة إرشادية للعمليات التجارية الرئيسية. يمكنك فتح دليل المهام وقراءة خطوات عملية تجارية أو يمكنك تشغيل دليل المهام لمعاينة عملية تجارية وإدخال البيانات.
 
-للعثور على دلائل المهام، انتقل إلى أي صفحة في التطبيق وانقر فوق "التعليمات". يتم سرد دلائل المهام التي تستخدم الصفحة في جزء التعليمات. يمكنك أيضًا استخدام جزء التعليمات للبحث عن دلائل المهام حسب العنوان.
+للعثور على أدلة المهام، انتقل إلى أي صفحة في التطبيق وانقر فوق "مساعدة". يتم سرد أدلة المهام التي تستخدم الصفحة في جزء التعليمات. يمكنك أيضًا استخدام جزء التعليمات للبحث عن أدلة المهام حسب العنوان.
 
 لمعرفة المزيد، راجع [نظام التعليمات](../../fin-ops/get-started/help-overview.md#task-guides).
 
@@ -133,3 +130,6 @@ ms.locfileid: "4685043"
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

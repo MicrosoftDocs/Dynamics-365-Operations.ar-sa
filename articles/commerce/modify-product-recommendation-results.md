@@ -2,16 +2,13 @@
 title: ضبط نتائج توصيات المنتجات المستندة إلى AI-ML
 description: يوضح هذا الموضوع كيفية نفصيل نتائج توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) مع احتياجات أعمالك.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409977"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748512"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>ضبط نتائج توصيات المنتجات المستندة إلى AI-ML
 
@@ -54,7 +51,7 @@ ms.locfileid: "4409977"
 
 تحتوي قائمة منتجات "الأفضل مبيعًا" على معلمة واحدة يمكن تغييرها:
 
-![مثال: المعلمة الافتراضية لقائمة منتجات الأفضل مبيعًا](./media/examplebestsellingparameters.PNG)
+![مثال: المعلمة الافتراضية لقائمة منتجات الأفضل مبيعًا.](./media/examplebestsellingparameters.PNG)
 
 1. **تضمين منتجات جديدة من آخر X يوم/أيام**- المنتجات التي تمت إضافتها خلال عدد محدد من الأيام قبل إمكانية استخدام التاريخ الحالي لطلب المنتجات. تقترح القيمة الافتراضية المذكورة أعلاه أن كافة عمليات الشراء التي تم اجراؤها لأحد المنتجات في آخر 30 يومًا سيتم استخدامها لتحديد موضع المنتج في قائمة المنتجات الأفضل مبيعا. 
 
@@ -68,13 +65,13 @@ ms.locfileid: "4409977"
 1.  لإضافة منتجات إلى الجدول، حدد **إضافة بند**. 
 1.  ضمن عمود المنتج، ابحث عن منتج حسب **الاسم** أو **رقم المنتج**.
 
-    ![أمثله للبحث عن منتج في قائمة المنتجات الجديدة](./media/examplenewlistconfiguration1.png)
+    ![أمثله للبحث عن منتج في قائمة المنتجات الجديدة.](./media/examplenewlistconfiguration1.png)
 
 1.  أسفل عمود نوع البند، حدد خيار من خيارين:
     -   **تضمين** -فرض وجود المنتج في مقدمة القائمة
     -   **استبعاد** – إزالة منتج من الظهور في القائمة
     
-    ![مثال على تضمين منتج أو استبعاده من قائمة المنتجات الجديدة](./media/examplenewlistconfiguration2.png)
+    ![مثال على تضمين منتج أو استبعاده من قائمة المنتجات الجديدة.](./media/examplenewlistconfiguration2.png)
 
 1.  سيؤدي تغيير **ترتيب العرض** إلى تغيير الترتيب الذي تظهر المنتجات عنده معلمة كـ **تضمين** في القائمة.
     - إذا كان لمنتجين نفس قيمة **ترتيب العرض**، فقد يختلف الترتيب النهائي لهاتين النتيجتين عن مكتب الدعم.
@@ -90,11 +87,11 @@ ms.locfileid: "4409977"
 اتبع هذه الخطوات لإضافة نتائج لمنتج أساسي أو إزالتها يدويًا:
 1.  حدد **المنتج الأساسي**. 
 1.  أسفل عمود **المنتج**، ابحث عن المنتج حسب **الاسم** أو **رقم المنتج**
-![مثال للبحث عن منتج في قائمة الأغراض التي يتم شراؤها معًا كثيرًا‬](./media/exampleFBTlistconfiguration1.png)
+![مثال للبحث عن منتج في قائمة الأغراض التي يتم شراؤها معًا كثيرًا‬.](./media/exampleFBTlistconfiguration1.png)
 1. أسفل عمود **نوع البند**، حدد خيار من خيارين:
     - **تضمين** -فرض وجود المنتج في مقدمة القائمة
     - **استبعاد** – إزالة منتج من الظهور في القائمة     
-![مثال لتضمين أو استبعاد منتج في قائمة الأغراض التي يتم شراؤها معًا كثيرًا‬](./media/exampleFBTlistconfiguration2.png)
+![مثال لتضمين أو استبعاد منتج في قائمة الأغراض التي يتم شراؤها معًا كثيرًا‬.](./media/exampleFBTlistconfiguration2.png)
 1.  لإزالة منتجات من الجدول: حدد البند المراد إزالته وحدد إزالة.
 
 
@@ -121,3 +118,6 @@ ms.locfileid: "4409977"
 [إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

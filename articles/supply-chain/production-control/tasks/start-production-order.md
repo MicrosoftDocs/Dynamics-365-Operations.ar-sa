@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: JmgRegistrationStartJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47915a93151b1adc99ddb4e3facb29bf8db49dd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3934db907c137f25c39c5769f96f0807eb597e37
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421288"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231854"
 ---
 # <a name="start-a-production-order"></a>بدء أمر الإنتاج
 
@@ -71,3 +70,6 @@ ms.locfileid: "4421288"
 7. انقر فوق "ترحيل".
 8. انقر فوق "موافق".
     * في دفتر يومية بطاقة المسار، يتم تسجيل الوقت المستغرق في العمليات الفردية. ويمكنك أيضا الإبلاغ عن كمية البضائع والأخطاء.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

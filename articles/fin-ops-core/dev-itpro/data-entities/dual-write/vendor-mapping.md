@@ -2,11 +2,9 @@
 title: أصل المورّد المتكامل
 description: يوضح هذا الموضوع تكامل بيانات المورد بين تطبيقات Finance and Operations وDataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744505"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750608"
 ---
 # <a name="integrated-vendor-master"></a>أصل المورّد المتكامل
 
@@ -75,3 +73,6 @@ ms.locfileid: "4744505"
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

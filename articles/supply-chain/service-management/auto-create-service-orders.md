@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08fb7363ab87fd6a7f3d38406e72b1f542dc2c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9c1244cedff23df0350598a3cc876d39d4400b8e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421547"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232124"
 ---
 # <a name="automatically-create-service-orders"></a>إنشاء أوامر الخدمة تلقائيًا 
 
@@ -59,3 +58,6 @@ ms.locfileid: "4421547"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

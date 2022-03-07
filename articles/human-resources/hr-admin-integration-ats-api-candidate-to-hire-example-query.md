@@ -2,34 +2,34 @@
 title: مثال الاستعلام عن مرشح مراد توظيفه
 description: يقدم هذا الموضوع مثالا للاستعلام عن المرشح مطلوب لكيان التوظيف في Dynamics 365 Human Resources.
 author: jaredha
+manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d2fc08586914fd3815b0da062f24d83ac550302f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069211"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467615"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>مثال الاستعلام عن مرشح مراد توظيفه
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يقدم هذا الموضوع مثالا للاستعلام عن المرشح مطلوب لكيان التوظيف في Dynamics 365 Human Resources.
 
-يوفر هذا الموضوع مثالا يوضح كيفية استخدام *الإدراجات العميقة* لإنشاء كافة التفاصيل لسجل مرشح جديد في عملية API واحدة. لمزيد من المعلومات حول الإدراجات العميقة، راجع [إنشاء سجلات الكيان المرتبط في عملية واحدة](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+يوفر هذا الموضوع مثالا يوضح كيفية استخدام *الإدراجات العميقة* لإنشاء كافة التفاصيل لسجل مرشح جديد في عملية API واحدة. لمزيد من المعلومات حول الإدراجات العميقة، راجع [إنشاء سجلات الكيان المرتبط في عملية واحدة](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 يعد الكيان **mshr_hcmcandidatetohireentity** فريدًا نظرًا علاقته بالكيان **mshr_dirpersonentity**. يتم اشتقاق العديد من الخصائص في **mshr_hcmcandidatetohireentity** (على سبيل المثال، **mshr_firstname** و **mshr_lastname** و **mshr_birthdate**) من سجل **mshr_dirpersonentity**. إذا قمت بترحيل سجل مرشح جديد إلى **mshr_hcmcandidatetohireentity** بدون استخدام الإدراج العميق، فيمكنك تعريف قيم لهذه الخصائص مباشرة على السجل **mshr_hcmcandidatetohireentity**. يتم إنشاء سجل **mshr_dirpersonentity** المرتبط ضمنيًا بالقيم المعرفة للخصائص. ويمكنك بعد ذلك إنشاء أية سجلات كيانات أخرى ذات صلة (مثل المهارات أو التعليم) على أنها استدعاءات API منفصلة.
 

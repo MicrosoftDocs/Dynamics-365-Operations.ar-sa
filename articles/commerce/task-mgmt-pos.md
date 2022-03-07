@@ -10,26 +10,23 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cc685fcd584fe2ab5cd9282e8fbefbd284d5b2a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409954"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478352"
 ---
 # <a name="task-management-in-pos"></a>إدارة المهام في نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع إدارة المهام في تطبيق نقطة البيع (POS) لـ Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يحتوي تطبيق نقطة البيع لـ Dynamics 365 Commerce على ميزات إداره المهام تتيح لمديري المتاجر والعاملين فيها القدرة على إدارة المهام وتحديث حاله المهام. يمكن للعاملين في المتجر الوصول للمهام إما بتحديد لوحة **المهام** على الصفحة الرئيسية لنقطة البيع أو عن طريق تحديد إعلامات المهام. افتراضيًا، يتم نقل عمال المتجر إلى علامة التبويب **مهامي** حيث يمكنهم عرض المهام التي تم تعيينها لهم. ومع ذلك، يمكنهم التبديل بسهولة إلى علامات التبويب **مهام متأخرة** و **مهام متفوحة** و **قوائم المهام**.
 
@@ -64,3 +61,6 @@ ms.locfileid: "4409954"
 [إنشاء قوائم مهام وإضافة مهام](task-mgmt-create-lists.md)
 
 [تعيين قوائم المهام إلى المتاجر أو الموظفين](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

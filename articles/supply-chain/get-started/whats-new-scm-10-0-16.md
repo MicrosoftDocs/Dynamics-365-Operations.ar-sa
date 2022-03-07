@@ -1,35 +1,31 @@
 ---
-title: معاينة Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
+title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.16 من Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626792"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474906"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>معاينة Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.16 (فبراير 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.16 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.689، وهو يتوفر كما يلي
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.16 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.689، وهو يتوفر كما يلي
 
 - **معاينه الإصدار:** نوفمبر 2020
 - **التوفر العام للإصدار (تحديث ذاتي):** يناير 2021
@@ -37,12 +33,17 @@ ms.locfileid: "4626792"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
+يتضمن هذا الإصدار الميزات التالية. اتبع ارتباطات [خطة الإصدار](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
-- [واجهه تنفيذ حاله العمل القابلة للتخصيص](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - لمزيد من المعلومات، راجع [إعداد جهاز لتشغيل واجهة تنفيذ صالة الإنتاج‬](../production-control/production-floor-execution-setup.md).
-- [الوظيفة الاضافيه لرؤية المخزون لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - لمزيد من المعلومات ، راجع [الوظيفة الاضافيه لرؤية المخزون](../inventory/inventory-visibility.md)
-- [التحقق من صحة لوحات الترخيص علي سطور المستند المصدر](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - لمزيد من المعلومات، راجع [نظرة عامة على تكوين المستودع](../warehousing/warehouse-configuration.md).
-- [مرئيات حمل العمل الصادر لأداره المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - لمزيد من المعلومات، راجع [مرئيات حمل العمل الصادر](../warehousing/outbound-workload-visualization.md).
+- [واجهه تنفيذ حاله العمل القابلة للتخصيص](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - لمزيد من المعلومات، راجع [إعداد جهاز لتشغيل واجهة تنفيذ صالة الإنتاج‬](../production-control/production-floor-execution-setup.md).
+
+- [الوظيفة الإضافية لرؤية المخزون لـ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - لمزيد من المعلومات ، راجع [الوظيفة الإضافية لرؤية المخزون](../inventory/inventory-visibility.md)
+
+- التسلسل الرقمي الموحد لمعرفات الوظائف<br> - لمزيد من المعلومات، راجع [التسلسل الرقمي الموحد لمعرفات الوظائف](../production-control/unified-job-ids.md).
+
+- [التحقق من صحة لوحات الترخيص علي سطور المستند المصدر](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - لمزيد من المعلومات، راجع [نظرة عامة على تكوين المستودع](../warehousing/warehouse-configuration.md).
+
+- [مرئيات حمل العمل الصادر لأداره المستودعات](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - لمزيد من المعلومات، راجع [مرئيات حمل العمل الصادر](../warehousing/outbound-workload-visualization.md).
 
 يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
@@ -53,42 +54,18 @@ ms.locfileid: "4626792"
 - [أسعار المبيعات المستندة إلى السمات لتكوين منتج مستند إلى قيد](../pim/attribute-based-product-configurator.md)
 - [التوزيع التلقائي للمصاريف](../procurement/automatic-charges-allocation.md)
 - [نظره عامه علي ](../pim/hazmat-overview.md)المواد الخطرة (وموضوعات ذات صله)
-- [الترحيل إلى تحسين التخطيط للتخطيط الرئيسي.](../master-planning/new-master-planning-engine.md)
+- [الانتقال إلى تحسين التخطيط‬ للتخطيط الرئيسي](../master-planning/new-master-planning-engine.md)
 - [تحسينات cXML الشراء](../procurement/purchasing-cxml-enhancements.md)
-- [استكشاف أخطاء إدارة التكلفة وإصلاحها](../cost-management/troubleshoot-costmanagement.md)
-- [استكشاف أخطاء عمليات المستودع الواردة وإصلاحها](../warehousing/troubleshoot-warehouse-inbound.md)
-- [استكشاف أخطاء بناء حمل العمل والشحنات](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [استكشاف أخطاء وظيفة التخطيط الرئيسي وإصلاحها](../master-planning/troubleshoot-masterplanning.md)
-- [استكشاف أخطاء عمليات المستودع الصادرة وإصلاحها](../warehousing/troubleshoot-warehouse-outbound.md)
-- [استكشاف أخطاء الإصدارات الجزئي والشحنات الجزئية وإصلاحها](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [استكشاف أخطاء مكون المنتج وإصلاحها](../pim/troubleshooting-productconfigurator.md)
-- [استكشاف أخطاء معلومات المنتج وإصلاحها](../pim/troubleshooting-productinformation.md)
-- [استكشاف الأخطاء وإصلاحها في عمليات سير العمل للتدبير وتحديد الموارد](../procurement/troubleshoot-procurementworkflows.md)
-- [استكشاف أخطاء أوامر الشراء وإصلاحها](../procurement/troubleshoot-purchaseorders.md)
-- [استكشاف أخطاء الأسعار والخصومات والاتفاقيات والحسومات وإصلاحها](../procurement/troubleshooting-pricediscountagreements.md)
-- [استكشاف الأخطاء وإصلاحها في إيصالات استلام المنتجات والفوترة](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [استكشاف أخطاء التصنيع المنفصل وإصلاحها](../production-control/troubleshoot-discretemanufacturing.md)
-- [استكشاف أخطاء الانتقاء والتعبئة وإصلاحها](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [استكشاف أخطاء التصنيع التحويلي وإصلاحها](../production-control/troubleshoot-processmanufacturing.md)
-- [استكشاف أخطاء عمليات الحجز في إدارة المستودعات وإصلاحها](../warehousing/troubleshoot-warehouse-reservations.md)
-- [استكشاف أخطاء أوامر المبيعات وإصلاحها](../sales-marketing/troubleshooting-sales.md)
-- [استكشاف أخطاء عروض أسعار المبيعات وإصلاحها](../sales-marketing/troubleshooting-salesquotation.md)
-- [استكشاف أخطاء الترقية والترحيل إلى أداره مستودع متقدمة وإصلاحها](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [استكشاف مشكلات الاتصال بتطبيق المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [استكشاف أخطاء تكوين المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-configuration.md)
-- [استكشاف أخطاء تزويد المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [استكشاف أخطاء إعداد المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-setup.md)
-- [استكشاف أخطاء عمل المستودع وإصلاحها](../warehousing/troubleshoot-warehouse-work.md)
-- [مجموعات التخزين](../warehousing/putaway-clusters.md)
-- [استراتيجيات التزويد](../warehousing/replenishment-strategies.md)
+- [تخزين الكتل](../warehousing/putaway-clusters.md)
+- [استراتيجيات الاستعاضة](../warehousing/replenishment-strategies.md)
 - [تقسيم العمل](../warehousing/work-split.md)
-- [العمل مع توجيهات الموقع](../warehousing/create-location-directive.md)
+- [‏‫العمل باستخدام توجيهات الموقع](../warehousing/create-location-directive.md)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>تحديث النظام الأساسي لتطبيقات Finance and Operations
 
-يتضمن الإصدار 10.0.16 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.16 من تطبيقات Finance and Operations (أكتوبر 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+يتضمن الإصدار 10.0.16 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.16 من تطبيقات Finance and Operations (فبراير 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
 
@@ -98,7 +75,7 @@ ms.locfileid: "4626792"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 
@@ -110,3 +87,6 @@ ms.locfileid: "4626792"
 قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

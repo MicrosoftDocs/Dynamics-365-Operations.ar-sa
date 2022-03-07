@@ -1,28 +1,25 @@
 ---
 title: إعداد موارد Azure لذكاء IoT
 description: يشرح هذا الموضوع كيفية إنشاء وتكوين موارد Microsoft Azure التي تتطلبها لذكاء IoT.
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: ''
-ms.search.scope: Core, Operations
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: d50458be9196206978a8d146ecd5b8c2a0a1fa8c
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421682"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782837"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>إعداد موارد Azure لذكاء IoT
 
@@ -162,3 +159,6 @@ ms.locfileid: "4421682"
 > كلما قمت بتحديث أحد سلاسل الاتصال، يجب عليك أيضا تحديث قيم الأسرار.
 
 لقد انتهيت الآن من توفير موارد Azure المطلوبة. والخطوة التالية هي [تثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

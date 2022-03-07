@@ -2,29 +2,28 @@
 title: نظرة عامة على التزويد
 description: يصف هذا الموضوع استراتيجيات التزويد المتوفرة للمستودعات التي تستخدم الوظيفة المتوفرة في إدارة المستودعات.
 author: Mirzaab
-manager: tfehr
 ms.date: 02/19/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 90043
+ms.custom:
+- "90043"
+- intro-internal
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fc7ae950ed32a75b8767d764c1b77193c454381
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654114"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985774"
 ---
 # <a name="replenishment-overview"></a>نظرة عامة على التزويد
 
@@ -79,3 +78,6 @@ ms.locfileid: "4654114"
 |   توجيهات الموقع   |                                                       تُعد توجيهات الموقع مطلوبة من أجل توجيه العمل إلى المواقع حيث تكون عملية التزويد مطلوبة، وإلى المواقع التي تُعتبر مصدر المخزون.                                                        |
 |     قوالب العمل      |                                                   تكون قوالب العمل من نوع <strong>التزويد</strong> مطلوبة من أجل إنشاء عمل التزويد لتمكين نقل المخزون إلى الأماكن المطلوبة.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

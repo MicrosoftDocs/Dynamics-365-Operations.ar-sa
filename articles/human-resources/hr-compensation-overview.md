@@ -2,30 +2,30 @@
 title: خطط التعويض
 description: باستطاعة مدراء التعويضات والميزات‬ استخدام إدارة التعويضات لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1be212cae4b0df136bb19b9521fd80aa29f7e094
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417068"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793743"
 ---
 # <a name="compensation-plans"></a>خطط التعويض
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 باستطاعة مدراء التعويضات والميزات‬ استخدام إدارة التعويضات لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة.
 
@@ -132,3 +132,6 @@ ms.locfileid: "4417068"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

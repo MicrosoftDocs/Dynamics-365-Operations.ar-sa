@@ -2,11 +2,9 @@
 title: تصدير بيانات الشركة الفرعية إلى ملفات
 description: يشرح هذا الموضوع كيفية التحضير لتصدير البيانات من Microsoft Dynamics 365 Finance ثم استيرادها إلى كيان قانوني موحد.
 author: jinniew
-manager: AnnBe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 179a401178935b8a76d6718a7fb1f63e08344f50
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bae0a28c59f327e47378eef6392d5e304bbde9a8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968669"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826168"
 ---
 # <a name="export-subsidiary-data-to-files"></a>تصدير بيانات الشركة الفرعية إلى ملفات
 
@@ -70,3 +68,6 @@ ms.locfileid: "4968669"
 5. حدد **موافق** لتشغيل التصدير.
 
 وعند اكتمال التصدير، ستستلم رسالة تُظهر أرقام السجلات التي تم حفظها في كل ملف. ويمكن بعد ذلك استيراد الملفات إلى الكيان القانوني الموحد.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: عرض سجل محفوظات الخطط والتخطيط
 description: يوضح هذا الموضوع كيفيه عرض تاريخ مهام التخطيط التي يتم تشغيلها بواسطة وظيفة تحسين التخطيط.
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MPSPlanRegenerationJobList, MPSPlanRegenerationJobLogs
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a4f701a85979cce3fa4840b48279c45ec565612b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1726d127883f9849fe87888134c0c174377ecf2b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421600"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813017"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>عرض سجل محفوظات الخطط والتخطيط
 
@@ -47,3 +44,6 @@ ms.locfileid: "4421600"
 [تطبيق عوامل تصفية على خطة](plan-filters.md)
 
 [إلغاء وظيفة تخطيط](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

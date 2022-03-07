@@ -2,28 +2,25 @@
 title: إعداد ومعالجة الفواتير المتكررة
 description: توضح هذه المقالة كيفية إعداد ومعالجة الفواتير المتكررة. يمكنك استخدام الفواتير المتكررة إذا توجب عليك فوترة العملاء بنفس المبلغ على أساس منتظم.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInvoiceTemplate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14011
 ms.assetid: 9cc37003-adf1-413d-b2b2-2badcf512e3b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b443630d1612b5095fefa74b5ed6d057be534b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 53b667b8a5aef0a788abd6a9d5d4a3b4d8d890e2a18bb5f74e58bb198fab5fa8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439846"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743857"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>إعداد ومعالجة الفواتير المتكررة
 
@@ -31,8 +28,7 @@ ms.locfileid: "4439846"
 
 توضح هذه المقالة كيفية إعداد ومعالجة الفواتير المتكررة. يمكنك استخدام الفواتير المتكررة إذا توجب عليك فوترة العملاء بنفس المبلغ على أساس منتظم.
 
-<a name="create-a-recurring-free-text-invoice-template"></a>إنشاء قالب فواتير النص الحر المتكررة
----------------------------------------------
+## <a name="create-a-recurring-free-text-invoice-template"></a>إنشاء قالب فواتير النص الحر المتكررة
 
 لفوترة العملاء لنفس الخدمات بشكل منتظم، يجب تحديد قالب فاتورة نص حر يمكن إعادة استخدامه لإنشاء الفواتير. يحتوي هذا القالب على المعلومات التالية:
 
@@ -55,15 +51,16 @@ ms.locfileid: "4439846"
 ## <a name="generate-the-recurring-invoices"></a>إنشاء الفواتير المتكررة
 في صفحة **الفواتير المتكررة**، هناك مهمة تعالج قوالب الفواتير المتكررة. ويمكنك تحديد تاريخ الفاتورة والقالب لإنشاء الفواتير منه. وسيتم إنشاء الفواتير وتعيين رقم معرف تكرار واحد لكل مجموعة من الفواتير تتم معالجتها.
 
-<a name="post-recurring-free-text-invoices"></a>ترحيل فواتير النص الحر المتكررة
----------------------------------
+## <a name="post-recurring-free-text-invoices"></a>ترحيل فواتير النص الحر المتكررة
 
 بعد إنشاء الفواتير المتكررة، تظهر معرفات تكرار الفاتورة في مهمة ترحيل في صفحة **الفواتير المتكررة**. يمكنك عرض كافة الفواتير للحصول على معرف تكرار عن طريق النقر فوق الارتباط. وأثناء مراجعة الفواتير لمعرفة معرف التكرار، يمكنك حذف الفواتير الفردية. وستتم إعادة تعيين إعدادات التكرار الخاصة بالعميل لهذا القالب، بحيث يمكن إعادة إنشائه لاحقاً. ويمكنك ترحيل واحد أو العديد من أو كافة الفواتير لمعرف التكرار. وإذا تم تمكين مهام سير العمل، يجب عليك النقر فوق **إرسال** قبل التمكن من ترحيل الفواتير.
 
-<a name="print-recurring-free-text-invoices"></a>طباعة فواتير النص الحر المتكررة
-----------------------------------
+## <a name="print-recurring-free-text-invoices"></a>طباعة فواتير النص الحر المتكررة
 
 بعد ترحيل الفواتير المتكررة، يمكنك طباعة الفواتير من صفحة قائمة فواتير النص الحر. يمكنك طباعة الفواتير التي تم تحديدها، أو يمكنك تحديد مجموعة من الفواتير للطباعة.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: تقييم نموذج التوقع بالدفع الأولي للعميل (معاينة)
 description: يصف هذا الموضوع الخطوات التي يمكنك اتخاذها لفهم نموذج التوقع بدفع العميل وتقييم الفعالية الخاصة به.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d761e31c4e4169b09711e351948390d2d40f3739
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644959"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818599"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>تقييم نموذج التوقع بالدفع الأولي للعميل (معاينة)
 
@@ -69,7 +66,7 @@ ms.locfileid: "4644959"
 
 يمكنك توسيع هذه البيانات بالطريقة التالية.
 
-|                          | متوقع في الموعد المحدد | متوقع متأخر | متوقع متأخر جدًا |
+| &nbsp;                   | متوقع في الموعد المحدد | متوقع متأخر | متوقع متأخر جدًا |
 |--------------------------|-------------------|----------------|---------------------|
 | الدفع في الوقت المحدد الفعلي   | **71**            | 0              | 21                  |
 | الدفع المتأخر الفعلي      | 5                 | **0**          | 27                  |
@@ -101,3 +98,6 @@ ms.locfileid: "4644959"
 
 #### <a name="privacy-notice"></a>إشعار الخصوصية
 إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

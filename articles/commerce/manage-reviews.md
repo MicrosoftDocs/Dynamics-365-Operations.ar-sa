@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f8ab85605bce11934f71237ad1ef7cd24804319b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409914"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250794"
 ---
 # <a name="manage-ratings-and-reviews"></a>إدارة التقييمات والمراجعات
 
@@ -37,7 +36,7 @@ Dynamics 365 Commerce يستخدم Microsoft Azure Cognitive Service للإشر�
 
 - الإشراف على المراجعات بالاستجابة لها أو إزالتها.
 - حذف مراجعات العميل عند طلب العميل.
-- الاستيراد المجمع لبيانات التقييمات والمراجعات لكافة المنتجات في قالب Microsoft Power BI ، حتى يمكن تحليل اتجاهات التقييمات والمراجعات.
+- الاستيراد المجمع لبيانات التقييمات والمراجعات لكافة المنتجات في قالب Microsoft Power BI، حتى يمكن تحليل اتجاهات التقييمات والمراجعات.
 
 ## <a name="read-a-review"></a>قراءة مراجعة 
 
@@ -132,3 +131,6 @@ Dynamics 365 Commerce يستخدم Microsoft Azure Cognitive Service للإشر�
 [تكوين التقييمات والمراجعات](configure-ratings-reviews.md)
 
 [مزامنة تقييمات المنتجات في Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

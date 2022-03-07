@@ -2,16 +2,13 @@
 title: تطبيق نقطة البيع (POS) وإعدادات لغة المستخدم
 description: يصف هذا الموضوع كيفية تغيير إعدادات اللغة في نقطة البيع الحديثة (MPOS) ونقاط بيع المجموعة.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bdd03dff359e7c2799eff53b0e999580ce8b1c06
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410004"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193093"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>تطبيق نقطة البيع (POS) وإعدادات لغة المستخدم
 
@@ -60,8 +57,11 @@ ms.locfileid: "4410004"
 
 يتم تعيين إعداد لغة مستخدم نقطة البيع من **جميع العاملين** في صفحة **العامل** ضمن **البيع بالتجزئة والتجارة &gt; اللغة**. لا يتم تعيينها على علامة تبويب ملف التعريف الأساسي. لا يتم استخدام هذا الإعداد بواسطة نقطة البيع. إذا لم يتم تعيين لغة المستخدم أو إذا تم تعيينها إلى لغة لا تتوفر فيها ترجمات، ستعود نقطة البيع إلى لغة المتجر.
 
-|             | لغة واجهة المستخدم                   | لغة البيانات (المنتجات، تنسيقات الإيصالات، عرض الخط، إلخ) |
+| &nbsp;      | لغة واجهة المستخدم                   | لغة البيانات (المنتجات، تنسيقات الإيصالات، عرض الخط، إلخ) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **الشركة** | افتراضي                    | افتراضي                                                       |
 | **المتجر**   | يتجاوز الشركة          | يتجاوز الشركة                                             |
 | **المستخدم**    | يتجاوز المتجر أو الشركة | أبدًا                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

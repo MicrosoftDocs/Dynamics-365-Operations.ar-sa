@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3e18eac934eb109e8f3f509b2bd78f76dd5f74d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0414f835b7797d2ed554f8d9dbd95b2ad47bba43
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439951"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234107"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات
 
@@ -90,3 +89,6 @@ ms.locfileid: "4439951"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

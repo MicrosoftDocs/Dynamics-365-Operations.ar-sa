@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 01f44c49b6623cbcc2f08cfd6e4978c9a1676b83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: af34a91b2a265755cd1905401e0b7451f9fc1168
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439993"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218772"
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>استيراد تكوين تحويل الائتمان ISO20022
 
@@ -45,3 +44,6 @@ ms.locfileid: "4439993"
     * إذا لم يتوفر الزر "استيراد"، فهذا يعني أن التكوين قد تم استيراده.  
 9. انقر فوق نعم.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

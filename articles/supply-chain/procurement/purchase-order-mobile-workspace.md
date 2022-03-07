@@ -1,27 +1,25 @@
 ---
 title: مساحة العمل المحمولة "الموافقة على أمر الشراء"
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "الموافقة على أمر الشراء"، التي تسمح لك بعرض أوامر الشراء والاستجابة لها من خلال الإجراءات. على سبيل المثال، يمكنك الموافقة على أمر شراء أو رفضه.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 30211
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fc88f20b50e034f2f27b7e2576fe6a4bb3486e23
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022296"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570551"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>مساحة العمل المحمولة "الموافقة على أمر الشراء"
 
@@ -38,7 +36,7 @@ ms.locfileid: "5022296"
 تختلف المتطلبات الأساسية، بالاستناد إلى إصدار Supply Chain Management الذي تم نشره لمؤسستك.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>المتطلبات الأساسية في حالة استخدام Supply Chain Management 
-إذا تم نشر Supply Chain Management لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء​‬** . للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+إذا تم نشر Supply Chain Management لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **الموافقة على أمر الشراء​‬** . للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار لاحق
 إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
@@ -57,16 +55,16 @@ ms.locfileid: "5022296"
 <td>مسؤول النظام</td>
 <td>إن KB 4017918 عبارة عن تحديث X++ أو إصلاح عاجل لبيانات التعريف يحتوي على مساحة العمل المحمولة <strong>الموافقة على أمر الشراء</strong>. لتطبيق KB 4017918، يجب أن يتبع مسؤول النظام الخطوات التالية.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">تنزيل الإصلاح العاجل لبيانات التعريف من Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">تطبيق الحزمة القابلة للنشر</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">تنزيل الإصلاح العاجل لبيانات التعريف من Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة القابلة للنشر</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>نشر مساحة العمل المحمولة <strong>الموافقة على أمر الشراء</strong>.</td>
 <td>مسؤول النظام</td>
-<td>راجع <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">نشر مساحة عمل محمولة</a></td>
+<td>راجع <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل محمولة</a></td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +83,7 @@ ms.locfileid: "5022296"
 3. في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
 4. بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
-![مساحة عمل الموافقة على أمر الشراء في قائمة مساحات العمل المتاحة](./media/po-workspaces.png)
+![مساحة عمل الموافقة على أمر الشراء في قائمة مساحات العمل المتاحة.](./media/po-workspaces.png)
 
 ## <a name="view-orders-that-are-assigned-to-you"></a>عرض الأوامر التي تم تعيينها لك
 1. على جهازك المحمول، حدد مساحة العمل **الموافقة على أمر الشراء‬**.
@@ -112,3 +110,6 @@ ms.locfileid: "5022296"
 5. حدد الإجراء المناسب.
 6. في صفحة **إكمال المهمة**، قم بإدخال تعليق. لاحظ أنك إذا قمت بتحديد الإجراء **تفويض**، يجب تحديد مستخدم لتفويض المهمة إليه.
 7. حدد **تم**. بعد أن تقوم بتحديث مساحة العمل، سيتوقف أمر الشراء عن الظهور في قائمتك. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

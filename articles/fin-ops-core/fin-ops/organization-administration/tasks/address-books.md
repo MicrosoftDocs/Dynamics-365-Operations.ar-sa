@@ -1,12 +1,10 @@
 ---
 title: تكوين دفاتر العناوين
-description: استخدم هذا الإجراء، والقرارات التي اتخذتها في تخطيط تكوين دفتر العناوين العمومي وموضوع دفاتر العناوين الإضافية، لإعداد دفاتر عناوين إضافية للمؤسسة الخاصة بك.
+description: استخدم هذا الإجراء لإعداد دفاتر عناوين إضافية لمؤسستك.
 author: msftbrking
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 286bc7a8811543cd6a969dc7450782285c77b6fc
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 1e9edd384cf8cc1373481fd47c040cdaeae7d050d2cdba5e0a9afb7c1d361362
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796816"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759103"
 ---
 # <a name="configure-address-books"></a>تكوين دفاتر العناوين
 
@@ -41,3 +39,6 @@ ms.locfileid: "4796816"
 7. انقر فوق السهم لإضافة الفرق المحددة المتوفرة إلى دفتر العناوين.
 8. انقر فوق **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

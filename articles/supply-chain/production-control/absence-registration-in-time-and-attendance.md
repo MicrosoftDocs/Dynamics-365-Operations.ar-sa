@@ -2,11 +2,9 @@
 title: ‏‫تسجيل الغياب في الوقت والحضور
 description: يشرح هذا الموضوع كيفية معالجة تسجيلات الغياب في الوقت والحضور.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JMGParameters, JmgAbsenceCalendar
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12a61f23ac5a16000275e53d3901c8aea202bab0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 06adca12c172dffa241fe44a6b64bb30863bcb4a8f3867429ad10bc852efd7c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730216"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>‏‫تسجيل الغياب في الوقت والحضور
 
@@ -103,8 +101,11 @@ ms.locfileid: "4966620"
 
 ويمكن للموافق تغيير تسجيلات وقت العامل. يمكن للموافق كذلك تغيير أي غياب قد سجله العامل. إذا قام الموافق بإدخال فترة زمنية تحتوي على كود غياب يدويًا، لا يتم تجاوز كود الغياب لتلك الفترة بواسطة كود الغياب الافتراضي من معلمات الوقت والحضور.
 
-على سبيل المثال، تبدأ عاملة عملها عند الساعة 10 صباحًا وتقوم بتحديد كود غياب يشير إلى أنها متأخرة. بعد ذلك، تخبر العاملة مشرفها بأنه كان لديها موعد لدى طبيب من الساعة 8 صباحًا إلى 10 صباحًا. يجب ألا يتسبب موعد الطبيب في خصم من أجر العاملة. لذلك، في هذه الحالة، يمكن للمشرف تعديل ساعتي الغياب من 8 صباحًا إلى 10 صباحًا بإدخال كود غياب يدويًا يشير إلى سبب مرضي لهاتين الساعتين.
+على سبيل المثال، يبدأ عامل عمله عند الساعة 10 صباحًا ويقوم بتحديد كود غياب يشير إلى أنه متأخر. بعد ذلك، يخبر العامل مشرفه بأنه كان لديه موعد لدى طبيب من الساعة 8 صباحًا إلى 10 صباحًا. يجب ألا يتسبب موعد الطبيب في خصم من أجر العاملة. لذلك، في هذه الحالة، يمكن للمشرف تعديل ساعتي الغياب من 8 صباحًا إلى 10 صباحًا بإدخال كود غياب يدويًا يشير إلى سبب مرضي لهاتين الساعتين.
 
 ### <a name="calculate-and-approve-absence"></a>حساب الغياب والموافقة عليه
 
 - حدد **الحضور الزمني** &gt; **المراجعة والموافقة** &gt; **الموافقة أو الحساب**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

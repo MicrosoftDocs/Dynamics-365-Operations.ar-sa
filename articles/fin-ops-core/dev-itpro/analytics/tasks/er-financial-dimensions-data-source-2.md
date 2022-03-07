@@ -1,12 +1,10 @@
 ---
 title: "\"التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 2 - تعيين النموذج)"
-description: تشرح الخطوات التالية كيف يستطيع مستخدم تم تعيينه إلى دور مسؤول النظام أو دور مطور التقارير الإلكترونية تكوين نموذج التقارير الإلكترونية لاستخدام الأبعاد المالية كمصدر بيانات للتقارير الإلكترونية.
+description: يوضح هذا الموضوع كيفيه تكوين نموذج التقرير الكتروني (ER) لاستخدام الابعاد المالية كمصدر بيانات لتقارير ER. (جزء 2)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 15f564ec0b4639ba7a27c6f3f989304c71695ee4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681675"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356333"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>"التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 2 - تعيين النموذج)
 
@@ -58,14 +56,14 @@ ms.locfileid: "4681675"
 21. حدد "نعم" في حقل "طلب الحساب الرئيسي".
     * عيّن "طلب الحساب الرئيسي" إلى "نعم" للسماح للمستخدمين بتحديد الحساب الرئيسي كجزء من قائمة الأبعاد.   إذا تم تعيين هذا الخيار إلى "لا"، فلن يتم تضمين الحساب الرئيسي في قائمة الأبعاد وسيتم تمكين الخيار "الحساب الرئيسي إلزامي". إذا تم تعيين الخيار "الحساب الرئيسي إلزامي" إلى "نعم"، فسيتم تضمين الحساب الرئيسي في قائمة الأبعاد بغض النظر عن التحديد الذي أجراه المستخدم.  
 22. انقر فوق موافق.
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](../media/er-financial-dimensions-guides-model-mapping1.png)
+![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. في الشجرة، حدد "Dynamics 365 for Operations\سجلات الجدول".
 24. انقر فوق "إضافة جذر".
 25. في حقل "الاسم"، اكتب "LedgerJournal".
 26. حدد "نعم" في حقل "طلب الاستعلام".
 27. في الحقل "الجدول"، اكتب "LedgerJournalTable".
 28. انقر فوق موافق.
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](../media/er-financial-dimensions-guides-model-mapping2.png)
+![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>تعيين عناصر نموذج البيانات إلى مصادر بيانات مضافة
 1. في الشجرة، قم بتوسيع "دفتر اليومية".
@@ -96,7 +94,7 @@ ms.locfileid: "4681675"
 25. في الشجرة، حدد "LedgerJournal\<العلاقات\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\الحساب الرئيسي والأبعاد".
 26. في الشجرة، حدد "دفتر اليومية\الحركة\بيانات الأبعاد".
 27. انقر فوق "ربط".
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](../media/er-financial-dimensions-guides-model-mapping3.png)
+![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. في الشجرة، حدد "LedgerJournal\<العلاقات\LedgerJournalTrans\الدين(AmountCurDebit)'.
 29. في الشجرة، حدد "دفتر اليومية\الحركة\الدين".
 30. انقر فوق "ربط".
@@ -135,7 +133,7 @@ ms.locfileid: "4681675"
 63. في الحقل expressionAsStringText، أدخل 'Company.'find()'.'name()''.
     * Company.'find()'.'name()'  
 64. انقر فوق حفظ.
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](../media/er-financial-dimensions-guides-model-mapping4.png)
+![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. قم بإغلاق الصفحة.
 66. انقر فوق حفظ.
 67. قم بإغلاق الصفحة.
@@ -146,4 +144,7 @@ ms.locfileid: "4681675"
 3. انقر فوق "تغيير الحالة".
 4. انقر فوق "مكتمل".
 5. انقر فوق موافق.
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](../media/er-financial-dimensions-guides-model-mapping5.png)
+![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4410024"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032923"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>التكوينات المرئية لواجهة مستخدم نقطة البيع
 
@@ -117,7 +116,10 @@ ms.locfileid: "4410024"
 
 ![أشرطة أوامر تخطيط الأجهزة صغيرة الحجم](../commerce/media/Compact-View-Button-Grids.png)
 
-### <a name="images"></a>الصور
+> [!NOTE]
+> سيتم تغيير أحجام الأزرار في المُصمم لملاءمة حجم الإطار، بالتالي قد لا تعكس بدقه الأزرار الفعلية المعروضة في نقطة البيع. لتحقيق أفضل محاكاة لتخطيط شريط الأوامر، قم بضبط إطارات المُصمم بنفس حجم نقطة البيع.
+
+### <a name="images"></a>صور
 
 لكل حجم تخطيط في تخطيط شاشة، يمكنك تحديد الصور لتضمينها في واجهة مستخدم نقطة البيع. بالنسبة لتخطيطات نقطة البيع الكاملة، يمكن تحديد صورة واحدة لشاشة الترحيب. تظهر هذه الصورة كأول عنصر واجهة مستخدم على الجانب الأيمن. على شاشة **الحركة** يمكن استخدام الصور كصور في علامات التبويب أو كشعار. لا تستخدم تخطيطات نقطة البيع صغيرة الحجم هذه الصور.
 

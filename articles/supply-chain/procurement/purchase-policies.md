@@ -1,28 +1,28 @@
 ---
 title: نظرة عامة على سياسات الشراء
 description: توفر هذه المقالة معلومات حول نُهج الشراء. وتُعد نُهج الشراء بمثابة مجموعة من القواعد تتحكم بعملية الطلب. وتساعد نُهج الشراء مسؤولي التدبير في تنفيذ استراتيجية التدبير الخاصة بهم عن طريق إنشاء هيكل سياسة يتماشى مع متطلبات الشراء الاستراتيجية للمؤسسة.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 11614
+ms.custom:
+- "11614"
+- intro-internal
 ms.assetid: 729a304d-0f3f-4ccb-bd5b-46ee0976c57f
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: def842116e0c6c57d407cb4fb30a26a9e17d9a2c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3cc150ae1a912fbfb4daf505e4240786c2f380a3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022196"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982267"
 ---
 # <a name="purchasing-policies-overview"></a>نظرة عامة على سياسات الشراء
 
@@ -150,3 +150,6 @@ ms.locfileid: "5022196"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

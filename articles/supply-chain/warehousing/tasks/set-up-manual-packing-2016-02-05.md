@@ -2,27 +2,24 @@
 title: إعداد التعبئة اليدوية (فبراير 2016 & مايو 2016)
 description: تسمح لك عملية التعبئة بالتحقق من المنتجات داخل الحاويات وتعبئتها.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67e1e99b479752a027c60a878c57bd35d4219981
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 2843c42474fcd4afbbc2cd7753c0d06cfe467dbe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421752"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810356"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>إعداد التعبئة اليدوية (فبراير 2016 & مايو 2016)
 
@@ -95,3 +92,6 @@ ms.locfileid: "4421752"
 8. في الحقل "وحدة الوزن"، أدخل قيمة أو حددها.
 9. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,26 @@
 title: الصفحة الرئيسية للنشر المحلي
 description: يوفر هذا الموضوع معلومات وارتباطات إلى محتوى يتعلق بعمليات النشر المحلي.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 55651
+ms.custom:
+- "55651"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679334"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712558"
 ---
 # <a name="on-premises-deployment-home-page"></a>الصفحة الرئيسية للنشر المحلي
 
@@ -33,20 +33,23 @@ ms.locfileid: "4679334"
 - [نظرة عامة عن النشر المحلي](on-premises-overview.md)
 - [تخطيط عمليات النشر المحلي وإعدادها](plan-onprem-deployment.md)
 - [متطلبات النظام لعمليات النشر المحلي](../../fin-ops/get-started/system-requirements-on-prem.md)
+- [برنامج Microsoft Dynamics 365 Finance + Operations (في الموقع) المعتمد](onprem-compatibility.md)
 - [متطلبات ضبط حجم الأجهزة للبيئات المحلية](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [شراء Finance and Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [مقارنة بين ميزات السحابة والمحلي](../../fin-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>الإعداد
 - [إعداد مشاريع محلية في Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [إعداد ونشر بيئات محلية (Platform update 12 وتحديث لاحق)](setup-deploy-on-premises-pu12.md)
+- [إعداد ونشر بيئات محلية (Platform update 41 وتحديث لاحق)](setup-deploy-on-premises-pu41.md)
+- [إعداد ونشر بيئات محلية (تحديثات النظام الأساسي رقم 12 حتى 40)](setup-deploy-on-premises-pu12.md)
 - [تثبيت أجهزة طابعات الشبكة في البيئات المحلية](../analytics/install-network-printer-onprem.md)
 - [تكوين خدمات SQL Server Reporting Services لعمليات النشر المحلي](../analytics/configure-ssrs-on-premises.md)
-- [تطوير النماذج المخصصة للبيئات المحلية ونشرها](develop-deploy-custom-models-on-premises.md)
+- [تطوير نماذج مخصصة ونشرها في بيئات محلية](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>العمل في عملية النشر المحلي
+- [قم بتكوين الإتاحة العالية لعُقد SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [تكوين إدارة المستندات](../../fin-ops/organization-administration/configure-document-management.md)
-- [استيراد تكوينات إعداد التقارير الإلكترونية](../analytics/electronic-reporting-import-ger-configurations.md)
+- [استيراد تكوينات إعداد التقارير الإلكترونية (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [إنشاء المستندات ونشرها وطباعتها في عمليات النشر المحلي](../analytics/printing-capabilities-on-premises.md)
 - [تكوين الوكلاء للبيئات المحلية](onprem-reverseproxy.md)
 - [إعداد الدعم الفني للتطبيقات Finance and Operations ](../lifecycle-services/support-experience.md)
@@ -56,10 +59,10 @@ ms.locfileid: "4679334"
 - [إعادة استخدام مثيل AD FS نفسه لبيئات متعددة](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Commerce
-- [إمكانات Commerce المتوفرة في عمليات النشر المحلي](../../../retail/retail-onprem.md)
+- [إمكانات Commerce المتوفرة في عمليات النشر المحلي](../../../commerce/retail-onprem.md)
 - [خطوات التثبيت لمكونات قناة البيع بالتجزئة في بيئة محلية](deploy-retail-onprem.md)
-- [تكوين نقطة البيع (MPOS) وتثبيته وتنشيطه](../../../retail/retail-modern-pos-device-activation.md)
-- [تكوين وتثبيت Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [تكوين نقطة البيع (MPOS) وتثبيته وتنشيطه](../../../commerce/retail-modern-pos-device-activation.md)
+- [تكوين وتثبيت Commerce Scale Unit](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>ترقية
 - [عملية الترقية في الموضع للبيئات المحلية](../migration-upgrade/on-prem-upgrade.md)
@@ -72,3 +75,6 @@ ms.locfileid: "4679334"
 - [الميزات التي تمت إزالتها أو إهمالها لـ Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [سياسة دورة حياة البرامج والإصدارات المحلية](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

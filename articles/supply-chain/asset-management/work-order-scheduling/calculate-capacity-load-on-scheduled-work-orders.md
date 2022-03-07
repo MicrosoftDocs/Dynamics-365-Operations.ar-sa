@@ -1,12 +1,10 @@
 ---
 title: حساب القدرة الإنتاجية على أوامر العمل المجدولة
 description: يوضح هذا الموضوع كيفية حساب القدرة الإنتاجية على أوامر العمل المجدولة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7b7e4a20ed56b1eac29d16d527693d6e455cdc37
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: ff244e51151a1cc0485cae25873566fa97253171516d48449fed75f070146431
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766208"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>حساب القدرة الإنتاجية على أوامر العمل المجدولة
 
@@ -50,10 +48,13 @@ ms.locfileid: "5021644"
 
 يظهر الشكل أدناه نتيجة الحساب الذي يغطي ثلاثة أسابيع لنوع حمل العمل **محجوز**.
 
-![الشكل 1](media/08-work-order-scheduling.png)
+![الشكل 1.](media/08-work-order-scheduling.png)
 
 [!NOTE]
 إذا قمت بتحديد أنواع حمل العمل **القدرة** أو **المتبقي** لعملية الحساب، فستظهر النتيجة نفسها إذا لم يتم إجراء أي حجوزات للموارد في الفترة المحددة.
 
 للحصول على معلومات حول كيفيه حساب القدرة الإنتاجية على بنود جدول الصيانة وليس على أوامر العمل المجدولة، راجع [حساب القدرة الإنتاجية](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

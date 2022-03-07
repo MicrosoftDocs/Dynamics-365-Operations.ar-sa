@@ -2,29 +2,29 @@
 title: معالجة التعويضات
 description: تسمح لك معالجة التعويضات بحساب مبالغ التعويضات الأساسية الجديدة للموظفين استنادًا إلى تعديل الملكيات وأهداف الزيادة في الأهلية‬ والأداء.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59627edd4503d9d4d5a87d8eb09b4be4f855c112
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417106"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800917"
 ---
 # <a name="process-compensation"></a>معالجة التعويضات
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 تسمح لك معالجة التعويضات بحساب مبالغ التعويضات الأساسية الجديدة للموظفين استنادًا إلى تعديل الملكيات وأهداف الزيادة في الأهلية‬ والأداء. يتناول هذا المقال التدفق الأساسي لمعالجة التعويضات لخطط التعويضات الثابتة من دون أخذ أداء الموظف في الاعتبار.
 
@@ -77,3 +77,6 @@ ms.locfileid: "4417106"
 عند تحديث حالة أحداث موظف أو أكثر إلى "تمت الموافقة"، يمكن تحميلها إلى سجلات التعويض الثابت للموظف. يمكن إجراء ذلك إما بتحديد حدث موظف واحد في كل مرة ثم النقر فوق زر **تحميل تعويض الموظف** في صفحة **نتائج الموظف** و عن طريق النقر فوق **تحميل التعويض** في صفحة **نتائج العملية** لتحميل كل أحداث الموظف الموافق عليها مرة واحدة.
 
 يؤدي النقر فوق **موافق** في مربع الحوار **تحميل التعويض** إلى إضافة بنود إجراء التعويض غير الصفري إلى صفحة **التعويض الثابت للموظف**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

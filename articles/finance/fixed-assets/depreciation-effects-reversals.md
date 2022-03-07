@@ -2,28 +2,25 @@
 title: آثار الإهلاك مع عمليات الإلغاء
 description: تتناول هذه المقالة الآثار المحتملة لعكس حركة أصول ثابتة.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd4c4a9e7e89b34b1311b38310877b45e4d95b22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6973cf3f4189347e0403d3d29014a23afb03836c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439833"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826944"
 ---
 # <a name="depreciation-effects-with-reversals"></a>آثار الإهلاك مع عمليات الإلغاء
 
@@ -96,3 +93,6 @@ ms.locfileid: "4439833"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

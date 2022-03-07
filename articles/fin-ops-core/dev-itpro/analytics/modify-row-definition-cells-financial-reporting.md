@@ -2,11 +2,9 @@
 title: تعديل خلايا تعريف الصفوف
 description: يصف هذا الموضوع المعلومات المطلوبة لكل خلية في تعريف الصف في تقرير مالي ويشرح كيفية إدخال هذه المعلومات.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685849"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755242"
 ---
 # <a name="modify-row-definition-cells"></a>تعديل خلايا تعريف الصفوف
 
@@ -529,3 +527,6 @@ ms.locfileid: "4685849"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [Financial reporting](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

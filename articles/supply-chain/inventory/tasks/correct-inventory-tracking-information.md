@@ -1,28 +1,25 @@
 ---
 title: تصحيح معلومات تعقب المخزون
 description: يرشدك هذا الإجراء خلال عملية إنشاء وترحيل دفتر يومية تحويل المخزون من أجل تصحيح معلومات تعقب المخزون.
-author: MarkusFogelberg
-manager: tfehr
+author: yufeihuang
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventBatchIdLookup, InventLocationIdLookup, InventDimTracking, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a8a488d4c30923445b3ebc2626a79b8fa45012c7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 69921651ecd0969e9cdd3cdd3740db212a1953e1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421636"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573791"
 ---
 # <a name="correct-inventory-tracking-information"></a>تصحيح معلومات تعقب المخزون
 
@@ -64,3 +61,6 @@ ms.locfileid: "4421636"
 2. انقر فوق "الحركات".
     * هنا يمكنك أن ترى الحركات التي تم إنشاؤها عندما قمت بترحيل دفتر اليومية الخاص بك.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

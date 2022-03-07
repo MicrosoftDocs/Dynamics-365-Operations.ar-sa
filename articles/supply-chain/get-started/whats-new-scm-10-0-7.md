@@ -1,27 +1,25 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.7 (يناير 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.7 من Dynamics 365 Supply Chain Management.
-author: josaw1
-manager: tfehr
+author: kamaybac
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: kamaybac
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4da0c95d753685cc9cce774dc63309a53bd2fbd0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 23d9e186a75c79659ddccb07eeaff805f8e1702f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963525"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572855"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.7 (يناير 2020)
 
@@ -52,7 +50,7 @@ ms.locfileid: "4963525"
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365: خطة الموجة 2 لإصدار 2019
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 2 لإصدار 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 2 لإصدار 2019](/dynamics365-release-plan/2019wave2/). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 
@@ -64,3 +62,5 @@ ms.locfileid: "4963525"
 قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

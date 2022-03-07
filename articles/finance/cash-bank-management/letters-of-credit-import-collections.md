@@ -2,28 +2,25 @@
 title: خطابات الاعتماد وتحصيلات الاستيراد
 description: توفر هذه المقالة معلومات عامة حول مجموعات الاستيراد وخطابات الاعتماد. يُستخدم هذان النوعان من المستندات البنكية بشكل شائع لشراء وبيع السلع عبر الحدود الدولية.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 18321
 ms.assetid: 5c97ab81-632b-4043-a940-674bcb496c80
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c31b8af25ea231f23ac5f4968760257b3f5894f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 47309612ea7cbd0bb1047bec9c18f976e7063ce95f1708f27beae540cc3194ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439963"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751316"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>خطابات الاعتماد وتحصيلات الاستيراد
 
@@ -31,8 +28,7 @@ ms.locfileid: "4439963"
 
 توفر هذه المقالة معلومات عامة حول مجموعات الاستيراد وخطابات الاعتماد. يُستخدم هذان النوعان من المستندات البنكية بشكل شائع لشراء وبيع السلع عبر الحدود الدولية.
 
-<a name="letters-of-credit"></a>خطابات الاعتماد
------------------
+## <a name="letters-of-credit"></a>خطابات الاعتماد
 
 ‏‫يتم استخدام خطابات الاعتماد للحركات الدولية وتساعد في ضمان أن تُسدد المدفوعات. وخطاب الاعتماد هو اتفاقية يصدرها بنك، ويوافق هذا البنك فيها على ضمان الدفع نيابةً عن مشتري، شريطة الوفاء بشروط الاتفاق المبرم بين المشتري والبائع. كما يُشار إلى خطاب الاعتماد بالاعتماد المستندي (DC).‬
 
@@ -54,3 +50,6 @@ ms.locfileid: "4439963"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

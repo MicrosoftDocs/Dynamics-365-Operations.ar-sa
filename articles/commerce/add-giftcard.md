@@ -11,26 +11,23 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: c024cc1b16ca60b2277eba2d7045020c2e67c3a0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410056"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206285"
 ---
-# <a name="gift-card-module"></a>وحدة بطاقة الهدايا
+# <a name="gift-card-module"></a>الوحدة النمطية لبطاقة الهدايا
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع وحدات بطاقة الهدايا ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يمكن استخدام وحدات بطاقات الهدايا في وحدات السداد مع الخروج لقبول بطاقات الهدايا، وهي عبارة عن طريقة دفع شائعة الاستخدام في حركات التجارة الإلكترونية. تدعم وحدة بطاقة الهدايا بطاقات هدايا Dynamics 365 وSVS وGivex. يتم استرداد بطاقات الهدايا من SVS وGivex من خلال موفر الدفع Adyen. لمزيد من المعلومات جول دعم بطاقات الهدايا الخارجية مثل SVS وGivex، راجع [دعم بطاقات الهدايا الخارجية](./dev-itpro/gift-card.md)
 
@@ -94,3 +91,6 @@ ms.locfileid: "4410056"
 [دعم بطاقات الهدايا الخارجية](./dev-itpro/gift-card.md)
 
 [تحديثات SDK ومكتبة الوحدات النمطية](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

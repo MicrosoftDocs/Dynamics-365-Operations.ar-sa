@@ -1,12 +1,10 @@
 ---
 title: أنشطة وقت تعطل الصيانة
 description: يشرح هذا الموضع كيفية استخدام وقت تعطل الصيانة للحصول على نظرة عامة حول القدرة المطلوبة لتنفيذ مهام الصيانة على أصول محددة خلال فترة محددة.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 986b2ae4cf7f7819caaf35e009fd4735f35e6928
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017933"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837815"
 ---
 # <a name="maintenance-downtime-activities"></a>أنشطة وقت تعطل الصيانة
 
@@ -96,3 +94,6 @@ ms.locfileid: "5017933"
 - يمكنك نسخ الأصول من نشاط وقت تعطل صيانة إلى آخر. في **جميع أنشطة وقت تعطل الصيانة**، حدد الزر **نسخ أنشطة وقت تعطل الصيانة**، وقم بإجراء التحديدات في الحقلين **من أنشطة وقت تعطل الصيانة** و **إلى أنشطة وقت تعطل الصيانة** وانقر فوق **موافق**.
 - في **جميع أنشطة وقت تعطل الصيانة**، انقر فوق الزر **بنود جدول الصيانة** أو الزر **أوامر العمل النشطة** لفتح القوائم ذات الصلة وعرض البنود ذات الصلة بنشاط وقت تعطل الصيانة المحدد.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

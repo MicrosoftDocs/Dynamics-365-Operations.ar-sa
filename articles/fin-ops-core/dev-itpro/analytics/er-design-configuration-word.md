@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718347"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>تصميم تكوين ER جديد لإنشاء تقارير بتنسيق Word
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323865"
 
 ![نموذج القالب الخاص بتقرير التحكم في تطبيق Word لسطح المكتب.](./media/er-design-configuration-word-image1.png)
 
-لاستخدام مستند Word كقالب للتقارير الموجودة في تنسيق Word، يمكنك تكوين حل [تقارير إلكترونيه (ER) ](general-electronic-reporting.md)[جديد](er-quick-start1-new-solution.md). يجب ان يتضمن هذا الحل [تكوين](general-electronic-reporting.md#Configuration) التقارير الإلكترونية الذي يحتوي على مكون تنسيق التقارير الإلكترونية.
+لاستخدام مستند Word كقالب للتقارير الموجودة في تنسيق Word، يمكنك تكوين حل [تقارير إلكترونيه (ER) ](general-electronic-reporting.md)[جديد](er-quick-start1-new-solution.md). يجب ان يتضمن هذا الحل [تكوين ER](general-electronic-reporting.md#Configuration)الذي يحتوي علي [مكون التنسيق الخاص بـ ER](general-electronic-reporting.md#FormatComponentOutbound).
 
 > [!NOTE]
 > عند إنشاء تكوين جديد ل "تنسيق ER" لإنشاء التقارير بتنسيق Word، يجب اما تحديد **Word** كتنسيق لمربع الحوار **إنشاء تكوين**، أو ترك حقل **نوع التنسيق** فارغا.
@@ -46,7 +46,7 @@ ms.locfileid: "8323865"
 
 ![إضافة العناصر المتداخلة في صفحة مصمم التنسيق.](./media/er-design-configuration-word-image4.gif)
 
-عند حفظ التغييرات التي أجريتها علي التنسيق الخاص ب ER في وقت التصميم، يتم تخزين بنيه التنسيق الهرمي في قالب Word المرفق [كجزء XML مخصص](/visualstudio/vsto/custom-xml-parts-overview)يتم تسميته باسم **التقرير**. يجب الوصول إلى القالب المعدل وتنزيله من المالية وتخزينها محليا وفتحها في تطبيق Word لسطح المكتب. يبين الرسم التوضيحي التالي قالب نموذج تم تخزينه محليا لتقرير التحكم الذي يحتوي علي جزء XML المخصص **للتقرير**.
+عند حفظ التغييرات التي أجريتها علي التنسيق الخاص ب ER في وقت التصميم، يتم تخزين بنيه التنسيق الهرمي في قالب Word المرفق [كجزء XML مخصص](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)يتم تسميته باسم **التقرير**. يجب الوصول إلى القالب المعدل وتنزيله من المالية وتخزينها محليا وفتحها في تطبيق Word لسطح المكتب. يبين الرسم التوضيحي التالي قالب نموذج تم تخزينه محليا لتقرير التحكم الذي يحتوي علي جزء XML المخصص **للتقرير**.
 
 ![مراجعة القالب الخاص بتقرير القالب في تطبيق Word لسطح المكتب.](./media/er-design-configuration-word-image5.gif)
 

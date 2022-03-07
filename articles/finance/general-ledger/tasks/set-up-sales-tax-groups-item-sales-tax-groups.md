@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24210129f7595c6544234c20915f4003bf0e1eb8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e97766be1207fb66b38f25b1e423fb21cec9e726
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439798"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222157"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
 
@@ -50,3 +49,6 @@ ms.locfileid: "4439798"
 19. في القائمة، انقر فوق الارتباط في الصف المحدد.
 20. انقر فوق **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

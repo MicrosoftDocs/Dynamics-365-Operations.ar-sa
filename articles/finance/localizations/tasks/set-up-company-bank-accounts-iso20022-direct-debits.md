@@ -2,26 +2,23 @@
 title: إعداد الحسابات البنكية للشركة للديون المباشرة ISO20022
 description: تنقلك هذه المهمة عبر عملية إعداد المعلومات المحددة الخاصة بالحساب البنكي للشركة والمطلوبة لإنشاء ملفات دفع العميل.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 652d8aa8f78d9a12ee390d23904f2c94d9bcf684
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 319bf71982987296a8270f596f8d2bb518dd1790
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439869"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819446"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>إعداد الحسابات البنكية للشركة للديون المباشرة ISO20022
 
@@ -60,3 +57,6 @@ ms.locfileid: "4439869"
     * على سبيل المثال، حدد الحساب البنكي "DEMF OPER".  
 6. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

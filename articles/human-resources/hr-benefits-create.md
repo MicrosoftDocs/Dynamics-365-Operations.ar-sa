@@ -2,28 +2,27 @@
 title: إنشاء ميزة جديدة
 description: ستعرض لك هذه المهمة كيفية إنشاء عناصر الفائدة التي سيتم استخدامها عند إنشاء ميزة جديدة.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f9618e62e33655bfc1a0653cb767abe0094d1e79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d476e8e7f116ca998f466d21a8d0eec33a11bf8f
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417067"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053167"
 ---
 # <a name="create-a-new-benefit"></a>إنشاء ميزة جديدة
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ستعرض لك هذه المهمة كيفية إنشاء عناصر الفائدة التي سيتم استخدامها عند إنشاء ميزة جديدة. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USMF.‬ هذه المهمة مخصصة لمدير التعويضات والميزات.
 
@@ -53,3 +52,6 @@ ms.locfileid: "4417067"
 6. في الحقل "السريان‬"، أدخل الوقت والتاريخ.
 7. انقر فوق "إنشاء ميزة".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

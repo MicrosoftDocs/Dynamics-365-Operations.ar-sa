@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062640"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581855"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>تثبيت إعداد رؤية المخزون
 
 [!include [banner](../includes/banner.md)]
-
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 يوضح هذا الموضوع كيفيه تثبيت الوظيفة الإضافية لرؤية المخزون لـ Microsoft Dynamics 365 Supply Chain Management.
 
@@ -71,9 +71,6 @@ ms.locfileid: "8062640"
 1. الموافقة علي البنود والشروط عن طريق تحديد خانه الاختيار **البنود والشروط**.
 1. حدد **تثبيت**. تظهر حاله الوظيفة الإضافية باعتبارها **قيد التثبيت**. عند اكتمال التثبيت، قم بتحديث الصفحة. يجب تغيير الحالة إلى **تم التثبيت**.
 1. في Dataverse، حدد قسم **التطبيقات** في جزء التنقل الأيمن، وتحقق من تثبيت **رؤية المخزون** في Power Apps بطريقة ناجحة. إذا لم يظهر قسم **التطبيقات**، فاتصل بفريق منتج رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
-
-> [!TIP]
-> نوصي بالانضمام إلى مجموعة مستخدمي الوظيفة الإضافية لرؤية المخزون، حيث يمكنك العثور على أدلة مفيدة، والحصول على آخر التحديثات الخاصة بنا، ونشر أية أسئلة قد تكون لدينا بشأن استخدام رؤية المخزون. للانضمام، الرجاء إرسال بريد إلكتروني إلى رؤية المخزون فريق المنتجات على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) وتضمين معرف بيئة Supply Chain Management.
 
 > [!IMPORTANT]
 > إذا كان لديك أكثر من بيئة LCS، فقم بإنشاء تطبيق Azure AD مختلف لكل بيئة. في حالة استخدام نفس معرف التطبيق ومعرف المستاجر لتثبيت الوظيفة الإضافية لرؤية المخزون لبيئات مختلفة، ستحدث مشكلة في الرمز المميز للبيئات الأقدم. سيكون آخر رمز تم تثبيته صالحاً فقط.

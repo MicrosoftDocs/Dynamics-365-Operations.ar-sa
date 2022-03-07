@@ -2,11 +2,9 @@
 title: نوع وجهة إعداد التقارير الإلكترونية للملف
 description: يوفر هذا الموضوع معلومات حول تكوين وجهة ملف لتنسيق إعداد التقارير الإلكترونية.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e192a3d768b2f99330129260fa60ad231796710
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: adb32efd3849c94294d9fe9e706f39d209116d259e0d964d1558cc0e49009a5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760788"
 ---
 # <a name="file-destination"></a>وجهة الملف
 
@@ -32,9 +30,12 @@ ms.locfileid: "4679620"
 
 في صفحة **إعدادات الوجهة**، عند تعيين الخيار **ممكّن‏‎** إلى **نعم**، يفتح مربع حوار فتح أو حفظ عند انتهاء تشغيل التكوين.
 
-[![صفحة إعدادات الوجهة](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
+[![صفحة إعدادات الوجهة.](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

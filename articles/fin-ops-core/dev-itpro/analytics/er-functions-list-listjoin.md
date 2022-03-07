@@ -2,11 +2,9 @@
 title: الدالة LISTJOIN ER
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام دالة إعداد التقارير الإلكترونية LISTJOIN.
 author: NickSelin
-manager: kfend
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682233"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353720"
 ---
 # <a name="listjoin-er-function"></a>الدالة LISTJOIN ER
 
@@ -33,7 +31,7 @@ ms.locfileid: "4682233"
 ## <a name="syntax"></a>بناء الجملة
 
 ```vb
-LIST (list 1 [, list 2, …, list N])
+LISTJOIN (list 1 [, list 2, …, list N])
 ```
 
 ## <a name="arguments"></a>الوسائط
@@ -68,18 +66,21 @@ LIST (list 1 [, list 2, …, list N])
 - **المبلغ**: يحتوي هذا الحقل على تعبير يُرجع قيمة من النوع `Real`.
 - **‎IsValid**: يحتوي هذا الحقل على تعبير يُرجع قيمة من النوع `Boolean`.
 
-![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/er-functions-list-listjoin-image1.gif)
+![صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](./media/er-functions-list-listjoin-image1.gif)
 
 في هذه الحالة، يُرجع التعبير `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` قائمة جديدة تحتوي على سجلين.
 
-![صفحة مصمم تعيين نموذج التقارير الإلكترونية مع سجلين](./media/er-functions-list-listjoin-image2.gif)
+![صفحة مصمم تعيين نموذج التقارير الإلكترونية مع سجلين.](./media/er-functions-list-listjoin-image2.gif)
 
 تتكون بنية هذه القائمة من حقل **مبلغ** واحد من النوع `Real`، لأن هذا الحقل هو الحقل الوحيد الذي يتم تقديمه في كل وسطية من الوظيفة المستدعاة.
 
-![حقل المبلغ في صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية](./media/er-functions-list-listjoin-image3.gif)
+![حقل المبلغ في صفحة مصمم تعيين نموذج إعداد التقارير الإلكترونية.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دالات القائمة](er-functions-category-list.md)
 
 [تصحيح مصادر البيانات لتنسيق ER الذي تم تنفيذه لتحليل تدفق البيانات وتحويلها](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

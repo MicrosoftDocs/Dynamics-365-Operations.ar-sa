@@ -1,33 +1,35 @@
 ---
 title: تكوين مُحددات الإجازة والغياب
-description: تتيح تحديد معلمات الموارد البشرية للإجازات والغياب في Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+description: يصف هذا الموضوع كيفية تحديد معلمات الموارد البشرية للإجازة والغياب في Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4417199"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067342"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>تكوين مُحددات الإجازة والغياب
 
-قبل إعداد خطط الإجازات والإجازات في Dynamics 365 Human Resources، من الأفضل التحقق من الإعدادات لكافة المحددات المتعلقة بالموارد البشرية، بما في ذلك:
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+قبل إعداد خطط الإجازات والغياب في Dynamics 365 Human Resources، من المستحسن التحقق من الإعدادات لجميع **معلمات الموارد البشرية** ذات الصلة، بما في ذلك:
 
 - التسلسل الرقمي لطلبات الإجازات
 - إعدادات قانون الأسرة والإجازات الطبية (FMLA)
@@ -75,7 +77,7 @@ ms.locfileid: "4417199"
 
     - حدد **حساب الرصيد** لعرض الأرصدة اعتبارًا من اليوم أو من فترة الاستحقاق. إذا حددت **الرصيد اعتبارًا من اليوم**، فسيعرض الرصيد إجمالي كافة الاستحقاقات والتسويات والطلبات اعتبارًا من اليوم. إذا حدد **الرصيد اعتبارًا من فترة الاستحقاق**، فسيعرض الرصيد إجمالي كافة الاستحقاقات والتسويات والطلبات اعتبارًا من فترة الاستحقاق المحددة بواسطة التكرار في خطة الإجازة. 
 
-    - قم بتعيين وقت البدء للوظيفة الدفعية انتهاء موازنة محولة.  
+    - قم بتعيين **وقت البدء** للوظيفة الدفعية **تحويل انتهاء الصلاحية**.  
     
     - حدد **نعم** لـ **السماح للموظفين بشراء إجازة** و **السماح للموظفين ببيع إجازة**. إذا قمت بتحديد **نعم** لهذه الخيارات، يُمكنك إنشاء سياسات شراء وبيع الإجازة وتمكين الموظفين من إرسال طلبات شراء وبيع الإجازة.
 
@@ -92,3 +94,6 @@ ms.locfileid: "4417199"
 ## <a name="see-also"></a>راجع أيضًا
 
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

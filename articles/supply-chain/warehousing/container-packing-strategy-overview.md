@@ -12,16 +12,14 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4e5faf8e4544b2bcb58f3c578789b2bd379a27b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4158fa93d9e424e796c038d0c907ea155868440bfcb79666c3e13fa997d4834b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774719"
 ---
 # <a name="container-packing-strategies"></a>استراتيجيات تعبئة الحاويات
-
-[!include [banner](../includes/banner.md)]
 
 *إستراتيجية تعبئة الحاويات* هي إستراتيجية يمكنك استخدامها لتحديد توزيعات الأصناف عبر الحاويات. يوضح هذا الموضوع الفروق بين إستراتيجيات *التعبئة في كافة الحاويات المفتوحة* و *التعبئة في الحاوية الحالية فقط*.
 

@@ -2,11 +2,9 @@
 title: مساحة العمل المحمولة "دليل الشركة"
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "دليل الشركة"، التي تسمح للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b397f3a222ff6957ad4904df90c5db218903090
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683421"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748187"
 ---
 # <a name="company-directory-mobile-workspace"></a>مساحة العمل المحمولة "دليل الشركة"
 
@@ -89,3 +87,6 @@ ms.locfileid: "4683421"
 1.  في تطبيق المحمول، حدد مساحة العمل **دليل الشركة**.
 2.  في حقل **البحث**، أدخل اسم الموظف الأول، أو الاسم الأخير، أو المسمى الوظيفي، أو القسم لبدء البحث.
 3.  حدد موظفًا. تظهر صفحة **ملف تعريف الموظف**. تتضمن المعلومات الموجودة في هذه الصفحة اسم الموظف الأول، والاسم الأخير، والمسمى الوظيفي، والقسم.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

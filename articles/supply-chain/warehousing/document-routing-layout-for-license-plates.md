@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 03489629a74d33147ac77dd18b59efbfc9c9e4b5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103880"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574655"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>تخطيط توجيه المستند لتسميات لوحات الترخيص
 
@@ -53,7 +53,7 @@ ms.locfileid: "8103880"
 
 ## <a name="turn-on-this-feature-for-your-system"></a>تشغيل هذه الميزة في نظامك
 
-إذا لم يتضمن نظامك الميزات الموضحة في هذا الموضوع بالفعل، فانتقل إلى [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ، وقم بتشغيل ميزة *تخطيطات تسمية لوحة الترخيص المحسنة*. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25.
+إذا لم يتضمن نظامك الميزات الموضحة في هذا الموضوع بالفعل، فانتقل إلى [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ، وقم بتشغيل ميزة *تخطيطات تسمية لوحة الترخيص المحسنة*.
 
 ## <a name="custom-number-formats"></a>تنسيقات الأرقام المخصصة
 

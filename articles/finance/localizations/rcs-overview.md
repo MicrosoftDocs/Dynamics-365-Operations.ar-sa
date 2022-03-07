@@ -3,26 +3,24 @@ title: Regulatory Configuration Service
 description: يقدم هذا الموضوع نظرة عامة حول إمكانيات Regulatory Configuration Service (RCS) ويشرح كيفية الوصول إلى الخدمة.
 author: JaneA07
 ms.date: 06/04/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 816b1bf9da9acdd5999320f39fb68fb6deda197c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983457"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216552"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -43,15 +41,12 @@ ms.locfileid: "7983457"
 
 يمكنك التسجيل في RCS أو تسجيل الدخول إليها في [صفحة Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/).
 
-![التسجيل في/تسجيل الدخول إلى RCS.](media/202103_RCS%20Marketing%20page_updated_1.jpg)
+![التسجيل في/تسجيل الدخول إلى RCS](media/202103_RCS%20Marketing%20page_updated_1.jpg)
 
 في صفحة **Regulatory Configuration Service**، راجع ووافق على الشروط والأحكام الإضافية لاستخدام الخدمة، ثم حدد أحد الأزرار التالية:
 
 - **التسجيل** إذا كنت تستخدم الخدمة للمرة الأولى، وكنت تستخدم عنوان بريد إلكتروني للعمل لتزويد مؤسستك ببيئة خدمة
 - **تسجيل الدخول** إذا سبق لك التسجيل في الخدمة، وأردت الوصول إلى بيئة مؤسستك
-
-> [!NOTE] 
-> بعد الاشتراك، نوصي بإضافة مستخدم SysAdmin إضافية إلى بيئة RCS. سيتم توفير هذا المستخدم كمسؤول مشارك للبيئة. وهذا يساعد على توفير الاستقرار للوصول إلى بيئة RCS، كما دور SysAdmin لإدارة المستخدمين لتلك البيئة. يمكنك إضافة مستخدمين باستخدام **مساحة عمل RCS > إدارة النظام**.
 
 ## <a name="regional-availability"></a>التوافر الإقليمي
 
@@ -96,7 +91,7 @@ ms.locfileid: "7983457"
 
 عندما تقوم بالتسجيل في RCS من صفحة الخدمة، قد تواجه مشكلة مرتبطة بـ Azure Active Directory (Azure AD). تشير رسالة الخطأ التي تظهر إلى أنه تم إيقاف تشغيل التسجيل في RCS حاليًا ويجب تشغيل التسجيل قبل أن تتمكن من إكمال عملية التسجيل.
 
-![رسالة خطأ التسجيل في RCS.](media/01_RCSSignUpError.jpg)
+![رسالة خطأ التسجيل في RCS](media/01_RCSSignUpError.jpg)
 
 تحدث هذه المشكلة بسبب أنك محظور من التسجيل للاشتراكات المخصصة، ويجب تمكين الخاصية `AllowAdHocSubscriptions` في المستأجر الخاص بك. 
 

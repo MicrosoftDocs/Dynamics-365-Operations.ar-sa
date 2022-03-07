@@ -2,27 +2,24 @@
 title: تحديد تخطيطات الصفحة
 description: يشرح هذا الموضوع كيفية إنشاء وتحديد تخطيطات الصفحة في Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e7424755ed794f4e4b8ff640a7e7b9dd96b2145fddcf91511266fa166626112d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410015"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737989"
 ---
 # <a name="select-page-layouts"></a>تحديد تخطيطات الصفحة
 
@@ -74,7 +71,12 @@ ms.locfileid: "4410015"
 
 [إثراء صفحة منتج](enrich-product-page.md)
 
-[إثراء الصفحة المنتقل إليها‬ لفئة](enrich-category-page.md)
+[إثراء صفحة فئة منتقل إليها‬](enrich-category-page.md)
 
-[التحقق من إمكانية الوصول إلى محتوي الصفحة](verify-accessibility.md)
+[التحقق من إمكانية الوصول إلى محتوى الصفحة](verify-accessibility.md)
 
+[إنشاء صفحات التجارة الإلكترونية الديناميكية استنادا إلى معلمات URL](create-dynamic-pages.md)
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

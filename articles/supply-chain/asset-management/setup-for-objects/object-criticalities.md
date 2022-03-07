@@ -1,12 +1,10 @@
 ---
 title: أنواع مستويات أهمية الأصول
 description: يُوضح هذا الموضوع أنواع مستويات أهمية الأصول في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: baf2c279a656bd67a0850ef9178e1bc984bb9b8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021694"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351479"
 ---
 # <a name="asset-criticality-types"></a>أنواع مستويات أهمية الأصول
 
@@ -42,7 +40,7 @@ ms.locfileid: "5021694"
 4. في حقل **الاسم**، أدخل اسمًا لنوع مستوى الأهمية.
 5. في حقل **المعامل**، أدخل معاملاً. يُستخدم المعامل أثناء حساب جدولة أمر العمل لتحديد سجل مستوى الأهمية الذي يجب استخدامه. (يتم استخدام السجل الذي يحتوي على أعلى معامل دائمًا.) يكون هذا الإعداد ذا صلة إذا تم إنشاء بنود مستويات الأهمية التي لها نفس قيمة الأهمية، كما هو موضح في الرسم التوضيحي التالي.
 
-    ![صفحة أنواع الأهمية](media/23-setup-for-objects.png)
+    ![صفحة أنواع الأهمية.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>إعداد مستويات أهمية الأصول
 
@@ -61,3 +59,6 @@ ms.locfileid: "5021694"
 - يتم إعادة حساب مستوى الأهمية في أمر العمل في كل مرة تتم فيها إضافة بند أمر عمل إلى أمر العمل أو حذفه منه.
 - إذا كان أمر العمل يحتوي على العديد من مهام أمر العمل، يتم دائمًا استخدام أعلى مستوى أهمية، وفق حقل **المعامل** في صفحة **أنواع مستويات الأهمية** في أمر العمل.
 - بشكل عام، يمكن أن يتغير مستوى أهمية الأصل خلال فترة ما. ويمكن أن يتأثر مستوى الأهمية بشراء معدات جديدة، والتجديدات، وما إلى ذلك. خذ بعين الاعتبار إعادة تقييم مستويات أهمية الأصول على فترات منتظمة (على سبيل المثال، مرة واحدة في السنة أو كل سنتين) للتأكد من تطابق تعريفات مستويات الأهمية مع إعداد الإنتاج الحالي.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنة مع القيم الأساسية
-description: يوفر هذا الموضوع معلومات حول تم تحسين ميزة ER الأساسية في Microsoft Dynamics 365 for Finance and Operationsالإصدار 10.0.3 (يونيو 2019).
+description: ويصف هذا الموضوع التحسينات التي تمت علي ميزه الأساس الخاصة ب ER في Microsoft Dynamics 365 for Finance and Operations10.0.3 الإصدار (يونيو 2019).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c00a5d9e2804f6ec0f6cb4c544029a1235ee58d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682837"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093994"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنة مع القيم الأساسية
 
@@ -59,7 +59,7 @@ ms.locfileid: "4682837"
 
 تمت إضافة الأساس لـ **تنسيق لمعرفة أسس ER** المحدد، ولكن لم تتم إضافة قواعد الأساس لهذا الأساس بعد.
 
-![صفحة أساسيات تنسيق التقارير الإلكترونية](media/GER-BaselineSample-AddBaseline2.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
+![صفحة أساسيات تنسيق التقارير الإلكترونية، لا توجد قواعد حتى الآن](media/GER-BaselineSample-AddBaseline2.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
 
 ### <a name="make-a-new-baseline-rule"></a>إنشاء قاعدة أساس جديدة
 
@@ -72,7 +72,7 @@ ms.locfileid: "4682837"
 7. حدد **موافق**.
 8. حدد **الأسس**.
 
-    ![صفحة أساسيات تنسيق التقارير الإلكترونية](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
+    ![صفحة أساسات تنسيق التقارير الإلكترونية، تم تحديد أساسيات](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
 
     تم تلقائيًا إرفاق الملف الصادر المنشأ بالأساس الخاص بتنسيق ER الذي تم تنفيذه. تمت إضافة قاعدة الأساس تلقائيا إلى هذا الأساس وتحتوي أيضًا على مرجع للملف المرفق.
 
@@ -130,7 +130,7 @@ ms.locfileid: "4682837"
 3. في قائمه الأسس، حدد الأساس الذي تم تكوينه لـ **تنسيق لمعرفة أسس ER**.
 4. في علامة التبويب السريع **الأسس**، حدد **حذف** لإزالة قاعدة الأساس التي قمت بتكوينها مسبقا.
 
-![صفحة أساسيات تنسيق التقارير الإلكترونية](media/GER-BaselineSample-AddBaseline3.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
+![صفحة أساسيات تنسيق التقارير الإلكترونية، تم الحذف](media/GER-BaselineSample-AddBaseline3.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>تعريف عمليات الاستبدال لروابط تنسيق ER المصمم
 
@@ -138,7 +138,7 @@ ms.locfileid: "4682837"
 2. في شجرة مكونات التنسيق، قم بتوسيع **الإخراج**، وقم بتوسيع **الإخراج\\المستند**، ثم حدد خانة الاختيار **الإخراج\\المستند\\ProcessingDateTime**.
 3. حدد **موافق**.
 
-![صفحة أساسيات تنسيق التقارير الإلكترونية](media/GER-BaselineSample-AddBaseline4.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
+![صفحة أساسيات تنسيق التقارير الإلكترونية، المكونات](media/GER-BaselineSample-AddBaseline4.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
 
 تمت إضافة مكون التنسيق ER المحدد إلى قائمة المكونات في علامة التبويب السريع **الاستبدالات**. عند تشغيل تنسيق ER الأساس في وضع التصحيح، فإن ربط التنسيق لكل مكون سيتم استبداله بالربط الموضح في عمود **الربط**. لتغيير الربط الافتراضي لمكون مسرد في علامة التبويب السريع **الاستبدالات**، حدد **تحرير**.
 

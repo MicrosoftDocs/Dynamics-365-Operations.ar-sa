@@ -1,12 +1,10 @@
 ---
 title: عاملو الصيانة ومجموعات عاملي الصيانة
 description: يشرح هذا الموضوع عاملو الصيانة ومجموعات عاملي الصيانة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750114"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>عاملو الصيانة ومجموعات عاملي الصيانة
 
@@ -63,3 +61,6 @@ ms.locfileid: "5017382"
 6. حدد **نسخ من مجموعة الموارد**، لربط مجموعة موارد بمجموعة عاملي الصيانة المحددة. في الحقل‏‎ **المجموعة**، حدد مجموعة الموارد لنسخ إعدادات التقويم منها. ثم، في الحقل **مجموعة عاملين**، حدد مجموعة العاملين لنسخ إعدادات التقويم لمجموعة الموارد إليها. تكون هذه الخطوة ذات صلة فقط إذا كنت تريد أن يستخدم عاملون الصيانة التقويم المرتبط بمورد (مركز العمل) أثناء جدولة أمر العمل.
 
     تعرض الحقول الموجودة في علامة التبويب السريعة **تفاصيل** عدد عاملي الصيانة الذين تم إعدادهم على مجموعة عاملي الصيانة المحددة.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

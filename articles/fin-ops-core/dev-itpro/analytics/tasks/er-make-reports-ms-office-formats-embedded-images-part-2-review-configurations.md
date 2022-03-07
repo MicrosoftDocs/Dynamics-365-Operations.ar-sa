@@ -1,12 +1,11 @@
 ---
 title: مراجعة التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
-description: لإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات المذكورة في دليل المهام "التقارير الإلكترونية - إنشاء تقارير بتنسيقات MS Office مع صور مضمنة (الجزء 1 - إعداد المعلمات)‬".
+description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لإنشاء مستندات تتضمن صورًا مضمنة. (جزء 1 - إعداد المعلمات).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6aa5c4d45f9139c65f3aaf1ae392829e3e4967df
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684345"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569427"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>مراجعة التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
 
@@ -91,3 +90,6 @@ ms.locfileid: "4684345"
     * سيتم تضمين بعض التسميات التي تظهر في نموذج الشيك المطبوع مسبقًا في التقرير عند إنشائه لأغراض الاختبار. ومع ذلك، لن تتم طباعته هذه التسميات أثناء الطباعة الحقيقية، لأن النموذج المطبوع مسبقًا يتضمنها بالفعل لها.  
 15. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

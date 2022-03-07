@@ -2,16 +2,13 @@
 title: أبعاد كائن التكاليف
 description: عندما تقوم بتحليل التكاليف، يمكنك استخدام أبعاد عنصر التكلفة لتحديد المكان الذي تتدفق إليه التكاليف. ويمكنك استخدام أبعاد كائن التكلفة لتحديد المكان حيث يجب تعيين التكاليف. يوفر هذا الموضوع معلومات حول أبعاد كائن التكلفة.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMCostObject
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223174
 ms.assetid: 2a1cdd35-30cb-41e7-9506-67fd04a537c5
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a090ecae2aadf1d0e08dd6127f831abdbf4a6b0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e266a9ee2f47b819a4074291ad4a52d8df46ce1abe4f16308a3645375cd2dd80
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439978"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727386"
 ---
 # <a name="cost-object-dimensions"></a>أبعاد كائن التكاليف
 
@@ -37,10 +34,13 @@ ms.locfileid: "4439978"
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>أبعاد كائن التكلفة وأعضاء أبعاد كائن التكلفة
 تُعرف كائنات التكلفة بالاسم *أبعاد كائن التكلفة*. بعد أن تحدد الكيان الذي يجب أن يرجع إليه بُعد كائن التكلفة، يجب تحديد قيم الأبعاد الفردية أو استيرادها إلى محاسبة التكاليف من أنظمة مصادر أخرى. تُعرف قيم الأبعاد الفردية هذه بالاسم *أعضاء أبعاد كائن التكلفة*. على سبيل المثال، تريد استخدام البعد المالي الذي يسمى مركز التكلفة كبُعد كائن التكلفة. للاطلاع على كيفية تدفق التكاليف إلى مراكز التكلفة الفردية، يجب عليك استيراد أعضاء أبعاد كائن التكلفة. وفي هذه الحالة، تكون أعضاء أبعاد كائن تكلفة مراكز التكلفة الفعلية، مثل المبيعات والإنتاج والإدارة والمواقع الجغرافية. تظهر لقطة الشاشة التالية مثالاً لمراكز التكلفة كبعد كائن التكلفة مع مراكز التكلفة الفعلية الخاصة به كأعضاء أبعاد كائن التكلفة. 
 
-[![لقطة شاشة تعرض مراكز التكلفة كبعد كائن تكلفة](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![لقطة شاشة تعرض مراكز التكلفة كبعد كائن تكلفة.](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>استيراد أعضاء أبعاد كائن التكلفة من خلال موصلات البيانات
 لتسهيل عملية استيراد أعضاء أبعاد كائن التكلفة، استخدم موصلات البيانات لاسترداد القيم من الكيانات التي تريد استخدامها كأبعاد كائن التكلفة. ويمكنك استخدام موصلات البيانات المنشأة مسبقًا أو موصلات البيانات المخصصة التق تقوم أنت بإنشائها.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

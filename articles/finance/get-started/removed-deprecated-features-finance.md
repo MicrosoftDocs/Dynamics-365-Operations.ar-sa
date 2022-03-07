@@ -2,25 +2,22 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689484"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980886"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -34,13 +31,57 @@ ms.locfileid: "4689484"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 > [!NOTE]
-> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.20 من Finance
+
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>تكوين تنسيق إعداد التقارير الإلكترونية‬ (ER) لطلب بيانات فاتورة الاستعلام RTIR (HU)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | مستثنى من معالجه المراسلة الإلكترونية للتشغيل المتبادل مع نظام الفوترة المجري عبر الإنترنت |
+| **هل تم الاستبدال بميزة أخرى؟**   | لا |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | ميزة مهملة: بحلول 15 أبريل 2022، نخطط لوقف دعم تكوين تنسيق "طلب بيانات فاتورة الاستعلام RTIR‬. |
+
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>تنسيق التقارير الإلكترونية (ER) لفرنسا "بملف تدقيق FEC الفرنسي" ضمن تنسيق ‏‫إخراج ملف المراجعة الألماني
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بتنسيق (FR) "ملف تدقيق FEC" جديد |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | تم إهماله: بحلول 1 مايو، 2022، لن نساعدك على دعم تنسيق إعداد التقارير الإلكترونية (ER) "بملف مراجعة FEC الفرنسي لفرنسا ضمن تنسيق "إخراج ملف مراجعة. يتم تقديم تنسيق (FR) ملف مراجعة (FR) جديد لـ FEC بدلاً من ذلك ضمن "نموذج تصدير البيانات". |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.17 من Finance
+
+### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>مستودع LCS كخيار تخزين لتكوينات التقارير الإلكترونية
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بالمستودع العمومي لـ Regulatory Configuration Service (RCS) الجديد |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم |
+| **مناطق المنتجات المتأثرة**         | منتجات Dynamics 365 Finance وSupply Chain Management وProject Operations|
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: بحلول 01 أبريل، 2022، نخطط لإيقاف الدعم لمستودع Microsoft Dynamics Lifecycle Services (LCS) باعتباره خيار تخزين لتكوين التقارير الإلكترونية (ER). سيتم نشر تكوينات Microsoft ER الجديدة لتنزيلها حصريًا من المستودع العمومي. يمكن الوصول إلى المستودع العمومي من منتجات Dynamics 365 وRCS. لمزيد من المعلومات، راجع [استيراد تكوينات ER من RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.16 من Finance
 
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>تنسيقات التقارير الإلكترونية "إقرار ضريبة القيمة المضافة (CZ)" و"تصدير كشف حساب المراقبة (CZ)" لجمهورية التشيك
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبدالها بتنسيقات جديدة |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل |
+| **الحالة**                         | مهمل: بحلول 22 يناير، 2022 ، فإننا نخطط لم دعم تنسيقات التقارير الإلكترونية (ER) لـ "إقرار ضريبة القيمة المضافة (CZ)" أو "تصدير كشف حساب المراقبة (CZ)". يتم تقديم تنسيقات إقرار XML لضريبة القيمة المضافة (CZ) ، وإقرار XML لضريبة القيمة المضافة Excel (CZ) ، وكشف التحكم XML لضريبة القيمة المضافة (CZ) بدلا من ذلك تحت نموذج "إقرار الضريبة". |
+
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"تنسيق تصدير حركة دفتر الأستاذ (BE)" تنسيق التقارير الإلكترونية ونموذج تصدير حركة دفتر الأستاذ (BE) "الخاص ببلجيكا
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم استبداله بتنسيق جديد للتقارير الإلكترونية ضمن النموذج "ملف مراجعة قياسي (SAF-T)".  |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم |
@@ -50,7 +91,7 @@ ms.locfileid: "4689484"
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>تقرير "ضريبة القيمة المضافة 100" للمملكة المتحدة بتنسيق SSRS.
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم استبداله بتنسيق ER الجديد - تنسيق Excel لإقرار ضريبة القيمة المضافة (المملكة المتحدة)" ضمن "نموذج إقرار الضريبة".  |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم |
@@ -62,7 +103,7 @@ ms.locfileid: "4689484"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>تم إهمال دعم Internet Explorer 11 لـ Dynamics 365
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | اعتبارًا من ديسمبر 2020، تم إهمال دعم Microsoft Internet Explorer 11 لجميع منتجات Dynamics 365، ولن يتم دعم Internet Explorer 11 بعد أغسطس 2021.<br><br>سيؤثر هذا الاجراء علي العملاء الذين يستخدمون منتجات Dynamics 365 التي تم تصميمها ليتم استخدامها من خلال واجهة Internet Explorer 11. بعد أغسطس 2021، لن يتم دعم Internet Explorer 11 لمنتجات Dynamics 365. |
 | **هل تم الاستبدال بميزة أخرى؟**   | نوصي العملاء بالانتقال إلى Microsoft Edge.|
@@ -72,21 +113,21 @@ ms.locfileid: "4689484"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.12 من Finance
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>تقارير SSRS البولندية: سجل ضريبة القيمة المضافة للإخراج، سجل ضريبة القيمة المضافة للإدخال، سجل تقرير ملخص ضريبة القيمة المضافة للاتحاد الأوروبي‬، مرجع الميزة PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>غير مهلكة: تقارير SSRS البولندية: سجل ضريبة القيمة المضافة للإخراج، سجل ضريبة القيمة المضافة للإدخال، سجل تقرير ملخص ضريبة القيمة المضافة للاتحاد الأوروبي‬، مرجع الميزة PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | غير مطلوبة من الناحية القانونية.  |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم (تنسيق Excel لملف المراجعة القياسي مع إقرار ضريبة القيمة المضافة - JPK_VDEK) |
-| **مناطق المنتجات المتأثرة**         | التطبيق |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | ميزات مهملة: بحلول 1 يوليو 2021، سنتوقف عن توفير الدعم لتقارير SSRS: **سجل ضريبة القيمة المضافة للإخراج، سجل ضريبة القيمة المضافة للإدخال، سجل تقرير ملخص ضريبة القيمة المضافة للاتحاد الأوروبي‬، مرجع الميزة PL-00014‬**. بدلاً من ذلك، سيتم تقديم مثال عن تنسيق Excel لملف المراجعة القياسي مع إقرار ضريبة القيمة المضافة (JPK_VDEK). |
+| **الحالة**                         | غير مهمل: اعتبارًا من 27 أبريل 2021، نخطط لمواصلة دعم تقارير SSRS: **سجل ضريبة القيمة المضافة على المبيعات، سجل ضريبة القيمة المضافة للشراء، ملخص الاتحاد الأوروبي لسجل ضريبة القيمة المضافة - مرجع الميزة PL-00014**. كما تم تقديم مثال تنسيق Excel لملف التدقيق القياسي مع إقرار ضريبة القيمة المضافة (JPK_VDEK). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.11 من Finance
 
 ### <a name="norwegian-standard-main-accounts"></a>الحسابات النرويجية الرئيسية القياسية
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | إعادة التصميم  |
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم (تم استبداله بالمعلمات الخاصة بتطبيق تنسيق التقارير الإلكترونية) |
@@ -97,7 +138,8 @@ ms.locfileid: "4689484"
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.7 من Finance
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>لم يعد مربع حوار تغيير طلب سير العمل يتضمن القائمة المنسدلة لتحديد المستخدم
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | يتم تغييرها إلى الميزة مع تحديد مجموعات الحساب.  |
 | **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم |
@@ -107,3 +149,6 @@ ms.locfileid: "4689484"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>الإعلانات السابقة حول الميزات التي تمت إزالتها أو إهمالها
 لمعرفه المزيد حول الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة، راجع [‏‫الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة‬](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

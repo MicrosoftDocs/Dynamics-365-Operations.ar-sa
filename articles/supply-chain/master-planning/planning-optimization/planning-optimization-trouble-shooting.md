@@ -2,16 +2,13 @@
 title: استكشاف أخطاء تحسين التخطيط وإصلاحها
 description: يوضح هذا الموضوع كيفية إصلاح المشكلات التي قد تواجهها أثناء العمل مع تحسين التخطيط.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c3dd0bf262f65aac2359c05ff954bdfbd294353f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbf21abae60d4adee5a23a8405d14907b91724fa2cbf31c901bb46c589b2ea49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421148"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768085"
 ---
 # <a name="troubleshoot-planning-optimization"></a>استكشاف أخطاء تحسين التخطيط وإصلاحها 
 
@@ -50,12 +47,6 @@ ms.locfileid: "4421148"
 
 **الإصلاح** : قم بتشغيل تحليل ملاءمة تحسين التخطيط ، ثم قم بتحليل النتائج في حين الرجوع إلى الوثائق ذات الصلة لفهم التأثير. لمزيد من المعلومات، راجع [تحليل ملائمة تحسين التخطيط](planning-optimization-fit-analysis.md).
 
-## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>التخطيط الرئيسي لا يحترم الحد الزمني للتغطية
-
-يحدث ذلك بسبب وجود ميزة معلقة لتحسين التخطيط.
-
-**الإصلاح**: حتى تتوفر الميزة المعلقة، قم بتصفية الأوامر المخططة أو حذفها الإزالة اقتراحات التوريد خارج الحد الزمني للتغطية.
-
 ## <a name="cant-enable-planning-optimization"></a>لا يمكن تمكين تحسين التخطيط
 
 يجب أن تكون **حالة الاتصال** **متصل** قبل أن تتمكن من تعيين **استخدام تحسين التخطيط** إلى **نعم**. لمزيد من المعلومات، راجع [الشروع في العمل مع تحسين التخطيط](get-started.md).
@@ -75,3 +66,6 @@ ms.locfileid: "4421148"
 [بدء تحسين التخطيط](get-started.md)
 
 [تحليل ملاءمة تحسين التخطيط](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

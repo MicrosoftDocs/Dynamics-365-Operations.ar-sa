@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 274503
 ms.assetid: 535ab25d-a031-4e8c-84ec-478f2987a1ad
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 298b5cbbf955527edb399eae78a1c8e60a8b9ce3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 765982c5a25ae99667766f7e8a3bd2010ec83b1b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421575"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254301"
 ---
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>استهلاك التكاليف الثابتة لصنف مصنّع
 
@@ -47,3 +46,6 @@ ms.locfileid: "4421575"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

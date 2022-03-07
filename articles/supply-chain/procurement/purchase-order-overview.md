@@ -1,12 +1,10 @@
 ---
 title: نظرة عامة على أمر الشراء
 description: توفر هذه المقالة معلومات عامة حول أوامر الشراء بالإضافة إلى ارتباطات تؤدي إلى مقالات ذات صلة بمختلف المراحل التي يمر عبرها أمر الشراء.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022221"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909115"
 ---
 # <a name="purchase-order-overview"></a>نظرة عامة على أمر الشراء
 
@@ -43,7 +41,7 @@ ms.locfileid: "5022221"
 -   [إنشاء أوامر شراء](purchase-order-creation.md)
 -   [اعتماد أوامر الشراء وتأكيدها](purchase-order-approval-confirmation.md)
 -   [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
--   [نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [نظرة عامة على فواتير المورّدين](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>أنواع أوامر الشراء
 ‏‫هناك ثلاثة أنواع من أوامر الشراء. عندما تنشئ أمر شراء، يتعين عليك تحديد النوع.‬ يمكنك إعداد نوع أمر افتراضي للأوامر الجديدة في صفحة **محددات تحديد الموارد والتدبير‬**.
@@ -87,7 +85,10 @@ ms.locfileid: "5022221"
 
 [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
 
-[نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
+[نظرة عامة على فواتير المورّدين](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

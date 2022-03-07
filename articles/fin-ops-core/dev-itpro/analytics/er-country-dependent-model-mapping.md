@@ -2,11 +2,9 @@
 title: تكوين تعيينات نماذج التقارير الإلكترونية التابعة لسياقات البلدان
 description: يشرح هذا الموضوع كيفيه اعداد تعيينات نماذج التقارير الإلكترونية لكي تعتمد علي سياق البلد/المنطقة الخاص بالكيان القانوني الذي يتحكم في استخدامه.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 83cd99350f58a56d121d694393edc4eb98af728a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680860"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753758"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>تكوين تعيينات نماذج التقارير الإلكترونية التابعة لسياقات البلدان
 
@@ -496,3 +494,6 @@ ms.locfileid: "4680860"
 - إصدار واحد على الأقل من تكوين تعيين نموذج التقارير الإلكترونية بالحالة **مكتمل** أو **مشترك**. في هذه الحالة، سيتم استخدام الإصدار الذي يحتوي على رقم الإصدار الأعلى لتنفيذ تنسيق التقارير الإلكترونية.
 - تم تشغيل خيار **تشغيل المسودة** لتكوين تعيين نموذج التقارير الإلكترونية. في هذه الحالة، سيتم استخدام الإصدار الذي له حالة **المسودة** لتنفيذ تنسيق التقارير الإلكترونية.
 > يتوفر خيار **تشغيل المسودة** في صفحة **التكوينات** لكل تكوين تعيين نموذج تقارير إلكترونية عند تشغيل معلمة مستخدم التقارير الإلكترونية **تشغيل الإعداد**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

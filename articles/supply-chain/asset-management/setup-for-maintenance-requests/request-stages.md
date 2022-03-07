@@ -1,12 +1,10 @@
 ---
 title: حالات دورة حياة طلب الصيانة
 description: يصف هذا الموضوع كيفية إعداد حالات دورة حياة طلب الصيانة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3c2f717969b938d05e68ac775d31b6a5d5ec26a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3ece0fc1121211706350d804fec59e72ef08282fcba4e65f557a510834738b11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022070"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743664"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>حالات دورة حياة طلبات الصيانة
 
@@ -50,7 +48,7 @@ ms.locfileid: "5022070"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **حالات دورة حياة طلب الصيانة**.
 
-![صفحة حالات دورة حياة طلبات الصيانة](media/02-setup-for-requests.png)
+![صفحة حالات دورة حياة طلبات الصيانة.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > ترتبط حالات دورة حياة طلب الصيانة وأنواع ومجموعات حالات دورة الحياة ببعضها، ويتم استخدامها بالطريقة نفسها كحالات دورة حياة أمر عمل وأنواع ومجموعات حالات دورة الحياة. 
@@ -68,9 +66,9 @@ ms.locfileid: "5022070"
 
 5. على علامة التبويب السريعة **حالات دورة الحياة**، حدد حالات دورة الحياة التي يجب تضمينها في نموذج دورة الحياة:
 
-    - لتضمين حالة دورة حياة في نموذج دورة الحياة، حددها في القسم **حالات دورة الحياة المتبقية**، ثم حدد زر السهم إلى اليمين ![سهم إلى اليمين](media/03-setup-for-requests.png) لنقلها إلى القسم **حالات دورة الحياة المحددة**.
+    - لتضمين حالة دورة حياة في نموذج دورة الحياة، حددها في قسم **حالات دورة الحياة المتبقية**، ثم حدد زر السهم إلى اليمين ![سهم إلى اليمين.](media/03-setup-for-requests.png) لنقلها إلى قسم **حالات دوره الحياة المحدد**.
     - لتضمين جميع حالات دورة الحياة المتوفرة في نموذج دورة الحياة، حدد الزر **تحديد جميع الحالات المتوفرة** ![تحديد جميع الحالات المتوفرة](media/04-setup-for-requests.png). يتم نقل جميع حالات دورة الحياة إلى القسم **حالات دورة الحياة المحددة**.
-    - لإزالة حالة دورة حياة من نموذج دورة الحياة، حددها في القسم **حالات دورة الحياة المحددة**، ثم حدد زر السهم إلى اليسار ![سهم إلى اليسار](media/05-setup-for-requests.png) لنقلها إلى القسم **حالات دورة الحياة المتبقية**.
+    - لإزالة حالة دورة حياة من نموذج دورة الحياة، حددها في قسم **حالات دورة الحياة المحددة**، ثم حدد زر السهم إلى اليسار ![سهم إلى اليسار.](media/05-setup-for-requests.png) لنقلها إلى قسم **حالات دوره الحياة المتبقية**.
 
 6. على علامة التبويب السريعة **عام**، تعتبر الحقول في قسم **التحديثات** ذات صلة إذا استخدمت إصلاح المستودع,
 
@@ -79,4 +77,7 @@ ms.locfileid: "5022070"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **نماذج دورة حياة طلب الصيانة**.
 
-![صفحة نماذج دورة حياة طلب الصيانة](media/06-setup-for-requests.png)
+![صفحة نماذج دورة حياة طلب الصيانة.](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

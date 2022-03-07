@@ -2,11 +2,9 @@
 title: تدقيق انتهاكات السياسة والحالات
 description: تشرح هذه المقالة كيفية إنشاء حالات التدقيق من انتهاكات قواعد سياسة التدقيق. وتتضمن أيضًا معلومات حول مختلف الطرق التي تتبعها سياسة التدقيق لاستخدام نطاق تاريخ تحديد المستند.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ddd403bfe82b1a7d3c0c5999f89bde19f1bba5e8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 057cb8afe0da5e0810a2d1c87f7cdbe73bc88b9819ca81631d889bfa1cc55e6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758091"
 ---
 # <a name="audit-policy-violations-and-cases"></a>تدقيق انتهاكات السياسة والحالات
 
@@ -30,8 +28,7 @@ ms.locfileid: "5022095"
 
 تشرح هذه المقالة كيفية إنشاء حالات التدقيق من انتهاكات قواعد سياسة التدقيق. وتتضمن أيضًا معلومات حول مختلف الطرق التي تتبعها سياسة التدقيق لاستخدام نطاق تاريخ تحديد المستند.
 
-<a name="how-audit-cases-are-generated"></a>كيفية إنشاء حالات التدقيق
------------------------------
+## <a name="how-audit-cases-are-generated"></a>كيفية إنشاء حالات التدقيق
 
 يتم استخدام سياسات التدقيق لتحديد تقارير المصروفات، وأوامر الشراء، وفواتير المورد التي لا تتوافق مع قواعد العمل التي تحددها وتكونها كقواعد سياسة تدقيق. 
 
@@ -60,3 +57,6 @@ ms.locfileid: "5022095"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

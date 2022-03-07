@@ -2,22 +2,25 @@
 title: تأكيد الشحنات الخارجية من الوظائف الدفعية
 description: يوضح هذا الموضوع كيفية إعداد وظيفة دُفعية تقوم بشكل تلقائي بتأكيد شحنات أوامر التحويل الصادرة للأحمال الجاهزة للشحن.
 author: perlynne
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 41dbfb90b7b19c964e725ee0a4c769402414fb17
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103905"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421133"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>تأكيد الشحنات الخارجية من الوظائف الدفعية
 
@@ -25,9 +28,12 @@ ms.locfileid: "8103905"
 
 يوضح هذا الموضوع كيفية إعداد وظيفة دُفعية تقوم بشكل تلقائي بتأكيد شحنات أوامر التحويل الصادرة للأحمال الجاهزة للشحن. تنطبق الوظيفة الدُفعية التي ورد وصفها هنا على شحنات أوامر التحويل وليس على أوامر المبيعات.
 
-## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>تشغيل ميزة تأكيد الشحنات الصادرة من الوظائف الدُفعية أو إيقاف تشغيلها
+## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>تمكين ميزة تأكيد الشحنات الصادرة من الوظائف الدُفعية
 
-لاستخدام الوظيفة الموضحة في هذا الموضوع ، يجب أن تكون الميزة *تأكيد الشحنات الخارجية من الوظائف الدفعية‬* قيد التشغيل في النظام. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *تأكيد الشحنات الخارجية من الوظائف الدفعية‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+قبل أن تتمكن من استخدام هذه الميزة، يجب تمكينها على النظام. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها إذا لزم الأمر. يتم إدراج الميزة على أنها:
+
+- **الوحدة** - *إدارة المستودعات*
+- **اسم الميزة** - *تأكيد الشحنات الصادرة من الوظائف الدُفعية*
 
 ## <a name="process-outbound-shipments"></a>معالجة الشحنات الصادرة
 
@@ -48,6 +54,3 @@ ms.locfileid: "8103905"
 1. حدد **موافق** في مربع الحوار **تأكيد الشحن** لإضافة الوظيفة الدُفعية إلى قائمة الدُفعات.
 
 لمزيد من المعلومات، راجع [نظرة عامة على المعالجة الدُفعية](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

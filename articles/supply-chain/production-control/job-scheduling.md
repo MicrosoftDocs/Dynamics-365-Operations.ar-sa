@@ -2,16 +2,13 @@
 title: جدولة الوظيفة
 description: توفر هذه المقالة معلومات حول جدولة الوظائف، وهو نموذج جدولة أكثر تفصيلاً من جدولة العمليات. يمكنك استخدام جدولة الوظائف لجدولة الوظائف الفردية أو أوامر التسوق، وللتحكم في بيئة التصنيع.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19431
 ms.assetid: aef37341-91d8-4263-80eb-35d9584be156
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bff966a68001d479b8631e13caa18c9ec8d2bf4c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4ac3602d765a87cccff8bfb26db5b7b63cbccb8e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421596"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811716"
 ---
 # <a name="job-scheduling"></a>جدولة الوظيفة
 
@@ -77,3 +74,6 @@ ms.locfileid: "4421596"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

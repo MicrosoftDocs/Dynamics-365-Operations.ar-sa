@@ -2,28 +2,27 @@
 title: نظرة عامة على التسوية
 description: يوفر هذا الموضوع معلومات عامة حول عملية التسوية. ويصف أي من أنواع الحركات يمكن تسويتها والتوقيت وعملية التسوية. كما يوضح أيضا نتائج عمليه التسوية.
 author: kweekley
-manager: AnnBe
 ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14551
+ms.custom:
+- "14551"
+- intro-internal
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 650b0ef0123cf9acf42c2e7460693b555897744f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a4950c4276fb862bcbf82e489ea3313a92e0515a
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439935"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336059"
 ---
 # <a name="settlement-overview"></a>نظرة عامة على التسوية
 
@@ -78,3 +77,6 @@ ms.locfileid: "4439935"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - [تسوية المبلغ المتبقي](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

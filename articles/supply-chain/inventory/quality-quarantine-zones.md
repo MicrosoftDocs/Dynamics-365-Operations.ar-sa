@@ -1,7 +1,7 @@
 ---
 title: مناطق العزل لحالات عدم المطابقة
 description: يوضح هذا الموضوع كيفيه إنشاء مناطق العزل لحالات عدم التوافق واستخدامها.
-author: yufeihuang
+author: rachel-profitt
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 207950a2ff4057853488f75d0e302a049d228b76
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c770da899f07597896d0d392b5192ddc4162bec6271d0e11c34797d7a15f857e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754025"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>مناطق العزل لحالات عدم المطابقة
 
@@ -43,7 +43,7 @@ ms.locfileid: "7578454"
 
 ### <a name="example-2"></a>مثال2
 
-يتم استخدام ثلاثة حاويات والحاملين لتخزين الأصناف غير المتوافقة. في هذه الحالة، يمكنك تكوين خمسه مناطق فحص، واحده لكل حاويه وكل حامل.
+يتم استخدام ثلاثه حاويات والحاملين لتخزين الأصناف غير المتوافقة. في هذه الحالة، يمكنك تكوين خمسه مناطق فحص، واحده لكل حاويه وكل حامل.
 
 ## <a name="create-a-quarantine-zone"></a>إنشاء منطقة عزل
 

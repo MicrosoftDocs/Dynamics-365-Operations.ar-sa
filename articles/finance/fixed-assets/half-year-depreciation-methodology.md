@@ -2,28 +2,25 @@
 title: منهج قاعدة إهلاك نصف السنة
 description: يصف هذا الموضوع الأسلوب الذي تستخدمه الأصول الثابتة لحساب الإهلاك باستخدام قاعدة نصف السنة، والذي يحسب سته أشهر من الإهلاك خلال العامين الأول والأخير من وضع الأصل قيد الخدمة.
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 55fb03cf08d8ec042aa8fb37fd1fb858d98279b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e71beb316494d05a3d8ce6066f2a4c72e32a2ad3d75a4ba3560cb0aebfe4cc8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439809"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746430"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>منهج قاعدة إهلاك نصف السنة
 
@@ -39,6 +36,9 @@ ms.locfileid: "4439809"
 > الإهلاك السنوي 50,000/5 = 10,000 الإهلاك الشهري 10,000/12 = 833.33 <br>
 > إهلاك السنة الأولى 10,000/2 = 5,000 والإهلاك الشهري التالي 5,000/9 = 555.56
 
-   [![جدول الإهلاك لقاعدة إهلاك نصف السنة](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![جدول الإهلاك لقاعدة إهلاك نصف السنة.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 توفر فترات الإهلاك الممتدة التي تضيفها قاعدة النصف سنة توزيعًا أكثر دقة للإهلاك. تمثل قاعدة الستة أشهر مصروفات الإهلاك بطريقة متساوية، الأمر الذي يعتبر مفيدًا لإعداد تقرير كشف الأرباح والخسائر.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

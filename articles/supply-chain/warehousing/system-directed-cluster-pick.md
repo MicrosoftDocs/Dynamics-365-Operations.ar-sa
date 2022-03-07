@@ -2,11 +2,9 @@
 title: انتقاء نظام مجموعة بتوجيه من النظام
 description: يوفر هذا الموضوع نظرة عامة حول انتقاء نظام مجموعة بتوجيه من النظام في Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3c474705e5260f4be62bc59d8d1d84a1ba597b6f96eafd8f673cc110285fc597
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772342"
 ---
 # <a name="system-directed-cluster-picking"></a>انتقاء نظام مجموعة بتوجيه من النظام
 
@@ -206,3 +204,6 @@ ms.locfileid: "4965667"
 1. الخطوة الأخيرة على الجهاز المحمول هي **وضع** نظام المجموعة في الموقع النهائي. حدد **موافق**.
     - عند تأكيد عملية الوضع، يتم إغلاق نظام المجموعة وتقسيمه، استنادًا إلى القيمة التي قمت بتعيينها للحقل **تقسيم نظام المجموعة في** في ملف تعريف نظام المجموعة. يتم أيضًا إغلاق معرفات العمل.
 1. يتم عرض رسالة "اكتمل نظام المجموعة" على الجهاز المحمول.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

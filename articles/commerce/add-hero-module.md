@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,21 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ad95dc943f075e088f5e13b507fa08f11548282f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409830"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206261"
 ---
 # <a name="content-block-module"></a>وحدة كتلة المحتوى
-
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع وحدات كتل المحتوى ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تُستخدم وحدة كتبة المحتوى لتسويق المنتجات أو العروض الترويجية من خلال مجموعة من الصور والنصوص. على سبيل المثال، يمكن لبائع التجزئة إضافة وحدة كتلة محتوى إلى الصفحة الرئيسية لموقع التجارة الإلكترونية للترويج لمنتج جديد وجذب انتباه العملاء.
 
@@ -107,3 +103,6 @@ ms.locfileid: "4409830"
 [وحدة كتلة النص](add-content-rich-block.md)
 
 [وحدة نمطية لمشغل الفيديو](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

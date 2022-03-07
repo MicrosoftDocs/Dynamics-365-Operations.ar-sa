@@ -2,26 +2,23 @@
 title: تفاصيل بنود العمل
 description: يوفر هذا الموضوع معلومات حول صفحة تفاصيل بند العمل، التي تُظهر قائمة شاملة وقابلة للفرز وقابلة للتصفية لبنود العمل الفردية في النظام الخاص بك.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421746"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778271"
 ---
 # <a name="work-line-details"></a>تفاصيل بنود العمل
 
@@ -31,7 +28,7 @@ ms.locfileid: "4421746"
 
 ## <a name="turn-on-the-work-line-details-feature"></a>تشغيل ميزة تفاصيل بند العمل
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
 
 - **الوحدة:** *إدارة المستودعات*
 - **اسم الميزة:** *تفاصيل بند العمل*
@@ -128,3 +125,6 @@ ms.locfileid: "4421746"
 
 > [!IMPORTANT]
 > إذا قمت فقط بإلغاء جزء من الكمية لبند العمل، فيجب عليك أيضًا إزالة الكمية المهملة من بند الحمل. خلاف ذلك، ما لم يتم إعداد التسليم بالنقص بشكل صحيح، لا يمكن تأكيد الشحن لبند الحمل.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: الصفحة الرئيسية لإدارة البنك والنقد
 description: يمكنك استخدام إدارة البنك والنقد للاحتفاظ بالحسابات البنكية الخاصة بالكيان القانوني والمستندات المالية المقترنة بتلك الحسابات البنكية.
-author: roschlom
+author: panolte
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "21941"
-- intro-internal
+ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de37cc3df673a672a091ffe90ca543fae77bc9d5
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: cf933d3356fbca5c89652b5372fc35632d127df3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883684"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243577"
 ---
 # <a name="cash-and-bank-management-home-page"></a>الصفحة الرئيسية لإدارة البنك والنقد
 
@@ -32,9 +32,9 @@ ms.locfileid: "7883684"
 
 وتشمل هذه المستندات إيصالات الإيداع والشيكات والكمبيالات والسندات الإذنية. كما يُمكنك تسوية كشوف الحسابات البنكية‬ وطباعة البيانات البنكية في التقارير القياسية.
 
-**عمليات الأعمال**
+**‏‏العمليات التجارية**
 
-[![عملية الأعمال.](./media/Cash-process.PNG)](./media/Cash-process.PNG)
+[![العملية التجارية](./media/Cash-process.PNG)](./media/Cash-process.PNG)
 
 -   [الخصومات النقدية](cash-discounts.md)
 -   [نظرة عامة على التسوية](settlement-overview.md)
@@ -85,7 +85,7 @@ ms.locfileid: "7883684"
 
 #### <a name="whats-new-and-in-development"></a>ما الجديد وقيد التطوير
 
-انتقل إلى [خطط إصدار Microsoft Dynamics 365](/dynamics365/release-plans/) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
+انتقل إلى [خطط إصدار Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
 
 #### <a name="blogs"></a>المدونات
 

@@ -1,17 +1,14 @@
 ---
-title: إظهار الخصومات في نقطة البيع
+title: عرض الخصومات في نقطة البيع
 description: يشرح هذا الموضوع كيفية قيام Microsoft Dynamics 365 Commerce بمساعدة شركاء المبيعات على التعرف على العروض الترويجية وكيفية استخدامها في حركات البيع التكميلي والإضافي‬.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409896"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731657"
 ---
 # <a name="show-discounts-in-pos"></a>إظهار الخصومات في نقطة البيع
 
@@ -36,7 +33,7 @@ ms.locfileid: "4409896"
 
 يتضمن Commerce عملية تسمى "عرض جميع الخصومات". تعرض هذه العملية جميع الخصومات المتوفرة حاليًا في المتجر. يمكن تعيين عملية "عرض جميع الخصومات" إلى زر في نقطة البيع (POS)، ويمكن إضافة هذا الزر إلى صفحة **الرحيب** أو صفحة **الحركة**. يبين الرسم التوضيحي التالي مثالاً لصفحة **جميع الخصومات** التي تفتح.
 
-![صفحة جميع الخصومات](./media/View_all_discounts.png "صفحة جميع الخصومات")
+![صفحة جميع الخصومات.](./media/View_all_discounts.png "صفحة جميع الخصومات")
 
 لعرض الخصومات، يبحث النظام عن جميع الخصومات التي تتطابق مع حالة أو أكثر من الحالات التالية:
 
@@ -64,8 +61,11 @@ ms.locfileid: "4409896"
 
 يبين الرسم التوضيحي التالي المنطق الذي يتم استخدامه عند تعيين عنصر تحكم تزامن الخصم إلى **السعر الأفضل والمركب ضمن الأولوية، لا يوجد المركب أبدًا عبر الأولويات**.
 
-![منطق السعر الأفضل والمركب ضمن الأولوية، لا يوجد المركب أبدًا عبر الأولويات](./media/Model_1.png "منطق السعر الأفضل والمركب ضمن الأولوية، لا يوجد المركب أبدًا عبر الأولويات.").
+![منطق السعر الأفضل والمركب ضمن الأولوية، لا يوجد المركب أبدًا عبر الأولويات.](./media/Model_1.png "منطق السعر الأفضل والمركب ضمن الأولوية، لا يوجد المركب أبدًا عبر الأولويات.").
 
 يبين الرسم التوضيحي التالي المنطق الذي يتم استخدامه عند تعيين عنصر تحكم تزامن الخصم إلى **السعر الأفضل فقط ضمن الأولوية، السعر المركب دائمًا عبر الأولويات**.
 
-![منطق السعر الأفضل فقط ضمن الأولوية، السعر المركب دائمًا عبر الأولويات](./media/Model_2.png "منطق السعر الأفضل فقط ضمن الأولوية، السعر المركب دائمًا عبر الأولويات.").
+![منطق السعر الأفضل فقط ضمن الأولوية، السعر المركب دائمًا عبر الأولويات.](./media/Model_2.png "منطق السعر الأفضل فقط ضمن الأولوية، السعر المركب دائمًا عبر الأولويات.").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

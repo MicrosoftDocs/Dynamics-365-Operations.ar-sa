@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2254453201817d906de9805e2cfd3c9e74c9497c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409919"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234475"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>عملية المخزون الداخلية في نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
-في Microsoft Dynamics 365 Commerce الإصدار 10.0.10 والإصدارات الأحدث، تقوم العمليات الداخلية والخارجية في نقطه البيع (POS) باستبدال عملية الانتقاء والاستلام.
+في Microsoft Dynamics 365 Commerce الإصدار 10.0.10 والإصدارات الأحدث، تقوم العمليات الداخلية والخارجية في نقطة البيع (POS) باستبدال عملية الانتقاء والاستلام.
 
 > [!NOTE]
 > في الإصدار 10.0.10 والإصدارات الأحدث من Commerce، ستتم إضافة أية ميزات جديدة في تطبيق نقطة البيع المرتبطة باستلام مخزن المتجر مقابل أوامر الشراء وأوامر التحويل إلى عملية نقطة البيع **العملية الداخلية**. إذا كنت تستخدم حاليًا عمليه الانتقاء والاستلام في في نقطة البيع، فاننا نوصي بتطوير استراتيجية للانتقال من هذه العملية إلى العمليات الخارجية والداخلية الجديدة. على الرغم من ان عمليه الانتقاء والاستلام لن تتم ازالتها من المنتج، إلا أنه لن تكون هناك إيه استثمارات إضافية فيه، من منظور الوظيفة أو الأداء، بعد إصدار 10.0.9.
@@ -221,3 +220,6 @@ ms.locfileid: "4409919"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [عملية المخزون الخارجية في نقطة البيع](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

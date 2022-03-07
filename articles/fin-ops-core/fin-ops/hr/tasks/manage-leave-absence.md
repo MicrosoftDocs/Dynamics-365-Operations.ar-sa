@@ -2,11 +2,9 @@
 title: إدارة إجازات الغياب
 description: ينقلك هذا الإجراء عبر عملية إنشاء سجلات إجازة الموظف.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmEmploymentLeave
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd49e4c1c5c97094061fa119ac1dda99ef69e5e4
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5bb65e7cd77450751718aaa0b6179ba7386de8ab
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797962"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751852"
 ---
 # <a name="manage-leave-of-absence"></a>إدارة إجازات الغياب
 
@@ -46,3 +44,6 @@ ms.locfileid: "4797962"
     * على سبيل المثال: إجازة للتبني  
 12. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

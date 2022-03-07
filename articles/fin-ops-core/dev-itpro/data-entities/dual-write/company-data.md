@@ -2,11 +2,9 @@
 title: مفهوم الشركة في Dataverse
 description: يوضح هذا الموضوع تكامل بيانات الشركة بين Finance and Operations وDataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bbe634b87b3cb30ed993f9b3afeb4321d70f07e6
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744869"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350949"
 ---
 # <a name="company-concept-in-dataverse"></a>مفهوم الشركة في Dataverse
 
@@ -45,7 +43,7 @@ ms.locfileid: "4744869"
 
 يبين الرسم التوضيحي التالي مثالاً عن إعداد البيانات هذا في Dataverse.
 
-![إعداد البيانات في Dataverse](media/dual-write-company-1.png)
+![إعداد البيانات في Dataverse.](media/dual-write-company-1.png)
 
 بسبب هذا التكوين، فإن أي صف يرتبط بشركة USMF سيكون مملوكًا من قِبل فريق يرتبط بوحدة أعمال USMF في Dataverse. وبالتالي، بإمكان أي مستخدم لديه حق الوصول إلى وحدة الأعمال هذه من خلال دور أمان تم تعيينه إلى الرؤية على مستوى وحدة الأعمال رؤية هذه الصفوف الآن. يوضح المثال التالي كيف يمكن استخدام الفرق لتوفير الوصول الصحيح إلى هذه الصفوف.
 
@@ -54,21 +52,21 @@ ms.locfileid: "4744869"
 + يرتبط فريق "مبيعات USMF" بوحدة أعمال USMF التي تم ذكرها في وقت سابق.
 + وبالتالي، يمكن لأعضاء فريق "مبيعات USMF" رؤية أي حساب مملوك من قبل مستخدم "USMF DW"، ومصدره جدول شركة USMF في Finance and Operations.
 
-![كيف يمكن استخدام الفرق](media/dual-write-company-2.png)
+![كيف يمكن استخدام الفرق.](media/dual-write-company-2.png)
 
 كما يظهر في الرسم التوضيحي السابق، هذا التعيين 1:1 بين وحدة الأعمال والشركة والفريق هو مجرد نقطة بداية. في هذا المثال، يتم إنشاء وحدة أعمال جديدة "أوروبا" في Dataverse كأصل لكل من DEMF وESMF. وحدة الأعمال الجذر الجديدة هذه لا علاقة لها بالكتابة المزدوجة. ومع ذلك، يمكن استخدامها لمنح أعضاء فريق "مبيعات اليورو" حق الوصول إلى بيانات الحساب في كل من DEMF وESMF عن طريق تعيين رؤية البيانات إلى **وحدة الأعمال الأصل/التابعة** في دور الأمان المقترن.
 
 الموضوع الأخير للمناقشة هو كيف تحدد الكتابة المزدوجة الفريق المالك الذي يجب تعيين الصفوف إليه. يتم التحكم في هذا السلوك بواسطة العمول **الفريق المالك الافتراضي** على صف cdm\_Company. عند تمكين صف cdm\_للكتابة المزدوجة، يقوم مكون إضافي بشكل تلقائي بإنشاء وحدة الأعمال المقترنة والفريق المالك (إذا لم يكن موجودًا بعد)، ويعيّن عمود **الفريق المالك الافتراضي**. يمكن للمسؤول تغيير هذا العمود إلى قيمة مختلفة. ومع ذلك، لا يمكن للمسؤول مسح العمود طالما تم تمكين الجدول للكتابة المزدوجة.
 
 > [!div class="mx-imgBorder"]
-![عمود الفريق المالك الافتراضي](media/dual-write-default-owning-team.jpg)
+![عمود الفريق المالك الافتراضي.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>تجزئة بيانات الشركة والتمهيد
 
 يؤدي تكامل Dataverse إلى إحضار تماثل الشركة باستخدام معرف الشركة لتجزئة البيانات. كما يبين الرسم التوضيحي التالي، يتم توسيع جميع الجداول الخاصة بالشركة بحيث تكون لها علاقة واحد إلى متعدد (N:1) مع جدول cdm\_Company.
 
 > [!div class="mx-imgBorder"]
-![علاقة N:1 بين جدول خاص بالشركة وجدول cdm_Company](media/dual-write-bootstrapping.png)
+![علاقة N:1 بين جدول خاص بالشركة وجدول cdm_Company.](media/dual-write-bootstrapping.png)
 
 + بالنسبة إلى الصفوف، بعد إضافة شركة وحفظها، تصبح القيمة للقراءة فقط. لذلك، يجب على المستخدمين التأكد من تحديد الشركة الصحيحة.
 + وحدها الصفوف التي تحتوي على بيانات الشركة مؤهلة للكتابة المزدوجة بين التطبيق وDataverse.
@@ -91,7 +89,7 @@ ms.locfileid: "4744869"
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="يؤدي اختيار أحد الصفوف إلى تغيير الشركة الافتراضية.":::
 
-+ إذا كنت من مكونيّ النظام أو المسؤول، وتريد ملء بيانات الشركة تلقائيًا في نموذج مخصص، فيمكنك استخدام [أحداث النموذج](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). قم بإضافة مرجع  JavaScript **msdyn_/DefaultCompany.js** واستخدم الأحداث التالية. يُمكنك استخدام أيًا من النماذج الجاهزة، على سبيل المثال، نموذج **الحساب**.
++ إذا كنت من مكونيّ النظام أو المسؤول، وتريد ملء بيانات الشركة تلقائيًا في نموذج مخصص، فيمكنك استخدام [أحداث النموذج](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). قم بإضافة مرجع  JavaScript **msdyn_/DefaultCompany.js** واستخدم الأحداث التالية. يُمكنك استخدام أيًا من النماذج الجاهزة، على سبيل المثال، نموذج **الحساب**.
 
     + حدث **OnLoad** للنموذج: قم بتعيين عمود **defaultCompany**.
     + حدث **OnChange** لعمود **الشركة**: قم بتعيين عمود **updateDefaultCompany**.
@@ -100,5 +98,8 @@ ms.locfileid: "4744869"
 
 لتطبيق التصفية استنادًا إلى سياق الشركة في النماذج المخصصة الخاصة بك أو في أعمدة البحث المخصصة المضافة إلى النماذج القياسية، افتح النموذج واستخدم قسم **تصفية السجلات ذات الصلة** لتطبيق عامل تصفية الشركة. يجب تعيين هذا لكل عمود بحث يتطلب تصفية استنادًا إلى الشركة الأساسية في صف مُحدد. يتم عرض الإعداد الخاص بـ **الحساب** في الرسم التوضيحي التالي.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="تطبيق سياق الشركة":::
+:::image type="content" source="media/apply-company-context.png" alt-text="تطبيق سياق الشركة.":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

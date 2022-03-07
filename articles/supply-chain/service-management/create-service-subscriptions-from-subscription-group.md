@@ -2,41 +2,38 @@
 title: إنشاء اشتراكات خدمة من مجموعة اشتراك
 description: يمكنك إنشاء اشتراكات خدمة من مجموعة مشتركين.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f37acb8a931e6120ff8269df4dc4fec5c0535ce1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7847784903d793a815cba06d099e794aeb7d899c0d6e8fa35e9984102523ec9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728497"
 ---
-# <a name="create-service-subscriptions-from-a-subscription-group"></a>إنشاء اشتراكات خدمة من مجموعة اشتراك 
+# <a name="create-service-subscriptions-from-a-subscription-group"></a>إنشاء اشتراكات خدمة من مجموعة اشتراكات 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  انقر فوق **إدارة الخدمة** \> **إعداد** \> **اشتراكات الخدمة** \> **مجموعات الاشتراك**.
+1.  حدد **إدارة الخدمة** \> **إعداد** \> **اشتراكات الخدمة** \> **مجموعات الاشتراك**.
 
 2.  حدد مجموعة اشتراك.
 
-3.  انقر فوق زر **اشتراكات الخدمة**.
+3.  حدد الزر **اشتراكات الخدمة**.
 
-4.  اضغط على Ctrl+N لإنشاء اشتراك جديد. يعرض حقل مجموعة المشتركين معلومات من مجموعة المشتركين في نموذج **الاشتراك**.
+4.  حدد **جديد** لإنشاء اشتراك جديد. يعرض حقل مجموعة المشتركين معلومات من مجموعة المشتركين في نموذج **الاشتراك**.
 
 5.  أدخل المعلومات في الحقول المتبقية.
 
@@ -45,3 +42,6 @@ ms.locfileid: "4421461"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c71d31d7045c73097b81671793181a29dcac3b5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064907"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360558"
 ---
 # <a name="payroll-integration-api-introduction"></a>‏‫مقدمة إلى واجهة API لتكامل كشف الرواتب
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -33,8 +30,8 @@ ms.locfileid: "8064907"
 
 لتمكين التكامل، تتضمن Human Resources المكونات التالية:
 
-- [وظيفة لوضع علامة على الموظف كجاهز للدفع.](hr-compensation-payroll.md)
-- تفتح واجهة API للتكامل الوظائف الجديدة لتكامل الطلبات.
+- وظيفة لوضع علامة على الموظف كجاهز للدفع
+- واجهة API للتكامل تفتتح الوظائف الجديدة لتكامل التطبيقات.
 
 ## <a name="microsoft-dataverse"></a>Microsoft Dataverse
 

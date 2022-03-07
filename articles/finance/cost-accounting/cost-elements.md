@@ -2,28 +2,25 @@
 title: أبعاد عنصر التكلفة
 description: تعتبر أبعاد عنصر التكلفة أحد الركائز الأساسية في محاسبة التكاليف، ويتم استخدامها لتصنيف وتعقب الأماكن التي تتدفق التكاليف إليها.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223204
 ms.assetid: 1eda0e62-760b-4737-9dfd-3c3c38d80c1a
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e67ce047d08af6d34090ee4e1dc379dd16ecce07
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 667fb81a2c1c8f564c09fe8fb7921c7aff75920bfa4326e82078583df61576e0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440041"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728759"
 ---
 # <a name="cost-element-dimensions"></a>أبعاد عنصر التكلفة
 
@@ -66,7 +63,7 @@ ms.locfileid: "4440041"
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>أبعاد عنصر التكلفة وأعضاء أبعاد عنصر التكلفة
 يُشار إلى عناصر التكلفة باسم *أبعاد عنصر التكلفة* . وتسمى قيم الأبعاد الفردية *أعضاء أبعاد عنصر التكلفة*. على سبيل المثال، لديك بنية دليل حسابات الولايات المتحدة (COA) وهو عبارة عن قاعدة للتقارير التنظيمية. يتم استخدام COA كبعد عنصر التكلفة. ويتم تمثيل الحسابات، وهي عناصر التكلفة الأساسية، كأعضاء أبعاد عنصر التكلفة في محاسبة التكاليف. تظهر لقطة الشاشة التالية للحسابات الرئيسية كبعد عنصر التكلفة مع حساباته الرئيسية الفعلية كأعضاء أبعاد عنصر التكلفة. 
 
-[![لقطة شاشة للحسابات الرئيسية كبعد عنصر تكلفة](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![لقطة شاشة للحسابات الرئيسية كبعد عنصر تكلفة.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>استيراد أعضاء أبعاد عنصر التكلفة من خلال موصلات البيانات
 لتسهيل عملية إعداد أعضاء أبعاد عنصر التكلفة في محاسبة التكاليف، يمكنك استخدام موصلات البيانات المبنية بشكل مسبق أو قمت أنت ببنائها بشكل مخصص لاسترداد عناصر التكلفة الأساسية من نظام مصدر واحد أو أكثر.
@@ -76,3 +73,6 @@ ms.locfileid: "4440041"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

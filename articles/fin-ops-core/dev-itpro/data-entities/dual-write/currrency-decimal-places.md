@@ -2,28 +2,19 @@
 title: ترحيل نوع بيانات العملة للكتابة الثنائية
 description: يوضح هذا الموضوع كيفية تغيير عدد المنازل العشرية التي تدعمها الكتابة الثنائية للعملة.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 62b24da65bfef64d54552e4a098941fee8c9bfd4
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744365"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416721"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>ترحيل نوع بيانات العملة للكتابة الثنائية
 
@@ -84,14 +75,17 @@ ms.locfileid: "4744365"
 
 بعد اكتمال الترحيل، يمكن للمسؤولين تعيين دقه العملة. انتقل إلى **الإعدادات \> الإدارة**، وحدد **إعدادات النظام**. بعد ذلك، في علامة التبويب **عام**، قم بتغيير قيمة العمود **تعييم دقة العملة التي يتم استخدامها للتسعير خلال النظام**، كما هو موضح في الرسم التوضيحي التالي.
 
-![إعدادات النظام للعملة](media/currency-system-settings.png)
+![إعدادات النظام للعملة.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>إدارة الأعمال: العملات
 
 إذا كنت ترغب في أن تختلف دقه العملة لعملة محددة عن دقه العملة المستخدمة في التسعير، فإنه يمكنك تغييرها. انتقل إلى **الإعدادات \> إدارة الأعمال**، حدد **العملات**، وحدد العملة المراد تغييرها. ثم قم بتعيين العمود **دقه العملة** إلى عدد المنازل العشرية الذي تريده، كما هو مبين في الرسم التوضيحي التالي.
 
-![إعدادات العملة لإعدادات محلية معينة](media/specific-currency.png)
+![إعدادات العملة لإعدادات محلية معينة.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>الجداول: عمود العملة
 
 يتم تحديد عدد المنازل العشرية التي يمكن تكوينها لأعمدة عملة معينة على أربعة.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

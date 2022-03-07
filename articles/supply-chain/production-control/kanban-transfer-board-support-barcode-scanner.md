@@ -1,39 +1,35 @@
 ---
-title: دعم لوحة تحويل كانبان للماسحات الضوئية للرمز الشريطي
+title: دعم لوحة تحويل كانبان للماسحات الضوئية للأكواد الشريطية
 description: تدعم لوحة تحويل كانبان‬ إدخال الماسح الضوئي من ماسح ضوئي للرمز الشريطي لعنصر واجهة مستخدم لتحديد وظيفة كانبان وبدء تنفيذها وإكمالها وإفراغها.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b18aad4dcdbf8c2d18960ae306556c3ea679d622
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421595"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566801"
 ---
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>دعم لوحة تحويل كانبان للماسحات الضوئية للرمز الشريطي
+# <a name="kanban-transfer-board-support-for-bar-code-scanners"></a>دعم لوحة تحويل كانبان للماسحات الضوئية للأكواد الشريطية
 
 [!include [banner](../includes/banner.md)]
 
 تدعم لوحة تحويل كانبان‬ إدخال الماسح الضوئي من ماسح ضوئي للرمز الشريطي لعنصر واجهة مستخدم لتحديد وظيفة كانبان وبدء تنفيذها وإكمالها وإفراغها.
 
-<a name="registration-modes"></a>أوضاع التسجيل
-------------------
+## <a name="registration-modes"></a>أوضاع التسجيل
 
 في علامة التبويب السريع **تسجيل الماسح الضوئي**، يمكنك تحديد وضع التسجيل، التي تتحكم في الإجراء عند قيامك بمسح رقم بطاقة كانبان ضوئيًا أو بكتابة الرقم في حقل رقم بطاقة كانبان يدوياً.
 
@@ -44,11 +40,10 @@ ms.locfileid: "4421595"
 | فارغ                 | تسجيل وحدة معالجة المواد المشار إليها ببطاقة كانبان على أنها وحدة فارغة.              |
 | تحديد                | تسجيل رقم بطاقة كانبان وتحديد الوظيفة المشار إليها تلقائيًا في قائمة كانبان. |
 
- 
-تحديد وضع التسجيل
-------------------------
+ 
+## <a name="registration-mode-select"></a>تحديد وضع التسجيل
 
-عند استخدام قارئ الرمز الشريطي لتحديد وظيفة، يتغير وضع عرض تغييرات لوحة كانبان. في هذا الوضع، تنطبق الشروط التالية:
+عند استخدام قارئ الرمز الشريطي لتحديد وظيفة، يتغير وضع عرض تغييرات لوحة كانبان. في هذا الوضع، تنطبق الشروط التالية:
 
 -   يتم عرض وظيفة كانبان التي تم مسحها ضوئياً فقط.
 -   يتم عرض تفاصيل الوظيفة المحددة في علامة التبويب السريع **تفاصيل**.
@@ -192,3 +187,6 @@ ms.locfileid: "4421595"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

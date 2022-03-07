@@ -10,24 +10,22 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: d0d96ddb20b2b09751d8c0c0bf8af713de35279a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594939"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222623"
 ---
-# <a name="customize-transactional-emails-by-mode-of-delivery"></a>تخصيص رسائل البريد الإلكتروني للحركات حسب وضع التسليم
+# <a name="customize-transactional-emails-by-mode-of-delivery"></a>تخصيص رسائل البريد الكتروني للحركات بحسب وضع التسليم
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفية إعداد قوالب بريد إلكتروني مخصصة لأنواع إخطارات معينة وأنماط التسليم في Microsoft Dynamics 365 Commerce.
 
@@ -73,3 +71,6 @@ ms.locfileid: "4594939"
 [إنشاء أوامر مركز الاتصال](tasks/create-call-center-orders.md)
 
 [تغيير ‏‫وضع التسليم‬ في نقطة البيع](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

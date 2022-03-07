@@ -1,12 +1,10 @@
 ---
 title: التحديث التلقائي لعدادات الأصول
 description: يصف هذا الموضوع التحديث التلقائي لعدادات الأصول‬ في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d3e8619439545cf3ea42f84a6dd7ee6ffdf1026e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9a3814a575fbe4379b59723f269d83379a253ede71962c0c82b5f4cc55d36e6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021920"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738285"
 ---
 # <a name="automatic-update-of-asset-counters"></a>التحديث التلقائي لعدادات الأصول
 
@@ -51,7 +49,7 @@ ms.locfileid: "5021920"
 
     يبين الرسم التوضيحي التالي مثالاً لمربع الحوار **تحديث عدادات الأصول**.
 
-    ![الشكل 1](media/12-work-orders.png)
+    ![الشكل 1.](media/12-work-orders.png)
 
 5. حدد **موافق**. 
 
@@ -61,7 +59,7 @@ ms.locfileid: "5021920"
 
 يبين الرسم التوضيحي التالي مثالاً لصفحة **قيمة الأصول المجمعة**.
 
-![الشكل 2](media/13-work-orders.png)
+![الشكل 2.](media/13-work-orders.png)
 
 لاحظ النقاط التالية:
 
@@ -69,3 +67,6 @@ ms.locfileid: "5021920"
 
 - يمكنك إعداد عدادات مرتبطة بعداد آخر. في هذه الحالة، عند تحديث عداد، يتم تحديث العدادات ذات الصلة تلقائيًا في نفس الوقت. للحصول علي المزيد من المعلومات حول كيفية إعداد العدادات ذات الصلة، راجع [العدادات](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

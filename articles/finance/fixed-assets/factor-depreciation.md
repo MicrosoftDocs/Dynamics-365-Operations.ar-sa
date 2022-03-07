@@ -1,29 +1,26 @@
 ---
 title: إهلاك العامل
 description: توفر هذه المقالة نظرة عامة على أسلوب الإهلاك بالمعامل.
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5c36441e926cd5a82c802a350adf6b2ed6d6387
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aab5ab518f2806e1b27f352e354dc9280fd27def
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439886"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674444"
 ---
 # <a name="factor-depreciation"></a>إهلاك العامل
 
@@ -79,3 +76,6 @@ ms.locfileid: "4439886"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

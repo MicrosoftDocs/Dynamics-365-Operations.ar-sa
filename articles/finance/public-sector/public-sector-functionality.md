@@ -1,29 +1,29 @@
 ---
 title: الصفحة الرئيسية للقطاع العام
-description: يدعم Dynamics 365 Finance عمليات الأعمال المشتركة للقطاع العام. وتشمل هذه العمليات مهام إعداد الموازنة والشراء والحسابات الدائنة والحسابات المدينة.‬
-author: v-kiarnd
+description: يدعم Dynamics 365 Finance عمليات الأعمال المشتركة للقطاع العام. وتشمل هذه العمليات إعداد الموازنة، والشراء، والحسابات الدائنة، ومهام الحسابات المدينة.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "20691"
-- intro-internal
+ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f59522ab857445d69012f4cfdfade47c40189266
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817731"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984675"
 ---
 # <a name="public-sector-home-page"></a>الصفحة الرئيسية للقطاع العام
 
@@ -43,7 +43,7 @@ ms.locfileid: "7817731"
 
 - [خطة لوظائف القطاع العام](plan-public-sector-functionality.md)
 - [نظرة عامة حول الحسابات الدائنة في القطاع العام](accounts-payable-public-sector.md)
-- [نظرة عامة حول الحسابات الدائنة في القطاع العام](accounts-receivable-public-sector.md)
+- [نظرة عامة حول الحسابات المدينة في القطاع العام](accounts-receivable-public-sector.md)
 - [نظرة عامة حول إعداد الموازنة في القطاع العام](budgeting-public-sector.md)
 - [الأصول الثابتة في القطاع العام](fixed-asset-public-sector.md)
 - [محاسبة القطاع العام في فرنسا](../localizations/emea-fra-public-sector-accounting.md)
@@ -65,12 +65,10 @@ ms.locfileid: "7817731"
 | المفاتيح الفرعية | مفتاح تكوين **إدخال دفتر الأستاذ المتقدم‬** (AdvancedLedgerEntry) مفتاح تكوين **القطاع العام 1099G** (Tax1099G) مفتاح تكوين **القطاع العام 1099S** (Tax1099S) مفتاح تكوين **اللوائح التنظيمية الفرنسية‬** |
 
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
 [خطة لوظائف القطاع العام](plan-public-sector-functionality.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

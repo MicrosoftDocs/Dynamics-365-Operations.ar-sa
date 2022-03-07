@@ -2,11 +2,9 @@
 title: موازنة الدفعات
 description: يصف هذا الموضوع عملية موازنة الدفعات.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8c1f52239b2050425c37a8130507e689b29205a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780066"
 ---
 # <a name="batch-balancing"></a>موازنة الدفعات
 
@@ -186,3 +184,6 @@ ms.locfileid: "4966545"
 1. إذا كانت وحده قياس التركيبة مختلفه عن وحده قياس المخزون الخاصة بالمكون النشط، فان أمر المجموعة غير قابل للتطبيق لموازنة المجموعة.
 
 يمر أمر الدفعة غير القابل للتطبيق لموازنة الدفعات في دورة عملية عادية للأوامر الدفعية.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,36 +2,30 @@
 title: إعداد مستودع
 description: يصف هذا الموضوع كيفية إعداد مستودع لاستخدامه مع قناة جديدة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734009"
 ---
 # <a name="warehouse-set-up"></a>إعداد مستودع
-
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية إعداد مستودع لاستخدامه مع قناة جديدة في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تحتاج كل قناة تجارية إلى مستودع مكوّن يرتبط بها. توفر الإجراءات التالية الحد الأدنى من التكوين المطلوب لإعداد مستودع لقناة تجارية. لمزيد من المعلومات حول إعداد المستودع، راجع [نظرة عامة حول إدارة المستودعات](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -51,7 +45,7 @@ ms.locfileid: "4409884"
 
 تعرض الصورة التالية مثالاً لموقع مستودع.
 
-![مثال عن موقع مستودع](media/warehouse-site.png)
+![مثال عن موقع مستودع.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>إعداد مستودع
 
@@ -104,7 +98,7 @@ ms.locfileid: "4409884"
     
 تعرض الصورة التالية إعداد موقع مخزون مستودع سان فرانسيسكو.
 
-![مثال عن إعداد موقع المخزون](media/warehouse-inventory-locations.png)
+![مثال عن إعداد موقع المخزون.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>إكمال إعداد المخزون
 
@@ -127,13 +121,13 @@ ms.locfileid: "4409884"
 
 تعرض الصورة التالية تفاصيل المستودع الذي تم تكوينه.
 
-![مثال عن مستودع مكوّن](media/warehouse-sample.png)
+![مثال عن مستودع مكوّن.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على إدارة المستودعات](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
-[نظرة عامة على القنوات](channels-overview.md)
+[نظره عامة حول القنوات](channels-overview.md)
 
 [المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
 
@@ -147,3 +141,6 @@ ms.locfileid: "4409884"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

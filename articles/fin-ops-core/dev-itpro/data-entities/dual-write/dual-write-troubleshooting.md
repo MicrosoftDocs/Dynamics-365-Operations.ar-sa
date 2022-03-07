@@ -2,28 +2,19 @@
 title: استكشاف المشاكل العامة وإصلاحها
 description: يوفر هذا الموضوع معلومات حول استكشاف أخطاء عامة في تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744531"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781164"
 ---
 # <a name="general-troubleshooting"></a>استكشاف المشاكل العامة وإصلاحها
 
@@ -31,31 +22,10 @@ ms.locfileid: "4744531"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 يوفر هذا الموضوع معلومات حول استكشاف أخطاء عامة في تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse.
 
 > [!IMPORTANT]
 > قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
-
-## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>عند محاولة تثبيت حزمة الكتابة الثنائية باستخدام أداة موزع الحزمة، لا تتوفر حلول متوفرة
-
-لا تتوافق بعض إصدارات أداة موزع الحزمة مع حزمة حلول الكتابة الثنائية. لتثبيت الحزمة بنجاح، تأكد من استخدام [إصدار 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) أو إصدار لاحق من أداة موزع الحزمة.
-
-بعد تثبيت أداة موزع الحزمة، قم بتثبيت حزمة الحل باتباع الخطوات التالية.
-
-1. قم بتنزيل ملف حزمة الحل الأخير من Yammer.com. بعد تنزيل ملف الضغط المضغوط للحزمة، انقر بزر الماوس الأيمن فوقه، ثم حدد **الخصائص**. حدد خانة الاختيار **إلغاء الحظر**، ثم حدد **تطبيق**. إذا لم تر خانة الاختيار **إلغاء الحظر** فقد تم إلغاء حظر الملف المضغوط بالفعل، ويمكنك تخطي هذه الخطوة.
-
-    ![مربع حوار الخصائص](media/unblock_option.png)
-
-2. قم باستخراج ملف الحزمة المضغوطة من نوع zip، ونسخ كافة الملفات الموجودة في المجلد  **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
-
-    ![محتويات مجلد Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
-
-3. ألصق كافة الملفات المنسوخة في مجلد **الأدوات** الخاص بأداة موزع الحزمة. 
-4. قم بتشغيل **PackageDeployer.exe** لتحديد بيئة Dataverse وتثبيت الحلول.
-
-    ![محتوى مجلد الأدوات](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>تمكين وعرض تسجيل تتبع المكونات الإضافية في Dataverse لعرض تفاصيل الخطأ
 
@@ -63,31 +33,30 @@ ms.locfileid: "4744531"
 
 لتشغيل سجل التتبع‬، اتبع الخطوات التالية.
 
-1. قم بتسجيل الدخول إلى التطبيق المستند إلى النموذج في Dynamics 365، وافتح صفحة **الإعدادات** ثم ضمن **النظام** حدد **الإدارة**.
+1. قم بتسجيل الدخول إلى تطبيق customer engagement، وافتح صفحة **الإعدادات** ثم ضمن **النظام**، حدد **الإدارة**.
 2. في صفحة **الإدارة**، حدد **إعدادات النظام**.
 3. ضمن علامة التبويب **تخصيص**، في عمود **المكون الإضافي وتتبع نشاط سير العمل المخصص**، حدد **الكل** لتمكين سجل تتبع المكون الإضافي. إذا كنت تريد تسجيل سجلات التتبع فقط في حالة حدوث استثناءات، فيمكنك تحديد **استثناء** بدلاً من ذلك.
 
 
 لعرض سجل التتبع‬، اتبع الخطوات التالية.
 
-1. قم بتسجيل الدخول إلى التطبيق المستند إلى النموذج في Dynamics 365، وافتح صفحة **الإعدادات** ثم ضمن **التخصيص** حدد **سجل تتبع المكون الإضافي‬‏‫**.
+1. قم بتسجيل الدخول إلى تطبيق customer engagement، وافتح صفحة **الإعدادات**، ثم ضمن **التخصيص**، حدد **سجل تتبع المكون الإضافي**.
 2. ابحث عن سجلات التتبع التي يتم فيها تعيين عمود **اسم النوع** إلى **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. انقر نقرًا مزدوجًا فوق أحد العناصر لعرض السجل الكامل، ثم في علامة التبويب السريع **تنفيذ**، راجع نص **كتلة الرسالة**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>تمكين وضع التصحيح لاستكشاف مشكلات المزامنة المباشرة وإصلاحها في تطبيقات Finance and Operations
 
-**الدور المطلوب لعرض الأخطاء:** يمكن أن تظهر أخطاء الكتابة المزدوجة لمسؤول النظام التي تنشأ في Dataverse مع التطبيق Finance and Operations. في بعض الحالات، لا يتوفر النص الكامل لرسالة الخطأ نظرا لأن الرسالة طويلة جدًا أو تحتوي على معلومات التعريف الشخصية (PII). يمكنك تشغيل التسجيل المطول للأخطاء باتباع الخطوات التالية.
+**الدور المطلوب لعرض الأخطاء:** مسؤول النظام
 
-1. تحتوي جميع تكوينات المشاريع في تطبيقات Finance and Operations على خاصية **IsDebugMode** في جدول **DualWriteProjectConfiguration**. افتح الجدول **DualWriteProjectConfiguration** باستخدام المكون الإضافي لـ Excel.
+يمكن أن تظهر أخطاء الكتابة الثنائية التي تنشأ في Dataverse في تطبيق Finance and Operations. لتمكين التسجيل التفصيلي للأخطاء، اتبع الخطوات التالية:
 
-    > [!TIP]
-    > الطريقة السهلة لفتح الجدول هي تشغيل وضع **التصميم** في وظيفة Excel الإضافية ثم إضافة **DualWriteProjectConfigurationEntity** إلى ورقة العمل. لمزيد من المعلومات، راجع [فتح جدول بيانات في Excel وتحديثه باستخدام الوظيفة الإضافية لبرنامج Excel](../../office-integration/use-excel-add-in.md).
-
-2. قم بتعيين خاصية **IsDebugMode** إلى **نعم** للمشروع.
-3. قم بتشغيل السيناريو الذي يقوم بإنشاء الأخطاء.
-4. تتوفر سجلات التسجيل المطول للأخطاء في جدول DualWriteErrorLog. للبحث عن البيانات في مستعرض الجداول، استخدم عنوان URL التالي (قم باستبدال **XXX** بالشكل المناسب):
-
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
+1. بالنسبة لجميع تكوينات المشروع في تطبيق Finance and Operations هناك علامة **IsDebugMode** في جدول **DualWriteProjectConfiguration**.
+2. افتح **DualWriteProjectConfiguration** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في الوظيفة الإضافية Excel في Finance and Operations وإضافة **DualWriteProjectConfiguration** إلى الورقة. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
+3. قم بتعيين **IsDebugMode** إلى **نعم** في المشروع.
+4. قم بتشغيل السيناريو الذي يقوم بإنشاء الأخطاء.
+5. سجلات التسجيل المطول للأخطاء مخزنة في جدول **DualWriteErrorLog**.
+6. للبحث عن البيانات على مستعرض الجدول، استخدم الرابط التالي: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`، مع استبدال `999` حسب الحاجة.
+7. قم بالتحديث مرة أخرى بعد [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe)، وهو متاح للنظام الأساسي 37 والأحدث. إذا كان لديك هذا الإصلاح تثبيت ثم وضع التصحيح سوف التقاط المزيد من السجلات.  
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>فحص أخطاء المزامنة على الجهاز الظاهري لتطبيق Finance and Operations
 
@@ -118,7 +87,28 @@ ms.locfileid: "4744531"
 عند إنشاء أمر مبيعات في Dynamics 365 Sales، فإن النقر فوق **+ إضافة منتجات** قد يعيد توجيهك إلى نموذج بند الأمر الخاص بـ Dynamics 365 Project Operations. لا توجد طريقة من هذا النموذج لعرض نموذج **المعلومات** لبند أمر المبيعات. لا يظهر الخيار الخاص بـ **المعلومات** في القائمة المنسدلة أسفل **بند أمر جديد**. يحدث هذا لأنه تم تثبيت Project Operations في البيئة الخاصة بك.
 
 لإعادة تمكين خيار نموذج **المعلومات**، اتبع الخطوات التالية:
+
 1. انتقل إلى جدول **بند الأمر**.
-2. ابحث عن نموذج **المعلومات** أسفل عقدة النماذج. 
-3. حدد نموذج **المعلومات** وانقر فوق **تمكين أدوار الأمان**. 
+2. ابحث عن نموذج **المعلومات** أسفل عقدة النماذج.
+3. حدد نموذج **المعلومات** وانقر فوق **تمكين أدوار الأمان**.
 4. قم بتغيير إعدادات الأمان إلى **العرض للجميع**.
+
+## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>كيفية تمكين وحفظ تتبع الشبكة بحيث يمكن إرفاق آثار لتذاكر الدعم
+
+قد يحتاج فريق الدعم إلى مراجعة تتبعات الشبكة لاستكشاف بعض المشكلات وإصلاحها. لإنشاء مسار شبكة، اتبع الخطوات التالية:
+
+### <a name="chrome"></a>Chrome
+
+1. في علامة التبويب المفتوحة، اضغط على **F12** أو اختر **أدوات المطور** لفتح أدوات المطور.
+2. افتح علامة التبويب **شبكة** واكتب **عددا صحيحا**  في مربع نص عامل التصفية.
+3. قم بتشغيل السيناريو الخاص بك ومراقبة الطلبات التي يتم تسجيلها.
+4. انقر بزر الماوس الأيمن فوق الإدخالات وحدد **حفظ الكل كـ HAR مع المحتوى**.
+
+### <a name="microsoft-edge"></a>Microsoft Edge
+
+1. في علامة التبويب المفتوحة، اضغط على **F12** أو اختر **أدوات المطور** لفتح أدوات المطور.
+2. افتح علامة التبويب **شبكة**.
+3. قم بتشغيل السيناريو الخاص بك.
+4. حدد **حفظ** لتصدير النتائج كـ HAR.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

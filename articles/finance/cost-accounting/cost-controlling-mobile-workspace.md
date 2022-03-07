@@ -2,28 +2,25 @@
 title: مساحة العمل المحمولة للتحكم في التكلفة
 description: يقدم هذا الموضوع معلومات حول مساحة العمل المحمولة - التحكم في التكلفة. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان.
 author: AndersGirke
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 267114
 ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4fc35feb4f3a67ba9c8c70c2d2f8c07cb944b0f6
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: cd86fdf640e59885e5e8aea841dc1c1c9604825b0f18d3b741c5a2777f8e9ff8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728783"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>مساحة العمل المحمولة للتحكم في التكلفة
 
@@ -73,13 +70,13 @@ ms.locfileid: "4440170"
 
     عندما تقوم بتحديد ارتباط، تظهر بطاقة لكل عنصر التكلفة. تظهر المبالغ التالية على كل بطاقة: الفعلي والموازنة وفرق الموازنة وفرق الموازنة % والموازنة التي تمت مراجعتها وفرق الموازنة التي تمت مراجعتها وفرق الموازنة التي تمت مراجعتها %.
     
-    [![بطاقة لعنصر تكلفة ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    [![بطاقة لعنصر تكلفة.](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 تختلف المتطلبات الأساسية، استنادًا إلى إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>المتطلبات الأساسية عند استخدام Microsoft Dynamics 365 Finance
-إذا تم نشر Finance لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **التحكم في التكلفة**‬. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+إذا تم نشر Finance لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **التحكم في التكلفة**‬. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 مع Platform update 3 أو إصدار لاحق
 إذا تم نشر الإصدار 1611 مع Platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية.
@@ -99,17 +96,17 @@ ms.locfileid: "4440170"
 
 <td>إن KB 4013633 عبارة عن تحديث X++ أو إصلاح عاجل لبيانات التعريف يحتوي على مساحة العمل المحمولة <strong>التحكم في التكاليف</strong>. لتطبيق KB 4013633، يجب أن يتبع مسؤول النظام الخطوات التالية.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">تنزيل الإصلاح العاجل لبيانات التعريف من Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">تطبيق الحزمة القابلة للنشر</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">تنزيل الإصلاح العاجل لبيانات التعريف من Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة القابلة للنشر</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>نشر مساحة العمل المحمولة لـ <strong>التحكم في التكاليف</strong>.</td>
 <td>مسؤول النظام</td>
-<td>راجع <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">نشر مساحة عمل محمولة</a></td>
+<td>راجع <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل محمولة</a></td>
 </tr>
 </tbody>
 </table>
@@ -128,7 +125,7 @@ ms.locfileid: "4440170"
 3.  في المرة الأولى التي تقوم بتسجيل الدخول فيها، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
 4.  بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
-[![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![سحب للتحديث.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>عرض أداء مركز التكلفة باستخدام مساحة العمل المحمولة للتحكم في التكلفة
 
@@ -145,3 +142,6 @@ ms.locfileid: "4440170"
 11. عرض أداء عناصر تكاليف الفردية.
 12. يمكنك أيضا البحث عن عناصر تكلفة معينة.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

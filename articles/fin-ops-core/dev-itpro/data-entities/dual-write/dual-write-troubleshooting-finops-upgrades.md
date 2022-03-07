@@ -1,39 +1,30 @@
 ---
-title: استكشاف المشاكل ذات الصلة بترقيات تطبيقات Finance and Operations
-description: يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات Finance and Operations.
+title: استكشاف المشكلات من ترقيات تطبيقات Finance and Operations
+description: يوفر هذا الموضوع معلومات استكشاف الأخطاء وإصلاحها التي يمكنها أن تساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات التمويل والعمليات.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683589"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062815"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>استكشاف المشاكل ذات الصلة بترقيات تطبيقات Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>استكشاف المشكلات من ترقيات تطبيقات Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-يوفر هذا الموضوع معلومات حول استكشاف أخطاء تكامل الكتابة الثنائية وإصلاحها بين تطبيقات Finance and Operations وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات Finance and Operations.
+
+يوفر هذا الموضوع معلومات حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات التمويل والعمليات.
 
 > [!IMPORTANT]
 > قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
@@ -42,7 +33,7 @@ ms.locfileid: "4683589"
 
 **الدور المطلوب لإصلاح المشكلة:** مسؤول النظام
 
-قد تظهر رسالة خطأ مشابهة للمثال التالي عند محاولة استخدام كيان **DualWriteProjectConfiguration** لتحديث تطبيق Finance and Operations إلى تحديث النظام الأساسي 30.
+قد تظهر رسالة خطأ مشابهة للمثال التالي عند محاولة استخدام جدول **DualWriteProjectConfiguration** لتحديث تطبيق التمويل والعمليات إلى تحديث النظام الأساسي 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -52,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 لإصلاح المشكلة، اتبع هذه الخطوات.
 
-1. سجل الدخول إلى الجهاز الظاهري (VM) لتطبيق Finance and Operations.
+1. سجل دخولك إلى الجهاز الظاهري (VM) لتطبيق التمويل والعمليات.
 2. افتح Visual Studio كمسؤول، ثم افتح شجره مكونات البرنامج (AOT).
 3. ابحث عن **DualWriteProjectConfiguration**.
 4. في شجرة مكونات المنتج، انقر بزر الماوس الأيمن فوق **DualWriteProjectConfiguration**، ثم حدد **إضافة إلى مشروع جديد**. حدد **موافق** لإنشاء المشروع الجديد الذي يستخدم الخيارات الافتراضية.
@@ -62,7 +53,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 8. حدد **مزامنة** لإجراء مزامنة كاملة لقاعدة البيانات.
 9. بعد نجاح مزامنة قاعده البيانات بالكامل، أعد تشغيل خطوة مزامنة قاعده البيانات في Microsoft Dynamics Lifecycle Services ‏(LCS) واستخدم البرامج النصية الخاصة بالترقية اليدوية حسب الحاجة، حتى يمكنك الاستمرار في عمليه التحديث.
 
-## <a name="missing-entity-fields-issue-on-maps"></a>مشكلة حقول الكيانات المفقودة في المخططات
+## <a name="missing-table-columns-issue-on-maps"></a>إصدار أعمده الجدول المفقودة في التعيينات
 
 **الدور المطلوب لإصلاح المشكلة:** مسؤول النظام
 
@@ -70,24 +61,27 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 *حقل المصدر المفقود \<field name\> في المخطط.*
 
-![مثال لرسالة الخطأ حقل المصدر مفقود](media/error_missing_field.png)
+![مثال لرسالة الخطأ عمود المصدر مفقود.](media/error_missing_field.png)
 
-لإصلاح هذه المشكلة، اتبع أولاً الخطوات التالية للتأكد من وجود الحقول في الكيان.
+لإصلاح هذه المشكلة، اتبع أولاً الخطوات التالية للتأكد من وجود الأعمدة في الجدول.
 
-1. سجل الدخول إلى الجهاز الظاهري لتطبيق Finance and Operations.
-2. انتقل إلى **مساحات العمل \> إدارة البيانات**، حدد تجانب **معلمات إطارات العمل**، ثم في علامة التبويب **إعدادات الجدول**، حدد **تحديث قائمة الكيانات** لتحديث الجداول.
-3. انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد علامة التبويب **جداول البيانات**، ثم تأكد من إدارج الكيان. إذا لم يكن الكيان مدرجًا، فقم بتسجيل الدخول إلى الجهاز الظاهري لتطبيق Finance and Operations، وتأكد من توفر الكيان.
-4. افتح صفحة **تعيين الجدول** من صفحة **الكتابة الثنائية** في تطبيق Finance and Operations.
-5. حدد **تحديث قائمة الكيانات** لملء الحقول تلقائيًا في تعيينات الجداول.
+1. سجل دخولك إلى الجهاز الظاهري (VM) لتطبيق التمويل والعمليات.
+2. انتقل إلى **مساحات العمل \> إدارة البيانات**، حدد تجانب **معلمات إطارات العمل**، ثم في علامة التبويب **إعدادات الجدول**، حدد **تحديث قائمة الجداول** لتحديث الجداول.
+3. انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد علامة التبويب **جداول البيانات**، ثم تأكد من إدارج الجدول. إذا لم يكن الجدول مدرجًا، فقم بتسجيل الدخول إلى الجهاز الظاهري لتطبيق التمويل والعمليات، وتأكد من توفر الجدول.
+4. افتح صفحة **تعيين الجدول** من صفحة **الكتابة المزدوجة** في تطبيق التمويل والعمليات.
+5. حدد **تحديث قائمة الجداول** لملء الأعمدة تلقائيًا في تعيينات الجداول.
 
 في حالة استمرار إصلاح المشكلة، اتبع الخطوات التالية.
 
 > [!IMPORTANT]
-> ترشدك هذه الخطوات خلال عملية حذف أحد الكيانات ثم إضافته مرة أخرى. لتجنب المشكلات، تأكد من اتباع الخطوات بدقة.
+> ترشدك هذه الخطوات خلال عملية حذف أحد الجداول ثم إضافته مرة أخرى. لتجنب المشكلات، تأكد من اتباع الخطوات بدقة.
 
-1. في تطبيق Finance and Operations، انتقل إلى **مساحات العمل\> إدارة البيانات**، ثم حدد تجانب **جداول البيانات**.
-2. ابحث عن الكيان الذي يفتقد إلى السمة. انقر فوق **تعديل تعيين هدف** في شريط الأدوات.
+1. في تطبيق التمويل والعمليات، انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد الإطار المتجانب **جداول البيانات**.
+2. ابحث عن الجدول الذي يفتقد إلى السمة. انقر فوق **تعديل تعيين هدف** في شريط الأدوات.
 3. في الجزء **تعيين التشغيل المرحلي إلى الهدف**، انقر فوق **إنشاء تعيين للمصدر**.
-4. افتح صفحة **تعيين الجدول** من صفحة **الكتابة الثنائية** في تطبيق Finance and Operations.
+4. افتح صفحة **تعيين الجدول** من صفحة **الكتابة المزدوجة** في تطبيق التمويل والعمليات.
 5. إذا كان لا يتم ملء السمة تلقائيًا في التعيين، فقم بإضافتها يدويا بالنقر فوق زر **إضافة سمة** ثم النقر فوق **حفظ**. 
 6. حدد التعيين ثم انقر فوق **تشغيل**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

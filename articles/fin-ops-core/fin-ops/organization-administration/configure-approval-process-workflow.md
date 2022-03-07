@@ -2,11 +2,9 @@
 title: تكوين عمليات الاعتماد في سير عمل
 description: استخدم الإجراء التالي لتكوين خصائص عملية الاعتماد.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7dc365bc2a317b67235f1ad01a4157089e0079d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 99a4e131b2afa65152d8e9d41b8405895d997250
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798919"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070792"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>تكوين عمليات الاعتماد في سير عمل
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 استخدم الإجراء التالي لتكوين خصائص عملية الاعتماد.
 
@@ -183,3 +184,6 @@ ms.locfileid: "4798919"
 1. في محرر سير العمل، انقر نقرًا مزدوجًا فوق عملية الاعتماد. يعرض محرر سير العمل خطوات عملية الاعتماد.
 2. لإضافة خطوة اعتماد، اسحب الخطوة من ناحية **عناصر سير العمل** إلى لوحة الرسم.
 3. لتكوين خطوة اعتماد، راجع [تكوين خطوات اعتماد في سير عمل](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

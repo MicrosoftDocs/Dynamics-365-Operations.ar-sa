@@ -2,16 +2,13 @@
 title: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Supply Chain Management‎
 description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة الحسابات من Dynamics 365 Sales إلى Supply Chain Management.
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1bf0da5ba5274b61758bc0efdc2f2167327966ad
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529200"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831640"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>مزامنة الحسابات مباشرةً من Sales إلى العملاء في Supply Chain Management‎
 
@@ -33,7 +30,7 @@ ms.locfileid: "4529200"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Common Data Service للتطبيقات‏‎](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Microsoft Dataverse للتطبيقات‏‎](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة الحسابات من Dynamics 365 Sales إلى Dynamics 365 Supply Chain Management.
 
@@ -66,11 +63,11 @@ ms.locfileid: "4529200"
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>حل العميل المتوقع إلى النقدية في Sales
 
-يتوفر حقل **رقم الحساب** في صفحة **الحساب**. تم إنشاء مفتاح طبيعي وفريد له لدعم التكامل. قد تؤثر ميزة المفتاح الطبيعي في حل إدارة علاقات العملاء (CRM)‬ على العملاء الذين يستخدمون حقل **رقم الحساب**، ولكنهم لا يستخدمون قيم **رقم الحساب** لكل حساب. في الوقت الحالي، لا يدعم حل التكامل هذه الحالة.
+يتوفر عمود **رقم الحساب** في صفحة **الحساب**. تم إنشاء مفتاح طبيعي وفريد له لدعم التكامل. قد تؤثر ميزة المفتاح الطبيعي في حل إدارة علاقات العملاء (CRM)‬ على العملاء الذين يستخدمون عمود **رقم الحساب**، ولكنهم لا يستخدمون قيم **رقم الحساب** لكل حساب. في الوقت الحالي، لا يدعم حل التكامل هذه الحالة.
 
 عند إنشاء حساب جديد، إذا لم تكن قيمة **رقم الحساب** موجودة، فسيتم إنشاؤها تلقائيًا باستخدام تسلسل رقمي. تتكون القيمة من **ACC**، يليه تسلسل رقمي متزايد ثم لاحقة من ستة أحرف. فيما يلي مثال على ذلك: **ACC-01000-BVRCPS**
 
-عند تطبيق حل التكامل على Sales، يقوم برنامج نصي للترقية بتعيين حقل **رقم الحساب** للحسابات الموجودة في Sales. في حال عدم وجود قيم في **رقم الحساب**، سيتم استخدام التسلسل الرقمي الذي تم ذكره في وقت سابق.
+عند تطبيق حل التكامل على Sales، يقوم برنامج نصي للترقية بتعيين عمود **رقم الحساب** للحسابات الموجودة في Sales. في حال عدم وجود قيم في **رقم الحساب**، سيتم استخدام التسلسل الرقمي الذي تم ذكره في وقت سابق.
 
 ## <a name="preconditions-and-mapping-setup"></a>الشروط المسبقة وإعداد التعيين
 
@@ -95,12 +92,12 @@ ms.locfileid: "4529200"
 ## <a name="template-mapping-in-data-integration"></a>تعيين القالب في تكامل البيانات
 
 > [!NOTE]
-> لا يتم تضمين الحقول **شروط الدفع** و **شروط الشحن** و **شروط التسليم** و **أسلوب الشحن** و **وضع التسليم** في التعيينات الافتراضية. لتعيين هذه الحقول، يجب إعداد تعيين قيمة خاصة بالبيانات الموجودة في المؤسسات التي تتم مزامنة الكيان بينها.
+> لا يتم تضمين الأعمدة **شروط الدفع** و **شروط الشحن** و **شروط التسليم** و **أسلوب الشحن** و **وضع التسليم** في التعيينات الافتراضية. لتعيين هذه الأعمدة، يجب إعداد تعيين قيمة خاصة بالبيانات الموجودة في المؤسسات التي تتم مزامنة الجدول بينها.
 
 تبين الأشكال التوضيحية التالية مثالاً لتعيين قالب في تكامل البيانات. 
 
 > [!NOTE]
-> يعرض التعيين معلومات الحقل التي ستتم مزامنتها من Sales إلى Supply Chain Management.
+> يعرض التعيين معلومات العمود التي ستتم مزامنتها من Sales إلى Supply Chain Management.
 
 ![تعيين القالب في تكامل البيانات](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
@@ -117,3 +114,6 @@ ms.locfileid: "4529200"
 
 [مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Supply Chain Management إلى Sales](sales-invoice-template-mapping-direct.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,24 @@
 ---
 title: إنشاء عروض أسعار المبيعات وتحريرها
 description: يوضح هذا الإجراء كيفية إنشاء عرض أسعار مبيعات وتحديثه.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SalesQuotationTotals, SalesQuotationPriceSimulation, SalesQuotationEditLines, SrsReportViewerForm, smmSetNumSeqIfManual, CustTable, SalesTable, CustQuotationConfirmationJournal, CustQuotationJournal, CustSalesLines, SalesQuotationCopying, SalesQuotationDeleteQuotations, SalesQuotationListPagePreviewPane, SalesQuotationTypeGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 73c15b41a4b0979ec79c8dbd8d88627bffcf6ed3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1c409d294565f89eac95e42f6207573d22859100
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421174"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578934"
 ---
 # <a name="create-and-edit-sales-quotations"></a>إنشاء عروض أسعار المبيعات وتحريرها
 
@@ -70,3 +67,6 @@ ms.locfileid: "4421174"
 13. انقر فوق **أوامر المبيعات**.
 14. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

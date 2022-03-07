@@ -2,26 +2,23 @@
 title: تجميع قوالب الموجات
 description: يتيح تجميع قوالب الموجات للنظام استخدام إعدادات قالب الموجة لتحديد، استنادًا إلى المعايير التي تحددها، كيفية تقسيم البنود التي تم إصدارها وتعيينها إلى موجات جديدة أو موجودة. يمكن أن تكون هذه الميزة مفيدة في المستودعات حيث يتم إنشاء موجات استنادًا إلى معايير محددة، ولكن يفضل المديرون إنشاء موجات تلقائيًا بدلا من يدويًا.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421778"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579894"
 ---
 # <a name="wave-template-grouping"></a>تجميع قوالب الموجات
 
@@ -201,3 +198,6 @@ ms.locfileid: "4421778"
 1. حدد معرف الموجة التي تم إنشاؤها من أمر المبيعات الثالث.
 1. حدد ارتباط معرف الموجة لفتح صفحة تفاصيل الموجة.
 1. لاحظ أنه تمت إضافة الشحنة إلى علامة التبويب السريعة **بنود الموجة**، مع الشحنة الخاصة بأمر المبيعات الأول.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

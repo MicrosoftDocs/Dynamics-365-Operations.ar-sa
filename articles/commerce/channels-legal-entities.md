@@ -1,37 +1,31 @@
 ---
 title: إنشاء كيانات قانونية
-description: يصف هذا الموضوع كيفية إنشاء كيانات قانونيه في Microsoft Dynamics 365 Commerce، يجب إنشاؤها وتكوينها قبل إنشاء القنوات.
+description: يصف هذا الموضوع كيفية إنشاء كيانات قانونية في Microsoft Dynamics 365 Commerce، يجب إنشاؤها وتكوينها قبل إنشاء القنوات.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409856"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740421"
 ---
 # <a name="create-legal-entities"></a>إنشاء كيانات قانونية
 
-
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية إنشاء كيانات قانونيه في Microsoft Dynamics 365 Commerce، يجب إنشاؤها وتكوينها قبل إنشاء القنوات.
-
-## <a name="overview"></a>نظرة عامة
+يصف هذا الموضوع كيفية إنشاء كيانات قانونية في Microsoft Dynamics 365 Commerce، يجب إنشاؤها وتكوينها قبل إنشاء القنوات.
 
 الكيان القانوني هو مؤسسة لديها هيكل قانوني مسجَّل أو مشرَّع. يمكن إدخال الكيانات القانونية في العقود القانونية ويجب عليها إعداد كشوف حساب تقوم بالإبلاغ عن أدائها.
 
@@ -50,7 +44,7 @@ ms.locfileid: "4409856"
 1. في الحقل **البلد/المنطقة**، أدخل قيمة أو حددها.
 1. حدد **موافق**. 
 
-   ![إنشاء كيان قانوني](media/legal-entities.png)
+   ![إنشاء كيان قانوني.](media/legal-entities.png)
 
 1. في القسم **عام**، أدخل المعلومات العامة التالية حول الكيان القانوني: 
    1. أدخل اسم بحث، إذا كان إدخال اسم البحث مطلوبًا. اسم البحث هو اسم بديل يمكن استخدامه للبحث عن هذا الكيان القانوني. 
@@ -73,11 +67,11 @@ ms.locfileid: "4409856"
 
 تعرض الصورة التالية تفاصيل مثال عن كيان قانوني.
 
-![القسم العام للكيان القانوني](media/legal-entities-general.png)
+![القسم العام للكيان القانوني.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[نظرة عامة على المؤسسات والتدرجات الهرمية للمؤسسات](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
 [تخطيط التدرج الهرمي للمؤسسات](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 
@@ -86,3 +80,6 @@ ms.locfileid: "4409856"
 [نظرة عامة على القنوات](channels-overview.md)
 
 [المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

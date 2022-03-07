@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, PCRuntimeConfigurator, PCTemplateConfigurationSelection
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 988d87757019d20dcaf675af925166ed376685f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9a9b60fbcf6de5377b44ca03d4ffc792a6a78f4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421360"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206981"
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>إنشاء أمر مبيعات لمنتج قابل للتكوين
 
@@ -53,3 +52,6 @@ ms.locfileid: "4421360"
 
 ## <a name="select-the-product-configuration"></a>تحديد تكوين المنتج
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

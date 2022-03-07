@@ -2,30 +2,29 @@
 title: توزيع الاستبيانات وجدولتها
 description: توضح هذه المقالة كيفية توزيع الاستبيانات التي تقوم بتصميمها، بحيث تكون متوفرة لشخص أو مجموعة الأشخاص الذين سيقومون بإكمالها.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0329b80615eed6efcc22bb0b140970988f5c306a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 60354a3e7fed5403321d5ec4440cece84b13233bef80fcd5c5f61d72e5e3aa85
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755505"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>توزيع الاستبيانات وجدولتها
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 توضح هذه المقالة كيفية توزيع الاستبيانات التي تقوم بتصميمها، بحيث تكون متوفرة لشخص أو مجموعة الأشخاص الذين سيقومون بإكمالها. 
 
@@ -131,3 +130,6 @@ ms.locfileid: "4417171"
 يمكن توفير الاستبيانات لمستخدمين أو مجموعات مستخدمين محددة أو لجميع الموظفين في شبكة.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

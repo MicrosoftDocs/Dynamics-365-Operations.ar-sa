@@ -2,26 +2,24 @@
 title: الصفحة الرئيسية لتطبيق الجوال
 description: يصف هذا الموضوع تطبيق جوال Finance and Operations (Dynamics 365) ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683448"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729698"
 ---
 # <a name="mobile-app-home-page"></a>الصفحة الرئيسية لتطبيق الجوال
 
@@ -29,8 +27,7 @@ ms.locfileid: "4683448"
 
 يصف هذا الموضوع تطبيق جوال **Finance and Operations (Dynamics 365)** ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
 
-<a name="overview"></a>نظرة عامة
---------
+## <a name="overview"></a>نظرة عامة
 
 يسمح تطبيق الأجهزة المحمولة لمؤسستك بجعل عمليات الأعمال لديها متوفرة على الأجهزة المحمولة. بعد أن يقوم مسؤول تقنية المعلومات بتمكين مساحات العمل المحمولة لمؤسستك، يمكن للمستخدمين تسجيل الدخول إلى التطبيق وبدء تشغيل عمليات الأعمال على الفور من أجهزتهم المحمولة. يتضمن تطبيق الأجهزة المحمولة الميزات التالية التي يمكن أن تساعدك في زيادة الإنتاجية:
 
@@ -42,7 +39,7 @@ ms.locfileid: "4683448"
 ## <a name="elements-of-the-mobile-app"></a>عناصر تطبيق الأجهزة المحمولة
 يتكوّن التنقل في تطبيق الأجهزة المحمولة من أربعة مفاهيم أساسية: لوحة المعلومات ومساحات العمل والصفحات والإجراءات. 
 
-[![مفاهيم التنقل في تطبيق الأجهزة المحمولة](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![مفاهيم التنقل في تطبيق الأجهزة المحمولة.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. عند بدء تشغيل التطبيق، يمكنك الانتقال إلى **لوحة المعلومات**.
 2. في لوحة المعلومات، يمكنك مشاهدة قائمة تتضمن **مساحات عمل** التي تم نشرها.
@@ -56,7 +53,7 @@ ms.locfileid: "4683448"
 ## <a name="implementation-process"></a>عملية التطبيق
 يعرض الرسم التوضيحي التالي عملية تنفيذ مساحات العمل المحمولة التي يتم توفيرها من قبل Microsoft ومساحات العمل المحمولة المخصصة. 
 
-[![عملية تنفيذ تطبيقات الأجهزة المحمولة](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![عملية تنفيذ تطبيقات الأجهزة المحمولة.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 يتضمن الجدول التالي ارتباطات إلى الموارد التي يمكن أن تساعدك في تنفيذ مساحات العمل المحمولة التي يتم توفيرها من قبل Microsoft ومساحات العمل المحمولة المخصصة. تتوافق الأرقام في العمود الأول مع الخطوات المرقمة في الرسم التوضيحي السابق.
 
@@ -93,8 +90,8 @@ ms.locfileid: "4683448"
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">مساحة عمل محمولة للمخزون الفعلي</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">مساحات العمل المحمولة لأوامر المبيعات</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">مساحة العمل المحمولة لتعاون المورد</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">مساحة عمل محمولة لإدخال وقت المشروع</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">مساحة عمل محمولة لإدارة المصروفات</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">مساحة عمل محمولة لإدخال وقت المشروع</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">مساحة عمل محمولة لإدارة المصروفات</a></li>
 
 </ul></td>
 </tr>
@@ -151,3 +148,6 @@ ms.locfileid: "4683448"
 
 ## <a name="troubleshooting"></a>استكشاف الأخطاء وإصلاحها
 [موارد النظام الأساسي للجوال](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

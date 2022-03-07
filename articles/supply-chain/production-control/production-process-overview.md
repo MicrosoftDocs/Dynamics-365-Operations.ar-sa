@@ -2,29 +2,28 @@
 title: نظرة عامة على عملية الإنتاج
 description: يوفر هذا الموضوع نظرة عامة على عمليات الإنتاج.‬ وهي تصف مختلف مراحل أوامر الإنتاج والأوامر الدفعية وكانبان، اعتبارًا من عملية إنشاء الأمر وصولاً إلى إقفال الفترة المالية.
 author: cvocph
-manager: tfehr
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 19832
+ms.custom:
+- "19832"
+- intro-internal
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6f0c63459bb61bef9251a677f7fc050120e53fe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42a71d9f8a7229b147d5e322456c44c4d0d7b7f7303d8b13946eed7e68c75343
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776838"
 ---
 # <a name="production-process-overview"></a>نظرة عامة على عملية الإنتاج
 
@@ -77,8 +76,7 @@ ms.locfileid: "4421337"
 12. **إغلاق الفترة** -تتطلب بعض قواعد محاسبة التكاليف، مثل المتوسط الدوري، تحديد تكاليف الإصدار التلقائي أو ما يرد أولاً يصرف أولاً‬ (FIFO) أو ما يرد أخيرًا يصرف أولاً‬ (LIFO) الأنشطة الدورية لإغلاق المخزون أو الفترة المالية. وبشكل عام، يحاول النظام للإبلاغ عن استهلاك الموارد وجميع المواد، وكذلك تصحيحات المخزون والخردة، قبل إغلاق الفترات. ويتم هذا الإبلاغ عادةً باستخدام دفاتر يومية حركة المخزون أو دفاتر يومية التسوية. والهدف هو تقييم الأداء الاقتصادي لوحدات التشغيل لكل فترة. وفي بعض الحالات، عند استخدام أوامر الإنتاج طويلة الأجل والتي تشمل فترات الإبلاغ المالي، يتم استخدام دفاتر يومية الإنتاج للإبلاغ عن استهلاك الموارد ومستوى تقدم الإنتاج قبل نهاية الفترة.
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [ملاحظات الإنتاج](production-feedback.md)
 
@@ -88,3 +86,6 @@ ms.locfileid: "4421337"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

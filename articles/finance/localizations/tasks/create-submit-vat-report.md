@@ -2,11 +2,9 @@
 title: إنشاء تقرير ضريبة القيمة المضافة وإرساله
 description: يرشدك هذا الإجراء عبر عملية إنشاء تقرير ضريبة القيمة المضافة وإرساله إلى السلطات الألمانية.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22ff180f09d7f017f7119c4c5e4dd908c3e048e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26418be526ff13d8b77e0418b3b252881ff05140e6eb7678f526444a0850a84b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964506"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719665"
 ---
 # <a name="create-and-submit-vat-report"></a>إنشاء تقرير ضريبة القيمة المضافة وإرساله
 
@@ -34,3 +32,6 @@ ms.locfileid: "4964506"
 5. حدد "نعم" في الحقل "إنشاء مستند ضريبة إلكترونية‬".
 6. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

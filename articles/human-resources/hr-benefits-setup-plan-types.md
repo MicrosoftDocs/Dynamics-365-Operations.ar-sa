@@ -2,15 +2,12 @@
 title: إنشاء أنواع الخطة
 description: يُعد نوع الخطة في Microsoft Dynamics 365 Human Resources تجميعًا عالي المستوى لأنواع معينة من الميزات. ويكون لكل نوع خطة كود نوع خطة يحدد القواعد الخاصة بنوع الخطة.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417133"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057852"
 ---
 # <a name="create-plan-types"></a>إنشاء أنواع الخطة
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يُعد نوع الخطة في Microsoft Dynamics 365 Human Resources تجميعًا عالي المستوى لأنواع معينة من الميزات. ويكون لكل نوع خطة كود نوع خطة يحدد القواعد الخاصة بنوع الخطة. على سبيل المثال، قد يكون للحياة الأساسية لنوع الخطة حياة كود نوع الخطة لأنه نوع من خطة التأمين على الحياة ويجب أن تتطابق مع القواعد المنشورة لكود نوع خطة الحياة. قد يكون نوع خطة آخر حياة تكميلية، وتحتوي كذلك على حياة كود نوع الخطة.
 
@@ -63,3 +62,6 @@ ms.locfileid: "4417133"
    | **نافذة التقارير** | لتحديد إطار التقارير بالأيام لحدث الحياة. **ملاحظة**: إذا لم تقم بإدخال مبلغ، سيفترض النظام أن نافذة الإبلاغ صفرًا ولن يعالج الحدث الحياتي. |
 
 5. حدد **حفظ**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

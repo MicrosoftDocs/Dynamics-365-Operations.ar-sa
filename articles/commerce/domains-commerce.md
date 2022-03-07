@@ -1,30 +1,27 @@
 ---
-title: المجالات في Dynamics 365 Commerce
+title: النطاقات في Dynamics 365 Commerce
 description: يصف هذا الموضوع كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
 author: BrShoo
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517345"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022826"
 ---
-# <a name="domains-in-dynamics-365-commerce"></a>المجالات في Dynamics 365 Commerce
+# <a name="domains-in-dynamics-365-commerce"></a>النطاقات في Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -41,7 +38,7 @@ ms.locfileid: "4517345"
 
 يبين الرسم التوضيحي التالي شاشة توفير التجارة الإلكترونية في LCS مع تمييز المربع **أسماء الأجهزة المضيفة المدعومة**. 
 
-![شاشة توفير التجارة الإلكترونية في LCS مع تمييز المربع **أسماء الأجهزة المضيفة المدعومة**](./media/Domains_ProvisioningeCommerceScreen.png)
+![شاشة توفير التجارة الإلكترونية في LCS مع تمييز المربع **أسماء الأجهزة المضيفة المدعومة**](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 يمكنك إنشاء طلب خدمة لإضافة المزيد من المجالات إلى بيئة في حال كان التزويد قد حدث بالفعل. لإنشاء طلب خدمة في LCS، انتقل في بيئتك إلى **الدعم \> مشاكل الدعم** وحدد **إرسال حادث**.
 
@@ -154,7 +151,7 @@ ms.locfileid: "4517345"
 
   [نشر مستأجر التجارة الإلكترونية الجديد](deploy-ecommerce-site.md)
 
-  [إعداد قناة متجر عبر الإنترنت](online-stores.md)
+  [إعداد قناة متجر عبر الإنترنت](./channel-setup-online.md)
 
   [إنشاء موقع تجارة إلكترونية](create-ecommerce-site.md)
 
@@ -173,3 +170,6 @@ ms.locfileid: "4517345"
   [إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
 
   [تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

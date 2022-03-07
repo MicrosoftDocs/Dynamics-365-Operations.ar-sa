@@ -1,7 +1,7 @@
 ---
 title: محتوى إدارة المصروفات في Power BI
 description: يصف هذا الموضوع العناصر المدرجة في حزمة محتوى "إدارة المصروفات‬" في Power BI.
-author: panolte
+author: RyanSand
 manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9391676beea6aac831648d5fa55eae5eba3f6397
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016442"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682787"
 ---
 # <a name="expense-management-power-bi-content"></a>محتوى إدارة المصروفات في Power BI
 

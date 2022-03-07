@@ -2,29 +2,26 @@
 title: إعداد قناة مركز اتصال
 description: يوضح هذا الموضوع كيفية إنشاء قناة مركز اتصال جديدة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410044"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800653"
 ---
-# <a name="set-up-a-call-center-channel"></a>إعداد قناة مركز اتصال
+# <a name="set-up-a-call-center-channel"></a>إعداد قناة مركز الاتصال
 
 
 [!include [banner](includes/banner.md)]
@@ -136,3 +133,6 @@ ms.locfileid: "4410044"
 [إعداد تنبيهات الاحتيال والعمل باستخدامها](set-up-fraud-alerts.md)
 
 [إعداد برامج الاستمرارية لمراكز الاتصال](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

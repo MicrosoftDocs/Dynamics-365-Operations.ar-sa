@@ -2,11 +2,9 @@
 title: إنشاء منتج جديد في Commerce
 description: يوضح هذا الموضوع كيفية إنشاء منتج جديد في Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753712"
 ---
 # <a name="create-a-new-product-in-commerce"></a>إنشاء منتج جديد في Commerce
 
@@ -51,15 +49,15 @@ ms.locfileid: "4965293"
 
 تعرض الصورة التالية مثالاً لمنتج تمت إضافته.
 
-![إنشاء منتج](media/create-new-product.png)
+![إنشاء منتج.](media/create-new-product.png)
 
 بمجرد إضافة المنتج يمكن تعيين بيانات إضافية له، مثل **وصف المنتج** و **مجموعات المتغيرات** و **مجموعات الأبعاد** و **سمات المنتج** و **المنتجات ذات الصلة**.
 
 تعرض الصورة التالية تفاصيل المنتج الإضافية.
 
-![تفاصيل المنتج](media/create-new-product-2.png)
+![تفاصيل المنتج.](media/create-new-product-2.png)
 
-### <a name="create-product-variants"></a>إنشاء متغيرات المنتج
+### <a name="create-product-variants"></a>إنشاء متغيرات المنتجات
 
 إذا كان النوع الفرعي للمنتج هو **أصل المنتج**، ستحتاج إلى إنشاء متغيرات معينة. 
 
@@ -76,23 +74,23 @@ ms.locfileid: "4965293"
 
 1. من صفحة المنت ، حدد **إصدار المنتجات**.
 
-    ![إصدار المنتج](media/create-new-product-3.png)
+    ![إصدار المنتج.](media/create-new-product-3.png)
 
 1. حدد المنتج الذي تريد إصداره، ثم حدد **التالي**.
 
-    ![اختر منتجًا لإصداره](media/create-new-product-4.png)
+    ![اختر منتجًا لإصداره.](media/create-new-product-4.png)
 
 1. حدد مجموعة متغيرات المنتج الذي تريد إصداره، ثم حدد **التالي**.
 
-    ![اختر متغيرات لإصدارها](media/create-new-product-5.png)
+    ![اختر متغيرات لإصدارها.](media/create-new-product-5.png)
 
 1. حدد الكيان القانوني، ثم حدد **التالي**.
 
-    ![اختيار الكيان القانوني](media/create-new-product-6.png)
+    ![اختيار الكيان القانوني.](media/create-new-product-6.png)
 
 1. حدد **إنهاء**.
 
-    ![إنهاء إصدار المنتج](media/create-new-product-7.png)
+    ![إنهاء إصدار المنتج.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>تكوين منتج تم إصداره
 
@@ -107,10 +105,13 @@ ms.locfileid: "4965293"
 
 تعرض الصورة التالية مثالاً لتكوين منتج تم إصداره.
 
-![تكوين منتج تم إصداره](media/create-new-product-8.png)
+![تكوين منتج تم إصداره.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [إنشاء كيانات قانونية](channels-legal-entities.md)
 
-[إنشاء مجموعة متغير](create-variant-group.md) 
+[إنشاء مجموعة متغيرات](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

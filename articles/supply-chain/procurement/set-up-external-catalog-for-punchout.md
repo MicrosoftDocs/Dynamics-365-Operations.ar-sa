@@ -1,12 +1,10 @@
 ---
 title: إعداد كتالوج خارجي للتدبير الإلكتروني PunchOut‬
 description: يصف هذا الموضوع استخدام كتالوج خارجي أو كتالوج PunchOut لجمع معلومات عروض الأسعار من مورّد وإضافتها إلى طلب.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9f1065c68723baa395bc06be6313e45a44661ea3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016367"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566902"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>إعداد كتالوج خارجي للتدبير الإلكتروني PunchOut‬
 
@@ -42,7 +40,7 @@ ms.locfileid: "5016367"
 
 1. اعمل على إعداد التدرج الهرمي لفئات التدبير. لمزيد من المعلومات، راجع [إعداد سياسات للتدرج الهرمي لفئات التدبير](tasks/set-up-policies-procurement-category-hierarchies.md).
 2. قم بتسجيل المورد في Supply Chain Management. قبل أن تتمكن من إعداد التكوينات للوصول إلى كتالوج مورّد خارجي، يجب عليك إعداد المورّد وجهة اتصال المورّد في Microsoft Dynamics 365. يجب أيضًا إضافة مورّد الكتالوج الخارجي إلى فئة التدبير الخاصة. للحصول على مزيد من المعلومات حول تسجيل المورّدين، راجع [إدارة مستخدمي تعاون المورّد](manage-vendor-collaboration-users.md). لمزيد من المعلومات حول كيفية تعيين المورّدين إلى فئة تدبير، راجع [الموافقة على المورّدين لفئات تدبير معينة](tasks/approve-vendors-specific-procurement-categories.md).
-3. تأكد من إعداد وحدات القياس والعملة التي يستخدمها المورّد. لمزيد من المعلومات حول كيفية إنشاء وحدة قياس، راجع [إدارة وحدة القياس](../pim/tasks/manage-unit-measure.md).
+3. تأكد من إعداد وحدات القياس والعملة التي يستخدمها المورّد. لمزيد من المعلومات حول كيفية إنشاء وحدة قياس، راجع [إدارة وحدات القياس](../pim/tasks/manage-unit-measure.md).
 4. قم بتكوين كتالوج المورّد الخارجي باستخدام المتطلبات لموقع الكتالوج الخارجي الخاص بالمورّد. للحصول على مزيد من التفاصيل حول هذه المهمة، راجع [تكوين كتالوج المورّد الخارجي](#configure-the-external-vendor-catalog).
 5. اختبر تكوينات الكتالوج الخارجي الخاص بالمورّد للتحقق من صحة الإعدادات ومن قدرتك على الوصول إلى الكتالوج الخارجي الخاص بالمورّد. استخدم إجراء **التحقق من صحة الإعدادات** للتحقق من صحة رسالة إعداد الطلب التي قمت بتحديدها. يجب أن تتسبب هذه الرسالة في فتح موقع الكتالوج الخارجي للمورّدين في نافذة مستعرض. أثناء التحقق من الصحة، لا يمكنك طلب الأصناف والخدمات من المورّد. لطلب الأصناف والخدمات، يجب الوصول إلى كتالوج المورّد من طلب شراء.
 6. قم بتنشيط الكتالوج الخارجي باستخدام الزر **تنشيط الكتالوج** في صفحة **الكتالوجات الخارجية**. يجب تنشيط الكتالوج الخارجي قبل أن يتمكن العاملون من استخدامه. يمكنك إلغاء تنشيط الكتالوج الخارجي في أي وقت.
@@ -112,3 +110,5 @@ ms.locfileid: "5016367"
 
 - [شراء تحسينات في cXML](purchasing-cxml-enhancements.md)
 - [استخدام الكتالوجات الخارجية للتدبير الإلكتروني PunchOut‬‬](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

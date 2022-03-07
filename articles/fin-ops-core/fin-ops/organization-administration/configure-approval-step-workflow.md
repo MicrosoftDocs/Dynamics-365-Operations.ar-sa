@@ -2,11 +2,9 @@
 title: تكوين خطوات الاعتماد في سير عمل
 description: يوضح هذا الموضوع كيفية تكوين خصائص خطوة اعتماد.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797086"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070767"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>تكوين خطوات الاعتماد في سير عمل
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يوضح هذا الموضوع كيفية تكوين خصائص خطوة اعتماد.
 
@@ -158,7 +159,7 @@ ms.locfileid: "4797086"
 
     - **معتمد واحد** – سيتم تحديد الإجراء المطبَّق على المستند من قِبل أول شخص مستجيب. على سبيل المثال، قام سامي بتقديم تقرير مصروفات بمبلغ 15,000 دولار. تم تعيين تقرير المصروفات حاليًا لكل من سمر وهبة وهاني. فإذا كانت سمر أول شخص يستجيب للمستند، فسيتم تطبيق الإجراء الذي تتخذه على المستند. أما إذا قامت سمر برفض المستند، فسيتم رفضه وإرجاعه إلى سامي. وبعد أن تعتمد سمر المستند، يتم إرساله إلى أمل لاعتماده.
 
-        ![سير عمل لديه عملية اعتماد](./media/workflow_multipleusersinstep.gif)
+        ![سير عمل يتضمن عملية موافقة.](./media/workflow_multipleusersinstep.gif)
 
     - **أغلبية المعتمدين‬** – سيتم تحديد الإجراء المطبَّق على المستند عند استجابة أغلبية المعتمدين. على سبيل المثال، قام سامي بتقديم تقرير مصروفات بمبلغ 15,000 دولار. تم تعيين تقرير المصروفات حاليًا لكل من سمر وهبة وهاني. إذا كان كل من سمر وهبة أول شخصين مستجيبين، فسيتم تطبيق الإجراء المتخذ من قِبلهما على المستند.
 
@@ -276,3 +277,6 @@ ms.locfileid: "4797086"
 
 5. كرر الخطوتين 3 و4 لكل مستخدم يجب إضافته إلى مسار التصعيد. يمكنك تغيير ترتيب المستخدمين.
 6. إذا لم يستجب المستخدمون في مسار التصعيد في الوقت المخصص، فسيقوم النظام تلقائيًا باتخاذ الإجراء المناسب على المستند. لتحديد الإجراء الذي يتخذه النظام، حدد الصف **إجراء**، ثم، على علامة التبويب **إجراء الإنهاء‬**، حدد أحد الإجراءات.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

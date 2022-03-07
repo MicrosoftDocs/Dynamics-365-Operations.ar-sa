@@ -2,29 +2,26 @@
 title: إدارة الورديات وأدراج النقد
 description: يشرح هذا الموضوع كيفية إعداد الورديات واستخدامها في نقطة بيع Commerce.
 author: jblucher
-manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32b7be42509a2c857f1357eb64a6b488f9cd2269
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409966"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779734"
 ---
 # <a name="shift-and-cash-drawer-management"></a>إدارة الورديات وأدراج النقد
 
@@ -87,7 +84,7 @@ ms.locfileid: "4409966"
 
 ### <a name="tender-removal"></a>إزالة طريقة الدفع
 
-تٌعدعمليات *تحصيل النقدية* عبارة عن معاملات غير مبيعات يتم إجراؤها في وردية نشطة لتقليل مبلغ النقد في درج النقدية. غالبًا ما تُستخدم هذه العملية جنبًا إلى جنب مع عملية إدخال النثرية في وردية مختلفة. على سبيل المثال، لأن السجل 1 نفذ منه الفكة، يقوم المستخدم في السجل 2 بتحصيل النقدية لتقليل مبلغ درج النقدية. يقوم المستخدم في السجل 1 بإجراء إدخال نثرية لزيادة المبلغ في درج النقدية الخاص به.
+تٌعدعمليات *تحصيل النقدية* عبارة عن معاملات غير مبيعات يتم إجراؤها في وردية نشطة لتقليل مبلغ النقد في درج النقدية. غالبًا ما تُستخدم هذه العملية جنبًا إلى جنب مع عملية إدخال النثرية في وردية مختلفة. على سبيل المثال، لأن السجل 1 نفذ منه الفكة، يقوم المستخدم في السجل 2 بتحصيل النقدية لتقليل مبلغ درج النقدية لديه. يقوم المستخدم في السجل 1 بإجراء إدخال نثرية لزيادة المبلغ في درج النقدية الخاص به.
 
 ### <a name="suspend-shift"></a>تعليق الوردية
 
@@ -157,4 +154,7 @@ ms.locfileid: "4409966"
 
 يساعد هذا الإعداد على ضمان أن تتضمن كشوفات حسابات مكتب الدعم نفس الحركات كالورديات في نقطة البيع، وأن البيانات تم تلخيصها من خلال هذه الوردية.
 
-للحصول على مزيد من المعلومات حول كشف الحساب وأساليب الإقفال، راجع [تكوينات المتجر لكشف حساب البيع بالتجزئة](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+للحصول على مزيد من المعلومات حول كشف الحساب وأساليب الإقفال، راجع [تكوينات المتجر لكشف حساب البيع بالتجزئة](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

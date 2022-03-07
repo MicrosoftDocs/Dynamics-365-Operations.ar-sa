@@ -1,12 +1,10 @@
 ---
 title: تعاون المورد مع موردين خارجيين
 description: يشرح هذا الموضوع كيف يستطيع وكلاء الشراء التعاون مع الموردين الخارجيين لتبادل المعلومات حول أوامر الشراء ومخزون الشحن.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 594a5bc8762d4c3fdc0bfd901ab97262b0f67a53
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3b679f8daed1e09c832a5d138473cccba03552f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016743"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576966"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>تعاون المورد مع موردين خارجيين
 
@@ -35,7 +33,7 @@ ms.locfileid: "5016743"
 > [!NOTE]
 > تنطبق المعلومات الخاصة بتعاون المورّد‬ في هذا الموضوع على الإصدار الحالي من Supply Chain Management. في الإصدار 7.0 من Microsoft Dynamics AX 7.0 (فبراير 2016) والإصدار 7.0.1 من التطبيق Microsoft Dynamics AX 7.0.1 (مايو 2016)، يمكنك التعاون مع المورّدين باستخدام الوحدة النمطية **مدخل المورِّد**. لمزيد من المعلومات حول الوحدة النمطية **مدخل المورد**، راجع [التعاون مع الموردين باستخدام مدخل المورد على الإنترنت](collaborate-vendors-vendor-portal.md).
 
-لمزيد من المعلومات حول كيفية استخدام الموردين واجهة تعاون الموردين في عمليات الفوترة، راجع [مساحة عمل فوترة تعاون المورد](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). لمزيد من المعلومات حول كيفية توفير مستخدمين جدد لتعاون المورد، راجع [إدارة مستخدمي تعاون المورد](manage-vendor-collaboration-users.md).
+لمزيد من المعلومات حول كيفية استخدام الموردين واجهة تعاون الموردين في عمليات الفوترة، راجع [مساحة عمل فوترة تعاون المورد](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). لمزيد من المعلومات حول كيفية توفير مستخدمين جدد لتعاون المورد، راجع [إدارة مستخدمي تعاون المورد](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>تعريف المعلومات التي تظهر للموردين عند استجابتهم لأوامر الشراء
 
@@ -242,7 +240,7 @@ ms.locfileid: "5016743"
 - الطلبات المنشورة لبنود عروض الأسعار
 - الطلبات المنشورة لمرفقات رؤوس عروض الأسعار
 
-تسمح هذه الكيانات للأشخاص غير المتوفرين في Supply Chain Management، ولكنهم الذين يملكون وصولا مجهولاً إلى الموقع الخارجي، بعرض العمل المتوفر والمغلق. بالإضافة إلى ذلك، تسمح الوظيفة الموسعة في **إرسال ونشر** للمستخدم الذي يقوم بإعداد المحددات لعملية طلب عرض الأسعار بتعريف قالب بريد إلكتروني. ثم، عند يُنشئ أخصائي التدبير حالة طلب عرض الأسعار، يجب عليه تحديد قالب البريد الإلكتروني لإرسال المعلومات المطلوبة للموردين في حالة طلب عرض الأسعار. 
+تسمح هذه الكيانات للأشخاص غير المتوفرين في Supply Chain Management، ولكنهم الذين يملكون وصولا مجهولاً إلى الموقع الخارجي، بعرض العمل المتوفر والمغلق. بالإضافة إلى ذلك، تسمح الوظيفة الموسعة في **إرسال ونشر** للمستخدم الذي يقوم بإعداد المحددات لعملية طلب عرض الأسعار بتعريف قالب بريد إلكتروني. ثم، عندما يقوم أخصائي التدبير بإنشاء حالة طلب عرض الأسعار، يجب عليه تحديد قالب البريد الإلكتروني لإرسال المعلومات المطلوبة للموردين في حالة طلب عرض الأسعار. 
 
 يمكن للمستخدم الذي قام بإعداد المحددات لعملية طلب عرض الأسعار إنشاء العديد من قوالب البريد الإلكتروني. يمكن أن تحتوي قوالب البريد الإلكتروني هذه على نص ثابت ورموز الإحلال التالية. سيتم استبدال الرموز بقيم سياقية عندما يتم إنشاء رسالة بريد إلكتروني.
 
@@ -258,3 +256,6 @@ ms.locfileid: "5016743"
 - %createddate%
 
 في حالة طلب تعديل وإرساله بعد إرسال طلب عرض الأسعار، سيتم إعادة إرسال طلب عرض الأسعار لكافة الموردين المدعوين. سيتم أيضًا تحديث المستند المنشور في صفحة **‏‫الطلبات المنشورة المفتوحة لعروض الأسعار‬**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

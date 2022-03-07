@@ -1,28 +1,25 @@
 ---
 title: إنشاء مورد عمليات
 description: ينفذ مورد العمليات أنشطة مشروع أو عملية إنتاج.
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2e59b1e6a83d902df98a0b40ee6c572a6567f05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90535d3a6cf58fc10309cf035bc74143a96c2add
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421086"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576846"
 ---
 # <a name="create-an-operations-resource"></a>إنشاء مورد عمليات
 
@@ -81,3 +78,6 @@ ms.locfileid: "4421086"
 4. في الحقل "موقع الإدخالات‬"، أدخل قيمة أو حددها.
     * حدد موقع المستودع من حيث يستهلك مورد العمليات المواد.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

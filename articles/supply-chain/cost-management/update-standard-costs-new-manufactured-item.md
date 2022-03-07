@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 79693
 ms.assetid: ba64b70f-3f4c-4373-9a7d-8fd07c45a8cf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebd53d66eb81bbee9d3e67d05102c8df413d2a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03b5fb1311f5a483914c83563d989e1732d431ad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219451"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>تحديث التكاليف المعيارية لصنف مصنّع جديد
 
@@ -53,3 +52,6 @@ ms.locfileid: "4421329"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

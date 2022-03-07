@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductRelease
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93b0cb1068d77911983117830618de1f2827fef3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 49f221736c1efd8314e6a137de5f0778386499da
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421218"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220766"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>إصدار منتج/أصل منتج إلى كيانات قانونية
 
@@ -37,3 +36,6 @@ ms.locfileid: "4421218"
 6. انقر فوق التالي.
 7. انقر فوق إنهاء.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

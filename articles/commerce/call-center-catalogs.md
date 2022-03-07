@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 5a5f38cf0cd88c5a6ba04725c3bdf5b6a14cf15b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4410039"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213952"
 ---
 # <a name="call-center-catalogs"></a>كتالوجات مركز الاتصال​
 
@@ -101,3 +100,6 @@ ms.locfileid: "4410039"
 ## <a name="additional-notes"></a>ملاحظات إضافية
 
 في الوقت الحالي، عندما يتم تطبيق معرف كود المصدر على أمر المبيعات في مركز الاتصال، فإنه يتم استخدامها لتحديد الأسعار والعروض الترويجية والبرامج النصية والأصناف الإضافية/المكملة الخاصة بكتالوج. لن يمنع النظام أو يحظر طلب منتج غير موجود في الكتالوج في أمر المبيعات. إذا تم طلب صنف غير موجود بالكتالوج، سيستخدم النظام أولاً **مجموعة الأسعار** المحددة على قناة مركز الاتصال (**البيع بالتجزئة والتجارة** \> **القنوات** \> **مراكز الاتصال** \> **كل مراكز الاتصال**) لسعر الصنف أو العروض الترويجية. إذا تم العثور على أي سعر قناة محددة، فإنه سيتم استخدام سعر بيع الصنف الأساسي.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

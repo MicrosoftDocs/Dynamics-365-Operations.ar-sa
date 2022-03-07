@@ -2,27 +2,24 @@
 title: تكوين قناة لاستخدام التدرج الهرمي للتنقل في قناة
 description: يصف هذا الموضوع كيفية تكوين قناة لاستخدام تدرج هرمي للتنقل في قناة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409796"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796114"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>تكوين قناة لاستخدام التدرج الهرمي للتنقل في قناة
 
@@ -84,3 +81,6 @@ ms.locfileid: "4409796"
 [إنشاء تدرج هرمي للتنقل في قناة](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

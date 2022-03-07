@@ -1,12 +1,10 @@
 ---
 title: إنشاء مواقع عمل
 description: يشرح هذا الموضوع كيفية إنشاء موقع عمل في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationCopyStructure, EntAssetFunctionalLocationCreate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81b5b81d7c318ba0a195dbc6324d700ccb8d39bf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018211"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767522"
 ---
 # <a name="create-functional-locations"></a>إنشاء مواقع عمل
 
@@ -131,3 +129,6 @@ ms.locfileid: "5018211"
 
 >[!NOTE]
 >إذا لم تتمكن من حذف موقع عمل، يمكنك بدلاً من ذلك معالجة الحذف عن طريق إعداد حالة دورة حياة موقع عمل لهذا الغرض. على سبيل المثال، يمكنك إعداد مرحلة "مخرد‬" أو "محذوف"، وهي مرحلة من المفترض ألا تكون مرحلة نشطة في نموذج **حالات دورة حياة موقع العمل**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

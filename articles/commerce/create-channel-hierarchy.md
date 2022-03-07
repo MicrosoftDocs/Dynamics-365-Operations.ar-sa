@@ -2,29 +2,26 @@
 title: إنشاء تدرج هرمي للتنقل في قناة
 description: يوضح هذا الموضوع ‏‫التدرج الهرمي للتنقل في قناة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409788"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749945"
 ---
-# <a name="create-a-channel-navigation-hierarchy"></a>إنشاء تدرج هرمي للتنقل في قناة
+# <a name="create-a-channel-navigation-hierarchy"></a>إنشاء تدرج هرمي للتنقل في القناة
 
 
 [!include [banner](includes/banner.md)]
@@ -52,7 +49,7 @@ ms.locfileid: "4409788"
 
 تعرض الصورة التالية مثالاً لعقدة جذر.
 
-![نموذج عقدة الجذر](media/create-channel-hierarchy-1.png)
+![نموذج عقدة الجذر.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>إنشاء عقد فئات التنقل
 
@@ -68,7 +65,7 @@ ms.locfileid: "4409788"
 
 تعرض الصورة التالية مثالاً لتدرج هرمي للتنقل في قناة مكتمل.
 
-![نموذج تدرج هرمي لقناة](media/create-channel-hierarchy-2.png)
+![نموذج تدرج هرمي لقناة.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>إضافة منتجات إلى عقد الفئات
 
@@ -80,11 +77,11 @@ ms.locfileid: "4409788"
 1. في جزء الإجراءات، حدد **حفظ**.
 
 > [!NOTE]
-> لا يعد إضافة منتجات إلى عقدة داخل التدرج الهرمي للتنقل في القناة أمرًا كافيًا لإظهار المنتجات على قناة محددة، يجب أيضًا تصنيف المنتجات إلى منتج.
+> لا يعد إضافة منتجات إلى عقدة داخل التدرج الهرمي للتنقل في القناة أمرًا كافيًا لإظهار المنتجات على قناة محددة، يجب أيضًا تصنيف المنتجات إلى قناة. لمزيد من المعلومات حول عمليات الفرز، راجع [إدارة الفرز](assortments.md).
 
 تعرض الصورة التالية مثالاً لعقدة بمنتجات تمت إضافتها.
 
-![المنتجات المضافة إلى عقده فئة](media/create-channel-hierarchy-3.png)
+![المنتجات المضافة إلى عقده فئة.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>أضف مجموعات سمات المنتجات إلى عقد الفئات
 
@@ -100,10 +97,13 @@ ms.locfileid: "4409788"
 
 تعرض الصورة التالية نموذج عقدة تحتوي على مجموعة سمات منتج مضافة.
 
-![مجموعات سمات المنتج في عقدة](media/create-channel-hierarchy-4.png)
+![مجموعات سمات المنتج في عقدة.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [إعداد عمليات الفرز](set-up-assortments.md)
 
 [إدارة السمات ومجموعات السمات](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,39 +1,36 @@
 ---
 title: إنشاء فواتير أمر المبيعات
-description: يوضح دليل المهمة هذا فوترة أمر مبيعات، بما في ذلك دمج الفواتير ومعالجة الدُفعة.
+description: يصف هذا الموضوع كيفية إعداد فاتورة لأمر مبيعات، بما في ذلك دمج الفواتير ومعالجة الدُفعات.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c504ef36f61613c7aa7db5a1e5ddba6e69cd7285
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440076"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394600"
 ---
 # <a name="create-sales-order-invoices"></a>إنشاء فواتير أمر المبيعات
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح دليل المهمة هذا فوترة أمر مبيعات، بما في ذلك دمج الفواتير ومعالجة الدُفعة. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
+يصف هذا الموضوع كيفية إعداد فاتورة لأمر مبيعات، بما في ذلك دمج الفواتير ومعالجة الدُفعات. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>إنشاء فاتورة من أمر مبيعات
 1. انتقل إلى **جزء التنقل > الوحدات النمطية > الحسابات المدينة > الأوامر > أوامر المبيعات المشحونة وغير المفوترة‬**.
 2. حدد أمر مبيعات من القائمة. 
-3. في **جزء الإجراءات **، انقر فوق** فاتورة > عام > فاتورة**. لاحظ أن أمر المبيعات هذا لديه إيصالات تعبئة متعددة مقترنة به. وسوف يعرض كلمة <multiple> فقط بدلاً من رقم إيصال التعبئة.  
+3. في **جزء الإجراءات **، انقر فوق** فاتورة > عام > فاتورة**. لاحظ أن أمر المبيعات هذا لديه إيصالات تعبئة متعددة مقترنة به. وسوف يعرض كلمة *متعدد* فقط بدلاً من رقم إيصال التعبئة.  
 4. قم بتوسيع قسم **المحددات**.
     - يجب تعيين الترحيل إلى "نعم" لترحيل الفاتورة. يمكنك أيضًا إيقاف ترحيل الفاتورة وطباعتها فقط. ومع ذلك، يمكنك تحقيق نفس النتيجة عن طريق إنشاء فاتورة مبدئية بدلاً من فاتورة.  
     - وهذا الخيار يُستخدم لوظائف الدُفعات. ويتم إجراء الاستعلام عند تشغيل وظيفة الدُفعة.
@@ -68,3 +65,6 @@ ms.locfileid: "4440076"
 10. وانقر فوق **إلغاء الأمر**.
 11. انقر فوق **نعم**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

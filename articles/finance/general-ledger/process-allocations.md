@@ -1,35 +1,32 @@
 ---
 title: توزيعات العمليات
-description: توفر هذه المقالة معلومات حول عمليات التخصيص والخيارات الخاصة بمعالجتها في Dynamics 365 FinanceMicrosoft، وكيف يمكن استخدامها في تخطيط الموازنة. تستخدم عمليات التخصيص لتوزيع مبالغ عبر مجموعات متعددة من حسابات دفتر الأستاذ. وهي تساعد على ضمان تحميل النفقات أو الإيرادات للكائن الصحيح في المحاسبة.
-author: ShylaThompson
-manager: AnnBe
+description: يوفر هذا الموضوع معلومات حول عمليات التخصيص والخيارات الخاصة بمعالجتها في Microsoft Dynamics 365 Finance، وكيف يمكن استخدامها في تخطيط الموازنة. تستخدم عمليات التخصيص لتوزيع مبالغ عبر مجموعات متعددة من حسابات دفتر الأستاذ. وهي تساعد على ضمان تحميل النفقات أو الإيرادات للكائن الصحيح في المحاسبة.
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b79282abd0edf86f1a9f39fd869cf1fab28b9a4
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439955"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726982"
 ---
 # <a name="process-allocations"></a>توزيعات العمليات
 
 [!include [banner](../includes/banner.md)]
 
-توفر هذه المقالة معلومات حول عمليات التخصيص والخيارات الخاصة بمعالجتها، وكيف يمكن استخدامها في تخطيط الموازنة. تستخدم عمليات التخصيص لتوزيع مبالغ عبر مجموعات متعددة من حسابات دفتر الأستاذ. وهي تساعد على ضمان تحميل النفقات أو الإيرادات للكائن الصحيح في المحاسبة.
+يوفر هذا الموضوع معلومات حول عمليات التخصيص والخيارات الخاصة بمعالجتها، وكيف يمكن استخدامها في تخطيط الموازنة. تستخدم عمليات التخصيص لتوزيع مبالغ عبر مجموعات متعددة من حسابات دفتر الأستاذ. وهي تساعد على ضمان تحميل النفقات أو الإيرادات للكائن الصحيح في المحاسبة.
 
 تدعم الإمكانيات التالية هذه العملية:
 
@@ -44,3 +41,6 @@ ms.locfileid: "4439955"
 > [!NOTE]
 > يمكنك استخدام قواعد توزيع دفتر الأستاذ بين الشركات الشقيقة لتخطيط الموازنة.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

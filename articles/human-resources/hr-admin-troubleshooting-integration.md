@@ -2,14 +2,11 @@
 title: ‏‫الأسئلة المتداولة حول التكامل مع Finance
 description: يوضح هذا المقال البيانات التي تتم مزامنتها في تكامل Human Resources وFinance.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -17,14 +14,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
-ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
+ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4589053"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053366"
 ---
 # <a name="integration-with-finance-faq"></a>‏‫الأسئلة المتداولة حول التكامل مع Finance
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -32,7 +31,7 @@ ms.locfileid: "4589053"
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>هل يمكنني تحرير مستخدم تطبيق Dynamics 365 Talent في Power Apps؟
 
-الرقم إذا قمت بتحرير مستخدم تطبيق Talent، فقد يفشل التكامل بين Human Resources وCommon Data Service. يوضح الجدول التالي الإعدادات الافتراضية لمستخدم تطبيق Talent.
+الرقم إذا قمت بتحرير مستخدم تطبيق Human Resources، فقد يفشل التكامل بين Human Resources وDataverse. يوضح الجدول التالي الإعدادات الافتراضية لمستخدم تطبيق Talent.
 
 | الاسم الكامل | مُعرِّف التطبيق | معرف كائن Azure AD | عنوان URI لمُعرِّف التطبيق |
 | --- | --- | --- | --- |
@@ -44,17 +43,17 @@ ms.locfileid: "4589053"
 
 تتم مزامنة مجموعة فرعية من البيانات. للحصول على قائمة بجميع الكيانات، راجع [التكامل مع Dynamics 365 Finance](hr-admin-integration-finance.md).
 
-## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>لماذا لا أرى أية بيانات متزامنة مع Common Data Service؟
+## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>لماذا لا أرى أية بيانات متزامنة مع Dataverse؟
 
-افتراضيًا، يكون تكامل خدمة Common Data Service متوقف في البيئات الجديدة التي لا تتضمن بيانات العرض التوضيحي المتوفرة. بشكل افتراضي، يتم تشغيله في بيئات جديده تتضمن البيانات التجريبية، وتبدأ مزامنة البيانات عند توفير البيئة. بعد تجهيز البيئة الخاصة بك لمزامنة البيانات، يمكنك تشغيل التكامل. وللحصول على المزيد من المعلومات، راجع قسم [تكوين تكامل Common Data Service](hr-admin-integration-common-data-service.md)
+افتراضيًا، يكون تكامل خدمة Dataverse متوقف في البيئات الجديدة التي لا تتضمن بيانات العرض التوضيحي المتوفرة. بشكل افتراضي، يتم تشغيله في بيئات جديده تتضمن البيانات التجريبية، وتبدأ مزامنة البيانات عند توفير البيئة. بعد تجهيز البيئة الخاصة بك لمزامنة البيانات، يمكنك تشغيل التكامل. وللحصول على المزيد من المعلومات، راجع قسم [تكوين تكامل Dataverse](hr-admin-integration-common-data-service.md)
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>هل يمكنني إنشاء تعيين جديد من دون استخدام القوالب؟
 
-تعتبر القوالب نقطة بداية. يمكنك إنشاء قالبك الخاص، ولكنك تحتاج دائمًا إلى قالب عند إنشاء مشروع تكامل. للحصول على مزيد من المعلومات حول موحد البيانات (DI) والقوالب والمشاريع، راجع [دمج البيانات في Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+تعتبر القوالب نقطة بداية. يمكنك إنشاء قالبك الخاص، ولكنك تحتاج دائمًا إلى قالب عند إنشاء مشروع تكامل. للحصول على مزيد من المعلومات حول موحد البيانات (DI) والقوالب والمشاريع، راجع [دمج البيانات في Microsoft Dataverse](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>هل يمكنني تعيين الأبعاد المالية للتحويل بين Human Resources وFinance؟
 
-الأبعاد المالية غير موجودة حاليًا في Common Data Service ونتيجة لذلك لا تشكل جزءًا من القالب الافتراضي. تم التخطيط لهذا الكيان، ولكن لا يتوفر حاليًا أي مخطط زمني للإصدار.
+الأبعاد المالية غير موجودة حاليًا في Dataverse ونتيجة لذلك لا تشكل جزءًا من القالب الافتراضي. تم التخطيط لهذا الكيان، ولكن لا يتوفر حاليًا أي مخطط زمني للإصدار.
 
 بالنسبة إلى البيانات الموجودة في Finance and Operations ولكن غير الموجودة في Human Resources، يمكن ربط النظامين معًا باستخدام **تكوين الارتباطات** في Human Resources.
 
@@ -76,7 +75,7 @@ ms.locfileid: "4589053"
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>هل يمكنني تحديد الحقول التي سيتم إرسالها إلى Finance لكيان معين؟
 
-يمكنك إضافة حقول أو إزالتها من مهمة التكامل. لن يتم ملء كافة حقول البيانات الموجودة على كيان Common Data Service من Human Resources.
+يمكنك إضافة حقول أو إزالتها من مهمة التكامل. لن يتم ملء كافة حقول البيانات الموجودة على جدول Dataverse من Human Resources.
 يمكنك ملء بيانات إضافية عبر Power Apps.
 
 ![إضافة حقول إلى أو إزالتها من مهمة تكامل](media/SpecifyFieldsIncludedInIntegration.png)
@@ -95,7 +94,7 @@ ms.locfileid: "4589053"
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>هل يمكن إعادة تشغيل التنفيذ الذي يتضمن أخطاء؟ إذا كان الأمر كذلك، فهل سيرسل ملفًا كاملاً أو التغييرات فقط؟
 
-عملية التشغيل الأولى لموحد البيانات هي دائمًا عملية تشغيل كاملة. وتستند عمليات التشغيل التالية إلى تعقب التغييرات. يستخرج تشغيل الخطأ، عند تنفيذه، السجلات الموجودة في نطاق التشغيل ويرسل أحدث التغييرات من Common Data Service.
+عملية التشغيل الأولى لموحد البيانات هي دائمًا عملية تشغيل كاملة. وتستند عمليات التشغيل التالية إلى تعقب التغييرات. يستخرج تشغيل الخطأ، عند تنفيذه، السجلات الموجودة في نطاق التشغيل ويرسل أحدث التغييرات من Dataverse.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>عند حفظ المشروع، أتلقى رسالة الخطأ: "يتضمن المشروع أخطاء تعيين". ماذا أفعل؟
 
@@ -109,15 +108,15 @@ ms.locfileid: "4589053"
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>أحتاج إلى نقل البيانات التي لا تشكل جزءًا من القالب الافتراضي التي وفرته Microsoft. هل يمكنني القيام بذلك؟
 
-نعم، يمكن إضافة حقول أو إزالتها من القالب الموجود. ويمكن تعديل القالب لتضمين بيانات إضافية من كيانات أخرى في Common Data Service. يجب أن يكون الكيان في Common Data Service لكي يتم تضمينه في القالب. 
+نعم، يمكن إضافة حقول أو إزالتها من القالب الموجود. ويمكن تعديل القالب لتضمين بيانات إضافية من جداول أخرى في Dataverse. يجب أن يكون الكيان في Dataverse لكي يتم تضمينه في القالب. 
 
 ## <a name="i-just-created-new-finance-and-human-resources-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>لقد انتهيت الآن من إنشاء بيئات Finance وHuman Resources الجديدة، وتلقيت رسالة الخطأ "‏‫انتهكت قيمة البيانات قيود التكامل." ما السبب؟
 
 بإمكان أسباب هذا الخطأ أن تشتمل على:
 
-- أدى نقل البيانات إلى استخراج سجلات مكررة في المصدر (Common Data Service).
+- أدى نقل البيانات إلى استخراج سجلات مكررة في المصدر (Dataverse).
 
-- تتضمن عملية نقل البيانات قيمًا فارغة للحقول المطلوبة في Finance and Operations. تأكد من أن البيانات موجودة في Common Data Service وتستوفي شروط Finance and Operations.
+- تتضمن عملية نقل البيانات قيمًا فارغة للحقول المطلوبة في Finance and Operations. تأكد من أن البيانات موجودة في Dataverse وتستوفي شروط Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>إذا ظهرت أخطاء تتعلق بالتنفيذ ولم تتم مزامنة معرّف الموظف، كيف يمكنني العثور على محفوظات الوظيفة التي تتضمن سجل الموظف الفاشل؟
 
@@ -139,27 +138,27 @@ ms.locfileid: "4589053"
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>بعد تكامل Human Resources وFinance، لا يمكنني رؤية بيانات Human Resources الخاصة بي في Finance. ماذا أفعل؟
 
-التكامل مع Finance عبارة عن عملية تتكون من خطوتين. أولاً، تحقق من تحديث بيانات Human Resources ومن توفرها في Common Data Service. هذا الأمر عبارة عن مزامنة قريبة من الوقت الحقيقي ويمكن التحقق منها في Power Apps عن طريق مراجعة البيانات في كيانات البيانات.
+التكامل مع Finance عبارة عن عملية تتكون من خطوتين. أولاً، تحقق من تحديث بيانات Human Resources ومن توفرها في Dataverse. هذا الأمر عبارة عن مزامنة قريبة من الوقت الحقيقي ويمكن التحقق منها في Power Apps عن طريق مراجعة البيانات في جداول البيانات.
 
-![البيانات الموجودة في Common Data Service](media/DataInCDS.png)
+![البيانات الموجودة في Dataverse](media/DataInCDS.png)
 
-إذا لم تظهر البيانات كما هو متوقع في Common Data Service، فتأكد من دعم الكيان في التكامل. لتضمين بيانات إضافية في Common Data Service، ستتم مطالبة بإجراء تغيير من جانب Microsoft.
+إذا لم تظهر البيانات كما هو متوقع في Dataverse، فتأكد من دعم الكيان في التكامل. لتضمين بيانات إضافية في Dataverse، ستتم مطالبة بإجراء تغيير من جانب Microsoft.
 
-إذا كان الكيان مدعومًا والبيانات متوفرة في Common Data Service، فتأكد من صحة التعيين في موحد البيانات. إذا كان تعيين موحد البيانات مقبولاً، فتحقق عندئذِ من نجاح تشغيل مهام إدارة البيانات. قد تحدث بعض الأخطاء أثناء تنفيذ الوظائف الدفعية. لمزيد من المعلومات حول إدارة البيانات، راجع [إدارة البيانات](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+إذا كان الكيان مدعومًا والبيانات متوفرة في Dataverse، فتأكد من صحة التعيين في موحد البيانات. إذا كان تعيين موحد البيانات مقبولاً، فتحقق عندئذِ من نجاح تشغيل مهام إدارة البيانات. قد تحدث بعض الأخطاء أثناء تنفيذ الوظائف الدفعية. لمزيد من المعلومات حول إدارة البيانات، راجع [إدارة البيانات](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>عناوين الموظفين غير صحيحة بعد استيرادها إلى Finance. ماذا أفعل؟
 
-يستخدم التسلسل الرقمي في **معرّف الموقع** النمط نفسه في كل من Human Resources وFinance. يجب أن يكون التسلسل الرقمي فريدًا على الجانبين لتفادي حدوث تضارب في العناوين عند تنفيذ تكامل البيانات من Common Data Service إلى Finance and Operations.
+يستخدم التسلسل الرقمي في **معرّف الموقع** النمط نفسه في كل من Human Resources وFinance. يجب أن يكون التسلسل الرقمي فريدًا على الجانبين لتفادي حدوث تضارب في العناوين عند تنفيذ تكامل البيانات من Dataverse إلى Finance and Operations.
 
 أثناء تنفيذ Human Resources، تأكد من أن التسلسلات الرقمية ليست هي نفسها في Human Resources وFinance. تأكد من أن كافة التسلسلات الرقمية ليست مماثلة حيث قد يتم الاحتفاظ بالبيانات في كلا النظامين.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>عند إنشاء مجموعة الاتصالات، لا يمكنني رؤية الاتصال في القائمة المنسدلة "اتصال". ماذا أفعل؟
 
-عند إنشاء اتصالاتك، تأكد من اختيار Dynamics 365 Finance و Common Data Service.
+عند إنشاء اتصالاتك، تأكد من اختيار Dynamics 365 Finance و Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>عند مزامنة عمليات التوظيف، أتلقى رسائل الخطأ "CompanyInfo_FK غير موجود" أو "القيمة '12/31/2154 11:59:59 ص" في الحقل "تاريخ انتهاء التوظيف" غير موجودة في الجدول ذي الصلة "التوظيف"." ماذا أفعل؟‬
 
-تأكد من أنك تقوم بالتعيين إلى الكيانات القانونية الصحيحة. لا تمثل مزامنة الكيان القانوني جزءًا من القالب الافتراضي، وبالتالي من المتوقع أن يكون كل كيان قانوني موجود في Human Resources و Common Data Service موجود أيضًا في Finance.
+تأكد من أنك تقوم بالتعيين إلى الكيانات القانونية الصحيحة. لا تمثل مزامنة الكيان القانوني جزءًا من القالب الافتراضي، وبالتالي من المتوقع أن يكون كل كيان قانوني موجود في Human Resources و Dataverse موجود أيضًا في Finance.
 تأكد أيضًا من أنك تحدد الكيانات القانونية الصحيحة لمجموعة الاتصالات المرتبطة.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>بعد إعداد مشروعي، يبدو تعيين الحقول في Finance فارغًا. ماذا أفعل؟
@@ -172,12 +171,15 @@ ms.locfileid: "4589053"
 
 - موحد البيانات (DI): 
 
-  - [دمج البيانات في Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [دمج البيانات في Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
-  - [إدارة أخطاء موحد البيانات واستكشاف الأخطاء وإصلاحها](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [إدارة أخطاء موحد البيانات واستكشاف الأخطاء وإصلاحها](/powerapps/administrator/data-integrator-error-management)
 
-  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في Power Apps، وMicrosoft Power Automate، وCommon Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [الاستجابة لطلبات DSR للسجلات التي أنشأها النظام في Power Apps و Microsoft Power AutomateوDataverse](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - إدارة البيانات:
 
-  - [إدارة البيانات](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [إدارة البيانات](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

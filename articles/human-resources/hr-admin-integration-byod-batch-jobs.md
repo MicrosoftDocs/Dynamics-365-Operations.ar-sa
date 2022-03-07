@@ -2,35 +2,37 @@
 title: تحسين مهام دفعات BYOD المجدولة
 description: يوضح هذا الموضوع كيفية تحسين الأداء عند استخدام ميزة ‏‫إحضار قاعدة بياناتك الخاصة‬ (BYOD) مع Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: d08762ff40b4da8264bd5bc4a1c16fd2afc4d610
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417091"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067769"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>تحسين مهام دفعات BYOD المجدولة
 
-يوضح هذا الموضوع كيفية تحسين الأداء عند استخدام ميزة ‏‫إحضار قاعدة بياناتك الخاصة‬ (BYOD) . لمزيد من المعلومات حول ميزة BYOD، راجع [إحضار قاعدة بياناتك الخاصة (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+يوضح هذا الموضوع كيفية تحسين الأداء عند استخدام ميزة ‏‫إحضار قاعدة بياناتك الخاصة‬ (BYOD) . لمزيد من المعلومات حول ميزة BYOD، راجع [إحضار قاعدة بياناتك الخاصة (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>اعتبارات الأداء لتصدير البيانات
 
-بعد نشر الكيانات إلى قاعدة البيانات الوجهة، يمكنك استخدام وظيفة "تصدير" في مساحة عمل **إدارة البيانات** لنقل البيانات. تتيح لك وظيفة "تصدير" تحديد مهمة حركه البيانات التي تحتوي علي كيان واحد أو أكثر. لمزيد من المعلومات حول تصدير البيانات راجع [نظرة عامة حول وظائف استيراد البيانات وتصديرها](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
+بعد نشر الكيانات إلى قاعدة البيانات الوجهة، يمكنك استخدام وظيفة "تصدير" في مساحة عمل **إدارة البيانات** لنقل البيانات. تتيح لك وظيفة "تصدير" تحديد مهمة حركه البيانات التي تحتوي علي كيان واحد أو أكثر. لمزيد من المعلومات حول تصدير البيانات راجع [نظرة عامة حول وظائف استيراد البيانات وتصديرها](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 يمكنك استخدام صفحة **تصدير** لتصدير بيانات إلى تنسيقات بيانات هدف مختلفة، مثل ملف قيم مفصولة بفاصلة (CSV). وتدعم هذه الصفحة أيضًا قواعد بيانات SQL كوجهة أخرى.
 
@@ -61,7 +63,7 @@ ms.locfileid: "4417091"
 
 عند إضافة كيان لتصدير البيانات، يمكنك إجراء إما دفع تزايدي (تصدير) أو دفع كامل. يقوم الدفع الكامل بحذف كافة السجلات الموجودة من أحد الكيانات في قاعدة بيانات BYOD. ثم يقوم بإدراج مجموعة السجلات الحالية من كيان الموارد البشرية.
 
-لإجراء عملية دفع تزايديه، يجب تشغيل تعقب التغيير لكل كيان في صفحة **الكيانات**. لمزيد من المعلومات، راجع [‏‫تمكين تعقب التغيير للكيانات‬](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+لإجراء عملية دفع تزايديه، يجب تشغيل تعقب التغيير لكل كيان في صفحة **الكيانات**. لمزيد من المعلومات، راجع [‏‫تمكين تعقب التغيير للكيانات‬](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 إذا قمت بتحديد دفع تزايدي، فان الدفع الأول دائمًا يكون دفعا كاملا. يقوم SQL بتعقب التغييرات من الدفع الكامل الأول. عند إدراج سجل جديد أو عند تحديث سجل أو حذفه، ينعكس التغيير في الكيان الوجهة.
 
@@ -88,11 +90,20 @@ ms.locfileid: "4417091"
 
 **المشكلة:** عند حدوث دفع كامل لأحد الكيانات، تشاهد مجموعة كبيرة من السجلات في BYOD عند استخدام عبارة **تحديد**. ومع ذلك ، عندما تقوم بالدفع المتزايد، يمكنك الاطلاع على عدد قليل فقط من السجلات في BYOD. ويبدو وكأن الدفع التزايدي قد حذف كافة السجلات وأضاف فقط السجلات التي تم تغييرها في BYOD.
 
-**الحل:** قد لا تكون جداول تتبع التغييرات في SQL في الحالة المتوقعة. وفي هذه الحالات، نوصي بإيقاف تشغيل تعقب التغييرات للكيان ثم تشغيله مرة أخرى. لمزيد من المعلومات، راجع [‏‫تمكين تعقب التغيير للكيانات‬](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+**الحل:** قد لا تكون جداول تتبع التغييرات في SQL في الحالة المتوقعة. وفي هذه الحالات، نوصي بإيقاف تشغيل تعقب التغييرات للكيان ثم تشغيله مرة أخرى. لمزيد من المعلومات، راجع [‏‫تمكين تعقب التغيير للكيانات‬](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>لا يتم مسح الجداول المرحلية
+
+**المشكلة:** عند استخدام المراحل للمشروع، لا يتم مسح الجداول المرحلية بشكل صحيح. ثم تستمر البيانات الموجودة في الجداول في النمو، مما يتسبب في حدوث مشكلات في الأداء.
+
+**الحل:** يتم الاحتفاظ بسبعة أيام من التاريخ في جداول المراحل. يتم مسح البيانات التاريخية الأقدم من سبعة أيام تلقائيًا من الجداول المرحلية بواسطة وظيفة دفعة **تنظيف مراحل التصدير والاستيراد**. إذا تعطلت هذه المهمة، فلن يتم مسح الجداول بشكل صحيح. ستؤدي إعادة تشغيل وظيفة المجموعة هذه إلى متابعة العملية لمسح جداول المراحل تلقائيًا.
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[نظرة عامة حول إدارة البيانات](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
-[إحضار قاعدة بياناتك الخاصة (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
-[نظرة عامة حول مهام استيراد البيانات وتصديرها](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
-[تمكين تعقب التغيير للكيانات](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+[نظرة عامة حول إدارة البيانات](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[إحضار قاعدة بياناتك الخاصة (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[نظرة عامة حول مهام استيراد البيانات وتصديرها](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[تمكين تعقب التغيير للكيانات](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

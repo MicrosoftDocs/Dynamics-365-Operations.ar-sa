@@ -2,11 +2,9 @@
 title: استيراد إصدارات محدثه من تكوينات ER
 description: يشرح هذا الموضوع كيفية استيراد إصدارات محدثة من تكوينات التقارير الإلكترونية (ER) من المستودع العمومي لخدمة التكوين.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 897663998c6c95ff6d7172de2abc4d4dd6ec5f12
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679500"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753350"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>استيراد إصدارات محدثه من تكوينات ER
 
@@ -98,3 +96,6 @@ ms.locfileid: "4679500"
 
 - [نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - [تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

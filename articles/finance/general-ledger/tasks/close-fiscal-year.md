@@ -2,26 +2,23 @@
 title: إقفال السنة المالية
 description: ينقلك هذا الإجراء عبر عملية إقفال نهاية السنة التي تحول الأرصدة إلى سنة مالية جديدة.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 593ab5b45cc0c2e1a8b876aa89de014fd9df1a13
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440027"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902497"
 ---
 # <a name="close-the-fiscal-year"></a>إقفال السنة المالية
 
@@ -39,7 +36,7 @@ ms.locfileid: "4440027"
 
 4. حدد "نعم" أو "لا" للخيار **إنشاء حركات إقفال أثناء التحويل**.
 
-    إذا تم تعيين الخيار إلى "نعم"، فسيتم إنشاء حركتين. يتم إنشاء إيصال واحد في السنة المالية الجاري إقفالها لكي تصبح أرصدة حسابات دفتر الأستاذ للأرباح والخسائر بقيمة صفر، ويتم إنشاء إيصال ثانٍ في السنة المالية التالية للأرصدة الأولية. أما إذا تم تعيين الخيار إلى "لا"، فسيتم إنشاء إيصال واحد في السنة المالية التالية للأرصدة الأولية.  
+    إذا تم تعيين الخيار إلى "نعم"، فسيتم إنشاء حركتين. يتم إنشاء إيصال واحد في السنة المالية الجاري إقفالها لكي تصبح جميع أرصدة حسابات دفتر الأستاذ بقيمة صفر، ويتم إنشاء إيصال ثانٍ في السنة المالية التالية للأرصدة الأولية. أما إذا تم تعيين الخيار إلى "لا"، فسيتم إنشاء إيصال واحد في السنة المالية التالية للأرصدة الأولية.  
 
 5. حدد "نعم" أو "لا" للخيار **تعيين حالة السنة المالية إلى مقفلة بشكل دائم‬**.
 
@@ -83,3 +80,6 @@ ms.locfileid: "4440027"
 23. يتم تشغيل إقفال نهاية السنة بشكل افتراضي في الوضع الدفعي. من المستحسن تشغيل العمليات طويلة الأمد في الوضع الدفعي. هذه هي عادة إحدى هذه العمليات، ولهذا السبب فإن الإعداد الافتراضي هو استخدام الوضع الدفعي.  
 24. انقر فوق **موافق**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

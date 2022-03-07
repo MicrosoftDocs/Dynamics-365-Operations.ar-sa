@@ -2,11 +2,9 @@
 title: إنشاء تكوينات لتعيين نماذج التقارير الإلكترونية
 description: استخدم هذا الإجراء لتصميم تكوين جديد لتعيين نموذج التقارير الإلكترونية، واستخدم وظائف التقارير الإلكترونية المدمجة لإجراء حسابات مجمعة فعالة.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23bc3a525be9f65b7e5100114d02f6b79a286fb5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9a614ce0f055691e36c1aab5d84d4fc3355026f1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682059"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752546"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>إنشاء تكوينات لتعيين نماذج التقارير الإلكترونية
 
@@ -65,3 +63,6 @@ ms.locfileid: "4682059"
     * تعيين نموذج نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي  
 5. وانقر فوق إنشاء تكوين.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

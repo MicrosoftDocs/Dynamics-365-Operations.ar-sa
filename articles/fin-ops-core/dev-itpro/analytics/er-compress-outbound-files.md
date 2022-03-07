@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8a8f55b33624b057a6abf9af5084209ac6a0c778
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680844"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562324"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>ضغط المستندات الكبيرة المُنشأة بتنسيق التقارير الإلكترونية 
 
 [!include [banner](../includes/banner.md)]
 
-يمكنك استخدام [إطار عمل ‏‫إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) لتكوين حل يُحضر بيانات الحركات‬ لإنشاء مستند صادر. قد يكون حجم هذا المستند المُنشأ كبيرًا جدًا. عند إنشاء هذا النوع من المستندات، يتم استخدام ذاكرة [خادم كائن التطبيق (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) لاحتوائه. في مرحلة معينة، يجب تحميل المستند من تطبيق Microsoft Dynamics 365 Finance. في الوقت الحالي، يقتصر الحد الأقصى لحجم مستند واحد يتم إنشاؤه بتنسيق التقارير الإلكترونية على 2 غيغابايت. علاوةً على ذلك، [يحدد](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) تطبيق Finance حجم المستند المنزّل بغيغابايت واحد. وبالتالي، يجب عليك تكوين حل للتقارير الإلكترونية يقلل احتمال تجاوز هذه الحدود، وأنك ستتلقى استثناء **البث كان طويلاً جدًا** أو **تجاوز السعة أو نقص في السعة في العملية الحسابية**.
+يمكنك استخدام [إطار عمل ‏‫إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) لتكوين حل يُحضر بيانات الحركات‬ لإنشاء مستند صادر. قد يكون حجم هذا المستند المُنشأ كبيرًا جدًا. عند إنشاء هذا النوع من المستندات، يتم استخدام ذاكرة [خادم كائن التطبيق (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) لاحتوائه. في مرحلة معينة، يجب تحميل المستند من تطبيق Microsoft Dynamics 365 Finance. في الوقت الحالي، يقتصر الحد الأقصى لحجم مستند واحد يتم إنشاؤه بتنسيق التقارير الإلكترونية على 2 غيغابايت. علاوةً على ذلك، [يحدد](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) تطبيق Finance حجم المستند المنزّل بغيغابايت واحد. وبالتالي، يجب عليك تكوين حل للتقارير الإلكترونية يقلل احتمال تجاوز هذه الحدود، وأنك ستتلقى استثناء **البث كان طويلاً جدًا** أو **تجاوز السعة أو نقص في السعة في العملية الحسابية**.
 
 عند تكوين حل، يمكنك ضبط تنسيق التقارير الإلكترونية في مصمم العمليات عن طريق أضافه عنصر جذر من النوع **مجلد** لضغط المحتوى الذي يتم إنشاؤه بواسطة أي من العناصر المتداخلة فيه. يعمل الضغط "في الوقت المناسب"، حتى يمكن تقليل الاستخدام الأقصى لاستخدام الذاكرة وحجم الملف الذي سيتم تنزيله.
 
@@ -94,3 +93,6 @@ ms.locfileid: "4680844"
 [وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
 
 [تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

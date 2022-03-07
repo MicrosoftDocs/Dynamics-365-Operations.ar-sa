@@ -2,15 +2,12 @@
 title: وحدة الشعار الترويجي
 description: يتناول هذا الموضوع وحدات الشعارات الترويجية ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718770"
 ---
 # <a name="promo-banner-module"></a>وحدة الشعار الترويجي
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع وحدات الشعارات الترويجية ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تستخدم وحدات الشعارات الترويجية لعرض رسائل المعلومات المضمنة في الصفحة. ويُمكن استخدامها للعروض على مستوى الموقع التي تظهر في كافة صفحات موقع التجارة الإلكترونية. 
 
@@ -51,11 +46,11 @@ ms.locfileid: "4409807"
 
 تبين الصورة التالية مثالاً عن شعار ترويجي.
 
-![مثال عن وحدة شعار ترويجي](./media/ecommerce-Promobanner.PNG)
+![مثال عن وحدة شعار ترويجي.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>خصائص وحدة الشعار الترويجي
 
-| اسم الخاصية             | قيمة                              | ‏‏الوصف |
+| اسم الخاصية             | قيمة                              | الوصف |
 |---------------------------|------------------------------------|-------------|
 | رسائل الافتة           | نص وارتباطات                     | مجموعة من النصوص والارتباطات. |
 | تشغيل تلقائي                  | **صحيح** أم **خطأ**              | قيمة تشير إلى ما إذا كان يتم التنقل عبر الرسائل بشكل تلقائي، إذا تم تكوين رسائل متعددة. |
@@ -63,7 +58,11 @@ ms.locfileid: "4409807"
 | السماح بالاستبعاد             | **صحيح** أم **خطأ**              | إذا تم تعيين القيمة إلى **صحيح**، بإمكان العملاء استبعاد التنبيه. |
 | إظهار الذراع الدوار     | **صحيح** أم **خطأ**              | قيمة تشير إلى ما إذا كان يجب عرض القيمة الأذرع الدوارة، لتمكين العملاء من التنقل بطريقة يدوية عبر عناصر الشعار المتعددة. |
 | محاذاة النص            | **اليمين**, **اليسار**, أو **الوسط** | محاذاة النص في وحدة الشعار الترويجي. |
-| الارتباط                      | عنوان URL                              | عنوان URL لارتباط اختياري. |
+| ارتباط                      | عنوان URL                              | عنوان URL لارتباط اختياري. |
+|محاذاة النص             | **اليمين**, **اليسار**, أو **الوسط** | هذه الخاصية متوفرة كملحق للنسق في نسق Adventure Works. كما تتيح للمستخدم تعيين محاذاة النص في الشعار الترويجي. |
+
+> [!IMPORTANT]
+> ويتوفر نسق Adventure Works اعتباراً من الإصدار 10.0.20 من Dynamics 365 Commerce.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>إضافة وحدة شعار ترويجي إلى صفحة 
 
@@ -84,7 +83,6 @@ ms.locfileid: "4409807"
 > [!NOTE]
 > يتم استخدام الشعار الترويجي عادةً في فتحة رأس الصفحة أو فتحة رأس فرعي.
 
-
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة حول مكتبة الوحدات النمطية](starter-kit-overview.md)
@@ -96,3 +94,6 @@ ms.locfileid: "4409807"
 [وحدة كتلة المحتوى](add-hero-module.md)
 
 [وحدة نمطية لمشغل الفيديو](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

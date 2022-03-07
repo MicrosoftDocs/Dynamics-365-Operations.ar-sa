@@ -2,11 +2,9 @@
 title: تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
 description: يقدم هذا الموضوع معلومات عن كيفية تقسم الملفات المنشأة حسب حجم الملف وكمية عنصر المحتوى.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/25/2018
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d60266aba42f502e7707bdace921cfee4526b6ae
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9b0c8d215d1932a4c897488cb9c6ed7fa2127d82
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682861"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944331"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>تقسيم ملفات XML التي تم إنشاؤها استنادًا إلى حجم الملف وكمية المحتوى
 
@@ -40,10 +38,13 @@ ms.locfileid: "4682861"
 
 لمعرفة المزيد عن هذه الميزة، قم بتشغيل دليل المهمة **تقسم التقارير الإلكترونية لملفات XML استنادًا إلى حجم الملف أو كمية عنصر المحتوى** والتي تمثل جزءًا من العملية التجارية **7.5.4.3اكتساب/تطوير خدمة تكنولوجيا المعلومات/مكونات الحلول (10677‬‏‫)** ويمكن تنزيلها من[Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684). يأخذك دليل المهمة هذا خلال عملية تكوين تنسيق إعداد التقارير الإلكترونية لتقسيم الملفات المنشأة حسب حدود حجم الملف وكمية عنصر المحتوى. لإكمال دليل المهمة هذا، يجب عليك تنزيل الملفات التالية:
 
-- [‏‫تكوين نموذج تقارير إلكترونية‬ - XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [تكوين تنسيق التقارير الإلكترونية - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [‏‫تكوين نموذج تقارير إلكترونية‬ - XmlFilesSplittingModel.xml](https://download.microsoft.com/download/e/a/f/eaffe96a-22ec-4a32-898a-f4328c91c387/XmlFilesSplittingModel.xml)
+- [تكوين تنسيق التقارير الإلكترونية - XmlFilesSplittingFormat.xml](https://download.microsoft.com/download/e/9/c/e9c5849b-8254-4cdf-bb00-4c2ebc72ddec/XmlFilesSplittingFormat.xml)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 [وجهات التقارير الإلكترونية‬](electronic-reporting-destinations.md)
 
 [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

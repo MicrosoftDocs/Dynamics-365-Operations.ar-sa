@@ -1,12 +1,10 @@
 ---
 title: حالات دورة حياة الأصل
 description: يشرح هذا الموضوع حالات دورة حياة الأصل ونماذج دورة الحياة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016542"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722453"
 ---
 # <a name="asset-lifecycle-states"></a>حالات دورة حياة الأصل
 
@@ -63,9 +61,12 @@ ms.locfileid: "5016542"
 
 5. على علامة التبويب السريعة **حالات دورة الحياة**، حدد حالات دورة الحياة التي يجب تضمينها في نموذج دورة حياة الأصل:
 
-    - لاستخدام حالة دورة حياة للنموذج، حددها في القسم **حالات دورة الحياة المتبقية**، ثم حدد زر السهم إلى اليمين ![سهم إلى اليمين](media/15-setup-for-objects.png) لنقلها إلى القسم **حالات دورة الحياة المحددة**.
+    - لاستخدام حالة دورة حياة للنموذج، حددها في قسم **حالات دورة الحياة المتبقية**، ثم حدد زر السهم إلى اليمين ![سهم إلى اليمين.](media/15-setup-for-objects.png) لنقلها إلى قسم **حالات دوره الحياة المحدد**.
     - لاستخدام جميع حالات دورة الحياة المتوفرة للنموذج، حدد الزر **جميع حالات دورة الحياة المتوفرة** ![جميع حالات دورة الحياة المتوفرة](media/20-setup-for-objects.png). يتم نقل جميع حالات دورة الحياة إلى القسم **حالات دورة الحياة المحددة**.
-    - لإزالة حالة دورة حياة من النموذج، حددها في القسم **حالات دورة الحياة المحددة**، ثم حدد زر السهم إلى اليسار ![سهم إلى اليسار](media/16-setup-for-objects.png) لنقلها إلى القسم **حالات دورة الحياة المتبقية**.
+    - لإزالة حالة دورة حياة من النموذج، حددها في قسم **حالات دورة الحياة المحددة**، ثم حدد زر السهم إلى اليسار ![سهم إلى اليسار.](media/16-setup-for-objects.png) لنقلها إلى قسم **حالات دوره الحياة المتبقية**.
 
 6. حدد **تحديثات حالة دورة الحياة** لتحديد حالات دورة حياة الأصل التي يمكنها أن تتبع حالة دورة حياة محددة.
 7. يمكنك استخدام علامة التبويب السريعة **حالة الأصل** إذا كنت تتعامل مع أصول تستلمها لإصلاحها. في القسم **وارد/صادر**، يمكنك تحديد حالات دورة حياة الأصل للإشارة إلى سير عمل أصل تستلمه لإصلاحه. إذا قدمت أصولاً مقترضة للعملاء أو الأقسام في قسم **القرض**، يمكنك تحديد حالات دورة الحياة للأصول المقترضة.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

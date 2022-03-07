@@ -2,11 +2,9 @@
 title: تسوية كشوف الحسابات البنكية باستخدام التسوية البنكية المتقدمة
 description: تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 Finance بشكل تلقائي. يشرح هذا الموضوع عملية التسوية.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92c04a47b134584280736f4d3d2fa401d2a2a9b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fbfa999d2aaa4b6dad711bb57916a68fb37c57d9add09092783ad3a8d6450c1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714438"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>تسوية كشوف الحسابات البنكية باستخدام التسوية البنكية المتقدمة
 
@@ -30,8 +28,7 @@ ms.locfileid: "4969418"
 
 تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Dynamics 365 Finance بشكل تلقائي. يشرح هذا الموضوع عملية التسوية.  
 
-<a name="import-an-electronic-bank-statement"></a>استيراد كشف حساب بنكي إلكتروني
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>استيراد كشف حساب بنكي إلكتروني
 
 يمكنك استيراد كشوف حساباتك البنكية باستخدام إجراء **استيراد كشف الحساب‬** في صفحة **كشوف الحسابات البنكية**. يتم تحديد الحساب البنكي في كشف الحساب البنكي من خلال مجموعة من القيم التي تم تعيينها على تفاصيل الحساب البنكي. وتشمل هذه القيم اسم البنك ورقم الحساب البنكي ورقم التوجيه وكود جمعية الاتصالات المالية العالمية ما بين البنوك (SWIFT) ورقم الحساب البنكي الدولي (IBAN). 
 
@@ -95,3 +92,6 @@ ms.locfileid: "4969418"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

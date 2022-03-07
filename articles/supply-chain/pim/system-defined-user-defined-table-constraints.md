@@ -1,30 +1,27 @@
 ---
 title: قيود الجدول المحددة بواسطة المستخدم أو المحددة بواسطة النظام
 description: 'توضح هذه المقالة نوعي قيود الجدول للمكونات في نموذج تكوين منتج: القيود المحددة من قِبل المستخدم والقيود المحددة من قِبل النظام. تمثل قيود الجدول مقاييس مجموعات السمات المسموح بها، حيث يعرّف كل صف مجموعة واحدة من قيم السمات الممكنة.'
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19781
 ms.assetid: 0a4ea930-b344-43a8-871e-d5cd077892c4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fb1395859b5abd06539e07ada3d968b2e9c9147
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4b484c99bc8f1cc830d4177460ec15a26714a56
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421384"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577374"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>قيود الجدول المحددة بواسطة المستخدم أو المحددة بواسطة النظام
 
@@ -60,10 +57,12 @@ ms.locfileid: "4421384"
 
 ‏‫وقبل سريان مفعول قيد جدول على نموذج تكوين منتج، يجب تضمين قيد الجدول في قيد في أحد مكونات النموذج. والإجراء هو إنشاء قيد جديد، حدد نوع قيد الجدول، ثم حدد تعريف قيد الجدول المراد استخدامه.‬ وأخيراً، يجب تعيين كافة الحقول في قيد الجدول إلى السمات في نموذج تكوين المنتج.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على نماذج تكوين المنتجات](product-configuration-models.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

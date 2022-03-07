@@ -2,35 +2,30 @@
 title: إضافة أيقونة المفضلة
 description: ‏‫يوضح هذا الموضوع كيفية إضافة أيقونة مفضلة إلى الموقع الخاص بك.‬
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409826"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964722"
 ---
 # <a name="add-a-favicon"></a>إضافة أيقونة المفضلة
 
 [!include [banner](includes/banner.md)]
 
 ‏‫يوضح هذا الموضوع كيفية إضافة أيقونة مفضلة إلى الموقع الخاص بك.‬
-
-## <a name="overview"></a>نظرة عامة
 
 وأيقونة المفضلة هي ملف رسومي صغير يتم عرضة على علامة تبويب مستعرض ويب، في شريط العنوان، وفي محفوظات الاستعراض، وفي الإشارات المرجعية أو المفضلة، من بين أماكن أخرى. نوصي أن تقوم بإضافة أيقونة المفضلة إلى موقعك، لأنها تعرض وتعزز علامتك التجارية، وتساعد في تمييز موقعك عن المواقع الأخرى التي يزورها عملائك.
 
@@ -66,7 +61,7 @@ ms.locfileid: "4409826"
 1. في مربع الحوار **جزء جديد**، حدد **علامات التعريف** كالوحدة النمطية التي يستند إليها الجزء.
 1. أدخل اسمًا للجزء، ثم حدد **موافق**.
 1. في شجره التدرج الهرمي للجزء، حدد التابع **علامات التعريف الافتراضية**.
-1. في الجزء الأيسر، ضمن **علامات التعريف**، حدد **إضافة**، ثم أدخل سلسلة HTML التي قمت بإنشاءها سابقا لأيقونة المفضلة الخاصة بك. 
+1. في الجزء الأيسر، ضمن **علامات التعريف**، حدد **إضافة**، ثم أدخل سلسلة HTML التي قمت بإنشاءها سابقا لأيقونة المفضلة الخاصة بك. 
 1. حدد **إنهاء التحرير** ثم حدد **نشر** لنشر الجزء؟
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>إضافة جزء علامة التعريف إلى مقطع رأس HTML لصفحاتك
@@ -91,11 +86,12 @@ ms.locfileid: "4409826"
 
 [العمل CSS مع ملفات التجاوز](css-override-files.md)
 
-[إضافة رسالة ترحيب](add-welcome-message.md)
-
 [إضافة إشعار لحقوق النشر](add-copyright-notice.md)
 
 [إضافة لغات إلى الموقع الخاص بك](add-languages-to-site.md)
 
 [إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

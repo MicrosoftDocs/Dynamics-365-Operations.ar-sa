@@ -1,29 +1,26 @@
 ---
 title: محاكاة السعر
 description: توفر هذه المقالة معلومات حول محاكاة السعر لعروض الأسعار. تساعدك محاكاة السعر على تقييم تأثير الخصومات‬ على سعر المبيعات المستقبلي أثناء معالجة عرض الأسعار قبل أن تلتزم بسعر معين.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation, SalesQuotationsTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4421670"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580494"
 ---
 # <a name="price-simulation"></a>محاكاة السعر
 
@@ -145,3 +142,6 @@ ms.locfileid: "4421670"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

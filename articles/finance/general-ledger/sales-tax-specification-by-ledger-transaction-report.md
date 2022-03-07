@@ -2,28 +2,25 @@
 title: تقرير مواصفات ضريبة المبيعات حسب حركة دفتر الأستاذ
 description: يوضح هذا الموضوع كيفية استخدام ‏‫تقرير مواصفات ضريبة المبيعات حسب حركة دفتر الأستاذ‬ لعرض وطباعة معلومات حول حركات دفتر الأستاذ التي يتم حساب ضريبة المبيعات لها.
 author: ericwang
-manager: Ann Beebe
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 438a640124e778b839c660f5e161efa22c319af0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f835f06c190f1d174fbde6b68f189b0484a7b39610bc2edc0676a3e2fa320268
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721745"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>تقرير مواصفات ضريبة المبيعات حسب حركة دفتر الأستاذ
 [!include [banner](../includes/banner.md)]
@@ -57,4 +54,7 @@ ms.locfileid: "4439799"
 
 لإظهار الحسابات غير الضريبية فقط في التقرير، قم باعداد شرط عامل تصفية، مثل العلامة النجمية (\*)، كما هو مبين في الشكل التوضيحي التالي.
 
-![تقرير يوضح الحسابات غير الضريبية](media/taxspecperledgertrans.png)
+![تقرير يوضح الحسابات غير الضريبية.](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,30 +1,29 @@
 ---
 title: نظرة عامة على الوصول
 description: يوفر هذا الموضوع معلومات حول ميزة النظرة العامة على الوصول. تعتبر الصفحة "نظرة عامة على الوصول" جزءًا من هذه الميزة وتوفر نظرة عامة على كافة العناصر التي من المتوقع أن تصل كأصناف واردة.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421442"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567429"
 ---
 # <a name="arrival-overview"></a>نظرة عامة على الوصول
 
@@ -37,7 +36,7 @@ ms.locfileid: "4421442"
 ## <a name="business-scenario"></a>سيناريو العمل
 خذ في الاعتبار السيناريو التالي في العمليات الواردة.
 
-[![سيناريو العمل](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![سيناريو العمل.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 سامي، موظف الاستقبال، يريد معرفة الأصناف التي من المتوقع استلامها في اليوم الحالي. في الصفحة **نظرة عامة على الوصول**، يستطيع سامي الحصول على نظرة عامة على المهام الحالية، وتقديرًا أوليًا للكميات، والحجم والوزن، ومختلف أنواع الأوامر وغير ذلك. في وقت لاحق، تصل عملية تسليم تصل إلى أحد الأرصفة الداخلية، ويتلقى سامي قائمة بالتسليم. في الصفحة **نظرة عامة على الوصول**، يستطيع سامي تنفيذ المهام التالية:
 
@@ -69,7 +68,7 @@ ms.locfileid: "4421442"
 
 -   يجب تحديد اسم دفتر يومية لإنشاء دفتر يومية.
 
-[![تحديد اسم دفتر اليومية](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![تحديد اسم دفتر اليومية.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   إذا حددت القيم الموجودة في حقلي **المستودع** و **الموقع**، فسيتم تطبيق هذه القيم على بنود دفتر اليومية. إذا لم تحدد القيم، فإن النظام يستخدم القيم من البُعد الذي تم تحديده في حركات المخزون.
 
@@ -121,3 +120,6 @@ ms.locfileid: "4421442"
 
 ## <a name="summary"></a>ملخص
 باستطاعة الصفحة **نظرة عامة على الوصول** مساعدة مدير المستودع والعاملين فيه على تحقيق نظرة عامة على العمل المتوقع الذي يجب تنفيذه كجزء من عملية واردة. ويمكن استخدام الصفحة أيضًا لبدء عملية وصول الصنف، للمساعدة في ضمان تعقب هذه العناصر عند الدخول الأول إلى المستودع.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: إدارة أسعار مبيعات Retail
 description: يصف هذا الموضوع المفاهيم المتعلقة بإنشاء وإدارة أسعار المبيعات في Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409768"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794153"
 ---
 # <a name="retail-sales-price-management"></a>إدارة أسعار مبيعات البيع بالتجزئة
 
@@ -240,3 +237,6 @@ ms.locfileid: "4409768"
 يعد السعر أحد أهم العوامل التي تتحكم في قرارات الشراء للعديد من العملاء، ويقارن العديد من العملاء الأسعار على مواقع مختلفة قبل إجراء عملية شراء. وللمساعدة في ضمان توفير أسعار تنافسية، يراقب بائعو التجزئة منافسيهم جيدًا وغالبًا ما يقدمون عروضًا ترويجية. ولمساعدة بائعي التجزئة على جذب العملاء، يعد من المهم للغاية عرض كل من ميزة الاستعراض والقوائم وصفحة تفاصيل المنتج الأسعار الأدق.
 
 في الإصدار القادم من Commerce، ستعرض واجهة برمجة تطبيقات **GetActivePrices** الأسعار التي تشمل خصومات بسيطة (على سبيل المثال، خصومات سطر واحد لا تعتمد على عناصر أخرى في السلة). وبهذه الطريقة، تكون الأسعار المعروضة قريبة من المبلغ الفعلي الذي سيدفعه العملاء مقابل العناصر. ستتضمن واجهة برمجة التطبيقات هذه جميع أنواع الخصومات البسيطة: الخصومات القائمة على الانتماء، والقائمة على الولاء، والقائمة على الكتالوج، والقنوات. بالإضافة إلى ذلك، ستعرض واجهة برمجة التطبيقات الأسماء ومعلومات الصلاحية الخاصة بالخصومات المطبقة، حتى يتمكن تجار التجزئة من تقديم وصف أكثر تفصيلاً للسعر وخلق شعور بالإلحاح إذا انتهت صلاحية الخصم قريبًا.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

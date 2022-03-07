@@ -1,36 +1,31 @@
 ---
-title: استخدام الإعدادات المسبقة للأنماط
+title: العمل باستخدام نمط الإعدادات المسبقة
 description: يصف هذا الموضوع كيفية استخدام الإعدادات المسبقة لأنماط الموقع في منشئ الموقع في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409960"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964843"
 ---
-# <a name="work-with-style-presets"></a>استخدام الإعدادات المسبقة للأنماط
+# <a name="work-with-style-presets"></a>العمل باستخدام نمط الإعدادات المسبقة
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية استخدام الإعدادات المسبقة لأنماط الموقع في منشئ الموقع في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 الإعداد المسبق للنمط هو مجموعة مخزنة من جميع قيم النمط القابلة للاستخدام في نسق نمط. ويمكن استخدامه لتغيير شكل أحد المواقع على الفور من منشئ الموقع. تسمح الإعدادات المسبقة للأنماط للمؤلفين في منشئ الموقع في Commerce بتغيير مجموعة من قيم الأنماط في موقعهم ومعاينتها وتنشيطها، من دون استخدام أوراق الأنماط المتتالية (CSS) أو نشر النُسق. تعتبر أنماط الخطوط وأنماط الأزرار وألوان الموقع أمثلة نموذجية عن متغيرات الأنماط التي يمكن إدارتها عبر الإعدادات المسبقة للأنماط.
 
@@ -121,10 +116,11 @@ ms.locfileid: "4409960"
 
 [إضافة أيقونة المفضلة](add-favicon.md)
 
-[إضافة رسالة ترحيب](add-welcome-message.md)
-
 [إضافة إشعار لحقوق النشر](add-copyright-notice.md)
 
 [إضافة لغات إلى الموقع الخاص بك](add-languages-to-site.md)
 
 [إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

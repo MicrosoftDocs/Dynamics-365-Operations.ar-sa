@@ -2,11 +2,9 @@
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.15 (يناير 2021)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.15 من Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b84aaef5348d2cb6bdd6d35e7e26bca9a4e0f6b
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014523"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821143"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.15 (يناير 2021)
 
@@ -35,7 +33,7 @@ ms.locfileid: "5014523"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. لا تزال بعض الميزات المدرجة في المعاينة، بينما قد يكون الآخرون متاحون بشكل عام. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
+يتضمن هذا الإصدار الميزات التالية. اتبع ارتباطات [خطة الإصدار](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) للاطلاع على تواريخ الإصدار الرسمية لكل ميزة.
 
 - أداره وحده مقياس السحابة والحافة باستخدام أحمال التصنيع وتنفيذ المستودع<br> - للحصول على مزيد من المعلومات، راجع [وحدات نطاق السحابة والحافة لأحمال التصنيع وإدارة المستودعات](../cloud-edge/cloud-edge-landing-page.md).
 
@@ -83,3 +81,6 @@ ms.locfileid: "5014523"
 قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

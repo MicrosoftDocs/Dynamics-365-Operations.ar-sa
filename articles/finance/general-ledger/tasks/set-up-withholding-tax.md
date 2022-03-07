@@ -2,26 +2,23 @@
 title: إعداد ضريبة الخصم
 description: يشرح هذا الموضوع كيفية إعداد ضريبة الخصم.
 author: twheeloc
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfa1b9e43a5745eb5b5c442998597319f196f23f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 592afb7542fa44dcb1bf3f7354937d3c21fb1a87
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439857"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813458"
 ---
 # <a name="set-up-withholding-tax"></a>إعداد ضريبة الخصم
 
@@ -49,3 +46,6 @@ ms.locfileid: "4439857"
 18. حدد **حفظ**.
 19. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

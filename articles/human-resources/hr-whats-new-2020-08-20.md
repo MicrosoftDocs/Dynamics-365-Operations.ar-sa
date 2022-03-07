@@ -1,33 +1,32 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources (20 أغسطس 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 20 أغسطس 2020.
-author: Darinkramer
-manager: AnnBe
-ms.date: 8/20/2020
+author: andreabichsel
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a97997212a090f141c7280f7e48fd116a1f31481
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527462"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062151"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (20 أغسطس 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3478. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم المرجع في  Lifecycle Services (LCS).
 
@@ -65,15 +64,15 @@ ms.locfileid: "4527462"
 
 يمكنك جعل الحقول إلزامية باستخدام إمكانيات التخصيص في Human Resources. تتطلب هذه الميزة **طرق عرض محفوظة**. لمزيد من المعلومات حول طرق العرض المحفوظة، راجع:
 
-- [طرق العرض المحفوظة - التوفر العام](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
-- [إنشاء نماذج تستخدم طرق العرض المحفوظة بشكل كامل](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [طرق العرض المحفوظة - التوفر العام](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
+- [إنشاء نماذج تستخدم طرق العرض المحفوظة بشكل كامل](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>تطبيق Human Resources في Teams
 
 بإمكان الموظفين عرض وطلب الوقت بعيدًا عن العمل ضمن Microsoft Teams يمكنهم التفاعل مع روبوت لإنشاء طلبات الإجازات. لمزيد من المعلومات، راجع:
 
-- [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
-- [تطبيق Human Resources في Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
+- [تطبيق Human Resources في Teams](./hr-admin-teams-leave-app.md)
 
 ## <a name="coming-soon"></a>قريبًا
 
@@ -83,9 +82,9 @@ ms.locfileid: "4527462"
  
 - **تقويم إجازة المُدير**: سوف يتمكن المديرون من رؤية الإجازات المعتمدة والمعلقة لتقاريرهم المباشرة في طريقة عرض التقويم. توفر طريقة العرض هذه طريقة سهلة في الفهم عند انقطاع أعضاء فريقهم عن العمل.
 
-### <a name="checklist-entities-included-in-common-data-service"></a>تضمين كيانات قائمة الاختيار في Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>تضمين كيانات قائمة الاختيار في Dataverse
 
-ستتوفر كيانات قائمة الاختيار لعمليات الإلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبًا في Common Data Service.
+ستتوفر كيانات قائمة الاختيار لعمليات الإلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبًا في Dataverse.
 
 ## <a name="known-issues"></a>مشكلات معروفة
 
@@ -117,6 +116,9 @@ ms.locfileid: "4527462"
 ## <a name="see-also"></a>راجع أيضًا
 
 [الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

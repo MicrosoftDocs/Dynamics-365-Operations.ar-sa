@@ -2,33 +2,29 @@
 title: تحسين نموذج التنبؤ (معاينة)
 description: يوضح هذا الموضوع الميزات التي يمكنك استخدامها لتحسين أداء نماذج التنبؤ.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 376e48a442f5a1b459077fb7a0d52faf974a792f
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646069"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638406"
 ---
 # <a name="improve-the-prediction-model-preview"></a>تحسين نموذج التنبؤ (معاينة)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يوضح هذا الموضوع الميزات التي يمكنك استخدامها لتحسين أداء نماذج التنبؤ. ستبدأ في تحسين النموذج الخاص بك في مساحة العمل **توقعات دفع العميل** في Microsoft Dynamics 365 Finance. عندئذ يتم إكمال خطوات التحسين في AI Builder.
 
@@ -36,25 +32,25 @@ ms.locfileid: "4646069"
 
 قم أولاً بتحديد واحدًا أو أكثر من النتائج الثلاثة المحتملة للفواتير: **في الوقت المحدد** و **متأخر** و **متأخر جدًا**. يجب تحديد كافة النتائج الثلاثة. إذا قمت بإلغاء تحديد أي من النتائج، فإنه سيتم تصفية الفواتير خارج عملية التدريب وسيتم تقليل دقة التوقع.
 
-[![تأكيد النتائج](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![تأكيد النتائج.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 إذا كانت مؤسستك تتطلب اثنين من النتائج فقط، فقم بتغيير الحدود **متأخر** و **متأخر جدًا** إلى 0 (صفر) يومًا. بهذه الطريقة، يمكنك بشكل فعال طي التوقع إلى الحالة الثنائية **في الوقت المحدد** أو **متأخر**.
 
 ## <a name="select-fields"></a>تحديد الحقول
 
-عند تحديد الحقول التي سيتم تضمينها في النموذج، يجب الانتباه إلى أن القائمة تتضمن كافة الحقول المتوفرة في كيان Common Data Service الذي تم تعيينه إلى البيانات في Azure data lake. يجب **عدم** تحديد بعض هذه الحقول. تقع الحقول التي يجب عدم تحديدها ضمن واحدة من الفئات الثلاثة التالية:
+عند تحديد الحقول التي سيتم تضمينها في النموذج، يجب الانتباه إلى أن القائمة تتضمن كافة الحقول المتوفرة في جدول Microsoft Dataverse الذي تم تعيينه إلى البيانات في Azure data lake. يجب **عدم** تحديد بعض هذه الحقول. تقع الحقول التي يجب عدم تحديدها ضمن واحدة من الفئات الثلاثة التالية:
 
-- الحقل مطلوب للكيان Common Data Service، ولكن لا توجد بيانات احتياطية له في data lake.
+- الحقل مطلوب للجدول Dataverse، ولكن لا توجد بيانات احتياطية له في data lake.
 - يعتبر هذا الحقل معرف وبالتالي لا يكون له معنى لميزة "التعلم الآلي".
 - يمثل الحقل المعلومات التي لن تكون متوفرة أثناء التوقع.
 
 توضح الأقسام التالية الحقول المتاحة لكيانات الفاتورة والعميل، وتسرد الحقول التي يجب **عدم** تحديدها للتدريب. تشير الفئة المحددة لكل من هذه الحقول إلى الفئات الموجودة في القائمة السابقة.
  
-### <a name="invoice-common-data-model-entity"></a>كيان نموذج البيانات العامة للفاتورة
+### <a name="invoice-dataverse-table"></a>جدول فاتورة Dataverse
 
-يبين الرسم التوضيحي التالي الحقول المتوفرة لكيان الفاتورة.
+يبين الرسم التوضيحي التالي الحقول المتوفرة لجدول الفاتورة.
 
-[![الحقول المتوفرة لكيان الفاتورة](./media/available-fields.png)](./media/available-fields.png)
+[![الحقول المتوفرة لجدول الفاتورة.](./media/available-fields.png)](./media/available-fields.png)
 
 يجب عدم تحديد الحقول التالية للتدريب:
 
@@ -65,11 +61,11 @@ ms.locfileid: "4646069"
 - **سجل المصدر** (الفئة 2)
 - **جدول المصدر** (الفئة 2)
 
-### <a name="customer-common-data-model-entity"></a>كيان نموذج البيانات العامة للعميل
+### <a name="customer-dataverse-table"></a>جدول عملاء Dataverse
 
-يبين الرسم التوضيحي التالي الحقول المتوفرة لكيان العميل.
+يبين الرسم التوضيحي التالي الحقول المتوفرة لجدول العملاء.
 
-[![الحقول المتوفرة لكيان العميل](./media/related-entities.png)](./media/related-entities.png)
+[![الحقول المتوفرة لجدول العملاء.](./media/related-entities.png)](./media/related-entities.png)
 
 يجب عدم تحديد الحقل التالي للتدريب:
 
@@ -77,9 +73,8 @@ ms.locfileid: "4646069"
 
 ## <a name="filters"></a>عوامل التصفية
 
-لا تدعم عوامل التصفية حاليًا سيناريو توقعات دفع العميل. لذلك، حدد **تخطي هذه الخطوة**، وتابع إلى صفحة الملخص.
+يمكنك تصفية الفواتير المستخدمة للتدريب عن طريق تعيين معايير التصفية للحقول في الفاتورة أو في جداول العملاء. على سبيل المثال، يمكنك تعيين حد لتضمين الفواتير فقط حيث يساوي الإجمالي أو يتجاوز مبلغا معينا. بدلا من ذلك، يمكنك استبعاد الفواتير المقترنة بالعملاء في مجموعة عملاء معينة.
 
-[![وضع التركيز باستخدام عوامل التصفية](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+لمزيد من المعلومات حول تصفية بياناتك، راجع [إنشاء نموذج تنبؤ ](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
 
-#### <a name="privacy-notice"></a>إشعار الخصوصية
-إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

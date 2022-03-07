@@ -2,28 +2,27 @@
 title: تطوير بنية التعويض
 description: تنقلك هذه المقالة عبر عملية إنشاء خطة تعويض ثابت وتسجيل الموظفين بالخطة من خلال قواعد الأهلية.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: abdca618aa544e32b68f4bbf2578afb9ef1a5905
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417138"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052879"
 ---
 # <a name="develop-a-compensation-structure"></a>تطوير بنية التعويض
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 تنقلك هذه المقالة عبر عملية إنشاء خطة تعويض ثابت وتسجيل الموظفين بالخطة من خلال قواعد الأهلية. تستخدم هذه المقالة بيانات العرض التوضيحي USMF ويتم تطبيقها على مدراء التعويضات والميزات.
 
@@ -113,3 +112,6 @@ ms.locfileid: "4417138"
 
 8. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

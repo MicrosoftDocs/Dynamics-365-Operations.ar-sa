@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 948f83d56e560cc21205294c15de4b2097d2ad2e
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: d327c53d2486f8fdb9cd0ee049427c26cf4e0dcc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440167"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236856"
 ---
 # <a name="customer-transactions-list-page"></a>صفحة قائمة حركات العملاء
 
@@ -97,3 +96,6 @@ ms.locfileid: "4440167"
 - **تحرير شروط الخصم النقدي** - تتغير الخصومات النقدية استنادًا إلى البيانات الأساسية وشروط الخصم النقدي.
 
 عند الانتهاء من تحرير إعدادات الدفع، حدد **إغلاق** لحفظ التغييرات.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: تعيين حالة دورة حياة منتج لأصل منتج صادر
 description: يُظهر هذا الإجراء كيفية تعيين حالة دورة حياة منتج إلى أصل منتج صادر ومتغيراته.
 author: cvocph
-manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c644f118e0bdb46b296cec7e4a3ea89031f2d52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66859c7f7f5be6eaadd9470fd9b792daa28ce33d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421221"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807861"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>تعيين حالة دورة حياة منتج لأصل منتج صادر
 
@@ -54,3 +51,6 @@ ms.locfileid: "4421221"
 2. في القائمة، قم بوضع علامة للصف المحدد.
 3. في الحقل "حالة دورة حياة المنتج"، أدخل قيمة أو حددها.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

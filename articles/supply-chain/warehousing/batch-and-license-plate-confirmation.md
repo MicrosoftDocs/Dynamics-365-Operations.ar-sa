@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a953b677b1188750241772d7ae966a1dba77b92e
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: c309061b31f10209c22cb90cc08c971b697f6dc9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514292"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233117"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>تأكيد لوحة الترخيص والدُفعة
 
@@ -48,3 +47,6 @@ ms.locfileid: "4514292"
 
 1. من عناصر قائمة الجهاز المحمول، قم بإدخال إعداد تأكيد العمل.  
 1. حدد الخيار إما للدفعة أو لتأكيد لوحة الترخيص. يتوافر كل من الخيارين لعمليات انتقاء نوع العمل التي لم يتم تمكين التأكيد التلقائي لها.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: إنشاء ملفات تعريف مرئية لنقطة البيع‬ (POS)
 description: يتناول هذا الإجراء إنشاء ملف تعريف مرئي‬ جديد لنقطة البيع.
 author: jashanno
-manager: AnnBe
 ms.date: 12/05/2015
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e1604c12a52e85a73060c6c25e71026fe9ccc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 09dd2b88c3c27f5908d98139ab07308268f93f6a5c9ac5fe658bb288d2b1822e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716823"
 ---
 # <a name="create-point-of-sale-pos-visual-profiles"></a>إنشاء ملفات تعريف مرئية لنقطة البيع‬ (POS)
 
@@ -47,3 +45,6 @@ ms.locfileid: "4964710"
 17. في القائمة، انقر فوق الارتباط في الصف المحدد.
 18. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

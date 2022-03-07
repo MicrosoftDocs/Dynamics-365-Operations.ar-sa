@@ -1,33 +1,30 @@
 ---
 title: تحويل أصل ثابت
 description: سيقوم دليل المهمة هذا بتحويل المعلومات المالية لدفتر أصل ثابت من مجموعة أبعاد مالية إلى مجموعة أبعاد مالية جديدة.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eb38483d3ac61acb4513e87d8c36ddd0f8863a10
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e573386ddbb97bf60e2e501ba92b225f8716c73a
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439960"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883352"
 ---
 # <a name="transfer-a-fixed-asset"></a>تحويل أصل ثابت
 
 [!include [banner](../../includes/banner.md)]
 
-سيقوم دليل المهمة هذا بتحويل المعلومات المالية لدفتر أصل ثابت من مجموعة أبعاد مالية إلى مجموعة أبعاد مالية جديدة.  إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
+سيقوم دليل المهمة هذا بتحويل المعلومات المالية لدفتر أصل ثابت من مجموعة أبعاد مالية إلى مجموعة أبعاد مالية جديدة.  
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الأصول الثابتة > الأصول الثابتة > الأصول الثابتة‬**.
 2. في القائمة، ابحث عن الأصل الثابت المراد تحويله وحدده.
@@ -48,3 +45,6 @@ ms.locfileid: "4439960"
     * راجع النتائج قبل نقل نماذج دفاتر الأصول الثابتة.  
 10. انقر فوق **التحويل**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

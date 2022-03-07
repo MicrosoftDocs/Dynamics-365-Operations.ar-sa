@@ -2,11 +2,9 @@
 title: إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
 description: يشرح هذا الموضوع كيف يمكنك إعداد معلمات تنسيق التقارير الإلكترونية (ER) لكل كيان قانوني.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: b51a7ae8587a3cbb65efc4af574929efcbc8fbf8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681462"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351880"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>إعداد معلمات تنسيق التقارير الإلكترونية لكل كيان قانوني
 
@@ -51,7 +49,7 @@ ms.locfileid: "4681462"
     
     يبين الرسم التوضيحي التالي التكوينات التي يجب ان تكون لديك عند الانتهاء.
 
-    ![صفحة تكوينات التقارير الإلكترونية](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![صفحة تكوينات التقارير الإلكترونية.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>إعداد المعلمات الخاصة بشركة DEMF
 
@@ -61,7 +59,7 @@ ms.locfileid: "4681462"
 2.  في شجره التكوينات، حدد تنسيق **تنسيق للتعرف على كيفية البحث عن بيانات الكيان القانوني**.
 3.  في جزء الإجراءات، على علامة تبويب **التكوينات**، في المجموعة **المعلمات الخاصة بالتطبيق**، حدد **إعداد**.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     في صفحة **المعلمات الخاصة بالتطبيق**، يمكنك تكوين قواعد مصدر بيانات **المحدد** لتنسيق **تنسيق للتعرف على كيفية البحث عن بيانات الكيان القانوني**.
     
@@ -77,14 +75,14 @@ ms.locfileid: "4681462"
 
     يقدم البحث قائمه بأكواد الضريبة للتحديد. يتم إرجاع هذه القائمة بواسطة مصدر بيانات **Model.Data.Tax** الذي تم تكوينه باستخدام التنسيق الأساسي للتقارير الإلكترونية. نظرا لان مصدر البيانات هذا يحتوي علي حقل **الاسم**، يظهر اسم كل كود ضريبة في البحث.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  حدد كود الضريبة **VAT19**.
 8.  في حقل **نتيجة البحث** الخاص بالسجل الجديد، حدد سهم القائمة المنسدلة لفتح البحث. يقدم البحث قائمه بالقيم الخاصة بتعداد تنسيق TaxationLevel للتحديد.
 
     لاحظ انه إذا تم تحديد اللغة المانيه كلغة المستخدم المفضلة التي قمت بتسجيل الدخول بها ، ستكون تسميات القيم في البحث باللغة المانيه ، شرط ان تتم ترجمتها في التنسيق الأساسي للتقارير الإلكترونية. بالاضافه إلى ذلك ، إذا تمت ترجمه تسميه مصدر بيانات البحث، ستظهر هذه التسمية في اللغة المفضلة للمستخدم في علامة التبويب **عمليات البحث**.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  حدد قيمه **الضرائب العادية**.
 
@@ -122,7 +120,7 @@ ms.locfileid: "4681462"
     
     بإضافة هذا السجل الأخير ، فإنك تحدد القاعدة التالية: عندما لا يفي رمز الضريبة الذي يتم تمريره كوسيطة بأي من القواعد السابقة ، سيرجع مصدر بيانات البحث **آخر** باعتباره مستوى الضرائب المطلوبة.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. في حقل **الحالة**، حدد **مكتمل**.
 
@@ -146,7 +144,7 @@ ms.locfileid: "4681462"
 6.  حدد كود الضريبة **InVAT7**.
 7.  في جزء الإجراءات، ضمن علامة التبويب **كود ضريبة المبيعات**، في مجموعة **الاستعلامات**، حدد **ضريبة المبيعات المنشورة** لعرض معلومات حول قيمه الضريبة وسعر الضريبة المطبق لكل كود ضريبة.
 
-    ![صفحة ضريبة المبيعات المرحّلة](./media/GER-AppSpecParms-Statement.PNG)
+    ![صفحة ضريبة المبيعات المرحّلة.](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  قم بإغلاق صفحة ضريبة المبيعات المرحلة.
 
@@ -162,7 +160,7 @@ ms.locfileid: "4681462"
 
     يقدم البحث الآن قائمه بأكواد الضريبة لضريبة شركة **USMF** للتحديد.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  حدد كود الضريبة **EXEMPT**.
 9.  في حقل **نتيجة البحث** في السجل الجديد، حدد قيمة **لا ضرائب**.
@@ -172,7 +170,7 @@ ms.locfileid: "4681462"
 13. في حقل **الحالة**، حدد **مكتمل**.
 14. حدد **حفظ**.
 
-    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![صفحة المعلمات الخاصة بتطبيق التقارير الإلكترونية.](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. أغلق صفحة **المعلمات الخاصة بالتطبيق**.
 
@@ -227,13 +225,13 @@ ms.locfileid: "4681462"
 
 1.  قم إما باعاده استخدام عنصر قائمة **ERSolutionAppSpecificParametersDesigner** أو نفذ عنصر قائمة **ERSolutionAppSpecificParametersDesigner**.
 
-    ![صفحة Visual Studio](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![صفحة Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  اتبع إحدى الخطوات التالية:
 
     1.  قم بإنشاء زر عنصر قائمه جديد، وقم بربطه بالسجل المقابل من جدول **ERSolutionTable** عن طريق تعيين خاصية **مصدر البيانات** الخاص به إلى **ERSolutionTable**.
     
-        ![صفحة Visual Studio](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![صفحة Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  قم بإنشاء زر بسيط، وتجاوز طريقة **النقر** كما هو موضح في المثال التالي.
     
@@ -260,3 +258,6 @@ ms.locfileid: "4681462"
 [مصمم المعادلات في التقارير الإلكترونية](general-electronic-reporting-formula-designer.md)
 
 [تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

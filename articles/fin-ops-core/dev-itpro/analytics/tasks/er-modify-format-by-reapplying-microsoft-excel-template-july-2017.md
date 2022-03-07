@@ -2,11 +2,9 @@
 title: تعديل التنسيقات من خلال إعادة تطبيق قوالب Excel
 description: لإكمال الخطوات في هذا الإجراء، يجب أولاً إكمال الإجراء "التقارير الإلكترونية - تصميم تكوين لإنشاء التقارير بتنسيق OPENXML".
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b1bc5f227a0944c513dee2c12a5042decde872
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 24eb64679b458d14e30dc5b4365c7305d71cfc4c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684225"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754880"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>تعديل التنسيقات من خلال إعادة تطبيق قوالب Excel
 
@@ -83,3 +81,6 @@ ms.locfileid: "4684225"
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>استخدام إصدار المسودة‬ المعدل لتنسيق التقارير الإلكترونية لاستخدامه في معالجة دفتر يومية المدفوعات
 
 قم بمراجعة ورقة العمل التي تم إنشاؤها، بما في ذلك التفاصيل الجديدة لبنود الدفع – تاريخ الدفع.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

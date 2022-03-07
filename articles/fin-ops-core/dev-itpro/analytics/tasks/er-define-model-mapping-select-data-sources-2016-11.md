@@ -1,6 +1,6 @@
 ---
 title: تحديد تعيينات نماذج التقارير الإلكترونية وتحديد مصادر بيانات لها
-description: تشرح الخطوات التالية كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تحديد مصادر البيانات لنموذج بيانات التقارير الإلكترونية.
+description: يصف هذا الموضوع كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تحديد مصادر البيانات لنموذج بيانات التقارير الإلكترونية.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fccdda3ac441630836a0d33f78eb04e9cd26d4a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682107"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092100"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>تحديد تعيينات نماذج التقارير الإلكترونية وتحديد مصادر بيانات لها
 
@@ -77,14 +77,14 @@ ms.locfileid: "4682107"
 17. في الشجرة، حدد "الحركات/الإيصال".
 18. انقر فوق "إضافة مصدر بيانات".
 19. في حقل الصيغة، أدخل 'CONCATENATE(Transactions.Voucher, "-", '.
-    * اكتب [ , "-", ] في نهاية المعادلة.  
+    * النوع [، "-"،] في نهاية المعادلة.  
 20. في الشجرة، حدد "السلسلة/النص".
 21. انقر فوق "إضافة دالة".
 22. في الشجرة، حدد 'Transactions\Record-ID(RecId)'.
 23. انقر فوق "إضافة مصدر بيانات".
 24. في حقل الصيغة، أدخل 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.
-    * اكتب [))] في نهاية المعادلة.  
-25. انقر فوق حفظ.
+    * النوع [))] في نهاية المعادلة.  
+25. انقر فوق "حفظ".
     * تأكد من أنه لم يتم اكتشاف أية أخطاء للمعادلة التي تم إنشاؤها. راجع علامة التبويب "أخطاء" أسفل عنصر التحكم في محرر المعادلة.  
 26. قم بإغلاق الصفحة.
 27. انقر فوق "موافق".
@@ -98,7 +98,7 @@ ms.locfileid: "4682107"
 32. في الشجرة، حدد "Transactions\Debit(AmountCurDebit)".
 33. انقر فوق "إضافة مصدر بيانات".
 34. في حقل الصيغة، أدخل 'Transactions.AmountCurDebit - '.
-    * اكتب [ - ] في نهاية المعادلة.  
+    * النوع [ - ] في نهاية المعادلة.  
 35. في الشجرة، حدد "الحركات/Credit(AmountCurCredit)".
 36. انقر فوق "إضافة مصدر بيانات".
 37. انقر فوق "حفظ".

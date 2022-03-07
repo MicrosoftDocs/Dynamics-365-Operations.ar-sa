@@ -2,15 +2,12 @@
 title: وحدات دفع طرفية مخصصة ومطالبات لطابعة ودرج الأوراق النقدية
 description: يوفر هذا الموضوع معلومات حول القدرة على تقديم وحدة دفع طرفية مخصصة ومطالبة للمستخدم لتحديد درج الأوراق النقدية وطابعة إيصالات.
 author: rubendel
-manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8a3c7eb9580f9155dd33f6351f37eb1edd269a3d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409918"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018623"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>وحدات دفع طرفية مخصصة ومطالبات لطابعة ودرج الأوراق النقدية
 
@@ -53,13 +50,13 @@ ms.locfileid: "4409918"
 
 تدعم هذه الوظيفة محطات الدفع الطرفية وطابعات الإيصالات الممكّنة لاستخدام الشبكة.‬ يمكنك توفير دعم درج الأوراق النقدية عن طريق توصيل درج الأوراق النقدية بطابعة الإيصالات الممكّنة لاستخدام الشبكة عبر منفذ d/k.
 
-يتوفر الدعم الجاهز لهذه الوظيفة من قبل [موصل دفع Dynamics 365 لـ Adyen‎](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). ومع ذلك، قد يتم دعم موصلات دفع أخرى عبر مجموعه تطوير برنامج Commerce (SDK) للدفعات. تتضمن طابعات الإيصالات المدعومة طابعات الإيصالات الممكّنة لاستخدام الشبكة من Star Micronics وEpson.
+يتوفر الدعم الجاهز لهذه الوظيفة من قبل [موصل دفع Dynamics 365 لـ Adyen‎](./dev-itpro/adyen-connector.md?tabs=8-1-3). ومع ذلك، قد يتم دعم موصلات دفع أخرى عبر مجموعه تطوير برنامج Commerce (SDK) للدفعات. تتضمن طابعات الإيصالات المدعومة طابعات الإيصالات الممكّنة لاستخدام الشبكة من Star Micronics وEpson.
 
 لإعداد طابعات إيصالات Star Micronics، استخدم الأداة المساعدة Star Micronics Printer لتكوين الجهاز بحيث يمكن استخدامه عبر الشبكة. ستوفر هذه الأداة المساعدة أيضًا عنوان IP الخاص بالجهاز.
 
 لإعداد طابعات إيصالات Epson، استخدم الأداة المساعدة Epson ePOS-Print لإعداد الجهاز لاستخدام بروتوكولات الشبكة.
 
-لمزيد من المعلومات حول كيفية إعداد الأجهزة الطرفية للشبكة، راجع [نظرة عامة حول دعم الأجهزة الطرفية للشبكة](https://go.microsoft.com/fwlink/?linkid=2129965).
+لمزيد من المعلومات حول كيفية إعداد الأجهزة الطرفية للشبكة، راجع [نظرة عامة حول دعم الأجهزة الطرفية للشبكة](./dev-itpro/network-peripherals.md).
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>إعداد وحدة دفع طرفية مخصصة ومطالبة لطابعة ودرج الأوراق النقدية
 
@@ -78,9 +75,9 @@ ms.locfileid: "4409918"
 
     | جهاز | النوع | اسم الجهاز | تفاصيل إضافية |
     |---|---|---|---|
-    | الطابعة | احتياطي | *أي* | اسم الجهاز حساس لحالة الأحرف. يجب أن يكون **معرف ملف تعريف الإيصال** هو نفسه **معرف ملف تعريف الإيصال** المعيّن إلى طابعة الشبكة التي تم إعدادها في ملف تعريف الأجهزة المعيّن إلى محطة الأجهزة على مستوى القناة. |
-    | ‏‏درج الأوراق النقدية | احتياطي | *أي* | اسم الجهاز حساس لحالة الأحرف. عيّن الخيار **استخدام الورديات المشتركة** إلى **نعم**. |
-    | خدمة EFT | Adyen | غير قابل للتطبيق | للحصول على معلومات حول كيفية إعداد موصل الدفع Adyen الجاهز، راجع [موصل دفع Dynamics 365 لـ Adyen‬](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). يمكن دعم موصلات دفع أخرى عبر [مجموعه تطوير برنامج Commerce ‏(SDK) للدفعات](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
+    | الطابعة | الشبكة | *أي* | اسم الجهاز حساس لحالة الأحرف. يجب أن يكون **معرف ملف تعريف الإيصال** هو نفسه **معرف ملف تعريف الإيصال** المعيّن إلى طابعة الشبكة التي تم إعدادها في ملف تعريف الأجهزة المعيّن إلى محطة الأجهزة على مستوى القناة. |
+    | ‏‏درج الأوراق النقدية | الشبكة | *أي* | اسم الجهاز حساس لحالة الأحرف. عيّن الخيار **استخدام الورديات المشتركة** إلى **نعم**. |
+    | خدمة EFT | Adyen | غير قابل للتطبيق | للحصول على معلومات حول كيفية إعداد موصل الدفع Adyen الجاهز، راجع [موصل دفع Dynamics 365 لـ Adyen‬](./dev-itpro/adyen-connector.md?tabs=8-1-3). يمكن دعم موصلات دفع أخرى عبر [مجموعه تطوير برنامج Commerce ‏(SDK) للدفعات](./dev-itpro/end-to-end-payment-extension.md). |
     | لوحة PIN | الشبكة | **MicrosoftAdyenDeviceV001** | بلا. |
 
 5. في Dynamics 365 Commerce، ابحث عن **السجلات**.
@@ -88,7 +85,7 @@ ms.locfileid: "4409918"
 7. عيّن ملف تعريف الأجهزة الذ أنشأته للتوّ إلى السجل الذي يجب أن يستخدم محطة دفع طرفية مخصصة. يجب ان يستخدم الجهاز الذي يتم تعيينه إلى هذا السجل إما نقطة البيع الحديثة لنظام التشغيل Windows أو نقطة البيع الحديثة لتطبيق Android.
 8. حدد **حفظ**.
 9. في جزء الإجراءات، على علامة تبويب **السجلات**، حدد **تكوين عناوين IP‬**.
-10. على علامة التبويب السريعة **لوحة PIN**، أدخل عنوان IP لوحدة الدفع الطرفية. للحصول على معلومات حول كيفية الحصول على عنوان IP لوحدة الدفع الطرفية باستخدام موصل Adyen، راجع [موصل دفع Dynamics 365 لـ Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3).
+10. على علامة التبويب السريعة **لوحة PIN**، أدخل عنوان IP لوحدة الدفع الطرفية. للحصول على معلومات حول كيفية الحصول على عنوان IP لوحدة الدفع الطرفية باستخدام موصل Adyen، راجع [موصل دفع Dynamics 365 لـ Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3).
 11. حدد **حفظ**.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>إعداد ملف تعريف أجهزة لطابعة الإيصالات ودرج الأوراق النقدية
@@ -103,7 +100,7 @@ ms.locfileid: "4409918"
     | جهاز | النوع | ‏‏الوصف | تفاصيل إضافية |
     |---|---|---|---|
     | الطابعة | الشبكة | **Epson** أو **Star** | اسم الجهاز حساس لحالة الأحرف. يجب أن يكون **معرف ملف تعريف الإيصال** هو نفسه **معرف ملف تعريف الإيصال** المعيّن إلى طابعة الشبكة التي تم إعدادها في ملف تعريف الأجهزة المعيّن إلى السجل. |
-    | ‏‏درج الأوراق النقدية | الشبكة | **Epson** أو **Star** | اسم الجهاز حساس لحالة الأحرف. عيّن الخيار **استخدام الورديات المشتركة** إلى **نعم**. |
+    | ‏‏درج الأوراق النقدية | احتياطي | **Epson** أو **Star** | اسم الجهاز حساس لحالة الأحرف. عيّن الخيار **استخدام الورديات المشتركة** إلى **نعم**. |
 
 5. حدد **حفظ**.
 
@@ -151,6 +148,9 @@ ms.locfileid: "4409918"
 
 ## <a name="related-articles"></a>مقالات ذات صلة
 
-- [إعداد تطبيق POS Hybrid في Android وiOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [موصل دفع Dynamics 365 لـ Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [نظرة عامة حول دعم الأجهزة الطرفية للشبكة‬](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [إعداد تطبيق POS Hybrid في Android وiOS](./dev-itpro/hybridapp.md)
+- [موصل دفع Dynamics 365 لـ Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [نظرة عامة حول دعم الأجهزة الطرفية للشبكة‬](./dev-itpro/network-peripherals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

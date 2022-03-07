@@ -2,16 +2,13 @@
 title: نظرة عامة حول إصدارات التكاليف
 description: توفر هذه المقالة معلومات حول إصدارات التكاليف، وكيفية الاحتفاظ بها، وأنواع البيانات التي يمكنك تضمينها فيها. ويتمثل الهدف الأساسي من وراء إصدار التكاليف في الاشتمال على سجلات تكاليف عن الأصناف وفئات التكاليف ومعادلات حساب التكاليف غير المباشرة.
 author: AndersGirke
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 54532
 ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cefee7d678789f462eedbf9f9a3fbc9b591e25a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 421ef0ffc3d9105e605a010f912f26ec03f590b0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421657"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832360"
 ---
 # <a name="costing-versions-overview"></a>نظرة عامة حول إصدارات التكاليف
 
@@ -68,3 +65,6 @@ ms.locfileid: "4421657"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

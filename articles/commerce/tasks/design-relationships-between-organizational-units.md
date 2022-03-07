@@ -2,27 +2,24 @@
 title: " تصميم العلاقات بين الوحدات التنظيمية"
 description: ينقلك هذا الإجراء عبر عملية تصميم العلاقة بين الوحدات التنظيمية.
 author: mugunthanm
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner, OMNodeSelection,  HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c6502a05d3cc53d8031b9f8e365454556513c3c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 660db4a846eda7fb4b62ba6664acef3e8f718d53
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409932"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796768"
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> تصميم العلاقات بين الوحدات التنظيمية
 
@@ -63,3 +60,6 @@ ms.locfileid: "4409932"
 29. انقر فوق "نشر".
 30. انقر فوق "إغلاق".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: التسوية المالية في متاجر البيع بالتجزئة
 description: يصف هذا الموضوع التسوية المالية في متاجر البيع بالتجزئة لنقطة البيع لـ Microsoft Dynamics 365 Commerce.
 author: anpurush
-manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0f57f3119039337922dcd4035e1c4d64e6ae7295
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965067"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792381"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>التسوية المالية في متاجر البيع بالتجزئة
 
@@ -61,3 +59,6 @@ ms.locfileid: "4965067"
 تتم مزامنة تفاصيل التسويات المالية لوردية مع Commerce headquarters من خلال استخدام الوظيفة P.
 
 لا تقوم قوائم البيع بالتجزئة المالية في Commerce headquarters بحساب الإجماليات لإظهار التفاصيل في بنود كشف الحساب. بدلا من ذلك، يتم استخدام المبالغ التي تم إنهاؤها في عميل نقطة البيع لإنشاء كشوف حسابات البيع بالتجزئة المالية وترحيلها.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: عنصر موجود في المكان المحدد لاستخدامه لاحقاً
 description: يوضح هذا الموضوع كيفية الحصول على نظرة عامة حول مكان استخدام عنصر ما في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetItemWhereUsed, EntAssetItemWhereUsedCalculate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: db0932c5a52030c1a7f0411163aee120e2173ca0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 2308fc4fabe541b8affeba5860a3154f81e8903e4853fd36d777f15a503d9dd8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752816"
 ---
 # <a name="item-where-used"></a>عنصر موجود في المكان المحدد لاستخدامه لاحقاً
 
@@ -68,5 +66,8 @@ ms.locfileid: "5021121"
 
 في لقطة الشاشة أدناه، سوف تري مثالاً لحساب الصنف المُستخدم للصنف رقم "1000".
 
-![مثال حساب الصنف المُستخدم](media/12-controlling-and-reporting.png)
+![مثال حساب الصنف المُستخدم.](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

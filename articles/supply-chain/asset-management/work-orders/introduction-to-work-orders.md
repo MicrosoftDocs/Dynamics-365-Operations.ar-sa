@@ -1,28 +1,26 @@
 ---
 title: مقدمة إلى أوامر العمل
 description: يوفر هذا الموضوع نظرة عامة حول أوامر العمل في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021870"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754694"
 ---
 # <a name="introduction-to-work-orders"></a>مقدمة لأوامر العمل
 
@@ -53,7 +51,7 @@ ms.locfileid: "5021870"
 
 يوضح الرسم التوضيحي المبين أدناه مثال لصفحة قائمة **جميع أوامر العمل‬**.
 
-![الشكل 1](media/01-work-orders.png)
+![الشكل 1.](media/01-work-orders.png)
 
 حدد **إدارة الأصول** > **مشترك‏‎** > **أوامر العمل** > **أوامر العمل النشطة** لعرض قائمة بأوامر العمل النشطة فقط. 
 
@@ -71,7 +69,7 @@ ms.locfileid: "5021870"
 
 يوضح الرسم التوضيحي المبين أدناه مثال لطريقة عرض التفاصيل **جميع أوامر العمل‬** .
 
-![الشكل 2](media/02-work-orders.png)
+![الشكل 2.](media/02-work-orders.png)
 
 
 تم تنظيم الأزرار الموجودة في جزء الإجراءات على علامات تبويب. يصف الجدول التالي بإيجاز الأزرار المتعلقة بإدارة الأصول:
@@ -118,3 +116,6 @@ ms.locfileid: "5021870"
 >[!NOTE]
 >لتضمين التنبؤات التي يتم إنشاؤها في أمر العمل عند تشغيل الجدولة الرئيسية، استخدام نموذج التنبؤ المحدد في صفحة **معلمات إدارة الأصول‬** .
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

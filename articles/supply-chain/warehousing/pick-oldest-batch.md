@@ -2,27 +2,24 @@
 title: انتقاء الدُفعة الأقدم‬ على جهاز محمول
 description: يصف هذا الموضوع كيفية إعداد وتطبيق الخيارات لانتقاء الدُفعة الأقدم‬ من جهاز محمول.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f235c34d6369c6f0584a7bac1c1be75f3d84c9c0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d96221ae14610057cceed304efa01261eb01aef134e4bdad10ccd0386bd52cf9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746713"
 ---
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>انتقاء الدُفعة الأقدم‬ على جهاز محمول
 
@@ -41,3 +38,6 @@ ms.locfileid: "4421248"
 **تحذير** و **فرض**: سيتم عرض قائمة بالدُفعة (الدُفعات) ذات تاريخ انتهاء الصلاحية الأقدم فوق عنصر تحكم الدُفعة عندما يقوم العامل بتحديد دُفعة. إذا كان الموقع يخضع لتحكم لوحة ترخيص، فستظهر قائمة بلوحات الترخيص ذات الدُفعة الأقدم فوق عنصر تحكم لوحة الترخيص. 
 -   **تحذير**: إذا اختار العامل لوحة ترخيص أو دُفعة غير موجودة في القائمة، فسيكون عنصر التحكم فارغًا وسيظهر تحذير يفيد بوجود دُفعة قديمة لتحديدها. لكي يتمكن العامل من متابعة العمل، يستطيع تحديد لوحة الترخيص أو الدفعة نفسها مرة أخرى.  
 -   **فرض**: سوف يستمر العاملون في تلقي الرسالة التي تفيد بوجود دُفعة قديمة لانتقائها.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: التنفيذ المجدول
 description: يشرح هذا الموضوع التنفيذ المجدول في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 976155b685498456952f7d715779d20191712103
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fae899bcfa8bb2566d1a9aee3f0dbe22bc219edf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421398"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825628"
 ---
 # <a name="scheduled-execution"></a>التنفيذ المجدول
 
@@ -43,3 +40,6 @@ ms.locfileid: "4421398"
 6. حدد **حفظ**.
 
 ![التنفيذ المجدول](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

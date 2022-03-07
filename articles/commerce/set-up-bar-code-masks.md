@@ -2,11 +2,9 @@
 title: إعداد أقنعة الكود الشريطي
 description: يصف هذا الموضوع كيفية إعداد أحرف قناع الكود الشريطي، وأقنعة الكود الشريطي، وكيفية تعيين أقنعة الكود الشريطي للأكواد الشريطية.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5432741e7cdc21054d02bd24591deb307d096229
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7004ed901bd4bcac0dab4fede9cf793fd05c3af7796006fb5b089f257f81208e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969791"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731559"
 ---
 # <a name="set-up-bar-code-masks"></a>إعداد أقنعة الكود الشريطي
 
@@ -82,3 +80,6 @@ ms.locfileid: "4969791"
 5. انقر فوق **حفظ**.
 
 يمكنك الآن استخدام قناع الكود الشريطي لإنشاء أكواد شريطية للمنتجات. تمثل الخطوات أعلاه أمثلة لكيفية إنشاء أقنعة الأكواد الشريطية للمنتجات، إلا أنها توضح كيفية إنشاء أقنعة الأكواد الشريطية لأي أنواع أكواد شريطية أخرى مدعومة. ينبغي تعديل أقنعة الأكواد الشريطية والأنواع والأطوال لاستخدامها في البيئة الخاصة بك.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

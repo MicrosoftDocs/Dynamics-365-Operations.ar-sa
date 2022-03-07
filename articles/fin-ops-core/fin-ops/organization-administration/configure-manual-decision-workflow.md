@@ -2,11 +2,9 @@
 title: تكوين القرارات اليدوية في سير عمل
 description: يوضح هذا الموضوع كيفية تكوين خصائص قرار يدوي.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798835"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065645"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>تكوين القرارات اليدوية في سير عمل
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يوضح هذا الموضوع كيفية تكوين خصائص قرار يدوي.
 
@@ -350,3 +351,6 @@ ms.locfileid: "4798835"
     - **السنوات** - حدد اليوم والأسبوع والشهر الذي يتعين اتخاذ القرار خلالها. على سبيل المثال، قد ترغب في أن يتم اتخاذ القرار بحلول يوم الجمعة من الأسبوع الثالث من شهر ديسمبر.
 
 4. إذا تم تجاوز الحد الزمني فسيقوم النظام باتخاذ القرار. من القائمة **إجراء**، حدد الخيار الذي يجب أن يقوم النظام بتحديده.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

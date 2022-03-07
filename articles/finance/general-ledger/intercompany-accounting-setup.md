@@ -2,28 +2,25 @@
 title: إعداد المحاسبة بين الشركات الشقيقة
 description: يوضح هذا الموضوع كيفية إعداد المحاسبة بين الشركات الشقيقة حيث يمكنك استخدام دفاتر يومية بين الشركات الشقيقة لتوزيعات دفتر الأستاذ ودفاتر اليومية المالية، مثل دفاتر اليومية ودفاتر يومية فواتير المورد، ودفاتر يومية المدفوعات.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15761
 ms.assetid: 1362297b-7a51-4930-b822-2b204a2e3c37
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c3bca9d0a7c37716f2334b36d8a948908f52293
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09c8933b08710ec82dbb449f2ba7f7c29cc24ff3a4c9b73178aa916ea0fab83a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439998"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715060"
 ---
 # <a name="intercompany-accounting-setup"></a>إعداد المحاسبة بين الشركات الشقيقة
 
@@ -50,3 +47,6 @@ ms.locfileid: "4439998"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

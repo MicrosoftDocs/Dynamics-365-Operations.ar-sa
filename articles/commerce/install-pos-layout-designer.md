@@ -2,16 +2,13 @@
 title: تثبيت مصمم تخطيط نقطة البيع
 description: يمكنك استخدام المصمم بنقرة واحدة لتصميم تخطيطات مختلفة لنقاط البيع الحديثة (MPOS) ونقاط بيع المجموعة، في الوضع الأفقي أو في الوضع العمودي، للمتاجر وآلات تسجيل المدفوعات والصرافين والمدراء.
 author: athinesh99
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 219684
 ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9882ae895de926e0da3579ab65a988f2b97f7be
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0d7143833bb4a98ac976ea46a1b4b21dad2f2e5841b5e142de7583b4ce6bad38
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738710"
 ---
 # <a name="install-the-pos-layout-designer"></a>تثبيت مصمم تخطيط نقطة البيع
 
@@ -43,7 +40,7 @@ ms.locfileid: "4409881"
 5. بعد اكتمال عملية التثبيت، في صفحة **تسجيل الدخول**، أدخل اسم مستخدم وكلمة مرور Commerce، ثم انقر فوق **تسجيل الدخول** لبدء تشغيل المصمم.
 6. بعد أن يتم التحقق من صحة بيانات الاعتماد الخاصة بك ويبدأ تشغيل المصمم، يمكنك تصميم تخطيط خاص بك أو تعديل التخطيط الموجود.
 
-    [![تخطيط في المصمم بنقرة واحدة](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+    [![تخطيط في المصمم بنقرة واحدة.](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>استكشاف أخطاء تثبيت مصمم التخطيط وإصلاحها
 
@@ -63,3 +60,6 @@ ms.locfileid: "4409881"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [تكوين وتثبيت وتنشيط Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: اختبار غير مُحدد للبيانات باستخدام Regression Suite Automation Tool.
 description: يناقش هذا الموضوع التوصيات الخاصة بالاختبار غير المُحدد للبيانات باستخدام Regression Suite Automation Tool.
 author: kfend
-manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763400"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>اختبار غير مُحدد للبيانات باستخدام Regression Suite Automation Tool.
 
@@ -32,7 +30,7 @@ ms.locfileid: "4798189"
 - إطار عمل ATL
 - Regression Suite Automation Tool (RSAT)
 
-[![التدرج الهرمي لتصنيف الاختبار](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![التدرج الهرمي لتصنيف الاختبار.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>نظرة عامة
 -   **إطار عمل SysTest**- يُمكن الاعتماد على إطار عمل SysTest في اختبارات وحدة الكتابة. ونظرًا لأن اختبارات الوحدة عادةّ ما تختبر أسلوب أو ظيفة، يجب أن تكون دائمًا غير مُحددة البيانات وتابعة فقط في بيانات الإدخال التي يتم توفيرها كجزء من الاختبار.
@@ -44,8 +42,11 @@ ms.locfileid: "4798189"
     - O ادخل المعرفات الفريدة، مثل أرقام الفواتير، من خلال التسلسل الرقمي أو باستخدام وظائف Microsoft Excel مثل= TEXT(NOW(),"yyyymmddhhmm").  سوف توفر هذه الوظيفة رقمًا فريدًا كل دقيقة، والذي يسمح لك بدوره بالتتبع عند حدوث الإجراء. ويمكن استخدام هذا للمتغيرات مثل أرقام إيصالات استلام المنتجات وأرقام فواتير المورد. وتتابع هذه الاختبارات العمل على نفس قاعدة البيانات مرة أخرى، دون الحاجة إلى أي استعادة.
     - قم دائمًا بتعيين **وضع التحرير** للبيئة لـ **قراءة** أو **تحرير** كحالة الاختبار الأولى لأن الخيار الافتراضي هو **تلقائي**. تستخدم دائمًا خيارات **تلقائي** الإعدادات السابقة ويُمكن أن تتسبب في حدوث اختبارات غير موثوقة. 
  
-    [![صفحة الخيارات، علامة التبويب الأداء](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![صفحة الخيارات، علامة التبويب الأداء.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - قم بالتحقق من الصحة فقط بعد قيامك بالتصفية لحركة مُعينة بدلًا من إجراء تحقق عام من الصحة. على سبيل المثال، بالنسبة لعدد السجلات، قم بتصفية رقم الحركة أو تاريخ الحركة بحيث تستبعد عملية التحقق من الصحة كافة الحركات الأخرى. 
     - إذا كنت تقوم بالتحقق من رصيد العميل أو فحص الموازنة، احفظ القيمة أولًا ثم أضف قيمة الحركة الخاصة بك للتحقق من صحة النتيجة المتوقعة بدلًا من التحقق من صحة قيمة متوقعة ثابتة. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

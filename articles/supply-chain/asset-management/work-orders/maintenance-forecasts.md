@@ -1,12 +1,10 @@
 ---
 title: تنبؤات متطلبات الصيانة
 description: يشرح هذا الموضوع تنبؤات متطلبات الصيانة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderForecastToJournals, EntAssetWorkOrderForecast
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c60834a1f818b142a0f2f022d66fe1f42edeb536
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 7976a7d555c04cb2ea01a2dbe571f6b8b440b69a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020851"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347058"
 ---
 # <a name="maintenance-forecasts"></a>تنبؤات متطلبات الصيانة
 
@@ -104,7 +102,7 @@ ms.locfileid: "5020851"
 
 يوضح الرسم التوضيحي المبين أدناه مثال لصفحة **التنبؤ بمتطلبات صيانة أمر العمل‬**.
 
-![الشكل 1](media/06-work-orders.png)
+![الشكل 1.](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>التحديث التلقائي لتنبؤات أمر العمل
@@ -122,4 +120,7 @@ ms.locfileid: "5020851"
 
 يوضح الرسم التوضيحي المبين أدناه مثال لمربع حوار **تحديث تنبؤ أمر العمل‬** .
 
-![الشكل 2](media/07-work-orders.png)
+![الشكل 2.](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

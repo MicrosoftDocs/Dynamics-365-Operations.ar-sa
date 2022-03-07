@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysQueryForm, SrsReportViewerForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 39930134782b40de05a92a6ad51c4f628f304a78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c64e4f7117c4ca70236a02b4d36a88e9f2a9906
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439804"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210013"
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>تغيير قواعد الإهلاك للأصول الثابتة المتعددة
 
@@ -49,3 +48,6 @@ ms.locfileid: "4439804"
 15. انقر فوق "موافق".
     *  تظهر نتائج العملية على تقرير التحديث الشامل.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

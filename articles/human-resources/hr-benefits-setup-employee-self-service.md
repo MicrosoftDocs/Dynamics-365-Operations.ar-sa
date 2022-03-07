@@ -2,11 +2,9 @@
 title: تكوين خدمة الموظف الذاتية
 description: في Microsoft Dynamics 365 Human Resources، يمكنك تكوين الإطارات المتجانبة للتنقل في المستوى الأعلى في الخدمة الذاتية للموظف.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e763a09e0a0f13eb7222a6ffbcb31b6230b83f4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417160"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797925"
 ---
 # <a name="configure-employee-self-service"></a>تكوين خدمة الموظف الذاتية
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 في Microsoft Dynamics 365 Human Resources، يمكنك تكوين الإطارات المتجانبة للتنقل في المستوى الأعلى في الخدمة الذاتية للموظف. تعمل الإطارات المتجانبة لخطط الميزات على توجيه المستخدمين إلى خطط الميزات المؤهلين للحصول عليها.
 
@@ -72,3 +72,6 @@ ms.locfileid: "4417160"
    | **الانتهاء** | تاريخ ووقت النهاية الذي يجب أن يكون الإطار المتجانب متاحًا به. |
 
 4. حدد **حفظ**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

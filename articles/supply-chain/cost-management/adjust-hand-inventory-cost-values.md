@@ -2,11 +2,9 @@
 title: تعديل قيم تكلفة المخزون الفعلي
 description: استخدم صفحة تسوية المخزون الفعلي لتسوية قيمة التكلفة لكميات المخزون الفعلي بعد إجراء عملية إغلاق المخزون.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAdjInventOnHand
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a702a083d60bdb289712027fbaee5c0a72e60cb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9ddb2962926e78fda80a9db7b9e5915550bc5965
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963828"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842191"
 ---
 # <a name="adjust-on-hand-inventory-cost-values"></a>تعديل قيم تكلفة المخزون الفعلي
 
@@ -43,3 +41,6 @@ ms.locfileid: "4963828"
 -   5 فبراير: كمية مقدارها 1 بتكلفة 13.00 دولارات أمريكية
 
 لتعيين تكلفة هذين الصنفين إلى 15 ريالاً سعوديًا، استخدم خيار التسوية الفعلي لتسوية الكميات الفعلية المفتوحة اعتبارًا من فترة إغلاق المخزون الأخير. **ملاحظة:** سيكون تاريخ ترحيل حركة التسوية الفعلية هو تاريخ إغلاق المخزون الأخير. لا يمكن تعديل هذا التاريخ.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

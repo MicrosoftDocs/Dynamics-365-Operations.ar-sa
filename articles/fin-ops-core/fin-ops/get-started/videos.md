@@ -2,11 +2,9 @@
 title: مقاطع فيديو
 description: تسرد هذه الصفحة مقاطع الفيديو "الإرشادية" والأحاديث التقنية المتعلقة بتطبيقات Finance and Operations التي أنشأتها Microsoft والمتوفرة على YouTube ومواقع أخرى.
 author: sericks007
-manager: AnnBe
-ms.date: 12/01/2020
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797865"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487981"
 ---
 # <a name="videos"></a>ملفات الفيديو 
 
@@ -36,7 +34,6 @@ ms.locfileid: "4797865"
 
 ### <a name="data-integration"></a>تكامل البيانات
 
-- [تكامل العميل المتوقع إلى النقدية](https://youtu.be/AVV9x5x-XCg)
 - [مزامنة أمر عمل بين Dynamics 365 for Field Service وتطبيقات Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>إدارة البيانات
@@ -86,12 +83,12 @@ ms.locfileid: "4797865"
 
 ## <a name="videos-for-dynamics-365-finance"></a>فيديوهات لـ Dynamics 365 Finance
 
+### <a name="business-document-management"></a>إدارة مستندات الأعمال
+- [إنشاء مستند عمل جديد باستخدام إدارة مستندات الأعمال](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>تخصيص التطبيق
 - [إضافة حقول مخصصة](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [تضمين Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="expenses"></a>المصروفات
-- [تجربة المصروفات](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>إعداد التقارير المالية
 - [العثور على الإصدار الخاص بمصمم التقارير](https://www.youtube.com/embed/icfA5Q3kp4w)
@@ -117,6 +114,9 @@ ms.locfileid: "4797865"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>فيديوهات لـ Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>إدارة مستندات الأعمال
+- [إنشاء مستند عمل جديد باستخدام إدارة مستندات الأعمال](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>تكاليف
 - [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
@@ -167,3 +167,6 @@ ms.locfileid: "4797865"
 تركز [الأحاديث التقنية لـ FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) على توفير عمق تقني وأفضل الممارسات ما يوفر للعملاء والشركاء المعرفة المفصلة بنواحي الموضوع.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

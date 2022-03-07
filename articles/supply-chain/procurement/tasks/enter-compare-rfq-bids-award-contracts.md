@@ -1,26 +1,24 @@
 ---
 title: إدخال عطاءات RFQ ومنح العقود ومقارنتها
 description: يوضح هذا الموضوع كيفية إدخال الردود إلى طلب عرض أسعار (RFQ) ومجموع النقاط ومقارنة العطاءات، وبعد ذلك منح العقد إلى أحد الموردين.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0f1028211f3c9cc0082e127a24d10cd2fe9ab5ac903570664233b10e5737bee
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016668"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717138"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>إدخال عطاءات RFQ ومنح العقود ومقارنتها
 
@@ -34,7 +32,7 @@ ms.locfileid: "5016668"
 
 ## <a name="enter-a-reply-as-a-vendor"></a>أدخل ردُا كمورّد.
 
-1. في لوحة المعلومات، حدد **عطاء المورّد‬**.
+1. انتقل إلى **تعاون الموردين \> مساحات العمل \> مزايدة المورد**.
 2. في القائمة **دعوات لعطاءات جديدة‬**، ابحث عن RFQ تم إرساله الآن. حدد RFQ لمراجعة ما هو مطلوب.
 3. حدد **مرفقات RFQ** لمراجعة المرفقات التي تمت اضافتها.
 4. حدد **عطاء** لجعل الحقول قابلة للتحرير. لاحظ تعيين الحقل **تقدم العطاء** إلى **يقوم المورّد بالتحديث‬**.
@@ -106,3 +104,6 @@ ms.locfileid: "5016668"
 ## <a name="view-the-purchase-order-that-is-generated"></a>عرض أمر الشراء المُنشأ
 
 في جزء "الإجراءات"، على علامة تبويب **عام**، حدد **أمر الشراء**. تعرض الصفحة التي تظهر أمر الشراء الذي تم إنشاؤه عندما قبلت العطاء.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

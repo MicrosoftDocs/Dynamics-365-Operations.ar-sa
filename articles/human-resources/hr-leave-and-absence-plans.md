@@ -2,15 +2,12 @@
 title: إنشاء خطة إجازة وغياب
 description: إنشاء خطط إجازات في Dynamics 365 Human Resources لأنواع مختلفه من الإجازات.
 author: andreabichsel
-manager: AnnBe
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 26d85ce226bd601e3ce0bc789e54a7a1a7ec6812
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417161"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057564"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>إنشاء خطة إجازة وغياب
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 حدد خطط الإجازات والغياب في Dynamics 365 Human Resources لكل نوع من الإجازات التي تقدمها. يمكن أن يتم استحقاق خطط الإجازات بترددات مختلفه، مثل السنوية أو الشهرية أو السيميمونثليه. يمكن أيضًا تحديد خطة كمنحة، عند حدوث استحقاق فردي في تاريخ محدد. على سبيل المثال، يمكنك إنشاء خطة تمنح أيام العطل العائمة سنويا.
 
@@ -383,3 +382,6 @@ ms.locfileid: "4417161"
 - [نظرة عامة على الإجازة والغياب](hr-leave-and-absence-overview.md)
 - [تكوين أنواع الإجازة والغياب](hr-leave-and-absence-types.md)
 - [خطط استحقاق الإجازات والغياب](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

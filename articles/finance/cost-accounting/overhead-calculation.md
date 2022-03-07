@@ -2,16 +2,13 @@
 title: عملية حساب المصروفات الزائدة
 description: يصف هذا الموضوع العمليات الأساسية لحساب المصروفات الزائدة وتخصيصها.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440058"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355025"
 ---
 # <a name="overhead-calculation"></a>عملية حساب المصروفات الزائدة
 
@@ -32,8 +29,7 @@ ms.locfileid: "4440058"
 
 يصف هذا الموضوع العمليات الأساسية لحساب المصروفات الزائدة وتخصيصها.
 
-<a name="term-definition"></a>تعريف المصطلح
----------------
+## <a name="term-definition"></a>تعريف المصطلح
 
 المصروفات الزائدة هي المصروفات التي يتم تكبدها لإدارة شركة ما، ولكن لا يمكن عزوها إلى أي نشاط أو منتج أو خدمة معينة في الشركة. توفر المصروفات الزائدة الدعم الحساس لتوليد أنشطة تحقيق الأرباح. فيما يلي بعض الأمثلة على تكاليف المصاريف الإضافية:
 
@@ -52,7 +48,7 @@ ms.locfileid: "4440058"
 
 يتم تشغيل حساب المصروفات الزائدة بشكل مستقل عن الإصدار. لذلك، يمكنك حساب إصدار الموازنة قبل الإصدار الفعلي. تتكون عملية حساب المصروفات الزائدة من أربع خطوات، كما هو مبين في الشكل التوضيحي التالي. في كل خطوة، يتم إنشاء رأس دفتر يومية يحتوي على إدخالات دفتر اليومية. ويحتفظ رأس دفتر اليومية هذا بإدخال البيانات لكل خطوة من العملية الحسابية. يتم تطبيق السياسات والقواعد على كل بند دفتر اليومية، ويتم إنشاء إدخالات التكلفة كمخرجات. وبالتالي، ستكون لديك إمكانية تعقب كاملة في كل الأوقات. 
 
-[![عملية حساب المصروفات الزائدة](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![عملية حساب المصروفات الزائدة.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>حساب المصروفات الزائدة الخاصة بالكهرباء وتخصيصها
 في المحاسبة المالية، يتم تسجيل بعض التكاليف، مثل الكهرباء، كمبلغ إجمالي. وبالتالي، لا يتم توفير معلومات تفصيلية إدارية لمحاسبة التكاليف. في محاسبة التكاليف، لتوفير معلومات الإدارية الصحيحة عبر كافة الوحدات والمستويات التنظيمية، يجب أن تتدفق التكاليف عبر الوحدات التنظيمية. يجب أن يعتمد هذا التدفق على بتسجيل دقيق للاستهلاك أو تقدير مناسب. في دفتر الأستاذ العام، يمكن ترحيل تكلفة الكهرباء كما هو موضح في الجدول التالي.
@@ -622,7 +618,7 @@ ms.locfileid: "4440058"
 
 يُستخدم التخصيص لتخصيص رصيد كائن التكلفة إلى كائنات تكلفة أخرى عن طريق تطبيق أساس التوزيع. يدعم تطبيق Finance طريقة التوزيع المتبادل. في أسلوب التخصيص المتبادل، يتم التعرّف بشكل كامل على الخدمات المتبادلة التي تتبادلها كائنات التكلفة المساعدة. يحدد النظام بشكل تلقائي الترتيب الصحيح لتنفيذ عمليات التخصيص فيه. يتم تخصيص الرصيد الخاص بكائن التكلفة بواسطة أساس توزيع فردي. يتم دعم عمليات التخصيص عبر أبعاد كائنات التكلفة وأعضائها. يتم التحكم بترتيب التخصيص بواسطة وحدة التحكم في التكلفة. 
 
-[![الأسلوب المتبادل](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![الأسلوب المتبادل.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>تعريف توزيع التكلفة
 
@@ -1415,3 +1411,6 @@ ms.locfileid: "4440058"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

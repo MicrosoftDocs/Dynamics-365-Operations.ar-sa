@@ -2,29 +2,26 @@
 title: الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce
 description: يوفر هذا الموضوع إجابات للأسئلة الشائعة حول بيئة تقييم Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: v-chgri
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a0c6f82432a4786f23f12122f3806c3b96a05c8f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409790"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193584"
 ---
-# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>الأسئلة المتداولة حول بيئة تقييم Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -71,3 +68,6 @@ ms.locfileid: "4409790"
 [تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce](cpe-bopis.md)
 
 [تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

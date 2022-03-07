@@ -2,28 +2,25 @@
 title: دفاتر يومية المخزون
 description: يوضح هذا الموضوع كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية.
 author: perlynne
-manager: tfehr
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d184b34ec33184d730d5b6eed3db144f1433f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421127"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910175"
 ---
 # <a name="inventory-journals"></a>دفاتر يومية المخزون
 
@@ -98,7 +95,7 @@ ms.locfileid: "4421127"
 -    الخدمة المتزامنة (OData)
 -  التكامل غير المتزامن
 
-لمزيد من المعلومات، راجع [كيانات البيانات](../../dev-itpro/data-entities/data-entities.md).
+لمزيد من المعلومات، راجع [كيانات البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
 > لا تعتبر كافة دفاتر يومية المخزون ممكَّنة لـ OData، لذلك لا يمكنك استخدام تطبيق Excel data connector للحصول على البيانات ونشرها وتحديثها واستيرادها مرة أخرى إلى Supply Chain Management. 
@@ -116,4 +113,7 @@ ms.locfileid: "4421127"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[كيانات البيانات](../../dev-itpro/data-entities/data-entities.md)
+[كيانات البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

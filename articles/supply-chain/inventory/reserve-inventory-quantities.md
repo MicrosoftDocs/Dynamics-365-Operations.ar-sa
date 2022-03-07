@@ -1,29 +1,26 @@
 ---
 title: حجز كميات المخزون
 description: يصف هذا الموضوع الخيارات المختلفة المتوفرة لحجز المخزون.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea7311ce34fec476ad9953e954a07a86acd13afc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421640"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571127"
 ---
 # <a name="reserve-inventory-quantities"></a>حجز كميات المخزون
 
@@ -49,7 +46,7 @@ ms.locfileid: "4421640"
 
 يحتوي المقطع **سياسات المخزون** على سياسات الحجز التالية.
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **سياسة الحجز**  | **الوصف**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | FIFO المتحكَّم فيه حسب التاريخ    | إذا حددت الخيار **FIFO المتحكَّم فيه حسب التاريخ‬**، فسيتم التحكم في حجز المخزون بواسطة تاريخ فرز وفقًا لمبدأ ما يرد أولاً يصرف أولاً‬ (FIFO). يتم حجز الدُفعات استنادًا إلى أقرب تاريخ لاستلام الأصناف وفقًا لمبدأ ما يرد أولاً يصرف أولاً‬ (FIFO).                                                                                                                                                                                                                                                                       |
@@ -83,3 +80,6 @@ ms.locfileid: "4421640"
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>سياسات حجز المخزون في صفحة محددات الإنتاج
 
 تحدد قيمة حقل **الحجز** على علامة التبويب **عام** في صفحة **محددات الإنتاج** النقطة الافتراضية في عملية الإنتاج التي يجب حجز المخزون عندها. على سبيل المثال، يمكن حجز المخزون عند جدولة العمل أو عند بدء العمل.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

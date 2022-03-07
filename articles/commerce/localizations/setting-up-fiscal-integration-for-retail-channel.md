@@ -2,11 +2,9 @@
 title: إعداد التكامل المالي لقنوات Commerce
 description: يوفر هذا الموضوع إرشادات لإعداد وظيفة التكامل المالي لقنوات Commerce.
 author: josaw
-manager: annbe
 ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 889340c13d150ce8e3ad49a08b3d7f0c25a4b77a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 2ac8dc8787ab0bdb796ec849f9ede3f697b09680
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017883"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193634"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>إعداد التكامل المالي لقنوات Commerce
 
@@ -88,7 +86,7 @@ ms.locfileid: "5017883"
 
         **أمثلة**
 
-        |   | التنسيق | مثال |
+        | المحددة  | تنسيق | مثال |
         |---|--------|---------|
         | **إعدادات معدلات ضريبة القيمة المضافة** | القيمة: VATrate | 1 : 2000, 2 : 1800 |
         | **تعيين أكواد ضريبة القيمة المضافة** | VATcode : القيمة | vat20 : 1, vat18 : 2 |
@@ -225,3 +223,6 @@ ms.locfileid: "5017883"
     1. حدد التخطيط الذي تريد تحديثه.
     2. أضف زرًا جديدًا، وعيّن خاصية الزر **إكمال عملية التسجيل المالي**.
     3. في صفحة **جدول التوزيع**، شغّل المهمة **1090** لنقل التغييرات إلى قاعدة بيانات القناة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

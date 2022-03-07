@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4edc868b76d466c41be8036b962730db90eeb68a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439924"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249427"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>إهلاك الرصيد المتناقص بنسبة 150 بالمائة
 
@@ -75,7 +74,7 @@ ms.locfileid: "4439924"
 | سنوات مدة الخدمة             | 5      |
 | النسبة المئوية للإهلاك السنوي | 30%    |
 
-تقسم طريقة الرصيد المتناقص بنسبة 150 بالمائة على سنوات مدة الخدمة. وسيتم ضرب النسبة المئوية في صافي القيمة الدفترية للأصل لتحديد مبلغ الإهلاك في السنة.
+تقوم طريقة الرصيد المتناقص بنسبة 150% بقسمة نسبة 150 في المائة على سنوات مدة الخدمة. وسيتم ضرب النسبة المئوية في صافي القيمة الدفترية للأصل لتحديد مبلغ الإهلاك في السنة.
 
 | الفترة | حساب مبلغ الإهلاك السنوي | القيمة الدفترية             | صافي القيمة الدفترية في نهاية السنة |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
@@ -88,3 +87,6 @@ ms.locfileid: "4439924"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

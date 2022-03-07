@@ -1,26 +1,23 @@
 ---
 title: تكوين المنتجات المرتبطة
 description: يتناول هذا الإجراء تكوين المنتجات المرتبطة.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98cd12e04d8a9a41cd6987f58f46cfe9a761ee2e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ac45df682da7903517659994db8f51f2ab83453
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421377"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568461"
 ---
 # <a name="configure-linked-products"></a>تكوين المنتجات المرتبطة
 
@@ -40,3 +37,6 @@ ms.locfileid: "4421377"
 10. في حقل الكمية، أدخل رقمًا.
 11. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

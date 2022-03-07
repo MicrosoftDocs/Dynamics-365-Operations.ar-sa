@@ -2,11 +2,8 @@
 title: دالة Base64StringToContainer ER
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكتروني Base64StringToContainer (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/14/2020
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0e92ae41a3e0f03cb14d4791ab768f096f2a0523
-ms.sourcegitcommit: e8a46e127d70986539c138b27a641bff6f6874d0
+ms.openlocfilehash: 3e813c628bfe783fb8e93fc5d7e8b275405245c42710f9ea691d4c06afff0d84
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4739053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772022"
 ---
 # <a name="base64stringtocontainer-er-function"></a>دالة Base64StringToContainer ER
 
 [!include [banner](../includes/banner.md)]
 
-تقوم `BASE64STRINGTOCONTAINER` [دالة](er-formula-language.md#functions) بتحويل الإدخال المُحدد لنوع *السلسلة* إلى عنصر بيانات من النوع *[الحاوية](er-functions-category-container.md)*.
+تقوم `BASE64STRINGTOCONTAINER` [دالة](er-formula-language.md#Functions) بتحويل الإدخال المُحدد لنوع *السلسلة* إلى عنصر بيانات من النوع *[الحاوية](er-functions-category-container.md)*.
 
 ## <a name="syntax"></a>بناء الجملة
 
@@ -75,8 +72,11 @@ BASE64STRINGTOCONTAINER (input)
 
 في هذا المثال، **\#MediaAsBase64String** بترميز المحتوي الثنائي لمرفق الوسائط الحالي كنص يمثل مجموعه Base64 من أنظمه ترميز ثنائيه النص. ويقوم **\#BlobFomBase64** بفك ترميز سلسله Base64 وإرجاع قيمه ثنائيه في تنسيق BLOB.
 
-![مصادر البيانات النموذجية في صفحة مصمم تعيين النموذج](./media/er-functions-container-base64stringtocontainer-1.png)
+![مصادر البيانات النموذجية في صفحة مصمم تعيين النموذج.](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[دالات الحاوية](er-functions-category-container.md)
+[وظائف الحاوية](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

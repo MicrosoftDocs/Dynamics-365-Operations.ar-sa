@@ -2,11 +2,9 @@
 title: تخصيص الوقت للوظائف في مجموعة الوظائف‬
 description: في تنفيذ التصنيع، يمكنك تجميع الوظائف. يمكنك عندئذٍ بدء مهام متعددة في نفس الوقت في صفحة قائمة الوظائف.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb0236f9f39afc67cb5c8cedecee5278a6555d03deefb859fc134a4a4160285b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766597"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>تخصيص الوقت للوظائف في مجموعة الوظائف‬
 
@@ -82,7 +80,7 @@ ms.locfileid: "4966570"
 ## <a name="net-time-allocation-key"></a>مفتاح توزيع الوقت الصافي
 يوضح الجدول التالي معادلة حساب الوقت الموزع. فيما يلي المعادلة: الوقت المحسوب لكل إبلاغ = وقت المجموعة ÷ عدد الوظائف
 
-|                              | 09:00–10:00 (ساعة واحدة) | 10:00–11:00 (ساعة واحدة) | 11:00–13:00 (ساعتان) | 13:00–15:00 (ساعتان) | الوقت الموزع |
+| مثال                       | 09:00–10:00 (ساعة واحدة) | 10:00–11:00 (ساعة واحدة) | 11:00–13:00 (ساعتان) | 13:00–15:00 (ساعتان) | الوقت الموزع |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | عدد الوظائف في المجموعة | 1                    | 3                    | 2                     | 1                     | غير قابل للتطبيق |
 | المهمة الأولى                        | 1 ÷ 1 = ساعة واحدة       | 1 ÷ 3 = 0.33 ساعة    | غير قابل للتطبيق        | غير قابل للتطبيق        | 1.33 ساعة     |
@@ -110,3 +108,6 @@ ms.locfileid: "4966570"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

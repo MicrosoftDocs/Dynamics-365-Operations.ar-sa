@@ -2,28 +2,25 @@
 title: ترحيل دفتر يومية وصول المنتجات المرتجعة
 description: ترحيل دفتر يومية وصول المنتجات المرتجعة.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e07542a369506b810704012bd1b07557b79f50d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03498bc198825e05bd2005abaa2f2cdbbaaea39cdf343af042039bf848b42536
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736589"
 ---
 # <a name="post-arrival-journal-for-returned-products"></a>ترحيل دفتر يومية وصول المنتجات المرتجعة 
 
@@ -58,3 +55,6 @@ ms.locfileid: "4421544"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

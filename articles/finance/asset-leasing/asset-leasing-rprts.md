@@ -2,28 +2,25 @@
 title: تقارير تأجير الأصول
 description: يذكر هذا الموضوع ويصف التقارير المتوفرة في تأجير الأصول.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 7044378a66ed9ff952f4579d375d59576fe09294fc158c000ab28a93f4173421
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739397"
 ---
 # <a name="asset-leasing-reports"></a>تقارير تأجير الأصول
 
@@ -165,3 +162,6 @@ ms.locfileid: "4440151"
 |     عملة                          |     اختصار العملة المستخدمة في الحركة. ستقوم كافة التقارير بتحويل عملة الحركة إلى عملة التقارير.  |
 |     دفعات الإيجار المتبقية          |     المبلغ الإجمالي لدفعات الإيجار غير المدفوع من جدول الدفع المتبقي من **تاريخ بدء الدفع**.            |
 |     الدفعات المرجحة المتبقية       |     ويتم ضرب دفعات الإيجار المتبقية في معدل الخصم المستخدم.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

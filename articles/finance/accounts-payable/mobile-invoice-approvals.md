@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: abf5c2735834537fdc72f2e73fe6a415bd1b67c0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439901"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227512"
 ---
 # <a name="mobile-invoice-approvals"></a>الموافقة على فاتورة المحمول
 
@@ -322,7 +321,7 @@ ms.locfileid: "4439901"
 
 2. انقر فوق الزر **تحرير** لبدء وضع التحرير في مساحة العمل.
 
-3. حدد صفحة <strong>تفاصيل الفاتورة** التي قمت بإنشائها سابقًا، ثم انقر فوق **تحرير</strong>.
+3. حدد صفحة <strong>تفاصيل الفاتورة **التي قمت بإنشائها سابقًا، ثم انقر فوق** تحرير</strong>.
 
 4. عيّن الخيار **إدارة المستندات** إلى **نعم** كما هو موضح أدناه. **ملاحظة:** في حال عدم وجود أي متطلبات تتعلق بإظهار المرفقات على جهاز محمول، يمكنك ترك هذا الخيار معينًا إلى **لا**، وهو الإعداد الافتراضي.
    
@@ -535,3 +534,6 @@ ms.locfileid: "4439901"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

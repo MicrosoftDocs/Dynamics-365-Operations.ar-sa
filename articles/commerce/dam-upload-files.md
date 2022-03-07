@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,14 +17,14 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4acd3bec32cdfe627f6eb33dd5dc652f7cff74a8
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c065aa961cf5c2d6770ae47c63a75953e6d38e00
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594202"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222527"
 ---
-# <a name="upload-files-other-than-images-and-videos"></a>تحميل ملفات غير صور ومقاطع فيديو
+# <a name="upload-files-other-than-images-and-videos"></a>تحميل ملفات غير الصور ومقاطع الفيديو
 
 [!include [banner](includes/banner.md)]
 
@@ -98,3 +97,6 @@ ms.locfileid: "4594202"
 [تخصيص نقاط تركيز الصورة](dam-custom-focal-point.md)
 
 [تحميل الملفات الثابتة وخدمتها](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

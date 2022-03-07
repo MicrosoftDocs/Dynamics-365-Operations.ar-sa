@@ -2,16 +2,13 @@
 title: جدولة مرئية لـ Lean manufacturing
 description: يوفر هذا الموضوع معلومات حول لوحة جدولة كانبان، التي يستطيع مخطط الإنتاج استخدامها لمراقبة خطة الإنتاج وتحسينها لوظائف كانبان.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoard, KanbanJobSchedulingListPage, LeanProductionFlowVisualization, KanbanBoardUnplannedJobs
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764802"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>جدولة ظاهرية لـ Lean manufacturing
 
@@ -50,7 +47,7 @@ ms.locfileid: "4421123"
 ## <a name="kanban-schedule-board"></a>لوحة جدول الكانبان
 تحتوي صفحة **لوحة جدولة كانبان** تحتوي على سبعة عناصر رئيسية، كما هو مبين في الرسم التوضيحي التالي. 
 
-![لوحة جدول الكانبان](./media/kanban-schedule-board-1024x554.png)
+![لوحة جدول الكانبان.](./media/kanban-schedule-board-1024x554.png)
 1.  جزء الإجراءات
 2.  تصفية الحقول
 3.  زر للوظائف غير المخططة
@@ -74,7 +71,7 @@ ms.locfileid: "4421123"
 ## <a name="plan-unplanned-jobs"></a>تخطيط وظائف غير مخططة
 يمكنك جدولة وظائف كانبان غير مخططة من مربع الحوار **تخطيط وظائف غير مخططة‬**. لفتح مربع الحوار هذا، انقر فوق زر **الوظائف غير المخططة** الذي يعرض العدد الحالي للوظائف غير المخططة. أو، انقر فوق **تخطيط وظائف غير مخططة** على علامة التبويب **لوحة** في جزء الإجراءات. يعرض مربع الحوار قائمة بوظائف كانبان غير المخططة لخلية العمل. يمكنك استخدام الحقل **تصفية** لتصفية كافة الحقول الموجودة في الشبكة. على سبيل المثال، يمكن إجراء التصفية على وظائف كانبان بمنتج معين. بعد الحصول على قائمة تمت تصفيتها للوظائف التي تريد جدولتها، قم بتحديدها في القائمة ومن ثم انقر فوق **موافق**. لاستخدام التخطيط التلقائي لجدولة الوظائف، عيّن الخيار **التخطيط التلقائي** إلى **نعم**. في هذه الحالة، تتم جدولة الوظائف في فترة وفقًا لتاريخ استحقاقها. يمكنك أيضًا جدولة الوظائف حسب الفترة. ما عليك سوى تحديد فترة في حقل **الفترة**. يبين الرسم التوضيحي التالي مثالاً عن مربع الحوار **تخطيط وظائف غير مخططة**. 
 
-![مربع الحوار تخطيط وظائف غير مخططة](./media/plan-unplanned-jobs-1024x564.png)
+![مربع الحوار تخطيط وظائف غير مخططة.](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>تسلسل وظائف كانبان خلال الفترة نفسها
 يمكنك تغيير تسلسل وظيفة أو أكثر من الوظائف المحددة خلال فترة معينة. قد تكون هذه الإمكانية مفيدة إذا كنت ترغب في تحديد أولويات بعض الوظائف ضمن الفترة المحددة. أو، قد ترغب في تعيين تسلسل للوظائف ذات سمات إنتاج مماثلة لتحسين تنفيذ الوظيفة. يمكن تغيير التسلسل من خلال عملية سحب وإفلات، أو باستخدام عنصري القائمة **للخلف** و **للأمام** على علامة تبويب **اللوحة** في جزء الإجراءات.
@@ -90,8 +87,10 @@ ms.locfileid: "4421123"
 -   صفحة **مرئيات تدفق الإنتاج‬**
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [جدولة وظائف كانبان لـ Lean manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

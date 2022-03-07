@@ -1,26 +1,23 @@
 ---
 title: إضافة معلومات إدارة الائتمان للعملاء
 description: يوضح هذا الموضوع كيفية إضافة معلومات إدارة الائتمان لعميل.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439917"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753960"
 ---
 # <a name="add-credit-management-information-for-customers"></a>إضافة معلومات إدارة الائتمان للعملاء
 
@@ -102,3 +99,6 @@ ms.locfileid: "4439917"
     في هذه الحالة، يكون حد الائتمان الفعلي 125,000 (= A + \[B × C\]).
     
     ومع ذلك، إذا حددت خانة الاختيار **تضمين في خطر الائتمان‬‏‫**، فستتم إزالة قيمة **تحديث الحد الائتماني** من 50,000 (= 50.00 نسبة مئوية من 100,000) وتكون قيمة خطر الائتمان 75,000 (= A + \[B × C\] – B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,30 @@
 ---
 title: إعداد ملف تعريف نظرة عامة على وصول الصنف
 description: يركز هذا الموضوع على إعداد ملف تعريف النظرة العامة على الوصول.
-author: ShylaThompson
-manager: tfehr
+author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5ecfe132d9b0e096c5fdf015f80a6efb34c9b178
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961413"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964796"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>إعداد ملف تعريف نظرة عامة على وصول الصنف
 
-[!include [banner](../../includes/banner.md)]]
+[!include [banner](../../includes/banner.md)]
 
 يركز هذا الموضوع على إعداد ملف تعريف النظرة العامة على الوصول. إن ملف تعريف النظرة العامة على الوصول عبارة عن مجموعة من القواعد التي سيتم تطبيقها عند فتح صفحة "نظرة عامة على الوصول" من قِبل المستخدم. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF. يقوم موظف الاستلام عادةً بتنفيذ هذا الإجراء.
 
@@ -53,3 +52,6 @@ ms.locfileid: "4961413"
 17. حدد **حفظ**.
 18. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

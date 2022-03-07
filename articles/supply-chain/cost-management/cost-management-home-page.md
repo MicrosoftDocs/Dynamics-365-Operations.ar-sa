@@ -2,28 +2,26 @@
 title: الصفحة الرئيسية لإدارة التكلفة
 description: تسمح لك إدارة التكلفة بالتعامل مع تقييم وحساب المواد الخام والسلع شبه النهائية والسلع النهائية وأصول العمل قيد التقدم‬.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc146f8a3707e830ff574964c5a8865271e69b50
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 83881e6b3bb588dad61fd14aa4db28aa76305925aab3ee08e2ebe7e001f2aff2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739097"
 ---
 # <a name="cost-management-home-page"></a>الصفحة الرئيسية لإدارة التكلفة
 
@@ -45,7 +43,7 @@ ms.locfileid: "4967673"
 
 تسمح لك محاسبة التصنيع بالتعامل مع [تحديد تكلفة أمر الشغل](production-order-cost-analysis.md) في أوامر الإنتاج والأوامر الدفعية، بالإضافة إلى [تحديد تكاليف الإصدار التلقائي](backflush-costing.md) في Lean Manufacturing.
 
-يوفر [محتوى "إدارة التكلفة" في Power BI](../../dev-itpro/analytics/cost-management-content-pack.md) رؤية إدارية داخل المخزون ومخزون العمل قيد التقدم، وكيفية تدفق التكلفة من خلالهما حسب الفئة مع مرور الوقت. يمكن استخدام المعلومات أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
+يوفر [محتوى "إدارة التكلفة" في Power BI](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) رؤية إدارية داخل المخزون ومخزون العمل قيد التقدم، وكيفية تدفق التكلفة من خلالهما حسب الفئة مع مرور الوقت. يمكن استخدام المعلومات أيضًا بوصفها تكملة تفصيلية للقائمة المالية.
 
 ### <a name="additional-resources"></a>الموارد الإضافية
 
@@ -59,8 +57,10 @@ ms.locfileid: "4967673"
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار وغيرها من المعلومات حول إدارة التكلفة في [مدونة فريق بحث وتطوير Dynamics AX Manufacturing R&D](https://blogs.msdn.microsoft.com/axmfg) وفي [إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق من إدارة التكلفة، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
+يمكنك العثور على آراء وأخبار وغيرها من المعلومات حول إدارة التكلفة في [مدونة فريق بحث وتطوير Dynamics AX Manufacturing R&D](/archive/blogs/axmfg/) وفي [إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). على الرغم من أن بعض هذه المنشورات تمت كتابتها للإصدار السابق من إدارة التكلفة، إلا أن المفاهيم نفسها ما زالت تنطبق كما أن الإجراءات مماثلة في الإصدار الحالي.
 
 #### <a name="task-guides"></a>دلائل المهام
 
 تتوفر تعليمات إضافية كدلائل مهام. وللوصول إلى دلائل المهام، انقر فوق الزر "تعليمات" في أي صفحة.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

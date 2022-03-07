@@ -2,16 +2,13 @@
 title: إدارة المنتجات وفئات المنتجات
 description: يصف هذا الموضوع كيف يمكن لمديري ترويج السلع استخدام فئات المنتجات لإدارة العلاقات بين التدرج الهرمي للمنتجات التجارية وتفاصيل المنتجات الصادرة.
 author: ashishmsft
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResProductCategory, EcoResCategoryAddProduct, EcoResAttributeValue
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d47a866703b830e84e3f2e37a02d9d58f73987b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 101e03c053203fc92648b7024998202d782f46fb07a5b6d5647b8e2a6514ea17
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743974"
 ---
 # <a name="manage-product-categories-and-products"></a>إدارة المنتجات وفئات المنتجات
 
@@ -38,17 +35,17 @@ ms.locfileid: "4409859"
 
 في بنية فئة المنتجات المُحسنة، يتم فصل خصائص المنتجات بصورة منطقية استنادًا إلى إمكانية تطبيقها في مجموعة، لتعكس بنية تفاصيل المنتجات المُصدرة من البنية.
 
-![الحقول المجمعة بناءً على نطاق إمكانية تطبيق الخصائص](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![الحقول المجمعة بناءً على نطاق إمكانية تطبيق الخصائص.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 يمكنك التبديل بين إدارة خصائص خاصة بكيان قانوني عبر كافة الكيانات القانونية وإدارتها لكيان قانوني محدد.
 
 لإدارة خصائص عبر جميع الكيانات القانونية، حدد **طريقة عرض لكافة الكيانات القانونية** (أو **التحرير لكافة الكيانات القانونية**).
 
-![عرض/تحرير لكافة الكيانات القانونية](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![عرض/تحرير لكافة الكيانات القانونية.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 لإدارة الخصائص لأحد الكيانات القانونية المحددة، حدد **طريقة عرض لكيان قانوني محدد** (أو **تحرير لكيان قانوني محدد**).
 
-![عرض/تحرير لكيان قانوني محدد](media/ToggleToEditForAllLegalEntities.PNG)
+![عرض/تحرير لكيان قانوني محدد.](media/ToggleToEditForAllLegalEntities.PNG)
 
 بالإضافة إلى ذلك، في بنية محسَّنة لفئة المنتج، بإمكان مدير الترويج أن يحدد الآن القيم الافتراضية لمجموعة إضافية من خصائص المنتجات على مستوى الفئة الفردية. وعندما يتم إنشاء المنتجات بعد ذلك، فإنها تورث القيم الافتراضية لخصائص منتجاتها، بناءً على اقتران هذه الخصائص بفئة فردية من التدرج الهرمي للمنتجات. يمكن أيضًا تعديل خصائص المنتجات المتوارثة لكل منتج لتلبية متطلبات العمل الفردية.
 
@@ -56,4 +53,7 @@ ms.locfileid: "4409859"
 
 يمكنك استخدام هذه البنية المُحسنة الجديدة لخصائص المنتج لتحديد خصائص منتجات مُحدثة يجب دفعها إلى المنتجات المقترنة. في صفحة **التدرج الهرمي للمنتجات التجارية**، في "جزء الإجراءات"، حدد **فئة**، ثم حدد **تحديث المنتجات** لفتح مربع الحوار **تحديث المنتجات**.
 
-![مربع الحوار تحديث المنتجات](media/NewUpdateProductsEnhancedView.PNG)
+![مربع الحوار تحديث المنتجات.](media/NewUpdateProductsEnhancedView.PNG)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

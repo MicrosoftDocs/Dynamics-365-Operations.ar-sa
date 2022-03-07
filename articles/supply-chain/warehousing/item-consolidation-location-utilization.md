@@ -2,26 +2,23 @@
 title: دمج الأصناف - استخدام الموقع
 description: يوفر هذا الموضوع معلومات حول الوظيفة التي تسهل على مديري المستودعات عرض الاستخدام الحجمي للمواقع عبر المستودع وتصفيته. يمكن للمديرين تحديد المواقع وإنشاء عمل حركة المخزون مباشرة من صفحة دمج الأصناف لدمج الأصناف وبالتالي استخدام مساحة المستودع بشكل أفضل.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421693"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578598"
 ---
 # <a name="item-consolidation---location-utilization"></a>دمج الأصناف - استخدام الموقع
 
@@ -150,7 +147,7 @@ ms.locfileid: "4421693"
 
 ## <a name="example-scenario"></a>سيناريو كمثال
 
-يستخدم السيناريو التالي تطبيق المستودع على جهاز محمول لإجراء *تعديل في* المخزون في موقعين بالمستودع.
+يستخدم السيناريو التالي تطبيق إدارة المستودع للأجهزة المحمولة لإجراء *تعديل في* المخزون في موقعين بالمستودع.
 
 ### <a name="add-inventory-to-locations"></a>إضافة المخزون للمواقع
 
@@ -208,3 +205,6 @@ ms.locfileid: "4421693"
 
     > [!NOTE]
    > ينشئ النظام معرف عمل واحد لكل حركة يجب إكمالها. بتحديد موقع يحتوي بالفعل على مخزون، يتم إنشاء معرف عمل واحد فقط. بتحديد موقع جديد، يتم إنشاء معرفي عمل.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

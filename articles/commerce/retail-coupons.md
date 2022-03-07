@@ -2,28 +2,25 @@
 title: إعداد القسائم لمبيعات البيع بالتجزئة
 description: يوفر هذا الموضوع نظرة عامة على القسائم ويشرح كيفية إعدادها.
 author: scott-tucker
-manager: AnnBe
 ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409821"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792015"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>إعداد القسائم لمبيعات البيع بالتجزئة
 
@@ -82,3 +79,6 @@ ms.locfileid: "4409821"
 - **يتم تحديث HQ بشكل جزئي، ولكن لا يتم تحديث Commerce Scale Unit ونقطة البيع.** في تحديث HQ، يتم تحديث القسيمة وصفحات الخصم، ويتم أيضًا تحديث محرك سعر التجارة. إذا تم تحديث أحد هذين المكونين فقط، فلن تتطابق بعض الصفحات في Commerce مع بيانات حساب السعر. وبالتالي، قد تحدث بعض الحسابات أو الأخطاء غير المتوقعة للخصومات أثناء حساب الخصومات.
 - **يتم تحديث HQ، ولكن لا يتم تحديث Commerce Scale Unit ونقطة البيع (N-1).** نظراً لتعذر تحديث جميع المتاجر في نفس الوقت، من المستحسن أن تقوم بتحديث HQ قبل أن تقوم بتحديث المتاجر. في السيناريو N-1، لن تتوفر الوظيفة الجديدة المتعلقة بالقسائم في المتاجر التي لم يتم تحديثها بعد. على سبيل المثال، تقدم وظيفة القسيمة بنود "استثناء". إذا كنت تستخدم بنود استثناء على الخصم، فلن يتم تطبيقها في متجر يستخدم إصدارًا سابقًا.
 - **لم يتم تحديث HQ، ولكن يتم تحديث Commerce Scale Unit ونقطة البيع (N+1).** نظرًا لقدرة مشغل السعر المحدّث في Commerce Scale Unit على التعامل مع أكواد الخصم القديمة أثناء حسابات الأسعار، يجب ألا يكون للتحديث أي تأثير وظيفي هذا السيناريو.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

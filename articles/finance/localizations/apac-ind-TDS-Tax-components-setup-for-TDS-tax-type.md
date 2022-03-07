@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 11b1336289f1fad0366882a18867ff527900d8bfb14051c909a0b0ff72779073
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726000"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022993"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>إعداد مكونات الضريبة لنوع ضريبة TDS
 
@@ -33,7 +33,7 @@ ms.locfileid: "6726000"
 
 1. انتقل إلى **الضريبة \> الإعدادات \> ضريبة الخصم \> مكونات ضريبة الخصم**.
 
-    [![صفحة مكونات ضرائب الخصم.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![صفحة مكونات ضرائب الخصم](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. في الحقل **نوع الضريبة**، حدد **TDS** لإعداد مكونات ضريبة الخصم لنوع الضريبة TDS.
 3. في جزء الإجراءات، حدد **جديد** لإنشاء بند.
@@ -50,7 +50,7 @@ ms.locfileid: "6726000"
 
     على سبيل المثال، إذا كان مبلغ الحد الاستثنائي 5.000، فإنه يتم حساب TDS في بند فاتورة محدد إذا كان مبلغ بند الفاتورة يتجاوز 5.000 (بمعنى آخر، إذا كان المبلغ 5.001ا أو أكثر).
 
-    [![صفحة الحد.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![صفحة الحد](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > يجب أن يكون مبلغ الحد الاستثنائي أقل من أو مساويًا لمبلغ الحد.
@@ -66,6 +66,6 @@ ms.locfileid: "6726000"
 
 14. حدد **موافق** لنسخ مكونات TDS لمجموعة مكون TDS الأخرى وإنشائها في الصفحة **مكونات ضريبة الخصم**.
 
-    [![مربع حوار نسخ مكونات ضريبة الخصم.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![مربع حوار نسخ مكونات ضريبة الخصم](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. قم بإغلاق الصفحة.

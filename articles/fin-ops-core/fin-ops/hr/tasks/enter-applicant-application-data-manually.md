@@ -2,11 +2,9 @@
 title: إدخال بيانات مقدم الطلب والطلب يدوياً
 description: يوضح هذا الإجراء كيفية الاحتفاظ بمعلومات عن مقدمي الطلبات واستمارات تقديم طلباتهم.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1039acd53f493e810b11aafd85116d034b7d323
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 08104729f5be15ef7e727102e7be731bdda1a38c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797303"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751972"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>إدخال بيانات مقدم الطلب والطلب يدوياً
 
@@ -61,3 +59,6 @@ ms.locfileid: "4797303"
 6. انقر فوق "حفظ".
     * بعد حفظ استمارة التقديم، يمكنك إرفاق مستندات بها، بما في ذلك خبرة مقدم الطلب والمكافآت التي حصل عليها ورسالة غلاف.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

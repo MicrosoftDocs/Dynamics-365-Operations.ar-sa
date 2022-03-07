@@ -2,11 +2,9 @@
 title: الإجراءات في عمليات الموافقة على سير العمل
 description: توضح هذه المقالة الإجراءات التي يمكن أن يتخذها كل مشارك في عملية موافقة على سير عمل.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: f5750ac5814525351e6688b0aa49eee3811f7785775a91f3394c1a481de8adf2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797592"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749354"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>الإجراءات في عمليات الموافقة على سير العمل
 
@@ -31,7 +29,7 @@ ms.locfileid: "4797592"
 
 يمكن أن ينطوي سير العمل على عدة مجموعات من الأشخاص: المنشئ، والمعينين للمهام، وصانعي القرار، والمعتمدين. على سبيل المثال، في سير عمل تقرير المصروفات التالي، يعد سامي هو المنشئ، وأعضاء قائمة الانتظار هم المعينين للمهام، وسعيد هو صانع القرار، وسمر، وفيصل هم المعتمدون.
 
-[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 تشرح الأقسام التالية إجراءات سير العمل التي تستطيع كل مجموعة تنفيذها.
 
@@ -141,3 +139,6 @@ ms.locfileid: "4797592"
 على سبيل المال، قام سامي بتقديم ‏‏تقرير مصروفات بمبلغ 12,000 دولار أمريكي، وتم تعيين هذا المستند إلى سمر. وإذا طلبت سمر إجراء تغيير، فإنه تتم إعادة إرسال تقرير المصروفات إلى سامي.
 
 ويمكن لسامي إعادة إرسال تقرير المصروفات. ويمكنه إجراء التغييرات المطلوبة أولاً، أو أنه يمكن إعادة إرسال النسخة الأصلية لتقرير المصروفات. وإذا أعاد سامي إرسال تقرير المصروفات، فسيتم إرساله إلى سعيد للاعتماد نظرًا لأن سعيد هو المعتمد الأول في عملية الاعتماد.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
