@@ -2,32 +2,29 @@
 title: المحتوى "نظرة عامة على النقد" في Power BI
 description: 'يصف هذا الموضوع المحتوى "نظرة عامة على النقدية: في Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.'
 author: saraschi2
-manager: AnnBe
 ms.date: 07/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f7e0c792df8519f3bcb2ade2e29cc4c5c8e4730
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439986"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986398"
 ---
-# <a name="cash-overview-power-bi-content"></a>المحتوى "نظرة عامة على النقد" في Power BI
+# <a name="cash-overview-power-bi-content"></a>محتوى Power BI لنظرة عامة على النقدية
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع المحتوى **نظرة عامة على النقد** في Microsoft Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+يصف هذا الموضوع محتوى **نظرة عامة على النقدية** في Microsoft Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -41,7 +38,7 @@ ms.locfileid: "4439986"
 2. انتقل إلى **دفتر الأستاذ العام > التقويمات > التقويمات المالية** للتحقق من صحة تواريخ التقويم المالي المعينة إلى الفترة الزمنية النشطة.
 3. انتقل إلى **دفتر الأستاذ العام> إعداد > دفتر الأستاذ** لتعيين **عملة المحاسبة** و **نوع سعر الصرف**.
 4. حدد أسعار الصرف بين العملات الخاصة بالحركة وعملة المحاسبة، وبين عملة المحاسبة وعملة النظام، وبين عملة المحاسبة وعملات البنك. للقيام بذلك، اذهب إلى **دفتر الأستاذ العام > العملات > أسعار صرف العملات**.
-5. تكوين تقدير التدفقات النقدية وتشغيلها. لمزيد من المعلومات حول كيفية إعداد تقدير التدفقات النقدية، راجع [تقدير التدفقات النقدية](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. تكوين تقدير التدفقات النقدية وتشغيلها. لمزيد من المعلومات حول كيفية إعداد تقدير التدفقات النقدية، راجع [تقدير التدفقات النقدية](./cash-flow-forecasting.md). 
 6. اذهب إلى **إدارة النظام > الإعداد > متجر الكيانات** لتحديث القياس المجمع **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
@@ -79,3 +76,6 @@ ms.locfileid: "4439986"
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | ملخص حركات التدفقات النقدية الداخلية والخارجية، والرصيد باستخدام عملة المحاسبة الخاصة بكل شركة |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | ملخص حركات التدفقات النقدية الداخلية والخارجية، والرصيد باستخدام عملة النظام لجميع الشركات |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | صافي مبلغ الحركة المُلخص، ورصيد العملات باستخدام عملة الحركة |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

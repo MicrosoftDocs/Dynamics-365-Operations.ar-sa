@@ -2,28 +2,25 @@
 title: تكوين محددات عقد الإيجار (معاينة)
 description: يصف هذا الموضوع إعدادات التكوين الخاصة بتأجير الأصول، مثل معلومات الأمان وإعدادات المحاسبة.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f71006570cd8f2bdc0385388eae0800cd29d3ec8
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: c681f7d356752a2194a86bc7eaef6ceac1e0af6b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440149"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816090"
 ---
 # <a name="configure-lease-parameters"></a>تكوين محددات عقد الإيجار
 
@@ -46,3 +43,6 @@ ms.locfileid: "4440149"
 
     > [!NOTE]
     > ونوصي بأن تجعل بهذا الخيار معينًا على **لا**. يتم استخدام إعداد هذا الخيار كخيار تحقق من الصحة والتحكم لمنع إهلاك إصدار دفتر مغلق عن طريق الخطأ. وبإبقاء الخيار معينًا على **لا**، فإنك تساعد في الاحتفاظ بدقة صافي القيمة الدفترية وحسابات الإهلاك المستقبلية.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

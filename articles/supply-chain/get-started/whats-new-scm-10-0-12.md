@@ -2,27 +2,24 @@
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.12 (أغسطس 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.12 من Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a210af5e37e12d883054d46719602604870213b4
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 89959095eb64c66e92c9d93d0a3f4caabe7d14bf7121683a7d35d3719a3e36ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4421672"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728593"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.12 (أغسطس 2020)
 
@@ -36,25 +33,25 @@ ms.locfileid: "4421672"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
+يتضمن هذا الإصدار الميزات التالية. ترتبط عناوين الميزات بالمعلومات الإضافية الموجودة في موقع [خطط الإصدار](/dynamics365/release-plans/). تشير الارتباطات الإضافية إلى وثائق أو ملفات فيديو إضافية تتوفر حاليًا لهذه الميزة. يجب تمكين معظم هذه الميزات باستخدام [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) قبل التمكن من استخدامها.
 
-- [السماح بتأمين شاشة اللمس لبطاقة الوظيفة لتعقيمها](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - لمزيد من المعلومات، راجع [تكوين بطاقة الوظيفة للأجهزة](../production-control/config-job-card-device.md).
+- [السماح بتأمين شاشة اللمس لبطاقة الوظيفة لتعقيمها](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - لمزيد من المعلومات، راجع [تكوين بطاقة الوظيفة للأجهزة](../production-control/config-job-card-device.md).
 
-- [التقاط متغيرات المنتجات وأبعاد التعقب في تطبيق المستودع أثناء استلام أصناف الحمل](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - لمزيد من المعلومات، راجع [إعداد أجهزة المحمول لعمل المستودع](../warehousing/configure-mobile-devices-warehouse.md).
+- [التقاط متغيرات المنتجات وأبعاد التعقب في تطبيق المستودع أثناء استلام أصناف الحمل](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - لمزيد من المعلومات، راجع [إعداد أجهزة المحمول لعمل المستودع](../warehousing/configure-mobile-devices-warehouse.md).
 
 - مستوى حساب التكلفة (مستوى BOM جديد)<br> - لمزيد من المعلومات، راجع [مستوى حساب التكلفة](../cost-management/cost-calculation-level.md).
 
-- [مدخل العميل لـ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - للحصول على مزيد من المعلومات، راجع [مدخل العميل لـ Dynamics 365 Supply Chain Management overview](../sales-marketing/customer-portal-overview.md).
+- [مدخل العميل لـ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - للحصول على مزيد من المعلومات، راجع [مدخل العميل لـ Dynamics 365 Supply Chain Management overview](../sales-marketing/customer-portal-overview.md).
 
-- [الرؤى الرئيسية لذكاء IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - لمزيد من المعلومات، راجع [الصفحة الرئيسية لذكاء IoT](../iot/iot-intelligence-home-page.md).
+- [الرؤى الرئيسية لذكاء IoT](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - لمزيد من المعلومات، راجع [الصفحة الرئيسية لذكاء IoT](../iot/iot-intelligence-home-page.md).
 
-- [تحسينات استلام لوحة الترخيص لتطبيق المستودع (يتبع)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق المستودع‬](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [تحسينات استلام لوحة الترخيص لتطبيق المستودع (يتبع)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - لمزيد من المعلومات، راجع [استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة‬](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [النشر الجماعي لتطبيق Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - لمزيد من المعلومات، راجع [نظرة عامة على تثبيت وتكوين تطبيق المستودع](../warehousing/install-configure-warehousing-app.md).
+- [النشر الجماعي لتطبيق Warehouse Mobile App](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - لمزيد من المعلومات، راجع [تثبيت وتكوين تطبيق إدارة المستودع للأجهزة المحمولة](../warehousing/install-configure-warehouse-management-app.md).
 
-- [الحد الأقصى لوقت التنفيذ لوظيفة تنظيف المستودعات المتاحة لإدارة المستودعات](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - لمزيد من المعلومات، راجع [مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات](../warehousing/onhand-cleanup.md).
+- [الحد الأقصى لوقت التنفيذ لوظيفة تنظيف المستودعات المتاحة لإدارة المستودعات](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - لمزيد من المعلومات، راجع [مهمة تنظيف الإدخالات الفعلية لإدارة المستودعات](../warehousing/onhand-cleanup.md).
 
-- [دعم تحسين التخطيط لاتفاقيات الشراء التجارية‬‏‫](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - لمزيد من المعلومات، راجع [التخطيط الرئيسي مع اتفاقيات الشراء التجارية](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [دعم تحسين التخطيط لاتفاقيات الشراء التجارية‬‏‫](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - لمزيد من المعلومات، راجع [التخطيط الرئيسي مع اتفاقيات الشراء التجارية](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -70,7 +67,7 @@ ms.locfileid: "4421672"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 1 لإصدار 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 1 لإصدار 2020](/dynamics365-release-plan/2020wave1/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 
@@ -82,3 +79,6 @@ ms.locfileid: "4421672"
 قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

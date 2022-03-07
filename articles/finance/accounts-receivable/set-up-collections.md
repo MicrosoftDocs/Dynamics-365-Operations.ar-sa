@@ -2,28 +2,25 @@
 title: إعداد التحصيلات
 description: توضح هذه المقالة كيفية إعداد وظيفة المجموعات.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f8e066b1df3eb3a26d488e1c014f4ae3f31395a
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: f2e06da265271e2148804c51abc7cd9ffc29a3e20e73dda3a1a23966f0e6586e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4440168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769808"
 ---
 # <a name="set-up-collections"></a>إعداد التحصيلات
 
@@ -43,8 +40,7 @@ ms.locfileid: "4440168"
 
 وتتم مناقشه هذه النقاط بمزيد من التفصيل خلال باقي هذا الموضوع. 
 
-<a name="set-up-aging-period-definitions"></a>إعداد تعريفات فترة التأخر
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>إعداد تعريفات فترة التأخر
 
 إعداد تعريف فترة تقادم. يحدد تعريف فترة تقادم الأعمدة التي تظهر في صفحات قوائم **الأرصدة القديمة‬**، و **‏‫أنشطة التحصيلات‬**، و **حالات التحصيلات**. كما تقوم بتحديد الفترات الزمنية التي تظهر في صفحة **التحصيلات**. إذا تم إعداد وعاء عملاء، فسيتم استخدام تعريف فترة التأخر للوعاء. إذا لم يتم إعداد أية أوعية، فإنه يتم استخدام تعريف فترة التقادم الافتراضية المحددة في صفحة **معلمات الحسابات المدينة**. في حالة عدم تحديد أي تعريف افتراضي لفترة التقادم، فإنه يتم استخدام أول تعريف لفترة التقادم في صفحة **تعريفات فترة التقادم**.
 
@@ -115,3 +111,6 @@ ms.locfileid: "4440168"
 
  - [مراجعة معلومات التحصيلات](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

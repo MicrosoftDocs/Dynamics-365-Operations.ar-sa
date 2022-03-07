@@ -2,26 +2,23 @@
 title: المعالجة المؤجلة لعمل المستودع
 description: يصف هذا الموضوع الوظيفة التي تجعل المعالجة المؤجلة لعمليات الوضع في عمل المستودع المتوفرة في Dynamics 365 Supply Chain Management.
 author: josaw1
-manager: tfehr
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421706"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838312"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>المعالجة المؤجلة لعمل المستودع
 
@@ -110,3 +107,6 @@ ms.locfileid: "4421706"
 ## <a name="deleting-completed-tasks"></a>حذف المهام المكتملة
 
 يمكنك حذف مهام معالجة الوضع المؤجل المكتملة وذلك عن طريق تحديدها وحذفها من الصفحة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

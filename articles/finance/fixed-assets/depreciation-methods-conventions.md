@@ -1,29 +1,26 @@
 ---
 title: أساليب الإهلاك والقواعد
 description: توفر هذه المقالة نظرة عامة حول قواعد الإهلاك وطرق الإهلاك المعتمدة في Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 04/25/2017
+author: moaamer
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile, AssetGroupBookSetup, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3370db28f551b5ce4a9b49342cb0c0b2f3945c0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f0f3b8be86225fd68df9b099e5c8e13a220a213
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440055"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927419"
 ---
 # <a name="depreciation-methods-and-conventions"></a>طرق الإهلاك والقواعد
 
@@ -52,8 +49,8 @@ ms.locfileid: "4440055"
 -   مدة خدمة القسط الثابت
 -   تقليل الرصيد
 -   يدوي
--   المعامل
--   الاستهلاك
+-   العامل‬
+-   الاستخدام
 -   المتبقي من مدة خدمة القسط الثابت
 -   تقليل الرصيد بنسبة 200%
 -   تقليل الرصيد بنسبة 175%
@@ -64,8 +61,7 @@ ms.locfileid: "4440055"
 
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [إهلاك الأصل الثابت](fixed-asset-depreciation.md)
 
@@ -81,7 +77,7 @@ ms.locfileid: "4440055"
 
 [إهلاك المتبقي من مدة خدمة القسط الثابت](straight-line-life-remaining-depreciation.md)
 
-[إهلاك الرصيد المتناقص بنسبة 125 بالمائة](125-percent-reducing-balance-depreciation.md)
+[إهلاك القسط المتناقص بنسبة 125 بالمئة](125-percent-reducing-balance-depreciation.md)
 
 [إهلاك الرصيد المتناقص بنسبة 150 بالمائة](150-percent-reducing-balance-depreciation.md)
 
@@ -91,3 +87,6 @@ ms.locfileid: "4440055"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

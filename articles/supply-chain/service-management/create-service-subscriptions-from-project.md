@@ -2,28 +2,25 @@
 title: إنشاء اشتراكات خدمة من مشروع
 description: يمكنك إنشاء اشتراك خدمة من مشروع في إدارة المشاريع والمحاسبة.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3903f1fe5b5f7d2755ec895eded73de6d165e68e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a9b92bd317aa281c43e65dc16f871468b6e3d491
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421198"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819102"
 ---
 # <a name="create-service-subscriptions-from-a-project"></a>إنشاء اشتراكات خدمة من مشروع    
 
@@ -55,3 +52,6 @@ ms.locfileid: "4421198"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

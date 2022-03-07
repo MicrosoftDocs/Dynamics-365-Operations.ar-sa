@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
-ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
+ms.openlocfilehash: 31f30c3d268132327074e931b714b5b2ee3ec5ac
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692735"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466630"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>تكوين معلمات إدارة المزايا لكل شركة
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 بالنسبة لكل مؤسسة تقدم مزايا، يجب عليك تكوين الإعدادات لرسائل البريد الإلكتروني لتأكيد المزايا.
 
@@ -42,3 +44,5 @@ ms.locfileid: "4692735"
    | **عنوان مرسل البريد الإلكتروني الافتراضي** | عنوان البريد الإلكتروني المراد استخدامه عند إرسال رسالة التأكيد عبر البريد الإلكتروني. |
 
 3. حدد **حفظ**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

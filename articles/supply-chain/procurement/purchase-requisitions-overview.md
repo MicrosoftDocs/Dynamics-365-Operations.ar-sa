@@ -1,28 +1,28 @@
 ---
 title: نظرة عامة على طلب الشراء
 description: يوضح هذا الموضوع سير عمل طلب الشراء والحالات المختلفة التي يمكن أن يكون بها طلب شراء.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 189debe46ea28808cf3081a7d8f49686298e8c8e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020069"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982892"
 ---
 # <a name="purchase-requisition-overview"></a>نظرة عامة على طلب الشراء
 
@@ -49,7 +49,7 @@ ms.locfileid: "5020069"
 
 يوضح الرسم التخطيطي التالي الحالات التي تم تعيينها لطلب شراء وبند طلب شراء عند تحركها خلال عملية سير العمل.  
 
-[![حالات بند ورأس طلب الشراء](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![حالات بند ورأس طلب الشراء.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>علاقات حالات بند ورأس طلب الشراء
 
@@ -181,7 +181,7 @@ ms.locfileid: "5020069"
 
 تبدأ عملية توحيد الطلبات التي يتم فيها اعتماد طلب شراء في سير العمل وتسجيل حجوزات الموازنة والالتزامات المسبقة، إذا تم تكوين التحكم في الموازنة للمؤسسة الخاصة بك. ويوضح الرسم التخطيطي التالي عملية التدفق لتوحيد الطلبات.  
 
-[![تدفق العملية لتوحيد الطلبات](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![تدفق العملية لتوحيد الطلبات.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 لدمج بنود طلب شراء معتمدة، اتبع الخطوات التالية:
 
@@ -192,8 +192,7 @@ ms.locfileid: "5020069"
 5.  إنشاء أوامر شراء لبنود الطلبات الموحدة أو لبنود طلبات الشراء في فرصة التوحيد.
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [إنشاء طلب للاستهلاك](tasks/create-requisition-consumption.md)
 
@@ -201,3 +200,6 @@ ms.locfileid: "5020069"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

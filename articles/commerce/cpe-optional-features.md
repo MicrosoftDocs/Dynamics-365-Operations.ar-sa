@@ -2,29 +2,26 @@
 title: تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية تكوين الميزات الاختيارية لبيئة تقييم Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409787"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728281"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>تكوين ميزات اختيارية في بيئة تقييم Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -103,7 +100,7 @@ ms.locfileid: "4409787"
 
 قد ترغب في تخصيص قوالب البريد الإلكتروني بحيث تستخدم صورًا مختلفة. أو قد ترغب في تحديث الروابط في القوالب بحيث تنتقل إلى بيئة التقييم الخاصة بك. يشرح هذا الإجراء كيفية تنزيل القوالب الافتراضية وتخصيصها وتحديث القوالب في النظام.
 
-1. باستخدام مستعرض ويب، نزِّل [الملف المضغوط لقوالب البريد الإلكتروني الافتراضية لتقييم Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) على الكمبيوتر المحلي لديك. يحتوي هذا الملف علي مستندات HTML التالية:
+1. باستخدام مستعرض ويب، نزِّل [Microsoft Dynamics 365 Commerceالملف المضغوط لقوالب البريد الإلكتروني الافتراضية لتقييم](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) على الكمبيوتر المحلي لديك. يحتوي هذا الملف علي مستندات HTML التالية:
 
     - قالب تأكيد الأمر
     - إصدار قالب بطاقة الهدايا
@@ -146,7 +143,7 @@ ms.locfileid: "4409787"
 | ضريبة المبيعات         | %tax% |
 | إجمالي الأمر       | %total% |
 
-#### <a name="sales-line"></a>بند مبيعات
+#### <a name="sales-line"></a>خط مبيعات
 
 يتم استبدال الرموز المميزة التالية بقيم لكل منتج بالترتيب.
 
@@ -158,9 +155,9 @@ ms.locfileid: "4409787"
 | قائمة المنتجات - بداية   | \<!--%tablebegin.salesline% --\> |
 | قائمة المنتجات - نهاية     | \<!--%tableend.salesline%--\> |
 | اسم المنتج           | %lineproductname% |
-| ‏‏الوصف            | %lineproductdescription% |
+| الوصف            | %lineproductdescription% |
 | الكمية               | %linequantity% |
-| سعر وحدة البند        | %lineprice% (التحقق) |
+| سعر وحدة البند        | %lineprice% (التحقق من) |
 | إجمالي أصناف البند        | %linenetamount% |
 | خصم البند          | %linediscount% |
 | تاريخ الشحن              | %lineshipdate% |
@@ -180,10 +177,13 @@ ms.locfileid: "4409787"
 
 [الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [مدخل Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [موقع ويب Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

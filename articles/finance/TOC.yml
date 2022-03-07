@@ -8,12 +8,10 @@
           items:
             - name: الجديد أو المتغير في تطبيقات Finance and Operations
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: الميزات الجديدة أو المتغيرة في Finance
+            - name: الجديد أو التغييرات في Finance
               items:
-                - name: الميزات الجديدة أو المتغيرة في صفحة Finance الرئيسية‬
+                - name: الجديد أو التغييرات في صفحة Finance الرئيسية‬
                   href: get-started/whats-new-home-page.md
-                - name: Finance 10.0.25 (أبريل)
-                  href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (فبراير)
                   href: get-started/whats-new-changed-10-0-24.md
                 - name: Finance 10.0.23 (يناير)
@@ -102,8 +100,10 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/finance/toc.json
                 - name: إنشاء الوثائق أو التدريب بمسجل المهام
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
-                - name: مقاطع الفيديو
+                - name: ملفات فيديو
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
+                - name: المصطلحات
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: كتالوج التعليم
               items:
                 - name: الصفحة الرئيسية لكتالوج التعليم
@@ -218,8 +218,6 @@
                   href: accounts-payable/vendor-copy.md
                 - name: تسجيل فاتورة مورّد في دفتر يومية الفواتير
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
-                - name: تطبيق جدول الدفع على دفتر يومية الفواتير
-                  href: accounts-payable/payment-invoice-journal.md
             - name: مراجعة الفواتير والبيانات الأساسية في الحسابات الدائنة
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: سياسات المطابقة الثلاثية
@@ -408,12 +406,6 @@
                   href: accounts-receivable/rev-rec-reallocation-scenario-3.md
                 - name: إعادة توزيع إقرار الإيرادات - السيناريو 4
                   href: accounts-receivable/rev-rec-reallocation-scenario-4.md
-            - name: فوترة الاشتراك
-              items:
-                - name: نظرة عامة على فوترة الاشتراك
-                  href: accounts-receivable/subscription-billing-summary.md
-                - name: إعداد جداول الفوترة
-                  href: accounts-receivable/sb-billing-schedules.md
             - name: الدفعات والتسويات
               items:
                 - name: نظرة عامة على دفعات العملاء
@@ -904,144 +896,146 @@
               href: asset-leasing/asset-leasing-rprts.md
         - name: دفتر الأستاذ العام
           items:
-            - name: الصفحة الرئيسية لدفتر الأستاذ العام
+            - name: نظرة عامة حول دفتر الأستاذ العام
               href: general-ledger/general-ledger.md
-            - name: دليل الحسابات
+            - name: الحسابات
               items:
+                - name: نظرة عامة على الاستحقاقات
+                  href: general-ledger/accruals-overview.md
+                - name: قواعد الاستبعاد
+                  href: general-ledger/elimination-rules.md
+                - name: الحساب ومجموعات الأبعاد
+                  href: general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: دفاتر اليومية التي تمت موازنتها للمحاسبة بين الوحدات
+                  href: general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: تعريفات الترحيل
+                  href: general-ledger/posting-definitions.md
+                - name: أمثلة عن تعريف الترحيل
+                  href: general-ledger/example-posting-definitions.md
+                - name: إعداد أوصاف افتراضية للترحيل التلقائي
+                  href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
+                - name: أرصدة حسابات دفتر الأستاذ العام
+                  href: general-ledger/general-ledger-account-balances.md
+                - name: تحديد الأبعاد المالية
+                  href: general-ledger/tasks/define-financial-dimensions.md
+                - name: الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
+                  href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: مجموعات الأبعاد المالية
+                  href: general-ledger/financial-dimension-sets.md
+                - name: إنشاء بُنى الحساب‬
+                  href: general-ledger/tasks/create-account-structures.md
+                - name: الأبعاد المالية والترحيل
+                  href: general-ledger/default-dimensions.md
+                - name: إنشاء أنظمة استحقاق
+                  href: general-ledger/tasks/create-accrual-schemes.md
+                - name: تحويل العملة وعمليات الدمج المالية
+                  items:
+                    - name: نظرة عامة حول تحويل العملة وعمليات الدمج المالية
+                      href: general-ledger/financial-consolidations-currency-translation.md
+                    - name: تجميع عبر الإنترنت
+                      href: general-ledger/consolidate-online.md
+                    - name: إنشاء القوائم المالية الموحدة
+                      href: general-ledger/generating-consolidated-financial-statements.md
+                    - name: استيراد بيانات شركة تابعة من ملفات
+                      href: general-ledger/import-subsidiary-data-from-files.md
+                    - name: تصدير بيانات شركة تابعة إلى ملف
+                      href: general-ledger/export-subsidiary-data-to-file.md
+                    - name: التوحيد مع الاستيراد - التنسيق
+                      href: general-ledger/consolidate-with-import-format.md
+                    - name: إعداد كيان قانوني لاستخدامه في عملية التوحيد
+                      href: general-ledger/prepare-company-for-consolidation.md
+                    - name: إعداد كيان قانوني لشركة تابعة للتوحيد
+                      href: general-ledger/set-up-subsidiary-company-for-consolidation.md
+                - name: إنشاء مجموعات توحيد وحساب توحيد إضافي
+                  href: general-ledger/tasks/create-consolidation-groups.md
+                - name: أنواع الحسابات الرئيسية
+                  href: general-ledger/main-account-types.md
+                - name: إنشاء حساب رئيسي
+                  href: general-ledger/tasks/create-main-account.md
                 - name: تخطيط دليل الحسابات
                   href: general-ledger/plan-chart-of-accounts.md
-                - name: الحسابات الرئيسية
-                  items:
-                    - name: أنواع الحسابات الرئيسية
-                      href: general-ledger/main-account-types.md
-                    - name: إعداد فئات الحساب الرئيسي
-                      href: general-ledger/tasks/set-up-main-account-categories.md
-                    - name: إعداد اسم مستعار لحساب دفتر الأستاذ‬
-                      href: general-ledger/tasks/set-up-ledger-account-alias.md
-                    - name: إنشاء حساب رئيسي
-                      href: general-ledger/tasks/create-main-account.md
-                    - name: شروط التوزيع
-                      href: general-ledger/main-account-allocation-terms.md
-                - name: الأبعاد المالية
-                  items:
-                    - name: الأبعاد المالية
-                      href: general-ledger/financial-dimensions.md
-                    - name: تحديد الأبعاد المالية
-                      href: general-ledger/tasks/define-financial-dimensions.md
-                    - name: الحساب ومجموعات الأبعاد
-                      href: general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                    - name: مجموعات الأبعاد المالية
-                      href: general-ledger/financial-dimension-sets.md
-                    - name: الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
-                      href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                    - name: الأبعاد المالية والترحيل
-                      href: general-ledger/default-dimensions.md
-                    - name: تكوين بنيات حساب
-                      href: general-ledger/configure-account-structures.md
-                    - name: إنشاء بُنى الحساب‬
-                      href: general-ledger/tasks/create-account-structures.md
-                    - name: إنشاء بُنى القواعد المتقدمة وتعيينها
-                      href: general-ledger/tasks/create-assign-advanced-rule-structures.md
-                    - name: كيف يمكنني إعداد الأبعاد المالية للموازنة؟
-                      href: general-ledger/set-up-balance-dimensions.md
-            - name: الإعداد
-              items:
+                - name: تخطيط دليل حساباتك المحلي
+                  href: general-ledger/plan-local-chart-of-accounts.md
+                - name: تسوية الحركات بين حسابات دفتر الأستاذ
+                  href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: إعداد اسم مستعار لحساب دفتر الأستاذ‬
+                  href: general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: إعداد فئات الحساب الرئيسي
+                  href: general-ledger/tasks/set-up-main-account-categories.md
+                - name: مستكشف مصدر المحاسبة
+                  href: accounts-payable/accounting-source-explorer.md
+                - name: التوزيعات المحاسبية
+                  href: accounts-payable/accounting-distributions.md
                 - name: توزيعات العمليات
                   href: general-ledger/process-allocations.md
-                - name: تكوين دفتر الأستاذ
-                  items:
-                    - name: التقاويم المالية، والسنوات المالية، والفترات‬
-                      href: budgeting/fiscal-calendars-fiscal-years-periods.md
-                    - name: تكوين دفاتر الأستاذ
-                      href: general-ledger/configure-ledger.md
-                    - name: تغيير عملة المحاسبة أو التقارير
-                      href: general-ledger/add-change-acctg-rprtg-crrncy.md
-                    - name: تغيير تقويم دفتر الأستاذ أو إعادة تعيينه
-                      href: general-ledger/change-mdfy-clndr-to-ledger.md
-                - name: أبعاد الموازنة وبين الشركات الشقيقة
-                  items:
-                    - name: دفاتر اليومية التي تمت موازنتها للمحاسبة بين الوحدات
-                      href: general-ledger/example-balanced-journals-interunit-accounting.md
-                    - name: إعداد المحاسبة بين الشركات الشقيقة
-                      href: general-ledger/intercompany-accounting-setup.md
-                    - name: كيف يمكنني إعداد الأبعاد المالية للموازنة؟
-                      href: general-ledger/set-up-balance-dimensions.md
-                - name: الإعدادات الافتراضية لدفتر اليومية والترحيل
-                  items:
-                    - name: إعداد أوصاف افتراضية للترحيل التلقائي
-                      href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
-                    - name: نظرة عامة على الاستحقاقات
-                      href: general-ledger/accruals-overview.md
-                    - name: إنشاء أنظمة استحقاق
-                      href: general-ledger/tasks/create-accrual-schemes.md
-                    - name: أنواع دفاتر يومية دفتر الأستاذ
-                      href: general-ledger/ledger-journal-types.md
-                    - name: إنشاء قواعد متقدمة لدفاتر اليومية
-                      href: general-ledger/tasks/create-advanced-rules-journals.md
-                    - name: إضافة قيم البحث للأبعاد المالية إلى قوالب Excel
-                      href: ../fin-ops-core/dev-itpro/financial/add-dimensions-excel-templates.md
-                    - name: تعريفات الترحيل
-                      href: general-ledger/posting-definitions.md
-                    - name: أمثلة عن تعريف الترحيل
-                      href: general-ledger/example-posting-definitions.md
-                - name: عملة
-                  items:
-                    - name: استيراد أسعار صرف العملات
-                      href: general-ledger/import-currency-exchange-rates.md
-                    - name: العملة المزدوجة
-                      href: general-ledger/dual-currency.md
-                - name: قواعد التوزيع
-                  items:
-                    - name: قواعد توزيع دفتر الأستاذ
-                      href: general-ledger/ledger-allocation-rules.md
-                    - name: ‏‫معالجة دفتر يومية توزيع دفتر الأستاذ‬
-                      href: general-ledger/tasks/process-ledger-allocation-journal.md
-            - name: دفاتر اليومية والمستندات المصدر
+                - name: شروط التوزيع
+                  href: general-ledger/main-account-allocation-terms.md
+                - name: الأبعاد المالية
+                  href: general-ledger/financial-dimensions.md
+                - name: مجموعات حساب التوحيد وحساب التوحيد الإضافية
+                  href: budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: نظرة عامة على التجميع والاستبعاد
+                  href: budgeting/consolidation-elimination-overview.md
+                - name: التقاويم المالية، والسنوات المالية، والفترات‬
+                  href: budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: تكوين بنى الحسابات
+                  href: general-ledger/configure-account-structures.md
+                - name: العملة المزدوجة
+                  href: general-ledger/dual-currency.md
+            - name: دفاتر اليومية ودفاتر الأستاذ
               items:
-                - name: دفاتر اليومية
-                  items:
-                    - name: معالجة دفتر اليومية العام
-                      href: general-ledger/general-journal-processing.md
-                    - name: ترحيل دفاتر اليومية الدورية
-                      href: general-ledger/tasks/post-periodic-journals.md
-                    - name: إنشاء دفاتر اليومية والتحقق من صحتها
-                      href: general-ledger/tasks/create-validate-journals.md
-                    - name: فشل ترحيل دفتر اليومية بسبب عدم التوازن
-                      href: general-ledger/posting-fail-imbalance.md
-                    - name: عكس ترحيل دفتر اليومية
-                      href: general-ledger/reverse-journal-posting.md
-                    - name: لماذا لا يمكنني عكس هذه الحركة؟
-                      href: general-ledger/cant-reverse-transctns.md
-                    - name: إنشاء إدخال دفتر يومية باستخدام قالب
-                      href: general-ledger/tasks/create-journal-entry-template.md
-                    - name: ‏‫معالجة دفتر يومية توزيع دفتر الأستاذ‬
-                      href: general-ledger/tasks/process-ledger-allocation-journal.md
-                    - name: عرض إدخالات الدفاتر اليومية أو الحركات
-                      href: general-ledger/tasks/view-journal-entries-or-transactions.md
-                    - name: ‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬
-                      href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                    - name: نشر بنود دفاتر اليومية والمستندات من Excel
-                      href: general-ledger/open-lines-excel-journals-documents.md
-                    - name: إنشاء حركات استحقاق دفتر الأستاذ
-                      href: general-ledger/tasks/create-ledger-accrual-transactions.md
-                    - name: إيصال واحد
-                      href: general-ledger/one-voucher.md
-                    - name: الأسئلة المتداولة حول الإيصال الواحد
-                      href: general-ledger/one-voucher-faq.md
-                - name: المستندات المصدر
-                  items:
-                    - name: التوزيعات المحاسبية
-                      href: accounts-payable/accounting-distributions.md
-                    - name: تحويل دفتر أستاذ فرعي إلى دفتر الأستاذ العام
-                      href: general-ledger/subledger-transfer.md
-                    - name: مستكشف مصدر المحاسبة
-                      href: accounts-payable/accounting-source-explorer.md
-            - name: التقارير والاستعلامات
-              items:
+                - name: معالجة دفتر اليومية العام
+                  href: general-ledger/general-journal-processing.md
+                - name: ترحيل دفاتر اليومية الدورية
+                  href: general-ledger/tasks/post-periodic-journals.md
+                - name: عكس ترحيل دفتر اليومية
+                  href: general-ledger/reverse-journal-posting.md
+                - name: ‏‫معالجة دفتر يومية توزيع دفتر الأستاذ‬
+                  href: general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: إعداد المحاسبة بين الشركات الشقيقة
+                  href: general-ledger/intercompany-accounting-setup.md
+                - name: قواعد توزيع دفتر الأستاذ
+                  href: general-ledger/ledger-allocation-rules.md
+                - name: إنشاء قواعد متقدمة لدفاتر اليومية
+                  href: general-ledger/tasks/create-advanced-rules-journals.md
+                - name: إنشاء بُنى القواعد المتقدمة وتعيينها
+                  href: general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: أنواع دفاتر يومية دفتر الأستاذ
+                  href: general-ledger/ledger-journal-types.md
+                - name: تكوين دفاتر الأستاذ
+                  href: general-ledger/configure-ledger.md
+                - name: إنشاء دفاتر اليومية والتحقق من صحتها
+                  href: general-ledger/tasks/create-validate-journals.md
+                - name: عرض إدخالات الدفاتر اليومية أو الحركات
+                  href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: ‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬
+                  href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: إنشاء إدخال دفتر يومية باستخدام قالب
+                  href: general-ledger/tasks/create-journal-entry-template.md
+                - name: إنشاء حركات استحقاق دفتر الأستاذ
+                  href: general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: تحويل دفتر أستاذ فرعي إلى دفتر الأستاذ العام
+                  href: general-ledger/subledger-transfer.md
+                - name: نشر بنود دفاتر اليومية والمستندات من Excel
+                  href: general-ledger/open-lines-excel-journals-documents.md
                 - name: عرض إدخالات دفاتر اليومية والحركات
                   href: general-ledger/view-journal-entries-transactions.md
                 - name: ميزان المراجعة مع تقرير تفاصيل الحركات
                   href: public-sector/general-ledger-public-sector-trial-balance.md
+                - name: تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
+                  href: general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: إعادة تقييم العملة في شركة تجميع
+                  href: general-ledger/currency-revaluation-consolidation-company.md
+                - name: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
+                  href: general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: استيراد أسعار صرف العملات
+                  href: general-ledger/import-currency-exchange-rates.md
+                - name: إيصال واحد
+                  href: general-ledger/one-voucher.md
+                - name: الأسئلة الشائعة حول الإيصال الواحد
+                  href: general-ledger/one-voucher-faq.md
+                - name: تسويات دفتر الأستاذ
+                  href: general-ledger/ledger-settlements.md
             - name: إقفال نهاية الفترة
               items:
                 - name: إقفال دفتر الأستاذ العام في نهاية الفترة
@@ -1056,48 +1050,80 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: الأسئلة المتداولة حول الأنشطة في نهاية السنة
                   href: general-ledger/faq-year-end-activities.md
-                - name: تسويات دفتر الأستاذ
-                  href: general-ledger/ledger-settlements.md
-                - name: الوعي بين تسوية دفتر الأستاذ وإقفال نهاية السنة
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
-                - name: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
-                  href: general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: أرصدة حسابات دفتر الأستاذ العام
-                  href: general-ledger/general-ledger-account-balances.md
-                - name: ‏‫معالجة دفتر يومية توزيع دفتر الأستاذ‬
-                  href: general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: قواعد توزيع دفتر الأستاذ
-                  href: general-ledger/ledger-allocation-rules.md
-                - name: تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
-                  href: general-ledger/tasks/journalize-posted-journal-entries.md
-            - name: عمليات الدمج والاستبعاد
+            - name: ضريبة المبيعات
               items:
-                - name: نظرة عامة على التجميع والاستبعاد
-                  href: budgeting/consolidation-elimination-overview.md
-                - name: نظرة عامة حول تحويل العملة وعمليات الدمج المالية
-                  href: general-ledger/financial-consolidations-currency-translation.md
-                - name: مجموعات حساب التوحيد وحساب التوحيد الإضافية
-                  href: budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: إنشاء مجموعات توحيد وحساب توحيد إضافي
-                  href: general-ledger/tasks/create-consolidation-groups.md
-                - name: إعداد كيان قانوني لاستخدامه في عملية التوحيد
-                  href: general-ledger/prepare-company-for-consolidation.md
-                - name: إعداد كيان قانوني لشركة تابعة للتوحيد
-                  href: general-ledger/set-up-subsidiary-company-for-consolidation.md
-                - name: تجميع عبر الإنترنت
-                  href: general-ledger/consolidate-online.md
-                - name: استيراد بيانات شركة تابعة من ملفات
-                  href: general-ledger/import-subsidiary-data-from-files.md
-                - name: تصدير بيانات شركة تابعة إلى ملف
-                  href: general-ledger/export-subsidiary-data-to-file.md
-                - name: التوحيد مع الاستيراد - التنسيق
-                  href: general-ledger/consolidate-with-import-format.md
-                - name: قواعد الاستبعاد
-                  href: general-ledger/elimination-rules.md
-                - name: إنشاء القوائم المالية الموحدة
-                  href: general-ledger/generating-consolidated-financial-statements.md
-                - name: إعادة تقييم العملة في شركة تجميع
-                  href: general-ledger/currency-revaluation-consolidation-company.md
+                - name: نظرة عامة على ضريبة المبيعات
+                  href: general-ledger/indirect-taxes-overview.md
+                - name: معدلات ضريبة المبيعات استنادًا إلى طرق الحساب والقاعدة الهامشية
+                  href: general-ledger/marginal-base-field.md
+                - name: دفعات ضريبة المبيعات وقواعد التقريب
+                  href: general-ledger/round-sales-tax-payments.md
+                - name: طرق حساب ضريبة المبيعات في حقل الأصل
+                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
+                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: حساب ضريبة المبيعات على بنود دفتر اليومية العامة
+                  href: general-ledger/sales-tax-calculation-on-general-journal.md
+                - name: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
+                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: تمكين حساب الضريبة المؤجل في دفتر اليومية
+                  href: general-ledger/enable-delayed-tax-calculation.md
+                - name: إنشاء دفع ضريبة مبيعات
+                  href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: تقريب التسوية الضريبية استنادًا إلى مواضع العلامات العشرية للعملة المخصصة
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
+                - name: إنشاء حركات ضريبة المبيعات في المستندات
+                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات
+                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: إعداد هيئات ضريبة المبيعات
+                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: إعداد أكواد ضريبة المبيعات
+                  href: general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
+                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: إعداد أكواد تقارير ضريبة المبيعات
+                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: دعم العملة الثنائية لضريبة المبيعات
+                  href: general-ledger/dual-currency-for-tax.md
+                - name: مواصفات ضريبة المبيعات حسب تقرير حركة دفتر الأستاذ
+                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                - name: إعداد فترات تسوية ضريبة المبيعات
+                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: عرض حركات ضرائب مبيعات مُرَّحلة
+                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                - name: طباعة دفعة ضريبة المبيعات حسب تقرير الكود
+                  href: general-ledger/print-sales-tax-payment-by-code-report.md
+                - name: استكشاف أخطاء ضريبة المبيعات وإصلاحها
+                  items:
+                    - name: لم يتم احتساب الضريبة أو مبلغ الضريبة صفر
+                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                    - name: يؤثر أداء حساب الضريبة على الحركات
+                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                    - name: قيمة حقل غير صحيحة في TaxTrans
+                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                    - name: لم يتم إنشاء سجل TaxTrans
+                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                    - name: تم ترحيل الضريبة إلى حساب دفتر الأستاذ غير الصحيح في الإيصال
+                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                    - name: لم يتم إنشاء الإيصال
+                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+            - name: ضريبة الخصم
+              items:
+                - name: إعداد ضريبة الخصم
+                  href: general-ledger/tasks/set-up-withholding-tax.md
+                - name: ضريبة الخصم العمومية
+                  items:
+                    - name: نظرة عامة على ضريبة الخصم العمومية
+                      href: general-ledger/global-withholding-tax-overview.md
+                    - name: إعداد ضريبة الخصم العمومية
+                      href: general-ledger/set-up-global-withholding-tax.md
+                    - name: ضريبة الخصم في حركات الشراء
+                      href: general-ledger/withholding-tax-in-purchase-transactions.md
+                    - name: ضريبة الخصم في حركات المبيعات
+                      href: general-ledger/withholding-tax-in-sales-transactions.md
+                    - name: إنشاء دفعة ضريبة خصم
+                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: منضدة عمل المراجعة
               items:
                 - name: قواعد سياسة المراجعة
@@ -1512,82 +1538,6 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: الأسئلة المتداولة حول حساب الضرائب
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
-            - name: الضريبة
-              items:
-                - name: ضريبة المبيعات
-                  items:
-                    - name: نظرة عامة على ضريبة المبيعات
-                      href: general-ledger/indirect-taxes-overview.md
-                    - name: معدلات ضريبة المبيعات استنادًا إلى طرق الحساب والقاعدة الهامشية
-                      href: general-ledger/marginal-base-field.md
-                    - name: دفعات ضريبة المبيعات وقواعد التقريب
-                      href: general-ledger/round-sales-tax-payments.md
-                    - name: طرق حساب ضريبة المبيعات في حقل الأصل
-                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                    - name: خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
-                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                    - name: حساب ضريبة المبيعات على بنود دفتر اليومية العامة
-                      href: general-ledger/sales-tax-calculation-on-general-journal.md
-                    - name: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
-                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                    - name: تمكين حساب الضريبة المؤجل في دفتر اليومية
-                      href: general-ledger/enable-delayed-tax-calculation.md
-                    - name: إنشاء دفع ضريبة مبيعات
-                      href: general-ledger/tasks/create-sales-tax-payment.md
-                    - name: تقريب التسوية الضريبية استنادًا إلى مواضع العلامات العشرية للعملة المخصصة
-                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                    - name: إنشاء حركات ضريبة المبيعات في المستندات
-                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                    - name: إعداد مجموعات ترحيل دفتر الأستاذ لضريبة المبيعات
-                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                    - name: إعداد هيئات ضريبة المبيعات
-                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                    - name: إعداد أكواد ضريبة المبيعات
-                      href: general-ledger/tasks/set-up-sales-tax-codes.md
-                    - name: إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
-                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                    - name: إعداد أكواد تقارير ضريبة المبيعات
-                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                    - name: دعم العملة الثنائية لضريبة المبيعات
-                      href: general-ledger/dual-currency-for-tax.md
-                    - name: مواصفات ضريبة المبيعات حسب تقرير حركة دفتر الأستاذ
-                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                    - name: إعداد فترات تسوية ضريبة المبيعات
-                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                    - name: عرض حركات ضرائب مبيعات مُرَّحلة
-                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                    - name: طباعة دفعة ضريبة المبيعات حسب تقرير الكود
-                      href: general-ledger/print-sales-tax-payment-by-code-report.md
-                    - name: استكشاف أخطاء ضريبة المبيعات وإصلاحها
-                      items:
-                        - name: لم يتم احتساب الضريبة أو مبلغ الضريبة صفر
-                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                        - name: يؤثر أداء حساب الضريبة على الحركات
-                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                        - name: قيمة حقل غير صحيحة في TaxTrans
-                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                        - name: لم يتم إنشاء سجل TaxTrans
-                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                        - name: تم ترحيل الضريبة إلى حساب دفتر الأستاذ غير الصحيح في الإيصال
-                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                        - name: لم يتم إنشاء الإيصال
-                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-                - name: ضريبة الخصم
-                  items:
-                    - name: إعداد ضريبة الخصم
-                      href: general-ledger/tasks/set-up-withholding-tax.md
-                    - name: ضريبة الخصم العمومية
-                      items:
-                        - name: نظرة عامة على ضريبة الخصم العمومية
-                          href: general-ledger/global-withholding-tax-overview.md
-                        - name: إعداد ضريبة الخصم العمومية
-                          href: general-ledger/set-up-global-withholding-tax.md
-                        - name: ضريبة الخصم في حركات الشراء
-                          href: general-ledger/withholding-tax-in-purchase-transactions.md
-                        - name: ضريبة الخصم في حركات المبيعات
-                          href: general-ledger/withholding-tax-in-sales-transactions.md
-                        - name: إنشاء دفعة ضريبة خصم
-                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: تحديثات تنظيمية
               href: localizations/regulatory-updates.md
             - name: البحث عن تحديثات تنظيمية
@@ -2342,8 +2292,6 @@
                       href: localizations/apac-ind-news-letter-10-0-01.md
                     - name: الجديد أو المتغير‬ في 10.0.0
                       href: localizations/apac-ind-news-letter-10-0-00.md
-                - name: سجل مراجعة وسجلات تحرير لبرنامج المحاسبة
-                  href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
                 - name: ضرائب غير مباشرة
                   items:
                     - name: ضريبة السلع والخدمات في الهند
@@ -3158,10 +3106,6 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: تقارير نشاط الحساب
                       href: localizations/rus-account-activity-reports.md
-                    - name: معايير المحاسبة الفيدرالية 27-2021
-                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
-                    - name: تمكين وجهات التقارير الإلكترونية لتخزين مستندات المحاسبة الروسية
-                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: أصحاب السُلف‬
                   items:
                     - name: نظرة عامة على أصحاب السُلف في روسيا
@@ -3264,8 +3208,6 @@
                           href: localizations/rus-not-valuable-assets.md
                         - name: محاسبة ملابس العمل/المعدات الخاصة‬ (روسيا)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                    - name: تكامل الأصول الثابتة مع وحدة إدارة الأصول
-                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: الحسابات الدائنة والمدينة
                   items:
                     - name: تصحيحات إشعار دائن (روسيا)
@@ -3300,8 +3242,6 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: المبيعات على العمولة
                           href: localizations/rus-sales-on-commission.md
-                    - name: التقارير المحلية والنماذج الأساسية في الحسابات المدينة والحسابات الدائنة
-                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: المخزون
                   items:
                     - name: بضاعة بالطريق من المورِّد
@@ -3546,6 +3486,170 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: إعداد الموردين لإعداد تقرير 1099
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
+        - name: Human Resources
+          items:
+            - name: نظرة عامة على Human Resources
+              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
+            - name: إصدار البنية الأساسية 10.0.25
+              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
+            - name: إعداد Human Resources
+              items:
+                - name: تكوين معلمات Human Resources
+                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: تكوين المعلمات المشتركة لـ Human resources
+                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: إعداد تدفقات عمل Human resource
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
+                - name: فهم حقول التاريخ والوقت
+                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
+            - name: إدارة العاملين
+              items:
+                - name: تنظيم القوى العاملة
+                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
+                - name: إعداد مكونات وظيفة
+                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: تحديد الأقسام
+                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
+                - name: إضافة قسم إلى تدرج هرمي
+                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
+                - name: تحديد الوظائف
+                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء تقويم مواعيد العمل
+                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
+                - name: الأسئلة المتداولة حول إجراءات العاملين
+                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
+                - name: استخدام عمليات سير العمل لإدارة معلومات الموظفين
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
+                - name: تعديل العلاقات الهرمية لمنصب
+                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
+                - name: إدخال معلومات العامل
+                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
+                - name: أصناف القرض للعمال
+                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء أصناف قرض
+                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: إدارة أصناف القرض
+                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: تطوير خطة تتابع
+                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
+                - name: إدخال الجداول الزمنية للمشروع‬
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
+                - name: مشاريع التوظيف الجماعي
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء مشروع توظيف جماعي
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
+                - name: إعداد المناصب
+                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
+                - name: إعداد معلومات الإصابة والمرض
+                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+                - name: الاحتفاظ بمعلومات إصابة الموظف ومرضه
+                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+            - name: تعيين المرشحين
+              items:
+                - name: إدارة عمليات التوظيف
+                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                - name: مشاريع التوظيف الجماعي
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
+                - name: إنشاء مشاريع توظيف جماعي
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
+                - name: إدخال بيانات مقدم الطلب والطلب يدوياً
+                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                - name: تطوير طلبات الموظفين وفتحها
+                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                - name: إعداد المناصب
+                  href: ../human-resources/hr-personnel-set-up-positions.md
+                - name: توظيف مرشحين من خلال التوظيف
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                - name: توظيف موظفين موجودين من خلال التوظيف
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                - name: تحديد أدوات اختيار المرشحين ونشرها
+                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+            - name: إعداد خطط التعويض
+              items:
+                - name: نظرة عامة على خطط التعويض
+                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
+                - name: إعداد شبكات التعويض
+                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
+                - name: تطوير بنية التعويض والخطة
+                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء خطط التعويض الثابتة
+                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء خطط التعويض المتغيرة
+                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
+                - name: تسجيل موظفين في خطة تعويض ثابتة
+                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
+                - name: تسجيل موظفين في خطة التعويض المتغيرة
+                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
+                - name: تحديد عملية التعويض وحساب النتائج
+                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
+                - name: معالجة خطط التعويض
+                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
+            - name: إدارة المزايا
+              items:
+                - name: تحديد برنامج مزايا وإدارته
+                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
+                - name: سياسات استحقاق المزايا
+                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
+                - name: عملية استحقاق المزايا
+                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
+                - name: تحديد قواعد وسياسات استحقاق الفائدة
+                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
+                - name: تقديم برنامج مزايا الموظفين
+                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء مزايا جديدة
+                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
+                - name: تسجيل العمال في المزايا
+                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
+                - name: إدارة تواريخ انتهاء صلاحية الميزة
+                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء تقارير ACA
+                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
+            - name: تطوير الموظفين
+              items:
+                - name: نظرة عامة حول إدارة الأداء
+                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
+                - name: انسجام مهارات القوى العاملة
+                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
+                - name: أضافه إلى دفتر يومية الأداء
+                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء هدف
+                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء مراجعة الأداء
+                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
+            - name: إنشاء دورات تدريبية
+              items:
+                - name: إعداد الدورات التدريبية
+                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
+                - name: نظرة عامة على الاستبيانات
+                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: تصميم استبيانات
+                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: توزيع الاستبيانات وجدولتها
+                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: توزيع الاستبيانات باستخدام الجدولة
+                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
+                - name: عرض نتائج الاستبيان
+                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: تحليل نتائج الاستبيان
+                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء سؤال ذي نهاية مفتوحة
+                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء سؤال ذي نهاية مغلقة
+                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: إنشاء سؤال تابع
+                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
+            - name: السلامة والامتثال في أماكن العمل (الولايات المتحدة)
+              items:
+                - name: التحقق من صحة النموذج I-9
+                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
+                - name: التحقق من صحة الأهلية للتوظيف باستخدام نموذج I-9
+                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
+                - name: إعداد أنواع مستندات النموذج I-9
+                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
+                - name: التوافق مع قانون الأمريكيين المعاقين
+                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
+                - name: إدارة توصيات العامل
+                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: إعداد التقارير وعمليات تكامل Power BI
           items:
             - name: إعداد التقارير والتحليلات مع Power BI
@@ -3573,7 +3677,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: الفعلي مقابل الموازنة
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: المزايا
+                - name: الميزات
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: محتوى Power BI لنظرة عامة على النقدية
                   href: cash-bank-management/Cash-Overview-Power-BI-content.md
@@ -3891,7 +3995,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
                     - name: النص
                       items:
-                        - name: الوظائف النصية
+                        - name: الدالات النصية
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/finance/toc.json
                         - name: Char
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
@@ -3901,8 +4005,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
-                        - name: GetLabelText
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -4089,8 +4191,6 @@
                   items:
                     - name: إنشاء تكوينات لاستيراد البيانات من ملف XML خارجي
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
-                    - name: استيراد البيانات من الملفات المختارة يدويًا في وضع الدُفعة
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين استيراد البيانات في الوضع الدفعي من ملفات موجودة في SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: استيراد ملفات بتنسيق XML
@@ -4171,8 +4271,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: تشغيل التقارير
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
-                    - name: تجميع السجلات وإجراء الجرد والتجميع باستخدام مصادر بيانات GROUPBY
-                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: استخدام الإخراج الذي تم إنشاؤه كمصدر بيانات لإجراء العد والجمع
                       items:
                         - name: إنشاء تنسيقات
@@ -4325,8 +4423,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                     - name: تحديث التطبيق 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
-                    - name: تحديث التطبيق 10.0.25
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: تحديد موقع مساحة تخزين مخصصة للمستندات المُنشأة
                   items:
                     - name: الاشتراك في حدث لطلب استجابة من معالج الاشتراك
@@ -4657,11 +4753,9 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'تسوية الحركات باستخدام CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: تطوير تطبيقات التمويل والعمليات وإدارتها
+    - name: تطوير تطبيقات Finance and Operations‬ وإدارتها
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
-    - name: Dynamics 365 Human Resources
-      href: ../human-resources/index.md

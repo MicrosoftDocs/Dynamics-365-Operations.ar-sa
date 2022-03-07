@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityAddExisting, PlanActivityAddExistingLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f95958e57b1b1a93e43eb2cf02d2651ccb9587b6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04ffbd87dfed3e5764e24c4e4599bd458b5fb767
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421102"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255483"
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>إضافة نشاط موجود إلى إصدار تدفق الإنتاج
 
@@ -56,3 +55,6 @@ ms.locfileid: "4421102"
 3. في حقل "النشاط"، أدخل قيمة أو حددها.
 4. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

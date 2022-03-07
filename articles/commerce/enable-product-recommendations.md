@@ -2,16 +2,13 @@
 title: تمكين توصيات المنتجات
 description: يوضح هذا الموضوع كيفية عمل توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) المتوفرة لعملاء Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a94a74f4eb00c24142f0390bcf352db0594ca0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409775"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349462"
 ---
 # <a name="enable-product-recommendations"></a>تمكين توصيات المنتجات
 
@@ -42,7 +39,7 @@ ms.locfileid: "4409775"
 2. التأكد من تعيين التنفيذ التلقائي لتحديث مخزن الكيانات‬. لمزيد من المعلومات، راجع [التأكد من تعيين التنفيذ التلقائي لتحديث مخزن الكيانات](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. التأكد من أن تكوين الهوية في Azure AD يحتوي على إدخال للتوصيات. توجد أدناه معلومات اضافيه حول كيفية تنفيذ هذا الإجراء.
 
-بالإضافة إلى ذلك، تأكد من تمكين قياسات RetailSale. لمعرفة المزيد عن عملية الإعداد هذه، راجع [التعامل مع المقاييس](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+بالإضافة إلى ذلك، تأكد من تمكين قياسات RetailSale. لمعرفة المزيد عن عملية الإعداد هذه، راجع [التعامل مع المقاييس](/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="azure-ad-identity-configuration"></a>تكوين الهوية في Azure AD
 
@@ -71,7 +68,7 @@ ms.locfileid: "4409775"
 1. حدد ميزة **توصيات المنتج**.
 1. في جزء خصائص **توصيات المنتج** ، حدد **تمكين الآن**.
 
-![تشغيل التوصيات](./media/FeatureManagement_Recommendations.PNG)
+![تشغيل التوصيات.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > يبدأ هذا الإجراء عملية إنشاء قوائم توصيات المنتج. قد تحتاج إلى عدة ساعات قبل أن تصبح القوائم متوفرة ويمكن عرضها في نقطة البيع أو في Dynamics 365 Commerce.
@@ -114,3 +111,6 @@ ms.locfileid: "4409775"
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

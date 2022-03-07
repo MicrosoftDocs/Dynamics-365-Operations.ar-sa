@@ -2,28 +2,25 @@
 title: الأبعاد المالية والترحيل
 description: عندما تقوم بتخطيط دليل الحسابات وإعداده، يجب أن تأخذ في الاعتبار كيف ستعمل المكونات المختلفة مع بعضها عند ترحيل مستند أو دفتر يومية. تتضمن هذه المكونات بنى الحساب والقواعد المتقدمة وأبعاد الموازنة والأبعاد الثابتة. يشرح هذا المقال ماهية كل مكون وكيفية عمل المكونات معًا.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439910"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897298"
 ---
 # <a name="financial-dimensions-and-posting"></a>الأبعاد المالية والترحيل 
 
@@ -86,17 +83,17 @@ ms.locfileid: "4439910"
 
 ومع ذلك، عندما يتم ترحيل البند، يتم تطبيق البعد الثابت، ويتم ترحيل البند إلى القسم 022. يبين الشكل التوضيحي التالي الإيصال المرحل، حيث يتم تطبيق البعد الثابت لحساب المبيعات.
 
-[![حركات الإيصال](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![حركات الإيصال مع تطبيق البُعد الثابت](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>مثال2
 
 يستخدم هذا المثال نفس الإعداد كما في المثال الأول. ومع ذلك، سنضيف مكونًا ثانيًا ونستخدم بُعد "القسم" كبُعد موازنة. في الشكل التوضيحي التالي، تم تعيين **القسم** كبُعد مالي للموازنة لدفتر الأستاذ USMF.
 
-[![دفتر الأستاذ](./media/ledger.png)](./media/ledger.png)
+[![شكل توضيحي يبين القسم كبُعد مالي موازن](./media/ledger.png)](./media/ledger.png)
 
 عند استخدام إعداد رأس دفتر اليومية نفسه، وعند ترحيل الحركة نفسها، يتم تطبيق البعد الثابت أولاً. بعد ذلك، يتم تطبيق منطق الموازنة للمساعدة في ضمان وجود إدخال متوازن لكل قسم. يبين الشكل التوضيحي التالي حركات الإيصالات التي تتضمن الإدخال المتوازن بعد تطبيق البعد الثابت.
 
-[![حركات الإيصال](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![حركات الإيصال بعد تطبيق إدخال الموازنة](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>المثال الثالث
 
@@ -122,8 +119,11 @@ ms.locfileid: "4439910"
 
 [خطط دليل الحسابات الخاص بك](plan-chart-of-accounts.md) 
 
-[مدونة تخطيط دليل الحسابات في AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – ينتقل هذا الارتباط إلى الجزء الأول من سلسلة مكونة من 7 أجزاء.
+[مدونة تخطيط دليل الحسابات في AX 2012](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – ينتقل هذا الارتباط إلى الجزء الأول من سلسلة مكونة من 7 أجزاء.
 
-[تعيين البُعد الافتراضي في التوزيعات المحاسبية](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[تعيين البُعد الافتراضي في التوزيعات المحاسبية](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[تعيين البُعد الافتراضي في إطار عمل الأبعاد](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[تعيين البُعد الافتراضي في إطار عمل الأبعاد](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

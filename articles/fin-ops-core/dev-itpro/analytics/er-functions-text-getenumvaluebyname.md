@@ -2,11 +2,9 @@
 title: 'وظيفة GETENUMVALUEBYNAME ER '
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكتروني GETENUMVALUEBYNAME (ER).
 author: NickSelin
-manager: kfend
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29d7ec6498090ea47259303237c5a64a26e4926b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685921"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746401"
 ---
 # <a name="getenumvaluebyname-er-function"></a>وظيفة GETENUMVALUEBYNAME ER
 
@@ -117,3 +115,6 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 [FIRSTORNULL ER وظيفة](er-functions-list-firstornull.md)
 
 [WHERE ER وظيفة](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

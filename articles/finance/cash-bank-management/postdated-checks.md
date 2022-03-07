@@ -2,28 +2,25 @@
 title: الشيكات التي تم تأخير تاريخها
 description: توفر هذه المقالة معلومات حول دعم الشيكات بتاريخ لاحق في Dynamics 365 FinanceMicrosoft. الشيكات بتاريخ لاحق هي عبارة عن شيكات تم إصدارها لإجراء مدفوعات واستلامها في تاريخ محدد في المستقبل. وبالتالي، لا يمكن صرف الشيك حتى التاريخ المحدد.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38ee6c5b3d258c313a2066b388a83330bf696d39
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9e937361802aa1443f3e2ef9f3bb95d3f4966da7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440101"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815778"
 ---
 # <a name="postdated-checks"></a>الشيكات التي تم تأخير تاريخها
 
@@ -99,3 +96,6 @@ ms.locfileid: "4440101"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

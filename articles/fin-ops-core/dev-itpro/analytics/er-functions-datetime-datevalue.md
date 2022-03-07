@@ -2,11 +2,8 @@
 title: 'وظيفة DATEVALUE ER '
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية DATEVALUE (ER).
 author: NickSelin
-manager: kfend
-ms.date: 12/04/2019
-ms.topic: article
+ms.date: 09/08/2021
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43e65055b0803ed330a19568f9565c3fae488ab2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 446f1357e54342073e73f86ef36e6467e029ebc4
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682403"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485564"
 ---
 # <a name="datevalue-er-function"></a>وظيفة DATEVALUE ER
 
 [!include [banner](../includes/banner.md)]
 
-تُرجع الوظيفة `DATEVALUE` قيمة *التاريخ* التي تم تحويلها من قيمة نصية معينة في التنسيق المُحدد وفي [الثقافة](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) المُحددة بشكل اختياري إلى قيمة التاريخ. لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) و [مخصص](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
+تُرجع الدالة `DATEVALUE` قيمة *[تاريخ](er-formula-supported-data-types-primitive.md#date)* تم تحويلها من قيمة نصية معينة في التنسيق المحدد وفي [ثقافة](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) مُحددة بشكل اختياري إلى قيمة تاريخ. لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](/dotnet/standard/base-types/standard-date-and-time-format-strings) و [مخصص](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>بناء الجملة 1
 
@@ -44,17 +41,17 @@ DATEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>الوسائط
 
-`text`: *السلسلة*
+`text`: *[سلسلة](er-formula-supported-data-types-primitive.md#string)*
 
 النص الذي يمثل القيمة المراد تنسيقها.
 
 `format`: *السلسلة*
 
-تنسيق النص المُعين.
+تنسيق النص المُعين. لمزيد من المعلومات حول التنسيقات المعتمدة، راجع [قياسي](/dotnet/standard/base-types/standard-date-and-time-format-strings) و [مخصص](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 `culture`: *السلسلة*
 
-الثقافة المستخدمة لتنسيق النص المُحدد.
+الثقافة المستخدمة لتنسيق النص المُحدد. للحصول علي معلومات حول الثقافات المعتمدة، راجع [الثقافة](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>إرجاع القيم
 
@@ -79,3 +76,6 @@ DATEVALUE (text, format, culture)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [دلات التاريخ والوقت](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

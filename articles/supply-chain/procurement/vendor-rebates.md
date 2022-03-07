@@ -1,26 +1,24 @@
 ---
 title: خصومات المورد
 description: يوفر هذا الموضوع نظرة عامة على المهام الأكثر شيوعًا التي قد تريد تنفيذها عندما تتعامل مع خصومات المورد‬. باستطاعة خصومات المورد‬ أن تساعد الشركات على إدارة برامج خصومات المورد لديها من خلال التنفيذ التلقائي للمهام المطلوبة لإدارة الخصومات المكتسبة وتعقبها والمطالبة بها.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966645"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566853"
 ---
 # <a name="vendor-rebates"></a>خصومات المورد
 
@@ -55,7 +53,7 @@ ms.locfileid: "4966645"
 
 لفتح صفحة **اتفاقيات الخصم للمورد**، حدد **التدبير وتحديد الموارد** &gt; **خصومات المورد‬** &gt; **اتفاقيات الخصم**.
 
-![اتفاقية الشراء](media/purchase-agreement.PNG)
+![اتفاقية الشراء.](media/purchase-agreement.PNG)
 
 في صفحة **اتفاقيات الخصم للمورد**، يمكنك عرض تفاصيل حول شروط اتفاقية المورد التي تم التفاوض بشأنها.
 
@@ -131,7 +129,7 @@ ms.locfileid: "4966645"
 
     يتم ترحيل دفتر يومية استحقاق الخصم لمبلغ الخصم. تسجل عملية الترحيل هذه على حساب خصومات المورد المستحقة المدينة قيمة المبلغ الدائن للمورد وتضيف إلى الحساب المؤقت لخصومات المورد المستحقة المدينة قيمة الربح المتوقع.
 
-    ![رسالة](media/message.png)
+    ![الرسالة.](media/message.png)
 
 5. في قائمة الخصومات، حدد البند، وبعد ذلك، في "جزء الإجراءات"، حدد **حركات الخصم** لرؤية رقم دُفعة دفتر اليومية والانتقال إليه لعملية ترحيل استحقاق الخصم‬ هذا.
 
@@ -166,3 +164,6 @@ ms.locfileid: "4966645"
 - إنشاء مطالبات خصم دقيقة
 - تجميع المبالغ المدينة المتوقعة والكسب المؤقت في دفتر الأستاذ العام
 - تحديث رصيد المورد وكشف الدخل بواسطة البدل المستحق
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: التحصيلات في الحسابات المدينة
 description: تتم إدارة معلومات تحصيلات الحسابات المدينة في طريقة عرض مركزية واحدة باستخدام صفحة "التحصيلات" في Microsoft Dynamics 365 Finance Collections. بإمكان مدراء الائتمانات والتحصيلات استخدام طريقة العرض المركزية هذه لإدارة التحصيلات. وبإمكان وكلاء التحصيلات بدء عملية التحصيل من قوائم العملاء التي يتم إنشاؤها باستخدام معايير التحصيل المعرفة مسبقًا أو من صفحة العملاء.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c394219bbb58bea187d352c8817ed4c3e2eb883c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439821"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189435"
 ---
 # <a name="collections-in-accounts-receivable"></a>التحصيلات في الحسابات المدينة
 
@@ -102,8 +99,7 @@ ms.locfileid: "4439821"
 
 لمزيد من المعلومات، راجع [إنشاء دفتر يومية شطب لعميل](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a> معالجة دفعات الأرصدة غير الكافية (NSF)  
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a> معالجة دفعات الأرصدة غير الكافية (NSF)  
 
 يمكنك معالجة مدفوعات NSF بالنقر فوق دفع NSF في صفحة التحصيلات. وعند النقر فوق هذا الزر، يتم إلغاء الدفع. إذا تم تطبيق رسوم NSF للعميل، فإنه يتم إنشاء حركة مصاريف في دفتر يومية الدفع. يعتمد مبلغ الرسوم على إعدادات الرسوم التلقائية. يتم تحديد الرسوم التلقائية التي تنطبق على مدفوعات NSF من خلال مجموعة المصاريف التي يتم اختيارها في صفحة الحسابات البنكية للحساب البنكي المتأثر.
 
@@ -111,3 +107,6 @@ ms.locfileid: "4439821"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

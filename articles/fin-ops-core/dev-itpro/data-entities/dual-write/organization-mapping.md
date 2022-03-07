@@ -2,11 +2,9 @@
 title: التدرج الهرمي للمؤسسات في Dataverse
 description: يوضح هذا الموضوع تكامل بيانات المؤسسة بين تطبيقات Finance and Operations وDataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 8b147c27b9309b1b3597f1194c415fbb2e2b7ad2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744683"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750802"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>التدرج الهرمي للمؤسسات في Dataverse
 
@@ -73,3 +71,6 @@ ms.locfileid: "4744683"
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

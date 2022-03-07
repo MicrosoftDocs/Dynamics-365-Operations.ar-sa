@@ -1,31 +1,28 @@
 ---
-title: تسوية دفع جزئي لمورد قبل تاريخ الخصم بدفعة نهائية بعد تاريخ الخصم
+title: تسوية دفع جزئي لمورد قبل تاريخ الخصم ودفعة نهائية بعد تاريخ الخصم
 description: ترشدك هذه المقالة من خلال سيناريو حيث يتم تسديد دفعات جزئية متعددة، بعضها ضمن فترة الخصم النقدي والبعض الآخر خارج فترة الخصم النقدي.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 731d0a1ad0af47d98455ba2e609a48e092a67d3f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439793"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810332"
 ---
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>تسوية دفع جزئي لمورد قبل تاريخ الخصم بدفعة نهائية بعد تاريخ الخصم
+# <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>تسوية دفع جزئي لمورد قبل تاريخ الخصم ودفعة نهائية بعد تاريخ الخصم
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,7 +46,7 @@ ms.locfileid: "4439793"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات المفتوحة**.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/09/2015 |
 | مبلغ الخصم النقدي         | -10.00    |
@@ -74,7 +71,7 @@ ms.locfileid: "4439793"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات**. ويمكن لفوزية أن ترى أنها حصلت على خصم 3.00 مسبقاً.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/09/2015 |
 | مبلغ الخصم النقدي         | 0.00      |
@@ -100,7 +97,7 @@ ms.locfileid: "4439793"
 
 تظهر معلومات الخصم أسفل صفحة **تسوية الحركات**.
 
-|                              |           |
+| الحقل                        | قيمة     |
 |------------------------------|-----------|
 | تاريخ الخصم النقدي           | 7/09/2015 |
 | مبلغ الخصم النقدي         | 7.00      |
@@ -122,3 +119,6 @@ ms.locfileid: "4439793"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

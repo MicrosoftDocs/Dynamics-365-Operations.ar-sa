@@ -1,10 +1,12 @@
 ---
 title: اتفاقيات الشراء
 description: توفر هذه المقالة معلومات حول تعيين اتفاقيات الشراء. اتفاقية شراء هو عقد الذي يلزم مؤسسة بشراء كمية محددة أو مبلغ باستخدام أوامر شراء متعددة مع مرور الوقت. مقابل هذا الالتزام، يتلقى المشتري أسعار وخصومات خاصة.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103728"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017177"
 ---
 # <a name="purchase-agreements"></a>اتفاقيات الشراء
 
@@ -41,7 +43,10 @@ ms.locfileid: "8103728"
 يمكنك تحديد العامل المسؤول الأساسي والعامل المسؤول الثانوي في تصنيف اتفاقيه الشراء. سيتم توريث هذه القيم بواسطة اتفاقيه الشراء الناتجة. لست مطالبًا بإضافة العمال المسؤولين إلى اتفاقيه الشراء، ويمكن تعديلها مباشرة على أساس كل حالة في اتفاقية الشراء نفسها. يتعذر عليك تحديد عامل ثانوي مسؤول بدون عامل مسؤول أساسي، على الرغم من أنك لست مضطرًا لأن يكون لديك عامل ثانوي مسؤول. يتعذر عليك تحديد العامل نفسه كعامل مسؤول أساسي وثانوي.
 
 > [!IMPORTANT]
-> قبل أن تتمكن من استخدام ميزة الطرف المسؤول، يجب تشغيلها في النظام. اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *الطرف المسؤول عن اتفاقية الشراء‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> قبل أن تتمكن من استخدام ميزة الطرف المسؤول، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+> 
+> - **الوحدة النمطية:** *التدبير والتوريد*
+> - **اسم الميزة:** *الطرف المسؤول عن اتفاقية الشراء*
 
 ## <a name="commitment-types"></a>أنواع الالتزام
 كل بند في اتفاقية شراء يعتبر التزامًا بشراء شيء ما. يمكنك استخدام بنود من أوامر شراء متعددة للوفاء بالالتزام. هناك أربعة أنواع من الالتزامات:
@@ -99,13 +104,12 @@ ms.locfileid: "8103728"
 ## <a name="financial-dimensions-on-purchase-agreements"></a>الأبعاد المالية لاتفاقية الشراء
 يمكنك نسخ الأبعاد المالية إلى عناوين المستند أو لبنود فردية من اتفاقية الشراء. وفي حالة تغيير الأبعاد في رأس الاتفاقية أو بند الاتفاقية، لا يؤثر التغيير على أي أوامر تم إصدارها، ولكن سوف ينعكس في أي أوامر جديدة.
 
-## <a name="additional-resources"></a>الموارد الإضافية
+<a name="additional-resources"></a>الموارد الإضافية
+--------
 
-- [إنشاء اتفاقية شراء](tasks/create-purchase-agreement.md)
-- [تطبيق اتفاقية شراء عند إنشاء أمر شراء](tasks/create-purchase-release-order-purchase-agreement.md)
+[إنشاء اتفاقية شراء](tasks/create-purchase-agreement.md)
+
+[إنشاء أمر إصدار شراء من اتفاقية شراء](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

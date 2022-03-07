@@ -2,11 +2,9 @@
 title: ‏‫تخويل ‏‫التنبؤ الذي تمت تسويته
 description: يجب عدم تخويل كافة بيانات التنبؤ على الفور. يشرح هذا المقال كيف يمكنك تحديد الفترة التي يتم فيها التخويل لتنبؤ. وهو يوضح أيضًا كيفية تخويل التنبؤ لشركات بعينها ونماذج التنبؤ.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ab8558f25f5ffd3b7eb3e1bc5680b1a1f8d5139
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 42137b9eb24e14518244d87e72e9ea1295be4485
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961412"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188948"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>‏‫تخويل ‏‫التنبؤ الذي تمت تسويته
 
@@ -41,8 +39,7 @@ ms.locfileid: "4961412"
 
 من المهم جدًا أن تفهم كيف تعمل خانة اختيار **‏‫حفظ التسويات اليدوية التي تم إدخالها على التنبؤ بالطلب الأساسي ‬**. إذا قمت بإجراء التسويات اليدوية للتنبؤ الأساسي الإحصائي، فإنه يتم تخويل القيم المعدلة للاستخدام، حتى إذا تم مسح خانة الاختيار هذه. ومع ذلك، يتم تجاهل التغييرات بعد التخويل. وبالتالي، في المرة التالية التي يتم فيها إنشاء تنبؤ، يكون هذا التنبؤ إحصائيًا فقط ولا يحتوي على أي تجاوزات يدوية، حتى إذا تم تحديد **‏‫نقل التسويات اليدوية إلى التنبؤ بالطلب‬**. وبالتالي، يمكنك اعتبار خانة الاختيار **‏‫حفظ التسويات اليدوية التي تم إدخالها على التنبؤ بالطلب الأساسي ‬** آلية تسمح لك الاحتفاظ كافة التغييرات اليدوية أو تجاهلها.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [القيام بتسويات يدوية في التنبؤ الأساسي](manual-adjustments-baseline-forecast.md)
 
@@ -50,3 +47,6 @@ ms.locfileid: "4961412"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

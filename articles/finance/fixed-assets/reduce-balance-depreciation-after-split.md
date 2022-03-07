@@ -2,28 +2,25 @@
 title: تقليل إهلاك الرصيد بعد التقسيم
 description: يصف هذا الموضوع الأسلوب المستخدم في الأصول الثابتة لحساب الإهلاك بعد تقسيم أحد الأصول باستخدام أسلوب تقليل الرصيد.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737691"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>تقليل إهلاك الرصيد بعد التقسيم
 
@@ -40,8 +37,11 @@ ms.locfileid: "4650645"
 - ويساوي إهلاك السنه المالية الأولى 18.000 دولار، ويساوي الإهلاك الشهري 150 دولار، ويتم إهلاك الأصل حتى نوفمبر، 2019، بمقدار 738.75 دولار.
 - في نوفمبر 2019، يتم تقسيم 80 بالمائة من الأصل إلى أصل ثابت آخر.
 
-[![تقليل إهلاك الرصيد بعد التقسيم](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![تقليل إهلاك الرصيد بعد التقسيم.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 المبلغ المراد إهلاكه للأصل الأصلي يكون بقيم 1.822.25 دولار. ويساوي هذا المبلغ صافي القيمة الدفترية قبل ترحيل حركة التقسيم (9.111.25 دولار)، بالإضافة إلى تسوية الامتلاك الذي يتم إنشاؤه أثناء ترحيل الحركة المقسمة (-8.000 دولار)، بالإضافة إلى تسوية الإهلاك التي يتم إنشاؤها خلال حركه التقسيم (711 دولار). وبالتالي، فإن إهلاك السنة الثانية هو (1,822.25 × 18%) ÷ 12 = 27.33 دولار.
 
 المبلغ الذي يتم إهلاكه للأصل الثابت الجديد في السنه الأولى هو (8.000 × 18%) ÷ 12 = 120دولار.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

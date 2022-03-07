@@ -2,28 +2,25 @@
 title: إعداد الأصول الثابتة
 description: يقدم هذا الموضوع نظرة عامة على إعداد وحدة الأصول الثابتة.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13771
 ms.assetid: 8be64197-fea1-4a34-8af2-d939919c28b1
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff025984307f979ce98947f2225971041ebbdbae
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440100"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818526"
 ---
 # <a name="set-up-fixed-assets"></a>إعداد الأصول الثابتة
 
@@ -84,3 +81,6 @@ ms.locfileid: "4440100"
 أخيرًا، في علامة التبويب **التسلسلات الرقمية**، يمكنك تحديد التسلسلات الرقمية‬ للأصول الثابتة. يمكن إبطال التسلسل الرقمي **للأصل الثابت** بواسطة التسلسل الرقمي **لمجموعة الأصول الثابتة**، إذا تم تحديده.
 
 لمزيد من المعلومات، راجع [إنشاء أصل ثابت](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

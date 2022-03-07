@@ -2,28 +2,25 @@
 title: تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة
 description: ترشدك هذه المقالة من خلال سيناريو حيث تم أخذ خصم نقدي على إشعار دائن عندما تضمنت الفاتورة الأصلية أيضًا خصمًا نقديًا.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: e785d591c25669d90c91ca1b676388522da3da36
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4440118"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835162"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>تسوية دفعة جزئية لعميل لديه خصومات في الإشعارات الدائنة
 
@@ -61,3 +58,6 @@ ms.locfileid: "4440118"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

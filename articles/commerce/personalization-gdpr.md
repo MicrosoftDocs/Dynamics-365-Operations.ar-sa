@@ -1,17 +1,14 @@
 ---
 title: إلغاء الاشتراك في التوصيات المخصصة
-description: يشرح هذا الموضوع كيفيه السماح للعملاء بالانسحاب من تلقي التوصيات المخصصة في Microsoft Dynamics 365 Commerce.
+description: يشرح هذا الموضوع كيفية السماح للعملاء بالانسحاب من تلقي التوصيات المخصصة في Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 75f41db74512ea758a83de56ffd2a9166712f5e2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409864"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352266"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>إلغاء الاشتراك في التوصيات المخصصة
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيفيه السماح للعملاء بالانسحاب من تلقي التوصيات المخصصة في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
+يشرح هذا الموضوع كيفية السماح للعملاء بالانسحاب من تلقي التوصيات المخصصة في Microsoft Dynamics 365 Commerce.
 
 واثناء إنشاء الحساب، يتم إعداد العملاء الجدد تلقائيا لتلقي التوصيات المخصصة. ومع ذلك، يوفر Dynamics 365 Commerce يوفر طرقا متنوعة لبائعي التجزئة السماح للمستخدمين بالخروج من هذه التوصيات وتقييد معالجه البيانات الشخصية الخاصة بهم. سوف يتوقف المستخدمون المصادقون الذين يرفضوا الخروج من التوصيات المخصصة فورا من مشاهده القوائم الشخصية. بالإضافة إلى ذلك، ستتم أزاله كافة البيانات الشخصية التي تم تجميعها لإضفاء طابع شخصي من نماذج التوصيات المخصصة.
 
@@ -49,11 +44,11 @@ ms.locfileid: "4409864"
 1. من الصفحة الرئيسية للمكتب الخلفي، ابحث عن **جميع العملاء**.
 1. ابحث عن عميل وحدده، ثم حدد علامة التبويب السريع **Retail**.
 
-    ![علامة التبويب السريع Retail](./media/Disablepersonalizationpart1.png)
+    ![علامة التبويب السريع Retail.](./media/Disablepersonalizationpart1.png)
 
 1. ضمن **الخصوصية**، قم بتعيين خيار **تعطيل التخصيص** إلى **نعم**.
 
-    ![إعدادات الخصوصية](./media/Disablepersonalizationpart2.png)
+    ![إعدادات الخصوصية.](./media/Disablepersonalizationpart2.png)
 
 1. حدد **حفظ** ثم أغلق الصفحة.
 
@@ -104,3 +99,6 @@ ms.locfileid: "4409864"
 [إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

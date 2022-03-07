@@ -1,34 +1,29 @@
 ---
 title: نظرة عامة على الوفاء باتفاقيات الخدمة
 description: يوفر هذا الموضوع نظرة عامة على مهام الوفاء باتفاقيات الخدمة.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/03/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65c26c5bcea386e7cdb3a2be95da26dcb53ce44c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 39fe65638c413f5fbc1ea6ad4922e97f6e8fb35e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421590"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985876"
 ---
-# <a name="fulfill-service-agreements-overview"></a>نظرة عامة على الوفاء باتفاقيات الخدمة 
+# <a name="fulfill-service-agreements-overview"></a>نظرة عامة على الوفاء باتفاقيات الخدمة
 
 [!include [banner](../includes/banner.md)]
-
 
 يوفر هذا الموضوع نظرة عامة على مهام الوفاء باتفاقيات الخدمة. يسرد هذا الموضوع أيضًا النماذج المرتبطة بكل مكوِّن عملية تجارية ويناقش المهام المرتبطة بكل مكوِّن عملية تجارية.
 
@@ -44,9 +39,9 @@ ms.locfileid: "4421590"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -67,9 +62,9 @@ ms.locfileid: "4421590"
 <td><p>إنشاء اشتراكات الخدمة والاحتفاظ بها.</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>مراقبة وتنفيذ الاتفاقية</p></td>
@@ -82,9 +77,9 @@ ms.locfileid: "4421590"
 <td><p>إنشاء أوامر الخدمات وصيانتها.</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>تحديث العقد وتقييمه</p></td>
@@ -107,3 +102,6 @@ ms.locfileid: "4421590"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

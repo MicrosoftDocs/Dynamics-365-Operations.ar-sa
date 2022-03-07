@@ -2,28 +2,27 @@
 title: إعداد معلومات الإصابة والمرض
 description: يحتاج أصحاب الأعمال إلى معرفة متى تتم إصابة موظفيهم بجروح أو أمراض ناتجة عن المخاطر في مكان العمل.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 117ae1d690221dbbe0cf4287a3f986cdb3606623
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 209d7d2b7f992520d1b36532c0489ef12f18dd2924cfba6f81c43ab1b184b492
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734441"
 ---
 # <a name="set-up-injury-and-illness-information"></a>إعداد معلومات الإصابة والمرض
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -65,3 +64,6 @@ ms.locfileid: "4417124"
     * وكالات إعداد التقارير هي الوكالات التي يجب تبليغها عن عن الحادث. حدد خانة الاختيار الافتراضية للوكالة التي تُعد الوكالة الافتراضية لتبليغها عن الإصابات والأمراض.  
 23. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendInvoiceWorkspace, LedgerJournalTable, LedgerJournalTransVendInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9f2cbe0c9d1609aa3713776f81bafa396fff301
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a60a5959046ca9e953bac80aaeb382d07a267643
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645271"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227126"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>تسجيل فاتورة مورّد في دفتر يومية الفواتير
 
@@ -49,3 +48,6 @@ ms.locfileid: "4645271"
 12. انقر فوق **ترحيل**.
 13. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

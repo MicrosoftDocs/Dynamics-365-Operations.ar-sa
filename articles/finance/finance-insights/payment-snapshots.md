@@ -2,28 +2,25 @@
 title: نظرة عامة حول اللقطات (معاينة)
 description: يصف هذا الموضوع ميزة اللقطات، التي تتيح لك إمكانية حفظ تقدير التدفقات النقدية للتحليل أو المقارنة مع القيم الفعلية لاحقًا. عند إنشاء تقدير بالتدفقات النقدية، يمكنك حفظ ذلك التقدير على إنه "لقطة". ويمكنك بعد ذلك استخدام اللقطات لتحرير الحسابات التي تم تضمينها في التقدير، أو لمقارنة التقدير في اللقطة بالقيم الفعلية.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f0d0bdde8b69148c72b8c645e040f0e596ecba92
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645615"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827232"
 ---
 # <a name="snapshots-overview-preview"></a>نظرة عامة حول اللقطات (معاينة)
 
@@ -48,3 +45,6 @@ ms.locfileid: "4645615"
 
 #### <a name="privacy-notice"></a>إشعار الخصوصية
 إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

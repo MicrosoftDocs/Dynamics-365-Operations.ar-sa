@@ -2,27 +2,24 @@
 title: إقفال الحسابات المدينة
 description: يسرد الموضوع التالي الصفحات التي تدعم إقفال العملية التجارية للحسابات المدينة.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 59372
 ms.assetid: c18d83e5-4adb-422a-91be-82a665d8288b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3563f0f4d7d281a02231c1d3edcfe3ceb4277f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fb8699ddc154936fa488855d5ab48474fd7ae3fba5be7bdb9e149eb61d64480
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439918"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724077"
 ---
 # <a name="close-accounts-receivable"></a>إقفال الحسابات المدينة
 
@@ -62,3 +59,6 @@ ms.locfileid: "4439918"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

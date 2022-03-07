@@ -2,28 +2,25 @@
 title: إنشاء موازنة من حسابات الحركات والحسابات الإجمالية
 description: توفر هذه المقالة نظرة عامة على عملية إنشاء موازنات بالاستناد إلى الحسابات الإجمالية. وهي تشرح أيضًا كيفية تشغيل رقابة الموازنة للحسابات الإجمالية، إذا كانت رقابة الموازنة مطلوبة.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration, BudgetPlanGenerate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13051
 ms.assetid: fb1bb2d3-445c-402f-a9a3-aa6503eed78e
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f60963bee790737c85161dff03278df0572e3abc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e296118b3b806a5267e29c2b2d4d859c1aea1977
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440069"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827376"
 ---
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>إنشاء موازنة من حسابات الحركات والحسابات الإجمالية
 
@@ -46,3 +43,6 @@ ms.locfileid: "4440069"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

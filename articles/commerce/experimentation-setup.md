@@ -2,15 +2,12 @@
 title: إعداد تجربة
 description: يصف هذا الموضوع كيفيه إعداد تجربه في خدمه جهة خارجيه.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 29c21ceb4c259f463f4a039942e51141201a9809
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 870bcb9cc63fd4dbf6d7b40d730edfad7783540d5d943896e0129d29572fa875
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4410034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769385"
 ---
 # <a name="set-up-an-experiment"></a>إعداد تجربة
 
 بعد [تعريف الفرضية وتحديد معايير النجاح التي ترغب في استخدامها](experimentation-identify.md)، سيتعين عليك اعداد التجربة الخاصة بك في الخدمة التابعة لجهة خارجية. يوضح الرسم التخطيطي التالي كافة الخطوات المتضمنة في اعداد وتشغيل تجربه علي أحد مواقع التجارة الالكترونيه في Dynamics 365 Commerce. وتتم تغطيه الخطوات الاضافيه في موضوعات منفصلة.
 
-[![رحلة مستخدم التجربة - الإعداد](./media/experimentation_setup.svg)](./media/experimentation_setup.svg#lightbox)
+[ ![رحلة مستخدم التجربة - الإعداد.](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
 
 
 ## <a name="set-up-your-experiment-in-the-third-party-service"></a>اعداد التجربة الخاصة بك في خدمه الجهة الخارجية
@@ -54,3 +51,6 @@ ms.locfileid: "4410034"
 
 ## <a name="next-step"></a>الخطوة التالية
 [الاتصال بتجربة وتحريرها](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

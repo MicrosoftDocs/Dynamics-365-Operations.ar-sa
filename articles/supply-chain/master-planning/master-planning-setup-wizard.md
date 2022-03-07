@@ -1,17 +1,14 @@
 ---
-title: معالج إعداد التخطيط الرئيسي
-description: يصف هذا الموضوع الاستراتيجيات المهمة والمعلمات التي تُستخدم لإعداد التخطيط الرئيسي.
-author: t-benebo
-manager: tfehr
+title: معالج إعداد التخطيط الرئيسي (يحتوي على فيديو)
+description: يصف هذا الموضوع كيفية تشغيل معالج إعداد التخطيط الرئيسي لإعداد التخطيط الرئيسي.
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421498"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937623"
 ---
 # <a name="master-planning-setup-wizard"></a>معالج إعداد التخطيط الرئيسي
 
@@ -48,13 +45,13 @@ ms.locfileid: "4421498"
 
 إذا تجاوز عدد مؤشرات الترابط التي تم حسابها 75 بالمائة من العدد المتوفر من مؤشرات الترابط، فسيتم تحديدها عند نسبة 75 بالمائة من عدد مؤشرات الترابط المتاحة لكل عميل. (سيتم تحديد عدد مؤشرات الترابط المتاحة لكل عميل.)
 
-لمزيد من المعلومات، راجع [عدد مؤشرات الترابط](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+لمزيد من المعلومات، راجع [عدد مؤشرات الترابط](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>حجم المجموعة
 
 سيتم تعيين حجم المجموعة إلى **1**. غالبًا ما تكون هذه القيمة أفضل قيمة، لأنها تساعد على تحسين أداء التخطيط الرئيسي.
 
-لمزيد من المعلومات، راجع [عدد المهام في مجموعة مهام المساعد](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+لمزيد من المعلومات، راجع [عدد المهام في مجموعة مهام المساعد](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>تأكيد حجم المجموعة
 
@@ -67,7 +64,7 @@ ms.locfileid: "4421498"
 
 سيتم تعيين ذاكرة التخزين المؤقت إلى **الحد الأقصى**. غالبًا ما تكون هذه القيمة أفضل قيمة، لأنها تساعد على تحسين أداء التخطيط الرئيسي.
 
-لمزيد من المعلومات، راجع [تخصيص الوقت للوظائف في مجموعة وظائف](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+لمزيد من المعلومات، راجع [تخصيص الوقت للوظائف في مجموعة وظائف](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>إعداد التصنيع
 
@@ -91,7 +88,7 @@ ms.locfileid: "4421498"
 - **نعم، كما هو محدد في الخطة الرئيسية** - سيتم تعيين الخيار **خطة التنبؤ (الحد الزمني)** إلى **نعم**. سيتم استخدام عدد الأيام التي تقوم بإدخاله وتجاوز القيم التي تم تعيينها في مجموعات التغطية.
 - **نعم، كما هو محدد في مجموعة التغطية** - سيتم تعيين الخيار **خطة التنبؤ (الحد الزمني)** إلى **لا**.
 
-لمزيد من المعلومات، راجع [جدولة الوظائف](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+لمزيد من المعلومات، راجع [جدولة الوظائف](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>خيارات الجدولة
 
@@ -102,7 +99,7 @@ ms.locfileid: "4421498"
 - **نعم** – سيتم استخدام جدولة الوظائف.
 - **لا** - سيتم استخدام جدولة العمليات.
 
-لمزيد من المعلومات، راجع [جدولة العمليات](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) و[جدولة الوظائف](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+لمزيد من المعلومات، راجع [جدولة العمليات](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) و[جدولة الوظائف](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>تحديثات الطلب والتوريد
 
@@ -209,3 +206,6 @@ Contoso Retailer هي شركة توزيع في صناعة الأزياء. تست
     - **الإجابة:** "نعم، كما هو محدد في هذه الخطة الرئيسية". يتم إدخال **1 يوم**.
 
     تستخدم Contoso الطلبات المعتمدة من متاجر البيع بالتجزئة الخاصة بها لإنشاء أوامر شراء مخططة لتجديد تلك المتاجر. نظرًا لتشغيل التخطيط الرئيسي كل يوم، سيتم تضمين الطلبات من اليوم الأخير في التخطيط.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: مصمم المعادلة
 description: يشرح هذا المقال كيفية استخدام مصمم المعادلة لتحليل وصيانة المعادلات في طريقة الشجرة.
 author: cvocph
-manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8778d6a4d834af2151e0bced0b0f27d98f088a34
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b05f014600fdac03173a0aacf2ad6cd581b789f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421305"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809124"
 ---
 # <a name="formula-designer"></a>مصمم المعادلة
 
@@ -121,3 +118,6 @@ ms.locfileid: "4421305"
 |     قائمة مكونات الصنف     | استخدم خانات الاختيار لتحديد المعايير التي يتم عرضها في بنية الشجرة. يعرض مصمم المعادلة المعايير المحددة في أسفل علامتي التبويب. |
 |    المسار    |                                           استخدم خانات الاختيار لتحديد المعايير التي يتم عرضها للمسارات.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

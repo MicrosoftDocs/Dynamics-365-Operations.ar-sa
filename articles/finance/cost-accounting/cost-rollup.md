@@ -2,16 +2,13 @@
 title: سياسة زيادة التكلفة وحساب المصروفات الزائدة
 description: يوفر هذا الموضوع معلومات حول كيفية تحديد المستوى الصحيح من عناصر التكلفة الثانوية وإنشاء قواعد زيادة التكلفة التي تناسب تقارير المؤسسة وقابلية التكلفة للتتبع.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4440112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779946"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>سياسة زيادة التكلفة وحساب المصروفات الزائدة 
 
@@ -47,13 +44,13 @@ ms.locfileid: "4440112"
 
 تخيل أن مؤسسة لديها البنية التالية مع 4 مراكز تكلفة.
 
-![مثال على هيكل المؤسسة](./media/dimension-hierarchy-org.png)
+![مثال على هيكل المؤسسة.](./media/dimension-hierarchy-org.png)
 
-**بعد كائن التكلفة**
+**بُعد كائن التكلفة**
 
-| مراكز تكلفة | ‏‏الوصف          |
+| مراكز تكلفة | الوصف          |
 |--------------|-----------|
-| CC001        | الموارد البشرية        |
+| CC001        | HR        |
 | CC002        | المالية   |
 | CC003        | التجميع  |
 | CC004        | التعبئة |
@@ -152,8 +149,7 @@ ms.locfileid: "4440112"
 | CC001                                | الإجمالي         | **خدمات الموارد البشرية**        |
 | CC002                                | الإجمالي         | **الخدمات المالية** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>كيفية تدفق التكلفة بين مراكز التكلفة 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>كيفية تدفق التكلفة بين مراكز التكلفة 
 
 إذا كنت ترغب في معرفة كيفية تدفق التكلفة بين مراكز التكلفة في المؤسسة، يمكنك إنشاء عناصر تكلفة من النوع **فرعي** لكل مركز التكلفة. وبعد ذلك، يتم استخدام عناصر التكلفة هذه لتحويل الأرصدة بين مراكز التكلفة أثناء حساب المصروفات الزائدة.
 
@@ -301,3 +297,6 @@ ms.locfileid: "4440112"
 -  [أبعاد عنصر التكلفة](cost-elements.md)
 -  [التدرج الهرمي للأبعاد](dimension-hierarchy.md)
 -  [عملية حساب المصروفات الزائدة](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

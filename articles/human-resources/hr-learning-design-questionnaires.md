@@ -1,31 +1,30 @@
 ---
-title: تصميم استبيانات
+title: إنشاء استبيانات
 description: توضح هذه المقالة عملية إنشاء استبيان. والخطوة الأولى هو تصميم الاستبيان. عندما تقوم بتصميم استبيان، لا تقوم سوى بكتابة الأسئلة والإجابات، بل وتُنشئ أيضًا البنية التي تتيح إمكانية تسجيل الإجابات وجدولتها.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e4a1cd6460ed93ce46e561071aedee314bf4f088
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417173"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357109"
 ---
-# <a name="design-questionnaires"></a>تصميم استبيانات
+# <a name="create-questionnaires"></a>إنشاء استبيانات
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 توضح هذه المقالة عملية إنشاء استبيان. والخطوة الأولى هو تصميم الاستبيان. عندما تقوم بتصميم استبيان، لا تقوم سوى بكتابة الأسئلة والإجابات، بل وتُنشئ أيضًا البنية التي تتيح إمكانية تسجيل الإجابات وجدولتها. 
 
@@ -72,7 +71,7 @@ ms.locfileid: "4417173"
 
 ### <a name="question-types"></a>أنواع الأسئلة
 
-أنواع الأسئلة مطلوبة ويجب تعيينها عند إنشاء سؤال. 
+تكون أنواع الأسئلة مطلوبة ويجب تعيينها عند إنشاء سؤال. 
 
 واستخدم أنواع الأسئلة لتصنيف الأسئلة للإبلاغ عنها. كما تعمل أنواع الأسئلة على تسهيل عملية العثور على الأسئلة، لأنه يمكنك استخدام الأنواع كعوامل تصفية في صفحة **الأسئلة**. فيما يلي بعض الأمثلة على أنواع الأسئلة:
 
@@ -91,9 +90,9 @@ ms.locfileid: "4417173"
 ويجب عليك تحديد كافة المعلمات قبل البدء في إنشاء البيانات. يمكنك تعديل إعدادات معلمات الاستبيان في أي وقت.
 
 ## <a name="questionnaire-components"></a>مكونات الاستبيان
-‏‫تشتمل الاستبيانات على ثلاثة عناصر رئيسية: الرد على المجموعات التي تحتوي على الإجابات عن الأسئلة متعددة الاختيارات، والأسئلة، والاستبيان ذاته.  ويمكنك بشكل اختياري تجميع الأسئلة الموجودة في استبيان في مجموعات النتائج. تمكّنك مجموعات النتائج من تصنيف الأسئلة وإجراء المزيد من التحليل في الاستبيان. 
+‏‫تشتمل الاستبيانات على ثلاثة عناصر رئيسية: الرد على المجموعات التي تحتوي على الإجابات عن الأسئلة متعددة الاختيارات، والأسئلة، والاستبيان ذاته. ويمكنك بشكل اختياري تجميع الأسئلة الموجودة في استبيان في مجموعات النتائج. تمكّنك مجموعات النتائج من تصنيف الأسئلة وإجراء المزيد من التحليل في الاستبيان. 
 
-[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>مجموعات الإجابات والإجابات
 
@@ -236,3 +235,5 @@ ms.locfileid: "4417173"
 يوفر كيان قانوني كلاًّ من الأصناف والخدمات لعملائها. وكما يحدث عادةً في مثل هذه الحالات، يشتري بعض العملاء الأصناف فقط، ويشتري بعضهم الخدمات فقط، وبعضهم يشتري كلاًّ من الأصناف والخدمات. وبالتالي، عندما يوزع الكيان القانوني استطلاع رضا العملاء، فإنه يمكن تطبيقه على بنية مشروطة للاستبيان، بحيث لا يلزم العملاء الذين يشترون الخدمات فقط الإجابة عن الأسئلة المتعلقة بالأصناف. 
 
 وبدلاً من ذلك، يمكنك إعداد استبيان إذا حدد مستجيب الإجابة أ للسؤال 1، يكون السؤال 2 هو التالي في تسلسل الأسئلة. ومع ذلك، إذا حدد مستجيب السؤال ب للسؤال 1، يكون السؤال 5 هو التالي.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

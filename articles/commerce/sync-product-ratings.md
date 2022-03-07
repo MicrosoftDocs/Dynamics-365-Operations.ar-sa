@@ -2,15 +2,12 @@
 title: مزامنة تقييمات المنتجات في Dynamics 365 Commerce
 description: يوضح هذا الموضوع كيفية مزامنة تقييمات المنتجات في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f2112c87912a1d130017c5804c4193b62c1e5a476be79bfd485640ec98b42f77
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730889"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>مزامنة تقييمات المنتجات في Dynamics 365 Commerce
 
@@ -62,7 +59,7 @@ ms.locfileid: "4409959"
 
 يبين الرسم التوضيحي التالي مثالاً على تفاصيل الوظيفة الفرعية في Commerce.
 
-![تفاصيل الوظيفة الفرعية RetailProductRating](media/rnr-hq-ratings-sub-job.png)
+![تفاصيل الوظيفة الفرعية RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > في حالة عدم العثور على الوظيفة الفرعية **RetailProductRating**، فقد تكون قد قمت بالفعل بتشغيل وظيفة **مزامنة تقييمات المنتجات** ووظيفة **1040 CDX** قبل تهيئة مجدول Commerce. في هذه الحالة، اتبع هذه الخطوات لتشغيل وظيفة **مزامنة البيانات بالكامل**.
@@ -86,7 +83,7 @@ ms.locfileid: "4409959"
 
 يبين الرسم التوضيحي التالي مثالاً على تكوين الوظيفة الدفعية في Commerce.
 
-![تكوين وظيفة دفعية لتقييمات المنتجات المتزامنة](media/rnr-hq-batchjob-recurrence.png)
+![تكوين وظيفة دفعية لتقييمات المنتجات المتزامنة.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>التحقق من أن وظيفة الدفعية الخاصة بمزامنة تصنيف المنتجات ناجحة
 
@@ -98,7 +95,7 @@ ms.locfileid: "4409959"
 
 يبين الرسم التوضيحي التالي مثالاً لتفاصيل وظيفة الدفعية في Commerce عندما تتم جدولة وظيفة الدفعية لتشغيل الفترات مدتها ساعتين.
 
-![تفاصيل وظيفة الدفعية لتقييمات المنتجات المتزامنة](media/rnr-hq-batchjob-status-checking.png)
+![تفاصيل وظيفة الدفعية لتقييمات المنتجات المتزامنة.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>جعل تقييمات المنتجات متوفرة عند نقطة البيع
 
@@ -116,15 +113,15 @@ ms.locfileid: "4409959"
 
 يبين الرسم التوضيحي التالي مثالاً لتكوين معلمات Commerce لعرض تقييمات المنتجات في نقطة البيع.
 
-![تكوين معلمات Commerce لتقييمات المنتجات في نقطة البيع](media/rnr-hq-enable-ratings-in-pos.png)
+![تكوين معلمات Commerce لتقييمات المنتجات في نقطة البيع.](media/rnr-hq-enable-ratings-in-pos.png)
 
 يبين الرسم التوضيحي التالي مثالاً لتقييمات المنتجات في نقطة البيع.
 
-![تقييمات المنتجات في نقطة البيع](media/rnr-pos-catalog-ratings.png)
+![تقييمات المنتجات في نقطة البيع.](media/rnr-pos-catalog-ratings.png)
 
 يبين الرسم التوضيحي التالي مثالاً لتقييمات المنتجات في قنوات مركز الاتصال.
 
-![تقييمات المنتجات في قناة مركز الاتصال](media/rnr-call-center-ratings.png)
+![تقييمات المنتجات في قناة مركز الاتصال.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -135,3 +132,6 @@ ms.locfileid: "4409959"
 [إدارة التقييمات والمراجعات](manage-reviews.md)
 
 [تكوين التقييمات والمراجعات](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,33 +1,35 @@
 ---
 title: معالجة الأحداث الحياتية
 description: أثناء دورة حياة الموظف في Microsoft Dynamics 365 Human Resources، قد يواجه كل موظف العديد من تغييرات الأحداث الحياتية المختلفة.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9155795edf657d6589539e58d4c1536f7e9d64c3
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417059"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069645"
 ---
 # <a name="process-life-events"></a>معالجة الأحداث الحياتية
 
-أثناء دورة حياة الموظف في Microsoft Dynamics 365 Human Resources، قد يواجه كل موظف العديد من تغييرات الأحداث الحياتية المختلفة. على سبيل المثال، الزواج أو التغيير في التوظيف أو في المعال/المستفيد. لاستخدام الأحداث الحياتية، يجب تمكين الأحداث الحياتية في نموذج محددات الميزات وإعداد أنواع الأحداث الحياتية وإعداد خيارات الأحداث الحياتية لأنواع الخطط.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+أثناء دورة حياة الموظف في Microsoft Dynamics 365 Human Resources، قد يواجه كل موظف العديد من تغييرات الأحداث الحياتية المختلفة. على سبيل المثال، الزواج أو التغيير في التوظيف أو في المعال/المستفيد. لاستخدام الأحداث الحياتية، يجب تمكين الأحداث الحياتية في صفحة **معلمات الميزات**، وإعداد أنواع الأحداث الحياتية وإعداد خيارات الأحداث الحياتية لأنواع الخطط.
 
 قبل أن تتمكن من معالجة الأحداث الحياتية، فإنه يجب أن تقوم بالفعل بتشغيل التسجيل المفتوح مرة واحدة على الأقل خلال الإطار الزمني للتوظيف. في الولايات المتحدة، عادة ما يكون التسجيل المفتوح مرة سنويًا. وخارج الولايات المتحدة، فإنه يمكن تشغيل التسجيل المفتوح في وقت التوظيف. لا يحتاج العامل إلى تحديد خطة الميزة لكي تتم معالجة الأحداث الحياتية، ولكن يجب تضمينها في معالجة التسجيل المفتوح. 
 
@@ -57,3 +59,6 @@ ms.locfileid: "4417059"
    4. حدد **موافق**. سيتم تشغيل العملية باستخدام المعلمات التي قمت بتعيينها.
 
 4. حدد **موافق**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.14 (أكتوبر 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.14 من Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
-ms.sourcegitcommit: 4e55bd178e315dfa132ec77fe705d68c68460b44
+ms.openlocfilehash: fc9b8d9b6c3ef2980e7b676e6c85e3372db8cdd601f25a2b696106991ae40a59
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4421805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739073"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>ما الجديد أو المتغير في الإصدار 10.0.14 من Dynamics 365 Supply Chain Management (نوفمبر 2020)
 
@@ -36,7 +33,7 @@ ms.locfileid: "4421805"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يتضمن هذا الإصدار نظامًا أساسيًا محدثًا وتحسينات عامة، ولكنه لا يتضمن أي ميزات خاصة بـ Supply Chain Management. لمزيد من المعلومات حول الميزات القادمة، راجع موقع [خطط الإصدار](https://docs.microsoft.com/dynamics365/release-plans/).
+يتضمن هذا الإصدار نظامًا أساسيًا محدثًا وتحسينات عامة، ولكنه لا يتضمن أي ميزات خاصة بـ Supply Chain Management. لمزيد من المعلومات حول الميزات القادمة، راجع موقع [خطط الإصدار](/dynamics365/release-plans/).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -52,7 +49,7 @@ ms.locfileid: "4421805"
 
 هل تتساءل عن الإمكانات القادمة والتي تم إصدارها حديثًا في أيٍّ من تطبيقات العمل أو النظام الأساسي الخاص بنا؟
 
-راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
+راجع [Dynamics 365: خطة الموجة 2 لإصدار 2020](/dynamics365-release-plan/2020wave2/index). لقد التقطنا جميع التفاصيل بشكل شامل، ومن الأعلى إلى الأسفل، في مستند واحد يمكنك استخدامه للتخطيط.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 
@@ -64,3 +61,6 @@ ms.locfileid: "4421805"
 قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

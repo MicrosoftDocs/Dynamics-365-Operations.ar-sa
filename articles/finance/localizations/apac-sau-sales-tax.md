@@ -2,11 +2,9 @@
 title: ضريبة المبيعات للمملكة العربية السعودية
 description: يوفر هذا الموضوع معلومات حول ضريبة المبيعات للمملكة العربية السعودية.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Saudi Arabia
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 546c614cffec03e0371cb9269063b209d4aaa5ea
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb8425f684ccb4181c34425d2cfdf8e23628d4be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968346"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836869"
 ---
 # <a name="sales-tax-for-saudi-arabia"></a>ضريبة المبيعات للمملكة العربية السعودية
 
@@ -115,3 +113,6 @@ ms.locfileid: "4968346"
 
 - [إنشاء دفع ضريبة مبيعات](../general-ledger/tasks/create-sales-tax-payment.md)
 - [الأسئلة الشائعة: إرجاع ضريبة القيمة المضافة (موقع ويب الحكومة)](https://www.vat.gov.sa/en/e-services/vat-returns)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

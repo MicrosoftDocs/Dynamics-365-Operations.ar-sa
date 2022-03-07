@@ -2,26 +2,23 @@
 title: قاعدة الإصدار إلى مستودع
 description: يوفر هذا الموضوع معلومات حول ميزة قاعدة الإصدار إلى المستودع، والتي توفر المرونة أثناء الإصدار للمستودع. ويضيف خيار تكوين يتحكم فيما إذا كان النظام يسمح بإصدار بنود الأمر المحجوزة جزئيًا أم لا.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 2fbc292ccf8e1f459bef4d70b8c37b2da8c3dd17
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421162"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580014"
 ---
 # <a name="release-to-warehouse-rule"></a>قاعدة الإصدار إلى مستودع
 
@@ -131,3 +128,6 @@ ms.locfileid: "4421162"
 
 > [!NOTE]
 > نتوقع حدوث نفس النتيجة عند حجز البند الثاني بشكل جزئي. في هذه الحالة، سيتم إنشاء العمل لكمية البند المحجوزة ولكن ليس للكمية غير المحجوزة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

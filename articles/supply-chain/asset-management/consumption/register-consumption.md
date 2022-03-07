@@ -1,12 +1,10 @@
 ---
 title: تسجيل الاستهلاك
 description: يوضح هذا الموضوع كيفية تسجيل الاستهلاك في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765555"
 ---
 # <a name="register-consumption"></a>تسجيل الاستهلاك
 
@@ -56,7 +54,7 @@ ms.locfileid: "5020770"
 
 تعرض لقطة الشاشة أدناه مثالا لتسجيلات الساعات والأصناف على أمر عمل في **دفاتر يومية أمر العمل**.
 
-![الشكل 1](media/01-consumption.png)
+![الشكل 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>تقسيم الساعات على أوامر العمل باستخدام وظائف أوامر عمل متعددة
@@ -75,13 +73,13 @@ ms.locfileid: "5020770"
 
 6. أدخل عدد ساعات العمل التي سيتم تقسيمها في الحقل **ساعات**.
 
-    ![الشكل 2](media/02-consumption.png)
+    ![الشكل 2.](media/02-consumption.png)
 
 7. انقر فوق **موافق**.
 
 *مثال:* في لقطة الشاشة أدناه، تظهر بنود دفتر اليومية لأمر عمل يحتوي على ثلاث مهام خاصة بأمر العمل. تم تقسيم البند الأول، الذي يحتوي على ثلاث ساعات عمل، وتم تسجيل ساعة عمل واحدة على كل وظيفة أمر عمل. بعد إنشاء بنود تسجيل الساعات الثلاثة، تقرر أنت ما يجب القيام به مع بند تسجيل الساعات الأصلي (البند الأول في المثال). يمكنك الاحتفاظ به كما هو أو حذفه. 
 
-![الشكل 3](media/03-consumption.png)
+![الشكل 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>الأبعاد المالية على تسجيلات الاستهلاك
 
@@ -94,3 +92,6 @@ ms.locfileid: "5020770"
 >[!NOTE]
 >بالنسبة إلى كافة أنواع التسجيلات الثلاثة، يتم التحقق من صحة تركيبة الأبعاد المالية، ويتم تجاهل التركيبات غير الصالحة. هذا هو الإعداد القياسي مع تطبيقات Finance and Operations الأخرى.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

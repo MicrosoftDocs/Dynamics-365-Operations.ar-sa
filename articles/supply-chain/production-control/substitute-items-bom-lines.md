@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 70171
 ms.assetid: ce3b11ef-550e-49b7-8942-2607c2ec3c5c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b7ee4bbb832fc21d52ff30b7acc8e6a5fd3aece
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ad96fb987b7694547527c38cdd982c59f9b50a8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421106"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255555"
 ---
 # <a name="material-substitution-in-manufacturing"></a>استبدال المواد في التصنيع
 
@@ -49,3 +48,6 @@ ms.locfileid: "4421106"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

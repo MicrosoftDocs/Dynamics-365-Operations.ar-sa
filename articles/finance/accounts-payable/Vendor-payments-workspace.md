@@ -2,27 +2,24 @@
 title: مساحة عمل دفعات المورد
 description: يوفر هذا الموضوع معلومات حول مساحة العمل "مدفوعات المورد‬". تعرض مساحة عمل "مدفوعات المورد‬" المعلومات المتعلقة بمعالجة مدفوعات المورد.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 39a9ba54ba26db5904c2cd519be9f83bbc68c037
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.openlocfilehash: 084a18d1af789c7ebb89d9a598754a9478a48b83fb949241c9fc34fefa7c152b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4440120"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749260"
 ---
 # <a name="vendor-payments-workspace"></a>مساحة عمل دفعات المورد
 
@@ -78,3 +75,6 @@ ms.locfileid: "4440120"
 |    رصيد المورد في مقابل رصيد العميل     |                                                                                                                   <ul><li>رصيد المورد في مقابل رصيد العميل</li><li>رصيد المورد في مقابل رصيد العميل لكل شركة</li><li>تفاصيل رصيد المورد في مقابل رصيد العميل</li></ul>                                                                                                                    |
 |    الفواتير مع تعليق الدفع     |                                                                                         <ul><li>الفواتير مع تعليق الدفع</li><li>تفاصيل الفواتير مع تعليق الدفع</li><li>الفواتير مع تعليق الدفع لكل شركة</li><li>الفواتير مع تعليق الدفع لكل مجموعة موردين</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

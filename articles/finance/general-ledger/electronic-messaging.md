@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d4ecc29e47d68129df424c4212505413cf6c8889
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 214d5cc2c3670b22fb4c28e5868fd9aade12ce84
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968969"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236760"
 ---
 # <a name="electronic-messaging"></a>المراسلة الإلكترونية
 
@@ -535,3 +535,6 @@ ms.locfileid: "4968969"
 ![تحديث حالة الرسالة](media/update-status.png)
 
 يتم تحديث حالة الرسالة إلى **تم الإعداد**، ويمكنك الآن إنشاء التقرير عن طريق تحديد **إنشاء تقرير**. يتم إنشاء التقرير، ويتم تحديث حالة الرسالة وسجل الإجراء. لعرض التقرير المنشأ، حدد زر **المرفق** (رمز مشبك الورق) في الزاوية العلوية اليسرى من الصفحة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

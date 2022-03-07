@@ -2,28 +2,25 @@
 title: ملفات تعريف ترحيل المورد
 description: تتحكم ملفات تعريف ترحيل المورد‬ في ترحيل حركات المورِّدين إلى دفتر الأستاذ العام.
 author: abruer
-manager: AnnBe
 ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43450c5f7ab8295b896b591880da9d0bddd955cf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f8ebb67bddf6fa9aae8ba6c6ed290c94bb2e0a047ca6157aa1325f4cf21f148f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777206"
 ---
 # <a name="vendor-posting-profiles"></a>ملفات تعريف ترحيل المورد
 
@@ -31,8 +28,7 @@ ms.locfileid: "4439780"
 
 تتحكم ملفات تعريف ترحيل المورد‬ في ترحيل حركات المورِّدين إلى دفتر الأستاذ العام.
 
-<a name="vendor-posting-profiles"></a>ملفات تعريف ترحيل المورد
------------------------
+## <a name="vendor-posting-profiles"></a>ملفات تعريف ترحيل المورد
 
 تمكنك ملفات تعريف ترحيل المورد من تعيين حسابات دفتر الأستاذ العام وإعدادات الوثيقة لكل الموردين أو مجموعة من الموردين أو مورد واحد. وسيتم استخدام هذه الإعدادات عندما تقوم بإنشاء أوامر شراء وفواتير الموردين والمدفوعات النقدية. ويمكنك في بعض الحركات تحديد ملف تعريف ترحيل يختلف عن إعداد ملفات تعريف الترحيل للحركات بهذه الصفحة وله الأسبقية عليه. ويتم تحديد ملف تعريف الترحيل الافتراضي في علامة التبويب السريعة **دفتر الأستاذ وضريبة المبيعات** في صفحة **معلمات الحسابات الدائنة**. يتم بعد ذلك تضمين ملف تعريف الترحيل الافتراضي تلقائيًا في رأس المستندات الجديدة، حيث يمكنك تغييره إلى ملف تعريف ترحيل مختلف، إذا لزم الأمر.
 
@@ -119,3 +115,6 @@ ms.locfileid: "4439780"
 | **التسوية** | حدد هذا الخيار لتمكين التسوية التلقائية للحركات التي تتضمن ملف تعريف الترحيل هذا. في حالة إلغاء تحديد هذا الخيار، يجب تسوية الحركات يدوياً باستخدام صفحة **تسوية الحركات المفتوحة**. |
 | **إلغاء**     | حدد هذا الخيار إذا أردت التمكن من إلغاء الحركات التي تتضمن ملف تعريف الترحيل هذا.                                                                                                               |
 | **إغلاق**      | حدد ملف تعريف ترحيل للتغيير إليه عند إغلاق الحركات بملف تعريف الترحيل هذا. ويتم اعتبار الحركة مغلقة عند تسويتها بالكامل.                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

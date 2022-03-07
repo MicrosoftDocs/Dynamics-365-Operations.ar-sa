@@ -2,16 +2,13 @@
 title: إنشاء تنبؤ أساسي إحصائي
 description: يوفر هذا الموضوع معلومات حول المعلمات وعوامل التصفية التي يتم استخدامها في حساب التنبؤ بالطلب.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421611"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816498"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>إنشاء تنبؤ أساسي إحصائي
 
@@ -78,3 +75,6 @@ ms.locfileid: "4421611"
 - [القيام بتسويات يدوية في التنبؤ الأساسي](manual-adjustments-baseline-forecast.md)
 
 - [تخويل ‏‫التنبؤ الذي تمت تسويته](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

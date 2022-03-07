@@ -2,32 +2,28 @@
 title: تحميل الملفات الثابتة وخدمتها
 description: يوضح هذا الموضوع كيفية تحميل ملف ثابت إلى منشئ موقع Microsoft Dynamics 365 Commerce ، وكيفية إنشاء عنوان URL مخصص واسم ملف يمكن استخدامه لطلب هذا الملف.
 author: StuHarg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 981bbf03480abfd812b4020173b7acfdad0fef14
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594940"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714673"
 ---
 # <a name="upload-and-serve-static-files"></a>تحميل الملفات الثابتة وخدمتها
 
-[!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية تحميل ملف ثابت إلى منشئ موقع Microsoft Dynamics 365 Commerce ، وكيفية إنشاء عنوان URL مخصص واسم ملف يمكن استخدامه لطلب هذا الملف.
 
@@ -107,3 +103,6 @@ ms.locfileid: "4594940"
 [اقتصاص الصور](dam-crop-images.md)
 
 [تخصيص نقاط تركيز الصورة](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

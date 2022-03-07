@@ -1,12 +1,10 @@
 ---
-title: تكوين تجربة التعليمات لتطبيقات Finance and Operations
-description: يوفر هذا الموضوع معلومات حول مكونات نظام التعليمات لبعض تطبيقات Microsoft Dynamics 365. كما يوضح كيفية توصيل هذه التطبيقات وتوفير ملخص لعملية إنشاء تعليمات مخصصة.
+title: تكوين تجربة التعليمات لتطبيقات التمويل والعمليات
+description: يوفر هذا الموضوع معلومات حول مكونات نظام التعليمات لبعض تطبيقات Microsoft Dynamics 365.
 author: margoc
-manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
@@ -17,31 +15,34 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d000c3f801d382921a027c8ee259fd44ac5cdc80
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798270"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070998"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>تكوين تجربة التعليمات لتطبيقات Finance and Operations
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>تكوين تجربة التعليمات لتطبيقات التمويل والعمليات
 
 [!include [banner](../includes/banner.md)]
 
-في هذا الموضوع، ستجد نظرة عامة على مكونات نظام التعليمات لتطبيقات Finance and Operations، مثل Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management وDynamics 365 Commerce وDynamics 365 Human Resources. يوضح الموضوع أيضًا كيفية توصيل هذه التطبيقات ويوفر ملخصًا لعملية إنشاء تعليمات مخصصة.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+في هذا الموضوع، ستجد نظرة عامة على مكونات نظام التعليمات لتطبيقات التمويل والعمليات، مثل Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management وDynamics 365 Commerce وDynamics 365 Human Resources. يوضح الموضوع أيضًا كيفية توصيل هذه التطبيقات ويوفر ملخصًا لعملية إنشاء تعليمات مخصصة.
 
 ## <a name="help-architecture"></a>بنية التعليمات
 
-تشمل تطبيقات Finance and Operations نظرات تصورية ومواضيع أخرى يتم نشرها على موقع [https://docs.microsoft.com/dynamics365](/dynamics365/). يمكن بعد ذلك الوصول إلى هذا المحتوى من خلال جزء **التعليمات** داخل المنتج. يبين الرسم التوضيحي التالي أجزاء نظام التعليمات.
+تتضمن تطبيقات التمويل والعمليات نظرات تصورية ومواضيع أخرى منشورة في موقع [وثائق Microsoft Dynamics 365](/dynamics365/). يمكن بعد ذلك الوصول إلى هذا المحتوى من خلال جزء **التعليمات** داخل المنتج. يبين الرسم التوضيحي التالي أجزاء نظام التعليمات.
 
-[![بنية التعليمات](./media/help-architecture.png)](./media/help-architecture.png)
+[![بنية التعليمات.](./media/help-architecture.png)](./media/help-architecture.png)
 
 يقوم نظام التعليمات داخل المنتج بسحب المقالات من docs.microsoft.com ومواقع ويب الأخرى المتصلة. كما يسحب أيضًا أدلة المهام التي يتم تخزينها في ‏‫أداة تكوين عمليات الأعمال (BPM)‬ في Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="adding-task-guides"></a>إضافة دلائل المهام
 
 > [!NOTE]
-> في الوقت الحالي لا تتوفر علامة التبويب **دلائل المهام** في Human Resources أو Commerce. <!--We are currently working to enable this functionality in a future release.--> مع ذلك، تظل دلائل المهام في تجربة "بدء الاستخدام" في Human Resources متاحة لتغطية الوظائف الأساسية. فيما يتعلق بكل من Human Resources وCommerce، تتوفر تعليمات إجرائية على موقع [https://docs.microsoft.com/dynamics365](/dynamics365/).
+> في الوقت الحالي لا تتوفر علامة التبويب **دلائل المهام** في Human Resources أو Commerce. <!--We are currently working to enable this functionality in a future release.--> مع ذلك، تظل دلائل المهام في تجربة "بدء الاستخدام" في Human Resources متاحة لتغطية الوظائف الأساسية. فيما يتعلق بكل من Human Resources وCommerce، تتوفر تعليمات إجرائية على موقع [وثائق Microsoft Dynamics 365](/dynamics365/).
 
 في صفحة **معلمات النظام**، يمكن لمسؤولي النظام تكوين الوصول إلى مكتبات دلائل المهام ذات الصلة لأي عملية تنفيذ.
 
@@ -49,20 +50,20 @@ ms.locfileid: "4798270"
 > - لتكوين التعليمات، يجب أن تسجل الدخول باستخدام حساب في المستأجر نفسه الذي تم فيه نشر التطبيق.
 > - لا يمكن الاتصال بمكتبة LCS من مثيل تطبيق قيد التشغيل على محرك أقراص ثابت محلي ظاهري (VHD).
 
-[![نموذج محددات النظام مع إعدادات نظام التعليمات](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![نموذج محددات النظام مع إعدادات نظام التعليمات.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 لتكوين دلائل مهام لأحد الحلول، اتبع الخطوات التالية في صفحة **معلمات النظام**.
 
 > [!IMPORTANT]
 > في المرة الأولى التي تفتح فيها علامة التبويب **تعليمات** يجب الاتصال بميزة Lifecycle Services. احرص على تحديد الارتباط الموجود في وسط النموذج، وانتظر الاتصال، ثم قم بإغلاق مربع الحوار، ثم حدد **موافق** للوصول إلى صفحة **معلمات النظام**.
 >
-> [![الاتصال بـ LCS](./media/connect-to-lcs-crop-1024x365.png "الاتصال بـ LCS")](./media/connect-to-lcs-crop.png)
+> [![الاتصال بـ LCS](./media/connect-to-lcs-crop-1024x365.png "الاتصال بـ LCS.")](./media/connect-to-lcs-crop.png)
 
 1. تحديد مشروع Lifecycle Services المراد الاتصال به.
 2. تحديد مكتبات BPM (في المشروع المحدد) لاسترداد تسجيلات المهام منها.
 3. تعيين أمر العرض لمكتبات BPM. ويحدد ترتيب العرض الترتيب الذي ستظهر به تسجيلات المهام من المكتبات في جزء **المساعدة**.
 
-بعد أن تكمل هذه الخطوات، يمكنك فتح جزء **التعليمات** وتحديد علامة تبويب **دلائل المهام**. سترى الآن دلائل المهام التي تنطبق على الصفحة التي تعمل عليها حاليًا في تطبيقات Finance and Operations. إذا لم تعثر على دلائك المهام، فيمكنك إدخال كلمات أساسية لتنقية البحث.
+بعد أن تكمل هذه الخطوات، يمكنك فتح جزء **التعليمات** وتحديد علامة تبويب **دلائل المهام**. سترى الآن دلائل المهام التي تنطبق على الصفحة التي تعمل عليها حاليًا في تطبيقات التمويل والعمليات. إذا لم تعثر على دلائك المهام، فيمكنك إدخال كلمات أساسية لتنقية البحث.
 
 ### <a name="showing-translated-task-guides"></a>إظهار دلائل المهام المترجمة
 
@@ -86,7 +87,7 @@ ms.locfileid: "4798270"
 
 ### <a name="connect-a-custom-help-site"></a>الاتصال بموقع تعليمات مخصص
 
-نادرًا ما يتم استخدام تطبيقات Finance and Operations في نموذج جاهز لها. بدلا من ذلك، يتم تخصيص الحل وتوسيعه لملائمة احتياجات المؤسسة. يمكنك أيضا تخصيص تجربة التعليمات وتوسيعها. على سبيل المثال، يمكنك إضافة تعليمات مخصصة إلى جزء **تعليمات** داخل المنتج.
+نادرًا ما يتم استخدام تطبيقات التمويل والعمليات في نموذج جاهز لها. بدلا من ذلك، يتم تخصيص الحل وتوسيعه لملائمة احتياجات المؤسسة. يمكنك أيضا تخصيص تجربة التعليمات وتوسيعها. على سبيل المثال، يمكنك إضافة تعليمات مخصصة إلى جزء **تعليمات** داخل المنتج.
 
 قامت Microsoft بتوفير مجموعة أدوات تساعدك في نشر التعليمات المخصصة وتوصيلها بجزء **التعليمات**. للحصول على معلومات حول كيفية إعداد حل تعليمات مخصص متصل جزء **التعليمات**، راجع [نظرة عامة حول التعليمات المخصصة](../../dev-itpro/help/custom-help-overview.md).
 
@@ -99,3 +100,6 @@ ms.locfileid: "4798270"
 [موارد مسجل المهام](../../dev-itpro/user-interface/task-recorder.md)  
 [إنشاء الوثائق أو التدريب بمسجل المهام](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [مستودع GitHub للتعليمات المخصصة](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

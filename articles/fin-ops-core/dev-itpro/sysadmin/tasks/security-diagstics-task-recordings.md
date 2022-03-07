@@ -2,11 +2,9 @@
 title: ‏‫تشخيصات الأمان‬ لتسجيلات المهام
 description: يوفر هذا الموضوع معلومات حول كيفيه تحليل متطلبات أذونات الأمان وإدارتها استنادا إلى تسجيل مهمة.
 author: Peakerbl
-manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679780"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745755"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>‏‫تشخيصات الأمان‬ لتسجيلات المهام
 
@@ -49,3 +47,6 @@ ms.locfileid: "4679780"
     - في حالة تحديد **الدور** حدد **إضافة دور إلى المستخدم**. سيؤدي ذلك إلى فتح صفحة **تعيين مستخدمين إلى أدوار**. لمزيد من المعلومات، راجع [تعيين مستخدمين إلى أدوار أمان‬](assign-users-security-roles.md).
     - في حالة تحديد **الرسوم** فحدد **إضافة رسوم إلى الدور** ، وحدد الأدوار التي يجب إضافه الرسوم إليها، ثم حدد **موافق**.
     - في حالة تحديد **الامتياز** فحدد **إضافة امتياز إلى الرسوم** ، وحدد الأدوار التي يجب إضافه الرسوم إليها، ثم حدد **موافق**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

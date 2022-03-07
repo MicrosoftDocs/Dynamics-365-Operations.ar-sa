@@ -1,27 +1,24 @@
 ---
 title: إعداد وإنشاء معلومات تقادم الحسابات المدينة
 description: سوف يساعدك هذا الدليل في إعداد تعريف فترة تقادم، وأرصدة العميل القديمة‬، وعرض الأرصدة في قائمة الأرصدة المتقادم‬ة وصفحة التحصيلات‬.
-author: mikefalkner
-manager: AnnBe
+author: abruer
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 439be64a864056cc19fd156f664a4b90601be040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439967"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753521"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>إعداد وإنشاء معلومات تقادم الحسابات المدينة
 
@@ -59,3 +56,6 @@ ms.locfileid: "4439967"
 2. حدد عميلاً له رصيد.
 3. وسّع منطقة مربع **حقائق التقادم** لعرض الأرصدة المتقادمة. يؤخذ تعريف فترة التقادم لمربع الحقائق من تعريف فترة التقادم الافتراضية المحددة في المحددات. يمكنك تغيير ذلك باستخدام القائمة "تحصيل‬".  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: علاقات كائنات الخدمة
 description: يمكنك إنشاء علاقات كائنات الخدمة بين كائن خدمة واتفاقية خدمة أو أمر خدمة.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 02/21/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2b1b76dffc2751d51c2a25d831fab512b747c15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7eb5b185ca2ef5903eb1739edfdd7b60749babd4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421057"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576342"
 ---
 # <a name="service-object-relations"></a>علاقات كائنات الخدمة 
 
@@ -78,3 +75,6 @@ ms.locfileid: "4421057"
 
 إذا قمت بإنشاء أوامر الخدمة لاتفاقية الخدمة بشكل تلقائي، فإن علاقات كائن الخدمة في الاتفاقية ستنشأ أيضًا في أوامر الخدمة.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

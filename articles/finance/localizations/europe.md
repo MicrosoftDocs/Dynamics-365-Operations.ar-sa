@@ -2,25 +2,23 @@
 title: نظرة عامة على أوروبا
 description: يوفر هذا الموضوع ارتباطات إلى موارد وثائق Microsoft Dynamics 365 Finance لأوروبا.
 author: ShylaThompson
-manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.custom: intro-internal
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 638e0468f9d200083d8263786f5f5750b6129e73
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512201"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336676"
 ---
 # <a name="europe-overview"></a>نظرة عامة على أوروبا
 
@@ -41,6 +39,7 @@ ms.locfileid: "4512201"
 - [تقارير قائمة مبيعات الاتحاد الأوروبي](emea-eu-sales-list.md)
 - [تعديلات سعر الصرف](emea-exchange-rate-adjustments.md)
 - [تنسيقات ملفات طرق الدفع](emea-select-file-formats-for-the-method-of-payments.md)
+- [إرشادات التمويل (العولمة) حول تأثير خروج بريطانيا من الاتحاد الأوروبي](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [تكامل الخدمة المالية (ESR)](emea-fiscal-service-integration.md)
 - [التخلص من الأصول الثابتة لإستونيا وليتوانيا](emea-credit-note-reverse-fixed-asset-sale.md)
 - [إنشاء مستند تحويل لتحويل مخزون داخلي](tasks/transfer-document-internal-inventory-transfer.md)
@@ -65,6 +64,7 @@ ms.locfileid: "4512201"
 - [معالجة الفاتورة](emea-invoice-processing.md)
 - [إصدار شهادة دخول الاتحاد الأوروبي](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [المعايير المدعومة للفوترة الإلكترونية](emea-oioubl-standards-electronic-invoicing.md)
+- [إنشاء الفواتير الإلكترونية القسري](emea-eur-forced-einvoices.md)
 - [مرجع الفاتورة الأصلية (أوروبا الشرقية)](tasks/ee-00004-original-invoice-reference.md)
 - [البحث عن طرف باستخدام معرف ضريبة القيمة المضافة](tasks/eur-00015-party-search-vat-id.md)
 - [أداة إنشاء مرجع الدفع](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -97,5 +97,8 @@ ms.locfileid: "4512201"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-- [نظرة عامة على إعداد التقارير الإلكترونية](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [نظرة عامة على إعداد التقارير الإلكترونية](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

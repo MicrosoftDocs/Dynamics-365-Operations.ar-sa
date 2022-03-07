@@ -2,36 +2,29 @@
 title: نظرة عامة على البحث المشغل في السحابة
 description: يقدم هذا الموضوع نظرة عامة حول البحث المشغل في السحابة في Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/29/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409769"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983659"
 ---
 # <a name="cloud-powered-search-overview"></a>نظرة عامة على البحث المشغل في السحابة
-
 
 [!include [banner](includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة حول البحث المشغل في السحابة في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يساعد اكتشاف المنتج في ضمان أن العملاء يمكنهم العثور بسرعة وسهولة على المنتجات من خلال تصفح الفئات والبحث والتصفية. يعتبر اكتشاف المنتجات بالنسبة إلى بائعي التجزئة أداة أساسية لتفاعلات العملاء عبر جميع القنوات.
 
@@ -47,7 +40,7 @@ ms.locfileid: "4409769"
 
 يوضح الرسم التوضيحي التالي مثالًا على وظائف الاستعراض والبحث النموذجية.
 
-![صفحة البحث المنتقل إليها](./media/SearchLanding.png)
+![صفحة البحث المنتقل إليها.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>التنقل المحدد وملخص الاختيار 
 
@@ -57,7 +50,7 @@ ms.locfileid: "4409769"
 
 يوضح الرسم التوضيحي التالي مثالًا على استخدام التنقل المحدد في البحث.
 
-![ملخص الاختيار](./media/ChoiceSummary.png)
+![ملخص الاختيار.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>الاقتراح التلقائي الرائع
 
@@ -67,7 +60,7 @@ ms.locfileid: "4409769"
 
 يوضح الرسم التوضيحي التالي مثالًا حيث يتم استخدام اقتراح تلقائي مميز.
 
-![الاقتراح التلقائي الرائع](./media/ImmersiveAutoSuggestUX.png)
+![الاقتراح التلقائي الرائع.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>فرز
 
@@ -75,10 +68,13 @@ ms.locfileid: "4409769"
 
 >[!NOTE]
 >إمكانيات البحث المتصلة بالسحابة هذه متوفرة للبدء في الإصدار 10.0.8. تأكد من أن تحت **معلمات التجارة > معلمات التكوين** يوجد إدخال لـ "ProductSearch.UseAzureSearch تم تعيينه إلى"صواب"". 
-![معلمات التكوين للبحث عن طريق السحابة](./media/CloudPoweredSearchConfigurationParameters.png)
+![معلمات التكوين للبحث عن طريق السحابة.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث](category-search-page-overview.md)
 
 [إدارة بيانات تعريف SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

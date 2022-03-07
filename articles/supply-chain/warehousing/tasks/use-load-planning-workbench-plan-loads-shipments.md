@@ -2,27 +2,24 @@
 title: تخطيط الأحمال والشحنات باستخدام أداة تخطيط الحِمل
 description: يوضح هذا الموضوع كيفية استخدام منضدة تخطيط الحمل لإنشاء حمل لأمر مبيعات.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c37a98a3728cb1233a6e1207975a6b8f23f8120d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f5c343ac75d3f2d587dc3298adc2ba9f4b3d08a7ce87a0dd8dd0791cf4d4e050
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723397"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>تخطيط الأحمال والشحنات باستخدام أداة تخطيط الحِمل
 
@@ -61,3 +58,6 @@ ms.locfileid: "4421748"
 5. حدد **تعيين**.
 6. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

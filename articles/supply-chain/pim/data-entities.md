@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 20d067effc6139084c5d89b5d4698e1adf2bbf9f
-ms.sourcegitcommit: e9776095b92d19f214cd6765bbe9bf111432a699
+ms.openlocfilehash: 1e7bda8cc900a5ae3ebab8e78254c802a627dc6d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4421839"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243263"
 ---
 # <a name="product-data-entities"></a>كيانات بيانات المنتج
 
@@ -50,3 +49,6 @@ ms.locfileid: "4421839"
 
 > [!NOTE]
 > يمكنك استخدام كيان بيانات **المنتجات التي تم إصدارها V2** لاستيراد المنتجات إلى النظام فقط إذا تم بالفعل إنشاء المنتج المشترك. وبخلاف ذلك، لاستيراد المنتجات إلى النظام، يجب عليك استخدام كيان بيانات **إنشاء المنتج** .
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: تعديل النماذج والتعيينات لإنشاء مستندات تتضمن بيانات التطبيق
-description: لإكمال الخطوات المذكورة في هذا الإجراء، يجب عليك أولاً إكمال الإجراء، "التقارير الإلكترونية - إنشاء مستندات بواسطة تحديث بيانات التطبيق (الجزء 2 - إنشاء المستندات)‬".
+description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لإنشاء مستند إلكتروني وتحديث بيانات التطبيق. (الجزء 2 - إنشاء المستندات).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3401ec98ac1b61572d07fbb30d4465de78473fca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2d7df46bab244d11509b86a27eeed3c2725400b5eb4d0fbf50af1750e7de45d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745878"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>تعديل النماذج والتعيينات لإنشاء مستندات تتضمن بيانات التطبيق
 
@@ -168,3 +166,6 @@ ms.locfileid: "4684561"
 66. قم بإغلاق الصفحة.
 67. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

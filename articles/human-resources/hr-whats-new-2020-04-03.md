@@ -1,33 +1,32 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources (3 أبريل 2020)
 description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 3 أبريل 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f5d7ab996e0d27f763cd4c3c51e9a2c923d909b
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0f5f52b2e6bf646f6dd53acfd2928682e84e78fb
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526776"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063558"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources (3 أبريل 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 تصف هذه المقالة الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3111. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم المرجع في  Lifecycle Services (LCS).
 
@@ -64,7 +63,7 @@ ms.locfileid: "4526776"
  - طبقة الإجازة والغياب V2
  - خطة الإجازة والغياب V2
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>يتوفر حل Common Data Service الآن مع التغييرات التالية:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>يتوفر حل Dataverse الآن مع التغييرات التالية:
 
 | ‏‏الوصف | تغيير |
 | --- | --- |
@@ -76,18 +75,18 @@ ms.locfileid: "4526776"
 | كيانات إعداد التعويض المتغيرة الجديدة | <ul><li>**نوع خطة التعويض المتغير**</li><li>**خطة التعويض المتغيرة**</li><li>**قواعد الاستحقاق**</li><li>**مستوى خطة التعويض المتغير**</li></ul> |
 | كيان **توظيف تقويم العامل** الجديد | <ul><li>تمت إضافة **كيان تقويم العمل**</li></ul> |
 | كيان **تفاصيل المنصب في كشف الرواتب** الجديد | <ul><li>تمت إضافة **تفاصيل المنصب في كشف الرواتب**</li></ul> |
-| كيان **العنوان** الجديد | <ul><li>تمت إضافة **العنوان**</li></ul>تم تضمين كيان **العنوان** الجديد في Common Data Service ولكن لا تتم الإشارة إليها من الكيانين **منصب الوظيفة‬** أو **الوظيفة‬‏‎** في هذا الوقت. |
+| كيان **العنوان** الجديد | <ul><li>تمت إضافة **العنوان**</li></ul>تم تضمين كيان **العنوان** الجديد في Dataverse ولكن لا تتم الإشارة إليها من الكيانين **منصب الوظيفة‬** أو **الوظيفة‬‏‎** في هذا الوقت. |
 
 > [!NOTE]
-> توفر الأبعاد المالية لكل من المنصب والتوظيف تكاملاً أحادي الاتجاه للتحديثات من Human Resources إلى Common Data Service. في الوقت الحالي، لا تتم مزامنة تحديثات الأبعاد المالية من Common Data Service إلى Human Resources.
+> توفر الأبعاد المالية لكل من المنصب والتوظيف تكاملاً أحادي الاتجاه للتحديثات من Human Resources إلى Dataverse. في الوقت الحالي، لا تتم مزامنة تحديثات الأبعاد المالية من Dataverse إلى Human Resources.
 
-خلال الأسابيع القليلة التالية، ستتوفر هذه التغييرات الخاصة بالكيانات في كافة البيئات. لتثبيت حل Common Data Service الأحدث لـ Human Resources:
+خلال الأسابيع القليلة التالية، ستتوفر هذه التغييرات الخاصة بالكيانات في كافة البيئات. لتثبيت حل Dataverse الأحدث لـ Human Resources:
 
 1.  انتقل إلى [مركز إدارة Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  حدد **بيئات**.
 
-3.  ابحث عن البيئة التي تريد ترقيتها. يجب أن تتطابق البيئة مع **اسم البيئة** في قسم **Common Data Service المعلومات** في النموذج **حول** في Human Resources.
+3.  ابحث عن البيئة التي تريد ترقيتها. يجب أن تتطابق البيئة مع **اسم البيئة** في قسم **Dataverse المعلومات** في النموذج **حول** في Human Resources.
 
 4.  حدد البيئة لعرض تفاصيل البيئة.
 
@@ -134,6 +133,8 @@ ms.locfileid: "4526776"
 ## <a name="see-also"></a>راجع أيضًا
 
 [المزايا الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 046204d36e2fc7a69129aaf7fe027b2abc7e8dd9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4d37abc6c88fccf7ba71a725ad06922f41dc9cfc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409882"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226605"
 ---
 # <a name="info-codes-and-info-code-groups"></a>أكواد المعلومات وأكواد مجموعات المعلومات
 
@@ -56,3 +55,6 @@ ms.locfileid: "4409882"
 **مثال 2: ربط أكواد المعلومات بمجموعات أكواد المعلومات**
 
 عند بيع بعض المنتجات، الأجهزة المحمولة على سبيل المثال، يمكنك جمع مجموعة معينة من المعلومات، مثل رقم الهاتف ومعرف المعدات المتنقلة (MEID) والرقم التسلسلي. كما تختلف المعلومات التي تحتاج إلى الحصول عليها باختلاف المنتج من كمبيوتر لوحي إلى هاتف محمول. يمكنك إعداد مجموعة أكواد معلومات تتضمن مطالبات برقم الهاتف ومعرف MEID والرقم المسلسل ثم ربط مجموعة أكواد المعلومات بكود معلومات واحد. عند تشغيل كود المعلومات الخاص بالمنتج، يتم تشغيل مجموعة أكواد المعلومات التالية لتمكينك من الحصول على البيانات الشائعة دون الحاجة إلى تحديد مجموعات متعددة من أكواد المعلومات المرتبطة لكل جهاز.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

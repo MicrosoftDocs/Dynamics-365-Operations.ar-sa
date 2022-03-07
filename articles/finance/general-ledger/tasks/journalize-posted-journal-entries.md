@@ -2,11 +2,9 @@
 title: تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
 description: يوضح هذه الإجراء كيفية تسجيل إدخالات دفتر اليومية المرحلة في دفتر اليومية.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters, SysQueryForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad18063e0a66a4aac0ebef7f0ce45c73137abcc7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 519431684cd26d566ae4c9dd75010d5c98881b602681211908c0c70215448fea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738445"
 ---
 # <a name="journalize-posted-journal-entries"></a>تسجيل إدخالات دفتر اليومية المرّحلة في دفتر يومية
 
@@ -39,3 +37,6 @@ ms.locfileid: "4968519"
 9. انقر فوق **موافق** لإغلاق صفحة عامل التصفية.
 10. انقر فوق **موافق** لبدء عملية التسجيل في دفتر اليومية. سيتم إنشاء تقرير بعد اكتمال العملية.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

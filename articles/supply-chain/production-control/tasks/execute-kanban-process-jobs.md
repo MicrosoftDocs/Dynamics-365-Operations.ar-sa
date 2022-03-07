@@ -1,28 +1,25 @@
 ---
 title: تنفيذ وظائف عملية كانبان
 description: يركز هذا الإجراء على تنفيذ وظائف عملية كانبان.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1c32b577007c400f3528a110436eb97aaabefe2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ac6f0f6139fe17532f6fbd996b314e0b14f3d90
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421415"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566566"
 ---
 # <a name="execute-kanban-process-jobs"></a>تنفيذ وظائف عملية كانبان
 
@@ -57,3 +54,6 @@ ms.locfileid: "4421415"
 6. في الحقل "كمية البضائع"، أدخل رقمًا.
 7. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

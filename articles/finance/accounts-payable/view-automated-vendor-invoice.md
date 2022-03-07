@@ -2,11 +2,9 @@
 title: عرض نتائج أتمتة فاتورة المورد (معاينة)
 description: يوضح هذا الموضوع كيفيه عرض حاله فواتير المورد الموجودة في عمليه الإرسال إلى سير العمل التلقائية.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 872ec404da0cce41c4ea0f882a3fa8af56316ce3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969716"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837215"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>عرض نتائج التنفيذ التلقائي لفاتورة المورد
 
@@ -37,3 +35,6 @@ ms.locfileid: "4969716"
 - **متوقف مؤقتا** – تم تشغيل العمليات التلقائية التي تم تحديدها في الصفحة **معلمات الحسابات الدائنة**، ولكن توجد خطوه واحده علي الأقل في العملية. يتم تطبيق الحالة **تم الإيقاف المؤقت** أيضا إذا تم تعيين الحقل **تضمين في المعالجة التلقائية** إلى **لا**. يمكنك عرض حالات الفشل عن طريق تحديد **عرض أحدث النتائج**.
 - **في سير العمل** – تم إرسال الفاتورة المستوردة إلى نظام سير العمل، سواء كانت بواسطة عمليه الإرسال إلى سير العمل التلقائية أو يدويا.
 - **إكمال سير العمل** – تم إكمال عمليه سير العمل للفاتورة التي تم استيرادها.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

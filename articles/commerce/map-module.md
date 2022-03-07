@@ -2,15 +2,12 @@
 title: وحدة الخريطة
 description: يتناول هذا الموضوع الوحدات النمطية للخريطة ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: b8c3ab0653fd5e3561d0bfbe85624d912756e2be
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665410"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794177"
 ---
 # <a name="map-module"></a>وحدة الخريطة
 
@@ -31,8 +28,6 @@ ms.locfileid: "4665410"
 
 
 يتناول هذا الموضوع الوحدات النمطية للخريطة ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تظهر الوحدة النمطية للخريطة مواقع المتاجر في خريطة تفاعلية يتم عرضها باستخدام [عنصر تحكم ويب V8 لخرائط Bing](https://docs.microsoft.com/bingmaps/v8-web-control/). يلزم إدخال مفتاح API لخرائط Bing ويجب إضافته إلى صفحة المعلمات المشتركة في مركز Commerce الرئيسي.‬ توفر الوحدات النمطية للخريطة طرق عرض مختلفة، مثل الطريق والجو والشارع، يمكن للمستخدمين تحديدها لعرض مواقع الخريطة. كما تسمح أيضًا بالتفاعلات مثل التكبير/التصغير واستخدام موقع المستخدم.
 
@@ -82,3 +77,6 @@ ms.locfileid: "4665410"
 [إدارة خرائط Bing لمؤسستك](./dev-itpro/manage-bing-maps.md)
 
 [عنصر تحكم ويب V8 لخرائط Bing](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

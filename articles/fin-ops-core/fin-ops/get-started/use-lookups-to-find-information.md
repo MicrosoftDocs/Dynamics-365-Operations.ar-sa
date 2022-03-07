@@ -1,12 +1,10 @@
 ---
 title: البحث عن المعلومات باستخدام عمليات البحث
-description: يتضمن عدد كبير من الحقول وظيفة البحث التي تساعدك في العثور على القيمة الصحيحة أو المطلوبة بسهولة. تمت إضافة العديد من التحسينات لـعمليات البحث والتي جعلت عناصر التحكم هذه أكثر قابلية للاستخدام، وعززت من إنتاجية المستخدمين. في هذا الموضوع، سوف تتعلم بشأن هذه الميزات الجديد للبحث، وسوف تحصل على نصائح مفيدة للوصول إلى أقصى استفادة ممكنة عند استخدامك لـ Lookups في النظام.
+description: في هذا الموضوع، سوف تتعلم بشأن ميزات البحث هذه، وسوف تحصل على نصائح مفيدة للوصول إلى أقصى استفادة ممكنة عند استخدامك لعمليات البحث في النظام.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798132"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069288"
 ---
 # <a name="find-information-by-using-lookups"></a>البحث عن المعلومات باستخدام عمليات البحث
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يتضمن عدد كبير من الحقول وظيفة البحث التي تساعدك في العثور على القيمة الصحيحة أو المطلوبة بسهولة. تمت إضافة العديد من التحسينات لـعمليات البحث والتي جعلت عناصر التحكم هذه أكثر قابلية للاستخدام، وعززت من إنتاجية المستخدمين. في هذا الموضوع، سوف تتعلم بشأن هذه الميزات الجديد للبحث، وسوف تحصل على نصائح مفيدة للوصول إلى أقصى استفادة ممكنة عند استخدامك لـ Lookups في النظام.
 
@@ -46,15 +47,15 @@ ms.locfileid: "4798132"
 
 عندما يكون التركيز في حقل **المدينة**، يمكنك بدء البحث عن المدينة التي تريدها عن طريق كتابة بعض الأحرف، مثل "العمود". بعد التوقف عن الكتابة، سوف يفتح البحث تلقائياً، ويقوم بتصفية تلك المدن التي تبدأ بـ "العمود".
 
-[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 في هذه المرحلة، يظل المؤشر في حقل البحث. إذا تابعت الكتابة، لتكون القيمة "العمود"، فمن ثم يتم ضبط محتويات البحث تلقائيًا لتعكس أحدث قيمة في عنصر التحكم.
 
-![updateFilterLookupExample](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
 
 على الرغم من أن التركيز لا يزال في عنصر التحكم البحث، ألا يمكنك أيضا استخدام مفاتيح **سهم لأعلى** أو **سهم لأسفل** لتمييز الصف الذي ترغب في تحديده. إذا قمت بالضغط على زر **إدخال** فسوف يتم تحديد الصف المميز من البحث، وسوف يتم تحديث قيمة عنصر التحكم.
 
-![changingSelectionLookup](./media/changingselectionlookup.png)
+![changingSelectionLookup.](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>الكتابة في أكثر من مُعرف
 
@@ -64,22 +65,25 @@ ms.locfileid: "4798132"
 
 في حالة بدء المستخدم إدخال **"معرف الحساب"** داخل البحث، فسوف تُفتح القائمة المنسدلة تلقائياً كما هو موضح في القسم السابق، وسوف يرى المستخدم البحث كما هو موضح أدناه.
 
-[![البحث بحسب السياق عندما يتم إدخال معرف حساب العميل ](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![البحث بحسب السياق عندما يتم إدخال معرف حساب العميل.](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 ولكن، يمكن للمستخدم أيضا الآن إدخال بداية **اسم الحساب**. إذا تم الكشف عنه، فمن ثم يرى المستخدم البحث التالي. لاحظ كيف يتم نقل عمود **الاسم** ليكون العمود الأول في البحث، وكيف يتم فرز البحث وتصفيته بناءً على عمود **الاسم**.
 
-[![البحث بحسب السياق عندما يتم إدخال اسم العميل](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![البحث بحسب السياق عندما يتم إدخال اسم العميل.](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>استخدام رؤوس أعمدة الشبكة لتصفية وفرز أكثر تقدمًا
 
 عززت تحسينات البحث التي تمت مناقشتها في القسمين السابقين بصورة كبيرة من قدرة المستخدم على التنقل بين السطور في البحث بناءً علي بدء البحث بـحقل **المُعرف** أو **الاسم** الحقل في البحث. ومع ذلك، هناك حالات يحتاج فيها المستخدم إلى تصفية أكثر تقدمًا (أو فرز) للعثور على الصف الصحيح. في هذه الحالات، يحتاج المستخدم إلى استخدام خيارات التصفية والفرز في رؤوس أعمدة الشبكة داخل البحث. على سبيل المثال، اعتبر أن موظفًا أدخل بنود أمر المبيعات والذي يحتاج إلى تحديد "الكبل" الصحيح كمنتج. في هذه الحالة، لا يُعد كتابة "كابل" داخل عنصر تحكم **رقم الصنف** أمرًا مفيدًا، حيث أنه لا توجد أسماء منتجات تبدأ بـ"كبل".
 
-![emptyitemlookup](./media/emptyitemlookup.png)
+![emptyitemlookup.](./media/emptyitemlookup.png)
 
 بدلاً من ذلك، يحتاج المستخدم إلى مسح قيمة عنصر تحكم البحث، وفتح قائمة البحث المنسدلة، وتصفية القائمة المنسدلة باستخدام رأس عمود الشبكة، كما هو موضح أدناه. يمكن لمستخدم الماوس (أو اللمس) النقر ببساطة (أو لمس) أي رأس عمود للوصول إلى خيارات التصفية والفرز لذلك العمود. بالنسبة إلى مستخدم لوحة المفاتيح، يحتاج المستخدم بكل بساطة إلى الضغط على **Alt**+**سهم** **للأسفل** مرة ثانية لنقل التركيز إلى القائمة المنسدلة، ويمكنه بعد ذلك الضغط على المفتاح tab للانتقال إلى العمود الصحيح، ثم على **Ctrl**+**G** لفتح القائمة المنسدلة لرأس عمود الشبكة.
 
-[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 بعد تطبيق عامل التصفية (أنظر الصورة أدناه)، يمكن للمستخدم العثور على وتحديد الصف كالمعتاد.
 
-![filtereditemlookup](./media/filtereditemlookup.png)
+![filtereditemlookup.](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

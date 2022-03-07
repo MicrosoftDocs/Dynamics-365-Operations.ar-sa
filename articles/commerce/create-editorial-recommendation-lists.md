@@ -2,11 +2,9 @@
 title: إنشاء توصيات مختارة يدويًا
 description: يشرح هذا الموضوع كيف يمكن للتجار إنشاء قوائم منتجات وإدارتها يدويًا لعملاء Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9ce8887f3cd7da0e250d3b0ffe96b222953de44
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f8142bb8a23e467ba38e3d22b070c2d275c95f506a3cc263dcd2986f60fb5860
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729880"
 ---
 # <a name="manually-create-curated-recommendations"></a>إنشاء توصيات مختارة يدويًا
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيف يمكن للتجار إنشاء قوائم توصيات منتجات وإدارتها يدويًا لعملاء Microsoft Dynamics 365 Commerce.
+يشرح هذا الموضوع كيف يمكن للتجار إنشاء قوائم توصيات المنتجات وإدارتها يدويًا لعملاء Microsoft Dynamics 365 Commerce.
 
 القوائم المُجمّعة هي عبارة عن مجموعات من محتوى فردي تم إنشاؤه وتجميعه على يد أشخاص.  
 
@@ -49,7 +47,7 @@ ms.locfileid: "4965343"
 
 ## <a name="example-list"></a>مثال للقائمة
 
-![مثال قائمة مُجمّعة في مكتب الدعم](./media/examplecuratedrecolist.png)
+![مثال قائمة مُجمّعة في مكتب الدعم.](./media/examplecuratedrecolist.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -74,3 +72,6 @@ ms.locfileid: "4965343"
 [إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

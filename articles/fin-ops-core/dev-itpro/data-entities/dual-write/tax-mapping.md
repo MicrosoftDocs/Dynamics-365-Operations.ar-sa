@@ -2,11 +2,9 @@
 title: الضريبة المتكاملة
 description: يوضح هذا الموضوع تكامل بيانات الضريبة بين Finance and Operations وDataverse.
 author: robinarh
-manager: AnnBe
 ms.date: 09/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a7992520b57b4c19b6dc8e13bd8e9ffc87b40f5a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679286"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750632"
 ---
 # <a name="integrated-tax"></a>الضريبة المتكاملة
 
@@ -66,3 +64,6 @@ ms.locfileid: "4679286"
 
 [!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: التوزيعات المحاسبية
 description: يوفر هذا الموضوع معلومات حول التوزيعات المحاسبية ويصف الخيارات المتاحة لمعالجتها.
-author: ShylaThompson
-manager: AnnBe
+author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f81444e0865715925dad2483e8c789221bccb2b
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440103"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595304"
 ---
 # <a name="accounting-distributions"></a>التوزيعات المحاسبية
 
@@ -57,3 +54,6 @@ ms.locfileid: "4440103"
 في الإصدار 10.0.13، تمت إضافة ميزة تتحقق من صحة جدول التوزيع المحاسبي لضمان إعداد الحقول الجديدة بشكل صحيح. تسمى هذه الميزة **تمكين التحقق من صحة البيانات الإضافي للمستندات باستخدام إطار عمل محاسبة المستند المصدر**. لاستخدام الميزة، يجب تمكينها باستخدام مساحة عمل **إدارة الميزات**. لتمكين الميزة، ابحث عن اسم الميزة في حقل **البحث** في صفحة **إدارة الميزات**، ثم حدد **التمكين الآن**.
 
 ‏‫لمزيد من المعلومات، راجع [التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير الموردين](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

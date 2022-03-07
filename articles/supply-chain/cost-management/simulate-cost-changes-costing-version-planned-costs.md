@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 78183
 ms.assetid: 1e41953f-cdb9-4598-b776-46e49383a773
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6e1d52f48a6b7675fb16ccc5ecd9ba7cd25ac8b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 74bea14699628bf5ec1d8bc8a3d6d1f341f5b982
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421450"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239580"
 ---
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>محاكاة تغييرات التكاليف باستخدام إصدار تكاليف للتكاليف المخططة
 
@@ -59,3 +58,6 @@ ms.locfileid: "4421450"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: الإبلاغ عن الزكاة
 description: الأشخاص المسلمون الذين تتجاوز إيراداتهم السنوية مستوى يسمى النصاب، ملزمون قانونًا بدفع 2.5% من إيراداتهم إلى الحكومة على شكل زكاة.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Saudi Arabia
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ad98a374bc0151674f265d389648fccddc3f256
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b563d64ab61c625eed3c0e3352c22458e6257bbf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968334"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818296"
 ---
 # <a name="zakat-reporting"></a>الإبلاغ عن الزكاة
 
@@ -48,3 +46,6 @@ ms.locfileid: "4968334"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fc01508bd206f750a4101521cd9dff7b647656
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 277f11bc6aa74ac9bb9f476b07be7bbf29025342
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439897"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227390"
 ---
 # <a name="sepa-credit-transfer-overview"></a>نظرة عامة على تحويل ائتمان سيبا
 
@@ -126,3 +125,6 @@ ms.locfileid: "4439897"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

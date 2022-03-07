@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSRouteWorkbench, TMSTransportationTender
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62458fd0f7eb9d2155d70f013c96027953c4d4e1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 928f445769f89764725adccb0a797fce0c8fdcee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421150"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233525"
 ---
 # <a name="set-up-a-transportation-tender"></a>إعداد طريقة دفع للنقل
 
@@ -48,3 +47,6 @@ ms.locfileid: "4421150"
 7. انقر فوق تقديم.
 8. حدد مسارًا.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

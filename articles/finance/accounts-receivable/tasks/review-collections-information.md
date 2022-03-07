@@ -2,26 +2,23 @@
 title: مراجعة معلومات التحصيلات
 description: يشرح هذا الموضوع كيفية مراجعة معلومات التحصيلات بالإضافة إلى خيارات الإعداد وحركات التحصيلات المختلفة.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f643a0e3b231946f9b9d14f9ecb4d0417ae7d423
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439968"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816210"
 ---
 # <a name="review-collections-information"></a>مراجعة معلومات التحصيلات
 
@@ -143,3 +140,6 @@ ms.locfileid: "4439968"
 5. حدد **إظهار القائمة**.
 - حدد أحد حسابات العملاء أو اقبل الإدخال الافتراضي. بشكل افتراضي، هذا هو حساب العميل المحدد على صفحة القائمة أو في النموذج الذي قمت بفتح هذا النموذج منه. إذا قمت بفتح النموذج من صفحة قائمة، فإن العملاء في القائمة هم العملاء الذين تم تضمينهم في وعاء التحصيلات المستخدم في صفحة القائمة.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

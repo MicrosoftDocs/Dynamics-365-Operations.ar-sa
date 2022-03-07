@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103403"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901979"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>تثبيت تطبيق الاجهزه المحمولة لأداره المستودعات والاتصال به
 
@@ -39,9 +39,12 @@ ms.locfileid: "8103403"
 - Windows 10 (Universal Windows Platform \[UWP\]) أكتوبر 2018 تحديث 1809 (إصدار 10.0.17763) أو أحدث
 - Android 4.4 أو أحدث
 
-## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>تشغيل ميزات تطبيق الأجهزة المحمولة Warehouse Management أو إيقاف تشغيلها في Supply Chain Management
+## <a name="turn-on-the-feature"></a>تشغيل الميزة
 
-لاستخدام تطبيق الأجهزة Warehouse Management، يجب أن تكون الميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+قبل أن تتمكن من استخدام التطبيق، يجب تشغيل ميزة ذات صلة في النظام. بإمكان المسؤولين استخدام مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. هناك، يتم إدراج الميزة بالطريقة التالية:
+
+- **الوحدة:** *إدارة المستودعات*
+- **اسم الميزة:** *إعدادات المستخدم والرموز وعناوين الخطوات لتطبيق المستودع الجديد*
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>الحصول علي تطبيق الاجهزه المحمولة لأداره المستودعات
 
@@ -140,10 +143,6 @@ ms.locfileid: "8103403"
 يمكن استخدام الشهادات كأسرار لإثبات هوية التطبيق عند طلب رمز مميز. يتم تحميل الجزء العام من الشهادة إلى تسجيل التطبيق في مدخل Azure، بينما يجب أن يتم نشر الشهادة الكاملة على كل جهاز يتم فيه تثبيت تطبيق إدارة المستودع للأجهزة المحمولة. تتحمل مؤسستك المسؤولية عن إدارة الشهادة فيما يتعلق بالتدوير وغيرها. يمكنك استخدام شهادات موقعة ذاتيًا، ولكن يجب دائمًا استخدام الشهادات غير القابلة للتصدير.
 
 يجب أن تجعل الشهادة متاحة محليًا على كل جهاز يتم فيه تشغيل تطبيق إدارة المستودع للأجهزة المحمولة. لمزيد من المعلومات حول كيفية إدارة الشهادات في الأجهزة المتحكم فيها بواسطة Intune إذا كنت تستخدم Intune، فراجع [استخدام الشهادات للمصادقة في Microsoft Intune](/mem/intune/protect/certificates-configure).
-
-## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>تكوين تطبيق الأجهزة المحمولة Warehouse Management لوحدات قياس السحابة والحافة
-
-يجب تنفيذ بعض الخطوات القليلة إذا كنت تخطط لتشغيل تطبيق الأجهزة المحمولة Warehouse Management مقابل وحدة قياس السحابة والحافة. لمزيد من الإرشادات، راجع [تكوين تطبيق الأجهزة المحمولة Warehouse Management لوحدات قياس السحابة والحافة](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>تكوين التطبيق عن طريق استيراد إعدادات الاتصال
 
@@ -307,6 +306,5 @@ ms.locfileid: "8103403"
 
 - [إعدادات مستخدم الجهاز المحمول](mobile-device-user-settings.md)
 - [تعيين رموز وعناوين الخطوة لتطبيق الأجهزة المحمولة لـ Warehouse Management](step-icons-titles.md)
-- [تكوين تطبيق الأجهزة المحمولة Warehouse Management لوحدات قياس السحابة والحافة](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

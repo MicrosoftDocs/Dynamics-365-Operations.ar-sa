@@ -2,27 +2,23 @@
 title: نظرة عامة على صفحة التأليف
 description: يقدم هذا الموضوع نظرة عامة على صفحة التأليف في Microsoft Dynamics 365 Commerce.
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409871"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984611"
 ---
 # <a name="authoring-page-overview"></a>نظرة عامة على صفحة التأليف
 
@@ -30,8 +26,6 @@ ms.locfileid: "4409871"
  [!include [banner](includes/banner.md)]
 
 يقدم هذا الموضوع نظرة عامة على صفحة التأليف في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يمكن إنشاء مواقع ويب لدعم احتياجات الأعمال المختلفة. يُمكنها أن تُمثل النشاط التجاري بأكمله، أو تقدم قناة واحدة للنشاط التجاري، أو تستهدف جمهورًا معينًا أو شريحة معينة من الجمهور. على سبيل المثال، قد يكون لدى الشركة المصنعة للملابس موقع ويب يعرض جميع العلامات التجارية التي تمتلكها. قد يكون لدى الشركة المصنعة للملابس نفسها موقع ويب منفصل لكل علامة من هذه العلامات التجارية، وكذلك مجموعة من المواقع التي تتميز بالأزياء الفاخرة والأزياء الليلية/الخارجية وأزياء الأطفال.
 
@@ -45,7 +39,7 @@ ms.locfileid: "4409871"
 
 يبين الرسم التوضيحي التالي صفحة التأليف.
 
-![صفحة تأليف Dynamics 365 Commerce](../commerce/media/authoring_tools_01.png)
+![صفحة تأليف Dynamics 365 Commerce.](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>استخدم زر الرئيسية لاختيار أداة
 
@@ -122,3 +116,6 @@ ms.locfileid: "4409871"
 [اعتبارات تحسين محرك البحث (SEO) لموقعك](search-engine-optimization-considerations.md)
 
 [إدارة سياسة أمان المحتوى (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

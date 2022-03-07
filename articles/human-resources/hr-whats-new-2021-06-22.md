@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735341"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303552"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>ما الجديد والمتغير في Dynamics 365 Human Resources 22 يونيو، 2021
 
@@ -44,7 +44,7 @@ ms.locfileid: "6735341"
 | --- | --- | --- |
 | إخطار مستخدمي العاملين دون ميزة عمل - عند تشغيل الوصول المتقدم، وتعطيل الميزة **عرض كل العمال بدون عمل** في إدارة الميزات، سيتم عرض الشعار في العمال دون نموذج فرص التوظيف. سيقوم الشعار بتوجيه المستخدم لتشغيل الميزة **عرض كل العمال بدون عمل**. | غير قابل للتطبيق| [العاملون بدون توظيف](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | دعم الحقول المخصصة لقواعد الأهلية لإدارة الميزات | [دعم الحقول المخصصة لمعالجة الأهلية](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[تكوين قواعد الأهلية](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| تدقيق حركة استحقاقات الإجازة | غير قابل للتطبيق | [تدقيق حركة استحقاقات الإجازة](hr-leave-and-absence-accrue.md)|
+| تدقيق حركة استحقاقات الإجازة | غير قابل للتطبيق | [تدقيق حركة استحقاقات الإجازة](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
 | تحسينات تجربة سير العمل للإجازة والغياب | [تحسينات تجربة سير العمل للإجازة والغياب](https://go.microsoft.com/fwlink/?linkid=2147528) | [طلب إجازة](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء

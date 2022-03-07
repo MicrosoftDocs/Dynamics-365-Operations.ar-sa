@@ -1,12 +1,10 @@
 ---
 title: مراقبة التكلفة والتاريخ
 description: يشرح هذا الموضوع مراقبة التكلفة والتاريخ في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019065"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808654"
 ---
 # <a name="cost-and-date-control"></a>مراقبة التكلفة والتاريخ
 
@@ -107,3 +105,6 @@ ms.locfileid: "5019065"
 ![مثال على نتائج الحساب في مراقبة تاريخ أمر العمل](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

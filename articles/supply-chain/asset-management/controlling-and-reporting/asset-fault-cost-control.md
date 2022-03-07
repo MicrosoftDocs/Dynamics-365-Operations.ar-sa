@@ -1,12 +1,10 @@
 ---
 title: التحكم في تكاليف خطأ الأصل
 description: يشرح هذا الموضوع مراقبة تكاليف أخطاء الأصول في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCostControlFault
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 597e30db346e882a7002709be52ad1c2d0576099
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3c36fc791fac6cce0433935adb88eb8cdc23003368204a87efc12cf5a419ec9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019924"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752023"
 ---
 # <a name="asset-fault-cost-control"></a>التحكم في تكاليف خطأ الأصل
 
@@ -58,6 +56,9 @@ ms.locfileid: "5019924"
 - يعرض حقل **التكلفة الفعلية** التكاليف التي تم ترحيلها على أوامر العمل. 
 - يعرض حقل **التكلفة الإلزامية** التكاليف الإجمالية التي تلتزم بها شركتك فيما يتعلق بأوامر العمل.
 
-    ![الشكل 1](media/05-controlling-and-reporting.png)
+    ![الشكل 1.](media/05-controlling-and-reporting.png)
 
 للحصول على معلومات حول كيفية إعداد الأخطاء، راجع موضوع [إدارة الأخطاء](../setup-for-work-orders/fault-management.md) .
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

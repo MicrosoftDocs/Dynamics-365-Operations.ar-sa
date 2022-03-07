@@ -2,26 +2,23 @@
 title: إعداد أكواد ضريبة المبيعات
 description: يشرح هذا الموضوع كيفية إعداد ‏‫أكواد ضريبة المبيعات‬ في Dynamics 365 Finance.
 author: twheeloc
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3dad006b486f7cd6714c713a3bd83a95fdf0d2b5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439854"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562092"
 ---
 # <a name="set-up-sales-tax-codes"></a>إعداد أكواد ضريبة المبيعات
 
@@ -41,8 +38,19 @@ ms.locfileid: "4439854"
 8. في **جزء الإجراءات** في أعلى الواجهة، حدد **كود ضريبة المبيعات**.
 9. حدد **القيم**.
 10. أدخل قيمة كود الضريبة هذا في عمود **القيمة**.
-    - على علامة التبويب السريعة **الحساب**، في الحقل "الأصل‬"، إذا تم تحديد "المبلغ لكل وحدة‬"، فسيتم ضرب القيمة في الكمية على الحركة لحساب مبلغ ضريبة المبيعات.  إذا لم يكن كود الضريبة عبارة عن ضريبة تستند إلى وحدة، فستكون القيمة عبارة عن نسبة مئوية مطبقة على الأصل لكود الضريبة هذا لحساب مبلغ ضريبة المبيعات.     
+
+    على علامة التبويب السريعة **الحساب** ـ في الحقل **الأصل**، إذا تم تحديد **المبلغ لكل وحدة‬** فسيتم ضرب القيمة في الكمية على الحركة لحساب مبلغ ضريبة المبيعات.  إذا لم يكن كود الضريبة عبارة عن ضريبة تستند إلى وحدة، فستكون القيمة عبارة عن نسبة مئوية مطبقة على الأصل لكود الضريبة هذا لحساب مبلغ ضريبة المبيعات.     
+
 11. حدد **حفظ**.
 12. قم بإغلاق الصفحة.
 13. حدد **حفظ**.
 
+اعتبارًا من الإصدار 10.0.22 من Microsoft Dynamics 365 Finance، إذا كنت تستخدم [خدمة الضريبة](../../localizations/global-tax-calcuation-service-overview.md)، وتم تمكين الميزة [**دعم أرقام تسجيل ضريبة القيمة المضافة المتعددة‬**](../../localizations/emea-multiple-vat-registration-numbers.md) في **إدارة الميزات**، فيمكنك استخدام **نوع الضريبة** لتحديد نوع كود الضريبة. تتوفر القيم التالية:
+
+- ضريبة قيمة مضافة قياسية
+- ضريبة القيمة المضافة المخفضة
+- ضريبة القيمة المضافة 0%
+- العوائد
+- أخرى
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

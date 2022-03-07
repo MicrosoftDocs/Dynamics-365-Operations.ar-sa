@@ -2,11 +2,9 @@
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (6 أكتوبر 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 6 أكتوبر، 2020.
 author: jcart1106
-manager: tfehr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,14 +15,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 036b43d8730b52bddc93c0fc3b47d9d62649e898
-ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
+ms.openlocfilehash: 132d91c2a17fa5116d7aa6650e4ee807a03030bb
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5152163"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802277"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (6 أكتوبر 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -92,3 +92,6 @@ ms.locfileid: "5152163"
 [نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: وظيفة JSONVALUE ER
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة JSONVALUE ER.
 author: NickSelin
-manager: kfend
 ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11f9ac680ea00622367ea56106fd22508628d85d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e8336e43a236e3f3b875fb3cb81bc139507673c2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685897"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746353"
 ---
 # <a name="jsonvalue-er-function"></a>وظيفة JSONVALUE ER
 
@@ -59,3 +57,6 @@ JSONVALUE (input, path)
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [الدالات النصية](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

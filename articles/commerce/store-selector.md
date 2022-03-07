@@ -3,14 +3,12 @@ title: الوحدة النمطية لمحدد المتجر
 description: يتناول هذا الموضوع وحدة محدّد المتجر ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665262"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853407"
 ---
 # <a name="store-selector-module"></a>الوحدة النمطية لمحدد المتجر
 
@@ -31,17 +29,36 @@ ms.locfileid: "4665262"
 
 يتناول هذا الموضوع وحدة محدّد المتجر ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>نظرة عامة
-
 بإمكان العملاء استخدام الوحدة النمطية لمحدد المتجر لالتقاط منتج في متجر محدد بعد عملية شراء عبر الإنترنت. في الإصدار 10.0.13 من Commerce، تتضمن أيضًا الوحدة النمطية لمحدد المتجر قدرات إضافية يمكنها عرض صفحة **البحث عن متجر** التي تعرض المخازن القريبة.
 
 تسمح الوحدة النمطية لمحدد المتجر للمستخدمين بإدخال موقع (المدينة والولاية والعنوان وغيرها) للبحث عن المتاجر في نصف قطر للبحث. تستخدم الوحدة النمطية، عند فتحها للمرة الأولى، موقع المستعرض الخاص بالعميل للعثور على المتاجر (إذا تم توفير الموافقة).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>استخدام وحدة محدِّد المتجر في التجارة الإلكترونية
+## <a name="store-selector-module-usage"></a>استخدام الوحدة النمطية لمحدد المتجر
 
 - يمكن استخدام الوحدة النمطية لمحدد المتجر في صفحة تفاصيل المنتج (PDP) لتحديد متجر لالتقاطه.
 - يمكن استخدام الوحدة النمطية لمحدد المتجر في صفحة سلة التسوق لتحديد متجر لالتقاطه.
 - يمكن استخدام الوحدة النمطية لمحدد المتجر في صفحة مستقله تعرض كافة المتاجر المتوفرة.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>إعداد مجموعة الاستيفاء في المركز الرئيسي لـ Commerce
+
+لكي يقوم محدد المتجر بعرض المتاجر المتاحة، يجب إعداد مجموعه الاستيفاء في المركز الرئيسي لـ Commerce‬. لمزيد من المعلومات، راجع [إعداد مجموعات الاستيفاء‬](customer-orders-overview.md#set-up-fulfillment-groups).
+
+بالاضافه إلى ذلك، لكل متجر في مجموعة الاستيفاء، يجب تحديد خطي الطول والعرض لموقع المتجر في المركز الرئيسي.
+
+لإدخال قيم خطي الطول والعرض لموقع المتجر في المركز الرئيسي لـ Commerce، اتبع الخطوات التالية.
+
+1. انتقل إلى **إدارة المخزون \> إعداد \> تصنيف المخزون**.
+1. حدد موقع الصنف في الجزء الأيسر.
+1. على علامة التبويب السريعة **العناوين**، حدد **متقدم**.
+
+    ![أمثلة عن تفاصيل المتجر في المركز الرئيسي](./media/Store-address.png)
+
+1. في جزء الإجراءات، حدد **تحرير**.
+1. على علامة التبويب السريعة **عام**، أدخل قيم **خط الطول** و **خط العرض**.
+
+    ![مثال عن إعداد خطي الطول والعرض لمتجر في المركز الرئيسي.](./media/Store-latitude-longitude.png)
+
+1. في جزء الإجراءات، حدد **حفظ**. 
 
 ## <a name="bing-maps-integration"></a>تكامل خرائط Bing
 
@@ -53,6 +70,7 @@ ms.locfileid: "4665262"
 - إلى التوجيه **img-src**، أضف **&#42;.virtualearth.net**.
 - إلى التوجيه **script-src**، **أضف &#42;.bing.com, &#42;.virtualearth.net**.
 - إلى التوجيه **script style-src**، أضف **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>الالتقاط في وضع المتجر
 
@@ -146,3 +164,6 @@ ms.locfileid: "4665262"
 [واجهات REST API لخرائط Bing](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [وحدة الخرائط](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

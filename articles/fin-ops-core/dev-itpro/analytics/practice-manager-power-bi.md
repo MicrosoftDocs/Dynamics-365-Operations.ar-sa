@@ -1,12 +1,11 @@
 ---
 title: محتوى "إدارة الممارسات" في Power BI
-description: يصف هذا الموضوع العناصر المضمنة في محتوى "إدارة الممارسات" في Power BI. وهو يوضح كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+description: يصف هذا الموضوع العناصر المضمنة في محتوى "إدارة الممارسات" في Power BI.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 757c9bea86d0cba9b67c40ed5afd19804e01778c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685695"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564425"
 ---
 # <a name="practice-manager-power-bi-content"></a>محتوى "إدارة الممارسات" في Power BI
 
@@ -117,3 +116,6 @@ ms.locfileid: "4685695"
 | القياسات التجميعية الرئيسية       | الحقل               | ‏‏الوصف |
 |---------------------------------|---------------------|-------------|
 | التكلفة المخططة للنشاط المكتمل | المجموع(TotalCostPrice) | إجمالي سعر التكلفة في تقديرات كافة أنواع حركات المشروع مع المهام المكتملة. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

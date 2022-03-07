@@ -1,16 +1,13 @@
 ---
-title: كيانات Common Data Service .
-description: تستخدم Microsoft Dynamics 365 Human Resources خدمة Common Data Service لتمكين سيناريوهات ‏‫قابلية التوسعة والتكامل.
+title: جداول Dataverse
+description: تستخدم Microsoft Dynamics 365 Human Resources خدمة Dataverse لتمكين سيناريوهات ‏‫قابلية التوسعة والتكامل.
 author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,26 +15,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6774fad3543d80d04faacf5960c8037f1734f084
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529996"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066815"
 ---
-# <a name="common-data-service-entities"></a>كيانات Common Data Service .
+# <a name="dataverse-tables"></a>جداول Dataverse
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-تستخدم Microsoft Dynamics 365 Human Resources خدمة Common Data Service لتمكين سيناريوهات ‏‫قابلية التوسعة والتكامل.
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-لمزيدٍ من المعلومات حول Common Data Service، راجع [ما المقصود بـ Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-كيانات الموارد البشرية التالية متوفرة في Common Data Service.
+تستخدم Microsoft Dynamics 365 Human Resources خدمة Dataverse لتمكين سيناريوهات ‏‫قابلية التوسعة والتكامل.
 
-## <a name="benefit-entities"></a>كيانات الميزة
+> [!NOTE]
+> تتوافق كيانات Human Resources مع جداول Dataverse. لمزيد من المعلومات حول Dataverse (المعروف في السابق باسم Common Data Service) وتحديثات المصطلحات، راجع [الجديد في Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)
 
-| الاسم | الكيان |
+جداول Dataverse التالي متوفرة استنادًا إلى كيانات Human Resources.
+
+## <a name="benefit-tables"></a>جداول الميزات
+
+| الاسم | الجدول |
 | --- | --- |
 | تكرار حساب الميزة | cdm_benefitcalculationfrequency |
 | حساب تكرار فترة دفع الميزة | cdm_benefitcalculationfrequencypayperiod |
@@ -47,9 +48,9 @@ ms.locfileid: "4529996"
 | خطة الميزة | cdm_benefitplan (غير ممكّن‬ لدعم الحقل المخصص) |
 | نوع الميزة | cdm_benefittype |
 
-## <a name="business-process-tasks-entities"></a>كيانات مهام العملية التجارية
+## <a name="business-process-tasks-tables"></a>جداول مهام العملية التجارية
 
-| الاسم | الكيان |
+| الاسم | الجدول |
 | --- | --- |
 | تقويم عملية الأعمال | cdm_businessprocesscalendar |
 | تعيين مجموعة عمليات الأعمال | cdm_businessprocessgroupassignment |
@@ -58,11 +59,11 @@ ms.locfileid: "4529996"
 | رأس قالب قائمة الاختيار | cdm_businessprocesstemplateheader |
 | مهمة قالب قائمة الاختيار | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-entities"></a>كيانات التعويض
+## <a name="compensation-tables"></a>جداول التعويض
 
-| الاسم | الكيان |
+| الاسم | الجدول |
 | --- | --- |
-| الخطة الثابتة للتعويض | cdm_compensationfixedplan |
+| خطة التعويض الثابت | cdm_compensationfixedplan |
 | شبكة التعويض | cdm_compensationgrid |
 | مستوى التعويض | cdm_compensationlevel |
 | تكرار دفع التعويض | cdm_compensationpayfrequency |
@@ -75,11 +76,11 @@ ms.locfileid: "4529996"
 | نوع خطة التعويض المتغير | cdm_compensationvariableplantype |
 | حدث التعويض الثابت | cdm_fixedcompensationevent |
 | قاعدة الاستحقاق | cdm_vestingrule |
-| التعويض الثابت للعامل | cdm_workerfixedcompensation |
+| التعويض الثابت للعاملين | cdm_workerfixedcompensation |
 
-## <a name="organization-entities"></a>كيانات المؤسسة
+## <a name="organization-tables"></a>جداول المؤسسة
 
-| الاسم | الكيان |
+| الاسم | الجدول |
 | --- | --- |
 | قسم | cdm_department |
 | التوظيف | cdm_employment |
@@ -95,23 +96,23 @@ ms.locfileid: "4529996"
 | المسمى الوظيفي | cdm_title |
 
 > [!NOTE]
-> توفر الأبعاد المالية لـ **نوع المنصب**، و **تعيين عامل المنصب**، و **التوظيف** تكاملاً من اتجاه واحد لـ Common Data Service. في الوقت الحالي، لا يمكن مزامنة تحديثات الأبعاد المالية من Common Data Service إلى Human Resources. 
+> توفر الأبعاد المالية لـ **نوع المنصب**، و **تعيين عامل المنصب**، و **التوظيف** تكاملاً من اتجاه واحد لـ Dataverse. في الوقت الحالي، لا يمكن مزامنة تحديثات الأبعاد المالية من Dataverse إلى Human Resources. 
 
-## <a name="leave-and-absence-entities"></a>كيانات الإجازة والغياب
+## <a name="leave-and-absence-tables"></a>جداول الإجازة والغياب
 
-| الاسم | الكيان |
+| الاسم | الجدول |
 | --- | --- |
 | حركة بنك الإجازة | cdm_leavebanktransaction |
-| تسجيل الأجازة | cdm_leaveenrollment |
+| تسجيل الإجازات | cdm_leaveenrollment |
 | خطة الإجازة | cdm_leaveplan |
 | طلب الإجازة | cdm_leaverequest |
 | تفاصيل طلب المستخدم | cdm_leaverequestdetail |
 | نوع الإجازة | cdm_leavetype |
 | كود سبب نوع الإجازة‬ | cdm_leavetypereasoncode |
 
-## <a name="payroll-entities"></a>كيانات الرواتب
+## <a name="payroll-tables"></a>جداول الرواتب
 
-| الاسم | الكيان |
+| الاسم | الجدول |
 | --- | --- |
 | دورة الدفع | cdm_paycycle |
 | فترة الدفع | cdm_payperiod |
@@ -119,9 +120,9 @@ ms.locfileid: "4529996"
 | مصروف الحساب البنكي | cdm_bankaccountdisbursement |
 | منطقة الضريبة | cdm_taxregion |
 
-## <a name="worker-entities"></a>كيانات العامل
+## <a name="worker-tables"></a>جداول العامل
 
-| الاسم | الكيان |
+| الاسم | الجدول |
 | --- | --- |
 | العامل | cdm_worker |
 | عنوان العامل | cdm_workeraddress |
@@ -135,48 +136,55 @@ ms.locfileid: "4529996"
 | الفاصل الزمني لتقويم العمل | cdm_workcalendartimeinterval (غير ممكّن‬ لدعم الحقل المخصص) |
 | الحساب البنكي للعامل | cdm_workerbankaccount |
 
-## <a name="worker-setup-entities"></a>كيانات إعداد العامل
+## <a name="worker-setup-tables"></a>جداول إعداد العامل
 
-| الاسم | الكيان |
+| الاسم | الجدول |
 | --- | --- |
 | حالة الخبير | cdm_veteranstatus |
 | الأصل العرقي | cdm_ethnicorigin |
 | كود السبب | cdm_reasoncode |
-| وكاله إصدار الهوية الشخصية | cdm_personidentificationissuingagency |
+| وكالة إصدار هوية العامل | cdm_personidentificationissuingagency |
 
-## <a name="competency-entities"></a>كيانات الاختصاص
+## <a name="competency-tables"></a>جداول الاختصاص
 
-| الاسم | الكيان |
+| الاسم | الجدول |
 | --- | --- |
 | نوع المهارة | cdm_skilltype |
 
-## <a name="entity-relationship-models"></a>نماذج علاقة الكيان
+## <a name="table-relationship-models"></a>نماذج علاقة الجدول
 
 ### <a name="worker"></a>العامل
 
-![العامل](./media/HCMCommon-worker-entity-diagram.png)
+![العامل.](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>الوظيفة ومنصب الوظيفة
 
-![الوظيفة ومنصب الوظيفة](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![الوظيفة ومنصب الوظيفة.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
-### <a name="benefits"></a>المزايا
+### <a name="benefits"></a>المزايا‬
 
-![المزايا](./media/HCMCommon-benefits-entity-diagram.png)
+![المزايا‬.](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>التعويض
 
-![التعويض](./media/HCMCommon-compensation-entity-diagram.png)
+![التعويض.](./media/HCMCommon-compensation-entity-diagram.png)
 
 ### <a name="leave"></a>الإجازة
 
-![الإجازة](./media/HCMCommon-leave-entity-diagram.png)
+![الإجازة.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>تقويم العمل
 
-![تقويم العمل](./media/HCMCommon-work-calendar-entity-diagram.png)
+![تقويم العمل.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>راجع أيضًا
 
-[اختيار تقنية تكامل بيانات](hr-admin-integration-choose-technology.md)</br>
-[تكوين تكامل Common Data Service ](hr-admin-integration-common-data-service.md)
+[اختيار تقنية تكامل بيانات](hr-admin-integration-choose-technology.md)<br>
+[تكوين تكامل Dataverse ](hr-admin-integration-common-data-service.md)<br>
+[تكوين جداول Dataverse الظاهرية](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[الأسئلة المتداولة حول الجداول الظاهرية في Human Resources](hr-admin-virtual-entity-faq.md)<br>
+[ما هو Microsoft Dataverse؟](/powerapps/maker/data-platform/data-platform-intro)<br>
+[تحديثات المصطلحات](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

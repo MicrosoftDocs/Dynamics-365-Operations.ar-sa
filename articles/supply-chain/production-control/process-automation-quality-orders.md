@@ -1,25 +1,26 @@
 ---
 title: استدعاء تدفقات التشغيل التلقائي للعمليات لإنشاء أوامر الجودة
 description: يقدم هذا الموضوع موارد لاستخدام Power Automate لتنفيذ العمليات التجارية تلقائيًا، باستخدام مثال أوامر الجودة.
-author: johanhoffmann
+author: cabeln
 ms.date: 05/28/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: fa0c9ea5a2e92ae5af7d937b5f7f16df0ee3c9ef
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: 4492e5d835bbb4d61208730675849dba0a6fe828
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985177"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6641022"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>استدعاء تدفقات التشغيل التلقائي للعمليات لإنشاء أوامر الجودة
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 ويكون للمؤسسات طلب متزايد لتنفيذ العمليات التجارية القياسية تلقائيًا، وتوفير تعاملات أكثر ملائمة للفريق، واستخدام العديد من إشارات البيانات والأنظمة لمعالجة العمليات التجارية تلقائيًا. باستخدام التشغيل التلقائي للعمليات (RPA) و Microsoft Power Automate، يمكن للأعمال استخدام تجربة بدون كود لتنفيذ العمليات المتكررة تلقائيًا، ومن ثم الحصول على الكفاءة والدقة.
 

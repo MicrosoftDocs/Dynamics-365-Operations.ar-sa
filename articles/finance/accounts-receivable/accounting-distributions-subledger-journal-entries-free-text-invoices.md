@@ -1,38 +1,34 @@
 ---
-title: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير النص الحر
+title: التوزيعات المحاسبية وإدخالات دفتر اليومية للفواتير ذات النص الحر
 description: تُستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب الإيراد أو الضريبة أو التكاليف في فاتورة ذات نص حر. وهناك توزيع محاسبي واحد أو أكثر لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da1d1b41c4da1fafcf20246022c4020b60152917f5df85f8e003e23aaef9433c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728927"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي لفواتير النص الحر
+# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>التوزيعات المحاسبية وإدخالات دفتر الأستاذ الفرعي للفواتير ذات النص الحر
 
 [!include [banner](../includes/banner.md)]
 
 تُستخدم التوزيعات المحاسبية لتحديد كيفية حساب مبلغ، مثل كيفية حساب الإيراد أو الضريبة أو التكاليف في فاتورة ذات نص حر. وهناك توزيع محاسبي واحد أو أكثر لكل مبلغ يجب أن يحسب عند تسجيل فاتورة الموّرد في دفتر اليومية.
 
-<a name="accounting-distributions"></a>التوزيعات المحاسبية
-------------------------
+## <a name="accounting-distributions"></a>التوزيعات المحاسبية
 
 يمكنك استخدام الأزرار التالية في صفحة فاتورة النص الحر لعرض وربما تغيير التوزيعات المحاسبية لكل مبلغ على فاتورة النص الحر.
 
@@ -136,3 +132,6 @@ ms.locfileid: "4439796"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

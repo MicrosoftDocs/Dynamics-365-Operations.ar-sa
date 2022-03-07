@@ -6,20 +6,18 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a29520d75a63499581232feecc13d64c547392ca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3924d858687f553ca08a56bfa3b5a632c0988ee
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439825"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5637710"
 ---
 # <a name="dynamics-365-finance-learning-catalog"></a>كتالوج تعلّم Dynamics 365 Finance
 
@@ -179,3 +177,6 @@ ms.locfileid: "4439825"
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

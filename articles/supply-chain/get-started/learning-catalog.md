@@ -6,30 +6,28 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a3c9ae7f9347aedc9dfba669a788b93f339e9fe8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 46302589ac5139ee6297aba26572225c0e392287
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421201"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402510"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management"></a>كتالوج التعليم لـ Dynamics 365 Supply Chain Management
 
 البحث عن التدريب الصحيح على الإنترنت، في ورش العمل الشخصية والأحداث الخاصة بدورك كمستخدم لتطبيق Dynamics 365 Supply Chain.
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### <a name="business-and-technical-decision-makers"></a>صناع قرارات الأعمال والقرارات الفنية
 
@@ -90,9 +88,11 @@ ms.locfileid: "4421201"
 
     [كتالوج تعلم المسؤولين](learning-catalog-administrator.md)
 
-    [بدء الاستخدام](learning-catalog-administrator.md#get-started)
+    [الشروع في العمل](learning-catalog-administrator.md#get-started)
 
     [المعرفة الأساسية للنظام الأساسي](learning-catalog-administrator.md#core-platform-knowledge)
+
+    [Supply Chain Management](learning-catalog-administrator.md#scm)
 
     [التطوير الأساسي](learning-catalog-administrator.md#core-development)
 
@@ -187,3 +187,6 @@ ms.locfileid: "4421201"
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

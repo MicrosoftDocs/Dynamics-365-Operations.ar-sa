@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: aff7c932a1395393935819dee1f342d2abdc75169bb68c6c6776edc1c5b2a3bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5375363a9b1383a83e80fc3c4b841780adab4172
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758815"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022990"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>إعداد هيئات ضريبة الخصم لنوع ضريبة TDS
 
@@ -31,7 +31,7 @@ ms.locfileid: "6758815"
 
 1. انتقل إلى **الضريبة \> ضرائب غير مباشرة \> هيئات ضريبة الخصم**.
 
-    [![صفحة هيئات ضريبة الخصم.](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
+    [![صفحة هيئات ضريبة الخصم](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
 
 2. في الحقل **نوع الضريبة**، حدد **TDS** لإعداد هيئات ضريبة الخصم لنوع الضريبة TDS.
 3. في جزء الإجراءات، حدد **جديد** لإنشاء بند.

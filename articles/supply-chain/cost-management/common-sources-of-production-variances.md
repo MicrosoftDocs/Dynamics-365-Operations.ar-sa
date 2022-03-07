@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcVarianceTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 79753
 ms.assetid: 14ac7db4-fb40-43c1-bb0d-1d51fc91d24f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc310f1d5e1f99a320b803f68395d0926d39780b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f36e482595cad49d1149873f8bcdd6a05a3287d5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421570"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5229269"
 ---
 # <a name="common-sources-of-production-variances"></a>المصادر العامة لفروقات الإنتاج
 
@@ -63,3 +62,6 @@ ms.locfileid: "4421570"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

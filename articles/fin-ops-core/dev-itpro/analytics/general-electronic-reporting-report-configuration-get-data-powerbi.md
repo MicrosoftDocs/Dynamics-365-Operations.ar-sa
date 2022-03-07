@@ -2,11 +2,9 @@
 title: تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
 description: يشرح هذا الموضوع كيفية استخدام تكوين التقارير الإلكترونية لترتيب نقل البيانات من المثيل الخاص بك إلى خدمات Power BI.
 author: NickSelin
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 34d4ad9106b2751c77db4fd03d83932e587a5332
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740932"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>تكوين التقارير الإلكترونية لسحب البيانات إلى Power BI
 
@@ -55,12 +53,12 @@ ms.locfileid: "4680110"
 1. في صفحة **معلمات إدارة المستندات**، قم بتكوين الوصول إلى SharePoint الذي سيتم استخدامه في الشركة التي قمت بتسجيل الدخول إليها (شركة DEMF في هذا المثال).
 2. اختبر الاتصال بخادم SharePoint Server للتأكد من أنه تم منحك حق الوصول.
 
-    [![صفحة معلمات إدارة المستندات](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
+    [![صفحة معلمات إدارة المستندات.](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
 3. افتح موقع SharePoint الذي تم تكوينه. أنشئ مجلدًا جديدًا حيث ستقوم التقارير الإلكترونية بتخزين ملفات Excel التي تحتوي على بيانات العمل التي تحتاج إليها تقارير Power BI كمصدر لمجموعات بيانات Power BI.
 4. في صفحة **أنواع المستندات**، أنشئ نوع مستند جديد سيتم استخدامه للوصول إلى مجلد SharePoint الذي أنشأته للتوّ. أدخل **ملف** في حقل **المجموعة‏‎** و **SharePoint** في حقل **الموقع‏‎**، ثم أدخل عنوان مجلد SharePoint.
 
-    [![صفحة أنواع المستندات](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
+    [![صفحة أنواع المستندات.](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
 ## <a name="configure-er-parameters"></a>تكوين معلمات التقارير الإلكترونية
 1. في مساحة عمل **إعداد التقارير الإلكترونية**، انقر فوق الارتباط **معلمات ‏‫إعداد التقارير الإلكترونية‬**.
@@ -70,23 +68,23 @@ ms.locfileid: "4680110"
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>استخدام نموذج بيانات تقارير إلكترونية كمصدر بيانات
 يجب أن يكون لديك نموذج بيانات تقارير إلكترونية كمصدر لبيانات العمل التي سيتم استخدامها في تقارير Power BI. يتم تحميل نموذج البيانات هذا من مستودع تكوينات التقارير الإلكترونية. لمزيد من المعلومات، يمكنك مراجعة [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](download-electronic-reporting-configuration-lcs.md)، أو يمكنك تشغيل دليل المهام **التقارير الإلكترونية - استيراد تكوين من Lifecycle Services**. حدد **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي** كنموذج البيانات الذي سيتم تحميله من مستودع تكوينات التقارير الإلكترونية المحددة. ‏‫(في هذا المثال، يتم استخدام الإصدار 1 من النموذج.)‬ ‏‫يمكنك عندئذٍ الوصول إلى تكوين نموذج التقارير الإلكترونية في **‬‏‫نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي** في صفحة **التكوينات**.
 
-[![صفحة التكوينات](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![تكوين نموذج التقارير الإلكترونية لنظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي في صفحة التكوينات.](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>تصميم تكوين تنسيق تقارير إلكترونية
-يجب إنشاء تكوين تنسيق تقارير إلكترونية يستخدم نموذج بيانات **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي** كمصدر لبيانات العمل. يجب أن ينشئ تكوين التنسيق هذا نتائج الإخراج كالمستندات الإلكترونية بتنسيق OpenXML (ملف Excel). لمزيد من المعلومات، يمكنك تشغيل دليل المهام **/التقارير الإلكترونية - إنشاء تكوين للتقارير بتنسيق OPENXML**. قم بتسمية التكوين الجديد **أنشطة الاستيراد/التصدير**، كما يظهر في التوضيح التالي. استخدم ملف Excel [بيانات التقارير الإلكترونية - تفاصيل الاستيراد والتصدير](https://go.microsoft.com/fwlink/?linkid=845208) كقالب عند تصميم تنسيق التقارير الإلكترونية. (لمزيد من المعلومات حول كيفية استيراد قالب تنسيق، يمكنك تشغيل دليل المهام.)
+يجب إنشاء تكوين تنسيق تقارير إلكترونية يستخدم نموذج بيانات **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي** كمصدر لبيانات العمل. يجب أن ينشئ تكوين التنسيق هذا نتائج الإخراج كالمستندات الإلكترونية بتنسيق OpenXML (ملف Excel). لمزيد من المعلومات، يمكنك تشغيل دليل المهام **/التقارير الإلكترونية - إنشاء تكوين للتقارير بتنسيق OPENXML**. قم بتسمية التكوين الجديد **أنشطة الاستيراد/التصدير**، كما يظهر في التوضيح التالي. استخدم ملف Excel [بيانات التقارير الإلكترونية - تفاصيل الاستيراد والتصدير](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) كقالب عند تصميم تنسيق التقارير الإلكترونية. (لمزيد من المعلومات حول كيفية استيراد قالب تنسيق، يمكنك تشغيل دليل المهام.)
 
-[![تكوين أنشطة الاستيراد/التصدير](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
+[![تكوين أنشطة الاستيراد/التصدير.](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
 لتعديل تكوين تنسيق **أنشطة الاستيراد/التصدير**، اتبع الخطوات التالية.
 
 1. انقر فوق **المصمم**.
 2. على علامة التبويب **تنسيق**، قم بتسمية عنصر الملف لهذا التنسيق **ملف الإخراج من Excel**.
 
-    [![عنصر ملف الإخراج من Excel](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
+    [![عنصر ملف الإخراج من Excel.](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
 
 3. على علامة التبويب **تعيين**، حدد اسم ملف Excel الذي سيتم إنشاؤه كلما تم تشغيل هذا التنسيق. قم بتكوين التعبير ذي صلة لإرجاع القيمة **تفاصيل الاستيراد والتصدير** (سيُضاف ملحق اسم الملف .xlsx تلقائيًا).
 
-    [![مصمم التنسيق](./media/ger-power-bi-format-configuration-output-file-name-1024x396.png)](./media/ger-power-bi-format-configuration-output-file-name.png)
+    [![مصمم التنسيق.](./media/ger-power-bi-format-configuration-output-file-name-1024x396.png)](./media/ger-power-bi-format-configuration-output-file-name.png)
 
 4. أضف عنصر مصدر بيانات جديدًا لهذا التنسيق. (هذا التعداد سيكون مطلوبًا لربط بيانات أخرى.)
 
@@ -94,19 +92,19 @@ ms.locfileid: "4680110"
     2. حدد **تعداد نموذج البيانات** كنوع مصدر البيانات.
     3. يمكنك الإشارة إلى تعداد نموذج البيانات **اتجاه**.
 
-    [![direction_enum](./media/ger-power-bi-format-configuration-mapping-added-enum-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-added-enum.png)
+    [![direction_enum.](./media/ger-power-bi-format-configuration-mapping-added-enum-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-added-enum.png)
 
 5. استكمل ربط عناصر نموذج بيانات **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي** وعناصر التنسيق المصمم، كما هو مبين في التوضيح التالي.
 
-    [![استكمال الربط](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
+    [![استكمال الربط.](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
 
 ينشئ تنسيق التقارير الإلكترونية، بعد تشغيله، نتيجة الإخراج بتنسيق Excel. ويرسل تفاصيل حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي إلى نتيجة الإخراج، ويفصلها كحركات تصف أنشطة الاستيراد أو أنشطة التصدير. انقر فوق **‎تشغيل** لاختبار التنسيق الجديد للتقارير الإلكترونية لقائمة حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي في صفحة **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي** (**الضريبة** &gt; **‎الإقرارات** &gt; **‎التجارة الخارجية** &gt; **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي**).
 
-[![صفحة نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png)
+[![صفحة نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي.](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png)
 
 يتم إنشاء نتيجة الإخراج التالية. الملف يسمى **Import and export details.xlsx**، كما حددت في إعدادات التنسيق.
 
-[![Import and export details.xlsx](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
+[![Import and export details.xlsx.](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
 
 ## <a name="configure-the-er-destination"></a>تكوين وجهة التقارير الإلكترونية
 يجب عليك تكوين إطار عمل التقارير الإلكترونية لإرسال نتيجة الإخراج الخاصة بتكوين تنسيق التقارير الإلكترونية الجديد بطريقة خاصة.
@@ -128,35 +126,35 @@ ms.locfileid: "4680110"
 1. في صفحة **التكوينات** (**إدارة المؤسسة** &gt; **إعداد التقارير الإلكترونية** &gt; **التكوينات**)، في شجرة التكوينات، حدد تكوين **أنشطة الاستيراد/التصدير** الذي قمت بإنشائه سابقًا.
 2. قم بتغيير حالة الإصدار 1.1 من **مسودة** إلى **مكتمل** لجعل هذا التنسيق متوفرًا للاستخدام.
 
-    [![صفحة التكوينات](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![تكوين أنشطة الاستيراد/التصدير في صفحة التكوينات.](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. حدد الإصدار المكتمل لتكوين **أنشطة الاستيراد/التصدير**، ومن ثم انقر فوق **تشغيل**. لاحظ تطبيق الوجهة المكوّنة على نتيجة الإخراج التي نشأت بتنسيق Excel.
 4. عيّن الخيار **معالجة الدُفعات‬** إلى **نعم** لتشغيل هذا التقرير في الوضع غير المراقب.
 5. انقر فوق **التكرار** لجدولة التكرار المطلوب لتنفيذ هذه الدُفعة. يحدد التكرار مدى تكرار نقل البيانات المحدثة إلى Power BI.
 
-    [![مربع حوار محددات التقرير الإلكتروني](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
+    [![مربع حوار معلمات التقرير الإلكتروني.](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
 
 6. يمكنك العثور على وظيفة تنفيذ التقارير الإلكترونية، بعد تكوينها، في صفحة **الوظائف الدفعية** (**إدارة النظام &gt; الاستعلامات &gt; الوظائف الدفعية**).
 
-    [![صفحة الوظائف الدفعية](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
+    [![صفحة الوظائف الدفعية.](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
 
 7. عن تشغيل هذه الوظيفة للمرة الأولى، تنشئ الوجهة ملف Excel جديدًا لديه الاسم الذي تم تكوينه في مجلد SharePoint المحدد. وفي كل مرة يتم فيها تشغيل الوظيفة، تنشئ الوجهة إصدارًا جديدًا من ملف Excel هذا.
 
-    [![إصدار جديد من ملف Excel](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
+    [![إصدار جديد من ملف Excel.](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>إنشاء مجموعة بيانات Power BI باستخدام نتيجة الإخراج لتنسيق التقارير الإلكترونية
 1. سجّل دخولك إلى Power BI وافتح مجموعة Power BI موجودة (مساحة عمل) أو أنشئ مجموعة جديدة. انقر فوق **إضافة** تحت **الملفات** في المقطع **استيراد أو الاتصال بالبيانات**، أو انقر فوق علامة الجمع (**+**) إلى جانب **مجموعات البيانات** في الجزء الأيمن.
 
-    [![إنشاء مجموعة بيانات](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
+    [![إنشاء مجموعة بيانات.](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
 2. حدد الخيار **SharePoint – مواقع الفريق**، ثم أدخل مسار SharePoint Server الذي تستخدمه (`https://ax7partner.litware.com` في المثال الذي قدمناه).
 3. استعرض وصولاً إلى المجلد **/Shared Documents/GER data/PowerBI**، وحدد ملف Excel الذي أنشأته كمصدر بيانات لمجموعات بيانات Power BI الجديدة.
 
-    [![تحديد ملف Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
+    [![تحديد ملف Excel.](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
 
 4. انقر فوق **اتصال**، ثم فوق **استيراد**. يتم إنشاء مجموعة بيانات جديدة استنادًا إلى ملف Excel المحدد. كما يمكن إضافة مجموعة البيانات تلقائيًا إلى لوحة المعلومات التي تم إنشاؤها مؤخرًا.
 
-    [![مجموعة بيانات في لوحة المعلومات](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
+    [![مجموعة بيانات في لوحة المعلومات.](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
 
 5. قم بتكوين جدول التحديث لمجموعة البيانات هذه لفرض تحديث دوري. تتيح التحديثات الدورية استهلاك بيانات العمل الجديدة التي تأتي من خلال التنفيذ الدوري للتقارير الإلكترونية عبر الإصدارات الجديدة من ملف Excel الذي تم إنشاؤه على SharePoint Server.
 
@@ -170,17 +168,17 @@ ms.locfileid: "4680110"
 
 3. احفظ تقرير Power BI بصيغة **تقرير تفاصيل الاستيراد والتصدير**.
 
-    [![تقرير تفاصيل الاستيراد والتصدير](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
+    [![تقرير تفاصيل الاستيراد والتصدير.](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
 
     لاحظ أن الخريطة تعرض فقط البلدان/المناطق المذكورة في ملف Excel (النمسا وسويسرا في هذا المثال). يتم تلوين هذه البلدان/المناطق لإظهار نسبة المبالغ المفوترة لكل واحد منها.
 
 4. قم بتحديث قائمة حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي. تُضاف حركة التصدير التي نشأت من إيطاليا.
 
-    [![قائمة حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
+    [![قائمة حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي.](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
 
 5. انتظر التحديث المجدول التالي للتقارير الإلكترونية والتحديث المجدول التالي لمجموعة بيانات Power BI. ثم اعمل على مراجعة تقرير Power BI (حدد لإظهار حركات الاستيراد فقط). تعرض الآن الخريطة المحدّثة إيطاليا.
 
-    [![الخريطة المحدّثة](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
+    [![الخريطة المحدّثة.](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>الوصول إلى تقرير Power BI في Finance
 إعداد التكامل مع Power BI. لمزيد من المعلومات، راجع [تكوين تكامل Power BI لمساحات العمل](configure-power-bi-integration.md).
@@ -189,10 +187,13 @@ ms.locfileid: "4680110"
 2. حدد تقرير **تفاصيل الاستيراد والتصدير** في Power BI الذي أنشأته، لإظهار هذا التقرير كعنصر إجراء على الصفحة المحددة.
 3. انقر فوق عنصر الإجراء لفتح الصفحة التي تعرض التقرير الذي قمت بتصميمه في Power BI.
 
-    [![تقرير تفاصيل الاستيراد والتصدير](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![استيراد وتصدير تقرير التفاصيل المصمم في Power BI.](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[وجهات التقارير الإلكترونية‬](electronic-reporting-destinations.md)
+[وجهات إعداد التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md)
 
 [نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

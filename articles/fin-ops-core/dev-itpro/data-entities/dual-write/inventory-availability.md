@@ -1,12 +1,10 @@
 ---
 title: توفر المخزون في الكتابة المزدوجة
 description: يوفر هذا الموضوع معلومات حول فحص توفر المخزون في الكتابة المزدوجة.
-author: yijialuan
-manager: AnnBe
+author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: riluan
+ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
-ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
+ms.openlocfilehash: 0fded78134b1427e6faea9656e1d3b02b467ae91
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4839539"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193397"
 ---
 # <a name="inventory-availability-in-dual-write"></a>توفر المخزون في الكتابة المزدوجة
 
@@ -118,3 +116,6 @@ ms.locfileid: "4839539"
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

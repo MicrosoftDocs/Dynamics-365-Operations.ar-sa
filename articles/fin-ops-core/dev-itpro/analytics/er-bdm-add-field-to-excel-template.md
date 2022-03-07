@@ -2,11 +2,9 @@
 title: إضافه حقول جديده إلى قالب مستند عمل في Microsoft Excel
 description: يوفر هذا الموضوع معلومات حول كيفيه أضافه حقول جديده إلى قالب مستند عمل في Microsoft Excel باستخدام ميزه أداره مستندات العمل.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fcfbcb021b192cef75d59b0db1796e994f3dc27d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767232"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>إضافه حقول جديده إلى قالب مستند عمل في Microsoft Excel
 
@@ -52,14 +50,14 @@ ms.locfileid: "4681365"
 
 لمزيد من المعلومات حول كيفية استيراد تكوينات التقارير الإلكترونية، راجع [إدارة دورة حياة تكوينات التقارير الإلكترونية](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![صفحة مكتبة الأصول المشتركة لـ LCS](./media/BDM-AddFldExcel-LCS.png)
+![صفحة مكتبة الأصول المشتركة لـ LCS.](./media/BDM-AddFldExcel-LCS.png)
 
 ### <a name="edit-the-er-solution-template"></a>تحرير قالب حل التقارير الإلكترونية
 
 1.  سجل دخولك كمستخدم لديه حق الوصول إلى مساحة عمل **إدارة مستندات الأعمال**.
 2.  افتح مساحة عمل **إدارة مستندات الأعمال**.
 
-    ![مساحة عمل إدارة مستندات الأعمال](./media/BDM-AddFldExcel-Workspace.png)
+    ![مساحة عمل إدارة مستندات الأعمال.](./media/BDM-AddFldExcel-Workspace.png)
 
 3.  في الشبكة، حدد قالب **فاتورة النص الحر (Excel)**.
 4.  في الجزء الأيسر، حدد **قالب جديد** لإنشاء قالب جديد يستند إلى القالب المحدد.
@@ -68,20 +66,20 @@ ms.locfileid: "4681365"
 
 تظهر صفحة محرر قالب BDM. يمكنك استخدام Microsoft 365 لتحرير القالب المحدد عبر الإنترنت في عنصر التحكم المضمن.
 
-![صفحة محرر قالب BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
+![صفحة محرر قالب BDM.](./media/BDM-AddFldExcel-EditableTemplate.png)
 
 ### <a name="add-the-label-for-a-new-field-to-the-template"></a>إضافه التسمية لحقل جديد إلى القالب
 
 1.  في صفحة "محرر قالب BDM"، ضمن شريط Excel، في علامة التبويب **طريقة العرض**، حدد خانات الاختيار **العناوين وخطوط الشبكات** لقالب Excel القابل للتحرير.
 
-    ![خانات اختيار العناوين وخطوط الشبكة المحددة](./media/BDM-AddFldExcel-EditableTemplate2.png)
+    ![خانات اختيار العناوين وخطوط الشبكة المحددة.](./media/BDM-AddFldExcel-EditableTemplate2.png)
 
 2.  حدد الخلايا **E8:F8**.
 3.  على شريط Excel، في علامة التبويب **الصفحة الرئيسية**، حدد **الدمج والمركز** لدمج الخلايا المحددة في خلية **E8:F8** مدمجة جديدة.
 4.  في الخلية المدمجة **E8:F8**، أدخل **URL**.
 5.  حدد الخلية المدمجة **E7:F7**، حدد **رسام التنسيق**، ثم حدد الخلية المدمجة **E8:F8** لتنسيقها بنفس الطريقة مثل الخلية المدمجة **E7:F7**.
 
-    ![إضافه تسمية الحقل الجديد إلى القالب](./media/BDM-AddFldExcel-EditableTemplate3.png)
+    ![إضافه تسمية الحقل الجديد إلى القالب.](./media/BDM-AddFldExcel-EditableTemplate3.png)
 
 ### <a name="format-the-template-to-reserve-space-for-a-new-field"></a>تنسيق القالب لحجز مساحة لحقل جديد
 
@@ -89,13 +87,13 @@ ms.locfileid: "4681365"
 2.  على شريط Excel، في علامة التبويب **الصفحة الرئيسية**، حدد **الدمج والمركز** لدمج الخلايا المحددة في خلية **G8:H8** مدمجة جديدة.
 3.  حدد الخلية المدمجة **G7:H7**، حدد **رسام التنسيق**، ثم حدد الخلية المدمجة **G8:H8** لتنسيقها بنفس الطريقة مثل الخلية المدمجة **G7:H7**.
 
-    ![المساحة المحجوزة للحقل الجديد](./media/BDM-AddFldExcel-EditableTemplate4.png)
+    ![المساحة المحجوزة للحقل الجديد.](./media/BDM-AddFldExcel-EditableTemplate4.png)
 
 4.  في حقل مربع **الاسم**، حدد **CompanyInfo**.
 
     يحتفظ نطاق **CompanyInfo** الخاص بقالب Excel الحالي بكافة الحقول المستخدمة لملء راس التقرير الذي تم إنشاؤه بتفاصيل الشركة الحالية كطرف البائع.
 
-    ![نطاق CompanyInfo المحدد](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
+    ![نطاق CompanyInfo المحدد.](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
 
 ### <a name="add-a-new-field-to-the-template"></a>إضافة حقل جديد إلى القالب
 
@@ -105,7 +103,7 @@ ms.locfileid: "4681365"
     > [!NOTE]
     > يجب عليك تعديل القسم من القالب الذي تريد استخدامه كحقل جديد. لقد قمت بالفعل بهذا التعديل عن طريق تنسيق الخلية المدمجة **G8:H8**.
 
-    ![إضافة حقل جديد إلى القالب](./media/BDM-AddFldExcel-AddCell.png)
+    ![إضافة حقل جديد إلى القالب.](./media/BDM-AddFldExcel-AddCell.png)
 
 3.  حدد **Excel/خلية** لأضافه حقل جديد كخليه في القالب.
 
@@ -116,11 +114,11 @@ ms.locfileid: "4681365"
 4.  في حقل **نطاق Excel**، أدخل **CompanyURL_Value**.
 5.  حدد **موافق**.
 
-    ![إضافة حقل CompanyURL_Value إلى بنية القالب](./media/BDM-AddFldExcel-EditableTemplate5.png)
+    ![إضافة حقل CompanyURL_Value إلى بنية القالب.](./media/BDM-AddFldExcel-EditableTemplate5.png)
 
 6.  في جزء **بنية القالب**، حدد زر علامة الحذف (...)، ثم حدد **إظهار الروابط**.
 
-    ![إظهار الروابط المحددة](./media/BDM-AddFldExcel-ShowBindings.png)
+    ![إظهار الروابط المحددة.](./media/BDM-AddFldExcel-ShowBindings.png)
 
     يعرض جزء **بنيه القالب** الآن مصادر البيانات المتوفرة في التنسيق الأساسي للتقارير الإلكترونية.
 
@@ -128,21 +126,21 @@ ms.locfileid: "4681365"
 8.  في قسم **مصادر البيانات** في جزء **بنية القالب**، قم بتوسيع **النموذج \> InvoiceBase \> CompanyInfo**.
 9.  ضمن **CompanyInfo**، حدد عنصر **WebsiteURI**.
 
-    ![عنصر WebsiteURI المحدد](./media/BDM-AddFldExcel-BindURL.png)
+    ![عنصر WebsiteURI المحدد.](./media/BDM-AddFldExcel-BindURL.png)
 
 10. حدد **ربط**.
 11. في جزء **بنيه القالب**، حدد **حفظ**، ثم اغلق صفحة محرر قالب BDM.
 
 في مساحة عمل **إدارة مستندات الأعمال**، تعرض علامة التبويب **القالب** في الجزء الأيسر القالب المحدث. في الشبكة، لاحظ أن حقل **الحالة** للقالب المحرر تم تغييره إلى إلى **مسودة**، ولم يُعد حقل **المراجعة** فارغًا. تشير هذه التغييرات إلى أن عملية تحرير هذا القالب قد بدأت.
 
-![القالب المحرر في مساحة عمل إدارة مستندات العمل](./media/BDM-AddFldExcel-Workspace2.png)
+![القالب المحرر في مساحة عمل إدارة مستندات العمل.](./media/BDM-AddFldExcel-Workspace2.png)
 
 ## <a name="review-company-settings"></a>مراجعة إعدادات الشركة
 
 1.  انتقل إلى **إدارة المؤسسة \> المؤسسات \> الكيانات القانونية**.
 2.  في علامة التبويب السريع **معلومات جهة الاتصال**، تحقق من إدخال عنوان URL الخاص بالشركة.
 
-![عنوان URL للشركة الذي تم إدخاله في صفحة الكيانات القانونية](./media/BDM-AddFldExcel-CompanyInfo.png)
+![عنوان URL للشركة الذي تم إدخاله في صفحة الكيانات القانونية.](./media/BDM-AddFldExcel-CompanyInfo.png)
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>إنشاء مستندات الأعمال لاختبار القالب المحدث
 
@@ -152,13 +150,13 @@ ms.locfileid: "4681365"
 4.  ضمن **فاتورة النص الحر**، حدد مستوى **النص الأصلي** لتحديد نطاق الفواتير للمعالجة.
 5.  في الجزء الأيسر، في حقل **تنسيق التقرير**، حدد **فاتورة النص الحر (Excel) لـ Contoso** لمستوى المستند المحدد.
 
-    ![قالب فاتورة النص الحر (Excel) لشركة Contoso المحدد](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![قالب فاتورة النص الحر (Excel) لشركة Contoso المحدد.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  اضغط **Esc** لإغلاق الصفحة الحالية.
 7.  حدد **طباعة \> تم التحديد**.
 8.  قم بتنزيل المستند الذي تم إنشاؤه، ثم قم بفتحه في Excel.
 
-    ![فاتورة النص الحر بتنسيق Excel](./media/BDM-AddFldExcel-PreviewReport.png)
+    ![فاتورة النص الحر بتنسيق Excel.](./media/BDM-AddFldExcel-PreviewReport.png)
 
 يتم استخدام القالب المعدل لإنشاء تقرير فاتورة النص الحر للصنف المحدد. لتحليل كيفية تأثر هذا التقرير بالتغييرات التي قمت بإدخالها على القالب، يمكنك تشغيل هذا التقرير في جلسة عمل تطبيق واحدة مباشرة بعد تغيير القالب في جلسة عمل تطبيق أخرى.
 
@@ -169,3 +167,6 @@ ms.locfileid: "4681365"
 [نظرة عامة على إدارة مستندات الأعمال](er-business-document-management.md)
 
 [تصميم تكوين لإنشاء التقارير بتنسيق OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

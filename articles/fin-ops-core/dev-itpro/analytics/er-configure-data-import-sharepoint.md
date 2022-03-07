@@ -2,11 +2,9 @@
 title: تكوين استيراد البيانات من SharePoint
 description: يشرح هذا الموضوع كيفية استيراد بيانات من Microsoft SharePoint.
 author: NickSelin
-manager: AnnBe
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1f7754a3e69238ab1760b3f7eb8f5e2c792b451b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680892"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074756"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>تكوين استيراد البيانات من SharePoint
 
@@ -49,13 +47,13 @@ ms.locfileid: "4680892"
 - تكوين نموذج إعداد التقارير الإلكترونية، **نموذج مدفوعات 1099**
 - تكوين تنسيق إعداد التقارير الإلكترونية، **التنسيق لاستيراد حركات الموردين من ملف Excel**
 
-![تكوينات التقارير الإلكترونية لاستيراد البيانات من SharePoint](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![تكوينات التقارير الإلكترونية لاستيراد البيانات من SharePoint.](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
 #### <a name="sample-of-the-incoming-file-for-data-import"></a>عينة من ملف وارد لاستيراد البيانات
 
 - ملف Excel **1099import data.xlsx**، مع حركات المورد التي ينبغي استيرادها.
 
-![ملف Excel نموذجي لاستيراده من SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
+![ملف Excel نموذجي لاستيراده من SharePoint.](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > تم تحديد التنسيق لاستيراد حركات المورد كتخطيط نموذج افتراضي. لذلك، إذا قمت بتشغيل تعيين نموذج لـ **نموذج مدفوعات 1099**، وكان تعيين النموذج هذا من النوع **إلى الوجهة**، يقوم تعيين النموذج بتشغيل هذا التنسيق لاستيراد بيانات من ملفات خارجية. ثم يستخدم هذه البيانات لتحديث جداول التطبيق.
@@ -70,7 +68,7 @@ ms.locfileid: "4680892"
      - مصدر استيراد الملفات (الرئيسي) (يظهر مثال في لقطة الشاشة أدناه)
      - مصدر استيراد الملفات (البديل)
 
-    ![مصدر استيراد الملفات (الرئيسي)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    ![مصدر استيراد الملفات (الرئيسي).](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
 4. (اختياري) أنشئ المجلدات التالية حيث يمكنك حفظ الملفات بعد استيرادها. 
 
@@ -89,7 +87,7 @@ ms.locfileid: "4680892"
 |تحذير SP             |ملف                |SharePoint     |مجلد تحذير الملفات|
 |خطأ SP             |ملف                |SharePoint     |مجلد أخطاء الملفات|
 
-![إعداد SharePoint - نوع مستند جديد](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![إعداد SharePoint - نوع مستند جديد.](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>تكوين مصادر إعداد التقارير الإلكترونية لتنسيق إعداد التقارير الإلكترونية
 1. انقر فوق **إدارة المؤسسة** \> **إعداد التقارير الإلكترونية** \> **مصدر إعداد التقارير الإلكترونية**.
@@ -98,7 +96,7 @@ ms.locfileid: "4680892"
 4. قم بتغيير **فرز الملفات قبل الاستيراد‬** إلى **لا يقومون بالفرز**، إذا كان يوجد عدد كبير جد من الملفات للاستيراد ولم يكن ترتيب الاستيراد مهمًا.
 5. حدد جميع مجلدات SharePoint التي أنشأتها في وقت سابق.
 
-    [![إعداد مصدر ملفات إعداد التقارير الإلكترونية](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
+    [![إعداد مصدر ملفات إعداد التقارير الإلكترونية.](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - يتم تعريف *مصدر* إعداد التقارير الإلكترونية لكل شركة تطبيق على حدة. وفي المقابل، تتم مشاركة *تكوينات* إعداد التقارير الإلكترونية بين الشركات.
@@ -116,7 +114,7 @@ ms.locfileid: "4680892"
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>استيراد بيانات من ملفات Excel موجودة في مجلد SharePoint
 1. في SharePoint,، قم بتحميل ملف Microsoft Excel **1099import-data.xlsx** الذي يحتوي على حركات المورد إلى مجلد SharePoint **مصدر استيراد الملفات (الرئيسي)** الذي قمت بإنشائه في وقت سابق.
 
-    [![محتوى SharePoint  – ملف Microsoft Excel لاستيراده](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![محتوى SharePoint  – ملف Microsoft Excel لاستيراده.](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. على صفحة **حالات الملف للمصادر**، حدد **تحديث** لتحديث الصفحة. ملف Excel الذي تم تحميله على SharePoint في هذه الصفحة في الحالة **جاهز**. الحالات التالية مدعومة حاليًا:
 
@@ -126,19 +124,19 @@ ms.locfileid: "4680892"
     - **فشل** – تُعيّن هذه الحالة تلقائيًا بواسطة تقرير إعداد التقارير الإلكترونية عند إتمام عملية استيراد الملفات مع وجود أخطاء أو استثناءات.
     - **قيد الانتظار** – تُعيّن هذه الحالة يدويًا بواسطة المستخدم في هذه الصفحة. تعني هذه الحالة أن الملف لن يتم استيراده في الوقت الحاضر. يمكن استخدام هذه الحالة لتأجيل استيراد بعض الملفات.
 
-    [![صفحة حالات ملف إعداد التقارير الإلكتروني المحدثة للمصادر المحددة](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![صفحة حالات ملف إعداد التقارير الإلكتروني المحدثة للمصادر المحددة.](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>استيراد البيانات من ملفات SharePoint
 1. افتح شجرة تكوينات إعداد التقارير الإلكترونية، حدد **نموذج الدفع 1099**، ثم قم بتوسيع قائمة مكونات نموذج إعداد التقارير الإلكترونية.
 2. حدد اسم لتعيين النموذج لفتح قائمة تعيينات النماذج لتكوينات نماذج إعداد التقارير الإلكترونية المحددة.
 
-    [![صفحة التكوين](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![صفحة التكوين.](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. حدد **تشغيل** لتشغيل تعيين النموذج المحدد. نظرًا لقيامك بتكوين مصادر الملفات لتنسيق التقارير الإلكترونية، يمكنك تغيير إعداد الخيار **ملف المصدر** إذا اقتضت الحاجة. إذا حافظت على إعداد هذا الخيار، يتم استيراد ملفات xslx. من المصادر التي تم تكوينها (مجلدات SharePoint في هذا المثال).
 
     في هذا المثال، تقوم باستيراد ملف واحد فقط. ومع ذلك، إذا كان هناك ملفات متعددة، يتم تحديدها للاستيراد بالترتيب الذي تمت إضافتها به إلى مجلد SharePoint. يستورد كل تشغيل لتنسيق إعداد التقارير الإلكترونية ملف واحد مُحدد.
 
-    [![الاستيراد من SharePoint وتشغيل تعيين نموذج التقارير الإلكترونية](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![الاستيراد من SharePoint وتشغيل تعيين نموذج التقارير الإلكترونية.](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
 4. يمكن تشغيل تعيين النموذج [دون مراقبة](#limitations) في وضع الدفعة. في هذه الحالة، في كل مرة تقوم دفعة بتشغيل تنسيق إعداد التقارير الإلكترونية هذه، يتم استيراد ملف واحد من مصادر الملفات التي تم تكوينها.
 
@@ -146,11 +144,11 @@ ms.locfileid: "4680892"
 
 5. أدخل معرف إيصال، مثل **V-00001**، ثم قم بتحديد **موافق**.
 
-    [![ER-model-mappingr](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
+    [![تشغيل تخطيط نموذج التقارير الإلكترونية.](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
 
 6. على صفحة **حالات الملف للمصادر**، حدد **تحديث** لتحديث الصفحة.
 
-    [![صفحة حالات ملف إعداد التقارير الإلكتروني للمصادر](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![صفحة حالات ملف إعداد التقارير الإلكتروني للمصادر.](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. في قسم **الملفات**، راجع قائمة الملفات. يوفر قسم **سجلات المصادر لتنسيق الاستيراد‬‬‏‫** المحفوظات الخاصة باستيراد ملف Excel. نظراً لنجاح عملية استيراد هذا الملف، تم وضع علامة **محذوف** عليه في مجلد SharePoint.
 8. راجع مجلد SharePoint **مصدر استيراد الملفات (الرئيسي)**. تم حذف ملفات Excel التي تم استيرادها بنجاح من هذا المجلد .
@@ -159,12 +157,12 @@ ms.locfileid: "4680892"
 
     يتم عرض حركات المورد التي تم استيرادها من ملفات Excel في SharePoint للإيصال **V-00001** في الصفحة.
 
-    [![صفحة حركات المورد 1099](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
+    [![صفحة حركات المورد 1099.](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
 ## <a name="prepare-an-excel-file-for-import"></a>إعداد ملف Excel للاستيراد
 1. افتح ملف Excel الذي استخدمته مسبقًا. في الصف رقم (3) عمود رقم (1)، أضف كود المورد غير الموجود في التطبيق. أضف معلومات مورد إضافية خطأ إلى الصف.
 
-    [![ملف Microsoft Excel نموذجي لاستيراده من SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![مثال ملف Microsoft Excel للاستيراد من SharePoint.](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. قم بتحميل ملف Excel المُحدث الذي يحتوي على حركات الموردين إلى مجلد SharePoint **مصدر استيراد الملفات (الرئيسي)**.
 3. افتح شجرة تكوينات إعداد التقارير الإلكترونية، حدد **نموذج الدفع 1099**، ثم قم بتوسيع قائمة مكونات نموذج إعداد التقارير الإلكترونية.
@@ -172,7 +170,7 @@ ms.locfileid: "4680892"
 5. حدد **المصمم**.
 6. على علامة تبويب **عمليات التحقق من الصحة**، يجب عليك تغيير إجراء ما بعد التحقق من الصحة لقاعدة التحقق من الصحة التي تم تكوينها لتقييم ما إذا كان حساب المورد الذي تم استيراده موجود في التطبيق أم لا. قم بتحديث قيمة حقل **إجراء ما بعد التحقق من الصحة** إلى **إيقاف التنفيذ**، ثم احفظ التغييرات التي أجريتها واغلق الصفحة.
 
-    [![ER model mapping designer](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
+    [![صفحة مصمم تخطيط نموذج التقارير الإلكترونية.](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
 
 7. احفظ التغييرات التي اجريتها، وقم بإغلاق مصمم تعيين نموذج إعداد التقارير الإلكترونية.
 8. حدد **تشغيل** لتشغيل تعيين نموذج إعداد التقارير الإلكترونية المُعدّل.
@@ -180,11 +178,11 @@ ms.locfileid: "4680892"
 
     سجل المعلومات يتضمن إعلامًا يفيد بوجود ملف في مجلد SharePoint يحتوي على حساب مورّد غير صحيح ولا يمكن استيراده.
 
-    [![تم إنهاء تشغيل تعيين نموذج التقارير الإلكترونية](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![تم إنهاء تشغيل تخطيط نموذج التقارير الإلكترونية.](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. في صفحة **حالات الملف للمصادر**، حدد **تحديث**، ثم في قسم **الملفات**، قم بمراجعة قائمة الملفات.
 
-    [![صفحة حالات ملف إعداد التقارير الإلكتروني للمصادر المحددة](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![صفحة حالات ملف إعداد التقارير الإلكتروني للمصادر المحددة.](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
    يشير قسم **سجلات المصدر لتنسيق الاستيراد** إلى فشل عملية الاستيراد وإلى أن الملف ما زال موجودًا في مجلد أخطاء الملفات‬ في SharePoint (لم يتم تحديد خانة الاختيار **محذوف**). إذا أصلحت هذا الملف في SharePoint عن طريق إضافة كود المورّد المناسب ثم نقلته إلى مجلد SharePoint "مصدر استيراد الملفات (الرئيسي)"، يمكنك استيراد الملف مرة أخرى.
 
@@ -194,11 +192,11 @@ ms.locfileid: "4680892"
 
 ## <a name=""></a><a name="limitations">قيود</a>
 
-لا يوفر إطار عمل إعداد التقارير الإلكترونية القدرة على بدء وظيفة مجموعة جديدة من شأنها تنفيذ تعيين نموذج في الوضع غير المراقب لاستيراد البيانات. للقيام بذلك، يجب عليك تطوير منطق جديد بحيث يمكن استدعاء تعيين نموذج التقارير الإلكترونية المكون من واجهة مستخدم التطبيق (UI) لاستيراد البيانات من الملفات الواردة. وبالتالي، هناك بعض الأعمال الهندسية المطلوبة. 
+في إصدارات Dynamics 365 Finance التي تسبق الإصدار 10.0.25، لا توفر واجهة المستخدم في إطار عمل التقارير الإلكترونية القدرة على بدء وظيفة دُفعية جديدة ستقوم بتشغيل تعيين نموذج لاستيراد البيانات في الوضع غير المراقب. بدلاً من ذلك، يجب عليك تطوير منطق جديد بحيث يمكن استدعاء تعيين نموذج التقارير الإلكترونية المكون من واجهة مستخدم التطبيق (UI) لاستيراد البيانات من الملفات الواردة. لتطوير هذا المنطق، يجب تنفيذ بعض الأعمال الهندسية. 
 
-لمعرفة المزيد حول واجهة برمجة تطبيقات التقارير الإلكترونية ذات الصلة، راجع قسم [كود تشغيل تعيين تنسيق لاستيراد البيانات](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) في موضوع [‏‫التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3‬](er-apis-app73.md).
+لمزيد من المعلومات حول واجهة برمجة تطبيقات التقارير الإلكترونية ذات الصلة، راجع قسم [كود تشغيل تعيين تنسيق لاستيراد البيانات](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) في موضوع [‏‫التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3‬](er-apis-app73.md). راجع الكود في فئة `BankImport_RU` لنموذج `Application Suite` لمعرفة كيف يمكن تنفيذ المنطق المخصص الخاص بك. تقوم الفئة `BankImport_RU` بتوسيع الفئة `RunBaseBatch`. بشكل خاص، راجع أسلوب `runER()`، حيث يتم إنشاء كائن `ERIModelMappingDestinationRun` كمشغل لتعيين نموذج التقارير الإلكترونية.
 
-راجع الكود في فئة `BankImport_RU` لنموذج `Application Suite` لمعرفة كيف يمكن تنفيذ المنطق المخصص الخاص بك. هذه الفئة توسع فئة `RunBaseBatch`. بشكل خاص، راجع أسلوب `runER()` حيث يتم إنشاء كائن `ERIModelMappingDestinationRun` كمشغل لتعيين نموذج التقارير الإلكترونية.
+في الإصدار 10.0.25 من Finance والإصدارات اللاحقة، لا توفر واجهة المستخدم في إطار عمل التقارير الإلكترونية القدرة على تشغيل وظيفة دُفعية جديدة لتشغيل تعيين نموذج لاستيراد البيانات في الوضع غير المراقب. لمزيد من المعلومات حول هذه العملية، راجع [استيراد البيانات في الوضع الدُفعي من الملفات المحددة يدويًا](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
@@ -206,3 +204,10 @@ ms.locfileid: "4680892"
 
 [التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 7.3](er-apis-app73.md)
 
+[التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 10.0.23](er-apis-app10-0-23.md)
+
+[التغييرات في واجهة برمجة التطبيقات (API) لإطار عمل التقارير الإلكترونية لـ Application update 10.0.25](er-apis-app10-0-25.md)
+
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

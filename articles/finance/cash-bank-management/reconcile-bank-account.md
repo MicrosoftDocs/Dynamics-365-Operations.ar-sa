@@ -2,27 +2,24 @@
 title: تسوية حساب بنكي
 description: يصف هذا الموضوع كيفية تسوية حساب بنكي.
 author: panolte
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e06a38a19a16a07d77d0c9aceaa4e3206646dd0561996681b417b785058f3938
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739349"
 ---
 # <a name="reconcile-a-bank-account"></a>تسوية حساب بنكي
 
@@ -71,3 +68,6 @@ ms.locfileid: "4440021"
 لا يمكن إلغاء تسويات كشف الحساب البنكي إلا بالترتيب الزمني الذي تم إدخالها به. عند إلغاء تسوية كشف حساب بنكي، سيتم عكس التصحيحات والحركات الجديدة وسيتم وضع علامة على كافة الحركات الأخرى على أنها لم تتم تسويتها.
  
 لإلغاء تسوية كشف الحساب البنكي، حدد الكشف البنكي وحدد **كشف حساب بنكي > إلغاء تسوية بنكية**. في صفحة **إلغاء تسوية بنكية**، أدخل **كود السبب**, و **التعليق على السبب‬** و **تاريخ الإلغاء**. حدد **موافق** لبدء الإلغاء. ملاحظة: يجب أن يكون تاريخ إلغاء كشف الحساب البنكي في تاريخ كشف الحساب البنكي أو بعده. بعد إلغاء تسوية كشف الحساب البنكي، سيتم تحديث حقل **تاريخ الإلغاء** بواسطة **تاريخ الإلغاء** المقدم. حدد زر **الحركات** لعرض الحركات التي تم إلغاء التسوية لها.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

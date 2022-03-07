@@ -2,36 +2,30 @@
 title: إدارة ملفات robots.txt
 description: يصف هذا الموضوع كيفية إدارة ملفات robots.txt في Microsoft Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: e1078de354a96cc50b7c1b79a864db5041ea5069df650670e65531faaeb32e0a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517442"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754382"
 ---
 # <a name="manage-robotstxt-files"></a>إدارة ملفات robots.txt
-
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية إدارة ملفات robots.txt في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يُعد معيار استبعاد الروبوتات، أو robots.txt، معيارًا تستخدمه المواقع الإلكترونية للتواصل مع روبوتات الويب. فإنه يرشد روبوتات الويب إلى أية مناطق من موقع ويب لا ينبغي زيارته. وغالبا ما تستخدم الروبوتات من قبل محركات البحث لفهرسة مواقع الويب.
 
@@ -107,3 +101,6 @@ ms.locfileid: "4517442"
 [إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
 
 [تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: تحديث حالة كانبان
 description: عندما يتم إفراغ كانبان عن طريق الخطأ أو يحتاج كانبان المستلم إلى الإفراغ، فإنك تحتاج إلى تحديث حالة كانبان.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Kanban, KanbanResetEmpty
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bb8559c0843d7e6e538b5b29dc394a50d05462ee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a0e03da4671ffec4ecf4835b20a00ef87971c94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421535"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831796"
 ---
 # <a name="update-kanban-status"></a>تحديث حالة كانبان
 
@@ -48,3 +45,6 @@ ms.locfileid: "4421535"
 2. في القائمة، قم بوضع علامة للصف المحدد.
     * لاحظ أن حالة وحدة معالجة المواد هي "مفرغ".  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

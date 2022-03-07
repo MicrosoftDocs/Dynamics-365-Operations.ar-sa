@@ -2,27 +2,24 @@
 title: تكوين عرض المجموعات القديمة داخل المستودع على جهاز محمول
 description: يصف هذا الموضوع كيفية إعداد جهاز محمول لعرض قائمة بالمواقع مع دُفعات أقدم من الموقع الحالي لخط العمل.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b1c9452a811d662976a25993264be0617ac67fe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d23a259f4c16026ee36f73b427f7d2e610a4b8d938c2e21ec9715d8d2b8137b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727764"
 ---
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>تكوين عرض المجموعات القديمة داخل المستودع على جهاز محمول
 
@@ -40,3 +37,6 @@ ms.locfileid: "4421351"
 
 - ضمن **إدارة المستودعات** > **الإعداد** > **الجهاز المحمول** > **أصناف قائمة الجهاز المحمول**، عيّن **استخدام العمل الموجود** إلى **نعم** لصنف القائمة، وحدد **تحذير** في الحقل **انتقاء الدُفعة الأقدم‬**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

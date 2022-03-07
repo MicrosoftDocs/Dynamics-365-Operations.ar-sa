@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 987b9cefef395b3bf3e915f41232fe0daba213b9
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 61ef9ba4eb683fea030f06b3bacf687d7f146de4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021149"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246563"
 ---
 # <a name="vendor-request-configurations"></a>تكوينات طلب المورّد
 [!include [banner](../includes/banner.md)]
@@ -53,3 +53,6 @@ ms.locfileid: "5021149"
 4.  افتح علامة التبويب **البلاد/المناطق** لتحديد البلد/المنطقة التي ستستخدم في التكوين.
 5.  أكمل التكوين باتباع الإرشادات الخاصة بالتكوين الافتراضي.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

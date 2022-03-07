@@ -2,9 +2,11 @@
 title: إعداد معلومات الشحن
 description: يوضح هذا الموضوع كيفية إعداد معلومات الشحن للوحدة المنطقية التكلفة شاملة التفريغ.
 author: sherry-zheng
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMGoodsDescriptionTable, ITMVesselTable, ITMExporterTable, ITMCommodityCodeTable, ITMCustomsDescription
 audience: Application User
@@ -13,17 +15,18 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 86350acfd056be2b43fc856e3b76b1632989a804
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 90794a154eb2a63f33277383cda80323dafd77b0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579678"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500924"
 ---
 # <a name="shipping-information-setup"></a>إعداد معلومات الشحن
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفية إعداد معلومات الشحن لوحدة **التكلفة المستلمة**.
 

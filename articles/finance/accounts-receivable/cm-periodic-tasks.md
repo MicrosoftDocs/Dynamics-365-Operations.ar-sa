@@ -1,26 +1,23 @@
 ---
 title: المهام الدورية لإدارة الائتمان
 description: يصف هذا الموضوع المهام الدورية التي تعتبر جزءًا ضروريًا من عملية إدارة الحدود الائتمانية للعملاء.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 17b4b2f487fdeb9f1aa7d77bf87197885ba60e47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439911"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753479"
 ---
 # <a name="periodic-credit-management-tasks"></a>مهام إدارة الائتمان الدورية
 
@@ -44,3 +41,6 @@ ms.locfileid: "4439911"
 يمكنك تشغيل عملية **تحديث إحصاءات رصيد العميل‬** لتحديث حساب إحصاءات الرصيد التي تظهر في صفحة‬ **استعلام حول إحصاءات الرصيد**. يتم استخدام هذه المعلومات لحساب معدلات المخاطرة والقيم التي تظهر في مربعات حقائق إحصاءات الائتمان في صفحة **العميل**.
 
 عند تشغيل العملية، يقوم بتحديث إحصاءات رصيد العميل لعميل واحد. لإعداد مهمة دفعية لتشغيل العملية لعدة عملاء، يمكنك استخدام الصفحة **حساب إحصاءات الرصيد** (**إدارة الائتمان \> المهام الدورية \> حساب إحصاءات الرصيد**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
 title: وثائق تطبيق Finance and Operations
 description: وثائق لتطبيقات Finance and Operations.
-author: robinarh
-manager: AnnBe
-ms.date: 07/25/2019
+author: tonyafehr
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: rhaertle
-ms.custom: 62303
+ms.reviewer: tfehr
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: margoc
+ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694375"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075387"
 ---
 # <a name="finance-and-operations-application-documentation"></a>وثائق تطبيق Finance and Operations
 
@@ -41,16 +39,16 @@ ms.locfileid: "4694375"
 <tr class="odd">
 <td>
 <h3><a href="get-started/before-you-buy.md">قبل الشراء</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">سجل للاشتراك في المعاينة</a></p>
- <p><a href="../dev-itpro/deployment/choose-deployment-type.md">اختر أحد خيارات النشر</a></p>
- <p><a href="get-started/purchase-on-premises.md">شراء Finance and Operations (محلي)</a></p>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">سجل للاشتراك في الإصدار الأولي</a></p>
+ <p><a href="../dev-itpro/deployment/choose-deployment-type.md">اختيار أحد خيارات النشر</a></p>
+ <p><a href="get-started/purchase-on-premises.md">شراء Finance and Operations ‏(on-premises)‏</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">دورة حياة التطبيق</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">إعداد مشروع</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">الإعداد للعرض المباشر</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">تحديثات خدمة إصدار واحد</a></h3>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">تحديثات خدمة One Version</a></h3>
 <p><a href="get-started/one-version.md">الأسئلة المتداولة حول تحديثات خدمة إصدار واحد</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">سياسة دورة حياة البرامج: إصدارات على السحابة</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">سياسة دورة حياة البرامج: إصدارات محلية</a></p>
@@ -78,20 +76,22 @@ ms.locfileid: "4694375"
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">محاسبة التكاليف</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">الأصول الثابتة</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">دفتر الأستاذ العام</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">إدارة المشروع</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">إدارة المشروع</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">القطاع العام</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">الميزات التنظيمية الإقليمية</a></p>
 
-<h3><a href="hr/hr-landing-page.md">الموارد البشرية</a></h3>
-<p><a href="../../human-resources/hr-benefits-manage-program.md">المزايا</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">تنمية مهارات الموظفين وتدريبهم</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">الاستبيانات</a></p>
-<p><a href="hr/manage-recruiting-process.md">توظيف</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">كشف رواتب الولايات المتحدة</a></p>
+<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">خدمة الموظف الذاتية</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">إدارة العاملين</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">الإجازة والغياب</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">المزايا‬</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">تطوير الموظفين</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">التعلم</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">كشف رواتب الولايات المتحدة</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">إدارة سلسلة التوريد</a></h3>
+<h3><a href="../../supply-chain/index.md">إدارة سلاسل التوريد</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">إدارة التكلفة</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">إدارة المخزون</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">التخطيط الرئيسي</a></p>
@@ -106,7 +106,7 @@ ms.locfileid: "4694375"
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">المعلومات</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">التحليلات</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">مستندات الأعمال</a></p>
-<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">Financial reporting</a></p>
+<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">إعداد التقارير المالية</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting.md">التقارير التنظيمية</a></p>
 
 
@@ -115,7 +115,7 @@ ms.locfileid: "4694375"
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">قابلية التوسعة</a></p>
 <p><a href="../dev-itpro/office-integration/office-integration.md">تكامل Office‬‏‫</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">التسليم المستمر</a></p>
-<p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">النظام الأساسي للجوال</a></p>
+<p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">النظام الأساسي للأجهزة المحمولة‬</a></p>
 <p><a href="get-started/demo-data.md">بيانات العرض التوضيحي</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">الإدارة</h3>
@@ -128,16 +128,11 @@ ms.locfileid: "4694375"
 </td>
 <td>
 <h3>المنتجات المرتبطة</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p>مركز الاتصال في <a href="../../retail/call-center-functionality.md"></p>
-<p>إعداد القنوات وإدارتها في <a href="../../retail/define-maintain-retail-channels.md"></p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS وCloud POS</p>
-<p>مطور وإدارة <a href="../../retail/dev-itpro/dev-retail-home-page.md">Commerce</p>
-
-<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">دليل المسؤول</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">دليل المطور</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">دليل المستخدم</a></p>
+<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
+<p>مركز الاتصال في <a href="../../commerce/call-center-functionality.md"></p>
+<p>إعداد القنوات وإدارتها في <a href="../../commerce/define-maintain-retail-channels.md"></p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS وCloud POS</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">مطور وإدارة Commerce</p>
 
 
 </td>
@@ -145,3 +140,6 @@ ms.locfileid: "4694375"
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

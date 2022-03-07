@@ -2,27 +2,24 @@
 title: تضمين وزن وحجم الحاوية على الحمولة
 description: يصف هذا الموضوع كيفية إعداد وتطبيق وظيفة تضمين وزن وحجم الحاوية على الحمولات‬.
 author: pjacobse
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6b29bf2e42ea2df3d36f39fa577078009aa584
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8d747d2cdafeedf77b8b2df1cbc8debdc0675729
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421211"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824042"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>تضمين وزن وحجم الحاوية على الحمولة
 
@@ -45,3 +42,6 @@ ms.locfileid: "4421211"
 -   لتعيين الوزن والحجم لحاوية، انقر فوق **إدارة المستودعات** \> **الإعداد** \> **الحاويات** \> **أنواع الحاويات**.
 
 -   لتعيين النسبة المئوية لاستخدام الحاوية، انقر فوق **إدارة المستودعات** \> **الإعداد** \> **الحاويات‏‎** \> **مجموعات الحاويات**، ثم أدخل قيمة في حقل **النسبة المئوية لاستخدام الحاوية‬**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

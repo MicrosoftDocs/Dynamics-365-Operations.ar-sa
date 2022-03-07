@@ -1,8 +1,8 @@
 ---
 title: ما الجديد والمتغير في Dynamics 365 Human Resources (25 يونيو 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 23 يونيو 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0f767ad634a37b7231a7998184ef130668c8a8dc
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528707"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463612"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>ما الجديد والمتغير في Dynamics 365 Human Resources (23 يونيو 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -118,9 +120,9 @@ ms.locfileid: "4528707"
 
 سيتوفر خيار جديد في **معلمات الموارد البشرية** لتحديث اسم مساحة عمل خدمة الموظف الذاتية إلى الخدمة الذاتية.
 
-## <a name="checklist-entities-included-in-common-data-service"></a>تضمين كيانات قائمة الاختيار في Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>تضمين كيانات قائمة الاختيار في Dataverse
 
-ستتوفر كيانات قائمة الاختيار الخاصة بعمليات إلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبا في Common Data Service.
+ستتوفر كيانات قائمة الاختيار الخاصة بعمليات إلحاق وإلغاء الإلحاق والتحويلات وعمليات الأعمال قريبا في Dataverse.
 
 ## <a name="see-also"></a>راجع أيضًا
 
@@ -128,3 +130,5 @@ ms.locfileid: "4528707"
 [نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

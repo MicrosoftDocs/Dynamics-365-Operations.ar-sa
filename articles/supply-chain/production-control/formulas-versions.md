@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ee15fc2a3edd9d0cc8cff17123981bc90ceeff2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421302"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246179"
 ---
 # <a name="formulas-and-formula-versions"></a>التركيبات وإصدارتها
 
@@ -71,3 +70,6 @@ ms.locfileid: "4421302"
 
 ## <a name="use-step-consumption"></a>استخدام الاستهلاك المرحلي
 يزيل الاستهلاك المرحلي ضرورة إدخال كمية في علامة تبويب **سطر التركيبة** لمكون. بدلاً من ذلك، يتم تكوين الاستهلاك المرحلي بحيث تكون لديه القيمة **السلسلة من‬** والقيمة **الكمية**. يتم تحديد المعلومات من الاستهلاك المرحلي لكل سجل سلسلة تستوفي الكمية على الأمر الدفعي. يعتبر الاستهلاك المرحلي مفيدًا عندما يكون معدل الاستهلاك غير خطي بالنسبة إلى حجم الأمر الدفعي ويزيد فقط المتطلبات عند الوفاء بحد معين للكمية. لتمكين هذه الميزة لتركيبة جديدة، ضمن مجموعة **حساب الاستهلاك**، قم بتغيير إعداد التركيبة لمكون قابل للتطبيق من **قياسي** إلى **خطوة**. يمكنك تحديد أسلوب الاستهلاك هذا على علامة التبويب **الإعداد** في صفحة **سطر التركيبة**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

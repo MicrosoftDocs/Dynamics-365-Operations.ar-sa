@@ -2,11 +2,9 @@
 title: استخدام توقعات دفع العميل (معاينة)
 description: يتناول هذا الموضوع المتطلبات الأساسية والخطوات الكبيرة المطلوبة لاستخدام إصدار تجريبي من Finance insights.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 11/16/2020
+ms.date: 07/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: e0445046d8016dfa2c02c1ff1a05bdd148f9409a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6e89ab13f005a9a0e00da6ce9da14dd505219c497e1105785843b2375166dbce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748224"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>استخدام توقعات دفع العميل (معاينة)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفية استخدام توقعات دفع العميل. قبل استخدام هذه الميزة، تأكد من إكمالك لخطوات الإعداد الخاصة بها. للحصول على مزيد من المعلومات، راجع [تمكين توقعات دفع العميل](enable-cust-paymnt-prediction.md).
 
@@ -40,13 +37,13 @@ ms.locfileid: "4969243"
 - يعرض التجانب **توقع الدفع لكل حركة** عدد حركات العميل المفتوحة التي تحتوي على احتمالية دفع أقل من 50 بالمائة في دلو **في الوقت المحدد**. يمكنك تحديد هذا التجانب لفتح صفحة قائمة **توقعات الدفع لكل حركة**.
 - يعرض التجانب **العملاء ذوي الأرصدة المتأخرة ذات نسبة التوقع المرتفعة** عدد العملاء الذين تم توقع أن يقوموا بالدفع متأخر و/أو متأخر جدًا لأكثر من النصف (50 بالمائة) من الرصيد الإجمالي. يمكنك تحديد هذا التجانب لفتح صفحة قائمة **توقع الدفع لكل عميل**.
 
-[![مساحة عمل إدارة التحصيلات وائتمان العميل](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
+[![مساحة عمل إدارة التحصيلات وائتمان العميل.](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
 
 ### <a name="payment-predictions-per-transaction-list-page"></a>توقعات الدفع لكل صفحة قائمة الحركة
 
 في صفحة القائمة **توقع الدفع لكل حركة**، يمكنك عرض احتمال الدفع للحركات المفتوحة في الدلاء **في الوقت المحدد** و **متأخر** و **متأخر جدًا**. بالنسبة لكل حركة في الشبكة، يظهر العمود **احتمال في الوقت المحدد** احتمالية دفع الفاتورة في تاريخ الاستحقاق أو قبله. إذا كانت احتمالية الدفع في الوقت المحدد أقل من 50 بالمائة، تظهر دائرة حمراء بجانب النسبة المئوية في العمود **احتمال في الوقت المحدد** للإشارة إلى مخاطر الدفع المتأخر.
 
-[![توقع الدفع لكل صفحة حركة](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![توقع الدفع لكل صفحة حركة.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 يعرض الجزء **المعلومات ذات الصلة** الموجود على الجانب الأيمن للصفحة المزيد من التفاصيل حول التوقعات:
 
@@ -56,13 +53,13 @@ ms.locfileid: "4969243"
 
 تساعد البيانات الموجودة في القسم **أفضل العوامل** وعلامتي التبويب السريعة **Customer insights** و **محفوظات العميل** في شرح توقعات الدفع. يمكن أن تساعد في زيادة الثقة في الفعالية والتوقعات.
 
-[![مؤشرات رسومية لتوقعات الدفع في جزء المعلومات ذات الصلة](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![مؤشرات رسومية لتوقعات الدفع في جزء المعلومات ذات الصلة.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
 ### <a name="payment-prediction-per-customer-list-page"></a>صفحة قائمة توقع الدفع لكل عميل
 
 تعرض صفحة القائمة **توقع الدفع لكل عميل** الرصيد المفتوح الإجمالي والمبلغ المتوقع دفعه في الدلاء **في الوقت المحدد** و **متأخر** و **متأخر جدًا**.
 
-[![صفحة توقعات الدفع لكل عميل](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![صفحة توقعات الدفع لكل عميل.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 يتم حساب مبلغ الدفع في كل دلو كمجموع المتوسط المرجح لرصيد الحركة. يتم حساب هذا المبلغ استنادًا إلى احتمالات الدفع في كل دلو.
 
@@ -94,18 +91,16 @@ ms.locfileid: "4969243"
 
 يمكنك عرض دقة توقعات الدفع من خلال الانتقال إلى **الائتمان والتحصيلات \> إعداد \> Finance insights \> معلمات Finance insights**. في علامة التبويب **‏‫معلومات دفع العميل**، يعرض القسم **نموذج التوقع** دقة نموذج التوقع كنسبة مئوية.
 
-[![دقة توقعات الدفع](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![دقة توقعات الدفع.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
 إذا لم تكن راضيًا عن الدقة، فحدد الارتباط **تحسين دقة النموذج** لفتح تجربة توسيع AI Builder. في تجربة توسيع AI Builder، يمكنك تحديد أو إلغاء تحديد الحقول حتى تقوم بتحديد الحقول التي تعتقد أنها في غاية الأهمية بالنسبة لتوقع احتمالات الدفع بشكل دقيق. عند الانتهاء، يمكنك بسهولة إعادة التدريب على نموذج التوقع ونشر التغييرات الخاصة بك. سيتم انتقاء نموذج التوقع الذي تم التدرب عليه حديثًا تلقائيًا للحصول على توقعات في Dynamics 365 Finance.
 
-[![تجربة توسيع AI Builder](./media/ai-builder.png)](./media/ai-builder.png)
+[![تجربة توسيع AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
 
 ## <a name="release-details"></a>تفاصيل الإصدار
 
 تتوفر معاينة عامة لـ Finance insights لتجربة عمليات النشر في الولايات المتحدة الأميركية وأوروبا والمملكة المتحدة. تُعد Microsoft دعمًا إضافيًا بشكل متزايد للعديد من المناطق.
 
-يمكن أن يتم تشغيل ميزات المعاينة العامة ويجب تشغيلها فقط في بيئات الحماية لتحديد صلاحيات المستوى 2. لا يمكن ترحيل نماذج الإعداد وAI التي يتم إنشاؤها في بيئة الحماية إلى بيئة التشغيل. لمزيد من المعلومات، راجع [شروط الاستخدام الإضافية لمعاينات Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+يمكن أن يتم تشغيل ميزات المعاينة العامة ويجب تشغيلها فقط في بيئات الحماية لتحديد صلاحيات المستوى 2. لا يمكن ترحيل نماذج الإعداد وAI التي يتم إنشاؤها في بيئة الحماية إلى بيئة التشغيل. لمزيد من المعلومات، راجع [شروط الاستخدام الإضافية لمعاينات Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
-## <a name="privacy-notice"></a>إشعار الخصوصية
-
-إن المعاينات (1) قد تستخدم تدابير أقل تتعلق بالخصوصية وإجراءات الأمان مقارنةً بخدمة Dynamics 365 Finance and Operations‏، و(2) لا يتم تضمينها في اتفاقية مستوى الخدمة (SLA) لهذه الخدمة، و(3) يجب ألا يتم استخدامها لمعالجة البيانات الشخصية أو البيانات الأخرى التي تخضع لمتطلبات التوافق القانونية أو التنظيمية، و(4) هي ذات دعم محدود.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

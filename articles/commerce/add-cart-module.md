@@ -2,35 +2,30 @@
 title: الوحدة النمطية لسلة التسوق
 description: يتناول هذا الموضوع وحدات سلة التسوق ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716874"
 ---
-# <a name="cart-module"></a>الوحدة النمطية لسلة التسوق
+# <a name="cart-module"></a>الوحدة النمطية لعربة التسوق
 
 [!include [banner](includes/banner.md)]
 
 يتناول هذا الموضوع وحدات سلة التسوق ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 تُظهر وحدة سلة التسوق لعرض الأصناف التي تمت إضافتها إلى سلة التسوق قبل أن يتابع العميل السداد والخروج. كما تعرض الوحدة ملخص أدوار وتتيح للعميل تطبيق الأكواد الترويجية أو إزالتها.
 
@@ -40,11 +35,11 @@ ms.locfileid: "4410049"
 
 تعرض الصورة التالية مثالاً عن صفحة سلة التسوق في موقع Fabrikam.
 
-![مثال عن وحدة نمطية لسلة التسوق‬ في موقع Fabrikam](./media/cart2.PNG)
+![مثال عن وحدة نمطية لسلة التسوق‬ في موقع Fabrikam.](./media/cart2.PNG)
 
 تعرض الصورة التالية مثالاً عن صفحة سلة التسوق في موقع Fabrikam. في هذا المثال، يوجد رسم معالجة لصنف بند.
 
-![مثال عن وحدة نمطية لسلة التسوق‬ مع رسوم معالجة لصنف بند](./media/ecommerce-handling-fee.png)
+![مثال عن وحدة نمطية لسلة التسوق‬ مع رسوم معالجة لصنف بند.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>خصائص الوحدة النمطية لسلة التسوق وفتحات التشغيل
 
@@ -53,6 +48,7 @@ ms.locfileid: "4410049"
 | العنوان | نص العنوان وعلامة العنوان (**H1** أو **H2** أو **H3** أو **H4** أو **H5**  أو **H6**) | عنوان لسلة التسوق، مثل "حقيبة التسوق" أو أصناف في سلتك". |
 | عرض أخطاء نفاد المخزون | **صحيح** أم **خطأ** | إذا تم تعيين هذه الخاصية إلى **صواب**، ستعرض صفحة السلة الأخطاء المتعلقة بالمخزون. ونوصي بتعيين هذه الخاصية إلى **صواب** إذا تم تطبيق عمليات فحص المخزون على الموقع. |
 | عرض تكاليف الشحن لأصناف البند | **صحيح** أم **خطأ** | في حالة تعيين هذه الخاصية إلى **خطأ**، ستعرض أصناف بنود السلة تكاليف الشحن، إذا توفرت هذه المعلومات. هذه الميزة غير مدعومة في نسق Fabrikam، بسبب قيام المستخدمين بتحديد الشحن فقط في سير مهام السداد مع الخروج. ومع ذلك، يمكن تشغيل هذه الميزة في مهام سير العمل الأخرى إذا كانت قابلة للتطبيق. |
+| إظهار العروض المتوفرة| **صحيح** أم **خطأ** | إذا تم تعيين هذه الخاصية على **صحيح**، ستعرض السلة العروض الترويجية المتوفرة، استنادا إلى الأصناف الموجودة في سلة التسوق. تتوفر هذه الإمكانية في الإصدار 10.0.16 من Dynamics 365 Commerce. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>الوحدات التي يُمكن استخدامها في الوحدة النمطية لسلة التسوق
 
@@ -117,3 +113,6 @@ ms.locfileid: "4410049"
 [حساب توفر المخزون لقنوات البيع بالتجزئة](calculated-inventory-retail-channels.md)
 
 [إنشاء ملف تعريف وظائف على الإنترنت](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

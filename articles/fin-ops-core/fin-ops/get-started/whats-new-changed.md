@@ -2,11 +2,9 @@
 title: الجديد أو المتغير‬ في صفحة تطبيقات Finance and Operations الرئيسية
 description: تشير هذه الصفحة إلى مواضيع بإمكانها مساعدتك في التعرف على الميزات الجديدة الموجودة في الإصدارات الأحدث من تطبيقات Finance and Operations.
 author: josaw1
-manager: AnnBe
 ms.date: 02/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 132d1be340d2b9966b45fc30cd6409cfcdf7c805
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 67bac122593f53b1c43fcad74c39c2f40d091791
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797125"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750500"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>الجديد أو المتغير‬ في صفحة تطبيقات Finance and Operations الرئيسية
 
@@ -50,3 +48,6 @@ ms.locfileid: "4797125"
 - [المزايا الجديدة أو المتغيرة في Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

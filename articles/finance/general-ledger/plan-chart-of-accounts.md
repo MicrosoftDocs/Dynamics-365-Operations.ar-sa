@@ -2,28 +2,25 @@
 title: خطط دليل الحسابات الخاص بك
 description: يوفر هذا الموضوع معلومات ستساعدك في وضع تخطيط لدليل الحسابات في مؤسستك.
 author: aprilolson
-manager: AnnBe
 ms.date: 04/02/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 007b634c18ce897160aea38e05c9a73a64dd3917
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8650b24ac8e1c7feab2a9e5c4c4f98f7f573f340
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440028"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815514"
 ---
 # <a name="plan-your-chart-of-accounts"></a>خطط دليل الحسابات الخاص بك
 
@@ -60,3 +57,6 @@ ms.locfileid: "4440028"
 
 - [الأبعاد المالية](financial-dimensions.md)
 - [إنشاء بُنى القواعد المتقدمة وتعيينها](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

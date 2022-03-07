@@ -2,26 +2,23 @@
 title: إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف
 description: استخدم هذا الإجراء لإدارة مصدر بيانات دفتر الأستاذ العام لدفتر أستاذ محاسبة التكاليف.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMAXGeneralLedgerEntryProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88f5170610ea9b5634c4bf5da7079cacccdafe04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da218df53fdca98ead748ce364c03502bd1f333959ebacab25339b665bcb9c66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771694"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف
 
@@ -48,3 +45,6 @@ ms.locfileid: "4440081"
 14. في حقل "طبقة الترحيل"، حدد "حالي".
 15. انقر فوق "موافق".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

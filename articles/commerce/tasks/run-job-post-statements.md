@@ -2,27 +2,24 @@
 title: تكوين وتشغيل وظيفة لترحيل البيانات
 description: يتناول هذا الإجراء تكوين الوظيفة الدفعية المتكررة وتشغيلها لترحيل كشوف الحسابات لمتجر محدد أو مجموعة من المتاجر.
 author: josaw1
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f89203850b302b769b22920fa5c42d2b0b877684
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409924"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804223"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>تكوين وتشغيل وظيفة لترحيل البيانات
 
@@ -44,3 +41,6 @@ ms.locfileid: "4409924"
 8. انقر فوق موافق.
 9. انقر فوق موافق.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: تخصيص رسوم المستندات البنكية لشحنة
 description: يوضح هذا الموضوع كيف يمكن تخصيص المصاريف البنكية للمستند علي شحنه في أمر شراء.
 author: v-oloski
-manager: tfehr
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Saudi Arabia
 ms.author: v-oloski
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4b3c955b53c2624006534f61643a9cd26a1a58b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 738e834237188574c6bc978b528a862575d930b78417f5e84b0c03b836201cad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962875"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744293"
 ---
 # <a name="allocate-bank-document-charges-to-a-shipment"></a>تخصيص رسوم المستندات البنكية لشحنة
 
@@ -30,17 +28,17 @@ ms.locfileid: "4962875"
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل البدء في تخصيص مصاريف مستندات البنك، [قم باعداد تسهيلات البنك وملفات تعريف الترحيل لخطابات الاعتماد](../cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md)، ثم قم بإنشاء أمر شراء يحتوي علي [خطاب اعتماد مستورد](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/tasks/import-letter-credit).
+قبل البدء في تخصيص مصاريف مستندات البنك، [قم بإعداد تسهيلات البنك وملفات تعريف الترحيل لخطابات الاعتماد](../cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md)، ثم قم بإنشاء أمر شراء يحتوي علي [خطاب اعتماد مستورد](../cash-bank-management/tasks/import-letter-credit.md).
 
-## <a name="set-up-a-charge-code-for-bank-document-charges"></a>اعداد كود مصاريف لمصاريف مستندات البنك
+## <a name="set-up-a-charge-code-for-bank-document-charges"></a>إعداد كود مصاريف لمصاريف مستندات البنك
 
-اتبع هذه الخطوات لاعداد كود مصاريف لمصاريف مستندات البنك.
+اتبع هذه الخطوات لإعداد كود مصاريف لمصاريف مستندات البنك.
 
 1. انتقل إلى **الحسابات الدائنة** \> **إعداد** \> **إعداد المصاريف** \> **كود المصاريف**.
 2. في علامة التبويب السريعة **الترحيل**، في قسم **المدين**، في الحقل **النوع**، حدد **صنف**. يصبح خيار **كود مصاريف مستندات البنك** في قسم **رسوم المستندات البنكية** متاحا.
 3. قم بتعيين خيار **كود مصاريف مستندات البنك** إلى **نعم**. ويتم تلقائيا تعيين حقل **النوع** في قسم **الائتمان** ولا يمكن تحريره.
 
-![اعداد كود مصاريف لمصاريف مستندات البنك](media/apac-sau-bank-document-charge-setup.PNG)
+![إعداد كود مصاريف لمصاريف مستندات البنك.](media/apac-sau-bank-document-charge-setup.PNG)
 
 ## <a name="allocate-bank-document-charges"></a>تخصيص رسوم المستندات البنكية
 
@@ -58,16 +56,16 @@ ms.locfileid: "4962875"
     > [!NOTE]
     > يتم تعيين حقلي **نوع الحساب المقابل** و **الحساب المقابل** تلقائيا.
 
-    ![إدخال كود تكلفه مستند البنك في بند دفتر اليومية](media/apac-sau-general-journal-voucher.PNG)
+    ![إدخال كود تكلفة مستند البنك في بند دفتر اليومية.](media/apac-sau-general-journal-voucher.PNG)
 
 5. في علامة التبويب **قائمه**، قم بتعيين حقلي **الحساب** و **مدين**.
 6. في الصفحة **خطاب الاعتماد/مجموعه الاستيراد**، في جزء الاجراء ، حدد **مستند البنك** \> **تكلفه مستند البنك**.
 
-    ![تخصيص رسوم المستندات البنكية](media/apac-sau-allocate-bank-docment-charge.PNG)
+    ![تخصيص رسوم المستندات البنكية.](media/apac-sau-allocate-bank-docment-charge.PNG)
 
     تم فتح خطاب الاعتماد أو تحصيل الاستيراد الذي قمت بإنشائه في أمر الشراء. وينبغي ان يعرض رسوم المستندات البنكية التي تم ترحيلها في دفتر اليومية العام لخطاب الاعتماد هذا أو لتحصيل الاستيراد.
 
-    ![حركات المستند البنكي الخاص بخطاب الاعتماد/تحصيل الاستيراد](media/apac-sau-lc-bank-document-transactions.PNG)
+    ![حركات المستند البنكي الخاص بخطاب الاعتماد/تحصيل الاستيراد.](media/apac-sau-lc-bank-document-transactions.PNG)
 
 7. حدد حركه تكلفه المستند البنكي في وضع **التحرير**، ثم حدد **خطاب الاعتماد/تحصيل الاستيراد** لتخصيص تكلفه مستند البنك المحددة.
 
@@ -75,3 +73,6 @@ ms.locfileid: "4962875"
     > يمكنك التحقق من صحة التوزيع عن طريق تحديد **حركات مصاريف الشحن** في علامة التبويب السريعة **البنود**.
 
 8. لتخصيص حركات مصاريف الشحن لبنود أمر الشراء ، في جزء الاجراء ، ضمن علامة التبويب **شراء**، في المجموعة **المصاريف**، حدد **الاحتفاظ بالمصاريف**، ثم حدد **توزيع** يجب ان تظهر مصاريف المستندات البنكية التي قمت بتخصيصها لخطابات الاعتماد أو بنود تحصيل الاستيراد في القائمة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

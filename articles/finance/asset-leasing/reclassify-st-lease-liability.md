@@ -2,28 +2,25 @@
 title: إعادة تصنيف الجزء قصير الأجل من التزامات الإيجار
 description: يوضح هذا الموضوع كيفية إنشاء إدخال دفتر يومية شهريًا لإعادة تصنيف جزء من التزامات الإيجار على أنه قصير أجل.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 46bcd396c93bc1d2944241165d438f8ccc013e20
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 21cf81ce84d91d88a800cd250fca8fd5a9c876e66f506cd366b8d61ed480ea7e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720612"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>إعادة تصنيف الجزء قصير الأجل من التزامات الإيجار
 
@@ -39,5 +36,7 @@ ms.locfileid: "4440141"
 2. في مربع الحوار **إنشاء دفتر يومية الدُفعة**، في الحقل **تحديد جدول**، حدد **إعادة تصنيف التزام الإيجار قصير الأجل**.
 3. في الحقل **مجموعة الإيجار**، حدد مجموعة إيجار. أو بدلاً من ذلك، في الحقل **معرف الدفتر**، حدد معرف الدفتر.
 4. قم بتشغيل المعلمة **ترحيل**. وبدلاً من ذلك، إذا كان من الضروري إنشاء الإدخال ولكن لم يتم ترحيله، قم بإيقاف تشغيل هذه المعلمة.
-5. قم بتشغيل المعلمة **معاينة قبل الترحيل** لعرض الإدخال قبل ترحيله.
-6. حدد **موافق**.
+5. حدد **موافق**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

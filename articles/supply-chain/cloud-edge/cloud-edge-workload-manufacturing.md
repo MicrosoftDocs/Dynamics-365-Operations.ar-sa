@@ -2,11 +2,9 @@
 title: أحمال تنفيذ التصنيع لوحدات مقياس السحابة والحافة
 description: يصف هذا الموضوع كيفيه عمل التصنيع في تنفيذ الاعمال مع وحدات مقياس السحابة والحافة.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,22 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 08c46655d3966ad1433935318c5e60667dd10bb6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967748"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899085"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>أحمال تنفيذ التصنيع لوحدات مقياس السحابة والحافة
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>أحمال عمل تنفيذ التصنيع لوحدات النطاق السحابي والحافة
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> يتوفر حمل العمل الخاص بتنفيذ التصنيع في وضع الإصدار الأولي في الوقت الحالي.
 > لا يتم دعم بعض وظائف الاعمال بشكل كامل في المعاينة العامة عند استخدام حمل العمل على وحدات القياس.
 
-في تنفيذ عمليه التصنيع ، تقوم وحدات السحابة والحافة بتسليم الإمكانيات التالية ، حتى إذا لم تكن وحدات الحافة متصلة بالمركز:
+في تنفيذ التصنيع، تقدم وحدات القياس القدرات التالية:
 
 - ويمكن لمشرفي حاله العمل ومشرفي حاله العمل الوصول إلى خطه الإنتاج الجاهزة.
 - يمكن لعوامل تشغيل الجهاز الحفاظ علي الخطة محدثه عن طريق تشغيل وظائف التصنيع المنفصلة وعمليات التصنيع.
@@ -109,3 +108,7 @@ ms.locfileid: "4967748"
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>مهمة معالج رسائل مركز التصنيع إلى وحدة القياس
 
 تقوم مهمة _معالج رسائل مركز التصنيع إلى وحدة القياس_ بمعالجه البيانات من المركز إلى وحده القياس. يتم بدء هذه الوظيفة تلقائيا عند نشر حمل العمل الخاص بتنفيذ التصنيع. ومع ذلك ، يمكن تشغيلها يدويا في اي وقت عن طريق الانتقال إلى **التحكم في الإنتاج \> المهام الدورية \> إدارة حمل العمل في المكتب الخلفي \> معالج رسائل مركز التصنيع إلى وحدة القياس**.
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

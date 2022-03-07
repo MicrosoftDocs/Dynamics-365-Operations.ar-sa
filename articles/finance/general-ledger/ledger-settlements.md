@@ -1,27 +1,24 @@
 ---
 title: تسويات دفتر الأستاذ
 description: يشرح هذا الموضوع كيفية استخدام الصفحة "تسويات دفتر الأستاذ‬" لتسوية حركات دفتر الأستاذ وعكس التسويات.
-author: mikefalkner
-manager: aolson
+author: kweekley
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransSettlement
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: d41a69bed3d1340736cc7df35aa3ded032d4d79d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ba50321ea5e1cfb727f20bdb598f0c4e3236994
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439860"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753986"
 ---
 # <a name="ledger-settlements"></a>تسويات دفتر الأستاذ
 
@@ -75,3 +72,6 @@ ms.locfileid: "4439860"
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>تحديث قائمة الحسابات المضمنة في قائمة الحركات
 
 حدد **حسابات تسوية دفتر الأستاذ** لفتح مربع حوار حيث يمكنك تحرير الحسابات التي تم تضمينها في قائمة الحركات. حدد **جديد** لإضافة حسابات جديدة إلى القائمة. ويتم استخدام هذه القائمة لتصفية قائمة الحركات التي تظهر في صفحة **تسويات دفتر الأستاذ**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

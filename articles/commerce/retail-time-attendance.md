@@ -2,16 +2,13 @@
 title: إدارة الوقت والحضور في Retail
 description: يصف هذا الموضوع السيناريوهات المعتمدة لإدارة الوقت والحضور في Dynamics 365 Commerce.
 author: aamirallaqaband
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: cca5e3232450e75f931a621b278c134129fc745c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410010"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762658"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>إدارة الوقت والحضور في Retail
 
@@ -41,9 +38,9 @@ ms.locfileid: "4410010"
 
 ### <a name="plan-worker-schedules"></a>تخطيط جداول العامل
 
-- قم بتطبيق ملفات التعريف باستخدام مخطط العمل. لمزيد من المعلومات، راجع [تطبيق ملفات التعريف باستخدام مخطط العمل‬](https://technet.microsoft.com/library/aa551234.aspx).
+- قم بتطبيق ملفات التعريف باستخدام مخطط العمل. لمزيد من المعلومات، راجع [تطبيق ملفات التعريف باستخدام مخطط العمل‬](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
 
-لمزيد من المعلومات حول خطوات التكوين، راجع [إعداد الوقت والحضور](https://technet.microsoft.com/library/aa496971.aspx).
+لمزيد من المعلومات حول خطوات التكوين، راجع [إعداد الوقت والحضور](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
 
 ### <a name="commerce-specific-configuration"></a>التكوين الخاص بـ Commerce
 
@@ -100,7 +97,7 @@ ms.locfileid: "4410010"
         </tbody>
         </table>
 
-        [![حالات ساعة الوقت](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![حالات ساعة الوقت.](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - اعرض رسالة التأكيد، وتحقق من صحة وقت النشاط الحالي.
 - دفتر التسجيل:
@@ -138,4 +135,7 @@ ms.locfileid: "4410010"
 - انتهاء العمل المجمع
 - تسجيل الغياب
 
-للحصول على مزيد من المعلومات حول كيفية معالجة تسجيلات الوقت والحضور، راجع [معالجة تسجيلات الوقت والحضور](https://technet.microsoft.com/library/aa573180.aspx).
+للحصول على مزيد من المعلومات حول كيفية معالجة تسجيلات الوقت والحضور، راجع [معالجة تسجيلات الوقت والحضور](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

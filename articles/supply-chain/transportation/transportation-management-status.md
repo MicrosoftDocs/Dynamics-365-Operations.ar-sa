@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 3f7d471771ec2b4703d878fbf395cd90902b6669
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: fb0d98729046330037f96ab7e13a1bf897e35a1e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421831"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233333"
 ---
 # <a name="transportation-management-statuses"></a>حالات إدارة النقل
 
@@ -49,3 +48,6 @@ ms.locfileid: "4421831"
 1. حدد رمز الحالة النقل التي تريد تعيينها إلى كود شركة الشحن المحددة.
 1. أدخل الكود الخارجي المستخدمة بواسطة شركة الشحن.
 1. قم بإغلاق الصفحة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

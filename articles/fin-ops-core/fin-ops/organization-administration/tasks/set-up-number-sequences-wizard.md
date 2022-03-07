@@ -1,26 +1,24 @@
 ---
 title: إعداد التسلسلات الرقمية باستخدام معالج
 description: يوضح هذا الموضوع كيفية إعداد جميع التسلسلات الرقمية المطلوبة في نفس الوقت باستخدام معالج.
-author: sericks007
-manager: AnnBe
+author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sericks
+ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 684983d1ea54264cc378ded8e9dca3cf9ec2c901
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799020"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777555"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>إعداد التسلسلات الرقمية باستخدام معالج
 
@@ -38,3 +36,6 @@ ms.locfileid: "4799020"
 4. حدد **التالي**.
 5. حدد **إنهاء**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

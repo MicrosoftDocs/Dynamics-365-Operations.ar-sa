@@ -1,12 +1,11 @@
 ---
 title: تحميل تكوين إلى Lifecycle Services
-description: يشرح هذا الموضوع كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء إصدار جديد من تكوين التقارير الإلكترونية وتحميله إلى Microsoft Dynamics Lifecycle Services (LCS).
+description: يوضح هذا الموضوع كيفية إنشاء تكوين التقارير الإلكترونية الجديد وتحميله إلى Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6f17763236594092d04dfe2d2f9912e764b4f8d4
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684153"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562627"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>تحميل تكوين إلى Lifecycle Services
 
@@ -145,3 +144,6 @@ ms.locfileid: "4684153"
     يجب أن يكون تكوين التقارير الإلكترونية الذي قمت بتحميله مدرجًا.
 
     لاحظ أنه يمكن استيراد تكوين LCS الذي تم تحميله إلى مثيل آخر إذا كان باستطاعة الموفرين الوصول إلى مشروع LCS هذا.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

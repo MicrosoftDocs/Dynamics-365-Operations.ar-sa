@@ -2,36 +2,30 @@
 title: ميزات وقدرات إمكانية الوصول
 description: يوفر هذا الموضوع معلومات حول ميزات وقدرات إمكانية الوصول الموجودة في Microsoft Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e924b3ce737925303e5123ca8102c7867bd81f2c
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409813"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936670"
 ---
 # <a name="accessibility-features-and-capabilities"></a>ميزات وقدرات إمكانية الوصول
-
 
 [!include [banner](includes/banner.md)]
 
 يوفر هذا الموضوع معلومات حول ميزات وقدرات إمكانية الوصول الموجودة في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 توفر ميزات وقدرات إمكانية الوصول الوسائل الوظيفية لجميع المستخدمين للوصول إلى الإجراءات وأدائها بحيث يتمكن المستخدمون من تحقيق أهدافهم. قد تتطلب هذه المجموعة الواسعة من المستخدمين أدوات مساعده للسمع أو الرؤية أو التنقل أو التنوع العصبي.
 
@@ -101,11 +95,11 @@ ms.locfileid: "4409813"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[إمكانية الوصول في النماذج والمنتجات وعناصر التحكم](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[إمكانية الوصول في النماذج والمنتجات وعناصر التحكم](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Microsoft Accessibility Center](https://www.microsoft.com/accessibility)
 
-[Dynamics 365 Accessibility Center](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[Dynamics 365 Accessibility Center](/dynamics365/get-started/accessibility/index)
 
 [نظرة عامة على الامتثال](compliance-overview.md)
 
@@ -114,3 +108,6 @@ ms.locfileid: "4409813"
 [إضافة صفحة سياسة الخصوصية](add-privacy-page.md)
 
 [استبدال معرفات المستخدمين المرتبطة بتغييرات المحتوى المتعقبة](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

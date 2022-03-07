@@ -1,27 +1,25 @@
 ---
 title: مساحة العمل المحمولة لتعاون المورد
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "تعاون المورد‬". تساعد مساحة العمل هذه الموردين على البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها. ويمكنهم أيضًا عرض معلومات حول جهات الاتصال وأوامر الشراء الجديدة والمحدثة.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020826"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577014"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>مساحة العمل المحمولة لتعاون المورد
 
@@ -59,7 +57,7 @@ ms.locfileid: "5020826"
 تختلف المتطلبات الأساسية، استنادًا إلى إصدار Microsoft Dynamics 365 الذي تم نشره لمؤسستك.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>المتطلبات الأساسية في حالة استخدام Supply Chain Management
-إذا تم نشر Supply Chain Management لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **‏‫تعاون المورّد‬**‬. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+إذا تم نشر Supply Chain Management لمؤسستك، فيتعين على مسؤول النظام نشر مساحة العمل المحمولة **‏‫تعاون المورّد‬**‬. للاطلاع على الإرشادات، راجع [نشر مساحة العمل المحمولة ](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>المتطلبات الأساسية إذا كنت تستخدم الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار لاحق
 إذا تم نشر الإصدار 1611 من Microsoft Dynamics 365 for Operations مع Platform update 3 أو إصدار أحدث لمؤسستك، فيجب على مسؤول النظام إكمال المتطلبات الأساسية التالية. 
@@ -79,7 +77,7 @@ ms.locfileid: "5020826"
 <td>إن KB 3216943 عبارة عن تحديث ثنائي مطلوب إذا كنت تستخدم Platform update 3. لتطبيق قاعدة المعارف هذه، يجب أن يتبع مسؤول النظام الخطوات التالية.
 <ol>
 <li>تنزيل KB 3216943 من Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li>تثبيت التحديث الثنائي الذي يتم تسليمه كحزمة قابلة للنشر. لمزيد من المعلومات حول كيفية تطبيق حزمة قابلة للنشر، راجع <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">تطبيق حزمة قابلة للنشر</a>.</li>
+<li>تثبيت التحديث الثنائي الذي يتم تسليمه كحزمة قابلة للنشر. لمزيد من المعلومات حول كيفية تطبيق حزمة قابلة للنشر، راجع <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">تطبيق حزمة قابلة للنشر</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -87,14 +85,14 @@ ms.locfileid: "5020826"
 <td>مسؤول النظام</td>
 <td>إن KB 4013633 عبارة عن تحديث X++ أو إصلاح عاجل لبيانات التعريف يحتوي على مساحة العمل المحمولة <strong>المخزون الفعلي</strong>. لتطبيق KB 4013633، يجب أن يتبع مسؤول النظام الخطوات التالية.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">تنزيل الإصلاح العاجل لبيانات التعريف من LCS</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">تطبيق الحزمة القابلة للنشر</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">تنزيل الإصلاح العاجل لبيانات التعريف من LCS</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">تثبيت الإصلاح العاجل لبيانات التعريف</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">إنشاء حزمة قابلة للنشر</a> تحتوي على نموذج <strong>SCMMobile</strong>، ثم تحميل الحزمة القابلة للنشر إلى LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">تطبيق الحزمة القابلة للنشر</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>يجب نشر مساحة العمل المحمولة <strong>تعاون المورد</strong>.</td><td>مسؤول النظام</td>
-<td>راجع <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">نشر مساحة عمل محمولة</a></td>
+<td>راجع <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">نشر مساحة عمل محمولة</a></td>
 </tr>
 <tr class="even">
 <td>يجب أن يتوفر لدى مستخدم مورّد حق الوصول إلى واجهة ويب لتعاون المورّد في عميل الويب ويجب إعداد مستخدم تعاون المورّد.</td><td>متخصصو الشراء ومسؤول النظام</td>
@@ -122,12 +120,12 @@ ms.locfileid: "5020826"
 4.  في المرة الأولى التي تقوم فيها بتسجيل الدخول، تتم مطالبتك باسم المستخدم وكلمة المرور الخاصة بك. أدخل بيانات اعتمادك.
 5.  بعد تسجيل الدخول، تظهر مساحات العمل المتوفرة لشركتك. تجدر الإشارة إلى أنه في حال قيام مسؤول النظام بنشر مساحة عمل جديدة في وقت لاحق، فسوف يكون عليك تحديث قائمة مساحات العمل المحمولة.
 
-    [![سحب للتحديث](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![سحب للتحديث.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>استخدام مساحة العمل المحمولة "تعاون المورد"
 عندما تحدد مساحة العمل **تعاون المورد**، سوف ترى الخيارات التالية.
 
-![مساحة العمل المحمولة لتعاون المورد](./media/vendor-collaboration-mobile-app.png)
+![مساحة العمل المحمولة لتعاون المورد.](./media/vendor-collaboration-mobile-app.png)
 
 تتضمن مساحة العمل **تعاون المورد** الصفحات التالية.
 
@@ -169,3 +167,6 @@ ms.locfileid: "5020826"
 
 ### <a name="open-confirmed-orders"></a>الأوامر المؤكدة المفتوحة
 عندما يؤكد العميل أمر الشراء (مما يعني أن حالة أمر الشراء تغيرت إلى **مؤكد**)، يظهر أمر الشراء هذا في الأمر المؤكد المفتوح. وسوف يبقى في القائمة حتى يتم تسجيله على أنه أمر استلمه العميل.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

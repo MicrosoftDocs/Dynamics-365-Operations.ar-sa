@@ -2,7 +2,7 @@
 title: استكشاف مشاكل إعداد Finance Insights وإصلاحها
 description: يسرد هذا الموضوع المشاكل التي قد تحدث عند استخدام قدرات Finance Insights. كما يشرح كيفية إصلاح هذه المشاكل.
 author: panolte
-ms.date: 02/11/2022
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109850"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968826"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>استكشاف مشاكل إعداد Finance Insights وإصلاحها
 
@@ -92,33 +92,3 @@ ms.locfileid: "8109850"
   | ---------------------------- | ---------------- |
   | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
-## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>العَرَض‬‏‫: خطأ، "لم نعثر على أي بيانات لنطاق عامل التصفية المحدد. الرجاء تحديد نطاق تصفية آخر والمحاولة مره أخرى." 
-
-### <a name="resolution"></a>القرار
-
-تحقق من إعداد موحد البيانات للتأكد من أنه يعمل كما هو متوقع ويحدّث البيانات من AI Builder إلى Finance.  
-لمزيد من المعلومات، راجع [إنشاء مشروع تكامل البيانات](../finance-insights/create-data-integrate-project.md).
-
-## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>العَرَضْ‬‬‏‫: فشل تدريب توقع دفع العميل وحالات خطأ AI Builder، "يجب أن يحتوي التنبؤ على قيمتين ناتجتين مميزتين فقط لتدريب النموذج. قم بالتعيين إلى النتائج وأعد التدريب"، "مشكلة في تقرير التدريب: IsNotMinRequiredDistinctNonNullValues".
-
-### <a name="resolution"></a>القرار
-
-يشير هذا الخطأ إلى عدم وجود حركات قديمة كافية في السنهة الأخيرة تمثل كل فئة ورد وصفها في الفئات **في الوقت المحدد‬** و **متأخر** و **متأخر‏‎ جدًا**. لحل هذا الخطأ، قم بتعديل فتره الحركة **المتأخرة جدًا**. إذا لم يساعد تعديل فترة الحركة **المتأخرة جدًا** على إصلاح الخطأ، فإن الخيار **توقعات دفع العميل‬** ليس الحل الأفضل لأنه يحتاج إلى بيانات في كل فئة لأغراض التدريب.
-
-لمزيد من المعلومات حول كيفية تعديل الفئات **في الوقت المحدد** و **متأخر** و **متأخر جدًا**، راجع [تمكين توقعات دفع العميل‬](../finance-insights/enable-cust-paymnt-prediction.md).
-
-## <a name="symptom-model-training-failed"></a>العَرَض‬‬‏‫: فشل تدريب النموذج
-
-### <a name="resolution"></a>القرار
-
-يحتاج تدريب نموذج **تقدير التدفقات النقدية‬** إلى بيانات تحتوي على 100 حركة أو أكثر تمتد عبر أكثر من سنة. من المستحسن أن يكون لديك سنتين من البيانات على الأقل مع أكثر من 1000 حركة.
-
-تتطلب الميزة **توقعات دفع العميل‬** أكثر من 100 حركة في الأشهر الستة إلى التسعة السابقة. بإمكان الحركات أن تتضمن فواتير النص الحر وأوامر المبيعات ومدفوعات العميل. يجب نشر هذه البيانات من خلال الإعدادات **في الوقت المناسب** و **متأخر** و **متأخر جدًا** المحددة في صفحة **التكوين**.    
-
-تتطلب ميزة **مقترح الموازنة** ثلاث سنوات كحد أدنى من الموازنة أو البيانات الفعلية. يستخدم هذا الحل من ثلاث إلى عشر سنوات من البيانات في التوقعات. ستحصل على نتائج أفضل إذا كانت الفترة تزيد عن ثلاث سنوات. وتعمل البيانات نفسها بشكل أفضل عندما يكون هناك اختلاف في القيم. إذا كانت البيانات تحتوي علي كافة البيانات الثابتة، مثل مصروفات الإيجار، فقد يفشل التدريب لأن نقص التباين لا يتطلب الذكاء الاصطناعي لتوقع المبالغ.
-
-## <a name="symptom-error-message-states-that-the-table-with-name-msdyn_paypredpredictionresultentities-does-not-exist-the-remote-server-returned-an-error-404-not-found"></a>العَرَضْ‬: تفيد رسالة الخطأ بأن "الجدول المسمى 'msdyn_paypredpredictionresultentities' غير موجود أرجع الخادم البعيد الخطأ: (404) غير موجود... "
-
-### <a name="resolution"></a>القرار
-
-وصلت البيئة إلى الحد الأقصى لجدول خدمات Data Lake. لمزيد من المعلومات حول الحد، راجع القسم **تمكين تغييرات البيانات في وقت قريب من الوقت الحقيقي** من الموضوع [نظرة عامة على التصدير إلى Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).

@@ -2,11 +2,9 @@
 title: استيراد ملفات (RCS) بتنسيق XML مع سمات اختيارية
 description: يوفر هذا الموضوع معلومات حول كيف يمكن لمستخدم تصميم تكوين تنسيق ER لاستيراد الملفات بتنسيق XML والذي يحتوي على سمات اختيارية.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1d4c8c1d81faa60193d2339fd6541e752c2e2f9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 25ced72bc1bb1b18996c8bab986270fde0557ed3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684125"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744857"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>استيراد ملفات (RCS) بتنسيق XML مع سمات اختيارية
 
@@ -123,3 +121,6 @@ ms.locfileid: "4684125"
 
 > [!NOTE]
 > تم استيراد نفس الملف لأن تصميم التنسيق يأخذ بعين الاعتبار سمة "المعرف" لعنصر "المستند" باعتبارها اختيارية.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

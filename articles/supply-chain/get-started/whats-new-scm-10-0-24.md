@@ -1,5 +1,5 @@
 ---
-title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.24 (فبراير 2022)
+title: معاينة Dynamics 365 Supply Chain Management 10.0.24 (فبراير 2022)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,18 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 1b5742ddf7e5e2c5c32c446a0bde08f4964d6b95
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087540"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891869"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.24 (فبراير 2022)
+# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>معاينة Dynamics 365 Supply Chain Management 10.0.24 (فبراير 2022)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1084، وهو يتوفر كما يلي
+يصف هذا الموضوع الميزات الجديدة أو المتغيرة في معينة الإصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1084، وهو يتوفر كما يلي
 
 - **معاينة الإصدار الأولي:** ديسمبر 2021
 - **التوفر العام للإصدار (تحديث ذاتي):** يناير 2022
@@ -34,7 +35,6 @@ ms.locfileid: "8087540"
 | منطقة الميزة | الميزة | معلومات إضافية | تم التمكين بواسطة |
 |---|---|---|---|
 | المخطط المختلط الموزع | [أحمال عمل تنفيذ المستودع المعززة في وحدات القياس](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [أحمال عمل إدارة المستودعات لوحدات نطاق السحابة والحافة](../cloud-edge/cloud-edge-workload-warehousing.md) | ممكن افتراضيا. |
-| المخطط المختلط الموزع | [بدء أمر إنتاج في حمل عمل لـ warehouse management لوحدة قياس السحابة والحافة](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [أحمال عمل تنفيذ التصنيع لوحدات النطاق السحابي والحافة](../cloud-edge/cloud-edge-workload-manufacturing.md) | إدارة الميزات (*بدء أمر الإنتاج في حمل عمل إدارة المستودعات لوحدة قياس السحابة والحافة‬‏‫*)  |
 | التخطيط | [دعم تحسين التخطيط ل‏‫إعادة ترتيب هامش الإصدار والموضوع](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [حدود الأمان](../master-planning/planning-optimization/safety-margins.md) | ممكن افتراضيا. |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>تحسينات الميزات المضمنة في هذا الإصدار
@@ -48,6 +48,7 @@ ms.locfileid: "8087540"
 | التحكم بالإنتاج | فحص توفر المادة حسب الطلب لأوامر الإنتاج | وتجعل هذه الميزة من الأسرع فتح الصفحة **أوامر الإنتاج للإصدار**، والتي تتوفر من مساحة العمل **إداره طابق الإنتاج**. وبدون هذه الميزة، يقوم النظام تلقائيًا بالتحقق مما إذا كانت المواد متوفرة لكافة أوامر الإنتاج المدرجة بمجرد فتح الصفحة، الأمر الذي قد يستغرق وقتًا طويلاً إذا كان لديك عدد كبير من الطلبات. عند تمكين هذه الميزة، يقوم النظام بدلاً من ذلك بتوفير زر شريط الأدوات، والذي يمكنك استخدامه لبدء المواد التي يتم التحقق منها فقط من أجل الأوامر المحددة وعند الحاجة. |
 | التحكم بالإنتاج | (إصدار أولي) تسجيل استهلاك المواد في واجهة تنفيذ طابق الإنتاج (خلاف WMS) | تعمل هذه الميزة على تمكين العاملين من استخدام واجهة تنفيذ صالة الإنتاج لتسجيل استهلاك المواد وأرقام الدُفعات والأرقام التسلسلية. لا تدعم هذه الميزة إلا الأصناف التي لم يتم تمكينها لاستخدام عمليات المستودع المتقدمة (WMS). تتم جدولة دعم الأصناف التي تم تمكينها لاستخدام عمليات المستودع المتقدمة (WMS) لإصدار مستقبلي.<p>تحتاج بعض الشركات المصنعة، وخاصة داخل صناعات العملية، إلى تسجيل مقدار المواد المستهلكة بشكل صريح لكل دفعة أو أمر إنتاج. على سبيل المثال، قد يستخدم العاملون مقياسًا لوزن مقدار المواد المستهلكة عند العمل. لضمان إمكانية التتبع الكاملة للمواد، ، تحتاج هذه المؤسسات أيضًا إلى تسجيل أرقام الدفعات التي تم استهلاكها عند إنتاج كل منتج. |
 | التحكم بالإنتاج | الإبلاغ كمنته في حمل عمل لـ warehouse management لوحدة قياس السحابة والحافة | تتيح هذه الميزة للعمال استخدام تطبيق Warehouse Management للأجهزة المحمولة للإبلاغ عن إنتاج أو أمر دفعة كمنته عند تشغيل التطبيق مقابل حمل عمل لـ warehouse management على وحدة مقياس السحابة والحافة. لمزيد من المعلومات، راجع [‏‫الإبلاغ كمنته والتخزين على وحدة المقياس‬](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
+| التحكم بالإنتاج | بدء أمر إنتاج في حمل عمل لـ warehouse management لوحدة قياس السحابة والحافة | تمكن هذه الميزة العمال من استخدام تطبيق Warehouse Management للأجهزة المحمولة لبدء إنتاج أو أمر دفعة كمنته عند تشغيل التطبيق مقابل حمل عمل لـ warehouse management على وحدة مقياس السحابة والحافة. |
 | Warehouse management | صفحات جدول عمل تخطيط الحِمل الجديدة | تمكين صفحتين من صفحات جدول عمل تخطيط التحميل الجديدة: **جدول عمل تخطيط التحميل الداخلي** و **جدول عمل تخطيط الحمل الصادر**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>موارد وثائق جديده ومحدثه
@@ -68,9 +69,9 @@ ms.locfileid: "8087540"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>تحديثات النظام الأساسي لتطبيقات التمويل والعمليات
+### <a name="platform-updates-for-finance-and-operations-apps"></a>تحديث النظام الأساسي لتطبيقات Finance and Operations
 
-يتضمن الإصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.24 من تطبيقات التمويل والعمليات (فبراير 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+يتضمن الإصدار 10.0.24 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.24 من تطبيقات Finance and Operations (نوفمبر 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMCostControlUnit
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 698989d55994660fa7566cf473cf3fa1ae1d9a83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dcd6162d2b8722f9114b438cf853c1ff1ab9b840
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440082"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218925"
 ---
 # <a name="define-cost-control-units"></a>تحديد وحدات التحكم بالتكلفة
 
@@ -41,3 +40,6 @@ ms.locfileid: "4440082"
 10. في حقل "البعد"، أدخل أو حدد قيمة.
 11. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

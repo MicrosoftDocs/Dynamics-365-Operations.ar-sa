@@ -2,46 +2,40 @@
 title: نشر مستأجر التجارة الإلكترونية الجديد
 description: يصف هذا الموضوع كيفية نشر موقع تجارة إلكترونية جديد لـ Dynamics 365 Commerce باستخدام Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517272"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750704"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>نشر مستأجر التجارة الإلكترونية الجديد
-
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع كيفية نشر موقع تجارة إلكترونية جديد لـ Dynamics 365 Commerce باستخدام Microsoft Dynamics Lifecycle Services (LCS).
 
-## <a name="overview"></a>نظرة عامة
-
 تعتبر Microsoft Dynamics Lifecycle Services مساحة عمل تعاونيه قائمة على السحابة ويمكن للشركاء والعملاء استخدامها لإدارة المشاريع والبيئات الخاصة بهم، وعرض أحدث المعلومات حول منتجات Microsoft Dynamics والميزات، وإنشاء حوادث الدعم وتعقبها واستعراضها. تتكامل ميزات إدارة التجارة الإلكترونية في LCS.
 
-لمعرفه المزيد عن LCS، راجع [دليل مستخدم Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
+لمعرفه المزيد عن LCS، راجع [دليل مستخدم Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
     
 ## <a name="get-started"></a>بدء الاستخدام
 
 قبل أن تتمكن من تهيئة التجارة الإلكترونية، يجب تهيئة مشروع، وبيئة، و Retail Cloud Scale Unit (RCSU). للقيام بعملية التهيئة في LCS ، يجب أن يكون لديك أذونات إما لمالك المشروع أو دور مُدير البيئة. يتم دعم مخططات بيئة الإنتاج وبيئة الاختبار المعزولة.
 
-لمزيد من المعلومات حول البيئات، راجع [تخطيط البيئة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). لمزيد من المعلومات حول RCSU، راجع [تهيئة Retail Cloud Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
+لمزيد من المعلومات حول البيئات، راجع [تخطيط البيئة](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). لمزيد من المعلومات حول RCSU، راجع [تهيئة Retail Cloud Scale Unit](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
 ## <a name="initialize-e-commerce"></a>تهيئة التجارة الإلكترونية
 
@@ -112,3 +106,6 @@ ms.locfileid: "4517272"
 [إضافة الدعم إلى شبكة تسليم المحتوى (CDN)](add-cdn-support.md)
 
 [تمكين اكتشاف المتجر استنادًا إلى الموقع](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

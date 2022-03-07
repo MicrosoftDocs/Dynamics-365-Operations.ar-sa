@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2c3f087ac76412cd2dce93dcb31b796ce2cb3bc4
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: cc19110f481c11ab28532d69a4689c1db048f6c3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421832"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233357"
 ---
 # <a name="transportation-management-number-sequence"></a>تسلسل رقم إدارة النقل
 
@@ -49,3 +48,6 @@ ms.locfileid: "4421832"
 1. حدد **تحرير**.
 1. في علامة التبويب السريعة **النظرة العامة**، حدد خيارا في الحقل **التسلسل الرقمي المبدئي**.
 1. قم بإغلاق الصفحة.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: نسخ الموردين باستخدام تسلسلات رقمية مشتركة
 description: يشرح هذا المقال كيفية استخدام تسلسلات رقمية مشتركة لنسخ مورد لكيان قانوني آخر مع الاحتفاظ بنفس معرف المورد.
-author: sunfzam
+author: mikefalkner
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e29932ca34576d15b7350ab6c711563682d8ddf8
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 3a70b268e7fd02a12c85082c651edb6fa0ac3072
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753527"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814262"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>نسخ الموردين باستخدام تسلسلات رقمية مشتركة
 

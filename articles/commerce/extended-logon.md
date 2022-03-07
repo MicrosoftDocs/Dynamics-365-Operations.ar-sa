@@ -2,16 +2,13 @@
 title: إعداد تسجيل الدخول الموسع لكل من MPOS وCloud POS
 description: يتناول هذا الموضوع الخيارات الخاصة بإعداد تسجيل الدخول الموسع لكل من Cloud POS وRetail Modern POS (MPOS).
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 79878e2ffbf219f77f378997c277ced8bb41598c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bb0e646cc4be5fa7fbb8a0ef47b524612a6f9a46
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409848"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792477"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>إعداد وظيفة تسجيل الدخول الموسع لـ MPOS وCloud POS
 
@@ -67,3 +64,6 @@ ms.locfileid: "4409848"
 ## <a name="using-extended-logon"></a>استخدام تسجيل الدخول الموسع
 
 عندما يتم تكوين تسجيل الدخول الموسع، وقام عامل بتعيين الرمز الشريطي أو الشريط المغناطيسي، يجب على العامل أن يقوم بتمرير البطاقة أو مسحها بينما يتم عرض صفحة تسجيل دخول نقطة البيع. إذا كانت كلمة مرور مطلوبة أيضًا قبل إمكانية متابعة تسجيل الدخول، فإنه تتم مطالبة العامل بإدخال كلمة المرور الخاصة به.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

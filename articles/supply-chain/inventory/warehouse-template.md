@@ -1,12 +1,10 @@
 ---
 title: إعداد مستودع باستخدام قالب تكوين مستودع
 description: يشرح هذا الموضوع طريقة إعداد مستودع باستخدام قالب تكوين مستودع.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -15,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967120"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571079"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>إعداد مستودع باستخدام قالب تكوين مستودع
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع طريقة إعداد مستودع باستخدام قالب تكوين مستودع. هناك العديد من قوالب التكوين المعرفة مسبقاً التي يمكنك استخدامها. لمزيد من المعلومات حول كيفية استخدام هذه القوالب، راجع [قوالب بيانات التكوين](../../dev-itpro/data-entities/configuration-data-templates.md).
+يشرح هذا الموضوع طريقة إعداد مستودع باستخدام قالب تكوين مستودع. هناك العديد من قوالب التكوين المعرفة مسبقاً التي يمكنك استخدامها. لمزيد من المعلومات حول كيفية استخدام هذه القوالب، راجع [قوالب بيانات التكوين](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>السيناريوهات التي تكون فيها قوالب التكوين مفيدة
 
@@ -90,10 +88,13 @@ ms.locfileid: "4967120"
 4. حدد **+ إضافة ملف**، وقم بتحميل ملف zip لحزمة البيانات.
 5. حدد **استيراد**. في طريقة العرض **مُحسن**، يمكنك استخدام الخيار **عامل تصفية** لسرعة الحصول على نظرة عامة حول المشكلات المحتمل حدوثها أثناء عملية الاستيراد.
 
-يوفر عرض **سجل التنفيذ** معلومات مفصلة حول كيان البيانات التي تم استيرادها. يمكنك استخدام ‏‫عرض بيانات التشغيل المرحلي‬ للوصول بسرعة إلى البيانات الهدف. وبهذه الطريقة، يمكنك مشاهدة الطريقة التي تبدو عليها البيانات المستوردة في الصفحات ذات الصلة في استمارة التقديم. عند استخدام قوالب البيانات الافتراضية، يعمل استيراد التسلسل لكل كيان من كيانات البيانات بالطريقة المحددة مسبقاً، للمساعدة في ضمان أن يتم استيراد كافة البيانات التابعة أولاً. إذا كانت كيانات البيانات المخصصة جزءًا من المشروع، فيجب التأكد من تحديد التسلسل الصحيح. لمزيد من المعلومات، راجع [‬‏‫قوالب بيانات التكوين](../../dev-itpro/data-entities/configuration-data-templates.md).
+يوفر عرض **سجل التنفيذ** معلومات مفصلة حول كيان البيانات التي تم استيرادها. يمكنك استخدام ‏‫عرض بيانات التشغيل المرحلي‬ للوصول بسرعة إلى البيانات الهدف. وبهذه الطريقة، يمكنك مشاهدة الطريقة التي تبدو عليها البيانات المستوردة في الصفحات ذات الصلة في استمارة التقديم. عند استخدام قوالب البيانات الافتراضية، يعمل استيراد التسلسل لكل كيان من كيانات البيانات بالطريقة المحددة مسبقاً، للمساعدة في ضمان أن يتم استيراد كافة البيانات التابعة أولاً. إذا كانت كيانات البيانات المخصصة جزءًا من المشروع، فيجب التأكد من تحديد التسلسل الصحيح. لمزيد من المعلومات، راجع [‬‏‫قوالب بيانات التكوين](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 لمعرفة المزيد حول كيفية استخدام قالب المستودع لنسخ تكوين مستودع من شركة إلى شركة جديدة داخل المثيل نفسه، راجع هذا الفيديو ومدته 3 دقائق عل YouTube حول [كيفية استخدام قالب المستودع لنسخ التكوين في Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>مواضيع مرتبطة
 
-[قوالب بيانات التكوين](../../dev-itpro/data-entities/configuration-data-templates.md)
+[قوالب بيانات التكوين](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

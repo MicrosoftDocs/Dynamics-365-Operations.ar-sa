@@ -1,8 +1,8 @@
 ---
-title: نظرة عامة
+title: نظرة عامة على التطوير
 description: يوفر دليل المطور هذا واجهة برمجة تطبيقات (API) ومرجع للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8e390592b000c8f6006aa489fd3823c4f15cb2cb
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528307"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467785"
 ---
-# <a name="overview"></a>نظرة عامة
+# <a name="development-overview"></a>نظرة عامة على التطوير
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,13 +37,13 @@ ms.locfileid: "4528307"
 
 - [توسيع باستخدام Power Apps وPower Automate](hr-developer-power-apps.md)
 
-- [كيانات الموارد البشرية في Common Data Service](hr-developer-entities.md)
+- [كيانات الموارد البشرية في Dataverse](hr-developer-entities.md)
 
 - [الحقول المخصصة](hr-developer-custom-fields.md)
 
 - إعداد تكامل البيانات
   - [اختر تكنولوجيا تكامل البيانات](hr-admin-integration-choose-technology.md)
-  - [تكوين تكامل Common Data Service ](hr-admin-integration-common-data-service.md)
+  - [تكوين تكامل Dataverse ](hr-admin-integration-common-data-service.md)
   - [تكوين التكامل مع Finance](hr-admin-integration-finance.md)
   - [تكوين التكامل مع Dayforce](hr-admin-integration-dayforce.md)
   - [إنشاء تطبيق تصدير البيانات المتكررة](hr-admin-integration-recurring-data-export.md)
@@ -62,3 +64,6 @@ ms.locfileid: "4528307"
 - [ما هو الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)
 - [دليل المسؤول](hr-admin-overview.md)
 - [دليل المستخدم](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,45 +1,41 @@
 ---
 title: نظرة عامة على التكامل مع Microsoft Dynamics 365 Field Service
 description: يوفر هذا الموضوع نظرة عامة على التكامل مع Microsoft Dynamics 365 Field Service.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528889"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062665"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>نظرة عامة على التكامل مع Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يتيح Supply Chain Management مزامنة عمليات الأعمال بين Dynamics 365 Supply Chain Management وDynamics 365 Field Service. تم تكوين سيناريوهات التكامل باستخدام قوالب "موحد البيانات" القابلة للتوسعة وCommon Data Service لتمكين مزامنة عمليات الأعمال.
-يمكن استخدام القوالب القياسية لإنشاء مشاريع تكامل مخصصة، حيث يمكن تعيين حقول وكيانات مخصصة وقياسية إضافية لضبط التكامل والوفاء بمتطلبات أعمال معينة. 
+
+يتيح Supply Chain Management مزامنة عمليات الأعمال بين Dynamics 365 Supply Chain Management وDynamics 365 Field Service. تم تكوين سيناريوهات التكامل باستخدام قوالب "موحد البيانات" القابلة للتوسعة وMicrosoft Dataverse لتمكين مزامنة عمليات الأعمال.
+يمكن استخدام القوالب القياسية لإنشاء مشاريع تكامل مخصصة، حيث يمكن تعيين أعمدة وحداول مخصصة وقياسية إضافية لضبط التكامل والوفاء بمتطلبات أعمال معينة. 
 
 يستند تكامل Field Service إلى الوظيفة الموجودة "العميل المتوقع إلى النقدية‬".
 
-![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/field-service-integration.png)
+![مزامنة عمليات الأعمال بين Supply Chain Management وField Service.](./media/field-service-integration.png)
 
-تركز المرحلة الأولى من التكامل بين Field Service وSupply Chain Management على تمكين أوامر العمل والاتفاقيات في Field Service لفوترتها في Supply Chain Management. يبدأ التدفق المدعوم في Field Service، حيث تتم مزامنة المعلومات من أوامر العمل إلى Supply Chain Management كأوامر مبيعات. في Supply Chain Management، تتم فوترة أوامر المبيعات لإنشاء مستندات الفواتير. بالإضافة إلى ذلك، تتم مزامنة المعلومات من فواتير اتفاقيات Field Service إلى Supply Chain Management. يقوم موحد البيانات في Microsoft Dynamics 365 بمزامنة البيانات من خلال استخدام المشاريع القابلة للتخصيص. يمكن استخدام القوالب القياسية لإنشاء مشاريع تكامل مخصصة حيث يمكن تعيين الحقول المخصصة والقياسية الإضافية، وكذلك الكيانات، لتعديل التكامل والوفاء بالمتطلبات المحددة.
+تركز المرحلة الأولى من التكامل بين Field Service وSupply Chain Management على تمكين أوامر العمل والاتفاقيات في Field Service لفوترتها في Supply Chain Management. يبدأ التدفق المدعوم في Field Service، حيث تتم مزامنة المعلومات من أوامر العمل إلى Supply Chain Management كأوامر مبيعات. في Supply Chain Management، تتم فوترة أوامر المبيعات لإنشاء مستندات الفواتير. بالإضافة إلى ذلك، تتم مزامنة المعلومات من فواتير اتفاقيات Field Service إلى Supply Chain Management. يقوم موحد البيانات في Microsoft Dynamics 365 بمزامنة البيانات من خلال استخدام المشاريع القابلة للتخصيص. يمكن استخدام القوالب القياسية لإنشاء مشاريع تكامل مخصصة حيث يمكن تعيين الأعمدة المخصصة والقياسية الإضافية، وكذلك الجداول، لتعديل التكامل والوفاء بالمتطلبات المحددة.
 
 تعمل المرحلة الأولى من التكامل بين Field Service وSupply Chain Management على تمكين مزامنة العناصر التالية:
 
@@ -61,7 +57,7 @@ ms.locfileid: "4528889"
 - ربط مشاريع Supply Chain Management مع أوامر عمل Dynamics 365 Field Service
 - تقوم أوامر عمل Dynamics 365 Field Service التي لديها ارتباط مع مشاريع Supply Chain Management بتطبيق رقم المشروع هذا على أمر مبيعات للسماح بالفوترة من المشروع. 
 
-![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/FSv2overview.png)
+![مزامنة دورات العمل بين Supply Chain Management وField Service، بما في ذلك معلومات المشروع والمخزون.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>تعمل المرحلة الثانية من التكامل بين Field Service وSupply Chain Management على تمكين المزامنة مع القوالب التالية:
 - المستودعات (Supply Chain Management إلى Field Service) - المستودعات من Supply Chain Management إلى Field Service [استعلام متقدم] 
@@ -85,3 +81,6 @@ ms.locfileid: "4528889"
 - Field Service (الإصدار 8.2.0.286) أو إصدار لاحق على Dynamics 365 9.1.x - تم إطلاقه في شهر نوفمبر 2018
 - حل العميل المتوقع إلى النقدية (P2C) لتطبيق Dynamics 365، الإصدار 1.15.0.1 أو إصدار أحدث. الحل متوفر للتنزيل من [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - حل 'تكامل Field Service، والمشروع والمخزون' لبرنامج Dynamics 365، الإصدار 2.0.0.0 أو إصدار لاحق. الحل متوفر للتنزيل من [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

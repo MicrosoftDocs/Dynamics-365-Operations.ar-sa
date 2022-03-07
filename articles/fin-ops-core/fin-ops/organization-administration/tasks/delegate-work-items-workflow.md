@@ -2,11 +2,9 @@
 title: تفويض عناصر العمل في سير عمل
 description: إذا كنت تخطط للتواجد خارج المكتب مما يعني أنك لن تكون متاحًا لاتخاذ الإجراءات اللازمة على عناصر العمل، فيمكنك تفويض عناصر العمل أو إعادة تعيينها إلى مستخدمين آخرين.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48d8fd06217d318fa8208e11ffa5624f6be25be1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 72ffe8123203123b75ea424814393d73ea8f728078e9e34fe903e5944ec11cfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749546"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>تفويض عناصر العمل في سير عمل
 
@@ -60,3 +58,6 @@ ms.locfileid: "4796696"
 8. في الحقل **‏‫تاريخ/وقت الانتهاء**، أدخل تاريخًا ووقتًا.
 9. حدد خانة الاختيار **ممكّن‬** لتنشيط قاعدة التفويض. 
 10. في حقل **التعليق**، أدخل تعليقًا يوضح سبب تفويض أصناف العمل.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

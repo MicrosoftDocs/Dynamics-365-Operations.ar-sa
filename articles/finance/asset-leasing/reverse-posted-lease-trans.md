@@ -2,13 +2,11 @@
 title: عكس حركات الإيجار المرحّلة
 description: يوضح هذا الموضوع كيفية عكس حركة إيجار مرحلة. يمكن عكس أية حركة يتم إنشاؤها خلال تأجير الأصول.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseTransactions
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f76b75a968e9ee9a3c545f646077c16282b5b185aa88025653f7443fbcfd9581
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770655"
 ---
 # <a name="reverse-posted-lease-transactions"></a>عكس حركات الإيجار المرحّلة
 
@@ -55,3 +53,6 @@ ms.locfileid: "4969518"
 عند تحديد **عكس التتبع**، يظهر مربع الحوار الذي يعرض الحركات الأصلية والحركات المعكوسة، مع رقم التتبع المرتبط.
 
 كما يمكنك أيضًا تتبع عمليات الإبطال باستخدام صفحة **الجداول** المناسبة. يتم إلغاء الحقل **عكس**، بينما يتم تحديد الحقل **دفتر اليومية المرحل**. بالإضافة إلى ذلك، يتم تحديث الحقل **رقم دفتر اليومية الأحدث** برقم دفتر اليومية لحركة الإبطال، ويتم تحديث الحقل **رقم دفتر اليومية** برقم دفتر اليومية العكسي.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,33 +1,31 @@
 ---
-title: نظرة عامة على مدفوعات العملاء
-description: يوضح دليل المهام هذا مختلف الطرق التي تُستخدم لإدخال مدفوعات العميل.
+title: نظرة عامة على دفعات العملاء
+description: يوضح هذا الإجراء مختلف الطرق التي تُستخدم لإدخال مدفوعات العميل.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439932"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394478"
 ---
-# <a name="customer-payment-overview"></a>نظرة عامة على مدفوعات العملاء
+# <a name="customer-payment-overview"></a>نظرة عامة على دفعات العملاء
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح دليل المهام هذا مختلف الطرق التي تُستخدم لإدخال مدفوعات العميل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
+يوضح هذا الإجراء مختلف الطرق التي تُستخدم لإدخال مدفوعات العميل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
 1. انتقل إلى **جزء التنقل > الوحدات النمطية > الحسابات المدينة > المدفوعات > دفتر يومية المدفوعات‬**.
 2. انقر فوق **جديد**.
@@ -52,3 +50,6 @@ ms.locfileid: "4439932"
 21. في الحقل **مرجع الدفع**، أدخل مرجع الدفع. ويكون مرجع الدفع مطلوبًا فقط إذا قمت بوضع علامة لاختيار تضمين الدفع في إيصال الإيداع.  
 22. في **جزء الإجراءات**، انقر فوق **ترحيل** لترحيل دفعات العميل. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

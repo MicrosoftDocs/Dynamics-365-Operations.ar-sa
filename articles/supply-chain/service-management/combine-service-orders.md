@@ -1,29 +1,26 @@
 ---
 title: تجميع أوامر الخدمة
 description: يمكنك تجميع أوامر الخدمة.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17fbed59b1fe7bec80f25f74451872efd61bed62
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df9571cb1330489651a28462b747cacd7ac7e46
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421156"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580446"
 ---
 # <a name="combine-service-orders"></a>تجميع أوامر الخدمة   
 
@@ -44,14 +41,14 @@ ms.locfileid: "4421156"
 
 تقوم بإنشاء اتفاقية خدمة بتاريخ بدء في 03-31-2007. في الحقل **تجميع أوامر الخدمة**، حدد **بواسطة كائن الخدمة**. ثم تقوم بعد ذلك بإنشاء بنود اتفاقية الخدمة التالية:
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -113,3 +110,6 @@ ms.locfileid: "4421156"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

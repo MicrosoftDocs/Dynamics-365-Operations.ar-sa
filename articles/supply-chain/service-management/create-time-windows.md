@@ -1,37 +1,34 @@
 ---
 title: إنشاء الإطارات الزمنية
-description: يمكنك استخدام الإطارات الزمنية لتحسين جدولة بنود أمر الخدمة.
-author: ShylaThompson
-manager: tfehr
+description: يوفر هذا الموضوع إجراءً يوضح كيفية إنشاء الإطارات الزمنية‬.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATimeAgreement
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37a16eed6c5a73eb8166ac5ea2469860424aaafd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 93c8426fd03a849cf8c241d694507bd033fb34c5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421488"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571416"
 ---
-# <a name="create-time-windows"></a>إنشاء الإطارات الزمنية   
+# <a name="create-time-windows"></a>إنشاء الإطارات الزمنية
 
 [!include [banner](../includes/banner.md)]
 
 يمكنك استخدام الإطارات الزمنية لتحسين جدولة بنود أمر الخدمة.
 
-1. انقر فوق **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **الإطار الزمني**.
+1. انتقل إلى **إدارة الخدمة** \> **الإعداد** \> **اتفاقيات الخدمة** \> **الإطار الزمني**.
 2. اضغط على **Alt+N** لإنشاء إطار زمني جديد.
 3. في حقل **الإطار الزمني**، أدخل اسمًا للإطار الزمني.
 4. في حقل **الوصف**، أدخل وصفًا للإطار الزمني.
@@ -40,3 +37,6 @@ ms.locfileid: "4421488"
 ## <a name="related-topics"></a>مواضيع مرتبطة
 
 [إطارات الوقت](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
