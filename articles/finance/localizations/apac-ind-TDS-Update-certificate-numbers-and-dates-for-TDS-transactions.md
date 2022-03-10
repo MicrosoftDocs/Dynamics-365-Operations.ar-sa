@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: da835306e523129fb667153ff6a5fbe574f2769649639595c90af603f1258e4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757989"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>تسجيل أرقام وتواريخ الشهادات لحركات TDS
 
@@ -33,7 +33,7 @@ ms.locfileid: "6022994"
 
 1. انتقل إلى **الضريبة \> الإقرارات \> ضريبة الخصم \> تحديث الشهادة**.
 
-    [![تحديث صفحة الشهادة](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![صفحة تحديث الشهادة.](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. في الصفحة **تحديث الشهادة**، في القسم **تحديد**، في الحقل **نوع الضريبة**، حدد **TDS**.
 3. في الحقل **رقم الشهادة**، حدد رقم الشهادة TDS للعميل أو المورد.
@@ -60,4 +60,4 @@ ms.locfileid: "6022994"
 8. حدد **تحديث** لتحديث الحقلين **رقم الشهادة** و **تاريخ الشهادة** لحركات TDS في الشبكة السفلى.
 10. انتقل إلى **الضريبة \> الضرائب المباشرة \> ضريبة السحب \> الشهادة القابلة للاسترداد**، وحدد **استعلام** لعرض بنود الحركة المحدثة التي تحتوي على أرقام الشهادة الجديدة على الصفحة **حركات الشهادة**.
 
-    [![صفحة حركات الشهادة](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![صفحة حركات الشهادة.](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

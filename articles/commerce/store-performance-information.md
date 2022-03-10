@@ -2,11 +2,9 @@
 title: تحليل أداء المتجر
 description: تشرح هذه المقالة كيفية استخدام التحليلات في الذاكرة وفي الوقت الحقيقي للوصول إلى معلومات حول أداء المتجر واستكشافها واكتسابها استنادًا إلى بيانات Dynamics 365 Commerce.
 author: ashishmsft
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailChannelReport, RetailChannelManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4688d3268986a9ae6fb2c9601396b56aacf87a93
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: adb4d9dcfc9253d9dd3fbdac211f052473df7ca3a480a1c8cf82b34ff6a6bc31
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009608"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772170"
 ---
 # <a name="analyze-store-performance"></a>تحليل أداء المتجر
 
@@ -44,3 +42,6 @@ ms.locfileid: "5009608"
 - الملخص الضريبي
 - ملخص تجاوزات السعر
 - ملخص الخصومات
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

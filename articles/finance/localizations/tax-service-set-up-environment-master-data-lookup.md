@@ -1,11 +1,10 @@
 ---
-title: إعداد بيئة للبحث عن البيانات الرئيسية
-description: يوضح هذا الموضوع كيفية إعداد بيئتك لاستخدام وظيفة البحث عن البيانات الرئيسية لحساب الضريبة.
+title: تمكين البحث عن البيانات الرئيسية لتكوين حساب الضريبة
+description: يشرح هذا الموضوع كيفية إعداد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وتمكينها.
 author: kai-cloud
-ms.date: 04/21/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,70 +15,70 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9f9b385df1db60b27698d90281c43fabb574af49
-ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924144"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867342"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>إعداد بيئة للبحث عن البيانات الرئيسية
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>تمكين البحث عن البيانات الرئيسية لتكوين حساب الضريبة 
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد بيئتك لاستخدام وظيفة البحث عن البيانات الرئيسية لحساب الضريبة.
+يشرح هذا الموضوع كيفية إعداد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وتمكينها. تتوفر قائمة منسدلة لتحديد القيم في تكوين حساب الضريبة لحقول مثل **كيان قانوني** و **حساب المورد** و **كود الصنف** و **مدة التسليم**. تأتي هذه القيم من بيئة Microsoft Dynamics 365 Finance المتصلة باستخدام مصدر بيانات Microsoft Dataverse.
 
-1. إعداد تكامل Power Platform في Lifecycle Services (LCS). لمزيد من المعلومات، راجع [تكامل Microsoft Power Platform - نظرة عامة على الوظائف الإضافية](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
-2. إعداد Dynamics 365 Finance وMicrosoft Dataverse. لمزيد من المعلومات، راجع [الحصول على الحل](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) و[المصادقة والتخويل](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
-3. قم بإعداد الكيانات التالية: لمزيد من المعلومات، راجع [تمكين الكيانات الظاهرية](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities).
-      - CompanyInfoEntity
-      - CurrencyEntity
-      - CustCustomerV3Entity
-      - DeliveryTermsEntity
-      - EcoResProductCategoryEntity
-      - EcoResReleasedProductV2Entity
-      - LogisticsAddressCityEntity
-      - LogisticsAddressCountryRegionTranslationEntity
-      - LogisticsAddressStateEntity
-      - PurchProcurementChargeCDSEntity
-      - SalesChargeCDSEntity
-      - TaxGroupEntity
-      - TaxItemGroupHeadingEntity
-      - VendVendorV2Entity
-4. قم بإعداد Dynamics 365 Regulatory Configuration Service (RCS). 
-5. أنشئ طلب خدمة من Microsoft لتمكين إصدار تقييم الميزات التالية:
+> [!NOTE] 
+> تُعد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وظيفة اختيارية. يمكنك تخطي الخطوات التالية إذا قمت بتعطيل الميزة **دعم مصدر البيانات Dataverse لخدمة الضرائب** في Regulatory Configuration Service (RCS). ومع ذلك، في هذه الحالة، لن تتوفر القائمة المنسدلة في تكوين حساب الضريبة.
 
-      - ERCdsFeature
-      - TaxServiceCDSFeature
+1. إعداد تكامل Microsoft Power Platform في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [تكامل Microsoft Power Platform - نظرة عامة على الوظائف الإضافية](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). بعد الانتهاء من هذه الخطوة ، سيظهر اسم بيئة Microsoft Power Platform في قسم **التكامل Power Platform**.
+2. انتقل إلى [مركز اداره Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments)، ثم حدد اسم البيئة. يتم توفير عنوان URL الخاص بالبيئة.
+3. إعداد Dynamics 365 Finance وDataverse. لمزيد من المعلومات، راجع [الحصول على حل الكيان الافتراضي](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) و[المصادقة والتخويل](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
+4. قم بإعداد الكيانات التالية: لمزيد من المعلومات، راجع [تمكين الكيانات الظاهرية Microsoft Dataverse](../../fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md).
 
-6. انتقل إلى مساحة عمل **إدارة الميزات**، ثم قم بتمكين الميزات التالية:
+    - CompanyInfoEntity
+    - CurrencyEntity
+    - CustCustomerV3Entity
+    - DeliveryTermsEntity
+    - EcoResProductCategoryEntity
+    - EcoResReleasedProductV2Entity
+    - LogisticsAddressCityEntity
+    - LogisticsAddressCountryRegionTranslationEntity
+    - LogisticsAddressStateEntity
+    - PurchProcurementChargeCDSEntity
+    - SalesChargeCDSEntity
+    - TaxGroupEntity
+    - TaxItemGroupHeadingEntity
+    - VendVendorV2Entity
 
-      - (إصدار أولي) دعم مصادر بيانات Dataverse لإعداد التقارير الإلكترونية
-      - (معاينة) دعم مصادر بيانات Dataverse لخدمة الضرائب
-      - (معاينة) ميزات العولمة
+5. إعداد Regulatory configuration service (RCS). افتح مساحة عمل **إدارة الميزات**، ثم قم بتمكين الميزات التالية:
 
-5. سجل الدخول إلى RCS باستخدام حساب مسؤول مستأجر.
-6. انتقل إلى **إعداد التقارير الإلكترونية** > **التطبيقات المتصلة**. 
-7. حدد **جديد** لإضافة سجل، وأدخل معلومات الحقل التالية. 
+    - دعم مصادر بيانات Dataverse لإعداد التقارير الإلكترونية
+    - دعم مصادر بيانات Dataverse لخدمة الضرائب
+    - ميزات العولمة
 
-   - في حقل **الاسم**، أدخل اسمًا.
-   - في الحقل **النوع**، حدد **Dataverse**.
-   - في حقل **التطبيق**، أدخل عنوان URL لـ Dataverse.
-   - في الحقل **المستأجر**، أدخل المستأجر.
-   - في الحقل **عنوان URL‏‎ مخصص**، أدخل عنوان URL لـ Dataverse URL وألحقه بواسطة "/api/data/v9.1".
+6. سجل الدخول إلى RCS باستخدام حساب مسؤول مستأجر.
+7. انتقل إلى **إعداد التقارير الإلكترونية** > **التطبيقات المتصلة**. 
+8. حدد **جديد** لإضافة سجل، وأدخل معلومات الحقل التالية. 
 
-8. حدد **التحقق من الاتصال**، ثم أنجز عملية الاتصال. 
+    - في حقل **الاسم**، أدخل اسمًا.
+    - في الحقل **النوع**، حدد **Dataverse**.
+    - في حقل **التطبيق**، أدخل عنوان URL لـ Dataverse.
+    - في الحقل **المستأجر**، أدخل المستأجر.
+    - في الحقل **عنوان URL‏‎ مخصص**، أدخل عنوان URL لـ Dataverse URL وألحقه بواسطة "/api/data/v9.1".
 
-   [![زر التحقق من الاتصال](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+9. حدد **التحقق من الاتصال**، ثم أنجز عملية الاتصال. 
 
-9. انتقل إلى **إعداد التقارير الإلكترونية** > **تكوينات الضرائب**، واستورد تكوينات الضرائب من [تكوينات الضرائب](https://go.microsoft.com/fwlink/?linkid=2158352).
+    [![زر التحقق من الاتصال.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
-   [![صفحة تكوينات الضرائب، شجرة نموذج بيانات الضرائب](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+10. انتقل إلى **إعداد التقارير الإلكترونية** > **تكوينات الضرائب**، واستورد تكوينات الضرائب من [تكوينات الضرائب](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-10. انتقل إلى **تعيين نموذج المستند الخاضع للضريبة** أو **تعيين نموذج Dataverse** إذا كنت تستخدم تكوين Microsoft، وفي حقل **التطبيق المتصل**، حدد السجل الذي أنشأته في الخطوة 7.
-11. قم بتعيين **الإعداد الافتراضي لتعيين النموذج** إلى **نعم.**
+    [![صفحة تكوينات الضرائب، شجرة نموذج بيانات الضرائب.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
-   [![صفحة تعيين النموذج](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+11. انتقل إلى **تعيين نموذج المستند الخاضع للضريبة** أو **تعيين نموذج Dataverse** إذا كنت تستخدم تكوين Microsoft، وفي حقل **التطبيق المتصل**، حدد السجل الذي أنشأته في الخطوة 7.
+12. قم بتعيين **الإعداد الافتراضي لتعيين النموذج** إلى **نعم.**
+
+    [![صفحة تعيين النموذج.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

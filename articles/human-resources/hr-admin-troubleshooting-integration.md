@@ -1,8 +1,8 @@
 ---
 title: ‏‫الأسئلة المتداولة حول التكامل مع Finance
-description: يوضح هذا المقال البيانات التي تتم مزامنتها في تكامل Human Resources وFinance.
-author: andreabichsel
-ms.date: 02/03/2020
+description: يوضح هذا الموضوع البيانات التي تتم مزامنتها في تكامل Human Resources وFinance.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,24 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053366"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071100"
 ---
 # <a name="integration-with-finance-faq"></a>‏‫الأسئلة المتداولة حول التكامل مع Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يجيب هذا الموضوع عن الأسئلة الشائعة حول البيانات التي تتم مزامنتها عندما يتكامل Dynamics 365 Human Resources مع Dynamics 365 Finance.
 
@@ -37,7 +40,7 @@ ms.locfileid: "6053366"
 | --- | --- | --- | --- |
 | Dynamics 365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![الإعدادات الافتراضية لمستخدم تطبيق Talent](media/DynamicsApplicationUser.png)
+![الإعدادات الافتراضية لمستخدم تطبيق Talent.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>هل تتم مزامنة جميع البيانات أو بعض كيانات البيانات فقط؟
 
@@ -57,7 +60,7 @@ ms.locfileid: "6053366"
 
 بالنسبة إلى البيانات الموجودة في Finance and Operations ولكن غير الموجودة في Human Resources، يمكن ربط النظامين معًا باستخدام **تكوين الارتباطات** في Human Resources.
 
-![تعيين الأبعاد المالية](media/MapFinancialDimensions.png)
+![تعيين الأبعاد المالية.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>عندما أستورد موظفين، ينتقل هؤلاء في بعض الأحيان إلى عاملين غير نشطين في Finance. ما السبب؟
 
@@ -71,14 +74,14 @@ ms.locfileid: "6053366"
 
 باستخدام "الاستعلام المتقدم"، يمكنك تصفية البيانات المصدر وإعادة تشكيلها قبل تمريرها إلى الوجهة.
 
-![الاستعلام المتقدم للعاملين النشطين](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![الاستعلام المتقدم للعاملين النشطين.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>هل يمكنني تحديد الحقول التي سيتم إرسالها إلى Finance لكيان معين؟
 
 يمكنك إضافة حقول أو إزالتها من مهمة التكامل. لن يتم ملء كافة حقول البيانات الموجودة على جدول Dataverse من Human Resources.
 يمكنك ملء بيانات إضافية عبر Power Apps.
 
-![إضافة حقول إلى أو إزالتها من مهمة تكامل](media/SpecifyFieldsIncludedInIntegration.png)
+![إضافة حقول أو إزالتها من مهمة تكامل.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>بعد إعداد التكامل كوظيفة دفعية، ولكن فقد Human Resources الاتصال بالنظام الوجهة. كيف يمكنني إرسال مجموعة التغييرات نفسها إلى النظام الوجهة؟
 
@@ -86,7 +89,7 @@ ms.locfileid: "6053366"
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>هل يمكنني إعداد تكامل ثنائي الاتجاه؟
 
-لا، يكون التكامل حاليًا ذو اتجاه واحد (من Human Resources إلى Finance and Operations). ومع ذلك، يوجد قالب افتراضي لإرسال البيانات من Human Resources إلى Finance.
+لا، التكامل أحادي الاتجاه في الوقت الحالي (Human Resources إلى التمويل والعمليات). ومع ذلك، يوجد قالب افتراضي لإرسال البيانات من Human Resources إلى Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>هل يمكنني السماح بحذف السجلات كجزء من عملية التكامل؟
 
@@ -126,21 +129,21 @@ ms.locfileid: "6053366"
 
 1. التقط فهرس المهمة من موحد البيانات (إنه "9" في هذا المثال).
 
-    ![التقاط فهرس المهمة من موحد البيانات](media/CaptureTaskIndex.png)
+    ![التقاط فهرس المهمة من موحد البيانات.](media/CaptureTaskIndex.png)
 
 2. تعقب وقت تنفيذ المشروع.
 
-    ![تعقب وقت تنفيذ المشروع](media/CaptureTimeOfExecution.png)
+    ![تعقب وقت تنفيذ المشروع.](media/CaptureTimeOfExecution.png)
 
 3. في Finance، قم بتعريف الفهرس-1. في هذا المثال، يتوافق المشروع مع اللاحقة "8" ووقت تنفيذ مشروع الفهرس "0" مع وقت التنفيذ في الخطوة 2.
 
-    ![تعريف الفهرس](media/IdentifyIndex.png)
+    ![تعريف الفهرس.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>بعد تكامل Human Resources وFinance، لا يمكنني رؤية بيانات Human Resources الخاصة بي في Finance. ماذا أفعل؟
 
 التكامل مع Finance عبارة عن عملية تتكون من خطوتين. أولاً، تحقق من تحديث بيانات Human Resources ومن توفرها في Dataverse. هذا الأمر عبارة عن مزامنة قريبة من الوقت الحقيقي ويمكن التحقق منها في Power Apps عن طريق مراجعة البيانات في جداول البيانات.
 
-![البيانات الموجودة في Dataverse](media/DataInCDS.png)
+![البيانات الموجودة في Dataverse.](media/DataInCDS.png)
 
 إذا لم تظهر البيانات كما هو متوقع في Dataverse، فتأكد من دعم الكيان في التكامل. لتضمين بيانات إضافية في Dataverse، ستتم مطالبة بإجراء تغيير من جانب Microsoft.
 
@@ -158,14 +161,13 @@ ms.locfileid: "6053366"
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>عند مزامنة عمليات التوظيف، أتلقى رسائل الخطأ "CompanyInfo_FK غير موجود" أو "القيمة '12/31/2154 11:59:59 ص" في الحقل "تاريخ انتهاء التوظيف" غير موجودة في الجدول ذي الصلة "التوظيف"." ماذا أفعل؟‬
 
-تأكد من أنك تقوم بالتعيين إلى الكيانات القانونية الصحيحة. لا تمثل مزامنة الكيان القانوني جزءًا من القالب الافتراضي، وبالتالي من المتوقع أن يكون كل كيان قانوني موجود في Human Resources و Dataverse موجود أيضًا في Finance.
-تأكد أيضًا من أنك تحدد الكيانات القانونية الصحيحة لمجموعة الاتصالات المرتبطة.
+تأكد من أنك تقوم بالتعيين إلى الكيانات القانونية الصحيحة. لا تمثل مزامنة الكيان القانوني جزءًا من القالب الافتراضي، وبالتالي من المتوقع أن يكون كل كيان قانوني موجود في Human Resources و Dataverse موجود أيضًا في Finance. تأكد أيضًا من أنك تحدد الكيانات القانونية الصحيحة لمجموعة الاتصالات المرتبطة.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>بعد إعداد مشروعي، يبدو تعيين الحقول في Finance فارغًا. ماذا أفعل؟
 
 يمكنك تحديث كيانات البيانات في Finance بالانتقال إلى **إدارة البيانات \> محددات إطار العمل‬ \> إعدادات الكيان‬ \> تحديث قائمة الكيانات.** قد يستغرق استكمال هذا الإجراء دقائق قليلة تتمكن بعدها من رؤية هذه التعيينات. تحدث هذه المشكلة عند إنشاء مشاريع جديدة.
 
-![تعيين حقول مفقود](media/MissingFieldMapping.png)
+![تعيين حقول مفقود.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

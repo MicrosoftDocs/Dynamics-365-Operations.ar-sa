@@ -2,11 +2,9 @@
 title: تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات B2B
 description: يوضح هذا الموضوع كيفيه تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات (B2B).
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1208b968e476ccbc7a726facf1db896c7bf3c36f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2c8adaad2afee3b735c69a501d7949a807f4e770
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211167"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323370"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات B2B
 
@@ -55,7 +53,7 @@ ms.locfileid: "5211167"
 
 لتحديد إعدادات الكمية، اتبع الخطوات التالية. 
 
-1. انتقل إلى **البيع بالتجزئة والتجارة \> المنتجات والفئات \> المنتجات الصادرة حسب الفئة**.
+1. انتقل إلى **Retail وCommerce \> المنتجات والفئات \> المنتجات الصادرة حسب الفئة**.
 1. حدد المنتج الصادر.
 1. في جزء الإجراءات، من علامة التبويب **إدارة المخزون**، في مجموعة **إعدادات الأوامر**، حدد **إعدادات الأمر الافتراضية**. 
 1. في صفحة **إعدادات الأمر الافتراضية**، في علامة التبويب السريعة **أمر التوريد**، في قسم **كمية المبيعات**، قم بتعيين كميات مبيعات المنتج:
@@ -77,9 +75,9 @@ ms.locfileid: "5211167"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[إعداد موقع تجارة إلكترونية بين الشركات B2B](set-up-b2b-site.md)
+[إعداد موقع التجارة الإلكترونية بين الشركات](set-up-b2b-site.md)
 
-[إنشاء تدرجات هرمية لتصميم المؤسسة لمؤسسات B2B](org-model.md)
+[إدارة شركاء الأعمال B2B باستخدام التدرجات الهرمية للعملاء](partners-customer-hierarchies.md)
 
 [إدارة مستخدمي شركاء الأعمال على مواقع التجارة الإلكترونية بين الشركات](manage-b2b-users.md)
 

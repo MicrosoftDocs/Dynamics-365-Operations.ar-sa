@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a5aeaeb7311d87a154882b7058b6da430900bd56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 14354ba9454b8837246b75cd413497553423511e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053457"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065416"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>تحسين الأداء من خلال جدولة وظائف دفعية بعد ساعات العمل
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>المشكلة
 
@@ -51,11 +54,11 @@ ms.locfileid: "6053457"
 
 3. حدد **تشغيل في الخلفية**، ثم حدد **التكرار**.
 
-   ![تعيين التكرار](media/talent-batch-history-cleanup-recurrence.png)
+   ![تعيين التكرار.](media/talent-batch-history-cleanup-recurrence.png)
 
 4. تحت **تعريف التكرار**، قم بتعيين **تاريخ البدء** و **وقت البدء** بحيث يقعان خلال ساعات التوقف عن العمل أو عطلة نهاية الأسبوع. حدد **بلا تاريخ انتهاء**. 
 
-   ![تعيين تاريخ بدء التكرار ووقته](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![تعيين تاريخ بدء التكرار ووقته.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. حدد **موافق**.
 

@@ -2,11 +2,9 @@
 title: لا يظهر خيار الانتقاء في صفحات سلة التسوق أو تفاصيل المنتج
 description: يوفر هذا الموضوع إرشادات استكشاف الأخطاء وإصلاحها والتي يمكن أن تساعد في حالة عدم ظهور خيار التقاط في المتجر على صفحة سلة التسوق أو تفاصيل المنتج.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c78dee7289931cecd0f2d7c09caf7881eb8cfd23
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 836f767caae8e32c156a1c13d1e2864a4d3cdd92e7a11814a2585c9e907575dd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733811"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>لا يظهر خيار "انتقاء هذا" في صفحات سلة التسوق أو تفاصيل المنتج
 
@@ -36,9 +34,9 @@ ms.locfileid: "5585174"
 
 يبين الرسم التوضيحي التالي مثالا للصفحة التي تتضمن زر **انتقاء هذا**.
 
-![زر انتهاء هذا](media/pickup-button-missing.jpg)
+![زر انتقاء هذا.](media/pickup-button-missing.jpg)
 
-## <a name="resolution"></a>الدقة
+## <a name="resolution"></a>الحل
 
 ### <a name="enable-the-bopis-extension-in-commerce-site-builder"></a>تمكين ملحق BOPIS في منشئ مواقع Commerce
 

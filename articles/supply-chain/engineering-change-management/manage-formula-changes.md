@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d25ddfc992d49c9a3c24d03cb0c71d68f7aa21fa
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641094"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103029"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>إدارة التغييرات في المعادلات والمكونات الخاصة بها
 
@@ -27,12 +27,9 @@ ms.locfileid: "6641094"
 - **المنتجات المساعدة والمنتجات الثانوية:** قم بتحرير الكميات والمعلومات الأخرى الخاصة بالمنتجات المساعدة والمنتجات الثانوية في معادلة.
 - **أصناف أوزان التعبئة** قم بإدارة التغييرات لأصناف أوزان التعبئة.
 
-## <a name="turn-on-this-feature-in-your-system"></a>تشغيل هذه الميزة في النظام
+## <a name="turn-this-feature-on-or-off"></a>تشغيل هذه الميزة أو إيقاف تشغيلها
 
-لاستخدام هذه الإمكانية، يتعين عليك إكمال المهام التالية:
-
-1. قم بتمكين الميزة *إدارة التغيير بالهندسة* ومفتاح التكوين الخاص بها، كما هو موضح في [‎نظرة عامة على إدارة التغيير بالهندسة](product-engineering-overview.md). كما هو موضح في هذا الموضوع ، تأكد من تمكين مفتاح الترخيص **إدارة التغيير للتصنيع التحويلي**، المتداخل ضمن مفتاح الترخيص **إدارة التغيير بالهندسة**.
-1. قم بتشغيل ميزة *إدارة التغييرات في المعادلات والمكونات الخاصة بها* في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+تتطلب الوظيفة الموضحة في هذا الموضوع تشغيل الميزتين *إدارة التغييرات الهندسية* و *إدارة التغييرات في المعادلات ومكوناتها‬* في النظام. للحصول علي تفاصيل حول كيفية تشغيل هذه الميزات أو إيقاف تشغيلها، راجع [نظرة عامة حول إدارة التغييرات الهندسية](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>قواعد تسمية الميزة
 

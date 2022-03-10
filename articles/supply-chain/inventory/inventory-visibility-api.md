@@ -2,7 +2,7 @@
 title: واجهات API العامة لرؤية المخزون
 description: يصف هذا الموضوع واجهات برمجة التطبيقات العامة التي يتم توفيرها بواسطة "رؤية المخزون".
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678777"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062101"
 ---
 # <a name="inventory-visibility-public-apis"></a>واجهات API العامة لرؤية المخزون
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 يصف هذا الموضوع واجهات برمجة التطبيقات العامة التي يتم توفيرها بواسطة "رؤية المخزون".
 
@@ -41,13 +41,15 @@ ms.locfileid: "7678777"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | ترحيل | [تعيين/تجاوز الكميات المتاحة](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | ترحيل | [إنشاء حدث حجز واحد](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | ترحيل | [إنشاء أحداث حجز متعددة](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | إحضار | [الاستعلام باستخدام أسلوب الترحيل](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand/indexquery | ترحيل | [الاستعلام باستخدام أسلوب الحصول](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | ترحيل | [الاستعلام باستخدام أسلوب الترحيل](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | إحضار | [الاستعلام باستخدام أسلوب الحصول](#query-with-get-method) |
 
 قدمت Microsoft مجموعة طلبات *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > جزء {environmentId} من المسار هو معرف البيئة في Microsoft Dynamics Lifecycle Services (LCS).
+> 
+> يمكن لواجهة برمجة التطبيقات المجمعة إرجاع 512 سجلاً كحد أقصى لكل طلب.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>البحث عن نقطة النهاية وفقًا لبيئة Lifecycle Services الخاصة بك
 
@@ -249,7 +251,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>إنشاء أحداث تغيير متعددة
 
-يمكن لواجهة برمجة التطبيقات هذه إنشاء سجلات متعددة في نفس الوقت. الاختلافات الوحيدة بين واجهة برمجة التطبيقات هذه و[واجهة برمجة تطبيقات الحدث الواحد](#create-one-onhand-change-event) هي قيم `Path` و`Body`. بالنسبة لواجهة برمجة التطبيقات هذه، يوفر `Body` مجموعة من السجلات.
+يمكن لواجهة برمجة التطبيقات هذه إنشاء سجلات متعددة في نفس الوقت. الاختلافات الوحيدة بين واجهة برمجة التطبيقات هذه و[واجهة برمجة تطبيقات الحدث الواحد](#create-one-onhand-change-event) هي قيم `Path` و`Body`. بالنسبة لواجهة برمجة التطبيقات هذه، يوفر `Body` مجموعة من السجلات. الحد الأقصى لعدد السجلات هو 512، مما يعني أن API المجمعة للتغييرات المتاحة يمكن أن تدعم ما يصل إلى 512 حدث تغيير في المرة الواحدة.
 
 ```txt
 Path:
@@ -476,7 +478,7 @@ Body:
 
 ## <a name="query-on-hand"></a>الاستعلام المتاح
 
-يتم استخدام واجهة برمجة تطبيقات _الاستعلام المتاح_ لجلب بيانات المخزون الحالية الفعلية لمنتجاتك.
+استخدم واجهة برمجة تطبيقات _الاستعلام المتاح_ لجلب بيانات المخزون الحالية الفعلية لمنتجاتك. تدعم واجهه برمجه التطبيقات حاليا الاستعلام حتى 100 صنفا فرديا حسب قيمة `ProductID`. يمكن أيضًا تحديد قيم `SiteID` و`LocationID` المتعددة في كل استعلام. ويتم تحديد الحد الأقصى على أنه `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>الاستعلام باستخدام أسلوب الترحيل
 
@@ -551,7 +553,7 @@ Body:
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +570,7 @@ Query(Url Parameters):
 هذا نموذج لعنوان URL للحصول. طلب الحصول هذا مماثل تمامًا لعينة المشاركة التي تم توفيرها مسبقًا.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

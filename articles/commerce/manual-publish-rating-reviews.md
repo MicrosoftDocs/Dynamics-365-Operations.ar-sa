@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: ebf104502783cf4046dc7b265a7ecda30cf2e8cf
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472562"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968193"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>تمكين النشر اليدوي للتقييمات والمراجعات حسب المشرف
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيفية تمكين النشر اليدوي للتقييمات والمراجعات حسب المشرف في Microsoft Dynamics 365 Commerce ، وكيفية نشر التقييمات والمراجعات يدويًا.
 
@@ -69,3 +68,17 @@ ms.locfileid: "7472562"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [نظرة عامة على التقييمات والمراجعات](ratings-reviews-overview.md)
+
+[الموافقة على استخدام التقييمات والمراجعات](opt-in-ratings-reviews.md)
+
+[إدارة التقييمات والمراجعات](manage-reviews.md)
+
+[تكوين التقييمات والمراجعات](configure-ratings-reviews.md)
+
+[مزامنة تقييمات المنتجات](sync-product-ratings.md)
+
+[استيراد التقييمات والمراجعات وتصديرها](import-export-reviews.md)
+
+[تكوين مصادقة من خدمة إلى خدمة](service-to-service-auth.md)
+
+[الأسئلة المتداولة حول التقييمات والمراجعات](ratings-reviews-faq.md)

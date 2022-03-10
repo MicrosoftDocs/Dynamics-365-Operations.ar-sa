@@ -1,12 +1,10 @@
 ---
 title: تقرير سجل نشاط الأصول الثابتة
 description: يشرح هذا المقال كيفية استخدام تقرير سجل نشاط الأصول الثابتة‬.
-author: saraschi2
-manager: ''
+author: moaamer
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b91da4679a23ba0a70c18e2bcae1b7f757f661ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969143"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883583"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>تقرير سجل نشاط الأصول الثابتة
 
@@ -30,7 +28,7 @@ ms.locfileid: "4969143"
 
 يوفر تقرير **سجل نشاط الأصول الثابتة**‬، بيانات الأصول الثابتة المفصلة التي تحتاج إليها لإقفال الفترة والقوائم المالية وإعداد تقارير الضرائب بتنسيق Microsoft Excel سهل قراءة. يتضمن التقرير أرصدة البدء والانتهاء للأصول الثابتة، إلى جانب حركات التقييم للفترة، وأي عمليات الاستحواذ على الأصول جديدة وعمليات التخلص التي حدثت أثناء هذه الفترة. يتم الإبلاغ عن بيانات الأصول الثابتة الفردية، كما يتم تلخيص القيم لمجموعات الأصول الثابتة والكيان القانوني.
 
-يستخدم تقرير **سجل نشاط الأصول الثابتة‬** إطار عمل إعداد التقارير الإلكتروني (ER). قبل أن تتمكن من تشغيل التقرير، يجب استيراد تكوينات سجل نشاط الأصول الثابتة‬ ونموذج الأصول الثابتة من Microsoft Dynamics Lifecycle Services (LCS). للمزيد من التعليمات، راجع [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+يستخدم تقرير **سجل نشاط الأصول الثابتة‬** إطار عمل إعداد التقارير الإلكتروني (ER). قبل أن تتمكن من تشغيل التقرير، يجب استيراد تكوينات سجل نشاط الأصول الثابتة‬ ونموذج الأصول الثابتة من Microsoft Dynamics Lifecycle Services (LCS). للمزيد من التعليمات، راجع [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 يتوافر هذا التقرير في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 أو كإصلاح عاجل لتطبيق Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (يوليو 2017). يجب تطبيق الإصلاحات العاجلة الثلاثة على البيئات التي تشتمل على إصدار يوليو 2017:
 
@@ -66,3 +64,6 @@ ms.locfileid: "4969143"
 |           عمليات التخلص: قيمة الخردة            |                                                                                               قيمة الخردة لدفتر الأصول الثابتة مع تخلص - حركة الخردة.                                                                                               |
 |           عمليات التخلص: الربح/الخسارة            |                                                                                 قيمة الربح أو الخسارة التي يتم حسابها كجزء من حركة التخلص لدفتر الأصول الثابتة.                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

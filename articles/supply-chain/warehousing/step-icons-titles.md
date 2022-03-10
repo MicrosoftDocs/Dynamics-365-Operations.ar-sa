@@ -1,21 +1,21 @@
 ---
 title: تعيين رموز وعناوين الخطوة لتطبيق الأجهزة المحمولة لـ Warehouse Management
 description: يصف هذا الموضوع كيفية تعيين رموز وعناوين الخطوات لتدفقات المهام الجديدة أو المخصصة لتطبيق الأجهزة المحمولة لـ Warehouse Management.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344473"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103303"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>تعيين رموز وعناوين الخطوة لتطبيق الأجهزة المحمولة لـ Warehouse Management
 
@@ -27,12 +27,9 @@ ms.locfileid: "6344473"
 
 ![مثال على رمز خطوة وعنوان خطوة في تطبيق الأجهزة المحمولة لـ Warehouse Management.](media/step-icon-example.png "مثال على رمز خطوة وعنوان خطوة في تطبيق الأجهزة المحمولة لـ Warehouse Management")
 
-## <a name="turn-on-this-feature-in-your-system"></a>تشغيل هذه الميزة في النظام
+## <a name="turn-this-feature-on-or-off"></a>تشغيل هذه الميزة أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *إعدادات المستخدم والرموز وعناوين الخطوات لتطبيق المستودع الجديد*
+لاستخدام الوظيفة التي ورد وصفها في هذا الموضوع، يجب أن تكون الميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>معرفات الخطوات القياسية والفئات والرموز
 

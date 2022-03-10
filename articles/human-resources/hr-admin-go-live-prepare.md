@@ -2,15 +2,12 @@
 title: التحضير لعرض Human Resources المباشر
 description: توفر هذه الصفحة الإرشادات حول كيفية الاستعداد للعرض المباشر باستخدام Dynamics 365 Human Resources.
 author: rachel-profitt
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,22 +15,27 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4196532be8ad40bacb8d614c6b0c86215b00bdb
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: ff7d689129a4015b6085685f4b19ae61bdd549d2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111293"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066383"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>التحضير لعرض Human Resources المباشر
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 يصف هذا الموضوع كيفية الاستعداد للانتقال للعرض المباشر باستخدام مشروع Dynamics 365 Human Resources باستخدام Microsoft Dynamics Lifecycle Services (LCS). 
 
 يعرض هذا الرسم مراحل عملية العرض المباشر. 
 
-![عملية العرض المباشر](./media/hr-admin-go-live-prepare-process.png)
+![عملية العرض المباشر.](./media/hr-admin-go-live-prepare-process.png)
 
 يسرد الجدول التالي كافة الخطوات الموجودة في العملية والمدة المتوقعة ومن المسؤول عن الإجراء.
 
@@ -43,7 +45,7 @@ ms.locfileid: "5111293"
 | 2 | إكمال قائمة الاختيار وإرسالها | بعد أن يتم إكمال اختبارات قبول المستخدم (UAT) | الشريك/العميل | اتبع الإرشادات المقدمة في [تقييم العرض المباشر لـ FastTrack](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | تقييم المشروع (FastTrack) | مهندس FastTrack* | يقوم المهندس بتسليم التقييم بعد الحصول على قائمة التحقق ومتابعة المراجعة حتى يتم توضيح الأسئلة يتم وضع عوامل التقليل، إن أمكن. |
 | 4 | ورشة عمل المشروع (FastTrack) | مهندس FastTrack* | |
-| 5 | استيراد حزمة البيانات | يعتمد على المشروع | الشريك/العميل | اتبع الإرشادات الموجودة في [نظرة عامة حول إدارة البيانات](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | استيراد حزمة البيانات | يعتمد على المشروع | الشريك/العميل | اتبع الإرشادات الموجودة في [نظرة عامة حول إدارة البيانات](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | الإنتاج جاهز | بعد إكمال كافة الخطوات السابقة | الشريك/العميل | يمكن للشريك/العميل التحكم في بيئة التشغيل.|
 | 7 | أنشطة مرحلية | يعتمد على المشروع | الشريك/العميل | |
 | 8 | العرض المباشر | يعتمد على المشروع | العميل | |
@@ -66,7 +68,7 @@ ms.locfileid: "5111293"
 
 - نوصي بأن تبدأ عملية UAT الخاصة بك ببيئة نظيفة وحديثة حيث يتم نسخ البيانات من التكوين الذهبي لك إلى البيئة قبل بدء عملية UAT. نوصي باستخدام بيئة التشغيل كبيئة ذهبية حتى يتم الانتقال إلى الحالة المباشرة، وفي هذه المرحلة تصبح البيئة هي الإنتاج.
 - تغطي حالات الاختبار النطاق الكامل للمتطلبات. 
-- الاختبار باستخدام البيانات التي تم ترحيلها. يجب أن تتضمن هذه البيانات البيانات الرئيسية مثل العاملين والوظائف والمناصب. كما تتضمن الأرصدة الافتتاحية، مثل استحقاقات الإجازات والغياب. وأخيرًا، قم بتضمين الحركات المفتوحة، مثل تسجيلات المزايا الحالية. أكمل الاختبار باستخدام كافة أنواع البيانات، حتى وإن لم يتم إنهاء مجموعة البيانات. 
+- الاختبار باستخدام البيانات التي تم ترحيلها. يجب أن تتضمن هذه البيانات بيانات مثل العاملين والوظائف والمناصب. كما تتضمن الأرصدة الافتتاحية، مثل استحقاقات الإجازات والغياب. وأخيرًا، قم بتضمين الحركات المفتوحة، مثل تسجيلات المزايا الحالية. أكمل الاختبار باستخدام كافة أنواع البيانات، حتى وإن لم يتم إنهاء مجموعة البيانات. 
 - اختبر باستخدام أدوار الأمان الصحيحة (الأدوار الافتراضية والأدوار المخصصة) التي يتم تعيينها إلى المستخدمين. 
 - تأكد من أن الحل يتوافق مع أية متطلبات تنظيمية خاصة بالشركة والصناعة. 
 - قم بتوثيق كافة الميزات والحصول على الموافقة وتسجيل الخروج من العميل. 
@@ -86,7 +88,7 @@ ms.locfileid: "5111293"
 
 ## <a name="fasttrack-go-live-assessment"></a>تقييم العرض المباشر لـ FastTrack
 
-سيقوم العملاء الذين تم تأهيلهم لـ FastTrack والمتصلين بمهندس حلول FastTrack بإكمال عملية مراجعة للعرض المباشر مع Microsoft FastTrack. لمزيد من المعلومات، راجع [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+سيقوم العملاء الذين تم تأهيلهم لـ FastTrack والمتصلين بمهندس حلول FastTrack بإكمال عملية مراجعة للعرض المباشر مع Microsoft FastTrack. لمزيد من المعلومات، راجع [Microsoft FastTrack](/dynamics365/fasttrack/). 
 
 ثمانية أسابيع تقريبًا قبل العرض المباشر، سيطلب منك فريق FastTrack ملء [قائمة اختيار العرض المباشر](https://go.microsoft.com/fwlink/?linkid=2146013).
 
@@ -99,3 +101,6 @@ ms.locfileid: "5111293"
 ## <a name="see-also"></a>راجع أيضًا
 
 [الأسئلة المتداولة حول العرض المباشر](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

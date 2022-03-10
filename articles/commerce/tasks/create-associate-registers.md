@@ -1,27 +1,25 @@
 ---
 title: " إنشاء وربط سجلات"
 description: يوضح هذا الإجراء كيفية إنشاء سجل نقطة البيع.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af9743f17cebb3484c3ec5b0315347c575a474bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 48ad1891955b15d22f3cecac128a831adabdac87
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246985"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779417"
 ---
 # <a name="create-and-associate-registers"></a> إنشاء وربط سجلات
 

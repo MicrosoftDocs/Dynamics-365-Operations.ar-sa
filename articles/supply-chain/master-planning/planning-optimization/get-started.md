@@ -2,34 +2,32 @@
 title: بدء تحسين التخطيط
 description: يشرح هذا الموضوع كيفية بدء استخدام وظيفة تحسين التخطيط.
 author: ChristianRytt
-manager: tfehr
-ms.date: 10/09/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 50633d1e5dd47b61e074d33a9d77a1f9ece0c223
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263364"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902549"
 ---
 # <a name="get-started-with-planning-optimization"></a>بدء تحسين التخطيط
 
 [!include [banner](../../includes/banner.md)]
 
-وكما  [سبق ان تم الإعلان عنه](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios)، تتم جدوله تحسين التخطيط لاستبدال محرك التخطيط الرئيسي الموجود المضمن.
+وكما  [سبق ان تم الإعلان عنه](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios)، تتم جدوله تحسين التخطيط لاستبدال محرك التخطيط الرئيسي الموجود المضمن.
 
 إذا كنت تستخدم حاليا مشغل التخطيط الرئيسي المضمن، فعليك البدء في تخطيط الترحيل لتخطيط تحسين الأداء الآن. من المهم بدء عمليه الترحيل فورا لان العمليات قد تكون متاثره عند فرض الإهلاك. لتجنب مشكلات الدقائق الاخيره عند فرض الإهلاك، فاننا نشجعك بشده علي إكمال الترحيل قبل 1 ديسمبر 2020. 
 
@@ -42,7 +40,7 @@ ms.locfileid: "5263364"
 
 ## <a name="availability"></a>التوفر
 
-يتوفر تحسين التخطيط حاليا في مناطق Azure التالية: الولايات المتحدة وكندا وأوروبا والمملكة المتحدة وأستراليا ودول آسيا المطلة على المحيط الهادئ. إذا حاولت تثبيت الوظيفة الإضافية  من منطقه أخرى ، فسوف يُظهر لك LCS رسالة بأن هذه المنطقة الجغرافية غير مدعومة.
+يتوفر تحسين التخطيط حاليا في مناطق Azure التالية: الولايات المتحدة وكندا وأوروبا والمملكة المتحدة وأستراليا ودول آسيا المطلة على المحيط الهادئ واليابان والهند. إذا حاولت تثبيت الوظيفة الإضافية  من منطقه أخرى ، فسوف يُظهر لك LCS رسالة بأن هذه المنطقة الجغرافية غير مدعومة. لمزيد من المعلومات حول مناطق Azure الجغرافية والمناطق المتعلقة بالصلة ، راجع [مناطق Azure الجغرافية](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 لاحظ أن تحسين التخطيط لا يدعم عمليات النشر المحلية لـ Dynamics 365 Supply Chain Management.
 
@@ -52,7 +50,7 @@ ms.locfileid: "5263364"
 
 ## <a name="install-and-enable-planning-optimization"></a>تثبيت وتمكين تحسين التخطيط
 
-لاستخدام تحسين التخطيط، يجب التاكد من ان النظام يحتوي علي كافة المتطلبات المسبقة، ثم تمكين مفتاح الترخيص الخاص بها وتثبيت الوظيفة الاضافيه لتحسين أداء التخطيط Dynamics 365 Supply Chain Management.
+لاستخدام تحسين التخطيط، يجب التاكد من ان النظام يحتوي علي كافة المتطلبات المسبقة، ثم تمكين مفتاح الترخيص الخاص بها وتثبيت الوظيفة الإضافية لتحسين أداء التخطيط Dynamics 365 Supply Chain Management.
 
 ### <a name="prerequisites"></a>المتطلبات الأساسية
 
@@ -60,7 +58,7 @@ ms.locfileid: "5263364"
 
 - يجب تشغيل Supply Chain Management على بيئة ذات توفر عالي الطبقة 2 أو أعلى بتمكين LCS (ليست بيئة OneBox)، مع الإصدار Dynamics 365 Supply Chain Management 10.0.7 أو أحدث. إذا حاولت تثبيت الوظيفة الإضافية  في بيئة OneBox، لن يكتمل التثبيت وستحتاج إلى إلغاء التثبيت.
 
-- يجب اعداد النظام Power Platform للتكامل. لمزيد من المعلومات، راجع [المتطلبات الاساسيه لاعداد الوظائف الاضافيه](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins)[واعداد الوظائف الاضافيه](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+- يجب إعداد النظام لتكامل Power Platform. لمزيد من المعلومات، راجع تكامل [Microsoft Power Platform مع التطبيقات Finance and Operations ](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>تمكين ترخيص تحسين التخطيط
 
@@ -87,7 +85,7 @@ ms.locfileid: "5263364"
 1. في علامة التبويب السريعة **الوظائف الإضافية للبيئة‬**، ينبغي رؤية "جارِ تثبيت تحسين التخطيط".
 1. بعد بضع دقائق ينبغي تغيير **جارٍ التثبيت** إلى **تم التثبيت** (قد تحتاج إلى تحديث الصفحة). عندما يتم التثبيت، ستكون جاهزًا لتنشيط تحسين التخطيط في Dynamics 365 Supply Chain Management.
 
-الغرض الأساسي من تثبيت الوظيفة الاضافيه لتحسين أداء التخطيط هو الاتصال بالخدمة والبيئة. ولذلك ، يجب عليك تثبيت الوظيفة الاضافيه بشكل منفصل علي كل بيئة حيث سيتم استخدام أمثليه التخطيط ، بغض النظر عن إيه تعليمات برمجيه تم نقلها بين البيئات.
+الغرض الأساسي من تثبيت الوظيفة الإضافية لتحسين أداء التخطيط هو الاتصال بالخدمة والبيئة. ولذلك ، يجب عليك تثبيت الوظيفة الإضافية بشكل منفصل علي كل بيئة حيث سيتم استخدام أمثليه التخطيط ، بغض النظر عن إيه تعليمات برمجيه تم نقلها بين البيئات.
 
 ## <a name="integrate-planning-optimization-with-your-system"></a>تكامل أمثليه التخطيط مع النظام الخاص بك
 
@@ -111,6 +109,8 @@ ms.locfileid: "5263364"
 
 - **نعم** – يُستخدم تحسين التخطيط للتخطيط الرئيسي.
 - **لا** – يُستخدم محرك تخطيط Supply Chain Management المضمن للتخطيط الرئيسي.
+
+يتم تطبيق هذا الإعداد على كافة الكيانات القانونية (الشركات). لا يمكن استخدام تحسين التخطيط في بعض الكيانات القانونية والتخطيط الرئيسي المضمن في الكيانات القانونية الأخرى.
 
 > [!NOTE]
 > إذا تم تشغيل وظائف دفعة التخطيط الموجودة التي تم إنشاؤها لمحرك تخطيط Supply Chain Management المضمن أثناء تعيين خيار **استخدام تحسين التخطيط** إلى **نعم**، فسوف تفشل هذه الوظائف.

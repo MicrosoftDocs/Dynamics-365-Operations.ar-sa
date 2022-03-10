@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3fc7cff0a3f8d0fbfb196ec5951b138088afece7
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae4a7f9d9576c9d0408f562eb05bc309d0fbca0ecb8530e8c032b2bb80f12ff4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773804"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>الأسئلة الشائعة حول تكامل Dynamics 365 Commerce وMicrosoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "6019460"
 
 في إدارة Commerce، يرتبط التسلسل الهرمي لكل مؤسسة بهدف أو أكثر. تاكد من ان التدرج الهرمي الذي تريد توفيره في Microsoft Teams به غرض **تقارير Retail** مقترنًا به، كما هو موضح في صورة المثال التالية. 
 
-![مثال لغرض التدرج الهرمي للمؤسسات في إدارة Commerce](media/d365-commerce-organization-hierarchies-purpose.png)
+![مثال لغرض التدرج الهرمي للمؤسسات في إدارة Commerce.](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>كيف يمكنني تمكين عمال متجر البيع بالتجزئة من تسجيل الدخول إلى نقطة بيع Commerce (POS) باستخدام Azure Active Directory (Azure AD)؟
 

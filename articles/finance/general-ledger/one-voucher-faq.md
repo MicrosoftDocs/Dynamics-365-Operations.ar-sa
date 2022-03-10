@@ -2,11 +2,9 @@
 title: الأسئلة المتداول حول الإيصال الواحد
 description: يجيب هذا الموضوع عن الأسئلة المتداولة حول وظيفة الإيصال الواحد. إيصال واحد لدفاتر اليومية المالية (دفتر اليومية العام، ودفتر يومية الأصول الثابتة، ودفتر يومية دفع المورد، وهكذا) يتيح لك إدخال حركات دفتر أستاذ فرعي متعددة في سياق إيصال واحد.
 author: kweekley
-manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a0cbc9e1f70bd41157e2ed70f78c8129671a6a04
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 04e1f53802a69aa9de84826bfad05db7b29739a26441b1222cabc224d2873177
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715036"
 ---
 # <a name="one-voucher-faq"></a>الأسئلة المتداول حول الإيصال الواحد
 

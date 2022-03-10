@@ -1,27 +1,25 @@
 ---
 title: إعداد تسوية الشحن التلقائية
 description: يوضح هذا الإجراء كيفية إعداد البيانات لتسوية الشحن التلقائية.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bfd96fcae78fd0fe383781112c17c7a3b5ea1d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d1dbe3c683d869f86bc7231c68839f431cc61d6b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974000"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574823"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>إعداد تسوية الشحن التلقائية
 
@@ -71,3 +69,6 @@ ms.locfileid: "4974000"
 11. في حقل "‏‫كود سبب الدفع بالنقصان"، أدخل قيمة أو حددها.
 12. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

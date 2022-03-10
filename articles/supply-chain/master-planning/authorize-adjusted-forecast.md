@@ -1,7 +1,7 @@
 ---
 title: ‏‫تخويل ‏‫التنبؤ الذي تمت تسويته
 description: يجب عدم تخويل كافة بيانات التنبؤ على الفور. يشرح هذا المقال كيف يمكنك تحديد الفترة التي يتم فيها التخويل لتنبؤ. وهو يوضح أيضًا كيفية تخويل التنبؤ لشركات بعينها ونماذج التنبؤ.
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 72734
 ms.assetid: cb8fd809-605a-4a8b-a390-636edfec21f9
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42137b9eb24e14518244d87e72e9ea1295be4485
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1f9ceeb01675a44388862e1dede11551d3a60bdc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188948"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568702"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>‏‫تخويل ‏‫التنبؤ الذي تمت تسويته
 

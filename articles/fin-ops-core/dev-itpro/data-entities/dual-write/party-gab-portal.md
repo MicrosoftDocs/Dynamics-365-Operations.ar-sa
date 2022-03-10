@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 872b477ae73a374cd62b9e86048bfc27c84064c1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781358"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060910"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>استخدام مداخل Microsoft Power Apps مع نموذج بيانات الطرف
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-[!INCLUDE[rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يتضمن الإصدار 2.0.999.0 من حل تزامن تطبيق الكتابة المزدوجة والإصدارات الأحدث تغييرات نموذج البيانات إلى دفتر العناوين العام والحزب لجدولي الحساب وجهات الاتصال. تسمح التغييرات بعلاقات أطراف بأطراف تدعم سيناريوهات الأعمال المتقدمة. لا تدعم أدوار موقع البوابة الإلكترونية على الويب هذه التغييرات، بما في ذلك مدخل العميل، التي يتم شحنها خارج الصندوق أو التي كانت موجودة في بيئتك قبل تثبيت الكتابة المزدوجة. لكي تعمل أدوار الويب كما هو متوقع، تحتاج إلى إنشاء أدوار ويب جديدة باستخدام نموذج البيانات الجديد. 
 

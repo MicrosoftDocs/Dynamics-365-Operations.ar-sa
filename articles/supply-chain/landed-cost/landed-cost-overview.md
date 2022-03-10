@@ -2,11 +2,9 @@
 title: الوحدة النمطية للتكلفة المستلمة
 description: تساعد الوحدة النمطية التكلفة المستلمة الشركات في تسهيل عمليات الشحن الواردة وذلك بإعطاء المستخدمين التحكم المالي واللوجيستي الكامل بالشحن الذي تم استيراده، من الشركة المصنعة إلى المستودع.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,18 +12,17 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9d04c377080a1d301efb771b98c249f610a3289d
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500322"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983407"
 ---
 # <a name="landed-cost-module"></a>الوحدة النمطية للتكلفة المستلمة
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 تساعد الوحدة النمطية **التكلفة المستلمة** الشركات في تسهيل عمليات الشحن الواردة وذلك بإعطاء المستخدمين التحكم المالي واللوجيستي الكامل بالشحن الذي تم استيراده، من الشركة المصنعة إلى المستودع. بالنسبة للسلع المستوردة، يمكن للتكاليف المستلمة الحساب للنسبة المئوية 40 بالمائة أو أكثر من التكلفة الإجمالية لكل صنف تم استيراده. وبالتالي، فإن التحدي هو تقديم تقديرات دقيقة للتكاليف المستلمة.
 

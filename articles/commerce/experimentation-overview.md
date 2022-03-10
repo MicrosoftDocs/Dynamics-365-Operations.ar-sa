@@ -3,24 +3,23 @@ title: الاختبار في Dynamics 365 Commerce
 description: يتيح الاختبار إنشاء تخطيط الصفحة وعمليات معالجة المحتوى وتحريرها وإدارتها في منشئ المواقع. يتيح دعم الاختبار الشامل لصفحات وكيانات التجارة الالكترونيه داخل الصفحة.
 author: sushma-rao
 ms.date: 10/21/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 292a8934e735c76389e36603a708fd2a1bbf7691
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349318"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986531"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>الاختبار في Dynamics 365 Commerce
 استخدم الاختبار في Dynamics 365 Commerce للتحقق من فرضية فعاليه صفحات التجارة الالكترونيه واتخاذ قرارات واثقة بناء على البيانات. تدعم التجارة اختبار A/B في الصفحات والوحدات النمطية والأجزاء وتمكنك من قياس تاثير التغييرات المقترحة علي موقع الويب الخاص بك.

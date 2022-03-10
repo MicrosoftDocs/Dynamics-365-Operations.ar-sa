@@ -1,32 +1,30 @@
 ---
 title: إعداد ملفات تعريف ترحيل الأصول الثابتة
-description: سيقوم دليل المهمة هذا بإعداد ملفات تعريف ترحيل الأصول الثابتة.
-author: saraschi2
-manager: AnnBe
+description: يوضح هذا الإجراء كيفية إعداد ملفات تعريف ترحيل الأصول الثابتة.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2041a8cb36d106bfe3b5a858725c83d278f666a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219905"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883758"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>إعداد ملفات تعريف ترحيل الأصول الثابتة
 
 [!include [banner](../../includes/banner.md)]
 
-سيقوم دليل المهمة هذا بإعداد ملفات تعريف ترحيل الأصول الثابتة.  إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.  تتعلق الأمثلة الواردة في دليل المهمة بملف تعريف ترحيل أساسي، على الرغم من ضرورة إنشاء ملفات تعريف ترحيل خاصة بمتطلبات معينة لدليل الحسابات‬ والتقارير المالية.
+يوضح هذا الإجراء كيفية إعداد ملفات تعريف ترحيل الأصول الثابتة. تتعلق الأمثلة الواردة في الموضوع بملف تعريف ترحيل أساسي، على الرغم من ضرورة إنشاء ملفات تعريف ترحيل خاصة بمتطلبات معينة لدليل الحسابات‬ والتقارير المالية.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الأصول الثابتة > الإعداد > ملفات تعريف ترحيل الأصول الثابتة‬**.
 2. انقر فوق **جديد**.

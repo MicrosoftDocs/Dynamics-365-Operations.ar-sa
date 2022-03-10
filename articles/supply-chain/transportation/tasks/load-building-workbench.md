@@ -2,11 +2,9 @@
 title: منضدة عمل إنشاء الحِمل
 description: يصف هذا الموضوع كيفيه العمل مع منضدة إنشاء حمل العمل.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
 audience: Application User
@@ -16,14 +14,16 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 480006a6d091acdf5c88fdbf0d9e625088d660d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247228"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574847"
 ---
 # <a name="load-building-workbench"></a>منضدة عمل إنشاء الحِمل
+
+[!include [banner](../../includes/banner.md)]
 
 يتيح لك منضدة إنشاء التحميل تطبيق استراتيجيات بناء التحميل عند قيامك بإنشاء أحمال العمل.
 

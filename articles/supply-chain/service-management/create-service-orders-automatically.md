@@ -1,12 +1,10 @@
 ---
 title: إنشاء أوامر الخدمة تلقائيًا
 description: يمكن إنشاء أوامر خدمة لاتفاقية خدمة واحدة أو للعديد من اتفاقيات الخدمات.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9bcb9611fd5e59cbfafbc8419a421ad0905e8b9f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8fc63a720dd06c85be17ca61de1fe7c25f1cf3f7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001439"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571535"
 ---
 # <a name="create-service-orders-automatically"></a>إنشاء أوامر الخدمة تلقائيًا    
 
@@ -70,3 +68,6 @@ ms.locfileid: "5001439"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: إدارة الميزات في الموارد البشرية
-description: التعرف على كيفية تشغيل الميزات الجديدة أو إيقاف تشغيلها في Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/06/2020
+description: يصف هذا الموضوع ميزة إدارة الميزات وكيف يمكن استخدامها.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9454125428a0bb9b8d60d8e1733f7e56144d4a3e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058526"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069697"
 ---
 # <a name="manage-features-in-human-resources"></a>إدارة الميزات في الموارد البشرية
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ ms.locfileid: "6058526"
 - **سياسات استحقاق المزايا**
 - **أحداث الاستحقاق**
 
-يُمكنك عرض المعلومات الموجودة في هذه النماذج في وضع القراءة فقط. إذا كنت ترغب في تحرير المعلومات، فيجب أولاً تعطيل إدارة المزايا (ينطبق ذلك على **بيئات الاختبار المعزولة** فقط).
+يُمكنك عرض المعلومات الموجودة في هذه الصفحات في وضع القراءة فقط. إذا كنت ترغب في تحرير المعلومات، فيجب أولاً تعطيل إدارة المزايا (ينطبق ذلك على **بيئات الاختبار المعزولة** فقط).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>تمكين أو تعطيل الإجازة والغياب
 

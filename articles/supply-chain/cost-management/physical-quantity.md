@@ -2,29 +2,26 @@
 title: قيم كائن المخزون
 description: توفر هذه المقالة معلومات حول كيفية حساب قيم كائن المخزون.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daa36dad4009cc25b89363dcff6b4496205522e3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6564df5bd9c768f647138714875c60ddd6df3c85
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421254"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568941"
 ---
 # <a name="inventory-object-values"></a>قيم كائن المخزون
 
@@ -47,7 +44,7 @@ ms.locfileid: "4421254"
 
 يعرض الجدول التالي نتيجة عملية الحساب لكائن تكلفة. يمكنك عرض النتيجة في صفحة **كائن التكلفة**.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />
@@ -83,7 +80,7 @@ ms.locfileid: "4421254"
 
 يعرض الجدول التالي نتيجة عملية الحساب لكائن مخزون. يمكنك عرض النتيجة بالنقر فوق **الكمية الفعلية** في صفحة **كائن التكلفة**.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="11%" />
 <col width="11%" />
@@ -136,14 +133,16 @@ ms.locfileid: "4421254"
 
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [كائنات التكلفة](cost-object.md)
 
 [إدخالات التكلفة](cost-entries.md)
 
-[الميزات الجديدة والمتغيرة](../../fin-and-ops/get-started/whats-new-changed.md)
+[الميزات الجديدة والمتغيرة](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

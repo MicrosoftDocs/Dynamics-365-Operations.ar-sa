@@ -2,11 +2,9 @@
 title: مراجع إلى الفواتير الأصلية في الإشعارات الدائنة
 description: يوضح هذا الموضوع كيفية إعداد أرقام الفواتير الأصلية وطباعتها في الإشعارات الدائنة المرتبطة.
 author: ilkond
-manager: AnnBe
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,24 +14,23 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 04a4fc96cb7de60052b17e36c33ad5d5be322be4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207341"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700345"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>مراجع إلى الفواتير الأصلية في الإشعارات الدائنة
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 في بعض البلدان والمناطق، يكون هناك متطلب قانوني بأن تتضمن الإشعارات الدائنة المطبوعة مراجع إلى لفواتير الأصلية. يوضح هذا الموضوع كيفية إعداد أرقام الفواتير الأصلية وطباعتها في الإشعارات الدائنة المرتبطة.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-- في مساحة عمل **إدارة الميزات**، قم بتشغيل ميزة **تخطيط فوترة الائتمان لتقارير المبيعات وفاتورة المشروع**. لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة الميزات](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- في مساحة عمل **إدارة الميزات**، قم بتشغيل ميزة **تخطيط فوترة الائتمان لتقارير المبيعات وفاتورة المشروع**. لمزيد من المعلومات، راجع [‏‫نظرة عامة على إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - يجب تكوين التنسيقات القابلة للطباعة للمستندات المطلوبة في إدارة الطباعة.
 
 تنطبق الوظيفة الموضحة في هذا الموضوع على المستندات التالية:
@@ -54,7 +51,7 @@ ms.locfileid: "5207341"
 1. انتقل إلى **الحسابات المدينة** \> **إعداد** \> **معلمات الحسابات المدينة**.
 2. في علامة التبويب **تحديثات**، في علامة التبويب السريعة **الفاتورة**، قم بتعيين خيار **تطبيق تخطيط فوترة الائتمان على تقارير المبيعات وفاتورة المشروع** على القمية **نعم**.
 
-![تكوين معلمات الحسابات المدينة](media/original-invoice-number-in-credit-note.jpg)
+![تكوين معلمات الحسابات المدينة.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>تعريف مراجع الفواتير الأصلية
 
@@ -68,7 +65,7 @@ ms.locfileid: "5207341"
 4. في جزء الإجراءات، في علامة التبويب **الفاتورة**، في المجموعة **الوظائف**، حدد **فوترة الائتمان**.
 5. أدخل المرجع إلى الفاتورة الأصلية، وحدد سبب التصحيح.
 
-![تعريف مرجع لفاتورة نص حر](media/reference-original-invoice-FTI.jpg)
+![تعريف مرجع لفاتورة نص حر.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>اشعار ائتمان العميل
 
@@ -77,7 +74,7 @@ ms.locfileid: "5207341"
 3. في جزء الإجراءات، في علامة التبويب **البيع**، في مجموعة **إشعار دائن**، حدد **إشعار دائن**.
 4. أدخل سبب التصحيح. يتم إنشاء المرجع إلى الفاتورة الاصلية تلقائيًا.
 
-![تعريف المرجع لأمر المبيعات](media/reference-original-invoice-SO.jpg)
+![تعريف المرجع لأمر المبيعات.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>إشعار الدائن للمشروع
 
@@ -87,16 +84,21 @@ ms.locfileid: "5207341"
 4. حدد **فوترة الائتمان**.
 5. أدخل سبب التصحيح. يتم إنشاء المرجع إلى الفاتورة الاصلية تلقائيًا.
 
-![تعريف مرجع لفاتورة مشروع](media/reference-original-invoice-project.jpg)
+![تعريف مرجع لفاتورة مشروع.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>طباعة إشعارات الدائن
 
 عند طباعة إشعارات دائنة نص حر وإشعارات دائمة للعميل وللمشروع، فإنها ستشتمل على مرجع إلى الفاتورة الأصلية وسبب التصحيح.
 
-![اشعار دائن مطبوع](media/credit-note-FTI.jpg)
+![إشعار دائن مطبوع.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > تأكد من تكوين التنسيقات القابلة للطباعة الخاصة بالمستندات بشكل صحيح، على افتراض أنه ستتم طباعة مراجع الفواتير الأصلية.
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>مراجع إلى الفواتير الأصلية في الإشعارات المدينة
+
+بشكل افتراضي ، يمكن إدخال مراجع للفواتير الاصليه للإشعارات الدائنة. علي سبيل المثال ، يمكنك إدخال مراجع عند اجراء تصحيحات سالبه (متناقصة) للفواتير الاصليه.
+
+لإدخال مراجع عندما تقوم بعمل تصحيحات موجبه (متزايدة) للفواتير الاصليه ، يجب تمكين ميزه **مراجع الفواتير الاصليه في الإشعارات المدينة** في مساحة عمل **أداره الميزات**.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

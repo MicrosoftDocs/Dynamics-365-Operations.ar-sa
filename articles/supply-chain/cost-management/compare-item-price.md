@@ -2,29 +2,26 @@
 title: تقرير مقارنة تخزين أسعار الأصناف
 description: التعرف على كيفية إنشاء تقرير مقارنة تخزين أسعار الأصناف ثم استعرض و/أو صدّر النتيجة.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 76a4ba07d191f79b4033fc78acff62d4909c7d32
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421568"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565989"
 ---
 # <a name="compare-item-prices-storage-report"></a>تقرير مقارنة تخزين أسعار الأصناف
 
@@ -121,3 +118,6 @@ ms.locfileid: "4421568"
 1. تفتح صفحة **ملخص التنفيذ**، حيث يمكنك عرض حالة وظيفة التصدير وقائمة بالكيانات التي تم تصديرها. حدد الكيان **مقارنة أسعار الأصناف** الذي تم إدراجه في المنطقة **حالة معالجة الكيان** ثم حدد **تنزيل ملف** لتنزيل البيانات المصدرة من ذلك الكيان.
 
 لمزيد من المعلومات حول كيفية استخدام إدارة البيانات لتصدير البيانات، راجع [نظرة عامة حول وظائف استيراد البيانات وتصديرها](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

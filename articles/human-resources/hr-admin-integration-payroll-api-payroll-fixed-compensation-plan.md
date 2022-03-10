@@ -2,7 +2,7 @@
 title: خطة التعويض الثابتة لكشف الرواتب
 description: يوفر هذا الموضوع تفاصيل ومثال استعلام لكيان خطة التعويض الثابت في كشف الرواتب في Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24f8af4d691c3085c36018c574fa3b917a3d6953
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 14829f18fb5e3adde83e265cd6e70b60e1ff03ac
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314203"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069086"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>خطة التعويض الثابتة لكشف الرواتب
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,18 +37,27 @@ ms.locfileid: "6314203"
 
 ## <a name="properties"></a>الخصائص
 
-| الخاصية<br>**الاسم الفعلي**<br>**_النوع_** | استخدام | الوصف |
+| الخاصية</br>**الاسم الفعلي**</br>**_النوع_** | استخدام | الوصف |
 | --- | --- | --- |
-| **معرف الموظف**<br>mshr_fk_employee_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>مفتاح خارجي:mshr_Employee_id لـ mshr_payrollemployeeentity entity  | معرف الموظف |
-| **معدل الدفع**<br>mshr_payrate<br>*عشري* | للقراءة فقط<br>مطلوب | معدل الدفع المحدد في خطة التعويض الثابت. |
-| **معرف الخطة**<br>mshr_planid<br>*سلسلة* | للقراءة فقط<br>مطلوب |تحدد خطة التعويض.  |
-| **صالح من**<br>mshr_validfrom<br>*الفرق بالتاريخ والوقت* |  للقراءة فقط<br>مطلوب |تاريخ بدء صلاحية التعويض الثابت للموظف.  |
-| **كيان خطة التعويض الثابتة لكشف الرواتب**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | مطلوب<br>النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف خطة التعويض بشكل فريد. |
-| **تكرار الدفع**<br>mshr_payfrequency<br>*سلسلة* | للقراءة فقط<br>مطلوب |تكرار تنفيذ عملية الدفع للموظف.  |
-| **صالح حتى**<br>mshr_validto<br>*الفرق بالتاريخ والوقت* | للقراءة فقط <br>مطلوب | تاريخ انتهاء صلاحية التعويض الثابت للموظف. |
-| **معرف المنصب**<br>mshr_positionid<br>*سلسلة* | للقراءة فقط <br>مطلوب | معرف المنصب المرتبط بالموظف وتسجيل خطة التعويض الثابت. |
-| **عملة**<br>mshr_currency<br>*سلسلة* | للقراءة فقط <br>مطلوب |العملة المحددة لخطة التعويض الثابت   |
-| **رقم الموظف**<br>mshr_personnelnumber<br>*سلسلة* | للقراءة فقط<br>مطلوب |رقم الموظف الفريد الخاص بالموظف.  |
+| **معرف الخطة**</br>mshr_planid</br>*سلسلة* | للقراءة فقط | تحدد خطة التعويض.  |
+| **رقم الموظف**</br>mshr_personnelnumber</br>*سلسلة* | للقراءة فقط | رقم الموظف الفريد الخاص بالموظف. |
+| **معدل الدفع**</br>mshr_payrate</br>*عشري* | للقراءة فقط | معدل الدفع المحدد في خطة التعويض الثابت. |
+| **معرف المنصب**</br>mshr_positionid</br>*سلسلة* | للقراءة فقط | معرف المنصب المرتبط بالموظف وتسجيل خطة التعويض الثابت. |
+| **صالح من**</br>mshr_validfrom</br>*الفرق بالتاريخ والوقت* |  للقراءة فقط | تاريخ بدء صلاحية التعويض الثابت للموظف.  |
+| **صالح حتى**</br>mshr_validto</br>*الفرق بالتاريخ والوقت* | للقراءة فقط | تاريخ انتهاء صلاحية التعويض الثابت للموظف. |
+| **تكرار الدفع**</br>mshr_payfrequency</br>*سلسلة* | للقراءة فقط | معرف [تكرار دفع التعويض](hr-admin-integration-payroll-api-compensation-pay-frequency.md) لمعدل الدفع المحدد. |
+| **عملة**</br>mshr_currency</br>*سلسلة* | للقراءة فقط | العملة المحددة لخطة التعويض الثابت. |
+| **كيان خطة التعويض الثابتة لكشف الرواتب**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | النظام منشأ | قيمة معرف GUID منشأ بواسطة النظام لتعريف خطة التعويض بشكل فريد. |
+
+## <a name="relations"></a>العلاقات
+
+|قيمة الخاصية | الكيان المرتبط | خاصيه التنقل | نوع التجميع |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>مثال الاستعلام
 

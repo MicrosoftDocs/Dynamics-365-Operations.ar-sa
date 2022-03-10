@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7e3156d1aa9a05dc5d159b6f9b33ae341de640bf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4887cde3e4243ae7a4da6402782e69e780ae20331ed80df63ba1239ef5187e41
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801689"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769261"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>عدم ظهور خيار "الحفظ للدفع التالي"
 
@@ -35,9 +34,9 @@ ms.locfileid: "5801689"
 
 يبين الرسم التوضيحي التالي مثالا لصفحة السداد مع الخروج التي تتضمن خانة الاختيار **الحفظ للدفع التالي**.
 
-![خانة الاختيار الحفظ للدفع التالي في وحدة الدفع النمطية](media/payment-module-save-payment.jpg)
+![خانة الاختيار الحفظ للدفع التالي في وحدة الدفع النمطية.](media/payment-module-save-payment.jpg)
 
-## <a name="resolution"></a>الدقة
+## <a name="resolution"></a>الحل
 
 ### <a name="verify-that-the-dynamics-365-payment-connector-for-adyen-is-correctly-configured-in-commerce-headquarters"></a>التحقق من تكوين موصل الدفع Dynamics 365 لـ Adyen بشكل صحيح في المركز الرئيسي لـ Commerce
 
@@ -47,10 +46,10 @@ ms.locfileid: "5801689"
 1. حدد متجر على الإنترنت.
 1. في علامة التبويب السريعة **حسابات الدفع**، تأكد من تعيين حقل **السماح بحفظ معلومات الدفع في التجارة الإلكترونية** على القيمة **True**.
 
-![السماح بحفظ معلومات الدفع في حقل التجارة الإلكترونية في المركز الرئيسي لـ Commerce](media/payment-connector-save-payment.jpg)
+![السماح بحفظ معلومات الدفع في حقل التجارة الإلكترونية في المركز الرئيسي لـ Commerce.](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[الوحدة النمطية للدفع](../payment-module.md)
+[وحدة للدفع](../payment-module.md)
 
 [حفظ وسائل الدفع عبر الإنترنت باستخدام موصل Adyen](../dev-itpro/adyen-connector-listPI.md)

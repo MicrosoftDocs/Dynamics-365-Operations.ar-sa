@@ -1,27 +1,24 @@
 ---
 title: إنشاء أمر إرجاع الشراء
 description: يوضح هذا الإجراء كيفية إنشاء أمر إرجاع الشراء باستخدام إجراء الإشعار الدائن لنسخ البنود من مستند فاتورة المورّد إلى أمر شراء جديد.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ea0d227966b69063993acf14e68cd069681357f1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421720"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569399"
 ---
 # <a name="create-a-purchase-return-order"></a>إنشاء أمر إرجاع الشراء
 
@@ -68,3 +65,6 @@ ms.locfileid: "4421720"
 4. في حقل **إيصال استلام المنتجات**، اكتب قيمة. يتم استخدام هذا الحقل لإدخال مرجع سيتم استخدامه كإيصال لدفتر يومية إيصال استلام المنتج.  
 5. انقر فوق **موافق**. تم الآن تسجيل البضائع على أنها مشحونة على أمر إرجاع الشراء، وتم إنشاء دفتر يومية إيصال استلام المنتجات. يمكنك استخدام إجراء إيصال استلام المنتجات لمراجعة دفاتر اليومية التي تم إنشاؤها مع أمر الشراء، والاطلاع على المنتجات التي تم استلامها وإرجاعها وتاريخ الاستلام والإرجاع.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: إضافة موقع وأنواع علاقات الأطراف
 description: يشرح هذا الموضوع كيفية إضافة موقع جديد وعلاقة طرف.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a69ace892c55948305419a089cb91ac5b1e3c066177f8ce2ca441f1dd01c2af0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439977"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728855"
 ---
 # <a name="add-location-and-party-relationship-types"></a>إضافة موقع وأنواع علاقات الأطراف 
 
@@ -35,25 +32,25 @@ ms.locfileid: "4439977"
 
 -  أضفها إلى صفحة **‏‫الغرض من معلومات العنوان وجهة الاتصال‬**. سيتم حفظ الدور الجديد في الجدول **LogisticsLocationRole** بنوع = 0، الذي يشير إلى أن الدور ليس دور نظام محدد في تعداد **LogisticsLocationRoleType** وملحقاته. سيكون المستخدم قادراً على استخدام هذا الدور عند إنشاء عنوان أو معلومات جهة الاتصال.
 
-    ![الغرض من معلومات المحتوى وجهة الاتصال](media/Address-Contact.PNG)
+    ![الغرض من معلومات المحتوى وجهة الاتصال.](media/Address-Contact.PNG)
 
 -  أضفها إلى ملحق تعداد **LogisticsLocationRoleType**، وانشرها خلال عملية مزامنة قاعدة البيانات.
 
     1.  قم بإنشاء ملحق لتعداد **LogisticsLocationRoleType** وأضف الدور الجديد في الامتداد. 
   
-        ![توسيع لتعداد LogisticsLocationRoleType](media/Logistics.PNG)
+        ![توسيع لتعداد LogisticsLocationRoleType.](media/Logistics.PNG)
 
     2. قم بإنشاء ملف مورد للدور الجديد، ثم قم بتعيين قيمة للخصائص.
      
-     ![ملف مورد جديد](media/Resource.PNG)
+     ![ملف مورد جديد.](media/Resource.PNG)
         
     3.  قم بإنشاء فئة لنشر البيانات واستخدم طريقة المعالج لنشر الدور الجديد. 
 
-        ![نشر البيانات](media/Dirdata.PNG)
+        ![نشر البيانات.](media/Dirdata.PNG)
 
     4.  لاختبار ملء دور الموقع الجديد، يمكنك إنشاء فئة قابلة للتشغيل، واستدعاء DirDataPopulation::insertLogisticsLocationRoles() في Main(). بعد إكمال هذه العملية، فإنه ينبغي عليك رؤية الدور الجديد المنشور في الجدول **LogisticsLocationRole** من نوع \> 0. سيتم عرض الدور الجديد على **‏‫الغرض من معلومات العنوان وجهة الاتصال‬**.
 
-        ![إدراج موقع جديد](media/InsertNewLocation.PNG)
+        ![إدراج موقع جديد.](media/InsertNewLocation.PNG)
 
 ## <a name="add-party-relationship-types"></a>إضافة أنواع علاقات الأطراف 
 
@@ -61,7 +58,7 @@ ms.locfileid: "4439977"
 
 -   إضافتها خلال الصفحة **أنواع العلاقات**. سيتم حفظ العلاقة الجديدة على **DirRelationshipTypeTable** باستخدام systemtype = 0.
 
-    ![أنواع العلاقات](media/Relationship.PNG)
+    ![أنواع العلاقات.](media/Relationship.PNG)
 
 -  إضافتها في ملحق تعداد **DirSystemRelationshipType**، ونشرها خلال عملية مزامنة قاعدة البيانات.
 
@@ -69,8 +66,11 @@ ms.locfileid: "4439977"
 
     2. قم بإنشاء مهيئ لهذا النوع الجديد. يمكنك العثور على أمثلة متعددة في الكود الأساسي، أحدها هو **DirRelationshipTypeChildInitialize**. إنها فئة مهيئ لنوع علاقة طرف "تابع". يمكنك البدء بالمهيئ الخاص بك عن طريق نسخ ولصق هذا الكود ثم قم بتحديث المناطق المميزة.
     
-    ![مهايئ DirRelationshipChild](media/DirRelationship.PNG)
+    ![مهايئ DirRelationshipChild.](media/DirRelationship.PNG)
 
     3.  لاختبار ملء نوع العلاقة الجديد، يمكنك إنشاء فئة قابلة للتشغيل، واستدعاء DirDataPopulation::insertDirRelationshipTypes() في Main(). ينبغي عليك رؤية نوع العلاقة الجديد في **DirRelationshipTypeTable**، ثم سيتوافر نوع العلاقة الجديد على صفحة **أنواع العلاقات**.
 
-        ![فئة قابلة للتشغيل](media/Runnable.PNG)
+        ![فئة قابلة للتشغيل.](media/Runnable.PNG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

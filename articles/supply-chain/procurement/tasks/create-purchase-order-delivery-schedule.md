@@ -1,27 +1,24 @@
 ---
 title: إنشاء أمر شراء مع جدول تسليم
 description: يُوضح هذا الموضوع كيفية إنشاء جدول تسليم لأمر شراء.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 670870df1b0fcd86a0f04ce454e6ef84187187b8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421765"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566901"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>إنشاء أمر شراء مع جدول تسليم
 
@@ -74,3 +71,6 @@ ms.locfileid: "4421765"
 6. قم بطي قسم **البنود**.
 7. انقر فوق **موافق** لترحيل إيصال الاستلام.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

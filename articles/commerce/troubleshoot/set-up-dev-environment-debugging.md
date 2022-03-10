@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ef286aa28ff459befb72b0178f308e5fb85ec44
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0f5586112d168f8fa84f97d110403b0bec82e5cca4e963a92f1c283a17c972ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715298"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>إعداد بيئة تطوير التجارة الإلكترونية للتصحيح مقابل الجهاز الظاهري لملقم البيع بالتجزئة من المستوى الأول 1
 
@@ -39,13 +38,13 @@ ms.locfileid: "5801473"
 
 يبين الرسم التوضيحي التالي مثالا للخطأ الذي قد يحدث عند تحديد متغير في صفحة تفاصيل المنتج.
 
-![حدث خطأ عند تحديد متغير في إحدى صفحات تفاصيل المنتج](media/unhandled-rejection-error.jpg)
+![حدث خطأ عند تحديد متغير في إحدى صفحات تفاصيل المنتج.](media/unhandled-rejection-error.jpg)
 
 يبين الرسم التوضيحي التالي مثالا لخطأ مشابه في أدوات مصحح أخطاء المستعرض (أدوات المطور F12). تذكر رسالة الخطأ مخالفة توجيه نهج أمان المحتوى.
 
-![خطأ في أدوات مصحح الأخطاء](media/debugger-tools-error.JPG)
+![خطأ في أدوات مصحح الأخطاء.](media/debugger-tools-error.JPG)
 
-## <a name="resolution"></a>الدقة
+## <a name="resolution"></a>الحل
 
 ### <a name="disable-the-content-security-policy-for-the-site-in-commerce-site-builder"></a>تعطيل نهج أمان المحتوى للموقع في منشئ مواقع Commerce
 

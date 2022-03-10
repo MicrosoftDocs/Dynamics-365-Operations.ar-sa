@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2112c87912a1d130017c5804c4193b62c1e5a476be79bfd485640ec98b42f77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730889"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967940"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>مزامنة تقييمات المنتجات في Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 يوضح هذا الموضوع كيفية مزامنة تقييمات المنتجات في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 لاستهلاك تقييمات المنتجات في النقاط متعددة الاتجاهات، كما هو الحال في نقطة البيع (POS) وفي مراكز الاتصال، فإنه يجب استيراد تقييمات المنتجات من خدمة التقييمات والمراجعات إلى قاعدة بيانات قناة Commerce. عندما تتوفر تقييمات المنتجات في نقاط متعددة الاتجاهات، فإنها يمكن أن تساعد العملاء بشكل غير مباشر أثناء التفاعلات مع شركاء المبيعات.
 
@@ -132,6 +130,16 @@ ms.locfileid: "6730889"
 [إدارة التقييمات والمراجعات](manage-reviews.md)
 
 [تكوين التقييمات والمراجعات](configure-ratings-reviews.md)
+
+[مزامنة تقييمات المنتجات](sync-product-ratings.md)
+
+[تمكين النشر اليدوي لتقييمات ومراجعات بواسطة المشرف](manual-publish-rating-reviews.md)
+
+[استيراد التقييمات والمراجعات وتصديرها](import-export-reviews.md)
+
+[تكوين مصادقة من خدمة إلى خدمة](service-to-service-auth.md)
+
+[الأسئلة المتداولة حول التقييمات والمراجعات](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

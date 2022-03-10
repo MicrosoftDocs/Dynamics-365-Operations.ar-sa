@@ -2,7 +2,7 @@
 title: تكوين رؤية المخزون
 description: يصف هذا الموضوع كيفية تكوين رؤية المخزون.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474666"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060991"
 ---
 # <a name="configure-inventory-visibility"></a>تكوين رؤية المخزون
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 يوضح هذا الموضوع كيفية تكوين رؤية المخزون باستخدام تطبيق رؤية المخزون في Power Apps.
 
@@ -58,10 +58,10 @@ ms.locfileid: "7474666"
 
 ## <a name="data-source-configuration"></a>تكوين مصدر البيانات
 
-يمثل كل مصدر بيانات نظامًا تأتي منه بياناتك. ويتضمن مثال أسماء مصادر البيانات `fno` (وهو ما يعني "تطبيقات Dynamics 365 Finance and Operations") و`pos` (وتعني "نقطة البيع"). افتراضيًا، يتم إعداد Supply Chain Management كمصدر بيانات افتراضي ( `fno`) في رؤية المخزون.
+يمثل كل مصدر بيانات نظامًا تأتي منه بياناتك. ويتضمن مثال أسماء مصادر البيانات `fno` (الذي يعني تطبيقات "التمويل والعمليات في Dynamics 365") و`pos` (الذي يعني "نقطة البيع"). افتراضيًا، يتم إعداد Supply Chain Management كمصدر بيانات افتراضي ( `fno`) في رؤية المخزون.
 
 > [!NOTE]
-> مصدر بيانات `fno` محجوز لـ Dynamics 365 Supply Chain Management.
+> مصدر بيانات `fno` محجوز لـ Supply Chain Management. إذا كانت الوظيفة الاضافيه لرؤية المخزون متكاملة مع بيئة Supply Chain Management، فاننا نوصي بعدم حذف التكوينات المرتبطة بـ `fno` في مصدر البيانات.
 
 لإضافة مصدر بيانات، اتبع هذه الخطوات.
 
@@ -273,17 +273,17 @@ ms.locfileid: "7474666"
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>تكوين التقسيم
 
-يتكون تكوين القسم من مجموعة من الأبعاد الأساسية. وهو يحدد نمط توزيع البيانات. تدعم عمليات البيانات في نفس القسم الأداء العالي ولا تكلف الكثير. لذلك، يمكن أن تساهم أنماط التقسيم الجيدة في فوائد كبيرة.
-
-توفر رؤية المخزون تكوين القسم الافتراضي التالي.
+يتكون تكوين القسم حاليًا من بعدين أساسيين (`SiteId` و`LocationId`) اللذين يشيران إلى كيفية توزيع البيانات. يمكن للعمليات التي تتم تحت نفس القسم تقديم أداء أعلى بتكلفة أقل. يعرض الجدول التالي تكوين القسم الافتراضي الذي توفره الوظيفة الإضافية رؤية المخزون.
 
 | البُعد الأساسي | التدرج الهرمي |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> تكوين القسم الافتراضي هو للرجوع إليه فقط. ليس عليك تعريفها في "رؤية المخزون". حاليا، ترقية تكوين القسم غير مدعومة.
+يتضمن الحل تكوين هذا القسم بشكل افتراضي. لذلك، *لا يتعين عليك تحديده بنفسك*.
+
+> [!IMPORTANT]
+> لا تقم بتخصيص تكوين القسم الافتراضي. إذا قمت بحذفه أو تغييره، فمن المحتمل ان تتسبب في حدوث خطا غير متوقع.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>تكوين التسلسل الهرمي لمؤشر المنتج
 
@@ -366,16 +366,12 @@ ms.locfileid: "7474666"
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>تكوين الحجز (اختياري)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 يلزم تكوين الحجز إذا كنت ترغب في استخدام ميزة الحجز الناعمة. يتكون التكوين من جزأين أساسيين:
 
 - تعيين حجز مرن
 - تدرج هرمي للحجز المرن
 
 ### <a name="soft-reservation-mapping"></a>تعيين حجز مرن
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 عند إجراء الحجز، قد ترغب في معرفة ما إذا كان المخزون الفعلي متاحا حاليا للحجز. يتم ربط التحقق من الصحة إلى مقياس محسوب يمثل صيغة حساب مجموعة من التدابير الفعلية.
 
@@ -446,8 +442,6 @@ ms.locfileid: "7474666"
 > عند استدعاء API للحجز، يمكنك التحكم في التحقق من صحة الحجز عن طريق تحديد المعلمة المنطقية `ifCheckAvailForReserv` في النص الأساسي للطلب. تعني القيمة `True` أن التحقق من الصحة مطلوب، بينما تعني القيمة `False` أن التحقق من الصحة غير مطلوب. القيمة الافتراضية هي `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>تدرج هرمي للحجز المرن
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 يصف التسلسل الهرمي للحجز تسلسل الأبعاد التي يجب تحديدها عند إجراء الحجوزات. إنه يعمل بنفس الطريقة التي يعمل بها التسلسل الهرمي لفهرس المنتج للاستعلامات الفعلية.
 
@@ -747,8 +741,6 @@ ms.locfileid: "7474666"
 يصف هذا القسم تكوين الحجز الافتراضي.
 
 #### <a name="reservation-mapping"></a>تعيين الحجز
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 يعرض الجدول التالي تعيين الحجز الافتراضي.
 

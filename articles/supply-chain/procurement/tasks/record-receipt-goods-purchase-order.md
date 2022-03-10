@@ -1,27 +1,24 @@
 ---
 title: تسجيل استلام البضائع في أمر الشراء
 description: يوضح هذا الموضوع كيفية تسجيل استلام البضائع مباشرة على أمر شراء.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ec37082ffa7816d1b07cadc595eec6e8373920a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4421796"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565317"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>تسجيل استلام البضائع في أمر الشراء
 
@@ -49,3 +46,6 @@ ms.locfileid: "4421796"
 6. تعيين **الكمية** إلى "4". هنا يمكنك أن تحدد يدويًا الكمية التي يتم استلامها لكل بند في الأمر.  
 7. حدد **موافق**. تم الآن تسجيل البضائع على أنها مستلمة على أمر إرجاع الشراء، وتم إنشاء دفتر يومية إيصال استلام المنتجات كمستند لإظهار هذا الأمر. يمكنك استخدام إجراء إيصال استلام المنتجات لمراجعة دفاتر اليومية التي تم إنشاؤها مع أمر الشراء، والاطلاع على المنتجات التي تم استلامها وتاريخ الاستلام.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,7 +3,6 @@ title: 'وظيفة GETENUMVALUEBYNAME ER '
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكتروني GETENUMVALUEBYNAME (ER).
 author: NickSelin
 ms.date: 09/23/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 03759852e5ceb13b79b0df4592bdcef76eb0a82865725c00df40b9cc5f786240
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774427"
 ---
 # <a name="getenumvaluebyname-er-function"></a>وظيفة GETENUMVALUEBYNAME ER
 
@@ -62,7 +61,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 في الرسم التوضيحي التالي، يتم تقديم تعداد **ReportDirection** في نموذج بيانات. لاحظ أنه يتم تحديد التسميات لقيم التعداد.
 
-![القيم المتوفرة لقائمة تعداد نموذج البيانات](./media/ER-data-model-enumeration-values.PNG)
+![القيم المتوفرة لقائمة تعداد نموذج البيانات.](./media/ER-data-model-enumeration-values.PNG)
 
 يبين الرسم التوضيحي التالي هذه التفاصيل:
 
@@ -70,7 +69,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 - تم تصميم التعبير `$IsArrivals` ليستخدم مصدر بيانات **$Direction** المستند إلى تعداد النموذج تعداد النموذج كمعلمة لهذه الوظيفة.
 - قيمة تعبير المقارنة هذا هي **TRUE**.
 
-![مثال عن تعداد نموذج بيانات](./media/ER-data-model-enumeration-usage.PNG)
+![مثال عن تعداد نموذج بيانات.](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>مثال2
 
@@ -78,14 +77,14 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 في الرسم التوضيحي التالي، يتم تقديم مصدر البيانات **TransType** في تعيين نموذج. يُشير مصدر البيانات هذا إلى تعداد تطبيق **LedgerTransType**.
 
-![مصدر بيانات لتعيين النموذج الذي يشير إلى تعداد التطبيق](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![مصدر بيانات لتعيين النموذج الذي يشير إلى تعداد التطبيق.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 يبين الرسم التوضيحي التالي مصدر البيانات **TransTypeList** المكوّن في تعيين نموذج. يتم تكوين مصدر البيانات هذا استنادًا إلى تعداد تطبيق **TransType**. تُستخدم الدالة `LISTOFFIELDS` لإرجاع كافة قيم التعداد كقائمة سجلات تحتوي على حقول. بهذه الطريقة، يتم عرض تفاصيل كل قيمة من قيم التعداد.
 
 > [!NOTE]
 > تم تكوين الحقل **EnumValue** لمصدر البيانات **TransTypeList** باستخدام التعبير `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`. يرجع هذا الحقل قيمة التعداد لكل سجل في هذه القائمة.
 
-![مصدر بيانات لتعيين النموذج الذي يرجع كافة قيم التعداد لتعداد محدد كقائمة بالسجلات](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![مصدر بيانات لتعيين النموذج الذي يرجع كافة قيم التعداد لتعداد محدد كقائمة بالسجلات.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 يبين الرسم التوضيحي التالي مصدر البيانات **VendTrans** المكوّن في تعيين نموذج. يقوم مصدر البيانات هذا بإرجاع سجلات حركات المورّد من جدول تطبيق **VendTrans**. يتم تحديد نوع دفتر الأستاذ لكل حركة بواسطة قيمة الحقل **TransType**.
 
@@ -94,11 +93,11 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 >
 > يرتبط الحقل **TransTypeTitle** بحقل **LedgerType** لنموذج بيانات يمكّن استخدام هذه المعلومات في كل تنسيقات التقارير الإلكترونية التي تستخدم نموذج البيانات كمصدر بيانات.
 
-![مصدر بيانات لتعيين النموذج الذي يُرجع حركات المورّد](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![مصدر بيانات لتعيين النموذج الذي يُرجع حركات المورّد.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 يبين الرسم التوضيحي التالي كيف يمكنك استخدام [مصحح أخطاء مصدر البيانات](er-debug-data-sources.md) لاختبار تعيين النموذج المكوّن.
 
-![استخدام مصحح أخطاء مصدر البيانات لاختبار تعيين النموذج المكوّن](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![استخدام مصحح أخطاء مصدر البيانات لاختبار تعيين النموذج المكوّن.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 يعرض حقل **LedgerType** لنموذج بيانات تسمية أنواع الحركات كما هو متوقع.
 

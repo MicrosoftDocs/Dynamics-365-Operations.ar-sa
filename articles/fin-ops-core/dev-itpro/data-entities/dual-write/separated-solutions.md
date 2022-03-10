@@ -10,30 +10,30 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924861"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063252"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>حزمة تنسيق تطبيق الكتابة المزدوجة المنفصلة
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 في السابق، كانت حزمة تنسيق تطبيق الكتابة المزدوجة عبارة عن حزمة واحدة تحتوي على الحلول التالية:
 
 - ملاحظات حول Dynamics 365
-- نقطة الارتساء العامة لـ Dynamics 365 Finance and Operations
-- خرائط كيان الكتابة المزدوجة في Dynamics 365 Finance and Operations
+- نقطة الارتساء العامة لتطبيقات التمويل والعمليات في Dynamics 365
+- خرائط كيانات الكتابة المزدوجة في تطبيقات التمويل والعمليات في Dynamics 365
 - تطبيق إدارة أصول Dynamics 365
 - إدارة أصول Dynamics 365
 - عام HCM
 - سلسلة توريد Dynamics 365 الموسعة
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations عام
+- النقطة العامة لتطبيقات التمويل والعمليات في Dynamics 365
 - شركة Dynamics 365
 - أسعار صرف العملات
 - Field Service Common
@@ -51,7 +51,7 @@ ms.locfileid: "7924861"
 | اسم فريد                           | الاسم المعروض                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | شركة Dynamics 365                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations عام |
+| Dynamics365FinanceAndOperationsCommon | النقطة العامة لتطبيقات التمويل والعمليات في Dynamics 365 |
 | CurrencyExchangeRates                 | أسعار صرف العملات                    |
 | msdyn_DualWriteAppCoreMaps            | خرائط الكيانات الأساسية لتطبيقات الكتابة المزدوجة   |
 | msdyn_DualWriteAppCoreAnchor          | نقطة الارتساء الأساسية لتطبيقات الكتابة المزدوجة        |
