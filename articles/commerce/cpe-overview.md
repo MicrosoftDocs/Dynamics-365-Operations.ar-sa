@@ -2,27 +2,23 @@
 title: نظرة عامة على بيئة تقييم Dynamics 365 Commerce
 description: يقدم هذا الموضوع نظرة عامة على بيئة تقييم Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 07/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
+ms.reviewer: josaw
 ms.assetid: ''
 ms.search.region: Global
-ms.author: v-chgri
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 35cd06070ff73af1c97706bb1cdb67045715d458
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409786"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982629"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>نظرة عامة على بيئة تقييم Dynamics 365 Commerce
 
@@ -32,8 +28,6 @@ ms.locfileid: "4409786"
 
 > [!NOTE]
 > لا تتوفر بيئات تقييم Commerce بشكل عام، ويتم منحها للشركاء والعملاء على أساس كل طلب. لمزيد من المعلومات، اتصل بجهة اتصال شريك Microsoft.
-
-## <a name="overview"></a>نظرة عامة
 
 بيئة تقييم Commerce هي بيئة اختيارية شاملة لـ Dynamics 365 Commerce تتيح للشركاء والعملاء المحتملين تجربة منتج Commerce.
 
@@ -64,3 +58,6 @@ ms.locfileid: "4409786"
 [تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce](cpe-optional-features.md)
 
 [الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: استيفاء اتفاقيات البيع
 description: يوضح هذا الإجراء كيفية تنفيذ اتفاقية بيع عن طريق إقران أوامر المبيعات بها.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesTableListPage, SalesTable, AgreementLine, SalesCreateOrder,  SalesEditLines, SalesAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fca2f8777f5ce3b6a96be7fcab4f011aefd9d80b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fe26d528e42da61d47fd2448e071bf9025c08f5d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991745"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573383"
 ---
 # <a name="fulfill-sales-agreements"></a>استيفاء اتفاقيات البيع
 
@@ -89,3 +87,6 @@ ms.locfileid: "4991745"
 23. انقر فوق "اتفاقية البيع المرفقة".
 24. انقر فوق علامة التبويب "التنفيذ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

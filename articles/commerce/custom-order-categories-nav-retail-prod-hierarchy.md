@@ -2,11 +2,9 @@
 title: تغيير ترتيب الفرز لكيانات الترويج للبضائع
 description: يشرح هذا الموضوع المفاهيم المرتبطة بالتحكم في ترتيب عرض كيانات مختلفة المرتبطة بالترويج للبضائع في Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
@@ -14,20 +12,20 @@ ms.reviewer: josaw
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 67807c53a6ffc6dd09cc6f0e48218e2ee2de559f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207765"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779532"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>تغيير ترتيب الفرز لكيانات الترويج للبضائع
 
 
-[!include [banner](includes/banner.md)]
+[!Include [banner](includes/banner.md)]
 
 يعتبر اكتشاف المنتجات بالنسبة إلى بائعي التجزئة أداة أساسية لتفاعلات العملاء عبر جميع القنوات. بإمكان وظائف مختلفة أن تساعد العملاء على اكتشاف المنتجات بسهوله. على سبيل المثال، يمكنهم استعراض الفئات والبحث والتصفية.
 
@@ -53,9 +51,9 @@ ms.locfileid: "5207765"
 
 سيظهر ترتيب عرض التدرج الهرمي للتنقل في القناة في المقر الرئيسي للتدرج الهرمي للمنتجات التجارية والمنتجات الصادرة حسب الفئة.
 
-![تم فرز التدرج الهرمي للمنتجات بطريقة مخصصة بقيم سالبة](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![تدرج هرمي للمنتجات تم فرزه بطريقة مخصصة بقيم سالبة.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![تم فرز المنتجات الصادرة حسب الفئة بطريقة مخصصة استنادًا إلى التدرج الهرمي للمنتجات](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![المنتجات الصادرة حسب الفئة تم فرزها بطريقة مخصصة استنادًا إلى التدرج الهرمي للمنتجات.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>تكوين ترتيب العرض للفئات في التدرج الهرمي للتنقل في القناة
 
@@ -79,14 +77,14 @@ ms.locfileid: "5207765"
 
 يظهر ترتيب عرض التدرج الهرمي للتنقل في القناة في المقر الرئيسي والكتالوج والقنوات.
 
-![تدرج الهرمي للتنقل في القناة تم فرزه بشكل مخصص](./media/ChannelNavCustomSorted.png)
+![تدرج الهرمي للتنقل في القناة تم فرزه بشكل مخصص.](./media/ChannelNavCustomSorted.png)
 
-![تدرج الهرمي للتنقل في الكتالوج تم فرزه بشكل مخصص استنادًا إلى التدرج الهرمي للتنقل في القناة](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![تدرج الهرمي للتنقل في الكتالوج تم فرزه بشكل مخصص استنادًا إلى التدرج الهرمي للتنقل في القناة.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![نقطة بيع مع فئات تم فرزها بشكل مخصص](./media/POSChannelCategoriesCustomSorted.png)
+![نقطة بيع مع فئات تم فرزها بشكل مخصص.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> بشكل افتراضي، تكون ميزة ترتيب الفرز المخصص متوقفة عن التشغيل. لمعرفة كيفية تشغيل هذه الميزة وميزات أخرى، راجع [إدارة الميزات](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+> بشكل افتراضي، تكون ميزة ترتيب الفرز المخصص متوقفة عن التشغيل. لمعرفة كيفية تشغيل هذه الميزة وميزات أخرى، راجع [إدارة الميزات](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

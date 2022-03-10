@@ -2,11 +2,9 @@
 title: الفرز الصادر
 description: يوفر هذا الموضوع معلومات حول الفرز الخارجي. تسهل هذه الوظيفة معالجة الحاويات الصغيرة، وتساعد موظفي المستودع على تخطيط قدرة البالتات وتنظيمها في الشاحنة بشكل أفضل.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 44807e8d9915652c1c9d365de47d594a0c4f90e5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 004224090d8244028b6df7f32e1853ad60371cea
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225945"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575185"
 ---
 # <a name="outbound-sorting"></a>الفرز الصادر
 

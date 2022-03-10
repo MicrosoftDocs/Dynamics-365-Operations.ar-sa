@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712702"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>وجهة الطابعة
 
@@ -39,7 +39,7 @@ ms.locfileid: "5893994"
 1. تحويل المستندات الصادرة للتقارير الإلكترونية من تنسيقات Microsoft Office إلى PDF
 2. عامل توجيه المستندات كوجهة إعداد التقارير الإلكترونية للمستندات الصادرة
 
-[![تشغيل ميزة وجهة طابعة إعداد التقارير الإلكترونية في إدارة الميزات](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![تشغيل ميزة وجهة طابعة إعداد التقارير الإلكترونية في إدارة الميزات.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>إمكانية التطبيق
 
@@ -55,7 +55,7 @@ ms.locfileid: "5893994"
 2. في الحقل **اسم الطابعة**، حدد طابعة الشبكة المطلوبة.
 3. عيِّن الخيار **هل تريد الحفظ في أرشيف الطباعة؟** على **نعم** لتخزين المخرجات المنشأة في أرشيف الطباعة، بحيث يكون متوفرًا لمزيد من عمليات الطباعة. للوصول إلى المخرجات المؤرشفة لاحقًا، انتقل إلى **إدارة المؤسسة**\>**‏‫الاستعلامات والتقارير‬**\>**أرشيف التقارير**.
 
-[![استخدام وجهة الطابعة](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![استخدام وجهة الطابعة.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > لا يلزم تشغيل خيار **لتحويل إلى PDF‬** عند تكوين وجهة **الطابعة**. سيتم التحويل إلى PDF لأغراض الطباعة حتى في حالة إيقاف تشغيل الخيار.

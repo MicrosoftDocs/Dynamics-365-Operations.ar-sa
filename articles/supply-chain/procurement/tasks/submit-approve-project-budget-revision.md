@@ -1,28 +1,25 @@
 ---
 title: إرسال واعتماد مراجعة موازنة المشروع
 description: يوفر هذا الإجراء معلومات حول مراجعة موازنة المشروع.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3061084222c0b23c657973205c9c3e7002cdeeb2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 089c235ac60ce9712da92e445a9c811424f80d00
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421304"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576990"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>إرسال واعتماد مراجعة موازنة المشروع
 
@@ -46,3 +43,6 @@ ms.locfileid: "4421304"
 12. في الحقل "التعليق"، اكتب قيمة.
 13. انقر فوق تقديم.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

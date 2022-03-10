@@ -1,27 +1,25 @@
 ---
 title: توزيع المنتجات من المستودع المستلم حتى المتاجر
 description: يتناول هذا الإجراء الخطوات اللازمة لإنشاء ومعالجة ‏‫توزيع البضائع‬ لتوزيع المنتجات من موقع استلام أمر الشراء إلى متجر واحد أو أكثر.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 02/17/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPushPerPackage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 650eb648f919169a3e70b72e9f619affdf4514f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e65535a1879eab229f185e0e97d81a304fd292d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238956"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572951"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>توزيع المنتجات من المستودع المستلم حتى المتاجر
 

@@ -1,8 +1,8 @@
 ---
-title: معالجة أهلية التسجيل‬
-description: يوضح هذا المقال كيفية تشغيل معالجة أهلية التسجيل.
-author: andreabichsel
-ms.date: 04/06/2020
+title: معالجة أهلية التسجيل
+description: يوضح هذا الموضوع كيفية تشغيل معالجة أهلية التسجيل.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4dd63e755f0afdbce411b3001410d2e56036e432
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054250"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067619"
 ---
-# <a name="process-enrollment-eligibility"></a>معالجة أهلية التسجيل‬
+# <a name="process-enrollment-eligibility"></a>معالجة أهلية التسجيل
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوضح هذا المقال كيفية تشغيل معالجة أهلية التسجيل.
+يوضح هذا الموضوع كيفية تشغيل معالجة أهلية التسجيل.
 
 1. في مساحة العمل **إدارة المزايا**، ضمن **معالجة**، حدد **معالجة أهلية التسجيل**.
 
@@ -53,13 +56,13 @@ ms.locfileid: "6054250"
 
 ## <a name="view-process-results"></a>عرض نتائج العملية
 
-يوضح هذا المقال كيفية عرض نتائج عملية التأهل.
+يوضح هذا الموضوع كيفية عرض نتائج عملية التأهل.
 
 1.  في مساحة العمل **إدارة المزايا**، ضمن **معالجة**، حدد **نتائج العملية**.
 
-2.  في النموذج **نتائج العملية**، يتم تحديد الحقول التالية:
+2.  في صفحة **نتائج العملية**، يتم تحديد الحقول التالية:
 
-   | الحقل | ‏‏الوصف |
+   | الحقل | الوصف |
    | --- | --- |
    | **معرف العملية** | المعرف الفريد لمجموعة العامل والكيان القانوني وتشغيل العملية. |
    | **نوع العملية** | وهذا يحدد العملية التي تم تشغيلها. على سبيل المثال، التسجيل. |

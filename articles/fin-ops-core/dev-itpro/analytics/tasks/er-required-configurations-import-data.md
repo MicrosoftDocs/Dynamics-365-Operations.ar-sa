@@ -1,12 +1,10 @@
 ---
 title: التقارير الإلكترونية - إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي
-description: تشرح الخطوات التالية كيف يستطيع المستخدم الذي يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوينات تقارير إلكترونية لاستيراد البيانات إلى تطبيق Microsoft Dynamics 365 Finance من ملف خارجي.
+description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات إلى تطبيق Microsoft Dynamics 365 Finance من ملف خارجي.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
@@ -15,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720846"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>التقارير الإلكترونية - إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي
 
 [!include [banner](../../includes/banner.md)]
 
-تشرح الخطوات التالية كيف يستطيع المستخدم الذي يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوينات تقارير إلكترونية لاستيراد البيانات إلى التطبيق من ملف خارجي. في هذا المثال، سوف تنشئ تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية Litware, Inc. لإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات الموجودة في دليل المهام "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط"‬. يمكن إتمام هذه الخطوات باستخدام مجموعة بيانات USMF. يجب أيضًا تنزيل الملفات التالية وحفظها محليًا باستخدام الارتباطات من الموضوع "نظرة عامة حول التقارير الإلكترونية‬‏‫" (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+تشرح الخطوات التالية كيف يستطيع المستخدم الذي يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تكوينات تقارير إلكترونية لاستيراد البيانات إلى التطبيق من ملف خارجي. في هذا المثال، سوف تنشئ تكوينات التقارير الإلكترونية المطلوبة للشركة النموذجية Litware, Inc. لإكمال هذه الخطوات، يجب عليك أولاً إكمال الخطوات الموجودة في دليل المهام "التقارير الإلكترونية - إنشاء موفر تكوين ووضع علامة عليه على أنه نشط"‬. يمكن إتمام هذه الخطوات باستخدام مجموعة بيانات USMF. يجب عليك أيضًا تنزيل الملفات التالية وحفظها محليًا: 
+
+| وصف المحتوى                       | اسم الملف                                     |
+|-------------------------------------------|-----------------------------------------------|
+| تكوين نموذج بيانات التقارير الإلكترونية - 1099 | [1099model,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| تنسيق تكوين ER - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| عينة من المستند الوارد بتنسيق XML                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| نموذج من المصنف لإدارة بيانات المستند الوارد                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 توفر التقارير الإلكترونية لمستخدمي الأعمال القدرة على تكوين عملية استيراد ملفات بيانات خارجية إلى جداول سواء بتنسيق XML. أو بتنسيق TXT. أولاً، يجب تصميم نموذج بيانات مجردة وتكوين نموذج بيانات تقارير إلكترونية لتمثيل البيانات التي تقوم أنت باستيرادها. وبعد ذلك، تحتاج إلى تعريف بنية الملف الذي تقوم باستيراده والأسلوب الذي ستستخدمه لنقل البيانات من الملف إلى نموذج البيانات المجردة. يجب إنشاء تكوين تنسيق التقارير الإلكترونية الذي يتم تعيينه إلى نموذج البيانات المصمم لنموذج البيانات المجردة هذا. وبعد ذلك، يجب توسيع تكوين نموذج البيانات بواسطة تعيين يصف كيف يستمر وجود البيانات المستوردة كبيانات نموذج بيانات مجردة وكيفية استخدامها لتحديث الجداول.  يجب إلحاق تكوين نموذج بيانات التقارير الإلكترونية بتعيين نموذج جديد يصف عملية ربط نموذج البيانات بوجهات التطبيق.  
 
@@ -254,3 +259,6 @@ ms.locfileid: "4684259"
 27. قم بإغلاق الصفحة.
 28. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

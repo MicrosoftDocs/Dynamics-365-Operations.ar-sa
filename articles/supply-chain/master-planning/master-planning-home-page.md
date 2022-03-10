@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15fbab7d0260ed714edfbbb5ef54caddb69cae3c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7dd25fdd1549fb2fddff57dc2d9cf8762cfd6823
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359995"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416517"
 ---
 # <a name="master-planning-home-page"></a>الصفحة الرئيسية للتخطيط الرئيسي
 
@@ -70,7 +70,7 @@ ms.locfileid: "6359995"
 
 ### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار ومعلومات أخرى حول التخطيط الرئيسي بالإضافة إلى حلول أخرى في [مدونة فريق بحث وتطوير Dynamics AX Manufacturing](/archive/blogs/axmfg/) و[إدارة سلسلة التوريد في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول التخطيط الرئيسي بالإضافة إلى حلول أخرى في [مدونة فريق بحث وتطوير Dynamics AX Manufacturing](/archive/blogs/axmfg/) و[Supply Chain Management في مدونة فريق بحث وتطوير Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>دلائل المهام
 
@@ -84,7 +84,7 @@ ms.locfileid: "6359995"
 
 - [توسيع وظيفة التنبؤ بالطلب](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 - [التخطيط الرئيسي - تلميحات ونصائح حول استكشاف أخطاء الأداء وإصلاحها](https://youtu.be/7v8BPmEs9Dg)
-- [التعليمات! تخطيط متطلبات المواد بطيء!](https://youtu.be/RLXybx20B5o)
+- [ضبط أداء MRP](https://youtu.be/RLXybx20B5o)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

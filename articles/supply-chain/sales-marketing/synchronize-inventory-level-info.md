@@ -1,7 +1,7 @@
 ---
 title: مزامنة معلومات مستوى المخزون من Supply Chain Management إلى Field Service
 description: يناقش هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات المعلومات على مستوى المخزون من Dynamics 365 Supply Chain Management إلى Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
@@ -13,25 +13,25 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 15466699b94c284208330d50b840c874534b879c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910259"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060935"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>مزامنة معلومات مستوى المخزون من Supply Chain Management إلى Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يناقش هذا الموضوع القوالب والمهمة الأساسية التي يتم استخدامها لمزامنة المنتجات المعلومات على مستوى المخزون من Dynamics 365 Supply Chain Management إلى Dynamics 365 Field Service.
 
-[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![مزامنة عمليات الأعمال بين Supply Chain Management وField Service.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>القوالب والمهام
 يتم استخدام القوالب والمهام الأساسية التالية لمزامنة مستويات المخزون الفعلي من Supply Chain Management إلى Field Service.
@@ -89,7 +89,7 @@ ms.locfileid: "5910259"
 
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>مخزون المنتج (Supply Chain Management إلى Field Service): مخزون المنتج
 
-[![تعيين القالب في تكامل البيانات](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+[![تعيين القالب في تكامل البيانات.](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

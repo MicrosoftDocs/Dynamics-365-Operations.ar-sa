@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 442a5f5b321833c170cfecc4069e62a1254605cd
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270470"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103079"
 ---
 # <a name="predefined-product-variants"></a>متغيرات المنتج المعرفة مسبقًا
 
@@ -84,12 +84,9 @@ ms.locfileid: "6270470"
 - **تأجيل إنشاء اقتراحات المتغيرات:** لم تعد صفحة **اقتراحات المتغيرات** تعرض الاقتراحات عند فتحها لأول مرة. بدلاً من ذلك ، يجب أن تختار صراحة القيم التي ستحتاج إليها ثم تحدد زر **اقتراح** لإنشاء التركيبات. هذا يجعل العملية أكثر وضوحا وتفاعلية.
 - **تحديد قيم الأبعاد:** عندما يكون لديك العديد من قيم الأبعاد ، فأنت مهتم عادةً بإنشاء اقتراحات متغيرات تتضمن القليل منها فقط (على سبيل المثال عند تقديم مجموعة جديدة من الألوان أو الأنماط). باستخدام التصميم المحسّن ، يمكنك تحديد قيم الأبعاد التي تريد إنشاء اقتراحات متغيرات المنتج لها. هذا يزيد بشكل كبير من أهمية المتغيرات المقترحة ويحسن أداء النظام وإنتاجية المستخدم.
 
-### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a>تشغيل ميزة تحسينات صفحة اقتراحات المتغيرات
+### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>تشغيل ميزة تحسينات صفحة اقتراحات المتغيرات أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام ميزة *تحسينات صفحة اقتراحات المتغيرات*، يجب تشغيلها في النظام الخاص بك. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة النمطية** *إدارة معلومات المنتج*
-- **اسم الميزة:** *تحسينات صفحة اقتراحات المتغيرات*
+اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *تحسينات صفحة اقتراحات المتغيرات‬* في مساحة عمل [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>العمل مع اقتراحات المتغيرات المحسنة
 

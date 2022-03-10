@@ -8,15 +8,15 @@ ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWa
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: caba37d3e7bb5d2f08a8c10ff0f0e1bc886e5648
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102748"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572327"
 ---
 # <a name="reprint-and-void-wave-labels"></a>إعادة الطباعة وإلغاء تسميات الموجات
 

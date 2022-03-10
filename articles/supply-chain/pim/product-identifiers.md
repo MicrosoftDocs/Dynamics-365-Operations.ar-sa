@@ -1,7 +1,7 @@
 ---
 title: معرّفات المنتجات
 description: يشتمل هذا الموضوع على معلومات حول الأنواع المختلفة لمعرفات المنتجات ويوضح الكيفية التي يمكنك به إضافة معرفات المنتجات في بيانات المنتج.
-author: cvocph
+author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
@@ -13,19 +13,19 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 1e706e184f0bdf3a44e69640a85a15d9cd3d0fb2ae097d6605a9a401d6da9051
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746953"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063331"
 ---
 # <a name="product-identifiers"></a>معرّفات المنتجات
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "6746953"
 
 في معظم الحالات، لا يتم إنشاء رقم المنتج أصلاً في Dynamics 365 Supply Chain Management. بدلاً من ذلك، يتم إقرانه بمنتج في نظام إدارة دورة حياة منتج (PLM) أو نظام إدارة بيانات منتج (PDM). في هذه الحالة، يمكنك استخدام كيانات البيانات لاستيراد المنتجات ومتغيرات المنتجات. عندئذ تستخدم Supply Chain Management الأرقام الموجودة في كافة العمليات.
 
-عند استخدامك Supply Chain Management، يجب أن تُولي اهتمامًا خاصًا لاستراتيجيتك الخاصة بأرقام المنتجات. يُحسّن نظام ترقيم جيد اللوجستيات التي تتدفق ويساعد على منع الأخطاء. يحتوي معرف المنتج الجيد على 15 حرفًا كحد أقصى. وبشكل مثالي، يحتوي على أقل من 10 أحرف ويتضمن أكثر من خمسة أحرف تصنيف. يمكنك أيضًا استخدام أسماء البحث لتمكين عمليات البحث السريع. اسم البحث هو اسم إضافي يمثل تصنيفات أحد المنتجات.
+عند استخدامك Supply Chain Management، يجب أن تُولي اهتمامًا خاصًا لاستراتيجيتك الخاصة بأرقام المنتجات. يُحسّن نظام ترقيم جيد اللوجستيات التي تتدفق ويساعد على منع الأخطاء. يجب أن يتكون مُعرف المنتج الجيد عادةً من 20 حرفًا أو أقل، ولكننا نُوصي بشكل عام باستخدام عدد أقل من 10 أحرف وعدم تضمين أكثر من 5 أحرف تصنيفية. يمكنك أيضًا استخدام أسماء البحث لتمكين عمليات البحث السريع. اسم البحث هو اسم إضافي يمثل تصنيفات أحد المنتجات.
 
 عند استخدام Microsoft Dataverse، يكون رقم المنتج في Supply Chain Management هو أيضا رقم المنتج الموجود في Microsoft Dataverse تتم مزامنة متغيرات المنتجات مع Dataverse كمنتجات مميزة.
 

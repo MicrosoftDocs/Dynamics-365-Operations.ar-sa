@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0e4bba6524f225d614ffdab370f2a1993cb3a29
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754670"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069263"
 ---
 # <a name="view-and-export-field-descriptions"></a>عرض أوصاف الحقول وتصديرها
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 توضح هذه المقالة كيفية عرض أوصاف الحقول وكيفية استخدام صفحة أوصاف الحقل لتصدير الأوصاف.
 
@@ -43,7 +46,7 @@ ms.locfileid: "5754670"
 
 يبين الرسم التوضيحي التالي وصف الحقل الذي يظهر عند تمرير الماوس فوق الحقل **تأمين الأصناف أثناء الجرد**.
 
-[![مثال عن وصف حقل](./media/field-description.png)](./media/field-description.png)
+[![مثال عن وصف حقل.](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>استخدام صفحة "أوصاف الحقول" لعرض تعليمات الحقول وتصديرها
 

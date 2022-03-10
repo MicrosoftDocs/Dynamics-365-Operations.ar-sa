@@ -1,8 +1,8 @@
 ---
 title: تحديد قواعد وسياسات استحقاق الفائدة
-description: يوضح لك هذا المقال كيف يمكنك إنشاء قواعد وسياسات أهلية الميزة ثم تعيين القواعد للمزايا.
-author: andreabichsel
-ms.date: 02/03/2020
+description: تشرح هذه الموضوعات كيفية إنشاء قواعد وسياسات الأهلية للمزايا ثم تعيين قواعد للمزايا.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,24 @@ ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 046b045fbdda125c5a2259783c0347f687453528
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c2595e40f6f9d1f75a94a3339735cc06bdabd14a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053143"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067644"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>تحديد قواعد وسياسات استحقاق الفائدة
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوضح لك هذا الموضوع كيف يمكنك إنشاء قواعد وسياسات أهلية الميزة ثم تعيين القواعد للمزايا.  
+يشرح هذا الموضوع كيفية إنشاء قواعد وسياسات الأهلية للمزايا ثم تعيين قواعد للمزايا.  
 
 ## <a name="create-benefit-eligibility-policy-rule-type"></a>إنشاء نوع قاعدة سياسة استحقاق المزايا‬
 

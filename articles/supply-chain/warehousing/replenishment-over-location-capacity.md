@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576102"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778174"
 ---
 # <a name="replenishment-over-location-capacity"></a>تزويد أعلى من سعة الموقع
 
@@ -32,8 +32,8 @@ ms.locfileid: "7576102"
 
 لإتاحة هذه الميزة، شغِّل الميزات التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (بالترتيب التالي):
 
-1. حظر العمل على مستوى المؤسسة
-1. تزويد أعلى من سعة الموقع
+1. حظر العمل على مستوى المؤسسة (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى.)
+1. استعاضة أعلى من قدرة الموقع
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>إعداد الميزة السيناريو المثال
 

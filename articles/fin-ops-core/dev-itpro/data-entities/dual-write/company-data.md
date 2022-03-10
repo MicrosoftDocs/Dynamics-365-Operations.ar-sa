@@ -4,30 +4,23 @@ description: يوضح هذا الموضوع تكامل بيانات الشركة
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350949"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061016"
 ---
 # <a name="company-concept-in-dataverse"></a>مفهوم الشركة في Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 في Finance and Operations، مفهوم *الشركة* عبارة عن مفهوم قانوني ومفهوم خاص بالأعمال. وهو أيضًا عبارة عن حدود أمان ورؤية للبيانات. يعمل المستخدمون دائمًا في سياق شركة واحدة، وتتم تجزئة معظم البيانات حسب الشركة.
@@ -36,7 +29,7 @@ ms.locfileid: "6350949"
 
 نظرًا لعدم اعتبار وحدة الأعمال والشركة كمفهومين متساويين، فمن غير الممكن فرض تعيين واحد إلى واحد (1:1) بينهما لغرض تكامل Dataverse. ومع ذلك، ولأنه يجب على المستخدمين، بشكل افتراضي، أن يكونوا قادرين على رؤية الصفوف نفسها في التطبيق وDataverse، قدمت Microsoft جدولاً جديدًا في Dataverse مسمى cdm\_Company. هذا الجدول يعتبر مكافئًا لجدول الشركة في التطبيق. للمساعدة على ضمان أن تكون رؤية الصفوف مكافئة بين التطبيق وDataverse، ننصح بالإعداد التالي للبيانات في Dataverse:
 
-+ لكل صف شركة Finance and Operations تم تمكينه للكتابة المزدوجة، يتم إنشاء صف شركة cdm\_.
++ لكل صف شركة تمويل وعمليات تم تمكينها للكتابة المزدوجة، يتم إنشاء صف شركة cdm\_مقترن به.
 + عند إنشاء صف cdm\_Company وتمكينه للكتابة المزدوجة، يتم إنشاء وحدة أعمال افتراضية تحمل الاسم نفسه. على الرغم من إنشاء فريق افتراضي لوحدة الأعمال هذه بشكل تلقائي، لا يتم استخدام وحدة الأعمال.
 + يتم إنشاء فريق مالك منفصل له نفس الاسم. ويقترن أيضًا بوحدة الأعمال.
 + وبشكل افتراضي، فإن مالك أي صف يتم إنشاؤه في وكتابته بشكل مزدوج إلى Dataverse يتم تعيينه إلى فريق "مالك DW" المرتبط بوحدة الأعمال المقترنة.
@@ -50,7 +43,7 @@ ms.locfileid: "6350949"
 + يتم تعيين دور "مدير المبيعات" لأعضاء فريق "مبيعات USMF".
 + بإمكان المستخدمين الذين يؤدون دور "مدير المبيعات" الوصول إلى أي صفوف هي أعضاء في نفس وحدة الأعمال التي هم أعضاء فيها.
 + يرتبط فريق "مبيعات USMF" بوحدة أعمال USMF التي تم ذكرها في وقت سابق.
-+ وبالتالي، يمكن لأعضاء فريق "مبيعات USMF" رؤية أي حساب مملوك من قبل مستخدم "USMF DW"، ومصدره جدول شركة USMF في Finance and Operations.
++ وبالتالي، بإمكان أعضاء فريق "مبيعات USMF" رؤية أي حساب مملوك من قبل مستخدم "USMF DW"، ومصدره جدول شركة USMF في التمويل والعمليات.
 
 ![كيف يمكن استخدام الفرق.](media/dual-write-company-2.png)
 

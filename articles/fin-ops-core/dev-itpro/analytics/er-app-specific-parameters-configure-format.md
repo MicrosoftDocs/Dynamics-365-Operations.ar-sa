@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0af3e1d589fd99cc722d8aedeb9596388a9e2e8c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018276"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765822"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>تكوين تنسيقات التقارير الإلكترونية لاستخدام المعلمات المحددة لكل كيان قانوني
 
@@ -78,17 +78,17 @@ ms.locfileid: "6018276"
 
     تم تصميم تنسيق التقارير الإلكترونية **تنسيق للتعرف على الاستدعاءات ذات معلمات** لإنشاء بيان ضريبة بتنسيق XML الذي يقدم عدة مستويات من الضرائب (العادية، والمخفضة، ولا شيء). يشتمل كل مستوى على عدد مختلف من التفاصيل.
 
-    ![مستويات متعددة من تنسيق التقارير الإلكترونية، تنسيق لمعرفة المكالمات ذات المعلمات](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![مستويات متعددة من تنسيق التقارير الإلكترونية، تنسيق لمعرفة المكالمات ذات المعلمات.](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  في علامة التبويب **تعيين**، قم بتوسيع عناصر **النموذج** و **البيانات** و **الملخص**.
 
     يقوم مصدر البيانات **Model.Data.Summary** بإرجاع قائمة حركات الضريبة. يتم تلخيص هذه الحركات حسب كود الضريبة. بالنسبة لمصدر البيانات هذا، تم تكوين الحقل المحسوب **Model.Data.Summary.Level** لإرجاع كود مستوي الضرائب لكل سجل ملخص. بالنسبة لأي كود ضريبة يمكن استرداده من مصدر البيانات **Model.Data.Summary** في وقت التشغيل، يقوم الحقل المحسوب بإرجاع كود مستوى الضرائب (**العادية** أو **المخفضة** أو **لا شيء** أو **آخر**) كقيمة نص. يتم استخدام الحقل المحسوب **Model.Data.Summary.Level** لتصفية سجلات مصدر بيانات **Model.Data.Summary**، وأدخل البيانات المصفاة في كل عنصر XML يمثل مستوى ضرائب باستخدام حقول **Model.Data2.Level1**، و **Model.Data2.Level2**، و **Model.Data2.Level3**.
 
-    ![قائمة حركات الضريبة لمصدر البيانات Model.Data.Summary](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![قائمة حركات الضريبة لمصدر البيانات Model.Data.Summary.](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     تم تكوين الحقل المحسوب **Model.Data.Summary.Level** بحيث يحتوي على تعبير تقارير إلكترونية. أكواد الضرائب (**VAT19**، و **InVAT19**، و **VAT7**، و **InVAT7**، و **THIRD**، و **InVAT0**) مشفرة في هذا التكوين. وبالتالي، يعتمد تنسيق التقارير الإلكترونية هذا على الكيان القانوني حيث تم تكوين هذه الأكواد الضريبية.
 
-    ![الحقل Model.Data.Summary.Level المحسوب بأكواد الضرائب المشفرة](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![الحقل Model.Data.Summary.Level المحسوب بأكواد الضرائب المشفرة.](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     لدعم مجموعة مختلفة من أكواد الضريبة لكل كيان قانوني، يجب اتباع الخطوات التالية:
 
@@ -128,7 +128,7 @@ ms.locfileid: "6018276"
 12. حدد **إضافة** مرة أخرى.
 13. في حقل **الاسم**، أدخل **آخر**.
 
-    ![سجل جديد في صفحة تعدادات التنسيقات](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![سجل جديد في صفحة تعدادات التنسيقات.](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     نظرا لان مستخدمي الاعمال قد يستخدمون لغات مختلفة لتحديد المجموعات التابعة للكيان القانوني ، نوصي بترجمة قيم قائمه التعداد هذه إلى اللغات التي تم تكوينها علي انها اللغات المفضلة لهؤلاء المستخدمين في التمويل.
 
@@ -141,7 +141,7 @@ ms.locfileid: "6018276"
 20. في حقل **النص المترجم**، أدخل **keine Besteuerung**.
 21. حدد **ترجمة**.
 
-    ![شريحة ترجمة النص](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![شريحة ترجمة النص.](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. حدد **حفظ**.
 23. أغلق صفحة **تعدادات التنسيقات**.
@@ -168,13 +168,13 @@ ms.locfileid: "6018276"
 10. حدد عنصر **Model.Data.Tax.Code**.
 11. حدد الزر **إضافة** (السهم الأيمن).
 
-    ![شريحة الأعمدة](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![شريحة الأعمدة.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     لقد حددت للتو أنه لكل قاعدة تم تحديدها في مصدر البيانات هذا للتعرف على مستوى الضرائب ، يجب على مستخدم النشاط التجاري اختيار أحد الرموز الضريبية كشرط. سيتم إرجاع قائمه أكواد الضريبة التي يمكن للمستخدم التجاري تحديدها بواسطة مصدر بيانات **Model.Data.Tax**. نظرا لان مصدر البيانات هذا يحتوي علي حقل **الاسم**، سيتم عرض اسم كود الضريبة لكل قيمه من قيم أكواد الضريبة في البحث الذي يتم تقديمه لمستخدم الاعمال.
     
 12. حدد **موافق**.
 
-    ![صفحة مصمم البحث](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![صفحة مصمم البحث.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     يمكن لمستخدمي الاعمال أضافه قواعد متعددة كسجلات لمصدر البيانات هذا. يتم ترقيم كل سجل حسب كود البند. سيتم تقييم القواعد بترتيب أسطر متزايد.
 
@@ -188,13 +188,13 @@ ms.locfileid: "6018276"
 
     لاحظ انك قمت باضافه مصدر بيانات جديد سيقوم بإرجاع مستوي الضرائب كقيمه لتعداد تنسيق **قائمة مستويات الضرائب** لأي كود ضريبة يتم تمريره إلى مصدر البيانات كوسيطة في معلمة **الكود** لنوع بيانات **السلسلة**.
     
-    ![صفحة مصمم التنسيق بمصدر بيانات جديد](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![صفحة مصمم التنسيق بمصدر بيانات جديد.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     تقييم القواعد المكوّنة يعتمد علي نوع بيانات الحقول التي تم تحديدها لتعريف شروط هذه القواعد. عند تحديد حقل تم تكوينه كحقل اما لنوع البيانات **رقمي** أو **تاريخ**، فان المعايير ستختلف عن المعايير الموضحة سابقًا لنوع بيانات **السلسلة**. بالنسبة للحقلين **رقمي** و **التاريخ**، يجب تحديد القاعدة كنطاق من القيم. سيتم اعتبار شرط القاعدة مستوفيًا عندما تكون القيمة التي يتم تمريرها إلى مصدر البيانات في النطاق المكوّن.
     
     يبين الرسم التوضيحي التالي مثالاً عن هذا النوع من الإعداد. بالإضافة إلى حقل **Model.Data.Tax.Code** في نوع بيانات **السلسلة**، يتم استخدام حقل **Model.Tax.Summary.Base** من نوع بيانات **Real** لتحديد شروط مصدر بيانات البحث.
     
-    ![صفحه مصمم البحث مع الاعمده الإضافية](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![صفحة مصمم البحث مع الأعمدة الإضافية.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     نظرًا لأنه يتم تحديد حقلي **Model.Data.Tax.Code** و **Model.Tax.Summary.Base** لمصدر بيانات البحث هذا، سيتم تكوين كل قاعدة من مصدر البيانات بالطريقة التالية:
     
@@ -223,7 +223,7 @@ ms.locfileid: "6018276"
 9.  حدد **ترجمة**.
 10. حدد **موافق**.
 
-    ![شريحة خصائص مصدر البيانات](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![شريحة خصائص مصدر البيانات.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>إضافة حقل جديد لاستخدام البحث المكون
 
@@ -236,12 +236,12 @@ ms.locfileid: "6018276"
 7.  في **حقل المعادلة**، أدخل **Model.Selector(Model.Data.Summary.Code)**.
 8.  حدد **حفظ**.
 
-    ![إضافة Model.Selector (Model.Data.Summary.Code) إلى صفحة مصمم الصيغة](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![إضافة Model.Selector (Model.Data.Summary.Code) إلى صفحة مصمم الصيغة.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  أغلق صفحة **محرر المعادلة**.
 10. حدد **موافق**.
 
-    ![تنسيق الصفحة مع إضافة صيغة جديدة](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![تنسيق الصفحة مع إضافة صيغة جديدة.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     لاحظ أن الحقل المحسوب **LevelByLookup** الذي قمت بإضافته سيقوم بإرجاع مستوى الضرائب باعتباره قيمة تعداد تنسيق **قائمة مستويات الضرائب** لكل سجل حركات ضريبة ملخصة. سيتم تمرير كود الضريبة للسجل إلى مصدر بيانات بحث **Model.Selector**، وسيتم استخدام مجموعه القواعد الخاصة بمصدر البيانات هذا لتحديد مستوي الضرائب الصحيح.
 
@@ -269,7 +269,7 @@ ms.locfileid: "6018276"
 
 4.  في حقل **المعادلة**، أدخل **CASE(@.LevelByLookup، TaxationLevel.'Regular taxation', "العادية", TaxationLevel.'Reduced taxation'، "المخفضة", TaxationLevel.'No taxation'، "لا شيء", "آخر")**.
 
-    ![صفحة مصمم تشغيل التقارير الإلكترونية](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
+    ![صفحة مصمم تشغيل التقارير الإلكترونية.](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
     لاحظ أن التعبير الخاص بحقل **Model.Data.Summary.Level** سيقوم الآن بإرجاع مستوى الضرائب، استنادًا إلى كود الضريبة الخاص بالسجل الحالي ومجموعة القواعد التي يقوم مستخدم الأعمال بتكوينها في مصدر بيانات البحث **Model.Data.Selector**.
     

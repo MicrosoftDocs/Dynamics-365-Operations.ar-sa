@@ -2,11 +2,9 @@
 title: وحدة كتلة المحتوى
 description: يتناول هذا الموضوع وحدات كتل المحتوى ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ad95dc943f075e088f5e13b507fa08f11548282f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726429"
 ---
 # <a name="content-block-module"></a>وحدة كتلة المحتوى
 
@@ -48,15 +46,15 @@ ms.locfileid: "5206261"
 
 تعرض الصورة التالية مثالاً لوحدة كتلة المحتوى مع تخطيط رئيسي.
 
-![مثال لوحدة نمطية لجزء رئيسي](./media/Hero.PNG)
+![مثال لوحدة نمطية لجزء رئيسي.](./media/Hero.PNG)
 
 تعرض الصورة التالية مثالاً لوحدة كتلة المحتوى مع تخطيط ميزة.
 
-![أمثلةللوحدات النمطية لميزة](./media/Feature.PNG)
+![أمثلة للوحدات النمطية لميزة.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>خصائص وحدة كتلة المحتوى
 
-| اسم الخاصية  | القيم | ‏‏الوصف |
+| اسم الخاصية  | القيم | الوصف |
 |----------------|--------|-------------|
 | الصورة          | ملف الصورة | يمكن استخدام صورة لعرض منتج أو عرض ترويجي. يمكن تحميل صورة إلى معرض الصور، أو يمكن استخدام صوره موجودة. |
 | العنوان        | نص العنوان وعلامة العنوان (**H1**, **H2**, **H3**, **H4**, **H5**, أو **H6**) | يمكن أن يكون لكل الوحدة النمطية الرئيسية عنوان. وبشكل افتراضي، يتم استخدام علامة العنوان **H2** للعنوان. ولكن، يُمكن تغيير العلامة لتتوافق مع متطلبات الوصول. |

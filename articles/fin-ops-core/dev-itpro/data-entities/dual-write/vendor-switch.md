@@ -1,26 +1,26 @@
 ---
 title: التبديل بين تصميمات المورّدين
-description: يصف هذا الموضوع كيفية تبديل تكامل بيانات البائع بين تطبيقات Finance and Operations وDataverse.
+description: يصف هذا الموضوع كيفية التبديل بين تكامل بيانات البائع وبين تطبيقات التمويل والعمليات وDataverse.
 author: RamaKrishnamoorthy
 ms.date: 09/20/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 21f48574d34b810c8ca554a55f1c063893a34b4d
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416799"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062740"
 ---
 # <a name="switch-between-vendor-designs"></a>التبديل بين تصميمات المورّدين
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 

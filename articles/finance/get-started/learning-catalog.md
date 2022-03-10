@@ -12,22 +12,22 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f3924d858687f553ca08a56bfa3b5a632c0988ee
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: 4b0a96307109674321ebc81aab7d77502a434dd994163232d012627f52d7b409
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5637710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758017"
 ---
 # <a name="dynamics-365-finance-learning-catalog"></a>كتالوج تعلّم Dynamics 365 Finance
 
 ابحث عن التدريب الصحيح على الإنترنت، في ورش العمل الشخصية والأحداث الخاصة بدورك كمستخدم لتطبيق Dynamics 365 Finance.
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### <a name="business-and-technical-decision-makers"></a>صناع قرارات الأعمال والقرارات الفنية
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
+ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355025"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "7551791"
 ---
 # <a name="overhead-calculation"></a>عملية حساب المصروفات الزائدة
 
@@ -1328,83 +1328,12 @@ ms.locfileid: "6355025"
 ## <a name="conclusion"></a>الخاتمة
 في المحاسبة المالية، يتم ترحيل تكلفة مقدارها 10,000.00 للكهرباء إلى معرف مركز تكلفة وهمي. لذلك، سيعلم محاسبو التكلفة أنه من الضروري تخصيص هذه التكلفة. في محاسبة التكاليف، تتدفق التكاليف عبر الوحدات والمستويات التنظيمية، استنادًا إلى السياسات والقواعد المطبقة. تم إقران كل تكلفة بأساس توزيع يوفر أفضل تقييم لتخصيص التكاليف.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" rowspan="2">عنصر التكلفة</th>
-<th colspan="9">كائن التكلفة</th>
-<th rowspan="2">الإجمالي</th>
-</tr>
-<tr>
-<th>CC099</th>
-<th>CC001</th>
-<th>CC002</th>
-<th>CC003</th>
-<th>CC004</th>
-<th>مشروع 1</th>
-<th>مشروع 2</th>
-<th>منتج 1</th>
-<th>منتج 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="2">10001 الكهرباء</td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><strong>30.00</strong></td>
-<td style="text-align: right;"><strong>10.00</strong></td>
-<td style="text-align: right;"><strong>7,770.57</strong></td>
-<td style="text-align: right;"><strong>2,189.43</strong></td>
-<td style="text-align: right;"><strong>10,000.00</strong></td>
-</tr>
-<tr>
-<td></td>
-<td style="text-align: left;">غير مصنف</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">تكلفة ثابتة</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">776.36</td>
-<td style="text-align: right;">223.64</td>
-<td style="text-align: right;"><strong>1,000.00</strong></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">تكلفة متغيرة</td>
-<td style="text-align: right;">000</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">30.00</td>
-<td style="text-align: right;">10.00</td>
-<td style="text-align: right;">6,994.21</td>
-<td style="text-align: right;">1,965.79</td>
-<td style="text-align: right;"><strong>9,000.00</strong></td>
-</tr>
-</tbody>
-</table>
+عنصر التكلفة | كائن التكلفة<br>CC099 | كائن التكلفة<br>CC001 | كائن التكلفة<br>CC002 | كائن التكلفة<br>CC003 | كائن التكلفة<br>CC004 | كائن التكلفة<br>مشروع 1 | كائن التكلفة<br>مشروع 2 | كائن التكلفة<br>منتج 1 | كائن التكلفة<br>منتج 2 | الإجمالي
+---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
+10001 الكهرباء | 0.00 | 0.00 | 0.00 | 0.00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
+غير مصنف | 0.00 |  |  |  |  |  |  |  |  |  |
+تكلفة ثابتة | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |  |  | 776.36 | 223.64 | 1,000.00 |
+تكلفة متغيرة | 000 | 0.00 | 0.00 | 0.00 | 0.00 | 30.00 | 10.00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
 > يُظهر هذا الموضوع كيفية تدفق عنصر تكلفة أساسية، 10001 الكهرباء، عبر كائنات التكلفة. لذلك، يتم تخصيص تكلفة هذه المصروفات الزائدة إلى أدنى مستوى في المؤسسة. بمعنى آخر، كانئات التكلفة في أدنى مستوى هي التي تتحمل التكلفة. إذا احتجت إلى تدفق مرئي للتكلفة بين كائنات التكلفة، فيمكنك استخدام قواعد سياسة زيادة التكاليف‬ لرؤية تدفق التكلفة. لمزيد من المعلومات، راجع [سياسة التكاليف وحساب المصروفات الإضافية](cost-rollup.md).

@@ -1,26 +1,28 @@
 ---
 title: نظرة عامة على أمر الشراء
 description: توفر هذه المقالة معلومات عامة حول أوامر الشراء بالإضافة إلى ارتباطات تؤدي إلى مقالات ذات صلة بمختلف المراحل التي يمر عبرها أمر الشراء.
-author: kamaybac
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 93083
+ms.custom:
+- "93083"
+- intro-internal
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909115"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982294"
 ---
 # <a name="purchase-order-overview"></a>نظرة عامة على أمر الشراء
 
@@ -76,8 +78,7 @@ ms.locfileid: "5909115"
 -   **مؤكد** - يتم تعيين هذه الحالة بعد تأكيد الأمر. بشكل عام، هذه الحالة هي حالة الموافقة الأخيرة التي يتم تعيينها للأمر.
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [إنشاء أوامر شراء](purchase-order-creation.md)
 

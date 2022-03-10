@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 64d9c649212eca4dc703e5b80fdf2c3c6a57a61745fc440b0650d7796a4d06e3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800677"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720973"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>إضافة قناة إلى التدرج الهرمي للمؤسسة
 
@@ -44,7 +44,7 @@ ms.locfileid: "5800677"
 
 تظهر الصورة التالية تفاصيل التدرج الهرمي للمؤسسات للتدرج الهرمي المحدد.
 
-![تفاصيل التدرج الهرمي للمؤسسات للتدرج الهرمي المحدد](media/channel-add-to-org-hierarchy-1.png)
+![تفاصيل التدرج الهرمي للمؤسسات للتدرج الهرمي المحدد.](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>إضافة قناه إلى عقدة التدرج الهرمي
 
@@ -58,17 +58,17 @@ ms.locfileid: "5800677"
 
 تظهر الصورة التالية كيفية تحديد قناة لإضافتها إلى عقدة التدرج الهرمي.
 
-![تحديد قناة لإضافتها إلى عقدة التدرج الهرمي](media/channel-add-to-org-hierarchy-2.png)
+![تحديد قناة لإضافتها إلى عقدة التدرج الهرمي.](media/channel-add-to-org-hierarchy-2.png)
 
 تظهر الصورة التالية تدرجًا هرميًا أضيفت إليه قنوات متنوعة.
 
-![تدرج هرمي أضيفت إليه قنوات متعددة](media/channel-add-to-org-hierarchy-3.png)
+![تدرج هرمي أضيفت إليه قنوات متعددة.](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على القنوات](channels-overview.md)
+[نظره عامة حول القنوات](channels-overview.md)
 
-[المتطلبات الأساسية‬ لإعداد قناة](channels-prerequisites.md)
+[المتطلبات الأساسية لإعداد القناة](channels-prerequisites.md)
 
 [نظرة عامة المؤسسات والتدرجات الهرمية للمؤسسات](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 

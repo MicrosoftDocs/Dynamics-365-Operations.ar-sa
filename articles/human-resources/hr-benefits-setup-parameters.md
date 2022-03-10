@@ -1,31 +1,31 @@
 ---
 title: تعيين معلمات إدارة المزايا والخدمة الذاتية للموظفين لجميع الشركات
-description: تكوين معلمات لإدارة المزايا والخدمة الذاتية للموظفين في Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 12/07/2020
+description: قم بتكوين معلمات لإدارة المزايا والخدمة الذاتية للموظفين في Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e241475c9652ab2dafe6886479e9c0a93711aca
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 822e5b37be7b2d5712d61bf7fb00f40d1692f406
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466750"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066915"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>تعيين معلمات إدارة المزايا والخدمة الذاتية للموظفين لجميع الشركات
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -56,7 +56,7 @@ ms.locfileid: "5466750"
 
 3. حدد **حفظ**.
 
-## <a name="configure-employee-self-service-parameters"></a>تكوين معلمات خدمة الموظف الذاتية
+## <a name="configure-employee-self-service-parameters"></a>تكوين محددات خدمة الموظف الذاتية
 
 1. في مساحة عمل **إدارة الميزات**، ضمن **الإعداد**، حدد **معلمات الموارد البشرية**.
 

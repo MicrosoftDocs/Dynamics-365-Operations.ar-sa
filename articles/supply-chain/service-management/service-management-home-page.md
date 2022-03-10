@@ -1,26 +1,25 @@
 ---
 title: نظرة عامة على إدارة الخدمة
 description: استخدم إدارة الخدمة لإنشاء اشتراكات الخدمة واتفاقيات الخدمة، والتعامل مع أوامر الخدمة واستفسارات العملاء، ولإدارة وتحليل تقديم الخدمات للعملاء.
-author: ShylaThompson
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 565f907dc68bcdeac948619b7a4ccafdadeefc31
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b9b8444c635fe08a224314d1b76de5ac8d9defbc
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360342"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982988"
 ---
 # <a name="service-management-overview"></a>نظرة عامة على إدارة الخدمة
 

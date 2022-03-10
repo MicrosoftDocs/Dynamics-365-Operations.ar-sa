@@ -4,24 +4,17 @@ description: يوفر هذا الموضوع معلومات حول فحص توف�
 author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 0fded78134b1427e6faea9656e1d3b02b467ae91
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193397"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782519"
 ---
 # <a name="inventory-availability-in-dual-write"></a>توفر المخزون في الكتابة المزدوجة
 
@@ -64,58 +57,12 @@ ms.locfileid: "6193397"
 - الطلبات المخزون الفعلي CDS (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>القوالب
+
 تتوفر القوالب التالية لعرض بيانات المخزون الفعلي.
 
-تطبيقات Finance and Operations | تطبيق Customer Engagement | الوصف 
+تطبيقات Finance and Operations | تطبيقات Customer Engagement     | الوصف
 ---|---|---
-[إدخالات المخزون الفعلي في CDS](#145) | msdyn_inventoryonhandentries |
-[طلبات المخزون الفعلي في CDS](#147) | msdyn_inventoryonhandrequests |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>الإدخالات الفعلية لمخزون الاقراص المضغوطة (msdyn_inventoryonhandentries)
-
-يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وDataverse.
-
-حقل Finance and Operations | نوع التعيين | حقل Customer Engagement | قيمة افتراضية
----|---|---|---
-`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
-`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
-`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
-`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
-`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
-`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
-`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
-`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
-`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
-`ATPDATE` | = | `msdyn_atpdate` |
-`ATPQUANTITY` | > | `msdyn_atpquantity` |
-`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
-`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
-`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
-`ORDERQUANTITY` | > | `msdyn_orderquantity` |
-`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
-
-###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>الطلبات المخزون الفعلي CDS (msdyn_inventoryonhandrequests)
-
-يقوم هذا القالب بمزامنة البيانات بين تطبيقات Finance and Operations وDataverse.
-
-حقل Finance and Operations | نوع التعيين | حقل Customer Engagement | قيمة افتراضية
----|---|---|---
-`REQUESTID` | = | `msdyn_requestid` |
-`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
-`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
-`ORDERQUANTITY` | < | `msdyn_orderquantity` |
-`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`REFERENCENUMBER` | < | `msdyn_referencenumber` |
-`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
-
-
-
-
-
+[إدخالات المخزون الفعلي في CDS](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[طلبات المخزون الفعلي في CDS](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

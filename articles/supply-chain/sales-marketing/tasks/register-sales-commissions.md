@@ -1,7 +1,7 @@
 ---
 title: تسجيل عمولات المبيعات
 description: يشرح هذا الموضوع كيفية حساب عمولة المبيعات وتسجيلها.
-author: omulvad
+author: Henrikan
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee75f3a0c9dea7a7c4a4f927651aaab1d6bdb5c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f4aca37350938d54d4acf283093365bfcab64f70
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836364"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575353"
 ---
 # <a name="register-sales-commissions"></a>تسجيل عمولات المبيعات
 

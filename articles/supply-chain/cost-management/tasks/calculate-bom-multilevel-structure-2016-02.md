@@ -1,27 +1,25 @@
 ---
 title: حساب قائمة مكونات الصنف باستخدام هيكل متعدد المستويات (فبراير 2016)
 description: يوضح هذا الإجراء كيفية حساب تكلفة المنتج النهائي باستخدام عملية تحديد إجمالي المكونات المطلوبة‬ متعددة المستويات يوجد أساسها في كشف التكاليف.
-author: ShylaThompson
-manager: tfehr
+author: AndersGirke
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f07bab0bab5553764982b44d9b135b4baa8310f9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78a8bb51925489015098fc0ce5552107255bc3e4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987594"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572111"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>حساب قائمة مكونات الصنف باستخدام هيكل متعدد المستويات (فبراير 2016)
 
@@ -48,3 +46,6 @@ ms.locfileid: "4987594"
 11. قم بإغلاق الصفحة.
 12. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

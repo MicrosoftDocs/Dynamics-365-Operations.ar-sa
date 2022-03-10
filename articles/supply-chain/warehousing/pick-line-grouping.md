@@ -2,11 +2,9 @@
 title: تجميع سطور الانتقاء
 description: يوفر هذا الموضوع نظرة عامة على تجميع سطور الانتقاء.
 author: Mirzaab
-manager: tfehr
 ms.date: 12/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e70244d46ec2787fefdb097d0354af7910b55e9c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757484"
 ---
 # <a name="pick-line-grouping"></a>تجميع سطور الانتقاء
 
@@ -118,7 +116,7 @@ ms.locfileid: "4989708"
     - **الصنف M9201:** *3* لكل واحد
     - **الصنف M9202:** *9* لكل واحد
 
-1. قبل أن تقوم بإصدار الأوامر إلى المستودع، فإنه يجب عليك التأكد من أن مواقع الانتقاء لديها مخزون كاف لكافة الأصناف الموجودة على كافة الأوامر. راجع إعداد **توجيه الموقع** لتحديد مواقع الانتقاء التي يتم استخدامها لانتقاء أمر التوريد. إذا كنت تستخدم بيئة بيانات الشركة التجريبية للمستودع *51*، فقم بالتاكيد علي وجود مخزون متاح.
+1. قبل أن تقوم بإصدار الأوامر إلى المستودع، فإنه يجب عليك التأكد من أن مواقع الانتقاء لديها مخزون كاف لكافة الأصناف الموجودة على كافة الأوامر. راجع إعداد **توجيه الموقع** لتحديد مواقع الانتقاء التي يتم استخدامها لانتقاء أمر التوريد. إذا كنت تستخدم بيئة بيانات Contoso التجريبية للمستودع *51*، فقم بالتأكيد على وجود مخزون متاح.
 
     يجب الآن حجز المخزون لكل بند.
 
@@ -170,3 +168,6 @@ ms.locfileid: "4989708"
 >   - خطوط العمل التي تحتوي على عمل التزويد
 >   - انتقاء زائد
 >   - إعادة توزيع الأصناف للانتقاء القصير
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

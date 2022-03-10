@@ -1,33 +1,34 @@
 ---
 title: خطط التعويض
-description: باستطاعة مدراء التعويضات والميزات‬ استخدام إدارة التعويضات لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة.
-author: andreabichsel
-ms.date: 06/20/2017
-ms.topic: article
+description: يصف هذا الموضوع كيفية استخدام إدارة التعويضات لإدارة خطط التعويض ومعالجتها.
+author: twheeloc
+ms.date: 08/25/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1be212cae4b0df136bb19b9521fd80aa29f7e094
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793743"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066890"
 ---
 # <a name="compensation-plans"></a>خطط التعويض
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-باستطاعة مدراء التعويضات والميزات‬ استخدام إدارة التعويضات لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة.
+باستطاعة مدراء التعويضات والميزات‬ استخدام **إدارة التعويضات** لصيانة ومعالجة خطط التعويضات الثابتة والمتغيرة لموظفي المؤسسة.
 
 ### <a name="introduction"></a>مقدمة
 
@@ -44,7 +45,7 @@ ms.locfileid: "5793743"
 <thead>
 <tr class="header">
 <th>المكون</th>
-<th>مزيد من المعلومات...</th>
+<th>معلومات إضافية</th>
 </tr>
 </thead>
 <tbody>
@@ -90,10 +91,10 @@ ms.locfileid: "5793743"
 </tr>
 <tr class="even">
 <td>نقطة التحكم</td>
-<td>تحدد نقطة التحكم ما تعتبره الدفع المثالي لكافة الموظفين عند مستوى تعويض معين. وبالنسبة لبنيات خطة التصنيف، فإن نقاط التحكم عادةً ما تكون هي نقطة المنتصف للنطاقات. ونادرًا ما تستخدم بنيات النطاق نقاط التحكم. يمكنك تحديد نقطة التحكم لخطة تعويض ثابتة في نموذج خطط التعويض الثابت.</td>
+<td>تحدد نقطة التحكم ما تعتبره الدفع المثالي لكافة الموظفين عند مستوى تعويض معين. وبالنسبة لبنيات خطة التصنيف، فإن نقاط التحكم عادةً ما تكون هي نقطة المنتصف للنطاقات. ونادرًا ما تستخدم بنيات النطاق نقاط التحكم. يمكنك تحديد نقطة التحكم لخطة تعويض ثابتة في صفحة **خطط التعويض الثابت**.</td>
 </tr>
 <tr class="odd">
-<td>مهام الوظيفة</td>
+<td>مهام الوظائف</td>
 <td>يتم استخدام المهام الوظيفية لتصنيف وتصفية خطط التعويض لوظائف معيَّنة.</td>
 </tr>
 <tr class="even">
@@ -122,8 +123,7 @@ ms.locfileid: "5793743"
 ## <a name="process-events"></a>أحداث العملية
 يقوم حدث عملية بحساب معلومات التعويض لفترة معينة لكافة الموظفين الذين تم تسجيلهم في خطة واحدة أو أكثر من خطط التعويض الثابتة أو المتغيرة. كما يمكن أيضًا تشغيل حدث عملية بشكل متكرر، على سبيل المثال، لاختبار أو تحديث نتائج التعويض التي تم حسابها.
 
-<a name="compensation-events"></a>أحداث التعويض
--------------------
+## <a name="compensation-events"></a>أحداث التعويض
 
 ‏‫في كل مرة يتم فيها تشغيل حدث عملية، يتم إنشاء حدث تعويض.  وتحتوي أحداث التعويض على نتائج عملية التعويض لكل موظف يتم تضمينه في حدث العملية هذا.  وعندما تكون العمليات الحسابية صحيحة، يمكنك تحميل حدث التعويض لتحديث سجلات التعويض للموظفين الذين يتأثرون بحدث العملية.‬
 

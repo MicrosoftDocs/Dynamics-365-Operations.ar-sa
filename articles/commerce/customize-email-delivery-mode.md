@@ -2,11 +2,9 @@
 title: تخصيص رسائل البريد الإلكتروني للحركات حسب وضع التسليم
 description: يوضح هذا الموضوع كيفية إعداد قوالب بريد إلكتروني مخصصة لأنواع إخطارات معينة وأنماط التسليم في Microsoft Dynamics 365 Commerce.
 author: stuharg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d0d96ddb20b2b09751d8c0c0bf8af713de35279a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749897"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>تخصيص رسائل البريد الكتروني للحركات بحسب وضع التسليم
 

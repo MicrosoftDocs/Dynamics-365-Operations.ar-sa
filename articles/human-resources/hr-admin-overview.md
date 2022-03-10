@@ -1,37 +1,36 @@
 ---
 title: نظرة عامة على الإدارة
-description: يساعدك دليل المسؤول علي إعداد وإدارة واستكشاف الأخطاء وإصلاحها في Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
-ms.topic: article
+description: يوفر هذا الموضوع قائمة بموضوعات التعليمات والموارد الأخرى لإعدادها وإدارتها واستكشاف الأخطاء وإصلاحها في Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f55977fc45424ea7e514a741f9dd7f8f9306b015
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466918"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068399"
 ---
 # <a name="administration-overview"></a>نظرة عامة على الإدارة
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-يساعدك دليل المسؤول علي إعداد وإدارة واستكشاف الأخطاء وإصلاحها في Dynamics 365 Human Resources.
+
+يوفر هذا الموضوع قائمة بموضوعات التعليمات والموارد الأخرى لإعدادها وإدارتها واستكشاف الأخطاء وإصلاحها في Dynamics 365 Human Resources.
 
 - [متطلبات النظام](hr-admin-system-requirements.md)
 
@@ -48,10 +47,10 @@ ms.locfileid: "5466918"
   - [تكوين التكامل مع Dayforce](hr-admin-integration-dayforce.md)
   - [إنشاء تطبيق تصدير البيانات المتكررة](hr-admin-integration-recurring-data-export.md)
   - التكامل مع Office
-    - [برنامج تعليمي لتكامل Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [تحديث بيانات الكيان في Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [إنشاء خبرات فتح في Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [استكشاف أخطاء تكامل Office وإصلاحها](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [برنامج تعليمي لتكامل Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [تحديث بيانات الكيان في Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [إنشاء خبرات فتح في Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [استكشاف أخطاء تكامل Office وإصلاحها](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [إدارة الميزات](hr-admin-manage-features.md)
 
@@ -86,7 +85,7 @@ ms.locfileid: "5466918"
   - [إنشاء الوثائق أو التدريب بمسجل المهام](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - استكشاف أخطاء Human Resources وإصلاحها
-  - [الحصول على الدعم](hr-admin-troubleshooting-support.md)
+  - [الحصول على الدعم](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [تحسين الأداء باستخدام مهام التنظيف التلقائية](hr-admin-troubleshooting-batch-history.md)
   - [لم يتم تحديث تقارير التحليلات](hr-admin-troubleshooting-analytic-reports.md)
   - [تعذر إنشاء بيئة في مركز إدارة Power Apps ](hr-admin-troubleshooting-power-apps.md)
@@ -95,13 +94,22 @@ ms.locfileid: "5466918"
   - [تشغيل عملية التعويض](hr-admin-troubleshooting-compensation.md)
   - [حفظ دليل المهام في LCS](hr-admin-troubleshooting-task-guide.md)
   - [الوصول إلى العناوين الخاصة حسب دور الأمان](hr-admin-troubleshooting-private-addresses.md)
-  - [لا يظهر Human Resources في تطبيقات Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources لا يظهر في تطبيقات Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [خيارات إعداد التقارير](hr-admin-troubleshooting-reporting.md)
   - [الأسئلة المتداولة حول التكامل](hr-admin-troubleshooting-integration.md)
 
+## <a name="additional-resources"></a>الموارد الإضافية
+
+### <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
+للحصول على الدورات التدريبية والتدريب عبر الإنترنت، راجع [Dynamics 365 Human Resources على Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>ملفات الفيديو
+
+راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
 ## <a name="see-also"></a>راجع أيضًا
 
-- [ما هو الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)
+- [الميزات ‏‫الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)
 - [دليل المطور](hr-developer-overview.md)
 - [دليل المستخدم](hr-hrpro-overview.md)
 

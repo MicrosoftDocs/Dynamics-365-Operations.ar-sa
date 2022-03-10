@@ -2,11 +2,9 @@
 title: تكوين دفاتر الأستاذ
 description: يقدم هذا الموضوع معلومات حول كيفية تكوين دفاتر الأستاذ لكل كيان قانوني. ويتضمن معلومات حول كيفية تحديد العملات والتقويمات المالية ودليل الحسابات وبنيات الحساب التي يجب استخدامها مع كل كيان قانوني.
 author: kweekley
-manager: ''
 ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a7fcda435fd957edbbe09d796685c0c742dc6a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975806"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712209"
 ---
 # <a name="configure-ledgers"></a>تكوين دفاتر الأستاذ
 
@@ -81,3 +79,6 @@ ms.locfileid: "4975806"
 إن الأرباح والخسائر المحققة هي الأرباح والخسائر التي يتم إجراؤها من الحركات المكتملة. ويتم تسجيلها في كشف الأرباح والخسائر. الأرباح والخسائر غير المحققة هما الأرباح والخسائر المجسدة، ولكن الحركة غير مكتملة. بمعني آخر، لقد قمت بترحيل فاتورة، على سبيل المثال، ولكن لم يتم بعد الآن تسوية الفاتورة ودفعها. تسجيل الأرباح والخسائر غير المحققة في الميزانية العمومية.
 
 لمزيد من المعلومات حول كيفية استخدام العملة المزدوجة، ارجع إلى [العملة المزدوجة](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

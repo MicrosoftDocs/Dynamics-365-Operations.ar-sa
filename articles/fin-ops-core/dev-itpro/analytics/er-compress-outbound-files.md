@@ -2,7 +2,6 @@
 title: ضغط المستندات الكبيرة المُنشأة بتنسيق التقارير الإلكترونية
 description: يشرح هذا الموضوع كيفية ضغط المستندات الكبيرة المُنشأة بتنسيق التقارير الإلكترونية.
 author: NickSelin
-manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8a8f55b33624b057a6abf9af5084209ac6a0c778
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562324"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718589"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>ضغط المستندات الكبيرة المُنشأة بتنسيق التقارير الإلكترونية 
 
 [!include [banner](../includes/banner.md)]
 
-يمكنك استخدام [إطار عمل ‏‫إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) لتكوين حل يُحضر بيانات الحركات‬ لإنشاء مستند صادر. قد يكون حجم هذا المستند المُنشأ كبيرًا جدًا. عند إنشاء هذا النوع من المستندات، يتم استخدام ذاكرة [خادم كائن التطبيق (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) لاحتوائه. في مرحلة معينة، يجب تحميل المستند من تطبيق Microsoft Dynamics 365 Finance. في الوقت الحالي، يقتصر الحد الأقصى لحجم مستند واحد يتم إنشاؤه بتنسيق التقارير الإلكترونية على 2 غيغابايت. علاوةً على ذلك، [يحدد](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) تطبيق Finance حجم المستند المنزّل بغيغابايت واحد. وبالتالي، يجب عليك تكوين حل للتقارير الإلكترونية يقلل احتمال تجاوز هذه الحدود، وأنك ستتلقى استثناء **البث كان طويلاً جدًا** أو **تجاوز السعة أو نقص في السعة في العملية الحسابية**.
+يمكنك استخدام [إطار عمل ‏‫إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) لتكوين حل يُحضر بيانات الحركات‬ لإنشاء مستند صادر. قد يكون حجم هذا المستند المُنشأ كبيرًا جدًا. عند إنشاء هذا النوع من المستندات، يتم استخدام ذاكرة [خادم كائن التطبيق (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) لاحتوائه. في مرحلة معينة، يجب تحميل المستند من تطبيق Microsoft Dynamics 365 Finance. في الوقت الحالي، يقتصر الحد الأقصى لحجم مستند واحد يتم إنشاؤه بتنسيق التقارير الإلكترونية على 2 غيغابايت. علاوةً على ذلك، [يحدد](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) تطبيق Finance حجم المستند المنزّل بغيغابايت واحد. وبالتالي، يجب عليك تكوين حل للتقارير الإلكترونية يقلل احتمال تجاوز هذه الحدود، وأنك ستتلقى استثناء **البث كان طويلاً جدًا** أو **تجاوز السعة أو نقص في السعة في العملية الحسابية**.
 
 عند تكوين حل، يمكنك ضبط تنسيق التقارير الإلكترونية في مصمم العمليات عن طريق أضافه عنصر جذر من النوع **مجلد** لضغط المحتوى الذي يتم إنشاؤه بواسطة أي من العناصر المتداخلة فيه. يعمل الضغط "في الوقت المناسب"، حتى يمكن تقليل الاستخدام الأقصى لاستخدام الذاكرة وحجم الملف الذي سيتم تنزيله.
 
@@ -56,7 +55,7 @@ ms.locfileid: "5562324"
 1. [تشغيل التنسيق المستورد](er-defer-xml-element.md#run-the-imported-format).
 2. لاحظ أن حجم المستند المُنشأ بتنسيق XML هو 3 كيلوبايت (KB).
 
-    ![معاينة المستند الصادر غير المضغوط](./media/er-compress-outbound-files1.png)
+    ![معاينة المستند الصادر غير المضغوط.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>تعديل التنسيق لضغط الإخراج المُنشأ
 
@@ -81,7 +80,7 @@ ms.locfileid: "5562324"
     > [!NOTE] 
     > نسبة الضغط لملف XML الذي يحمله ملف zip هذا هي 87 بالمائة. تتوقف نسبة الضغط على البيانات التي يتم ضغطها.
 
-    ![معاينة المستند الصادر المضغوط](./media/er-compress-outbound-files2.png)
+    ![معاينة المستند الصادر المضغوط.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > إذا تم تكوين [وجهة](electronic-reporting-destinations.md) التقارير الإلكترونية لعنصر التنسيق الذي ينشئ الإخراج (عنصر **التقرير** في هذا المثال)، سيتم تجاوز ضغط الإخراج.

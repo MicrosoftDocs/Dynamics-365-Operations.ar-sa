@@ -1,12 +1,10 @@
 ---
 title: حجز نفس الدُفعة لأمر مبيعات
 description: توضح هذه المقالة كيفية إعداد منتج للسماح بحجز المخزون مقابل دُفعة واحدة من المخزون.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fb1f9e017de71d01fbf7a05b579d68b702aa7c9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0d4f3ee5d99648155e663c9ad0849b0b9ae3f80e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001489"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576606"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>حجز نفس الدُفعة لأمر مبيعات
 
@@ -43,4 +41,7 @@ ms.locfileid: "5001489"
 - انتهت مدة صلاحية الدُفعة، استناداً إلى تاريخ انتهاء الصلاحية وأي أيام البيع للعميل متاحة. ولا يزال يمكن وضع الصنف في الاعتبار للحجز في حالة التحكم في مجموعة نماذج الصنف للصنف بواسطة التحكم في تاريخ ‏‫‏‫ما تنتهي صلاحيته أولاً يصرف أولاً (FEFO)، وإذا تم تحديد تاريخ الأفضلية كمعيار انتقاء.
 - لا تشتمل الدُفعة على أيام عمر متبقية كافية، استناداً إلى تاريخ انتهاء الصلاحية وتاريخ الأفضلية، بالإضافة إلى أية أيام بيع للعملاء.
 
-بالنسبة للأصناف المقترنة بمجموعة بُعد التخزين التي تم تمكين **استخدام عمليات إدارة المستودعات** لها، يمكنك حجز أرقام دفعات محددة باستخدام تسلسل هرمي للحجز مع تحديد بُعد مخزون رقم الدُفعة أعلى بُعد الموقع. تتيح لك صفحة **حجز الدُفعات** لبنود أوامر المبيعات وأوامر التحويل لك أيضًا تحديد بنود متعددة وحجزها استنادًا إلى أرقام الدُفعات المتاحة. لمزيد من المعلومات حول ما يجب القيام به إذا كنت تستخدم تسلسلًا هرميًا للحجز يحتوي على بُعد رقم الدُفعة أسفل الموقع، راجع [سياسة حجز البعد المرن على مستوى المستودع](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+بالنسبة للأصناف المقترنة بمجموعة بُعد التخزين التي تم تمكين **استخدام عمليات إدارة المستودعات** لها، يمكنك حجز أرقام دفعات محددة باستخدام تسلسل هرمي للحجز مع تحديد بُعد مخزون رقم الدُفعة أعلى بُعد الموقع. ويعرف هذا النوع من التدرج الهرمي للحجز أيضا باسم تدرج هرمي حجز *الدفعة-أعلى\[الموقع\]*. تتيح لك صفحة **حجز الدُفعات** لبنود أوامر المبيعات وأوامر التحويل لك أيضًا تحديد بنود متعددة وحجزها استنادًا إلى أرقام الدُفعات المتاحة. لمزيد من المعلومات حول ما يجب القيام به إذا كنت تستخدم تسلسلًا هرميًا للحجز يحتوي على بُعد رقم الدُفعة أسفل الموقع (*الدفعة-أسفل\[الموقع\]*)، راجع [سياسة حجز البعد المرن على مستوى المستودع](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

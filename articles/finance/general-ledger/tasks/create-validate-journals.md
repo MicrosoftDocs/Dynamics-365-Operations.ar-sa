@@ -2,11 +2,9 @@
 title: إنشاء دفاتر اليومية والتحقق من صحتها
 description: ينشئ الإجراء هذا دفاتر اليومية وبنود دفاتر اليومية ويتحقق من صحتها.
 author: panolte
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2f6cb15b115de9bf076da9062f14fcdf88662946
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8775b5f9b3c1cd2bb65c674b00ddbccdda64f28fff8534340ec45ad0080bf528
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725040"
 ---
 # <a name="create-and-validate-journals"></a>إنشاء دفاتر اليومية والتحقق من صحتها
 

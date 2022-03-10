@@ -1,12 +1,10 @@
 ---
 title: المواعيد النهائية لإدخال الأوامر
 description: توفر هذه المقالة معلومات حول المواعيد النهائية لإدخال أمر. الموعد نهائي لإدخال أمر هو الانقطاع الذي يحدد ما إذا كان يتم التعامل مع طلب عميل (وتنفيذه) كما لو تم تلقيه في اليوم الحالي أو في اليوم التالي.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable, MCRAutoTaxRules
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b04155bf9c5e282e97eba4fc0a6290c771d7ba3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 71748cb05346f7a31f51baebb86b9accc11c8478
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977653"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580518"
 ---
 # <a name="order-entry-deadlines"></a>المواعيد النهائية لإدخال الأوامر
 
@@ -101,10 +99,12 @@ ms.locfileid: "4977653"
 
 **ملاحظة:** إذا كان تعديل التوقيت الصيفي قيد التفعيل، فإنه يتم تعديل المواعيد النهائية لإدخال الأوامر وفقًا لذلك.
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [جداول التسليم](delivery-schedules.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: اعتماد موردين لمنتجات محددة
 description: يوضح هذا الإجراء كيفية اعتماد الموردين لمنتجات محددة.
-author: kamaybac
+author: Henrikan
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45f6942c99e03a5abf6de736f1adb0b4e232783f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c4c48bfbcc3fb64bae66fe3cfef1d55d15049bb9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812484"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575425"
 ---
 # <a name="approve-vendors-for-specific-products"></a>اعتماد موردين لمنتجات محددة
 

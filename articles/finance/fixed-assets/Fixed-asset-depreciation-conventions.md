@@ -1,29 +1,26 @@
 ---
 title: قواعد إهلاك الأصول الثابتة
 description: يصف هذا الموضوع نظرة قواعد إهلاك الأصول الثابتة.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4315f70e7959e2576e9b87dfb3898318f47aa46d
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: 823f8826e297a01c3658ceb8e82e6f9902d7a359
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4440108"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883402"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>قواعد إهلاك الأصول الثابتة
 
@@ -43,3 +40,6 @@ ms.locfileid: "4440108"
 | منتصف الشهر(الخامس عشر من الشهر) | لحساب خصم إهلاك الخاص بك للسنة التي وضعت فيها الممتلكات قيد الخدمة، اضرب الإهلاك لسنة كاملة في كسر. بسط (رقم العلوي) هذا الكسر هو عدد الأشهر الكاملة في السنة التي تكون فيها الممتلكات قيد الخدمة، بالإضافة إلى 1/2 أو (0.5). المقام (الرقم السفلي) هو 12. في حالة التخلص من الممتلكات قبلا انتهاء فترة الاسترداد الخاصة بك، استخدم نفس طريقة لحساب خصم ا7لإهلاك الخاص بك لسنة التخلص. |
 | نصف السنة (بداية السنة) | يبدأ إهلاك الأصول التي تشتمل على تاريخ <strong>مضمن في خدمة</strong> في النصف الأول للسنة في اليوم الأول من السنة (السنة الكاملة). يبدأ إهلاك الأصول التي تشتمل على تاريخ <strong>مضمن في خدمة</strong> في النصف الثاني للسنة في منتصف السنة الكاملة. |
 | نصف سنة (السنة التالية)     | يبدأ إهلاك الأصول التي تشتمل على تاريخ <strong>مضمن في خدمة</strong> في النصف الأول للسنة في اليوم الأول من السنة (السنة الكاملة). يبدأ إهلاك الأصول التي تشتمل على تاريخ <strong>مضمن في خدمة</strong> في النصف الثاني للسنة في اليوم الأول من السنة التالية. تعتبر الأصول التي تم إيقافها في النصف الأول من السنة موقوفة في اليوم الأخير من السنة السابقة لأغراض الإهلاك. يجب إلغاء أو تسوية أي إهلاك تم ترحيله في العام الحالي. وتعتبر الأصول الموقوفة في النصف الثاني من السنة موقوفة في اليوم الأخير من سنة الإيقاف لأغراض الإهلاك. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

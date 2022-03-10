@@ -2,27 +2,26 @@
 title: تسلسل التكلفة الاحتياطية للمتوسط المتحرك
 description: يوفر هذا الموضوع معلومات حول تسلسلات التكاليف الاحتياطية الخاصة بحسابات المتوسط المتحرك في Microsoft Dynamics 365 Supply Chain Management.
 author: AndersGirke
-manager: tfehr
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0538701588b9c71dff4c538711606913a359de6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: d91b3b4b8d49e59aa03d62f4dd101b5a1ec18c41
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421555"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568197"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>تسلسل التكلفة الاحتياطية للمتوسط المتحرك
+
+[!include [banner](../includes/banner.md)]
 
 هناك طريقة لحساب تكلفة المخزون وهي استخدام _متوسط متحرك_. يمكن إقران ثلاث قيم تكلفة كحدٍ أقصى بكل صنف من أصناف المخزون:
 
@@ -45,4 +44,7 @@ ms.locfileid: "4421555"
     - **التكلفة النشطة - الإصدار الأخير**
     - **التكلفة النشطة – سعر الصنف** – قد تواجه المؤسسات مشكلات في الأداء إذا كانت تستخدم عمليات الأعمال حيث المخزون يكون سالبًا بشكل منتظم، وحجم الحركات مرتفعًا في الوقت نفسه. بإمكان هذا الإعداد أن يساعد على تخفيف مشكلات الأداء هذه.
 
-![معلمات محاسبة المخزون](media/inventory-accounting-parameters.png "معلمات محاسبة المخزون")
+![معلمات محاسبة المخزون.](media/inventory-accounting-parameters.png "معلمات محاسبة المخزون")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: نسخ العملاء باستخدام تسلسلات رقمية مشتركة
 description: يشرح هذا المقال كيفية استخدام تسلسلات رقمية مشتركة لنسخ عميل لكيان قانوني آخر مع الاحتفاظ بنفس معرف العميل.
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/31/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ab2beb9ca1b7cd8a4bdbb84c46ed223f58ce377d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a93f0519b292c12ea31a8faf3bff051fc111216
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991132"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753455"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>نسخ العملاء باستخدام تسلسلات رقمية مشتركة
 
@@ -64,3 +62,6 @@ ms.locfileid: "4991132"
 
 1. يظهر خيار **نسخ عميل**. وبشكل افتراضي، يتم تعيين هذا الخيار إلى **لا**. لنسخ العميل إلى الكيان القانوني الحالي، قم بتعيين الخيار إلى **نعم**. 
 2. حدد **تحديد**. تم إنشاء العميل الجديد.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

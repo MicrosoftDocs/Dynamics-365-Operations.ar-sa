@@ -2,15 +2,12 @@
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (03 سبتمبر 2020)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 3 سبتمبر 2020.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,22 +15,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b1cf348425cba71024ee0d158d42bb1071260d09
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: d1cc3a64e6c345df7727f5ca7336821388c9dbcf
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467689"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063533"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (3 سبتمبر 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3504. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم المرجع في  Lifecycle Services (LCS).
 
-لمزيد من المعلومات حول الميزات القادمة في Human Resources، راجع [نظرة عامة حول الموجة 2 من إصدار 2019 لتطبيق Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). لمزيد من المعلومات حول عملية تحديث Human Resources، راجع [عملية التحديث](hr-admin-setup-update-process.md).
+لمزيد من المعلومات حول الميزات القادمة في Human Resources، راجع [نظرة عامة حول الموجة 2 من إصدار 2019 لتطبيق Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). لمزيد من المعلومات حول عملية تحديث Human Resources، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
 ## <a name="in-this-release"></a>في هذا الإصدار
 
@@ -78,21 +75,21 @@ ms.locfileid: "5467689"
 
 بإمكان الموظفين عرض وطلب الوقت بعيدًا عن العمل ضمن Microsoft Teams يمكنهم التفاعل مع روبوت لإنشاء طلبات الإجازات. لمزيد من المعلومات، راجع:
 
-- [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
-- [تطبيق Human Resources في Teams](https://go.microsoft.com/fwlink/?linkid=2127841) في وثائق Human Resources
+- [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬
+- [تطبيق Human Resources في Teams](./hr-admin-teams-leave-app.md) في وثائق Human Resources
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>تطبيق Human Resources في ميزات المعاينة لـ Teams
  
 -  **الإخطارات**: سوف يتم إعلام المُرسلين والمعتمدين لطلبات الإجازات في تطبيق Human Resources في Teams. سيتمكن الموافقون من الموافقة على طلبات الإجازة أو رفضها. سيتم اعلام مقدمي الطلبات ما إذا تمت الموافقة على طلبهم أم رفضه. لمزيد من المعلومات، راجع:
-   - [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬‬
-   - [تمكين الإعلامات لتطبيق Human Resources في Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) في وثائق Human Resources
-   - [تشغيل إعلامات Teams أو إيقاف تشغيلها لمستخدمين فرديين](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) في وثائق Human Resources
-   - [إعلامات Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) في وثائق Human Resources
-   - [عرض تقويم إجازة الفريق](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) في وثائق Human Resources
+   - [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬‬
+   - [تمكين الإعلامات لتطبيق Human Resources في Teams](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) في وثائق Human Resources
+   - [تشغيل إعلامات Teams أو إيقاف تشغيلها لمستخدمين فرديين](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) في وثائق Human Resources
+   - [إعلامات Teams](./hr-teams-leave-app.md#respond-to-teams-notifications) في وثائق Human Resources
+   - [عرض تقويم إجازة الفريق](./hr-teams-leave-app.md#view-your-teams-leave-calendar) في وثائق Human Resources
  
 - **تقويم إجازة المُدير**: سوف يتمكن المديرون من رؤية الإجازات المعتمدة والمعلقة لتقاريرهم المباشرة في طريقة عرض التقويم. توفر طريقة العرض هذه طريقة سهلة في الفهم عند انقطاع أعضاء فريقهم عن العمل. لمزيد من المعلومات، راجع:
-   - [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬‬
-   - [عرض تقويم إجازة الفريق](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) في وثائق Human Resources
+   - [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬‬
+   - [عرض تقويم إجازة الفريق](./hr-teams-leave-app.md#view-your-teams-leave-calendar) في وثائق Human Resources
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>خيار التكوين لوضع عناصر العمل المعينة لي في قائمة (477004)
 
@@ -100,11 +97,11 @@ ms.locfileid: "5467689"
 
 تقوم هذه الميزة أيضًا بترقية خيارات سير العمل التي تظهر في نماذج إجراءات العاملين. تظهر خيارات سير العمل أيضًا أعلى علامة التبويب السريعة للإجراءات لتمكين الوصول السريع إليها. لمزيد من المعلومات، راجع: 
 
-- [تحسينات في تجربة سير عمل إدارة المؤسسة والموظفين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬‬
+- [تحسينات في تجربة سير عمل إدارة المؤسسة والموظفين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) في خطة الموجة 2 لإصدار 2020‬ لتطبيق Dynamics 365‬‬
 
-![عناصر عمل تم تعيينها إلي](./media/hr-workflow-work-items-assigned-to-me.png)
+![عناصر عمل تم تعيينها إلي.](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![الوصول السريع إلى عناصر سير العمل](./media/hr-workflow-quick-access.png)
+![الوصول السريع إلى عناصر سير العمل.](./media/hr-workflow-quick-access.png)
 
 ## <a name="coming-soon"></a>قريبًا
 
@@ -119,7 +116,7 @@ ms.locfileid: "5467689"
 ## <a name="see-also"></a>راجع أيضًا
 
 [الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
 

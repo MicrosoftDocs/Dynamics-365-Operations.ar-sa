@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6f48e1689d21fd0085ec38aab8f5171997fbf432
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224000"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567189"
 ---
 # <a name="guide-modify-a-demand-forecast-manually"></a>دليل: تعديل التنبؤ بالطلب يدويًا
 

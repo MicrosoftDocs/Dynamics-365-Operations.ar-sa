@@ -1,31 +1,31 @@
 ---
-title: تكوين معلمات إدارة المزايا لكل شركة
-description: قم بتكوين المعلمات لإدارة الميزات لكل شركة في Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 12/07/2020
+title: تكوين محددات إدارة المزايا لكل شركة
+description: يوضح هذا الموضوع كيفية تكوين معلمات لإدارة الميزات لكل شركة في Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 8/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 31f30c3d268132327074e931b714b5b2ee3ec5ac
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: f6b3f068c9d3198afa8cd10aaa14bbc7ec9ef3c4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466630"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065808"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>تكوين معلمات إدارة المزايا لكل شركة
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "5466630"
 
    | الحقل | الوصف |
    | --- | --- |
-   | **إرسال بريد إلكتروني للتأكيد** | عند تشغيل هذه الميزة، سيتم إرسال بريد إلكتروني للتأكيد إلى الموظفين عند تسجيل الخروج من تجربة تسجيل المزايا في الخدمة الذاتية للموظف. |
+   | **إرسال بريد إلكتروني للتأكيد** | عند تشغيل هذه الميزة، سيتم إرسال بريد إلكتروني للتأكيد إلى الموظفين عند تسجيل الخروج من تجربة تسجيل المزايا في **الخدمة الذاتية للموظف**. |
    | **قالب البريد الإلكتروني للتأكيد** | حدد قالب البريد الإلكتروني للمؤسسة لاستخدامه عند إرسال تأكيد التسجيل. إذا لم تحدد نموذجًا، فسيتم إرسال البريد الإلكتروني العام التالي:<br><br>%EmployeeFirstName%،<br><br>تهانينا! لقد أكملت بنجاح التسجيل في المزايا.<br><br>شكرًا لك،<br>مزايا <Company/Org name>. |
    | **عنوان مرسل البريد الإلكتروني الافتراضي** | عنوان البريد الإلكتروني المراد استخدامه عند إرسال رسالة التأكيد عبر البريد الإلكتروني. |
 

@@ -1,26 +1,23 @@
 ---
 title: إنشاء حالة دورة حياة منتج جديدة
 description: يوضح هذا الإجراء كيفية إنشاء حالة دورة حياة منتج جديدة.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab5624423c3e463d673e91bd056e5e80d9bb9944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8c8087bcf6697407cabcd1a35437f222b500dec3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421223"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568341"
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>إنشاء حالة دورة حياة منتج جديدة
 
@@ -35,3 +32,6 @@ ms.locfileid: "4421223"
 3. في حقل "الحالة"، اكتب قيمة.
 4. في وصف الحقل، اكتب قيمة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

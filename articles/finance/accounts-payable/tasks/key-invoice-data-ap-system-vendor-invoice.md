@@ -2,26 +2,23 @@
 title: بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام فاتورة المورد
 description: سيساعدك دليل المهمة هذا على إنشاء فاتورة مورّد من أمر شراء وعرض نتائج مطابقة أمر الشراء والإيصال والفاتورة (مطابقة ثلاثية).
 author: abruer
-manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f80c88b7fb3542f624d233f670cd7cd6ccd48b94
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b3e27ed41ff1fa44d5e8779cb5e81e45d02110eb3b37be3a3b9938cabfc395bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777278"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>بيانات الفاتورة الرئيسية في الحسابات الدائنة باستخدام فاتورة المورد
 
@@ -73,3 +70,6 @@ ms.locfileid: "4439785"
 19. انقر فوق **ترحيل**.
 20. وقم بغلق النموذج. لاحظ أن أمر الشراء لم يعد مدرجًا على أنه تم استلامه ولكن بدون فوترة.‬  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

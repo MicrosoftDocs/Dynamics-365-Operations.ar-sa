@@ -1,27 +1,25 @@
 ---
 title: إعداد عنصر قائمة جهاز محمول لإكمال عمل من النوع "أمر الشراء"
 description: يوضح هذا الموضوع كيفية إعداد عنصر قائمة جهاز محمول.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFAutoConfirm, WHSRFMenu
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10843f9ae9c657df5deae6a1ec11423cc426ba34
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976903"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565084"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>إعداد عنصر قائمة جهاز محمول لإكمال عمل من النوع "أمر الشراء"
 
@@ -68,3 +66,6 @@ ms.locfileid: "4976903"
 5. حدد السهم المتجه لليمين.
 6. حدد **حفظ**.
 7. قم بإغلاق الصفحة.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

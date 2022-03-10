@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dfff9e4520659ac1a9d0f85dd0e091f9fa5e2528ff092b650296a47aef9ca7b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765845"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>تكوين وتشغيل وظيفة لترحيل البيانات
 
@@ -31,9 +31,9 @@ ms.locfileid: "5804223"
 2. انقر فوق "ترحيل الكشوف على دُفعات".
     * حدد تدرجًا هرميًا تنظيميًا ثم في شجرة عُقد المؤسسة‬، حدد عقدة أو مخزنًا فرديًا. حدد عقدة إذا أردت إنشاء وظيفة دفعية لمجموعة من المتاجر.  
     * انقر فوق السهم لإضافة التحديد الخاص بك.  
-3. انقر فوق علامة التبويب "تشغيل في الخلفية". ![تشغيل في الخلفية](../dev-itpro/media/runbackground.png "تشغيل في الخلفية") 
+3. انقر فوق علامة التبويب "تشغيل في الخلفية". ![تشغيل في الخلفية.](../dev-itpro/media/runbackground.png "تشغيل في الخلفية") 
 4. حدد خانة الاختيار "معالجة الدُفعة" أو قم بإلغاء تحديدها.
-![معالجة الدُفعات](../dev-itpro/media/batchprocessing.png "معالجة الدفعات والتكرار") 
+![معالجة الدُفعات.](../dev-itpro/media/batchprocessing.png "معالجة الدفعات والتكرار") 
 5. انقر فوق "تكرار".
 6. في الحقل "تاريخ البدء"، أدخل تاريخًا.
 7. في حقل "‏‫وقت البدء"، أدخل الوقت.

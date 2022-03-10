@@ -1,12 +1,10 @@
 ---
 title: محتوى "التوظيف" في Power BI
-description: يصف هذا الموضوع محتوى "التوظيف" في Power BI.  فهو يوضح كيفية الوصول إلى التقارير، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+description: 'يصف هذا الموضوع محتوى "التوظيف" في Power BI. '
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765112"
 ---
 # <a name="recruiting-power-bi-content"></a>محتوى "التوظيف" في Power BI
 
@@ -64,3 +62,6 @@ ms.locfileid: "4680552"
 | الأداء          | التقييم والوصف ونموذج التقييم                            | مقدم الطلب، مقدم الطلب الموظف، مقدم الطلب المفصول |
 | مشروع التوظيف  | وصف المشروع، وحالة المشروع، وفرص العمل الشاغرة                | مقدم الطلب، مقدم الطلب الموظف، مقدم الطلب المفصول |
 | مقدم الطلب المفصول | مقدمو الطلبات المفصولون، والسبب، والأداء، وتاريخ الفصل | الشركة، مقاصة التقويم‬، التاريخ، الموقع الجغرافي، الأداء، التوزيع الجغرافي، التوظيف، الوسائط، مشروع التوظيف، اسم مقدم الطلب |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

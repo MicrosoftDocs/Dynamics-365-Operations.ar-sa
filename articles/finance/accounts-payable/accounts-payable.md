@@ -1,7 +1,7 @@
 ---
 title: الصفحة الرئيسية للحسابات الدائنة
 description: يقدم هذا الموضوع نظرة عامة على الحسابات الدائنة.
-author: ShylaThompson
+author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e284e84c5f049c912d54d2c5ae72a622f5cfdbbd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344820"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595276"
 ---
 # <a name="accounts-payable-home-page"></a>الصفحة الرئيسية للحسابات الدائنة
 

@@ -1,7 +1,7 @@
 ---
 title: البحث عن متغيرات المنتجات القديمة
 description: يوضح هذا الإجراء كيفية البحث عن المنتجات القديمة الصادرة أو متغيرات المنتجات، وكيفية إقران حالة دورة حياة منتج بالمنتجات القديمة.
-author: cvocph
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 807297a87a7f0e59023d80fbd371bffbf2b086bd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 13db6620575b4c97b3f8079ac94f5231a2fd9c1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807982"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577230"
 ---
 # <a name="find-obsolete-product-variants"></a>البحث عن متغيرات المنتجات القديمة 
 

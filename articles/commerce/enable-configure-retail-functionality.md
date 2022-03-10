@@ -2,11 +2,9 @@
 title: تهيئة بيانات أولية في بيئات Commerce الجديدة
 description: تصف هذه المقالة البيانات التي يتم إنشاؤها كجزء من عملية تهيئة Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8fd0b2743deab758538922f312853b622a512c0a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 14d56636b48d8f8ff15863bb04c762e398f8c370664fbd52f80ed5f05f0e4895
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000716"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718721"
 ---
 # <a name="initialize-seed-data-in-new-commerce-environments"></a>تهيئة بيانات أولية في بيئات Commerce الجديدة
 
@@ -68,3 +66,6 @@ ms.locfileid: "5000716"
 - قنوات التجارة
 - السجلات والأجهزة
 - عمليات الفرز
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

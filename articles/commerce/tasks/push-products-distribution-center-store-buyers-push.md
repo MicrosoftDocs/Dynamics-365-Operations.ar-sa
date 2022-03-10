@@ -1,27 +1,25 @@
 ---
 title: " دفع المنتجات من مركز توزيع إلى متجر باستخدام دفع المشتري"
 description: يتناول هذا الإجراء الخطوات اللازمة لإنشاء ومعالجة ‏‫توزيع المشتريات‬ لتوزيع المنتجات من موقع واحد إلى متجر واحد أو أكثر.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPush, InventLocationIdLookup, InventItemIdLookupSimple, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3720945823cf127f776a9ea6a6ad75a72ceec00c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 30d82e4b282bac2ea888971ad5c6298adfa8332b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012331"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779600"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> دفع المنتجات من مركز توزيع إلى متجر باستخدام دفع المشتري
 
@@ -52,3 +50,6 @@ ms.locfileid: "5012331"
 19. انقر فوق إنشاء أمر.
 20. انقر فوق نعم.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

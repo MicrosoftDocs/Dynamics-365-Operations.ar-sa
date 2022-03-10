@@ -1,12 +1,10 @@
 ---
 title: قواعد توزيع دفتر الأستاذ
 description: توفر هذه المقالة معلومات حول قواعد توزيع دفتر الأستاذ. وهذ تصف المكونات المختلفة لقواعد التوزيع هذه وأساليب التوزيع التي يمكن استخدامها لها.
-author: ShylaThompson
-manager: AnnBe
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8006221c36abcc24893741458d2cf6b25a6010e6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 718640390cd1d4c6c2e9fb1d6bdeba21b515be4a
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988742"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726860"
 ---
 # <a name="ledger-allocation-rules"></a>قواعد توزيع دفتر الأستاذ
 
 [!include [banner](../includes/banner.md)]
 
-توفر هذه المقالة معلومات حول قواعد توزيع دفتر الأستاذ. وهذ تصف المكونات المختلفة لقواعد التوزيع هذه وأساليب التوزيع التي يمكن استخدامها لها.
+يوفر هذا الموضوع معلومات حول قواعد توزيع دفتر الأستاذ. وهذ تصف المكونات المختلفة لقواعد التوزيع هذه وأساليب التوزيع التي يمكن استخدامها لها.
 
 يتم استخدام قواعد توزيع دفتر الأستاذ لحساب وإنشاء دفاتر يومية التوزيع وإدخالات الحسابات لتوزيع أرصدة دفتر الأستاذ أو المبالغ الثابتة تلقائيًا. وقد تكون طرق التوزيع متغيرة أو ثابتة. ويمكن استخدام طرق التوزيع التالية لقواعد توزيع دفتر الأستاذ:
 
@@ -50,3 +48,6 @@ ms.locfileid: "4988742"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: نوع وجهة إعداد التقارير الإلكترونية لـ Power BI
 description: يوفر هذا الموضوع معلومات حول كيفية تكوين نوع وجهة إعداد التقارير الإلكترونية لـ Power BI للمستندات الصادرة.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: a6b6a2e4bc3c0eca8185f501121d9d1ba1b4e063
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 499447b05ef6360cde95049e592d7c9ffe2da1c4ff26937482033b9f705c3acd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777418"
 ---
 # <a name="power-bi-destination"></a>وجهة Power BI
 
@@ -31,7 +30,7 @@ ms.locfileid: "5561964"
 
 عيّن الخيار **ممكّن** إلى **نعم‏‎** لاستخدام تكوين إعداد التقارير الإلكترونية لترتيب نقل البيانات من مثيل Dynamics 365 Finance إلى خدمات Microsoft Power BI. ‏‫يتم تخزين الملفات المنقولة على مثيل Microsoft SharePoint Server تم تكوينه لهذا الغرض. لمزيد من المعلومات، راجع [تكوين التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
-[![صفحة إعدادات الوجهة](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
+[![صفحة إعدادات الوجهة.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

@@ -2,11 +2,9 @@
 title: موضع المجموعة ممتلئ
 description: يوفر هذا الموضوع معلومات حول ميزة موضع المجموعة ممتلئ. تقدم هذه الميزة بديلاً لفرض قواعد أكثر صرامة لفصل العمل عند استخدام انتقاء المجموعة‬، لأنها تمكّن هامش خطأ أكبر في القيود الحجمية للحاويات أو العبوات.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232997"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102817"
 ---
 # <a name="cluster-position-full"></a>موضع المجموعة ممتلئ
 
@@ -30,12 +28,9 @@ ms.locfileid: "5232997"
 
 وتقدم هذه الميزة القدرة على تشغيل الزر **ممتلئ** على إحدى وحدات العمل في المجموعة. في الإصدارات الأقدم، كان هذا الخيار متاحًا فقط لانتقاء الأوامر المنتظمة، وليس لانتقاء المجموعة. ومع ذلك، تختلف هذه الميزة عن الزر **ممتلئ** من ناحية أنها تلغي العمل المتبقي. إنها لا تقترح قيام المستخدم بإضافة صندوق آخر إلى المجموعة نفسها، ولا تقوم بإنشاء عمل جديد بشكل تلقائي.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>تشغيل ميزة موضع المجموعة ممتلئ
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>تشغيل ميزة وضع نظام المجموعة ممتلئ‬ أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *موضع المجموعة ممتلئ*
+لاستخدام الوظيفة الموضحة في هذا الموضوع ، يجب أن تكون الميزة *وضع نظام المجموعة ممتلئ‬‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *وضع نظام المجموعة ممتلئ‬‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>الإعداد
 
@@ -213,7 +208,7 @@ ms.locfileid: "5232997"
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>تنفيذ سير مهام الجهاز المحمول - إعداد تأكيد العمل للمنتج
 
-1. سجل الدخول إلى تطبيق المستودع كمستخدم في المستودع *61*.
+1. سجل الدخول إلى تطبيق إدارة المستودع للأجهزة المحمولة كمستخدم في المستودع *61*.
 1. انتقل إلى **الصادر \> إنشاء انتقاء مجموعة‬‏‫**.
 
     تظهر الصفحة **المهمة: تعيين العمل إلى المجموعة** .

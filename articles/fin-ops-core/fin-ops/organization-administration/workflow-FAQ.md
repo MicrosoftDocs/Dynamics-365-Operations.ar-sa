@@ -2,11 +2,9 @@
 title: الأسئلة المتداولة حول سير العمل
 description: يجيب هذا الموضوع عن الأسئلة المتداولة حول نظام سير العمل.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,16 +12,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797381"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065570"
 ---
 # <a name="workflow-faq"></a>الأسئلة المتداولة حول سير العمل
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 يجيب هذا الموضوع عن الأسئلة المتداولة حول نظام سير العمل.
 
@@ -47,9 +48,9 @@ ms.locfileid: "4797381"
     - في أحد التحديثات المستقبلية ستتم إضافة رسالة مركز الإجراءات حتى يتم تعيين عنصر عمل سير العمل إلى المستخدم. 
 - إضافة إخطارات لمهام سير العمل
     - يمكن إنشاء رسائل مركز الإجراءات لمستخدمين محددين، مثل رسالة تم إنشاؤها من سير عمل في X++.
-    - [تحتوي مهام سير العمل على أحداث أعمال](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) يمكن للعميل استخدامها لتشغيل المهام ذات الإشعارات التي يبحث عنها.   
+    - [تحتوي مهام سير العمل على أحداث أعمال](../../dev-itpro/business-events/business-events-workflow.md) يمكن للعميل استخدامها لتشغيل المهام ذات الإشعارات التي يبحث عنها.   
 
-وفي الملخص، في حالة عدم حصول المستخدم على الإخطار المناسب من مركز الإجراءات عند تعيين عنصر عمل لسير العمل، قم بزيادة [أحداث أعمال سير العمل](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) مع Microsoft Power Automate لتوفير إخطارات إضافية أو مختلفة.
+وفي الملخص، في حالة عدم حصول المستخدم على الإخطار المناسب من مركز الإجراءات عند تعيين عنصر عمل لسير العمل، قم بزيادة [أحداث أعمال سير العمل](../../dev-itpro/business-events/business-events-workflow.md) مع Microsoft Power Automate لتوفير إخطارات إضافية أو مختلفة.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>لماذا لا يمكن بدء "محرر سير العمل" ضمن AD FS؟
 عند التشغيل ضمن ‏‫خدمات الأمان المشترك لـ Active Directory (AD FS)‬ في بيئة تمت ترقيتها، فقد يواجه محرر سير العمل مشكلة في بدء التشغيل. إذا كان الأمر كذلك ، تأكد من إضافة عنوان URL "https://dynamicsaxworkfloweditor/" إلى الخاصية **Microsoft Dynamics 365 for Operations محلي - سير العمل - التطبيق الأصلي** في إعدادات ADFS.
@@ -59,3 +60,6 @@ ms.locfileid: "4797381"
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>ما هي ميزة الخطأ المحسنة لسير العمل؟
 تضيف ميزة الخطأ المحسنة لسير العمل في الإصدار 10.0.13 رموز الخطأ لتمييز فئات مختلفة من أخطاء سير العمل. ستكون رسائل الخطأ التي تم الاعلام عنها مماثلة مع اختلافات ثانية لجعلها أكثر وضوحًا.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: إعداد تفويض الخصم المباشر عن طريق سيبا‬
 description: يتيح الخصم المباشر لمنطقة دفع يورو واحدة (SEPA) جمع أموال من الحساب البنكي للعميل، شريطة منح أمر رسمي مُوقَع من العميل إلى الدائن.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6ee3861e967246e79b072aaa69f2be02db9231b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a4f63f88daf65676104384a2d612aa415ae6533044ea52ce85947f75ad876ced
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758911"
 ---
 # <a name="set-up-sepa-direct-debit-mandate"></a>إعداد تفويض الخصم المباشر عن طريق سيبا‬
 
@@ -53,3 +51,6 @@ ms.locfileid: "4995483"
 
 [إنشاء تفويض خصم مباشر لعميل](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
 description: يوضح هذا الموضوع كيفية إعداد القوالب الافتراضية للبُعد المالي.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ecc9adac17a6313e88ac568d016daf8d05b8d818
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2f8e5709639ac256a733546e54a49b11c4cae24e18577792a0c6cae45c8d517d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748152"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
 
@@ -41,3 +39,6 @@ ms.locfileid: "4968589"
 11. أدخل قيم البُعد المالي التي تتوافق مع النسبة المئوية التي تم إدخالها.
 12. حدد **حفظ**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

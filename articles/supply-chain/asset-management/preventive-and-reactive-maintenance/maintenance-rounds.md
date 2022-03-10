@@ -1,29 +1,26 @@
 ---
 title: دورات الصيانة
 description: يشرح هذا الموضوع دورات الصيانة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 63cb2614b2037fac1129c7d2f82a26dac41a3490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421402"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740709"
 ---
 # <a name="maintenance-rounds"></a>دورات الصيانة
 
@@ -83,7 +80,7 @@ ms.locfileid: "4421402"
 
 يُبين الرسم التوضيحي التالي ويضرب مثالًا لدورة الصيانة التي تحتوي على ثلاثة أصول.
 
-![الشكل 1](media/13-preventive-maintenance.png)
+![الشكل 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>دورات الصيانة المجدولة
@@ -109,11 +106,14 @@ ms.locfileid: "4421402"
 
 يُبين الرسمان التوضيحيان أدانه مهمة الجدول في مربع حوار **دورات الصيانة المُجدولة**، وبنود جدول الصيانة التي تم إنشاؤها في **كل جداول الصيانة** بناءً على مهمة الجدولة هذه.
 
-![الشكل 2](media/14-preventive-maintenance.png)
+![الشكل 2.](media/14-preventive-maintenance.png)
 
-![الشكل 3](media/15-preventive-maintenance.png)
+![الشكل 3.](media/15-preventive-maintenance.png)
 
 - عند إنشاء أوامر العمل يدويًا على الأصول التي تتم تغطيتها بواسطة ضمان المورّد، يتم عرض مربع حوار لإعلام المستخدم بالضمان. ويمكن بعد ذلك إلغاء إنشاء أمر العمل. ويتم حذف عملية الفحص الخاصة بعلاقة الضمان لأوامر العمل التي يتم إنشاؤها تلقائيًا.  
 - يمكنك إعداد وظيفة دفعية على علامة التبويب السريعة **تشغيل في الخلفية** لجدولة الدورات على فترات زمنية منتظمة.  
 - إذا تم تضمين دورة في مجموعات أوامر عمل متعددة، (راجع [مجموعات أوامر العمل](../work-orders/work-order-pools.md))، يظهر سجل واحد لكل مجموعة في **مجموعات جدول الصيانة المفتوحة‬‏‫**. ويتم ذلك لتحسين خيارات التصفية لمجموعات أوامر العمل.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

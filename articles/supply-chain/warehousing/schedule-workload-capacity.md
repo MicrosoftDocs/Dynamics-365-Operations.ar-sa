@@ -1,7 +1,7 @@
 ---
 title: جدولة قدرة حمل العمل
 description: يشرح هذا الموضوع كيفية إعداد وجدولة قدرة حمل العمل للعاملين في مستودع أو لأحد المستودعات بكامل.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2458009dabd71e6c8423e8e607a0cedb4765b88
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f66eb1b2f35d19aba0f4f8f2804577a62ac14e79
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817331"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901936"
 ---
 # <a name="schedule-workload-capacity"></a>جدولة قدرة حمل العمل
 

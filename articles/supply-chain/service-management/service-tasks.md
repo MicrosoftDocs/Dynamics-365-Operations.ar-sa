@@ -1,28 +1,25 @@
 ---
 title: نظرة عامة على مهام الخدمة
 description: استخدم مهام الخدمة لوصف المهمة المراد إكمالها خلال أمر الخدمة. يستطيع كل من الفنيين والعملاء رؤية هذه المعلومات.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14145020572add7fd9f49cf6a6dc2fb3c1f19b03
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a789c435bfba6948895f6d00c6a350c03b2e9d63
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991780"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982474"
 ---
 # <a name="service-tasks-overview"></a>نظرة عامة على مهام الخدمة
 
@@ -89,3 +86,6 @@ ms.locfileid: "4991780"
 2. على علامة تبويب **الإعداد**، حدد **حسب مهمة الخدمة‬** في الحقل **تجميع أوامر الخدمة‬**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

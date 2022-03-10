@@ -2,11 +2,9 @@
 title: تعيين بُعد عنصر التكلفة
 description: باستطاعة مراقب التكاليف استخدام هذا الإجراء لتعيين تكلفة بعد عنصر تكلفة إلى بعد عنصر تكلفة في الكيان القانوني MXMF.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5570d7cf2a8139d7959cb708d306e8b91065ed1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 81b76d7410de793a9d906677cf2e4e6ce4932a8b66f78a874594818d5c8d0ffe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754256"
 ---
 # <a name="map-a-cost-element-dimension"></a>تعيين بُعد عنصر التكلفة
 
@@ -43,3 +41,6 @@ ms.locfileid: "4990657"
     * لهذا المثال، حدد عضو البعد 6001004 Telefono.  
 11. انقر فوق "حفظ".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

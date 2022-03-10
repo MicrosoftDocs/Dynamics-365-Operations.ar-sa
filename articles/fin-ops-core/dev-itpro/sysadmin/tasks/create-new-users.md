@@ -2,7 +2,6 @@
 title: إنشاء مستخدمين جدد
 description: المستخدمون هم الموظفون الداخليون في مؤسستك، أو الموردون والعملاء الخارجيون، ممن يحتاجون إلى الوصول إلى النظام لإنجاز أعمالهم.
 author: peakerbl
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f30f6292ed0a4de93ba75341bc917f9205c4e39c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571043"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595376"
 ---
 # <a name="create-new-users"></a>إنشاء مستخدمين جدد
 
@@ -30,10 +29,10 @@ ms.locfileid: "5571043"
 للحصول علي معلومات حول كيفيه شراء Finance and Operationsالتطبيقات وترخيصها ، راجع [Microsoft Dynamics 365 دليل الترخيص](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>تعيين ترخيص إلى معرّف مستخدم
-بإمكان مسؤولي النظام [تعيين تراخيص إلى المستخدمين](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) في [مركز إدارة Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+بإمكان مسؤولي النظام [تعيين تراخيص إلى المستخدمين](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) في [مركز إدارة Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>أضافه مستخدم خارجي في Azure AD وتعيين ترخيص 
-يجب ان يتم تمثيل المستخدمين الخارجيين في دليل المستاجر الخاص بك ( Azure Active Directory ( Azure AD)) بحيث يمكن تعيين تراخيص لهم. يجب إضافة هؤلاء المستخدمين الخارجيين إلى المستأجر في Azure AD كمستخدمين ضيوف ثم تعيين التراخيص المناسبة لهم. ومتطلبات Finance and Operations التطبيقات هي انه يجب علي شركه المستخدمين الضيف استخدام Azure AD. لمزيد من المعلومات، راجع [إضافة مستخدمي تعاون B2B Azure Active Directory في مدخل Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+يجب ان يتم تمثيل المستخدمين الخارجيين في دليل المستأجر الخاص بك ( Azure Active Directory ( Azure AD)) بحيث يمكن تعيين تراخيص لهم. يجب إضافة هؤلاء المستخدمين الخارجيين إلى المستأجر في Azure AD كمستخدمين ضيوف ثم تعيين التراخيص المناسبة لهم. ومتطلبات Finance and Operations التطبيقات هي انه يجب علي شركه المستخدمين الضيف استخدام Azure AD. لمزيد من المعلومات، راجع [إضافة مستخدمي تعاون B2B Azure Active Directory في مدخل Azure](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>استيراد المستخدمين الجدد من Azure AD 
 1. انتقل إلى **إدارة النظام** \> **المستخدمون** \> **المستخدمون**.
@@ -51,14 +50,14 @@ ms.locfileid: "5571043"
 3. في الحقل **معرف المستخدم**، أدخل معرفًا فريدًا للمستخدم.   
 4. في حقل **اسم المستخدم**، أدخل اسم المستخدم‏‎.  
 5. في الحقل **الموفر**:
- - بالنسبة للمستخدمين الداخليين، استخدم القيمة الافتراضية. علي سبيل المثال، Azure AD يبدا المستاجر الذي تقوم باستخدامهhttps://sts.windows.net/.  
+ - بالنسبة للمستخدمين الداخليين، استخدم القيمة الافتراضية. علي سبيل المثال، Azure AD يبدا المستأجر الذي تقوم باستخدامهhttps://sts.windows.net/.  
  - بالنسبة لغير Azure AD المستخدمين، مثل حسابات الخدمة-2، ادخل قيمه نصيه أساسيه للمستخدمين. على سبيل المثال، NA. وسوف تساعد هذه القيمة علي تجنب استدعاءات المصادقة غير الصحيحة التي قد تؤدي إلى حدوث أخطاء في حاله استخدام قيمه موفر هويه صالحه.  
- - بالنسبة للمستخدمين الخارجيين أو الضيف، أضف اسم المستاجر الخاص بهم Azure AD بعد https://sts.windows.net/.
+ - بالنسبة للمستخدمين الخارجيين أو الضيف، أضف اسم المستأجر الخاص بهم Azure AD بعد https://sts.windows.net/.
 6. ثم، في حقل **‏‫البريد الإلكتروني**، أدخل عنوان البريد الإلكتروني/اسم المستخدم المسؤول للمستخدم.  
 7. في الحقل **الشركة**، حدد شركه بدء التشغيل الافتراضية للمستخدم. 
 8. حدد **حفظ**.
 
-سيتم تحديث قيم موفر الهوية ومعرف تتبع الاستخدام استنادا إلى [استدعاء Microsoft رسم](https://docs.microsoft.com/graph/overview)، عند حفظ سجل المستخدم. ويعتمد معرف تتبع الاستخدام علي معرف كائن المستخدم/معرف الأمان (SID) في Azure AD.
+سيتم تحديث قيم موفر الهوية ومعرف تتبع الاستخدام استنادا إلى [استدعاء Microsoft رسم](/graph/overview)، عند حفظ سجل المستخدم. ويعتمد معرف تتبع الاستخدام علي معرف كائن المستخدم/معرف الأمان (SID) في Azure AD.
 
 > [!NOTE]
 > بعد أضافه مستخدم، يجب تعيين الأدوار والمؤسسات حسب الحاجة. لمزيد من المعلومات، راجع ‏‫[تعيين مستخدمين إلى أدوار أمان‬](assign-users-security-roles.md). وبشكل مشروط، قد يطلب أيضا منك ربط **المستخدم** مع شخص وتحديث **خيارات المستخدم** مثل اللغة.

@@ -2,11 +2,9 @@
 title: ملاحظات الإنتاج
 description: توفر هذه المقالة معلومات حول ملاحظات الإنتاج، مما يوفر للعاملين ملاحظات حول وظائف الإنتاج. تتضمن المقالة معلومات حول الطرق المختلفة التي يمكن من خلالها تحديث ملاحظات الإنتاج.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf55c4484e6940ce193f7253f3db4d79ca1e8a07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5d3a44d3b2f26dd8a27e081d6a5f89a197907cd5cd2ca947ff4e72aabcf8d90f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250324"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744692"
 ---
 # <a name="production-feedback"></a>ملاحظات الإنتاج
 

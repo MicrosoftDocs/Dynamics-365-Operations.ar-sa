@@ -2,11 +2,9 @@
 title: محتوى "تحليل إنفاق الشراء" في Power BI
 description: يصف هذا الموضوع العناصر المضمنة في محتوى "تحليل إنفاق الشراء" في Power BI.
 author: FrankDahl
-manager: AnnBe
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5914abaafab509e278d7a85441928feddb0b5164
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a40d4f39a7119def9ed0393d4ced2be1f7e801a5c1c3f984b002e5224299915a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716102"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>محتوى "تحليل إنفاق الشراء" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع ما هو مدرج في محتوى **تحليل إنفاق الشراء‬** في Microsoft Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+يصف هذا الموضوع العناصر المضمنة في محتوى **تحليل إنفاق الشراء** في Microsoft Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -154,3 +152,6 @@ ms.locfileid: "5093432"
 | التواريخ                  | التواريخ، المقاصة الخاصة بالسنة                                    |
 
 بشكل افتراضي، يعرض المحتوى البيانات للسنة التقويمية الجارية. ولكن يمكنك تغيير عامل تصفية البيانات في قسم عوامل تصفية التقارير. يمكنك أيضا تغيير عامل تصفية الشركة.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,28 @@
 ---
 title: نظرة عامة على ضريبة المبيعات
 description: يوفر هذا الموضوع نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا.
-author: ShylaThompson
+author: kailiang
 ms.date: 10/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 13111
+ms.custom:
+- "13111"
+- intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826608"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983918"
 ---
 # <a name="sales-tax-overview"></a>نظرة عامة على ضريبة المبيعات
 
@@ -28,14 +30,13 @@ ms.locfileid: "5826608"
 
 يوفر هذا الموضوع نظرة عامة على نظام ضريبة المبيعات‬. وهي تشرح عناصر إعداد ضريبة المبيعات وكيفية عملها معًا.
 
-<a name="overview"></a>نظرة عامة
---------
+## <a name="overview"></a>نظرة عامة
 
 يدعم إطار عمل ضريبة المبيعات العديد من أنواع الضرائب غير المباشرة، مثل ضريبة المبيعات، وضريبة القيمة المضافة (VAT)، وضريبة السلع والخدمات (GST)، والرسوم على أساس الوحدة، وضريبة الخصم. ويتم حساب هذه الضرائب وتوثيقها أثناء حركات المبيعات والمشتريات. وبشكل دوري، يجب إعداد تقارير بها ودفعها إلى هيئات الضرائب.‬ 
 
 ويوضح الرسم التخطيطي التالي كيانات إعداد الضريبة ومدى ارتباطها ببعضها البعض.
 
-[![رسم تخطيطي يعرض نظره عامه على كيانات إعداد الضرائب](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![رسم تخطيطي يعرض نظرة عامة على كيانات إعداد الضرائب.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 لكل ضريبة مبيعات يجب على الشركة حسابها، يجب تحديد كود ضريبة المبيعات. يخزن كود ضريبة مبيعات معدلات الضرائب وقواعد حساب ضريبة المبيعات. 
 

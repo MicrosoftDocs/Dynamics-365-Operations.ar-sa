@@ -1,7 +1,7 @@
 ---
 title: إنشاء منتج جديد
 description: يصف هذا الموضوع كيفية إنشاء منتج مشترك جديد.
-author: ShylaThompson
+author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d6d33a13920e1881cdc69ad7c100180d3b3b441d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820024"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575574"
 ---
 # <a name="create-a-new-product"></a>إنشاء منتج جديد
 

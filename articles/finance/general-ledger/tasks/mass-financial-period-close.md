@@ -2,11 +2,9 @@
 title: إقفال شامل للفترة المالية
 description: يظهر هذا الموضوع كيفية وضع فترة قيد الاحتجاز أو إقفال فترة بشكل دائم على أكثر من كيان قانوني واحد في المرة الواحدة.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7dac267d2d4ce0824bc47b63b8d07913a8dd7f02bcccc025880701cb4d0bdd3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968719"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751267"
 ---
 # <a name="mass-financial-period-close"></a>إقفال شامل للفترة المالية
 
@@ -41,3 +39,6 @@ ms.locfileid: "4968719"
 11. حدد **تحديث حالة الفترة‬**، وعيّن الحالة إلى **قيد الانتظار** أو **مفتوح‬** أو **تم الإقفال بشكل دائم**. تشير الحالة **مفتوح** إلى أنه يمكن الترحيل إلى الفترة، بشرط توفر الوصول للمستخدم. تشير الحالة **قيد الانتظار** إلى أنه يتعذر الترحيل إلى الفترة، ولكن يمكن إعادة فتح الفترة. تشير الحالة **تم الإقفال بشكل دائم** أن الفترة مقفلة ولا يمكن إعادة فتحها إطلاقًا. لا يمكن ترحيل التسويات. لا يوصَى بتعيين فترة إلى **تم الإقفال بشكل دائم‬** إلا عند اكتمال جميع التسويات والمراجعات.  
 12. حدد **تحديث**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: تجميع النظام في قائمة عمل مفتوح‬
 description: يصف هذا الموضوع كيفية تصفية قائمة العمل المفتوح‬ على جهاز محمول.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 588744ea19f387b57405030618a6ff176161a8a3639bd58232a657bdaf064a04
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733290"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>تجميع النظام في قائمة عمل مفتوح‬
 
@@ -42,3 +39,6 @@ ms.locfileid: "4421232"
 | حقل تجميع النظام | يتوفر فقط عند تعيين <strong>السماح بعمل النظام</strong> إلى <strong>نعم</strong>. حدد الحقل الذي يحدد كيفية تجميع عمل الانتقاء للعاملين. على سبيل المثال، إذا قمت بتحديد حقل <strong>‏‫معرف الشحنة‬</strong>، سيقوم العامل بفحص معرف الشحنة لتجميع عمل الانتقاء. ثم يتم تعيين جميع الأعمال للشحنة للعامل. ويتطلب هذا الحقل إنشاء صنف قائمة لاستخدام العمل الموجود الذي يتم تجميعه بواسطة النظام. استخدم الحقل <strong>تسمية تجميع النظام</strong> لإعلام العامل بما يجب عليه فحصه. |
 | بطاقة تجميع النظام |                       يتوفر فقط عند تعيين <strong>السماح بعمل النظام</strong> إلى <strong>نعم</strong>. أدخل معلومات للعامل عما يجب عليه فحصه عندما يتم تجميع عمل الانتقاء. على سبيل المثال، إذا كنت تستخدم حقل <strong>معرف الشحنة</strong> لتجميع عمل الانتقاء بالشحنة، يمكنك إدخال معرف الشحنة في الحقل. ويتطلب هذا الحقل إنشاء صنف قائمة لاستخدام العمل الموجود الذي يتم تجميعه بواسطة النظام. يجب أيضًا تحديد الحقل للتجميع بحسب في حقل <strong>تجميع النظام</strong>.                       |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

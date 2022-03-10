@@ -2,11 +2,9 @@
 title: تحديد تعيينات نماذج التقارير الإلكترونية وتحديد مصادر بيانات لها
 description: يصف هذا الموضوع كيف يمكن لمستخدم بدور مسؤول النظام أو مطور التقارير الإلكترونية تحديد مصادر البيانات لنموذج بيانات التقارير الإلكترونية.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7fccdda3ac441630836a0d33f78eb04e9cd26d4a
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 69fb025b273aca6a0cf7733732f2849686eaa470ded6804a10b793cff9837562
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717534"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>تحديد تعيينات نماذج التقارير الإلكترونية وتحديد مصادر بيانات لها
 
@@ -157,3 +155,6 @@ ms.locfileid: "5092100"
 71. قم بإغلاق الصفحة.
 72. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

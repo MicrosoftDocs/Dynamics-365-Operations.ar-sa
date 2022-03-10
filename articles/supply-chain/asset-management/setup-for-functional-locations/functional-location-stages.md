@@ -1,12 +1,10 @@
 ---
 title: حالات دورة حياة موقع العمل
 description: يصف هذا الموضوع كيفية إعداد حالات موقع العمل ونماذج دورة الحياة في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationLifecycleModel, EntAssetFunctionalLocationLifecycleState
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f119e68319b901b052fa4aa659260f386f44bcf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021256"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360960"
 ---
 # <a name="functional-location-lifecycle-states"></a>حالات دورة حياة موقع العمل
 
@@ -58,7 +56,10 @@ ms.locfileid: "5021256"
 1. حدد **إدارة الأصول** > **الإعداد** > **مواقع العمل** > **نماذج دورة الحياة.**.
 2. حدد **جديد** لإنشاء نموذج دورة حياة جديد.
 3. أدخل معرف نموذج دورة الحياة في حقل **نموذج دورة الحياة**، وأدخل اسمًا لنموذج دورة الحياة في حقل **الاسم**. في الحقلين **أنواع مواقع العمل** و **حالات دورة الحياة**، يمكنك رؤية عدد أنواع مواقع العمل التي تستخدم نموذج دورة الحياة وعدد الحالات المحددة في نموذج دورة الحياة.
-4. على علامة التبويب السريعة **حالات دورة الحياة**، حدد الحالات التي يجب تضمينها في النموذج. ويتم ذلك بالنقر فوق حالة في القسم **دورة الحياة المتبقية** والنقر فوق زر ![السهم للأمام](media/02-setup-for-functional-locations.png).
-5. إذا كنت ترغب في تحديد كافة الحالات المتوفرة لنموذج، فانقر فوق الزر ![تحديد جميع المراحل المتوفرة](media/03-setup-for-functional-locations.png). يتم نقل جميع الحالات إلى القسم **حالات دورة الحياة المحددة**.
-6. إذا كنت ترغب في إزالة حالة محددة من النموذج، فحدد الحالة في القسم **حالات دورة الحياة المحددة** ثم حدد الزر ![سهم للخلف](media/04-setup-for-functional-locations.png).
+4. على علامة التبويب السريعة **حالات دورة الحياة**، حدد الحالات التي يجب تضمينها في النموذج. ويتم ذلك بالنقر فوق حالة في القسم **دورة الحياة المتبقية** والنقر فوق زر ![السهم للأمام.](media/02-setup-for-functional-locations.png) .
+5. إذا كنت ترغب في تحديد كافة الحالات المتوفرة لنموذج، فانقر فوق الزر ![تحديد جميع المراحل المتوفرة.](media/03-setup-for-functional-locations.png) . يتم نقل جميع الحالات إلى القسم **حالات دورة الحياة المحددة**.
+6. إذا كنت ترغب في إزالة حالة محددة من النموذج، فحدد الحالة في القسم **حالات دورة الحياة المحددة** ثم حدد الزر ![سهم للخلف.](media/04-setup-for-functional-locations.png). .
 7. حدد **تحديثات حالة دورة الحياة** لتحديد حالات دورة الحياة التي يمكنها أن تتبع حالة محددة.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

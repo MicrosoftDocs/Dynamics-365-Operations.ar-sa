@@ -2,35 +2,34 @@
 title: الجديد أو المتغير في Dynamics 365 Human Resources‏ 2 ديسمبر 2020
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 2 ديسمبر 2020.
 author: marcelbf
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
-ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
+ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5080028"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782649"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>الجديد أو المتغير في Dynamics 365 Human Resources‏ 2 ديسمبر 2020
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources.
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
-لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>في هذا الإصدار
 
@@ -42,10 +41,10 @@ ms.locfileid: "5080028"
 
 | الميزة | خطة الإصدار | الوثائق |
 | --- | --- | --- |
-| المديرون قادرون على إرسال طلبات التعيين للمناصب | [المديرون قادرون على إرسال طلب تعيين للمناصب المفتوحة](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [إضافة طلب تعيين](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| ملف تعريف مرشح محسن في إدارة العاملين | [ملف تعريف مرشح محسن في إدارة العاملين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [إضافة ملف تعريف مرشح أو تحريره](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| تمكين التكاملات المبسطة مع موفري التعيين | [تمكين التكاملات المبسطة مع موفري التعيين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [تعيين المرشحين للوظائف](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
-| الارتباطات المخصصة في الخدمة الذاتية للمدير | [الارتباطات المخصصة في الخدمة الذاتية للمدير](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [الارتباطات المخصصة في الخدمة الذاتية للمدير](https://aka.ms/MSSCustomLinks) |
+| المديرون قادرون على إرسال طلبات التعيين للمناصب | [المديرون قادرون على إرسال طلب تعيين للمناصب المفتوحة](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [إضافة طلب تعيين](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| ملف تعريف مرشح محسن في إدارة العاملين | [ملف تعريف مرشح محسن في إدارة العاملين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [إضافة ملف تعريف مرشح أو تحريره](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| تمكين التكاملات المبسطة مع موفري التعيين | [تمكين التكاملات المبسطة مع موفري التعيين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [تعيين المرشحين للوظائف](./hr-personnel-recruit.md) |
+| الارتباطات المخصصة في الخدمة الذاتية للمدير | [الارتباطات المخصصة في الخدمة الذاتية للمدير](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [الارتباطات المخصصة في الخدمة الذاتية للمدير](./hr-employee-manager-self-service-custom-links.md) |
 
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
@@ -72,22 +71,25 @@ ms.locfileid: "5080028"
 
 | الميزة | خطة الإصدار | الوثائق |
 | --- | --- | --- |
-| تطبيق Human Resources في Microsoft Teams | [تجربة إجازة وغياب الموظف في Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [تطبيق Human Resources في Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md) |
-| طلبات سير العمل المحسنة والموافقات | [تحسينات تجربة سير العمل للمؤسسة وإدارة العاملين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [خيار التكوين لقائمة وضع عناصر العمل المعينة لي](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| التكامل مع LinkedIn Talent Hub | [التكامل مع LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [التكامل مع LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
-|عرض الإجازات عبر الشركات للمديرين | [عرض إجازات الموظفين عبر الشركات للمديرين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [تكوين معلمات الإجازة والغياب](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-|تقديم نتيجة تحليلات إضافية في أرصدة الإجازات| [تقديم نتيجة تحليلات إضافية في أرصدة الإجازات](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [إدارة إجازة الموظف](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
-| المديرون قادرون على إرسال طلبات التعيين للمناصب | [المديرون قادرون على إرسال طلب تعيين للمناصب المفتوحة](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [إضافة طلب تعيين](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| ملف تعريف مرشح محسن في إدارة العاملين | [ملف تعريف مرشح محسن في إدارة العاملين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [إضافة ملف تعريف مرشح أو تحريره](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| تمكين التكاملات المبسطة مع موفري التعيين | [تمكين التكاملات المبسطة مع موفري التعيين](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [تعيين المرشحين للوظائف](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
+| تطبيق Human Resources في Microsoft Teams | [تجربة إجازة وغياب الموظف في Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [تطبيق Human Resources في Teams](./hr-admin-teams-leave-app.md)<br>[إدارة طلبات الإجازة في Teams](hr-teams-leave-app.md) |
+| طلبات سير العمل المحسنة والموافقات | [تحسينات تجربة سير العمل للمؤسسة وإدارة العاملين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [خيار التكوين لقائمة وضع عناصر العمل المعينة لي](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| التكامل مع LinkedIn Talent Hub | [التكامل مع LinkedIn Talent Hub](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [التكامل مع LinkedIn Talent Hub](./hr-admin-integration-linkedin.md) |
+|عرض الإجازات عبر الشركات للمديرين | [عرض إجازات الموظفين عبر الشركات للمديرين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [تكوين معلمات الإجازة والغياب](./hr-leave-and-absence-parameters.md) |
+|تقديم نتيجة تحليلات إضافية في أرصدة الإجازات| [تقديم نتيجة تحليلات إضافية في أرصدة الإجازات](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [إدارة إجازة الموظف](./hr-leave-and-absence-manage-employee-leave.md) |
+| المديرون قادرون على إرسال طلبات التعيين للمناصب | [المديرون قادرون على إرسال طلب تعيين للمناصب المفتوحة](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [إضافة طلب تعيين](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| ملف تعريف مرشح محسن في إدارة العاملين | [ملف تعريف مرشح محسن في إدارة العاملين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [إضافة ملف تعريف مرشح أو تحريره](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| تمكين التكاملات المبسطة مع موفري التعيين | [تمكين التكاملات المبسطة مع موفري التعيين](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [تعيين المرشحين للوظائف](./hr-personnel-recruit.md) |
 
 ## <a name="coming-soon"></a>قريبًا
 
-للحصول على قائمة كاملة بالميزات المخططة والإصدارات المجدولة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+للحصول على قائمة كاملة بالميزات المخططة والإصدارات المجدولة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="see-also"></a>راجع أيضًا
 
 [الميزات الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)</br>
-[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[نظره عامة حول الموجة 2 من إصدار Dynamics 365 Human Resources  2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [تحديث العملية](hr-admin-setup-update-process.md)</br>
 [إدارة الميزات](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

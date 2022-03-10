@@ -1,33 +1,35 @@
 ---
-title: 'تكوين التكامل مع Dayforce '
-description: يعتمد التكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce على العديد من خطوات التكوين الموضحة في هذا المقال. يجب عليك تكوين التكامل في كل من Human Resources وDayforce قبل أن تتمكن من معالجة دورة دفع.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+title: تكوين التكامل مع Dayforce
+description: يصف هذا الموضوع خطوات التكوين المطلوبة اللازمة للتكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417033"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067066"
 ---
-# <a name="configure-integration-with-dayforce"></a>تكوين التكامل مع Dayforce 
+# <a name="configure-integration-with-dayforce"></a>تكوين التكامل مع Dayforce
 
-يعتمد التكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce على العديد من خطوات التكوين الموضحة في هذا المقال. يجب عليك تكوين التكامل في كل من Human Resources وDayforce قبل أن تتمكن من معالجة دورة دفع.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+يعتمد التكامل بين Dynamics 365 Human Resources وCeridian Dayforce على العديد من خطوات التكوين التي تم وصفها في هذا الموضوع. يجب عليك تكوين التكامل في كل من Human Resources وDayforce قبل أن تتمكن من معالجة دورة دفع.
 
 عندما تستخدم خدمة مثل Dayforce لإتمام دورات الدفع، يجب عليك تمكين التكامل في Human Resources. يتطلب التكامل بيانات معينة من Human Resources. لذلك، يجب عليك التأكد من أن البيانات التي تم تعيينها إلى Dayforce هي بيانات تم تكوينها في Human Resources بطريقة تدعم التكامل. يستخدم التكامل الفئات الواسعة التالية من البيانات:
 
@@ -36,7 +38,7 @@ ms.locfileid: "4417033"
 - بيانات كشف المرتبات، مثل دورات الدفع وفترات الدفع وأكواد الأرباح
 - بيانات العامل
 
-يصف هذا المقال الخطوات التي يجب اتباعها لتمكين التكامل. ويشرح أيضًا أنواع البيانات وتفاصيل التكوين التي يحتاج إليها التكامل.
+يصف هذا الموضوع الخطوات التي يجب اتباعها لتمكين التكامل ويشرح أنواع البيانات وتفاصيل التكوين التي يتطلبها التكامل.
 
 ## <a name="enable-the-integration"></a>تمكين التكامل
 
@@ -51,10 +53,10 @@ ms.locfileid: "4417033"
 
 عند تشغيل التكامل، يتم إنشاء حزمة وملفات تصدير البيانات ويتم تعيين معدل التكرار. ويمكنك تغيير معدل التكرار وفق الحاجة.
 
-لمزيد من المعلومات حول حسابات مساحة تخزين Azure وسلاسل اتصال مساحة تخزين Azure، راجع مقالات Azure التالية:
+لمزيد من المعلومات حول حسابات مساحة تخزين Azure وسلاسل اتصال مساحة تخزين Azure، راجع موضوعات Azure التالية:
 
-- [حول حسابات مساحة تخزين Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [تكوين سلاسل اتصال مساحة تخزين Azure](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
+- [حول حسابات مساحة تخزين Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [تكوين سلاسل اتصال مساحة تخزين Azure](/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>تفاصيل تقنية عند تمكين تكامل الرواتب
 
@@ -122,12 +124,12 @@ ms.locfileid: "4417033"
 | المساهمة فقط          | يتم إنشاء خصم صاحب العمل‬.             |
 | الخصم والمساهمة | يتم إنشاء خصومات الموظف وصاحب العمل. |
 
-لمزيد من المعلومات حول كيفية تحديد وإدارة برنامج ميزات، راجع المقالات التالية:
+لمزيد من المعلومات حول كيفية تحديد وإدارة برنامج ميزات، راجع الموضوعات التالية:
 
-- [تقديم برنامج ميزات الموظفين](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [إنشاء ميزة جديدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [تحديد قواعد وسياسات استحقاق الفائدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [تسجيل ميزات للعاملين وإزالتها منهم](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [تقديم برنامج ميزات الموظفين](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [إنشاء ميزة جديدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [تحديد قواعد وسياسات استحقاق الفائدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [تسجيل ميزات للعاملين وإزالتها منهم](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>التعويض 
 
@@ -135,24 +137,24 @@ ms.locfileid: "4417033"
 
 تستخدم خدمة Dayforce معلومات التعويض لحساب معدل الموظف السنوي أو الساعي. وتعتبر خطط التعويض الثابت وتحويلات معدل الدفع مطلوبة. يجب ربط الموظفين بخطة تعويض ثابت.
 
-لمزيد من المعلومات حول خطط التعويض، راجع المقالات التالية:
+لمزيد من المعلومات حول خطط التعويض، راجع الموضوعات التالية:
 
-- [إنشاء خطط التعويض الثابت](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [إنشاء خطط التعويض المتغير](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [تطوير خطط وبنية المرتب/التعويض](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [تعويض العملية](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-- [تحديد عملية التعويض وحساب النتائج](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [تسجيل موظف في خطة تعويض ثابتة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [تسجيل موظف في خطة التعويض المتغيرة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [إنشاء خطط التعويض الثابت](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [إنشاء خطط التعويض المتغير](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [تطوير خطط وبنية المرتب/التعويض](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [تعويض العملية](/dynamics365/unified-operations/talent/process-compensation)
+- [تحديد عملية التعويض وحساب النتائج](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [تسجيل موظف في خطة تعويض ثابتة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [تسجيل موظف في خطة التعويض المتغيرة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>الوظائف 
 
-الوظيفة هي مجموعة من المهام والمسؤوليات المطلوبة من الشخص الذي يؤدي وظيفة. لمزيد من المعلومات، راجع المقالات التالية:
+الوظيفة هي مجموعة من المهام والمسؤوليات المطلوبة من الشخص الذي يؤدي وظيفة. لمزيد من المعلومات، راجع الموضوعات التالية:
 
-- [إعداد مكونات وظيفة](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
-- [تحديد الوظائف الجديدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [إعداد مكونات وظيفة](/dynamics365/unified-operations/talent/create-job)
+- [تحديد الوظائف الجديدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
-##### <a name="positions"></a>المناصب‬
+##### <a name="positions"></a>المناصب
 
 يعتبر المنصب مثيلاً فرديًا لوظيفة ما. على سبيل المثال، المنصب "مدير المبيعات (شرق)،" هو أحد المناصب المقترنة بالوظيفة، "مدير المبيعات". يوجد منصب في قسم. ويمكن ربط عامل واحد فقط بكل منصب.
 
@@ -172,19 +174,19 @@ ms.locfileid: "4417033"
 
 عند ارتباط مناصب متعددة في القسم نفسه بالوظيفة نفسها، فسيتم دمجها في منصب واحد في Dayforce.
 
-لمزيد من المعلومات، راجع المقالات التالية:
+لمزيد من المعلومات، راجع الموضوعات التالية:
 
-- [تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [إعداد المناصب](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [تنظيم قوة العمل باستخدام الإدارات والوظائف والمناصب](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [إعداد المناصب](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>الأقسام
 
 القسم عبارة عن وحدة تشغيل تمثل فئة أو مجال وظيفي المؤسسة. والقسم مسؤول عن مجال معين للمؤسسة، مثل المبيعات أو المحاسبة أو الموارد البشرية. ويمكنك استخدام الأقسام للإبلاغ عن المجالات الوظيفية. قد تتحمل الأقسام المسؤولية عن الأرباح والخسائر.
 
-لمزيد من المعلومات، راجع المقالات التالية:
+لمزيد من المعلومات، راجع الموضوعات التالية:
 
-- [إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [تحديد الأقسام الجديدة](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [إنشاء قسم وإقرانه بالتدرج الهرمي للأقسام](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [تحديد الأقسام الجديدة](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>دورات الدفع وفترات الدفع
 
@@ -676,3 +678,6 @@ ms.locfileid: "4417033"
 
 بإمكان الموظفين الإعلان عن أرقام تعريف متعددة من نوع التعريف **جواز سفر**. ومع ذلك، يتم دمج إدخال جواز السفر النشط الحالي فقط في Dayforce. إذا انتهت صلاحية جميع إدخالات جوازات السفر، فسيتكامل جواز السفر الذي تم إصداره مؤخرًا في Dayforce.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: تطبيق عوامل تصفية على خطة
 description: يشرح هذا الموضوع كيفية استخدام عوامل التصفية في خطة عند استخدام وظيفة "تحسين التخطيط".
 author: ChristianRytt
-manager: tfehr
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b5262cc5dc72ffcc50770cf5a2e2dda216d7ff8e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212092"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729017"
 ---
 # <a name="apply-filters-to-a-plan"></a>تطبيق عوامل تصفية على خطة
 
@@ -45,7 +43,7 @@ ms.locfileid: "5212092"
 - **عامل التصفية وقت التشغيل الذي يتضمن كافة الأصناف (عامل التصفية الفارغ):** يتم تضمين الأصناف A و B و C في تشغيل التخطيط ، وتتم الكتابة فوق الإخراج السابق للتخطيط الخاص بالأصناف A و B.
 
 > [!NOTE]
-> وينبغي تجنب إعداد عامل تصفيه الخطة علي الخطة المحددة كـ **خطة رئيسيه ديناميكية حاليه** في صفحه **معلمات التخطيط الرئيسية**. وبخلاف ذلك ، سيتم تحديد وظيفة الخطة الرئيسية الديناميكية للأصناف التي تمت تصفيتها. على سبيل المثال ، إذا تم تحديث صافي المتطلبات لصنف ليس جزءا من عامل تصفيه الخطة ، فلن يتم إنشاء إيه نتيجة.
+> إذا قمت بتعيين عامل تصفية خطة على الخطة التي تم تحديدها على أنها **الخطة الرئيسية الديناميكية الحالية** في صفحة **معلمات التخطيط الرئيسي**، ثم ستقتصر وظيفة المخطط الرئيسي الديناميكي على العناصر التي تمت تصفيتها. على سبيل المثال ، إذا تم تحديث صافي المتطلبات لصنف ليس جزءا من عامل تصفيه الخطة ، فلن يتم إنشاء إيه نتيجة.
 
 ## <a name="related-resources"></a>الموارد ذات الصلة
 

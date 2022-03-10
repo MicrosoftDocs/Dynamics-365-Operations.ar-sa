@@ -1,12 +1,10 @@
 ---
 title: الضمانات على الأصول وأنواع الأصول
 description: يشرح هذا الموضوع كيفية إعداد الضمانات على الأصول وأنواع الأصول في إدارة الأصول.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c0359bfe31b3d01f28028bb17d5d30af39a1db9
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bcfbd56f5fa1491f13ea65c5fb3d70659c3b945276813d7c1c922c849bf8e3a3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751160"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>الضمانات على الأصول وأنواع الأصول
 
@@ -49,7 +47,10 @@ ms.locfileid: "5021593"
     > [!IMPORTANT]
     > إذا تم تحديد تاريخ في حقل **بدء الضمان** على أمر عملي، يصبح الضمان صالحًا لأمر العمل في ذلك التاريخ. عند إنشاء أمر عمل، يتم تعيين حقل **بدء الضمان** بشكل تلقائي إلى تاريخ الإنشاء. ومع ذلك، يمكنك تغيير التاريخ بحيث يتوافق مع تاريخ بدء اتفاقية الضمان، على سبيل المثال.
     >
-    > ![صفحة أمر العمل](media/02-warranty.png)
+    > ![صفحة أمر العمل.](media/02-warranty.png)
 
 > [!NOTE]
 > إذا أنشأت أمر عمل لأصل يغطيه ضمان المورّد، وفي حال وجود تاريخ بدء متوقع لأمر العمل خلال فترة الضمان، ستتلقى إشعارًا حول اتفاقية الضمان. يمكنك عندئذٍ إلغاء أمر العمل، كما هو مطلوب.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Saudi Arabia
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b563d64ab61c625eed3c0e3352c22458e6257bbf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e2e035d42e5d832e114340f34f3c20895f618c3e8998ba3af6a63b745aa1e12
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760645"
 ---
 # <a name="zakat-reporting"></a>الإبلاغ عن الزكاة
 

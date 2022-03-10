@@ -1,7 +1,7 @@
 ---
 title: إنشاء أوامر شراء
 description: تصف هذه المقالة العمليات والخيارات التي تتوفر لك عندما تنشئ أمر شراء يدويًا.
-author: kamaybac
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d09b6f693f3396da181a0f47051b7c961aa55e03
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188235"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575502"
 ---
 # <a name="create-purchase-orders"></a>إنشاء أوامر شراء
 

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83e75eee54516539be939e9547a8b637bbf2ab107ae96c07c4bbefaad75f1022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768431"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324052"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>إعادة استخدام التكوينات باستخدام قوالب Excel لإنشاء تقارير بتنسيقات Word
 
 [!include [banner](../../includes/banner.md)]
 
-لإنشاء تقارير Microsoft Word كمستندات، يمكنك [تكوين](../er-design-configuration-word.md)[ تنسيق ](../general-electronic-reporting.md)[التقارير الإلكترونيه الجديد (ER)](../general-electronic-reporting.md#FormatComponentOutbound). بدلا من ذلك، يمكنك أعاده استخدام تنسيق ER الذي تم تصميمه في الأصل لإنشاء تقارير كمصنفات Excel. في هذه الحالة، يجب استبدال قالب Excel بقالب Word.
+لإنشاء تقارير كمستندات Microsoft Word يمكنك [تكوين](../er-design-configuration-word.md) تنسيق [التقارير الإلكترونية (ER)](../general-electronic-reporting.md) الجديد. بدلا من ذلك، يمكنك أعاده استخدام تنسيق ER الذي تم تصميمه في الأصل لإنشاء تقارير كمصنفات Excel. في هذه الحالة، يجب استبدال قالب Excel بقالب Word.
 
 تظهر الإجراءات التالية كيف يمكن لمستخدم ما في دور مسؤول النظام أو دور مطور التقارير الكترونيه تكوين تنسيق ER لإنشاء تقارير كملفات Word عن طريق أعاده استخدام تنسيق ER الذي تم تصميمه لإنشاء تقارير كملفات Excel.
 
@@ -90,7 +90,7 @@ ms.locfileid: "6768431"
 
 نفّذ تعيين العناصر في جزء XML المخصص المحدد **التقرير** وعناصر التحكم بالمحتوى في مستند Word.
 
-إذا كنت ملمًا باستخدام مستندات Word التي يمكن تصميمها كنماذج تحتوي على [عناصر تحكم](/office/client-developer/word/content-controls-in-word) بالمحتوى ترتباط بعناصر من [أجزاء XML المخصصة](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)، فيمكنك تشغيل كل الخطوات في المهمة الفرعية التالية لإنشاء مثل هذا المستند. لمزيد من المعلومات، راجع [إنشاء نماذج يقوم المستخدمون بإكمالها أو طباعتها في Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). وإلا، فيمكنك تخطي الإجراء التالي.
+إذا كنت ملمًا باستخدام مستندات Word التي يمكن تصميمها كنماذج تحتوي على [عناصر تحكم](/office/client-developer/word/content-controls-in-word) بالمحتوى ترتباط بعناصر من [أجزاء XML المخصصة](/visualstudio/vsto/custom-xml-parts-overview)، فيمكنك تشغيل كل الخطوات في المهمة الفرعية التالية لإنشاء مثل هذا المستند. لمزيد من المعلومات، راجع [إنشاء نماذج يقوم المستخدمون بإكمالها أو طباعتها في Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). وإلا، فيمكنك تخطي الإجراء التالي.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>الحصول علي مستند Word يحتوي علي جزء XML مخصص وتعيين البيانات
 

@@ -1,7 +1,7 @@
 ---
 title: عمليات سير عمل الموافقة على دفتر يومية المخزون
 description: يوضح هذا الموضوع كيفية إعداد عمليات سير عمل الموافقة على دفتر يومية المخزون واستخدامها لمختلف أنواع حركات المخزون الفعلي. تساعد عمليات سير عمل دفتر يومية المخزون الموافق عليها على التأكد من أن دفاتر يومية المخزون الموافق عليها يمكن ترحيلها إلى الحركات.
-author: sherry-zheng
+author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354751"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778295"
 ---
 # <a name="inventory-journal-approval-workflows"></a>عمليات سير عمل الموافقة على دفتر يومية المخزون
 
@@ -31,7 +31,7 @@ ms.locfileid: "6354751"
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>ميزة تشغيل سير عمل اعتماد دفتر يومية المخزون
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
 
 - **الوحدة النمطية:** *إدارة المخزون والمستودعات*
 - **اسم الميزة:** *الموافقة علي دفتر يوميه المخزون الموافقة علي سير العمل*

@@ -1,8 +1,7 @@
 ---
 title: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
 description: يوضح هذا الموضوع كيفية تضمين تقرير Power BI في علامة تبويب "التحليلات" في مساحة عمل.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +9,15 @@ ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760142"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
 
@@ -55,11 +54,11 @@ ms.locfileid: "5568480"
 3. في **إضافة صنف جديد**، تحت **منتجات Operations**، حدد قالب **المورد**.
 4. أدخل اسمًا سيتم استخدامه للإشارة إلى التقرير في بيانات تعريف X++، ومن ثم انقر فوق **إضافة**.
 
-    ![مربع الحوار "إضافة صنف جديد"](media/analytical-workspace-add.png)
+    ![مربع الحوار "إضافة صنف جديد".](media/analytical-workspace-add.png)
 
 5. ابحث عن ملف pbix. الذي يحتوي على تعريف التقرير التحليلي، ثم انقر فوق **فتح**.
 
-    ![حدد مربع حوار "ملف المورد"](media/analytical-workspace-select-resource.png)
+    ![حدد مربع حوار "ملف المورد".](media/analytical-workspace-select-resource.png)
 
 والآن بعد أن قمت بإضافة ملف pbix. كمورد Dynamics 365، يمكنك تضمين التقارير في مساحات العمل وإضافة الارتباطات المباشرة باستخدام عناصر القائمة.
 
@@ -68,7 +67,7 @@ ms.locfileid: "5568480"
 
 يبين الرسم التوضيحي التالي الشكل الذي يتخذه النموذج **FMClerkWorkspace** في المصمم في Microsoft Visual Studio.
 
-![نموذج FMClerkWorkspace قبل التغييرات](media/analytical-workspace-definition-before.png)
+![نموذج FMClerkWorkspace قبل التغييرات.](media/analytical-workspace-definition-before.png)
 
 اتبع هذه الخطوات لتوسيع تعريف النموذج لمساحة عمل **إدارة الحجز**.
 
@@ -93,7 +92,7 @@ ms.locfileid: "5568480"
 
 يبين الرسم التوضيحي التالي الشكل الذي يتخذه التصميم بعد تطبيق هذه التغييرات.
 
-![FMClerkWorkspace بعد التغييرات](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace بعد التغييرات.](media/analytical-workspace-definition-after.png)
 
 والآن بعد أن قمت بإضافة عناصر تحكم النموذج التي سيتم استخدامها لتضمين تقرير مساحة العمل، يجب تحديد حجم عنصر التحكم الأصل بحيث يستوعب التخطيط. بشكل افتراضي، سوف تظهر في التقرير الصفحة **"جزء عوامل تصفية"** والصحفة **علامة التبويب**. ومع ذلك، يمكنك تغيير كيفية ظهور عناصر التحكم هذه بما يتناسب مع المستخدم المستهدف للتقرير.
 
@@ -143,7 +142,7 @@ ms.locfileid: "5568480"
 
 لقد أتممت الآن مهمة إضافة منطق تسلسل العمل لتهيئة عنصر تحكم عارض التقرير المضمن. يبين الرسم التوضيحي التالي الشكل الذي تتخذه مساحة العمل بعد تطبيق هذه التغييرات.
 
-![تقرير مضمن في مساحة العمل](media/analytical-workspace-final.png)
+![تقرير مضمن في مساحة العمل.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > يمكنك الوصول إلى طريقة العرض التشغيلية الموجودة باستخدام علامات تبويب مساحة العمل تحت عنوان الصفحة.

@@ -2,7 +2,6 @@
 title: تحديث بنية قالب مستند الأعمال
 description: يشرح هذا الموضوع كيفيه تحديث بنيه قالب مستند العمل باستخدام ميزه أداره مستندات العمل.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 09813115544701ea3fffb6be06114bcdd63c0ba0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570438"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775276"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>تحديث بنية قالب مستند الأعمال 
 
@@ -59,7 +58,7 @@ ms.locfileid: "5570438"
 
     يتم فتح القالب الجديد للتحرير في عنصر تحكم Excel Online المضمن في صفحة محرر القوالب.
 
-[![استخدام مساحة عمل إدارة مستندات الأعمال للبدء في تحرير قالب مستند الأعمال](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![استخدام مساحة عمل إدارة مستندات الأعمال للبدء في تحرير قالب مستند الأعمال.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>مراجعة البنية الحالية للقالب القابل للتحرير
 
@@ -69,7 +68,7 @@ ms.locfileid: "5570438"
 4. في جزء **بنية القالب**، قم بتوسيع **التقرير \> الفاتورة \> rptHeader \> rptHeaderPart1**.
 5. لاحظ أنه في بنية القالب في Finance، يتم عرض عنصر **rptHeaderCompLogo** كعنصر تابع لـ **التقرير \> الفاتورة \> rptHeader \> rptHeaderPart1**.
 
-[![استخدام مساحة عمل إدارة مستندات الأعمال لمراجعة الهيكل الحالي لقالب قابل للتحرير](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![استخدام مساحة عمل إدارة مستندات الأعمال لمراجعة الهيكل الحالي لقالب قابل للتحرير.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>تحديث بنية قالب مستند الأعمال عن طريق حذف صورة
 
@@ -86,7 +85,7 @@ ms.locfileid: "5570438"
 4. في جزء **بنية القالب**، قم بتوسيع **التقرير \> الفاتورة \> rptHeader \> rptHeaderPart1**.
 5. لاحظ أن عنصر **rptHeaderCompLogo** لم يعد مضمنًا في بنية القالب في Finance.
 
-[![استخدام مساحة عمل إدارة مستندات الأعمال لحذف صورة من قالب مستند الأعمال](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![استخدام مساحة عمل إدارة مستندات الأعمال لحذف صورة من قالب مستند الأعمال.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>تحديث بنية قالب مستند الأعمال عن طريق إضافة صورة
 
@@ -98,7 +97,7 @@ ms.locfileid: "5570438"
 6. في جزء **بنية القالب**، قم بتوسيع **التقرير \> الفاتورة \> rptHeader \> rptHeaderPart1**.
 7. لاحظ أن الصورة الجديدة مضمنة الآن كعنصر في بنية القالب في Finance.
 
-[![استخدام مساحة عمل إدارة مستندات الأعمال لإضافة صورة إلى قالب مستند الأعمال](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![استخدام مساحة عمل إدارة مستندات الأعمال لإضافة صورة إلى قالب مستند الأعمال.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>الارتباطات‬ ذات الصلة
 

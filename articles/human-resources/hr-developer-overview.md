@@ -2,34 +2,33 @@
 title: نظرة عامة على التطوير
 description: يوفر دليل المطور هذا واجهة برمجة تطبيقات (API) ومرجع للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e390592b000c8f6006aa489fd3823c4f15cb2cb
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 78fc1afc596ca5a847d15a0da2db841aa303bad7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467785"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066790"
 ---
 # <a name="development-overview"></a>نظرة عامة على التطوير
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 يوفر دليل المطور هذا واجهة برمجة تطبيقات (API) ومرجع للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
 
@@ -48,10 +47,10 @@ ms.locfileid: "5467785"
   - [تكوين التكامل مع Dayforce](hr-admin-integration-dayforce.md)
   - [إنشاء تطبيق تصدير البيانات المتكررة](hr-admin-integration-recurring-data-export.md)
   - التكامل مع Office
-    - [برنامج تعليمي لتكامل Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [تحديث بيانات الكيان في Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [إنشاء خبرات فتح في Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [استكشاف أخطاء تكامل Office وإصلاحها](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [برنامج تعليمي لتكامل Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [تحديث بيانات الكيان في Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [إنشاء خبرات فتح في Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [استكشاف أخطاء تكامل Office وإصلاحها](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - مرجع API الكيان
   - [المصادقة](hr-developer-api-authentication.md)

@@ -1,7 +1,7 @@
 ---
 title: ‏‫نسخ معادلة‬
 description: يركز هذا الإجراء على إنشاء معادلة تتضمن نفس المكونات التي تتضمنها معادلة موجودة، ولكن مع اختلافات بسيطة.
-author: ShylaThompson
+author: johanhoffmann
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 611ebb79fb77bde13a3dd59317662fddbfc1a7e6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 654e631ee7f2f3bbd2d874ad698f1ecaeaa14418
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829248"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566661"
 ---
 # <a name="copy-a-formula"></a>‏‫نسخ معادلة‬
 

@@ -1,8 +1,8 @@
 ---
 title: إعداد القسائم لمبيعات البيع بالتجزئة
-description: يوفر هذا الموضوع نظرة عامة على القسائم ويشرح كيفية إعدادها.
-author: scott-tucker
-ms.date: 06/04/2020
+description: يوفر هذا الموضوع نظرة عامة على القسائم ويشرح كيفية إعدادها في Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792015"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603111"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>إعداد القسائم لمبيعات البيع بالتجزئة
 
@@ -38,6 +38,10 @@ ms.locfileid: "5792015"
 
 > [!NOTE]
 > بعد ربط قسيمة بخصم، تصبح عدة حقول في صفحة الخصم في Commerce للقراءة فقط، نظرًا لإدارتها من خلال إعدادات القسيمة. تتضمن هذه الحقول حقول الحالة ونطاقات التاريخ القياسية.
+> 
+> أثناء استخدام القسيمة في قناة مركز الاتصال، يجب تحديد الزر **إعادة حساب** **(علامة التبويب "بيع" > حساب > إعادة حساب)** كي يتم تطبيق الخصم المقترن بالقسيمة. ستتم إزالة هذه الخطوة الإضافية في إصدار مستقبلي.
+
+لتطبيق قسيمة علي حركه مبيعات في نقطه البيع (POS) ، يمكنك استخدام **كود القسيمة** أو **الكود الشريطي لقسيمة**. لاستخدام **رمز القسيمة** ، يجب تكوين عمليه **أضافه كود القسيمة** في تخطيط شاشه **حركه** [نقطه البيع](pos-screen-layouts.md). حدد **أضافه كود القسيمة** وادخل كود القسيمة. وبدلا من ذلك ، لاستخدام **الكود الشريطي لكوبون** ، قم بفحص الكود الشريطي أو ادخل الرمز الشريطي باستخدام لوحه المفاتيح الرقمية الموجودة علي شاشه **الحركة**.
 
 ### <a name="limited-use-coupons"></a>القسائم المحدودة الاستخدام
 

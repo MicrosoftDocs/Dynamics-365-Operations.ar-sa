@@ -1,12 +1,10 @@
 ---
-title: تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنة مع القيم الأساسية
+title: تحسين تتبع نتائج التقارير الإلكترونية (ER) المنشأة للمقارنة مع القيم الأساسية
 description: ويصف هذا الموضوع التحسينات التي تمت علي ميزه الأساس الخاصة ب ER في Microsoft Dynamics 365 for Finance and Operations10.0.3 الإصدار (يونيو 2019).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1c00a5d9e2804f6ec0f6cb4c544029a1235ee58d
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760740"
 ---
-# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>تحسينات في تتبع نتائج التقارير الإلكترونية (ER) المنشأة والمقارنة مع القيم الأساسية
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>تحسين تتبع نتائج التقارير الإلكترونية (ER) المنشأة للمقارنة مع القيم الأساسية
 
 [!include[banner](../includes/banner.md)]
 
@@ -59,7 +57,7 @@ ms.locfileid: "5093994"
 
 تمت إضافة الأساس لـ **تنسيق لمعرفة أسس ER** المحدد، ولكن لم تتم إضافة قواعد الأساس لهذا الأساس بعد.
 
-![صفحة أساسيات تنسيق التقارير الإلكترونية، لا توجد قواعد حتى الآن](media/GER-BaselineSample-AddBaseline2.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
+![صفحة أساسيات تنسيق التقارير الإلكترونية، لا توجد قواعد حتى الآن.](media/GER-BaselineSample-AddBaseline2.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
 
 ### <a name="make-a-new-baseline-rule"></a>إنشاء قاعدة أساس جديدة
 
@@ -72,7 +70,7 @@ ms.locfileid: "5093994"
 7. حدد **موافق**.
 8. حدد **الأسس**.
 
-    ![صفحة أساسات تنسيق التقارير الإلكترونية، تم تحديد أساسيات](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
+    ![صفحة أساسات تنسيق التقارير الإلكترونية، تم تحديد أساسيات.](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
 
     تم تلقائيًا إرفاق الملف الصادر المنشأ بالأساس الخاص بتنسيق ER الذي تم تنفيذه. تمت إضافة قاعدة الأساس تلقائيا إلى هذا الأساس وتحتوي أيضًا على مرجع للملف المرفق.
 
@@ -112,14 +110,14 @@ ms.locfileid: "5093994"
 13. حدد **حفظ**، ثم قم بتحديد **اختبار**.
 14. حدد **اختبار** مرة أخرى لإعادة اختبار التعبير المكون.
 
-    ![صفحة مصمم المعادلة](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "لقطة شاشة لصفحة مصمم المعادلة")
+    ![صفحة مصمم المعادلة.](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "لقطة شاشة لصفحة مصمم المعادلة")
 
     > [!NOTE]
     > تعرض علامة التبويب **نتيجة الاختبار** أن التعبير المكون يقوم بإرجاع قيمة وقت وتاريخ مختلفة عندما يتم استدعاؤه.
 
 15. أغلق صفحة **مصمم المعادلة**، ثم حدد **حفظ**.
 
-    ![صفحة مصمم التنسيق‬](media/GER-BaselineSample-FormatMappingDesign2.PNG "لقطة شاشة لصفحة مصمم التنسيق")
+    ![صفحة مصمم التنسيق‬.](media/GER-BaselineSample-FormatMappingDesign2.PNG "لقطة شاشة لصفحة مصمم التنسيق")
 
 16. أغلق صفحة **مصمم المعادلة**.
 
@@ -130,7 +128,7 @@ ms.locfileid: "5093994"
 3. في قائمه الأسس، حدد الأساس الذي تم تكوينه لـ **تنسيق لمعرفة أسس ER**.
 4. في علامة التبويب السريع **الأسس**، حدد **حذف** لإزالة قاعدة الأساس التي قمت بتكوينها مسبقا.
 
-![صفحة أساسيات تنسيق التقارير الإلكترونية، تم الحذف](media/GER-BaselineSample-AddBaseline3.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
+![صفحة أساسيات تنسيق التقارير الإلكترونية، تم الحذف.](media/GER-BaselineSample-AddBaseline3.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>تعريف عمليات الاستبدال لروابط تنسيق ER المصمم
 
@@ -138,7 +136,7 @@ ms.locfileid: "5093994"
 2. في شجرة مكونات التنسيق، قم بتوسيع **الإخراج**، وقم بتوسيع **الإخراج\\المستند**، ثم حدد خانة الاختيار **الإخراج\\المستند\\ProcessingDateTime**.
 3. حدد **موافق**.
 
-![صفحة أساسيات تنسيق التقارير الإلكترونية، المكونات](media/GER-BaselineSample-AddBaseline4.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
+![صفحة أساسيات تنسيق التقارير الإلكترونية، المكونات.](media/GER-BaselineSample-AddBaseline4.PNG "لقطة شاشة لصفحة أساسات تنسيق التقارير الإلكترونية")
 
 تمت إضافة مكون التنسيق ER المحدد إلى قائمة المكونات في علامة التبويب السريع **الاستبدالات**. عند تشغيل تنسيق ER الأساس في وضع التصحيح، فإن ربط التنسيق لكل مكون سيتم استبداله بالربط الموضح في عمود **الربط**. لتغيير الربط الافتراضي لمكون مسرد في علامة التبويب السريع **الاستبدالات**، حدد **تحرير**.
 
@@ -146,7 +144,7 @@ ms.locfileid: "5093994"
 
 اتبع الخطوات الموجودة في قسم "مثال: أتمته إعداد القواعد الأساسية‬" الموجود سابقًا في هذا الموضوع. يحذرك الإخطار من أنه تم إنشاء الملف الصادر باستخدام إعدادات الأساس، وأن الاستبدال الإجباري لروابط التنسيق قد حدث.
 
-![الإخطار في صفحة التكوينات](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "لقطة شاشة للإخطار في صفحة التكوينات")
+![الإخطار في صفحة التكوينات.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "لقطة شاشة للإخطار في صفحة التكوينات")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>منع التحذيرات حول استبدال روابط التنسيق
 
@@ -194,11 +192,11 @@ ms.locfileid: "5093994"
 
 لاستيراد إعدادات الأساس من ملف XML مخزن محليا، في صفحة **أسس تنسيق التقارير الإلكترونية**، حدد **استيراد**، ثم حدد **استعراض** لتحديد ملف XML.
 
-![مربع حوار استيراد إعدادات الأساس](media/GER-BaselineSample-ImportBaseline1.PNG "لقطة شاشة لمربع حوار استيراد إعدادات الأساس")
+![مربع حوار استيراد إعدادات الأساس.](media/GER-BaselineSample-ImportBaseline1.PNG "لقطة شاشة لمربع حوار استيراد إعدادات الأساس")
 
 لاستيراد إعدادات الأساس من ملف XML المخزن في خادم Microsoft SharePoint، استنادا إلى إعدادات إدارة المستندات الحالية ونوع المستند المحدد، في صفحة **أسس تنسيق التقارير الإلكترونية**، حدد **استيراد من المصدر**. ثم حدد نوع المستند وملف XML. يجب تكوين نوع المستند المطلوب للوصول إلى مجلد SharePoint مقدما.
 
-![مربع حوار استيراد من المصدر](media/GER-BaselineSample-ImportBaseline2.PNG "لقطة شاشة لمربع حوار الاستيراد من المصدر")
+![مربع حوار استيراد من المصدر.](media/GER-BaselineSample-ImportBaseline2.PNG "لقطة شاشة لمربع حوار الاستيراد من المصدر")
 
 > [!NOTE]
 > يمكنك استخدام مسجل المهام لتسجيل خطوات تحديد نوع المستند المطلوب واسم الملف في مربع الحوار **استيراد من المصدر**. بهذه الطريقة، يمكنك الاحتفاظ بإعدادات الأساس المطلوبة على خادم SharePoint ثم استيرادها تلقائيا من خلال تشغيل تسجيل المهام عند تشغيل الاختبارات المؤتمتة باستخدام Regression Suite Automation Tool.
@@ -207,3 +205,6 @@ ms.locfileid: "5093994"
 
 - [تتبع نتائج التقارير المنشأة ومقارنتها بالقيم الأساسية](er-trace-reports-compare-baseline.md)
 - [موارد مسجل المهام](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

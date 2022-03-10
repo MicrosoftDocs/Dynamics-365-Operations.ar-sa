@@ -1,12 +1,10 @@
 ---
 title: مواقع المخزون
 description: تُستخدم مواقع المخزون مع التخزين الأساسي (WMS I) لتحديد المكان الذي يتم فيه تخزين الأصناف والمكان الذي يتم منه انتقاء الأصناف من مستودع (WMS I).
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSLocation, WMSBlockingCause, WHSLocation
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ba83113b03ef122090da0c356c85b3f1b6f62c7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c202a679e992c562772cbf6da6e17c4b8149760f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978003"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573935"
 ---
 # <a name="inventory-locations"></a>مواقع المخزون
 
@@ -61,7 +59,9 @@ ms.locfileid: "4978003"
 
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [إنشاء تخطيط مستودع جديد](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

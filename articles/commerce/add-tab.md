@@ -1,12 +1,10 @@
 ---
 title: وحدة علامة التبويب
-description: يغطي هذا الموضوع وحدات علامة التبويب ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+description: يتناول هذا الموضوع وحدات علامات التبويب ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42c3cd99897627dbcdbdec91cfdb03d5743f7388
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723277"
 ---
-# <a name="tab-module"></a>وحدة علامة التبويب
+# <a name="tab-module"></a>وحدة علامة تبويب
 
 [!include [banner](includes/banner.md)]
 
-يغطي هذا الموضوع وحدات علامة التبويب ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
+يتناول هذا الموضوع وحدات علامات التبويب ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
 وحدات علامات التبويب هي وحدات حاوية يتم استخدامها لتنظيم المعلومات في صفحة الموقع على علامات تبويب. ويمكن استخدامها على أي صفحة حيث يجب عرض المعلومات في علامات تبويب.
 
@@ -38,13 +34,13 @@ ms.locfileid: "4980172"
 
 تعرض الصورة التالية مثالاً عن وحدة علامة تبويب في صفحة موقع. في هذا المثال، تم تحديد علامة تبويب **الشحن**.
 
-![مثال عن وحدة علامة تبويب](./media/ecommerce-tab.PNG)
+![مثال عن وحدة علامة تبويب.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>خصائص وحدة علامة التبويب
 
-| اسم الخاصية | القيم | ‏‏الوصف |
+| اسم الخاصية | القيم | الوصف |
 |---------------|--------|-------------|
-| العنوان | النص | تحدد هذه الخاصية عنوان نص اختياري لوحدة علامة التبويب. |
+| العنوان‬ | النص | تحدد هذه الخاصية عنوان نص اختياري لوحدة علامة التبويب. |
 | فهرس علامة التبويب النشطة | رقم | تحدد هذه الخاصية علامة التبويب التي يجب أن تكون نشطة بشكل افتراضي عند تحميل الصفحة. إذا لم يتم توفير أي قيمة، يكون عنصر علامة التبويب الأولى نشطًا بشكل افتراضي. |
 
 ## <a name="tab-item-module-properties"></a>خصائص وحدة عنصر علامة التبويب
@@ -83,3 +79,6 @@ ms.locfileid: "4980172"
 [وحدة أككورديون](add-accordion.md)
 
 [وحدة كتلة النص](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

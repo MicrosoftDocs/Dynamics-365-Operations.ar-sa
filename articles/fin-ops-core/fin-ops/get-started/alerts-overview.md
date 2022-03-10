@@ -1,25 +1,24 @@
 ---
-title: نظرة عامة على التنبيهات
+title: نظرة عامة على التنبيهات (تحتوي على فيديو)
 description: يقدم هذا الموضوع معلومات عامة حول التنبيهات. يمكنك استخدام التنبيهات للتعرف على الأحداث التي تريد تعقبها أثناء يوم العمل.
 author: RichdiMSFT
 ms.date: 09/04/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: f114e6bd04622dcac668d15ad6c55f7de70b4e7e
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336732"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984958"
 ---
 # <a name="alerts-overview"></a>نظرة عامة على التنبيهات
 
@@ -78,13 +77,13 @@ ms.locfileid: "6336732"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-تم تضمين الفيديو [كيفيه استخدام التنبيهات لمراقبة البيانات المصفاة](https://youtu.be/ZYKMcv6kl9s) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة في YouTube.
+تم تضمين الفيديو [كيفيه استخدام التنبيهات لمراقبة البيانات المصفاة‬](https://youtu.be/ZYKMcv6kl9s) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.
 
 ### <a name="alert-rule-options"></a>خيارات قواعد التنبيه
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-تم تضمين الفيديو [خيارات قواعد التنبيه](https://youtu.be/cpzimwOjicM) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة في YouTube.
+تم تضمين الفيديو [خيارات قواعد التنبيه](https://youtu.be/cpzimwOjicM) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.
 
 
 

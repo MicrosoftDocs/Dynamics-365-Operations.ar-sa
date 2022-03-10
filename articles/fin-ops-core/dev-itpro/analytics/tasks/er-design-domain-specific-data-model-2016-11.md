@@ -2,11 +2,9 @@
 title: نموذج البيانات الخاص بمجال تصميم الإبلاغ الإلكتروني
 description: يصف هذا الموضوع كيفيه إنشاء تكوين اعداد التقارير الكترونيه الجديد (ER) الذي يحتوي علي نموذج بيانات لمستندات الدفع الكترونيه.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERDataContainerDescriptorReferenceSwitchDialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 16d76d243779f83646f14418a12c9c895fdf043451d82bd7062289be6cd8014a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728712"
 ---
 # <a name="er-design-domain-specific-data-model"></a>نموذج البيانات الخاص بمجال تصميم الإبلاغ الإلكتروني
 
@@ -187,3 +185,6 @@ ms.locfileid: "5092681"
 65. انقر فوق "حفظ".
 66. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

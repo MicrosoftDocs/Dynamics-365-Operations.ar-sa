@@ -2,11 +2,9 @@
 title: إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
 description: ينقلك تسجيل المهام هذا عبر إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف.‬
 author: twheeloc
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e97766be1207fb66b38f25b1e423fb21cec9e726
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7c3bf881f0f11d6d21d5f2e9d3132c2bea00b982411c9c5d76ae617b00a69fda
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739325"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>إعداد مجموعات ضريبة المبيعات ومجموعات ضريبة مبيعات الصنف
 

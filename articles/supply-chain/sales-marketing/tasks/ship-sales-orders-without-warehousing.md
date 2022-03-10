@@ -1,26 +1,24 @@
 ---
 title: شحن أوامر المبيعات دون تخزينها
 description: يوضح هذا الموضوع كيفية تحديث أمر مبيعات عند شحن المنتجات إلى العميل.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45884bd5ff70b31c62a7e0affafb6c5ddb457be3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10e21bcdef22caf4f4d97ba7dd36ebf1a6e6e055
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974850"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578862"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>شحن أوامر المبيعات دون تخزينها
 
@@ -55,3 +53,6 @@ ms.locfileid: "4974850"
 19. في "جزء الإجراءات"، انقر فوق **انتقاء وتعبئة**.
 20. حدد **إيصال تعبئة**. تحتوي الصفحة **دفتر يومية إيصالات التعبئة** على جميع مستندات إيصالات التعبئة التي تم إنشاؤها للأمر. ويمكنك مراجعة تفاصيل كل مستند وطباعتها، إذا كنت ترغب في هذا.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,31 +1,30 @@
 ---
-title: تكوين الأحداث الحياتية المستقبلية
-description: يمكنك جدولة الأحداث الحياتية المستقبلية في Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+title: تكوين أحداث الحياة المستقبلية
+description: يوضح هذا الموضوع كيفية جدولة أحداث الحياة المستقبلية في Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitFutureLifeEvents, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f10d7b6c9b45f6cedc16972fb157e43b7e0c40b3
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: aa772f5c58e199e8786185c783db7016c8aebafd
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111377"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417572"
 ---
-# <a name="configure-future-life-events"></a>تكوين الأحداث الحياتية المستقبلية
+# <a name="configure-future-life-events"></a>تكوين أحداث الحياة المستقبلية
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 يمكنك جدولة الأحداث الحياتية المستقبلية في Dynamics 365 Human Resources.
 
@@ -46,3 +45,6 @@ ms.locfileid: "5111377"
    | البند | رقم البند الخاص بالحدث الحياتي المستقبلي. |
 
 4. حدد **حفظ**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

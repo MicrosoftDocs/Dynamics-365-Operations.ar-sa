@@ -2,11 +2,9 @@
 title: تاريخ المتوسط المرجح
 description: تاريخ المتوسط المرجح هو نموذج مخزون يقوم على مبدأ المتوسط المرجح، حيث يتم تقييم عمليات الإصدار من المخزون بمتوسط قيمة الأصناف التي تم استلامها في المخزون لكل يوم منفصل في فترة إقفال المخزون.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963728"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572015"
 ---
 # <a name="weighted-average-date"></a>تاريخ المتوسط المرجح
 
@@ -41,7 +39,7 @@ ms.locfileid: "4963728"
 
 أثناء إغلاق مخزون، يتم تنفيذ الحساب بشكل يومي عبر فترة الإقفال، كما يظهر في الرسم التوضيحي التالي: 
 
-![نموذج الحساب اليومي لتاريخ المتوسط المرجح](./media/weightedaveragedatedailycalculationmodel.gif) 
+![نموذج الحساب اليومي لتاريخ المتوسط المرجح.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 تحدث حركات المخزون التي تترك المخزون، مثل أوامر المبيعات، ودفاتر يومية المخزون، وأوامر الإنتاج، بسعر تكلفة مقدر في تاريخ الترحيل. كما يشير سعر التكلفة المُقدر إلى سعر التكلفة المتوسط للتشغيل. في تاريخ إقفال المخزون، يقوم النظام بتحليل حركات المخزون للفترات السابقة، والأيام السابقة، واليوم الحالي. ويتم استخدام هذا التحليل لتحديد قواعد الإقفال التالية التي يجب استخدامها:
 
@@ -195,3 +193,6 @@ ms.locfileid: "4963728"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

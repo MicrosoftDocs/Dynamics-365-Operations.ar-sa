@@ -1,8 +1,8 @@
 ---
 title: تحديد وإدارة برنامج ميزات
-description: توفر الموارد البشرية مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. وتوفر هذه المقالة معلومات حول كيفية إعداد ميزات إدارة.
-author: andreabichsel
-ms.date: 02/03/2020
+description: توفر الموارد البشرية مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. يقدم هذا الموضوع معلومات حول كيفية إعداد الميزات وإدارتها.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1e2a43b0c08cadebd6181991ddb3aa46ce63b4388768de400ab43ef77bf4ecd6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f2bfa901aa299a091194978ee95ff0e69f2cdbf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727079"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065341"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>تحديد وإدارة برنامج مزايا
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوفر Human Resources مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. توفر هذه المقالة معلومات حول كيفية إعداد الميزات وإدارتها.
+يوفر Human Resources مجموعة من الأدوات التي يمكن استخدامها لإعداد وحفظ الميزات والخصومات وخطط تعويض العمال التي تقدمها مؤسسة أو تعالجها لعمالها. يقدم هذا الموضوع معلومات حول كيفية إعداد الميزات وإدارتها.
 
 ## <a name="benefit-setup"></a>إعداد الميزة‬
 

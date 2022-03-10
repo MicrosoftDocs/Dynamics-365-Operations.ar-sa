@@ -1,27 +1,27 @@
 ---
 title: الصفحة الرئيسية للتدبير وتحديد الموارد
 description: يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 50651
+ms.custom:
+- "50651"
+- intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8d47aa7ebe61a0ac90f4f4794a8eeff7e84974f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218431"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565485"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>الصفحة الرئيسية للتدبير وتحديد الموارد
 
@@ -78,19 +78,18 @@ ms.locfileid: "5218431"
 -   [إنشاء أمر شراء لمورد مرة واحدة](tasks/create-purchase-order-one-time-supplier.md)
 -   [إنشاء أمر شراء مع جدول تسليم](tasks/create-purchase-order-delivery-schedule.md)
 -   [إنشاء أمر إرجاع الشراء](tasks/create-purchase-return-order.md)
--   [إنشاء أمر إصدار شراء من اتفاقية شراء](tasks/create-purchase-release-order-purchase-agreement.md)
--   [إنشاء أمر إصدار شراء عند إنشاء أمر الشراء](tasks/create-purchase-release-order-creating-purchase-order.md)
--   [إنشاء أمر تزويد الشحن](../inventory/tasks/create-consignment-replenishment-order.md)
+-   [تطبيق اتفاقية شراء عند إنشاء أمر شراء](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [إنشاء أمر تزويد شحن](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>الأسعار والخصومات
 -   [اتفاقيات الشراء](purchase-agreements.md)
 -   [إنشاء اتفاقية شراء](tasks/create-purchase-agreement.md)
--   [خصومات المورّدين](https://docs.microsoft.com/dynamics/s-e/) (مستند تقني)
+-   [خصومات المورّدين](/dynamics/s-e/) (مستند تقني)
 
 ## <a name="product-receipt-and-invoicing"></a>إيصال استلام المنتجات والفوترة
 -   [إيصال استلام المنتجات في مقابل أوامر الشراء](product-receipt-against-purchase-orders.md)
--   [نظرة عامة على فواتير المورّدين](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [ملفات تعريف ترحيل المورد](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [نظرة عامة على فواتير المورّدين](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [ملفات تعريف ترحيل المورد](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>عمليات سير العمل للتدبير وتحديد الموارد
 -   [نظرة عامة على التدبير وتحديد الموارد](procurement-sourcing-overview.md)

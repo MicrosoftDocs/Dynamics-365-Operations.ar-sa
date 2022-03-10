@@ -1,28 +1,28 @@
 ---
 title: نظرة عامة على التسلسل الرقمي
 description: وتُستخدم التسلسلات الرقمية لإنشاء معرفات فريدة قابلة للقراءة لسجلات البيانات الرئيسية وسجلات الحركة التي تتطلب وجود هذه المعرفات.
-author: MargoC
-manager: AnnBe
+author: SunilGarg
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 15461
+ms.custom:
+- "15461"
+- intro-internal
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
-ms.author: margoc
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41a3beca0fb373ba985a2d01dd15cdc5a60e2919
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 48e395cc3e3ccd0f93ab9523add455ef16f612ba
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797060"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985671"
 ---
 # <a name="number-sequences-overview"></a>نظرة عامة على التسلسل الرقمي
 
@@ -115,3 +115,6 @@ ms.locfileid: "4797060"
 في حالة انقطاع الطاقة أو حدوث خطأ في تطبيق ما أو وقوع أي عطل آخر غير متوقع، لا يمكن للنظام إعادة تدوير الأرقام تلقائيًا للتسلسلات الرقمية المتتالية. يمكنك تشغيل عملية التنظيف يدويًا أو تلقائيًا لاسترداد الأرقام المفقودة.
 
 يجب مراعاة كيفية استخدام الملقم عند التخطيط لعملية التنظيف. يوصى بإجراء التنظيف كوظيفة مجموعة في غير ساعات الذروة.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

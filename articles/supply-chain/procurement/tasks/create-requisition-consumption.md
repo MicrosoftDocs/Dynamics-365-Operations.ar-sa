@@ -1,7 +1,7 @@
 ---
 title: إنشاء طلب للاستهلاك
 description: يوضح هذا الموضوع عملية إنشاء طلب.
-author: kamaybac
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c35ff67d90860bef82130f61eeec0af94fe0f2e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0f7ca6e843688e0415f7ef31ed7cd40a77eccdeb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812100"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579438"
 ---
 # <a name="create-a-requisition-for-consumption"></a>إنشاء طلب للاستهلاك
 

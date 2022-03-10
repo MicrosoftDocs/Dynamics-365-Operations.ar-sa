@@ -12,12 +12,12 @@ ms.search.region: Saudi Arabia
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fb8425f684ccb4181c34425d2cfdf8e23628d4be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e7a0f974e5d291f51ee3994b06672fa6ed922e04d33439d185e80344307fb8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772763"
 ---
 # <a name="sales-tax-for-saudi-arabia"></a>ضريبة المبيعات للمملكة العربية السعودية
 
@@ -44,7 +44,7 @@ ms.locfileid: "5836869"
 
 يمكنك إنشاء أكواد التقارير التي قد تكون مطلوبة للتحليل (على سبيل المثال، تفاصيل إرجاع التشريع و/أو كشف البيانات). يبين الرسم التوضيحي التالي أمثلة لأكواد التقارير.
 
-![أمثلة لأكواد تقارير ضريبة المبيعات](media/apac-sau-sales-tax-reporting-codes.png)
+![أمثلة لأكواد تقارير ضريبة المبيعات.](media/apac-sau-sales-tax-reporting-codes.png)
 
 ### <a name="sales-tax-codes-sales-tax-groups-and-item-sales-tax-groups"></a>أكواد ضريبة المبيعات، ومجموعات ضريبة المبيعات، ومجموعات ضريبة مبيعات الصنف
 
@@ -54,7 +54,7 @@ ms.locfileid: "5836869"
 
 يعرض الرسم التوضيحي التالي طريقة واحدة يمكن بها إعداد مجموعات ضريبة المبيعات. كما يوضح كيفية تعريف حركات ضريبة المبيعات وحساب ضريبة المبيعات عند استخدام هذا الإعداد.
 
-![إعداد مجموعة ضرائب المبيعات](media/apac-sau-sales-tax-groups-diagram.png)
+![إعداد مجموعة ضرائب المبيعات.](media/apac-sau-sales-tax-groups-diagram.png)
 
 أدخل المعلومات التالية لكل كود ضريبة مبيعات:
 
@@ -82,7 +82,7 @@ ms.locfileid: "5836869"
 
 يبين الرسم التوضيحي التالي كيفية جمع البيانات في تقرير **دفع ضريبة المبيعات حسب الكود**. يشتمل هذا التقرير فقط على الفواتير التي بها حركات ضريبة. يمكن تحديد نفس كود التقارير في العديد من أكواد ضريبة المبيعات، ويمكن تحديد أكواد تقارير متعددة في حقول مختلفة في نفس كود ضريبة المبيعات.
 
-![دفع ضريبة المبيعات حسب كود التقارير](media/apac-sau-sales-tax-diagram.png)
+![دفع ضريبة المبيعات حسب كود التقارير.](media/apac-sau-sales-tax-diagram.png)
 
 ### <a name="report-setup"></a>إعداد التقرير
 
@@ -96,7 +96,7 @@ ms.locfileid: "5836869"
 
     يبين الرسم التوضيحي التالي مثالاً لإعداد أكواد التقارير لكود ضريبة مبيعات.
 
-    ![مثال لأكواد تقارير ضريبة المبيعات](media/apac-sau-sales-tax-codes.png)
+    ![مثال لأكواد تقارير ضريبة المبيعات.](media/apac-sau-sales-tax-codes.png)
 
 ### <a name="generate-the-sales-tax-payment-by-code-report"></a>إنشاء تقرير دفع ضريبة المبيعات حسب الكود
 
@@ -107,7 +107,7 @@ ms.locfileid: "5836869"
 
 يبين الرسم التوضيحي التالي مثالاً لتقرير **دفع ضريبة المبيعات حسب الكود**.
 
-![مثال لتقرير دفع ضريبة المبيعات حسب الكود](media/apac-sau-report-example.png)
+![مثال لتقرير دفع ضريبة المبيعات حسب الكود.](media/apac-sau-report-example.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

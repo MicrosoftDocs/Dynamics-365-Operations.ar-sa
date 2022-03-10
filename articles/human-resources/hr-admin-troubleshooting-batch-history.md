@@ -1,30 +1,30 @@
 ---
 title: تحسين الأداء باستخدام مهام التنظيف التلقائية
-description: يتناول هذا المقال كيفية حل بعض مشكلات الأداء باستخدام Microsoft Dynamics 365 Human Resources عن طريق تنظيف سجل الوظائف الدفعية.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: يوضح هذا الموضوع كيفية تحسين الأداء في Microsoft Dynamics 365 Human Resources عن طريق تنظيف سجل الوظائف الدفعية.
+author: twheeloc
+ms.date: 08/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 8fef2152f7c65a6678e6cb94da8ea2bbe99ea51d
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: a293b128364b8b0b293da03495d55e46f6b01fd6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466678"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066083"
 ---
-# <a name="optimize-performance-with-auto-cleanup-tasks"></a>تحسين الأداء باستخدام تنظيف المهام تلقائيًا
+# <a name="optimize-performance-with-auto-cleanup-tasks"></a>تحسين الأداء باستخدام مهام التنظيف التلقائية
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -44,23 +44,23 @@ ms.locfileid: "5466678"
 
 2. في شريط **البحث**، أدخل **‏‫تنظيف محفوظات الوظيفة الدُفعية**.
 
-   ![بحث عن تنظيف سجل الوظائف الدفعية](media/talent-batch-history-cleanup-search-bar.png)
+   ![بحث عن تنظيف سجل الوظائف الدفعية.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. في **حد السجل (أيام)**، أدخل **30**.
 
-   ![قم بتعيين حد السجل إلى 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![قم بتعيين حد السجل إلى 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. حدد **تشغيل في الخلفية** ثم حدد **التكرار**.
 
-   ![تعيين التكرار](media/talent-batch-history-cleanup-recurrence.png)
+   ![تعيين التكرار.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. ضمن **تعريف التكرار**، قم بتعيين **تاريخ البدء** و **وقت البدء** بحيث يقعان خلال ساعات التوقف عن العمل أو عطلة نهاية الأسبوع، ثم حدد **بلا تاريخ انتهاء**. 
 
-   ![تعيين تاريخ بدء التكرار ووقته](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![تعيين تاريخ بدء التكرار ووقته.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. ضمن **نمط التكرار**، حدد **أيام** وقم بتعيين **‏‫تكرار بعد الفترة المحددة** إلى **7**.
 
-   ![تعيين التنظيف ليتكرر أسبوعيًا](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![تعيين التنظيف ليتكرر أسبوعيًا.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. حدد **موافق**.
 

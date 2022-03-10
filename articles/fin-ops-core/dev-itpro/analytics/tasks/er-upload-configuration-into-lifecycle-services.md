@@ -2,8 +2,7 @@
 title: تحميل تكوين إلى Lifecycle Services
 description: يوضح هذا الموضوع كيفية إنشاء تكوين التقارير الإلكترونية الجديد وتحميله إلى Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f17763236594092d04dfe2d2f9912e764b4f8d4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720750"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>تحميل تكوين إلى Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 يشرح هذا الموضوع كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء إصدار جديد من [تكوين التقارير الإلكترونية](../general-electronic-reporting.md#Configuration) وتحميله إلى [مكتبة الأصول على مستوى المشروع](../../lifecycle-services/asset-library.md) في Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> إن استخدام LCS كمستودع تخزين لتكوينات التقارير الإلكترونية يكون [مهملاً](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). لمزيد من المعلومات، [إهلاك تخزين Regulatory Configuration Service (RCS) – Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
 
 في هذا المثال، ستقوم بإنشاء تكوين وتحميله إلى LCS لشركة نموذجية تحمل الاسم Litware, Inc. يمكن إكمال هذه الخطوات في أي شركة نظرًا لمشاركة تكوينات التقارير الإلكترونية بين الشركات. لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الموضوع [إنشاء موفري التكوين ووضع علامة نشط عليهم‬](er-configuration-provider-mark-it-active-2016-11.md). يجب أن يتوفر أيضًا الوصول إلى LCS.
 

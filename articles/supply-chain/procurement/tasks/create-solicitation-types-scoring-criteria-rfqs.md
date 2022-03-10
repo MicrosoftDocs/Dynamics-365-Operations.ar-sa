@@ -1,7 +1,7 @@
 ---
 title: إنشاء أنواع طلبات ومعايير تسجيل النقاط‬ لطلبات عروض الأسعار
 description: يوضح هذا الدليل كيفية إنشاء نوع طلب وربطه بأسلوب تسجيل النقاط.
-author: kamaybac
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d28cb4bf20ba50aae6b85e835339e2df711c99d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d55b91def8b8edf8310cfa0bfe9d2bcc321ee6a6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812052"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569303"
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>إنشاء أنواع طلبات ومعايير تسجيل النقاط‬ لطلبات عروض الأسعار
 

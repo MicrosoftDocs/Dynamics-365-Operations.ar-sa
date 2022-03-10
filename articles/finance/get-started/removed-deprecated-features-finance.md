@@ -2,7 +2,7 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
 author: roschlom
-ms.date: 04/14/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980886"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890943"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -32,6 +32,58 @@ ms.locfileid: "5980886"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.24 من Finance
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>تقرير ضريبة المبيعات للسويد (تصميم يستند إلى أكواد التقارير)
+
+[تقرير ضريبة المبيعات للسويد](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بتصميم إقرار ضريبة القيمة المضافة الجديد، [إقرار ضريبة القيمة المضافة للسويد](../localizations/emea-swe-vat-declaration-sweden.md) |
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | مهمل: بحلول 1 ديسمبر 2022، إننا لن نقوم بدعم تقرير ضريبة المبيعات للسويد (تخطيط تقرير سويدي) الآن. يتم تقديم تنسيقات التقارير الإلكترونية (ER) **إقرار XML لضريبة القيمة المضافة (SE**) و **إقرار ضريبة القيمة المضافة Excel (SE)** الجديدة ضمن نموذج **إقرار الضريبة**. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>كشف ضريبة القيمة المضافة للنمسا (تصميم يستند إلى أكواد التقارير)
+
+[تفاصيل كشف ضريبة القيمة المضافة للنمسا](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بتصميم إقرار ضريبة القيمة المضافة الجديد، [إقرار ضريبة القيمة المضافة للنمسا](../localizations/emea-aut-vat-declaration-austria.md) |
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | ‏‫مهمل: بحلول 1 ديسمبر، 2021، لن نقوم بعد الآن بتقديم الدعم لتنسيق التقارير الإلكترونية (ER) **إقرار ضريبة القيمة المضافة (AT)** ضمن **نموذج إقرار ضريبة القيمة المضافة**. يتم تقديم تنسيقات التقارير الإلكترونية (ER) **إقرار XML لضريبة القيمة المضافة (AT)** و **إقرار ضريبة القيمة المضافة Excel (AT)** الجديدة ضمن نموذج **إقرار الضريبة**. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>إقرار ELSTER لألمانيا (تصميم يستند إلى أكواد التقارير)
+
+[كشف حساب ضريبة القيمة المضافة](../localizations/emea-de-vat-declaration.md)</br>
+[إعداد إقرار الضريبة الإلكترونية لألمانيا](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[الإرسال الإلكتروني لإقرار ضريبة القيمة المضافة (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بتصميم إقرار ضريبة القيمة المضافة الجديد، [إقرار ضريبة القيمة المضافة لألمانيا](../localizations/emea-deu-vat-declaration-germany.md) |
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | ‏‫مهمل: بحلول 1 ديسمبر، 2021، لن نقوم بعد الآن بتقديم الدعم لتنسيقات التقارير الإلكترونية (ER) لـ **Elster (DE)** و **نموذج Elster**. يتم تقديم تنسيقات التقارير الإلكترونية (ER) **إقرار XML لضريبة القيمة المضافة (DE)** و **إقرار ضريبة القيمة المضافة Excel (DE)** الجديدة ضمن نموذج **إقرار الضريبة**. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>إقرار OB لهولندا (تصميم يستند إلى أكواد التقارير)
+
+[إقرار OB](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بتصميم إقرار ضريبة القيمة المضافة الجديد، [إقرار ضريبة القيمة المضافة لهولندا](../localizations/emea-nl-vat-declaration-netherlands.md) |
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | ‏‫مهمل: بحلول 1 ديسمبر، 2021، لن نقوم بعد الآن بتقديم الدعم لتنسيق التقارير الإلكترونية (ER) **إقرار OB (NL)** و **نموذج إقرار OB**. يتم تقديم تنسيقات التقارير الإلكترونية (ER) **إقرار XML لضريبة القيمة المضافة (NL)** و **إقرار ضريبة القيمة المضافة Excel (NL)** الجديدة ضمن نموذج **إقرار الضريبة**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.20 من Finance
 
@@ -65,7 +117,7 @@ ms.locfileid: "5980886"
 | **هل تم الاستبدال بميزة أخرى؟**   | نعم |
 | **مناطق المنتجات المتأثرة**         | منتجات Dynamics 365 Finance وSupply Chain Management وProject Operations|
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | مهمل: بحلول 01 أبريل، 2022، نخطط لإيقاف الدعم لمستودع Microsoft Dynamics Lifecycle Services (LCS) باعتباره خيار تخزين لتكوين التقارير الإلكترونية (ER). سيتم نشر تكوينات Microsoft ER الجديدة لتنزيلها حصريًا من المستودع العمومي. يمكن الوصول إلى المستودع العمومي من منتجات Dynamics 365 وRCS. لمزيد من المعلومات، راجع [استيراد تكوينات ER من RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **الحالة**                         | مهمل: بحلول 01 أبريل، 2022، نخطط لإيقاف الدعم لمستودع Microsoft Dynamics Lifecycle Services (LCS) باعتباره خيار تخزين لتكوين التقارير الإلكترونية (ER). سيتم نشر تكوينات Microsoft ER الجديدة لتنزيلها حصريًا من المستودع العمومي. يمكن الوصول إلى المستودع العمومي من منتجات Dynamics 365 وRCS. لمزيد من المعلومات، راجع [استيراد تكوينات التقارير الإلكترونية من RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) و [إهلاك تخزين Regulatory Configuration Service - Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.16 من Finance
 

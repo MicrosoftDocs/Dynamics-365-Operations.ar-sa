@@ -1,7 +1,7 @@
 ---
 title: مصمم المعادلة
 description: يشرح هذا المقال كيفية استخدام مصمم المعادلة لتحليل وصيانة المعادلات في طريقة الشجرة.
-author: cvocph
+author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b05f014600fdac03173a0aacf2ad6cd581b789f0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809124"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566782"
 ---
 # <a name="formula-designer"></a>مصمم المعادلة
 

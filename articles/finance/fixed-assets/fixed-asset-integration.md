@@ -1,7 +1,7 @@
 ---
 title: تكامل الأصول الثابتة
 description: يمكن تكامل الأصول الثابتة مع دفتر الأستاذ العام وإدارة المخزون وكذلك الحسابات المدينة والدائنة. كما يمكن إعداد أصول ثابتة بحيث تتكامل مع أوامر الشراء.
-author: ShylaThompson
+author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 3e53d171ba0b9be7bbfffa25c27bd21fe036acee
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189774"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674765"
 ---
 # <a name="fixed-assets-integration"></a>تكامل الأصول الثابتة
 

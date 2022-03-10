@@ -1,12 +1,10 @@
 ---
 title: صفحة قائمة حركات العملاء
 description: يوفر هذا الموضوع معلومات حول صفحة قائمة حركات العملاء في Microsoft Dynamics 365 Finance.
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: d327c53d2486f8fdb9cd0ee049427c26cf4e0dcc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4339990d4e2fd89abde4da54b005b212cacff751
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236856"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753864"
 ---
 # <a name="customer-transactions-list-page"></a>صفحة قائمة حركات العملاء
 

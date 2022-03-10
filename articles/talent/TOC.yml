@@ -1,9 +1,11 @@
-- name: Dynamics 365 for Talent
-  href: ./index.md
+- name: استبعاد Dynamics 365 Talent
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
+    - name: صفحة Dynamics 365 Talent الرئيسية
+      href: ./index.md
     - name: الشروع في العمل
       items:
-        - name: بدء استخدام Talent
+        - name: الشروع في العمل مع Talent
           href: talent-get-started.md
         - name: الميزات الجديدة أو المتغيرة في Talent
           href: whats-new.md

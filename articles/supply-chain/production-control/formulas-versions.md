@@ -1,12 +1,10 @@
 ---
 title: التركيبات وإصدارتها
 description: يوفر هذا الموضوع معلومات حول التركيبات وإصداراتها. تحدد التركيبة المواد والمكونات ونتائج عملية معينة في عملية التصنيع. يتم استخدام التركيبات لتخطيط وإنتاج المنتجات في عملية التصنيع.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee15fc2a3edd9d0cc8cff17123981bc90ceeff2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246179"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570263"
 ---
 # <a name="formulas-and-formula-versions"></a>التركيبات وإصدارتها
 

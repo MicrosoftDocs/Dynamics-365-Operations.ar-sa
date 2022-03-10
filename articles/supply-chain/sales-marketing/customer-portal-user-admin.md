@@ -1,30 +1,28 @@
 ---
-title: إنشاء مستخدمي مدخل العميل وإدارتهم
+title: إنشاء مستخدمي مدخل العميل وإدارتهم (يحتوي على فيديو)
 description: يشرح هذا الموضوع كيفية إنشاء حسابات مستخدمي مدخل العميل وتعيين الأذونات لهم.
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528283"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062480"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>إنشاء مستخدمي مدخل العميل وإدارتهم
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 في عملية التنفيذ الجاهزة، لا توجد أي طريقة تسمح للمستخدمين بالتسجيل ذاتيًا لمواقع الويب التي يتم إنشاؤها باستخدام مدخل العميل. لتسجيل الدخول إلى موقع ويب واستخدامه، يجب ان تتم دعوة المستخدمين بواسطة المسؤول. قامت Microsoft بحظر قدرة المستخدمين على التسجيل الذاتي بشكل متعمد.
 
@@ -35,40 +33,40 @@ ms.locfileid: "4528283"
 ## <a name="video"></a>الفيديو
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-تم تضمين الفيديو [دعوة العملاء للتسجيل في مدخل العميل واستخدامه](https://youtu.be/drGUYHX9QIQ) (المبين أعلاه) في [قائمة التشغيل في Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة على YouTube.
+تم تضمين الفيديو [دعوة العملاء للتسجيل في مدخل العميل واستخدامه](https://youtu.be/drGUYHX9QIQ) (المبين أعلاه) في [قائمة تشغيل التمويل والعمليات](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة في YouTube.
 
 ## <a name="prerequisite-setup"></a>إعداد المتطلبات الأساسية
 
-يتم تخزين جهات الاتصال في مداخل Power Apps كسجلات في كيان **جهات الاتصال** في Common Data Service ثم تقوم الكتابة المزدوجة بمزامنة هذه السجلات مع Microsoft Dynamics 365 Supply Chain Management كما هو مطلوب.
+يتم تخزين جهات الاتصال في مداخل Power Apps كسجلات في جدول **جهات الاتصال** في Microsoft Dataverse ثم تقوم الكتابة المزدوجة بمزامنة هذه السجلات مع Microsoft Dynamics 365 Supply Chain Management كما هو مطلوب.
 
-![الرسم التخطيطي للنظام لجهات اتصال مدخل العميل](media/customer-portal-contacts.png "الرسم التخطيطي للنظام لجهات اتصال مدخل العميل")
+![الرسم التخطيطي للنظام لجهات اتصال مدخل العميل.](media/customer-portal-contacts.png "الرسم التخطيطي للنظام لجهات اتصال مدخل العميل")
 
-قبل أن تبدأ دعوة عملاء جدد، تأكد من تمكين تعيين كيان **جهة الاتصال** في الكتابة المزدوجة.
+قبل أن تبدأ دعوة عملاء جدد، تأكد من تمكين تعيين جدول **جهة الاتصال** في الكتابة المزدوجة.
 
 ## <a name="the-invitation-process"></a>عملية الدعوة
 
-لدعوة جهة اتصال موجودة إلى مدخل العميل، اتبع الخطوات في [دعوه جهات الاتصال إلى مداخلك](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) في وثائق مداخل Power Apps.
+لدعوة جهة اتصال موجودة إلى مدخل العميل، اتبع الخطوات في [دعوه جهات الاتصال إلى مداخلك](/powerapps/maker/portals/configure/invite-contacts) في وثائق مداخل Power Apps.
 
-قبل دعوة أحد العملاء للانضمام إلى مدخل العميل، تأكد من توفر [سجل جهة الاتصال](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) الخاص بالعميل واعمل على إعداده بالطريقة التالية:
+قبل دعوة أحد العملاء للانضمام إلى مدخل العميل، تأكد من توفر [سجل جهة الاتصال](/powerapps/maker/portals/configure/configure-contacts) الخاص بالعميل واعمل على إعداده بالطريقة التالية:
 
 1. عيّن حقل **الشركة** إلى الكيان القانوني الذي تريد أن ينتمي إليه العميل في Supply Chain Management.
 2. عيّن حقل **رقم الحساب** إلى رقم حساب العميل الذي تريد أن يكون متوفرًا للمستخدم في Supply Chain Management.
 
 بعد إنشاء جهة اتصال، من المفترض أن تتمكن من رؤيتها في Supply Chain Management.
 
-لمزيد من المعلومات، راجع [تكوين جهة اتصال لاستخدامها في مدخل](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) في وثائق مداخل Power Apps.
+لمزيد من المعلومات، راجع [تكوين جهة اتصال لاستخدامها في مدخل](/powerapps/maker/portals/configure/configure-contacts) في وثائق مداخل Power Apps.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>أدوار الويب الجاهزة وأذونات الكيان
+## <a name="out-of-box-web-roles-and-table-permissions"></a>أدوار الويب الجاهزة وأذونات الجدول
 
-يتم تعريف أدوار المستخدمين في مداخل Power Apps بواسطة [أدوار الويب](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) و[وأذونات الكيانات](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). يتم تعريف عدد قليل من الأدوار لمدخل العميل الجاهز. يمكنك إنشاء أدوار جديدة، ويمكنك تعديل أدوار موجودة أو إزالتها.
+يتم تعريف أدوار المستخدمين في مداخل Power Apps بواسطة [أدوار الويب](/powerapps/maker/portals/configure/create-web-roles) و[وأذونات الجدول](/powerapps/maker/portals/configure/assign-entity-permissions). يتم تعريف عدد قليل من الأدوار لمدخل العميل الجاهز. يمكنك إنشاء أدوار جديدة، ويمكنك تعديل أدوار موجودة أو إزالتها.
 
 ### <a name="out-of-box-web-roles"></a>أدوار الويب الجاهزة
 
 يصف هذا القسم أدوار الويب التي يتم تقديمها مع مدخل العميل.
 
-لمزيد من المعلومات حول كيفية تعديل أدوار المستخدمين الجاهزة، راجع [إنشاء أدوار الويب للمداخل](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) و[إضافة الأمان المستند إلى السجل باستخدام أذونات الكيان للمداخل](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) في وثائق مداخل Power Apps.
+لمزيد من المعلومات حول كيفية تعديل أدوار المستخدمين الجاهزة، راجع [إنشاء أدوار الويب للمداخل](/powerapps/maker/portals/configure/create-web-roles) و[إضافة الأمان المستند إلى السجل باستخدام أذونات الجدول للمداخل](/powerapps/maker/portals/configure/assign-entity-permissions) في وثائق مداخل Power Apps.
 
-#### <a name="administrator"></a>مسؤول
+#### <a name="administrator"></a>المسؤول
 
 يقوم المسؤول بمراقبة موقع ويب وصيانته. سيقوم هذا الشخص بتزويد مدخل العميل وإعداده. يحافظ المسؤول على جواني تكنولوجيا المعلومات والأمان في المدخل، ويتأكد من أن شيء يعمل بطريقة سلسة. قد يقوم المسؤول أيضًا بتخصيص و/أو تغيير المدخل عن طريق إضافة وظائف جديدة وإنشاء أدوار جديدة والمزيد.
 
@@ -96,3 +94,6 @@ ms.locfileid: "4528283"
 
 > [!NOTE]
 > على الرغم من أن سام وجين هما من جهات الاتصال التي تعمل لصالح العميل X، إلا أنه لا يمكنهما رؤية سوى الأوامر التي قاما بوضعها ولا شيء آخر. وعلى الرغم من وجود أمر لمايا في النظام، إلا أنه لا يمكنها رؤية هذا الأمر في مدخل العميل، لأنها مستخدم غير مخول. (علاوةً على ذلك، يجب أن تكون قد وضعت الأمر عبر قناة أخرى غير مدخل العميل.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: إلغاء عمل المستودع لمعالجه الاستثناء
 description: يصف هذا الموضوع وظيفة إلغاء العمل التي تتيح لمشرفي المستودع معالجه العمل المحظور.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae4062401cd5be2371c45642b78bf3708b04f664
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: af0c147eefbfe22cb6b6d531f514e6f293d66689
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001177"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572399"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>إلغاء عمل المستودع لمعالجه الاستثناء
 
@@ -44,3 +42,6 @@ ms.locfileid: "5001177"
 لإلغاء حظر العمل، يُلغي النظام بنود العمل المتبقية ويُصلح بيانات المستودع المقترنة بمعرف العمل الذي حدده المستخدم. ويمكن استئناف عمليات معالجة المستودع العادية التي تتضمن كمية الصنف المتأثرة.
 
 لوضع الصنف المتأثر في موقع محدد بعد إلغاء العمل، يستخدم المستخدم حركة المخزون أو عملية تعديل الكمية علي جهاز محمول.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

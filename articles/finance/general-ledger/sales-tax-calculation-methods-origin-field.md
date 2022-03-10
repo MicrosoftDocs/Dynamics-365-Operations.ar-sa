@@ -2,28 +2,25 @@
 title: طرق حساب ضريبة المبيعات في حقل الأصل
 description: توضح هذه المقالة الخيارات في حقل الأصل في صفحة أكواد ضريبة المبيعات وكيف يتم حساب ضريبة المبيعات استنادًا إلى الخيار المحدد لكود ضريبة المبيعات.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0eb3671051d9a3be9430050e2a0ad4227b17677e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ac37858c68996c6c8140303327003d93bd357b512f9c634650b7e9df1284496
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439956"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769736"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>طرق حساب ضريبة المبيعات في حقل الأصل
 
@@ -55,8 +52,7 @@ ms.locfileid: "4439956"
 | كود ضريبة واحدة فقط بالأصل = يمكن استخدام النسبة المئوية لإجمالي المبلغ لحركة. وإذا تم تحديد أكثر من كود ضريبة واحدة لحركة، فسيتم عرض خطأ يفيد بأنه لا يمكن حساب ضريبة المبيعات. |
 
 
-<a name="percentage-of-sales-tax"></a>النسبة المئوية لضريبة المبيعات
------------------------
+## <a name="percentage-of-sales-tax"></a>النسبة المئوية لضريبة المبيعات
 
 عند تحديد النسبة المئوية لضريبة المبيعات في حقل الأصل، فإنه يتم حساب ضريبة المبيعات كنسبة مئوية لضريبة المبيعات التي تم تحديدها في ضريبة المبيعات في حقل ضريبة المبيعات. ويتم حساب ضريبة المبيعات التي تم تحديدها في ضريبة المبيعات في حقل ضريبة المبيعات أولاً. ثم يتم حساب ضريبة المبيعات الثانية بعد ذلك بناءً على مبلغ ضريبة المبيعات الأولى.
 ### <a name="example"></a>مثال
@@ -122,8 +118,7 @@ ms.locfileid: "4439956"
 
 
 
-<a name="additional-resources"></a>الموارد الإضافية
---------
+## <a name="additional-resources"></a>الموارد الإضافية
 
 [معدلات ضريبة المبيعات على أساس طريقتي القاعدة الهامشية والعملية الحسابية](marginal-base-field.md)
 
@@ -131,3 +126,6 @@ ms.locfileid: "4439956"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

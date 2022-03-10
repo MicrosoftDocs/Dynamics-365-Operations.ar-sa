@@ -1,7 +1,7 @@
 ---
 title: إعداد مصاريف الموزع الإضافية والأصول الإضافية
 description: يوضح هذا الإجراء كيفية إنشاء سجل رئيسي إضافي‬ للموزع واستخدامه لإنشاء رسوم الموزِّع الإضافي‬.
-author: ShylaThompson
+author: Henrikan
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4c0d3af96e6ef6735b01165a49c1450b3b633b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1480dec82912d547bde5db614703164e3f8451c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837551"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576222"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>إعداد مصاريف الموزع الإضافية والأصول الإضافية
 

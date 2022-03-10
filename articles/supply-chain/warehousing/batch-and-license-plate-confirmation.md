@@ -2,11 +2,9 @@
 title: تأكيد لوحة الترخيص والدُفعة
 description: يصف هذا الموضوع كيفية إعداد وتطبيق الدفعة وتأكيد لوحة الترخيص من جهاز محمول.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c309061b31f10209c22cb90cc08c971b697f6dc9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 13e246f9a496dcc38829eef788d09c50300c99fb95daffad134012733341e4af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726527"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>تأكيد لوحة الترخيص والدُفعة
 
 [!include [banner](../includes/banner.md)]
 
-يسمح لك تأكيد الدفعة بالتأكيد على أن الدفعة الصحيحة تم انتقائها من الجهاز المحمول. عند الانتقاء الأولي لعمل الدفعة أعلاه-الأصناف فقط، حيث تشير المجموعة أعلاه إلى أن نطاقات الدفعة أكبر من الموقع في التدرج الهرمي للبحث، فمن ثم يجب عليك التحقق من أن الدفعة التي يتم انتقاؤها تطابق الدفعة الموجودة في بند العمل.
+يسمح لك تأكيد الدفعة بالتأكيد على أن الدفعة الصحيحة تم انتقائها من الجهاز المحمول. عند الانتقاء الأولي لعمل *الدفعة أعلاه\[الموقع\]* فقط، حيث تشير المجموعة أعلاه إلى أن نطاقات الدفعة أكبر من الموقع في التدرج الهرمي للبحث، فمن ثم يجب عليك التحقق من أن الدفعة التي يتم انتقاؤها تطابق الدفعة الموجودة في بند العمل.
 
 يسمح لك تأكيد لوحة الترخيص بالتأكيد على أن لوحة الترخيص الصحيحة تم انتقائها من الجهاز المحمول. عند اختيار العمل من موقع المرحلة، يجب عليك التحقق من أن لوحة الرخصة التي يتم انتقاؤها تطابق لوحة الترخيص المرتبطة بالعمل. إذا تم بدء العمل من خلال المسح الضوئي للوحة الترخيص، فمن ثم يتم تخطي خطوة التأكيد هذه.
 

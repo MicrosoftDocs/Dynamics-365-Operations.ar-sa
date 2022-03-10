@@ -1,5 +1,5 @@
 ---
-title: تحسين نموذج التنبؤ (معاينة)
+title: تحسين نموذج التنبؤ
 description: يوضح هذا الموضوع الميزات التي يمكنك استخدامها لتحسين أداء نماذج التنبؤ.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 376e48a442f5a1b459077fb7a0d52faf974a792f
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638406"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595027"
 ---
-# <a name="improve-the-prediction-model-preview"></a>تحسين نموذج التنبؤ (معاينة)
+# <a name="improve-the-prediction-model"></a>تحسين نموذج التنبؤ
 
 [!include [banner](../includes/banner.md)]
 
@@ -75,6 +75,6 @@ ms.locfileid: "6638406"
 
 يمكنك تصفية الفواتير المستخدمة للتدريب عن طريق تعيين معايير التصفية للحقول في الفاتورة أو في جداول العملاء. على سبيل المثال، يمكنك تعيين حد لتضمين الفواتير فقط حيث يساوي الإجمالي أو يتجاوز مبلغا معينا. بدلا من ذلك، يمكنك استبعاد الفواتير المقترنة بالعملاء في مجموعة عملاء معينة.
 
-لمزيد من المعلومات حول تصفية بياناتك، راجع [إنشاء نموذج تنبؤ ](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
+لمزيد من المعلومات حول تصفية بياناتك، راجع [إنشاء نموذج تنبؤ ](/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

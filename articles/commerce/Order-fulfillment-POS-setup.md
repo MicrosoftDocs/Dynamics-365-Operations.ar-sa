@@ -1,7 +1,7 @@
 ---
 title: إعداد تنفيذ أمر للمتاجر
 description: يقدم هذا الموضوع نظرة عامة على كيفية إعداد خاصية تنفيذ أمر مخزن.
-author: rubencdelgado
+author: BrianShook
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 246a79f6f1578e81510d4a57ee12f0e0497bff84
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: ed709c2a15a2d9e1675da55fc87284127e64ba39
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193169"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779586"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>إعداد تنفيذ أمر للمتاجر
 

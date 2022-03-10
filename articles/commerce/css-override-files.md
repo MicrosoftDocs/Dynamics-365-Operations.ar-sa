@@ -2,11 +2,9 @@
 title: ‏‫العمل باستخدام ملفات التجاوز في CSS .
 description: يصف هذا الموضوع لماذا، ومتى، وكيفية استخدام ملفات التجاوز الخاصة بأوراق الأنماط المتتالية (CSS) في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f4a64735a1259f05de95aa6e129e4b12cbf5f197
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972947"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964594"
 ---
-# <a name="work-with-css-override-files"></a>‏‫العمل باستخدام ملفات التجاوز في CSS .
-
+# <a name="work-with-css-override-files"></a>العمل مع ملفات تجاوز CSS
 
 [!include [banner](includes/banner.md)]
 
 يصف هذا الموضوع لماذا، ومتى، وكيفية استخدام ملفات التجاوز الخاصة بأوراق الأنماط المتتالية (CSS) في Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>نظرة عامة
 
 يجب دائمًا معالجة أنماط الموقع الدائمة من خلال سمة الموقع. توفر المظاهر إعدادات CSS وإعدادات النمط للوحدات النمطية في أي صفحة من موقعك. يتم إنشاء السمات باستخدام مجموعة تطوير البرامج (SDK) الخاصة بـ Dynamics 365 Commerce عبر الإنترنت، ويتم نشرها على مواقع الويب الخاصة بك من خلال Microsoft Dynamics Lifecycle Services (LCS). تساعد قدرات تصحيح السمات وتكوينات واجهة الوحدة النمطية في SDK مطوري المواقع على إنشاء حزم تصميم موقع قابلة للتخصيص ومتماسكة. عند نشر حزم التصميم هذه على موقع ما، يمكن لمؤلفي الموقع التركيز على إنشاء محتوى وتحريره ونشره بدلاً من تطوير الموقع.
 
@@ -106,10 +101,11 @@ ms.locfileid: "4972947"
 
 [إضافة أيقونة المفضلة](add-favicon.md)
 
-[إضافة رسالة ترحيب](add-welcome-message.md)
-
 [إضافة إشعار لحقوق النشر](add-copyright-notice.md)
 
 [إضافة لغات إلى الموقع الخاص بك](add-languages-to-site.md)
 
 [إضافة تعليمات برمجية لبرنامج نصي إلى صفحات الموقع لدعم تتبع الاستخدام](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

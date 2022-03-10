@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734878"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>استيراد إصدارات محدثه من تكوينات ER
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753350"
 
 يتم استخدام [مستودعات](general-electronic-reporting.md#Repository) التقارير الإلكترونية (ER) لمشاركة [تكوينات ER](general-electronic-reporting.md#Configuration). يمكنك [استيراد](download-electronic-reporting-configuration-lcs.md) تكوينات ER من مستودعات مختلفة إلى المثيل الخاص بك من Microsoft Dynamics 365 Finance. عند استيراد تكوينات ER، [يمكن لموفري التكوين](general-electronic-reporting.md#Provider) نشر مستودعات [بإصدارات](general-electronic-reporting.md#component-versioning) جديدة بحيث يمكن مشاركتها.
 
-يشرح هذا الموضوع كيفية استيراد إصدارات محدثة من تكوينات التقارير الإلكترونية (ER) من المستودع العمومي لخدمة التكوين. لمزيد من المعلومات، راجع [Microsoft Dynamics 365 for Finance and Operations -‏ Regulatory Services، خدمة التكوين](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+يشرح هذا الموضوع كيفية استيراد إصدارات محدثة من تكوينات التقارير الإلكترونية (ER) من المستودع العمومي لخدمة التكوين. لمزيد من المعلومات، راجع [Microsoft Dynamics 365 for Finance and Operations -‏ Regulatory Services، خدمة التكوين](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>مراجعة الإصدارات المحدثة المتوفرة
 
@@ -41,11 +41,11 @@ ms.locfileid: "5753350"
 2. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 3. في الصفحة **تكوينات الترجمة**، في قسم **الارتباطات المتعلقة**، حدد **استيراد تحديثات إصدارات التكوينات** .
 
-    ![صفحة تكوينات الترجمة](./media/er-download-updated-versions-global-repo1.png)
+    ![صفحة تكوينات الترجمة.](./media/er-download-updated-versions-global-repo1.png)
 
 4. في مربع الحوار **استيراد تحديثات تكوينات التقارير الإلكترونية**، في حقل **وضع التشغيل**، حدد **إظهار التحديثات المتوفرة فقط**. ثم حدد **موافق**. 
 
-    ![يتم تعيين الحقل وضع التشغيل لإظهار التحديثات المتوفرة فقط](./media/er-download-updated-versions-global-repo2.png)
+    ![يتم تعيين الحقل وضع التشغيل لإظهار التحديثات المتوفرة فقط.](./media/er-download-updated-versions-global-repo2.png)
 
 5. راجع الرسائل التي تتلقاها. توفر هذه الرسائل المعلومات التالية حول تكوينات ER في مثيل Finance الحالي وكيفية مقارنتها بمحتوى المستودع العمومي:
 
@@ -72,14 +72,14 @@ ms.locfileid: "5753350"
 4. في مربع الحوار **استيراد تحديثات إصدارات تكوينات التقارير الإلكترونية**، في الحقل **وضع التشغيل**، حدد **استيراد التحديثات الأخيرة** لاستيراد أحدث إصدارات من تكوينات ER من المستودع العمومي إلى مثيل Finance الحالي.
 5. لجدولة مهمة دفعة لعملية الاستيراد، في علامة التبويب السريعة **التشغيل في الخلفية**، قم بتعيين خيار **معالجة الدفعات** إلى **نعم**. إذا كنت تريد تكرار الاستيراد بشكل دوري، فقم بتكوين التكرار المطلوب.
 
-    ![تعيين حقل وضع التشغيل لاستيراد آخر التحديثات](./media/er-download-updated-versions-global-repo5.png)
+    ![تعيين حقل وضع التشغيل لاستيراد آخر التحديثات.](./media/er-download-updated-versions-global-repo5.png)
 
 6. حدد **موافق**.
 7. لمعرفه إصدارات التكوين التي تم استيرادها، اتبع إحدى الخطوات التالية:
 
     - إذا قمت بتشغيل الاستيراد بطريقة تفاعليه بدلا من استخدام مهمة دفعة، فراجع الرسائل التي تتلقاها.
 
-        ![الرسائل المستلمة أثناء تشغيل الاستيراد التفاعلي](./media/er-download-updated-versions-global-repo6.png)
+        ![الرسائل المستلمة أثناء تشغيل الاستيراد التفاعلي.](./media/er-download-updated-versions-global-repo6.png)
 
     - إذا قمت بتشغيل الاستيراد في وضع الدفعة، فاتبع الخطوات التالية:
 
@@ -87,7 +87,7 @@ ms.locfileid: "5753350"
         2. ابحث عن وظيفة **استيراد تحديثات إصدارات تكوينات التقارير الإلكترونية**، ثم في جزء الإجراءات، في علامة التبويب **الوظيفة الدفعية**، حدد **سجل الوظيفة الدفعية** لعرض سجل الوظيفة.
         3. في صفحة **سجل الوظيفة الدفعية**، حدد **السجل**. ثم، في الرسالة التي تتلقاها، حدد ارتباط **تفاصيل الرسالة** لعرض سجل الوظيفة.
 
-        ![سجل الوظيفة](./media/er-download-updated-versions-global-repo7.png)
+        ![سجل الوظيفة.](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > لا نوصي بجدولة وظيفة دفعية متكررة لاستيراد إصدارات محدثة من تكوينات ER مباشرة من المستودع العمومي إلى بيئة إنتاج، نظرًا لأن الإصدارات المستوردة ستكون متاحة فورا للاستخدام. بدلا من ذلك، استخدم هذا الأسلوب لنشر إصدارات تكوينات ER إلى بيئة وضع الحماية. ويمكن بعد ذلك تقييمها في بيئة وضع الحماية قبل نشرها إلى بيئة إنتاج.

@@ -2,11 +2,9 @@
 title: تحديث التكاليف المعيارية لصنف مصنّع جديد
 description: توفر هذه المقالة إرشادات لتحديث التكاليف المعيارية لصنف مصنع جديد.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03b5fb1311f5a483914c83563d989e1732d431ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 231f0ed5acc86dbe5368b3c7306dd89c8ba0b74901a7e1ccf8410c6585638efa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219451"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733482"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>تحديث التكاليف المعيارية لصنف مصنّع جديد
 

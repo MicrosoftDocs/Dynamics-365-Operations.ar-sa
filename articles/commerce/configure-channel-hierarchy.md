@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713982"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>تكوين قناة لاستخدام التدرج الهرمي للتنقل في قناة
 
@@ -45,7 +45,7 @@ ms.locfileid: "5796114"
 
 تُظهر الصورة التالية كيفية تكوين قناة لاستخدام تدرج هرمي للتنقل في القناة.
 
-![مثال عن تكوين قناة](media/configure-channel-hierarchy-1.png)
+![مثال عن تكوين قناة.](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>تعيين بيانات تعريف السمة
 
@@ -61,7 +61,7 @@ ms.locfileid: "5796114"
 
 تعرض الصورة التالية مثالاً لمجموعة من سمات منتج القناة التي تم تكوينها علي عقدة فئة القناة.
 
-![سمات القناة في عقدة فئة القناة](media/configure-channel-hierarchy-2.png)
+![سمات القناة في عقدة فئة القناة.](media/configure-channel-hierarchy-2.png)
 
 ## <a name="publish-changes"></a>نشر التغييرات
 
@@ -74,11 +74,11 @@ ms.locfileid: "5796114"
 
 تظهر الصورة التالية كيفية نشر تحديثات القناة.
 
-![نشر تحديثات القناة](media/configure-channel-hierarchy-3.png)
+![تحديثات نشر القناة.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[إنشاء تدرج هرمي للتنقل في قناة](create-channel-hierarchy.md)
+[إنشاء تدرج هرمي للتنقل في القناة](create-channel-hierarchy.md)
 
 
 

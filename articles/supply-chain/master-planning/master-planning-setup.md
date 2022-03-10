@@ -1,17 +1,14 @@
 ---
 title: إعداد التخطيط الرئيسي
 description: يصف هذا الموضوع الاستراتيجيات المهمة والمعلمات التي تُستخدم لإعداد التخطيط الرئيسي.
-author: t-benebo
-manager: tfehr
+author: ChristianRytt
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6d33fd53dd088ae4c6b4680d2604f783a3e1a5a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421182"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580710"
 ---
 # <a name="set-up-master-planning"></a>إعداد التخطيط الرئيسي
 
@@ -109,11 +106,11 @@ ms.locfileid: "4421182"
 
 ### <a name="operations-scheduling"></a>جدولة العمليات
 
-يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن. لا تحدد جدولة العمليات عمليات مسار الإنتاج إلى وظائف. لمزيد من المعلومات حول جدولة العمليات راجع [جدولة العمليات](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+يمكنك استخدام جدولة العمليات لتوفير تقدير عام لعملية الإنتاج على مر الزمن. لا تحدد جدولة العمليات عمليات مسار الإنتاج إلى وظائف. لمزيد من المعلومات حول جدولة العمليات راجع [جدولة العمليات](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>جدولة الوظائف
 
-جدولة الوظائف هي طريقة جدولة أكثر تفصيلًا، حيث يتم تقسيم كل عملية إلى مهامها أو وظائفها الفردية. وتتضمن جدولة الوظائف معلومات حول القدرة. إذ إنها تُستخدم عادةً لجدولة الوظائف الفردية في صالة الإنتاج‬ للحصول على إطار زمني فوري أو قصير الأمد. لمزيد من المعلومات حول جدولة الوظيفة راجع [جدولة الوظيفة](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+جدولة الوظائف هي طريقة جدولة أكثر تفصيلًا، حيث يتم تقسيم كل عملية إلى مهامها أو وظائفها الفردية. وتتضمن جدولة الوظائف معلومات حول القدرة. إذ إنها تُستخدم عادةً لجدولة الوظائف الفردية في صالة الإنتاج‬ للحصول على إطار زمني فوري أو قصير الأمد. لمزيد من المعلومات حول جدولة الوظيفة راجع [جدولة الوظيفة](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>الحدود الزمنية بالأيام
 
@@ -161,7 +158,7 @@ ms.locfileid: "4421182"
 
 عن طريق تعيين خيار **رسالة الإجراء** إلى **نعم**، يمكنك تجاوز الحد الزمني لرسالة الإجراء المحدَّد للصنف أثناء الجدولة الرئيسية. وفي هذه الحالة، أدخِل عدد الأيام التي يجب أن تقوم فيها الجدولة الرئيسية بإنشاء رسائل إجراءات للمتطلبات. يتم حساب الحد الزمني لرسالة الإجراء بداية من التاريخ الحالي.
 
-للحصول على المزيد من المعلومات حول رسائل الإجراءات، راجع [رسائل الإجراءات](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+للحصول على المزيد من المعلومات حول رسائل الإجراءات، راجع [رسائل الإجراءات](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > يتسبب حساب رسائل الإجراء في وقت أطول في التشغيل للتخطيط الرئيسي. إذا كانت رسائل الإجراء لا يتم تحليلها بشكل منتظم وتطبيقها (يوميا، أو أسبوعيا، وهكذا) ، قم بمراعاة إيقاف تشغيل الحساب اثناء تشغيل التخطيط الرئيسي. لإيقاف تشغيل الحساب، من صفحة **الخطط الرئيسية**، عيِّن الحد الزمني **لرسالة الإجراء** إلى **0** (صفر) للخطة الرئيسية قيد التشغيل. تأكد أيضًا من إيقاف تشغيل إعداد **رسالة الإجراء** لكافة مجموعات التغطية.
@@ -226,4 +223,7 @@ ms.locfileid: "4421182"
 
 يستخدم النظام أوامر التوريد المخططة التي تقع ضمن هذا الحد الزمني فقط، ويقوم بإنشاء أمر مخطط جديد خارجه. تتمثل ميزة الأيام السالبة الديناميكية في أنها ستتضمن زمن وصول المنتجات الفردية لإعادة استخدام الأوامر الموجودة وتجنب إنشاء أوامر مخططة جديدة ستنتهي في يوم لاحق بسبب التأخيرات التي سببها زمن الوصول. 
 
-للحصول على المزيد من المعلومات، راجع [الأيام السالبة والأيام السالبة الديناميكية](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+للحصول على المزيد من المعلومات، راجع [الأيام السالبة والأيام السالبة الديناميكية](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

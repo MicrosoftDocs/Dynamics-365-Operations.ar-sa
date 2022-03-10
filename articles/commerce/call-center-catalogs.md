@@ -2,11 +2,9 @@
 title: كتالوجات مركز الاتصال​
 description: يصف هذا الموضوع الوظائف الخاصة بمركز الاتصال للكتالوجات في Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5a5f38cf0cd88c5a6ba04725c3bdf5b6a14cf15b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213952"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742502"
 ---
 # <a name="call-center-catalogs"></a>كتالوجات مركز الاتصال​
 
@@ -41,7 +39,7 @@ ms.locfileid: "5213952"
 
 انتقل إلى **البيع بالتجزئة والتجارة** \> **الكتالوجات وعمليات الفرز** \> **جميع الكتالوجات** لتكوين الكتالوج.
 
-عندما تقوم بإنشاء كتالوج جديد، يجب عليك أولاً ربط الكتالوج بقناة أو أكثر. يتم هذا في علامة التبويب السريعة **قنوات التجارة‬** في نموذج **إعداد الكتالوج**. انقر فوق **إضافة** وحدد قناة واحدة أو أكثر. يمكن استخدام العناصر المرتبطة [بعمليات فرز قناتك المحددة](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments) فقط عند إنشاء الكتالوج.
+عندما تقوم بإنشاء كتالوج جديد، يجب عليك أولاً ربط الكتالوج بقناة أو أكثر. يتم هذا في علامة التبويب السريعة **قنوات التجارة‬** في نموذج **إعداد الكتالوج**. انقر فوق **إضافة** وحدد قناة واحدة أو أكثر. يمكن استخدام العناصر المرتبطة [بعمليات فرز قناتك المحددة](/dynamics365/unified-operations/retail/assortments) فقط عند إنشاء الكتالوج.
 
 لإضافة منتجات إلى كتالوج، يجب اختيار تدرج هرمي للتنقل. سيدعم التدرج الهرمي للتنقل بنية الفئة للكتالوج. يجب أن تنتقي من أحد تسلسلات التدرجات الهرمية للتنقل المرتبطة بالقنوات المحددة في علامة التبويب السريعة **قنوات التجارة** في صفحة **الكتالوج**. إذا لم يتم ربط قناة تنقل بقناة في وقت سابق، فاذهب إلى **البيع بالتجزئة والتجارة** \> **إعداد القناة** \> **فئات القناة وسمات المنتج** لربط تدرج هرمي افتراضي للتنقل بكل قناة من قنواتك.
 

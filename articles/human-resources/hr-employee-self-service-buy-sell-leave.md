@@ -1,31 +1,31 @@
 ---
 title: شراء الإجازة وبيعها
-description: في Dynamics 365 Human Resources ، يمكن إرسال طلبات لشراء الإجازة وبيعها استنادًا إلى إعداد سياسات شراء وبيع الإجازات الخاص بشركتك.
-author: andreabichsel
-manager: tfehr
-ms.date: 08/20/2020
+description: يصف هذا الموضوع كيفية إرسال طلبات لشراء وبيع الإجازات في Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveBuyRequestEntry, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cafb9b8f0de535e804b49926b8d572f57f98e457
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 2ddc50540ba0686f18b6e8875e40f11c378c448f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464118"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067469"
 ---
 # <a name="buy-and-sell-leave"></a>شراء الإجازة وبيعها
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -50,6 +50,12 @@ ms.locfileid: "5464118"
 3. حدد **إرسال** عندما تكون مستعدا لتقديم طلبك.
 
 سيتم إما تحديث رصيدك تلقائيًا أو المرور بعملية اعتماد قبل التحديث. ويعتمد ذلك علي كيفية تكوين سياسة الشراء.
+
+
+## <a name="troubleshooting"></a>استكشاف الأخطاء وإصلاحها 
+
+في حالة فشل سير عمل طلب شراء أو بيع، يمكن للمستخدمين الذين لديهم الامتياز **EssLeaveBuySellRequestApprover** مراجعة سجل الرسائل لكافة طلبات الشراء والبيع. للقيام بذلك، انتقل إلى **الإجازة والغياب > الارتباطات > طلبات شراء وبيع الإجازة > سجل الرسائل** (في الجانب العلوي الأيسر). يعرض **سجل الرسائل** للمستخدمين كيفية معالجة الحركات ومحفوظات سير العمل المرتبطة.
+
 
 ## <a name="see-also"></a>راجع أيضًا
 

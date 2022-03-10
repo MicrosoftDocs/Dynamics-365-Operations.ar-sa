@@ -2,11 +2,9 @@
 title: " قواعد تسعير الفئات لإنشاء اتفاقيات التجارة"
 description: يوضح هذا الإجراء كيفية إنشاء اتفاقيات تجارية على أسعار المبيعات باستخدام قاعدة تسعير الفئات.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a945a0f49df92731175c1624da98831bbc5bb741
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39418f9d9c5e3edf1db92a6d8271df2c55be94deca814838c133d0ef6703ec09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730697"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> قواعد تسعير الفئات لإنشاء اتفاقيات التجارة
 
@@ -58,3 +56,6 @@ ms.locfileid: "5006075"
 24. انقر فوق علامة التبويب قواعد أسعار الفئات.
     * ستظهر قواعد تسعير الفئات الخاصة بالقنوات في هذه القائمة.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

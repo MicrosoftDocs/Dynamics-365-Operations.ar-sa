@@ -1,26 +1,24 @@
 ---
 title: تأكيد أوامر المبيعات
 description: يوضح هذا الإجراء كيفية تأكيد أوامر المبيعات.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, CustConfirmJournal, SysQueryForm, SysQueryFieldLookUp, SysLookup, SalesParmIdLookup, SalesUnconfirmedOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1c09ef2f78353a75ecb2dfffef6965cb1ac0873
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30396c121b67d1b7095a175d85399ed664f68557
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991805"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572495"
 ---
 # <a name="confirm-sales-orders"></a>تأكيد أوامر المبيعات
 
@@ -63,3 +61,6 @@ ms.locfileid: "4991805"
 11. انقر فوق **موافق**.
 12. انقر فوق **موافق**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

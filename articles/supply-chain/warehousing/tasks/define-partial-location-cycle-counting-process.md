@@ -1,26 +1,24 @@
 ---
 title: 'تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫ '
 description: عندما تستخدم خطط الجرد الدوري لإنشاء عمل الجرد، يمكنك إرشاد عمليات الجرد الفعلية عن طريق طلب إجراء عمليات جرد لمنتجات ومتغيرات منتجات معينة فقط بدلاً من جر كل المخزون الفعلي في الموقع.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0778cc7c1703dcfd5ea77979aafc99f4f040830d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c179b7f6e0b8546e20204a971cb2951c7b62d7b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977128"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579966"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>تحديد ‬‏‫عملية الجرد الدوري الجزئي للمواقع‫  
 
@@ -72,3 +70,6 @@ ms.locfileid: "4977128"
 14. انقر فوق "موافق".
 15. قم بإغلاق الصفحة.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

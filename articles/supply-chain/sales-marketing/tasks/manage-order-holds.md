@@ -1,27 +1,24 @@
 ---
 title: إدارة عمليات تعليق الأمر
 description: يوضح هذا الإجراء كيفية وضع أوامر مبيعات العميل قيد الانتظار، وكيفية العمل مع عمليات سحب تعليقات الأمر، وكيفية إزالة تعليقات الأمر.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans, MCRHoldCheckOutOverride, MCRHoldCodeTable, MCRItemListCopying, MCRItemListTable, MCROMHoldList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9caf6651813f0111b873db1769140d973f1a2e3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 938b21b66b7b61452be104936877278a3bc120f2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421462"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566277"
 ---
 # <a name="manage-order-holds"></a>إدارة عمليات تعليق الأمر
 
@@ -70,3 +67,6 @@ ms.locfileid: "4421462"
     - ينطبق الإجراء **مسح وإرسال** فقط عندما تستخدم وظيفة مركز الاتصال‬.  
 8. انقر فوق **مسح التعليقات‬**. تم الآن مسح التعليق من الأمر وتمت إزالته من قائمة التعليقات النشطة. لعرض كافة التعليقات أو مجموعتها الفرعية وفقًا لحالة معينة، قم بتغيير القيمة الموجودة في الحقل "إظهار".     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

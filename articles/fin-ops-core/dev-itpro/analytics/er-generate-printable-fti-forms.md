@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758206"
 ---
 # <a name="generate-printable-fti-forms"></a>إنشاء نماذج فاتورة نص حر (FTI) قابلة للطباعة
 
@@ -77,7 +77,7 @@ ms.locfileid: "5751646"
 3. حدد مستوى المستند لتحديد نطاق الفواتير المطلوب معالجتها.
 4. حدد تنسيق التقارير الإلكترونية لمستوى المستند المحدد.
 
-![إعداد إدارة الطباعة](media/FTIbyGER-PMSetting.png)
+![إعداد إدارة الطباعة.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > تنسيقات التقارير الإلكترونية التي تستخدم واصف الجذر **FreeTextInvoice** في نموذج البيانات **CustomersInvoicing** هي وحدها التي تظهر في الحقل **بحث عن تنسيق التقرير** للتنسيق المحدد.
@@ -87,9 +87,9 @@ ms.locfileid: "5751646"
 
 لإنشاء نماذج FTI، يمكنك تحديد الفواتير إما بحسب النطاق أو بحسب التحديد. 
 
-![تحديد الفواتير](media/FTIbyGER-InvoiceSelection.png)
+![تحديد الفواتير.](media/FTIbyGER-InvoiceSelection.png)
 
-![معاينة الفواتير](media/FTIbyGER-InvoiceExcelPreview.png)
+![معاينة الفواتير.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 عندما تستخدم تنسيقات التقارير الإلكترونية لطباعة نماذج FTI بهذه الطريقة، يتم استخدام الوجهات الافتراضية لملفات التقارير الإلكترونية. لا الافتراضي تغيير الوجهة. لمزيد من المعلومات حول كيفية تكوين وجهات التقارير الإلكترونية لتنسيقات التقارير الإلكترونية، راجع [وجهات التقارير الإلكترونية (ER)‬](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ ms.locfileid: "5751646"
 > - **الاسم:** ERFormatDestinationRuntimeMaintain
 > - **التسمية:** الاحتفاظ بوجهة ‏‫تنسيق إعداد التقارير الإلكترونية‬ أثناء وقت التشغيل
 
-![وجهة التقارير الإلكترونية‬](media/FTIbyGER-ERFileDestinationSetting.png)
+![وجهة إعداد التقارير الإلكترونية‬.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![وجهة ‏‫تنسيق التقارير الإلكترونية](media/FTIbyGER-ERFileDestinationUsage.png)
+![وجهة ‏‫تنسيق التقارير الإلكترونية.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 يدعم إطار عمل التقارير الإلكترونية في الوقت الحالي الوجهات التالية للمستندات التي تم إنشاؤها:
 
@@ -128,7 +128,7 @@ ms.locfileid: "5751646"
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>الميزات المطبقة في عينة تنسيق التقارير الإلكترونية
 في عينة تكوين تنسيق التقارير الإلكترونية، يتم استخدام ملف Excel كقالب لإنشاء نماذج FTI.
 
-![مصمم التنسيق](media/FTIbyGER-ERFormat.png)
+![مصمم التنسيق.](media/FTIbyGER-ERFormat.png)
 
 في الوقت الحالي، تدعم عينة تنسيق التقارير الإلكترونية هذه الميزات التالية لإنشاء نماذج FTI:
 
@@ -179,7 +179,7 @@ ms.locfileid: "5751646"
 - للكيان القانوني الذي يستخدم سياق البلد/المنطقة لفنلندا، وله حساب بنكي واحد على الأقل وضعت عليه علامة **حساب Giro** و **الرمز الشريطي للبنك‬**. 
 - بالنسبة إلى فاتورة تم وضع علامة عليها على أنها مطلوبة لمرفق الدفع المقترن **الفنلندي**.
 
-![قسيمة Giro](media/FTIbyGER-GiroSlip.PNG)
+![قسيمة Giro.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > تم تكوين عينة تنسيق التقارير الإلكترونية‬ لإنشاء قسائم الحوالات النقدية بنظام giro‬ في ورقة العمل المنفصلة، بشكل اختياري.
@@ -194,7 +194,7 @@ ms.locfileid: "5751646"
 - يمكن الوصول إلى نص موضوع البريد الإلكتروني من خلال تعبير التقرير الإلكتروني التالي: **Emailing.TxtToUse.Subject**.
 - يمكن الوصول إلى النص الأساسي للبريد الإلكتروني من خلال تعبير التقرير الإلكتروني التالي: **Emailing.TxtToUse.Body**.
 
-![إعدادات الوجهة](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![إعدادات الوجهة.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 يتم تعريف النص الافتراضي لموضوع البريد الإلكتروني ونصه الأساسي في عينة تنسيق التقارير الإلكترونية. تتوقف اللغة على تسميات التنسيق. سيتم استخدام هذا النص الافتراضي لرسائل البريد الإلكتروني إذا لم تتم إضافة قالب بريد إلكتروني مخصص للمؤسسة الذي يحتوي على معرّف **ERFTITMP** المحدد مسبقًا.
 
@@ -203,9 +203,9 @@ ms.locfileid: "5751646"
 
 إذا تم إضافة قالب البريد الإلكتروني للمؤسسة الذي يحتوي على معّرف **ERFTITMP** المحدد مسبقًا إلى الكيان القانوني الذي تعمل على معالجة الفاتورة له، فسيتم استخدام قالب موضوع البريد الإلكتروني ونصه الأساسي لإنشاء رسالة بريد إلكتروني. 
 
-![قوالب البريد الإلكتروني للمؤسسة](media/FTIbyGER-EmailTemplate.png)
+![قوالب البريد الإلكتروني للمؤسسة.](media/FTIbyGER-EmailTemplate.png)
 
-![تحميل قالب البريد الإلكتروني](media/FTIbyGER-EmailTemplateBody.png)
+![تحميل قالب البريد الإلكتروني.](media/FTIbyGER-EmailTemplateBody.png)
 
 يتم تكوين تعبير التقارير الإلكترونية **Emailing.TxtToUse.Subject** لعينة تنسيق التقارير الإلكترونية‬ لاستبدال أي حدوث للعنصر النائب %1 بواسطة معرّف معالجة الفاتورة.
 
@@ -218,10 +218,10 @@ ms.locfileid: "5751646"
 - يتم استبدال "%5" بالمسمى الوظيفي لشخص جهة اتصال الشركة.
 - يتم استبدال "%6" بعنوان البريد الإلكتروني لشخص جهة اتصال الشركة.
 
-![البريد الإلكتروني](media/FTIbyGER-Email.PNG)
+![البريد الإلكتروني.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
-[نظرة عامة حول التقارير الإلكترونية](general-electronic-reporting.md)
+[نظرة عامة على إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
