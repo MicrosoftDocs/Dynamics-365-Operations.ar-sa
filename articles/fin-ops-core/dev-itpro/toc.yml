@@ -8,12 +8,14 @@
           href: index.md
         - name: ما الجديد أو المتغير
           items:
-            - name: الجديد أو المتغير في تطبيقات Finance and Operations
+            - name: الجديد أو المتغير في تطبيقات التمويل والعمليات
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: الجديد أو المتغير في تحديثات النظام الأساسي
               items:
                 - name: الميزات الجديدة أو المتغيرة في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.26 (مايو 2022)
+                  href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.25 (أبريل 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.24 (فبراير 2022)
