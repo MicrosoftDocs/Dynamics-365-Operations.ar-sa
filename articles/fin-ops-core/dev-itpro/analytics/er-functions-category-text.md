@@ -2,7 +2,7 @@
 title: قائمة وظائف التقارير الإلكترونية من فئة النص
 description: يوفر هذا الموضوع معلومات حول وظائف النص المعتمدة في التقارير الإلكترونية (ER).
 author: NickSelin
-ms.date: 09/09/2021
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075490"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367757"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>قائمة وظائف التقارير الإلكترونية من فئة النص
 
@@ -51,7 +51,7 @@ ms.locfileid: "8075490"
 | [إلى اليمين](er-functions-text-right.md) | تُرجع هذه الوظيفة قيمة *السلسلة* التي توضح العدد المُحدد من الأحرف من نهاية السلسلة المُحددة. |
 | [النص](er-functions-text-text.md) | تُرجع هذه الوظيفة الرقم المُحدد كقيمة *سلسلة* بعد أن يتم تحويله إلى سلسلة نصية يتم تنسيقها وفقًا لإعدادات الخادم المحلية لمثيل التطبيق الحالي. |
 | [ترجمة](er-functions-text-translate.md) | تقوم هذه الدالة بإرجاع قيمة *سلسلة* تحتوي على نتيجة استبدال النص المحدد بأحرف بمجموعة أحرف أخرى متوفرة. |
-| [Trim](er-functions-text-trim.md) | تُرجع هذه الوظيفة سلسلة النص المُحددة كقيمة *سلسلة* بعد اقتطاع المسافات البادئة والزائدة، وبعد أن تمت إزالة المسافات المتعددة بين الكلمات. |
+| [Trim](er-functions-text-trim.md) | تقوم هذه الوظيفة بإرجاع السلسلة النصية المحددة كقيمة *سلسلة* بعد علامة التبويب، ونقل الإرجاع، وتغذية البنود، وأحرف تغذية النموذج بحرف مسافة واحد، بعد قطع المسافات البادئة واللاحقة، وبعد إزالة المسافات المتعددة بين الكلمات. |
 | [Upper](er-functions-text-upper.md) | تُرجع هذه الوظيفة سلسلة النص المُحددة كقيمة *السلسلة* بعد أن تم تحويلها إلى أحرف كبيرة. |
 
 ## <a name="additional-resources"></a>الموارد الإضافية

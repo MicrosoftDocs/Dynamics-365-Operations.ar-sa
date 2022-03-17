@@ -2,23 +2,24 @@
 title: إرشادات النشر لعينة تكامل خدمة التسجيل المالي لجمهورية التشيك (قديمة)
 description: يوفر هذا الموضوع إرشادات لنشر نموذج التكامل المالي لجمهورية التشيك من مجموعة تطوير برامج Microsoft Dynamics 365 Commerce ‏Retail ‏(SDK).
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: adafde2123afdc793a6ef4edf8fa16b857c55bf8
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 80778547b99af5a7a9717146850d8161f2e8f686
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076926"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388328"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>إرشادات النشر لعينة تكامل خدمة التسجيل المالي لجمهورية التشيك (قديمة)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 يوفر هذا الموضوع إرشادات لنشر نموذج تكامل خدمة التسجيل المالي لجمهورية التشيك من مجموعة تطوير برنامج Microsoft Dynamics 365 Commerce ‏(SDK) على جهاز ظاهري للمطور (VM) في Microsoft Dynamics Lifecycle Services ‏(LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل خدمة التسجيل المالي لجمهورية التشيك](emea-cze-fi-sample.md). 
 
@@ -85,6 +86,10 @@ ms.locfileid: "8076926"
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsCzechia" />
     ```
 
+### <a name="enable-fiscal-connector-extensions"></a>تمكين ملحقات الموصل المالي
+
+يمكنك تمكين ملحقات الموصل المالي في [محطة الأجهزة](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) أو [سجل نقطة البيع](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
+
 ### <a name="enable-hardware-station-extensions"></a>تمكين ملحقات محطة الأجهزة
 
 يتم تضمين مكونات توسيع محطة الأجهزة في عينات محطة الأجهزة. لإكمال الإجراءات التالية، افتح حل **HardwareStationSamples.sln** ضمن **RetailSdk\\SampleExtensions\\HardwareStation**.
@@ -112,6 +117,30 @@ ms.locfileid: "8076926"
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
+
+#### <a name="enable-pos-extensions"></a>تمكين ملحقات POS
+
+نموذج ملحق نقطة البيع موجود في مجلد **src\\FiscalIntegration\\PosFiscalConnectorSample** في مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
+
+لاستخدام نموذج ملحق نقطة البيع في SDK القديم، اتبع هذه الخطوات.
+
+1. انسخ مجلد **Pos.Extension** إلى مجلد **ملحقات** نقطة البيع لـ SDK القديم (على سبيل المثال، `C:\RetailSDK\src\POS\Extensions`).
+1. أعد تسمية نسخة مجلد **Pos.Extension** باسم **PosFiscalConnector**.
+1. قم بازاله المجلدات والملفات التالية من المجلد **PosFiscalConnector**:
+
+    - صندوق
+    - DataService
+    - devDependencies
+    - المكتبات
+    - obj
+    - Contoso.PosFiscalConnectorSample.Pos.csproj
+    - RetailServerEdmxModel.g.xml
+    - tsconfig.json
+
+1. افتح حل **CloudPos.sln** أو **ModernPos.sln**.
+1. في مشروع **Pos.Extensions**، قم بتضمين مجلد **PosFiscalConnector**.
+1. افتح ملف **extensions.json**، وأضف ملحق **PosFiscalConnector**.
+1. أنشئ SDK.
 
 ### <a name="production-environment"></a>بيئة الإنتاج
 
@@ -187,7 +216,7 @@ ms.locfileid: "8076926"
 
 الغرض من الامتداد الذي يعتبر رابطًا ماليًا هو الاتصال بخدمة التسجيل المالي.
 
-ملحق محطة الأجهزة هو **HardwareStation.Extension.EFRSample**. يستخدم ملحق محطة الأجهزة بروتوكول HTTP لإرسال المستندات التي ينشئها ملحق CRT لخدمة التسجيل المالي. كما أنه يتعامل مع الاستجابات التي يتم تلقيها من خدمة التسجيل المالي.
+ملحق محطة الأجهزة يُسمى **HardwareStation.Extension.EFRSample**. يستخدم بروتوكول HTTP أو HTTPS لإرسال المستندات التي ينشئها ملحق CRT لخدمة التسجيل المالية. كما أنه يتعامل مع الاستجابات التي يتم تلقيها من خدمة التسجيل المالي.
 
 #### <a name="request-handler"></a>معالج الطلب
 
@@ -206,4 +235,27 @@ ms.locfileid: "8076926"
 ملف التكوين موجود في مجلد **التكوين** لمشروع الملحق. الغرض من الملف هو تمكين إعدادات الرابط المالي ليتم تكوينه من مقر Commerce الرئيسي. يتوافق تنسيق الملف مع متطلبات تكوين التكامل المالي. تمت إضافة الإعدادات التالية:
 
 - **عنوان نقطة النهاية** – عنوان URL الخاص بخدمه التسجيل المالية.
-- **المهلة** – مقدار الوقت بالمللي ثانية الذي سينتظره برنامج التشغيل للحصول على استجابة من خدمة التسجيل المالي.
+- **المهلة** – مقدار الوقت بالمللي ثانية الذي سينتظره الموصل للحصول على استجابة من خدمة التسجيل المالي.
+
+### <a name="pos-fiscal-connector-extension-design"></a>تصميم ملحق موصل POS المالي
+
+الغرض من امتداد الرابط المالي لنقاط البيع هو التواصل مع خدمة التسجيل المالي من نقطة البيع. يستخدم بروتوكول HTTPS للاتصال.
+
+#### <a name="fiscal-connector-factory"></a>مصنع الموصل المالي
+
+يقوم مصنع الموصل المالي بتعيين اسم الموصل إلى تطبيق الموصل المالي ويوجد في ملف **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. يجب أن يتطابق اسم الموصل مع اسم الموصل المالي المحدد في مقر Commerce الرئيسي.
+
+#### <a name="efr-fiscal-connector"></a>الموصل المالي لـ EFR
+
+يوجد الموصل المالي EFR في ملف **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. يقوم بتنفيذ واجهة **IFiscalConnector** التي تدعم الطلبات التالية:
+
+- **FiscalRegisterSubmitDocumentClientRequest** – يرسل هذا الطلب المستندات إلى خدمة التسجيل المالي ويعيد ردًا منها.
+- **FiscalRegisterIsReadyClientRequest** – يُستخدم هذا الطلب لإجراء فحص سلامة لخدمة التسجيل المالي.
+- **FiscalRegisterInitializeClientRequest** – يستخدم هذا الطلب لتهيئة خدمة التسجيل المالي.
+
+#### <a name="configuration"></a>تكوين
+
+ملف التكوين موجود في مجلد **src\\FiscalIntegration\\Efr\\التكوينات\\الموصلات** في مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). الغرض من الملف هو تمكين إعدادات الرابط المالي ليتم تكوينه من مقر Commerce الرئيسي. يتوافق تنسيق الملف مع متطلبات تكوين التكامل المالي. تمت إضافة الإعدادات التالية:
+
+- **عنوان نقطة النهاية** – عنوان URL الخاص بخدمه التسجيل المالية.
+- **المهلة** – مقدار الوقت بالمللي ثانية الذي سينتظره الموصل للحصول على استجابة من خدمة التسجيل المالي.

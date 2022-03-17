@@ -2,7 +2,7 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Commerce.
 author: josaw
-ms.date: 09/27/2021
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559549"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384597"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 
@@ -31,7 +31,7 @@ ms.locfileid: "7559549"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 > [!NOTE]
-> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [التقارير المرجعية التقنية](/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات التمويل والعمليات.
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.21 من Commerce
 
@@ -59,7 +59,7 @@ ms.locfileid: "7559549"
 | **هل تم الاستبدال بميزة أخرى؟**   |  [تنزيل نماذج Retail SDK والحزم المرجعية من GitHub وNuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **مناطق المنتجات المتأثرة**         | Retail SDK |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | مهمل: اعتبارا من الإصدار 10.0.21، سيتم إزالة SDK التي يتم شحنها عبر LCS VMs في أكتوبر 2022. |
+| **الحالة**                         | مهمل: اعتبارا من الإصدار 10.0.21، سيتم إزالة SDK التي يتم شحنها عبر LCS VMs في أبريل 2023. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>حزمة قابلة للنشر بالتجزئة ومثبتات وحدة نقاط البيع والأجهزة المدمجة ومقياس السحاب
 
@@ -82,9 +82,9 @@ ms.locfileid: "7559549"
     + [وحدة قياس السحابة](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
     + [نقطة البيع، وCSU، ومحطة الأجهزة](https://github.com/microsoft/Dynamics365Commerce.InStore)
 
-### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln وCloudPOs.sln في Retail SDK
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln وCloudPos.sln في Retail SDK
 
-تم إهمال تطوير امتداد POS باستخدام ModernPos.sln وCloudPOs.sln وPOS.Extension.csproj ومجلد POS في الإصدار 10.0.21. من الآن فصاعدًا، استخدم SDK للتعبئة المستقلة عن نقاط البيع لملحقات نقاط البيع.
+تم إهمال تطوير امتداد POS باستخدام ModernPos.sln وCloudPos.sln وPOS.Extension.csproj ومجلد POS في الإصدار 10.0.21. من الآن فصاعدًا، استخدم SDK للتعبئة المستقلة عن نقاط البيع لملحقات نقاط البيع.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -92,7 +92,7 @@ ms.locfileid: "7559549"
 | **هل تم الاستبدال بميزة أخرى؟**   | [نقطة البيع - SDK للتعبئة المستقلة](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **مناطق المنتجات المتأثرة**         | توسيع نقطة بيع Dynamics 365 Commerce ونشرها |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | مهمل: اعتبارًا من الإصدار 10.0.21، ستتم إزالة دعم حزم نقاط البيع المدمجة ونموذج الامتداد باستخدام ModernPos.Sln وCloudPOs.sln وPOS.Extensons.csproj في Retail SDK في أكتوبر 2022. |
+| **الحالة**                         | مهمل: اعتبارًا من الإصدار 10.0.21، ستتم إزالة دعم حزم نقاط البيع المدمجة ونموذج الامتداد باستخدام ModernPos.Sln وCloudPOs.sln وPOS.Extensons.csproj في Retail SDK في أبريل 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.17 من Commerce
 

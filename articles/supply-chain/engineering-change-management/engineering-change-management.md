@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102900"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384658"
 ---
 # <a name="manage-changes-to-engineering-products"></a>أداره التغييرات للمنتجات الهندسية
 
@@ -217,5 +217,15 @@ ms.locfileid: "8102900"
 
 يمكنك استخدام الزر **حفظ/نسخ معلومات التغيير** لنسخ معلومات التغيير بين المنتجات المتاثره.
 
+## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>استخدم التوقيعات الإلكترونية للموافقة وتنشيط قوائم BOM والمسارات
+
+لاستخدام التوقيعات الإلكترونية للموافقة و/أو تنشيط قائمة مكونات الصنف (BOM) و/أو تغييرات المسار، انتقل إلى **إدارة المؤسسة \> الإعداد \> التوقيع الإلكتروني \> متطلبات التوقيع الإلكتروني**. بعد ذلك، تأكد من تعيين **التوقيع المطلوب** إلى *نعم* لكل عنصر من العناصر التالية:
+
+- تنشيط قائمة مكونات الصنف لمنتج أمر تغيير الهندسة
+- تنشيط مسار المنتج لأمر تغيير الهندسة
+- الموافقة على قائمة مكونات الصنف لمنتج أمر تغيير الهندسة
+- الموافقة على مسار المنتج لأمر تغيير الهندسة
+- الموافقة على BOM للإصدار الهندسي وإصدارات BOM
+- اعتماد النسخة الهندسية ونسخة المسار
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

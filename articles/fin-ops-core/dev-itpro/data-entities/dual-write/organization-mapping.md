@@ -1,6 +1,6 @@
 ---
 title: التدرج الهرمي للمؤسسات في Dataverse
-description: يوضح هذا الموضوع تكامل البيانات التنظيمية بين تطبيقات Finance and Operations وDataverse.
+description: يوضح هذا الموضوع تكامل البيانات التنظيمية بين تطبيقات التمويل والعمليات وDataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062076"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358354"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>التدرج الهرمي للمؤسسات في Dataverse
 
@@ -28,7 +28,7 @@ ms.locfileid: "8062076"
 
 ## <a name="data-flow"></a>تدفق البيانات
 
-سيستمر وجود التدرج الهرمي للمؤسسات في النظام البيئي للأعمال الذي يتكون من تطبيقات Finance and Operations وDataverse. تم بناء هذا التدرج الهرمي للمؤسسات استنادًا إلى تطبيقات Finance and Operations، ولكنه يظهر لأغراض تتعلق بالمعلومات وقابلية التوسعة في Dataverse. يبين الرسم التوضيحي التالي معلومات التدرج الهرمي للمؤسسات التي تظهر في Dataverse كتدفق بيانات أحادي الاتجاه من تطبيقات Finance and Operations إلى Dataverse.
+سيستمر وجود التدرج الهرمي للمؤسسات في النظام البيئي للأعمال الذي يتكون من تطبيقات التمويل والعمليات وDataverse. تم بناء هذا التدرج الهرمي للمؤسسات استنادًا إلى تطبيقات التمويل والعمليات، ولكنه يظهر لأغراض تتعلق بالمعلومات وقابلية التوسعة في Dataverse. يبين الرسم التوضيحي التالي معلومات التدرج الهرمي للمؤسسات التي تظهر في Dataverse كتدفق بيانات أحادي الاتجاه من تطبيقات التمويل والعمليات إلى Dataverse.
 
 ![صورة البنية الهندسية.](media/dual-write-data-flow.png)
 
@@ -36,11 +36,11 @@ ms.locfileid: "8062076"
 
 ## <a name="templates"></a>القوالب
 
-تحتوي معلومات المنتج على كافة المعلومات المرتبطة بالمنتج وتعريفه، مثل أبعاد المنتج أو أبعاد التعقب والتخزين. كما يوضح الجدول التالي، يتم إنشاء مجموعة من مخططات الجداول لمزامنة المنتجات والمعلومات المتعلقة بها.
+المؤسسة هي عبارة عن مجموعة من الأشخاص يعملون معا لتنفيذ عملية تجارية أو تحقيق هدف. تمثل التدرجات الهرمية المؤسسية العلاقات بين المؤسسات التي تتألف منها أعمالك. يمكنك تحديد الأنواع التالية من المؤسسات الداخلية: الكيانات القانونية ووحدات التشغيل والفرق. كما يوضح الجدول التالي، يتم إنشاء مجموعة من خرائط الجدول لمزامنة الكيانات القانونية ووحدة التشغيل والقطاعات ومعلومات التسلسل الهرمي للتنظيم ذات الصلة.
 
-تطبيقات Finance and Operations | تطبيقات Customer Engagement     | الوصف
+تطبيقات التمويل والعمليات | تطبيقات Customer Engagement     | ‏‏الوصف‬
 -----------------------|--------------------------------|---
-[الكيانات القانونية](mapping-reference.md#102) | cdm_companies | يوفر مزامنة ثنائيه الاتجاه لمعلومات الكيان القانوني (الشركة).
+[الكيانات القانونية](mapping-reference.md#102) | cdm_companies | 
 [الكيانات القانونية](mapping-reference.md#142) | msdyn_internalorganizations |
 [وحدة التشغيل](mapping-reference.md#143) | msdyn_internalorganizations |
 [التدرج الهرمي للمؤسسات - منشور](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | يقدم هذا القالب مزامنة أحادية الاتجاه لجدول المنشور للتدرج الهرمي للمؤسسات.

@@ -2,21 +2,21 @@
 title: نظرة عامة على التكامل المالي لقنوات Commerce
 description: يوفر هذا الموضوع نظرة عامة حول قدرات التكامل المالي المتوفرة في Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 46e0afd5a8cb692da56a7d5f261ca30d9b3aaa80
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077182"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388303"
 ---
-# <a name="overview-of-fiscal-integration-for-commerce-channels"></a>نظرة عامة على التكامل المالي لقنوات Commerce
+# <a name="fiscal-integration-overview-for-commerce-channels"></a>نظرة عامة على التكامل المالي لقنوات Commerce
 
 [!include [banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
@@ -46,6 +46,9 @@ ms.locfileid: "8077182"
 - **تكوين الموصل المالي** - يحدد هذا التكوين الاتصال الفعلي بالجهاز أو الخدمة المالية المحددة.
 
 يتم تعريف عملية تسجيل مالي لسجل نقطة بيع معين بواسطة إعداد مناظر في ملف تعريف وظائف نقطة البيع. لمزيد من التفاصيل حول كيفية تكوين عملية تسجيل مالي، وتحميل تكوينات موفر المستندات المالية والموصل المالي، وتغيير معلمات تكوينها، راجع [إعداد عملية تسجيل مالي](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+
+> [!NOTE]
+> إذا كنت بحاجة إلى أجهزة لعمليات غير مالية، مثل البحث في كتالوج المنتجات أو البحث عن العملاء أو إنشاء مسودة الحركات، فيمكنك تحديدها كسجلات ذات قيود العملية المالية. لمزيد من المعلومات، راجع [إعداد السجلات مع قيود التسجيل المالي](setting-up-fiscal-integration-for-retail-channel.md#set-up-registers-with-fiscal-registration-restrictions).
 
 يبدأ سير عمل التسجيل المالي النموذجي التالي بحدث في نقطة البيع (على سبيل المثال، إنجاز حركة مبيعات) وينفذ تسلسلاً محددًا مسبقًا من الخطوات التي تتضمن مكونات Commerce أخرى (مثل CRT ومحطة الأجهزة).
 

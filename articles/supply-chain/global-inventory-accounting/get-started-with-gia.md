@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860498"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384787"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>الشروع في العمل في ‏‫محاسبة المخزون العالمي
 
@@ -121,7 +121,7 @@ ms.locfileid: "7860498"
 1. سجل دخولك إلى Supply Chain Management.
 1. انتقل إلى **إدارة النظام \> إدارة الميزات**.
 1. حدد **التحقق من وجود تحديثات**.
-1. في علامة التبويب **الكل**، ابحث عن الميزة التي تسمي *محاسبة المخزون العالمي*.
+1. في علامة التبويب **الكل**، ابحث عن الميزة التي تسمى *محاسبة المخزون العالمي*.
 1. حدد **تمكين الآن**.
 1. انتقل إلى **محاسبة المخزون العالمي \> الإعداد \> معلمات محاسبة المخزون العالمي \> معلمات التكامل**.
 1. في الحقلين **نقطة نهاية خدمة البيانات** و **نقطة نهاية محاسبة المخزون العالمي**، أدخل عناوين URL من البريد الإلكتروني الذي أرسله فريق محاسبة المخزون العالمي عند التسجيل في الإصدار الأولي.

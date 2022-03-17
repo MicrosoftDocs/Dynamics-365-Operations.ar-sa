@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4768ee6ddbaba8ae5bab5e2f9f7df9239efeb90
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777254"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358279"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام ‏‫وعاء الفواتير‬
 
@@ -58,7 +58,7 @@ ms.locfileid: "6777254"
 6. حدد **تغيير طريقة العرض**.
 7. حدد **طريقة عرض الشبكة‬**.
 8. حدد **ترحيل**.
-9. وقم بغلق النموذج.
+9. قم بإغلاق الصفحة.
 10. في جزء التنقل، انتقل إلى **الوحدات النمطية > الحسابات الدائنة > المورّدون > المورّدون**.
 11. حدد المورّد الذي كان على أمر الشراء. على سبيل المثال، حدد المورّد **1001**.
 12. في جزء الإجراءات، حدد **المورّد**.

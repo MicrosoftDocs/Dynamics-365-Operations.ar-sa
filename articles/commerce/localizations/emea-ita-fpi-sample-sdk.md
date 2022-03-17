@@ -2,23 +2,24 @@
 title: إرشادات النشر لعينة تكامل الطابعة المالية لإيطاليا (قديمة)
 description: يوفر هذا الموضوع إرشادات لنشر نموذج التكامل الطابعة المالية لإيطاليا من مجموعة تطوير برامج Microsoft Dynamics 365 Commerce ‏Retail ‏(SDK).
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c820c320410c43cafaae43c59cad04efdee24ab2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076876"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388434"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>إرشادات النشر لعينة تكامل الطابعة المالية لإيطاليا (قديمة)
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 يوفر هذا الموضوع إرشادات لنشر نموذج تكامل الطابعة المالية لإيطاليا من مجموعة أدوات تطوير برامج البيع بالتجزئة (SDK) Microsoft Dynamics 365 Commerce على جهاز ظاهري للمطور (VM) في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل الطابعة المالية لإيطاليا](emea-ita-fpi-sample.md). 
 
@@ -89,13 +90,13 @@ ms.locfileid: "8076876"
 1. أكمل الخطوات الموضحة في [قسم بيئة التطوير](#development-environment) المذكور سابقا في هذا الموضوع.
 2. قم بإجراء التغييرات التالية في ملفات تكوين الحزمة ضمن مجلد **RetailSdk\\Assets**:
 
-    - في ملفات تكوين **commerceruntime.ext.config** و **CommerceRuntime.MPOSOffline.Ext.config**، أضف السطر التالي إلى قسم **التأليف**:
+    1. في ملفات تكوين **commerceruntime.ext.config** و **CommerceRuntime.MPOSOffline.Ext.config**، أضف السطر التالي إلى قسم **التأليف**:
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    - في ملف تكوين **HardwareStation.Extension.config**، أضف السطر التالي إلى قسم **التأليف**.
+    1. في ملف تكوين **HardwareStation.Extension.config**، أضف السطر التالي إلى قسم **التأليف**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -103,20 +104,56 @@ ms.locfileid: "8076876"
 
 3. قم بإجراء التغييرات التالية في ملف تكوين تخصيص حزمة **Customization.settings** ضمن مجلد **BuildTools**:
 
-    - أضف السطر التالي لتضمين ملحق CRT في الحزم القابلة للنشر.
+    1. أضف السطر التالي لتضمين ملحق CRT في الحزم القابلة للنشر.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
         ```
 
-    - أضف السطر التالي لتضمين ملحق محطة الأجهزة في الحزم القابلة للنشر.
+    1. أضف السطر التالي لتضمين ملحق محطة الأجهزة في الحزم القابلة للنشر.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. أبدا تشغيل موجه الأوامر MSBuild للحصول على أداة Visual Studio المساعدة، ثم قم بتشغيل **msbuild** ضمن مجلد Retail SDK لإنشاء الحزم القابلة للنشر.
-5. قم بتطبيق الحزم من خلال LCS أو يدويًا. لمزيد من المعلومات، راجع [إنشاء الحزم القابلة للنشر](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+4. قم بإجراء التغييرات في ملف **Sdk.ModernPos.Shared.csproj** ضمن مجلد **الحزم\_SharedPackagingProjectComponents** لتضمين ملفات الموارد لإيطاليا في حزم قابلة للنشر:
+
+    1. أضف قسم **ItemGroup** الذي يحتوي على العقد التي تشير إلى ملفات الموارد للترجمات المطلوبة. تأكد من تحديد مساحات الأسماء ونماذج الأسماء الصحيحة. يضيف المثال التالي عقد الموارد للغتين المحليتين **it** و **it-CH**.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. في قسم **Target Name="CopyPackageFiles"**، أضف سطرًا واحدًا لكل لغة، كما هو موضح في المثال التالي.
+
+        ```xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+5. قم بإجراء التغييرات في ملف **Sdk.RetailServerSetup.proj** ضمن مجلد **الحزم\_SharedPackagingProjectComponents** لتضمين ملفات الموارد لإيطاليا في حزم قابلة للنشر:
+
+    1. أضف قسم **ItemGroup** الذي يحتوي على العقد التي تشير إلى ملفات الموارد للترجمات المطلوبة. تأكد من تحديد مساحات الأسماء ونماذج الأسماء الصحيحة. يضيف المثال التالي عقد الموارد للغتين المحليتين **it** و **it-CH**.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. في قسم **Target Name="CopyPackageFiles"**، أضف سطرًا واحدًا لكل لغة، كما هو موضح في المثال التالي.
+
+        ``` xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+6. أبدا تشغيل موجه الأوامر MSBuild للحصول على أداة Visual Studio المساعدة، ثم قم بتشغيل **msbuild** ضمن مجلد Retail SDK لإنشاء الحزم القابلة للنشر.
+7. قم بتطبيق الحزم من خلال LCS أو يدويًا. لمزيد من المعلومات، راجع [إنشاء الحزم القابلة للنشر](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ## <a name="design-of-extensions"></a>تصميم الملحقات
 

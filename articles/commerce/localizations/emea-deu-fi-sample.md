@@ -2,23 +2,24 @@
 title: عينة تكامل خدمة التسجيل المالي لألمانيا
 description: يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي لألمانيا في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 128c94407a283bf45e5626de060cee82430f087b
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65315a9fd6bc1af26bc225220e096aee4da09be2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076851"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388149"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>عينة تكامل خدمة التسجيل المالي لألمانيا
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي لألمانيا في Microsoft Dynamics 365 Commerce.
 
@@ -396,14 +397,28 @@ ms.locfileid: "8076851"
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. تثبيت ملحقات محطة الأجهزة:
+1. تثبيت ملحقات الموصل المالي
 
-    - في مجلد **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**، ابحث عن مثبت **HardwareStation.EFR.Installer**.
-    - أبدا بتشغيل مثبت الملحق من سطر الأوامر:
+    يمكنك تثبيت ملحقات الموصل المالي في [محطة الأجهزة](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) أو [سجل نقطة البيع](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. تثبيت ملحقات محطة الأجهزة:
+
+        1. في مجلد **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**، ابحث عن مثبت **HardwareStation.EFR.Installer**.
+        1. ابدأ بتشغيل مثبت الملحق من سطر الأوامر عن طريق تشغيل الأمر التالي.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. تثبيت ملحقات نقطة البيع:
+
+        1. افتح حل عينة الموصل المالي لنقطة البيع في **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln**، وقم بإنشائه.
+        1. في مجلد **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461**، ابحث عن مثبت **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**.
+        1. ابدأ بتشغيل مثبت الملحق من سطر الأوامر عن طريق تشغيل الأمر التالي.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>بيئة الإنتاج
 
@@ -452,5 +467,28 @@ ms.locfileid: "8076851"
 #### <a name="configuration"></a>تكوين
 
 يوجد ملف التكوين للموصل المالي في **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** في مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). الغرض من الملف هو تمكين إعدادات الموصل المالي ليتم تكوينه من مقر Commerce الرئيسي. يتوافق تنسيق الملف مع متطلبات تكوين التكامل المالي.
+
+### <a name="pos-fiscal-connector-extension-design"></a>تصميم ملحق موصل POS المالي
+
+الغرض من امتداد الرابط المالي لنقاط البيع هو التواصل مع خدمة التسجيل المالي من نقطة البيع. يستخدم بروتوكول HTTPS للاتصال.
+
+#### <a name="fiscal-connector-factory"></a>مصنع الموصل المالي
+
+يقوم مصنع الموصل المالي بتعيين اسم الموصل إلى تطبيق الموصل المالي ويوجد في ملف **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. يجب أن يتطابق اسم الموصل مع اسم الموصل المالي المحدد في مقر Commerce الرئيسي.
+
+#### <a name="efr-fiscal-connector"></a>الموصل المالي لـ EFR
+
+يوجد الموصل المالي EFR في ملف **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. يقوم بتنفيذ واجهة **IFiscalConnector** التي تدعم الطلبات التالية:
+
+- **FiscalRegisterSubmitDocumentClientRequest** – يرسل هذا الطلب المستندات إلى خدمة التسجيل المالي ويعيد ردًا منها.
+- **FiscalRegisterIsReadyClientRequest** – يُستخدم هذا الطلب لإجراء فحص سلامة لخدمة التسجيل المالي.
+- **FiscalRegisterInitializeClientRequest** – يستخدم هذا الطلب لتهيئة خدمة التسجيل المالي.
+
+#### <a name="configuration"></a>تكوين
+
+ملف التكوين موجود في مجلد **src\\FiscalIntegration\\Efr\\التكوينات\\الموصلات** في مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). الغرض من الملف هو تمكين إعدادات الرابط المالي ليتم تكوينه من مقر Commerce الرئيسي. يتوافق تنسيق الملف مع متطلبات تكوين التكامل المالي. تمت إضافة الإعدادات التالية:
+
+- **عنوان نقطة النهاية** – عنوان URL الخاص بخدمه التسجيل المالية.
+- **المهلة** – مقدار الوقت بالمللي ثانية الذي سينتظره الموصل للحصول على استجابة من خدمة التسجيل المالي.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

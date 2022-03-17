@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102984"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384528"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>معاينه Dynamics 365 Supply Chain Management 10.0.25 (ابريل 2022)
 
@@ -34,10 +34,10 @@ ms.locfileid: "8102984"
 
 | منطقة الميزة | الميزة | معلومات إضافية | تم التمكين بواسطة |
 |---|---|---|---|
-| المخزون&nbsp;و&nbsp;اللوجستيات | تحسينات المواد الخطرة | تعتمد هذه التحسينات على وظائف المواد الخطرة الحالية لمساعدة الشركات بشكل أفضل على البقاء في حالة امتثال للوائح المحلية عند نقل المواد الخطرة عبر مناطق جغرافية مختلفة. <!-- KFM: Update to 2022w1 link when published -->| إدارة الميزات:<br>*تحسينات المواد الخطرة* |
-| المخزون&nbsp;و&nbsp;اللوجستيات | أعمال التعبئة لمحطات التعبئة | تحسن هذه الميزة بشكل كبير مرونة وكفاءة عمليات التعبئة والشحن. أثناء عملية التعبئة، يمكن لعمال المستودعات الآن تعبئة وشحن الطرود الفردية المتعلقة بنفس الشحنة والحمل. لا يلزم بالضرورة شحن بنود الأمر التي تعد جزءًا من نفس الشحنة معًا إذا كانت بعض الأصناف جاهزة للشحن على الفور. يمكن تعبئة أمر واحد وشحنه في طرود متعددة في أوقات شحن مختلفة، وبالتالي تقليل أوقات الانتظار وإضافة المرونة.<!-- KFM: Update to 2022w1 link when published --> | إدارة الميزات:<br>*أعمال التعبئة لمحطات التعبئة* |
-| المخزون&nbsp;و&nbsp;اللوجستيات | [مسح الرموز الشريطية في المستودع باستخدام معايير تنسيق GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) <!-- KFM: Update to 2022w1 link when published --> | [الأكواد الشريطية GS1 ورموز الاستجابة السريعة (QR)](../warehousing/gs1-barcodes.md) | إدارة الميزات:<br>*مسح رموز GS1 الشريطية* |
-| التصنيع | [استهلاك المواد وإجراء الحجوزات في واجهة تنفيذ منطقة الإنتاج](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [طريقة استخدام العمال لواجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-use.md) | إدارة الميزات:<br>*(إصدار أولي) تسجيل استهلاك المواد على واجهة تنفيذ طابق الإنتاج (تمكين WMS)* |
+| المخزون&nbsp;و&nbsp;اللوجستيات | [تحسينات المواد الخطرة](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | قريبًا | إدارة الميزات:<br>*تحسينات المواد الخطرة* |
+| المخزون&nbsp;و&nbsp;اللوجستيات | [أعمال التعبئة لمحطات التعبئة](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | قريبًا | إدارة الميزات:<br>*أعمال التعبئة لمحطات التعبئة* |
+| المخزون&nbsp;و&nbsp;اللوجستيات | [مسح الرموز الشريطية في المستودع باستخدام معايير تنسيق GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [الأكواد الشريطية GS1 ورموز الاستجابة السريعة (QR)](../warehousing/gs1-barcodes.md) | إدارة الميزات:<br>*مسح رموز GS1 الشريطية* |
+| التصنيع | [استهلاك المواد وإجراء الحجوزات في واجهة تنفيذ منطقة الإنتاج](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [طريقة استخدام العمال لواجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-use.md) | إدارة الميزات:<br>*(إصدار أولي) تسجيل استهلاك المواد في واجهة تنفيذ طابق الإنتاج (خلاف WMS)*<br><br>و/أو:<br><br>إدارة الميزات:<br>*(إصدار أولي) تسجيل استهلاك المواد على واجهة تنفيذ طابق الإنتاج (تمكين WMS)* |
 | التصنيع | [تسجيل استهلاك المواد على وحدات القياس](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [أحمال عمل تنفيذ التصنيع لوحدات النطاق السحابي والحافة](../cloud-edge/cloud-edge-workload-manufacturing.md) | إدارة الميزات:<br>*تسجيل استهلاك المواد في تطبيق الهاتف على وحدة مقياس* |
 | التخطيط | [تخطيط اقتراحات التحسين لتحسين التوريد الموجود](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [رسائل الإجراءات](../master-planning/action-messages.md) | ممكّن بشكل افتراضي |
 | التخطيط | تم تبسيط الأوامر المخططة | [تم تبسيط الأوامر المخططة](../master-planning/planning-optimization/planned-orders-simplified.md ) | إدارة الميزات:<br>*تم تبسيط الأوامر المخططة* |

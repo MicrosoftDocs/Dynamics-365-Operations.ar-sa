@@ -2,7 +2,7 @@
 title: نظره عامة على حساب الضريبة
 description: يوضح هذا الموضوع النطاق الإجمالي والميزات الخاصة بقدرة حساب الضريبة.
 author: wangchen
-ms.date: 11/17/2021
+ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105425"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388485"
 ---
 # <a name="tax-calculation-overview"></a>نظره عامة على حساب الضريبة
 
@@ -58,6 +58,7 @@ ms.locfileid: "8105425"
 - كندا
 - أوروبا
 - اليابان
+- سويسرا
 - المملكة المتحدة
 - الولايات المتحدة
 
@@ -77,6 +78,7 @@ ms.locfileid: "8105425"
 | 10.0.23         | تكوين احتساب الضريبة 40.50.221 |
 | 10.0.24         | تكوين احتساب الضريبة 40.50.225 |
 | 10.0.25         | تكوين احتساب الضريبة 40.50.225 |
+| 10.0.26         | تكوين احتساب الضريبة 40.54.234 |
 
 
 ## <a name="data-flow"></a>تدفق البيانات
@@ -136,6 +138,11 @@ ms.locfileid: "8105425"
 
 - فاتورة ذات نص حر
 
+الحركات التالية مدعومة في الإصدار 10.0.26: 
+
+- دفاتر اليومية العامة
+- دفتر يومية فاتورة المورّد
+
 ## <a name="supported-countriesregions"></a>البلدان/المناطق‬ المدعومة
 
 يمكن تمكين حساب الضريبة بواسطة كيان قانوني. 
@@ -187,6 +194,12 @@ ms.locfileid: "8105425"
 يتم دعم البلدان/المناطق التالية للعنوان الأساسي للكيان القانوني في الإصدار 10.0.24:
 
 - المكسيك
+
+يتم دعم البلدان/المناطق التالية للعنوان الأساسي للكيان القانوني في الإصدار 10.0.26:
+
+- الصين
+- جمهورية التشيك
+- إسبانيا
 
 ## <a name="related-resources"></a>الموارد ذات الصلة
 

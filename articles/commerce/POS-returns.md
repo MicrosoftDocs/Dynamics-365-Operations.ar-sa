@@ -2,7 +2,7 @@
 title: إنشاء مرتجعات في نقطة البيع.
 description: يصف هذا الموضوع كيفية بدء المرتجعات لحركات الدفع نقدًا والاستلام فورًا‬‬‏‫ أو أوامر العملاء في تطبيق نقطة بيع Microsoft Dynamics 365 Commerce (POS).
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 4a0d5efe043d72f936a15ec9a8ead9987fdb22b891a5a3ae94f95aa5ea7a6e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715520"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349681"
 ---
 # <a name="create-returns-in-pos"></a>إنشاء مرتجعات في نقطة البيع.
 
@@ -96,6 +96,13 @@ ms.locfileid: "6715520"
 
 > [!NOTE]
 > عند تشغيل الميزة **تجربة معالجة الإرجاع الموحدة في نقطة البيع**، تصبح الميزات الاختيارية الجديدة التي تدعم التحقق من صحة مرتجعات المنتجات المتسلسلة متاحة. لمزيد من المعلومات، راجع نقطة بيع [الرقم التسلسلي للإرجاع – المنتجات المتحكمة في نقطة البيع (POS)](POS-serial-returns.md).
+
+## <a name="version-details"></a>تفاصيل الإصدار
+
+توفر القائمة التالية الحد الأدنى من متطلبات الإصدار للمكونات المختلفة.
+- Commerce headquarters: الإصدار 10.0.20
+- Commerce Scale Unit (CSU): الإصدار 9.30
+- نقطة البيع (POS): الإصدار 9.30
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>تمكين الحساب المناسب للضريبة للمرتجعات التي تحتوي على كمية جزئية
 

@@ -2,7 +2,7 @@
 title: الأسئلة المتداولة حول سير العمل
 description: يجيب هذا الموضوع عن الأسئلة المتداولة حول نظام سير العمل.
 author: ChrisGarty
-ms.date: 09/21/2020
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
+ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065570"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370870"
 ---
 # <a name="workflow-faq"></a>الأسئلة المتداولة حول سير العمل
 
@@ -34,7 +34,7 @@ ms.locfileid: "8065570"
 يتعلق كل إخطار بعنصر عمل مختلف، ولكن التشابه قد يسبب الإرباك. نحن بصدد البحث عن طرق لتحسين هذا الأمر في إصدار مستقبلي.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>لماذا يفشل تصدير عمليات سير العمل؟
-يوجد حاليًا قيد في ميزة تصدير عمليات سير العمل يمنع تجاوز أسماء عمليات سير العمل 48 حرفًا. قد يؤدي استخدام اسم أطول من 48 حرفًا إلى ظهور الخطأ "فشل الخادم في مصادقة الطلب" و/أو منع تصدير ملف بدون نوع ملف. يوفر منشور المدونة التالي المزيد من التفاصيل [استكشاف أخطاء تصدير سير العمل وإصلاحها](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
+يوجد حاليًا قيد في ميزة تصدير عمليات سير العمل يمنع تجاوز أسماء عمليات سير العمل 48 حرفًا. قد يؤدي استخدام اسم أطول من 48 حرفًا إلى ظهور الخطأ "فشل الخادم في مصادقة الطلب" و/أو منع تصدير ملف بدون نوع ملف. يوفر منشور المدونة التالي المزيد من التفاصيل [استكشاف أخطاء تصدير سير العمل وإصلاحها](https://community.dynamics.com/365/financeandoperations/b/elandaxdynamicsaxupgradesanddevelopment/posts/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>هل يمكن لمرسل سير عمل القيام أيضًا الموافقة على سير العمل؟
 نعم، يمكن أيضًا لمرسل سير عمل الموافقة على سير العمل إذا تم تكوينه بهذه الطريقة. لمنع حدوث مثل هذا السلوك، عيِّن **إدارة النظام > سير العمل > معلمات سير العمل > عام > المعتمد > عدم السماح للمرسِل بالموافقة‬** على **نعم**.
