@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: تطبيق إعدادات العرض لأبعاد المنتج
                   href: dimension-settings.md
+                - name: تمكين وضع صيانة التجارة الإلكترونية وتنشيطه
+                  href: enable-maintenance-mode.md
             - name: إدارة محتوى موقعك
               items:
                 - name: طرق إضافة المحتوى
@@ -2096,13 +2098,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: استخدام مصادر بيانات تجميع البيانات في تنسيقات ER
+                    - name: استخدام مصادر بيانات تجميع البيانات في تنسيقات التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: تصحيح مصادر البيانات
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: تكوين نماذج البيانات
+                  items:
+                    - name: دعم الاستدعاءات ذات المعلمات لنماذج بيانات التقارير الإلكترونية (ER)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: تكوين تعيينات النماذج
                   items:
-                    - name: تكوين تعيينات نماذج ER المعتمدة على سياق البلد
+                    - name: تكوين تعيينات نماذج التقارير الإلكترونية (ER) التي تعتمد على سياق البلد
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                     - name: إدارة تعيين نماذج التقارير الإلكترونية في تكوينات تقارير إلكترونية (ER) منفصلة
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2168,7 +2174,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
                     - name: تكوين وجهات التقارير الإلكترونية الخاصة بسجلات إدارة الطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
-                - name: إعداد مرجع لتنسيق ER
+                - name: إعداد مرجع إلى تنسيق التقارير الإلكترونية (ER)
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: التحقق التلقائي من صحة التقارير التي تم إنشاؤها
                   items:
@@ -2520,7 +2526,7 @@
                       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                     - name: نقاط التوسيع لإيصالات التعبئة أثناء استيفاء الأوامر
                       href: dev-itpro/extensions-shipping-carrier-integration.md
-                - name: التعبئة والتوزيع
+                - name: إنشاء الحزم والنشر
                   items:
                     - name: إزالة ملحقات Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
@@ -2600,7 +2606,7 @@
                       href: dev-itpro/pos-custom-control.md
                     - name: ملحق دفع نقطة البيع
                       href: dev-itpro/pos-payment-extension.md
-                - name: التعبئة والتوزيع
+                - name: إنشاء الحزم والنشر
                   items:
                     - name: إنشاء حزمة توسيع MPOS
                       href: dev-itpro/pos-extension/mpos-extension-packaging.md
@@ -2732,7 +2738,7 @@
                               href: e-commerce-extensibility/data-action-cache-settings.md
                             - name: استدعاء إجراءات البيانات من جانب الخادم باستخدام AJAX
                               href: e-commerce-extensibility/data-actions-with-ajax.md
-                    - name: الموضوعات
+                    - name: النُسق
                       items:
                         - name: نظرة عامة على النُسق
                           href: e-commerce-extensibility/theming.md
@@ -2760,13 +2766,15 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: توسيع تعريف الوحدة
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: تغيير السلاسل الثابتة لمكتبة الوحدات‬
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: إجراءات البيانات
                       items:
                         - name: عمليات تجاوز إجراءات البيانات
                           href: e-commerce-extensibility/data-action-overrides.md
                         - name: ربط إجراءات البيانات
                           href: e-commerce-extensibility/data-action-hooks.md
-                    - name: الموضوعات
+                    - name: النُسق
                       items:
                         - name: توسيع نسق لإضافة ملحقات الوحدة
                           href: e-commerce-extensibility/theme-module-extensions.md
@@ -2774,9 +2782,11 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: توسيع نسق من نسق أساسي
                           href: e-commerce-extensibility/extend-theme.md
-                - name: التعبئة والتوزيع
+                        - name: تغيير سلاسل وحدة النسق
+                          href: e-commerce-extensibility/change-theme-module-strings.md
+                - name: إنشاء الحزم والنشر
                   items:
-                    - name: تكوينات الحزم وتوزيعها على بيئة عبر الإنترنت
+                    - name: إنشاء حزمة من التكوينات ونشرها في بيئة عبر الإنترنت
                       href: e-commerce-extensibility/package-deploy.md
                     - name: تحديثات SDK ومكتبة الوحدات
                       href: e-commerce-extensibility/sdk-updates.md
@@ -2798,13 +2808,15 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: ذاكرة التخزين المؤقت لمثيل إجراء البيانات
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: تحسين CSS الوحدة
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: بيانات تتبع الاستخدام والتحليلات
                       items:
                         - name: مسجل بيانات تتبع الاستخدام
                           href: e-commerce-extensibility/telemetry-logger.md
             - name: Commerce HQ
               items:
-                - name: التعبئة والتوزيع
+                - name: إنشاء الحزم والنشر
                   items:
                     - name: إنشاء حزم مدفوعات Commerce لنشر التمويل والعمليات
                       href: dev-itpro/payment-connector-package.md
@@ -2836,7 +2848,7 @@
                       href: dev-itpro/configure-online-store.md
                     - name: تكوين موفري المصادقة
                       href: dev-itpro/configure-authentication-providers.md
-                - name: التعبئة والتوزيع
+                - name: إنشاء الحزم والنشر
                   items:
                     - name: إنشاء حزم قابلة للنشر
                       href: dev-itpro/retail-sdk/retail-sdk-packaging.md

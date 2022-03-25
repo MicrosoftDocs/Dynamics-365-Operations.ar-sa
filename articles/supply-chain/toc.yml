@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: مقارنه تقرير تخزين أسعار الأصناف
                   href: cost-management/compare-item-price.md
+            - name: منهجيات‬ التكاليف
+              items:
+                - name: متوسط سعر التكلفة الجاري
+                  href: cost-management/running-average-cost-price.md
+                - name: تتبع متوسط سعر التكلفة الجاري لكل بُعد مخزون
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: تاريخ ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: المتوسط المرجح مع القيمة الفعلية والتمييز
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: تاريخ المتوسط المرجح مع القيمة الفعلية والتمييز
+                  href: cost-management/weighted-average-date.md
+                - name: المتوسط المتحرك
+                  href: cost-management/moving-average.md
+                - name: تسلسل التكلفة الاحتياطي‬ للمتوسط المتحرك
+                  href: cost-management/moving-average-fallback.md
             - name: محاسبة المخزون
               items:
+                - name: التحديثات الفعلية والمالية
+                  href: cost-management/physical-financial-updates.md
+                - name: تضمين القيمة الفعلية
+                  href: cost-management/include-physical-value.md
                 - name: كائنات التكلفة
                   href: cost-management/cost-object.md
                 - name: عرض رصيد كائن التكلفة
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: مجموعات التكاليف
                   href: cost-management/cost-groups.md
-                - name: ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: تضمين القيمة الفعلية
-                  href: cost-management/include-physical-value.md
                 - name: قيم كائن المخزون
                   href: cost-management/physical-quantity.md
-                - name: تاريخ ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: ما يرد أولاً يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: المتوسط المتحرك
-                  href: cost-management/moving-average.md
-                - name: تسلسل التكلفة الاحتياطي‬ للمتوسط المتحرك
-                  href: cost-management/moving-average-fallback.md
-                - name: التحديثات الفعلية والمالية
-                  href: cost-management/physical-financial-updates.md
-                - name: متوسط سعر التكلفة الجاري
-                  href: cost-management/running-average-cost-price.md
-                - name: تتبع متوسط سعر التكلفة الجاري لكل بُعد مخزون
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: تاريخ المتوسط المرجح
-                  href: cost-management/weighted-average-date.md
-                - name: المتوسط المرجح مع القيمة الفعلية والتمييز
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: إغلاق المخزون
                   href: cost-management/inventory-close.md
                 - name: تعديل قيم تكلفة المخزون الفعلي
@@ -1427,13 +1429,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: استخدام مصادر بيانات تجميع البيانات في تنسيقات ER
+                    - name: استخدام مصادر بيانات تجميع البيانات في تنسيقات التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تصحيح مصادر البيانات
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: تكوين نماذج البيانات
+                  items:
+                    - name: دعم الاستدعاءات ذات المعلمات لنماذج بيانات التقارير الإلكترونية (ER)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين تعيينات النماذج
                   items:
-                    - name: تكوين تعيينات نماذج ER المعتمدة على سياق البلد
+                    - name: تكوين تعيينات نماذج التقارير الإلكترونية (ER) التي تعتمد على سياق البلد
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                     - name: إدارة تعيين نماذج التقارير الإلكترونية في تكوينات تقارير إلكترونية (ER) منفصلة
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1499,7 +1505,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تكوين وجهات التقارير الإلكترونية الخاصة بسجلات إدارة الطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: إعداد مرجع لتنسيق ER
+                - name: إعداد مرجع إلى تنسيق التقارير الإلكترونية (ER)
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: التحقق التلقائي من صحة التقارير التي تم إنشاؤها
                   items:
@@ -3849,12 +3855,14 @@
                   href: troubleshooting/sales/system-administrator.md
             - name: إدارة النقل
               items:
-                - name: يمكن إضافة الحساب الرئيسي فقط كحساب ائتمان لأسباب التسوية
+                - name: يمكن إضافة الحساب الرئيسي فقط كحساب ائتمان لأسباب تتعلق بالتسوية
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: ‏‫إدارة المستودعات‬
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: فرق غير متوقع بين الطلب وبيانات جلسة العمل أثناء الاختبار
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: ربط الثقة لمسار الشهادة التي لم يتم العثور عليها عند اعداد اتصال التطبيق
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: لم يتم العثور على ربط الثقة لمسار الشهادة عند التحديث والترحيل إلى WMS

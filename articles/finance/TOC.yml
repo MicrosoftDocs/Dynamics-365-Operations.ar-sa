@@ -1528,6 +1528,10 @@
                           items:
                             - name: إقرار ضريبة القيمة المضافة
                               href: localizations/emea-aut-vat-declaration-austria.md
+                        - name: إعداد التقارير في الدانمرك
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة
+                              href: localizations/emea-dnk-vat-declaration-denmark.md
                         - name: إعداد التقارير في فرنسا
                           items:
                             - name: إقرار ضريبة القيمة المضافة
@@ -2344,9 +2348,11 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: قائمة مبيعات الاتحاد الأوروبي
                   href: localizations/emea-deu-eu-sales-list.md
+                - name: إقرار ضريبة القيمة المضافة
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: هنغاريا‬
               items:
-                - name: نظرة عامة على المجر
+                - name: نظرة عامة على هنغاريا
                   href: localizations/hungary.md
                 - name: حساب سعر الصرف اليومي والمتوسط
                   href: localizations/emea-hun-average-daily-exchange-rate-calculation.md
@@ -3566,7 +3572,7 @@
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: أبعاد فرع الضريبة
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: تقرير ضريبة القيمة المضافة للمبيعات
+                - name: تقارير ضريبة القيمة المضافة
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: ضريبة الخصم
                   href: localizations/apac-tha-withholding-tax.md
@@ -4281,13 +4287,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
-                    - name: استخدام مصادر بيانات تجميع البيانات في تنسيقات ER
+                    - name: استخدام مصادر بيانات تجميع البيانات في تنسيقات التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: تصحيح مصادر البيانات
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
+                - name: تكوين نماذج البيانات
+                  items:
+                    - name: دعم الاستدعاءات ذات المعلمات لنماذج بيانات التقارير الإلكترونية (ER)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين تعيينات النماذج
                   items:
-                    - name: تكوين تعيينات نماذج ER المعتمدة على سياق البلد
+                    - name: تكوين تعيينات نماذج التقارير الإلكترونية (ER) التي تعتمد على سياق البلد
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
                     - name: إدارة تعيين نماذج التقارير الإلكترونية في تكوينات تقارير إلكترونية (ER) منفصلة
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
@@ -4353,9 +4363,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: تكوين الوجهات المعتمدة على الإجراءات
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
-                    - name: تكوين وجهات التقارير الإلكترونية الخاصة بسجلات إدارة الطباعة
+                    - name: تكوين وجهات خاصة بسجلات إدارة الطباعة
                       href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
-                - name: إعداد مرجع لتنسيق ER
+                    - name: تصميم حل جديد لإعداد التقارير الإلكترونية (ER) لطباعة تسميات ZPL
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-zpl-labels.md?toc=/dynamics365/finance/toc.json
+                - name: إعداد مرجع إلى تنسيق التقارير الإلكترونية (ER)
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: التحقق التلقائي من صحة التقارير التي تم إنشاؤها
                   items:
