@@ -2,7 +2,7 @@
 title: معاينه Dynamics 365 Supply Chain Management 10.0.25 (ابريل 2022)
 description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.25 من Microsoft Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 02/01/2022
+ms.date: 03/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
+ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384528"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8414110"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>معاينه Dynamics 365 Supply Chain Management 10.0.25 (ابريل 2022)
 
@@ -39,6 +39,7 @@ ms.locfileid: "8384528"
 | المخزون&nbsp;و&nbsp;اللوجستيات | [مسح الرموز الشريطية في المستودع باستخدام معايير تنسيق GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [الأكواد الشريطية GS1 ورموز الاستجابة السريعة (QR)](../warehousing/gs1-barcodes.md) | إدارة الميزات:<br>*مسح رموز GS1 الشريطية* |
 | التصنيع | [استهلاك المواد وإجراء الحجوزات في واجهة تنفيذ منطقة الإنتاج](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [طريقة استخدام العمال لواجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-use.md) | إدارة الميزات:<br>*(إصدار أولي) تسجيل استهلاك المواد في واجهة تنفيذ طابق الإنتاج (خلاف WMS)*<br><br>و/أو:<br><br>إدارة الميزات:<br>*(إصدار أولي) تسجيل استهلاك المواد على واجهة تنفيذ طابق الإنتاج (تمكين WMS)* |
 | التصنيع | [تسجيل استهلاك المواد على وحدات القياس](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [أحمال عمل تنفيذ التصنيع لوحدات النطاق السحابي والحافة](../cloud-edge/cloud-edge-workload-manufacturing.md) | إدارة الميزات:<br>*تسجيل استهلاك المواد في تطبيق الهاتف على وحدة مقياس* |
+| التخطيط | [صيانة تقويم تحسين التخطيط المركزي](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [التقويمات والتخطيط الرئيسي](../master-planning/supply-chain-calendars-master-planning.md) | ممكّن بشكل افتراضي |
 | التخطيط | [تخطيط اقتراحات التحسين لتحسين التوريد الموجود](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [رسائل الإجراءات](../master-planning/action-messages.md) | ممكّن بشكل افتراضي |
 | التخطيط | تم تبسيط الأوامر المخططة | [تم تبسيط الأوامر المخططة](../master-planning/planning-optimization/planned-orders-simplified.md ) | إدارة الميزات:<br>*تم تبسيط الأوامر المخططة* |
 

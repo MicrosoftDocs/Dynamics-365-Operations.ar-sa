@@ -2,7 +2,7 @@
 title: إنشاء موقع تجارة إلكترونية
 description: يوضح هذا الموضوع الخطوات والمعلومات المطلوبة لإنشاء موقع جديد للتجارة الإلكترونية في منشئ مواقع Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388201"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402765"
 ---
 # <a name="create-an-e-commerce-site"></a>إنشاء موقع تجارة إلكترونية
 
@@ -70,6 +70,14 @@ ms.locfileid: "8388201"
 1. لفتح طريقة عرض قائمة المواقع ، حدد **مبدل الموقع** في الركن العلوي الأيسر، ثم حدد **إدارة المواقع**. 
 1. حدد خانة الاختيار إلى جانب الموقع الذي تريد إعادة تسميته، ثم حدد **إعادة التسمية** من شريط الأوامر.
 1. في مربع الحوار **اسم الموقع الجديد**، أدخل اسم الموقع الجديد، ثم حدد **موافق**. سيتم تحديث قائمة المواقع لإظهار الاسم الجديد للموقع.
+
+## <a name="delete-a-site"></a>حذف موقع
+
+لحذف موقع في منشئ الموقع، اتبع الخطوات التالية.
+
+1. لفتح طريقة عرض قائمة المواقع ، حدد **مبدل الموقع** في الركن العلوي الأيسر، ثم حدد **إدارة المواقع**.
+1. حدد الموقع الذي تريد حذفه، ثم حدد **حذف** على شريط الأوامر.
+1. في مربع الحوار **حذف \<site name\>**، أدخل اسم الموقع، ثم حدد **حذف**.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

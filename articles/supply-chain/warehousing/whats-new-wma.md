@@ -2,7 +2,7 @@
 title: ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
 description: يسرد هذا الموضوع الميزات الجديدة والمتغيرة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384353"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418630"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
 
 [!include [banner](../includes/banner.md)]
 
 يسرد هذا الموضوع الميزات الجديدة والتحسينات والمشكلات المعروفة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20190"></a>الإصدار 2.0.19.0
+
+يقدم هذا الإصدار الميزات الجديدة والإصلاحات والتحسينات التالية:
+
+- تم تحسين تدفق استعلام البيانات العام.
+- تم تحسين مشكلة الاهتزاز في الصفحتين **قائمة العمل** و **استعلام عن صنف‬**.
+- تم تقليل استهلاك البطارية.
+- تمت إزالة الحد الموضوع على عدد الحقول الخاصة ببطاقات العمل.
+- تم ضبط ارتفاع بطاقات العمل بحيث تكون كلها بالحجم نفسه، بغض النظر عن عدد الحقول الموجودة في كل منها.
+- تم إصلاح مشكلة حيث يتم اقتطاع أحرف المسافات في الأكواد الشريطية.
+- تمت إضافة إعداد **نمط الزر**، والذي يتيح لك التبديل بين عرض مؤشر التحكم وعرض الزر على كافة أنواع الأجهزة.
+- تم إصلاح العديد من المشكلات التي قد تتسبب في توقف التطبيق عن الاستجابة.
+- تم تعيين التركيز تلقائيًا على مربع النص الأول في الصفحات المخصصة.
+- تم إدخال تحسينات على امكانية الوصول تتعلق بالإضاءة والتباين والسرد ونصوص العناصر النائبة المفقودة.
 
 ## <a name="version-20170"></a>الإصدار 2.0.17.0
 

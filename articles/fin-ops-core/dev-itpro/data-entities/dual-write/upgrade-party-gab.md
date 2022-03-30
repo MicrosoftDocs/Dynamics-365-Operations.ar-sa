@@ -2,19 +2,19 @@
 title: الترقية إلى الطرف ونموذج دفتر العناوين العمومي
 description: يصف هذا الموضوع كيفية ترقية بيانات الكتابة المزدوجة إلى الطرف ونموذج دفتر العناوين العمومي‬.
 author: RamaKrishnamoorthy
-ms.date: 03/31/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060469"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407784"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>الترقية إلى نموذج الطرف ودفتر العناوين العمومي
 
@@ -151,13 +151,19 @@ ms.locfileid: "8060469"
 
 ## <a name="run-the-templates"></a>تشغيل القوالب
 
-1. أوقف خرائط الكتابة المزدوجة التالية في **الحساب** و **جهة الاتصال** و **المورّد** التي تستخدم تطبيق التمويل والعمليات:
+1. أوقف خرائط الكتابة المزدوجة التالية في **الطرف** و **الحساب** و **جهة الاتصال** و **المورّد** التي تستخدم تطبيق التمويل والعمليات:
 
+    + أطراف CDS (msdyn_parties) 
     + العملاء V3 (الحسابات)
     + العملاء V3 (جهات الاتصال)
     + جهات اتصال CDS‏ V2 (جهات الاتصال)
     + جهات اتصال CDS‏ V2 (جهات الاتصال)
     + المورّد V2 ‏(msdyn_vendor)
+    + جهات الاتصال V2 (msdyn_contactforparties)
+    + مواقع العناوين البريدية لطرف CDS (msdyn_partypostaladdresses)
+    + سجل العنوان البريدي لـ CDS V2 (msdyn_postaladdresses)
+    + مواقع العناوين البريدية لـ CDS (msdyn_postaladdresscollections)
+    + جهات اتصال الطرف V3 (msdyn_partyelectronicaddresses)
 
 2. تأكد من إزالة الخرائط من الجدول **msdy_dualwriteruntimeconfig** في Dataverse.
 3. ثبّت [حلول الكتابة المزدوجة للطرف ودفتر العناوين العمومي](https://aka.ms/dual-write-gab) من AppSource.

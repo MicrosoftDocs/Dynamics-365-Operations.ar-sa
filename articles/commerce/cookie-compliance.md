@@ -2,7 +2,7 @@
 title: توافق ملفات تعريف الارتباط
 description: يصف هذا الموضوع اعتبارات توافق ملفات تعريف الارتباط والسياسات الافتراضية المضمنة في Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/30/2021
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
+ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747687"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "8403137"
 ---
 # <a name="cookie-compliance"></a>توافق ملفات تعريف الارتباط
 
@@ -58,6 +58,7 @@ ms.locfileid: "6747687"
 | \_msdyn365___aud_0                          | يخزن قيم القطع المستخدمة من قبل الاستهداف ويتم استخدامه فقط إذا تم تكوين الاستهداف على صفحة أو جزء يطلبه مستخدم الموقع. يتم وضع ملف تعريف الارتباط فقط عندما تأتي قيم الشريحة من موفر تجزئة تابع لجهة خارجية.      | 7 أيام |
 | \_msdyn365___aud_1                           | يخزن قيم القطع المستخدمة من قبل الاستهداف ويتم استخدامه فقط إذا تم تكوين الاستهداف على صفحة أو جزء يطلبه مستخدم الموقع. يتم وضع ملف تعريف الارتباط فقط عندما تأتي قيم الشريحة من موفر تجزئة تابع لجهة خارجية.      | 7 أيام |
 | \_msdyn365___aud_2                           | يخزن قيم القطع المستخدمة من قبل الاستهداف ويتم استخدامه فقط إذا تم تكوين الاستهداف على صفحة أو جزء يطلبه مستخدم الموقع. يتم وضع ملف تعريف الارتباط فقط عندما تأتي قيم الشريحة من موفر تجزئة تابع لجهة خارجية.      | 7 أيام |
+| d365gi                                       | يقوم ملف تعريف الارتباط هذا بتخزين بيانات المواقع الجغرافية عند استخدام خدمة الموقع الجغرافي الخارجية.      | يوم واحد  |
 
 إذا قام مستخدم الموقع بتحديد أي ارتباطات وسائل تواصل اجتماعي ضمن موقع ما، سيتم أيضًا تعقب ملفات تعريف الارتباط الموجودة في الجدول التالي في المستعرض الخاص بها.
 
@@ -65,17 +66,17 @@ ms.locfileid: "6747687"
 | المجال                      | ملف تعريف الارتباط               | الوصف                                                  | المصدر                                          |
 | --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | .linkedin.com                | UserMatchHistory         | مزامنة معرف إعلانات LinkedIn                                      | علامة موجز ورؤى LinkedIn                                |
-| .linkedin.com               | li_sugr                  | معرف المستعرض                                           | علامة رؤى LinkedIn إذا لم يكن عنوان IP في بلد معين |
+| .linkedin.com               | li_sugr                  | معرف المستعرض                                           | LinkedIn Insight Tag إذا لم يكن عنوان IP في بلد معين |
 | .linkedin.com               | BizographicsOptOut       | تحديد حاله إلغاء الاشتراك لتعقب الجهة الخارجية.              | صفحات إلغاء الاشتراك في عناصر تحكم الضيف والصناعة في LinkedIn           |
 | .linkedin.com               | \_guid                    | معرف المستعرض لـ Google Ads.                            | موجز LinkedIn                                                |
 | .linkedin.com               | li_oatml                 | المعرف غير المباشر للعضو لتعقب التحويل وإعادة الاستهداف والتحليلات. | علامات إعلانات ورؤى LinkedIn                                |
 | مجالات متعددة للطرف الأول | li_fat_id                | المعرف غير المباشر للعضو لتعقب التحويل وإعادة الاستهداف والتحليلات. | علامات إعلانات ورؤى LinkedIn                                |
-| .adsymptotic.com            | U                        | معرف المستعرض                                           | علامة رؤى LinkedIn إذا لم يكن عنوان IP في بلد معين |
+| .adsymptotic.com            | U                        | معرف المستعرض                                           | LinkedIn Insight Tag إذا لم يكن عنوان IP في بلد معين |
 | .linkedin.com                | bcookie                  | ملف تعريف ارتباط معرف المستعرض                                            | الطلبات إلى LinkedIn                                         |
 | .linkedin.com                | bscookie                 | ملف تعريف ارتباط مستعرض آمن                                        | الطلبات إلى LinkedIn                                         |
 | .linkedin.com               | lang                     | تعيين الإعدادات المحلية واللغة الافتراضية.                                 | الطلبات إلى LinkedIn                                         |
 | .linkedin.com                | lidc                     | يُستخدم للتوجيه.                                             | الطلبات إلى LinkedIn                                         |
-| .linkedin.com               | aam_uuid                 | ملف تعريف ارتباط الجمهور في Adobe                                                     | تعيين لمزامنة المعرف                                              |
+| .linkedin.com               | aam_uuid                 | ملف تعريف Adobe Audience Manager                                                     | تعيين لمزامنة المعرف                                              |
 | .linkedin.com               | \_ga                      | ملف تعريف ارتباط Google Analytics                                            | Google Analytics                                             |
 | .linkedin.com               | \_gat                     | ملف تعريف ارتباط Google Analytics                                             | Google Analytics                                             |
 | .linkedin.com               | liap                     | ملف تعريف ارتباط Google Analytics                                             | Google Analytics                                             |
