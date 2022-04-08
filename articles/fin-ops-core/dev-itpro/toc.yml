@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.24 (فبراير 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.23 (يناير 2022)
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: تطبيقات التمويل والعمليات في Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
+            - name: البيانات وبيانات التعريف المخزنة في Azure Data Lake
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: جعل مخزن الكيانات‬ متوفرًا كـ Data Lake
               href: data-entities/entity-store-data-lake.md
             - name: احداث الأعمال التي تنشأ بواسطة خدمة التصدير إلى Azure Data Lake (إصدار أولي)
@@ -410,6 +410,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: إعادة استخدام مثيل AD FS نفسه لبيئات متعددة
                       href: deployment/onprem-reuseadfs.md
+                    - name: ترقية Windows Server في بيئات Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-os.md
                     - name: ترقيه مثيل SQL Server الخاص ببيئات Microsoft Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: وكيل محلي
@@ -932,6 +934,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS للشركاء
                   href: lifecycle-services/getting-started-lcs.md
+                - name: مستعرضات الويب المدعومة
+                  href: lifecycle-services/web-browsers.md
                 - name: واجهات RESTful API
                   items:
                     - name: بدء البيئات وإيقافها
@@ -1490,6 +1494,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: ترقية ملفات المعلمات
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: وضع الإصدار التجريبي دون Azure DevOps
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: البرنامج التعليمي لـ Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: تكوين المستخدمين غير المسؤولين

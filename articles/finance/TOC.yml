@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (فبراير)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (يناير)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -414,8 +412,20 @@
               items:
                 - name: نظرة عامة على فوترة الاشتراك
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: إعداد جداول الفوترة
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: فوترة العقد المتكرر
+                  items:
+                    - name: إنشاء جداول الفوترة
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: نسخ جدول فوترة
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: فوترة الأحداث الرئيسية
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: إنهاء جداول الفوترة
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: تأجيلات المصروفات والإيرادات
+                  items: null
+                - name: تخصيص الإيرادات متعددة العناصر
+                  items: null
             - name: الدفعات والتسويات
               items:
                 - name: نظرة عامة على دفعات العملاء
@@ -1443,11 +1453,11 @@
                             - name: تكوين قناة SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: إعداد الفوترة الإلكترونية واستخدامها في Finance وSupply Chain Management
-                          items: null
-                        - name: تنشيط التكامل وإعداده مع الفوترة الإلكترونية
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: إعداد معلمات الفوترة الإلكترونية
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: تنشيط التكامل وإعداده مع الفوترة الإلكترونية
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: إعداد معلمات الفوترة الإلكترونية
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: التعامل مع الفوترة الإلكترونية
                           items:
                             - name: إرسال المستندات الإلكترونية إلى الفوترة الإلكترونية
@@ -1532,6 +1542,10 @@
                           items:
                             - name: إقرار ضريبة القيمة المضافة
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: إعداد التقارير في فنلندا
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: إعداد التقارير في فرنسا
                           items:
                             - name: إقرار ضريبة القيمة المضافة
@@ -1546,6 +1560,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: قائمة مبيعات الاتحاد الأوروبي
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: إعداد التقارير في النرويج
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: إعداد التقارير في إسبانيا
                           items:
                             - name: 'توفير فوري للمعلومات المتعلقة بضريبة القيمة المضافة (Suministro Inmediato de Información del IVA, SII)'
@@ -1564,11 +1582,7 @@
                           items:
                             - name: إقرار ضريبة القيمة المضافة
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: إعداد التقارير في النرويج
-                          items:
-                            - name: إقرار ضريبة القيمة المضافة
-                              href: localizations/emea-nor-vat-declaration.md
-                    - name: تمكين عملية حساب الضرائب لأمر التحويل
+                    - name: تمكين حساب الضرائب لأمر التحويل
                       items:
                         - name: دعم ميزة الضريبة لأوامر التحويل
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
@@ -1694,8 +1708,6 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: رسوم مواد التعبئة
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: كشف حساب ضريبة القيمة المضافة
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: تقرير خدمات عبر الحدود
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي للنمسا
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: تحديث طريقة عرض المبالغ في التقارير والمستندات
                   href: localizations/emea-amount-printing-forms.md
-                - name: كشف حساب ضريبة القيمة المضافة
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: إقرار ضريبة القيمة المضافة (جمهورية التشيك)
+                - name: إقرار ضريبة القيمة المضافة
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي للتشيك
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي للدانمرك
                   href: localizations/emea-dnk-intrastat.md
+                - name: إقرار ضريبة القيمة المضافة
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: مصر
               items:
                 - name: نظرة عامة على مصر
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي الخاص بفنلندا
                   href: localizations/emea-fin-intrastat.md
+                - name: إقرار ضريبة القيمة المضافة
+                  href: localizations/emea-fin-vat-declaration.md
             - name: فرنسا
               items:
                 - name: نظرة عامة على فرنسا
@@ -2332,12 +2346,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: إقرار ضريبة القيمة المضافة
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: الإرسال الإلكتروني لإقرار ضريبة القيمة المضافة (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لألمانيا
                   href: localizations/emea-deu-intrastat.md
-                - name: كشف حساب ضريبة القيمة المضافة
-                  href: localizations/emea-de-vat-declaration.md
                 - name: تقرير الفواتير الإلكترونية للعميل
                   href: localizations/emea-deu-e-invoices.md
                 - name: تقرير قائمة دفتر اليومية
@@ -2348,11 +2358,9 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: قائمة مبيعات الاتحاد الأوروبي
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: إقرار ضريبة القيمة المضافة
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: هنغاريا‬
               items:
-                - name: نظرة عامة على هنغاريا
+                - name: نظرة عامة على المجر
                   href: localizations/hungary.md
                 - name: حساب سعر الصرف اليومي والمتوسط
                   href: localizations/emea-hun-average-daily-exchange-rate-calculation.md
@@ -2562,6 +2570,8 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: استيراد خدمات تخضع لضريبة السلع والخدمات (GST)
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: توزيع المصروفات على صفحة فاتورة إدخال أوامر الاستيراد
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: تصدير بضائع معفية من الضرائب
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: تصدير خدمات معفية من الضرائب
@@ -3116,17 +3126,13 @@
               items:
                 - name: نظرة عامة على هولندا
                   href: localizations/netherlands.md
-                - name: إقرار ضريبة القيمة المضافة
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: إقرارات الضريبة الإلكترونية‬ (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: تكامل Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: ملف مراجعة (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: إقرار ضريبة القيمة المضافة (هولندا)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لهولندا
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
                   href: localizations/emea-nl-intrastat.md
                 - name: قائمة مبيعات الاتحاد الأوروبي
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: تقرير دفع ضريبة المبيعات للسويد
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: إقرار ضريبة القيمة المضافة للسويد
+                - name: إقرار ضريبة القيمة المضافة
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي السويدي
                   href: localizations/emea-swe-intrastat.md
