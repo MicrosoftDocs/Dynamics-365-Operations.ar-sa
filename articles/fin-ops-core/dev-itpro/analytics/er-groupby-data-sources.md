@@ -2,7 +2,7 @@
 title: تجميع السجلات والحسابات باستخدام مصادر البيانات GROUPBY
 description: يشرح لك هذا الموضوع كيفية استخدام مصادر البيانات من النوع GROUPBY في التقارير الإلكترونية (ER).
 author: NickSelin
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a6cdc486c5f799bdedafa38e90be989fd328c96
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075599"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462286"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>تجميع السجلات والحسابات باستخدام مصادر البيانات GROUPBY
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 عند تكوين تعيينات أو تنسيقات نموذج [التقارير الإلكترونية (ER)](general-electronic-reporting.md)، يمكنك [إضافة](#AddMmDataSource2) مصادر البيانات المطلوبة من النوع **GroupBy‎**.
 

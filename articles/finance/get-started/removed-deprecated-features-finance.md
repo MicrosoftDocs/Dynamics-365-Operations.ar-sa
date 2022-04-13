@@ -1,23 +1,23 @@
 ---
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890943"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466823"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -31,7 +31,21 @@ ms.locfileid: "7890943"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 > [!NOTE]
-> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات Finance and Operations [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات Finance and Operations.
+> يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات التمويل والعمليات.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.26 من Finance
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>تقرير ضريبة المبيعات لفنلندا (تصميم يستند إلى أكواد التقارير)
+
+[تقرير ضريبة المبيعات لفنلندا](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تم استبداله بتصميم إقرار ضريبة القيمة المضافة الجديد، [إقرار ضريبة القيمة المضافة لفنلندا](../localizations/emea-fin-vat-declaration.md) |
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | مهمل: بحلول 1 مارس 2023، إننا لن نقوم بدعم تقرير ضريبة المبيعات لفنلندا (تخطيط التقرير الفنلندي) الآن. يتم تقديم تنسيقات التقارير الإلكترونية (ER) **إقرار TXT لضريبة القيمة المضافة (FI**) و **إقرار ضريبة القيمة المضافة Excel (FI)** الجديدة ضمن نموذج **إقرار الضريبة**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.24 من Finance
 

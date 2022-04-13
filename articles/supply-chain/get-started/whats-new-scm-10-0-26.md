@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: fae25eb1cb9dd4059b9d49e47cbb0060e717c9bc
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8386989"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524426"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>الإصدار الأولي لـ Dynamics 365 Supply Chain Management ‏10.0.18 (مايو 2022)
 
@@ -35,7 +35,7 @@ ms.locfileid: "8386989"
 | منطقة الميزة | الميزة | معلومات إضافية | تم التمكين بواسطة |
 |---|---|---|---|
 | المخزون واللوجستيات | [استعلام فعلي عن رؤية المخزون لدعم عناصر إدارة المستودعات المتقدمة](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | قريبًا | إدارة الميزات:<br>*تمكين أصناف المستودعات في رؤية المخزون* |
-| المخزون واللوجستيات | [متاح للوعد بالوظيفة الإضافية لإمكانية رؤية المخزون](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | قريبًا | تم التمكين من خلال تكوين الخدمة |
+| المخزون واللوجستيات | [متاح للوعد بالوظيفة الإضافية لإمكانية رؤية المخزون](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [جداول التغيير الفعلية لرؤية المخزون والمتوفرة حسب التعهد](../inventory/inventory-visibility-available-to-promise.md) | تم التمكين من خلال تكوين الخدمة |
 | التصنيع | [أصناف وزن التعبئة لواجهة تنفيذ أرضية الإنتاج](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [طريقة استخدام العمال لواجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-use.md) | إدارة الميزات:<br>*(إصدار أولي) تقرير عن أصناف وزن التعبئة من واجهة تنفيذ أرضية الإنتاج* |
 | التصنيع | علامة التبويب مهامي في واجهة تنفيذ أرضية الإنتاج <!-- KFM: Add link to release plan when available --> | [طريقة استخدام العمال لواجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-use.md) | إدارة الميزات:<br>*علامة التبويب مهامي في واجهة تنفيذ أرضية الإنتاج* |
 

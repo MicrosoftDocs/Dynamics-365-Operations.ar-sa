@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330691"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487570"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>التكامل مع أنظمة تنفيذ التصنيع التابعة لجهات خارجية
 
@@ -64,7 +64,9 @@ ms.locfileid: "8330691"
 
 ## <a name="monitor-incoming-messages"></a>مراقبة الرسائل الواردة
 
-لمراقبة الرسائل الواردة إلى النظام، افتح صفحة **تكامل أنظمة تنفيذ التصنيع**. هناك، يمكنك عرض المشكلات ومعالجتها واستكشاف الأخطاء وإصلاحها.
+لمراقبة الرسائل الواردة إلى النظام، افتح صفحة **تكامل أنظمة تنفيذ التصنيع**. هناك يمكنك عرض المشكلات ومعالجتها واستكشاف الأخطاء وإصلاحها.
+
+تتم معالجة كافة الرسائل الخاصة بأمر إنتاج معين بالتسلسل الذي تم استلامها به. ومع ذلك، قد لا تتم معالجة الرسائل الخاصة بأوامر الإنتاج المختلفة في التسلسل المستلم لأن وظائف الدُفعات تتم معالجتها بالتوازي. في حالة الفشل، ستحاول الوظيفة الدفعية معالجة كل رسالة ثلاث مرات قبل تعيينها إلى الحالة *فشلت*.
 
 ## <a name="call-the-api"></a>استدعاء API
 
@@ -119,13 +121,13 @@ ms.locfileid: "8330691"
 | `ReportedGoodQuantity` | اختياري | حقيقي|
 | `ReportedErrorCatchWeightQuantity` | اختياري | حقيقي |
 | `ReportedGoodCatchWeightQuantity` | اختياري | حقيقي |
-| `AcceptError` | اختياري |منطقي |
+| `AcceptError` | اختياري | Enum (نعم \| لا) |
 | `ErrorCause` | اختياري | التعداد (لا شيء \| المواد \| الجهاز \| OperatingStaff)، قابل للتوسيع |
 | `ExecutedDateTime` | اختياري | التاريخ/الوقت |
 | `ReportAsFinishedDate` | اختياري | التاريخ |
 | `AutomaticBOMConsumptionRule` | اختياري | التعداد (FlushingPrincip \| دائمًا \| أبدًا) |
 | `AutomaticRouteConsumptionRule` | اختياري |التعداد (RouteDependent \| دائمًا \| أبدًا) |
-| `RespectFlushingPrincipleDuringOverproduction` | اختياري | منطقي |
+| `RespectFlushingPrincipleDuringOverproduction` | اختياري | Enum (نعم \| لا) |
 | `ProductionJournalNameId` | اختياري | سلسلة |
 | `PickingListProductionJournalNameId` | اختياري | سلسلة|
 | `RouteCardProductionJournalNameId` | اختياري | سلسلة |
@@ -133,11 +135,11 @@ ms.locfileid: "8330691"
 | `ToOperationNumber` | اختياري | عدد صحيح|
 | `InventoryLotId` | اختياري | سلسلة |
 | `BaseValue` | اختياري | سلسلة |
-| `EndJob` | اختياري | منطقي |
-| `EndPickingList` | اختياري | منطقي |
-| `EndRouteCard` | اختياري | منطقي |
-| `PostNow` | اختياري | منطقي |
-| `AutoUpdate` | اختياري | منطقي |
+| `EndJob` | اختياري | Enum (نعم \| لا) |
+| `EndPickingList` | اختياري | Enum (نعم \| لا) |
+| `EndRouteCard` | اختياري | Enum (نعم \| لا) |
+| `PostNow` | اختياري | Enum (نعم \| لا) |
+| `AutoUpdate` | اختياري | Enum (نعم \| لا) |
 | `ProductColorId` | اختياري | سلسلة|
 | `ProductConfigurationId` | اختياري | سلسلة |
 | `ProductSizeId` | اختياري | سلسلة |
@@ -181,7 +183,7 @@ ms.locfileid: "8330691"
 | `OperationNumber` | اختياري | عدد صحيح |
 | `LineNumber` | اختياري | حقيقي |
 | `PositionNumber` | اختياري | سلسلة |
-| `IsConsumptionEnded` | اختياري | منطقي |
+| `IsConsumptionEnded` | اختياري | Enum (نعم \| لا) |
 | `ErrorCause` | اختياري | التعداد (لا شيء \| المواد \| الجهاز \| OperatingStaff)، قابل للتوسيع |
 | `InventoryLotId` | اختياري | سلسلة |
 
@@ -217,9 +219,9 @@ ms.locfileid: "8330691"
 | `ConsumptionDate` | اختياري | التاريخ |
 | `TaskType` | اختياري | التعداد (QueueBefore \| الإعداد \| العملية \| التداخل \| النقل \| QueueAfter \| العبء) |
 | `ErrorCause` | اختياري | التعداد (لا شيء \| المواد \| الجهاز \| OperatingStaff)، قابل للتوسيع |
-| `OperationCompleted` | اختياري | منطقي |
-| `BOMConsumption` | اختياري | منطقي |
-| `ReportAsFinished` | اختياري | منطقي |
+| `OperationCompleted` | اختياري | Enum (نعم \| لا) |
+| `BOMConsumption` | اختياري | Enum (نعم \| لا) |
+| `ReportAsFinished` | اختياري | Enum (نعم \| لا) |
 
 ### <a name="end-production-order-message"></a>رسالة انتهاء أمر الإنتاج
 
@@ -230,9 +232,13 @@ ms.locfileid: "8330691"
 | `ProductionOrderNumber` | إلزامي | سلسلة |
 | `ExecutedDateTime` | اختياري | التاريخ/الوقت |
 | `EndedDate` | اختياري | التاريخ |
-| `UseTimeAndAttendanceCost` | اختياري | منطقي |
-| `AutoReportAsFinished` | اختياري | منطقي |
-| `AutoUpdate` | اختياري | منطقي |
+| `UseTimeAndAttendanceCost` | اختياري | Enum (نعم \| لا) |
+| `AutoReportAsFinished` | اختياري | Enum (نعم \| لا) |
+| `AutoUpdate` | اختياري | Enum (نعم \| لا) |
+
+## <a name="other-production-information"></a>معلومات الإنتاج الأخرى
+
+تدعم الرسائل الإجراءات أو الأحداث التي تحدث في ورشة العمل. تتم معالجتها باستخدام إطار عمل تكامل MES الموضح في هذا الموضوع. يفترض التصميم أن المعلومات المرجعية الأخرى التي سيتم مشاركتها مع MES (مثل المعلومات المتعلقة بالمنتج، أو فاتورة المواد أو المسار (مع أوقات الإعداد والتكوين المحددة) المستخدمة في أمر إنتاج معين) سيتم استردادها من النظام باستخدام [كيانات البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) عبر نقل الملفات أو OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>تلقي ملاحظات حول حالة الرسالة
 

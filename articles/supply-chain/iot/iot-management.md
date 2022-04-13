@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8fbd750aa4a316f5e04f3c8622d0847ad9318360
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7aec17a6355caa133a671a242056e77b7f6bb461
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782647"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509545"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>مراقبة وإدارة ذكاء IoT
 
@@ -58,7 +58,6 @@ ms.locfileid: "7782647"
 
 + [توصيل IoT DevKit AZ3166 بمركز Azure IoT](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [توصيل وحدة محاكاة Raspberry Pi على الإنترنت بمركز Azure IoT (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [نظرة عامة حول مسرع حل محاكاة الأجهزة](/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

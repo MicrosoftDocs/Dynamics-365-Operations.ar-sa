@@ -1,7 +1,7 @@
 ---
 title: استبعاد المنتجات التي لها حالات دورة حياة منتج معينه
 description: يشرح هذا الموضوع كيفيه استبعاد المنتجات التي تعتمد علي حاله دوره الحياة عند استخدام وظيفة تحسين التخطيط.
-author: ChristianRytt
+author: t-benebo
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 030bdea7c03dd5eb3347c1d43acd1aeabdf566602872dd8ef5aab6d16b06f503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cdc1d47a4d12515e82e5feb55c5d473476e36873
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739025"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469187"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>استبعاد المنتجات التي لها حالات دورة حياة منتج معينه
 

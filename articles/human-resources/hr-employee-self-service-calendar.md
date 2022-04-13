@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8ee39f35f9d81f47c5438ddf48451d24ab0c0ed3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 963df35247285ad764a814daa4b51eff35207d97
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065242"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509349"
 ---
 # <a name="view-team-and-company-calendars"></a>عرض تقويمات الفريق والشركة
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>تتوفر الوظيفة المذكورة في هذا الموضوع حاليًا للعملاء في Dynamics 365 Human Resources المستقل. ستتوفر بعض الوظائف أو كلها كجزء من الإصدار المستقبلي على بنية Finance الأساسية بعد إصدار 10.0.26 من Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

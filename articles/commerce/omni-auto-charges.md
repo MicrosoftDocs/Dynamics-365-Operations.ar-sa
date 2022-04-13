@@ -2,7 +2,7 @@
 title: التكاليف التلقائية المتقدمة ‬للقناة متعددة الاتجاهات
 description: يصف هذا الموضوع القدرات المتعلقة بإدارة تكاليف الأوامر الأخرى لأوامر قناة Commerce باستخدام ميزات التكاليف التلقائية المتقدمة.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743421"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489608"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>التكاليف التلقائية المتقدمة ‬للقناة متعددة الاتجاهات
 
@@ -187,6 +187,9 @@ ms.locfileid: "6743421"
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>إرجاع قيمة التكاليف على حركة إرجاع في نقطة البيع
 
 إذا تم تعيين المعلمة **استخدام التكاليف التلقائية المتقدمة‬‏‫** إلى **نعم**، فلن تعود معلمة Commerce الموجودة **مبلغ مسترد من تكاليف الشحن** قابلة للتطبيق. للإشارة إلى التكاليف التي يجب إرجاعها بطريقة منهجية إلى العميل عند استخدام التكاليف التلقائية المتقدمة، تأكد من تكوين كود التكاليف ذي الصلة على أنه **قابل للاسترداد** على صفحة إعداد **كود التكاليف‬**. تأكد من مزامنة الإعدادات مع قواعد بيانات قناة Commerce عبر معالجة جدول التوزيع.
+
+> [!TIP]
+> للحصول على إرشادات ستساعدك على ضمان احتساب الرسوم القابلة للاسترداد على مستوى البند بناءً على الكمية التي تم إرجاعها، راجع [لم يتم احتساب الرسوم المستردة بناءً على الكمية التي تم إرجاعها](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>إرجاع قيمة التكاليف على حركة أمر إرجاع
 

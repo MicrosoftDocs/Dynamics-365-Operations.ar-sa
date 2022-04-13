@@ -2,7 +2,7 @@
 title: قدرات الشبكة
 description: يوضح هذا الموضوع العديد من الميزات الفعالة في عنصر تحكم الشبكة. يجب تمكين ميزة الشبكة الجديدة للوصول إلى هذه القدرات.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 81577f54bd7fdc7d683c760dd4410f27da8ee1f0
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384406"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462781"
 ---
 # <a name="grid-capabilities"></a>قدرات الشبكة
 
@@ -151,7 +151,7 @@ ms.locfileid: "8384406"
 
 تتوفر ميزة **عنصر تحكم الشبكة الجديد** من خلال إدارة الميزات في أي بيئة بشكل مباشر.‬ بعد تمكين الميزة في إدارة الميزات، ستستخدم كافة جلسات عمل المستخدم التالية عنصر تحكم الشبكة الجديد. 
 
-هذه الميزة ممكّنة بشكل افتراضي اعتبارًا من الإصدار 10.0.21 وستصبح إلزامية مع الإصدار 10.0.25. 
+هذه الميزة ممكّنة بشكل افتراضي اعتبارًا من الإصدار 10.0.21 وستصبح إلزامية في إصدار أكتوبر 2022.  
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[المطور] منع صفحات فردية من استخدام الشبكة الجديدة 
 إذا اكتشفت مؤسستك صفحة تواجه المشاكل في استخدام الشبكة الجديدة، تتوفر واجهة API للسماح لنموذج فردي باستخدام عنصر تحكم الشبكة القديمة مع استمرار السماح لباقي النظام باستخدام عنصر تحكم الشبكة الجديدة. لمنع صفحة فردية من استخدام الشبكة الجديدة، أضف رسالة الاستدعاء التالية `super()` في أسلوب `run()` للنموذج.

@@ -1,7 +1,7 @@
 ---
 title: تكوين دور مدير الغياب
 description: يشرح هذا الموضوع كيفية إعداد دور مدير الغياب لإدارة إجازة الموظف.
-author: hasrivas
+author: twheeloc
 ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: hasrivas
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1c699358c9cc8de9e975886cfb72edfb0d3f31
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 69a9bfe47c342f2efdae51bd62a317b4b0ab7ff5
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065216"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534097"
 ---
 # <a name="configure-the-absence-manager-role"></a>تكوين دور مدير الغياب
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>تتوفر الوظيفة المذكورة في هذا الموضوع حاليًا للعملاء في Dynamics 365 Human Resources المستقل. ستتوفر بعض الوظائف أو كلها كجزء من الإصدار المستقبلي على بنية Finance الأساسية بعد إصدار 10.0.26 من Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

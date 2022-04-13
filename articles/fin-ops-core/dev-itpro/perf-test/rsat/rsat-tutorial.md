@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
+ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781953"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8492909"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>البرنامج التعليمي للأداة Regression Suite Automation Tool
 
@@ -43,7 +43,7 @@ ms.locfileid: "7781953"
     5. في القائمة، قم بوضع علامة للصف المحدد.
     6. تحقق من أن قيمة حقل **الإجمالي المتاح** هي **411.0000000000000000**.
 
-2. حفظ تسجيل المهام **كتسجيل مطور** وأرفقه بحالة اختبارك في Azure Devops.
+2. حفظ تسجيل المهمة على أنه **تسجيل مطور** وأرفقه بحالة الاختبار في Azure DevOps.
 3. قم بإضافة حالة الاختبار إلى خطة الاختبار، وقم بتحميل حالة الاختبار إلى RSAT.
 4. قم بفتح ملف معلمه Excel وانتقل إلى علامة التبويب **TestCaseSteps**.
 5. للتحقق مما إذا كان المخزون الفعلي سيكون دائما أكبر من **0**، انتقل إلى **الخطوة الاجماليه للتحقق من الصحة** المتوفرة وقم بتغيير قيمتها من **411** إلى **0**. قم بتغيير قيمه حقل **عامل التشغيل** من علامة يساوي (**=**) إلى علامة أكبر من ( **\>**).
@@ -172,6 +172,7 @@ ms.locfileid: "7781953"
         about
         cls
         download
+        downloadsuite
         edit
         generate
         generatederived
@@ -181,11 +182,13 @@ ms.locfileid: "7781953"
         list
         listtestplans
         listtestsuite
+        listtestsuitebyid
         listtestsuitenames
         playback
         playbackbyid
         playbackmany
         playbacksuite
+        playbacksuitebyid
         quit
         upload
         uploadrecording
@@ -194,17 +197,17 @@ ms.locfileid: "7781953"
 
 #### <a name=""></a>؟
 
-يظهر تعليمات حول كافة الأوامر المتوفرة والمعلمات الخاصة بها.
+يسرد كافة الأوامر أو يظهر تعليمات حول أمر معين إلى جانب المعلمات المتوفرة.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
 
 ##### <a name="-optional-parameters"></a>?: معلمات اختيارية
 
-`command`: حيث ``[command]`` يكون أحد الأوامر المحددة أدناه.
+`command`: Where ``[command]`` هو أحد الأوامر الموجودة في القائمة السابقة.
 
 #### <a name="about"></a>حول
 
-يعرض الإصدار الحالي.
+يعرض إصدار RSAT المثبت.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
 
@@ -216,21 +219,57 @@ ms.locfileid: "7781953"
 
 #### <a name="download"></a>تنزيل
 
-يقوم بتنزيل مرفقات لحالة الاختبار المحددة إلى دليل الإخراج.
-يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
+يقوم بتنزيل المرفقات (ملفات التسجيل والتنفيذ والمعلمات) لحالة الاختبار المحددة من Azure DevOps إلى دليل الإخراج. يمكنك استخدام الأمر ``list`` للحصول علي كافة حالات الاختبار المتوفرة، واستخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="download-optional-switches"></a>تنزيل: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية التنزيل العدد المحدد من الثواني ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
 
 ##### <a name="download-required-parameters"></a>تنزيل: المحددات المطلوبة
 
 + `test_case_id`: تمثل معرف حالة الاختبار.
-+ `output_dir`: تمثل دليل الإخراج. الدليل يجب أن يكون موجودًا.
+
+##### <a name="download-optional-parameters"></a>تنزيل: معلمات اختيارية
+
++ `output_dir`: تمثل دليل عمل الإخراج. الدليل يجب أن يكون موجودًا. سيتم استخدام دليل العمل من الإعدادات إذا لم يتم تحديد هذه المعلمة.
 
 ##### <a name="download-examples"></a>تنزيل: أمثله
 
 `download 123 c:\temp\rsat`
 
-`download 765 c:\rsat\last`
+`download /retry=240 765`
+
+#### <a name="downloadsuite"></a>downloadsuite
+
+يقوم بتنزيل المرفقات (ملفات التسجيل والتنفيذ والمعلمات) لجميع حالات الاختبار في مجموعة الاختبار المحددة من Azure DevOps إلى دليل الإخراج. يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على جميع مجموعات الاختبار المتاحة، واستخدام أي قيمة كمعلمة **test_suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="downloadsuite-optional-switches"></a>downloadsuite: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية التنزيل العدد المحدد من الثواني ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
++ `/byid`: يشير رمز التبديل هذا إلى أن مجموعة الاختبار المطلوبة يتم تحديدها من خلال معرف Azure DevOps الخاص بها بدلاً من اسم مجموعة الاختبار.
+
+##### <a name="downloadsuite-required-parameters"></a>downloadsuite: المعلمات المطلوبة
+
++ `test_suite_name`: تمثل اسم مجموعة الاختبار. تكون هذه المعلمة مطلوبة إذا كان رمز التبديل /byid **غير** محدد. يكون هذا الاسم هو اسم مجموعة اختبار Azure DevOps.
++ `test_suite_id`: تمثل معرف مجموعة الاختبار. تكون هذه المعلمة مطلوبة إذا كان رمز التبديل /byid **محددًا**. يكون هذا المعرف هو معرف مجموعة Azure DevOps الاختبارية.
+
+##### <a name="downloadsuite-optional-parameters"></a>downloadsuite: معلمات اختيارية
+
++ `output_dir`: تمثل دليل عمل الإخراج. الدليل يجب أن يكون موجودًا. سيتم استخدام دليل العمل من الإعدادات إذا لم يتم تحديد هذه المعلمة.
+
+##### <a name="downloadsuite-examples"></a>downloadsuite: أمثلة
+
+`downloadsuite NameOfTheSuite c:\temp\rsat`
+
+`downloadsuite /byid 123 c:\temp\rsat`
+
+`downloadsuite /retry=240 /byid 765`
+
+`downloadsuite /retry=240 /byid 765 c:\temp\rsat`
 
 #### <a name="edit"></a>تحرير
 
@@ -244,7 +283,7 @@ ms.locfileid: "7781953"
 
 ##### <a name="edit-examples"></a>edit: أمثله
 
-`edit c:\RSAT\TestCase_123_Base.xlsx`
+`edit c:\RSAT\123\TestCase_123_Base.xlsx`
 
 `edit e:\temp\TestCase_456_Base.xlsx`
 
@@ -252,24 +291,41 @@ ms.locfileid: "7781953"
 
 يقوم بإنشاء ملفات تنفيذ تجريبي ومعلمات لحالة الاختبار المحددة في دليل الإخراج. يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] [test_case_id] [output_dir]``
+
+##### <a name="generate-optional-switches"></a>إنشاء: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية الإنشاء عدد الثواني المحدد ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
++ `/dllonly`: إنشاء ملفات تنفيذ الاختبار فقط. لا تقم بإعادة إنشاء ملف معلمة Excel.
++ `/keepcustomexcel`: ترقيه ملف المعلمات الموجود. يمكنك أيضا إعادة إنشاء ملفات التنفيذ.
 
 ##### <a name="generate-required-parameters"></a>generate: المحددات المطلوبة
 
 + `test_case_id`: تمثل معرف حالة الاختبار.
-+ `output_dir`: تمثل دليل الإخراج. الدليل يجب أن يكون موجودًا.
+
+##### <a name="generate-optional-parameters"></a>إنشاء: معلمات اختيارية
+
++ `output_dir`: تمثل دليل عمل الإخراج. الدليل يجب أن يكون موجودًا. سيتم استخدام دليل العمل من الإعدادات إذا لم يتم تحديد هذه المعلمة.
 
 ##### <a name="generate-examples"></a>generate: أمثله
 
 `generate 123 c:\temp\rsat`
 
-`generate 765 c:\rsat\last`
+`generate /retry=240 765 c:\rsat\last`
+
+`generate /retry=240 /dllonly 765`
+
+`generate /retry=240 /keepcustomexcel 765`
 
 #### <a name="generatederived"></a>generatederived
 
-يقوم بإنشاء حالة اختبار جديدة، مشتقة من حالة الاختبار المتوفرة. يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
+يقوم بإنشاء حالة اختبار مشتقة جديدة (حالة اختبار الفرع) لحالة الاختبار المقدمة. تتم أيضًا إضافة حالة الاختبار الجديدة إلى مجموعة الاختبار المحددة. يمكنك استخدام الأمر ``list`` للحصول علي كافة حالات الاختبار المتوفرة، واستخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="generatederived-optional-switches"></a>generatederived: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية الإنشاء عدد الثواني المحدد ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
 
 ##### <a name="generatederived-required-parameters"></a>generatederived: المحددات المطلوبة
 
@@ -281,39 +337,63 @@ ms.locfileid: "7781953"
 
 `generatederived 123 8901 678`
 
+`generatederived /retry 123 8901 678`
+
 #### <a name="generatetestonly"></a>generatetestonly
 
-يقوم بإنشاء ملف تنفيذ تجريبي فقط لحالة الاختبار المحددة في دليل الإخراج. يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
+يقوم بإنشاء ملفات التنفيذ التجريبي فقط لحالة الاختبار المحددة. لا يقوم بإنشاء ملف معلمة Excel. يتم إنشاء الملفات في دليل الإخراج المحدد. يمكنك استخدام الأمر ``list`` للحصول علي كافة حالات الاختبار المتوفرة، واستخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="generatetestonly-optional-switches"></a>generatetestonly: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية الإنشاء عدد الثواني المحدد ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
 
 ##### <a name="generatetestonly-required-parameters"></a>generatetestonly: المحددات المطلوبة
 
 + `test_case_id`: تمثل معرف حالة الاختبار.
-+ `output_dir`: تمثل دليل الإخراج. الدليل يجب أن يكون موجودًا.
+
+##### <a name="generatetestonly-optional-parameters"></a>generatetestonly: المعلمات الاختيارية
+
++ `output_dir`: تمثل دليل عمل الإخراج. الدليل يجب أن يكون موجودًا. سيتم استخدام دليل العمل من الإعدادات إذا لم يتم تحديد هذه المعلمة.
 
 ##### <a name="generatetestonly-examples"></a>generatetestonly: أمثله
 
 `generatetestonly 123 c:\temp\rsat`
 
-`generatetestonly 765 c:\rsat\last`
+`generatetestonly /retry=240 765`
 
 #### <a name="generatetestsuite"></a>generatetestsuite
 
-يقوم بإنشاء كافة حالات الاختبار للمجموعة المحددة في دليل الإخراج. يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على كافة مجموعات الاختبار المتوفرة. استخدم أي قيمة من العمود كمعلمة **test_suite_name**.
+يقوم بإنشاء ملفات التشغيل التلقائي للاختبار فيما يتعلق بجميع حالات الاختبار في مجموعة الاختبار المحددة. يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على جميع مجموعات الاختبار المتاحة، واستخدام أي قيمة كمعلمة **test_suite_name**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="generatetestsuite-optional-switches"></a>generatetestsuite: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية الإنشاء عدد الثواني المحدد ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
++ `/dllonly`: إنشاء ملفات تنفيذ الاختبار فقط. لا تقم بإعادة إنشاء ملف معلمة Excel.
++ `/keepcustomexcel`: ترقيه ملف المعلمات الموجود. يمكنك أيضا إعادة إنشاء ملفات التنفيذ.
++ `/byid`: يشير رمز التبديل هذا إلى أن مجموعة الاختبار المطلوبة يتم تحديدها من خلال معرف Azure DevOps الخاص بها بدلاً من اسم مجموعة الاختبار.
 
 ##### <a name="generatetestsuite-required-parameters"></a>generatetestsuite: المحددات المطلوبة
 
-+ `test_suite_name`: تمثل اسم مجموعة الاختبار.
-+ `output_dir`: تمثل دليل الإخراج. الدليل يجب أن يكون موجودًا.
++ `test_suite_name`: تمثل اسم مجموعة الاختبار. تكون هذه المعلمة مطلوبة إذا كان رمز التبديل /byid **غير** محدد. يكون هذا الاسم هو اسم مجموعة اختبار Azure DevOps.
++ `test_suite_id`: تمثل معرف مجموعة الاختبار. تكون هذه المعلمة مطلوبة إذا كان رمز التبديل /byid **محددًا**. يكون هذا المعرف هو معرف مجموعة Azure DevOps الاختبارية.
+
+##### <a name="generatetestsuite-optional-parameters"></a>generatetestsuite: المعلمات الاختيارية
+
++ `output_dir`: تمثل دليل عمل الإخراج. الدليل يجب أن يكون موجودًا. سيتم استخدام دليل العمل من الإعدادات إذا لم يتم تحديد هذه المعلمة.
 
 ##### <a name="generatetestsuite-examples"></a>generatetestsuite: أمثله
 
 `generatetestsuite Tests c:\temp\rsat`
 
-`generatetestsuite Purchase c:\rsat\last`
+`generatetestsuite /retry Purchase c:\rsat\last`
+
+`generatetestsuite /dllonly /byid 121`
+
+`generatetestsuite /keepcustomexcel /byid 121`
 
 #### <a name="help"></a>تعليمات
 
@@ -321,7 +401,7 @@ ms.locfileid: "7781953"
 
 #### <a name="list"></a>القائمة
 
-يسرد كافة حالات الاختبار المتوفرة.
+يسرد كافة حالات الاختبار المتاحة في خطة الاختبار الحالية.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
 
@@ -333,13 +413,13 @@ ms.locfileid: "7781953"
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-يسرد حالات الاختبار لمجموعة الاختبار المحددة. يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على كافة مجموعات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **suite_name**.
+يسرد حالات الاختبار لمجموعة الاختبار المحددة. يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على جميع مجموعات الاختبار المتاحة، واستخدام أي قيمة من القائمة كمعلمة **suite_name**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
 ##### <a name="listtestsuite-required-parameters"></a>listtestsuite: المحددات المطلوبة
 
-+ `suite_name`: اسم المجموعة المطلوبة.
++ `test_suite_name`: اسم المجموعة المطلوبة.
 
 ##### <a name="listtestsuite-examples"></a>listtestsuite: أمثله
 
@@ -347,33 +427,61 @@ ms.locfileid: "7781953"
 
 `listtestsuite NameOfTheSuite`
 
+#### <a name="listtestsuitebyid"></a>listtestsuitebyid
+
+يسرد حالات الاختبار لمجموعة الاختبار المحددة.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitebyid``**``[test_suite_id]``
+
+##### <a name="listtestsuitebyid-required-parameters"></a>listtestsuitebyid: المعلمات المطلوبة
+
++ `test_suite_id`: المعرف الفريد للمجموعة المطلوبة.
+
+##### <a name="listtestsuitebyid-examples"></a>listtestsuitebyid: الأمثلة
+
+`listtestsuitebyid 12345`
+
 #### <a name="listtestsuitenames"></a>listtestsuitenames
 
-يسرد كافة مجموعات الاختبار المتوفرة.
+يسرد كافة مجموعات الاختبار المتاحة في خطة الاختبار الحالية.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
 
 #### <a name="playback"></a>تشغيل
 
-يقوم بتشغيل حالة اختبار باستخدام ملف Excel.
+إعادة تشغيل حالة الاختبار المرتبطة بملف معلمة Excel المحدد. يستخدم هذا الأمر ملفات التشغيل التلقائي المحلية الموجودة ولا يقوم بتنزيل الملفات من Azure DevOps. هذا الأمر غير مدعوم لحالات اختبار التجارة في نقاط البيع.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
+
+##### <a name="playback-optional-switches"></a>التشغيل: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية التشغيل عدد الثواني المحدد ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
++ `/comments[="comment"]`: قم بتوفير سلسلة معلومات مخصصة سيتم تضمينها في الحقل **التعليقات** في الملخص وصفحات نتائج الاختبار لتشغيل حالة اختبار Azure DevOps.
 
 ##### <a name="playback-required-parameters"></a>playback: المعلمات المطلوبة
 
-+ `excel_file`: مسار كامل لملف Excel. يجب أن يكون الملف موجودًا.
++ `excel_parameter_file`: المسار الكامل لملف معلمة Excel. يجب أن يكون الملف موجودًا.
 
 ##### <a name="playback-examples"></a>playback: أمثله
 
-`playback c:\RSAT\TestCaseParameters\sample1.xlsx`
+`playback c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playback e:\temp\test.xlsx`
+`playback /retry e:\temp\test.xlsx`
+
+`playback /retry=300 e:\temp\test.xlsx`
+
+`playback /comments="Payroll solution 10.0.0" e:\temp\test.xlsx`
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-يقوم بتشغيل عدة حالات اختبار في الحال. يمكنك استخدام الأمر ``list`` للحصول على كافة حالات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **test_case_id**.
+يمكنك تشغيل عدة حالات اختبار في نفس الوقت. يتم تحديد حالات الاختبار من خلال معرفاتهم. سيقوم هذا الأمر بتنزيل الملفات من Azure DevOps. يمكنك استخدام الأمر ``list`` للحصول علي كافة حالات الاختبار المتوفرة، واستخدام أي قيمة من العمود الأول كمعلمة **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="playbackbyid-optional-switches"></a>playbackbyid: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية التشغيل عدد الثواني المحدد ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
++ `/comments[="comment"]`: قم بتوفير سلسلة معلومات مخصصة سيتم تضمينها في الحقل **التعليقات** في الملخص وصفحات نتائج الاختبار لتشغيل حالة اختبار Azure DevOps.
 
 ##### <a name="playbackbyid-required-parameters"></a>playbackbyid: المعلمات المطلوبة
 
@@ -387,75 +495,132 @@ ms.locfileid: "7781953"
 
 `playbackbyid 2345 667 135`
 
+`playbackbyid /comments="Payroll solution 10.0.0" 2345 667 135`
+
+`playbackbyid /retry /comments="Payroll solution 10.0.0" 2345 667 135`
+
 #### <a name="playbackmany"></a>playbackmany
 
-يقوم بتشغيل العديد من حالات الاختبار في الحال، باستخدام ملفات Excel.
+يمكنك تشغيل العديد من حالات الاختبار في نفس الوقت. يتم تحديد حالات الاختبار بواسطة ملفات معلمة Excel. يستخدم هذا الأمر ملفات التشغيل التلقائي المحلية الموجودة ولا يقوم بتنزيل الملفات من Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
+
+##### <a name="playbackmany-optional-switches"></a>playbackmany: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية التشغيل عدد الثواني المحدد ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
++ `/comments[="comment"]`: قم بتوفير سلسلة معلومات مخصصة سيتم تضمينها في الحقل **التعليقات** في الملخص وصفحات نتائج الاختبار لتشغيل حالة اختبار Azure DevOps.
 
 ##### <a name="playbackmany-required-parameters"></a>playbackmany: المعلمات المطلوبة
 
-+ `excel_file1`: مسار كامل لملف Excel. يجب أن يكون الملف موجودًا.
-+ `excel_file2`: مسار كامل لملف Excel. يجب أن يكون الملف موجودًا.
-+ `excel_fileN`: المسار الكامل إلى ملف Excel. يجب أن يكون الملف موجودًا.
++ `excel_parameter_file1`: المسار الكامل لملف معلمة Excel. يجب أن يكون الملف موجودًا.
++ `excel_parameter_file2`: المسار الكامل لملف معلمة Excel. يجب أن يكون الملف موجودًا.
++ `excel_parameter_fileN`: المسار الكامل لملف معلمة Excel. يجب أن يكون الملف موجودًا.
 
 ##### <a name="playbackmany-examples"></a>playbackmany: أمثله
 
-`playbackmany c:\RSAT\TestCaseParameters\param1.xlsx`
+`playbackmany c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
+`playbackmany e:\temp\test.xlsx f:\RSAT\sample1.xlsx c:\RSAT\sample2.xlsx`
+
+`playbackmany /retry=180 /comments="Payroll solution 10.0.0" e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
 
 #### <a name="playbacksuite"></a>playbacksuite
 
-يقوم بتشغيل كافة حالات الاختبار من مجموعة الاختبار المحددة.
-يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على كافة مجموعات الاختبار المتوفرة. استخدم أي قيمة من العمود الأول كمعلمة **suite_name**.
+يقوم بتشغيل كافة حالات الاختبار من مجموعة واحدة أو أكثر من مجموعات الاختبار المحددة. إذا تم تحديد مفتاح التبديل /local، فسيتم استخدام المرفقات المحلية للتشغيل. وإلا فسيتم تنزيل المرفقات من Azure DevOps. يمكنك استخدام الأمر ``listtestsuitenames`` للحصول على جميع مجموعات الاختبار المتاحة، واستخدام أي قيمة من العمود الأول كمعلمة **suite_name**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
+
+##### <a name="playbacksuite-optional-switches"></a>playbacksuite: مفاتيح التبديل الاختيارية
+
++ `/updatedriver`: إذا تم تحديد رمز التبديل هذا، فسيتم تحديث محرك الويب لمتصفح الإنترنت بالشكل المطلوب قبل تشغيل عملية التشغيل.
++ `/local`: يشير رمز التبديل هذا إلى وجوب استخدام المرفقات المحلية للتشغيل بدلاً من تنزيل الملفات من Azure DevOps.
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية التشغيل عدد الثواني المحدد ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
++ `/comments[="comment"]`: قم بتوفير سلسلة معلومات مخصصة سيتم تضمينها في الحقل **التعليقات** في الملخص وصفحات نتائج الاختبار لتشغيل حالة اختبار Azure DevOps.
++ `/byid`: يشير رمز التبديل هذا إلى أن مجموعة الاختبار المطلوبة يتم تحديدها من خلال معرف Azure DevOps الخاص بها بدلاً من اسم مجموعة الاختبار.
 
 ##### <a name="playbacksuite-required-parameters"></a>playbacksuite: المعلمات المطلوبة
 
-+ `suite_name`: اسم المجموعة المطلوبة.
++ `test_suite_name1`: تمثل اسم مجموعة الاختبار. تكون هذه المعلمة مطلوبة إذا كان رمز التبديل /byid **غير** محدد. يكون هذا الاسم هو اسم مجموعة اختبار Azure DevOps.
++ `test_suite_nameN`: تمثل اسم مجموعة الاختبار. تكون هذه المعلمة مطلوبة إذا كان رمز التبديل /byid **غير** محدد. يكون هذا الاسم هو اسم مجموعة اختبار Azure DevOps.
++ `test_suite_id1`: تمثل معرف مجموعة الاختبار. تكون هذه المعلمة مطلوبة إذا كان رمز التبديل /byid **محددًا**. يكون هذا المعرف هو معرف مجموعة Azure DevOps الاختبارية.
++ `test_suite_idN`: تمثل معرف مجموعة الاختبار. تكون هذه المعلمة مطلوبة إذا كان رمز التبديل /byid **محددًا**. يكون هذا المعرف هو معرف مجموعة Azure DevOps الاختبارية.
 
 ##### <a name="playbacksuite-examples"></a>playbacksuite: أمثله
 
 `playbacksuite suiteName`
 
-`playbacksuite sample_suite`
+`playbacksuite suiteName suiteNameToo`
+
+`playbacksuite /updatedriver /local /retry=180 /byid 151 156`
+
+`playbacksuite /updatedriver /local /comments="Payroll solution 10.0.0" /byid 150`
+
+#### <a name="playbacksuitebyid"></a>playbacksuitebyid
+
+يقوم بتشغيل جميع حالات الاختبار في مجموعة اختبارات Azure DevOps المحددة.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuitebyid``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] [test_suite_id]``
+
+##### <a name="playbacksuitebyid-optional-switches"></a>playbacksuitebyid: مفاتيح التبديل الاختيارية
+
++ `/retry[=seconds]`: إذا تم تحديد رمز التبديل هذا، وتم حظر حالات اختبار الحالة بواسطة مثيلات RSAT الأخرى، فستنتظر عملية التشغيل عدد الثواني المحدد ثم المحاولة مرة أخرى. وتكون القيمة الافتراضية \[120\] ثانية. بدون هذا المفتاح، سيتم إلغاء العملية على الفور إذا تم حظر حالات الاختبار.
++ `/comments[="comment"]`: قم بتوفير سلسلة معلومات مخصصة سيتم تضمينها في الحقل **التعليقات** في الملخص وصفحات نتائج الاختبار لتشغيل حالة اختبار Azure DevOps.
++ `/byid`: يشير رمز التبديل هذا إلى أن مجموعة الاختبار المطلوبة يتم تحديدها من خلال معرف Azure DevOps الخاص بها بدلاً من اسم مجموعة الاختبار.
+
+##### <a name="playbacksuitebyid-required-parameters"></a>playbacksuitebyid: المعلمات المطلوبة
+
++ `test_suite_id`: يمثل معرف مجموعة الاختبار كما هو موجود في Azure DevOps.
+
+##### <a name="playbacksuitebyid-examples"></a>playbacksuitebyid: الأمثلة
+
+`playbacksuitebyid 2900`
+
+`playbacksuitebyid /retry 2099`
+
+`playbacksuitebyid /retry=200 2099`
+
+`playbacksuitebyid /retry=200 /comments="some comment" 2099`
 
 #### <a name="quit"></a>إنهاء
 
-يغلق التطبيق.
+غلق التطبيق. يكون هذا الأمر مفيدًا فقط عند تشغيل التطبيقات في الوضع التفاعلي.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
 
+##### <a name="quit-examples"></a>quit: الأمثلة
+
+`quit`
+
 #### <a name="upload"></a>تحميل
 
-يقوم بتحميل كل الملفات التي تنتمي لمجموعة الاختبار المحددة أو حالات الاختبار.
+تحميل ملفات المرفقات (ملفات التسجيل والتنفيذ والمعلمات) التي تنتمي إلى مجموعة اختبار محددة أو حالات اختبار إلى Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
 
-#### <a name="upload-required-parameters"></a>upload: المحددات المطلوبة
+##### <a name="upload-required-parameters"></a>upload: المحددات المطلوبة
 
-+ `suite_name`: سيتم تحميل كل الملفات التي تنتمي لمجموعة الاختبار المحددة.
-+ `testcase_id`: سيتم تحميل كل الملفات التي تنتمي لحالة (حالات) الاختبار المحددة.
++ `test_suite_name`: سيتم تحميل جميع الملفات التي تخص مجموعة الاختبار المحددة.
++ `test_case_id1`: يمثل معرّف حالة الاختبار الأول الذي يجب تحميله. استخدم هذه المعلمة فقط في حالة عدم تقديم اسم مجموعة اختبار.
++ `test_case_idN`: يمثل آخر معرف حالة اختبار يجب تحميله. استخدم هذه المعلمة فقط في حالة عدم تقديم اسم مجموعة اختبار.
 
 ##### <a name="upload-examples"></a>upload: أمثله
 
 `upload sample_suite`
 
-`upload 123`
+`upload 2900`
 
 `upload 123 456`
 
 #### <a name="uploadrecording"></a>uploadrecording
 
-يقوم بتحميل ملف تسجيل واحد ينتمي لحالات الاختبار المحددة.
+يقوم بتحميل فقط ملف التسجيل الذي يخص حالة اختبار محددة أو أكثر إلى Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[test_case_id1] .. [test_case_idN]``
 
 ##### <a name="uploadrecording-required-parameters"></a>uploadrecording: المحددات المطلوبة
 
-+ `testcase_id`: سيتم تحميل ملف تسجيل واحد ينتمي لحالات الاختبار المحددة.
++ `test_case_id1`: يمثل معرّف حالة الاختبار الأول للتسجيل الذي يجب تحميله إلى Azure DevOps.
++ `test_case_idN`: يمثل معرّف حالة الاختبار الأول للتسجيل الذي يجب تحميله إلى Azure DevOps.
 
 ##### <a name="uploadrecording-examples"></a>uploadrecording: أمثله
 
@@ -465,9 +630,21 @@ ms.locfileid: "7781953"
 
 #### <a name="usage"></a>استخدام
 
-يظهر طريقتين لاستدعاء هذا التطبيق: واحد باستخدام ملف إعداد افتراضي، آخر يوفر ملف إعداد.
+يعرض ثلاثة أوضاع لاستخدام هذا التطبيق.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
+تشغيل التطبيق بشكل تفاعلي:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``
+
+تشغيل التطبيق بتحديد أمر:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp ``**``[command]``**
+
+تشغيل التطبيق من خلال توفير ملف إعدادات:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``/settings [drive:\Path to\file.settings] [command]``**
 
 ### <a name="windows-powershell-examples"></a>أمثلة Windows PowerShell
 

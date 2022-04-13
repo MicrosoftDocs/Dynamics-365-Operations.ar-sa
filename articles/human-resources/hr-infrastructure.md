@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024557"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487783"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>دمج البنية الأساسية في Dynamics 365 Human Resources - تحديث الإصدار 10.0.25
 
@@ -34,7 +34,7 @@ ms.locfileid: "8024557"
     - توجد قاعدة واحدة للتعليمات البرمجية، حيث يتم إصدار وظائف Human Resources جديدة كجزء من البشرية كجزء من عملية تحديث One Version العادية.
     - تُعد الطريقة التي يتم بها تطبيق الترقيات والتحديثات والإصلاحات العاجلة على البيئات متناسقة.
 
-- [تم تحسين خيارات قابلية التوسعة.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [تم تحسين خيارات قابلية التوسعة.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options)
 
     - يمكنك متابعة استخدام أدوات Microsoft Power Platform للتوسيع كما هو مطلوب.
     - يمكنك توسيع الوظائف من خلال النماذج والجداول والأساليب وواجهات برمجة التطبيقات (API).
@@ -42,7 +42,7 @@ ms.locfileid: "8024557"
 
     لمزيد من المعلومات حول خيارات التوسعة المتوفرة، راجع [نظرة عامة حول قابلية التوسعة في Dynamics 365](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
-- [إنشاء مجموعة واحدة من إمكانيات الموارد البشرية في Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [إنشاء مجموعة واحدة من إمكانيات الموارد البشرية في Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
     في الإصدار 10.0.25، تم توفير الإمكانات الوظيفية التي كانت موجودة فقط في Human Resources في البنية الأساسية في التمويل والعمليات. لكي يتمكن العملاء من الاستفادة من هذه الإمكانيات في بيئة التمويل والعمليات، يجب تمكين ميزات Human Resources التالية في إدارة الميزات.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 33aab6f0a482ce3d90a7e9828015a8e7bebb7827
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 6aed74656ceb8edd0e88adf53b61fcae81241f54
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371498"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470152"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>إعداد Regulatory configuration service (RCS)
 
@@ -50,6 +50,13 @@ ms.locfileid: "8371498"
     | المملكة المتحدة             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | آسيا                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | اليابان                      | <p>`https://gw.jp-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | سويسرا                | <p>`https://gw.ch-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | البرازيل                     | <p>`https://gw.br-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.br-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | الإمارات العربية المتحدة       | <p>`https://gw.ae-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | أستراليا                  | <p>`https://gw.au-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.au-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | كندا                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | فرنسا                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | الهند                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. تأكد من أنه تم تعيين حقل **معرف التطبيق** إلى **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. هذه القيمة هي قيمة ثابتة. تاكد من إدخال معرف فريد عمومي (GUID) فقط، وان القيمة التي لا تتضمن إيه رموز أخرى، مثل المسافات أو الفاصلات أو الفترات أو علامات الاقتباس.
 4. في حقل **معرف بيئة LCS**، أدخل معرف بيئة Microsoft Dynamics ‏Lifecycle Services ‏(LCS). هذه القيمة هي المرجع إلى بيئة Finance أو Supply Chain Management التي ستستخدمها مع خدمة الفوترة الإلكترونية. للحصول علي المعرف الخاص بك، قم بتسجيل الدخول إلى [LCS](https://lcs.dynamics.com/)، ثم افتح مشروعك، ثم في علامة التبويب **إدارة البيئة**، في قسم **تفاصيل البيئة**، ابحث في حقل **معرف البيئة**.

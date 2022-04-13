@@ -1,23 +1,23 @@
 ---
 title: إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN)
 description: يشرح هذا الموضوع كيفية إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN).
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860809"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462753"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN)
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860809"
 
 تؤدي عملية التحقق من صحة رقم الحساب البنكي الدولي (IBAN) إلى زيادة مقدار عملية التحقق من الصحة التي يتم تنفيذها عند إضافة IBAN إلى حساب بنكي.
 
-يتم تخزين معلومات حول بنية IBAN في Microsoft Dynamics 365 Finance. ويتم تحميل هذه المعلومات تلقائيًا عندما تستخدم IBAN للمرة الأولى على الحسابات البنكية. تتضمن هذه المعلومات طول IBAN، ومواضع بدء رقم الحساب البنكي ورقم التوجيه البنكي وطول رقم الحساب البنكي ورقم التوجيه البنكي.
+يتم تخزين المعلومات المتعلقة ببنيه IBAN في Microsoft Dynamics 365 Finance ويتم تحميلها تلقائيًا عند استخدام IBAN في الحسابات البنكية لأول مره. تتضمن هذه المعلومات طول IBAN، ومواضع بدء رقم الحساب البنكي ورقم التوجيه البنكي وطول رقم الحساب البنكي ورقم التوجيه البنكي.
 
 ## <a name="set-up-iban-structures"></a>إعداد بنى IBAN‬
 
 1. انتقل إلى **إدارة النقد والبنك \> الإعداد \> بنى IBAN**.
 2. لاحظ أن إعداد بنى IBAN لكل بلد أو منطقة قم تم بشكل تلقائي.
-3. إذا أردت تخصيص البنى لبلد أو منطقة معينة، فيمكنك تحريرها.
+3. حدد الزر **تحرير** إذا كانت البنية تحتاج إلى تحديث لبلد أو منطقة معينة.
 4. ستكون تعريفات البنية جزءًا من كل إصدار جديد. يمكنك استخدام القائمة **إعادة تعيين البنى‬** لتحميل أحدث التعريفات بعد كل تحديث.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>التحقق من صحة IBAN في بنية الحساب

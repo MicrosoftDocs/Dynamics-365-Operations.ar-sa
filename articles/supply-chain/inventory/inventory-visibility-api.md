@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062101"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524454"
 ---
 # <a name="inventory-visibility-public-apis"></a>واجهات API العامة لرؤية المخزون
 
@@ -41,15 +41,17 @@ ms.locfileid: "8062101"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | ترحيل | [تعيين/تجاوز الكميات المتاحة](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | ترحيل | [إنشاء حدث حجز واحد](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | ترحيل | [إنشاء أحداث حجز متعددة](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/on-hand/changeschedule | ترحيل | [إنشاء تغيير فعلي مجدول](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/on-hand/changeschedule/bulk | ترحيل | [إنشاء تغييرات فعلية مجدولة](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | ترحيل | [الاستعلام باستخدام أسلوب الترحيل](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | إحضار | [الاستعلام باستخدام أسلوب الحصول](#query-with-get-method) |
-
-قدمت Microsoft مجموعة طلبات *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > جزء {environmentId} من المسار هو معرف البيئة في Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > يمكن لواجهة برمجة التطبيقات المجمعة إرجاع 512 سجلاً كحد أقصى لكل طلب.
+
+قدمت Microsoft مجموعة طلبات *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>البحث عن نقطة النهاية وفقًا لبيئة Lifecycle Services الخاصة بك
 
@@ -517,6 +519,9 @@ Body:
 
 تتحكم المعلمة `returnNegative` فيما إذا كانت النتائج تحتوي على إدخالات سالبة أم لا.
 
+> [!NOTE]
+> إذا قمت بتمكين الميزتين جدولة التغييرات الفعلية والمتاحة للتعهد (ATP)، فيمكن أن يتضمن استعلامك أيضًا المعلمة المنطقية `QueryATP`، والتي تتحكم في ما إذا كانت نتائج الاستعلام تتضمن معلومات ATP أم لا. لمزيد من المعلومات والأمثلة، راجع [جداول التغيير الفعلي لرؤية المخزون والمتوفر حسب التعهد](inventory-visibility-available-to-promise.md).
+
 يظهر المثال التالي نموذج محتوى النص الأساسي.
 
 ```json
@@ -572,5 +577,9 @@ Query(Url Parameters):
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>متوفر حسب التعهد
+
+يمكنك إعداد رؤية المخزون للسماح بجدولة التغييرات الفعلية المستقبلية وحساب الكميات المتوفرة حسب التعهد (ATP). ATP ‏– هو كمية الصنف المتوفرة ويمكن التعهد بها لعميل في الفترة التالية. قد يؤدي استخدام حساب الكميات المتوفرة حسب التعهد (ATP) إلى زيادة قدرة تنفيذ الطلبات بشكل كبير. للحصول على معلومات حول كيفية تمكين هذه الميزة، وكيفية التفاعل مع رؤية المخزون من خلال واجهة برمجة التطبيقات (API) الخاصة بها بعد تمكين الميزة، راجع  [جداول التغييرات الفعلية لرؤية المخزون والمتوفر حسب التعهد](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

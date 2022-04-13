@@ -1,22 +1,22 @@
 ---
 title: المعلمات التي لا يستخدمها تحسين التخطيط
 description: يسرد هذا الموضوع المعلمات التي لا يراعيها تحسين التخطيط حاليًا أثناء التشغيل.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408220"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469103"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>المعلمات التي لا يستخدمها تحسين التخطيط
 
@@ -65,18 +65,6 @@ ms.locfileid: "8408220"
   - **استخدام قائمة مكونات الصنف المحدد أو إصدار المعادلة** - في انتظار دعم *إصدارات المعادلة مع المنتج المشترك/المساعد*.
   - **استخدام إصدار المسار المحدد** – في انتظار دعم *الطلب بقائمة مكونات صنف معينة أو تحديد متطلبات مسار*.
 
-- علامة التبويب السريعة **الإجراءات**:
-
-  - **رسالة الإجراء** – في انتظار دعم *الإجراءات*.
-  - **الحد الزمني للإجراء** – في انتظار دعم *الإجراءات*.
-  - **تأجيل الهامش** – في انتظار دعم *الإجراءات*.
-  - **هامش السلفة** – في انتظار دعم *الإجراءات*.
-  - **التاريخ الأساسي** – في انتظار دعم *الإجراءات*.
-  - **السلفة** – في انتظار دعم *الإجراءات*.
-  - **تأجيل** – في انتظار دعم *الإجراءات*.
-  - **تخفيض** – في انتظار دعم *الإجراءات*.
-  - **زيادة** – في انتظار دعم *الإجراءات*.
-  - **الإجراءات المشتقة** – في انتظار دعم *الإجراءات*.
 
 - علامة التبويب السريع **أخرى**:
 
@@ -149,7 +137,6 @@ ms.locfileid: "8408220"
   - **خطة التنبؤ** – في انتظار دعم *التنبؤ* الإضافي.
   - **القدرة** – في انتظار دعم *الجدولة*.
   - **خطة الاستمرارية** – في انتظار دعم *جدولة الاستمرارية*.
-  - **رسالة الإجراء** – في انتظار دعم *الإجراءات*.
   - **التأخيرات المحسوبة** – في انتظار دعم *التأخيرات المحسوبة* الإضافية.
   - **التسلسل** – في انتظار دعم *الإنتاج*.
 

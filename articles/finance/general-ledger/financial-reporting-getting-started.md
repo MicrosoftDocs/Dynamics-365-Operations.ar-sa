@@ -2,25 +2,27 @@
 title: نظرة عامة على التقارير المالية
 description: يصف هذا الموضوع المكان الذي يمكن منه الوصول إلى التقارير المالية في Microsoft Dynamics 365 Finance وكيفية استخدام إمكانيات إعداد التقارير المالية.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983967"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527302"
 ---
 # <a name="get-started-with-financial-reporting"></a>الشروع في العمل من خلال إعداد التقارير المالية 
 
@@ -174,7 +176,7 @@ ms.locfileid: "7983967"
 * في Internet Explorer، حدد **الإعدادات**، ثم حدد **خيارات الإنترنت**. حدد علامة التبويب **الأمان**. حدد المواقع الموثوق بها ثم حدد **المواقع**. في **إضافة موقع ويب هذا إلى منطقة**، أدخل "\*\.dynamics.com" (دون علامات الاقتباس)، ثم حدد **إضافة**. 
 * في Internet Explorer، حدد **الإعدادات**، ثم حدد **خيارات الإنترنت**. حدد علامة التبويب **الأمان**، ثم حدد المواقع الموثوق بها. في المنطقة المسماة مستوى الأمان لهذه المنطقة، غيِّر الخيار إلى **متوسط منخفض**.
 * عطَّل أداة منع الإطارات المنبثقة في المستعرض.
-* يجب أن تكون محطات العمل متوفرة لتثبيت Microsoft .NET Framework 4.6.2 أو إصدار أحدث منه. ويمكن تنزيل هذا الإصدار من Microsoft .NET ويمكن تنزيل هذا الإصدار من [مركز التنزيل لـ Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* يجب أن تكون محطات العمل متوفرة لتثبيت Microsoft .NET Framework 4.7.2 أو إصدار أحدث منه. ويمكن تنزيل هذا الإصدار من Microsoft .NET ويمكن تنزيل هذا الإصدار من [مركز التنزيل لـ Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * إذا كنت تستخدم مستعرض Chrome، يجب تثبيت ملحق ClickOnce لتتمكن من تنزيل عميل مصمم التقارير. إذا كنت تستخدم مستعرض Chrome في وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي. لمزيد من المعلومات حول ملحق ClickOnce من Chrome، راجع [متطلبات النظام لعمليات نشر المجموعة](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * إذا كنت تستخدم Microsoft Edge مع متصفح Chrome، فإنك لا تحتاج إلى تثبيت ملحق ClickOnce لـ Edge Chromium. ومع ذلك، يجب تمكين الخيار ClickOnce من أجل تنزيل عميل مصمم التقرير. إذا كنت تستخدم وضع التخفي، تأكد من تمكين الملحق ClickOnce لوضع التخفي.
 
