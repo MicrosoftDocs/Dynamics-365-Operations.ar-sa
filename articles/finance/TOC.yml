@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Finance
       items:
-        - name: صفحة Dynamics 365 Finance الرئيسية
+        - name: الصفحة الرئيسية لـ Dynamics 365 Finance
           href: index.md
         - name: ما الجديد أو المتغير
           items:
@@ -16,13 +16,11 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (أبريل)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (فبراير)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
+                - name: ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: الميزات التي تمت إزالتها أو إهمالها في الإصدارات السابقة
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: نسخ جدول فوترة
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: ميزات جدولة الفوترة
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: فوترة الأحداث الرئيسية
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: عملية الدعم والتجديد
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: جداول فهرس أسعار المستهلك
+                      href: accounts-receivable/cpischedules.md
                     - name: إنهاء جداول الفوترة
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: تأجيلات المصروفات والإيرادات
-                  items: null
+                  items:
+                    - name: إعداد تأجيلات المصروفات والإيرادات
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: جداول التأجيل
+                      items:
+                        - name: إنشاء جداول التأجيلات
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: الحركات الافتراضية للتأجيلات
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: تخصيص الإيرادات متعددة العناصر
-                  items: null
+                  items:
+                    - name: إعداد تخصيص الإيرادات متعدد العناصر
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: الدفعات والتسويات
               items:
                 - name: نظرة عامة على دفعات العملاء
@@ -922,6 +936,8 @@
               items:
                 - name: تخطيط دليل الحسابات
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: تخطيط دليل حساباتك المحلي
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: الحسابات الرئيسية
                   items:
                     - name: أنواع الحسابات الرئيسية
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: إصدار 3.3 من CFDI
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: إصدار 4.0 من CFDI
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: معرفات تسجيل العميل ومعلومات أخرى
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: بيان إعلان DIOT

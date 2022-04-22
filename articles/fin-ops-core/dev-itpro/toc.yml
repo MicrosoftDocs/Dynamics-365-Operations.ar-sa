@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.25 (أبريل 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.24 (فبراير 2022)
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -396,6 +394,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: تكوين الوكلاء للبيئات المحلية
                       href: deployment/onprem-reverseproxy.md
+                    - name: تثبيت أجهزة طابعات الشبكة في البيئات المحلية
+                      href: analytics/install-network-printer-onprem.md
                     - name: تشخيصات محلية
                       href: deployment/on-premises-diagnostics.md
                     - name: تكوين التعافي من الكوارث المحلي
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: الأسئلة المتداولة حول الأجهزة الظاهرية (VM) للتطوير والإنشاء التي لا تمنح المسؤول حق الوصول
                   href: sysadmin/VMs-no-admin-access.md
+                - name: إعداد VHD القابل للتنزيل للاستخدام الأول
+                  href: dev-tools/vhd-setup.md
                 - name: إعادة تسمية البيئات المحلية للوصول إلى Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: متطلبات نظام التطوير
@@ -1028,6 +1030,8 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: ملحق Azure DevOps (إصدار أولي للاستخدام العام)
                   href: lifecycle-services/dts-devops-extension.md
+                - name: البرنامج التعليمي لملحق Azure DevOps (إصدار أولي للاستخدام العام)
+                  href: lifecycle-services/dts-ado-tutorial.md
         - name: تكامل Microsoft Power Platform
           items:
             - name: نظرة عامة
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: تشغيل Regression Suite Automation Tool ‏(RSAT) مع التنفيذ المتوازي
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: تكامل RSAT مع Azure DevOps Pipelines
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: استكشاف الأخطاء وإصلاحها
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: إصدار حلول باستخدام Lifecycle Services
