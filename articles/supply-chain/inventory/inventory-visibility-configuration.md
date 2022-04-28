@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524510"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547777"
 ---
 # <a name="configure-inventory-visibility"></a>تكوين رؤية المخزون
 
@@ -51,9 +51,10 @@ ms.locfileid: "8524510"
 
 | اسم إدارة الميزات | ‏‏الوصف‬ |
 |---|---|
-| OnHandReservation | تسمح هذه الميزة بإنشاء عمليات حجز، واستهلاك الحجوزات، و/أو كميات المخزون المحددة غير المفرج عنها باستخدام "رؤية المخزون". لمزيد من المعلومات، راجع [حجوزات رؤية المخزون](inventory-visibility-reservations.md). |
-| OnHandMostSpecificBackgroundService | توفر هذه الميزة ملخص المخزون من المنتجات مع جميع الأبعاد. ستتم مزامنة بيانات ملخص المخزون دورياً من رؤية المخزون. لمزيد من المعلومات، راجع [‏‫ملخص المخزون](inventory-visibility-power-platform.md#inventory-summary). |
-| OnhandChangeSchedule | تتيح الميزة جدول التغيير الفعلي والمتاحة للتعهد بميزات (ATP) (اختياري). لمزيد من المعلومات، راجع [جداول التغيير الفعلي لرؤية المخزون والمتوفر حسب التعهد](inventory-visibility-available-to-promise.md). |
+| *OnHandReservation* | تسمح هذه الميزة بإنشاء عمليات حجز، واستهلاك الحجوزات، و/أو كميات المخزون المحددة غير المفرج عنها باستخدام "رؤية المخزون". لمزيد من المعلومات، راجع [حجوزات رؤية المخزون](inventory-visibility-reservations.md). |
+| *OnHandMostSpecificBackgroundService* | توفر هذه الميزة ملخص المخزون من المنتجات مع جميع الأبعاد. ستتم مزامنة بيانات ملخص المخزون دورياً من رؤية المخزون. لمزيد من المعلومات، راجع [‏‫ملخص المخزون](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnhandChangeSchedule* | تعمل هذه الميزة الاختيارية على تمكين جدول التغيير الفعلي والميزات المتوفرة حسب التعهد‬ (ATP). لمزيد من المعلومات، راجع [جدول تغيير رؤية المخزون المتاح والمتوفر حسب التعهد‬](inventory-visibility-available-to-promise.md). |
+| *تمكين أصناف المستودعات في رؤية المخزون* | تتيح هذه الميزة الاختيارية "رؤية المخزون" لدعم العناصر التي تم تمكينها لعمليات المستودعات المتقدمة (عناصر WHS). لمزيد من المعلومات، راجع [دعم رؤية المخزون لأصناف WHS‬](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>البحث عن نقطة نهاية الخدمة
 
@@ -61,7 +62,7 @@ ms.locfileid: "8524510"
 
 ## <a name="data-source-configuration"></a>تكوين مصدر البيانات
 
-يمثل كل مصدر بيانات نظامًا تأتي منه بياناتك. ويتضمن مثال أسماء مصادر البيانات `fno` (الذي يعني تطبيقات Dynamics 365 Finance and Operations) و`pos` (الذي يعني "نقطة البيع"). افتراضيًا، يتم إعداد Supply Chain Management كمصدر بيانات افتراضي ( `fno`) في رؤية المخزون.
+يمثل كل مصدر بيانات نظامًا تأتي منه بياناتك. يتضمن مثال أسماء مصادر البيانات `fno` (التي تشير إلى "تطبيقات التمويل والعمليات في Dynamics 365") `pos` (التي تشير إلى "نقطة البيع"). افتراضيًا، يتم إعداد Supply Chain Management كمصدر بيانات افتراضي ( `fno`) في رؤية المخزون.
 
 > [!NOTE]
 > مصدر بيانات `fno` محجوز لـ Supply Chain Management. إذا كانت الوظيفة الاضافيه لرؤية المخزون متكاملة مع بيئة Supply Chain Management، فاننا نوصي بعدم حذف التكوينات المرتبطة بـ `fno` في مصدر البيانات.

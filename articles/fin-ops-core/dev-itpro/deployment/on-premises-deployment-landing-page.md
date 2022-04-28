@@ -4,7 +4,8 @@ description: يوفر هذا الموضوع معلومات وارتباطات إ
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,24 +17,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712558"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566028"
 ---
 # <a name="on-premises-deployment-home-page"></a>الصفحة الرئيسية للنشر المحلي
 
 [!include [banner](../includes/banner.md)]
 
-يُمكنك نشر Dynamics 365 Finance + Operations (محلي). عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة. يوفر هذا الموضوع ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.
+يمكنك نشر Dynamics 365 Finance + Operations (on-premises). عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة. يوفر هذا الموضوع ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.
 
 ## <a name="get-started"></a>البدء
 - [نظرة عامة عن النشر المحلي](on-premises-overview.md)
 - [تخطيط عمليات النشر المحلي وإعدادها](plan-onprem-deployment.md)
 - [متطلبات النظام لعمليات النشر المحلي](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [برنامج Microsoft Dynamics 365 Finance + Operations (في الموقع) المعتمد](onprem-compatibility.md)
+- [البرامج المدعومة لـ Microsoft Dynamics 365 Finance + Operations (on-premises)](onprem-compatibility.md)
 - [متطلبات ضبط حجم الأجهزة للبيئات المحلية](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [شراء Finance and Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [مقارنة بين ميزات السحابة والمحلي](../../fin-ops/get-started/cloud-prem-comparison.md)
@@ -52,7 +53,7 @@ ms.locfileid: "6712558"
 - [استيراد تكوينات إعداد التقارير الإلكترونية (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [إنشاء المستندات ونشرها وطباعتها في عمليات النشر المحلي](../analytics/printing-capabilities-on-premises.md)
 - [تكوين الوكلاء للبيئات المحلية](onprem-reverseproxy.md)
-- [إعداد الدعم الفني للتطبيقات Finance and Operations ](../lifecycle-services/support-experience.md)
+- [إعداد الدعم التقني لتطبيقات Finance and Operations](../lifecycle-services/support-experience.md)
 - [اتصال إنترنت العميل](../user-interface/client-disconnected.md)
 - [تطبيق التحديثات على عمليات النشر المحلية](apply-updates-on-premises.md)
 - [إعادة نشر بيئات محلية](redeploy-on-prem.md)
@@ -72,7 +73,7 @@ ms.locfileid: "6712558"
 - [برامج نصية لحل المشكلات في البيئات المحلية](onprem-tsg-implementations.md)
 - [تدوير الشهادات](certificate-rotation-on-prem.md)
 - [تشخيصات محلية](on-premises-diagnostics.md)
-- [الميزات التي تمت إزالتها أو إهمالها لـ Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [ميزات تمت ازالتها أو إهمالها في Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [سياسة دورة حياة البرامج والإصدارات المحلية](../migration-upgrade/on-prem-version-update-policy.md)
  
 

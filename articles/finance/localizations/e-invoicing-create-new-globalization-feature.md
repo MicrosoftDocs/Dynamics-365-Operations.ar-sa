@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371495"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603014"
 ---
 # <a name="create-a-globalization-feature"></a>إنشاء ميزة عولمة
 
@@ -47,7 +47,7 @@ ms.locfileid: "8371495"
 8. في شبكة **التكوينات**، استعرض وحدد تكوينات التنسيق المطلوبة لخط أنابيب المعالجة (على سبيل المثال، إنشاء ملفات الفواتير الإلكترونية أو معالجة الردود من خدمات الويب الخارجية).
 9. حدد **موافق**. يمكنك الآن استخدام التكوينات في إجراءات مسار المعالجة. - لمزيد من المعلومات راجع، [‬‏‫العمل مع التكوينات](e-invoicing-work-configurations.md).
 10. لإضافة إعداد ميزة الفواتير الإلكترونية، قم بإنشائه في علامة التبويب **عمليات الإعداد** في صفحة **الميزة الجديدة**. - لمزيد من المعلومات راجع، [‬‏‫العمل مع عمليات إعداد الميزة](e-invoicing-feature-setup.md).
-11. أكمل الإعداد، وانشر ميزة الفوترة الإلكترونية في بيئة الخدمة. لمزيد من المعلومات، راجع [إكمال ميزة العولمة ونشرها وتوزيعها](e-invoicing-complete-publish-deploy-globalization-feature).
+11. أكمل الإعداد، وانشر ميزة الفوترة الإلكترونية في بيئة الخدمة. لمزيد من المعلومات، راجع [إكمال ميزة العولمة ونشرها وتوزيعها](e-invoicing-complete-publish-deploy-globalization-feature.md).
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>إنشاء تكوينات تنسيق ملف مشتقة من نموذج الفاتورة الحالي
 
@@ -91,4 +91,4 @@ ms.locfileid: "8371495"
     - راجع التكوينات، في حالة وجوب تخصيص تنسيقات التقارير الإلكترونية وربطها بتعيينات التنسيق لإصدار الميزة.
     - راجع الإعداد، في حال كنت بحاجة إلى تخصيص علامة التبويب **الإجراءات** أو علامة التبويب **قواعد إمكانية التطبيق**  أو علامة التبويب **المتغيرات** لإصدار الميزة.
 
-9. أكمل الإعداد، وانشر ميزة الفوترة الإلكترونية في بيئة الخدمة. لمزيد من المعلومات، راجع [إكمال ميزة العولمة ونشرها وتوزيعها](e-invoicing-complete-publish-deploy-globalization-feature).
+9. أكمل الإعداد، وانشر ميزة الفوترة الإلكترونية في بيئة الخدمة. لمزيد من المعلومات، راجع [إكمال ميزة العولمة ونشرها وتوزيعها](e-invoicing-complete-publish-deploy-globalization-feature.md).

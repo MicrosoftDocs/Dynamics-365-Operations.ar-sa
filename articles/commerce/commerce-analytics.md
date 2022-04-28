@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349733"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8549997"
 ---
 # <a name="commerce-analytics-preview"></a>تحليلات Commerce (إصدار أولي)
 
@@ -352,15 +352,20 @@ ms.locfileid: "8349733"
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>تمكين تحليلات Commerce وتكوينها (إصدار أولي)
 
-لتثبيت تحليلات Commerce (إصدار أولي)، يجب أن يكون لديك أذونات لإنشاء موارد في اشتراك Azure. كما يجب أن يكون لديك أذونات لتثبيت الوظائف الإضافية في LCS. 
+لتثبيت تحليلات Commerce (إصدار أولي)، يجب أن يكون لديك أذونات لإنشاء موارد في اشتراك Azure. كما يجب أن يكون لديك أذونات لتثبيت الوظائف الإضافية في LCS.
 
 لتمكين وتكوين تحليلات Commerce (معاينة)، اتبع هذه الخطوات.
 
-1. [تمكين التصدير إلى الوظيفة الإضافية في Data Lake وتكوينه](#enableExportToDataLake).
-1. [قم بتثبيت وتكوين Azure Synapse workspace](#configureAzureSynapse).
-1. [إضافة الأسرار إلى المخزن الأساسي](#addSecrets).
-1. [الوظيفة الإضافية تمكين تحليلات Commerce وتكوينها (إصدار أولي)](#enableCommerceAnalyticsAddin).
-1. [قم بتثبيت تطبيق قالب Power BI ](#powerbi).
+1. [قم بإرسال نموذج مأخذ الإصدار الأولي لتحليلات Commerce (إصدار أولي)](#joinPreview)
+2. [تمكين التصدير إلى الوظيفة الإضافية في Data Lake وتكوينه](#enableExportToDataLake).
+3. [قم بتثبيت وتكوين Azure Synapse workspace](#configureAzureSynapse).
+4. [إضافة الأسرار إلى المخزن الأساسي](#addSecrets).
+5. [الوظيفة الإضافية تمكين تحليلات Commerce وتكوينها (إصدار أولي)](#enableCommerceAnalyticsAddin).
+6. [قم بتثبيت تطبيق قالب Power BI ](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>إرسال نموذج مأخذ الإصدار الأولي لتحليلات Commerce (إصدار أولي)
+
+قم بإرسال [نموذج مأخذ الإصدار الأولي لتحليلات Commerce (إصدار أولي)](https://forms.office.com/r/vW5VLJGXZ2). بعد معالجة طلبك، سيتم إرسال بريد إلكتروني للتأكيد إلى عنوان البريد الإلكتروني الذي قدمته في النموذج.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>تمكين التصدير إلى الوظيفة الإضافية في Data Lake وتكوينه
 

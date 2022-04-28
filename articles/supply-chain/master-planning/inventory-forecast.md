@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469359"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548156"
 ---
 # <a name="inventory-forecasts"></a>التنبؤات بالمخزون
 
@@ -39,7 +39,7 @@ ms.locfileid: "8469359"
 - [إنشاء تنبؤ أساسي إحصائي](generate-statistical-baseline-forecast.md).
 - [استيراد البيانات التاريخية‬ للتنبؤات بالطلبات](import-historical-data.md).
 - [إنشاء التنبؤ باستخدام Microsoft Azure الخاص بخدمة التعلم الآلي على الويب](demand-forecasting-setup.md).
-- [استيراد بنود التنبؤ بالتوريد أو بالطلب باستخدام إطار عمل إدارة البيانات (إدخالات بيانات ForecastDemandForecastEntryStaging and ForecastSupplyForecastEntryStaging)](../../dev-itpro/data-entities/data-entities-data-packages.md).
+- [استيراد بنود التنبؤ بالتوريد أو بالطلب باستخدام إطار عمل إدارة البيانات (إدخالات بيانات ForecastDemandForecastEntryStaging and ForecastSupplyForecastEntryStaging)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 كما يظهر الجدول في الخطوة 1، هناك طرق مختلفة للوصول إلى الصفحات المستخدمة.
 

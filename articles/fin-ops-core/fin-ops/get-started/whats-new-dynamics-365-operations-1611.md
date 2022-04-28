@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752798"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548069"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>ما الجديد أو المتغير في الإصدار 1611 من Dynamics 365 for Operations (نوفمبر 2016)
 
@@ -816,7 +816,7 @@ ms.locfileid: "7752798"
 | بصفتك مورد، يمكنك الحصول على معلومات حول كمية مخزون الشحن الذي تم تحويله إلى العميل. | لفوترة لعميل، يحتاج المورد إلى معلومات عن المواد الخام التي تم شراؤها من مخزون الشحن وتاريخ الشراء. باستطاعة المورد أيضًا مراقبة المخزون الفعلي في موقع العميل باستخدام واجهة تعاون المورد. |
 | نقل المخزون المملوك من المورد باستخدام دفتر يومية التحويل. | لتعقب الموضع الفعلي للمخزون المملوك من المورد، يجب أن تكون قادرًا على تسجيل الموضع في النظام. من خلال استخدام دفتر يومية التحويل، يمكنك تسجيل الحركة المادية للمخزون، مثل الحركة من موقع في مستودع إلى موقع آخر في هذا المستودع. |
 | ضبط المخزون المملوك من المورد باستخدام دفتر يومية الجرد‬. | من الضروري أن تحافظ على مزامنة المخزون الفعلي للنظام مع المخزون المادي الفعلي. ويمكن ضبط المخزون المملوك من المورد للداخل والخارج عن طريق استخدام عمليات الجرد مثل عمليات تعديل الكميات ودفتر يومية الجرد. |
-| اعرف المزيد عن دعم الشحن في Dynamics 365 for Operations | لمزيد من المعلومات حول دعم عمليات الشحن، راجع [الشحن](../../../supply-chain/inventory/consignment.md) و[إعداد الشحن](../../../supply-chain/inventory/set-up-consignment.md) و[إنشاء أمر تزويد الشحن (دليل المهام)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) و[تغيير ملكية مخزون الشحن استنادًا إلى الطلب على الإنتاج (دليل المهام)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| اعرف المزيد عن دعم الشحن في Dynamics 365 for Operations | لمزيد من المعلومات حول دعم عمليات الشحن، راجع [الشحن](../../../supply-chain/inventory/consignment.md) و[إعداد الشحن](/d365F-O/fin-ops-core/fin-ops/get-started/consignment) و[إنشاء أمر تزويد الشحن (دليل المهام)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) و[تغيير ملكية مخزون الشحن استنادًا إلى الطلب على الإنتاج (دليل المهام)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>تعاون المورد (المعروف سابقًا بمدخل المورد)
 
@@ -942,7 +942,7 @@ ms.locfileid: "7752798"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[الصفحة الرئيسية للجديد أو المتغير‬ في Finance and Operations](whats-new-changed.md)
+[الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

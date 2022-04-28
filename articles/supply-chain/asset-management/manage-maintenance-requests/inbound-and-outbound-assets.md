@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0bd3127df1b583acc6841c3e115d3beceabcab2756098e567b2269c1dcc94004
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee3917725a95d47e37b9c914580e8ce521b52695
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759613"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548128"
 ---
 # <a name="inbound-and-outbound-assets"></a>الأصول الواردة والصادرة
 
@@ -31,7 +31,7 @@ ms.locfileid: "6759613"
 إذا كانت شركتك تنفذ مهام إصلاح أو صيانة على أصول تتلقاها من مواقع أخرى أو عملاء أخرين، فبإمكان إدارة الأصول تتبع الأصول الواردة التي هي في طريقها إلى شركتك والأصول الصادرة التي يتم إرجاعها.
 
 > [!NOTE]
-> إذا كنت ترغب في استخدام حالات دورة الحياة الواردة والصادرة لإدارة الأصول التي تأتي ويتم إرجاعها، يجب إعداد حالات دورة حياة طلب الصيانة ونماذج دورة الحياة لدعم هذه الإجراءات. لمزيد من المعلومات، راجع [طلبات الصيانة](../setup-for-maintenance-requests/requests.md).
+> إذا كنت ترغب في استخدام حالات دورة الحياة الواردة والصادرة لإدارة الأصول التي تأتي ويتم إرجاعها، يجب إعداد حالات دورة حياة طلب الصيانة ونماذج دورة الحياة لدعم هذه الإجراءات. لمزيد من المعلومات، راجع [طلبات الصيانة](/d365F-O/supply-chain/asset-management/manage-maintenance-requests/../manage-maintenance-requests/maintenance-request-overview).
 
 يحدد إعداد "إدارة الأصول" ما إذا كان يمكنك العمل مع الأصول الواردة والصادرة.
 

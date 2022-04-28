@@ -2,7 +2,7 @@
 title: إنشاء أوامر التوريد
 description: يوضح هذا الإجراء كيفية إنشاء أمر مبيعات.
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566279"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551713"
 ---
 # <a name="create-sales-orders"></a>إنشاء أوامر التوريد
 
@@ -66,5 +66,7 @@ ms.locfileid: "7566279"
     
 3. حدد **موافق**.
 
+## <a name="sales-order-creation-performance-enhancement"></a>تحسين أداء إنشاء أمر المبيعات
+الميزة الجديدة المقدمة مع إصدار التطبيق 10.0.26 تقلل من إنشاء السجلات الإضافية للجدولين **SourceDocumentHeader** و **SourceDocumentLine**. تم تحسين الأداء وتقليل حجم التخزين لأنه لم يتم إنشاء هذه السجلات. لا تُستخدم جداول إطار عمل مستند المصدر الأساسي لأوامر المبيعات في المنتج في هذا الوقت ولا توجد خطط مجدولة لاستخدامها. يعتبر تمكين هذه الميزة تغييرًا آمنًا لتحسين الأداء. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562092"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565842"
 ---
 # <a name="set-up-sales-tax-codes"></a>إعداد أكواد ضريبة المبيعات
 
@@ -45,7 +45,7 @@ ms.locfileid: "7562092"
 12. قم بإغلاق الصفحة.
 13. حدد **حفظ**.
 
-اعتبارًا من الإصدار 10.0.22 من Microsoft Dynamics 365 Finance، إذا كنت تستخدم [خدمة الضريبة](../../localizations/global-tax-calcuation-service-overview.md)، وتم تمكين الميزة [**دعم أرقام تسجيل ضريبة القيمة المضافة المتعددة‬**](../../localizations/emea-multiple-vat-registration-numbers.md) في **إدارة الميزات**، فيمكنك استخدام **نوع الضريبة** لتحديد نوع كود الضريبة. تتوفر القيم التالية:
+اعتبارًا من الإصدار 10.0.22 من 365 Finance Microsoft Dynamics، إذا كنت تستخدم [خدمة الضريبة](../../localizations/global-tax-calcuation-service-overview.md)، وتم تمكين الميزة [**دعم أرقام تسجيل ضريبة القيمة المضافة المتعددة‬**](../../localizations/emea-multiple-vat-registration-numbers.md) في **إدارة الميزات**، فيمكنك استخدام **نوع الضريبة** لتحديد نوع كود الضريبة. تتوفر القيم التالية:
 
 - ضريبة قيمة مضافة قياسية
 - ضريبة القيمة المضافة المخفضة

@@ -4,7 +4,8 @@ description: يسرد هذا الموضوع متطلبات ضبط حجم الأ�
 author: sericks007
 ms.date: 06/02/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +15,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 520be2ebc9d90711c89b842fd9f365b2dff06935
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763424"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565679"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>متطلبات ضبط حجم الأجهزة للبيئات المحلية
 

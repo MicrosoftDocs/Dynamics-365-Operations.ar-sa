@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986348"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565988"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>الشروع في العمل باستخدام الفوترة الإلكترونية للمكسيك
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> قد لا تدعم الفوترة الإلكترونية في المكسيك في الوقت الحالي جميع الوظائف المتوفرة في مستند Comprobante Fiscal Digital por Internet (CFDI)، وفي التكامل ذي الصلة المبني في Microsoft Dynamics 365 Finance أو Dynamics 365 Supply Chain Management.
+> قد لا تدعم الفوترة الإلكترونية في المكسيك في الوقت الحالي جميع الوظائف المتوفرة في مستند Comprobante Fiscal Digital por Internet (CFDI)، وفي التكامل ذي الصلة المبني في 365 Finance Microsoft Dynamics أو Dynamics 365 Supply Chain Management.
 
 يوفر هذا الموضوع معلومات ستساعدك على بدء استخدام الفوترة الإلكترونية للمكسيك. وهو يرشدك عبر خطوات التكوين التي تعتمد على البلد في Regulatory Configuration Services (RCS) وFinance. ويقوم أيضًا بإرشادك عبر الخطوات التي يجب اتباعها في Finance لإرسال فواتير CFDI من خلال الخدمة، ويشرح كيفية مراجعة نتائج المعالجة وحالة فواتير CFDI.
 
@@ -141,7 +141,7 @@ ms.locfileid: "7986348"
 1. في الصفحة **إعداد إصدار الميزة**، على علامة التبويب **المتغيرات**، حدد اسم المتغير، **DigitalSignatureXSLT**.
 2. في الحقل **القيم** أدخل: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
    
-    بحيث: <RelativePath> = مجلد\\مجلد\\اسم الملف مع كتابة خطين من الخطوط المائلة العكسية، يجب أن يشير ContainerName إلى الحاوية المستخدمة للخدمة.
+    بحيث: \<RelativePath\> = مجلد\\مجلد\\اسم الملف مع كتابة خطين من الخطوط المائلة العكسية، يجب أن يشير ContainerName إلى الحاوية المستخدمة للخدمة.
    
     مثال على المتغير:
     

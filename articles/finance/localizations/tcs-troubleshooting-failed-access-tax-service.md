@@ -13,24 +13,23 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 02/16/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 48a75cd0c1d91c3b3d9c3fb2e6cab93a76756532
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: f4682b83405071b4ad7647958122ab2b4e082133
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388541"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612305"
 ---
 # <a name="failed-to-access-tax-service"></a>فشل الوصول إلى خدمة الضريبة
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 يشرح هذا الموضوع كيفية إصلاح الخطأ "فشل الوصول إلى خدمة الضرائب" في خدمة حساب الضريبة.
 
 ## <a name="symptoms"></a>العلامات
 
-في Microsoft Dynamics 365 Finance، يمكنك الانتقال إلى **الضريبة** \> **الإعداد** \> **تكوين الضريبة** \> **معلمات خدمة الضريبة**. في علامة التبويب **عام**، يمكنك تمكين خيار **تمكين حساب الضريبة**. إذا حاولت بعد ذلك تحديد قيمة في حقل **اسم إعداد الميزة**، فسيحدث خطأ. تنص رسالة الخطأ، "فشل الوصول إلى خدمة الضرائب."
+في 365 Finance Microsoft Dynamics، يمكنك الانتقال إلى **الضريبة** \> **الإعداد** \> **تكوين الضريبة** \> **معلمات خدمة الضريبة**. في علامة التبويب **عام**، يمكنك تمكين خيار **تمكين حساب الضريبة**. إذا حاولت بعد ذلك تحديد قيمة في حقل **اسم إعداد الميزة**، فسيحدث خطأ. تنص رسالة الخطأ، "فشل الوصول إلى خدمة الضرائب."
 
 ## <a name="cause"></a>السبب
 

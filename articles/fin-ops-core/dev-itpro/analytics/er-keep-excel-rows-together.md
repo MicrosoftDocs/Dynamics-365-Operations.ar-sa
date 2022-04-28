@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388577"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612329"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>تصميم تنسيق ER للاحتفاظ بالصفوف معًا في نفس صفحة Excel
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 يوضح هذا الموضوع كيف يمكن لمستخدم لديه دور مسؤول النظام أو المستشار الوظيفي للتقارير الإلكترونية تكوين [تنسيق التقارير الإلكترونية](general-electronic-reporting.md) [(ER)](er-overview-components.md#format-component) الذي يقوم بإنشاء مستندات صادرة في Microsoft Excel وإدارة ترقيم الصفحات بحيث يتم الاحتفاظ بالصفوف التي تم إنشاؤها في نفس الصفحة.
 
@@ -55,7 +54,7 @@ ms.locfileid: "8388577"
 
 ## <a name="import-the-standard-er-format-configuration"></a>استيراد تكوين التنسيق القياسي للتقارير الإلكترونية.
 
-اتبع الخطوات الواردة في [استيراد تكوين التنسيق القياسي للتقارير الإلكترونية](er-quick-start2-customize-report.md#ImportERSolution1) لإضافة التكوينات القياسية للتقارير الإلكترونية إلى مثيل Dynamics 365 Finance الحالي. على سبيل المثال، قم باستيراد **252.116** من تكوين تنسيق **الفاتورة ذات النص الحر (Excel)**. يتم استيراد الإصدار الأساسي **252** من تكوين **نموذج الفاتورة** الأساسي تلقائيًا من المستودع مع تكوين **تعيين نموذج الفاتورة المطلوب**.
+اتبع الخطوات الواردة في [Dynamics 365 Finance](er-quick-start2-customize-report.md#ImportERSolution1) لإضافة تكوينات التقارير الإلكترونية القياسية إلى مثيلك الحالي من Dynamics 365 Finance. على سبيل المثال، قم باستيراد **252.116** من تكوين تنسيق **الفاتورة ذات النص الحر (Excel)**. يتم استيراد الإصدار الأساسي **252** من تكوين **نموذج الفاتورة** الأساسي تلقائيًا من المستودع مع تكوين **تعيين نموذج الفاتورة المطلوب**.
 
 ## <a name="set-up-print-management-to-use-the-standard-er-format"></a>إعداد إدارة الطباعة لاستخدام تنسيق ER الأساسي
 
