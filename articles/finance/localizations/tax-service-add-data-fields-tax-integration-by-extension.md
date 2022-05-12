@@ -2,7 +2,7 @@
 title: أضافه حقول البيانات في تكامل الضريبة باستخدام الملحقات
 description: يوضح هذا الموضوع كيفيه استخدام ملحقات X + + لأضافه حقول البيانات في تكامل الضريبة.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323513"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649090"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>أضافه حقول البيانات في تكامل الضريبة باستخدام الملحقات
 
@@ -334,9 +334,10 @@ public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstrac
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-في هذا الكود، `_destination` هو كائن برنامج التضمين الذي يتم استخدامه لإنشاء طلب الترحيل، و`_source` هو كائن `TaxIntegrationLineObject`.
+في هذا الكود، `_destination` هو كائن برنامج التضمين الذي يتم استخدامه لإنشاء الطلب، و`_source` هو كائن `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> حدد المفتاح المستخدم في نموذج الطلب باعتباره **private const str**. يجب أن تكون السلسلة مطابقة تمامًا لاسم القياس المضاف في الموضوع, [إضافة حقول البيانات في تكوينات الضرائب‬](tax-service-add-data-fields-tax-configurations.md).
-> عيّن الحقل في الأسلوب **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** باستخدام الأسلوب **SetField**. يجب أن يكون نوع بيانات المعلمة الثانية **سلسلة**. إذا لم يكن نوع البيانات **سلسلة**، فعليك تحويله.
-> إذا تم توسيع **نوع التعداد** X++، فلاحظ الفرق بين قيمته وتسميته واسمه.
+> حدد اسم الحقل المستخدم في نموذج الطلب باعتباره **private const str**. يجب أن تكون السلسلة مطابقة تمامًا لاسم العقدة (وليس التسمية) المضافة في الموضوع [إضافة حقول البيانات في تكوينات الضرائب‬](tax-service-add-data-fields-tax-configurations.md).
 > 
+> عيّن الحقل في الأسلوب **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** باستخدام الأسلوب **SetField**. يجب أن يكون نوع بيانات المعلمة الثانية **سلسلة**. إذا لم يكن نوع البيانات **سلسلة**، فعليك تحويله إلى سلسلة.
+> إذا كان نوع البيانات هو **نوع التعداد**، فمن المستحسن استخدام الأسلوب **enum2Symbol** لتحويل قيمة التعداد إلى سلسلة. يجب أن تكون قيمة التعداد المضافة في تكوين الضريبة مماثلة تمامًا لاسم التعداد. فيما يلي قائمة بالاختلافات بين قيمة التعداد وتسميته واسمه.
+> 
+>   - اسم التعداد enum هو اسم رمزي في التعليمات البرمجية. بإمكان **enum2Symbol()** تحويل قيمة التعداد إلى اسمه.
 >   - قيمة التعداد هي عدد صحيح.
->   - بإمكان تسمية التعداد أن تكون مختلفة عبر اللغات المفضلة. لا تستخدم **enum2Str** لتحويل نوع التعداد إلى سلسله.
->   - يوصي باسم التعداد لأنه ثابت. يمكن استخدام **enum2Symbol** لتحويل التعداد إلى اسمه. يجب أن تكون قيمة التعداد المضافة في تكوين الضريبة مماثلة تمامًا لاسم التعداد.
+>   - بإمكان تسمية التعداد أن تكون مختلفة عبر اللغات المفضلة. بإمكان **enum2Str()** تحويل قيمة التعداد إلى تسميته.
 
 ## <a name="model-dependency"></a>تبعية النموذج
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

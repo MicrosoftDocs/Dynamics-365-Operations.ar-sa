@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533701"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644291"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>استحقاق خطط الإجازة والغياب
 
@@ -105,8 +105,10 @@ ms.locfileid: "8533701"
 يظهر الخيار **تدقيق استحقاق الإجازة** في كل مره تقوم فيها بتشغيل أو حذف استحقاق لموظف أو لعدة موظفين. يظهر أيضًا التاريخ والشخص الذي قام بتنفيذ الإجراء.
 
 1. في صفحة **‏‫الإجازة والغياب‬** حدد علامة التبويب **الارتباطات**.
-
 2. ضمن **إدارة الإجازة**، حدد **حذف تدقيق استحقاق الإجازة**.
+
+## <a name="leave-accrual-rounding"></a>تقريب استحقاق الإجازة‬
+عند تسجيل أحد الموظفين أو إلغاء تسجيله، يتم حساب تقريب استحقاق الإجازة‬ بشكل نسبي. في السابق، كان التقريب مسموحًا فقط عندما يتم تعيين خطة إجازة لحسابها بالتناسب، وكان الموظف مسجلاً / غير مسجل خلال منتصف الفترة. سيتم الآن تقريب استحقاقات الإجازة بغض النظر عن التسجيل/إلغاء التسجيل في منتصف الفترة أو في بدايتها.
 
 ## <a name="leave-accrual-transaction-auditing"></a>تدقيق حركة استحقاقات الإجازة
 

@@ -2,7 +2,7 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Commerce.
 author: josaw
-ms.date: 03/04/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384597"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649065"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 
@@ -32,6 +32,20 @@ ms.locfileid: "8384597"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [التقارير المرجعية التقنية](/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات التمويل والعمليات.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.25 من Commerce
+
+### <a name="modern-point-of-sale-mpos"></a>نقطة البيع الحديثة (MPOS)
+
+سيتم إهمال تطبيق نقطة البيع الحديثة (MPOS) في الإصدار 10.0.25 من Commerce وسيتم استبداله بتطبيق Store Commerce.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تُعد التطبيقات في المتجر حجر الأساس لعرض القناة متعددة الاتجاهات في Dynamics 365 Commerce. نحن نبتكر باستمرار لتوفير تجارب متجر حديثة وذكية، ولزيادة تحديث حلنا نقوم بطرح مجموعات جديدة من التغييرات التي ستحسن بشكل كبير عمليات تكنولوجيا المعلومات وتجارب المستخدم مع تطبيقاتنا الموجودة في المتجر على Windows. يُعد تطبيق Store Commerce الجديد بمثابة ترقية تقنية لتطبيق MPOS. إنه يوفر أداءً محسّنًا وموثوقية محسنة ودعمًا طويل الأجل على نظام Windows الأساسي ويلغي الحاجة إلى إعادة حزم التطبيق مع كل تحديث. |
+| **هل تم الاستبدال بميزة أخرى؟**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
+| **مناطق المنتجات المتأثرة**         | نقطة البيع الحديثة |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | ميزة مهملة: اعتبارًا من الإصدار 10.0.25 من Commerce، ستتم إزالة أداة تثبيت MPOS المشحونة عبر أجهزة LCS الافتراضية (VMs) في أكتوبر 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.21 من Commerce
 
@@ -59,7 +73,7 @@ ms.locfileid: "8384597"
 | **هل تم الاستبدال بميزة أخرى؟**   |  [تنزيل نماذج Retail SDK والحزم المرجعية من GitHub وNuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **مناطق المنتجات المتأثرة**         | Retail SDK |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | مهمل: اعتبارا من الإصدار 10.0.21، سيتم إزالة SDK التي يتم شحنها عبر LCS VMs في أبريل 2023. |
+| **الحالة**                         | مهمل: اعتبارا من الإصدار 10.0.21، سيتم إزالة SDK التي يتم شحنها عبر LCS VMs في أكتوبر 2023. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>حزمة قابلة للنشر بالتجزئة ومثبتات وحدة نقاط البيع والأجهزة المدمجة ومقياس السحاب
 
@@ -92,7 +106,7 @@ ms.locfileid: "8384597"
 | **هل تم الاستبدال بميزة أخرى؟**   | [نقطة البيع - SDK للتعبئة المستقلة](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **مناطق المنتجات المتأثرة**         | توسيع نقطة بيع Dynamics 365 Commerce ونشرها |
 | **خيارات النشر**              | ‏‏الكل |
-| **الحالة**                         | مهمل: اعتبارًا من الإصدار 10.0.21، ستتم إزالة دعم حزم نقاط البيع المدمجة ونموذج الامتداد باستخدام ModernPos.Sln وCloudPOs.sln وPOS.Extensons.csproj في Retail SDK في أبريل 2023. |
+| **الحالة**                         | مهمل: اعتبارًا من الإصدار 10.0.21، ستتم إزالة دعم حزم نقاط البيع المدمجة ونموذج الامتداد باستخدام ModernPos.Sln وCloudPOs.sln وPOS.Extensons.csproj في Retail SDK في أكتوبر 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.17 من Commerce
 

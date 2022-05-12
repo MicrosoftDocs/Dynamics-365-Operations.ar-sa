@@ -2,7 +2,7 @@
 title: قدرات الشبكة
 description: يوضح هذا الموضوع العديد من الميزات الفعالة في عنصر تحكم الشبكة. يجب تمكين ميزة الشبكة الجديدة للوصول إلى هذه القدرات.
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602951"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644337"
 ---
 # <a name="grid-capabilities"></a>قدرات الشبكة
 
@@ -106,7 +106,7 @@ ms.locfileid: "8602951"
 - عدد صفوف البيانات في هذه المجموعة
 - الإجماليات الفرعية لأي عمود تم تكوينه لإظهار الإجماليات
 
-في حالة تمكين [طرق العرض المحفوظة](saved-views.md)، يمكن حفظ هذا التجميع بواسطة التخصيص كجزء من طريقة عرض للوصول السريع في المرة التالية التي تزور فيها الصفحة.
+مع تمكين [طرق العرض المحفوظة](saved-views.md)، يمكنك حفظ التجميع كجزء من طريقه عرض على الصفحات التي تسمح بحفظ الاستعلامات في طرق العرض. على سبيل المثال، تلك التي لديها محددات طرق عرض كبيرة. راجع القسم [تبديل طرق العرض](saved-views.md#switching-between-views) لمزيد من التفاصيل. 
 
 ### <a name="multiple-levels-of-grouping"></a>عدة مستويات من التجميع
 بعد تجميع البيانات حسب عمود واحد، يمكنك تجميع البيانات حسب عمود آخر بتحديد عمود **التجميع حسب هذا** في العمود المطلوب. يمكن تكرار هذه العملية حتى يكون لديك 5 مستويات متداخلة من التجميع، وهو أقصى عمق مدعوم. في هذه المرحلة، لن تتمكن من التجميع حسب أعمدة إضافية.

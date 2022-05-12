@@ -2,7 +2,7 @@
 title: ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
 description: يسرد هذا الموضوع الميزات الجديدة والمتغيرة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487825"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644721"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
 
 [!include [banner](../includes/banner.md)]
 
 يسرد هذا الموضوع الميزات الجديدة والتحسينات والمشكلات المعروفة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20210"></a>الإصدار 2.0.21.0
+
+يقدم هذا الإصدار الميزات الجديدة والإصلاحات والتحسينات التالية:
+
+- تم إصلاح العديد من مشكلات التعطل.
+- تم إصلاح مشكلة حيث كان يتعذر التعرف على بعض الأحرف عند المسح الضوئي أو الكتابة على الصفحة الافتراضية.
+- تم إصلاح مشكلة حيث كان يتم حذف حرفين في المرة الواحدة عند إدخال backspace في الصفحة الافتراضية.
+- تم إصلاح مشكلة حيث كان الحقل **فرز حسب** في صفحة **قائمة العمل** قيمة غير صحيحة لم تتطابق مع ترتيب الفرز الفعلي للبطاقات.
+- تم إصلاح مشكلة حيث كان يظهر تخطيط غير صحيح بعد تغيير حجم اطار التطبيق أثناء التشغيل على Microsoft Windows.
+- تم إصلاح مشكلة حيث كان التمرير في القائمة المنبثقة يؤدي إلى إخفاء بعض عناصر القائمة أو تشويهها.
+- أعيد تصميم صفحة تسجيل الدخول لتمكينها من عرض حقلي اسم المستخدم وكلمة المرور على نفس الصفحة عند تشغيلها على شاشات عرض كبيرة.
+- تم تحسين طريقة تفاعل عناصر التحكم مع الضغط السريع.
+- تمت إضافة طريقة عرض سجل أخطاء في التطبيق
+- تمت إضافة الكثير من تحسينات إمكانية الوصول (سرد محسن وإصلاح عناصر نائبة مفقودة على Android  وتمكين إدخال لوحة المفاتيح لعناصر تحكم شريط التمرير، والمزيد).
 
 ## <a name="version-20200"></a>الإصدار 2.0.20.0
 

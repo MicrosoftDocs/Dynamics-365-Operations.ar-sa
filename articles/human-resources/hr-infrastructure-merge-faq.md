@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c022bb15975a1411230d28067a2225c95c0573bf
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
+ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062715"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661447"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>أسئلة شائعة حول دمج البنية الأساسية لـ Dynamics 365 Human Resources
 
@@ -45,7 +45,7 @@ ms.locfileid: "8062715"
 
 ### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>تستخدم مؤسستي وحدة Human Resources في Dynamics 365 Finance، أو Supply Chain Management، أو Commerce، أو Project Operations. ما هي الفوائد التي سنراها من هذه التغييرات؟
 
-وستكون القدرات والاستثمارات التي تم إجراؤها Dynamics 365 Human Resources متاحة الآن للعملاء الذين يستخدمون وحدة الموارد البشرية في Dynamics 365 Finance. وتشمل بعض هذه القدرات إدارة الإجازات والغياب، وإدارة الاستحقاقات، وإدارة المهام.
+وستكون القدرات والاستثمارات التي تم إجراؤها في Dynamics 365 Human Resources متاحة الآن للعملاء الذين يستخدمون وحدة الموارد البشرية في Dynamics 365 Finance. وتشمل بعض هذه القدرات إدارة الإجازات والغياب، وإدارة الاستحقاقات، وإدارة المهام.
 
 ### <a name="will-i-lose-any-features-or-capabilities-that-i-currently-use"></a>هل سأفقد أي ميزات أو قدرات أستخدمها حاليا؟
 
@@ -225,12 +225,9 @@ ms.locfileid: "8062715"
 
 ### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>تستخدم مؤسستي وحدة Human Resources في Dynamics 365 Finance، أو Supply Chain Management، أو Commerce، أو Project Operations. هل يتغير ترخيصي أو التكلفة؟
 
-يمكن للمستخدمين الحاليين لتطبيقات Dynamics 365 ومستخدمي Dynamics 365 Finance وSupply Chain Management وCommerce وProject Operations الوصول إلى الموارد البشرية كجزء من هذه التراخيص حتى فبراير 2025 أو حتى انتهاء صلاحية اتفاقية الترخيص الحالية ، أيهما أبكر. يمكنك اختيار الانتقال إلى تراخيص الموارد البشرية في وقت سابق إذا كان يساعدك على تحقيق وفورات أفضل في التكاليف. اعتبارًا من فبراير 2025، يجب على جميع عملاء CSP و EA الحاليين إيقاف تشغيل وحدة الموارد البشرية وشراء تراخيص الموارد البشرية للاستفادة من القدرات الجديدة التي يتم إحضارها إلى تطبيقات التمويل والعمليات.
+بإمكان المستخدمين الحاليين لتطبيقات Dynamics 365 ومستخدمي تطبيقات Dynamics 365 Finance وSupply Chain Management وCommerce وProject Operations المستقلة الوصول إلى Human Resources كجزء من هذه التراخيص حتى فبراير 2025 أو حتى انتهاء صلاحية اتفاقية الترخيص الحالية، أيهما أبكر. يمكنك اختيار الانتقال إلى تراخيص الموارد البشرية في وقت سابق إذا كان يساعدك على تحقيق وفورات أفضل في التكاليف. اعتبارًا من فبراير 2025، يجب على جميع عملاء CSP و EA الحاليين إيقاف تشغيل وحدة الموارد البشرية وشراء تراخيص الموارد البشرية للاستفادة من القدرات الجديدة التي يتم إحضارها إلى تطبيقات التمويل والعمليات.
 
-### <a name="my-organization-is-live-with-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-will-we-be-required-to-purchase-an-additional-environment-to-support-the-infrastructure-merge"></a>تستخدم مؤسستي البث المباشر مع  Dynamics 365 Finance، أو Supply Chain Management، أو Commerce، أو Project Operations. هل سيطلب منا شراء بيئة إضافية لدعم دمج البنية الأساسية؟
+### <a name="my-organization-is-live-with-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-will-we-be-required-to-purchase-an-additional-environment-to-support-the-infrastructure-merge"></a>تستخدم مؤسستي البث المباشر مع Dynamics 365 Finance أو Supply Chain Management أو Commerce أو Project Operations. هل سيطلب منا شراء بيئة إضافية لدعم دمج البنية الأساسية؟
 
 لا يلزم توفير بيئات إضافية لدعم تغيير البنية الأساسية.
 
-### <a name="where-should-i-go-if-i-have-additional-questions-about-product-licensing"></a>أين يجب أن أذهب إذا كانت لدي أسئلة إضافية حول ترخيص المنتج؟
-
-إذا كانت لديك أسئلة ترخيص، يمكنك العثور على مزيد من المعلومات حول [Biz Apps Hub - D365 Pricing and Licensing](https://businessapplications.transform.microsoft.com/resources/pricing-and-licensing?tab=grandfathering). إذا لم تساعد هذه المعلومات في المشكلة، افتح طلبا باستخدام LicenseQ.

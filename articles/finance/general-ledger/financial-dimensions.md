@@ -2,7 +2,7 @@
 title: الأبعاد المالية
 description: يصف هذا الموضوع مختلف أنواع الأبعاد المالية وكيفية إعدادها.
 author: aprilolson
-ms.date: 01/03/2019
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d5de5b58f0d498c4766659671d43fdb216cd6a870345509505b5a6bc19bdd4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e667e8dd1282e788eb40cd392baa9db824cec2
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754184"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644328"
 ---
 # <a name="financial-dimensions"></a>الأبعاد المالية
 
@@ -79,8 +79,12 @@ ms.locfileid: "6754184"
 - هل البُعد المالي مستخدم في أي بنية حساب نشطة، أو بنية قاعدة متقدمة، أو مجموعة أبعاد مالية؟
 - هل البُعد المالي عبارة عن جزء من تنسيق تكامل الأبعاد المالية الافتراضية؟
 - هل تم إعداد البُعد كبُعد افتراضي؟
+- هل تم إلغاء تحديد البعد المالي من إعداد Financial Reporting؟ 
 
 إذا تمت تلبية أي واحد من المعايير، فلا يمكنك حذف البُعد المالي.
+
+> [!NOTE]
+> اعتبارًا من الإصدار 10.0.27 من Finance، لن يتم تحديد الأبعاد المالية تلقائيًا لإعداد التقارير المالية عند إنشائها. 
 
 ## <a name="default-dimension-values"></a>قيم البُعد الافتراضي
 

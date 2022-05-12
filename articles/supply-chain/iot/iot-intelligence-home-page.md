@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b6c179052cdb9d1ca808d9cba089163bde0d5d5
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 5c587f4e6a1dd58a7b8c238fc5afb16774828b2a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782671"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644375"
 ---
 # <a name="iot-intelligence-home-page"></a>الصفحة الرئيسية لذكاء IoT
 
@@ -37,32 +37,35 @@ ms.locfileid: "7782671"
 
 يدعم ذكاء IoT السيناريوهات التالية:
 
-+ **عمليات تاخير الإنتاج** - يقارن هذا السيناريو زمن الدورة الفعلي مع وقت الدورة المخطط. تقوم Supply Chain Management باعلامك عندما لا يكون الإنتاج في الجدول الزمني ، بحيث يمكنك التدخل لزيادة كفاءه التشغيل وتجنب تاخير الأمر.
-+ **وقت التوقف للمعدات** – يقارن هذا السيناريو بين وقت الجهاز والمحددات المحددة بواسطة المستخدم. تقوم Supply Chain Management باعلامك عند تجاوز حد قطع العمل ، بحيث يمكنك القيام بإجراءات مثل أعاده جدوله أمر الإنتاج أو إنشاء أمر عمل الصيانة.
-+ **جوده المنتج** – يقارن هذا السيناريو قراءات الاستشعار ، مثل الرطوبة ودرجات الحرارة ، لمقاييس الجودة المحددة من قبل المستخدم. تقوم Supply Chain Management باعلامك عند حدوث انحراف ، بحيث يمكنك التدخل للحفاظ علي معايير الجودة وتقليل المهدورات.
+- **عمليات تاخير الإنتاج** - يقارن هذا السيناريو زمن الدورة الفعلي مع وقت الدورة المخطط. تقوم Supply Chain Management باعلامك عندما لا يكون الإنتاج في الجدول الزمني ، بحيث يمكنك التدخل لزيادة كفاءه التشغيل وتجنب تاخير الأمر.
+- **وقت التوقف للمعدات** – يقارن هذا السيناريو بين وقت الجهاز والمحددات المحددة بواسطة المستخدم. تقوم Supply Chain Management باعلامك عند تجاوز حد قطع العمل ، بحيث يمكنك القيام بإجراءات مثل أعاده جدوله أمر الإنتاج أو إنشاء أمر عمل الصيانة.
+- **جوده المنتج** – يقارن هذا السيناريو قراءات الاستشعار ، مثل الرطوبة ودرجات الحرارة ، لمقاييس الجودة المحددة من قبل المستخدم. تقوم Supply Chain Management باعلامك عند حدوث انحراف ، بحيث يمكنك التدخل للحفاظ علي معايير الجودة وتقليل المهدورات.
 
 يبين الرسم التوضيحي التالي تفاعل مركز Azure IoT وذكاء IoT وSupply Chain Management.
 
 ![مركز IoT وذكاء IoT وSupply Chain Management.](media/iot_intelligence.png)
 
-## <a name="setup"></a>الإعداد
+<!-- KFM: hide setup info for now
 
-يمكنك اعداد ذكاء IoT وتكوينه دون كتابه إيه تعليمه برمجيه. وهذه هي الخطوات الاساسيه.
+## Setup
 
-1. [اعداد موارد Azure](iot-azure-setup.md) – إنشاء مركز IoT وذاكره تخزين مؤقت Redis ومخزن مفتاح يمكن الوصول اليه من Supply Chain Management.
-2. [تنسيقات مخطط الرسائل لمركز IoT](iot-schema-format.md) – قم بتكوين أجهزتك لإرسال رسائل إلى مركز IoT، وتعريف تنسيق الرسالة منهج كائن JavaScript (JSON).
-3. في أداره الميزات ، قم بتمكين علامة الخاصية ذكاء IoT. 
-4. [قم بتثبيت الوظيفة الاضافيه لمركز IoT في Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – ثبت الوظيفة الاضافيه في LCS ، وقم بتكوين اسرار Azure.
-5. [اعداد المقاييس](iot-metrics-setup.md) – اعداد المقاييس في Supply Chain Management.
-6. [اعداد السيناريو](iot-scenario-setup.md) – قم باعداد السيناريوهات في Supply Chain Management.
+You can set up and configure IoT Intelligence without writing any code. Here are the basic steps.
+
+1. [Set up Azure resources](iot-azure-setup.md) – Create an IoT hub, a Redis cache, and a key vault that can be accessed from Supply Chain Management.
+2. [Message schema formats for IoT Hub](iot-schema-format.md) – Configure your devices to send messages to IoT Hub, and define the JavaScript Object Notation (JSON) message format.
+3. In Feature Management, enable the IoT Intelligence feature flag. 
+4. [Install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Install the add-in in LCS, and configure the Azure secrets.
+5. [Set up metrics](iot-metrics-setup.md) – Set up metrics in Supply Chain Management.
+6. [Scenario setup](iot-scenario-setup.md) – Set up the scenarios in Supply Chain Management.
+
+-->
 
 ## <a name="tracking-and-maintenance"></a>التتبع والصيانة
 
-+ [مراقبة السيناريوهات في Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
-+ [تعطيل سيناريو](iot-scenario-setup.md#disable-a-scenario)
-+ [إلغاء تثبيت الوظيفة الإضافية](iot-lcs-setup.md#uninstall-addin)
-+ [تعديل سيناريو ذكاء IoT قيد التشغيل](iot-management.md#modify-a-running-iot-intelligence-scenario)
-+ [خيارات المحاكاة](iot-management.md#simulation-options)
+- [مراقبة السيناريوهات في Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
+- [تعطيل سيناريو](iot-scenario-setup.md#disable-a-scenario)
+- [تعديل سيناريو ذكاء IoT قيد التشغيل](iot-management.md#modify-a-running-iot-intelligence-scenario)
+- [خيارات المحاكاة](iot-management.md#simulation-options)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

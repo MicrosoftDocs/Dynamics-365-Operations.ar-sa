@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781578"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645066"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>تثبيت الوظيفة الإضافية لذكاء IoT في LCS
 
 [!include [banner](../../includes/banner.md)]
 
 يشرح هذه الموضوع تثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS). لاحظ أنه لا يمكن تثبيت الوظائف الإضافية على بيئة عرض/تجريبية. قبل أن تتمكن من تثبيت الوظيفة الإضافية، يجب [إنشاء موارد Azure](iot-azure-setup.md).
+
+يمكنك اعداد ذكاء IoT وتكوينه دون كتابه إيه تعليمه برمجيه. وهذه هي الخطوات الاساسيه.
+
+1. [اعداد موارد Azure](iot-azure-setup.md) – إنشاء مركز IoT وذاكره تخزين مؤقت Redis ومخزن مفتاح يمكن الوصول اليه من Supply Chain Management.
+2. [تنسيقات مخطط الرسائل لمركز IoT](iot-schema-format.md) – قم بتكوين أجهزتك لإرسال رسائل إلى مركز IoT، وتعريف تنسيق الرسالة منهج كائن JavaScript (JSON).
+3. في أداره الميزات ، قم بتمكين علامة الخاصية ذكاء IoT.
+4. قم بتثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS) – قم بتثبيت الوظيفة الإضافية في LCS، وقم بتكوين أسرار Azure (كما ورد في هذا الموضوع).
+5. [اعداد المقاييس](iot-metrics-setup.md) – اعداد المقاييس في Supply Chain Management.
+6. [اعداد السيناريو](iot-scenario-setup.md) – قم باعداد السيناريوهات في Supply Chain Management.
 
 ## <a name="set-up-the-lcs-environment"></a>إعداد بيئة LCS
 

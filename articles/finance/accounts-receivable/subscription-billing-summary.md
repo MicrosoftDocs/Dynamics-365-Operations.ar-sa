@@ -2,7 +2,7 @@
 title: نظرة عامة على فوترة الاشتراك
 description: يصف هذا الموضوع فوترة الاشتراك في Microsoft Dynamics 365 Finance.
 author: JodiChristiansen
-ms.date: 02/09/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462458"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644516"
 ---
 # <a name="subscription-billing-overview"></a>نظرة عامة على فوترة الاشتراك
 
@@ -33,6 +33,8 @@ ms.locfileid: "8462458"
 - **فوترة العقد المتكررة‬‏‫** – تتيح هذه الوحدة الفوترة المتكررة وإدارة الأسعار لتوفير التحكم في معلمات التسعير والفوترة وتجديد العقد والفواتير الموحدة.
 - **تأجيل الإيرادات والمصروفات** – تلغي هذه الوحدة العمليات اليدوية والاعتماد على الأنظمة الخارجية من خلال إدارة الإيرادات وتمكين نظرة ثاقبة في الوقت الفعلي على الإيرادات المتكررة الشهرية.
 - **تخصيص الإيرادات متعدد العناصر** – تساعد هذه الوحدة في الامتثال للإيرادات من خلال التعامل مع التسعير وتخصيص الإيرادات عبر عناصر متعددة.
+
+لمزيد من المعلومات حول فوترة الاشتراك، راجع  [محتوى فوترة الاشتراك في Power BI](sub-bill-power-bi.md).
 
 يتم تمكين فوترة الاشتراك من خلال **إدارة الميزات**. ومع ذلك، لا يمكن استخدامها مع ميزة **إقرار الإيرادات‬**. وبالتالي، يجب تعطيل تلك الميزة قبل تمكين فوترة الاشتراك.
 

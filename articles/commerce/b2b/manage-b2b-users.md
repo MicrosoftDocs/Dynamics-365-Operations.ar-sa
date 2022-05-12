@@ -2,7 +2,7 @@
 title: إدارة مستخدمي شركاء الأعمال على مواقع ويب التجارة الإلكترونية بين الشركات B2B
 description: يوضح هذا الموضوع كيفية إضافة مستخدمي شركاء الأعمال وتحريرهم وحذفهم على مواقع ويب التجارة الإلكترونية بين الشركات (B2B) في Microsoft Dynamics 365 Commerce وفي Commerce Headquarters.
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323445"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616847"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>إدارة مستخدمي شركاء الأعمال على مواقع ويب التجارة الإلكترونية بين الشركات B2B
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323445"
 يوضح هذا الموضوع كيفية إضافة مستخدمي شركاء الأعمال وتحريرهم وحذفهم على مواقع ويب التجارة الإلكترونية بين الشركات (B2B) في Microsoft Dynamics 365 Commerce وفي Commerce Headquarters.
 
 > [!NOTE]
-> يُعد الموضوع [إدارة شركاء الأعمال B2B باستخدام التدرجات الهرمية للعملاء‬](partners-customer-hierarchies.md) متطلبًا أساسيًا لهذا المستند. 
+> - يُعد الموضوع [إدارة شركاء الأعمال B2B باستخدام التدرجات الهرمية للعملاء‬](partners-customer-hierarchies.md) متطلبًا أساسيًا لهذا المستند.
+> - تأكد من تهيئة كيان أنواع المستندات في Commerce Headquarters عن طريق فتح النموذج **أنواع المستندات** من **إدارة المؤسسة \> إدارة المستندات \> أنواع المستندات**.
 
 تتطلب مواقع ويب التجارة الإلكترونية بين الشركات B2B أن تسجل المؤسسات لتصبح أطراف عمل. بعد قيام إحدى المؤسسات بإرسال تفاصيل التسجيل إلى موقع ويب التجارة الإلكترونية بين الشركات (B2B)، يمر طلب التسجيل عبر عملية تأهيل. إذا تم تأهيل المؤسسة بنجاح، فإنه يتم ضمها كشريك عمل.
 

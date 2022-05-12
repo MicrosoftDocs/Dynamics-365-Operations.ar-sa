@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565617"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625351"
 ---
 # <a name="provision-human-resources"></a>تزويد Human Resources
 
@@ -41,7 +41,7 @@ ms.locfileid: "8565617"
 ## <a name="provision-a-human-resources-trial-environment"></a>توفير بيئة الإصدار التجريبي لـ Human Resources
 
 >[!NOTE]
-> اعتبارًا من أبريل 2022، لن تكون البيئات التجريبية للموارد البشرية متاحة في التطبيق المستقل. يمكن للعملاء المحتملين المهتمين بتقييم إمكانات الموارد البشرية في تطبيقات التمويل والعمليات القيام بذلك باستخدام الإصدار التجريبي المجاني لمدة 30 يومًا مع البيانات التجريبية. سيتضمن Dynamics 365 Finance قدرات الموارد البشرية التي تم إحضارها إلى البنية التحتية للمالية من خلال دمج التطبيق المستقل. لمزيد من المعلومات، راجع [يعمل دمج عروض الموارد البشرية على جلب القدرات معًا للعملاء](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) لمزيد من المعلومات حول إصدارات Dynamics 365 Finance، راجع الدليل المفصل خطوة [بخطوة](/fin-ops/get-started/before-you-buy). 
+> اعتبارًا من أبريل 2022، لن تكون البيئات التجريبية للموارد البشرية متاحة في التطبيق المستقل. يمكن للعملاء المحتملين المهتمين بتقييم إمكانات الموارد البشرية في تطبيقات التمويل والعمليات القيام بذلك باستخدام الإصدار التجريبي المجاني لمدة 30 يومًا مع البيانات التجريبية. سيتضمن Dynamics 365 Finance قدرات الموارد البشرية التي تم إحضارها إلى البنية التحتية للمالية من خلال دمج التطبيق المستقل. لمزيد من المعلومات، راجع [يعمل دمج عروض الموارد البشرية على جلب القدرات معًا للعملاء](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) لمزيد من المعلومات حول إصدارات Dynamics 365 Finance، راجع الدليل المفصل خطوة [بخطوة](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 قبل تزويد بيئة وضع حماية أو بيئة التشغيل الأولى لديك، قد ترغب في توفير [بيئة الإصدار التجريبي لـ Human Resources‬](https://go.microsoft.com/fwlink/p/?LinkId=2115962) للتحقق من صحة وظائف Human Resources. تحتوي البيئات التجريبية على بيانات خيالية يمكن استخدامها لاستكشاف البرنامج بطريقة آمنة. على الرغم من أن البيئة التجريبية مملوكة من قبل المستخدم الذي طلبها، إلا أنه يمكن دعوة مستخدمين آخرين من خلال تجربة إدارة النظام لـ Human Resources. 
