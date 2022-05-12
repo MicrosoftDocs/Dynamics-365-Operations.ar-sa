@@ -12,14 +12,12 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في صفحة Commerce الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.27 (يوليو 2022)
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (مايو 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: Commerce 10.0.25 (أبريل 2022)
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: Commerce 10.0.24 (فبراير 2022)
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: Commerce 10.0.23 (يناير 2022)
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -356,11 +354,13 @@
                           href: tax-exempt-price-inclusive.md
                         - name: تكوين ضريبة المبيعات للأوامر عبر الإنترنت
                           href: sales-tax-config.md
-                    - name: إنشاء ملف تعريف الإخطار بالبريد الإلكتروني
+                        - name: إخفاء معلومات التخفيف الضريبي في ملخصات الأوامر
+                          href: hide-taxes-breakup.md
+                    - name: إعداد ملف تعريف الإعلام بالبريد الإلكتروني
                       href: email-notification-profiles.md
                     - name: التسلسلات الرقمية
                       items:
-                        - name: نظرة عامة على التسلسل الرقمي
+                        - name: نظرة عامة على التسلسلات الرقمية
                           href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/retail/toc.json
                         - name: إعداد التسلسلات الرقمية على أساس فردي
                           href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/retail/toc.json
@@ -394,9 +394,9 @@
                       href: dev-itpro/store-commerce.md
                     - name: إرشادات تطبيق إدارة الأجهزة
                       href: implementation-considerations-devices.md
-                    - name: الاختيار بين MPOS وCloud POS
+                    - name: الاختيار بين Store Commerce وCloud POS
                       href: MPOS-or-CPOS.md
-                    - name: عمليات POS أثناء الاتصال وعدم الاتصال
+                    - name: عمليات نقطة البيع (POS) أثناء الاتصال وعدم الاتصال
                       href: pos-operations.md
                     - name: تنشيط جهاز Modern POS مخصص
                       href: dev-itpro/retail-POS-activation-changes.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: إنشاء الأبعاد المالية لقنوات البيع بالتجزئة وتكوين القيم في المتاجر
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: إعداد تسلسلات رقمية لمستندات البيع بالتجزئة
+                  href: retail-statements-number-sequences.md
                 - name: تمكين معالجة وضع التسليم المتسق في قنوات التجارة الإلكترونية
                   href: consistent-delivery-mode-handling.md
             - name: إعداد قناة على الإنترنت
@@ -884,6 +886,8 @@
           items:
             - name: نظرة عامة على كشوف الحساب
               href: retail-statements.md
+            - name: معلمات الترحيل في Commerce
+              href: commerce-posting-parameters.md
             - name: التحقق من صحة حركات المتجر لحساب كشف الحساب
               href: valid-checker.md
             - name: تعطيل القواعد في مدقق التناسق لحركات البيع بالتجزئة
@@ -1100,6 +1104,8 @@
                       href: adventure-works-theme.md
                     - name: تثبيت نسق Adventure Works
                       href: install-adventure-works.md
+                - name: دليل ترجمة Commerce
+                  href: e-commerce-localization-guide.md
             - name: إدارة الأصول الرقمية
               items:
                 - name: نظرة عامة على إدارة الأصول الرقمية
@@ -1310,8 +1316,16 @@
               href: b2b/invoice-management.md
             - name: تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية لمتاجرة عمل-عمل
               href: b2b/payment-method.md
-            - name: تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات
+            - name: تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية B2B
               href: b2b/quantity-limits.md
+            - name: كتالوجات Commerce لمواقع B2B
+              items:
+                - name: إنشاء كتالوجات Commerce لمواقع B2B
+                  href: catalogs-b2b-sites.md
+                - name: تأثير قابلية توسع كتالوجات Commerce لتخصيصات B2B
+                  href: catalogs-b2b-sites-dev.md
+                - name: الأسئلة المتداولة حول كتالوجات Commerce لمواقع B2B
+                  href: catalogs-b2b-sites-FAQ.md
         - name: الرصد والتحليل
           items:
             - name: رصد أداء المبيعات والهامش
@@ -1390,7 +1404,7 @@
                   href: localizations/latam-bra-nfce-cancel-return.md
                 - name: تسجيل مؤجل لمستندات NFC-e التي تم إصدارها في وضع الطوارئ دون اتصال
                   href: localizations/latam-bra-nfce-contingency-mode.md
-                - name: ترحيل المستندات المالية البرازيلية عبر كشوف البيع بالتجزئة في المركز الرئيسي لـ Commerce‬
+                - name: ترحيل المستندات المالية البرازيلية عبر كشوف البيع بالتجزئة في Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
                 - name: وظيفة المستند المالي CF-e والتكامل مع SAT في Commerce POS للبرازيل
                   href: localizations/latam-bra-cf-e-sat.md
@@ -2306,7 +2320,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: التسلسلات الرقمية
               items:
-                - name: نظرة عامة على التسلسل الرقمي
+                - name: نظرة عامة على التسلسلات الرقمية
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: إعداد التسلسلات الرقمية على أساس فردي
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/commerce/toc.json
@@ -2474,15 +2488,19 @@
                       href: dev-itpro/extension-resource-localization.md
             - name: التجارة بدون واجهة أمامية‬
               items:
+                - name: نظرة عامة
+                  items:
+                    - name: مقدمة إلى Commerce Scale Unit (CSU) المحسنة
+                      href: dev-itpro/CSU-core.md
                 - name: واجهات API والمرجع
                   items:
-                    - name: عميل Commerce Scale Unit وواجهات API للمستهلكين
+                    - name: عميل Commerce Scale Unit وواجهات برمجة التطبيقات للمستهلكين
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: استهلاك واجهات API لـ Retail Server في تطبيقات خارجية
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: وكلاء Typescript و#C لـ Retail POS
+                    - name: وكلاء TypeScript و#C لـ Retail POS
                       href: dev-itpro/typescript-proxy-retail-pos.md
-                    - name: بنية وتكوين Commerce Runtime ( CRT)
+                    - name: بنية وتكوين Commerce Runtime (CRT)
                       href: dev-itpro/commerce-runtime-overview.md
                     - name: خدمات Commerce Runtime (CRT)
                       href: dev-itpro/crt-services.md
@@ -2528,6 +2546,8 @@
                       href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: إنشاء الحزم والنشر
                   items:
+                    - name: إنشاء حزمة توسيع Cloud Scale Unit
+                      href: dev-itpro/CSU-packaging.md
                     - name: إزالة ملحقات Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2540,6 +2560,8 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: ترحيل ملحقات نقطة البيع إلى Commerce SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: تصحيح ملحقات Store Commerce باستخدام VS Code
+                      href: dev-itpro/sc-debug.md
                 - name: إعداد البيئة
                   items:
                     - name: بيئة التطوير المحلية
@@ -2610,10 +2632,12 @@
                   items:
                     - name: إنشاء حزمة توسيع MPOS
                       href: dev-itpro/pos-extension/mpos-extension-packaging.md
-                    - name: رمز توقيع حزمة توسيع MPOS ‏(MSIX)
+                    - name: توقيع التعليمات البرمجية رقميًا لحزمة توسيع MPOS ‏(MSIX)
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
-                    - name: إنشاء حزمة توسيع نقطة بيع سحابة
+                    - name: إنشاء حزمة توسيع Cloud POS
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: إنشاء حزمة مثبت ملحق Store Commerce
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: التجارة الإلكترونية
               items:
                 - name: نظرة عامة
@@ -2814,8 +2838,12 @@
                       items:
                         - name: مسجل بيانات تتبع الاستخدام
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce Headquarters
               items:
+                - name: ملحق حزمة CDX
+                  items:
+                    - name: توسيع حزمة CDX الخاصة بالعميل لإضافة بيانات مخصصة
+                      href: dev-itpro/extend-customer-CDX-package.md
                 - name: إنشاء الحزم والنشر
                   items:
                     - name: إنشاء حزم مدفوعات Commerce لنشر التمويل والعمليات
@@ -2896,7 +2924,7 @@
                   href: troubleshoot/restrict-access-storefront.md
                 - name: ارتباط تسجيل الدخول يعيد التوجيه إلى موقع التجارة الإلكترونية
                   href: troubleshoot/sign-in-redirects-back.md
-                - name: لا تظهر سجلات العملاء في المركز الرئيسي لـ Commerce
+                - name: لا تظهر سجلات العملاء في Commerce Headquarters
                   href: troubleshoot/customer-record-not-appearing.md
                 - name: لا يظهر انتقاء هذا الخيار
                   href: troubleshoot/pickup-store-link-missing.md

@@ -12,6 +12,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في صفحة Finance الرئيسية‬
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.27 (يوليو)
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (مايو)
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (أبريل)
@@ -270,7 +272,7 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: ملفات تعريف ترحيل المورد
               href: accounts-payable/vendor-posting-profiles.md
-            - name: تواريخ فواتير الموردين
+            - name: تواريخ فواتير المورّدين
               href: accounts-payable/vendor-invoice-dates.md
             - name: إعادة تقييم العملة الأجنبية للحسابات الدائنة والحسابات المدينة
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
@@ -410,32 +412,38 @@
               items:
                 - name: نظرة عامة على فوترة الاشتراك
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: فوترة العقد المتكرر
+                - name: فوترة العقد المتكررة
                   items:
+                    - name: إعداد فوترة جهة الاتصال المتكررة
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: إنشاء جداول الفوترة
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: نسخ جدول فوترة
                       href: accounts-receivable/sb-copy-schedules-items.md
-                    - name: ميزات جدولة الفوترة
+                    - name: ميزات جدول الفوترة
                       href: accounts-receivable/sb-schedule-billing-features.md
-                    - name: فوترة الأحداث الرئيسية
+                    - name: الفوترة الجزئية
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: تخصيص الإيرادات
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: عملية الدعم والتجديد
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: الإيرادات غير المفوترة
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: جداول فهرس أسعار المستهلك
                       href: accounts-receivable/cpischedules.md
                     - name: إنهاء جداول الفوترة
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: سيناريوهات تاريخ المحاذاة
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: تأجيلات المصروفات والإيرادات
                   items:
                     - name: إعداد تأجيلات المصروفات والإيرادات
                       href: accounts-receivable/sb-deferrals.md
-                    - name: جداول التأجيل
-                      items:
-                        - name: إنشاء جداول التأجيلات
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: الحركات الافتراضية للتأجيلات
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: إنشاء جداول التأجيلات
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: الحركات الافتراضية للتأجيلات
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: تخصيص الإيرادات متعددة العناصر
                   items:
                     - name: إعداد تخصيص الإيرادات متعدد العناصر
@@ -1429,7 +1437,7 @@
                             - name: إعداد موارد Azure للفوترة الإلكترونية
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: إنشاء Azure Key Vault في مدخل Azure
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: إنشاء حساب تخزين Azure في مدخل Azure
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: تكوين اتصال SharePoint
@@ -1460,20 +1468,22 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: المشاركة مع المؤسسات الأخرى
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: لوحة معلومات إدارة الاستخدام
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: معالجة المستندات الإلكترونية الواردة
                           items:
-                            - name: جارٍ معالجة المستندات الإلكترونية الواردة
+                            - name: معالجة المستندات الإلكترونية الواردة
                               href: localizations/e-invoicing-process-incoming-electronic-documents.md
                             - name: تكوين قناة بريد إلكتروني
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: تكوين قناة SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: إعداد الفوترة الإلكترونية واستخدامها في Finance وSupply Chain Management
-                          items:
-                            - name: تنشيط التكامل وإعداده مع الفوترة الإلكترونية
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: إعداد معلمات الفوترة الإلكترونية
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: إعداد الفوترة الإلكترونية واستخدامها في Finance وSupply Chain Management
+                      items:
+                        - name: تنشيط التكامل وإعداده مع الفوترة الإلكترونية
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: إعداد معلمات الفوترة الإلكترونية
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: التعامل مع الفوترة الإلكترونية
                           items:
                             - name: إرسال المستندات الإلكترونية إلى الفوترة الإلكترونية
@@ -1486,12 +1496,6 @@
                       items:
                         - name: توفر ميزات الفوترة الإلكترونية
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: الشروع في العمل مع إدارة خدمة الفوترة الإلكترونية
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: الشروع في العمل مع الفوترة الإلكترونية
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: إنشاء ميزة جديدة للفوترة الإلكترونية
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: الشروع في العمل مع الفوترة الإلكترونية للبرازيل
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: الشروع في العمل مع الفوترة الإلكترونية لمصر
@@ -1502,12 +1506,8 @@
                           href: localizations/e-invoicing-sa-get-started.md
                         - name: إعداد التكامل المباشر لميزة FatturaPA الإيطالية باستخدام SDI
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
-                        - name: استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير الموردين
+                        - name: استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير المورّدين
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: إعداد الفوترة الإلكترونية
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: مرجع إدارة المكونات الإضافية لـ Power Platform
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: الأسئلة المتداولة حول الفوترة الإلكترونية
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: حساب الضرائب
@@ -1618,6 +1618,12 @@
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
                         - name: قائمه ميزات الضريبة الفارغة في معلمات حساب الضريبة
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: لا يمكن تحديد كود الضريبة
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: تعذر العثور على نتيجة مطابقة
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: تمكين وضع التصحيح في خدمة حساب الضرائب
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: الأسئلة المتداولة حول حساب الضرائب
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: الضريبة
@@ -3721,10 +3727,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/practice-manager-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: تحليل إنفاق الشراء
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: توظيف
+                - name: التعيين‬
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: أداء الربحية والمبيعات
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: محتوى Power BI لفوترة الاشتراك
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: مدفوعات المورد
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: مقاييس القوى العاملة
@@ -4521,7 +4529,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/finance/toc.json
             - name: التسلسلات الرقمية
               items:
-                - name: نظرة عامة على التسلسل الرقمي
+                - name: نظرة عامة على التسلسلات الرقمية
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/finance/toc.json
                 - name: إعداد التسلسلات الرقمية على أساس فردي
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/finance/toc.json

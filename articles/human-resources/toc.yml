@@ -8,8 +8,10 @@
           items:
             - name: الجديد أو المتغير في تطبيقات التمويل والعمليات
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: الجديد أو المتغير في Human Resources
+            - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
               items:
+                - name: Human Resources 10.0.27 (البنية الأساسية المدمجة)
+                  href: ./get-started/hr-whats-new-changed-10-0-27.md
                 - name: Human Resources 10.0.26 (البنية الأساسية المدمجة)
                   href: ./get-started/hr-whats-new-changed-10-0-26.md
                 - name: Human Resources 10.0.25 (البنية الأساسية المدمجة)
@@ -292,7 +294,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
                 - name: التسلسلات الرقمية
                   items:
-                    - name: نظرة عامة على التسلسل الرقمي
+                    - name: نظرة عامة على التسلسلات الرقمية
                       href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
                     - name: إعداد التسلسلات الرقمية على أساس فردي
                       href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json

@@ -14,6 +14,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.27 (يوليو 2022)
+                  href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.26 (مايو 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.25 (أبريل 2022)
@@ -66,9 +68,11 @@
                   href: data-entities/odata.md
                 - name: تطوير خدمة مخصصة
                   href: data-entities/custom-services.md
+                - name: تتبع طلب الخدمة
+                  href: data-entities/service-request-tracing.md
                 - name: عمليات تكامل متكررة
                   href: data-entities/recurring-integrations.md
-                - name: اختبار الخدمات باستخدام أدوات مساعدة تابعة لجهات خارجية
+                - name: اختبار الخدمات باستخدام أدوات مساعدة تابعة لأطراف خارجية
                   href: data-entities/third-party-service-test.md
             - name: موصل Finance and Operations
               href: data-entities/fin-ops-connector.md
@@ -1714,7 +1718,23 @@
                       href: migration-upgrade/migrate-upgraded-cube-entity-store.md
                     - name: ترقية تخطيط الموازنة
                       href: migration-upgrade/upgrade-budget-planning.md
-            - name: ترحيل بيانات من AX 2009
+                - name: استكشاف أخطاء الترقية وإصلاحها
+                  items:
+                    - name: استكشاف أخطاء بيئات التطوير أثناء الترقية وإصلاحها
+                      href: migration-upgrade/troubleshoot-dev-env.md
+                    - name: استكشاف أخطاء الترقيات في بيئات الخدمة الذاتية وإصلاحها
+                      href: migration-upgrade/troubleshoot-self-service-env.md
+                    - name: استكشاف أخطاء البرامج النصية للترقية PreSync وPostSync وإصلاحها
+                      href: migration-upgrade/pre-post-upgrade-scripts.md
+                - name: عمليات البيئة
+                  items:
+                    - name: ترحيل مرفقات المستندات
+                      href: migration-upgrade/migrate-doc-attachments-ax-2012.md
+                    - name: تنظيف بيانات المصدر للترقية
+                      href: migration-upgrade/clean-up-source-data-upgrade.md
+                    - name: ضغط الجداول في بيئات Dynamics AX 2012
+                      href: migration-upgrade/compress-tables-ax-2012.md
+            - name: ترحيل البيانات من AX 2009
               items:
                 - name: ترحيل البيانات من AX 2009 إلى Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
@@ -2000,3 +2020,5 @@
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../../human-resources/index.md

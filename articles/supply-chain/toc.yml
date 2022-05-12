@@ -10,16 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: الجديد أو المتغير في Supply Chain Management
               items:
-                - name: الجديد أو التغييرات في صفحة Supply Chain Management الرئيسية
+                - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.27 (يوليو 2022)
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (مايو 2022)
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: Supply Chain Management 10.0.25 (أبريل 2022)
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (فبراير 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (يناير 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -298,7 +296,7 @@
                           href: ../finance/localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: معالجة المستندات الإلكترونية الواردة
                           items:
-                            - name: جارٍ معالجة المستندات الإلكترونية الواردة
+                            - name: معالجة المستندات الإلكترونية الواردة
                               href: ../finance/localizations/e-invoicing-process-incoming-electronic-documents.md?toc=/dynamics365/supply-chain/toc.json
                             - name: تكوين قناة بريد إلكتروني
                               href: ../finance/localizations/e-invoicing-configure-email.md?toc=/dynamics365/supply-chain/toc.json
@@ -338,7 +336,7 @@
                           href: ../finance/localizations/e-invoicing-sa-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: إعداد التكامل المباشر لميزة FatturaPA الإيطالية باستخدام SDI
                           href: ../finance/localizations/e-invoicing-ita-fatturapa-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير الموردين
+                        - name: استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير المورّدين
                           href: ../finance/localizations/e-invoicing-get-started-import-vendor-invoices.md?toc=/dynamics365/supply-chain/toc.json
                         - name: إعداد الفوترة الإلكترونية
                           href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
@@ -1725,8 +1723,6 @@
               href: iot/iot-azure-setup.md
             - name: تنسيقات مخطط الرسائل لمركز IoT
               href: iot/iot-schema-format.md
-            - name: تثبيت الوظيفة الإضافية في LCS
-              href: iot/iot-lcs-setup.md
             - name: إعداد القياسات
               href: iot/iot-metrics-setup.md
             - name: إعداد السيناريو
@@ -1967,7 +1963,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: التسلسلات الرقمية
               items:
-                - name: نظرة عامة على التسلسل الرقمي
+                - name: نظرة عامة على التسلسلات الرقمية
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إعداد التسلسلات الرقمية على أساس فردي
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج
                   href: production-control/production-floor-execution-use.md
+                - name: إظهار أرصدة الإجازة في واجهة تنفيذ صالة الإنتاج
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: تنميط واجهة تنفيذ صالة الإنتاج
                   href: production-control/production-floor-execution-styles.md
                 - name: تخصيص واجهة تنفيذ صالة الإنتاج‬ واستخدامها
