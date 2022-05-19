@@ -48,12 +48,8 @@
               href: dev-tools/version-models-build.md
         - name: تكامل البيانات
           items:
-            - name: التكامل بين تطبيقات Finance and Operations والخدمات التابعة لجهات أخرى
+            - name: التكامل بين تطبيقات التمويل والعمليات والخدمات التابعة لجهات أخرى
               href: data-entities/integration-overview.md
-            - name: التحكم المستند إلى الأولوية
-              hreF: data-entities/priority-based-throttling.md
-            - name: الأسئلة الشائعة حول التحكم المستند إلى الأولوية
-              href: data-entities/throttling-faq.md
             - name: واجهات برمجة تطبيقات تكامل البيانات
               items:
                 - name: واجهة برمجة تطبيقات REST لحزمة إدارة البيانات
@@ -70,10 +66,22 @@
                   href: data-entities/custom-services.md
                 - name: تتبع طلب الخدمة
                   href: data-entities/service-request-tracing.md
-                - name: عمليات تكامل متكررة
+                - name: عمليات التكامل المتكررة
                   href: data-entities/recurring-integrations.md
-                - name: اختبار الخدمات باستخدام أدوات مساعدة تابعة لأطراف خارجية
+                - name: اختبار الخدمات باستخدام أدوات مساعدة تابعة لجهات خارجية
                   href: data-entities/third-party-service-test.md
+            - name: حدود حماية الخدمة
+              items:
+                - name: حدود واجهة برمجة تطبيقات حماية الخدمة
+                  href: data-entities/service-protection-api-limits.md
+                - name: ترتيب أولويات التقييد
+                  href: data-entities/priority-based-throttling.md
+                - name: عمليات إعادة المحاولة
+                  href: data-entities/service-protection-retry-operations.md
+                - name: مراقبة تقييد واجهة برمجة التطبيقات
+                  href: data-entities/service-protection-monitoring.md
+                - name: زيادة خرج واجهة برمجة التطبيقات لأقصى حد
+                  href: data-entities/service-protection-maximizing-api-throughput.md
             - name: موصل Finance and Operations
               href: data-entities/fin-ops-connector.md
             - name: التطوير للتكامل
@@ -394,10 +402,12 @@
                       href: user-interface/client-disconnected.md
                     - name: تكوين الدُفعة فقط وعُقد AOS التفاعلية فقط في عمليات النشر المحلية
                       href: deployment/onprem-batchonly.md
-                    - name: تكوين التوافر العالي لعقد SQL Server Reporting Services ‏(SSRS)
+                    - name: تكوين التوافر العالي لعُقد SQL Server Reporting Services ‏(SSRS)
                       href: deployment/onprem-SSRSHA.md
                     - name: تكوين الوكلاء للبيئات المحلية
                       href: deployment/onprem-reverseproxy.md
+                    - name: تكوين تطبيق التخزين في المستودع لعمليات النشر المحلية
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: تثبيت أجهزة طابعات الشبكة في البيئات المحلية
                       href: analytics/install-network-printer-onprem.md
                     - name: تشخيصات محلية
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: التوسيع والتخصيص والتعاون في التعليمات
                   href: help/contributor-guide.md
-            - name: اعتبارات النشر
+            - name: الخدمات الإقليمية لتطبيقات التمويل والعمليات
               items:
-                - name: خيارات نشر السحابة ذات سيادة والسحابة المحلية لكل من Dynamics 365 Finance وDynamics 365 Supply Chain Management
+                - name: البيانات الجغرافية المحلية
                   href: deployment/deployment-options-geo.md
-                - name: Finance وSupply Chain Management في سحابة القطاع الحكومي (GCC) الأمريكي
+                - name: سحابة القطاع الحكومي (GCC) في الولايات المتحدة‬
                   href: deployment/us-gcc-deployment.md
-                - name: Finance وSupply Chain Management المشغلة بواسطة 21Vianet في الصين
+                - name: مشغل بواسطة 21Vianet في الصين
                   href: deployment/china-local-deployment.md
-                - name: تطبيقات Finance and Operations في فرنسا
-                  href: deployment/france-local-deployment.md
         - name: التطوير والتخصيص
           items:
             - name: تطوير الصفحة الرئيسية وتخصيصها
@@ -559,7 +567,7 @@
                     - name: نظرة عامة على إنشاء نماذج وعناصر نموذج بيانات
                       href: dev-tools/create-data-model-elements.md
                     - name: إرشادات التسمية للملحقات
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: إيقاف تخصيص النموذج وتجاوز الوظائف بخيار أحدث
                       href: dev-tools/lock-models.md
                 - name: تقرير تحليل التخصيص

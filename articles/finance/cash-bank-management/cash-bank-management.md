@@ -1,28 +1,28 @@
 ---
 title: الصفحة الرئيسية لإدارة البنك والنقد
 description: يمكنك استخدام إدارة البنك والنقد للاحتفاظ بالحسابات البنكية الخاصة بالكيان القانوني والمستندات المالية المقترنة بتلك الحسابات البنكية.
-author: roschlom
+author: kfend
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "21941"
 - intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de37cc3df673a672a091ffe90ca543fae77bc9d5
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: cf423c61f4a7ac8648a09c25e30b47ce1b0e3300
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883684"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710714"
 ---
 # <a name="cash-and-bank-management-home-page"></a>الصفحة الرئيسية لإدارة البنك والنقد
 
@@ -89,9 +89,9 @@ ms.locfileid: "7883684"
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار ومعلومات أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) و[Microsoft Dynamics 365 Finance and Operations - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) وفي [Microsoft Dynamics 365 Finance and Operations - مدونة Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics‏ Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
 #### <a name="task-guides"></a>أدلة المهام
 تتوفر تعليمات إضافية كأدلة مهام داخل المالية. وللوصول إلى أدلة المهام، انقر فوق زر "مساعدة" في أي صفحة.

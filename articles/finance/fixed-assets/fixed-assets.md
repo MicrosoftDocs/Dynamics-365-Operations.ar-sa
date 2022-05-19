@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "21481"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674841"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720435"
 ---
 # <a name="fixed-assets-home-page"></a>الصفحة الرئيسية للأصول الثابتة
 
@@ -44,9 +44,9 @@ ms.locfileid: "7674841"
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار ومعلومات أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) و[Microsoft Dynamics 365 Finance and Operations - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) وفي [Microsoft Dynamics 365 Finance and Operations - مدونة Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics‏ Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
 #### <a name="task-guides"></a>أدلة المهام
 تتوفر تعليمات إضافية كأدلة مهام. وللوصول إلى أدلة المهام، انقر فوق زر "مساعدة" في أي صفحة.

@@ -1,25 +1,23 @@
 ---
 title: الأسئلة المتداولة حول إعداد التقارير المالية
 description: يوفر هذا الموضوع إجابات عن بعض الاسئلة المتداولة حول إعداد التقارير المالية.
-author: jiwo
+author: jinniew
 ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: b5e0702864815c630f35e3f5b753ece1cb1daa71
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605269"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722285"
 ---
 # <a name="financial-reporting-faq"></a>الأسئلة المتداولة حول إعداد التقارير المالية
 
@@ -102,9 +100,9 @@ ms.locfileid: "7605269"
 
 وبالمثل، عندما يتم إنشاء التقارير باستخدام ترجمة العملة لحسابات النوع التاريخي، ستكون هناك حسابات إضافية لكل حركة. اعتمادًا على عدد الحسابات، يمكن أن يزيد وقت إنشاء التقرير على الضعف.
 
-## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>ما هي الفترات المقدّرة لتكامل متجر البيانات؟
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>ما الفترات المقدّرة لتكامل متجر البيانات؟
 
-يستخدم Financial Reporter عدد 16 مهمة لنسخ البيانات من Dynamics 365 Finance إلى قاعدة بيانات Financial Reporter. يسرد الجدول التالي هذه المهام الـ 16 ويعرض الفترة التي تحدد عدد مرات تشغيل كل مهمة. لا يمكن تغيير الفترات.
+يستخدم Financial Reporter عدد 16 مهمة لنسخ البيانات من Dynamics 365 Finance إلى قاعدة بيانات Financial Reporter. يسرد الجدول التالي هذه المهام بعدد 16 مهمة ويعرض الفترة التي تحدد عدد مرات تشغيل كل مهمة. لا يمكن تغيير الفترات.
 
 | الاسم                                                       | الفترة | توقيت الفترة |
 |------------------------------------------------------------|----------|-----------------|

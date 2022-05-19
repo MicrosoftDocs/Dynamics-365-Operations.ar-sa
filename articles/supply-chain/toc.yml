@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: شراء Finance + Operations ‏(on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تكوين التخزين في المستودع لعمليات النشر المحلي
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: موارد الوثائق
               items:
                 - name: نظام التعليمات
@@ -2207,7 +2205,7 @@
                   href: procurement/tasks/create-vendor-account.md
                 - name: إنشاء حساب بنكي للمورّد
                   href: procurement/tasks/create-vendor-bank-account.md
-                - name: ملفات تعريف ترحيل المورد
+                - name: ملفات تعريف ترحيل الموردين
                   href: ../finance/accounts-payable/vendor-posting-profiles.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوينات طلب المورّد
                   href: procurement/vendor-request-configurations.md
@@ -3299,9 +3297,9 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: تسجيل أصناف لصنف ممكَّن للتخزين الأساسي باستخدام دفتر يومية وصول الصنف
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: استيراد إشعارات ASN الواردة عبر كيان البيانات V2
-                  href: warehousing/import-asn-v2-data-entity.md
-                - name: توزيع المنتجات من المستودع المستلم حتى المتاجر
+                - name: استيراد إخطارات ASN الواردة عبر كيان البيانات V3
+                  href: warehousing/import-asn-data-entity.md
+                - name: توزيع المنتجات من مستودع الاستلام حتى المتاجر
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: إعداد توجيه موقع لتخزين أمر الشراء
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md

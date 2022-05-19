@@ -1,28 +1,28 @@
 ---
 title: الصفحة الرئيسية للحسابات المدينة
 description: استخدم حسابات مدينة لتعقب فواتير العملاء والمدفوعات الواردة.
-author: roschlom
+author: kfend
 ms.date: 08/18/2017
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "20671"
 - intro-internal
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 946a4e3cab6549af8b6c07248b6889e3b610f27f
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 412b900b5eb9a3a01feb5f4dd67529a5128e52b7
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726932"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711843"
 ---
 # <a name="accounts-receivable-home-page"></a>الصفحة الرئيسية للحسابات المدينة
 
@@ -42,7 +42,7 @@ ms.locfileid: "7726932"
 استخدم الحسابات المدينة لتعقب فواتير العملاء والمدفوعات التي تلقيتها من العملاء. يمكنك إعداد مجموعات العملاء والعملاء وملفات تعريف الترحيل وإشعارات الفائدة وخطابات التحصيل والعمولات والمحددات المتعلقة بالعملاء والتكاليف وعمليات التسليم والوجهات والكمبيالات والأنواع الأخرى من معلومات الحسابات المدينة. 
 
 - [التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي للفواتير ذات النص الحر](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-- [ملفات تعريف ترحيل العميل](customer-posting-profiles.md)
+- [ملفات تعريف ترحيل العملاء](customer-posting-profiles.md)
 - [إعداد بطاقة الائتمان وتفويضها والتقاطها](credit-card-authorizations.md)
 - [إنشاء فاتورة عميل](configure-customer-invoices.md)
 - [إعداد ومعالجة الفواتير المتكررة](set-up-process-recurring-invoices.md)
@@ -83,9 +83,9 @@ ms.locfileid: "7726932"
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وخبار ومعلومات أخرى حول الحسابات المدينة‬ والحلول الأخرى الموجودة على مدونة [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ومدونة الماليات [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).
+يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات المدينة وحلول أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) وفي [Microsoft Dynamics 365 Finance and Operations - مدونة Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-تقدم [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics‏ Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
 #### <a name="task-guides"></a>أدلة المهام
 تتوفر تعليمات إضافية كأدلة مهام داخل التطبيق. وللوصول إلى أدلة المهام، انقر فوق زر "مساعدة" في أي صفحة.

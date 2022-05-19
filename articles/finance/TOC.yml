@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: شراء Finance + Operations ‏(on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: تكوين التخزين في المستودع لعمليات النشر المحلي
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: موارد الوثائق
               items:
                 - name: نظام التعليمات
@@ -270,8 +268,10 @@
                   href: accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: البحث أو حل الاستثناءات
                   href: accounts-payable/tasks/research-resolve-exceptions.md
-            - name: ملفات تعريف ترحيل المورد
+            - name: ملفات تعريف ترحيل الموردين
               href: accounts-payable/vendor-posting-profiles.md
+            - name: إنشاء أكواد المصاريف
+              href: accounts-receivable/create-charges-codes.md
             - name: تواريخ فواتير المورّدين
               href: accounts-payable/vendor-invoice-dates.md
             - name: إعادة تقييم العملة الأجنبية للحسابات الدائنة والحسابات المدينة
@@ -288,10 +288,12 @@
               href: accounts-payable/royalty-contract.md
             - name: الإشارة إلى الفواتير الأصلية في الإشعارات الدائنة (فواتير المورّد)
               href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
-            - name: الدفعات والتسويات
+            - name: المدفوعات والتسويات
               items:
-                - name: الدفعات المركزية للحسابات الدائنة
+                - name: المدفوعات المركزية للحسابات الدائنة
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: إعداد المدفوعات الوسيطة ومعالجتها‬‏‫
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: تكوين التسوية
                   href: cash-bank-management/configure-settlement.md
                 - name: تسوية المبلغ المتبقي
@@ -344,7 +346,7 @@
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: معلومات دفع العميل (معاينة)
               href: accounts-receivable/payment-insights-overview.md
-            - name: ملفات تعريف ترحيل العميل
+            - name: ملفات تعريف ترحيل العملاء
               href: accounts-receivable/customer-posting-profiles.md
             - name: نسخ العملاء باستخدام تسلسلات رقمية مشتركة
               href: accounts-receivable/copy-customer.md
@@ -354,8 +356,12 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: التوزيعات المحاسبية وإدخالات دفتر اليومية بدفتر الأستاذ الفرعي للفواتير ذات النص الحر
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
-            - name: ملفات تعريف ترحيل العميل
+            - name: ترحيل الحسابات المدينة
+              href: general-ledger/accts-recvble-posting.md
+            - name: ملفات تعريف ترحيل العملاء
               href: accounts-receivable/customer-posting-profiles.md
+            - name: إنشاء أكواد المصاريف
+              href: accounts-receivable/create-charges-codes.md
             - name: نظرة عامة على دين سيبا المباشر
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: إعداد تفويض الخصم المباشر عن طريق سيبا‬
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: سيناريوهات تاريخ المحاذاة
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: تقسيم الإيرادات
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: تأجيلات المصروفات والإيرادات
                   items:
                     - name: إعداد تأجيلات المصروفات والإيرادات
@@ -448,11 +456,13 @@
                   items:
                     - name: إعداد تخصيص الإيرادات متعدد العناصر
                       href: accounts-receivable/sb-rev-alloc-setup.md
-            - name: الدفعات والتسويات
+            - name: المدفوعات والتسويات
               items:
-                - name: نظرة عامة على دفعات العملاء
+                - name: نظرة عامة على مدفوعات العملاء
                   href: cash-bank-management/tasks/customer-payment-overview.md
-                - name: الدفعات المركزية للحسابات المدينة
+                - name: إعداد المدفوعات الوسيطة ومعالجتها‬‏‫
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
+                - name: المدفوعات المركزية للحسابات المدينة
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: إيداع مدفوعات العميل
                   href: accounts-receivable/tasks/deposit-customer-payments.md
@@ -634,7 +644,7 @@
               href: cash-bank-management/tasks/settle-postdated-check-customer.md
             - name: تسوية شيك بتاريخ لاحق لمورد
               href: cash-bank-management/tasks/settle-postdated-check-vendor.md
-            - name: إنشاء شيكات بالحالة فارغ
+            - name: إنشاء شيكات بالحالة "فارغ"
               href: cash-bank-management/create-check-with-blank-status.md
             - name: فواتير الدفع المسبق مقابل الدفعات المقدمة
               href: accounts-payable/prepayments-invoices-vs-prepayments.md
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: العملة المزدوجة
                       href: general-ledger/dual-currency.md
+                - name: ملفات تعريف الترحيل
+                  items:
+                    - name: نظرة عامة على ملفات تعريف الترحيل
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: الممارسات الموصى بها لملفات تعريف الترحيل
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: حسابات الحركات التلقائية
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: قواعد التوزيع
                   items:
                     - name: قواعد توزيع دفتر الأستاذ

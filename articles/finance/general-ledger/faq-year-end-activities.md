@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kweekley
+ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
-ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
+ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947252"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725585"
 ---
 # <a name="year-end-activities-faq"></a>الأسئلة المتداولة حول الأنشطة في نهاية السنة 
 
@@ -168,11 +168,11 @@ ms.locfileid: "7947252"
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>الحسابات الدائنة: 1099 – إنشاء معاملات 1099 يدويًا
 قد تحتاج المؤسسة إلى إنشاء معاملات 1099 غير مقترنة بالفاتورة يدويًا. يمكنك إضافة معاملات 1099 اليدوية من خلال الانتقال إلى **الحسابات الدائنة > المهام الدورية > الضريبة 1099 > تسوية المورد لمبالغ 1099**. حدد الزر **معاملات 1099 اليدوية**. 
 
-لا يتم تحديث معاملات 1099 التي تم إنشاؤها يدويًا باستخدام عملية **تحديث الكل** أو **عملية إعادة حساب مبالغ 1099 الموجودة** في الأداة المساعدة **تحديث 1099**.
+لا يتم تحديث حركات 1099 التي تم إنشاؤها يدويًا باستخدام عملية **تحديث الكل** أو **عملية إعادة حساب مبالغ 1099 الموجودة** في الأداة المساعدة **تحديث 1099**.
 
 ## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>الحسابات الدائنة: 1099 – هل يدعم Dynamics 365 Finance نموذج 1096؟ 
 
-لا يقوم Dynamics 365 Finance بطباعة التلخيص السنوي 1096 ونموذج إحالة إقرارات المعلومات الأمريكي.
+لا يقوم Dynamics 365 Finance بطباعة الملخص السنوي 1096 ونموذج إحالة إقرارات المعلومات الأمريكي.
 
 ## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>الحسابات الدائنة: 1099 – هل هناك أية ميزات جديدة تدعم تقرير 1099 للقطاع العام؟ 
 تمت إضافة ميزة جديدة للقطاع العام، وهي **تحديث معلومات 1099 بواسطة الحساب الرئيسي** والتي يمكن تفعيلها في مساحة العمل **إدارة المميزات**. تتيح لك هذه الميزة ربط قيم 1099 الخاصة بمورد بالحساب الرئيسي في التوزيع المحاسبي، بدلاً من الحساب الافتراضي في سجل المورد.
