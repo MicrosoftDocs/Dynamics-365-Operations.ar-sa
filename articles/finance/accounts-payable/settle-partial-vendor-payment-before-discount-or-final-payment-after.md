@@ -1,6 +1,6 @@
 ---
 title: تسوية دفع جزئي لمورد قبل تاريخ الخصم ودفعة نهائية بعد تاريخ الخصم
-description: ترشدك هذه المقالة من خلال سيناريو حيث يتم تسديد دفعات جزئية متعددة، بعضها ضمن فترة الخصم النقدي والبعض الآخر خارج فترة الخصم النقدي.
+description: ينقلك هذا الموضوع من خلال سيناريو حيث يتم تسديد دفعات جزئية متعددة، بعضها ضمن فترة الخصم النقدي والبعض الآخر خارج فترة الخصم النقدي.
 author: abruer
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 693339929bbdbc960afc2a5e63b3a3864bfd3ca19cd2dbc992de776836b17e50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7331b4b2ad48cfa380497336d4ac22c8723568b5
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737127"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716736"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>تسوية دفع جزئي لمورد قبل تاريخ الخصم ودفعة نهائية بعد تاريخ الخصم
 
 [!include [banner](../includes/banner.md)]
 
-ترشدك هذه المقالة من خلال سيناريو حيث يتم تسديد دفعات جزئية متعددة، بعضها ضمن فترة الخصم النقدي والبعض الآخر خارج فترة الخصم النقدي.
+ينقلك هذا الموضوع من خلال سيناريو حيث يتم تسديد دفعات جزئية متعددة، بعضها ضمن فترة الخصم النقدي والبعض الآخر خارج فترة الخصم النقدي.
 
 ‏‫تشتري شركة الاتحاد للتصنيع السلع من المورد 3057. وتتلقى هذه الشركة خصمًا نقديًا بنسبة 1 في المائة، إذا تم دفع الفاتورة في غضون 14 يومًا.‬ ويجب دفع الفواتير في غضون 30 يومًا. كما يتيح المورد لشركة الاتحاد للتصنيع الحصول على الخصومات النقدية على دفعات جزئية. وتوجد معلمات التسوية في صفحة **معلمات الحسابات الدائنة**.
 

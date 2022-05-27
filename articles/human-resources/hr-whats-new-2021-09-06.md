@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2add53b4b014cb65caacff03bf175078d2b70d8f
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485897"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690571"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 6 سبتمبر، 2021
 
@@ -77,7 +76,7 @@ ms.locfileid: "7485897"
 
 | الميزة | تفاصيل |
 |---|---|
-| Platform update 10.0.21 (45) | من المقرر أن يبدأ طرح تحديث النظام الأساسي 10.0.21 مع إصدار الخدمة في 4 أكتوبر 2021. لمزيد من المعلومات، راجع [تحديثات النظام الأساسي للإصدار 10.0.21 من تطبيقات Finance and Operations (أكتوبر 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Platform update 10.0.21 (45) | من المقرر أن يبدأ طرح تحديث النظام الأساسي 10.0.21 مع إصدار الخدمة في 4 أكتوبر 2021. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.21 من تطبيقات التمويل والعمليات (أكتوبر 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 | بيان المزايا | بيان المزايا لعرض اختيارات المزايا الحالية للموظف. لمزيد من المعلومات، راجع [بيان المزايا](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/benefits-summary-statement) في مستند موجة الإصدار |
 
 ## <a name="see-also"></a>راجع أيضًا

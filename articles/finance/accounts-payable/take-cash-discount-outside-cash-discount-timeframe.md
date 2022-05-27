@@ -1,6 +1,6 @@
 ---
 title: الحصول على خصم نقدي خارج فترة الخصم النقدي
-description: توفر هذه المقالة سيناريوهين يظهران كيف يمكن أخذ خصم نقدي حتى لو تم إجراء الدفع خارج فترة الخصم النقدي.
+description: يوفر هذا الموضوع سيناريوهين يظهران كيف يمكن أخذ خصم نقدي حتى لو تم إجراء الدفع خارج فترة الخصم النقدي.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14301
 ms.assetid: bad10b7f-e550-4742-9261-8a094c9c624d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9ba9c8176571a8b97b43565c89f8614bd828b3d9e1498a248fd896069d5d5c2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: daafa71dcbe46302fd7b9e8ab068d98e4925fc04
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736968"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716568"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>الحصول على خصم نقدي خارج فترة الخصم النقدي
 
 [!include [banner](../includes/banner.md)]
 
-توفر هذه المقالة سيناريوهين يظهران كيف يمكن أخذ خصم نقدي حتى لو تم إجراء الدفع خارج فترة الخصم النقدي.
+يوفر هذا الموضوع سيناريوهين يظهران كيف يمكن أخذ خصم نقدي حتى لو تم إجراء الدفع خارج فترة الخصم النقدي.
 
 في 28 حزيران/يونيو، تقوم فوزية بإنشاء فاتورة بمبلغ 2,000.00 للمورد 3052. وتشمل الفاتورة خصمًا نقديًا قدره 1 في المائة، إذا تم دفع الفاتورة في غضون 14 يومًا.‬
 

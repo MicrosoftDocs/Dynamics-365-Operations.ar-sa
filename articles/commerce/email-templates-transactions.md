@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919491"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722509"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>إنشاء قوالب بريد إلكتروني لأحداث المعاملات
 
@@ -64,8 +64,8 @@ ms.locfileid: "7919491"
 | ------------------- | ------- |
 | `pickupstorename`     | اسم المتجر الذي يتوفر فيه الأمر للالتقاط. |
 | `pickupstoreaddress`  | عنوان المتجر الذي يتوفر فيه الأمر للالتقاط. |
-| `pickupstorehourfrom` | الساعة الافتتاحية لمخزن التقاط. |
-| `pickupstorehourto`   | ساعة الإغلاق لمخزن التقاط. |
+| `pickupstoreopenfrom` | الساعة الافتتاحية لمخزن التقاط. |
+| `pickupstoreopento` | ساعة الإغلاق لمخزن التقاط. |
 | `pickupchannelid`     | معرف قناه المتجر الخاص بمخزن التقاط. |
 | `packingslipid`      | معرف إيصال التعبئة للأمر الذي سيتم انتقاؤه. |
 | `confirmationid`      | معرف تأكيد الأمر للأمر الذي سيتم انتقاؤه. (يتم أحيانا الاشاره إلى هذا المعرف علي انه معرف مرجع القناة.) |
@@ -102,7 +102,7 @@ ms.locfileid: "7919491"
 | اسم العنصر النائب      | الاستخدام |
 | --------------------- | ------- |
 | `giftcardnumber`        | رقم بطاقة الهدايا، للمنتجات الخاصة بنوع بطاقة الهدايا. |
-| `giftcardbalance`       | رصيد بطاقة الهدايا، للمنتجات الخاصة بنوع بطاقة الهدايا. |
+| `availablebalance` | الرصيد المتبقي في بطاقة الهدايا. |
 | `giftcardmessage`       | رسالة بطاقة الهدايا، للمنتجات الخاصة بنوع بطاقة الهدايا. |
 | `giftcardpin`         | رقم التعريف الشخصي (PIN) لبطاقة الهدايا، للمنتجات الخاصة بنوع بطاقة الهدايا. (هذا العنصر النائب خاص ببطاقات الهدايا الخارجية.) |
 | `giftcardexpiration`    | تاريخ انتهاء الصلاحية لبطاقة الهدايا، للمنتجات الخاصة بنوع بطاقة الهدايا. (هذا العنصر النائب خاص ببطاقات الهدايا الخارجية.) |

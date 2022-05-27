@@ -2,20 +2,20 @@
 title: حزمة تنسيق تطبيق الكتابة المزدوجة المنفصلة
 description: لم تعد حزمة تنسيق تطبيق الكتابة المزدوجة حزمة واحدة ولكن تم تقسيمها إلى حزم أصغر. يشرح هذا المقال الحلول والخرائط التي تحتوي عليها كل حزمه وتبعيتها علي الحزم الأخرى.
 author: RamaKrishnamoorthy
-ms.date: 11/29/2021
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063252"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716541"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>حزمة تنسيق تطبيق الكتابة المزدوجة المنفصلة
 
@@ -26,19 +26,19 @@ ms.locfileid: "8063252"
 في السابق، كانت حزمة تنسيق تطبيق الكتابة المزدوجة عبارة عن حزمة واحدة تحتوي على الحلول التالية:
 
 - ملاحظات حول Dynamics 365
-- نقطة الارتساء العامة لتطبيقات التمويل والعمليات في Dynamics 365
-- خرائط كيانات الكتابة المزدوجة في تطبيقات التمويل والعمليات في Dynamics 365
+- نقطة الارتساء العامة في Dynamics 365 Finance and Operations
+- خرائط كيانات الكتابة المزدوجة في Dynamics 365 Finance and Operations
 - تطبيق إدارة أصول Dynamics 365
 - إدارة أصول Dynamics 365
 - عام HCM
 - سلسلة توريد Dynamics 365 الموسعة
 - Dynamics 365 Finance Extended
-- النقطة العامة لتطبيقات التمويل والعمليات في Dynamics 365
+- نقطة الارتساء العامة في Dynamics 365 Finance and Operations
 - شركة Dynamics 365
 - أسعار صرف العملات
 - Field Service Common
 
-نظرًا لأنها كانت حزمة واحدة، خلقت هذه الحزمة حالة "الكل أو لا شيء" للعملاء. ومع ذلك، أصبحت Microsoft الآن تفصلها إلى حزم أصغر. لذلك، يمكن للعميل تحديد الحزم الخاصة بالحلول التي يحتاجونها فقط. على سبيل المثال، إذا كنت عميل Microsoft Dynamics 365 Supply Chain Management، ولا تحتاج إلى التكامل مع Dynamics 365 Human Resources والملاحظات وإدارة الأصول، فيمكنك استبعاد تلك الحلول من الحلول التي تم تثبيتها. وبما ان الحلول الاساسيه للأسماء والناشر وإصدارات الخريطة تبقي كما هي، فان هذا التغيير لا يتم كسره. تتم ترقيه عمليات التثبيت الموجودة.
+نظرًا لأنها كانت حزمة واحدة، خلقت هذه الحزمة حالة "الكل أو لا شيء" للعملاء. ومع ذلك، أصبحت Microsoft الآن تفصلها إلى حزم أصغر. وبالتالي، بإمكان العملاء تحديد الحزم الخاصة بالحلول التي يحتاجونها فقط. على سبيل المثال، إذا كنت عميل Microsoft Dynamics 365 Supply Chain Management، ولا تحتاج إلى التكامل مع Dynamics 365 Human Resources والملاحظات وإدارة الأصول، فيمكنك استبعاد تلك الحلول من الحلول التي تم تثبيتها. وبما ان الحلول الاساسيه للأسماء والناشر وإصدارات الخريطة تبقي كما هي، فان هذا التغيير لا يتم كسره. تتم ترقيه عمليات التثبيت الموجودة.
 
 ![حزمه مفصوله.](media/separated-package-1.png)
 
@@ -51,7 +51,7 @@ ms.locfileid: "8063252"
 | اسم فريد                           | الاسم المعروض                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | شركة Dynamics 365                       |
-| Dynamics365FinanceAndOperationsCommon | النقطة العامة لتطبيقات التمويل والعمليات في Dynamics 365 |
+| Dynamics365FinanceAndOperationsCommon | نقطة الارتساء العامة في Dynamics 365 Finance and Operations |
 | CurrencyExchangeRates                 | أسعار صرف العملات                    |
 | msdyn_DualWriteAppCoreMaps            | خرائط الكيانات الأساسية لتطبيقات الكتابة المزدوجة   |
 | msdyn_DualWriteAppCoreAnchor          | نقطة الارتساء الأساسية لتطبيقات الكتابة المزدوجة        |
@@ -191,9 +191,9 @@ ms.locfileid: "8063252"
 | اسم فريد                            | الاسم المعروض                               |
 |----------------------------------------|-------------------------------------------|
 | Dynamics365FinanceExtended             | Dynamics 365 Finance Extended             |
-| msdyn_Dynamics365FinanceExtendedMaps   | تعيينات الكيانات الموسعة في Dynamics 365 Finance |
+| msdyn_Dynamics365FinanceExtendedMaps   | خرائط الكيانات في ‬‏‫Dynamics 365 Finance Extended |
 | FieldServiceCommon                     | Field Service Common                      |
-| msdyn_Dynamics365FinanceExtendedAnchor | نقطة الارتساء الموسعة في Dynamics 365 Finance      |
+| msdyn_Dynamics365FinanceExtendedAnchor | نقطة الارتساء في Dynamics 365 Finance Extended      |
 
 الخرائط التالية متوفرة في هذه الحزمة.
 
@@ -300,3 +300,47 @@ ms.locfileid: "8063252"
 - حزمة سلسلة توريد الكتابة المزدوجة
 - حزمة إدارة أصول الكتابة المزدوجة
 - حزمة الموارد البشرية للكتابة المزدوجة
+
+## <a name="dual-write-party-and-global-address-book-solutions"></a>حلول الكتابة المزدوجة للطرف ودفتر العناوين العمومي
+
+تحتوي حزمة حلول الكتابة المزدوجة للطرف ودفتر العناوين العمومي على الحلول والخرائط التالية المطلوبة لمزامنة بيانات الطرف ودفتر العناوين العمومي. 
+
+| اسم فريد                       | الاسم المعروض                            |
+|-----------------------------------|-----------------------------------------|
+| الطرف                             | الطرف                                   |
+| Dynamics365GABExtended            | دفتر العناوين الموسع في Dynamics 365               |
+| Dynamics365GABDualWriteEntityMaps | خرائط كيانات الكتابة المزدوجة في دفتر العناوين العمومي في Dynamics 365 |
+| Dynamics365GABParty_Anchor        | الطرف ودفتر العناوين العمومي في Dynamics 365              |
+
+الخرائط التالية متوفرة في هذه الحزمة.
+
+| تطبيقات التمويل والعمليات | تطبيقات Customer Engagement | 
+|-----------------------------|--------------------------|
+| أطراف CDS | msdyn_parties | 
+| مواقع العناوين البريدية لـ CDS | msdyn_postaladdresscollections | 
+| سجل العناوين البريدية لـ CDS الإصدار V2 | msdyn_postaladdresses | 
+| مواقع العناوين البريدية لطرف CDS | msdyn_partypostaladdresses | 
+| جهات اتصال الأطراف V3 | msdyn_partyelectronicaddresses | 
+| العملاء V3 | الحسابات | 
+| العملاء V3 | جهات الاتصال | 
+| موردو V2 | msdyn_vendors | 
+| ألقاب جهات الاتصال | msdyn_salescontactpersontitles | 
+| الختامات الإطرائية | msdyn_complimentaryclosings | 
+| التحيات | msdyn_salutations | 
+| أدوار صنع القرار | msdyn_decisionmakingroles | 
+| مهام وظائف التوظيف | msdyn_employmentjobfunctions | 
+| مستويات الولاء | msdyn_loyaltylevels | 
+| أنواع الخصائص الشخصية | msdyn_personalcharactertypes | 
+| جهات الاتصال V2 | msdyn_contactforparties | 
+| رأس عرض أسعار مبيعات CDS | الأسعار | 
+| رؤوس أوامر مبيعات CDS | salesorders | 
+| رؤوس فواتير المبيعات V2 | الفواتير | 
+| أدوار عناوين CDS | msdyn_addressroles |
+
+**معلومات التبعية**
+
+تعتمد حلول الكتابة المزدوجة للطرف ودفتر العناوين العمومي على الحزم الثلاث التالية. لذلك، يجب عليك تثبيت هذه الحزم قبل تثبيت حزمة حلول الكتابة المزدوجة للطرف ودفتر العناوين العمومي‬‏‫.
+
+- حزمة أساس تطبيق الكتابة المزدوجة
+- حزمة Finance للكتابة المزدوجة
+- حزمة سلسلة توريد الكتابة المزدوجة

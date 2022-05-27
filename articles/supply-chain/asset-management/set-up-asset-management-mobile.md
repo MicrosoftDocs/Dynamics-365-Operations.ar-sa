@@ -1,6 +1,6 @@
 ---
 title: إعداد مساحة العمل المحمولة للأصل
-description: يوضح هذا الموضوع كيفيه إعداد Microsoft Dynamics 365 Supply Chain ManagementFinance and Operations وتطبيق الاجهزه المحمولة (Dynamics 365) لتشغيل مساحة عمل متنقلة لأداره الأصول يمكن للعاملين استخدامها لأداء مهام أداره الأصول.
+description: يوضح هذا الموضوع كيفيه إعداد Microsoft Dynamics 365 Supply Chain Management وتطبيق Finance and Operations‏ (Dynamics 365) للأجهزة المحمولة لتشغيل مساحة العمل المتنقلة "إدارة الأصول" التي يمكن للعاملين استخدامها لأداء مهام أداره الأصول.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5d628f99d4fc6788ddb38590c65decb871d49f93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572183"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693489"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>إعداد مساحة العمل المحمولة للأصل
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفيه إعداد Microsoft Dynamics 365 Supply Chain Management وتطبيق الاجهزه المحمولة Finance and Operations (Dynamics 365) لتشغيل مساحة عمل متنقلة **لأداره الأصول** يمكن للعاملين استخدامها لأداء مهام أداره الأصول.
+يوضح هذا الموضوع كيفيه إعداد Microsoft Dynamics 365 Supply Chain Management وتطبيق Finance and Operations‏ (Dynamics 365) للأجهزة المحمولة لتشغيل مساحة العمل المتنقلة **إدارة الأصول** التي يمكن للعاملين استخدامها لأداء مهام أداره الأصول.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>إعداد مستخدمي عامل الصيانة في Supply Chain Management
 
@@ -42,7 +41,7 @@ ms.locfileid: "7572183"
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>نشر مساحة العمل المحمولة للأصل
 
-لجعل ميزات أداره الأصول Finance and Operations متاحه في تطبيق الاجهزه المحمولة (Dynamics 365)، يجب ان تقوم بنشر مساحة عمل الاجهزه المحمولة **لأداره الأصول**.
+لجعل ميزات أداره الأصول متوفرة في تطبيق Finance and Operations‏ (Dynamics 365) للأجهزة المحمولة، يجب عليك نشر مساحة العمل المتنقلة **إدارة الأصول**.
 
 1. في Supply Chain Management، حدد زر **الإعدادات** (رمز الترس في الزاوية العليا اليسرى)، ثم حدد **تطبيق** الاجهزه المحمولة في القائمة.
 1. في مربع الحوار **أداره تطبيق الاجهزه المحمولة**، ابحث عن تجانب **أداره الأصول**. إذا كان يحتوي علي النص "في بيانات التعريف-لم يتم نشره ، فلم يتم نشر مساحة العمل بعد. إذا كان يحتوي علي النص "في نشر بيانات التعريف"، "مساحة العمل" التي تم نشرها بالفعل ويمكنك تخطي المتبقي من هذا الاجراء.
@@ -51,14 +50,14 @@ ms.locfileid: "7572183"
 
 1. حدد تجانب **أداره الأصول**، ثم حدد **النشر** في شريط الادوات. بعد بضع ثوان، يجب ان تتلقي اعلاما يوضح انه قد تم نشر مساحة العمل بنجاح. بالاضافه إلى ذلك، يجب ان يتغير النص الموجود في التجانب إلى "في نشر بيانات التعريف".
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>تثبيت Finance and Operations تطبيق الاجهزه المحمولة (Dynamics 365) وإعداده
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>تنزيل وتثبيت تطبيق Finance and Operations ‏(Dynamics 365) للأجهزة المحمولة
 
-1. انتقل إلى أحد مخازن التطبيقات التالية لتثبيت **Finance and Operations تطبيق Microsoft (Dynamics 365)** علي جهازك المحمول:
+1. انتقل إلى أحد متاجر التطبيقات التالية لتثبيت **تطبيق Microsoft Finance and Operations ‏(Dynamics 365)** على جهازك المحمول:
 
     - [لأجهزه Google Android](https://go.microsoft.com/fwlink/?linkid=850662)
     - [بالنسبة لأجهزه Apple iOS](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. افتح Finance and Operations تطبيق (Dynamics 365). يجب ان تظهر صفحه تسجيل الدخول. في الحقل **تسجيل الدخول**، ادخل عنوان Url لـ Supply Chain Management، أو حدد عنوان url حديثا في القائمة **البيئات الاخيره**، ثم انقر فوق **الاتصال**.
+1. فتح تطبيق Finance and Operations ‏(Dynamics 365) يجب ان تظهر صفحه تسجيل الدخول. في الحقل **تسجيل الدخول**، ادخل عنوان Url لـ Supply Chain Management، أو حدد عنوان url حديثا في القائمة **البيئات الاخيره**، ثم انقر فوق **الاتصال**.
 
     ![صفحة تسجيل الدخول.](media/mobile-app-sign-in.png "صفحة تسجيل الدخول")
 
@@ -81,7 +80,7 @@ ms.locfileid: "7572183"
 
 لمزيد من المعلومات حول كيفيه العمل مع مساحة عمل الاجهزه المحمولة **لأداره الأصول**، راجع [استخدام مساحة عمل الاجهزه المحمولة لأداره الأصول](asset-management-mobile-workspace.md).
 
-لمزيد من المعلومات حول Finance and Operations تطبيق الاجهزه المحمولة (Dynamics 365)، راجع [الصفحة الرئيسية لتطبيق الاجهزه المحمولة](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+لمزيد من المعلومات حول تطبيق Finance and Operations (‏Dynamics 365) للأجهزة المحمولة، راجع [الصفحة الرئيسية لتطبيق الأجهزة المحمولة](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

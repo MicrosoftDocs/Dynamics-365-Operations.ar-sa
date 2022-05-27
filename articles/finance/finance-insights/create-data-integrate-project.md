@@ -2,7 +2,7 @@
 title: إنشاء مشروع تكامل البيانات
 description: يشرح هذا الموضوع كيفية إنشاء مشروع تكامل البيانات.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107277"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722872"
 ---
 # <a name="create-a-data-integration-project"></a>إنشاء مشروع تكامل البيانات
 
@@ -28,7 +28,7 @@ ms.locfileid: "8107277"
 
 يشرح هذا الموضوع كيفية إنشاء مشروع تكامل البيانات.
 
-1. تسجيل الدخول إلى Microsoft Dynamics 365 Finance.
+1. سجل دخولك إلى Microsoft Dynamics 365 Finance.
 2. انتقل إلى **مساحات العمل \> إدارة البيانات**، وحدد **كيانات البيانات**. انتظر حتى يتم تحديث كافة كيانات البيانات قبل الانتقال إلى الخطوة التالية.
 3. افتح مدخل [Power Apps ](https://make.powerapps.com/)، واتبع الخطوات التالية:
 
@@ -55,11 +55,14 @@ ms.locfileid: "8107277"
 
 5. افتح البيئات [Power Apps ](https://admin.powerapps.com/environments)، واتبع الخطوات التالية:  
 
-    1. إنشاء مشاريع تكامل البيانات للقوالب التالية باستخدام مجموعة الاتصال التي قمت بإنشائها:
+    1. إنشاء مشروع واحد لتكامل البيانات لكل قالب من القوالب التالية باستخدام مجموعة الاتصال التي قمت بإنشائها:
 
         - نتيجة رؤى الدفع للعملاء (CDS إلى Fin and Ops ‏10.0.17+)
         - نتائج السلسلة الزمنية للتدفق النقدي (CDS لـ Fin وOps)
         - نتائج السلسلة الزمنية للموازنة (CDS لـ Fin وOps)
+
+      > [!NOTE]
+      > قد يؤدي إنشاء مشاريع تكامل بيانات متعددة لكل قالب إلى حدوث أخطاء تؤدي إلى حظر التحديثات.
 
     2. قم بتعيين الجدولة المناسبة لكل مشروع.
 

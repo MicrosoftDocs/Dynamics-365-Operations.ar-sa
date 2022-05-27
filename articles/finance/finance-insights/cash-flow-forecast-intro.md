@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 62e30e382d94e4eff73789b3e884c6b81afce6c1
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 2ed6795073b4a013df7a6a8a7a61df2c11525c51
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945819"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710991"
 ---
 # <a name="cash-forecast"></a>التنبؤ بالنقد
 
@@ -43,7 +43,7 @@ ms.locfileid: "7945819"
 ## <a name="details-of-the-cash-flow-forecasts-capability"></a>تفاصيل قدرة تقديرات التدفقات النقدية
 تتضمن ميزة تقديرات التدفقات النقدية الوظائف التالية. 
 
-- يقدم تقديرًا لتدفق النقدية الذكية للتنبؤ من المدى البعيد، باستخدام التنبؤ بالتسلسل الزمني من خلال التكامل التلقائي AI Builder.
+- يقدم تقديرًا لتدفق النقدية الذكية للتنبؤ من المدى البعيد، باستخدام التنبؤ بالتسلسل الزمني من خلال التكامل التلقائي مع AI Builder.
 
 - يتيح لك حفظ موقف أو تنبؤات تدفق نقدي محدد، وتحريرها، ثم مقارنة الأداء المتوقع وقياسه بسهولة إلى البيانات المالية الفعلية.
 
@@ -53,7 +53,7 @@ ms.locfileid: "7945819"
 
 - يتيح لك تصفية الحسابات البنكية المرتبطة بالأبعاد المالية وعرضها.
 
-ستعمل وظيفة تقدير التدفقات في Dynamics 365 Finance على زيادة موظفين المؤسسة لتحويل توقع التدفقات النقدية المعقد والممل والمتكرر إلى عملية بسيطة وتلقائية. يتيح لك التركيز على أهم الأوجه الخاصة بتقدير التدفقات النقدية التركيز على القرارات الهامة للحصول على نتائج الأعمال المطلوبة.
+ستعمل وظيفة تقدير التدفقات في Dynamics 365 Finance على تفعيل عمل مؤسستك لتحويل توقع التدفقات النقدية المعقد والممل والمتكرر إلى عملية بسيطة وتلقائية. يتيح لك التركيز على أهم الأوجه الخاصة بتقدير التدفقات النقدية التركيز على القرارات الهامة للحصول على نتائج الأعمال المطلوبة.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

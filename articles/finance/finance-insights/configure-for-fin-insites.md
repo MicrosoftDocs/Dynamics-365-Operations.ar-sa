@@ -8,35 +8,35 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
-ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
+ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8051360"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710603"
 ---
 # <a name="configuration-for-finance-insights"></a>تكوين Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-يجمع Finance insights بين وظائف من Microsoft Dynamics 365 Finance ووظائف من Dataverse وAzure وAI Builder لتوفير أدوات تنبؤ قوية لمؤسستك. يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights. لإكمال الإجراءات الواردة في هذا الموضوع بنجاح، يجب أن يكون لديك وصول مسؤول النظام ومخصص النظام في [مركز إدارة Power Portal](https://admin.powerplatform.microsoft.com/)، ووصول مسؤول النظام في Dynamics 365 Finance، والوصول لإنشاء البيئات في Microsoft Dynamics ‏Lifecycle Services ‏(LCS).
+يجمع Finance insights بين وظائف من Microsoft Dynamics 365 Finance مع Dataverse وAzure وAI Builder لتوفير أدوات تنبؤ قوية لمؤسستك. يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights. لإكمال الإجراءات الواردة في هذا الموضوع بنجاح، يجب أن يكون لديك وصول مسؤول النظام ومخصص النظام في [مركز إدارة Power Portal](https://admin.powerplatform.microsoft.com/)، ووصول مسؤول النظام في Dynamics 365 Finance والوصول لإنشاء البيئات في Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!NOTE]
-> الإجراءات التالية لإعداد Finance Insights صالحة لإصدارات Dynamics 365 Finance، الإصدار 10.0.21، وإصدار أحدث.
+> الإجراءات التالية لإعداد Finance Insights صالحة للإصدار 10.0.21 والإصدارات الأحدث من Dynamics 365 Finance.
 
 ## <a name="deploy-dynamics-365-finance"></a>نشر Dynamics 365 Finance
 
 اتبع هذه الخطوات لنشر البيئات.
 
-1. في LCS، أنشئ بيئة Dynamics 365 Finance أو قم بتحديثها. تتطلب البيئة تطبيق الإصدار 10.0.21 أو إصدار أحدث.
+1. في LCS، قم بإنشاء أو تحديث بيئة Dynamics 365 Finance. تتطلب البيئة تطبيق الإصدار 10.0.21 أو إصدار أحدث.
 
     > [!NOTE]
     > يجب أن تكون البيئة بيئة عالية التوافر (HA). (يُعرف هذا النوع من البيئة أيضًا ببيئة الطبقة 2). لمزيد من المعلومات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
@@ -50,7 +50,7 @@ ms.locfileid: "8051360"
 تحقق من اكتمال الإعداد التالي:
 
 - لديك حق الوصول بصفة **مسؤول النظام** و **مخصص النظام** في مركز إدارة Power Portal.
-- يتم تطبيق Dynamics 365 Finance أو الترخيص المكافئ على المستخدم الذي يقوم بتثبيت الوظيفة الإضافية في Finance insights.
+- يتم تطبيق ترخيص Dynamics 365 Finance أو ترخيص مكافئ على المستخدم الذي يقوم بتثبيت الوظيفة الإضافية Finance insights.
 
 يتم تسجيل تطبيقات Azure AD التالية في Azure AD.
 
@@ -92,7 +92,7 @@ ms.locfileid: "8051360"
 
 بعد تثبيت الوظيفة الإضافية بنجاح، قد يستغرق الأمر ما يصل إلى ساعة قبل أن تتمكن من تمكين ميزات Finance Insights في مساحة عمل **إدارة الميزات** في Dynamics 365 Finance. إذا كنت لا تريد الانتظار كل هذا الوقت، يمكنك يدويًا تشغيل عملية **التحقق من حالة توفير Insights**. 
 
-1. في Dynamics 365 Finance، انتقل إلى **إدارة النظام \> الإعداد \> التنفيذ التلقائي للعمية**.
+1. في Dynamics 365 Finance.، انتقل إلى **إدارة النظام \> الإعداد \> التنفيذ التلقائي للعملية**.
 2. في علامة التبويب **العمليات الخلفية**، ابحث عن **التحقق من حالة توفير Insights‬‏‫**، وحدد **تحرير**.
 3. قم بتعيين حقل **التنفيذ التالي** إلى 30 دقيقة قبل الوقت الحالي.
 

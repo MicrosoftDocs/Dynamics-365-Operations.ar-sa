@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9552e518855711781c905514cae1cc25d33718c6
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533559"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722230"
 ---
 # <a name="update-process"></a>تحديث العملية
 
@@ -38,7 +37,7 @@ ms.locfileid: "8533559"
 
 يتم تطبيق تحديثات Human Resources على كافة البيئات تلقائيًا. يوفر Human Resources نوعين من الإصدارات:
 
-- **تحديثات الخدمة**: تتم التحديثات كل أسبوعين وتشمل إصلاحات الأخطاء والميزات الجديدة. وتتضمن تحديثات الخدمة أيضًا تحديثا النظام الأساسي المطبقة عند إصدارها. للحصول على فكرة عن وقت إصدار تحديثات النظام الأساسي، راجع [الجدول 3: إصدارات النظام الأساسي](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). تحتوي التحديثات كل أسبوعين على عملية تمهيدية عامة مقسمة عبر مناطق. لمزيد من المعلومات حول التحديثات كل أسبوعين، راجع [راجع ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **تحديثات الخدمة**: تتم التحديثات كل أسبوعين وتشمل إصلاحات الأخطاء والميزات الجديدة. وتتضمن تحديثات الخدمة أيضًا تحديثات النظام الأساسي المطبقة عند إصدارها. لمزيد من المعلومات حول إصدارات النظام الأساسي، راجع [الجديد أو المتغير في تحديثات النظام الأساسي](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). تحتوي التحديثات كل أسبوعين على عملية تمهيدية عامة مقسمة عبر مناطق. لمزيد من المعلومات حول التحديثات كل أسبوعين، راجع [راجع ما هو الجديد أو المتغير في Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     يتم تحديث كافة مراكز بيانات المدعومة كل أسبوعين، ما لم يرد خلاف ذلك. يتم تضمين مناطق الولايات المتحدة الأمريكية وأوروبا والمملكة المتحدة وآسيا وكندا في التحديثات كل أسبوعين. 
 

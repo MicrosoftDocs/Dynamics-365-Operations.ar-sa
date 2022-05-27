@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065031"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717128"
 ---
 # <a name="choose-a-data-integration-technology"></a>اختيار تقنية تكامل بيانات
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065031"
 
 
 
-يقدم هذا الموضوع معلومات للتكامل مع البيانات المدارة بواسطة Dynamics 365 Human Resources. وهو يصف تقنيات تكامل مختلفة لمساعدتك على تحديد أفضل التقنيات التي تناسب احتياجاتك.
+يقدم هذا الموضوع معلومات حول التكامل مع البيانات المدارة بواسطة Dynamics 365 Human Resources. وهو يصف تقنيات تكامل مختلفة لمساعدتك على تحديد أفضل التقنيات التي تناسب احتياجاتك.
 
 ## <a name="data-integration-background"></a>خلفية تكامل البيانات
 
@@ -128,7 +127,7 @@ ms.locfileid: "8065031"
 
 يمكنك استخدام [خدمة موحد البيانات](/powerapps/administrator/data-integrator) لدمج البيانات إلى ومن Dataverse. تسمح لك خدمة موحد البيانات بتحديد مشاريع التكامل ، غالبًا ما تستند إلى قوالب محددة مسبقًا صممها مطورو التطبيقات خصيصًا لتكاملات محددة. يمكن جدولة مشاريع التكامل لتعمل تلقائيًا وفقًا لجدول زمني متكرر أو تشغيلها يدويًا.
 
-تكون مشاريع موحد البيانات مناسبة لعمليات تكامل دُفعات Dataverse. وهي تُمثل خيارًا ممتازًا للتكاملات بين مجموعة تطبيقات Dynamics 365.‬ على سبيل المثال، توفر Microsoft قالب موحد بيانات يمكن استخدامه لدمج البيانات من Human Resources إلى Dynamics 365 Finance. يمكنك معرفة المزيد حول القالب في تكامل [من Dynamics 365 Human Resources إلى Dynamics 365 Finance](hr-admin-integration-finance.md).
+تكون مشاريع موحد البيانات مناسبة لعمليات تكامل دُفعات Dataverse. وهي تُمثل خيارًا ممتازًا للتكاملات بين مجموعة تطبيقات Dynamics 365.‬ على سبيل المثال، توفر Microsoft قالب موحد بيانات يمكن استخدامه لدمج البيانات من Human Resources في Dynamics 365 Finance. يمكنك معرفة المزيد حول القالب في [التكامل من Dynamics 365 Human Resources إلى Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 

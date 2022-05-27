@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735341"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694413"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>ما الجديد والمتغير في Dynamics 365 Human Resources 22 يونيو، 2021
 
@@ -83,7 +82,7 @@ ms.locfileid: "6735341"
 
 | الميزة | تفاصيل |
 | --- | --- |
-| Platform update 10.0.19 (43) | تمت جدولة تحديث النظام الأساسي 10.0.19 بحيث يبدأ نشره مع إصدار الخدمة في 28 يونيو 2021. لمزيد من المعلومات، راجع [تحديثات النظام الأساسي للإصدار 10.0.19 من تطبيقات Finance and Operations (يونيو 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Platform update 10.0.19 (43) | تمت جدولة تحديث النظام الأساسي 10.0.19 بحيث يبدأ نشره مع إصدار الخدمة في 28 يونيو 2021. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.19 من تطبيقات التمويل والعمليات (يونيو 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  تبديل عرض سنوات الخدمة | توفر هذه الميزة الخيار لاستخدام تواريخ مختلفة لحساب سنوات الخدمة المعروضة في النموذج **إدخال الموظف المبسط** وفي النموذج **أشخاص**.  سيتوفر ذلك في معلمات Human Resources. |
 |  تمكين مدير الغياب لإدارة الإجازة | [تمكين مدير الغياب لإدارة الإجازة](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  تفويض المرفقات لأنواع إجازة معينة | تسمح هذه الميزة للمسؤولين بتفويض المرفقات كي تتم اضافتها عند إرسال طلبات الإجازة لأنواع إجازات معينة. |

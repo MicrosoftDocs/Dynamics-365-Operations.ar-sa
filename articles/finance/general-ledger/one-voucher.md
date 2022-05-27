@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344048"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722481"
 ---
 # <a name="one-voucher"></a>إيصال واحد
 
@@ -72,7 +72,7 @@ ms.locfileid: "7344048"
 
 بعد سد كافة الفجوات الوظيفية، ستبلغ Microsoft بأن الميزة سيتم إهمالها. ومع ذلك، لن يكون الإهلاك فعالاً لمدة عام واحد على الأقل من هذا الاتصال. على الرغم من أن Microsoft لا يمكنها توفير تقدير حول وقت إهمال وظيفة الإيصال الواحد، لكن من المحتمل أن تكون على الأقل سنتين قبل حدوث الإهلاك. يتمثل نهج Microsoft في ترك 12 شهرًا على الأقل بين إعلان الوظيفة المهملة والإهلاك الفعلي، حتى يتوفر العملاء وبائعي البرامج المستقلين (ISV) الوقت للتعامل مع التغيير. على سبيل المثال، قد تحتاج المؤسسة إلى تحديث العمليات التجارية والكيانات وعمليات التكامل.
 
-يعتبر الإهلاك الخاص بالإيصال الواحد تغييرًا كبيرًا سيتم الإبلاغ عنه على نطاق واسع. وكجزء من ذلك الاتصال، ستقوم Microsoft بتحديث هذا الموضوع، ونشر مدونة على Microsoft Dynamics 365 Finance، وتحديث الموضوع "الميزات المزالة والمهملة"، والتواصل بشأن التغيير في مؤتمرات Microsoft المناسبة، وما إلى ذلك.
+يعتبر الإهلاك الخاص بالإيصال الواحد تغييرًا كبيرًا سيتم الإبلاغ عنه على نطاق واسع. وكجزء من ذلك الاتصال، ستقوم Microsoft بتحديث هذا الموضوع، ونشر مدونة على Microsoft Dynamics 365 Finance وتحديث الموضوع "الميزات المزالة والمهملة"، والتواصل بشأن التغيير في مؤتمرات Microsoft المناسبة، وما إلى ذلك.
 
 ## <a name="why-use-one-voucher"></a>لماذا نستخدم الإيصال الواحد؟
 

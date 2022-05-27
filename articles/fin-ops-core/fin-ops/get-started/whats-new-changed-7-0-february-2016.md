@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757209"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711309"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>ما الجديد أو المتغير في Dynamics AX 7.0 (فبراير 2016)
 
@@ -969,7 +969,7 @@ u<td>أكواد السلع لنظام جمع المعلومات التجارية
 </tr>
 <tr>
 <td>مراقبة سلامة النظام وتشخيص الأخطاء والمشكلات.</td>
-<td>تتطلب هذه الوظيفة <a href="https://www.microsoft.com/download/details.aspx?id=42636">حزمة إدارة System Center 2012 في Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>تتطلب هذه الوظيفة <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58205">حزمة إدارة System Center 2012 في Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>تتوفر المراقبة والتشخيصات لمكونات البيع بالتجزئة الآن من خلال لوحة معلومات <strong>الرؤى التنفيذية</strong> في LCS.</td>
 <td>لوحة معلومات <strong>الرؤى التنفيذية</strong> عبارة عن مدخل مراقبة مستند إلى مجموعة نظراء ويحل محل الحاجة إلى تثبيت البنية التحتية لإدارة عمليات مركز النظام (SCOM).</td>
 </tr>
@@ -1028,7 +1028,7 @@ u<td>أكواد السلع لنظام جمع المعلومات التجارية
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[الصفحة الرئيسية للجديد أو المتغير‬ في Finance and Operations](whats-new-changed.md)
+[الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md)
 
 [دلائل المهام الجديدة (فبراير 2016)](new-task-guides-available-february-2016.md)
 

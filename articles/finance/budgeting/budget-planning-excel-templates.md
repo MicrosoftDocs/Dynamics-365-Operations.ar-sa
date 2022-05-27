@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775160"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711965"
 ---
 # <a name="budget-planning-templates-for-excel"></a>قوالب تخطيط الموازنة لـ Excel
 
@@ -55,7 +55,7 @@ ms.locfileid: "6775160"
 سوف يحتوي قالب Excel على جميع العناصر من تخطيط مستند خطة الموازنة، عندما يتم تعيين عمود **متوفر في ورقة العمل** على وضع "صواب". لا يسمح بعناصر التداخل في قالب Excel. على سبيل المثال، إذا كان التخطيط يحتوي على أعمدة طلب ربع1، وطلب ربع2، وطلب ربع3 وطلب ربع4، وعمود الطلب الإجمالي والذي يمثل مجموع الأربعة أعمدة الربع سنوية، يتاح استخدام الأعمدة الربع سنوية أو العمود الإجمالي فقط في قالب Excel. يتعذر على ملف Excel تحديث أعمدة التداخل أثناء التحديث لأن البيانات في الجدول قد تصبح قديمة وغير دقيقة.
 
 > [!NOTE] 
-> لتجنب المشاكل المحتملة في عرض وتحرير بيانات خطة الموازنة باستخدام Excel، يجب على المستخدم نفسه تسجيل دخوله إلى كل من Microsoft Dynamics 365 Finance والوظيفة الإضافية موصل البيانات لـ Office في Microsoft Dynamics.
+> لتجنب المشاكل المحتملة في عرض وتحرير بيانات خطة الموازنة باستخدام Excel، يجب على المستخدم نفسه تسجيل دخوله إلى كل من Microsoft Dynamics 365 Finance وموصل بيانات وظيفة Office الإضافية لـ Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>إضافة عنوان إلى قالب مستند خطة الموازنة
 لإضافة معلومات العنوان، حدد الصف العلوي في ملف Excel، ثم قم بإدراج صفوف فارغة. انقر فوق **تصميم** في **موصل البيانات** لإضافة حقول العنوان إلى ملف Excel.
@@ -79,7 +79,7 @@ ms.locfileid: "6775160"
 [![إضافة عمود وإدراجه.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**. عادة ما يتم تسمية جدول العمليات المرتبطة لـ Finance and Operations باسم "AXTable1". على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].
+> لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**. عادة ما يتم تسمية جدول العمليات المرتبطة لـ Finance and Operations باسم "AXTable1" على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].
 
 كرر هذه الخطوات لإدراج عمود **تسوية**. استخدم المعادلة= AxTable1\[طلب إجمالي\]\*$I$1 لهذا العمود. وسوف تأخذ هذه القيمة في الخلية 1 ومضاعفة القيم في عمود **الطلب الإجمالي** لحساب مبالغ التسوية.
 

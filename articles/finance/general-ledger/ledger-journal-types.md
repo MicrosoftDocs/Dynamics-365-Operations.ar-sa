@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727006"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722258"
 ---
 # <a name="ledger-journal-types"></a>أنواع دفاتر يومية دفتر الأستاذ
 
@@ -28,7 +28,7 @@ ms.locfileid: "7727006"
 
 يصف هذا الموضوع أنواع دفاتر اليومية التي يمكنك تعيينها لدفاتر اليومية المالية. استخدم صفحة **أسماء دفاتر اليومية** لإعداد دفاتر اليومية التي يمكنك استخدامها في Dynamics 365 Finance.
 
-| نوع دفتر اليومية                      | الغرض                       | إدخال الحركات في هذه الصفحة                                |
+| نوع دفتر اليومية                      | الاستخدام                       | إدخال الحركات في هذه الصفحة                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
 | التوزيع                        | إنشاء حركات التوزيع في دفتر يومية التوزيعات. قبل أن يمكنك إنشاء دفتر يومية توزيع، يجب عليك إنشاء قاعدة توزيع في صفحة **قاعدة توزيع دفتر الأستاذ**.      | طلب توزيع العملية             |
 | اعتماد                          | ترحيل فواتير المورد التي تمت الموافقة عليها إلى حسابات دفتر الأستاذ المناسبة.  | دفتر يومية الموافقة على الفواتير                                       |
