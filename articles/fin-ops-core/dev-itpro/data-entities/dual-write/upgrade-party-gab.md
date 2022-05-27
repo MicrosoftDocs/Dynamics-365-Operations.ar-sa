@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407784"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688363"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>الترقية إلى نموذج الطرف ودفتر العناوين العمومي
 
@@ -281,7 +281,7 @@ ms.locfileid: "8407784"
 
     ![تشغيل العنوان البريدي للطرف وقوالب العنوان الإلكترونية للطرف.](media/ADF-7.png)
 
-10. لتحديث تطبيق التمويل والعمليات بهذه البيانات، يجب عليك تحويل ملفات csv. إلى مصنف Excel و[استيراده إلى تطبيق التمويل والعمليات](/data-entities/data-import-export-job). بدلاً من ذلك، إذا نجحت عملية استيراد CSV، فإنه يمكنك استيراد ملفات csv مباشرةً. قد تتطلب هذه الخطوة بضع ساعات لتكتمل، وفقًا للحجم.
+10. لتحديث تطبيق التمويل والعمليات بهذه البيانات، يجب عليك تحويل ملفات csv. إلى مصنف Excel و[استيراده إلى تطبيق التمويل والعمليات](../data-import-export-job.md). بدلاً من ذلك، إذا نجحت عملية استيراد CSV، فإنه يمكنك استيراد ملفات csv مباشرةً. قد تتطلب هذه الخطوة بضع ساعات لتكتمل، وفقًا للحجم.
 
     ![استيراد ناجح.](media/ADF-8.png)
 

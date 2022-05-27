@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2b2b233e22378c8710a63dce83d168bfd89eba7f
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 3857ce3720430c6f512d5abc4c9c4d390a0c3377
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920488"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686672"
 ---
 # <a name="the-filter-pane-on-the-on-hand-list-page-doesnt-work-as-expected"></a>لا يعمل جزء التصفية على صفحة القائمة الفعلية كما هو متوقع
 
@@ -28,6 +28,6 @@ ms.locfileid: "7920488"
 
 يتم تجميع صفحة **قائمة المخزون الفعلي** من جدول المخزون الفعلي الذي يتضمن جميع الأبعاد المتوفرة. ومع ذلك، القائمة الموجودة في هذه الصفحة هي ملخص. وبالتالي، فقد تجمع الصفوف من الجدول المصدر عن طريق تجميع القيم وفقًا للأبعاد المعروضة.
 
-عوامل التصفية التي تم إعدادها في جزء عوامل التصفية على الجدول المصدر، وليس على القائمة المجمعة. قد يؤدي هذا السلوك في بعض الأحيان إلى ظهور نتائج غير متوقعه، كما هو موضح في [الامثله التالية](/dynamics365/supply-chain/inventory/inventory-on-hand-list.md#examples).
+عوامل التصفية التي تم إعدادها في جزء عوامل التصفية على الجدول المصدر، وليس على القائمة المجمعة. قد يؤدي هذا السلوك في بعض الأحيان إلى ظهور نتائج غير متوقعه، كما هو موضح في [الامثله التالية](/dynamics365/supply-chain/inventory/inventory-on-hand-list#examples).
 
-ومع ذلك، فإن [عوامل التصفية المتوفرة في الشبكة](/dynamics365/supply-chain/inventory/inventory-on-hand-list.md#grid-filters) *تنطبق* على القائمة المجمعة. تتضمن عوامل التصفية هذه QuickFilter في الجزء العلوي من الشبكة بالإضافة إلى عامل التصفية لكل عنوان عمود.
+ومع ذلك، فإن [عوامل التصفية المتوفرة في الشبكة](/dynamics365/supply-chain/inventory/inventory-on-hand-list#grid-filters) *تنطبق* على القائمة المجمعة. تتضمن عوامل التصفية هذه QuickFilter في الجزء العلوي من الشبكة بالإضافة إلى عامل التصفية لكل عنوان عمود.

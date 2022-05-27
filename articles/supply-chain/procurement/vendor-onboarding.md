@@ -1,7 +1,7 @@
 ---
 title: إعداد المورّدين
 description: يصف هذا الموضوع عملية إعداد موردين جدد. كما يشرح الإجراءات التي تتطلبها عدة أدوار أثناء هذه العملية.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPag
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 396b3c4622c612fa082796080aa230a0d693ce4f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566877"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670989"
 ---
 # <a name="onboard-vendors"></a>إعداد المورّدين
 
@@ -46,7 +46,7 @@ ms.locfileid: "7566877"
 | المسؤول            | | | قم بإنشاء مستخدم في Supply Chain Management و Microsoft Azure. | | | |
 | الشخص المسؤول لدى المورد    | | | أرسل بريدًا إلكترونياً إلى الشخص المسؤول. | قم بتسجيل معلومات المورّد. | | |
 
-للاطلاع على عرض توضيحي سريع لعملية إعداد المورّد، شاهد هذا الفيديو القصير على YouTube حول [كيفية إعداد مورّد جديد في Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+للاطلاع على عرض توضيحي سريع لعملية إعداد المورد، شاهد هذا الفيديو القصير على YouTube حول [إعداد مورد جديد في Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk)
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>استيراد طلب تسجيل المورّد المتوقع
 

@@ -1,7 +1,7 @@
 ---
 title: مساحة العمل المحمولة لأوامر المبيعات
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "أوامر المبيعات‬". تسمح لك مساحة العمل هذه بالبقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان.
-author: Mirzaab
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 712b45cf1fd35de9f823af1bf89db9c4a572d61ebf7aa3e1fded16902c09557a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a746ae5d7f0c6ca2fd8e69a23114cfcaa24b16b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767354"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674998"
 ---
 # <a name="sales-orders-mobile-workspace"></a>مساحة العمل المحمولة لأوامر المبيعات
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767354"
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **أوامر المبيعات**. تسمح لك مساحة العمل هذه بالبقاء على إطلاع دائم على أوامر المبيعات في أي وقت وفي أي مكان. 
 
-مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة.
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة. 
 
 ## <a name="overview"></a>نظرة عامة
 تسمح لك مساحة العمل المحمولة **أوامر المبيعات** بعرض معلومات مفصلة حول كل أمر مبيعات. تتضمن هذه المعلومات حالة الأمر ومعلومات الاتصال الخاصة بالعميل ومعلومات الاتصال الخاصة بمتلقي الأمر. توفر مساحة العمل المحمولة **أوامر المبيعات** عرضًا فوريًا لأوامر المبيعات. يمكنك عرض كل أوامر المبيعات أو عرض أوامر المبيعات حسب العميل أو عرض معلومات خاصة بأمر مبيعات معين. 

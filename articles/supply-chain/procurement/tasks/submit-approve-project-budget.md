@@ -1,22 +1,22 @@
 ---
 title: إنشاء سير عمل لموازنة مشروع وإرساله
 description: يوضح هذا الإجراء كيفية إنشاء ميزانية المشروع وإرسالها.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 11/22/2021
 ms.topic: article
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f410d824be717537e6dfb5dbd8b71ff7d992e0a
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: e554fb578371f52f665ef348d6fa81fd27196a9e
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860399"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671017"
 ---
 # <a name="create-and-submit-a-project-budget-workflow"></a>إنشاء سير عمل لموازنة مشروع وإرساله
 

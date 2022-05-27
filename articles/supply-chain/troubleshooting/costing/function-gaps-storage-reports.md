@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a72e2d32e755e137cebbc0bf7afb0bed08fb93f2
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: f74389648034bf036ce48ac84b3421a8a340f105
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475496"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686642"
 ---
 # <a name="functional-gaps-between-inventory-valueaging-reports-and-their-storage-versions"></a>الفجوات الوظيفية بين تقارير قيمة/تقادم المخزون وإصدارات التخزين الخاصة به
 
-تتيح ميزتا [تقرير فتره تاخر المخزون](/dynamics365/supply-chain/cost-management/inventory-aging-report-storage.md) و[تخزين قيمه المخزون الخاصة بها](/dynamics365/supply-chain/cost-management/inventory-value-report-storage.md)امكانيه Supply Chain Management لعرض وحدات التخزين الكبيرة الخاصة بالعمليات المخزنية. في كل حاله ، يتم حفظ نتائج التقرير للاستعراض والتصدير ، بخلاف الإصدارات غير الخاصة بالتخزين لهذه التقارير. ومع ذلك ، لا توجد بعض الوظائف الموجودة في الإصدارات غير الخاصة بالتخزين من هذه التقارير في إصدارات التخزين. تلخص الأقسام الفرعية التالية الاختلافات وتوفر حلول بديله.
+تتيح ميزتا [تقرير فتره تاخر المخزون](/dynamics365/supply-chain/cost-management/inventory-aging-report-storage) و[تخزين قيمه المخزون الخاصة بها](/dynamics365/supply-chain/cost-management/inventory-value-report-storage)امكانيه Supply Chain Management لعرض وحدات التخزين الكبيرة الخاصة بالعمليات المخزنية. في كل حاله ، يتم حفظ نتائج التقرير للاستعراض والتصدير ، بخلاف الإصدارات غير الخاصة بالتخزين لهذه التقارير. ومع ذلك ، لا توجد بعض الوظائف الموجودة في الإصدارات غير الخاصة بالتخزين من هذه التقارير في إصدارات التخزين. تلخص الأقسام الفرعية التالية الاختلافات وتوفر حلول بديله.
 
 ## <a name="storage-reports-dont-include-subtotals-even-if-they-are-enabled-in-the-report-layout"></a>لا تتضمن تقارير التخزين الإجماليات الفرعية ، حتى ولو كانت ممكنة في تخطيط التقرير
 
 ويمكن ان يتسبب الإجماليات الفرعية في حدوث مشكلات عند تصدير النتيجة ، وخاصه إذا قام المستخدمون بتغيير تسلسل السجلات.
 
-لفحص الإجماليات الفرعية ، يمكنك تصدير النتيجة إلى Microsoft Excel. بدلا من ذلك، إذا كنت ترغب في التحقق من الإجماليات الفرعية ضمن Supply Chain Management، استخدم [أداره الميزات](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتمكين ميزتي *التحكم بالشبكة الجديد* و *تجميع في الشبكة*، والتي توفر طريقه أكثر مرونة لمشاهده الإجمالي الفرعي لأي مجموعه حسب العمود. لمزيد من المعلومات، راجع [قدرات الشبكة](/dynamics365/fin-ops-core/fin-ops/get-started/grid-capabilities.md).
+لفحص الإجماليات الفرعية ، يمكنك تصدير النتيجة إلى Microsoft Excel. بدلا من ذلك، إذا كنت ترغب في التحقق من الإجماليات الفرعية ضمن Supply Chain Management، استخدم [أداره الميزات](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) لتمكين ميزتي *التحكم بالشبكة الجديد* و *تجميع في الشبكة*، والتي توفر طريقه أكثر مرونة لمشاهده الإجمالي الفرعي لأي مجموعه حسب العمود. لمزيد من المعلومات، راجع [قدرات الشبكة](/dynamics365/fin-ops-core/fin-ops/get-started/grid-capabilities).
 
 ## <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>تقرير تخزين قيمه المخزون لا يدعم معلومات حساب دفتر الأستاذ
 

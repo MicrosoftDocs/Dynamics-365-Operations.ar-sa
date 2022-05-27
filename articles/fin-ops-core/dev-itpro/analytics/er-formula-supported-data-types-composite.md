@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323655"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689231"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>أنواع البيانات المركبة المدعومة لمعادلات التقارير الإلكترونية
 
@@ -81,7 +81,7 @@ ms.locfileid: "8323655"
 
 افتراضيًا، يتم الوصول إلى سجلات *قائمة السجلات* بشكل تسلسلي. للوصول إلى سجل محدد، يمكنك استخدام الوظيفة [INDEX](er-functions-list-index.md) وتحديد الفهرس *عدد صحيح*:
 
-القيمة الافتراضية لـ *قائمة السجلات* **فارغة**. يمكنك استخدام الوظيفة [ISEMPTY](/er-functions-list-isempty.md) لتقييم ما إذا كانت *قائمة السجلات* فارغة أم لا.
+القيمة الافتراضية لـ *قائمة السجلات* **فارغة**. يمكنك استخدام الوظيفة [ISEMPTY](er-functions-list-isempty.md) لتقييم ما إذا كانت *قائمة السجلات* فارغة أم لا.
 
 > [!NOTE]
 > إذا كانت *قائمة السجلات* فارغة، فإن أية محاولة للحصول على قيمة حقل لـ *سجل* فيها تؤدي إلى طرح استثناء في وقت التشغيل. لمعرفة كيف يمكنك المساعدة في منع استثناءات وقت التشغيل لهذا النوع، راجع [اعتبار حالات القائمة الفارغة](er-components-inspections.md#i9).

@@ -1,7 +1,7 @@
 ---
 title: إدارة البدل التجاري
 description: يصف هذا الموضوع إدارة البدل التجاري‬ في Dynamics 365 Supply Chain Management.
-author: t-benebo
+author: Henrikan
 ms.date: 08/17/2018
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTa
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: henrikan
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 15c003109814d9b4dc2857910e69754e5927ec11138d215056be64424998bf00
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e523ef88a472e8f6372f871360803649c9cded
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771265"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672839"
 ---
 # <a name="trade-allowance-management"></a>إدارة البدل التجاري
 

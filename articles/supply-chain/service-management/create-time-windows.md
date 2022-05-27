@@ -1,7 +1,7 @@
 ---
 title: إنشاء الإطارات الزمنية
 description: يوفر هذا الموضوع إجراءً يوضح كيفية إنشاء الإطارات الزمنية‬.
-author: kamaybac
+author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93c8426fd03a849cf8c241d694507bd033fb34c5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fff9e0d6b8a06efbdb89c74f0bdd2edb35629696
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571416"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677747"
 ---
 # <a name="create-time-windows"></a>إنشاء الإطارات الزمنية
 
