@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649090"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695377"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>أضافه حقول البيانات في تكامل الضريبة باستخدام الملحقات
 
@@ -383,7 +382,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 
 بعد إكمال الخطوات السابقة، يمكنك التحقق من صحة تغييراتك.
 
-1. في Finance، انتقل إلى **الحسابات الدائنة‬** وأضف **&debug=vs%2CconfirmExit&** إلى عنوان URL. على سبيل المثال، https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. رمز **&** النهائي ضروري.
+1. في Finance، انتقل إلى **الحسابات الدائنة‬** وأضف **&debug=vs%2CconfirmExit&** إلى عنوان URL. على سبيل المثال، `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. رمز **&** النهائي ضروري.
 2. افتح صفحة **أمر الشراء** وحدد **جديد** لإنشاء أمر شراء.
 3. قم بتعيين القيمة للحقل المخصص، ثم حدد **ضريبة المبيعات**. يتم تنزيل ملف استكشاف الأخطاء وإصلاحها مع البادئة **TaxServiceTroubleshootingLog** بشكل تلقائي. يحتوي هذا الملف على معلومات الحركة التي تم ترحيلها إلى خدمة حساب الضريبة. 
 4. تحقق مما إذا كان الحقل المخصص الذي تمت إضافته موجودًا في القسم **إدخال حساب خدمة الضريبة في JSON** ومما إذا كانت قيمته صحيحة. إذا لم تكن القيمة صحيحة، فراجع الخطوات الواردة في هذا المستند.

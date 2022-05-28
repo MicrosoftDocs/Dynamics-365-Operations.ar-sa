@@ -8,26 +8,26 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 449ebe55b8be7ee7ea22b4be7c44162d83fc3c2affbd4d20f4cad235ddb0f772
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742194"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713033"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>دعم العملة المزدوجة لضريبة المبيعات
 [!include [banner](../includes/banner.md)]
 
 يوضح هذا الموضوع كيفية توسيع ميزة محاسبة العملة المزدوجة لضرائب المبيعات وأثر العمليات الحسابية لضريبة المبيعات والتسويات. 
 
-تم تقديم ميزة العملة المزدوجة لـ Dynamics 365 Finance في الإصدار 8.1 (أكتوبر 2018). ويتم تغيير الطريقة التي يتم بها حساب إدخالات المحاسبة في عملة التقارير.
+تم تقديم ميزة العملة المزدوجة في Dynamics 365 Finance في الإصدار 8.1 (أكتوبر 2018). ويتم تغيير الطريقة التي يتم بها حساب إدخالات المحاسبة في عملة التقارير.
 
 في الإصدارات السابقة، تم تحويل الحركات إلى عملة التقارير بالتسلسل التالي: 
 

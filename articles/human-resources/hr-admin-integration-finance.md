@@ -1,6 +1,6 @@
 ---
 title: تكوين التكامل مع Finance
-description: يوضح هذا الموضوع التكامل بين Dynamics 365 Human Resources وDynamics 365 Finance.
+description: يصف هذا الموضوع التكامل بين Dynamics 365 Human Resources وDynamics 365 Finance.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065006"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687521"
 ---
 # <a name="configure-integration-with-finance"></a>تكوين التكامل مع Finance
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065006"
 
 
 
-لاجراء تكامل Dynamics 365 Human Resources مع Dynamics 365 Finance، يمكنك استخدام Human Resources في قالب Finance في [مكامل بيانات ](/powerapps/administrator/data-integrator). تتيح Human Resources لقالب Finance تدفق البيانات للوظائف والمناصب والعاملين. يسمح القالب بتدفق البيانات من Human Resources إلى Finance، لكنه لا يسمح بتدفق البيانات من Finance إلى Human Resources.
+لإجراء تكامل بين Dynamics 365 Human Resources وDynamics 365 Finance، يمكنك استخدام قالب Human Resources إلى Finance في [موحد البيانات‬](/powerapps/administrator/data-integrator). تتيح Human Resources لقالب Finance تدفق البيانات للوظائف والمناصب والعاملين. يسمح القالب بتدفق البيانات من Human Resources إلى Finance، لكنه لا يسمح بتدفق البيانات من Finance إلى Human Resources.
 
 ![تدفق تكامل Human Resources إلى Finance.](./media/hr-admin-integration-finance-flow.png)
 
@@ -47,7 +46,7 @@ ms.locfileid: "8065006"
 يتطلب حل التكامل الإصدارات التالية من Human Resources و Finance: 
 
 - Dynamics 365 Human Resources في Dataverse
-- الإصدار 7.2 من Dynamics 365 Finance والإصدار اللاحق
+- الإصدار 7.2 وإصدار لاحق من Dynamics 365 Finance
 
 ## <a name="template-and-tasks"></a>القوالب والمهام
 
@@ -248,7 +247,7 @@ ms.locfileid: "8065006"
 
 يحاول التكامل من Human Resources إلى Finance مطابقة السجلات بناءً على المُعرف. في حالة تطابق السجلات، يستبدل مكامل البيانات البيانات الموجودة في Finance بالقيم الموجودة في Human Resources. ومع ذلك، قد تحدث مشكلة إذا كانت هذه سجلات مختلفة منطقيًا وتم إنشاء نفس المعرّف في أي من Human Resources أو Finance استنادًا إلى تسلسل الأرقام المعني.
 
-قد تحدث هذه المشكلة لدى **العامل**، الذي يستخدم **رقم الموظف** لإجراء المطابقة، و **المناصب**. لا تستخدم الوظائف التسلسلات الرقمية. ونتيجة لذلك، إذا كان نفس مُعرف الوظيفة موجودًا في كل من Human Resources و Finance، تقوم معلومات Human Resources باستبدال معلومات Dynamics 365 Finance. 
+قد تحدث هذه المشكلة لدى **العامل**، الذي يستخدم **رقم الموظف** لإجراء المطابقة، و **المناصب**. لا تستخدم الوظائف التسلسلات الرقمية. ونتيجة لذلك، إذا كان نفس مُعرف الوظيفة موجودًا في كل من Human Resources وFinance، تقوم معلومات Human Resources باستبدال معلومات Dynamics 365 Finance. 
 
 لمنع حدوث مشكلات مع مُعرفات مُكررة، يُمكنك إما إضافة بادئة على [تسلسل الرقم](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)، أو تعيين رقم بداية على التسلسل الرقمي الموجود خارج نطاق النظام الآخر. 
 

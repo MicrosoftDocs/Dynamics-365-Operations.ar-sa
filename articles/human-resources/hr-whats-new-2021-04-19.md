@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fadad34be31f6522654bc3af47a4f71695dcc5fea7f0b3e760ff26d79d88eb4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722501"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685731"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources ‏(19 أبريل 2021)
 
@@ -42,7 +41,7 @@ ms.locfileid: "6722501"
 
 | الميزة | خطة الإصدار | الوثائق |
 | --- | --- | --- |
-| Platform update 10.0.17 (41) | -- | [تحديثات النظام الأساسي للإصدار 10.0.17 من تطبيقات Finance and Operations (أبريل 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| Platform update 10.0.17 (41) | -- | [تحديثات النظام الأساسي للإصدار 10.0.17 من تطبيقات التمويل والعمليات (أبريل 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 | دعم الحقول المخصصة في نماذج إدارة الميزات | [دعم الحقول المخصصة في إدارة الميزات](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management)| [نظرة عامة على إدارة المزايا](hr-benefits-management-overview.md)|
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
@@ -78,7 +77,7 @@ ms.locfileid: "6722501"
 | الميزة | تفاصيل |
 | --- | --- |
 | المهارات التي تم إدخالها بواسطة مدير للموظفين يمكن اعتمادها تلقائيًا من خلال سير عمل | قريبًا. |
-| Platform update 10.0.18 (42) | تمت جدولة تحديث النظام الأساسي 10.0.18 بحيث يبدأ نشره مع إصدار الخدمة في 17 مايو 2021. لمزيد من المعلومات، راجع [تحديثات النظام الأساسي للإصدار 10.0.18 من تطبيقات Finance and Operations (مايو 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Platform update 10.0.18 (42) | تمت جدولة تحديث النظام الأساسي 10.0.18 بحيث يبدأ نشره مع إصدار الخدمة في 17 مايو 2021. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.18 من تطبيقات التمويل والعمليات (مايو 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | دعم الحقول المخصصة في قواعد الأهلية لإدارة الميزات  | [دعم الحقول المخصصة لمعالجة الأهلية](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 للحصول على قائمة كاملة بالميزات المخططة والإصدارات المجدولة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2021، الموجة 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).

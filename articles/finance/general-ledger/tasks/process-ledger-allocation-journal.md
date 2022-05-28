@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d37b1a9869cc130786d0e8fde68184e04c881bad1f64c86943174213025db82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765658"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722128"
 ---
 # <a name="process-ledger-allocation-journal"></a>‏‫معالجة دفتر يومية توزيع دفتر الأستاذ‬
 
@@ -26,7 +26,7 @@ ms.locfileid: "6765658"
 
 يشرح هذا الموضوع كيفية معالجة طلب تخصيص. استخدم صفحة طلب تخصيص العملية لإنشاء دفتر يومية تخصيص يمكن مراجعته واعتماده قبل الترحيل إلى دفتر الأستاذ العام أو ترحيله مباشرةً إلى دفتر الأستاذ العام. قبل أن تتمكن من إنشاء دفتر يومية التخصيصات، يجب أن تتوفر قاعدة واحدة نشطة على الأقل لتخصيص دفتر الأستاذ. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
-1. في جزء التنقل، انتقل إلى **الوحدات النمطية > دفتر الأستاذ العام > تخصيصات > طلب تخصيص العملية**.
+1. في جزء التنقل، انتقل إلى **دفتر الأستاذ العام > تخصيصات > طلب تخصيص العملية**.
 2. في حقل **القاعدة**، حدد السجل المطلوب في القائمة المنسدلة.
 3. أدخل تاريخاً في الحقل **اعتبارًا من تاريخ**.
 

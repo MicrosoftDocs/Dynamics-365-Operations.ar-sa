@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 96ba1653ea1f9a5ac1037e9ecc7e85c86a6f31c7
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595027"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8719960"
 ---
 # <a name="improve-the-prediction-model"></a>تحسين نموذج التنبؤ
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع الميزات التي يمكنك استخدامها لتحسين أداء نماذج التنبؤ. ستبدأ في تحسين النموذج الخاص بك في مساحة العمل **توقعات دفع العميل** في Microsoft Dynamics 365 Finance. عندئذ يتم إكمال خطوات التحسين في AI Builder.
+يوضح هذا الموضوع الميزات التي يمكنك استخدامها لتحسين أداء نماذج التنبؤ. ستبدأ في تحسين النموذج في مساحة العمل **توقعات دفع العميل** في Microsoft Dynamics 365 Finance. عندئذ يتم إكمال خطوات التحسين في AI Builder.
 
 ## <a name="select-historical-outcomes"></a>تحديد النتائج التاريخية
 

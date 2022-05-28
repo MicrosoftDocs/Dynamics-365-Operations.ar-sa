@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c46ac3324a985810ede61072190014538d0b7ed36f7eedfc387468619cc88cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737007"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735279"
 ---
 # <a name="specify-the-cross-rate"></a>تحديد سعر الصرف المتداخل
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع الغرض من سعر الصرف المتداخل وكيفية تحديد سعر الصرف المتداخل عند تسوية دفع باستخدام فاتورة. استخدم سعر الصرف المتداخل عند تطبيق جميع المعايير التالية: 
+يشرح هذا الموضوع الغرض من سعر الصرف المتداخل وكيفية تحديد سعر الصرف المتداخل عند تسوية دفع باستخدام فاتورة. استخدم سعر الصرف المتداخل عند تطبيق المعايير التالية: 
 -   تسوية دفعة بفاتورة. 
 -   يستخدم كل من بند الدفع وبند الفاتورة عملات مختلفة. 
 -   عمله المحاسبة ليست إحدى هاتين العملتين. 

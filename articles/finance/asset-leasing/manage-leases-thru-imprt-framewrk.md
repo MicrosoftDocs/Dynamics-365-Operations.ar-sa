@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534584a7da494b427d48b1bc97bf6554d25f4a79d9d62f59ec5f2afb65e67431
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758887"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723156"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>إدارة عقود الإيجار من خلال إطار عمل استيراد الإيجار
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية استخدام إطار عمل استيراد عقد الإيجار لتعديل عقود إيجار متعددة في خطوة واحدة. وباستخدام هذه الإمكانية، يمكنك توفير الوقت، ويمكنك أيضًا التأكد من المزيد من التعديلات الدقيقة عن طريق تقليل فرصة الخطأ البشري. بالإضافة إلى ذلك، يمكن لهذه القدرة توصيل Microsoft Dynamics 365 Finance بكيانات بيانات خارجية لتحميل البيانات بكفاءة.
+يشرح هذا الموضوع كيفية استخدام إطار عمل استيراد عقد الإيجار لتعديل عقود إيجار متعددة في خطوة واحدة. وباستخدام هذه الإمكانية، يمكنك توفير الوقت، ويمكنك أيضًا التأكد من المزيد من التعديلات الدقيقة عن طريق تقليل فرصة الخطأ البشري. بالإضافة إلى ذلك، بإمكان هذه القدرة توصيل Microsoft Dynamics 365 Finance بكيانات بيانات خارجية لتحميل البيانات بكفاءة.
 
 يمكن استخدام كيانات البيانات التالية لتكامل تأجير الأصول مع الأنظمة الخارجية:
 

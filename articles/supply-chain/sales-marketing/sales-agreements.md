@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982499"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694357"
 ---
 # <a name="sales-agreements-overview"></a>نظرة عامة على اتفاقيات البيع
 
@@ -36,7 +36,8 @@ ms.locfileid: "7982499"
 
 ويمكنك إنشاء أمر مبيعات من اتفاقية المبيعات مباشرةً باستخدام إجراء **إصدار أمر**. وبدلاً من ذلك، يمكنك تحديد اتفاقية مبيعات فعالة عندما تأخذ أوامر (راجع قسم "تطبيق اتفاقيات المبيعات في عملية الطلب" في هذا المقال).  
 
-> [ملاحظة!] في الإصدارات السابقة، تمت الإشارة إلى اتفاقيات المبيعات بأنها أوامر مبيعات مفتوحة.
+> [!NOTE] 
+> في الإصدارات السابقة، تمت الإشارة إلى اتفاقيات المبيعات بأنها أوامر مبيعات مفتوحة.
 
 ## <a name="commitment-types"></a>أنواع الالتزام
 كل بند وارد في اتفاقية المبيعات يعبر عن التزام ببيع شيء ما. بشكل عام، هناك فئتان من الالتزام:

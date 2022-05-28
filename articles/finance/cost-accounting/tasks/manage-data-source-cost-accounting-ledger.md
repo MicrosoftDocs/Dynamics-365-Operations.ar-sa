@@ -1,24 +1,24 @@
 ---
 title: إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف
 description: استخدم هذا الإجراء لإدارة مصدر بيانات دفتر الأستاذ العام لدفتر أستاذ محاسبة التكاليف.
-author: ShylaThompson
+author: kfend
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMAXGeneralLedgerEntryProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da218df53fdca98ead748ce364c03502bd1f333959ebacab25339b665bcb9c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb35761fb7a5f6d044832c57a7560b0c3ab2f6fa
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771694"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721832"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف
 
@@ -34,7 +34,7 @@ ms.locfileid: "6771694"
 6. انقر فوق "جديد".
 7. في حقل "الاسم"، اكتب قيمة.
 8. في الحقل "موفر البيانات"، أدخل أو حدد قيمة.
-    * لهذا المثال، حدد Dynamics 365 Finance - إدخالات دفتر الأستاذ العام .  
+    * لهذا المثال، حدد Dynamics 365 Finance - إدخالات دفتر الأستاذ العام.  
 9. في الحقل "بُعد عنصر التكلفة‬‬"، أدخل قيمة أو حددها.
     * بالنسبة إلى هذا المثال، حدد "عناصر التكلفة".  
 10. انقر فوق "حفظ".

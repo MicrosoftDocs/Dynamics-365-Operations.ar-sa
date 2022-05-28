@@ -2,25 +2,25 @@
 title: تقييم نموذج التوقع بالدفع الأولي للعميل
 description: يصف هذا الموضوع الخطوات التي يمكنك اتخاذها لفهم نموذج التوقع بدفع العميل وتقييم الفعالية الخاصة به.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969102"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677943"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>تقييم نموذج التوقع بالدفع الأولي للعميل
 
@@ -30,7 +30,7 @@ ms.locfileid: "7969102"
 
 ## <a name="getting-details-about-the-model"></a>الحصول على تفاصيل حول النموذج
 
-في الصفحة **معلمات Finance Insights** في Microsoft Dynamics 365 Finance، يظهر ارتباط **تحسين دقة النموذج** بجوار معدلات الدقة.
+في الصفحة **معلمات Finance Insights** في Microsoft Dynamics 365 Finance، يظهر ارتباط **تحسين دقة النموذج** بجوار درجة الدقة.
 
 [![تحسين ارتباط دقة النموذج.](./media/prediction-model.png)](./media/prediction-model.png)
 
@@ -89,10 +89,10 @@ ms.locfileid: "7969102"
 
 ## <a name="improving-the-model"></a>تحسين النموذج
 
-بعد أن تفهم نتائج النموذج الأول الخاص بك بشكل أفضل، فإنك قد تحتاج إلى تحسين النموذج عن طريق إضافة أعمدة الميزات أو إزالتها أو عن طريق تصفية أية أجزاء من مجموعة البيانات التي لا تدعم توقعات الدقة. قم بإغلاق AI Builder، ثم استخدم الارتباط **تحسين النموذج** في Dynamics 365 Finance لإعادة تشغيل عملية AI Builder. يمكنك تجربة الخصائص المختلفة دون التأثير على النموذج المنشور. يتأثر النموذج المنشور فقط عند تحديد **نشر**. تذكر أنه يتم استخدام نموذج مفرد لمثيل Dynamics 365 Finance الخاص بك. لذلك، يجب مراجعة أي نموذج جديد بعناية قبل نشره.
+بعد أن تفهم نتائج النموذج الأول الخاص بك بشكل أفضل، فإنك قد تحتاج إلى تحسين النموذج عن طريق إضافة أعمدة الميزات أو إزالتها أو عن طريق تصفية أية أجزاء من مجموعة البيانات التي لا تدعم توقعات الدقة. قم بإغلاق AI Builder، ثم استخدم الارتباط **تحسين النموذج** في Dynamics 365 Finance لإعادة تشغيل عملية AI Builder. يمكنك تجربة الخصائص المختلفة دون التأثير على النموذج المنشور. يتأثر النموذج المنشور فقط عند تحديد **نشر**. تذكر أنه يتم استخدام نموذج مفرد لمثيلك من Dynamics 365 Finance. لذلك، يجب مراجعة أي نموذج جديد بعناية قبل نشره.
 
 ## <a name="for-more-information"></a>لمزيد من المعلومات
 
-لمزيد من المعلومات حول كيفية تقييم نماذج التوقعات، [نتائج نماذج التعلم الآلي](/confusion-matrix.md)
+لمزيد من المعلومات حول كيفية تقييم نماذج التوقعات، [نتائج نماذج التعلم الآلي](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

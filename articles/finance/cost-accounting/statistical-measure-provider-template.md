@@ -1,6 +1,6 @@
 ---
 title: قوالب الموفرين لأعضاء الأبعاد الإحصائية وموفري القياسات
-description: يوفر هذا الموضوع معلومات حول أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية. يمكن استخدام أعضاء الأبعاد الإحصائية كأساس توزيع في سياسات مثل توزيع التكلفة وتخصيص التكلفة. ويمكن أيضًا استخدامها للإبلاغ عن استهلاك التكلفة غير النقدية.
+description: يوفر هذا الموضوع معلومات حول أعضاء الأبعاد الإحصائية وقوالب موفري القياسات الإحصائية.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767637"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733895"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>قوالب الموفرين لأعضاء الأبعاد الإحصائية وموفري القياسات
 
@@ -132,7 +132,7 @@ ms.locfileid: "6767637"
 
 **مصدر البيانات**
 
-| الاسم        | موصل البيانات                                                                     | عضو البُعد الإحصائي |
+| Name        | موصل البيانات                                                                     | عضو البُعد الإحصائي |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
 | FTEs D365FO | Dynamics 365 Finance – القياسات الإحصائية | FTEs                         |
 

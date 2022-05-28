@@ -2,7 +2,7 @@
 title: تخصيص واجهة تنفيذ صالة الإنتاج‬ واستخدامها
 description: يشرح هذا الموضوع كيفية توسيع النماذج الحالية أو إنشاء نماذج وأزرار جديدة لواجهة تنفيذ أرضية الإنتاج.
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066536"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712932"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>تخصيص واجهة تنفيذ صالة الإنتاج‬ واستخدامها
 
@@ -60,7 +60,7 @@ ms.locfileid: "8066536"
 1. قم بإنشاء ملحق يسمى `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`، حيث يتم توسيع أسلوب `getMainMenuItemsList` عن طريق إضافة عنصر القائمة الجديد إلى القائمة. يبين الرمز التالي مثالاً.
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>إضافة عناصر تحكم التاريخ والوقت إلى نموذج أو مربع حوار
+
+يوضح هذا القسم كيفية إضافة عناصر تحكم التاريخ والوقت إلى نموذج أو مربع حوار. تمكّن عناصر تحكم التاريخ والوقت المألوفة ومألوفة للمس لتحديد التواريخ والأوقات. تظهر لقطات الشاشة التالية كيفية ظهور عناصر تحكم الصفحة بشكل عام. يوفر عنصر تحكم الوقت الإصدارين 12 ساعة و24 ساعة،سيتبع الإصدار المعروض مجموعة التفضيلات الخاصة بحساب المستخدم الذي تعمل ضمنه الواجهة.
+
+![مثال عن عنصر تحكم التاريخ.](media/pfe-customize-date-control.png "مثال عن عنصر تحكم التاريخ")
+
+![مثال عن عنصر تحكم الوقت مع نظام 12 ساعة.](media/pfe-customize-time-control-12h.png "مثال عن عنصر تحكم الوقت مع نظام 12 ساعة")
+
+![مثال عن عنصر تحكم الوقت مع نظام 24 ساعة.](media/pfe-customize-time-control-24h.png "مثال عن عنصر تحكم الوقت مع نظام 24 ساعة")
+
+يعرض الإجراء التالي مثالاً عن كيفية إضافة عناصر تحكم التاريخ والوقت إلى النموذج.
+
+1. أضف عنصر تحكم إلى النموذج لكل عنصر تحكم تاريخ ووقت يجب أن يحتوي عليه النموذج. (يجب أن يكون عدد وحدات التحكم مساويًا لعدد عناصر تحكم التاريخ والوقت في النموذج.)
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. قم بالإعلان عن المتغيرات المطلوبة (من النوع `utcdatetime`).
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. أنشئ أساليب يتم فيها تحديث التاريخ والوقت بواسطة وحدات تحكم التاريخ والوقت. يبين المثال التالي أسلوبًا من هذا النوع.
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. قم بإعداد سلوك كل وحدة تحكم للتاريخ والوقت، وقم بتوصيل كل وحدة تحكم بجزء نموذج. يوضح المثال التالي كيفية إعداد بيانات عناصر تحكم تاريخ البدء ووقت البدء. يمكنك إضافة تعليمات برمجية مماثلة لعنصر تحكم تاريخ الانتهاء ووقت الانتهاء (غير معروضة).
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    إذا كان كل ما تحتاجه هو عنصر تحكم التاريخ، فيمكنك تخطي إعداد عنصر تحكم الوقت، وبدلاً من ذلك إعداد عنصر تحكم التاريخ كما هو موضح في المثال التالي:
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

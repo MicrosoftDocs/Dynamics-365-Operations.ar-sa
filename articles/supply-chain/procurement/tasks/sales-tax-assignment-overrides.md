@@ -1,7 +1,7 @@
 ---
 title: تعيين ضريبة المبيعات والتجاوزات
 description: يوضح هذا الإجراء كيفية تعيين مجموعات ضريبة المبيعات إلى قنوات التجارة.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: RetailStoreTable, RetailTaxOverrideCode, RetailTaxOverrideGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f72c9ffde760c1bc151ee15fe050f3704e43d83e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bbc987ba7f0026f011a04a27d00bd3833453514b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577206"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675054"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a> تعيين ضريبة المبيعات والتجاوزات
 

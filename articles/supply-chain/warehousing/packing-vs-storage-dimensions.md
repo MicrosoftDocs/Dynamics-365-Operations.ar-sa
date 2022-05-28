@@ -1,7 +1,7 @@
 ---
 title: تعيين ابعاد مختلفه للتعبئة والتخزين
 description: يوضح هذا الموضوع كيفيه تحديد العملية (التعبئة أو التخزين أو التعبئة المتداخلة) يتم استخدام كل بعد محدد لها.
-author: mirzaab
+author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0e8ce576f21f1f5ea5f3acb7d43bbe68826e6f39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580062"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687634"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>تعيين ابعاد مختلفه للتعبئة والتخزين
 

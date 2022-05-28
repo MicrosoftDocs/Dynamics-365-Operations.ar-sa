@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641420"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695749"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 5 أكتوبر 2021
 
@@ -42,7 +41,7 @@ ms.locfileid: "7641420"
 
 | الميزة | خطة الإصدار | الوثائق |
 |---|---|---|
-| Platform update 10.0.21 (45) | -- | [تحديثات النظام الأساسي للإصدار 10.0.21 من تطبيقات Finance and Operations (أكتوبر 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platform update 10.0.21 (45) | -- | [تحديثات النظام الأساسي للإصدار 10.0.21 من تطبيقات التمويل والعمليات (أكتوبر 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
@@ -87,7 +86,7 @@ ms.locfileid: "7641420"
 
 | الميزة | تفاصيل |
 |---|---|
-| Platform update 10.0.22 (46) | من المقرر أن يبدأ طرح تحديث النظام الأساسي 10.0.22 مع إصدار الخدمة في 1 نوفمبر 2021. لمزيد من المعلومات، راجع [تحديثات النظام الأساسي للإصدار 10.0.22 من تطبيقات Finance and Operations (نوفمبر 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
+| Platform update 10.0.22 (46) | من المقرر أن يبدأ طرح تحديث النظام الأساسي 10.0.22 مع إصدار الخدمة في 1 نوفمبر 2021. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.22 من تطبيقات التمويل والعمليات (نوفمبر 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 

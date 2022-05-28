@@ -1,7 +1,7 @@
 ---
 title: إعداد حسابات المورد‬
 description: يصف هذا الموضوع أنواع المعلومات التي يجب أن تحددها عندما تقوم بإنشاء حساب مورّد جديد.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565461"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676963"
 ---
 # <a name="set-up-vendor-accounts"></a>إعداد حسابات المورد‬
 
@@ -63,7 +63,7 @@ ms.locfileid: "7565461"
 
 لا يمكنك حذف السجل الشخصي لجهة اتصال إذا تمت الإشارة إلى جهة الاتصال على مستند. بدلاً من ذلك، يمكنك إلغاء تنشيط جهة الاتصال.  
 
-يمكنك إضافة جهات اتصال المورّدين إلى جهات الاتصال الشخصية في Microsoft 365. ومع ذلك، يجب أولاً إعداد المزامنة بين Supply Chain Management وMicrosoft 365 في مزامنة Microsoft Exchange Server ومعالج إعداد Microsoft Outlook.‬
+يمكنك إضافة جهات اتصال المورّدين إلى جهات الاتصال الشخصية الخاصة بك في Microsoft 365. ومع ذلك، يجب أولاً إعداد المزامنة بين Supply Chain Management وMicrosoft 365 في مزامنة كل من Microsoft Exchange Server ومعالج إعداد Microsoft Outlook.‬
 
 ## <a name="vendors-in-different-legal-entities"></a>المورّدون في كيانات قانونية مختلفة
 إذا كان أحد المورّدين مسجلاً لكيان قانوني واحد فقط في مؤسستك، وكان يتعين على الكيانات القانونية الأخرى تسجيل المورّد نفسه، فيمكنك استخدام صفحة **إضافة مورّد لكيان قانوني آخر‬** لتكوين المورّد للقيام بأعمال تجارية مع كيان قانوني آخر. يجب تحديد مجموعة مورّدين وعملة وحالة تقييد المورّد‬ في الكيان القانوني المحدد.  
