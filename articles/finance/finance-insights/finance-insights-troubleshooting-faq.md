@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109850"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725894"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>استكشاف مشاكل إعداد Finance Insights وإصلاحها
 
@@ -34,7 +34,7 @@ ms.locfileid: "8109850"
 
 ### <a name="resolution"></a>القرار
 
-ربما تستخدم قالبًا تابعًا لإصدار سابق. قبل إطلاق الإصدار 10.0.17، قام عملاء الإصدار الأولي بتكوين قالب تكامل البيانات (DI) في **نتائج معلومات الدفع الخاصة بالعميل (CDS إلى Fin and Ops)** باستخدام الكيان **نتيجة توقع الدفع (إصدار أولي)**. بعد الترقية إلى 10.0.17 والإصدارات اللاحقة، يجب عليك استخدام قالب DI في **نتائج معلومات الدفع الخاصة بالعميل (CDS إلى Fin and Ops 10.0.17 والإصدارات اللاحقة)** لإكمال التعيين. قد لا تتمكن من تعيين العمود الوجهة لقالب DI حتى يتم تحديث قائمة كيانات إدارة البيانات وظهور الكيان **نتيجة توقع الدفع**. لتحديث قائمة الكيانات وإظهار نتيجة توقع الدفع، ستقوم بإكمال الخطوات في كل من Microsoft Dynamics 365 Finance وDataverse (يُعرف سابقًا باسم مدخل مسؤول Common Data Service \[CDS\]l).
+ربما تستخدم قالبًا تابعًا لإصدار سابق. قبل إطلاق الإصدار 10.0.17، قام عملاء الإصدار الأولي بتكوين قالب تكامل البيانات (DI) في **نتائج معلومات الدفع الخاصة بالعميل (CDS إلى Fin and Ops)** باستخدام الكيان **نتيجة توقع الدفع (إصدار أولي)**. بعد الترقية إلى 10.0.17 والإصدارات اللاحقة، يجب عليك استخدام قالب DI في **نتائج معلومات الدفع الخاصة بالعميل (CDS إلى Fin and Ops 10.0.17 والإصدارات اللاحقة)** لإكمال التعيين. قد لا تتمكن من تعيين العمود الوجهة لقالب DI حتى يتم تحديث قائمة كيانات إدارة البيانات وظهور الكيان **نتيجة توقع الدفع**. لتحديث قائمة الكيانات وإظهار نتيجة توقع الدفع، ستقوم بإكمال الخطوات في كل من Microsoft Dynamics 365 Finance وDataverse (يُعرف سابقًا باسم مدخل مسؤول Common Data Service \[CDS\]).
 
 ### <a name="in-finance"></a>في Finance
 
@@ -85,7 +85,7 @@ ms.locfileid: "8109850"
 يجب إكمال الخطوات التالية.
 
 - تحقق من أنه لديك حق الوصول بصفة **مسؤول النظام** و **مخصص النظام** في مركز إدارة Power Portal.
-- تحقق من أنه يتم تطبيق Dynamics 365 Finance أو الترخيص المكافئ على المستخدم الذي يقوم بتثبيت الوظيفة الإضافية
+- تحقق من أنه يتم تطبيق ترخيص Dynamics 365 Finance أو الترخيص المكافئ على المستخدم الذي يقوم بتثبيت الوظيفة الإضافية.
 - تحقق من أنه يتم تسجيل تطبيق Azure AD التالي في Azure AD: 
 
   | استمارة التقديم                  | معرف التطبيق           |

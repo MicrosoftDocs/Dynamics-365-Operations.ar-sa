@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e3287fc824f2f7eb725b11c990a1c457d45439f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 364117133cb7a868e613088b14a33869fd9fedb1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075139"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735335"
 ---
 # <a name="develop-and-open-job-requisition"></a> تطوير طلبات الموظفين وفتحها 
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> تتوفر الوظيفة المذكورة في هذا الموضوع حاليًا لعملاء Human Resources في بنية Finance الأساسية  
+> سيُشار إلى وظيفة التوظيف في هذا الموضوع باعتبارها مشاريع توظيف وستركز على مقدمي الطلبات والطلبات ومشاريع التوظيف.  
 
 
 مشاريع التعيين تساعد في إدارة عملية التعيين. لكل مشروع تعيين، يمكنك إعداد معلومات، مثل الوظيفة التي يتم تعيين موظفين لها واسم مسؤول التعيين‬ وحالة المشروع والقسم حيث ستوجد الوظيفة. بعد إنشاء مشروع تعيين، يمكنك كتابة إعلان عن وظيفة له، ونشر الإعلان على صفحات **الخدمة الذاتية للموظف**، وربط طلبات التوظيف بالمشروع، وتعقب أنشطة هذا المشروع. تم استخدام شركة بيانات العرض التوضيحي **USMF** لإنشاء هذا الإجراء.

@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728735"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734828"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>إعداد أكواد تقارير ضريبة المبيعات
 
 [!include [banner](../../includes/banner.md)]
 
-تشير أكواد ضريبة المبيعات إلى رقم حقل المدرج في تقرير ضريبة المبيعات. يتم استخدامها في تخطيطات التقارير الخاصة بالدولة. كذلك، فإنها تستخدم في دفع ضريبة المبيعات حسب تقرير الكود. يوضح ذلك التقرير مبالغ ضريبة المبيعات لفترة التسوية الملخصة لكل كود تقرير. بعد إنشاء أكواد تقارير ضريبة المبيعات، يمكنك الإشارة إلى تلك الأكواد من علامة التبويب السريعة، التي يمكن أن تصل إليها من الصفحة **كود ضريبة المبيعات**. 
+تشير **أكواد ضريبة المبيعات** إلى رقم حقل المدرج في تقرير ضريبة المبيعات. يتم استخدامها في تخطيطات التقارير الخاصة بالدولة. كذلك، فإنها تستخدم في دفع ضريبة المبيعات حسب تقرير الكود. يوضح ذلك التقرير مبالغ ضريبة المبيعات لفترة التسوية الملخصة لكل كود تقرير. بعد إنشاء **أكواد تقارير ضريبة المبيعات**، يمكنك الإشارة إلى تلك الأكواد على علامة التبويب السريعة **إعداد التقرير**، التي يمكن أن تصل إليها من الصفحة **كود ضريبة المبيعات**. 
 
 يستخدم هذا التسجيل شركة بيانات العرض التوضيحي DEMF.
 

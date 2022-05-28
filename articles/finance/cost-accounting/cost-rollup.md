@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779946"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734418"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>سياسة زيادة التكلفة وحساب المصروفات الزائدة 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779946"
 تسمح لك محاسبة التكاليف بالحصول على نظرة أعمق عن كيفية ارتباط تدفق التكلفة بالمنتجات والخدمات التي يتم تسليمها داخل مؤسسة. للاطلاع على شفافية التكلفة، من المهم للغاية تحقيق توزيع التكلفة بين كائنات التكلفة بناء على أساس توزيع مناسب. بشكل افتراضي، يتحقق توزيع التكلفة لعنصر التكلفة الأساسي الذي يُعد أمرًا مطلوباً في بعض الحالات، ولكن بعض تبعاته يجب أخذها بعين الاعتبار.
 
 -   تنتهي كائنات التكلفة المساعدة برصيد صفر لعنصر التكلفة الأساسية بعد حساب المصروفات الزائدة.
-
 -   يمكن أن يكون حجم إدخالات التكلفة التي تم إنشاؤها بواسطة حساب المصروفات الزائدة كبير جدًا.
-
 -   من غير المحتمل تعقب تدفق التكلفة بين كائنات التكلفة.
 
 لتجنب هذه التعقيدات، يسمح لك محاسبة التكاليف بتكوين توزيع التكلفة ليتناسب مع متطلبات إعداد التقارير الإدارية الخاصة بمؤسستك. يناقش هذا الموضوع كيف يمكنك تحديد المستوى الصحيح من عناصر التكلفة الثانوية وإنشاء قواعد زيادة التكلفة التي تناسب إعداد التقارير داخل المؤسسة وقابلية تتبع التكاليف.

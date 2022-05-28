@@ -1,7 +1,7 @@
 ---
 title: إعداد تعاون المورد والمحافظة عليه
 description: يصف هذا الموضوع كيفية إعداد تعاون الموردين في Dynamics 365 Supply Chain Management. كما يوضح كيفيه توفير مستخدمين تعاونيين جدد للمستخدمين وأداره ادوار الأمان لهؤلاء المستخدمين.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651924"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677551"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>إعداد تعاون المورد والمحافظة عليه
 
@@ -31,7 +31,7 @@ ms.locfileid: "7651924"
 يصف هذا الموضوع كيفية إعداد تعاون الموردين في Dynamics 365 Supply Chain Management. كما يوضح كيفيه إعداد سير عمل لتوفير مستخدمين لتعاون الموردين الجدد للمستخدمين وكيفية أداره ادوار الأمان لهؤلاء المستخدمين.
 
 > [!NOTE]
-> تنطبق المعلومات المتعلقة باعداد الأدوار الامنيه لتعاون المورد فقط مع الإصدار الحالي من Finance and Operations. في الإصدار 7.0 من Microsoft Dynamics AX 7.0 (فبراير 2016) والإصدار 7.0.1 من التطبيق Microsoft Dynamics AX 7.0.1 (مايو 2016)، يمكنك التعاون مع المورّدين باستخدام الوحدة النمطية **مدخل المورِّد**. للحصول علي معلومات حول أذونات المستخدم الخاصة بمدخل المورد في Microsoft Dynamics AX، راجع [أمان مستخدم مدخل المورد](configure-security-vendor-portal-users.md).
+> تنطبق المعلومات المتعلقة بإعداد أدوار الأمان لتعاون المورّد فقط مع الإصدار الحالي من Finance and Operations. في الإصدار 7.0 من Microsoft Dynamics AX 7.0 (فبراير 2016) والإصدار 7.0.1 من التطبيق Microsoft Dynamics AX 7.0.1 (مايو 2016)، يمكنك التعاون مع المورّدين باستخدام الوحدة النمطية **مدخل المورِّد**. للحصول علي معلومات حول أذونات المستخدم الخاصة بمدخل المورد في Microsoft Dynamics AX، راجع [أمان مستخدم مدخل المورد](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>إعداد أدوار أمان تعاون المورد
 

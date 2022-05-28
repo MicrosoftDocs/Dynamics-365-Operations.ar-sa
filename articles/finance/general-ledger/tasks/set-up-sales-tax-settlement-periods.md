@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732947"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735803"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>إعداد فترات تسوية ضريبة المبيعات
 
@@ -28,7 +28,7 @@ ms.locfileid: "6732947"
 
 تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
-1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الضريبة > الضرائب غير المباشرة > ضريبة المبيعات > فترات تسوية ضرائب المبيعات‬**.
+1. انتقل إلى **الضريبة > الضرائب غير المباشرة > ضريبة المبيعات > فترات تسوية ضرائب المبيعات**‬.
 2. حدد **جديد**.
 3. في الحقل **فترة التسوية‬**، اكتب قيمة.
 4. في حقل **الوصف**، اكتب قيمة.

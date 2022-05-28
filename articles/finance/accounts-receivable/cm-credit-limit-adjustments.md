@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 4d96f50db4379a44ad8f2b06725db654a27393f9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753888"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734792"
 ---
 # <a name="credit-limit-adjustments"></a>تسويات الحدود الائتمانية 
 
@@ -27,7 +27,7 @@ ms.locfileid: "7753888"
 
 ## <a name="set-up-credit-limit-adjustments"></a>إعداد تسويات الحدود الائتمانية
 
-يمكنك إنشاء إدخالات في دفتر يومية تسويات الحدود الائتمانية في صفحة **تسوية الحد الائتماني** (**إدارة الائتمان \> تسويات الحدود الائتمانية‬ \> تسويات الحدود الائتمانية‬**).
+يمكنك إنشاء إدخالات في دفتر يومية **تسوية الحد الائتماني** في صفحة **تسوية الحد الائتماني** (**إدارة الائتمان \> تسويات الحدود الائتمانية \> تسويات الحدود الائتمانية**).
 
 1. حدد **جديد**. يتم إنشاء مجموعة جديدة من الإدخالات لديها عدد من تسويات الحدود الائتمانية.
 2. حدد نوع تسوية الحد الائتماني:

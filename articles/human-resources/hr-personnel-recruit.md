@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066590"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733969"
 ---
 # <a name="recruit-job-candidates"></a>توظيف المرشحين للوظائف
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066590"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يساعدك Dynamics 365 Human Resources في إدارة طلبات التعيين. كما أنه يساعدك على تحويل المرشحين للوظائف بسلاسة إلى موظفين. إذا كانت مؤسستك تستخدم تطبيق تعيين منفصل، فقد تتضمن عملية التعيين الخطوات التالية:
+يساعدك Dynamics 365 Human Resources في إدارة طلبات التعيين. كما أنه يساعدك على تحويل المرشحين للوظائف بسلاسة إلى موظفين. إذا كانت مؤسستك تستخدم تطبيق تعيين منفصل، فقد تتضمن عملية التعيين الخطوات التالية:<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - أدخل طلب التعيين الخاص بك في Human Resources.
 - قم بتلقي إحالات المرشحين في Human Resources من تطبيق التعيين.
@@ -38,17 +37,22 @@ ms.locfileid: "8066590"
 إذا كنت لا تستخدم طلب تعيين منفصلاً، يمكنك أيضًا إدارة المرشحين في Human Resources يدويًا.
 
 > [!NOTE]
-> إذا كنت مسؤولاً أو مطورًا وترغب في دمج Human Resources مع تطبيق تعيين تابع لجهة خارجية، فراجع [تكوين تكامل Dataverse](hr-admin-integration-common-data-service.md) و[تكوين الجداول الظاهرية لـ Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
+> إذا كنت مسؤولاً أو مطورًا وترغب في دمج Human Resources مع تطبيق توظيف تابع لجهة خارجية، فانتقل إلى [تكوين تكامل Dataverse](hr-admin-integration-common-data-service.md) و[تكوين الجداول الظاهرية لـ Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > يمكنك أيضًا العثور على تطبيقات تكامل التعيين في [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-## <a name="enable-recruiting-requests"></a>تمكين طلبات التعيين
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>تمكين طلبات التوظيف على البنية الأساسية المدمجة
 
-إذا كنت ترغب في إرسال طلبات التعيين في Human Resources، فيجب عليك أولاً تمكين الوظيفة في **معلمات Human Resources المشتركة**.
+إذا أردت في إرسال طلبات التوظيف في توظيف الموارد البشرية، فيجب أولاً تمكين الميزتين **تجربة مستخدم الموارد البشرية** و **إدارة عملية التعيين‬**.
 
-1. في مساحة عمل **إدارة العاملين**، حدد **ارتباطات**.
-2. ضمن **الإعداد**، حدد **معلمات Human Resources المشتركة**.
-3. في علامة التبويب **التوظيف**، ضمن **التعيين**، قم بتعيين **تمكين طلبات التعيين** إلى **نعم**.
+بمجرد تشغيل الميزات، حدد الوظيفة بالخطوات التالية: 
+1. انتقل إلى **الموارد البشرية** > **الإعداد** > **معلمات الموارد البشرية**.
+2. من علامة التبويب  **التوظيف** ، عيّن الحقل **التوظيف مُعطَّل‬** إلى **لا**.
+3. في القائمة المنسدلة **خبرة التوظيف‬**، حدد **توظيف الموارد البشرية**.   
+
+> [!Note] 
+> عند تحديد **توظيف الموارد البشرية**، ستكون **مشاريع التوظيف** (قديمة) للقراءة فقط. 
+
 
 ## <a name="add-a-recruiting-request-location"></a>إضافة موقع طلب تعيين
 
@@ -61,7 +65,7 @@ ms.locfileid: "8066590"
     ![إضافة موقع طلب تعيين.](./media/hr-recruit-0a-add-location.png)
 
 4. في **الوصف**، أدخل وصفًا للموقع.
-5. ضمن **الموقع**، حدد **إضافة**. إذا ظهر مربع الحوار **العنوان الجديد**، فأدخل عنوان الموقع.
+5. ضمن **الموقع**، حدد **إضافة**. إذا ظهر مربع الحوار **عنوان جديد**، فأدخل عنوان الموقع.<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![إدخال العنوان.](./media/hr-recruit-0b-address.png)
 
@@ -83,15 +87,15 @@ ms.locfileid: "8066590"
     ![إكمال طلب التعيين.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. حدد **متابعة**. يظهر طلب التعيين للمنصب الخاص بك.
-6. ضمن **عام**، حدد أحد المسؤولين عن التعيين من القائمة المنسدلة **مسؤول التعيين**، ثم حدد موقعًا من القائمة المنسدلة **موقع طلب التعيين**.
+6. ضمن **عام**، حدد أحد المسؤولين عن التوظيف من القائمة المنسدلة **مسؤول التعيين**، ثم حدد موقعًا من القائمة المنسدلة **موقع طلب التعيين**.
 7. ضمن **الوظيفة**، قم بتغيير أي معلومات حسب الحاجة، ثم حدد **إنشاء تفاصيل من الوظيفة**.
 
     ![إنشاء تفاصيل من الوظيفة.](./media/hr-recruit-3-create-details-from-job.png)
 
-    ستتم تعبئة بقية طلب التعيين بالمعلومات الافتراضية للوظيفة التي أدخلتها.
+    ستتم تعبئة بقية طلب التوظيف بالمعلومات الافتراضية للوظيفة التي أدخلتها.
 
 8. ضمن **الوصف الخارجي**، أدخل وصفًا خارجيًا للوظيفة.
-9. ضمن **المناصب**، حدد **إضافة**، ثم حدد منصبًا لطلب التعيين هذا.
+9. ضمن **المناصب**، حدد **إضافة**، ثم حدد منصبًا لطلب التعيين هذا.<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![إضافة منصب.](./media/hr-recruit-4-select-position.png)
 
@@ -141,7 +145,7 @@ ms.locfileid: "8066590"
 
 4. لإضافة مرشح، حدد **جديد**. لتحرير مرشح موجود، حدد المرشح من القائمة ثم حدد **تحرير**. يظهر ملف تعريف المرشح.
 5. ضمن **ملخص المرشح**، قم بإدخال أو تحرير معلومات المرشح عند الضرورة.
-6. ضمن **طلب التعيين**، حدد طلب تعيين لربط المرشح به. أكمل بعد ذلك حقول **تاريخ البدء المقدر** و **مدير التعيين** و **المنصب** و **الوصف** حسب الحاجة.
+6. ضمن **طلب التعيين**، حدد طلب تعيين لربط المرشح به. أكمل بعد ذلك حقول **تاريخ البدء المقدر** و **مدير التوظيف‬** و **المنصب** و **الوصف** حسب الحاجة.
 
     ![الربط بطلب تعيين.](./media/hr-recruit-10-link-to-recruiting-request.png)
 

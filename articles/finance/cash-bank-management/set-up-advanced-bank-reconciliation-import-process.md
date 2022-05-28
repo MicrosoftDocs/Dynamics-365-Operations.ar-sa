@@ -1,6 +1,6 @@
 ---
 title: إعداد عملية استيراد التسوية البنكية المتقدمة
-description: تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Microsoft Dynamics 365 Finance بشكل تلقائي. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية.
+description: تتيح لك ميزة التسوية المصرفية المتقدمة استيراد كشوف الحسابات البنكية الإلكترونية وتسويتها تلقائيًا مع المعاملات المصرفية في Microsoft Dynamics 365 Finance. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية.
 author: panolte
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0efe960bee8f5c2c0b683ad641379345ce6d470180d29893b373acc6e1de8aa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0616d8f85f742ed2679450c9b59814345f764bc9
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726028"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727359"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>إعداد عملية استيراد التسوية البنكية المتقدمة
 
 [!include [banner](../includes/banner.md)]
 
-تسمح لك ميزة التسوية البنكية المتقدمة باستيراد كشوف الحسابات البنكية الإلكترونية وتسويتها مع الحركات البنكية في Dynamics 365 Finance بشكل تلقائي. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية. 
+تتيح لك ميزة التسوية المصرفية المتقدمة استيراد كشوف الحسابات البنكية الإلكترونية وتسويتها تلقائيًا مع المعاملات المصرفية في Dynamics 365 Finance. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية. 
 
 يختلف إعداد استيراد كشف الحساب البنكي، استنادًا إلى تنسيق كشف حسابك البنكي الإلكتروني. يدعم Finance ثلاثة تنسيقات جاهزة لكشوف الحسابات: ISO20022 وMT940 وBAI2.
 

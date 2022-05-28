@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074903"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734912"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>تعيين موظفين موجودين من خلال التوظيف
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> تتوفر الوظيفة المذكورة في هذا الموضوع حاليًا لعملاء Human Resources في بنية Finance الأساسية  
+> سيُشار إلى وظيفة التوظيف في هذا الموضوع باعتبارها مشاريع توظيف وستركز على مقدمي الطلبات والطلبات ومشاريع التوظيف.  
 
 
 في بعض الأحيان، يمكن شغل مناصب مفتوحة بواسطة مرشحين عاملين في مؤسستك. يوضح هذا الإجراء الخطوات لتوظيف موظف موجود من خلال عملية التعيين. في هذا الإجراء، تم إعداد مشروع تعيين، وقدم موظف موجود استمارة تقديم لمشروع التعيين. تم استخدام شركة بيانات العرض التوضيحي **USMF** لإنشاء هذا الإجراء.

@@ -2,7 +2,7 @@
 title: النطاقات في Dynamics 365 Commerce
 description: يصف هذا الموضوع كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733981"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737336"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>النطاقات في Dynamics 365 Commerce
 
@@ -28,6 +28,9 @@ ms.locfileid: "6733981"
 يصف هذا الموضوع كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
 
 المجالات هي عناوين ويب تُستخدم للانتقال إلى مواقع Dynamics 365 Commerce في مستعرض الويب. يمكنك التحكم في إدارة مجالك مع موفر خادم اسم مجال (DNS) تختاره. يُشار إلى المجالات عبر منشئ المواقع في Dynamics 365 Commerce لتنسيق كيفية الوصول إلى الموقع عند نشره. يراجع هذا الموضوع كيفية التعامل مع المجالات والإشارة اليها عبر دورة حياة تطوير موقع Commerce وتشغيله.
+
+> [!NOTE]
+> اعتبارًا من 6 مايو 2022، سيتم تزويد جميع البيئات التي نشأت في Dynamics 365 Commerce بواسطة المجال `.dynamics365commerce.ms`، مما يؤدي إلى استبدال نمط `.commerce.dynamics.com` السابق. ستستمر البيئات الموجودة التي يتم تزويدها بواسطة المحال `.commerce.dynamics.com` في العمل.
 
 ## <a name="provisioning-and-supported-host-names"></a>التزويد وأسماء الأجهزة المضيفة المدعومة‬‏‫
 
@@ -44,7 +47,7 @@ ms.locfileid: "6733981"
 
 ## <a name="commerce-generated-urls"></a>عناوين URL المنشأة من Commerce
 
-عند توفير بيئة تجارة إلكترونية لـ Dynamics 365 Commerce ، سينشئ Commerce عنوان URL سوف يكون عنوان العمل الخاص بالبيئة. يُشار إلى عنوان URL هذا في ارتباط موقع التجارة الإلكترونية الذي يظهر في LCS بعد توفير البيئة. يكون عنوان URL الذي يتم إنشائه في Commerce في تنسيق `https://<e-commerce tenant name>.commerce.dynamics.com`، حيث يكون اسم مستأجر التجارة الإلكترونية هو الاسم الذي تم إدخاله في LCS لبيئة Commerce.
+عند توفير بيئة تجارة إلكترونية لـ Dynamics 365 Commerce ، سينشئ Commerce عنوان URL سوف يكون عنوان العمل الخاص بالبيئة. يُشار إلى عنوان URL هذا في ارتباط موقع التجارة الإلكترونية الذي يظهر في LCS بعد توفير البيئة. يكون عنوان URL الذي يتم إنشائه في Commerce في تنسيق `https://<e-commerce tenant name>.dynamics365commerce.ms`، حيث يكون اسم مستأجر التجارة الإلكترونية هو الاسم الذي تم إدخاله في LCS لبيئة Commerce.
 
 يمكنك استخدام أسماء الأجهزة المضيفة لموقع الإنتاج في بيئة اختبار معزولة أيضًا. يعد هذا الخيار مثاليًا عندما تقوم بنسخ موقع من بيئة اختبار معزولة إلى بيئة إنتاج.
 
@@ -67,11 +70,11 @@ ms.locfileid: "6733981"
 
 على سبيل المثال، إذا كان لديك موقع في منشئ الموقع يسمى "fabrikam" في مستأجر تجارة إلكترونية يسمى "xyz"، وإذا قمت بإعداد الموقع بمسار فارغ، فيمكنك في هذه الحالة الوصول إلى محتوى الموقع المنشور في مستعرض الويب بالانتقال مباشرةً إلى عنوان URL الأساسي الذي تم إنشاؤه في Commerce.‬
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 بدلاً من ذلك، إذا أضفت مسار "fabrikam" أثناء إعداد هذا الموقع نفسه، فيمكنك الوصول إلى محتوى الموقع المنشور في مستعرض الويب باستخدام عنوان URL التالي:
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>الصفحات وعناوين URL
 
@@ -92,16 +95,16 @@ ms.locfileid: "6733981"
 عند العمل مع المواقع في منشئ المواقع، عند وجود موقعين تم إعدادهما بواسطة مجالين مختلفة، يمكنك إلحاق السمة **?domain=** بعنوان URL الصالح للعمل للوصول إلى محتوى الموقع المنشور في المستعرض.
 
 على سبيل المثال، تم تزويد البيئة "xyz"، وتم إنشاء موقعين وربطهما في منشئ المواقع: أحدهما مع المجال `www.fabrikam.com` والآخر مع المجال `www.constoso.com`. تم إعداد كل موقع باستخدام مسار فارغ. ويمكن بعد ذلك الوصول إلى هذين الموقعين في مستعرض ويب كالتالي باستخدام السمة **?domain=**:
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-عندما لا يتم إعطاء سلسلة استعلام مجال في بيئة تم فيها توفير مجالات متعددة، يستخدم Commerce المجال الأول الذي قمت بتوفيره. على سبيل المثال، إذا تم تقديم المسار "fabrikam" أولاً أثناء إعداد الموقع، فيمكن استخدام عنوان URL `https://xyz.commerce.dynamics.com` للوصول إلى موقع محتوى الموقع المنشور في `www.fabrikam.com`.
+عندما لا يتم إعطاء سلسلة استعلام مجال في بيئة تم فيها توفير مجالات متعددة، يستخدم Commerce المجال الأول الذي قمت بتوفيره. على سبيل المثال، إذا تم تقديم المسار "fabrikam" أولاً أثناء إعداد الموقع، فيمكن استخدام عنوان URL `https://xyz.dynamics365commerce.ms` للوصول إلى موقع محتوى الموقع المنشور في `www.fabrikam.com`.
 
 ## <a name="traffic-forwarding-in-production"></a>إعادة توجيه حركة المرور في الإنتاج
 
-يمكنك محاكاة مجالات متعددة باستخدام معلمات سلسلة استعلام المجال في نقطة نهاية commerce.dynamics.com نفسها. ولكن عندما تحتاج إلى الانتقال إلى العرض المباشر في الإنتاج، يجب عليك توجيه حركة المرور لمجالك المخصص إلى نقطة النهاية `<e-commerce tenant name>.commerce.dynamics.com`.
+يمكنك محاكاة مجالات متعددة باستخدام معلمات سلسلة استعلام المجال في نقطة نهاية commerce.dynamics.com نفسها. ولكن عندما تحتاج إلى الانتقال إلى العرض المباشر في الإنتاج، يجب عليك توجيه حركة المرور لمجالك المخصص إلى نقطة النهاية `<e-commerce tenant name>.dynamics365commerce.ms`.
 
-لا تدعم نقطة النهاية `<e-commerce tenant name>.commerce.dynamics.com` مآخذ توصيل آمنة (SSL) للمجالات المخصصة، وبالتالي بجب إعداد مجالات مخصصة باستخدام خدمة الواجهة الأمامية أو شبكة تسليم المحتوى (CDN). 
+لا تدعم نقطة النهاية `<e-commerce tenant name>.dynamics365commerce.ms` مآخذ توصيل آمنة (SSL) للمجالات المخصصة، وبالتالي بجب إعداد مجالات مخصصة باستخدام خدمة الواجهة الأمامية أو شبكة تسليم المحتوى (CDN). 
 
 لإعداد مجالات مخصصة باستخدام خدمة الواجهة الأمامية أو CDN، هناك خياران:
 

@@ -1,20 +1,20 @@
 ---
 title: ترحيل عمليات الوصول والإرسالات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
 description: يوفر هذا الموضوع مثالاً يوضح كيفية ترحيل عمليات الوصول والإرسالات الخاصة بنظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي.
-author: andosip
+author: anasyash
 ms.date: 8/23/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: f7bd1811fd0e580a6b6655244c689268915d320e
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 4ab4402740d199043519773b18732bdde9a0fb2f
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414777"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724772"
 ---
 # <a name="post-arrivals-and-dispatches-for-intrastat"></a>ترحيل عمليات الوصول والإرسالات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
 
@@ -32,7 +32,7 @@ ms.locfileid: "7414777"
 
     ابحث عن مزيد من التفاصيل في [تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-2. في Microsoft Dynamics 365 Finance، حدد التسلسلات الرقمية التالية على أنها مستمرة: **Gene\_397**، و **Acco\_16403**، و **Gene\_407**، و **PUR\_EU**.
+2. في Microsoft Dynamics 365 Financeـ حدد التسلسلات الرقمية التالية على أنها مستمرة: **Gene\_397** و **Acco\_16403** و **Gene\_407** و **PUR\_EU**.
 
     1. انتقل إلى **إدارة المؤسسة** > **التسلسلات الرقمية** > **التسلسلات الرقمية**.
     2. في الشبكة، حدد أحد رموز التسلسل الرقمي.

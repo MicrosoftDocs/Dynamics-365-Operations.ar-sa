@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 648d94e895a4941f5f3148134130b3ffa693a9d57e0bb4e236f5d5fb33aca48f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779802"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734678"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>حساب وتعديل ضريبة المبيعات في فاتورة المورّد
 
@@ -26,7 +26,7 @@ ms.locfileid: "6779802"
 
 يشرح هذا الموضوع كيفية ضبط ضريبة المبيعات على فاتورة مورّد. إذا كان المستند المصدر الأصلي يعرض مبالغ ضريبة مختلفة كما تم حسابها، فيمكنك تعديل هذه المبالغ قبل الترحيل. تستخدم هذه المهمة شركة بيانات العرض التوضيحي DEMF.
 
-1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الحسابات الدائنة > الفواتير > دفتر يومية الفواتير**.
+1. انتقل إلى **الحسابات الدائنة > الفواتير > دفتر يومية الفواتير**‬.
 2. حدد **جديد**.
 3. في حقل **الاسم** للصف الجديد، حدد خيارًا في القائمة المنسدلة.
 4. في جزء الإجراءات، حدد **البنود**.

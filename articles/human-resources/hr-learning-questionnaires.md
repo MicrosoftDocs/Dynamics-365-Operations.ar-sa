@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ad5f3572e7b4b0594ffce6abaddceac955d1c678
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: efe0ac953e5c1cb04044256e799ecfc07cf3eebe
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069494"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690739"
 ---
 # <a name="questionnaires"></a>استبيانات
 
@@ -31,7 +30,7 @@ ms.locfileid: "8069494"
 
 يوفر هذا الموضوع معلومات عامة حول الاستبيانات وارتباطات لمزيد من المعلومات التفصيلية. والاستبيان هو مجموعة من الأسئلة المستخدمة لجمع المعلومات للأغراض المختلفة. ويمكنك تصميم استبيانات وإنشاؤها وتوزيعها وإكمالها وتحليل نتائجها. 
 
-يمكنك تخصيص استبيان لملاءمة احتياجاتك المعينة باستخدام الميزات المختلفة التي تتوفر في Dynamics 365 FinanceMicrosoft. فيما يلي بعض الأمثلة على كيفية استخدام الاستبيانات:
+يمكنك تخصيص استبيان لملاءمة احتياجاتك المعينة باستخدام الميزات المختلفة التي تتوفر في Microsoft Dynamics 365 Finance. فيما يلي بعض الأمثلة على كيفية استخدام الاستبيانات:
 
 -   اختبار المهارات الاحترافية للموظفين ومقدمي الطلبات.
 -   تقييم ما إذا كان المشاركون في الدورة التدريبية تعلموا المواد التدريبية.

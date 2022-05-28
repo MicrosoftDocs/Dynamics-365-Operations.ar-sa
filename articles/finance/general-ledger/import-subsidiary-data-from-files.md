@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 4be1e748724331c4e2089da8a08a9ac7e5cf88a2ac6d3d89b37b9fcd4480f516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727290"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733808"
 ---
 # <a name="import-subsidiary-data-from-files"></a>استيراد بيانات شركة فرعية من ملفات
 
@@ -29,7 +29,7 @@ ms.locfileid: "6727290"
 1. إنشاء كيان قانوني تابع للتوحيد. للحصول على معلومات حول كيفية إنشاء كيان قانوني، راجع [إنشاء كيان قانوني](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). لمزيد من المعلومات، راجع [إعداد كيان قانوني لاستخدامه في عملية التوحيد](prepare-company-for-consolidation.md)و[إعداد أحد الكيانات القانونية التابعة لإجراء التوحيد](set-up-subsidiary-company-for-consolidation.md).
 
 2. قم بإعداد ملف يحتوي على البيانات التي تم استيرادها. لمزيد من المعلومات حول عمليات الاستيراد راجع [نظرة عامة حول وظائف استيراد البيانات وتصديرها](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-3. يمكنك تصدير البيانات إلى ملف باتباع الخطوات الموجودة في الإجراء "عملية استيراد/تصدير البيانات" في [نظرة عامة حول استيراد البيانات وتصدير المهام](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). يمكنك استخدام هذا الإجراء لدمج البيانات إما من مثيل آخر لـ Dynamics 365 Finance أو من Dynamics 365 Business Central إذا كنت تقوم باستيراد البيانات من أنظمة خارجية، فيجب أن تكون البيانات بالتنسيق الموضح في [تصدير بيانات الشركة التابعة إلى ملفات](export-subsidiary-data-to-file.md).
+3. يمكنك تصدير البيانات إلى ملف باتباع الخطوات الموجودة في الإجراء "عملية استيراد/تصدير البيانات" في [نظرة عامة حول استيراد البيانات وتصدير المهام](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). يمكنك استخدام هذا الإجراء لدمج البيانات إما من مثيل Dynamics 365 Finance آخر أو من Dynamics 365 Business Central. إذا كنت تقوم باستيراد البيانات من أنظمة خارجية، فيجب أن تكون البيانات بالتنسيق الموضح في [تصدير بيانات الشركة التابعة إلى ملفات](export-subsidiary-data-to-file.md).
 4. انتقل إلى **عمليات التوحيد\> التوحيد مع الاستيراد**. في صفحة **التوحيد مع الاستيراد**، من علامة التبويب **المعايير**، حدد تفاصيل التقرير و/أو الاستيراد عن طريق إعداد الحقول التالية.
 
     | الحقل                                 | قيمة التقرير | قيمة الاستيراد |

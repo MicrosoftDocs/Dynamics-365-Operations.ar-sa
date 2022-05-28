@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723957"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734322"
 ---
 # <a name="credit-holds-for-sales-orders"></a>تعليقات ائتمانية لأوامر المبيعات
 [!include [banner](../includes/banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "6723957"
 6. مبلغ أمر المبيعات
 7. الجزء المستخدم من الائتمان المتوفر
 
-بالإضافة إلى ذلك، هناك معلمتان تتحكمان في السيناريوهات الإضافية التي ستقوم بحظر أمر المبيعات
+بالإضافة إلى ذلك، هناك معلمتان تتحكمان في السيناريوهات الإضافية التي ستقوم بحظر أمر المبيعات:
 
 1. التغيير في شروط الدفع
 2. التغيير في خصومات التسوية

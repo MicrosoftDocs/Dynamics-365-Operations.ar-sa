@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763180"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734593"
 ---
 # <a name="cost-control-workspace"></a>مساحة عمل مراقبة التكلفة 
 
@@ -54,7 +54,7 @@ ms.locfileid: "6763180"
 | دفتر أستاذ محاسبة التكاليف                                            | **دفتر أستاذ محاسبة التكاليف** الذي يستند إليه التقرير. يتم اشتقاق القيمة من حقل **وحدة التحكم في التكلفة**. |
 | وحدة التحكم بالتكاليف                                                 | تحدد القيمة التي قمت بتحديدها دفتر أستاذ محاسبة التكاليف وكائنات التكلفة التي يستند عليها هذا التقرير. |
 | التدرج الهرمي للبعد الإحصائي، والتدرج الهرمي لبُعد عنصر التكلفة | يمكن لسجل تكوين مساحة عمل **مراقبة التكلفة** الإبلاغ إما عن القيم غير النقدية أو القيم النقدية، ولكن لا يتم هذا في نفس التخطيط. حدد القيمة في حقل **التدرج الهرمي لبُعد عنصر التكلفة** للإبلاغ عن القيم النقدية. حدد القيمة في حقل **التدرج الهرمي للبُعد الإحصائي** للإبلاغ عن القيم غير النقدية. يحدد سجل التدرج الهرمي للبعد الذي قمت بتحديده بنية وحدات التقارير ومستويات التجميع.<blockquote>[!NOTE]<br>لعرض القيم غير النقدية والنقدية جنبًا إلى جنب، يمكنك تصدير البيانات إلى Microsoft Excel لحزمة محتوى Microsoft Power BI.</blockquote> |
-| التدرج الهرمي لأبعاد كائن التكلفة                                   | قم بتحديد التدرج الهرمي للبعد الخاص ببعد كائن التكلفة الذي يناسب الغرض من إعداد التقارير الذي قمت بتحديده. |
+| التدرج الهرمي لأبعاد كائن التكلفة      | قم بتحديد التدرج الهرمي للبعد الخاص ببعد كائن التكلفة الذي يناسب الغرض من إعداد التقارير الذي قمت بتحديده. |
 | الإصدار الأصلي للموازنة                                           | حدد معرف إصدار الموازنة الذي يمثل الموازنة الأصلية في سياق هذا التقرير. |
 | إصدار المراجعة للموازنة                                            | حدد معرف إصدار الموازنة الذي يمثل الموازنة التي تمت مراجعتها في سياق هذا التقرير. |
 

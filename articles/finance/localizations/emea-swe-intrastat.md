@@ -1,20 +1,20 @@
 ---
 title: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي السويدي
 description: يحتوي هذا الموضوع على معلومات حول تقارير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي في السويد.
-author: andosip
+author: anasyash
 ms.date: 8/24/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1031b93950e44fe3b1b6254bf1503b4c09d6fd10
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486936"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727387"
 ---
 # <a name="swedish-intrastat"></a>نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي السويدي
 
@@ -43,7 +43,7 @@ ms.locfileid: "7486936"
 
 ## <a name="set-up-foreign-trade-parameters"></a>إعداد محددات التجارة الخارجية
 
-1. في Microsoft Dynamics 365 Finance، انتقل إلى **الضريبة** > **الإعداد** > **معلمات التجارة الخارجية**.
+1. في Microsoft Dynamics 365 Finance، انتقل إلى **الضريبة‏‎** > **الإعداد‏‎** > **معلمات التجارة الخارجية**.
 2. في علامة التبويب **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي** في علامة التبويب السريعة **إعداد التقارير الإلكتروني**، في حقل **تعيين تنسيق الملف**، حدد **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي (SE)**.
 3. في حقل **تعيين تنسيق التقرير** – حدد **تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي**.
 4. في علامة التبويب السريعة **تدرج هرمي لرمز السلع**، في حقل **التسلسل الهرمي للفئة**، حدد **نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي**.

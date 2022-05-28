@@ -1,7 +1,7 @@
 ---
 title: إعداد قيم معلمات التكلفة
 description: عند إعداد الوحدة النمطية ‬‏‫التكلفة شاملة التفريغ، يمكنك تحديد عدة مجموعات من القيم المشتركة التي ستتوفر عند تحديد أنواع معينة من قيم معلمات التكلفة في أجزاء أخرى من التطبيق. يشرح هذا الموضوع كيفية إعداد هذه المجموعات من القيم.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMCostTypeTable, ITMCostTypeGroup, ITMCostTransferGroup, ITMCostTemplateTable, ITMVolumetricDivisorTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 335bed49b05bf64547d7ded885f365a30487484f
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: ed20181201a2f3f84c3dc08549f4f107d46a50a2
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644627"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689736"
 ---
 # <a name="costing-parameter-values-setup"></a>إعداد قيم معلمات التكلفة
 

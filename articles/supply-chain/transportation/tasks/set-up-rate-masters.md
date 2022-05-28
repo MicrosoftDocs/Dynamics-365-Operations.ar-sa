@@ -1,7 +1,7 @@
 ---
 title: إعداد السجلات الرئيسية للأسعار
 description: يوضح هذا الإجراء كيفية إعداد سجل رئيسي للأسعار.
-author: Henrikan
+author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6177458f2fc4651a10353afaa6f59ba6da4e28b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6e707d226894c3cd647094556bfcc017347cb7f6
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567693"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675504"
 ---
 # <a name="set-up-rate-masters"></a>إعداد السجلات الرئيسية للأسعار
 

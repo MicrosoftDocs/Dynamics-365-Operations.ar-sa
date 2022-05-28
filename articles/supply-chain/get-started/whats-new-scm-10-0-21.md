@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075289"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739376"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.21 (أكتوبر 2021)
 
@@ -130,8 +130,8 @@ ms.locfileid: "8075289"
 | التخطيط الرئيسي | [عرض سجلات التخطيط ومحفوظات الخطط](../master-planning/planning-optimization/plan-history-logs.md) |
 | إدارة المستودعات | [استراتيجيات التعبئة في الحاويات](../warehousing/container-packing-strategy-overview.md) |
 | إدارة المستودعات | [سيناريوهات مثال عن جرد دوري](../warehousing/cycle-counting-scenarios.md) |
-| إدارة المستودعات | [استيراد إشعارات ASN الواردة عبر كيان البيانات V2](../warehousing/import-asn-v2-data-entity.md) |
-| إدارة المستودعات | [الانتقاء المفرط لأوامر المبيعات وأوامر التحويل](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
+| Warehouse management | [استيراد إشعارات ASN الواردة عبر كيان البيانات V3](../warehousing/import-asn-data-entity.md) |
+| Warehouse management | [الانتقاء المفرط لأوامر المبيعات وأوامر التحويل](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | إدارة المستودعات | [جدولة طباعة تسمية الموجة‬ أثناء الموجة‬](../warehousing/configure-task-based-wave-label-printing.md) |
 | إدارة المستودعات | [ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة](../warehousing/whats-new-wma.md) |
 

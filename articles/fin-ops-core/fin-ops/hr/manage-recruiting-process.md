@@ -1,31 +1,31 @@
 ---
 title: إدارة عمليات التوظيف
 description: يصف هذا الموضوع مفهومًا يمكن لمسؤولي التوظيف استخدامه لتتبع خطوات عملية التوظيف.
-author: andreabichsel
+author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075465"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735363"
 ---
 # <a name="manage-recruiting-processes"></a>إدارة عمليات التوظيف
 
 > [!IMPORTANT]
-> تتوفر الوظيفة المذكورة في هذا الموضوع حاليًا لعملاء Human Resources في بنية Finance الأساسية  
+> سيُشار إلى وظيفة التوظيف في هذا الموضوع باعتبارها مشاريع توظيف وستركز على مقدمي الطلبات والطلبات ومشاريع التوظيف. 
 
 
 يوضح هذا الموضوع مفهوم يمكن للمُعينين استخدامه لتعقب خطوات عملية تعيين، بما في ذلك الجهود الرامية إلى الإعلان عن مناصب شاغرة وتوظيف مقدمي الطلبات، وتعقب مقدم الطلب ومعلومات مقدم الطلب، وإجراء المقابلات مع مقدمي الطلبات، وتحديد واحد أو أكثر من المرشحين لشغل المناصب الشاغرة في المؤسسة الخاصة بك.
