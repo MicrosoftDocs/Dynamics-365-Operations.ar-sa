@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524454"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786854"
 ---
 # <a name="inventory-visibility-public-apis"></a>واجهات API العامة لرؤية المخزون
 
@@ -41,17 +41,22 @@ ms.locfileid: "8524454"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | ترحيل | [تعيين/تجاوز الكميات المتاحة](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | ترحيل | [إنشاء حدث حجز واحد](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | ترحيل | [إنشاء أحداث حجز متعددة](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/on-hand/changeschedule | ترحيل | [إنشاء تغيير فعلي مجدول](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/on-hand/changeschedule/bulk | ترحيل | [إنشاء تغييرات فعلية مجدولة](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule | ترحيل | [إنشاء تغيير فعلي مجدول](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | ترحيل | [إنشاء تغييرات فعلية مجدولة](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | ترحيل | [الاستعلام باستخدام أسلوب الترحيل](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | إحضار | [الاستعلام باستخدام أسلوب الحصول](#query-with-get-method) |
+| /api/environment/{environmentId}/allocation/allocate | ترحيل | [إنشاء حدث تخصيص واحد](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/unallocate | ترحيل | [إنشاء حدث إلغاء تخصيص واحد](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/reallocate | ترحيل | [إنشاء حدث إعادة تخصيص واحد](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/consume | ترحيل | [إنشاء حدث استهلاك واحد](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/query | ترحيل | [نتيجة تخصيص استعلام](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > جزء {environmentId} من المسار هو معرف البيئة في Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > يمكن لواجهة برمجة التطبيقات المجمعة إرجاع 512 سجلاً كحد أقصى لكل طلب.
 
-قدمت Microsoft مجموعة طلبات *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+قدمت Microsoft مجموعة طلبات *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>البحث عن نقطة النهاية وفقًا لبيئة Lifecycle Services الخاصة بك
 
@@ -84,7 +89,7 @@ ms.locfileid: "8524454"
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>مصادقة
 
-يتم استخدام رمز أمان النظام الأساسي لاستدعاء واجهة برمجة التطبيقات العامة لرؤية المخزون. ولذلك، يجب إنشاء رمز _Azure Active Directory (Azure AD) المميز_ باستخدام تطبيق Azure AD. يجب استخدام رمز Azure AD المميز للحصول على _رمز الوصول المميز_ من خدمة الأمان.
+يتم استخدام رمز أمان النظام الأساسي لاستدعاء واجهة برمجة التطبيقات العامة لرؤية المخزون. لذلك، يجب إنشاء الرمز المميز _Azure Active Directory (Azure AD)_ باستخدام تطبيق Azure AD. يجب استخدام رمز Azure AD المميز للحصول على _رمز الوصول المميز_ من خدمة الأمان.
 
 توفر Microsoft مجموعة الحصول على الرمز المميز *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -539,7 +544,7 @@ Body:
 }
 ```
 
-توضح الامثله التالية كيفية الاستعلام عن كافة المنتجات في موقع ومكان محددين.
+يوضح المثال التالي كيفية الاستعلام عن جميع المنتجات في موقع وموقع معين.
 
 ```json
 {
@@ -580,6 +585,10 @@ Query(Url Parameters):
 
 ## <a name="available-to-promise"></a>متوفر حسب التعهد
 
-يمكنك إعداد رؤية المخزون للسماح بجدولة التغييرات الفعلية المستقبلية وحساب الكميات المتوفرة حسب التعهد (ATP). ATP ‏– هو كمية الصنف المتوفرة ويمكن التعهد بها لعميل في الفترة التالية. قد يؤدي استخدام حساب الكميات المتوفرة حسب التعهد (ATP) إلى زيادة قدرة تنفيذ الطلبات بشكل كبير. للحصول على معلومات حول كيفية تمكين هذه الميزة، وكيفية التفاعل مع رؤية المخزون من خلال واجهة برمجة التطبيقات (API) الخاصة بها بعد تمكين الميزة، راجع  [جداول التغييرات الفعلية لرؤية المخزون والمتوفر حسب التعهد](inventory-visibility-available-to-promise.md).
+يمكنك إعداد رؤية المخزون للسماح بجدولة التغييرات الفعلية المستقبلية وحساب الكميات المتوفرة حسب التعهد (ATP). ATP ‏– هو كمية الصنف المتوفرة ويمكن التعهد بها لعميل في الفترة التالية. قد يؤدي استخدام حساب الكميات المتوفرة حسب التعهد (ATP) إلى زيادة قدرة تنفيذ الطلبات بشكل كبير. للحصول على معلومات حول كيفية تمكين هذه الميزة، وكيفية التفاعل مع رؤية المخزون من خلال واجهة برمجة التطبيقات (API) الخاصة بها بعد تمكين الميزة، راجع  [جداول التغييرات الفعلية لرؤية المخزون والمتوفر حسب التعهد](inventory-visibility-available-to-promise.md#api-urls).
+
+## <a name="allocation"></a>التوزيع
+
+توجد واجهات برمجة التطبيقات المتعلقة بالتخصيص في [تخصيص رؤية المخزون](inventory-visibility-allocation.md#using-allocation-api).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

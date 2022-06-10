@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740641"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758758"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>وصف الخدمة لتطبيقات التمويل والعمليات
 
@@ -132,9 +132,9 @@ ms.locfileid: "8740641"
 
 يوفر LCS [أدوات الخدمة الذاتية](../../dev-itpro/deployment/infrastructure-stack.md)و[عمليات نقل قاعدة البيانات](../../dev-itpro/database/dbmovement-operations.md) التي يتم استخدامها لأداء مهام إدارة البيئات والبيانات. فيما يلي بعض الأمثلة:
 
-**الحدث:** [طلب مثيل إنتاج](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**الحدث:** [طلب مثيل إنتاج](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- قم بإكمال [قائمه اختيار الانتقال إلى الوضع المباشر](../imp-lifecycle/prepare-go-live.md)، وقم بإرسالها إلى فريق [Microsoft FastTrack](/dynamics365/fasttrack/).
+- قم بإكمال [مراجعة الاستعداد للعرض المباشر](../imp-lifecycle/prepare-go-live.md)، وقم بإرسالها إلى فريق [Microsoft FastTrack](/dynamics365/fasttrack/).
 - أكمل [وحدة تقدير اشتراك LCS](../../dev-itpro/lifecycle-services/subscription-estimator.md) قبل طلب مثيل الإنتاج.
 - أكمل كافة مهام التنفيذ المحددة في [منهج LCS](../../dev-itpro/lifecycle-services/create-methodology.md).
 

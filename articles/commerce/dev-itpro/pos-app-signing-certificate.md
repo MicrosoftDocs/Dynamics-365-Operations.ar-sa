@@ -1,8 +1,8 @@
 ---
-title: التوقيع على نقطة البيع الحديثة بواسطة شهادة توقيع التعليمات البرمجية
+title: توقيع ملف MPOS .appx بشهادة توقيع رمز
 description: يشرح هذا الموضوع كيفية التوقيع على نقطة البيع الحديثة بواسطة شهادة توقيع التعليمات البرمجية.
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741532"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811075"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>التوقيع على MPOS appx بواسطة شهادة توقيع التعليمات البرمجية
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>توقيع ملف MPOS .appx بشهادة توقيع رمز
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 لتثبيت Modern POS (MPOS)، يجب عليك التوقيع على تطبيق MPOS بشهادة توقيع التعليمات البرمجية من موفر موثوق وتثبيت نفس الشهادة على جميع الأجهزة حيث تم تثبيت MPOS ضمن المجلد الجذر الموثوق به للمستخدم الحالي.
 
@@ -42,7 +43,7 @@ ms.locfileid: "8741532"
 ![سير عمل التوقيع على التطبيق MPOS.](media/POSSigningFlow.png)
 
 > [!NOTE]
-> تدعم حزمة OOB حاليًا التوقيع على ملف appx فقط، ولم يتم التوقيع على مثبتات الخدمة الذاتية المختلفة مثل MPOIS وRSSU وHWS بواسطة هذه العملية. تحتاج إلى التوقيع عليه يدويًا باستخدام SignTool أو أدوات توقيع أخرى. يجب تثبيت الشهادة المستخدمة للتوقيع على ملف appx في الجهاز حيث تم تثبيت Modern POS.
+> تدعم حزمة OOB حاليًا التوقيع على ملف appx. فقط، ولم يتم التوقيع على مثبتات الخدمة الذاتية المختلفة مثل MPOIS وRSSU وHWS بواسطة هذه العملية. تحتاج إلى التوقيع عليه يدويًا باستخدام SignTool أو أدوات توقيع أخرى. يجب تثبيت الشهادة المستخدمة للتوقيع على ملف appx. في الجهاز حيث تم تثبيت Modern POS.
 
 ## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>الخطوات المطلوبة بتكوين الشهادة للتوقيع في Azure Pipelines
 
@@ -51,21 +52,22 @@ ms.locfileid: "8741532"
 قم بتنزيل [DownloadFile task](/visualstudio/msbuild/downloadfile-task) وأضفتها باعتبارها الخطوة الأولى في عملية البناء. تتمثل ميزة استخدام مهمة الملف الآمن في أن الملف يتم تشفيره ووضعه في القرص أثناء الإنشاء بغض النظر عما إذا كان تدفق البناء قد نجح أو فشل أو تم إلغاؤه. يتم حذف الملف من موقع التحميل بعد إتمام عمليه البناء.
 
 1. قم بتنزيل مهمة الملف الآمن وإضافتها باعتبارها الخطوة الأولى في تدفق البناء في Azure. يمكنك تنزيل مهمة الملف الآمن من [DownloadFile](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
-2. قم بتحميل الشهادة إلى مهمة الملف الآمن وقم بتعيين اسم المرجع ضمن متغيرات الإخراج، كما هو موضح في الصورة التالية.
+1. قم بتحميل الشهادة إلى مهمة الملف الآمن وقم بتعيين اسم المرجع ضمن متغيرات الإخراج، كما هو موضح في الصورة التالية.
     > [!div class="mx-imgBorder"]
     > ![مهمة الملف الآمن.](media/SecureFile.png)
-3. أنشئ متغيرًا جديدًا في Azure Pipelines عن طريق تحديد **متغير جديد** ضمن علمة تبويب **المتغيرات**.
-4. أدخل اسمًا للمتغير في حقل القيمة، على سبيل المثال، **MySigningCert**.
-5. احفظ المتغير.
-6. افتح الملف **Customization.settings** من **RetailSDK\\BuildTools** وقم بتحديث **ModernPOSPackageCertificateKeyFile** بواسطة اسم المتغير الذي تم إنشاؤه في التدفق (الخطوة 3). على سبيل المثال:
+1. أنشئ متغيرًا جديدًا في Azure Pipelines عن طريق تحديد **متغير جديد** ضمن علمة تبويب **المتغيرات**.
+1. أدخل اسمًا للمتغير في حقل القيمة، على سبيل المثال، **MySigningCert**.
+1. احفظ المتغير.
+1. افتح الملف **Customization.settings** من **RetailSDK\\BuildTools** وقم بتحديث **ModernPOSPackageCertificateKeyFile** بواسطة اسم المتغير الذي تم إنشاؤه في التدفق (الخطوة 3). على سبيل المثال:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     هذه الخطوة مطلوبة إذا لم تكن الشهادة محمية بكلمة مرور. إذا كانت الشهادة محمية بكلمة مرور، فتابع الخطوات التالية.
- 
-7. في علامة التبويب **المتغيرات** الخاصة بالتدفق، أضف متغير secure-text جديدًا. عيّن الاسم إلى **MySigningCert.secret** وعيّن قيمة كلمة المرور للشهادة. حدد أيقونة القفل لتأمين المتغير.
-8. أضف مهمة **Powershell Script** إلى الدفق (بعد تنزيل الملف الآمن وقبل خطوة البناء). أدخل اسم **العرض** وعيّن النوع على أنه **مضمن**. انسخ والصق ما يلي في قسم البرنامج النصي.
+    
+1. إذا كنت تريد توقيع ملف MPOS .appx عند توقيعه بشهادة، فافتح ملف **Retail SDK\\أداة الإنشاء\\Customization.settings**، وقم بتحديث متغير **ModernPOSPackageCertificateTimestamp** بموفر الطابع الزمني (على سبيل المثال، `http://timestamp.digicert.com`).
+1. في علامة التبويب **المتغيرات** الخاصة بالتدفق، أضف متغير secure-text جديدًا. عيّن الاسم إلى **MySigningCert.secret** وعيّن قيمة كلمة المرور للشهادة. حدد أيقونة القفل لتأمين المتغير.
+1. أضف مهمة **Powershell Script** إلى الدفق (بعد تنزيل الملف الآمن وقبل خطوة البناء). أدخل اسم **العرض** وعيّن النوع على أنه **مضمن**. انسخ والصق ما يلي في قسم البرنامج النصي.
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ ms.locfileid: "8741532"
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. افتح الملف **Customization.settings** من **RetailSDK\\BuildTools** وقم بتحديث **ModernPOSPackageCertificateThumbprint** بواسطة قيمة بصمة إبهام الشهادة.
+1. افتح الملف **Customization.settings** من **RetailSDK\\BuildTools** وقم بتحديث **ModernPOSPackageCertificateThumbprint** بواسطة قيمة بصمة إبهام الشهادة.
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,7 +84,6 @@ ms.locfileid: "8741532"
  
 للحصول على تفاصيل حول كيفية الحصول على بصمه إبهام الشهادة، راجع [استرداد بصمة إبهام الشهادة](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint). 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>تنزيل أو إنشاء شهادة للتوقيع على تطبيق MPOS يدويًا باستخدام msbuild في SDK
 
 إذا تم استخدام شهادة تم تنزيلها أو إنشاؤها للتوقيع على تطبيق MPOS، فعليك عندئذٍ تحديث العقدة **ModernPOSPackageCertificateKeyFile** في الملف **BuildTools\\Customization.settings** للإشارة إلى موقع ملف pfx (**$(SdkReferencesPath)\\appxsignkey.pfx**). على سبيل المثال:

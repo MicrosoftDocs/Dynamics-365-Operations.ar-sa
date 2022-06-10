@@ -2,7 +2,7 @@
 title: جداول التغيير الفعلية لرؤية المخزون والمتوفرة حسب التعهد
 description: يوضح هذا الموضوع كيفية جدولة التغييرات الفعلية المستقبلية وحساب الكميات المتاحة للتعهد (ATP).
 author: yufeihuang
-ms.date: 03/04/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7ce868871f093fd734a466bb8a06c5782bf83302
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
+ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525874"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763242"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>جداول التغيير الفعلية لرؤية المخزون والمتوفرة حسب التعهد
 
@@ -32,9 +32,12 @@ ms.locfileid: "8525874"
 
 ### <a name="set-up-calculated-measures-for-atp-quantities"></a>إعداد القياسات المحسوبة لكميات ATP
 
-*مقياس ATP المحسوب* هو مقياس محسوب محدد مسبقًا يُستخدم عادةً للعثور على الكمية المتوفرة حاليًا. مجموع كميات معدّل الإضافة هو كمية العرض، ومجموع كميات معدّل الطرح هو كمية الطلب.
+*مقياس ATP المحسوب* هو مقياس محسوب محدد مسبقًا يُستخدم عادةً للعثور على الكمية المتوفرة حاليًا. *كمية التوريد* هي مجموع الكميات لتلك المقاييس المادية التي لها نوع معدل *الجمع* و *كمية الطلب* هي مجموع كميات تلك القياسات المادية التي لها نوع معدل *الطرح*.
 
-يمكنك إضافة عدة مقاييس محسوبة لحساب كميات ATP. ومع ذلك، يجب أن يكون العدد الإجمالي للمعدِّلات عبر جميع المقاييس المحسوبة لـ ATP أقل من تسعة.
+يمكنك إضافة عدة مقاييس محسوبة لحساب كميات ATP متعددة. ومع ذلك، يجب أن يكون العدد الإجمالي للقياسات الفيزيائية المميزة عبر جميع المقاييس المحسوبة للاعبي التنس المحترفين أقل من تسعة.
+
+> [!IMPORTANT]
+> المقياس المحسوب هو تركيبة من القياسات الفيزيائية. يمكن أن تتضمن صيغته قياسات فيزيائية فقط بدون نسخ مكررة، وليس قياسات محسوبة.
 
 على سبيل المثال، يمكنك إعداد القياس المحسوب التالي:
 
@@ -43,6 +46,12 @@ ms.locfileid: "8525874"
 ويمثل مجموع (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) التوريد، ويمثل مجموع (*ReservPhysical* + *SoftReservePhysical* + *Outbound*) الطلب. وبالتالي، يمكن فهم المقياس المحسوب بالطريقة التالية:
 
 **الفعلي المتوفر** = *التوريد* - *الطلب*
+
+يمكنك إضافة مقياس محسوب آخر لحساب كمية ATP **الفعلية المتاحة**.
+
+**On-hand-physical** = (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) – (*Outbound*)
+
+هناك ثمانية مقاييس فيزيائية مميزة عبر هذين المقياسين المحسوبين لـ ATP: *PhysicalInvent*، و *OnHand*، و *Unrestricted*، و *QualityInspection*، و *Inbound*، و *ReservPhysical*، و *SoftReservePhysical*، و *Outbound*.
 
 لمزيد من المعلومات حول المقاييس المحسوبة، راجع [المقاييس المحسوبة](inventory-visibility-configuration.md#calculated-measures).
 
@@ -80,7 +89,7 @@ ms.locfileid: "8525874"
 
 عندما تقوم بالاستعلام عن "رؤية المخزون" للكميات الفعلية وكميات ATP، فإنها تُرجع المعلومات التالية لكل يوم في فترة الجدولة:
 
-- **التاريخ** - التاريخ الذي تنطبق عليه النتيجة.
+- **التاريخ** - التاريخ الذي تنطبق عليه النتيجة. المنطقة الزمنية هي التوقيت العالمي (UTC).
 - **الكمية الفعلية** – الكمية الحالية الفعلية في التاريخ المحدد. يتم إجراء هذا الحساب وفقًا لمقياس ATP المحسوب الذي تم تكوينه لرؤية المخزون.
 - **التوريد المجدول** - مجموع كافة الكميات الواردة المجدولة التي لم تصبح متاحة فعليًا للاستهلاك الفوري أو الشحن اعتبارًا من التاريخ المحدد.
 - **الطلب المجدول** – مجموع كافة الكميات الصادرة المجدولة التي لم يتم استهلاكها أو شحنها اعتبارًا من التاريخ المحدد.
@@ -108,79 +117,79 @@ ms.locfileid: "8525874"
 
     | التاريخ | الكمية المتاحة | التوريد المجدول | الطلب المجدول | الفعلي المتوقع | متوفر للتعهد (ATP) |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | | | 17 | 17 |
-    | 2022/02/04 | 20 | | | 17 | 17 |
-    | 2022/02/05 | 20 | | | 17 | 17 |
-    | 2022/02/06 | 20 | | | 17 | 17 |
-    | 2022/02/07 | 20 | | | 17 | 17 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | | | 17 | 17 |
+    | 2022-02-04 | 20 | | | 17 | 17 |
+    | 2022-02-05 | 20 | | | 17 | 17 |
+    | 2022-02-06 | 20 | | | 17 | 17 |
+    | 2022-02-07 | 20 | | | 17 | 17 |
 
 1. في التاريخ الحالي (1 فبراير 2022)، يتم إرسال كميه توريد مجدولة قدرها 10 بحلول تاريخ 3 فبراير 2022. يعرض الجدول التالي النتيجة.
 
     | التاريخ | الكمية المتاحة | التوريد المجدول | الطلب المجدول | الفعلي المتوقع | متوفر للتعهد (ATP) |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 17 |
-    | 2022/02/02 | 20 | | | 17 | 17 |
-    | 2022/02/03 | 20 | 10 | | 27 | 27 |
-    | 2022/02/04 | 20 | | | 27 | 27 |
-    | 2022/02/05 | 20 | | | 27 | 27 |
-    | 2022/02/06 | 20 | | | 27 | 27 |
-    | 2022/02/07 | 20 | | | 27 | 27 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | 10 | | 27 | 27 |
+    | 2022-02-04 | 20 | | | 27 | 27 |
+    | 2022-02-05 | 20 | | | 27 | 27 |
+    | 2022-02-06 | 20 | | | 27 | 27 |
+    | 2022-02-07 | 20 | | | 27 | 27 |
 
 1. في التاريخ الحالي (1 فبراير 2022)، تقوم بإرسال تغييرات الكمية المجدولة التالية:
 
     - تُقدر كمية الطلبات بعدد 15 طلب في 4 فبراير 2022
     - تُقدر كمية التوريد بعدد 1 في 5 فبراير 2022
-    - تُقدر كمية الطلبات بعدد 3 طلبات في 6 فبراير 2022
+    - تُقدر كمية التوريد بعدد 3 في 6 فبراير 2022
 
     يعرض الجدول التالي النتيجة.
 
     | التاريخ | الكمية المتاحة | التوريد المجدول | الطلب المجدول | الفعلي المتوقع | متوفر للتعهد (ATP) |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 20 | | 3 | 17 | 12 |
-    | 2022/02/02 | 20 | | | 17 | 12 |
-    | 2022/02/03 | 20 | 10 | | 27 | 12 |
-    | 2022/02/04 | 20 | | 15 | 12 | 12 |
-    | 2022/02/05 | 20 | 1 | | 13 | 13 |
-    | 2022/02/06 | 20 | 3 | | 16 | 16 |
-    | 2022/02/07 | 20 | | | 16 | 16 |
+    | 2022-02-01 | 20 | | 3 | 17 | 12 |
+    | 2022-02-02 | 20 | | | 17 | 12 |
+    | 2022-02-03 | 20 | 10 | | 27 | 12 |
+    | 2022-02-04 | 20 | | 15 | 12 | 12 |
+    | 2022-02-05 | 20 | 1 | | 13 | 13 |
+    | 2022-02-06 | 20 | 3 | | 16 | 16 |
+    | 2022-02-07 | 20 | | | 16 | 16 |
 
 1. في التاريخ الحالي (1 فبراير 2022)، تقوم بشحن كمية الطلب المجدولة والمقدرة بعدد 3. وبالتالي، يجب عليك تنفيذ هذا التغيير بحيث ينعكس في الكمية الحالية الفعلية لديك. لإجراء التغيير، يمكنك إرسال حدث تغيير فعلي به كمية صادرة تُقدر بعدد 3. يمكنك بعد ذلك إرجاع التغيير المجدول عن طريق إرسال جدول تغيير فعلي يحتوي على كمية صادرة قدرها -3. يعرض الجدول التالي النتيجة.
 
     | التاريخ | الكمية المتاحة | التوريد المجدول | الطلب المجدول | الفعلي المتوقع | متوفر للتعهد (ATP) |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/01 | 17 | | 0 | 17 | 12 |
-    | 2022/02/02 | 17 | | | 17 | 12 |
-    | 2022/02/03 | 17 | 10 | | 27 | 12 |
-    | 2022/02/04 | 17 | | 15 | 12 | 12 |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
+    | 2022-02-01 | 17 | | 0 | 17 | 12 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
 
 1. في اليوم التالي (2 فبراير 2022)، يتم نقل فتره الجدولة إلى الأمام بمقدار يوم واحد. يعرض الجدول التالي النتيجة.
 
     | التاريخ | الكمية المتاحة | التوريد المجدول | الطلب المجدول | الفعلي المتوقع | متوفر للتعهد (ATP) |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/02 | 17 | | | 17 | 12 |
-    | 2022/02/03 | 17 | 10 | | 27 | 12 |
-    | 2022/02/04 | 17 | | 15 | 12 | 12 |
-    | 2022/02/05 | 17 | 1 | | 13 | 13 |
-    | 2022/02/06 | 17 | 3 | | 16 | 16 |
-    | 2022/02/07 | 17 | | | 16 | 16 |
-    | 2022/02/08 | 17 | | | 16 | 16 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
+    | 2022-02-08 | 17 | | | 16 | 16 |
 
 1. ومع ذلك، بعد يومين أي في (4 فبراير 2022)، لم تصل كمية التوريد المقدرة بعدد 10 التي تم جدولتها ليوم 3 فبراير. يعرض الجدول التالي النتيجة.
 
     | التاريخ | الكمية المتاحة | التوريد المجدول | الطلب المجدول | الفعلي المتوقع | متوفر للتعهد (ATP) |
     | --- | --- | --- | --- | --- | --- |
-    | 2022/02/04 | 17 | | 15 | 2 | 2 |
-    | 2022/02/05 | 17 | 1 | | 3 | 3 |
-    | 2022/02/06 | 17 | 3 | | 6 | 6 |
-    | 2022/02/07 | 17 | | | 6 | 6 |
-    | 2022/02/08 | 17 | | | 6 | 6 |
-    | 2022/02/09 | 17 | | | 6 | 6 |
-    | 2022/02/10 | 17 | | | 6 | 6 |
+    | 2022-02-04 | 17 | | 15 | 2 | 2 |
+    | 2022-02-05 | 17 | 1 | | 3 | 3 |
+    | 2022-02-06 | 17 | 3 | | 6 | 6 |
+    | 2022-02-07 | 17 | | | 6 | 6 |
+    | 2022-02-08 | 17 | | | 6 | 6 |
+    | 2022-02-09 | 17 | | | 6 | 6 |
+    | 2022-02-10 | 17 | | | 6 | 6 |
 
     وكما ترى، لا تؤثر التغييرات الفعلية المجدولة (والتي لم يتم تنفيذها) على الكمية الحالية الفعلية.
 
@@ -190,8 +199,8 @@ ms.locfileid: "8525874"
 
 | المسار | الطريقة | ‏‏الوصف‬ |
 | --- | --- | --- |
-| `/api/environment/{environmentId}/on-hand/changeschedule` | `POST` | يمكنك إنشاء تغيير فعلي مجدول. |
-| `/api/environment/{environmentId}/on-hand/changeschedule/bulk` | `POST` | يمكنك إنشاء تغييرات فعلية مجدولة. |
+| `/api/environment/{environmentId}/onhand/changeschedule` | `POST` | يمكنك إنشاء تغيير فعلي مجدول. |
+| `/api/environment/{environmentId}/onhand/changeschedule/bulk` | `POST` | يمكنك إنشاء تغييرات فعلية مجدولة. |
 | `/api/environment/{environmentId}/onhand` | `POST` | يمكنك إنشاء حدث تغيير فعلي واحد |
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | يمكنك إنشاء أحداث تغيير متعددة. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | الاستعلام باستخدام الأسلوب `POST`. |
@@ -199,31 +208,46 @@ ms.locfileid: "8525874"
 
 لمزيد من المعلومات، راجع [واجهات برمجة التطبيقات العامة لرؤية المخزون](inventory-visibility-api.md).
 
-### <a name="submit-on-hand-change-schedules"></a>إرسال جداول التغييرات الفعلية
+### <a name="create-one-on-hand-change-schedule"></a>إنشاء جدول تغيير واحد متاح
 
-يتم إجراء جداول التغيير الفعلية من خلال إرسال طلب `POST` إلى عنوان URL لخدمة رؤية المخزون ذات الصلة (راجع القسم [إرسال جداول التغيير وأحداث التغيير واستعلامات ATP من خلال واجهة برمجة التطبيقات](#api-urls)). يمكنك أيضًا تقديم طلبات مجمعة.
+يتم إنشاء جدول تغيير متاح من خلال إرسال طلب `POST` إلى عنوان URL لخدمة رؤية المخزون ذات الصلة (راجع القسم [إرسال جداول التغيير وأحداث التغيير واستعلامات ATP من خلال واجهة برمجة التطبيقات](#api-urls)). يمكنك أيضًا تقديم طلبات مجمعة.
 
-لإرسال جدول تغيير فعلي، يجب أن يحتوي نص الطلب على معرف مؤسسة ومعرف منتج وتاريخ الجدولة والكميات حسب التاريخ. يجب أن يكون التاريخ المجدول بين التاريخ الحالي ونهاية فترة الجدولة الحالية.
+يمكن إنشاء جدول تغيير فعلي فقط إذا كان التاريخ المجدول بين التاريخ الحالي ونهاية فترة الجدول الحالية. يجب أن يكون تنسيق التاريخ والوقت *السنة-الشهر-اليوم* (على سبيل المثال، **2022-02-01**). يجب أن يكون تنسيق الوقت دقيقًا لليوم فقط.
 
-#### <a name="example-request-body-that-contains-a-single-update"></a>مثال على نص طلب يحتوي على تحديث واحد
+تنشئ واجهة برمجة التطبيقات هذه جدولًا واحدًا للتغيير متاحًا.
 
-يوضح المثال التالي نص طلب يحتوي على تحديث واحد.
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantitiesByDate: {
+            [datetime:datetime]: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+    }
+```
+
+يظهر المثال التالي نموذج محتوى النص الأساسي دون `dimensionDataSource`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -232,38 +256,60 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "ColorId": "Red",
-        "SizeId": "Small"
+        "SizeId&quot;: &quot;Small"
     },
     "quantitiesByDate":
     {
-        "2022/02/01": // today
+        "2022-02-01": // today
         {
             "pos":{
-                "inbound": 10,
-            },
-        },
-    },
+                "inbound": 10
+            }
+        }
+    }
 }
 ```
 
-#### <a name="example-request-body-that-contains-multiple-bulk-updates"></a>مثال على نص طلب يحتوي على عدة تحديثات (مجمعة)
+### <a name="create-multiple-on-hand-change-schedules"></a>إنشاء جداول متعددة للتغيير متاح
 
-يوضح المثال التالي نص طلب يحتوي على عدة تحديثات (مجمعة).
+يمكن لواجهة برمجة التطبيقات هذه إنشاء سجلات متعددة في نفس الوقت. الاختلافات الوحيدة بين واجهة برمجة التطبيقات هذه وواجهة برمجة تطبيقات الحدث الواحد هي قيم `Path` و`Body`. بالنسبة لواجهة برمجة التطبيقات هذه، يوفر `Body` مجموعة من السجلات. الحد الأقصى لعدد السجلات هو 512. لذلك، يمكن لواجهة برمجة التطبيقات المجمعة لجدول التغيير الفعلي دعم ما يصل إلى 512 تغييرًا مجدولًا في المرة الواحدة.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantitiesByDate: {
+                [datetime:datetime]: {
+                    [dataSourceName:string]: {
+                        [key:string]: number,
+                    },
+                },
+            },
+        },
+        ...
+    ]
+```
+
+يظهر المثال التالي نموذج محتوى النص الأساسي.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule/bulk
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
 [
     {
         "id": "id-bike-0001",
@@ -273,67 +319,51 @@ Authorization: "Bearer {access_token}"
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/01": // today
+            "2022-02-01": // today
             {
                 "pos":{
-                    "inbound": 10,
-                },
-            },
-        },
+                    "inbound": 10
+                }
+            }
+        }
     },
     {
-        "id": "id-bike-0002",
+        "id": "id-car-0002",
         "organizationId": "usmf",
         "productId": "Car",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/05":
+            "2022-02-05":
             {
                 "pos":{
-                    "outbound": 10,
-                },
-            },
-        },
+                    "outbound": 10
+                }
+            }
+        }
     }
 ]
 ```
 
-### <a name="submit-on-hand-change-events"></a>إرسال أحداث التغيير الفعلية
+### <a name="create-on-hand-change-events"></a>إنشاء أحداث التغيير المتاحة
 
 يتم إجراء أحداث التغيير الفعلية من خلال إرسال طلب `POST` إلى عنوان URL لـ "خدمة رؤية المخزون" ذات الصلة (راجع القسم [إرسال جداول التغيير وأحداث التغيير واستعلامات ATP من خلال واجهة برمجة التطبيقات](#api-urls)). يمكنك أيضًا تقديم طلبات مجمعة.
 
 > [!NOTE]
-> لا تُعد أحداث التغيير الفعلية فريدة بالنسبة لوظيفة ATP ولكنها جزء من واجهة برمجة تطبيقات لرؤية المخزون القياسية. تم تضمين هذا المثال لأن الأحداث تكون ذات صلة عندما تعمل مستخدمًا ATP. تشبه أحداث التغيير الفعلي عمليات حجز التغيير الفعلية، ولكن يجب إرسال رسائل الأحداث إلى عنوان URL مختلف لواجهة برمجة التطبيقات، وتستخدم الأحداث `quantities` بدلاً من `quantityByDate` في نص الرسالة. لمزيد من المعلومات حول احداث التغييرات الفعلية والميزات الأخرى الخاصة برؤية واجهة برمجة التطبيقات لرؤية المخزون، راجع [واجهات برمجة التطبيقات العامة لرؤية المخزون](inventory-visibility-api.md).
-
-لإرسال حدث تغيير فعلي، يجب أن يحتوي نص الطلب على معرف مؤسسة ومعرف منتج وتاريخ الجدولة والكميات حسب التاريخ. يجب أن يكون التاريخ المجدول بين التاريخ الحالي ونهاية فترة الجدولة الحالية.
+> لا تُعد أحداث التغيير الفعلية فريدة بالنسبة لوظيفة ATP ولكنها جزء من واجهة برمجة تطبيقات لرؤية المخزون القياسية. تم تضمين هذا المثال لأن الأحداث تكون ذات صلة عندما تعمل مستخدمًا ATP. تشبه أحداث التغيير الفعلي عمليات حجز التغيير الفعلية، ولكن يجب إرسال رسائل الأحداث إلى عنوان URL مختلف لواجهة برمجة التطبيقات، وتستخدم الأحداث `quantities` بدلاً من `quantityByDate` في نص الرسالة. لمزيد من المعلومات حول احداث التغييرات الفعلية والميزات الأخرى الخاصة برؤية واجهة برمجة التطبيقات لرؤية المخزون، راجع [واجهات برمجة التطبيقات العامة لرؤية المخزون](inventory-visibility-api.md#create-one-onhand-change-event).
 
 يوضح المثال التالي نص طلب يحتوي على حدث تغيير فعلي واحد.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -342,7 +372,7 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "SizeId": "Big",
-        "ColorId": "Red",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -362,46 +392,71 @@ Authorization: "Bearer {access_token}"
 - إذا كنت تقوم بإرسال الطلب باستخدام الأسلوب `POST`، قم بتعيين هذه المعلمة في النص الأساسي للطلب.
 
 > [!NOTE]
-> بغض النظر عما إذا كانت المعلمة `returnNegative`معينه إلى *true* أو *false* في النص الأساسي للطلب، فسوف تتضمن النتيجة قيمًا سالبه عند الاستعلام عن التغييرات الفعلية المجدولة ونتائج ATP. سيتم تضمين هذه القيم السالبة لأنه في حالة جدولة أوامر الطلب فقط، أو إذا كانت كميات التوريد أقل من كميات الطلب، فإن كميات التغيير المجدولة الفعلية ستكون سالبة. إذا لم تكن القيم السالبة متضمنة، فقد تكون النتائج محيرة. لمزيد من المعلومات حول هذا الخيار وكيف يعمل مع أنواع أخرى من الاستعلامات، راجع [واجهات برمجة التطبيقات العامة لرؤية المخزون](inventory-visibility-api.md).
+> بغض النظر عما إذا كانت المعلمة `returnNegative`معينه إلى *true* أو *false* في النص الأساسي للطلب، فسوف تتضمن النتيجة قيمًا سالبه عند الاستعلام عن التغييرات الفعلية المجدولة ونتائج ATP. سيتم تضمين هذه القيم السالبة لأنه في حالة جدولة أوامر الطلب فقط، أو إذا كانت كميات التوريد أقل من كميات الطلب، فإن كميات التغيير المجدولة الفعلية ستكون سالبة. إذا لم تكن القيم السالبة متضمنة، فقد تكون النتائج محيرة. لمزيد من المعلومات حول هذا الخيار وكيف يعمل مع أنواع أخرى من الاستعلامات، راجع [واجهات برمجة التطبيقات العامة لرؤية المخزون](inventory-visibility-api.md#query-with-post-method).
 
-### <a name="post-method-example"></a>مثال لأسلوب POST
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
 
 يوضح المثال التالي كيفية إنشاء النص الأساسي للطلب الذي يمكن إرساله إلى رؤية المخزون باستخدام الأسلوب`POST`.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/indexquery
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
         "siteId": ["1"],
-        "LocationId": ["11"],
+        "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true,
-    "QueryATP":true,
+    "QueryATP":true
 }
 ```
 
 ### <a name="get-method-example"></a>مثال لأسلوب GET
 
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
 يوضح المثال التالي كيفية إنشاء طلب URL كطلب `GET`.
 
 ```txt
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
 ```
 
 نتيجة الطلب `GET` هي نفسها نتيجة الطلب `POST` في المثال السابق.

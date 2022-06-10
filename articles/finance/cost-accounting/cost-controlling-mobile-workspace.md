@@ -2,7 +2,7 @@
 title: مساحة العمل المحمولة للتحكم في التكلفة
 description: يقدم هذا الموضوع معلومات حول مساحة العمل المحمولة - التحكم في التكلفة. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان.
 author: AndersGirke
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,21 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 75d8abaeec85b46f0fd0e430040bc7e3a8fd3042
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734036"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811313"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>مساحة العمل المحمولة للتحكم في التكلفة
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 يقدم هذا الموضوع معلومات حول مساحة العمل المحمولة **التحكم في التكلفة**. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان.
 
-مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة. 
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations (Dynamics 365) للأجهزة المحمولة. 
 
 ## <a name="overview"></a>نظرة عامة
 توفر مساحة العمل المحمولة **التحكم في التكلفة** طريقة عرض فورية للأداء الحالي لمراكز التكلفة من خلال مقارنة التكاليف الفعلية في مقابل التكاليف المُدرجة في الموازنة. يمكنك التنقل لأسفل لمشاهدة حالة عناصر التكلفة الفردية.
@@ -113,7 +114,7 @@ ms.locfileid: "8734036"
 
 
 ## <a name="download-and-install-the-mobile-app"></a>تنزيل وتثبيت تطبيق المحمول
-تنزيل وتثبيت تطبيق Finance and Operations للأجهزة المحمولة:
+تنزيل وتثبيت تطبيق Finance and Operations (Dynamics 365) للأجهزة المحمولة:
 
 -   [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

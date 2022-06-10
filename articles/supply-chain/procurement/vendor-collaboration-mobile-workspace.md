@@ -2,7 +2,7 @@
 title: مساحة العمل المحمولة لتعاون المورد
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "تعاون المورد‬". تساعد مساحة العمل هذه الموردين على البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها. ويمكنهم أيضًا عرض معلومات حول جهات الاتصال وأوامر الشراء الجديدة والمحدثة.
 author: GalynaFedorova
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,21 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670093"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811703"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>مساحة العمل المحمولة لتعاون المورد
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **تعاون المورد**. تساعد مساحة العمل هذه الموردين على البقاء على اطلاع دائم على أوامر الشراء التي تم إرسالها إليهم للموافقة عليها. ويمكنهم أيضًا عرض معلومات حول جهات الاتصال وأوامر الشراء الجديدة والمحدثة.
 
-مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة. 
+مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations (Dynamics 365) للأجهزة المحمولة. 
 
 ## <a name="overview"></a>نظرة عامة 
 تسمح مساحة العمل المحمولة‬ **تعاون المورّد** للمورّدين بالبقاء على اطلاع دائم على أوامر الشراء الجديدة لكي يتمكنوا من رؤية أوامر الشراء والاستجابة لها في عميل ويب . 
@@ -109,7 +110,7 @@ ms.locfileid: "8670093"
 
 ## <a name="download-and-install-the-mobile-app"></a>تنزيل وتثبيت تطبيق المحمول
 
-تنزيل وتثبيت تطبيق Finance and Operations للأجهزة المحمولة:
+تنزيل وتثبيت تطبيق Finance and Operations (Dynamics 365) للأجهزة المحمولة:
 
 -   [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

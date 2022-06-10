@@ -2,7 +2,7 @@
 title: وجهات إعداد التقارير الإلكترونية (ER)‬
 description: يوفر هذا الموضوع معلومات حول إدارة وجهات إعداد التقارير الإلكترونية‬ (ER) وأنواع الوجهات المدعومة واعتبارات الأمان.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647082"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780449"
 ---
 # <a name="electronic-reporting-er-destinations"></a>وجهات إعداد التقارير الإلكترونية (ER)‬
 
@@ -45,7 +45,7 @@ ms.locfileid: "7647082"
 - الإصدار 7.0.1 من تطبيق Microsoft Dynamics AX (مايو 2016)
 - [الإصلاح العاجل لتطبيق إدارة وجهة إعداد التقارير الإلكترونية](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-يوجد أيضًا نوع وجهة [للطباعة](er-destination-type-print.md). لاستخدامه، يجب تثبيت Microsoft Dynamics 365 Finance بالإصدار 10.0.9 (أبريل 2020).
+يوجد أيضًا نوع وجهة [للطباعة](er-destination-type-print.md). لاستخدامه، يجب تثبيت الإصدار 10.0.9 (أبريل 2020) من Microsoft Dynamics 365 Finance.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -173,11 +173,11 @@ ms.locfileid: "7647082"
 
 ### <a name="limitations"></a>قيود
 
-لا يكون خيار التحويل إلى PDF إلا لعمليات نشر المجموعة فقط.
+اعتبارًا من **الإصدار 10.0.9** من Finance، يتوفر الخيار "تحويل PDF‬" لعمليات النشر في السحابة فقط. اعتبارًا من الإصدار **10.0.27** من Finance، يتوفر الخيار "تحويل PDF" لأي عملية نشر محلية تم فيها تمكين [اتصال الإنترنت‬](../user-interface/client-disconnected.md).
 
 يوجد حد أقصى لمستند PDF الناتج بطول 300 صفحة.
 
-في Finance **الإصدار 10.0.9**، لا يتم دعم إلا اتجاه الصفحة الأفقي فقط في مستند PDF الذي يتم إنتاجه من مخرجات Excel. في Finance **الإصدار 10.0.10 (مايو 2020) أو أحدث**، يمكنك [تحديد اتجاه الصفحة](#SelectPdfPageOrientation) في مستند PDF التي يتم إنتاجها من مخرجات Excel أثناء قيامك بتكوين وجهة ER.
+اعتبارًا من **الإصدار 10.0.9** من Finance، لا يتم دعم إلا اتجاه الصفحة الأفقي فقط في مستند PDF الذي يتم إنتاجه من مخرجات Excel. اعتبارًا من **الإصدار 10.0.10** من Finance، يمكنك [تحديد اتجاه الصفحة](#SelectPdfPageOrientation) في مستند PDF الذي يتم إنتاجه من مخرجات Excel أثناء قيامك بتكوين وجهة ER.
 
 لا يتم استخدام إلا خطوط النظام الشائعة لنظام تشغيل Window لتحويل مخرجات لا تحتوي على خطوط مضمنة.
 

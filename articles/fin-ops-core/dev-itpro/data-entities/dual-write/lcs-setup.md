@@ -2,19 +2,19 @@
 title: إعداد الكتابة المزدوجة من Lifecycle Services
 description: يوضح هذا الموضوع كيفيه اعداد اتصال ثنائي الكتابة من Microsoft Dynamics Lifecycle Services (LCS).
 author: laneswenka
-ms.date: 08/03/2021
+ms.date: 05/16/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 53e82fbf8cff834c9eb0d14a0597561158b85fa1
+ms.sourcegitcommit: 6744cc2971047e3e568100eae338885104c38294
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063662"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8783190"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>إعداد الكتابة المزدوجة من Lifecycle Services
 
@@ -26,12 +26,12 @@ ms.locfileid: "8063662"
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-يجب إكمال تكامل Power Platform كما هو موضح في الموضوعات التالية:
+يجب على العملاء إكمال تكامل Power Platform كما هو موضح في المواضيع التالية:
 
-+ [Power Platform التكامل - التمكين أثناء نشر البيئة](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [تكامل Power Platform - التمكين أثناء نشر البيئة](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
+- إذا كنت لا تستخدم Microsoft Power Platform حتى الآن وتريد توسيع بيئات Finance and Operations الخاصة بك عن طريق إضافة إمكانات النظام الأساسي، فراجع [تكامل Power Platform - التمكين أثناء نشر البيئة](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- إذا كان لديك بيئتا Dataverse وPower Platform بالفعل، وتريد توصيلهما ببيئات Finance and Operations، فراجع [تكامل Power Platform - التمكين بعد نشر البيئة](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>إعداد الكتابة المزدوجة لبيئات Dataverse الجديدة
+## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>إعداد الكتابة المزدوجة لبيئات Dataverse جديدة أو موجودة
 
 اتبع هذه الخطوات لإعداد الكتابة المزدوجة من الصفحة **تفاصيل بيئة** LCS:
 
@@ -55,28 +55,19 @@ ms.locfileid: "8063662"
 
 8. عند اكتمال الارتباط، يتم عرض ارتباط تشعبي. استخدم الارتباط لتسجيل الدخول إلى منطقة إدارة الكتابة المزدوجة في بيئة التمويل والعمليات. ومن هناك، يمكنك إعداد تعيينات الكيانات.
 
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>إعداد الكتابة المزدوجة لبيئة Dataverse موجودة
-
-لإعداد الكتابة الزدوجة لبيئة Dataverse موجودة، يجب عليك إنشاء [بطاقة دعم Microsoft](../../lifecycle-services/lcs-support.md). يجب أن تتضمن التذكرة:
-
-+ معرف بيئتك في التمويل والعمليات.
-+ اسم البيئة الخاصة بك من Lifecycle Services.
-+ معرف مؤسسة Dataverse أو معرف بيئة Power Platform من مركز مسؤول Power Platform. في البطاقة الخاصة بك، اطلب أن يكون المُعرف هو المثيل المستخدم لتكامل Power Platform.
-
-> [!NOTE]
-> لا يمكنك إلغاء ارتباط البيئات باستخدام LCS. لإلغاء ارتباط بيئة، افتح مساحة عمل **تكامل البيانات** في بيئة التمويل والعمليات، ثم حدد **إلغاء الارتباط**.
-
 ## <a name="linking-mismatch"></a>ربط عدم التطابق
 
-من الممكن أن يتم ربط بيئة LCS بمثيل Dataverse واحد، بينما ترتبط بيئة الكتابة المزدوجة بمثيل Dataverse آخر. قد يؤدي عدم التطابق هذا الارتباط سلوك غير متوقع ثم قد ينتهي إرسال البيانات إلى بيئة خاطئة. البيئة الموصى بها لاستخدامها للكتابة المزدوجة هي البيئة التي يتم إنشاؤها كجزء من تكامل Power Platform، وعلى المدى الطويل، ستكون هذه هي الطريقة الوحيدة لإنشاء رابط بين البيئات.
+من الممكن أن تكون بيئة الكتابة المزدوجة الخاصة بك مرتبطة بمثيل Dataverse بينما لم يتم إعداد LCS لتكامل Power Platform. يمكن أن يتسبب عدم تطابق الارتباط هذا في حدوث سلوك غير متوقع. من المستحسن أن تتطابق تفاصيل بيئة LCS مع ما تتصل به في الكتابة المزدوجة بحيث يمكن استخدام نفس الاتصال بواسطة أحداث العمل والجداول الافتراضية والوظائف الإضافية.
 
-إذا كانت البيئة لديك عدم تطابق ارتباط، يعرض LCS تحذيرا على صفحة تفاصيل البيئة الخاصة بك مشابهة ل "Microsoft قد اكتشفت أن البيئة الخاصة بك مرتبطة عبر الكتابة المزدوجة إلى وجهة مختلفة عن المحدد في تكامل Power Platform، وهو أمر غير مستحسن":
+إذا كانت بيئتك بها عدم تطابق في الارتباط، يعرض LCS تحذيرًا يشبه المثال التالي في صفحة تفاصيل البيئة الخاصة بك: "اكتشفت Microsoft أن بيئتك مرتبطة عبر الكتابة المزدوجة إلى وجهة مختلفة عن تلك المحددة في تكامل Power Platform، وهو أمر غير موصى به".
 
 :::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="ارتباط تكامل Power Platform غير متطابق.":::
 
-إذا واجهت هذا الخطأ هناك خياران، استنادا إلى احتياجاتك:
+إذا تلقيت هذا التحذير، فجرب أحد الحلول التالية:
 
-+ [إلغاء ربط وإعادة ربط بيئات الكتابة المزدوجة (إعادة تعيين الارتباط أو تغييره)](relink-environments.md#scenario-reset-or-change-linking)كما هو محدد في صفحة تفاصيل بيئة LCS. هذا هو الخيار المثالي، لأنه يمكنك تشغيله بدون دعم Microsoft.  
-+ إذا أردت الاحتفاظ بالارتباط في الكتابة المزدوجة، يمكنك طلب المساعدة من دعم Microsoft لتغيير تكامل Power Platform لاستخدام بيئة Dataverse الموجودة كما هو موثق في المقطع السابق.  
+- إذا لم يتم إعداد بيئة LCS الخاصة بك من أجل تكامل Power Platform، فيمكنك الاتصال بمثيل Dataverse، الذي تم تكوينه في الكتابة المزدوجة باتباع التعليمات الواردة في هذه المقالة.
+- إذا تم إعداد بيئة LCS بالفعل لتكامل Power Platform، فيجب إلغاء ربط الكتابة المزدوجة وإعادة توصيلها بالبيئة المحددة بواسطة LCS باستخدام [السيناريو: إعادة تعيين الارتباط أو تغييره](relink-environments.md#scenario-reset-or-change-linking).
+
+في الماضي، كان خيار تذكرة الدعم اليدوي متاحًا، ولكن كان ذلك قبل وجود الخيار 1 أعلاه.  لم تعد Microsoft تدعم طلبات إعادة الربط اليدوية عبر تذاكر الدعم.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

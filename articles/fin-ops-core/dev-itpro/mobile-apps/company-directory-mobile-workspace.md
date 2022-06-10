@@ -2,7 +2,7 @@
 title: مساحة العمل المحمولة "دليل الشركة"
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "دليل الشركة"، التي تسمح للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.
 author: jcart1106
-ms.date: 09/17/2019
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,20 +12,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b754e46f194f60cc70d02367d4cca2a382821191
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720638"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811528"
 ---
 # <a name="company-directory-mobile-workspace"></a>مساحة العمل المحمولة "دليل الشركة"
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **دليل الشركة**. تسمح مساحة العمل هذه للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.
 
-يمكن استخدام مساحة العمل المحمولة هذه مع تطبيق Finance and Operations للأجهزة المحمولة.
+يمكن استخدام مساحة العمل المحمولة هذه مخصصة مع تطبيق Finance and Operations للأجهزة المحمولة.
 
 ## <a name="overview"></a>نظرة عامة
 تسمح مساحة العمل المحمولة **دليل الشركة** للمستخدمين بتنفيذ هذه المهام:
@@ -54,7 +55,7 @@ ms.locfileid: "6720638"
 </ul>
 </td>
 <td>مسؤول النظام</td>
-<td>إذا لم يتم نشر تطبيق Finance and Operations في مؤسستك، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي‬</a>. إذا لم يتم نشر Human Resources في مؤسستك، فباستطاعة مسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://dynamics.microsoft.com/human-resources/overview/">صفحة ويب Human Resources</a>.
+<td>إذا لم يتم نشر &#39; Finance and Operations في مؤسستك، فراجع نشر <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>. إذا لم يتم نشر Human Resources في مؤسستك، فباستطاعة مسؤول النظام الوصول إلى إصدار تجريبي من <a href="https://dynamics.microsoft.com/human-resources/overview/">صفحة ويب Human Resources</a>.
 </td>
 </tr>
 <tr class="even">

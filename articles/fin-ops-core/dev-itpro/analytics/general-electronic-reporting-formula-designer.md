@@ -2,7 +2,7 @@
 title: مصمم المعادلات في التقارير الإلكترونية
 description: يوفر هذا الموضوع معلومات حول كيفية استخدام مصمم التركيبة في إعداد التقارير الإلكترونية (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777394"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782193"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>مصمم المعادلات في التقارير الإلكترونية
 
@@ -41,7 +41,8 @@ ms.locfileid: "6777394"
 - ربط عناصر مصدر البيانات بمكونات نموذج البيانات.
 - ربط عناصر مصدر البيانات بمكونات التنسيق.
 - إكمال صيانة الحقول المحتسبة كجزء من مصادر البيانات.
-- تعريف شروط إمكانية الرؤية‬ لمعلمات إدخال المستخدم‬.
+- تعريف شروط إمكانية الرؤية وقابلية التحرير‬ لمعلمات إدخال المستخدم‬.
+- تعريف القيم الافتراضية‬ لمعلمات إدخال المستخدم‬.
 - تصميم عمليات تحويل التنسيق.
 - تعريف شروط التمكين لمكونات التنسيق.
 - تعريف أسماء الملفات لمكونات ملف التنسيق.

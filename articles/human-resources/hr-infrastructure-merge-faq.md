@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688109"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809602"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>أسئلة شائعة حول دمج البنية الأساسية لـ Dynamics 365 Human Resources
 
@@ -131,6 +131,9 @@ ms.locfileid: "8688109"
 إذا كانت بيئات Dynamics 365 Human Resources والتمويل والعمليات التي ستنضم إلى البيئة على البنية الأساسية الجديدة متصلة ببيئة Dataverse نفسها، فسيستمر اتصال التطبيقين ببيئة Dataverse نفسها بعد الترحيل. لن يلزم ترحيل أي ملحقات Dataverse.
 
 لكن، إذا كانت بيئات Dynamics 365 Human Resources والتمويل والعمليات متصلة حاليًا ببيئات Dataverse منفصلة، فيجب أن يتم ضم بيئتي Dataverse بحيث تتصلان ببيئة واحدة على البنية الأساسية. لترحيل Dataverseهذا، يمكن توصيل جداول Dataverse القياسية إلى حلول الموارد البشرية وإعادة مزامنتها مع بيئة Dataverse الجديدة. لن يتم ترحيل أي ملحقات لبيئة Dataverse تلقائيا ولكن يجب إعادة نشرها في البيئة الجديدة. نوصي باستخدام الحلول المدارة لإدارة إضافات Dataverse. لمزيد من المعلومات، راجع [مقدمة للحلول](/powerapps/developer/data-platform/introduction-solutions).
+
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>لقد استخدمنا وظيفة الحقول المخصصة في Dynamics 365 Human Resources، هل سيتم ترحيل هذه الحقول المخصصة تلقائيًا؟
+نعم، سيتم ترحيل الحقول المخصصة التي تمت اضافتها إلى البنية الأساسية الجديدة.
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>لقد قمنا بتكوين تدفقات Microsoft Power Automate و/أو Microsoft Power Apps للعمل مع Dynamics 365 Human Resources. هل سيتم ترحيل مكونات Microsoft Power Platform هذه والعمل تلقائيا بعد اكتمال تغيير البنية الأساسية؟
 

@@ -2,19 +2,19 @@
 title: إخفاء معلومات التخفيف الضريبي في ملخصات الأوامر‬
 description: يصف هذا الموضوع كيفية إخفاء معلومات التخفيف الضريبي في ملخصات الأوامر‬ على عربة التسوق والسداد مع الخروج وتأكيد الأوامر وصفحات تفاصيل الأوامر في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 04/21/2022
+ms.date: 05/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: 9890b5cd92f8c07e6feabb26f4fdd076cb7a02bc
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9a0bff7afaa10e49ec05f18e2b0fae7a19b5e8af
+ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645210"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8767804"
 ---
 # <a name="hide-tax-breakup-information-in-order-summaries"></a>إخفاء معلومات التخفيف الضريبي في ملخصات الأوامر‬
 
@@ -46,6 +46,9 @@ ms.locfileid: "8645210"
 يبين الشكل التوضيحي التالي خانة الاختيار **إظهار التخفيف الضريبي في ملخص الأوامر** مميزة ومحددة في منشئ الموقع.
 
 ![خيار إظهار التخفيف الضريبي في ملخص الأوامر في منشئ الموقع.](media/prices-include-sales-tax-e-Commerce-site-settings.png)
+
+> [!NOTE]
+> إذا كنت قد قمت بتخصيص الوحدات النمطية لملخص الأمر ولا ترغب في وراثة الوظيفة "إخفاء معلومات التخفيف الضريبي في ملخصات الأوامر" في الإصدار 10.0.27 أو إصدار أحدث من Commerce، فراجع [لا يتضمن الإجمالي الفرعي لملخص الأمر الضرائب المفروضة على الرسوم عند استخدام وحدات ملخصات الأوامر المخصصة](troubleshoot/summary-taxes-custom-modules-10.0.27.md#resolution).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

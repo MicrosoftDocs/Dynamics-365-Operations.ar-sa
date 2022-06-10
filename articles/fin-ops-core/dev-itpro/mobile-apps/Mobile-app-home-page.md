@@ -1,8 +1,8 @@
 ---
-title: الصفحة الرئيسية لتطبيق الجوال
-description: يصف هذا الموضوع تطبيق جوال Finance and Operations (Dynamics 365) ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
+title: الصفحة الرئيسية لتطبيق الأجهزة المحمولة
+description: يصف هذا الموضوع عمليات تطبيق Finance and Operations ‏(Dynamics 365) للأجهزة المحمولة ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
 author: ChrisGarty
-ms.date: 01/22/2020
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729698"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811162"
 ---
-# <a name="mobile-app-home-page"></a>الصفحة الرئيسية لتطبيق الجوال
+# <a name="mobile-app-home-page"></a>الصفحة الرئيسية لتطبيق الأجهزة المحمولة
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-يصف هذا الموضوع تطبيق جوال **Finance and Operations (Dynamics 365)** ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
+يصف هذا الموضوع تطبيق **Finance and Operations (Dynamics 365)** للأجهزة المحمولة ويوفر ارتباطات إلى موارد يمكنها أن تساعدك على تطبيقه في مؤسستك.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -76,7 +77,7 @@ ms.locfileid: "6729698"
 <tr class="odd">
 <td>1</td>
 <td>مسؤول النظام</td>
-<td>استخدام تطبيق Finance and Operationsفي مؤسستك.</td>
+<td>تنفيذ تطبيق Finance and Operations في المؤسسة الخاصة بك.</td>
 <td><ul><li>إذا لم تكن قد قمت بعد بنشر إصدار من Microsoft Dynamics 365، فراجع <a href="../deployment/deploy-demo-environment.md">نشر بيئة عرض توضيحي</a>.</li><li>لمشاهدة قائمة بمساحات العمل المحمولة التي يمكن استخدامها، راجع <a href="mobile-workspaces-released.md">مساحات العمل المحمولة التي تم إصدارها مؤخرًا</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -130,9 +131,9 @@ ms.locfileid: "6729698"
 <td>8</td>
 <td>المستخدم</td>
 <td>تنزيل وتثبيت تطبيق الأجهزة المحمولة.</td>
-<td>تطبيق
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations لـ Android</a><BR/>تطبيق
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations لـ iOS</a><BR/>
+<td> 
+<a href="https://go.microsoft.com/fwlink/?linkid=850662"> في Finance and Operationsتطبيق Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations تطبيق لـ iOS</a><BR/>
 (Windows Phone غير معتمد)
 </td>
 </tr>

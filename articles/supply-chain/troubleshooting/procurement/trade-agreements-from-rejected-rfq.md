@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: de3011c6660b1cdccf94def32864316525adcde6
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 92731f0f56e6eba05043403c121939accbe26c05
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475505"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789229"
 ---
 # <a name="trade-agreements-can-be-created-from-rejected-rfqs"></a>يمكن إنشاء الاتفاقيات التجارية من طلبات عروض الأسعار (RFQ)‬ المرفوضة
 
@@ -26,4 +26,4 @@ ms.locfileid: "7475505"
 
 ## <a name="resolution"></a>الحل
 
-هذا السلوك متوقع. يمكنك إنشاء اتفاقيات تجارية لأي ردود على طلب عرض الأسعار (RFQ)، بغض النظر عما إذا كانت مقبولة أم مرفوضة. لمزيد من المعلومات، راجع [نظرة عامة على طلبات عروض الأسعار (RFQ)](/dynamics365/supply-chain/procurement/request-quotations.md).
+هذا السلوك متوقع. يمكنك إنشاء اتفاقيات تجارية لأي ردود على طلب عرض الأسعار (RFQ)، بغض النظر عما إذا كانت مقبولة أم مرفوضة. لمزيد من المعلومات، راجع [نظرة عامة على طلبات عروض الأسعار (RFQ)](/dynamics365/supply-chain/procurement/request-quotations).

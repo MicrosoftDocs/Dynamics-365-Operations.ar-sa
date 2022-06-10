@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 230e402c322509f3ea89d4f1dccb5555828377ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5619be4a0724556bf0c51dcaa3adcc3725f10706
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578382"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789257"
 ---
 # <a name="quality-management-test-groups"></a>مجموعات اختبارات إدارة الجودة
 
@@ -139,6 +139,6 @@ ms.locfileid: "7578382"
 - [اختبارات إدارة الجودة](quality-management-processes.md)
 - [متغيرات اختبار إدارة الجودة](quality-management-processes.md)
 - [عمليات اقتران الجودة](quality-management-processes.md)
-- [مواصفات التشغيلة](/supply-chain/production-control/batch-attributes.md)
+- [مواصفات التشغيلة](../production-control/batch-attributes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

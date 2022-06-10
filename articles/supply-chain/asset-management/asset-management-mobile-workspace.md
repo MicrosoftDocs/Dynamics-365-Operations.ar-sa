@@ -2,7 +2,7 @@
 title: استخدام مساحة العمل المحمولة للأصل
 description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "إدارة الأصول".
 author: johanhoffmann
-ms.date: 01/15/2021
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771529"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811493"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>استخدام مساحة العمل المحمولة للأصل
 
 [!include [banner](../../includes/banner.md)]
+[!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **إدارة الأصول**. تُتيح مساحة العمل هذه للمستخدمين عرض وإنشاء طلبات الصيانة وأوامر العمل. ويُمكن للمستخدمين أيضًا عرض مهام أمر العمل المُعينة في تقويم أو طريقة عرض القائمة. ويُمكن أيضًا عرض الأصول ومواقع العمل والبحث عنها.
 
@@ -45,7 +46,7 @@ ms.locfileid: "6771529"
 
 ## <a name="download-and-install-the-mobile-app"></a>تنزيل وتثبيت تطبيق المحمول
 
-تنزيل وتثبيت تطبيق Dynamics 365 for Unified Operations للأجهزة المحمولة:
+تنزيل وتثبيت تطبيق Finance and Operations (Dynamics 365) للأجهزة المحمولة:
 
 - [لهواتف Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [لهواتف iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

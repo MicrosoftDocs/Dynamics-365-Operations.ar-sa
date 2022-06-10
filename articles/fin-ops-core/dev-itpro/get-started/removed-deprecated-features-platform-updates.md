@@ -2,7 +2,7 @@
 title: ميزات Platform التي تمت إزالتها أو إهمالها
 description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات التمويل والعمليات.
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644593"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811235"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
 
@@ -31,6 +31,33 @@ ms.locfileid: "8644593"
 تهدف هذه القائمة إلى مساعدتك في مراعاة ميزات الإزالة وعمليات الإهلاك للتخطيط الخاص بك. 
 
 يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات التمويل والعمليات.
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>إهلاك الميزة اعتبارًا من يونيو 2022
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>تطبيق Finance and Operations (Dynamics 365) للأجهزة المحمولة والنظام الأساسي للأجهزة المحمولة 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | نحن بصدد إهمال تطبيق Finance and Operations (Dynamics 365) للأجهزة المحمولة ونظام أساسي للدمج في نظام أساسي واحد للأجهزة المحمولة، وهو Power Apps. |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم، يمكن إنشاء تجارب الأجهزة المحمولة عبر بيانات تطبيق Finance and Operations باستخدام تكامل Power Platform. راجع [إنشاء تجارب الأجهزة المحمولة](../power-platform/build-mobile-experiences.md) للاطلاع على التفاصيل. |
+| **مناطق المنتجات المتأثرة**         | تطبيقات التمويل والعمليات |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | مهملة. تم تحديد تاريخ انتهاء الدعم في أكتوبر 2024. |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>تحديثات النظام الأساسي للإصدار 10.0.29 من تطبيقات التمويل والعمليات
+
+### <a name="panorama-tab-style"></a>نمط علامة التبويب بانوراما
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | تتم محاذاة الصفحات التي يتم تمريرها أفقيًا مع أنماط التخطيط التي عفا عليها الزمن والتي عرفت مشكلات في سهولة الاستخدام وإمكانية الوصول.  |
+| **هل تم الاستبدال بميزة أخرى؟**   | لا، ولكن لا تزال أنماط علامات التبويب الأخرى متوفرة. |
+| **مناطق المنتجات المتأثرة**         | عميل الويب |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | مهملة. |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>إهلاك الميزة اعتبارًا من أبريل 2022
 

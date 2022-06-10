@@ -2,7 +2,7 @@
 title: تصميم تكوين لإنشاء مستندات بتنسيق Excel
 description: يصف هذا الموضوع كيفية تصميم تنسيق التقارير الإلكترونية (ER) لملء قالب Excel، ثم إنشاء مستندات صادرة بتنسيق Excel.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645124"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811409"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>تصميم تكوين لإنشاء المستندات بتنسيق Excel
 
@@ -288,6 +288,16 @@ ms.locfileid: "8645124"
 
 ![خيار إنشاء عنصر بتنسيق ورقة Excel في مربع الحوار تحديث من Excel.](./media/er-excel-format-update-template.png)
 
+في الإصدار 10.0.28 والإصدارات الأحدث، يمكنك استخدام الخيار **تحديث عناصر تنسيق رأس Excel وتذييل Excel‬**
+
+- عند تعيين هذا الخيار إلى **لا**، لا يطرأ أي تغيير على عناصر تنسيق رأس Excel وتذييل Excel، حتى لو تم تحديث الرؤوس أو التذييلات المقابلة في أوراق عمل القالب المستورد بتنسيق مصنف Excel.
+- عند تعيين هذا الخيار إلى **نعم**، ستتغير عناصر تنسيق رأس Excel وتذييل Excel عند تحديث الرؤوس أو التذييلات المقابلة في أوراق عمل القالب المستورد بتنسيق مصنف Excel.
+
+    - إذا لم تتغير بنية رأس أو تذييل ورقة العمل، أو إذا تم إلحاقها فقط، فسيتم تحديث بنية عنصر تنسيق رأس أو تذييل Excel المقابل. سيتم الاحتفاظ بروابط عناصر التنسيق المتداخلة ضمن عنصر تنسيق رأس Excel أو تذييل Excel هذا.
+    - إذا تغيرت بنية رأس أو تذييل ورقة العمل، فسيعاد إنشاء بنية عنصر تنسيق رأس أو تذييل Excel المقابل. ستُزال روابط عناصر التنسيق المتداخلة ضمن عنصر تنسيق رأس Excel أو تذييل Excel هذا.
+
+![الخيار "تحديث عناصر تنسيق رأس Excel وتذييل Excel" في مربع الحوار "تحديث من Excel"](./media/er-excel-format-update-template2.png)
+
 لمعرفة المزيد حول هذه الميزة، اتبع الخطوات الموجودة في [تعديل تنسيقات التقارير الإلكترونية عن طريق إعادة تطبيق قوالب Excel](modify-electronic-reporting-format-reapply-excel-template.md).
 
 ## <a name="validate-an-er-format"></a>التحقق من صحة تنسيق ER
@@ -355,7 +365,7 @@ ms.locfileid: "8645124"
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>مثال 2: إصلاح EPPlus بالخلايا المدمجة
 
-يمكنك تشغيل تنسيق التقارير الإلكترونية لإنشاء مستند صادر بتنسيق مصنف Excel. عندما يتم تمكين الميزة **تمكين استخدام مكتبة EPPlus في إطار عمل التقارير الإلكترونية** في مساحة العمل **إدارة الميزات**، يتم استخدام [مكتبة EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) لإنشاء مخرجات Excel. ومع ذلك، بسبب [سلوك Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) المعروف وقيود مكتبة EPPlus، فقد تواجه الاستثناء التالي: "يتعذر حذف/استبدال الخلايا المدمجة. يتم دمج النطاق جزئيًا مع النطاق المدمج الآخر." لمعرفة نوع قوالب Excel التي قد تتسبب في حدوث هذا الاستثناء وكيف يمكنك حل المشكلة، أكمل المثال التالي.
+يمكنك تشغيل تنسيق التقارير الإلكترونية لإنشاء مستند صادر بتنسيق مصنف Excel. عندما يتم تمكين الميزة **تمكين استخدام مكتبة EPPlus في إطار عمل التقارير الإلكترونية** في مساحة العمل **إدارة الميزات**، يتم استخدام [مكتبة EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) لإنشاء مخرجات Excel. ومع ذلك، بسبب [سلوك Excel](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) المعروف وقيود مكتبة EPPlus، فقد تواجه الاستثناء التالي: "يتعذر حذف/استبدال الخلايا المدمجة. يتم دمج النطاق جزئيًا مع النطاق المدمج الآخر." لمعرفة نوع قوالب Excel التي قد تتسبب في حدوث هذا الاستثناء وكيف يمكنك حل المشكلة، أكمل المثال التالي.
 
 1. في تطبيق Excel لسطح المكتب، قم بإنشاء مصنف Excel جديد.
 2. في ورقه العمل **Sheet1**، أضف اسم **ReportTitle**  للخلية **A2**.

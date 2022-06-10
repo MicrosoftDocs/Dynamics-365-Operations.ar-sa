@@ -2,19 +2,19 @@
 title: تحسينات على وظيفة ترحيل كشف الحساب
 description: يصف هذا الموضوع التحسينات التي تم إجراؤها على ميزة ترحيل كشف الحساب.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649009"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770130"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>تحسينات على وظيفة ترحيل كشف الحساب
 
@@ -151,6 +151,9 @@ ms.locfileid: "8649009"
 - يتوفر للمستخدم رؤية كيف يتم تجميع الحركات.
 - كما يتوفر للمستخدم سجل مراجعة كامل، من الحركات إلى أوامر المبيعات وإلى فواتير المبيعات. لم يكن سجل المراجعة هذا متوفرًا في ميزة ترحيل كشف الحساب القديمة.
 - يعمل ملف XML المجمع على تسهيل التعرف على المشكلات أثناء إنشاء أمر المبيعات والفوترة.
+
+> [!NOTE]
+> عندما يتم تجميع الحركات، فإن الموظف المعين للحركة لم يعد متاحًا لـ **تقرير مبيعات الموظفين الأفضل**، مما يعني أن **تقرير مبيعات الموظفين الأفضل** لن يعرض جميع الحركات. نوصي بعدم استخدام **تقرير مبيعات الموظفين الأفضل** مع الحركات المجمعة.
 
 ### <a name="journal-vouchers"></a>إيصالات دفتر اليومية
 
