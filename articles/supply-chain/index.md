@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487831"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789201"
 ---
 # <a name="supply-chain-management-home-page"></a>الصفحة الرئيسية لـ Supply Chain Management
 
@@ -54,18 +54,18 @@ ms.locfileid: "7487831"
 
 للحصول على معلومات حول Dynamics 365 Finance، انتقل إلى [صفحة Finance الرئيسية](../finance/index.md).
 
-## <a name="videos"></a>ملفات فيديو
+## <a name="videos"></a>مقاطع الفيديو
 
 يقوم هذا الفيديو القصير بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى الإصدار 8.0 (أبريل 2018) من Microsoft Dynamics 365 for Finance and Operations.
 
 - [مزامنة أمر عمل بين Field Service وFinance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-تقوم ملفات الفيديو القصيرة هذه بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى Microsoft Dynamics 365 for Finance and Operations، Enterprise edition 7.3 (ديسمبر 2017).
+تقوم مقاطع الفيديو القصيرة هذه بتلخيص ميزات إدارة سلسلة التوريد الجديدة المضافة إلى Microsoft Dynamics 365 for Finance and Operations، Enterprise edition 7.3 (ديسمبر 2017).
 
 - [مرشد التحسين](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [استخدام قالب المستودع لنسخ التكوين](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-تقوم ملفات الفيديو القصيرة هذه بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى Microsoft Dynamics 365 for Finance and Operations، Enterprise edition (يوليو 2017).
+تقوم مقاطع الفيديو القصيرة هذه بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى Microsoft Dynamics 365 for Finance and Operations، Enterprise edition (يوليو 2017).
 
 - [بدء ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
 - [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ ms.locfileid: "7487831"
 - [الموافقة على أوامر الشراء على جهاز محمول](https://youtu.be/gZ-gOlJe7H8)
 - [الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدُفعية](https://youtu.be/BtbuShkGj4I)
 
-تناقش تسجيلات المؤتمرات الفنية التالية وظيفة إدارة سلاسل التوريد من الإصدارات السابقة من Finance and Operations. هذه الوظيفة الآن جزء من Dynamics 365 Supply Chain Management؛ نفس المفاهيم لا تزال تنطبق، والإجراءات متشابهة في الإصدار الحالي.
+تناقش تسجيلات المؤتمرات الفنية التالية وظيفة إدارة سلسلة التوريد من إصدارات Finance and Operations السابقة. هذه الوظيفة هي الآن جزء من Dynamics 365 Supply Chain Management؛ المفاهيم نفسها لا تزال تنطبق، والإجراءات مماثلة في الإصدار الحالي.
 
 - **إدارة التكلفة:**
   - [نظرة عامة على إدارة التكلفة](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -83,7 +83,7 @@ ms.locfileid: "7487831"
   - [ضبط أداء MRP](https://youtu.be/RLXybx20B5o)
 - **إدارة معلومات المنتج:**
   - [مكون المنتج في Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
-- **Warehouse management:**
+- **إدارة المستودعات:**
   - [تحقيق أقصى استفادة من نظام إدارة المستودعات](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
   - [Dynamics AX ‏2012 R3: إدارة المستودعات المتقدمة - يوم في حياة التصنيع التحويلي](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **ملفات فيديو التحكم بالإنتاج:**
@@ -98,7 +98,7 @@ ms.locfileid: "7487831"
 ## <a name="white-papers"></a>المستندات التقنية
 
 - [Lean Manufacturing: المتاح للتعهد وجدولة وظيفة كانبان](/dynamics/s-e/)
-- [‏‫حساب قائمة مكونات الصنف (BOM) ‏‫باستخدام كشف التكاليف‬‏‫‬‬](https://www.microsoft.com/download/details.aspx?id=101937/)
+- [‏‫حساب قائمة مكونات الصنف (BOM) ‏‫باستخدام كشف التكاليف‬‏‫‬‬](https://www.microsoft.com/download/details.aspx?id=101937)
 
 ## <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
 

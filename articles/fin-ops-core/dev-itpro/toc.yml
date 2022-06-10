@@ -14,6 +14,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.28 (أغسطس 2022)
+                  href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.27 (يوليو 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.26 (مايو 2022)
@@ -384,9 +386,9 @@
                   items:
                     - name: إعداد المشاريع المحلية في LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: إعداد البيئات المحلية ونشرها (تحديث Platform update 41 وتحديث لاحق)
+                    - name: إعداد البيئات المحلية ونشرها (تحديث النظام الأساسي 41 وتحديث لاحق)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: إعداد البيئات المحلية ونشرها (تحديث Platform updates 12 إلى 40)
+                    - name: إعداد البيئات المحلية ونشرها (تحديثات النظام الأساسي من 12 إلى 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: خطوات التثبيت لمكونات قناة Retail في بيئة محلية
                       href: deployment/deploy-retail-onprem.md
@@ -1018,6 +1020,8 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: إعادة تشغيل الخدمات البيئية
               href: lifecycle-services/restart-environment-services.md
+            - name: تحديث مسؤول البيئة
+              href: lifecycle-services/update-environment-admin.md
             - name: إبلاغ عن انقطاع إنتاج
               href: lifecycle-services/report-production-outage.md
             - name: تعقب عمليات تسجيل دخول المستخدم
@@ -1266,6 +1270,8 @@
               items:
                 - name: نظرة عامة حول الوظائف الإضافية
                   href: power-platform/add-ins-overview.md
+            - name: إنشاء تجارب المحمول
+              href: power-platform/build-mobile-experiences.md
             - name: السياسات والاتصالات
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: النظام الأساسي للأجهزة المحمولة‬
@@ -1782,7 +1788,7 @@
                       href: migration-upgrade/appupdate-80-81.md
                 - name: سياسة دورة حياة البرامج والإصدارات على السحابة
                   href: migration-upgrade/versions-update-policy.md
-                - name: تطبيق التحديث الأخير للنظام الأساسي على البيئات
+                - name: تطبيق تحديث النظام الأساسي الأخير على البيئات
                   href: migration-upgrade/upgrade-latest-platform-update.md
                 - name: ترقية البيانات في بيئات التطوير أو العرض التوضيحي
                   href: migration-upgrade/upgrade-data-to-latest-update.md

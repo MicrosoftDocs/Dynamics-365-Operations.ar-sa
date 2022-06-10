@@ -12,6 +12,8 @@
               items:
                 - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.28 (أغسطس 2022)
+                  href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (يوليو 2022)
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (مايو 2022)
@@ -711,6 +713,8 @@
           items:
             - name: الصفحة الرئيسية لإدارة التكلفة
               href: cost-management/cost-management-home-page.md
+            - name: الأسئلة المتداولة حول تكاليف المخزون
+              href: cost-management/inventory-costing-faq.md
             - name: المتطلبات الأساسية للتكاليف القياسية
               items:
                 - name: نظرة عامة على المتطلبات الأساسية للتكاليف القياسية
@@ -1423,10 +1427,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
                     - name: استخدام BARCODE لإنشاء صور الكود الشريطي
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق ER
+                    - name: تكوين مصادر بيانات البحث لاستخدام المعلمات الخاصة بتطبيق التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: استخدام مصادر بيانات تجميع البيانات في تنسيقات التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: استخدام مصادر بيانات USER INPUT PARAMETER لتحديد معلمات للتقرير الذي ترغب في إنشائه
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: تصحيح مصادر البيانات
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوين نماذج البيانات
@@ -1693,9 +1699,9 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: أرشفة حركات‬ المخزون
               href: inventory/archive-inventory-transactions.md
-            - name: الوظيفة الإضافية "رؤية المخزون"
+            - name: الوظيفة الإضافية Inventory Visibility
               items:
-                - name: نظرة عامة على الوظيفة الإضافية "رؤية المخزون"
+                - name: نظرة عامة على الوظيفة الإضافية Inventory Visibility
                   href: inventory/inventory-visibility.md
                 - name: تثبيت Inventory Visibility وإعداده
                   href: inventory/inventory-visibility-setup.md
@@ -1707,11 +1713,13 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: حجوزات Inventory Visibility
                   href: inventory/inventory-visibility-reservations.md
-                - name: جدول تغيير رؤية المخزون المتاح والمتوفر حسب التعهد
+                - name: توزيع مخزون Inventory Visibility
+                  href: inventory/inventory-visibility-allocation.md
+                - name: جدول تغيير Inventory Visibility المتاح والمتوفر حسب التعهد
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: واجهات API العامة لرؤية المخزون
+                - name: واجهات API العامة لـ Inventory Visibility
                   href: inventory/inventory-visibility-api.md
-                - name: تلميحات حول رؤية المخزون
+                - name: تلميحات حول Inventory Visibility
                   href: inventory/inventory-visibility-tips.md
         - name: ذكاء IoT
           items:
@@ -2205,7 +2213,7 @@
                   href: procurement/tasks/create-vendor-account.md
                 - name: إنشاء حساب بنكي للمورّد
                   href: procurement/tasks/create-vendor-bank-account.md
-                - name: ملفات تعريف ترحيل الموردين
+                - name: ملفات تعريف ترحيل المورّد
                   href: ../finance/accounts-payable/vendor-posting-profiles.md?toc=/dynamics365/supply-chain/toc.json
                 - name: تكوينات طلب المورّد
                   href: procurement/vendor-request-configurations.md
@@ -3279,12 +3287,24 @@
               href: landed-cost/in-transit-processing.md
             - name: معالجة حركات بالزيادة/بالنقصان‬
               href: landed-cost/over-under-transactions.md
-            - name: تحديث التعقب لإبعاده
+            - name: تعقب التحديث لإجراء التخزين
               href: landed-cost/update-tracking-putaway.md
             - name: استعلامات التكلفة شاملة التفريغ‬‬
               href: landed-cost/landed-cost-inquiries.md
             - name: تقارير التكلفة شاملة التفريغ‬‬
               href: landed-cost/landed-cost-reports.md
+            - name: وحدات بيانات التكلفة شاملة التفريغ‬‬‬
+              items:
+                - name: نظرة عامة على كيانات التكلفة شاملة التفريغ
+                  href: landed-cost\landed-cost-entities-overview.md
+                - name: كيانات إنشاء الرحلات البحرية
+                  href: landed-cost\landed-cost-entities-voyage-creation.md
+                - name: كيانات حركات التكلفة
+                  href: landed-cost\landed-cost-entities-cost-transactions.md
+                - name: كيان أنشطة الحاوية
+                  href: landed-cost\landed-cost-entities-container-activities.md
+                - name: كيانات فاتورة المورّد
+                  href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: ‏‫إدارة المستودعات‬
           items:
             - name: نظرة عامة على إدارة المستودعات

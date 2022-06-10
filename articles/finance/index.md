@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1018cb8c3279a27a55a415c23405571e23ab40e1
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: a442256797cb64d30a18268232a07b463bc0db36
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713687"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762584"
 ---
 # <a name="finance-home-page"></a>الصفحة الرئيسية للمالية
 
@@ -58,7 +58,7 @@ ms.locfileid: "8713687"
 - [مدونة Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [مدونة مجتمع شركاء Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
-### <a name="videos"></a>ملفات فيديو
+### <a name="videos"></a>مقاطع الفيديو
 
 راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
@@ -76,7 +76,7 @@ ms.locfileid: "8713687"
    - الفوترة
    - دفع ثمن السلع والخدمات التي تشتريها مؤسستك 
     
-للاطلاع على معلومات حول إمكانات إدارة عمليات الشراء والمخزون والتصنيع، راجع [الصفحة الرئيسية لـ Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
+للاطلاع على معلومات حول إمكانات إدارة عمليات الشراء والمخزون والتصنيع، راجع [الصفحة الرئيسية لـ Supply Chain Management](../supply-chain/index.md).
 
 ## <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
 
