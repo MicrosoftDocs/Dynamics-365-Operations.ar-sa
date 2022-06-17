@@ -1,6 +1,6 @@
 ---
-title: الصفحة الرئيسية للحسابات الدائنة
-description: يقدم هذا الموضوع نظرة عامة على الحسابات الدائنة.
+title: الصفحة الرئيسية لحساب المدفوعات
+description: يقدم هذا المقال نظرة عامة على حسابات المدفوعات
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,29 +8,29 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595276"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946086"
 ---
-# <a name="accounts-payable-home-page"></a>الصفحة الرئيسية للحسابات الدائنة
+# <a name="accounts-payable-home-page"></a>الصفحة الرئيسية لحساب المدفوعات
 
 [!include [banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على الحسابات الدائنة. 
+يقدم هذا المقال نظرة عامة على حسابات المدفوعات 
 
-يمكنك إدخال فواتير المورد يدويًا أو استلامها إلكترونيًا عن طريق هيئة بيانات. بعد إدخال الفاتورة أو استلامها، يمكنك مراجعة والفواتير والموافقة عليها باستخدام دفتر يومية الموافقة على الفاتورة أو صفحة **فاتورة المورد**. يمكنك استخدام نُهج مطابقة الفواتير‬ وفواتير المورّدين وسير العمل لأتمتة عملية المراجعة بحيث تتم الموافقة تلقائيًا على الفواتير التي تلبي معايير معينة، ويتم وضع علامات على الفواتير المتبقية حتى تتم مراجعتها من قِبل مستخدم معتمد.
+يمكنك إدخال فواتير المورد يدويًا أو استلامها إلكترونيًا عن طريق كيان بيانات. بعد إدخال الفاتورة أو استلامها، يمكنك مراجعة والفواتير والموافقة عليها باستخدام دفتر يومية الموافقة على الفاتورة أو صفحة **فاتورة المورد**. يمكنك استخدام نُهج مطابقة الفواتير‬ وفواتير المورّدين وسير العمل لأتمتة عملية المراجعة بحيث تتم الموافقة تلقائيًا على الفواتير التي تلبي معايير معينة، ويتم وضع علامات على الفواتير المتبقية حتى تتم مراجعتها من قِبل مستخدم معتمد.
 
 **عمليات الأعمال**
 
@@ -126,9 +126,9 @@ ms.locfileid: "7595276"
 
 #### <a name="blogs"></a>المدونات
 
-يمكنك العثور على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة والحلول الأخرى الموجودة على [مدونةMicrosoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)و [Microsoft Dynamics 365 Finance - مدونة الماليات](https://community.dynamics.com/365/financeandoperations/b/financials).
+يمكنك الاطلاع على آراء وأخبار ومعلومات أخرى حول الحسابات الدائنة وحلول أخرى في [مدونة Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) وفي [Microsoft Dynamics 365 Finance and Operations - مدونة Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-تقدم [مدونة مجتمع شركاءMicrosoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
+تقدم [مدونة مجتمع شركاء Microsoft Dynamics‏ Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) لشركاء Microsoft Dynamics موردًا واحدًا حيث يمكنهم الاطلاع على الميزات الجديدة والشائعة في Dynamics 365.
 
 #### <a name="community-blogs"></a>مدونات المجتمعات
 

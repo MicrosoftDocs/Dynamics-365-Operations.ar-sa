@@ -1,6 +1,6 @@
 ---
 title: التحقق من صحة حركات المتجر لحساب كشف الحساب
-description: يصف هذا الموضوع الوظيفة الخاصة بالتحقق من صحة حركات المتجر في Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال الوظيفة الخاصة بالتحقق من صحة حركات المتجر في Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 01/31/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 4be40189777a37495f185467050b61af47b684d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890502"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>التحقق من صحة حركات المتجر لحساب كشف الحساب
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الوظيفة الخاصة بالتحقق من صحة حركات المتجر في Microsoft Dynamics 365 Commerce. تقوم عملية التحقق من الصحة بتحديد وتعليم الحركات التي تؤدي إلى حدوث أخطاء في الترحيل، قبل أن يتم انتقاؤها بواسطة عملية ترحيل كشف الحساب.
+يصف هذا المقال الوظيفة الخاصة بالتحقق من صحة حركات المتجر في Microsoft Dynamics 365 Commerce. تقوم عملية التحقق من الصحة بتحديد وتعليم الحركات التي تؤدي إلى حدوث أخطاء في الترحيل، قبل أن يتم انتقاؤها بواسطة عملية ترحيل كشف الحساب.
 
 عند محاولة ترحيل كشف حساب، يمكن أن تفشل عملية التحقق من الصحة نظرًا لعدم اتساق البيانات في جداول حركات التجارة. إليك بعض الأمثلة عن العوامل التي يمكن أن تتسبب في حدوث حالات عدم التناسق هذه:
 
@@ -110,10 +110,10 @@ ms.locfileid: "8087439"
 
 ![اللوحات في مساحة العمل ماليات المتجر.](./media/valid-checker-cash-carry-validation-failures.png)
 
-لمزيد من المعلومات حول كيفية إصلاح إخفاقات النقد والتحقق من الصحة، راجع [تحرير ومراجعة حركات الدفع نقدًا والاستلام فورًا وإدارة النقد‬‏‫](edit-cash-trans.md).
+لمزيد من المعلومات حول كيفية إصلاح إخفاقات النقد والتحقق من الصحة، راجع [تحرير وتدقيق حركات الدفع نقدًا والاستلام فورًا وإدارة النقد ](edit-cash-trans.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[تحرير ومراجعة حركات الدفع نقدًا والاستلام فورًا وإدارة النقد](edit-cash-trans.md)
+[تحرير وتدقيق حركات الدفع نقدًا والاستلام فورًا وإدارة النقد](edit-cash-trans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

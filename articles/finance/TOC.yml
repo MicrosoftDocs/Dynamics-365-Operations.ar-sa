@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: تكوين تحديثات الخدمة
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: ما قبل الخدمة وما بعد الخدمة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: إيقاف تحديثات الخدمة مؤقتًا
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: تلقي إعلامات حول تحديثات الخدمة
@@ -200,7 +202,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: الحسابات الدائنة
           items:
-            - name: الصفحة الرئيسية للحسابات الدائنة
+            - name: الصفحة الرئيسية لحساب المدفوعات
               href: accounts-payable/accounts-payable.md
             - name: نظرة عامة على فواتير المورّدين
               href: accounts-payable/vendor-invoices-overview.md
@@ -360,7 +362,7 @@
               href: accounts-receivable/create-charges-codes.md
             - name: نسخ العملاء باستخدام تسلسلات رقمية مشتركة
               href: accounts-receivable/copy-customer.md
-            - name: سير عمل العميل
+            - name: تدفق عمل العميل
               href: accounts-receivable/customer-workflow.md
             - name: إعداد ومعالجة الفواتير المتكررة
               href: accounts-receivable/set-up-process-recurring-invoices.md
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: حساب ضريبة المبيعات والتقريب
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: حساب ضريبة المبيعات على بنود دفتر اليومية العامة
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لإستونيا
                   href: localizations/emea-est-intrastat.md
+                - name: قائمة مبيعات الاتحاد الأوروبي
+                  href: localizations/emea-est-eu-sales-list.md
             - name: أوروبا
               items:
                 - name: نظرة عامة على أوروبا
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: تقارير ضريبة المبيعات للمجر
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لهنغارية
+                  href: localizations/emea-hun-intrastat.md
                 - name: عمليات حساب ضريبة المبيعات المؤجلة
                   href: localizations/emea-hun-deferred-vat.md
             - name: أيسلندا
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي للاتفيا
                   href: localizations/emea-lva-intrastat.md
+                - name: قائمة مبيعات الاتحاد الأوروبي
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: ليتوانيا
               items:
                 - name: نظرة عامة على ليتوانيا
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: إعداد مستندات التحويل لحركة البضائع داخل شركة
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: قائمة مبيعات الاتحاد الأوروبي
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: ماليزيا
               items:
                 - name: نظرة عامة ماليزيا
@@ -4483,11 +4495,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: استكشاف أخطاء الأداء وإصلاحها في تكوينات التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: تقليل عدد حقول الجدول التي يتم إحضارها في وقت التشغيل
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: إدارة مستندات الأعمال (BDM)
                   items:
                     - name: نظرة عامة على BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: واجهه مستخدم مستندات جديدة في BDM
+                    - name: واجهة مستخدم مستند جديدة في BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
                     - name: تحرير قوالب مستندات الأعمال في (BDM)
                       items:

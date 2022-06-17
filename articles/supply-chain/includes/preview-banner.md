@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 5f2aa0690279e82f94c37be2306a356b0c72075b57a02097224a3a7b9d06c67a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 56a685c7bdc2cdbe61d34a7c14f0db2388d30ad4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846144"
 ---
 > [!IMPORTANT]
-> تتوفر بعض أو كل الوظائف المذكورة في هذا الموضوع كجزء من إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+> تتوفر بعض أو كل الوظائف المذكورة في هذا المقال كجزء من إصدار معاينة. المحتوى والوظيفة عرضة للتغيير. للحصول على مزيد من المعلومات حول إصدارات المعاينة، راجع [الأسئلة المتداولة حول تحديثات خدمة إصدار واحد](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).

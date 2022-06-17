@@ -1,6 +1,6 @@
 ---
 title: تغيير تقويم دفتر الأستاذ أو إعادة تعيينه
-description: يشرح هذا الموضوع كيفية تغيير التقويم المعين حاليًا لدفتر الأستاذ، وكيفية تعيين تقويم جديد لدفتر الأستاذ.
+description: يشرح هذا المقال كيفية تغيير التقويم المعين حاليًا لدفتر الأستاذ، وكيفية تعيين تقويم جديد لدفتر الأستاذ.
 author: kweekley
 ms.date: 05/07/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-07
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25777a5b807921acc13338116627e9356fe62a20
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 751954e0dc5f682b99ab7fe349cd505dc9da7858
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848595"
 ---
 # <a name="change-or-reassign-a-ledger-calendar"></a>تغيير تقويم دفتر الأستاذ أو إعادة تعيينه
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية تغيير التقويم المعين حاليًا لدفتر الأستاذ، وكيفية تعيين تقويم جديد لدفتر الأستاذ.
+يشرح هذا المقال كيفية تغيير التقويم المعين حاليًا لدفتر الأستاذ، وكيفية تعيين تقويم جديد لدفتر الأستاذ.
 
 ## <a name="issue"></a>المشكلة
 

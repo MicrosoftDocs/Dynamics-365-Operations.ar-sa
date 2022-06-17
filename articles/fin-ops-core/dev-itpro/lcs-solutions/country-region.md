@@ -1,6 +1,6 @@
 ---
 title: موارد العولمة
-description: يتضمن هذا الموضوع قوائم الموارد التي يمكنها أن تساعدك في تعلم المزيد حول الوظائف والعروض الخاصة بالبلد/المنطقة.
+description: يتضمن هذا المقال قوائم الموارد التي يمكنها أن تساعدك في تعلم المزيد حول الوظائف والعروض الخاصة بالبلد/المنطقة.
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866526"
 ---
 # <a name="globalization-resources"></a>موارد العولمة
 
 ## <a name="local-and-regional-deployments"></a>عمليات النشر المحلية والإقليمية
 إذا تطلبت القوانين الحكومية تخزين البيانات أو صيانتها بشكل مختلف عما هو مطلوب في البلدان/المناطق الأخرى، فقد تكون هناك متطلبات خاصة بالبلد/المنطقة يجب وضعها في الاعتبار عند النشر. ضع الموارد التالية في الاعتبار والتي قد تكون ملائمة لك:
 
-[تطبيقات Finance and Operations المشعلة بواسطة 21Vianet في الصين](../deployment/china-local-deployment.md)
+[تطبيقات التمويل والعمليات مشغّلة بواسطة 21Vianet في الصين](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>ميزات الترجمة والميزات التنظيمية
 
 [!include [banner](../includes/banner.md)]
 
-تتضمن تطبيقات Finance and Operations وظائف للبلدان/المناطق موثقة في [دليل توافر ترجمة المنتج](https://aka.ms/dynamics_365_international_availability_deck). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
+تتضمن تطبيقات التمويل والعمليات وظائف للبلدان/المناطق موثقة في [دليل توافر ترجمة المنتج](https://aka.ms/dynamics_365_international_availability_deck). يتم تمكين هذه الوظيفة استنادًا إلى العنوان الرئيسي للكيان القانوني النشط. 
 
-يتضمن هذا الموضوع قوائم الموارد التي يمكنها مساعدتك في القيام بما يلي: 
+يتضمن هذا المقال قوائم الموارد التي يمكنها مساعدتك في القيام بما يلي: 
 - معرفة المزيد حول الحلول الخاصة بتطوير البلد/المنطقة.
 - الحصول على التحديثات المحددة للبلد/المنطقة.
 - إرسال التنبيهات التنظيمية ومراجعتها.
@@ -63,7 +63,7 @@ ms.locfileid: "6747505"
 توفر [خطط إصدار Dynamics 365](/business-applications-release-notes/) وصفًا للقدرات الجديدة والمحسنة التي تم التخطيط لها في تطبيقات أعمال Dynamics 365 والأنظمة الأساسية للتطبيقات. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>الجديد في تطبيقات Finance and Operations
-يسرد القسم [الجديد أو المتغير في الصفحة الرئيسية لتطبيق Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) الميزات المضمنة في الإصدارات الخاصة من تطبيقات Finance and Operations.
+يسرد محتوى [الجديد أو المتغير في صفحة Finance and Operations الرئيسية‬](../../fin-ops/get-started/whats-new-changed.md) الميزات المضمنة في إصدارات خاصة من تطبيقات Finance and Operations.
 
 ### <a name="electronic-reporting"></a>إعداد التقارير الإلكترونية
 تتيح لك أداة إعداد التقارير الإلكترونية (ER) إمكانية تكوين تنسيقات المستندات الإلكترونية وفقًا للمتطلبات القانونية لمختلف البلدان/المناطق. يتيح لك إعداد التقارير الإلكترونية إدارة هذه التنسيقات خلال دورة حياتها. لمزيد من المعلومات، راجع أحد المواضيع التالية:

@@ -410,6 +410,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: تكوين تطبيق التخزين في المستودع لعمليات النشر المحلية
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: تمكين RSAT في بيئات Finance + Operations (on-premises)
+                      href: deployment/onprem-rsat-configuration.md
                     - name: تثبيت أجهزة طابعات الشبكة في البيئات المحلية
                       href: analytics/install-network-printer-onprem.md
                     - name: تشخيصات محلية
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: البرنامج التعليمي لملحق Azure DevOps (إصدار أولي للاستخدام العام)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: ملحق Dynamics 365 Translation Service Visual Studio Code (إصدار أولي للاستخدام العام)
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: تكامل Microsoft Power Platform
           items:
             - name: نظرة عامة

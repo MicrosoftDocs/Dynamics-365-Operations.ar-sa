@@ -1,6 +1,6 @@
 ---
 title: إدارة الأوامر الموزعة (DOM)
-description: يصف هذا الموضوع وظيفة إدارة الأوامر الموزعة (DOM) في Dynamics 365 Commerce.
+description: يصف هذا المقال وظيفة إدارة الأوامر الموزعة (DOM) في Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8101999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878501"
 ---
 # <a name="distributed-order-management-dom"></a>إدارة الأوامر الموزعة (DOM)
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع وظيفة إدارة الأوامر الموزعة (DOM) في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال وظيفة إدارة الأوامر الموزعة (DOM) في Microsoft Dynamics 365 Commerce.
 
 إن إدارة الأوامر الموزعة (DOM) هي حل لتحسين تنفيذ أوامر القناة متعددة الاتجاهات وتساعد على تحقيق أقصى قدر من تنفيذ الأوامر في شبكة سلسلة التوريد. تساعدك إدارة الأوامر الموزعة (DOM) على ضمان تسليم المنتجات لعملائك بالكميات الصحيحة، من المصادر الصحيحة، في الأوقات الصحيحة. يمكن أن تساعدك إدارة الأوامر الموزعة (DOM) أيضًا في زيادة الأرباح وتقليل التكاليف وتلبية متطلبات مستوى الخدمة.
 

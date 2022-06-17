@@ -58,6 +58,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: تكوين تحديثات الخدمة
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: ما قبل الخدمة وما بعد الخدمة
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: إيقاف تحديثات الخدمة مؤقتًا
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: تلقي إعلامات حول تحديثات الخدمة
@@ -394,6 +396,8 @@
                   items:
                     - name: تطبيق Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: ترحيل Modern POS لـ Store Commerce
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: إرشادات تطبيق إدارة الأجهزة
                       href: implementation-considerations-devices.md
                     - name: الاختيار بين Store Commerce وCloud POS
@@ -2222,11 +2226,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: استكشاف أخطاء الأداء وإصلاحها في تكوينات التقارير الإلكترونية (ER)
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: تقليل عدد حقول الجدول التي يتم إحضارها في وقت التشغيل
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: إدارة مستندات الأعمال (BDM)
                   items:
                     - name: نظرة عامة على BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
-                    - name: واجهه مستخدم مستندات جديدة في BDM
+                    - name: واجهة مستخدم مستند جديدة في BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/commerce/toc.json
                     - name: تحرير قوالب مستندات الأعمال في (BDM)
                       items:
@@ -2474,8 +2480,10 @@
                   items:
                     - name: النماذج والحزم المرجعية
                       href: dev-itpro/retail-sdk/sdk-github.md
-                    - name: ترحيل Commerce SDK قديم
+                    - name: ترحيل Retail SDK قديم
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: ‏‫واجهات API القديمة والمُزالة والفئات والأساليب
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: تحديث مكدس تكنولوجيا Commerce داخل المتجر (مستند تقني)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: إعداد البيئة
@@ -2560,6 +2568,8 @@
                   items:
                     - name: إنشاء حزمة توسيع Cloud Scale Unit
                       href: dev-itpro/CSU-packaging.md
+                    - name: دمج حزم ملحق Cloud Scale Unit للتوزيع
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: إزالة ملحقات Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2908,6 +2918,14 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: استكشاف الأخطاء وإصلاحها
           items:
+            - name: Store Commerce
+              items:
+                - name: مشاكل الإعداد والتثبيت
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: مشاكل الأداء
+                  href: troubleshoot/store-commerce-performance.md
+                - name: مشاكل الملحق
+                  href: troubleshoot/store-commerce-extensions.md
             - name: معالجة الأوامر
               items:
                 - name: يجب أن يكون نوع الدفع خطأ في بطاقة الائتمان

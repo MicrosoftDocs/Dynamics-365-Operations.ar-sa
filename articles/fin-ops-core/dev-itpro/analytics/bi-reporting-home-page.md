@@ -1,6 +1,6 @@
 ---
 title: إعداد التقارير والتحليلات في الصفحة الرئيسية لـ Power BI
-description: يوجهك هذا الموضوع إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير المتوفرة.
+description: يوجهك هذا المقال إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية وأدوات إعداد التقارير المتوفرة.
 author: sericks007
 ms.date: 10/02/2019
 ms.topic: index-page
@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906622"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>إعداد التقارير والتحليلات في الصفحة الرئيسية لـ Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يوجهك هذا الموضوع إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية (BI) وأدوات إعداد التقارير المتوفرة.
+يوجهك هذا المقال إلى الموارد التي يمكنك استخدامها لمعرفة المزيد حول المعلومات المهنية (BI) وأدوات إعداد التقارير المتوفرة.
 
 ## <a name="get-started"></a>الشروع في العمل
 - [الوصول إلى المعلومات وإعداد التقارير](information-access-reporting.md)
 - [حديث تقني: خيارات إعداد التقارير](https://www.youtube.com/watch?v=NzZONjKs5xA) (فيديو)
-- [Finance and Operations: Power BI مدونة خدمات التحليلات وإعداد التقارير في](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (مدونة)
+- [Finance and Operations: مدونة خدمات التحليلات وإعداد التقارير في Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (مدونة)
 
 ## <a name="analytical-workspaces"></a>مساحات العمل التحليلية
 بإمكان مساحات العمل استخدام مرئيات ومخططات معلومات رسومية ثرية يدعمها Microsoft Power BI. تشتمل هذه المرئيات ومخططات المعلومات الرسومية على العديد من عناصر التحكم التي توفرها أطراف ثالثة. ولذلك، يمكن لمساحات العمل توفير تجربة مرئية وتفاعلية عالية للمستخدمين.

@@ -1,6 +1,6 @@
 ---
 title: معالجة محسنة للأصناف المتعقبة بطريقة دُفعية‬
-description: يصف هذا الموضوع المعالجة المحسنة للأصناف المتعقبة بطريقة دُفعية أثناء عملية ترحيل كشوف الحسابات في Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال المعالجة المحسنة للأصناف المتعقبة بطريقة دُفعية أثناء عملية ترحيل كشوف الحسابات في Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881867"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>معالجة محسنة للأصناف المتعقبة بطريقة دُفعية‬
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع المعالجة المحسنة للأصناف المتعقبة بطريقة دُفعية أثناء عملية ترحيل كشوف الحسابات في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال المعالجة المحسنة للأصناف المتعقبة بطريقة دُفعية أثناء عملية ترحيل كشوف الحسابات في Microsoft Dynamics 365 Commerce.
 
 في نقطة البيع (POS) في Dynamics 365 Commerce، لا يمكن التقاط أرقام الدُفعات للأصناف المتعقبة بطريقة دُفعية عند البيع. ولكن فيما يتعلق بتكوينات محددة عند ترحيل المبيعات إلى المركز الرئيسي لـ Commerce‬ عبر أوامر العميل أو ترحيل كشوف الحسابات، يتوقع Commerce وجود أرقام دُفعات صالحة للأصناف المتعقبة بطريقة دُفعية، وسيتم استخدامها خلال عملية الفوترة.
 

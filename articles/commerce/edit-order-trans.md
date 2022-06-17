@@ -1,6 +1,6 @@
 ---
 title: تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة
-description: يوضح هذا الموضوع كيفية تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة في Microsoft Dynamics 365 Commerce.
+description: يوضح هذا المقال كيفية تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة في Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 11/04/2020
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 99ad5be36587a3f726f5b40cccfdd30ab0ef48e1a87563a884f83264f40842fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c4219e082466bdfd1426710cecf25fd350d0767
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873047"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة في Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال كيفية تحرير وتدقيق الأوامر عبر الإنترنت وحركات أوامر العميل غير المتزامنة في Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>نظرة عامة
 
