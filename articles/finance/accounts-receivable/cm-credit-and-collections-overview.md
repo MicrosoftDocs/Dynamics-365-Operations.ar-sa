@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على الائتمان والتحصيلات
-description: يوفر هذا الموضوع نظرة عامة على وظيفة الائتمان والتحصيلات.
+description: توفر هذه المقالة نظرة عامة على وظيفة الائتمان والتحصيلات.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2cf6f6d1f76280698571eac3f023667d29723585
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 72a5ae9330be1b5b8284c12dd7974e1b7e479ebb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845334"
 ---
 # <a name="credit-and-collections-overview"></a>نظرة عامة على الائتمان والتحصيلات
 

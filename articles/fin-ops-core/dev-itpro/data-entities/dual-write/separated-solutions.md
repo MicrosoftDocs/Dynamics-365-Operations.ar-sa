@@ -1,6 +1,6 @@
 ---
 title: حزمة تنسيق تطبيق الكتابة المزدوجة المنفصلة
-description: لم تعد حزمة تنسيق تطبيق الكتابة المزدوجة حزمة واحدة ولكن تم تقسيمها إلى حزم أصغر. يشرح هذا المقال الحلول والخرائط التي تحتوي عليها كل حزمه وتبعيتها علي الحزم الأخرى.
+description: لم تعد حزمة تنسيق تطبيق الكتابة المزدوجة حزمة واحدة ولكن تم تقسيمها إلى حزم أصغر. توضح هذه المقالة الحلول والخرائط التي تحتوي عليها كل حزمة وتبعيتها علي الحزم الأخرى.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874801"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>حزمة تنسيق تطبيق الكتابة المزدوجة المنفصلة
 
@@ -42,7 +42,7 @@ ms.locfileid: "8716541"
 
 ![حزمه مفصوله.](media/separated-package-1.png)
 
-يشرح هذا المقال الحلول والخرائط التي تحتوي عليها كل حزمه وتبعيتها علي الحزم الأخرى.
+توضح هذه المقالة الحلول والخرائط التي تحتوي عليها كل حزمة وتبعيتها علي الحزم الأخرى.
 
 ## <a name="dual-write-application-core"></a>أساس التطبيق ثنائي الكتابة
 

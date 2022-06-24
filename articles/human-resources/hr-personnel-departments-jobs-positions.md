@@ -1,6 +1,6 @@
 ---
 title: تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
-description: يصف هذا الموضوع المعلومات المفاهيمية حول الأقسام والوظائف والمناصب، وهي عناصر تنظيمية يتم الاحتفاظ بها داخل الموارد البشرية.
+description: توضح هذه المقالة المعلومات المفاهيمية عن الأقسام والوظائف والمناصب، وهي عناصر تنظيمية يتم الاحتفاظ بها داخل الموارد البشرية.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0cb4e745eb6531d90a02778ba85e6caf790f2d46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874264"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>تنظيم القوى العاملة باستخدام الإدارات والوظائف والمناصب
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694812"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-تُعد الأقسام والوظائف والمناصب العناصر التنظيمية التي يتم الاحتفاظ بها ضمن الموارد البشرية. يصف هذا الموضوع معلومات تصورية حول هذه العناصر. 
+تُعد الأقسام والوظائف والمناصب العناصر التنظيمية التي يتم الاحتفاظ بها ضمن الموارد البشرية. تصف هذه المقالة معلومات تصورية حول هذه العناصر. 
 
 يُستخدم المثال التالي لتوضيح المفاهيم الموصوفة في هذه المقالة.
 

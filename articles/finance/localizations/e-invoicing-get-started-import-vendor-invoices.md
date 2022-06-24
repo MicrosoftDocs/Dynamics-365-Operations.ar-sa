@@ -1,6 +1,6 @@
 ---
-title: استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير المورد
-description: يوفر هذا الموضوع معلومات حول كيفية استيراد فواتير المورد باستخدام خدمة الفوترة الإلكترونية.
+title: استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير المورّدين
+description: توفر هذه المقالة معلومات عن كيفية استيراد فواتير المورد باستخدام خدمة الفوترة الإلكترونية.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865573"
 ---
-# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير المورد
+# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير المورّدين
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-يوفر هذا الموضوع معلومات تساعدك على البدء مع استيراد فواتير المورد باستخدام خدمة الفوترة الإلكترونية. يرشدك خلال خطوات التكوين في Regulatory Configuration Services (RCS)، وDynamics 365 Finance وDynamics 365 Supply Chain Management التي يجب عليك اتباعها لتلقي فواتير المورد الإلكترونية من الموردين.
+توفر هذه المقالة معلومات تساعدك على البدء في استيراد فواتير المورد باستخدام خدمة الفوترة الإلكترونية. يرشدك خلال خطوات التكوين في Regulatory Configuration Services‏ (RCS)، و Dynamics 365 Finance و Dynamics 365 Supply Chain Management التي يجب عليك اتباعها لتلقي فواتير المورد الإلكترونية من الموردين.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>إعداد استيراد فواتير المورِّدين في RCS
 لإعداد استيراد فاتورة المورد في RCS اتبع الخطوات التالية:
@@ -57,7 +57,7 @@ ms.locfileid: "7983813"
     - محفوظة بعد المعالجة الناجحة: **مجلد الأرشيف**
     - محفوظة بعد المعالجة الناجحة: **مجلد الخطأ** أنت غير مطالب بإنشاء هذه المجلدات في مربع البريد. يتم إنشاء المجلدات تلقائياً بعد عملية الاستيراد والمعالجة الخاصة بالفاتورة الإلكترونية الأولى. 
    
-10. في مجموعة حقول **عامل تصفية المرفقات**، أضف معلومات تصفية الملف. تتم معالجة المرفقات التي تستوفي عامل التصفية المحدد فقط. على سبيل المثال، يمكنك إعداد "\*xml." للمرفقات التي لها امتداد xml. يتم استخدام اسم المرفق في Dynamics 365 Finance أو Dynamics 365 Supply Chain Management أثناء الإعداد. 
+10. في مجموعة حقول **عامل تصفية المرفقات**، أضف معلومات تصفية الملف. تتم معالجة المرفقات التي تستوفي عامل التصفية المحدد فقط. على سبيل المثال، يمكنك إعداد "\*xml." للمرفقات التي لها امتداد xml. يتم استخدام اسم المرفق في Dynamics 365 Finance أو Dynamics 365 Supply Chain Management في أثناء الإعداد. 
 11. في علامة تبويب **قواعد التطبيق**، راجع المعايير وحدثها حسب الضرورة. يجب أن يكون حقل **القناة** مساوياً لـ **قناة البيانات** التي تم توفيرها مسبقاً. لمزيد من المعلومات، راجع [قواعد التطبيق‬](e-invoicing-configuration-rcs.md#applicability-rules).
 12. حدد **حفظ** وأغلق الصفحة.
 

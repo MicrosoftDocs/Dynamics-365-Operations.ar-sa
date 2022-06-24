@@ -1,6 +1,6 @@
 ---
 title: تاريخ سجل ضريبة القيمة المضافة للمورد
-description: يوفر هذا الموضوع معلومات حول ميزة لتمكين سجل ضريبة القيمة المضافة للمورّد
+description: توفر هذه المقالة معلومات عن ميزة تمكين سجل ضريبة القيمة المضافة لبيانات المورّد
 author: anasyash
 ms.date: 01/15/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: global
 ms.author: anasyash
 ms.search.validFrom: 2022-01-15
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 882d5a8718d819cff80bfa5b86e054a39e9db159
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b1368e0c7764bed42aa7549f36a6f4bcbb96eff4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7992054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849765"
 ---
 # <a name="date-of-vendor-vat-register"></a>تاريخ سجل ضريبة القيمة المضافة للمورد
 
-في الإصدار 10.0.24 من Microsoft Dynamics 365 Finance، يتوفر حقل جديد **تاريخ سجل ضريبة القيمة المضافة للمورّد‬** لفواتير المورّد. يحدد هذا الحقل تاريخ التوريد الخاضع للضريبة الخاص بالشراء.
+في الإصدار 10.0.24 من Microsoft Dynamics 365‎ Finance، يتوفر حقل جديد **تاريخ سجل ضريبة القيمة المضافة للمورّد‬** لفواتير المورّد. يحدد هذا الحقل تاريخ التوريد الخاضع للضريبة الخاص بالشراء.
 
 لتمكين الحقل الجديد، انتقل إلى مساحة عمل **إدارة الميزات**، وابحث عن الميزة  **تمكين تاريخ سجل ضريبة القيمة المضافة للمورّد في فواتير المورّد**، ثم حدد **التمكين الآن**.
 

@@ -1,6 +1,6 @@
 ---
 title: تعديل النماذج والتعيينات لإنشاء مستندات تتضمن بيانات التطبيق
-description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لإنشاء مستند إلكتروني وتحديث بيانات التطبيق. (الجزء 2 - إنشاء المستندات).
+description: تصف هذه المقالة كيفية تصميم تكوينات التقارير لإنشاء مستند إلكتروني وتحديث بيانات التطبيق. (الجزء 2 - إنشاء المستندات).
 author: NickSelin
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d7df46bab244d11509b86a27eeed3c2725400b5eb4d0fbf50af1750e7de45d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 797057112e9476389655b870fd729acd33d57e43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908286"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>تعديل النماذج والتعيينات لإنشاء مستندات تتضمن بيانات التطبيق
 

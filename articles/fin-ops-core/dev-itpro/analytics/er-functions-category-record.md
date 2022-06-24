@@ -1,6 +1,6 @@
 ---
 title: قائمة وظائف التقارير الإلكترونية في فئة السجل
-description: يوفر هذا الموضوع معلومات حول وظائف السجلات المعتمدة في التقارير الإلكترونية (ER).
+description: توفر هذه المقالة معلومات عن وظائف السجلات المعتمدة في التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2612222ce21e382dae13ee65fb9b9a1d9852e99ddd176bee9fcc3067f72e57db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b84931cb575b40da449b0562977b9bfa6373999
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906594"
 ---
 # <a name="list-of-er-functions-in-the-record-category"></a>قائمة وظائف التقارير الإلكترونية في فئة السجل
 
 [!include [banner](../includes/banner.md)]
 
-يُمكن استخدام وظائف سجل التقارير الإلكترونية (ER) لاستخراج المعلومات من وتنفيذ العمليات علي مصادر البيانات من نوع البيانات قائمة السجلات و *حاوية (سجل)*. يعرض هذا الموضوع ملخصًا لهذه الوظائف.
+يُمكن استخدام وظائف سجل التقارير الإلكترونية (ER) لاستخراج المعلومات من وتنفيذ العمليات علي مصادر البيانات من نوع البيانات قائمة السجلات و *حاوية (سجل)*. توفر هذه المقالة ملخصًا لهذه الوظائف.
 
 ## <a name="list-of-supported-functions"></a>قائمة الوظائف المدعومة
 

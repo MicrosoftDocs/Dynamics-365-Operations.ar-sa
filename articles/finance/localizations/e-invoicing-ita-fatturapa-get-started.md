@@ -1,6 +1,6 @@
 ---
 title: إعداد التكامل المباشر لـ FatturaPA الإيطالية مع SDI
-description: يوفر هذا الموضوع معلومات ستساعدك على البدء في استخدام الفواتير الإلكترونية لإيطاليا وإعداد التكامل المباشر لـ FatturaPA الإيطالية مع نظام Exchange (SDI).
+description: توفر هذه المقالة معلومات ستساعدك على البدء في استخدام الفواتير الإلكترونية لإيطاليا وإعداد التكامل المباشر لـ FatturaPA الإيطالية مع نظام Exchange‏ (SDI).
 author: abaryshnikov
 ms.date: 01/15/2022
 ms.topic: article
@@ -10,35 +10,35 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853181"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>إعداد التكامل المباشر لـ FatturaPA الإيطالية مع SDI
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> قد لا تدعم الفوترة الإلكترونية في إيطاليا في الوقت الحالي جميع الوظائف المتوفرة للفواتير الإلكترونية في Microsoft Dynamics 365 Finance وفي Dynamics 365 Supply Chain Management.
+> قد لا تدعم الفوترة الإلكترونية في إيطاليا في الوقت الحالي جميع الوظائف المتوفرة للفواتير الإلكترونية في Microsoft Dynamics 365‎ Finance وفي Dynamics 365 Supply Chain Management.
 
-يوفر هذا الموضوع معلومات من شأنها أن تساعدك على بدء استخدام الفواتير الإلكترونية لإيطاليا في Finance وSupply Chain Management. وهو يرشدك عبر خطوات التكوين التي تعتمد على البلد/المنطقة في Regulatory Configuration Services (RCS). تقوم هذه الخطوات بتكملة الخطوات الموضحة في [بدء العمل مع الفوترة الإلكترونيه](e-invoicing-get-started.md).
+توفر هذه المقالة معلومات من شأنها أن تساعدك على بدء استخدام الفواتير الإلكترونية في إيطاليا في Finance وفي Supply Chain Management. وهو يرشدك عبر خطوات التكوين التي تعتمد على البلد/المنطقة في Regulatory Configuration Services (RCS). تقوم هذه الخطوات بتكملة الخطوات الموضحة في [بدء العمل مع الفوترة الإلكترونيه](e-invoicing-get-started.md).
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل إكمال الخطوات الواردة في هذا الموضوع، يجب استيفاء المتطلبات الأساسية التالية:
+قبل إكمال الخطوات الواردة في هذه المقالة، يجب استيفاء المتطلبات الأساسية التالية:
 
 - أكمل الخطوات الواردة في [بدء استخدام الفواتير الإلكترونية](e-invoicing-get-started.md).
-- قم باستيراد ميزة الفوترة الإلكترونية **Italian FatturaPA (IT)** إلى RCS من المستودع العالمي. لمزيد من المعلومات، راجع قسم [يمكنك استيراد ميزة الفوترة الإلكترونية من موفر تكوين Microsoft‬](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) في الموضوع المذكور سابقًا "بدء استخدام الفواتير الإلكترونية".
-- أضف روابط من الشهادات المطلوبة إلى بيئة الخدمة. تتضمن الشهادات المطلوبة شهادة التوقيع الرقمي وشهادة المرجع المصدق (CA) وشهادة العملاء. لمزيد من المعلومات، راجع القسم [إنشاء سر الشهادة الرقمية](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) في موضوع "البدء في إدارة خدمة الفواتير الإلكترونية".
+- قم باستيراد ميزة الفوترة الإلكترونية **Italian FatturaPA (IT)** إلى RCS من المستودع العالمي. لمزيد من المعلومات، راجع قسم [استيراد ميزة الفوترة الإلكترونية من موفر تكوين Microsoft‬](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) في المقالة المذكورة سابقًا "بدء استخدام الفواتير الإلكترونية".
+- أضف روابط من الشهادات المطلوبة إلى بيئة الخدمة. تتضمن الشهادات المطلوبة شهادة التوقيع الرقمي وشهادة المرجع المصدق (CA) وشهادة العملاء. لمزيد من المعلومات، راجع قسم [إنشاء سر الشهادة الرقمية](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) في مقالة "بدء إدارة خدمة الفواتير الإلكترونية".
 
 ## <a name="country-specific-configuration-for-the-italian-fatturapa-it-electronic-invoicing-feature"></a>التكوين الخاص بكل بلد لميزة الفوترة الإلكترونية الإيطالية FatturaPA (IT)
 
 أكمل الإجراءات التالية قبل نشر إعداد التطبيق في تطبيق Finance أو Supply Chain Management المتصل لديك.
 
-يكمل هذا القسم قسم [التكوين الخاص بكل بلد لإعداد التطبيق](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) في موضوع "البدء في الفواتير الإلكترونية".
+يكمل هذا القسم قسم [التكوين الخاص ببلد محدد لإعداد التطبيق](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) في مقالة "البدء في الفوترة الإلكترونية".
 
 ### <a name="create-a-new-feature"></a>إنشاء ميزة جديدة
 
@@ -87,8 +87,8 @@ ms.locfileid: "7984793"
 
 ### <a name="deploy-the-feature"></a>نشر الميزة
 
-1. أكمل الميزة وانشرها ووزعها في بيئة الخدمة. لمزيد من المعلومات، راجع القسم [نشر ميزه الفوترة الكترونيه إلى بيئة الخدمة](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) في الموضوع "الشروع في العمل بالفوترة الإلكترونيه".
-2. انشر الميزة للتطبيق المتصل. لمزيد من المعلومات، راجع القسم [نشر ميزه الفوترة الإلكترونيه إلى التطبيق المتصل](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) في الموضوع "الشروع في العمل بالفوترة الإلكترونية".
+1. أكمل الميزة وانشرها ووزعها في بيئة الخدمة. لمزيد من المعلومات، راجع قسم [نشر ميزة الفوترة الإلكترونية إلى بيئة الخدمة](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) في مقالة "بدء العمل بالفوترة الإلكترونية".
+2. انشر الميزة للتطبيق المتصل. لمزيد من المعلومات، راجع قسم [نشر ميزة الفوترة الإلكترونية إلى التطبيق المتصل](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) في مقالة "البدء في الفوترة الإلكترونية".
 
 ### <a name="set-up-finance"></a>إعداد Finance
 

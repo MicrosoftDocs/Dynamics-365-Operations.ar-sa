@@ -1,6 +1,6 @@
 ---
 title: تمكين البحث عن البيانات الرئيسية لتكوين حساب الضريبة
-description: يشرح هذا الموضوع كيفية إعداد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وتمكينها.
+description: توضح هذه المقالة كيفية إعداد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وتمكينها.
 author: kai-cloud
 ms.date: 11/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d9c234781e55fbf7f29eec14666c939d5d60e2fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879398"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>تمكين البحث عن البيانات الرئيسية لتكوين حساب الضريبة 
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وتمكينها. تتوفر قائمة منسدلة لتحديد القيم في تكوين حساب الضريبة لحقول مثل **كيان قانوني** و **حساب المورد** و **كود الصنف** و **مدة التسليم**. تأتي هذه القيم من بيئة Microsoft Dynamics 365 Finance المتصلة باستخدام مصدر بيانات Microsoft Dataverse.
+توضح هذه المقالة كيفية إعداد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وتمكينها. تتوفر قائمة منسدلة لتحديد القيم في تكوين حساب الضريبة لحقول مثل **كيان قانوني** و **حساب المورد** و **كود الصنف** و **مدة التسليم**. تأتي هذه القيم من بيئة Microsoft Dynamics 365 Finance المتصلة باستخدام مصدر بيانات Microsoft Dataverse.
 
 > [!NOTE] 
 > تُعد وظيفة البحث عن البيانات الرئيسية لحساب الضريبة وظيفة اختيارية. يمكنك تخطي الخطوات التالية إذا قمت بتعطيل الميزة **دعم مصدر البيانات Dataverse لخدمة الضرائب** في Regulatory Configuration Service (RCS). ومع ذلك، في هذه الحالة، لن تتوفر القائمة المنسدلة في تكوين حساب الضريبة.

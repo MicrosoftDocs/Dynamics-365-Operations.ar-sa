@@ -1,6 +1,6 @@
 ---
 title: الفواتير الإلكترونية للعملاء في المملكة العربية السعودية
-description: يوضح هذا الموضوع كيفيه تكوين فواتير العميل الكترونيه وإرسالها في المملكة السعودية.
+description: توضح هذه المقالة كيفية تكوين فواتير العميل الإكترونية وإرسالها في المملكة العربية السعودية.
 author: ikondo
 ms.date: 11/08/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Saudi Arabia
 ms.author: ilyako
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 841fc448c931d3f58d637c118870496c9d486d2b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cb9d4a8908697874a5428b6374d679e8e46338e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861251"
 ---
 # <a name="customer-electronic-invoices-in-saudi-arabia"></a>الفواتير الإلكترونية للعملاء في المملكة العربية السعودية
 
@@ -28,7 +28,7 @@ ms.locfileid: "8690430"
 وفقا للمتطلبات القانونية للمملكة العربية السعودية، يجب إنشاء الفواتير التي تم إصدارها للعملاء بتنسيق الكتروني. لإنشاء فواتير الكترونيه ، يجب توفر تكوين النظام الاثنين التالي.
 
 - تكوين **خدمة الفوترة الإلكترونية**. لمزيد من المعلومات، راجع [بدء استخدام الوظيفة الإضافية الفوترة الإلكترونية للمملكة العربية السعودية](e-invoicing-sa-get-started.md).
-- **تكوين Microsoft Dynamics 365 Finance**، الذي يتناوله هذا الموضوع.
+- وأيضًا تكوين **365 Finance Microsoft Dynamics** ‏الذي تتناوله هذه المقالة.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 

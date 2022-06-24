@@ -1,6 +1,6 @@
 ---
 title: حساب TDS على الفواتير باستخدام دفاتر اليومية
-description: يسرد هذا الموضوع خطوات حساب الضريبة المخصومة في المصدر (TDS) على دفاتر اليومية.
+description: تسرد هذه المقالة خطوات حساب الضريبة المخصومة في المصدر (TDS) على دفاتر اليومية.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f98caf92c49c229a11dd29d54e22106329e2401
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d9217029a38aa41e42a236d3cfa39993b1bcee4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863022"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>حساب TDS على الفواتير باستخدام دفاتر اليومية
 
 [!include [banner](../includes/banner.md)]
 
-يسرد هذا الموضوع خطوات حساب الضريبة المخصومة في المصدر (TDS) على دفاتر اليومية.
+تسرد هذه المقالة خطوات حساب الضريبة المخصومة في المصدر (TDS) على دفاتر اليومية.
 
 ابدأ بفتح الصفحة **دفاتر اليومية العامة** (**دفتر الأستاذ العام > إدخالات دفتر اليومية > دفاتر اليومية العامة**).
 

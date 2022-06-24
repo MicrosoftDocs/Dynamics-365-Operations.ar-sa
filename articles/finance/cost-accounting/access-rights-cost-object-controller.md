@@ -1,6 +1,6 @@
 ---
 title: حقوق الوصول لمراقبي كائنات التكاليف
-description: يوفر هذا الموضوع معلومات حول حقوق الوصول لمراقبي كائن التكلفة.
+description: توفر هذه المقالة معلومات عن حقوق الوصول لمراقبي كائن التكلفة.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903178"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>حقوق الوصول لمراقبي كائنات التكاليف
 
@@ -38,7 +38,7 @@ ms.locfileid: "8733867"
 | موظف حساب التكلفة   | Operations   |
 | مراقب كائن التكلفة  | أعضاء الفريق |
 
-يشرح هذا المقال كيفية تعيين دور **مراقب كائن التكلفة** لأحد المديرين.
+تشرح هذه المقالة كيفية تعيين دور **مراقب كائن التكلفة** لأحد المديرين.
 
 عند تعيين دور **مراقب كائن التكلفة** للمدير، فمن ثم يمكن للمدير تنفيذ المهام التالية:
 
@@ -95,7 +95,7 @@ ms.locfileid: "8733867"
 
 > [!IMPORTANT]
 > - قبل أن يؤثر التدرج الهرمي لقائمة الوصول على البيانات في Power BI، يجب أن يتم إقران التدرج الهرمي لقائمة الوصول والأمان على مستوى الصف في Power BI. للحصول على مزيد من المعلومات، راجع [إعداد الأمان لحزمة محتوى محاسبة التكاليف](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - يوضح هذا الموضوع المتطلبات الأساسية التي يجب توافرها قبل أن تتمكن من استخدام مساحة عمل **مراقب التكاليف**.
+> - توضح هذه المقالة المتطلبات الأساسية التي يجب توافرها قبل أن تتمكن من استخدام مساحة عمل **مراقب التكاليف**.
 
 الموارد الإضافية
 

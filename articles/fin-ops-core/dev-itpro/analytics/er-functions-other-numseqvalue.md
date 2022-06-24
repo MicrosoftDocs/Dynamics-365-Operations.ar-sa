@@ -1,6 +1,6 @@
 ---
 title: وظيفة NUMSEQVALUE ER
-description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية NUMSEQVALUE (ER).
+description: توفر هذه المقالة معلومات عن كيفية استخدام وظيفة إعداد التقارير الإلكترونية NUMSEQVALUE‏ (ER).
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53040d1f4b3c8089fab264a524309df909a90ed5e617bd86658704b286fabb34
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 569d9ba1497bbc6dfc0ca909207aa5a78a877fe9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879822"
 ---
 # <a name="numseqvalue-er-function"></a>وظيفة NUMSEQVALUE ER
 
@@ -94,7 +94,7 @@ NUMSEQVALUE (number sequence code, scope type, scope ID)
 
 يتم تعريف مصادر البيانات التالية في تعيين النموذج الخاص بك:
 
-- مصدر بيانات **enumScope** من النوع Dynamics 365 Finance Microsoft *تعداد*. يُشير مصدر البيانات هذا إلى تعداد **‎ERExpressionNumberSequenceScopeType**. 
+- مصدر بيانات **enumScope** من نوع *تعداد* Microsoft Dynamics 365‏ Finance. يُشير مصدر البيانات هذا إلى تعداد **‎ERExpressionNumberSequenceScopeType**. 
 - مصدر البيانات **NumSeq** من النوع *الحقل المحسوب*. يحتوي مصدر البيانات هذا على التعبير `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`.
 
 يُرجع نوع مصدر البيانات **NumSeq**، عند استدعائه، القيمة الجديدة المُنشأة للتسلسل الرقمي **Gene\_1** الذي تم تكوينه للشركة التي توفر السياق الذي يعمل ضمنه تنسيق التقارير الإلكترونية.

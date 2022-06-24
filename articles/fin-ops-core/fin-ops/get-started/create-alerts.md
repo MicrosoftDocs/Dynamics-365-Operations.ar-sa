@@ -1,6 +1,6 @@
 ---
 title: إنشاء قواعد تنبيه
-description: يوفر هذا الموضوع معلومات حول التنبيهات ويشرح كيفية إنشاء قاعدة تنبيه.
+description: توفر هذه المقالة معلومات عن التنبيهات وتشرح كيفية إنشاء قاعدة تنبيه.
 author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736188"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853606"
 ---
 # <a name="create-alert-rules"></a>إنشاء قواعد تنبيه
 
@@ -75,7 +75,7 @@ ms.locfileid: "6736188"
 
 ## <a name="alerts-as-business-events"></a>التنبيهات كأحداث أعمال
 
-يمكنك إرسال التنبيهات خارجيًا باستخدام إطار عمل أحداث الأعمال. عند إنشاء تنبيه، قم بتعيين **على مستوى المؤسسة** إلى **لا** وقم بتعيين **الإرسال خارجيًا** إلى **نعم**. بعد أن تحصل على التنبيه بتشغيل حدث الأعمال، يمكنك تشغيل تدفق تم إنشاؤه في Power Automate باستخدام **عند حدوث حدث أعمال** على الموصل Finance and Operations، أو إرسال الحدث بشكل صريح إلى نقطة نهاية أحداث العمل من خلال **كتالوج أحداث الأعمال**.
+يمكنك إرسال التنبيهات خارجيًا باستخدام إطار عمل أحداث الأعمال. عند إنشاء تنبيه، قم بتعيين **على مستوى المؤسسة** إلى **لا** وقم بتعيين **الإرسال خارجيًا** إلى **نعم**. بعد أن تحصل على التنبيه بتشغيل حدث الأعمال، يمكنك تشغيل تدفق تم إنشاؤه في Power Automate باستخدام مشغل **عند حدوث حدث أعمال** الموجود على موصل Finance and Operations، أو إرسال الحدث بشكل صريح إلى نقطة نهاية أحداث العمل من خلال **كتالوج أحداث الأعمال**.
 
 ## <a name="create-an-alert-rule"></a>إنشاء قاعدة تنبيه
 

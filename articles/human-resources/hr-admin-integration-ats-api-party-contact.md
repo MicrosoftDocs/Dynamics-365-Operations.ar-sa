@@ -1,6 +1,6 @@
 ---
 title: جهة اتصال الطرف
-description: يصف هذا الموضوع كيان جهة اتصال الطرف لـ Dynamics 365 Human Resources.
+description: تصف هذه المقالة كيان جهة اتصال الطرف لـ Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fca72cb73ef46a4eeee27d43e22254373a425a36
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: f10bb89757419bcb29bfa5a4f44d30a38f41dfb0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909864"
 ---
 # <a name="party-contact"></a>جهة اتصال الطرف
 
@@ -27,7 +27,7 @@ ms.locfileid: "8067166"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيان جهة اتصال الطرف لـ Dynamics 365 Human Resources.
+تصف هذه المقالة كيان جهة اتصال الطرف لـ Dynamics 365 Human Resources.
 
 الاسم الفعلي: mshr_dirpartycontactentities
 

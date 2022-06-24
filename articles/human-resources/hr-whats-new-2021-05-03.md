@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources 3‏ مايو، 2021
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 3 مايو 2021.
+description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 3 مايو 2021.
 author: marcelbf
 ms.date: 05/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01babeae8ccb5af5e414cb78734ce05adf670277
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 01ebd15e09e181a7ea0ec5bf70c8df731d2169c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902849"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 3‏ مايو، 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources.
+توضح هذه المقالة الميزات الجديدة أو المتغيرة أو التي ستصدر قريبًا في Dynamics 365 Human Resources.
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ ms.locfileid: "8689764"
 يتضمن هذا الإصدار إصلاحات الأخطاء التالية.
 
 > [!NOTE]
-> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. قد نقوم بتحديث هذا الموضوع لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. يمكن أن نقوم بتحديث هذه المقالة لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذه المقالة مبدئيًا.
 
-| رقم الإصدار | إصدار |  الوصف |
+| رقم الإصدار | المشكلة |  ‏‏الوصف‬ |
 | --- | --- | --- |
 | 559312 |  لا يتم إظهار المستوى عند إنشاء خطة تعويض ثابتة لأحد الموظفين. |  عند وجود عدم تطابق في المنطقة الزمنية بين المنطقة الزمنية للمستخدم والمنطقة الزمنية للشركة، تعذر قراءة مستوى التعويض في المهمة. تم تحديث الاستعلام ليتم إحضاره استنادًا إلى وقت UTC. |
 | 573676  | لا يمكن إضافة فترة جديدة في نموذج **خطة الميزات**. | تم تحديث النموذج بحيث يتم تمكين الزر **جديد** ضمن علامة التبويب السريعة **الفترة** في **خطط الميزات**. |

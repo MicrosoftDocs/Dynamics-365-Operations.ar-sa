@@ -1,6 +1,6 @@
 ---
 title: الوصول إلى العناوين الخاصة حسب دور الأمان
-description: يتناول هذا الموضوع كيفية حل هذه المشكلة التي يتعذر فيها على العميل الوصول إلى عناوين خاصة.
+description: توضح هذه المقالة كيفية حل هذه المشكلة حين يتعذر على العميل الوصول إلى العناوين الخاصة.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 213aada51a477257df0b079c95e74610854b5a4f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7102bbcbecec0d88351e796e2c63663d956b86f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849670"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>الوصول إلى العناوين الخاصة حسب دور الأمان
 

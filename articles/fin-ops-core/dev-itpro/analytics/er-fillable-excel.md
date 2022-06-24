@@ -1,6 +1,6 @@
 ---
 title: تصميم تكوين لإنشاء مستندات بتنسيق Excel
-description: يصف هذا الموضوع كيفية تصميم تنسيق التقارير الإلكترونية (ER) لملء قالب Excel، ثم إنشاء مستندات صادرة بتنسيق Excel.
+description: تصف هذه المقالة كيفية تصميم تنسيق التقارير الإلكترونية (ER) لملء قالب Excel، ثم إنشاء مستندات صادرة بتنسيق Excel.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854803"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>تصميم تكوين لإنشاء المستندات بتنسيق Excel
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811409"
 
 يمكن تصميم تكوين تنسيق [إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) الذي يحتوي على مكون تنسيق التقارير الإلكترونية الذي يمكنك تكوينه لإنشاء مستند صادر بتنسيق مصنف Microsoft Excel. يجب استخدام مكونات تنسيق ER المحددة لهذا الغرض.
 
-لمعرفة المزيد حول هذه الميزة، اتبع الخطوات الواردة في موضوع، [تصميم تكوين لإنشاء التقارير بتنسيق OPENXML](tasks/er-design-reports-openxml-2016-11.md).
+لمعرفة المزيد عن هذه الميزة، اتبع الخطوات الواردة في مقالة، [تصميم تكوين لإنشاء التقارير بتنسيق OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="add-a-new-er-format"></a>إضافة تنسيق ER جديد
 
@@ -263,7 +263,7 @@ ms.locfileid: "8811409"
 
 ضمن مكون **التذييل** المضاف، أضف المكونات المتداخلة المطلوبة من **النص\\السلسلة** أو **النص\\تاريخ/وقت** أو أي نوع آخر. قم بتكوين الروابط لهذه المكونات لتحديد كيفية ملء تذييل صفحتك.
 
-يمكنك أيضا استخدام [أكواد التنسيق](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) لتنسيق محتوي التذييل الذي تم إنشاؤه بشكل صحيح. لمعرفة كيفية استخدام هذا النهج، اتبع الخطوات الموضحة في [المثال 1](#example-1)، لاحقًا في هذا الموضوع.
+يمكنك أيضا استخدام [أكواد التنسيق](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) لتنسيق محتوي التذييل الذي تم إنشاؤه بشكل صحيح. لمعرفة كيفية استخدام هذا النهج، اتبع الخطوات الموضحة في [المثال 1](#example-1)، لاحقًا في هذه المقالة.
 
 > [!NOTE]
 > عند تكوين تنسيقات ER، تأكد من مراعاة [حد Excel](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) والحد الأقصى لعدد الأحرف الخاصة برأس أو تذييل الصفحة الفردية.

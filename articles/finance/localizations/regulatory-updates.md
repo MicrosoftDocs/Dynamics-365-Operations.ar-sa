@@ -1,6 +1,6 @@
 ---
 title: تحديثات تنظيمية
-description: يوفر هذا الموضوع قائمة بالتحديثات التنظيمية المخططة والصادرة لتطبيق Microsoft Dynamics 365 Finance.
+description: توفر هذه المقالة قائمة بالتحديثات التنظيمية المخططة والصادرة لتطبيق Microsoft Dynamics 365 Finance.
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904270"
 ---
 # <a name="regulatory-updates"></a>تحديثات تنظيمية
 
 [!include [banner](../includes/banner.md)]
 
-يسرد هذا الموضوع التحديثات التنظيمية المُخططة والمصدرة في ترجمات Dynamics 365 Finance المدعومة. قد تختلف المخططات الزمنية للتسليم والوظائف المتوقعة، أو قد لا يتم إصدارها. لمزيد من المعلومات، اقرأ [سياسة Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+تسرد هذه المقالة التحديثات التنظيمية المُخططة والمصدرة في ترجمات Dynamics 365 Finance المدعومة. قد تختلف المخططات الزمنية للتسليم والوظائف المتوقعة، أو قد لا يتم إصدارها. لمزيد من المعلومات، اقرأ [سياسة Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 التحديثات التنظيمية عبارة عن ميزات يتم تطبيقها لدعم القوانين الجديدة أو المتغيرة الخاصة ببلد ما. للحصول على المزيد من المعلومات حول الميزات الأخرى المخططة أو الصادرة والخاصة ببلد معين، راجع [خطط إصدار Dynamics 365 وPower Platform](/business-applications-release-notes/index).
 

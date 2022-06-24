@@ -1,6 +1,6 @@
 ---
 title: تأجيل تنفيذ عناصر التسلسل في تنسيقات إعداد التقارير الإلكترونية
-description: يوضح هذا الموضوع كيفية تأجيل تنفيذ عنصر تسلسل في تنسيق إعداد التقارير الإلكترونية (ER).
+description: توضح هذه المقالة كيفية تأجيل تنفيذ عنصر تسلسل في تنسيق إعداد التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 5d4c5395c87c7bdc874f277a691e84081f68742d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880215"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>تأجيل تنفيذ عناصر التسلسل في تنسيقات إعداد التقارير الإلكترونية
 
@@ -32,7 +32,7 @@ ms.locfileid: "8323680"
 
 عن طريق تشغيل خيار <a name="DeferredSequenceExecution"></a>**التنفيذ المؤجل** لعنصر تنسيق تسلسل في التنسيق الذي تم تكوينه، يمكنك تأجيل (إرجاء) تنفيذ هذا العنصر. وفي هذه الحالة، لا يتم تشغيل العنصر حتى يتم تشغيل كافة العناصر الأخرى من نفس الأصل.
 
-لمعرفة المزيد حول هذه الميزة، أكمل المثال في هذا الموضوع.
+لمعرفة المزيد عن هذه الميزة، أكمل المثال في هذه المقالة.
 
 ## <a name="limitations"></a>قيود
 
@@ -44,7 +44,7 @@ ms.locfileid: "8323680"
 
 توضح الخطوات التالية كيفية تكوين مستخدم في [دور](../sysadmin/tasks/assign-users-security-roles.md)مستشار وظيفة إعداد التقارير الإلكترونية أو مسؤول النظام لتنسيق إعداد التقارير الإلكترونية والذي يحتوي على عنصر تسلسل يختلف فيه ترتيب التنفيذ عن الترتيب الموجود في التدرج الهرمي للتنسيق.
 
-يمكن تنفيذ هذه الخطوات في شركة **USMF** في Microsoft Dynamics 365 Finance.
+يمكن تنفيذ هذه الخطوات في شركة **USMF** في 365‎ Finance Microsoft Dynamics.
 
 ### <a name="prerequisites"></a>المتطلبات الأساسية
 
@@ -53,7 +53,7 @@ ms.locfileid: "8323680"
 - مستشار وظيفي لإعداد التقارير الإلكتروني
 - مسؤول النظام
 
-إذا لم تكن قد أكملت المثال الموجود في موضوع [تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية](er-defer-xml-element.md#Example)، فنزِّل [التكوينات](general-electronic-reporting.md#Configuration) التالية لنموذج حل إعداد التقارير الإلكترونية.
+إذا لم تكن قد أكملت المثال الموجود في مقالة [تأجيل تنفيذ عناصر XML في تنسيقات إعداد التقارير الإلكترونية[](er-defer-xml-element.md#Example) فنزِّل التكوينات ](general-electronic-reporting.md#Configuration) التالية لنموذج حل إعداد التقارير الإلكترونية.
 
 | وصف المحتوى            | اسم الملف |
 |--------------------------------|-----------|
@@ -93,7 +93,7 @@ ms.locfileid: "8323680"
 ### <a name="activate-a-configurations-provider"></a>تنشيط موفر تكوينات
 
 1. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
-2. في صفحة **ترجمة التكوينات**، في قسم **موفري التكوين**، تحقق من إدراج [ موفر التكوين ](general-electronic-reporting.md#Provider) لنموذج الشركة Litware, Inc (`http://www.litware.com`) ووضع علامة عليه كنشط. في حالة عدم إدراج موفر التكوين، أو عدم وضع علامة عليه كنشط، اتبع الخطوات الموجودة في الموضوع [إنشاء موفر تكوين ووضع علامة عليه على أنه نشط.](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. في صفحة **ترجمة التكوينات**، في قسم **موفري التكوين**، تحقق من إدراج [ موفر التكوين ](general-electronic-reporting.md#Provider) لنموذج الشركة Litware, Inc (`http://www.litware.com`) ووضع علامة عليه كنشط. في حالة عدم إدراج موفر التكوين أو عدم وضع علامة عليه كنشط، اتبع الخطوات الموجودة في المقالة [إنشاء موفر تكوين ووضع علامة عليه على أنه نشط.](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![نموذج شركة Litware, Inc. في صفحة تكوينات الترجمة.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 

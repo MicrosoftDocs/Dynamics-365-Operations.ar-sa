@@ -1,6 +1,6 @@
 ---
 title: قائمة وظائف التقارير الإلكترونية في فئة الحاوية
-description: يوفر هذا الموضوع معلومات حول وظائف الحاوية المعتمدة في التقارير الإلكترونية (ER).
+description: توفر هذه المقالة معلومات عن وظائف الحاوية المعتمدة في التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 12/14/2020
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 522fc6b8ad414745c3949268d9690aa2d258b92971e7d7b4f82428398bfec170
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5c86b0ae6cbf4ac6515491b55390d42c371eae4b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883806"
 ---
 # <a name="list-of-er-functions-in-the-container-category"></a>قائمة وظائف التقارير الإلكترونية في فئة الحاوية
 
 [!include [banner](../includes/banner.md)]
 
-يُمكن استخدام [وظائف](er-formula-language.md#Functions) حاوية [التقارير الإلكترونية (ER)](general-electronic-reporting.md) لإجراء العمليات التي تتضمن مصادر البيانات من نوع البيانات *الحاوية*. تحدث هذه العمليات عندما تمثل معالجه البيانات مجموعه من البيانات الثنائية بتنسيق الكائن الثنائي الكبير (BLOB). يعرض هذا الموضوع ملخصًا لهذه الوظائف.
+يُمكن استخدام [وظائف](er-formula-language.md#Functions) حاوية [التقارير الإلكترونية (ER)](general-electronic-reporting.md) لإجراء العمليات التي تتضمن مصادر البيانات من نوع البيانات *الحاوية*. تحدث هذه العمليات عندما تمثل معالجه البيانات مجموعه من البيانات الثنائية بتنسيق الكائن الثنائي الكبير (BLOB). توفر هذه المقالة ملخصًا لهذه الوظائف.
 
 ## <a name="list-of-supported-functions"></a>قائمة الوظائف المدعومة
 

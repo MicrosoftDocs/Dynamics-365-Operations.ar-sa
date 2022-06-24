@@ -1,6 +1,6 @@
 ---
 title: الخبرة المهنية للشخص
-description: يصف هذا الموضوع كيان الخبرة المهوية للشخص في Dynamics 365 Human Resources.
+description: تصف هذه المقالة كيان الخبرة المهنية للشخص في Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 38535b5dd56b3408ea582fbaf1594b7adefcd171
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d306213e4c647ecd4be98598cba92376aba0d5bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856414"
 ---
 # <a name="person-professional-experience"></a>الخبرة المهنية للشخص
 
@@ -27,7 +27,7 @@ ms.locfileid: "8068674"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيان الخبرة المهوية للشخص في Dynamics 365 Human Resources.
+تصف هذه المقالة كيان الخبرة المهنية للشخص في Dynamics 365 Human Resources.
 
 الاسم الفعلي: mshr_hcmpersonprofessionalexperienceentity
 

@@ -1,6 +1,6 @@
 ---
 title: استخدام مصادر بيانات جمع البيانات في تنسيقات التقارير الإلكترونية
-description: يشرح هذا الموضوع كيفية استخدام مصادر بيانات جمع البيانات في تنسيقات التقارير الإلكترونية (ER).
+description: توضح هذه المقالة كيفية استخدام مصادر بيانات لجمع البيانات في تنسيقات التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 08/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7591bed5d01ce2c2f434f0e7c81e441eda98483e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883835"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>استخدام مصادر بيانات جمع البيانات في تنسيقات التقارير الإلكترونية
 
@@ -65,7 +65,7 @@ ms.locfileid: "8323891"
 
 يوضح هذا المثال كيف يمكن لمستخدم في دور مسؤول النظام أو دور مستشار وظيفي لإعداد التقارير الإلكترونية تكوين تنسيق تقارير إلكترونية يحتوي على مصدر بيانات تجميع البيانات الذي يتم استخدامه لحساب الإجماليات الجارية وتجميع القيم المجمعة.
 
-يمكن إكمال الإجراءات الواردة في هذا المثال في شركة USMF في Microsoft Dynamics 365 Finance.
+يمكن إكمال الإجراءات الواردة في هذا المثال في شركة USMF في 365‎ Finance Microsoft Dynamics.
 
 ### <a name="upload-and-use-the-provided-er-solution"></a>قم بتحميل واستخدام حل ER المتوفر
 

@@ -1,6 +1,6 @@
 ---
 title: الصفحة الرئيسية للنشر المحلي
-description: يوفر هذا الموضوع معلومات وارتباطات إلى محتوى يتعلق بعمليات النشر المحلي.
+description: توفر هذه المقالة معلومات وارتباطات إلى محتوى يتعلق بعمليات النشر المحلي.
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867401"
 ---
 # <a name="on-premises-deployment-home-page"></a>الصفحة الرئيسية للنشر المحلي
 
 [!include [banner](../includes/banner.md)]
 
-يمكنك نشر Dynamics 365 Finance + Operations (on-premises). عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة. يوفر هذا الموضوع ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.
+يمكنك نشر Dynamics 365 Finance + Operations (on-premises). عندما تختار نوع نشر محلي، تختلف متطلبات النظام وضبط حجم الأجهزة والوظائف عن عملية نشر على السحابة. توفر هذه المقالة ارتباطات إلى محتوى يحتوي على معلومات خاصة بعمليات النشر المحلي.
 
 ## <a name="get-started"></a>البدء
 - [نظرة عامة عن النشر المحلي](on-premises-overview.md)

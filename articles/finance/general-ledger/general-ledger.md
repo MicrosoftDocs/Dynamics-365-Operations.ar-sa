@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd832c32655aa52fec16852ec5550a34d06f00f4
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 14aaf40ce64c8f8ba6277fa0883318e08505a464
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904546"
 ---
 # <a name="general-ledger-home-page"></a>الصفحة الرئيسية لدفتر الأستاذ العام
 
@@ -56,8 +56,8 @@ ms.locfileid: "8719905"
 
 انتقل إلى [خطط إصدار Microsoft Dynamics 365](/dynamics365/release-plans/) للاطلاع على الميزات الجديدة التي تم التخطيط لإصدارها.‬ 
 
-#### <a name="financial-reporting"></a>إعداد التقارير المالية
-انتقل إلى الموضوع [نظرة عامة على التقارير المالية](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) للحصول على معلومات حول التقارير المالية.
+#### <a name="financial-reporting"></a>Financial Reporting
+انتقل إلى مقالة [نظرة عامة على Financial reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) للحصول على معلومات عن التقارير المالية.
 
 #### <a name="blogs"></a>المدونات
 

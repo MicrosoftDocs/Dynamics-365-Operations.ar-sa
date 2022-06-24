@@ -1,6 +1,6 @@
 ---
 title: معالجة دفتر اليومية العام
-description: يُوضح هذا الموضوع القدرات المتوفرة في Microsoft Dynamics 365 Finance التي يمكنها المساعدة في تسهيل معالجة دفتر اليومية العام، والتي يمكنها أيضًا المساعدة في ضمان التقاط البيانات الصحيحة وعدم اختراق التحكم الداخلي.
+description: توضح هذه المقالة القدرات المتوفرة في Microsoft Dynamics 365 Finance التي يمكنها المساعدة على تسهيل معالجة دفتر اليومية العام، والتي يمكنها أيضًا المساعدة على ضمان التقاط البيانات الصحيحة وعدم اختراق التحكم الداخلي.
 author: kweekley
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cfe4af0c666fb2accb6737edb2de6e0b6e7cdf1
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 2055c028f7bfe8edc9faec8f791fff2fbfe08bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720016"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896365"
 ---
 # <a name="general-journal-processing"></a>معالجة دفتر اليومية العام
 
 [!include [banner](../includes/banner.md)]
 
-يُوضح هذا الموضوع القدرات التي يمكنها المساعدة في تسهيل معالجة دفتر اليومية العام، والتي يمكنها أيضًا المساعدة في ضمان التقاط البيانات الصحيحة وعدم اختراق التحكم الداخلي.  
+توضح هذه المقالة القدرات التي يمكنها المساعدة على تسهيل معالجة دفتر اليومية العام، والتي يمكنها أيضًا المساعدة على ضمان التقاط البيانات الصحيحة وعدم اختراق التحكم الداخلي.  
 
 ## <a name="journal-names"></a>أسماء دفاتر اليومية
 

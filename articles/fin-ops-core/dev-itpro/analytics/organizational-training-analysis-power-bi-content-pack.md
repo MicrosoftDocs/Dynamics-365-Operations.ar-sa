@@ -1,6 +1,6 @@
 ---
 title: محتوى "التدريب المؤسسي" في Power BI
-description: يصف هذا الموضوع Finance and Operations - محتوى تدريب Power BI المؤسسي.
+description: توضح هذه المقالة محتوى Finance and Operations - التدريب المؤسسي في Power BI.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba332fc0c241969cbe0c25e7985101a2bbe12be4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892410"
 ---
 # <a name="organizational-training-power-bi-content"></a>محتوى "التدريب المؤسسي" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع Finance and Operations - محتوى تدريب Power BI المؤسسي.
+توضح هذه المقالة محتوى Finance and Operations - التدريب المؤسسي في Power BI.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>التقارير المضمنة في حزمة المحتوى
 بعد أن تقوم بربط حزمة المحتوى ببياناتك، يعرض التقرير بيانات المؤسسة. إذا لم يسبق لك استخدام Microsoft Power BI، فيمكنك معرفة المزيد حول هذا التطبيق على [صفحة التعليم الموجّه لـ Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). تحتوي التقارير المضمنة في حزمة المحتوى على كل من المخططات والجداول التي تحتوي على معلومات إضافية. يصف الجدول التالي التقارير.

@@ -1,6 +1,6 @@
 ---
 title: تكوين القرارات اليدوية في سير عمل
-description: يوضح هذا الموضوع كيفية تكوين خصائص قرار يدوي.
+description: توضح هذه المقالةكيفية تكوين خصائص لقرار يدوي.
 author: ChrisGarty
 ms.date: 06/15/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c143da04c5398190f1f5e4d2ec9eb07c6421459f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910276"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>تكوين القرارات اليدوية في سير عمل
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065645"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-يوضح هذا الموضوع كيفية تكوين خصائص قرار يدوي.
+توضح هذه المقالةكيفية تكوين خصائص لقرار يدوي.
 
 لتكوين قرار يدوي في محرر سير العمل، انقر بزر الماوس الأيمن فوق القرار اليدوي، وثم انقر فوق **خصائص** لفتح الصفحة **خصائص**. ثم استخدم الإجراءات التالية لتكوين خصائص القرار اليدوي.
 

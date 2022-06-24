@@ -1,6 +1,6 @@
 ---
 title: قم بتسوية مدفوعات TDS لموردي هيئة TDS وإنشاء TDS في تشالان
-description: يوضح هذا الموضوع كيفية تسوية المدفوعات الضريبية المخصومة في المصدر (TDS) لموردي هيئة TDS.
+description: توضح هذه المقالة كيفية تسوية المدفوعات الضريبية المخصومة في المصدر (TDS) لموردي هيئة TDS.
 author: kailiang
 ms.date: 03/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e9dcf2e9d5fc1a1f9eae9d93050b0831bd42f78c
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e1ee65a555193433e6712a8caa892d7a3ad7bf61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848499"
 ---
 # <a name="settle-tds-payments-to-tds-authority-vendors-and-generate-tds-challan"></a>قم بتسوية مدفوعات TDS لموردي هيئة TDS وإنشاء TDS في تشالان
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تسوية المدفوعات الضريبية المخصومة في المصدر (TDS) لموردي هيئة TDS.
+توضح هذه المقالة كيفية تسوية المدفوعات الضريبية المخصومة في المصدر (TDS) لموردي هيئة TDS.
 
 1. انتقل إلى **الحسابات الدائنة \> المدفوعات \> دفتر يومية المدفوعات للمورد**.
 

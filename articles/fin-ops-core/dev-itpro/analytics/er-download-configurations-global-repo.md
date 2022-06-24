@@ -1,6 +1,6 @@
 ---
 title: تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين
-description: يشرح هذا الموضوع كيفية تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين.
+description: تشرح هذه المقالة كيفية تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين.
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891893"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>تنزيل تكوينات التقارير الإلكترونية من المستودع العمومي لخدمة التكوين
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية تنزيل [تكوينات التقارير الإلكترونية](general-electronic-reporting.md#Configuration) من المستودع العمومي لخدمة التكوين. لمزيد من المعلومات، راجع [Microsoft Dynamics 365 for Finance and Operations -‏ Regulatory Services، خدمة التكوين](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+تشرح هذه المقالة كيفية تنزيل تكوينات [التقارير الإلكترونية](general-electronic-reporting.md#Configuration) من المستودع العمومي لخدمة التكوين. لمزيد من المعلومات، راجع [Microsoft Dynamics 365 for Finance and Operations -‏ Regulatory Services، خدمة التكوين](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>فتح مستودع التكوينات
 
@@ -80,7 +80,7 @@ ms.locfileid: "7605321"
     ![صفحه مخزن التكوين ، علامة التبويب السريعة الإصدارات ، زر استيراد.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> استنادًا إلى إعدادات التقارير الإلكترونية، يتم التحقق من صحة التكوينات بعد استيرادها. قد يتم إعلامك بأي مشكلات عدم التوافق التي يتم اكتشافها. قبل أن تتمكن من استخدام إصدار التكوين المستورد، يجب حل المشاكل. لمزيد من المعلومات، راجع قائمة الموارد ذات الصلة لهذا الموضوع.
+> استنادًا إلى إعدادات التقارير الإلكترونية، يتم التحقق من صحة التكوينات بعد استيرادها. قد يتم إعلامك بأي مشكلات عدم التوافق التي يتم اكتشافها. قبل أن تتمكن من استخدام إصدار التكوين المستورد، يجب حل المشاكل. لمزيد من المعلومات، راجع قائمة الموارد ذات الصلة بهذه المقالة.
 
 > [!NOTE]
 > يمكن تكوين تكوينات التقارير الإلكترونية على أنها تعتمد على تكوينات أخرى. وبالتالي، قد يتم استيراد تكوينات أخرى، إلى جانب تكوين محدد، بشكل تلقائي. لمزيد من المعلومات حول تبعيات التكوين، راجع [تحديد تبعية تكوينات التقارير الإلكترونية (ER) على مكونات أخرى‬](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md).

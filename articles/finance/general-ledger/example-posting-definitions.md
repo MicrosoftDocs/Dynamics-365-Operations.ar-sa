@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865761"
 ---
 # <a name="posting-definition-examples"></a>أمثلة تعريفات الترحيل
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722538"
 
 توفر هذه المقالة أمثلة تعرض كيفية استخدام تعريفات الترحيل لمخصصات الموازنة والتزامات أوامر الشراء.
 
-قبل قراءة هذا الموضوع, يجب أن تكون على دراية بتعريفات الترحيل وتعريفات ترحيل الحركة. وللحصول على معلومات، راجع [تعريفات الترحيل](posting-definitions.md). ويمكن إعداد الأمثلة التالية في صفحة **تعريفات الترحيل**. يحتوي كل مثال على هذه الأقسام:
+قبل قراءة هذه المقالة, يجب أن تكون على دراية بتعريفات الترحيل وتعريفات ترحيل المعاملة. وللحصول على معلومات، راجع [تعريفات الترحيل](posting-definitions.md). ويمكن إعداد الأمثلة التالية في صفحة **تعريفات الترحيل**. يحتوي كل مثال على هذه الأقسام:
 
 -   تعريف الترحيل – معايير المطابقة
 -   تعريف الترحيل – الإدخالات المنشأة

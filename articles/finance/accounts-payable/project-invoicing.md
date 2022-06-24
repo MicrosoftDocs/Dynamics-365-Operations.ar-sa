@@ -1,5 +1,5 @@
 ---
-title: فوترة المشروع
+title: فوترة المشاريع
 description: توفر هذه المقالة نظرة عامة حول فوترة المشاريع لمشاريع الوقت والمواد والمشاريع ثابتة السعر. وتتضمن معلومات حول مقترحات الفاتورة (الفواتير الأولية) والتحكم في الفواتير والفوترة على الحساب وفوترة المورّد والإشعارات الدائنة.
 author: TaylorVH
 ms.date: 07/10/2020
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: bdb5c9162ab85632c8780a737df0998e4cd34f0c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4af44127d80c943ed9cebeac21d7e9c8372910f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861665"
 ---
-# <a name="project-invoicing"></a>فوترة المشروع
+# <a name="project-invoicing"></a>فوترة المشاريع
 
 [!include [banner](../includes/banner.md)]
 

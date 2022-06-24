@@ -1,6 +1,6 @@
 ---
 title: إعداد أسماء دفتر يومية الإيجار
-description: يوضح هذا الموضوع كيفية تحديد أسماء دفتر يومية عقد الإيجار. تحدد أسماء دفاتر يومية عقد الإيجار دفاتر اليومية التي تم فيها ترحيل الإدخالات التي تنشأ في تأجير الأصول.
+description: توضح هذه المقالة كيفية تحديد أسماء دفتر يومية عقد الإيجار. تحدد أسماء دفاتر يومية عقد الإيجار دفاتر اليومية التي تم فيها ترحيل الإدخالات التي تنشأ في تأجير الأصول.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 07b59d56fcb876f73369d0ceaa5ccd8226e58cf9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 678587e0846f6ce6d6d8113290a90b3f4d1988cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874685"
 ---
 # <a name="set-up-lease-journal-names"></a>إعداد أسماء دفتر يومية الإيجار
 

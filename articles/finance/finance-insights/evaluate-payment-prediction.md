@@ -1,6 +1,6 @@
 ---
 title: تقييم نموذج التوقع بالدفع الأولي للعميل
-description: يصف هذا الموضوع الخطوات التي يمكنك اتخاذها لفهم نموذج التوقع بدفع العميل وتقييم الفعالية الخاصة به.
+description: تصف هذه المقالة الخطوات التي يمكنك اتخاذها لفهم نموذج التوقع لمدفوعات العميل وتقييم الفعالية الخاصة به.
 author: ShivamPandey-msft
 ms.date: 05/02/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: fcdf276505cf58267a38e9d6174a155ad307653b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846991"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>تقييم نموذج التوقع بالدفع الأولي للعميل
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تقييم نموذج التوقع بعد تشغيل Finance Insights ثم إنشاء النموذج الأول وتدريبه. يتناول هذا الموضوع نماذج التوقع بالدفع للعميل. إنه يصف الخطوات التي يمكنك اتخاذها لفهم نموذج التوقع بدفع العميل وتقييم الفعالية الخاصة به.
+توضح هذه المقالة كيفية تقييم نموذج التوقع بعد تشغيل Finance Insights ثم إنشاء النموذج الأول وتدريبه. تتناول هذه المقالة نماذج التوقع بمدفوعات العميل. إنه يصف الخطوات التي يمكنك اتخاذها لفهم نموذج التوقع بدفع العميل وتقييم الفعالية الخاصة به.
 
 ## <a name="getting-details-about-the-model"></a>الحصول على تفاصيل حول النموذج
 

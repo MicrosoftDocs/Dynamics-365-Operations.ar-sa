@@ -1,6 +1,6 @@
 ---
 title: محتوى "تحليل إنفاق الشراء" في Power BI
-description: يصف هذا الموضوع العناصر المضمنة في محتوى "تحليل إنفاق الشراء" في Power BI.
+description: توضح هذه المقالة العناصر المضمنة في محتوى "تحليل إنفاق الشراء" في Power BI.
 author: FrankDahl
 ms.date: 04/24/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a40d4f39a7119def9ed0393d4ced2be1f7e801a5c1c3f984b002e5224299915a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08937d36be27f7b21ab50473715cc155e4fd0c9e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892729"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>محتوى "تحليل إنفاق الشراء" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع العناصر المضمنة في محتوى **تحليل إنفاق الشراء** في Microsoft Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+توضح هذه المقالة العناصر المضمنة في محتوى **تحليل إنفاق الشراء** في Microsoft Power BI. وهو يشرح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة
 

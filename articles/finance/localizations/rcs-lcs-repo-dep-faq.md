@@ -1,6 +1,6 @@
 ---
 title: إهلاك تخزين Regulatory Configuration Service (RCS) - Lifecycle Services (LCS)
-description: يوفر هذا الموضوع معلومات حول إهلاك تخزين Microsoft Dynamics Lifecycle Services (LCS) الذي يتم التخطيط له كجزء من نشر المستودع العالمي Regulatory Configuration Service (RCS).
+description: توفر هذه المقالة معلومات عن إهلاك تخزين Microsoft Dynamics Lifecycle Services‏ (LCS) الذي يتم التخطيط له كجزء من نشر المستودع العالمي Regulatory Configuration Service‏ (RCS).
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849720"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>إهلاك تخزين Regulatory Configuration Service (RCS) – Lifecycle Services (LCS)
 
@@ -85,7 +85,7 @@ RCS هي خدمة تصميم لإنشاء تكوينات التقارير الإ
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>هل توجد أية أمثلة تظهر الإعداد والإدارة؟
 
-لا توجد أمثلة، ولكن يمكنك إكمال الخطوات السابقة في هذا الموضوع لترحيل التكوينات الخاصة بك إلى المستودع العمومي لـ RCS.
+لا توجد أمثلة، ولكن يمكنك إكمال الخطوات السابقة في هذه المقالة لترحيل التكوينات الخاصة بك إلى المستودع العمومي لـ RCS.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>هل RCS المتطلبات الاساسيه لتكوين التقارير الكترونيه ؟
 

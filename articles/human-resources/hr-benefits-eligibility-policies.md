@@ -1,6 +1,6 @@
 ---
 title: سياسات استحقاق الميزات
-description: يوفر هذا الموضوع معلومات حول سياسات الأهلية للمزايا، والتي تحدد من هو المؤهل للحصول على مزايا معينة.
+description: توفر هذه المقالة معلومات عن سياسات الأهلية للمزايا التي تحدد من هو المؤهل للحصول على مزايا معينة.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e36235e089fef70bc0d33815cd855628836f58db
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f0b373679690715ddbc518e4df79b81dbb000059
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689539"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877763"
 ---
 # <a name="benefit-eligibility-policies"></a>سياسات استحقاق الميزات
 
@@ -28,7 +28,7 @@ ms.locfileid: "8689539"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوفر هذا الموضوع معلومات حول سياسات الأهلية للمزايا، والتي تحدد من هو المؤهل للحصول على مزايا معينة.
+توفر هذه المقالة معلومات عن سياسات الأهلية للمزايا التي تحدد من هو المؤهل للحصول على مزايا معينة.
 
 عند إنشاء الميزات، تقرر ما الميزات التي ستكون متاحة للموظفين. يعرض الجدول التالي أمثلة للفوائد التي قد توفرها لموظفين محددين.
 

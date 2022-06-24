@@ -1,6 +1,6 @@
 ---
 title: عكس حركات الإيجار المرحّلة
-description: يوضح هذا الموضوع كيفية عكس حركة إيجار مرحلة. يمكن عكس أية حركة يتم إنشاؤها خلال تأجير الأصول.
+description: توضح هذه المقالة كيفية عكس معاملة عقد الإيجار. يمكن عكس أية حركة يتم إنشاؤها خلال تأجير الأصول.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1f45a06464962098f8ed98de5ae15080a778ce97
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4f23b6cca6ddf4da7a0232a5bc61785dbd451d55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908056"
 ---
 # <a name="reverse-posted-lease-transactions"></a>عكس حركات الإيجار المرحّلة
 

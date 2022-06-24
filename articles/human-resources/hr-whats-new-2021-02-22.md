@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources 22 فبراير، 2021
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 22 فبراير، 2021.
+description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 22 فبراير 2021.
 author: marcelbf
 ms.date: 02/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0f854908f4c4bb76604665701c97724351b0120
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d07e73ccd922e9d52a9de9260577087a50ef1da4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897824"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 22 فبراير، 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources.
+توضح هذه المقالة الميزات الجديدة أو المتغيرة أو التي ستصدر قريبًا في Dynamics 365 Human Resources.
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ ms.locfileid: "8686872"
 يتضمن هذا الإصدار إصلاحات الأخطاء التالية.
 
 > [!NOTE]
-> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. قد نقوم بتحديث هذا الموضوع لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. يمكن أن نقوم بتحديث هذه المقالة لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذه المقالة مبدئيًا.
 
-| رقم الإصدار | إصدار |  الوصف |
+| رقم الإصدار | المشكلة |  ‏‏الوصف‬ |
 | --- | --- | --- |
 | 529994 | لا يعمل تعديل الحقل **معروف باسم** في النموذج **عامل** على تشغيل تحديث Dataverse | تم إصلاح مشكلة حيث لا يمكن تحديث Dataverse عندما يتم تحديث الحقل **معروف باسم** في النموذج **العامل**. |
 | 532651 | لا يستخدم تقرير تحليلات التعويض PBI تحويل العملة عند حساب معايير كافة الشركات | تم إصلاح مشكلة حيث لم يقم تقرير تحليلات التعويض PBI بتحويلات العملات بشكل صحيح. |

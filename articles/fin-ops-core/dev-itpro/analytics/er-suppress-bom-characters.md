@@ -1,6 +1,6 @@
 ---
 title: تصميم تكوينات ER لمنع أحرف قائمة مكونات الصنف في الملفات التي تم إنشاؤها
-description: يوضح هذا الموضوع كيفيه تكوين تنسيق إعداد التقارير الكترونيه (ER) لإنشاء التقارير التي تقوم بمنع أحرف علامة ترتيب البايت (BOM).
+description: توضح هذه المقالة كيفية تكوين تنسيق إعداد التقارير الإلكترونية (ER) لإنشاء التقارير التي تقوم بمنع أحرف علامة ترتيب وحدات البايت (BOM).
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: d54ed105e4ff44ac2c48e2d1a4b8e12fbf6f9591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847419"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>تصميم تكوينات ER لمنع أحرف قائمة مكونات الصنف في الملفات التي تم إنشاؤها
 
@@ -38,7 +38,7 @@ ms.locfileid: "8323730"
 
 ![تعيين خيار إيقاف أحرف قائمة مكونات الصنف في الصفحة مصمم التنسيق.](./media/er-suppress-bom-characters-image2.gif)
 
-لمراجعه الوظيفة في وقت التشغيل، أكمل الاجراء المناسب. علي سبيل المثال، أكمل الخطوات الموجودة في الموضوع [تاجيل تنفيذ عناصر XML في التنسيق ER](er-defer-xml-element.md). بعد إكمال الخطوات الموجودة في [تعديل التنسيق بحيث يستند الحساب إلى قسم الإخراج الذي تم إنشاؤه ](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) لهذا الموضوع، اتبع الخطوات الإضافية التالية.
+لمراجعه الوظيفة في وقت التشغيل، أكمل الاجراء المناسب. علي سبيل المثال، أكمل الخطوات الموجودة في مقالة [تأجيل تنفيذ عناصر XML في تنسيق ER](er-defer-xml-element.md) . بعد إكمال الخطوات الموجودة في قسم [تعديل التنسيق بحيث يستند الحساب إلى الإخراج الذي تم إنشاؤه](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) بهذه المقالة، اتبع الخطوات الإضافية التالية.
 
 1. حدد ترميز UTF:
 
@@ -48,12 +48,12 @@ ms.locfileid: "8323730"
 2. إنشاء ملف XML يتضمن حرف قائمة مكونات الصنف:
 
     1. قم بتعيين خيار **إيقاف تحديد أحرف BOM** إلى **لا** لتضمين أحرف BOM في ملفات XML التي تم إنشاؤها.
-    2. أكمل الخطوات الموجودة في [تاجيل تنفيذ عنصر XML الملخص بحيث يتم استخدام المجموع المحسوب](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used)لقسم [تاجيل تنفيذ عناصر XML في](er-defer-xml-element.md)موضوع تنسيقات ER، وحفظ الملف الذي تم إنشاؤه باسم **SampleXmlReport.xml**.
+    2. أكمل الخطوات الموجودة في قسم [تأجيل تنفيذ عنصر XML الملخص بحيث يتم استخدام المجموع المحسوب](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) من مقالة [تأجيل تنفيذ عناصر XML في](er-defer-xml-element.md) موضوع تنسيقات التقارير الإلكترونية وحفظ الملف الذي تم إنشاؤه باسم **SampleXmlReport.xml**.
 
 3. إنشاء ملف XML لا تتضمن حرف قائمة مكونات الصنف:
 
     1. قم بتعيين خيار **إيقاف تحديد أحرف BOM** إلى **نعم** لتضمين أحرف BOM في ملفات XML التي تم إنشاؤها.
-    2. أكمل الخطوات الموجودة في [تاجيل تنفيذ عنصر XML الملخص بحيث يتم استخدام المجموع المحسوب](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used)لقسم [تاجيل تنفيذ عناصر XML في](er-defer-xml-element.md)موضوع تنسيقات ER، وحفظ الملف الذي تم إنشاؤه باسم **SampleXmlReport.xml**.
+    2. أكمل الخطوات الموجودة في قسم [تأجيل تنفيذ عنصر XML الملخص بحيث يتم استخدام المجموع المحسوب](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) من مقالة [تأجيل تنفيذ عناصر XML في](er-defer-xml-element.md) موضوع تنسيقات التقارير الإلكترونية وحفظ الملف الذي تم إنشاؤه باسم **SampleXmlReport.xml**.
 
 4. في الاداه المساعدة لمقارنه الملفات، قارن الملفات التي تم إنشاؤها.
 

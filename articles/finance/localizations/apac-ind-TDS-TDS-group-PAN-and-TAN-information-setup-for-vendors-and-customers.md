@@ -1,6 +1,6 @@
 ---
 title: إعداد مجموعة TDS وPAN ومعلومات TAN للموردين والعملاء
-description: يوضح هذا الموضوع كيفية إعداد المعلومات المتعلقة بمجموعة الضريبة المخصومة في مجموعة المصدر (TDS)، ورقم الحساب الدائم (PAN)، ورقم حساب الضريبة (TAN) للموردين والعملاء.
+description: توضح هذه المقالة كيفية إعداد المعلومات المتعلقة بمجموعة الضريبة المخصومة في المصدر (TDS) ورقم الحساب الدائم (PAN) ورقم حساب الضريبة (TAN) للموردين والعملاء.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 83ec532e95bde553c3a339e2ca103ebaacdb52ae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1a29f59e380360b6f828dcddbe84cad229b42d17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859755"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>إعداد مجموعة TDS وPAN ومعلومات TAN للموردين والعملاء
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد المعلومات المتعلقة بمجموعة الضريبة المخصومة في مجموعة المصدر (TDS)، ورقم الحساب الدائم (PAN)، ورقم حساب الضريبة (TAN) للموردين والعملاء.
+توضح هذه المقالة كيفية إعداد المعلومات المتعلقة بمجموعة الضريبة المخصومة في المصدر (TDS) ورقم الحساب الدائم (PAN) ورقم حساب الضريبة (TAN) للموردين والعملاء.
 
 1. انتقل إلى **الحسابات المدينة \> الموردين \> كافة الموردين** أو **الحسابات المدينة \> العملاء \> جميع العملاء**.
 

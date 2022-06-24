@@ -1,6 +1,6 @@
 ---
 title: تكوين Finance Insights
-description: يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights.
+description: تشرح هذه المقالة خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights.
 author: ShivamPandey-msft
 ms.date: 01/27/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861405"
 ---
 # <a name="configuration-for-finance-insights"></a>تكوين Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-يجمع Finance insights بين وظائف من Microsoft Dynamics 365 Finance مع Dataverse وAzure وAI Builder لتوفير أدوات تنبؤ قوية لمؤسستك. يشرح هذا الموضوع خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights. لإكمال الإجراءات الواردة في هذا الموضوع بنجاح، يجب أن يكون لديك وصول مسؤول النظام ومخصص النظام في [مركز إدارة Power Portal](https://admin.powerplatform.microsoft.com/)، ووصول مسؤول النظام في Dynamics 365 Finance والوصول لإنشاء البيئات في Microsoft Dynamics Lifecycle Services (LCS).
+يجمع Finance insights بين وظائف من Microsoft Dynamics 365 Finance مع Dataverse وAzure وAI Builder لتوفير أدوات تنبؤ قوية لمؤسستك. تشرح هذه المقالة خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights. لإكمال الإجراءات الواردة في هذه المقالة بنجاح، يجب أن تتمتع بوصول كمسؤول النظام ومخصص النظام في [مركز إدارة Power Portal](https://admin.powerplatform.microsoft.com/)، ووصول كمسؤول النظام في Dynamics 365 Finance والوصول لإنشاء البيئات في Microsoft Dynamics ‎ Lifecycle Services‏(‏LCS‏)‎.
 
 > [!NOTE]
 > الإجراءات التالية لإعداد Finance Insights صالحة للإصدار 10.0.21 والإصدارات الأحدث من Dynamics 365 Finance.

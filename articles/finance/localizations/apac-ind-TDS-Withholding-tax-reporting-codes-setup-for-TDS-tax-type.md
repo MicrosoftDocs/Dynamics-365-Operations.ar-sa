@@ -1,6 +1,6 @@
 ---
 title: إعداد أكواد تقرير ضريبة الخصم لنوع ضريبة TDS
-description: يتم استخدام أكواد تقارير ضريبة الخصم لإنشاء كشوف نموذج 26Q ونموذج 27Q للضريبة المخصومة في المصدر (TDS). يوضح هذا الموضوع كيفية إعداد خطوات أكواد تقارير ضريبة الخصم بحيث يمكنك إعداد أكواد تقارير TDS.
+description: يتم استخدام أكواد تقارير ضريبة الخصم لإنشاء كشوف نموذج 26Q ونموذج 27Q للضريبة المخصومة في المصدر (TDS). توضح هذه المقالة كيفية إعداد خطوات أكواد تقارير ضريبة الخصم بحيث يمكنك إعداد أكواد تقارير TDS.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 769159fc10c3edfba8c2f626e7bff702e3e5cd7f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: bdd2e89d29807dc31d8f2d4684ee413470b1dbde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907787"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>إعداد أكواد تقرير ضريبة الخصم لنوع ضريبة TDS
 
 [!include [banner](../includes/banner.md)]
 
-يتم استخدام أكواد تقارير ضريبة الخصم لإنشاء كشوف نموذج 26Q ونموذج 27Q للضريبة المخصومة في المصدر (TDS). يوضح هذا الموضوع كيفية إعداد خطوات أكواد تقارير ضريبة الخصم بحيث يمكنك إعداد أكواد تقارير TDS.
+يتم استخدام أكواد تقارير ضريبة الخصم لإنشاء كشوف نموذج 26Q ونموذج 27Q للضريبة المخصومة في المصدر (TDS). توضح هذه المقالة كيفية إعداد خطوات أكواد تقارير ضريبة الخصم بحيث يمكنك إعداد أكواد تقارير TDS.
 
 1. انتقل إلى **الضريبة \> الإعداد \> ضريبة الخصم \> أكواد تقرير ضريبة الخصم**.
 

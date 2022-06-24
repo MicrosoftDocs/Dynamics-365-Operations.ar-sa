@@ -1,6 +1,6 @@
 ---
-title: نظرة عامة على المملكة العربية السعودية
-description: يوفر هذا الموضوع ارتباطات إلى موارد الوثائق للمملكة العربية السعودية.
+title: نظرة عامة على السعودية
+description: توفر هذه المقالة ارتباطات إلى موارد الوثائق للمملكة العربية السعودية.
 author: ShylaThompson
 ms.date: 10/26/2021
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Saudi Arabia
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 303bb0c18c4f62ffe9257ad3b0627395139ca5f3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: adbdd378a5d49064f3d497b975ef935c8b191f01
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849702"
 ---
-# <a name="saudi-arabia-overview"></a>نظرة عامة على المملكة العربية السعودية
+# <a name="saudi-arabia-overview"></a>نظرة عامة على السعودية
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع ارتباطات إلى موارد الوثائق للمملكة العربية السعودية. 
+توفر هذه المقالة ارتباطات إلى موارد الوثائق للمملكة العربية السعودية. 
 
 - [ضريبة المبيعات](apac-sau-sales-tax.md)
 - [تقارير الزكاة](emea-sau-zakat-reporting.md)

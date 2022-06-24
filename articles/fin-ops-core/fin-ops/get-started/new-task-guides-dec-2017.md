@@ -1,6 +1,6 @@
 ---
 title: دلائل المهام الجديدة أو المحدثة (ديسمبر 2017)
-description: يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (ديسمبر 2016 - كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة.
+description: توضح هذه المقالة دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft APQC الموحدة (ديسمبر 2016 - كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b111b686bc7fd06508878261e959a8dad92aacc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855538"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>دلائل المهام الجديدة أو المحدثة (ديسمبر 2017)
 
 [!include [banner](../includes/banner.md)]
 
-يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (ديسمبر 2016 - كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations.
+توضح هذه المقالة دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft APQC الموحدة (ديسمبر 2016 - كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations.
 
 ## <a name="new-task-guides"></a>دلائل المهام الجديدة
 

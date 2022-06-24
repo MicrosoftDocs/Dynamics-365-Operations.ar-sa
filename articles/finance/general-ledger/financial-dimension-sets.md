@@ -1,6 +1,6 @@
 ---
 title: مجموعات الأبعاد المالية
-description: يصف هذا الموضوع مجموعات الأبعاد المالية ويوفر بعض التلميحات لتحسين استخدامها.
+description: تصف هذه المقالة مجموعات الأبعاد المالية، وتوفر بعض التلميحات لتحسين استخدامها.
 author: yukonpeegs
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c583a2a89b45b59ea76ffd8e38b6206c9ca9ed41
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3d4c15504b2ad128493e1bafa36aed271c2ab6dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864270"
 ---
 # <a name="financial-dimension-sets"></a>مجموعات الأبعاد المالية
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع مجموعات الأبعاد المالية ويوفر بعض التلميحات لتحسين استخدامها.
+تصف هذه المقالة مجموعات الأبعاد المالية، وتوفر بعض التلميحات لتحسين استخدامها.
 
 تعد مجموعة الأبعاد بمثابة قائمة تتضمن الأبعاد المالية التي يمكن استخدامها لتلخيص بيانات دفتر الأستاذ العام بطريقه معرّفة من قبل المستخدم. الاستخدام الأساسي لمجموعات الأبعاد هو تحديد ميزان المراجعة.
 

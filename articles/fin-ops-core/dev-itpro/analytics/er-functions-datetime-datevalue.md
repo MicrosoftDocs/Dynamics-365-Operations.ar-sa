@@ -1,6 +1,6 @@
 ---
-title: 'وظيفة DATEVALUE ER '
-description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية DATEVALUE (ER).
+title: وظيفة DATEVALUE ER
+description: توفر هذه المقالة معلومات عن كيفية استخدام وظيفة إعداد التقارير الإلكترونية DATEVALUE‏ (ER).
 author: NickSelin
 ms.date: 09/08/2021
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 446f1357e54342073e73f86ef36e6467e029ebc4
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 396d6823531d8bf2c5b5f61f2483422c84e54c62
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883777"
 ---
 # <a name="datevalue-er-function"></a>وظيفة DATEVALUE ER
 

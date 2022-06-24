@@ -1,6 +1,6 @@
 ---
 title: تزويد Human Resources
-description: يوضح هذا الموضوع عملية توفير بيئة إنتاج جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
+description: توضح هذه المقالة عملية تزويد بيئة إنتاج جديدة بتطبيق Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 01/07/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858232"
 ---
 # <a name="provision-human-resources"></a>تزويد Human Resources
 
@@ -27,13 +27,13 @@ ms.locfileid: "8710852"
 
 
 
-يوضح هذا الموضوع عملية توفير بيئة إنتاج جديدة لتطبيق Microsoft Dynamics 365 Human Resources. 
+توضح هذه المقالة عملية تزويد بيئة إنتاج جديدة بتطبيق Microsoft Dynamics 365 Human Resources. 
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
 قبل أن تبدأ في توفير بيئة إنتاج جديدة، يجب تطبيق المتطلبات الأساسية التالية:
 
-- لقد قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). إذا كان لديك ترخيص Microsoft Dynamics 365 يتضمن خطة خدمة Human Resources، ولا يمكنك إتمام الخطوات المذكورة في هذا الموضوع، فاتصل بالدعم.
+- لقد قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). إذا كان لديك ترخيص Microsoft Dynamics 365 يتضمن خطة خدمة Human Resources، ولا يمكنك إتمام الخطوات المذكورة في هذا المقال، فاتصل بالدعم.
 
 - قام المسؤول العمومي بتسجيل الدخول إلى [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) وإنشاء مشروع Human Resources جديد. 
 

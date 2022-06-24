@@ -1,6 +1,6 @@
 ---
 title: ما الجديد والمتغير في Dynamics 365 Human Resources (08 يوليو 2020)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 8 يوليو 2020.
+description: توضح هذه المقالة الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 8 يوليو 2020.
 author: andreabichsel
 ms.date: 07/08/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37e22dcfb89349186526cf87d5f2a82bb86c48b1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c07646b70d07fbcd6f5aac897f79df7d159266af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848125"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>ما الجديد والمتغير في Dynamics 365 Human Resources (8 يوليو 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693546"
 
 
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3382. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم LCS للحصول على مرجع.
+تصف هذه المقالة الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3382. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم LCS للحصول على مرجع.
 
 ## <a name="database-logging"></a>تسجيل قاعدة البيانات
 

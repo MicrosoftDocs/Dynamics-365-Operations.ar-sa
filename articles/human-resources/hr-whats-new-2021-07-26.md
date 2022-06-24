@@ -1,6 +1,6 @@
 ---
 title: ما الجديد والمتغير في Dynamics 365 Human Resources  26 يوليو 2021
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 26 يوليو 2021.
+description: توضح هذه المقالة الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 26 يوليو 2021.
 author: marcelbf
 ms.date: 07/12/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-26
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e124655ca96e34e53723ea2608227661034d58b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6c7211135733f45a9841ae5a80607b01999d7c69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870918"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-26-2021"></a>ما الجديد والمتغير في Dynamics 365 Human Resources  26 يوليو 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources.
+توضح هذه المقالة الميزات الجديدة أو المتغيرة أو التي ستصدر قريبًا في Dynamics 365 Human Resources.
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ ms.locfileid: "8694700"
 يتضمن هذا الإصدار إصلاحات الأخطاء التالية.
 
 > [!NOTE]
-> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. قد نقوم بتحديث هذا الموضوع لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. يمكن أن نقوم بتحديث هذه المقالة لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذه المقالة مبدئيًا.
 
-| رقم الإصدار | المشكلة |  الوصف |
+| رقم الإصدار | المشكلة |  ‏‏الوصف‬ |
 | --- | --- | --- |
 | 600422 | فشل التحقق من صحة عنوان الرواتب لـ Ready to Pay. | تم تحديث التحقق من الصحة لطلب عنوان واحد فقط من نوع "موقع الإقامة في الرواتب" وعنوان واحد فقط من نوع "موقع عمل الرواتب". |
 | 601226 | مشكلة تكامل البيانات: مشروع تصدير تكامل الرواتب ليس لديه خيار الدفع الكامل | كان تكامل الرواتب إلى Ceridian DayForce يقوم بدفعة تدريجية بدلا من دفعة كاملة. Ceridian يتطلب أن يكون دائما تحديث كامل. هذه المشكلة الآن ثابتة، الكيانات في مشروع تصدير البيانات لن يتم الآن انعكاس دفعة تزايدية. |

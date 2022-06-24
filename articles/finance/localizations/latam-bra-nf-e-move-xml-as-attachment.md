@@ -1,6 +1,6 @@
 ---
 title: نقل ملفات NF-e XML كمرفقات
-description: يشرح هذا الموضوع كيفية نقل ملفات NF-e XML من قاعدة بيانات Microsoft Dynamics 365 Finance أو Dynamics 365 Supply Chain Management أو جعلها متاحة كمرفقات بدلاً من ذلك..
+description: توضح هذه المقالة كيفية نقل ملفات NF-e XML من قاعدة بيانات 365‎ Finance Microsoft Dynamics أو Dynamics 365 Supply Chain Management أو جعلها متاحة كمرفقات بدلاً من ذلك.
 author: gionoder
 ms.date: 11/11/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-01-27
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c7b82d486cecf6b20f1283fa609c360b3003efca
-ms.sourcegitcommit: ebf6546835e4d6a80aea1dfae81e119e294387f0
+ms.openlocfilehash: ce9061896759efeb8e8960e84656d5fc1f0616ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7799439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877886"
 ---
 # <a name="move-nf-e-xml-files-as-attachments"></a>نقل ملفات NF-e XML كمرفقات
 
 [!include [banner](../includes/banner.md)] 
 
 
-عند إصدار المستندات المالية الإلكترونية (NF-e)، يتم إنشاء ملفات XML وتخزينها في Microsoft Dynamics 365 Finance وقواعد بيانات Dynamics 365 Supply Chain Management. في الترجمة البرازيلية، يمكنك استخدام ميزة **نقل NF-e XML كمرفق** لتحرير مساحة قاعدة البيانات التي تستهلك ملفات XML تلك.
+عند إصدار المستندات المالية الإلكترونية (NF-e)، يتم إنشاء ملفات XML وتخزينها في 365‎ Finance Microsoft Dynamics وقواعد بيانات Dynamics 365 Supply Chain Management. في الترجمة البرازيلية، يمكنك استخدام ميزة **نقل NF-e XML كمرفق** لتحرير مساحة قاعدة البيانات التي تستهلك ملفات XML تلك.
 
 بالنسبة إلى نطاق تاريخ محدد وإنشاء مالي، تنقل الميزة ملفات NF-e XML من قاعدة بيانات Finance أو Supply Chain Management إلى مخزن Blob من اشتراك Azure. تجعل هذه الحركة الملفات متاحة كمرفقات فقط. بعد أن يتم نقل ملفات XML بنجاح إلى تخزين Blob، يتم حذف الملفات الأصلية من قاعدة البيانات Finance أو Supply Chain Management. لذلك، يتم تحرير مساحة قاعدة البيانات التي استخدمتها تلك الملفات.
 

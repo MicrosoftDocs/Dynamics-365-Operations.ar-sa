@@ -1,6 +1,6 @@
 ---
 title: تجميع السجلات والحسابات باستخدام مصادر البيانات GROUPBY
-description: يشرح لك هذا الموضوع كيفية استخدام مصادر البيانات من النوع GROUPBY في التقارير الإلكترونية (ER).
+description: توضح لك هذه المقالة كيفية استخدام مصادر البيانات من نوع GROUPBY في التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861776"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>تجميع السجلات والحسابات باستخدام مصادر البيانات GROUPBY
 
@@ -69,7 +69,7 @@ ms.locfileid: "8462286"
 
 يوضح هذا المثال كيف يمكن لمستخدم لديه دور مسؤول النظام أو دور مستشار وظيفي لإعداد التقارير الإلكترونية تكوين تعيين نموذج تقارير إلكترونية (ER) لديه مصدر بيانات **GROUPBY‎** يتم استخدامه لحساب الدالات المجمعة وسجلات المجموعات. يُستخدم تعيين النموذج هذا لطباعة تقرير المراقبة عند إنشاء إقرار نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي‬. يتيح لك هذا التقرير مراجعة حركات نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي التي تم الإبلاغ عنها.
 
-يمكن إكمال الإجراءات الواردة في هذا المثال في شركة **DEMF** في Microsoft Dynamics 365 Finance. 
+يمكن إكمال الإجراءات الواردة في هذا المثال في شركة **DEMF** في Microsoft Dynamics 365‏ Finance. 
 
 ### <a name="prepare-sample-data"></a>تجهيز عينة البيانات
 
@@ -83,7 +83,7 @@ ms.locfileid: "8462286"
 
 ### <a name="import-the-standard-er-format-configuration"></a>استيراد تكوين التنسيق القياسي للتقارير الإلكترونية.
 
-اتبع الخطوات الواردة في [استيراد تكوين التنسيق القياسي للتقارير الإلكترونية](er-quick-start2-customize-report.md#ImportERSolution1) لإضافة التكوينات القياسية للتقارير الإلكترونية إلى مثيل Dynamics 365 Finance الحالي. استيراد الإصدار 1 من تكوين **تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي** من المستودع.
+اتبع الخطوات الواردة في [Dynamics 365 Finance](er-quick-start2-customize-report.md#ImportERSolution1) لإضافة تكوينات التقارير الإلكترونية القياسية إلى مثيلك الحالي من Dynamics 365 Finance. استيراد الإصدار 1 من تكوين **تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي** من المستودع.
 
 ### <a name="create-a-custom-data-model-configuration"></a>إنشاء تكوين نموذج بيانات مخصص
 

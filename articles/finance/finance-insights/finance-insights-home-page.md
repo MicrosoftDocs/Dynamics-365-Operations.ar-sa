@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881951"
 ---
 # <a name="finance-insights-home-page"></a>الصفحة الرئيسية لـ Finance Insights
 
@@ -43,11 +43,11 @@ ms.locfileid: "8087283"
 
 ### <a name="version-requirements"></a>متطلبات الإصدار
 
-ينطبق هذا الموضوع على الإصدار 10.0.21 من Microsoft Dynamics 365 Finance والإصدارات الأحدث.
+تنطبق هذه المقالة على إصدار 10.0.21 من Microsoft Dynamics والإصدارات الأحدث.
 
 ### <a name="license-requirements"></a>متطلبات الترخيص
 
-يستخدم Finance insights أرصدة AI Builder لإنشاء التوقعات المالية. ويتم تضمين كافة التراخيص الضرورية لهذا الأمر مع ترخيص المستأجر. يتم تزويد كل مستأجر Dynamics 365 Finance بأرصدة AI Builder يبلغ عددها 20,000 في كل شهر. إذا تطلبت احتياجات العمل شراء المزيد من الأرصدة، فيمكن شراؤها مباشرة من AI Builder.
+يستخدم Finance insights أرصدة AI Builder لإنشاء التوقعات المالية. ويتم تضمين كافة التراخيص الضرورية لهذا الأمر مع ترخيص المستأجر. يتم توفير 20,000 ائتمان AI Builder في كل شهر في لكل مستأجر Dynamics 365 Finance 365. إذا تطلبت احتياجات العمل شراء المزيد من الأرصدة، فيمكن شراؤها مباشرة من AI Builder.
 
 ### <a name="historical-data-requirements"></a>متطلبات البيانات التاريخية
 
@@ -59,7 +59,7 @@ ms.locfileid: "8087283"
 
 ## <a name="create-a-data-integrator-project"></a>إنشاء مشروع تكامل البيانات
 
-ستحتاج إلى إنشاء مشروع تكامل البيانات بحيث يمكن للبيانات التي يقوم نموذج التعلم الآلي بإنشائها التدفق في Dynamics 365 Finance. للتعرف على خطوات إنشاء ذلك المشروع، راجع [إنشاء مشروع تكامل البيانات](create-data-integrate-project.md).
+ستحتاج إلى إنشاء مشروع تكامل بيانات بحيث يمكن للبيانات التي يقوم نموذج التعلم الآلي بإنشائها التدفق في Dynamics 365 Finance. للتعرف على خطوات إنشاء ذلك المشروع، راجع [إنشاء مشروع تكامل البيانات](create-data-integrate-project.md).
 
 ## <a name="enable-finance-insights-capabilities"></a>تمكين قدرات Finance insights
 
@@ -88,7 +88,7 @@ ms.locfileid: "8087283"
 
 ### <a name="using-cash-flow-forecasts"></a>استخدام تقديرات التدفقات النقدية
 
-يمكن أن تساعدك قدرة تقدير التدفقات النقدية في تقدير المنصب النقدي بدقة. يتم بناء تقدير التدفقات النقدية الذكية على رأس وظيفة تقدير التدفقات النقدية في Dynamics 365 Finance. لمراجعة القدرة الموجودة، راجع [تقدير التدفقات النقدية](../cash-bank-management/cash-flow-forecasting.md).
+يمكن أن تساعدك قدرة تقدير التدفقات النقدية في تقدير المنصب النقدي بدقة. يتم بناء تقدير التدفقات النقدية الذكية على قمة وظيفة تقدير التدفقات النقدية في Dynamics 365 Finance. لمراجعة القدرة الموجودة، راجع [تقدير التدفقات النقدية](../cash-bank-management/cash-flow-forecasting.md).
 
 - لمعرفة القدرات الجديدة في تقديرات التدفقات النقدية، راجع [تقدير التدفقات النقدية](cash-flow-forecast-intro.md).
 - لمزيد من المعلومات حول استيراد بيانات خارجية لتضمينها في التنبؤ بالتدفق النقدي الخاص بك هنا، راجع [استخدام البيانات الخارجية في تقديرات التدفقات النقدية](external-data-in-cash-flow.md). 

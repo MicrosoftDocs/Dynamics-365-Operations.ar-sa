@@ -1,6 +1,6 @@
 ---
 title: مشاركة تكوينات ER في RCS/المستودع العمومي مع المؤسسات الخارجية
-description: يشرح هذه الموضوع كيفية مشاركة تكوينات التقارير الإلكترونية (ER) في خدمات Microsoft Regulatory Configuration Services (RCS)/المستودع العمومي مباشرة مع مؤسسات خارجية.
+description: توضح هذه المقالة كيفية مشاركة تكوينات التقارير الإلكترونية (ER) في خدمات Microsoft Regulatory Configuration Services‏ (RCS)/المستودع العمومي مباشرة مع مؤسسات خارجية.
 author: JaneA07
 ms.date: 05/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ee7feef83ffa458e7cbd238d37a0f343d1a202f48002da67823df024bb609d02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888912"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>مشاركة تكوينات التقارير الإلكترونية (ER) في خدمات Regulatory Configuration Services (RCS)/المستودع العمومي مع مؤسسات خارجية.
 
@@ -36,7 +36,7 @@ ms.locfileid: "6719163"
 
 يجب أيضا التأكد من أنه تم توفير بيئة RCS لشركك.
 
-1. في تطبيق Finance and Operations، انتقل إلى **إدارة المؤسسات** \> **مساحات العمل** \> **التقارير الإلكترونية**.
+1. في تطبيق التمويل والعمليات، انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 2. في حالة عدم توفير بيئة RCS للشركة الخاصة بك، حدد **Regulatory services - التكوين الخارجي**، واتبع الإرشادات لتوفير بيئة.
 
 إذا تم بالفعل توفير بيئة RCS لشركك، استخدم عنوان URL للصفحة للوصول إليه عن طريق تحديد خيار تسجيل الدخول.
@@ -67,7 +67,7 @@ ms.locfileid: "6719163"
 
     ![مربع الحوار "مشاركة إصدار التكوين مع مؤسسة خارجية".](media/1_RCS_Repo_for_Share_with_form.JPG)
 
-تتم مشاركة التكوين مع المؤسسة الخارجية ويكون متوفرا لهذه المؤسسة في المستودع العمومي. ومن هناك، يمكن استيرادها إلى مثيل المؤسسة لـ RCS أو إلى مثيلات تطبيقات Finance and Operations.
+تتم مشاركة التكوين مع المؤسسة الخارجية ويكون متوفرا لهذه المؤسسة في المستودع العمومي. ومن هناك، يمكن استيرادها إلى مثيل المؤسسة لـ RCS أو إلى مثيلات تطبيقات التمويل والعمليات.
 
 6. لإلغاء مشاركة تكوين تمت مشاركته مسبقًا مع مؤسسة خارجية، حدد التكوين وانقر فوق **إلغاء المشاركة**، ثم حدد **موافق**
 

@@ -1,6 +1,6 @@
 ---
 title: الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
-description: يوفر هذا الموضوع معلومات ستساعدك على بدء استخدام الفوترة الإلكترونية للمملكة العربية السعودية.
+description: توفر هذه المقالة معلومات ستساعدك على بدء استخدام الفوترة الإلكترونية للمملكة العربية السعودية.
 author: ikondo
 ms.date: 11/08/2021
 ms.topic: article
@@ -15,33 +15,33 @@ ms.custom: intro-internal
 ms.author: ilyako
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 65e05cad35a596a8c2571951ec8f4484dc97b56b
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 989e0486b7e33e510aeac3b26f01a09f3141de87
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907746"
 ---
 # <a name="get-started-with-electronic-invoicing-for-saudi-arabia"></a>الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات تساعدك على بدء استخدام الوظيفة الإضافية الفوترة الإلكترونية للمملكة العربية السعودية في Microsoft Dynamics 365 Finance وفي Dynamics 365 Supply Chain Management. وهو يرشدك عبر خطوات التكوين التي تعتمد على البلد/المنطقة في Regulatory Configuration Services (RCS). تقوم هذه الخطوات بتكملة الخطوات الموضحة في [بدء العمل مع الفوترة الإلكترونيه](e-invoicing-get-started.md).
+توفر هذه المقالة معلومات تساعدك على بدء الاستخدام مع الفوترة الإلكترونية للمملكة العربية السعودية في Microsoft Dynamics 365‎ Finance وفي Dynamics 365 Supply Chain Management. وهو يرشدك عبر خطوات التكوين التي تعتمد على البلد/المنطقة في Regulatory Configuration Services (RCS). تقوم هذه الخطوات بتكملة الخطوات الموضحة في [بدء العمل مع الفوترة الإلكترونيه](e-invoicing-get-started.md).
 
 ### <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل إكمال الخطوات الواردة في هذا الموضوع، يجب استيفاء المتطلبات الأساسية التالية: 
+قبل إكمال الخطوات الواردة في هذه المقالة، يجب استيفاء المتطلبات الأساسية التالية: 
 
-- قم باستيراد ميزة الفواتير الإلكترونية **الفاتورة الإلكترونية للمملكة العربية السعودية (SA)** إلى RCS من المستودع العالمي. لمزيد من المعلومات، راجع قسم [يمكنك استيراد ميزة الفوترة الإلكترونية من موفر تكوين Microsoft‬](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) في موضوع "بدء استخدام الفواتير الإلكترونية".
+- قم باستيراد ميزة الفواتير الإلكترونية **الفاتورة الإلكترونية للمملكة العربية السعودية (SA)** إلى RCS من المستودع العالمي. لمزيد من المعلومات، راجع قسم [استيراد ميزة الفوترة الإلكترونية من موفر تكوين Microsoft‬](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) في مقالة "بدء استخدام الفوترة الإلكترونية".
 - في Microsoft Dataverse، قم بتكوين الكيانات الافتراضية لـ Finance and Supply Chain Management. لمزيد من المعلومات، راجع [تكوين كيانات Dataverse الظاهرية](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md).
 - قم بتمكين الكيان الظاهري **CustomerPaymentMethodEntity**. لمزيد من المعلومات، راجع [تمكين الكيانات الظاهرية Microsoft Dataverse](../../fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md).
-- أضف نقطة نهاية Dataverse كتطبيق متصل في مثيل RCS. لمزيد من المعلومات، راجع القسم [إنشاء تطبيق متصل](e-invoicing-get-started-service-administration.md#create-a-connected-application) في في موضوع "البدء في إدارة خدمة الفواتير الإلكترونية".
+- أضف نقطة نهاية Dataverse كتطبيق متصل في مثيل RCS. لمزيد من المعلومات، راجع قسم [إنشاء تطبيق متصل](e-invoicing-get-started-service-administration.md#create-a-connected-application) في مقالة "بدء إدارة خدمة الفوترة الإلكترونية".
 
 ## <a name="country-specific-configuration-for-the-saudi-arabian-electronic-invoice-sa-electronic-invoicing-feature"></a>التكوين الخاص بالدولة لميزة الفوترة الإلكترونية (SA) في المملكة العربية السعودية
 
 اتبع هذه الخطوات قبل نشر إعداد التطبيق في التطبيق المتصل بـ Finance أو Supply Chain Management.
 
-يكمل هذا القسم [قسم التكوين الخاص بالبلد لإعداد التطبيق](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) في الموضوع "الشروع في العمل" باستخدام الفوترة الإلكترونية الذي تم ذكره من قبل.
+يكمل هذا القسم [قسم التكوين الخاص بالبلد لإعداد التطبيق](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) في مقالة "بدء استخدام الفوترة الإلكترونية" الذي تم ذكره من قبل.
 
 1. في RCS، في مساحة العمل **ميزة العولمة**، في قسم **الميزات**، حدد الإطار المتجانب **الفوترة الإلكترونية**.
 2. في صفحة **ميزات الفوترة الإلكترونية**، تحقق من تحديد ميزة الفوترة الإلكترونية لـ **الفاتورة الإلكترونية السعودية (SA)**.
@@ -56,8 +56,8 @@ ms.locfileid: "8324049"
 
 8. في علامة التبويب **عمليات الإعداد**، حدد **تحرير** للتكوين المحدد. 
 9. في قسم **مسار المعالجة**، قم بتشغيل خيار **تصدير النتيجة** لخيار **تحويل المستند**.
-10. إكمال ونشر ونشر ميزة **الفاتورة الإلكترونيه السعودية (SA)** إلى بيئة الخدمة. لمزيد من المعلومات، راجع القسم [نشر ميزه الفوترة الكترونيه إلى بيئة الخدمة](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) في الموضوع "الشروع في العمل بالفوترة الإلكترونيه".
-11. انشر الميزة **الفاتورة الإلكترونيه السعودية (SA)** بالتطبيق المتصل. لمزيد من المعلومات، راجع القسم [نشر ميزه الفوترة الإلكترونيه إلى التطبيق المتصل](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) في الموضوع "الشروع في العمل بالفوترة الإلكترونيه".
+10. إكمال ونشر ونشر ميزة **الفاتورة الإلكترونيه السعودية (SA)** إلى بيئة الخدمة. لمزيد من المعلومات، راجع قسم [نشر ميزة الفوترة الإلكترونية إلى بيئة الخدمة](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) في مقالة "بدء الفوترة الإلكترونية".
+11. انشر الميزة **الفاتورة الإلكترونيه السعودية (SA)** بالتطبيق المتصل. لمزيد من المعلومات، راجع قسم [نشر ميزة الفوترة الإلكترونية إلى التطبيق المتصل](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) في مقالة "بدء الفوترة الإلكترونية".
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

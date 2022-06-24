@@ -1,6 +1,6 @@
 ---
 title: ‏‫تشخيصات الأمان‬ لتسجيلات المهام
-description: يوفر هذا الموضوع معلومات حول كيفيه تحليل متطلبات أذونات الأمان وإدارتها استنادا إلى تسجيل مهمة.
+description: توفر هذه المقالة معلومات عن كيفية تحليل متطلبات أذونات الأمان وإدارتها استنادًا إلى تسجيل مهمة.
 author: Peakerbl
 ms.date: 05/05/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb69bf997100f25cd0ad2b7e34139857199e5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880156"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>‏‫تشخيصات الأمان‬ لتسجيلات المهام
 
@@ -26,7 +26,7 @@ ms.locfileid: "6745110"
 
 ## <a name="before-you-begin"></a>قبل البدء
 
-يوفر هذا الموضوع معلومات حول كيفيه تحليل متطلبات أذونات الأمان وإدارتها استنادا إلى تسجيل مهمة. قبل إكمال الخطوات الواردة في هذا الموضوع، يجب أن يكون لديك تسجيل مهمة للعملية التجارية التي ترغب في تحليلها. لتسجيل عمليه تجاريه، راجع [موارد مسجل المهام‬‏‫](../../user-interface/task-recorder.md). 
+توفر هذه المقالة معلومات عن كيفية تحليل متطلبات أذونات الأمان وإدارتها استنادًا إلى تسجيل مهمة. قبل إكمال الخطوات الواردة في هذه المقالة، يجب أن يكون لديك تسجيل مهمة للعملية التجارية التي ترغب في تحليلها. لتسجيل عمليه تجاريه، راجع [موارد مسجل المهام‬‏‫](../../user-interface/task-recorder.md). 
 
 ## <a name="manage-security-for-a-task-recording"></a>إدارة الأمان لتسجيل مهمة
 

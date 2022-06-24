@@ -1,6 +1,6 @@
 ---
 title: استخدام توقعات دفع العميل
-description: يتناول هذا الموضوع المتطلبات الأساسية والخطوات الكبيرة المطلوبة لاستخدام إصدار تجريبي من Finance insights.
+description: تتنازل هذه المقالة المتطلبات الأساسية والخطوات الكبيرة المطلوبة لاستخدام إصدار تجريبي من Finance insights.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901391"
 ---
 # <a name="use-customer-payment-predictions"></a>استخدام توقعات دفع العميل
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية استخدام توقعات دفع العميل. قبل استخدام هذه الميزة، تأكد من إكمالك لخطوات الإعداد الخاصة بها. للحصول على مزيد من المعلومات، راجع [تمكين توقعات دفع العميل](enable-cust-paymnt-prediction.md).
+توضح هذه المقالة كيفية استخدام توقعات دفع العميل. قبل استخدام هذه الميزة، تأكد من إكمالك لخطوات الإعداد الخاصة بها. للحصول على مزيد من المعلومات، راجع [تمكين توقعات دفع العميل](enable-cust-paymnt-prediction.md).
 
 يمكنك عرض توقعات دفع العملاء في مساحة عمل **إدارة ائتمان العملاء ومجموعاتهم** وفي صفحتين جديدتين من صفحات القائمة: **توقعات دفع المعاملات** و **توقعات دفع العملاء**.
 

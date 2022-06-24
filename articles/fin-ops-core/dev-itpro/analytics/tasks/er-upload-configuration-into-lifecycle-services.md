@@ -1,6 +1,6 @@
 ---
 title: تحميل تكوين إلى Lifecycle Services
-description: يوضح هذا الموضوع كيفية إنشاء تكوين التقارير الإلكترونية الجديد وتحميله إلى Microsoft Dynamics Lifecycle Services (LCS).
+description: توضح هذه المقالة كيفية إنشاء تكوين التقارير الإلكترونية الجديد وتحميله إلى Microsoft Dynamics Lifecycle Services‏ (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2b84fc3167b3edaf6b99fa8bb0efd373c7f57c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885503"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>تحميل تكوين إلى Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-يشرح هذا الموضوع كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء إصدار جديد من [تكوين التقارير الإلكترونية](../general-electronic-reporting.md#Configuration) وتحميله إلى [مكتبة الأصول على مستوى المشروع](../../lifecycle-services/asset-library.md) في Microsoft Dynamics Lifecycle Services (LCS).
+توضح هذه المقالة كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية إنشاء إصدار جديد من [تكوين التقارير الإلكترونية](../general-electronic-reporting.md#Configuration) وتحميله إلى [مكتبة الأصول على مستوى المشروع](../../lifecycle-services/asset-library.md) في Microsoft Dynamics Lifecycle Services‏ (LCS).
 
 > [!IMPORTANT]
 > إن استخدام LCS كمستودع تخزين لتكوينات التقارير الإلكترونية يكون [مهملاً](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). لمزيد من المعلومات، [إهلاك تخزين Regulatory Configuration Service (RCS) – Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
@@ -42,7 +42,7 @@ ms.locfileid: "6720750"
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> تأكد من أن مستخدم Dynamics 365 Finance الحالي عضو في مشروع LCS الذي يحتوي على [مكتبة الأصول](../../lifecycle-services/asset-library.md#asset-library-support) المستخدمة لاستيراد تكوينات التقارير الإلكترونية.
+> تأكد من أن مستخدم الحالي عضو في مشروع LCS الذي يحتوي على [مكتبة الأصول](../../lifecycle-services/asset-library.md#asset-library-support) المستخدمة لاستيراد تكوينات التقارير الإلكترونية.
 >
 > لا يمكنك الوصول إلى مشروع LCS من مستودع تقارير إلكترونية يمثل مجالاً مختلفًا عن المجال المستخدم في Finance. إذا حاولت القيام بذلك، ستظهر قائمة فارغة بمشاريع LCS، ولن تتمكن من استيراد تكوينات التقارير الإلكترونية من مكتبة الأصول على مستوى المشروع في LCS. للوصول إلى مكتبات الأصول على مستوى المشروع من مستودع تقارير إلكترونية يُستخدم لاستيراد تكوينات التقارير الإلكترونية، سجل دخولك إلى Finance باستخدام بيانات اعتماد المستخدم الذي ينتمي إلى المستأجر (المجال) الذي تم تزويد مثيل Finance الحالي له.
 

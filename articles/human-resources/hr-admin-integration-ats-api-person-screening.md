@@ -1,6 +1,6 @@
 ---
 title: مراقبة الأشخاص
-description: يصف هذا الموضوع كيان مراقبة الشخص لـ Dynamics 365 Human Resources.
+description: توضح هذه المقالة كيان مراقبة الشخص لـ Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5129348f928fd709a5fabe73917522799a2d47e0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e9b2bbda8f8191f592462f4fbd1902e7274cf7f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907629"
 ---
 # <a name="person-screening"></a>مراقبة الأشخاص
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066283"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيان مراقبة الشخص لـ Dynamics 365 Human Resources.
+توضح هذه المقالة كيان مراقبة الشخص لـ Dynamics 365 Human Resources.
 
 الاسم الفعلي: mshr_hcmpersonscreeningentity
 

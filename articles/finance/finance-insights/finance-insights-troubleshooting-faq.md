@@ -1,6 +1,6 @@
 ---
 title: استكشاف مشاكل إعداد Finance Insights وإصلاحها
-description: يسرد هذا الموضوع المشاكل التي قد تحدث عند استخدام قدرات Finance Insights. كما يشرح كيفية إصلاح هذه المشاكل.
+description: توضح هذه المقالة المشاكل التي قد تحدث عند استخدام قدرات Finance Insights. كما يشرح كيفية إصلاح هذه المشاكل.
 author: panolte
 ms.date: 02/11/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846904"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>استكشاف مشاكل إعداد Finance Insights وإصلاحها
 
 [!include [banner](../includes/banner.md)]
 
-يسرد هذا الموضوع المشاكل التي قد تحدث عند استخدام قدرات Finance Insights. كما يشرح كيفية إصلاح هذه المشاكل.
+توضح هذه المقالة المشاكل التي قد تحدث عند استخدام قدرات Finance Insights. كما يشرح كيفية إصلاح هذه المشاكل.
 
 ## <a name="symptom-why-cant-i-map-the-customer-payment-insights-data-integration-template-destination-column"></a>العرض: لماذا لا يمكنني تعيين عمود وجهة قالب تكامل البيانات لمعلومات الدفع الخاصة بالعميل؟
 
@@ -121,4 +121,4 @@ ms.locfileid: "8725894"
 
 ### <a name="resolution"></a>القرار
 
-وصلت البيئة إلى الحد الأقصى لجدول خدمات Data Lake. لمزيد من المعلومات حول الحد، راجع القسم **تمكين تغييرات البيانات في وقت قريب من الوقت الحقيقي** من الموضوع [نظرة عامة على التصدير إلى Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).
+وصلت البيئة إلى الحد الأقصى لجدول خدمات Data Lake. لمزيد من المعلومات عن الحد، راجع قسم **تمكين تغييرات البيانات في وقت قريب من الوقت الحقيقي** من مقالة [التصدير إلى Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).

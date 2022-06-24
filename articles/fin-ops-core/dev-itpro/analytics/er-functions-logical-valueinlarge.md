@@ -1,6 +1,6 @@
 ---
 title: 'وظيفة VALUEINLARGE ER '
-description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية VALUEINLARGE (ER).
+description: توفر هذه المقالة معلومات عن كيفية استخدام وظيفة إعداد التقارير الإلكترونية VALUEINLARGE‏ (ER).
 author: NickSelin
 ms.date: 08/17/2020
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 57b2246631b31cce10d086da29e76b729059a64aa6a3c2d8cf864dd70085dbfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 977c1cd7dac75781677461b288bc8e5e79d13e6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888133"
 ---
 # <a name="valueinlarge-er-function"></a>وظيفة VALUEINLARGE ER 
 
 [!include [banner](../includes/banner.md)]
 
-تُحدد وظيفة `VALUEINLARGE` ما إذا كان الإدخال المُحدد من النوع *Int64* أو *عدد صحيح* يطابق أي قيمة عنصر مُحدد في القائمة المُحددة. تقوم الوظيفة بإرجاع قيمة *منطقية* **TRUE** إذا كان الإدخال المُحدد يُطابق نتيجة تشغيل التعبير المُحدد لسجل واحد على الأقل من القائمة المُحددة. وبخلاف ذلك، تُرجع قيمة *منطقية* لـ **FALSE**. لفهم المختلف في الوظيفة `VALUEIN` ، راجع قسم [ملاحظة الاستخدام](#usage_note) لاحقًا في هذا الموضوع.
+تُحدد وظيفة `VALUEINLARGE` ما إذا كان الإدخال المُحدد من النوع *Int64* أو *عدد صحيح* يطابق أي قيمة عنصر مُحدد في القائمة المُحددة. تقوم الوظيفة بإرجاع قيمة *منطقية* **TRUE** إذا كان الإدخال المُحدد يُطابق نتيجة تشغيل التعبير المُحدد لسجل واحد على الأقل من القائمة المُحددة. وبخلاف ذلك، تُرجع قيمة *منطقية* لـ **FALSE**. لفهم الفروق في وظيفة `VALUEIN` ، راجع قسم [ملاحظة الاستخدام](#usage_note) لاحقًا في هذه المقالة.
 
 ## <a name="syntax"></a>بناء الجملة
 

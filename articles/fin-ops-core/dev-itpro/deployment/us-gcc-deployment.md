@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Finance وSupply Chain Management وCommerce في سحابة القطاع الحكومي (GCC) الأمريكي
-description: يوفر هذا الموضوع معلومات حول منتجات Microsoft Dynamics 365 US Government التي يتم توفيرها للحكومة المؤهلة والكيانات الخاصة.
+description: توضح هذه المقالة معلومات عن منتجات حكومة الولايات المتحدة في 365 Microsoft Dynamics التي يتم توفيرها للحكومة المؤهلة والكيانات الخاصة.
 author: hasaid
 ms.date: 11/12/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 204bf1886ff7f7393fba5713a54f305274f540d0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867262"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance وSupply Chain Management وCommerce في سحابة القطاع الحكومي (GCC) الأمريكي
 

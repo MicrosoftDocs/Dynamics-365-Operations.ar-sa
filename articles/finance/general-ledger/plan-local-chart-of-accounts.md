@@ -1,6 +1,6 @@
 ---
 title: تخطيط دليل الحسابات المحلية
-description: يوفر هذا الموضوع معلومات تساعدك في تخطيط دليل الحسابات عندما يكون لديك متطلبات لقانوني/المتطلبات المحلية لمؤسسك.
+description: توفر هذه المقالة معلومات تساعدك في تخطيط دليل الحسابات عندما يكون لديك متطلبات تشريعية/محلية في مؤسستك.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798286"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946234"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>تخطيط دليل الحسابات المحلية
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات تساعدك في تخطيط دليل الحسابات في حاله احتواء المؤسسة علي كيانات قانونيه يجب ان تفي بالمتطلبات الخاصة بإعدادت محلية محدده حيث تقوم باعمالها. يستخدم هذا الموضوع الشروط التالية لوصف مخططات الحسابات:
+توفر هذه المقالة معلومات تساعدك في تخطيط دليل الحسابات في حالة احتواء المؤسسة علي كيانات قانونية يجب أن تفي بالمتطلبات الخاصة بإعدادت محلية محددة حيث تقوم بأعمالها. تستخدم هذه المقالة الشروط التالية لوصف مخططات الحسابات:
 
 - **عمومي** - دليل الحسابات التي تستخدمها المؤسسة بشكل عام. في معظم الحالات ، ستقوم بالدمج في دليل الحسابات هذا.
 - **محلي** – دليل الحسابات التي يتم تحديد الكيانات القانونية لها في بلد أو منطقه محدده.
@@ -154,7 +154,7 @@ ms.locfileid: "7798286"
 
 ### <a name="do-external-mapping-to-the-local-chart-of-accounts"></a>قم بالتعيين الخارجي إلى دليل الحسابات المحلي
 
-يفترض تبني الدليل العمومي للحسابات انك تقوم باداره التعيين والترجمة خارج النظام. في هذا الأسلوب ، يمكنك فقط إنشاء دليل عمومي مفرد للحسابات في Microsoft Dynamics 365 Finance ومعالجه المتطلبات خارج النظام.
+يفترض تبني الدليل العمومي للحسابات انك تقوم باداره التعيين والترجمة خارج النظام. في هذا الأسلوب، يمكنك فقط إنشاء دليل عمومي مفرد للحسابات في Microsoft Dynamics 365‎ Financeومعالجة المتطلبات خارج النظام.
 
 #### <a name="set-up-external-mapping-to-a-local-chart-of-accounts"></a>قم بإعداد التعيين الخارجي إلى دليل الحسابات المحلي
 
