@@ -1,6 +1,6 @@
 ---
 title: خيار نعم لا في واجهة API للرواتب
-description: يصف هذا الموضوع مجموعة خيارات نعم لا في واجهة API لكشف الرواتب في Dynamics 365 Human Resources.
+description: توضح هذه المقالة مجموعة خيارات نعم لا في واجهة API لكشف الرواتب في Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b715aac51a27f691ec5369d062f233fbcf9b0abe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7fe030100d2fe51cace4b940c80f7ac950ce9697
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865400"
 ---
 # <a name="payroll---no-yes-option-set"></a>كشف الرواتب - مجموعة الخيارات لا نعم
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069111"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع مجموعة الخيارات لا نعم لـ Dynamics 365 Human Resources.
+توضح هذه المقالة مجموعة خيارات لا نعم لـ Dynamics 365 Human Resources.
 
 ## <a name="option-set-no-yes"></a>مجموعة الخيارات: لا نعم
 

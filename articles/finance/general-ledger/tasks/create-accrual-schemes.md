@@ -1,6 +1,6 @@
 ---
 title: إنشاء أنظمة استحقاق
-description: يوضح هذا الموضوع كيفية إنشاء نظام استحقاق.
+description: توضح هذه المقالة كيفية إنشاء نظام استحقاق.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 495c72a6ae19faac0cf2dff155c2073852cb1cbd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8974eed40a60aeee5a32932ac070a870289ec20a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858410"
 ---
 # <a name="create-accrual-schemes"></a>إنشاء أنظمة استحقاق
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إنشاء نظام استحقاق. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
+توضح هذه المقالة كيفية إنشاء نظام استحقاق. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
 1. انتقل إلى **جزء التنقل > الوحدات النمطية > دفتر الأستاذ العام > إعداد دفتر اليومية > أنظمة الاستحقاق**.
 2. حدد **جديد**.

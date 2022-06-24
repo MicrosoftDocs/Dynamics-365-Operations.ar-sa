@@ -1,6 +1,6 @@
 ---
 title: سيناريوهات تاريخ المحاذاة
-description: يوفر هذا الموضوع أمثلة تظهر كيفية عمل تواريخ المحاذاة في فوترة الاشتراك.
+description: توفر هذه المقالة أمثلة تظهر كيفية عمل تواريخ المحاذاة في فوترة الاشتراك.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 102e3a104be5be287f914172160e95aff65d0b18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690462"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872604"
 ---
 # <a name="alignment-date-scenarios"></a>سيناريوهات تاريخ المحاذاة
 
-يوفر هذا الموضوع أمثلة تظهر كيفية عمل تواريخ المحاذاة في فوترة الاشتراك.
+توفر هذه المقالة أمثلة تظهر كيفية عمل تواريخ المحاذاة في فوترة الاشتراك.
 
 بالنسبة لهذه الأمثلة، تحتوي تفاصيل الفوترة الخاصة بجدول الفوترة على تاريخ محاذاة 31 أكتوبر 2019. تفاصيل الفوترة الأولى للسطر تنتهي في 31 أكتوبر 2019 وتُحتسب بشكل نسبي وفقًا لذلك. يتم تجديد السطر تلقائيًا باستخدام تاريخ بدء التجديد 11 نوفمبر.
 

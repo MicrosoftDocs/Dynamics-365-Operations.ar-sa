@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (03 سبتمبر 2020)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 3 سبتمبر 2020.
+description: توضح هذه المقالة الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 3 سبتمبر 2020.
 author: andreabichsel
 ms.date: 09/03/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 693c3d770f671edd3f52b22fa9240c641405dbed
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d558f4b0ddb3e8fe3479567483e2c2349a40774
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891339"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (3 سبتمبر 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8687885"
 
 
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3504. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم المرجع في  Lifecycle Services (LCS).
+تصف هذه المقالة الميزات الجديدة أو المتغيرة في Dynamics 365 Human Resources. يتم تطبيق التغييرات على رقم الإصدار 8.1.3504. تشير الأرقام الموجودة بين أقواس في بعض العناوين إلى أرقام دعم المرجع في  Lifecycle Services (LCS).
 
 لمزيد من المعلومات حول الميزات القادمة في Human Resources، راجع [نظرة عامة حول الموجة 2 من إصدار 2019 لتطبيق Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). لمزيد من المعلومات حول عملية تحديث Human Resources، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 

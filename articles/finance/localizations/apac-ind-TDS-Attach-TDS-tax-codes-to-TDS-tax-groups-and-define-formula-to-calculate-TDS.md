@@ -1,6 +1,6 @@
 ---
 title: إرفاق أكواد ضريبة TDS بمجموعات ضرائب TDS وتحديد معادلة حساب TDS
-description: يوضح هذا الموضوع كيفية إعداد الضريبة المخصومة في مجموعات ضرائب المصدر (TDS) وإرفاق أكواد ضريبة TDS بمجموعات ضريبة TDS. لحساب TDS لمجموعة ضرائب TDS، يجب عليك تحديد المعادلة لأكواد الضريبة TDS المرفقة بها.
+description: تشرح هذه المقالة كيفية إعداد الضريبة المخصومة في مجموعات ضرائب المصدر (TDS) وإرفاق أكواد ضريبة TDS بمجموعات ضريبة TDS. لحساب TDS لمجموعة ضرائب TDS، يجب عليك تحديد المعادلة لأكواد الضريبة TDS المرفقة بها.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1326f95c297887213ecfb572a2437867d964925
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 3607e44bdcf7a32b156e6b4639ef907aa923cadc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853303"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>إرفاق أكواد ضريبة TDS بمجموعات ضرائب TDS وتحديد معادلة حساب TDS
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد الضريبة المخصومة في مجموعات ضرائب المصدر (TDS) وإرفاق أكواد ضريبة TDS بمجموعات ضريبة TDS. لحساب TDS لمجموعة ضرائب TDS، يجب عليك تحديد المعادلة لأكواد الضريبة TDS المرفقة بها.
+تشرح هذه المقالة كيفية إعداد الضريبة المخصومة في مجموعات ضرائب المصدر (TDS) وإرفاق أكواد ضريبة TDS بمجموعات ضريبة TDS. لحساب TDS لمجموعة ضرائب TDS، يجب عليك تحديد المعادلة لأكواد الضريبة TDS المرفقة بها.
 
 اتبع هذه الخطوات لإعداد مجموعة ضرائب TDS، وإرفاق أكواد ضريبة TDS بها، وحدد المعادلة لحساب TDS.
 

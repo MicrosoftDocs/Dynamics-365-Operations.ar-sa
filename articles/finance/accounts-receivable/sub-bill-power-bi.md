@@ -1,6 +1,6 @@
 ---
-title: محتوى Power BI فوترة الاشتراك
-description: يصف هذا الموضوع العناصر المدرجة في محتوى فوترة الاشتراك‬ في Microsoft Power BI.
+title: محتوى Power BI لفوترة الاشتراك
+description: توضح هذه المقالة العناصر المدرجة في محتوى فوترة الاشتراك‬ في Microsoft Power BI.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-04-13
-ms.openlocfilehash: fad96bdaf60e7772e9ea1ff937435b0274303505
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6cee01eb5b8bb8296b6e7f638b565c999ccc023e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849949"
 ---
-# <a name="subscription-billing-power-bi-content"></a>محتوى Power BI فوترة الاشتراك
+# <a name="subscription-billing-power-bi-content"></a>محتوى Power BI لفوترة الاشتراك
 
 [!include[banner](../includes/banner.md)]
 
-يصف هذا الموضوع العناصر المدرجة في محتوى فوترة الاشتراك‬ في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى. 
+توضح هذه المقالة العناصر المدرجة في محتوى فوترة الاشتراك‬ في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى. 
 
 ## <a name="overview"></a>نظرة عامة
 

@@ -1,6 +1,6 @@
 ---
 title: تحديث الكيان المركب لدفتر يومية البنك‬
-description: يسرد هذا الموضوع الخطوات التالية مطلوبة لإضافة الحقل BankTransactionType الإضافي إلى BankJournalEntity المركب.
+description: تسرد هذه المقالة الخطوات التالية المطلوبة لإضافة الحقل BankTransactionType الإضافي إلى BankJournalEntity المركب.
 author: panolte
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 730e6bd10b0cdd1587c915bb9ec8d6a4792435d9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: db5f01af6b21b4dc5ff633ee9c11bb6ed41df048
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868536"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>تحديث الكيان المركب لدفتر يومية البنك‬
 
 [!include [banner](../includes/banner.md)]
 
-يسرد هذا الموضوع الخطوات التالية مطلوبة لإضافة الحقل BankTransactionType الإضافي إلى BankJournalEntity المركب.
+تسرد هذه المقالة الخطوات التالية المطلوبة لإضافة الحقل BankTransactionType الإضافي إلى BankJournalEntity المركب.
 
 استخدم الخطوات التالية لإضافة الحقل الإضافي BankTransactionType إلى BankJournalEntity المركب.
 

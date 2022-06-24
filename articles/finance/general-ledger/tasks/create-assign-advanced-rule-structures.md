@@ -1,6 +1,6 @@
 ---
 title: إنشاء بُنى القواعد المتقدمة وتعيينها
-description: يشرح هذا الموضوع كيفية إنشاء وتعيين بنية قاعدة متقدمة إلى بنية حساب.
+description: توضح هذه المقالة كيفية إنشاء بنية قاعدة متقدمة إلى بنية حساب وتعيينها.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea0a31eeac9593051916d44113459f4b6ad70a92
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 72688642936f9428c96aebb34bf9f240dd48b46b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896308"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>إنشاء بُنى القواعد المتقدمة وتعيينها
 
 [!include [banner](../../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إنشاء وتعيين بنية قاعدة متقدمة إلى بنية حساب. يستخدم هذا الدليل شركة بيانات العرض التوضيحي USMF.
+توضح هذه المقالة كيفية إنشاء بنية قاعدة متقدمة إلى بنية حساب وتعيينها. يستخدم هذا الدليل شركة بيانات العرض التوضيحي USMF.
 
 ## <a name="create-an-advanced-rule-structure"></a>إنشاء بنية قاعدة متقدمة
 1. انتقل إلى **جزء التنقل > الوحدات النمطية > دفتر الأستاذ العام > دليل الحسابات > البنى > بنى القواعد المتقدمة**.

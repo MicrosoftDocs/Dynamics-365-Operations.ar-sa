@@ -1,6 +1,6 @@
 ---
 title: فحص مكون التقارير الإلكترونية الذي تم تكوينه لمنع مشكلات وقت التشغيل
-description: يشرح هذا الموضوع كيفية فحص مكونات التقارير الإلكترونية (التقارير الإلكترونية) المكونة لمنع مشكلات وقت التشغيل التي قد تحدث.
+description: توضح هذه المقالة كيفية فحص مكونات التقارير الإلكترونية (ER) المكونة لمنع مشكلات وقت التشغيل التي قد تحدث.
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864825"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>فحص مكون التقارير الإلكترونية الذي تم تكوينه لمنع مشكلات وقت التشغيل
 
@@ -30,7 +30,7 @@ ms.locfileid: "8074781"
 
 بشكل افتراضي، يتم تطبيق التحقق تلقائيًا في الحالات التالية لتكوين التقارير الإلكترونية الذي يحتوي على مكونات التقارير الإلكترونية المذكورة سابقًا:
 
-- يمكنك [استيراد](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) إصدار [جديد](general-electronic-reporting.md#component-versioning)من تكوين التقارير الإلكترونية إلى مثيل Microsoft Dynamics 365 Finance.
+- يمكنك [استيراد](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) إصدار [جديد](general-electronic-reporting.md#component-versioning) من تكوين التقارير الإلكترونية إلى مثيل 365 Finance Microsoft Dynamics.
 - وتقوم بتغيير [حالة](general-electronic-reporting.md#component-versioning) تكوين التقارير الإلكتروني القابل للتحرير من **مسودة** إلى **مكتمل**.
 - يمكنك [إعادة تعريف](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) تكوين تقارير إلكترونية قابل للتحرير عن طريق استخدام إصدار أساسي جديد.
 
@@ -80,7 +80,7 @@ ms.locfileid: "8074781"
 
 ## <a name="list-of-inspections"></a>قائمه عمليات الفحص
 
-يوفر الجدول التالي نظرة عامة على عمليات الفحص التي توفرها التقارير الإلكترونية. لمزيد من المعلومات حول عمليات الفحص هذه، استخدم الارتباطات الموجودة في العمود الأول للانتقال إلى الأقسام ذات الصلة لهذا الموضوع. توضح هذه المقاطع أنواع المكونات التي يوفرها التقارير الإلكترونية عمليات الفحص الخاصة بمكونات التقارير الإلكترونية وكيفيه أعاده تكوينها للمساعدة علي منع حدوث المشكلات.
+يوفر الجدول التالي نظرة عامة على عمليات الفحص التي توفرها التقارير الإلكترونية. لمزيد من المعلومات حول عمليات الفحص هذه، استخدم الارتباطات الموجودة في العمود الأول للانتقال إلى الأقسام ذات الصلة بهذه المقالة. توضح هذه المقاطع أنواع المكونات التي يوفرها التقارير الإلكترونية عمليات الفحص الخاصة بمكونات التقارير الإلكترونية وكيفيه أعاده تكوينها للمساعدة علي منع حدوث المشكلات.
 
 <table>
 <thead>

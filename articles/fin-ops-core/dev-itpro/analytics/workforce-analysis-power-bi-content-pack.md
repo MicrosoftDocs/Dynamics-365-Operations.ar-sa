@@ -1,6 +1,6 @@
 ---
 title: محتوى "مقاييس القوى العاملة" في Power BI
-description: يصف هذا الموضوع محتوى "مقاييس القوى العاملة‬" في Power BI.
+description: توضح هذه المقالة محتوى مقاييس القوى العاملة في Power BI.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9393b4dcc6cb5f65d38c6904bf38def9d50af281671e0e09314148824f3e6891
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884477"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>محتوى "مقاييس القوى العاملة" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع محتوى **مقاييس القوى العاملة‬** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+توضح هذه المقالة محتوى **مقاييس القوى العاملة** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 يظهر محتوى **مقاييس القوى العاملة** في Power BI في مساحة عمل **إدارة العاملين**‬ إذا كنت تستخدم أحد المنتجات التالية:
 
-- Microsoft Dynamics 365 Finance
+- 365‎ Finance Microsoft Dynamics
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>المقاييس المضمنة في محتوى Power BI
@@ -58,7 +58,7 @@ ms.locfileid: "6757263"
 حرص على تنزيل محتوى **مقاييس القوى العاملة‬** في Power BI الذي ينطبق على إصدار Microsoft Dynamics 365 الذي تستخدمه.
 
 > [!NOTE]
-> تنطبق ملفات .pbix المتوافرة في Lifecycle Services على تطبيقات Finance and Operations فقط.
+> تنطبق ملفات .pbix المتوافرة في Lifecycle Services على تطبيقات Finance and Operations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 يعرض الجدول التالي الكيانات التي استند إليها المحتوى.

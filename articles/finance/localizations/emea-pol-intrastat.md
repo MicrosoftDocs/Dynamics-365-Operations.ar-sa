@@ -1,6 +1,6 @@
 ---
 title: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لبولندا
-description: يحتوي هذا الموضوع على معلومات حول تقارير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي في بولندا.
+description: تحتوي هذه المقالة على معلومات عن تقارير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي في بولندا.
 author: andosip
 ms.date: 11/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: ''
-ms.openlocfilehash: fbacc204208e536291035c6f9bb2ef4fa4038f58
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 45bd1d3c90d0a8a8ad5db6d0b80c5eed0aa489e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871090"
 ---
 # <a name="polish-intrastat"></a>نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لبولندا
 

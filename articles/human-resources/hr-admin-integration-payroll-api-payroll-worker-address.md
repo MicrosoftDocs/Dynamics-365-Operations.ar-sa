@@ -1,6 +1,6 @@
 ---
 title: عنوان عامل كشف الرواتب
-description: يوفر هذا الموضوع تفاصيل ومثال استعلام لكيان عنوان عامل كشف الرواتب في Dynamics 365 Human Resources.
+description: توفر هذه المقالة التفاصيل ومثال الاستعلام لكيان عنوان عامل في كشف الرواتب في Dynamics 365 Human Resources.
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70e42cbf657a28327699d927731edd36de7c4a64
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 683994b24113b8c2017f1bb3c1055e7e0f0eb75e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901107"
 ---
 # <a name="payroll-worker-address"></a>عنوان عامل كشف الرواتب
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069747"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيان عنوان عامل كشف الرواتب لـ Dynamics 365 Human Resources.
+توضح هذه المقالة كيان عنوان العامل في كشف الرواتب في Dynamics 365 Human Resources.
 
 الاسم الفعلي: mshr_payrollworkeraddressentity.
 

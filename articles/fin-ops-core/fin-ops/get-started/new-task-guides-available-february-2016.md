@@ -1,6 +1,6 @@
 ---
 title: دلائل المهام الجديدة (فبراير 2016)
-description: ‏‫يذكر هذا الموضوع دلائل المهام التي تم إصدارها لمكتبات Microsoft BPM اعتبارًا من فبراير عام 2016.
+description: ‏‫تسرد هذه المقالة دلائل المهام التي تم إصدارها لمكتبات Microsoft BPM اعتبارًا من فبراير عام 2016.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1947ec2ef0ef061323f904c739d49a5a2594b9d0e730f19e4d4da322148e473
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb74ce407bd98dbd650804ed337e48986d58911d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861723"
 ---
 # <a name="new-task-guides-february-2016"></a>دلائل المهام الجديدة (فبراير 2016)
 
 [!include [banner](../includes/banner.md)]
 
-‏‫يذكر هذا الموضوع دلائل المهام التي تم إصدارها لمكتبات Microsoft BPM اعتبارًا من فبراير عام 2016. تتضمن المكتبات التي تم نشرها المكتبة الموحدة APQC (فبراير 2016) لتطبيق Microsoft Dynamics AX ومكتبة بدء الاستخدام (فبراير 2016).‬
+‏‫تسرد هذه المقالة دلائل المهام التي تم إصدارها لمكتبات Microsoft BPM اعتبارًا من فبراير عام 2016. تتضمن المكتبات التي تم نشرها المكتبة الموحدة APQC (فبراير 2016) لتطبيق Microsoft Dynamics AX ومكتبة بدء الاستخدام (فبراير 2016).‬
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>دلائل المهام في المكتبة الموحدة APQC (فبراير 2016) لتطبيق Microsoft Dynamics AX
 

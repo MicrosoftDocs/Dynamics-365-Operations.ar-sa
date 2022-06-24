@@ -1,6 +1,6 @@
 ---
 title: تحديث بنية قالب مستند الأعمال
-description: يشرح هذا الموضوع كيفيه تحديث بنيه قالب مستند العمل باستخدام ميزه أداره مستندات العمل.
+description: توضح هذه المقالة كيفية تحديث بنية قالب مستند العمل باستخدام ميز إدارة مستندات العمل.
 author: NickSelin
 ms.date: 11/19/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2adecba4e988bfe04de2c181501b6c3ef8491dcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880272"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>تحديث بنية قالب مستند الأعمال 
 
 [!include[banner](../includes/banner.md)]
 
-في جزء **بنية القالب** الخاص بمحرر قالب [إدارة مستندات الأعمال](er-business-document-management.md)، يمكنك تعديل قالب مستند أعمال عن طريق [إضافة حقول جديدة](er-bdm-add-field-to-excel-template.md) إلى قالب في Microsoft Excel. ويتم بعد ذلك تحديث بنية القالب تلقائيًا في Dynamics 365 Finance، بحيث يعكس التغييرات التي أجريتها في جزء **بنية القالب**.
+في جزء **بنية القالب** الخاص بمحرر قالب [إدارة مستندات الأعمال](er-business-document-management.md)، يمكنك تعديل قالب مستند أعمال عن طريق [إضافة حقول جديدة](er-bdm-add-field-to-excel-template.md) إلى قالب في Microsoft Excel. ويتم بعد ذلك تحديث بنية القالب تلقائيًا في Dynamics 365 Finance، بحيث يعكس التغييرات التي أجريتها في جزء **بنية القالب** .
 
 يمكنك أيضًا تعديل قالب باستخدام وظيفة Office 365 عبر الإنترنت. علي سبيل المثال، يمكنك أضافه عنصر مسمي جديد، مثل صوره أو شكل، إلى ورقه العمل القابلة للتحرير. في هذه الحالة، لا يتم تحديث بنيه القالب تلقائيا في التمويل، ولا يظهر العنصر الذي قمت بإضافته في جزء **بنية القالب**. قم بتحديث بنيه القالب يدويا في المالية من خلال تحديد **تحديث البنية** في صفحة محرر القالب.
 

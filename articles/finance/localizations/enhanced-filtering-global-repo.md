@@ -1,6 +1,6 @@
 ---
 title: تصفية RCS المحسنة في RCS/المستودع العمومي
-description: يصف هذا الموضوع قدرات التصفية المحسنة للمستودع العمومي RCS، التي تم تحسينها لتضمين عوامل تصفية إضافية.
+description: تصف هذه المقالة إمكانيات التصفية المحسنة للمستودع العمومي RCS التي تم تحسينها لتضمين عوامل التصفية الإضافية.
 author: JaneA07
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2def3b653ac7c90318feb696c0dd197217ac29f64f0f08d26a7069918c67922b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a343b9f1af68a727cb2a8d1e390f85e10aab2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901201"
 ---
 # <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>خيارات تصفية RCS المحسنة للبحث عن التكوينات في RCS/المستودع العمومي
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع قدرات التصفية المحسنة للمستودع العمومي لخدمات Regulatory Configuration Services (RCS)، التي تم تحسينها لتشمل القدرة على التصفية باستخدام العوامل التالية: 
+تصف هذه المقالة قدرات التصفية المحسنة للمستودع العمومي لخدمات Regulatory Configuration Services‎‎‏ (RCS) التي تم تحسينها لتشمل القدرة على التصفية باستخدام العوامل التالية: 
 - **البلد/المنطقة** - بالاستناد إلى أكواد بلدان ISO  
 - أنواع **العلامات** لـ:
   - المنطقة الوظيفية
@@ -42,7 +42,7 @@ ms.locfileid: "6778102"
 
 [![تطبيق عامل التصفية والاستيراد لنوع مستند الأعمال.](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-يمكن استيراد النتائج المصفاة إلى مستودع RCS للمستخدمين أو بيئة Dynamics 365 Finance، سواء بشكل فردي أو كمجموعة. للقيام بذلك، حدد مجموعة التكوينات، وانقر فوق **استيراد**.
+يمكن استيراد النتائج المصفاة إلى مستودع RCS للمستخدمين أو بيئة Dynamics 365 Finance سواء بشكل فردي أو كمجموعة. للقيام بذلك، حدد مجموعة التكوينات، وانقر فوق **استيراد**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: مساحة العمل المحمولة للتحكم في التكلفة
-description: يقدم هذا الموضوع معلومات حول مساحة العمل المحمولة - التحكم في التكلفة. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان.
+description: تقدم هذه المقالة معلومات عن مساحة العمل المحمولة التحكم في التكلفة. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان.
 author: AndersGirke
 ms.date: 05/24/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 75d8abaeec85b46f0fd0e430040bc7e3a8fd3042
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 9e7d220639f5f3af26e892461928c646746963bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874656"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>مساحة العمل المحمولة للتحكم في التكلفة
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-يقدم هذا الموضوع معلومات حول مساحة العمل المحمولة **التحكم في التكلفة**. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان.
+تقدم هذه المقالة معلومات عن مساحة العمل المحمولة **التحكم في التكلفة**. تسمح مساحة العمل هذه لمدراء مركز التكلفة بعرض معلومات حول أداء مراكز التكلفة في أي وقت وفي أي مكان.
 
 مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations (Dynamics 365) للأجهزة المحمولة. 
 

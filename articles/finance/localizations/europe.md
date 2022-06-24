@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على أوروبا
-description: يوفر هذا الموضوع ارتباطات إلى موارد وثائق Microsoft Dynamics 365 Finance لأوروبا.
+description: توفر هذه المقالة ارتباطات إلى موارد وثائق 365‎ Finance Microsoft Dynamics لأوروبا.
 author: kfend
 ms.date: 01/15/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 9a9fd88bde02d8ea4f6eeda5e8785366ec0d8e85
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856507"
 ---
 # <a name="europe-overview"></a>نظرة عامة على أوروبا
 
 [!include [banner](../includes/banner.md)]
 
-يتضمن هذا الموضوع معلومات وارتباطات إلى الموارد التي يمكنها أن تساعدك في إعداد الكيانات القانونية التي لها عنوان أساسي في أوروبا. 
+تتضمن هذه المقالة معلومات وارتباطات إلى الموارد التي يمكنها أن تساعدك على إعداد الكيانات القانونية التي لها عنوان أساسي في أوروبا. 
 
 - [نظرة عامة على أصحاب السُلف](emea-advance-holders.md)
  - [حركات أصحاب السُلف](emea-advance-holders-transactions.md)

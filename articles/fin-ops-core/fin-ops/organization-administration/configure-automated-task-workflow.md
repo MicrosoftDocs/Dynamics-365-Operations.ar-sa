@@ -1,6 +1,6 @@
 ---
 title: تكوين المهام المؤتمتة في سير عمل
-description: يوضح هذا الموضوع كيفية تكوين خصائص مهمة تلقائية.
+description: توضح هذه المقالة كيفية تكوين خصائص المهمة التلقائية.
 author: ChrisGarty
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7346649108824eb4e7209a2476456a469affa1c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b482338c436ea9226d31f74c823ee1dc141b24cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891742"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>تكوين المهام المؤتمتة في سير عمل
 
@@ -28,7 +28,7 @@ ms.locfileid: "8066508"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-يوضح هذا الموضوع كيفية تكوين خصائص مهمة تلقائية.
+توضح هذه المقالة كيفية تكوين خصائص المهمة التلقائية.
 
 لتكوين مهمة تلقائية في محرر سير العمل، انقر بزر الماوس الأيمن فوق المهمة، وثم انقر فوق **خصائص** لفتح الصفحة **خصائص**. ثم استخدم الإجراءات التالية لتكوين خصائص المهمة التلقائية.
 

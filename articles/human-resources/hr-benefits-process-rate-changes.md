@@ -1,6 +1,6 @@
 ---
 title: معالجة تغييرات المعدلات
-description: يشرح هذا الموضوع كيفية معالجة تغييرات معدل المزايا في Microsoft Dynamics 365 Human Resources.
+description: توضح هذه المقالة كيفية معالجة تغييرات معدل المزايا في Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1eea61df6dd5fbe0b52a21944deba69928b5125
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 09714c70cb00b1a1b5dbd4613bbd70ff11d35cb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882942"
 ---
 # <a name="process-rate-changes"></a>معالجة تغييرات المعدلات
 
@@ -28,7 +28,7 @@ ms.locfileid: "8696115"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يشرح هذا الموضوع كيفية معالجة تغييرات معدل المزايا في Microsoft Dynamics 365 Human Resources عندما تحتوي خطة ميزة جديدة أو حالية في إعدادات قاعدة الأهلية. إذا تم إنشاء قاعدة أهلية جديدة وتعيينها إلى الخطة، فإن هذا سيطالب النظام بإعادة تشغيل أهلية العامل للتحقق مما إذا كان من الممكن تأهيل العاملين الآن للخطة بناءً على خيارات الأهلية الجديدة. 
+توضح هذه المقالة كيفية معالجة تغييرات معدل المزايا في Microsoft Dynamics 365 Human Resources عندما تحتوي خطة ميزة جديدة أو حالية في إعدادات قاعدة الأهلية. إذا تم إنشاء قاعدة أهلية جديدة وتعيينها إلى الخطة، فإن هذا سيطالب النظام بإعادة تشغيل أهلية العامل للتحقق مما إذا كان من الممكن تأهيل العاملين الآن للخطة بناءً على خيارات الأهلية الجديدة. 
 
 1. في مساحة العمل **إدارة الميزات**، ضمن **معالجة**، حدد **معالجة تحديث تغيير المعدل**.
 

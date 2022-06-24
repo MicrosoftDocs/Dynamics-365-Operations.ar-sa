@@ -1,6 +1,6 @@
 ---
 title: تقرير ضريبة الخصم لإندونيسيا
-description: يشرح هذا الموضوع كيفية تكوين وإنشاء تقرير ضريبة الخصم لإندونيسيا.
+description: تشرح هذه المقالة كيفية تكوين وإنشاء تقرير ضريبة الخصم لإندونيسيا.
 author: sndray
 ms.date: 12/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2021-12-02
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6cf2f9240ea747054578c52343af34b15c250f38
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 8acd9442ff4f0b7c19e3b4fcf211acce002e43d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883170"
 ---
 # <a name="withholding-tax-report-for-indonesia-id-00005"></a>تقرير ضريبة الخصم لإندونيسيا (ID-00005)
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد وإنشاء ملف ضريبة الخصم PPH الذي تستخدمه الكيانات القانونية في إندونيسيا للإبلاغ عن حركات الخصم في تطبيق e-Bupot.
+تشرح هذه المقالة كيفية إعداد وإنشاء ملف ضريبة الخصم PPH الذي تستخدمه الكيانات القانونية في إندونيسيا للإبلاغ عن حركات الخصم في تطبيق e-Bupot.
 
 تحدد مصلحة الضرائب الإندونيسية (DGT) أن رواد الأعمال الخاضعين للضريبة (PKP) المسجلين في KPP Pratama باعتبارهم حاملي الضرائب/محصلي ضريبة الدخل (PPh) المادة 23 و/أو المادة 26 يجب أن يقدموا تقريرًا إلكترونيًا عن إقرار ضريبة الدخل المادتين 23 و26 باستخدام تطبيق e-Bupot. 
 

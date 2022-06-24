@@ -1,6 +1,6 @@
 ---
 title: فشل ترحيل دفتر اليومية بسبب عدم التوازن
-description: يشرح هذا الموضوع السبب في عدم توازن الديون والأرصدة في حركات الإيصال، بحيث لا يمكن ترحيل الحركات. يتضمن الموضوع أيضا خطوات لإصلاح المشكلة.
+description: توضح هذه المقالة السبب في عدم توازن الديون والأرصدة في حركات الإيصال، بحيث لا يمكن ترحيل المعاملات. تتضمن المقالة أيضًا خطوات لإصلاح المشكلة.
 author: kweekley
 ms.date: 08/03/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 07408e608496dcc19562b866449b3b27f5f80edd
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f5afded3d5c42f8dab465b668e4c1fcdaed8c215
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861318"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>فشل ترحيل دفتر اليومية بسبب عدم التوازن
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع السبب في عدم توازن الديون والأرصدة في حركات الإيصال، بحيث لا يمكن ترحيل الحركات. يتضمن الموضوع أيضا خطوات لإصلاح المشكلة.
+توضح هذه المقالة السبب في عدم توازن الديون والأرصدة في حركات الإيصال، بحيث لا يمكن ترحيل المعاملات. تتضمن المقالة أيضًا خطوات لإصلاح المشكلة.
 
 ## <a name="symptom"></a>العَرَضْ
 

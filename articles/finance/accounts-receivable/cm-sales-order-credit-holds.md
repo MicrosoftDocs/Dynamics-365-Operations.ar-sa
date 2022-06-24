@@ -1,6 +1,6 @@
 ---
 title: تعليقات ائتمانية لأوامر المبيعات
-description: يصف هذا الموضوع إعداد القواعد المستخدمة لوضع أمر مبيعات قيد تعليق الائتمان.
+description: توضح هذه المقالة إعداد القواعد المستخدمة لوضع أمر مبيعات قيد تعليق الائتمان.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856817"
 ---
 # <a name="credit-holds-for-sales-orders"></a>تعليقات ائتمانية لأوامر المبيعات
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا الموضوع إعداد القواعد المستخدمة لوضع أمر مبيعات قيد تعليق الائتمان. يمكن تطبيق قواعد الحظر لإدارة الائتمان على عميل فردي أو مجموعة من العملاء. تحدد قواعد الحظر الاستجابات إلى الحالات التالية:
+توضح هذه المقالة إعداد القواعد المستخدمة لوضع أمر مبيعات قيد تعليق الائتمان. يمكن تطبيق قواعد الحظر لإدارة الائتمان على عميل فردي أو مجموعة من العملاء. تحدد قواعد الحظر الاستجابات إلى الحالات التالية:
 
 1. عدد الأيام المستحقة
 2. حالة الحسابات

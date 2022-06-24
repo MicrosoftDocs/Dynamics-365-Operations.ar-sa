@@ -1,6 +1,6 @@
 ---
 title: البحث عن تحديثات تنظيمية خاصة بالبلدان
-description: يوفر هذا الموضوع ارتباطات إلى تحديثات مخططة وصادرة خاصة بالبلدان لتطبيق Microsoft Dynamics 365 Finance.
+description: توفر هذه المقالة ارتباطات إلى التحديثات المخططة والصادرة والخاصة بالبلدان لتطبيق 365‎ Finance Microsoft Dynamics.
 author: AKroshkina
 ms.date: 01/20/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c86f93ca76168e04a3152de67f40ef408bc096a6
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896171"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>البحث عن تحديثات تنظيمية خاصة بالبلدان
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع ارتباطات إلى تحديثات مخططة وصادرة خاصة بالبلدان لتطبيق Microsoft Dynamics 365 Finance. يجب تسجيل الدخول إلى Microsoft Dynamics Lifecycle Services (LCS) للوصول إلى هذه المعلومات.
+توفر هذه المقالة ارتباطات إلى التحديثات المخططة والصادرة والخاصة بالبلدان لتطبيق 365‎ Finance Microsoft Dynamics. يجب تسجيل الدخول إلى Microsoft Dynamics Lifecycle Services (LCS) للوصول إلى هذه المعلومات.
 
 | البلد أو المنطقة    | مشكلة في البحث عن المشاكل في LCS |
 |----------------------|---------------------------|

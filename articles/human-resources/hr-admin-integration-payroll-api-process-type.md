@@ -1,6 +1,6 @@
 ---
 title: نوع العملية
-description: يصف هذا الموضوع مجموعة خيارات نوع العملية لـ Dynamics 365 Human Resources.
+description: توضح هذه المقالة مجموعة خيارات نوع العملية في Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f30b50e6ec24b44f7832905a43c9fd979986065
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 51be840b3af41e1ae32e9eae87ef62f4f4f15a09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865342"
 ---
 # <a name="process-type"></a>نوع العملية
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533671"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع مجموعة الخيارات لا نعم لـ Dynamics 365 Human Resources.
+توضح هذه المقالة مجموعة خيارات لا نعم لـ Dynamics 365 Human Resources.
 
 ## <a name="option-set-process-type"></a>مجموعة الخيارات: نوع العملية
 

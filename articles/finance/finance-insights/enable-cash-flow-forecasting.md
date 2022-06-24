@@ -1,6 +1,6 @@
 ---
 title: تمكين تقدير التدفق النقدي
-description: يوضح هذا الموضوع كيفية تشغيل ميزة توقعات التدفق النقدي في Finance Insights.
+description: توضح هذه المقالة كيفية تشغيل ميزة توقعات التدفق النقدي في Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859846"
 ---
 # <a name="enable-cash-flow-forecasting"></a>تمكين تقدير التدفق النقدي
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تشغيل ميزة توقعات التدفق النقدي في Finance Insights.
+توضح هذه المقالة كيفية تشغيل ميزة توقعات التدفقات النقدية في Finance Insights.
 
 > [!NOTE]
 > لاستخدام تنبؤات الدفع في التدفق النقدي، فإنه يجب إعداد ميزة تنبؤات الدفع الخاصة بالعميل كما هو موضح في [تمكين تنبؤات مدفوعات العميل](enable-cust-paymnt-prediction.md).

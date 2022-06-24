@@ -1,6 +1,6 @@
 ---
 title: إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
-description: يوضح هذا الموضوع كيفية تضمين تقرير Power BI في علامة تبويب "التحليلات" في مساحة عمل.
+description: توضح هذه المقالة كيفية تضمين تقرير Power BI في علامة تبويب التحليلات في مساحة عمل.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884538"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>إضافة تحليلات إلى مساحات العمل باستخدام Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> هذه الميزة مدعومة في Finance and Operations (الإصدار 7.2 والإصدارات الأحدث).
+> هذه الميزة مدعومة في Finance and Operations (الإصدار 7.2 والإصدارات اللاحقة).
 
 ## <a name="introduction"></a>مقدمة
-يوضح هذا الموضوع كيفية تضمين تقرير Microsoft Power BI في علامة تبويب **التحليلات** لمساحة عمل. بالنسبة إلى المثال الذي تم تقديمه هنا، سنقوم بتوسيع مساحة عمل **إدارة الحجز** في تطبيق إدارة الأسطول لتضمين مساحة عمل تحليلية على علامة تبويب **التحليلات**.
+توضح هذه المقالة كيفية تضمين تقرير Microsoft Power BI في علامة تبويب **التحليلات** في مساحة عمل. بالنسبة إلى المثال الذي تم تقديمه هنا، سنقوم بتوسيع مساحة عمل **إدارة الحجز** في تطبيق إدارة الأسطول لتضمين مساحة عمل تحليلية على علامة تبويب **التحليلات**.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 + الوصول إلى بيئة مطور تقوم بتشغيل تحديث النظام الأساسي 8 أو الإصدارات الأحدث.

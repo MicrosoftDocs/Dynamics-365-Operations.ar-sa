@@ -1,6 +1,6 @@
 ---
 title: استيراد تكوين من Lifecycle Services
-description: يوضح هذا الموضوع كيفيه استيراد إصدار جديد من تكوين التقارير الكترونيه (ER) من Microsoft Dynamics Lifecycle Services (LCS).
+description: توضح هذه المقالة كيفية استيراد إصدار جديد من تكوين التقارير الإلكترونية (ER) من Microsoft Dynamics Lifecycle Services‏ (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886661"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>استيراد تكوين من Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-يشرح هذا الموضوع كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية استيراد إصدار جديد من [تكوين التقارير الإلكترونية](../general-electronic-reporting.md#Configuration) من [مكتبة الأصول على مستوى المشروع](../../lifecycle-services/asset-library.md) في Microsoft Dynamics Lifecycle Services (LCS).
+تشرح هذه المقالة كيف يمكن لمستخدم له دور مسؤول النظام أو مطور التقارير الإلكترونية استيراد إصدار جديد من [تكوين التقارير الإلكترونية](../general-electronic-reporting.md#Configuration) من [مكتبة الأصول على مستوى المشروع](../../lifecycle-services/asset-library.md) في Microsoft Dynamics Lifecycle Services‏ (LCS).
 
 > [!IMPORTANT]
 > إن استخدام LCS كمستودع تخزين لتكوينات التقارير الإلكترونية يكون [مهملاً](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). لمزيد من المعلومات، [إهلاك تخزين Regulatory Configuration Service (RCS) – Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
@@ -49,7 +49,7 @@ ms.locfileid: "6712582"
 
 1. في صفحة **التكوينات**، في شجرة التكوينات، حدد **تكوين نموذج العينة‬**.
 
-    لقد أنشأت الإصدار الأول لتكوين عينة نموذج البيانات ونشرها في LCS عندما أكملت الخطوات المذكورة في [تحميل تكوين إلى Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). في هذا الإجراء، يمكنك حذف هذا الإصدار لتكوين التقارير الإلكترونية. ثم تقوم باستيراد هذا الإصدار من LCS لاحقًا في هذا الموضوع.
+    لقد أنشأت الإصدار الأول لتكوين عينة نموذج البيانات ونشرها في LCS عندما أكملت الخطوات المذكورة في [تحميل تكوين إلى Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). في هذا الإجراء، يمكنك حذف هذا الإصدار لتكوين التقارير الإلكترونية. ثم ستقوم باستيراد هذا الإصدار من LCS لاحقًا في هذه المقالة.
 
 2. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 

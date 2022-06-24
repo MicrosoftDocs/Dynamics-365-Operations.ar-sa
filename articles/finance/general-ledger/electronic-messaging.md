@@ -1,8 +1,8 @@
 ---
 title: الرسائل الإلكترونية
-description: يوفر هذا الموضوع نظرة عامة حول المراسلات الإلكترونية في Microsoft Dynamics 365 Finance بالإضافة إلى معلومات الإعداد.
+description: توفر هذه المقالة نظرة عامة عن المراسلات الإلكترونية في Microsoft Dynamics 365‎ Finance بالإضافة إلى معلومات الإعداد.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934673"
 ---
-# <a name="electronic-messaging"></a>المراسلة الإلكترونية
+# <a name="electronic-messaging"></a>الرسائل الإلكترونية
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع نظرة عامة ومعلومات الإعداد لوظائف **الرسائل الإلكترونية** (EM).
+توفر هذه المقالة النظرة العامة ومعلومات الإعداد الخاصة بوظائف **(الرسائل الإلكترونية)** .
 
 مؤخرًا، طبقت الحكومات والسلطات التشريعية للعديد من البلدان والمناطق في جميع أنحاء العالم متطلبات إعداد التقارير للشركات المٌسجّلة في تلك البلدان أو المناطق. ويتمثل الغرض من هذه المتطلبات في تمكين البيانات التي يتم الحصول عليها من تلك الشركات في تنسيق إلكتروني، مباشرةً من النظم التي يتم فيها حساب هذه البيانات وتخزينها ومعالجتها.
 
-تدعم وظيفة الرسائل الإلكترونية في Microsoft Dynamics 365 Finance العمليات المختلفة للتشغيل الإلكتروني المتبادل بين Finance والنظم التي تقدمها الحكومات والسلطات التشريعية لإعداد التقارير وإرسالها واستلام المعلومات الرسمية.
+تدعم وظيفة الرسائل الإلكترونية في Microsoft Dynamics 365‎ Finance العمليات المختلفة للتشغيل الإلكتروني المتبادل بين Finance والنظم التي تقدمها الحكومات والسلطات التشريعية لإعداد التقارير وإرسالها واستلام المعلومات الرسمية.
 
 تتكامل وظيفة الرسائل الإلكترونية (EM) مع وحدة **إعداد التقارير الإلكترونية** (ER). ويمكنك إعداد تنسيقات ER للرسائل الإلكترونية. للحصول على مزيد من التفاصيل، راجع [إعداد التقارير الإلكترونية (ER)](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
@@ -58,6 +58,16 @@ ms.locfileid: "6768329"
 - تخزين ومراجعة جميع معلومات السجل المرتبطة بالإجراءات التي يتم تشغيلها لرسالة أو عنصر رسالة.
 - التحكم في المعالجة من خلال العديد من حالات الرسائل المختلفة وحالات عناصر الرسالة
 
+## <a name="security-privileges"></a>امتيازات الأمان
+
+تتوفر امتيازات الأمان التالية للرسائل الإلكترونية.
+
+| امتياز الأمان           | مستوى الوصول | الاتحاد |
+|------------------------------|--------------|-------------|
+| الاحتفاظ بالرسائل الإلكترونية | يمنح هذا الامتياز الوصول الكامل إلى وظيفة EM. إذا كان لديك هذا الامتياز ، فيمكنك إعداد المراسلات الإلكترونيه وتشغيل كافة المعالجات. | يتم تضمين هذا الامتياز في واجب الأمان **الاحتفاظ بحركات ضريبة المبيعات**. ويتم تضمين هذا الواجب، بدوره، في دور أمان **المحاسب**. |
+| عرض الرسائل الإلكترونية     | يمنح هذا الامتياز الوصول للقراءة فقط إلى وظيفة EM. إذا كان لديك هذا الامتياز ، فيمكنك عرض إعدادات المراسلات الإلكترونية والرسائل. ومع ذلك، لا يمكنك إعداد أي شيء أو تشغيله. | يتم تضمين هذا الامتياز في واجب الأمان **الاستعلام عن حالة حركة ضريبة المبيعات**. ويتم تضمين هذا الواجب، بدوره، في أدوار الأمان التالية:<ul><li>مدير المجموعات</li><li>موظف الحسابات المدينة</li><li>مدير الحسابات المدينة</li><li>محاسب الضرائب</li><li>المحاسب</li><li>مدير الحسابات</li><li>المشرف على المحاسبة</li><li>مدير المبيعات</li><li>موظف الحسابات الدائنة</li></ul> |
+| تشغيل الرسائل الإلكترونية  | يمنح هذا الامتياز الوصول فقط إلى صفحتي **الرسائل الإلكترونية** و **عناصر الرسائل الإلكترونية**. إذا كان لديك هذا الامتياز، فيمكنك تشغيل كافة المعالجات التي يتم استدعاؤها من هذه الصفحات. | يتم تضمين هذا الامتياز في واجب أمان **تشغيل الرسائل الإلكترونية**. ويتم تضمين هذا الواجب، بدوره، في دور أمان **مشغل الرسائل الإلكترونية**. |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>الميزات التنظيمية الخاصة بكل بلد مدعومة بوظيفة EM
 
 يوفر الجدول التالي معلومات حول بعض الميزات التنظيمية الخاصة بكل بلد التي تدعمها وظيفة EM.
@@ -66,9 +76,9 @@ ms.locfileid: "6768329"
 |-------------|--------------|------------------------|
 | إسبانيا       | [توفير فوري للمعلومات المتعلقة بضريبة القيمة المضافة (Suministro Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | هنغاريا‬     | [نظام الفوترة عبر الإنترنت](../localizations/emea-hun-online-invoicing.md) | |
-| المملكة المتحدة | [رقمنة الضرائب (MTD) – إرسال كشف حساب ضريبة القيمة المضافة](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: الضريبة الرقمية في المملكة المتحدة - إقرار ضريبة القيمة المضافة في Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
-| لتوانيا   | [تقارير i.SAF](../localizations/emea-ltu-isaf.md) | |
-| بولندا      | [إقرار ضريبة القيمة المضافة مع السجلات (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: سجلات تدقيق SAF/JPK VAT](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
+| المملكة المتحدة | [رقمنة الضرائب (MTD) – إرسال كشف حساب ضريبة القيمة المضافة](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: الضريبة الرقمية للمملكة المتحدة - إقرار ضريبة القيمة المضافة في Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| ليتوانيا   | [تقارير i.SAF](../localizations/emea-ltu-isaf.md) | |
+| بولندا      | [إقرار ضريبة القيمة المضافة مع السجلات (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: سجلات تدقيق ضريبة القيمة المضافة SAF/JPK](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | هولندا | [إقرار ضريبة القيمة المضافة لهولندا](../localizations/emea-nl-vat-declaration-netherlands.md) | |
 | جمهورية التشيك | [إقرار ضريبة القيمة المضافة](../localizations/emea-cze-vat-declaration-tax-declaration-model.md) | |
 | البرازيل      | [SPED-Reinf](../localizations/latam-bra-sped-reinf-overview.md) | |
@@ -78,7 +88,13 @@ ms.locfileid: "6768329"
 | روسيا      | [إقرار الضرائب المقدّرة](../localizations/rus-assessed-tax-declaration.md) | |
 | روسيا      | [إقرار ضريبة النقل](../localizations/rus-transport-tax-declaration.md) | |
 | روسيا      | [إقرار ضريبة الأراضي‬](../localizations/rus-land-tax-declaration.md) | |
-
+| النرويج      | [إرجاع ضريبة القيمة المضافة مع إرسال مباشر إلى Altinn](../localizations/emea-nor-vat-return.md) | [عائد ضريبة القيمة المضافة الجديدة مع الإرسال المباشر إلى Altinn في Dynamics 365 Finance](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| فرنسا      | [إقرار ضريبة القيمة المضافة (فرنسا)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| النمسا     | [إقرار ضريبة القيمة المضافة في (النمسا)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| ألمانيا     | [إقرار ضريبة القيمة المضافة (ألمانيا)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| هولندا | [إقرار ضريبة القيمة المضافة لهولندا](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| السويد      | [إقرار ضريبة القيمة المضافة في (السويد)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| سويسرا | [إقرار ضريبة القيمة المضافة في (سويسرا)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

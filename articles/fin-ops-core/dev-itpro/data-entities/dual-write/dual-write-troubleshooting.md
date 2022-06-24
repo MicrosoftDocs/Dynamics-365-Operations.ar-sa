@@ -1,6 +1,6 @@
 ---
-title: استكشاف المشاكل العامة وإصلاحها
-description: يوفر هذا الموضوع معلومات عامة حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse.
+title: استكشاف الأخطاء العامة وإصلاحها
+description: توفر هذه المقالة معلومات عامة عن استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات و Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853644"
 ---
 # <a name="general-troubleshooting"></a>استكشاف الأخطاء العامة وإصلاحها
 
@@ -22,10 +22,10 @@ ms.locfileid: "8614084"
 
 
 
-يوفر هذا الموضوع معلومات عامة حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse.
+توفر هذه المقالة معلومات عامة عن استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات و Dataverse.
 
 > [!IMPORTANT]
-> قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
+> قد تتطلب بعض المشكلات التي تتناولها هذه المقالة إما منصب مسؤول النظام أو بيانات اعتماد مسؤول مستأجر Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>تمكين وعرض تسجيل تتبع المكونات الإضافية في Dataverse لعرض تفاصيل الخطأ
 

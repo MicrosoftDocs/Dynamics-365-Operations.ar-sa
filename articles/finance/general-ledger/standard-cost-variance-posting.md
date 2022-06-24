@@ -1,6 +1,6 @@
 ---
 title: ترحيل فرق التكلفة المعيارية
-description: يوفر هذا الموضوع معلومات حول إعداد ملفات تعريف الترحيل لتقدير التكاليف القياسية.
+description: توضح هذه المقالة معلومات عن إعداد ملفات تعريف الترحيل لتقدير التكاليف القياسية.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,16 +10,16 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: bc4f1bd7c1bf7a8f214f20460b10d371d8f3c790
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: e7b2d04f32b75dbd1354b3ef74a41ea1b6469c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894866"
 ---
 # <a name="standard-cost-variance-posting"></a>ترحيل فرق التكلفة المعيارية
 
-عند استخدام التكلفة القياسية لمنتج واحد أو أكثر في مؤسستك، يجب عليك تكوين [المتطلبات الأساسية لتقدير التكاليف القياسية](/supply-chain/cost-management/prerequisites-standard-costs.md). يشرح هذا الموضوع حسابات الترحيل المطلوبة للخطوة 3 من المتطلبات الأساسية، "تعيين حسابات دفتر الأستاذ لترحيلات العناصر المرتبطة بفروق التكلفة القياسية."
+عند استخدام التكلفة القياسية لمنتج واحد أو أكثر في مؤسستك، يجب عليك تكوين [المتطلبات الأساسية لتقدير التكاليف القياسية](/supply-chain/cost-management/prerequisites-standard-costs.md). تشرح هذه المقالة حسابات الترحيل المطلوبة للخطوة 3 من المتطلبات الأساسية، "تعيين حسابات دفتر الأستاذ لترحيلات العناصر المرتبطة بفروق التكلفة القياسية."
 
 يمكن أن تحدث أنواع مختلفة من الفروق لأوامر الشراء والإنتاج. للحصول على أمثلة على فروق الإنتاج، انظر [المصادر المشتركة لفروق الإنتاج](/supply-chain/cost-management/common-sources-of-production-variances.md). تحدث فروق سعر أمر الشراء عند استخدام التكلفة القياسية لصنف تم شراؤه، وهناك فرق بين التكلفة القياسية للمنتج والمبلغ المفوتر في أمر الشراء.
 

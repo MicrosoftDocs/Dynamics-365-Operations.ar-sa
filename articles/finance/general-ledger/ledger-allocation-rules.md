@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa58a7b072b75fe5a58f6d04bd6426f2958f1f8
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901273"
 ---
 # <a name="ledger-allocation-rules"></a>قواعد توزيع دفتر الأستاذ
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات حول قواعد توزيع دفتر الأستاذ. وهذ تصف المكونات المختلفة لقواعد التوزيع هذه وأساليب التوزيع التي يمكن استخدامها لها.
+توفر هذه المقالة معلومات حول قواعد توزيع دفتر الأستاذ. وهذ تصف المكونات المختلفة لقواعد التوزيع هذه وأساليب التوزيع التي يمكن استخدامها لها.
 
 يتم استخدام قواعد توزيع دفتر الأستاذ لحساب وإنشاء دفاتر يومية التوزيع وإدخالات الحسابات لتوزيع أرصدة دفتر الأستاذ أو المبالغ الثابتة تلقائيًا. وقد تكون طرق التوزيع متغيرة أو ثابتة. ويمكن استخدام طرق التوزيع التالية لقواعد توزيع دفتر الأستاذ:
 

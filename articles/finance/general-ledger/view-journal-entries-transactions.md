@@ -1,6 +1,6 @@
 ---
 title: عرض الحركات وإدخالات دفاتر اليومية
-description: يشرح هذا الموقع الطرق المختلفة التي يمكنك من خلالها عرض إدخالات وحركات دفتر اليومية.
+description: توضح هذه المقالة الطرق المختلفة التي يمكنك من خلالها عرض إدخالات وحركات دفتر اليومية.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4e33b1516e780c55f753b32ac5ddd50b6f9560c
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8549df3fcf65769768e3f7dd41c4d7275a1911b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717547"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907852"
 ---
 # <a name="view-journal-entries-and-transactions"></a>عرض الحركات وإدخالات دفاتر اليومية
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموقع الطرق المختلفة التي يمكنك من خلالها عرض إدخالات وحركات دفتر اليومية. 
+توضح هذه المقالة الطرق المختلفة التي يمكنك من خلالها عرض إدخالات وحركات دفتر اليومية. 
 
 يتوفر لدى المستخدمين الذين يريدون عرض دفاتر اليومية والحركات عدة طرق للوصول إلى البيانات. فيمكنهم الاستفادة من صفحات الاستعلام التي توفر إمكانية التصفح لأسفل، أو يمكنهم استخدام خيارات التقارير المختلفة في دفتر الأستاذ العام.
 

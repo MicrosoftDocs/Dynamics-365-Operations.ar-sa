@@ -1,6 +1,6 @@
 ---
 title: قم بإعداد استيراد التسوية البنكية المتقدمة باستخدام التقارير الإلكترونية
-description: يشرح هذا الموضوع كيفية استخدام التقارير الإلكترونية لإعداد عملية استيراد التسوية البنكية المتقدمة.
+description: توضح هذه المقالة كيفية استخدام التقارير الإلكترونية لإعداد عملية استيراد التسوية البنكية المتقدمة.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889109"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>قم بإعداد استيراد التسوية البنكية المتقدمة باستخدام التقارير الإلكترونية
 
 [!include [banner](../includes/banner.md)]
 
-تتيح لك ميزة التسوية المصرفية المتقدمة استيراد كشوف الحسابات البنكية الإلكترونية وتسويتها تلقائيًا مع المعاملات المصرفية في Microsoft Dynamics 365 Finance. يشرح هذا الموضوع كيفية إعداد وظيفة الاستيراد لكشوفات الحسابات البنيكة. يختلف إعداد استيراد كشف الحساب البنكي، استنادًا إلى تنسيق كشف حسابك البنكي الإلكتروني. يدعم Microsoft Dynamics 365 Finance ثلاثة تنسيقات جاهزة لكشوف الحسابات: ISO20022 وMT940 وBAI2. 
+تتيح لك ميزة التسوية المصرفية المتقدمة استيراد كشوف الحسابات البنكية الإلكترونية وتسويتها تلقائيًا مع المعاملات المصرفية في Microsoft Dynamics 365 Finance. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية. يختلف إعداد استيراد كشف الحساب البنكي، استنادًا إلى تنسيق كشف حسابك البنكي الإلكتروني. يدعم Microsoft Dynamics 365 Finance ثلاثة تنسيقات جاهزة لكشوف الحسابات: ISO20022 وMT940 وBAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>إعداد تكوين التقارير الإلكترونية
 

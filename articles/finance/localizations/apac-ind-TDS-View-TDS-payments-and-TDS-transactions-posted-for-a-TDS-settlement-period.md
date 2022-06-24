@@ -1,6 +1,6 @@
 ---
 title: عرض مدفوعات TDS والحركات المرحلة لفترة تسوية TDS
-description: يوضح هذا الموضوع كيفية عرض مدفوعات الضريبة المخصومة في المصدر (TDS) والحركات التي تم ترحيلها لفترة تسوية.
+description: توضح هذه المقالة كيفية عرض مدفوعات الضريبة المخصومة في المصدر (TDS) والمعاملات التي تم ترحيلها لفترة تسوية.
 author: kailiang
 ms.date: 03/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6f8c97d1f42af6c073e45c88237d59699a32fc7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c441b6f26636ef1f18e3910a201d02feb4350f33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898048"
 ---
 # <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>عرض مدفوعات TDS والحركات المرحلة لفترة تسوية TDS
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية عرض مدفوعات الضريبة المخصومة في المصدر (TDS) والحركات التي تم ترحيلها لفترة تسوية.
+توضح هذه المقالة كيفية عرض مدفوعات الضريبة المخصومة في المصدر (TDS) والمعاملات التي تم ترحيلها لفترة تسوية.
 
 1. انتقل إلى **الضريبة \> ضرائب غير مباشرة \> ضريبة الخصم \> فترات تسوية ضريبة الخصم**.
 

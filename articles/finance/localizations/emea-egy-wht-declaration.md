@@ -1,6 +1,6 @@
 ---
 title: إقرار ضريبة الخصم في مصر
-description: يوضح هذا الموضوع كيفية تكوين وإنشاء إقرارات ضريبة الخصم لمصر.
+description: توضح هذه المقال كيفية تكوين إقرارات ضريبة الخصم وإنشائها في مصر.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907676"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>إقرار ضريبة الخصم في مصر (EG-00005)
 
@@ -26,11 +26,11 @@ ms.locfileid: "7403879"
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>نظرة عامة
-يوضح هذا الموضوع كيفية إعداد وإنشاء إقرار ضريبة الخصم ونماذج إقرار ضريبة الخصم 41 و 11 للكيانات القانونية في مصر 
+توضح هذه المقالة كيفية إعداد إقرار ضريبة الخصم ونماذج إقرار ضريبة الخصم 41 و 11 للكيانات القانونية وإنشائها في مصر 
 
 يجب أن تقوم كافة الكيانات المصرية بإعداد النموذج 41 الذي يلخص كافة الضرائب التي يتم الاحتفاظ بها من الموردين المحليين وموفري الخدمة. بالإضافة إلى النموذج 41، يجب إنشاء النموذج 11 لتفصيل كافة الاستقطاعات الخاضعة للضرائب من الموفرين الخارجيين. 
 
-يتضمن تقرير **إقرار ضريبة الخصم** في Dynamics 365 Finance التقارير التالية:
+يتضمن **تقرير إقرار ضريبة الخصم** في Dynamics 365 Finance التقارير التالية:
 
 - نموذج الإقرار رقم. 41
 - نموذج الإقرار رقم. 11
@@ -58,7 +58,7 @@ ms.locfileid: "7403879"
 
 يعتمد تنفيذ نموذج إقرار ضريبة الخصم لمصر على تكوينات التقارير الإلكترونية (ER). لمزيد من المعلومات حول إمكانات ومفاهيم التقارير القابلة للتكوين، راجع [إعداد التقارير الإلكترونية](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-بالنسبة لبيئات الإنتاج واختبار قبول المستخدم (UAT)، اتبع التعليمات في موضوع [تحميل تكوينات التقارير الإلكترونية من Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+بالنسبة إلى بيئات الإنتاج واختبار قبول المستخدم (UAT)، اتبع التعليمات في موضوع [تحميل تكوينات التقارير الإلكترونية من Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 لإنشاء إقرارات الخصم في كيان قانوني مصري، يجب تحميل التكوينات التالية:
 

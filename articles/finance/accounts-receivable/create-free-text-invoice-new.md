@@ -1,6 +1,6 @@
 ---
 title: إنشاء فاتورة نص حر
-description: يشرح هذا الموضوع كيفية إنشاء الفواتير ذات النص الحر‬.
+description: توضح هذه المقالة كيفية إنشاء فواتير النص الحر‬.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878149"
 ---
 # <a name="create-a-free-text-invoice"></a>إنشاء فاتورة نص حر
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إنشاء الفواتير ذات النص الحر‬. بالنسبة إلى هذا الإجراء، استخدم شركة بيانات العرض التوضيحي **USMF**.
+توضح هذه المقالة كيفية إنشاء فواتير النص الحر‬. بالنسبة إلى هذا الإجراء، استخدم شركة بيانات العرض التوضيحي **USMF**.
 
 ## <a name="create-a-free-text-invoice"></a>إنشاء فاتورة نص حر
 
@@ -37,7 +37,7 @@ ms.locfileid: "8392875"
     * إذا كنت تستخدم تفويضات منطقة التداول باليورو (SEPA) فسيتم إدخال تفويض الخصم المباشر‬ تلقائيًا عند تحديد حساب العميل.
 
 4. في حقل **الوصف**، أدخل قيمة.
-5. في الحقل **الحساب الرئيسي**، حدد رقم حساب من دون أبعاد. سوف تقوم بإدخال الأبعاد لاحقًا في هذا الموضوع.
+5. في الحقل **الحساب الرئيسي**، حدد رقم حساب من دون أبعاد. ستقوم بإدخال الأبعاد لاحقًا في هذه المقالة.
 
     يمكنك أيضًا إدخال حرف واحد أو أكثر للحساب الرئيسي، واستخدام خاصية البحث للعثور على الحساب.
 

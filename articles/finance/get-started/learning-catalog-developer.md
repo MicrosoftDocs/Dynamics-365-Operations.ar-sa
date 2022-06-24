@@ -1,6 +1,6 @@
 ---
-title: كتالوج التعلّم لمطوري Dynamics 365 Finance
-description: ابحث عن كافة خيارات التدريب لمطوري Dynamics 365 Finance.
+title: كتالوج التعلم لمطوري Dynamics 365 Finance
+description: البحث عن جميع خيارات التدريب لمطوري Dynamics 365 Finance.
 author: margoc
 ms.topic: article
 ms.date: 07/27/2020
@@ -12,14 +12,14 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 866db1307484fd35949e87d02ca17ef0555bb654
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 729fc6a1172d651a24cc0a3bff765b09263e3cd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903088"
 ---
-# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>كتالوج التعلّم لمطوري Dynamics 365 Finance
+# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>كتالوج التعلم لمطوري Dynamics 365 Finance
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062251"
 | المحتوى | ‏‏الوصف‬ | التنسيق | Length |
 |---------|-------------|--------|--------|
 | [الشروع في العمل مع تطبيقات التمويل والعمليات](/learn/paths/get-started-finance-operations/) | اعرف كيف تقدم تطبيقات التمويل والعمليات الدعم للأعمال لإدارة أنظمتها المالية العمومية ودورات عملها وسلاسل التوريد الانسيابية لتمكين الأشخاص من اتخاذ قرارات سريعة وصائبة. وكخطوة أولى في مسارك للعمل باستخدام تطبيقات التمويل والعمليات، يجب عليك التعرف على ميزاتها ووظائفها بعض النظر عن الدور المرغوب فيه. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 2.2 ساعات |
-| [بدء استخدام Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | يساعد Dynamics 365 Finance مستخدمي الأعمال على التكيّف بسرعة مع بيئات الأعمال المتغيرة. هذا التطبيق يوفر للشركات كل ما تحتاج إليه لمراقبة الشؤون المالية وإدارة الصناديق بمعلومات دقيقة للتخطيط المالي والتنبؤ، ويساعدها في البقاء على اطلاع دائم على أدوات التحليلات. ولأن الماليات تعتبر جوهر أي عمل، فمن الضروري الاطلاع على قدرات Dynamics 365 Finance. | وحدة تعليمية عبر الإنترنت مجانية تتحدد وفقًا لقدرات المستخدم | ساعة |
+| [البدء في Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | يساعد Dynamics 365 Finance مستخدمي الأعمال على التكيّف بسرعة مع بيئات الأعمال المتغيرة. هذا التطبيق يوفر للشركات كل ما تحتاج إليه لمراقبة الشؤون المالية وإدارة الصناديق بمعلومات دقيقة للتخطيط المالي والتنبؤ، ويساعدها في البقاء على اطلاع دائم على أدوات التحليلات. ولأن الأمور المالية تعتبر جوهر أي عمل، فمن الضروري الاطلاع على قدرات Dynamics 365 Finance. | وحدة تعليمية عبر الإنترنت مجانية تتحدد وفقًا لقدرات المستخدم | 1 ساعة |
 
 ## <a name="core-development-concepts"></a>مفاهيم التطوير الأساسية<a name="core-development-concepts"></a>
 
@@ -47,7 +47,7 @@ ms.locfileid: "8062251"
 | [Finance and Operations: توسيع Dynamics 365 for Finance and Operations باستخدام PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | افهم بساطة Microsoft PowerApps وكيف يمكن تعامله مع Dynamics 365 for Finance and Operations لإجراء تحويل رقمي لشركات الأعمال وزيادة إنتاجية المستخدم. | التسجيل المجاني لمؤتمر ويب | 43 دقيقة |
 | [التمويل والعمليات: قابلية التوسع (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | سنوفر نظرة عامة وتحديث لخطط قابلية التوسعة لـ Microsoft. سوف نناقش بالتفصيل الطرق المتنوعة لتوسيع الحل والتعمق بشكل أكبر في ميزات قابلية توسيع بيانات التعريف بالإضافة إلى القدرة على زيادة وتوسيع التعليمات البرمجية، يشمل ما يتم عن طريق ميزة سلسلة الأوامر القوية. | التسجيل المجاني لمؤتمر ويب | 50 دقيقة |
 | [Visual Studio Team Services (VSTS) إعداد (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | وسوف يستعرض هذا الحديث التقني الخطوات اللازمة لتهيئة مثيل VSTS والمشروع للاتصال بمشروع تنفيذ LCS لتكون بيئة التطوير/الاختبار. | التسجيل المجاني لمؤتمر ويب | 41 دقيقة |
-| [أداة تكامل بيانات Dataverse (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | الرجاء الانضمام إلينا في هذا الحديث التقني حول إمكانات أداة تكامل بيانات Dataverse. سوف نناقش خيارات التكامل بين تطبيقات Dynamics 365 Customer Engagement وتطبيقات التمويل والعمليات في Dynamics 365، بالإضافة إلى التكامل مع الحلول الأخرى التابعة لجهات خارجية. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
+| [أداة تكامل بيانات Dataverse (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | الرجاء الانضمام إلينا في هذا الحديث التقني حول إمكانات أداة تكامل بيانات Dataverse. سنناقش خيارات التكامل بين تطبيقات Dynamics 365 Customer Engagement وتطبيقات التمويل والعمليات في Dynamics 365، بالإضافة إلى التكامل مع الحلول الأخرى التابعة لجهات خارجية. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
 | [التكامل بين Between Dynamics 365 for Sales وDynamics 365 for Finance & Operations عن طريق Dataverse (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | في هذا الحديث التقني، سوف نعرض سيناريو التكامل المعروف باسم العميل المتوقع إلى النقدية وأنشطة التسويق في Dynamics 365 for Sales والتنفيذ في Dynamics 365 for Finance and Operations. وسوف نستعرض أيضًا موحد البيانات وكيفية تعديل التكامل. | التسجيل المجاني لمؤتمر ويب | 54 دقيقة |
 | [إدارة البيانات (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | الرجاء الانضمام إلينا في هذا الحديث التقني المتعلق بإدارة البيانات. تعرف على الخيارات المُتاحة والسيناريوهات الموصى باستخدامها. سوف نتناول في هذا الحديث إطار عمل إدارة البيانات والقوالب ونسخ قاعدة البيانات ومشاركة البيانات عبر الشركة واعتبارات الأداء. | التسجيل المجاني لمؤتمر ويب | 58 دقائق |
 | [أدوات تكامل Azure في Dynamics 365 for Finance and Operations (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | سوف يتناول هذا الحديث التقني أنواع الأدوات التي قد توضع في الاعتبار عن التكامل مع Dynamics 365 for Finance & Operations وعند اختيار أداة التكامل المناسبة.  وسوف تتناول الجلسة أيضًا معاينة إرشادية لسيناريوهات التكامل المُنظمة باستخدام خدمات تكامل Azure. | التسجيل المجاني لمؤتمر ويب | 63 دقيقة |

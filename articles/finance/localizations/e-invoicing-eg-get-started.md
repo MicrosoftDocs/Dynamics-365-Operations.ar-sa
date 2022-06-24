@@ -1,6 +1,6 @@
 ---
 title: الفوترة الإلكترونية لمصر
-description: يوفر هذا الموضوع معلومات تساعدك على بدء استخدام الفوترة الإلكترونية لمصر في Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management.
+description: توفر هذه المقالة معلومات تساعدك على بدء استخدام الفوترة الإلكترونية في مصر في Microsoft Dynamics 365 Finance و Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904401"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>الفوترة الإلكترونية لمصر
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات ستساعدك على بدء استخدام الفوترة الإلكترونية لمصر. وهو يرشدك عبر خطوات التكوين التي تعتمد على البلد في Regulatory Configuration Services ‏(RCS). تقوم هذه الخطوات بتكملة الخطوات الموضحة في [إعداد الفوترة الإلكترونية](e-invoicing-set-up-overview.md).
+توفر هذه المقالة معلومات ستساعدك على بدء استخدام الفوترة الإلكترونية في مصر. وهو يرشدك عبر خطوات التكوين التي تعتمد على البلد في Regulatory Configuration Services ‏(RCS). تقوم هذه الخطوات بتكملة الخطوات الموضحة في [إعداد الفوترة الإلكترونية](e-invoicing-set-up-overview.md).
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل أن تبدأ الإجراءات في هذا الموضوع، أكمل المتطلبات الأساسية التالية:
+قبل أن تبدأ الإجراءات في هذه المقالة، أكمل المتطلبات الأساسية التالية:
 
 - تعرف على نظام الفواتير الإلكترونية كما هو موضح في [النظرة العامة على الفوتةر الإلكترونية](e-invoicing-service-overview.md).
 - اشترك في RCS، وقم بإعداد الفواتير الإلكترونية. لمزيد من المعلومات، راجع الموضوعات التالية:

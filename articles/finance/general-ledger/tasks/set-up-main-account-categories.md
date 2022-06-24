@@ -1,6 +1,6 @@
 ---
 title: إعداد فئات الحساب الرئيسي
-description: يشرح هذا الموضوع كيفية إعداد ‏‫فئات الحساب الرئيسية في Dynamics 365 Finance.
+description: توضح هذه المقالة كيفية إعداد ‏‫فئات الحساب الرئيسية في Dynamics 365 Finance.
 author: aprilolson
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb41f1b7200363f8846c406d5c20338f6ea242bd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c48011c9988bdca694851476540db574efef7909
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879552"
 ---
 # <a name="set-up-main-account-categories"></a>إعداد فئات الحساب الرئيسي
 
 [!include [banner](../../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد ‏‫فئات الحساب الرئيسية. يتم استخدام فئات الحساب الرئيسي للتقارير الافتراضية في الإبلاغ المالي وفي Power BI. يمكن إعادة تسمية فئات الحساب الرئيسي التي تم إنشاؤها بشكل افتراضي ولكن لا يمكن حذفها. يمكن إنشاء فئات حساب إضافية واستخدامها لأغراض إعداد التقارير والتحليل. يستخدم هذا الموضوع شركة العرض التجريبي "USMF".
+توضح هذه المقالة كيفية إعداد ‏‫فئات الحساب الرئيسية. يتم استخدام فئات الحساب الرئيسي للتقارير الافتراضية في الإبلاغ المالي وفي Power BI. يمكن إعادة تسمية فئات الحساب الرئيسي التي تم إنشاؤها بشكل افتراضي ولكن لا يمكن حذفها. يمكن إنشاء فئات حساب إضافية واستخدامها لأغراض إعداد التقارير والتحليل. تستخدم هذه المقالة شركة بيانات العرض التوضيحي USMF.
 
 ## <a name="create-a-main-account-category"></a>إنشاء فئة حساب رئيسي
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > دفتر الأستاذ العام > دليل الحسابات > الحسابات > فئات الحساب الرئيسية‬**.

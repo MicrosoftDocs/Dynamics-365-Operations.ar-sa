@@ -1,6 +1,6 @@
 ---
 title: إعداد هيئات ضريبة الخصم لنوع ضريبة TDS
-description: يوضح هذا الموضوع كيفية إعداد هيئة الضريبة المخصومة في المصدر (TDS).
+description: توضح هذه المقالة كيفية إعداد هيئات الضريبة المخصومة في المصدر (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: a6c802079153911f74a217eb67ff6743aebdcd33
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 43562381bab93d2f143788b8dc61f2b13d05db3b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724547"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864202"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>إعداد هيئات ضريبة الخصم لنوع ضريبة TDS
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد هيئة الضريبة المخصومة في المصدر (TDS).
+توضح هذه المقالة كيفية إعداد هيئات الضريبة المخصومة في المصدر (TDS).
 
 1. انتقل إلى **الضريبة \> ضرائب غير مباشرة \> هيئات ضريبة الخصم**.
 

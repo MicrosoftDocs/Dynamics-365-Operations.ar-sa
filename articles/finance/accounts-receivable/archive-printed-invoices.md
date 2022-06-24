@@ -1,6 +1,6 @@
 ---
 title: أرشفة فواتير العملاء المطبوعة ذات أرقام التجزئة
-description: يوضح هذا الموضوع كيفية تمكين الأرشفة لتخزين فواتير العميل المطبوعة بأرقام التجزئة.
+description: توضح هذه المقالة كيفية تمكين الأرشفة لحفظ فواتير العميل المطبوعة ذات أرقام التجزئة.
 author: ilkond
 ms.date: 09/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 44caf44097a433b8848b17688430ca88a4b3f51b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3f19968b4f4cf76a48ac5485e915785e9be5c7db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909174"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>أرشفة فواتير العملاء المطبوعة ذات أرقام التجزئة
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695263"
 
 في بعض البلدان، هناك متطلب قانوني لتخزين أرقام التجزئة المحسوبة في النظام مع النُسخ المطبوعة لبعض المستندات. يمكن استخدام أرقام التجزئة لإعداد التقارير إلى السلطات وأثناء عمليات التدقيق.
 
-يوضح هذا الموضوع كيفية تكوين الأرشفة من أجل تخزين فواتير العميل المطبوعة بأرقام التجزئة.
+توضح هذه المقالة كيفية تكوين الأرشفة من أجل تخزين فواتير العميل المطبوعة ذات أرقام التجزئة.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 

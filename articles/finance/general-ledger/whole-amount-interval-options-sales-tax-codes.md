@@ -1,6 +1,6 @@
 ---
-title: خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
-description: يشرح هذا الموضوع خيارات حقل أسلوب حساب على أكواد ضريبة المبيعات وكيفية حساب ضريبة المبيعات للفترات والمبالغ كاملة.
+title: المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات
+description: تشرح هذه المقالة خيارات حقل أسلوب حساب على أكواد ضريبة المبيعات وكيفية حساب ضريبة المبيعات للفترات والمبالغ كاملة.
 author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874450"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>خيارات حساب المبلغ بالكامل والفاصل الزمني لأكواد ضريبة المبيعات
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>المبلغ بالكامل وخيارات حساب الفترات لأكواد ضريبة المبيعات
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع خيارات حقل **أسلوب حساب** على أكواد ضريبة المبيعات وكيفية حساب ضريبة المبيعات للفترات والمبالغ كاملة.
+توضح هذه المقالة الخيار لحقل **أسلوب الحساب** على أكواد ضريبة المبيعات وكيفية حساب ضريبة المبيعات للفترات والمبالغ كاملة.
 
 يمكنك إعداد كود ضريبة مبيعات ليتم حسابه على أساس مبلغ كامل أو مبلغ فترة. في صفحة **أكواد ضريبة المبيعات**، استخدام حقل **طريقة الحساب** في علامة التبويب السريع **الحساب** لتحديد كيفية حساب كود ضريبة المبيعات.
 - المبلغ الكامل – يتم تطبيق معدل الضريبة على المبلغ الخاضع للضريبة بالكامل.

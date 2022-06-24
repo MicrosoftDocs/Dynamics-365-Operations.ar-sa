@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 75019f3f9bcd081f32d06971b11429bcdd794240
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847088"
 ---
 # <a name="view-and-export-field-descriptions"></a>عرض أوصاف الحقول وتصديرها
 
@@ -91,11 +91,11 @@ ms.locfileid: "8069263"
 
 ### <a name="i-cant-find-a-field-description"></a>لا يمكنني العثور على وصف الحقل
 
-نحن نعمل على إضافة أوصاف للحقول الأكثر تعقيدًا. إذا احتجت إلى مساعدة تتعلق بحقل معين، فالرجاء إعلامنا عن طريق إضافة تعليق على هذا الموضوع.
+نحن نعمل على إضافة أوصاف للحقول الأكثر تعقيدًا. إذا احتجت إلى مساعدة تتعلق بحقل معين، فرجاء قم بإعلامنا عن طريق إضافة تعليق على هذه المقالة.
 
 ### <a name="the-field-description-isnt-helpful"></a>وصف الحقل غير مساعد.
 
-الرجاء إعلامنا برأيك عن طريق إضافة تعليق على هذا الموضوع. وقدّم لنا وصفًا للمعلومات الإضافية التي تحتاج إليها، إذا أمكنك ذلك.
+الرجاء إعلامنا برأيك عن طريق إضافة تعليق على هذه المقالة. وقدّم لنا وصفًا للمعلومات الإضافية التي تحتاج إليها، إذا أمكنك ذلك.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>يتعذر عليّ العثور على حقل في صفحة أوصاف الحقول
 

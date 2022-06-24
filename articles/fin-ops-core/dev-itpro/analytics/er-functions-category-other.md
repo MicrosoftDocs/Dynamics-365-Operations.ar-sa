@@ -1,6 +1,6 @@
 ---
 title: قائمة وظائف التقارير الإلكترونية في فئة خاصة بمجال الأعمال
-description: يوفر هذا الموضوع معلومات حول الوظائف الخاصة بجهات الأعمال المعتمدة في التقارير الإلكترونية (ER).
+description: توفر هذه المقالة معلومات عن الوظائف الخاصة بمجال الأعمال المعتمدة في التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8f0812e4262a264ffc89b72e0f4fc8c55d6c6822095f550c8f05296bb057a38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9df826dcc0b672977d4d8af1feb985ab9a0ab7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879938"
 ---
 # <a name="list-of-er-functions-in-the-business-domainspecific-category"></a>قائمة وظائف التقارير الإلكترونية في فئة خاصة بمجال الأعمال
 
 [!include [banner](../includes/banner.md)]
 
-يمكن استخدام الوظائف الخاصة بمجال في التقارير الكترونيه (ER) لتنفيذ العمليات الحسابية وطلبات الوصول إلى البيانات الخاصة بتنفيذ Microsoft Dynamics 365 Finance. يعرض هذا الموضوع ملخصًا لهذه الوظائف.
+يمكن استخدام الوظائف الخاصة بمجال إعداد التقارير الإلكترونية (ER) لتنفيذ العمليات الحسابية وطلبات الوصول إلى البيانات الخاصة بتنفيذ 365‎ Finance Microsoft Dynamics. توفر هذه المقالة ملخصًا لهذه الوظائف.
 
 ## <a name="list-of-supported-functions"></a>قائمة الوظائف المدعومة
 

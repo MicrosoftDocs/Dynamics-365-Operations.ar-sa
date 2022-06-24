@@ -1,6 +1,6 @@
 ---
 title: حساب TDS على المدفوعات والسندات الإذنية
-description: يوفر هذا الموضوع معلومات مرجعية حول حركات الدفع المختلفة التي يتم حساب الضريبة المخصومة من المصدر (TDS) عليها.
+description: توفر هذه المقالة معلومات مرجعية عن معاملات الدفع المختلفة التي يتم حساب الضريبة المخصومة من المصدر (TDS) بناءً عليها.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f38a8c4b0416abb10bfdaf95c3379e964e9a41e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: f5e9447924a17b96b7a4a5cdd1ef1547145d6ea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906307"
 ---
 # <a name="tds-calculation-on-payments-and-promissory-notes"></a>حساب TDS على المدفوعات والسندات الإذنية
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات مرجعية حول حركات الدفع المختلفة التي يتم حساب الضريبة المخصومة من المصدر (TDS) عليها.
+توفر هذه المقالة معلومات مرجعية عن معاملات الدفع المختلفة التي يتم حساب الضريبة المخصومة من المصدر (TDS) بناءً عليها.
 
 | الرقم المسلسل | نوع المعاملة | مبلغ الحركة | اسم الصفحة والمسار | نوع الحساب ونوع الحساب المقابل |
 |---------------|------------------|--------------------|--------------------|--------------------------------------|

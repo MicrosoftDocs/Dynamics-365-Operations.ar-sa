@@ -1,6 +1,6 @@
 ---
 title: تكوين مُحددات الإجازة والغياب
-description: يصف هذا الموضوع كيفية تحديد معلمات الموارد البشرية للإجازة والغياب في Dynamics 365 Human Resources.
+description: توضح هذه المقالة كيفية تحديد معلمات الموارد البشرية للإجازة والغياب في Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79052c550783dee1ba4091ad10bde4d79d7b905e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3a39c74eef3865c03ccb9dd5aa2fece7f25e639a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891368"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>تكوين مُحددات الإجازة والغياب
 
 >[!Important]
->تتوفر الوظيفة المذكورة في هذا الموضوع حاليًا للعملاء في Dynamics 365 Human Resources المستقل. ستتوفر بعض الوظائف أو كلها كجزء من الإصدار المستقبلي على بنية Finance الأساسية بعد إصدار 10.0.26 من Finance.
+>تتوفر الوظيفة المذكورة في هذة المقالة حاليًا للعملاء في Dynamics 365 Human Resources المستقل. ستتوفر بعض الوظائف أو كلها كجزء من الإصدار المستقبلي على بنية Finance الأساسية بعد إصدار 10.0.26 من Finance.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

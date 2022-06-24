@@ -1,6 +1,6 @@
 ---
 title: الصفحة الرئيسية لإعداد الموازنة
-description: يوفر هذا الموضوع نظرة عامة على مكونات وظيفة إعداد الموازنة وأدوات إعداد الموازنة وإمكانات إعداد التقارير في Microsoft Dynamics 365 Finance.
+description: توفر هذه المقالة نظرة عامة على مكونات وظيفة إعداد الموازنة وأدوات إعداد الموازنة وإمكانيات إعداد التقارير في Microsoft Dynamics 365 Finance.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e5ef283991cb7ccb990d7d687ab3964040d03ba
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864386"
 ---
 # <a name="budgeting-home-page"></a>الصفحة الرئيسية لإعداد الموازنة
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع نظرة عامة على مكونات وظيفة إعداد الموازنة وأدوات إعداد الموازنة وإمكانات إعداد التقارير. 
+توفر هذه المقالة نظرة عامة على مكونات وظيفة إعداد الموازنة وأدوات إعداد الموازنة وإمكانات إعداد التقارير. 
 
 ## <a name="components-of-budgeting-functionality"></a>مكونات وظيفة إعداد الموازنة
 

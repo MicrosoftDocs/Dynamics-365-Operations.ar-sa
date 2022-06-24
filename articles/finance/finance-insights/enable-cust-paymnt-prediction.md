@@ -1,6 +1,6 @@
 ---
 title: تمكين توقعات دفع العميل
-description: يوضح هذا الموضوع كيفية تشغيل وتكوين ميزة توقعات دفع العميل في Finance Insights.
+description: توضح هذه المقالة كيفية تشغيل ميزة توقعات دفع العميل في Finance Insights وتكوينها.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a52d38e8fb842c7fbc8adf60a6daaef6cdc9d5ec
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f04ee9db5efe3595dea30d641c5097d6b90c0d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898196"
 ---
 # <a name="enable-customer-payment-predictions"></a>تمكين توقعات دفع العميل
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تشغيل وتكوين ميزة توقعات دفع العميل في Finance Insights. يمكنك تشغيل الميزة في مساحة عمل **إدارة الميزات** وأدخل إعدادات التكوين في صفحة **معلمات Finance Insights**. يتضمن هذا الموضوع أيضًا معلومات يمكن أن تساعدك في استخدام الميزة بفاعلية.
+توضح هذه المقالة كيفية تشغيل ميزة توقعات دفع العميل في Finance Insights وتكوينها. يمكنك تشغيل الميزة في مساحة عمل **إدارة الميزات** وأدخل إعدادات التكوين في صفحة **معلمات Finance Insights**. تتضمن هذه المقالة أيضًا معلومات يمكن أن تساعدك على استخدام الميزة بفاعلية.
 
 > [!NOTE]
-> قبل إكمال الخطوات التالية، تأكد من إكمال الخطوات الأساسية في الموضوع [تكوين Financial insights](configure-for-fin-insites.md).
+> قبل إكمال الخطوات التالية، تأكد من إكمال الخطوات الأساسية في مقال [تكوين المعلومات المالية](configure-for-fin-insites.md) .
 
 1. تشغيل ميزة التنبؤات بدفعات العملاء:
 

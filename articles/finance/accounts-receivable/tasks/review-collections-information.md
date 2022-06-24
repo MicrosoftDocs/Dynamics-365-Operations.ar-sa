@@ -1,6 +1,6 @@
 ---
 title: مراجعة معلومات التحصيلات
-description: يشرح هذا الموضوع كيفية مراجعة معلومات التحصيلات بالإضافة إلى خيارات الإعداد وحركات التحصيلات المختلفة.
+description: توضح هذه المقالة كيفية مراجعة معلومات التحصيلات بالإضافة إلى خيارات الإعداد ومعاملات التحصيلات المختلفة.
 author: ShivamPandey-msft
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d0cb09eb6ac455d72e9dd051065625475581416
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6a6916690b9571fcfe103506960032e19fe724df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876200"
 ---
 # <a name="review-collections-information"></a>مراجعة معلومات التحصيلات
 
 [!include [banner](../../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية مراجعة معلومات التحصيلات بالإضافة إلى خيارات الإعداد وحركات التحصيلات المختلفة. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
+توضح هذه المقالة كيفية مراجعة معلومات التحصيلات بالإضافة إلى خيارات الإعداد ومعاملات التحصيلات المختلفة. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF.
 
 ## <a name="create-customer-pools"></a>إنشاء أوعية عملاء
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية‬ > عمليات التحصيل والائتمان‬ > الإعداد > وعاء العملاء**.

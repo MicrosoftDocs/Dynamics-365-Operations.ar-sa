@@ -1,6 +1,6 @@
 ---
-title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
-description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
+title: ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
+description: توفر هذه المقالة الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846643"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Finance
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
+توفر هذه المقالة الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
 
 - لم تعد ميزة *تمت الإزالة* متوفرة في المنتج.
 - لا توجد ميزة *المهملة* في التطوير النشط وقد يتم إزالتها في تحديثات مستقبلية.
@@ -128,8 +128,8 @@ ms.locfileid: "8466823"
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | تم استبداله بالمستودع العمومي لـ Regulatory Configuration Service (RCS) الجديد |
-| **هل تم الاستبدال بميزة أخرى؟**   | نعم |
-| **مناطق المنتجات المتأثرة**         | منتجات Dynamics 365 Finance وSupply Chain Management وProject Operations|
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة**         | منتجات Dynamics 365 Finance وإدارة سلسلة التوريد وProject Operations|
 | **خيارات النشر**              | ‏‏الكل |
 | **الحالة**                         | مهمل: بحلول 01 أبريل، 2022، نخطط لإيقاف الدعم لمستودع Microsoft Dynamics Lifecycle Services (LCS) باعتباره خيار تخزين لتكوين التقارير الإلكترونية (ER). سيتم نشر تكوينات Microsoft ER الجديدة لتنزيلها حصريًا من المستودع العمومي. يمكن الوصول إلى المستودع العمومي من منتجات Dynamics 365 وRCS. لمزيد من المعلومات، راجع [استيراد تكوينات التقارير الإلكترونية من RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) و [إهلاك تخزين Regulatory Configuration Service - Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md). |
 

@@ -1,6 +1,6 @@
 ---
 title: مصادقة خادم إلى خادم لواجهة API لتكامل نظام تعقب مقدم الطلب‬ (ATS)
-description: يصف هذا الموضوع كيفية إعداد مصادقة خادم إلى خادم للتكاملات مقابل واجهة API لتكامل نظام تعقب مقدم الطلب‬ (ATS) في Dynamics 365 Human Resources.
+description: توضح هذه المقالة كيفية إعداد مصادقة خادم إلى خادم للتكاملات مقابل واجهة API لتكامل نظام تعقب مقدم الطلب‬ (ATS) في Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 06/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: de3dc29c5366996276c02576eba27f7e831e4ccf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879355"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>مصادقة خادم إلى خادم لواجهة API لتكامل نظام تعقب مقدم الطلب‬ (ATS)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8743530"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيفية إعداد مصادقة خادم إلى خادم لتكاملات التطبيق مقابل واجهة API لتكامل نظام تعقب مقدم الطلب‬ (ATS) في Dynamics 365 Human Resources. هناك بضع طبقات من الأمان يجب إدارتها لمدير الخدمة للحصول على حق الوصول إلى جدول Microsoft Dataverse الظاهري والبيانات المرتبطة. يجب أن يتم منح المستخدم صلاحية الوصول إلى جدول Dataverse الظاهري في Microsoft Power Platform، والوصول إلى البيانات في Dynamics 365 Human Resources.
+توضح هذه المقالة كيفية إعداد مصادقة خادم إلى خادم لتكاملات التطبيق مقابل واجهة API لتكامل نظام تعقب مقدم الطلب‬ (ATS) في Dynamics 365 Human Resources . هناك بضع طبقات من الأمان يجب إدارتها لمدير الخدمة للحصول على حق الوصول إلى جدول Microsoft Dataverse الظاهري والبيانات المرتبطة. يجب أن يتم منح المستخدم صلاحية الوصول إلى جدول Dataverse الظاهري في Microsoft Power Platform، والوصول إلى البيانات في Dynamics 365 Human Resources.
 
 ## <a name="enable-access-to-dataverse-virtual-tables-in-power-platform"></a>تمكين الوصول إلى جدول Dataverse الظاهري في Power Platform
 

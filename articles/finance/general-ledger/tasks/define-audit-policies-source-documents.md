@@ -1,6 +1,6 @@
 ---
-title: تحديد سياسات المراجعة للمستندات المصدر
-description: يوضح هذا الموضوع كيفية إعداد وتشغيل قواعد سياسة التدقيق.
+title: تحديد سياسات التدقيق للمستندات المصدر
+description: تشرح هذه المقالة كيفية إعداد قواعد سياسة التدقيق وتشغيلها.
 author: panolte
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: b8aa106cd5a5596f6b9a6663390e03ebc3f91a7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872517"
 ---
-# <a name="define-audit-policies-for-source-documents"></a>تحديد سياسات المراجعة للمستندات المصدر
+# <a name="define-audit-policies-for-source-documents"></a>تحديد سياسات التدقيق للمستندات المصدر
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد وتشغيل قواعد سياسة التدقيق. يستخدم المثال تقارير المصروفات مع نوع مصروفات الفندق. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF. يحتوي دور المراجع يحتوي على الأذونات الصحيحة لتنفيذ هذه المهام.
+تشرح هذه المقالة كيفية إعداد قواعد سياسة التدقيق وتشغيلها. يستخدم المثال تقارير المصروفات مع نوع مصروفات الفندق. يستخدم هذا الإجراء شركة بيانات العرض التوضيحي USMF. يحتوي دور المراجع يحتوي على الأذونات الصحيحة لتنفيذ هذه المهام.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > منضدة عمل التدقيق‬ >الإعداد > نوع قاعدة السياسة**.
 2. حدد **جديد**.

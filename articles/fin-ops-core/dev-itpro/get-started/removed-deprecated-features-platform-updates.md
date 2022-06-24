@@ -1,6 +1,6 @@
 ---
-title: ميزات Platform التي تمت إزالتها أو إهمالها
-description: يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات التمويل والعمليات.
+title: ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
+description: توضح هذه المقالة الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات التمويل والعمليات.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
+ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811235"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945789"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات التمويل والعمليات.
+توضح هذه المقالة الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في تحديثات الأنظمة الأساسية لتطبيقات التمويل والعمليات.
 
 - لم تعد ميزة *تمت الإزالة* متوفرة في المنتج.
 - لا توجد ميزة *المهملة* في التطوير النشط وقد يتم إزالتها في تحديثات مستقبلية.
@@ -40,7 +40,7 @@ ms.locfileid: "8811235"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **سبب الإهلاك/الإزالة** | نحن بصدد إهمال تطبيق Finance and Operations (Dynamics 365) للأجهزة المحمولة ونظام أساسي للدمج في نظام أساسي واحد للأجهزة المحمولة، وهو Power Apps. |
-| **هل تم الاستبدال بميزة أخرى؟**   | نعم، يمكن إنشاء تجارب الأجهزة المحمولة عبر بيانات تطبيق Finance and Operations باستخدام تكامل Power Platform. راجع [إنشاء تجارب الأجهزة المحمولة](../power-platform/build-mobile-experiences.md) للاطلاع على التفاصيل. |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم، يمكن إنشاء تجارب الأجهزة المحمولة عبر بيانات تطبيق Finance and Operations باستخدام تكامل Power Platform. راجع [منشور مدونة](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) و [إنشاء تجارب الأجهزة المحمولة](../power-platform/build-mobile-experiences.md) لمزيد من التفاصيل. |
 | **مناطق المنتجات المتأثرة**         | تطبيقات التمويل والعمليات |
 | **خيارات النشر**              | ‏‏الكل‬ |
 | **Status**                         | مهملة. تم تحديد تاريخ انتهاء الدعم في أكتوبر 2024. |

@@ -1,6 +1,6 @@
 ---
 title: استيراد بيانات شركة فرعية من ملفات
-description: يشرح هذا الموضوع كيفية إعداد البيانات من أنظمة خارجية بحيث يمكن استيرادها إلى Microsoft Dynamics 365 Finance.
+description: توضح هذه المقالة كيفية إعداد البيانات من الأنظمة الخارجية بحيث يمكن استيرادها إلى Microsoft Dynamics 365 Finance.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846759"
 ---
 # <a name="import-subsidiary-data-from-files"></a>استيراد بيانات شركة فرعية من ملفات
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد البيانات من أنظمة خارجية بحيث يمكن استيرادها إلى Microsoft Dynamics 365 Finance. يمكنك استخدام صفحة **توحيد مع الاستيراد** (**عمليات التوحيد \> التوحيد مع الاستيراد**) لإعداد نقل بيانات الشركة التابعة من أنظمة خارجية.
+توضح هذه المقالة كيفية إعداد البيانات من الأنظمة الخارجية بحيث يمكن استيرادها إلى Microsoft Dynamics 365 Finance. يمكنك استخدام صفحة **توحيد مع الاستيراد** (**عمليات التوحيد \> التوحيد مع الاستيراد**) لإعداد نقل بيانات الشركة التابعة من أنظمة خارجية.
 
 1. إنشاء كيان قانوني تابع للتوحيد. للحصول على معلومات حول كيفية إنشاء كيان قانوني، راجع [إنشاء كيان قانوني](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). لمزيد من المعلومات، راجع [إعداد كيان قانوني لاستخدامه في عملية التوحيد](prepare-company-for-consolidation.md)و[إعداد أحد الكيانات القانونية التابعة لإجراء التوحيد](set-up-subsidiary-company-for-consolidation.md).
 

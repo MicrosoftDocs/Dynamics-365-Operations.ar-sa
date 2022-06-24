@@ -1,6 +1,6 @@
 ---
 title: التصفية المتقدمة وبنية الاستعلام
-description: يصف هذا الموضوع خيارات التصفية والاستعلام لمربع الحوار "التصفية/الفرز المتقدم" وعامل التشغيل المطابق في جزء عامل التصفية أو عوامل تصفية رأس عمود الشبكة.
+description: تصف هذه المقالة خيارات التصفية والاستعلام لمربع الحوار التصفية/الفرز المتقدم وعامل التشغيل المطابق في جزء عامل التصفية أو عوامل تصفية رأس عمود خطوط الشبكة.
 author: jasongre
 ms.date: 03/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856907"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>التصفية المتقدمة وبنية الاستعلام
 
@@ -29,7 +29,7 @@ ms.locfileid: "8069999"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-يصف هذا الموضوع خيارات التصفية والاستعلام التي تتوفر عند استخدام مربع الحوار التصفية/الفرز المتقدم أو عامل تشغيل **التطابق** في جزء عامل التصفية أو عوامل تصفية عناوين أعمدة الشبكة.
+يوضح هذا الموضوع خيارات التصفية والاستعلام التي تتوفر عند استخدام مربع الحوار التصفية/الفرز المتقدم أو عامل تشغيل **تطابق** في جزء عامل التصفية أو عوامل تصفية عناوين أعمدة الشبكة.
 
 ## <a name="advanced-query-syntax"></a>‏‫بنية الاستعلام المتقدمة
 

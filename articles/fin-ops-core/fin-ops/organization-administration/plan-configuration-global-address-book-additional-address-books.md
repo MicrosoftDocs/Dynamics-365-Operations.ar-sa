@@ -1,6 +1,6 @@
 ---
-title: التخطيط لإعداد دفتر العناوين العمومي ودفاتر العناوين الإضافية
-description: يصف هذا الموضوع الاعتبارات والقرارات التي يجب عليك اتخاذها أثناء عملية التخطيط.
+title: التخطيط لدفتر عناوين عمومي ودفاتر العناوين الأخرى
+description: توضح هذه المقالة الاعتبارات والقرارات التي يجب عليك اتخاذها في أثناء عملية التخطيط.
 author: msftbrking
 ms.date: 01/13/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 288c96d8c877f5e3b3101080294b2f6cdeb39882
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863148"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>التخطيط لدفتر عناوين عمومي ودفاتر العناوين الأخرى
 
 [!include [banner](../includes/banner.md)]
 
-تصف هذه المقالة الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل إعداد وتكوين دفتر العناوين العمومي وأي دفاتر عناوين إضافية. قد تتطلب منك بعض القرارات تأكيد القرارات التي تم اتخاذها لنواحٍ أخرى من المنتج، مثل التدرج الهرمي للمؤسسات.
+توضح هذه المقالة الاعتبارات والقرارات التي يجب أن تتخذها خلال عملية التخطيط قبل إعداد وتكوين دفتر العناوين العمومي وأي دفاتر عناوين إضافية. قد تتطلب منك بعض القرارات تأكيد القرارات التي تم اتخاذها لنواحٍ أخرى من المنتج، مثل التدرج الهرمي للمؤسسات.
 
 ## <a name="global-address-book"></a>دفتر العناوين العمومي
 

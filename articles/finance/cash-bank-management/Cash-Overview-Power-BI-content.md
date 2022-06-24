@@ -1,6 +1,6 @@
 ---
-title: المحتوى "نظرة عامة على النقد" في Power BI
-description: 'يصف هذا الموضوع المحتوى "نظرة عامة على النقدية: في Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.'
+title: محتوى Power BI لنظرة عامة على النقدية
+description: تصف هذه المقالة محتوى Power BI نظرة عامة على النقد. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 author: panolte
 ms.date: 07/16/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bb44dd8203b87ac5fb1f7977b865522faa6ebaeb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 4f841ec5b17c2271010a95f45188832ee5917556
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910218"
 ---
 # <a name="cash-overview-power-bi-content"></a>محتوى Power BI لنظرة عامة على النقدية
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع محتوى **نظرة عامة على النقدية** في Microsoft Power BI. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+تصف هذه المقالة **محتوى** Microsoft Power BI نظرة عامة على النقد. وتوضح هذه المقالة كيفية الوصول إلى التقارير التي تم تضمينها في المحتوى، وتوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة
 

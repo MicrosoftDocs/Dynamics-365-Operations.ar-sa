@@ -1,6 +1,6 @@
 ---
-title: عينة شيكات المورد الخاصة بإعداد التقارير الإلكترونية
-description: يوفر هذا الموضوع معلومات عامة حول كيفية استخدام عينات تنسيقات الشيكات الخاصة بإعداد التقارير الإلكترونية.
+title: عينة شيكات المورد الخاصة بإعداد التقارير الإلكترونية‬
+description: توفر هذه المقالة معلومات عامة عن كيفية استخدام تنسيقات الشيكات الخاصة بعينات إعداد التقارير الإلكترونية.
 author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d2b26a083540924d2368a298632aea90ecf95e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908172"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>عينة شيكات المورد الخاصة بإعداد التقارير الإلكترونية
 
@@ -28,7 +28,7 @@ ms.locfileid: "8734533"
 
 ## <a name="what-check-formats-are-currently-supported"></a>ما هي تنسيقات الشيكات المدعومة حاليًا؟
 
-يجب عليك دائمًا الانتقال إلى مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS) وعرض قائمة بأحدث الملفات المتوفرة التي تحتوي على نوع الأصل **تكوين GER**. يتضمن القسم التالي، "ما الذي يجب عليّ إعداده؟، ارتباطًا إلى الموضوع الذي يشرح كيفية إنشاء مستودع LCS، بحيث تتمكن من مراجعة التكوينات المتوفرة واستيراد تكوينات محددة.
+يجب عليك دائمًا الانتقال إلى مكتبة الأصول المشتركة في Microsoft Dynamics Lifecycle Services (LCS) وعرض قائمة بأحدث الملفات المتوفرة التي تحتوي على نوع الأصل **تكوين GER**. يتضمن القسم التالي، "ما الذي يجب عليّ إعداده؟، ارتباطًا إلى الموضوع الذي يشرح كيفية إنشاء مستودع LCS بحيث تتمكن من مراجعة التكوينات المتوفرة واستيراد تكوينات محددة.
 
 يتضمن Microsoft Dynamics 365 Finance تنسيقًا نموذجيًا حيث يكون الشيك في الأعلى، يليه قسمان للحوالات. ويتضمن أيضًا عينة تنسيق يكون فيها الشيك في الوسط بين قسمي الحوالة. تتوافق عينات التنسيقات هذه مع تنسيقات شيكات أعمال Deluxe.
 

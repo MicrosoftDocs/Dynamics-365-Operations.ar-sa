@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - حذف بيئة RCS
-description: يشرح هذا الموضوع كيف يمكن لمسؤول نظام Regulatory Configuration Service (RCS) حذف بيئة RCS والبيانات ذات الصلة.
+description: توضح هذه المقالة كيف يمكن لمسؤول نظام Regulatory Configuration Service‏ (RCS) حذف بيئة RCS والبيانات ذات الصلة.
 author: JaneA07
 ms.date: 06/14/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: f9073a14143423676f23f9bf8dc9c17dbae18a6c3ad0d2f6d1e33919fd9162bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21e7ee546bb2b712d9424c6bd95e9f9227831bd1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908879"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - حذف بيئة RCS
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيف يمكن لمسؤول نظام Regulatory Configuration Service (RCS) حذف بيئة RCS والبيانات ذات الصلة.
+توضح هذه المقالة كيف يمكن لمسؤول نظام Regulatory Configuration Service‏ (RCS) حذف بيئة RCS والبيانات ذات الصلة.
 
-قبل أن تتمكن من استكمال الإجراء في هذا الموضوع، يجب تلبية المتطلبات التالية:
+قبل أن تتمكن من استكمال الإجراء في هذه المقالة، يجب تلبية المتطلبات التالية:
 
 - يجب تعيين دور **مسؤول النظام** لك لبيئة RCS.
 - يجب أن يحتوي دور **مسؤول النظام** على دور **RCSDeleteEnvironmentDuty** معين إليه.

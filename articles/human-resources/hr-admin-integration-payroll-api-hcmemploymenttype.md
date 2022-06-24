@@ -1,6 +1,6 @@
 ---
 title: نوع توظيف API لكشف الرواتب
-description: يصف هذا الموضوع مجموعة خيارات نوع التوظيف في واجهة API لكشف الرواتب في Dynamics 365 Human Resources.
+description: توضح هذه المقالة مجموعة خيارات نوع التوظيف في واجهة API لكشف الرواتب في Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 08/23/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 06d78da6c03a539a1dfd1294750b061b2f568978
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: 42b05c7e1cc371918c68be849c1a73be53b4fa21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869883"
 ---
 # <a name="payroll---employment-type-option-set"></a>كشف الرواتب - مجموعة خيارات نوع التوظيف
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع مجموعة خيارات نوع التوظيف لـ Dynamics 365 Human Resources.
+توضح هذه المقالة مجموعة خيارات نوع التوظيف في Dynamics 365 Human Resources.
 
 ## <a name="option-set-employment-type"></a>مجموعة الخيارات - نوع التوظيف
 

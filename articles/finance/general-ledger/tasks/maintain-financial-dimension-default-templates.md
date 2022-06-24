@@ -1,6 +1,6 @@
 ---
 title: الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
-description: يوضح هذا الموضوع كيفية إعداد القوالب الافتراضية للبُعد المالي.
+description: توضح هذه المقالة كيفية إعداد القوالب الافتراضية للبُعد المالي.
 author: aprilolson
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08e795b44e552dbf049b460811a66741d9b6b96f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 846347f3a0b5257e88e06ad593ba49160de9458a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872401"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>الاحتفاظ بالقوالب الافتراضية للأبعاد المالية
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد القوالب الافتراضية للبُعد المالي. يمكن استخدام القوالب لتوزيع المبالغ بسرعة على المستندات المصدر.
+توضح هذه المقالة كيفية إعداد القوالب الافتراضية للبُعد المالي. يمكن استخدام القوالب لتوزيع المبالغ بسرعة على المستندات المصدر.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > دليل الحسابات > الأبعاد > قوالب الأبعاد المالية الافتراضية**.
 2. حدد **جديد**.

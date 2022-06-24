@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4036378ca70089a9978a9bf5fb48c058a2064cdc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5fe8ecd368bc63eed43c86053084ca67ef9beac6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859506"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>توسيع باستخدام Power Apps وPower Automate
 
@@ -33,7 +33,7 @@ ms.locfileid: "8689483"
 يصف هذا المقال بعض الأمثلة عن سيناريوهات قابلية التوسعة في Microsoft Dynamics 365 Human Resources التي تستخدم Microsoft Power Apps و Microsoft Power Automate. يمكنك استيراد حزمة الحل المقترنة بكل مثال إلى بيئتك في Power Apps. بعد ذلك، يمكنك استخدام الحزم كنقاط إرشادية أو كنقاط بداية لتنفيذ السيناريوهات التي تنطبق على مؤسستك.
 
 > [!IMPORTANT]
-> إذا أردت استخدام القوالب والتطبيقات التي تم وصفها في الموضوع "كما هي"، فتأكد من اختبارها للتأكد من أنها تغطي كافة السيناريوهات المتعلقة بعملية التنفيذ التي تقوم بها.
+> إذا أردت استخدام القوالب والتطبيقات التي تم وصفها في هذه المقالة "كما هي"، فتأكد من اختبارها للتأكد من أنها تغطي كافة السيناريوهات المتعلقة بعملية التنفيذ التي تقوم بها.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 

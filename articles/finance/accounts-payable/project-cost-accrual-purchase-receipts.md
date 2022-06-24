@@ -1,6 +1,6 @@
 ---
-title: استحقاق تكلفة المشروع في إيصالات الشراء
-description: يوضح هذا الموضوع كيفية تعقب تكاليف المشروع المستحقة من إيصالات الشراء في Microsoft Dynamics 365 Finance.
+title: إيصالات استحقاق تكلفة المشروع على الشراء
+description: توضح هذه المقالة كيفية تعقب تكاليف المشروع المستحقة من إيصالات الشراء في Microsoft Dynamics 365 Finance.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e435002bca8fd4deb58c16c50db55237a3e9053
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: a138fd41269fad2e9ac489664ca81c3ee12f830d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735099"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856846"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>إيصالات استحقاق تكلفة المشروع على الشراء
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تعقب تكاليف المشروع المستحقة من إيصالات الشراء في Microsoft Dynamics 365 Finance. 
+توضح هذه المقالة كيفية تعقب تكاليف المشروع المستحقة من إيصالات الشراء في Microsoft Dynamics 365 Finance. 
 
 عادةً ما تصل فواتير المشروع لاحقًا بعد تسليم البضائع والخدمات، مما قد يكون له تأثير كبير على مؤشرات الأداء الرئيسية للمشروع. من المهم أن تكون قادرًا على تعقب هذه الحركات في كل من التقارير المالية وتقارير المشروع.
 

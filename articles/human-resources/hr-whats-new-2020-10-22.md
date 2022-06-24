@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources 22 أكتوبر 2020
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 22 أكتوبر، 2020.
+description: توفر هذه المقالة الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 22 أكتوبر 2020.
 author: jcart1106
 ms.date: 10/22/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862790"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 22 أكتوبر 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8063508"
 
 
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources. لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
+توضح هذه المقالة الميزات الجديدة أو المتغيرة أو التي ستصدر قريبًا في Dynamics 365 Human Resources. لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
 لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -50,9 +50,9 @@ ms.locfileid: "8063508"
 يتضمن هذا الإصدار إصلاحات الأخطاء التالية.
 
 > [!NOTE]
-> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. قد نقوم بتحديث هذا الموضوع لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. يمكن أن نقوم بتحديث هذه المقالة لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذه المقالة مبدئيًا.
 
-| رقم الإصدار| إصدار  | الوصف|
+| رقم الإصدار| المشكلة  | ‏‏الوصف‬|
 | --- | --- | --- |
 | 437922 | يؤدي استيراد ساعات FMLA باستخدام كيان DMF إلى حدوث خطأ للقراءة فقط. | فشل استخدام ساعات FMLA لاستيراد الساعات المقترنة بحالة FMLA. أضفنا منطقًا للتأكد من أن الساعات المستوردة لا تتجاوز الساعات المتبقية للحالة. |
 | 512019 | مبلغ **الرصيد المحول الأخير** غير صحيح. | في الصفحة **الإجازة**، عرض تغيير **اعتبارًا من** إلى اليوم الأول من الفترة المالية التالية مبلغ **الرصيد المحول الأخير** غير صحيح لنوع **الإجازة السنوية**. يعرض الآن المبلغ الصحيح. |

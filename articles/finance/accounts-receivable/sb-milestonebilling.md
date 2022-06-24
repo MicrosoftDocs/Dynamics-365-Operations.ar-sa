@@ -1,6 +1,6 @@
 ---
 title: قوالب الأحداث الرئيسية
-description: يوضح هذا الموضوع كيفية إعداد وظيفة الفوترة الرئيسية في فوترة الاشتراك.
+description: توضح هذه المقالة كيفية إعداد وظيفة الفوترة الرئيسية في فوترة الاشتراك.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ecc4ddbb4d22eefac36f8cf8205d3b6084bd7d9d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3c2cf751e4998c73bc3816e5b81e8d5963c8e53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856759"
 ---
-# <a name="milestone-billing"></a>الفوترة الرئيسية
+# <a name="milestone-billing"></a>الفوترة الجزئية
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تحديد القوالب لوظيفة الفوترة الرئيسية في فواتير الاشتراك. بالنسبة لكل بند في قالب الحدث الرئيسي، يمكنك تحديد النسبة المئوية للتخصيص أو المبلغ. يمكنك بعد ذلك تعيين قالب الأحداث الرئيسية لأصناف جدول الفوترة التي تستخدم وظيفة الفوترة الرئيسية.
+توضح هذه المقالة كيفية تحديد القوالب لوظيفة الفوترة الرئيسية في فواتير الاشتراك. بالنسبة لكل بند في قالب الحدث الرئيسي، يمكنك تحديد النسبة المئوية للتخصيص أو المبلغ. يمكنك بعد ذلك تعيين قالب الأحداث الرئيسية لأصناف جدول الفوترة التي تستخدم وظيفة الفوترة الرئيسية.
 
 ## <a name="add-a-template"></a>إضافة قالب
 

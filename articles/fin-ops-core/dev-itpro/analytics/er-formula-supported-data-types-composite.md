@@ -1,6 +1,6 @@
 ---
 title: أنواع البيانات المركبة المدعومة لمعادلات التقارير الإلكترونية
-description: يوفر هذا الموضوع معلومات حول أنواع البيانات المركبة المعتمدة في معادلات التقارير الإلكترونية (ER).
+description: توفر هذه المقالة معلومات عن أنواع البيانات المركبة المعتمدة في معادلات التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dc3fbe695d79eb0ec9796d471c4d2bb0bb7ab99d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869304"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>أنواع البيانات المركبة المدعومة لمعادلات التقارير الإلكترونية
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات حول أنواع البيانات المركبة المعتمدة في تعبيرات [التقارير الإلكترونية (ER)](general-electronic-reporting.md). أنواع البيانات المركبة هي [الفئة](#class) و [الحاوية](#container) و [السجل](#record) و [قائمة السجل](#record-list) و [الكائن](#object).
+توفر هذه المقالة معلومات عن أنواع البيانات المركبة المعتمدة في تعبيرات [التقارير الإلكترونية (ER)](general-electronic-reporting.md). أنواع البيانات المركبة هي [الفئة](#class) و [الحاوية](#container) و [السجل](#record) و [قائمة السجل](#record-list) و [الكائن](#object).
 
 ## <a name="class"></a><a name="class"></a>الدرجة
 

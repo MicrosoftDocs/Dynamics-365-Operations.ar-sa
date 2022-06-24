@@ -1,6 +1,6 @@
 ---
 title: إزالة مثيل
-description: ينقلك هذا الموضوع عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Dynamics 365 Human Resources.
+description: ينقلك هذا المقال عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 522989298544fa5a2c0812bc57e9ae4ae21fe250
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859622"
 ---
 # <a name="remove-an-instance"></a>إزالة مثيل
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوضح هذا الموضوع عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Dynamics 365 Human Resources.
+توضح هذه المقالة عملية إزالة بيئة إنتاج أو تجربة إصدار جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
 
 ## <a name="remove-a-test-drive-environment"></a>إزالة بيئة محرك أقراص اختبار
 
@@ -40,7 +40,7 @@ ms.locfileid: "8692355"
 
 ## <a name="remove-a-production-environment"></a>إزالة بيئة إنتاج
 
-يفترض هذا الموضوع أنك قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). 
+يفترض هذا المقال أنك قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). 
 
 نظرًا لأن هناك بيئة Human Resources واحدة مشمولة ضمن بيئة Power Apps واحدة، هناك خياران ينبغي أخذهما بعين الاعتبار. الخيار الأول يتضمن إزالة بيئة Power Apps بالكامل، والثاني يتضمن إزالة Human Resources فقط. والخيار الأول هو المفضل عند قيامك بإنشاء بيئة Power Apps صراحةً بغرض توفير Human Resources، وقد بدأت التنفيذ للتو، أو لم يكن لديك أي عمليات تكامل قائمة. والخيار الثاني مناسب إذا كان لديك بيئة Power Apps محددة معبأة بالبيانات الغنية التي يتم جمعها في Power Apps وPower Automate.
 

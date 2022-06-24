@@ -1,6 +1,6 @@
 ---
-title: تجربة المنتجات الموحدة
-description: يصف هذا الموضوع تكامل بيانات المنتجات بين تطبيقات Finance and Operations وDataverse.
+title: تجربه المنتج الموحدة
+description: توضح هذه المقالة تكامل بيانات المنتجات بين تطبيقات التمويل والعمليات و Dataverse.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884987"
 ---
 # <a name="unified-product-experience"></a>تجربة المنتجات الموحدة
 
@@ -126,9 +126,9 @@ ms.locfileid: "8062588"
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>إعدادات الأوامر الافتراضية وإعدادات الأوامر الافتراضية الخاصة بالمنتج
 
-تحدد إعدادات الأوامر الافتراضية الموقع والمستودع من حيث تؤخذ الأصناف أو حيث يتم تخزينها، والحد الأدنى من الكميات وحدها الأقصى ومضاعفاتها والكميات القياسية التي سيتم استخدامها للتجارة أو إدارة المخزون وزمن وصول البضاعة وعلامة الإيقاف وأسلوب التعهد بالأمر‬. تتوفر هذه المعلومات في Dataverse باستخدام كيان إعدادات الأوامر الافتراضية وإعدادات الأوامر الافتراضية الخاصة بالمنتج‬. يمكنك قراءة مزيد من المعلومات حول الوظائف في [موضوع إعدادات الأوامر الافتراضية](../../../../supply-chain/production-control/default-order-settings.md).
+تحدد إعدادات الأوامر الافتراضية الموقع والمستودع من حيث تؤخذ الأصناف أو حيث يتم تخزينها، والحد الأدنى من الكميات وحدها الأقصى ومضاعفاتها والكميات القياسية التي سيتم استخدامها للتجارة أو إدارة المخزون وزمن وصول البضاعة وعلامة الإيقاف وأسلوب التعهد بالأمر‬. تتوفر هذه المعلومات في Dataverse باستخدام كيان إعدادات الأوامر الافتراضية وإعدادات الأوامر الافتراضية الخاصة بالمنتج‬. يمكنك قراءة مزيد من المعلومات عن الوظائف الموجودة في [مقالة إعدادات الأوامر الافتراضية](../../../../supply-chain/production-control/default-order-settings.md).
 
-تطبيقات Finance and Operations | تطبيقات Customer Engagement |
+تطبيقات التمويل والعمليات | تطبيقات Customer Engagement |
 ---|---
 [إعدادات الأوامر الافتراضية](mapping-reference.md#172) | msdyn_productdefaultordersettings |
 [إعدادات الأوامر الافتراضية للمنتج V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |

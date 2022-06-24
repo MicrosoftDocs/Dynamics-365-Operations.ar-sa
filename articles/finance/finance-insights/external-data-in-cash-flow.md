@@ -1,6 +1,6 @@
 ---
 title: البيانات الخارجية في توقعات التدفق النقدي
-description: يصف هذا الموضوع خطوات الإعداد التي يجب إكمالها بحيث يمكن إدخال البيانات الخارجية أو استيرادها في توقعات التدفق النقدي.
+description: تصف هذه المقالة خطوات الإعداد التي يجب إكمالها بحيث يمكن إدخال البيانات الخارجية أو استيرادها في توقعات التدفق النقدي.
 author: RyanCCarlson2
 ms.date: 02/16/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f7fac80b7ad0fde273fbd33aa5df146e569be46e
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f0cb05770dc2fbd4e13af261b5f0a0e117a2f6d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846933"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>البيانات الخارجية في توقعات التدفق النقدي
 
 [!include [banner](../includes/banner.md)]
 
-يمكن إدخال البيانات الخارجية أو استيرادها إلى تقديرات تدفقات نقدية. يصف هذا الموضوع خطوات الإعداد الخاصة باستخدام البيانات الخارجية والتي تمكن من تضمين البيانات الخارجية في تقدير التدفقات النقدية.
+يمكن إدخال البيانات الخارجية أو استيرادها إلى تقديرات تدفقات نقدية. تصف هذه المقالة خطوات الإعداد الخاصة باستخدام البيانات الخارجية التي تمكنك من تضمين البيانات الخارجية في تقدير التدفقات النقدية.
 
 ## <a name="external-data-setup"></a>إعداد البيانات الخارجية
 

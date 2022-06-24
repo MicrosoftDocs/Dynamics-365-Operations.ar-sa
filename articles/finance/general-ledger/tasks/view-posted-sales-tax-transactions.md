@@ -1,6 +1,6 @@
 ---
-title: عرض حركات ضرائب المبيعات المُرَّحلة
-description: يصف هذا الموضوع بعض الطرق لعرض حركات ضريبة المبيعات المرحّلة.
+title: عرض حركات ضرائب مبيعات مُرَّحلة
+description: توصف هذه المقالة بعض الطرق لعرض معاملات ضريبة المبيعات المرحّلة.
 author: twheeloc
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c140f0565005120f57ba1c22bbdac50b3d0d3d4
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 028ebe44a639b32e45e0dd0af57887abc9b2af6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883231"
 ---
-# <a name="view-posted-sales-tax-transactions"></a>عرض حركات ضرائب المبيعات المُرَّحلة
+# <a name="view-posted-sales-tax-transactions"></a>عرض حركات ضرائب مبيعات مُرَّحلة
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع بعض الطرق لعرض حركات ضريبة المبيعات المرحّلة. يمكنك عرض حركات ضريبة المبيعات المرحّلة من صفحات مختلفة تبعًا لما تحتاج إلى عرضه. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
+توصف هذه المقالة بعض الطرق لعرض معاملات ضريبة المبيعات المرحّلة. يمكنك عرض حركات ضريبة المبيعات المرحّلة من صفحات مختلفة تبعًا لما تحتاج إلى عرضه. تستخدم هذه المهمة شركة بيانات العرض التوضيحي USMF.
 
 ## <a name="posted-sales-tax-page"></a>صفحة ضريبة المبيعات المرحّلة
 

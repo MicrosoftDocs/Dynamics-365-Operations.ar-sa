@@ -1,6 +1,6 @@
 ---
-title: نظرة عامة على التقارير المالية
-description: يصف هذا الموضوع المكان الذي يمكن منه الوصول إلى التقارير المالية في 365 Finance Microsoft Dynamics وكيفية استخدام إمكانيات إعداد التقارير المالية.
+title: نظرة عامة على إعداد التقارير المالية
+description: تصف هذه المقالة المكان الذي يمكن منه الوصول إلى التقارير المالية في 365‎ Finance Microsoft Dynamics وكيفية استخدام إمكانيات إعداد التقارير المالية.
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853398"
 ---
 # <a name="get-started-with-financial-reporting"></a>الشروع في العمل من خلال إعداد التقارير المالية 
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع المكان الذي يمكن منه الوصول إلى التقارير المالية وكيفية استخدام إمكانيات إعداد التقارير المالية. كما يتضمن وصفًا للتقارير المالية الافتراضية التي يتم توفيرها.
+تصف هذه المقالة المكان الذي يمكن منه الوصول إلى التقارير المالية وكيفية استخدام إمكانيات إعداد التقارير المالية. كما يتضمن وصفًا للتقارير المالية الافتراضية التي يتم توفيرها.
 
 ## <a name="accessing-financial-reporting"></a>الوصول إلى التقارير المالية
 

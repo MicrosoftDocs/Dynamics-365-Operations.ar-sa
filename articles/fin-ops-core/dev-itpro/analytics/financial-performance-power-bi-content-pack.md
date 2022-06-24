@@ -1,6 +1,6 @@
 ---
 title: حل محتوى PowerBI.com للأداء المالي
-description: يصف هذا الموضوع حل PowerBI.com للأداء المالي.
+description: تصف هذه المقالة حل PowerBI.com للأداء المالي.
 author: kweekley
 ms.date: 05/09/2018
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910404"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>حل محتوى PowerBI.com للأداء المالي
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> تم إهمال حل PowerBI.com هذا كما هو موثق في [الميزات المزالة أو المهملة لـ Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> تم إهمال حل PowerBI.com هذا كما هو موثق في [الميزات التي تمت ازالتها أو إهمالها لـ Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-يصف هذا الموضوع حل PowerBI.com **للأداء المالي**  إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء الحل.
+تصف هذه المقالة حل PowerBI.com **للأداء المالي** . إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء الحل.
 
 ## <a name="main-account-setup"></a>إعداد الحساب الرئيسي
 لأن المؤسسات تريد أن تظهر التزاماتها ومبالغ الإيراد كمبالغ موجبة في التقارير، يُعد إعداد الحسابات الرئيسية أمرًا بالغ الأهمية. بالنسبة لهذه الحسابات الرئيسية لتظهر كمبالغ موجبه، يجب تعيين نوع الحساب الرئيسي على **الالتزام** أو **الإيراد**. عند استخدام أنواع الحسابات هذه، سوف يقوم الإبلاغ من خلال Power BI بعكس العلامات، وإظهار المبالغ كمبالغ موجبة.

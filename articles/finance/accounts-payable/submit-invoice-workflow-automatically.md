@@ -1,6 +1,6 @@
 ---
 title: إرسال الفواتير إلى نظام سير العمل ومطابقة بنود إيصال استلام المنتجات
-description: يشرح هذا الموضوع عملية إرسال فواتير المورد إلى نظام سير العمل وتلقائيًا مطابقه بنود إيصال استلام المنتجات المرحلة إلى فواتير المورد المعلقة.
+description: توضح هذه المقالة عملية إرسال فواتير المورد إلى نظام سير العمل، وتلقائيًا مطابقة بنود إيصال استلام المنتجات المرحلة إلى فواتير المورد المعلقة.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861607"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>إرسال الفواتير إلى نظام سير العمل ومطابقة بنود إيصال استلام المنتجات
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع عملية إرسال فواتير المورد إلى نظام سير العمل وتلقائيًا مطابقه بنود إيصال استلام المنتجات المرحلة إلى فواتير المورد المعلقة.
+توضح هذه المقالة عملية إرسال فواتير المورد إلى نظام سير العمل، وتلقائيًا مطابقة بنود إيصال استلام المنتجات المرحلة إلى فواتير المورد المعلقة.
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>إرسال فواتير المورد المستوردة إلى نظام سير العمل ومطابقه بنود إيصال استلام المنتجات المرحلة إلى بنود فاتورة المورد المعلقة.
 

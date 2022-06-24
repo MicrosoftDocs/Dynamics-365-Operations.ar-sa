@@ -1,6 +1,6 @@
 ---
 title: عمليات الدمج المالية عبر الإنترنت
-description: يصف هذا الموضوع عمليات الدمج المالية في دفتر الأستاذ العام.
+description: توضح هذه المقالة عمليات الدمج المالية في دفتر الأستاذ العام.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: d5848960ec5e30c1356a93ca4cb6545cec9e39de
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848538"
 ---
 # <a name="online-financial-consolidations"></a>عمليات الدمج المالية عبر الإنترنت
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع عمليات الدمج المالية في دفتر الأستاذ العام. قبل قراءة هذا الموضوع، احرص على قراءة الموضوع [نظرة عامة على عمليات الدمج المالية وتحويل العملات‬](financial-consolidations-currency-translation.md).
+توضح هذه المقالة عمليات الدمج المالية في دفتر الأستاذ العام. قبل قراءة هذه المقالة، احرص على قراءة مقالة [نظرة عامة على عمليات الدمج المالية وتحويل العملات‬](financial-consolidations-currency-translation.md) .
 
 بعد إكمال عملية الإعداد، أدخل تفاصيل الدمج في صفحة **الدمج [عبر الإنترنت]**. عند الانتهاء من ذلك، يمكنك النقر فوق **موافق** أو **دُفعة** لمعالجة الدمج.
 
@@ -90,7 +90,7 @@ ms.locfileid: "8716708"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-لمزيد من المعلومات حول الدمج وتحويل العملة‬، راجع الموضوع الأصل لهذا الموضوع، [نظرة عامة على عمليات الدمج المالية وتحويل العملات‬](./financial-consolidations-currency-translation.md).
+لمزيد من المعلومات عن الدمج وتحويل العملة‬، راجع الموضوع الأصل لهذه المقالة، [نظرة عامة على عمليات الدمج المالية وتحويل العملات‬](./financial-consolidations-currency-translation.md).
 
 لمزيد من المعلومات حول السيناريوهات حيث قد تنشئ قوائم مالية مدمجة، راجع [إنشاء قوائم مالية مدمجة‬](./generating-consolidated-financial-statements.md).
 

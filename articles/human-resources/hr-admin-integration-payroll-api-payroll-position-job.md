@@ -1,6 +1,6 @@
 ---
-title: وظيفة منصب كشف الرواتب
-description: يوفر هذا الموضوع تفاصيل ومثال استعلام لكيان وظيفة منصب كشف الرواتب في Dynamics 365 Human Resources.
+title: وظيفة المنصب في كشف الرواتب
+description: توفر هذه المقالة التفاصيل ومثال الاستعلام لكيان وظيفة منصب كشف الرواتب في Dynamics 365 Human Resources.
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 349479d9e77861b54d879bcfd93f7af0e38cff95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fa347f4b99adc7c29d69daf62ad2bbfc14726a19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864072"
 ---
-# <a name="payroll-position-job"></a>وظيفة منصب كشف الرواتب
+# <a name="payroll-position-job"></a>وظيفة المنصب في كشف الرواتب
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيان وظيف المنصب في الرواتب لـ Dynamics 365 Human Resources.
+توضح هذه المقالة كيان وظيف المنصب في كشف الرواتب في Dynamics 365 Human Resources.
 
-### <a name="description"></a>الوصف
+### <a name="description"></a>‏‏الوصف‬
 
 يوفر هذا الكيان العلاقة بين المنصب والوظيفة لخطة تعويض ثابت معينة.
 

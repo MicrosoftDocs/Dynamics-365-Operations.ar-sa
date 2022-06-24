@@ -1,6 +1,6 @@
 ---
 title: إعداد أكواد الضرائب
-description: يشرح هذا الموضوع كيفية إعداد أكواد الضرائب في خدمة حساب الضرائب.
+description: توضح هذه المقالة كيفية إعداد أكواد الضرائب في خدمة حساب الضرائب.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 8bdb194e7d8b704d1e58d3c25bf2e1f6bff1ba00
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 1bc250716763ce9d8e25c8850c8a3676bf65fb0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862917"
 ---
 # <a name="set-up-tax-codes"></a>إعداد أكواد الضرائب
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد أكواد الضرائب في خدمة حساب الضرائب. ويتضمن الإعداد الخاص بسيناريو بسيط لكي يتم عمل كود الضريبة والمعلومات المتعلقة ببعض وظائف أكواد الضرائب المتقدمة للسيناريوهات المعقدة.
+توضح هذه المقالة كيفية إعداد أكواد الضرائب بخدمة حساب الضرائب. ويتضمن الإعداد الخاص بسيناريو بسيط لكي يتم عمل كود الضريبة والمعلومات المتعلقة ببعض وظائف أكواد الضرائب المتقدمة للسيناريوهات المعقدة.
 
 > [!IMPORTANT]
-> يُعد إعداد أكواد الضرائب في خدمة حساب الضرائب هو الكيان القانوني – غير المحدد. يمكنك إكمال هذا الإعداد في Regulatory Configuration Service (RCS) مرة واحدة فقط. تتم مزامنة أكواد الضرائب تلقائيًا إلى Microsoft Dynamics 365 Finance عندما تقوم بتمكين خدمة حساب الضرائب لكيان قانوني محدد في Finance.
+> يُعد إعداد أكواد الضرائب في خدمة حساب الضرائب هو الكيان القانوني – غير المحدد. يمكنك إكمال هذا الإعداد في Regulatory Configuration Service (RCS) مرة واحدة فقط. تتم مزامنة أكواد الضرائب تلقائيًا إلى ‎365 Finance Microsoft Dynamics عندما تقوم بتمكين خدمة حساب الضرائب لكيان قانوني محدد في Finance.
 
 ## <a name="simple-setup"></a>إعداد بسيط
 

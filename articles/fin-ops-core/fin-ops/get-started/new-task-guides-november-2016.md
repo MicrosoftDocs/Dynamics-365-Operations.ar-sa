@@ -1,6 +1,6 @@
 ---
 title: دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)‬
-description: يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (نوفمبر 2016 - كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة.
+description: تسرد هذه المقالة دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (نوفمبر 2016 - كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3836456f8d4ba8aba95e90563f8bdb27fc547e09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886574"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>دلائل المهام الجديدة أو المحدثة (نوفمبر 2016)‬
 
 [!include [banner](../includes/banner.md)]
 
-يسرد هذا الموضوع دلائل المهام الجديدة أو المحدثة التي تم إصدارها لمكتبة Microsoft الموحدة APQC (نوفمبر 2016 – كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة.
+تسرد هذه المقالة دلائل المهام الجديدة أو المحدثة التي جرى إصدارها لمكتبة Microsoft APQC الموحدة (نوفمبر 2016 - كل اللغات) لتطبيق Microsoft Dynamics 365 for Operations. لم يتم إصدار مكتبة بدء استخدام جديدة.
 
-تحتوي المكتبة الموحدة APQC (نوفمبر 2016 - كل اللغات) على دلائل المهام المخصصة لاستخدامها لنظام التعليمات مع Microsoft Dynamics 365 for Operations وMicrosoft Dynamics 365 for Operations platform update 3 وMicrosoft Dynamics AX Platform update 2 وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 من تطبيق Microsoft Dynamics AX . لمزيد من المعلومات حول هذه الإصدارات، راجع [الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [نظام التعليمات](help-overview.md).
+تحتوي المكتبة الموحدة APQC (نوفمبر 2016 - كل اللغات) على دلائل المهام المخصصة لاستخدامها لنظام التعليمات مع Microsoft Dynamics 365 for Operations وMicrosoft Dynamics 365 for Operations platform update 3 وMicrosoft Dynamics AX Platform update 2 وتحديث مايو 2016 لتطبيق Dynamics AX وإصدار فبراير 2016 من تطبيق Microsoft Dynamics AX . لمزيد من المعلومات حول هذه الإصدارات، راجع [ما الجديد أو المتغير في صفحة Finance and Operations الرئيسية](whats-new-changed.md). تتوفر الإصدارات المترجمة من دلائل المهام في هذه المكتبة. لمزيد من المعلومات حول كيفية توصيل نظام التعليمات بمكتبة دليل المهام، راجع [نظام التعليمات](help-overview.md).
 
 > [!NOTE]
 > تشير العلامة النجمية (\*) إلى جانب عنوان بند أداة تكوين عمليات الأعمال إلى إنشاء دليل المهام لعملية الأعمال هذه لتحديث نوفمبر 2016 لتطبيق Dynamics 365 for Operations وهو غير معتمد في الإصدارات السابقة من Microsoft Dynamics AX.

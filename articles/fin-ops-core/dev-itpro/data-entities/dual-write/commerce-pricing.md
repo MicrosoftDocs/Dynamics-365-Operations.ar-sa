@@ -1,6 +1,6 @@
 ---
 title: استخدام محرك التسعير لـ Dynamics 365 Commerce مع Dynamics 365 Sales
-description: يصف هذا الموضوع كيفية استخدام محرك التسعير في Microsoft Dynamics 365 Commerce لإنشاء عروض أسعار المبيعات في Dynamics 365 Sales.
+description: توضح هذه المقالة كيفية استخدام محرك الأسعار في Microsoft Dynamics 365 Commerce لإنشاء عروض أسعار المبيعات في Dynamics 365 Sales.
 author: ShalabhjainMSFT
 ms.date: 11/19/2020
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: global
 ms.author: shajain
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 11a164ec15c8b7a69172a153b961011a8b324712
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881383"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>استخدام محرك التسعير لـ Dynamics 365 Commerce مع Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيفية استخدام محرك التسعير في Microsoft Dynamics 365 Commerce لإنشاء عروض أسعار المبيعات في Dynamics 365 Sales.
+توضح هذه المقالة كيفية استخدام محرك الأسعار في Microsoft Dynamics 365 Commerce لإنشاء عروض أسعار المبيعات في Dynamics 365 Sales.
 
 يدعم محرك التسعير في Dynamics 365 Commerce معظم سيناريوهات التسعير من الشركات إلى المستهلك (B2C)، مثل التسعير على مستوى المتجر، والتسعير المستند إلى الانتماء والقائم على الولاء، وخصومات المزيج والمطابقة، وخصومات الكمية، وخصومات الحد الأدنى. يستخدم محرك التسعير قواعد معقدة لتحديد أفضل سعر لعرض أسعار أو أمر معين.
 

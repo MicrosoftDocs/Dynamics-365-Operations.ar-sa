@@ -1,6 +1,6 @@
 ---
 title: التقارير الإلكترونية - إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي
-description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات إلى تطبيق Microsoft Dynamics 365 Finance من ملف خارجي.
+description: تصف هذه المقالة كيفية تصميم تكوينات التقارير الإلكترونية لاستيراد البيانات إلى تطبيق 365‎ Finance Microsoft Dynamics من ملف خارجي.
 author: NickSelin
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa1dc55e8cdee7d61e5ababe92e8a9234788664f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865882"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>التقارير الإلكترونية - إنشاء التكوينات المطلوبة لاستيراد البيانات من ملف خارجي
 
@@ -241,7 +241,7 @@ ms.locfileid: "6720846"
 19. قم بإغلاق الصفحة.
 20. انقر فوق "تحرير".
 
-    إذا قمت بتثبيت "الإصلاح العاجل KB 4012871 دعم تعيينات نموذج GER في تكوينات منفصلة مع إمكانية تحديد أنواع مختلفة من المتطلبات الأساسية لنشرها على إصدارات مختلفة من Dynamics 365 Finance" ([قاعدة البيانات 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871))، فاعمل على تنفيذ الخطوة التالية "تشغيل علامة ’الإعداد الافتراضي لتعيين النموذج’" لتكوين التنسيق الذي قمت بإدخاله. وإلا، فيمكنك تخطي الخطوة التالية.  
+    إذا قمت بتثبيت الإصلاح العاجل "KB 4012871 دعم تعيينات نموذج GER في تكوينات منفصلة مع إمكانية تحديد أنواع مختلفة من المتطلبات الأساسية لنشرها على إصدارات مختلفة من Dynamics 365 Finance"[‎KB 4012871(](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871))، فاعمل على تنفيذ الخطوة التالية "تشغيل علامة ’الإعداد الافتراضي لتعيين النموذج’" لتكوين التنسيق الذي قمت بإدخاله. وإلا، فيمكنك تخطي الخطوة التالية.  
 
 21. حدد "نعم" في حقل "الإعداد الافتراضي لتعيين النموذج‬".
 22. في الشجرة، حدد "1099 نموذج المدفوعات".

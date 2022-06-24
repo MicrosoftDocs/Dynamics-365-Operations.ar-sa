@@ -1,6 +1,6 @@
 ---
 title: بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام ‏‫وعاء الفواتير‬
-description: يصف هذا الموضوع كيفية استخدام السجل لإنشاء الفواتير.
+description: توضح هذه المقالة كيفية استخدام السجل لإنشاء الفواتير.
 author: abruer
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf781089469f87dc0a98279003c94fd1e8bf9dbe
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: fc3f1107a9564120aae77a75e6232879bf3c51af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858368"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>بيانات الفاتورة الرئيسية في نظام الحسابات الدائنة باستخدام ‏‫وعاء الفواتير‬
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيفية استخدام السجل لإنشاء الفواتير. بعد ذلك، استخدم وعاء الفواتير لمطابقة الفاتورة مع أمر شراء ووضع الصيغة النهائية للمصروفات في صفحة فاتورة المورّد.
+توضح هذه المقالة كيفية استخدام السجل لإنشاء الفواتير. بعد ذلك، استخدم وعاء الفواتير لمطابقة الفاتورة مع أمر شراء ووضع الصيغة النهائية للمصروفات في صفحة فاتورة المورّد.
 
 
 ## <a name="create-a-purchase-order"></a>إنشاء أمر شراء

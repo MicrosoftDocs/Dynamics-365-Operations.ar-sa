@@ -1,6 +1,6 @@
 ---
-title: معالجة أهلية التسجيل
-description: يوضح هذا الموضوع كيفية تشغيل معالجة أهلية التسجيل.
+title: معالجة أهلية التسجيل‬
+description: يوضح هذا المقال كيفية تشغيل معالجة أهلية التسجيل.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78a7de6dbb8d8ed13392eb7eb9aa02b15db2e009
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c01d7a6f456514fc9da1889ccaff5af1ae7c0f52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877732"
 ---
-# <a name="process-enrollment-eligibility"></a>معالجة أهلية التسجيل
+# <a name="process-enrollment-eligibility"></a>معالجة أهلية التسجيل‬
 
 
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوضح هذا الموضوع كيفية تشغيل معالجة أهلية التسجيل.
+يوضح هذا المقال كيفية تشغيل معالجة أهلية التسجيل.
 
 1. في مساحة العمل **إدارة المزايا**، ضمن **معالجة**، حدد **معالجة أهلية التسجيل**.
 
@@ -55,7 +55,7 @@ ms.locfileid: "8693160"
 
 ## <a name="view-process-results"></a>عرض نتائج العملية
 
-يوضح هذا الموضوع كيفية عرض نتائج عملية التأهل.
+يوضح هذا المقال كيفية عرض نتائج عملية التأهل.
 
 1.  في مساحة العمل **إدارة المزايا**، ضمن **معالجة**، حدد **نتائج العملية**.
 

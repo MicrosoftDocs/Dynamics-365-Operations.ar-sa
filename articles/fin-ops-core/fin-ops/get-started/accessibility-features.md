@@ -1,6 +1,6 @@
 ---
 title: ميزات إمكانية الوصول
-description: يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة.
+description: تصف هذه المقالة الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة.
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071048"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881040"
 ---
 # <a name="accessibility-features"></a>ميزات إمكانية الوصول
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071048"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-يصف هذا الموضوع الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة في استخدام هذا التطبيق. على سبيل المثال، هناك ميزات للأشخاص الذين يستخدمون تقنيات مساعدة مرئية، مثل Microsoft Windows Narrator.
+تصف هذه المقالة الوظيفة التي تم تصميمها لمساعدة المستخدمين الذين يعانون من إعاقات مختلفة في استخدام هذا التطبيق. على سبيل المثال، هناك ميزات للأشخاص الذين يستخدمون تقنيات مساعدة مرئية، مثل Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator والوصول إلى لوحة المفاتيح فقط
 
@@ -49,7 +49,7 @@ ms.locfileid: "8071048"
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>البحث عن إجراء لمستخدمي لوحة المفاتيح فقط أو لإدخال البيانات أسفل الرؤوس
 
-يمكن الوصول إلى كل إجراء متوفر على صفحة من لوحة مفاتيح أو عن طريق تسلسل علامة التبويب. يتم توفير معلومات حول تسلسل التبويب لاحقًا في هذا الموضوع. لتشغيل الإجراءات بشكل أكثر مباشرةً، يمكنك استخدام وظيفة البحث عن إجراء.
+يمكن الوصول إلى كل إجراء متوفر على صفحة من لوحة مفاتيح أو عن طريق تسلسل علامة التبويب. يتم توفير معلومات عن تسلسل التبويب لاحقًا في هذه المقالة. لتشغيل الإجراءات بشكل أكثر مباشرةً، يمكنك استخدام وظيفة البحث عن إجراء.
 
 ### <a name="example"></a>مثال
 

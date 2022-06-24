@@ -1,6 +1,6 @@
 ---
 title: تكامل الملاحظات
-description: يوضح هذا الموضوع تكامل بيانات الملاحظات في الكتابة المزدوجة.
+description: توضح هذه المقالة تكامل بيانات الملاحظات في الكتابة المزدوجة.
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876704"
 ---
 # <a name="note-integration"></a>تكامل الملاحظات
 
@@ -22,7 +22,7 @@ ms.locfileid: "8062765"
 
 
 
-أثناء عمليات الأعمال، عادة ما يجمع مستخدمو Microsoft Dynamics 365 معلومات حول عملائهم. يتم تسجيل هذه المعلومات كأنشطة وملاحظات. يوضح هذا الموضوع تكامل بيانات الملاحظات في الكتابة المزدوجة.
+أثناء عمليات الأعمال، عادة ما يجمع مستخدمو Microsoft Dynamics 365 معلومات حول عملائهم. يتم تسجيل هذه المعلومات كأنشطة وملاحظات. توضح هذه المقالة تكامل بيانات الملاحظات في الكتابة المزدوجة.
 
 يمكن تصنيف معلومات العميل بالطرق التالية:
 

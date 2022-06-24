@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة حول إنشاء عمليات سير العمل
-description: يوضح هذا الموضوع كيفية إنشاء سير عمل.
+description: توضح هذه المقالة كيفية إنشاء سير عمل.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864475"
 ---
 # <a name="create-workflows-overview"></a>نظرة عامة حول إنشاء عمليات سير العمل
 
@@ -31,7 +31,7 @@ ms.locfileid: "8067948"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-يوضح هذا الموضوع كيفية إنشاء سير عمل.
+توضح هذه المقالة كيفية إنشاء سير عمل.
 
 ## <a name="open-the-workflow-editor"></a>فتح محرر سير العمل
 
@@ -56,7 +56,7 @@ ms.locfileid: "8067948"
 
 1. انقر فوق اللوحة القماشية للتأكد من عدم تحديد أي عنصر سير عمل.
 2. انقر فوق **خصائص** لفتح الصفحة **خصائص** لسير العمل.
-3. اتبع الإجراءات المذكورة في الموضوع [تكوين خصائص سير العمل](configure-workflow-properties.md).
+3. اتبع الإجراءات المذكورة في مقالة [تكوين خصائص سير العمل](configure-workflow-properties.md) .
 
 ## <a name="configure-the-elements-of-the-workflow"></a>تكوين عناصر سير العمل
 

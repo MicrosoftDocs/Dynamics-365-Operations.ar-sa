@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (6 أكتوبر 2020)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 6 أكتوبر، 2020.
+description: توفر هذه المقالة الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 6 أكتوبر 2020.
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887707"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources‏ (6 أكتوبر 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062969"
 
 
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources. لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
+توضح هذه المقالة الميزات الجديدة أو المتغيرة أو التي ستصدر قريبًا في Dynamics 365 Human Resources. لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
 لمزيد من المعلومات حول الميزات الجديدة وتواريخ التوفر العام المتوقعة الخاصة بها، راجع [نظرة عامة حول Dynamics 365 Human Resources الإصدار 2020، الموجة 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -48,9 +48,9 @@ ms.locfileid: "8062969"
 يتضمن هذا الإصدار إصلاحات الأخطاء التالية.
 
 >[!NOTE]
-> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. قد تكون هناك تحديثات لهذا الموضوع لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. يمكن أن تكون هناك تحديثات لهذه المقالات لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذه المقالة في البداية.
 
-| رقم الإصدار | إصدار | الوصف |
+| رقم الإصدار | المشكلة | ‏‏الوصف‬ |
 | --- | --- | --- |
 | 448806 | **نوع الهوية الافتراضي** يعمل على تصدير **RecID** في معلمات HCM | يعمل هذا التغيير في كيان معلمات الموارد البشرية إلى إضافة عمود إضافي يعرض **نوع الهوية الافتراضي**. |
 | 492923 | لا يتم حفظ تسجيلات المهام في Lifecycle Services (LCS) | يمكن حفظ تسجيلات المهام الآن في LCS. |

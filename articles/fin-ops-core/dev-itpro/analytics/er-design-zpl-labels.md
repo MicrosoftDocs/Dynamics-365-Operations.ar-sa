@@ -1,6 +1,6 @@
 ---
-title: تصميم حل جديد لإعداد التقارير الإلكترونية لطباعة تسميات ZPL
-description: يشرح هذا الموضوع كيفية تصميم حل جديد لإعداد التقارير الإلكترونية (ER) لطباعة ملصقات لغة برمجة Zebra (ZPL).
+title: تصميم حل جديد لإعداد التقارير الإلكترونية (ER) لطباعة تسميات ZPL
+description: تشرح هذه المقالة كيفية تصميم حل جديد لإعداد التقارير الإلكترونية (ER) لطباعة ملصقات لغة برمجة Zebra (‏‎ZPL).
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845704"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>تصميم حل جديد لإعداد التقارير الإلكترونية لطباعة تسميات ZPL
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>تصميم حل جديد لإعداد التقارير الإلكترونية (ER) لطباعة تسميات ZPL
 
 [!include [banner](../includes/banner.md)]
 
 
-يشرح هذا الموضوع كيف يمكن للمستخدم في دور مسؤول النظام أو مطور التقارير الإلكترونية أو المستشار الوظيفي لإعداد التقارير الإلكترونية تكوين معلمات إطار عمل [التقارير الإلكترونية (ER)](general-electronic-reporting.md)، وتصميم [تكوينات](general-electronic-reporting.md#Configuration)  التقارير الإلكترونية المطلوبة لحل ER جديد للوصول إلى بيانات نظام إدارة المستودعات، وإنشاء ملصقات مخصصة لموقع المستودع بتنسيق Zebra Programming Language (ZPL) II. يمكن تنفيذ هذه الخطوات في شركة **USRT**.
+تشرح هذه المقالة كيف يمكن للمستخدم في دور مسؤول النظام أو مطور التقارير الإلكترونية أو المستشار الوظيفي لإعداد التقارير الإلكترونية تكوين معلمات إطار عمل [التقارير الإلكترونية (ER)](general-electronic-reporting.md) وتصميم [تكوينات](general-electronic-reporting.md#Configuration) التقارير الإلكترونية المطلوبة لحل ER جديد للوصول إلى بيانات نظام إدارة المستودعات، وإنشاء ملصقات مخصصة لموقع المستودع بتنسيق Zebra Programming Language (ZPL) II. يمكن تنفيذ هذه الخطوات في شركة **USRT**.
 
 ## <a name="business-scenario"></a>سيناريو الأعمال
 

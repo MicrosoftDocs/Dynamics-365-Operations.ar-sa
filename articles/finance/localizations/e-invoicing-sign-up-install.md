@@ -1,6 +1,6 @@
 ---
 title: تسجيل الاشتراك في وتثبيت خدمة الفوترة الإلكترونية
-description: يوفر هذا الموضوع معلومات حول كيفية التسجيل في خدمة الفواتير الإلكترونية وتثبيتها.
+description: توفر هذه المقالة معلومات عن كيفية التسجيل في خدمة الفواتير الإلكترونية وتثبيتها.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ab16652e4a50dd71a5d0b2b49b4dd79e327f7a8
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865515"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>تسجيل الاشتراك في وتثبيت خدمة الفوترة الإلكترونية
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات حول كيفية التسجيل في خدمة الفواتير الإلكترونية وتثبيتها. توجد أربع خطوات لهذه العملية. الخطوات من 1 إلى 3 مطلوبه، والخطوة 4 اختياريه.
+توفر هذه المقالة معلومات عن كيفية التسجيل في خدمة الفواتير الإلكترونية وتثبيتها. توجد أربع خطوات لهذه العملية. الخطوات من 1 إلى 3 مطلوبه، والخطوة 4 اختياريه.
 
 ### <a name="step-1-sign-up-for-regulatory-configuration-service"></a>الخطوة 1: الاشتراك في Regulatory Configuration Service
 
@@ -38,7 +38,7 @@ ms.locfileid: "8371477"
 
 ### <a name="step-2-install-the-add-in-for-microservices-in-microsoft-dynamics-lifecycle-services"></a>الخطوة 2: تثبيت الوظيفة الإضافية للخدمات المصغرة في Microsoft Dynamics ‏Lifecycle Services
 
-خدمة الفوترة الإلكترونية عبارة عن مجموعة من الخدمات المصغرة التي تتم استضافتها في مراكز بيانات Microsoft. بشكل افتراضي، ليس لدى عملاء Dynamics 365 Finance وDynamics 365 Supply Chain Management حق الوصول إلى خدمة الفوترة الإلكترونية. يجب عليك تثبيتها كوظيفة اضافيه في Microsoft Dynamics Lifecycle Services (LCS). عند تثبيت الوظيفة الإضافية، يتم تسجيل بيئة Finance أو Supply Chain Management في سجل التطبيقات المسموح لها بالاتصال بخدمة الفوترة الإلكترونية.
+خدمة الفوترة الإلكترونية عبارة عن مجموعة من الخدمات المصغرة التي تتم استضافتها في مراكز بيانات Microsoft. بشكل افتراضي، ليس لدى عملاء Dynamics 365 Finance و Dynamics 365 Supply Chain Management حق الوصول إلى خدمة الفوترة الإلكترونية. يجب عليك تثبيتها كوظيفة اضافيه في Microsoft Dynamics Lifecycle Services (LCS). عند تثبيت الوظيفة الإضافية، يتم تسجيل بيئة Finance أو Supply Chain Management في سجل التطبيقات المسموح لها بالاتصال بخدمة الفوترة الإلكترونية.
 
 لإكمال هذه الخطوة، راجع [تثبيت الوظيفة الإضافية للخدمات المصغرة في Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md).
 

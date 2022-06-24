@@ -1,6 +1,6 @@
 ---
 title: استكشاف المشكلات من ترقيات تطبيقات Finance and Operations
-description: يوفر هذا الموضوع معلومات استكشاف الأخطاء وإصلاحها التي يمكنها أن تساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات التمويل والعمليات.
+description: توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها التي يمكنها أن تساعدك على إصلاح المشكلات ذات الصلة بترقيات تطبيقات التمويل والعمليات.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 954268b03be2be90f67dc9b7756f33215856864a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882131"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>استكشاف المشكلات من ترقيات تطبيقات Finance and Operations
 
@@ -24,10 +24,10 @@ ms.locfileid: "8062815"
 
 
 
-يوفر هذا الموضوع معلومات حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات التمويل والعمليات.
+توفر هذه المقالة معلومات عن استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات و Dataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات ذات الصلة بترقيات تطبيقات التمويل والعمليات.
 
 > [!IMPORTANT]
-> قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
+> قد تتطلب بعض المشكلات التي تتناولها هذه المقالة إما منصب مسؤول النظام أو بيانات اعتماد مسؤول مستأجر Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
 
 ## <a name="database-synchronization-errors"></a>أخطاء مزامنة قواعد البيانات
 

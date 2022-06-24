@@ -1,6 +1,6 @@
 ---
 title: اختيار تقنية تكامل بيانات
-description: يقدم هذا الموضوع معلومات حول التكامل مع البيانات المدارة بواسطة Human Resources.
+description: توفر هذه المقالة معلومات عن التكامل مع البيانات المدارة بواسطة الموارد البشرية.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887779"
 ---
 # <a name="choose-a-data-integration-technology"></a>اختيار تقنية تكامل بيانات
 
@@ -30,7 +30,7 @@ ms.locfileid: "8717128"
 
 
 
-يقدم هذا الموضوع معلومات حول التكامل مع البيانات المدارة بواسطة Dynamics 365 Human Resources. وهو يصف تقنيات تكامل مختلفة لمساعدتك على تحديد أفضل التقنيات التي تناسب احتياجاتك.
+تقدم هذه المقالة معلومات عن التكامل مع البيانات المدارة بواسطة Dynamics 365 Human Resources. وهو يصف تقنيات تكامل مختلفة لمساعدتك على تحديد أفضل التقنيات التي تناسب احتياجاتك.
 
 ## <a name="data-integration-background"></a>خلفية تكامل البيانات
 

@@ -1,6 +1,6 @@
 ---
 title: تكوين جداول Dataverse الظاهرية
-description: يوضح هذا الموضوع كيفية تكوين الجداول الافتراضية الموجودة وإنشاؤها وتحديثها وتحليل الجداول المنشأة والمتاحة لـ Dynamics 365 Human Resources.
+description: توضح هذه المقالة كيفية تكوين الجداول الافتراضية الموجودة وإنشاؤها وتحديثها وتحليل الجداول المنشأة والمتاحة لـ Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d7f4d3770c754d2a7974d17fc7c40462ac8fc642
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899719"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>تكوين جداول Dataverse الظاهرية
 

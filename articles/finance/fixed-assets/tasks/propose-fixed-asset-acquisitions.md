@@ -1,6 +1,6 @@
 ---
 title: اقتراح عمليات الاستحواذ على الأصول الثابتة‬
-description: يوضح هذا الموضوع كيفية الاستحواذ على أصل ثابت باستخدام مقترح الاستحواذ في دفتر يومية الأصول الثابتة.
+description: توضح هذه المقالة كيفية الاستحواذ على أصل ثابت باستخدام مقترح الاستحواذ في دفتر يومية الأصول الثابتة.
 author: moaamer
 ms.date: 03/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd54642e5ec6c56fbc3a5ebb07fc8fdaf5545926
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 35d2171dc828cb0227f310e81be1d3e3359f41c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909058"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>اقتراح عمليات الاستحواذ على الأصول الثابتة‬
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية الاستحواذ على أصل ثابت باستخدام مقترح الاستحواذ في دفتر يومية الأصول الثابتة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF. للاستحواذ على أصل ثابت من خلال دفتر يومية مقترح الأصل الثابت، يجب أولاً إنشاء سجل الأصل الثابت، ثم تحديد سعر الاستحواذ في دفتر الأصول.
+توضح هذه المقالة كيفية الاستحواذ على أصل ثابت باستخدام مقترح الاستحواذ في دفتر يومية الأصول الثابتة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF. للاستحواذ على أصل ثابت من خلال دفتر يومية مقترح الأصل الثابت، يجب أولاً إنشاء سجل الأصل الثابت، ثم تحديد سعر الاستحواذ في دفتر الأصول.
 
 ## <a name="create-an-asset-acquisition-proposal"></a>إنشاء مقترح الاستحواذ على الأصول
 

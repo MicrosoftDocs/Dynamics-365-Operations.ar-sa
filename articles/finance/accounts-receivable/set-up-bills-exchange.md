@@ -1,6 +1,6 @@
 ---
 title: إعداد الكمبيالات
-description: يصف هذا الموضوع خطوات إعداد الكمبيالات.
+description: توضح هذه المقالة خطوات إعداد الكمبيالات.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6a9d04500ffe5b93c7a95c5cac9b4270e208dde9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874714"
 ---
 # <a name="set-up-bills-of-exchange"></a>إعداد الكمبيالات
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع خطوات إعداد الكمبيالات.
+توضح هذه المقالة خطوات إعداد الكمبيالات.
 
 الكمبيالة هي عبارة عن أمر كتابي أو إلكتروني من أحد العملاء يحدد أن طرفًا آخر، عادة أحد البنوك، يجب أن يدفع مبلغًا محددًا للشركة. عند استخدام كمبيالة لدفع فاتورة أمر توريد أو فاتورة النص الحر، تصبح دائنًا لحساب العميل. ويتم تأمين هذا الرصيد الدائن بواسطة الكمبيالة حتى يقوم العميل بسداد الكمبيالة للبنك. وتتم عادة تسوية الفاتورة بالكمبيالة في تاريخ الاستحقاق. عند استلام إخطار من البنك بأن الكمبيالة قد تم دفعها، يمكن إغلاق الكمبيالة. يمكن سحب الكمبيالة من خلال البنك في أي من الأوقات التالية:
 

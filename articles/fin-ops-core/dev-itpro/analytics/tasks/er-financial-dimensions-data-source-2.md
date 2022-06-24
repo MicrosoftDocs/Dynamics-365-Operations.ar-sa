@@ -1,6 +1,6 @@
 ---
 title: "\"التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 2 - تعيين النموذج)"
-description: يوضح هذا الموضوع كيفيه تكوين نموذج التقرير الكتروني (ER) لاستخدام الابعاد المالية كمصدر بيانات لتقارير ER. (جزء 2)
+description: توضح هذه المقالة كيفية تكوين نموذج التقارير الإلكترونية (ER) لاستخدام الأبعاد المالية كمصدر بيانات لتقارير الإلكترونية (ER). (جزء 2)
 author: NickSelin
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: d228ee9d393cab1c5c1592ca6570cdc91992c38c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878331"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>"التقارير الإلكترونية - استخدام الأبعاد المالية كمصدر بيانات (الجزء 2 - تعيين النموذج)
 
@@ -94,7 +94,7 @@ ms.locfileid: "7605384"
 25. في الشجرة، حدد "LedgerJournal\<العلاقات\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\الحساب الرئيسي والأبعاد".
 26. في الشجرة، حدد "دفتر اليومية\الحركة\بيانات الأبعاد".
 27. انقر فوق "ربط".
-[! صفحه مصمم تعيين النموذج ، علامة التبويب تعيين ، شجره مصادر البيانات.](../media/er-financial-dimensions-guides-model-mapping3.png)
+صفحة مصمم تعيين النموذج التي تعرض شجرة مصادر البيانات وعلامة تبويب التعيين](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. في الشجرة، حدد "LedgerJournal\<العلاقات\LedgerJournalTrans\الدين(AmountCurDebit)'.
 29. في الشجرة، حدد "دفتر اليومية\الحركة\الدين".
 30. انقر فوق "ربط".
